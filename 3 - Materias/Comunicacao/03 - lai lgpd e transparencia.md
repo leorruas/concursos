@@ -42,31 +42,63 @@ Mecanismos institucionais pelos quais cidadãos, movimentos sociais e partes int
 Apresentação, justificativa e demonstração transparente dos atos, recursos aplicados e resultados obtidos pela Administração Pública, sujeitando os gestores à responsabilização e ao escrutínio social.
 * **Publicidade Institucional ≠ Prestação de Contas**: Campanhas de publicidade institucional podem destacar aspectos favoráveis para construção de imagem; a prestação de contas (*accountability*) exige clareza sobre metas, indicadores, custos, limitações e eventuais problemas ocorridos, alinhando-se com a postura de transparência em momentos de crise.
 
----
+## LGPD: Estrutura Geral e Princípios Fundamentais (Lei nº 13.709/2018)
 
-## LGPD Aplicada à Comunicação Social
+### 1. Tratamento de dados pessoais e categorias
+Tratamento é toda operação realizada com dados pessoais (coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação, modificação, comunicação, transferência ou difusão). Até a simples **eliminação ou guarda** constitui tratamento.
 
-### 1. Tratamento de Dados Pessoais
-Abrange qualquer operação realizada com dados pessoais (coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação, modificação, comunicação, transferência, difusão ou extração).
-* **Dado Pessoal**: Informação relacionada a pessoa natural identificada ou identificável (nome, CPF, e-mail, telefone, foto identificável, endereço IP).
-* **Dado Pessoal Sensível**: Categoria jurídica com proteção reforçada (origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização religiosa/filosófica/política, dado referente à saúde ou à vida sexual, dado genético ou biométrico).
+* **Dado pessoal**: informação relacionada a pessoa natural identificada ou identificável (ex: nome, CPF, endereço, e-mail, telefone, IP).
+* **Dado pessoal sensível**: dado sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização religiosa/filosófica/política, dado referente à saúde ou à vida sexual, dado genético ou biométrico vinculado a pessoa natural.
+* **Dado anonimizado**: dado relativo a titular que não possa ser identificado, considerando meios técnicos razoáveis e disponíveis na ocasião do tratamento (em regra, fica fora da LGPD).
+* **Dado pseudonimizado**: substituição de identificadores diretos por códigos (ex: `P01`), mantendo chave isolada que permite reidentificação (**continua sujeito à LGPD**).
 
-### 2. Bases Legais no Setor Público (Além do Consentimento)
-* **Pegadinha da FGV**: Consentimento **não é a única base legal** da LGPD. Na administração pública, dados pessoais são tratados frequentemente para **execução de políticas públicas e obrigações legais**.
-* A natureza pública da organização não autoriza o uso abusivo ou indiscriminado dos dados. O tratamento deve respeitar rigorosamente os princípios da LGPD.
+### 2. Bases legais além do consentimento
+* **Consentimento não é requisito universal**: a LGPD prevê diversas bases legais. Na Administração Pública e em empresas como Dataprev, os dados são tratados frequentemente para **execução de políticas públicas previstas em lei ou regulamento, cumprimento de obrigação legal ou regulatória e execução de contratos**.
+* A revogação do consentimento **não obriga a eliminação imediata de todo e qualquer dado** quando houver outra base legal legítima ou obrigação legal de conservação.
 
-### 3. Princípios Fundamentais para Campanhas e Mailings
-* **Finalidade**: Propósito legítimo, específico e informado (um e-mail fornecido para certidão não pode ser usado automaticamente para mailings de marketing sem respaldo).
-* **Adequação**: Compatibilidade entre o tratamento e a finalidade.
-* **Necessidade (Minimização)**: Limitação do tratamento ao mínimo necessário para a finalidade (não solicitar CPF, idade e endereço quando basta o e-mail para envio de um informativo).
-* **Transparência e Segurança**: Garantia de informações claras ao titular e uso de medidas técnicas de proteção.
+### 3. Rol dos princípios fundamentais (art. 6º)
+1. **Finalidade**: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular.
+2. **Adequação**: compatibilidade do tratamento com as finalidades informadas.
+3. **Necessidade (minimização)**: limitação do tratamento ao mínimo necessário para a realização de suas finalidades (abrangendo dados pertinentes e não excessivos).
+4. **Livre acesso**: garantia de consulta facilitada e gratuita sobre a forma, duração e integralidade de seus dados.
+5. **Qualidade dos dados**: garantia de exatidão, clareza, relevância e atualização dos dados.
+6. **Transparência**: informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes.
+7. **Segurança**: utilização de medidas técnicas e administrativas aptas a proteger os dados de acessos não autorizados e situações acidentais ou ilícitas (ex: criptografia, controle de acessos).
+8. **Prevenção**: adoção de medidas antecipadas para prevenir a ocorrência de danos em virtude do tratamento de dados.
+9. **Não discriminação**: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos.
+10. **Responsabilização e prestação de contas**: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas.
 
-### 4. Fotografias e Imagens Institucionais
-* Fotografias em que indivíduos são identificáveis constituem dados pessoais. O uso exige análise de finalidade, contexto e base jurídica (registro de evento público vs. personagem principal de campanha institucional). Nem toda fotografia exige obrigatoriamente consentimento escrito, mas o uso comercial ou descontextualizado sem base legal gera ilicitualidade.
+> [!NOTE]
+> **Heurística de diferenciação rápida**:
+> - *Finalidade* = qual é o propósito?
+> - *Adequação* = o tratamento combina com o propósito?
+> - *Necessidade* = estou usando apenas o estritamente necessário?
+> - *Segurança* = mecanismos técnicos e administrativos de proteção.
+> - *Prevenção* = medidas antecipadas para evitar danos.
+> - *Prestação de contas* = comprovar com evidências que agiu corretamente.
 
-### 5. Anonimização vs. Pseudonimização
-* **Anonimização**: Dado perde a possibilidade razoável de associação direta ou indireta a um indivíduo (fica fora do regime da LGPD).
-* **Pseudonimização**: Substituição do identificador direto por um código/pseudônimo (ex: substituir nome por `P01`), mas mantendo uma chave em separado que permite a reidentificação. **Continua sujeito à LGPD**.
+### 4. Personagens e agentes de tratamento (art. 5º)
+* **Titular**: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento.
+* **Controlador**: pessoa natural ou jurídica, de direito público ou privado, a quem competem as **decisões** referentes ao tratamento de dados pessoais.
+* **Operador**: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais **em nome do controlador** (executa segundo instruções).
+* **Agentes de tratamento**: gênero que engloba tanto o **controlador** quanto o **operador**.
+* **Encarregado (DPO)**: pessoa indicada pelo controlador e operador para atuar como **canal de comunicação** entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD).
+
+### 5. Direitos do titular (art. 18)
+O titular dos dados pessoais tem direito a obter do controlador, em relação aos dados por ele tratados, a qualquer momento e mediante requisição:
+* Confirmação da existência de tratamento e acesso aos dados;
+* Correção de dados incompletos, inexatos ou desatualizados;
+* **Anonimização, bloqueio ou eliminação** de dados desnecessários, excessivos ou tratados em desconformidade com a LGPD;
+* Portabilidade dos dados a outro fornecedor de serviço ou produto;
+* Eliminação dos dados pessoais tratados com o consentimento do titular (ressalvadas hipóteses legais de guarda);
+* Informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados;
+* Revogação do consentimento.
+
+### 6. Decisões automatizadas e inteligência artificial (art. 20)
+* O titular dos dados tem direito a **solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado** de dados pessoais que afetem seus interesses, incluídas as decisões destinadas a definir o seu perfil pessoal, profissional, de consumo e de crédito ou os aspectos de sua personalidade.
+* **Atenção em prova**: a LGPD **não proíbe** decisões exclusivamente automatizadas e **não exige obrigatoriamente que a revisão seja feita por pessoa humana** (a exigência de revisão humana foi vetada na tramitação da lei).
+* O controlador deve fornecer, sempre que solicitadas, informações claras e adequadas a respeito dos **critérios e dos procedimentos** utilizados para a decisão automatizada, observados os segredos comercial e industrial.
+* O uso de algoritmos matemáticos ou IA **não afasta** os princípios da LGPD, especialmente o princípio da não discriminação.
 
 ---
 

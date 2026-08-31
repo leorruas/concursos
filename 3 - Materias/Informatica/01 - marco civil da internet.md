@@ -43,6 +43,23 @@ A disciplina do uso da internet no Brasil tem como fundamentos:
    - **Exceções estritas de degradação/discriminação**: permitidas exclusivamente por (1) requisitos técnicos indispensáveis à prestação adequada dos serviços ou (2) priorização de serviços de emergência.
 4. **Preservação da estabilidade, segurança e funcionalidade da rede**.
 
+### Direitos e garantias dos usuários (art. 7º)
+O Marco Civil assegura direitos expressos aos usuários de internet no Brasil:
+* **Inviolabilidade da intimidade e da vida privada**: proteção e indenização pelo dano material ou moral decorrente de sua violação.
+* **Inviolabilidade e sigilo do fluxo de comunicações**: sigilo das mensagens em trânsito pela rede, salvo ordem judicial.
+* **Inviolabilidade e sigilo de comunicações privadas armazenadas**: sigilo de históricos e e-mails guardados em servidores, salvo ordem judicial.
+* **Não suspensão da conexão à internet**: salvo por débito decorrente diretamente de sua utilização.
+* **Manutenção da qualidade contratada**: direito à prestação dos serviços nos padrões contratados.
+* **Informações claras nos contratos**: detalhamento sobre proteção de registros, dados pessoais e gestão de tráfego.
+* **Consentimento e finalidade na coleta de dados**: informações claras sobre coleta, uso e armazenamento, que somente podem ser utilizados para finalidades justificadas e especificadas.
+* **Exclusão definitiva de dados**: direito de exigir a exclusão de dados pessoais fornecidos à aplicação ao término da relação, a requerimento, ressalvadas as hipóteses legais de guarda obrigatória.
+* **Vedação ao monitoramento indiscriminado**: provedores de conexão não podem registrar o histórico de aplicações acessadas pelos usuários.
+
+> [!NOTE]
+> **Fluxo vs. armazenamento**:
+> - *Fluxo*: comunicação em trânsito (ex: mensagem viajando de A para B).
+> - *Armazenamento*: comunicação guardada no servidor/aplicação (ex: histórico de conversas).
+
 ---
 
 ## 3. Responsabilidade civil por danos decorrentes de conteúdo de terceiros
@@ -56,11 +73,14 @@ Como regra geral, **o provedor de aplicações de internet NÃO responde civilme
 > **A regra de ouro (art. 19)**:
 > O provedor de aplicações somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, **após ordem judicial específica**, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente.
 > 
-> - **Notificação extrajudicial NÃO gera responsabilidade automática** na regra geral.
-> - O envio de e-mail ou notificação extrajudicial por particular não obriga o provedor a excluir conteúdo sob pena de indenização (evitando a censura privada).
+> [!NOTE]
+> **Atenção em prova (STF vs. literalidade da lei)**:
+> O STF julgou a inconstitucionalidade parcial do art. 19 (com eficácia vinculante), admitindo hipóteses em que a ciência inequívoca/notificação pode gerar responsabilidade civil em casos de crimes graves, desinformação eleitoral ou violações patentes, mitigando a exigência absoluta de ordem judicial prévia.
+> - Se a questão cobrar **"segundo a literalidade da Lei nº 12.965/2014"**: a regra geral do art. 19 exige ordem judicial específica.
+> - Se a questão cobrar **"entendimento contemporâneo do STF"**: a exigência irrestrita de ordem judicial foi flexibilizada para situações específicas de proteção de direitos fundamentais.
 
 ### A exceção legal estrita: notificação extrajudicial de nudez/sexo (art. 21)
-Existe uma **exceção expressa** à exigência de ordem judicial:
+Existe uma **exceção expressa** à exigência de ordem judicial no próprio texto da lei:
 * **Violação da intimidade decorrente da divulgação não autorizada de imagens, vídeos ou outros materiais contendo cenas de nudez ou de atos sexuais de caráter privado**.
 * Nesses casos, o provedor de aplicação responde subsidiariamente se, **após o recebimento de notificação formal da vítima ou de seu representante legal**, deixar de promover, de forma diligente e nos limites técnicos, a indisponibilização desse conteúdo.
 

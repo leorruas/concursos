@@ -76,6 +76,3 @@ A função social do jornalismo na democracia vai além do mero relato neutro de
   No ecossistema digital, o jornalismo compartilha o papel de *gatekeeper* com algoritmos de plataformas, buscadores, influenciadores e redes de cidadãos, exigindo maior rigor na apuração e checagem de fatos.
 
 ---
-
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]

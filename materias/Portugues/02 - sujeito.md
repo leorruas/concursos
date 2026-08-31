@@ -93,6 +93,3 @@ Nomes próprios no plural dependem estritamente da presença do artigo para dete
   - Ex: *"Estados Unidos é uma potência."* / *"Minas Gerais produz muito queijo."*
 
 ---
-
-**Fontes Brutas:**
-- `inbox/2026.md` (ingerido)

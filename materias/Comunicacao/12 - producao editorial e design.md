@@ -134,8 +134,6 @@ O fechamento de arquivos é a preparação técnica de documentos digitais para 
 *   **Formato de Exportação**: O formato PDF puro não é garantia de prontidão. Impressões profissionais exigem padrões normatizados específicos, sendo o **PDF/X** (ex: PDF/X-1a ou PDF/X-4) o padrão para controle de transparências, fontes e conversões de cores.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]
 
 ---
 
@@ -261,6 +259,4 @@ Obturador (tempo) ──── ISO (sensibilidade)
 * A direção de arte coordena o ecossistema estético da comunicação. No setor público, a consistência gráfica reduz ambiguidades, previne fraudes/golpes de falsa identidade governamental e consolida a confiança institucional do cidadão.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]
 

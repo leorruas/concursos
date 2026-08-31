@@ -219,9 +219,6 @@ A estruturação editorial e relacional nos canais institucionais responde a qua
    - *Moderação Democrática*: Na comunicação pública, a crítica fundamentada deve ser acolhida. A moderação legítima restringe-se a discursos de ódio, spam, golpes ou ataques cibernéticos.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/06-07-2026]]
-- [[00 ingestão]]
 
 ---
 

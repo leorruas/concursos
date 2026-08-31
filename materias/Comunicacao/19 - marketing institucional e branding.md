@@ -189,5 +189,3 @@ O funil organiza diferentes estágios de aproximação entre o público e a aç�
 A efetividade do marketing de conteúdo depende da coerência entre a promessa comunicacional e a experiência entregue. Conteúdos úteis podem ampliar confiança e autoridade, mas não compensam de forma duradoura serviços inacessíveis, processos confusos ou falhas operacionais. Existe possível desalinhamento entre a promessa e a experiência entregue caso o serviço não funcione.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]

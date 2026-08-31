@@ -57,5 +57,3 @@ Métricas vinculadas diretamente aos objetivos de eficácia do plano.
 - **Monitoramento contínuo**: O monitoramento é cobrado como atividade concomitante à execução (permite correções de rota), e não apenas avaliações *a posteriori*.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]

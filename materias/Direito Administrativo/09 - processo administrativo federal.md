@@ -67,6 +67,3 @@ A competência administrativa é irrenunciável e se exerce pelos órgãos a que
 - **Toda decisão motivada**: A lei exige motivação para atos que afetem direitos ou interesses dos administrados, ou processos que a lei determine de forma expressa (não alcançando meros despachos internos de expediente).
 
 ---
-
-**Fontes Brutas:**
-- [[00 inbox/29-06-2026.md|Inbox - 29-06-2026]]

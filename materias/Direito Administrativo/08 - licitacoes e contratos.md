@@ -95,7 +95,3 @@ Formas objetivas pelas quais a Administração define a proposta vencedora:
 4.  **Técnica e preço**: Ponderação balanceada entre a qualidade técnica da proposta e o preço ofertado.
 
 ---
-
-**Fontes Brutas:**
-- [[00 inbox/12-06-2026|Inbox de 12/06/2026]]
-- [[00 inbox/15-06-2026|Inbox de 15/06/2026]]

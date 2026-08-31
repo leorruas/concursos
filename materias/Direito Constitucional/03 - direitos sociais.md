@@ -42,5 +42,3 @@ Diferente dos direitos individuais (que exigem em regra uma abstenção do Estad
 - **Políticas Públicas**: Políticas públicas de fomento social têm justificativa constitucional mesmo se não estiverem descritas de forma literal ou cirúrgica no texto constitucional, pois decorrem de princípios como a dignidade da pessoa humana e a redução das desigualdades.
 
 ---
-**Fontes Brutas:**
-- [[11-06-2026|Inbox - 02-06-2026]]

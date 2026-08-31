@@ -66,5 +66,3 @@ graph TD
 *   **Poder de Polícia (Sem vínculo específico / Coletividade)**: Incide sobre qualquer cidadão, bem ou atividade privada (motorista autuado no trânsito, interdição de restaurante por normas sanitárias, fechamento de comércio sem alvará).
 
 ---
-**Fontes Brutas:**
-- [[11-06-2026|Inbox - 02-06-2026]]

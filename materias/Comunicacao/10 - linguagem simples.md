@@ -72,5 +72,3 @@ De acordo com as boas práticas de acessibilidade e normas técnicas (como a ABN
 > **Heurística de Imagens**: O texto alternativo deve refletir a **função comunicacional da imagem** no contexto, e não apenas descrever a imagem fisicamente. A descrição excessiva de detalhes visuais irrelevantes gera poluição informacional e dificulta o uso por tecnologias assistivas.
 
 ---
-**Fontes Brutas:**
-- [[00 ingestão]]

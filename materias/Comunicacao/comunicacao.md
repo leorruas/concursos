@@ -1,8 +1,5 @@
 # Comunicação (Concursos)
 
-## Avanços e Metodologia
-- [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
-
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
 - [[3 - Materias/Comunicacao/02 - comunicacao publica|02 • Comunicação pública]]

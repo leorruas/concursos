@@ -64,5 +64,3 @@ As quatro entidades criadas por descentralização são:
 - **Ministério/Secretaria**: São órgãos e não entidades. Logo, não possuem personalidade jurídica própria.
 
 ---
-**Fontes Brutas:**
-- [[11-06-2026|Inbox - 02-06-2026]]

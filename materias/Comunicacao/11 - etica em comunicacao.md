@@ -35,5 +35,3 @@ Ao analisar uma mensagem baseada em dados:
 > Pergunte: *o recorte apresentado permite compreender a totalidade do fenômeno ou oculta intencionalmente uma diferença relevante?*
 
 ---
-**Fontes Brutas:**
-- [[00 ingestão]]

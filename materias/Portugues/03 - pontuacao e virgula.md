@@ -59,6 +59,3 @@ Os adjuntos adverbiais (indicações de tempo, lugar, modo, etc.) vêm por padr�
   - Ex: *"Portanto, a medida deve ser revista."*
 
 ---
-
-**Fontes Brutas:**
-- `inbox/2026.md` (ingerido)

@@ -48,6 +48,3 @@ De acordo com Jorge Duarte, as práticas de comunicação pública estruturam-se
 O uso e a divulgação de ferramentas de IA na comunicação pública devem sempre privilegiar o impacto aos cidadãos e manter a responsabilidade pública e a governança nas mãos da instituição. Para aprofundamento das tensões éticas e de como a FGV aborda este tema, consulte [[wiki/inteligencia artificial#Inteligência Artificial na Comunicação Pública|Inteligência artificial]].
 
 ---
-**Fontes Brutas:**
-- [[00 ingestão]]
-- [[3 - Materias/Comunicacao/referencias/Comunicacao publica - Jorge Duarte]]

@@ -5,7 +5,7 @@ status: "ativo"
 created: 2026-05-25
 updated: 2026-05-29
 ---
-Proposição é uma **sentença fechada** que pode receber um valor lógico, isto é, pode ser classificada como ==**verdadeira ou falsa**. **O critério não é a verdade da frase**, mas a possibilidade de avaliação. A distinção central não está em depender ou não de contexto, mas em estar **estruturalmente completa**.
+Proposição é uma **sentença fechada** que pode receber um valor lógico, isto é, pode ser classificada como ==**verdadeira ou falsa**==. **O critério não é a verdade da frase**, mas a possibilidade de avaliação. A distinção central não está em depender ou não de contexto, mas em estar **estruturalmente completa**.
 
 Uma sentença fechada permite imaginar cenários em que é verdadeira ou falsa, mesmo que não saibamos qual é o caso real. Já sentenças abertas contêm **variáveis ou elementos indefinidos** (termos cujo valor ou referente não foi determinado) e, por isso, ainda não podem ser avaliadas.
 

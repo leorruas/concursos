@@ -57,5 +57,3 @@ A FGV costuma avaliar a qualidade e a neutralidade da condução de entrevistas,
 - **Escuta Ativa**: Valorizada como competência de flexibilização do roteiro de entrevista diante de novos fatos revelados pelo entrevistado.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]

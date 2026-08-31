@@ -111,7 +111,4 @@ A FGV apresenta casos envolvendo pedidos de acesso à informação contendo dado
 Outro ponto recente é a cobrança de incidentes de segurança combinando **gestão de crise + LGPD + linguagem simples**: a banca testa se o candidato sabe que a gestão de crise não substitui o protocolo formal de notificação em 3 dias úteis e que a mensagem ao titular deve ser clara e orientada a ações de proteção do cidadão.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/05-07-2026]]
-- [[00 ingestão]]
 

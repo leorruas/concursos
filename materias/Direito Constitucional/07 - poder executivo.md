@@ -48,5 +48,3 @@ Para evitar a tirania e a concentração absoluta de poder, a CF adota o sistema
 - **Preservação de Competências**: O controle recíproco não constitui invasão ou usurpação de competências, mas sim o cumprimento legítimo do modelo desenhado pela CF para manter a estabilidade institucional.
 
 ---
-**Fontes Brutas:**
-- [[11-06-2026|Inbox - 09-06-2026]]

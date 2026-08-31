@@ -44,5 +44,3 @@ O **fluxo** (direção) não se confunde com o **canal** (meio):
 - **Artefatos**: Afirmar que alterar o slogan ou layout representa mudar a essência da cultura (artefatos são apenas a camada superficial).
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]

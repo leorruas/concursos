@@ -67,6 +67,3 @@ Pergunte qual é a **função predominante** do texto:
 - *Propõe pauta pela assessoria?* -> Release.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]
-- [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling]]

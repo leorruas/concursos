@@ -56,5 +56,3 @@ Quando estiver diante de uma situação concreta na prova, faça as seguintes pe
 5.  **O que o ato produziu de efeito jurídico direto?** $\to$ **Objeto** (Vício: o efeito pretendido é proibido ou impossível de se realizar).
 
 ---
-**Fontes Brutas:**
-- [[11-06-2026|Inbox - 02-06-2026]]

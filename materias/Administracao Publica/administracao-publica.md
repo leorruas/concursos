@@ -29,4 +29,3 @@ Mapeamento de tópicos e organização das notas de Administração Pública par
 - Processo de compras públicas (visão geral).
 
 ---
-- **Acompanhamento**: [[Avancos|Avanços e desempenho]]

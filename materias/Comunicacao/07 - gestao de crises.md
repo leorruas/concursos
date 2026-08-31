@@ -118,5 +118,3 @@ Seções e atalhos de raciocínio que a banca utiliza para induzir o candidato a
 - **Finalidade da mensagem**: Sempre pergunte "o que queremos que o cidadão faça depois de ler isso?" para definir o formato e o canal do conteúdo.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/08-06-2026.md]]

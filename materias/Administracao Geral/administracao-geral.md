@@ -28,4 +28,3 @@ Mapeamento de tópicos e organização das notas de Administração Geral para c
 - Processo de tomada de decisão (racional, intuitivo e heurísticas).
 
 ---
-- **Acompanhamento**: [[Avancos|Avanços e desempenho]]

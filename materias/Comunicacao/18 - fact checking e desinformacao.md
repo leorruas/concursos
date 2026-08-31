@@ -51,6 +51,3 @@ Uma assessoria pública não deve reagir de forma idêntica a todo boato. A resp
 - Respostas estratégicas incluem: páginas de desmentido oficiais (fato ou fake), comunicados diretos aos usuários, FAQ atualizadas, ou ações legais e de segurança cibernética em caso de fraude.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]
-- [[wiki/inteligencia artificial]]

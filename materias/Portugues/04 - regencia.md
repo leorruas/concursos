@@ -56,6 +56,3 @@ Verbos como **informar**, **avisar**, **comunicar**, **cientificar** e **certifi
    - *"Informei o gestor [OD] do problema [OI]."* (Correto)
 
 ---
-
-**Fontes Brutas:**
-- `inbox/2026.md` (ingerido)

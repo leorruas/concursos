@@ -26,4 +26,3 @@ Mapeamento de tópicos e organização das notas de Atualidades para concursos.
 - Desafios da saúde, educação e segurança pública no Brasil.
 
 ---
-- **Acompanhamento**: [[Avancos|Avanços e desempenho]]

@@ -54,5 +54,3 @@ Os públicos possuem interesses, níveis de influência e poder assimétricos. A
 - **Conexão com Kunsch**: A banca explora o papel da comunicação integrada na coordenação do relacionamento da organização com sua complexa rede de stakeholders.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]

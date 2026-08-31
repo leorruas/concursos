@@ -20,10 +20,25 @@ const tituloLegivel = valor => valor.replace(/\b\w/g, letra => letra.toUpperCase
 const categoriaDoArquivo = caminho => caminho.split("/")[1];
 const slug = valor => normalizar(valor).replace(/[^a-z0-9\s-]/g, "").trim().replace(/\s+/g, "-");
 const escapar = valor => valor.replace(/[&<>"]/g, caractere => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[caractere]));
+const ordenarArtigos = lista => [...lista].sort((a, b) => arquivos.indexOf(a.caminho) - arquivos.indexOf(b.caminho));
 
 const home = document.getElementById("home-view"); const topics = document.getElementById("topics-view"); const article = document.getElementById("article-view"); const grid = document.getElementById("areas-grid"); const search = document.getElementById("search-input"); const homeSearch = document.getElementById("home-search-input"); const topbar = document.querySelector(".topbar");
 let artigos = []; let artigoAtual = null;
 let atualizarTocAtivo = null;
+let tema = localStorage.getItem("concursos-theme") || "dark";
+
+function configurarMermaid() {
+  const claro = tema === "light";
+  mermaid.initialize({ startOnLoad:false, theme:claro ? "base" : "dark", securityLevel:"strict", themeVariables:{ primaryColor:claro ? "#ede9df" : "#191919", primaryTextColor:claro ? "#171614" : "#f4f2ee", primaryBorderColor:claro ? "#a87800" : "#ffd52e", lineColor:claro ? "#a87800" : "#ffd52e", secondaryColor:claro ? "#e8e4da" : "#242222", tertiaryColor:claro ? "#f6f4ee" : "#101010" } });
+}
+function aplicarTema(novoTema) {
+  tema = novoTema;
+  document.documentElement.dataset.theme = tema;
+  localStorage.setItem("concursos-theme", tema);
+  document.querySelectorAll("[data-theme-toggle]").forEach(botao => botao.textContent = tema === "dark" ? "modo claro" : "modo escuro");
+  configurarMermaid();
+  if (artigoAtual && !article.hidden) abrirArtigo(artigoAtual, false);
+}
 
 async function carregarArtigos() {
   artigos = await Promise.all(arquivos.map(async caminho => {
@@ -47,7 +62,7 @@ function renderizarHome() {
 
 function abrirMateria(categoria) {
   if (window.location.hash !== `#/materia/${encodeURIComponent(categoria)}`) { window.location.hash = `#/materia/${encodeURIComponent(categoria)}`; return; }
-  const lista = artigos.filter(artigo => artigo.categoria === categoria).sort((a,b) => a.titulo.localeCompare(b.titulo,"pt-BR",{numeric:true}));
+  const lista = ordenarArtigos(artigos.filter(artigo => artigo.categoria === categoria));
   home.hidden = true; article.hidden = true; topics.hidden = false;
   document.getElementById("topics-title").textContent = nomesMaterias[categoria] || tituloLegivel(categoria);
   document.getElementById("topics-count").textContent = `${lista.length} tópicos`;
@@ -58,16 +73,67 @@ function abrirMateria(categoria) {
   rolarParaTopo();
 }
 
-function limparMarkdown(markdown) { return markdown.replace(/^---[\s\S]*?---\s*/, "").replace(/^>\s*\[!(\w+)\]\s*/gm, "> **$1** ").replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1"); }
+function encontrarWikiLink(destino, origem) {
+  const alvo = destino.split("#")[0].replace(/^3\s*-\s*Materias\//i, "").replace(/\.md$/i, "").trim();
+  if (!alvo) return null;
+  const chave = normalizar(alvo);
+  const daMesmaMateria = artigos.filter(artigo => artigo.categoria === origem.categoria);
+  return [...daMesmaMateria, ...artigos.filter(artigo => artigo.categoria !== origem.categoria)].find(artigo => {
+    const caminho = artigo.caminho.replace(/^materias\//i, "").replace(/\.md$/i, "");
+    const nomeDoArquivo = artigo.caminho.split("/").pop().replace(/\.md$/i, "");
+    return normalizar(caminho) === chave || normalizar(nomeDoArquivo) === chave || normalizar(tituloDoArquivo(artigo.caminho)) === chave || normalizar(artigo.titulo) === chave;
+  }) || null;
+}
+function converterDestaquesMarkdown(markdown) {
+  let sequencia = 0;
+  return markdown.split(/(```[\s\S]*?```)/g).map(bloco => bloco.startsWith("```") ? bloco : bloco.split(/(`[^`\n]*`)/g).map(trecho => trecho.startsWith("`") ? trecho : trecho.replace(/==([^=\n]+)==/g, (_, conteudo) => {
+    const id = sequencia++;
+    return `@@HL_START_${id}@@${conteudo}@@HL_END_${id}@@`;
+  })).join("")).join("");
+}
+function limparMarkdown(markdown, origem) {
+  const limpo = markdown.replace(/^---[\s\S]*?---\s*/, "").replace(/^>\s*\[!(\w+)\]\s*/gm, "> **$1** ").replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, (_, destino, rotulo) => {
+    const artigoDestino = encontrarWikiLink(destino, origem);
+    return artigoDestino ? `[${rotulo}](#/artigo/${encodeURIComponent(artigoDestino.caminho)})` : rotulo;
+  }).replace(/\[\[([^\]]+)\]\]/g, (_, destino) => {
+    const artigoDestino = encontrarWikiLink(destino, origem);
+    const rotulo = destino.split("#")[0];
+    return artigoDestino ? `[${rotulo}](#/artigo/${encodeURIComponent(artigoDestino.caminho)})` : rotulo;
+  });
+  return converterDestaquesMarkdown(limpo);
+}
+function aplicarDestaques(corpo) {
+  const marcadores = new Map();
+  const walker = document.createTreeWalker(corpo, NodeFilter.SHOW_TEXT, { acceptNode: texto => texto.parentElement?.closest("code, pre, script, style") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+  while (walker.nextNode()) {
+    const texto = walker.currentNode;
+    [...texto.nodeValue.matchAll(/@@HL_(START|END)_(\d+)@@/g)].forEach(resultado => {
+      const entrada = marcadores.get(resultado[2]) || {};
+      entrada[resultado[1].toLowerCase()] = { texto, inicio:resultado.index, fim:resultado.index + resultado[0].length };
+      marcadores.set(resultado[2], entrada);
+    });
+  }
+  [...marcadores.values()].reverse().forEach(({ start, end }) => {
+    if (!start || !end) return;
+    const faixa = document.createRange();
+    faixa.setStart(start.texto, start.inicio); faixa.setEnd(end.texto, end.fim);
+    const destaque = document.createElement("mark");
+    destaque.append(faixa.extractContents()); faixa.insertNode(destaque);
+    const limpar = document.createTreeWalker(destaque, NodeFilter.SHOW_TEXT);
+    while (limpar.nextNode()) limpar.currentNode.nodeValue = limpar.currentNode.nodeValue.replace(/@@HL_(START|END)_\d+@@/g, "");
+  });
+}
 function removerMetadadosPrivados(corpo) { corpo.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach(cabecalho => { if (!/^fontes brutas:?$/i.test(cabecalho.textContent.trim())) return; const nivel = Number(cabecalho.tagName.slice(1)); let proximo = cabecalho.nextElementSibling; cabecalho.remove(); while (proximo) { const seguinte = proximo.nextElementSibling; if (/^H[1-6]$/.test(proximo.tagName) && Number(proximo.tagName.slice(1)) <= nivel) break; proximo.remove(); proximo = seguinte; } }); }
 function abrirArtigo(item, atualizarHash = true) {
   if (atualizarHash && window.location.hash !== `#/artigo/${encodeURIComponent(item.caminho)}`) { window.location.hash = `#/artigo/${encodeURIComponent(item.caminho)}`; return; }
   artigoAtual = item; home.hidden = true; topics.hidden = true; article.hidden = false; document.getElementById("article-title").textContent = item.titulo;
-  const corpo = document.getElementById("article-body"); corpo.innerHTML = marked.parse(limparMarkdown(item.conteudo), { gfm:true, breaks:false });
+  const corpo = document.getElementById("article-body"); corpo.innerHTML = marked.parse(limparMarkdown(item.conteudo, item), { gfm:true, breaks:false });
+  aplicarDestaques(corpo);
   const tituloRepetido = corpo.querySelector("h1");
   if (tituloRepetido && normalizar(tituloRepetido.textContent) === normalizar(item.titulo)) tituloRepetido.remove();
   removerMetadadosPrivados(corpo);
-  corpo.querySelectorAll("h1,h2").forEach((titulo, indice) => titulo.id = titulo.id || `${slug(titulo.textContent)}-${indice}`);
+  corpo.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach((titulo, indice) => titulo.id = titulo.id || `${slug(titulo.textContent)}-${indice}`);
+  corpo.querySelectorAll('a[href^="#"]:not([href^="#/"])').forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); document.getElementById(link.getAttribute("href").slice(1))?.scrollIntoView({ behavior:"smooth", block:"start" }); }));
   adicionarCopiarCodigo(corpo); renderizarMermaid(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
 }
 function renderizarBreadcrumbs(item) { const el=document.getElementById("breadcrumbs"); el.innerHTML=`<button type="button" data-home>início</button><span>/</span><button type="button" data-categoria>${escapar(nomesMaterias[item.categoria] || tituloLegivel(item.categoria))}</button><span>/</span><span>${escapar(item.titulo)}</span>`; el.querySelector("[data-home]").addEventListener("click", voltarHome); el.querySelector("[data-categoria]").addEventListener("click", () => abrirMateria(item.categoria)); }
@@ -85,12 +151,12 @@ function renderizarToc(corpo) {
   window.addEventListener("scroll", atualizarTocAtivo, { passive:true });
   atualizarTocAtivo();
 }
-function renderizarNav(item) { const lista=artigos.filter(artigo=>artigo.categoria===item.categoria).sort((a,b)=>a.titulo.localeCompare(b.titulo,"pt-BR",{numeric:true})); const indice=lista.indexOf(item); const destino=[ [lista[indice-1],"← artigo anterior"],[lista[indice+1],"próximo artigo →"] ]; document.getElementById("article-nav").innerHTML=destino.map(([artigo,rotulo])=>artigo?`<button type="button" data-caminho="${escapar(artigo.caminho)}"><span>${rotulo}</span><strong>${escapar(artigo.titulo)}</strong></button>`:"<span></span>").join(""); document.querySelectorAll("#article-nav [data-caminho]").forEach(botao=>botao.addEventListener("click",()=>abrirArtigo(artigos.find(item=>item.caminho===botao.dataset.caminho)))); }
+function renderizarNav(item) { const lista=ordenarArtigos(artigos.filter(artigo=>artigo.categoria===item.categoria)); const indice=lista.indexOf(item); const destino=[ [lista[indice-1],"← artigo anterior"],[lista[indice+1],"próximo artigo →"] ]; document.getElementById("article-nav").innerHTML=destino.map(([artigo,rotulo])=>artigo?`<button type="button" data-caminho="${escapar(artigo.caminho)}"><span>${rotulo}</span><strong>${escapar(artigo.titulo)}</strong></button>`:"<span></span>").join(""); document.querySelectorAll("#article-nav [data-caminho]").forEach(botao=>botao.addEventListener("click",()=>abrirArtigo(artigos.find(item=>item.caminho===botao.dataset.caminho)))); }
 function adicionarCopiarCodigo(corpo) { corpo.querySelectorAll("pre").forEach(pre=>{ const botao=document.createElement("button"); botao.className="copy-button"; botao.textContent="copiar"; botao.addEventListener("click",async()=>{await navigator.clipboard?.writeText(pre.innerText); botao.textContent="copiado"; setTimeout(()=>botao.textContent="copiar",1200);}); pre.append(botao); }); }
 async function renderizarMermaid(corpo) { const blocos=[...corpo.querySelectorAll("pre > code.language-mermaid")]; for (const [indice,codigo] of blocos.entries()) { const conteiner=document.createElement("div"); conteiner.className="mermaid"; conteiner.id=`mermaid-${Date.now()}-${indice}`; conteiner.textContent=codigo.textContent; codigo.parentElement.replaceWith(conteiner); try { await mermaid.run({nodes:[conteiner]}); } catch { const pre=document.createElement("pre"); pre.textContent=codigo.textContent; conteiner.replaceWith(pre); } } }
 function atualizarNavbar() { topbar.classList.toggle("visible", home.hidden || window.scrollY > 180); }
 function rolarParaTopo() { requestAnimationFrame(() => { window.scrollTo({top:0, left:0, behavior:"auto"}); atualizarNavbar(); }); }
 function voltarHome(limparBusca = true) { window.history.pushState({},"",window.location.pathname); article.hidden=true; topics.hidden=true; home.hidden=false; if (limparBusca) { search.value=""; homeSearch.value=""; } renderizarHome(); rolarParaTopo(); }
 function tratarRota() { const rota=window.location.hash; if(rota.startsWith("#/materia/")) { const categoria=decodeURIComponent(rota.slice("#/materia/".length)); return ordemMaterias.includes(categoria) ? abrirMateria(categoria) : voltarHome(); } if(rota.startsWith("#/artigo/")) { const caminho=decodeURIComponent(rota.slice("#/artigo/".length)); const item=artigos.find(artigo=>artigo.caminho===caminho); return item ? abrirArtigo(item,false) : voltarHome(); } voltarHome(); }
-mermaid.initialize({ startOnLoad:false, theme:"dark", securityLevel:"strict", themeVariables:{ primaryColor:"#191919", primaryTextColor:"#f4f2ee", primaryBorderColor:"#ffd52e", lineColor:"#ffd52e", secondaryColor:"#242222", tertiaryColor:"#101010" } });
-document.getElementById("brand").addEventListener("click",voltarHome); document.getElementById("back-button").addEventListener("click",() => abrirMateria(artigoAtual.categoria)); document.getElementById("topics-back-button").addEventListener("click",voltarHome); homeSearch.addEventListener("input", () => { search.value = homeSearch.value; renderizarHome(); }); search.addEventListener("input", () => { homeSearch.value = search.value; voltarHome(false); }); window.addEventListener("hashchange",tratarRota); window.addEventListener("scroll",atualizarNavbar,{passive:true}); carregarArtigos();
+aplicarTema(tema);
+document.getElementById("brand").addEventListener("click",voltarHome); document.getElementById("back-button").addEventListener("click",() => abrirMateria(artigoAtual.categoria)); document.getElementById("topics-back-button").addEventListener("click",voltarHome); document.querySelectorAll("[data-theme-toggle]").forEach(botao => botao.addEventListener("click", () => aplicarTema(tema === "dark" ? "light" : "dark"))); homeSearch.addEventListener("input", () => { search.value = homeSearch.value; renderizarHome(); }); search.addEventListener("input", () => { homeSearch.value = search.value; voltarHome(false); }); window.addEventListener("hashchange",tratarRota); window.addEventListener("popstate",tratarRota); window.addEventListener("scroll",atualizarNavbar,{passive:true}); carregarArtigos();

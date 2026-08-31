@@ -73,6 +73,4 @@ Pesquisas de imagem, opinião, satisfação e usabilidade que envolvam dados pes
 - **Privacidade e LGPD em Pesquisas**: Estudos de caso exigindo o correto tratamento de citações qualitativas, descarte de gravações e proteção contra reidentificação em relatórios com grupos reduzidos.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]
 

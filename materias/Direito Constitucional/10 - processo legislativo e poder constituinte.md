@@ -103,5 +103,3 @@ Não será objeto de deliberação proposta de emenda **tendente a abolir**:
 > As cláusulas pétreas **podem ser modificadas** por emenda, desde que a alteração amplie a proteção ou melhore sua regulamentação. O que é vedado é a supressão, o retrocesso ou a redução do núcleo essencial dessas garantias.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/15-06-2026|Inbox de 15/06/2026]]

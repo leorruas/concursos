@@ -101,4 +101,4 @@ Para elevar a precisão de 90% para 97%+, desenvolve-se um radar para identifica
 ---
 
 ## 3. Histórico de treinos e avanços
-O registro detalhado de todas as baterias de treino, as taxas de acerto brutas, a Taxa de Aproveitamento Ponderada (TAP) e a análise qualitativa da RAM mental estão localizados no arquivo de progresso em [[Avancos|Avanços e desempenho]].
+Registre as baterias de treino, as taxas de acerto e as observações qualitativas em um acompanhamento pessoal para identificar evolução e pontos de reforço.

@@ -28,4 +28,3 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Reescrita de Frases**: Equivalência de sentido, substituição de estruturas e vozes do verbo.
 
 ---
-- **Acompanhamento**: [[Avancos|Avanços e desempenho (Português)]]

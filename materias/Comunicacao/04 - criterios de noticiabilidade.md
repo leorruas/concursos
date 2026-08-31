@@ -77,7 +77,4 @@ Sempre separe:
 - Opinião (juízo de valor ou adjetivação)
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/05-07-2026]]
-- [[00 inbox/00 ingestão]]
 

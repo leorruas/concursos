@@ -82,6 +82,3 @@ A perda da nacionalidade brasileira ocorre apenas nas hipóteses taxativamente p
 - **Perda automática de nacionalidade**: Questões desatualizadas afirmam que o brasileiro que voluntariamente se naturalizar em outro país (ex: EUA, Itália) perde a nacionalidade brasileira. Com a **EC 131/2023**, isso é **falso**.
 
 ---
-
-**Fontes Brutas:**
-- [[00 inbox/29-06-2026.md|Inbox - 29-06-2026]]

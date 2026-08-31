@@ -79,5 +79,3 @@ Vários temas de grande relevância social ilustram o papel do Judiciário e a d
 - **Pena de Morte**: A Constituição brasileira proíbe expressamente a pena de morte, abrindo a única exceção de guerra declarada. Essa vedação é protegida como cláusula pétrea de direitos humanos, impedindo sua instituição por mero clamor popular.
 
 ---
-**Fontes Brutas:**
-- [[11-06-2026|Inbox - 10-06-2026]]

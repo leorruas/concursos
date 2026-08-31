@@ -36,5 +36,4 @@ Mapeamento de tópicos e organização das notas de Raciocínio Lógico e Lógic
 - **Interpretação e Modelagem**: Tradução da linguagem natural para a estrutura lógica formal.
 
 ---
-- **Acompanhamento**: [[Avancos|Avanços e desempenho (Lógica)]]
 

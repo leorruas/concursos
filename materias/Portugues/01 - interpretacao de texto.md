@@ -75,8 +75,3 @@ Ocorre quando um elemento anafórico (ex: pronome de 3ª pessoa *eles*, *este*, 
 - **Pegadinha da FGV**: O conhecimento do mundo real sugere que relatórios são analisados, mas a **análise da banca baseia-se na viabilidade gramatical**, e não na probabilidade pragmática do leitor. Se a sintaxe permite dupla interpretação, declara-se a presença de ambiguidade referencial.
 
 ---
-
-**Fontes Brutas:**
-- `inbox/2026.md` (ingerido)
-- [[11-06-2026|Inbox - 02-06-2026]]
-- [[00 inbox/00 ingestão]]

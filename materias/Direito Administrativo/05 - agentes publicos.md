@@ -99,6 +99,3 @@ A investidura em cargos ou empregos públicos segue regras claras destinadas a a
 - **Exploração em Bancas**: As bancas examinadoras exploram exaustivamente a fronteira entre a regra (concurso público) e a exceção (cargos em comissão). Elas costumam tentar desviar a natureza do cargo em comissão, afirmando que este serviria para "qualquer atividade administrativa" ou que seria a "forma ordinária" de ingresso, o que torna a afirmativa incorreta.
 
 ---
-**Fontes Brutas:**
-- [[Avancos|Avanços e desempenho (Direito administrativo)]]
-- [[11-06-2026|Inbox - 09-06-2026]]

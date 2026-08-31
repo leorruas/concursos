@@ -83,6 +83,3 @@ A Constituição Federal de 1988 **veda expressamente a cassação** (retirada a
 - **Conscrito vs. Militar de carreira**: Apenas o conscrito (incorporado ao serviço militar obrigatório) é inelegível absoluto. Os militares profissionais (concursados) seguem regras específicas de elegibilidade conforme o tempo de serviço.
 
 ---
-
-**Fontes Brutas:**
-- [[00 inbox/23-06-2026.md|Inbox - 23-06-2026]]

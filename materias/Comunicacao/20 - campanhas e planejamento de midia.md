@@ -106,5 +106,3 @@ A promessa transmitida pela campanha deve coincidir exatamente com a capacidade 
 > - O **ROAS** responde se o dinheiro aplicado especificamente em mídia paga gerou retorno proporcional.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/00 Ingestao]]

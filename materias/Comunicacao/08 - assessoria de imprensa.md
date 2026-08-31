@@ -68,6 +68,3 @@ A FGV frequentemente explora a tensão entre a intenção da assessoria de divul
 - A resposta em crises deve ser fundamentada na tríade: **Agilidade, Transparência e Precisão**.
 
 ---
-**Fontes Brutas:**
-- [[00 ingestão]]
-- [[00 inbox/00 ingestão]]

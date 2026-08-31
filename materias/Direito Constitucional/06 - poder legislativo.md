@@ -50,5 +50,3 @@ A fiscalização técnica e financeira das contas públicas é auxiliada por uma
 - **Parceria no Controle**: Enquanto o TCU fornece a análise puramente técnica de legalidade e conformidade, o Congresso Nacional exerce o julgamento político das contas.
 
 ---
-**Fontes Brutas:**
-- [[11-06-2026|Inbox - 09-06-2026]]

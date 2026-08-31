@@ -70,6 +70,3 @@ Também são recorrentes questões que tentam induzir o candidato a marcar comun
 - Quando a questão envolver coordenação de mensagens, alinhamento estratégico ou incoerências interdepartamentais, procure por **comunicação integrada**.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/05-07-2026]]
-- [[00 inbox/06-07-2026]]

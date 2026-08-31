@@ -126,7 +126,3 @@ Como heurística de enquadramento (*framing*) para redação e análise de discu
 A FGV cobra ativamente a diferenciação entre notícia, reportagem, artigo e editorial, bem como a separação conceitual entre gênero e técnica (identificando que storytelling não é um gênero). Questões com descrições híbridas exigem identificar a **característica predominante** (se o objetivo final é informar, opinar em nome do autor, expressar a voz da instituição ou refletir de forma livre sobre o cotidiano).
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/05-07-2026]]
-- [[00 inbox/07-07-2026]]
-- [[00 ingestão]]

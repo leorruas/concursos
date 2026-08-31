@@ -68,7 +68,3 @@ O acento que servia para diferenciar palavras homógrafas (com a mesma grafia ma
 > Mantêm-se os acentos diferenciais em **pôde** (pretérito perfeito do verbo poder) vs **pode** (presente do indicativo) e **pôr** (verbo) vs **por** (preposição).
 
 ---
-
-**Fontes Brutas:**
-- [[11-06-2026]]
-- [[00 inbox/07-07-2026]]

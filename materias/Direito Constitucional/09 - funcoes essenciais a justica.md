@@ -57,5 +57,3 @@ O desenho constitucional divide as funções para assegurar a paridade de armas 
 * **Advocacia Pública**: Defende o interesse público do Estado.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/12-06-2026|Inbox de 12/06/2026]]

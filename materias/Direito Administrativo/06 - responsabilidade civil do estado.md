@@ -59,6 +59,3 @@ Esta regra protege duas vias:
 2.  **Garantia ao agente**: Garante ao agente público que ele só responderá perante o Estado, por meio de processo administrativo ou ação de regresso, sob o crivo de sua culpa ou dolo.
 
 ---
-**Fontes Brutas:**
-- [[Avancos|Avanços e desempenho (Direito administrativo)]]
-- [[11-06-2026|Inbox - 03-06-2026]]

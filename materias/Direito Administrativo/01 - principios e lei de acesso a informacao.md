@@ -54,5 +54,3 @@ Para atestar se a publicidade material foi devidamente atendida, os órgãos fis
 7. **Existência de canais** abertos para solicitações complementares.
 
 ---
-**Fontes Brutas:**
-- [[11-06-2026|Inbox - 02-06-2026]]

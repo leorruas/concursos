@@ -86,6 +86,3 @@ As consequências do ato de improbidade administrativa estão fundamentadas no a
 > 3. **Parentesco Isolado**: O simples parentesco na contratação de emergência ou prestação de serviços (ex: contratação de parente em emergência climática) sem a comprovação do dolo de favorecimento e com preços de mercado não configura improbidade por si só.
 
 ---
-**Fontes Brutas:**
-- [[00 inbox/11-06-2026|Inbox de 11/06/2026]]
-- [[00 inbox/12-06-2026|Inbox de 12/06/2026]]

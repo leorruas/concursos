@@ -20,6 +20,7 @@ const escapar = valor => valor.replace(/[&<>"]/g, caractere => ({"&":"&amp;","<"
 
 const home = document.getElementById("home-view"); const topics = document.getElementById("topics-view"); const article = document.getElementById("article-view"); const grid = document.getElementById("areas-grid"); const search = document.getElementById("search-input"); const topbar = document.querySelector(".topbar");
 let artigos = []; let artigoAtual = null;
+let atualizarTocAtivo = null;
 
 async function carregarArtigos() {
   artigos = await Promise.all(arquivos.map(async caminho => {
@@ -65,7 +66,19 @@ function abrirArtigo(item, atualizarHash = true) {
   adicionarCopiarCodigo(corpo); renderizarMermaid(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
 }
 function renderizarBreadcrumbs(item) { const el=document.getElementById("breadcrumbs"); el.innerHTML=`<button type="button" data-home>início</button><span>/</span><button type="button" data-categoria>${escapar(tituloLegivel(item.categoria))}</button><span>/</span><span>${escapar(item.titulo)}</span>`; el.querySelector("[data-home]").addEventListener("click", voltarHome); el.querySelector("[data-categoria]").addEventListener("click", () => abrirMateria(item.categoria)); }
-function renderizarToc(corpo) { const toc=document.getElementById("toc"); const titulos=[...corpo.querySelectorAll("h1,h2,h3")]; toc.innerHTML=titulos.map(titulo=>`<a href="#${titulo.id}">${escapar(titulo.textContent)}</a>`).join(""); document.getElementById("toc-filter").oninput=e=>toc.querySelectorAll("a").forEach(link=>link.hidden=!normalizar(link.textContent).includes(normalizar(e.target.value))); }
+function renderizarToc(corpo) {
+  const toc = document.getElementById("toc"); const titulos = [...corpo.querySelectorAll("h1,h2,h3")];
+  toc.innerHTML = titulos.map(titulo => `<a href="#${titulo.id}" data-secao="${titulo.id}">${escapar(titulo.textContent)}</a>`).join("");
+  document.getElementById("toc-filter").oninput = e => toc.querySelectorAll("a").forEach(link => link.hidden = !normalizar(link.textContent).includes(normalizar(e.target.value)));
+  if (atualizarTocAtivo) window.removeEventListener("scroll", atualizarTocAtivo);
+  atualizarTocAtivo = () => {
+    let atual = titulos[0];
+    titulos.forEach(titulo => { if (titulo.getBoundingClientRect().top <= 132) atual = titulo; });
+    toc.querySelectorAll("a").forEach(link => link.classList.toggle("is-active", link.dataset.secao === atual?.id));
+  };
+  window.addEventListener("scroll", atualizarTocAtivo, { passive:true });
+  atualizarTocAtivo();
+}
 function renderizarNav(item) { const lista=artigos.filter(artigo=>artigo.categoria===item.categoria).sort((a,b)=>a.titulo.localeCompare(b.titulo,"pt-BR",{numeric:true})); const indice=lista.indexOf(item); const destino=[ [lista[indice-1],"← artigo anterior"],[lista[indice+1],"próximo artigo →"] ]; document.getElementById("article-nav").innerHTML=destino.map(([artigo,rotulo])=>artigo?`<button type="button" data-caminho="${escapar(artigo.caminho)}"><span>${rotulo}</span><strong>${escapar(artigo.titulo)}</strong></button>`:"<span></span>").join(""); document.querySelectorAll("#article-nav [data-caminho]").forEach(botao=>botao.addEventListener("click",()=>abrirArtigo(artigos.find(item=>item.caminho===botao.dataset.caminho)))); }
 function adicionarCopiarCodigo(corpo) { corpo.querySelectorAll("pre").forEach(pre=>{ const botao=document.createElement("button"); botao.className="copy-button"; botao.textContent="copiar"; botao.addEventListener("click",async()=>{await navigator.clipboard?.writeText(pre.innerText); botao.textContent="copiado"; setTimeout(()=>botao.textContent="copiar",1200);}); pre.append(botao); }); }
 async function renderizarMermaid(corpo) { const blocos=[...corpo.querySelectorAll("pre > code.language-mermaid")]; for (const [indice,codigo] of blocos.entries()) { const conteiner=document.createElement("div"); conteiner.className="mermaid"; conteiner.id=`mermaid-${Date.now()}-${indice}`; conteiner.textContent=codigo.textContent; codigo.parentElement.replaceWith(conteiner); try { await mermaid.run({nodes:[conteiner]}); } catch { const pre=document.createElement("pre"); pre.textContent=codigo.textContent; conteiner.replaceWith(pre); } } }

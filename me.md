@@ -88,7 +88,7 @@ updated: 2026-08-31
 
 ### Língua e Tom
 - Todo o vault é em **pt-BR** (exceto termos técnicos como *framework*, *JTBD*).
-- **Capitalização de títulos:** Em títulos e cabeçalhos em português, não usar *Title Case* (capitalizar todas as palavras). Usar apenas a primeira letra da primeira palavra em maiúscula (*Sentence case*), a não ser que seja um nome próprio.
+- **Capitalização estrita (Sentence case):** Em títulos, cabeçalhos, chamadas em negrito e itens de listas em português, **nunca usar Title Case** (capitalizar todas as palavras). Usar sempre *Sentence case* (apenas a primeira letra da frase/expressão em maiúscula), exceto para nomes próprios, siglas e leis específicas.
 - **Premium e direto.** Sem enrolação. Tom clínico para relatórios técnicos.
 - **Negrito** para termos-chave, não decoração.
 - **Proibição de Emojis (Estrita):** É terminantemente proibido o uso de emojis (sejam decorativos em cabeçalhos/tópicos ou como ícones de status como , , , , etc.). O vault e a interface seguem um design system editorial e suíço sóbrio. Status de questões, tabelas e avisos devem ser expressos textualmente (ex: `Acerto`, `Erro`, `Atenção`, `Insuficiente`).

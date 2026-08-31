@@ -339,12 +339,16 @@ function abrirArtigo(artigo, atualizarRota = true) {
     document.getElementById("btn-bc-art-home")?.addEventListener("click", () => voltarParaHome(true));
     document.getElementById("btn-bc-art-cat")?.addEventListener("click", () => abrirDisciplina(artigo.categoria));
 
-    artigoTitulo.textContent = artigo.titulo;
+    artigoTitulo.textContent = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
 
-    const markdownLimpo = removerFrontmatter(artigo.conteudo);
+    let markdownLimpo = removerFrontmatter(artigo.conteudo);
+    // Suporte a Obsidian Highlight ==texto==
+    markdownLimpo = markdownLimpo.replace(/==([^=]+)==/g, '<mark class="obsidian-highlight">$1</mark>');
+
     marked.setOptions({ gfm: true, breaks: true });
     artigoCorpo.innerHTML = marked.parse(markdownLimpo);
 
+    processarCalloutsObsidian();
     processarWikilinks(artigoCorpo);
 
     if (typeof renderMathInElement !== "undefined") {
@@ -434,6 +438,45 @@ function renderizarBotoesNavegacao(artigoAtual) {
     }
 
     rodapeNavContainer.appendChild(grid);
+}
+
+function processarCalloutsObsidian() {
+    const blockquotes = artigoCorpo.querySelectorAll('blockquote');
+    blockquotes.forEach(bq => {
+        const conteudo = bq.innerHTML;
+        const match = conteudo.match(/\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\](?:[ \t]+([^\n<]+))?/i);
+        if (match) {
+            const tipo = match[1].toUpperCase();
+            const tituloCustomizado = match[2] ? match[2].trim() : '';
+            
+            let htmlLimpo = conteudo.replace(/\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\](?:[ \t]+[^\n<]+)?/i, '');
+            htmlLimpo = htmlLimpo.replace(/<p>\s*<\/p>/g, '');
+
+            const rotulos = {
+                'NOTE': 'nota',
+                'TIP': 'dica',
+                'IMPORTANT': 'importante',
+                'WARNING': 'aviso',
+                'CAUTION': 'atenção'
+            };
+
+            const tituloExibicao = (tituloCustomizado || rotulos[tipo] || tipo).toLowerCase();
+
+            const divCallout = document.createElement('div');
+            divCallout.className = `obsidian-callout callout-${tipo.toLowerCase()}`;
+
+            divCallout.innerHTML = `
+                <div class="callout-header">
+                    <span class="callout-title">${tituloExibicao}</span>
+                </div>
+                <div class="callout-content">
+                    ${htmlLimpo}
+                </div>
+            `;
+
+            bq.replaceWith(divCallout);
+        }
+    });
 }
 
 // Table of Contents (TOC) da Barra Lateral

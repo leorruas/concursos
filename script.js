@@ -15,7 +15,7 @@ async function obterListaDeArquivos() {
                 if (!item.path.endsWith(".md")) return false;
                 if (item.path.includes(".obsidian") || item.path.includes(".git") || item.path.includes(".gemini") || item.path.includes(".agent")) return false;
                 if (fileName === "agents.md" || fileName === "index.md" || fileName === "me.md" || fileName === "log.md" || fileName === "gemini.md" || fileName === "readme.md") return false;
-                if (fileName.includes(" 2.md")) return false; // Ignora duplicatas de sincronização iCloud
+                if (fileName.includes(" 2.md")) return false; // Ignora duplicatas de sincronização
                 
                 return true;
             })
@@ -24,9 +24,9 @@ async function obterListaDeArquivos() {
                 const partes = item.path.split("/");
                 let categoria = partes.length > 1 ? partes[0] : "Geral";
                 
-                // Normalização das pastas para exibição organizada
+                // Normalização estrutural das matérias para o padrão suíço
                 if (item.path.startsWith("3 - Materias/")) {
-                    categoria = partes[1] || "3 - Materias";
+                    categoria = partes[1] || "Matérias";
                 } else if (item.path.startsWith("00 - Desempenho/Simulados/")) {
                     categoria = "00. Simulados";
                 } else if (item.path.startsWith("00 - Desempenho/")) {
@@ -48,25 +48,25 @@ async function obterListaDeArquivos() {
                 };
             });
     } catch (erro) {
-        console.warn("Não foi possível listar via GitHub, usando lista estática de fallback:", erro);
+        console.warn("Não foi possível listar via GitHub:", erro);
         return [];
     }
 }
 
-// Descrições e Metadados das Categorias / Matérias para o Design Suíço
+// Metadados das Disciplinas para o Grid Suíço
 const informacoesDisciplinas = {
-    "00. Simulados": { numero: "00", resumo: "catálogo de simulados, diagnóstico de erros e mapa de calor" },
+    "00. Simulados": { numero: "00", resumo: "catálogo de simulados, diagnóstico clínico e mapa de calor" },
     "00. Desempenho": { numero: "01", resumo: "avanços globais, log de saturação e métricas de consistência" },
     "Portugues": { numero: "02", resumo: "interpretação, concordância, crase, regência e acordo ortográfico" },
     "Logica": { numero: "03", resumo: "conectivos, quantificadores, equivalências, tabela verdade e combinatória" },
     "Comunicacao": { numero: "04", resumo: "comunicação organizacional, pública, digital, crises e teorias" },
-    "Informatica": { numero: "05", resumo: "marco civil da internet, segurança da informação e sistemas" },
+    "Informatica": { numero: "05", resumo: "marco civil da internet, segurança da informação e redes" },
     "Ingles": { numero: "06", resumo: "conectivos, marcadores discursivos e leitura instrumental" },
-    "Calculo Mental": { numero: "07", resumo: "operações rápidas, aproximações e treinamento cognitivo" },
+    "Calculo Mental": { numero: "07", resumo: "operações mentais, aproximações e agilidade cognitiva" },
     "Direito Constitucional": { numero: "08", resumo: "direitos fundamentais, nacionalidade, poderes e controle" },
     "Direito Administrativo": { numero: "09", resumo: "princípios, atos, poderes, licitações e responsabilidade civil" },
-    "Administracao Publica": { numero: "10", resumo: "modelos de gestão, governança, políticas públicas e eficiência" },
-    "Administracao Geral": { numero: "11", resumo: "planejamento estratégico, processos e teorias administrativas" },
+    "Administracao Publica": { numero: "10", resumo: "modelos de gestão pública, governança e eficiência" },
+    "Administracao Geral": { numero: "11", resumo: "planejamento estratégico, processos e teorias" },
     "Atualidades": { numero: "12", resumo: "inteligência artificial, tecnologia e sociedade" },
     "Redacao": { numero: "13", resumo: "técnicas discursivas, estrutura argumentativa e repertório" },
     "04. Projetos & Edital": { numero: "14", resumo: "dashboards, cronogramas e wiki do edital dataprev/tcdf" },
@@ -90,10 +90,9 @@ const artigoTitulo = document.getElementById("artigo-titulo");
 const artigoCorpo = document.getElementById("artigo-corpo");
 const btnVoltar = document.getElementById("btn-voltar");
 const btnVoltarDisciplina = document.getElementById("btn-voltar-disciplina");
-const retornoArtigoTexto = document.getElementById("retorno-artigo-texto");
 const btnTema = document.getElementById("theme-toggle");
 
-// Controle de Tema (Claro / Escuro)
+// Controle de Tema Claro / Escuro
 function aplicarTema(tema, persistir = true) {
     document.documentElement.dataset.theme = tema;
     if (persistir) localStorage.setItem("tema-concursos", tema);
@@ -102,65 +101,6 @@ function aplicarTema(tema, persistir = true) {
         btnTema.textContent = proximoTema;
         btnTema.setAttribute("aria-label", `Alternar para ${proximoTema}`);
     }
-}
-
-function configurarMermaid() {
-    if (typeof mermaid === "undefined") return;
-
-    const temaEscuro = document.documentElement.dataset.theme !== "light";
-    mermaid.initialize({
-        startOnLoad: false,
-        theme: "base",
-        fontFamily: "Archivo, sans-serif",
-        fontSize: 16,
-        flowchart: {
-            curve: "linear",
-            defaultRenderer: "dagre-wrapper",
-            nodeSpacing: 42,
-            rankSpacing: 56,
-            padding: 16
-        },
-        themeVariables: temaEscuro ? {
-            fontFamily: "Archivo, sans-serif",
-            fontSize: "16px",
-            darkMode: true,
-            background: "#101010",
-            primaryColor: "#182431",
-            primaryTextColor: "#f1f0eb",
-            primaryBorderColor: "#6fa8e8",
-            lineColor: "#9ab0c5",
-            secondaryColor: "#15191d",
-            tertiaryColor: "#20262d"
-        } : {
-            fontFamily: "Archivo, sans-serif",
-            fontSize: "16px",
-            darkMode: false,
-            background: "#ffffff",
-            primaryColor: "#eef5fc",
-            primaryTextColor: "#151515",
-            primaryBorderColor: "#1c5f9f",
-            lineColor: "#3f6282",
-            secondaryColor: "#f7f9fc",
-            tertiaryColor: "#e8f0f8"
-        }
-    });
-}
-
-function renderizarDiagramasMermaid() {
-    if (typeof mermaid === "undefined" || !artigoCorpo) return;
-    configurarMermaid();
-
-    const diagramas = artigoCorpo.querySelectorAll(".mermaid");
-    diagramas.forEach(diagrama => {
-        const codigo = diagrama.dataset.mermaidSource || diagrama.textContent;
-        diagrama.dataset.mermaidSource = codigo;
-        diagrama.removeAttribute("data-processed");
-        diagrama.textContent = codigo;
-    });
-
-    mermaid.run({ nodes: diagramas }).catch(err => {
-        console.error("Erro ao renderizar Mermaid:", err);
-    });
 }
 
 function inicializarTema() {
@@ -190,7 +130,7 @@ function rotaDoArtigo(artigo) {
     return `#/${encodeURIComponent(artigo.categoria)}/${encodeURIComponent(artigo.titulo)}`;
 }
 
-// Carrega os arquivos e busca o conteúdo Markdown
+// Carrega os arquivos e organiza as pastas
 async function carregarTodosOsArtigos() {
     inicializarTema();
     const lista = await obterListaDeArquivos();
@@ -216,7 +156,6 @@ async function carregarTodosOsArtigos() {
     const resultados = await Promise.all(promessas);
     todosOsArtigos = resultados.filter(Boolean);
 
-    // Organiza por categorias
     todasAsPastas = {};
     todosOsArtigos.forEach(artigo => {
         if (!todasAsPastas[artigo.categoria]) {
@@ -225,156 +164,134 @@ async function carregarTodosOsArtigos() {
         todasAsPastas[artigo.categoria].push(artigo);
     });
 
-    // Ordena artigos dentro de cada categoria
-    Object.keys(todasAsPastas).forEach(cat => {
-        todasAsPastas[cat].sort((a, b) => a.titulo.localeCompare(b.titulo, "pt-BR", { numeric: true }));
+    Object.values(todasAsPastas).forEach(artigos => {
+        artigos.sort((a, b) => (a.sourcePath || a.path).localeCompare(b.sourcePath || b.path, "pt-BR", { numeric: true }));
     });
 
-    renderizarOrientacoesIniciais();
-    renderizarCardsDisciplinas();
-    processarRotaInicial();
+    renderizarPastas();
+
+    if (window.location.hash) {
+        processarRotaInicial();
+    }
 }
 
-// Renderiza a Seção de Destaque no Topo (Simulados & Desempenho)
-function renderizarOrientacoesIniciais() {
-    const container = document.getElementById("orientacoes-container");
-    if (!container) return;
-    container.innerHTML = "";
+// Renderiza a Grade Suíça (com classes .disciplina-card idênticas à PUC)
+function renderizarPastas() {
+    const orientacoesContainer = document.getElementById("orientacoes-container");
+    const pastasContainer = document.getElementById("pastas-container");
+    if (!pastasContainer || !orientacoesContainer) return;
 
-    const destaques = ["00. Simulados", "00. Desempenho"];
-    destaques.forEach(categoria => {
-        const artigos = todasAsPastas[categoria] || [];
-        const info = informacoesDisciplinas[categoria] || { numero: "00", resumo: "métricas e simulados" };
+    pastasContainer.innerHTML = "";
+    orientacoesContainer.innerHTML = "";
 
-        const card = document.createElement("a");
-        card.className = "pasta-card card-orientacao";
-        card.href = obterRotaCategoria(categoria);
-
-        card.innerHTML = `
-            <div class="pasta-card-topo">
-                <span class="pasta-numero">${info.numero}</span>
-                <span class="pasta-artigos-total">${artigos.length} ${artigos.length === 1 ? "documento" : "documentos"}</span>
-            </div>
-            <h3 class="pasta-nome">${limparNomeCategoria(categoria)}</h3>
-            <p class="pasta-resumo">${info.resumo}</p>
-        `;
-
-        card.addEventListener("click", (e) => {
-            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
-            e.preventDefault();
-            window.location.hash = `/disciplina/${encodeURIComponent(categoria)}`;
-        });
-
-        container.appendChild(card);
-    });
-}
-
-// Renderiza a Grade Suíça de Matérias
-function renderizarCardsDisciplinas() {
-    const container = document.getElementById("pastas-container");
-    if (!container) return;
-    container.innerHTML = "";
-
-    const categoriasParaIgnorar = ["00. Simulados", "00. Desempenho"];
-    const categorias = Object.keys(todasAsPastas).filter(c => !categoriasParaIgnorar.includes(c));
-
-    categorias.sort((a, b) => {
+    const todasCategorias = Object.keys(todasAsPastas).sort((a, b) => {
         const numA = informacoesDisciplinas[a]?.numero || "99";
         const numB = informacoesDisciplinas[b]?.numero || "99";
         return numA.localeCompare(numB, "pt-BR", { numeric: true });
     });
 
-    categorias.forEach((categoria, index) => {
-        const artigos = todasAsPastas[categoria] || [];
+    const categoriasOrientacao = ["00. Simulados", "00. Desempenho"];
+
+    todasCategorias.forEach(categoria => {
         const info = informacoesDisciplinas[categoria] || {
-            numero: String(index + 1).padStart(2, "0"),
-            resumo: "disciplina do edital"
+            numero: "•",
+            resumo: `${todasAsPastas[categoria].length} artigos disponíveis`
         };
 
         const card = document.createElement("a");
-        card.className = "pasta-card";
+        card.className = "disciplina-card";
         card.href = obterRotaCategoria(categoria);
+        card.setAttribute("aria-label", `Abrir ${limparNomeCategoria(categoria)}`);
 
         card.innerHTML = `
-            <div class="pasta-card-topo">
-                <span class="pasta-numero">${info.numero}</span>
-                <span class="pasta-artigos-total">${artigos.length} ${artigos.length === 1 ? "artigo" : "artigos"}</span>
-            </div>
-            <h3 class="pasta-nome">${limparNomeCategoria(categoria)}</h3>
-            <p class="pasta-resumo">${info.resumo}</p>
+            <span class="indice-numero">${info.numero}</span>
+            <span class="disciplina-card-conteudo">
+                <strong>${limparNomeCategoria(categoria)}</strong>
+                <span class="indice-resumo">${info.resumo}</span>
+            </span>
         `;
 
         card.addEventListener("click", (e) => {
             if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
             e.preventDefault();
-            window.location.hash = `/disciplina/${encodeURIComponent(categoria)}`;
+            abrirDisciplina(categoria);
         });
 
-        container.appendChild(card);
+        if (categoriasOrientacao.includes(categoria)) {
+            orientacoesContainer.appendChild(card);
+        } else {
+            pastasContainer.appendChild(card);
+        }
     });
 }
 
-// Visualizador da Disciplina / Categoria
-function abrirDisciplina(categoria) {
+// Visualizador da Disciplina (Lista de Artigos)
+function abrirDisciplina(categoria, atualizarRota = true) {
+    const artigos = todasAsPastas[categoria] || [];
+    if (artigos.length === 0) return;
+
     if (campoTexto) campoTexto.value = "";
     if (campoTextoNav) campoTextoNav.value = "";
-    divResultados.classList.add("escondido");
     leitorDeArtigo.classList.add("escondido");
+    divResultados.classList.add("escondido");
     document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
     document.getElementById("explorar-disciplinas")?.classList.add("escondido");
     leitorDeDisciplina.classList.remove("escondido");
+    artigoAtual = null;
 
-    const artigos = todasAsPastas[categoria] || [];
-    const info = informacoesDisciplinas[categoria] || { numero: "00", resumo: "" };
+    if (atualizarRota && window.location.hash !== obterRotaCategoria(categoria)) {
+        history.pushState({ categoria: categoria }, "", obterRotaCategoria(categoria));
+    }
 
-    // Breadcrumbs
     const breadcrumbs = document.getElementById("disciplina-breadcrumbs");
     breadcrumbs.innerHTML = `
-        <a href="#/" class="breadcrumb-link">início</a>
-        <span class="breadcrumb-separador">/</span>
-        <span class="breadcrumb-atual">${limparNomeCategoria(categoria)}</span>
+        <button type="button" class="breadcrumb-link" id="btn-bc-home">início</button>
+        <span class="breadcrumb-separator">/</span>
+        <span>${limparNomeCategoria(categoria)}</span>
     `;
+    document.getElementById("btn-bc-home")?.addEventListener("click", () => voltarParaHome(true));
 
-    // Cabeçalho
     disciplinaCabecalho.innerHTML = `
-        <span class="disciplina-numero">${info.numero}</span>
-        <h2 class="disciplina-titulo-principal">${limparNomeCategoria(categoria)}</h2>
-        <p class="disciplina-descricao">${info.resumo}</p>
-        <span class="disciplina-total-badge">${artigos.length} ${artigos.length === 1 ? "artigo no módulo" : "artigos no módulo"}</span>
+        <p class="disciplina-rotulo">matéria • ${artigos.length} artigos</p>
+        <h2>${limparNomeCategoria(categoria)}</h2>
     `;
 
-    // Lista de Artigos
     disciplinaAcoes.innerHTML = "";
     artigos.forEach((artigo, idx) => {
-        const item = document.createElement("a");
-        item.className = "artigo-lista-card";
-        item.href = rotaDoArtigo(artigo);
+        const acao = document.createElement("a");
+        acao.className = "disciplina-acao";
+        acao.href = rotaDoArtigo(artigo);
+        acao.setAttribute("aria-label", artigo.titulo);
 
-        item.innerHTML = `
-            <span class="artigo-lista-num">${String(idx + 1).padStart(2, "0")}</span>
-            <div class="artigo-lista-info">
-                <strong class="artigo-lista-titulo">${artigo.titulo}</strong>
-                <span class="artigo-lista-caminho">${artigo.sourcePath}</span>
+        const numeroFormatado = String(idx + 1).padStart(2, "0");
+
+        acao.innerHTML = `
+            <span class="disciplina-acao-numero">${numeroFormatado}</span>
+            <div class="disciplina-acao-conteudo">
+                <strong>${artigo.titulo}</strong>
+                <span class="disciplina-acao-caminho">${artigo.sourcePath}</span>
             </div>
-            <span class="artigo-lista-seta">&rarr;</span>
+            <span class="disciplina-acao-seta">&rarr;</span>
         `;
 
-        item.addEventListener("click", (e) => {
+        acao.addEventListener("click", (e) => {
             if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
             e.preventDefault();
             abrirArtigo(artigo);
         });
 
-        disciplinaAcoes.appendChild(item);
+        disciplinaAcoes.appendChild(acao);
     });
 
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-// Leitor de Artigo com TOC Lateral e KaTeX/Mermaid
-function abrirArtigo(artigo) {
+// Leitor de Artigo Individual
+function abrirArtigo(artigo, atualizarRota = true) {
     artigoAtual = artigo;
-    window.location.hash = rotaDoArtigo(artigo);
+    if (atualizarRota && window.location.hash !== rotaDoArtigo(artigo)) {
+        history.pushState({ artigo: artigo.titulo, categoria: artigo.categoria }, "", rotaDoArtigo(artigo));
+    }
 
     document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
     document.getElementById("explorar-disciplinas")?.classList.add("escondido");
@@ -382,33 +299,25 @@ function abrirArtigo(artigo) {
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.remove("escondido");
 
-    // Breadcrumbs
     const breadcrumbs = document.getElementById("artigo-breadcrumbs");
     breadcrumbs.innerHTML = `
-        <a href="#/" class="breadcrumb-link">início</a>
-        <span class="breadcrumb-separador">/</span>
-        <a href="${obterRotaCategoria(artigo.categoria)}" class="breadcrumb-link" id="breadcrumb-categoria">${limparNomeCategoria(artigo.categoria)}</a>
-        <span class="breadcrumb-separador">/</span>
+        <button type="button" class="breadcrumb-link" id="btn-bc-art-home">início</button>
+        <span class="breadcrumb-separator">/</span>
+        <button type="button" class="breadcrumb-link" id="btn-bc-art-cat">${limparNomeCategoria(artigo.categoria)}</button>
+        <span class="breadcrumb-separator">/</span>
         <span class="breadcrumb-atual">${artigo.titulo}</span>
     `;
+    document.getElementById("btn-bc-art-home")?.addEventListener("click", () => voltarParaHome(true));
+    document.getElementById("btn-bc-art-cat")?.addEventListener("click", () => abrirDisciplina(artigo.categoria));
 
     artigoTitulo.textContent = artigo.titulo;
 
-    // Remove frontmatter para renderização do corpo
     const markdownLimpo = removerFrontmatter(artigo.conteudo);
-    
-    // Configura marked
-    marked.setOptions({
-        gfm: true,
-        breaks: true
-    });
-
+    marked.setOptions({ gfm: true, breaks: true });
     artigoCorpo.innerHTML = marked.parse(markdownLimpo);
 
-    // Trata links internos Obsidian [[Link|Texto]]
     processarWikilinks(artigoCorpo);
 
-    // Renderiza KaTeX se disponível
     if (typeof renderMathInElement !== "undefined") {
         renderMathInElement(artigoCorpo, {
             delimiters: [
@@ -421,15 +330,10 @@ function abrirArtigo(artigo) {
         });
     }
 
-    // Renderiza Mermaid
     renderizarDiagramasMermaid();
-
-    // Gera Table of Contents (TOC)
     gerarTOC();
 
-    // Configura Botão de Voltar
     btnVoltar.onclick = () => abrirDisciplina(artigo.categoria);
-
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -445,7 +349,6 @@ function processarWikilinks(container) {
             rotulo = partes[1];
         }
         
-        // Remove âncoras de cabeçalho para busca do arquivo
         const nomeArquivo = destino.split("#")[0].split("/").pop();
         const artigoDestino = todosOsArtigos.find(a => a.titulo.toLowerCase() === nomeArquivo.toLowerCase());
         
@@ -465,6 +368,46 @@ function processarWikilinks(container) {
             }
         });
     });
+}
+
+function configurarMermaid() {
+    if (typeof mermaid === "undefined") return;
+    const temaEscuro = document.documentElement.dataset.theme !== "light";
+    mermaid.initialize({
+        startOnLoad: false,
+        theme: "base",
+        fontFamily: "Archivo, sans-serif",
+        themeVariables: temaEscuro ? {
+            fontFamily: "Archivo, sans-serif",
+            darkMode: true,
+            background: "#101010",
+            primaryColor: "#182431",
+            primaryTextColor: "#f1f0eb",
+            primaryBorderColor: "#6fa8e8",
+            lineColor: "#9ab0c5"
+        } : {
+            fontFamily: "Archivo, sans-serif",
+            darkMode: false,
+            background: "#ffffff",
+            primaryColor: "#eef5fc",
+            primaryTextColor: "#151515",
+            primaryBorderColor: "#1c5f9f",
+            lineColor: "#3f6282"
+        }
+    });
+}
+
+function renderizarDiagramasMermaid() {
+    if (typeof mermaid === "undefined" || !artigoCorpo) return;
+    configurarMermaid();
+    const diagramas = artigoCorpo.querySelectorAll(".mermaid");
+    diagramas.forEach(diagrama => {
+        const codigo = diagrama.dataset.mermaidSource || diagrama.textContent;
+        diagrama.dataset.mermaidSource = codigo;
+        diagrama.removeAttribute("data-processed");
+        diagrama.textContent = codigo;
+    });
+    mermaid.run({ nodes: diagramas }).catch(err => console.error("Erro Mermaid:", err));
 }
 
 function gerarTOC() {
@@ -496,7 +439,6 @@ function gerarTOC() {
     });
 }
 
-// Filtro de Busca em Tempo Real
 function filtrarArtigos(termoBusca) {
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.add("escondido");
@@ -510,23 +452,18 @@ function filtrarArtigos(termoBusca) {
     }
 
     const termo = termoBusca.toLowerCase().trim();
-
     document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
     document.getElementById("explorar-disciplinas")?.classList.add("escondido");
     divResultados.classList.remove("escondido");
 
     if (termo.length < 2) {
-        containerResultados.innerHTML = `<p class="mensagem-busca">digite ao menos <strong>duas letras</strong> para pesquisar no vault.</p>`;
+        containerResultados.innerHTML = `<p class="mensagem-busca">digite ao menos <strong>duas letras</strong> para pesquisar.</p>`;
         return;
     }
 
-    const filtrados = todosOsArtigos
-        .filter(artigo => artigo.titulo.toLowerCase().includes(termo) || artigo.conteudo.toLowerCase().includes(termo))
-        .sort((a, b) => {
-            const prioridadeA = a.titulo.toLowerCase().includes(termo) ? 0 : 1;
-            const prioridadeB = b.titulo.toLowerCase().includes(termo) ? 0 : 1;
-            return prioridadeA - prioridadeB || a.titulo.localeCompare(b.titulo, "pt-BR", { numeric: true });
-        });
+    const filtrados = todosOsArtigos.filter(artigo => 
+        artigo.titulo.toLowerCase().includes(termo) || artigo.conteudo.toLowerCase().includes(termo)
+    );
 
     exibirResultados(filtrados, termo);
 }
@@ -534,14 +471,14 @@ function filtrarArtigos(termoBusca) {
 function exibirResultados(artigos, termo = "") {
     containerResultados.innerHTML = "";
     if (artigos.length === 0) {
-        containerResultados.innerHTML = `<p class="mensagem-busca">nenhum conteúdo encontrado para <strong>“${escaparHtml(termo)}”</strong>.</p>`;
+        containerResultados.innerHTML = `<p class="mensagem-busca">nenhum artigo encontrado para “${escaparHtml(termo)}”.</p>`;
         return;
     }
 
-    const resumoBusca = document.createElement("p");
-    resumoBusca.className = "resumo-busca";
-    resumoBusca.textContent = `${artigos.length} ${artigos.length === 1 ? "resultado encontrado" : "resultados encontrados"}`;
-    containerResultados.appendChild(resumoBusca);
+    const resumo = document.createElement("p");
+    resumo.className = "resumo-busca";
+    resumo.textContent = `${artigos.length} ${artigos.length === 1 ? "artigo encontrado" : "artigos encontrados"}`;
+    containerResultados.appendChild(resumo);
 
     const grupos = {};
     artigos.forEach(artigo => {
@@ -558,8 +495,8 @@ function exibirResultados(artigos, termo = "") {
         tituloGrupo.textContent = limparNomeCategoria(categoria);
         grupoDiv.appendChild(tituloGrupo);
 
-        const subCardsContainer = document.createElement("div");
-        subCardsContainer.className = "resultados-lista";
+        const subCards = document.createElement("div");
+        subCards.className = "resultados-lista";
 
         grupos[categoria].forEach((artigo, idx) => {
             const card = document.createElement("a");
@@ -580,10 +517,10 @@ function exibirResultados(artigos, termo = "") {
                 abrirArtigo(artigo);
             });
 
-            subCardsContainer.appendChild(card);
+            subCards.appendChild(card);
         });
 
-        grupoDiv.appendChild(subCardsContainer);
+        grupoDiv.appendChild(subCards);
         containerResultados.appendChild(grupoDiv);
     });
 }
@@ -609,7 +546,6 @@ function extrairTrechoRelevante(conteudo, termo) {
     const semFm = removerFrontmatter(conteudo).replace(/[#*`_~\[\]]/g, ' ');
     const pos = semFm.toLowerCase().indexOf(termo.toLowerCase());
     if (pos === -1) return semFm.substring(0, 140) + "...";
-    
     const inicio = Math.max(0, pos - 40);
     const fim = Math.min(semFm.length, pos + termo.length + 80);
     let trecho = semFm.substring(inicio, fim);
@@ -618,17 +554,16 @@ function extrairTrechoRelevante(conteudo, termo) {
     return trecho;
 }
 
-// Router por Hash
 function processarRotaInicial() {
     const hash = window.location.hash;
     if (!hash || hash === "#/" || hash === "#") {
-        voltarParaHome();
+        voltarParaHome(false);
         return;
     }
 
     if (hash.startsWith("#/disciplina/")) {
         const cat = decodeURIComponent(hash.replace("#/disciplina/", ""));
-        abrirDisciplina(cat);
+        abrirDisciplina(cat, false);
     } else if (hash.startsWith("#/")) {
         const partes = hash.replace("#/", "").split("/");
         if (partes.length >= 2) {
@@ -636,14 +571,16 @@ function processarRotaInicial() {
             const tit = decodeURIComponent(partes[1]);
             const art = todosOsArtigos.find(a => a.categoria === cat && a.titulo === tit);
             if (art) {
-                abrirArtigo(art);
+                abrirArtigo(art, false);
             }
         }
     }
 }
 
-function voltarParaHome() {
-    window.location.hash = "#/";
+function voltarParaHome(atualizarRota = true) {
+    if (atualizarRota) {
+        window.location.hash = "#/";
+    }
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.add("escondido");
     divResultados.classList.add("escondido");
@@ -652,9 +589,10 @@ function voltarParaHome() {
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-window.addEventListener("hashchange", processarRotaInicial);
+window.addEventListener("popstate", () => {
+    processarRotaInicial();
+});
 
-// Event Listeners de Busca e Navegação
 if (campoTexto) {
     campoTexto.addEventListener("input", (e) => {
         if (campoTextoNav) campoTextoNav.value = e.target.value;
@@ -670,11 +608,10 @@ if (campoTextoNav) {
 }
 
 if (btnVoltarDisciplina) {
-    btnVoltarDisciplina.addEventListener("click", voltarParaHome);
+    btnVoltarDisciplina.addEventListener("click", () => voltarParaHome(true));
 }
 
-document.getElementById("nav-logo")?.addEventListener("click", voltarParaHome);
-document.getElementById("nav-link-pastas")?.addEventListener("click", voltarParaHome);
+document.getElementById("nav-logo")?.addEventListener("click", () => voltarParaHome(true));
+document.getElementById("nav-link-pastas")?.addEventListener("click", () => voltarParaHome(true));
 
-// Inicia aplicação
 carregarTodosOsArtigos();

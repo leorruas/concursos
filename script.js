@@ -121,6 +121,29 @@ if (btnTema) {
     });
 }
 
+function extrairTituloReal(conteudo, nomeArquivoFallback) {
+    if (!conteudo) return formatarNomeArtigo(nomeArquivoFallback);
+    
+    // 1. Tenta extrair do YAML Frontmatter: title: "..." ou title: ...
+    const matchYaml = conteudo.match(/^---\s*[\r\n]+[\s\S]*?^title:\s*["']?([^"'\r\n]+)["']?/m);
+    if (matchYaml && matchYaml[1]) {
+        return matchYaml[1].trim();
+    }
+
+    // 2. Tenta extrair do primeiro # H1
+    const matchH1 = conteudo.match(/^#\s+([^\r\n]+)/m);
+    if (matchH1 && matchH1[1]) {
+        return matchH1[1].trim();
+    }
+
+    return formatarNomeArtigo(nomeArquivoFallback);
+}
+
+function formatarNomeArtigo(nome) {
+    if (!nome) return "";
+    return nome.replace(/^\d+\s*-\s*/, "").replace(/^\d+\.\s*/, "").trim();
+}
+
 function limparNomeCategoria(categoria) {
     return categoria.replace(/^\d+\.\s*/, "").replace(/^\d+\s*-\s*/, "").toLowerCase();
 }
@@ -146,6 +169,7 @@ async function carregarTodosOsArtigos() {
             
             return {
                 titulo: item.titulo,
+                tituloExibicao: extrairTituloReal(texto, item.titulo),
                 conteudo: texto,
                 sourcePath: item.sourcePath,
                 categoria: item.categoria
@@ -267,11 +291,12 @@ function abrirDisciplina(categoria, atualizarRota = true) {
         acao.setAttribute("aria-label", artigo.titulo);
 
         const numeroFormatado = String(idx + 1).padStart(2, "0");
+        const tituloFormatado = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
 
         acao.innerHTML = `
             <span class="disciplina-acao-numero">${numeroFormatado}</span>
             <span class="disciplina-acao-conteudo">
-                <strong>${artigo.titulo}</strong>
+                <strong>${tituloFormatado}</strong>
             </span>
         `;
 

@@ -1,4 +1,8 @@
-// Função para buscar automaticamente todos os arquivos .md do GitHub leorruas/concursos
+// ==========================================
+// SCRIPT DE SPA EDITORIAL - CONCURSOS LEORRUAS
+// Compatível 1:1 com o Design System da PUC
+// ==========================================
+
 async function obterListaDeArquivos() {
     try {
         const resposta = await fetch("https://api.github.com/repos/leorruas/concursos/git/trees/main?recursive=1");
@@ -6,7 +10,6 @@ async function obterListaDeArquivos() {
 
         const dados = await resposta.json();
 
-        // Filtra apenas os arquivos Markdown (.md), ignorando arquivos de sistema, index raiz e regras de agentes
         return dados.tree
             .filter(item => {
                 const pathLower = item.path.toLowerCase();
@@ -24,7 +27,6 @@ async function obterListaDeArquivos() {
                 const partes = item.path.split("/");
                 let categoria = partes.length > 1 ? partes[0] : "Geral";
                 
-                // Normalização estrutural das matérias para o padrão suíço
                 if (item.path.startsWith("3 - Materias/")) {
                     categoria = partes[1] || "Matérias";
                 } else if (item.path.startsWith("00 - Desempenho/Simulados/")) {
@@ -73,10 +75,11 @@ const informacoesDisciplinas = {
     "01. Planejamento": { numero: "15", resumo: "cronogramas, horários e editais abertos/previstos" }
 };
 
-// Variáveis globais
+// Variáveis Globais
 let todosOsArtigos = [];
 let todasAsPastas = {};
 let artigoAtual = null;
+let scrollSpyObserver = null;
 
 const campoTexto = document.getElementById("main-search-input");
 const campoTextoNav = document.getElementById("nav-search-input");
@@ -90,9 +93,11 @@ const artigoTitulo = document.getElementById("artigo-titulo");
 const artigoCorpo = document.getElementById("artigo-corpo");
 const btnVoltar = document.getElementById("btn-voltar");
 const btnVoltarDisciplina = document.getElementById("btn-voltar-disciplina");
+const retornoArtigoTexto = document.getElementById("retorno-artigo-texto");
 const btnTema = document.getElementById("theme-toggle");
+const stickyNav = document.getElementById("sticky-nav");
 
-// Controle de Tema Claro / Escuro
+// Controle de Tema
 function aplicarTema(tema, persistir = true) {
     document.documentElement.dataset.theme = tema;
     if (persistir) localStorage.setItem("tema-concursos", tema);
@@ -130,7 +135,7 @@ function rotaDoArtigo(artigo) {
     return `#/${encodeURIComponent(artigo.categoria)}/${encodeURIComponent(artigo.titulo)}`;
 }
 
-// Carrega os arquivos e organiza as pastas
+// Carregamento de Dados
 async function carregarTodosOsArtigos() {
     inicializarTema();
     const lista = await obterListaDeArquivos();
@@ -171,11 +176,11 @@ async function carregarTodosOsArtigos() {
     renderizarPastas();
 
     if (window.location.hash) {
-        processarRotaInicial();
+        tratarHashNavegacao();
     }
 }
 
-// Renderiza a Grade Suíça (com classes .disciplina-card idênticas à PUC)
+// Renderiza a Grade Suíça
 function renderizarPastas() {
     const orientacoesContainer = document.getElementById("orientacoes-container");
     const pastasContainer = document.getElementById("pastas-container");
@@ -225,7 +230,7 @@ function renderizarPastas() {
     });
 }
 
-// Visualizador da Disciplina (Lista de Artigos)
+// Visualizador da Disciplina
 function abrirDisciplina(categoria, atualizarRota = true) {
     const artigos = todasAsPastas[categoria] || [];
     if (artigos.length === 0) return;
@@ -331,10 +336,99 @@ function abrirArtigo(artigo, atualizarRota = true) {
     }
 
     renderizarDiagramasMermaid();
-    gerarTOC();
+    gerarTableOfContents();
 
     btnVoltar.onclick = () => abrirDisciplina(artigo.categoria);
     window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// Table of Contents (TOC) da Barra Lateral
+function gerarTableOfContents() {
+    const tocNavDesktop = document.getElementById("toc-nav");
+    const tocSidebar = document.getElementById("artigo-toc-sidebar");
+    if (!tocNavDesktop) return;
+
+    tocNavDesktop.innerHTML = "";
+
+    // Pega H2 e H3 do artigo
+    const headings = Array.from(artigoCorpo.querySelectorAll("h2, h3"));
+
+    if (headings.length === 0) {
+        if (tocSidebar) tocSidebar.style.display = "none";
+        return;
+    }
+
+    if (tocSidebar) tocSidebar.style.display = "block";
+
+    const listaDesktop = document.createElement("ul");
+    listaDesktop.className = "toc-list";
+
+    headings.forEach((heading, index) => {
+        if (!heading.id) {
+            heading.id = `heading-toc-${index}`;
+        }
+
+        const liDesktop = document.createElement("li");
+        liDesktop.className = "toc-item";
+        const linkDesktop = document.createElement("a");
+        linkDesktop.textContent = heading.textContent.replace(/^[0-9.]+\s*/, "").toLowerCase();
+        linkDesktop.href = `#${heading.id}`;
+        linkDesktop.setAttribute("data-target", heading.id);
+
+        if (heading.tagName.toLowerCase() === "h3") {
+            linkDesktop.style.paddingLeft = "16px";
+            linkDesktop.style.fontSize = "0.74rem";
+        }
+
+        linkDesktop.addEventListener("click", (e) => {
+            e.preventDefault();
+            heading.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+
+        liDesktop.appendChild(linkDesktop);
+        listaDesktop.appendChild(liDesktop);
+    });
+
+    tocNavDesktop.appendChild(listaDesktop);
+
+    const tocFilterInput = document.getElementById("toc-filter-input");
+    if (tocFilterInput) {
+        tocFilterInput.value = "";
+        tocFilterInput.oninput = (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            const items = listaDesktop.querySelectorAll(".toc-item");
+            items.forEach(item => {
+                const link = item.querySelector("a");
+                if (!link) return;
+                const match = link.textContent.toLowerCase().includes(query);
+                item.style.display = match ? "block" : "none";
+            });
+        };
+    }
+
+    inicializarScrollspyTOC(headings);
+}
+
+function inicializarScrollspyTOC(headings) {
+    if (scrollSpyObserver) {
+        scrollSpyObserver.disconnect();
+    }
+
+    scrollSpyObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const id = entry.target.id;
+                const links = document.querySelectorAll(`.toc-list a[data-target="${id}"]`);
+                document.querySelectorAll(".toc-list a").forEach(a => a.classList.remove("toc-active"));
+                links.forEach(a => a.classList.add("toc-active"));
+            }
+        });
+    }, {
+        rootMargin: "-80px 0px -70% 0px",
+        threshold: 0.1
+    });
+
+    headings.forEach(heading => scrollSpyObserver.observe(heading));
 }
 
 function processarWikilinks(container) {
@@ -408,35 +502,6 @@ function renderizarDiagramasMermaid() {
         diagrama.textContent = codigo;
     });
     mermaid.run({ nodes: diagramas }).catch(err => console.error("Erro Mermaid:", err));
-}
-
-function gerarTOC() {
-    const tocNav = document.getElementById("toc-nav");
-    if (!tocNav) return;
-    tocNav.innerHTML = "";
-
-    const headers = artigoCorpo.querySelectorAll("h2, h3, h4");
-    if (headers.length === 0) {
-        tocNav.innerHTML = `<span class="toc-vazio">sem subtítulos</span>`;
-        return;
-    }
-
-    headers.forEach((h, index) => {
-        const id = h.id || `secao-${index}`;
-        h.id = id;
-
-        const link = document.createElement("a");
-        link.className = `toc-link toc-${h.tagName.toLowerCase()}`;
-        link.href = `#${id}`;
-        link.textContent = h.textContent.replace(/^[0-9.]+\s*/, "");
-
-        link.addEventListener("click", (e) => {
-            e.preventDefault();
-            h.scrollIntoView({ behavior: "smooth", block: "start" });
-        });
-
-        tocNav.appendChild(link);
-    });
 }
 
 function filtrarArtigos(termoBusca) {
@@ -554,25 +619,32 @@ function extrairTrechoRelevante(conteudo, termo) {
     return trecho;
 }
 
-function processarRotaInicial() {
+function tratarHashNavegacao() {
     const hash = window.location.hash;
-    if (!hash || hash === "#/" || hash === "#") {
+    if (!hash || hash === "#" || hash === "#/") {
         voltarParaHome(false);
         return;
     }
 
-    if (hash.startsWith("#/disciplina/")) {
-        const cat = decodeURIComponent(hash.replace("#/disciplina/", ""));
-        abrirDisciplina(cat, false);
-    } else if (hash.startsWith("#/")) {
-        const partes = hash.replace("#/", "").split("/");
-        if (partes.length >= 2) {
-            const cat = decodeURIComponent(partes[0]);
-            const tit = decodeURIComponent(partes[1]);
-            const art = todosOsArtigos.find(a => a.categoria === cat && a.titulo === tit);
-            if (art) {
-                abrirArtigo(art, false);
-            }
+    const rotaLimpa = decodeURIComponent(hash.replace(/^#\/?/, "").trim());
+    
+    if (rotaLimpa.startsWith("disciplina/")) {
+        const categoria = rotaLimpa.replace("disciplina/", "").trim();
+        abrirDisciplina(categoria, false);
+        return;
+    }
+
+    const partes = rotaLimpa.split("/");
+    if (partes.length >= 2) {
+        const [categoria, ...resto] = partes;
+        const nomeArtigo = resto.join("/");
+        const artigo = todosOsArtigos.find(a => 
+            a.categoria.toLowerCase() === categoria.toLowerCase() && 
+            a.titulo.toLowerCase() === nomeArtigo.toLowerCase()
+        );
+        if (artigo) {
+            abrirArtigo(artigo, false);
+            return;
         }
     }
 }
@@ -590,10 +662,10 @@ function voltarParaHome(atualizarRota = true) {
 }
 
 window.addEventListener("popstate", () => {
-    processarRotaInicial();
+    tratarHashNavegacao();
 });
 
-const stickyNav = document.getElementById("sticky-nav");
+// Event Listeners
 window.addEventListener("scroll", () => {
     if (!stickyNav) return;
     if (window.scrollY > 80) {

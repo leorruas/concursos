@@ -1,0 +1,5 @@
+.DS_Store
+.obsidian.bak/
+.obsidian/workspace*
+.obsidian/cache/
+*.pdf

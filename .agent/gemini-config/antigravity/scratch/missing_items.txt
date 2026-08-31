@@ -1,0 +1,12 @@
+Total files in itens/: 771
+Unique linked files in 00 Itens.md: 769
+Missing items count: 7
+
+Missing Items:
+- [[itens/Cecília Henriques; Denise Pilar; Elizete Ignácio • UX Research com sotaque brasileiro • [Megan Neesse] Ela reconhece que|Cecília Henriques; Denise Pilar; Elizete Ignácio • UX Research com sotaque brasileiro • [Megan Neesse] Ela reconhece que]]
+- [[itens/Foley, Michael • Life lessons from Bergson • O exemplo moral como nova música|Foley, Michael • Life lessons from Bergson • O exemplo moral como nova música]]
+- [[itens/W. Chan Kim; Renée Mauborgne • Blue Ocean Strategy • Caso Callaway Golf|W. Chan Kim; Renée Mauborgne • Blue Ocean Strategy • Caso Callaway Golf]]
+- [[itens/W. Chan Kim; Renée Mauborgne • Blue Ocean Strategy • Caso Philips CD-i|W. Chan Kim; Renée Mauborgne • Blue Ocean Strategy • Caso Philips CD-i]]
+- [[itens/W. Chan Kim; Renée Mauborgne • Blue Ocean Strategy • Custeio baseado em preço|W. Chan Kim; Renée Mauborgne • Blue Ocean Strategy • Custeio baseado em preço]]
+- [[itens/W. Chan Kim; Renée Mauborgne • Blue Ocean Strategy • Value innovation is created in|W. Chan Kim; Renée Mauborgne • Blue Ocean Strategy • Value innovation is created in]]
+- [[itens/W. Chan Kim; Renée Mauborgne • Blue Ocean Strategy • Value innovation places equal emphasis|W. Chan Kim; Renée Mauborgne • Blue Ocean Strategy • Value innovation places equal emphasis]]

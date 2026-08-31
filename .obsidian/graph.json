@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:talvegue/itens  ",
+      "color": {
+        "a": 1,
+        "rgb": 15451397
+      }
+    },
+    {
+      "query": "path:wiki/autores  ",
+      "color": {
+        "a": 1,
+        "rgb": 10587374
+      }
+    },
+    {
+      "query": "path:talvegue/wiki/conceitos  ",
+      "color": {
+        "a": 1,
+        "rgb": 6724916
+      }
+    },
+    {
+      "query": "path:wiki  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:ifmg/vestibulandos  ",
+      "color": {
+        "a": 1,
+        "rgb": 391701
+      }
+    },
+    {
+      "query": "path:ifmg/site/uxr  ",
+      "color": {
+        "a": 1,
+        "rgb": 2568915
+      }
+    },
+    {
+      "query": "path:career",
+      "color": {
+        "a": 1,
+        "rgb": 65531
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 2.1,
+  "nodeSizeMultiplier": 0.720489488547223,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.831258437078146,
+  "repelStrength": 14.8717564121794,
+  "linkStrength": 0.816259187040648,
+  "linkDistance": 30,
+  "scale": 1.3469143520581643,
+  "close": true
+}

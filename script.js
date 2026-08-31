@@ -1,225 +1,680 @@
-const arquivos = [
-  "materias/Administracao Geral/administracao-geral.md", "materias/Administracao Publica/administracao-publica.md", "materias/Atualidades/atualidades.md", "materias/Calculo Mental/calculo-mental.md",
-  "materias/Comunicacao/01 - comunicacao organizacional.md", "materias/Comunicacao/02 - comunicacao publica.md", "materias/Comunicacao/03 - lai lgpd e transparencia.md", "materias/Comunicacao/04 - criterios de noticiabilidade.md", "materias/Comunicacao/05 - lead piramide invertida e storytelling.md", "materias/Comunicacao/06 - comunicacao digital.md", "materias/Comunicacao/07 - gestao de crises.md", "materias/Comunicacao/08 - assessoria de imprensa.md", "materias/Comunicacao/09 - comunicacao interna.md", "materias/Comunicacao/10 - linguagem simples.md", "materias/Comunicacao/11 - etica em comunicacao.md", "materias/Comunicacao/12 - producao editorial e design.md", "materias/Comunicacao/13 - generos jornalisticos.md", "materias/Comunicacao/14 - entrevista jornalistica.md", "materias/Comunicacao/15 - publicos e stakeholders.md", "materias/Comunicacao/16 - planejamento de comunicacao.md", "materias/Comunicacao/17 - pesquisa em comunicacao.md", "materias/Comunicacao/18 - fact checking e desinformacao.md", "materias/Comunicacao/19 - marketing institucional e branding.md", "materias/Comunicacao/20 - campanhas e planejamento de midia.md", "materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa.md", "materias/Comunicacao/comunicacao.md",
-  "materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md", "materias/Direito Administrativo/02 - organizacao administrativa.md", "materias/Direito Administrativo/03 - atos administrativos.md", "materias/Direito Administrativo/04 - poderes administrativos.md", "materias/Direito Administrativo/05 - agentes publicos.md", "materias/Direito Administrativo/06 - responsabilidade civil do estado.md", "materias/Direito Administrativo/07 - improbidade administrativa.md", "materias/Direito Administrativo/08 - licitacoes e contratos.md", "materias/Direito Administrativo/09 - processo administrativo federal.md", "materias/Direito Administrativo/direito-administrativo.md",
-  "materias/Direito Constitucional/01 - principios fundamentais.md", "materias/Direito Constitucional/02 - direitos e garantias fundamentais.md", "materias/Direito Constitucional/03 - direitos sociais.md", "materias/Direito Constitucional/04 - nacionalidade.md", "materias/Direito Constitucional/05 - direitos politicos.md", "materias/Direito Constitucional/06 - poder legislativo.md", "materias/Direito Constitucional/07 - poder executivo.md", "materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md", "materias/Direito Constitucional/09 - funcoes essenciais a justica.md", "materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md", "materias/Direito Constitucional/direito-constitucional.md",
-  "materias/Informatica/informatica.md", "materias/Logica/00 - logica.md", "materias/Logica/01 - proposicao.md", "materias/Logica/02 - conectivos.md", "materias/Logica/03 - quantificadores.md", "materias/Logica/04 - equivalencias.md", "materias/Logica/05 - tabela verdade.md", "materias/Logica/06 - argumentacao logica.md", "materias/Logica/07 - diagramas logicos e conjuntos.md", "materias/Logica/08 - possibilidade e necessidade.md", "materias/Logica/09 - analise combinatoria.md",
-  "materias/Portugues/01 - interpretacao de texto.md", "materias/Portugues/02 - sujeito.md", "materias/Portugues/03 - pontuacao e virgula.md", "materias/Portugues/04 - regencia.md", "materias/Portugues/05 - acordo ortografico.md", "materias/Portugues/portugues.md", "materias/Redacao/redacao.md"
-];
+// Função para buscar automaticamente todos os arquivos .md do GitHub leorruas/concursos
+async function obterListaDeArquivos() {
+    try {
+        const resposta = await fetch("https://api.github.com/repos/leorruas/concursos/git/trees/main?recursive=1");
+        if (!resposta.ok) throw new Error("Erro na API do GitHub");
 
-const descricoes = {
-  "Administracao Geral": "fundamentos, processos e funções administrativas", "Administracao Publica": "Estado, gestão pública e políticas", Atualidades: "contexto social, político e tecnológico", "Calculo Mental": "agilidade numérica e estratégias de cálculo", Comunicacao: "comunicação pública, jornalismo e estratégia", "Direito Administrativo": "administração pública, atos e agentes", "Direito Constitucional": "Constituição, direitos e organização do Estado", Informatica: "conceitos e ferramentas de informática", Logica: "proposições, argumentos e raciocínio", Portugues: "língua portuguesa e interpretação", Redacao: "produção textual e argumentação"
-};
-const nomesMaterias = {
-  "Administracao Geral": "Administração geral", "Administracao Publica": "Administração pública", Atualidades: "Atualidades", "Calculo Mental": "Cálculo mental", Comunicacao: "Comunicação", "Direito Administrativo": "Direito administrativo", "Direito Constitucional": "Direito constitucional", Informatica: "Informática", Logica: "Lógica", Portugues: "Português", Redacao: "Redação"
-};
-const ordemMaterias = ["Portugues", "Logica", "Calculo Mental", "Informatica", "Direito Constitucional", "Direito Administrativo", "Administracao Publica", "Administracao Geral", "Comunicacao", "Atualidades", "Redacao"];
-const normalizar = valor => valor.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-const tituloDoArquivo = caminho => caminho.split("/").pop().replace(/\.md$/i, "").replace(/^\d+\s*-\s*/, "").replace(/-/g, " ");
-const tituloLegivel = valor => valor.replace(/\b\w/g, letra => letra.toUpperCase()).replace(/\bLai\b/g, "LAI").replace(/\bLgpd\b/g, "LGPD");
-const categoriaDoArquivo = caminho => caminho.split("/")[1];
-const slug = valor => normalizar(valor).replace(/[^a-z0-9\s-]/g, "").trim().replace(/\s+/g, "-");
-const escapar = valor => valor.replace(/[&<>"]/g, caractere => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[caractere]));
-const ordenarArtigos = lista => [...lista].sort((a, b) => arquivos.indexOf(a.caminho) - arquivos.indexOf(b.caminho));
+        const dados = await resposta.json();
 
-const home = document.getElementById("home-view"); const topics = document.getElementById("topics-view"); const article = document.getElementById("article-view"); const grid = document.getElementById("areas-grid"); const search = document.getElementById("search-input"); const homeSearch = document.getElementById("home-search-input"); const topbar = document.querySelector(".topbar");
-let artigos = []; let artigoAtual = null;
-let atualizarTocAtivo = null;
-let versaoDoArtigo = 0;
-let tema = localStorage.getItem("concursos-theme") === "light" ? "light" : "dark";
+        // Filtra apenas os arquivos Markdown (.md), ignorando arquivos de sistema, index raiz e regras de agentes
+        return dados.tree
+            .filter(item => {
+                const pathLower = item.path.toLowerCase();
+                const fileName = pathLower.split("/").pop();
+                
+                if (!item.path.endsWith(".md")) return false;
+                if (item.path.includes(".obsidian") || item.path.includes(".git") || item.path.includes(".gemini") || item.path.includes(".agent")) return false;
+                if (fileName === "agents.md" || fileName === "index.md" || fileName === "me.md" || fileName === "log.md" || fileName === "gemini.md" || fileName === "readme.md") return false;
+                if (fileName.includes(" 2.md")) return false; // Ignora duplicatas de sincronização iCloud
+                
+                return true;
+            })
+            .map(item => {
+                const nomeSemExtensao = item.path.split("/").pop().replace(".md", "");
+                const partes = item.path.split("/");
+                let categoria = partes.length > 1 ? partes[0] : "Geral";
+                
+                // Normalização das pastas para exibição organizada
+                if (item.path.startsWith("3 - Materias/")) {
+                    categoria = partes[1] || "3 - Materias";
+                } else if (item.path.startsWith("00 - Desempenho/Simulados/")) {
+                    categoria = "00. Simulados";
+                } else if (item.path.startsWith("00 - Desempenho/")) {
+                    categoria = "00. Desempenho";
+                } else if (item.path.startsWith("4 - Projetos/")) {
+                    categoria = "04. Projetos & Edital";
+                } else if (item.path.startsWith("1 - Planejamento/")) {
+                    categoria = "01. Planejamento";
+                } else if (item.path.startsWith("2 - Editais/")) {
+                    categoria = "02. Editais";
+                }
+
+                const urlSegura = "https://raw.githubusercontent.com/leorruas/concursos/main/" + item.path.split("/").map(encodeURIComponent).join("/");
+                return {
+                    titulo: nomeSemExtensao,
+                    path: urlSegura,
+                    sourcePath: item.path,
+                    categoria: categoria
+                };
+            });
+    } catch (erro) {
+        console.warn("Não foi possível listar via GitHub, usando lista estática de fallback:", erro);
+        return [];
+    }
+}
+
+// Descrições e Metadados das Categorias / Matérias para o Design Suíço
+const informacoesDisciplinas = {
+    "00. Simulados": { numero: "00", resumo: "catálogo de simulados, diagnóstico de erros e mapa de calor" },
+    "00. Desempenho": { numero: "01", resumo: "avanços globais, log de saturação e métricas de consistência" },
+    "Portugues": { numero: "02", resumo: "interpretação, concordância, crase, regência e acordo ortográfico" },
+    "Logica": { numero: "03", resumo: "conectivos, quantificadores, equivalências, tabela verdade e combinatória" },
+    "Comunicacao": { numero: "04", resumo: "comunicação organizacional, pública, digital, crises e teorias" },
+    "Informatica": { numero: "05", resumo: "marco civil da internet, segurança da informação e sistemas" },
+    "Ingles": { numero: "06", resumo: "conectivos, marcadores discursivos e leitura instrumental" },
+    "Calculo Mental": { numero: "07", resumo: "operações rápidas, aproximações e treinamento cognitivo" },
+    "Direito Constitucional": { numero: "08", resumo: "direitos fundamentais, nacionalidade, poderes e controle" },
+    "Direito Administrativo": { numero: "09", resumo: "princípios, atos, poderes, licitações e responsabilidade civil" },
+    "Administracao Publica": { numero: "10", resumo: "modelos de gestão, governança, políticas públicas e eficiência" },
+    "Administracao Geral": { numero: "11", resumo: "planejamento estratégico, processos e teorias administrativas" },
+    "Atualidades": { numero: "12", resumo: "inteligência artificial, tecnologia e sociedade" },
+    "Redacao": { numero: "13", resumo: "técnicas discursivas, estrutura argumentativa e repertório" },
+    "04. Projetos & Edital": { numero: "14", resumo: "dashboards, cronogramas e wiki do edital dataprev/tcdf" },
+    "01. Planejamento": { numero: "15", resumo: "cronogramas, horários e editais abertos/previstos" }
+};
+
+// Variáveis globais
+let todosOsArtigos = [];
+let todasAsPastas = {};
+let artigoAtual = null;
+
+const campoTexto = document.getElementById("main-search-input");
+const campoTextoNav = document.getElementById("nav-search-input");
+const containerResultados = document.querySelector(".cards-container");
+const divResultados = document.getElementById("resultados");
+const leitorDeArtigo = document.getElementById("leitor-artigo");
+const leitorDeDisciplina = document.getElementById("disciplina-leitor");
+const disciplinaCabecalho = document.getElementById("disciplina-cabecalho");
+const disciplinaAcoes = document.getElementById("disciplina-acoes");
+const artigoTitulo = document.getElementById("artigo-titulo");
+const artigoCorpo = document.getElementById("artigo-corpo");
+const btnVoltar = document.getElementById("btn-voltar");
+const btnVoltarDisciplina = document.getElementById("btn-voltar-disciplina");
+const retornoArtigoTexto = document.getElementById("retorno-artigo-texto");
+const btnTema = document.getElementById("theme-toggle");
+
+// Controle de Tema (Claro / Escuro)
+function aplicarTema(tema, persistir = true) {
+    document.documentElement.dataset.theme = tema;
+    if (persistir) localStorage.setItem("tema-concursos", tema);
+    if (btnTema) {
+        const proximoTema = tema === "dark" ? "modo claro" : "modo escuro";
+        btnTema.textContent = proximoTema;
+        btnTema.setAttribute("aria-label", `Alternar para ${proximoTema}`);
+    }
+}
 
 function configurarMermaid() {
-  const claro = tema === "light";
-  mermaid.initialize({ startOnLoad:false, theme:claro ? "base" : "dark", securityLevel:"strict", themeVariables:{ primaryColor:claro ? "#ede9df" : "#191919", primaryTextColor:claro ? "#171614" : "#f4f2ee", primaryBorderColor:claro ? "#a87800" : "#ffd52e", lineColor:claro ? "#a87800" : "#ffd52e", secondaryColor:claro ? "#e8e4da" : "#242222", tertiaryColor:claro ? "#f6f4ee" : "#101010" } });
-}
-function aplicarTema(novoTema) {
-  tema = novoTema;
-  document.documentElement.dataset.theme = tema;
-  localStorage.setItem("concursos-theme", tema);
-  document.querySelectorAll("[data-theme-toggle]").forEach(botao => botao.textContent = tema === "dark" ? "modo claro" : "modo escuro");
-  configurarMermaid();
-  if (artigoAtual && !article.hidden) abrirArtigo(artigoAtual, false);
-}
+    if (typeof mermaid === "undefined") return;
 
-async function carregarArtigos() {
-  artigos = await Promise.all(arquivos.map(async caminho => {
-    const conteudo = await fetch(encodeURI(caminho)).then(resposta => resposta.ok ? resposta.text() : "");
-    const frontmatter = conteudo.match(/^---\n([\s\S]*?)\n---\n?/);
-    const titulo = frontmatter?.[1].match(/^title:\s*["']?(.+?)["']?\s*$/m)?.[1] || tituloLegivel(tituloDoArquivo(caminho));
-    return { caminho, conteudo, titulo, categoria: categoriaDoArquivo(caminho) };
-  }));
-  renderizarHome(); tratarRota();
-}
-
-function renderizarHome() {
-  const termo = normalizar(homeSearch.value.trim());
-  const porCategoria = artigos.reduce((grupos, item) => ({ ...grupos, [item.categoria]: [...(grupos[item.categoria] || []), item] }), {});
-  const categorias = ordemMaterias.filter(categoria => porCategoria[categoria]);
-  const visiveis = categorias.filter(categoria => !termo || normalizar(`${categoria} ${descricoes[categoria] || ""} ${porCategoria[categoria].map(({titulo}) => titulo).join(" ")}`).includes(termo));
-  document.getElementById("results-summary").textContent = termo ? `${visiveis.length} matérias encontradas` : `${categorias.length} matérias públicas`;
-  grid.innerHTML = visiveis.length ? visiveis.map(categoria => `<button class="area-card" type="button" data-categoria="${escapar(categoria)}"><span class="area-number">${String(ordemMaterias.indexOf(categoria)+1).padStart(2,"0")}</span><span><span class="area-name">${escapar(nomesMaterias[categoria] || tituloLegivel(categoria))}</span><span class="area-description">${escapar(descricoes[categoria] || `${porCategoria[categoria].length} notas de estudo`)}</span></span><span class="area-arrow">→</span></button>`).join("") : '<p class="empty">Nenhuma matéria encontrada.</p>';
-  grid.querySelectorAll("[data-categoria]").forEach(botao => botao.addEventListener("click", () => abrirMateria(botao.dataset.categoria)));
-}
-
-function abrirMateria(categoria) {
-  if (window.location.hash !== `#/materia/${encodeURIComponent(categoria)}`) { window.location.hash = `#/materia/${encodeURIComponent(categoria)}`; return; }
-  const lista = ordenarArtigos(artigos.filter(artigo => artigo.categoria === categoria));
-  limparTocAtivo();
-  home.hidden = true; article.hidden = true; topics.hidden = false;
-  document.getElementById("topics-title").textContent = nomesMaterias[categoria] || tituloLegivel(categoria);
-  document.getElementById("topics-count").textContent = `${lista.length} tópicos`;
-  document.getElementById("topics-breadcrumbs").innerHTML = '<button type="button" data-home>início</button><span>/</span><span>matérias</span>';
-  document.getElementById("topics-breadcrumbs").querySelector("[data-home]").addEventListener("click", voltarHome);
-  document.getElementById("topics-list").innerHTML = lista.map((item, indice) => `<button type="button" class="topic-item" data-caminho="${escapar(item.caminho)}"><span class="topic-number">${String(indice + 1).padStart(2,"0")}</span><strong>${escapar(item.titulo)}</strong><span class="area-arrow">→</span></button>`).join("");
-  document.querySelectorAll("#topics-list [data-caminho]").forEach(botao => botao.addEventListener("click", () => abrirArtigo(artigos.find(item => item.caminho === botao.dataset.caminho))));
-  rolarParaTopo();
-}
-
-function encontrarWikiLink(destino, origem) {
-  const alvo = destino.split("#")[0].replace(/^3\s*-\s*Materias\//i, "").replace(/\.md$/i, "").trim();
-  if (!alvo) return null;
-  const chave = normalizar(alvo);
-  const daMesmaMateria = artigos.filter(artigo => artigo.categoria === origem.categoria);
-  return [...daMesmaMateria, ...artigos.filter(artigo => artigo.categoria !== origem.categoria)].find(artigo => {
-    const caminho = artigo.caminho.replace(/^materias\//i, "").replace(/\.md$/i, "");
-    const nomeDoArquivo = artigo.caminho.split("/").pop().replace(/\.md$/i, "");
-    return normalizar(caminho) === chave || normalizar(nomeDoArquivo) === chave || normalizar(tituloDoArquivo(artigo.caminho)) === chave || normalizar(artigo.titulo) === chave;
-  }) || null;
-}
-function converterDestaquesMarkdown(markdown) {
-  let sequencia = 0;
-  return markdown.split(/(```[\s\S]*?```)/g).map(bloco => bloco.startsWith("```") ? bloco : bloco.split(/(`[^`\n]*`)/g).map(trecho => trecho.startsWith("`") ? trecho : trecho.replace(/==([^=\n]+)==/g, (_, conteudo) => {
-    const id = sequencia++;
-    return `@@HL_START_${id}@@${conteudo}@@HL_END_${id}@@`;
-  })).join("")).join("");
-}
-function limparMarkdown(markdown, origem) {
-  const limpo = markdown.replace(/^---[\s\S]*?---\s*/, "").replace(/^>\s*\[!(\w+)\]\s*/gm, "> **$1** ").replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, (_, destino, rotulo) => {
-    const artigoDestino = encontrarWikiLink(destino, origem);
-    return artigoDestino ? `[${rotulo}](#/artigo/${encodeURIComponent(artigoDestino.caminho)})` : rotulo;
-  }).replace(/\[\[([^\]]+)\]\]/g, (_, destino) => {
-    const artigoDestino = encontrarWikiLink(destino, origem);
-    const rotulo = destino.split("#")[0];
-    return artigoDestino ? `[${rotulo}](#/artigo/${encodeURIComponent(artigoDestino.caminho)})` : rotulo;
-  });
-  return converterDestaquesMarkdown(limpo);
-}
-function aplicarDestaques(corpo) {
-  const marcadores = new Map();
-  const walker = document.createTreeWalker(corpo, NodeFilter.SHOW_TEXT, { acceptNode: texto => texto.parentElement?.closest("code, pre, script, style") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
-  while (walker.nextNode()) {
-    const texto = walker.currentNode;
-    [...texto.nodeValue.matchAll(/@@HL_(START|END)_(\d+)@@/g)].forEach(resultado => {
-      const entrada = marcadores.get(resultado[2]) || {};
-      entrada[resultado[1].toLowerCase()] = { texto, inicio:resultado.index, fim:resultado.index + resultado[0].length };
-      marcadores.set(resultado[2], entrada);
+    const temaEscuro = document.documentElement.dataset.theme !== "light";
+    mermaid.initialize({
+        startOnLoad: false,
+        theme: "base",
+        fontFamily: "Archivo, sans-serif",
+        fontSize: 16,
+        flowchart: {
+            curve: "linear",
+            defaultRenderer: "dagre-wrapper",
+            nodeSpacing: 42,
+            rankSpacing: 56,
+            padding: 16
+        },
+        themeVariables: temaEscuro ? {
+            fontFamily: "Archivo, sans-serif",
+            fontSize: "16px",
+            darkMode: true,
+            background: "#101010",
+            primaryColor: "#182431",
+            primaryTextColor: "#f1f0eb",
+            primaryBorderColor: "#6fa8e8",
+            lineColor: "#9ab0c5",
+            secondaryColor: "#15191d",
+            tertiaryColor: "#20262d"
+        } : {
+            fontFamily: "Archivo, sans-serif",
+            fontSize: "16px",
+            darkMode: false,
+            background: "#ffffff",
+            primaryColor: "#eef5fc",
+            primaryTextColor: "#151515",
+            primaryBorderColor: "#1c5f9f",
+            lineColor: "#3f6282",
+            secondaryColor: "#f7f9fc",
+            tertiaryColor: "#e8f0f8"
+        }
     });
-  }
-  [...marcadores.values()].reverse().forEach(({ start, end }) => {
-    if (!start || !end) return;
-    const faixa = document.createRange();
-    faixa.setStart(start.texto, start.inicio); faixa.setEnd(end.texto, end.fim);
-    const destaque = document.createElement("mark");
-    destaque.append(faixa.extractContents()); faixa.insertNode(destaque);
-    const limpar = document.createTreeWalker(destaque, NodeFilter.SHOW_TEXT);
-    while (limpar.nextNode()) limpar.currentNode.nodeValue = limpar.currentNode.nodeValue.replace(/@@HL_(START|END)_\d+@@/g, "");
-  });
 }
-function removerMetadadosPrivados(corpo) { corpo.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach(cabecalho => { if (!/^fontes brutas:?$/i.test(cabecalho.textContent.trim())) return; const nivel = Number(cabecalho.tagName.slice(1)); let proximo = cabecalho.nextElementSibling; cabecalho.remove(); while (proximo) { const seguinte = proximo.nextElementSibling; if (/^H[1-6]$/.test(proximo.tagName) && Number(proximo.tagName.slice(1)) <= nivel) break; proximo.remove(); proximo = seguinte; } }); }
-function envolverTabelas(corpo) { corpo.querySelectorAll("table").forEach(tabela => { const conteiner = document.createElement("div"); conteiner.className = "table-scroll"; tabela.before(conteiner); conteiner.append(tabela); }); }
-function abrirArtigo(item, atualizarHash = true) {
-  if (atualizarHash && window.location.hash !== `#/artigo/${encodeURIComponent(item.caminho)}`) { window.location.hash = `#/artigo/${encodeURIComponent(item.caminho)}`; return; }
-  const versaoAtual = ++versaoDoArtigo;
-  artigoAtual = item; home.hidden = true; topics.hidden = true; article.hidden = false; document.getElementById("article-title").textContent = item.titulo;
-  const corpo = document.getElementById("article-body"); corpo.innerHTML = marked.parse(limparMarkdown(item.conteudo, item), { gfm:true, breaks:false });
-  aplicarDestaques(corpo);
-  const tituloRepetido = corpo.querySelector("h1");
-  if (tituloRepetido && normalizar(tituloRepetido.textContent) === normalizar(item.titulo)) tituloRepetido.remove();
-  removerMetadadosPrivados(corpo);
-  corpo.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach((titulo, indice) => titulo.id = titulo.id || `${slug(titulo.textContent)}-${indice}`);
-  corpo.querySelectorAll('a[href^="#"]:not([href^="#/"])').forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); rolarParaSecao(link.getAttribute("href").slice(1)); }));
-  envolverTabelas(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
-  renderizarMermaid(corpo).then(() => { if (versaoAtual === versaoDoArtigo) adicionarCopiarCodigo(corpo); });
-}
-function renderizarBreadcrumbs(item) { const el=document.getElementById("breadcrumbs"); el.innerHTML=`<button type="button" data-home>início</button><span>/</span><button type="button" data-categoria>${escapar(nomesMaterias[item.categoria] || tituloLegivel(item.categoria))}</button><span>/</span><span>${escapar(item.titulo)}</span>`; el.querySelector("[data-home]").addEventListener("click", voltarHome); el.querySelector("[data-categoria]").addEventListener("click", () => abrirMateria(item.categoria)); }
-function renderizarToc(corpo) {
-  const toc = document.getElementById("toc"); const titulos = [...corpo.querySelectorAll("h1,h2")];
-  toc.innerHTML = titulos.map(titulo => `<a href="#${titulo.id}" data-secao="${titulo.id}">${escapar(titulo.textContent)}</a>`).join("");
-  toc.querySelectorAll("a").forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); rolarParaSecao(link.dataset.secao); }));
-  document.getElementById("toc-filter").oninput = e => toc.querySelectorAll("a").forEach(link => link.hidden = !normalizar(link.textContent).includes(normalizar(e.target.value)));
-  limparTocAtivo();
-  atualizarTocAtivo = () => {
-    let atual = titulos[0];
-    titulos.forEach(titulo => { if (titulo.getBoundingClientRect().top <= 132) atual = titulo; });
-    toc.querySelectorAll("a").forEach(link => link.classList.toggle("is-active", link.dataset.secao === atual?.id));
-  };
-  window.addEventListener("scroll", atualizarTocAtivo, { passive:true });
-  atualizarTocAtivo();
-}
-function limparTocAtivo() {
-  if (!atualizarTocAtivo) return;
-  window.removeEventListener("scroll", atualizarTocAtivo);
-  atualizarTocAtivo = null;
-}
-function renderizarNav(item) { const lista=ordenarArtigos(artigos.filter(artigo=>artigo.categoria===item.categoria)); const indice=lista.indexOf(item); const destino=[ [lista[indice-1],"← artigo anterior"],[lista[indice+1],"próximo artigo →"] ]; document.getElementById("article-nav").innerHTML=destino.map(([artigo,rotulo])=>artigo?`<button type="button" data-caminho="${escapar(artigo.caminho)}"><span>${rotulo}</span><strong>${escapar(artigo.titulo)}</strong></button>`:"<span></span>").join(""); document.querySelectorAll("#article-nav [data-caminho]").forEach(botao=>botao.addEventListener("click",()=>abrirArtigo(artigos.find(item=>item.caminho===botao.dataset.caminho)))); }
-function adicionarCopiarCodigo(corpo) {
-  corpo.querySelectorAll("pre").forEach(pre => {
-    if (pre.querySelector(".copy-button")) return;
-    const botao = document.createElement("button");
-    botao.className = "copy-button";
-    botao.type = "button";
-    botao.textContent = "copiar";
-    botao.setAttribute("aria-label", "Copiar código");
-    botao.addEventListener("click", async () => {
-      const codigo = pre.querySelector("code")?.textContent ?? pre.textContent;
-      try {
-        if (!navigator.clipboard?.writeText) throw new Error("Área de transferência indisponível");
-        await navigator.clipboard.writeText(codigo);
-        botao.textContent = "copiado";
-      } catch {
-        botao.textContent = "não foi possível copiar";
-      }
-      window.setTimeout(() => { botao.textContent = "copiar"; }, 1500);
+
+function renderizarDiagramasMermaid() {
+    if (typeof mermaid === "undefined" || !artigoCorpo) return;
+    configurarMermaid();
+
+    const diagramas = artigoCorpo.querySelectorAll(".mermaid");
+    diagramas.forEach(diagrama => {
+        const codigo = diagrama.dataset.mermaidSource || diagrama.textContent;
+        diagrama.dataset.mermaidSource = codigo;
+        diagrama.removeAttribute("data-processed");
+        diagrama.textContent = codigo;
     });
-    pre.append(botao);
-  });
+
+    mermaid.run({ nodes: diagramas }).catch(err => {
+        console.error("Erro ao renderizar Mermaid:", err);
+    });
 }
-async function renderizarMermaid(corpo) { const blocos=[...corpo.querySelectorAll("pre > code.language-mermaid")]; for (const [indice,codigo] of blocos.entries()) { const conteiner=document.createElement("div"); conteiner.className="mermaid"; conteiner.id=`mermaid-${Date.now()}-${indice}`; conteiner.textContent=codigo.textContent; codigo.parentElement.replaceWith(conteiner); try { await mermaid.run({nodes:[conteiner]}); } catch { const pre=document.createElement("pre"); pre.textContent=codigo.textContent; conteiner.replaceWith(pre); } } }
-function atualizarNavbar() { topbar.classList.toggle("visible", window.scrollY > 80); }
-function rolarParaSecao(id) {
-  const secao = document.getElementById(id);
-  if (!secao) return;
-  const posicao = secao.getBoundingClientRect().top + window.scrollY - topbar.offsetHeight - 20;
-  window.scrollTo({ top:Math.max(0, posicao), behavior:"smooth" });
+
+function inicializarTema() {
+    const temaSalvo = localStorage.getItem("tema-concursos");
+    const temaDoSistema = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    aplicarTema(temaSalvo || temaDoSistema, false);
 }
-function rolarParaTopo() { requestAnimationFrame(() => { window.scrollTo({top:0, left:0, behavior:"auto"}); atualizarNavbar(); }); }
-function mostrarHome(limparBusca = true) {
-  limparTocAtivo();
-  artigoAtual = null;
-  article.hidden = true; topics.hidden = true; home.hidden = false;
-  if (limparBusca) { search.value = ""; homeSearch.value = ""; }
-  renderizarHome(); rolarParaTopo();
+
+if (btnTema) {
+    btnTema.addEventListener("click", () => {
+        const temaAtual = document.documentElement.dataset.theme === "light" ? "light" : "dark";
+        const novoTema = temaAtual === "dark" ? "light" : "dark";
+        aplicarTema(novoTema, true);
+        renderizarDiagramasMermaid();
+    });
 }
-function voltarHome(limparBusca = true) {
-  if (window.location.hash) window.history.pushState({}, "", window.location.pathname);
-  mostrarHome(limparBusca);
+
+function limparNomeCategoria(categoria) {
+    return categoria.replace(/^\d+\.\s*/, "").replace(/^\d+\s*-\s*/, "").toLowerCase();
 }
-function tratarRota() {
-  const rota = window.location.hash;
-  try {
-    if (rota.startsWith("#/materia/")) {
-      const categoria = decodeURIComponent(rota.slice("#/materia/".length));
-      return ordemMaterias.includes(categoria) ? abrirMateria(categoria) : mostrarHome();
+
+function obterRotaCategoria(categoria) {
+    return `#/disciplina/${encodeURIComponent(categoria)}`;
+}
+
+function rotaDoArtigo(artigo) {
+    return `#/${encodeURIComponent(artigo.categoria)}/${encodeURIComponent(artigo.titulo)}`;
+}
+
+// Carrega os arquivos e busca o conteúdo Markdown
+async function carregarTodosOsArtigos() {
+    inicializarTema();
+    const lista = await obterListaDeArquivos();
+
+    const promessas = lista.map(async (item) => {
+        try {
+            const res = await fetch(item.path);
+            if (!res.ok) return null;
+            const texto = await res.text();
+            
+            return {
+                titulo: item.titulo,
+                conteudo: texto,
+                sourcePath: item.sourcePath,
+                categoria: item.categoria
+            };
+        } catch (e) {
+            console.error("Erro ao baixar:", item.path, e);
+            return null;
+        }
+    });
+
+    const resultados = await Promise.all(promessas);
+    todosOsArtigos = resultados.filter(Boolean);
+
+    // Organiza por categorias
+    todasAsPastas = {};
+    todosOsArtigos.forEach(artigo => {
+        if (!todasAsPastas[artigo.categoria]) {
+            todasAsPastas[artigo.categoria] = [];
+        }
+        todasAsPastas[artigo.categoria].push(artigo);
+    });
+
+    // Ordena artigos dentro de cada categoria
+    Object.keys(todasAsPastas).forEach(cat => {
+        todasAsPastas[cat].sort((a, b) => a.titulo.localeCompare(b.titulo, "pt-BR", { numeric: true }));
+    });
+
+    renderizarOrientacoesIniciais();
+    renderizarCardsDisciplinas();
+    processarRotaInicial();
+}
+
+// Renderiza a Seção de Destaque no Topo (Simulados & Desempenho)
+function renderizarOrientacoesIniciais() {
+    const container = document.getElementById("orientacoes-container");
+    if (!container) return;
+    container.innerHTML = "";
+
+    const destaques = ["00. Simulados", "00. Desempenho"];
+    destaques.forEach(categoria => {
+        const artigos = todasAsPastas[categoria] || [];
+        const info = informacoesDisciplinas[categoria] || { numero: "00", resumo: "métricas e simulados" };
+
+        const card = document.createElement("a");
+        card.className = "pasta-card card-orientacao";
+        card.href = obterRotaCategoria(categoria);
+
+        card.innerHTML = `
+            <div class="pasta-card-topo">
+                <span class="pasta-numero">${info.numero}</span>
+                <span class="pasta-artigos-total">${artigos.length} ${artigos.length === 1 ? "documento" : "documentos"}</span>
+            </div>
+            <h3 class="pasta-nome">${limparNomeCategoria(categoria)}</h3>
+            <p class="pasta-resumo">${info.resumo}</p>
+        `;
+
+        card.addEventListener("click", (e) => {
+            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+            e.preventDefault();
+            window.location.hash = `/disciplina/${encodeURIComponent(categoria)}`;
+        });
+
+        container.appendChild(card);
+    });
+}
+
+// Renderiza a Grade Suíça de Matérias
+function renderizarCardsDisciplinas() {
+    const container = document.getElementById("pastas-container");
+    if (!container) return;
+    container.innerHTML = "";
+
+    const categoriasParaIgnorar = ["00. Simulados", "00. Desempenho"];
+    const categorias = Object.keys(todasAsPastas).filter(c => !categoriasParaIgnorar.includes(c));
+
+    categorias.sort((a, b) => {
+        const numA = informacoesDisciplinas[a]?.numero || "99";
+        const numB = informacoesDisciplinas[b]?.numero || "99";
+        return numA.localeCompare(numB, "pt-BR", { numeric: true });
+    });
+
+    categorias.forEach((categoria, index) => {
+        const artigos = todasAsPastas[categoria] || [];
+        const info = informacoesDisciplinas[categoria] || {
+            numero: String(index + 1).padStart(2, "0"),
+            resumo: "disciplina do edital"
+        };
+
+        const card = document.createElement("a");
+        card.className = "pasta-card";
+        card.href = obterRotaCategoria(categoria);
+
+        card.innerHTML = `
+            <div class="pasta-card-topo">
+                <span class="pasta-numero">${info.numero}</span>
+                <span class="pasta-artigos-total">${artigos.length} ${artigos.length === 1 ? "artigo" : "artigos"}</span>
+            </div>
+            <h3 class="pasta-nome">${limparNomeCategoria(categoria)}</h3>
+            <p class="pasta-resumo">${info.resumo}</p>
+        `;
+
+        card.addEventListener("click", (e) => {
+            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+            e.preventDefault();
+            window.location.hash = `/disciplina/${encodeURIComponent(categoria)}`;
+        });
+
+        container.appendChild(card);
+    });
+}
+
+// Visualizador da Disciplina / Categoria
+function abrirDisciplina(categoria) {
+    if (campoTexto) campoTexto.value = "";
+    if (campoTextoNav) campoTextoNav.value = "";
+    divResultados.classList.add("escondido");
+    leitorDeArtigo.classList.add("escondido");
+    document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
+    document.getElementById("explorar-disciplinas")?.classList.add("escondido");
+    leitorDeDisciplina.classList.remove("escondido");
+
+    const artigos = todasAsPastas[categoria] || [];
+    const info = informacoesDisciplinas[categoria] || { numero: "00", resumo: "" };
+
+    // Breadcrumbs
+    const breadcrumbs = document.getElementById("disciplina-breadcrumbs");
+    breadcrumbs.innerHTML = `
+        <a href="#/" class="breadcrumb-link">início</a>
+        <span class="breadcrumb-separador">/</span>
+        <span class="breadcrumb-atual">${limparNomeCategoria(categoria)}</span>
+    `;
+
+    // Cabeçalho
+    disciplinaCabecalho.innerHTML = `
+        <span class="disciplina-numero">${info.numero}</span>
+        <h2 class="disciplina-titulo-principal">${limparNomeCategoria(categoria)}</h2>
+        <p class="disciplina-descricao">${info.resumo}</p>
+        <span class="disciplina-total-badge">${artigos.length} ${artigos.length === 1 ? "artigo no módulo" : "artigos no módulo"}</span>
+    `;
+
+    // Lista de Artigos
+    disciplinaAcoes.innerHTML = "";
+    artigos.forEach((artigo, idx) => {
+        const item = document.createElement("a");
+        item.className = "artigo-lista-card";
+        item.href = rotaDoArtigo(artigo);
+
+        item.innerHTML = `
+            <span class="artigo-lista-num">${String(idx + 1).padStart(2, "0")}</span>
+            <div class="artigo-lista-info">
+                <strong class="artigo-lista-titulo">${artigo.titulo}</strong>
+                <span class="artigo-lista-caminho">${artigo.sourcePath}</span>
+            </div>
+            <span class="artigo-lista-seta">&rarr;</span>
+        `;
+
+        item.addEventListener("click", (e) => {
+            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+            e.preventDefault();
+            abrirArtigo(artigo);
+        });
+
+        disciplinaAcoes.appendChild(item);
+    });
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// Leitor de Artigo com TOC Lateral e KaTeX/Mermaid
+function abrirArtigo(artigo) {
+    artigoAtual = artigo;
+    window.location.hash = rotaDoArtigo(artigo);
+
+    document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
+    document.getElementById("explorar-disciplinas")?.classList.add("escondido");
+    divResultados.classList.add("escondido");
+    leitorDeDisciplina.classList.add("escondido");
+    leitorDeArtigo.classList.remove("escondido");
+
+    // Breadcrumbs
+    const breadcrumbs = document.getElementById("artigo-breadcrumbs");
+    breadcrumbs.innerHTML = `
+        <a href="#/" class="breadcrumb-link">início</a>
+        <span class="breadcrumb-separador">/</span>
+        <a href="${obterRotaCategoria(artigo.categoria)}" class="breadcrumb-link" id="breadcrumb-categoria">${limparNomeCategoria(artigo.categoria)}</a>
+        <span class="breadcrumb-separador">/</span>
+        <span class="breadcrumb-atual">${artigo.titulo}</span>
+    `;
+
+    artigoTitulo.textContent = artigo.titulo;
+
+    // Remove frontmatter para renderização do corpo
+    const markdownLimpo = removerFrontmatter(artigo.conteudo);
+    
+    // Configura marked
+    marked.setOptions({
+        gfm: true,
+        breaks: true
+    });
+
+    artigoCorpo.innerHTML = marked.parse(markdownLimpo);
+
+    // Trata links internos Obsidian [[Link|Texto]]
+    processarWikilinks(artigoCorpo);
+
+    // Renderiza KaTeX se disponível
+    if (typeof renderMathInElement !== "undefined") {
+        renderMathInElement(artigoCorpo, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            throwOnError: false
+        });
     }
-    if (rota.startsWith("#/artigo/")) {
-      const caminho = decodeURIComponent(rota.slice("#/artigo/".length));
-      const item = artigos.find(artigo => artigo.caminho === caminho);
-      return item ? abrirArtigo(item, false) : mostrarHome();
-    }
-  } catch {
-    // Rota parcialmente codificada ou inválida: exibe a página inicial sem alterar o histórico.
-  }
-  mostrarHome();
+
+    // Renderiza Mermaid
+    renderizarDiagramasMermaid();
+
+    // Gera Table of Contents (TOC)
+    gerarTOC();
+
+    // Configura Botão de Voltar
+    btnVoltar.onclick = () => abrirDisciplina(artigo.categoria);
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
 }
-aplicarTema(tema);
-document.getElementById("brand").addEventListener("click",voltarHome); document.getElementById("back-button").addEventListener("click",() => abrirMateria(artigoAtual.categoria)); document.getElementById("topics-back-button").addEventListener("click",voltarHome); document.querySelectorAll("[data-theme-toggle]").forEach(botao => botao.addEventListener("click", () => aplicarTema(tema === "dark" ? "light" : "dark"))); homeSearch.addEventListener("input", () => { search.value = homeSearch.value; renderizarHome(); }); search.addEventListener("input", () => { homeSearch.value = search.value; voltarHome(false); }); window.addEventListener("hashchange",tratarRota); window.addEventListener("popstate",tratarRota); window.addEventListener("scroll",atualizarNavbar,{passive:true}); carregarArtigos();
+
+function processarWikilinks(container) {
+    const html = container.innerHTML;
+    const regex = /\[\[(.*?)\]\]/g;
+    container.innerHTML = html.replace(regex, (match, p1) => {
+        let destino = p1;
+        let rotulo = p1;
+        if (p1.includes("|")) {
+            const partes = p1.split("|");
+            destino = partes[0];
+            rotulo = partes[1];
+        }
+        
+        // Remove âncoras de cabeçalho para busca do arquivo
+        const nomeArquivo = destino.split("#")[0].split("/").pop();
+        const artigoDestino = todosOsArtigos.find(a => a.titulo.toLowerCase() === nomeArquivo.toLowerCase());
+        
+        if (artigoDestino) {
+            return `<a href="${rotaDoArtigo(artigoDestino)}" class="wikilink" data-artigo="${artigoDestino.titulo}">${rotulo}</a>`;
+        }
+        return `<span class="wikilink-texto">${rotulo}</span>`;
+    });
+
+    container.querySelectorAll("a.wikilink").forEach(link => {
+        link.addEventListener("click", (e) => {
+            const nome = link.dataset.artigo;
+            const dest = todosOsArtigos.find(a => a.titulo === nome);
+            if (dest) {
+                e.preventDefault();
+                abrirArtigo(dest);
+            }
+        });
+    });
+}
+
+function gerarTOC() {
+    const tocNav = document.getElementById("toc-nav");
+    if (!tocNav) return;
+    tocNav.innerHTML = "";
+
+    const headers = artigoCorpo.querySelectorAll("h2, h3, h4");
+    if (headers.length === 0) {
+        tocNav.innerHTML = `<span class="toc-vazio">sem subtítulos</span>`;
+        return;
+    }
+
+    headers.forEach((h, index) => {
+        const id = h.id || `secao-${index}`;
+        h.id = id;
+
+        const link = document.createElement("a");
+        link.className = `toc-link toc-${h.tagName.toLowerCase()}`;
+        link.href = `#${id}`;
+        link.textContent = h.textContent.replace(/^[0-9.]+\s*/, "");
+
+        link.addEventListener("click", (e) => {
+            e.preventDefault();
+            h.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+
+        tocNav.appendChild(link);
+    });
+}
+
+// Filtro de Busca em Tempo Real
+function filtrarArtigos(termoBusca) {
+    leitorDeDisciplina.classList.add("escondido");
+    leitorDeArtigo.classList.add("escondido");
+
+    if (!termoBusca || termoBusca.trim() === "") {
+        divResultados.classList.add("escondido");
+        containerResultados.innerHTML = "";
+        document.getElementById("orientacoes-iniciais")?.classList.remove("escondido");
+        document.getElementById("explorar-disciplinas")?.classList.remove("escondido");
+        return;
+    }
+
+    const termo = termoBusca.toLowerCase().trim();
+
+    document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
+    document.getElementById("explorar-disciplinas")?.classList.add("escondido");
+    divResultados.classList.remove("escondido");
+
+    if (termo.length < 2) {
+        containerResultados.innerHTML = `<p class="mensagem-busca">digite ao menos <strong>duas letras</strong> para pesquisar no vault.</p>`;
+        return;
+    }
+
+    const filtrados = todosOsArtigos
+        .filter(artigo => artigo.titulo.toLowerCase().includes(termo) || artigo.conteudo.toLowerCase().includes(termo))
+        .sort((a, b) => {
+            const prioridadeA = a.titulo.toLowerCase().includes(termo) ? 0 : 1;
+            const prioridadeB = b.titulo.toLowerCase().includes(termo) ? 0 : 1;
+            return prioridadeA - prioridadeB || a.titulo.localeCompare(b.titulo, "pt-BR", { numeric: true });
+        });
+
+    exibirResultados(filtrados, termo);
+}
+
+function exibirResultados(artigos, termo = "") {
+    containerResultados.innerHTML = "";
+    if (artigos.length === 0) {
+        containerResultados.innerHTML = `<p class="mensagem-busca">nenhum conteúdo encontrado para <strong>“${escaparHtml(termo)}”</strong>.</p>`;
+        return;
+    }
+
+    const resumoBusca = document.createElement("p");
+    resumoBusca.className = "resumo-busca";
+    resumoBusca.textContent = `${artigos.length} ${artigos.length === 1 ? "resultado encontrado" : "resultados encontrados"}`;
+    containerResultados.appendChild(resumoBusca);
+
+    const grupos = {};
+    artigos.forEach(artigo => {
+        if (!grupos[artigo.categoria]) grupos[artigo.categoria] = [];
+        grupos[artigo.categoria].push(artigo);
+    });
+
+    Object.keys(grupos).forEach(categoria => {
+        const grupoDiv = document.createElement("div");
+        grupoDiv.className = "busca-grupo-assunto";
+
+        const tituloGrupo = document.createElement("h3");
+        tituloGrupo.className = "busca-assunto-titulo";
+        tituloGrupo.textContent = limparNomeCategoria(categoria);
+        grupoDiv.appendChild(tituloGrupo);
+
+        const subCardsContainer = document.createElement("div");
+        subCardsContainer.className = "resultados-lista";
+
+        grupos[categoria].forEach((artigo, idx) => {
+            const card = document.createElement("a");
+            card.className = "resultado-item";
+            card.href = rotaDoArtigo(artigo);
+
+            card.innerHTML = `
+                <span class="resultado-numero">${String(idx + 1).padStart(2, "0")}</span>
+                <span class="resultado-conteudo">
+                    <strong>${destacarTexto(artigo.titulo, termo)}</strong>
+                    <span class="resultado-trecho">${destacarTexto(extrairTrechoRelevante(artigo.conteudo, termo), termo)}</span>
+                </span>
+            `;
+
+            card.addEventListener("click", (e) => {
+                if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+                e.preventDefault();
+                abrirArtigo(artigo);
+            });
+
+            subCardsContainer.appendChild(card);
+        });
+
+        grupoDiv.appendChild(subCardsContainer);
+        containerResultados.appendChild(grupoDiv);
+    });
+}
+
+function destacarTexto(texto, termo) {
+    if (!termo) return texto;
+    const regex = new RegExp(`(${termo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return texto.replace(regex, '<mark class="highlight">$1</mark>');
+}
+
+function escaparHtml(texto) {
+    const el = document.createElement("span");
+    el.textContent = texto;
+    return el.innerHTML;
+}
+
+function removerFrontmatter(markdown) {
+    if (!markdown) return "";
+    return markdown.replace(/^---[\s\S]*?---\s*/, "");
+}
+
+function extrairTrechoRelevante(conteudo, termo) {
+    const semFm = removerFrontmatter(conteudo).replace(/[#*`_~\[\]]/g, ' ');
+    const pos = semFm.toLowerCase().indexOf(termo.toLowerCase());
+    if (pos === -1) return semFm.substring(0, 140) + "...";
+    
+    const inicio = Math.max(0, pos - 40);
+    const fim = Math.min(semFm.length, pos + termo.length + 80);
+    let trecho = semFm.substring(inicio, fim);
+    if (inicio > 0) trecho = "..." + trecho;
+    if (fim < semFm.length) trecho = trecho + "...";
+    return trecho;
+}
+
+// Router por Hash
+function processarRotaInicial() {
+    const hash = window.location.hash;
+    if (!hash || hash === "#/" || hash === "#") {
+        voltarParaHome();
+        return;
+    }
+
+    if (hash.startsWith("#/disciplina/")) {
+        const cat = decodeURIComponent(hash.replace("#/disciplina/", ""));
+        abrirDisciplina(cat);
+    } else if (hash.startsWith("#/")) {
+        const partes = hash.replace("#/", "").split("/");
+        if (partes.length >= 2) {
+            const cat = decodeURIComponent(partes[0]);
+            const tit = decodeURIComponent(partes[1]);
+            const art = todosOsArtigos.find(a => a.categoria === cat && a.titulo === tit);
+            if (art) {
+                abrirArtigo(art);
+            }
+        }
+    }
+}
+
+function voltarParaHome() {
+    window.location.hash = "#/";
+    leitorDeDisciplina.classList.add("escondido");
+    leitorDeArtigo.classList.add("escondido");
+    divResultados.classList.add("escondido");
+    document.getElementById("orientacoes-iniciais")?.classList.remove("escondido");
+    document.getElementById("explorar-disciplinas")?.classList.remove("escondido");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+window.addEventListener("hashchange", processarRotaInicial);
+
+// Event Listeners de Busca e Navegação
+if (campoTexto) {
+    campoTexto.addEventListener("input", (e) => {
+        if (campoTextoNav) campoTextoNav.value = e.target.value;
+        filtrarArtigos(e.target.value);
+    });
+}
+
+if (campoTextoNav) {
+    campoTextoNav.addEventListener("input", (e) => {
+        if (campoTexto) campoTexto.value = e.target.value;
+        filtrarArtigos(e.target.value);
+    });
+}
+
+if (btnVoltarDisciplina) {
+    btnVoltarDisciplina.addEventListener("click", voltarParaHome);
+}
+
+document.getElementById("nav-logo")?.addEventListener("click", voltarParaHome);
+document.getElementById("nav-link-pastas")?.addEventListener("click", voltarParaHome);
+
+// Inicia aplicação
+carregarTodosOsArtigos();

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Caderno público de estudos para concursos.">
+    <title>concursos • matérias</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script defer src="script.js?v=1"></script>
+  </head>
+  <body>
+    <nav class="topbar" aria-label="Navegação principal">
+      <button type="button" class="brand" id="brand">concursos</button>
+      <label class="nav-search" for="search-input"><span class="sr-only">Pesquisar matérias</span><input id="search-input" type="search" placeholder="pesquisar matérias..." autocomplete="off"></label>
+    </nav>
+    <main>
+      <section id="home-view" class="home-view">
+        <header class="masthead">
+          <div><p class="eyebrow">caderno público de estudo</p><h1>concursos</h1><p class="subtitle">matérias para revisão, aprofundamento e prática</p></div>
+          <p class="scope">conteúdo público<br>de <strong>3 - matérias</strong></p>
+        </header>
+        <section aria-labelledby="areas-title">
+          <h2 id="areas-title">matérias...</h2>
+          <div id="results-summary" class="results-summary" aria-live="polite"></div>
+          <div id="areas-grid" class="areas-grid"></div>
+        </section>
+      </section>
+      <article id="article-view" class="article-view" hidden>
+        <aside class="article-sidebar"><label for="toc-filter">neste artigo<input id="toc-filter" type="search" placeholder="filtrar seções..."></label><nav id="toc"></nav></aside>
+        <div class="article-main"><nav id="breadcrumbs" class="breadcrumbs" aria-label="Caminho de navegação"></nav><h1 id="article-title"></h1><div id="article-body" class="article-body"></div><nav id="article-nav" class="article-nav" aria-label="Artigos relacionados"></nav><button type="button" id="back-button" class="back-button">← voltar para as matérias</button></div>
+      </article>
+    </main>
+  </body>
+</html>

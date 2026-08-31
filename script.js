@@ -361,9 +361,79 @@ function abrirArtigo(artigo, atualizarRota = true) {
 
     renderizarDiagramasMermaid();
     gerarTableOfContents();
+    renderizarBotoesNavegacao(artigo);
 
+    btnVoltar.textContent = `← voltar para ${limparNomeCategoria(artigo.categoria)}`;
     btnVoltar.onclick = () => abrirDisciplina(artigo.categoria);
+    if (retornoArtigoTexto) {
+        retornoArtigoTexto.innerHTML = `terminou este artigo? <strong>continue pelas outras notas de ${limparNomeCategoria(artigo.categoria)}.</strong>`;
+    }
     window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function renderizarBotoesNavegacao(artigoAtual) {
+    const rodapeNavContainer = document.getElementById("artigo-nav-rodape");
+    if (!rodapeNavContainer) return;
+
+    rodapeNavContainer.innerHTML = "";
+
+    const artigosDaCategoria = todasAsPastas[artigoAtual.categoria] || [];
+    if (artigosDaCategoria.length <= 1) return;
+
+    const indiceAtual = artigosDaCategoria.findIndex(a => a.titulo === artigoAtual.titulo);
+    if (indiceAtual === -1) return;
+
+    const artigoAnterior = indiceAtual > 0 ? artigosDaCategoria[indiceAtual - 1] : null;
+    const artigoProximo = indiceAtual < artigosDaCategoria.length - 1 ? artigosDaCategoria[indiceAtual + 1] : null;
+
+    if (!artigoAnterior && !artigoProximo) return;
+
+    const grid = document.createElement("div");
+    grid.className = "artigo-nav-cards-grid";
+
+    if (artigoAnterior) {
+        const cardPrev = document.createElement("a");
+        cardPrev.className = "nav-card nav-card-prev";
+        cardPrev.href = rotaDoArtigo(artigoAnterior);
+        const tituloLimpo = artigoAnterior.tituloExibicao || formatarNomeArtigo(artigoAnterior.titulo);
+        cardPrev.innerHTML = `
+            <span class="nav-card-label">← anterior</span>
+            <span class="nav-card-title">${tituloLimpo}</span>
+        `;
+        cardPrev.addEventListener("click", (e) => {
+            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+            e.preventDefault();
+            abrirArtigo(artigoAnterior);
+        });
+        grid.appendChild(cardPrev);
+    } else {
+        const placeholder = document.createElement("div");
+        placeholder.className = "nav-card nav-card-placeholder";
+        grid.appendChild(placeholder);
+    }
+
+    if (artigoProximo) {
+        const cardNext = document.createElement("a");
+        cardNext.className = "nav-card nav-card-next";
+        cardNext.href = rotaDoArtigo(artigoProximo);
+        const tituloLimpo = artigoProximo.tituloExibicao || formatarNomeArtigo(artigoProximo.titulo);
+        cardNext.innerHTML = `
+            <span class="nav-card-label">próximo →</span>
+            <span class="nav-card-title">${tituloLimpo}</span>
+        `;
+        cardNext.addEventListener("click", (e) => {
+            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+            e.preventDefault();
+            abrirArtigo(artigoProximo);
+        });
+        grid.appendChild(cardNext);
+    } else {
+        const placeholder = document.createElement("div");
+        placeholder.className = "nav-card nav-card-placeholder";
+        grid.appendChild(placeholder);
+    }
+
+    rodapeNavContainer.appendChild(grid);
 }
 
 // Table of Contents (TOC) da Barra Lateral

@@ -1,7 +1,7 @@
 :root { --bg:#101010; --text:#f4f2ee; --muted:#aaa6a2; --line:#383634; --accent:#ffd52e; --max:980px; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
-body { margin:0; padding-top:64px; background:var(--bg); color:var(--text); font:16px/1.55 Arial, Helvetica, sans-serif; }
+body { margin:0; padding-top:64px; background:var(--bg); color:var(--text); font:16px/1.55 "Archivo", Arial, Helvetica, sans-serif; }
 button, input { font:inherit; }
 button { color:inherit; }
 .topbar { position:fixed; inset:0 0 auto; z-index:10; height:64px; display:flex; align-items:center; justify-content:flex-start; gap:28px; padding:0 max(24px, calc((100vw - var(--max)) / 2)); border-bottom:1px solid var(--line); background:color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter:blur(12px); }
@@ -20,7 +20,7 @@ h1, h2, h3 { line-height:.95; letter-spacing:-.06em; }
 .home-view h2 { margin:46px 0 20px; font-size:clamp(2rem, 4vw, 3rem); }
 .results-summary { min-height:1.5rem; color:var(--muted); font-size:.88rem; }
 .areas-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); border-top:1px solid var(--line); }
-.area-card { display:grid; grid-template-columns:68px 1fr 20px; gap:12px; min-height:118px; align-items:center; padding:20px 0; border-bottom:1px solid var(--line); background:none; text-align:left; cursor:pointer; }
+.area-card { display:grid; grid-template-columns:68px 1fr 20px; gap:12px; min-height:118px; align-items:center; padding:20px 0; border:0 !important; border-bottom:1px solid var(--line) !important; background:none; text-align:left; cursor:pointer; }
 .area-card:nth-child(even) { padding-left:24px; }
 .area-card:nth-child(odd) { padding-right:24px; }
 .area-card:hover .area-name, .area-card:focus-visible .area-name { color:var(--accent); }

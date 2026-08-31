@@ -137,7 +137,7 @@ function abrirArtigo(item, atualizarHash = true) {
   if (tituloRepetido && normalizar(tituloRepetido.textContent) === normalizar(item.titulo)) tituloRepetido.remove();
   removerMetadadosPrivados(corpo);
   corpo.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach((titulo, indice) => titulo.id = titulo.id || `${slug(titulo.textContent)}-${indice}`);
-  corpo.querySelectorAll('a[href^="#"]:not([href^="#/"])').forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); document.getElementById(link.getAttribute("href").slice(1))?.scrollIntoView({ behavior:"smooth", block:"start" }); }));
+  corpo.querySelectorAll('a[href^="#"]:not([href^="#/"])').forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); rolarParaSecao(link.getAttribute("href").slice(1)); }));
   envolverTabelas(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
   renderizarMermaid(corpo).then(() => { if (versaoAtual === versaoDoArtigo) adicionarCopiarCodigo(corpo); });
 }
@@ -145,7 +145,7 @@ function renderizarBreadcrumbs(item) { const el=document.getElementById("breadcr
 function renderizarToc(corpo) {
   const toc = document.getElementById("toc"); const titulos = [...corpo.querySelectorAll("h1,h2")];
   toc.innerHTML = titulos.map(titulo => `<a href="#${titulo.id}" data-secao="${titulo.id}">${escapar(titulo.textContent)}</a>`).join("");
-  toc.querySelectorAll("a").forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); document.getElementById(link.dataset.secao)?.scrollIntoView({ behavior:"smooth", block:"start" }); }));
+  toc.querySelectorAll("a").forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); rolarParaSecao(link.dataset.secao); }));
   document.getElementById("toc-filter").oninput = e => toc.querySelectorAll("a").forEach(link => link.hidden = !normalizar(link.textContent).includes(normalizar(e.target.value)));
   limparTocAtivo();
   atualizarTocAtivo = () => {
@@ -185,7 +185,13 @@ function adicionarCopiarCodigo(corpo) {
   });
 }
 async function renderizarMermaid(corpo) { const blocos=[...corpo.querySelectorAll("pre > code.language-mermaid")]; for (const [indice,codigo] of blocos.entries()) { const conteiner=document.createElement("div"); conteiner.className="mermaid"; conteiner.id=`mermaid-${Date.now()}-${indice}`; conteiner.textContent=codigo.textContent; codigo.parentElement.replaceWith(conteiner); try { await mermaid.run({nodes:[conteiner]}); } catch { const pre=document.createElement("pre"); pre.textContent=codigo.textContent; conteiner.replaceWith(pre); } } }
-function atualizarNavbar() { topbar.classList.toggle("visible", home.hidden || window.scrollY > 180); }
+function atualizarNavbar() { topbar.classList.toggle("visible", window.scrollY > 80); }
+function rolarParaSecao(id) {
+  const secao = document.getElementById(id);
+  if (!secao) return;
+  const posicao = secao.getBoundingClientRect().top + window.scrollY - topbar.offsetHeight - 20;
+  window.scrollTo({ top:Math.max(0, posicao), behavior:"smooth" });
+}
 function rolarParaTopo() { requestAnimationFrame(() => { window.scrollTo({top:0, left:0, behavior:"auto"}); atualizarNavbar(); }); }
 function mostrarHome(limparBusca = true) {
   limparTocAtivo();

@@ -18,7 +18,11 @@ async function obterListaDeArquivos() {
                 if (!item.path.endsWith(".md")) return false;
                 if (item.path.includes(".obsidian") || item.path.includes(".git") || item.path.includes(".gemini") || item.path.includes(".agent")) return false;
                 if (fileName === "agents.md" || fileName === "index.md" || fileName === "me.md" || fileName === "log.md" || fileName === "gemini.md" || fileName === "readme.md") return false;
-                if (fileName.includes(" 2.md")) return false; // Ignora duplicatas de sincronização
+                if (fileName.includes(" 2.md") || item.path.includes(" 2/")) return false; // Ignora duplicatas de sincronização
+                
+                // Ignora pastas privadas ou transitórias
+                if (item.path.startsWith("00 inbox/") || item.path.startsWith("2 - Editais/") || item.path.startsWith("materias/") || item.path.startsWith("wiki/")) return false;
+                if (item.path.startsWith("1 - Planejamento/") || item.path.startsWith("4 - Projetos/")) return false;
                 
                 return true;
             })
@@ -33,12 +37,6 @@ async function obterListaDeArquivos() {
                     categoria = "00. Simulados";
                 } else if (item.path.startsWith("00 - Desempenho/")) {
                     categoria = "00. Desempenho";
-                } else if (item.path.startsWith("4 - Projetos/")) {
-                    categoria = "04. Projetos & Edital";
-                } else if (item.path.startsWith("1 - Planejamento/")) {
-                    categoria = "01. Planejamento";
-                } else if (item.path.startsWith("2 - Editais/")) {
-                    categoria = "02. Editais";
                 }
 
                 const urlSegura = "https://raw.githubusercontent.com/leorruas/concursos/main/" + item.path.split("/").map(encodeURIComponent).join("/");

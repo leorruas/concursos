@@ -56,7 +56,7 @@ Checklist completo de estudos para o cargo de **Analista de Tecnologia da Inform
 ### 4. Atualidades e Inteligência Artificial
 *Preparação pelo hub principal:* [[3 - Materias/Atualidades/atualidades|Atualidades]]
 - [ ] 1. Tópicos relevantes e atuais (segurança, transportes, política, economia, sociedade, educação, saúde, cultura, tecnologia, energia, relações internacionais, desenvolvimento sustentável e ecologia).
-- [x] 2. Inteligência Artificial: fundamentos e aplicações (conceitos; aprendizado de máquina; modelos generativos e LLMs; ética, governança e privacidade).
+- [x] 2. Inteligência Artificial: fundamentos e aplicações (conceitos; aprendizado de máquina; modelos generativos e LLMs; ética, governança e privacidade). -> [[3 - Materias/Atualidades/01 - inteligencia artificial|01 • Inteligência artificial]] e [[3 - Materias/Atualidades/02 - quarto chines|02 • Quarto chinês]]
 
 ### 5. Legislação de Segurança da Informação e Proteção de Dados
 - [x] 1. **LAI — Lei nº 12.527/2011**: Capítulos I, II, III, IV e V; Decreto nº 7.724 e nº 7.845. -> [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios e LAI]]

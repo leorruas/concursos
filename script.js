@@ -25,7 +25,8 @@ const ordenarArtigos = lista => [...lista].sort((a, b) => arquivos.indexOf(a.cam
 const home = document.getElementById("home-view"); const topics = document.getElementById("topics-view"); const article = document.getElementById("article-view"); const grid = document.getElementById("areas-grid"); const search = document.getElementById("search-input"); const homeSearch = document.getElementById("home-search-input"); const topbar = document.querySelector(".topbar");
 let artigos = []; let artigoAtual = null;
 let atualizarTocAtivo = null;
-let tema = localStorage.getItem("concursos-theme") || "dark";
+let versaoDoArtigo = 0;
+let tema = localStorage.getItem("concursos-theme") === "light" ? "light" : "dark";
 
 function configurarMermaid() {
   const claro = tema === "light";
@@ -63,6 +64,7 @@ function renderizarHome() {
 function abrirMateria(categoria) {
   if (window.location.hash !== `#/materia/${encodeURIComponent(categoria)}`) { window.location.hash = `#/materia/${encodeURIComponent(categoria)}`; return; }
   const lista = ordenarArtigos(artigos.filter(artigo => artigo.categoria === categoria));
+  limparTocAtivo();
   home.hidden = true; article.hidden = true; topics.hidden = false;
   document.getElementById("topics-title").textContent = nomesMaterias[categoria] || tituloLegivel(categoria);
   document.getElementById("topics-count").textContent = `${lista.length} tópicos`;
@@ -127,6 +129,7 @@ function removerMetadadosPrivados(corpo) { corpo.querySelectorAll("h1,h2,h3,h4,h
 function envolverTabelas(corpo) { corpo.querySelectorAll("table").forEach(tabela => { const conteiner = document.createElement("div"); conteiner.className = "table-scroll"; tabela.before(conteiner); conteiner.append(tabela); }); }
 function abrirArtigo(item, atualizarHash = true) {
   if (atualizarHash && window.location.hash !== `#/artigo/${encodeURIComponent(item.caminho)}`) { window.location.hash = `#/artigo/${encodeURIComponent(item.caminho)}`; return; }
+  const versaoAtual = ++versaoDoArtigo;
   artigoAtual = item; home.hidden = true; topics.hidden = true; article.hidden = false; document.getElementById("article-title").textContent = item.titulo;
   const corpo = document.getElementById("article-body"); corpo.innerHTML = marked.parse(limparMarkdown(item.conteudo, item), { gfm:true, breaks:false });
   aplicarDestaques(corpo);
@@ -135,7 +138,8 @@ function abrirArtigo(item, atualizarHash = true) {
   removerMetadadosPrivados(corpo);
   corpo.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach((titulo, indice) => titulo.id = titulo.id || `${slug(titulo.textContent)}-${indice}`);
   corpo.querySelectorAll('a[href^="#"]:not([href^="#/"])').forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); document.getElementById(link.getAttribute("href").slice(1))?.scrollIntoView({ behavior:"smooth", block:"start" }); }));
-  envolverTabelas(corpo); adicionarCopiarCodigo(corpo); renderizarMermaid(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
+  envolverTabelas(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
+  renderizarMermaid(corpo).then(() => { if (versaoAtual === versaoDoArtigo) adicionarCopiarCodigo(corpo); });
 }
 function renderizarBreadcrumbs(item) { const el=document.getElementById("breadcrumbs"); el.innerHTML=`<button type="button" data-home>início</button><span>/</span><button type="button" data-categoria>${escapar(nomesMaterias[item.categoria] || tituloLegivel(item.categoria))}</button><span>/</span><span>${escapar(item.titulo)}</span>`; el.querySelector("[data-home]").addEventListener("click", voltarHome); el.querySelector("[data-categoria]").addEventListener("click", () => abrirMateria(item.categoria)); }
 function renderizarToc(corpo) {
@@ -143,7 +147,7 @@ function renderizarToc(corpo) {
   toc.innerHTML = titulos.map(titulo => `<a href="#${titulo.id}" data-secao="${titulo.id}">${escapar(titulo.textContent)}</a>`).join("");
   toc.querySelectorAll("a").forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); document.getElementById(link.dataset.secao)?.scrollIntoView({ behavior:"smooth", block:"start" }); }));
   document.getElementById("toc-filter").oninput = e => toc.querySelectorAll("a").forEach(link => link.hidden = !normalizar(link.textContent).includes(normalizar(e.target.value)));
-  if (atualizarTocAtivo) window.removeEventListener("scroll", atualizarTocAtivo);
+  limparTocAtivo();
   atualizarTocAtivo = () => {
     let atual = titulos[0];
     titulos.forEach(titulo => { if (titulo.getBoundingClientRect().top <= 132) atual = titulo; });
@@ -152,12 +156,64 @@ function renderizarToc(corpo) {
   window.addEventListener("scroll", atualizarTocAtivo, { passive:true });
   atualizarTocAtivo();
 }
+function limparTocAtivo() {
+  if (!atualizarTocAtivo) return;
+  window.removeEventListener("scroll", atualizarTocAtivo);
+  atualizarTocAtivo = null;
+}
 function renderizarNav(item) { const lista=ordenarArtigos(artigos.filter(artigo=>artigo.categoria===item.categoria)); const indice=lista.indexOf(item); const destino=[ [lista[indice-1],"← artigo anterior"],[lista[indice+1],"próximo artigo →"] ]; document.getElementById("article-nav").innerHTML=destino.map(([artigo,rotulo])=>artigo?`<button type="button" data-caminho="${escapar(artigo.caminho)}"><span>${rotulo}</span><strong>${escapar(artigo.titulo)}</strong></button>`:"<span></span>").join(""); document.querySelectorAll("#article-nav [data-caminho]").forEach(botao=>botao.addEventListener("click",()=>abrirArtigo(artigos.find(item=>item.caminho===botao.dataset.caminho)))); }
-function adicionarCopiarCodigo(corpo) { corpo.querySelectorAll("pre").forEach(pre=>{ const botao=document.createElement("button"); botao.className="copy-button"; botao.textContent="copiar"; botao.addEventListener("click",async()=>{await navigator.clipboard?.writeText(pre.innerText); botao.textContent="copiado"; setTimeout(()=>botao.textContent="copiar",1200);}); pre.append(botao); }); }
+function adicionarCopiarCodigo(corpo) {
+  corpo.querySelectorAll("pre").forEach(pre => {
+    if (pre.querySelector(".copy-button")) return;
+    const botao = document.createElement("button");
+    botao.className = "copy-button";
+    botao.type = "button";
+    botao.textContent = "copiar";
+    botao.setAttribute("aria-label", "Copiar código");
+    botao.addEventListener("click", async () => {
+      const codigo = pre.querySelector("code")?.textContent ?? pre.textContent;
+      try {
+        if (!navigator.clipboard?.writeText) throw new Error("Área de transferência indisponível");
+        await navigator.clipboard.writeText(codigo);
+        botao.textContent = "copiado";
+      } catch {
+        botao.textContent = "não foi possível copiar";
+      }
+      window.setTimeout(() => { botao.textContent = "copiar"; }, 1500);
+    });
+    pre.append(botao);
+  });
+}
 async function renderizarMermaid(corpo) { const blocos=[...corpo.querySelectorAll("pre > code.language-mermaid")]; for (const [indice,codigo] of blocos.entries()) { const conteiner=document.createElement("div"); conteiner.className="mermaid"; conteiner.id=`mermaid-${Date.now()}-${indice}`; conteiner.textContent=codigo.textContent; codigo.parentElement.replaceWith(conteiner); try { await mermaid.run({nodes:[conteiner]}); } catch { const pre=document.createElement("pre"); pre.textContent=codigo.textContent; conteiner.replaceWith(pre); } } }
 function atualizarNavbar() { topbar.classList.toggle("visible", home.hidden || window.scrollY > 180); }
 function rolarParaTopo() { requestAnimationFrame(() => { window.scrollTo({top:0, left:0, behavior:"auto"}); atualizarNavbar(); }); }
-function voltarHome(limparBusca = true) { window.history.pushState({},"",window.location.pathname); article.hidden=true; topics.hidden=true; home.hidden=false; if (limparBusca) { search.value=""; homeSearch.value=""; } renderizarHome(); rolarParaTopo(); }
-function tratarRota() { const rota=window.location.hash; if(rota.startsWith("#/materia/")) { const categoria=decodeURIComponent(rota.slice("#/materia/".length)); return ordemMaterias.includes(categoria) ? abrirMateria(categoria) : voltarHome(); } if(rota.startsWith("#/artigo/")) { const caminho=decodeURIComponent(rota.slice("#/artigo/".length)); const item=artigos.find(artigo=>artigo.caminho===caminho); return item ? abrirArtigo(item,false) : voltarHome(); } voltarHome(); }
+function mostrarHome(limparBusca = true) {
+  limparTocAtivo();
+  artigoAtual = null;
+  article.hidden = true; topics.hidden = true; home.hidden = false;
+  if (limparBusca) { search.value = ""; homeSearch.value = ""; }
+  renderizarHome(); rolarParaTopo();
+}
+function voltarHome(limparBusca = true) {
+  if (window.location.hash) window.history.pushState({}, "", window.location.pathname);
+  mostrarHome(limparBusca);
+}
+function tratarRota() {
+  const rota = window.location.hash;
+  try {
+    if (rota.startsWith("#/materia/")) {
+      const categoria = decodeURIComponent(rota.slice("#/materia/".length));
+      return ordemMaterias.includes(categoria) ? abrirMateria(categoria) : mostrarHome();
+    }
+    if (rota.startsWith("#/artigo/")) {
+      const caminho = decodeURIComponent(rota.slice("#/artigo/".length));
+      const item = artigos.find(artigo => artigo.caminho === caminho);
+      return item ? abrirArtigo(item, false) : mostrarHome();
+    }
+  } catch {
+    // Rota parcialmente codificada ou inválida: exibe a página inicial sem alterar o histórico.
+  }
+  mostrarHome();
+}
 aplicarTema(tema);
 document.getElementById("brand").addEventListener("click",voltarHome); document.getElementById("back-button").addEventListener("click",() => abrirMateria(artigoAtual.categoria)); document.getElementById("topics-back-button").addEventListener("click",voltarHome); document.querySelectorAll("[data-theme-toggle]").forEach(botao => botao.addEventListener("click", () => aplicarTema(tema === "dark" ? "light" : "dark"))); homeSearch.addEventListener("input", () => { search.value = homeSearch.value; renderizarHome(); }); search.addEventListener("input", () => { homeSearch.value = search.value; voltarHome(false); }); window.addEventListener("hashchange",tratarRota); window.addEventListener("popstate",tratarRota); window.addEventListener("scroll",atualizarNavbar,{passive:true}); carregarArtigos();

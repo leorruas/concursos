@@ -59,6 +59,8 @@ function abrirArtigo(item, atualizarHash = true) {
   if (atualizarHash && window.location.hash !== `#/artigo/${encodeURIComponent(item.caminho)}`) { window.location.hash = `#/artigo/${encodeURIComponent(item.caminho)}`; return; }
   artigoAtual = item; home.hidden = true; topics.hidden = true; article.hidden = false; document.getElementById("article-title").textContent = item.titulo;
   const corpo = document.getElementById("article-body"); corpo.innerHTML = marked.parse(limparMarkdown(item.conteudo), { gfm:true, breaks:false });
+  const tituloRepetido = corpo.querySelector("h1");
+  if (tituloRepetido && normalizar(tituloRepetido.textContent) === normalizar(item.titulo)) tituloRepetido.remove();
   corpo.querySelectorAll("h1,h2,h3").forEach((titulo, indice) => titulo.id = titulo.id || `${slug(titulo.textContent)}-${indice}`);
   adicionarCopiarCodigo(corpo); renderizarMermaid(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
 }

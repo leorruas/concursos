@@ -53,24 +53,24 @@ async function obterListaDeArquivos() {
     }
 }
 
-// Metadados das Disciplinas para o Grid Suíço
+// Metadados das Disciplinas para o Grid Suíço com Acentuação Correta
 const informacoesDisciplinas = {
-    "00. Simulados": { numero: "00", resumo: "catálogo de simulados, diagnóstico clínico e mapa de calor" },
-    "00. Desempenho": { numero: "01", resumo: "avanços globais, log de saturação e métricas de consistência" },
-    "Portugues": { numero: "02", resumo: "interpretação, concordância, crase, regência e acordo ortográfico" },
-    "Logica": { numero: "03", resumo: "conectivos, quantificadores, equivalências, tabela verdade e combinatória" },
-    "Comunicacao": { numero: "04", resumo: "comunicação organizacional, pública, digital, crises e teorias" },
-    "Informatica": { numero: "05", resumo: "marco civil da internet, segurança da informação e redes" },
-    "Ingles": { numero: "06", resumo: "conectivos, marcadores discursivos e leitura instrumental" },
-    "Calculo Mental": { numero: "07", resumo: "operações mentais, aproximações e agilidade cognitiva" },
-    "Direito Constitucional": { numero: "08", resumo: "direitos fundamentais, nacionalidade, poderes e controle" },
-    "Direito Administrativo": { numero: "09", resumo: "princípios, atos, poderes, licitações e responsabilidade civil" },
-    "Administracao Publica": { numero: "10", resumo: "modelos de gestão pública, governança e eficiência" },
-    "Administracao Geral": { numero: "11", resumo: "planejamento estratégico, processos e teorias" },
-    "Atualidades": { numero: "12", resumo: "inteligência artificial, tecnologia e sociedade" },
-    "Redacao": { numero: "13", resumo: "técnicas discursivas, estrutura argumentativa e repertório" },
-    "04. Projetos & Edital": { numero: "14", resumo: "dashboards, cronogramas e wiki do edital dataprev/tcdf" },
-    "01. Planejamento": { numero: "15", resumo: "cronogramas, horários e editais abertos/previstos" }
+    "00. Simulados": { numero: "00", nome: "simulados", resumo: "catálogo de simulados, diagnóstico clínico e mapa de calor" },
+    "00. Desempenho": { numero: "01", nome: "desempenho", resumo: "avanços globais, log de saturação e métricas de consistência" },
+    "Portugues": { numero: "02", nome: "língua portuguesa", resumo: "interpretação, concordância, crase, regência e acordo ortográfico" },
+    "Logica": { numero: "03", nome: "raciocínio lógico", resumo: "conectivos, quantificadores, equivalências, tabela verdade e combinatória" },
+    "Comunicacao": { numero: "04", nome: "comunicação social", resumo: "comunicação organizacional, pública, digital, crises e teorias" },
+    "Informatica": { numero: "05", nome: "informática & legislação digital", resumo: "marco civil da internet, segurança da informação e redes" },
+    "Ingles": { numero: "06", nome: "língua inglesa", resumo: "conectivos, marcadores discursivos e leitura instrumental" },
+    "Calculo Mental": { numero: "07", nome: "cálculo mental", resumo: "operações mentais, aproximações e agilidade cognitiva" },
+    "Direito Constitucional": { numero: "08", nome: "direito constitucional", resumo: "direitos fundamentais, nacionalidade, poderes e controle" },
+    "Direito Administrativo": { numero: "09", nome: "direito administrativo", resumo: "princípios, atos, poderes, licitações e responsabilidade civil" },
+    "Administracao Publica": { numero: "10", nome: "administração pública", resumo: "modelos de gestão pública, governança e eficiência" },
+    "Administracao Geral": { numero: "11", nome: "administração geral", resumo: "planejamento estratégico, processos e teorias" },
+    "Atualidades": { numero: "12", nome: "atualidades", resumo: "inteligência artificial, tecnologia e sociedade" },
+    "Redacao": { numero: "13", nome: "redação discursiva", resumo: "técnicas discursivas, estrutura argumentativa e repertório" },
+    "04. Projetos & Edital": { numero: "14", nome: "projetos & edital", resumo: "dashboards, cronogramas e wiki do edital dataprev/tcdf" },
+    "01. Planejamento": { numero: "15", nome: "planejamento", resumo: "cronogramas, horários e editais abertos/previstos" }
 };
 
 // Variáveis Globais
@@ -145,6 +145,9 @@ function formatarNomeArtigo(nome) {
 }
 
 function limparNomeCategoria(categoria) {
+    if (informacoesDisciplinas[categoria]?.nome) {
+        return informacoesDisciplinas[categoria].nome;
+    }
     return categoria.replace(/^\d+\.\s*/, "").replace(/^\d+\s*-\s*/, "").toLowerCase();
 }
 

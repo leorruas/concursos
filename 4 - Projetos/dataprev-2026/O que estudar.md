@@ -61,8 +61,8 @@ Checklist completo de estudos para o cargo de **Analista de Tecnologia da Inform
 ### 5. Legislação de Segurança da Informação e Proteção de Dados
 - [x] 1. **LAI — Lei nº 12.527/2011**: Capítulos I, II, III, IV e V; Decreto nº 7.724 e nº 7.845. -> [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios e LAI]]
 - [ ] 2. **Lei nº 12.737/2012 (Delitos Informáticos)**: Art. 2º (Invasão de dispositivo informático). -> [[3 - Materias/Informatica/informatica|Informatica]]
-- [ ] 3. **Marco Civil da Internet (Lei nº 12.965/2014)**: Cap. II, Seção I (Direitos e garantias), e Cap. III, Seções I e II (Provedores). -> [[3 - Materias/Informatica/informatica|Informatica]]
-- [ ] 4. **LGPD (Lei nº 13.709/2018)**: Capítulos I, II, III, IV, VII, VIII e IX. -> [[3 - Materias/Informatica/informatica|Informatica]]
+- [x] 3. **Marco Civil da Internet (Lei nº 12.965/2014)**: Cap. II, Seção I (Direitos e garantias), e Cap. III, Seções I e II (Provedores). -> [[3 - Materias/Informatica/01 - marco civil da internet|01 • Marco Civil da Internet]]
+- [x] 4. **LGPD (Lei nº 13.709/2018)**: Capítulos I, II, III, IV, VII, VIII e IX. -> [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]]
 
 ---
 

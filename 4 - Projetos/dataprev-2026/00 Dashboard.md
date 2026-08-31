@@ -40,12 +40,12 @@ A **Wiki do edital** mapeia os tópicos exigidos de forma direta, servindo como 
 
 | Módulo / Disciplina                       | Itens Concluídos | Progresso (%) | Barra de Progresso |
 | :---------------------------------------- | :--------------: | :-----------: | :----------------- |
-| **Módulo I: Conhecimentos Gerais**        |   **15 / 33**    |   **45.5%**   | `████░░░░░░`       |
+| **Módulo I: Conhecimentos Gerais**        |   **17 / 33**    |   **51.5%**   | `█████░░░░░`       |
 | ├─ Língua Portuguesa                      |      6 / 17      |     35.3%     | `███░░░░░░░`       |
 | ├─ Língua Inglesa                         |      0 / 2       |     0.0%      | `░░░░░░░░░░`       |
 | ├─ Raciocínio Lógico                      |      7 / 8       |     87.5%     | `████████░░`       |
 | ├─ Atualidades e Inteligência Artificial  |      1 / 2       |     50.0%     | `█████░░░░░`       |
-| └─ Legislação de SI e Proteção de Dados   |      1 / 4       |     25.0%     | `██░░░░░░░░`       |
+| └─ Legislação de SI e Proteção de Dados   |      3 / 4       |     75.0%     | `████████░░`       |
 | **Módulo II: Conhecimentos Específicos**  |   **97 / 97**    |  **100.0%**   | `██████████`       |
 | ├─ 1. Comunicação Org. e Pública          |      8 / 8       |    100.0%     | `██████████`       |
 | ├─ 2. Jornalismo e Prod. Conteúdo         |     11 / 11      |    100.0%     | `██████████`       |
@@ -57,7 +57,7 @@ A **Wiki do edital** mapeia os tópicos exigidos de forma direta, servindo como 
 | ├─ 8. Produção Ed., Design e Audiovisual  |     10 / 10      |    100.0%     | `██████████`       |
 | ├─ 9. Ferramentas de Comunicação          |      3 / 3       |    100.0%     | `██████████`       |
 | └─ 10. Comunicação, Inovação e Tec.       |      7 / 7       |    100.0%     | `██████████`       |
-| **Total do Edital**                       |  **112 / 130**   |   **86.2%**   | `█████████░`       |
+| **Total do Edital**                       |  **114 / 130**   |   **87.7%**   | `█████████░`       |
 
 ---
 

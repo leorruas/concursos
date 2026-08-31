@@ -124,6 +124,7 @@ function aplicarDestaques(corpo) {
   });
 }
 function removerMetadadosPrivados(corpo) { corpo.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach(cabecalho => { if (!/^fontes brutas:?$/i.test(cabecalho.textContent.trim())) return; const nivel = Number(cabecalho.tagName.slice(1)); let proximo = cabecalho.nextElementSibling; cabecalho.remove(); while (proximo) { const seguinte = proximo.nextElementSibling; if (/^H[1-6]$/.test(proximo.tagName) && Number(proximo.tagName.slice(1)) <= nivel) break; proximo.remove(); proximo = seguinte; } }); }
+function envolverTabelas(corpo) { corpo.querySelectorAll("table").forEach(tabela => { const conteiner = document.createElement("div"); conteiner.className = "table-scroll"; tabela.before(conteiner); conteiner.append(tabela); }); }
 function abrirArtigo(item, atualizarHash = true) {
   if (atualizarHash && window.location.hash !== `#/artigo/${encodeURIComponent(item.caminho)}`) { window.location.hash = `#/artigo/${encodeURIComponent(item.caminho)}`; return; }
   artigoAtual = item; home.hidden = true; topics.hidden = true; article.hidden = false; document.getElementById("article-title").textContent = item.titulo;
@@ -134,7 +135,7 @@ function abrirArtigo(item, atualizarHash = true) {
   removerMetadadosPrivados(corpo);
   corpo.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach((titulo, indice) => titulo.id = titulo.id || `${slug(titulo.textContent)}-${indice}`);
   corpo.querySelectorAll('a[href^="#"]:not([href^="#/"])').forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); document.getElementById(link.getAttribute("href").slice(1))?.scrollIntoView({ behavior:"smooth", block:"start" }); }));
-  adicionarCopiarCodigo(corpo); renderizarMermaid(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
+  envolverTabelas(corpo); adicionarCopiarCodigo(corpo); renderizarMermaid(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
 }
 function renderizarBreadcrumbs(item) { const el=document.getElementById("breadcrumbs"); el.innerHTML=`<button type="button" data-home>início</button><span>/</span><button type="button" data-categoria>${escapar(nomesMaterias[item.categoria] || tituloLegivel(item.categoria))}</button><span>/</span><span>${escapar(item.titulo)}</span>`; el.querySelector("[data-home]").addEventListener("click", voltarHome); el.querySelector("[data-categoria]").addEventListener("click", () => abrirMateria(item.categoria)); }
 function renderizarToc(corpo) {

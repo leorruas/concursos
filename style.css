@@ -1,5 +1,6 @@
 :root { --bg:#101010; --text:#f4f2ee; --muted:#aaa6a2; --line:#383634; --accent:#ffd52e; --max:980px; }
 * { box-sizing:border-box; }
+[hidden] { display:none !important; }
 html { scroll-behavior:smooth; }
 body { margin:0; padding-top:64px; background:var(--bg); color:var(--text); font:16px/1.55 "Archivo", Arial, Helvetica, sans-serif; font-synthesis:none; }
 button, input { font:inherit; }

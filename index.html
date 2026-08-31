@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=10">
+    <link rel="stylesheet" href="style.css?v=11">
     <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script defer src="script.js?v=2"></script>
+    <script defer src="script.js?v=4"></script>
   </head>
   <body>
     <nav class="topbar" aria-label="Navegação principal">
@@ -22,7 +22,7 @@
       <section id="home-view" class="home-view">
         <header class="masthead">
           <div><p class="eyebrow">caderno público de estudo</p><h1>concursos</h1><p class="subtitle">matérias para revisão, aprofundamento e prática</p></div>
-          <p class="scope">conteúdo público<br>de <strong>3 - matérias</strong></p>
+          <div class="masthead-aside"><label class="home-search" for="home-search-input"><span class="sr-only">Pesquisar matérias</span><input id="home-search-input" type="search" placeholder="pesquisar matérias..." autocomplete="off"></label><p class="scope">conteúdo público<br>de <strong>3 - matérias</strong></p></div>
         </header>
         <section aria-labelledby="areas-title">
           <h2 id="areas-title">matérias...</h2>
@@ -37,7 +37,7 @@
         <button type="button" id="topics-back-button" class="back-button">← voltar para as matérias</button>
       </section>
       <article id="article-view" class="article-view" hidden>
-        <aside class="article-sidebar"><label for="toc-filter">neste artigo<input id="toc-filter" type="search" placeholder="filtrar seções..."></label><nav id="toc"></nav></aside>
+        <aside class="article-sidebar"><label class="toc-filter-label" for="toc-filter">filtrar títulos<input id="toc-filter" type="search" placeholder="filtrar seções..."></label><p class="toc-title">neste artigo</p><nav id="toc"></nav></aside>
         <div class="article-main"><nav id="breadcrumbs" class="breadcrumbs" aria-label="Caminho de navegação"></nav><h1 id="article-title"></h1><div id="article-body" class="article-body"></div><nav id="article-nav" class="article-nav" aria-label="Artigos relacionados"></nav><button type="button" id="back-button" class="back-button">← voltar para as matérias</button></div>
       </article>
     </main>

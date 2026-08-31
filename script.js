@@ -10,6 +10,9 @@ const arquivos = [
 const descricoes = {
   "Administracao Geral": "fundamentos, processos e funções administrativas", "Administracao Publica": "Estado, gestão pública e políticas", Atualidades: "contexto social, político e tecnológico", "Calculo Mental": "agilidade numérica e estratégias de cálculo", Comunicacao: "comunicação pública, jornalismo e estratégia", "Direito Administrativo": "administração pública, atos e agentes", "Direito Constitucional": "Constituição, direitos e organização do Estado", Informatica: "conceitos e ferramentas de informática", Logica: "proposições, argumentos e raciocínio", Portugues: "língua portuguesa e interpretação", Redacao: "produção textual e argumentação"
 };
+const nomesMaterias = {
+  "Administracao Geral": "Administração geral", "Administracao Publica": "Administração pública", Atualidades: "Atualidades", "Calculo Mental": "Cálculo mental", Comunicacao: "Comunicação", "Direito Administrativo": "Direito administrativo", "Direito Constitucional": "Direito constitucional", Informatica: "Informática", Logica: "Lógica", Portugues: "Português", Redacao: "Redação"
+};
 const ordemMaterias = ["Portugues", "Logica", "Calculo Mental", "Informatica", "Direito Constitucional", "Direito Administrativo", "Administracao Publica", "Administracao Geral", "Comunicacao", "Atualidades", "Redacao"];
 const normalizar = valor => valor.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const tituloDoArquivo = caminho => caminho.split("/").pop().replace(/\.md$/i, "").replace(/^\d+\s*-\s*/, "").replace(/-/g, " ");
@@ -18,7 +21,7 @@ const categoriaDoArquivo = caminho => caminho.split("/")[1];
 const slug = valor => normalizar(valor).replace(/[^a-z0-9\s-]/g, "").trim().replace(/\s+/g, "-");
 const escapar = valor => valor.replace(/[&<>"]/g, caractere => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[caractere]));
 
-const home = document.getElementById("home-view"); const topics = document.getElementById("topics-view"); const article = document.getElementById("article-view"); const grid = document.getElementById("areas-grid"); const search = document.getElementById("search-input"); const topbar = document.querySelector(".topbar");
+const home = document.getElementById("home-view"); const topics = document.getElementById("topics-view"); const article = document.getElementById("article-view"); const grid = document.getElementById("areas-grid"); const search = document.getElementById("search-input"); const homeSearch = document.getElementById("home-search-input"); const topbar = document.querySelector(".topbar");
 let artigos = []; let artigoAtual = null;
 let atualizarTocAtivo = null;
 
@@ -33,12 +36,12 @@ async function carregarArtigos() {
 }
 
 function renderizarHome() {
-  const termo = normalizar(search.value.trim());
+  const termo = normalizar(homeSearch.value.trim());
   const porCategoria = artigos.reduce((grupos, item) => ({ ...grupos, [item.categoria]: [...(grupos[item.categoria] || []), item] }), {});
   const categorias = ordemMaterias.filter(categoria => porCategoria[categoria]);
   const visiveis = categorias.filter(categoria => !termo || normalizar(`${categoria} ${descricoes[categoria] || ""} ${porCategoria[categoria].map(({titulo}) => titulo).join(" ")}`).includes(termo));
   document.getElementById("results-summary").textContent = termo ? `${visiveis.length} matérias encontradas` : `${categorias.length} matérias públicas`;
-  grid.innerHTML = visiveis.length ? visiveis.map(categoria => `<button class="area-card" type="button" data-categoria="${escapar(categoria)}"><span class="area-number">${String(ordemMaterias.indexOf(categoria)+1).padStart(2,"0")}</span><span><span class="area-name">${escapar(tituloLegivel(categoria))}</span><span class="area-description">${escapar(descricoes[categoria] || `${porCategoria[categoria].length} notas de estudo`)}</span></span><span class="area-arrow">→</span></button>`).join("") : '<p class="empty">Nenhuma matéria encontrada.</p>';
+  grid.innerHTML = visiveis.length ? visiveis.map(categoria => `<button class="area-card" type="button" data-categoria="${escapar(categoria)}"><span class="area-number">${String(ordemMaterias.indexOf(categoria)+1).padStart(2,"0")}</span><span><span class="area-name">${escapar(nomesMaterias[categoria] || tituloLegivel(categoria))}</span><span class="area-description">${escapar(descricoes[categoria] || `${porCategoria[categoria].length} notas de estudo`)}</span></span><span class="area-arrow">→</span></button>`).join("") : '<p class="empty">Nenhuma matéria encontrada.</p>';
   grid.querySelectorAll("[data-categoria]").forEach(botao => botao.addEventListener("click", () => abrirMateria(botao.dataset.categoria)));
 }
 
@@ -46,7 +49,7 @@ function abrirMateria(categoria) {
   if (window.location.hash !== `#/materia/${encodeURIComponent(categoria)}`) { window.location.hash = `#/materia/${encodeURIComponent(categoria)}`; return; }
   const lista = artigos.filter(artigo => artigo.categoria === categoria).sort((a,b) => a.titulo.localeCompare(b.titulo,"pt-BR",{numeric:true}));
   home.hidden = true; article.hidden = true; topics.hidden = false;
-  document.getElementById("topics-title").textContent = tituloLegivel(categoria);
+  document.getElementById("topics-title").textContent = nomesMaterias[categoria] || tituloLegivel(categoria);
   document.getElementById("topics-count").textContent = `${lista.length} tópicos`;
   document.getElementById("topics-breadcrumbs").innerHTML = '<button type="button" data-home>início</button><span>/</span><span>matérias</span>';
   document.getElementById("topics-breadcrumbs").querySelector("[data-home]").addEventListener("click", voltarHome);
@@ -56,19 +59,22 @@ function abrirMateria(categoria) {
 }
 
 function limparMarkdown(markdown) { return markdown.replace(/^---[\s\S]*?---\s*/, "").replace(/^>\s*\[!(\w+)\]\s*/gm, "> **$1** ").replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1"); }
+function removerMetadadosPrivados(corpo) { corpo.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach(cabecalho => { if (!/^fontes brutas:?$/i.test(cabecalho.textContent.trim())) return; const nivel = Number(cabecalho.tagName.slice(1)); let proximo = cabecalho.nextElementSibling; cabecalho.remove(); while (proximo) { const seguinte = proximo.nextElementSibling; if (/^H[1-6]$/.test(proximo.tagName) && Number(proximo.tagName.slice(1)) <= nivel) break; proximo.remove(); proximo = seguinte; } }); }
 function abrirArtigo(item, atualizarHash = true) {
   if (atualizarHash && window.location.hash !== `#/artigo/${encodeURIComponent(item.caminho)}`) { window.location.hash = `#/artigo/${encodeURIComponent(item.caminho)}`; return; }
   artigoAtual = item; home.hidden = true; topics.hidden = true; article.hidden = false; document.getElementById("article-title").textContent = item.titulo;
   const corpo = document.getElementById("article-body"); corpo.innerHTML = marked.parse(limparMarkdown(item.conteudo), { gfm:true, breaks:false });
   const tituloRepetido = corpo.querySelector("h1");
   if (tituloRepetido && normalizar(tituloRepetido.textContent) === normalizar(item.titulo)) tituloRepetido.remove();
-  corpo.querySelectorAll("h1,h2,h3").forEach((titulo, indice) => titulo.id = titulo.id || `${slug(titulo.textContent)}-${indice}`);
+  removerMetadadosPrivados(corpo);
+  corpo.querySelectorAll("h1,h2").forEach((titulo, indice) => titulo.id = titulo.id || `${slug(titulo.textContent)}-${indice}`);
   adicionarCopiarCodigo(corpo); renderizarMermaid(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
 }
-function renderizarBreadcrumbs(item) { const el=document.getElementById("breadcrumbs"); el.innerHTML=`<button type="button" data-home>início</button><span>/</span><button type="button" data-categoria>${escapar(tituloLegivel(item.categoria))}</button><span>/</span><span>${escapar(item.titulo)}</span>`; el.querySelector("[data-home]").addEventListener("click", voltarHome); el.querySelector("[data-categoria]").addEventListener("click", () => abrirMateria(item.categoria)); }
+function renderizarBreadcrumbs(item) { const el=document.getElementById("breadcrumbs"); el.innerHTML=`<button type="button" data-home>início</button><span>/</span><button type="button" data-categoria>${escapar(nomesMaterias[item.categoria] || tituloLegivel(item.categoria))}</button><span>/</span><span>${escapar(item.titulo)}</span>`; el.querySelector("[data-home]").addEventListener("click", voltarHome); el.querySelector("[data-categoria]").addEventListener("click", () => abrirMateria(item.categoria)); }
 function renderizarToc(corpo) {
-  const toc = document.getElementById("toc"); const titulos = [...corpo.querySelectorAll("h1,h2,h3")];
+  const toc = document.getElementById("toc"); const titulos = [...corpo.querySelectorAll("h1,h2")];
   toc.innerHTML = titulos.map(titulo => `<a href="#${titulo.id}" data-secao="${titulo.id}">${escapar(titulo.textContent)}</a>`).join("");
+  toc.querySelectorAll("a").forEach(link => link.addEventListener("click", evento => { evento.preventDefault(); document.getElementById(link.dataset.secao)?.scrollIntoView({ behavior:"smooth", block:"start" }); }));
   document.getElementById("toc-filter").oninput = e => toc.querySelectorAll("a").forEach(link => link.hidden = !normalizar(link.textContent).includes(normalizar(e.target.value)));
   if (atualizarTocAtivo) window.removeEventListener("scroll", atualizarTocAtivo);
   atualizarTocAtivo = () => {
@@ -84,7 +90,7 @@ function adicionarCopiarCodigo(corpo) { corpo.querySelectorAll("pre").forEach(pr
 async function renderizarMermaid(corpo) { const blocos=[...corpo.querySelectorAll("pre > code.language-mermaid")]; for (const [indice,codigo] of blocos.entries()) { const conteiner=document.createElement("div"); conteiner.className="mermaid"; conteiner.id=`mermaid-${Date.now()}-${indice}`; conteiner.textContent=codigo.textContent; codigo.parentElement.replaceWith(conteiner); try { await mermaid.run({nodes:[conteiner]}); } catch { const pre=document.createElement("pre"); pre.textContent=codigo.textContent; conteiner.replaceWith(pre); } } }
 function atualizarNavbar() { topbar.classList.toggle("visible", home.hidden || window.scrollY > 180); }
 function rolarParaTopo() { requestAnimationFrame(() => { window.scrollTo({top:0, left:0, behavior:"auto"}); atualizarNavbar(); }); }
-function voltarHome() { window.history.pushState({},"",window.location.pathname); article.hidden=true; topics.hidden=true; home.hidden=false; search.value=""; renderizarHome(); rolarParaTopo(); }
+function voltarHome(limparBusca = true) { window.history.pushState({},"",window.location.pathname); article.hidden=true; topics.hidden=true; home.hidden=false; if (limparBusca) { search.value=""; homeSearch.value=""; } renderizarHome(); rolarParaTopo(); }
 function tratarRota() { const rota=window.location.hash; if(rota.startsWith("#/materia/")) { const categoria=decodeURIComponent(rota.slice("#/materia/".length)); return ordemMaterias.includes(categoria) ? abrirMateria(categoria) : voltarHome(); } if(rota.startsWith("#/artigo/")) { const caminho=decodeURIComponent(rota.slice("#/artigo/".length)); const item=artigos.find(artigo=>artigo.caminho===caminho); return item ? abrirArtigo(item,false) : voltarHome(); } voltarHome(); }
 mermaid.initialize({ startOnLoad:false, theme:"dark", securityLevel:"strict", themeVariables:{ primaryColor:"#191919", primaryTextColor:"#f4f2ee", primaryBorderColor:"#ffd52e", lineColor:"#ffd52e", secondaryColor:"#242222", tertiaryColor:"#101010" } });
-document.getElementById("brand").addEventListener("click",voltarHome); document.getElementById("back-button").addEventListener("click",() => abrirMateria(artigoAtual.categoria)); document.getElementById("topics-back-button").addEventListener("click",voltarHome); search.addEventListener("input",renderizarHome); window.addEventListener("hashchange",tratarRota); window.addEventListener("scroll",atualizarNavbar,{passive:true}); carregarArtigos();
+document.getElementById("brand").addEventListener("click",voltarHome); document.getElementById("back-button").addEventListener("click",() => abrirMateria(artigoAtual.categoria)); document.getElementById("topics-back-button").addEventListener("click",voltarHome); homeSearch.addEventListener("input", () => { search.value = homeSearch.value; renderizarHome(); }); search.addEventListener("input", () => { homeSearch.value = search.value; voltarHome(false); }); window.addEventListener("hashchange",tratarRota); window.addEventListener("scroll",atualizarNavbar,{passive:true}); carregarArtigos();

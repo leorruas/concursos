@@ -1,46 +1,361 @@
-<!doctype html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Caderno público de estudos para concursos.">
-    <meta name="color-scheme" content="dark light">
-    <title>concursos • matérias</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=18">
-    <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script defer src="script.js?v=9"></script>
-  </head>
-  <body>
-    <nav class="topbar" aria-label="Navegação principal">
-      <button type="button" class="brand" id="brand">concursos</button>
-      <label class="nav-search" for="search-input"><span class="sr-only">Pesquisar matérias</span><input id="search-input" type="search" placeholder="pesquisar matérias..." autocomplete="off"></label><button type="button" class="theme-toggle" data-theme-toggle>modo claro</button>
-    </nav>
-    <main>
-      <section id="home-view" class="home-view">
-        <header class="masthead">
-          <div class="masthead-copy"><h1>concursos</h1><p class="subtitle">matérias para revisão, aprofundamento e prática</p></div>
-          <section class="masthead-search" aria-label="Pesquisar matérias"><label class="home-search" for="home-search-input"><span class="sr-only">Pesquisar matérias</span><input id="home-search-input" type="search" placeholder="pesquisar matérias..." autocomplete="off"></label></section>
-        </header>
-        <section aria-labelledby="areas-title">
-          <h2 id="areas-title">matérias...</h2>
-          <div id="results-summary" class="results-summary" aria-live="polite"></div>
-          <div id="areas-grid" class="areas-grid"></div>
-        </section>
-      </section>
-      <section id="topics-view" class="topics-view" hidden>
-        <nav id="topics-breadcrumbs" class="breadcrumbs" aria-label="Caminho de navegação"></nav>
-        <header class="topics-header"><p>matéria</p><h1 id="topics-title"></h1><span id="topics-count"></span></header>
-        <div id="topics-list" class="topics-list"></div>
-        <button type="button" id="topics-back-button" class="back-button">← voltar para as matérias</button>
-      </section>
-      <article id="article-view" class="article-view" hidden>
-        <aside class="article-sidebar"><label class="toc-filter-label" for="toc-filter">filtrar títulos<input id="toc-filter" type="search" placeholder="filtrar seções..."></label><p class="toc-title">neste artigo</p><nav id="toc"></nav></aside>
-        <div class="article-main"><nav id="breadcrumbs" class="breadcrumbs" aria-label="Caminho de navegação"></nav><h1 id="article-title"></h1><div id="article-body" class="article-body"></div><nav id="article-nav" class="article-nav" aria-label="Artigos relacionados"></nav><button type="button" id="back-button" class="back-button">← voltar para as matérias</button></div>
-      </article>
-    </main>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concursos Públicos • Central de Estudos & Simulados</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              500: '#22c55e',
+              600: '#16a34a',
+              900: '#14532d',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #0f172a;
+      color: #f8fafc;
+    }
+  </style>
+</head>
+<body class="min-h-screen antialiased selection:bg-emerald-500 selection:text-white pb-16">
+
+  <!-- Top Navigation Header -->
+  <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center font-bold text-slate-950 shadow-lg shadow-emerald-500/20">
+          🎯
+        </div>
+        <div>
+          <span class="font-bold text-slate-100 text-base sm:text-lg tracking-tight">Vault Concursos</span>
+          <span class="hidden sm:inline-block text-xs font-semibold px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 ml-2">Dataprev & TCDF 2026</span>
+        </div>
+      </div>
+      
+      <div class="flex items-center gap-3 text-xs">
+        <a href="https://github.com/leorruas/concursos" target="_blank" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium transition flex items-center gap-1.5 border border-slate-700">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 pt-8 space-y-8">
+    
+    <!-- Hero / Status Section -->
+    <div class="relative overflow-hidden rounded-2xl bg-gradient-to-b from-slate-800 to-slate-900 border border-slate-700/80 p-6 sm:p-8 shadow-2xl">
+      <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-3">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            Fase de Simulados Ativa • Dataprev 2026
+          </div>
+          <h1 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">Painel de Preparação & Simulados</h1>
+          <p class="text-slate-400 text-sm sm:text-base mt-2 max-w-2xl leading-relaxed">
+            Acompanhamento centralizado da reta final. Catalogação clínica de erros, ancoragem teórica direta no vault e mapa de calor por disciplina.
+          </p>
+        </div>
+
+        <!-- Quick KPI Box -->
+        <div class="grid grid-cols-3 gap-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800 backdrop-blur shrink-0">
+          <div class="text-center px-2">
+            <div class="text-[11px] text-slate-400 font-medium uppercase tracking-wider">Simulado 01</div>
+            <div class="text-2xl font-black text-white mt-0.5">70 <span class="text-xs font-normal text-slate-400">Qs</span></div>
+          </div>
+          <div class="text-center border-x border-slate-800 px-4">
+            <div class="text-[11px] text-slate-400 font-medium uppercase tracking-wider">Acertos</div>
+            <div class="text-2xl font-black text-emerald-400 mt-0.5">54</div>
+          </div>
+          <div class="text-center px-2">
+            <div class="text-[11px] text-slate-400 font-medium uppercase tracking-wider">Aprov.</div>
+            <div class="text-2xl font-black text-blue-400 mt-0.5">77,1%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- 1. CATÁLOGO DE SIMULADOS (DESTAQUE SUPERIOR) -->
+    <!-- ========================================== -->
+    <section class="space-y-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-xl font-bold text-white flex items-center gap-2">
+            <span class="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-400 text-sm">📊</span>
+            Catálogo de Simulados & Diagnóstico de Erros
+          </h2>
+          <p class="text-xs text-slate-400 mt-0.5">Rastreamento cirúrgico de erros, causas-raiz e recomendações de estudo.</p>
+        </div>
+        <span class="text-xs text-slate-500 font-mono">00 - Desempenho/Simulados/</span>
+      </div>
+
+      <!-- Tabela do Simulado 01 & Blocos -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 sm:p-6 space-y-6 shadow-lg">
+        
+        <!-- Bloco Progression Cards -->
+        <div>
+          <div class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-1.5">
+            <span>📈</span> Evolução por Bloco (Simulado 01 — 31/08/2026)
+          </div>
+          <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-2.5">
+            <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800/80 text-center">
+              <div class="text-xs font-medium text-slate-400">Bloco 1 (Q1-10)</div>
+              <div class="text-lg font-bold text-amber-400 mt-1">7 / 10</div>
+              <div class="text-[11px] text-slate-400">70%</div>
+            </div>
+            <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800/80 text-center">
+              <div class="text-xs font-medium text-slate-400">Bloco 2 (Q11-20)</div>
+              <div class="text-lg font-bold text-emerald-400 mt-1">8 / 10</div>
+              <div class="text-[11px] text-slate-400">80%</div>
+            </div>
+            <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800/80 text-center">
+              <div class="text-xs font-medium text-slate-400">Bloco 3 (Q21-30)</div>
+              <div class="text-lg font-bold text-rose-400 mt-1">6 / 10</div>
+              <div class="text-[11px] text-slate-400">60%</div>
+            </div>
+            <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800/80 text-center">
+              <div class="text-xs font-medium text-slate-400">Bloco 4 (Q31-40)</div>
+              <div class="text-lg font-bold text-emerald-400 mt-1">9 / 10</div>
+              <div class="text-[11px] text-slate-400">90%</div>
+            </div>
+            <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800/80 text-center">
+              <div class="text-xs font-medium text-slate-400">Bloco 5 (Q41-50)</div>
+              <div class="text-lg font-bold text-emerald-400 mt-1">9 / 10</div>
+              <div class="text-[11px] text-slate-400">90%</div>
+            </div>
+            <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800/80 text-center">
+              <div class="text-xs font-medium text-slate-400">Bloco 6 (Q51-60)</div>
+              <div class="text-lg font-bold text-emerald-400 mt-1">8 / 10</div>
+              <div class="text-[11px] text-slate-400">80%</div>
+            </div>
+            <div class="bg-slate-950/70 p-3 rounded-xl border border-slate-800/80 text-center">
+              <div class="text-xs font-medium text-slate-400">Bloco 7 (Q61-70)</div>
+              <div class="text-lg font-bold text-amber-400 mt-1">7 / 10</div>
+              <div class="text-[11px] text-slate-400">70%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Heatmap Table -->
+        <div>
+          <div class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-1.5">
+            <span>🔥</span> Mapa de Calor & Diagnóstico Clínico de Desvios
+          </div>
+          <div class="overflow-x-auto rounded-xl border border-slate-800">
+            <table class="w-full text-left text-xs text-slate-300">
+              <thead class="bg-slate-950/90 text-slate-400 uppercase text-[10px] tracking-wider border-b border-slate-800">
+                <tr>
+                  <th class="px-4 py-3">Disciplina</th>
+                  <th class="px-3 py-3 text-center">Volume</th>
+                  <th class="px-3 py-3 text-center">Erros</th>
+                  <th class="px-3 py-3 text-center">Aproveitamento</th>
+                  <th class="px-4 py-3">Pontos Críticos Mapeados</th>
+                  <th class="px-4 py-3">Ação de Estudo no Vault</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-800/60 bg-slate-900/40">
+                <!-- Raciocínio Lógico -->
+                <tr class="hover:bg-slate-800/40 transition">
+                  <td class="px-4 py-3 font-semibold text-rose-400">Raciocínio Lógico</td>
+                  <td class="px-3 py-3 text-center">6</td>
+                  <td class="px-3 py-3 text-center font-bold text-rose-400">4</td>
+                  <td class="px-3 py-3 text-center">
+                    <span class="px-2 py-0.5 rounded bg-rose-500/10 text-rose-400 font-bold">33,3%</span>
+                  </td>
+                  <td class="px-4 py-3 text-slate-300">Equivalência (Contrapositiva), Tabela Verdade (linha V→F) e Negação de Compostas</td>
+                  <td class="px-4 py-3 font-mono text-emerald-400">3 - Materias/Logica/04 - equivalencias.md</td>
+                </tr>
+
+                <!-- Marco Civil -->
+                <tr class="hover:bg-slate-800/40 transition">
+                  <td class="px-4 py-3 font-semibold text-rose-400">Marco Civil da Internet</td>
+                  <td class="px-3 py-3 text-center">6</td>
+                  <td class="px-3 py-3 text-center font-bold text-rose-400">4</td>
+                  <td class="px-3 py-3 text-center">
+                    <span class="px-2 py-0.5 rounded bg-rose-500/10 text-rose-400 font-bold">33,3%</span>
+                  </td>
+                  <td class="px-4 py-3 text-slate-300">Fundamentos (art. 2º), Neutralidade de Rede (art. 9º) e Responsabilidade Civil (art. 19)</td>
+                  <td class="px-4 py-3 font-mono text-emerald-400">3 - Materias/Informatica/01 - marco civil da internet.md</td>
+                </tr>
+
+                <!-- LGPD -->
+                <tr class="hover:bg-slate-800/40 transition">
+                  <td class="px-4 py-3 font-semibold text-amber-400">Legislação Digital / LGPD</td>
+                  <td class="px-3 py-3 text-center">6</td>
+                  <td class="px-3 py-3 text-center font-bold text-amber-400">2</td>
+                  <td class="px-3 py-3 text-center">
+                    <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 font-bold">66,7%</span>
+                  </td>
+                  <td class="px-4 py-3 text-slate-300">Bases Legais no Setor Público (dispensa de consentimento) e Desvio de Finalidade</td>
+                  <td class="px-4 py-3 font-mono text-emerald-400">3 - Materias/Comunicacao/03 - lai lgpd e transparencia.md</td>
+                </tr>
+
+                <!-- Comunicação Organizacional -->
+                <tr class="hover:bg-slate-800/40 transition">
+                  <td class="px-4 py-3 font-semibold text-amber-400">Comunicação Organizacional</td>
+                  <td class="px-3 py-3 text-center">6</td>
+                  <td class="px-3 py-3 text-center font-bold text-amber-400">2</td>
+                  <td class="px-3 py-3 text-center">
+                    <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 font-bold">66,7%</span>
+                  </td>
+                  <td class="px-4 py-3 text-slate-300">Teoria dos Três Níveis de Schein (Artefatos vs. Valores Declarados vs. Pressupostos)</td>
+                  <td class="px-4 py-3 font-mono text-emerald-400">3 - Materias/Comunicacao/01 - comunicacao organizacional.md</td>
+                </tr>
+
+                <!-- Língua Portuguesa -->
+                <tr class="hover:bg-slate-800/40 transition">
+                  <td class="px-4 py-3 font-semibold text-blue-400">Língua Portuguesa</td>
+                  <td class="px-3 py-3 text-center">14</td>
+                  <td class="px-3 py-3 text-center font-bold text-blue-400">3</td>
+                  <td class="px-3 py-3 text-center">
+                    <span class="px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 font-bold">78,6%</span>
+                  </td>
+                  <td class="px-4 py-3 text-slate-300">Funções do "SE" (PA vs. IIS), Crase com "que", Regência (assistir / preferir)</td>
+                  <td class="px-4 py-3 font-mono text-emerald-400">3 - Materias/Portugues/02 - sujeito.md</td>
+                </tr>
+
+                <!-- 100% Group -->
+                <tr class="bg-emerald-950/20">
+                  <td class="px-4 py-3 font-semibold text-emerald-400 flex items-center gap-1.5">
+                    <span>✨</span> Matérias Dominadas (100%)
+                  </td>
+                  <td class="px-3 py-3 text-center">32</td>
+                  <td class="px-3 py-3 text-center font-bold text-emerald-400">0</td>
+                  <td class="px-3 py-3 text-center">
+                    <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-bold">100.0%</span>
+                  </td>
+                  <td class="px-4 py-3 text-slate-300" colspan="2">
+                    Inglês (7/7), Comunicação Digital/UX (8/8), Jornalismo & Lead (6/6), Comunicação Pública (6/6), Planejamento & ADM (5/5)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 2. NAVEGAÇÃO DE MATÉRIAS DO VAULT         -->
+    <!-- ========================================== -->
+    <section class="space-y-4 pt-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-xl font-bold text-white flex items-center gap-2">
+            <span class="p-1.5 rounded-lg bg-blue-500/10 text-blue-400 text-sm">📚</span>
+            Disciplinas & Base de Conhecimento
+          </h2>
+          <p class="text-xs text-slate-400 mt-0.5">Acesso estruturado a todas as notas teóricas e resumos do vault.</p>
+        </div>
+        <span class="text-xs text-slate-500 font-mono">3 - Materias/</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        
+        <!-- Língua Portuguesa -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition space-y-3">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-slate-100 text-base">Língua Portuguesa</h3>
+            <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400 font-mono">6 notas</span>
+          </div>
+          <ul class="text-xs space-y-1.5 text-slate-400">
+            <li>• <span class="text-slate-300">01 - interpretacao de texto</span></li>
+            <li>• <span class="text-slate-300">02 - sujeito (PA vs IIS)</span></li>
+            <li>• <span class="text-slate-300">03 - pontuacao e virgula</span></li>
+            <li>• <span class="text-slate-300">04 - regencia verbal e nominal</span></li>
+            <li>• <span class="text-slate-300">05 - acordo ortografico</span></li>
+          </ul>
+        </div>
+
+        <!-- Raciocínio Lógico -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition space-y-3">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-slate-100 text-base">Raciocínio Lógico</h3>
+            <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400 font-mono">9 notas</span>
+          </div>
+          <ul class="text-xs space-y-1.5 text-slate-400">
+            <li>• <span class="text-slate-300">02 - conectivos logicos</span></li>
+            <li>• <span class="text-slate-300">03 - quantificadores</span></li>
+            <li>• <span class="text-slate-300">04 - equivalencias e negacoes</span></li>
+            <li>• <span class="text-slate-300">08 - possibilidade e necessidade</span></li>
+            <li>• <span class="text-slate-300">09 - analise combinatoria</span></li>
+          </ul>
+        </div>
+
+        <!-- Comunicação Social -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition space-y-3">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-slate-100 text-base">Comunicação Social</h3>
+            <span class="text-xs px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-semibold">100% Edital</span>
+          </div>
+          <ul class="text-xs space-y-1.5 text-slate-400">
+            <li>• <span class="text-slate-300">01 - comunicacao organizacional</span></li>
+            <li>• <span class="text-slate-300">02 - comunicacao publica</span></li>
+            <li>• <span class="text-slate-300">03 - lai, lgpd e transparencia</span></li>
+            <li>• <span class="text-slate-300">06 - comunicacao digital & UX</span></li>
+            <li>• <span class="text-slate-300">07 - gestao de crises</span></li>
+          </ul>
+        </div>
+
+        <!-- Informática & Marco Civil -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition space-y-3">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-slate-100 text-base">Informática & Legislação</h3>
+            <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400 font-mono">2 notas</span>
+          </div>
+          <ul class="text-xs space-y-1.5 text-slate-400">
+            <li>• <span class="text-slate-300">01 - marco civil da internet (Lei 12.965)</span></li>
+            <li>• <span class="text-slate-300">informatica geral e seguranca</span></li>
+          </ul>
+        </div>
+
+        <!-- Língua Inglesa -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition space-y-3">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-slate-100 text-base">Língua Inglesa</h3>
+            <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400 font-mono">1 nota</span>
+          </div>
+          <ul class="text-xs space-y-1.5 text-slate-400">
+            <li>• <span class="text-slate-300">ingles (conectivos, contrast, cause & effect)</span></li>
+            <li>• <span class="text-slate-300">leitura instrumental para TI e Gov</span></li>
+          </ul>
+        </div>
+
+        <!-- Direitos & Administração -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-slate-700 transition space-y-3">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-slate-100 text-base">Direitos & Adm Pública</h3>
+            <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400 font-mono">19 notas</span>
+          </div>
+          <ul class="text-xs space-y-1.5 text-slate-400">
+            <li>• <span class="text-slate-300">Direito Constitucional (10 notas)</span></li>
+            <li>• <span class="text-slate-300">Direito Administrativo (9 notas)</span></li>
+            <li>• <span class="text-slate-300">Administração Pública & Geral</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="max-w-6xl mx-auto px-4 sm:px-6 pt-12 border-t border-slate-800/80 mt-12 text-center text-xs text-slate-500">
+    <p>Vault de Concursos Públicos • Leo Ruas • Sincronizado via Obsidian & GitHub Pages</p>
+  </footer>
+
+</body>
 </html>

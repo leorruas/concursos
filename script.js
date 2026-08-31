@@ -593,6 +593,33 @@ window.addEventListener("popstate", () => {
     processarRotaInicial();
 });
 
+const stickyNav = document.getElementById("sticky-nav");
+window.addEventListener("scroll", () => {
+    if (!stickyNav) return;
+    if (window.scrollY > 80) {
+        stickyNav.classList.add("visible");
+    } else {
+        stickyNav.classList.remove("visible");
+    }
+});
+
+const mainTitle = document.getElementById("home-title");
+if (mainTitle) {
+    mainTitle.addEventListener("click", () => voltarParaHome(true));
+}
+
+const navLinkPastas = document.getElementById("nav-link-pastas");
+if (navLinkPastas) {
+    navLinkPastas.addEventListener("click", (e) => {
+        e.preventDefault();
+        voltarParaHome(true);
+        const pastasContainer = document.getElementById("explorar-disciplinas");
+        if (pastasContainer) {
+            pastasContainer.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    });
+}
+
 if (campoTexto) {
     campoTexto.addEventListener("input", (e) => {
         if (campoTextoNav) campoTextoNav.value = e.target.value;
@@ -612,6 +639,5 @@ if (btnVoltarDisciplina) {
 }
 
 document.getElementById("nav-logo")?.addEventListener("click", () => voltarParaHome(true));
-document.getElementById("nav-link-pastas")?.addEventListener("click", () => voltarParaHome(true));
 
 carregarTodosOsArtigos();

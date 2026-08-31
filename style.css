@@ -4,7 +4,7 @@ html { scroll-behavior:smooth; }
 body { margin:0; padding-top:64px; background:var(--bg); color:var(--text); font:16px/1.55 Arial, Helvetica, sans-serif; }
 button, input { font:inherit; }
 button { color:inherit; }
-.topbar { position:fixed; inset:0 0 auto; z-index:10; height:64px; display:flex; align-items:center; justify-content:space-between; gap:24px; padding:0 max(24px, calc((100vw - var(--max)) / 2)); border-bottom:1px solid var(--line); background:color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter:blur(12px); }
+.topbar { position:fixed; inset:0 0 auto; z-index:10; height:64px; display:flex; align-items:center; justify-content:flex-start; gap:28px; padding:0 max(24px, calc((100vw - var(--max)) / 2)); border-bottom:1px solid var(--line); background:color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter:blur(12px); }
 .brand { padding:0; border:0; background:none; cursor:pointer; font-weight:800; letter-spacing:-.05em; }
 .nav-search { width:min(290px, 45vw); }
 input { width:100%; padding:8px 0; border:0; border-bottom:2px solid var(--accent); outline:0; background:transparent; color:var(--text); }

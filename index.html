@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Caderno público de estudos para concursos.">
     <title>concursos • matérias</title>
-    <link rel="stylesheet" href="style.css?v=1">
+    <link rel="stylesheet" href="style.css?v=2">
     <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script defer src="script.js?v=1"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script defer src="script.js?v=2"></script>
   </head>
   <body>
     <nav class="topbar" aria-label="Navegação principal">
@@ -25,6 +26,12 @@
           <div id="results-summary" class="results-summary" aria-live="polite"></div>
           <div id="areas-grid" class="areas-grid"></div>
         </section>
+      </section>
+      <section id="topics-view" class="topics-view" hidden>
+        <nav id="topics-breadcrumbs" class="breadcrumbs" aria-label="Caminho de navegação"></nav>
+        <header class="topics-header"><p>matéria</p><h1 id="topics-title"></h1><span id="topics-count"></span></header>
+        <div id="topics-list" class="topics-list"></div>
+        <button type="button" id="topics-back-button" class="back-button">← voltar para as matérias</button>
       </section>
       <article id="article-view" class="article-view" hidden>
         <aside class="article-sidebar"><label for="toc-filter">neste artigo<input id="toc-filter" type="search" placeholder="filtrar seções..."></label><nav id="toc"></nav></aside>

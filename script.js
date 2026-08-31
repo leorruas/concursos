@@ -10,6 +10,7 @@ const arquivos = [
 const descricoes = {
   "Administracao Geral": "fundamentos, processos e funções administrativas", "Administracao Publica": "Estado, gestão pública e políticas", Atualidades: "contexto social, político e tecnológico", "Calculo Mental": "agilidade numérica e estratégias de cálculo", Comunicacao: "comunicação pública, jornalismo e estratégia", "Direito Administrativo": "administração pública, atos e agentes", "Direito Constitucional": "Constituição, direitos e organização do Estado", Informatica: "conceitos e ferramentas de informática", Logica: "proposições, argumentos e raciocínio", Portugues: "língua portuguesa e interpretação", Redacao: "produção textual e argumentação"
 };
+const ordemMaterias = ["Portugues", "Logica", "Calculo Mental", "Informatica", "Direito Constitucional", "Direito Administrativo", "Administracao Publica", "Administracao Geral", "Comunicacao", "Atualidades", "Redacao"];
 const normalizar = valor => valor.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const tituloDoArquivo = caminho => caminho.split("/").pop().replace(/\.md$/i, "").replace(/^\d+\s*-\s*/, "").replace(/-/g, " ");
 const tituloLegivel = valor => valor.replace(/\b\w/g, letra => letra.toUpperCase()).replace(/\bLai\b/g, "LAI").replace(/\bLgpd\b/g, "LGPD");
@@ -17,7 +18,7 @@ const categoriaDoArquivo = caminho => caminho.split("/")[1];
 const slug = valor => normalizar(valor).replace(/[^a-z0-9\s-]/g, "").trim().replace(/\s+/g, "-");
 const escapar = valor => valor.replace(/[&<>"]/g, caractere => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[caractere]));
 
-const home = document.getElementById("home-view"); const article = document.getElementById("article-view"); const grid = document.getElementById("areas-grid"); const search = document.getElementById("search-input");
+const home = document.getElementById("home-view"); const topics = document.getElementById("topics-view"); const article = document.getElementById("article-view"); const grid = document.getElementById("areas-grid"); const search = document.getElementById("search-input");
 let artigos = []; let artigoAtual = null;
 
 async function carregarArtigos() {
@@ -32,31 +33,42 @@ async function carregarArtigos() {
 
 function renderizarHome() {
   const termo = normalizar(search.value.trim());
-  const porCategoria = Object.groupBy(artigos, ({ categoria }) => categoria);
-  const categorias = Object.keys(porCategoria).sort((a,b) => a.localeCompare(b,"pt-BR"));
+  const porCategoria = artigos.reduce((grupos, item) => ({ ...grupos, [item.categoria]: [...(grupos[item.categoria] || []), item] }), {});
+  const categorias = ordemMaterias.filter(categoria => porCategoria[categoria]);
   const visiveis = categorias.filter(categoria => !termo || normalizar(`${categoria} ${descricoes[categoria] || ""} ${porCategoria[categoria].map(({titulo}) => titulo).join(" ")}`).includes(termo));
   document.getElementById("results-summary").textContent = termo ? `${visiveis.length} matérias encontradas` : `${categorias.length} matérias públicas`;
-  grid.innerHTML = visiveis.length ? visiveis.map((categoria, indice) => `<button class="area-card" type="button" data-categoria="${escapar(categoria)}"><span class="area-number">${String(indice+1).padStart(2,"0")}</span><span><span class="area-name">${escapar(tituloLegivel(categoria))}</span><span class="area-description">${escapar(descricoes[categoria] || `${porCategoria[categoria].length} notas de estudo`)}</span></span><span class="area-arrow">→</span></button>`).join("") : '<p class="empty">Nenhuma matéria encontrada.</p>';
+  grid.innerHTML = visiveis.length ? visiveis.map(categoria => `<button class="area-card" type="button" data-categoria="${escapar(categoria)}"><span class="area-number">${String(ordemMaterias.indexOf(categoria)+1).padStart(2,"0")}</span><span><span class="area-name">${escapar(tituloLegivel(categoria))}</span><span class="area-description">${escapar(descricoes[categoria] || `${porCategoria[categoria].length} notas de estudo`)}</span></span><span class="area-arrow">→</span></button>`).join("") : '<p class="empty">Nenhuma matéria encontrada.</p>';
   grid.querySelectorAll("[data-categoria]").forEach(botao => botao.addEventListener("click", () => abrirMateria(botao.dataset.categoria)));
 }
 
 function abrirMateria(categoria) {
-  const primeiro = artigos.filter(artigo => artigo.categoria === categoria).sort((a,b) => a.titulo.localeCompare(b.titulo,"pt-BR",{numeric:true}))[0];
-  if (primeiro) abrirArtigo(primeiro);
+  if (window.location.hash !== `#/materia/${encodeURIComponent(categoria)}`) { window.location.hash = `#/materia/${encodeURIComponent(categoria)}`; return; }
+  const lista = artigos.filter(artigo => artigo.categoria === categoria).sort((a,b) => a.titulo.localeCompare(b.titulo,"pt-BR",{numeric:true}));
+  home.hidden = true; article.hidden = true; topics.hidden = false;
+  document.getElementById("topics-title").textContent = tituloLegivel(categoria);
+  document.getElementById("topics-count").textContent = `${lista.length} tópicos`;
+  document.getElementById("topics-breadcrumbs").innerHTML = '<button type="button" data-home>início</button><span>/</span><span>matérias</span>';
+  document.getElementById("topics-breadcrumbs").querySelector("[data-home]").addEventListener("click", voltarHome);
+  document.getElementById("topics-list").innerHTML = lista.map((item, indice) => `<button type="button" class="topic-item" data-caminho="${escapar(item.caminho)}"><span class="topic-number">${String(indice + 1).padStart(2,"0")}</span><strong>${escapar(item.titulo)}</strong><span class="area-arrow">→</span></button>`).join("");
+  document.querySelectorAll("#topics-list [data-caminho]").forEach(botao => botao.addEventListener("click", () => abrirArtigo(artigos.find(item => item.caminho === botao.dataset.caminho))));
+  rolarParaTopo();
 }
 
 function limparMarkdown(markdown) { return markdown.replace(/^---[\s\S]*?---\s*/, "").replace(/^>\s*\[!(\w+)\]\s*/gm, "> **$1** ").replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2").replace(/\[\[([^\]]+)\]\]/g, "$1"); }
 function abrirArtigo(item, atualizarHash = true) {
-  artigoAtual = item; if (atualizarHash) window.location.hash = `#/artigo/${encodeURIComponent(item.caminho)}`;
-  home.hidden = true; article.hidden = false; document.getElementById("article-title").textContent = item.titulo;
+  if (atualizarHash && window.location.hash !== `#/artigo/${encodeURIComponent(item.caminho)}`) { window.location.hash = `#/artigo/${encodeURIComponent(item.caminho)}`; return; }
+  artigoAtual = item; home.hidden = true; topics.hidden = true; article.hidden = false; document.getElementById("article-title").textContent = item.titulo;
   const corpo = document.getElementById("article-body"); corpo.innerHTML = marked.parse(limparMarkdown(item.conteudo), { gfm:true, breaks:false });
   corpo.querySelectorAll("h1,h2,h3").forEach((titulo, indice) => titulo.id = titulo.id || `${slug(titulo.textContent)}-${indice}`);
-  adicionarCopiarCodigo(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); window.scrollTo({top:0,behavior:"instant"});
+  adicionarCopiarCodigo(corpo); renderizarMermaid(corpo); renderizarBreadcrumbs(item); renderizarToc(corpo); renderizarNav(item); rolarParaTopo();
 }
-function renderizarBreadcrumbs(item) { const el=document.getElementById("breadcrumbs"); el.innerHTML=`<button type="button" data-home>início</button><span>/</span><button type="button" data-home>${escapar(tituloLegivel(item.categoria))}</button><span>/</span><span>${escapar(item.titulo)}</span>`; el.querySelectorAll("[data-home]").forEach(botao=>botao.addEventListener("click", voltarHome)); }
+function renderizarBreadcrumbs(item) { const el=document.getElementById("breadcrumbs"); el.innerHTML=`<button type="button" data-home>início</button><span>/</span><button type="button" data-categoria>${escapar(tituloLegivel(item.categoria))}</button><span>/</span><span>${escapar(item.titulo)}</span>`; el.querySelector("[data-home]").addEventListener("click", voltarHome); el.querySelector("[data-categoria]").addEventListener("click", () => abrirMateria(item.categoria)); }
 function renderizarToc(corpo) { const toc=document.getElementById("toc"); const titulos=[...corpo.querySelectorAll("h1,h2,h3")]; toc.innerHTML=titulos.map(titulo=>`<a href="#${titulo.id}">${escapar(titulo.textContent)}</a>`).join(""); document.getElementById("toc-filter").oninput=e=>toc.querySelectorAll("a").forEach(link=>link.hidden=!normalizar(link.textContent).includes(normalizar(e.target.value))); }
 function renderizarNav(item) { const lista=artigos.filter(artigo=>artigo.categoria===item.categoria).sort((a,b)=>a.titulo.localeCompare(b.titulo,"pt-BR",{numeric:true})); const indice=lista.indexOf(item); const destino=[ [lista[indice-1],"← artigo anterior"],[lista[indice+1],"próximo artigo →"] ]; document.getElementById("article-nav").innerHTML=destino.map(([artigo,rotulo])=>artigo?`<button type="button" data-caminho="${escapar(artigo.caminho)}"><span>${rotulo}</span><strong>${escapar(artigo.titulo)}</strong></button>`:"<span></span>").join(""); document.querySelectorAll("#article-nav [data-caminho]").forEach(botao=>botao.addEventListener("click",()=>abrirArtigo(artigos.find(item=>item.caminho===botao.dataset.caminho)))); }
 function adicionarCopiarCodigo(corpo) { corpo.querySelectorAll("pre").forEach(pre=>{ const botao=document.createElement("button"); botao.className="copy-button"; botao.textContent="copiar"; botao.addEventListener("click",async()=>{await navigator.clipboard?.writeText(pre.innerText); botao.textContent="copiado"; setTimeout(()=>botao.textContent="copiar",1200);}); pre.append(botao); }); }
-function voltarHome() { window.history.pushState({},"",window.location.pathname); article.hidden=true; home.hidden=false; search.value=""; renderizarHome(); window.scrollTo({top:0,behavior:"instant"}); }
-function tratarRota() { const prefixo="#/artigo/"; if(!window.location.hash.startsWith(prefixo)) return voltarHome(); const caminho=decodeURIComponent(window.location.hash.slice(prefixo.length)); const item=artigos.find(artigo=>artigo.caminho===caminho); item ? abrirArtigo(item,false) : voltarHome(); }
-document.getElementById("brand").addEventListener("click",voltarHome); document.getElementById("back-button").addEventListener("click",voltarHome); search.addEventListener("input",renderizarHome); window.addEventListener("hashchange",tratarRota); carregarArtigos();
+async function renderizarMermaid(corpo) { const blocos=[...corpo.querySelectorAll("pre > code.language-mermaid")]; for (const [indice,codigo] of blocos.entries()) { const conteiner=document.createElement("div"); conteiner.className="mermaid"; conteiner.id=`mermaid-${Date.now()}-${indice}`; conteiner.textContent=codigo.textContent; codigo.parentElement.replaceWith(conteiner); try { await mermaid.run({nodes:[conteiner]}); } catch { const pre=document.createElement("pre"); pre.textContent=codigo.textContent; conteiner.replaceWith(pre); } } }
+function rolarParaTopo() { requestAnimationFrame(() => window.scrollTo({top:0, left:0, behavior:"auto"})); }
+function voltarHome() { window.history.pushState({},"",window.location.pathname); article.hidden=true; topics.hidden=true; home.hidden=false; search.value=""; renderizarHome(); rolarParaTopo(); }
+function tratarRota() { const rota=window.location.hash; if(rota.startsWith("#/materia/")) { const categoria=decodeURIComponent(rota.slice("#/materia/".length)); return ordemMaterias.includes(categoria) ? abrirMateria(categoria) : voltarHome(); } if(rota.startsWith("#/artigo/")) { const caminho=decodeURIComponent(rota.slice("#/artigo/".length)); const item=artigos.find(artigo=>artigo.caminho===caminho); return item ? abrirArtigo(item,false) : voltarHome(); } voltarHome(); }
+mermaid.initialize({ startOnLoad:false, theme:"dark", securityLevel:"strict", themeVariables:{ primaryColor:"#191919", primaryTextColor:"#f4f2ee", primaryBorderColor:"#ffd52e", lineColor:"#ffd52e", secondaryColor:"#242222", tertiaryColor:"#101010" } });
+document.getElementById("brand").addEventListener("click",voltarHome); document.getElementById("back-button").addEventListener("click",() => abrirMateria(artigoAtual.categoria)); document.getElementById("topics-back-button").addEventListener("click",voltarHome); search.addEventListener("input",renderizarHome); window.addEventListener("hashchange",tratarRota); carregarArtigos();

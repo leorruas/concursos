@@ -22,20 +22,20 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 
 | Disciplina | Aproveitamento (30d) | Questões (30d) | Meta | Status de Amostragem | Último Treino |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *66,7%* | 18 | 95% | ⚠️ **Amostragem insuficiente** (< 50 Qs) | 12/08/2026 |
-| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | - | 0 | 85% | ⚠️ **Amostragem insuficiente** (< 50 Qs) | 02/07/2026 |
-| [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | *85,7%* | 42 | 95% | ⚠️ **Amostragem insuficiente** (< 50 Qs) | 14/07/2026 |
-| [[3 - Materias/Direito Constitucional/direito-constitucional\|Direito constitucional]] | - | 0 | 95% | ⚠️ **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
-| [[3 - Materias/Direito Administrativo/direito-administrativo\|Direito administrativo]] | - | 0 | 95% | ⚠️ **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
+| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *66,7%* | 18 | 95% | **Amostragem insuficiente** (< 50 Qs) | 12/08/2026 |
+| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | 02/07/2026 |
+| [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | *85,7%* | 42 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/07/2026 |
+| [[3 - Materias/Direito Constitucional/direito-constitucional\|Direito constitucional]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
+| [[3 - Materias/Direito Administrativo/direito-administrativo\|Direito administrativo]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
 | [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | 95,3% | 278 | 90% | **Amostragem sólida** ($\ge$ 50 Qs) | 11/08/2026 |
-| [[3 - Materias/Administracao Publica/administracao-publica\|Administração pública]] | - | 0 | 85% | ⚠️ **Amostragem insuficiente** (< 50 Qs) | - |
-| [[3 - Materias/Administracao Geral/administracao-geral\|Administração geral]] | - | 0 | 85% | ⚠️ **Amostragem insuficiente** (< 50 Qs) | - |
-| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *100,0%* | 11 | 75% | ⚠️ **Amostragem insuficiente** (< 50 Qs) | 15/07/2026 |
-| [[3 - Materias/Redacao/redacao\|Redação]] | - | 0 | 90% | ⚠️ **Amostragem insuficiente** (< 50 Qs) | - |
+| [[3 - Materias/Administracao Publica/administracao-publica\|Administração pública]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
+| [[3 - Materias/Administracao Geral/administracao-geral\|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
+| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *100,0%* | 11 | 75% | **Amostragem insuficiente** (< 50 Qs) | 15/07/2026 |
+| [[3 - Materias/Redacao/redacao\|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
 
 ### Métricas específicas por disciplina
 
-| [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | Qualidade da Transformação | *96,8%* | 14/07/2026 | 95% | ⚠️ **Amostragem insuficiente** (< 50 Qs) |
+| [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | Qualidade da Transformação | *96,8%* | 14/07/2026 | 95% | **Amostragem insuficiente** (< 50 Qs) |
 
 ### Análise de evolução recente
 - **Língua Portuguesa**: A sessão de 12/08 (18 Qs no total do dia, 12/18 bruto - 66,7%) por Ingestão de Inbox aplicou diagnósticos de gramática e regência da FGV. Consolidou acentuação oxítona (*também/café*), ditongos abertos sem acento (*ideia/heroico*), conjunções concessivas e próclise com palavras atrativas negativas (*nunca me informaram*). Mapeou desvios em impessoalidade do verbo *fazer* (tempo decorrido ➔ singular), regra do hiato tônico (*saúde / país*), regência do verbo *preferir* (*preferir X a Y*), regência de *chegar a* + crase com nomes de cidades (*chegar a Brasília*) e ambiguidade referencial de pronomes.

@@ -5,20 +5,20 @@ query: "concursos públicos 2026, concursos abertos nível superior comunicaçã
 status: processed
 ---
 
-# 🎯 Dossiê de Oportunidades: Radar de Concursos
+# Dossiê de Oportunidades: Radar de Concursos
 **Gerado em:** 05/06/2026, 09:47:00
 **Fontes Consultadas:** Portais de Notícias de Concursos (Folha Dirigida, Gran Cursos Online, Qconcursos, Editora Solução, Mega Concursos, ISCOM Radar dos Concursos, Decorando a Lei Seca, DOL, Agrobase), Diários Oficiais (mencionado em snippets como fonte de autorização/publicação)
 
-> 📊 **Resumo da Busca**: Foram encontrados **22** certames no total. Analisamos detalhadamente e recomendamos **5**, enquanto **17** foram descartados pelas regras de negócio e elegibilidade.
+> **Resumo da Busca**: Foram encontrados **22** certames no total. Analisamos detalhadamente e recomendamos **5**, enquanto **17** foram descartados pelas regras de negócio e elegibilidade.
 
 ---
 
-## 🏆 OPORTUNIDADES RECOMENDADAS
+## OPORTUNIDADES RECOMENDADAS
 
 ### 1. Câmara dos Deputados - Analista Legislativo – Comunicação Social
-**🎯 Status:** `authorized` | **⚖️ Elegibilidade:** `eligible`
+**Status:** `authorized` | **Elegibilidade:** `eligible`
 
-#### 💰 Remuneração e Condições
+#### Remuneração e Condições
 - **Remuneração Inicial Total:** R$ 29.462,78
 - **Salário Base:** R$ 0 
 - **Fim de Carreira (Estimado):** R$ 0
@@ -26,14 +26,14 @@ status: processed
 - **Jornada:** ?h semanais
 - **Lotação:** Brasília, DF 
 
-#### 🎓 Exigências e Elegibilidade
+#### Exigências e Elegibilidade
 - **Requisito Documentado:** Nível Superior em Comunicação Social
 - **Motivos de Recomendação:**
   - Cargo específico para a formação do candidato.
   - Remuneração inicial muito acima do piso exigido (R$ 10.000,00).
   - Órgão federal de alta prioridade e estabilidade.
 
-#### 📝 Detalhes do Certame
+#### Detalhes do Certame
 - **Vagas:** ? 
 - **Banca:** A definir
 - **Matérias Prováveis:** Língua Portuguesa, Direito Constitucional, Direito Administrativo, Comunicação Social, Legislação Específica
@@ -41,15 +41,15 @@ status: processed
 - **Inscrições:** até A definir
 - **Data da Prova:** A definir
 
-#### 🔗 Links Oficiais
+#### Links Oficiais
 - **Fonte Primária / Edital:** https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhjmF152UfIS2CnX5e0233Ow2iVl8vHCCFeYRx0yMnMfYbVZzWKZK84IEu0pPF-T4zQztwm8-ZiazkDWnn1uTsljXEJfW1HXZZEqqlWVHYuIC0E4KRbqdE7rbQoy8nTT3rv_5S4gEl2ge7TPoa-efKbwPgf9l7wKlYaSo6GWE0D7AWZH0=
 - **Banca:** A definir
 
 ---
 ### 2. Controladoria Geral da União (CGU) - Auditor Federal de Finanças e Controle
-**🎯 Status:** `authorized` | **⚖️ Elegibilidade:** `eligible`
+**Status:** `authorized` | **Elegibilidade:** `eligible`
 
-#### 💰 Remuneração e Condições
+#### Remuneração e Condições
 - **Remuneração Inicial Total:** R$ 36.000
 - **Salário Base:** R$ 0 
 - **Fim de Carreira (Estimado):** R$ 0
@@ -57,14 +57,14 @@ status: processed
 - **Jornada:** ?h semanais
 - **Lotação:** Brasília, DF 
 
-#### 🎓 Exigências e Elegibilidade
+#### Exigências e Elegibilidade
 - **Requisito Documentado:** Nível Superior em qualquer área
 - **Motivos de Recomendação:**
   - Remuneração inicial extremamente atrativa e muito acima do piso exigido (R$ 10.000,00).
   - Cargo generalista de nível superior compatível com qualquer formação.
   - Órgão federal de alta prioridade e estabilidade.
 
-#### 📝 Detalhes do Certame
+#### Detalhes do Certame
 - **Vagas:** 60 
 - **Banca:** A definir
 - **Matérias Prováveis:** Língua Portuguesa, Raciocínio Lógico, Direito Administrativo, Direito Constitucional, Administração Pública, Controle Externo e Interno, Auditoria Governamental
@@ -72,15 +72,15 @@ status: processed
 - **Inscrições:** até A definir
 - **Data da Prova:** A definir
 
-#### 🔗 Links Oficiais
+#### Links Oficiais
 - **Fonte Primária / Edital:** https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeMUV9iJ96HRWVIgYBUoeeJDT1SKS6Okj5UoqW0Sil9mFi5HCsWhHx2G8s9ZkIOSHzcg6VgjLetx_1Z4_cj05pEgMrjfBiRWE7PJuWg_7fR0UDzx_r
 - **Banca:** A definir
 
 ---
 ### 3. Tribunal de Justiça de Santa Catarina (TJ SC) - Analista da área Administrativa
-**🎯 Status:** `applications_open` | **⚖️ Elegibilidade:** `eligible`
+**Status:** `applications_open` | **Elegibilidade:** `eligible`
 
-#### 💰 Remuneração e Condições
+#### Remuneração e Condições
 - **Remuneração Inicial Total:** R$ 10.400,74
 - **Salário Base:** R$ 0 
 - **Fim de Carreira (Estimado):** R$ 0
@@ -88,14 +88,14 @@ status: processed
 - **Jornada:** ?h semanais
 - **Lotação:** Santa Catarina 
 
-#### 🎓 Exigências e Elegibilidade
+#### Exigências e Elegibilidade
 - **Requisito Documentado:** Nível Superior em qualquer área
 - **Motivos de Recomendação:**
   - Remuneração inicial acima do piso exigido (R$ 10.000,00).
   - Cargo generalista de nível superior compatível com qualquer formação.
   - Órgão do Judiciário, de alta prioridade e estabilidade, com inscrições abertas.
 
-#### 📝 Detalhes do Certame
+#### Detalhes do Certame
 - **Vagas:** ? (+ Cadastro Reserva)
 - **Banca:** A definir
 - **Matérias Prováveis:** Língua Portuguesa, Raciocínio Lógico, Direito Administrativo, Direito Constitucional, Noções de Direito Processual Civil e Penal, Administração
@@ -103,15 +103,15 @@ status: processed
 - **Inscrições:** até A definir
 - **Data da Prova:** A definir
 
-#### 🔗 Links Oficiais
+#### Links Oficiais
 - **Fonte Primária / Edital:** https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Xgu9PpYbEx0_kU_n6bJ5V5WD2BEwtcFgGFipOX4FWT82H-8ALFGQzDz22fMpTSxC6-rF0GKOQML7QawGlhHHfROayZfxAQFxp__iBkOSwQ6h8MUsNVK3qaMSwmqlSfTDaUsONNJ2IdEI01kO
 - **Banca:** A definir
 
 ---
 ### 4. Agência Brasileira Gestora de Fundos Garantidores (ABGF) - Analista Administrativo
-**🎯 Status:** `organizer_hired` | **⚖️ Elegibilidade:** `eligible`
+**Status:** `organizer_hired` | **Elegibilidade:** `eligible`
 
-#### 💰 Remuneração e Condições
+#### Remuneração e Condições
 - **Remuneração Inicial Total:** R$ 15.000
 - **Salário Base:** R$ 0 
 - **Fim de Carreira (Estimado):** R$ 0
@@ -119,14 +119,14 @@ status: processed
 - **Jornada:** ?h semanais
 - **Lotação:** Brasília, DF 
 
-#### 🎓 Exigências e Elegibilidade
+#### Exigências e Elegibilidade
 - **Requisito Documentado:** Nível Superior em qualquer área
 - **Motivos de Recomendação:**
   - Remuneração inicial atrativa e acima do piso exigido (R$ 10.000,00).
   - Cargo generalista de nível superior compatível com qualquer formação.
   - Órgão federal com banca definida, indicando proximidade do edital.
 
-#### 📝 Detalhes do Certame
+#### Detalhes do Certame
 - **Vagas:** 49 
 - **Banca:** Fundação Carlos Chagas (FCC)
 - **Matérias Prováveis:** Língua Portuguesa, Raciocínio Lógico, Direito Administrativo, Direito Constitucional, Administração Financeira e Orçamentária
@@ -134,15 +134,15 @@ status: processed
 - **Inscrições:** até A definir
 - **Data da Prova:** A definir
 
-#### 🔗 Links Oficiais
+#### Links Oficiais
 - **Fonte Primária / Edital:** https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHirDwXTUfuA-CKqKdwdmaX0r0D7JSx_TL_0F5s5HILE9iL__aqC11nDDIIXBhVAw7hDjJWGeNFT6TXfh-MM_S4NhdSM5HfEta8NGV5gsBbM5HmbNZ8wzeDsJLXfCu8hfzxiGThA7UlHd3aF7TeexSTH2L2xHyYIOU
 - **Banca:** A definir
 
 ---
 ### 5. Ministério dos Transportes - Analista Administrativo
-**🎯 Status:** `requested` | **⚖️ Elegibilidade:** `eligible`
+**Status:** `requested` | **Elegibilidade:** `eligible`
 
-#### 💰 Remuneração e Condições
+#### Remuneração e Condições
 - **Remuneração Inicial Total:** R$ 11.000
 - **Salário Base:** R$ 0 
 - **Fim de Carreira (Estimado):** R$ 0
@@ -150,14 +150,14 @@ status: processed
 - **Jornada:** ?h semanais
 - **Lotação:** Brasília, DF 
 
-#### 🎓 Exigências e Elegibilidade
+#### Exigências e Elegibilidade
 - **Requisito Documentado:** Nível Superior em qualquer área
 - **Motivos de Recomendação:**
   - Remuneração inicial acima do piso exigido (R$ 10.000,00).
   - Cargo generalista de nível superior compatível com qualquer formação.
   - Órgão federal com previsão de concurso para 2026.
 
-#### 📝 Detalhes do Certame
+#### Detalhes do Certame
 - **Vagas:** 50 
 - **Banca:** A definir
 - **Matérias Prováveis:** Língua Portuguesa, Raciocínio Lógico, Direito Administrativo, Administração Pública, Gestão de Pessoas
@@ -165,13 +165,13 @@ status: processed
 - **Inscrições:** até A definir
 - **Data da Prova:** A definir
 
-#### 🔗 Links Oficiais
+#### Links Oficiais
 - **Fonte Primária / Edital:** https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPJ-K24LDI01ZTbFiwAoM148EHGR9mxkE0NlNiYQycl0Vj-VO41cG_mfRvzlcRAk_1NhKoNH70md-FfBm8dbIEYRPo1M07DyeoxJhEtW6xyyFKSBWBwUdm-yYDyL3Cikuu2y4KQy2yWPRGj9U809ivF-k1GJ7F5FkvXRbAzpbnfmBZ_VPFHw==
 - **Banca:** A definir
 
 ---
 
-## 🚫 DESCARTES (Auditoria)
+## DESCARTES (Auditoria)
 
 - **Corpo de Bombeiros Militar de Minas Gerais (Soldado/Oficial)**: Remuneração inicial abaixo do piso mínimo exigido (R$ 10.000,00) e provável inelegibilidade por limite de idade para Oficial. [Fonte](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvkuYrEb6QJGnKWW5-WcG2MbwEzrP_qp5udOX-ujzwM7EA7V84H_rqsAvwRmCyaVUh2PkuvKXIJdLTclJJrd3MKY2fwJdg2pTXbw2TR09Rp2ZKrkjstSjBTizkJLS9Kmtr24xh1va2S-beCJHSW16)
 - **Polícia Militar de Minas Gerais (Cargos a confirmar)**: Remuneração inicial abaixo do piso mínimo exigido (R$ 10.000,00) e provável inelegibilidade por limite de idade. [Fonte](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvkuYrEb6QJGnKWW5-WcG2MbwEzrP_qp5udOX-ujzwM7EA7V84H_rqsAvwRmCyaVUh2PkuvKXIJdLTclJJrd3MKY2fwJdg2pTXbw2TR09Rp2ZKrkjstSjBTizkJLS9Kmtr24xh1va2S-beCJHSW16)

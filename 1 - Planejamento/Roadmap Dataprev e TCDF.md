@@ -12,7 +12,7 @@ Planejamento estratégico de estudos e controle de datas críticas para os concu
 
 ---
 
-## 📅 Datas Críticas e Alertas de Controle
+## Datas Críticas e Alertas de Controle
 
 Para não esquecer nenhuma data importante enquanto estuda:
 
@@ -27,7 +27,7 @@ Para não esquecer nenhuma data importante enquanto estuda:
 
 ---
 
-## 🗺️ Roadmap de Estudos em Fases
+## Roadmap de Estudos em Fases
 
 ```mermaid
 gantt

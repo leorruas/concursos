@@ -91,6 +91,7 @@ updated: 2026-08-31
 - **Capitalização de títulos:** Em títulos e cabeçalhos em português, não usar *Title Case* (capitalizar todas as palavras). Usar apenas a primeira letra da primeira palavra em maiúscula (*Sentence case*), a não ser que seja um nome próprio.
 - **Premium e direto.** Sem enrolação. Tom clínico para relatórios técnicos.
 - **Negrito** para termos-chave, não decoração.
+- **Proibição de Emojis (Estrita):** É terminantemente proibido o uso de emojis (sejam decorativos em cabeçalhos/tópicos ou como ícones de status como , , , , etc.). O vault e a interface seguem um design system editorial e suíço sóbrio. Status de questões, tabelas e avisos devem ser expressos textualmente (ex: `Acerto`, `Erro`, `Atenção`, `Insuficiente`).
 - **Explicação de acrônimos:** Sempre explicar ou definir por extenso qualquer sigla ou acrônimo na primeira vez em que for mencionado em um arquivo (ex: declarar *Princípio Fundamental da Contagem (PFC)* antes de usar apenas *PFC*).
 
 ### Estrutura de Arquivo Wiki

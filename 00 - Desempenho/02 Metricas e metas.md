@@ -15,7 +15,7 @@ Para garantir que o desempenho reflita com precisão o nível competitivo atual 
 1. **Janela deslizante de 30 dias**: O aproveitamento (taxa de acertos) e o volume de questões listados no painel contemplam apenas resoluções feitas nos últimos 30 dias ($D-30$). O histórico completo de longo prazo permanece arquivado nos logs específicos de cada disciplina (`Avancos.md`).
 2. **Filtro de significância estatística (Volume mínimo)**:
    - **Amostragem sólida**: $\ge$ 50 questões resolvidas nos últimos 30 dias na disciplina. O percentual de aproveitamento é considerado estatisticamente representativo.
-   - ⚠️ **Amostragem insuficiente**: < 50 questões resolvidas nos últimos 30 dias. O aproveitamento é sinalizado com alerta e itálico, indicando que novos treinos são necessários para validar estatisticamente a nota.
+   - **Amostragem insuficiente**: < 50 questões resolvidas nos últimos 30 dias. O aproveitamento é sinalizado com alerta e itálico, indicando que novos treinos são necessários para validar estatisticamente a nota.
 
 ---
 

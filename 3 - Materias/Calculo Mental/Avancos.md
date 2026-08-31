@@ -257,9 +257,9 @@ updated: 2026-07-14
 - **Resultado**:
   - **Aproveitamento Bruto**: 68,6% (24/35 acertos no consolidado do dia)
   - **Qualidade da Transformação**: 80,0% (8/10 representações corretas ou parciais nas 10 questões que medem "enxergar o truque")
-    - *Fortes (Transformação ✅)*: Q1, Q2, Q3, Q4, Q7, Q8, Q9 (7 pontos)
-    - *Parciais (Transformação 🟡)*: Q5, Q6 (1 ponto)
-    - *Fraca (Transformação ❌)*: Q10 (0 pontos)
+    - *Fortes (Transformação )*: Q1, Q2, Q3, Q4, Q7, Q8, Q9 (7 pontos)
+    - *Parciais (Transformação )*: Q5, Q6 (1 ponto)
+    - *Fraca (Transformação )*: Q10 (0 pontos)
     - *(Nota: Q11 a Q15 de ambas as rodadas foram excluídas desta métrica por medirem puramente a manutenção de estados na memória de trabalho).*
   - **Detalhamento por bloco**:
     - Rodada 1 (Manhã - Mistura perto de 100): 80,0% (12/15 acertos).

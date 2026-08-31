@@ -33,10 +33,10 @@ h1, h2, h3 { line-height:.95; letter-spacing:-.06em; }
 .area-card { display:grid; grid-template-columns:68px 1fr 20px; gap:12px; min-height:118px; align-items:center; padding:20px 0; border:0 !important; border-bottom:1px solid var(--line) !important; background:none; text-align:left; cursor:pointer; }
 .area-card:hover .area-name, .area-card:focus-visible .area-name { color:var(--accent); }
 .area-number { color:var(--accent); font-size:2.25rem; font-weight:800; letter-spacing:-.09em; }
-.area-name { display:block; font-size:1.2rem; font-weight:800; letter-spacing:-.05em; transition:color .15s; }
+.area-name { display:block; font-size:1.68rem; font-weight:460; line-height:1; letter-spacing:-.05em; text-transform:lowercase; transition:color .15s; }
 .area-description { display:block; margin-top:5px; color:var(--muted); font-size:.8rem; line-height:1.35; }
 .area-arrow { color:var(--accent); font-size:1.2rem; }
-.topics-view { padding:88px 0 90px; }.topics-header { display:flex; align-items:end; justify-content:space-between; gap:24px; margin-bottom:28px; }.topics-header p { margin:0 0 8px; color:var(--accent); font-size:.76rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }.topics-header h1 { margin:0; color:var(--accent); font-size:clamp(2.8rem,6vw,5rem); }.topics-header span { color:var(--muted); font-size:.85rem; }.topics-list { border-top:1px solid var(--line); }.topic-item { display:grid; grid-template-columns:70px 1fr 20px; gap:12px; width:100%; min-height:76px; align-items:center; padding:14px 0; border:0; border-bottom:1px solid var(--line); background:none; text-align:left; cursor:pointer; }.topic-item:hover strong,.topic-item:focus-visible strong { color:var(--accent); }.topic-number { color:var(--accent); font-size:1.55rem; font-weight:800; letter-spacing:-.08em; }.topic-item strong { letter-spacing:-.03em; }
+.topics-view { padding:88px 0 90px; }.topics-header { display:flex; align-items:end; justify-content:space-between; gap:24px; margin-bottom:28px; }.topics-header p { margin:0 0 8px; color:var(--accent); font-size:.76rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }.topics-header h1 { margin:0; padding-bottom:14px; color:var(--accent); border-bottom:1px solid color-mix(in srgb, var(--text) 25%, transparent); font-size:clamp(2rem,3.5vw,2.8rem); font-weight:700; line-height:1.05; letter-spacing:-.04em; text-transform:lowercase; }.topics-header span { color:var(--muted); font-size:.85rem; }.topics-list { border-top:1px solid var(--line); }.topic-item { display:grid; grid-template-columns:70px 1fr 20px; gap:12px; width:100%; min-height:76px; align-items:center; padding:14px 0; border:0; border-bottom:1px solid var(--line); background:none; text-align:left; cursor:pointer; }.topic-item:hover strong,.topic-item:focus-visible strong { color:var(--accent); }.topic-number { color:var(--accent); font-size:1.55rem; font-weight:800; letter-spacing:-.08em; }.topic-item strong { letter-spacing:-.03em; }
 .article-view { display:grid; grid-template-columns:180px minmax(0,1fr); gap:48px; padding:88px 0 90px; }
 .article-sidebar { position:sticky; top:88px; align-self:start; max-height:calc(100vh - 112px); overflow-x:hidden; overflow-y:auto; padding-right:16px; font-size:.77rem; scrollbar-color:var(--line) transparent; }
 .article-sidebar label { color:var(--accent); font-weight:800; text-transform:uppercase; }
@@ -47,7 +47,7 @@ h1, h2, h3 { line-height:.95; letter-spacing:-.06em; }
 #toc a.is-active { color:var(--accent); font-weight:800; }
 .breadcrumbs { display:flex; flex-wrap:wrap; gap:4px 8px; margin-bottom:22px; color:var(--muted); font-size:.84rem; }
 .breadcrumbs button { padding:0; border:0; background:none; color:var(--accent); cursor:pointer; }
-.article-main > h1 { margin:0 0 28px; padding-bottom:20px; color:var(--accent); border-bottom:2px solid var(--accent); font-size:clamp(2.5rem, 5vw, 4.5rem); }
+.article-main > h1 { margin:0 0 18px; padding-bottom:14px; color:var(--accent); border-bottom:1px solid color-mix(in srgb, var(--text) 25%, transparent); font-size:clamp(2rem,3.5vw,2.8rem); font-weight:700; line-height:1.05; letter-spacing:-.04em; text-transform:lowercase; }
 .article-body { overflow-wrap:anywhere; }
 .article-body > :first-child { margin-top:0; }
 .article-body hr { height:1px; margin:2.2rem 0; border:0; background:var(--line); }

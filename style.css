@@ -1560,11 +1560,6 @@ mark:not(.highlight) code {
     --surface-raised: transparent;
     --text: #f1f0eb;
     --muted: #a4a39e;
-    --accent-blue: #6fa8e8;
-    --accent-blue-hover: #9ac4f3;
-    --accent-blue-alpha-05: rgba(111, 168, 232, .06);
-    --accent-blue-alpha-15: rgba(111, 168, 232, .15);
-    --accent-blue-alpha-30: rgba(111, 168, 232, .28);
 }
 
 :root[data-theme="light"] {
@@ -1573,11 +1568,6 @@ mark:not(.highlight) code {
     --surface-raised: transparent;
     --text: #151515;
     --muted: #65645f;
-    --accent-blue: #1c5f9f;
-    --accent-blue-hover: #174c7e;
-    --accent-blue-alpha-05: rgba(28, 95, 159, .06);
-    --accent-blue-alpha-15: rgba(28, 95, 159, .14);
-    --accent-blue-alpha-30: rgba(28, 95, 159, .28);
 }
 
 body { background: var(--bg); color: var(--text); font-size: 20px; }

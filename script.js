@@ -272,11 +272,9 @@ function abrirDisciplina(categoria, atualizarRota = true) {
 
         acao.innerHTML = `
             <span class="disciplina-acao-numero">${numeroFormatado}</span>
-            <div class="disciplina-acao-conteudo">
+            <span class="disciplina-acao-conteudo">
                 <strong>${artigo.titulo}</strong>
-                <span class="disciplina-acao-caminho">${artigo.sourcePath}</span>
-            </div>
-            <span class="disciplina-acao-seta">&rarr;</span>
+            </span>
         `;
 
         acao.addEventListener("click", (e) => {

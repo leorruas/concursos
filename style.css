@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
-    --accent-blue: #007aff;
-    --accent-blue-hover: #3395ff;
-    --accent-blue-alpha-05: rgba(0, 122, 255, 0.05);
-    --accent-blue-alpha-15: rgba(0, 122, 255, 0.15);
-    --accent-blue-alpha-30: rgba(0, 122, 255, 0.3);
-    --accent-blue-alpha-40: rgba(0, 122, 255, 0.4);
+    --accent-blue: #f59e0b;
+    --accent-blue-hover: #fbbf24;
+    --accent-blue-alpha-05: rgba(245, 158, 11, 0.05);
+    --accent-blue-alpha-15: rgba(245, 158, 11, 0.15);
+    --accent-blue-alpha-30: rgba(245, 158, 11, 0.3);
+    --accent-blue-alpha-40: rgba(245, 158, 11, 0.4);
     --bg: #050505;
     --surface: #111111;
     --surface-raised: #1c1c1e;
@@ -16,12 +16,12 @@
 }
 
 :root[data-theme="light"] {
-    --accent-blue: #0056b3;
-    --accent-blue-hover: #003d80;
-    --accent-blue-alpha-05: rgba(0, 86, 179, 0.06);
-    --accent-blue-alpha-15: rgba(0, 86, 179, 0.14);
-    --accent-blue-alpha-30: rgba(0, 86, 179, 0.28);
-    --accent-blue-alpha-40: rgba(0, 86, 179, 0.40);
+    --accent-blue: #d97706;
+    --accent-blue-hover: #b45309;
+    --accent-blue-alpha-05: rgba(217, 119, 6, 0.06);
+    --accent-blue-alpha-15: rgba(217, 119, 6, 0.14);
+    --accent-blue-alpha-30: rgba(217, 119, 6, 0.28);
+    --accent-blue-alpha-40: rgba(217, 119, 6, 0.40);
     --bg: #f8fafc;
     --surface: #ffffff;
     --surface-raised: #f1f5f9;

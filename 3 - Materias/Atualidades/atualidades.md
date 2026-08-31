@@ -18,7 +18,8 @@ Mapeamento de tópicos e organização das notas de Atualidades para concursos.
 
 ## 2. Sociedade, Tecnologia e Meio Ambiente
 - Sustentabilidade, mudanças climáticas e a matriz energética brasileira.
-- Inteligência Artificial, redes sociais e privacidade de dados.
+- [[01 - inteligencia artificial|01 • Inteligência artificial (conceitos, ML, LLMs, ética e governança)]]
+- [[02 - quarto chines|02 • Quarto chinês (Searle: sintaxe vs. semântica)]]
 - Demografia, movimentos migratórios e desigualdade social.
 
 ## 3. Economia e Política Brasileira

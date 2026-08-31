@@ -110,8 +110,10 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[3 - Materias/Comunicacao/referencias/Assessoria de imprensa - Jorge Duarte|Assessoria de imprensa — Jorge Duarte]]
 - [[3 - Materias/Atualidades/atualidades|Atualidades]]
   - [[3 - Materias/Atualidades/Avancos|Avanços e desempenho]]
+  - [[3 - Materias/Atualidades/01 - inteligencia artificial|01 • Inteligência artificial]]
+  - [[3 - Materias/Atualidades/02 - quarto chines|02 • Quarto chinês]]
 - [[3 - Materias/Redacao/redacao|Redação]]
 
 ---
-*Última atualização: 2026-08-10*
+*Última atualização: 2026-08-31*
 

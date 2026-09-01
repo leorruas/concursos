@@ -3,9 +3,18 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-05-28
-updated: 2026-07-02
+updated: 2026-09-01
 ---
 # Avanços e desempenho
+
+## Simulado 02 — 01/09/2026
+
+- **Erros identificados:** 2: Q15 e Q35, ambos [C] Confusão conceitual.
+- **Recortes:** negação de universal com conjunção; equivalência disjuntiva da condicional e distinção da recíproca.
+- **Ação:** 30% de microrevisão dirigida e 70% de questões.
+- **Estudo:** [[3 - Materias/Logica/03 - quantificadores#Negação de Universal com Predicados Compostos ("Todo... e...")|Negação de universal composta]] e [[3 - Materias/Logica/04 - equivalencias#2. Regra do "NEyMar" (Condicional Disjuntiva)|Condicional disjuntiva]].
+- **Limite quantitativo:** o número total de questões de Lógica no simulado não foi registrado; aproveitamento local e janela de 30 dias não foram recalculados para evitar inferência sem base.
+
 
 ## Volume diário de exercícios
 

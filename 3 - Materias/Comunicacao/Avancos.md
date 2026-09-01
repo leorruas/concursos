@@ -70,6 +70,7 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 31/08/2026 | 37 | Comunicação Social | Ingestão de Inbox (LGPD Aprofundada - Bloco 2): Poder Público e Segurança (2/4), Fixação Poder Público (2/3), Categorias e Sensibilidade (4/6), Bases Legais (4/5), Consentimento (4/4), Compartilhamento e Estatais (5/5), Agentes/Responsabilidade (5/5) e Sanções/ANPD (4/5) (30/37 — 81,1%) |
 | 11/08/2026 | 44 | Comunicação Social | Ingestão de Inbox (Fechamento do Edital): Bridging/Coletivas (6/6), Nielsen em UX Writing (11/14), Redes Sociais Governamentais (6/6), CMS e Ferramentas Adobe (6/6), Produção por Meio (6/6) e Transparência/Prestação de Contas (5/6) (40/44) |
 | 10/08/2026 | 51 | Comunicação Social | Ingestão de Inbox: Produção Audiovisual (5/5), Roteiro (5/5), Fotografia (6/6), Identidade Visual (5/5), Algoritmos/Filtros (6/6), Omnichannel (6/6), Big Data/Tecnologias (6/6), LGPD Comunicação (6/6) e Protocolo ANPD (6/6) (51/51) |
 | 05/08/2026 | 22 | Comunicação Social | Ingestão de Inbox: Teorias do Jornalismo (5/5), Evolução Histórica e Papel Social (6/6), Visualização da Informação e Infografia (5/5) e Tipos de Gráficos, Distorções e Data Storytelling (6/6) (22/22) |
@@ -93,6 +94,22 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 ---
 
 ## Diagnósticos de desempenho
+
+### Diagnóstico de Ingestão — LGPD Aprofundada: Poder Público, Categorias, Bases Legais, Agentes e Sanções (31/08/2026)
+- **Resultado**: 81,1% (30/37 acertos no consolidado da sessão) e consolidação teórica aprofundada na nota [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]].
+- **Diagnóstico**: O candidato realizou uma bateria intensiva de consolidação e fechamento de lacunas da LGPD com foco na FGV e no contexto Dataprev:
+  1. **Tratamento pelo Poder Público (4/7 - 57,1% nos 2 blocos de fixação)**: Consolidou que o Poder Público trata dados para atender à sua finalidade pública, ao interesse público e às competências legais/atribuições de serviço público (art. 23). O Estado não está dispensado de observar princípios nem bases legais, mas também não depende de consentimento universal para executar políticas públicas previstas em lei.
+  2. **Categorias de Dados e Dimensões Independentes (4/6 - 66,7%)**: Fixou a taxonomia estrita de dados sensíveis (origem racial/étnica, convicção religiosa, opinião política, filiação sindical/religiosa/filosófica/política, saúde, vida sexual, genética e biometria). Gravou que *dados confidenciais/financeiros (salário, CPF, endereço) não são dados sensíveis na definição legal* e que *a presença de um dado sensível na base não contamina os demais campos*. Consolidou que sensibilidade (*o que a informação revela*) e anonimização/pseudonimização (*possibilidade de identificar o titular*) operam em dimensões independentes, sendo perfeitamente viável existir dado *sensível e pseudonimizado*.
+  3. **Bases Legais e Legítimo Interesse (4/5 - 80,0%)**: Dominou o rol de bases legais e fixou a pegadinha de ouro da FGV: o **legítimo interesse** (art. 7º, IX) fundamenta tratamento de dados pessoais comuns, mas **NÃO é base legal aplicável ao tratamento de dados pessoais sensíveis (art. 11)**.
+  4. **Regime do Consentimento (4/4 - 100%)**: Gabaritou o bloco, assimilando a nulidade absoluta de autorizações genéricas, a obrigatoriedade de cláusula destacada em contratos escritos, o ônus da prova atribuído ao controlador e a irrevogabilidade retroativa dos efeitos já produzidos sob consentimento anterior.
+  5. **Compartilhamento de Dados e Empresas Estatais (5/5 - 100%)**: Gabaritou o bloco, fixando que empresas públicas e sociedades de economia mista (como a Dataprev) submetem-se ao regime de direito privado em concorrência de mercado, mas ao regime do Poder Público quando operacionalizam políticas públicas.
+  6. **Agentes de Tratamento e Responsabilidade (5/5 - 100%)**: Consolidou os papéis de Controlador e Operador como funcionais (e não qualidades imutáveis), gravando que a comunicação formal de incidentes de segurança com risco relevante compete privativamente ao Controlador, e que incidente não gera responsabilidade civil automática sem demonstração de dano, nexo e ilicitude.
+  7. **Sanções Administrativas e ANPD (4/5 - 80,0%)**: Fixou a advertência como sanção administrativa autônoma e assimilou que a reincidência é critério de dosimetria/agravamento, mas não impõe automaticamente a aplicação da multa máxima.
+- **Erros Mapeados e Tensões**:
+  - *Poder Público e Consentimento (Superado)*: Confusão inicial ao aplicar lógica privada a políticas públicas do Estado (Q18 e Q19), corrigida no bloco seguinte (Q22, Q23, Q24).
+  - *Sensibilidade e Pseudonimização (Superado)*: Erro ao tratar como mutuamente exclusivos os conceitos de dado sensível e pseudonimizado (Q25 e Q27), sanado com o modelo mental das duas perguntas independentes.
+  - *Legítimo Interesse em Dados Sensíveis (Superado)*: Erro na Q32 ao tentar sanar a inadequação da base com posterior direito de revogação.
+  - *Sanções da LGPD (Superado)*: Erro de lacuna literal na Q54 (desconhecimento de advertência como sanção), suprido com a estruturação da escadinha sancionatória.
 
 ### Diagnóstico de Ingestão e Fechamento do Edital — Bridging, Nielsen, Redes Gov, CMS/Adobe, Produção por Meio e Transparência (11/08/2026)
 - **Resultado**: 90,9% (40/44 acertos no consolidado do dia) e consolidação teórica total do Módulo II nas notas [[3 - Materias/Comunicacao/08 - assessoria de imprensa|08 • Assessoria de imprensa]], [[3 - Materias/Comunicacao/06 - comunicacao digital|06 • Comunicação digital]] e [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]].

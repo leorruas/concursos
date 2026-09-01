@@ -3,7 +3,7 @@ title: "Log de saturação diária"
 type: "hub"
 status: "ativo"
 created: 2026-06-08
-updated: 2026-08-10
+updated: 2026-08-31
 ---
 # Log de saturação diária
 
@@ -17,6 +17,7 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 | Data | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Sintomas Qualitativos da Sessão |
 | :--- | :--- | :--- | :--- | :--- |
+| 31/08/2026 | 37 | 81,1% (30/37) | 81,1% | **Média-Alta**: Ingestão de Inbox em LGPD Aprofundada / Comunicação Social (37 Qs). Baterias FGV cobrando tratamento pelo Poder Público e finalidade pública, regime de bases legais e legítimo interesse (vedado para dados sensíveis), regime do consentimento e nulidade de cláusulas genéricas, categorias de dados (distinção estrita entre dados confidenciais/financeiros vs. sensíveis e dimensões independentes sensibilidade x pseudonimização), compartilhamento por empresas estatais (regime privado em concorrência vs. público em políticas públicas), agentes de tratamento e comunicação privativa de incidentes pelo controlador, e dosimetria de sanções administrativas da ANPD (advertência como sanção e reincidência sem imposição automática de multa máxima). |
 | 12/08/2026 | 18 | 66,7% (12/18) | 66,7% | **Média-Alta**: Ingestão de Inbox em Língua Portuguesa (18 Qs). Teste diagnóstico FGV cobrando acentuação (oxítonas e hiatos em I/U), acordo ortográfico (ditongos sem acento e duplo E), concordância impessoal (*fazer/haver*), orações concessivas (*embora*), próclise obrigatória com palavras negativas, regência (*preferir X a Y* e *chegar a* + crase com cidades) e ambiguidade referencial de pronomes. |
 | 11/08/2026 | 44 | 90,9% (40/44) | 90,9% | **Alta**: Ingestão de Inbox final de Comunicação Social (44 Qs). Fechou Bridging, Entrevistas ao Vivo e Coletivas (6/6), Heurísticas de Nielsen em UX Writing (11/14), Redes Sociais Governamentais (6/6), CMS e Ferramentas Adobe (6/6), Produção de Conteúdo por Meio (6/6) e Transparência Pública/Prestação de Contas (5/6). Concluiu 100% da cobertura do Módulo II de Comunicação Social no Dashboard da Dataprev. |
 | 10/08/2026 | 51 | 100% (51/51) | 100% | **Média-Alta**: Ingestão de Inbox em 2 lotes (Lote 1 - Produção Audiovisual: 5 Qs; Roteirização: 5 Qs; Fotografia Institucional: 6 Qs; Identidade Visual/Design Editorial: 5 Qs. Lote 2 - Algoritmos/Filtros: 6 Qs; Omnichannel: 6 Qs; Big Data/Tecnologias: 6 Qs; LGPD Comunicação: 6 Qs; Protocolos ANPD: 6 Qs). Consolidou audiovisual, roteiro, fotografia, identidade visual, publicação ≠ distribuição ≠ alcance, Owned + Paid, não neutralidade algorítmica, engajamento contextual, Filter Bubble vs Echo Chamber, multicanalidade vs omnichannel, Big Data, personalização, chatbots com escalonamento humano, VR/AR/MR, Web3/Blockchain, bases legais públicas da LGPD, minimização, fotografias, anonimização vs pseudonimização, LGPD em pesquisas e o protocolo ANPD da Resolução CD/ANPD nº 15/2024 (notificação em 3 dias úteis pelo Controlador, notificação aos titulares em linguagem simples e registro obrigatório por 5 anos). |

@@ -48,15 +48,53 @@ Apresentação, justificativa e demonstração transparente dos atos, recursos a
 Tratamento é toda operação realizada com dados pessoais (coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação, modificação, comunicação, transferência ou difusão). Até a simples **eliminação ou guarda** constitui tratamento.
 
 * **Dado pessoal**: informação relacionada a pessoa natural identificada ou identificável (ex: nome, CPF, endereço, e-mail, telefone, IP).
-* **Dado pessoal sensível**: dado sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização religiosa/filosófica/política, dado referente à saúde ou à vida sexual, dado genético ou biométrico vinculado a pessoa natural.
-* **Dado anonimizado**: dado relativo a titular que não possa ser identificado, considerando meios técnicos razoáveis e disponíveis na ocasião do tratamento (em regra, fica fora da LGPD).
-* **Dado pseudonimizado**: substituição de identificadores diretos por códigos (ex: `P01`), mantendo chave isolada que permite reidentificação (**continua sujeito à LGPD**).
+  - *Atenção em prova*: dado pessoal **não precisa ser secreto ou confidencial**. Informações públicas continuam sendo dados pessoais.
+* **"Dado pessoal comum"**: expressão didática para qualquer dado pessoal que não se enquadre no rol legal de dado pessoal sensível.
+* **Dado pessoal sensível**: categoria legal taxativa e específica:
+  1. Origem racial ou étnica;
+  2. Convicção religiosa;
+  3. Opinião política;
+  4. Filiação a sindicato ou a organização de caráter religioso, filosófico ou político;
+  5. Dado referente à saúde ou à vida sexual;
+  6. Dado genético ou biométrico, quando vinculado a uma pessoa natural.
+  > [!WARNING]
+  > **Fronteira FGV (Privado/Confidencial ≠ Sensível)**: Salário, patrimônio, CPF e endereço podem ser dados altamente privados e confidenciais, mas **não são legalmente dados sensíveis**. A sensibilidade decorre da natureza do dado prevista na lei, e não do potencial de causar prejuízo ou constrangimento.
+  > 
+  > **A sensibilidade não contamina a base**: a presença de um dado sensível (ex: religião) em um cadastro não transforma os demais dados daquele titular (ex: CPF e endereço) em dados sensíveis. Cada campo mantém sua natureza própria.
+* **Dado anonimizado**: dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião do seu tratamento. Em regra, **não é considerado dado pessoal** para os fins da LGPD.
+  - *Pegadinha*: remover identificadores diretos (ex: nome) não garante anonimização se outros dados combinados permitirem identificar a pessoa (ex: único servidor do cargo X na cidade Y).
+* **Dado pseudonimizado**: processo pelo qual o dado perde a possibilidade de associação direta ou indireta a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador em ambiente seguro. **Continua sendo dado pessoal e sujeito à LGPD**.
+  - *Duas perguntas independentes para a prova*:
+    1. *O que o dado revela?* (determina se é comum ou sensível);
+    2. *É possível identificar o titular?* (determina se é direto, pseudonimizado ou anonimizado).
+    - Um dado pode ser simultaneamente **sensível e pseudonimizado** (ex: `P047 -> HIV positivo`). A pseudonimização não elimina a sensibilidade da informação. Destruir a chave de ligação não assegura automaticamente a anonimização se a reidentificação ainda for tecnicamente viável.
 
-### 2. Bases legais além do consentimento
-* **Consentimento não é requisito universal**: a LGPD prevê diversas bases legais. Na Administração Pública e em empresas como Dataprev, os dados são tratados frequentemente para **execução de políticas públicas previstas em lei ou regulamento, cumprimento de obrigação legal ou regulatória e execução de contratos**.
-* A revogação do consentimento **não obriga a eliminação imediata de todo e qualquer dado** quando houver outra base legal legítima ou obrigação legal de conservação.
+### 2. Bases legais e o regime do consentimento
+* **Consentimento não é requisito universal**: a LGPD prevê diferentes bases legais autônomas (art. 7º para dados comuns e art. 11 para dados sensíveis). Não haver consentimento não torna o tratamento ilegal se houver outra base aplicável.
+* **Regime de bases legais para dados comuns (art. 7º)**: consentimento, obrigação legal/regulatória, execução de políticas públicas pelo Poder Público, estudos por órgão de pesquisa, execução de contrato/procedimentos preliminares, exercício regular de direitos, proteção da vida/incolumidade física, tutela da saúde, **legítimo interesse** e proteção do crédito.
+* **Regime restritivo para dados sensíveis (art. 11)**:
+  - Consentimento específico e destacado para finalidades específicas; ou
+  - Hipóteses sem consentimento: obrigação legal/regulatória, políticas públicas, estudos por órgão de pesquisa, exercício regular de direitos, proteção da vida e tutela da saúde.
+  > [!IMPORTANT]
+  > **Pegadinha clássica (Legítimo Interesse)**: O **legítimo interesse** é base legal apenas para dados pessoais comuns (art. 7º, IX). Ele **NÃO constitui base legal do art. 11 para tratamento de dados pessoais sensíveis**.
+* **Regras estritas do consentimento**:
+  - Manifestação livre, informada e inequívoca para finalidade determinada.
+  - **Nulidade de autorizações genéricas**: termos que autorizam o uso de dados para "quaisquer finalidades convenientes" são nulos de pleno direito.
+  - **Cláusula destacada**: quando por escrito, o consentimento deve constar de cláusula destacada das demais cláusulas contratuais.
+  - **Ônus da prova**: cabe ao **controlador** comprovar que o consentimento foi obtido regularmente.
+  - **Revogação**: o titular pode revogar a qualquer momento mediante manifestação expressa e gratuita, mantida a licitude dos tratamentos realizados sob o consentimento anterior.
 
-### 3. Rol dos princípios fundamentais (art. 6º)
+### 3. Tratamento de dados pelo Poder Público e Empresas Estatais
+* **Fundamento e finalidade pública**: o tratamento pelo Poder Público não decorre de mera conveniência administrativa nem transforma os dados em propriedade estatal livre. Deve atender à sua **finalidade pública, à persecução do interesse público e à execução de competências legais/atribuições do serviço público**.
+* **Princípios aplicáveis ao Estado**: o Poder Público está plenamente sujeito aos princípios da LGPD (finalidade, adequação, necessidade/minimização, transparência e segurança), devendo informar as hipóteses de tratamento e as previsões legais.
+* **Uso compartilhado de dados**:
+  - Entre órgãos públicos: restrito a finalidades específicas de execução de políticas públicas e atribuições legais.
+  - Transferência para entidades privadas: é restritiva, mas admitida em hipóteses expressas em lei (ex: execução descentralizada de serviço público sob concessão/permissão, dados publicamente acessíveis observada a finalidade, previsão legal expressa).
+* **Empresas públicas e sociedades de economia mista (Dataprev, BB, CEF, etc.)**:
+  - Em regime de concorrência / atividade econômica: submetem-se ao regime de **pessoas jurídicas de direito privado**.
+  - Operacionalizando políticas públicas: submetem-se ao regime aplicável ao **Poder Público**.
+
+### 4. Rol dos princípios fundamentais (art. 6º)
 1. **Finalidade**: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular.
 2. **Adequação**: compatibilidade do tratamento com as finalidades informadas.
 3. **Necessidade (minimização)**: limitação do tratamento ao mínimo necessário para a realização de suas finalidades (abrangendo dados pertinentes e não excessivos).
@@ -77,14 +115,34 @@ Tratamento é toda operação realizada com dados pessoais (coleta, produção, 
 > - *Prevenção* = medidas antecipadas para evitar danos.
 > - *Prestação de contas* = comprovar com evidências que agiu corretamente.
 
-### 4. Personagens e agentes de tratamento (art. 5º)
+### 5. Personagens, agentes de tratamento e responsabilidade (arts. 5º, 39 e 42)
 * **Titular**: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento.
 * **Controlador**: pessoa natural ou jurídica, de direito público ou privado, a quem competem as **decisões** referentes ao tratamento de dados pessoais.
-* **Operador**: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais **em nome do controlador** (executa segundo instruções).
+* **Operador**: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais **em nome do controlador** (executa segundo instruções fornecidas).
+  - *Mudança funcional*: se o operador desviar das instruções e determinar finalidades comerciais próprias por conta própria, equipara-se ao controlador quanto àquele tratamento.
 * **Agentes de tratamento**: gênero que engloba tanto o **controlador** quanto o **operador**.
 * **Encarregado (DPO)**: pessoa indicada pelo controlador e operador para atuar como **canal de comunicação** entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD).
+* **Responsabilidade civil e incidentes**:
+  - *Incidente ≠ responsabilidade civil automática*: a ocorrência de vazamento ou incidente exige demonstração de dano, nexo causal e desconformidade com a legislação.
+  - Havendo incidente que possa acarretar risco ou dano relevante aos titulares, cabe privativamente ao **controlador** comunicar à ANPD e aos titulares.
 
-### 5. Direitos do titular (art. 18)
+### 6. Sanções administrativas e a ANPD (art. 52)
+A aplicação de sanções administrativas compete à ANPD mediante processo administrativo que assegure o contraditório e a ampla defesa.
+* **Rol de sanções administrativas**:
+  1. **Advertência**, com indicação de prazo para adoção de medidas corretivas;
+  2. **Multa simples**, de até 2% do faturamento da empresa/grupo (limitada a R$ 50.000.000,00 por infração);
+  3. **Multa diária**;
+  4. **Publicização da infração** após apurada e confirmada;
+  5. **Bloqueio dos dados pessoais** a que se refere a infração;
+  6. **Eliminação dos dados pessoais** a que se refere a infração;
+  7. Suspensão parcial do funcionamento do banco de dados ou da atividade de tratamento;
+  8. Proibição parcial ou total do exercício de atividades relacionadas a tratamento de dados.
+  > [!TIP]
+  > **Escadinha mental de sanções**: Advertir -> Multar -> Publicizar -> Restringir/Eliminar o dado/tratamento.
+  > 
+  > **Atenção em prova (Dosimetria)**: A reincidência é critério para agravar a sanção na dosimetria, mas **não acarreta automaticamente a aplicação da multa máxima**.
+
+### 7. Direitos do titular (art. 18)
 O titular dos dados pessoais tem direito a obter do controlador, em relação aos dados por ele tratados, a qualquer momento e mediante requisição:
 * Confirmação da existência de tratamento e acesso aos dados;
 * Correção de dados incompletos, inexatos ou desatualizados;
@@ -94,7 +152,7 @@ O titular dos dados pessoais tem direito a obter do controlador, em relação ao
 * Informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados;
 * Revogação do consentimento.
 
-### 6. Decisões automatizadas e inteligência artificial (art. 20)
+### 8. Decisões automatizadas e inteligência artificial (art. 20)
 * O titular dos dados tem direito a **solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado** de dados pessoais que afetem seus interesses, incluídas as decisões destinadas a definir o seu perfil pessoal, profissional, de consumo e de crédito ou os aspectos de sua personalidade.
 * **Atenção em prova**: a LGPD **não proíbe** decisões exclusivamente automatizadas e **não exige obrigatoriamente que a revisão seja feita por pessoa humana** (a exigência de revisão humana foi vetada na tramitação da lei).
 * O controlador deve fornecer, sempre que solicitadas, informações claras e adequadas a respeito dos **critérios e dos procedimentos** utilizados para a decisão automatizada, observados os segredos comercial e industrial.

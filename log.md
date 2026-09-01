@@ -1,3 +1,20 @@
+## [2026-08-31] materias e desempenho | Ingestão de Teoria e Exercícios — LGPD Aprofundada (Poder Público, Bases Legais, Consentimento, Estatais e Sanções ANPD)
+- **Enriquecimento de Notas Teóricas**:
+  - Enriquecida a nota [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]] com:
+    - Árvore e taxonomia completa de dados (dado pessoal, dado comum, rol legal taxativo de dados sensíveis, dados anonimizados e pseudonimizados);
+    - Fixação de fronteiras FGV: dados confidenciais/salariais vs. dados sensíveis, independência dimensional (*natureza da informação* vs. *possibilidade de identificação*) e não contaminação da base;
+    - Regime de bases legais: proibição de legítimo interesse para dados sensíveis (art. 11), regras estritas do consentimento (cláusula destacada, nulidade de autorizações genéricas, ônus da prova ao controlador e revogação sem retroatividade);
+    - Regime do Poder Público e Empresas Estatais: finalidade pública, competências legais e divisão de regime de estatais (privado em concorrência de mercado vs. público em execução de políticas públicas);
+    - Agentes de tratamento e incidentes: responsabilidade funcional, notificação privativa pelo controlador em caso de risco relevante;
+    - Sanções administrativas e ANPD: escadinha de sanções (advertência, multas, publicização, bloqueio/eliminação) e regras de dosimetria (reincidência como agravante sem multa máxima automática).
+  - Atualizados os links de teoria na nota [[4 - Projetos/dataprev-2026/Wiki do edital/G5 - Legislacao SI|Wiki do edital (G5)]].
+- **Avanços Globais / Log de Saturação**:
+  - Atualizados o [[00 - Desempenho/00 Avancos globais|00 Avancos globais]] e o [[00 - Desempenho/01 Log de saturacao diaria|01 Log de saturação diária]], registrando a sessão de 31/08/2026 (37 Qs, 30/37 acertos, TAP diária de 81,1%).
+  - Atualizada a janela deslizante de 30 dias (`02/08/2026 a 31/08/2026`), com 181 Qs resolvidas em Comunicação Social (92,3% de aproveitamento) mantendo **Amostragem sólida**, e inaugurada a **Semana 36** (37 Qs, 81,1% bruto e ponderado).
+  - Atualizada a nota local [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho (Comunicação)]] registrando a sessão de 37 Qs e o respectivo diagnóstico detalhado.
+- **Housekeeping**:
+  - Limpo o arquivo de ingestão [[00 inbox/00 ingestão.md]], preservando apenas seu cabeçalho e frontmatter conforme a governança mandatória do vault.
+
 ## [2026-08-31] desempenho e materias | Simulado 01 Completo (70 Questões) — Catalogação de Erros, Enriquecimento de Marco Civil e Lógica
 - **Catálogo de Simulados & Desempenho**:
   - Ingeridas e processadas as 70 questões do [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]] (54/70 acertos — **77,1%**).

@@ -18,8 +18,8 @@ Tópicos do edital mapeados para a teoria permanente em **[[3 - Materias/Direito
    - Link de Teoria: **[[3 - Materias/Informatica/informatica|Informatica]]**
    - *Nota FGV:* Caracterização do crime de invasão de dispositivo informático (Art. 154-A do CP).
 3. **Marco Civil da Internet (Lei nº 12.965/2014) - Cap. II, Sec. I e Cap. III, Sec. I e II:**
-   - Link de Teoria: **[[3 - Materias/Informatica/informatica|Informatica]]**
+   - Link de Teoria: **[[3 - Materias/Informatica/01 - marco civil da internet|01 • Marco Civil da Internet]]**
    - *Nota FGV:* Direitos e garantias dos usuários; regras de guarda de registros por provedores.
 4. **LGPD (Lei nº 13.709/2018) - Capítulos I a IV, VII a IX:**
-   - Link de Teoria: **[[3 - Materias/Informatica/informatica|Informatica]]**
+   - Link de Teoria: **[[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]]**
    - *Nota FGV:* Princípios do tratamento de dados pessoais, consentimento, direitos do titular e ANPD.

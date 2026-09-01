@@ -3,7 +3,7 @@ title: "Pontuação e vírgula"
 type: "conceito"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-09-01
 ---
 
 # Pontuação e vírgula
@@ -62,3 +62,15 @@ Os adjuntos adverbiais (indicações de tempo, lugar, modo, etc.) vêm por padr�
 
 **Fontes Brutas:**
 - `inbox/2026.md` (ingerido)
+
+### Coordenação adversativa × subordinação concessiva
+
+`Mas`, `contudo`, `todavia` e `entretanto` estabelecem oposição em uma estrutura coordenada. A troca entre esses conectivos costuma preservar a estrutura sintática, com ajuste de pontuação conforme a posição.
+
+`Embora`, `ainda que` e `mesmo que` introduzem oração subordinada concessiva. A substituição de uma adversativa por `embora` pode preservar o contraste sem preservar a construção: normalmente exige deslocamento da oração e verbo no subjuntivo.
+
+- Coordenada: *A instituição ampliou os canais; contudo, parte do público enfrentou dificuldades.*
+- Subordinada: *Embora a instituição tenha ampliado os canais, parte do público enfrentou dificuldades.*
+
+**Pegadinha FGV:** em questões de substituição, equivalência semântica parcial não basta; a frase resultante também precisa manter correção sintática.
+

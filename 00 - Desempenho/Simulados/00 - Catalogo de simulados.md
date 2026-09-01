@@ -17,6 +17,7 @@ Central de rastreamento, diagnóstico e catalogação de erros em simulados e ba
 | Simulado | Data | Questões | Acertos | Aproveitamento | Erros Mapeados | Arquivo de Diagnóstico |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
 | **Simulado 01** (Módulo I + Comunicação) | 31/08/2026 | 70 | 54 | **77,1%** | 16 (Q3, Q5, Q10, Q13, Q14, Q21, Q22, Q24, Q26, Q31, Q48, Q54, Q58, Q61, Q65, Q70) | [[00 - Desempenho/Simulados/Simulado-01\|Simulado 01 - Diagnóstico Completo]] |
+| **Simulado 02** (distribuição não oficial) | 01/09/2026 | 70 | 67 | **95,7%** | 3 (Q15, Q21, Q35) | [[00 - Desempenho/Simulados/Simulado-02\|Simulado 02 - Diagnóstico Completo]] |
 
 ---
 

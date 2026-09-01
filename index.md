@@ -32,6 +32,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[02 Metricas e metas|Métricas e metas]]
 - [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]]
   - [[00 - Desempenho/Simulados/Simulado-01|Simulado 01 — Diagnóstico e erros]]
+  - [[00 - Desempenho/Simulados/Simulado-02|Simulado 02 — Diagnóstico e erros]]
 
 ## 3 - Matérias
 - [[3 - Materias/Portugues/portugues|Língua portuguesa]]
@@ -115,5 +116,5 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[3 - Materias/Redacao/redacao|Redação]]
 
 ---
-*Última atualização: 2026-08-31*
+*Última atualização: 2026-09-01*
 

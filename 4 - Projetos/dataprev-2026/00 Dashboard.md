@@ -3,7 +3,7 @@ title: "Dashboard - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-08-10
+updated: 2026-09-01
 ---
 
 # Dashboard - Dataprev 2026
@@ -60,6 +60,12 @@ A **Wiki do edital** mapeia os tópicos exigidos de forma direta, servindo como 
 | **Total do Edital**                       |  **114 / 130**   |   **87.7%**   | `█████████░`       |
 
 ---
+
+## Último simulado
+
+| Data | Resultado bruto | Nota ponderada Dataprev | Diagnóstico |
+| :--- | :---: | :---: | :--- |
+| 01/09/2026 | [[00 - Desempenho/Simulados/Simulado-02|67/70 — 95,7%]] | Não calculável | Distribuição por disciplina diferente do edital. Três erros: dois em Lógica e um em Português. |
 
 ## Metas e Foco da Reta Final (40 Dias — 11/10/2026)
 

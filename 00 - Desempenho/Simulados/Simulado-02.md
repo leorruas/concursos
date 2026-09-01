@@ -1,6 +1,6 @@
 ---
 title: "Simulado 02 - Diagnóstico e Catálogo de Erros"
-type: "desempenho"
+type: "conceito"
 status: "ativo"
 created: 2026-09-01
 updated: 2026-09-01
@@ -23,9 +23,9 @@ Os três erros ficaram concentrados em Português e Raciocínio Lógico. Comunic
 
 | Questão | Disciplina | Resposta | Gabarito | Classificação | Núcleo do erro |
 | :---: | :--- | :---: | :---: | :--- | :--- |
-| 15 | Lógica | D | C | Confusão conceitual | Negação de universal com conjunção |
-| 21 | Português | C | D | Distração / concordância | Concordância com `existir` e `ocorrer` |
-| 35 | Lógica | E | C | Confusão conceitual | Equivalência da condicional |
+| 15 | Lógica | D | C | [C] Confusão conceitual | Negação de universal com conjunção |
+| 21 | Português | C | D | [D/C] Distração / confusão conceitual | Concordância com `existir` e `ocorrer` |
+| 35 | Lógica | E | C | [C] Confusão conceitual | Equivalência da condicional |
 
 ## Ajustes a partir dos erros
 
@@ -43,6 +43,8 @@ Logo, basta existir pelo menos um relatório que não tenha sido revisado **ou**
 
 **Heurística:** TODOS → PELO MENOS UM; E → OU.
 
+**Onde estudar:** [[3 - Materias/Logica/03 - quantificadores#Negação de Universal com Predicados Compostos ("Todo... e...")|Quantificadores: negação de universal com predicados compostos]].
+
 ### Q21 — Concordância com haver, existir e ocorrer
 
 O verbo `haver`, com sentido de existir, é impessoal e permanece no singular:
@@ -58,6 +60,8 @@ A proximidade semântica entre esses verbos favorece uma falsa transferência da
 
 **Ação:** automatização por questões, sem retorno a uma revisão teórica extensa.
 
+**Onde estudar:** [[3 - Materias/Portugues/02 - sujeito#Locuções Verbais com Verbos Impessoais vs. Pessoais (Pegadinha FGV)|Sujeito: locuções com verbos impessoais e pessoais]].
+
 ### Q35 — Equivalência da condicional
 
 A proposição `P → Q` possui duas equivalências fundamentais:
@@ -72,6 +76,8 @@ A forma `¬Q ∨ P` equivale a `Q → P`: trata-se da recíproca, não da propos
 
 **Heurística:** ao transformar a seta em “ou”, negar o antecedente e manter o consequente.
 
+**Onde estudar:** [[3 - Materias/Logica/04 - equivalencias#2. Regra do "NEyMar" (Condicional Disjuntiva)|Equivalências: condicional disjuntiva]].
+
 ## Dúvida registrada — mas × contudo × embora
 
 `Mas` e `contudo` são adversativos e permitem manter a estrutura coordenada:
@@ -83,6 +89,8 @@ A forma `¬Q ∨ P` equivale a `Q → P`: trata-se da recíproca, não da propos
 > Embora a instituição tenha ampliado os canais digitais, parte do público continuou enfrentando dificuldades.
 
 Em questões de substituição, verificar ao mesmo tempo o sentido e a estrutura sintática exigida pelo conectivo.
+
+**Onde estudar:** [[3 - Materias/Portugues/03 - pontuacao e virgula#Coordenação adversativa × subordinação concessiva|Pontuação: adversativas e concessivas]].
 
 ## Diagnóstico e prioridades
 
@@ -99,3 +107,7 @@ Prioridades imediatas:
 Reproduzir exatamente a distribuição oficial:
 
 **12 Português + 12 Inglês + 5 Lógica + 6 Atualidades/IA + 5 Legislação + 30 Comunicação.**
+
+---
+**Fontes brutas:**
+- Registro de correção do simulado realizado em 01/09/2026.

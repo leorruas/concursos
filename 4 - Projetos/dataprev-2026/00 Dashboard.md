@@ -61,7 +61,11 @@ A **Wiki do edital** mapeia os tópicos exigidos de forma direta, servindo como 
 
 ---
 
-## Metas e Foco Atual
+## Metas e Foco da Reta Final (40 Dias — 11/10/2026)
 
-- **Fase Atual:** Estudo de teoria e mapeamento de questões da banca **FGV**.
-- **Meta de Questões:** Manter o aproveitamento acima de **80%** no painel global de **[[00 Avancos globais|Avanços globais]]**.
+- **Fase Atual:** **Fase 1 — Fechamento de Lacunas e Alinhamento de Base** (01 a 10 de setembro).
+- **Régua de Pontuação Dataprev Ponderada:** Perseguir **$\ge$ 102 / 115 pontos (88,7%)**:
+  - *Módulo I (Gerais — Peso 1,0):* $\ge$ 32 / 40 acertos (Português 10/12, Inglês 10/12, Lógica 4/5, Legislação 4/5, Atualidades/IA 4/6).
+  - *Módulo II (Comunicação — Peso 2,5):* **$\ge$ 28 / 30 acertos (70,0 / 75,0 pts — 93,3%)**.
+- **Ciclo Operacional:** Consulte o plano de três fases e a cadência de simulados em **[[Cronograma|Cronograma de Estudos]]** e a diretriz estratégica em **[[Estrategia|Estratégia do Concurso]]**.
+

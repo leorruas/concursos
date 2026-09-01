@@ -22,15 +22,15 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 
 | Disciplina | Aproveitamento (30d) | Questões (30d) | Meta | Status de Amostragem | Último Treino |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *66,7%* | 18 | 95% | **Amostragem insuficiente** (< 50 Qs) | 12/08/2026 |
-| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | 02/07/2026 |
+| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *71,9%* | 32 | 95% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
+| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | *33,3%* | 6 | 85% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/07/2026 |
 | [[3 - Materias/Direito Constitucional/direito-constitucional\|Direito constitucional]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
 | [[3 - Materias/Direito Administrativo/direito-administrativo\|Direito administrativo]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
-| [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | 92,3% | 181 | 90% | **Amostragem sólida** ($\ge$ 50 Qs) | 31/08/2026 |
-| [[3 - Materias/Administracao Publica/administracao-publica\|Administração pública]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
+| [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | 92,7% | 225 | 90% | **Amostragem sólida** ($\ge$ 50 Qs) | 31/08/2026 |
+| [[3 - Materias/Administracao Publica/administracao-publica\|Administração pública]] | *100,0%* | 1 | 85% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
 | [[3 - Materias/Administracao Geral/administracao-geral\|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
-| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | - | 0 | 75% | **Amostragem insuficiente** (< 50 Qs) | 15/07/2026 |
+| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *83,3%* | 6 | 75% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
 | [[3 - Materias/Redacao/redacao\|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
 
 ### Métricas específicas por disciplina
@@ -67,7 +67,7 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 
 | Semana / Período | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Análise de Saturação Semanal |
 | :--- | :--- | :--- | :--- | :--- |
-| **Semana 36** (31/08 a 06/09) | 37 | 81,1% (30/37) | 81,1% | **Média-Alta**: Ingestão de Inbox em 31/08 focada em LGPD Aprofundada (Poder Público, Consentimento, Bases Legais, Dados Sensíveis x Pseudonimização, Empresas Estatais e Sanções ANPD). |
+| **Semana 36** (31/08 a 06/09) | 107 | 78,5% (84/107) | 78,0% | **Alta**: Sessões de 31/08 totalizando 107 Qs com 84 acertos: **Simulado 01 Completo** (70 Qs, 54/70 — 77,1%: Língua Portuguesa 14 Qs [11/14], Raciocínio Lógico 6 Qs [2/6], Marco Civil 6 Qs [2/6], LGPD 6 Qs [4/6], Comunicação Organizacional 6 Qs [4/6], Atualidades/IA 6 Qs [5/6], Língua Inglesa 7 Qs [7/7], Comunicação Pública 6 Qs [6/6], Jornalismo 6 Qs [6/6], Comunicação Digital 8 Qs [8/8], Planejamento 2 Qs [2/2], Administração Pública 1 Q [1/1], Comunicação Integrada 2 Qs [2/2]) e **Bateria LGPD Aprofundada** (37 Qs, 30/37 — 81,1%: Poder Público, Bases Legais, Consentimento, Estatais, Responsabilidade e Sanções ANPD). |
 | **Semana 33** (10/08 a 16/08) | 113 | 91,2% (103/113) | 90,4% | **Alta**: Ingestão de Inbox nos dias 10/08 (51 Qs CS), 11/08 (44 Qs CS) e 12/08 (18 Qs Português). Concluiu 100% do edital de Comunicação e aplicou diagnósticos de gramática e regência da FGV em Português. |
 | **Semana 32** (03/08 a 09/08) | 45 | 100% (45/45) | 100% | **Média-Alta**: Ingestão de Inbox nos dias 03/08 (11 Qs), 04/08 (12 Qs) e 05/08 (22 Qs) consolidando mídias (PESO), planejamento, marketing de conteúdo, ROI/ROAS, teorias do jornalismo, evolução histórica, infografia, Tufte e data storytelling. |
 | **Semana 31** (27/07 a 02/08) | 75 | 92,0% (69/75) | 92,0% | **Alta**: Ingestão de Inbox (Marketing e Branding: 12 Qs; Multiplataforma, Acessibilidade, AI, SEO, KPIs e Métricas: 42 Qs; Copywriting, UX Writing, Storytelling e Gestão de Crise: 11 Qs; Fundamentos do Marketing, 4Ps/7Ps, Segmentação e Posicionamento: 10 Qs). Consolidou a consistência na maior parte dos tópicos com aproveitamento de 100% no bloco final. |
@@ -83,13 +83,13 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 
 ---
 
-
 ## Controle de simulados consolidados (Consistência)
 
 Registro de simulados completos ou baterias mistas em condições reais de prova (tempo controlado e múltiplos assuntos).
 
 | Simulado / Treino Misto | Data | Acertos | Desvio / Variância | Condições (Tempo / Qs) | Diagnóstico / Observação |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [[00 - Desempenho/Simulados/Simulado-01\|Simulado 01 (Módulo I + Comunicação)]] | 31/08/2026 | 54/70 (77,1%) | - | 70 Qs (7 blocos de 10 Qs) | Bateria completa de prova Dataprev. 100% de aproveitamento em Inglês, Comunicação Pública, Jornalismo, Comunicação Digital/UX, Planejamento e Administração Pública. 16 erros mapeados em Lógica (equivalências/tabela verdade), Marco Civil (art. 2º e 9º), Schein (artefatos vs. pressupostos), Português ("SE" e crase) e LGPD (bases públicas). |
 
 > [!TIP]
 > **Heurística de Consistência**: Mais vale a estabilidade (ex: manter-se na faixa de 82%–84% ao longo de vários simulados) do que picos isolados de 90%+ seguidos de quedas acentuadas (ex: 68%). A variabilidade indica fadiga cognitiva ou lacunas teóricas específicas por assunto.

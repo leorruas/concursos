@@ -82,6 +82,27 @@ updated: 2026-08-31
 - **Housekeeping**: Deletar scripts temporários imediatamente após o uso. Não deletar o arquivo de ingestão (`00 inbox/ingestão.md`), apenas limpar o seu conteúdo mantendo o arquivo com o seu título.
 - **Atualização de Progresso do Edital (Dataprev)**: Sempre que houver qualquer atualização no checklist de conteúdos estudados em [[4 - Projetos/dataprev-2026/O que estudar|O que estudar (Checklist)]], o agente deve obrigatoriamente recalcular a quantidade de itens concluídos por matéria (considerando apenas os itens finais/folhas de cada subseção para evitar dupla contagem) e atualizar a tabela correspondente em [[00 Dashboard|Dataprev 2026 (Dashboard)]].
 
+### Diretrizes Temporárias de Reta Final — Dataprev 2026 (Vigência: 01/09/2026 a 11/10/2026)
+> [!IMPORTANT]
+> As regras abaixo possuem vigência estrita até o dia da prova (**11 de outubro de 2026**) e complementam os workflows gerais do vault:
+>
+> 1. **Prioridade Absoluta da Pontuação Ponderada (Peso 2,5 em Comunicação)**:
+>    - Ao avaliar qualquer simulado completo ou bateria mista da Dataprev, o agente deve obrigatoriamente calcular a **Pontuação Ponderada Dataprev (máximo de 115 pontos)**:
+>      $$\text{Nota Ponderada} = \text{Acertos Gerais (Peso 1,0)} + \left(\text{Acertos Comunicação (Peso 2,5)}\right)$$
+>    - A régua de competitividade oficial a ser perseguida é $\ge \mathbf{102 / 115\text{ pontos}}$ (88,7%).
+> 2. **Taxonomia Clínica Obrigatória de Erros [K, C, I, D]**:
+>    - Todo erro mapeado em simulados ou baterias do inbox deve ser classificado em uma das 4 categorias:
+>      - **[K] Conhecimento**: Lacuna factual/teórica não estudada.
+>      - **[C] Confusão Conceitual**: Conceito visto, mas com fronteira borrada ou aplicação invertida.
+>      - **[I] Interpretação**: Leitura equivocada do comando ou extrapolação de premissas do texto.
+>      - **[D] Distração / Pressa**: Lapso de leitura em delimitadores (*apenas, exceto, sempre*), marcação ou cálculo final.
+> 3. **Gestão por Estado de Maturidade (Fim do Estudo Teórico Passivo)**:
+>    - É terminantemente proibido reestudar teoria básica do zero para assuntos **Consolidados** (Comunicação Geral, Interpretação, IA, LAI). A manutenção deve ser feita exclusivamente via questões de nível alto da FGV.
+>    - Assuntos **Instáveis** (Português Gramatical, Lógica Proposicional, LGPD/Marco Civil) devem operar no regime **30% revisão direcionada + 70% questões**.
+>    - O conteúdo do dia seguinte de estudo/revisão é determinado pelas falhas e diagnósticos clínicos da sessão imediatamente anterior.
+> 4. **Protocolo Fechado de Simulados Integrais**:
+>    - Cada um dos 5 a 7 simulados completos de 70 questões previstos para a Fase 3 deve obrigatoriamente seguir a cadência: $\text{Simulado} \to \text{Autópsia e Registro de Erros} \to \text{Microrevisão Teórica} \to \text{Bateria de Fixação do Assunto Vulnerável} \to \text{Próximo Simulado}$.
+
 ---
 
 ## Padrões de Escrita e Nomenclatura

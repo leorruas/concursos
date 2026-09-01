@@ -3,10 +3,20 @@ title: "Avanços e desempenho (Português)"
 type: "hub"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-06-08
+updated: 2026-09-01
 ---
 
 # Avanços e desempenho (Português)
+
+## Simulado 02 — 01/09/2026
+
+- **Erro identificado:** Q21, classificado como [D/C] Distração / confusão conceitual.
+- **Recorte:** concordância com `haver` existencial, `existir` e `ocorrer`.
+- **Dúvida associada:** substituição entre `mas`, `contudo` e `embora`, com preservação do sentido e mudança da estrutura sintática.
+- **Ação:** automatização por questões; manter interpretação em nível alto sem retorno à teoria básica.
+- **Estudo:** [[3 - Materias/Portugues/02 - sujeito#Locuções Verbais com Verbos Impessoais vs. Pessoais (Pegadinha FGV)|Verbos impessoais e pessoais]] e [[3 - Materias/Portugues/03 - pontuacao e virgula#Coordenação adversativa × subordinação concessiva|Adversativas e concessivas]].
+- **Limite quantitativo:** o número total de questões de Português no simulado não foi registrado; aproveitamento local e janela de 30 dias não foram recalculados para evitar inferência sem base.
+
 
 ## Volume diário de exercícios
 

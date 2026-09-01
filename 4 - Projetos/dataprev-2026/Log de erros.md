@@ -3,7 +3,7 @@ title: "Log de erros - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Log de erros - Dataprev 2026
@@ -30,4 +30,51 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 
 ## Comunicação Social (FGV)
 - **Níveis de Cultura Organizacional de Schein:** Q10 e Q13 do Simulado 01 — *Artefatos (visíveis/superficiais: layout, vestimenta, rituais); Valores Compartilhados (discursos declarados, metas, justificativas conscientes); Pressupostos Básicos (invisíveis, inconscientes, verdades inquestionáveis que moldam a ação real)*. [[3 - Materias/Comunicacao/09 - comunicacao interna#3. Cultura Organizacional e os Três Níveis de Edgar Schein|Estudo em Cultura Organizacional]].
+
+## Ajustes a partir dos erros — Simulado 01/09/2026
+
+**Resultado bruto:** 67/70 — 95,7%
+
+> [!warning] Observação metodológica
+> O simulado não reproduziu corretamente a distribuição oficial das 70 questões por disciplina. Não utilizar este resultado para cálculo da nota ponderada /115.
+
+### Erros
+
+- **Q15 — Lógica — [C] Confusão conceitual**
+  - Negação de quantificador universal + conjunção.
+  - `¬∀x(P ∧ Q) ≡ ∃x(¬P ∨ ¬Q)`
+  - Reforçar: TODOS → PELO MENOS UM; E → OU.
+- **Q21 — Português — [D/C] Concordância verbal**
+  - `haver` existencial: impessoal → `pode haver`.
+  - `existir` e `ocorrer`: pessoais → `devem existir`, `podem ocorrer`.
+  - Necessidade: automatização por questões, não revisão teórica extensa.
+- **Q35 — Lógica — [C] Confusão conceitual**
+  - Equivalência do condicional ainda instável.
+  - Automatizar:
+    - `P → Q`
+    - `¬P ∨ Q`
+    - `¬Q → ¬P`
+  - Evitar confundir com a recíproca `Q → P`.
+
+### Dúvida registrada
+
+**Mas × contudo × embora**
+
+- `mas` e `contudo`: adversativos; permitem manutenção da estrutura coordenada.
+- `embora`: concessivo subordinativo; exige reestruturação sintática e normalmente subjuntivo.
+- Em questões de substituição, verificar simultaneamente sentido e estrutura gramatical.
+
+### Diagnóstico
+
+Comunicação, Inglês, IA e legislação não apresentaram erros neste simulado.
+
+Prioridades imediatas:
+
+1. equivalências e negações proposicionais;
+2. concordância com `haver`, `existir`, `ocorrer` e estruturas próximas;
+3. manutenção das áreas consolidadas por questões difíceis, sem retorno à teoria básica.
+
+O próximo simulado deve reproduzir exatamente a distribuição oficial:
+
+**12 Português + 12 Inglês + 5 Lógica + 6 Atualidades/IA + 5 Legislação + 30 Comunicação.**
 

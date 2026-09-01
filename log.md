@@ -1,3 +1,9 @@
+## [2026-09-01] desempenho e matérias | Simulado 02 completo
+- **Catalogação:** Criado e indexado o [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], com resultado bruto de 67/70 (95,7%) e três erros: Q15 [C], Q21 [D/C] e Q35 [C].
+- **Limite metodológico:** A distribuição real das questões por disciplina não foi preservada; por isso, a nota ponderada Dataprev /115 e a Taxa de Aproveitamento Ponderada (TAP) foram registradas como não calculáveis.
+- **Sincronia:** Atualizados o [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]], [[4 - Projetos/dataprev-2026/Questoes e Simulados|Questões e simulados]], [[4 - Projetos/dataprev-2026/Log de erros|Log de erros]], [[4 - Projetos/dataprev-2026/00 Dashboard|Dashboard]], [[00 - Desempenho/00 Avancos globais|Avanços globais]], [[00 - Desempenho/01 Log de saturacao diaria|Log de saturação diária]] e [[index]].
+- **Teoria:** Refinada a nota [[3 - Materias/Portugues/03 - pontuacao e virgula#Coordenação adversativa × subordinação concessiva|Pontuação e vírgula]] para distinguir substituição semântica e reconstrução sintática com `mas`, `contudo` e `embora`.
+
 ## [2026-08-31] materias e desempenho | Ingestão de Teoria e Exercícios — LGPD Aprofundada (Poder Público, Bases Legais, Consentimento, Estatais e Sanções ANPD)
 - **Enriquecimento de Notas Teóricas**:
   - Enriquecida a nota [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]] com:

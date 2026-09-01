@@ -4,7 +4,7 @@ type: "perfil-pessoal"
 status: "ativo"
 leitura: "mandatória — ler antes de qualquer operação no vault"
 created: 2026-04-25
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # me
@@ -104,6 +104,108 @@ updated: 2026-08-31
 >    - Cada um dos 5 a 7 simulados completos de 70 questões previstos para a Fase 3 deve obrigatoriamente seguir a cadência: $\text{Simulado} \to \text{Autópsia e Registro de Erros} \to \text{Microrevisão Teórica} \to \text{Bateria de Fixação do Assunto Vulnerável} \to \text{Próximo Simulado}$.
 
 ---
+
+## Protocolo FGV-Dataprev — geração de simulados
+
+### Princípio
+
+Distinguir rigorosamente:
+
+- **Bateria dirigida:** adaptativa aos erros e lacunas do candidato.
+- **Simulado:** representativo da distribuição, heterogeneidade e estilo da prova real.
+
+Erros anteriores não devem super-representar um tópico no simulado.
+
+### Corpus de calibração
+
+Prioridade:
+
+1. prova oficial FGV Dataprev 2024 do mesmo cargo;
+2. provas FGV recentes de Comunicação Social;
+3. provas FGV recentes das disciplinas gerais;
+4. conhecimento geral sobre estilo da banca apenas subsidiariamente.
+
+Modelar o mecanismo da questão, nunca copiar seu conteúdo.
+
+### DNA FGV-Dataprev
+
+Preservar diversidade entre:
+
+- reconhecimento factual e terminológico;
+- autor → conceito;
+- classificação e fronteira entre categorias;
+- I, II e III;
+- sequências V/F;
+- correlação/associação;
+- preenchimento de lacunas;
+- interpretação de trecho teórico;
+- aplicação a situação profissional;
+- questão negativa/exceção;
+- interpretação de texto, peça ou figura;
+- cálculo e problema contextualizado.
+
+### Distratores
+
+Priorizar:
+
+1. transposição de conceito verdadeiro para categoria errada;
+2. verdade parcial;
+3. inversão de relação;
+4. conceito vizinho;
+5. erro factual plausível.
+
+Não exigir que toda questão tenha cinco alternativas altamente sofisticadas: reproduzir a heterogeneidade real da FGV.
+
+Evitar padrão recorrente em que a correta seja a alternativa mais moderada, completa ou linguisticamente cuidadosa.
+
+Evitar uso sistemático de absolutos como marcador de alternativa falsa.
+
+### Conhecimentos específicos
+
+Cobrar não apenas aplicação profissional, mas também:
+
+- autores;
+- classificações;
+- terminologia técnica;
+- história da área quando prevista;
+- estruturas internas das teorias;
+- distinções entre categorias próximas.
+
+### Dificuldade
+
+Não maximizar dificuldade.
+
+Reproduzir mistura de questões fáceis, médias e difíceis.
+
+A dificuldade deve decorrer do conhecimento exigido e da proximidade conceitual quando isso corresponder ao modelo FGV.
+
+### Composição
+
+Simulado completo Dataprev 2026:
+
+- Português: 12
+- Inglês: 12
+- Raciocínio Lógico: 5
+- Atualidades e IA: 6
+- Legislação: 5
+- Comunicação: 30
+
+Aplicar os pesos oficiais somente quando essa composição tiver sido respeitada integralmente.
+
+### Validação prévia
+
+Antes de liberar o simulado, verificar silenciosamente:
+
+1. a distribuição está exatamente correta?
+2. há variedade de formatos?
+3. a dificuldade varia?
+4. Comunicação contém recuperação conceitual específica suficiente?
+5. taxonomias e autores estão efetivamente sendo cobrados?
+6. Lógica não foi artificialmente moldada pelos erros recentes?
+7. Português apresenta variedade compatível com a FGV?
+8. Atualidades parte de fatos/contextos concretos?
+9. os erros anteriores influenciaram distratores sem deformar a prova?
+10. o conjunto parece uma prova única, e não 70 exercícios didáticos?
 
 ## Padrões de Escrita e Nomenclatura
 

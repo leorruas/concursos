@@ -3,7 +3,7 @@ title: "Avanços globais"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Avanços globais
@@ -67,7 +67,7 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 
 | Semana / Período | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Análise de Saturação Semanal |
 | :--- | :--- | :--- | :--- | :--- |
-| **Semana 36** (31/08 a 06/09) | 107 | 78,5% (84/107) | 78,0% | **Alta**: Sessões de 31/08 totalizando 107 Qs com 84 acertos: **Simulado 01 Completo** (70 Qs, 54/70 — 77,1%: Língua Portuguesa 14 Qs [11/14], Raciocínio Lógico 6 Qs [2/6], Marco Civil 6 Qs [2/6], LGPD 6 Qs [4/6], Comunicação Organizacional 6 Qs [4/6], Atualidades/IA 6 Qs [5/6], Língua Inglesa 7 Qs [7/7], Comunicação Pública 6 Qs [6/6], Jornalismo 6 Qs [6/6], Comunicação Digital 8 Qs [8/8], Planejamento 2 Qs [2/2], Administração Pública 1 Q [1/1], Comunicação Integrada 2 Qs [2/2]) e **Bateria LGPD Aprofundada** (37 Qs, 30/37 — 81,1%: Poder Público, Bases Legais, Consentimento, Estatais, Responsabilidade e Sanções ANPD). |
+| **Semana 36** (31/08 a 06/09) | 177 | 85,3% (151/177) | Não calculável | **Alta**: Sessões de 31/08 e 01/09 totalizando 177 Qs. O Simulado 02 acrescentou 70 Qs e 67 acertos, mas sua distribuição por disciplina não foi registrada, impedindo o recálculo responsável da TAP. Sessões anteriores totalizaram 107 Qs com 84 acertos: **Simulado 01 Completo** (70 Qs, 54/70 — 77,1%: Língua Portuguesa 14 Qs [11/14], Raciocínio Lógico 6 Qs [2/6], Marco Civil 6 Qs [2/6], LGPD 6 Qs [4/6], Comunicação Organizacional 6 Qs [4/6], Atualidades/IA 6 Qs [5/6], Língua Inglesa 7 Qs [7/7], Comunicação Pública 6 Qs [6/6], Jornalismo 6 Qs [6/6], Comunicação Digital 8 Qs [8/8], Planejamento 2 Qs [2/2], Administração Pública 1 Q [1/1], Comunicação Integrada 2 Qs [2/2]) e **Bateria LGPD Aprofundada** (37 Qs, 30/37 — 81,1%: Poder Público, Bases Legais, Consentimento, Estatais, Responsabilidade e Sanções ANPD). |
 | **Semana 33** (10/08 a 16/08) | 113 | 91,2% (103/113) | 90,4% | **Alta**: Ingestão de Inbox nos dias 10/08 (51 Qs CS), 11/08 (44 Qs CS) e 12/08 (18 Qs Português). Concluiu 100% do edital de Comunicação e aplicou diagnósticos de gramática e regência da FGV em Português. |
 | **Semana 32** (03/08 a 09/08) | 45 | 100% (45/45) | 100% | **Média-Alta**: Ingestão de Inbox nos dias 03/08 (11 Qs), 04/08 (12 Qs) e 05/08 (22 Qs) consolidando mídias (PESO), planejamento, marketing de conteúdo, ROI/ROAS, teorias do jornalismo, evolução histórica, infografia, Tufte e data storytelling. |
 | **Semana 31** (27/07 a 02/08) | 75 | 92,0% (69/75) | 92,0% | **Alta**: Ingestão de Inbox (Marketing e Branding: 12 Qs; Multiplataforma, Acessibilidade, AI, SEO, KPIs e Métricas: 42 Qs; Copywriting, UX Writing, Storytelling e Gestão de Crise: 11 Qs; Fundamentos do Marketing, 4Ps/7Ps, Segmentação e Posicionamento: 10 Qs). Consolidou a consistência na maior parte dos tópicos com aproveitamento de 100% no bloco final. |
@@ -89,6 +89,7 @@ Registro de simulados completos ou baterias mistas em condições reais de prova
 
 | Simulado / Treino Misto | Data | Acertos | Desvio / Variância | Condições (Tempo / Qs) | Diagnóstico / Observação |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [[00 - Desempenho/Simulados/Simulado-02\|Simulado 02 (distribuição não oficial)]] | 01/09/2026 | 67/70 (95,7%) | +18,6 p.p. sobre o Simulado 01 | 70 Qs | Desempenho bruto alto; nota /115 e TAP indisponíveis. Erros concentrados em equivalências/negações lógicas e concordância verbal. |
 | [[00 - Desempenho/Simulados/Simulado-01\|Simulado 01 (Módulo I + Comunicação)]] | 31/08/2026 | 54/70 (77,1%) | - | 70 Qs (7 blocos de 10 Qs) | Bateria completa de prova Dataprev. 100% de aproveitamento em Inglês, Comunicação Pública, Jornalismo, Comunicação Digital/UX, Planejamento e Administração Pública. 16 erros mapeados em Lógica (equivalências/tabela verdade), Marco Civil (art. 2º e 9º), Schein (artefatos vs. pressupostos), Português ("SE" e crase) e LGPD (bases públicas). |
 
 > [!TIP]

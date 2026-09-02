@@ -1250,6 +1250,94 @@ mark:not(.highlight) code {
     border-color: rgba(0, 0, 0, 0.25) !important;
 }
 
+/* Comentários e Anotações no Leitor */
+.obsidian-comment-wrapper {
+    position: relative;
+    display: inline;
+    vertical-align: baseline;
+}
+
+.comment-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 19px;
+    height: 19px;
+    padding: 0;
+    margin-left: 4px;
+    margin-right: 2px;
+    background-color: var(--accent-blue-alpha-15);
+    color: var(--accent-blue);
+    border: 1px solid var(--accent-blue-alpha-40);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.18s ease;
+}
+
+.comment-badge:hover,
+.comment-badge:focus-visible {
+    background-color: var(--accent-blue);
+    color: #050505;
+    border-color: var(--accent-blue);
+    outline: none;
+    transform: scale(1.08);
+}
+
+.comment-badge svg {
+    pointer-events: none;
+}
+
+.comment-popover {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%) translateY(4px);
+    width: max-content;
+    min-width: 220px;
+    max-width: 320px;
+    background-color: var(--surface-raised);
+    border: 1px solid color-mix(in srgb, var(--accent-blue) 40%, transparent);
+    border-radius: 6px;
+    padding: 10px 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+}
+
+.obsidian-comment-wrapper:hover .comment-popover,
+.obsidian-comment-wrapper:focus-within .comment-popover,
+.comment-popover.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+}
+
+.comment-popover-header {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--accent-blue);
+    margin-bottom: 4px;
+    border-bottom: 1px solid color-mix(in srgb, var(--text) 15%, transparent);
+    padding-bottom: 4px;
+}
+
+.comment-popover-body {
+    display: block;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    color: var(--text);
+    font-weight: 400;
+    word-break: break-word;
+}
+
 /* Mermaid */
 .mermaid {
     display: flex;

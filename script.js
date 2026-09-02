@@ -342,13 +342,30 @@ function abrirArtigo(artigo, atualizarRota = true) {
     artigoTitulo.textContent = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
 
     let markdownLimpo = removerFrontmatter(artigo.conteudo);
-    // Suporte a Obsidian Highlight ==texto==
+    
+    // 1. Suporte a Highlights com comentário associado: ==texto== %% [comentário]: meu comentário %%
+    markdownLimpo = markdownLimpo.replace(/==([^=]+)==\s*%%\s*\[(?:comentário|comentario|nota|obs)\]:?\s*([\s\S]*?)\s*%%/gi, (match, texto, comentario) => {
+        const comentarioLimpo = comentario.replace(/"/g, '&quot;').trim();
+        return `<span class="obsidian-comment-wrapper"><mark class="obsidian-highlight with-comment">${texto}</mark><button type="button" class="comment-badge" aria-label="Ver anotação" title="Ver anotação"><svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg></button><span class="comment-popover"><span class="comment-popover-header">anotação</span><span class="comment-popover-body">${comentarioLimpo}</span></span></span>`;
+    });
+
+    // 2. Suporte a Highlights simples: ==texto==
     markdownLimpo = markdownLimpo.replace(/==([^=]+)==/g, '<mark class="obsidian-highlight">$1</mark>');
+
+    // 3. Suporte a Comentários explícitos inline sem highlight: %% [comentário]: meu comentário %%
+    markdownLimpo = markdownLimpo.replace(/%%\s*\[(?:comentário|comentario|nota|obs)\]:?\s*([\s\S]*?)\s*%%/gi, (match, comentario) => {
+        const comentarioLimpo = comentario.replace(/"/g, '&quot;').trim();
+        return `<span class="obsidian-comment-wrapper"><button type="button" class="comment-badge standalone" aria-label="Ver anotação" title="Ver anotação"><svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg></button><span class="comment-popover"><span class="comment-popover-header">anotação</span><span class="comment-popover-body">${comentarioLimpo}</span></span></span>`;
+    });
+
+    // 4. Oculta comentários brutos restantes do Obsidian (%% comentário geral %%) igual ao modo de leitura
+    markdownLimpo = markdownLimpo.replace(/%%[\s\S]*?%%/g, '');
 
     marked.setOptions({ gfm: true, breaks: true });
     artigoCorpo.innerHTML = marked.parse(markdownLimpo);
 
     processarCalloutsObsidian();
+    processarComentariosObsidian();
     processarWikilinks(artigoCorpo);
 
     if (typeof renderMathInElement !== "undefined") {
@@ -475,6 +492,33 @@ function processarCalloutsObsidian() {
             `;
 
             bq.replaceWith(divCallout);
+        }
+    });
+}
+
+function processarComentariosObsidian() {
+    const wrappers = artigoCorpo.querySelectorAll('.obsidian-comment-wrapper');
+    wrappers.forEach(wrapper => {
+        const badge = wrapper.querySelector('.comment-badge');
+        const popover = wrapper.querySelector('.comment-popover');
+        if (!badge || !popover) return;
+
+        badge.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const estaAtivo = popover.classList.contains('active');
+            
+            // Fecha todos os outros popovers abertos
+            document.querySelectorAll('.comment-popover.active').forEach(p => {
+                if (p !== popover) p.classList.remove('active');
+            });
+            
+            popover.classList.toggle('active', !estaAtivo);
+        });
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.obsidian-comment-wrapper')) {
+            document.querySelectorAll('.comment-popover.active').forEach(p => p.classList.remove('active'));
         }
     });
 }

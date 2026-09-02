@@ -1290,22 +1290,28 @@ mark:not(.highlight) code {
 
 .comment-popover {
     position: absolute;
-    bottom: calc(100% + 8px);
+    bottom: calc(100% + 10px);
     left: 50%;
     transform: translateX(-50%) translateY(4px);
     width: max-content;
-    min-width: 220px;
-    max-width: 320px;
-    background-color: var(--surface-raised);
-    border: 1px solid color-mix(in srgb, var(--accent-blue) 40%, transparent);
-    border-radius: 6px;
-    padding: 10px 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-    z-index: 100;
+    min-width: 240px;
+    max-width: 340px;
+    background-color: #121214 !important;
+    border: 1px solid var(--accent-blue-alpha-40);
+    border-radius: 8px;
+    padding: 12px 14px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.95), 0 0 0 1px rgba(255, 255, 255, 0.08);
+    z-index: 1000;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+}
+
+:root[data-theme="light"] .comment-popover {
+    background-color: #ffffff !important;
+    border-color: var(--accent-blue-alpha-40);
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.14), 0 0 0 1px rgba(15, 23, 42, 0.06);
 }
 
 .obsidian-comment-wrapper:hover .comment-popover,
@@ -1319,22 +1325,22 @@ mark:not(.highlight) code {
 
 .comment-popover-header {
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.72rem;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--accent-blue);
-    margin-bottom: 4px;
-    border-bottom: 1px solid color-mix(in srgb, var(--text) 15%, transparent);
+    margin-bottom: 6px;
+    border-bottom: 1px solid color-mix(in srgb, var(--text) 20%, transparent);
     padding-bottom: 4px;
 }
 
 .comment-popover-body {
     display: block;
-    font-size: 0.85rem;
-    line-height: 1.45;
+    font-size: 0.9rem;
+    line-height: 1.5;
     color: var(--text);
-    font-weight: 400;
+    font-weight: 450;
     word-break: break-word;
 }
 

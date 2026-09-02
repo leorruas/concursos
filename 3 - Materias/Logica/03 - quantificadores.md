@@ -20,7 +20,7 @@ Os dois principais quantificadores são:
 - universal (“todo”, “para todo”)
 - existencial (“existe”, “algum”)
 
-==Quantificadores são operadores que transformam sentenças abertas em proposições porque **eles eliminam a dependência de um valor específico** e substituem essa dependência por uma afirmação geral ou existencial.==
+==Quantificadores são operadores que transformam sentenças abertas em proposições porque **eles eliminam a dependência de um valor específico** e substituem essa dependência por uma afirmação geral ou existencial.== %% [comentário]: teste%%
 
 ==Em uma sentença aberta como “x é par”, a variável x funciona como um espaço vazio. A frase não afirma nada por si só, ela apenas define uma condição que pode ou não ser satisfeita dependendo do valor atribuído==. Por isso, não é possível avaliá-la como verdadeira ou falsa.
 

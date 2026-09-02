@@ -4,5 +4,8 @@
   "baseFontSize": 16,
   "translucency": true,
   "interfaceFontFamily": "Archivo",
-  "textFontFamily": "Archivo"
+  "textFontFamily": "Archivo",
+  "enabledCssSnippets": [
+    "highlights"
+  ]
 }

@@ -1,14 +1,19 @@
-## [2026-09-03] governança e design | Refino Semântico e Design Suíço do Painel (GitHub Pages)
-- **Governança e Proveniência de Dados**:
-  - Auditada a camada [[data/]]: dados sintéticos e de demonstração isolados em `data/fixtures/` (`questoes-demo.json` e `revisoes-srs-proposta.json`), impedindo contaminação do histórico real de produção.
-  - Inserida proveniência estrita (`sourceType`, `sourcePath`) em [[data/concursos.json]], [[data/materias.json]], [[data/edital-itens.json]] e [[data/erros.json]], mapeando todos os fatos para editais oficiais e sessões reais registradas.
-  - Expandido o script de auditoria [[scripts/validate-integrity.js]] para validação semântica: unicidade do concurso ativo, datas factíveis, verificação de evidência documental de domínio e bloqueio a mocks em produção.
-- **Semântica dos Indicadores**:
-  - Separados os três indicadores: **Cobertura do Edital** (propriedade estrutural da wiki), **Exposição ao Conteúdo** (itens com estudo registrado) e **Domínio Validado** (exibe "dados insuficientes" quando não houver volume estatístico comprovado).
-- **Design Editorial Suíço**:
-  - Eliminados cards empilhados, caixas arredondadas redundantes e gradientes.
-  - Reconstruído o painel como grid tipográfico modernista plano com linhas divisórias de 1px e hierarquia por peso, escala e espaço negativo.
-  - Substituído o `<select>` por um seletor textual minimalista na navegação (`DATAPREV 2026 / TCDF 2026`).
+## [2026-09-03] arquitetura e design | Restauração do Baseline e Camada Estratégica Desacoplada
+- **Desacoplamento Ontológico Estrito (Biblioteca vs. Concursos)**:
+  - Restaurado o baseline funcional e visual estável (`acecd96c`): todas as matérias, notas públicas, simulados, busca, leitor com KaTeX, Mermaid e comentários recuperados em sua totalidade.
+  - A biblioteca de conhecimento NÃO depende mais de nenhum JSON para existir ou listar notas; a descoberta do vault continua autônoma e completa.
+  - Se a pasta `data/` for removida, o site continua 100% funcional como a biblioteca original.
+- **Camada Estratégica Opcional e Auditável**:
+  - Criados [[data/concursos.json]] (Dataprev 2026 e TCDF 2026 com links aos editais oficiais) e [[data/edital-itens.json]] (itens oficiais mapeados para notas reais do vault ou `null`).
+  - Erros reais documentados em [[data/erros-recorrentes.json]] extraídos de `00 - Desempenho/Simulados/Simulado-02.md` e `3 - Materias/Logica/Avancos.md`.
+  - Zero mocks: arquivos sintéticos de questões e SRS fictício descartados.
+- **Interface Suíça Não-Invasiva**:
+  - Painel estratégico renderizado **exclusivamente na Home**, desaparecendo por completo ao entrar em qualquer disciplina, artigo ou busca.
+  - Seletor textual minimalista (`concurso: dataprev 2026 / tcdf 2026`) com persistência em `localStorage`.
+  - Três indicadores tipográficos sem cards: **cobertura estrutural**, **exposição ao conteúdo** e **domínio validado** (exibindo "ainda não mensurável" na ausência de validação estatística).
+  - Linha editorial "Prioridade atual" ligada diretamente ao erro pendente real.
+- **Validação de CI**:
+  - Script [[scripts/validate-integrity.js]] checando unicidade de IDs, integridade referencial com o vault e bloqueando mocks. Integrado em [[.github/workflows/pages.yml]].
 
 ## [2026-09-03] tecnologia e projetos | Evolução Arquitetural de leorruas/concursos (GitHub Pages)
 - **Diagnóstico e Evolução Não-Destrutiva**:

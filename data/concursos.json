@@ -6,6 +6,8 @@
     "cargo": "Analista de TI — Perfil 9: Comunicação Social",
     "dataProva": "2026-10-11T08:00:00-03:00",
     "status": "ativo",
+    "sourceType": "documento_oficial",
+    "sourcePath": "2 - Editais/Dataprev 2026 (Original).md",
     "reguaPontuacao": {
       "pontuacaoMaxima": 115,
       "metaPontuacao": 102,
@@ -13,14 +15,6 @@
         "gerais": 1.0,
         "especificos": 2.5
       }
-    },
-    "composicaoOficial": {
-      "portugues": 12,
-      "ingles": 12,
-      "logica": 5,
-      "atualidadesIA": 6,
-      "legislacao": 5,
-      "comunicacao": 30
     }
   },
   {
@@ -30,6 +24,8 @@
     "cargo": "Auditor de Controle Externo (ANACE)",
     "dataProva": "2026-12-06T08:00:00-03:00",
     "status": "planejado",
+    "sourceType": "documento_oficial",
+    "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
     "reguaPontuacao": {
       "pontuacaoMaxima": 150,
       "metaPontuacao": 120,
@@ -37,11 +33,6 @@
         "gerais": 1.0,
         "especificos": 1.0
       }
-    },
-    "composicaoOficial": {
-      "gerais": 50,
-      "especificos": 70,
-      "discursiva": 30
     }
   }
 ]

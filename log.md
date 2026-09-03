@@ -1,3 +1,15 @@
+## [2026-09-03] governança e design | Refino Semântico e Design Suíço do Painel (GitHub Pages)
+- **Governança e Proveniência de Dados**:
+  - Auditada a camada [[data/]]: dados sintéticos e de demonstração isolados em `data/fixtures/` (`questoes-demo.json` e `revisoes-srs-proposta.json`), impedindo contaminação do histórico real de produção.
+  - Inserida proveniência estrita (`sourceType`, `sourcePath`) em [[data/concursos.json]], [[data/materias.json]], [[data/edital-itens.json]] e [[data/erros.json]], mapeando todos os fatos para editais oficiais e sessões reais registradas.
+  - Expandido o script de auditoria [[scripts/validate-integrity.js]] para validação semântica: unicidade do concurso ativo, datas factíveis, verificação de evidência documental de domínio e bloqueio a mocks em produção.
+- **Semântica dos Indicadores**:
+  - Separados os três indicadores: **Cobertura do Edital** (propriedade estrutural da wiki), **Exposição ao Conteúdo** (itens com estudo registrado) e **Domínio Validado** (exibe "dados insuficientes" quando não houver volume estatístico comprovado).
+- **Design Editorial Suíço**:
+  - Eliminados cards empilhados, caixas arredondadas redundantes e gradientes.
+  - Reconstruído o painel como grid tipográfico modernista plano com linhas divisórias de 1px e hierarquia por peso, escala e espaço negativo.
+  - Substituído o `<select>` por um seletor textual minimalista na navegação (`DATAPREV 2026 / TCDF 2026`).
+
 ## [2026-09-03] tecnologia e projetos | Evolução Arquitetural de leorruas/concursos (GitHub Pages)
 - **Diagnóstico e Evolução Não-Destrutiva**:
   - Eliminado o gargalo de dependência da API do GitHub em runtime (que sofria com rate limit de 60 req/h com bloqueio HTTP 403) e as filtragens frágeis baseadas em nome de pastas no cliente.

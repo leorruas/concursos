@@ -38,9 +38,10 @@ async function obterListaDeArquivos() {
     // 1. Se já carregamos o catálogo canônico de matérias em data/materias.json, usamos diretamente!
     if (dadosMaterias && dadosMaterias.length > 0) {
         return dadosMaterias.map(m => {
+            const pathCodificado = m.notaPrincipal.split("/").map(encodeURIComponent).join("/");
             return {
                 titulo: m.nome,
-                path: m.notaPrincipal,
+                path: pathCodificado,
                 sourcePath: m.notaPrincipal,
                 categoria: m.area
             };
@@ -250,44 +251,77 @@ async function carregarTodosOsArtigos() {
 // --------------------------------------------------------------------------
 
 function inicializarSeletorConcurso() {
-    const seletor = document.getElementById("seletor-concurso");
-    if (!seletor || !dadosConcursos.length) return;
+    const container = document.getElementById("concurso-switcher-nav");
+    if (!container || !dadosConcursos.length) return;
 
-    seletor.innerHTML = dadosConcursos.map(c => `
-        <option value="${c.id}" ${c.id === concursoAtivoId ? 'selected' : ''}>
-            ${c.nome} (${c.banca})
-        </option>
-    `).join("");
+    container.innerHTML = dadosConcursos.map((c, index) => {
+        const ativo = c.id === concursoAtivoId;
+        return `
+            <button type="button" class="concurso-link-btn ${ativo ? 'concurso-ativo' : ''}" data-cid="${c.id}">
+                ${c.nome}
+            </button>
+            ${index < dadosConcursos.length - 1 ? '<span class="concurso-divisor-slash">/</span>' : ''}
+        `;
+    }).join("");
 
-    seletor.addEventListener("change", (e) => {
-        concursoAtivoId = e.target.value;
-        localStorage.setItem("concurso_ativo_id", concursoAtivoId);
-        renderizarPainelEstudos();
+    container.querySelectorAll(".concurso-link-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+            concursoAtivoId = btn.dataset.cid;
+            localStorage.setItem("concurso_ativo_id", concursoAtivoId);
+            inicializarSeletorConcurso();
+            renderizarPainelEstudos();
+        });
     });
 }
 
-function calcularTresIndicadores(itensDoConcurso) {
+function calcularTresIndicadoresSemanticos(itensDoConcurso) {
     const total = itensDoConcurso.length;
     if (total === 0) {
         return {
             total: 0,
             cobertura: { qtd: 0, pct: 0 },
-            progresso: { qtd: 0, pct: 0 },
-            dominio: { qtd: 0, pct: 0 },
+            exposicao: { qtd: 0, pct: 0 },
+            dominio: { status: "sem dados", detalhe: "nenhum item registrado" },
             naoMapeados: []
         };
     }
 
+    // 1. Cobertura: Propriedade estrutural da wiki (itens que possuem matéria vinculada)
     const mapeados = itensDoConcurso.filter(i => Array.isArray(i.materiaIds) && i.materiaIds.length > 0);
-    const estudados = itensDoConcurso.filter(i => ["em_estudo", "revisado", "dominado", "precisa_reforco"].includes(i.status));
-    const dominados = itensDoConcurso.filter(i => i.status === "dominado");
     const naoMapeados = itensDoConcurso.filter(i => !Array.isArray(i.materiaIds) || i.materiaIds.length === 0);
+
+    // 2. Exposição: Itens efetivamente estudados ao menos uma vez em sessões/simulados
+    const expostos = itensDoConcurso.filter(i => i.exposicaoEstudo === true);
+
+    // 3. Domínio: Apenas itens com evidência empírica mensurável e validada
+    const itensComEvidencia = itensDoConcurso.filter(i => i.evidenciaDominio && i.evidenciaDominio.mensuravel === true);
+    const itensValidados = itensComEvidencia.filter(i => i.evidenciaDominio.status === "validado");
+
+    let dominioTexto = "dados insuficientes";
+    let dominioDetalhe = "requer baterias estatísticas de validação";
+
+    if (itensValidados.length > 0) {
+        const pctDominio = Math.round((itensValidados.length / total) * 100);
+        dominioTexto = `${pctDominio}%`;
+        dominioDetalhe = `${itensValidados.length} de ${total} itens com retenção comprovada`;
+    }
 
     return {
         total,
-        cobertura: { qtd: mapeados.length, pct: Math.round((mapeados.length / total) * 100) },
-        progresso: { qtd: estudados.length, pct: Math.round((estudados.length / total) * 100) },
-        dominio: { qtd: dominados.length, pct: Math.round((dominados.length / total) * 100) },
+        cobertura: {
+            qtd: mapeados.length,
+            pct: Math.round((mapeados.length / total) * 100),
+            detalhe: `${mapeados.length} de ${total} tópicos do edital mapeados no vault`
+        },
+        exposicao: {
+            qtd: expostos.length,
+            pct: Math.round((expostos.length / total) * 100),
+            detalhe: `${expostos.length} de ${total} tópicos já trabalhados em sessões`
+        },
+        dominio: {
+            texto: dominioTexto,
+            detalhe: dominioDetalhe
+        },
         naoMapeados
     };
 }
@@ -302,7 +336,7 @@ function renderizarPainelEstudos() {
         return;
     }
 
-    // Subtítulo do masthead
+    // Subtítulo editorial
     const subTitle = document.getElementById("subtitulo-concurso");
     if (subTitle) {
         subTitle.textContent = `${concurso.nome.toLowerCase()} • ${concurso.cargo.toLowerCase()}`;
@@ -313,129 +347,97 @@ function renderizarPainelEstudos() {
     const hoje = new Date();
     const diffDias = Math.ceil((dataProva - hoje) / (1000 * 60 * 60 * 24));
 
-    // Itens do edital do concurso ativo
+    // Itens do edital e métricas semânticas
     const itensConcurso = dadosEditalItens.filter(i => i.concursoId === concurso.id);
-    const metricas = calcularTresIndicadores(itensConcurso);
+    const metricas = calcularTresIndicadoresSemanticos(itensConcurso);
 
-    // Erros e revisões do concurso ativo
-    const errosConcurso = dadosErros.filter(e => !e.concursoId || e.concursoId === concurso.id);
-    const revisoesConcurso = dadosRevisoes.filter(r => !r.concursoId || r.concursoId === concurso.id);
-
-    // Identificar recomendação prioritária
-    const topItemReforco = itensConcurso.find(i => i.status === "precisa_reforco");
-    const matTop = topItemReforco && dadosMaterias.find(m => m.id === topItemReforco.materiaIds[0]);
+    // Erros reais pendentes de reforço do concurso
+    const errosPendentes = dadosErros.filter(e => e.concursoId === concurso.id && e.status === "pendente_reforco");
+    const erroPrioritario = errosPendentes[0];
+    const matErroPrioritario = erroPrioritario && dadosMaterias.find(m => m.id === erroPrioritario.materiaId);
 
     container.innerHTML = `
-        <div class="banner-concurso-ativo">
+        <div class="painel-meta-topo">
             <div>
-                <div class="banner-concurso-titulo">${concurso.nome} — ${concurso.cargo}</div>
-                <div class="banner-concurso-sub">Banca oficial: <strong>${concurso.banca}</strong> | Prova prevista: <strong>${dataProva.toLocaleDateString('pt-BR')}</strong></div>
+                <h2 class="painel-meta-concurso-nome">${concurso.nome} — ${concurso.cargo}</h2>
+                <p class="painel-meta-concurso-sub">Banca examinadora: ${concurso.banca} · Prova em ${dataProva.toLocaleDateString('pt-BR')}</p>
             </div>
-            <div class="banner-concurso-dias">
-                <div class="banner-concurso-numero">${diffDias > 0 ? diffDias : 0}</div>
-                <div class="banner-concurso-rotulo">Dias restantes</div>
+            <div class="painel-dias-bloco">
+                <div class="painel-dias-numero">${diffDias > 0 ? diffDias : 0}</div>
+                <div class="painel-dias-legenda">dias até a prova</div>
             </div>
         </div>
 
-        <div class="cta-estudar-hoje">
-            <div>
-                <div style="font-size: 11px; text-transform: uppercase; font-family: 'Space Mono', monospace; color: var(--accent-blue); font-weight: 700; margin-bottom: 4px;">
-                    Plano Dirigido • O Que Estudar Hoje
+        ${erroPrioritario && matErroPrioritario ? `
+            <div class="painel-prioridade-faixa">
+                <div class="painel-prioridade-etiqueta">Próxima Prioridade</div>
+                <div>
+                    <div class="painel-prioridade-titulo">${matErroPrioritario.nome}</div>
+                    <div class="painel-prioridade-desc">${erroPrioritario.descricaoRegra} (Registrado em ${erroPrioritario.sourcePath})</div>
                 </div>
-                <div style="font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 4px;">
-                    ${matTop ? matTop.nome : 'Revisão do Edital'}
-                </div>
-                <div style="font-size: 13px; color: var(--muted); max-width: 650px;">
-                    ${topItemReforco ? `Item ${topItemReforco.codigo}: ${topItemReforco.descricao} (Prioridade Crítica - Erros Clínicos Mapeados)` : 'Nenhuma pendência crítica imediata.'}
-                </div>
-            </div>
-            <div>
-                ${matTop ? `
-                    <a href="#/${encodeURIComponent(matTop.area)}/${encodeURIComponent(matTop.nome)}" class="btn-estudar-hoje">
-                        Estudar Teoria Agora →
+                <div>
+                    <a href="#/${encodeURIComponent(matErroPrioritario.area)}/${encodeURIComponent(matErroPrioritario.nome)}" class="btn-estudar-minimal">
+                        Revisar Nota →
                     </a>
-                ` : `
-                    <a href="#explorar-disciplinas" class="btn-estudar-hoje">
-                        Ver Matérias →
-                    </a>
-                `}
+                </div>
+            </div>
+        ` : ''}
+
+        <div class="regua-tres-indicadores">
+            <div class="celula-indicador">
+                <div class="indicador-rotulo">Cobertura do Edital</div>
+                <div class="indicador-valor">${metricas.cobertura.pct}%</div>
+                <div class="indicador-explicacao">${metricas.cobertura.detalhe}</div>
+            </div>
+
+            <div class="celula-indicador">
+                <div class="indicador-rotulo">Exposição ao Conteúdo</div>
+                <div class="indicador-valor">${metricas.exposicao.pct}%</div>
+                <div class="indicador-explicacao">${metricas.exposicao.detalhe}</div>
+            </div>
+
+            <div class="celula-indicador">
+                <div class="indicador-rotulo">Domínio Validado</div>
+                <div class="indicador-valor ${metricas.dominio.texto.includes('%') ? '' : 'valor-indisponivel'}">${metricas.dominio.texto}</div>
+                <div class="indicador-explicacao">${metricas.dominio.detalhe}</div>
             </div>
         </div>
 
-        <div class="grid-tres-indicadores">
-            <div class="card-indicador">
-                <div class="card-indicador-cabecalho">
-                    <span class="card-indicador-titulo">1. Cobertura do Edital</span>
-                    <span class="badge-status badge-revisado">${metricas.cobertura.qtd}/${metricas.total} itens</span>
-                </div>
-                <div class="card-indicador-valor">${metricas.cobertura.pct}%</div>
-                <div class="card-indicador-barra">
-                    <div class="card-indicador-progresso" style="width: ${metricas.cobertura.pct}%;"></div>
-                </div>
-                <div class="card-indicador-meta">Itens com matéria canônica vinculada.</div>
-            </div>
-
-            <div class="card-indicador">
-                <div class="card-indicador-cabecalho">
-                    <span class="card-indicador-titulo">2. Progresso de Estudo</span>
-                    <span class="badge-status badge-em_estudo">${metricas.progresso.qtd}/${metricas.total} itens</span>
-                </div>
-                <div class="card-indicador-valor">${metricas.progresso.pct}%</div>
-                <div class="card-indicador-barra">
-                    <div class="card-indicador-progresso" style="width: ${metricas.progresso.pct}%; background: #f59e0b;"></div>
-                </div>
-                <div class="card-indicador-meta">Itens que já saíram de "não iniciado".</div>
-            </div>
-
-            <div class="card-indicador">
-                <div class="card-indicador-cabecalho">
-                    <span class="card-indicador-titulo">3. Domínio Validado</span>
-                    <span class="badge-status badge-dominado">${metricas.dominio.qtd}/${metricas.total} itens</span>
-                </div>
-                <div class="card-indicador-valor">${metricas.dominio.pct}%</div>
-                <div class="card-indicador-barra">
-                    <div class="card-indicador-progresso" style="width: ${metricas.dominio.pct}%; background: #3fb950;"></div>
-                </div>
-                <div class="card-indicador-meta">Itens dominados via simulados e questões.</div>
-            </div>
+        <div class="edital-secao-titulo">
+            <h3>Mapeamento Oficial do Edital</h3>
+            <span style="font-family: 'Space Mono', monospace; font-size: 11px; color: var(--muted);">${itensConcurso.length} itens</span>
         </div>
 
-        <div class="tabela-edital-wrapper">
-            <div style="padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
-                <strong style="font-size: 14px; color: var(--text);">Itens do Edital & Matérias Canônicas Vinculadas</strong>
-                <span style="font-size: 12px; color: var(--muted);">${itensConcurso.length} itens cadastrados</span>
-            </div>
-            <table class="tabela-edital">
-                <thead>
-                    <tr>
-                        <th style="width: 80px;">Código</th>
-                        <th style="width: 150px;">Disciplina</th>
-                        <th>Descrição Oficial do Edital</th>
-                        <th style="width: 160px;">Matéria Canônica</th>
-                        <th style="width: 120px;">Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    ${itensConcurso.map(item => {
-                        const mat = dadosMaterias.find(m => item.materiaIds.includes(m.id));
-                        const isNaoMapeado = !mat;
-                        return `
-                            <tr>
-                                <td style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px;">${item.codigo}</td>
-                                <td style="color: var(--muted); font-size: 12px;">${item.disciplina}</td>
-                                <td>${item.descricao}</td>
-                                <td>
-                                    ${mat ? `<a href="#/${encodeURIComponent(mat.area)}/${encodeURIComponent(mat.nome)}" style="color: var(--accent-blue); font-size: 12px;">${mat.nome}</a>` : '<span class="badge-status badge-nao_mapeado">não mapeado</span>'}
-                                </td>
-                                <td>
-                                    <span class="badge-status badge-${item.status}">[${item.status.replace('_', ' ')}]</span>
-                                </td>
-                            </tr>
-                        `;
-                    }).join("")}
-                </tbody>
-            </table>
-        </div>
+        <table class="tabela-edital-suica">
+            <thead>
+                <tr>
+                    <th style="width: 80px;">Item</th>
+                    <th style="width: 170px;">Disciplina</th>
+                    <th>Descrição do Edital</th>
+                    <th style="width: 200px;">Matéria no Vault</th>
+                    <th style="width: 140px;">Evidência de Domínio</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${itensConcurso.map(item => {
+                    const mat = dadosMaterias.find(m => item.materiaIds.includes(m.id));
+                    const domInfo = item.evidenciaDominio;
+                    return `
+                        <tr>
+                            <td class="codigo-edital">${item.codigo}</td>
+                            <td style="color: var(--muted);">${item.disciplina}</td>
+                            <td>${item.descricao}</td>
+                            <td>
+                                ${mat ? `<a href="#/${encodeURIComponent(mat.area)}/${encodeURIComponent(mat.nome)}" style="color: var(--text); border-bottom: 1px solid rgba(255,255,255,0.2); text-decoration: none;">${mat.nome}</a>` : '<span class="status-nao-mapeado">[não mapeado]</span>'}
+                            </td>
+                            <td class="status-rotulo">
+                                ${domInfo && domInfo.mensuravel ? `${domInfo.status === 'validado' ? 'Retenção 100%' : 'Em reforço (' + domInfo.taxaAcertoRecente + '%)'}` : 'insuficiente'}
+                            </td>
+                        </tr>
+                    `;
+                }).join("")}
+            </tbody>
+        </table>
     `;
 }
 

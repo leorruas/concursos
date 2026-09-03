@@ -1951,3 +1951,190 @@ html body .artigo-corpo h3::before {
     .nav-search-container { max-width: 120px; margin-right: 8px; }
     .nav-search-container input { padding-left: 4px; padding-right: 4px; }
 }
+
+/* ==========================================================================
+   CAMADA ESTRATÉGICA DO CONCURSO (DESIGN SUÍÇO / TYPOGRAPHIC STYLE)
+   Alinhada 1:1 à tipografia, espaçamentos e linhas finas do baseline
+   ========================================================================== */
+
+.concurso-home-bloco {
+    margin-bottom: 40px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="light"] .concurso-home-bloco {
+    border-bottom-color: rgba(0, 0, 0, 0.12);
+}
+
+/* Linha Superior: Seletor Textual Minimalista e Dias */
+.concurso-linha-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.concurso-seletor-textual {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.concurso-seletor-rotulo {
+    color: var(--muted);
+    margin-right: 4px;
+}
+
+.concurso-btn-opcao {
+    background: transparent;
+    border: none;
+    color: var(--muted);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0 2px 2px 2px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.concurso-btn-opcao:hover {
+    color: var(--text);
+}
+
+.concurso-btn-opcao.concurso-selecionado {
+    color: var(--accent-blue);
+    font-weight: 700;
+    border-bottom: 1px solid var(--accent-blue);
+}
+
+.concurso-barra-separadora {
+    color: var(--muted);
+    opacity: 0.3;
+}
+
+.concurso-dias-container {
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.concurso-dias-destaque {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent-blue);
+}
+
+/* Faixa Editorial: Próxima Prioridade */
+.concurso-prioridade-linha {
+    display: grid;
+    grid-template-columns: 140px 1fr auto;
+    gap: 16px;
+    align-items: baseline;
+    padding: 14px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 24px;
+}
+
+[data-theme="light"] .concurso-prioridade-linha {
+    border-top-color: rgba(0, 0, 0, 0.08);
+    border-bottom-color: rgba(0, 0, 0, 0.08);
+}
+
+.concurso-prioridade-tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--accent-blue);
+    font-weight: 700;
+}
+
+.concurso-prioridade-texto {
+    font-size: 14px;
+    color: var(--text);
+    margin: 0;
+}
+
+.concurso-prioridade-sub {
+    font-size: 12px;
+    color: var(--muted);
+    margin: 2px 0 0 0;
+}
+
+.concurso-link-estudo {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--accent-blue);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent-blue);
+    padding-bottom: 1px;
+    white-space: nowrap;
+}
+
+.concurso-link-estudo:hover {
+    color: var(--accent-blue-hover);
+    border-bottom-color: var(--accent-blue-hover);
+}
+
+/* Régua dos Três Indicadores Tipográficos (Grid Modernista Sem Cards) */
+.concurso-regua-indicadores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.concurso-celula-indicador {
+    border-left: 2px solid var(--accent-blue-alpha-30);
+    padding-left: 14px;
+}
+
+.concurso-indicador-rotulo {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--muted);
+    margin-bottom: 6px;
+}
+
+.concurso-indicador-valor {
+    font-family: 'Space Mono', monospace;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+}
+
+.concurso-indicador-valor.valor-indisponivel {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--muted);
+    font-family: 'Archivo', sans-serif;
+    line-height: 1.2;
+}
+
+.concurso-indicador-detalhe {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.3;
+}
+
+@media (max-width: 640px) {
+    .concurso-prioridade-linha {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+    .concurso-regua-indicadores {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}

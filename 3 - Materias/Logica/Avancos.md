@@ -3,7 +3,7 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-05-28
-updated: 2026-09-01
+updated: 2026-09-03
 ---
 # Avanços e desempenho
 
@@ -20,6 +20,7 @@ updated: 2026-09-01
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 02/09/2026 | 13 | Raciocínio Lógico | Ingestão de Inbox (Bateria Dirigida — Condicional e Linguagem Natural): Bateria 1 (3/5), Bateria 2 (1/4) e Bateria 3 (2/4 válida; Q2 anulada por ambiguidade técnica). Total útil: 6/13 (46,2%) |
 | 02/07/2026 | 10 | Raciocínio Lógico | Bloco de Revisão Possível × Necessário × Impossível (8/10) |
 | 30/06/2026 | 30 | Raciocínio Lógico | Revisão Geral: Módulo 1 (3/5) + Bloco De Morgan (5/5) + Inversão de Inclusão (8/10) + Bloco de Fixação (Modus Tollens vs Inversão) (10/10) |
 | 20/06/2026 | 15 | Raciocínio Lógico | Bloco 1 - Reflexo do Complemento (10/10) + Bloco 2 - Combinação com Restrições (5/5) |
@@ -35,6 +36,29 @@ updated: 2026-09-01
 ---
 
 ## Diagnósticos de desempenho
+
+### Diagnóstico de Bateria Dirigida — Condicional e Tradução da Linguagem Natural (02/09/2026)
+- **Resultado**: 46,2% no consolidado útil (6/13 acertos válidos; 1 questão anulada por formulação concorrente).
+  - *Bateria 1 (Equivalências, De Morgan e Categórica)*: 3/5 acertos (Erros nas Q1 e Q3).
+  - *Bateria 2 (Linguagem Natural, Falsidade e Aplicação)*: 1/4 acertos (Q2 correta; erros nas Q1, Q3 e Q4).
+  - *Bateria 3 (Tradução Avançada: Se, Somente Se, Necessário, A Menos Que)*: 2/4 acertos úteis (Q3 e Q5 corretas; erros nas Q1 e Q4; Q2 anulada).
+- **Diagnóstico Clínico**: O treino adaptativo confirmou que as negações de quantificadores com conjunção (Q15 do Simulado 02) e as inferências categóricas básicas foram plenamente recuperadas. O gargalo real e persistente foi isolado na **tradução da linguagem natural para a direção da implicação ($P \to Q$)** e na identificação instantânea da condicional falsa ($V \to F$ como único caso proibido):
+  1. **"P se Q" $\implies Q \to P$**: Reincidência na inversão da seta (tratando o termo introduzido por "se" como consequente em vez de antecedente/suficiente).
+  2. **Condicional Falsa ($V \to F$)**: Hesitação em identificar que $P \to Q$ só é mentira quando a hipótese se realiza e a promessa é descumprida ($P=V$ e $Q=F$).
+  3. **"P a menos que Q" $\implies \neg Q \to P$**: Nova fronteira identificada e formalizada como $\neg Q \to P \equiv \neg P \to Q$.
+  4. **"Somente se" e "É necessário"**: Plenamente assimilados e acertados na Bateria 3.
+- **Erros Mapeados**:
+  - *Q1 (Bateria 1)*: Contrapositiva desconsiderada na equivalência de $P \to Q$ ($1D$ vs $1B$).
+  - *Q3 (Bateria 1)*: Falsidade de condicional; marcou $A$ ($¬P \land Q$) em vez de $B$ ($P \land ¬Q$).
+  - *Q1 (Bateria 2)*: "Contratação se documentação"; confundiu suficiência com recíproca necessária.
+  - *Q3 (Bateria 2)*: Falsidade de declaração condicional ("se receber, enviarei"); marcou $B$ em vez de $D$.
+  - *Q4 (Bateria 2)*: Situação incompatível com norma condicional; marcou $F \to V$ em vez de $V \to F$ ($E$).
+  - *Q1 (Bateria 3)*: Convocação se nota $>80$; inverteu direção marcando condição necessária ($D$) em vez de contrapositiva ($C$).
+  - *Q4 (Bateria 3)*: "A menos que"; marcou $P \to Q$ em vez de $Q \to P$ ($B$).
+- **Diretrizes e Ajustes**:
+  - Fixar o modelo mental: $P \to Q$ proíbe unicamente $P \land \neg Q$. Toda situação restante é válida.
+  - Fixar a heurística de tradução: "se" introduz antecedente (suficiente); "somente se" introduz consequente (necessário).
+  - Enriquecida a nota teórica [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|02 • Conectivos lógicos]].
 
 ### Diagnóstico de Revisão - Possível × Necessário × Impossível (02/07/2026)
 - **Resultado**: 80,0% (8/10 acertos).

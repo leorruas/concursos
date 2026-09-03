@@ -3,7 +3,7 @@ title: "Log de saturação diária"
 type: "hub"
 status: "ativo"
 created: 2026-06-08
-updated: 2026-09-01
+updated: 2026-09-03
 ---
 # Log de saturação diária
 
@@ -17,6 +17,7 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 | Data | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Sintomas Qualitativos da Sessão |
 | :--- | :--- | :--- | :--- | :--- |
+| 02/09/2026 | 13 | 46,2% (6/13) | 46,2% | **Média**: Ingestão de Inbox em Raciocínio Lógico (13 Qs úteis; 1 questão anulada por formulação concorrente). Bateria adaptativa dirigida pós-Simulado 02 focada em equivalência e interpretação da condicional. Desempenho afetado por tensão semântica na tradução da linguagem natural para a direção da implicação ($P \to Q$), com confusão persistente entre condição suficiente ("se") e recíproca necessária ("somente se"), além de hesitação na regra do caso proibido ($V \to F$ como único cenário falso). Quantificadores com conjunção e inferência categórica mostraram-se consolidados. |
 | 01/09/2026 | 70 | 95,7% (67/70) | Não calculável | **Alta**: Simulado 02 completo. A distribuição por disciplina não foi preservada no registro, impedindo o cálculo responsável da Taxa de Aproveitamento Ponderada (TAP). Três erros: Q15 e Q35 em Lógica; Q21 em Português. |
 | 31/08/2026 | 37 | 81,1% (30/37) | 81,1% | **Média-Alta**: Ingestão de Inbox em LGPD Aprofundada / Comunicação Social (37 Qs). Baterias FGV cobrando tratamento pelo Poder Público e finalidade pública, regime de bases legais e legítimo interesse (vedado para dados sensíveis), regime do consentimento e nulidade de cláusulas genéricas, categorias de dados (distinção estrita entre dados confidenciais/financeiros vs. sensíveis e dimensões independentes sensibilidade x pseudonimização), compartilhamento por empresas estatais (regime privado em concorrência vs. público em políticas públicas), agentes de tratamento e comunicação privativa de incidentes pelo controlador, e dosimetria de sanções administrativas da ANPD (advertência como sanção e reincidência sem imposição automática de multa máxima). |
 | 12/08/2026 | 18 | 66,7% (12/18) | 66,7% | **Média-Alta**: Ingestão de Inbox em Língua Portuguesa (18 Qs). Teste diagnóstico FGV cobrando acentuação (oxítonas e hiatos em I/U), acordo ortográfico (ditongos sem acento e duplo E), concordância impessoal (*fazer/haver*), orações concessivas (*embora*), próclise obrigatória com palavras negativas, regência (*preferir X a Y* e *chegar a* + crase com cidades) e ambiguidade referencial de pronomes. |

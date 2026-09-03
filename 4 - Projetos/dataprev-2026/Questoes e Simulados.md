@@ -3,7 +3,7 @@ title: "Questões e simulados - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-09-01
+updated: 2026-09-03
 ---
 
 # Questões e simulados - Dataprev 2026
@@ -20,7 +20,8 @@ Registro de simulados realizados especificamente com foco na Dataprev e na banca
 ## Histórico de Mini-Simulados
 
 Use esta seção para registrar sessões de simulados menores focadas em matérias específicas do edital.
+- **Raciocínio Lógico (FGV — Condicional e Linguagem Natural):** 02/09/2026 — 6/13 útil (46,2%)
+- **LGPD Aprofundada (FGV):** 31/08/2026 — 30/37 (81,1%)
 - **Língua Portuguesa (FGV):** 12/08/2026 — 12/18 (66,7%)
 - **Comunicação Social (FGV):** 11/08/2026 — 40/44 (90,9%)
-- **LGPD Aprofundada (FGV):** 31/08/2026 — 30/37 (81,1%)
 

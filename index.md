@@ -25,6 +25,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[4 - Projetos/dataprev-2026/Cronograma|Cronograma]]
   - [[4 - Projetos/dataprev-2026/Estrategia|Estratégia]]
   - [[4 - Projetos/dataprev-2026/Log de erros|Log de erros]]
+- [[app/README|Painel Web Multi-Concurso (GitHub Pages)]]
 
 ## 5 - Desempenho
 - [[00 Avancos globais|Avanços e desempenho global]]

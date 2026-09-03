@@ -3,7 +3,7 @@ title: "Log de erros - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-09-01
+updated: 2026-09-03
 ---
 
 # Log de erros - Dataprev 2026
@@ -27,6 +27,9 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 
 - **Negação de universal com conjunção:** Q15 do Simulado 02 — [C]. `¬∀x(P ∧ Q) ≡ ∃x(¬P ∨ ¬Q)`. [[3 - Materias/Logica/03 - quantificadores#Negação de Universal com Predicados Compostos ("Todo... e...")|Estudo em quantificadores]].
 - **Condicional disjuntiva e recíproca:** Q35 do Simulado 02 — [C]. `P → Q ≡ ¬P ∨ Q ≡ ¬Q → ¬P`; `¬Q ∨ P` representa a recíproca. [[3 - Materias/Logica/04 - equivalencias#2. Regra do "NEyMar" (Condicional Disjuntiva)|Estudo em equivalências]].
+- **Tradução de "P se Q" na Linguagem Natural:** Bateria Dirigida (02/09/2026) — [C]. *"P se Q"* equivale a $Q \to P$ (o que vem após "se" é condição suficiente/antecedente). Inverter para $P \to Q$ gera a falácia da recíproca. [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|Estudo em Conectivos]].
+- **Condicional Falsa e Violação de Regra:** Bateria Dirigida (02/09/2026) — [C]. Toda condicional $P \to Q$ estabelece uma proibição exclusiva: não pode ocorrer $P \land \neg Q$ ($V \to F$). Todos os demais cenários ($V \to V$, $F \to V$, $F \to F$) mantêm a proposição verdadeira e compatível. [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|Estudo em Conectivos]].
+- **"P a menos que Q":** Bateria Dirigida (02/09/2026) — [K/C]. Equivale a $\neg Q \to P$ (ou $\neg P \to Q$). *"Não entregarei a menos que receba os dados"* $\equiv$ *não receber dados $\to$ não entregar relatório* $\equiv$ *entregar relatório $\to$ receber dados*. [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|Estudo em Conectivos]].
 
 ## Legislação de SI e Proteção de Dados (Marco Civil e LGPD)
 - **Marco Civil da Internet (Art. 2º - Fundamentos):** Q22 do Simulado 01 — *Livre iniciativa, livre concorrência e defesa do consumidor são fundamentos expressos do uso da internet no Brasil (art. 2º, V)*. [[3 - Materias/Informatica/01 - marco civil da internet#Fundamentos da internet no Brasil (art. 2º)|Estudo no Marco Civil]].

@@ -3,34 +3,69 @@
     "id": "dataprev-2026",
     "nome": "Dataprev 2026",
     "banca": "FGV",
-    "cargo": "Analista de TI — Perfil 9: Comunicação Social",
-    "dataProva": "2026-10-11T08:00:00-03:00",
+    "cargo": "Analista de Tecnologia da Informação — Perfil 9: Comunicação Social",
+    "dataProva": "2026-10-11T13:00:00-03:00",
     "status": "planejado",
     "sourcePath": "2 - Editais/Dataprev 2026 (Original).md",
-    "reguaPontuacao": {
-      "pontuacaoMaxima": 115,
-      "metaPontuacao": 102,
-      "pesos": {
-        "conhecimentosGerais": 1.0,
-        "conhecimentosEspecificos": 2.5
+    "estruturaProva": {
+      "totalQuestoes": 70,
+      "pontuacaoMaxima": 115.0,
+      "criterioMinimoAprovacaoPontos": 57.5,
+      "modulos": {
+        "moduloI": {
+          "nome": "Conhecimentos Gerais",
+          "questoes": 40,
+          "pesoPorQuestao": 1.0,
+          "pontos": 40.0
+        },
+        "moduloII": {
+          "nome": "Conhecimentos Específicos (Perfil 9)",
+          "questoes": 30,
+          "pesoPorQuestao": 2.5,
+          "pontos": 75.0
+        }
       }
+    },
+    "metasCandidato": {
+      "metaPontuacao": 102.0,
+      "metaPercentualPontos": 88.7,
+      "sourcePath": "4 - Projetos/dataprev-2026/Estrategia.md"
     }
   },
   {
     "id": "tcdf-2026",
     "nome": "TCDF 2026",
     "banca": "Cebraspe",
-    "cargo": "Auditor de Controle Externo (ANACE)",
-    "dataProva": "2026-12-06T08:00:00-03:00",
+    "cargo": "Analista Administrativo de Controle Externo (ANACE) — Especialidade: Serviços Técnico-Administrativos",
+    "dataProva": "2026-11-22T08:00:00-03:00",
     "status": "planejado",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "reguaPontuacao": {
-      "pontuacaoMaxima": 150,
-      "metaPontuacao": 120,
-      "pesos": {
-        "conhecimentosGerais": 1.0,
-        "conhecimentosEspecificos": 1.0
-      }
+    "estruturaProva": {
+      "totalItens": 150,
+      "pontuacaoMaxima": 150.0,
+      "metodoAvaliacao": "Certo ou Errado com fator de correcao (uma incorreta anula uma correta)",
+      "modulos": {
+        "p1": {
+          "nome": "Conhecimentos Básicos",
+          "itens": 35,
+          "minimoAprovacao": 7.0
+        },
+        "p2": {
+          "nome": "Conhecimentos Específicos",
+          "itens": 45,
+          "minimoAprovacao": 13.0
+        },
+        "p3": {
+          "nome": "Conhecimentos Especializados",
+          "itens": 70,
+          "minimoAprovacao": 21.0
+        }
+      },
+      "minimoAprovacaoConjunto": 45.0
+    },
+    "metasCandidato": {
+      "metaPontuacao": null,
+      "observacao": "Meta pessoal ainda não definida formalmente para o TCDF"
     }
   }
 ]

@@ -1,3 +1,16 @@
+## [2026-09-03] governança e dados | Consolidação e Auditoria Rigorosa de Proveniência
+- **Auditoria de Fontes em `data/concursos.json`**:
+  - Dados de edital (banca, cargo, data e horário da prova, 70 questões, peso 1,0 e 2,5, pontuação máxima 115,0, critérios de corte) auditados e confirmados 1:1 contra `2 - Editais/Dataprev 2026 (Original).md` e `2 - Editais/TCDF 2026 ANACE.md`.
+  - Corrigido o horário da prova Dataprev para 13h (conforme edital).
+  - Corrigida a data da prova do TCDF para 22/11/2026 (conforme edital, descartando a data de 06/12 que era não confirmada).
+- **Separação Epistemológica Estrita (Edital vs. Metas)**:
+  - Isoladas as metas pessoais do candidato (`metasCandidato`) da estrutura normativa da prova (`estruturaProva`). Meta de 102 pontos na Dataprev ancorada formalmente em `4 - Projetos/dataprev-2026/Estrategia.md`. TCDF marcado com meta ausente (`null`), sem inferências fictícias.
+- **Auditoria Semântica de Indicadores e Ausência de Dados**:
+  - Ajustado `script.js` para diferenciar explicitamente `0%` real de ausência de dados estruturados.
+  - Se não houver rastreio de sessões ou se não houver itens cadastrados, a interface exibe `—` e `dados insuficientes de sessões`, em vez de um número artificial.
+- **Validação de CI Expandida**:
+  - Atualizado `scripts/validate-integrity.js` para auditar a separação factual de metas e a existência física de todos os documentos-fonte declarados.
+
 ## [2026-09-03] arquitetura e design | Restauração do Baseline e Camada Estratégica Desacoplada
 - **Desacoplamento Ontológico Estrito (Biblioteca vs. Concursos)**:
   - Restaurado o baseline funcional e visual estável (`acecd96c`): todas as matérias, notas públicas, simulados, busca, leitor com KaTeX, Mermaid e comentários recuperados em sua totalidade.

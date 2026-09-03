@@ -1,36 +1,74 @@
 // ==========================================
-// SCRIPT DE SPA EDITORIAL - CONCURSOS LEORRUAS
-// Compatível 1:1 com o Design System da PUC
+// SCRIPT DE SPA EDITORIAL E PAINEL MULTI-CONCURSO
+// Concursos Leo Ruas • Dataprev 2026, TCDF & Futuros
 // ==========================================
 
+let dadosConcursos = [];
+let dadosMaterias = [];
+let dadosEditalItens = [];
+let dadosQuestoes = [];
+let dadosErros = [];
+let dadosRevisoes = [];
+let concursoAtivoId = localStorage.getItem("concurso_ativo_id") || "conc-dataprev-2026";
+
+// Carregamento resiliente: prioriza os arquivos estáticos de data/
+async function carregarDadosEstruturados() {
+    try {
+        const [resConc, resMat, resEdital, resQ, resErr, resRev] = await Promise.all([
+            fetch("data/concursos.json"),
+            fetch("data/materias.json"),
+            fetch("data/edital-itens.json"),
+            fetch("data/questoes.json"),
+            fetch("data/erros.json"),
+            fetch("data/revisoes.json")
+        ]);
+
+        if (resConc.ok) dadosConcursos = await resConc.json();
+        if (resMat.ok) dadosMaterias = await resMat.json();
+        if (resEdital.ok) dadosEditalItens = await resEdital.json();
+        if (resQ.ok) dadosQuestoes = await resQ.json();
+        if (resErr.ok) dadosErros = await resErr.json();
+        if (resRev.ok) dadosRevisoes = await resRev.json();
+    } catch (e) {
+        console.warn("Aviso: Dados de data/ não puderam ser carregados localmente, usando modo fallback:", e);
+    }
+}
+
 async function obterListaDeArquivos() {
+    // 1. Se já carregamos o catálogo canônico de matérias em data/materias.json, usamos diretamente!
+    if (dadosMaterias && dadosMaterias.length > 0) {
+        return dadosMaterias.map(m => {
+            return {
+                titulo: m.nome,
+                path: m.notaPrincipal,
+                sourcePath: m.notaPrincipal,
+                categoria: m.area
+            };
+        });
+    }
+
+    // 2. Fallback resiliente via API do GitHub (caso os JSONs não estejam disponíveis)
     try {
         const resposta = await fetch("https://api.github.com/repos/leorruas/concursos/git/trees/main?recursive=1");
         if (!resposta.ok) throw new Error("Erro na API do GitHub");
 
         const dados = await resposta.json();
-
         return dados.tree
             .filter(item => {
                 const pathLower = item.path.toLowerCase();
                 const fileName = pathLower.split("/").pop();
-                
                 if (!item.path.endsWith(".md")) return false;
                 if (item.path.includes(".obsidian") || item.path.includes(".git") || item.path.includes(".gemini") || item.path.includes(".agent")) return false;
                 if (fileName === "agents.md" || fileName === "index.md" || fileName === "me.md" || fileName === "log.md" || fileName === "gemini.md" || fileName === "readme.md") return false;
-                if (fileName.includes(" 2.md") || item.path.includes(" 2/")) return false; // Ignora duplicatas de sincronização
-                
-                // Ignora pastas privadas ou transitórias
+                if (fileName.includes(" 2.md") || item.path.includes(" 2/")) return false;
                 if (item.path.startsWith("00 inbox/") || item.path.startsWith("2 - Editais/") || item.path.startsWith("materias/") || item.path.startsWith("wiki/")) return false;
                 if (item.path.startsWith("1 - Planejamento/") || item.path.startsWith("4 - Projetos/")) return false;
-                
                 return true;
             })
             .map(item => {
                 const nomeSemExtensao = item.path.split("/").pop().replace(".md", "");
                 const partes = item.path.split("/");
                 let categoria = partes.length > 1 ? partes[0] : "Geral";
-                
                 if (item.path.startsWith("3 - Materias/")) {
                     categoria = partes[1] || "Matérias";
                 } else if (item.path.startsWith("00 - Desempenho/Simulados/")) {
@@ -38,11 +76,9 @@ async function obterListaDeArquivos() {
                 } else if (item.path.startsWith("00 - Desempenho/")) {
                     categoria = "00. Desempenho";
                 }
-
-                const urlSegura = "https://raw.githubusercontent.com/leorruas/concursos/main/" + item.path.split("/").map(encodeURIComponent).join("/");
                 return {
                     titulo: nomeSemExtensao,
-                    path: urlSegura,
+                    path: item.path,
                     sourcePath: item.path,
                     categoria: categoria
                 };
@@ -162,6 +198,10 @@ function rotaDoArtigo(artigo) {
 // Carregamento de Dados
 async function carregarTodosOsArtigos() {
     inicializarTema();
+    await carregarDadosEstruturados();
+    inicializarSeletorConcurso();
+    renderizarPainelEstudos();
+
     const lista = await obterListaDeArquivos();
 
     const promessas = lista.map(async (item) => {
@@ -203,6 +243,200 @@ async function carregarTodosOsArtigos() {
     if (window.location.hash) {
         tratarHashNavegacao();
     }
+}
+
+// --------------------------------------------------------------------------
+// PAINEL DE ESTUDOS MULTI-CONCURSO: SELETOR, TRÊS INDICADORES E PRIORIDADE
+// --------------------------------------------------------------------------
+
+function inicializarSeletorConcurso() {
+    const seletor = document.getElementById("seletor-concurso");
+    if (!seletor || !dadosConcursos.length) return;
+
+    seletor.innerHTML = dadosConcursos.map(c => `
+        <option value="${c.id}" ${c.id === concursoAtivoId ? 'selected' : ''}>
+            ${c.nome} (${c.banca})
+        </option>
+    `).join("");
+
+    seletor.addEventListener("change", (e) => {
+        concursoAtivoId = e.target.value;
+        localStorage.setItem("concurso_ativo_id", concursoAtivoId);
+        renderizarPainelEstudos();
+    });
+}
+
+function calcularTresIndicadores(itensDoConcurso) {
+    const total = itensDoConcurso.length;
+    if (total === 0) {
+        return {
+            total: 0,
+            cobertura: { qtd: 0, pct: 0 },
+            progresso: { qtd: 0, pct: 0 },
+            dominio: { qtd: 0, pct: 0 },
+            naoMapeados: []
+        };
+    }
+
+    const mapeados = itensDoConcurso.filter(i => Array.isArray(i.materiaIds) && i.materiaIds.length > 0);
+    const estudados = itensDoConcurso.filter(i => ["em_estudo", "revisado", "dominado", "precisa_reforco"].includes(i.status));
+    const dominados = itensDoConcurso.filter(i => i.status === "dominado");
+    const naoMapeados = itensDoConcurso.filter(i => !Array.isArray(i.materiaIds) || i.materiaIds.length === 0);
+
+    return {
+        total,
+        cobertura: { qtd: mapeados.length, pct: Math.round((mapeados.length / total) * 100) },
+        progresso: { qtd: estudados.length, pct: Math.round((estudados.length / total) * 100) },
+        dominio: { qtd: dominados.length, pct: Math.round((dominados.length / total) * 100) },
+        naoMapeados
+    };
+}
+
+function renderizarPainelEstudos() {
+    const container = document.getElementById("painel-dinamico-conteudo");
+    if (!container) return;
+
+    const concurso = dadosConcursos.find(c => c.id === concursoAtivoId) || dadosConcursos[0];
+    if (!concurso) {
+        container.innerHTML = "";
+        return;
+    }
+
+    // Subtítulo do masthead
+    const subTitle = document.getElementById("subtitulo-concurso");
+    if (subTitle) {
+        subTitle.textContent = `${concurso.nome.toLowerCase()} • ${concurso.cargo.toLowerCase()}`;
+    }
+
+    // Contagem de dias até a prova
+    const dataProva = new Date(concurso.dataProva);
+    const hoje = new Date();
+    const diffDias = Math.ceil((dataProva - hoje) / (1000 * 60 * 60 * 24));
+
+    // Itens do edital do concurso ativo
+    const itensConcurso = dadosEditalItens.filter(i => i.concursoId === concurso.id);
+    const metricas = calcularTresIndicadores(itensConcurso);
+
+    // Erros e revisões do concurso ativo
+    const errosConcurso = dadosErros.filter(e => !e.concursoId || e.concursoId === concurso.id);
+    const revisoesConcurso = dadosRevisoes.filter(r => !r.concursoId || r.concursoId === concurso.id);
+
+    // Identificar recomendação prioritária
+    const topItemReforco = itensConcurso.find(i => i.status === "precisa_reforco");
+    const matTop = topItemReforco && dadosMaterias.find(m => m.id === topItemReforco.materiaIds[0]);
+
+    container.innerHTML = `
+        <div class="banner-concurso-ativo">
+            <div>
+                <div class="banner-concurso-titulo">${concurso.nome} — ${concurso.cargo}</div>
+                <div class="banner-concurso-sub">Banca oficial: <strong>${concurso.banca}</strong> | Prova prevista: <strong>${dataProva.toLocaleDateString('pt-BR')}</strong></div>
+            </div>
+            <div class="banner-concurso-dias">
+                <div class="banner-concurso-numero">${diffDias > 0 ? diffDias : 0}</div>
+                <div class="banner-concurso-rotulo">Dias restantes</div>
+            </div>
+        </div>
+
+        <div class="cta-estudar-hoje">
+            <div>
+                <div style="font-size: 11px; text-transform: uppercase; font-family: 'Space Mono', monospace; color: var(--accent-blue); font-weight: 700; margin-bottom: 4px;">
+                    Plano Dirigido • O Que Estudar Hoje
+                </div>
+                <div style="font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 4px;">
+                    ${matTop ? matTop.nome : 'Revisão do Edital'}
+                </div>
+                <div style="font-size: 13px; color: var(--muted); max-width: 650px;">
+                    ${topItemReforco ? `Item ${topItemReforco.codigo}: ${topItemReforco.descricao} (Prioridade Crítica - Erros Clínicos Mapeados)` : 'Nenhuma pendência crítica imediata.'}
+                </div>
+            </div>
+            <div>
+                ${matTop ? `
+                    <a href="#/${encodeURIComponent(matTop.area)}/${encodeURIComponent(matTop.nome)}" class="btn-estudar-hoje">
+                        Estudar Teoria Agora →
+                    </a>
+                ` : `
+                    <a href="#explorar-disciplinas" class="btn-estudar-hoje">
+                        Ver Matérias →
+                    </a>
+                `}
+            </div>
+        </div>
+
+        <div class="grid-tres-indicadores">
+            <div class="card-indicador">
+                <div class="card-indicador-cabecalho">
+                    <span class="card-indicador-titulo">1. Cobertura do Edital</span>
+                    <span class="badge-status badge-revisado">${metricas.cobertura.qtd}/${metricas.total} itens</span>
+                </div>
+                <div class="card-indicador-valor">${metricas.cobertura.pct}%</div>
+                <div class="card-indicador-barra">
+                    <div class="card-indicador-progresso" style="width: ${metricas.cobertura.pct}%;"></div>
+                </div>
+                <div class="card-indicador-meta">Itens com matéria canônica vinculada.</div>
+            </div>
+
+            <div class="card-indicador">
+                <div class="card-indicador-cabecalho">
+                    <span class="card-indicador-titulo">2. Progresso de Estudo</span>
+                    <span class="badge-status badge-em_estudo">${metricas.progresso.qtd}/${metricas.total} itens</span>
+                </div>
+                <div class="card-indicador-valor">${metricas.progresso.pct}%</div>
+                <div class="card-indicador-barra">
+                    <div class="card-indicador-progresso" style="width: ${metricas.progresso.pct}%; background: #f59e0b;"></div>
+                </div>
+                <div class="card-indicador-meta">Itens que já saíram de "não iniciado".</div>
+            </div>
+
+            <div class="card-indicador">
+                <div class="card-indicador-cabecalho">
+                    <span class="card-indicador-titulo">3. Domínio Validado</span>
+                    <span class="badge-status badge-dominado">${metricas.dominio.qtd}/${metricas.total} itens</span>
+                </div>
+                <div class="card-indicador-valor">${metricas.dominio.pct}%</div>
+                <div class="card-indicador-barra">
+                    <div class="card-indicador-progresso" style="width: ${metricas.dominio.pct}%; background: #3fb950;"></div>
+                </div>
+                <div class="card-indicador-meta">Itens dominados via simulados e questões.</div>
+            </div>
+        </div>
+
+        <div class="tabela-edital-wrapper">
+            <div style="padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center;">
+                <strong style="font-size: 14px; color: var(--text);">Itens do Edital & Matérias Canônicas Vinculadas</strong>
+                <span style="font-size: 12px; color: var(--muted);">${itensConcurso.length} itens cadastrados</span>
+            </div>
+            <table class="tabela-edital">
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">Código</th>
+                        <th style="width: 150px;">Disciplina</th>
+                        <th>Descrição Oficial do Edital</th>
+                        <th style="width: 160px;">Matéria Canônica</th>
+                        <th style="width: 120px;">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${itensConcurso.map(item => {
+                        const mat = dadosMaterias.find(m => item.materiaIds.includes(m.id));
+                        const isNaoMapeado = !mat;
+                        return `
+                            <tr>
+                                <td style="font-family: 'Space Mono', monospace; font-weight: 700; font-size: 12px;">${item.codigo}</td>
+                                <td style="color: var(--muted); font-size: 12px;">${item.disciplina}</td>
+                                <td>${item.descricao}</td>
+                                <td>
+                                    ${mat ? `<a href="#/${encodeURIComponent(mat.area)}/${encodeURIComponent(mat.nome)}" style="color: var(--accent-blue); font-size: 12px;">${mat.nome}</a>` : '<span class="badge-status badge-nao_mapeado">não mapeado</span>'}
+                                </td>
+                                <td>
+                                    <span class="badge-status badge-${item.status}">[${item.status.replace('_', ' ')}]</span>
+                                </td>
+                            </tr>
+                        `;
+                    }).join("")}
+                </tbody>
+            </table>
+        </div>
+    `;
 }
 
 // Renderiza a Grade Suíça

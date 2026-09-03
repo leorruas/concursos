@@ -1951,3 +1951,259 @@ html body .artigo-corpo h3::before {
     .nav-search-container { max-width: 120px; margin-right: 8px; }
     .nav-search-container input { padding-left: 4px; padding-right: 4px; }
 }
+
+/* ==========================================================================
+   PAINEL DE ESTUDOS MULTI-CONCURSO - EXTENSÃO ARQUITETURAL
+   Preserva 100% dos estilos originais do leitor de notas
+   ========================================================================== */
+
+.painel-estudos-container {
+    margin-bottom: 40px;
+}
+
+.painel-header-seletor {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.seletor-concurso-select {
+    background: var(--surface-raised);
+    color: var(--text);
+    border: 1px solid var(--accent-blue-alpha-30);
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+    outline: none;
+}
+
+.banner-concurso-ativo {
+    background: var(--surface);
+    border: 1px solid var(--accent-blue-alpha-30);
+    border-left: 4px solid var(--accent-blue);
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.banner-concurso-titulo {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
+.banner-concurso-sub {
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.banner-concurso-dias {
+    text-align: right;
+}
+
+.banner-concurso-numero {
+    font-family: 'Space Mono', monospace;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--accent-blue);
+    line-height: 1;
+}
+
+.banner-concurso-rotulo {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+    color: var(--muted);
+    letter-spacing: 0.5px;
+}
+
+.cta-estudar-hoje {
+    background: linear-gradient(135deg, var(--surface) 0%, var(--surface-raised) 100%);
+    border: 1px solid var(--accent-blue-alpha-40);
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.btn-estudar-hoje {
+    background: var(--accent-blue);
+    color: #050505;
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.btn-estudar-hoje:hover {
+    background: var(--accent-blue-hover);
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+.grid-tres-indicadores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.card-indicador {
+    background: var(--surface);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    padding: 16px;
+}
+
+[data-theme="light"] .card-indicador {
+    border-color: rgba(0, 0, 0, 0.08);
+}
+
+.card-indicador-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-indicador-titulo {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+    color: var(--muted);
+    letter-spacing: 0.5px;
+}
+
+.card-indicador-valor {
+    font-family: 'Space Mono', monospace;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+}
+
+.card-indicador-barra {
+    background: var(--surface-raised);
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.card-indicador-progresso {
+    height: 100%;
+    background: var(--accent-blue);
+    transition: width 0.3s ease;
+}
+
+.card-indicador-meta {
+    font-size: 12px;
+    color: var(--muted);
+}
+
+.tabela-edital-wrapper {
+    overflow-x: auto;
+    background: var(--surface);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    margin-bottom: 28px;
+}
+
+[data-theme="light"] .tabela-edital-wrapper {
+    border-color: rgba(0, 0, 0, 0.08);
+}
+
+.tabela-edital {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: left;
+}
+
+.tabela-edital th {
+    background: var(--surface-raised);
+    padding: 10px 14px;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.tabela-edital td {
+    padding: 12px 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--text);
+    vertical-align: middle;
+}
+
+.tabela-edital tr:hover td {
+    background: var(--accent-blue-alpha-05);
+}
+
+.badge-status {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 600;
+}
+
+.badge-dominado { background: rgba(63, 185, 80, 0.15); color: #3fb950; border: 1px solid #3fb950; }
+.badge-revisado { background: rgba(56, 189, 248, 0.15); color: #38bdf8; }
+.badge-em_estudo { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
+.badge-precisa_reforco { background: rgba(248, 81, 73, 0.15); color: #f85149; border: 1px solid #f85149; }
+.badge-nao_iniciado { background: rgba(161, 161, 166, 0.15); color: #a1a1a6; }
+.badge-nao_mapeado { background: rgba(248, 81, 73, 0.15); color: #f85149; }
+
+.painel-abas-navegacao {
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+}
+
+.aba-btn {
+    background: transparent;
+    border: none;
+    color: var(--muted);
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    padding: 6px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+}
+
+.aba-btn:hover {
+    color: var(--text);
+    background: var(--surface-raised);
+}
+
+.aba-btn.aba-ativa {
+    color: var(--accent-blue);
+    background: var(--accent-blue-alpha-15);
+    font-weight: 700;
+}

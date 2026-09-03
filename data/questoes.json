@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q-log-001",
+    "materiaIds": ["mat-log-condicional"],
+    "concursoOrigem": "FGV - Dataprev (Adaptada)",
+    "ano": 2026,
+    "banca": "FGV",
+    "disciplina": "Raciocínio Lógico",
+    "enunciado": "Um gestor afirma: 'A contratação será realizada se a empresa apresentar toda a documentação exigida.' Considerando a afirmação verdadeira, é necessariamente correto concluir que:",
+    "alternativas": [
+      { "id": "A", "texto": "Se a contratação não for realizada, a empresa não apresentou toda a documentação exigida." },
+      { "id": "B", "texto": "Se a empresa não apresentar toda a documentação, a contratação não será realizada." },
+      { "id": "C", "texto": "A contratação somente será realizada caso toda a documentação seja apresentada." },
+      { "id": "D", "texto": "Realizada a contratação, conclui-se que toda a documentação foi apresentada." },
+      { "id": "E", "texto": "A apresentação de toda a documentação é necessária e suficiente para a contratação." }
+    ],
+    "respostaCorreta": "A",
+    "explicacao": "A estrutura 'P se Q' equivale a 'Se Q, então P' (documentação -> contratação). A contrapositiva equivalente é 'não P -> não Q' (não contratação -> não documentação). A alternativa D é a recíproca inválida.",
+    "dificuldade": "alta"
+  },
+  {
+    "id": "q-log-002",
+    "materiaIds": ["mat-log-condicional"],
+    "concursoOrigem": "FGV - Dataprev (Adaptada)",
+    "ano": 2026,
+    "banca": "FGV",
+    "disciplina": "Raciocínio Lógico",
+    "enunciado": "Carlos declarou: 'Se eu receber a autorização hoje, enviarei o documento hoje.' Ao final do dia, constatou-se que a declaração de Carlos era FALSA. Necessariamente:",
+    "alternativas": [
+      { "id": "A", "texto": "Carlos não recebeu a autorização e não enviou o documento." },
+      { "id": "B", "texto": "Carlos recebeu a autorização e enviou o documento." },
+      { "id": "C", "texto": "Carlos não recebeu a autorização, mas enviou o documento." },
+      { "id": "D", "texto": "Carlos recebeu a autorização, mas não enviou o documento." },
+      { "id": "E", "texto": "Carlos não enviou o documento, mas não é possível determinar se recebeu autorização." }
+    ],
+    "respostaCorreta": "D",
+    "explicacao": "A condicional P -> Q é falsa exclusivamente quando o antecedente é verdadeiro e o consequente é falso (V -> F). Logo, Carlos recebeu a autorização e não enviou o documento.",
+    "dificuldade": "media"
+  },
+  {
+    "id": "q-com-001",
+    "materiaIds": ["mat-com-lgpd"],
+    "concursoOrigem": "FGV - Dataprev 2024",
+    "ano": 2024,
+    "banca": "FGV",
+    "disciplina": "Legislação e Comunicação",
+    "enunciado": "Em relação ao regime de tratamento de dados pessoais pela administração pública na LGPD (Lei nº 13.709/2018), assinale a afirmativa correta:",
+    "alternativas": [
+      { "id": "A", "texto": "O Poder Público necessita de consentimento individual de todos os cidadãos para prestar serviços públicos essenciais previstos em lei." },
+      { "id": "B", "texto": "O legítimo interesse do controlador é base legal válida para o tratamento de dados pessoais sensíveis pelo Estado." },
+      { "id": "C", "texto": "O tratamento para cumprimento de obrigação legal ou regulatória e execução de políticas públicas legais dispensa o consentimento do titular." },
+      { "id": "D", "texto": "Empresas estatais operando em concorrência de mercado submetem-se às mesmas prerrogativas de dispensa da administração direta." },
+      { "id": "E", "texto": "A presença de um único dado sensível na base contamina todo o conjunto com a categoria de dado sensível." }
+    ],
+    "respostaCorreta": "C",
+    "explicacao": "Conforme o art. 7º, II e III, e art. 23, a administração pública pode tratar dados independentemente de consentimento para o cumprimento de atribuições legais e políticas públicas.",
+    "dificuldade": "media"
+  },
+  {
+    "id": "q-port-001",
+    "materiaIds": ["mat-port-concordancia"],
+    "concursoOrigem": "FGV - Simulado 02",
+    "ano": 2026,
+    "banca": "FGV",
+    "disciplina": "Língua Portuguesa",
+    "enunciado": "Assinale a opção que apresenta a frase correta quanto à concordância verbal da norma culta:",
+    "alternativas": [
+      { "id": "A", "texto": "Pode haverem alternativas mais eficientes para o setor." },
+      { "id": "B", "texto": "Devem existir soluções mais simples para este entrave." },
+      { "id": "C", "texto": "Fazem cinco anos que a instituição adotou novos procedimentos." },
+      { "id": "D", "texto": "Pode ocorrer diversas alterações no edital do concurso." },
+      { "id": "E", "texto": "Haviam muitos analistas presentes na audiência de mediação." }
+    ],
+    "respostaCorreta": "B",
+    "explicacao": "O verbo 'existir' é pessoal e seu sujeito é 'soluções mais simples', logo a locução concorda no plural ('Devem existir'). O verbo 'haver' existencial e 'fazer' temporal são impessoais (ficam no singular).",
+    "dificuldade": "media"
+  }
+]

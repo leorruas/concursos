@@ -1,3 +1,34 @@
+## [2026-09-03] tecnologia e projetos | Evolução Arquitetural de leorruas/concursos (GitHub Pages)
+- **Diagnóstico e Evolução Não-Destrutiva**:
+  - Eliminado o gargalo de dependência da API do GitHub em runtime (que sofria com rate limit de 60 req/h com bloqueio HTTP 403) e as filtragens frágeis baseadas em nome de pastas no cliente.
+  - Implementado modelo de dados estruturado na raiz: [[data/materias.json]] (matérias canônicas permanentes com `notaPrincipal` apontando para `3 - Materias/`), [[data/concursos.json]] (Dataprev 2026 e TCDF 2026), [[data/edital-itens.json]] (com relacionamento N:M, status padronizados e prioridade manual), [[data/questoes.json]], [[data/erros.json]] e [[data/revisoes.json]].
+  - Preservados 100% dos recursos prévios: leitor de artigos Markdown com suporte a KaTeX, Mermaid, callouts do Obsidian, comentários inline, Table of Contents (TOC) e modo claro/escuro.
+  - Refatorados [[index.html]] e [[script.js]]: inserido seletor de concurso ativo na barra de navegação, painel dinâmico com contagem regressiva de dias, botão prioritário **"O que estudar hoje"**, e os **três indicadores independentes** (Cobertura do Edital, Progresso de Estudo e Domínio Validado), além da visualização explícita de itens "não mapeados".
+  - Criado o script de auditoria [[scripts/validate-integrity.js]] e integrado ao workflow oficial [[.github/workflows/pages.yml]].
+
+## [2026-09-03] tecnologia e projetos | Painel Pessoal de Estudos Multi-Concurso (GitHub Pages)
+- **Arquitetura e Implementação**:
+  - Projetada e construída a aplicação web estática SPA em `app/`, frontend-only e pronta para publicação direta no GitHub Pages.
+  - Implementada a separação estrita da informação sob o princípio central de que *a matéria é permanente e o concurso é uma camada de seleção, prioridade e prazo*.
+  - Base de dados estruturada em JSON: [[app/data/materias.json]] (matérias canônicas permanentes), [[app/data/concursos.json]] (Dataprev 2026 e TCDF 2026 com réguas de pontuação e pesos oficiais), [[app/data/dataprev-2026-edital.json]], [[app/data/tcdf-2026-edital.json]], [[app/data/questoes.json]], [[app/data/erros.json]] e [[app/data/revisoes.json]].
+  - Views implementadas: Dashboard com contagem regressiva e métricas, Fila "O que estudar hoje" (SRS e erros clínicos), Tabela dinâmica de Edital com filtros rápidos, Catálogo de Matérias, Leitor Markdown integrado com fórmulas KaTeX, Banco de Questões com gabarito dinâmico e Caderno Clínico de Erros [K, C, I, D].
+  - Criado o script automatizado de auditoria referencial [[app/scripts/validate-integrity.js]] garantindo 100% de integridade nos links e caminhos Markdown.
+  - Configurado o workflow de deploy contínuo em [[.github/workflows/deploy.yml]].
+
+## [2026-09-03] desempenho e matérias | Ingestão de Inbox (Bateria Dirigida de Lógica — 02/09/2026)
+- **Ingestão e Desempenho**:
+  - Ingeridas e processadas as 14 questões da bateria adaptativa de Raciocínio Lógico (02/09/2026) focada em condicional e tradução da linguagem natural, executada em três blocos após os erros do Simulado 02 (Q15 e Q35).
+  - Resultado útil: 6/13 acertos válidos (46,2%), com 1 questão anulada por formulação concorrente (Q2 do Bloco 3).
+  - Diagnosticada clinicamente a retenção sólida em negação de quantificadores com conjunção e em inferências categóricas, isolando a vulnerabilidade restante na tradução da linguagem natural para a implicação ($P \to Q$), na identificação da condicional falsa ($V \to F$ como único caso proibido) e na estrutura "a menos que".
+- **Enriquecimento Teórico**:
+  - Enriquecida a nota [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|02 • Conectivos lógicos]] com as regras formais de conversão de linguagem natural para implicação: *"P se Q"* ($\implies Q \to P$), *"P somente se Q"* ($\implies P \to Q$), *"Q é necessário para P"* ($\implies P \to Q$), *"P a menos que Q"* ($\implies \neg Q \to P \equiv \neg P \to Q$) e a heurística operacional do caso proibido ($P \land \neg Q$).
+- **Sincronia de Desempenho e Projetos**:
+  - Registrada a sessão e o diagnóstico clínico completo em [[3 - Materias/Logica/Avancos|Avanços e desempenho (Lógica)]].
+  - Atualizados o [[00 - Desempenho/00 Avancos globais|Avanços globais]] (janela deslizante de 30 dias de Lógica recalculada para 42,1% em 19 Qs; Semana 36 consolidada em 190 Qs e 157 acertos) e o [[00 - Desempenho/01 Log de saturacao diaria|Log de saturação diária]] (sessão de 02/09 com 13 Qs úteis, 46,2% TAP).
+  - Atualizados os arquivos de acompanhamento do projeto Dataprev: [[4 - Projetos/dataprev-2026/Questoes e Simulados|Questões e simulados]] (histórico de mini-simulados) e [[4 - Projetos/dataprev-2026/Log de erros|Log de erros (FGV)]].
+- **Housekeeping**:
+  - Limpo o arquivo de ingestão [[00 inbox/00 ingestão.md]], preservando cabeçalho e frontmatter em conformidade com as diretrizes do vault.
+
 ## [2026-09-01] desempenho e matérias | Simulado 02 completo
 - **Catalogação:** Criado e indexado o [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], com resultado bruto de 67/70 (95,7%) e três erros: Q15 [C], Q21 [D/C] e Q35 [C].
 - **Limite metodológico:** A distribuição real das questões por disciplina não foi preservada; por isso, a nota ponderada Dataprev /115 e a Taxa de Aproveitamento Ponderada (TAP) foram registradas como não calculáveis.

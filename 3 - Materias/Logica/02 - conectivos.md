@@ -3,7 +3,7 @@ title: "Conectivos lógicos"
 type: "conceito"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-05-26
+updated: 2026-09-03
 ---
 # Conectivos lógicos
 
@@ -67,6 +67,32 @@ Também é comum a aplicação desses conectivos em frases do cotidiano, o que a
   - O antecedente ($p$) é **condição suficiente** para o consequente ($q$). (Ex: *Chover* é suficiente para a rua ficar molhada).
   - O consequente ($q$) é **condição necessária** para o antecedente ($p$). (Ex: *A rua ficar molhada* é necessário para que se possa concluir que choveu).
 - **Variações em prova**: "q, se p", "p implica q", "quando p, q", "como p, q", "p é suficiente para q", "q é necessário para p", "apenas se q, p".
+
+### Tradução da linguagem natural para a condicional (direção da seta)
+Em provas de alto nível da FGV, o maior obstáculo não é a álgebra dos símbolos, mas a conversão precisa das nuances da língua portuguesa para a direção correta da implicação ($p \to q$):
+
+1. **"P se Q" $\implies Q \to P$**:
+   - O conectivo "se" sempre introduz o **antecedente (condição suficiente)**, não importando a ordem na frase.
+   - *Exemplo*: "O candidato será convocado se obtiver nota superior a 80" $\equiv \text{nota} > 80 \to \text{convocado}$.
+   - *Atenção à recíproca inválida*: Concluir que todo candidato convocado tirou $>80$ é falácia da recíproca ($P \to Q \not\equiv Q \to P$).
+
+2. **"P somente se Q" $\implies P \to Q$**:
+   - O que vem depois de "somente se" introduz o **consequente (condição necessária)**.
+   - *Exemplo*: "Joana somente participa da reunião se Carlos estiver presente" $\equiv \text{Joana participa} \to \text{Carlos presente}$.
+   - *Cenário proibido*: Joana participar sem Carlos estar presente ($V \to F$).
+
+3. **"Q é condição necessária para P" $\implies P \to Q$**:
+   - Aquilo que é necessário fica na ponta da seta (consequente).
+   - *Exemplo*: "Para assumir o cargo, é necessário apresentar o diploma" $\equiv \text{assumir cargo} \to \text{apresentar diploma}$.
+   - *Dedução necessária*: Quem assume o cargo necessariamente apresentou o diploma. Ter diploma, porém, não garante que assumirá.
+
+4. **"P a menos que Q" $\implies \neg Q \to P$ (ou $\neg P \to Q$)**:
+   - "A menos que" introduz uma exceção ou condição sem a qual $P$ ocorre: $\neg Q \to P \equiv \neg P \to Q$.
+   - *Exemplo com negação*: "Não entregarei o relatório hoje, a menos que receba os dados" $\equiv \text{não receber dados} \to \text{não entregar relatório} \equiv \text{entregar relatório} \to \text{receber dados}$.
+
+5. **Heurística operacional da condicional (o caso proibido)**:
+   - Toda condicional $P \to Q$ equivale formalmente a uma **proibição exclusiva**: não pode ocorrer $P \land \neg Q$ ("prometeu e não cumpriu").
+   - Todos os outros três cenários ($V \to V$, $F \to V$, $F \to F$) mantêm a proposição verdadeira e plenamente compatível com a norma.
 
 ### Bicondicional / Equivalência (↔) — "se e somente se"
 - **Função**: Expressa equivalência mútua, uma condicional de ida e volta: $(p \to q) \land (q \to p)$.

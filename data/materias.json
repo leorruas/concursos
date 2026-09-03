@@ -1,0 +1,75 @@
+[
+  {
+    "id": "mat-log-condicional",
+    "nome": "Condicional, Equivalências e Linguagem Natural",
+    "area": "Raciocínio Lógico",
+    "slug": "condicional-equivalencias",
+    "notaPrincipal": "3 - Materias/Logica/02 - conectivos.md",
+    "notasRelacionadas": [
+      "3 - Materias/Logica/04 - equivalencias.md",
+      "3 - Materias/Logica/05 - tabela verdade.md"
+    ],
+    "tags": ["logica-proposicional", "fgv", "conectivos", "equivalencias"],
+    "custoCognitivo": 1.5,
+    "resumo": "Regras de implicação lógica, contrapositiva, equivalência disjuntiva (NEyMar) e tradução da linguagem natural ('se', 'somente se', 'a menos que')."
+  },
+  {
+    "id": "mat-log-quantificadores",
+    "nome": "Quantificadores e Negação de Proposições Categóricas",
+    "area": "Raciocínio Lógico",
+    "slug": "quantificadores-logicos",
+    "notaPrincipal": "3 - Materias/Logica/03 - quantificadores.md",
+    "notasRelacionadas": [],
+    "tags": ["quantificadores", "de-morgan", "fgv", "silogismos"],
+    "custoCognitivo": 1.5,
+    "resumo": "Negação de quantificador universal (Todo -> Pelo menos um não) e predicados compostos com conjunção."
+  },
+  {
+    "id": "mat-com-lgpd",
+    "nome": "LGPD — Princípios, Bases Legais e Setor Público",
+    "area": "Legislação e Proteção de Dados",
+    "slug": "lgpd-principios-bases",
+    "notaPrincipal": "3 - Materias/Comunicacao/03 - lai lgpd e transparencia.md",
+    "notasRelacionadas": [
+      "3 - Materias/Informatica/01 - marco civil da internet.md"
+    ],
+    "tags": ["lgpd", "comunicacao-publica", "seguranca-informacao", "anpd"],
+    "custoCognitivo": 1.0,
+    "resumo": "Tratamento de dados pelo Poder Público e estatais, vedação de legítimo interesse para dados sensíveis, consentimento e sanções da ANPD."
+  },
+  {
+    "id": "mat-com-schein",
+    "nome": "Cultura Organizacional e Níveis de Edgar Schein",
+    "area": "Comunicação Social",
+    "slug": "cultura-organizacional-schein",
+    "notaPrincipal": "3 - Materias/Comunicacao/09 - comunicacao interna.md",
+    "notasRelacionadas": [
+      "3 - Materias/Comunicacao/01 - comunicacao organizacional.md"
+    ],
+    "tags": ["comunicacao-organizacional", "cultura", "fgv", "schein"],
+    "custoCognitivo": 1.0,
+    "resumo": "Artefatos visíveis, valores compartilhados e pressupostos básicos inconscientes na dinâmica corporativa."
+  },
+  {
+    "id": "mat-port-concordancia",
+    "nome": "Concordância Verbal e Verbos Impessoais",
+    "area": "Língua Portuguesa",
+    "slug": "concordancia-verbal",
+    "notaPrincipal": "3 - Materias/Portugues/02 - sujeito.md",
+    "notasRelacionadas": [],
+    "tags": ["gramatica", "fgv", "sintaxe", "concordancia"],
+    "custoCognitivo": 1.2,
+    "resumo": "Regras de impessoalidade (haver e fazer) vs verbos pessoais (existir e ocorrer) em locuções verbais, e funções da partícula SE."
+  },
+  {
+    "id": "mat-port-conectivos",
+    "nome": "Conectivos, Orações Coordenadas e Subordinação Concessiva",
+    "area": "Língua Portuguesa",
+    "slug": "conectivos-adversativas-concessivas",
+    "notaPrincipal": "3 - Materias/Portugues/03 - pontuacao e virgula.md",
+    "notasRelacionadas": [],
+    "tags": ["pontuacao", "sintaxe", "coesao", "fgv"],
+    "custoCognitivo": 1.2,
+    "resumo": "Diferença estrutural entre conjunções adversativas (mas, contudo) e subordinativas concessivas (embora) com verbos no subjuntivo."
+  }
+]

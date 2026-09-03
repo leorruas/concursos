@@ -126,7 +126,7 @@ Os dois “x” são independentes:
 - o segundo ao existencial: “existe um número x que é ímpar” (Verdadeiro)
 
 A expressão é uma conjunção entre duas proposições distintas ($F \land V \to F$).
-- **Erro comum:** assumir que a variável é a mesma em toda a frase, achando que o "x" repetido deixaria a frase aberta. Each quantificador define seu próprio escopo (universo).
+- **Erro comum:** assumir que a variável é a mesma em toda a frase, achando que o "x" repetido deixaria a frase aberta. Cada quantificador define seu próprio escopo (universo).
 
 ### Mistura de partes abertas e fechadas
 Uma proposição composta só é considerada válida (fechada) se todas as suas partes forem proposições.

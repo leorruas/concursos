@@ -85,6 +85,64 @@ console.log('\n=== AUDITORIA 4: INTEGRIDADE SEMÂNTICA E ZERO MOCKS ===');
 check('Sem arquivos sintéticos de questões em data/', !fs.existsSync(path.join(rootDir, 'data/questoes.json')));
 check('Sem arquivos sintéticos de revisões SRS em data/', !fs.existsSync(path.join(rootDir, 'data/revisoes.json')));
 
+// 5. Auditoria de Segurança do Artefato Isolado (_site)
+if (process.argv.includes('--audit-site')) {
+  console.log('\n=== AUDITORIA 5: SEGURANÇA DO ARTEFATO DE PUBLICAÇÃO (_site) ===');
+  const siteDir = path.join(rootDir, '_site');
+  check('_site/ existe e foi gerado', fs.existsSync(siteDir));
+
+  const manifestSitePath = path.join(siteDir, 'manifest.json');
+  check('_site/manifest.json existe', fs.existsSync(manifestSitePath));
+
+  // Varrer todos os arquivos de _site e garantir ausência total de arquivos privados
+  function varrerSite(dir, rel = '') {
+    let proibidosEncontrados = [];
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const e of entries) {
+      const entryRel = path.join(rel, e.name).replace(/\\/g, '/');
+      const fullPath = path.join(dir, e.name);
+      if (e.isDirectory()) {
+        if (
+          entryRel.startsWith('00 inbox') ||
+          entryRel.startsWith('1 - Planejamento') ||
+          entryRel.startsWith('2 - Editais') ||
+          entryRel.startsWith('4 - Projetos') ||
+          entryRel.startsWith('.agent') ||
+          entryRel.startsWith('.git') ||
+          entryRel.startsWith('.github') ||
+          entryRel.startsWith('.obsidian') ||
+          entryRel.startsWith('scripts')
+        ) {
+          proibidosEncontrados.push(entryRel);
+        }
+        proibidosEncontrados.push(...varrerSite(fullPath, entryRel));
+      } else {
+        const nameLower = e.name.toLowerCase();
+        if (
+          nameLower === 'me.md' ||
+          nameLower === 'agents.md' ||
+          nameLower === 'log.md' ||
+          nameLower === 'todo.md' ||
+          nameLower.endsWith('.sh') ||
+          entryRel.startsWith('00 inbox/') ||
+          entryRel.startsWith('1 - Planejamento/') ||
+          entryRel.startsWith('2 - Editais/') ||
+          entryRel.startsWith('4 - Projetos/')
+        ) {
+          proibidosEncontrados.push(entryRel);
+        }
+      }
+    }
+    return proibidosEncontrados;
+  }
+
+  const vazamentos = varrerSite(siteDir);
+  check('Nenhum arquivo ou pasta privada presente no artefato _site/', vazamentos.length === 0);
+  if (vazamentos.length > 0) {
+    console.error('ARQUIVOS PRIVADOS DETECTADOS EM _site/:', vazamentos);
+  }
+}
+
 console.log('----------------------------------------------------');
 if (errors === 0) {
   console.log(`SUCESSO TOTAL: Auditoria concluída com 0 erros e ${warnings} avisos.`);

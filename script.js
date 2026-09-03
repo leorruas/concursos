@@ -4,6 +4,20 @@
 // ==========================================
 
 async function obterListaDeArquivos() {
+    // 1. PRIORIDADE MÁXIMA: Tenta carregar o manifesto gerado no build (rápido, estático, sem rate limit e sem vazar arquivos)
+    try {
+        const resManifest = await fetch("manifest.json");
+        if (resManifest.ok) {
+            const manifestData = await resManifest.json();
+            if (Array.isArray(manifestData) && manifestData.length > 0) {
+                return manifestData;
+            }
+        }
+    } catch (e) {
+        console.warn("Manifesto estático não encontrado, usando fallback:", e);
+    }
+
+    // 2. FALLBACK SEGURO: API do GitHub (caso aberto sem build prévio ou localmente)
     try {
         const resposta = await fetch("https://api.github.com/repos/leorruas/concursos/git/trees/main?recursive=1");
         if (!resposta.ok) throw new Error("Erro na API do GitHub");
@@ -22,7 +36,7 @@ async function obterListaDeArquivos() {
                 
                 // Ignora pastas privadas ou transitórias
                 if (item.path.startsWith("00 inbox/") || item.path.startsWith("2 - Editais/") || item.path.startsWith("materias/") || item.path.startsWith("wiki/")) return false;
-                if (item.path.startsWith("1 - Planejamento/") || item.path.startsWith("4 - Projetos/")) return false;
+                if (item.path.startsWith("1 - Planejamento/") || item.path.startsWith("4 - Projetos/") || item.path.startsWith("scripts/") || item.path.startsWith("_site/")) return false;
                 
                 return true;
             })
@@ -39,7 +53,8 @@ async function obterListaDeArquivos() {
                     categoria = "00. Desempenho";
                 }
 
-                const urlSegura = "https://raw.githubusercontent.com/leorruas/concursos/main/" + item.path.split("/").map(encodeURIComponent).join("/");
+                // Caminho relativo para funcionar tanto no _site local quanto no GitHub Pages
+                const urlSegura = item.path.split("/").map(encodeURIComponent).join("/");
                 return {
                     titulo: nomeSemExtensao,
                     path: urlSegura,

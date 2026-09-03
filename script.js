@@ -262,18 +262,32 @@ function renderizarPainelConcursoHome() {
 
     // 1. Cobertura estrutural: itens que possuem notaPath definida e existente
     const mapeados = itensConcurso.filter(i => !!i.notaPath);
-    const pctCobertura = totalItens > 0 ? Math.round((mapeados.length / totalItens) * 100) : 0;
+    let textoCobertura = "—";
+    let detalheCobertura = "sem itens cadastrados no edital";
+    if (totalItens > 0) {
+        const pctCobertura = Math.round((mapeados.length / totalItens) * 100);
+        textoCobertura = `${pctCobertura}%`;
+        detalheCobertura = `${mapeados.length} de ${totalItens} tópicos do edital mapeados no vault`;
+    }
 
-    // 2. Exposição: itens trabalhados em sessões
-    const expostos = itensConcurso.filter(i => i.exposicaoEstudo === true);
-    const pctExposicao = totalItens > 0 ? Math.round((expostos.length / totalItens) * 100) : 0;
+    // 2. Exposição: itens trabalhados em sessões registradas
+    // Se o concurso não tem rastreio formal de sessões ou se nenhum item foi marcado, registrar ausência de dados
+    const itensComRastreioExposicao = itensConcurso.filter(i => typeof i.exposicaoEstudo === "boolean");
+    let textoExposicao = "—";
+    let detalheExposicao = "dados insuficientes de sessões";
+    if (itensComRastreioExposicao.length > 0 && totalItens > 0) {
+        const expostos = itensConcurso.filter(i => i.exposicaoEstudo === true);
+        const pctExposicao = Math.round((expostos.length / totalItens) * 100);
+        textoExposicao = `${pctExposicao}%`;
+        detalheExposicao = `${expostos.length} de ${totalItens} tópicos já trabalhados`;
+    }
 
-    // 3. Domínio: evidência empírica mensurável
+    // 3. Domínio: somente quando houver evidência empírica por simulados
     const comEvidencia = itensConcurso.filter(i => i.dominioMensuravel === true && i.evidencia);
     const validados = comEvidencia.filter(i => i.evidencia.status === "validado");
     let textoDominio = "ainda não mensurável";
     let detalheDominio = "requer evidência empírica por simulados";
-    if (validados.length > 0) {
+    if (validados.length > 0 && totalItens > 0) {
         const pctDom = Math.round((validados.length / totalItens) * 100);
         textoDominio = `${pctDom}%`;
         detalheDominio = `${validados.length} de ${totalItens} tópicos com retenção comprovada`;
@@ -323,14 +337,14 @@ function renderizarPainelConcursoHome() {
         <div class="concurso-regua-indicadores">
             <div class="concurso-celula-indicador">
                 <div class="concurso-indicador-rotulo">cobertura estrutural</div>
-                <div class="concurso-indicador-valor">${pctCobertura}%</div>
-                <div class="concurso-indicador-detalhe">${mapeados.length} de ${totalItens} tópicos do edital mapeados no vault</div>
+                <div class="concurso-indicador-valor ${textoCobertura.includes('%') ? '' : 'valor-indisponivel'}">${textoCobertura}</div>
+                <div class="concurso-indicador-detalhe">${detalheCobertura}</div>
             </div>
 
             <div class="concurso-celula-indicador">
                 <div class="concurso-indicador-rotulo">exposição ao conteúdo</div>
-                <div class="concurso-indicador-valor">${pctExposicao}%</div>
-                <div class="concurso-indicador-detalhe">${expostos.length} de ${totalItens} tópicos já trabalhados</div>
+                <div class="concurso-indicador-valor ${textoExposicao.includes('%') ? '' : 'valor-indisponivel'}">${textoExposicao}</div>
+                <div class="concurso-indicador-detalhe">${detalheExposicao}</div>
             </div>
 
             <div class="concurso-celula-indicador">

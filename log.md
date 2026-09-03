@@ -1,3 +1,13 @@
+## [2026-09-03] governança | Refinamento Epistemológico e Eficiência Operacional em me.md
+- **Retificação da Pontuação Oficial vs. Meta Pessoal**:
+  - Corrigida a distinção epistemológica em [[me.md]]: 115 pontos é a pontuação máxima oficial da prova; 102 pontos (88,7%) é a meta estratégica pessoal do candidato (plano de ataque). Proibido rotular 102/115 como corte ou exigência oficial da banca.
+- **Valores Canônicos da Taxonomia de Erros**:
+  - Padronizados os valores canônicos semânticos: `conhecimento`, `confusao_conceitual`, `interpretacao` e `distracao`. As siglas `[K]`, `[C]`, `[I]`, `[D]` foram demarcadas estritamente como abreviações visuais de apresentação.
+- **Regras Operacionais e Proveniência**:
+  - Inserida a regra de **Eficiência Operacional**: a manutenção do vault subordina-se ao objetivo pedagógico; derivação automática preferida à duplicação manual de dados.
+  - Inserida a regra geral de **Proveniência e Fidelidade Epistemológica**: distinção perene entre fato oficial, histórico real, dado derivado, meta pessoal e inferência do agente.
+  - Preservado integralmente o Protocolo FGV-Dataprev de geração de simulados.
+
 ## [2026-09-03] infraestrutura e segurança | Arquitetura de Publicação Isolada (_site, manifest.json e allowlist fail-closed)
 - **Eliminação de Vazamento de Repositório no GitHub Pages**:
   - Descontinuada a publicação de `path: .` em [[.github/workflows/pages.yml]], impedindo o vazamento de pastas e arquivos internos (`00 inbox/`, `1 - Planejamento/`, `2 - Editais/`, `4 - Projetos/`, `me.md`, `agents.md`, `.agent/`, `scripts/`).

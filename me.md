@@ -68,6 +68,8 @@ updated: 2026-09-01
 - **Atribuição**: Informações sintéticas (resumos) nunca devem ser atribuídas como fala direta do autor.
 - **Neutralidade de Conceitos**: Conceitos na `wiki/6 - Conceitos/` devem ser genéricos e reutilizáveis, sem amarras a projetos específicos.
 - **Deduplicação**: Sempre ler o `index.md` para evitar criar páginas sobre temas já existentes.
+- **Eficiência Operacional**: A manutenção do vault é subordinada ao objetivo pedagógico. Atualizações de logs, dashboards, métricas e arquivos derivados não devem consumir esforço desproporcional nem interromper o treino. Sempre que a mesma informação puder ser derivada automaticamente de uma fonte canônica, preferir derivação a duplicação manual.
+- **Proveniência e Fidelidade Epistemológica**: Distinguir sempre: fato oficial/documental, registro histórico real do candidato, dado calculado/derivado, meta pessoal e inferência do agente. Nunca promover inferência, estimativa ou meta pessoal à condição de fato histórico ou oficial.
 
 ### Workflows Mandatórios
 - **Ingestão**: Ler fontes → Sintetizar na `wiki/` (ou na respectiva pasta da matéria) → Linkar via `[[Wikilinks]]` → Atualizar `index.md` e `log.md`. **Aproveitamento Máximo**: Todo conteúdo processado a partir do inbox deve ser aproveitado ao máximo para criar ou enriquecer as notas de matérias/teoria correspondentes no vault, indo além do mero registro de métricas e diagnósticos nos logs de avanços. **Enriquecimento Imediato de Teoria**: Sempre que uma questão ou simulação do inbox trouxer uma nuance, pegadinha clássica ou critério de classificação específico da banca, o agente deve obrigatoriamente atualizar a nota teórica correspondente (Camada 2) com essa informação (ex: enquadramento de vestibulares, hierarquia de releases, tipos de clipping, etc.), transformando os aprendizados das questões em teoria integrada. **Sincronia do Edital**: Ao ingerir e processar novos tópicos de estudo do inbox, o agente deve verificar de imediato quais itens do edital foram cobertos, atualizando o arquivo [[4 - Projetos/dataprev-2026/O que estudar|O que estudar (Checklist)]] e recalculando e atualizando a cobertura no [[4 - Projetos/dataprev-2026/00 Dashboard|Dashboard]].
@@ -87,15 +89,20 @@ updated: 2026-09-01
 > As regras abaixo possuem vigência estrita até o dia da prova (**11 de outubro de 2026**) e complementam os workflows gerais do vault:
 >
 > 1. **Prioridade Absoluta da Pontuação Ponderada (Peso 2,5 em Comunicação)**:
->    - Ao avaliar qualquer simulado completo ou bateria mista da Dataprev, o agente deve obrigatoriamente calcular a **Pontuação Ponderada Dataprev (máximo de 115 pontos)**:
+>    - Ao avaliar qualquer simulado completo ou bateria mista da Dataprev, o agente deve obrigatoriamente calcular a **Pontuação Ponderada Dataprev (máximo de 115 pontos)** decorrente da estrutura oficial da prova:
 >      $$\text{Nota Ponderada} = \text{Acertos Gerais (Peso 1,0)} + \left(\text{Acertos Comunicação (Peso 2,5)}\right)$$
->    - A régua de competitividade oficial a ser perseguida é $\ge \mathbf{102 / 115\text{ pontos}}$ (88,7%).
-> 2. **Taxonomia Clínica Obrigatória de Erros [K, C, I, D]**:
->    - Todo erro mapeado em simulados ou baterias do inbox deve ser classificado em uma das 4 categorias:
->      - **[K] Conhecimento**: Lacuna factual/teórica não estudada.
->      - **[C] Confusão Conceitual**: Conceito visto, mas com fronteira borrada ou aplicação invertida.
->      - **[I] Interpretação**: Leitura equivocada do comando ou extrapolação de premissas do texto.
->      - **[D] Distração / Pressa**: Lapso de leitura em delimitadores (*apenas, exceto, sempre*), marcação ou cálculo final.
+>    - **Distinção epistemológica rigorosa**:
+>      - **115 pontos**: pontuação máxima oficial decorrente da estrutura normativa da prova (70 questões: 40 gerais a 1,0 pt + 30 específicas a 2,5 pts).
+>      - **102 pontos**: meta estratégica pessoal do candidato (definida em seu plano de ataque tático).
+>      - **88,7%**: percentual correspondente à referida meta pessoal.
+>      - *Nunca rotular 102/115 como corte, exigência ou régua oficial da Dataprev*.
+> 2. **Taxonomia Clínica Obrigatória de Erros**:
+>    - Todo erro mapeado em simulados ou baterias do inbox deve ser classificado canonicamente pelos seus valores semânticos:
+>      - `conhecimento`: lacuna factual ou teórica de conteúdo não estudado (abreviação de apresentação: `[K]`).
+>      - `confusao_conceitual`: conceito visto, mas com fronteira borrada ou aplicação invertida (abreviação de apresentação: `[C]`).
+>      - `interpretacao`: leitura equivocada do comando ou extrapolação de premissas do texto (abreviação de apresentação: `[I]`).
+>      - `distracao`: lapso de leitura em delimitadores (*apenas, exceto, sempre*), marcação ou cálculo final (abreviação de apresentação: `[D]`).
+>    - As siglas `[K]`, `[C]`, `[I]`, `[D]` são exclusivamente abreviações visuais de apresentação e nunca o dado canônico.
 > 3. **Gestão por Estado de Maturidade (Fim do Estudo Teórico Passivo)**:
 >    - É terminantemente proibido reestudar teoria básica do zero para assuntos **Consolidados** (Comunicação Geral, Interpretação, IA, LAI). A manutenção deve ser feita exclusivamente via questões de nível alto da FGV.
 >    - Assuntos **Instáveis** (Português Gramatical, Lógica Proposicional, LGPD/Marco Civil) devem operar no regime **30% revisão direcionada + 70% questões**.

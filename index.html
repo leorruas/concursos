@@ -21,11 +21,7 @@
             <input type="search" id="nav-search-input" placeholder="pesquisar..." autocomplete="off">
         </label>
         <div class="nav-acoes">
-            <div class="concurso-switcher-textual" id="concurso-switcher-nav" aria-label="Alternar Concurso Ativo">
-                <!-- Links de concurso gerados dinamicamente: DATAPREV 2026 · TCDF 2026 -->
-            </div>
-            <a href="#painel-estudos" class="nav-link-pastas" id="nav-link-painel">painel</a>
-            <a href="#explorar-disciplinas" class="nav-link-pastas" id="nav-link-pastas">matérias</a>
+            <a href="#explorar-disciplinas" class="nav-link-pastas" id="nav-link-pastas">índice</a>
             <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Alternar tema">modo claro</button>
         </div>
     </nav>
@@ -38,20 +34,12 @@
             </div>
         </section>
         <div class="masthead-copy">
-            <h1 id="home-title"><span>concursos</span><small id="subtitulo-concurso">dataprev & tcdf</small></h1>
-            <p>painel pessoal de estudos, simulados e matérias permanentes</p>
+            <h1 id="home-title"><span>concursos</span><small>dataprev & tcdf</small></h1>
+            <p>caderno digital, simulados e repositório de estudos</p>
         </div>
     </header>
 
     <main>
-        <!-- Painel de Estudos Dinâmico Multi-Concurso -->
-        <section class="painel-estudos-container" id="painel-estudos-section" aria-labelledby="painel-estudos-titulo">
-            <h2 id="painel-estudos-titulo" class="sr-only">Painel de Estudos</h2>
-            <div id="painel-dinamico-conteudo">
-                <!-- Gerado dinamicamente via script.js -->
-            </div>
-        </section>
-
         <!-- Seção de Simulados & Desempenho (Acima das Matérias) -->
         <section class="orientacoes-iniciais" id="orientacoes-iniciais" aria-labelledby="orientacoes-iniciais-titulo">
             <h2 id="orientacoes-iniciais-titulo" class="sr-only">Simulados e Desempenho</h2>
@@ -60,9 +48,9 @@
             </div>
         </section>
 
-        <!-- Grade Suíça de Matérias Permanentes -->
+        <!-- Grade Suíça de Matérias -->
         <section class="explorar-disciplinas" id="explorar-disciplinas" aria-labelledby="disciplinas-titulo">
-            <h2 id="disciplinas-titulo">matérias permanentes...</h2>
+            <h2 id="disciplinas-titulo">matérias...</h2>
             <div class="pastas-container" id="pastas-container">
                 <!-- Os cards suíços das matérias serão gerados aqui dinamicamente -->
             </div>

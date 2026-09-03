@@ -28,9 +28,13 @@ jobs:
           node-version: 20
       - name: Validar integridade dos dados e links
         run: node scripts/validate-integrity.js
+      - name: Montar artefato estático isolado (_site)
+        run: node scripts/build-site.js
+      - name: Auditar ausência de arquivos privados em _site
+        run: node scripts/validate-integrity.js --audit-site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: ./_site
       - id: deployment
         uses: actions/deploy-pages@v4

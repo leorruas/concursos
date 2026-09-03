@@ -1,15 +1,18 @@
-## [2026-09-03] infraestrutura e segurança | Arquitetura de Publicação Isolada (_site e manifest.json)
+## [2026-09-03] infraestrutura e segurança | Arquitetura de Publicação Isolada (_site, manifest.json e allowlist fail-closed)
 - **Eliminação de Vazamento de Repositório no GitHub Pages**:
   - Descontinuada a publicação de `path: .` em [[.github/workflows/pages.yml]], impedindo o vazamento de pastas e arquivos internos (`00 inbox/`, `1 - Planejamento/`, `2 - Editais/`, `4 - Projetos/`, `me.md`, `agents.md`, `.agent/`, `scripts/`).
   - Implementado o script de montagem estática [[scripts/build-site.js]], gerando o diretório isolado de distribuição `_site/` contendo estritamente os arquivos da SPA (`index.html`, `style.css`, `script.js`), a camada declarativa (`data/`) e as notas públicas de `3 - Materias/` e `00 - Desempenho/`.
+- **Política de Publicação Diferenciada**:
+  - *Markdown público*: descoberta automática (qualquer nova nota em pasta pública entra automaticamente no manifesto e no deploy).
+  - *JSON estratégico*: política estrita de allowlist fail-closed (somente `concursos.json`, `edital-itens.json` e `erros-recorrentes.json` são copiados para `_site/data/`; novos JSONs não entram sem autorização expressa).
 - **Manifesto Automático de Conteúdos Públicos (`manifest.json`)**:
   - Centralizadas as regras canônicas de visibilidade em `scripts/build-site.js` (SSoT).
   - O build gera automaticamente `_site/manifest.json` com todas as 90 notas públicas do vault, seus títulos reais e categorias.
   - Zero-maintenance: ao criar qualquer nova nota em `3 - Materias/`, ela é automaticamente incluída no manifesto e no deploy sem necessidade de edição de JSONs manuais.
 - **Consumo Prioritário e Resiliente**:
-  - `script.js` atualizado para consumir preferencialmente `manifest.json` (eliminando o gargalo de rate limit da API do GitHub e bloqueio HTTP 403), preservando fallback gracioso.
+  - `script.js` consome preferencialmente `manifest.json` (eliminando o gargalo de rate limit da API do GitHub e bloqueio HTTP 403), preservando fallback gracioso.
 - **Auditoria Automatizada em CI**:
-  - Adicionada a flag `--audit-site` em [[scripts/validate-integrity.js]] para inspecionar recursivamente o conteúdo de `_site/` antes do deploy, abortando o pipeline se qualquer arquivo ou diretório privado for detectado.
+  - Adicionada a flag `--audit-site` em [[scripts/validate-integrity.js]] para inspecionar recursivamente o conteúdo de `_site/` e `_site/data/` antes do deploy, abortando o pipeline se qualquer arquivo não autorizado for detectado.
 
 ## [2026-09-03] governança e dados | Consolidação e Auditoria Rigorosa de Proveniência
 - **Auditoria de Fontes em `data/concursos.json`**:

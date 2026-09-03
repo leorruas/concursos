@@ -141,6 +141,24 @@ if (process.argv.includes('--audit-site')) {
   if (vazamentos.length > 0) {
     console.error('ARQUIVOS PRIVADOS DETECTADOS EM _site/:', vazamentos);
   }
+
+  // Auditar que _site/data contém ESTRITAMENTE arquivos da allowlist
+  const siteDataDir = path.join(siteDir, 'data');
+  if (fs.existsSync(siteDataDir)) {
+    const JSONS_PUBLICOS_AUTORIZADOS = new Set([
+      'concursos.json',
+      'edital-itens.json',
+      'erros-recorrentes.json'
+    ]);
+    const arquivosEmSiteData = fs.readdirSync(siteDataDir);
+    const arquivosNaoAutorizados = arquivosEmSiteData.filter(f => !JSONS_PUBLICOS_AUTORIZADOS.has(f));
+    check('Diretório _site/data/ contém estritamente JSONs da allowlist pública', arquivosNaoAutorizados.length === 0);
+    if (arquivosNaoAutorizados.length > 0) {
+      console.error('JSONS NÃO AUTORIZADOS EM _site/data/:', arquivosNaoAutorizados);
+    }
+  } else {
+    check('Diretório _site/data/ existe no build', false);
+  }
 }
 
 console.log('----------------------------------------------------');

@@ -167,12 +167,25 @@ for (const f of arquivosSPA) {
   }
 }
 
-// Copiar camada de dados declarativos (data/)
-const dataSrc = path.join(rootDir, 'data');
+// Copiar camada de dados declarativos via allowlist explícita (fail-closed)
+const JSONS_PUBLICOS_AUTORIZADOS = [
+  'concursos.json',
+  'edital-itens.json',
+  'erros-recorrentes.json'
+];
+
 const dataDest = path.join(outDir, 'data');
-if (fs.existsSync(dataSrc)) {
-  fs.cpSync(dataSrc, dataDest, { recursive: true });
-  console.log(`✓ Copiado diretório data/`);
+fs.mkdirSync(dataDest, { recursive: true });
+
+for (const nomeJson of JSONS_PUBLICOS_AUTORIZADOS) {
+  const src = path.join(rootDir, 'data', nomeJson);
+  const dest = path.join(dataDest, nomeJson);
+  if (fs.existsSync(src)) {
+    fs.copyFileSync(src, dest);
+    console.log(`✓ Copiado JSON autorizado (allowlist): data/${nomeJson}`);
+  } else {
+    console.warn(`! AVISO: JSON autorizado não encontrado na origem: data/${nomeJson}`);
+  }
 }
 
 // Copiar as notas Markdown públicas mantendo a estrutura de diretórios relativa

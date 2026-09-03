@@ -1,0 +1,166 @@
+[
+  {
+    "id": "dpv-g1-1.0",
+    "concursoId": "dataprev-2026",
+    "codigo": "G1.1",
+    "disciplina": "Língua Portuguesa",
+    "descricao": "Compreensão e interpretação de textos de gêneros variados",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Portugues/01 - interpretacao de texto.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "dpv-g1-3.0",
+    "concursoId": "dataprev-2026",
+    "codigo": "G1.3",
+    "disciplina": "Língua Portuguesa",
+    "descricao": "Domínio da ortografia oficial",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Portugues/05 - acordo ortografico.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "dpv-g1-4.0",
+    "concursoId": "dataprev-2026",
+    "codigo": "G1.4",
+    "disciplina": "Língua Portuguesa",
+    "descricao": "Domínio dos mecanismos de coesão textual (referenciação e tempos verbais)",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": null,
+    "exposicaoEstudo": false,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "dpv-g1-5.1",
+    "concursoId": "dataprev-2026",
+    "codigo": "G1.5.1",
+    "disciplina": "Língua Portuguesa",
+    "descricao": "Emprego das classes de palavras e termos da oração",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Portugues/02 - sujeito.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "dpv-g1-5.4",
+    "concursoId": "dataprev-2026",
+    "codigo": "G1.5.4",
+    "disciplina": "Língua Portuguesa",
+    "descricao": "Emprego dos sinais de pontuação",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Portugues/03 - pontuacao e virgula.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "dpv-g1-5.6",
+    "concursoId": "dataprev-2026",
+    "codigo": "G1.5.6",
+    "disciplina": "Língua Portuguesa",
+    "descricao": "Regência verbal e nominal",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Portugues/04 - regencia.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "dpv-g3-1.0",
+    "concursoId": "dataprev-2026",
+    "codigo": "G3.1",
+    "disciplina": "Raciocínio Lógico",
+    "descricao": "Estruturas lógicas e conectivos",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Logica/02 - conectivos.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": true,
+    "evidencia": {
+      "status": "em_reforco",
+      "taxaAcerto": 46.2,
+      "origem": "3 - Materias/Logica/Avancos.md"
+    }
+  },
+  {
+    "id": "dpv-g3-3.2",
+    "concursoId": "dataprev-2026",
+    "codigo": "G3.3.2",
+    "disciplina": "Raciocínio Lógico",
+    "descricao": "Tabelas-verdade da condicional e bicondicional",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Logica/05 - tabela verdade.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "dpv-g3-3.3",
+    "concursoId": "dataprev-2026",
+    "codigo": "G3.3.3",
+    "disciplina": "Raciocínio Lógico",
+    "descricao": "Equivalências lógicas e negações",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Logica/04 - equivalencias.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "dpv-g3-4.0",
+    "concursoId": "dataprev-2026",
+    "codigo": "G3.4",
+    "disciplina": "Raciocínio Lógico",
+    "descricao": "Lógica de primeira ordem (quantificadores)",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Logica/03 - quantificadores.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": true,
+    "evidencia": {
+      "status": "validado",
+      "taxaAcerto": 100.0,
+      "origem": "3 - Materias/Logica/Avancos.md"
+    }
+  },
+  {
+    "id": "dpv-g4-2.0",
+    "concursoId": "dataprev-2026",
+    "codigo": "G4.2",
+    "disciplina": "Atualidades",
+    "descricao": "Inteligência Artificial: fundamentos, aplicações, modelos generativos e ética",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Atualidades/01 - inteligencia artificial.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "dpv-e9-1.1",
+    "concursoId": "dataprev-2026",
+    "codigo": "E9.1.1",
+    "disciplina": "Comunicação Social",
+    "descricao": "Comunicação interna e cultura organizacional (níveis de Edgar Schein)",
+    "sourcePath": "4 - Projetos/dataprev-2026/O que estudar.md",
+    "notaPath": "3 - Materias/Comunicacao/09 - comunicacao interna.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "tcdf-p01",
+    "concursoId": "tcdf-2026",
+    "codigo": "P.01",
+    "disciplina": "Língua Portuguesa",
+    "descricao": "Concordância e termos da oração",
+    "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
+    "notaPath": "3 - Materias/Portugues/02 - sujeito.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  },
+  {
+    "id": "tcdf-p03",
+    "concursoId": "tcdf-2026",
+    "codigo": "P.03",
+    "disciplina": "Raciocínio Lógico",
+    "descricao": "Conectivos e lógica sentencial",
+    "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
+    "notaPath": "3 - Materias/Logica/02 - conectivos.md",
+    "exposicaoEstudo": true,
+    "dominioMensuravel": false
+  }
+]

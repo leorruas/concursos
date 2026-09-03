@@ -1,0 +1,32 @@
+[
+  {
+    "id": "err-sim02-q15",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Raciocínio Lógico",
+    "assunto": "Negação de universal com conjunção: ¬∀x(P ∧ Q) ≡ ∃x(¬P ∨ ¬Q)",
+    "notaPath": "3 - Materias/Logica/03 - quantificadores.md",
+    "tipoErro": "C",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-02.md",
+    "status": "superado"
+  },
+  {
+    "id": "err-sim02-q35",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Raciocínio Lógico",
+    "assunto": "Condicional disjuntiva e recíproca inválida (P → Q ≢ ¬Q ∨ P)",
+    "notaPath": "3 - Materias/Logica/04 - equivalencias.md",
+    "tipoErro": "C",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-02.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-bat-20260902-se",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Raciocínio Lógico",
+    "assunto": "Tradução de 'P se Q' na linguagem natural equivale a Q → P",
+    "notaPath": "3 - Materias/Logica/02 - conectivos.md",
+    "tipoErro": "C",
+    "sourcePath": "3 - Materias/Logica/Avancos.md",
+    "status": "pendente"
+  }
+]

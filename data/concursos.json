@@ -1,0 +1,36 @@
+[
+  {
+    "id": "dataprev-2026",
+    "nome": "Dataprev 2026",
+    "banca": "FGV",
+    "cargo": "Analista de TI — Perfil 9: Comunicação Social",
+    "dataProva": "2026-10-11T08:00:00-03:00",
+    "status": "planejado",
+    "sourcePath": "2 - Editais/Dataprev 2026 (Original).md",
+    "reguaPontuacao": {
+      "pontuacaoMaxima": 115,
+      "metaPontuacao": 102,
+      "pesos": {
+        "conhecimentosGerais": 1.0,
+        "conhecimentosEspecificos": 2.5
+      }
+    }
+  },
+  {
+    "id": "tcdf-2026",
+    "nome": "TCDF 2026",
+    "banca": "Cebraspe",
+    "cargo": "Auditor de Controle Externo (ANACE)",
+    "dataProva": "2026-12-06T08:00:00-03:00",
+    "status": "planejado",
+    "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
+    "reguaPontuacao": {
+      "pontuacaoMaxima": 150,
+      "metaPontuacao": 120,
+      "pesos": {
+        "conhecimentosGerais": 1.0,
+        "conhecimentosEspecificos": 1.0
+      }
+    }
+  }
+]

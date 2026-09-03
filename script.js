@@ -159,9 +159,35 @@ function rotaDoArtigo(artigo) {
     return `#/${encodeURIComponent(artigo.categoria)}/${encodeURIComponent(artigo.titulo)}`;
 }
 
+// Variáveis da Camada Estratégica (Opcional e Não-Invasiva)
+let dadosConcursosEstrategicos = [];
+let dadosEditalEstrategico = [];
+let dadosErrosEstrategicos = [];
+let concursoSelecionadoId = localStorage.getItem("concurso_ativo_id") || "dataprev-2026";
+
+async function carregarCamadaEstrategica() {
+    try {
+        const [resConc, resEdital, resErros] = await Promise.all([
+            fetch("data/concursos.json"),
+            fetch("data/edital-itens.json"),
+            fetch("data/erros-recorrentes.json")
+        ]);
+        if (resConc.ok) dadosConcursosEstrategicos = await resConc.json();
+        if (resEdital.ok) dadosEditalEstrategico = await resEdital.json();
+        if (resErros.ok) dadosErrosEstrategicos = await resErros.json();
+    } catch (e) {
+        // Se a pasta data/ não existir ou falhar, a biblioteca continua 100% funcional!
+        dadosConcursosEstrategicos = [];
+        dadosEditalEstrategico = [];
+        dadosErrosEstrategicos = [];
+    }
+}
+
 // Carregamento de Dados
 async function carregarTodosOsArtigos() {
     inicializarTema();
+    
+    // 1. Carregamento autônomo da biblioteca de conhecimento (como no baseline)
     const lista = await obterListaDeArquivos();
 
     const promessas = lista.map(async (item) => {
@@ -200,8 +226,137 @@ async function carregarTodosOsArtigos() {
 
     renderizarPastas();
 
+    // 2. Enriquecimento da Home com a camada estratégica de concursos (se disponível)
+    await carregarCamadaEstrategica();
+    renderizarPainelConcursoHome();
+
     if (window.location.hash) {
         tratarHashNavegacao();
+    }
+}
+
+// --------------------------------------------------------------------------
+// RENDERIZADOR DO PAINEL DE CONCURSO (DESIGN SUÍÇO / REGRAS SEMÂNTICAS)
+// --------------------------------------------------------------------------
+
+function renderizarPainelConcursoHome() {
+    const container = document.getElementById("painel-concurso-home");
+    const conteudo = document.getElementById("concurso-home-conteudo");
+    if (!container || !conteudo) return;
+
+    if (!dadosConcursosEstrategicos || dadosConcursosEstrategicos.length === 0) {
+        container.classList.add("escondido");
+        return;
+    }
+
+    container.classList.remove("escondido");
+
+    const concursoAtivo = dadosConcursosEstrategicos.find(c => c.id === concursoSelecionadoId) || dadosConcursosEstrategicos[0];
+    const dataProva = new Date(concursoAtivo.dataProva);
+    const hoje = new Date();
+    const diffDias = Math.ceil((dataProva - hoje) / (1000 * 60 * 60 * 24));
+
+    // Itens do edital do concurso selecionado
+    const itensConcurso = dadosEditalEstrategico.filter(i => i.concursoId === concursoAtivo.id);
+    const totalItens = itensConcurso.length;
+
+    // 1. Cobertura estrutural: itens que possuem notaPath definida e existente
+    const mapeados = itensConcurso.filter(i => !!i.notaPath);
+    const pctCobertura = totalItens > 0 ? Math.round((mapeados.length / totalItens) * 100) : 0;
+
+    // 2. Exposição: itens trabalhados em sessões
+    const expostos = itensConcurso.filter(i => i.exposicaoEstudo === true);
+    const pctExposicao = totalItens > 0 ? Math.round((expostos.length / totalItens) * 100) : 0;
+
+    // 3. Domínio: evidência empírica mensurável
+    const comEvidencia = itensConcurso.filter(i => i.dominioMensuravel === true && i.evidencia);
+    const validados = comEvidencia.filter(i => i.evidencia.status === "validado");
+    let textoDominio = "ainda não mensurável";
+    let detalheDominio = "requer evidência empírica por simulados";
+    if (validados.length > 0) {
+        const pctDom = Math.round((validados.length / totalItens) * 100);
+        textoDominio = `${pctDom}%`;
+        detalheDominio = `${validados.length} de ${totalItens} tópicos com retenção comprovada`;
+    }
+
+    // Próxima Prioridade Real (a partir de erros ou tópicos em reforço)
+    const erroPendente = dadosErrosEstrategicos.find(e => e.concursoId === concursoAtivo.id && e.status === "pendente");
+    let artigoParaRevisar = null;
+    if (erroPendente && erroPendente.notaPath) {
+        const nomeNota = erroPendente.notaPath.split("/").pop().replace(".md", "");
+        artigoParaRevisar = todosOsArtigos.find(a => a.titulo.toLowerCase() === nomeNota.toLowerCase());
+    }
+
+    conteudo.innerHTML = `
+        <div class="concurso-linha-topo">
+            <div class="concurso-seletor-textual">
+                <span class="concurso-seletor-rotulo">concurso:</span>
+                ${dadosConcursosEstrategicos.map((c, idx) => `
+                    <button type="button" class="concurso-btn-opcao ${c.id === concursoAtivo.id ? 'concurso-selecionado' : ''}" data-concurso-id="${c.id}">
+                        ${c.nome.toLowerCase()}
+                    </button>
+                    ${idx < dadosConcursosEstrategicos.length - 1 ? '<span class="concurso-barra-separadora">/</span>' : ''}
+                `).join("")}
+            </div>
+            <div class="concurso-dias-container">
+                <span class="concurso-dias-destaque">${diffDias > 0 ? diffDias : 0}</span> dias até a prova (${concursoAtivo.banca} · ${dataProva.toLocaleDateString('pt-BR')})
+            </div>
+        </div>
+
+        ${erroPendente ? `
+            <div class="concurso-prioridade-linha">
+                <span class="concurso-prioridade-tag">prioridade atual</span>
+                <div>
+                    <p class="concurso-prioridade-texto">${erroPendente.assunto}</p>
+                    <p class="concurso-prioridade-sub">${erroPendente.disciplina} · Fonte: ${erroPendente.sourcePath}</p>
+                </div>
+                <div>
+                    ${artigoParaRevisar ? `
+                        <a href="${rotaDoArtigo(artigoParaRevisar)}" class="concurso-link-estudo" data-link-artigo="${artigoParaRevisar.titulo}">
+                            revisar nota →
+                        </a>
+                    ` : ''}
+                </div>
+            </div>
+        ` : ''}
+
+        <div class="concurso-regua-indicadores">
+            <div class="concurso-celula-indicador">
+                <div class="concurso-indicador-rotulo">cobertura estrutural</div>
+                <div class="concurso-indicador-valor">${pctCobertura}%</div>
+                <div class="concurso-indicador-detalhe">${mapeados.length} de ${totalItens} tópicos do edital mapeados no vault</div>
+            </div>
+
+            <div class="concurso-celula-indicador">
+                <div class="concurso-indicador-rotulo">exposição ao conteúdo</div>
+                <div class="concurso-indicador-valor">${pctExposicao}%</div>
+                <div class="concurso-indicador-detalhe">${expostos.length} de ${totalItens} tópicos já trabalhados</div>
+            </div>
+
+            <div class="concurso-celula-indicador">
+                <div class="concurso-indicador-rotulo">domínio validado</div>
+                <div class="concurso-indicador-valor ${textoDominio.includes('%') ? '' : 'valor-indisponivel'}">${textoDominio}</div>
+                <div class="concurso-indicador-detalhe">${detalheDominio}</div>
+            </div>
+        </div>
+    `;
+
+    // Eventos dos botões de seleção de concurso
+    conteudo.querySelectorAll(".concurso-btn-opcao").forEach(btn => {
+        btn.addEventListener("click", () => {
+            concursoSelecionadoId = btn.dataset.concursoId;
+            localStorage.setItem("concurso_ativo_id", concursoSelecionadoId);
+            renderizarPainelConcursoHome();
+        });
+    });
+
+    // Evento de clique no link de revisão
+    const linkRevisao = conteudo.querySelector(".concurso-link-estudo");
+    if (linkRevisao && artigoParaRevisar) {
+        linkRevisao.addEventListener("click", (e) => {
+            e.preventDefault();
+            abrirArtigo(artigoParaRevisar);
+        });
     }
 }
 
@@ -264,6 +419,7 @@ function abrirDisciplina(categoria, atualizarRota = true) {
     if (campoTextoNav) campoTextoNav.value = "";
     leitorDeArtigo.classList.add("escondido");
     divResultados.classList.add("escondido");
+    document.getElementById("painel-concurso-home")?.classList.add("escondido");
     document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
     document.getElementById("explorar-disciplinas")?.classList.add("escondido");
     leitorDeDisciplina.classList.remove("escondido");
@@ -322,6 +478,7 @@ function abrirArtigo(artigo, atualizarRota = true) {
         history.pushState({ artigo: artigo.titulo, categoria: artigo.categoria }, "", rotaDoArtigo(artigo));
     }
 
+    document.getElementById("painel-concurso-home")?.classList.add("escondido");
     document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
     document.getElementById("explorar-disciplinas")?.classList.add("escondido");
     divResultados.classList.add("escondido");
@@ -698,6 +855,7 @@ function filtrarArtigos(termoBusca) {
     }
 
     const termo = termoBusca.toLowerCase().trim();
+    document.getElementById("painel-concurso-home")?.classList.add("escondido");
     document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
     document.getElementById("explorar-disciplinas")?.classList.add("escondido");
     divResultados.classList.remove("escondido");
@@ -837,6 +995,7 @@ function voltarParaHome(atualizarRota = true) {
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.add("escondido");
     divResultados.classList.add("escondido");
+    document.getElementById("painel-concurso-home")?.classList.remove("escondido");
     document.getElementById("orientacoes-iniciais")?.classList.remove("escondido");
     document.getElementById("explorar-disciplinas")?.classList.remove("escondido");
     window.scrollTo({ top: 0, behavior: "smooth" });

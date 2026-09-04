@@ -1,3 +1,4 @@
+function configurarMermaid() {
     if (typeof mermaid === "undefined") return;
     const temaEscuro = document.documentElement.dataset.theme !== "light";
     mermaid.initialize({
@@ -37,4 +38,3 @@ function renderizarDiagramasMermaid() {
     mermaid.run({ nodes: diagramas }).catch(err => console.error("Erro Mermaid:", err));
 }
 
-function filtrarArtigos(termoBusca) {

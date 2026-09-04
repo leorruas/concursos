@@ -1,3 +1,9 @@
+## [2026-09-04] infraestrutura | Restauração do baseline web após regressão
+
+- Restaurados exatamente ao commit-pai funcional os arquivos `script.js`, `style.css` e `index.html`.
+- Preservados `scripts/ingest-vault.js`, `scripts/test-ingest.js` e as alterações da frente de ingestão.
+- A evolução da interface web foi separada da evolução operacional do vault para permitir novas mudanças incrementais e testáveis.
+
 ## [2026-09-04] governança e tecnologia | Sistema Operacional de Ingestão Assistida (scripts/ingest-vault.js e test-ingest.js)
 - **Ingestão Assistida e Segura**:
   - Criado o script [[scripts/ingest-vault.js]] com pipeline em 15 etapas de execução, implementando modo `--dry-run` por padrão e modo `--apply` com controle transacional e rollback automático em memória em caso de falha.

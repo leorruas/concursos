@@ -167,6 +167,21 @@ for (const f of arquivosSPA) {
   }
 }
 
+// Copiar módulos web mantendo a ordem declarada em index.html
+const webSrcDir = path.join(rootDir, 'web');
+const webDestDir = path.join(outDir, 'web');
+if (fs.existsSync(webSrcDir)) {
+  fs.mkdirSync(webDestDir, { recursive: true });
+  for (const nome of fs.readdirSync(webSrcDir)) {
+    const origem = path.join(webSrcDir, nome);
+    const destino = path.join(webDestDir, nome);
+    if (fs.statSync(origem).isFile() && nome.endsWith('.js')) {
+      fs.copyFileSync(origem, destino);
+      console.log(`✓ Copiado módulo web: web/${nome}`);
+    }
+  }
+}
+
 // Copiar camada de dados declarativos via allowlist explícita (fail-closed)
 const JSONS_PUBLICOS_AUTORIZADOS = [
   'concursos.json',

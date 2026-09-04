@@ -1,3 +1,4 @@
+function tratarHashNavegacao() {
     const hash = window.location.hash;
     if (!hash || hash === "#" || hash === "#/") {
         voltarParaHome(false);

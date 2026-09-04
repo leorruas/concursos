@@ -989,4 +989,7 @@
 - **Projeto Dataprev**: Atualizados o checklist em [[4 - Projetos/dataprev-2026/O que estudar|O que estudar]] (marcando 1.8, 4.2.1, 4.9.2, 9.1, 9.2, 9.3, 10.5.1, 10.5.2, 10.5.3), o [[00 inbox/Relatorio de topicos faltantes|Relatório de Tópicos Faltantes]] e o [[4 - Projetos/dataprev-2026/00 Dashboard|Dashboard Dataprev]], elevando o Módulo II para 96,8% (91/94 itens) e o Total do Edital para 83,5% (106/127 itens).
 - **Housekeeping**: Limpo o conteúdo de [[00 inbox/00 ingestão]] preservando seu arquivo e título.
 
+## 04/09/2026 — Correção da modularização web
 
+- Corrigidos os limites de cinco módulos do frontend (`web/02-data-home.js`, `web/04-markdown.js`, `web/05-mermaid.js`, `web/06-search.js` e `web/07-router-init.js`). A primeira divisão havia separado declarações de função de seus respectivos corpos, impedindo a inicialização do site.
+- Verificação estática: a concatenação ordenada dos sete módulos é idêntica ao `script.js` estável anterior e passa na validação de sintaxe JavaScript.

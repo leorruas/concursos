@@ -259,3 +259,63 @@ function renderizarPastas() {
 
 // Visualizador da Disciplina
 function abrirDisciplina(categoria, atualizarRota = true) {
+    const artigos = todasAsPastas[categoria] || [];
+    if (artigos.length === 0) return;
+
+    if (campoTexto) campoTexto.value = "";
+    if (campoTextoNav) campoTextoNav.value = "";
+    leitorDeArtigo.classList.add("escondido");
+    divResultados.classList.add("escondido");
+    document.getElementById("painel-concurso-home")?.classList.add("escondido");
+    document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
+    document.getElementById("explorar-disciplinas")?.classList.add("escondido");
+    leitorDeDisciplina.classList.remove("escondido");
+    artigoAtual = null;
+
+    if (atualizarRota && window.location.hash !== obterRotaCategoria(categoria)) {
+        history.pushState({ categoria: categoria }, "", obterRotaCategoria(categoria));
+    }
+
+    const breadcrumbs = document.getElementById("disciplina-breadcrumbs");
+    breadcrumbs.innerHTML = `
+        <button type="button" class="breadcrumb-link" id="btn-bc-home">início</button>
+        <span class="breadcrumb-separator">/</span>
+        <span>${limparNomeCategoria(categoria)}</span>
+    `;
+    document.getElementById("btn-bc-home")?.addEventListener("click", () => voltarParaHome(true));
+
+    disciplinaCabecalho.innerHTML = `
+        <p class="disciplina-rotulo">matéria • ${artigos.length} artigos</p>
+        <h2>${limparNomeCategoria(categoria)}</h2>
+    `;
+
+    disciplinaAcoes.innerHTML = "";
+    artigos.forEach((artigo, idx) => {
+        const acao = document.createElement("a");
+        acao.className = "disciplina-acao";
+        acao.href = rotaDoArtigo(artigo);
+        acao.setAttribute("aria-label", artigo.titulo);
+
+        const numeroFormatado = String(idx + 1).padStart(2, "0");
+        const tituloFormatado = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
+
+        acao.innerHTML = `
+            <span class="disciplina-acao-numero">${numeroFormatado}</span>
+            <span class="disciplina-acao-conteudo">
+                <strong>${tituloFormatado}</strong>
+            </span>
+        `;
+
+        acao.addEventListener("click", (e) => {
+            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+            e.preventDefault();
+            abrirArtigo(artigo);
+        });
+
+        disciplinaAcoes.appendChild(acao);
+    });
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// Leitor de Artigo Individual

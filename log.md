@@ -1,3 +1,18 @@
+## [2026-09-04] infraestrutura | Refatoração modular do leitor web
+
+- Dividido o antigo `script.js` monolítico em sete módulos da pasta `web/`, mantendo a ordem de execução e o comportamento do baseline:
+  - `01-core.js`
+  - `02-data-home.js`
+  - `03-article-navigation.js`
+  - `04-markdown.js`
+  - `05-mermaid.js`
+  - `06-search.js`
+  - `07-router-init.js`
+- Reduzido o `script.js` a um ponto de compatibilidade de quatro linhas.
+- Atualizado o `index.html` para carregar os módulos em ordem.
+- Atualizado `scripts/build-site.js` para copiar os módulos para `_site/web/`.
+- A refatoração não altera a lógica de busca, navegação, Markdown, Mermaid ou painel estratégico; melhorias funcionais devem ser feitas em commits separados.
+
 ## [2026-09-04] infraestrutura | Restauração do baseline web após regressão
 
 - Restaurados exatamente ao commit-pai funcional os arquivos `script.js`, `style.css` e `index.html`.

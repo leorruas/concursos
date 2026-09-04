@@ -1,3 +1,4 @@
+function filtrarArtigos(termoBusca) {
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.add("escondido");
 
@@ -113,4 +114,3 @@ function extrairTrechoRelevante(conteudo, termo) {
     return trecho;
 }
 
-function tratarHashNavegacao() {

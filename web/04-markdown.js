@@ -186,4 +186,3 @@ function processarWikilinks(container) {
     });
 }
 
-function configurarMermaid() {

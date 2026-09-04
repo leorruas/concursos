@@ -109,23 +109,16 @@ header, main {
     color: var(--text);
 }
 
-.nav-search-wrapper {
+.nav-search-container {
     flex: 1;
     max-width: 360px;
     margin-left: auto;
     margin-right: 24px;
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.nav-search-container {
-    width: 100%;
 }
 
 .nav-search-container input {
     width: 100%;
-    padding: 6px 28px 6px 10px;
+    padding: 6px 10px;
     border: 0;
     border-bottom: 1px solid color-mix(in srgb, var(--text) 36%, transparent);
     border-radius: 0;
@@ -139,27 +132,53 @@ header, main {
 .nav-search-container input::placeholder { color: var(--muted); }
 .nav-search-container input:focus { border-bottom-color: var(--accent-blue); }
 
-.btn-limpar-busca {
-    position: absolute;
-    right: 4px;
-    background: transparent;
-    border: none;
-    color: var(--muted);
-    font-size: 18px;
-    line-height: 1;
-    padding: 4px;
-    cursor: pointer;
-    transition: color 0.15s ease;
+.nav-acoes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
-.btn-limpar-busca:hover {
+.nav-link-pastas,
+.theme-toggle {
     color: var(--accent-blue);
+    text-decoration: none;
+    font-size: 0.82rem;
+    border: 1px solid var(--accent-blue-alpha-30);
+    background-color: var(--accent-blue-alpha-05);
+    padding: 6px 14px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: 1.2;
+    text-transform: lowercase;
+    width: auto !important;
+}
+
+.nav-link-pastas:hover,
+.theme-toggle:hover {
+    background-color: var(--accent-blue);
+    color: #ffffff;
+    border-color: var(--accent-blue);
+}
+
+/* Page Masthead Suíço */
+.page-masthead {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.page-masthead .busca-principal {
+    margin-bottom: 24px;
+    width: 100%;
 }
 
 .busca-campo {
     display: flex;
     align-items: center;
-    position: relative;
     border-bottom: 2px solid color-mix(in srgb, var(--text) 45%, transparent);
     transition: border-color 0.2s ease;
 }
@@ -176,14 +195,9 @@ header, main {
     color: var(--text);
     font-size: 1.15rem;
     font-family: inherit;
-    padding: 12px 32px 12px 0;
+    padding: 12px 0;
     outline: none;
     line-height: 1.2;
-}
-
-.busca-campo .btn-limpar-busca {
-    right: 0;
-    font-size: 22px;
 }
 
 .busca-campo input::placeholder {
@@ -1332,350 +1346,48 @@ mark:not(.highlight) code {
 
 /* Mermaid */
 .mermaid {
-/* Diagramas Mermaid Interativos e Semânticos (Solução Editorial PUC adaptada) */
-.diagrama-wrapper {
-    position: relative;
-    margin: 32px 0;
-    border-top: 1px solid color-mix(in srgb, var(--text) 22%, transparent);
-    border-bottom: 1px solid color-mix(in srgb, var(--text) 22%, transparent);
-    background: transparent;
-}
-
-.diagrama-toolbar {
-    position: absolute;
-    top: 10px;
-    right: 12px;
-    z-index: 10;
-    display: flex;
-    gap: 6px;
-    opacity: 0.85;
-    transition: opacity 0.2s ease;
-}
-
-.diagrama-wrapper:hover .diagrama-toolbar,
-.diagrama-wrapper:focus-within .diagrama-toolbar {
-    opacity: 1;
-}
-
-.diagrama-btn {
-    appearance: none;
-    border: 1px solid color-mix(in srgb, var(--text) 25%, transparent);
-    background: var(--surface);
-    color: var(--text);
-    padding: 4px 10px;
-    font-size: 12px;
-    font-family: 'Archivo', sans-serif;
-    border-radius: 6px;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    transition: all 0.2s ease;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
-
-.diagrama-btn:hover,
-.diagrama-btn:focus-visible {
-    border-color: var(--accent-blue);
-    background: var(--surface-raised);
-    color: var(--accent-blue);
-    outline: none;
-}
-
-.diagrama-viewport {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 38px 16px 20px;
-    transition: max-height 0.2s ease;
-}
-
-.diagrama-wrapper.diagrama-medio .diagrama-viewport {
-    max-height: 520px;
-    overflow-y: auto;
-}
-
-.diagrama-wrapper.diagrama-complexo .diagrama-viewport {
-    max-height: 600px;
-    overflow-y: auto;
-}
-
-.diagrama-wrapper.modo-ajustado .diagrama-viewport svg {
-    max-width: 100% !important;
-    height: auto !important;
-}
-
-.diagrama-dica-interacao {
-    position: absolute;
-    bottom: 8px;
-    left: 14px;
-    font-size: 11px;
-    color: var(--muted);
-    pointer-events: none;
-    text-transform: lowercase;
-    opacity: 0.7;
-    font-family: 'Space Mono', monospace;
-}
-
-.diagrama-source {
-    border-top: 1px solid color-mix(in srgb, var(--text) 14%, transparent);
-    padding: 8px 14px;
-    font-size: 12px;
-    color: var(--muted);
-}
-
-.diagrama-source summary {
-    cursor: pointer;
-    user-select: none;
-    text-transform: lowercase;
-    font-family: 'Space Mono', monospace;
-    font-size: 11px;
-    outline: none;
-    transition: color 0.15s ease;
-}
-
-.diagrama-source summary:hover,
-.diagrama-source summary:focus-visible {
-    color: var(--accent-blue);
-}
-
-.diagrama-source pre {
-    margin: 8px 0 4px;
-    padding: 10px;
-    background: var(--surface-raised);
-    border-radius: 4px;
-    overflow-x: auto;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 12px;
-}
-
-/* Base do elemento Mermaid */
-.mermaid {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     background: transparent;
     border: 0;
-    margin: 0;
-    padding: 0;
+    border-top: 1px solid color-mix(in srgb, var(--text) 38%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--text) 38%, transparent);
+    border-radius: 0;
+    padding: 24px 12px;
+    margin: 30px 0;
+    overflow-x: auto;
     font-family: 'Archivo', sans-serif !important;
-    width: 100%;
 }
 
-.mermaid svg {
-    flex: 0 0 auto;
-    max-width: none;
-}
-
+.mermaid svg { flex: 0 0 auto; max-width: none; }
 .mermaid .nodeLabel,
-.mermaid .edgeLabel {
-    font-family: 'Archivo', sans-serif !important;
-}
-
+.mermaid .edgeLabel { font-family: 'Archivo', sans-serif !important; }
 .mermaid svg text,
 .mermaid svg .nodeLabel,
 .mermaid svg .edgeLabel,
 .mermaid svg foreignObject div,
 .mermaid svg foreignObject span,
 .mermaid svg foreignObject p {
-    font-size: 15px !important;
-    line-height: 1.3 !important;
+    font-size: 16px !important;
+    line-height: 1.28 !important;
 }
-
 .mermaid .node rect,
-.mermaid .node polygon {
-    rx: 2px !important;
-    ry: 2px !important;
-}
-
+.mermaid .node polygon { rx: 0 !important; ry: 0 !important; }
 .mermaid .node rect,
 .mermaid .node polygon,
-.mermaid .node path {
-    stroke-width: 1.5px !important;
-}
-
-.mermaid .edgePath .path {
-    stroke-width: 1.5px !important;
-}
-
-.mermaid .edgeLabel {
-    background-color: var(--bg) !important;
-}
-
-:root[data-theme="light"] .mermaid .edgeLabel {
-    background-color: #ffffff !important;
-}
-
-/* Modal de Exploração Mermaid em Tela Cheia */
-.mermaid-modal {
-    position: fixed;
-    inset: 0;
-    z-index: 3000;
-    display: flex;
-    flex-direction: column;
-    background: rgba(8, 8, 8, 0.95);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    overflow: hidden;
-}
-
-:root[data-theme="light"] .mermaid-modal {
-    background: rgba(248, 250, 252, 0.97);
-}
-
-.mermaid-modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 24px;
-    border-bottom: 1px solid color-mix(in srgb, var(--text) 18%, transparent);
-    background: var(--surface);
-    color: var(--text);
-    user-select: none;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-}
-
-.mermaid-modal-title {
-    font-size: 14px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: var(--accent-blue);
-    text-transform: lowercase;
-}
-
-.mermaid-modal-controls {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.mermaid-modal-controls button {
-    appearance: none;
-    border: 1px solid color-mix(in srgb, var(--text) 25%, transparent);
-    background: var(--surface-raised);
-    color: var(--text);
-    padding: 6px 12px;
-    border-radius: 6px;
-    font-size: 13px;
-    cursor: pointer;
-    font-family: 'Archivo', sans-serif;
-    transition: all 0.15s ease;
-}
-
-.mermaid-modal-controls button:hover,
-.mermaid-modal-controls button:focus-visible {
-    border-color: var(--accent-blue);
-    color: var(--accent-blue);
-    outline: none;
-}
-
-.mermaid-modal-zoom-display {
-    min-width: 70px;
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Space Mono', monospace;
-    color: var(--muted);
-}
-
-.mermaid-modal-body {
-    flex: 1;
-    position: relative;
-    overflow: hidden;
-    cursor: grab;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 24px;
-}
-
-.mermaid-modal-body.is-dragging {
-    cursor: grabbing;
-}
-
-.mermaid-modal-stage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-origin: center center;
-    transition: transform 0.04s ease-out;
-    will-change: transform;
-    pointer-events: auto;
-}
-
-.mermaid-modal-stage svg {
-    display: block;
-    width: 100% !important;
-    height: 100% !important;
-    max-width: none !important;
-    max-height: none !important;
-    background: transparent !important;
-    background-color: transparent !important;
-}
-
-.mermaid-erro-card {
-    background: rgba(220, 38, 38, 0.1);
-    border: 1px solid #ef4444;
-    border-radius: 6px;
-    padding: 16px;
-    margin: 16px 0;
-    color: #f87171;
-    font-size: 0.9rem;
-}
-
-.mermaid-erro-card p {
-    margin: 0 0 8px;
-    font-weight: 600;
-}
-
-/* Wikilinks Quebrados ou Inexistentes */
-.wikilink-quebrado {
-    color: var(--muted) !important;
-    border-bottom: 1px dashed var(--muted) !important;
-    cursor: help;
-    text-decoration: none;
-}
-
-.wikilink-quebrado:hover {
-    color: var(--accent-blue) !important;
-    border-bottom-color: var(--accent-blue) !important;
-}
+.mermaid .node path { stroke-width: 1.25px !important; }
+.mermaid .edgePath .path { stroke-width: 1.25px !important; }
+.mermaid .edgeLabel { background-color: var(--bg) !important; }
+:root[data-theme="light"] .mermaid .edgeLabel { background-color: #ffffff !important; }
 
 @media (max-width: 768px) {
-    .diagrama-viewport {
-        max-height: 420px;
-        padding-top: 44px;
-    }
-
-    .diagrama-toolbar {
-        top: 6px;
-        right: 8px;
-        gap: 4px;
-    }
-
-    .diagrama-btn {
-        padding: 3px 7px;
-        font-size: 11px;
-    }
-
-    .mermaid-modal-header {
-        padding: 10px 14px;
-        flex-wrap: wrap;
-        gap: 8px;
-    }
-
-    .mermaid-modal-controls {
-        gap: 4px;
-    }
-
-    .mermaid-modal-controls button {
-        padding: 4px 8px;
-        font-size: 12px;
-    }
+    .mermaid svg text,
+    .mermaid svg .nodeLabel,
+    .mermaid svg .edgeLabel,
+    .mermaid svg foreignObject div,
+    .mermaid svg foreignObject span,
+    .mermaid svg foreignObject p { font-size: 14px !important; }
 }
 
 /* Imagens com Zoom */

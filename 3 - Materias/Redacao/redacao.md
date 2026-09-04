@@ -1,3 +1,11 @@
+---
+title: "Redação"
+type: "hub"
+status: "ativo"
+created: 2026-05-25
+updated: 2026-09-01
+---
+
 # Redação (Concursos)
 
 ## Estrutura

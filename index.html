@@ -16,10 +16,13 @@
 <body>
     <nav class="sticky-nav" id="sticky-nav">
         <span class="nav-logo" id="nav-logo">concursos • leorruas</span>
-        <label class="nav-search-container" for="nav-search-input">
-            <span class="sr-only">Pesquisar nas matérias</span>
-            <input type="search" id="nav-search-input" placeholder="pesquisar..." autocomplete="off">
-        </label>
+        <div class="nav-search-wrapper">
+            <label class="nav-search-container" for="nav-search-input">
+                <span class="sr-only">Pesquisar nas matérias</span>
+                <input type="search" id="nav-search-input" placeholder="pesquisar... (atalho /)" autocomplete="off">
+            </label>
+            <button type="button" class="btn-limpar-busca escondido" id="btn-limpar-nav" aria-label="Limpar pesquisa">&times;</button>
+        </div>
         <div class="nav-acoes">
             <a href="#explorar-disciplinas" class="nav-link-pastas" id="nav-link-pastas">índice</a>
             <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Alternar tema">modo claro</button>
@@ -30,7 +33,8 @@
         <section class="busca-principal" aria-label="Pesquisar nas matérias">
             <div class="busca-campo">
                 <label class="sr-only" for="main-search-input">Pesquisar por assunto ou disciplina</label>
-                <input type="search" id="main-search-input" placeholder="pesquisar nas matérias..." autocomplete="off">
+                <input type="search" id="main-search-input" placeholder="pesquisar nas matérias... (pressione / para focar)" autocomplete="off">
+                <button type="button" class="btn-limpar-busca escondido" id="btn-limpar-main" aria-label="Limpar pesquisa">&times;</button>
             </div>
         </section>
         <div class="masthead-copy">

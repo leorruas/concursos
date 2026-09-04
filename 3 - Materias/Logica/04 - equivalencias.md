@@ -34,6 +34,16 @@ A equivalência da implicação (condicional) é a mais importante e recorrente 
   $$p \to q \equiv \neg q \to \neg p$$
 - **Exemplo**: "Se sou mineiro, então sou brasileiro." $\equiv$ "Se não sou brasileiro, então não sou mineiro."
 
+> [!CAUTION]
+> **O Quarteto da Condicional: Contrapositiva vs. Recíproca e Inversa (Pegadinha Clássica FGV)**:
+> Dada a condicional original $P \to Q$:
+> 1. **Contrapositiva ($\neg Q \to \neg P$)**: **EQUIVALENTE**. (Inverte a posição **e** nega ambos: volta negando).
+> 2. **Recíproca ($Q \to P$)**: **NÃO EQUIVALENTE**. (Apenas inverte a ordem sem negar).
+> 3. **Inversa ($\neg P \to \neg Q$)**: **NÃO EQUIVALENTE**. (Apenas nega ambos mantendo a ordem).
+> 
+> *Atenção*: A recíproca e a inversa são equivalentes entre si ($Q \to P \equiv \neg P \to \neg Q$), mas **nenhuma delas equivale à proposição original $P \to Q$**.
+> - Se *"Se chove, a rua molha"*, não se pode concluir que *"Se a rua molha, chove"* (recíproca) nem que *"Se não chove, a rua não molha"* (inversa). A única equivalência é *"Se a rua não molhou, não choveu"* (contrapositiva).
+
 ### 2. Regra do "NEyMar" (Condicional Disjuntiva)
 - **Como fazer**: **NE**gue a primeira parte, troque o conectivo pelo **ou** ($\lor$) e **MA**ntenha a segunda parte.
 - **Fórmula**: 

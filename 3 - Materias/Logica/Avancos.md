@@ -3,7 +3,7 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-05-28
-updated: 2026-09-03
+updated: 2026-09-04
 ---
 # Avanços e desempenho
 
@@ -20,6 +20,8 @@ updated: 2026-09-03
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 04/09/2026 | 12 | Raciocínio Lógico | Ingestão de Inbox: Bateria 1 de Retenção (Condição Necessária × Suficiente: 6/6, 100%) + Bateria 2 Mista (Quantificadores, Recíproca, De Morgan e Contraposição: 4/6, 66,7%). Total útil: 10/12 (83,3%). |
+| 03/09/2026 | 5 | Raciocínio Lógico | Ingestão de Inbox (Bateria Dirigida — Condição Necessária × Suficiente): 3/5 acertos válidos (60,0%; Q2 anulada por ausência de alternativa correta). Mapeou distinção estrita entre 'somente se' / condição necessária e condição suficiente. |
 | 02/09/2026 | 13 | Raciocínio Lógico | Ingestão de Inbox (Bateria Dirigida — Condicional e Linguagem Natural): Bateria 1 (3/5), Bateria 2 (1/4) e Bateria 3 (2/4 válida; Q2 anulada por ambiguidade técnica). Total útil: 6/13 (46,2%) |
 | 02/07/2026 | 10 | Raciocínio Lógico | Bloco de Revisão Possível × Necessário × Impossível (8/10) |
 | 30/06/2026 | 30 | Raciocínio Lógico | Revisão Geral: Módulo 1 (3/5) + Bloco De Morgan (5/5) + Inversão de Inclusão (8/10) + Bloco de Fixação (Modus Tollens vs Inversão) (10/10) |
@@ -36,6 +38,46 @@ updated: 2026-09-03
 ---
 
 ## Diagnósticos de desempenho
+
+### Diagnóstico de Retenção e Bateria Mista — Condição Necessária, De Morgan e Contraposição (04/09/2026)
+- **Resultado**: 83,3% no consolidado útil (10/12 acertos válidos em 2 baterias).
+  - *Bateria 1 (Retenção — Condição Necessária × Suficiente)*: 6/6 acertos (**100%**).
+    - Q1: "indispensável" como necessária ($\text{viagem} \to \text{autorização}$).
+    - Q2: "suficiente" + contraposição ($\neg\text{dispensa} \to \neg\text{experiência}$).
+    - Q3: "basta" não implica recíproca ($\text{admin} \to \text{acesso} \not\to \text{acesso} \to \text{admin}$).
+    - Q4: caso proibido de condição necessária ($\text{certificado} \land \text{freq} < 75\%$).
+    - Q5: compatibilidade de condição necessária ($\text{requisito} \land \neg\text{resultado}$ é compatível).
+    - Q6: "basta" + contraposição ($\neg\text{benefício} \to \neg\text{efetivo}$).
+  - *Bateria 2 (Mista — Quantificadores, Recíproca, De Morgan e Contraposição)*: 4/6 acertos (66,7%).
+    - Q1 (Negação de universal composto): Acertou (C). $\neg\forall x(V \land M) \equiv \exists x(\neg V \lor \neg M)$.
+    - Q2 (Falácia da recíproca em condicional): Acertou (D). $\text{aprov} \to \text{pub}$; saber que publicou não permite concluir aprovação.
+    - Q3 (Leis de De Morgan em linguagem natural): Errou (chutou D; gabarito B). Confundiu a distribuição da negação na conjunção, deixando de negar ambos os termos: $\neg(A \land B) \equiv \neg A \lor \neg B$ (*"Ana não revisará OU Bruno não aprovará"*).
+    - Q4 (Existencial com exclusão universal): Acertou (C). $\text{Nenhum terceirizado é efetivo} + \text{Alguns da equipe são terceirizados} \implies \text{Alguns da equipe não são efetivos}$.
+    - Q5 (Equivalência da condicional — contrapositiva vs. inversa): Errou (marcou B; gabarito C). Converteu $I \to S$ na inversa $\neg I \to \neg S$ em vez da contrapositiva $\neg S \to \neg I$ (*"Se o atendimento não for suspenso, o sistema não estará indisponível"*).
+    - Q6 (Inversão em conjuntos): Acertou (C). $\text{Gestor} \subset \text{Participou}$; saber que Marina participou não garante que seja gestora.
+- **Diagnóstico Clínico**: 
+  1. **Recuperação Confirmada**: A fronteira *necessária × suficiente* foi plenamente assimilada (100% de precisão na Bateria 1 e acerto seguro das armadilhas de recíproca na Bateria 2), inclusive com aplicação espontânea de contraposição. Não saturar com exercícios desse microtema.
+  2. **Gargalos Atuais Isolados**:
+     - *De Morgan*: A regra mecânica ($\neg(A \land B) \equiv \neg A \lor \neg B$) vacilou sob linguagem natural corrida.
+     - *Contrapositiva vs. Inversa*: Persiste o reflexo de marcar a inversa ($\neg P \to \neg Q$) ao buscar equivalência de $P \to Q$, em vez de aplicar rigorosamente o "volta negando" ($\neg Q \to \neg P$).
+- **Diretrizes e Ajustes**:
+  - Enriquecida a nota teórica [[3 - Materias/Logica/04 - equivalencias#1. Regra do "Volta Negando" (Contrapositiva)|04 • Equivalências e negações lógicas]] com alerta explícito do *Quarteto da Condicional* (contrapositiva vs. recíproca vs. inversa).
+  - Próximo passo: microtreino pontual de 4 questões focando exclusivamente a alternância entre De Morgan e contrapositiva.
+
+### Diagnóstico de Bateria Dirigida — Condição Necessária × Suficiente (03/09/2026)
+- **Resultado**: 60,0% útil (3/5 acertos válidos; 1 questão anulada por defeito de formulação).
+  - *Q1 (Prática somente se objetiva)*: Errou (marcou A; gabarito C). Converteu "somente se" em condição suficiente ($obj \to pr\acute{a}t$) em vez de necessária ($pr\acute{a}t \to obj$).
+  - *Q2 (Deferimento desde que documentação)*: Anulada por erro na construção das alternativas (a situação incompatível $V \to F$, doc completa + indeferimento, não constava no gabarito).
+  - *Q3 (Publicação a menos que aprovação)*: Acertou (A). Dominou a conversão de "a menos que" ($\text{pub} \to \text{aprov}$).
+  - *Q4 (Gratificação basta função)*: Acertou (D). Dominou o operador "basta" como condição suficiente ($\text{sup} \to \text{grat}$).
+  - *Q5 (Acesso se e somente se MFA)*: Acertou (B). Dominou a bicondicional ($\text{acesso} \leftrightarrow \text{MFA}$, admitindo apenas $V/V$ e $F/F$).
+  - *Q6 (Sem autorização não envia)*: Errou (marcou A; gabarito C). Converteu a condição necessária em suficiente, concluindo que ter autorização obriga o envio ($A \to E$), em vez da contrapositiva correta de que o envio exige autorização ($E \to A$).
+- **Diagnóstico Clínico**: O alvo de refinamento ficou estritamente circunscrito. Consolidação total em "a menos que", bicondicional e "basta" (condição suficiente). A vulnerabilidade resistente reside em **tratar condição necessária como suficiente** (inverter $P \to Q$ para $Q \to P$ diante de "somente se" e "sem X, não Y").
+- **Diretrizes e Ajustes**:
+  - Fixar o teste de decisão mental:
+    - *Necessária ("precisa ter")*: O fato de ter ocorrido o resultado garante que isso estava presente ($P \to Q$). Ter o requisito, porém, não força o resultado.
+    - *Suficiente ("basta ter")*: Ter o requisito já aciona e garante imediatamente o resultado ($Q \to P$).
+  - Enriquecida a nota teórica [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|02 • Conectivos lógicos]].
 
 ### Diagnóstico de Bateria Dirigida — Condicional e Tradução da Linguagem Natural (02/09/2026)
 - **Resultado**: 46,2% no consolidado útil (6/13 acertos válidos; 1 questão anulada por formulação concorrente).

@@ -28,5 +28,35 @@
     "tipoErro": "C",
     "sourcePath": "3 - Materias/Logica/Avancos.md",
     "status": "pendente"
+  },
+  {
+    "id": "err-bat-20260903-nec-suf",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Raciocínio Lógico",
+    "assunto": "Condição necessária vs. suficiente ('somente se' P → Q e 'sem Q não P' P → Q)",
+    "notaPath": "3 - Materias/Logica/02 - conectivos.md",
+    "tipoErro": "C",
+    "sourcePath": "3 - Materias/Logica/Avancos.md",
+    "status": "superado"
+  },
+  {
+    "id": "err-bat-20260904-demorgan",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Raciocínio Lógico",
+    "assunto": "Leis de De Morgan em linguagem natural: ¬(P ∧ Q) ≡ ¬P ∨ ¬Q",
+    "notaPath": "3 - Materias/Logica/04 - equivalencias.md",
+    "tipoErro": "C",
+    "sourcePath": "3 - Materias/Logica/Avancos.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-bat-20260904-contrapositiva",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Raciocínio Lógico",
+    "assunto": "Contrapositiva vs. Inversa: P → Q ≡ ¬Q → ¬P (e não ¬P → ¬Q)",
+    "notaPath": "3 - Materias/Logica/04 - equivalencias.md",
+    "tipoErro": "C",
+    "sourcePath": "3 - Materias/Logica/Avancos.md",
+    "status": "pendente"
   }
 ]

@@ -3,7 +3,7 @@ title: "Log de erros - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-09-03
+updated: 2026-09-04
 ---
 
 # Log de erros - Dataprev 2026
@@ -30,6 +30,10 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 - **Tradução de "P se Q" na Linguagem Natural:** Bateria Dirigida (02/09/2026) — [C]. *"P se Q"* equivale a $Q \to P$ (o que vem após "se" é condição suficiente/antecedente). Inverter para $P \to Q$ gera a falácia da recíproca. [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|Estudo em Conectivos]].
 - **Condicional Falsa e Violação de Regra:** Bateria Dirigida (02/09/2026) — [C]. Toda condicional $P \to Q$ estabelece uma proibição exclusiva: não pode ocorrer $P \land \neg Q$ ($V \to F$). Todos os demais cenários ($V \to V$, $F \to V$, $F \to F$) mantêm a proposição verdadeira e compatível. [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|Estudo em Conectivos]].
 - **"P a menos que Q":** Bateria Dirigida (02/09/2026) — [K/C]. Equivale a $\neg Q \to P$ (ou $\neg P \to Q$). *"Não entregarei a menos que receba os dados"* $\equiv$ *não receber dados $\to$ não entregar relatório* $\equiv$ *entregar relatório $\to$ receber dados*. [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|Estudo em Conectivos]].
+- **"P somente se Q" e Condição Necessária:** Bateria Dirigida (03/09/2026) — [C]. *"P somente se Q"* traduz-se formalmente como $P \to Q$ (o que vem após "somente se" é condição necessária/consequente). Inverter para $Q \to P$ confunde requisito necessário com garantia suficiente. Realizar a prova prática somente se aprovado na objetiva $\equiv \text{prática} \to \text{objetiva}$. [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|Estudo em Conectivos]].
+- **"Sem Q, não ocorre P":** Bateria Dirigida (03/09/2026) — [C]. Estrutura de condição necessária ($\neg Q \to \neg P \equiv P \to Q$). Concluir $Q \to P$ (ex: "se tem autorização, o documento será enviado") é falácia da afirmação do consequente/recíproca; a contrapositiva válida é $P \to Q$ ("se o documento foi enviado, houve autorização"). [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|Estudo em Conectivos]].
+- **Leis de De Morgan em Proposição Composta:** Bateria Mista (04/09/2026) — [C]. Ao negar uma conjunção $\neg(P \land Q)$, a negação distribui-se obrigatoriamente para **ambas** as proposições e inverte o conectivo para disjunção: $\neg(P \land Q) \equiv \neg P \lor \neg Q$. *"Não é verdade que Ana revisará e Bruno aprovará"* $\equiv$ *"Ana não revisará OU Bruno não aprovará"*. [[3 - Materias/Logica/04 - equivalencias#3. Leis de De Morgan (Negação de land e lor)|Estudo em Equivalências]].
+- **Contrapositiva vs. Inversa na Condicional:** Bateria Mista (04/09/2026) — [C]. Dada a condicional $P \to Q$, a única condicional logicamente equivalente é a **contrapositiva** ($\neg Q \to \neg P$ — inverte a posição e nega ambos). A **inversa** ($\neg P \to \neg Q$ — nega ambos sem inverter) e a **recíproca** ($Q \to P$) **NÃO** são equivalentes à original. *"Se o sistema estiver indisponível, o atendimento será suspenso"* $\equiv$ *"Se o atendimento não for suspenso, o sistema não estará indisponível"*. [[3 - Materias/Logica/04 - equivalencias#1. Regra do "Volta Negando" (Contrapositiva)|Estudo em Equivalências]].
 
 ## Legislação de SI e Proteção de Dados (Marco Civil e LGPD)
 - **Marco Civil da Internet (Art. 2º - Fundamentos):** Q22 do Simulado 01 — *Livre iniciativa, livre concorrência e defesa do consumidor são fundamentos expressos do uso da internet no Brasil (art. 2º, V)*. [[3 - Materias/Informatica/01 - marco civil da internet#Fundamentos da internet no Brasil (art. 2º)|Estudo no Marco Civil]].

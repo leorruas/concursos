@@ -1,3 +1,11 @@
+---
+title: "Comunicação social"
+type: "hub"
+status: "ativo"
+created: 2026-05-25
+updated: 2026-09-01
+---
+
 # Comunicação (Concursos)
 
 ## Avanços e Metodologia

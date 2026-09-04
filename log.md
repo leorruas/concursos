@@ -1,3 +1,73 @@
+## [2026-09-04] governança e tecnologia | Sistema Operacional de Ingestão Assistida (scripts/ingest-vault.js e test-ingest.js)
+- **Ingestão Assistida e Segura**:
+  - Criado o script [[scripts/ingest-vault.js]] com pipeline em 15 etapas de execução, implementando modo `--dry-run` por padrão e modo `--apply` com controle transacional e rollback automático em memória em caso de falha.
+  - Implementada a classificação segura de entradas (teoria, bateria dirigida, simulado completo, etc.), interrompendo imediatamente o fluxo com relatório de pendências diante de qualquer ambiguidade.
+  - Protegidas com bloqueio rígido todas as fontes brutas (`2 - Editais/`, `00 inbox/edital-dataprev.*`, `PROMPT para simulados de comunicação.md`, etc.).
+  - Implementada a regra mandatória de composição oficial da Dataprev: o cálculo ponderado (/115) só é permitido quando a distribuição (12, 12, 5, 6, 5, 30) for integralmente confirmada; caso contrário, é marcado formalmente como "não calculável".
+- **Auditoria e Validação Integrada**:
+  - Expandido [[scripts/validate-integrity.js]] com auditorias adicionais de frontmatter, datas em formato ISO, consistência matemática de acertos/total em simulados e taxonomia clínica [K, C, I, D].
+  - Criada a suite de testes automatizados [[scripts/test-ingest.js]] cobrindo 9 cenários críticos (teoria, baterias, simulados incompletos, duplicatas, proteção de fontes brutas, dry-run, rollback).
+  - Atualizadas as diretrizes de governança em [[me.md]].
+
+## [2026-09-04] frontend e infraestrutura | Evolução Funcional do script.js e Leitor Web (Mermaid Avançado, Busca e Wikilinks)
+- **Sistema Avançado de Diagramas Mermaid**:
+  - Implementado sistema de visualização semântico (`diagrama-wrapper`, `diagrama-toolbar`, `diagrama-viewport`, `diagrama-source`), adaptando com fidelidade estética a solução editorial dos arquivos da PUC ao design suíço de concursos.
+  - Adicionada barra de controles completa acessível por teclado com `aria-label`: ajuste à largura (`ajustar`), zoom in (`+`), zoom out (`−`), escala original (`1:1`) e explorador em tela cheia (`tela cheia`).
+  - Implementado modal explorador fullscreen com suporte a pan suave (arrasto via Pointer Events), zoom contínuo via mouse wheel e atalhos de teclado (`+`, `−`, `0` para 1:1, `f` para fit, `Escape` para fechar).
+  - Incluída área recolhível `<details class="diagrama-source">` preservando o código Mermaid original legível e copiável.
+  - Heurística de complexidade que classifica diagramas em `simples`, `medio` e `complexo` com base em linhas, nós e conectores, aplicando limites verticais de viewport sem distorcer o fluxo original do autor.
+  - Sincronização temática: reconfiguração e re-renderização automática dos diagramas na alternância de tema claro/escuro.
+- **Wikilinks e Âncoras Resilientes**:
+  - Isoladas tags de código (`pre`, `code`, `script`, `style`) para impedir que wikilinks internos de exemplos de código sejam corrompidos.
+  - Suporte completo a aliases (`[[Nota|Alias]]`) e âncoras (`[[Nota#Seção]]` ou `[[#Seção]]`), com navegação suave e compensação de offset do menu fixo (`stickyNav`).
+  - Tratamento de links quebrados/inexistentes no acervo público com classe `.wikilink-quebrado` e aviso sóbrio em `console.warn`.
+- **Busca Refinada com Pontuação e Debounce**:
+  - Implementado debounce de 250ms em `main-search-input` e `nav-search-input`.
+  - Normalização Unicode NFD completa (busca indiferente a acentos e maiúsculas/minúsculas).
+  - Algoritmo de relevância ponderada por relevância estrutural: correspondência em título real/arquivo (+100/+60/+40), cabeçalhos H2/H3 (+25), matéria (+15) e corpo (+10/+5).
+  - Suporte a múltiplas palavras com destaque seguro contra XSS (`<mark class="highlight">`), botão de limpar busca (`&times;`) e atalho de teclado global `/` para focar o input.
+  - Sincronização com o histórico do navegador via rota `#/busca?q=termo`.
+- **Performance, Cache em Memória e Tratamento de Erros**:
+  - Cache em memória via `Map` para todos os artigos carregados, evitando requisições HTTP repetidas.
+  - Fallback defensivo e tratamento gracioso de falhas sem travar a interface.
+  - Pré-processamento automático de tabelas sem cabeçalho para compatibilidade estrita com o parser GFM `marked`.
+- **Auditoria e Validação**:
+  - `node scripts/validate-integrity.js --audit-site` aprovado com 0 erros e 0 avisos.
+  - `node scripts/build-site.js` sincronizado com sucesso.
+
+## [2026-09-04] desempenho e matérias | Ingestão de Inbox (Retenção de Condição, De Morgan e Contraposição)
+- **Ingestão e Desempenho**:
+  - Ingeridas e processadas as 12 questões de Raciocínio Lógico (04/09/2026) distribuídas em duas baterias:
+    - *Bateria 1 (Retenção — Necessária × Suficiente)*: 6/6 acertos (**100%**), consolidando "indispensável", "suficiente", "basta", caso proibido de condição necessária, compatibilidade de requisito não cumprido e contraposição associada.
+    - *Bateria 2 (Mista)*: 4/6 acertos (**66,7%**), acertando quantificadores universais compostos (Q1), falácia da recíproca (Q2), existência com exclusão universal (Q4) e inclusão em conjuntos (Q6). Erros concentrados em De Morgan sob linguagem natural (Q3) e confusão entre contrapositiva e inversa (Q5).
+  - Total da sessão do dia: 10/12 acertos úteis (**83,3%**).
+- **Enriquecimento Teórico**:
+  - Enriquecida a nota [[3 - Materias/Logica/04 - equivalencias#1. Regra do "Volta Negando" (Contrapositiva)|04 • Equivalências e negações lógicas]] com a formalização do *Quarteto da Condicional* (contrapositiva $\neg Q \to \neg P$ equivalente vs. recíproca $Q \to P$ e inversa $\neg P \to \neg Q$ não equivalentes) e a heurística mecânica de distribuição de negação de De Morgan ($\neg(P \land Q) \equiv \neg P \lor \neg Q$).
+- **Sincronia de Desempenho e Projetos**:
+  - Registrados a sessão e o diagnóstico clínico completo em [[3 - Materias/Logica/Avancos|Avanços e desempenho (Lógica)]].
+  - Atualizados o [[00 - Desempenho/00 Avancos globais|Avanços globais]] (janela de 30 dias de Lógica recalculada para 58,3% em 36 Qs; Semana 36 consolidada em 207 Qs e 170 acertos) e o [[00 - Desempenho/01 Log de saturacao diaria|Log de saturação diária]] (sessão de 04/09 com 12 Qs úteis, TAP de 83,3%).
+  - Atualizados os arquivos do projeto Dataprev: [[4 - Projetos/dataprev-2026/Questoes e Simulados|Questões e simulados]] (histórico de mini-simulados), [[4 - Projetos/dataprev-2026/Log de erros|Log de erros (FGV)]] e [[data/erros-recorrentes.json]] (marcado desvio de condição necessária/suficiente como `superado` e cadastrados os desvios de De Morgan e contrapositiva vs. inversa).
+- **Housekeeping**:
+  - Limpo o arquivo de ingestão [[00 inbox/00 ingestão.md]], preservando cabeçalho e frontmatter.
+
+## [2026-09-03] desempenho e matérias | Ingestão de Inbox (Bateria Dirigida de Lógica — Condição Necessária × Suficiente)
+- **Ingestão e Desempenho**:
+  - Ingeridas e processadas as 6 questões da bateria adaptativa de Raciocínio Lógico (03/09/2026) focada na distinção estrita entre condição necessária e suficiente na linguagem natural.
+  - Resultado útil: 3/5 acertos válidos (60,0%), com 1 questão anulada por formulação defeituosa das alternativas (Q2).
+  - Diagnosticada retenção sólida nas estruturas "a menos que", bicondicional e "basta" (condição suficiente), isolando a vulnerabilidade resistente na conversão de condição necessária em suficiente diante de "somente se" (Q1) e "sem autorização não envia" (Q6).
+- **Enriquecimento Teórico**:
+  - Enriquecida a nota [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|02 • Conectivos lógicos]] com:
+    - O modelo mental e deduções válidas de *"P somente se Q"* ($\implies P \to Q$);
+    - A formalização de *"Basta Q para P"* ($\implies Q \to P$);
+    - A estrutura negativa *"Sem Q, não ocorre P"* ($\implies \neg Q \to \neg P \equiv P \to Q$);
+    - O Quadro de Decisão Rápida (Necessária: *"precisa ter?"* $\to$ consequente; Suficiente: *"basta ter?"* $\to$ antecedente).
+- **Sincronia de Desempenho e Projetos**:
+  - Registrada a sessão e o diagnóstico clínico completo em [[3 - Materias/Logica/Avancos|Avanços e desempenho (Lógica)]].
+  - Atualizados o [[00 - Desempenho/00 Avancos globais|Avanços globais]] (janela de 30 dias de Lógica recalculada para 45,8% em 24 Qs; Semana 36 consolidada em 195 Qs e 160 acertos) e o [[00 - Desempenho/01 Log de saturacao diaria|Log de saturação diária]] (sessão de 03/09 com 5 Qs úteis, TAP de 60,0%).
+  - Atualizados os arquivos do projeto Dataprev: [[4 - Projetos/dataprev-2026/Questoes e Simulados|Questões e simulados]] (histórico de mini-simulados), [[4 - Projetos/dataprev-2026/Log de erros|Log de erros (FGV)]] e [[data/erros-recorrentes.json]].
+- **Housekeeping**:
+  - Limpo o arquivo de ingestão [[00 inbox/00 ingestão.md]], preservando cabeçalho e frontmatter.
+
 ## [2026-09-03] governança | Refinamento Epistemológico e Eficiência Operacional em me.md
 - **Retificação da Pontuação Oficial vs. Meta Pessoal**:
   - Corrigida a distinção epistemológica em [[me.md]]: 115 pontos é a pontuação máxima oficial da prova; 102 pontos (88,7%) é a meta estratégica pessoal do candidato (plano de ataque). Proibido rotular 102/115 como corte ou exigência oficial da banca.

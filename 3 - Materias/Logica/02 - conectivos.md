@@ -78,19 +78,35 @@ Em provas de alto nível da FGV, o maior obstáculo não é a álgebra dos símb
 
 2. **"P somente se Q" $\implies P \to Q$**:
    - O que vem depois de "somente se" introduz o **consequente (condição necessária)**.
-   - *Exemplo*: "Joana somente participa da reunião se Carlos estiver presente" $\equiv \text{Joana participa} \to \text{Carlos presente}$.
-   - *Cenário proibido*: Joana participar sem Carlos estar presente ($V \to F$).
+   - *Exemplo*: "O candidato poderá realizar a prova prática somente se tiver sido aprovado na prova objetiva" $\equiv \text{prova prática} \to \text{aprovado na objetiva}$.
+   - *Dedução válida*: Realizar a prova prática é condição suficiente para garantir a aprovação na objetiva ($\text{prática} \to \text{objetiva}$). A aprovação na objetiva, por si só, é apenas necessária, não garantindo a realização da prática.
+   - *Cenário proibido*: Realizar a prática sem ter sido aprovado na objetiva ($V \to F$).
 
-3. **"Q é condição necessária para P" $\implies P \to Q$**:
-   - Aquilo que é necessário fica na ponta da seta (consequente).
+3. **"Basta Q para P" ou "Q é suficiente para P" $\implies Q \to P$**:
+   - "Basta" marca **condição suficiente** (antecedente).
+   - *Exemplo*: "Para receber gratificação, basta exercer a função de supervisor" $\equiv \text{supervisor} \to \text{gratificação}$.
+   - Quem exerce a função necessariamente recebe a gratificação.
+
+4. **"Q é condição necessária para P" $\implies P \to Q$**:
+   - Aquilo que é necessário fica no **consequente** (na ponta da seta).
    - *Exemplo*: "Para assumir o cargo, é necessário apresentar o diploma" $\equiv \text{assumir cargo} \to \text{apresentar diploma}$.
    - *Dedução necessária*: Quem assume o cargo necessariamente apresentou o diploma. Ter diploma, porém, não garante que assumirá.
 
-4. **"P a menos que Q" $\implies \neg Q \to P$ (ou $\neg P \to Q$)**:
-   - "A menos que" introduz uma exceção ou condição sem a qual $P$ ocorre: $\neg Q \to P \equiv \neg P \to Q$.
-   - *Exemplo com negação*: "Não entregarei o relatório hoje, a menos que receba os dados" $\equiv \text{não receber dados} \to \text{não entregar relatório} \equiv \text{entregar relatório} \to \text{receber dados}$.
+5. **"Sem Q, não ocorre P" $\implies \neg Q \to \neg P \equiv P \to Q$**:
+   - Estrutura negativa de condição necessária.
+   - *Exemplo*: "Sem autorização da chefia, o documento não poderá ser enviado" $\equiv \neg\text{autorização} \to \neg\text{envio} \equiv \text{envio} \to \text{autorização}$.
+   - Se o documento foi enviado, necessariamente houve autorização prévia. Ter autorização, contudo, não obriga o envio do documento.
 
-5. **Heurística operacional da condicional (o caso proibido)**:
+6. **"P a menos que Q" $\implies \neg Q \to P$ (ou $\neg P \to Q$)**:
+   - "A menos que" introduz uma exceção ou condição sem a qual $P$ ocorre: $\neg Q \to P \equiv \neg P \to Q \equiv \neg P \lor Q$.
+   - *Exemplo com negação*: "Não autorizarei a publicação, a menos que o jurídico aprove" $\equiv \neg\text{aprovação jurídica} \to \neg\text{publicação} \equiv \text{publicação} \to \text{aprovação jurídica}$.
+   - Se houve publicação, conclui-se obrigatoriamente que houve aprovação jurídica.
+
+7. **Quadro de Decisão Rápida: Necessária vs. Suficiente**:
+   - **Necessária ("precisa ter")**: Pergunta: *"Se o resultado ocorreu, isso obrigatoriamente precisava estar presente?"* $\to$ Consequente (ponta da seta: $P \to Q$).
+   - **Suficiente ("basta ter")**: Pergunta: *"Só isso já basta para produzir o resultado?"* $\to$ Antecedente (origem da seta: $Q \to P$).
+
+8. **Heurística operacional da condicional (o caso proibido)**:
    - Toda condicional $P \to Q$ equivale formalmente a uma **proibição exclusiva**: não pode ocorrer $P \land \neg Q$ ("prometeu e não cumpriu").
    - Todos os outros três cenários ($V \to V$, $F \to V$, $F \to F$) mantêm a proposição verdadeira e plenamente compatível com a norma.
 

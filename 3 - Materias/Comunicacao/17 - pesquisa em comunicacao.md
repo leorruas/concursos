@@ -3,76 +3,226 @@ title: "Pesquisa em comunicação"
 type: "conceito"
 status: "ativo"
 created: 2026-07-22
-updated: 2026-08-10
+updated: 2026-09-10
 ---
 # Pesquisa em comunicação
 
-A pesquisa em comunicação é a base empírica e metodológica do planejamento de comunicação. Ela é utilizada para **reduzir incertezas** no desenho estratégico, monitorar a execução e avaliar resultados, impedindo que o diagnóstico institucional baseie-se apenas em opiniões.
+A pesquisa em comunicação produz evidências para diagnóstico, planejamento, monitoramento e avaliação. Seu papel não é confirmar intuitivamente uma decisão já tomada, mas reduzir incerteza por meio de um desenho coerente entre **problema, objetivo, método, amostra, coleta, análise e limite de inferência**.
 
-## Abordagens Metodológicas
+> [!IMPORTANT]
+> A FGV cobra pesquisa em Comunicação de forma mais ampla que a oposição qualitativa × quantitativa. Na própria Dataprev 2024, cobrou a classificação de Mattar em seis dimensões; em provas posteriores voltou a amostragem probabilística/não probabilística, painel, pesquisa de opinião e auditoria de opinião.
 
-A pesquisa estratégica em comunicação utiliza de forma integrada duas grandes abordagens:
+## 1. Qualitativa × quantitativa
 
-### 1. Pesquisa Quantitativa
-Responde a perguntas de magnitude, volume, frequência e distribuição: **"quanto?"**, **"quantos?"**, **"qual o percentual?"**.
-- **Foco**: Mensurar comportamentos, acessos e tendências populacionais de forma estatística.
-- **Ferramentas**: Questionários fechados estruturados, dados de *web analytics* (taxa de rejeição, cliques), contagem de chamados, auditorias quantitativas.
-- **Amostragem**: Exige amostras que representem com fidelidade o universo pesquisado para evitar distorções de generalização.
+### Pesquisa quantitativa
 
-### 2. Pesquisa Qualitativa
-Explica as motivações, dinâmicas cognitivas, significados e barreiras percebidas: **"por quê?"**, **"como?"**, **"qual a experiência?"**.
-- **Foco**: Compreender o fenômeno em profundidade, isolando as razões de atitudes ou dificuldades encontradas pelos usuários.
-- **Ferramentas**: Entrevistas em profundidade, grupos focais (*focus groups*), observação participante, testes de usabilidade qualitativos e perguntas abertas.
+Trabalha predominantemente com variáveis passíveis de mensuração e tratamento quantitativo. É adequada para questões de magnitude, frequência, distribuição, associação e comparação numérica.
 
----
+Exemplos: survey estruturado, audiência, analytics, contagem de chamados, taxas de conversão e experimentos quantitativos.
 
-## Complementaridade Metodológica (FGV)
+> [!WARNING]
+> **Quantitativa ≠ necessariamente amostra representativa.** Um censo, uma análise completa de logs, um experimento com amostra de conveniência ou um estudo descritivo de uma base disponível podem ser quantitativos. A representatividade é necessária quando se pretende **generalizar estatisticamente da amostra para uma população** nas condições que exigem esse tipo de inferência.
 
-A FGV valoriza a visão integrada de que dados quantitativos e qualitativos são **complementares e não excludentes**:
-1. *Analytics (Quantitativa)* localiza e mede a taxa de erro ou abandono (ex: *"60% abandonam o preenchimento na etapa 3"*).
-2. *Entrevistas/Testes (Qualitativa)* explicam por que isso ocorre (ex: *"Os usuários acham que o botão de avançar parece desabilitado"*).
-A combinação de ambos permite que o comunicador tome decisões baseadas em conhecimento real da causa.
+### Pesquisa qualitativa
 
----
+Busca compreender significados, experiências, práticas, motivações e interpretações em profundidade. Trabalha frequentemente com discursos, narrativas, imagens, observações e outros materiais não reduzidos prioritariamente a medidas numéricas.
 
-## LGPD e Ética em Pesquisas de Comunicação e UX
+Exemplos: entrevistas em profundidade, grupos focais, observação, etnografia e análise qualitativa de conteúdo.
 
-Pesquisas de imagem, opinião, satisfação e usabilidade que envolvam dados pessoais estão inteiramente submetidas à LGPD (Lei nº 13.709/2018) e às orientações da ANPD. O fato de os dados servirem a um estudo institucional não elimina as exigências de finalidade, necessidade, transparência e segurança.
-
-### 1. Separação de Identificação e Respostas (Pseudonimização)
-- **Base de Recrutamento**: Contém identificadores (nome, e-mail, telefone), com acesso restrito e isolado.
-- **Base de Análise**: As respostas são associadas a códigos/pseudônimos (ex: `P01`, `P02`).
-- **Atenção (FGV)**: O uso de códigos constitui **pseudonimização** (pois mantém-se a possibilidade de reidentificação via chave separada). Portanto, os dados **continuam sujeitos à LGPD**.
-
-### 2. Relatórios e Divulgação dos Resultados
-- **Dados Agregados / Anonimizados**: Em relatórios públicos ou internos, priorizar a apresentação de dados agregados (ex: *"73% dos servidores relatam dificuldades"*).
-- **Risco de Reidentificação por Cruzamento**: A agregação não garante anonimato por si só se o cruzamento de atributos demográficos/setoriais em grupos pequenos expuser um indivíduo indiretamente (ex: *"100% das servidoras PCDs do setor X"*).
-- **Tratamento de Citações Qualitativas**: Transcrever citações removendo nomes, cargos específicos, unidades ou detalhes contextuais. Se a própria frase revelar a autoria, deve-se **parafrasear** a declaração preservando o significado original.
-
-### 3. Retenção e Eliminação
-- A conservação de dados cadastrais, gravações de entrevistas e logs de uso deve estar estritamente vinculada à finalidade da pesquisa. Cumprida a finalidade, os identificadores devem ser **eliminados**, não devendo ser retidos indefinidamente por mera conveniência.
+A FGV já cobrou como características da abordagem qualitativa a investigação do fenômeno em contexto, a atenção à perspectiva dos atores e a predominância de interpretação sobre mensuração estatística.
 
 > [!TIP]
-> **Heurística de Pesquisa Ética**: *Colete o mínimo necessário ➔ Separe a base de identificação da base de análise ➔ Analise utilizando pseudônimos (P01) ➔ Publique relatórios agregados/anonimizados sem riscos de reidentificação ➔ Elimine identificadores ao fim da finalidade.*
+> Quantitativa pergunta principalmente **quanto/com que frequência/como se distribui**. Qualitativa pergunta principalmente **como/por quê/o que significa**. A fronteira é metodológica, não simplesmente “números versus palavras”.
 
----
+## 2. Classificações de Mattar cobradas na Dataprev 2024
 
-## Fontes de Viés e Limitações
+Na prova Dataprev 2024, a FGV apresentou seis possibilidades de classificação de pesquisa de marketing atribuídas a Mattar (2013) e pediu que fossem relacionadas ao critério que varia em cada classificação.
 
-- **Viés de Formulação**: Perguntas indutoras ou enviesadas contaminam a resposta e comprometem a validade metodológica (ex: *"Você concorda que o novo sistema facilitou sua rotina?"* vs. a neutra *"Como foi sua experiência ao utilizar o novo sistema?"*).
-- **Dados vs. Decisão**: A coleta de dados por si só não gera inteligência. É necessária a interpretação contextualizada à luz dos objetivos de comunicação.
-- **IA na Pesquisa**: Ferramentas de Inteligência Artificial podem acelerar a categorização de dados qualitativos e identificação de padrões, mas **não substituem o rigor do desenho metodológico original**.
+| Classificação | O que diferencia |
+|---|---|
+| **Qualitativa × quantitativa** | Natureza das variáveis pesquisadas. |
+| **Descritiva × explicativa** | Natureza do relacionamento entre as variáveis estudadas. |
+| **Exploratória × conclusiva** | Objetivo da pesquisa e grau de cristalização do problema. |
+| **Por comunicação × por observação** | Forma utilizada para coleta de dados primários. |
+| **Estudo de caso × estudo de campo × levantamento amostral** | Escopo em termos de amplitude e profundidade. |
+| **Ocasional × evolutiva** | Dimensão da pesquisa no tempo. |
 
----
+> [!TIP]
+> **Heurística para Mattar:** natureza → quali/quanti; relação → descritiva/explicativa; objetivo → exploratória/conclusiva; coleta → comunicação/observação; escopo → caso/campo/levantamento; tempo → ocasional/evolutiva.
 
-## Como a banca cobra (FGV)
+Essa classificação não significa que os pares sejam sinônimos entre si. Uma pesquisa pode, por exemplo, ser quantitativa, descritiva, conclusiva, por comunicação, amostral e ocasional ao mesmo tempo, porque cada eixo responde a uma dimensão diferente do desenho.
 
-- **Confusão de finalidades**: Questões que sugerem usar a pesquisa quantitativa para explicar "motivações subjetivas" ou a pesquisa qualitativa para provar "representatividade estatística nacional".
-- **Identificação de viés**: Cenários que apresentam questionários com perguntas que direcionam a resposta do usuário e exigem identificar a falha de validade do instrumento.
-- **Pesquisa ao longo do ciclo**: Cobrança do papel da pesquisa antes (diagnóstico), durante (monitoramento e correção de rumo) e após a execução (avaliação de eficácia).
-- **Privacidade e LGPD em Pesquisas**: Estudos de caso exigindo o correto tratamento de citações qualitativas, descarte de gravações e proteção contra reidentificação em relatórios com grupos reduzidos.
+## 3. Amostragem
+
+### Probabilística
+
+Na amostragem probabilística, as unidades da população têm probabilidade de seleção conhecida conforme o plano amostral. Entre tipos clássicos cobrados pela FGV estão:
+
+- **aleatória simples**;
+- **sistemática**;
+- **estratificada**;
+- **por conglomerados**.
+
+A FGV já apresentou **amostragem por julgamento** como distrator quando perguntou qual não pertencia ao grupo probabilístico.
+
+### Não probabilística
+
+Não depende de seleção probabilística conhecida. Tipos frequentes incluem:
+
+- **conveniência**;
+- **julgamento/intencional**;
+- **cotas**;
+- **bola de neve**, conforme o desenho adotado.
+
+Na prova do MPU 2025, a FGV cobrou **amostragem por cotas** como integrante do grupo não probabilístico.
+
+> [!WARNING]
+> **Amostra grande ≠ amostra probabilística.** Aumentar o número de respostas não corrige automaticamente viés de seleção.
+
+### Erro amostral × não amostral
+
+- **Erro amostral** decorre do fato de observar uma amostra em vez de toda a população e pode ser estimado sob desenhos probabilísticos adequados.
+- **Erro não amostral** pode surgir de questionário mal formulado, não resposta, cobertura inadequada, erro de registro, coleta ou processamento.
+
+A FGV já cobrou que erros de elaboração do questionário/coleta são **não amostrais**, não sendo eliminados simplesmente pelo aumento do tamanho da amostra.
+
+## 4. Pesquisa de opinião, painel e auditoria de opinião
+
+### Pesquisa de opinião
+
+Busca mensurar opiniões, atitudes ou percepções de um público. Quando o objetivo é estimar características da população, costuma recorrer a amostra estruturada e, quando possível e adequado, a desenho probabilístico que sustente inferência estatística.
+
+### Painel
+
+Um **painel** acompanha as mesmas unidades ou um conjunto definido de participantes ao longo do tempo. Portanto, é apropriado para observar mudança e evolução; não é um simples corte estático de um único momento.
+
+> [!WARNING]
+> **Painel ≠ pesquisa transversal.** A FGV NAV Brasil 2026 usou exatamente essa inversão como afirmação falsa.
+
+### Auditoria de opinião
+
+Na tradição de Relações Públicas cobrada pela FGV, a auditoria de opinião é um levantamento qualitativo com públicos estratégicos, líderes ou formadores de opinião, em que a profundidade e a qualificação dos participantes importam mais que a quantidade de respostas.
+
+> [!TIP]
+> Pesquisa de opinião tende à **mensuração**; auditoria de opinião tende à **compreensão qualificada de públicos estratégicos**.
+
+## 5. Complementaridade e métodos mistos
+
+Qualitativo e quantitativo podem ser combinados porque respondem a perguntas diferentes.
+
+Exemplo:
+
+```text
+Analytics: 60% abandonam a etapa 3
+                    ↓
+Entrevistas/testes: usuários não compreendem a instrução
+                    ↓
+Nova hipótese e intervenção
+                    ↓
+Medição posterior: a taxa de conclusão mudou?
+```
+
+O quantitativo localiza magnitude e distribuição; o qualitativo pode explicar mecanismos, interpretações e barreiras. A ordem também pode ser inversa: uma fase qualitativa exploratória pode ajudar a construir hipóteses ou categorias que depois serão mensuradas.
+
+> [!WARNING]
+> Métodos mistos não significam que um método “valida automaticamente” o outro. É preciso coerência de desenho e interpretação.
+
+## 6. Questionário, entrevista e grupo focal
+
+### Formulação de perguntas
+
+Perguntas indutoras incorporam uma resposta desejável ou pressuposto não demonstrado. Exemplo ruim: `Você concorda que o novo sistema melhorou muito o atendimento?`
+
+Uma formulação mais neutra seria: `Como você avalia o atendimento após a implantação do novo sistema?`
+
+### Grupo focal
+
+Grupo focal é técnica qualitativa baseada em interação orientada entre participantes. Não produz generalização estatística apenas porque reúne várias pessoas. Seu valor está nos argumentos, percepções, consensos, divergências e interações que emergem do grupo.
+
+A FGV já usou como distrator a ideia de que grupos focais teriam tratamento estatístico capaz de tornar seus achados quantitativamente generalizáveis.
+
+### Entrevista
+
+Entrevistas qualitativas permitem explorar experiência, interpretação e contexto individual. A qualidade da inferência depende da seleção dos participantes, roteiro, condução e análise; “entrevistou algumas pessoas” não autoriza generalização automática para toda a população.
+
+## 7. LGPD em pesquisa de comunicação e UX
+
+Pesquisa com usuários não cria exceção geral à LGPD. Havendo tratamento de dados pessoais, aplicam-se finalidade, base legal, necessidade, segurança, transparência e demais requisitos pertinentes. Os detalhes jurídicos estão consolidados em [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI, LGPD e transparência]].
+
+### Pseudonimização
+
+Separar identificadores da base analítica e usar códigos como `P01` reduz exposição direta, mas continua permitindo reidentificação por meio de informação adicional. Portanto, **pseudonimização não equivale a anonimização**.
+
+### Relatórios e reidentificação
+
+Dados agregados podem continuar permitindo identificação indireta quando o grupo é muito pequeno ou uma combinação de atributos torna alguém único. Citações qualitativas também podem identificar participantes por contexto, cargo, unidade ou eventos descritos.
+
+### Retenção
+
+A conservação deve ser compatível com a finalidade e com as hipóteses legais de retenção. Encerrar a pesquisa **não implica necessariamente eliminação imediata de todo dado**: a LGPD prevê hipóteses de conservação. O erro é manter dados indefinidamente por mera conveniência, sem finalidade ou fundamento.
+
+## Como a FGV cobra
+
+Há evidência direta e recorrente de cobrança:
+
+- **Dataprev 2024**: classificação de Mattar em seis eixos.
+- **AL-TO 2024**: qualitativa × quantitativa; amostragem probabilística; grupo focal e etnografia.
+- **Câmara de Fortaleza 2024**: erro amostral × não amostral.
+- **MPU 2025**: amostragem por cotas como não probabilística.
+- **NAV Brasil 2026**: características da abordagem qualitativa; painel, pesquisa de opinião e auditoria de opinião.
+- **ALE-RO 2026**: técnicas qualitativas, com entrevista em profundidade e observação de campo.
+
+O mecanismo de distração predominante é **transposição conceitual**: uma característica verdadeira de um método é atribuída a outro.
+
+## Relações com outros temas
+
+- [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]]: pesquisa como diagnóstico, monitoramento e avaliação.
+- [[3 - Materias/Comunicacao/15 - publicos e stakeholders|Públicos e stakeholders]]: definição do universo e seleção de públicos.
+- [[3 - Materias/Comunicacao/06 - comunicacao digital|Comunicação digital]]: analytics, comportamento digital e métricas.
+- [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI, LGPD e transparência]]: tratamento, pseudonimização, anonimização e retenção.
+- [[3 - Materias/Comunicacao/14 - entrevista jornalistica|Entrevista jornalística]]: diferenças entre entrevista de pesquisa e entrevista como técnica/gênero jornalístico.
+
+## Tensões e pegadinhas
+
+- **Quantitativo ≠ necessariamente representativo**.
+- **Grande amostra ≠ amostra probabilística**.
+- **Qualitativo ≠ ausência de método**.
+- **Grupo focal ≠ survey coletivo**.
+- **Painel ≠ corte transversal**.
+- **Pesquisa de opinião ≠ auditoria de opinião**.
+- **Erro amostral ≠ todo erro de pesquisa**.
+- **Pseudonimização ≠ anonimização**.
+- **Dados agregados ≠ anonimato garantido**.
+
+## Exemplos comentados
+
+**Caso 1:** 30 mil usuários respondem voluntariamente a enquete aberta no portal. A base é quantitativa e grande, mas isso não torna a amostra automaticamente probabilística ou representativa de todos os usuários.
+
+**Caso 2:** 12 formadores de opinião são entrevistados em profundidade para compreender percepções sobre a reputação institucional. O valor do estudo está na seleção estratégica e profundidade, aproximando-se de uma auditoria de opinião, não de estimativa percentual da população.
+
+**Caso 3:** os mesmos participantes respondem a um instrumento a cada seis meses. Trata-se de lógica longitudinal/painel, adequada para observar mudanças ao longo do tempo.
+
+## Heurísticas
+
+- Quanti mede; quali compreende significados e mecanismos.
+- Para generalizar, pergunte **como a amostra foi selecionada**, não apenas quantas respostas existem.
+- Probabilística: aleatória simples, sistemática, estratificada, conglomerados.
+- Não probabilística: conveniência, julgamento, cotas, bola de neve.
+- Painel = acompanhar ao longo do tempo.
+- Mattar: natureza / relação / objetivo / coleta / escopo / tempo.
+- Grupo focal produz profundidade e interação, não generalização estatística automática.
 
 ---
 **Fontes Brutas:**
 - [[00 inbox/00 ingestão]]
 
+**Referência teórica de prova:**
+- Mattar, F. N. (2013), classificação de pesquisas de marketing usada pela FGV na Dataprev 2024.
+
+**Evidência de banca usada na revisão:**
+- FGV, Dataprev, ATI — Comunicação Social, 2024.
+- FGV, AL-TO, Analista Legislativo — Relações Públicas, 2024.
+- FGV, Câmara de Fortaleza, Analista de Comunicação Social, 2024.
+- FGV, MPU, Analista — Comunicação Social, 2025.
+- FGV, NAV Brasil, Analista de Comunicação e Marketing, 2026.
+- FGV, ALE-RO, Comunicação Social/Relações Públicas, 2026.

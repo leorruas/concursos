@@ -1,3 +1,28 @@
+function normalizarTituloArtigo(texto) {
+    return String(texto || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/^\s*\d+\s*[-–—.:]\s*/, "")
+        .replace(/^\s*[-–—]+\s*/, "")
+        .replace(/[^a-z0-9]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function removerH1Duplicado(markdown, tituloExibicao) {
+    if (!markdown || !tituloExibicao) return markdown;
+
+    return markdown.replace(/^#\s+(.+?)\s*$/m, (linhaCompleta, tituloH1) => {
+        const h1Normalizado = normalizarTituloArtigo(tituloH1);
+        const tituloNormalizado = normalizarTituloArtigo(tituloExibicao);
+
+        return h1Normalizado && h1Normalizado === tituloNormalizado
+            ? ""
+            : linhaCompleta;
+    });
+}
+
 function abrirArtigo(artigo, atualizarRota = true) {
     artigoAtual = artigo;
     if (atualizarRota && window.location.hash !== rotaDoArtigo(artigo)) {
@@ -11,20 +36,22 @@ function abrirArtigo(artigo, atualizarRota = true) {
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.remove("escondido");
 
+    const tituloNavegacao = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
     const breadcrumbs = document.getElementById("artigo-breadcrumbs");
     breadcrumbs.innerHTML = `
         <button type="button" class="breadcrumb-link" id="btn-bc-art-home">início</button>
         <span class="breadcrumb-separator">/</span>
         <button type="button" class="breadcrumb-link" id="btn-bc-art-cat">${limparNomeCategoria(artigo.categoria)}</button>
         <span class="breadcrumb-separator">/</span>
-        <span class="breadcrumb-atual">${artigo.titulo}</span>
+        <span class="breadcrumb-atual">${tituloNavegacao}</span>
     `;
     document.getElementById("btn-bc-art-home")?.addEventListener("click", () => voltarParaHome(true));
     document.getElementById("btn-bc-art-cat")?.addEventListener("click", () => abrirDisciplina(artigo.categoria));
 
-    artigoTitulo.textContent = artigo.tituloExibicao || formatarNomeArtigo(artigo.titulo);
+    artigoTitulo.textContent = tituloNavegacao;
 
     let markdownLimpo = removerFrontmatter(artigo.conteudo);
+    markdownLimpo = removerH1Duplicado(markdownLimpo, tituloNavegacao);
     
     // 1. Suporte a Highlights com comentário associado: ==texto== %% [comentário]: meu comentário %%
     markdownLimpo = markdownLimpo.replace(/==([^=]+)==\s*%%\s*\[(?:comentário|comentario|nota|obs)\]:?\s*([\s\S]*?)\s*%%/gi, (match, texto, comentario) => {

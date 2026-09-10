@@ -3,70 +3,109 @@ title: "Gêneros jornalísticos"
 type: "conceito"
 status: "ativo"
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-09-10
 ---
 # Gêneros jornalísticos
 
-Os gêneros jornalísticos diferenciam-se principalmente pela **função predominante** do texto: os informativos relatam fatos; os interpretativos aprofundam e contextualizam; os opinativos defendem posições ou fazem avaliações.
+Gênero jornalístico é uma categoria que agrupa formatos com características e funções sociais comuns. Para concursos da FGV, a referência mais importante neste tema é a **Classificação Marques de Melo**, desenvolvida para o jornalismo brasileiro e retomada por José Marques de Melo e Francisco de Assis. Ela não deve ser apresentada como taxonomia universal: existem outras classificações na literatura e os próprios autores ressaltam seu vínculo com práticas e contextos históricos específicos.
 
-## Classificação dos Gêneros
+## Classificação Marques de Melo
 
-### 1. Gênero Informativo
-Tem como objetivo principal a apresentação objetiva de fatos.
-- **Notícia**: Relato relativamente breve, direto e impessoal de um fato atual e relevante. Estrutura-se tradicionalmente em torno do lide e da pirâmide invertida.
-- **Nota**: Informação extremamente concisa e rápida sobre um assunto pontual (ex: comunicado de manutenção de sistemas). Não é uma reportagem reduzida.
-- **Reportagem**: Vai além do factual imediato. Investiga, contextualiza, cruza múltiplas fontes, analisa causas e consequências. Busca explicar o que o fato significa.
+Na classificação consolidada por Marques de Melo, há **cinco gêneros**: informativo, opinativo, interpretativo, diversional e utilitário. A FGV já cobrou explicitamente essa taxonomia em provas de Jornalismo, inclusive associando formatos aos respectivos gêneros.
 
-### 2. Gênero Opinativo
-Expressa posicionamento, julgamento de valor ou opinião explícita.
-- **Editorial**: Expressa a opinião institucional do veículo de comunicação. Por representar a voz da organização, **não é assinado** por um autor individual.
-- **Artigo**: Expressa a opinião de um **autor identificado (assinado)**. Pode ser escrito por colaboradores, especialistas ou jornalistas convidados.
-- **Coluna**: Espaço periódico assinado por um colunista, caracterizando-se pela regularidade e identidade autoral.
-- **Crônica**: Gênero híbrido que parte de um acontecimento cotidiano para propor uma reflexão subjetiva ou literária.
-
-### 3. Gênero Interpretativo
-Busca explicar e contextualizar o acontecimento. Embora a reportagem seja frequentemente colocada no gênero informativo, ela possui forte teor interpretativo devido ao seu papel analítico e explicativo.
-
----
-
-## Comparação de Gêneros e Formatos (FGV)
-
-| Gênero / Formato | Função Predominante | Marca Principal |
+| Gênero | Função central | Formatos na classificação Marques de Melo |
 |---|---|---|
-| **Notícia** | Informar fato atual | Brevidade, lide e objetividade |
-| **Nota** | Comunicar informação pontual | Máxima concisão |
-| **Reportagem** | Aprofundar e contextualizar | Investigação e múltiplas fontes |
-| **Editorial** | Defender posição do veículo | Voz institucional (não assinado) |
-| **Artigo** | Defender posição de um autor | Assinatura individual |
-| **Coluna** | Analisar/comentar periodicamente | Regularidade autoral |
-| **Entrevista** | Expor falas da fonte | Diálogo estruturado (perguntas/respostas) |
-| **Release** | Sugerir pauta institucional | Origem na assessoria (não é notícia pronta) |
+| **Informativo** | vigilância social / relato da atualidade | nota, notícia, reportagem, entrevista |
+| **Opinativo** | fórum de ideias / expressão de julgamentos | editorial, comentário, artigo, resenha, coluna, caricatura, carta, crônica |
+| **Interpretativo** | papel educativo e esclarecedor | análise, perfil, enquete, cronologia, dossiê |
+| **Diversional** | distração e lazer por tratamento narrativo de interesse humano | história de interesse humano, história colorida |
+| **Utilitário** | auxílio à tomada de decisões cotidianas | indicador, cotação, roteiro, serviço |
 
----
+> [!IMPORTANT]
+> **A classificação é do autor.** Não transforme os cinco gêneros em verdade universal sobre todo o jornalismo. Em questão que nomeia Marques de Melo, use a taxonomia dele; em questão que traz outro autor, a classificação pode mudar.
 
-## Como a banca cobra
+## Gênero × formato
 
-A FGV apresenta características textuais ou situações hipotéticas e exige que o candidato identifique o gênero correspondente.
-- **Editorial vs. Artigo**: A banca tenta confundir os dois. Lembre-se: editorial = voz institucional (sem assinatura); artigo = opinião pessoal (com assinatura).
-- **Reportagem vs. Notícia**: A notícia é factual e imediata. A reportagem é de fôlego, investiga causas/consequências e ouve diversas fontes.
-- **Release no fluxo**: A banca cobra o entendimento de que o release é uma sugestão de pauta institucional enviada à redação, que pode ser descartada, reescrita ou apurada, jamais sendo publicada compulsoriamente como notícia pronta.
+O **gênero** é a categoria mais ampla ligada à função social predominante. O **formato** é a forma concreta pela qual essa função aparece na prática jornalística. Assim, “informativo” é gênero; “notícia” é formato dentro dele. “Opinativo” é gênero; “editorial” e “artigo” são formatos.
+
+Essa fronteira é especialmente importante porque a FGV pode fornecer uma definição correta de um formato e pedir o gênero correspondente, ou apresentar três formatos de gêneros diferentes e exigir a associação.
+
+## Gênero informativo
+
+Na Classificação Marques de Melo, pertencem ao gênero informativo **nota, notícia, reportagem e entrevista**.
+
+A **nota** transmite informação breve e pontual. A **notícia** relata acontecimento atual com foco no essencial. A **reportagem** amplia a apuração e o contexto. A **entrevista**, quando publicada como produto jornalístico autônomo, integra o gênero informativo nessa classificação.
+
+> [!WARNING]
+> A reportagem pode conter interpretação e contextualização sem, por isso, migrar automaticamente para o gênero interpretativo de Marques de Melo. Na taxonomia do autor, **reportagem é formato informativo**. O gênero interpretativo possui formatos próprios, como análise, perfil, enquete, cronologia e dossiê.
+
+## Gênero opinativo
+
+O gênero opinativo reúne formatos orientados à expressão de julgamentos e posições. Na classificação, incluem-se **editorial, comentário, artigo, resenha, coluna, caricatura, carta e crônica**.
+
+As fronteiras mais úteis para prova são:
+
+- **Editorial**: posição institucional do veículo, tradicionalmente sem assinatura individual.
+- **Artigo**: texto argumentativo assinado, frequentemente escrito por especialista ou colaborador identificado.
+- **Comentário**: interpretação opinativa de acontecimento por autor/jornalista, geralmente relacionada à atualidade.
+- **Coluna**: formato marcado também pela regularidade e identidade autoral.
+
+Apenas observar “há opinião” nem sempre basta para identificar o formato. Autoria, periodicidade, função e posição institucional ajudam a separar categorias próximas.
+
+## Gênero interpretativo
+
+Na classificação Marques de Melo, o gênero interpretativo inclui **análise, perfil, enquete, cronologia e dossiê**. Sua função é educativa e esclarecedora: organizar contexto e relações para ampliar a compreensão do acontecimento.
+
+A pegadinha central é deslocar a **reportagem** para esse gênero apenas porque ela contextualiza. Isso pode fazer sentido em outras tradições classificatórias, mas não é a resposta quando a questão pede especificamente a classificação Marques de Melo.
+
+## Gênero diversional
+
+O gênero diversional inclui **história de interesse humano** e **história colorida**. O termo não significa ausência de informação jornalística; refere-se a formatos cuja função e tratamento enfatizam interesse humano, narrativa, detalhes e dimensão de lazer/distração.
+
+Não confundir **história de interesse humano** com **perfil**. Na classificação adotada, história de interesse humano é diversional; perfil é interpretativo.
+
+## Gênero utilitário
+
+O gênero utilitário reúne **indicador, cotação, roteiro e serviço**. Sua função é apoiar decisões práticas do público. Informações de preço, agenda, orientação de serviço ou indicadores podem ter valor jornalístico justamente porque ajudam o leitor a agir.
+
+A FGV pode construir distratores colocando “indicador” no gênero informativo pelo fato de ele informar dados. Pela classificação Marques de Melo, entretanto, **indicador é utilitário**.
+
+## Como a FGV cobra
+
+A FGV já cobrou diretamente a Classificação Marques de Melo em provas oficiais. Em 2024, na Assembleia Legislativa do Tocantins, apresentou os cinco gêneros e pediu a associação de formatos como **perfil, caricatura e nota**. Em outra prova oficial para jornalista, voltou a pedir a correspondência entre os cinco gêneros e formatos como **indicador econômico, dossiê, história de interesse humano, notícia e crônica**.
+
+O padrão é muito favorável à transposição conceitual: todas as alternativas contêm formatos jornalísticos verdadeiros, mas os deslocam para o gênero errado. Memorizar só “informativo × opinativo” deixa três categorias inteiras descobertas.
 
 ## Tensões e pegadinhas
 
-- **Entrevista (técnica vs. gênero)**: Nem toda entrevista realizada por um repórter durante a apuração é publicada no gênero "entrevista" (perguntas e respostas). A entrevista serve, majoritariamente, como técnica de apuração para coletar declarações (aspas) inseridas no corpo de notícias ou reportagens.
-- **Falta de assinatura**: Um texto opinativo não assinado defendendo uma tese do veículo é obrigatoriamente um editorial, e não um artigo.
+**Reportagem × interpretativo:** na taxonomia Marques de Melo, reportagem é informativa. O fato de interpretar e contextualizar não a transforma automaticamente em formato do gênero interpretativo.
+
+**Perfil × história de interesse humano:** perfil é interpretativo; história de interesse humano é diversional.
+
+**Caricatura × diversional:** caricatura pode parecer entretenimento, mas na classificação pertence ao gênero opinativo.
+
+**Indicador × informativo:** indicador informa, mas sua função prática o coloca no gênero utilitário.
+
+**Entrevista técnica × gênero:** entrevistar uma fonte durante a apuração é técnica; a entrevista como produto publicado aparece como formato informativo na classificação. Ver [[3 - Materias/Comunicacao/14 - entrevista jornalistica|Entrevista jornalística]].
+
+## Relações com outros temas
+
+[[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling|Lead, pirâmide invertida e storytelling]] trata de elementos e estruturas do texto, não de gêneros. Uma notícia pode usar pirâmide invertida; uma reportagem pode usar narrativa; isso não altera automaticamente sua categoria na taxonomia.
+
+[[3 - Materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa|Teorias do jornalismo]] explica seleção, produção, enquadramento e efeitos da comunicação, enquanto gêneros classificam formas concretas de expressão jornalística.
 
 ## Heurísticas
 
-Pergunte qual é a **função predominante** do texto:
-- *Relata fato atual breve?* -> Notícia.
-- *Comunica algo pontual rápido?* -> Nota.
-- *Investiga, contextualiza e ouve várias partes?* -> Reportagem.
-- *Opina em nome do jornal/veículo?* -> Editorial.
-- *Opina em nome de um autor assinado?* -> Artigo.
-- *Propõe pauta pela assessoria?* -> Release.
+Para Marques de Melo, memorize primeiro os três grupos menos intuitivos: **interpretativo = análise, perfil, enquete, cronologia, dossiê**; **diversional = história de interesse humano e história colorida**; **utilitário = indicador, cotação, roteiro, serviço**. Depois use as fronteiras clássicas: **nota/notícia/reportagem/entrevista = informativo** e **editorial/artigo/comentário/coluna etc. = opinativo**.
 
----
+Quando o enunciado citar um autor, responda pela taxonomia daquele autor, não por uma definição genérica de gênero.
+
+## Referências de verificação
+
+- MARQUES DE MELO, José; ASSIS, Francisco de. Discussões sobre gêneros e formatos jornalísticos e a Classificação Marques de Melo, com cinco gêneros aplicada à imprensa brasileira.
+- ASSIS, Francisco de; MARQUES DE MELO, José. *Gêneros e formatos jornalísticos: um modelo classificatório*. Intercom, disponível em SciELO.
+- FGV Conhecimento. Prova oficial da Assembleia Legislativa do Estado do Tocantins, Jornalismo, 2024, com cobrança explícita da Classificação Marques de Melo.
+
 **Fontes Brutas:**
 - [[00 inbox/00 ingestão]]
 - [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling]]

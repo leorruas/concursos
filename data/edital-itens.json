@@ -208,8 +208,8 @@
     "disciplina": "Direito Constitucional",
     "descricao": "Organização do Estado",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "notaPath": null,
-    "coberturaNota": "ausente",
+    "notaPath": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+    "coberturaNota": "integral",
     "exposicaoEstudo": false,
     "dominioMensuravel": false
   },
@@ -280,8 +280,8 @@
     "disciplina": "Direito Administrativo",
     "descricao": "Serviços públicos",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "notaPath": null,
-    "coberturaNota": "ausente",
+    "notaPath": "3 - Materias/Direito Administrativo/10 - servicos publicos.md",
+    "coberturaNota": "integral",
     "exposicaoEstudo": false,
     "dominioMensuravel": false
   },
@@ -304,8 +304,8 @@
     "disciplina": "Direito Administrativo",
     "descricao": "Controle da Administração Pública",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "notaPath": null,
-    "coberturaNota": "ausente",
+    "notaPath": "3 - Materias/Direito Administrativo/11 - controle da administracao publica.md",
+    "coberturaNota": "integral",
     "exposicaoEstudo": false,
     "dominioMensuravel": false
   },

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "dataprev-simulado-01",
+    "concursoId": "dataprev-2026",
+    "nome": "Simulado 01",
+    "tipo": "simulado",
+    "bancaReferencia": "FGV",
+    "data": "2026-08-31",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-01.md",
+    "resultado": {
+      "totalQuestoes": 70,
+      "acertos": 54,
+      "percentualBruto": 77.1
+    },
+    "comparabilidadeEdital": {
+      "status": "nao_comparavel_para_nota_ponderada",
+      "notaEditalAtualCalculavel": false,
+      "motivo": "A composição foi organizada em blocos mistos e não confirma a distribuição oficial 12/12/5/6/5/30. O aproveitamento bruto é histórico real, mas não pode ser convertido em pontuação /115."
+    }
+  },
+  {
+    "id": "dataprev-simulado-02",
+    "concursoId": "dataprev-2026",
+    "nome": "Simulado 02",
+    "tipo": "simulado",
+    "bancaReferencia": "FGV",
+    "data": "2026-09-01",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-02.md",
+    "resultado": {
+      "totalQuestoes": 70,
+      "acertos": 67,
+      "percentualBruto": 95.7
+    },
+    "comparabilidadeEdital": {
+      "status": "nao_comparavel_para_nota_ponderada",
+      "notaEditalAtualCalculavel": false,
+      "motivo": "O próprio diagnóstico registra distribuição não oficial, com excesso de Português e Inglês e menos Comunicação. Não converter 67/70 em pontuação /115 nem comparar diretamente à meta de 102/115."
+    }
+  },
+  {
+    "id": "dataprev-2024-comunicacao-social-tipo-1",
+    "concursoId": "dataprev-2026",
+    "nome": "Dataprev 2024: Comunicação Social, Tipo 1",
+    "tipo": "prova_historica_espelho",
+    "bancaReferencia": "FGV",
+    "ano": 2024,
+    "resolvida": false,
+    "fontesOficiais": [
+      "https://conhecimento.fgv.br/concursos/dataprev24",
+      "https://conhecimento.fgv.br/sites/default/files/concursos/ati-comunicacao-socialcns009-tipo-1.pdf"
+    ],
+    "estrutura": {
+      "totalQuestoes": 70,
+      "duracaoHoras": 4,
+      "alternativasPorQuestao": 5,
+      "umaAlternativaCorreta": true,
+      "disciplinas": {
+        "linguaPortuguesa": 12,
+        "linguaInglesa": 12,
+        "raciocinioLogicoMatematico": 6,
+        "atualidades": 5,
+        "legislacaoSegurancaInformacaoProtecaoDados": 5,
+        "conhecimentosEspecificosComunicacao": 30
+      }
+    },
+    "comparabilidadeEdital": {
+      "status": "alta",
+      "notaEditalAtualCalculavel": false,
+      "motivo": "É a prova oficial anterior da própria Dataprev, mesma banca e mesmo cargo de Comunicação Social. Mantém 40 questões gerais e 30 específicas; em 2024, porém, houve 6 de Lógica e 5 de Atualidades, enquanto o edital de 2026 prevê 5 de Lógica e 6 de Atualidades/IA. Pela governança do vault, a pontuação ponderada /115 só é aplicada quando a composição atual é reproduzida integralmente."
+    }
+  },
+  {
+    "id": "tcdf-2023-anace-cargo-1",
+    "concursoId": "tcdf-2026",
+    "nome": "TCDF 2023: ANACE, Cargo 1",
+    "tipo": "prova_historica_espelho",
+    "bancaReferencia": "Cebraspe",
+    "ano": 2023,
+    "resolvida": false,
+    "fontesOficiais": [
+      "https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/ED_1_2023_TCDF_ABERTURA.PDF",
+      "https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/TC_DF_23_PADRO_PRELIMINAR_DE_RESPOSTAS_PROVA_DISCURSIVA_P4_CARGO_1.PDF"
+    ],
+    "estrutura": {
+      "totalItensObjetivos": 150,
+      "duracaoObjetivaHoras": 4,
+      "modulos": {
+        "p1ConhecimentosBasicos": 35,
+        "p2ConhecimentosEspecificosI": 45,
+        "p3ConhecimentosEspecificosII": 70
+      },
+      "discursiva": {
+        "duracaoHoras": 4,
+        "possuiQuestao": true,
+        "possuiPecaTecnica": true
+      }
+    },
+    "comparabilidadeEdital": {
+      "status": "muito_alta",
+      "notaEditalAtualCalculavel": false,
+      "motivo": "É concurso anterior do próprio TCDF para o mesmo cargo e especialidade, com a mesma arquitetura objetiva de 35 + 45 + 70 itens e prova discursiva. Deve ser usado como prova-espelho de formato e estratégia; a conversão para o edital de 2026 depende do registro das respostas e da validação da regra de pontuação vigente."
+    }
+  }
+]

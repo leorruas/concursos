@@ -20,29 +20,67 @@ function extrairCabecalhosBusca(conteudo) {
     return cabecalhos.join(" ");
 }
 
+function obterTipoArtigoBusca(artigo) {
+    const conteudo = artigo?.conteudo || "";
+    const frontmatter = conteudo.match(/^---\s*([\s\S]*?)---/);
+    if (!frontmatter) return "";
+
+    const tipo = frontmatter[1].match(/^type:\s*["']?([^"'\n]+)["']?\s*$/m);
+    return normalizarBusca(tipo?.[1] || "");
+}
+
+function obterPapelArtigoBusca(artigo) {
+    const caminho = normalizarBusca(artigo?.sourcePath || "");
+    const tipo = obterTipoArtigoBusca(artigo);
+
+    if (caminho.endsWith("/avancos.md") || caminho.endsWith("/avanços.md")) return "desempenho";
+    if (tipo === "auditoria") return "auditoria";
+    if (tipo === "hub") return "hub";
+    return "conteudo";
+}
+
 function obterItensEditalBusca(artigo) {
     if (!artigo || !artigo.sourcePath || !Array.isArray(dadosEditalEstrategico)) return [];
 
-    return dadosEditalEstrategico.filter(item => item && item.notaPath === artigo.sourcePath);
+    return dadosEditalEstrategico.filter(item =>
+        item &&
+        item.notaPath === artigo.sourcePath &&
+        item.coberturaNota !== "ausente"
+    );
 }
 
-function obterTextoEditalBusca(artigo) {
-    return obterItensEditalBusca(artigo)
-        .map(item => [item.codigo, item.disciplina, item.descricao, item.concursoId]
+function obterTextosEditalBusca(artigo) {
+    const grupos = { integral: [], parcial: [] };
+
+    obterItensEditalBusca(artigo).forEach(item => {
+        const texto = [item.codigo, item.disciplina, item.descricao, item.concursoId]
             .filter(Boolean)
-            .join(" "))
-        .join(" ");
+            .join(" ");
+
+        const cobertura = item.coberturaNota === "parcial" ? "parcial" : "integral";
+        grupos[cobertura].push(texto);
+    });
+
+    return {
+        integral: grupos.integral.join(" "),
+        parcial: grupos.parcial.join(" ")
+    };
 }
 
 function pontuarArtigoBusca(artigo, consultaNormalizada, termos) {
+    const papel = obterPapelArtigoBusca(artigo);
+    if (papel === "desempenho") return 0;
+
     const tituloReal = normalizarBusca(artigo.tituloExibicao || artigo.titulo);
     const tituloArquivo = normalizarBusca(artigo.titulo);
     const cabecalhos = normalizarBusca(extrairCabecalhosBusca(artigo.conteudo));
     const categoria = normalizarBusca(limparNomeCategoria(artigo.categoria));
-    const edital = normalizarBusca(obterTextoEditalBusca(artigo));
+    const textosEdital = obterTextosEditalBusca(artigo);
+    const editalIntegral = normalizarBusca(textosEdital.integral);
+    const editalParcial = normalizarBusca(textosEdital.parcial);
     const corpo = normalizarBusca(removerFrontmatter(artigo.conteudo));
 
-    const campos = [tituloReal, tituloArquivo, cabecalhos, categoria, edital, corpo];
+    const campos = [tituloReal, tituloArquivo, cabecalhos, categoria, editalIntegral, editalParcial, corpo];
     const todosOsTermosPresentes = termos.every(termo => campos.some(campo => campo.includes(termo)));
     if (!todosOsTermosPresentes) return 0;
 
@@ -54,7 +92,8 @@ function pontuarArtigoBusca(artigo, consultaNormalizada, termos) {
 
     if (tituloArquivo.includes(consultaNormalizada)) score += 70;
     if (cabecalhos.includes(consultaNormalizada)) score += 45;
-    if (edital.includes(consultaNormalizada)) score += 40;
+    if (editalIntegral.includes(consultaNormalizada)) score += 40;
+    if (editalParcial.includes(consultaNormalizada)) score += 24;
     if (categoria.includes(consultaNormalizada)) score += 25;
     if (corpo.includes(consultaNormalizada)) score += 15;
 
@@ -62,16 +101,21 @@ function pontuarArtigoBusca(artigo, consultaNormalizada, termos) {
         if (tituloReal.includes(termo)) score += 45;
         if (tituloArquivo.includes(termo)) score += 30;
         if (cabecalhos.includes(termo)) score += 20;
-        if (edital.includes(termo)) score += 18;
+        if (editalIntegral.includes(termo)) score += 18;
+        if (editalParcial.includes(termo)) score += 10;
         if (categoria.includes(termo)) score += 10;
         if (corpo.includes(termo)) score += 5;
     });
 
     if (termos.every(termo => tituloReal.includes(termo))) score += 35;
     if (termos.every(termo => cabecalhos.includes(termo))) score += 20;
-    if (termos.every(termo => edital.includes(termo))) score += 18;
+    if (termos.every(termo => editalIntegral.includes(termo))) score += 18;
+    if (termos.every(termo => editalParcial.includes(termo))) score += 10;
 
-    return score;
+    if (papel === "hub") score -= 45;
+    if (papel === "auditoria") score -= 80;
+
+    return Math.max(0, score);
 }
 
 function filtrarArtigos(termoBusca) {
@@ -233,7 +277,8 @@ function extrairTrechoRelevante(artigo, termo) {
         });
 
         if (itemCorrespondente) {
-            return `edital ${itemCorrespondente.codigo || ""} · ${itemCorrespondente.descricao || itemCorrespondente.disciplina}`.trim();
+            const cobertura = itemCorrespondente.coberturaNota === "parcial" ? " · cobertura parcial" : "";
+            return `edital ${itemCorrespondente.codigo || ""}${cobertura} · ${itemCorrespondente.descricao || itemCorrespondente.disciplina}`.trim();
         }
 
         return semFm.substring(0, 140) + (semFm.length > 140 ? "..." : "");

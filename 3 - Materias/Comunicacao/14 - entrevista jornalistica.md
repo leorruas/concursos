@@ -3,59 +3,164 @@ title: "Entrevista jornalística"
 type: "conceito"
 status: "ativo"
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-09-10
 ---
 # Entrevista jornalística
 
-A entrevista jornalística é tanto uma **técnica fundamental de apuração** quanto um **gênero jornalístico autônomo**. Ela serve para acessar informações, contextos, memórias, intenções e explicações especializadas que não estão disponíveis em documentos ou relatórios estruturados.
+A entrevista jornalística pode funcionar como **técnica de apuração** ou como **produto/gênero publicado**. Como técnica, fornece dados, explicações, versões, testemunhos e interpretações que podem ser incorporados a outros textos jornalísticos. Como produto, a entrevista pode organizar a publicação em torno do diálogo e da fala da fonte.
 
-## Função da Entrevista
+## 1. Técnica de apuração × formato publicado
 
-A entrevista não serve para confirmar as hipóteses prévias ou preconceitos do jornalista, mas sim para **descobrir e compreender** a realidade de um fato.
+**Entrevistar** não significa necessariamente publicar uma entrevista em perguntas e respostas. Uma fonte pode ser entrevistada e aparecer apenas por meio de uma citação em notícia ou reportagem.
 
-### A Entrevista como Técnica de Apuração
-O repórter conversa com a fonte para coletar dados, explicações ou aspas (declarações) que serão integradas a uma notícia ou reportagem. A conversa em si não é publicada em formato de diálogo.
+> [!WARNING]
+> **Técnica ≠ gênero/formato.** A banca pode dizer que toda conversa realizada na apuração transforma o texto final em “entrevista”. Isso é falso.
 
-### A Entrevista como Gênero Jornalístico
-A conversa em si é o produto final publicado, geralmente no formato de perguntas e respostas (Q&A) ou com a fala do entrevistado estruturada como depoimento central.
+A entrevista também não serve apenas para confirmar uma hipótese prévia. Um bom processo de apuração permite confrontar, aprofundar ou até abandonar hipóteses conforme as evidências obtidas.
 
----
+## 2. Nilson Lage: classificação por objetivos
 
-## Tipos de Entrevista (FGV)
+Nilson Lage organiza uma das classificações mais cobradas em concurso segundo **o objetivo da entrevista**.
 
-1. **Informativa**: Focada em obter dados e fatos objetivos (ex: *"Quando o sistema será lançado?"*).
-2. **Opinativa**: Busca a avaliação, opinião ou posicionamento da fonte sobre um tema (ex: *"Como o senhor avalia o impacto da mudança?"*).
-3. **Interpretativa**: Busca a compreensão de fenômenos complexos, causas e dinâmicas (ex: *"Por que esse problema ocorreu?"*).
-4. **De Perfil**: Focada na trajetória, personalidade e vida pessoal/profissional do entrevistado.
+### Ritual
 
----
+A atenção recai principalmente sobre a figura, posição ou presença do entrevistado; as respostas tendem a ser breves e relativamente previsíveis. Exemplo: declaração protocolar de autoridade após cerimônia.
 
-## Técnicas de Perguntas e Condução
+### Temática
 
-- **Perguntas Abertas**: Estimulam a fonte a desenvolver o raciocínio, descrever processos e fornecer informações ricas (ex: *"Quais foram os principais desafios na implantação do sistema?"*).
-- **Perguntas Fechadas**: Exigem respostas curtas (geralmente sim/não) e servem para obter confirmação ou precisão factual (ex: *"O sistema está operando?"*).
-- **Perguntas Enviesadas/Induzidas**: Devem ser evitadas, pois trazem um julgamento embutido que direciona a resposta da fonte (ex: *"O senhor concorda que esse projeto revolucionário mudou o serviço público?"*).
-- **Escuta Ativa**: Consiste em ouvir atentamente a fonte em vez de seguir rigidamente um roteiro pré-concebido. As melhores perguntas e desdobramentos surgem a partir das respostas dadas pelo entrevistado.
-- **Uso Estratégico do Silêncio**: Deixar pausas no diálogo frequentemente estimula a fonte a continuar falando e a revelar detalhes importantes que ela omitiria sob interrupções.
+Busca informações, interpretações ou opiniões de uma fonte que possui conhecimento sobre determinado assunto. O centro é o **tema**, não a biografia do entrevistado.
 
----
+### Testemunhal
 
-## Relação com UX Research
+Busca o relato de quem presenciou ou participou de um acontecimento. O valor está na experiência da fonte em relação ao fato.
 
-Há uma forte convergência metodológica entre as técnicas de entrevista jornalística e a **UX Research (pesquisa com usuários)**. Ambas baseiam-se em:
-- Uso de perguntas abertas para entender comportamentos e dores em vez de validar hipóteses de forma enviesada.
-- Escuta ativa para capturar nuances qualitativas.
-- Cuidado para evitar perguntas indutoras que contaminem a amostra.
+### Em profundidade
 
----
+O foco principal é a própria pessoa entrevistada: trajetória, visão de mundo, personalidade, atividade e experiências. Aproxima-se da construção de perfil.
 
-## Como a banca cobra
+> [!TIP]
+> **Objetivo:** ritual = presença/papel; temática = assunto; testemunhal = fato presenciado; profundidade = personagem.
 
-A FGV costuma avaliar a qualidade e a neutralidade da condução de entrevistas, bem como os tipos de perguntas.
-- **Perguntas Abertas**: Cobradas como a melhor ferramenta para colher relatos densos e explicativos em oposição a perguntas fechadas ou dicotômicas.
-- **Neutralidade/Enviesamento**: Questões que apresentam formulações indutoras de perguntas e pedem para identificar o desvio ético ou metodológico.
-- **Escuta Ativa**: Valorizada como competência de flexibilização do roteiro de entrevista diante de novos fatos revelados pelo entrevistado.
+## 3. Nilson Lage: classificação pelas circunstâncias
+
+Lage também distingue entrevistas segundo **as circunstâncias em que são realizadas**.
+
+### Ocasional
+
+Ocorre de maneira não planejada, a partir de oportunidade ou encontro circunstancial com a fonte.
+
+### Confronto
+
+O entrevistador coloca diante da fonte questionamentos, contradições ou evidências que exigem resposta e confronto de versões.
+
+### Coletiva
+
+Uma ou mais fontes atendem simultaneamente a vários jornalistas. Há compartilhamento do acesso à fonte e menor exclusividade sobre as respostas.
+
+### Dialogal
+
+Entrevista marcada e desenvolvida como conversa em que entrevistador e entrevistado constroem o percurso, permitindo aprofundamento e desdobramento das respostas.
+
+> [!IMPORTANT]
+> A FGV ALE-TO 2024 perguntou diretamente qual alternativa **não** pertencia à classificação por circunstâncias. `Em profundidade` era o intruso porque pertence à classificação por **objetivo**.
+
+## 4. As duas classificações podem se cruzar
+
+Objetivo e circunstância respondem a perguntas diferentes. Uma entrevista pode ser, por exemplo:
+
+- **temática + dialogal**;
+- **testemunhal + ocasional**;
+- **temática + coletiva**;
+- **em profundidade + dialogal**.
+
+> [!WARNING]
+> As categorias dos dois eixos não competem entre si. A banca pode usar uma categoria verdadeira de um eixo como distrator no outro.
+
+## 5. Perguntas e condução
+
+### Perguntas abertas
+
+Estimulam desenvolvimento, descrição, explicação e narrativa. São úteis quando se busca compreensão ampla.
+
+### Perguntas fechadas
+
+Delimitam a resposta e podem ser úteis para confirmação factual, precisão ou compromisso com uma posição. Não são “ruins” por definição; tornam-se inadequadas quando o objetivo exige exploração aberta.
+
+### Perguntas indutoras
+
+Embutem pressupostos, avaliações ou respostas desejadas. Podem comprometer a qualidade da apuração quando conduzem a fonte em vez de investigar.
+
+### Repregunta
+
+Surge a partir da resposta recebida e permite esclarecer contradição, aprofundar informação ou explorar elemento inesperado. É uma das razões pelas quais entrevista não deve ser reduzida à leitura mecânica de roteiro.
+
+### Escuta ativa e silêncio
+
+Escutar permite identificar ganchos para novas perguntas. Pausas podem estimular continuidade da resposta, mas **silêncio não é técnica universal nem garante revelação de informação**; sua utilidade depende da situação e da relação com a fonte.
+
+## 6. Entrevista jornalística × entrevista de pesquisa
+
+As duas podem usar perguntas abertas, escuta e cuidado com indução, mas possuem finalidades diferentes.
+
+- **Jornalística**: apurar e produzir informação de interesse jornalístico para publicação.
+- **Pesquisa qualitativa**: produzir dados para responder a uma pergunta de pesquisa mediante desenho metodológico e análise sistemática.
+
+Uma entrevista jornalística não se torna pesquisa científica apenas porque é aprofundada. A entrevista de pesquisa não se torna jornalismo apenas porque utiliza gravação e transcrição.
+
+Ver [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa em comunicação]].
+
+## Como a FGV cobra
+
+Os mecanismos mais prováveis são:
+
+- trocar categorias por objetivo e por circunstância de Nilson Lage;
+- tratar `em profundidade` como circunstância;
+- confundir coletiva com objetivo temático;
+- dizer que toda entrevista realizada na apuração é publicada em Q&A;
+- tratar pergunta fechada como sempre inadequada;
+- usar pergunta indutora como se fosse neutra;
+- confundir entrevista jornalística com entrevista de pesquisa.
+
+A FGV ALE-TO 2024 cobrou nominalmente Nilson Lage e a separação entre os dois grandes grupos.
+
+## Relações com outros temas
+
+- [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling|Lead, pirâmide invertida e storytelling]]: apuração e incorporação de falas em notícia/reportagem.
+- [[3 - Materias/Comunicacao/08 - assessoria de imprensa|Assessoria de imprensa]]: fonte, porta-voz, coletiva e media training.
+- [[3 - Materias/Comunicacao/13 - generos jornalisticos|Gêneros jornalísticos]]: entrevista como formato/produto e fronteira com outros gêneros.
+- [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa em comunicação]]: entrevista como método qualitativo em outro campo.
+
+## Tensões e pegadinhas
+
+- **Entrevistar ≠ publicar gênero entrevista**.
+- **Objetivo ≠ circunstância**.
+- **Temática ≠ dialogal**.
+- **Em profundidade ≠ toda entrevista longa**.
+- **Pergunta fechada ≠ pergunta enviesada**.
+- **Roteiro ≠ sequência imutável**.
+- **Entrevista jornalística ≠ pesquisa científica**.
+
+## Exemplos comentados
+
+**Caso 1:** após acidente, repórter encontra casualmente uma pessoa que viu o ocorrido. Quanto ao objetivo, a entrevista é testemunhal; quanto à circunstância, pode ser ocasional.
+
+**Caso 2:** especialista é convidado para conversa longa sobre política econômica. Pode ser temática quanto ao objetivo e dialogal quanto à circunstância.
+
+**Caso 3:** vários jornalistas fazem perguntas a um ministro sobre nova política. `Coletiva` descreve a circunstância; o objetivo das perguntas pode ser temático.
+
+## Heurísticas
+
+- Lage por objetivo: **ritual, temática, testemunhal, profundidade**.
+- Lage por circunstância: **ocasional, confronto, coletiva, dialogal**.
+- Profundidade = foco na pessoa.
+- Testemunhal = fonte presenciou/participou do fato.
+- Coletiva = vários jornalistas diante da fonte.
+- Dialogal = conversa planejada com possibilidade de aprofundamento.
 
 ---
 **Fontes Brutas:**
 - [[00 inbox/00 ingestão]]
+
+**Referência teórica e evidência de banca:**
+- Lage, Nilson, *A reportagem: teoria e técnica de entrevista e pesquisa jornalística*.
+- FGV, ALE-TO, Analista Legislativo — Jornalista, 2024: classificação de entrevistas por objetivos e circunstâncias.

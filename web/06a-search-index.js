@@ -1,13 +1,24 @@
 // Adaptador entre a busca contextual existente e o índice estruturado gerado no build.
 // Mantém fallback integral para o índice v1 ou para artigos carregados pelo baseline.
 const obterTipoArtigoBuscaBase = obterTipoArtigoBusca;
+const obterPapelArtigoBuscaBase = obterPapelArtigoBusca;
 const criarEntradaIndiceBuscaBase = criarEntradaIndiceBusca;
 const bonusProximidadeBase = bonusProximidade;
+const pontuarEntradaBuscaBase = pontuarEntradaBusca;
 
 obterTipoArtigoBusca = function obterTipoArtigoBuscaCompacto(artigo) {
     const dados = artigo && artigo.indiceBusca;
     if (dados && dados.tipo) return normalizarBusca(dados.tipo);
     return obterTipoArtigoBuscaBase(artigo);
+};
+
+obterPapelArtigoBusca = function obterPapelArtigoBuscaCompacto(artigo) {
+    const caminho = String((artigo && artigo.sourcePath) || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase();
+    if (caminho.includes('/referencias/')) return 'referencia';
+    return obterPapelArtigoBuscaBase(artigo);
 };
 
 criarEntradaIndiceBusca = function criarEntradaIndiceBuscaCompacta(artigo) {
@@ -60,4 +71,16 @@ bonusProximidade = function bonusProximidadeCompatibilidade(entrada, termos) {
     // inventamos uma distância textual que o índice já não representa.
     if (entrada && entrada.indiceCompacto) return 0;
     return bonusProximidadeBase(entrada, termos);
+};
+
+pontuarEntradaBusca = function pontuarEntradaBuscaComPapel(entrada, consultaNormalizada, termos) {
+    const score = pontuarEntradaBuscaBase(entrada, consultaNormalizada, termos);
+    if (!score) return 0;
+
+    // Referências brutas continuam pesquisáveis, mas não devem superar uma nota
+    // canônica apenas por repetirem mais vezes o vocabulário da fonte original.
+    if (entrada && entrada.papel === 'referencia') {
+        return Math.round(score * 0.55 * 100) / 100;
+    }
+    return score;
 };

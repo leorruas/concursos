@@ -90,7 +90,34 @@ Quantidade de editais não deve ser usada isoladamente. Um tema de alto peso em 
 
 ## Regra para múltiplos editais
 
-Quando um novo edital chegar, primeiro decompor o conteúdo programático em itens e comparar cada item com as notas existentes. Classificar a cobertura como `coberto`, `parcial` ou `novo`. Só criar uma nova nota quando houver conteúdo conceitualmente novo. Variações de redação do mesmo conceito devem alimentar aliases, relações de busca ou mapeamento do edital.
+Quando um novo edital chegar, primeiro decompor o conteúdo programático em itens e comparar cada item com as notas existentes. A existência de um `notaPath` **não significa**, por si só, que o item esteja integralmente coberto nem que tenha sido estudado.
+
+Cada item de edital deve distinguir três perguntas diferentes:
+
+- **Há uma nota relacionada?** → `notaPath`.
+- **Quanto essa nota cobre do item?** → `coberturaNota`.
+- **O conteúdo já foi efetivamente estudado?** → `exposicaoEstudo`.
+
+A cobertura usa três estados:
+
+- `integral`: a nota existente cobre o núcleo e as principais fronteiras exigidas pelo item do edital;
+- `parcial`: a nota ajuda, mas cobre apenas parte do item ou possui escopo mais estreito;
+- `ausente`: não há nota suficientemente relacionada; em regra, `notaPath` deve ser `null`.
+
+Exemplo:
+
+```json
+{
+  "descricao": "Processo administrativo",
+  "notaPath": "3 - Materias/Direito Administrativo/09 - processo administrativo federal.md",
+  "coberturaNota": "parcial",
+  "exposicaoEstudo": true
+}
+```
+
+Nesse caso, estudar a Lei nº 9.784/1999 produz conhecimento real, mas não autoriza afirmar que todo item genérico de processo administrativo de qualquer edital está coberto. Da mesma forma, um hub pode ser ligado a um item para navegação com `coberturaNota: "parcial"` e `exposicaoEstudo: false`; o hub não se transforma em evidência de domínio apenas por existir.
+
+Só criar uma nova nota quando houver conteúdo conceitualmente novo ou quando uma nota existente precise evoluir de modo independente. Variações de redação do mesmo conceito devem alimentar relações de busca e mapeamento do edital, não cópias de teoria por concurso.
 
 ## Metadados futuros
 
@@ -111,14 +138,16 @@ related:
 A busca deve tratar cada nota como um objeto estruturado. A ordem de implementação prevista é:
 
 1. normalização de acentos, caixa e múltiplos termos;
-2. ranking com pesos distintos para título, aliases, headings, matéria e corpo;
+2. ranking com pesos distintos para título, headings, matéria e corpo;
 3. enriquecimento pelo texto dos itens de edital ligados à `notaPath`;
-4. enriquecimento por erros recorrentes e relações entre notas;
-5. índice pré-compilado no build para evitar baixar todos os Markdown antes da pesquisa;
-6. fuzzy search moderado e testes de relevância;
-7. `concept_id` apenas depois que a camada conceitual estiver estável.
+4. uso de `coberturaNota` para dar mais peso a vínculos integrais do que parciais;
+5. distinção entre artigo conceitual, hub, auditoria e registro de desempenho, evitando que arquivos operacionais dominem resultados teóricos;
+6. enriquecimento por erros recorrentes e relações entre notas;
+7. índice pré-compilado no build para evitar baixar todos os Markdown antes da pesquisa;
+8. aliases e fuzzy search moderado, somente quando consultas reais mostrarem necessidade;
+9. `concept_id` apenas depois que a camada conceitual estiver estável.
 
-Busca semântica por embeddings não é prioridade enquanto ranking lexical estruturado e aliases resolverem a maior parte das consultas.
+Busca semântica por embeddings não é prioridade enquanto ranking lexical estruturado, edital e aliases resolverem a maior parte das consultas.
 
 ## Regra de manutenção
 

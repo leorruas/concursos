@@ -1,91 +1,121 @@
 ---
 title: "Improbidade administrativa"
-type: "hub"
+type: "conceito"
 status: "ativo"
 created: 2026-06-11
-updated: 2026-06-12
+updated: 2026-09-10
 ---
 
 # Improbidade administrativa
 
-A improbidade administrativa caracteriza-se por condutas graves de agentes públicos que violam os deveres de honestidade, imparcialidade, legalidade e lealdade às instituições, conforme a base constitucional do art. 37, §4º da Constituição Federal. 
+A improbidade administrativa é um sistema de responsabilização por **condutas dolosas tipificadas** na Lei nº 8.429/1992, com a redação dada principalmente pela Lei nº 14.230/2021. A lei tutela a probidade na organização do Estado e no exercício das funções públicas. Para prova, o ponto de partida é abandonar a equivalência automática entre ilegalidade e improbidade.
 
----
+## Núcleo do conceito: ilegalidade não basta
 
-## 1. A Escada de Gravidade: Irregularidade × Ilegalidade × Improbidade
+A LIA considera atos de improbidade as condutas dolosas tipificadas nos arts. 9º, 10 e 11. O mero exercício da função pública, sem comprovação de ato doloso com fim ilícito, afasta a responsabilização por improbidade.
 
-Nem todo erro ou ilegalidade cometida no âmbito da Administração Pública configura ato de improbidade. É preciso discriminar o nível de gravidade e a intenção do agente:
+A sequência mental mais segura é:
 
-1. **Mera irregularidade**: Erros administrativos sem dolo ou má-fé (ex: esquecer de anexar um documento não essencial por desorganização). Não configura improbidade e é resolvido na esfera disciplinar ou corretiva interna.
-2. **Ilegalidade**: Atuação desconforme com a lei, mas sem comprovação de má-fé, dolo ou desonestidade (ex: decisão baseada em interpretação razoável da norma posterior ou declarada nula). A ilegalidade, por si só, não basta para caracterizar improbidade.
-3. **Improbidade administrativa**: Conduta ilegal grave, dotada de desonestidade e **dolo**, que se enquadra estritamente nas hipóteses da Lei de Improbidade Administrativa (LIA).
-
----
-
-## 2. A Exigência de Dolo
-
-Sob a legislação atual, **a improbidade administrativa exige dolo** (vontade livre e consciente de alcançar o resultado ilícito).
-- **Sem modalidade culposa**: A mera culpa (negligência, imprudência ou imperícia), por si só, não caracteriza improbidade.
-- **Boa-fé**: A atuação de boa-fé afasta a configuração de improbidade, restando apenas a eventual anulação do ato ilegal e correção da conduta.
-- **Divergência de interpretação**: A divergência de interpretação jurídica da lei, baseada em interpretação razoável de norma complexa e sem má-fé, não configura improbidade por si só.
-
----
-
-## 3. Categorias de Atos de Improbidade
-
-A Lei de Improbidade organiza os atos ilícitos em três grandes grupos:
-
-### I. Enriquecimento ilícito
-* **Pergunta discriminadora**: *O agente obteve alguma vantagem patrimonial/econômica indevida?*
-* **Característica**: Aumento indevido do patrimônio do agente (ex: recebimento de propina, uso de bens ou veículos públicos para fins particulares, desvio de recursos públicos para contas pessoais).
-* *Nota*: A vantagem não precisa ser dinheiro direto no bolso; a economia de despesas pessoais pelo uso de bens públicos também se enquadra.
-
-### II. Prejuízo ao erário
-* **Pergunta discriminadora**: *Houve dano financeiro ou patrimonial efetivo ao erário?*
-* **Característica**: Dilapidação do patrimônio público decorrente de conduta dolosa (ex: liberação irregular de verbas, facilitação de fraude em licitação).
-
-### III. Atentado contra os princípios da Administração Pública
-* **Pergunta discriminadora**: *Houve violação grave aos deveres de honestidade, imparcialidade e legalidade?*
-* **Característica**: Conduta que fere a estrutura ética administrativa (ex: fraudar concurso público, negar publicidade a atos oficiais deliberadamente).
-
----
-
-## 4. Árvore de Decisão Conceitual
-
-Para analisar casos concretos e resolver questões de concurso:
-
-```mermaid
-graph TD
-    A["Fato ou erro na Administração"] --> B{"Houve dolo?"}
-    B -- Não --> C["Mera Irregularidade ou Ilegalidade comum"]
-    B -- Sim --> D{"O agente obteve vantagem pessoal indevida?"}
-    D -- Sim --> E["Enriquecimento ilícito"]
-    D -- Não --> F{"Houve dano financeiro ao erário?"}
-    F -- Sim --> G["Prejuízo ao erário"]
-    F -- Não --> H["Violação de princípios"]
-    E --> I["Nota: Fatos reais podem apresentar sobreposição de efeitos"]
-    G --> I
+```text
+irregularidade ou ilegalidade
+        ↓
+há dolo nos termos da LIA?
+        ↓
+a conduta se enquadra em tipo dos arts. 9º, 10 ou 11?
+        ↓
+existem os requisitos específicos daquela categoria?
 ```
 
----
+Uma ilegalidade pode produzir anulação, responsabilização disciplinar, civil ou outras consequências sem necessariamente constituir improbidade.
 
-## 5. Sanções da Improbidade Administrativa
+## Dolo na LIA
 
-As consequências do ato de improbidade administrativa estão fundamentadas no art. 37, §4º da Constituição Federal:
+O art. 1º, §2º, define dolo como a **vontade livre e consciente de alcançar o resultado ilícito tipificado** nos arts. 9º, 10 e 11. A lei ressalta que a simples voluntariedade do agente não basta.
 
-* **Rol Constitucional de Consequências**:
-  - **Suspensão dos direitos políticos**.
-  - **Perda da função pública**.
-  - **Indisponibilidade dos bens**.
-  - **Ressarcimento ao erário**.
+Isso produz duas fronteiras importantes:
 
-> [!CAUTION]
-> **Pegadinhas Críticas de Prova**:
-> 1. **Natureza Civil-Administrativa**: A improbidade **não é crime** por si só. Portanto, suas sanções **não incluem pena de prisão** nem restrições de liberdade automáticas da esfera criminal.
-> 2. **Gradação e Não-Automaticidade**: As sanções não são aplicadas de forma cumulativa ou automática. A aplicação depende do caso concreto, da gravidade da conduta e da dosimetria regulada pela LIA (*"na forma e gradação previstas em lei"*).
-> 3. **Parentesco Isolado**: O simples parentesco na contratação de emergência ou prestação de serviços (ex: contratação de parente em emergência climática) sem a comprovação do dolo de favorecimento e com preços de mercado não configura improbidade por si só.
+- **culpa ≠ improbidade atual**: negligência, imprudência ou imperícia, por si sós, não tipificam improbidade nos arts. 9º, 10 e 11;
+- **dolo genérico de praticar o ato ≠ automaticamente dolo de improbidade**: é necessário o elemento subjetivo exigido para alcançar o resultado ilícito tipificado.
 
----
-**Fontes Brutas:**
-- [[00 inbox/11-06-2026|Inbox de 11/06/2026]]
-- [[00 inbox/12-06-2026|Inbox de 12/06/2026]]
+O STF, no Tema 1199, confirmou a necessidade de dolo nos arts. 9º, 10 e 11 e definiu regras de transição para atos culposos praticados antes da Lei nº 14.230/2021.
+
+## As três categorias
+
+### Art. 9º — enriquecimento ilícito
+
+O núcleo é a obtenção de **vantagem patrimonial indevida** em razão do exercício de cargo, mandato, função, emprego ou atividade pública.
+
+Pergunta útil: **houve acréscimo ou vantagem patrimonial indevida para o agente?**
+
+Exemplos legais incluem receber vantagem econômica indevida, incorporar bens públicos ao patrimônio particular e usar bens, rendas ou valores públicos em proveito próprio.
+
+### Art. 10 — prejuízo ao erário
+
+Exige ação ou omissão dolosa que cause **efetiva e comprovadamente** perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação de bens ou haveres públicos.
+
+A palavra decisiva é **efetivamente**. A mera violação de formalidade sem perda patrimonial não autoriza, por si só, ressarcimento. Também não basta uma operação pública ter produzido resultado econômico ruim: é necessário o enquadramento legal da conduta dolosa.
+
+Pergunta útil: **há dano patrimonial efetivo e comprovado ligado à conduta dolosa?**
+
+### Art. 11 — atentado contra princípios
+
+O art. 11 trata de ação ou omissão dolosa que viole deveres de honestidade, imparcialidade e legalidade **caracterizada por uma das condutas previstas no próprio artigo**. Depois da reforma de 2021, não é seguro usar “violou um princípio” como cláusula aberta suficiente para improbidade.
+
+Entre as condutas previstas estão negar publicidade a atos oficiais fora das exceções legais, frustrar deliberadamente a imparcialidade de concurso/chamamento/licitação em benefício próprio ou de terceiro e deixar de prestar contas com a finalidade especificada na lei.
+
+Pergunta útil: **a violação de princípio corresponde a uma conduta tipificada no art. 11 e estão presentes seus requisitos?**
+
+## Sanções: Constituição × Lei de Improbidade
+
+O art. 37, §4º, da Constituição menciona suspensão dos direitos políticos, perda da função pública, indisponibilidade dos bens e ressarcimento ao erário, na forma e gradação previstas em lei. A Lei nº 8.429/1992 concretiza o regime sancionador e as consequências **não são idênticas para as três categorias**.
+
+| Categoria | Sanções centrais do art. 12 |
+|---|---|
+| Art. 9º — enriquecimento ilícito | perda dos bens/valores acrescidos ilicitamente; perda da função; suspensão dos direitos políticos até 14 anos; multa civil equivalente ao acréscimo; proibição de contratar/receber benefícios por até 14 anos |
+| Art. 10 — prejuízo ao erário | perda dos bens/valores acrescidos, se houver; perda da função; suspensão dos direitos políticos até 12 anos; multa equivalente ao dano; proibição de contratar/receber benefícios por até 12 anos |
+| Art. 11 — princípios | multa civil de até 24 vezes a remuneração; proibição de contratar/receber benefícios por até 4 anos |
+
+As sanções podem ser aplicadas isolada ou cumulativamente conforme a gravidade do fato. **Improbidade não é crime por si só**: a mesma conduta pode também configurar ilícito penal, disciplinar ou civil, mas são esferas juridicamente distintas.
+
+## Prescrição e retroatividade — ponto de prova
+
+A ação para aplicação das sanções da LIA tem, atualmente, prazo geral de **8 anos**, nos termos do art. 23, sujeito às regras legais de suspensão e interrupção.
+
+O Tema 1199 do STF é especialmente importante para questões que misturam fatos anteriores e posteriores à Lei nº 14.230/2021:
+
+- continua sendo necessário dolo para a tipificação atual dos arts. 9º, 10 e 11;
+- a eliminação da modalidade culposa não desfaz condenação já transitada em julgado;
+- para atos culposos anteriores sem trânsito em julgado, deve-se examinar eventual dolo;
+- o novo regime prescricional não retroage: seus marcos aplicam-se a partir da publicação da nova lei.
+
+## Como a banca pode cobrar
+
+A banca tende a deslocar uma verdade de uma categoria para outra. Os melhores distratores são:
+
+- “houve ilegalidade, logo houve improbidade”;
+- “qualquer prejuízo financeiro basta para o art. 10”, ignorando dolo e dano efetivo comprovado;
+- “qualquer violação a princípio configura art. 11”, ignorando a tipificação legal;
+- “toda improbidade suspende direitos políticos”, ignorando o regime específico do art. 11;
+- “a culpa ainda basta para lesão ao erário”, usando a redação anterior da LIA;
+- “a reforma de 2021 apaga automaticamente condenações culposas transitadas em julgado”, contrariando o Tema 1199.
+
+## Relações com outros temas
+
+A nota se conecta diretamente a [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]], porque ilegalidade e invalidade não equivalem a improbidade; a [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]], porque fraudes licitatórias podem preencher tipos específicos; e a [[3 - Materias/Direito Constitucional/05 - direitos politicos|Direitos políticos]], porque algumas categorias admitem suspensão desses direitos como sanção.
+
+## Heurísticas
+
+**1. Não comece perguntando “isso é errado?”; pergunte “qual tipo da LIA foi preenchido?”**
+
+**2. Art. 9º olha para vantagem patrimonial indevida; art. 10, para dano efetivo ao erário; art. 11, para conduta tipificada contra princípios.**
+
+**3. Dolo é requisito comum, mas cada artigo possui requisitos próprios.**
+
+**4. Sanções não são um pacote único para toda improbidade.**
+
+## Fontes
+
+- Lei nº 8.429/1992, texto compilado após a Lei nº 14.230/2021.
+- STF, Tema 1199 de repercussão geral (ARE 843989).
+- [[00 inbox/11-06-2026|Inbox de 11/06/2026]].
+- [[00 inbox/12-06-2026|Inbox de 12/06/2026]].

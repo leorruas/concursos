@@ -50,6 +50,7 @@ function abrirArtigo(artigo, atualizarRota = true) {
     processarCalloutsObsidian();
     processarComentariosObsidian();
     processarWikilinks(artigoCorpo);
+    processarBlocosCopiaveis(artigoCorpo);
 
     if (typeof renderMathInElement !== "undefined") {
         renderMathInElement(artigoCorpo, {
@@ -139,4 +140,3 @@ function renderizarBotoesNavegacao(artigoAtual) {
 
     rodapeNavContainer.appendChild(grid);
 }
-

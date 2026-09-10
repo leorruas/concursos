@@ -3,110 +3,171 @@ title: "Marco Civil da Internet"
 type: "conceito"
 status: "ativo"
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-10
 ---
+
 # Marco Civil da Internet
 
-O **Marco Civil da Internet** (Lei nº 12.965/2014) estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil, disciplinando a atuação de usuários, provedores de conexão e provedores de aplicações.
+O **Marco Civil da Internet** (Lei nº 12.965/2014) estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil. Para prova, é indispensável separar **literalidade da lei** do regime constitucional definido pelo STF em 2025 e definitivamente ajustado em 2026 sobre responsabilidade por conteúdo de terceiros.
 
----
+## Núcleo do conceito
 
-## 1. Conceitos e distinções fundamentais
+A lei disciplina relações entre usuários, provedores de conexão e provedores de aplicações, preservando liberdade de expressão, privacidade, proteção de dados, neutralidade de rede e responsabilidade conforme a natureza do serviço e da conduta.
 
-* **Provedor de conexão à internet**: pessoa jurídica que fornece ao usuário a habilitação à transmissão de dados e ao acesso à internet (ex: Claro, Vivo, provedores de banda larga).
-* **Provedor de aplicações de internet**: pessoa jurídica que disponibiliza funcionalidades acessíveis por meio de terminal conectado à internet (ex: redes sociais, sites de notícias, ferramentas de busca, e-commerce).
-* **Registro de conexão**: conjunto de informações referentes à data e hora de início e término de uma conexão à internet, sua duração e o endereço IP utilizado.
-* **Registro de acesso a aplicações**: conjunto de informações referentes à data e hora de uso de uma determinada aplicação de internet a partir de um endereço IP.
+### Provedor de conexão × provedor de aplicações
 
----
+- **Provedor de conexão** fornece habilitação para envio e recebimento de pacotes de dados pela internet.
+- **Provedor de aplicações** oferece funcionalidades acessíveis por terminal conectado à internet, como redes sociais, serviços de busca e outras aplicações.
 
-## 2. Fundamentos e princípios centrais
+**Registro de conexão** reúne data e hora de início e término da conexão, duração e endereço IP utilizado. **Registro de acesso a aplicações** registra data e hora de uso de determinada aplicação a partir de determinado endereço IP.
 
-### Fundamentos da internet no Brasil (art. 2º)
-A disciplina do uso da internet no Brasil tem como fundamentos:
-1. O reconhecimento da escala mundial da rede;
-2. Os direitos humanos, o desenvolvimento da personalidade e o exercício da cidadania em meios digitais;
-3. A pluralidade e a diversidade;
-4. A abertura e a colaboração;
-5. **A livre iniciativa, a livre concorrência e a defesa do consumidor**;
-6. A finalidade social da rede.
+> [!WARNING]
+> Provedor de conexão e provedor de aplicação possuem deveres diferentes. A banca costuma transportar regra de guarda ou responsabilidade de um para o outro.
 
-> [!IMPORTANT]
-> **Atenção em prova**: não existe no Marco Civil a exigência de *identificação civil prévia obrigatória* para qualquer navegação, nem a prevalência da segurança estatal sobre a liberdade de expressão. Pelo contrário: preserva-se a liberdade de expressão, a privacidade e a livre iniciativa.
+## Fundamentos e princípios
 
-### Princípios expressos (art. 3º) e a neutralidade de rede (art. 9º)
-1. **Garantia da liberdade de expressão, comunicação e manifestação de pensamento**.
-2. **Proteção da privacidade e dos dados pessoais**.
-3. **Neutralidade de rede (art. 9º)**:
-   - **Objeto**: o tratamento isonômico de quaisquer **pacotes de dados (tráfego)**, sem distinção por conteúdo, origem, destino, serviço, terminal ou aplicação.
-   - **Pegadinha clássica da FGV**: neutralidade de rede refere-se ao **tráfego de pacotes de dados** e infraestrutura de rede, e **não** à classificação jurídica de conteúdos ou à gratuidade de acesso. Provedores não podem degradar o tráfego de um concorrente de streaming ou priorizar tráfego com base em acordos comerciais particulares.
-   - **Exceções estritas de degradação/discriminação**: permitidas exclusivamente por (1) requisitos técnicos indispensáveis à prestação adequada dos serviços ou (2) priorização de serviços de emergência.
-4. **Preservação da estabilidade, segurança e funcionalidade da rede**.
+O art. 2º traz fundamentos como direitos humanos, desenvolvimento da personalidade, exercício da cidadania em meios digitais, pluralidade, diversidade, abertura, colaboração, livre iniciativa, livre concorrência, defesa do consumidor e finalidade social da rede.
 
-### Direitos e garantias dos usuários (art. 7º)
-O Marco Civil assegura direitos expressos aos usuários de internet no Brasil:
-* **Inviolabilidade da intimidade e da vida privada**: proteção e indenização pelo dano material ou moral decorrente de sua violação.
-* **Inviolabilidade e sigilo do fluxo de comunicações**: sigilo das mensagens em trânsito pela rede, salvo ordem judicial.
-* **Inviolabilidade e sigilo de comunicações privadas armazenadas**: sigilo de históricos e e-mails guardados em servidores, salvo ordem judicial.
-* **Não suspensão da conexão à internet**: salvo por débito decorrente diretamente de sua utilização.
-* **Manutenção da qualidade contratada**: direito à prestação dos serviços nos padrões contratados.
-* **Informações claras nos contratos**: detalhamento sobre proteção de registros, dados pessoais e gestão de tráfego.
-* **Consentimento e finalidade na coleta de dados**: informações claras sobre coleta, uso e armazenamento, que somente podem ser utilizados para finalidades justificadas e especificadas.
-* **Exclusão definitiva de dados**: direito de exigir a exclusão de dados pessoais fornecidos à aplicação ao término da relação, a requerimento, ressalvadas as hipóteses legais de guarda obrigatória.
-* **Vedação ao monitoramento indiscriminado**: provedores de conexão não podem registrar o histórico de aplicações acessadas pelos usuários.
+O art. 3º reúne princípios como:
 
-> [!NOTE]
-> **Fluxo vs. armazenamento**:
-> - *Fluxo*: comunicação em trânsito (ex: mensagem viajando de A para B).
-> - *Armazenamento*: comunicação guardada no servidor/aplicação (ex: histórico de conversas).
+- liberdade de expressão, comunicação e manifestação do pensamento;
+- proteção da privacidade;
+- proteção de dados pessoais;
+- preservação e garantia da neutralidade de rede;
+- preservação da estabilidade, segurança e funcionalidade da rede;
+- responsabilização dos agentes conforme suas atividades;
+- preservação da natureza participativa da rede;
+- liberdade dos modelos de negócios promovidos na internet, desde que não conflitem com os demais princípios da lei.
 
----
+## Neutralidade de rede
 
-## 3. Responsabilidade civil por danos decorrentes de conteúdo de terceiros
+O art. 9º exige tratamento **isonômico dos pacotes de dados**, sem distinção por conteúdo, origem e destino, serviço, terminal ou aplicação.
 
-Este é o tema mais cobrado em concursos públicos para órgãos federais e bancas como FGV e Cebraspe.
+A discriminação ou degradação do tráfego somente pode decorrer das hipóteses legais, especialmente requisitos técnicos indispensáveis à prestação adequada dos serviços e priorização de serviços de emergência, observados os requisitos regulatórios.
 
-### A regra geral: notificação judicial (*notice and takedown* judicial)
-Como regra geral, **o provedor de aplicações de internet NÃO responde civilmente de forma automática por conteúdos publicados por seus usuários**, nem é obrigado a monitorar preventivamente as postagens.
+> [!WARNING]
+> **Neutralidade ≠ gratuidade ≠ neutralidade editorial.** O conceito trata do tratamento do tráfego de pacotes na rede.
 
-> [!IMPORTANT]
-> **A regra de ouro (art. 19)**:
-> O provedor de aplicações somente poderá ser responsabilizado civilmente por danos decorrentes de conteúdo gerado por terceiros se, **após ordem judicial específica**, não tomar as providências para, no âmbito e nos limites técnicos do seu serviço e dentro do prazo assinalado, tornar indisponível o conteúdo apontado como infringente.
-> 
-> [!NOTE]
-> **Atenção em prova (STF vs. literalidade da lei)**:
-> O STF julgou a inconstitucionalidade parcial do art. 19 (com eficácia vinculante), admitindo hipóteses em que a ciência inequívoca/notificação pode gerar responsabilidade civil em casos de crimes graves, desinformação eleitoral ou violações patentes, mitigando a exigência absoluta de ordem judicial prévia.
-> - Se a questão cobrar **"segundo a literalidade da Lei nº 12.965/2014"**: a regra geral do art. 19 exige ordem judicial específica.
-> - Se a questão cobrar **"entendimento contemporâneo do STF"**: a exigência irrestrita de ordem judicial foi flexibilizada para situações específicas de proteção de direitos fundamentais.
+## Direitos dos usuários
 
-### A exceção legal estrita: notificação extrajudicial de nudez/sexo (art. 21)
-Existe uma **exceção expressa** à exigência de ordem judicial no próprio texto da lei:
-* **Violação da intimidade decorrente da divulgação não autorizada de imagens, vídeos ou outros materiais contendo cenas de nudez ou de atos sexuais de caráter privado**.
-* Nesses casos, o provedor de aplicação responde subsidiariamente se, **após o recebimento de notificação formal da vítima ou de seu representante legal**, deixar de promover, de forma diligente e nos limites técnicos, a indisponibilização desse conteúdo.
+O art. 7º assegura, entre outros:
 
----
+- inviolabilidade da intimidade e da vida privada;
+- sigilo do fluxo das comunicações, salvo por ordem judicial nos termos da lei;
+- sigilo das comunicações privadas armazenadas, salvo por ordem judicial;
+- não suspensão da conexão, salvo por débito diretamente decorrente de sua utilização;
+- manutenção da qualidade contratada;
+- informações claras e completas nos contratos;
+- informações sobre coleta, uso, armazenamento e tratamento de dados;
+- exclusão definitiva dos dados pessoais fornecidos a determinada aplicação ao término da relação, a requerimento, ressalvadas hipóteses de guarda obrigatória.
 
-## 4. Guarda de registros (prazos de retenção)
+## Guarda de registros
 
-| Tipo de Registro | Quem Deve Guardar | Prazo Mínimo de Guarda | Sigilo e Acesso |
-| :--- | :--- | :--- | :--- |
-| **Registros de conexão** | Provedor de conexão | **1 ano** (art. 13) | Ambiente seguro, sigiloso; acesso apenas mediante ordem judicial. |
-| **Registros de acesso a aplicações** | Provedor de aplicações (com fins econômicos) | **6 meses** (art. 15) | Ambiente seguro, sigiloso; acesso apenas mediante ordem judicial. |
+| Registro | Responsável | Prazo legal básico |
+|---|---|---:|
+| conexão | administrador de sistema autônomo / provedor de conexão | **1 ano** |
+| acesso a aplicações | provedor de aplicações constituído como pessoa jurídica e que exerça atividade organizada, profissionalmente e com fins econômicos | **6 meses** |
+
+O acesso aos registros deve observar a proteção legal e, quando a lei exige, ordem judicial.
 
 > [!TIP]
-> **Heurística de prova**:
-> - Provedor de conexão guarda por **1 ano**.
-> - Provedor de aplicações guarda por **6 meses**.
-> - É expressamente **proibida** a guarda dos registros de acesso a aplicações pelo provedor de conexão (vedação de monitoramento de navegação).
+> **Conexão = 1 ano; aplicação = 6 meses.** Não transforme o prazo de um tipo de registro no outro.
+
+## Responsabilidade por conteúdo de terceiros: duas camadas de prova
+
+Este tema exige distinguir o **texto legal de 2014** da **interpretação constitucional vinculante do STF**.
+
+### 1. Literalidade original do art. 19
+
+O art. 19 foi redigido com a regra de que o provedor de aplicações somente responderia civilmente por conteúdo de terceiro se, após **ordem judicial específica**, não tornasse indisponível o conteúdo indicado, dentro dos limites técnicos e do prazo fixado.
+
+O art. 21 já previa hipótese específica de responsabilidade subsidiária após **notificação da vítima ou representante legal** para divulgação não autorizada de imagens, vídeos ou materiais contendo nudez ou atos sexuais de caráter privado.
+
+Se a questão perguntar expressamente **“segundo a literalidade da Lei nº 12.965/2014”**, essas disposições continuam sendo o ponto de partida textual.
+
+### 2. STF: Temas 987 e 533
+
+Em 2025, o STF reconheceu a **inconstitucionalidade parcial e progressiva do art. 19**. Após embargos concluídos em 17 de junho de 2026, o Tema 987 transitou em julgado e o regime passou a ter aplicação vinculante enquanto não houver nova disciplina legislativa.
+
+A consequência para prova é simples: **não memorize mais “ordem judicial é sempre necessária” como regra jurisprudencial geral.**
+
+O precedente diferencia situações. Entre os pontos relevantes:
+
+- provedores podem ser responsabilizados em hipóteses definidas pelo STF quando não atuarem diligentemente diante de conteúdo ilícito;
+- **crimes e ilícitos contra a honra** mantêm regime específico em que o art. 19 conserva papel relevante, sem impedir remoção por notificação extrajudicial;
+- replicações de conteúdo ofensivo já reconhecido por decisão judicial podem exigir remoção de publicações idênticas sem necessidade de nova decisão para cada réplica, após ciência nos termos fixados pela tese;
+- determinadas hipóteses de **conteúdos criminosos graves**, enumeradas taxativamente na tese, geram dever de cuidado reforçado e podem responsabilizar plataformas por falha sistêmica na prevenção ou remoção;
+- anúncios, impulsionamentos pagos e mecanismos artificiais de disseminação possuem tratamento próprio na tese;
+- aplicações de comunicação privada, e-mail e outros serviços com menor interferência sobre o fluxo informacional recebem tratamento diferenciado;
+- legislação eleitoral e atos do TSE permanecem ressalvados.
+
+> [!IMPORTANT]
+> Em 2026, a resposta depende do comando:
+> - **literalidade do art. 19** → ordem judicial específica é a fórmula legal original;
+> - **entendimento atual do STF / Tema 987** → o art. 19 é parcialmente inconstitucional e não existe uma exigência universal de ordem judicial para toda responsabilidade de plataforma.
+
+### Dever de cuidado não é monitoramento ilimitado
+
+A tese do STF prevê deveres mais intensos em situações específicas, especialmente circulação massiva de conteúdos criminosos graves, mas isso não significa uma regra genérica de responsabilidade automática por tudo que qualquer usuário publique.
+
+A banca pode errar tanto por excesso — “a plataforma responde por todo conteúdo assim que publicado” — quanto por insuficiência — “jamais responde sem ordem judicial”.
+
+## Art. 21: intimidade sexual
+
+A hipótese legal de divulgação não autorizada de material contendo nudez ou atos sexuais de caráter privado continua sendo uma distinção importante. A vítima ou seu representante pode notificar o provedor para indisponibilização do conteúdo, observados os requisitos legais.
+
+Não generalize essa redação específica para qualquer crítica, opinião, difamação ou conteúdo controverso.
+
+## Como a banca cobra
+
+Os melhores distratores atualmente exploram **camadas normativas diferentes**:
+
+- aplicar a literalidade original do art. 19 como se fosse todo o entendimento vinculante atual;
+- afirmar que qualquer notificação extrajudicial gera automaticamente responsabilidade em qualquer caso;
+- tratar neutralidade de rede como neutralidade política ou editorial;
+- inverter os prazos de registros de conexão e de acesso a aplicações;
+- atribuir ao provedor de conexão deveres de guarda próprios do provedor de aplicação;
+- dizer que plataformas possuem responsabilidade objetiva e automática por todo conteúdo de usuários;
+- ignorar o tratamento específico de crimes contra a honra e comunicações privadas no Tema 987.
+
+## Relações com outros temas
+
+- [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI, LGPD e transparência]]: proteção de dados pessoais e transparência possuem regimes próprios.
+- [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|Fact-checking e desinformação]]: conteúdo falso não deve ser confundido automaticamente com conteúdo juridicamente ilícito.
+- [[3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais|Direitos e garantias fundamentais]]: liberdade de expressão, privacidade e proteção constitucional das comunicações.
+
+## Tensões e pegadinhas
+
+**Lei × jurisprudência:** o texto do art. 19 permanece no diploma, mas sua aplicação foi constitucionalmente reconfigurada pelo STF.
+
+**Remoção × responsabilidade:** retirar conteúdo e responder civilmente são questões relacionadas, porém não idênticas.
+
+**Conteúdo ilícito × conteúdo desagradável:** crítica dura ou informação controversa não é, só por isso, ato ilícito.
+
+**Neutralidade de rede × moderação:** neutralidade regula tráfego; moderação de conteúdo envolve outra camada jurídica e operacional.
+
+## Exemplos comentados
+
+**“Segundo a redação original do art. 19 do Marco Civil, a responsabilização do provedor por conteúdo de terceiro dependia do descumprimento de ordem judicial específica.”** Correto como literalidade legal.
+
+**“Segundo o entendimento vinculante atual do STF, nenhum provedor de aplicações pode ser responsabilizado antes de descumprir ordem judicial específica.”** Errado. O Tema 987 afastou essa exigência universal.
+
+**“Registros de conexão e registros de acesso a aplicações possuem o mesmo prazo mínimo de guarda.”** Errado: a lei prevê, respectivamente, um ano e seis meses nas hipóteses legais.
+
+## Heurísticas
+
+- **Conexão = 1 ano; aplicações = 6 meses.**
+- **Neutralidade = pacote de dados.**
+- **Art. 19 literal ≠ Tema 987 atual.**
+- Se a questão disser `segundo a lei`, leia a literalidade; se disser `segundo o STF`, aplique a tese vinculante.
+- **Ordem judicial nunca** e **notificação sempre** são dois absolutos igualmente suspeitos após 2026.
+
+## Fontes
+
+- Lei nº 12.965, de 23 de abril de 2014, especialmente arts. 2º, 3º, 7º, 9º, 13, 15, 19 e 21.
+- Supremo Tribunal Federal, Tema 987 da repercussão geral, RE 1.037.396, tese final após embargos concluídos em 17/06/2026.
+- Supremo Tribunal Federal, Tema 533 da repercussão geral, RE 1.057.258.
 
 ---
-
-## Heurísticas e armadilhas de prova (FGV)
-
-1. **Pegadinha da notificação extrajudicial**: a banca afirmará que *"a plataforma responde civilmente porque recebeu notificação extrajudicial da vítima e não retirou o post difamatório imediatamente"*. **Errado!** Para ofensas/difamação em geral, a responsabilidade só nasce após descumprimento de **ordem judicial específica**.
-2. **Monitoramento prévio obrigatório**: o Marco Civil **não** impõe aos provedores o dever de monitoramento prévio ou filtro generalizado do que os usuários publicam.
-3. **Neutralidade vs. modelo de negócios**: discriminação de pacotes por acordos comerciais com plataformas específicas viola a neutralidade de rede.
-
----
-**Fontes brutas:**
+**Fonte bruta interna:**
 - [[00 inbox/00 ingestão]]

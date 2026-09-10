@@ -7,6 +7,14 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const outDir = path.join(rootDir, '_site');
 
+const STOPWORDS_INDICE = new Set([
+  'a', 'ao', 'aos', 'as', 'com', 'da', 'das', 'de', 'do', 'dos', 'e', 'em', 'entre',
+  'essa', 'esse', 'esta', 'este', 'foi', 'na', 'nas', 'no', 'nos', 'o', 'os', 'ou',
+  'para', 'pela', 'pelas', 'pelo', 'pelos', 'por', 'que', 'se', 'ser', 'sua', 'suas',
+  'seu', 'seus', 'um', 'uma', 'uns', 'umas', 'como', 'tambem', 'mais', 'menos', 'muito',
+  'muita', 'muitos', 'muitas', 'pode', 'podem', 'deve', 'devem', 'quando', 'onde'
+]);
+
 // --------------------------------------------------------------------------
 // 1. REGRAS CANÔNICAS DE VISIBILIDADE PÚBLICA (SSoT)
 // --------------------------------------------------------------------------
@@ -65,7 +73,7 @@ function isArquivoPublico(relPath) {
 }
 
 // --------------------------------------------------------------------------
-// 2. DESCOBERTA E METADADOS
+// 2. DESCOBERTA, METADADOS E ÍNDICE DE BUSCA
 // --------------------------------------------------------------------------
 
 function varrerDiretorio(dir, lista = []) {
@@ -98,8 +106,8 @@ function extrairCampoFrontmatter(conteudo, campo) {
   return match && match[1] ? match[1].trim() : '';
 }
 
-function limparLinhaParaIndice(linha) {
-  return String(linha || '')
+function limparTextoParaIndice(texto) {
+  return String(texto || '')
     .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
     .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, '$2')
@@ -111,41 +119,81 @@ function limparLinhaParaIndice(linha) {
     .trim();
 }
 
-function criarConteudoBusca(conteudo) {
-  const tipo = extrairCampoFrontmatter(conteudo, 'type');
+function normalizarIndice(texto) {
+  return String(texto || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[“”"'`´’]/g, ' ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function extrairTermosUnicos(texto) {
+  const unicos = new Set();
+  normalizarIndice(texto).split(' ').forEach((token) => {
+    if (!token || token.length < 2 || STOPWORDS_INDICE.has(token)) return;
+    unicos.add(token);
+  });
+  return Array.from(unicos).join(' ');
+}
+
+function criarSecoesIndice(conteudo) {
   const semFrontmatter = conteudo
     .replace(/^---[\s\S]*?---\s*/, '')
     .replace(/%%[\s\S]*?%%/g, ' ');
-
   const linhas = semFrontmatter.split(/\r?\n/);
-  const partes = [];
+  const secoes = [];
+  let titulo = '';
+  let nivel = 0;
   let buffer = [];
 
-  const descarregarBuffer = () => {
-    if (buffer.length === 0) return;
-    const texto = buffer.join(' ').replace(/\s+/g, ' ').trim();
-    if (texto) partes.push(texto);
+  const salvar = () => {
+    const texto = limparTextoParaIndice(buffer.join(' '));
+    if (texto || titulo) {
+      secoes.push({
+        titulo,
+        nivel,
+        trecho: texto.slice(0, 220),
+        termos: extrairTermosUnicos(`${titulo} ${texto}`)
+      });
+    }
     buffer = [];
   };
 
   linhas.forEach((linha) => {
     const cabecalho = linha.match(/^(#{2,3})\s+(.+)$/);
     if (cabecalho) {
-      descarregarBuffer();
-      partes.push(`${cabecalho[1]} ${cabecalho[2].trim()}`);
+      salvar();
+      nivel = cabecalho[1].length;
+      titulo = cabecalho[2].trim();
       return;
     }
 
     if (/^#\s+/.test(linha) || /^```/.test(linha.trim())) return;
-
-    const limpa = limparLinhaParaIndice(linha);
-    if (limpa && !/^[-: ]+$/.test(limpa)) buffer.push(limpa);
+    buffer.push(linha);
   });
 
-  descarregarBuffer();
+  salvar();
+  return secoes;
+}
 
-  const miniFrontmatter = tipo ? `---\ntype: "${tipo}"\n---\n` : '';
-  return `${miniFrontmatter}${partes.join('\n')}`.trim();
+function criarRegistroIndice(relPath, conteudo) {
+  const fileName = path.basename(relPath).toLowerCase();
+  const tipo = extrairCampoFrontmatter(conteudo, 'type');
+
+  // Avanços são publicados para navegação/desempenho, mas a busca teórica já os
+  // exclui. Não carregar seu corpo no índice evita bytes que nunca pontuariam.
+  if (fileName === 'avancos.md') {
+    return { sourcePath: relPath, tipo, secoes: [] };
+  }
+
+  return {
+    sourcePath: relPath,
+    tipo,
+    secoes: criarSecoesIndice(conteudo)
+  };
 }
 
 console.log('--- ETAPA 1: VARREDURA E GERAÇÃO DO MANIFESTO PÚBLICO ---');
@@ -191,13 +239,20 @@ const manifesto = arquivosPublicos.map((relPath) => {
 
 manifesto.sort((a, b) => a.sourcePath.localeCompare(b.sourcePath, 'pt-BR', { numeric: true }));
 
-// O índice preserva texto suficiente para ranking, fuzzy matching, headings e snippets,
-// mas remove frontmatter irrelevante, sintaxe Markdown e quebras redundantes. O Markdown
-// completo continua sendo publicado e passa a ser carregado apenas quando o artigo abre.
-const indiceBusca = manifesto.map((item) => ({
-  sourcePath: item.sourcePath,
-  conteudo: criarConteudoBusca(conteudosPorPath.get(item.sourcePath) || '')
-}));
+const indiceBusca = manifesto.map((item) =>
+  criarRegistroIndice(item.sourcePath, conteudosPorPath.get(item.sourcePath) || '')
+);
+
+const pathsManifesto = new Set(manifesto.map(item => item.sourcePath));
+const pathsIndice = new Set(indiceBusca.map(item => item.sourcePath));
+if (
+  pathsManifesto.size !== manifesto.length ||
+  pathsIndice.size !== indiceBusca.length ||
+  manifesto.length !== indiceBusca.length ||
+  manifesto.some(item => !pathsIndice.has(item.sourcePath))
+) {
+  throw new Error('Falha de integridade: manifest.json e search-index.json não representam o mesmo conjunto de artigos.');
+}
 
 const bytesMarkdown = Array.from(conteudosPorPath.values())
   .reduce((total, conteudo) => total + Buffer.byteLength(conteudo, 'utf8'), 0);
@@ -205,6 +260,7 @@ const indiceBuscaSerializado = JSON.stringify(indiceBusca);
 const bytesIndice = Buffer.byteLength(indiceBuscaSerializado, 'utf8');
 const reducao = bytesMarkdown > 0 ? Math.round((1 - (bytesIndice / bytesMarkdown)) * 100) : 0;
 console.log(`Índice de busca: ${bytesIndice} bytes (${reducao}% menor que o conjunto Markdown bruto).`);
+console.log(`Integridade do índice: ${indiceBusca.length} de ${manifesto.length} artigos mapeados.`);
 
 // --------------------------------------------------------------------------
 // 3. MONTAGEM DO DIRETÓRIO DE DISTRIBUIÇÃO _site/

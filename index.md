@@ -8,7 +8,6 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[1 - Planejamento/diretrizes de busca|Diretrizes de busca]]
 - [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]]
 - [[1 - Planejamento/Auditoria editorial do vault|Auditoria editorial do vault]]
-- [[1 - Planejamento/Prompt - gerar simulados por prova-espelho|Prompt para gerar simulados por prova-espelho]]
 - [[1 - Planejamento/concursos abertos|Concursos abertos]]
 - [[1 - Planejamento/concursos previstos|Concursos previstos]]
 - [[1 - Planejamento/horarios|Cronograma e horários]]
@@ -40,6 +39,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[00 - Desempenho/Provas/TCDF 2023 - ANACE|TCDF 2023: ANACE]]
   - [[00 - Desempenho/Provas/TCDF 2021 - Auditor de Controle Externo|TCDF 2021: Auditor de Controle Externo]]
 - [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]]
+  - [[00 - Desempenho/Simulados/Prompt - gerar simulados por prova-espelho|Prompt para gerar simulados por prova-espelho]]
   - [[00 - Desempenho/Simulados/Simulado-01|Simulado 01 — Diagnóstico e erros]]
   - [[00 - Desempenho/Simulados/Simulado-02|Simulado 02 — Diagnóstico e erros]]
 

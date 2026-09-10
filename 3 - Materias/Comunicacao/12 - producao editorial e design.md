@@ -3,264 +3,317 @@ title: "Produção editorial e design"
 type: "conceito"
 status: "ativo"
 created: 2026-07-20
-updated: 2026-08-10
+updated: 2026-09-10
 ---
 # Produção editorial e design
 
-Este módulo organiza os conceitos fundamentais de design gráfico, tipografia, editoração eletrônica, produção gráfica, produção audiovisual, roteirização, fotografia institucional e sistemas de identidade visual sob a perspectiva da **Arqueologia do Design**: investigando que problemas de comunicação e engenharia de compreensão cada técnica ou conceito surgiu para resolver.
+O bloco de produção editorial, design e audiovisual reúne técnicas diferentes, mas ligadas por uma mesma finalidade: **transformar conteúdo em uma forma visual, gráfica ou audiovisual adequada ao suporte, ao público e à finalidade comunicacional**. Para prova, o ganho não está em decorar softwares isolados, e sim em distinguir níveis que a FGV costuma misturar: planejamento editorial, projeto gráfico, editoração, pré-impressão, produção gráfica, princípios de design, visualização de informação e linguagem audiovisual.
 
----
+A prova-espelho da Dataprev de 2024 cobrou diretamente **classificação tipográfica** e **sangria**. Em provas recentes de comunicação visual e design, a FGV também cobrou RGB × CMYK, acabamentos gráficos e princípio da proximidade. Isso torna especialmente importantes as fronteiras técnicas desta nota.
 
-## 1. O Processo Editorial (O problema da escala e da organização)
-A etapa responsável pelo fluxo de produção de uma publicação não se resume à diagramação. O processo editorial envolve um fluxo lógico composto por etapas distintas, com funções claras e delimitadas:
+## 1. Produção editorial e gráfica
 
+### 1.1 Planejamento editorial, projeto gráfico, editoração e produção
+
+Essas etapas pertencem ao mesmo fluxo, mas não são sinônimas.
+
+```text
+Planejamento editorial → Projeto gráfico → Editoração/diagramação → Pré-impressão/fechamento → Produção gráfica ou publicação digital
 ```
-Planejamento editorial ➔ Projeto gráfico ➔ Editoração ➔ Fechamento de arquivos ➔ Produção gráfica
-```
 
-*   **Planejamento Editorial** (*Por quê? Para quem? O quê?*): Fase estratégica que define o público-alvo, periodicidade, linguagem, suportes e fluxos de aprovação. Nenhuma decisão tipográfica ou estética é tomada aqui.
-*   **Projeto Gráfico** (*Como será a identidade visual?*): Define as diretrizes e padrões de identidade visual da publicação (estilos tipográficos, hierarquias, cores institucionais, grids, padrões visuais). Funciona como a "planta arquitetônica" do projeto.
-*   **Editoração Eletrônica** (*Como montar página por página?*): A aplicação prática do projeto gráfico ao conteúdo real e definitivo, distribuindo textos e imagens ao longo das páginas. É a "construção da casa" utilizando ferramentas como o Adobe InDesign.
-*   **Produção Gráfica** (*Como finalizar e imprimir?*): A fase de materialização física (impressão) ou exportação final para suportes digitais.
+**Planejamento editorial** define finalidade, público, linha editorial, periodicidade, suporte, volume de conteúdo, responsabilidades e fluxo de aprovação. É a camada estratégica do produto editorial.
 
----
+**Projeto gráfico** transforma essas definições em sistema visual: formato, grid, margens, hierarquias, famílias tipográficas, paleta, estilos de imagens e padrões recorrentes.
 
-## 2. Vetor vs. Bitmap (O problema do armazenamento e da escalabilidade)
-O computador representa a informação gráfica através de dois modelos opostos de manipulação de dados:
+**Editoração eletrônica/diagramação** aplica o projeto gráfico ao conteúdo concreto, página por página ou tela por tela, articulando textos, imagens, tabelas e demais elementos. Adobe InDesign é uma ferramenta típica, mas a definição não depende de um software específico.
 
-| Categoria | Vetor | Bitmap (Raster) |
-| :--- | :--- | :--- |
-| **Ação Principal** | **Descreve** a imagem matematicamente. | **Registra** amostras cromáticas (pixels). |
-| **Unidade Básica** | Fórmulas, caminhos e pontos geométricos. | Matriz de pixels (quadrados de cor). |
-| **Escalabilidade** | Infinita. Recalculada sem perda de nitidez. | Limitada. A ampliação revela pixels (pixelado). |
-| **Ideal Para** | Logotipos, ícones, infográficos, tipografia. | Fotografias, texturas e imagens realistas. |
-| **Formatos** | AI, SVG, EPS, PDF (vetorial). | JPG, PNG, TIFF, PSD, WebP, GIF. |
-| **Software Core** | Adobe Illustrator. | Adobe Photoshop. |
+**Pré-impressão/fechamento** verifica se o arquivo está tecnicamente adequado para reprodução: sangria, resolução das imagens, espaços de cor, fontes, transparências, marcas e padrão de PDF, de acordo com o fluxo da gráfica.
 
-> [!TIP]
-> **Heurística de Prova**: Se a questão mencionar logotipo institucional ou elemento geométrico que precisa ser ampliado mantendo contorno limpo, selecione **vetor**. Se mencionar fotografia institucional ou riqueza de detalhes capturados da realidade, selecione **bitmap**. O PDF pode carregar ambos os formatos.
-
----
-
-## 3. RGB vs. CMYK (O problema da física da cor)
-Os sistemas cromáticos respondem à física de como a cor é gerada no meio de exibição final:
-
-### RGB (Sistema Aditivo — Luz)
-*   **Propósito**: Emitir luz diretamente das telas (monitores, celulares, TVs).
-*   **Princípio**: O ponto de partida é o preto absoluto (tela apagada). A adição gradual de luzes Vermelha (*Red*), Verde (*Green*) e Azul (*Blue*) caminha em direção ao branco total.
-*   **Fórmula**: `Preto + R + G + B = Branco`.
-
-### CMYK (Sistema Subtrativo — Pigmento)
-*   **Propósito**: Bloquear a luz refletida pelo papel físico (impressão offset, digital).
-*   **Princípio**: O ponto de partida é a folha branca de papel que reflete a luz ambiente. As tintas Ciano (*Cyan*), Magenta (*Magenta*) e Amarela (*Yellow*) atuam como filtros que absorvem (subtraem) a luz. A sobreposição máxima das tintas caminha para o preto.
-*   **Fórmula**: `Branco - C - M - Y = Preto`.
-*   **A função do K (Key - Preto)**: A mistura pura de C + M + Y resulta em um marrom escuro instável. O preto físico (K) é adicionado para economizar tintas coloridas, garantir contraste profundo e assegurar a nitidez de textos pequenos.
+**Produção gráfica** é a etapa de materialização do impresso, envolvendo processo de impressão, suporte, tintas e acabamentos. Em produto exclusivamente digital, essa etapa é substituída pela preparação e publicação apropriadas ao meio digital.
 
 > [!WARNING]
-> **Gamut**: O gamut é o limite físico de cores que um sistema consegue reproduzir. O gamut do RGB (telas luminosas) é muito maior que o do CMYK (pigmentos físicos). Cores brilhantes criadas em telas sofrem conversão obrigatória e perdem vivacidade ao serem impressas.
-> **Pegadinha da FGV**: O sistema de cor é definido exclusivamente pelo **meio de exibição final da peça**, e não pelo tema da campanha. Um banner de teor institucional digital deve usar RGB; um banner institucional impresso deve usar CMYK.
+> **Planejamento não é diagramação.** Se a questão fala em definir público, periodicidade e linha editorial, está antes do projeto gráfico. Se fala em distribuir textos e imagens numa página concreta, está na editoração/diagramação.
 
----
+### 1.2 Imagem raster/bitmap × vetor
 
-## 4. Densidade e Resolução (O problema da nitidez espacial)
-A resolução é a densidade de informações gráficas distribuídas por unidade de espaço físico:
+Imagens **raster** são formadas por uma grade de pixels. Fotografias e pinturas digitais são exemplos típicos. Como possuem número finito de pixels, são **dependentes de resolução**: ampliar muito uma imagem sem dados suficientes reduz nitidez ou exige interpolação.
 
-*   **PPI (Pixels Per Inch — Pixels por Polegada)**: Propriedade exclusiva da **imagem digital**. Descreve a densidade dos dados do arquivo. Para exibição exclusiva em páginas web e telas, o metadado de PPI é ignorado; apenas a dimensão bruta em pixels importa.
-*   **DPI (Dots Per Inch — Pontos por Polegada)**: Propriedade física da **impressora**. Mede a quantidade de gotas de tinta que o equipamento consegue depositar no papel por polegada.
-*   **Heurística de Nitidez**: Não há resolução absoluta sem tamanho. A nitidez depende da relação direta entre a quantidade bruta de pixels da imagem e o tamanho físico de sua reprodução.
-*   **Distância de Observação**: Quanto maior a distância de leitura, menor a necessidade de densidade (PPI). Um outdoor visto a 50 metros pode ter 15 PPI; um folheto lido a 30 centímetros exige 300 PPI para esconder os pixels do olho humano.
+Gráficos **vetoriais** descrevem formas por pontos, linhas, curvas e relações geométricas. Em uso normal, podem ser redimensionados sem a pixelização típica do raster, porque os contornos são recalculados na saída. Isso não significa “escalabilidade infinita” em qualquer sistema, mas sim **independência de uma grade fixa de pixels**.
 
----
+| Raster/bitmap | Vetor |
+|---|---|
+| grade de pixels | formas definidas matematicamente |
+| fotografia, textura, pintura digital | logotipo, ícone, ilustração geométrica, diagrama |
+| resolução dependente | resolução independente para formas vetoriais |
+| JPEG, PNG, TIFF, PSD | SVG, AI, EPS e objetos vetoriais em PDF |
 
-## 5. O Grid (O problema do caos e do custo de orientação)
-O grid é um sistema estrutural de linhas, colunas, margens e espaços que estabelece as regras geométricas da página.
-*   **Origem Histórica**: Surge da necessidade de organizar múltiplos elementos (títulos, textos, imagens, anúncios) de forma previsível e legível.
-*   **Objetivo**: Não é um recurso meramente decorativo. Sua função principal é gerar **consistência visual, alinhamento, ritmo e hierarquia**, reduzindo o esforço do leitor para decifrar a navegação da página.
-*   **Grid vs. Template**: O grid é a planta estrutural invisível. O template é um modelo ou aplicação física que aproveita essa estrutura.
+**PDF é um contêiner**, não sinônimo de vetor: pode reunir texto, formas vetoriais e imagens raster no mesmo arquivo.
 
----
+### 1.3 RGB × CMYK
 
-## 6. Hierarquia Visual (O problema da distribuição da atenção)
-Mapeia a ordem em que os elementos visuais de uma página são percebidos pelo cérebro do leitor.
-*   **Princípio de Comparação**: O cérebro detecta a importância relativa por meio do contraste. Se todos os elementos da página possuem o mesmo tamanho, cor ou peso, nenhum deles se destaca.
-*   **Ferramentas de Destaque**: Criado através do tamanho, peso tipográfico (negrito), contraste de cor, posição espacial na página e o **espaço em branco** (o silêncio visual que dá importância ao elemento isolado).
-*   ** Wittgenstein e Relação**: Um texto não "é" um título por si só; ele torna-se um título por estar inserido em uma relação de hierarquia contrastante com o restante do documento.
+**RGB** é um modelo aditivo baseado em luz, usado em telas e outros dispositivos emissores. Vermelho, verde e azul são combinados em diferentes intensidades; valores máximos dos três canais produzem branco.
 
----
+**CMYK** é o modelo usado na impressão em quatro cores de processo. Ciano, magenta, amarelo e preto são aplicados como tintas. A reprodução é subtrativa porque as tintas absorvem parcelas da luz refletida pelo suporte.
 
-## 7. Legibilidade vs. Leiturabilidade (O problema de enxergar vs. compreender)
-A FGV explora rigorosamente a separação entre os aspectos ópticos e os cognitivos da leitura:
+O canal **K** é o preto da separação de quatro cores, historicamente associado à *key plate*. Sua presença melhora densidade e neutralidade de pretos, reprodução de detalhes e eficiência do uso das tintas coloridas. É errado dizer que K significa *keylight*.
 
-*   **Legibilidade** (*"Consigo distinguir os caracteres?"*): É uma propriedade visual e física. Depende do desenho tipográfico, tamanho da fonte, contraste de cor em relação ao fundo, entrelinhamento e qualidade técnica de exibição.
-*   **Leiturabilidade / Readability** (*"Consigo compreender o texto?"*): É uma propriedade linguística e cognitiva. Depende do vocabulário escolhido, tamanho dos períodos, estrutura sintática direta e organização lógica do texto.
+> [!IMPORTANT]
+> **Gamut depende de dispositivo, tinta, papel e perfil de cor.** É comum que cores vistas em espaços RGB de tela não possam ser reproduzidas exatamente em determinada condição CMYK, mas não trate “RGB tem sempre gamut maior que CMYK” como lei abstrata independente de perfis.
+
+Para uma peça impressa em processo CMYK, a preparação final deve considerar o perfil e as exigências da gráfica. Para conteúdo destinado a tela, o fluxo é normalmente RGB. Converter cedo demais para CMYK pode descartar cores que ainda seriam úteis durante a edição; por isso, fluxos profissionais frequentemente editam em RGB e fazem conversão controlada para a condição de impressão no fechamento.
+
+### 1.4 PPI, DPI e resolução
+
+**PPI (*pixels per inch*)** descreve a relação entre pixels de uma imagem raster e o tamanho físico em que ela será reproduzida ou interpretada. Uma fotografia de 3000 × 2000 pixels possui a mesma quantidade de informação raster independentemente do número de PPI gravado no metadado; o PPI passa a importar quando se relaciona essa quantidade de pixels a um tamanho físico de saída.
+
+**DPI (*dots per inch*)** se refere aos pontos físicos produzidos por um dispositivo de saída, como uma impressora. PPI e DPI podem estar relacionados num fluxo de impressão, mas não são sinônimos.
+
+A regra “web = 72 PPI” é uma simplificação histórica perigosa. Para exibição digital, importam sobretudo **dimensões em pixels**, densidade física do dispositivo, escala da interface e forma como o navegador/aplicativo exibe a imagem. O valor 72 gravado como metadado não cria qualidade visual por si só.
+
+Para impressão de leitura próxima, **300 PPI no tamanho final** é uma referência comum para imagens fotográficas de alta qualidade, mas não é uma lei universal. Distância de observação, método de impressão, lineatura, tipo de imagem e exigência da gráfica mudam a densidade necessária.
+
+### 1.5 Sangria, margem de segurança e marcas
+
+**Sangria (*bleed*)** é a extensão de fundos, imagens ou outros elementos para além da linha de corte final. Ela compensa pequenas variações de impressão e acabamento e evita filetes brancos indesejados nas bordas.
+
+A sangria comercial costuma ser configurada em torno de **3 mm**, mas o valor deve ser confirmado com o fornecedor. A prova Dataprev 2024 descreveu exatamente esse conceito ao perguntar pela área extra além da linha de corte.
+
+**Margem de segurança** é outra coisa: mantém textos, logotipos, QR codes e elementos essenciais afastados do corte para evitar perda acidental. Sangria ultrapassa o corte; margem de segurança recua para dentro dele.
+
+**Marcas de corte** indicam onde o material será aparado. **Marcas de registro** ajudam no alinhamento das separações; barras de cor e outras marcas podem apoiar controle de impressão. Nem todo fornecedor exige que o designer insira manualmente todas as marcas, portanto a especificação da gráfica prevalece.
+
+### 1.6 PDF/X, fontes e preflight
+
+Um PDF comum pode conter problemas de impressão, como imagem de baixa resolução, fonte ausente ou espaço de cor inadequado. A família **PDF/X** estabelece requisitos voltados à troca de arquivos gráficos profissionais. Em fluxos atuais, **PDF/X-4** é uma opção comum, mas o padrão correto deve seguir a gráfica e a cadeia de produção.
+
+**Incorporar fontes** no PDF preserva os recursos tipográficos necessários para a reprodução. **Converter texto em contornos/curvas** é uma operação diferente: transforma glifos em formas vetoriais. Pode ser útil em fluxos específicos, mas elimina propriedades de texto e não deve ser tratado como sinônimo de incorporação de fontes nem como procedimento obrigatório universal.
+
+**Preflight** é a checagem técnica do arquivo antes da saída. Pode verificar fontes, imagens de baixa resolução, overset text, espaços de cor, transparências, sangria e outros requisitos.
+
+### 1.7 Papel, impressão e acabamentos
+
+Na produção gráfica, suporte e acabamento mudam aparência e função do impresso. **Papel couché** possui revestimento que produz superfície mais lisa e menor absorção, favorecendo reprodução de imagens e cores. Papéis não revestidos, como offset, absorvem tinta de modo diferente e produzem resultado visual distinto. **Gramatura**, expressa em g/m², mede massa por área e não deve ser confundida automaticamente com espessura.
+
+Acabamentos comuns incluem:
+
+- **laminação/plastificação**: película aplicada à superfície para proteção e acabamento;
+- **verniz**, inclusive localizado/UV: camada de acabamento que pode proteger e destacar áreas específicas;
+- **hot stamping**: aplicação de película, frequentemente metálica, por calor e pressão;
+- **relevo/baixo-relevo**: deformação do suporte para criar volume;
+- **corte especial/faca**: recorte em formato não obtido apenas pelo refile reto;
+- **vinco**: marca que orienta dobra e reduz risco de quebra do material.
+
+A FGV costuma explorar a finalidade física do acabamento, oferecendo técnicas reais aplicadas ao objetivo errado.
+
+## 2. Design editorial, tipografia e hierarquia
+
+### 2.1 Grid
+
+**Grid** é um sistema estrutural de colunas, margens, módulos e linhas de referência que ajuda a organizar elementos da página. Sua função não é decorar, mas produzir consistência, alinhamento, ritmo e previsibilidade.
+
+**Grid × template:** grid é a estrutura subjacente; template é um modelo já configurado que pode aplicar essa estrutura a páginas ou peças recorrentes.
+
+### 2.2 Hierarquia visual
+
+Hierarquia visual organiza a prioridade percebida dos elementos. Tamanho, peso, contraste, posição, cor e espaço em branco podem alterar a ordem de atenção. Se todos os elementos recebem o mesmo destaque, a hierarquia perde força.
+
+Em prova, não confunda **hierarquia** com simples aumento de tamanho. Uma informação pode ganhar prioridade por posição, contraste ou isolamento mesmo sem ser o maior objeto da página.
+
+### 2.3 Proximidade, alinhamento, repetição e contraste
+
+Robin Williams popularizou no ensino de design os quatro princípios conhecidos pelo acrônimo **CRAP**: contraste, repetição, alinhamento e proximidade. Eles são heurísticas de composição, não leis naturais exclusivas de uma autora.
+
+**Contraste** torna diferenças visíveis e ajuda a criar hierarquia. **Repetição** cria consistência e unidade. **Alinhamento** estabelece relações visuais por eixos comuns. **Proximidade** agrupa espacialmente elementos relacionados, dialogando com princípios perceptivos da Gestalt.
+
+A FGV já cobrou diretamente o princípio da **proximidade**, descrevendo a necessidade de aproximar elementos relacionados para formar unidades visuais coerentes.
+
+### 2.4 Espaço em branco
+
+Espaço em branco ou espaço negativo é a área não ocupada entre elementos. Pode separar grupos, reduzir competição visual, aumentar legibilidade e destacar conteúdos. “Espaço vazio” não é automaticamente desperdício de área.
+
+### 2.5 Alinhamento e texto justificado
+
+Alinhamento cria eixos previsíveis. Em alfabetos lidos da esquerda para a direita, texto alinhado à esquerda preserva um ponto inicial estável para cada linha. Texto justificado pode funcionar muito bem em projetos editoriais quando composição, largura de coluna, hifenização e espaçamento são controlados; em condições ruins, pode formar espaços irregulares e “rios”. Portanto, “alinhado à esquerda é sempre mais acessível” é absoluto excessivo.
+
+### 2.6 Tipografia: categoria, família, fonte e estilo
+
+Em prova, a FGV pode misturar **categoria tipográfica** e **nome de família**.
+
+- **Serifada (*serif*)**: possui serifas nas terminações dos traços. Exemplos de famílias incluem Garamond e Times New Roman.
+- **Sem serifa (*sans serif*)**: não possui serifas. Helvetica é uma família sans serif.
+- **Script**: imita ou se aproxima de escrita manual, caligráfica ou cursiva. Foi exatamente a categoria cobrada na prova Dataprev 2024.
+- **Slab serif**: serifas espessas e geralmente pouco contrastadas; é uma categoria de serifada.
+- **Didone/modern serif**: alto contraste entre hastes e serifas finas; Bodoni é exemplo clássico dessa tradição, não o nome da categoria “script”.
+- **Display/decorativa**: projetada sobretudo para títulos e usos de destaque; não descreve uma única anatomia formal.
+
+**Família tipográfica** reúne faces relacionadas. **Peso** e **estilo** incluem variações como regular, bold e italic. “Fonte” é frequentemente usado no cotidiano como sinônimo de família, mas tecnicamente pode designar uma instância específica de família + peso + estilo.
 
 > [!NOTE]
-> Um texto jurídico denso impresso com tipografia impecável em papel de alto contraste possui excelente **legibilidade**, mas baixíssima **leiturabilidade** para o cidadão comum. Uma receita simples escrita em tom coloquial, mas impressa em cinza claro sobre fundo branco, possui excelente **leiturabilidade**, mas péssima **legibilidade**.
+> Na questão Dataprev 2024, `Helvetica`, `Bodoni` e `Script` não estavam no mesmo nível taxonômico: Helvetica e Bodoni são nomes de famílias/tradições tipográficas específicas; Script é categoria geral. Esse é um mecanismo clássico de distrator.
 
----
+### 2.7 Legibilidade × leiturabilidade
 
-## 8. Tipografia (O problema da reprodução em larga escala)
-A tipografia nasceu com Gutenberg para resolver o problema de escala de produção do conhecimento, garantindo a reprodução mecânica idêntica e rápida de textos.
-*   **Serifa**: Prolongamentos ou pequenos traços nas pontas das hastes das letras. Historicamente ligada ao entalhe romano em pedras e, posteriormente, usada para guiar a leitura horizontal de textos longos impressos (livros e jornais).
-*   **Sans-Serif (Sem Serifa)**: Letras retas e sem ornamentação. Surgiram com a Revolução Industrial para atender à publicidade e sinalização, destacando-se pela legibilidade rápida a distâncias elevadas.
-*   **Relações com UX**: O design tipográfico ideal é invisível. A fonte não deve chamar a atenção para si, mas atuar como infraestrutura transparente de mediação da leitura.
+**Legibilidade (*legibility*)** trata principalmente da facilidade de distinguir caracteres e palavras visualmente. Desenho dos glifos, tamanho, contraste, espaçamento e qualidade de reprodução influenciam esse aspecto.
 
----
+**Leiturabilidade (*readability*)** trata da facilidade de acompanhar e compreender um texto em contexto. Organização, extensão dos períodos, vocabulário, estrutura, largura de linha e apresentação editorial podem contribuir para ela.
 
-## 9. Espaço em Branco / Whitespace (O problema do pertencimento e do silêncio visual)
-O espaço em branco (ou espaço negativo) não representa a ausência de design; ele é um elemento ativo de diagramação.
-*   **Origem Histórica**: O espaço em branco entre palavras substituiu a *scriptio continua* (séculos VII a IX) para reduzir a ambiguidade e o custo cognitivo da leitura.
-*   **Funcionalidades**:
-    *   **Separação e Categorização (Gestalt)**: Atua diretamente na *Lei da Proximidade*. Objetos cercados de branco se separam de outros, gerando relações de pertinência/independência.
-    *   **Amplificador de Prioridade**: Elementos isolados em grandes áreas de espaço em branco ganham destaque visual imediato (funciona como silêncio que amplifica o som).
-    *   **UX**: Essencial para escaneabilidade e redução do esforço visual em interfaces.
+As duas dimensões se relacionam, mas não são equivalentes. Um texto pode usar caracteres muito nítidos e ainda ser linguisticamente difícil; também pode ser simples linguisticamente e estar visualmente mal apresentado.
 
----
+## 3. Infografia e visualização da informação
 
-## 10. Alinhamento (O problema da continuidade e causalidade visual)
-O alinhamento é a organização de múltiplos elementos gráficos seguindo um eixo ou linha comum.
-*   **Funcionalidades**:
-    *   **Continuidade e Eixo Comum**: O alinhamento diz ao cérebro que itens dispersos compartilham o mesmo sistema lógico ou pertencem à mesma cadeia de significados (causalidade visual).
-    *   **Previsibilidade de Varredura**: Reduz o esforço de reorientação ocular. O texto alinhado à esquerda no Ocidente permite que os olhos encontrem o ponto de partida de cada linha sem recalcular coordenadas.
-    *   **Texto Justificado**: Embora visualmente rígido e limpo, pode criar caminhos vazios irregulares (chamados de "rios" ou *rivers*) que prejudicam a fluidez. Em mídias digitais, o alinhamento à esquerda é preferido para melhor conforto e acessibilidade.
+### 3.1 Infográfico × gráfico isolado
 
----
+**Gráfico** representa relações entre dados. **Infográfico** combina visualizações, texto, mapas, diagramas, ilustrações e outros recursos para explicar um tema ou processo. Um gráfico pode fazer parte de um infográfico sem ser, sozinho, um infográfico completo.
 
-## 11. Fechamento de Arquivos para Impressão (O problema da fidelidade e integridade física)
-O fechamento de arquivos é a preparação técnica de documentos digitais para que sejam reproduzidos fisicamente por equipamentos gráficos profissionais sem perdas ou distorções.
-*   **Sangria (Bleed)**: Extensão dos fundos (linhas, cores ou fotos) para além da margem de corte do papel. Como o corte físico das gráficas possui margens de erro toleráveis, a sangria evita o surgimento de bordas brancas indesejadas na peça final.
-*   **Margem de Segurança**: Distância mínima que elementos importantes (textos, logos, QR Codes) devem manter em relação à linha de corte físico para evitar que sejam aparados por imprecisões da guilhotina.
-*   **Incorporação de Fontes**: Conversão dos textos em curvas/vetores ou incorporação completa do arquivo de fonte (.ttf/.otf) no PDF final. Evita que o sistema da gráfica substitua a tipografia planejada por outra padrão.
-*   **Formato de Exportação**: O formato PDF puro não é garantia de prontidão. Impressões profissionais exigem padrões normatizados específicos, sendo o **PDF/X** (ex: PDF/X-1a ou PDF/X-4) o padrão para controle de transparências, fontes e conversões de cores.
+### 3.2 Escolha da visualização pela pergunta
 
----
+A representação deve corresponder à tarefa analítica.
+
+| Pergunta | Forma frequente |
+|---|---|
+| comparar categorias | barras |
+| observar evolução temporal | linhas |
+| observar composição de um todo | setores/pizza, com poucas categorias e total coerente |
+| verificar associação entre duas variáveis | dispersão |
+| observar distribuição de valores contínuos | histograma |
+| consultar valores exatos | tabela |
+
+Em **gráficos de barras**, o comprimento da barra codifica magnitude e, por isso, a linha de base em zero é normalmente necessária para evitar distorções. Essa regra não se transfere mecanicamente a todo tipo de gráfico. Em linhas temporais, por exemplo, um eixo truncado pode ser legítimo quando claramente indicado e analiticamente justificado.
+
+**Correlação não demonstra causalidade.** Um gráfico de dispersão pode revelar associação sem explicar seu mecanismo causal.
+
+### 3.3 Tufte: data-ink e chartjunk
+
+Edward Tufte popularizou conceitos como **data-ink ratio** e **chartjunk**. A ideia geral é reduzir elementos gráficos que não ajudam a comunicar os dados e evitar efeitos decorativos que distorçam a percepção.
+
+Esses princípios são heurísticas, não obrigação de tornar todo gráfico minimalista. Rótulos, linhas de referência, anotações e elementos contextuais podem ser necessários quando melhoram interpretação.
+
+Distorções comuns incluem barras com eixo inadequadamente truncado, símbolos cuja área cresce desproporcionalmente ao valor representado, efeitos 3D e percentuais sem base de comparação.
+
+### 3.4 Data storytelling
+
+“Dados + narrativa + visualização” é uma síntese didática popular para **data storytelling**, não uma taxonomia legal ou universal. O ponto útil é que números precisam de contexto e a narrativa deve permanecer subordinada à evidência. Fonte, período, universo, metodologia e limitações não desaparecem porque a apresentação é visualmente persuasiva.
+
+## 4. Audiovisual, roteiro e fotografia
+
+### 4.1 Plano, enquadramento e composição
+
+Na linguagem audiovisual, **plano** pode designar tanto o trecho contínuo captado entre cortes quanto, em classificações didáticas, a escala de enquadramento. Em concurso, observe qual sentido o enunciado utiliza.
+
+Como escala de enquadramento:
+
+- **plano geral** privilegia ambiente e contexto;
+- **plano médio** equilibra personagem e entorno e é frequente em entrevistas;
+- **close/plano fechado** aproxima rosto, expressão ou detalhe.
+
+**Enquadramento** diz respeito à seleção e organização do que aparece dentro do quadro. A **regra dos terços** é uma heurística composicional, não uma lei obrigatória.
+
+### 4.2 Continuidade, A-roll, B-roll e storyboard
+
+**Continuidade** mantém coerência espacial, temporal e de ação entre planos. Um corte não é quebra de continuidade por si só; o problema surge quando a montagem cria inconsistência perceptível.
+
+**A-roll** é o material principal, como entrevista ou apresentação. **B-roll** é material complementar usado para ilustrar, contextualizar ou cobrir visualmente a edição.
+
+**Storyboard** é instrumento de planejamento visual anterior à gravação. Organiza cenas, enquadramentos e transições; não é software nem etapa de edição final.
+
+### 4.3 Roteiro literário × roteiro técnico
+
+**Roteiro literário** enfatiza ações, cenas, falas e progressão narrativa. **Roteiro técnico** acrescenta instruções de produção e realização, como planos, movimentos, som, grafismos e transições. A nomenclatura pode variar entre produtoras; para prova, a diferença central é narrativa/conteúdo × instruções técnicas de execução.
+
+### 4.4 Vocabulário de TV e vídeo
+
+**Off** é a narração ou fala ouvida sem que o emissor correspondente esteja aparecendo naquele momento. **Sonora** é o trecho de fala gravada de fonte/personagem inserido na matéria. **Cabeça** é a introdução feita pelo apresentador antes de uma reportagem. **Passagem** é o momento em que o repórter aparece no local, falando diretamente à câmera.
+
+Esses termos pertencem à linguagem de produção jornalística audiovisual e podem variar em detalhes de redação entre manuais, mas suas funções básicas são distintas.
+
+### 4.5 Podcast e produção sonora
+
+Sem apoio visual, roteiro de áudio precisa tornar relações, personagens, dados e transições compreensíveis pela palavra e pelo som. Trilha, efeitos, silêncio, ritmo e ambientação sonora podem exercer função narrativa. O princípio não é “descrever tudo”, mas garantir que informação necessária à compreensão não dependa de algo que o ouvinte não pode ver.
+
+### 4.6 Fotografia institucional e triângulo de exposição
+
+Fotografia institucional pode documentar atividades, registrar memória, apoiar prestação de contas e expressar identidade. A escolha de enquadramento é editorial porque inclui alguns elementos e exclui outros, mas isso não torna toda fotografia institucional automaticamente manipuladora.
+
+A exposição é influenciada por **abertura, tempo do obturador e ISO**.
+
+**Abertura:** números f menores correspondem a aberturas maiores. Mantidas as demais condições, aberturas maiores deixam entrar mais luz e tendem a reduzir a profundidade de campo. Profundidade de campo também depende de distância de foco, distância focal, tamanho do sensor e outros fatores; portanto `f/2.8 = fundo desfocado` não é regra absoluta isolada.
+
+**Obturador:** tempos mais curtos ajudam a congelar movimento; tempos mais longos aumentam borrão de movimento e captam mais luz, se os demais fatores permanecerem constantes.
+
+**ISO:** em câmeras digitais, elevar ISO **não torna fisicamente o sensor mais sensível à luz**. É uma configuração do sistema de captura/processamento que produz resultado mais claro a partir de menos sinal e geralmente aumenta a visibilidade de ruído e pode reduzir faixa dinâmica. Materiais didáticos frequentemente chamam ISO de “sensibilidade”, mas para precisão técnica essa é uma simplificação.
+
+### 4.7 RAW × JPEG, balanço de branco, legenda × crédito
+
+**RAW** preserva dados de captura com grande latitude de processamento e requer revelação/edição antes da publicação normal. **JPEG** é um formato comprimido já processado, muito usado na distribuição final.
+
+**Balanço de branco** ajusta a interpretação das cores em relação à iluminação, evitando dominantes indesejadas quando é necessária reprodução neutra.
+
+**Legenda** contextualiza a imagem, identificando o que é relevante para sua compreensão. **Crédito** informa autoria ou fonte. Uma fotografia pode precisar dos dois.
+
+## 5. Identidade visual e direção de arte
+
+**Identidade visual** é o sistema de elementos gráficos usados para tornar a organização reconhecível e coerente: assinaturas, cores, tipografia, grafismos, ícones, estilos de imagem e regras de aplicação.
+
+**Marca** é conceito mais amplo e não deve ser reduzido ao logotipo. **Imagem** e **reputação** são percepções dos públicos construídas ao longo das interações; não são controladas integralmente pelo manual de identidade. Ver [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]] e [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional e branding]].
+
+**Manual de identidade visual** registra padrões de aplicação, como área de proteção, tamanhos mínimos, versões de assinatura e usos sobre fundos. Ele busca consistência; não define sozinho toda a estratégia de marca.
+
+**Direção de arte** coordena escolhas visuais de uma peça, campanha ou sistema para manter coerência entre conceito, conteúdo, imagem, tipografia, cor e suporte.
+
+## Como a FGV cobra
+
+A FGV tende a usar conceitos técnicos muito concretos e distratores construídos com termos verdadeiros da mesma área. Na prova Dataprev 2024, uma imagem de lettering manuscrito levou à identificação da categoria **Script**; em seguida, a banca descreveu a área que ultrapassa a linha de corte e exigiu **sangria**. Em provas recentes de comunicação visual, cobrou também RGB/CMYK, acabamento e proximidade.
+
+O padrão recorrente é de **fronteira**:
+
+- RGB × CMYK;
+- raster × vetor;
+- PPI × DPI;
+- sangria × margem de segurança × marca de corte;
+- fonte incorporada × texto convertido em contorno;
+- categoria tipográfica × nome de família;
+- proximidade × alinhamento × repetição × contraste;
+- gráfico × infográfico;
+- plano × enquadramento;
+- legenda × crédito;
+- marca × identidade visual.
+
+## Tensões e pegadinhas
+
+**72 PPI não é “resolução obrigatória da web”.** Dimensão em pixels e dispositivo de exibição importam mais do que esse metadado isolado.
+
+**300 PPI não é lei universal.** É referência comum de impressão fotográfica em leitura próxima, dependente de tamanho e processo.
+
+**PDF não é sinônimo de vetor nem de arquivo pronto para gráfica.** Pode conter raster, vetor, fontes e configurações inadequadas.
+
+**PDF/X não significa que qualquer gráfica exija exatamente a mesma variante.** O fornecedor e o fluxo de impressão definem o padrão de entrega.
+
+**Script é categoria tipográfica; Helvetica e Bodoni são famílias/tradições específicas.** A FGV já explorou esse deslocamento.
+
+**RGB e CMYK não são definidos pelo “tipo de campanha”, mas pelo sistema de reprodução.** Uma campanha institucional pode ter peças RGB para tela e CMYK para impressão.
+
+**Storytelling de dados não autoriza distorção visual.** Narrativa continua subordinada a integridade dos dados.
+
+**ISO alto não capta mais luz por si só.** Para captar mais luz, alteram-se abertura, tempo ou iluminação; ISO muda o tratamento do sinal/exposição resultante.
+
+## Relações com outros temas
+
+[[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]] define objetivos e públicos antes das decisões de peça e canal. [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Campanhas e planejamento de mídia]] escolhe meios e formatos, enquanto esta nota trata da materialização técnica e visual. [[3 - Materias/Comunicacao/06 - comunicacao digital|Comunicação digital]] aborda publicação, plataformas e experiência digital. [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling|Lead, pirâmide invertida e storytelling]] trata de organização narrativa jornalística, distinta de data storytelling e roteiro audiovisual.
+
+## Heurísticas
+
+Se o problema é **ampliar sem pixelar**, pense em vetor. Se é **fotografia**, pense em raster. Se fala em **luz/tela**, RGB; se fala em **quatro tintas de processo**, CMYK. Se o elemento ultrapassa a linha final de corte, é **sangria**; se precisa ficar protegido dentro da página, é **margem de segurança**. Se a questão mostra aparência manuscrita, pense em **Script**. Se pede agrupar elementos relacionados, pense em **proximidade**. Se pede consultar números exatos, tabela tende a ser melhor que gráfico. Se o objetivo é comparar categorias, barras; se é evolução temporal, linhas; se é relação entre duas variáveis, dispersão.
+
+## Referências de verificação
+
+- Adobe. *Raster and vector* e *Photoshop image essentials*: raster como grade de pixels e vetor como formas definidas geometricamente.
+- Adobe Photoshop. *Color modes*: uso de RGB em tela e CMYK em impressão, com variação de gamut conforme condições e perfis.
+- Adobe InDesign. *Print bleed and slug areas*: finalidade de sangria, marcas e necessidade de seguir especificações do fornecedor.
+- Adobe Acrobat/InDesign. Documentação de produção de impressão e PDF/X.
+- Adobe. Materiais sobre ISO e ruído em fotografia digital.
+- TUFTE, Edward R. Obras sobre visualização de dados e integridade gráfica.
+- WILLIAMS, Robin. *The Non-Designer’s Design Book*: contraste, repetição, alinhamento e proximidade.
+- FGV Conhecimento. Dataprev 2024, ATI Comunicação Social, questões 59 e 60.
+
 **Fontes Brutas:**
 - [[00 inbox/00 ingestão]]
-
----
-
-## 12. Visualização da Informação, Infografia e Data Storytelling (O problema da redução de carga cognitiva)
-
-A visualização da informação não tem como finalidade primordial "deixar a página bonita" ou ornamentar, mas sim **reduzir a carga cognitiva** necessária para interpretar dados, identificar padrões e tomar decisões.
-
-### 12.1 Infográfico vs. Gráfico Isolado
-* **Infográfico**: Peça de comunicação integrada que articula texto, dados, gráficos, mapas, diagramas e ilustrações para explicar um tema de forma autônoma.
-* **Gráfico Isolado**: Representação matemática de variáveis. Pode compor um infográfico, mas não o define sozinho.
-
-### 12.2 Escolha da Representação Visual conforme a Pergunta
-A escolha do gráfico decorre da pergunta que o público precisa responder:
-* **Gráfico de Barras**: Responde *"Quem tem mais?"* ou *"Qual a comparação entre categorias?"*. Exige em geral que o eixo comece em zero.
-* **Gráfico de Linhas**: Responde *"Como variou ao longo do tempo?"*. Ideal para séries temporais e evolução contínua.
-* **Gráfico de Pizza (Setores)**: Responde *"Como um todo se divide?"*. Adequado **apenas** quando há poucas categorias que somam 100%. *Atenção*: Efeitos 3D e muitas fatias distorcem a percepção visual.
-* **Gráfico de Dispersão (Scatterplot)**: Responde *"Existe associação entre duas variáveis?"*. Útil para identificar correlações. *Atenção*: Correlação não comprova causalidade.
-* **Histograma**: Responde *"Como se distribuem os dados em intervalos contínuos?"*. Barras encostadas representam faixas de dados contínuos (diferente do gráfico de barras para categorias discretas).
-* **Tabelas**: Preferíveis quando o usuário precisa consultar **valores exatos**, e não identificar tendências visuais de forma rápida.
-
-### 12.3 Princípios de Edward Tufte e Integridade Gráfica
-* **Data-Ink Ratio**: Proporção entre a tinta usada para apresentar os dados e a tinta total do gráfico. Deve-se maximizar a tinta dedicada à informação direta.
-* **Chartjunk**: Excesso de elementos decorativos (sombras 3D, gradientes, ícones repetitivos, linhas de grade excessivas) que competem com os dados e dificultam a compreensão.
-* **Integridade Gráfica**: A forma visual deve respeitar rigorosamente a proporção matemática dos dados.
-* **Distorções Visuais Frequentes (Pegadinhas FGV)**:
-  * **Eixo Truncado**: Iniciar o eixo de barras acima de zero exagera visualmente pequenas diferenças percentuais.
-  * **Proporção de Área**: Redimensionar um elemento 2D (ex: círculo ou foto) dobrando seu diâmetro quadruplica sua área visual, distorcendo o dado real.
-  * **Percentual sem Base**: Informar crescimento percentual (ex: "+100%") sem informar os valores absolutos (ex: de 1 para 2 vs. de 5.000 para 10.000) oculta a magnitude real do impacto.
-
-### 12.4 Data Storytelling
-Consiste na tríade integrada: **Dados + Narrativa + Visualização**.
-* A narrativa organiza a sequência e demonstra *por que* o padrão importa.
-* Os dados sustentam a interpretação e devem manter contexto, período, fonte, metodologia e limitações.
-
----
-
-## 13. Produção Audiovisual e Linguagem do Vídeo (O problema da construção multimodal de sentido)
-
-A produção audiovisual articula imagem, som, movimento, montagem e texto para produzir significado. Diferente do texto ilustrado, esses elementos atuam de forma integrada sem mera repetição redundante.
-
-### 13.1 Plano vs. Enquadramento
-* **Plano** (*Quanto aparece?*): Unidade básica da gravação audiovisual, definida como o trecho contínuo registrado entre o início e o fim de uma tomada.
-  * **Plano Geral (PG)**: Mostra o ambiente/cenário amplo. Função principal: contextualizar a cena (*"Onde estamos?"*).
-  * **Plano Médio (PM)**: Mostra a pessoa da cintura para cima. Equilibra expressão humana e contexto; muito utilizado em entrevistas.
-  * **Close (ou Plano Fechado)**: Destaca rostos, expressões, mãos ou objetos. Função principal: direcionar a atenção e criar aproximação emocional/detalhada.
-* **Enquadramento** (*Como aparece?*): Composição e organização visual dos elementos dentro do quadro (deslocado, centralizado, regra dos terços). Um mesmo tipo de plano pode ter diferentes enquadramentos.
-
-### 13.2 Regra dos Terços, Continuidade e Recursos de Edição
-* **Regra dos Terços**: Heurística composicional que divide o quadro por duas linhas horizontais e duas verticais, posicionando pontos de interesse nos cruzamentos. Não é lei absoluta, mas diretriz de equilíbrio.
-* **Continuidade**: Preservação da coerência espacial, temporal e de ações entre planos sequenciais. Cortes entre tomadas são normais; a quebra ocorre quando erros incoerentes (ex: objeto trocando de mão) confundem o leitor/espectador.
-* **A-roll vs. B-roll**:
-  * **A-roll**: Conteúdo principal da peça (entrevista, apresentador, depoimento).
-  * **B-roll**: Imagens complementares de apoio inseridas na edição sobre a voz/áudio para dinamizar a narrativa e ilustrar a fala.
-* **Storyboard**: Ferramenta gráfica de **planejamento visual** utilizada *antes* da gravação para desenhar e sequenciar cenas, movimentos de câmera e transições (não é ferramenta de edição).
-
----
-
-## 14. Roteirização para Vídeo e Podcast (O problema do documento de produção e áudio autônomo)
-
-O roteiro audiovisual não é um mero texto narrativo; é um **documento de produção** que orienta gravação, captação sonora e montagem.
-
-### 14.1 Roteiro Literário vs. Roteiro Técnico
-* **Roteiro Literário**: Focado na narrativa, ações, cenários e falas (*"João entra na agência e solicita atendimento"*).
-* **Roteiro Técnico**: Acrescenta todas as instruções operacionais de execução audiovisual (*"Plano Médio. Câmera em travessia. Entra trilha suave em BG. Corte para close na tela"*).
-
-### 14.2 Vocabulário Técnico Audiovisual / Jornalístico
-* **Off (Narração em Off)**: Fala ou narração ouvida enquanto a imagem exibida é outra (o narrador não aparece na tela).
-* **Sonora**: Fala gravada do entrevistado ou personagem inserida na edição.
-* **Cabeça**: Introdução curta lida pelo apresentador no estúdio antes da entrada da reportagem.
-* **Passagem**: Momento em que o repórter aparece falando diretamente para a câmera durante a matéria no local dos fatos.
-
-### 14.3 Roteiro para Podcast e Produção Sonora
-* A ausência de apoio visual exige que o roteiro construa o cenário e a atmosfera puramente através da **palavra, efeitos sonoros (foley), trilha e pausas**.
-* Expressões como *"como podemos ver aqui"* tornam-se inadequada, exigindo metáforas e descrições verbais precisas (*"imagine uma sala lotada..."*).
-
----
-
-## 15. Fotografia Institucional (O problema da representação e do enquadramento editorial)
-
-A fotografia institucional cumpre funções documentais, informativas, memoriais, de prestação de contas e de construção de identidade. Não se reduz à mera promoção comercial nem ao registro protocolar de autoridades.
-
-### 15.1 Enquadramento Editorial (Framing)
-* Todo enquadramento fotográfico constitui uma **decisão editorial**: selecionar o que entra e o que fica fora do quadro altera a interpretação do fato público (ex: enquadrar apenas autoridades oculta os usuários e a utilidade social do serviço).
-
-### 15.2 Triângulo de Exposição
-A exposição resultante da captura fotográfica é regulada por três variáveis interdependentes:
-
-```
-          Abertura (número f)
-             /          \
-            /            \
-Obturador (tempo) ──── ISO (sensibilidade)
-```
-
-* **Abertura da Lente (número f)**: Controla a quantidade física de luz e a **profundidade de campo**.
-  * **Pegadinha da FGV (Relação Inversa)**: O número f representa uma fração. Portanto:
-  * **f pequeno (ex: f/2.8)** = Abertura física GRANDE ➔ Mais luz ➔ **Menor profundidade de campo** (fundo desfocado).
-  * **f grande (ex: f/16)** = Abertura física PEQUENA ➔ Menos luz ➔ **Maior profundidade de campo** (tudo em foco).
-* **Velocidade do Obturador**: Controla o tempo de entrada da luz. Velocidades altas (ex: 1/1000s) **congelam movimentos** rápidos; velocidades baixas (ex: 1/15s) registram o movimento borrado.
-* **ISO**: Sensibilidade do sensor digital à luz. Aumentar o ISO permite fotografar em ambientes escuros, mas pode gerar **ruído digital** e perda de nitidez.
-
-### 15.3 Formatos, Balanço de Branco e Elementos Textuais
-* **JPEG vs. RAW**: JPEG é o formato final comprimido eficiente para publicação. RAW preserva os dados brutos do sensor, oferecendo maior latitude de edição técnica, gerando arquivos pesados não prontos para web.
-* **Balanço de Branco (White Balance)**: Ajusta a reprodução das cores segundo a temperatura de cor da fonte de iluminação (evita fotos amareladas ou azuladas).
-* **Legenda vs. Crédito**: Legenda identifica contextualizadamente pessoas, local, data e ação. Crédito declara estritamente a autoria ou a fonte da imagem.
-
----
-
-## 16. Identidade Visual, Direção de Arte e Design Editorial (O problema do sistema visual e do CRAP)
-
-### 16.1 Identidade Visual vs. Marca
-* **Marca**: Ativo simbólico intangível que abrange reputação, percepções, sentimentos e valor histórico na mente do público.
-* **Identidade Visual**: Sistema normatizado de elementos gráficos (logotipo, paleta de cores, tipografias, ícones, grafismos, estilos fotográficos, grids) que expressam visualmente a marca.
-* **Manual de Identidade Visual**: Documento normativo que estabelece regras de aplicação (tamanhos mínimos, área de proteção, usos proibidos, marcas sobre fundos). Seu objetivo é **garantir consistência e inteligibilidade**, e não tolher arbitrariamente a criação.
-
-### 16.2 Os Quatro Princípios do Design Editorial (CRAP)
-* **Contraste (Contrast)**: Destacar elementos diferentes para criar hierarquia visual clara e atração óptica.
-* **Repetição (Repetition)**: Repetir padrões (títulos, ícones, cores, margens) para criar unidade, ritmo e previsibilidade de navegação.
-* **Alinhamento (Alignment)**: Conectar visualmente todos os elementos a um eixo comum para transmitir ordem e rigor.
-* **Proximidade (Proximity)**: Agrupar itens relacionados espacialmente (princípio da Gestalt) para indicar pertinência temática.
-
-### 16.3 Direção de Arte na Comunicação Pública
-* A direção de arte coordena o ecossistema estético da comunicação. No setor público, a consistência gráfica reduz ambiguidades, previne fraudes/golpes de falsa identidade governamental e consolida a confiança institucional do cidadão.
-
----
-**Fontes Brutas:**
-- [[00 inbox/00 ingestão]]
-

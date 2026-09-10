@@ -64,6 +64,114 @@ function processarComentariosObsidian() {
     });
 }
 
+function garantirEstilosBlocosCopiaveis() {
+    if (document.getElementById('estilos-blocos-copiaveis')) return;
+
+    const style = document.createElement('style');
+    style.id = 'estilos-blocos-copiaveis';
+    style.textContent = `
+        #artigo-corpo pre.bloco-copiavel {
+            position: relative;
+            padding-top: 3.25rem;
+        }
+
+        #artigo-corpo .bloco-copiar {
+            position: absolute;
+            top: 0.7rem;
+            right: 0.7rem;
+            z-index: 2;
+            border: 1px solid var(--accent-blue-alpha-40);
+            border-radius: 999px;
+            padding: 0.38rem 0.72rem;
+            background: var(--surface-raised);
+            color: var(--accent-blue);
+            font: 600 0.72rem/1 'Archivo', sans-serif;
+            letter-spacing: 0.01em;
+            text-transform: lowercase;
+            cursor: pointer;
+            transition: background-color .18s ease, color .18s ease, border-color .18s ease;
+        }
+
+        #artigo-corpo .bloco-copiar:hover,
+        #artigo-corpo .bloco-copiar:focus-visible {
+            background: var(--accent-blue);
+            color: #fff;
+            border-color: var(--accent-blue);
+            outline: none;
+        }
+
+        #artigo-corpo .bloco-copiar.copiado {
+            background: var(--accent-blue);
+            color: #fff;
+            border-color: var(--accent-blue);
+        }
+    `;
+    document.head.appendChild(style);
+}
+
+function copiarTextoComFallback(texto) {
+    const textarea = document.createElement('textarea');
+    textarea.value = texto;
+    textarea.setAttribute('readonly', '');
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    textarea.style.pointerEvents = 'none';
+    document.body.appendChild(textarea);
+    textarea.select();
+
+    try {
+        return document.execCommand('copy');
+    } finally {
+        textarea.remove();
+    }
+}
+
+function processarBlocosCopiaveis(container = artigoCorpo) {
+    if (!container) return;
+    garantirEstilosBlocosCopiaveis();
+
+    container.querySelectorAll('pre > code').forEach(code => {
+        const pre = code.parentElement;
+        if (!pre || pre.dataset.copiaPronta === 'true') return;
+
+        pre.dataset.copiaPronta = 'true';
+        pre.classList.add('bloco-copiavel');
+
+        const botao = document.createElement('button');
+        botao.type = 'button';
+        botao.className = 'bloco-copiar';
+        botao.textContent = 'copiar';
+        botao.setAttribute('aria-label', 'Copiar conteúdo do bloco');
+
+        botao.addEventListener('click', async () => {
+            const texto = code.textContent || '';
+            let copiado = false;
+
+            try {
+                if (navigator.clipboard && window.isSecureContext) {
+                    await navigator.clipboard.writeText(texto);
+                    copiado = true;
+                } else {
+                    copiado = copiarTextoComFallback(texto);
+                }
+            } catch (erro) {
+                copiado = copiarTextoComFallback(texto);
+            }
+
+            if (!copiado) return;
+
+            botao.textContent = 'copiado';
+            botao.classList.add('copiado');
+            window.setTimeout(() => {
+                botao.textContent = 'copiar';
+                botao.classList.remove('copiado');
+            }, 1600);
+        });
+
+        pre.appendChild(botao);
+    });
+}
+
 // Table of Contents (TOC) da Barra Lateral
 function gerarTableOfContents() {
     const tocNavDesktop = document.getElementById("toc-nav");
@@ -185,4 +293,3 @@ function processarWikilinks(container) {
         });
     });
 }
-

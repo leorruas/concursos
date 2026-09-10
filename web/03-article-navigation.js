@@ -23,7 +23,32 @@ function removerH1Duplicado(markdown, tituloExibicao) {
     });
 }
 
-function abrirArtigo(artigo, atualizarRota = true) {
+async function carregarConteudoCompletoArtigo(artigo) {
+    if (!artigo) throw new Error("Artigo inválido");
+
+    // Compatibilidade com o carregamento antigo: se o artigo já chegou com
+    // conteúdo completo e não foi explicitamente marcado como índice compacto,
+    // não há motivo para baixá-lo novamente.
+    if (artigo.conteudoCompleto === true) return artigo.conteudo || "";
+    if (artigo.conteudoCompleto !== false && artigo.conteudo) {
+        artigo.conteudoCompleto = true;
+        return artigo.conteudo;
+    }
+
+    if (!artigo.path) throw new Error("Caminho público do artigo não encontrado");
+
+    const resposta = await fetch(artigo.path);
+    if (!resposta.ok) {
+        throw new Error(`Falha ao carregar artigo (${resposta.status})`);
+    }
+
+    const texto = await resposta.text();
+    artigo.conteudo = texto;
+    artigo.conteudoCompleto = true;
+    return texto;
+}
+
+async function abrirArtigo(artigo, atualizarRota = true) {
     artigoAtual = artigo;
     if (atualizarRota && window.location.hash !== rotaDoArtigo(artigo)) {
         history.pushState({ artigo: artigo.titulo, categoria: artigo.categoria }, "", rotaDoArtigo(artigo));
@@ -49,6 +74,21 @@ function abrirArtigo(artigo, atualizarRota = true) {
     document.getElementById("btn-bc-art-cat")?.addEventListener("click", () => abrirDisciplina(artigo.categoria));
 
     artigoTitulo.textContent = tituloNavegacao;
+
+    if (artigo.conteudoCompleto === false) {
+        artigoCorpo.innerHTML = '<p class="mensagem-busca">carregando artigo…</p>';
+    }
+
+    try {
+        await carregarConteudoCompletoArtigo(artigo);
+    } catch (erro) {
+        console.error("Erro ao abrir artigo:", artigo.path, erro);
+        artigoCorpo.innerHTML = '<p class="mensagem-busca">não foi possível carregar este artigo. tente novamente.</p>';
+        return;
+    }
+
+    // O usuário pode ter aberto outro artigo enquanto este fetch estava em curso.
+    if (artigoAtual !== artigo) return;
 
     let markdownLimpo = removerFrontmatter(artigo.conteudo);
     markdownLimpo = removerH1Duplicado(markdownLimpo, tituloNavegacao);

@@ -4,32 +4,78 @@ type: "auditoria"
 status: "ativo"
 created: 2026-09-10
 updated: 2026-09-10
-scope: "piloto"
+scope: "comunicacao"
 ---
 
 # Auditoria editorial do vault
 
-Esta auditoria usa como referência o [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]]. O objetivo é escolher onde a revisão gera maior retorno para prova, sem reescrever notas fortes por simples uniformização. Esta primeira versão é um piloto deliberadamente pequeno; a cobertura será ampliada por lotes.
+Esta auditoria usa como referência o [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]]. O objetivo é escolher onde a revisão gera maior retorno para prova, sem reescrever notas fortes por simples uniformização. A auditoria cresce por lotes e separa qualidade editorial, confiabilidade e prioridade estratégica.
 
 ## Critérios
 
-Cada nota recebe três leituras independentes: qualidade editorial, confiabilidade e prioridade estratégica. A prioridade considera editais ativos, reutilização entre concursos, peso da disciplina, proximidade da prova e evidências em `data/erros-recorrentes.json`. A auditoria não promove inferências a fatos e não corrige conteúdo sem fonte adequada.
+Cada nota recebe três leituras independentes. **Qualidade editorial** avalia se o artigo permite compreender o conceito, suas estruturas internas, fronteiras, relações e mecanismos de cobrança. **Confiabilidade** avalia se classificações, regras, autores e afirmações normativas possuem base adequada e se simplificações perigosas estão sinalizadas. **Prioridade estratégica** considera editais ativos, reutilização entre concursos, peso da disciplina, proximidade da prova e evidências em `data/erros-recorrentes.json`.
+
+A auditoria não promove inferências a fatos e não corrige conteúdo sem fonte adequada. Tamanho não é sinônimo de qualidade: uma nota longa pode ser menos segura para revisão que uma nota curta quando mistura autores, classificações ou regras profissionais sem proveniência.
 
 ## Lote piloto
 
 | Nota | Qualidade editorial | Confiabilidade | Prioridade | Diagnóstico | Próxima ação |
 |---|---|---|---|---|---|
-| [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]] | forte | boa_base | alta | Conteúdo amplo e já enriquecido por erros reais. O principal risco é recuperação: condição necessária/suficiente, direção da seta e traduções da linguagem natural estão concentradas em uma nota longa. | Refinar navegação interna e relações apenas se a busca continuar insuficiente. Evitar dividir a nota antes de medir a recuperação. |
-| [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]] | forte | verificar | alta | A nota cobre contrapositiva, recíproca, inversa, equivalência disjuntiva, negação e De Morgan. O metadado de atualização estava defasado e foi corrigido em 10/09/2026; também foram adicionadas relações explícitas com conectivos, tabela-verdade, quantificadores e argumentação. | Verificar pontos formais e fontes antes de considerar a confiabilidade consolidada. |
-| [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]] | forte após revisão | boa_base | média-alta | Revisada tecnicamente em 10/09/2026. Foram corrigidas simplificações sobre `chegar em` no português brasileiro e, principalmente, a generalização que colocava `comunicar` no mesmo padrão de alternância de `informar/avisar`. A nota agora inclui regência nominal, relações com crase e termos da oração, mecanismos de prova, tensões e heurísticas. | Preservar e validar por questões. Expandir apenas a partir de erro real ou novo edital. |
-| [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]] | forte | boa_base | alta | Estrutura madura: Schein, Kunsch, modalidades, ativos intangíveis, fronteiras conceituais, FGV e heurísticas. Funciona como uma das referências editoriais do vault. | Preservar como benchmark. Revisar apenas relações com outras notas e proveniência quando necessário. |
-| [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]] | forte após revisão | boa_base | alta | Revisado em 10/09/2026. As fronteiras entre diagnóstico, objetivo, estratégia, tática, indicador e avaliação foram explicitadas; a nota agora se conecta diretamente a pesquisa em comunicação, públicos e stakeholders, campanhas e planejamento de mídia e comunicação organizacional. | Preservar e validar por questões de classificação e transposição conceitual. |
+| [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]] | forte | boa_base | alta | Conteúdo amplo e já enriquecido por erros reais. O principal risco era recuperação de subtemas concentrados em nota longa. | Aguardar evidência da busca multi-edital antes de alterar estrutura. |
+| [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]] | forte | verificar | alta | Cobre contrapositiva, recíproca, inversa, equivalência disjuntiva, negação e De Morgan. Metadados e relações foram refinados em 10/09/2026. | Verificar pontos formais e fontes antes de consolidar confiabilidade. |
+| [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]] | forte após revisão | boa_base | média-alta | Revisada tecnicamente em 10/09/2026. Foram corrigidas simplificações sobre `chegar em` e sobre a regência de `comunicar`; foram adicionadas fronteiras, relações e heurísticas. | Preservar e validar por questões. |
+| [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]] | forte | boa_base | alta | Estrutura madura: Schein, Kunsch, modalidades, ativos intangíveis, fronteiras conceituais e heurísticas. | Preservar como benchmark. |
+| [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]] | forte após revisão | boa_base | alta | Fronteiras entre diagnóstico, objetivo, estratégia, tática, indicador e avaliação foram explicitadas, com relações a pesquisa, públicos e mídia. | Preservar e validar por questões de classificação. |
 
-## Leitura transversal do piloto
+## Lote 2: Comunicação
 
-O piloto confirma que qualidade da nota e prioridade de estudo não são a mesma coisa. `Conectivos` é uma nota forte, mas continua prioritária porque o histórico registra confusões em tradução da condicional. `Comunicação organizacional` também é forte, mas permanece estratégica pelo peso de Comunicação na Dataprev. `Regência` e `Planejamento de comunicação` saíram do estado de refinamento estrutural e devem agora ser validados por questões em vez de continuar crescendo por antecipação.
+### Diagnóstico geral
 
-O padrão atual também revela uma inconsistência histórica entre notas criadas sob prompts diferentes. Algumas usam `Como isso aparece em prova`, outras `Como a banca cobra`; algumas têm `Heurísticas`, outras `Notas de raciocínio`. Isso não deve provocar reforma mecânica. A auditoria verifica função cognitiva, não correspondência literal de títulos.
+A disciplina está mais madura do que a simples contagem de seções sugeriria. O principal problema não é ausência de conteúdo, mas **heterogeneidade epistemológica**. Algumas notas são boas sínteses de prova; outras incorporaram modelos, história, prática profissional, UX, marketing ou legislação sem deixar claro o que é definição consolidada, modelo de um autor, aproximação didática ou aplicação construída para o concurso.
+
+A revisão de Comunicação deve, portanto, priorizar três riscos: taxonomias sem autoria, afirmações absolutas sem fonte normativa e artigos que acumulam assuntos demais e passam a competir com notas especializadas já existentes.
+
+| Nota | Qualidade editorial | Confiabilidade | Prioridade | Diagnóstico | Próxima ação |
+|---|---|---|---|---|---|
+| [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 Comunicação organizacional]] | forte | boa_base | alta | Benchmark atual; boas fronteiras entre modalidades e ativos intangíveis. | Preservar; conferir proveniência quando houver nova revisão. |
+| [[3 - Materias/Comunicacao/02 - comunicacao publica|02 Comunicação pública]] | forte | verificar_autor | alta | Compacta e útil, mas os quatro eixos e o modelo de apropriação são atribuídos a Jorge Duarte e devem permanecer fiéis à fonte de referência. | Conferir a nota contra a referência de Duarte e ajustar somente se houver divergência. |
+| [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 LAI, LGPD e transparência]] | forte_muito_longa | verificar_legal | alta | Boa cobertura e muitas pegadinhas, mas reúne legislação, transparência, participação, accountability, agentes, bases legais e sanções. Em matéria jurídica, pequenas simplificações podem mudar a resposta. | Auditar artigo por artigo de lei e separar claramente literalidade legal, síntese e aplicação comunicacional. Não dividir antes de testar navegação. |
+| [[3 - Materias/Comunicacao/04 - criterios de noticiabilidade|04 Critérios de noticiabilidade]] | forte | boa_base | alta | Boa distinção entre noticiabilidade, veracidade, fato, notícia, opinião e release; relações bem estabelecidas. | Preservar. Acrescentar autoria apenas se edital/prova exigir taxonomia específica. |
+| [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling|05 Lead, pirâmide invertida e storytelling]] | precisa_refinamento | verificar | alta | A nota mistura apuração, fontes, lead, storytelling, gêneros e retórica. Há duplicação com as notas 13 e 14 e formulações fortes, como tratar storytelling como lógica contrária à pirâmide invertida e atribuir predominância rígida a logos/ethos/pathos. | Revisar cedo. Reduzir sobreposição e distinguir técnica narrativa, estrutura textual, gênero e apuração. |
+| [[3 - Materias/Comunicacao/06 - comunicacao digital|06 Comunicação digital]] | forte_muito_longa | verificar | alta | É uma das notas mais extensas do vault e reúne métricas, SEO, busca, Service Design, arquitetura da informação, redação web e outros recortes. Há conteúdo útil, mas o volume dificulta saber qual conceito é canônico em cada tema. | Fazer auditoria de escopo e navegação. Identificar trechos que devem apenas linkar para notas especializadas antes de qualquer divisão. |
+| [[3 - Materias/Comunicacao/07 - gestao de crises|07 Gestão de crises]] | forte | verificar | média-alta | Estrutura de antes/durante/depois e tensão velocidade × precisão são úteis. Alguns absolutos profissionais, como condutas “terminantemente proibidas” ou procedimentos “mandatórios”, precisam de fonte ou reformulação como boa prática. | Verificar absolutos e terminologia; preservar estrutura. |
+| [[3 - Materias/Comunicacao/08 - assessoria de imprensa|08 Assessoria de imprensa]] | forte | verificar | alta | Boa diferenciação de release, clipping, media training e autonomia editorial. Há regras profissionais apresentadas como universais, especialmente sobre off, clipping e “sem comentários”. | Conferir com a referência de Jorge Duarte e transformar boas práticas em regras apenas quando a fonte sustentar. |
+| [[3 - Materias/Comunicacao/09 - comunicacao interna|09 Comunicação interna]] | forte | verificar_autores | alta | Boas fronteiras entre comunicação interna, endomarketing, clima e cultura. A nota incorpora Schein e Kotter sem desenvolver a proveniência de cada estrutura. | Atribuir explicitamente modelos e verificar a formulação de Kotter e endomarketing. |
+| [[3 - Materias/Comunicacao/10 - linguagem simples|10 Linguagem simples e acessibilidade digital]] | forte | verificar_normas | alta | Boa distinção entre linguagem simples e acessibilidade, com WCAG, eMAG e NBR. Como depende de padrões técnicos, versão e escopo precisam ser precisos. | Conferir WCAG/eMAG/NBR e distinguir recomendação de acessibilidade, exigência normativa e heurística editorial. |
+| [[3 - Materias/Comunicacao/11 - etica em comunicacao|11 Ética em comunicação]] | precisa_refinamento | verificar | média | Conceitos úteis, porém muito normativos e baseados quase só em princípios gerais; “as alternativas corretas sempre priorizam” é formulação excessiva. | Ancorar em códigos, legislação ou autores e remover universais de banca não demonstrados. |
+| [[3 - Materias/Comunicacao/12 - producao editorial e design|12 Produção editorial e design]] | precisa_reestruturacao | verificar | alta | Artigo enciclopédico: processo editorial, cor, resolução, grid, tipografia, impressão, visualização de dados, audiovisual e história do design convivem na mesma nota. Há afirmações históricas e técnicas que pedem fontes específicas. | Prioridade alta de arquitetura. Criar mapa interno de subtemas, conferir simplificações técnicas e decidir o que merece nota própria somente depois. |
+| [[3 - Materias/Comunicacao/13 - generos jornalisticos|13 Gêneros jornalísticos]] | precisa_refinamento | verificar_autor | alta | A classificação é funcionalmente boa para prova, mas taxonomias de gêneros variam por autor; a posição da reportagem entre informativo e interpretativo não deve aparecer como classificação neutra universal. | Identificar autor/modelo de referência e organizar Autor → categorias → fronteiras → divergências. |
+| [[3 - Materias/Comunicacao/14 - entrevista jornalistica|14 Entrevista jornalística]] | forte | verificar_autor | média-alta | Boa distinção entrevista como técnica × gênero. A tipologia informativa/opinativa/interpretativa/perfil precisa ser atribuída à fonte correspondente. | Conferir autoria da classificação e preservar as fronteiras de prova. |
+| [[3 - Materias/Comunicacao/15 - publicos e stakeholders|15 Públicos e stakeholders]] | precisa_refinamento | verificar_autores | alta | A definição clássica de stakeholder é reconhecível, mas “público-alvo é uma subdivisão dos stakeholders” é simplificação discutível; a matriz poder × interesse também pede autoria/modelo. | Revisar Freeman e modelo de mapeamento; separar stakeholder, público, público-alvo e segmentação sem equivalências automáticas. |
+| [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16 Planejamento de comunicação]] | forte após revisão | boa_base | alta | Revisado no lote piloto. | Validar por questões. |
+| [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|17 Pesquisa em comunicação]] | forte | verificar_metodologia_legal | alta | Boa complementaridade quali × quanti e relação com planejamento. Parte de LGPD e anonimização precisa manter precisão jurídica; “quantitativa exige amostra representativa” não vale para todo desenho quantitativo. | Refinar limites metodológicos e remeter detalhes jurídicos à nota de LGPD. |
+| [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|18 Fact-checking e desinformação]] | precisa_refinamento | verificar_autor | média-alta | A taxonomia misinformation/disinformation/malinformation está correta como família conceitual, mas deve ser atribuída; o método de checagem e afirmações sobre IA precisam de fonte e escopo. | Atribuir Wardle/Derakhshan ou referência adotada e separar taxonomia, processo de checagem e aplicações de IA. |
+| [[3 - Materias/Comunicacao/19 - marketing institucional e branding|19 Marketing institucional e branding]] | forte_muito_longa | verificar_autores | alta | Reúne Kotler, 4Ps/7Ps, segmentação, persona, posicionamento, identidade/imagem/reputação, brand equity, arquitetura de marcas e funil. Algumas equivalências com Design de Serviços são aproximações didáticas, não identidades conceituais. | Auditar por autor e remover equivalências fortes; considerar modularização futura por blocos conceituais. |
+| [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|20 Campanhas e planejamento de mídia]] | forte | verificar_modelos | alta | Owned/Paid/Earned, PESO, briefing, pré/pós-teste, ROI/ROAS e capacidade de entrega estão bem conectados, mas diferentes modelos são apresentados sem autoria consistente. | Atribuir PESO e demais modelos; alinhar fronteiras com a nota 16 para evitar duplicação. |
+| [[3 - Materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa|21 Teorias do jornalismo e história da imprensa]] | precisa_refinamento | verificar_autores | alta | A tabela comparativa é útil, mas a frase de que as teorias “não competem” e a linha `Realidade → Espelho → Gatekeeping → Newsmaking → Framing → Agenda Setting → Espiral do Silêncio` transformam teorias distintas em etapas de um processo, o que é didático demais e pode induzir erro. A fórmula simplificada da agenda-setting também pede cuidado. | Primeira revisão de conteúdo do Lote 2. Reorganizar por autor/pergunta teórica e remover a falsa cronologia entre teorias. |
+
+### Ordem de intervenção em Comunicação
+
+A auditoria indica quatro frentes, não uma revisão sequencial de 01 a 21.
+
+**Prioridade A, risco conceitual:** 21 Teorias do jornalismo; 05 Lead/pirâmide/storytelling; 13 Gêneros jornalísticos; 15 Públicos e stakeholders. São notas em que uma simplificação de taxonomia ou relação entre conceitos pode produzir distrator plausível.
+
+**Prioridade B, risco por escopo excessivo:** 12 Produção editorial e design; 06 Comunicação digital; 19 Marketing institucional e branding; 03 LAI/LGPD/transparência. O objetivo não é cortar conteúdo, mas determinar núcleos canônicos, links e fronteiras antes que novas expansões aumentem a mistura.
+
+**Prioridade C, checagem de fonte/modelo:** 02 Comunicação pública; 07 Gestão de crises; 08 Assessoria de imprensa; 09 Comunicação interna; 10 Linguagem simples; 14 Entrevista; 17 Pesquisa; 18 Fact-checking; 20 Campanhas. Em geral são boas notas que precisam mais de proveniência e limites do que de crescimento.
+
+**Preservar:** 01 Comunicação organizacional, 04 Critérios de noticiabilidade e 16 Planejamento de comunicação estão maduros o suficiente para não justificar reforma agora.
+
+## Leitura transversal
+
+O piloto confirmou que qualidade da nota e prioridade de estudo não são a mesma coisa. O Lote 2 acrescenta outra distinção: **amplitude também não é maturidade**. As notas maiores de Comunicação frequentemente nasceram de acúmulos sucessivos e hoje precisam de arquitetura e proveniência, não de mais conteúdo.
+
+O padrão atual revela ainda inconsistência histórica entre notas criadas sob prompts diferentes. Algumas usam `Como isso aparece em prova`, outras `Como a banca cobra`; algumas têm `Heurísticas`, outras `Notas de raciocínio`. Isso não deve provocar reforma mecânica. A auditoria verifica função cognitiva, não correspondência literal de títulos.
 
 ## Sinais multi-edital já existentes
 
@@ -39,21 +85,13 @@ A busca web passou a usar essas relações em 10/09/2026. Um item de edital cont
 
 ## Fila de revisão
 
-### Lote 1: alto retorno imediato
+### Lote 1: encerrado
 
-1. [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]]: conteúdo forte; aguardar teste da busca multi-edital antes de alterar estrutura.
-2. [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]]: metadados e relações refinados; falta verificação formal/fonte.
-3. [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]]: revisão técnica e editorial concluída em 10/09; próxima evidência deve vir de questões.
-4. [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]]: revisão editorial concluída em 10/09; próxima evidência deve vir de questões de classificação.
-5. [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]]: manter como benchmark; não há ganho claro em reforma agora.
+Conectivos, Equivalências, Regência, Comunicação organizacional e Planejamento de comunicação foram usados como piloto. Regência e Planejamento foram revisados; Comunicação organizacional foi preservada como benchmark; Conectivos aguarda evidência da busca; Equivalências ainda pede verificação formal/fonte.
 
-O lote piloto está encerrado como ciclo editorial. O próximo passo não é continuar uniformizando essas cinco notas, mas ampliar a auditoria para encontrar artigos realmente frágeis.
+### Lote 2: Comunicação em execução
 
-### Lote 2: expansão da auditoria
-
-Auditar os demais artigos de Comunicação, Português e Lógica. A ordem interna deve combinar peso no concurso mais próximo, evidência de erro e grau de reutilização por outros editais. Nesta etapa, marcar também notas excessivamente grandes que possam precisar de melhor navegação, sem assumir que tamanho exige divisão.
-
-O foco inicial do Lote 2 deve ser Comunicação, por concentrar 30 questões e peso maior na estratégia atual da Dataprev. A auditoria deve procurar especialmente notas que tenham definição e inventário, mas ainda não explicitem estruturas internas, fronteiras entre categorias, mecanismos de distrator, relações com outras notas ou fontes adequadas.
+A auditoria estrutural está concluída. A primeira revisão de conteúdo deve ser [[3 - Materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa|Teorias do jornalismo e história da imprensa]], seguida de [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling|Lead, pirâmide invertida e storytelling]]. Depois, revisar taxonomias em Gêneros e Públicos/Stakeholders. Somente então atacar os artigos enciclopédicos.
 
 ### Lote 3: matérias reaproveitáveis entre concursos
 
@@ -87,6 +125,6 @@ Essas consultas funcionam como teste de regressão da busca. O objetivo é medir
 
 ## Próxima execução
 
-A próxima execução deve iniciar o Lote 2 pela auditoria dos demais artigos de Comunicação, sem reescrita automática. A saída deve classificar quais notas estão fortes, quais precisam apenas de conexões/metadados e quais realmente exigem revisão de conteúdo.
+Revisar `21 - teorias do jornalismo e historia da imprensa.md` sem expandir o escopo. O objetivo é substituir a falsa cronologia entre teorias por uma arquitetura `autor/teoria → pergunta → mecanismo → limite → confusão provável`, preservar as comparações úteis e marcar simplificações didáticas. Depois, fazer o mesmo tipo de limpeza em `05 - lead piramide invertida e storytelling.md`.
 
-Na busca, o próximo passo continua não sendo fuzzy search. Primeiro é necessário observar as consultas de referência após o deploy multi-edital e decidir se aliases ou um índice pré-compilado resolvem lacunas reais. Fuzzy search só deve entrar se houver evidência de falhas por pequenas variações ortográficas, não por antecipação.
+Na busca, não adicionar fuzzy search ainda. Primeiro observar consultas reais e decidir se aliases ou índice pré-compilado resolvem lacunas concretas.

@@ -80,6 +80,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade|08 • Poder judiciário e controle de constitucionalidade]]
   - [[3 - Materias/Direito Constitucional/09 - funcoes essenciais a justica|09 • Funções essenciais à Justiça]]
   - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|10 • Processo legislativo e poder constituinte]]
+  - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|11 • Organização do Estado]]
 - [[3 - Materias/Direito Administrativo/direito-administrativo|Direito administrativo]]
   - [[3 - Materias/Direito Administrativo/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|01 • Princípios e LAI]]
@@ -91,6 +92,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Administrativo/07 - improbidade administrativa|07 • Improbidade administrativa]]
   - [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|08 • Licitações e contratos]]
   - [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|09 • Processo administrativo federal]]
+  - [[3 - Materias/Direito Administrativo/10 - servicos publicos|10 • Serviços públicos]]
+  - [[3 - Materias/Direito Administrativo/11 - controle da administracao publica|11 • Controle da Administração Pública]]
 - [[3 - Materias/Administracao Publica/administracao-publica|Administração pública]]
   - [[3 - Materias/Administracao Publica/Avancos|Avanços e desempenho]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
@@ -127,4 +130,3 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 
 ---
 *Última atualização: 2026-09-10*
-

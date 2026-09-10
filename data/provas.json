@@ -45,9 +45,11 @@
     "bancaReferencia": "FGV",
     "ano": 2024,
     "resolvida": false,
+    "sourcePath": "00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social.md",
     "fontesOficiais": [
       "https://conhecimento.fgv.br/concursos/dataprev24",
-      "https://conhecimento.fgv.br/sites/default/files/concursos/ati-comunicacao-socialcns009-tipo-1.pdf"
+      "https://conhecimento.fgv.br/sites/default/files/concursos/ati-comunicacao-socialcns009-tipo-1.pdf",
+      "https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf"
     ],
     "estrutura": {
       "totalQuestoes": 70,
@@ -77,10 +79,15 @@
     "bancaReferencia": "Cebraspe",
     "ano": 2023,
     "resolvida": false,
+    "sourcePath": "00 - Desempenho/Provas/TCDF 2023 - ANACE.md",
     "fontesOficiais": [
       "https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/ED_1_2023_TCDF_ABERTURA.PDF",
+      "https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/GAB_DEFINITIVO_895_TCDF_CB1_01.PDF",
+      "https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/GAB_DEFINITIVO_895_TCDF_CE1_01.PDF",
+      "https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/GAB_DEFINITIVO_895_TCDF_001_01.PDF",
       "https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/TC_DF_23_PADRO_PRELIMINAR_DE_RESPOSTAS_PROVA_DISCURSIVA_P4_CARGO_1.PDF"
     ],
+    "fonteSecundariaCaderno": "https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2023-tc-df-analista-administrativo-de-controle-externo",
     "estrutura": {
       "totalItensObjetivos": 150,
       "duracaoObjetivaHoras": 4,

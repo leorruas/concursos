@@ -34,11 +34,14 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[01 Log de saturacao diaria|Log de saturação diária]]
 - [[02 Metricas e metas|Métricas e metas]]
 - [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]]
+  - [[00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social|Dataprev 2024: Comunicação Social]]
+  - [[00 - Desempenho/Provas/TCDF 2023 - ANACE|TCDF 2023: ANACE]]
 - [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]]
   - [[00 - Desempenho/Simulados/Simulado-01|Simulado 01 — Diagnóstico e erros]]
   - [[00 - Desempenho/Simulados/Simulado-02|Simulado 02 — Diagnóstico e erros]]
 
 ## 3 - Matérias
+- [[3 - Materias/Estrategia de Prova/FGV e Cebraspe - Dataprev e TCDF|FGV e Cebraspe: Dataprev e TCDF]]
 - [[3 - Materias/Portugues/portugues|Língua portuguesa]]
   - [[3 - Materias/Portugues/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Portugues/01 - interpretacao de texto|01 • Interpretação de texto]]

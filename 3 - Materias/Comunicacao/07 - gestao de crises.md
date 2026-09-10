@@ -3,119 +3,132 @@ title: "Gestão de crises"
 type: "conceito"
 status: "ativo"
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-09-10
 ---
 # Gestão de crises
 
-Gestão de crises é o conjunto de estratégias, processos e ações de comunicação destinados a antecipar, mitigar e solucionar incidentes que ameaçam a reputação, a legitimidade e a continuidade das operações de uma organização.
+Gestão de crises é o conjunto de processos de preparação, coordenação, resposta e aprendizagem diante de situações capazes de ameaçar operações, pessoas, confiança, reputação ou legitimidade institucional. A comunicação é uma dimensão da resposta, mas não substitui a solução operacional, jurídica ou técnica do problema.
 
----
+## Incidente, emergência e crise
 
-## Crise operacional vs. Crise de comunicação
+Os termos podem variar entre autores e organizações. Para fins de prova, é útil tratá-los como uma gradação didática, e não como uma taxonomia jurídica universal:
 
-Uma distinção fundamental para a resolução de casos da banca (FGV):
-- **Incidente**: Uma ocorrência isolada que interrompe ou prejudica o funcionamento operacional normal (ex: falha técnica no servidor).
-- **Emergência**: Incidente com necessidade de resposta operacional imediata por envolver riscos à segurança, integridade física ou continuidade de serviços essenciais.
-- **Crise**: Ocorre quando o problema (seja incidente ou emergência) transborda e ameaça ativos intangíveis como a **confiança pública**, a **reputação organizacional**, a **legitimidade institucional** e o relacionamento com os públicos.
-  > [!IMPORTANT]
-  > A comunicação inadequada (silêncio arrogante, contradições ou minimizações) pode transformar um pequeno problema operacional em uma grave crise institucional. A comunicação não conserta a infraestrutura de TI; ela gerencia a percepção pública e mitiga o dano reputacional.
+- **Incidente**: ocorrência que interrompe ou prejudica o funcionamento normal.
+- **Emergência**: situação que exige resposta imediata em razão de riscos relevantes à segurança, integridade ou continuidade de serviços.
+- **Crise**: situação que ameaça de forma mais ampla a confiança, a reputação, a legitimidade ou a continuidade institucional.
 
----
+Uma falha operacional pode permanecer restrita ao plano técnico ou converter-se em crise comunicacional quando se amplia, gera incerteza, afeta públicos ou é mal administrada. A comunicação, por sua vez, não corrige a infraestrutura: ela reduz incerteza, orienta públicos, organiza expectativas e sustenta a prestação de contas.
 
-## O ciclo de vida da crise
+## Ciclo de gestão de crises
 
-A gestão de crises é contínua e divide-se em três etapas estratégicas:
+A divisão **antes → durante → depois** funciona como modelo de planejamento e não como sequência rígida de um único autor.
 
-1. **Antes (Prevenção e Preparação)**:
-   - Mapeamento de riscos e vulnerabilidades organizacionais.
-   - Elaboração de cenários e simulações periódicas.
-   - Definição de fluxos de aprovação rápidos e responsabilidades.
-   - **Media training** (preparar dirigentes e especialistas para interagir com a imprensa de forma clara, didática e responsável, sem omitir ou especular).
-   - Elaboração de **holding statements** pré-aprovados.
-2. **Durante (Resposta)**:
-   - Apuração rápida e coordenação integrada entre áreas técnicas, jurídica, de atendimento e comunicação.
-   - Proteção aos públicos e atualização periódica.
-   - Uso de canais oficiais e centralização da coordenação para evitar mensagens contraditórias.
-3. **Depois (Recuperação e Aprendizado)**:
-   - Avaliação da resposta institucional (eficiência, eficácia e efetividade).
-   - Prestação de contas e divulgação de medidas corretivas estruturais.
-   - Reparação de danos e acompanhamento dos públicos afetados.
-   > [!WARNING]
-   > **Persistência da Crise**: A crise não termina necessariamente quando o sistema volta a funcionar. Se persistirem dúvidas, prejuízos, perda de prazos pelo cidadão ou efeitos na imagem pública, permanecem ativos os deveres de orientação e prestação de contas.
+### Antes: prevenção e preparação
 
----
+Inclui mapeamento de riscos, cenários, definição de responsabilidades, comitê de crise, fluxos de decisão, porta-vozes, media training, monitoramento e preparação de mensagens iniciais adaptáveis. O objetivo é reduzir improviso quando a situação exigir resposta rápida.
 
-## O ciclo de resposta e a primeira manifestação
+### Durante: resposta
 
-O centro da gestão de crises reside em gerenciar a tensão entre velocidade e precisão:
-- **Velocidade extrema**: Tentar explicar tudo imediatamente sem dados confirmados compromete gravemente a credibilidade jurídica e institucional.
-- **Silêncio prolongado**: Esperar por todas as certezas técnicas antes de falar alimenta a especulação, gera incerteza e destrói a confiança. **O silêncio também comunica** (comunica descaso ou falta de controle).
+A prioridade é combinar **velocidade com precisão**. A organização deve informar o que está confirmado, reconhecer o que ainda está em apuração, orientar os públicos afetados e atualizar as informações conforme o conhecimento evolui.
 
-### Holding Statement (Manifestação Inicial)
-Quando a causa da crise ainda é desconhecida, a organização deve emitir uma manifestação provisória rápida para preencher o vazio informacional.
-- **Estrutura básica**: Reconhecimento da ocorrência + dados factuais já confirmados + providências iniciais + indicação explícita de quando haverá a próxima atualização (criando previsibilidade e reduzindo a ansiedade dos afetados).
-- **O que evitar**: Especular sobre causas, transferir culpas prematuramente, minimizar o impacto ou prometer prazos inexequíveis.
+Quando a causa ainda não é conhecida, uma manifestação inicial pode conter: reconhecimento da ocorrência, fatos já confirmados, providências em andamento, canais de orientação e compromisso de atualização. Não é necessário prometer um horário específico para a próxima manifestação se a organização ainda não tiver condições reais de cumpri-lo.
 
----
+### Depois: recuperação e aprendizagem
 
-## Gestão de crises em ambientes digitais
+O encerramento operacional não implica automaticamente o fim da crise. Podem permanecer prejuízos, dúvidas, efeitos reputacionais, demandas de reparação ou obrigações de prestação de contas. A etapa posterior envolve avaliação da resposta, correções, comunicação dos aprendizados e acompanhamento dos públicos afetados.
 
-As redes sociais aceleram e ampliam as crises devido à velocidade de propagação, replicação, circulação entre plataformas e descontextualização de mensagens.
+## Mário Rosa e o público interno
 
-- **Segunda Tela Institucional**: Mesmo que a falha ocorra no sistema interno, o cidadão utiliza as redes sociais da instituição como canal prioritário para obter informações, reclamar, verificar se outros usuários enfrentam o mesmo problema e buscar prazos de resolução.
-- **Monitoramento e Social Listening**: O monitoramento de redes não deve ser reduzido à simples contagem quantitativa de menções. Deve analisar a **velocidade** de crescimento, sentimentos, temas centrais, desinformação, comunidades mais atingidas e riscos emergentes.
-- **Dark Site**: Uma página web pré-construída e mantida oculta até a eclosão da crise, servindo para concentrar atualizações factuais, FAQs, comunicados, contatos de suporte e desmentidos, poupando a home principal do site.
-- **Sala de Crise**: Equipe multidisciplinar reunida física ou virtualmente para centralizar decisões, validar informações e produzir atualizações. É mandatório manter uma **linha do tempo documental da crise** (registrando decisões, horários de postagens e fatos).
-- **Diretrizes de Moderação**: É terminantemente proibido apagar críticas legítimas ou comentários negativos apenas para ocultar a insatisfação. A moderação legítima deve basear-se em critérios públicos objetivos (exclusão apenas de discursos de ódio, spam, ameaças, atos ilícitos e exposição de dados pessoais).
+Mário Rosa chama atenção para um erro recorrente em crises: concentrar toda a comunicação no público externo. O público interno também participa da circulação de informações e pode funcionar como uma poderosa mídia da organização.
 
----
+Para a prova, o ponto decisivo não é autorizar todos os empregados a falar com jornalistas. É **informar e orientar o público interno sobre a situação e sobre o comportamento esperado**, reduzindo boatos, contradições e interpretações improvisadas.
 
-## Combate a boatos e gestão de rumores
+A FGV cobrou esse ponto diretamente em 2026: a alternativa correta destacava a necessidade de orientar o público interno sobre o que se espera dele e sobre os aspectos relevantes da situação.
 
-No ambiente digital, rumores propagam-se rapidamente sob a ausência de posicionamentos oficiais claros.
-- **Fatos vs. Opinião**: Rumores são combatidos com dados empíricos e transparência, nunca com opiniões ou notas defensivas.
-- **Negativa prudente**: Negar taxativamente sem evidências conclusivas ("não houve vazamento") expõe a organização a um risco jurídico e reputacional caso o fato se confirme depois.
-- *Heurística da prudência*: Usar a expressão **"Até o momento, não há evidências de..."** demonstra transparência e responsabilidade, preservando a verdade factual e a autoridade da instituição.
-- **Princípio da Veracidade**: Transparência não significa afirmar o que ainda não foi comprovado.
+## Porta-voz e coordenação
 
----
+A existência de coordenação não significa que apenas uma pessoa possa conhecer os fatos ou participar internamente da resposta. Significa que manifestações públicas precisam de coerência, autoridade e validação adequada.
 
-## O fechamento e a recuperação da confiança
+- **Porta-voz**: pessoa preparada e legitimada para representar a organização diante de determinados públicos.
+- **Media training**: preparação de porta-vozes e fontes para lidar com entrevistas, perguntas difíceis, linguagem clara e situações de pressão.
+- **Comitê de crise**: estrutura multidisciplinar de coordenação que pode reunir comunicação, direção, áreas técnicas, jurídica, atendimento e outras funções relevantes.
 
-Quando o problema operacional é solucionado, a crise comunicacional entra em sua etapa crítica: o fechamento.
-- **Compromisso vs. Garantia**: Ao restabelecer os serviços, deve-se evitar promessas absolutas de infalibilidade ("isso nunca mais voltará a acontecer").
-- *Heurística da responsabilidade*: Substituir a garantia absoluta pelo **compromisso contínuo** (ex: "permanecemos monitorando os sistemas para garantir a estabilidade e seguimos comprometidos com a segurança"). Isso protege o risco reputacional da instituição.
+## Comunicação em ambientes digitais
 
----
+Redes sociais e ambientes digitais aceleram a circulação de informação, desinformação, críticas e relatos de usuários. Isso aumenta a importância de monitoramento, coerência entre canais e atualização rápida.
 
-## Avaliação de ações: Eficiência × Eficácia × Efetividade
+### Social listening
 
-Conceitos importados da Administração e muito cobrados na avaliação de campanhas e políticas de comunicação:
+Monitoramento não se reduz à contagem de menções. Pode observar velocidade de crescimento, temas recorrentes, dúvidas, desinformação, públicos afetados e evolução do sentimento. Esses sinais ajudam a orientar a resposta, mas não substituem apuração factual.
 
-- **Eficiência**: Foco nos **recursos e meios**. Examina o custo, tempo, equipe e desperdício. Fazer bem as coisas (ex: produzir a campanha dentro do orçamento previsto).
-- **Eficácia**: Foco nos **objetivos e resultados**. Se a campanha atingiu a meta estabelecida (ex: se o objetivo era aumentar o uso do app em 20% e o uso aumentou, a campanha foi eficaz, mesmo que tenha estourado o orçamento).
-  - > [!IMPORTANT]
-  > > **Sem objetivo previamente definido, a eficácia é impossível de ser medida.**
-- **Efetividade**: Foco no **impacto real de longo prazo**. Examina a transformação duradoura da realidade (ex: se o aumento de uso do aplicativo se sustentou por 6 meses após o término da campanha, houve efetividade).
+### Dark site
 
----
+É uma página preparada previamente para ser ativada em situações de crise e concentrar atualizações, orientações, FAQs e contatos. É uma ferramenta possível, não uma obrigação universal de gestão de crises.
 
-## Erros clássicos da banca (FGV)
+### Moderação
 
-Seções e atalhos de raciocínio que a banca utiliza para induzir o candidato ao erro:
-- **Escolher ferramentas antes de definir objetivos**: Propor formatos de conteúdo (vídeos, posts, podcasts) antes do diagnóstico da situação e da definição do comportamento esperado.
-- **Confundir métricas de vaidade com indicadores**: Tratar alcance, curtidas e visualizações de uma nota de crise como indicadores de sucesso, ignorando o impacto real na reputação ou no comportamento do usuário.
-- **Tratar comunicação como solução universal**: Tentar resolver problemas operacionais crônicos (ex: filas de atendimento decorrentes de falta de pessoal ou bugs de sistema) apenas com campanhas publicitárias.
-- **Garantias absolutas em crise**: Assinalar alternativas que tragam posicionamentos oficiais de promessa de perfeição técnica ("jamais voltará a ocorrer").
-- **Responder com base em dados de TI**: Confundir a convicção estatística da equipe de TI ("99% de certeza") com o posicionamento oficial e a linguagem institucional direcionada ao cidadão.
+Como boa prática de comunicação pública, críticas legítimas não devem ser removidas apenas por serem negativas. A moderação deve seguir critérios previamente definidos, como spam, conteúdo ilícito, ameaças, ataques coordenados ou exposição indevida de dados. A existência de obrigação jurídica específica depende do contexto e da plataforma.
 
----
+## Rumores, incerteza e linguagem institucional
 
-## Heurísticas de prova
+A organização deve distinguir três situações:
 
-- **Palavra decisiva**: Antes de marcar a resposta, isole palavras-chave como *predominante*, *primeiro*, *permaneceram*, *exclusivamente* ou *até o momento*. Elas mudam o enquadramento lógico da questão.
-- **O silêncio institucional**: Alternativas que sugerem silêncio total ou "aguardar a imprensa perguntar" durante incidentes públicos estão quase sempre incorretas.
-- **Finalidade da mensagem**: Sempre pergunte "o que queremos que o cidadão faça depois de ler isso?" para definir o formato e o canal do conteúdo.
+- **fato confirmado**: pode ser afirmado diretamente;
+- **hipótese em apuração**: deve ser apresentada como hipótese, não como fato;
+- **informação desconhecida**: deve ser reconhecida como ainda não conhecida.
+
+Formulações como “até o momento, não identificamos evidências de...” podem ser adequadas quando refletem fielmente o estado da apuração. O ponto não é decorar uma frase-padrão, mas evitar negar ou confirmar aquilo que ainda não foi verificado.
+
+## Boa prática não é obrigação jurídica
+
+A gestão de crises combina princípios de comunicação, procedimentos organizacionais e obrigações legais específicas. Eles não devem ser confundidos.
+
+Por exemplo, em incidente envolvendo dados pessoais, os deveres formais de comunicação previstos na LGPD e na regulamentação da ANPD independem da estratégia de comunicação de crise. Um bom posicionamento público não substitui o protocolo jurídico. Ver [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI, LGPD e transparência]].
+
+Da mesma forma, registrar decisões, manter cronologia dos fatos, preparar cenários e centralizar a coordenação são boas práticas de governança, mas não devem ser apresentadas como obrigações jurídicas universais sem norma específica.
+
+## Avaliação da resposta
+
+A avaliação pode observar dimensões diferentes:
+
+- **Eficiência**: recursos, tempo e meios empregados.
+- **Eficácia**: alcance dos objetivos definidos para a resposta.
+- **Efetividade**: efeitos mais amplos e duradouros sobre confiança, comportamento e recuperação institucional.
+
+Essas categorias ajudam a analisar a resposta, mas não transformam métricas como alcance ou volume de comentários em prova automática de sucesso.
+
+## Como a FGV cobra
+
+A banca tende a construir alternativas plausíveis deslocando boas práticas para categorias erradas ou transformando recomendações em regras absolutas.
+
+- **Público interno**: informar e orientar não significa autorizar todos a falar em nome da organização.
+- **Velocidade × precisão**: silêncio prolongado e resposta precipitada podem ser igualmente problemáticos.
+- **Comunicação × operação**: campanha ou nota pública não resolve falha técnica, falta de pessoal ou problema jurídico.
+- **Porta-voz**: centralização de mensagens não significa concentração de toda a informação em uma única pessoa.
+- **Crise encerrada**: normalização técnica não elimina automaticamente efeitos reputacionais ou obrigações posteriores.
+- **Boa prática × obrigação**: dark site, linha do tempo documental e holding statement são instrumentos possíveis; sua adoção depende do plano e do contexto.
+
+## Relações com outros temas
+
+- [[3 - Materias/Comunicacao/08 - assessoria de imprensa|Assessoria de imprensa]]: porta-voz, media training, coletivas e relacionamento com veículos.
+- [[3 - Materias/Comunicacao/09 - comunicacao interna|Comunicação interna]]: informação e orientação dos públicos internos.
+- [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI, LGPD e transparência]]: obrigações formais em incidentes envolvendo dados pessoais.
+- [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]]: objetivos, públicos, estratégia, táticas e avaliação.
+- [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|Fact-checking e desinformação]]: rumores, verificação e correção de informações falsas.
+
+## Heurísticas
+
+- **Crise não é sinônimo de incidente técnico.** Pergunte se há ameaça ampliada à confiança, reputação ou legitimidade.
+- **Primeiro fato, depois interpretação.** Não confirme causa ainda não apurada.
+- **Público interno também comunica.** Informar e orientar é diferente de autorizar todos a serem porta-vozes.
+- **Comunicação não substitui solução operacional.**
+- **Boa prática não vira lei por aparecer em um manual.** Procure norma específica quando a alternativa usar “obrigatório”, “sempre” ou “exclusivamente”.
+
+## Fontes
+
+- ROSA, Mário. *A síndrome de Aquiles: como lidar com as crises de imagem*. São Paulo: Gente, 2001.
+- ROSA, Mário. *A era do escândalo: lições, relatos e bastidores de quem viveu as grandes crises de imagem*. São Paulo: Geração Editorial, 2003.
+- FGV, AL-RO, Analista Legislativo, Comunicação Social/Jornalismo, 2026: cobrança do papel do público interno em crises.
 
 ---
 **Fontes Brutas:**

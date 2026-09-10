@@ -20,7 +20,7 @@ Cada nota recebe três leituras independentes: qualidade editorial, confiabilida
 | Nota | Qualidade editorial | Confiabilidade | Prioridade | Diagnóstico | Próxima ação |
 |---|---|---|---|---|---|
 | [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]] | forte | boa_base | alta | Conteúdo amplo e já enriquecido por erros reais. O principal risco é recuperação: condição necessária/suficiente, direção da seta e traduções da linguagem natural estão concentradas em uma nota longa. | Refinar navegação interna, relações e termos recuperáveis. Evitar dividir a nota antes de testar a busca. |
-| [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]] | forte | verificar | alta | A nota cobre contrapositiva, recíproca, inversa, equivalência disjuntiva, negação e De Morgan. O frontmatter registra `updated: 2026-05-29`, embora o histórico do vault registre enriquecimentos posteriores. | Corrigir metadados durante a revisão e verificar pontos formais antes de expansão. |
+| [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]] | forte | verificar | alta | A nota cobre contrapositiva, recíproca, inversa, equivalência disjuntiva, negação e De Morgan. O metadado de atualização estava defasado e foi corrigido em 10/09/2026; também foram adicionadas relações explícitas com conectivos, tabela-verdade, quantificadores e argumentação. | Verificar pontos formais e fontes antes de considerar a confiabilidade consolidada. |
 | [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]] | precisa_refinamento | verificar | média-alta | Regras e exemplos úteis já existem, mas há pouca camada explícita de mecanismos de cobrança, fronteiras, conexões e heurísticas. Algumas formulações absolutas devem ser conferidas em fonte normativa/gramatical antes de serem ampliadas. | Fazer revisão técnica com fonte e integrar regência, crase, transitividade e armadilhas de prova sem transformar a nota em inventário de verbos. |
 | [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]] | forte | boa_base | alta | Estrutura madura: Schein, Kunsch, modalidades, ativos intangíveis, fronteiras conceituais, FGV e heurísticas. Funciona como uma das referências editoriais do vault. | Preservar como benchmark. Revisar apenas relações com outras notas e proveniência quando necessário. |
 | [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]] | precisa_refinamento | boa_base | alta | O ciclo diagnóstico → objetivos → estratégias → táticas → indicadores está claro e há boas distinções entre eficiência, eficácia e efetividade. Faltam conexões explícitas com pesquisa, públicos, métricas e planejamento de mídia, além de exemplos de fronteira. | Refinar conexões e casos de prova, mantendo o artigo compacto. |
@@ -40,7 +40,7 @@ O padrão atual também revela uma inconsistência histórica entre notas criada
 ### Lote 1: alto retorno imediato
 
 1. [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]]: melhorar recuperabilidade, relações e navegação interna.
-2. [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]]: conferir metadados e formalizações associadas aos erros recentes.
+2. [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]]: metadados e relações refinados em 10/09; falta verificação formal/fonte.
 3. [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]]: revisão técnica e editorial com fontes.
 4. [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]]: relações e fronteiras com pesquisa, públicos e mídia.
 5. [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]]: revisão mínima como benchmark de consistência.
@@ -57,23 +57,25 @@ Auditar Direito Constitucional, Direito Administrativo, Administração Pública
 
 Auditar matérias com poucas notas ou notas-hub muito curtas, como Inglês e Redação, distinguindo ausência real de conhecimento consolidado de matérias que funcionam melhor por prática do que por artigos teóricos extensos.
 
-## Busca: baseline para a próxima fase
+## Busca: baseline e progresso
 
-A busca atual deve ser evoluída em incrementos testáveis. O primeiro incremento será apenas normalização e ranking estrutural. A consulta deve distinguir correspondência em título, heading, matéria e corpo. Em seguida, os itens de `data/edital-itens.json` ligados à nota passarão a contribuir para recuperação. Isso permitirá que redações diferentes de editais encontrem o mesmo artigo canônico.
+O primeiro incremento foi implementado em `web/06-search.js` em 10/09/2026. A busca agora normaliza acentos e caixa, trabalha com múltiplos termos e calcula relevância por título real, título do arquivo, cabeçalhos H2/H3, matéria e corpo. A ordenação deixou de depender apenas de ocorrência literal. O build do GitHub Pages correspondente concluiu com sucesso.
 
-Antes de adicionar fuzzy search ou `concept_id`, criar um conjunto pequeno de consultas de referência. Exemplos iniciais:
+O próximo incremento deve enriquecer a recuperação com os itens de `data/edital-itens.json` ligados à `notaPath`. Assim, uma redação presente em um edital poderá recuperar a nota canônica mesmo quando a expressão exata não aparece no artigo.
 
-| Consulta | Resultado esperado entre os primeiros |
-|---|---|
-| `condição necessária` | Conectivos lógicos |
-| `contrapositiva` | Equivalências e negações lógicas |
-| `lógica sentencial` | Conectivos lógicos |
-| `cultura organizacional` | Comunicação organizacional e Comunicação interna |
-| `eficácia efetividade` | Planejamento de comunicação |
-| `crase cidade` | Regência verbal e nominal |
+Antes de adicionar fuzzy search ou `concept_id`, manter um conjunto pequeno de consultas de referência:
 
-Essas consultas funcionarão como teste de regressão da busca. O objetivo é medir relevância, não apenas verificar se algum resultado existe.
+| Consulta | Resultado esperado entre os primeiros | Estado atual esperado |
+|---|---|---|
+| `condição necessária` | Conectivos lógicos | coberto pelo conteúdo da nota |
+| `contrapositiva` | Equivalências e negações lógicas | coberto pelo conteúdo da nota |
+| `lógica sentencial` | Conectivos lógicos | depende do enriquecimento por edital |
+| `cultura organizacional` | Comunicação organizacional e Comunicação interna | coberto por conteúdo/título |
+| `eficácia efetividade` | Planejamento de comunicação | coberto pelo conteúdo da nota |
+| `crase cidade` | Regência verbal e nominal | coberto pelo conteúdo da nota |
+
+Essas consultas funcionam como teste de regressão da busca. O objetivo é medir relevância, não apenas verificar se algum resultado existe.
 
 ## Próxima execução
 
-A próxima fase deve revisar o Lote 1 em pequenas alterações e, em paralelo, implementar o primeiro incremento de busca em `web/06-search.js`. Cada mudança funcional da busca deve ser separada da revisão editorial para que regressões possam ser isoladas.
+Continuar o Lote 1 sem reformatação em massa. A próxima nota candidata é [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]], porque combina fragilidade editorial com necessidade de verificação técnica. Em paralelo, o próximo passo da busca é incorporar o vocabulário de `data/edital-itens.json` sem introduzir fuzzy search ainda.

@@ -32,6 +32,8 @@ jobs:
         run: node scripts/build-site.js
       - name: Validar índice de busca publicado
         run: node scripts/validate-search-index.js
+      - name: Testar recall mínimo da busca
+        run: node scripts/test-search-index.js
       - name: Auditar ausência de arquivos privados em _site
         run: node scripts/validate-integrity.js --audit-site
       - uses: actions/configure-pages@v5

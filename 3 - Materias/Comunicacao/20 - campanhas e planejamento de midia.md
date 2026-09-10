@@ -3,108 +3,214 @@ title: "Campanhas e planejamento de mídia"
 type: "conceito"
 status: "ativo"
 created: 2026-08-03
-updated: 2026-08-04
+updated: 2026-09-10
 ---
-
 # Campanhas e planejamento de mídia
 
-O planejamento e a execução de campanhas de comunicação no setor público exigem a articulação coordenada de diferentes tipos de canais de mídia e uma estruturação metodológica rigorosa (briefing e diagnóstico) para garantir que as mensagens gerem valor público, clareza e alcancem eficácia real sem comprometer a capacidade operacional da instituição.
+Campanha de comunicação articula objetivo, público, mensagem, canais, recursos, cronograma e avaliação durante um período definido. **Planejamento de mídia** é a parte do planejamento que decide como distribuir a comunicação entre meios, veículos, formatos, períodos e investimentos para alcançar públicos e objetivos.
 
----
+> [!NOTE]
+> O encadeamento diagnóstico → objetivo → estratégia → tática → indicador está consolidado em [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]]. Esta nota concentra **briefing, ecossistema de mídia, veiculação e avaliação de campanha**.
 
-## Tipologia de Mídias (Modelo Owned, Paid e Earned)
+## 1. Briefing
 
-A classificação das mídias baseia-se na dimensão de **controle editorial** e na forma de distribuição que a organização possui sobre os canais:
+Briefing é o conjunto organizado de informações que orienta um trabalho de comunicação. Pode assumir diferentes níveis de profundidade conforme o contexto, mas costuma reunir elementos como:
 
-1. **Owned Media (Mídias próprias)**: Canais que pertencem diretamente ou são controlados de forma exclusiva pela organização.
-   - *Exemplos*: Portais oficiais (ex: Gov.br), intranets, blogs, aplicativos oficiais, newsletters e os perfis oficiais da instituição nas redes sociais (YouTube, Instagram).
-   - *Vantagens*: Controle total sobre o conteúdo, a linguagem, o tempo de permanência e a publicação.
-   - *Limitações*: O alcance orgânico inicial pode ser restrito e a distribuição final em redes sociais continua sujeita às regras algorítmicas de terceiros.
-2. **Paid Media (Mídias pagas)**: Canais onde existe investimento financeiro direto para garantir a veiculação, alcance e segmentação da mensagem.
-   - *Exemplos*: Anúncios em buscadores (Google Ads), posts patrocinados em redes sociais, banners em portais externos, publicidade programática e comerciais de TV.
-   - *Vantagens*: Rapidez de entrega, previsibilidade de alcance e alto poder de segmentação.
-   - *Limitações*: Distribuição condicionada à duração do orçamento; credibilidade comercialmente menor.
-3. **Earned Media (Mídias ganhas / espontâneas)**: Menções, reportagens ou compartilhamentos obtidos espontaneamente sem pagamento direto.
-   - *Exemplos*: Matérias publicadas na imprensa (fruto de assessoria de imprensa ou interesse jornalístico), compartilhamentos orgânicos de cidadãos, recomendações espontâneas e discussões em fóruns.
-   - *Vantagens*: Elevada credibilidade (chancela de terceiros) e potencial de replicação viral.
-   - *Limitações*: Baixo controle institucional sobre a narrativa. 
-   - > [!WARNING]
-   - > **Earned Media não significa apenas publicidade positiva**: Crises de imagem com enorme repercussão negativa também são classificadas conceitualmente como mídias ganhas.
+- contexto e problema;
+- objetivo;
+- público;
+- marca/organização e posicionamento;
+- mensagem ou direcionamento central;
+- restrições e obrigatoriedades;
+- canais e recursos disponíveis, quando já definidos;
+- prazo;
+- resultados esperados.
 
-### O Modelo PESO
-Uma ampliação moderna do modelo tradicional insere a categoria **Shared Media (Mídias compartilhadas)**:
-*   **P**aid (Paga)
-*   **E**arned (Ganha)
-*   **S**hared (Compartilhada - engajamento mútuo em redes sociais e comunidades digitais)
-*   **O**wned (Própria)
+A FGV já cobrou briefing como instrumento de compreensão inicial e também reconheceu usos mais sintéticos para atualizações ou pedidos internos quando os profissionais já dominam o contexto. Logo, **briefing não é sinônimo de pedido de peça**, embora um pedido interno possa assumir esse formato em determinadas rotinas. 
 
----
+### Objetivo × entrega × mandatório
 
-## Integração: Os 4 Ps (Praça) e a Circulação de Mídias
+- **Objetivo**: resultado ou mudança que se pretende produzir.
+- **Entrega/tática**: peça ou ação executada, como vídeo, anúncio, evento ou post.
+- **Mandatório**: condição obrigatória do projeto, como assinatura institucional, requisito legal ou elemento de identidade.
 
-Existe uma correlação direta entre as variáveis do mix de marketing e o ecossistema de mídias:
-*   A **Praça** (do Mix de Marketing) define **onde** a oferta ou o serviço digital é disponibilizado (ex: o portal institucional, o aplicativo).
-*   A classificação **Owned/Paid/Earned** descreve **como a comunicação circula** nesses canais.
+> [!WARNING]
+> `Produzir cinco vídeos` é entrega. `Aumentar a compreensão do público sobre determinado serviço` é objetivo. A banca pode trocar esses níveis.
+
+## 2. Planejamento de mídia
+
+A escolha dos meios depende de objetivo, público, cobertura geográfica, hábitos de consumo, natureza da mensagem, verba, frequência necessária e características técnicas de cada mídia.
+
+Não existe meio universalmente superior. Rádio, outdoor, televisão, mídia impressa, buscadores, redes sociais, e-mail e mídia exterior possuem combinações distintas de alcance, segmentação, repetição, permanência, riqueza audiovisual e possibilidade de resposta.
+
+A FGV já cobrou, por exemplo, a escolha entre rádio e outdoor considerando verba, público e características específicas de cada meio. Isso favorece questões de **adequação**, não simples memorização de “vantagens absolutas”. citeturn447331search3
+
+### Calendário editorial × plano de mídia
+
+**Calendário editorial** organiza cronologicamente temas, formatos, canais e datas de conteúdo. **Plano de mídia** organiza a estratégia de distribuição e veiculação entre meios, incluindo cobertura, frequência, período e investimento quando houver compra de mídia.
+
+A FGV NAV Brasil 2026 cobrou diretamente calendário editorial como ferramenta de gestão de conteúdo. citeturn447331search2
+
+## 3. Paid, Owned e Earned Media
+
+A classificação POE distingue três relações básicas com a circulação da mensagem:
+
+### Paid media
+
+A organização **paga pela veiculação ou amplificação**. Exemplos: anúncios, mídia programática, links patrocinados, posts impulsionados e conteúdo patrocinado.
+
+Pagamento aumenta controle sobre segmentação, formato contratado e condições de veiculação, mas **não garante resultado, atenção ou conversão**.
+
+### Owned media
+
+Canais e ativos editoriais sob gestão direta da organização, como site, blog, newsletter, aplicativo e publicações em perfis institucionais.
+
+> [!WARNING]
+> Em plataformas de terceiros, `owned` não significa controle absoluto da infraestrutura ou da distribuição algorítmica. A organização controla seu conteúdo e perfil dentro das regras da plataforma.
+
+### Earned media
+
+Exposição conquistada por decisão de terceiros, sem compra direta daquele espaço editorial, como cobertura jornalística, menções editoriais, avaliações ou recomendações espontâneas.
+
+Assessoria de imprensa pode aumentar a probabilidade de earned media, mas não compra nem controla a publicação. Ver [[3 - Materias/Comunicacao/08 - assessoria de imprensa|Assessoria de imprensa]].
+
+> [!IMPORTANT]
+> Earned não significa necessariamente **positivo**. Uma crise pode gerar enorme volume de mídia espontânea negativa.
+
+## 4. Modelo PESO, Gini Dietrich
+
+O **PESO Model**, popularizado por Gini Dietrich em *Spin Sucks* (2014), organiza a comunicação integrada em quatro categorias:
+
+- **P**aid: mídia paga;
+- **E**arned: mídia conquistada por cobertura/terceiros;
+- **S**hared: mídia compartilhada e interação social em redes/comunidades;
+- **O**wned: ativos e canais sob gestão da organização.
+
+A inclusão de **Shared** é justamente o ponto que diferencia o PESO de classificações de três categorias.
+
+> [!WARNING]
+> Um compartilhamento orgânico de usuário pode ser chamado genericamente de “mídia espontânea” em classificações mais simples, mas no **modelo PESO** a dimensão social e compartilhada possui categoria própria. Primeiro identifique qual modelo o enunciado adota.
+
+### O mesmo ambiente pode combinar categorias
+
+Um post publicado pelo perfil institucional está no ecossistema `owned/shared`; se for impulsionado, ganha componente `paid`; se gerar reportagem independente, produz `earned`.
+
+As categorias descrevem relações de distribuição e controle, não necessariamente quatro objetos físicos separados.
+
+## 5. Campanha institucional e capacidade de entrega
+
+A comunicação deve ser coerente com a capacidade real da organização. Aumentar demanda por um serviço sem preparar atendimento, infraestrutura ou orientação pode gerar frustração e dano reputacional.
+
+No setor público, campanhas também devem respeitar princípios jurídicos aplicáveis à publicidade oficial, como impessoalidade e caráter educativo, informativo ou de orientação social quando incidente o art. 37, §1º, da Constituição.
 
 > [!TIP]
-> **Heurística de Integração**: O portal da Dataprev atua como uma praça digital e, simultaneamente, como canal de mídia própria (Owned). Ao promover um post no Instagram direcionando para esse portal, incorpora-se mídia paga (Paid). O compartilhamento espontâneo do link do portal por usuários nas redes gera mídia ganha (Earned).
+> **Campanha não corrige sozinha problema operacional.** Se o gargalo é indisponibilidade do sistema, falta de pessoal ou regra burocrática, comunicação pode orientar e administrar expectativas, mas não elimina a causa estrutural.
 
----
+## 6. Pré-teste × pós-teste
 
-## Nuances Críticas para a FGV (Pegadinhas de Mídia)
+### Pré-teste
 
-*   **Quem controla a publicação define a mídia**: Se a organização publica uma nota em seu portal oficial, o canal é **Owned Media**. Se um jornal copia essa nota literalmente e publica uma reportagem em seu veículo, essa reprodução torna-se **Earned Media**. Embora o conteúdo tenha nascido no canal próprio, a decisão de publicar e o controle editorial final pertencem ao veículo jornalístico.
-*   **Hibridismo de Publicações**: Um mesmo post em um perfil oficial no Instagram é mídia própria (Owned) quanto ao canal e conteúdo, mas o seu alcance impulsionado financeiramente é classificado como mídia paga (Paid).
-*   **Assessoria de Imprensa**: A assessoria atua na fronteira da informação para aumentar a probabilidade de cobertura espontânea, mas **não controla** a decisão editorial dos veículos. Portanto, reportagens geradas por assessoria continuam sendo **Earned Media**.
+Realizado **antes da veiculação**, verifica como a peça ou mensagem é compreendida e percebida. Pode avaliar clareza, interpretação, adequação visual, lembrança imediata, reação e potenciais ambiguidades.
 
----
+### Pós-teste
 
-## Briefing de Campanha e Diagnóstico Estruturado
+Realizado **após a veiculação**, procura avaliar resultados da campanha em relação aos objetivos definidos, como lembrança, compreensão, atitude, comportamento, alcance ou conversão.
 
-O briefing é o documento de partida que organiza os insumos e restrições de um projeto de comunicação. Ele deve orientar-se pela **investigação do problema**, não pela simples encomenda de peças de forma reativa.
+> [!WARNING]
+> Pré-teste não comprova eficácia final da campanha; pós-teste não substitui a definição prévia de objetivo e linha de base quando a avaliação depende de comparação.
 
-### A Tripartição do Briefing (Objetivos vs. Entregas vs. Mandatórios)
+## 7. Métricas de mídia e resultado
 
-*   **Objetivo de Comunicação**: O resultado estratégico e a mudança de comportamento ou percepção esperados (ex: *“Elevar de 40% para 70% a taxa de usuários que compreendem os documentos exigidos antes de iniciar o preenchimento”*).
-*   **Entregas/Táticas (Ações)**: Os produtos físicos que serão produzidos (ex: *“Criar 3 vídeos curtos explicativos”, “Revisar microtexto da interface”*).
-    - > [!CAUTION]
-    - > **Entregas não são objetivos**: A mera produção de peças (ex: "fazer 5 posts") não garante a resolução do problema de comunicação.
-*   **Mandatórios**: Exigências obrigatórias que condicionam e limitam a execução (ex: inclusão da assinatura da Dataprev, logotipos governamentais, requisitos legais de privacidade, adequação às regras de acessibilidade e tom de voz).
+Cobertura, alcance, frequência, impressões, cliques, lembrança e conversão medem dimensões diferentes. O indicador adequado depende do objetivo.
 
-### Sintoma, Problema Organizacional e Problema de Comunicação
+- **Cobertura/alcance**: quantas pessoas/unidades foram alcançadas.
+- **Frequência**: intensidade média de exposição.
+- **Engajamento**: interações, conforme definição da plataforma.
+- **Conversão**: realização da ação desejada.
+- **Lembrança**: capacidade de reconhecer ou recordar campanha/mensagem.
 
-O profissional de comunicação deve desconfiar da dianteira declarada pelo cliente interno para isolar a verdadeira causa dos gargalos:
+Detalhes de métricas digitais e KPIs estão em [[3 - Materias/Comunicacao/06 - comunicacao digital|Comunicação digital]].
 
-*   **Sintoma**: Alta taxa de abandono na etapa final de um formulário digital.
-*   **Problema Organizacional**: O processo do serviço exige uma certidão complexa de obter.
-*   **Problema de Comunicação**: As instruções não informam previamente que essa certidão é necessária, gerando surpresa e interrupção.
+### ROI × ROAS
 
----
+Quando existe retorno monetizável, podem aparecer medidas financeiras:
 
-## Alinhamento com a Capacidade de Entrega
+- **ROI**: retorno em relação ao investimento total considerado no cálculo.
+- **ROAS**: retorno atribuído à publicidade em relação ao gasto com mídia/anúncios.
 
-A promessa transmitida pela campanha deve coincidir exatamente com a capacidade de atendimento da organização. 
-*   **Risco Reputacional**: Ampliar a divulgação e a mídia paga (Paid) para um serviço público digital instável ou indisponível gera frustração massiva, multiplicando reclamações e depreciando a confiança social e a imagem da instituição.
+Fórmulas comuns:
 
----
+```text
+ROI = (retorno - investimento) / investimento
+ROAS = receita ou retorno atribuído à publicidade / gasto publicitário
+```
 
-## Avaliação de Campanhas: Pré-teste e Pós-teste
+> [!IMPORTANT]
+> Em comunicação pública, muitos objetivos **não possuem retorno financeiro direto**. Não force ROI ou ROAS quando o resultado relevante é compreensão, acesso a direito, adesão, confiança ou comportamento público.
 
-*   **Pré-teste (Antes da veiculação)**: Avalia a recepção da peça junto a uma amostra do público-alvo antes do lançamento. O objetivo é mensurar a compreensão da mensagem, identificar ruídos de linguagem simples, adequação visual e possíveis ambiguidades.
-*   **Pós-teste (Após a veiculação)**: Ocorre após a campanha circular no mercado. Seu objetivo é avaliar a eficácia em relação às metas iniciais (lembrança da campanha, mudança de atitude, comportamento prático, alcance de KPIs e retorno sobre o investimento - ROI).
+## Como a FGV cobra
 
-### Avaliação Financeira: ROI e ROAS
+A banca tende a combinar conceitos de planejamento com situações práticas:
 
-*   **ROI (Return on Investment / Retorno sobre o Investimento)**: Mede o retorno obtido em relação ao **investimento total** realizado em um projeto ou campanha. Considera todos os custos relevantes (criação, produção, mídia, pesquisa, equipe, agência), permitindo avaliar a viabilidade global da iniciativa.
-    $$\text{ROI} = \frac{\text{Retorno} - \text{Investimento Total}}{\text{Investimento Total}} \times 100$$
-*   **ROAS (Return on Advertising Spend / Retorno sobre Gastos com Anúncios)**: Mede o retorno obtido especificamente em relação ao **gasto com publicidade ou mídia paga** (anúncios digitais, patrocinados, comerciais). Seu foco é a eficiência direta da compra de mídia, não do projeto como um todo. Geralmente não subtrai o investimento na fórmula e é expresso em fator multiplicador.
-    $$\text{ROAS} = \frac{\text{Retorno}}{\text{Investimento em Mídia Paga}}$$
+- confundir objetivo com entrega;
+- confundir briefing com press kit, clipping ou branding;
+- escolher meio sem considerar público/verba/características;
+- tratar calendário editorial como sinônimo de plano de mídia;
+- trocar Paid, Earned, Shared e Owned;
+- afirmar que mídia própria oferece controle absoluto sobre algoritmos de plataformas;
+- considerar earned media necessariamente positiva;
+- avaliar sucesso apenas por volume de exposição, ignorando o objetivo;
+- trocar pré-teste por pós-teste;
+- impor ROI financeiro a campanhas cujo objetivo é público/não monetário.
 
-> [!TIP]
-> **Heurística de Diferenciação**:
-> - O **ROI** responde se a campanha valeu a pena como investimento global (projeto completo).
-> - O **ROAS** responde se o dinheiro aplicado especificamente em mídia paga gerou retorno proporcional.
+Em 2025, a FGV cobrou briefing em situação de assessoria pública e também suas diferentes acepções em publicidade. Em 2026, voltou a calendário editorial e planejamento de campanhas. citeturn447331search1turn447331search11turn447331search2
+
+## Relações com outros temas
+
+- [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]]: diagnóstico, objetivo, estratégia, tática e indicadores.
+- [[3 - Materias/Comunicacao/06 - comunicacao digital|Comunicação digital]]: calendário, canais digitais, métricas e plataformas.
+- [[3 - Materias/Comunicacao/08 - assessoria de imprensa|Assessoria de imprensa]]: earned media, release e relacionamento com veículos.
+- [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional e branding]]: promoção, público, posicionamento e marca.
+- [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa em comunicação]]: pré/pós-teste e desenho de avaliação.
+
+## Tensões e pegadinhas
+
+- **Objetivo ≠ entrega**.
+- **Briefing ≠ pedido de peça apenas**.
+- **Calendário editorial ≠ plano de mídia**.
+- **Owned ≠ controle absoluto da plataforma**.
+- **Earned ≠ somente repercussão positiva**.
+- **PESO ≠ POE**.
+- **Shared ≠ Earned dentro do PESO**.
+- **Alcance ≠ eficácia**.
+- **Pré-teste ≠ pós-teste**.
+- **ROI ≠ ROAS**.
+
+## Exemplos comentados
+
+**Caso 1:** o perfil oficial publica um vídeo sem impulsionamento. A peça está em canal sob gestão da organização. Se cidadãos passam a compartilhá-la e debatê-la, surge a dimensão `shared`; se um jornal publica matéria independente sobre o vídeo, há `earned`.
+
+**Caso 2:** uma campanha teve grande alcance, mas o objetivo era aumentar adesão a um serviço e a taxa permaneceu estável. O dado de exposição não demonstra eficácia em relação ao objetivo.
+
+**Caso 3:** antes de lançar uma cartilha, a equipe testa com usuários se as instruções são compreendidas. É pré-teste. Medir lembrança e comportamento após a campanha é pós-teste.
+
+## Heurísticas
+
+- Briefing organiza o problema; peça é entrega.
+- Plano de mídia = onde, quando, quanto e com que intensidade distribuir.
+- PESO: Paid, Earned, Shared, Owned.
+- Assessoria busca earned; anúncio compra paid.
+- Owned não elimina dependência algorítmica em plataforma alheia.
+- Pré = antes de veicular; pós = depois de veicular.
+- Métrica só é boa se responde ao objetivo.
 
 ---
 **Fontes Brutas:**
 - [[00 inbox/00 Ingestao]]
+
+**Referências de modelos e evidência de banca:**
+- Dietrich, Gini, *Spin Sucks* (2014): PESO Model.
+- FGV, CNU 2025: briefing e planejamento de comunicação pública.
+- FGV, AgSUS 2025: diferentes acepções de briefing.
+- FGV, NAV Brasil 2026: calendário editorial.
+- FGV, TJ-MS 2024: adequação de meios no planejamento de mídia.

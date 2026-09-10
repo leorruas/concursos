@@ -19,7 +19,7 @@ A regra central é: **amplitude não é maturidade**. Uma nota longa pode exigir
 
 | Nota | Qualidade | Confiabilidade | Prioridade | Estado |
 |---|---|---|---|---|
-| [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]] | forte | boa_base | alta | Conteúdo forte; aguarda evidência da busca antes de qualquer divisão. |
+| [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]] | forte | boa_base | alta | Conteúdo forte; validar por questões e consultas reais. |
 | [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações]] | forte | verificar | alta | Metadados e relações corrigidos; ainda merece verificação formal de fontes. |
 | [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]] | forte_após_revisão | boa_base | média-alta | Revisada tecnicamente; validar por questões. |
 | [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]] | forte | boa_base | alta | Benchmark editorial; preservar. |
@@ -66,9 +66,11 @@ A revisão confirmou quatro regras de governança que passam a valer para os lot
 
 # Busca: estado atual
 
-A busca possui normalização de acentos e caixa, múltiplos termos e ranking ponderado por título, arquivo, H2/H3, matéria e corpo. O enriquecimento por edital usa `notaPath` e agora respeita `coberturaNota`: vínculos integrais pesam mais que vínculos parciais. `Avancos.md` deixou de aparecer na busca teórica comum e artigos `type: hub` recebem penalização de relevância, sem serem excluídos quando são de fato o melhor resultado disponível.
+A busca evoluiu de comparação literal para um índice contextual em memória. Atualmente combina normalização de acentos e pontuação, remoção de termos pouco informativos, aliases controlados, ranking por título/arquivo/cabeçalhos/matéria/corpo, proximidade textual e fuzzy matching limitado. O enriquecimento por edital usa `notaPath` e respeita `coberturaNota`: vínculos integrais pesam mais que vínculos parciais.
 
-Quando uma consulta é recuperada apenas por item de edital com cobertura parcial, o trecho do resultado informa `cobertura parcial`. Isso evita transformar uma correspondência de busca em alegação de domínio ou cobertura completa.
+`Avancos.md` é excluído da busca teórica comum e artigos `type: hub` recebem penalização de relevância, sem serem eliminados quando são o melhor resultado disponível. Quando uma consulta é recuperada por item de edital com cobertura parcial, o resultado pode sinalizar a cobertura parcial em vez de transformar a correspondência em alegação de domínio.
+
+Aliases e fuzzy search já estão ativos; portanto, deixaram de ser evolução futura. O próximo ganho técnico relevante é **performance**: gerar índice leve no build e evitar baixar o corpo de todos os Markdown na inicialização. `concept_id` continua adiado até a taxonomia conceitual amadurecer.
 
 Consultas de regressão acumuladas:
 
@@ -95,16 +97,17 @@ Consultas de regressão acumuladas:
 | `público interno crise` | Gestão de crises / Comunicação interna |
 | `P3.DA.06 processo administrativo` | Processo administrativo federal, marcado como cobertura parcial |
 | `P3.AG.04 gestão de projetos` | Não deve criar falso positivo por hub; item está ausente |
-
-Fuzzy search e `concept_id` continuam adiados. O próximo ganho técnico deve vir de teste real de consultas ou de performance, não de complexidade preventiva.
+| `reserva plenário` | Poder Judiciário e controle de constitucionalidade |
+| `dolo art 11 improbidade` | Improbidade administrativa |
+| `tema 940 agente estado` | Responsabilidade civil do Estado |
 
 # Lote 3: matérias reutilizáveis entre concursos — em andamento
 
-O Lote 3 testa de forma explícita a arquitetura multi-edital em Direito Constitucional, Direito Administrativo, Administração Pública, Administração Geral e Informática. A primeira descoberta estrutural foi que essas matérias estão em estados muito diferentes: Constitucional e Administrativo possuem conjuntos de notas consolidados e histórico de questões; Administração Geral e Pública ainda são majoritariamente hubs; Informática possui cobertura teórica muito pequena.
+O Lote 3 testa de forma explícita a arquitetura multi-edital em Direito Constitucional, Direito Administrativo, Administração Pública, Administração Geral e Informática. Constitucional e Administrativo possuem conjuntos de notas consolidados e histórico de questões; Administração Geral e Pública ainda são majoritariamente hubs; Informática possui cobertura teórica muito pequena.
 
 ## Mudança de arquitetura implementada
 
-`data/edital-itens.json` passou a separar três dimensões:
+`data/edital-itens.json` separa três dimensões:
 
 ```text
 notaPath → existe nota relacionada?
@@ -112,50 +115,57 @@ coberturaNota → integral | parcial | ausente
 exposicaoEstudo → o conteúdo já foi efetivamente trabalhado?
 ```
 
-Essa separação corrige o falso positivo anterior em que qualquer `notaPath` era contado como cobertura. A home agora exibe **cobertura integral** como percentual e detalha a quantidade de itens integrais, parciais e ausentes. Não há ponderação arbitrária de meia cobertura para itens parciais.
+Essa separação corrige o falso positivo anterior em que qualquer `notaPath` era contado como cobertura. A home exibe **cobertura integral** como percentual e detalha itens integrais, parciais e ausentes, sem atribuir um peso arbitrário de “meia cobertura” aos parciais.
 
-Os itens do TCDF foram ampliados para Constitucional, Administrativo, Licitações e Administração Geral/Pública. Hubs de Administração Geral/Pública permanecem úteis para navegação, mas seus vínculos estão classificados como `parcial` e `exposicaoEstudo: false`. `Gestão de projetos` está como `ausente`, pois o hub atual não desenvolve o tema.
+Os itens do TCDF foram ampliados para Constitucional, Administrativo, Licitações e Administração Geral/Pública. Hubs de Administração Geral/Pública permanecem úteis para navegação, mas seus vínculos são `parcial` e `exposicaoEstudo: false`. `Gestão de projetos` está como `ausente`, pois o hub atual não desenvolve o tema.
 
-## Piloto já revisado
+## Primeira frente jurídica concluída
 
-| Nota | Qualidade atual | Confiabilidade | Prioridade | Correção principal |
-|---|---|---|---|---|
-| [[3 - Materias/Direito Constitucional/04 - nacionalidade|Nacionalidade]] | forte_após_revisão | boa_base_legal | alta | Regime de perda atualizado à EC 131/2023; preservadas fronteiras nato/naturalizado e originária/derivada. |
-| [[3 - Materias/Direito Constitucional/05 - direitos politicos|Direitos políticos]] | forte_após_revisão | boa_base_legal | alta | Corrigidos analfabetos, inelegibilidades e momento de aferição de idade mínima. |
-| [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]] | forte_após_revisão | boa_base_constitucional | alta | Controle externo e competências do TCU refinados; retirada a falsa simplificação `TCU analisa / Congresso julga` como regra geral. |
-| [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios e LAI]] | forte_após_revisão | boa_base_legal | alta | LIMPE passou a ser efetivamente coberto; `publicidade formal/material` rebaixada a heurística; LGPD remetida à nota canônica de Comunicação. |
-| [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]] | forte_após_revisão | boa_base_legal | alta | Corrigida a ideia de que todo vício invalida sem possibilidade de convalidação; incluídos motivos determinantes, decadência e limites da revogação. |
-| [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos]] | forte_após_revisão | boa_base | média-alta | Classificação atribuída a Hely Lopes Meirelles; doutrina separada de regra constitucional; temporários e concurso refinados. |
-| [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]] | forte_após_revisão | boa_base_legal | alta | Sete fases da Lei 14.133, adjudicação fora do rol do art. 17, modalidades/critérios completos, inexigibilidade e contratos atualizados. |
-| [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo federal]] | forte_após_revisão | boa_base_legal | alta | Escopo federal explicitado; decisão coordenada, recursos, revisão sancionadora, impedimento/suspeição e prazos incorporados. |
+A primeira frente foi orientada por confiabilidade legal e histórico de erros, não pela ordem dos arquivos.
+
+| Nota | Estado atual | Correção principal |
+|---|---|---|
+| [[3 - Materias/Direito Constitucional/04 - nacionalidade|Nacionalidade]] | forte_após_revisão | Regime de perda atualizado à EC 131/2023; preservadas fronteiras nato/naturalizado e originária/derivada. |
+| [[3 - Materias/Direito Constitucional/05 - direitos politicos|Direitos políticos]] | forte_após_revisão | Corrigidos analfabetos, inelegibilidades e momento de aferição da idade mínima. |
+| [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]] | forte_após_revisão | Controle externo e competências do TCU refinados; retirada a simplificação `TCU analisa / Congresso julga` como regra geral. |
+| [[3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade|Judiciário e controle de constitucionalidade]] | forte_após_revisão | Formal × material, difuso × concentrado, ADI × ADC, reserva de plenário/SV 10, garantias do art. 95 e limites do CNJ. |
+| [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios e LAI]] | forte_após_revisão | LIMPE passou a ser efetivamente coberto; `publicidade formal/material` rebaixada a heurística; LGPD remetida à nota canônica de Comunicação. |
+| [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Organização administrativa]] | forte_após_revisão | Órgão × entidade, desconcentração × descentralização, criação × autorização e vinculação × hierarquia refinadas. |
+| [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]] | forte_após_revisão | Convalidação, motivos determinantes, decadência e limites da revogação incorporados. |
+| [[3 - Materias/Direito Administrativo/04 - poderes administrativos|Poderes administrativos]] | forte_após_revisão | Poder regulamentar/normativo incorporado; delegação × avocação e atributos do poder de polícia corrigidos; excesso × desvio delimitados. |
+| [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos]] | forte_após_revisão | Classificação atribuída a Hely Lopes Meirelles; doutrina separada de regra constitucional; temporários e concurso refinados. |
+| [[3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado|Responsabilidade civil do Estado]] | forte_após_revisão | Vítima × Estado × agente, risco administrativo e Temas 940, 130, 592 e 362 do STF incorporados; omissões sem regra absoluta. |
+| [[3 - Materias/Direito Administrativo/07 - improbidade administrativa|Improbidade administrativa]] | forte_após_revisão | LIA pós-2021: dolo, arts. 9/10/11, sanções diferentes e Tema 1199 do STF. |
+| [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]] | forte_após_revisão | Sete fases, adjudicação fora do rol do art. 17, modalidades/critérios completos, inexigibilidade e contratos atualizados. |
+| [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo federal]] | forte_após_revisão | Escopo federal explicitado; decisão coordenada, recursos, revisão sancionadora, impedimento/suspeição e prazos incorporados. |
 
 ## Evidência de desempenho
 
-O histórico de Direito Administrativo mostra desempenho alto em junho, frequentemente na faixa de 96% ou mais. Portanto, a revisão não deve reescrever toda a matéria: deve corrigir normas envelhecidas, falsos absolutos e modelos mentais que possam sobreviver apesar do alto acerto. Em Constitucional, Nacionalidade e Direitos Políticos receberam prioridade adicional porque já produziram erros de fronteira no histórico.
+O histórico de Direito Administrativo mostra desempenho alto em junho, frequentemente na faixa de 96% ou mais. Por isso, a estratégia correta foi corrigir normas envelhecidas, falsos absolutos e modelos mentais sobreviventes, e não reescrever toda a disciplina. Em Constitucional, Nacionalidade e Direitos Políticos tiveram prioridade adicional por já terem produzido erros de fronteira.
 
-## Cobertura do TCDF: lacunas reais já identificadas
+## Cobertura do TCDF: lacunas reais
 
-A nova semântica impede que hubs escondam lacunas. No estado atual, merecem criação ou expansão posterior:
+A nova semântica impede que hubs escondam lacunas. Permanecem:
 
 - **Organização do Estado** — `ausente`;
 - **Serviços públicos** — `ausente`;
-- **Controle da Administração Pública** — `ausente` como nota canônica própria, apesar de trechos relacionados em Constitucional e Administrativo;
+- **Controle da Administração Pública** — `ausente` como nota canônica própria, embora existam trechos relacionados em outras notas;
 - **Gestão de projetos** — `ausente`;
-- **Administração Geral/Pública** — planejamento, processos, pessoas, qualidade, governança e evolução da administração têm apenas cobertura `parcial` por hubs;
+- **Administração Geral/Pública** — planejamento, processos, pessoas, qualidade, governança e evolução da administração têm cobertura apenas `parcial` por hubs;
 - **Processo administrativo no TCDF** — `parcial`, porque a nota atual é especificamente federal, baseada na Lei 9.784/1999;
-- **Organização dos Poderes no TCDF** — `parcial`, porque o vínculo atual privilegia Poder Legislativo e controle externo.
+- **Organização dos Poderes no TCDF** — `parcial`; Poder Legislativo e controle externo melhoraram, mas o item é mais amplo.
 
-## Próxima fila do Lote 3
+## Próxima frente do Lote 3
 
-A próxima revisão deve continuar por confiabilidade e retorno, não por ordem numérica:
+Antes de criar notas novas, auditar os artigos constitucionais existentes ainda não revisados e confirmar se algum deles cobre parcialmente as lacunas acima. Depois, as novas notas devem ser criadas por retorno multi-edital, nesta ordem provisória:
 
-1. [[3 - Materias/Direito Administrativo/07 - improbidade administrativa|Improbidade administrativa]];
-2. [[3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado|Responsabilidade civil do Estado]];
-3. [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Organização administrativa]];
-4. [[3 - Materias/Direito Administrativo/04 - poderes administrativos|Poderes administrativos]];
-5. [[3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade|Judiciário e controle de constitucionalidade]].
+1. **Controle da Administração Pública** — alta reutilização e já possui material disperso em outras notas;
+2. **Serviços públicos** — recorrente em Direito Administrativo e conectado a responsabilidade civil, concessões e organização administrativa;
+3. **Organização do Estado** — necessária para o TCDF e concursos legislativos/controle;
+4. **Gestão de projetos** — ausente e parte do bloco de Administração Geral/Pública;
+5. decomposição gradual de **Administração Geral/Pública** em notas canônicas de planejamento, processos, pessoas, qualidade, governança e modelos de administração pública.
 
-Depois dessa verificação, priorizar a criação das notas ausentes que atendam a mais de um edital. Administração Geral e Pública devem ser decompostas em conceitos canônicos somente à medida que a incidência entre editais justificar; não transformar o hub em uma enciclopédia única.
+A criação de páginas novas deve respeitar a governança de `index.md` e `log.md`; portanto, não deve ocorrer em lote sem garantir atualização segura desses registros.
 
 # Lote 4: baixa cobertura ou aprendizagem predominantemente prática
 

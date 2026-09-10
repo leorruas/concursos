@@ -20,14 +20,29 @@ function extrairCabecalhosBusca(conteudo) {
     return cabecalhos.join(" ");
 }
 
+function obterItensEditalBusca(artigo) {
+    if (!artigo || !artigo.sourcePath || !Array.isArray(dadosEditalEstrategico)) return [];
+
+    return dadosEditalEstrategico.filter(item => item && item.notaPath === artigo.sourcePath);
+}
+
+function obterTextoEditalBusca(artigo) {
+    return obterItensEditalBusca(artigo)
+        .map(item => [item.codigo, item.disciplina, item.descricao, item.concursoId]
+            .filter(Boolean)
+            .join(" "))
+        .join(" ");
+}
+
 function pontuarArtigoBusca(artigo, consultaNormalizada, termos) {
     const tituloReal = normalizarBusca(artigo.tituloExibicao || artigo.titulo);
     const tituloArquivo = normalizarBusca(artigo.titulo);
     const cabecalhos = normalizarBusca(extrairCabecalhosBusca(artigo.conteudo));
     const categoria = normalizarBusca(limparNomeCategoria(artigo.categoria));
+    const edital = normalizarBusca(obterTextoEditalBusca(artigo));
     const corpo = normalizarBusca(removerFrontmatter(artigo.conteudo));
 
-    const campos = [tituloReal, tituloArquivo, cabecalhos, categoria, corpo];
+    const campos = [tituloReal, tituloArquivo, cabecalhos, categoria, edital, corpo];
     const todosOsTermosPresentes = termos.every(termo => campos.some(campo => campo.includes(termo)));
     if (!todosOsTermosPresentes) return 0;
 
@@ -39,6 +54,7 @@ function pontuarArtigoBusca(artigo, consultaNormalizada, termos) {
 
     if (tituloArquivo.includes(consultaNormalizada)) score += 70;
     if (cabecalhos.includes(consultaNormalizada)) score += 45;
+    if (edital.includes(consultaNormalizada)) score += 40;
     if (categoria.includes(consultaNormalizada)) score += 25;
     if (corpo.includes(consultaNormalizada)) score += 15;
 
@@ -46,12 +62,14 @@ function pontuarArtigoBusca(artigo, consultaNormalizada, termos) {
         if (tituloReal.includes(termo)) score += 45;
         if (tituloArquivo.includes(termo)) score += 30;
         if (cabecalhos.includes(termo)) score += 20;
+        if (edital.includes(termo)) score += 18;
         if (categoria.includes(termo)) score += 10;
         if (corpo.includes(termo)) score += 5;
     });
 
     if (termos.every(termo => tituloReal.includes(termo))) score += 35;
     if (termos.every(termo => cabecalhos.includes(termo))) score += 20;
+    if (termos.every(termo => edital.includes(termo))) score += 18;
 
     return score;
 }
@@ -139,7 +157,7 @@ function exibirResultados(artigos, termo = "") {
                 <span class="resultado-numero">${String(idx + 1).padStart(2, "0")}</span>
                 <span class="resultado-conteudo">
                     <strong>${destacarTexto(artigo.tituloExibicao || artigo.titulo, termo)}</strong>
-                    <span class="resultado-trecho">${destacarTexto(extrairTrechoRelevante(artigo.conteudo, termo), termo)}</span>
+                    <span class="resultado-trecho">${destacarTexto(extrairTrechoRelevante(artigo, termo), termo)}</span>
                 </span>
             `;
 
@@ -187,7 +205,8 @@ function removerFrontmatter(markdown) {
     return markdown.replace(/^---[\s\S]*?---\s*/, "");
 }
 
-function extrairTrechoRelevante(conteudo, termo) {
+function extrairTrechoRelevante(artigo, termo) {
+    const conteudo = artigo?.conteudo || "";
     const semFm = removerFrontmatter(conteudo).replace(/[#*`_~\[\]]/g, " ");
     const textoNormalizado = normalizarBusca(semFm);
     const consultaNormalizada = normalizarBusca(termo);
@@ -206,7 +225,19 @@ function extrairTrechoRelevante(conteudo, termo) {
         }
     }
 
-    if (pos === -1) return semFm.substring(0, 140) + (semFm.length > 140 ? "..." : "");
+    if (pos === -1) {
+        const itensEdital = obterItensEditalBusca(artigo);
+        const itemCorrespondente = itensEdital.find(item => {
+            const textoItem = normalizarBusca([item.codigo, item.disciplina, item.descricao].filter(Boolean).join(" "));
+            return termos.every(parte => textoItem.includes(parte));
+        });
+
+        if (itemCorrespondente) {
+            return `edital ${itemCorrespondente.codigo || ""} · ${itemCorrespondente.descricao || itemCorrespondente.disciplina}`.trim();
+        }
+
+        return semFm.substring(0, 140) + (semFm.length > 140 ? "..." : "");
+    }
 
     const inicio = Math.max(0, pos - 40);
     const fim = Math.min(semFm.length, pos + comprimento + 80);

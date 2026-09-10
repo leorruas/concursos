@@ -3,51 +3,156 @@ title: "Comunicação pública"
 type: "conceito"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-07-16
+updated: 2026-09-10
 ---
 # Comunicação pública
 
-Comunicação pública é aquela que possui como finalidade central atender ao **interesse público**, promovendo a transparência, o acesso à informação, a participação social e a prestação de contas (accountability). Seu foco principal está no cidadão e na garantia de seus direitos.
+Na formulação de **Jorge Duarte**, comunicação pública ocorre no espaço dos fluxos de informação e interação entre agentes públicos e atores sociais em temas de interesse público. Seu eixo normativo é a perspectiva cidadã: direito ao diálogo, à informação, à expressão e à participação em questões de relevância coletiva.
 
-Ela não é definida unicamente pela natureza jurídica do emissor (governo ou órgão público), mas sim pelo **objetivo final da mensagem** e pela centralidade do cidadão. Assim, organizações privadas (como ONGs, hospitais filantrópicos ou empresas privadas) podem realizar comunicação pública quando produzem mensagens voltadas ao interesse coletivo.
+> [!IMPORTANT]
+> Comunicação pública **não é definida apenas pelo emissor estatal**. O campo inclui Estado, governos, partidos, terceiro setor, empresas, imprensa e cidadãos quando a interação diz respeito a temas de interesse coletivo. A presença de interesse público ou recursos públicos cria exigências próprias de comunicação pública.
 
-## O Núcleo Conceitual (Segundo Jorge Duarte)
+## 1. Comunicação pública × governamental × política
 
-Conforme a literatura clássica de Jorge Duarte, a **comunicação não se reduz à informação/divulgação**. A simples emissão e circulação de mensagens de utilidade pública constitui apenas uma etapa inicial. Para que ocorra comunicação pública efetiva, a informação deve ser compreendida, apropriada pelo cidadão e transformada em **capacitação para a reflexão e ação**.
+### Comunicação governamental
 
-### O Funil da Comunicação Pública (Apropriação)
+Para Duarte, diz respeito aos fluxos de informação e aos padrões de relacionamento envolvendo gestores, ação do Estado e sociedade. Governo e Estado não são sinônimos: o governo é gestor transitório do aparato estatal.
 
-```
-[Encontrar] ➔ [Compreender] ➔ [Apropriar] ➔ [Agir / Decidir]
-```
+### Comunicação política
 
-O sucesso da comunicação pública não se mede apenas pela ação física correspondente (ex: solicitar um benefício), mas pela geração de **capacidade de decisão informada** (ex: o cidadão compreende que não se enquadra nos critérios e escolhe conscientemente não solicitar). Isso impede que a comunicação pública seja confundida com a persuasão ou propaganda institucional.
+Relaciona-se ao discurso e à ação de governos, partidos e agentes na disputa da opinião pública em temas vinculados ao poder político, eleitorais ou não.
 
-## Os Quatro Eixos da Comunicação Pública
+### Comunicação pública
 
-De acordo com Jorge Duarte, as práticas de comunicação pública estruturam-se sobre quatro eixos fundamentais:
-
-1. **Transparência**: Disponibilização ativa e passiva das informações governamentais e de interesse social.
-2. **Acesso**: Facilidade em encontrar, compreender e usufruir da informação e de serviços públicos.
-3. **Interação**: Canais bidirecionais de debate e diálogo entre o Estado e a sociedade.
-4. **Ouvidoria Social**: Mecanismos de escuta qualificada que permitam à sociedade influenciar as políticas públicas.
-
-## Distinção essencial: Pública vs. Governamental vs. Institucional
-
-- **Comunicação governamental**: Refere-se ao emissor. É a comunicação promovida por um governo ou administração específica. Pode carregar o viés de divulgação de realizações da gestão (ex: *"Governo entrega 500 novas ambulâncias"*).
-- **Comunicação institucional**: Focada na reputação, legitimidade e preservação da imagem corporativa da instituição perante o público (ex: *"Somos líderes em inovação"*).
-- **Comunicação pública**: Centrada na utilidade pública e no cidadão como sujeito de direitos, aumentando sua capacidade de ação (ex: *"Saiba como solicitar atendimento pelo SUS"*).
+É mais ampla e está centrada na interação e nos fluxos de informação sobre temas de interesse coletivo. Seu desafio é colocar a perspectiva da sociedade e do cidadão acima da conveniência imediata de governos, empresas, atores políticos ou instituições.
 
 > [!TIP]
-> **Heurística do Beneficiário**: Para identificar a modalidade em provas da FGV, pergunte: *"Quem é o principal beneficiário dessa comunicação?"*
-> - Se for a imagem da própria instituição $\rightarrow$ **Institucional/Mercadológica**.
-> - Se for o cidadão no exercício de um direito ou na tomada de decisão $\rightarrow$ **Pública**.
+> **Pergunta de prova:** o que define o enquadramento é apenas “quem fala” ou também **para quê, sobre que tema e com que relação com o cidadão**?
 
-## Inteligência Artificial na Comunicação Pública
+A FGV NAV Brasil 2026 explorou exatamente essa fronteira, considerando incorreta a equivalência entre comunicação pública e governamental e valorizando cidadão, interesse coletivo, diálogo e participação.
 
-O uso e a divulgação de ferramentas de IA na comunicação pública devem sempre privilegiar o impacto aos cidadãos e manter a responsabilidade pública e a governança nas mãos da instituição. Para aprofundamento das tensões éticas e de como a FGV aborda este tema, consulte [[wiki/inteligencia artificial#Inteligência Artificial na Comunicação Pública|Inteligência artificial]].
+## 2. Informação não é sinônimo de comunicação
+
+Duarte critica a redução da comunicação pública à mera divulgação. A simples existência de informação não garante comunicação eficiente: ela pode não chegar, ser incompreensível, inadequada ao momento ou incapaz de apoiar participação e ação.
+
+A comunicação é entendida como processo de troca, interação e influência mútua. O cidadão não é apenas receptor; pode ser emissor, produtor de informação e agente ativo.
+
+### Heurística de apropriação
+
+O texto de Duarte permite resumir didaticamente o processo assim:
+
+```text
+Encontrar informação → Compreender → Apropriar-se → Refletir / decidir / agir
+```
+
+> [!NOTE]
+> Essa sequência é uma **heurística derivada do texto**, não um “Funil da Comunicação Pública” formalmente nomeado por Duarte. No eixo `acesso`, o autor afirma que a informação deve ser obtida, interpretada e apropriada de modo a se transformar em capacidade de reflexão e ação.
+
+## 3. Os quatro eixos de Jorge Duarte
+
+Duarte propõe explicitamente quatro eixos centrais como pré-requisitos para a atuação em comunicação de interesse público.
+
+### Transparência
+
+Compromisso com atuação responsável em questões públicas, oferta de informações, estímulo ao acesso, facilitação da fiscalização e prestação de contas, associado a valores éticos na ação pública.
+
+### Acesso
+
+A sociedade precisa ter facilidade para obter informação, ser estimulada a buscá-la, opinar, fiscalizar e influir na gestão do que é público. O acesso não é apenas disponibilidade física: envolve informação adaptada às necessidades dos diferentes públicos, linguagem, layout, formatos, mídias, fluxos, horários e processos adequados.
+
+### Interação
+
+Criação e fortalecimento de instrumentos que permitam fluxos **bi ou multilaterais**, com oportunidade de falar e ser ouvido. Está associada a diálogo, compreensão, cooperação, participação e crítica.
+
+### Ouvidoria social
+
+Interesse em conhecer e compreender a opinião pública e seus diferentes segmentos para considerar motivações, interesses, propostas e critérios de satisfação como referência na ação. Pesquisas e mecanismos de escuta são centrais nesse eixo.
+
+> [!WARNING]
+> **Ouvidoria social ≠ simplesmente possuir uma Ouvidoria administrativa.** Em Duarte, é um eixo mais amplo de escuta e compreensão dos públicos.
+
+A FGV MPU 2025 cobrou diretamente esses quatro eixos e descreveu corretamente `ouvidoria social` como interesse em conhecer e compreender a opinião pública e seus segmentos.
+
+## 4. Sete categorias de informação em comunicação pública
+
+Para efeito didático, Duarte agrupa as informações no âmbito da comunicação pública em sete categorias:
+
+| Categoria | Núcleo |
+|---|---|
+| **Institucionais** | Papel, responsabilidades, estrutura, serviços, direitos e deveres. |
+| **De gestão** | Processo decisório, metas, prioridades, intenções e execução das ações públicas. |
+| **De utilidade pública** | Serviços e orientações para o cotidiano do cidadão. |
+| **De prestação de contas** | Explicação sobre decisões e uso de recursos públicos, permitindo avaliação e fiscalização. |
+| **De interesse privado** | Informações que dizem respeito especificamente a cidadão, empresa ou instituição. |
+| **Mercadológicas** | Produtos e serviços inseridos em contexto de concorrência de mercado. |
+| **Dados públicos** | Normas, estatísticas, decisões, documentos históricos e outras informações relativas ao funcionamento da sociedade e do Estado. |
+
+> [!TIP]
+> A banca pode construir uma alternativa verdadeira em conteúdo, mas atribuí-la à categoria errada. **Utilidade pública** orienta serviço/cotidiano; **prestação de contas** explica decisões e recursos; **gestão** acompanha processo decisório, metas e prioridades.
+
+## 5. Instrumentos e política de comunicação
+
+Duarte não reduz comunicação pública a canais. Entre instrumentos básicos estão **pesquisas, políticas, planos, diretrizes, programas, manuais, normas, canais institucionais, operações e produtos**. A escolha deve vir depois de mapear públicos, avaliar relações, definir objetivos e estratégias.
+
+> [!WARNING]
+> Mais canais ou mais tecnologia não significam, por si sós, mais comunicação pública. Esse é justamente um dos alvos da crítica do autor à lógica de “bombardeio de informação”.
+
+Na formulação de Duarte, política de comunicação é um conjunto integrado e relativamente duradouro de definições, parâmetros, princípios e normas para orientar processos comunicacionais. A inexistência de política formal não significa ausência de política: práticas recorrentes podem revelar uma política implícita.
+
+## Como a FGV cobra
+
+Há evidência recente e direta:
+
+- **MPU 2025**: quatro eixos de Jorge Duarte e conceito de ouvidoria social.
+- **AL-AM 2025**: “espírito público” e primazia do interesse coletivo sobre conveniências particulares.
+- **NAV Brasil 2026**: comunicação pública × governamental, com cidadão, diálogo e interesse coletivo no centro.
+- **ALERJ 2026**: texto de Jorge Duarte sobre falha de comunicação pública no caso INSS usado para cobrar gênero jornalístico.
+
+Os melhores distratores deslocam partes verdadeiras entre os quatro eixos ou transformam comunicação pública em sinônimo de comunicação estatal, publicidade institucional ou simples divulgação.
+
+## Relações com outros temas
+
+- [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI, LGPD e transparência]]: transparência ativa, prestação de contas e limites no tratamento de dados.
+- [[3 - Materias/Comunicacao/10 - linguagem simples|Linguagem simples e acessibilidade digital]]: o eixo acesso exige informação compreensível e utilizável.
+- [[3 - Materias/Comunicacao/15 - publicos e stakeholders|Públicos e stakeholders]]: heterogeneidade dos atores e mapeamento de públicos.
+- [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa em comunicação]]: pesquisas como instrumento de escuta e ouvidoria social.
+- [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]]: comunicação institucional e comunicação integrada.
+
+## Tensões e pegadinhas
+
+- **Público ≠ governamental**.
+- **Estado ≠ governo**.
+- **Informação ≠ comunicação**.
+- **Divulgação ≠ participação**.
+- **Acesso ≠ mera disponibilidade técnica**.
+- **Interação ≠ fluxo descendente**.
+- **Ouvidoria social ≠ unidade administrativa de Ouvidoria apenas**.
+- **Interesse público ≠ conveniência do emissor**.
+
+## Exemplos comentados
+
+**Caso 1:** um ministério publica uma planilha completa, mas incompreensível e impossível de localizar. Há oferta formal de informação, porém o eixo `acesso` continua problemático na perspectiva comunicacional de Duarte.
+
+**Caso 2:** uma empresa estatal explica como solicitar um serviço e cria canais para receber críticas e sugestões. A natureza estatal do emissor não basta para classificar a ação; orientação ao cidadão e interação em tema de interesse coletivo aproximam a prática da comunicação pública.
+
+**Caso 3:** relatório explica por que determinado orçamento foi executado de certa forma e permite fiscalização. Predomina informação de **prestação de contas**, não apenas utilidade pública.
+
+## Heurísticas
+
+- Comunicação pública = perspectiva cidadã + tema de interesse coletivo + informação/interação.
+- Duarte: transparência, acesso, interação, ouvidoria social.
+- Acesso transforma informação disponível em informação encontrável, compreensível e apropriável.
+- Interação é bi/multilateral.
+- Ouvidoria social = compreender públicos e incorporar escuta como referência.
+- Governo é gestor transitório; Estado é estrutura mais ampla.
+- Mais divulgação não significa necessariamente mais comunicação.
 
 ---
-**Fontes Brutas:**
-- [[00 ingestão]]
-- [[3 - Materias/Comunicacao/referencias/Comunicacao publica - Jorge Duarte]]
+**Fonte bruta prioritária:**
+- [[3 - Materias/Comunicacao/referencias/Comunicacao publica - Jorge Duarte|Comunicação Pública — Jorge Duarte]]
+
+**Evidência de banca usada na revisão:**
+- FGV, MPU, Analista — Comunicação Social, 2025.
+- FGV, AL-AM, Analista Legislativo — Jornalista, 2025.
+- FGV, NAV Brasil, Analista de Comunicação e Marketing, 2026.
+- FGV, ALERJ, Especialista Legislativo — Comunicação Social, 2026.

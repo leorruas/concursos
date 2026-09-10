@@ -3,12 +3,16 @@ title: "Catálogo de simulados"
 type: "hub"
 status: "ativo"
 created: 2026-08-31
-updated: 2026-09-01
+updated: 2026-09-10
 ---
 
 # Catálogo de simulados
 
 Central de rastreamento, diagnóstico e catalogação de erros em simulados e baterias mistas.
+
+## Gerar novos simulados
+
+Para gerar uma nova prova com ChatGPT, Gemini ou outra LLM com acesso ao vault, use o [[00 - Desempenho/Simulados/Prompt - gerar simulados por prova-espelho|Prompt para gerar simulados por prova-espelho]]. Ele orienta o modelo a consultar o edital vigente, as provas-espelho, a estratégia da banca e as notas das matérias antes de produzir as questões.
 
 ---
 

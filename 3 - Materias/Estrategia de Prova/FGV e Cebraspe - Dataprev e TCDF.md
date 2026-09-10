@@ -8,9 +8,9 @@ updated: 2026-09-10
 
 # FGV e Cebraspe: Dataprev e TCDF
 
-Período das fontes analisadas: 2023 a 2026. Última validação documental: 10/09/2026.
+Período das fontes analisadas: 2021 a 2026. Última validação documental: 10/09/2026.
 
-Esta nota descreve as bancas a partir das provas mais próximas dos dois objetivos atuais: **Dataprev 2024, Comunicação Social, para a FGV** e **TCDF 2023, ANACE, para o Cebraspe**. A intenção é evitar generalizações do tipo “a FGV gosta de interpretação” ou “o Cebraspe cobra pegadinhas”. Banca é uma variável importante, mas o edital, o órgão, o cargo e a prova anterior do próprio concurso têm mais valor preditivo que uma caricatura da organizadora.
+Esta nota descreve as bancas a partir das provas mais próximas dos dois objetivos atuais: **Dataprev 2024, Comunicação Social, para a FGV** e **TCDF 2023, ANACE, para o Cebraspe**. O corpus secundário inclui **MPU 2025, Comunicação Social**, e **TCDF 2021, Auditor de Controle Externo**. A intenção é evitar generalizações do tipo “a FGV gosta de interpretação” ou “o Cebraspe cobra pegadinhas”. Banca é uma variável importante, mas o edital, o órgão, o cargo e a prova anterior do próprio concurso têm mais valor preditivo que uma caricatura da organizadora.
 
 ## FGV no recorte da Dataprev
 
@@ -58,9 +58,19 @@ Percentual bruto de acertos é uma métrica fraca para uma prova com correção 
 
 No modelo +1 por acerto, -1 por erro e 0 em branco, a expectativa matemática de uma marcação é positiva quando a probabilidade real de acerto supera 50%. Esse limiar não resolve sozinho a estratégia de prova: candidatos costumam ser mal calibrados ao estimar a própria confiança, e a variância importa quando existem notas mínimas por bloco. Por isso, simulados do TCDF devem registrar também **confiança alta, média ou baixa** em cada resposta, pelo menos em amostras de treino.
 
+Esse cálculo deve sempre seguir o edital da prova efetivamente resolvida. O TCDF 2021, por exemplo, reescalava o valor positivo e negativo dos itens válidos quando havia anulações. A lógica de risco permanecia simétrica, mas a fórmula literal não era simplesmente +1 e -1 em todos os cenários. Uma prova histórica, portanto, não recebe automaticamente a fórmula do edital de 2026.
+
 ### A discursiva muda a preparação
 
 O concurso de 2023 exigiu uma questão de até 20 linhas e uma peça de natureza técnica, com referência ao Manual de Redação Oficial do TCDF. Isso aproxima a preparação da escrita funcional, não de uma redação genérica de vestibular. O treino deve separar domínio do conteúdo, seleção de pontos pedidos no comando, estrutura do gênero técnico e correção linguística.
+
+## Refinamento a partir do corpus secundário
+
+O **MPU 2025, Comunicação Social**, é útil porque testa a hipótese FGV fora da Dataprev. Das 80 questões objetivas, 40 eram de conhecimentos específicos. Nesse bloco aparecem explicitamente autores e estruturas: Marshall McLuhan e meios quentes/frios, Lucia Santaella e cultura das mídias, Kovach e Rosenstiel e verificação jornalística, além de Canavilhas e a pirâmide deitada. Também aparecem questões de fontes jornalísticas, formatos de rádio, fact-checking e avaliação de assessoria de imprensa. A recorrência fortalece uma conclusão prática: quando o edital comporta autor ou taxonomia, estudar só a definição central é arriscado. A estrutura interna e as fronteiras entre categorias têm valor de prova.
+
+O **TCDF 2021, Auditor de Controle Externo**, testa a hipótese Cebraspe dentro do mesmo tribunal, ainda que em outro cargo. O próprio caderno explicita que cada item está vinculado ao comando imediatamente anterior e que situações hipotéticas devem ser tomadas como premissas para julgar a assertiva. Nos conhecimentos básicos e específicos aparecem blocos de interpretação textual, legislação, controle externo, competências do TCDF e auditoria. Isso reforça a necessidade de ler o item como uma proposição condicionada pelo comando, e não como uma frase isolada reconhecida por familiaridade.
+
+Essas duas provas secundárias não alteram a hierarquia do corpus. Dataprev 2024 e TCDF 2023 continuam sendo as referências principais. MPU 2025 e TCDF 2021 servem para perguntar: **o mecanismo observado na prova-espelho reaparece em outro contexto?** Quando reaparece, aumenta a confiança na estratégia; quando diverge, o edital atual decide.
 
 ## FGV e Cebraspe lado a lado
 
@@ -73,18 +83,19 @@ O concurso de 2023 exigiu uma questão de até 20 linhas e uma peça de natureza
 | Risco de leitura | Comando negativo e comparação insuficiente entre alternativas | Familiaridade com parte da frase e excesso de confiança |
 | Treino prioritário | Fronteiras conceituais + repertório + seleção entre alternativas | Auditoria de proposições + calibração de confiança + decisão de marcar |
 | Prova histórica principal | Dataprev 2024, Comunicação Social | TCDF 2023, ANACE |
+| Corpus secundário | MPU 2025, Comunicação Social | TCDF 2021, Auditor de Controle Externo |
 
 ## Heurísticas de maior valor
 
 Para a FGV, comparar alternativas antes de decidir. Procurar o elemento que diferencia as duas ou três opções plausíveis. Em autores e classificações, revisar limites entre categorias. Em comandos negativos, confirmar o que está sendo pedido antes de avaliar o conteúdo.
 
-Para o Cebraspe, avaliar cada afirmação como se fosse uma pequena tese. Identificar o alcance da regra e procurar a parte mais frágil da proposição. Registrar confiança no treino ajuda a detectar um problema que o gabarito simples esconde: errar por desconhecimento é diferente de perder ponto por marcar com confiança baixa.
+Para o Cebraspe, avaliar cada afirmação como se fosse uma pequena tese. Identificar o comando, o alcance da regra e a parte mais frágil da proposição. Em situação hipotética, separar os fatos dados da conclusão a ser julgada. Registrar confiança no treino ajuda a detectar um problema que o gabarito simples esconde: errar por desconhecimento é diferente de perder ponto por marcar com confiança baixa.
 
 ## Limites desta análise
 
 Esses padrões são inferências baseadas nas provas historicamente mais próximas dos dois editais atuais. A FGV e o Cebraspe organizam concursos com formatos diferentes conforme o contratante. Portanto, novos exames devem entrar no corpus apenas quando acrescentarem evidência útil. Uma prova genérica da banca, de área muito distante, tem valor menor que uma prova anterior do mesmo órgão ou cargo.
 
-A próxima ampliação razoável do corpus é pequena: selecionar algumas provas recentes de Comunicação Social da FGV e algumas provas recentes do Cebraspe em administração/controle, comparar mecanismos de cobrança e registrar apenas o que se repetir. Isso evita transformar coincidências de uma única prova em “regra da banca”.
+Com quatro provas no corpus, já existe material suficiente para orientar a geração de questões sem ampliar indefinidamente a amostra. Novas provas devem ser incorporadas apenas quando houver uma lacuna concreta: um assunto do edital sem exemplos adequados de cobrança ou uma hipótese de estilo que ainda dependa de uma única prova.
 
 ## Fontes principais
 
@@ -93,6 +104,8 @@ A próxima ampliação razoável do corpus é pequena: selecionar algumas provas
 - [Prova oficial Dataprev 2024, Comunicação Social, Tipo 1](https://conhecimento.fgv.br/sites/default/files/concursos/ati-comunicacao-socialcns009-tipo-1.pdf)
 - [Gabarito definitivo Dataprev 2024](https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf)
 - [Concurso Dataprev 2026](https://conhecimento.fgv.br/concursos/dataprev26)
+- [Concurso MPU 2025](https://conhecimento.fgv.br/concursos/mpu2025)
+- [Prova MPU 2025, Comunicação Social, Tipo 1](https://conhecimento.fgv.br/sites/default/files/concursos/a05-analista-do-mpu-comunicacao-sociala05-tipo-1.pdf)
 
 **TCDF / Cebraspe:**
 - [Edital de abertura TCDF 2023](https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/ED_1_2023_TCDF_ABERTURA.PDF)
@@ -101,6 +114,8 @@ A próxima ampliação razoável do corpus é pequena: selecionar algumas provas
 - [Gabarito definitivo P3, Cargo 1](https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/GAB_DEFINITIVO_895_TCDF_001_01.PDF)
 - [Padrão preliminar da discursiva, Cargo 1](https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/TC_DF_23_PADRO_PRELIMINAR_DE_RESPOSTAS_PROVA_DISCURSIVA_P4_CARGO_1.PDF)
 - [Página do TCDF 2026 no Cebraspe](https://www.cebraspe.org.br/concursos/TC_DF_26_ANALISTA)
+- [Edital TCDF Auditor de Controle Externo](https://cdn.cebraspe.org.br/concursos/tc_df_20_ace/arquivos/ED_1_TCDF_ACE_20_ABT.PDF)
+- [Caderno objetivo TCDF aplicado em 2021](https://cdn.cebraspe.org.br/concursos/TC_DF_20_ACE/arquivos/MATRIZ_OBJETIVA.PDF)
 
 **Fontes secundárias para indexação e leitura do caderno histórico:**
 - [QConcursos: Dataprev 2024, Comunicação Social](https://www.qconcursos.com/questoes-de-concursos/provas/fgv-2024-dataprev-ati-comunicacao-social)
@@ -110,4 +125,6 @@ A próxima ampliação razoável do corpus é pequena: selecionar algumas provas
 
 - [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]]
 - [[00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social|Dataprev 2024: Comunicação Social]]
+- [[00 - Desempenho/Provas/MPU 2025 - Comunicacao Social|MPU 2025: Comunicação Social]]
 - [[00 - Desempenho/Provas/TCDF 2023 - ANACE|TCDF 2023: ANACE]]
+- [[00 - Desempenho/Provas/TCDF 2021 - Auditor de Controle Externo|TCDF 2021: Auditor de Controle Externo]]

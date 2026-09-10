@@ -40,36 +40,25 @@
     </header>
 
     <main>
-        <!-- Camada Estratégica do Concurso Ativo (Visível exclusivamente na Home) -->
         <section class="concurso-home-bloco escondido" id="painel-concurso-home" aria-labelledby="concurso-home-titulo">
             <h2 id="concurso-home-titulo" class="sr-only">Painel do Concurso</h2>
             <div id="concurso-home-conteudo"></div>
         </section>
 
-        <!-- Seção de Simulados & Desempenho (Acima das Matérias) -->
         <section class="orientacoes-iniciais" id="orientacoes-iniciais" aria-labelledby="orientacoes-iniciais-titulo">
             <h2 id="orientacoes-iniciais-titulo" class="sr-only">Simulados e Desempenho</h2>
-            <div class="pastas-container pastas-orientacao" id="orientacoes-container">
-                <!-- Cards de Simulados e Dashboards gerados dinamicamente -->
-            </div>
+            <div class="pastas-container pastas-orientacao" id="orientacoes-container"></div>
         </section>
 
-        <!-- Grade Suíça de Matérias -->
         <section class="explorar-disciplinas" id="explorar-disciplinas" aria-labelledby="disciplinas-titulo">
             <h2 id="disciplinas-titulo">matérias...</h2>
-            <div class="pastas-container" id="pastas-container">
-                <!-- Os cards suíços das matérias serão gerados aqui dinamicamente -->
-            </div>
+            <div class="pastas-container" id="pastas-container"></div>
         </section>
 
-        <!-- Resultados da Busca -->
         <div class="resultados escondido" id="resultados">
-            <div class="cards-container">
-                <!-- Resultados da busca agrupados -->
-            </div>
+            <div class="cards-container"></div>
         </div>
 
-        <!-- Visualizador da Disciplina (Ações / Lista de Artigos) -->
         <section class="disciplina-leitor escondido" id="disciplina-leitor" aria-live="polite">
             <nav class="artigo-breadcrumbs" id="disciplina-breadcrumbs" aria-label="Caminho de navegação"></nav>
             <div class="disciplina-cabecalho" id="disciplina-cabecalho"></div>
@@ -77,10 +66,8 @@
             <button id="btn-voltar-disciplina" class="btn-voltar">&larr; voltar para as matérias</button>
         </section>
 
-        <!-- Leitor de Artigo Individual -->
         <div class="leitor-artigo escondido" id="leitor-artigo">
             <div class="artigo-layout-container">
-                <!-- Table of Contents (TOC) no Lado Esquerdo -->
                 <aside class="artigo-toc-sidebar" id="artigo-toc-sidebar">
                     <div class="toc-header">
                         <span class="toc-title">Neste artigo</span>
@@ -113,6 +100,7 @@
     <script src="web/04-markdown.js"></script>
     <script src="web/05-mermaid.js"></script>
     <script src="web/06-search.js"></script>
+    <script src="web/06a-search-index.js"></script>
     <script src="web/08-provas.js"></script>
     <script src="web/07-router-init.js"></script>
 </body>

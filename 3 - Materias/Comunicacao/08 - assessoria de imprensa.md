@@ -3,71 +3,200 @@ title: "Assessoria de imprensa"
 type: "conceito"
 status: "ativo"
 created: 2026-07-10
-updated: 2026-07-20
+updated: 2026-09-10
 ---
 # Assessoria de imprensa
 
-A assessoria de imprensa é a atividade de comunicação responsável por gerenciar o fluxo de informações entre uma organização e os meios de comunicação de massa (jornalistas e veículos). Ela visa construir uma relação profissional mútua e contínua baseada em **credibilidade, agilidade e interesse público**, em vez de apenas obter publicações pontuais ou tentar convencer jornalistas a veicular propaganda institucional.
+Assessoria de imprensa é a atividade de relacionamento profissional entre uma organização e jornalistas/veículos, orientada à circulação de informações de interesse jornalístico e à qualificação da organização como fonte. Na formulação citada por Jorge Duarte a partir de Manuel Carlos Chaparro, pode ser entendida como prática jornalística no nível da fonte, buscando assegurar qualidade da informação segundo critérios técnicos e de relevância social.
 
-## Distinções Importantes (FGV)
+> [!NOTE]
+> No Brasil, a história da assessoria de imprensa possui trajetória profissional específica. Jorge Duarte mostra que a atividade, originalmente ligada ao campo das Relações Públicas, foi fortemente ocupada por jornalistas e se profissionalizou especialmente a partir da redemocratização e da ampliação das políticas de comunicação organizacional.
 
-### Assessoria de Imprensa vs. Comunicação Institucional
-- **Assessoria de Imprensa**: Foca prioritariamente na relação com jornalistas e veículos de comunicação.
-- **Comunicação Institucional**: É mais ampla, gerenciando as relações com todos os stakeholders da organização (servidores, parceiros, cidadãos, fornecedores, etc.).
+## 1. Assessoria de imprensa × comunicação institucional × publicidade
 
-### Assessoria de Imprensa vs. Publicidade
-- **Publicidade**: Envolve a compra de espaço de divulgação sob controle total da instituição (mensagem, layout, veículo, dia).
-- **Assessoria de Imprensa**: Busca obter espaço editorial (não pago) por meio de sugestões de pauta, sujeitando-se inteiramente à autonomia e ao julgamento de relevância do veículo de imprensa.
+### Assessoria de imprensa
 
-## Relação e Fluxo de Trabalho
+Tem foco específico no relacionamento com **jornalistas, redações e veículos**. Atua para facilitar acesso a fontes, oferecer informações, organizar atendimento, preparar porta-vozes e acompanhar a presença da organização na mídia.
 
-A assessoria atua como um facilitador e intermediário qualificado do trabalho jornalístico, comunicando-se com quem se comunica com a sociedade:
+### Comunicação institucional
+
+É mais ampla. Abrange identidade, imagem, reputação e relações da organização com diferentes públicos, dos quais a imprensa é apenas um.
+
+### Publicidade
+
+Compra espaço ou tempo de veiculação e permite à organização controlar a peça contratada dentro das regras do veículo/plataforma. Assessoria de imprensa busca **espaço editorial**, cuja publicação, abordagem e edição permanecem sob responsabilidade do veículo.
+
+> [!WARNING]
+> **Release enviado ≠ notícia publicada.** A assessoria oferece informação e pauta; a redação pode ignorar, apurar, reescrever, complementar ou mudar o enfoque.
+
+## 2. Relação organização → assessoria → imprensa → sociedade
+
+A assessoria funciona como interface especializada entre a organização e a imprensa:
 
 ```text
-Organização → Assessoria de Imprensa → Jornalista → Sociedade
+Organização / fontes ↔ Assessoria de imprensa ↔ Jornalistas / veículos ↔ sociedade
 ```
 
-Nesta dinâmica, o jornalista atua com total **autonomia editorial** para decidir o que, como e quando publicar, não havendo qualquer subordinação ou garantia de veiculação das sugestões da assessoria.
+A seta é bidirecional porque a assessoria não apenas envia material: recebe demandas, identifica interesses jornalísticos, organiza acesso a fontes e devolve à organização sinais vindos da mídia e do debate público.
 
-## Conceitos e Ferramentas Essenciais
+A autonomia editorial do jornalista é central. Isso não significa ausência de negociação prática de prazo, formato, disponibilidade ou correção factual, mas a organização **não possui direito de controlar previamente a redação jornalística nem garantia de publicação**.
 
-- **Release (ou Press Release)**: Texto de caráter informativo produzido pela assessoria para apresentar um fato com potencial de interesse jornalístico. Deve seguir uma rigorosa **hierarquia informativa**, colocando o fato de maior interesse público logo no primeiro parágrafo (lead) para captar a atenção do jornalista; postergar a informação principal (ex: para o quarto parágrafo) constitui uma grave deficiência estrutural.
-- **Press kit**: Conjunto de materiais de apoio enviados à imprensa para complementar o release (fotos, vídeos, infográficos, dados estatísticos, contatos de porta-vozes e documentos de apoio).
-- **Clipping**: Monitoramento sistemático do que é publicado sobre a organização nos veículos de comunicação. Para fins estratégicos, deve ser um **clipping analítico** (avaliar tom, temas recorrentes, fontes e riscos reputacionais) para apoiar decisões da gestão; relatórios que apenas reúnem links de matérias de forma documental oferecem apenas monitoramento básico ineficaz.
-- **Media training**: Treinamento de porta-vozes da organização para responder à imprensa com clareza, segurança e consistência.
-  - **Bridging**: Técnica de media training que consiste em responder ao questionamento feito e construir uma transição suave para uma mensagem-chave relevante da organização (estrutura: *responder ➔ contextualizar ➔ conduzir à mensagem-chave*). Não deve ser usada para fugir da pergunta ou omitir fatos legítimos (evasão), sob pena de corroer a credibilidade.
-  - **Entrevistas ao Vivo e Sound Bites**: Exigem formulações breves, concisas e verificáveis (*sound bites*) resistentes a recortes. Diante de cenários em apuração, o porta-voz deve refletir o estado real do conhecimento (ex: "Até o momento, não identificamos..."), evitando certezas precoces não sustentadas e recusando reproduzir premissas falsas embutidas nas perguntas dos jornalistas.
-- **Coletivas de Imprensa**: Modalidade de atendimento indicada quando há fato de interesse público simultâneo para múltiplos veículos de imprensa e vantagem em prestar esclarecimentos públicos e coletivos. Exige planejamento logístico, definição prévia de porta-vozes e material de apoio.
-  - **Credenciamento**: Deve seguir critérios objetivos, transparentes e universais (compatíveis com capacidade, segurança e finalidade do evento), sendo vedado seu uso como filtro discriminatório para excluir veículos críticos.
-  - **Press kit na coletiva**: Atua exclusivamente como material de apoio estruturado, não substituindo o diálogo nem as respostas dos porta-vozes em mesa.
-- **Off the record (ou "em Off")**: Acordo ético de confidencialidade estabelecido entre jornalista e fonte, no qual a informação compartilhada pode ser usada como contexto ou pista de apuração, mas **não pode ser atribuída à fonte**. Não é uma regra jurídica universal, mas um compromisso de confiança mútua.
+## 3. Instrumentos de assessoria
 
-## Atendimento à Imprensa e Gestão de Crise
+### Release / press release
 
-Diante de questionamentos difíceis ou acusações, a postura da assessoria de imprensa impacta diretamente a reputação institucional:
-- **Transparência, Precisão e Agilidade**: A assessoria deve responder com base em fatos confirmados. A rapidez não deve atropelar a precisão, pois respostas precipitadas sem verificação podem agravar a crise.
-- **Respostas de Transição**: Caso os dados ainda não estejam consolidados, a resposta correta e legítima é informar que a apuração interna está em andamento, e não adotar o silêncio.
-- **"Sem comentários"**: Deve ser evitado terminantemente, pois projeta falta de transparência e amplia as suspeitas públicas sobre o fato investigado.
+Texto produzido pela assessoria para apresentar informação com potencial jornalístico. Pode fornecer dados, contexto, fontes e caminhos de apuração.
+
+Um bom release costuma adotar lógica jornalística de hierarquia da informação, destacando o fato relevante cedo no texto. Isso não significa que exista uma regra universal de que todo release deva possuir formato idêntico ou que o jornalista publique seu conteúdo sem nova apuração.
+
+> [!TIP]
+> **Release é insumo de pauta, não publicidade disfarçada nem matéria pronta de publicação obrigatória.**
+
+### Sugestão de pauta
+
+Pode ser mais sintética que um release e procura mostrar por que determinado tema, personagem, dado ou evento merece cobertura. Seu valor depende da **noticiabilidade para o veículo e seu público**, não apenas da importância interna do acontecimento para a organização.
+
+### Nota oficial
+
+Posicionamento institucional divulgado diretamente ou enviado à imprensa para registrar fatos, esclarecimentos ou manifestação da organização. É voz institucional, não texto jornalístico independente.
+
+### Press kit
+
+Conjunto de materiais de apoio, como release, dados, imagens, biografias, contatos, documentos e outros recursos que facilitem a apuração. Não substitui a possibilidade de perguntas, acesso a fontes ou apuração do jornalista.
+
+### Coletiva de imprensa
+
+Atendimento simultâneo a vários veículos quando existe interesse compartilhado em ouvir a organização ou uma fonte. Exige definição de objetivo, porta-voz, logística, informações disponíveis e preparação para perguntas que podem ultrapassar o roteiro pretendido pela instituição.
+
+> [!WARNING]
+> Convocar coletiva não dá ao porta-voz controle sobre as perguntas. A FGV já explorou como erro a expectativa de que jornalistas se limitem ao assunto previsto na convocação.
+
+## 4. Media training e porta-vozes
+
+**Media training** é a capacitação de pessoas que atuam ou podem atuar como fontes e porta-vozes para compreender a lógica da imprensa e melhorar desempenho em entrevistas.
+
+A FGV cobra reiteradamente que o treinamento não serve para ensinar evasão, manipulação ou controle da reportagem. Entre competências úteis estão:
+
+- domínio do tema;
+- clareza e objetividade;
+- compreensão da linguagem e do público do veículo;
+- capacidade de responder sob pressão;
+- reconhecimento de limites do próprio conhecimento;
+- compreensão do funcionamento jornalístico;
+- preparação para formatos diferentes, como rádio, TV, texto e ambientes digitais.
+
+Na PGM-RJ 2025, a FGV associou media training à qualificação do fluxo informacional, melhor gerenciamento de crises e projeção midiática, rejeitando `nada a declarar`, tentativa de derrubar pauta e exigência de leitura prévia da matéria. Em 2026, a ALE-RO voltou a cobrar linguagem simples, direta e domínio do tema. 
+
+### Mensagem-chave e bridging
+
+**Mensagem-chave** é uma formulação prioritária que a organização quer comunicar com clareza. **Bridging** é uma técnica de transição da resposta para um ponto relevante da mensagem.
+
+> [!IMPORTANT]
+> Bridging não torna legítimo deixar de responder ao que foi perguntado. A técnica funciona melhor quando há resposta factual seguida de contextualização e conexão com a mensagem-chave. Usá-la como fuga pode comprometer credibilidade.
+
+### Sound bite
+
+Trecho curto, claro e compreensível que pode ser aproveitado em rádio, TV ou conteúdo digital. Concisão ajuda, mas não deve sacrificar precisão ou transformar a fala em slogan vazio.
+
+## 5. Off the record e acordos com fontes
+
+Expressões como **off the record**, background e embargo dependem de convenções profissionais e do acordo estabelecido entre fonte e jornalista. Não devem ser tratadas como uma lei universal com significado idêntico em todas as redações.
+
+Para prova, a ideia segura é: condições de confidencialidade ou uso da informação precisam ser **combinadas antes** de a informação ser fornecida; não se presume que uma declaração se torne confidencial unilateralmente depois de dita.
+
+> [!WARNING]
+> `Off` não significa licença para fornecer informação falsa nem torna o jornalista subordinado à fonte.
+
+## 6. Clipping, análise tópica e auditoria de imagem
+
+**Clipping** é a coleta e organização do que foi publicado ou veiculado sobre determinado tema, organização ou ação. Pode abranger mídia impressa, eletrônica, digital e outros canais relevantes.
+
+O clipping, isoladamente, é **matéria-prima**. Para gerar conhecimento estratégico, precisa ser analisado e contextualizado.
+
+### Bueno: duas formas de análise
+
+Na questão da própria **Dataprev 2024**, a FGV usou Wilson da Costa Bueno para distinguir:
+
+- **análise tópica de esforço de divulgação**: perspectiva pontual, vinculada a uma ação específica de assessoria;
+- **auditoria de imagem na mídia**: análise de um período mais amplo de cobertura, podendo comparar presença, temas, fontes, veículos e concorrentes para compreender a imagem midiática da organização.
+
+> [!TIP]
+> Clipping = **coleta**. Análise = **interpretação**. Auditoria de imagem = leitura estruturada e mais abrangente da exposição midiática.
+
+A FGV MPU 2025 reforçou que clipping pode ser realizado por empresa especializada e abrange diferentes mídias; ele não caiu em desuso nem é substituído integralmente por métricas de plataformas digitais.
+
+## 7. Atendimento à imprensa e crise
+
+Em situações sensíveis, rapidez e precisão precisam ser equilibradas. A assessoria deve evitar tanto especular quanto criar vazio informacional desnecessário.
+
+Quando a informação ainda está em apuração, uma resposta possível é reconhecer o que já se sabe, informar que a apuração continua e indicar como novas informações serão comunicadas. Isso é diferente de inventar certeza ou negar fatos sem evidência.
+
+### “Nada a declarar”
+
+`Nada a declarar` é frequentemente uma resposta ruim porque pode aumentar percepção de evasão e perder oportunidade de oferecer informação factual. A FGV já o tratou como conduta inadequada em media training. Ainda assim, não deve ser convertido em uma proibição universal: podem existir restrições legais, sigilo, investigação em curso ou ausência legítima de informação divulgável.
+
+> [!WARNING]
+> **Boa prática ≠ obrigação absoluta.** O porta-voz pode explicar por que determinada informação não pode ser divulgada em vez de fabricar uma resposta.
+
+## Como a FGV cobra
+
+Os mecanismos mais recorrentes são:
+
+- tratar release como matéria pronta ou publicidade;
+- presumir garantia de publicação porque o material foi enviado pela assessoria;
+- confundir clipping com análise/auditoria de imagem;
+- reduzir media training a gestual, aparência ou frases de efeito;
+- usar `nada a declarar` como resposta-padrão correta;
+- exigir leitura prévia/aprovação da matéria jornalística;
+- sugerir que o porta-voz pode fugir de perguntas fora do roteiro da coletiva;
+- trocar domínio do tema e linguagem simples por jargão ou rebuscamento;
+- confundir assessoria de imprensa com toda a comunicação institucional.
+
+## Relações com outros temas
+
+- [[3 - Materias/Comunicacao/04 - criterios de noticiabilidade|Critérios de noticiabilidade]]: o que torna uma pauta relevante para a imprensa.
+- [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling|Lead, pirâmide invertida e storytelling]]: estrutura jornalística de releases e materiais informativos.
+- [[3 - Materias/Comunicacao/07 - gestao de crises|Gestão de crises]]: porta-vozes, resposta pública e coordenação informacional.
+- [[3 - Materias/Comunicacao/14 - entrevista jornalistica|Entrevista jornalística]]: relação entre fonte, repórter, perguntas e apuração.
+- [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]]: assessoria como uma função dentro de um sistema comunicacional mais amplo.
+
+## Tensões e pegadinhas
+
+- **Assessoria ≠ publicidade**.
+- **Release ≠ notícia publicada**.
+- **Fonte oficial ≠ verdade automaticamente comprovada**.
+- **Clipping ≠ auditoria de imagem**.
+- **Media training ≠ treinamento para evasão**.
+- **Mensagem-chave ≠ controle da reportagem**.
+- **Coletiva ≠ roteiro de perguntas controlado pela organização**.
+- **Rapidez ≠ especulação**.
+- **Autonomia editorial ≠ ausência de relacionamento profissional**.
+
+## Exemplos comentados
+
+**Caso 1:** a assessoria envia release sobre novo serviço. O jornal decide não publicar porque o tema perdeu relevância diante de outro acontecimento. Isso não prova, por si só, falha do release ou da assessoria.
+
+**Caso 2:** a organização reúne todas as matérias de seis meses e compara temas, tom, fontes citadas e presença de concorrentes. Não está apenas fazendo clipping; está transformando a coleta em análise/auditoria de imagem.
+
+**Caso 3:** em entrevista, o porta-voz é questionado sobre dado ainda não confirmado. A resposta tecnicamente mais segura é distinguir o que já foi apurado do que permanece em investigação, sem inventar certeza nem usar evasão automática.
+
+## Heurísticas
+
+- Assessoria = relação com imprensa e qualificação da organização como fonte.
+- Release = insumo; publicação continua sendo decisão editorial do veículo.
+- Clipping coleta; análise interpreta.
+- Media training prepara **fontes/porta-vozes**, não jornalistas da redação.
+- Porta-voz: domínio do tema + clareza + capacidade de interação.
+- Em crise, responder o que se sabe e demarcar o que ainda está em apuração.
 
 ---
+**Fonte bruta prioritária:**
+- [[3 - Materias/Comunicacao/referencias/Assessoria de imprensa - Jorge Duarte|Assessoria de imprensa — Jorge Duarte]]
 
-## Como a banca cobra (FGV)
-
-A FGV frequentemente explora a tensão entre a intenção da assessoria de divulgar e a autonomia editorial dos jornalistas. Pontos críticos cobrados pela banca:
-
-1. **Finalidade do Release**: O release não é propaganda e não substitui a reportagem. Sua finalidade é subsidiar o jornalista com dados relevantes de interesse público.
-2. **Não publicação do Release**: Se um release não for publicado, isso não significa necessariamente falha da assessoria ou erro de redação. Pode indicar que o assunto carecia de valor jornalístico ou relevância social frente ao fluxo de notícias daquele momento.
-3. **Foco do Release**: Releases devem ser redigidos sob a ótica do **interesse do leitor/sociedade**, e não do que a organização quer autopromover.
-4. **Clipping e Inteligência**: A banca cobra a diferença entre clipping puramente documental/básico e a geração de inteligência para o planejamento estratégico através da análise de tom e temas.
-5. **Autonomia editorial**: O veículo de imprensa tem total liberdade para reescrever, complementar com outras fontes ou descartar o release enviado pela assessoria.
-
-## Heurísticas de prova
-
-- A assessoria de imprensa trabalha fundamentalmente para construir **credibilidade e confiança de longo prazo** junto aos jornalistas (atuando como fonte confiável), e não para forçar publicações imediatas.
-- O clipping estratégico foca na **análise qualitativa** da presença na mídia, servindo como termômetro de reputação institucional.
-- A resposta em crises deve ser fundamentada na tríade: **Agilidade, Transparência e Precisão**.
-
----
-**Fontes Brutas:**
-- [[00 ingestão]]
-- [[00 inbox/00 ingestão]]
+**Referências/evidências de banca:**
+- Duarte, Jorge Antonio Menna, *Assessoria de imprensa: o caso brasileiro*.
+- Bueno, Wilson da Costa, conceitos de clipping, análise tópica e auditoria de imagem usados pela FGV na Dataprev 2024.
+- FGV, Dataprev, ATI — Comunicação Social, 2024: clipping e auditoria de imagem.
+- FGV, MPU, Analista — Comunicação Social, 2025: clipping.
+- FGV, PGM-RJ, Analista — Comunicação, 2025: media training.
+- FGV, ALE-RO, Jornalismo/Comunicação Social, 2026: media training e linguagem para diferentes mídias.

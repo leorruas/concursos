@@ -352,8 +352,8 @@
     "disciplina": "Administração Geral e Pública",
     "descricao": "Evolução da administração pública: patrimonialista, burocrática e gerencial",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "notaPath": "3 - Materias/Administracao Publica/administracao-publica.md",
-    "coberturaNota": "parcial",
+    "notaPath": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+    "coberturaNota": "integral",
     "exposicaoEstudo": false,
     "dominioMensuravel": false
   },
@@ -364,8 +364,8 @@
     "disciplina": "Administração Geral e Pública",
     "descricao": "Planejamento estratégico",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "notaPath": "3 - Materias/Administracao Geral/administracao-geral.md",
-    "coberturaNota": "parcial",
+    "notaPath": "3 - Materias/Administracao Geral/02 - planejamento estrategico.md",
+    "coberturaNota": "integral",
     "exposicaoEstudo": false,
     "dominioMensuravel": false
   },
@@ -376,8 +376,8 @@
     "disciplina": "Administração Geral e Pública",
     "descricao": "Gestão de processos",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "notaPath": "3 - Materias/Administracao Geral/administracao-geral.md",
-    "coberturaNota": "parcial",
+    "notaPath": "3 - Materias/Administracao Geral/03 - gestao de processos.md",
+    "coberturaNota": "integral",
     "exposicaoEstudo": false,
     "dominioMensuravel": false
   },
@@ -388,8 +388,8 @@
     "disciplina": "Administração Geral e Pública",
     "descricao": "Gestão de projetos",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "notaPath": null,
-    "coberturaNota": "ausente",
+    "notaPath": "3 - Materias/Administracao Geral/01 - gestao de projetos.md",
+    "coberturaNota": "integral",
     "exposicaoEstudo": false,
     "dominioMensuravel": false
   },
@@ -400,8 +400,8 @@
     "disciplina": "Administração Geral e Pública",
     "descricao": "Gestão de pessoas",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "notaPath": "3 - Materias/Administracao Geral/administracao-geral.md",
-    "coberturaNota": "parcial",
+    "notaPath": "3 - Materias/Administracao Geral/04 - gestao de pessoas.md",
+    "coberturaNota": "integral",
     "exposicaoEstudo": false,
     "dominioMensuravel": false
   },
@@ -412,8 +412,8 @@
     "disciplina": "Administração Geral e Pública",
     "descricao": "Gestão da qualidade",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "notaPath": "3 - Materias/Administracao Geral/administracao-geral.md",
-    "coberturaNota": "parcial",
+    "notaPath": "3 - Materias/Administracao Geral/05 - gestao da qualidade.md",
+    "coberturaNota": "integral",
     "exposicaoEstudo": false,
     "dominioMensuravel": false
   },
@@ -424,8 +424,8 @@
     "disciplina": "Administração Geral e Pública",
     "descricao": "Governança pública",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "notaPath": "3 - Materias/Administracao Publica/administracao-publica.md",
-    "coberturaNota": "parcial",
+    "notaPath": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+    "coberturaNota": "integral",
     "exposicaoEstudo": false,
     "dominioMensuravel": false
   }

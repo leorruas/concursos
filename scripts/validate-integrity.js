@@ -84,11 +84,40 @@ for (const err of erros) {
   check(`Erro [${err.id}] possui classificação clínica válida [${err.tipoErro}]`, TIPOS_VALIDOS_ERRO.has(err.tipoErro));
 }
 
-console.log('\n=== AUDITORIA 4: INTEGRIDADE SEMÂNTICA E ZERO MOCKS ===');
+console.log('\n=== AUDITORIA 4: PROVAS, RESULTADOS E COMPARABILIDADE ===');
+const provasPath = path.join(rootDir, 'data/provas.json');
+check('data/provas.json existe', fs.existsSync(provasPath));
+const provas = fs.existsSync(provasPath) ? JSON.parse(fs.readFileSync(provasPath, 'utf8')) : [];
+const provaIds = new Set();
+
+for (const prova of provas) {
+  check(`Prova [${prova.id}] possui ID único`, !provaIds.has(prova.id));
+  provaIds.add(prova.id);
+  check(`Prova [${prova.id}] aponta para concurso existente [${prova.concursoId}]`, concursoIds.has(prova.concursoId));
+  check(`Prova [${prova.id}] declara comparabilidade com o edital`, !!(prova.comparabilidadeEdital && prova.comparabilidadeEdital.status));
+
+  if (prova.sourcePath) {
+    check(`Prova [${prova.id}] possui fonte interna rastreável`, fs.existsSync(path.join(rootDir, prova.sourcePath)));
+  }
+
+  if (prova.resultado) {
+    const total = Number(prova.resultado.totalQuestoes ?? prova.resultado.totalItensObjetivos);
+    const acertos = Number(prova.resultado.acertos);
+    if (Number.isFinite(total) && Number.isFinite(acertos)) {
+      check(`Prova [${prova.id}] possui acertos <= total`, acertos <= total);
+    }
+
+    if (prova.concursoId === 'dataprev-2026' && prova.comparabilidadeEdital?.notaEditalAtualCalculavel !== true) {
+      check(`Prova [${prova.id}] não publica nota ponderada /115 sem composição oficial validada`, !Number.isFinite(Number(prova.resultado.notaPonderada)));
+    }
+  }
+}
+
+console.log('\n=== AUDITORIA 5: INTEGRIDADE SEMÂNTICA E ZERO MOCKS ===');
 check('Sem arquivos sintéticos de questões em data/', !fs.existsSync(path.join(rootDir, 'data/questoes.json')));
 check('Sem arquivos sintéticos de revisões SRS em data/', !fs.existsSync(path.join(rootDir, 'data/revisoes.json')));
 
-console.log('\n=== AUDITORIA 5: FRONTMATTER E DATAS DAS NOTAS TEÓRICAS ===');
+console.log('\n=== AUDITORIA 6: FRONTMATTER E DATAS DAS NOTAS TEÓRICAS ===');
 function varrerNotasTeoricas(dir) {
   const notas = [];
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -146,7 +175,7 @@ for (const notaPath of todasNotasMaterias) {
 check('Notas teóricas principais possuem frontmatter', notasSemFrontmatter === 0);
 check('Datas de criação e atualização em formato YYYY-MM-DD', datasInvalidas === 0);
 
-console.log('\n=== AUDITORIA 6: INTEGRIDADE DE SIMULADOS E PROPORÇÃO OFICIAL ===');
+console.log('\n=== AUDITORIA 7: INTEGRIDADE DE SIMULADOS E PROPORÇÃO OFICIAL ===');
 const simuladosDir = path.join(rootDir, '00 - Desempenho/Simulados');
 if (fs.existsSync(simuladosDir)) {
   const simFiles = fs.readdirSync(simuladosDir).filter(f => f.startsWith('Simulado-') && f.endsWith('.md'));
@@ -169,9 +198,9 @@ if (fs.existsSync(simuladosDir)) {
   }
 }
 
-// 7. Auditoria de Segurança do Artefato Isolado (_site)
+// 8. Auditoria de Segurança do Artefato Isolado (_site)
 if (process.argv.includes('--audit-site')) {
-  console.log('\n=== AUDITORIA 7: SEGURANÇA DO ARTEFATO DE PUBLICAÇÃO (_site) ===');
+  console.log('\n=== AUDITORIA 8: SEGURANÇA DO ARTEFATO DE PUBLICAÇÃO (_site) ===');
   const siteDir = path.join(rootDir, '_site');
   check('_site/ existe e foi gerado', fs.existsSync(siteDir));
 
@@ -230,7 +259,8 @@ if (process.argv.includes('--audit-site')) {
     const JSONS_PUBLICOS_AUTORIZADOS = new Set([
       'concursos.json',
       'edital-itens.json',
-      'erros-recorrentes.json'
+      'erros-recorrentes.json',
+      'provas.json'
     ]);
     const arquivosEmSiteData = fs.readdirSync(siteDataDir);
     const arquivosNaoAutorizados = arquivosEmSiteData.filter(f => !JSONS_PUBLICOS_AUTORIZADOS.has(f));

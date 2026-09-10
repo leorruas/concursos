@@ -186,7 +186,8 @@ if (fs.existsSync(webSrcDir)) {
 const JSONS_PUBLICOS_AUTORIZADOS = [
   'concursos.json',
   'edital-itens.json',
-  'erros-recorrentes.json'
+  'erros-recorrentes.json',
+  'provas.json'
 ];
 
 const dataDest = path.join(outDir, 'data');

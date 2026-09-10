@@ -30,12 +30,15 @@ carregarTodosOsArtigos = async function carregarTodosOsArtigosLeve() {
     });
 
     todosOsArtigos = lista.map((item) => {
-        const registroBusca = indicePorPath.get(item.sourcePath);
+        const registroBusca = indicePorPath.get(item.sourcePath) || null;
         return {
             titulo: item.titulo,
             tituloExibicao: item.tituloExibicao || formatarNomeArtigo(item.titulo),
-            conteudo: registroBusca ? registroBusca.conteudo : "",
+            // Compatibilidade com o índice v1. No índice estruturado v2, o corpo
+            // deixa de ser duplicado aqui e a busca lê artigo.indiceBusca.
+            conteudo: registroBusca && registroBusca.conteudo ? registroBusca.conteudo : "",
             conteudoCompleto: false,
+            indiceBusca: registroBusca,
             sourcePath: item.sourcePath,
             path: item.path,
             categoria: item.categoria

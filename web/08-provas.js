@@ -30,7 +30,8 @@ function provasRotuloComparabilidade(status) {
         alta: "comparabilidade alta",
         media: "comparabilidade média",
         baixa: "comparabilidade baixa",
-        nao_comparavel_para_nota_ponderada: "não comparável para nota ponderada"
+        nao_comparavel_para_nota_ponderada: "não comparável para nota ponderada",
+        nao_comparavel_para_nota_liquida: "não comparável para nota líquida"
     };
     return rotulos[status] || "comparabilidade não classificada";
 }
@@ -74,7 +75,7 @@ function provasCalcularNotaDataprev(prova) {
 
 function provasCalcularNotaLiquidaTCDF(prova, concurso) {
     const resultado = prova?.resultado;
-    if (!resultado) return null;
+    if (!resultado || prova?.comparabilidadeEdital?.notaEditalAtualCalculavel !== true) return null;
 
     if (Number.isFinite(Number(resultado.notaLiquida))) {
         return {
@@ -111,6 +112,29 @@ function provasCalcularNotaLiquidaTCDF(prova, concurso) {
     return { total, blocos: notas, atendeMinimos };
 }
 
+function provasResumoBrutoTCDF(resultado) {
+    const blocos = resultado?.blocos;
+    if (!blocos || typeof blocos !== "object") return null;
+
+    let acertos = 0;
+    let erros = 0;
+    let brancos = 0;
+    let encontrou = false;
+
+    Object.values(blocos).forEach(bloco => {
+        if (!bloco) return;
+        const a = Number(bloco.acertos);
+        const e = Number(bloco.erros);
+        const b = Number(bloco.brancos);
+        if (Number.isFinite(a)) { acertos += a; encontrou = true; }
+        if (Number.isFinite(e)) { erros += e; encontrou = true; }
+        if (Number.isFinite(b)) { brancos += b; encontrou = true; }
+    });
+
+    if (!encontrou) return null;
+    return `${acertos} acertos · ${erros} erros · ${brancos} brancos`;
+}
+
 function provasDescreverResultado(prova, concurso) {
     if (prova?.resolvida === false || !prova?.resultado) {
         return "ainda não resolvida";
@@ -141,7 +165,12 @@ function provasDescreverResultado(prova, concurso) {
 
     if (concurso?.id === "tcdf-2026") {
         const nota = provasCalcularNotaLiquidaTCDF(prova, concurso);
-        if (!nota) return "resultado registrado sem dados suficientes para nota líquida";
+        if (!nota) {
+            const bruto = provasResumoBrutoTCDF(resultado);
+            return bruto
+                ? `${bruto} · nota do edital atual não calculável`
+                : "resultado registrado · nota do edital atual não calculável";
+        }
 
         const partes = [`${provasFormatarNumero(nota.total)}/150 líquido`];
         if (nota.blocos) {

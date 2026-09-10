@@ -72,6 +72,34 @@
     }
   },
   {
+    "id": "mpu-2025-comunicacao-social-tipo-1",
+    "concursoId": "dataprev-2026",
+    "nome": "MPU 2025: Comunicação Social, Tipo 1",
+    "tipo": "prova_historica_secundaria",
+    "bancaReferencia": "FGV",
+    "ano": 2025,
+    "resolvida": false,
+    "sourcePath": "00 - Desempenho/Provas/MPU 2025 - Comunicacao Social.md",
+    "fontesOficiais": [
+      "https://conhecimento.fgv.br/concursos/mpu2025",
+      "https://conhecimento.fgv.br/sites/default/files/concursos/a05-analista-do-mpu-comunicacao-sociala05-tipo-1.pdf",
+      "https://conhecimento.fgv.br/sites/default/files/concursos/mpu-gabarito-definitivo.pdf"
+    ],
+    "estrutura": {
+      "totalQuestoes": 80,
+      "duracaoTotalHoras": 4.5,
+      "alternativasPorQuestao": 5,
+      "umaAlternativaCorreta": true,
+      "conhecimentosEspecificosComunicacao": 40,
+      "possuiRedacao": true
+    },
+    "comparabilidadeEdital": {
+      "status": "media",
+      "notaEditalAtualCalculavel": false,
+      "motivo": "Prova FGV recente da mesma área profissional, útil para validar mecanismos de cobrança, autores e taxonomias. A estrutura de 80 questões mais redação difere do edital Dataprev 2026 e não permite conversão de nota."
+    }
+  },
+  {
     "id": "tcdf-2023-anace-cargo-1",
     "concursoId": "tcdf-2026",
     "nome": "TCDF 2023: ANACE, Cargo 1",
@@ -106,6 +134,37 @@
       "status": "muito_alta",
       "notaEditalAtualCalculavel": false,
       "motivo": "É concurso anterior do próprio TCDF para o mesmo cargo e especialidade, com a mesma arquitetura objetiva de 35 + 45 + 70 itens e prova discursiva. Deve ser usado como prova-espelho de formato e estratégia; a conversão para o edital de 2026 depende do registro das respostas e da validação da regra de pontuação vigente."
+    }
+  },
+  {
+    "id": "tcdf-2021-auditor-controle-externo",
+    "concursoId": "tcdf-2026",
+    "nome": "TCDF 2021: Auditor de Controle Externo",
+    "tipo": "prova_historica_secundaria",
+    "bancaReferencia": "Cebraspe",
+    "ano": 2021,
+    "resolvida": false,
+    "sourcePath": "00 - Desempenho/Provas/TCDF 2021 - Auditor de Controle Externo.md",
+    "fontesOficiais": [
+      "https://cdn.cebraspe.org.br/concursos/tc_df_20_ace/arquivos/ED_1_TCDF_ACE_20_ABT.PDF",
+      "https://cdn.cebraspe.org.br/concursos/TC_DF_20_ACE/arquivos/MATRIZ_OBJETIVA.PDF",
+      "https://cdn.cebraspe.org.br/concursos/tc_df_20_ace/arquivos/GAB_DEFINITIVO_525_TCDF_CB1_01.PDF"
+    ],
+    "estrutura": {
+      "totalItensObjetivos": 150,
+      "duracaoObjetivaHoras": 4,
+      "modulos": {
+        "p1ConhecimentosBasicos": 65,
+        "p2ConhecimentosEspecificos": 85
+      },
+      "possuiDiscursiva": true,
+      "duracaoDiscursivaHoras": 4,
+      "regraHistoricaPontuacao": "Itens válidos recebiam pontuação positiva ou negativa reescalada conforme o número de anulações de cada bloco; branco ou marcação dupla valia zero."
+    },
+    "comparabilidadeEdital": {
+      "status": "media",
+      "notaEditalAtualCalculavel": false,
+      "motivo": "Mesmo tribunal e mesma banca, mas cargo, distribuição de blocos, mínimos e fórmula histórica diferem do ANACE 2026. Serve para padrão de cobrança e treino de risco, não para projeção de nota atual."
     }
   }
 ]

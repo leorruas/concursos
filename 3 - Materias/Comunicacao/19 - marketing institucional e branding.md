@@ -3,191 +3,240 @@ title: "Marketing institucional e branding"
 type: "conceito"
 status: "ativo"
 created: 2026-07-27
-updated: 2026-08-04
+updated: 2026-09-10
 ---
 # Marketing institucional e branding
 
-O marketing institucional e a gestão de marca (branding) no setor público diferenciam-se da lógica estritamente comercial por não visarem apenas a diferença competitiva ou a venda, mas sim a construção de legitimidade, a confiança social, a transparência e o reconhecimento da utilidade pública dos serviços prestados.
-
----
-
-## Fundamentos e evolução do marketing
-
-Marketing consiste no processo de criação, comunicação, entrega e gestão de valor para públicos específicos. Não se reduz à publicidade ou à venda (que são apenas partes do processo), pois envolve compreensão das necessidades dos públicos, planejamento, relacionamento e avaliação de resultados.
-
-### Evolução do Marketing (Philip Kotler)
-
-A classificação de Kotler pode ser compreendida como uma resposta às mudanças do contexto econômico e tecnológico:
-
-| Versão | Foco Principal | Problema da Época | Centro | Descrição |
-| :--- | :--- | :--- | :--- | :--- |
-| **Marketing 1.0** | Produto | Produzir (Demanda > Oferta) | Fábrica | Concentra-se na eficiência produtiva em massa. Consumidor tem pouca influência (ex: modelo preto único de Henry Ford). |
-| **Marketing 2.0** | Consumidor | Competir (Mercado cheio) | Cliente | Enfatiza a segmentação, o posicionamento estratégico e a diferenciação para atender aos desejos específicos dos clientes. |
-| **Marketing 3.0** | Valores | Gerar significado | Humano e Propósito | Incorpora valores, ética, sustentabilidade, inclusão e responsabilidade social como fatores de relacionamento. |
-| **Marketing 4.0** | Relacionamento | Conectar canais | Jornada do Usuário | Integra ambientes físicos e digitais (omnicanalidade), compreendendo a jornada do usuário em múltiplos canais integrados. |
-| **Marketing 5.0** | Pessoa + Tecnologia | Usar tecnologia para o bem | Humano no Centro | Utiliza IA, Big Data, automação e predição para ampliar a geração de valor, mantendo as necessidades humanas no centro das decisões. |
+Marketing é o processo de criação, comunicação, entrega e gestão de valor para públicos. Branding é a gestão estratégica dos significados, sinais, experiências e associações vinculados a uma marca. No setor público, essas práticas não se orientam apenas por competição ou venda: podem buscar adesão, confiança, legitimidade, compreensão de serviços e geração de valor público.
 
 > [!NOTE]
-> Cada nova versão do marketing **não substitui** a anterior, mas adiciona uma nova camada de complexidade e valor estratégico.
+> Esta nota reúne os conceitos de marketing e marca mais úteis para prova. Públicos e stakeholders são aprofundados em [[3 - Materias/Comunicacao/15 - publicos e stakeholders|Públicos e stakeholders]], planejamento em [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]], mídia em [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Campanhas e planejamento de mídia]], comunicação digital em [[3 - Materias/Comunicacao/06 - comunicacao digital|Comunicação digital]] e identidade/imagem/reputação também aparecem em [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]].
 
----
+## 1. Fundamentos e modelos de marketing
 
-## Mix de Marketing: os 4 Ps e os 7 Ps
+### Marketing não é sinônimo de publicidade
 
-### O Modelo Clássico dos 4 Ps (McCarthy)
-Aplicado ao setor público, o mix tradicional ganha novas interpretações:
+Publicidade e promoção são instrumentos do marketing, não o marketing inteiro. Marketing envolve compreender necessidades, definir oferta, público, posicionamento, canais, comunicação e critérios de resultado.
 
-1. **Produto**: A oferta que entrega valor. No setor público, refere-se a serviços, sistemas, aplicativos (ex: Gov.br, Meu INSS) ou políticas públicas. Não se restringe a bens físicos.
-2. **Preço**: O custo suportado pelo usuário. No setor privado, é financeiro; no setor público, envolve **custos não monetários** (tempo, deslocamento, burocracia e esforço cognitivo do cidadão).
-3. **Praça**: Canais de distribuição/disponibilização das ofertas (portais digitais, aplicativos, postos de atendimento físico, telefone).
-4. **Promoção**: Do latim *promovere* ("mover para a frente"). É o conjunto de estratégias destinadas a aproximar a oferta de seus públicos (publicidade, relações públicas, assessoria de imprensa, eventos e comunicação digital).
-   > [!WARNING]
-   > **Promoção não significa desconto**: Na terminologia clássica do marketing, promoção refere-se a promover/comunicar o valor, não à redução de preços.
+### Os 4 Ps de McCarthy
 
-### O Modelo Ampliado dos 7 Ps (Serviços)
-Para o marketing de serviços, Booms & Bitner propõem três elementos adicionais:
+O composto clássico de marketing organiza decisões em quatro variáveis:
 
-5. **Pessoas**: Quem presta o serviço. A interação humana (atendimento, presteza, empatia) afeta diretamente a percepção do usuário.
-6. **Processos**: Como o serviço acontece (fluxo de etapas, tempo de espera, burocracia). O processo define a experiência do usuário.
-7. **Evidências Físicas (Physical Evidence)**: Elementos tangíveis que tornam perceptível um serviço essencialmente intangível (interface digital, design do aplicativo, identidade visual, ambiente físico, comprovantes).
-   > [!TIP]
-   > No Design de Serviços, as **Evidências Físicas** equivalem aos **Touchpoints (pontos de contato)** da jornada do usuário.
-
----
-
-## Diferenças Conceituais Importantes
-
-- **Produto × Marca**: O produto entrega utilidade imediata. A marca é o conjunto de significados, sentimentos e associações vinculados a ele na mente das pessoas. A marca pode sobreviver à mudança dos produtos.
-- **Marketing × Comunicação**: O marketing pergunta *"Qual valor entregaremos?"* (abrangendo produto, preço, praça e promoção). A comunicação responde *"Como esse valor será compreendido?"* (focando na mensagem e nos canais de aproximação).
-
----
-
-## Segmentação, Público-alvo, Persona e Posicionamento
-
-A definição de quem é o público receptor obedece a um fluxo de afunilamento lógico:
-
-```
-Mercado (Geral) ➔ Segmentação (Dividir) ➔ Público-alvo (Escolher) ➔ Persona (Representar)
-```
-
-### 1. Segmentação de Mercado
-Consiste em dividir um mercado heterogêneo em grupos relativamente homogêneos de acordo com características comuns. Os critérios clássicos são:
-- **Geográfica**: Localização, estado, cidade, região, clima.
-- **Demográfica**: Idade, sexo, renda, escolaridade, profissão, tamanho da família.
-- **Psicográfica**: Estilo de vida, valores, personalidade, classe social.
-- **Comportamental**: Frequência de uso do serviço, lealdade à marca, benefício procurado, momento de utilização.
-
-### 2. Público-alvo (Target)
-Corresponde ao segmento (ou segmentos) específico que a organização escolhe para concentrar seus esforços de marketing e comunicação.
-
-### 3. Persona
-Representação fictícia de um cliente/cidadão ideal, baseada em dados reais e comportamentos.
-- **Diferença de Público-alvo**: O público-alvo é coletivo, abstrato e focado em dados estatísticos (ex: *aposentados, 60-70 anos, renda 2 salários*). A persona é individual, humanizada e orienta o design e conteúdo (ex: *Maria, 67 anos, prefere ler em fontes grandes e tem receio de golpes no celular*).
-
-### 4. Posicionamento Estratégico
-O espaço distintivo que a organização deseja ocupar na mente do público.
-- **Posicionamento pretendido**: A intenção estratégica da organização.
-- **Posicionamento percebido (Imagem)**: A percepção real do público.
-- **Coerência**: O posicionamento deve refletir a identidade e a capacidade de entrega real da organização. Descompassos comprometem a reputação.
-
----
-
-## A dimensão temporal e de controle da imagem
-
-A construção da percepção institucional obedece a um fluxo temporal e dinâmico sobre o qual a organização possui apenas controle parcial:
-
-$$\text{Identidade} \longrightarrow \text{Expressão/Comportamento} \longrightarrow \text{Imagens} \longrightarrow \text{Reputação}$$
-
-- **Identidade organizacional**: Responde à pergunta **"Quem somos?"**. É a personalidade institucional (missão, visão, cultura e atributos).
-- **Identidade visual**: Tradução gráfica e visual da identidade organizacional (marca gráfica, tipografia, cores). Representa a identidade, mas não a esgota.
-- **Imagem institucional**: Responde à pergunta **"Como somos percebidos agora?"**. Localiza-se no público receptor, é efêmera e pode variar entre diferentes segmentos (ex: a Dataprev pode ser vista como infraestrutura estratégica por gestores e como uma empresa técnica distante por usuários finais).
-- **Reputação**: Responde à pergunta **"Que avaliação consolidada construíram sobre nós ao longo do tempo?"**. É o acúmulo histórico de experiências e imagens. É estável e confere resistência a crises momentâneas.
-
----
-
-## Brand equity (Valor da marca)
-
-**Brand equity** é o patrimônio de marca — o valor adicional que o conjunto de conhecimentos e associações vinculados ao nome da marca acrescenta às relações institucionais. Trata-se de um **ativo intangível**.
-
-### Elementos constitutivos do brand equity:
-1. **Conhecimento e reconhecimento**: Capacidade do público de identificar ou recordar a marca, reduzindo a incerteza.
-   > [!WARNING]
-   > **Notoriedade elevada não garante brand equity positivo**: Uma marca amplamente conhecida pode carregar fortes associações negativas.
-2. **Associações de marca**: Ideias, sentimentos ou conceitos conectados à marca (ex: segurança de dados, burocracia, agilidade).
-3. **Qualidade percebida**: A avaliação subjetiva do público quanto à qualidade da oferta (uma interface de sistema confusa ou atendimento falho degradam a qualidade percebida, mesmo que a engenharia de TI seja tecnicamente perfeita).
-4. **Lealdade e confiança**: No setor público, expressa-se como a disposição dos cidadãos para cooperar, a adesão a diretrizes e a menor resistência a crises.
-
----
-
-## Arquitetura de marcas
-
-A arquitetura de marcas define como a organização organiza e apresenta a relação entre a marca principal e seus produtos, serviços, plataformas e programas.
-
-### 1. Branded house (Arquitetura monolítica)
-A marca institucional é a protagonista absoluta e organiza todas as ofertas (ex: Google Drive, Google Maps; ou Dataprev Serviços, Dataprev Analytics).
-- **Vantagem**: Alta transferência de confiança e credibilidade acumulada da marca principal para as novas ofertas. Economia de escala na gestão de identidade.
-- **Risco**: Alto risco de contaminação reputacional (falhas em uma unidade atingem todo o sistema).
-- **Atenção**: Não elimina submarcas, desde que a marca principal permaneça dominante.
-
-### 2. House of brands (Marcas independentes)
-A organização atua apenas como controladora de marcas autônomas e independentes, cuja relação com a instituição controladora pode ser pouco visível para o público.
-- **Vantagem**: Autonomia total de posicionamento para cada público ou segmento; limita o espalhamento de crises reputacionais.
-- **Risco**: Custos elevados de gestão e comunicação para construir reconhecimento individual de cada marca do zero.
-
-### 3. Marcas endossadas (Endosso institucional)
-As ofertas possuem nome e identidade próprios, mas recebem a assinatura explícita da marca corporativa como chancela (ex: *Plataforma X — Uma solução Dataprev*).
-- **Vantagem**: Equilibra a autonomia de posicionamento do serviço com a transferência parcial de credibilidade da marca mãe.
-- **Diferença crucial**: O endosso atua como uma garantia simbólica de procedência e qualidade, diferentemente de um **patrocínio** (que é mero fornecimento de recursos).
-
----
-
-## Como a banca cobra (FGV)
-
-1. **Confusão de categorias**: A banca tenta equiparar marca a logotipo (identidade visual), reputação (acumulativa) a imagem imediata, ou persona a público-alvo.
-2. **Controle absoluto**: Alternativas que sugerem que a organização "determina" ou "controla integralmente" sua imagem ou reputação estão erradas. Elas pertencem à percepção do receptor.
-3. **Promoção e Desconto**: Pegadinha que reduz o P de "Promoção" à liquidação de preços ou descontos. Lembre-se: promoção é aproximar/promover.
-4. **Segmentação vs. Escolha**: A banca inverte os conceitos dizendo que segmentar é escolher os públicos prioritários. Segmentar é dividir; escolher é definir o público-alvo (target).
-5. **Comportamento do Consumidor (Frequência de Uso)**: A banca gosta de trazer a frequência de uso ou o benefício procurado como critérios demográficos. Eles são critérios **comportamentais**.
-6. **Monolítico sem Submarcas**: A branded house não proíbe a existência de submarcas/segmentações, ela apenas exige a dominância da marca mãe na arquitetura visual e verbal.
-
----
-
-## Heurísticas rápidas
-
-- **Segmentar**: Dividir.
-- **Público-alvo**: Escolher.
-- **Persona**: Representar de forma fictícia/humanizada.
-- **Posicionamento**: Intenção estratégica na mente do público.
-- **Imagem**: Foto instantânea.
-- **Reputação**: Filme histórico acumulado.
-- **Promoção**: Ponte para aproximar a oferta do público.
-- **Evidência Física**: Touchpoints/pontos de contato que tornam o serviço perceptível.
-
----
-
-## Marketing de conteúdo e funil
-
-Marketing de conteúdo é uma estratégia de produção e distribuição de informações relevantes para atrair, informar, relacionar-se com públicos e orientar ações alinhadas aos objetivos da organização. Não se reduz à publicação frequente nem à criação de peças isoladas; exige relação entre público, necessidade, conteúdo, etapa do relacionamento e resultado pretendido.
-
-### O Funil no Setor Público
-O funil organiza diferentes estágios de aproximação entre o público e a ação desejada. No setor público, a conversão não se limita à compra. Pode representar a conclusão de uma solicitação, acesso a um direito, registro de denúncia, adesão a uma orientação ou participação social.
-
-*   **Topo do funil**: O público pode ainda não reconhecer o problema ou o risco. Os conteúdos buscam gerar descoberta e consciência (ex: explicar os primeiros sinais de fraude digital para pessoas que ainda não reconhecem o risco).
-*   **Meio do funil**: A pessoa já reconheceu a necessidade e busca caminhos para saná-la. Os conteúdos procuram aprofundar o entendimento, explicar processos e reduzir incertezas (ex: guias passo a passo, documentação necessária).
-*   **Fundo do funil**: O usuário está muito próximo da ação desejada. Os conteúdos tendem a facilitar a realização e conclusão prática da tarefa (ex: formulário de cadastro, botão de solicitação).
+| P | Pergunta | Núcleo |
+|---|---|---|
+| **Produto** | O que entrega valor? | Bem, serviço, solução, benefício ou oferta. |
+| **Preço** | Que custo é suportado? | Valor monetário e, em aplicações públicas, também podem ser considerados custos não monetários como tempo e esforço. |
+| **Praça** | Onde e como a oferta chega ao público? | Distribuição, disponibilidade e canais. |
+| **Promoção** | Como o valor é comunicado e estimulado? | Publicidade, relações públicas, promoção de vendas, comunicação digital etc. |
 
 > [!WARNING]
-> **Pegadinhas da FGV sobre Funil**:
-> 1. **Linearidade**: O funil funciona como modelo de planejamento, mas os percursos reais dos usuários podem ser não lineares (entrar direto pelo fundo, retroceder, alternar canais).
-> 2. **Formatos**: O formato do conteúdo (vídeo, infográfico, FAQ) não define automaticamente a etapa do funil. Um vídeo pode ser amplo (topo) ou um tutorial de processo (meio/fundo). O critério definidor é a intenção de uso e proximidade da ação.
+> **Promoção ≠ desconto.** No composto de marketing, promoção é a variável de comunicação e estímulo à demanda; desconto é apenas uma possível ferramenta comercial.
 
-### Diferenças e Integração
-*   **Jornada vs. Funil**: O funil observa a progressão em direção a um objetivo da organização; a jornada considera a experiência subjetiva vivida pela pessoa ao longo dos pontos de contato.
-*   **Marketing de Conteúdo, SEO e UX Writing**: Atuam de forma complementar. O marketing de conteúdo define a utilidade e a estratégia; o SEO favorece a descoberta; e o UX Writing reduz atritos de linguagem e navegação durante a ação.
+### Os 7 Ps de Booms e Bitner
 
-### Coerência entre Conteúdo e Serviço
-A efetividade do marketing de conteúdo depende da coerência entre a promessa comunicacional e a experiência entregue. Conteúdos úteis podem ampliar confiança e autoridade, mas não compensam de forma duradoura serviços inacessíveis, processos confusos ou falhas operacionais. Existe possível desalinhamento entre a promessa e a experiência entregue caso o serviço não funcione.
+Para serviços, Booms e Bitner acrescentam três dimensões aos 4 Ps:
+
+- **People / Pessoas**: quem participa da entrega e da interação com o usuário.
+- **Process / Processos**: como o serviço é executado.
+- **Physical Evidence / Evidências físicas**: elementos tangíveis que ajudam o usuário a perceber e avaliar um serviço intangível, como ambiente, sinalização, interface, materiais e comprovantes.
+
+> [!IMPORTANT]
+> **Evidência física não é sinônimo de touchpoint.** Um touchpoint é qualquer ponto de contato entre público e marca. Atendimento humano, aplicativo, e-mail, publicidade, interface e ambiente físico podem todos ser touchpoints. A evidência física é uma categoria específica do mix de serviços.
+
+### Marketing 1.0 a 5.0 em Kotler
+
+As expressões Marketing 1.0, 2.0, 3.0, 4.0 e 5.0 aparecem em obras de Kotler e coautores para destacar mudanças de foco do marketing, como produto, consumidor, valores, conectividade e tecnologia. Elas são úteis como referência de evolução conceitual, mas **não formam uma lei histórica rígida nem fases em que uma elimina a anterior**.
+
+Para prova, priorize os contrastes conceituais e os modelos explicitamente citados no enunciado. Evite decorar uma cronologia simplificada como se toda organização tivesse passado necessariamente por cinco estágios sucessivos.
+
+## 2. Segmentação, público-alvo, persona e posicionamento
+
+### Segmentação
+
+Segmentar é dividir um universo heterogêneo em grupos com características relevantes em comum. Critérios clássicos incluem:
+
+- **Geográfico**: localidade, região, clima, território.
+- **Demográfico**: idade, renda, escolaridade, ocupação, composição familiar.
+- **Psicográfico**: estilo de vida, valores, interesses, personalidade.
+- **Comportamental**: frequência de uso, benefício procurado, lealdade, ocasião ou comportamento diante da oferta.
+
+> [!TIP]
+> **Pegadinha:** “pessoas aventureiras, que valorizam natureza e experiências radicais” descreve segmentação psicográfica, não geográfica apenas porque a campanha trata de turismo.
+
+### Público-alvo
+
+Público-alvo é o segmento ou conjunto de segmentos escolhidos como foco prioritário de uma ação, oferta ou campanha. **Segmentar é dividir; definir público-alvo é escolher.**
+
+### Persona
+
+Persona é uma representação construída para tornar um segmento mais concreto e orientar decisões de produto, conteúdo ou comunicação. Deve ser baseada em evidências quando usada como instrumento de pesquisa e design; uma personagem inventada sem dados é apenas uma hipótese.
+
+Persona não substitui público-alvo nem stakeholder. São ferramentas com finalidades diferentes.
+
+### Posicionamento
+
+Posicionamento é a posição que a organização pretende construir na mente de um público em relação a alternativas, expectativas e associações relevantes. O posicionamento é uma intenção estratégica; a **imagem percebida** pelo público pode não coincidir com ele.
+
+> [!WARNING]
+> A organização pode **propor** posicionamento e gerir sinais de marca, mas não controla integralmente a percepção produzida no receptor.
+
+## 3. Identidade, imagem, reputação e marca
+
+### Marca × identidade visual
+
+**Marca** é um sistema de identificação e significados associado a uma organização, produto ou serviço. **Identidade visual** é apenas sua expressão visual: símbolo, logotipo, tipografia, cores, grafismos e regras de aplicação.
+
+Logo, marca ≠ logotipo.
+
+### Identidade × imagem × reputação
+
+- **Identidade organizacional**: como a organização se define e expressa quem é.
+- **Imagem**: percepção formada por um público em determinado contexto e momento.
+- **Reputação**: avaliação relativamente consolidada construída ao longo do tempo a partir de múltiplas experiências, informações e imagens.
+
+Uma mesma organização pode ter imagens diferentes entre públicos distintos. Reputação tende a ser mais estável que uma imagem circunstancial, mas também pode mudar.
+
+## 4. Brand equity e pontos de contato
+
+### Brand equity
+
+Brand equity é o valor associado à marca em razão do conhecimento, das associações e das respostas que ela produz nos públicos. Diferentes autores operacionalizam o conceito de modos distintos.
+
+No modelo de **David Aaker**, aparecem dimensões como:
+
+- lealdade à marca;
+- conhecimento/notoriedade;
+- qualidade percebida;
+- associações de marca;
+- outros ativos proprietários vinculados à marca.
+
+> [!IMPORTANT]
+> **Notoriedade alta não garante brand equity positivo.** Uma organização pode ser muito conhecida e, ao mesmo tempo, associada a baixa qualidade, desconfiança ou experiências negativas.
+
+### Touchpoints
+
+Touchpoints são os momentos e interfaces em que o público entra em contato com a organização ou marca. Incluem, entre outros:
+
+- atendimento humano;
+- portal e aplicativo;
+- publicidade;
+- redes sociais;
+- e-mails e notificações;
+- ambiente físico;
+- documentos, formulários e comprovantes;
+- experiência concreta de uso do serviço.
+
+A experiência acumulada nesses pontos influencia imagem, reputação e brand equity.
+
+> [!TIP]
+> Em serviços, a equipe de **linha de frente** é especialmente relevante porque participa diretamente da experiência do usuário. Retaguarda também influencia a entrega, embora nem sempre esteja visível ao público.
+
+### Marca como promessa × experiência
+
+Comunicação pode construir expectativas, mas a experiência do serviço participa da formação da marca. Uma campanha pode prometer agilidade; se o processo for lento e confuso, o touchpoint real contradiz o posicionamento pretendido.
+
+## 5. Arquitetura de marcas
+
+Arquitetura de marcas organiza a relação entre marca corporativa, submarcas, produtos e serviços. Os rótulos variam entre autores, mas três modelos aparecem com frequência:
+
+- **Branded house**: a marca-mãe permanece dominante e organiza as ofertas.
+- **House of brands**: diferentes marcas operam com identidade e posicionamento mais autônomos.
+- **Marcas endossadas**: uma marca própria recebe chancela explícita da marca corporativa.
+
+Esses modelos formam um contínuo de relações possíveis, não três caixas necessariamente puras. Uma organização pode usar soluções híbridas.
+
+> [!WARNING]
+> **Branded house não significa ausência de nomes de produtos ou submarcas.** A questão é o grau de dominância da marca-mãe.
+
+## 6. Marketing de conteúdo e funil
+
+Marketing de conteúdo usa conteúdo relevante para atrair, informar, relacionar e orientar ações compatíveis com objetivos definidos. Publicar muito não equivale a ter estratégia de conteúdo.
+
+### Funil
+
+O funil é um modelo de planejamento que representa graus de proximidade entre público e ação desejada:
+
+- **Topo**: descoberta e consciência.
+- **Meio**: consideração, compreensão e redução de incerteza.
+- **Fundo**: proximidade da ação ou conversão.
+
+No setor público, conversão pode ser emissão de documento, inscrição, vacinação, acesso a direito, denúncia, atualização cadastral ou outra ação desejada, não apenas compra.
+
+> [!IMPORTANT]
+> O funil não descreve obrigatoriamente uma jornada linear. Pessoas podem entrar por diferentes pontos, retornar etapas ou alternar canais.
+
+### Funil × jornada
+
+**Funil** observa a progressão em direção a um objetivo definido pela organização. **Jornada** observa a experiência da pessoa ao longo dos pontos de contato. São perspectivas complementares, não equivalentes.
+
+## Como costuma ser cobrado
+
+A FGV explora principalmente fronteiras entre categorias e aplicação a casos:
+
+- identificar o P correto do composto de marketing;
+- distinguir segmentação psicográfica, demográfica, geográfica e comportamental;
+- diferenciar segmentar de escolher o público-alvo;
+- separar marca de identidade visual e imagem de reputação;
+- reconhecer que atendimento, interface e experiência também são touchpoints;
+- relacionar experiências nos touchpoints ao brand equity;
+- identificar que linha de frente e retaguarda têm necessidades comunicacionais diferentes;
+- rejeitar alternativas que tratam a percepção da marca como totalmente controlável pela organização.
+
+Em provas recentes, a FGV cobrou diretamente os 4 Ps, segmentação psicográfica e, na NAV Brasil 2026, a relação entre touchpoints, experiência do usuário e brand equity, além da segmentação do público interno de serviços.
+
+## Relações com outros temas
+
+- [[3 - Materias/Comunicacao/15 - publicos e stakeholders|Públicos e stakeholders]]: stakeholder, público, público-alvo e mapeamento.
+- [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]]: identidade, imagem, reputação e comunicação integrada.
+- [[3 - Materias/Comunicacao/06 - comunicacao digital|Comunicação digital]]: jornada, canais, UX Writing e experiência digital.
+- [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Campanhas e planejamento de mídia]]: promoção, mídia, briefing e avaliação de campanha.
+- [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]]: diagnóstico, objetivos, estratégia e indicadores.
+
+## Tensões e pegadinhas
+
+- **Marketing ≠ publicidade**.
+- **Promoção ≠ desconto**.
+- **Segmentação ≠ público-alvo**.
+- **Público-alvo ≠ persona**.
+- **Marca ≠ logotipo**.
+- **Posicionamento pretendido ≠ imagem percebida**.
+- **Imagem ≠ reputação**.
+- **Evidência física ≠ touchpoint**.
+- **Notoriedade ≠ brand equity positivo**.
+- **Funil ≠ jornada**.
+- **Modelo didático ≠ lei universal**: 4 Ps, 7 Ps, arquitetura de marcas e Marketing 1.0–5.0 precisam ser interpretados dentro de seus modelos de origem.
+
+## Exemplos comentados
+
+**Caso 1:** uma campanha de turismo segmenta pessoas por gosto por aventura, contato com a natureza e estilo de vida. A variável decisiva é psicográfica; o destino geográfico da campanha não transforma automaticamente o critério em geográfico.
+
+**Caso 2:** um órgão tem excelente campanha institucional, mas usuários enfrentam atendimento hostil e formulários confusos. Esses contatos também participam da formação da marca; comunicação paga não é o único touchpoint.
+
+**Caso 3:** um aplicativo possui interface, comprovante digital e ambiente de atendimento. Esses elementos podem funcionar como evidências tangíveis do serviço. O touchpoint, porém, é conceito mais amplo e inclui inclusive o contato humano e a interação em canais digitais.
+
+## Heurísticas
+
+- 4 Ps: Produto, Preço, Praça, Promoção.
+- Segmentar = dividir; público-alvo = escolher.
+- Psicográfica = valores/estilo de vida; comportamental = modo de uso/benefício procurado.
+- Marca é maior que identidade visual.
+- Posicionamento é intenção; imagem é percepção.
+- Reputação é construção acumulada.
+- Touchpoint = qualquer ponto de contato relevante com a marca.
+- Brand equity depende da qualidade das associações, não apenas de ser conhecido.
+- Funil olha aproximação da conversão; jornada olha experiência ao longo dos contatos.
 
 ---
 **Fontes Brutas:**
 - [[00 inbox/00 ingestão]]
+
+**Referências de modelos:**
+- McCarthy, E. Jerome: composto de marketing (4 Ps).
+- Booms, Bernard H.; Bitner, Mary Jo: marketing de serviços (7 Ps).
+- Kotler e coautores: Marketing 3.0, 4.0 e 5.0.
+- Aaker, David: brand equity.
+
+**Evidência de banca usada na revisão:**
+- FGV, NITTRANS, Administrador, 2025: identificação dos 4 Ps.
+- FGV, DPE-RO, Analista em Administração, 2025: segmentação psicográfica.
+- FGV, NAV Brasil, Analista de Comunicação e Marketing, 2026: segmentação de público interno, touchpoints e brand equity.

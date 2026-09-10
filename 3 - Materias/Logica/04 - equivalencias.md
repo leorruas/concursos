@@ -3,7 +3,7 @@ title: "Equivalências e negações lógicas"
 type: "conceito"
 status: "ativo"
 created: 2026-05-26
-updated: 2026-05-29
+updated: 2026-09-10
 ---
 # Equivalências e negações lógicas
 
@@ -172,7 +172,20 @@ Quando a frase afirma a existência de um elemento que atende a uma tautologia:
 
 ---
 
-## Notas de raciocínio
-- Equivalência lógica é **transformação estrutural**.
-- A pergunta correta a se fazer em prova não é *"as frases parecem iguais?"*, mas sim *"elas possuem o mesmo comportamento lógico (mesmo valor lógico em todas as situações possíveis)?"*.
-- Em prova, reconhecer esses padrões estruturais e a equivalência estrutural é mais importante e eficiente do que tentar decorar frases específicas ou reconstruir tabelas verdade completas.
+## Relações com outros temas
+
+A leitura da condicional depende diretamente de [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]], sobretudo da distinção entre condição necessária e suficiente e da direção da seta. Esta nota começa onde a identificação do conectivo termina: o objetivo aqui é reconhecer transformações que preservam ou negam o valor lógico da estrutura.
+
+[[3 - Materias/Logica/05 - tabela verdade|Tabela verdade]] funciona como mecanismo de verificação das equivalências. Em prova, porém, reconstruir a tabela inteira costuma ser mais lento do que reconhecer uma equivalência conhecida. Ela é mais útil como ferramenta de auditoria quando duas fórmulas parecem equivalentes e a regra não está clara.
+
+A relação com [[3 - Materias/Logica/03 - quantificadores|Quantificadores]] aparece principalmente na negação. De Morgan atua dentro da proposição composta, enquanto a negação de quantificadores troca universal por existencial, ou existencial por universal, além de negar o predicado. Questões podem combinar as duas operações na mesma expressão.
+
+Em [[3 - Materias/Logica/06 - argumentacao logica|Argumentação lógica]], contraposição pode sustentar uma inferência válida, enquanto recíproca e inversa são fontes clássicas de inferências inválidas. Reconhecer essa fronteira evita tratar equivalência formal como mera semelhança linguística.
+
+## Heurísticas
+
+Equivalência lógica é **transformação estrutural**. A pergunta útil em prova não é “as frases parecem iguais?”, mas “elas têm o mesmo valor lógico em todas as situações possíveis?”.
+
+Para a condicional, use três controles diferentes: `p → q ≡ ¬q → ¬p` para contrapositiva; `p → q ≡ ¬p ∨ q` para reescrita disjuntiva; `¬(p → q) ≡ p ∧ ¬q` para negação. Misturar essas três operações é uma das fontes mais produtivas de distratores.
+
+Quando uma alternativa apenas troca a ordem ou apenas nega os dois termos de uma condicional, trate-a com suspeita: recíproca e inversa não preservam, isoladamente, a equivalência com a proposição original. Se houver dúvida, procure o único cenário proibido da condicional ou use uma tabela-verdade curta como verificação.

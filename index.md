@@ -6,6 +6,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 
 ## 1 - Planejamento
 - [[1 - Planejamento/diretrizes de busca|Diretrizes de busca]]
+- [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]]
+- [[1 - Planejamento/Auditoria editorial do vault|Auditoria editorial do vault]]
 - [[1 - Planejamento/concursos abertos|Concursos abertos]]
 - [[1 - Planejamento/concursos previstos|Concursos previstos]]
 - [[1 - Planejamento/horarios|Cronograma e horários]]

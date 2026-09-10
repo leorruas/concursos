@@ -93,14 +93,17 @@ function renderizarPainelConcursoHome() {
     const itensConcurso = dadosEditalEstrategico.filter(i => i.concursoId === concursoAtivo.id);
     const totalItens = itensConcurso.length;
 
-    // 1. Cobertura estrutural: itens que possuem notaPath definida e existente
-    const mapeados = itensConcurso.filter(i => !!i.notaPath);
+    // 1. Cobertura: existência de nota, grau de correspondência e ausência são estados distintos.
+    // Itens legados sem coberturaNota continuam tratados como integrais apenas quando possuem notaPath.
+    const integrais = itensConcurso.filter(i => i.coberturaNota === "integral" || (!i.coberturaNota && !!i.notaPath));
+    const parciais = itensConcurso.filter(i => i.coberturaNota === "parcial");
+    const ausentes = itensConcurso.filter(i => i.coberturaNota === "ausente" || (!i.coberturaNota && !i.notaPath));
     let textoCobertura = "—";
     let detalheCobertura = "sem itens cadastrados no edital";
     if (totalItens > 0) {
-        const pctCobertura = Math.round((mapeados.length / totalItens) * 100);
-        textoCobertura = `${pctCobertura}%`;
-        detalheCobertura = `${mapeados.length} de ${totalItens} tópicos do edital mapeados no vault`;
+        const pctCoberturaIntegral = Math.round((integrais.length / totalItens) * 100);
+        textoCobertura = `${pctCoberturaIntegral}%`;
+        detalheCobertura = `${integrais.length} integrais · ${parciais.length} parciais · ${ausentes.length} ausentes`;
     }
 
     // 2. Exposição: itens trabalhados em sessões registradas
@@ -169,7 +172,7 @@ function renderizarPainelConcursoHome() {
 
         <div class="concurso-regua-indicadores">
             <div class="concurso-celula-indicador">
-                <div class="concurso-indicador-rotulo">cobertura estrutural</div>
+                <div class="concurso-indicador-rotulo">cobertura integral</div>
                 <div class="concurso-indicador-valor ${textoCobertura.includes('%') ? '' : 'valor-indisponivel'}">${textoCobertura}</div>
                 <div class="concurso-indicador-detalhe">${detalheCobertura}</div>
             </div>

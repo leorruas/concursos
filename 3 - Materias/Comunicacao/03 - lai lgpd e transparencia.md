@@ -3,205 +3,312 @@ title: "LAI, LGPD e transparência"
 type: "conceito"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-08-10
+updated: 2026-09-10
 ---
 # LAI, LGPD e transparência
 
-A Lei de Acesso à Informação (LAI - Lei nº 12.527/2011) e a Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018) são marcos jurídicos distintos, porém complementares no âmbito da administração pública.
+A Lei de Acesso à Informação (LAI, Lei nº 12.527/2011) e a Lei Geral de Proteção de Dados Pessoais (LGPD, Lei nº 13.709/2018) tutelam valores distintos e complementares. A LAI concretiza o direito de acesso à informação pública; a LGPD disciplina o tratamento de dados pessoais e protege direitos fundamentais de liberdade, privacidade e livre desenvolvimento da personalidade.
 
-- **LAI (Transparência)**: Tem como princípio a publicidade como regra geral e o sigilo como exceção. Busca assegurar o direito fundamental de acesso a informações públicas custodiadas pelo Estado.
-- **LGPD (Privacidade)**: Visa proteger os direitos fundamentais de liberdade, privacidade e o livre desenvolvimento da personalidade da pessoa natural, disciplinando o tratamento de dados pessoais.
-
-Não existe contradição automática entre as duas leis. O equilíbrio na administração pública exige a garantia de transparência institucional nas contas e atos públicos (LAI), ao mesmo tempo em que se salvaguardam os dados pessoais sensíveis e a intimidade dos cidadãos e servidores (LGPD).
-
----
-
-## Transparência Pública, Participação Social e Prestação de Contas
-
-### 1. Transparência Ativa vs. Transparência Passiva
-* **Transparência Ativa**: Divulgação de informações públicas promovida por **iniciativa própria da Administração Pública**, independentemente de qualquer requerimento ou solicitação prévia (ex: Portais da Transparência, dados de licitações, organogramas, cartas de serviços).
-* **Transparência Passiva**: Disponibilização de informações promovida **em resposta a um pedido formal de acesso apresentado pelo cidadão** (ex: solicitações via Sistema e-SIC / Fala.BR).
-  > [!NOTE]
-  > **Heurística de Prova (FGV)**: *Ativa = o órgão se antecipa e publica espontaneamente. Passiva = o cidadão provoca e o órgão responde.* O termo "passiva" não significa inércia do órgão, mas sim que a divulgação foi motivada por um pedido externo.
-
-### 2. Transparência Formal vs. Transparência Efetiva
-A mera publicação formal de dados ou relatórios não garante transparência comunicacional efetiva. Para que o cidadão exercite o controle social, as informações disponibilizadas precisam atender a requisitos de usabilidade e comunicação:
-1. **Encontráveis**: Por meio de boa arquitetura da informação, SEO orientado a tarefas e usabilidade (UX).
-2. **Compreensíveis**: Redigidas sob as diretrizes de **linguagem simples**, eliminando jargões excessivamente técnicos ou burocráticos.
-3. **Úteis e Reutilizáveis**: Disponibilizadas em formatos abertos e estruturados (dados abertos).
-
-> [!IMPORTANT]
-> **Publicar ≠ Comunicar**: A mera publicação de relatórios incompreensíveis ou PDFs digitalizados sem busca configura cumprimento formal, mas falha na entrega da transparência efetiva e da comunicação pública cidadã.
-
-### 3. Participação Social
-Mecanismos institucionais pelos quais cidadãos, movimentos sociais e partes interessadas (*stakeholders*) intervêm ou contribuem para os processos decisórios públicos (consultas públicas, audiências públicas, conselhos paritários e ouvidorias).
-* **Participação vs. Divulgação**: Comunicar uma decisão governamental já tomada é apenas divulgação unilateral; a participação social pressupõe a abertura de canais para ouvir e considerar as contribuições antes ou durante o processo decisório.
-* **Escopo**: A participação social não transfere necessariamente o poder decisório final ao participante, mas garante o direito de manifestação legítima e consideração das propostas no processo público.
-
-### 4. Prestação de Contas (*Accountability*)
-Apresentação, justificativa e demonstração transparente dos atos, recursos aplicados e resultados obtidos pela Administração Pública, sujeitando os gestores à responsabilização e ao escrutínio social.
-* **Publicidade Institucional ≠ Prestação de Contas**: Campanhas de publicidade institucional podem destacar aspectos favoráveis para construção de imagem; a prestação de contas (*accountability*) exige clareza sobre metas, indicadores, custos, limitações e eventuais problemas ocorridos, alinhando-se com a postura de transparência em momentos de crise.
-
-## LGPD: Estrutura Geral e Princípios Fundamentais (Lei nº 13.709/2018)
-
-### 1. Tratamento de dados pessoais e categorias
-Tratamento é toda operação realizada com dados pessoais (coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação, modificação, comunicação, transferência ou difusão). Até a simples **eliminação ou guarda** constitui tratamento.
-
-* **Dado pessoal**: informação relacionada a pessoa natural identificada ou identificável (ex: nome, CPF, endereço, e-mail, telefone, IP).
-  - *Atenção em prova*: dado pessoal **não precisa ser secreto ou confidencial**. Informações públicas continuam sendo dados pessoais.
-* **"Dado pessoal comum"**: expressão didática para qualquer dado pessoal que não se enquadre no rol legal de dado pessoal sensível.
-* **Dado pessoal sensível**: categoria legal taxativa e específica:
-  1. Origem racial ou étnica;
-  2. Convicção religiosa;
-  3. Opinião política;
-  4. Filiação a sindicato ou a organização de caráter religioso, filosófico ou político;
-  5. Dado referente à saúde ou à vida sexual;
-  6. Dado genético ou biométrico, quando vinculado a uma pessoa natural.
-  > [!WARNING]
-  > **Fronteira FGV (Privado/Confidencial ≠ Sensível)**: Salário, patrimônio, CPF e endereço podem ser dados altamente privados e confidenciais, mas **não são legalmente dados sensíveis**. A sensibilidade decorre da natureza do dado prevista na lei, e não do potencial de causar prejuízo ou constrangimento.
-  > 
-  > **A sensibilidade não contamina a base**: a presença de um dado sensível (ex: religião) em um cadastro não transforma os demais dados daquele titular (ex: CPF e endereço) em dados sensíveis. Cada campo mantém sua natureza própria.
-* **Dado anonimizado**: dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião do seu tratamento. Em regra, **não é considerado dado pessoal** para os fins da LGPD.
-  - *Pegadinha*: remover identificadores diretos (ex: nome) não garante anonimização se outros dados combinados permitirem identificar a pessoa (ex: único servidor do cargo X na cidade Y).
-* **Dado pseudonimizado**: processo pelo qual o dado perde a possibilidade de associação direta ou indireta a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador em ambiente seguro. **Continua sendo dado pessoal e sujeito à LGPD**.
-  - *Duas perguntas independentes para a prova*:
-    1. *O que o dado revela?* (determina se é comum ou sensível);
-    2. *É possível identificar o titular?* (determina se é direto, pseudonimizado ou anonimizado).
-    - Um dado pode ser simultaneamente **sensível e pseudonimizado** (ex: `P047 -> HIV positivo`). A pseudonimização não elimina a sensibilidade da informação. Destruir a chave de ligação não assegura automaticamente a anonimização se a reidentificação ainda for tecnicamente viável.
-
-### 2. Bases legais e o regime do consentimento
-* **Consentimento não é requisito universal**: a LGPD prevê diferentes bases legais autônomas (art. 7º para dados comuns e art. 11 para dados sensíveis). Não haver consentimento não torna o tratamento ilegal se houver outra base aplicável.
-* **Regime de bases legais para dados comuns (art. 7º)**: consentimento, obrigação legal/regulatória, execução de políticas públicas pelo Poder Público, estudos por órgão de pesquisa, execução de contrato/procedimentos preliminares, exercício regular de direitos, proteção da vida/incolumidade física, tutela da saúde, **legítimo interesse** e proteção do crédito.
-* **Regime restritivo para dados sensíveis (art. 11)**:
-  - Consentimento específico e destacado para finalidades específicas; ou
-  - Hipóteses sem consentimento: obrigação legal/regulatória, políticas públicas, estudos por órgão de pesquisa, exercício regular de direitos, proteção da vida e tutela da saúde.
-  > [!IMPORTANT]
-  > **Pegadinha clássica (Legítimo Interesse)**: O **legítimo interesse** é base legal apenas para dados pessoais comuns (art. 7º, IX). Ele **NÃO constitui base legal do art. 11 para tratamento de dados pessoais sensíveis**.
-* **Regras estritas do consentimento**:
-  - Manifestação livre, informada e inequívoca para finalidade determinada.
-  - **Nulidade de autorizações genéricas**: termos que autorizam o uso de dados para "quaisquer finalidades convenientes" são nulos de pleno direito.
-  - **Cláusula destacada**: quando por escrito, o consentimento deve constar de cláusula destacada das demais cláusulas contratuais.
-  - **Ônus da prova**: cabe ao **controlador** comprovar que o consentimento foi obtido regularmente.
-  - **Revogação**: o titular pode revogar a qualquer momento mediante manifestação expressa e gratuita, mantida a licitude dos tratamentos realizados sob o consentimento anterior.
-
-### 3. Tratamento de dados pelo Poder Público e Empresas Estatais
-* **Fundamento e finalidade pública**: o tratamento pelo Poder Público não decorre de mera conveniência administrativa nem transforma os dados em propriedade estatal livre. Deve atender à sua **finalidade pública, à persecução do interesse público e à execução de competências legais/atribuições do serviço público**.
-* **Princípios aplicáveis ao Estado**: o Poder Público está plenamente sujeito aos princípios da LGPD (finalidade, adequação, necessidade/minimização, transparência e segurança), devendo informar as hipóteses de tratamento e as previsões legais.
-* **Uso compartilhado de dados**:
-  - Entre órgãos públicos: restrito a finalidades específicas de execução de políticas públicas e atribuições legais.
-  - Transferência para entidades privadas: é restritiva, mas admitida em hipóteses expressas em lei (ex: execução descentralizada de serviço público sob concessão/permissão, dados publicamente acessíveis observada a finalidade, previsão legal expressa).
-* **Empresas públicas e sociedades de economia mista (Dataprev, BB, CEF, etc.)**:
-  - Em regime de concorrência / atividade econômica: submetem-se ao regime de **pessoas jurídicas de direito privado**.
-  - Operacionalizando políticas públicas: submetem-se ao regime aplicável ao **Poder Público**.
-
-### 4. Rol dos princípios fundamentais (art. 6º)
-1. **Finalidade**: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular.
-2. **Adequação**: compatibilidade do tratamento com as finalidades informadas.
-3. **Necessidade (minimização)**: limitação do tratamento ao mínimo necessário para a realização de suas finalidades (abrangendo dados pertinentes e não excessivos).
-4. **Livre acesso**: garantia de consulta facilitada e gratuita sobre a forma, duração e integralidade de seus dados.
-5. **Qualidade dos dados**: garantia de exatidão, clareza, relevância e atualização dos dados.
-6. **Transparência**: informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes.
-7. **Segurança**: utilização de medidas técnicas e administrativas aptas a proteger os dados de acessos não autorizados e situações acidentais ou ilícitas (ex: criptografia, controle de acessos).
-8. **Prevenção**: adoção de medidas antecipadas para prevenir a ocorrência de danos em virtude do tratamento de dados.
-9. **Não discriminação**: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos.
-10. **Responsabilização e prestação de contas**: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas.
+Não existe regra de que “LAI sempre prevalece” ou “LGPD sempre impede divulgação”. A solução depende da natureza da informação, da finalidade do tratamento, da existência de dever de transparência e das restrições legais aplicáveis.
 
 > [!NOTE]
-> **Heurística de diferenciação rápida**:
-> - *Finalidade* = qual é o propósito?
-> - *Adequação* = o tratamento combina com o propósito?
-> - *Necessidade* = estou usando apenas o estritamente necessário?
-> - *Segurança* = mecanismos técnicos e administrativos de proteção.
-> - *Prevenção* = medidas antecipadas para evitar danos.
-> - *Prestação de contas* = comprovar com evidências que agiu corretamente.
+> Esta nota prioriza a **aplicação à comunicação pública e à Dataprev**. A literalidade da LAI e seus procedimentos também são estudados em [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios e Lei de Acesso à Informação]].
 
-### 5. Personagens, agentes de tratamento e responsabilidade (arts. 5º, 39 e 42)
-* **Titular**: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento.
-* **Controlador**: pessoa natural ou jurídica, de direito público ou privado, a quem competem as **decisões** referentes ao tratamento de dados pessoais.
-* **Operador**: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais **em nome do controlador** (executa segundo instruções fornecidas).
-  - *Mudança funcional*: se o operador desviar das instruções e determinar finalidades comerciais próprias por conta própria, equipara-se ao controlador quanto àquele tratamento.
-* **Agentes de tratamento**: gênero que engloba tanto o **controlador** quanto o **operador**.
-* **Encarregado (DPO)**: pessoa indicada pelo controlador e operador para atuar como **canal de comunicação** entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD).
-* **Responsabilidade civil e incidentes**:
-  - *Incidente ≠ responsabilidade civil automática*: a ocorrência de vazamento ou incidente exige demonstração de dano, nexo causal e desconformidade com a legislação.
-  - Havendo incidente que possa acarretar risco ou dano relevante aos titulares, cabe privativamente ao **controlador** comunicar à ANPD e aos titulares.
+## 1. Transparência pública, participação e prestação de contas
 
-### 6. Sanções administrativas e a ANPD (art. 52)
-A aplicação de sanções administrativas compete à ANPD mediante processo administrativo que assegure o contraditório e a ampla defesa.
-* **Rol de sanções administrativas**:
-  1. **Advertência**, com indicação de prazo para adoção de medidas corretivas;
-  2. **Multa simples**, de até 2% do faturamento da empresa/grupo (limitada a R$ 50.000.000,00 por infração);
-  3. **Multa diária**;
-  4. **Publicização da infração** após apurada e confirmada;
-  5. **Bloqueio dos dados pessoais** a que se refere a infração;
-  6. **Eliminação dos dados pessoais** a que se refere a infração;
-  7. Suspensão parcial do funcionamento do banco de dados ou da atividade de tratamento;
-  8. Proibição parcial ou total do exercício de atividades relacionadas a tratamento de dados.
-  > [!TIP]
-  > **Escadinha mental de sanções**: Advertir -> Multar -> Publicizar -> Restringir/Eliminar o dado/tratamento.
-  > 
-  > **Atenção em prova (Dosimetria)**: A reincidência é critério para agravar a sanção na dosimetria, mas **não acarreta automaticamente a aplicação da multa máxima**.
+### Transparência ativa × passiva
 
-### 7. Direitos do titular (art. 18)
-O titular dos dados pessoais tem direito a obter do controlador, em relação aos dados por ele tratados, a qualquer momento e mediante requisição:
-* Confirmação da existência de tratamento e acesso aos dados;
-* Correção de dados incompletos, inexatos ou desatualizados;
-* **Anonimização, bloqueio ou eliminação** de dados desnecessários, excessivos ou tratados em desconformidade com a LGPD;
-* Portabilidade dos dados a outro fornecedor de serviço ou produto;
-* Eliminação dos dados pessoais tratados com o consentimento do titular (ressalvadas hipóteses legais de guarda);
-* Informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados;
-* Revogação do consentimento.
+- **Transparência ativa**: divulgação promovida pela própria Administração, sem pedido prévio do cidadão.
+- **Transparência passiva**: acesso fornecido em resposta a uma solicitação de informação.
 
-### 8. Decisões automatizadas e inteligência artificial (art. 20)
-* O titular dos dados tem direito a **solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado** de dados pessoais que afetem seus interesses, incluídas as decisões destinadas a definir o seu perfil pessoal, profissional, de consumo e de crédito ou os aspectos de sua personalidade.
-* **Atenção em prova**: a LGPD **não proíbe** decisões exclusivamente automatizadas e **não exige obrigatoriamente que a revisão seja feita por pessoa humana** (a exigência de revisão humana foi vetada na tramitação da lei).
-* O controlador deve fornecer, sempre que solicitadas, informações claras e adequadas a respeito dos **critérios e dos procedimentos** utilizados para a decisão automatizada, observados os segredos comercial e industrial.
-* O uso de algoritmos matemáticos ou IA **não afasta** os princípios da LGPD, especialmente o princípio da não discriminação.
+> [!TIP]
+> Ativa = o órgão se antecipa. Passiva = o cidadão provoca a Administração.
 
----
+### Publicar × comunicar
 
-## LGPD em Pesquisas de Comunicação e UX
+Cumprir formalmente uma obrigação de publicação não garante que a informação seja efetivamente utilizável. Na perspectiva comunicacional, transparência também depende de encontrabilidade, clareza, acessibilidade e contexto.
 
-Ao realizar pesquisas de imagem, satisfação ou testes de usabilidade:
-1. **Fase de Coleta/Análise**: Utilizar pseudonimização (códigos como P01, P02), mantendo a chave de identificação isolada e com acesso restrito.
-2. **Fase de Relatório/Publicação**: Priorizar dados **agregados ou anonimizados**.
-   * *Atenção*: Agregação não garante anonimato se o recorte de público for muito pequeno e permitir a reidentificação indireta.
-3. **Citações Qualitativas**: Avaliar se a frase ou os dados contextuais (cargo + unidade + características) identificam o participante. Parafrasear ou remover detalhes contextuais sem alterar o sentido.
-4. **Descarte**: Eliminar identificadores e gravações assim que a finalidade da pesquisa for cumprida (não reter dados "por conveniência").
+Isso não significa que todo problema de usabilidade constitua automaticamente descumprimento jurídico da LAI. É preciso separar:
 
----
+- **dever legal de publicidade/acesso**;
+- **qualidade da comunicação da informação**;
+- **boas práticas de linguagem simples, acessibilidade e arquitetura da informação**.
 
-## Protocolos de Comunicação de Incidentes de Segurança (Resolução CD/ANPD nº 15/2024)
+### Participação social
 
-### 1. Condições de Notificação Obrigatória
-Um vazamento ou acesso indevido deve ser comunicado à ANPD e aos titulares quando preencher cumulativamente três requisitos:
-1. O incidente está **confirmado**.
-2. Envolve **dados pessoais** sujeitos à LGPD.
-3. Pode acarretar **risco ou dano relevante** aos titulares.
+Participação social pressupõe possibilidade de manifestação e influência no processo público. Divulgar uma decisão já tomada é comunicação unilateral; consulta, audiência, conselho e ouvidoria criam mecanismos de escuta e participação, com diferentes graus de influência sobre a decisão final.
+
+### Accountability
+
+Prestação de contas envolve informar, justificar e sujeitar decisões, recursos e resultados ao escrutínio e à responsabilização. Não se confunde com publicidade institucional favorável à imagem da organização.
+
+## 2. LGPD: categorias fundamentais
+
+### Dado pessoal
+
+É a informação relacionada a pessoa natural identificada ou identificável. CPF, nome, endereço, telefone e outros identificadores podem ser dados pessoais mesmo quando não são secretos.
+
+### Dado pessoal sensível
+
+O art. 5º, II, estabelece rol específico:
+
+1. origem racial ou étnica;
+2. convicção religiosa;
+3. opinião política;
+4. filiação a sindicato ou a organização de caráter religioso, filosófico ou político;
+5. dado referente à saúde ou à vida sexual;
+6. dado genético ou biométrico, quando vinculado a pessoa natural.
 
 > [!WARNING]
-> **Vulnerabilidade ≠ Incidente**: Uma fragilidade no sistema sem evidência de vazamento é uma vulnerabilidade, e não um incidente reportável.
+> **Privado ou confidencial ≠ sensível.** CPF, salário, patrimônio e endereço podem exigir proteção, mas não integram automaticamente o rol jurídico de dados pessoais sensíveis.
 
-### 2. Papéis e Responsabilidade de Notificação
-* **Controlador**: Responsável **formal e legal** por comunicar à ANPD e aos titulares.
-* **Operador**: Ao identificar o incidente, deve apenas **informar o controlador sem demora injustificada**, fornecendo as informações necessárias.
+### Dado anonimizado × pseudonimizado
 
-### 3. Prazos e Procedimento
-* **Prazo Geral**: **3 dias úteis** a contar da ciência do incidente de risco relevante.
-* **Comunicação Preliminar**: Se a investigação estiver em andamento, o controlador envia uma notificação preliminar à ANPD e pode complementá-la justificadamente em até **20 dias úteis**.
-* **Comunicação aos Titulares**: Deve ser individual e clara, redigida em **linguagem simples**, explicando o ocorrido, categorias de dados afetados, riscos e medidas de mitigação adotadas.
-* **Obrigação de Registro**: O controlador é obrigado a **manter registro de TODOS os incidentes por no mínimo 5 anos**, inclusive daqueles que considerou não ter risco relevante para notificar à ANPD.
+**Anonimizado** é o dado relativo a titular que não possa ser identificado considerando meios técnicos razoáveis e disponíveis. Em regra, não é tratado como dado pessoal pela LGPD, salvo quando o processo puder ser revertido com meios próprios ou esforços razoáveis nas condições previstas na lei.
 
----
+**Pseudonimização** reduz a associação direta com o titular mediante separação de informação adicional. O dado continua submetido à LGPD enquanto a reidentificação permanecer possível.
 
-## Como a banca cobra
+> [!TIP]
+> Pergunte separadamente: **o que o dado revela?** e **é possível identificar o titular?** Um dado pode ser sensível e, ao mesmo tempo, pseudonimizado.
 
-A FGV apresenta casos envolvendo pedidos de acesso à informação contendo dados que possam identificar pessoas ou expor salários. O candidato deve julgar à luz da ponderação de interesses: a publicidade das contas públicas e das remunerações de servidores (interesse geral) vs. a proteção de dados privados e sensíveis (LGPD).
+## 3. Princípios do art. 6º
 
-Outro ponto recente é a cobrança de incidentes de segurança combinando **gestão de crise + LGPD + linguagem simples**: a banca testa se o candidato sabe que a gestão de crise não substitui o protocolo formal de notificação em 3 dias úteis e que a mensagem ao titular deve ser clara e orientada a ações de proteção do cidadão.
+A LGPD estabelece, além da boa-fé, dez princípios:
+
+1. **Finalidade**: propósito legítimo, específico, explícito e informado.
+2. **Adequação**: compatibilidade do tratamento com a finalidade informada.
+3. **Necessidade**: tratamento limitado ao mínimo necessário.
+4. **Livre acesso**: consulta facilitada e gratuita sobre forma e duração do tratamento e integralidade dos dados.
+5. **Qualidade dos dados**: exatidão, clareza, relevância e atualização.
+6. **Transparência**: informações claras, precisas e acessíveis sobre tratamento e agentes.
+7. **Segurança**: medidas técnicas e administrativas contra acessos não autorizados e situações acidentais ou ilícitas.
+8. **Prevenção**: medidas para prevenir danos.
+9. **Não discriminação**: vedação de tratamento para fins discriminatórios ilícitos ou abusivos.
+10. **Responsabilização e prestação de contas**: demonstração de medidas eficazes de conformidade.
+
+### Fronteiras que a banca pode explorar
+
+- finalidade = **para quê?**
+- adequação = **isso combina com a finalidade?**
+- necessidade = **estou tratando apenas o necessário?**
+- segurança = **como protejo?**
+- prevenção = **o que faço antes para reduzir o risco?**
+- responsabilização = **como demonstro que cumpri?**
+
+## 4. Bases legais e consentimento
+
+Consentimento não é requisito universal. O art. 7º prevê diferentes bases legais para dados pessoais; o art. 11 possui regime próprio para dados pessoais sensíveis.
+
+### Dados pessoais em geral, art. 7º
+
+Entre as bases estão consentimento, obrigação legal ou regulatória, execução de políticas públicas, estudos por órgão de pesquisa, execução de contrato, exercício regular de direitos, proteção da vida, tutela da saúde, legítimo interesse e proteção do crédito.
+
+### Dados pessoais sensíveis, art. 11
+
+O tratamento pode ocorrer mediante consentimento específico e destacado para finalidades específicas ou, sem consentimento, nas hipóteses legais, entre elas:
+
+- obrigação legal ou regulatória;
+- execução de políticas públicas;
+- estudos por órgão de pesquisa;
+- exercício regular de direitos;
+- proteção da vida;
+- tutela da saúde;
+- **prevenção à fraude e segurança do titular em processos de identificação e autenticação**, observadas as condições legais.
+
+> [!IMPORTANT]
+> **Legítimo interesse não é base legal do art. 11 para dados sensíveis.** A banca pode deslocar a base do art. 7º para o regime do art. 11 como verdade parcial.
+
+### Consentimento
+
+Quando utilizado, deve ser livre, informado e inequívoco para finalidade determinada. Autorizações genéricas são nulas. Se escrito, deve constar de cláusula destacada. O controlador tem o ônus de demonstrar que o consentimento foi obtido conforme a lei, e o titular pode revogá-lo mediante procedimento gratuito e facilitado.
+
+## 5. Poder Público e empresas estatais
+
+O tratamento pelo Poder Público deve atender à finalidade pública, à persecução do interesse público e à execução de competências ou atribuições legais do serviço público.
+
+Empresas públicas e sociedades de economia mista recebem tratamento diferente conforme a atividade:
+
+- quando atuam em regime de concorrência, aplica-se o regime das pessoas jurídicas de direito privado;
+- quando operacionalizam políticas públicas no âmbito de sua execução, aplica-se o regime específico previsto para o Poder Público.
+
+> [!WARNING]
+> Ser empresa estatal não resolve sozinho a questão. A prova pode exigir observar **qual atividade de tratamento está sendo realizada**.
+
+## 6. Agentes de tratamento e encarregado
+
+- **Titular**: pessoa natural a quem os dados se referem.
+- **Controlador**: decide sobre o tratamento de dados pessoais.
+- **Operador**: realiza o tratamento em nome do controlador.
+- **Agentes de tratamento**: controlador e operador.
+- **Encarregado**: atua como canal de comunicação entre agente de tratamento, titulares e ANPD e exerce as atribuições previstas em lei e regulamentação.
+
+### Indicação do encarregado
+
+A LGPD, no art. 41, estabelece a indicação pelo controlador. A Resolução CD/ANPD nº 18/2024 disciplina a matéria e prevê que a **indicação de encarregado por operadores é facultativa**, considerada boa prática de governança.
+
+> [!TIP]
+> Não confunda a definição geral do art. 5º, VIII, com a regra operacional de indicação prevista no art. 41 e regulamentada pela ANPD.
+
+## 7. ANPD em 2026
+
+A Lei nº 15.352, de 25 de fevereiro de 2026, transformou a ANPD em **Agência Nacional de Proteção de Dados**, autarquia de natureza especial vinculada ao Ministério da Justiça e Segurança Pública, com autonomia funcional, técnica, decisória, administrativa e financeira.
+
+> [!IMPORTANT]
+> Materiais anteriores a 2026 podem chamar a ANPD de **Autoridade Nacional de Proteção de Dados**. Para questões sobre a legislação vigente em 2026, atenção à mudança para **Agência Nacional de Proteção de Dados**.
+
+## 8. Direitos do titular
+
+O art. 18 assegura, entre outros, direitos de:
+
+- confirmação da existência de tratamento;
+- acesso aos dados;
+- correção de dados incompletos, inexatos ou desatualizados;
+- anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade;
+- portabilidade, observada a regulamentação;
+- eliminação de dados tratados com consentimento, ressalvadas hipóteses legais;
+- informação sobre compartilhamento;
+- informação sobre a possibilidade de não fornecer consentimento e suas consequências;
+- revogação do consentimento;
+- oposição, nas hipóteses legais, a tratamento realizado sem consentimento em desconformidade com a LGPD.
+
+## 9. Decisões automatizadas, art. 20
+
+O titular pode solicitar revisão de decisões tomadas **unicamente com base em tratamento automatizado** que afetem seus interesses, inclusive decisões destinadas a definir perfil pessoal, profissional, de consumo, crédito ou aspectos da personalidade.
+
+A LGPD vigente não exige, como regra textual do art. 20, que essa revisão seja obrigatoriamente realizada por pessoa humana. O controlador deve fornecer, quando solicitado, informações claras e adequadas sobre critérios e procedimentos utilizados, observados segredos comercial e industrial.
+
+> [!WARNING]
+> **Decisão automatizada não é proibida pela LGPD.** A pegadinha é transformar direito de revisão em proibição do uso de automação.
+
+## 10. Sanções administrativas
+
+O art. 52 prevê, entre as sanções:
+
+1. advertência;
+2. multa simples;
+3. multa diária;
+4. publicização da infração;
+5. bloqueio dos dados pessoais;
+6. eliminação dos dados pessoais;
+7. suspensão parcial do funcionamento do banco de dados;
+8. suspensão do exercício da atividade de tratamento;
+9. proibição parcial ou total do exercício de atividades relacionadas ao tratamento.
+
+As multas previstas nos incisos II e III não se aplicam indistintamente a órgãos e entidades públicos. O § 3º permite a esses entes as sanções dos incisos I, IV, V, VI, X, XI e XII.
+
+> [!TIP]
+> **Pegadinha:** o rol geral de sanções não significa que toda sanção possa ser aplicada a qualquer tipo de agente da mesma forma.
+
+## 11. Comunicação de incidentes de segurança
+
+A Resolução CD/ANPD nº 15/2024 regulamenta o art. 48 da LGPD.
+
+### O que é incidente
+
+Incidente de segurança com dados pessoais é evento adverso confirmado que comprometa confidencialidade, integridade, disponibilidade ou autenticidade dos dados pessoais. Não se limita a “vazamento”. Ransomware, perda, alteração, publicação acidental ou indisponibilidade também podem configurar incidentes.
+
+**Vulnerabilidade** é fragilidade que pode ser explorada; sua mera existência não constitui, por si só, incidente.
+
+### Quando comunicar
+
+A comunicação à ANPD e aos titulares é exigida quando, cumulativamente:
+
+1. o incidente está confirmado;
+2. envolve dados pessoais sujeitos à LGPD;
+3. pode acarretar risco ou dano relevante aos titulares.
+
+Nem todo incidente precisa ser comunicado. O controlador deve avaliar o risco e o impacto.
+
+### Responsabilidades
+
+- **Controlador**: responde pela comunicação à ANPD e aos titulares.
+- **Operador**: deve informar o controlador sem demora injustificada e fornecer informações necessárias à avaliação e comunicação.
+
+### Prazos
+
+A comunicação deve ser feita em até **3 dias úteis**, ressalvada legislação específica. Se o controlador ainda não tiver todas as informações, pode realizar comunicação preliminar e complementá-la de forma fundamentada em até **20 dias úteis contados da comunicação**.
+
+O controlador deve manter registro dos incidentes de segurança com dados pessoais por pelo menos **5 anos**, inclusive dos que não foram comunicados por não terem sido considerados de risco ou dano relevante.
+
+### Comunicação aos titulares
+
+Deve usar linguagem simples e de fácil entendimento. Quando possível, deve ser direta e individualizada. O regulamento admite, excepcionalmente e com justificativa, comunicação indireta por meio capaz de alcançar os titulares quando a individualização não for possível.
+
+> [!IMPORTANT]
+> Gestão de crise comunicacional não substitui o dever jurídico de comunicar incidente quando os requisitos legais estiverem presentes.
+
+## 12. LGPD em pesquisa de comunicação e UX
+
+Pesquisa com usuários não cria uma exceção geral à LGPD. Se houver tratamento de dados pessoais, é necessário definir finalidade, base legal, necessidade, segurança e retenção adequadas ao caso.
+
+Boas práticas incluem:
+
+- separar base de recrutamento da base de análise;
+- usar pseudônimos quando a identificação direta não é necessária à análise;
+- reduzir atributos que aumentem risco de reidentificação;
+- publicar resultados agregados ou efetivamente anonimizados quando possível;
+- controlar acesso a gravações e identificadores;
+- eliminar ou anonimizar dados quando se encerra a necessidade de conservação, observadas as hipóteses legais de retenção.
+
+> [!WARNING]
+> **Pseudonimizar ≠ anonimizar.** E “agregar” dados também não garante anonimato se grupos muito pequenos permitirem reidentificação.
+
+## Como costuma ser cobrado
+
+A FGV pode construir alternativas por deslocamento de categoria ou escopo:
+
+- chamar CPF ou salário de dado pessoal sensível;
+- dizer que consentimento é obrigatório em qualquer tratamento;
+- usar legítimo interesse como base para dado sensível;
+- confundir finalidade, adequação e necessidade;
+- dizer que operador decide finalidades em nome próprio sem alterar sua posição funcional;
+- afirmar que todo incidente deve ser comunicado à ANPD;
+- limitar incidente a vazamento de confidencialidade;
+- atribuir ao operador o dever legal principal de notificação;
+- dizer que a LGPD proíbe decisões automatizadas;
+- aplicar multa administrativa indistintamente a órgão público;
+- usar a denominação histórica “Autoridade Nacional” como se fosse necessariamente a redação vigente em 2026.
+
+## Relações com outros temas
+
+- [[3 - Materias/Comunicacao/02 - comunicacao publica|Comunicação pública]]: interesse público, acesso e participação.
+- [[3 - Materias/Comunicacao/10 - linguagem simples|Linguagem simples e acessibilidade digital]]: clareza no acesso e na comunicação de incidentes.
+- [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa em comunicação]]: minimização, pseudonimização e divulgação de resultados.
+- [[3 - Materias/Comunicacao/07 - gestao de crises|Gestão de crises]]: resposta comunicacional a incidentes sem substituir obrigações legais.
+- [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios e LAI]]: literalidade e procedimentos da Lei de Acesso à Informação.
+
+## Tensões e pegadinhas
+
+- **Publicidade ≠ exposição irrestrita de dados pessoais**.
+- **Privacidade ≠ sigilo absoluto**.
+- **Dado pessoal ≠ dado sensível**.
+- **Pseudonimização ≠ anonimização**.
+- **Consentimento ≠ única base legal**.
+- **Controlador ≠ operador**.
+- **Vulnerabilidade ≠ incidente**.
+- **Incidente ≠ vazamento apenas**.
+- **Boa prática ≠ obrigação legal automática**.
+- **Comunicação de crise ≠ comunicação regulatória do incidente**.
+
+## Heurísticas
+
+- Antes de divulgar, identifique se o objeto é informação pública, dado pessoal ou dado sensível.
+- Para LGPD, pergunte: finalidade, base legal, necessidade e risco.
+- CPF é pessoal, não sensível pelo rol do art. 5º, II.
+- Legítimo interesse não entra no art. 11 como base para dados sensíveis.
+- Controlador decide; operador executa em nome dele.
+- Em incidente: confirmado + dados pessoais + risco/dano relevante.
+- Prazo do RCIS: 3 dias úteis; complemento fundamentado: até 20 dias úteis.
+- Em 2026, ANPD = **Agência Nacional de Proteção de Dados**.
 
 ---
 **Fontes Brutas:**
 - [[00 inbox/05-07-2026]]
 - [[00 ingestão]]
 
+**Fontes normativas usadas na revisão:**
+- Lei nº 12.527/2011 (LAI).
+- Lei nº 13.709/2018 (LGPD), texto compilado.
+- Lei nº 15.352/2026, que transforma a ANPD em Agência Nacional de Proteção de Dados.
+- Resolução CD/ANPD nº 15/2024, Regulamento de Comunicação de Incidente de Segurança.
+- Resolução CD/ANPD nº 18/2024, Regulamento sobre a atuação do encarregado.

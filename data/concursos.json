@@ -3,32 +3,49 @@
     "id": "dataprev-2026",
     "nome": "Dataprev 2026",
     "banca": "FGV",
-    "cargo": "Analista de Tecnologia da Informação — Perfil 9: Comunicação Social",
+    "cargo": "Analista de Tecnologia da Informação: Perfil 9, Comunicação Social",
     "dataProva": "2026-10-11T13:00:00-03:00",
     "status": "planejado",
     "sourcePath": "2 - Editais/Dataprev 2026 (Original).md",
+    "fonteOficial": "https://conhecimento.fgv.br/concursos/dataprev26",
     "estruturaProva": {
       "totalQuestoes": 70,
       "pontuacaoMaxima": 115.0,
-      "criterioMinimoAprovacaoPontos": 57.5,
       "modulos": {
         "moduloI": {
           "nome": "Conhecimentos Gerais",
           "questoes": 40,
           "pesoPorQuestao": 1.0,
-          "pontos": 40.0
+          "pontos": 40.0,
+          "distribuicao": {
+            "linguaPortuguesa": 12,
+            "linguaInglesa": 12,
+            "raciocinioLogicoMatematico": 5,
+            "atualidadesInteligenciaArtificial": 6,
+            "legislacaoSegurancaInformacaoProtecaoDados": 5
+          }
         },
         "moduloII": {
-          "nome": "Conhecimentos Específicos (Perfil 9)",
+          "nome": "Conhecimentos Específicos: Perfil 9",
           "questoes": 30,
           "pesoPorQuestao": 2.5,
           "pontos": 75.0
         }
+      },
+      "criteriosAprovacao": {
+        "pontuacaoMinima": 57.5,
+        "naoZerarNenhumaDisciplina": true
+      },
+      "regraCalculoDesempenho": {
+        "formula": "acertosGerais + (acertosEspecificos * 2.5)",
+        "aplicarSomenteComComposicaoOficialCompleta": true,
+        "observacao": "Percentual bruto de acertos não substitui a pontuação ponderada quando a distribuição das questões é diferente da oficial."
       }
     },
     "metasCandidato": {
       "metaPontuacao": 102.0,
       "metaPercentualPontos": 88.7,
+      "natureza": "meta_pessoal",
       "sourcePath": "4 - Projetos/dataprev-2026/Estrategia.md"
     }
   },
@@ -36,14 +53,19 @@
     "id": "tcdf-2026",
     "nome": "TCDF 2026",
     "banca": "Cebraspe",
-    "cargo": "Analista Administrativo de Controle Externo (ANACE) — Especialidade: Serviços Técnico-Administrativos",
+    "cargo": "Analista Administrativo de Controle Externo (ANACE): Especialidade Serviços Técnico-Administrativos",
     "dataProva": "2026-11-22T08:00:00-03:00",
     "status": "planejado",
     "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
+    "fonteOficial": "https://www.cebraspe.org.br/concursos/TC_DF_26_ANALISTA",
     "estruturaProva": {
       "totalItens": 150,
       "pontuacaoMaxima": 150.0,
-      "metodoAvaliacao": "Certo ou Errado com fator de correcao (uma incorreta anula uma correta)",
+      "metodoAvaliacao": "Certo ou Errado com fator de correção",
+      "regraPontuacao": {
+        "descricao": "Uma resposta incorreta anula a pontuação de uma resposta correta, conforme o edital sintetizado no vault.",
+        "implicacaoDesempenho": "Acertos isolados não bastam para estimar a nota: é necessário registrar também erros e, quando aplicável, itens deixados sem resposta."
+      },
       "modulos": {
         "p1": {
           "nome": "Conhecimentos Básicos",

@@ -3,7 +3,7 @@ title: "Equivalências e negações lógicas"
 type: "conceito"
 status: "ativo"
 created: 2026-05-26
-updated: 2026-09-10
+updated: 2026-09-11
 ---
 # Equivalências e negações lógicas
 
@@ -122,6 +122,118 @@ Quando a negação é distribuída em uma conjunção ou disjunção, cada propo
 > **Erro comum e pegadinha de prova (Tensão)**: 
 > Negar a frase *"João estuda e trabalha"* como *"João não estuda e não trabalha"*. 
 > **O correto é**: *"João não estuda ou não trabalha"*. A negação de uma conjunção obrigatoriamente produz uma disjunção.
+
+---
+
+## Questões comentadas — bateria de 11/09/2026
+
+A bateria de retenção após sete dias sem treino produziu **2/6**. O padrão não indica desconhecimento absoluto das regras: houve acerto de uma negação com quantificador e de uma contraposição com consequente composto. A dificuldade aparece na **recuperação operacional consistente**: identificar a estrutura, aplicar a transformação e resistir a uma alternativa semanticamente plausível.
+
+### Questão 1 — De Morgan: negar também exige trocar o conectivo
+
+**Enunciado-base:** “Não é verdade que o sistema esteja atualizado ou que o antivírus esteja ativo.”
+
+Defina $S$ = “sistema atualizado” e $A$ = “antivírus ativo”. A frase é:
+
+$$\neg(S \lor A)$$
+
+Pela lei de De Morgan:
+
+$$\neg(S \lor A) \equiv \neg S \land \neg A$$
+
+**Resposta correta:** “o sistema não está atualizado **e** o antivírus não está ativo”.
+
+**Resposta marcada:** “o sistema não está atualizado **ou** o antivírus não está ativo”.
+
+**Análise do erro [C]:** os dois termos foram negados corretamente, mas o conectivo permaneceu `ou`. A negação que entra no parêntese executa duas operações inseparáveis: **nega cada termo e troca `e ↔ ou`**.
+
+**Teste rápido:** a frase original negada só é verdadeira quando as duas proposições internas são falsas. Se apenas uma for falsa, $S \lor A$ ainda é verdadeiro e sua negação é falsa.
+
+### Questão 2 — negar o antecedente não autoriza negar o consequente
+
+**Enunciado-base:** “O acesso aos dados sigilosos somente será permitido aos empregados credenciados.”
+
+Defina $A$ = “teve acesso” e $C$ = “é credenciado”. “Somente aos credenciados” estabelece:
+
+$$A \to C$$
+
+A informação adicional era $\neg A$: Renato não teve acesso.
+
+De $A \to C$ e $\neg A$, **nada se conclui sobre $C$**. Renato pode ser credenciado e simplesmente não ter acessado os dados.
+
+**Resposta correta:** é impossível determinar se Renato era credenciado.
+
+**Resposta marcada:** Renato certamente não era credenciado.
+
+**Análise do erro [C]:** a resposta marcada introduz a **inversa** $\neg A \to \neg C$, que não é equivalente à regra original. O teste operacional é: se a informação dada nega o **antecedente**, pare; uma condicional comum não permite inferência necessária daí.
+
+### Questão 3 — recíproca parece natural, mas não é equivalente
+
+**Enunciado-base:** “Se o relatório contiver inconsistências, solicitarei sua revisão.”
+
+Defina $I$ = “há inconsistências” e $R$ = “há solicitação de revisão”:
+
+$$I \to R$$
+
+A equivalente é a contrapositiva:
+
+$$\neg R \to \neg I$$
+
+**Resposta correta:** se a gerente não solicitar revisão, o relatório não contém inconsistências.
+
+**Resposta marcada:** se a gerente solicitar revisão, o relatório contém inconsistências.
+
+A resposta marcada é:
+
+$$R \to I$$
+
+ou seja, a **recíproca**. Ela acrescenta uma exclusividade inexistente: a gerente pode solicitar revisão por vários outros motivos.
+
+**Análise do erro [C]:** o conteúdo semântico torna a recíproca plausível, mas equivalência é sintática. Para $P \to Q$, a única “volta” garantida é **voltar negando**: $\neg Q \to \neg P$.
+
+### Questão 5 — condição suficiente + contraposição
+
+**Enunciado-base:** “É suficiente que o requerimento seja assinado digitalmente para que sua autenticidade seja reconhecida.”
+
+Defina $D$ = “assinado digitalmente” e $R$ = “autenticidade reconhecida”. “É suficiente” coloca a condição suficiente na origem da seta:
+
+$$D \to R$$
+
+O enunciado informou $\neg R$. Pela contrapositiva:
+
+$$\neg R \to \neg D$$
+
+**Resposta correta:** o requerimento necessariamente não foi assinado digitalmente.
+
+**Resposta marcada:** não é possível concluir nada sobre a assinatura.
+
+**Análise do erro [C]:** aqui havia informação suficiente para aplicar **modus tollens**. Quando a regra é $P \to Q$ e a prova fornece $\neg Q$, pode-se concluir $\neg P$. A situação é diferente da Questão 2, em que a informação fornecida era $\neg P$.
+
+### Dois acertos que funcionam como controle
+
+Na Questão 4, a negação de “todos os analistas ... revisaram ou entrevistaram” foi resolvida corretamente como existência de pelo menos um analista que **não revisou e não entrevistou**. Isso combina troca de quantificador com De Morgan e mostra que a regra é conhecida, embora sua recuperação isolada ainda oscile.
+
+Na Questão 6, a estrutura era $A \to (B \land C)$ e foi informado $\neg C$. Como $\neg C$ torna falso o consequente inteiro $(B \land C)$, a contraposição leva a $\neg A$. A resposta foi correta, mas marcada como chute; portanto, serve como evidência parcial, não como domínio consolidado.
+
+### Mapa operacional dos quatro erros
+
+| Se a estrutura é | E a questão fornece/pede | Movimento válido | Movimento que gerou erro |
+| :--- | :--- | :--- | :--- |
+| $\neg(P \lor Q)$ | negação | $\neg P \land \neg Q$ | negar termos sem trocar `ou` por `e` |
+| $P \to Q$ | $\neg P$ | nenhuma conclusão necessária sobre $Q$ | inferir $\neg Q$ |
+| $P \to Q$ | equivalente | $\neg Q \to \neg P$ | usar $Q \to P$ |
+| $P \to Q$ | $\neg Q$ | concluir $\neg P$ | deixar de aplicar contraposição / modus tollens |
+
+### Protocolo de 20 segundos
+
+Antes de olhar para o sentido da frase, faça quatro perguntas:
+
+1. **Há uma negação sobre `e` ou `ou`?** Negue cada termo e troque o conectivo.
+2. **Há uma condicional?** Escreva mentalmente $P \to Q$ antes de inferir qualquer coisa.
+3. **Recebi $\neg P$?** Em regra, pare: não há conclusão necessária sobre $Q$.
+4. **Recebi $\neg Q$?** Volte negando: conclua $\neg P$.
+
+A meta de revisão não é memorizar mais teoria, mas automatizar esta sequência: **frase → estrutura → operação → alternativa**.
 
 ---
 

@@ -3,125 +3,137 @@ title: "Tabela verdade"
 type: "conceito"
 status: "ativo"
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-09-11
 ---
 # Tabela verdade
 
 ## Núcleo do conceito
-Tabela verdade é uma estrutura usada para representar todos os valores lógicos possíveis de uma proposição composta.
 
-Como a lógica proposicional trabalha com dois valores:
-- verdadeiro (V)
-- falso (F)
+Tabela verdade organiza todas as combinações possíveis de valores lógicos de uma proposição composta. Ela funciona como ferramenta de **verificação formal** quando a equivalência ou o valor lógico não está evidente.
 
-a tabela verdade organiza todas as combinações possíveis entre proposições simples e mostra o comportamento lógico da expressão resultante.
+Como cada proposição simples pode ser verdadeira (V) ou falsa (F), uma expressão com $n$ proposições simples possui:
 
-## Como isso aparece em prova
-A banca utiliza tabela verdade para:
-- verificar equivalências lógicas
-- identificar tautologias
-- identificar contradições
-- analisar implicações
-- calcular quantidade de linhas
-- testar valor lógico de proposições compostas
+$$2^n$$
 
-## Quantidade de linhas
-A quantidade de linhas de uma tabela verdade é dada por:
-
-2ⁿ
-
-onde:
-- n = número de proposições simples
+linhas.
 
 Exemplos:
-- 1 proposição → 2 linhas
-- 2 proposições → 4 linhas
-- 3 proposições → 8 linhas
+
+- 1 proposição → 2 linhas;
+- 2 proposições → 4 linhas;
+- 3 proposições → 8 linhas.
+
+## Como a FGV cobra
+
+A Fundação Getulio Vargas (FGV) pode usar tabela verdade para:
+
+- verificar equivalências;
+- classificar tautologias, contradições e contingências;
+- testar valores de proposições compostas;
+- identificar o único caso falso de uma condicional;
+- calcular a quantidade de linhas de uma tabela.
+
+Na maior parte das questões, reconhecer a regra do conectivo é mais rápido do que construir a tabela completa. Use a tabela como **auditoria** quando houver dúvida entre duas estruturas.
 
 ## Conectivos principais
 
-### Conjunção (∧)
-p ∧ q
+| p | q | $p \land q$ | $p \lor q$ | $p \to q$ | $p \leftrightarrow q$ |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| V | V | V | V | V | V |
+| V | F | F | V | F | F |
+| F | V | F | V | V | F |
+| F | F | F | F | V | V |
 
-Só é verdadeira quando ambas as proposições forem verdadeiras.
+Negação:
 
-| p | q | p ∧ q |
-|---|---|---|
-| V | V | V |
-| V | F | F |
-| F | V | F |
-| F | F | F |
-
-### Disjunção (∨)
-p ∨ q
-
-Só é falsa quando ambas forem falsas.
-
-| p | q | p ∨ q |
-|---|---|---|
-| V | V | V |
-| V | F | V |
-| F | V | V |
-| F | F | F |
-
-### Implicação (→)
-p → q
-
-Só é falsa quando:
-- p = verdadeiro
-- q = falso
-
-| p | q | p → q |
-|---|---|---|
-| V | V | V |
-| V | F | F |
-| F | V | V |
-| F | F | V |
-
-### Negação (¬)
-¬p
-
-Inverte o valor lógico da proposição.
-
-| p | ¬p |
-|---|---|
+| p | $\neg p$ |
+| :---: | :---: |
 | V | F |
 | F | V |
+
+Para o significado e a tradução dos conectivos em linguagem natural, ver [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]].
 
 ## Tautologia, contradição e contingência
 
 ### Tautologia
-Proposição que é sempre verdadeira.
 
-Exemplo:
-p ∨ ¬p
+É uma proposição **verdadeira em todas as linhas** da tabela.
+
+Exemplo clássico:
+
+$$p \lor \neg p$$
 
 ### Contradição
-Proposição que é sempre falsa.
 
-Exemplo:
-p ∧ ¬p
+É uma proposição **falsa em todas as linhas**.
+
+Exemplo clássico:
+
+$$p \land \neg p$$
 
 ### Contingência
-Proposição que possui linhas verdadeiras e falsas.
+
+Possui pelo menos uma linha verdadeira e pelo menos uma falsa. A maioria das proposições compostas comuns é contingente.
+
+### Negação de tautologia e contradição
+
+Se uma proposição já é sempre verdadeira ou sempre falsa, basta inverter sua classificação:
+
+- negação de tautologia → contradição;
+- negação de contradição → tautologia.
+
+| Estrutura | Classificação | Negação |
+| :--- | :--- | :--- |
+| $p \lor \neg p$ | tautologia | sempre falsa |
+| $p \land \neg p$ | contradição | sempre verdadeira |
+
+Esse controle é útil quando uma questão envolve uma negação externa. Antes de aplicar regras mecanicamente, pergunte se a expressão interna já possui valor lógico fixo.
+
+### Cuidado com frases cotidianas
+
+Nem toda frase que **parece** cobrir todas as possibilidades é uma tautologia formal.
+
+> “Chega no horário ou se atrasa.”
+
+No cotidiano, a frase parece exaustiva, mas pode haver outras situações relevantes, como faltar ou chegar adiantado. Em prova, prefira reconhecer tautologias por estruturas formalmente fechadas, como:
+
+$$p \lor \neg p$$
+
+ou contradições por:
+
+$$p \land \neg p$$
+
+## Como usar a tabela para verificar equivalência
+
+Duas proposições são equivalentes quando suas colunas finais são **idênticas em todas as linhas**.
+
+Exemplo conhecido:
+
+$$p \to q$$
+
+e
+
+$$\neg p \lor q$$
+
+produzem a mesma sequência de valores. Por isso são equivalentes.
+
+As transformações mais cobradas estão concentradas em [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]].
 
 ## Tensões e pegadinhas
-Erro comum:
-achar que a implicação funciona como “causa”.
 
-Na lógica proposicional:
-p → q
+- **Quantidade de linhas:** conte proposições simples distintas, não ocorrências repetidas.
+- **Condicional:** $p \to q$ só é falsa em V → F.
+- **Bicondicional:** é verdadeira quando os valores são iguais.
+- **Tautologia:** precisa ser verdadeira em todas as combinações, não apenas “parecer sempre verdadeira”.
+- **Equivalência:** exige colunas finais idênticas linha por linha.
 
-só é falsa quando:
-- p é verdadeiro
-- q é falso
+## Heurísticas
 
-Todos os outros casos são considerados verdadeiros.
+Use tabela verdade quando:
 
-## Notas de raciocínio
-Tabela verdade transforma interpretação em verificação formal.
+1. duas alternativas parecem estruturalmente equivalentes;
+2. você esqueceu uma regra de transformação;
+3. a questão pede explicitamente tautologia, contradição ou contingência;
+4. a expressão possui poucos termos e a verificação é mais segura do que a intuição.
 
-Quando houver dúvida:
-- construa a tabela
-- compare linha por linha
-- observe o comportamento da proposição
+Se a regra já estiver automatizada, não reconstrua a tabela inteira: em prova, isso tende a custar tempo sem aumentar precisão.

@@ -3,221 +3,238 @@ title: "Quantificadores"
 type: "conceito"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-05-29
+updated: 2026-09-11
 ---
-# Quantificadores (fechando sentenças abertas)
+# Quantificadores
 
 ## Núcleo do conceito
-Quantificadores são operadores que transformam sentenças abertas em proposições. Eles resolvem o problema da variável indefinida ao definir o alcance da afirmação.
 
-Enquanto “x é par” não é proposição (pois depende de x), ao aplicar um quantificador, a estrutura se fecha:
-> “todo número x é par”  
-> “existe um número x que é par”
+Quantificadores dizem **quantos elementos de um domínio** precisam satisfazer uma propriedade. Em prova, as quatro formas mais importantes são `todo`, `algum`, `nenhum` e `algum ... não`.
 
-nesses casos, a frase deixa de depender de um valor específico e passa a afirmar algo completo, podendo ser julgada como verdadeira ou falsa.
+| Forma | Leitura lógica | Estrutura típica |
+| :--- | :--- | :--- |
+| Todo A é B | todos os A pertencem a B | $\forall x\,(A(x) \to B(x))$ |
+| Algum A é B | existe pelo menos um A que é B | $\exists x\,(A(x) \land B(x))$ |
+| Nenhum A é B | não existe A que seja B | $\forall x\,(A(x) \to \neg B(x))$ |
+| Algum A não é B | existe pelo menos um A fora de B | $\exists x\,(A(x) \land \neg B(x))$ |
 
-Os dois principais quantificadores são:
-- universal (“todo”, “para todo”)
-- existencial (“existe”, “algum”)
+A ideia central é simples:
 
-==Quantificadores são operadores que transformam sentenças abertas em proposições porque **eles eliminam a dependência de um valor específico** e substituem essa dependência por uma afirmação geral ou existencial.== %% [comentário]: teste%%
+- **universal** (`todo`) estabelece uma regra para todos os elementos;
+- **existencial** (`algum`, `existe`, `pelo menos um`) afirma que há ao menos um caso.
 
-==Em uma sentença aberta como “x é par”, a variável x funciona como um espaço vazio. A frase não afirma nada por si só, ela apenas define uma condição que pode ou não ser satisfeita dependendo do valor atribuído==. Por isso, não é possível avaliá-la como verdadeira ou falsa.
+Para a diferença entre sentença aberta e proposição fechada, ver [[3 - Materias/Logica/01 - proposicao|Proposição]]. Esta nota parte do momento em que o quantificador já foi identificado.
 
-==Quando um quantificador é introduzido, esse “espaço vazio” deixa de ser um problema porque a frase passa a falar sobre um conjunto completo de possibilidades.==
+## Como a FGV cobra
 
-No caso do quantificador universal:
->“todo número x é par”
+A Fundação Getulio Vargas (FGV) tende a explorar três fronteiras:
 
-==a frase não depende mais de um valor específico de x. Ela afirma algo sobre **todos os possíveis valores**.== Isso permite avaliação, pois basta verificar se a propriedade se mantém para todos os casos.
+1. **universal × existencial**: trocar `todo` por `algum` ou `nenhum`;
+2. **negação**: transformar corretamente `todo` em `algum ... não` e `algum` em `nenhum`;
+3. **predicados compostos**: combinar quantificador com `e` ou `ou`, exigindo também De Morgan.
 
-==No caso do quantificador existencial:==
->==“existe um número x que é par”==
+O distrator clássico é exagerar a negação. Para derrubar uma afirmação universal, **um único contraexemplo basta**.
 
-==a frase também não depende de um valor específico. Ela afirma que **há pelo menos um valor** que satisfaz a condição.== A avaliação se torna possível porque basta encontrar um exemplo que torne a frase verdadeira.
+## Quantificador universal — todo
 
-O ponto central é que o quantificador muda o tipo de relação com a variável:
-- antes: a variável precisa ser preenchida → sentença aberta  
-- depois: a variável é absorvida pela afirmação → proposição  
+> “Todo servidor conhece a legislação.”
 
-==**Ou seja, o quantificador transforma a frase de uma “função esperando entrada” em uma “afirmação sobre um conjunto”.**==
+Estrutura:
 
-Isso explica por que:
-“x é par” → não é proposição  
-“existe um número par” → é proposição  
-não porque ficou mais claro, mas porque deixou de depender de uma escolha externa.
+$$\forall x\,(Servidor(x) \to Conhece(x))$$
 
-## Como isso aparece em prova
-A banca usa quantificadores para:
-- transformar sentenças abertas em proposições
-- confundir com variáveis livres
-- induzir erro ao misturar “x” com “existe x” ou “todo x”
+A frase estabelece uma regra para todos os servidores. Para mostrá-la falsa, basta encontrar **um servidor que não conheça a legislação**.
 
-o padrão comum é o candidato ignorar o quantificador e tratar a frase como aberta.
+Heurística:
 
-## Tensões e pegadinhas
-A principal confusão está em achar que qualquer frase com indeterminação não é proposição. Isso é falso.
+> **Todo → procure um contraexemplo.**
 
->“x é par” → não é proposição  
->“existe um número que é par” → é proposição  
+`Todo A é B` não deve ser lido como `Todo B é A`. A relação não volta automaticamente.
 
-a diferença não está na incerteza, mas na estrutura.
+## Quantificador existencial — algum / existe
 
-Outra pegadinha é confundir “algum” com indefinição. Em lógica, “algum” já fecha a frase, pois afirma existência.
-“algum aluno estuda” → proposição  
-mesmo que não saibamos qual aluno
+> “Algum servidor conhece a legislação.”
 
-## Exemplos comentados
-“x é maior que 2” não é proposição, pois depende de x.
-“todo número maior que 2 é positivo” é proposição, pois afirma algo geral sobre todos os elementos.
-“existe um número primo maior que 10” é proposição, pois afirma existência.
-“algum aluno estuda” é proposição, pois utiliza quantificador existencial.
+Estrutura:
 
-## Notas de raciocínio
-O erro comum é tentar identificar proposição olhando apenas para presença de variável. Isso não é suficiente.
+$$\exists x\,(Servidor(x) \land Conhece(x))$$
 
-A pergunta correta passa a ser:
-a variável está solta ou está controlada por um quantificador?
+A frase exige apenas **um caso** que satisfaça as duas propriedades.
 
-Se estiver solta → sentença aberta  
-Se estiver quantificada → proposição  
+Heurística:
 
-Isso resolve conflitos como:
-“x é par ou x é ímpar” → não proposição  
-“todo número é par ou ímpar” → proposição  
+> **Existe → procure um exemplo.**
 
-A heurística evolui:
-não basta procurar variável, é preciso verificar se ela foi fechada por um quantificador.
+Em lógica, `algum` significa **pelo menos um**. Não significa “alguns, mas não todos”. Portanto, `algum A é B` é compatível com a possibilidade de todos os A serem B.
 
-### Escopo do quantificador (onde ele atua)
-Um quantificador não atua apenas sobre a palavra mais próxima, mas sobre toda a expressão que ele governa.
+## Nenhum
 
-#### Escopo com "ou"
-Exemplo:
-> “todo número x é par ou x é ímpar”
+> “Nenhum analista terceirizado é servidor efetivo.”
 
-A leitura correta é:
-$$\text{Para todo } x: (x \text{ é par ou } x \text{ é ímpar})$$
-e não:
-$$(\text{todo } x \text{ é par}) \text{ ou } (x \text{ é ímpar})$$
-Se o quantificador cobre toda a expressão, a variável deixa de ser livre e a frase é uma proposição.
+Isso significa que não existe elemento pertencente simultaneamente aos dois grupos:
 
-#### Escopo com "e"
-O quantificador atua sobre toda a expressão que o segue.
-Exemplo:
-> “todo número x é par e x > 2”
+$$\neg\exists x\,(Terceirizado(x) \land Efetivo(x))$$
 
-Leitura correta:
-$$\text{Para todo } x: (x \text{ é par e } x > 2)$$
-e não:
-$$(\text{todo } x \text{ é par}) \text{ e } (x > 2)$$
-O erro ocorre quando o conectivo é interpretado fora do escopo do quantificador. Na leitura correta, a proposição é **falsa** (pois nem todo número atende a ambos os critérios simultaneamente, ex: $x=1$ não é par, $x=2$ não é maior que 2).
+Uma forma equivalente é:
 
-- **Erro comum:** tratar o quantificador como local (deixando a outra variável livre ou fora do escopo), quando ele é estrutural.
+$$\forall x\,(Terceirizado(x) \to \neg Efetivo(x))$$
 
-### Independência de variáveis quantificadas
-Quando há mais de um quantificador, cada variável pertence ao seu próprio escopo, mesmo que use o mesmo símbolo.
+Se também sabemos que **alguns integrantes da equipe são terceirizados**, então esses integrantes necessariamente **não são efetivos**. O existencial fornece a existência; o universal negativo fornece a exclusão.
 
-Exemplo:
-> “todo número x é par e existe um número x que é ímpar”
+## Algum ... não
 
-Os dois “x” são independentes:
-- o primeiro pertence ao universal: “todo número x é par” (Falso)
-- o segundo ao existencial: “existe um número x que é ímpar” (Verdadeiro)
+> “Algum servidor não conhece a legislação.”
 
-A expressão é uma conjunção entre duas proposições distintas ($F \land V \to F$).
-- **Erro comum:** assumir que a variável é a mesma em toda a frase, achando que o "x" repetido deixaria a frase aberta. Cada quantificador define seu próprio escopo (universo).
+Estrutura:
 
-### Mistura de partes abertas e fechadas
-Uma proposição composta só é considerada válida (fechada) se todas as suas partes forem proposições.
+$$\exists x\,(Servidor(x) \land \neg Conhece(x))$$
 
-Se uma parte ainda for uma sentença aberta, a estrutura inteira permanece aberta, mesmo que outra parte esteja corretamente quantificada.
+A frase afirma apenas a existência de **pelo menos um** servidor fora do grupo dos que conhecem a legislação. Ela não informa o que acontece com os demais servidores.
 
-Exemplo:
-> “x é par ou existe um número x que é ímpar”
+Essa fronteira é importante: `algum A não é B` **não implica** que algum A seja B.
 
-  A segunda parte é uma proposição (quantificada), mas a primeira ainda depende de x. Como há uma variável livre na estrutura, a frase inteira não pode ser avaliada como verdadeira ou falsa.
+## Negação dos quantificadores
 
-Regra prática:
-- (aberto) ∨ (fechado) → aberto  
-- (aberto) ∧ (fechado) → aberto  
-- qualquer parte aberta contamina a expressão inteira  
-### Teste por exemplo e contraexemplo
-==Quantificadores exigem estratégias diferentes:==
-- ==“existe” → basta encontrar um exemplo para ser verdadeiro==  
-- ==“todo” → basta encontrar um contraexemplo para ser falso==  
+A negação troca universal por existencial — ou existencial por universal — e nega a propriedade relevante.
 
-Esse teste deve ser rápido e direto:
-- **Exemplo**: “existe número par maior que 100” → verdadeiro (exemplo: 102)
-- **Contraexemplo**: “todo número é maior que 0” → falso (contraexemplo: -1)
+| Afirmação | Negação correta |
+| :--- | :--- |
+| Todo A é B | Algum A não é B |
+| Algum A é B | Nenhum A é B |
+| Nenhum A é B | Algum A é B |
+| Algum A não é B | Todo A é B |
 
-### Disjunção com quantificador existencial
-Quando há um quantificador existencial (“existe”) combinado com uma disjunção (“ou”), a proposição tende a ser verdadeira com facilidade, pois basta que uma das condições seja satisfeita por algum elemento.
+### Por que `todo` vira `algum ... não`
 
-Exemplo:
-> “existe x tal que x > 5 ou x < 5”
+> “Todos os alunos estudam.”
 
-Basta encontrar um valor que satisfaça pelo menos uma das condições:
-- $x = 10 \to$ satisfaz $x > 5$  
-- $x = 1 \to$ satisfaz $x < 5$  
-Logo, a proposição é verdadeira.
+Para negar essa frase não é preciso afirmar que ninguém estuda. Basta um contraexemplo:
 
-- **Erro comum**: interpretar o “ou” como se exigisse que ambas as condições fossem satisfeitas (confundindo com "e"), ou achar que a exclusão de um elemento isolado (como o 5) invalida a existência.
-- **Regra prática**: "existe" + "ou" $\to$ tente encontrar um exemplo simples que valide qualquer uma das condições. Normalmente, basta um único caso para validar.
-
----
-
-## Negação de quantificadores
-
-A negação de quantificadores é uma das transformações mais importantes da lógica para concursos. A ideia central é que, ao negar uma afirmação universal, surge uma afirmação existencial. Da mesma forma, ao negar uma afirmação existencial, surge uma afirmação universal.
-
-### Regra fundamental
-- **Todo** vira **Existe um que não** (ou **Algum não**).
-- **Existe** vira **Nenhum** (ou **Todo não**).
+> “Algum aluno não estuda.”
 
 Formalmente:
-- **Todo A é B** $\to$ Negação: **Existe pelo menos um A que não é B**.
-- **Existe um A que é B** $\to$ Negação: **Nenhum A é B** (ou equivalentemente, **Todo A não é B**).
 
-### Exemplos comentados
-1. **Afirmação**: *"Todo servidor conhece a legislação."*
-   - *Pegadinha:* A banca induz a marcar *"Nenhum servidor conhece a legislação."* (Errado).
-   - *Negação Correta:* *"Existe pelo menos um servidor que não conhece a legislação."* ou *"Alguns servidores não conhecem a legislação."*
-   - *Por quê?:* Basta encontrar um único contraexemplo para falsear a afirmação original.
-2. **Afirmação**: *"Todos os alunos estudam."*
-   - *Negação Correta:* *"Algum aluno não estuda."* (Basta um único estudante que não estude).
-3. **Afirmação**: *"Existe um médico pesquisador."*
-   - *Negação Correta:* *"Não existe médico pesquisador."* ou *"Nenhum médico é pesquisador."* (Para negar a existência, é preciso eliminar todos os casos).
+$$\neg\forall x\,P(x) \equiv \exists x\,\neg P(x)$$
 
-### Tradução formal e intuição prática
-- Para negar **"todo"**, procure um contraexemplo.
-- Para negar **"existe"**, elimine todos os casos possíveis.
+### Por que `algum` vira `nenhum`
 
-- **Todo A é B**: $\forall x (A(x) \to B(x))$
-  - Negação: $\exists x (A(x) \land \neg B(x))$ (Leitura: *"Existe pelo menos um elemento que é A e não é B"*).
-- **Existe um A que é B**: $\exists x (A(x) \land B(x))$
-  - Negação: $\forall x (A(x) \to \neg B(x))$ (Leitura: *"Nenhum elemento que é A pertence a B"* / *"Todo A não é B"*).
+> “Existe um médico pesquisador.”
 
-### Negação de Universal com Predicados Compostos ("Todo... e...")
-Quando a sentença universal contém uma conjunção ("e") ligando propriedades, a negação exige duas transformações simultâneas:
-1. **O quantificador "Todo"** vira **"Pelo menos um que não"** (existencial).
-2. **A conjunção "e"** vira **"ou"** pela Lei de De Morgan: $\neg(P \land Q) \equiv \neg P \lor \neg Q$.
+Negar a existência exige eliminar todos os casos possíveis:
 
-$$\neg (\forall x (P(x) \land Q(x))) \equiv \exists x (\neg P(x) \lor \neg Q(x))$$
+> “Nenhum médico é pesquisador.”
 
-- **Exemplo de Prova**: *"Todos os relatórios foram revisados e aprovados."*
-  - **Negação Correta**: *"Pelo menos um relatório **não** foi revisado **ou não** foi aprovado."*
-  - **Pegadinha Clássica**: A banca oferece *"Todos os relatórios não foram revisados ou aprovados"* (Falsa! Generalização excessiva) ou *"Nenhum relatório foi revisado nem aprovado"* (Falsa!).
+Formalmente:
 
----
+$$\neg\exists x\,P(x) \equiv \forall x\,\neg P(x)$$
 
-### Como isso aparece em prova (Armadilha Clássica)
-As bancas adoram trocar **Todo** por **Nenhum** diretamente na negação. Lembre-se: a lógica trabalha com o **menor ataque possível** para invalidar uma frase. Para derrubar um "Todo", basta um "Existe pelo menos um que não".
+## Quantificador + `e` / `ou`
 
+Quando a propriedade quantificada é composta, é preciso aplicar **duas operações**: trocar o quantificador e negar a expressão interna.
 
-### Checklist rápido para Provas (Processo de Decisão)
-1. **Há variável livre?** Se sim $\to$ não é proposição (sentença aberta).
-2. **Há quantificador?** Se sim $\to$ é proposição estruturalmente fechada.
-3. **Há "e" e "ou" misturados?** Respeite a prioridade ("e" ($\land$) antes de "ou" ($\lor$)).
-4. **Há negação?** Reescreva mentalmente de forma clara.
-5. **Parece "sempre verdade" (Tautologia) ou "sempre mentira" (Contradição)?** Ver [[04 - equivalencias#Tautologia vs Negacao (A Regra de Ouro)|Tautologia vs Negação (A Regra de Ouro)]] para resolução direta.
+### Todo ... `e` ...
+
+> “Todos os relatórios foram revisados e aprovados.”
+
+Estrutura simplificada:
+
+$$\forall x\,(R(x) \land A(x))$$
+
+Negação:
+
+$$\exists x\,(\neg R(x) \lor \neg A(x))$$
+
+Leitura:
+
+> “Pelo menos um relatório não foi revisado **ou** não foi aprovado.”
+
+### Todo ... `ou` ...
+
+> “Todos os analistas revisaram os documentos ou entrevistaram os responsáveis.”
+
+Negação:
+
+> “Existe pelo menos um analista que **não revisou os documentos e não entrevistou os responsáveis**.”
+
+Aqui aparecem duas mudanças ao mesmo tempo:
+
+- `todo` → `existe pelo menos um`;
+- `ou` → `e` pela lei de De Morgan.
+
+Para a transformação interna, ver [[3 - Materias/Logica/04 - equivalencias#De Morgan|De Morgan]].
+
+## Escopo e variável livre
+
+O quantificador só fecha a variável **dentro do seu escopo**. Se outra parte da expressão ainda contém variável livre, a expressão completa continua aberta.
+
+> “x é par ou existe um número x que é ímpar.”
+
+A segunda parte está quantificada, mas o primeiro `x` continua livre. Portanto, a expressão inteira permanece aberta.
+
+Para aprofundar o critério de proposição/sentença aberta, ver [[3 - Materias/Logica/01 - proposicao|Proposição]].
+
+## Tensões e pegadinhas
+
+- **Negar `todo` como `nenhum`:** errado. Basta `algum ... não`.
+- **`Algum` não significa `não todos`:** afirma apenas existência de pelo menos um caso.
+- **Existência não autoriza generalização:** de `algum A é B` não se conclui `todo A é B`.
+- **Universal não autoriza recíproca:** de `todo A é B` não se conclui `todo B é A`.
+- **`Algum A não é B` é informação mínima:** não diz nada sobre os demais A.
+- **Quantificador + conectivo:** ao negar, pode ser necessário trocar também `e ↔ ou`.
+
+## Exemplos comentados
+
+### Exemplo 1 — negação mínima
+
+> “Todo empregado utiliza VPN e autenticação multifator.”
+
+Negação:
+
+> “Existe pelo menos um empregado que não utiliza VPN **ou** não utiliza autenticação multifator.”
+
+Não é necessário encontrar alguém que deixe de usar as duas coisas ao mesmo tempo.
+
+### Exemplo 2 — existência com exclusão
+
+Premissas:
+
+> “Nenhum terceirizado é servidor efetivo.”  
+> “Alguns integrantes da equipe são terceirizados.”
+
+Conclusão necessária:
+
+> “Alguns integrantes da equipe não são servidores efetivos.”
+
+O primeiro enunciado exclui a interseção; o segundo garante que há pelo menos um terceirizado na equipe.
+
+### Exemplo 3 — `algum ... não`
+
+> “Alguns candidatos não entregaram o documento.”
+
+A única garantia é que existe pelo menos um candidato sem entrega. A frase é compatível tanto com haver candidatos que entregaram quanto com ninguém ter entregado.
+
+## Protocolo de revisão rápida
+
+1. Identifique: **todo, algum, nenhum ou algum ... não?**
+2. Se for `todo`, pense em **contraexemplo**.
+3. Se for `algum`, pense em **um exemplo suficiente**.
+4. Se pedir negação, troque **universal ↔ existencial** e negue a propriedade.
+5. Se houver `e` ou `ou` dentro da propriedade, aplique também De Morgan.
+6. Não conclua nada sobre “o restante do grupo” além do que o quantificador realmente afirma.
+
+## Relações com outros temas
+
+- [[3 - Materias/Logica/01 - proposicao|Proposição]]: sentença aberta, variável livre e fechamento por quantificação.
+- [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]]: De Morgan e outras transformações formais.
+- [[3 - Materias/Logica/07 - diagramas logicos e conjuntos|Diagramas lógicos e conjuntos]]: representação visual de `todo`, `algum` e `nenhum`.
+
+## Heurísticas
+
+A pergunta central não é “o que parece acontecer com o grupo?”, mas **qual é a quantidade mínima que a frase garante?**
+
+- `todo` → regra para todos;
+- `algum` → pelo menos um;
+- `nenhum` → zero interseções;
+- `algum ... não` → pelo menos um contraexemplo.
+
+Na negação, faça o menor ataque capaz de destruir a frase original: para derrubar `todo`, **um único caso contrário basta**.

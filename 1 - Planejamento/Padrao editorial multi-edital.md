@@ -3,7 +3,7 @@ title: "Padrão editorial multi-edital"
 type: "governanca-editorial"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-09-11
 ---
 
 # Padrão editorial multi-edital
@@ -48,7 +48,27 @@ Registrar confusões plausíveis, verdades parciais, mudanças de escopo, exceç
 
 ### Exemplos comentados
 
-Usar exemplos que testem a fronteira conceitual, e não apenas ilustrem a definição. Quando possível, aproximar o mecanismo de distração de bancas relevantes sem transformar o exemplo em cópia de uma prova.
+Usar exemplos que testem a fronteira conceitual, e não apenas ilustrem a definição. O exemplo comentado pode ser curto e não precisa reproduzir a estrutura completa de uma questão. Quando possível, aproximar o mecanismo de distração de bancas relevantes sem transformar o exemplo em cópia de uma prova.
+
+### Questões comentadas
+
+Quando a tomada de decisão entre alternativas ajudar a compreender ou fixar o tema, incluir uma pequena seção de **questões comentadas**. Ela é diferente de `Exemplos comentados`: o exemplo mostra o mecanismo; a questão obriga a discriminar conceitos próximos, aplicar a regra e rejeitar distratores plausíveis.
+
+Por padrão, usar **1 a 3 questões de alto valor cognitivo**, e não baterias longas dentro do artigo. A dificuldade deve vir da proximidade conceitual entre as alternativas. Priorizar questões que explorem fronteiras entre categorias, transposição conceitual, verdade parcial, inversão de relação, mudança de escopo ou exceção relevante.
+
+Cada questão comentada deve permitir recuperar, sem depender de outro arquivo:
+
+- o enunciado ou situação-problema;
+- as alternativas quando o formato for de múltipla escolha;
+- o gabarito;
+- o raciocínio decisivo para chegar à resposta;
+- por que a correta está integralmente correta;
+- por que o melhor distrator parece plausível e onde exatamente ele falha;
+- comentários sobre as demais alternativas quando isso acrescentar uma distinção útil.
+
+Questões inéditas devem ser apresentadas como treino, não como questão real da banca. Quando uma questão real for utilizada como evidência, preservar sua proveniência — banca, prova/ano e fonte — e não apresentar uma adaptação como transcrição literal.
+
+Não inserir questões apenas para preencher uma seção. Em conceitos simples, um exemplo comentado pode ser suficiente. Em conceitos com fronteiras difíceis, taxonomias, exceções ou histórico de erro, `Questões comentadas` passa a ser uma ferramenta editorial prioritária.
 
 ### Heurísticas
 
@@ -65,7 +85,7 @@ Cada artigo deve receber três avaliações independentes.
 ### Qualidade editorial
 
 - `forte`: cobre o núcleo do conceito e as principais fronteiras necessárias para prova; a estrutura ajuda revisão e resolução de questões.
-- `precisa_refinamento`: o conteúdo principal existe, mas faltam conexões, fronteiras, exemplos, heurísticas ou organização.
+- `precisa_refinamento`: o conteúdo principal existe, mas faltam conexões, fronteiras, exemplos, questões comentadas quando pertinentes, heurísticas ou organização.
 - `incompleto`: faltam conceitos, categorias, regras ou partes relevantes para o uso em prova.
 
 ### Confiabilidade
@@ -133,6 +153,32 @@ related:
 
 `concept_id` é uma evolução futura. Ele não deve ser aplicado em massa antes de validar a taxonomia, porque um identificador estável mal definido gera mais custo do que usar `notaPath` diretamente.
 
+## Evolução assistida do padrão editorial
+
+Este padrão é uma hipótese de trabalho e **pode evoluir conforme o uso real do vault**. O agente não deve tratar as regras editoriais atuais como imutáveis quando a experiência de estudo revelar uma necessidade nova. Ao mesmo tempo, mudanças de governança não devem ser feitas silenciosamente.
+
+O agente deve considerar propor uma alteração do padrão quando identificar, por exemplo:
+
+- uma dificuldade recorrente de compreensão ou revisão que a estrutura atual não resolve;
+- o mesmo tipo de melhoria sendo necessário em vários artigos;
+- uma questão real ou um conjunto de erros mostrando que falta uma função cognitiva importante na nota;
+- excesso de fragmentação, repetição ou seções que não ajudam a resolver questões;
+- uma necessidade nova de busca, navegação ou conexão entre artigos que possa ser resolvida editorialmente;
+- um formato de estudo que se mostre particularmente útil, como questões comentadas, comparações, quadros de fronteira ou exemplos de classificação.
+
+Nesses casos, o agente deve **interromper a aplicação em massa** e apresentar uma proposta curta com quatro elementos:
+
+1. **problema observado** — o que no uso real está faltando ou atrapalhando;
+2. **mudança proposta** — qual regra editorial seria criada, removida ou alterada;
+3. **efeito esperado** — como isso melhora aprendizado, revisão, busca ou desempenho em prova;
+4. **escopo e custo** — quais notas seriam afetadas e se a mudança aumenta tamanho, manutenção ou redundância.
+
+Em seguida, deve perguntar explicitamente se a mudança pode ser incorporada ao padrão. Uma formulação suficiente é: **“Percebi que X está se repetindo; posso alterar o padrão editorial para incluir Y?”**
+
+A autorização é necessária para **mudanças na governança**, não para aplicar corretamente uma regra já existente nem para corrigir erro factual, erro de escrita ou inconsistência local. Quando o usuário solicitar explicitamente uma nova regra — como a inclusão de questões comentadas — o pedido já constitui autorização para essa mudança específica.
+
+O agente não precisa propor mudanças a cada artigo. Os melhores pontos de checagem são: após auditar um lote de notas, após uma sequência de estudo revelar uma necessidade recorrente, após corrigir erros que apontem uma lacuna estrutural ou quando o usuário disser que a forma atual da nota não está ajudando a aprender/revisar.
+
 ## Evolução da busca
 
 A busca deve tratar cada nota como um objeto estruturado. A ordem de implementação prevista é:
@@ -152,3 +198,5 @@ Busca semântica por embeddings não é prioridade enquanto ranking lexical estr
 ## Regra de manutenção
 
 A manutenção do padrão editorial deve ser incremental. Revisar pequenos lotes, comparar o resultado com questões e uso real da busca, e só então expandir o padrão para o restante do vault. Não reformatar notas fortes apenas para uniformizar títulos de seção.
+
+Na fase posterior à primeira passagem das matérias de um concurso, priorizar enriquecimentos que transformem conhecimento já estudado em capacidade de decisão: questões comentadas, fronteiras entre conceitos, recuperação de erros recorrentes e conexões entre notas. Evitar reescrever teoria já consolidada apenas para aumentar o volume do artigo.

@@ -8,296 +8,256 @@ updated: 2026-09-11
 # Equivalências e negações lógicas
 
 ## Núcleo do conceito
-Negações e equivalências são as ferramentas operacionais para transformar e reescrever proposições lógicas sem alterar a coerência da sua estrutura ou para inverter precisamente o seu valor lógico.
 
-Duas proposições são **logicamente equivalentes** quando possuem o mesmo valor lógico em todas as situações possíveis. Isso significa que, mesmo com estruturas diferentes, elas produzem exatamente o mesmo comportamento lógico. Equivalência lógica não significa igualdade de palavras, mas **igualdade estrutural de funcionamento**.
+Esta nota começa depois da tradução da frase. Se a estrutura já foi identificada como $p \to q$, $p \land q$ ou $p \lor q$, o objetivo aqui é saber **como transformá-la ou negá-la sem alterar o que ela significa**.
 
----
+| Operação | Regra |
+| :--- | :--- |
+| Contrapositiva | $p \to q \equiv \neg q \to \neg p$ |
+| Condicional em disjunção | $p \to q \equiv \neg p \lor q$ |
+| Negação da condicional | $\neg(p \to q) \equiv p \land \neg q$ |
+| De Morgan — negar `e` | $\neg(p \land q) \equiv \neg p \lor \neg q$ |
+| De Morgan — negar `ou` | $\neg(p \lor q) \equiv \neg p \land \neg q$ |
+| Dupla negação | $\neg(\neg p) \equiv p$ |
+| Negação da bicondicional | $\neg(p \leftrightarrow q)$ = exatamente uma das duas é verdadeira |
 
-## Como isso aparece em prova
-A banca examinadora costuma:
-- Reescrever proposições
-- Trocar conectivos lógicos
-- Esconder negações em expressões equivalentes
-- Pedir formas equivalentes diretas
+A tradução da linguagem natural (`se`, `somente se`, `basta`, `necessário`, `a menos que`) fica em [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]].
 
-O candidato que não domina os padrões de equivalência tenta resolver tudo por interpretação intuitiva ou desenhando tabelas verdade inteiras, perdendo tempo precioso.
+## Como a FGV cobra
 
----
+A Fundação Getulio Vargas (FGV) costuma oferecer uma transformação **quase correta**: inverte a seta sem negar, nega os dois termos sem inverter, ou distribui uma negação sem trocar `e ↔ ou`.
 
-## Equivalências da Condicional ($p \to q$)
-A equivalência da implicação (condicional) é a mais importante e recorrente em provas. Existem duas maneiras clássicas de reescrever uma condicional sem alterar seu valor lógico:
+A regra prática é não avaliar primeiro se a alternativa “faz sentido”. Transforme a estrutura formalmente e só depois compare com as opções.
 
-### 1. Regra do "Volta Negando" (Contrapositiva)
-- **Como fazer**: Inverta a posição do antecedente e do consequente, e negue ambos.
-- **Fórmula**: 
-  $$p \to q \equiv \neg q \to \neg p$$
-- **Exemplo**: "Se sou mineiro, então sou brasileiro." $\equiv$ "Se não sou brasileiro, então não sou mineiro."
+## A condicional: quatro estruturas que não podem se misturar
 
-> [!CAUTION]
-> **O Quarteto da Condicional: Contrapositiva vs. Recíproca e Inversa (Pegadinha Clássica FGV)**:
-> Dada a condicional original $P \to Q$:
-> 1. **Contrapositiva ($\neg Q \to \neg P$)**: **EQUIVALENTE**. (Inverte a posição **e** nega ambos: volta negando).
-> 2. **Recíproca ($Q \to P$)**: **NÃO EQUIVALENTE**. (Apenas inverte a ordem sem negar).
-> 3. **Inversa ($\neg P \to \neg Q$)**: **NÃO EQUIVALENTE**. (Apenas nega ambos mantendo a ordem).
-> 
-> *Atenção*: A recíproca e a inversa são equivalentes entre si ($Q \to P \equiv \neg P \to \neg Q$), mas **nenhuma delas equivale à proposição original $P \to Q$**.
-> - Se *"Se chove, a rua molha"*, não se pode concluir que *"Se a rua molha, chove"* (recíproca) nem que *"Se não chove, a rua não molha"* (inversa). A única equivalência é *"Se a rua não molhou, não choveu"* (contrapositiva).
+Partindo de:
 
-### 2. Regra do "NEyMar" (Condicional Disjuntiva)
-- **Como fazer**: **NE**gue a primeira parte, troque o conectivo pelo **ou** ($\lor$) e **MA**ntenha a segunda parte.
-- **Fórmula**: 
-  $$p \to q \equiv \neg p \lor q$$
-- **Exemplo**: "Se estudo, então passo." $\equiv$ "Não estudo ou passo." (equivale estruturalmente à ideia de que *"ou não estudo, ou passo"*).
+$$p \to q$$
 
-> [!WARNING]
-> **Modelo de Raciocínio: Implicação ($p \to q$) vs Conjunção ($p \land q$)**
-> 
-> Jamais confunda ou equivoque a implicação *"se p, então q"* ($p \to q$) com a conjunção *"p e q"* ($p \land q$). 
-> 
-> ### 1. O Colapso Intuitivo Comum
-> Sentir que *"se estudo, então passo"* equivale a *"estudo e passo"* é um erro clássico em provas. A implicação **não** afirma que $p$ e $q$ acontecem juntos. Ela apenas cria uma regra condicional.
-> 
-> ### 2. Comparação Operacional Direta
-> 
-> | Estrutura | Significado | O que a regra exige / proíbe | Situações que mantêm a sentença Verdadeira |
-> | :--- | :--- | :--- | :--- |
-> | **$p \land q$** | **Coexistência** (Ambos acontecem) | Exige que $p$ aconteça **E** $q$ aconteça. Qualquer falha torna tudo falso. | Apenas quando $p$ e $q$ são verdadeiros. |
-> | **$p \lor q$** | **Disjunção Inclusiva** (Pelo menos um) | Exige que ao menos uma das proposições seja verdadeira. | Quando $p$ é V, ou $q$ é V, ou ambos são V. |
-> | **$p \to q$** | **Regra Condicional** (Proibição) | **Proíbe apenas um cenário**: que o antecedente aconteça e o consequente não aconteça ($p \land \neg q$). **Não afirma ocorrência de nada**. | Permite: não estudar e passar; não estudar e não passar. |
-> 
-> ### 3. A Regra Proibida e o Porquê da Negação
-> A única situação que quebra a regra de $p \to q$ é quando o antecedente é verdadeiro e o consequente é falso ($p \land \neg q$). 
-> - **Negar a implicação** é demonstrar exatamente que o **caso proibido ocorreu**:
->   $$\neg(p \to q) \equiv p \land \neg q$$
-> 
-> ### 4. Guia Rápido de Fixação
-> - **$p \land q$** $\to$ Os dois acontecem.
-> - **$p \lor q$** $\to$ Pelo menos um acontece.
-> - **$p \to q$** $\to$  ==Um cenário específico é proibido (não afirma ocorrência).==
-> - **$\neg(p \to q)$** $\to$ ==O cenário proibido aconteceu ($p$ e não $q$).==
+| Forma | Estrutura | Equivale à original? |
+| :--- | :---: | :---: |
+| Original | $p \to q$ | Sim |
+| Contrapositiva | $\neg q \to \neg p$ | **Sim** |
+| Recíproca | $q \to p$ | Não |
+| Inversa | $\neg p \to \neg q$ | Não |
 
----
+A **recíproca** e a **inversa** são equivalentes entre si, mas nenhuma delas equivale à condicional original.
 
-## Dupla negação
-A dupla negação cancela a si mesma, retornando à proposição original:
-$$\neg(\neg p) \equiv p$$
+### Contrapositiva — voltar negando
 
-- **Exemplo**: "Não é verdade que eu não estudo." $\equiv$ "Eu estudo."
+Para obter uma forma equivalente, inverta a ordem e negue os dois termos:
 
----
+$$p \to q \equiv \neg q \to \neg p$$
 
-## Negações de Proposições Compostas
-
-### 1. Negação da Condicional (Negação de $p \to q$)
-Para negar uma promessa condicional, usa-se a **Regra do MAné**:
-- **Como fazer**: **MA**ntém a primeira parte **E** ($\land$) **NE**ga a segunda parte.
-- **Fórmula**: 
-  $$\neg(p \to q) \equiv p \land \neg q$$
-- **Exemplo**: "Se eu estudar, serei aprovado." $\to$ Negação: "Eu estudo e não sou aprovado."
-
-> [!TIP]
-> **Heurística de Unificação (O Contraexemplo Único)**:
-> Note a simetria elegante entre a negação da condicional e a negação do quantificador universal. Ambas consistem em encontrar o **caso que destrói a regra**:
-> - Negar **"Todo A é B"** $\to$ **"Existe um A que não é B"** (um único contraexemplo).
-> - Negar **"$p \to q$"** $\to$ **"$p \land \neg q$"** (o único cenário proibido / contraexemplo).
-> 
-> **O Teste da Coexistência**: Uma negação nunca pode ser verdadeira simultaneamente com a frase original. Se puderem coexistir, a negação está incorreta (ex: "Todos estudaram" e "Alguns estudaram" podem ser verdadeiros juntos, logo não se negam).
-
-
-### 2. Negação da Bicondicional (Negação de $p \leftrightarrow q$)
-Para negar o "se e somente se", basta transformá-lo em uma disjunção exclusiva ("ou... ou").
-- **Fórmula**: 
-  $$\neg(p \leftrightarrow q) \equiv p \underline{\lor} q$$
-- **Exemplo**: "Viajo se e somente se tenho dinheiro." $\to$ Negação: "Ou viajo sem ter dinheiro, ou tenho dinheiro sem viajar." (Explicita o comportamento de exclusividade: *exatamente um* dos dois eventos ocorre, ou seja, $p$ ocorre sem $q$, ou $q$ ocorre sem $p$).
-
-### 3. Leis de De Morgan (Negação de $\land$ e $\lor$)
-Quando a negação é distribuída em uma conjunção ou disjunção, cada proposição interna é negada e o conectivo é invertido:
-- **Negação do "e"** (Conjunção):
-  $$\neg(p \land q) \equiv \neg p \lor \neg q$$
-- **Negação do "ou"** (Disjunção):
-  $$\neg(p \lor q) \equiv \neg p \land \neg q$$
-
-> [!WARNING]
-> **Erro comum e pegadinha de prova (Tensão)**: 
-> Negar a frase *"João estuda e trabalha"* como *"João não estuda e não trabalha"*. 
-> **O correto é**: *"João não estuda ou não trabalha"*. A negação de uma conjunção obrigatoriamente produz uma disjunção.
-
----
-
-## Questões comentadas — bateria de 11/09/2026
-
-A bateria de retenção após sete dias sem treino produziu **2/6**. O padrão não indica desconhecimento absoluto das regras: houve acerto de uma negação com quantificador e de uma contraposição com consequente composto. A dificuldade aparece na **recuperação operacional consistente**: identificar a estrutura, aplicar a transformação e resistir a uma alternativa semanticamente plausível.
-
-### Questão 1 — De Morgan: negar também exige trocar o conectivo
-
-**Enunciado-base:** “Não é verdade que o sistema esteja atualizado ou que o antivírus esteja ativo.”
-
-Defina $S$ = “sistema atualizado” e $A$ = “antivírus ativo”. A frase é:
-
-$$\neg(S \lor A)$$
-
-Pela lei de De Morgan:
-
-$$\neg(S \lor A) \equiv \neg S \land \neg A$$
-
-**Resposta correta:** “o sistema não está atualizado **e** o antivírus não está ativo”.
-
-**Resposta marcada:** “o sistema não está atualizado **ou** o antivírus não está ativo”.
-
-**Análise do erro [C]:** os dois termos foram negados corretamente, mas o conectivo permaneceu `ou`. A negação que entra no parêntese executa duas operações inseparáveis: **nega cada termo e troca `e ↔ ou`**.
-
-**Teste rápido:** a frase original negada só é verdadeira quando as duas proposições internas são falsas. Se apenas uma for falsa, $S \lor A$ ainda é verdadeiro e sua negação é falsa.
-
-### Questão 2 — negar o antecedente não autoriza negar o consequente
-
-**Enunciado-base:** “O acesso aos dados sigilosos somente será permitido aos empregados credenciados.”
-
-Defina $A$ = “teve acesso” e $C$ = “é credenciado”. “Somente aos credenciados” estabelece:
-
-$$A \to C$$
-
-A informação adicional era $\neg A$: Renato não teve acesso.
-
-De $A \to C$ e $\neg A$, **nada se conclui sobre $C$**. Renato pode ser credenciado e simplesmente não ter acessado os dados.
-
-**Resposta correta:** é impossível determinar se Renato era credenciado.
-
-**Resposta marcada:** Renato certamente não era credenciado.
-
-**Análise do erro [C]:** a resposta marcada introduz a **inversa** $\neg A \to \neg C$, que não é equivalente à regra original. O teste operacional é: se a informação dada nega o **antecedente**, pare; uma condicional comum não permite inferência necessária daí.
-
-### Questão 3 — recíproca parece natural, mas não é equivalente
-
-**Enunciado-base:** “Se o relatório contiver inconsistências, solicitarei sua revisão.”
-
-Defina $I$ = “há inconsistências” e $R$ = “há solicitação de revisão”:
+> “Se o relatório contém inconsistências, haverá revisão.”
 
 $$I \to R$$
 
-A equivalente é a contrapositiva:
+Equivalente:
 
 $$\neg R \to \neg I$$
 
-**Resposta correta:** se a gerente não solicitar revisão, o relatório não contém inconsistências.
+> “Se não houve revisão, o relatório não continha inconsistências.”
 
-**Resposta marcada:** se a gerente solicitar revisão, o relatório contém inconsistências.
+A volta simples $R \to I$ seria a **recíproca** e não é garantida: uma revisão pode ocorrer por outros motivos.
 
-A resposta marcada é:
+### Reescrita em disjunção
 
-$$R \to I$$
+A condicional também pode ser escrita como:
 
-ou seja, a **recíproca**. Ela acrescenta uma exclusividade inexistente: a gerente pode solicitar revisão por vários outros motivos.
+$$p \to q \equiv \neg p \lor q$$
 
-**Análise do erro [C]:** o conteúdo semântico torna a recíproca plausível, mas equivalência é sintática. Para $P \to Q$, a única “volta” garantida é **voltar negando**: $\neg Q \to \neg P$.
+Heurística tradicional: **nega o primeiro, troca por `ou`, mantém o segundo**.
 
-### Questão 5 — condição suficiente + contraposição
+> “Se estudo, passo.”
 
-**Enunciado-base:** “É suficiente que o requerimento seja assinado digitalmente para que sua autenticidade seja reconhecida.”
+$$E \to P \equiv \neg E \lor P$$
 
-Defina $D$ = “assinado digitalmente” e $R$ = “autenticidade reconhecida”. “É suficiente” coloca a condição suficiente na origem da seta:
+Essa equivalência descreve a mesma regra: o único cenário proibido continua sendo $E \land \neg P$.
+
+### Negação da condicional
+
+Negar $p \to q$ significa afirmar que justamente o caso proibido aconteceu:
+
+$$\neg(p \to q) \equiv p \land \neg q$$
+
+> “Se estudo, passo.”
+
+Negação:
+
+> “Estudo e não passo.”
+
+Não confunda **equivalência** com **negação**:
+
+- contrapositiva preserva o valor lógico;
+- negação produz a proposição oposta.
+
+## De Morgan
+
+Quando uma negação entra em uma conjunção ou disjunção, duas coisas acontecem ao mesmo tempo:
+
+1. cada termo é negado;
+2. o conectivo troca: `e ↔ ou`.
+
+$$\neg(p \land q) \equiv \neg p \lor \neg q$$
+
+$$\neg(p \lor q) \equiv \neg p \land \neg q$$
+
+Exemplo:
+
+> “Não é verdade que o sistema esteja atualizado ou que o antivírus esteja ativo.”
+
+$$\neg(S \lor A) \equiv \neg S \land \neg A$$
+
+Logo, **o sistema não está atualizado e o antivírus não está ativo**.
+
+A forma $\neg S \lor \neg A$ é um distrator clássico: nega os termos, mas esquece de trocar o conectivo.
+
+## Dupla negação
+
+$$\neg(\neg p) \equiv p$$
+
+> “Não é verdade que João não compareceu.”
+
+Equivale a:
+
+> “João compareceu.”
+
+## Negação da bicondicional
+
+A bicondicional $p \leftrightarrow q$ exige valores iguais. Sua negação exige valores diferentes: **exatamente uma** das proposições deve ser verdadeira.
+
+$$\neg(p \leftrightarrow q)$$
+
+pode ser lida como disjunção exclusiva entre $p$ e $q$.
+
+> “Viajo se e somente se tenho dinheiro.”
+
+Negação: ocorre uma das duas situações incompatíveis com a equivalência — viajo sem dinheiro, ou tenho dinheiro e não viajo.
+
+## Questões comentadas — 11/09/2026
+
+A bateria de retenção teve **2/6**. Os quatro erros se concentraram em uma mesma habilidade: aplicar mecanicamente a transformação correta depois que a frase já foi traduzida.
+
+### Caso 1 — De Morgan incompleto
+
+Frase:
+
+> “Não é verdade que o sistema esteja atualizado ou que o antivírus esteja ativo.”
+
+Estrutura:
+
+$$\neg(S \lor A)$$
+
+Correto:
+
+$$\neg S \land \neg A$$
+
+**Erro marcado [C]:** $\neg S \lor \neg A$.
+
+O problema não foi esquecer a negação dos termos; foi **não trocar `ou` por `e`**.
+
+### Caso 2 — negar o antecedente não permite concluir o consequente
+
+Regra:
+
+> “O acesso aos dados sigilosos somente será permitido aos credenciados.”
+
+$$A \to C$$
+
+Informação dada:
+
+$$\neg A$$
+
+De $A \to C$ e $\neg A$, **não se conclui nada necessário sobre $C$**. A pessoa pode ser credenciada e simplesmente não ter acessado os dados.
+
+**Erro marcado [C]:** inferir $\neg C$, isto é, usar a inversa $\neg A \to \neg C$.
+
+### Caso 3 — recíproca parece plausível, mas não é equivalente
+
+Regra:
+
+$$I \to R$$
+
+Equivalente:
+
+$$\neg R \to \neg I$$
+
+**Erro marcado [C]:** escolher $R \to I$.
+
+O conteúdo semântico pode tornar a recíproca convincente. Formalmente, porém, a única volta garantida é **voltar negando**.
+
+### Caso 4 — consequente negado permite voltar negando
+
+Regra:
+
+> “Assinatura digital é suficiente para reconhecimento da autenticidade.”
 
 $$D \to R$$
 
-O enunciado informou $\neg R$. Pela contrapositiva:
+Informação dada:
 
-$$\neg R \to \neg D$$
+$$\neg R$$
 
-**Resposta correta:** o requerimento necessariamente não foi assinado digitalmente.
+Logo:
 
-**Resposta marcada:** não é possível concluir nada sobre a assinatura.
+$$\neg D$$
 
-**Análise do erro [C]:** aqui havia informação suficiente para aplicar **modus tollens**. Quando a regra é $P \to Q$ e a prova fornece $\neg Q$, pode-se concluir $\neg P$. A situação é diferente da Questão 2, em que a informação fornecida era $\neg P$.
+Isso é a contrapositiva aplicada como **modus tollens**.
 
-### Dois acertos que funcionam como controle
+**Erro marcado [C]:** considerar que não era possível concluir nada sobre a assinatura.
 
-Na Questão 4, a negação de “todos os analistas ... revisaram ou entrevistaram” foi resolvida corretamente como existência de pelo menos um analista que **não revisou e não entrevistou**. Isso combina troca de quantificador com De Morgan e mostra que a regra é conhecida, embora sua recuperação isolada ainda oscile.
+### O contraste que precisa ficar automático
 
-Na Questão 6, a estrutura era $A \to (B \land C)$ e foi informado $\neg C$. Como $\neg C$ torna falso o consequente inteiro $(B \land C)$, a contraposição leva a $\neg A$. A resposta foi correta, mas marcada como chute; portanto, serve como evidência parcial, não como domínio consolidado.
+| Regra | Informação dada | O que se pode concluir? |
+| :--- | :---: | :--- |
+| $P \to Q$ | $P$ | $Q$ |
+| $P \to Q$ | $\neg Q$ | $\neg P$ |
+| $P \to Q$ | $Q$ | nada necessário sobre $P$ |
+| $P \to Q$ | $\neg P$ | nada necessário sobre $Q$ |
 
-### Mapa operacional dos quatro erros
+Esse quadro concentra a diferença entre inferências válidas e as duas armadilhas recorrentes: **afirmação do consequente** e **negação do antecedente**.
 
-| Se a estrutura é | E a questão fornece/pede | Movimento válido | Movimento que gerou erro |
-| :--- | :--- | :--- | :--- |
-| $\neg(P \lor Q)$ | negação | $\neg P \land \neg Q$ | negar termos sem trocar `ou` por `e` |
-| $P \to Q$ | $\neg P$ | nenhuma conclusão necessária sobre $Q$ | inferir $\neg Q$ |
-| $P \to Q$ | equivalente | $\neg Q \to \neg P$ | usar $Q \to P$ |
-| $P \to Q$ | $\neg Q$ | concluir $\neg P$ | deixar de aplicar contraposição / modus tollens |
+## Protocolo de revisão rápida
 
-### Protocolo de 20 segundos
+Antes de escolher uma alternativa:
 
-Antes de olhar para o sentido da frase, faça quatro perguntas:
+1. **Traduza primeiro.** Se ainda não há símbolos claros, volte a [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]].
+2. **Se houver negação sobre `e` ou `ou`:** negue cada termo e troque o conectivo.
+3. **Se houver $P \to Q$ e a questão pedir equivalente:** use $\neg Q \to \neg P$ ou $\neg P \lor Q$.
+4. **Se a questão fornecer $\neg Q$:** conclua $\neg P$.
+5. **Se fornecer $Q$ ou $\neg P$:** não volte a seta; não há conclusão necessária.
+6. **Se pedir a negação de $P \to Q$:** responda $P \land \neg Q$.
 
-1. **Há uma negação sobre `e` ou `ou`?** Negue cada termo e troque o conectivo.
-2. **Há uma condicional?** Escreva mentalmente $P \to Q$ antes de inferir qualquer coisa.
-3. **Recebi $\neg P$?** Em regra, pare: não há conclusão necessária sobre $Q$.
-4. **Recebi $\neg Q$?** Volte negando: conclua $\neg P$.
+A sequência desejada em prova é:
 
-A meta de revisão não é memorizar mais teoria, mas automatizar esta sequência: **frase → estrutura → operação → alternativa**.
+**frase → estrutura → operação → alternativa**.
 
----
+## Tensões e pegadinhas
 
-## Tautologia vs Negação (A Regra de Ouro)
-
-Quando a proposição interna sob escopo de uma negação é sempre verdadeira (tautologia) ou sempre falsa (contradição), você deve ignorar as fórmulas de negação de quantificadores e ir direto pelo valor lógico consolidado.
-
-> [!IMPORTANT]
-> **A regra de ouro da negação**: Antes de negar, pergunte: *“Isso já é sempre verdadeiro ou sempre falso?”*.
-> - A negação de uma Tautologia ($\top$) é sempre uma **Contradição (Falsa)**.
-> - A negação de uma Contradição ($\bot$) é sempre uma **Tautologia (Verdadeira)**.
-
-### Tautologias e Contradições em Linguagem Natural
-Em provas de concurso, a banca costuma aproximar certas expressões cotidianas como se fossem tautologias de estrutura $P \lor \neg P$, embora em nível lógico rigoroso dependam da modelagem do domínio (ex: outras possibilidades no mundo real).
-
-- **Tautologias Estritas (Formalmente Fechadas)**:
-  - “O sistema está ativo ou não está ativo.” ($P \lor \neg P$)
-  - “O número é par ou não é par.” ($P \lor \neg P$)
-- **Tautologias Didáticas (Estruturas Aproximadas da Banca)**:
-  - “Chega no horário ou se atrasa.” (Pragmaticamente tratado como tautologia pela banca, embora ignore cenários como chegar adiantado ou faltar).
-  - “Funciona ou apresenta erro.” (Aproximação didática, embora ignore cenários como estar desligado ou em manutenção).
-  *Julgamento de Tautologia:* **Sempre Verdadeiro** $\to$ Negação: **Sempre Falso**.
-
-- **Contradições Disfarçadas ($P \land \neg P$)**:
-  - “Está ativo e não está ativo.”
-  *Julgamento de Contradição:* **Sempre Falso** $\to$ Negação: **Sempre Verdadeiro**.
-
-### Existencial com Tautologia Interna
-Quando a frase afirma a existência de um elemento que atende a uma tautologia:
-> “existe um cliente $x$ tal que $x$ comprou hoje ou $x$ não comprou hoje”
-
-1. A proposição interna ($P \lor \neg P$) é sempre verdadeira.
-2. Havendo o domínio pressuposto de clientes, a proposição existencial é **verdadeira**.
-3. Ao aplicar a negação:
-   > “não é verdade que existe um cliente que comprou hoje ou não comprou hoje”
-   O resultado é diretamente **falso**.
-
-### Tabela de Negação Direta de Tautologias/Contradições
-
-| Estrutura Interna | Classificação | Valor Lógico Original | Valor Lógico Negado ($\neg$) |
-| :--- | :--- | :--- | :--- |
-| $P \lor \neg P$ | Tautologia | **Verdadeiro** | **Falso** |
-| $\forall x (P(x) \lor \neg P(x))$ | Tautologia | **Verdadeiro** | **Falso** |
-| $\exists x (P(x) \lor \neg P(x))$ | Tautologia | **Verdadeiro** | **Falso** |
-| $P \land \neg P$ | Contradição | **Falso** | **Verdadeiro** |
-| $\forall x (P(x) \land \neg P(x))$ | Contradição | **Falso** | **Verdadeiro** |
-| $\exists x (P(x) \land \neg P(x))$ | Contradição | **Falso** | **Verdadeiro** |
-
----
+- **Recíproca:** $Q \to P$ parece natural, mas não decorre de $P \to Q$.
+- **Inversa:** $\neg P \to \neg Q$ também não decorre da original.
+- **Contrapositiva:** exige simultaneamente inverter e negar.
+- **De Morgan:** não basta negar os termos; o conectivo também muda.
+- **Negação da condicional:** não é a contrapositiva; é $P \land \neg Q$.
+- **Semântica:** alternativas plausíveis no mundo real podem ser formalmente inválidas.
 
 ## Relações com outros temas
 
-A leitura da condicional depende diretamente de [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]], sobretudo da distinção entre condição necessária e suficiente e da direção da seta. Esta nota começa onde a identificação do conectivo termina: o objetivo aqui é reconhecer transformações que preservam ou negam o valor lógico da estrutura.
-
-[[3 - Materias/Logica/05 - tabela verdade|Tabela verdade]] funciona como mecanismo de verificação das equivalências. Em prova, porém, reconstruir a tabela inteira costuma ser mais lento do que reconhecer uma equivalência conhecida. Ela é mais útil como ferramenta de auditoria quando duas fórmulas parecem equivalentes e a regra não está clara.
-
-A relação com [[3 - Materias/Logica/03 - quantificadores|Quantificadores]] aparece principalmente na negação. De Morgan atua dentro da proposição composta, enquanto a negação de quantificadores troca universal por existencial, ou existencial por universal, além de negar o predicado. Questões podem combinar as duas operações na mesma expressão.
-
-Em [[3 - Materias/Logica/06 - argumentacao logica|Argumentação lógica]], contraposição pode sustentar uma inferência válida, enquanto recíproca e inversa são fontes clássicas de inferências inválidas. Reconhecer essa fronteira evita tratar equivalência formal como mera semelhança linguística.
+- [[3 - Materias/Logica/02 - conectivos|Conectivos lógicos]]: identificação do operador e tradução da linguagem natural.
+- [[3 - Materias/Logica/03 - quantificadores|Quantificadores]]: negações de `todo`, `algum` e `nenhum`, que podem combinar-se com De Morgan.
+- [[3 - Materias/Logica/05 - tabela verdade|Tabela verdade]]: verificação formal de equivalências, tautologias, contradições e contingências.
+- [[3 - Materias/Logica/06 - argumentacao logica|Argumentação lógica]]: modus ponens, modus tollens e inferências inválidas.
 
 ## Heurísticas
 
-Equivalência lógica é **transformação estrutural**. A pergunta útil em prova não é “as frases parecem iguais?”, mas “elas têm o mesmo valor lógico em todas as situações possíveis?”.
+Equivalência não é semelhança de significado cotidiano; é **mesmo comportamento lógico em todas as combinações possíveis**.
 
-Para a condicional, use três controles diferentes: `p → q ≡ ¬q → ¬p` para contrapositiva; `p → q ≡ ¬p ∨ q` para reescrita disjuntiva; `¬(p → q) ≡ p ∧ ¬q` para negação. Misturar essas três operações é uma das fontes mais produtivas de distratores.
+Para a condicional, memorize três operações distintas:
 
-Quando uma alternativa apenas troca a ordem ou apenas nega os dois termos de uma condicional, trate-a com suspeita: recíproca e inversa não preservam, isoladamente, a equivalência com a proposição original. Se houver dúvida, procure o único cenário proibido da condicional ou use uma tabela-verdade curta como verificação.
+- **equivalente:** $P \to Q \equiv \neg Q \to \neg P$;
+- **reescrita:** $P \to Q \equiv \neg P \lor Q$;
+- **negação:** $\neg(P \to Q) \equiv P \land \neg Q$.
+
+Se uma alternativa apenas inverter a seta ou apenas negar os dois termos mantendo a ordem, trate-a como distrator até prova em contrário.

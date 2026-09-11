@@ -3,346 +3,202 @@ title: "Conectivos lógicos"
 type: "conceito"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-09-03
+updated: 2026-09-11
 ---
 # Conectivos lógicos
 
 ## Núcleo do conceito
-Conectivos lógicos são operadores que combinam proposições e permitem formar estruturas mais complexas. Cada conectivo define uma regra específica de avaliação, independentemente do conteúdo das proposições.
 
-==Os principais conectivos cobrados em prova são: negação (¬ – não), conjunção (∧ – e), disjunção (∨ – ou) e implicação (→ – se... então). O comportamento desses conectivos é fixo e deve ser tratado como regra formal, não como linguagem natural. ==
+Conectivos lógicos combinam proposições e determinam quando uma proposição composta é verdadeira ou falsa. Em prova, o ponto central é **separar o sentido cotidiano da frase da estrutura formal**: primeiro identificar o conectivo; depois aplicar sua regra.
 
-Para além destes, as bancas também exigem a **disjunção exclusiva** (ou... ou) e a **bicondicional** (se e somente se).
+| Conectivo | Símbolo | Leitura típica | Regra rápida |
+| :--- | :---: | :--- | :--- |
+| Negação | $\neg p$ | não p | inverte o valor |
+| Conjunção | $p \land q$ | p e q | só é V se ambos forem V |
+| Disjunção inclusiva | $p \lor q$ | p ou q | só é F se ambos forem F |
+| Disjunção exclusiva | $p \oplus q$ | ou p, ou q | é V quando os valores são diferentes |
+| Condicional | $p \to q$ | se p, então q | só é F em V → F |
+| Bicondicional | $p \leftrightarrow q$ | p se e somente se q | é V quando os valores são iguais |
 
-## Como isso aparece em prova
-A banca apresenta proposições simbólicas (p, q) ou frases traduzidas e exige a identificação do valor lógico da expressão. Em muitos casos, o candidato erra por interpretar o conectivo de forma intuitiva, e não pela regra lógica.
+Para negações, contrapositiva e outras equivalências, usar [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]]. Esta nota fica concentrada em **reconhecer e traduzir os conectivos**.
 
-Também é comum a aplicação desses conectivos em frases do cotidiano, o que aumenta a chance de erro por mistura com linguagem natural. As bancas frequentemente usam sinônimos textuais para disfarçar os operadores (como "mas" para conjunção, ou "todo" para condicional).
+## Como a FGV cobra
 
-## Detalhamento dos conectivos
+A Fundação Getulio Vargas (FGV) costuma esconder a estrutura lógica em linguagem natural. O erro mais produtivo para a banca é fazer o candidato completar causalidades ou exclusividades que **não estão na proposição**. Por isso, a leitura deve ser feita em duas etapas:
 
-### Negação (¬ ou ~) — "não"
-- **Função**: Inverter o valor lógico da proposição original.
-- **Tabela**: Se $p$ é V, $\neg p$ é F. Se $p$ é F, $\neg p$ é V.
+1. traduzir a frase para uma estrutura como $p \land q$, $p \lor q$ ou $p \to q$;
+2. só então avaliar valor lógico, condição necessária/suficiente ou equivalência.
 
-### Conjunção (∧) — "e"
-- **Função**: Expressa ideia de simultaneidade ou adição.
-- **Regra**: Só é **verdadeira** se ambas as proposições forem verdadeiras.
-- **Sinônimos em prova**: "mas", "porém", "contudo", "todavia", "entretanto", "tanto... quanto", "não só... mas também".
-  - *Exemplo (opositivas como "e")*: "Estudei, **mas** não passei" $\equiv$ (Estudei) $\land$ (Não passei).
-  - *Exemplo (correlativas)*: "**Não só** estudo, **mas também** trabalho" $\equiv$ (Estudo) $\land$ (Trabalho).
-  - *Exemplo (simultaneidade)*: "Fui aprovado **tanto** na NAV Brasil **quanto** no CONTER" $\equiv$ (Aprovado na NAV) $\land$ (Aprovado no CONTER).
+O ponto mais sensível é a condicional: em $p \to q$, a proposição afirma apenas que **não pode ocorrer p sem q**. Ela não diz que p ocorre, nem que q só pode ocorrer por causa de p.
 
-### Disjunção inclusiva (∨) — "ou"
-- **Função**: Expressa ideia de alternativa ou opção (não excludente).
-- **Regra**: Só é **falsa** se ambas as proposições forem falsas. Se houver pelo menos uma verdadeira, a disjunção é verdadeira.
-  - *Exemplo*: "Para concorrer a esta vaga, o candidato deve ter formação em Comunicação **ou** em Marketing."
-    - Ter apenas Comunicação (V ∨ F) $\equiv$ **Verdadeiro** (pode concorrer).
-    - Ter apenas Marketing (F ∨ V) $\equiv$ **Verdadeiro** (pode concorrer).
-    - Ter ambas as formações (V ∨ V) $\equiv$ **Verdadeiro** (pode concorrer, pois o "ou" lógico aceita ambos).
-    - Não ter nenhuma das duas (F ∨ F) $\equiv$ **Falso** (não pode concorrer).
+## Os conectivos
 
-### Disjunção exclusiva (<u>∨</u>, $\underline{\lor}$ ou ⊕) — "ou... ou"
+### Negação — $\neg p$
 
-> [!NOTE]
-> **Símbolo da disjunção exclusiva**: O "v" com traço embaixo ($\underline{\lor}$ ou `<u>∨</u>`) ou o círculo com uma cruz ($\oplus$) representam o **ou... ou**. O traço embaixo serve para destacar a exclusão (não pode acontecer ambos ao mesmo tempo, ao contrário do "ou" comum $\lor$).
+A negação apenas inverte o valor lógico de uma proposição simples:
 
-- **Função**: Expressa exclusão mútua (apenas uma das opções pode ocorrer).
-- **Regra**: Só é **verdadeira** se as proposições tiverem valores lógicos **diferentes** (uma V e outra F). Se forem iguais (ambas V ou ambas F), é falsa.
-  - *Exemplo*: "Ou nasci em Minas Gerais, ou nasci em São Paulo."
-    - Nascer em MG e não em SP (V <u>∨</u> F) $\equiv$ **Verdadeiro**.
-    - Nascer em SP e não em MG (F <u>∨</u> V) $\equiv$ **Verdadeiro**.
-    - Nascer em ambos ao mesmo tempo (V <u>∨</u> V) $\equiv$ **Falso** (fisicamente impossível, exclusão mútua).
-    - Não nascer em nenhum dos dois (F <u>∨</u> F) $\equiv$ **Falso** (nasceu em outro estado).
+- se $p$ é V, $\neg p$ é F;
+- se $p$ é F, $\neg p$ é V.
 
-### Condicional / Implicação (→) — "se... então"
-- **Função**: Expressa relação de causa/efeito ou condição.
-- **Regra**: Só é **falsa** no caso da antecedente ser verdadeira e a consequente ser falsa (a famosa linha do "V Vai a F" ou "Vera Fischer"). Todos os outros casos são verdadeiros.
-  - *Exemplo*: "Se chove, a rua fica molhada."
-    - Choveu e a rua molhou (V → V) $\equiv$ **Verdadeiro**.
-    - Choveu e a rua NÃO molhou (V → F) $\equiv$ **Falso** (promessa quebrada, único caso falso).
-    - Não choveu e a rua molhou (F → V) $\equiv$ **Verdadeiro** (outro fator, como um caminhão-pipa, pode ter molhado a rua).
-    - Não choveu e a rua NÃO molhou (F → F) $\equiv$ **Verdadeiro**.
-- **Relação de condição**: 
-  - O antecedente ($p$) é **condição suficiente** para o consequente ($q$). (Ex: *Chover* é suficiente para a rua ficar molhada).
-  - O consequente ($q$) é **condição necessária** para o antecedente ($p$). (Ex: *A rua ficar molhada* é necessário para que se possa concluir que choveu).
-- **Variações em prova**: "q, se p", "p implica q", "quando p, q", "como p, q", "p é suficiente para q", "q é necessário para p", "apenas se q, p".
+Quando a negação atinge uma proposição composta, entram regras específicas como De Morgan. Ver [[3 - Materias/Logica/04 - equivalencias#3. Leis de De Morgan (Negação de $\land$ e $\lor$)|Leis de De Morgan]].
 
-### Tradução da linguagem natural para a condicional (direção da seta)
-Em provas de alto nível da FGV, o maior obstáculo não é a álgebra dos símbolos, mas a conversão precisa das nuances da língua portuguesa para a direção correta da implicação ($p \to q$):
+### Conjunção — $p \land q$
 
-1. **"P se Q" $\implies Q \to P$**:
-   - O conectivo "se" sempre introduz o **antecedente (condição suficiente)**, não importando a ordem na frase.
-   - *Exemplo*: "O candidato será convocado se obtiver nota superior a 80" $\equiv \text{nota} > 80 \to \text{convocado}$.
-   - *Atenção à recíproca inválida*: Concluir que todo candidato convocado tirou $>80$ é falácia da recíproca ($P \to Q \not\equiv Q \to P$).
+A conjunção exige que **as duas partes sejam verdadeiras**. Qualquer falha torna o conjunto falso.
 
-2. **"P somente se Q" $\implies P \to Q$**:
-   - O que vem depois de "somente se" introduz o **consequente (condição necessária)**.
-   - *Exemplo*: "O candidato poderá realizar a prova prática somente se tiver sido aprovado na prova objetiva" $\equiv \text{prova prática} \to \text{aprovado na objetiva}$.
-   - *Dedução válida*: Realizar a prova prática é condição suficiente para garantir a aprovação na objetiva ($\text{prática} \to \text{objetiva}$). A aprovação na objetiva, por si só, é apenas necessária, não garantindo a realização da prática.
-   - *Cenário proibido*: Realizar a prática sem ter sido aprovado na objetiva ($V \to F$).
+> “Estudei, mas não passei.”
 
-3. **"Basta Q para P" ou "Q é suficiente para P" $\implies Q \to P$**:
-   - "Basta" marca **condição suficiente** (antecedente).
-   - *Exemplo*: "Para receber gratificação, basta exercer a função de supervisor" $\equiv \text{supervisor} \to \text{gratificação}$.
-   - Quem exerce a função necessariamente recebe a gratificação.
+Em lógica proposicional, `mas`, `porém`, `contudo`, `todavia` e `entretanto` funcionam como conjunção: a oposição semântica não altera o fato de que as duas proposições são afirmadas simultaneamente.
 
-4. **"Q é condição necessária para P" $\implies P \to Q$**:
-   - Aquilo que é necessário fica no **consequente** (na ponta da seta).
-   - *Exemplo*: "Para assumir o cargo, é necessário apresentar o diploma" $\equiv \text{assumir cargo} \to \text{apresentar diploma}$.
-   - *Dedução necessária*: Quem assume o cargo necessariamente apresentou o diploma. Ter diploma, porém, não garante que assumirá.
+Estrutura:
 
-5. **"Sem Q, não ocorre P" $\implies \neg Q \to \neg P \equiv P \to Q$**:
-   - Estrutura negativa de condição necessária.
-   - *Exemplo*: "Sem autorização da chefia, o documento não poderá ser enviado" $\equiv \neg\text{autorização} \to \neg\text{envio} \equiv \text{envio} \to \text{autorização}$.
-   - Se o documento foi enviado, necessariamente houve autorização prévia. Ter autorização, contudo, não obriga o envio do documento.
+$$E \land \neg P$$
 
-6. **"P a menos que Q" $\implies \neg Q \to P$ (ou $\neg P \to Q$)**:
-   - "A menos que" introduz uma exceção ou condição sem a qual $P$ ocorre: $\neg Q \to P \equiv \neg P \to Q \equiv \neg P \lor Q$.
-   - *Exemplo com negação*: "Não autorizarei a publicação, a menos que o jurídico aprove" $\equiv \neg\text{aprovação jurídica} \to \neg\text{publicação} \equiv \text{publicação} \to \text{aprovação jurídica}$.
-   - Se houve publicação, conclui-se obrigatoriamente que houve aprovação jurídica.
+### Disjunção inclusiva — $p \lor q$
 
-7. **Quadro de Decisão Rápida: Necessária vs. Suficiente**:
-   - **Necessária ("precisa ter")**: Pergunta: *"Se o resultado ocorreu, isso obrigatoriamente precisava estar presente?"* $\to$ Consequente (ponta da seta: $P \to Q$).
-   - **Suficiente ("basta ter")**: Pergunta: *"Só isso já basta para produzir o resultado?"* $\to$ Antecedente (origem da seta: $Q \to P$).
+O `ou` inclusivo exige **pelo menos uma** proposição verdadeira. Também admite as duas verdadeiras ao mesmo tempo.
 
-8. **Heurística operacional da condicional (o caso proibido)**:
-   - Toda condicional $P \to Q$ equivale formalmente a uma **proibição exclusiva**: não pode ocorrer $P \land \neg Q$ ("prometeu e não cumpriu").
-   - Todos os outros três cenários ($V \to V$, $F \to V$, $F \to F$) mantêm a proposição verdadeira e plenamente compatível com a norma.
+> “O candidato possui formação em Comunicação ou Marketing.”
 
-### Bicondicional / Equivalência (↔) — "se e somente se"
-- **Função**: Expressa equivalência mútua, uma condicional de ida e volta: $(p \to q) \land (q \to p)$.
-- **Regra**: Só é **verdadeira** se ambas as proposições tiverem o mesmo valor lógico (ambas V ou ambas F). Se forem diferentes, é falsa.
-  - *Exemplo*: "Eu viajo se e somente se tenho dinheiro."
-    - Viajei e tinha dinheiro (V ↔ V) $\equiv$ **Verdadeiro**.
-    - Viajei e NÃO tinha dinheiro (V ↔ F) $\equiv$ **Falso**.
-    - NÃO viajei e tinha dinheiro (F ↔ V) $\equiv$ **Falso** (se tinha dinheiro, deveria viajar; a ida falhou).
-    - NÃO viajei e NÃO tinha dinheiro (F ↔ F) $\equiv$ **Verdadeiro** (coerente).
-- **Relação de condição**: Cada uma das proposições é **condição necessária e suficiente** para a outra. (Ex: *Viajar* é condição necessária e suficiente para *ter dinheiro*).
+A frase continua verdadeira se ele possuir as duas formações, salvo se o enunciado explicitar exclusividade.
+
+### Disjunção exclusiva — $p \oplus q$
+
+A disjunção exclusiva é verdadeira quando **exatamente uma** das proposições é verdadeira. É falsa quando ambas têm o mesmo valor.
+
+A banca pode sinalizar exclusividade por construções como `ou... ou...`, `uma ou outra, mas não ambas` ou `exatamente uma`. O contexto e a formulação precisam indicar a exclusão; não trate qualquer `ou` cotidiano automaticamente como exclusivo.
+
+### Condicional — $p \to q$
+
+A condicional é a estrutura mais importante desta nota.
+
+> “Se p, então q.”
+
+Ela é falsa apenas no caso:
+
+$$V \to F$$
+
+Uma forma útil de pensar é a **regra do caso proibido**:
+
+> $p \to q$ proíbe apenas $p \land \neg q$.
+
+Assim, em “Se chove, a rua fica molhada”:
+
+- chove e molha: compatível;
+- chove e não molha: **viola a regra**;
+- não chove e molha: compatível, pois outra causa pode molhar a rua;
+- não chove e não molha: compatível.
+
+#### Condição suficiente e necessária
+
+Em:
+
+$$p \to q$$
+
+- $p$ é **condição suficiente** para $q$;
+- $q$ é **condição necessária** para $p$.
+
+Heurística:
+
+- **suficiente** = “isso basta para produzir o resultado?”;
+- **necessária** = “se o resultado ocorreu, isso precisava estar presente?”.
+
+### Bicondicional — $p \leftrightarrow q$
+
+A bicondicional afirma uma relação de ida e volta:
+
+$$p \leftrightarrow q \equiv (p \to q) \land (q \to p)$$
+
+Ela é verdadeira quando $p$ e $q$ possuem o mesmo valor lógico. Cada proposição funciona como condição **necessária e suficiente** da outra.
+
+## Tradução da linguagem natural
+
+Esta é a parte que mais merece revisão rápida antes da prova.
+
+| Formulação | Estrutura | Como ler |
+| :--- | :---: | :--- |
+| Se P, então Q | $P \to Q$ | P é suficiente; Q é necessário |
+| P se Q | $Q \to P$ | o `se` introduz a condição |
+| P somente se Q | $P \to Q$ | Q é necessário para P |
+| Basta Q para P | $Q \to P$ | Q é suficiente para P |
+| Q é suficiente para P | $Q \to P$ | suficiente fica antes da seta |
+| Q é necessário / indispensável / requisito para P | $P \to Q$ | necessário fica depois da seta |
+| Sem Q, não P | $\neg Q \to \neg P$ | forma negativa de condição necessária |
+| P a menos que Q | $\neg Q \to P$ | se Q não ocorrer, P ocorre |
+| P se e somente se Q | $P \leftrightarrow Q$ | ida e volta |
+
+### Três contrastes que geram distratores
+
+**1. `Se` não é `somente se`.**
+
+> “Será convocado se obtiver nota 80.”
+
+$$nota80 \to convocado$$
+
+> “Será convocado somente se obtiver nota 80.”
+
+$$convocado \to nota80$$
+
+A direção muda.
+
+**2. Necessário não significa suficiente.**
+
+> “Documento com foto é requisito para entrar.”
+
+$$entrada \to documento$$
+
+Ter o documento não garante entrada; apenas entrar sem documento viola a regra.
+
+**3. A condicional não autoriza voltar a seta.**
+
+De $P \to Q$, observar $Q$ não permite concluir $P$. Da mesma forma, observar $\neg P$ não permite concluir $\neg Q$. Para as transformações válidas, ver [[3 - Materias/Logica/04 - equivalencias#1. Regra do "Volta Negando" (Contrapositiva)|Contrapositiva]].
 
 ## Tensões e pegadinhas
-- **O "mas" como conjunção**: A palavra "mas" liga orações indicando oposição gramatical, mas na lógica proposicional ela funciona estritamente como a conjunção **e** ($\land$).
-  - **Por que disso?**: A lógica proposicional ignora a nuance psicológica ou o contraste semântico da frase. O que importa é se os dois eventos acontecem simultaneamente. Para a frase *"Estudei, **mas** não passei"* ser uma verdade histórica, duas coisas precisam ser factual e cumulativamente verdadeiras: eu estudei (V) **e** eu não passei (V). Se qualquer uma das partes for falsa, toda a afirmação cai. Logo, seu comportamento lógico é de conjunção.
-  - **Exemplos equivalentes a $p \land q$**:
-    - *"Estudei bastante, **porém** fui reprovado."*
-    - *"A inflação subiu, **todavia** o desemprego caiu."*
-    - *"Ela é inteligente, **entretanto** é preguiçosa."*
-- **Inversão da condicional com "se" no final**: Frases como "Vou viajar se fizer sol" devem ser traduzidas como "Se fizer sol, então vou viajar" ($sol \to viajar$). O "se" sempre introduz a condição (antecedente), não importando sua posição física na frase.
-- **"Apenas se" vs "Se"**: A frase "p apenas se q" traduz-se como $p \to q$ (ou seja, q é necessário para p). Não confunda com "se p, q", que também é $p \to q$. A colocação do "apenas se" inverte quem é a condição necessária.
-- **Disjunção inclusiva vs exclusiva**: Em linguagem natural, "ou" costuma ser exclusivo ("ou coma salada ou coma batata"), mas em concursos, se a frase contiver apenas um "ou", ela é tratada obrigatoriamente como disjunção **inclusiva**. A disjunção exclusiva exige a repetição "ou... ou...".
 
-## Prioridade dos conectivos (ordem de avaliação)
-Quando não há parênteses explícitos na expressão lógica, o julgamento deve seguir uma ordem de precedência padrão, em vez de ser lido de forma linear (da esquerda para a direita):
-
-1. **Negação (¬)**
-2. **Conjunção (∧)** — o "e"
-3. **Disjunção (∨)** — o "ou"
-4. **Condicional (→)** / **Bicondicional (↔)**
-
-> [!IMPORTANT]
-> O conectivo “e” ($\land$) tem **prioridade absoluta** sobre o “ou” ($\lor$).
-
-### Exemplo de leitura:
-> “todo número x satisfaz x > 0 ou x ≤ 0 e x ≠ 1”
-
-A leitura correta (estrutural) obrigatoriamente agrupa o “e” primeiro:
-$$\text{Para todo } x: (x > 0) \lor (x \le 0 \land x \ne 1)$$
-e não de forma linear:
-$$\text{Para todo } x: ((x > 0) \lor x \le 0) \land x \ne 1$$
-
-Testando com $x = 1$:
-- $x > 0 \to$ Verdadeiro.
-- $x \le 0 \land x \ne 1 \to$ Falso (pois $x=1 \implies x \ne 1$ é Falso).
-- Julgamento: $V \lor F \equiv$ **Verdadeiro** (esta proposição é, portanto, verdadeira para todos os números).
-
----
-
-## Leitura estrutural vs leitura linear
-A interpretação lógica não deve seguir a linearidade da frase (esquerda para a direita), mas a hierarquia estrutural dos blocos lógicos:
-1. **Identifique os blocos** da expressão.
-2. **Aplique a prioridade** dos conectivos.
-3. **Avalie o valor lógico** (usando parênteses imaginários ou reais para guiar).
-
-### Regra prática para mistura de conectivos:
-Sempre que houver "e" ($\land$) e "ou" ($\lor$) sem parênteses:
-- **Primeiro resolva o "e"** (∧).
-- **Depois resolva o "ou"** (∨).
-
----
-
-## Equivalências e negações essenciais (regras de ouro)
-
-> [!NOTE]
-> **Símbolo de três barras ($\equiv$)**: Significa **equivalência lógica** (ou "é logicamente equivalente a"). Indica que duas proposições dizem exatamente a mesma coisa sob a ótica lógica (possuem tabelas-verdade idênticas).
-
-### 1. Como negar um "se... então" (Negação de p → q)
-Para negar uma promessa condicional, você usa a **Regra do MAné**:
-- **MA**ntém a primeira parte.
-- Troca o conectivo pelo **E** ($\land$).
-- **NE**ga a segunda parte.
-- *Fórmula*: $\neg(p \to q) \equiv p \land \neg q$
-- *Por que funciona?*: Se eu prometo *"Se chover, vou à praia"*, eu só menti (neguei a promessa) se de fato **choveu** (mantive) **E** eu **não fui** à praia (neguei).
-- *Exemplo*: 
-  - *Frase*: "Se eu estudar, serei aprovado."
-  - *Negação*: "Eu estudo **e** não sou aprovado."
-
----
-
-### 2. Como reescrever um "se... então" sem mudar o sentido (Equivalências de p → q)
-Há duas formas de dizer a mesma coisa usando a condicional:
-
-#### A) Regra do Volta Negando (Contrapositiva)
-- **Como fazer**: Inverte os dois lados de posição e nega ambos.
-- *Fórmula*: $p \to q \equiv \neg q \to \neg p$
-- *Por que funciona?*: Se *"Quem nasce em BH é mineiro"*, logo, se uma pessoa **não é mineira** (negou a segunda), com certeza ela **não nasceu em BH** (negou a primeira).
-- *Exemplo*: 
-  - *Frase*: "Se sou mineiro, sou brasileiro."
-  - *Equivalente*: "Se não sou brasileiro, não sou mineiro."
-
-#### B) Regra do NEyMar (Condicional Disjuntiva)
-- **Como fazer**: **NE**ga a primeira + troca pelo conectivo **ou** ($\lor$) + **MA**ntém a segunda.
-- *Fórmula*: $p \to q \equiv \neg p \lor q$
-- *Exemplo*: 
-  - *Frase*: "Se estudo, passo no concurso."
-  - *Equivalente*: "Não estudo **ou** passo no concurso."
-
----
-
-### 3. Como negar um "se e somente se" (Negação de p ↔ q)
-Para negar a bicondicional, basta trocar o conectivo por "ou... ou" (disjunção exclusiva).
-- *Fórmula*: $\neg(p \leftrightarrow q) \equiv p \underline{\lor} q$
-- *Por que funciona?*: O *"se e somente se"* exige que as duas coisas andem juntas (ou ambas ocorrem, ou nenhuma). Para negar isso, você diz que apenas uma delas pode ocorrer (exclusão mútua: ou ocorre um, ou o outro).
-- *Exemplo*: 
-  - *Frase*: "Viajo se e somente se tenho dinheiro."
-  - *Negação*: "Ou viajo, ou tenho dinheiro."
+- **Semântica cotidiana:** frases como “se chove, a rua molha” sugerem causalidade; a lógica cobra apenas a estrutura formal definida.
+- **`Mas` funciona como `e`:** o contraste discursivo não altera o valor lógico da conjunção.
+- **`Ou` inclusivo:** não exclui automaticamente a possibilidade de as duas proposições serem verdadeiras.
+- **`Somente`, `apenas`, `necessário`, `indispensável`, `requisito`:** costumam sinalizar condição necessária e exigem atenção à direção da seta.
+- **`Basta`, `suficiente`:** sinalizam condição suficiente.
+- **Não transformar $P \to Q$ em equivalência:** uma única seta não cria $Q \to P$.
 
 ## Exemplos comentados
-1. Se $p$ é V e $q$ é F:
-   - $p \land q$ é **Falso** (exige ambos V).
-   - $p \lor q$ é **Verdadeiro** (basta um V).
-   - $p \underline{\lor} q$ é **Verdadeiro** (valores são diferentes).
-   - $p \to q$ é **Falso** (caso "V → F").
-   - $p \leftrightarrow q$ é **Falso** (valores são diferentes).
 
-2. Se $p$ é F e $q$ é F:
-   - $p \lor q$ é **Falso** (ambos F).
-   - $p \underline{\lor} q$ é **Falso** (valores são iguais).
-   - $p \to q$ é **Verdadeiro** (F → F resulta em V).
-   - $p \leftrightarrow q$ é **Verdadeiro** (valores são iguais).
+### Exemplo 1 — condição necessária
 
----
+> “O acesso aos dados sigilosos somente será permitido aos empregados credenciados.”
 
-# Conectivos lógicos (versão mastigada)
+$$acesso \to credenciado$$
 
-## Núcleo do conceito
-Conectivos são regras fixas que dizem quando uma frase composta é verdadeira ou falsa.
+Se alguém acessou, era credenciado. Se alguém **não acessou**, não é possível concluir se era ou não credenciado.
 
-Você não interpreta. Você aplica regra de forma mecânica.
+### Exemplo 2 — condição suficiente
 
-## Regras básicas (decorar sem negociar)
+> “É suficiente assinar digitalmente para que a autenticidade seja reconhecida.”
 
-### Negação (¬p)
-- **Regra**: Inverte o valor.
-- V vira F.
-- F vira V.
+$$assinatura \to reconhecimento$$
 
----
+Assinatura digital garante reconhecimento segundo a regra. A transformação para sua contrapositiva pertence à nota [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]].
 
-### Conjunção (p ∧ q) → "e" / "mas"
-- **Regra**: Só é verdadeiro se **todos** forem verdadeiros.
-- V e V → V
-- Qualquer outra coisa → F
-- *Dica*: É o conectivo exigente.
-- *Macete de prova*: "mas", "porém", "contudo", "tanto... quanto" funcionam exatamente como "e" ($p \land q$).
+### Exemplo 3 — `ou` inclusivo
 
----
+> “O candidato possui graduação em Comunicação ou Marketing.”
 
-### Disjunção (p ∨ q) → "ou"
-- **Regra**: Só é falso se **todos** forem falsos.
-- F e F → F
-- Qualquer outra coisa → V
-- *Dica*: É o conectivo bonzinho (basta um verdadeiro).
-- *Macete de prova*: "Coma salada **ou** batata". Na lógica de concurso, se você comer os dois, a frase ainda é Verdadeira (não é exclusiva!).
+Comunicação apenas, Marketing apenas ou ambas tornam a disjunção verdadeira. Só a ausência das duas formações a torna falsa.
 
----
+## Heurísticas
 
-### Disjunção exclusiva (p <u>∨</u> q ou p ⊕ q) → "ou... ou"
-- **O símbolo**: O traço abaixo do "v" ($\underline{\lor}$) ou o círculo com mais ($\oplus$) indicam exclusão.
-- **Regra**: Só é verdadeiro quando os valores são **diferentes**.
-- V e F → V | F e V → V
-- V e V → F | F e F → F
-- *Dica*: Exclusão mútua. Um anula o outro.
-- *Macete de prova*: "Ou você é mineiro, ou é paulista." Não dá para ser os dois ao mesmo tempo (se for os dois, a frase é falsa!).
+Antes de resolver uma questão:
 
----
+1. **Circule mentalmente o conectivo.**
+2. **Traduza a frase para símbolos.** Não faça inferência antes disso.
+3. Se houver $P \to Q$, pergunte: **qual é o único cenário proibido?** Resposta: $P \land \neg Q$.
+4. Se aparecer `necessário`, coloque essa condição **depois da seta**.
+5. Se aparecer `suficiente` ou `basta`, coloque essa condição **antes da seta**.
+6. Se a questão pedir negação ou equivalência, pare aqui e vá para [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]].
 
-### Condicional (p → q) → "se... então"
-- **Regra**: Só é falso no caso da **Vera Fischer** (V → F).
-- V → F → F
-- Qualquer outra coisa → V (inclusive F → V ou F → F)
-- *Dica*: Promessa. Só quebra se o antecedente acontece e o consequente falha.
-- *Macete de prova*: "Se chover, vou à praia". Se chover e eu NÃO for (V → F), eu menti (Falso). Se não chover, não importa se fui ou não (F → V ou F → F), a frase continua Verdadeira!
+## Relações com outros temas
 
----
-
-### Bicondicional (p ↔ q) → "se e somente se"
-- **Regra**: Só é verdadeiro quando os valores são **do mesmo tipo** (iguais).
-- V ↔ V → V | F ↔ F → V
-- V ↔ F → F | F ↔ V → F
-- *Dica*: É uma via de mão dupla. Fidelidade total.
-- *Macete de prova*: "Jogo futebol se e somente se chover." Se acontecer um sem o outro (ex: joguei sem chuva ou choveu e não joguei), a frase inteira é mentira (Falso)!
-
----
-
-## Como pensar rápido (sem desenhar tabela)
-
-1. **¬p** → Apenas inverte o valor na sua mente.
-2. **p ∧ q** → Pergunta: *Os dois lados são verdadeiros?* 
-   - Se sim → V. Se não → F.
-3. **p ∨ q** → Pergunta: *Tem pelo menos um verdadeiro?*
-   - Se sim → V. Se não → F.
-4. **p <u>∨</u> q** → Pergunta: *Os valores são diferentes?*
-   - Se sim → V. Se não → F.
-5. **p → q** → Pergunta: *Aconteceu o primeiro e falhou o segundo (V → F)?*
-   - Se sim → F. Se não → V.
-6. **p ↔ q** → Pergunta: *Os dois lados têm o mesmo valor?*
-   - Se sim → V. Se não → F.
-
----
-
-## Negações e equivalências para bater o olho e marcar
-
-- **Negar "se... então" (p → q)**: Mantém o primeiro **e** nega o segundo (Regra do Marido: *MAnter e NEgar* → $p \land \neg q$).
-- **Equivalência 1 da condicional (p → q)**: Contrapositiva → Inverte os dois lados e nega ambos ($\neg q \to \neg p$).
-- **Equivalência 2 da condicional (p → q)**: Regra do Neymar $\to$ **NE** (Nega a primeira) + **y** (troca pelo conectivo **ou** / $\lor$) + **mar** (Mantém a segunda) $\to$ $\neg p \lor q$.
-  - *Exemplo*: "Se chove, a rua molha" $\equiv$ "Não chove **ou** a rua molha".
-- **Negar "se e somente se" (p ↔ q)**: Troca por "ou... ou" ($p \underline{\lor} q$).
-
----
-
-## Exemplos diretos
-
-Se **p = V** e **q = F**:
-- $\neg p$ = F
-- $p \land q$ = F (precisa de ambos V)
-- $p \lor q$ = V (tem pelo menos um V)
-- $p \underline{\lor} q$ = V (são diferentes)
-- $p \to q$ = F (caso V → F)
-- $p \leftrightarrow q$ = F (são diferentes)
-
-Se **p = F** e **q = F**:
-- $\neg p$ = V
-- $p \land q$ = F
-- $p \lor q$ = F
-- $p \underline{\lor} q$ = F (são iguais)
-- $p \to q$ = V (não é V → F)
-- $p \leftrightarrow q$ = V (são iguais)
-
----
-
-## Notas de raciocínio
-Se você hesitar, você ainda está tentando interpretar. 
-
-Aqui não é interpretação de texto. É aplicação de regra.
-
-O objetivo é chegar num ponto em que você olha para o operador e para os valores lógicos e responde no automático.
+- [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]]: contrapositiva, recíproca, inversa, De Morgan e negação da condicional.
+- [[3 - Materias/Logica/05 - tabela verdade|Tabela verdade]]: verificação completa dos valores de cada conectivo.
+- [[3 - Materias/Logica/06 - argumentacao logica|Argumentação lógica]]: aplicação dos conectivos em inferências válidas e inválidas.

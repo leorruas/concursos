@@ -7,8 +7,7 @@ import { IngestionEngine } from './ingest-vault.js';
 import {
   calcularFingerprintIngestao,
   carregarLedger,
-  localizarFingerprint,
-  registrarFingerprintAtomico
+  localizarFingerprint
 } from './ingestion-idempotency.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -52,11 +51,8 @@ async function main() {
   }
 
   const content = fs.readFileSync(inputPath, 'utf8');
-  // O fingerprint é intencionalmente independente de --type: a mesma evidência
-  // não pode ser reingerida apenas mudando a classificação manual.
   const fingerprint = calcularFingerprintIngestao({
     content,
-    type: '',
     concurso: options.concurso
   });
 
@@ -68,32 +64,40 @@ async function main() {
       ` | primeira aplicação: ${previous.processedAt || 'data desconhecida'}` +
       ` | entrada: ${previous.input || 'desconhecida'}`;
 
-    if (options.apply) {
-      throw new Error(message);
-    }
-
+    if (options.apply) throw new Error(message);
     console.warn(`! ${message}`);
-    console.warn('! Dry-run permitido apenas para inspeção; --apply será bloqueado enquanto o fingerprint existir no ledger.');
+    console.warn('! Dry-run permitido apenas para inspeção; nova aplicação permanece bloqueada.');
   }
 
-  const engine = new IngestionEngine(options);
-  const report = await engine.execute();
-
+  // Fail closed: o motor legado ainda não possui paridade entre o plano que
+  // declara e todos os arquivos que efetivamente grava. Enquanto a propagação
+  // transacional completa não estiver implementada, --apply pelo wrapper seria
+  // capaz de produzir um estado parcial e, pior, anunciar sucesso.
   if (options.apply) {
-    const entry = {
-      fingerprint,
-      input: options.input,
-      concurso: options.concurso,
-      classification: report.classification,
-      processedAt: new Date().toISOString()
-    };
+    const previewEngine = new IngestionEngine({
+      ...options,
+      apply: false,
+      dryRun: true
+    });
+    const report = await previewEngine.execute();
 
-    const result = registrarFingerprintAtomico(ledgerPath, entry);
-    if (!result.added) {
-      throw new Error('Falha de idempotência: fingerprint apareceu no ledger durante a aplicação. Verificar concorrência de ingestão.');
-    }
-    console.log(`✓ Fingerprint registrado no ledger: ${fingerprint.slice(0, 12)}…`);
+    throw new Error(
+      `APPLY AUTOMÁTICO BLOQUEADO POR SEGURANÇA: a ingestão foi validada em dry-run como ` +
+      `[${String(report.classification || 'desconhecida').toUpperCase()}], mas o motor legado ainda não ` +
+      `garante a propagação transacional para todas as camadas obrigatórias. ` +
+      `Use o plano do dry-run para aplicar a atualização completa e deixe o contrato de mudança do CI ` +
+      `validar Avanços locais/globais, saturação, projeto, erros, dashboard e publicação. ` +
+      `O --apply será reabilitado somente quando o propagador completo passar pelos testes de paridade.`
+    );
   }
+
+  const engine = new IngestionEngine({
+    ...options,
+    apply: false,
+    dryRun: true
+  });
+  await engine.execute();
+  console.log(`✓ Fingerprint candidato: ${fingerprint.slice(0, 12)}… (não registrado em dry-run).`);
 }
 
 main().catch((err) => {

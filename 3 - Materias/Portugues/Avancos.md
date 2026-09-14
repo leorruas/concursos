@@ -3,7 +3,7 @@ title: "Avanços e desempenho (Português)"
 type: "hub"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-09-01
+updated: 2026-09-14
 ---
 
 # Avanços e desempenho (Português)
@@ -22,6 +22,7 @@ updated: 2026-09-01
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 14/09/2026 | 6 | Língua Portuguesa | Bateria mista FGV: 7 itens apresentados, 1 anulado por ausência de alternativa incorreta; 6 válidos, 5/6 (83,3%). Acertos em haver/existir, `se` apassivador × indeterminação, crase, voz passiva e regência de `preferir`; erro [C] em adversativa × concessiva. |
 | 12/08/2026 | 18 | Língua Portuguesa | Ingestão de Inbox (Diagnóstico FGV): Bateria 1 (7/8) e Bateria 2 (5/10) abrangendo Acentuação, Acordo Ortográfico, Concordância Impessoal (Fazer/Haver/Existir), Conjunções Concessivas, Colocação Pronomial, Coesão/Ambiguidade e Regência (Preferir X a Y / Chegar a) (12/18) |
 | 07/07/2026 | 19 | Língua Portuguesa | Bateria de Gramática e Acordo Ortográfico (6/10) e Identificação de Tonicidade (8/9) (14/19) |
 | 08/06/2026 | 40 | Língua Portuguesa | Treino de Acordo Ortográfico (30 Qs: 21/30), Fixação de Hífen com Prefixos (10 Qs: 10/10) |
@@ -29,9 +30,28 @@ updated: 2026-09-01
 | 02/06/2026 | 15 | Língua Portuguesa | Bloco de Reescrita e Sentido (1-15: 14/15) |
 | 30/05/2026 | 85 | Língua Portuguesa | Bloco de Interpretação (1-15: 15/15), Treino de Sujeito I (1-5: 3/5), Treino de Sujeito II (1-5: 1/5), Revisão de Sujeito (9 Qs: 8/9), Concordância I (10 Qs: 10/10), Concordância II (16 Qs: 11/16), Caça à Pegadinha (5 Qs: 5/5), Treino de Vírgula (10 Qs) e Treino de Regência (10 Qs: 8/10) |
 
+## Aproveitamento semanal
+
+| Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
+| :--- | :--- | :--- | :--- |
+| **Semana 38** (14/09 a 20/09) | 6 | 83,3% (5/6) | Recuperação forte dos gargalos gramaticais recentes. O único erro válido foi a reincidência `contudo` × `embora`, agora classificada como erro recorrente [C]. |
+| **Semana 33** (10/08 a 16/08) | 18 | 66,7% (12/18) | Diagnóstico FGV revelou lacunas de convenção ortográfica, impessoalidade, regência e ambiguidade referencial. |
+| **Semana 28** (06/07 a 12/07) | 19 | 73,7% (14/19) | Retorno após hiato com oscilação em convenções arbitrárias, acordo ortográfico e leitura rápida. |
+| **Semana 24** (08/06 a 14/06) | 40 | 77,5% (31/40) | Acordo ortográfico oscilou, enquanto a fixação dirigida de hífen fechou em 10/10. |
+| **Semana 23** (01/06 a 07/06) | 35 | 94,3% (33/35) | Reescrita, interpretação e semântica em nível alto; erro residual em impessoalidade de `fazer`. |
+| **Semana 22** (25/05 a 31/05) | 85 | Não calculável com precisão | O volume está registrado, mas parte das baterias históricas não preserva o número exato de acertos de todos os blocos, impedindo consolidação semanal responsável. |
+
 ---
 
 ## Diagnósticos de desempenho
+
+### Bateria mista de Português (14/09/2026)
+- **Resultado**: 83,3% (5/6 acertos válidos). Uma questão foi anulada porque todas as alternativas estavam corretas e foi excluída do denominador.
+- **Evidências positivas**: concordância de `haver`, `fazer`, `existir`, `faltar` e `bastar`; distinção entre partícula apassivadora e índice de indeterminação do sujeito; crase com nomes de lugar; voz passiva sintética; regência normativa de `preferir X a Y`.
+- **Erro mapeado**: Q4, [C] confusão conceitual. Na substituição de `contudo` por `embora`, a arquitetura argumentativa foi invertida e o modo verbal não foi reconstruído. `Contudo` coordena oração adversativa; `embora` introduz oração concessiva subordinada, normalmente com subjuntivo.
+- **Recorrência**: a mesma fronteira já havia aparecido como dúvida no Simulado 02. O mecanismo passa a `erro_recorrente`: problema de recuperação/aplicação, não ausência de teoria.
+- **Destino pedagógico**: `metrica_apenas` + `enriquecimento_teorico` + `questao_comentada_candidata` + `erro_recorrente`. O enriquecimento já está satisfeito pela nota canônica e não foi duplicado.
+- **Ação**: reapresentar a fronteira de forma misturada em treino futuro, sem retorno à teoria básica. Estudo direto: [[3 - Materias/Portugues/03 - pontuacao e virgula#Coordenação adversativa × subordinação concessiva|Coordenação adversativa × subordinação concessiva]].
 
 ### Bateria Geral, Acordo Ortográfico e Tonicidade (07/07/2026)
 - **Resultado**: 73,7% (14/19 acertos no consolidado do dia).
@@ -119,4 +139,3 @@ updated: 2026-09-01
 ## Análise de resistência cognitiva e fadiga
 
 A análise detalhada de fadiga, do Índice de Carga Executiva, da Taxa de Aproveitamento Ponderada (TAP) e dos logs de saturação diária estão centralizados no painel global em [[00 Avancos globais#Análise de resistência cognitiva e fadiga|Avanços globais]].
-

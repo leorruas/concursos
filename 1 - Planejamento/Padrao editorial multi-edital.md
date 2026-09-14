@@ -3,7 +3,7 @@ title: "Padrão editorial multi-edital"
 type: "governanca-editorial"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-09-11
+updated: 2026-09-14
 ---
 
 # Padrão editorial multi-edital
@@ -194,6 +194,86 @@ A busca deve tratar cada nota como um objeto estruturado. A ordem de implementa�
 9. `concept_id` apenas depois que a camada conceitual estiver estável.
 
 Busca semântica por embeddings não é prioridade enquanto ranking lexical estruturado, edital e aliases resolverem a maior parte das consultas.
+
+## Extensão editorial para Atualidades
+
+Atualidades exige uma separação adicional entre conhecimento reutilizável e fatos que envelhecem. O objetivo não é manter um arquivo cronológico de notícias, mas construir capacidade de interpretação para questões cujo fato concreto pode mudar.
+
+### Duas camadas obrigatórias
+
+**Fundamentos estáveis** são conceitos, instituições, mecanismos, indicadores, relações causais e vocabulário necessários para interpretar acontecimentos atuais. Exemplos: inflação, IPCA, Selic e Copom; PIB e atividade; mercado de trabalho; política fiscal; câmbio; ONU, OTAN, União Europeia, Mercosul, BRICS e G20; clima, COP e mercado de carbono; matriz energética; IA, governança e riscos; indicadores sociais e demografia.
+
+**Snapshots conjunturais** registram fatos, números, conflitos, eleições, decisões, eventos e dados recentes. Todo snapshot deve ter data de corte, indicar que pode envelhecer, apontar o fundamento estável necessário para compreendê-lo, registrar fontes confiáveis e ser revalidado antes de revisões futuras. Um número conjuntural nunca deve aparecer como regra permanente sem sinalização explícita.
+
+Quando houver ganho de clareza, usar no frontmatter:
+
+```yaml
+layer: fundamento_estavel
+```
+
+ou, para snapshots:
+
+```yaml
+layer: snapshot_conjuntural
+data_corte: AAAA-MM-DD
+revalidar: true
+```
+
+### Fontes e verificação
+
+Para fatos e números, priorizar: (1) fontes oficiais primárias, como Banco Central, IBGE, Ipea, Tesouro, ministérios, legislação, ONU e organismos multilaterais; (2) agências e veículos jornalísticos de alta confiabilidade para contexto e acontecimentos; (3) fontes acadêmicas ou institucionais especializadas para mecanismos. Quando houver fonte oficial para um dado, não basear a nota apenas em matéria jornalística.
+
+Toda informação atual deve ser pesquisada na web antes de ser escrita ou atualizada. Registrar `updated: AAAA-MM-DD` e `data_corte` em notas conjunturais. Não sobrescrever silenciosamente um snapshot histórico com valores atuais. Se uma regra institucional ou legal mudar, registrar a alteração e preservar a versão anterior quando isso puder gerar pegadinha de prova.
+
+### Formato de fundamento em Atualidades
+
+Além das funções editoriais gerais deste padrão, uma nota de fundamento deve privilegiar:
+
+- `Núcleo do conceito`;
+- `Estrutura interna` quando houver instituições, variáveis, etapas ou relações;
+- `Como interpretar uma notícia`, deixando claro o que um movimento permite e não permite concluir;
+- `Como a FGV pode cobrar`;
+- `Relações com outros temas` com wikilinks;
+- `Tensões e pegadinhas`;
+- `Exemplo atual comentado`, usado para aplicar o fundamento sem transformar o artigo em notícia;
+- `Heurísticas`;
+- `Fontes`, com data de verificação quando pertinente.
+
+Em Atualidades, priorizar explicitamente as fronteiras: causalidade × correlação; dado mensal × tendência; valor absoluto × variação; meta × limite/tolerância; instituição × instrumento; competência de órgãos diferentes; efeito provável × consequência necessária; curto prazo × longo prazo; fato observado × projeção.
+
+### Formato de snapshot
+
+```markdown
+# [Evento ou indicador] — [data]
+
+> Snapshot conjuntural. Revalidar antes de usar futuramente.
+
+## O que aconteceu
+## Por que importa
+## Fundamentos necessários
+## O que é possível concluir
+## O que NÃO é possível concluir
+## Relações com outros acontecimentos
+## Possíveis cobranças FGV
+## Fontes
+## Data de corte
+```
+
+### Critério de criação
+
+Antes de criar uma nota conjuntural, verificar: relevância nacional ou internacional; aderência aos temas dos editais ativos; possibilidade de cobrança razoável pela banca; existência de conceito necessário para compreender o fato; e possibilidade de o exemplo caber em fundamento já existente. Se já houver fundamento adequado, atualizar o exemplo ou criar apenas um snapshot vinculado. Se o fato revelar uma lacuna de mecanismo básico, criar ou refinar primeiro o fundamento.
+
+### Referência FGV
+
+Usar provas reais como régua de profundidade. Em Atualidades, a FGV pode apresentar fatos concretos, usar afirmativas I, II e III, pedir instituição ou mecanismo, misturar fatos verdadeiros com inferências exageradas, deslocar características verdadeiras para categorias erradas, transformar tendência em certeza ou confundir evento isolado com processo estrutural. Registrar nas notas sobretudo os pontos que produzem distratores plausíveis.
+
+### Erros do candidato
+
+Quando uma questão de Atualidades gerar erro `[K]`, verificar primeiro se o fundamento já existe. Se existir, registrar necessidade de recuperação sem duplicar teoria; se não existir, criar ou refinar o fundamento e relacionar o erro ao artigo exato. Erros `[C]`, `[I]` e `[D]` não autorizam presumir lacuna teórica. O tema deve voltar posteriormente em questão mista conforme as regras de revisão e desempenho do vault.
+
+### Pergunta de controle
+
+Antes de considerar uma nota de Atualidades pronta, perguntar: **“Se a banca trocar o fato concreto da notícia, este artigo ainda aumenta a chance de acertar a questão?”** Se a resposta for não, a nota está conjuntural demais e precisa ganhar fundamento ou ser reclassificada como snapshot.
 
 ## Regra de manutenção
 

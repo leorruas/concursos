@@ -3,7 +3,7 @@ title: "Atualidades"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-09-14
 ---
 
 # Atualidades
@@ -23,6 +23,7 @@ Mapeamento de tópicos e organização das notas de Atualidades para concursos.
 - Demografia, movimentos migratórios e desigualdade social.
 
 ## 3. Economia e Política Brasileira
+- [[03 - regime de metas inflacao selic copom|03 • Regime de metas, inflação, Selic e Copom]]
 - Principais reformas e indicadores socioeconômicos (inflação, emprego, PIB).
 - Desafios da saúde, educação e segurança pública no Brasil.
 

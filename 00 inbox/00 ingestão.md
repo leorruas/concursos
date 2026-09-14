@@ -17,7 +17,6 @@ A sessão é uma **bateria mista multimatéria**, não um simulado oficial de 70
 ## Resultado consolidado
 
 Data: 14/09/2026
-Disciplina: Bateria mista Dataprev
 Acertos: 22/26
 Questões válidas: 26
 Questões anuladas: 1 (Português Q5)
@@ -52,7 +51,7 @@ Questão 1 [K] — Atualidades e IA — regime de metas, IPCA, Selic e Copom. Re
 | Questão | Resultado | Tema | Destinos |
 | :--- | :--- | :--- | :--- |
 | Q1 | Acerto | Existencial: “alguns” = pelo menos um | `metrica_apenas` |
-| Q2 | Erro [C] | Negação de “nenhum” | `metrica_apenas`, `enriquecimento_teorico`, `questao_comentada_candidata` |
+| Q2 | Erro | Negação de “nenhum” | `metrica_apenas`, `enriquecimento_teorico`, `questao_comentada_candidata` |
 | Q3 | Acerto | Proposição × sentença aberta | `metrica_apenas` |
 | Q4 | Acerto | Inferência existencial e simetria da conjunção | `metrica_apenas` |
 | Q5 | Acerto | Quantificador universal + De Morgan | `metrica_apenas` |
@@ -67,7 +66,7 @@ Evidência positiva relevante: De Morgan reapareceu corretamente em contexto mis
 | Q1 | Acerto | `fazer/haver` impessoais × `existir` pessoal | `metrica_apenas` |
 | Q2 | Acerto | Partícula apassivadora × índice de indeterminação do sujeito | `metrica_apenas` |
 | Q3 | Acerto | Regência e crase com nomes de lugar | `metrica_apenas` |
-| Q4 | Erro [C] | `contudo` × `embora` | `metrica_apenas`, `enriquecimento_teorico`, `questao_comentada_candidata`, `erro_recorrente` |
+| Q4 | Erro | `contudo` × `embora` | `metrica_apenas`, `enriquecimento_teorico`, `questao_comentada_candidata`, `erro_recorrente` |
 | Q5 | Anulada | Questão sem alternativa incorreta | Excluir de métricas e teoria |
 | Q6 | Acerto | Voz passiva sintética × analítica | `metrica_apenas` |
 | Q7 | Acerto | Regência de `preferir X a Y` | `metrica_apenas` |
@@ -91,7 +90,7 @@ A fonte registra que a Q1 revelou lacuna do vault e motivou nota própria sobre 
 | Q2 | Acerto | Kunsch: comunicação integrada × repetição multicanal | `metrica_apenas` |
 | Q3 | Acerto | Newsmaking e rotinas produtivas | `metrica_apenas` |
 | Q4 | Acerto | Gatekeeping × framing × agenda-setting × espiral do silêncio | `metrica_apenas` |
-| Q5 | Erro [C] | Clipping × auditoria de imagem na mídia | `metrica_apenas`, `enriquecimento_teorico`, `questao_comentada_candidata` |
+| Q5 | Erro | Clipping × auditoria de imagem na mídia | `metrica_apenas`, `enriquecimento_teorico`, `questao_comentada_candidata` |
 | Q6 | Acerto | Bridging no media training | `metrica_apenas` |
 | Q7 | Acerto | Finalidade predominante: comunicação mercadológica em universidade pública | `metrica_apenas` |
 
@@ -99,7 +98,7 @@ A fonte registra que a Q1 revelou lacuna do vault e motivou nota própria sobre 
 
 | Questão | Resultado | Tema | Destinos |
 | :--- | :--- | :--- | :--- |
-| Q1 | Erro [K] | Regime de metas, IPCA, Selic e Copom | `metrica_apenas`, `enriquecimento_teorico`, `questao_comentada_candidata`, `nova_nota` |
+| Q1 | Erro | Regime de metas, IPCA, Selic e Copom | `metrica_apenas`, `enriquecimento_teorico`, `questao_comentada_candidata`, `nova_nota` |
 | Q2 | Acerto | Mercado de carbono | `metrica_apenas` |
 | Q3 | Acerto | Competição estratégica × cooperação internacional em segurança de IA | `metrica_apenas` |
 

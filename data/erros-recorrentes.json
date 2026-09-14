@@ -58,5 +58,15 @@
     "tipoErro": "C",
     "sourcePath": "3 - Materias/Logica/Avancos.md",
     "status": "pendente"
+  },
+  {
+    "id": "err-bat-20260914-adversativa-concessiva",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Portuguesa",
+    "assunto": "Coordenação adversativa vs. subordinação concessiva: 'contudo/mas' × 'embora/ainda que' com reconstrução sintática e subjuntivo",
+    "notaPath": "3 - Materias/Portugues/03 - pontuacao e virgula.md",
+    "tipoErro": "C",
+    "sourcePath": "3 - Materias/Portugues/Avancos.md",
+    "status": "pendente"
   }
 ]

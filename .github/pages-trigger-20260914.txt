@@ -1,0 +1,1 @@
+Trigger transitório para executar o workflow canônico de GitHub Pages sobre o estado final da ingestão de 14/09/2026.

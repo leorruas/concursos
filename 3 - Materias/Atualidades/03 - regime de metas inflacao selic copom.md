@@ -20,6 +20,9 @@ O **IPCA** é o índice oficial usado como referência para a meta de inflação
 
 O Copom usa a Selic como principal instrumento de política monetária para buscar a convergência da inflação à meta. A relação não é mecânica: uma queda do IPCA não implica corte automático da Selic, nem na mesma proporção. A decisão considera inflação corrente e projetada, expectativas, atividade econômica, riscos fiscais e externos e outros elementos do cenário.
 
+> [!IMPORTANT]
+> **Camada estável × camada conjuntural:** os conceitos acima são a base para estudo. Valores de IPCA, Selic, projeções e decisões do Copom mudam ao longo do tempo e devem ser tratados como *snapshots* datados, não como fatos permanentes.
+
 ## Como a FGV cobra
 
 A banca pode confundir:
@@ -71,26 +74,30 @@ Se o IPCA acumulado em 12 meses estiver em 4,2%:
 
 Se o IPCA cai em determinado mês, isso pode aumentar a probabilidade de redução da Selic, mas não determina a decisão do Copom. O Comitê avalia se a queda é persistente, quais grupos de preços explicam o movimento, expectativas futuras e o balanço de riscos.
 
-### Exemplo 3 — contexto de agosto de 2026
+## Snapshot conjuntural — 14/09/2026
 
-Em agosto de 2026, o IPCA registrou **-0,32% no mês** e **4,22% em 12 meses**. A queda mensal foi influenciada por reduções em habitação, transportes, alimentação e comunicação, com peso relevante de fatores temporários ligados à energia elétrica. O dado reforçou expectativas de novos cortes de juros, mas não transformou o corte em consequência automática.
+> [!WARNING]
+> Esta seção é **datada**. Antes de usá-la em revisão futura ou simulado de Atualidades, revalidar os números nas fontes oficiais.
 
-Na data desta nota, a Selic estava em **14,00% ao ano** após decisão do Copom de agosto de 2026.
+Em agosto de 2026, o IPCA registrou **-0,32% no mês** e **4,22% em 12 meses**. O resultado mensal foi influenciado por queda de energia elétrica associada ao Bônus de Itaipu, além de recuos em alimentação e transportes. O dado colocou o acumulado de 12 meses dentro do intervalo de tolerância, mas ainda acima da meta central de 3,0%.
+
+Na data de corte desta nota, a meta Selic era de **14,00% ao ano**, vigente desde a reunião do Copom de 05/08/2026. A reunião seguinte estava prevista para setembro; portanto, esse número não deve ser memorizado como permanente.
 
 ## Heurísticas
 
 - **Meta:** 3,0%.
 - **Faixa:** 1,5% a 4,5%.
 - **Descumprimento formal:** seis meses consecutivos fora da faixa.
-- **IPCA:** mede inflação usada no regime de metas.
+- **IPCA:** mede a inflação usada no regime de metas.
 - **Selic:** instrumento de política monetária.
-- **Copom:** decide a Selic.
+- **Copom:** decide a meta Selic.
 - Nunca conclua `IPCA caiu → Selic necessariamente cai`.
 - Diferencie movimento mensal de tendência persistente.
+- Em Atualidades, sempre pergunte: **isto é fundamento estável ou snapshot conjuntural?**
 
 ## Fontes de verificação
 
-- Banco Central do Brasil — regime de metas para a inflação e histórico da meta contínua.
-- Resolução CMN nº 5.141/2024.
-- Banco Central do Brasil — comunicados e relatórios do Copom.
-- IBGE — IPCA.
+- Banco Central do Brasil — histórico do regime de metas: https://www.bcb.gov.br/controleinflacao/historicometas
+- Resolução CMN nº 5.141/2024: https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=5141&tipo=RESOLU%C3%87%C3%83O%20CMN
+- Banco Central do Brasil — histórico da Selic: https://www.bcb.gov.br/controleinflacao/historicotaxasjuros
+- IBGE — IPCA e séries oficiais: https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html

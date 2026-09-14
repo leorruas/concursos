@@ -264,13 +264,13 @@ Observe que a passagem de uma estrutura para a outra normalmente exige **mover o
 
 ### `pois`: explicação × conclusão
 
-A posição ajuda.
+A posição e a relação lógica ajudam.
 
 > Não saia, **pois está chovendo**.  
-> tendência explicativa.
+> a segunda oração justifica a ordem: valor explicativo.
 
-> Está chovendo; não sairei, **pois**.  
-> `pois` posposto pode assumir valor conclusivo, embora construções mais naturais de prova frequentemente tragam `pois` intercalado: `Não sairei, pois, de casa.`
+> O prazo expirou; o recurso será, **pois**, rejeitado.  
+> a segunda oração apresenta uma conclusão extraída da primeira: valor conclusivo.
 
 Para prova, não memorize `pois = explicativo` ou `pois = conclusivo` sem olhar a posição e a relação lógica.
 

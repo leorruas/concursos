@@ -67,6 +67,12 @@ A **Wiki do edital** mapeia os tópicos exigidos de forma direta, servindo como 
 | :--- | :---: | :---: | :--- |
 | 01/09/2026 | [[00 - Desempenho/Simulados/Simulado-02|67/70 — 95,7%]] | Não calculável | Distribuição por disciplina diferente do edital. Três erros: dois em Lógica e um em Português. |
 
+## Última bateria mista
+
+| Data | Resultado bruto | Pontuação ponderada parcial | Diagnóstico |
+| :--- | :---: | :---: | :--- |
+| 14/09/2026 | [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]: **22/26 — 84,6%** | **31,0/36,5** nos itens respondidos | Quatro erros úteis: 3 [C] e 1 [K]. Legislação 4/4. Inglês sem respostas e Português com 1 questão anulada. A nota /115 não é calculável nesta bateria. |
+
 ## Metas e Foco da Reta Final (40 Dias — 11/10/2026)
 
 - **Fase Atual:** **Fase 1 — Fechamento de Lacunas e Alinhamento de Base** (01 a 10 de setembro).

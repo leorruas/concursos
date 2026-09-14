@@ -59,6 +59,8 @@ Checklist completo de estudos para o cargo de **Analista de Tecnologia da Inform
 - [x] 2. Inteligência Artificial: fundamentos e aplicações (conceitos; aprendizado de máquina; modelos generativos e LLMs; ética, governança e privacidade). -> [[3 - Materias/Atualidades/01 - inteligencia artificial|01 • Inteligência artificial]] e [[3 - Materias/Atualidades/02 - quarto chines|02 • Quarto chinês]]
 
 ### 5. Legislação de Segurança da Informação e Proteção de Dados
+
+*Evidência recente:* [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]: **4/4 em 14/09/2026**, incluindo a redação vigente do art. 154-A do Código Penal.
 - [x] 1. **LAI — Lei nº 12.527/2011**: Capítulos I, II, III, IV e V; Decreto nº 7.724 e nº 7.845. -> [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios e LAI]]
 - [x] 2. **Lei nº 12.737/2012 (Delitos Informáticos)**: Art. 2º (Invasão de dispositivo informático). -> [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos|02 • Lei 12.737/2012 — delitos informáticos]]
 - [x] 3. **Marco Civil da Internet (Lei nº 12.965/2014)**: Cap. II, Seção I (Direitos e garantias), e Cap. III, Seções I e II (Provedores). -> [[3 - Materias/Informatica/01 - marco civil da internet|01 • Marco Civil da Internet]]

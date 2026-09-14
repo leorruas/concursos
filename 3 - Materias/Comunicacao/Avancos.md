@@ -111,6 +111,7 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 ## Diagnósticos de desempenho
 
 ### Diagnóstico de bateria FGV: autores, teorias do jornalismo e assessoria (14/09/2026)
+- **Diagnóstico consolidado da sessão**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
 - **Resultado**: 85,7% (6/7 acertos).
 - **Evidências positivas**: Schein (pressupostos básicos subjacentes); comunicação integrada em Kunsch; `newsmaking` como rotinas produtivas; separação entre gatekeeping, framing, agenda-setting e espiral do silêncio; `bridging` sem evasão; classificação mercadológica pela finalidade predominante mesmo em emissor público.
 - **Erro mapeado**: Q5, [C] confusão conceitual. Foi escolhido `clipping` para uma análise de oito meses que comparava temas, veículos, fontes, concorrentes e padrões de exposição. O erro deslocou uma definição verdadeira para a etapa imediatamente anterior.

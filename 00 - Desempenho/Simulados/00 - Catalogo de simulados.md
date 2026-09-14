@@ -24,6 +24,10 @@ Para gerar uma nova prova com ChatGPT, Gemini ou outra LLM com acesso ao vault, 
 | **Simulado 01** (Módulo I + Comunicação) | 31/08/2026 | 70 | 54 | **77,1%** | 16 (Q3, Q5, Q10, Q13, Q14, Q21, Q22, Q24, Q26, Q31, Q48, Q54, Q58, Q61, Q65, Q70) | [[00 - Desempenho/Simulados/Simulado-01\|Simulado 01 - Diagnóstico Completo]] |
 | **Simulado 02** (distribuição não oficial) | 01/09/2026 | 70 | 67 | **95,7%** | 3 (Q15, Q21, Q35) | [[00 - Desempenho/Simulados/Simulado-02\|Simulado 02 - Diagnóstico Completo]] |
 
+> [!NOTE]
+> Na bateria mista de 14/09, a pontuação ponderada parcial foi **31,0/36,5 pontos disponíveis** nos itens efetivamente respondidos. Esse número descreve apenas a amostra; a nota oficial **/115 não é calculável** porque a composição da bateria não corresponde à distribuição oficial da prova.
+
+
 ---
 
 ## 2. Mapa de Calor de Erros por Disciplina

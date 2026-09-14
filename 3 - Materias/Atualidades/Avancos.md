@@ -28,6 +28,7 @@ updated: 2026-09-14
 ## Diagnósticos de desempenho
 
 ### Diagnóstico de bateria contextual — economia, clima e segurança de IA (14/09/2026)
+- **Diagnóstico consolidado da sessão**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
 - **Resultado**: 66,7% (2/3 acertos).
 - **Erro mapeado**: Q1, [K] conhecimento. Foi marcada uma relação automática e proporcional entre queda do IPCA e redução da Selic. Essa regra mecânica não existe.
 - **Lacuna exata**: regime de metas contínuas; meta central de 3,0% × faixa de tolerância de 1,5% a 4,5%; critério de seis meses consecutivos fora da faixa para descumprimento formal; papel do Copom; fatores temporários de inflação e relação não automática entre IPCA e Selic.

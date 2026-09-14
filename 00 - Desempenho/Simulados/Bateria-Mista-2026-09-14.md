@@ -10,11 +10,11 @@ updated: 2026-09-14
 
 ## Proveniência e escopo
 
-Fonte: anexo de conversa `00 ingestão.md`, processado em 14/09/2026. O arquivo reúne blocos sucessivos de Lógica, Português, Legislação de SI, Comunicação Social, Atualidades/IA e um bloco de Inglês iniciado sem respostas registradas.
+Fonte primária desta ingestão: arquivo anexado pelo usuário `00 ingestão.md`, contendo os enunciados, respostas e correções da sessão de 14/09/2026. Para a operação no vault, essa fonte foi normalizada em `00 inbox/00 ingestão.md` sem alterar resultados, erros clínicos, questões anuladas ou questões sem resposta.
 
-Para as métricas, cada disciplina foi tratada como bateria dirigida independente. O bloco de Inglês ficou fora do denominador por ausência de respostas. Em Português, uma questão foi anulada por não possuir alternativa incorreta e também ficou fora do denominador.
+A sessão é uma **bateria mista multimatéria**, e não um simulado oficial de 70 questões. O motor foi executado com `--type simulado` apenas como categoria operacional para uma sessão mista; isso não autoriza cálculo da nota /115. O dry-run canônico confirmou **22/26 (84,6%)** e quatro erros clínicos. A aplicação formal usa o fingerprint `918d6a880831f80ec59b8d287b4d70f0e14b5e4436af9c38e3b80bb1118b621d` e o mecanismo transacional de change set.
 
-O `scripts/ingest-safe.js` não foi usado para registrar fingerprint desta evidência porque o anexo não estava no inbox do repositório e o motor interno atual pressupõe um único par disciplina/placar por entrada. Criar uma entrada sintética apenas para alimentar o ledger produziria proveniência falsa. A ingestão foi, portanto, registrada de forma auditável nos derivados e neste diagnóstico, preservando essa limitação operacional.
+O bloco de Inglês permaneceu fora do denominador por ausência de respostas. Em Português, uma questão foi anulada por não possuir alternativa incorreta e também ficou fora do denominador.
 
 ## Resultado consolidado
 
@@ -26,6 +26,8 @@ O `scripts/ingest-safe.js` não foi usado para registrar fingerprint desta evid�
 - Inglês: sem respostas registradas, não contabilizado.
 - Total válido: **22/26 (84,6%)**.
 - TAP da sessão: **84,4%**, aplicando os pesos vigentes do vault.
+- Pontuação ponderada parcial Dataprev: **31,0/36,5 pontos disponíveis** nos itens respondidos.
+- Nota ponderada oficial **/115: não calculável**, porque a composição da bateria não corresponde à distribuição oficial da prova.
 
 ## Erros mapeados
 

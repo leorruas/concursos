@@ -46,6 +46,7 @@ updated: 2026-09-14
 ## Diagnósticos de desempenho
 
 ### Bateria mista de Português (14/09/2026)
+- **Diagnóstico consolidado da sessão**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
 - **Resultado**: 83,3% (5/6 acertos válidos). Uma questão foi anulada porque todas as alternativas estavam corretas e foi excluída do denominador.
 - **Evidências positivas**: concordância de `haver`, `fazer`, `existir`, `faltar` e `bastar`; distinção entre partícula apassivadora e índice de indeterminação do sujeito; crase com nomes de lugar; voz passiva sintética; regência normativa de `preferir X a Y`.
 - **Erro mapeado**: Q4, [C] confusão conceitual. Na substituição de `contudo` por `embora`, a arquitetura argumentativa foi invertida e o modo verbal não foi reconstruído. `Contudo` coordena oração adversativa; `embora` introduz oração concessiva subordinada, normalmente com subjuntivo.

@@ -20,7 +20,7 @@ Registro de simulados realizados especificamente com foco na Dataprev e na banca
 ## Histórico de Mini-Simulados
 
 Use esta seção para registrar sessões de simulados menores focadas em matérias específicas do edital.
-- **Sessão mista Dataprev/FGV:** 14/09/2026 — **22/26 válidas (84,6%)**: Lógica 5/6; Português 5/6 válidas, com 1 questão anulada fora do denominador; Legislação 4/4; Comunicação 6/7; Atualidades/IA 2/3. O bloco de Inglês foi iniciado, mas não houve respostas registradas e ele não entra nas métricas.
+- **Sessão mista Dataprev/FGV:** 14/09/2026 — [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]: **22/26 válidas (84,6%)**; pontuação ponderada parcial **31,0/36,5** nos itens respondidos; /115 não calculável. Lógica 5/6; Português 5/6 válidas, com 1 questão anulada fora do denominador; Legislação 4/4; Comunicação 6/7; Atualidades/IA 2/3. O bloco de Inglês foi iniciado, mas não houve respostas registradas e ele não entra nas métricas.
 - **Raciocínio Lógico (FGV — Retenção de Condição e Bateria Mista):** 04/09/2026 — 10/12 útil (83,3%)
 - **Raciocínio Lógico (FGV — Condição Necessária × Suficiente):** 03/09/2026 — 3/5 útil (60,0%; 1 anulada)
 - **Raciocínio Lógico (FGV — Condicional e Linguagem Natural):** 02/09/2026 — 6/13 útil (46,2%)

@@ -10,7 +10,7 @@ updated: 2026-09-14
 
 Registro de erros recorrentes, pegadinhas de banca e falsos cognatos lógicos identificados durante a resolução de questões e simulados da FGV.
 
-Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]] e os diagnósticos do [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]] e do [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]].
+Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]], os diagnósticos do [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]] e do [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], e a [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
 
 ## Língua Portuguesa (FGV)
 - **Funções do "SE" (PA vs. IIS):** Q21 do Simulado 01 — *VTD/VTDI com sujeito paciente no plural exige concordância passiva (PA)*; *VTI/VI com preposição mantém verbo invariável na 3ª pessoa do singular (IIS)*. [[3 - Materias/Portugues/02 - sujeito#Sujeito Determinado vs. Indeterminado e as Funções da Partícula "SE"|Estudo em Sujeito]].

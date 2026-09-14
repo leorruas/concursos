@@ -52,6 +52,7 @@ updated: 2026-09-14
 ## Diagnósticos de desempenho
 
 ### Diagnóstico de bateria mista: quantificadores, proposições e condicional (14/09/2026)
+- **Diagnóstico consolidado da sessão**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
 - **Resultado**: 83,3% (5/6 acertos válidos).
 - **Evidências positivas**: interpretação correta de `algum` como existência mínima; distinção entre proposição e sentença aberta; inferência existencial sem extrapolação; negação de universal combinada com De Morgan; identificação do único caso falso da condicional (`V → F`).
 - **Erro mapeado**: Q2, [C] confusão conceitual. Ao negar “Nenhum analista utiliza o sistema legado”, foi marcada “Todo analista utiliza”. A negação mínima suficiente é **algum analista utiliza**.

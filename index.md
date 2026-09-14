@@ -67,6 +67,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[3 - Materias/Calculo Mental/calculo-mental|Cálculo mental]]
   - [[3 - Materias/Calculo Mental/Avancos|Avanços e desempenho]]
 - [[3 - Materias/Informatica/informatica|Informatica]]
+  - [[3 - Materias/Informatica/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Informatica/01 - marco civil da internet|01 • Marco Civil da Internet]]
   - [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos|02 • Lei 12.737/2012 — delitos informáticos]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]

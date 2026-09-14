@@ -8,6 +8,9 @@ updated: 2026-09-14
 
 # Informática (Concursos)
 
+## Acompanhamento
+- [[3 - Materias/Informatica/Avancos|Avanços e desempenho]]
+
 ## Sistemas Operacionais
 - Windows (principais funções)
 - Organização de arquivos e pastas

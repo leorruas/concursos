@@ -62,6 +62,9 @@ function carregarManifesto(relPath) {
   if (!manifest || manifest.version !== 1 || !Array.isArray(manifest.operations)) {
     throw new Error('Change set inválido: esperado { version: 1, operations: [...] }.');
   }
+  if (manifest.draft !== false) {
+    throw new Error('Change set ainda é rascunho. Preencha todas as operações e defina explicitamente "draft": false antes do --apply.');
+  }
   return manifest;
 }
 
@@ -90,10 +93,7 @@ async function main() {
   }
 
   const content = fs.readFileSync(inputPath, 'utf8');
-  const fingerprint = calcularFingerprintIngestao({
-    content,
-    concurso: options.concurso
-  });
+  const fingerprint = calcularFingerprintIngestao({ content, concurso: options.concurso });
 
   const ledger = carregarLedger(ledgerPath);
   const previous = localizarFingerprint(ledger, fingerprint);
@@ -115,7 +115,7 @@ async function main() {
   if (!options.changeset) {
     throw new Error(
       'APPLY BLOQUEADO: --apply exige --changeset <arquivo.json>. ' +
-      'O change set deve conter todos os destinos obrigatórios da ingestão e os hashes de precondição.'
+      'Gere primeiro um rascunho com scripts/generate-ingestion-changeset.js.'
     );
   }
 
@@ -138,8 +138,6 @@ async function main() {
     hasErrors
   });
 
-  // O ledger participa da MESMA transação dos demais arquivos. Assim não existe
-  // estado "dados escritos sem fingerprint" nem "fingerprint sem dados".
   const nextLedger = [
     ...ledger,
     {
@@ -157,8 +155,6 @@ async function main() {
     content: `${JSON.stringify(nextLedger, null, 2)}\n`
   });
 
-  // A inbox canônica só é limpa se TODO o change set e TODAS as validações
-  // passarem. Em caso de falha, o rollback também restaura a entrada.
   if (options.input === '00 inbox/00 ingestão.md') {
     const hoje = new Date().toISOString().slice(0, 10);
     adicionarOperacaoSistema(manifest, {

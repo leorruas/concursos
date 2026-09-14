@@ -76,3 +76,4 @@ Adjuntos adverbiais podem aparecer no início, no meio ou no fim da oração. Qu
 
 **Pegadinha FGV:** em questões de substituição, equivalência semântica parcial não basta; a frase resultante também precisa manter correção sintática e a mesma relação argumentativa entre as orações.
 
+**Estudo completo:** [[07 - oracoes coordenadas e subordinadas#Tensões e pegadinhas|Orações coordenadas e subordinadas: tensões e pegadinhas]].

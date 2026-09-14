@@ -50,7 +50,7 @@ panel = '''Mapeamento do aproveitamento médio e volume na janela móvel dos **�
 > A janela por disciplina exclui o Simulado 02 de 01/09, porque a distribuição das 70 questões por matéria não foi preservada. O simulado continua contabilizado nos totais semanal e global bruto, mas não é repartido artificialmente entre disciplinas.
 
 ### Métricas específicas por disciplina'''
-text, n = panel_pattern.subn(panel, text, count=1)
+text, n = panel_pattern.subn(lambda _m: panel, text, count=1)
 if n != 1:
     raise SystemExit('Painel de 30 dias não localizado de forma única.')
 
@@ -140,7 +140,6 @@ if link.strip() not in text:
     if anchor not in text:
         raise SystemExit('Âncora de Informática no index não encontrada.')
     text = text.replace(anchor, anchor + link, 1)
-# Atualiza rodapé se presente.
 text = re.sub(r'(?m)^\*Última atualização: \d{4}-\d{2}-\d{2}\*$', '*Última atualização: 2026-09-14*', text, count=1)
 write(path, text)
 

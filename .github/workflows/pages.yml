@@ -42,3 +42,5 @@ jobs:
           path: ./_site
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Confirmar catálogo publicado no Pages
+        run: node scripts/verify-live-pages.js "${{ steps.deployment.outputs.page_url }}"

@@ -3,7 +3,7 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-08-10
+updated: 2026-09-14
 ---
 # Avanços e desempenho
 
@@ -70,6 +70,7 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 14/09/2026 | 7 | Comunicação Social | Bateria FGV de Schein, Kunsch, teorias do jornalismo, assessoria/media training e finalidade predominante: 6/7 (85,7%). Erro único [C] em clipping × auditoria de imagem na mídia. |
 | 31/08/2026 | 37 | Comunicação Social | Ingestão de Inbox (LGPD Aprofundada - Bloco 2): Poder Público e Segurança (2/4), Fixação Poder Público (2/3), Categorias e Sensibilidade (4/6), Bases Legais (4/5), Consentimento (4/4), Compartilhamento e Estatais (5/5), Agentes/Responsabilidade (5/5) e Sanções/ANPD (4/5) (30/37 — 81,1%) |
 | 11/08/2026 | 44 | Comunicação Social | Ingestão de Inbox (Fechamento do Edital): Bridging/Coletivas (6/6), Nielsen em UX Writing (11/14), Redes Sociais Governamentais (6/6), CMS e Ferramentas Adobe (6/6), Produção por Meio (6/6) e Transparência/Prestação de Contas (5/6) (40/44) |
 | 10/08/2026 | 51 | Comunicação Social | Ingestão de Inbox: Produção Audiovisual (5/5), Roteiro (5/5), Fotografia (6/6), Identidade Visual (5/5), Algoritmos/Filtros (6/6), Omnichannel (6/6), Big Data/Tecnologias (6/6), LGPD Comunicação (6/6) e Protocolo ANPD (6/6) (51/51) |
@@ -91,9 +92,31 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 | 06/07/2026 | 10 | Comunicação Social | Baterias de Comunicação Organizacional (Modo FGV) e Comunicação Digital (Métricas e KPIs) (10/10) |
 | 05/07/2026 | 15 | Comunicação Social | Baterias de Comunicação Organizacional, Lead/Pirâmide, Gêneros Jornalísticos, Comunicação Integrada (14/15) |
 
+## Aproveitamento semanal
+
+| Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
+| :--- | :--- | :--- | :--- |
+| **Semana 38** (14/09 a 20/09) | 7 | 85,7% (6/7) | Desempenho alto em autores, taxonomias e aplicação profissional. Falha isolada de fronteira entre etapa de coleta (`clipping`) e análise longitudinal estruturada (`auditoria de imagem na mídia`). |
+| **Semana 36** (31/08 a 06/09) | 37 | 81,1% (30/37) | Bateria LGPD aprofundada. Acertos fortes em consentimento, compartilhamento e agentes; lacunas pontuais em Poder Público, sensibilidade, bases legais e sanções foram corrigidas na própria sessão. |
+| **Semana 33** (10/08 a 16/08) | 95 | 95,8% (91/95) | Fechamento do edital com produção audiovisual, digital, LGPD, Nielsen, redes governamentais, CMS/Adobe e transparência. |
+| **Semana 32** (03/08 a 09/08) | 45 | 100% (45/45) | Marketing, planejamento, teorias do jornalismo, visualização e data storytelling gabaritados. |
+| **Semana 31** (27/07 a 02/08) | 75 | 92,0% (69/75) | Marketing, branding, comunicação digital, acessibilidade, SEO, KPIs, copywriting e crise. |
+| **Semana 30** (20/07 a 26/07) | 20 | 95,0% (19/20) | Simulado FGV de Comunicação; erro único em classificação pela finalidade predominante. |
+| **Semana 29** (13/07 a 19/07) | 43 | 95,3% (41/43) | Noticiabilidade, redação jornalística, comunicação digital, IA aplicada, avaliação e ética. |
+| **Semana 28** (06/07 a 12/07) | 62 | 98,4% (61/62) | Comunicação organizacional, digital, crise, planejamento, assessoria, comunicação pública e linguagem simples. |
+| **Semana 27** (29/06 a 05/07) | 15 | 93,3% (14/15) | Baterias de comunicação organizacional, lead/pirâmide, gêneros jornalísticos e comunicação integrada. |
+
 ---
 
 ## Diagnósticos de desempenho
+
+### Diagnóstico de bateria FGV: autores, teorias do jornalismo e assessoria (14/09/2026)
+- **Resultado**: 85,7% (6/7 acertos).
+- **Evidências positivas**: Schein (pressupostos básicos subjacentes); comunicação integrada em Kunsch; `newsmaking` como rotinas produtivas; separação entre gatekeeping, framing, agenda-setting e espiral do silêncio; `bridging` sem evasão; classificação mercadológica pela finalidade predominante mesmo em emissor público.
+- **Erro mapeado**: Q5, [C] confusão conceitual. Foi escolhido `clipping` para uma análise de oito meses que comparava temas, veículos, fontes, concorrentes e padrões de exposição. O erro deslocou uma definição verdadeira para a etapa imediatamente anterior.
+- **Fronteira**: clipping = coleta e organização; análise = interpretação; auditoria de imagem na mídia = leitura estruturada e abrangente da cobertura ao longo de período mais amplo.
+- **Destino pedagógico**: `metrica_apenas` + `enriquecimento_teorico` + `questao_comentada_candidata`. A distinção já está consolidada em [[3 - Materias/Comunicacao/08 - assessoria de imprensa#6. Clipping, análise tópica e auditoria de imagem|Clipping, análise tópica e auditoria de imagem]], então não foi duplicada.
+- **Ação**: reapresentar a distinção em caso prático futuro, sem reestudo passivo do artigo inteiro.
 
 ### Diagnóstico de Ingestão — LGPD Aprofundada: Poder Público, Categorias, Bases Legais, Agentes e Sanções (31/08/2026)
 - **Resultado**: 81,1% (30/37 acertos no consolidado da sessão) e consolidação teórica aprofundada na nota [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]].

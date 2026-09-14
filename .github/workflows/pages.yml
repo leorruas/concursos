@@ -35,6 +35,8 @@ jobs:
         run: node scripts/validate-change-contract.js
       - name: Testar idempotência da ingestão
         run: node scripts/test-ingestion-idempotency.js
+      - name: Validar invariantes globais do vault
+        run: node scripts/validate-vault-invariants.js
       - name: Validar integridade dos dados e links
         run: node scripts/validate-integrity.js
       - name: Montar artefato estático isolado (_site)

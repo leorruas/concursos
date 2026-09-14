@@ -22,10 +22,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Validar contrato de mudança
+        env:
+          BASE_SHA: ${{ github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+        run: node scripts/validate-change-contract.js
       - name: Validar integridade dos dados e links
         run: node scripts/validate-integrity.js
       - name: Montar artefato estático isolado (_site)

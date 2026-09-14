@@ -37,6 +37,8 @@ jobs:
         run: node scripts/test-ingestion-idempotency.js
       - name: Testar política pedagógica de questões
         run: node scripts/test-question-ingestion-policy.js
+      - name: Testar política de propagação da ingestão
+        run: node scripts/test-ingestion-propagation-policy.js
       - name: Testar transações multi-arquivo
         run: node scripts/test-changeset-transaction.js
       - name: Validar invariantes globais do vault

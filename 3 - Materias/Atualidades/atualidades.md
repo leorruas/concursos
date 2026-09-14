@@ -26,37 +26,49 @@ A pergunta de controle é: **se a FGV trocar o fato concreto, o fundamento conti
 ## Economia brasileira
 
 - [[03 - regime de metas inflacao selic copom|Regime de metas, inflação, Selic e Copom]]
-- Lacunas prioritárias: PIB e atividade econômica; desemprego, informalidade e mercado de trabalho; política fiscal, déficit, resultado primário e dívida pública; câmbio e comércio exterior.
+- [[04 - pib e atividade economica|PIB e atividade econômica]]
+- [[05 - mercado de trabalho desemprego e informalidade|Mercado de trabalho, desemprego e informalidade]]
+- [[06 - politica fiscal resultado primario e divida publica|Política fiscal, resultado primário e dívida pública]]
+- [[07 - cambio balanca comercial e comercio exterior|Câmbio, balança comercial e comércio exterior]]
 
 ## Política e instituições
 
-- Lacunas prioritárias: funcionamento institucional brasileiro quando pertinente ao edital; competências e relações entre Poderes; processos eleitorais e democracia apenas quando relevantes para Atualidades e sem duplicar Direito Constitucional.
+- [[13 - politica instituicoes e democracia nas atualidades|Política, instituições e democracia nas Atualidades]]
+- Para regras jurídicas detalhadas, usar [[3 - Materias/Direito Constitucional/direito-constitucional|Direito Constitucional]] em vez de duplicar teoria.
 
 ## Geopolítica e relações internacionais
 
-- Lacunas prioritárias: ONU e Conselho de Segurança; OTAN; União Europeia; Mercosul; BRICS; G20; conflitos e alianças internacionais interpretados a partir dessas estruturas.
+- [[08 - organizacoes internacionais e blocos|Organizações internacionais e blocos: ONU, Conselho de Segurança, OTAN, UE, Mercosul, BRICS e G20]]
+- Conflitos específicos e mudanças de alianças devem entrar como snapshots quando tiverem relevância de prova.
 
 ## Sociedade e indicadores sociais
 
-- Lacunas prioritárias: demografia; desigualdade; indicadores de educação, saúde, renda e trabalho; migrações e mudanças na estrutura populacional.
+- [[09 - demografia e indicadores sociais|Demografia e indicadores sociais]]
+- Indicadores específicos de educação, renda, desigualdade, migração e condições de vida devem expandir esta base ou gerar nota própria quando a fronteira conceitual justificar.
 
 ## Meio ambiente, clima e energia
 
-- Lacunas prioritárias: mudança climática; COP; mercado de carbono; transição energética; matriz energética e matriz elétrica brasileira; desenvolvimento sustentável e ecologia.
+- [[10 - mudanca climatica cop e mercado de carbono|Mudança climática, COP e mercado de carbono]]
+- [[11 - matriz energetica eletrica e transicao energetica|Matriz energética, matriz elétrica e transição energética]]
 
 ## Tecnologia e inteligência artificial
 
 - [[01 - inteligencia artificial|Inteligência artificial]]
 - [[02 - quarto chines|Quarto chinês: sintaxe, semântica e compreensão]]
-- Lacunas prioritárias: regulação de IA, governança, riscos, impactos sociais e econômicos, infraestrutura digital e outros temas tecnológicos quando ganharem relevância para o edital.
+- Regulação de IA, infraestrutura digital e novos riscos tecnológicos devem ser criados como notas próprias apenas quando trouxerem mecanismos não cobertos pelas notas existentes.
 
 ## Saúde e ciência
 
-- Lacunas prioritárias: mecanismos e instituições necessários para interpretar emergências sanitárias, vacinação, saúde pública, pesquisa científica e indicadores de saúde quando houver fato relevante.
+- [[12 - saude publica vigilancia e vacinacao|Saúde pública, vigilância e vacinação]]
+- Pesquisa científica, emergências sanitárias específicas e novas tecnologias de saúde devem ser incorporadas por mecanismo ou snapshot, sem acumular manchetes.
 
 ## Cultura e temas sociais relevantes
 
 - Criar fundamentos apenas quando o tema tiver relevância suficiente, aderência ao edital e capacidade de gerar questão razoável. Evitar transformar manchetes isoladas em conhecimento permanente.
+
+## Lacunas remanescentes do edital amplo
+
+Segurança, transportes, educação e cultura continuam deliberadamente sem uma nota genérica. Esses termos do edital são muito amplos para justificar teoria abstrata sem um acontecimento ou mecanismo relevante. Quando surgirem fatos com potencial real de cobrança, primeiro verificar se revelam fundamento reutilizável; caso contrário, registrar apenas snapshot conjuntural.
 
 # Snapshots conjunturais
 

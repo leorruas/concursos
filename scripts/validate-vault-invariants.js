@@ -162,6 +162,26 @@ if (faltantes.length > 0) {
   ok(`${linksLocais.length} wikilink(s) com caminho no index resolvem para arquivos existentes.`);
 }
 
+console.log('\n=== INVARIANTE 7: HIGIENE DE WORKFLOWS ===');
+const workflowsDir = path.join(rootDir, '.github/workflows');
+if (!fs.existsSync(workflowsDir)) {
+  fail('.github/workflows não existe.');
+} else {
+  const workflows = fs.readdirSync(workflowsDir).filter((f) => /\.ya?ml$/i.test(f));
+  const temporarios = workflows.filter((f) =>
+    /^tmp[-_]/i.test(f) ||
+    /^temp[-_]/i.test(f) ||
+    /append-log-once/i.test(f) ||
+    /ingest-avancos-\d{4}-\d{2}-\d{2}/i.test(f) ||
+    /tmp-ingest-/i.test(f)
+  );
+  if (temporarios.length > 0) {
+    for (const f of temporarios) fail(`Workflow temporário abandonado no repositório: .github/workflows/${f}`);
+  } else {
+    ok(`${workflows.length} workflow(s) permanente(s); nenhum temporário abandonado.`);
+  }
+}
+
 console.log('\n----------------------------------------');
 if (errors > 0) {
   console.error(`FALHA: ${errors} invariante(s) violada(s), ${warnings} aviso(s).`);

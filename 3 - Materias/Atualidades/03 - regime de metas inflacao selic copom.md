@@ -2,6 +2,7 @@
 title: "Regime de metas, inflação, Selic e Copom"
 type: "conceito"
 status: "ativo"
+layer: "fundamento_estavel"
 created: 2026-09-14
 updated: 2026-09-14
 ---
@@ -20,8 +21,31 @@ O **IPCA** é o índice oficial usado como referência para a meta de inflação
 
 O Copom usa a Selic como principal instrumento de política monetária para buscar a convergência da inflação à meta. A relação não é mecânica: uma queda do IPCA não implica corte automático da Selic, nem na mesma proporção. A decisão considera inflação corrente e projetada, expectativas, atividade econômica, riscos fiscais e externos e outros elementos do cenário.
 
-> [!IMPORTANT]
-> **Camada estável × camada conjuntural:** os conceitos acima são a base para estudo. Valores de IPCA, Selic, projeções e decisões do Copom mudam ao longo do tempo e devem ser tratados como *snapshots* datados, não como fatos permanentes.
+## Estrutura interna
+
+A relação central pode ser lida assim:
+
+```text
+IPCA e projeções de inflação
+        ↓
+cenário + expectativas + atividade + riscos
+        ↓
+Copom avalia o balanço de riscos
+        ↓
+meta Selic
+        ↓
+condições de crédito, demanda e expectativas
+        ↓
+pressões inflacionárias ao longo do tempo
+```
+
+A cadeia é causalmente mediada e ocorre com defasagens. Ela não autoriza inferências automáticas entre um dado mensal e a decisão seguinte do Copom.
+
+## Como interpretar uma notícia
+
+Ao ler uma notícia sobre inflação ou juros, separar pelo menos quatro perguntas: o dado é mensal ou acumulado; está sendo comparado com a meta central ou com a faixa de tolerância; o movimento decorre de poucos componentes temporários ou é disseminado; e a notícia descreve um fato observado, uma expectativa de mercado ou uma decisão institucional.
+
+Uma queda do IPCA pode reduzir pressões sobre a política monetária, mas não determina corte de juros. Do mesmo modo, um mês fora da faixa não caracteriza sozinho descumprimento formal da meta. Projeções do mercado e projeções do Banco Central também não são o mesmo que inflação realizada.
 
 ## Como a FGV cobra
 
@@ -62,7 +86,7 @@ Também pode apresentar dados econômicos recentes e pedir a interpretação cor
 
 ## Exemplos comentados
 
-### Exemplo 1 — dentro da faixa, acima da meta
+### Exemplo 1: dentro da faixa, acima da meta
 
 Se o IPCA acumulado em 12 meses estiver em 4,2%:
 
@@ -70,18 +94,13 @@ Se o IPCA acumulado em 12 meses estiver em 4,2%:
 - está abaixo do limite superior de 4,5%;
 - portanto, encontra-se dentro da faixa de tolerância.
 
-### Exemplo 2 — queda mensal não gera corte automático
+### Exemplo 2: queda mensal não gera corte automático
 
 Se o IPCA cai em determinado mês, isso pode aumentar a probabilidade de redução da Selic, mas não determina a decisão do Copom. O Comitê avalia se a queda é persistente, quais grupos de preços explicam o movimento, expectativas futuras e o balanço de riscos.
 
-## Snapshot conjuntural — 14/09/2026
+## Snapshots relacionados
 
-> [!WARNING]
-> Esta seção é **datada**. Antes de usá-la em revisão futura ou simulado de Atualidades, revalidar os números nas fontes oficiais.
-
-Em agosto de 2026, o IPCA registrou **-0,32% no mês** e **4,22% em 12 meses**. O resultado mensal foi influenciado por queda de energia elétrica associada ao Bônus de Itaipu, além de recuos em alimentação e transportes. O dado colocou o acumulado de 12 meses dentro do intervalo de tolerância, mas ainda acima da meta central de 3,0%.
-
-Na data de corte desta nota, a meta Selic era de **14,00% ao ano**, vigente desde a reunião do Copom de 05/08/2026. A reunião seguinte estava prevista para setembro; portanto, esse número não deve ser memorizado como permanente.
+- [[Snapshots/2026-09-14 - IPCA agosto e Selic|IPCA de agosto e Selic — 14/09/2026]]
 
 ## Heurísticas
 
@@ -93,11 +112,13 @@ Na data de corte desta nota, a meta Selic era de **14,00% ao ano**, vigente desd
 - **Copom:** decide a meta Selic.
 - Nunca conclua `IPCA caiu → Selic necessariamente cai`.
 - Diferencie movimento mensal de tendência persistente.
-- Em Atualidades, sempre pergunte: **isto é fundamento estável ou snapshot conjuntural?**
+- Diferencie fato observado de projeção.
 
-## Fontes de verificação
+## Fontes
 
-- Banco Central do Brasil — histórico do regime de metas: https://www.bcb.gov.br/controleinflacao/historicometas
+Verificadas em 14/09/2026:
+
+- Banco Central do Brasil: histórico do regime de metas: https://www.bcb.gov.br/controleinflacao/historicometas
 - Resolução CMN nº 5.141/2024: https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=5141&tipo=RESOLU%C3%87%C3%83O%20CMN
-- Banco Central do Brasil — histórico da Selic: https://www.bcb.gov.br/controleinflacao/historicotaxasjuros
-- IBGE — IPCA e séries oficiais: https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html
+- Banco Central do Brasil: histórico da Selic: https://www.bcb.gov.br/controleinflacao/historicotaxasjuros
+- IBGE: IPCA e séries oficiais: https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html

@@ -29,17 +29,21 @@ Erros `[C]` e `[K]` são os principais candidatos a enriquecimento/questão come
 
 Antes de inserir questão comentada em uma nota, verificar se já existe questão cobrindo a mesma fronteira. O artigo não deve virar banco de questões: preservar a régua de 1 a 3 questões comentadas de alto valor cognitivo por nota, substituindo ou fundindo quando surgir exemplo melhor.
 
-### Comando canônico e idempotência
+### Comando canônico, idempotência e estado do apply
 
-Para executar ingestões novas, usar **`scripts/ingest-safe.js`** como porta de entrada. `scripts/ingest-vault.js` é o motor interno e não deve ser chamado diretamente em operações normais de ingestão. Exemplos:
+Para analisar ingestões novas, usar **`scripts/ingest-safe.js`** como porta de entrada. `scripts/ingest-vault.js` é o motor interno e não deve ser chamado diretamente em operações normais de ingestão.
 
 ```bash
 node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --dry-run
-node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --apply
 node scripts/ingest-safe.js --input "arquivo.md" --type simulado --dry-run
 ```
 
-A camada segura calcula fingerprint do conteúdo e consulta `data/ingestoes-processadas.json`. Uma ingestão já aplicada deve ser bloqueada antes de qualquer nova gravação, mesmo que o mesmo conteúdo reapareça em outro arquivo ou seja forçado com outra classificação. Não apagar nem editar o ledger manualmente para contornar o bloqueio; se houver falso positivo, tratar como decisão de governança explícita.
+A camada segura calcula fingerprint do conteúdo e consulta `data/ingestoes-processadas.json`. Uma ingestão já aplicada deve ser bloqueada mesmo que o mesmo conteúdo reapareça em outro arquivo ou seja forçado com outra classificação. Não apagar nem editar o ledger manualmente para contornar o bloqueio.
+
+> [!IMPORTANT]
+> **Estado transitório de segurança:** `scripts/ingest-safe.js --apply` está deliberadamente bloqueado até que o propagador transacional complete todas as camadas obrigatórias. O motor legado `ingest-vault.js` ainda não possui paridade entre o plano declarado e os arquivos realmente gravados. Enquanto isso, executar `--dry-run`, aplicar o plano completo por mecanismo seguro e deixar `scripts/validate-change-contract.js` provar no CI que Avanços locais/globais, saturação, projeto, erros, dashboard e demais dependências foram propagados. É proibido contornar o bloqueio chamando `ingest-vault.js --apply` diretamente.
+
+O `--apply` só poderá ser reabilitado depois que houver teste automatizado de paridade `plano esperado = arquivos modificados` e rollback transacional do conjunto completo.
 
 ## Regra de publicação de conteúdo público
 

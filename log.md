@@ -1024,3 +1024,15 @@
 - Recuperação registrada: De Morgan voltou a aparecer corretamente em contexto misto e passou de pendente para superado no registro de recorrências.
 - Cobertura do edital: Lei 12.737/2012 concluída, levando Legislação de SI a **4/4** e o total do edital a **115/130 (88,5%)**. Atualidades permanece 1/2 por ainda representar um eixo temático amplo não fechado.
 - Limite de validação: o `scripts/ingest-vault.js` atual trabalha com uma disciplina/placar por entrada e o inbox do GitHub estava vazio; por isso esta fonte mista foi tratada como cinco baterias dirigidas independentes, preservando a mesma governança de destinos e métricas.
+
+
+## 2026-09-14 — Formalização transacional da bateria mista Dataprev/FGV
+
+- Fonte: arquivo anexado `00 ingestão.md`, normalizado na inbox canônica sem alteração dos resultados pedagógicos.
+- Dry-run canônico concluído com classificação operacional `simulado`: **22/26 (84,6%)**, quatro erros clínicos e nota /115 corretamente marcada como não calculável.
+- Fingerprint da evidência: `918d6a880831f80ec59b8d287b4d70f0e14b5e4436af9c38e3b80bb1118b621d`.
+- TAP da sessão: **84,4%**. Pontuação ponderada parcial: **31,0/36,5** nos itens efetivamente respondidos.
+- Blocos: Lógica 5/6; Português 5/6 válidas, com 1 anulada; Legislação 4/4; Comunicação 6/7; Atualidades/IA 2/3; Inglês sem respostas e fora das métricas.
+- Erros: Lógica [C] `nenhum → algum`; Português [C] recorrente adversativa × concessiva; Comunicação [C] clipping × auditoria de imagem; Atualidades [K] regime de metas/IPCA/Selic/Copom.
+- Teoria já promovida sem duplicação: [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos|Lei 12.737/2012 — delitos informáticos]] e [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|Regime de metas, inflação, Selic e Copom]].
+- Criado o acompanhamento local [[3 - Materias/Informatica/Avancos|Avanços de Informática e legislação de SI]] e sincronizadas as camadas local, global, projeto e diagnóstico consolidado.

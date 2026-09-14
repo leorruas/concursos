@@ -39,6 +39,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[00 - Desempenho/Simulados/Prompt - gerar simulados por prova-espelho|Prompt para gerar simulados por prova-espelho]]
   - [[00 - Desempenho/Simulados/Simulado-01|Simulado 01 — Diagnóstico e erros]]
   - [[00 - Desempenho/Simulados/Simulado-02|Simulado 02 — Diagnóstico e erros]]
+  - [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]
 
 ## 3 - Matérias
 - [[3 - Materias/Estrategia de Prova/FGV e Cebraspe - Dataprev e TCDF|FGV e Cebraspe: Dataprev e TCDF]]

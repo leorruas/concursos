@@ -3,7 +3,7 @@ title: "Catálogo de simulados"
 type: "hub"
 status: "ativo"
 created: 2026-08-31
-updated: 2026-09-10
+updated: 2026-09-14
 ---
 
 # Catálogo de simulados
@@ -20,6 +20,7 @@ Para gerar uma nova prova com ChatGPT, Gemini ou outra LLM com acesso ao vault, 
 
 | Simulado | Data | Questões | Acertos | Aproveitamento | Erros Mapeados | Arquivo de Diagnóstico |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Bateria Mista Dataprev/FGV** | 14/09/2026 | 26 válidas | 22 | **84,6%** | 4 erros úteis (3 [C], 1 [K]) | [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14\|Diagnóstico da bateria mista]] |
 | **Simulado 01** (Módulo I + Comunicação) | 31/08/2026 | 70 | 54 | **77,1%** | 16 (Q3, Q5, Q10, Q13, Q14, Q21, Q22, Q24, Q26, Q31, Q48, Q54, Q58, Q61, Q65, Q70) | [[00 - Desempenho/Simulados/Simulado-01\|Simulado 01 - Diagnóstico Completo]] |
 | **Simulado 02** (distribuição não oficial) | 01/09/2026 | 70 | 67 | **95,7%** | 3 (Q15, Q21, Q35) | [[00 - Desempenho/Simulados/Simulado-02\|Simulado 02 - Diagnóstico Completo]] |
 

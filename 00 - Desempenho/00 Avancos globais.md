@@ -22,18 +22,18 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 
 | Disciplina | Aproveitamento (30d) | Questões (30d) | Meta | Status de Amostragem | Último Treino |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [[3 - Materias/Portugues/portugues|Língua portuguesa]] | *80,0%* | 20 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
-| [[3 - Materias/Ingles/ingles|Língua inglesa]] | *100,0%* | 7 | - | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
-| [[3 - Materias/Logica/00 - logica|Raciocínio lógico]] | *61,0%* | 41 | 85% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
-| [[3 - Materias/Calculo Mental/calculo-mental|Cálculo mental]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/07/2026 |
-| [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
-| [[3 - Materias/Direito Administrativo/direito-administrativo|Direito administrativo]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
-| [[3 - Materias/Comunicacao/comunicacao|Comunicação social]] | 85,9% | 71 | 90% | **Amostragem sólida** ($\ge$ 50 Qs) | 14/09/2026 |
-| [[3 - Materias/Administracao Publica/administracao-publica|Administração pública]] | *100,0%* | 1 | 85% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
-| [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
-| [[3 - Materias/Atualidades/atualidades|Atualidades]] | *71,4%* | 7 | 75% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
-| [[3 - Materias/Informatica/informatica|Legislação de SI e proteção de dados]] | *62,5%* | 16 | - | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
-| [[3 - Materias/Redacao/redacao|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
+| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *80,0%* | 20 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Ingles/ingles\|Língua inglesa]] | *100,0%* | 7 | - | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
+| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | *61,0%* | 41 | 85% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/07/2026 |
+| [[3 - Materias/Direito Constitucional/direito-constitucional\|Direito constitucional]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
+| [[3 - Materias/Direito Administrativo/direito-administrativo\|Direito administrativo]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
+| [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | 85,9% | 71 | 90% | **Amostragem sólida** ($\ge$ 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Administracao Publica/administracao-publica\|Administração pública]] | *100,0%* | 1 | 85% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
+| [[3 - Materias/Administracao Geral/administracao-geral\|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
+| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *71,4%* | 7 | 75% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Informatica/informatica\|Legislação de SI e proteção de dados]] | *62,5%* | 16 | - | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Redacao/redacao\|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
 
 > [!NOTE]
 > A janela por disciplina exclui o Simulado 02 de 01/09, porque a distribuição das 70 questões por matéria não foi preservada. O simulado continua contabilizado nos totais semanal e global bruto, mas não é repartido artificialmente entre disciplinas.

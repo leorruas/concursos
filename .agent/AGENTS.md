@@ -29,6 +29,18 @@ Erros `[C]` e `[K]` são os principais candidatos a enriquecimento/questão come
 
 Antes de inserir questão comentada em uma nota, verificar se já existe questão cobrindo a mesma fronteira. O artigo não deve virar banco de questões: preservar a régua de 1 a 3 questões comentadas de alto valor cognitivo por nota, substituindo ou fundindo quando surgir exemplo melhor.
 
+### Comando canônico e idempotência
+
+Para executar ingestões novas, usar **`scripts/ingest-safe.js`** como porta de entrada. `scripts/ingest-vault.js` é o motor interno e não deve ser chamado diretamente em operações normais de ingestão. Exemplos:
+
+```bash
+node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --dry-run
+node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --apply
+node scripts/ingest-safe.js --input "arquivo.md" --type simulado --dry-run
+```
+
+A camada segura calcula fingerprint do conteúdo e consulta `data/ingestoes-processadas.json`. Uma ingestão já aplicada deve ser bloqueada antes de qualquer nova gravação, mesmo que o mesmo conteúdo reapareça em outro arquivo ou seja forçado com outra classificação. Não apagar nem editar o ledger manualmente para contornar o bloqueio; se houver falso positivo, tratar como decisão de governança explícita.
+
 ## Regra de publicação de conteúdo público
 
 Sempre que a tarefa criar, mover ou alterar de forma relevante uma página pública em `3 - Materias/` ou `00 - Desempenho/`, o agente deve também ler e aplicar:

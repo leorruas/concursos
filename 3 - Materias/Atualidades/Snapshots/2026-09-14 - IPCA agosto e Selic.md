@@ -27,7 +27,7 @@ O resultado colocou a inflação acumulada em 12 meses dentro da faixa de toler�
 
 ## Fundamentos necessários
 
-- [[../03 - regime de metas inflacao selic copom|Regime de metas, inflação, Selic e Copom]]
+- [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|Regime de metas, inflação, Selic e Copom]]
 
 ## O que é possível concluir
 

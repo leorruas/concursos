@@ -23,34 +23,50 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-
           index = Path('index.md')
           text = index.read_text(encoding='utf-8')
-          old = '''  - [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|03 • Regime de metas, inflação, Selic e Copom]]
-  - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]'''
-          new = '''  - [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|03 • Regime de metas, inflação, Selic e Copom]]
-  - [[3 - Materias/Atualidades/04 - pib e atividade economica|04 • PIB e atividade econômica]]
-  - [[3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade|05 • Mercado de trabalho, desemprego e informalidade]]
-  - [[3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica|06 • Política fiscal, resultado primário e dívida pública]]
-  - [[3 - Materias/Atualidades/07 - cambio balanca comercial e comercio exterior|07 • Câmbio, balança comercial e comércio exterior]]
-  - [[3 - Materias/Atualidades/08 - organizacoes internacionais e blocos|08 • Organizações internacionais e blocos]]
-  - [[3 - Materias/Atualidades/09 - demografia e indicadores sociais|09 • Demografia e indicadores sociais]]
-  - [[3 - Materias/Atualidades/10 - mudanca climatica cop e mercado de carbono|10 • Mudança climática, COP e mercado de carbono]]
-  - [[3 - Materias/Atualidades/11 - matriz energetica eletrica e transicao energetica|11 • Matriz energética, matriz elétrica e transição energética]]
-  - [[3 - Materias/Atualidades/12 - saude publica vigilancia e vacinacao|12 • Saúde pública, vigilância e vacinação]]
-  - [[3 - Materias/Atualidades/13 - politica instituicoes e democracia nas atualidades|13 • Política, instituições e democracia nas Atualidades]]
-  - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]'''
+          old_lines = [
+              '  - [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|03 • Regime de metas, inflação, Selic e Copom]]',
+              '  - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]',
+          ]
+          new_lines = [
+              '  - [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|03 • Regime de metas, inflação, Selic e Copom]]',
+              '  - [[3 - Materias/Atualidades/04 - pib e atividade economica|04 • PIB e atividade econômica]]',
+              '  - [[3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade|05 • Mercado de trabalho, desemprego e informalidade]]',
+              '  - [[3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica|06 • Política fiscal, resultado primário e dívida pública]]',
+              '  - [[3 - Materias/Atualidades/07 - cambio balanca comercial e comercio exterior|07 • Câmbio, balança comercial e comércio exterior]]',
+              '  - [[3 - Materias/Atualidades/08 - organizacoes internacionais e blocos|08 • Organizações internacionais e blocos]]',
+              '  - [[3 - Materias/Atualidades/09 - demografia e indicadores sociais|09 • Demografia e indicadores sociais]]',
+              '  - [[3 - Materias/Atualidades/10 - mudanca climatica cop e mercado de carbono|10 • Mudança climática, COP e mercado de carbono]]',
+              '  - [[3 - Materias/Atualidades/11 - matriz energetica eletrica e transicao energetica|11 • Matriz energética, matriz elétrica e transição energética]]',
+              '  - [[3 - Materias/Atualidades/12 - saude publica vigilancia e vacinacao|12 • Saúde pública, vigilância e vacinação]]',
+              '  - [[3 - Materias/Atualidades/13 - politica instituicoes e democracia nas atualidades|13 • Política, instituições e democracia nas Atualidades]]',
+              '  - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]',
+          ]
+          old = '\n'.join(old_lines)
+          new = '\n'.join(new_lines)
           if old not in text:
               raise SystemExit('Bloco esperado de Atualidades não encontrado no index.md')
           index.write_text(text.replace(old, new, 1), encoding='utf-8')
-
           log = Path('log.md')
           log_text = log.read_text(encoding='utf-8')
           heading = '## 2026-09-14 — Materialização dos fundamentos de Atualidades'
           if heading not in log_text:
-              entry = '''\n\n## 2026-09-14 — Materialização dos fundamentos de Atualidades\n\n- Criadas as notas canônicas `04` a `13` em `3 - Materias/Atualidades/`, materializando as lacunas que antes apareciam apenas no hub.\n- Novos fundamentos: PIB e atividade econômica; mercado de trabalho; política fiscal e dívida pública; câmbio e comércio exterior; organizações internacionais e blocos; demografia e indicadores sociais; mudança climática/COP/mercado de carbono; matriz energética e transição; saúde pública/vigilância/vacinação; política, instituições e democracia nas Atualidades.\n- O hub `[[3 - Materias/Atualidades/atualidades|Atualidades]]` foi propagado para apontar para os arquivos reais.\n- `index.md` foi atualizado com os novos wikilinks.\n- O checklist da Dataprev não foi marcado como estudado: existência de nota não equivale a exposição ou domínio.\n- Segurança, transportes, educação e cultura permanecem como lacunas deliberadas até surgir mecanismo ou fato com valor real de prova, evitando notas genéricas sem função cognitiva.\n'''
+              entry_lines = [
+                  '',
+                  '',
+                  heading,
+                  '',
+                  '- Criadas as notas canônicas `04` a `13` em `3 - Materias/Atualidades/`, materializando as lacunas que antes apareciam apenas no hub.',
+                  '- Novos fundamentos: PIB e atividade econômica; mercado de trabalho; política fiscal e dívida pública; câmbio e comércio exterior; organizações internacionais e blocos; demografia e indicadores sociais; mudança climática/COP/mercado de carbono; matriz energética e transição; saúde pública/vigilância/vacinação; política, instituições e democracia nas Atualidades.',
+                  '- O hub `[[3 - Materias/Atualidades/atualidades|Atualidades]]` foi propagado para apontar para os arquivos reais.',
+                  '- `index.md` foi atualizado com os novos wikilinks.',
+                  '- O checklist da Dataprev não foi marcado como estudado: existência de nota não equivale a exposição ou domínio.',
+                  '- Segurança, transportes, educação e cultura permanecem como lacunas deliberadas até surgir mecanismo ou fato com valor real de prova, evitando notas genéricas sem função cognitiva.',
+                  '',
+              ]
               with log.open('a', encoding='utf-8') as f:
-                  f.write(entry)
+                  f.write('\n'.join(entry_lines))
           PY
 
       - name: Remove temporary workflow and commit

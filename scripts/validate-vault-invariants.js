@@ -11,32 +11,12 @@ const rootDir = path.resolve(__dirname, '..');
 let errors = 0;
 let warnings = 0;
 
-function fail(message) {
-  console.error(`✗ INVARIANTE: ${message}`);
-  errors++;
-}
-
-function ok(message) {
-  console.log(`✓ ${message}`);
-}
-
-function warn(message) {
-  console.warn(`! AVISO: ${message}`);
-  warnings++;
-}
-
-function rel(fullPath) {
-  return path.relative(rootDir, fullPath).replace(/\\/g, '/');
-}
-
-function exists(relPath) {
-  return fs.existsSync(path.join(rootDir, relPath));
-}
-
-function read(relPath) {
-  return fs.readFileSync(path.join(rootDir, relPath), 'utf8');
-}
-
+function fail(message) { console.error(`✗ INVARIANTE: ${message}`); errors++; }
+function ok(message) { console.log(`✓ ${message}`); }
+function warn(message) { console.warn(`! AVISO: ${message}`); warnings++; }
+function rel(fullPath) { return path.relative(rootDir, fullPath).replace(/\\/g, '/'); }
+function exists(relPath) { return fs.existsSync(path.join(rootDir, relPath)); }
+function read(relPath) { return fs.readFileSync(path.join(rootDir, relPath), 'utf8'); }
 function walk(dir) {
   const result = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -46,7 +26,6 @@ function walk(dir) {
   }
   return result;
 }
-
 function parseFrontmatter(content) {
   const match = content.match(/^---\s*[\r\n]+([\s\S]*?)[\r\n]+---/);
   if (!match) return {};
@@ -55,9 +34,7 @@ function parseFrontmatter(content) {
     const kv = line.match(/^([A-Za-z0-9_-]+)\s*:\s*(.*)$/);
     if (!kv) continue;
     let value = kv[2].trim();
-    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
-      value = value.slice(1, -1);
-    }
+    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) value = value.slice(1, -1);
     data[kv[1]] = value;
   }
   return data;
@@ -71,18 +48,14 @@ const notas = walk(materiasDir)
   .map(rel)
   .filter((p) => !p.includes('/referencias/'))
   .filter((p) => !p.endsWith('/Avancos.md'));
-
 const naoIndexadas = [];
 for (const nota of notas) {
   const target = nota.replace(/\.md$/, '');
   if (!indexContent.includes(`[[${target}`)) naoIndexadas.push(nota);
 }
-
 if (naoIndexadas.length > 0) {
   for (const nota of naoIndexadas) fail(`Nota canônica não aparece no index.md: ${nota}`);
-} else {
-  ok(`${notas.length} notas canônicas estão representadas no index.md.`);
-}
+} else ok(`${notas.length} notas canônicas estão representadas no index.md.`);
 
 console.log('\n=== INVARIANTE 2: SNAPSHOTS DE ATUALIDADES ===');
 const snapshotsDir = path.join(rootDir, '3 - Materias/Atualidades/Snapshots');
@@ -119,13 +92,11 @@ if (errors === 0) ok(`${editalItens.length} itens de edital possuem semântica d
 
 console.log('\n=== INVARIANTE 4: LEDGER DE INGESTÃO ===');
 const ledgerPath = 'data/ingestoes-processadas.json';
-if (!exists(ledgerPath)) {
-  fail(`${ledgerPath} não existe.`);
-} else {
+if (!exists(ledgerPath)) fail(`${ledgerPath} não existe.`);
+else {
   const ledger = JSON.parse(read(ledgerPath));
-  if (!Array.isArray(ledger)) {
-    fail(`${ledgerPath} deve ser um array.`);
-  } else {
+  if (!Array.isArray(ledger)) fail(`${ledgerPath} deve ser um array.`);
+  else {
     const fingerprints = new Set();
     for (const entry of ledger) {
       if (!/^[a-f0-9]{64}$/.test(entry.fingerprint || '')) fail('Ledger contém fingerprint inválido.');
@@ -140,12 +111,12 @@ console.log('\n=== INVARIANTE 5: GOVERNANÇA OPERACIONAL ===');
 const agents = read('.agent/AGENTS.md');
 if (!agents.includes('scripts/ingest-safe.js')) fail('.agent/AGENTS.md deve declarar ingest-safe.js como porta canônica de ingestão.');
 else ok('Agentes apontam para ingest-safe.js.');
-
 if (!agents.includes('Contrato de publicacao GitHub Pages')) fail('.agent/AGENTS.md deve referenciar o contrato de publicação.');
 else ok('Agentes apontam para o contrato de publicação.');
-
 if (!agents.includes('Contrato transacional de mudancas')) fail('.agent/AGENTS.md deve referenciar o contrato transacional de mudanças.');
 else ok('Agentes apontam para o contrato transacional.');
+if (!agents.includes('main vermelho')) fail('.agent/AGENTS.md deve declarar o gate operacional de main vermelho.');
+else ok('Agentes declaram o gate de main vermelho.');
 
 const scriptsObrigatorios = [
   'scripts/validate-change-contract.js',
@@ -153,11 +124,10 @@ const scriptsObrigatorios = [
   'scripts/question-ingestion-policy.js',
   'scripts/ingestion-propagation-policy.js',
   'scripts/changeset-transaction.js',
-  'scripts/apply-changeset.js'
+  'scripts/apply-changeset.js',
+  'scripts/preflight-vault.js'
 ];
-for (const script of scriptsObrigatorios) {
-  if (!exists(script)) fail(`Script operacional obrigatório ausente: ${script}`);
-}
+for (const script of scriptsObrigatorios) if (!exists(script)) fail(`Script operacional obrigatório ausente: ${script}`);
 
 console.log('\n=== INVARIANTE 6: ÍNDICE RESOLVE E NÃO DUPLICA ALVOS ===');
 const wikilinks = [...indexContent.matchAll(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]/g)].map((m) => m[1].trim());
@@ -170,35 +140,18 @@ for (const target of linksLocais) {
   counts.set(target, (counts.get(target) || 0) + 1);
 }
 const duplicados = [...counts.entries()].filter(([, count]) => count > 1);
-
-if (faltantes.length > 0) {
-  for (const target of [...new Set(faltantes)]) fail(`Wikilink do index aponta para alvo inexistente: ${target}`);
-}
-if (duplicados.length > 0) {
-  for (const [target, count] of duplicados) fail(`Wikilink duplicado no index (${count}x): ${target}`);
-}
-if (faltantes.length === 0 && duplicados.length === 0) {
-  ok(`${linksLocais.length} wikilink(s) com caminho resolvem e são únicos no index.`);
-}
+if (faltantes.length > 0) for (const target of [...new Set(faltantes)]) fail(`Wikilink do index aponta para alvo inexistente: ${target}`);
+if (duplicados.length > 0) for (const [target, count] of duplicados) fail(`Wikilink duplicado no index (${count}x): ${target}`);
+if (faltantes.length === 0 && duplicados.length === 0) ok(`${linksLocais.length} wikilink(s) com caminho resolvem e são únicos no index.`);
 
 console.log('\n=== INVARIANTE 7: HIGIENE DE WORKFLOWS ===');
 const workflowsDir = path.join(rootDir, '.github/workflows');
-if (!fs.existsSync(workflowsDir)) {
-  fail('.github/workflows não existe.');
-} else {
+if (!fs.existsSync(workflowsDir)) fail('.github/workflows não existe.');
+else {
   const workflows = fs.readdirSync(workflowsDir).filter((f) => /\.ya?ml$/i.test(f));
-  const temporarios = workflows.filter((f) =>
-    /^tmp[-_]/i.test(f) ||
-    /^temp[-_]/i.test(f) ||
-    /append-log-once/i.test(f) ||
-    /ingest-avancos-\d{4}-\d{2}-\d{2}/i.test(f) ||
-    /tmp-ingest-/i.test(f)
-  );
-  if (temporarios.length > 0) {
-    for (const f of temporarios) fail(`Workflow temporário abandonado no repositório: .github/workflows/${f}`);
-  } else {
-    ok(`${workflows.length} workflow(s) permanente(s); nenhum temporário abandonado.`);
-  }
+  const temporarios = workflows.filter((f) => /^tmp[-_]/i.test(f) || /^temp[-_]/i.test(f) || /append-log-once/i.test(f) || /ingest-avancos-\d{4}-\d{2}-\d{2}/i.test(f) || /tmp-ingest-/i.test(f));
+  if (temporarios.length > 0) for (const f of temporarios) fail(`Workflow temporário abandonado no repositório: .github/workflows/${f}`);
+  else ok(`${workflows.length} workflow(s) permanente(s); nenhum temporário abandonado.`);
 }
 
 console.log('\n----------------------------------------');

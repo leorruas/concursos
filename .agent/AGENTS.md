@@ -7,6 +7,27 @@
 >
 > **[[me|me.md]]** — **Single Source of Truth (SSoT)**: Contém identidade, regras de escrita, arquitetura, workflows e governança global.
 
+## Gate de integridade do main
+
+Antes de iniciar qualquer mudança **não corretiva**, provar que o estado atual do vault está saudável.
+
+- Em ambiente local/Work, executar `node scripts/preflight-vault.js`.
+- Em operações via GitHub conectado, consultar o workflow mais recente **Publicar no GitHub Pages** correspondente ao `HEAD` atual.
+- Se o preflight falhar ou o último workflow do `HEAD` estiver `failure`, considerar o **main vermelho**. Enquanto o main estiver vermelho, são permitidas somente mudanças diretamente destinadas a corrigir a falha atual. É proibido continuar refinando conteúdo, criar notas novas ou fazer housekeeping não relacionado sobre um estado inválido.
+- Depois de uma operação lógica concluída, verificar o workflow final antes de iniciar uma operação não relacionada. Não interpretar commits intermediários de uma operação multi-arquivo como conclusão.
+
+Quando a ferramenta GitHub oferecer `create_tree`, `create_commit` e `update_ref`, usar esse caminho para reunir mudanças dependentes em **um único commit atômico**, em vez de vários `update_file` sequenciais.
+
+### Criação de nota canônica
+
+Criar uma nota em `3 - Materias/` é uma operação lógica multi-arquivo. No mesmo commit atômico devem entrar:
+
+1. a nova nota;
+2. o hub local da matéria (`type: hub`), quando existir;
+3. o `index.md` global.
+
+Não criar a nota primeiro para “indexar depois”. `scripts/validate-change-contract.js` exige essas superfícies no mesmo diff. Se a matéria não possuir hub local, o contrato exige ao menos a nota e o `index.md` global e sinaliza a ausência do hub.
+
 ## Regra adicional para artigos de matéria
 
 Sempre que a tarefa criar, revisar, expandir ou auditar uma nota em `3 - Materias/`, o agente deve também ler e aplicar:
@@ -53,7 +74,11 @@ A camada segura calcula fingerprint do conteúdo e consulta `data/ingestoes-proc
 
 ## Regra para mudanças multi-arquivo críticas
 
-Quando uma operação só estiver correta se vários arquivos permanecerem sincronizados — ingestões, propagação de desempenho, catálogos, dashboards e alterações equivalentes — aplicar também **[[1 - Planejamento/Contrato transacional de mudancas|Contrato transacional de mudanças]]**. Preferir `scripts/apply-changeset.js` a uma sequência de gravações independentes.
+Quando uma operação só estiver correta se vários arquivos permanecerem sincronizados — criação de nota canônica, ingestões, propagação de desempenho, catálogos, dashboards e alterações equivalentes — aplicar também **[[1 - Planejamento/Contrato transacional de mudancas|Contrato transacional de mudanças]]**.
+
+- Em ambiente local/Work, preferir `scripts/apply-changeset.js` a uma sequência de gravações independentes.
+- Pelo conector GitHub, preferir um único `create_tree` → `create_commit` → `update_ref` para a operação lógica inteira.
+- Se a ferramenta disponível não permitir atomicidade, declarar essa limitação e concluir todas as superfícies dependentes antes de tratar a operação como encerrada; não iniciar trabalho não relacionado no intervalo.
 
 ## Regra de publicação de conteúdo público
 

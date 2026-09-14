@@ -3,7 +3,7 @@ title: "Pontuação e vírgula"
 type: "conceito"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-09-01
+updated: 2026-09-14
 ---
 
 # Pontuação e vírgula
@@ -42,17 +42,19 @@ Adicionam uma informação acessória explicativa sobre a totalidade do substant
 
 ## 3. Adjuntos Adverbiais Deslocados
 
-Os adjuntos adverbiais (indicações de tempo, lugar, modo, etc.) vêm por padrão no final da oração. Quando deslocados para o início ou meio, a pontuação segue o tamanho do termo:
-- **Deslocação de Longa Extensão** (normalmente 3 ou mais palavras): A vírgula é **obrigatória**.
-  - Ex: *"Ao término da difícil prova, o candidato foi embora."*
-- **Deslocação de Curta Extensão** (1 ou 2 palavras): A vírgula é **opcional**.
-  - Ex: *"Ontem[,] os candidatos receberam o resultado."* (Ambas as formas são corretas).
+Adjuntos adverbiais podem aparecer no início, no meio ou no fim da oração. Quando deslocados, a necessidade ou a possibilidade de vírgula depende da extensão, da complexidade, da posição e do efeito sintático do termo — **não existe uma regra universal segura do tipo “três palavras ou mais = vírgula obrigatória”**.
+
+- Adjuntos longos ou estruturalmente complexos deslocados tendem a ser separados por vírgula: *"Ao término da difícil prova, o candidato foi embora."*
+- Adjuntos curtos deslocados frequentemente admitem a vírgula como facultativa, desde que não haja outra razão sintática para exigi-la: *"Ontem[,] os candidatos receberam o resultado."*
+
+> [!WARNING]
+> Para a FGV, evite contar palavras mecanicamente. Analise a estrutura: deslocamento, extensão, clareza e possíveis ambiguidades.
 
 ---
 
 ## 4. Conjunções Coordenativas e Vírgula
 
-- **Conjunções Adversativas**: A vírgula é **obrigatória** antes de conjunções adversativas (*mas*, *porem*, *todavia*, *contudo*, *entretanto*).
+- **Conjunções Adversativas**: A vírgula é **obrigatória** antes de conjunções adversativas (*mas*, *porém*, *todavia*, *contudo*, *entretanto*) quando ligam orações coordenadas.
   - Ex: *"Os alunos estudaram muito, mas não conseguiram terminar a prova."*
   - A ausência da vírgula antes do *mas* acarreta desvio gramatical para fins de concurso.
 - **Conjunções Conclusivas**: Conjunções como *portanto* e *logo* deslocadas ou no início de período costumam vir isoladas por vírgula.
@@ -67,10 +69,10 @@ Os adjuntos adverbiais (indicações de tempo, lugar, modo, etc.) vêm por padr�
 
 `Mas`, `contudo`, `todavia` e `entretanto` estabelecem oposição em uma estrutura coordenada. A troca entre esses conectivos costuma preservar a estrutura sintática, com ajuste de pontuação conforme a posição.
 
-`Embora`, `ainda que` e `mesmo que` introduzem oração subordinada concessiva. A substituição de uma adversativa por `embora` pode preservar o contraste sem preservar a construção: normalmente exige deslocamento da oração e verbo no subjuntivo.
+`Embora`, `ainda que` e `mesmo que` introduzem oração subordinada concessiva. A substituição de uma adversativa por `embora` pode preservar o contraste sem preservar a construção: normalmente exige reconstrução sintática e, no padrão mais cobrado, verbo no subjuntivo.
 
 - Coordenada: *A instituição ampliou os canais; contudo, parte do público enfrentou dificuldades.*
 - Subordinada: *Embora a instituição tenha ampliado os canais, parte do público enfrentou dificuldades.*
 
-**Pegadinha FGV:** em questões de substituição, equivalência semântica parcial não basta; a frase resultante também precisa manter correção sintática.
+**Pegadinha FGV:** em questões de substituição, equivalência semântica parcial não basta; a frase resultante também precisa manter correção sintática e a mesma relação argumentativa entre as orações.
 

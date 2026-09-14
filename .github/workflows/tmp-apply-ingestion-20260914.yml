@@ -1,0 +1,90 @@
+name: Apply formal ingestion 20260914
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/tmp-formalize-ingestion-20260914.mjs'
+      - '.github/workflows/tmp-apply-ingestion-20260914.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Sincronizar main
+        run: git pull --rebase origin main
+
+      - name: Construir change set finalizado
+        run: node scripts/tmp-formalize-ingestion-20260914.mjs
+
+      - name: Aplicar ingestão canônica
+        run: node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --type simulado --apply --changeset /tmp/ingestion-20260914.json
+
+      - name: Validar estado transacional
+        run: |
+          node scripts/test-ingestion-idempotency.js
+          node scripts/test-question-ingestion-policy.js
+          node scripts/test-ingestion-propagation-policy.js
+          node scripts/validate-vault-invariants.js
+          node scripts/validate-integrity.js
+
+      - name: Commitar conjunto atômico e limpar temporários
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            '00 inbox/00 ingestão.md' \
+            'data/ingestoes-processadas.json' \
+            'data/erros-recorrentes.json' \
+            '00 - Desempenho/Simulados/00 - Catalogo de simulados.md' \
+            '00 - Desempenho/Simulados/Bateria-Mista-2026-09-14.md' \
+            '00 - Desempenho/00 Avancos globais.md' \
+            '00 - Desempenho/01 Log de saturacao diaria.md' \
+            '3 - Materias/Logica/Avancos.md' \
+            '3 - Materias/Portugues/Avancos.md' \
+            '3 - Materias/Comunicacao/Avancos.md' \
+            '3 - Materias/Atualidades/Avancos.md' \
+            '3 - Materias/Informatica/Avancos.md' \
+            '3 - Materias/Informatica/informatica.md' \
+            '4 - Projetos/dataprev-2026/Questoes e Simulados.md' \
+            '4 - Projetos/dataprev-2026/Log de erros.md' \
+            '4 - Projetos/dataprev-2026/00 Dashboard.md' \
+            '4 - Projetos/dataprev-2026/O que estudar.md' \
+            'index.md' \
+            'log.md'
+          git rm scripts/tmp-formalize-ingestion-20260914.mjs
+          git rm .github/workflows/tmp-apply-ingestion-20260914.yml
+          git commit -m "Formaliza ingestão da bateria mista de 14/09"
+
+      - name: Validar contrato do commit
+        run: |
+          export BASE_SHA="$(git rev-parse HEAD^)"
+          export HEAD_SHA="$(git rev-parse HEAD)"
+          node scripts/validate-change-contract.js
+
+      - name: Validar publicação local
+        run: |
+          node scripts/build-site.js
+          node scripts/validate-search-index.js
+          node scripts/test-search-index.js
+          node scripts/validate-integrity.js --audit-site
+
+      - name: Rebase final e push
+        run: |
+          git pull --rebase origin main
+          export BASE_SHA="$(git rev-parse HEAD^)"
+          export HEAD_SHA="$(git rev-parse HEAD)"
+          node scripts/validate-change-contract.js
+          node scripts/validate-vault-invariants.js
+          node scripts/validate-integrity.js
+          git push

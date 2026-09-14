@@ -119,26 +119,14 @@ function validarSnapshot(change) {
   const content = read(change.path);
   const fm = parseFrontmatter(content);
 
-  if (fm.layer !== 'snapshot_conjuntural') {
-    fail(`Snapshot deve declarar layer: snapshot_conjuntural — ${change.path}`);
-  }
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(fm.data_corte || '')) {
-    fail(`Snapshot deve declarar data_corte em YYYY-MM-DD — ${change.path}`);
-  }
-  if (String(fm.revalidar).toLowerCase() !== 'true') {
-    fail(`Snapshot deve declarar revalidar: true — ${change.path}`);
-  }
-  if (!/^##\s+Fontes\s*$/mi.test(content)) {
-    fail(`Snapshot deve possuir seção ## Fontes — ${change.path}`);
-  }
-  if (!/^##\s+Fundamentos necessários\s*$/mi.test(content)) {
-    fail(`Snapshot deve possuir seção ## Fundamentos necessários — ${change.path}`);
-  }
-
-  if (errors === 0) ok(`Contrato de snapshot atendido: ${change.path}`);
+  if (fm.layer !== 'snapshot_conjuntural') fail(`Snapshot deve declarar layer: snapshot_conjuntural — ${change.path}`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(fm.data_corte || '')) fail(`Snapshot deve declarar data_corte em YYYY-MM-DD — ${change.path}`);
+  if (String(fm.revalidar).toLowerCase() !== 'true') fail(`Snapshot deve declarar revalidar: true — ${change.path}`);
+  if (!/^##\s+Fontes\s*$/mi.test(content)) fail(`Snapshot deve possuir seção ## Fontes — ${change.path}`);
+  if (!/^##\s+Fundamentos necessários\s*$/mi.test(content)) fail(`Snapshot deve possuir seção ## Fundamentos necessários — ${change.path}`);
 }
 
-function validarEdtialItens() {
+function validarEditalItens() {
   const relPath = 'data/edital-itens.json';
   if (!exists(relPath)) {
     fail(`${relPath} não existe.`);
@@ -149,64 +137,97 @@ function validarEdtialItens() {
   const allowed = new Set(['integral', 'parcial', 'ausente']);
 
   for (const item of items) {
-    if (!allowed.has(item.coberturaNota)) {
-      fail(`Item ${item.id || item.codigo} possui coberturaNota inválida/ausente: ${item.coberturaNota}`);
-    }
+    if (!allowed.has(item.coberturaNota)) fail(`Item ${item.id || item.codigo} possui coberturaNota inválida/ausente: ${item.coberturaNota}`);
+    if (item.coberturaNota === 'ausente' && item.notaPath) fail(`Item ${item.id || item.codigo} está ausente, mas possui notaPath: ${item.notaPath}`);
+    if (item.coberturaNota !== 'ausente' && !item.notaPath) fail(`Item ${item.id || item.codigo} está ${item.coberturaNota}, mas não possui notaPath.`);
+    if (item.notaPath && !exists(item.notaPath)) fail(`Item ${item.id || item.codigo} aponta para nota inexistente: ${item.notaPath}`);
+  }
+}
 
-    if (item.coberturaNota === 'ausente' && item.notaPath) {
-      fail(`Item ${item.id || item.codigo} está ausente, mas possui notaPath: ${item.notaPath}`);
-    }
+function exigirMudancas(paths, changedSet, contexto) {
+  const faltantes = paths.filter((p) => !changedSet.has(p));
+  if (faltantes.length > 0) {
+    for (const p of faltantes) fail(`${contexto}: propagação obrigatória ausente no mesmo diff: ${p}`);
+  } else {
+    ok(`${contexto}: conjunto mínimo de propagação presente.`);
+  }
+}
 
-    if (item.coberturaNota !== 'ausente' && !item.notaPath) {
-      fail(`Item ${item.id || item.codigo} está ${item.coberturaNota}, mas não possui notaPath.`);
-    }
+function validarPropagacaoIngestao(changes) {
+  const changedSet = new Set(changes.map((c) => c.path).filter(Boolean));
+  const avancosLocais = changes.filter((c) => /^3 - Materias\/[^/]+\/Avancos\.md$/.test(c.path || ''));
+  const novosSimulados = changes.filter((c) =>
+    ['A', 'R'].includes(c.status) &&
+    /^00 - Desempenho\/Simulados\/Simulado-[^/]+\.md$/.test(c.path || '')
+  );
 
-    if (item.notaPath && !exists(item.notaPath)) {
-      fail(`Item ${item.id || item.codigo} aponta para nota inexistente: ${item.notaPath}`);
+  // Uma sessão de exercícios registrada numa matéria deve aparecer também nas
+  // camadas globais e no histórico de questões. Isso evita o erro clássico
+  // "Avancos local atualizado, painel global esquecido".
+  if (avancosLocais.length > 0) {
+    exigirMudancas([
+      '00 - Desempenho/00 Avancos globais.md',
+      '00 - Desempenho/01 Log de saturacao diaria.md',
+      '4 - Projetos/dataprev-2026/Questoes e Simulados.md'
+    ], changedSet, `Ingestão em ${avancosLocais.map((c) => c.path).join(', ')}`);
+
+    if (changedSet.has('data/erros-recorrentes.json')) {
+      exigirMudancas([
+        '4 - Projetos/dataprev-2026/Log de erros.md'
+      ], changedSet, 'Ingestão com erro(s) clínico(s)');
     }
   }
 
-  if (errors === 0) ok('Semântica de cobertura de data/edital-itens.json está consistente.');
+  // Simulado completo possui uma superfície maior: catálogo, métricas globais,
+  // projeto e dashboard precisam refletir a mesma evidência.
+  if (novosSimulados.length > 0) {
+    exigirMudancas([
+      '00 - Desempenho/Simulados/00 - Catalogo de simulados.md',
+      '00 - Desempenho/00 Avancos globais.md',
+      '00 - Desempenho/01 Log de saturacao diaria.md',
+      '4 - Projetos/dataprev-2026/Questoes e Simulados.md',
+      '4 - Projetos/dataprev-2026/00 Dashboard.md'
+    ], changedSet, 'Novo simulado');
+
+    if (changedSet.has('data/erros-recorrentes.json')) {
+      exigirMudancas(['4 - Projetos/dataprev-2026/Log de erros.md'], changedSet, 'Simulado com erro(s) clínico(s)');
+    }
+  }
 }
 
 console.log('=== CONTRATO DE MUDANÇA ===');
 const changes = changedFiles();
-if (changes.length === 0) {
-  console.log('Nenhuma mudança detectada no intervalo informado.');
-} else {
-  console.log(`Mudanças detectadas: ${changes.length}`);
-}
+if (changes.length === 0) console.log('Nenhuma mudança detectada no intervalo informado.');
+else console.log(`Mudanças detectadas: ${changes.length}`);
 
 const indexContent = exists('index.md') ? read('index.md') : '';
 const novasNotas = changes.filter(isNovaNotaMateria);
 
-if (novasNotas.length > 0 && !indexContent) {
-  fail('index.md não existe ou não pôde ser lido, mas novas notas foram criadas.');
-}
-
+if (novasNotas.length > 0 && !indexContent) fail('index.md não existe ou não pôde ser lido, mas novas notas foram criadas.');
 for (const change of novasNotas) {
   validarIndexacao(change, indexContent);
   validarSnapshot(change);
 }
 
-const mudouEditalItens = changes.some((c) => c.path === 'data/edital-itens.json');
-if (mudouEditalItens) {
-  validarEdtialItens();
+if (changes.some((c) => c.path === 'data/edital-itens.json')) {
+  validarEditalItens();
+  if (errors === 0) ok('Semântica de cobertura de data/edital-itens.json está consistente.');
 }
 
-// Toda mudança em regras de ingestão deve manter a política canônica acessível aos agentes.
+validarPropagacaoIngestao(changes);
+
 const tocouIngestao = changes.some((c) =>
   c.path === 'scripts/ingest-vault.js' ||
+  c.path === 'scripts/ingest-safe.js' ||
   c.path === 'scripts/question-ingestion-policy.js' ||
+  c.path === 'scripts/ingestion-idempotency.js' ||
   c.path === '1 - Planejamento/Regras de ingestao de questoes.md'
 );
 if (tocouIngestao) {
   const agents = exists('.agent/AGENTS.md') ? read('.agent/AGENTS.md') : '';
-  if (!agents.includes('Regras de ingestao de questoes')) {
-    fail('Mudança no sistema de ingestão sem referência à política canônica em .agent/AGENTS.md.');
-  } else {
-    ok('Política de ingestão continua referenciada por .agent/AGENTS.md.');
-  }
+  if (!agents.includes('Regras de ingestao de questoes')) fail('Mudança no sistema de ingestão sem referência à política canônica em .agent/AGENTS.md.');
+  else ok('Política de ingestão continua referenciada por .agent/AGENTS.md.');
+  if (!agents.includes('scripts/ingest-safe.js')) fail('Mudança no sistema de ingestão sem declarar ingest-safe.js como porta canônica.');
 }
 
 console.log('----------------------------------------');

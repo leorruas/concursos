@@ -29,21 +29,31 @@ Erros `[C]` e `[K]` são os principais candidatos a enriquecimento/questão come
 
 Antes de inserir questão comentada em uma nota, verificar se já existe questão cobrindo a mesma fronteira. O artigo não deve virar banco de questões: preservar a régua de 1 a 3 questões comentadas de alto valor cognitivo por nota, substituindo ou fundindo quando surgir exemplo melhor.
 
-### Comando canônico, idempotência e estado do apply
+### Comando canônico, idempotência e apply transacional
 
-Para analisar ingestões novas, usar **`scripts/ingest-safe.js`** como porta de entrada. `scripts/ingest-vault.js` é o motor interno e não deve ser chamado diretamente em operações normais de ingestão.
+Para ingestões novas, usar **`scripts/ingest-safe.js`** como porta de entrada. `scripts/ingest-vault.js` é o motor de análise legado e não deve ser chamado diretamente com `--apply`.
+
+Primeiro executar:
 
 ```bash
 node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --dry-run
-node scripts/ingest-safe.js --input "arquivo.md" --type simulado --dry-run
 ```
 
-A camada segura calcula fingerprint do conteúdo e consulta `data/ingestoes-processadas.json`. Uma ingestão já aplicada deve ser bloqueada mesmo que o mesmo conteúdo reapareça em outro arquivo ou seja forçado com outra classificação. Não apagar nem editar o ledger manualmente para contornar o bloqueio.
+Depois construir um change set que contenha todos os destinos obrigatórios e o `ingestionFingerprint` exibido no dry-run. A aplicação canônica é:
 
-> [!IMPORTANT]
-> **Estado transitório de segurança:** `scripts/ingest-safe.js --apply` está deliberadamente bloqueado até que o propagador transacional complete todas as camadas obrigatórias. O motor legado `ingest-vault.js` ainda não possui paridade entre o plano declarado e os arquivos realmente gravados. Enquanto isso, executar `--dry-run`, aplicar o plano completo por mecanismo seguro e deixar `scripts/validate-change-contract.js` provar no CI que Avanços locais/globais, saturação, projeto, erros, dashboard e demais dependências foram propagados. É proibido contornar o bloqueio chamando `ingest-vault.js --apply` diretamente.
+```bash
+node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --apply --changeset caminho/change-set.json
+```
 
-O `--apply` só poderá ser reabilitado depois que houver teste automatizado de paridade `plano esperado = arquivos modificados` e rollback transacional do conjunto completo.
+O change set é regido por **[[1 - Planejamento/Contrato transacional de mudancas|Contrato transacional de mudanças]]** e por `scripts/ingestion-propagation-policy.js`. Toda alteração de arquivo existente deve usar o hash SHA-256 da versão lida como precondição. Se um único arquivo tiver mudado, nada é escrito.
+
+A camada segura calcula fingerprint do conteúdo e consulta `data/ingestoes-processadas.json`. Uma ingestão já aplicada é bloqueada mesmo que a mesma evidência reapareça em outro arquivo ou com outro `--type`. O ledger e a limpeza da inbox canônica entram na mesma transação dos demais arquivos. Em caso de falha das validações pós-escrita, o conjunto inteiro sofre rollback.
+
+É proibido contornar o mecanismo chamando `scripts/ingest-vault.js --apply` diretamente. Também é proibido usar replace/delete em `log.md`; o aplicador transacional aceita apenas `append` ou `prepend` com hash da versão integral atual.
+
+## Regra para mudanças multi-arquivo críticas
+
+Quando uma operação só estiver correta se vários arquivos permanecerem sincronizados — ingestões, propagação de desempenho, catálogos, dashboards e alterações equivalentes — aplicar também **[[1 - Planejamento/Contrato transacional de mudancas|Contrato transacional de mudanças]]**. Preferir `scripts/apply-changeset.js` a uma sequência de gravações independentes.
 
 ## Regra de publicação de conteúdo público
 

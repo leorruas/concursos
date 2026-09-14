@@ -993,3 +993,13 @@
 
 - Corrigidos os limites de cinco módulos do frontend (`web/02-data-home.js`, `web/04-markdown.js`, `web/05-mermaid.js`, `web/06-search.js` e `web/07-router-init.js`). A primeira divisão havia separado declarações de função de seus respectivos corpos, impedindo a inicialização do site.
 - Verificação estática: a concatenação ordenada dos sete módulos é idêntica ao `script.js` estável anterior e passa na validação de sintaxe JavaScript.
+
+## 2026-09-14 — Arquitetura da Wiki de Atualidades
+
+- Incorporada à governança do vault a separação entre **fundamentos estáveis** e **snapshots conjunturais** para Atualidades, com prioridade para a Dataprev 2026/FGV.
+- Atualizado o padrão editorial para exigir pesquisa web e prioridade de fontes oficiais em informação conjuntural, data de corte, revalidação e distinção explícita entre fato observado e inferência.
+- Reorganizado o hub `[[3 - Materias/Atualidades/atualidades|Atualidades]]` por grandes eixos temáticos e pelas duas camadas de conhecimento.
+- Separado o conteúdo conjuntural da nota `[[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|Regime de metas, inflação, Selic e Copom]]`.
+- Criado o snapshot `[[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|IPCA de agosto e Selic — 14/09/2026]]`, com fontes oficiais, `data_corte` e regra de revalidação.
+- Atualizado `index.md` para refletir a nova arquitetura.
+- Diagnóstico: IA está consolidada no histórico disponível; as principais lacunas estratégicas de Atualidades permanecem economia além de inflação/juros, geopolítica, clima/energia, sociedade/indicadores sociais e saúde/ciência.

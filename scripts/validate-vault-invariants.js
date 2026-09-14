@@ -144,22 +144,41 @@ else ok('Agentes apontam para ingest-safe.js.');
 if (!agents.includes('Contrato de publicacao GitHub Pages')) fail('.agent/AGENTS.md deve referenciar o contrato de publicação.');
 else ok('Agentes apontam para o contrato de publicação.');
 
-if (!exists('scripts/validate-change-contract.js')) fail('Validador de contrato de mudança ausente.');
-if (!exists('scripts/verify-live-pages.js')) fail('Validador do Pages ao vivo ausente.');
-if (!exists('scripts/question-ingestion-policy.js')) fail('Política programática de ingestão de questões ausente.');
+if (!agents.includes('Contrato transacional de mudancas')) fail('.agent/AGENTS.md deve referenciar o contrato transacional de mudanças.');
+else ok('Agentes apontam para o contrato transacional.');
 
-console.log('\n=== INVARIANTE 6: ÍNDICE NÃO APONTA PARA NOTA INEXISTENTE ===');
+const scriptsObrigatorios = [
+  'scripts/validate-change-contract.js',
+  'scripts/verify-live-pages.js',
+  'scripts/question-ingestion-policy.js',
+  'scripts/ingestion-propagation-policy.js',
+  'scripts/changeset-transaction.js',
+  'scripts/apply-changeset.js'
+];
+for (const script of scriptsObrigatorios) {
+  if (!exists(script)) fail(`Script operacional obrigatório ausente: ${script}`);
+}
+
+console.log('\n=== INVARIANTE 6: ÍNDICE RESOLVE E NÃO DUPLICA ALVOS ===');
 const wikilinks = [...indexContent.matchAll(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]/g)].map((m) => m[1].trim());
 const linksLocais = wikilinks.filter((target) => target.includes('/'));
 const faltantes = [];
+const counts = new Map();
 for (const target of linksLocais) {
   const candidates = [target, `${target}.md`];
   if (!candidates.some(exists)) faltantes.push(target);
+  counts.set(target, (counts.get(target) || 0) + 1);
 }
+const duplicados = [...counts.entries()].filter(([, count]) => count > 1);
+
 if (faltantes.length > 0) {
   for (const target of [...new Set(faltantes)]) fail(`Wikilink do index aponta para alvo inexistente: ${target}`);
-} else {
-  ok(`${linksLocais.length} wikilink(s) com caminho no index resolvem para arquivos existentes.`);
+}
+if (duplicados.length > 0) {
+  for (const [target, count] of duplicados) fail(`Wikilink duplicado no index (${count}x): ${target}`);
+}
+if (faltantes.length === 0 && duplicados.length === 0) {
+  ok(`${linksLocais.length} wikilink(s) com caminho resolvem e são únicos no index.`);
 }
 
 console.log('\n=== INVARIANTE 7: HIGIENE DE WORKFLOWS ===');

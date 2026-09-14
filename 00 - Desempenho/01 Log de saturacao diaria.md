@@ -3,7 +3,7 @@ title: "Log de saturação diária"
 type: "hub"
 status: "ativo"
 created: 2026-06-08
-updated: 2026-09-04
+updated: 2026-09-14
 ---
 # Log de saturação diária
 
@@ -17,6 +17,7 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 | Data | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Sintomas Qualitativos da Sessão |
 | :--- | :--- | :--- | :--- | :--- |
+| 14/09/2026 | 26 | 84,6% (22/26) | 84,4% | **Média**: sessão mista Dataprev/FGV em Lógica (5/6), Português (5/6 válidas; 1 anulada), Legislação (4/4), Comunicação (6/7) e Atualidades/IA (2/3). Erros: [C] negação de `nenhum`; [C] recorrente adversativa × concessiva; [C] clipping × auditoria de imagem; [K] regime de metas/IPCA/Selic/Copom. O bloco de Inglês não foi contabilizado por ausência de respostas. |
 | 04/09/2026 | 12 | 83,3% (10/12) | 83,3% | **Média**: Ingestão de Inbox em Raciocínio Lógico (12 Qs úteis em 2 baterias). Na Bateria 1 (Retenção — Necessária × Suficiente), aproveitamento perfeito (6/6, 100%), consolidando "indispensável", "suficiente", "basta", caso proibido e contraposição associada. Na Bateria 2 (Mista, 4/6 — 66,7%), confirmou quantificadores com conjunção e bloqueio da falácia da recíproca, mas isolou instabilidade na aplicação formal de De Morgan ($\neg(A \land B)$ respondida sem negar ambos os termos) e confusão entre contrapositiva ($\neg Q \to \neg P$) e inversa ($\neg P \to \neg Q$) na busca de equivalência condicional. |
 | 03/09/2026 | 5 | 60,0% (3/5) | 60,0% | **Baixa-Média**: Ingestão de Inbox em Raciocínio Lógico (5 Qs úteis; Q2 anulada por ausência de alternativa válida). Microbateria adaptativa de afunilamento focada na fronteira de condição necessária versus suficiente. Consolidação total em "a menos que" ($\neg Q \to P$), bicondicional e "basta" (suficiente). Desvio restrito à conversão de condição necessária em suficiente em "somente se" (Q1) e "sem autorização não envia" (Q6). Carga mental controlada e foco pontual. |
 | 02/09/2026 | 13 | 46,2% (6/13) | 46,2% | **Média**: Ingestão de Inbox em Raciocínio Lógico (13 Qs úteis; 1 questão anulada por formulação concorrente). Bateria adaptativa dirigida pós-Simulado 02 focada em equivalência e interpretação da condicional. Desempenho afetado por tensão semântica na tradução da linguagem natural para a direção da implicação ($P \to Q$), com confusão persistente entre condição suficiente ("se") e recíproca necessária ("somente se"), além de hesitação na regra do caso proibido ($V \to F$ como único cenário falso). Quantificadores com conjunção e inferência categórica mostraram-se consolidados. |

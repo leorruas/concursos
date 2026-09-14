@@ -1013,3 +1013,14 @@
 - `index.md` foi atualizado com os novos wikilinks.
 - O checklist da Dataprev não foi marcado como estudado: existência de nota não equivale a exposição ou domínio.
 - Segurança, transportes, educação e cultura permanecem como lacunas deliberadas até surgir mecanismo ou fato com valor real de prova, evitando notas genéricas sem função cognitiva.
+
+
+## 2026-09-14 — Ingestão da bateria mista Dataprev/FGV
+
+- Ingerida a sessão mista de 14/09 segundo a política pedagógica vigente do commit `6104d4d`: todas as questões entram em métrica; erros [C] e [K] foram encaminhados para teoria/comentadas apenas quando agregavam valor, sem duplicar notas canônicas já existentes.
+- Resultado válido: **22/26 (84,6%)**; TAP ponderada **84,4%**. Inglês ficou fora das métricas por não haver respostas registradas. Uma questão de Português foi anulada e excluída do denominador.
+- Resultados por bloco: Lógica 5/6; Português 5/6 válidas; Legislação 4/4; Comunicação 6/7; Atualidades/IA 2/3.
+- Erros clínicos: Lógica [C] `nenhum → algum`; Português [C] recorrente adversativa × concessiva; Comunicação [C] clipping × auditoria de imagem; Atualidades [K] regime de metas/IPCA/Selic/Copom.
+- Recuperação registrada: De Morgan voltou a aparecer corretamente em contexto misto e passou de pendente para superado no registro de recorrências.
+- Cobertura do edital: Lei 12.737/2012 concluída, levando Legislação de SI a **4/4** e o total do edital a **115/130 (88,5%)**. Atualidades permanece 1/2 por ainda representar um eixo temático amplo não fechado.
+- Limite de validação: o `scripts/ingest-vault.js` atual trabalha com uma disciplina/placar por entrada e o inbox do GitHub estava vazio; por isso esta fonte mista foi tratada como cinco baterias dirigidas independentes, preservando a mesma governança de destinos e métricas.

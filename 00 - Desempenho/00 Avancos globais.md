@@ -3,7 +3,7 @@ title: "Avanços globais"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-09-04
+updated: 2026-09-14
 ---
 
 # Avanços globais
@@ -18,20 +18,25 @@ Consulte as diretrizes metodológicas, réguas de competitividade e metas de pro
 
 ## Painel de desempenho por disciplina
 
-Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 dias** (05/08/2026 a 04/09/2026).
+Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 dias** (16/08/2026 a 14/09/2026).
 
 | Disciplina | Aproveitamento (30d) | Questões (30d) | Meta | Status de Amostragem | Último Treino |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *71,9%* | 32 | 95% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
-| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | *58,3%* | 36 | 85% | **Amostragem insuficiente** (< 50 Qs) | 04/09/2026 |
-| [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/07/2026 |
-| [[3 - Materias/Direito Constitucional/direito-constitucional\|Direito constitucional]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
-| [[3 - Materias/Direito Administrativo/direito-administrativo\|Direito administrativo]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
-| [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | 92,7% | 225 | 90% | **Amostragem sólida** ($\ge$ 50 Qs) | 31/08/2026 |
-| [[3 - Materias/Administracao Publica/administracao-publica\|Administração pública]] | *100,0%* | 1 | 85% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
-| [[3 - Materias/Administracao Geral/administracao-geral\|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
-| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *83,3%* | 6 | 75% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
-| [[3 - Materias/Redacao/redacao\|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
+| [[3 - Materias/Portugues/portugues|Língua portuguesa]] | *80,0%* | 20 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Ingles/ingles|Língua inglesa]] | *100,0%* | 7 | - | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
+| [[3 - Materias/Logica/00 - logica|Raciocínio lógico]] | *61,0%* | 41 | 85% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Calculo Mental/calculo-mental|Cálculo mental]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/07/2026 |
+| [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
+| [[3 - Materias/Direito Administrativo/direito-administrativo|Direito administrativo]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
+| [[3 - Materias/Comunicacao/comunicacao|Comunicação social]] | 85,9% | 71 | 90% | **Amostragem sólida** ($\ge$ 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Administracao Publica/administracao-publica|Administração pública]] | *100,0%* | 1 | 85% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
+| [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
+| [[3 - Materias/Atualidades/atualidades|Atualidades]] | *71,4%* | 7 | 75% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Informatica/informatica|Legislação de SI e proteção de dados]] | *62,5%* | 16 | - | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Redacao/redacao|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
+
+> [!NOTE]
+> A janela por disciplina exclui o Simulado 02 de 01/09, porque a distribuição das 70 questões por matéria não foi preservada. O simulado continua contabilizado nos totais semanal e global bruto, mas não é repartido artificialmente entre disciplinas.
 
 ### Métricas específicas por disciplina
 
@@ -40,6 +45,12 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | Qualidade da Transformação | *96,8%* | 14/07/2026 | 95% | **Amostragem insuficiente** (< 50 Qs) |
 
 ### Análise de evolução recente
+- **Sessão mista de 14/09**: 22/26 questões válidas (84,6%) em cinco disciplinas; TAP ponderada de 84,4%. Uma questão de Português foi anulada e excluída do denominador; o bloco de Inglês não teve respostas registradas e não entra nas métricas. Os quatro erros válidos foram: Lógica [C] em `nenhum → algum`; Português [C] recorrente em adversativa × concessiva; Comunicação [C] em clipping × auditoria de imagem; Atualidades [K] em regime de metas/IPCA/Selic/Copom. Legislação fechou 4/4.
+- **Raciocínio lógico — 14/09**: 5/6 (83,3%). De Morgan e o caso falso da condicional reapareceram corretamente; o novo erro ficou isolado na negação de `nenhum` como existência de ao menos um contraexemplo.
+- **Língua Portuguesa — 14/09**: 5/6 válidas (83,3%). Houve recuperação de concordância, funções do `se`, crase, voz passiva e regência; a fronteira `contudo` × `embora` reincidiu e passou a erro recorrente.
+- **Comunicação Social — 14/09**: 6/7 (85,7%). Autores, teorias do jornalismo, media training e finalidade predominante apareceram sólidos; o erro único deslocou `clipping` para um caso de auditoria de imagem na mídia.
+- **Atualidades — 14/09**: 2/3 (66,7%). Mercado de carbono e segurança internacional de IA foram resolvidos; a lacuna de economia foi convertida em nota canônica sobre regime de metas, IPCA, Selic e Copom.
+- **Legislação de SI — 14/09**: 4/4 (100%). A bateria confirmou Marco Civil, LGPD e fechou a lacuna da Lei 12.737/2012, agora com nota canônica própria.
 - **Raciocínio lógico**: A sessão de 04/09 (12 Qs úteis, 10/12 acertos válidos — 83,3%) executou duas baterias complementares. Na Bateria 1 de retenção (6/6, 100%), confirmou a recuperação integral da distinção entre condição necessária e suficiente em linguagem natural ("indispensável", "suficiente", "basta", compatibilidade e caso proibido). Na Bateria 2 mista (4/6, 66,7%), validou o domínio sobre quantificadores com conjunção e bloqueio da falácia da recíproca, mas identificou vulnerabilidade formal nas Leis de De Morgan ($\neg(A \land B)$ avaliada sem negar ambos os termos) e confusão entre contrapositiva ($\neg Q \to \neg P$) e inversa ($\neg P \to \neg Q$) ao converter a condicional. A sessão de 03/09 (5 Qs, 60,0%) havia afunilado o gargalo de necessária vs. suficiente, e a de 02/09 (13 Qs, 46,2%) trabalhou a tradução da condicional.
 - **Comunicação Social / Legislação (LGPD)**: A sessão de 31/08 (37 Qs, 30/37 - 81,1%) por Ingestão de Inbox aprofundou as fronteiras mais cobradas da LGPD pela FGV e no contexto Dataprev: tratamento pelo Poder Público (finalidade pública e bases legais), regimes de consentimento e bases autônomas, vedação de legítimo interesse para dados sensíveis, distinção estrita entre dados confidenciais e dados sensíveis, independência dimensional entre sensibilidade e pseudonimização/anonimização, compartilhamento de dados por estatais em regime concorrencial vs. público, papéis de controlador e operador, e dosimetria de sanções administrativas da ANPD (advertência como sanção e reincidência sem multa máxima automática). A sessão anterior de 11/08 (44 Qs, 40/44) concluiu formalmente o Módulo II de Comunicação Social da Dataprev.
 - **Língua Portuguesa**: A sessão de 12/08 (18 Qs no total do dia, 12/18 bruto - 66,7%) por Ingestão de Inbox aplicou diagnósticos de gramática e regência da FGV. Consolidou acentuação oxítona (*também/café*), ditongos abertos sem acento (*ideia/heroico*), conjunções concessivas e próclise com palavras atrativas negativas (*nunca me informaram*). Mapeou desvios em impessoalidade do verbo *fazer* (tempo decorrido ➔ singular), regra do hiato tônico (*saúde / país*), regência do verbo *preferir* (*preferir X a Y*), regência de *chegar a* + crase com nomes de cidades (*chegar a Brasília*) e ambiguidade referencial de pronomes.
@@ -69,6 +80,7 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 
 | Semana / Período | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Análise de Saturação Semanal |
 | :--- | :--- | :--- | :--- | :--- |
+| **Semana 38** (14/09 a 20/09) | 26 | 84,6% (22/26) | 84,4% | **Média**: sessão mista em cinco disciplinas. Três erros de confusão conceitual e um de conhecimento; Legislação 4/4. Uma questão de Português anulada ficou fora do denominador e Inglês não foi contado por ausência de respostas. |
 | **Semana 36** (31/08 a 06/09) | 207 | 82,1% (170/207) | Não calculável | **Alta**: Sessões de 31/08, 01/09, 02/09, 03/09 e 04/09 totalizando 207 Qs (170 acertos). A sessão de 04/09 adicionou 12 Qs úteis de Raciocínio Lógico (10 acertos, 83,3%) em duas baterias (retenção de necessária/suficiente e mista com De Morgan e contraposição). A sessão de 03/09 adicionou 5 Qs úteis de Raciocínio Lógico (3 acertos, 60,0%). A sessão de 02/09 adicionou 13 Qs úteis de Raciocínio Lógico (6 acertos, 46,2%). O Simulado 02 (01/09) acrescentou 70 Qs e 67 acertos, mas sua distribuição por disciplina não foi registrada, impedindo o recálculo responsável da TAP global. Sessões anteriores totalizaram 107 Qs com 84 acertos: **Simulado 01 Completo** (70 Qs, 54/70 — 77,1%) e **Bateria LGPD Aprofundada** (37 Qs, 30/37 — 81,1%). |
 | **Semana 33** (10/08 a 16/08) | 113 | 91,2% (103/113) | 90,4% | **Alta**: Ingestão de Inbox nos dias 10/08 (51 Qs CS), 11/08 (44 Qs CS) e 12/08 (18 Qs Português). Concluiu 100% do edital de Comunicação e aplicou diagnósticos de gramática e regência da FGV em Português. |
 | **Semana 32** (03/08 a 09/08) | 45 | 100% (45/45) | 100% | **Média-Alta**: Ingestão de Inbox nos dias 03/08 (11 Qs), 04/08 (12 Qs) e 05/08 (22 Qs) consolidando mídias (PESO), planejamento, marketing de conteúdo, ROI/ROAS, teorias do jornalismo, evolução histórica, infografia, Tufte e data storytelling. |
@@ -91,6 +103,7 @@ Registro de simulados completos ou baterias mistas em condições reais de prova
 
 | Simulado / Treino Misto | Data | Acertos | Desvio / Variância | Condições (Tempo / Qs) | Diagnóstico / Observação |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| Sessão mista Dataprev/FGV | 14/09/2026 | 22/26 (84,6%) | Não comparável a simulado completo | 26 válidas; 5 disciplinas; 1 questão de Português anulada; Inglês sem respostas | Diagnóstico de retenção com quatro erros úteis: três [C] e um [K]. Destaques positivos: Legislação 4/4, De Morgan recuperado e Comunicação em 6/7. |
 | [[00 - Desempenho/Simulados/Simulado-02\|Simulado 02 (distribuição não oficial)]] | 01/09/2026 | 67/70 (95,7%) | +18,6 p.p. sobre o Simulado 01 | 70 Qs | Desempenho bruto alto; nota /115 e TAP indisponíveis. Erros concentrados em equivalências/negações lógicas e concordância verbal. |
 | [[00 - Desempenho/Simulados/Simulado-01\|Simulado 01 (Módulo I + Comunicação)]] | 31/08/2026 | 54/70 (77,1%) | - | 70 Qs (7 blocos de 10 Qs) | Bateria completa de prova Dataprev. 100% de aproveitamento em Inglês, Comunicação Pública, Jornalismo, Comunicação Digital/UX, Planejamento e Administração Pública. 16 erros mapeados em Lógica (equivalências/tabela verdade), Marco Civil (art. 2º e 9º), Schein (artefatos vs. pressupostos), Português ("SE" e crase) e LGPD (bases públicas). |
 

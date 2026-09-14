@@ -133,7 +133,9 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Atualidades/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Atualidades/01 - inteligencia artificial|01 • Inteligência artificial]]
   - [[3 - Materias/Atualidades/02 - quarto chines|02 • Quarto chinês]]
+  - [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|03 • Regime de metas, inflação, Selic e Copom]]
+  - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]
 - [[3 - Materias/Redacao/redacao|Redação]]
 
 ---
-*Última atualização: 2026-09-10*
+*Última atualização: 2026-09-14*

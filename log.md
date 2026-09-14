@@ -1003,3 +1003,13 @@
 - Criado o snapshot `[[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|IPCA de agosto e Selic — 14/09/2026]]`, com fontes oficiais, `data_corte` e regra de revalidação.
 - Atualizado `index.md` para refletir a nova arquitetura.
 - Diagnóstico: IA está consolidada no histórico disponível; as principais lacunas estratégicas de Atualidades permanecem economia além de inflação/juros, geopolítica, clima/energia, sociedade/indicadores sociais e saúde/ciência.
+
+
+## 2026-09-14 — Materialização dos fundamentos de Atualidades
+
+- Criadas as notas canônicas `04` a `13` em `3 - Materias/Atualidades/`, materializando as lacunas que antes apareciam apenas no hub.
+- Novos fundamentos: PIB e atividade econômica; mercado de trabalho; política fiscal e dívida pública; câmbio e comércio exterior; organizações internacionais e blocos; demografia e indicadores sociais; mudança climática/COP/mercado de carbono; matriz energética e transição; saúde pública/vigilância/vacinação; política, instituições e democracia nas Atualidades.
+- O hub `[[3 - Materias/Atualidades/atualidades|Atualidades]]` foi propagado para apontar para os arquivos reais.
+- `index.md` foi atualizado com os novos wikilinks.
+- O checklist da Dataprev não foi marcado como estudado: existência de nota não equivale a exposição ou domínio.
+- Segurança, transportes, educação e cultura permanecem como lacunas deliberadas até surgir mecanismo ou fato com valor real de prova, evitando notas genéricas sem função cognitiva.

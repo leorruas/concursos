@@ -3,7 +3,7 @@ title: "Questões e simulados - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-09-04
+updated: 2026-09-14
 ---
 
 # Questões e simulados - Dataprev 2026
@@ -20,10 +20,10 @@ Registro de simulados realizados especificamente com foco na Dataprev e na banca
 ## Histórico de Mini-Simulados
 
 Use esta seção para registrar sessões de simulados menores focadas em matérias específicas do edital.
+- **Sessão mista Dataprev/FGV:** 14/09/2026 — **22/26 válidas (84,6%)**: Lógica 5/6; Português 5/6 válidas, com 1 questão anulada fora do denominador; Legislação 4/4; Comunicação 6/7; Atualidades/IA 2/3. O bloco de Inglês foi iniciado, mas não houve respostas registradas e ele não entra nas métricas.
 - **Raciocínio Lógico (FGV — Retenção de Condição e Bateria Mista):** 04/09/2026 — 10/12 útil (83,3%)
 - **Raciocínio Lógico (FGV — Condição Necessária × Suficiente):** 03/09/2026 — 3/5 útil (60,0%; 1 anulada)
 - **Raciocínio Lógico (FGV — Condicional e Linguagem Natural):** 02/09/2026 — 6/13 útil (46,2%)
 - **LGPD Aprofundada (FGV):** 31/08/2026 — 30/37 (81,1%)
 - **Língua Portuguesa (FGV):** 12/08/2026 — 12/18 (66,7%)
 - **Comunicação Social (FGV):** 11/08/2026 — 40/44 (90,9%)
-

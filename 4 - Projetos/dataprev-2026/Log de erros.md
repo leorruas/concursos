@@ -3,7 +3,7 @@ title: "Log de erros - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-09-04
+updated: 2026-09-14
 ---
 
 # Log de erros - Dataprev 2026
@@ -18,7 +18,7 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 - **Regência culta de Verbos Transitivos Indiretos:** Q31 do Simulado 01 — *Assistir no sentido de ver/presenciar exige preposição "a" (assistir ao filme)*; *Preferir exige "X a Y", sendo vedado "do que" ou "mais que"*. [[3 - Materias/Portugues/04 - regencia|Estudo em Regência]].
 
 - **Concordância com `haver`, `existir` e `ocorrer`:** Q21 do Simulado 02 — [D/C]. `Haver` existencial é impessoal; `existir` e `ocorrer` são pessoais e concordam com o sujeito. [[3 - Materias/Portugues/02 - sujeito#Locuções Verbais com Verbos Impessoais vs. Pessoais (Pegadinha FGV)|Estudo em sujeito e concordância]].
-- **Adversativas × concessivas:** dúvida da Q12 do Simulado 02 — `mas` e `contudo` preservam a coordenação; `embora` introduz subordinação concessiva e exige reconstrução, normalmente com subjuntivo. [[3 - Materias/Portugues/03 - pontuacao e virgula#Coordenação adversativa × subordinação concessiva|Estudo em pontuação e conectivos]].
+- **Adversativas × concessivas:** dúvida da Q12 do Simulado 02 e erro Q4 da bateria de 14/09/2026 — [C, recorrente]. `mas` e `contudo` preservam a coordenação; `embora` introduz subordinação concessiva e exige reconstrução da arquitetura argumentativa, normalmente com subjuntivo. A reincidência confirma problema de recuperação da fronteira, não ausência de teoria. [[3 - Materias/Portugues/03 - pontuacao e virgula#Coordenação adversativa × subordinação concessiva|Estudo em pontuação e conectivos]].
 
 ## Raciocínio Lógico (FGV)
 - **Equivalência da Condicional (Contrapositiva):** Q61 do Simulado 01 — *$P \to Q \equiv \neg Q \to \neg P$ ("Volta Negando"). A negação $\neg(P \to Q) \equiv P \land \neg Q$ é negação, não equivalência*. [[3 - Materias/Logica/04 - equivalencias#1. Regra do "Volta Negando" (Contrapositiva)|Estudo em Equivalências]].
@@ -34,6 +34,7 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 - **"Sem Q, não ocorre P":** Bateria Dirigida (03/09/2026) — [C]. Estrutura de condição necessária ($\neg Q \to \neg P \equiv P \to Q$). Concluir $Q \to P$ (ex: "se tem autorização, o documento será enviado") é falácia da afirmação do consequente/recíproca; a contrapositiva válida é $P \to Q$ ("se o documento foi enviado, houve autorização"). [[3 - Materias/Logica/02 - conectivos#Tradução da linguagem natural para a condicional (direção da seta)|Estudo em Conectivos]].
 - **Leis de De Morgan em Proposição Composta:** Bateria Mista (04/09/2026) — [C]. Ao negar uma conjunção $\neg(P \land Q)$, a negação distribui-se obrigatoriamente para **ambas** as proposições e inverte o conectivo para disjunção: $\neg(P \land Q) \equiv \neg P \lor \neg Q$. *"Não é verdade que Ana revisará e Bruno aprovará"* $\equiv$ *"Ana não revisará OU Bruno não aprovará"*. [[3 - Materias/Logica/04 - equivalencias#3. Leis de De Morgan (Negação de land e lor)|Estudo em Equivalências]].
 - **Contrapositiva vs. Inversa na Condicional:** Bateria Mista (04/09/2026) — [C]. Dada a condicional $P \to Q$, a única condicional logicamente equivalente é a **contrapositiva** ($\neg Q \to \neg P$ — inverte a posição e nega ambos). A **inversa** ($\neg P \to \neg Q$ — nega ambos sem inverter) e a **recíproca** ($Q \to P$) **NÃO** são equivalentes à original. *"Se o sistema estiver indisponível, o atendimento será suspenso"* $\equiv$ *"Se o atendimento não for suspenso, o sistema não estará indisponível"*. [[3 - Materias/Logica/04 - equivalencias#1. Regra do "Volta Negando" (Contrapositiva)|Estudo em Equivalências]].
+- **Negação de `nenhum`:** Q2 da bateria mista de 14/09/2026 — [C]. `Nenhum A é B` afirma interseção vazia; sua negação exige apenas que exista pelo menos um elemento na interseção: `Algum A é B`. Marcar `Todo A é B` transforma a negação em afirmação muito mais forte do que o necessário. [[3 - Materias/Logica/03 - quantificadores#Negação dos quantificadores|Estudo em quantificadores]].
 
 ## Legislação de SI e Proteção de Dados (Marco Civil e LGPD)
 - **Marco Civil da Internet (Art. 2º - Fundamentos):** Q22 do Simulado 01 — *Livre iniciativa, livre concorrência e defesa do consumidor são fundamentos expressos do uso da internet no Brasil (art. 2º, V)*. [[3 - Materias/Informatica/01 - marco civil da internet#Fundamentos da internet no Brasil (art. 2º)|Estudo no Marco Civil]].
@@ -43,3 +44,7 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 
 ## Comunicação Social (FGV)
 - **Níveis de Cultura Organizacional de Schein:** Q10 e Q13 do Simulado 01 — *Artefatos (visíveis/superficiais: layout, vestimenta, rituais); Valores Compartilhados (discursos declarados, metas, justificativas conscientes); Pressupostos Básicos (invisíveis, inconscientes, verdades inquestionáveis que moldam a ação real)*. [[3 - Materias/Comunicacao/09 - comunicacao interna#3. Cultura Organizacional e os Três Níveis de Edgar Schein|Estudo em Cultura Organizacional]].
+- **Clipping × auditoria de imagem na mídia:** Q5 da bateria de Comunicação de 14/09/2026 — [C]. Clipping é coleta e organização de inserções; análise de meses de cobertura comparando temas, veículos, fontes, concorrentes e padrões de exposição caracteriza auditoria de imagem na mídia. O distrator deslocava uma definição verdadeira para a etapa imediatamente anterior. [[3 - Materias/Comunicacao/08 - assessoria de imprensa#6. Clipping, análise tópica e auditoria de imagem|Estudo em assessoria de imprensa]].
+
+## Atualidades / IA
+- **Regime de metas, IPCA, Selic e Copom:** Q1 da bateria de 14/09/2026 — [K]. Queda do IPCA não produz redução automática da Selic nem na mesma proporção. A leitura correta exige separar meta central (3,0%), faixa de tolerância (1,5% a 4,5%), critério formal de seis meses consecutivos fora da faixa e decisão do Copom baseada no conjunto do cenário e expectativas. [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom#Tensões e pegadinhas|Estudo em regime de metas, inflação, Selic e Copom]].

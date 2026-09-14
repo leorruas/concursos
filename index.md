@@ -11,17 +11,13 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[1 - Planejamento/Contrato de publicacao GitHub Pages|Contrato de publicação — GitHub Pages]]
 - [[1 - Planejamento/Auditoria editorial do vault|Auditoria editorial do vault]]
 - [[1 - Planejamento/concursos abertos|Concursos abertos]]
-- [[1 - Planejamento/concursos previstos|Concursos previstos]]
 - [[1 - Planejamento/horarios|Cronograma e horários]]
 - [[1 - Planejamento/Roadmap Dataprev e TCDF|Roadmap Dataprev e TCDF]]
-- [[1 - Planejamento/Relatorio Concursos Comunicacao 2026-05-29|Relatório de Concursos (Comunicação) — 2026-05-29]]
-
 
 ## 2 - Editais
 - [[2 - Editais/Fundacao Florestal SP 2026|Fundação Florestal SP 2026]]
 - [[2 - Editais/Dataprev 2026 (Original)|Dataprev 2026 (Original)]]
 - [[2 - Editais/TCDF 2026 ANACE|TCDF 2026 ANACE]]
-
 
 ## 4 - Projetos
 - [[00 Dashboard|Dataprev 2026 (Dashboard)]]
@@ -29,7 +25,6 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[4 - Projetos/dataprev-2026/Cronograma|Cronograma]]
   - [[4 - Projetos/dataprev-2026/Estrategia|Estratégia]]
   - [[4 - Projetos/dataprev-2026/Log de erros|Log de erros]]
-- [[app/README|Painel Web Multi-Concurso (GitHub Pages)]]
 
 ## 5 - Desempenho
 - [[00 Avancos globais|Avanços e desempenho global]]
@@ -54,6 +49,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Portugues/03 - pontuacao e virgula|03 • Pontuação e vírgula]]
   - [[3 - Materias/Portugues/04 - regencia|04 • Regência verbal e nominal]]
   - [[3 - Materias/Portugues/05 - acordo ortografico|05 • Acordo ortográfico]]
+  - [[3 - Materias/Portugues/06 - concordancia verbal e nominal|06 • Concordância verbal e nominal]]
 - [[3 - Materias/Ingles/ingles|Língua inglesa]]
 - [[3 - Materias/Logica/00 - logica|Raciocínio lógico]]
   - [[3 - Materias/Logica/Avancos|Avanços e desempenho]]
@@ -70,6 +66,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Calculo Mental/Avancos|Avanços e desempenho]]
 - [[3 - Materias/Informatica/informatica|Informatica]]
   - [[3 - Materias/Informatica/01 - marco civil da internet|01 • Marco Civil da Internet]]
+  - [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos|02 • Lei 12.737/2012 e delitos informáticos]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

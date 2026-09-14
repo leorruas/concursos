@@ -1,4 +1,4 @@
-name: Update Atualidades index and log once
+name: Append Atualidades log once
 
 on:
   push:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  propagate:
+  append-log:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,41 +18,21 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Patch index and append log
+      - name: Append log and remove temporary workflow
         shell: bash
         run: |
-          python - <<'PY'
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          apply_changes() {
+            python - <<'PY'
           from pathlib import Path
-          index = Path('index.md')
-          text = index.read_text(encoding='utf-8')
-          old_lines = [
-              '  - [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|03 • Regime de metas, inflação, Selic e Copom]]',
-              '  - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]',
-          ]
-          new_lines = [
-              '  - [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|03 • Regime de metas, inflação, Selic e Copom]]',
-              '  - [[3 - Materias/Atualidades/04 - pib e atividade economica|04 • PIB e atividade econômica]]',
-              '  - [[3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade|05 • Mercado de trabalho, desemprego e informalidade]]',
-              '  - [[3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica|06 • Política fiscal, resultado primário e dívida pública]]',
-              '  - [[3 - Materias/Atualidades/07 - cambio balanca comercial e comercio exterior|07 • Câmbio, balança comercial e comércio exterior]]',
-              '  - [[3 - Materias/Atualidades/08 - organizacoes internacionais e blocos|08 • Organizações internacionais e blocos]]',
-              '  - [[3 - Materias/Atualidades/09 - demografia e indicadores sociais|09 • Demografia e indicadores sociais]]',
-              '  - [[3 - Materias/Atualidades/10 - mudanca climatica cop e mercado de carbono|10 • Mudança climática, COP e mercado de carbono]]',
-              '  - [[3 - Materias/Atualidades/11 - matriz energetica eletrica e transicao energetica|11 • Matriz energética, matriz elétrica e transição energética]]',
-              '  - [[3 - Materias/Atualidades/12 - saude publica vigilancia e vacinacao|12 • Saúde pública, vigilância e vacinação]]',
-              '  - [[3 - Materias/Atualidades/13 - politica instituicoes e democracia nas atualidades|13 • Política, instituições e democracia nas Atualidades]]',
-              '  - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]',
-          ]
-          old = '\n'.join(old_lines)
-          new = '\n'.join(new_lines)
-          if old not in text:
-              raise SystemExit('Bloco esperado de Atualidades não encontrado no index.md')
-          index.write_text(text.replace(old, new, 1), encoding='utf-8')
           log = Path('log.md')
-          log_text = log.read_text(encoding='utf-8')
+          text = log.read_text(encoding='utf-8')
           heading = '## 2026-09-14 — Materialização dos fundamentos de Atualidades'
-          if heading not in log_text:
-              entry_lines = [
+          if heading not in text:
+              lines = [
                   '',
                   '',
                   heading,
@@ -66,15 +46,26 @@ jobs:
                   '',
               ]
               with log.open('a', encoding='utf-8') as f:
-                  f.write('\n'.join(entry_lines))
+                  f.write('\n'.join(lines))
           PY
+            git rm -f .github/workflows/update-atualidades-index-log-once.yml >/dev/null 2>&1 || true
+            git add log.md
+            if ! git diff --cached --quiet; then
+              git commit -m "Registra fundamentos de Atualidades no log"
+            fi
+          }
 
-      - name: Remove temporary workflow and commit
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git rm .github/workflows/update-atualidades-index-log-once.yml
-          git add index.md log.md
-          git commit -m "Propaga fundamentos de Atualidades no índice e log"
-          git push
+          apply_changes
+
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git fetch origin main
+            git reset --hard origin/main
+            apply_changes
+            sleep 1
+          done
+
+          echo "Falha ao publicar após 5 tentativas" >&2
+          exit 1

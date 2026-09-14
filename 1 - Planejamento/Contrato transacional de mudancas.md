@@ -10,23 +10,47 @@ updated: 2026-09-14
 
 Este documento define como executar alterações que dependem de vários arquivos do vault. O objetivo é eliminar estados parciais, sobrescritas por concorrência e falsos sucessos em operações de propagação.
 
+## Gate antes da mudança
+
+Antes de iniciar uma operação não corretiva, o estado atual precisa estar saudável. Em ambiente local/Work, executar `node scripts/preflight-vault.js`. Em operações pelo GitHub conectado, verificar o último workflow `Publicar no GitHub Pages` do `HEAD` atual.
+
+Se o preflight ou o workflow atual estiverem em falha, o main está vermelho. Até a correção, somente mudanças diretamente relacionadas à falha são permitidas. Não continuar criando ou refinando conteúdo sobre um estado inválido.
+
 ## Quando usar
 
-Usar uma transação multi-arquivo quando a correção só estiver completa se vários arquivos permanecerem sincronizados. Casos prioritários: ingestão de questões e simulados; propagação entre `Avancos.md`, painéis globais e arquivos de projeto; atualizações de catálogo; operações que incluem `log.md`; e qualquer alteração em que um agente ou workflow paralelo possa modificar um dos mesmos arquivos durante a execução.
+Usar uma transação multi-arquivo quando a correção só estiver completa se vários arquivos permanecerem sincronizados. Casos prioritários: criação de nota canônica; ingestão de questões e simulados; propagação entre `Avancos.md`, painéis globais e arquivos de projeto; atualizações de catálogo; operações que incluem `log.md`; e qualquer alteração em que um agente ou workflow paralelo possa modificar um dos mesmos arquivos durante a execução.
 
-Mudanças locais e independentes em um único artigo não precisam ser artificialmente convertidas em change set.
+Mudanças locais e independentes em um único artigo existente não precisam ser artificialmente convertidas em change set.
 
 ## Regra de atomicidade
 
 Uma operação multi-arquivo deve obedecer à lógica **tudo ou nada**. Antes da primeira gravação, o aplicador verifica as precondições de todos os arquivos. Se uma única precondição falhar, nenhum arquivo é modificado. Se uma validação posterior à escrita falhar, todos os arquivos tocados retornam ao estado anterior.
 
-O mecanismo canônico é:
+Em ambiente local/Work, o mecanismo canônico é:
 
 ```bash
 node scripts/apply-changeset.js --file caminho/change-set.json
 ```
 
 A implementação vive em `scripts/changeset-transaction.js` e é coberta por `scripts/test-changeset-transaction.js`.
+
+Quando a operação for executada diretamente pelo conector GitHub e estiverem disponíveis operações de Git Data, o mecanismo preferido é um único:
+
+```text
+create_tree → create_commit → update_ref
+```
+
+O tree deve partir da árvore do `HEAD` lido imediatamente antes da operação. O `update_ref` deve ser feito sem `force`; se o branch avançar por concorrência, a atualização deve falhar e a operação deve ser refeita sobre o novo `HEAD`, nunca sobrescrita.
+
+## Criação de nota canônica
+
+Criar uma nota em `3 - Materias/` é uma transação editorial indivisível. O mesmo commit deve conter:
+
+1. a nota nova;
+2. o hub local da matéria (`type: hub`), quando existir, já com o wikilink da nota;
+3. o `index.md` global, já com o caminho canônico da nota.
+
+Não é válido criar a nota num commit e “indexar depois”. `scripts/validate-change-contract.js` exige que essas superfícies apareçam no mesmo diff. Se a matéria não possuir hub local, o contrato exige a nota e o índice global e emite aviso sobre a ausência de hub.
 
 ## Precondição por hash
 
@@ -70,7 +94,7 @@ ingest-safe --dry-run
 → construir change set com todos os destinos obrigatórios
 → ingest-safe --apply --changeset <arquivo>
 → validar invariantes
-→ commit
+→ commit atômico
 → CI valida propagação
 → Pages confirma publicação quando houver conteúdo público
 ```
@@ -83,11 +107,12 @@ O próprio `ingest-safe.js` acrescenta à transação o registro em `data/ingest
 
 Uma operação multi-arquivo só pode ser descrita como concluída quando:
 
-1. todas as precondições de hash foram satisfeitas;
-2. todas as operações previstas foram aplicadas;
-3. as validações pós-escrita passaram;
-4. o commit contém a propagação mínima exigida pelo tipo de mudança;
-5. o CI passou pelo `validate-change-contract.js` e pelas invariantes globais;
-6. quando houver conteúdo público, o contrato de publicação do GitHub Pages também foi satisfeito.
+1. o estado-base estava saudável ou a operação era explicitamente corretiva;
+2. todas as precondições de hash/HEAD foram satisfeitas;
+3. todas as superfícies dependentes entraram no mesmo commit atômico quando a ferramenta permitia;
+4. todas as operações previstas foram aplicadas;
+5. as validações pós-escrita passaram;
+6. o CI passou pelo `validate-change-contract.js` e pelas invariantes globais;
+7. quando houver conteúdo público, o contrato de publicação do GitHub Pages também foi satisfeito.
 
 Se algum desses pontos estiver pendente, declarar o estado real em vez de anunciar conclusão.

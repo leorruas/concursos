@@ -3,7 +3,7 @@ title: "Língua portuguesa"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-05-30
+updated: 2026-09-14
 ---
 
 # Língua portuguesa
@@ -22,8 +22,9 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Pontuação**: [[03 - pontuacao e virgula|03 • Pontuação e vírgula]].
 - **Regência**: [[04 - regencia|04 • Regência verbal e nominal]].
 - **Ortografia**: [[05 - acordo ortografico|05 • Acordo ortográfico]].
+- **Concordância**: [[06 - concordancia verbal e nominal|06 • Concordância verbal e nominal]].
+- **Orações e conectivos**: [[07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas]].
 - **Morfologia**: Classes de palavras (substantivo, verbo, adjetivo, pronome) e flexões.
-- **Concordância**: Concordância verbal e nominal.
 - **Crase**: Casos obrigatórios, proibidos e facultativos.
 - **Reescrita de Frases**: Equivalência de sentido, substituição de estruturas e vozes do verbo.
 

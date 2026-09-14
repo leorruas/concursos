@@ -9,10 +9,9 @@ export function normalizarConteudoIngestao(content) {
     .trim();
 }
 
-export function calcularFingerprintIngestao({ content, type = '', concurso = '' }) {
+export function calcularFingerprintIngestao({ content, concurso = '' }) {
   const payload = JSON.stringify({
     content: normalizarConteudoIngestao(content),
-    type: String(type || '').trim().toLowerCase(),
     concurso: String(concurso || '').trim().toLowerCase()
   });
   return crypto.createHash('sha256').update(payload, 'utf8').digest('hex');

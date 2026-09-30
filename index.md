@@ -50,6 +50,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Portugues/05 - acordo ortografico|05 • Acordo ortográfico]]
   - [[3 - Materias/Portugues/06 - concordancia verbal e nominal|06 • Concordância verbal e nominal]]
   - [[3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas]]
+  - [[3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais|08 • Coesão textual: referenciação, conectores e tempos verbais]]
 - [[3 - Materias/Ingles/ingles|Língua inglesa]]
 - [[3 - Materias/Logica/00 - logica|Raciocínio lógico]]
   - [[3 - Materias/Logica/Avancos|Avanços e desempenho]]

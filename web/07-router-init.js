@@ -1,4 +1,4 @@
-function tratarHashNavegacao() {
+async function tratarHashNavegacao() {
     const rota = parsearHashVault(window.location.hash);
 
     if (rota.tipo === "home") {
@@ -17,7 +17,7 @@ function tratarHashNavegacao() {
             a.titulo.toLowerCase() === rota.titulo.toLowerCase()
         );
         if (artigo) {
-            abrirArtigo(artigo, false, rota.secao || "");
+            return abrirArtigo(artigo, false, rota.secao || "");
         }
     }
 }
@@ -96,5 +96,13 @@ if (btnVoltarDisciplina) {
 
 document.getElementById("nav-logo")?.addEventListener("click", () => voltarParaHome(true));
 
-carregarTodosOsArtigos();
+carregarTodosOsArtigos()
+    .catch((erro) => {
+        console.error("Erro ao carregar o conteúdo inicial:", erro);
+    })
+    .finally(() => {
+        if (window.CONCURSOS_FINALIZAR_CARREGAMENTO) {
+            window.CONCURSOS_FINALIZAR_CARREGAMENTO();
+        }
+    });
 

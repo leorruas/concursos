@@ -1,10 +1,167 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="app-loading">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>concursos • leorruas</title>
+    <script>
+        (function () {
+            var raiz = document.documentElement;
+
+            try {
+                var temaSalvo = localStorage.getItem("tema-concursos");
+                var temaDoSistema = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches
+                    ? "light"
+                    : "dark";
+                raiz.setAttribute("data-theme", temaSalvo || temaDoSistema);
+            } catch (erro) {}
+
+            window.CONCURSOS_FINALIZAR_CARREGAMENTO = function () {
+                if (!raiz.classList.contains("app-loading")) return;
+
+                if (window.CONCURSOS_LOADER_FALLBACK) {
+                    clearTimeout(window.CONCURSOS_LOADER_FALLBACK);
+                    window.CONCURSOS_LOADER_FALLBACK = null;
+                }
+
+                var loader = document.getElementById("initial-loader");
+                if (!loader) {
+                    raiz.classList.remove("app-loading");
+                    return;
+                }
+
+                loader.classList.add("is-complete");
+
+                window.setTimeout(function () {
+                    raiz.classList.remove("app-loading");
+                    loader.classList.add("is-leaving");
+
+                    window.setTimeout(function () {
+                        if (loader.parentNode) loader.parentNode.removeChild(loader);
+                    }, 220);
+                }, 180);
+            };
+
+            window.CONCURSOS_MOSTRAR_TRANSICAO = function () {
+                if (raiz.classList.contains("app-loading")) return;
+
+                var existente = document.getElementById("route-loader");
+                if (existente && existente.parentNode) existente.parentNode.removeChild(existente);
+
+                var loader = document.createElement("div");
+                loader.id = "route-loader";
+                loader.className = "app-loader";
+                loader.setAttribute("role", "status");
+                loader.setAttribute("aria-label", "Abrindo artigo");
+                loader.innerHTML = '<div class="app-loader__line" aria-hidden="true"></div>';
+                loader.dataset.startedAt = String(Date.now());
+                document.body.appendChild(loader);
+
+                window.CONCURSOS_ROUTE_LOADER_FALLBACK = window.setTimeout(function () {
+                    window.CONCURSOS_FINALIZAR_TRANSICAO();
+                }, 10000);
+            };
+
+            window.CONCURSOS_FINALIZAR_TRANSICAO = function () {
+                var loader = document.getElementById("route-loader");
+                if (!loader) return;
+
+                if (window.CONCURSOS_ROUTE_LOADER_FALLBACK) {
+                    clearTimeout(window.CONCURSOS_ROUTE_LOADER_FALLBACK);
+                    window.CONCURSOS_ROUTE_LOADER_FALLBACK = null;
+                }
+
+                var inicio = Number(loader.dataset.startedAt || Date.now());
+                var restante = Math.max(0, 260 - (Date.now() - inicio));
+
+                window.setTimeout(function () {
+                    loader.classList.add("is-complete");
+
+                    window.setTimeout(function () {
+                        loader.classList.add("is-leaving");
+
+                        window.setTimeout(function () {
+                            if (loader.parentNode) loader.parentNode.removeChild(loader);
+                        }, 220);
+                    }, 140);
+                }, restante);
+            };
+
+            window.CONCURSOS_LOADER_FALLBACK = window.setTimeout(function () {
+                window.CONCURSOS_FINALIZAR_CARREGAMENTO();
+            }, 10000);
+        }());
+    </script>
+    <style>
+        html.app-loading,
+        html.app-loading body {
+            overflow: hidden;
+        }
+
+        html.app-loading body > :not(.app-loader):not(script) {
+            visibility: hidden;
+        }
+
+        .app-loader {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #050505;
+            opacity: 1;
+        }
+
+        :root[data-theme="light"] .app-loader {
+            background: #f8fafc;
+        }
+
+        .app-loader__line {
+            width: min(200px, 44vw);
+            height: 2px;
+            background: #007aff;
+            transform: scaleX(0);
+            transform-origin: left center;
+            animation: concursos-loader-progress 1.8s cubic-bezier(.2, .8, .2, 1) forwards;
+            transition: transform 180ms ease-out;
+        }
+
+        :root[data-theme="light"] .app-loader__line {
+            background: #0056b3;
+        }
+
+        .app-loader.is-complete .app-loader__line {
+            animation: none;
+            transform: scaleX(1);
+        }
+
+        .app-loader.is-leaving {
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 200ms ease;
+        }
+
+        @keyframes concursos-loader-progress {
+            0% { transform: scaleX(0); }
+            38% { transform: scaleX(.42); }
+            72% { transform: scaleX(.72); }
+            100% { transform: scaleX(.9); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .app-loader__line {
+                animation: none;
+                transform: scaleX(.75);
+                transition: none;
+            }
+
+            .app-loader.is-leaving {
+                transition: none;
+            }
+        }
+    </style>
     <link rel="stylesheet" href="style.css?v=comments-v2">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -14,6 +171,9 @@
 </head>
 
 <body>
+    <div id="initial-loader" class="app-loader" role="status" aria-label="Carregando conteúdo">
+        <div class="app-loader__line" aria-hidden="true"></div>
+    </div>
     <nav class="sticky-nav" id="sticky-nav">
         <span class="nav-logo" id="nav-logo">concursos • leorruas</span>
         <label class="nav-search-container" for="nav-search-input">

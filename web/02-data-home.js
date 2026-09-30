@@ -100,7 +100,7 @@ async function carregarTodosOsArtigos() {
     renderizarPainelConcursoHome();
 
     if (window.location.hash) {
-        tratarHashNavegacao();
+        await tratarHashNavegacao();
     }
 }
 

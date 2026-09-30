@@ -3,7 +3,7 @@ title: "Língua portuguesa"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-09-14
+updated: 2026-09-30
 ---
 
 # Língua portuguesa
@@ -14,7 +14,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 
 ## 1. Leitura e Texto
 - **Interpretação de Texto**: [[01 - interpretacao de texto|01 • Interpretação de texto e lógica argumentativa]].
-- **Coesão e Coerência**: Conectivos (causa, consequência, oposição), referenciação (pronomes, elipses) e progressão temática.
+- **Coesão e Coerência**: [[08 - coesao textual referenciacao e tempos verbais|08 • Coesão textual: referenciação, conectores e tempos verbais]].
 - **Semântica**: Sinonímia e antonímia, polissemia e figuras de linguagem.
 
 ## 2. Sintaxe e Gramática

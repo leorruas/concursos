@@ -45,6 +45,8 @@ jobs:
         run: node scripts/validate-vault-invariants.js
       - name: Validar integridade dos dados e links
         run: node scripts/validate-integrity.js
+      - name: Validar governança da busca
+        run: node scripts/validate-search-governance.js
       - name: Montar artefato estático isolado (_site)
         run: node scripts/build-site.js
       - name: Validar índice de busca publicado

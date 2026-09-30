@@ -6,6 +6,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 
 ## 1 - Planejamento
 - [[1 - Planejamento/diretrizes de busca|Diretrizes de busca]]
+- [[1 - Planejamento/Governanca da busca|Governança da busca]]
 - [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]]
 - [[1 - Planejamento/Regras de ingestao de questoes|Regras de ingestão de questões]]
 - [[1 - Planejamento/Contrato transacional de mudancas|Contrato transacional de mudanças]]

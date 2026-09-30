@@ -53,7 +53,7 @@ const contexto = {
 };
 vm.createContext(contexto);
 
-for (const arquivo of ['web/06-search.js', 'web/06a-search-index.js', 'web/06b-section-ranking.js']) {
+for (const arquivo of ['web/05a-search-config.js', 'web/06-search.js', 'web/06a-search-index.js', 'web/06b-section-ranking.js']) {
   const codigo = fs.readFileSync(path.join(rootDir, arquivo), 'utf8');
   vm.runInContext(codigo, contexto, { filename: arquivo });
 }
@@ -109,8 +109,14 @@ console.log(`Top 1: ${top1}/${benchmarks.length} (${Math.round(taxaTop1 * 100)}%
 console.log(`Top 3: ${top3}/${benchmarks.length}`);
 console.log(`Seção correta: ${secoesCorretas}/${benchmarks.length}`);
 
-if (taxaTop1 < 0.72) {
-  console.error('✗ Top 1 abaixo da régua mínima de 72%.');
+const configBusca = contexto.CONFIG_BUSCA_VAULT || {};
+const configRanking = configBusca.ranking || {};
+const taxaMinimaTop1 = Number.isFinite(Number(configRanking.taxaMinimaTop1Benchmark))
+  ? Number(configRanking.taxaMinimaTop1Benchmark)
+  : 0.72;
+
+if (taxaTop1 < taxaMinimaTop1) {
+  console.error(`✗ Top 1 abaixo da régua mínima de ${Math.round(taxaMinimaTop1 * 100)}%.`);
   falhas += 1;
 }
 

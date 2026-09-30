@@ -65,6 +65,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Logica/07 - diagramas logicos e conjuntos|07 • Diagramas lógicos e conjuntos]]
   - [[3 - Materias/Logica/08 - possibilidade e necessidade|08 • Possibilidade e necessidade]]
   - [[3 - Materias/Logica/09 - analise combinatoria|09 • Análise combinatória]]
+  - [[3 - Materias/Logica/10 - razoes proporcoes e divisao proporcional|10 • Razões, proporções e divisão proporcional]]
 - [[3 - Materias/Calculo Mental/calculo-mental|Cálculo mental]]
   - [[3 - Materias/Calculo Mental/Avancos|Avanços e desempenho]]
 - [[3 - Materias/Informatica/informatica|Informatica]]
@@ -147,6 +148,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Atualidades/11 - matriz energetica eletrica e transicao energetica|11 • Matriz energética, matriz elétrica e transição energética]]
   - [[3 - Materias/Atualidades/12 - saude publica vigilancia e vacinacao|12 • Saúde pública, vigilância e vacinação]]
   - [[3 - Materias/Atualidades/13 - politica instituicoes e democracia nas atualidades|13 • Política, instituições e democracia nas Atualidades]]
+  - [[3 - Materias/Atualidades/14 - governanca e regulacao de inteligencia artificial|14 • Governança e regulação de inteligência artificial]]
   - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]
 - [[3 - Materias/Redacao/redacao|Redação]]
 

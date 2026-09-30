@@ -512,51 +512,43 @@ function exibirResultados(resultados, termo = "", termos = []) {
         : null;
     const resumo = document.createElement("p");
     resumo.className = "resumo-busca";
-    resumo.textContent = `${resultados.length} ${resultados.length === 1 ? "resultado" : "resultados"}${concursoAtivo?.nome ? ` · prioridade contextual: ${concursoAtivo.nome}` : ""}`;
+    resumo.textContent = `${resultados.length} ${resultados.length === 1 ? "resultado" : "resultados"} · ordem global por relevância${concursoAtivo && concursoAtivo.nome ? ` · contexto: ${concursoAtivo.nome}` : ""}`;
     containerResultados.appendChild(resumo);
 
-    const grupos = {};
-    resultados.forEach(resultado => {
-        const categoria = resultado.artigo.categoria;
-        if (!grupos[categoria]) grupos[categoria] = [];
-        grupos[categoria].push(resultado);
-    });
+    const lista = document.createElement("div");
+    lista.className = "resultados-lista resultados-lista-global";
 
-    Object.keys(grupos).forEach(categoria => {
-        const grupoDiv = document.createElement("div");
-        grupoDiv.className = "busca-grupo-assunto";
-        const tituloGrupo = document.createElement("h3");
-        tituloGrupo.className = "busca-assunto-titulo";
-        tituloGrupo.textContent = limparNomeCategoria(categoria);
-        grupoDiv.appendChild(tituloGrupo);
-        const subCards = document.createElement("div");
-        subCards.className = "resultados-lista";
+    resultados.forEach((resultado, idx) => {
+        const artigo = resultado.artigo;
+        const secaoRelevante = obterSecaoMaisRelevante(resultado.entrada, termo, termos);
+        const anchor = secaoRelevante && secaoRelevante.anchor ? secaoRelevante.anchor : "";
+        const categoria = limparNomeCategoria(artigo.categoria);
+        const meta = [categoria, secaoRelevante && secaoRelevante.titulo]
+            .filter(Boolean)
+            .join(" › ");
+        const contexto = obterContextoResultado(resultado.entrada, termo, termos);
 
-        grupos[categoria].forEach((resultado, idx) => {
-            const artigo = resultado.artigo;
-            const card = document.createElement("a");
-            const secaoRelevante = obterSecaoMaisRelevante(resultado.entrada, termo, termos);
-            const anchor = secaoRelevante && secaoRelevante.anchor ? secaoRelevante.anchor : "";
-            card.className = "resultado-item";
-            card.href = rotaDoArtigo(artigo, anchor);
-            const contexto = obterContextoResultado(resultado.entrada, termo, termos);
-            card.innerHTML = `
-                <span class="resultado-numero">${String(idx + 1).padStart(2, "0")}</span>
-                <span class="resultado-conteudo">
-                    <strong>${destacarTexto(artigo.tituloExibicao || artigo.titulo, termo)}</strong>
-                    <span class="resultado-trecho">${destacarTexto(contexto, termo)}</span>
-                </span>
-            `;
-            card.addEventListener("click", (e) => {
-                if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
-                e.preventDefault();
-                abrirArtigo(artigo, true, anchor);
-            });
-            subCards.appendChild(card);
+        const card = document.createElement("a");
+        card.className = "resultado-item";
+        card.href = rotaDoArtigo(artigo, anchor);
+        card.dataset.scoreBusca = String(resultado.score || "");
+        card.innerHTML = `
+            <span class="resultado-numero">${String(idx + 1).padStart(2, "0")}</span>
+            <span class="resultado-conteudo">
+                <strong>${destacarTexto(artigo.tituloExibicao || artigo.titulo, termo)}</strong>
+                <span class="resultado-meta">${escaparHtml(meta)}</span>
+                <span class="resultado-trecho">${destacarTexto(contexto, termo)}</span>
+            </span>
+        `;
+        card.addEventListener("click", (e) => {
+            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+            e.preventDefault();
+            abrirArtigo(artigo, true, anchor);
         });
-        grupoDiv.appendChild(subCards);
-        containerResultados.appendChild(grupoDiv);
+        lista.appendChild(card);
     });
+
+    containerResultados.appendChild(lista);
 }
 
 function destacarTexto(texto, termo) {

@@ -2152,3 +2152,24 @@ html body .artigo-corpo h3::before {
     border-radius: 2px;
     transition: outline-color .25s ease;
 }
+
+
+/* Resultados de busca: ranking global, sem reagrupamento por disciplina. */
+.resultados-lista-global {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultado-meta {
+    display: block;
+    margin: 4px 0 5px;
+    color: var(--muted);
+    font-family: 'Space Mono', monospace;
+    font-size: .68rem;
+    line-height: 1.35;
+    letter-spacing: .01em;
+}
+
+.resultados-lista-global .resultado-item {
+    width: 100%;
+}

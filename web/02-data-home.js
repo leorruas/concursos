@@ -29,9 +29,12 @@ async function carregarTodosOsArtigos() {
             if (!res.ok) return null;
             const texto = await res.text();
             
+            const tipoMatch = texto.match(/^---\s*[\r\n]+[\s\S]*?^type:\s*["']?([^"'\r\n]+)["']?/m);
+
             return {
                 titulo: item.titulo,
                 tituloExibicao: extrairTituloReal(texto, item.titulo),
+                tipo: tipoMatch?.[1]?.trim().toLowerCase() || "",
                 conteudo: texto,
                 sourcePath: item.sourcePath,
                 categoria: item.categoria
@@ -65,6 +68,11 @@ async function carregarTodosOsArtigos() {
     function ehResumoPrincipalDaMateria(artigo) {
         const sourcePath = artigo?.sourcePath || "";
         if (!sourcePath.startsWith("3 - Materias/")) return false;
+
+        // Regra canônica: frontmatter type: hub.
+        // O fallback por nome preserva compatibilidade com resumos antigos
+        // que ainda não tenham o metadado explícito.
+        if (artigo.tipo === "hub") return true;
 
         const nomeArquivo = sourcePath.split("/").pop() || "";
         return normalizarIdentificadorMateria(nomeArquivo) === normalizarIdentificadorMateria(artigo.categoria);

@@ -73,16 +73,31 @@ obterSecaoMaisRelevante = function obterSecaoMaisRelevanteV3(entrada, termo, ter
     return obterSecaoMaisRelevanteBase(entrada, termo, termos);
 };
 
-pontuarEntradaBusca = function pontuarEntradaBuscaV3(entrada, consultaNormalizada, termos) {
+function detalharPontuacaoEntradaBusca(entrada, consultaNormalizada, termos) {
     const scoreArtigo = pontuarEntradaBuscaArtigoBase(entrada, consultaNormalizada, termos);
-    const detalhe = calcularMelhorSecaoBusca(entrada, consultaNormalizada, termos);
+    const detalheSecao = calcularMelhorSecaoBusca(entrada, consultaNormalizada, termos);
 
-    if (!scoreArtigo && !detalhe.score) return 0;
+    if (!scoreArtigo && !detalheSecao.score) {
+        return {
+            total: 0,
+            scoreSecao: 0,
+            scoreArtigo: 0,
+            secao: detalheSecao.secao || null
+        };
+    }
 
-    // A seção responde pela maior parte da relevância. O score legado fica como
-    // sinal de título do artigo, categoria, edital ativo, erro recorrente e papel.
     const combinado =
-        (detalhe.score * parametroRankingBusca("contribuicaoSecao", 0.82)) +
+        (detalheSecao.score * parametroRankingBusca("contribuicaoSecao", 0.82)) +
         (scoreArtigo * parametroRankingBusca("contribuicaoArtigo", 0.38));
-    return Math.max(0, Math.round(combinado * 100) / 100);
+
+    return {
+        total: Math.max(0, Math.round(combinado * 100) / 100),
+        scoreSecao: detalheSecao.score,
+        scoreArtigo,
+        secao: detalheSecao.secao || null
+    };
+}
+
+pontuarEntradaBusca = function pontuarEntradaBuscaV3(entrada, consultaNormalizada, termos) {
+    return detalharPontuacaoEntradaBusca(entrada, consultaNormalizada, termos).total;
 };

@@ -32,6 +32,7 @@ function voltarParaHome(atualizarRota = true) {
     document.getElementById("painel-concurso-home")?.classList.remove("escondido");
     document.getElementById("orientacoes-iniciais")?.classList.remove("escondido");
     document.getElementById("explorar-disciplinas")?.classList.remove("escondido");
+    atualizarDestinoIndiceTopo("");
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -57,7 +58,16 @@ if (mainTitle) {
 const navLinkPastas = document.getElementById("nav-link-pastas");
 if (navLinkPastas) {
     navLinkPastas.addEventListener("click", (e) => {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+
         e.preventDefault();
+        const categoria = navLinkPastas.dataset.categoria || "";
+
+        if (categoria) {
+            abrirDisciplina(categoria);
+            return;
+        }
+
         voltarParaHome(true);
         const pastasContainer = document.getElementById("explorar-disciplinas");
         if (pastasContainer) {

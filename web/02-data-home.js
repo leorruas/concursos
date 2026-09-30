@@ -166,6 +166,7 @@ function abrirDisciplina(categoria, atualizarRota = true) {
     document.getElementById("explorar-disciplinas")?.classList.add("escondido");
     leitorDeDisciplina.classList.remove("escondido");
     artigoAtual = null;
+    atualizarDestinoIndiceTopo("");
 
     if (atualizarRota && window.location.hash !== obterRotaCategoria(categoria)) {
         history.pushState({ categoria: categoria }, "", obterRotaCategoria(categoria));

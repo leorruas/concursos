@@ -37,6 +37,7 @@ carregarTodosOsArtigos = async function carregarTodosOsArtigosLeve() {
             // Compatibilidade com o índice v1. No índice estruturado v2, o corpo
             // deixa de ser duplicado aqui e a busca lê artigo.indiceBusca.
             conteudo: registroBusca && registroBusca.conteudo ? registroBusca.conteudo : "",
+            tipo: String((registroBusca && registroBusca.tipo) || item.tipo || "").trim().toLowerCase(),
             conteudoCompleto: false,
             indiceBusca: registroBusca,
             sourcePath: item.sourcePath,
@@ -52,15 +53,11 @@ carregarTodosOsArtigos = async function carregarTodosOsArtigosLeve() {
     });
 
     Object.values(todasAsPastas).forEach((artigos) => {
-        artigos.sort((a, b) => (a.sourcePath || a.path).localeCompare(
-            b.sourcePath || b.path,
-            "pt-BR",
-            { numeric: true }
-        ));
+        artigos.sort(ordenarArtigosDaMateria);
     });
 
     renderizarPastas();
     renderizarPainelConcursoHome();
 
-    if (window.location.hash) tratarHashNavegacao();
+    if (window.location.hash) await tratarHashNavegacao();
 };

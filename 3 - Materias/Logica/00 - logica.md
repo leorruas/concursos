@@ -3,7 +3,7 @@ title: "Raciocínio lógico"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-05-31
+updated: 2026-09-30
 ---
 
 # Raciocínio lógico
@@ -38,3 +38,5 @@ Mapeamento de tópicos e organização das notas de Raciocínio Lógico e Lógic
 ---
 - **Acompanhamento**: [[Avancos|Avanços e desempenho (Lógica)]]
 
+
+- [[3 - Materias/Logica/10 - razoes proporcoes e divisao proporcional|Razões, proporções e divisão proporcional]]

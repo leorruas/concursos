@@ -153,6 +153,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Atualidades/14 - governanca e regulacao de inteligencia artificial|14 • Governança e regulação de inteligência artificial]]
   - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]
 - [[3 - Materias/Redacao/redacao|Redação]]
+  - [[3 - Materias/Redacao/01 - leitura do tema e projeto de texto|01 • Leitura do tema e projeto de texto]]
 
 ---
 *Última atualização: 2026-09-30*

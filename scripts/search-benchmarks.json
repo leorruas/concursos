@@ -1,0 +1,92 @@
+[
+  {
+    "query": "condição necessária",
+    "expectedPath": "3 - Materias/Logica/02 - conectivos.md",
+    "expectedSection": "Exemplo 1 — condição necessária"
+  },
+  {
+    "query": "contrapositiva",
+    "expectedPath": "3 - Materias/Logica/04 - equivalencias.md",
+    "expectedSection": "Contrapositiva — voltar negando"
+  },
+  {
+    "query": "De Morgan",
+    "expectedPath": "3 - Materias/Logica/04 - equivalencias.md",
+    "expectedSection": "De Morgan"
+  },
+  {
+    "query": "conteúdo impostor",
+    "expectedPath": "3 - Materias/Comunicacao/18 - fact checking e desinformacao.md",
+    "expectedSection": "Sete tipos de conteúdo problemático"
+  },
+  {
+    "query": "fake news",
+    "expectedPath": "3 - Materias/Comunicacao/18 - fact checking e desinformacao.md",
+    "expectedSection": "“Fake news” × desordem informacional"
+  },
+  {
+    "query": "Mattar",
+    "expectedPath": "3 - Materias/Comunicacao/17 - pesquisa em comunicacao.md",
+    "expectedSection": "2. Classificações de Mattar cobradas na Dataprev 2024"
+  },
+  {
+    "query": "painel",
+    "expectedPath": "3 - Materias/Comunicacao/17 - pesquisa em comunicacao.md",
+    "expectedSection": "Painel"
+  },
+  {
+    "query": "paid owned earned",
+    "expectedPath": "3 - Materias/Comunicacao/20 - campanhas e planejamento de midia.md",
+    "expectedSection": "3. Paid, Owned e Earned Media"
+  },
+  {
+    "query": "ROI ROAS",
+    "expectedPath": "3 - Materias/Comunicacao/20 - campanhas e planejamento de midia.md",
+    "expectedSection": "ROI × ROAS"
+  },
+  {
+    "query": "reserva de plenário",
+    "expectedPath": "3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md",
+    "expectedSection": "Reserva de plenário — art. 97 e Súmula Vinculante 10"
+  },
+  {
+    "query": "tema 940",
+    "expectedPath": "3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado.md",
+    "expectedSection": "Vítima × Estado × agente público"
+  },
+  {
+    "query": "art 11 princípios",
+    "expectedPath": "3 - Materias/Direito Administrativo/07 - improbidade administrativa.md",
+    "expectedSection": "Art. 11 — atentado contra princípios"
+  },
+  {
+    "query": "diagrama de Ishikawa",
+    "expectedPath": "3 - Materias/Administracao Geral/05 - gestao da qualidade.md",
+    "expectedSection": "Diagrama de Ishikawa"
+  },
+  {
+    "query": "diagrama de Pareto",
+    "expectedPath": "3 - Materias/Administracao Geral/05 - gestao da qualidade.md",
+    "expectedSection": "Diagrama de Pareto"
+  },
+  {
+    "query": "liderança estratégia controle",
+    "expectedPath": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+    "expectedSection": "Mecanismos: liderança, estratégia e controle"
+  },
+  {
+    "query": "quais de nós",
+    "expectedPath": "3 - Materias/Portugues/06 - concordancia verbal e nominal.md",
+    "expectedSection": "`Quais de nós`, `alguns de nós`, `muitos de vós`"
+  },
+  {
+    "query": "adversativa concessiva",
+    "expectedPath": "3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas.md",
+    "expectedSection": "Coordenação adversativa × subordinação concessiva"
+  },
+  {
+    "query": "porque causa explicação",
+    "expectedPath": "3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas.md",
+    "expectedSection": "`porque`: explicação × causa"
+  }
+]

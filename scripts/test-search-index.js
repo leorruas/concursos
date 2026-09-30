@@ -17,67 +17,83 @@ function normalizar(texto) {
     .trim();
 }
 
-function corpusRegistro(registro) {
-  const secoes = Array.isArray(registro?.secoes) ? registro.secoes : [];
-  return normalizar(secoes.map(secao => [
-    secao?.titulo,
-    secao?.termos,
-    secao?.trecho
-  ].filter(Boolean).join(' ')).join(' '));
+function corpusSecao(secao) {
+  return normalizar([
+    secao && secao.titulo,
+    secao && secao.termos,
+    secao && secao.trecho
+  ].filter(Boolean).join(' '));
 }
 
-const testes = [
-  ['condicao necessaria', '3 - Materias/Logica/02 - conectivos.md'],
-  ['contrapositiva', '3 - Materias/Logica/04 - equivalencias.md'],
-  ['script tipografia', '3 - Materias/Comunicacao/12 - producao editorial e design.md'],
-  ['conteudo impostor', '3 - Materias/Comunicacao/18 - fact checking e desinformacao.md'],
-  ['mattar painel', '3 - Materias/Comunicacao/17 - pesquisa em comunicacao.md'],
-  ['ritual dialogal', '3 - Materias/Comunicacao/14 - entrevista jornalistica.md'],
-  ['shared earned', '3 - Materias/Comunicacao/20 - campanhas e planejamento de midia.md'],
-  ['reserva plenario', '3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md'],
-  ['dolo art 11', '3 - Materias/Direito Administrativo/07 - improbidade administrativa.md'],
-  ['tema 940', '3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado.md'],
-  ['ishikawa pareto', '3 - Materias/Administracao Geral/05 - gestao da qualidade.md'],
-  ['lideranca estrategia controle', '3 - Materias/Administracao Publica/02 - governanca publica.md']
-];
-
 const indicePath = path.join(siteDir, 'search-index.json');
-if (!fs.existsSync(indicePath)) {
-  console.error('✗ ERRO: _site/search-index.json não existe.');
+const benchmarkPath = path.join(rootDir, 'scripts/search-benchmarks.json');
+
+if (!fs.existsSync(indicePath) || !fs.existsSync(benchmarkPath)) {
+  console.error('✗ ERRO: índice ou benchmark de busca não existe.');
   process.exit(1);
 }
 
 const indice = JSON.parse(fs.readFileSync(indicePath, 'utf8'));
+const benchmarks = JSON.parse(fs.readFileSync(benchmarkPath, 'utf8'));
 const porPath = new Map(indice.map(registro => [registro.sourcePath, registro]));
 let falhas = 0;
 
-console.log('=== TESTES DE RECALL DO ÍNDICE DE BUSCA ===');
+console.log('=== BENCHMARK DE RECALL E SEÇÕES DA BUSCA ===');
 
-for (const [consulta, sourcePath] of testes) {
-  const registro = porPath.get(sourcePath);
+for (const caso of benchmarks) {
+  const registro = porPath.get(caso.expectedPath);
   if (!registro) {
-    console.error(`✗ ${consulta} → artigo esperado não está no índice: ${sourcePath}`);
+    console.error(`✗ ${caso.query} → artigo esperado ausente: ${caso.expectedPath}`);
     falhas += 1;
     continue;
   }
 
-  const corpus = corpusRegistro(registro);
-  const termos = normalizar(consulta).split(' ').filter(Boolean);
+  const secoes = Array.isArray(registro.secoes) ? registro.secoes : [];
+  const secao = secoes.find(item => normalizar(item.titulo) === normalizar(caso.expectedSection));
+  if (!secao) {
+    console.error(`✗ ${caso.query} → seção esperada ausente: ${caso.expectedSection}`);
+    falhas += 1;
+    continue;
+  }
+
+  if (!secao.anchor || !/^[a-z0-9][a-z0-9-]*$/.test(secao.anchor)) {
+    console.error(`✗ ${caso.query} → seção sem anchor estável: ${caso.expectedSection}`);
+    falhas += 1;
+    continue;
+  }
+
+  const corpus = corpusSecao(secao);
+  const termos = normalizar(caso.query).split(' ').filter(Boolean);
   const faltantes = termos.filter(termo => !corpus.includes(termo));
 
-  if (faltantes.length === 0) {
-    console.log(`✓ ${consulta} → ${sourcePath}`);
-  } else {
-    console.error(`✗ ${consulta} → faltam no índice: ${faltantes.join(', ')} (${sourcePath})`);
+  if (faltantes.length > 0) {
+    console.error(`✗ ${caso.query} → seção não preserva: ${faltantes.join(', ')}`);
     falhas += 1;
+    continue;
   }
+
+  console.log(`✓ ${caso.query} → ${caso.expectedPath}#${secao.anchor}`);
+}
+
+const anchorsInvalidos = [];
+for (const registro of indice) {
+  const vistos = new Set();
+  for (const secao of (registro.secoes || [])) {
+    if (!secao.anchor) continue;
+    if (vistos.has(secao.anchor)) anchorsInvalidos.push(`${registro.sourcePath}#${secao.anchor}`);
+    vistos.add(secao.anchor);
+  }
+}
+if (anchorsInvalidos.length > 0) {
+  anchorsInvalidos.forEach(item => console.error(`✗ anchor duplicado: ${item}`));
+  falhas += anchorsInvalidos.length;
 }
 
 console.log('----------------------------------------------------');
 if (falhas === 0) {
-  console.log(`SUCESSO: ${testes.length} consultas canônicas preservadas.`);
+  console.log(`SUCESSO: ${benchmarks.length} consultas com artigo, seção e anchor preservados.`);
   process.exit(0);
 }
 
-console.error(`FALHA: ${falhas} consulta(s) perderam recall no índice.`);
+console.error(`FALHA: ${falhas} caso(s) do benchmark falharam.`);
 process.exit(1);

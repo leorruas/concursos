@@ -139,14 +139,25 @@ function extrairTermosUnicos(texto) {
   return Array.from(unicos).join(' ');
 }
 
+function criarAnchorSecao(titulo, ocorrencias) {
+  const base = normalizarIndice(titulo)
+    .replace(/\s+/g, '-')
+    .replace(/^-+|-+$/g, '') || 'secao';
+  const numero = (ocorrencias.get(base) || 0) + 1;
+  ocorrencias.set(base, numero);
+  return numero === 1 ? base : `${base}-${numero}`;
+}
+
 function criarSecoesIndice(conteudo) {
   const semFrontmatter = conteudo
     .replace(/^---[\s\S]*?---\s*/, '')
     .replace(/%%[\s\S]*?%%/g, ' ');
   const linhas = semFrontmatter.split(/\r?\n/);
   const secoes = [];
+  const ocorrenciasAnchors = new Map();
   let titulo = '';
   let nivel = 0;
+  let anchor = '';
   let buffer = [];
 
   const salvar = () => {
@@ -155,6 +166,7 @@ function criarSecoesIndice(conteudo) {
       secoes.push({
         titulo,
         nivel,
+        anchor,
         trecho: texto.slice(0, 220),
         termos: extrairTermosUnicos(`${titulo} ${texto}`)
       });
@@ -168,6 +180,7 @@ function criarSecoesIndice(conteudo) {
       salvar();
       nivel = cabecalho[1].length;
       titulo = cabecalho[2].trim();
+      anchor = criarAnchorSecao(titulo, ocorrenciasAnchors);
       return;
     }
 

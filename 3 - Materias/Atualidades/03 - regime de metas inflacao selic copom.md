@@ -1,15 +1,18 @@
 ---
-title: "Regime de metas, inflação, Selic e Copom"
+title: "Regime de metas, Selic e Copom"
 type: "conceito"
 status: "ativo"
 layer: "fundamento_estavel"
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-09-30
 ---
 
-# Regime de metas, inflação, Selic e Copom
+# Regime de metas, Selic e Copom
 
 ## Núcleo do conceito
+
+> [!NOTE]
+> **Pré-requisito:** [[02.5 - inflacao causas medicao e efeitos|Inflação: conceito, causas, medição e efeitos]]. Esta nota parte da distinção entre inflação, desinflação e deflação e das causas básicas do processo inflacionário.
 
 O Brasil adota um regime de metas para a inflação. Desde janeiro de 2025, a meta é contínua: acompanha-se a variação acumulada do IPCA em 12 meses, apurada mês a mês.
 
@@ -62,7 +65,7 @@ Também pode apresentar dados econômicos recentes e pedir a interpretação cor
 
 ## Relações com outros temas
 
-**Inflação:** aumento persistente do nível geral de preços. Uma variação mensal negativa do IPCA é deflação naquele mês, mas não prova, sozinha, uma tendência deflacionária duradoura.
+**Inflação:** ver [[02.5 - inflacao causas medicao e efeitos|Inflação: conceito, causas, medição e efeitos]]. Aqui, o foco é a resposta institucional da política monetária ao processo inflacionário.
 
 **Política monetária:** quando o Banco Central eleva a Selic, tende a encarecer crédito e reduzir demanda agregada, ajudando a conter pressões inflacionárias. Quando reduz a Selic, tende a aliviar as condições financeiras. Esses efeitos ocorrem com defasagem e não são automáticos.
 

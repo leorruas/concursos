@@ -77,137 +77,29 @@ function renderizarPainelConcursoHome() {
     const conteudo = document.getElementById("concurso-home-conteudo");
     if (!container || !conteudo) return;
 
-    if (!dadosConcursosEstrategicos || dadosConcursosEstrategicos.length === 0) {
+    const concursoAtivo = dadosConcursosEstrategicos.find(c => c.id === "dataprev-2026");
+    if (!concursoAtivo) {
         container.classList.add("escondido");
         return;
     }
 
     container.classList.remove("escondido");
 
-    const concursoAtivo = dadosConcursosEstrategicos.find(c => c.id === concursoSelecionadoId) || dadosConcursosEstrategicos[0];
     const dataProva = new Date(concursoAtivo.dataProva);
     const hoje = new Date();
-    const diffDias = Math.ceil((dataProva - hoje) / (1000 * 60 * 60 * 24));
-
-    // Itens do edital do concurso selecionado
-    const itensConcurso = dadosEditalEstrategico.filter(i => i.concursoId === concursoAtivo.id);
-    const totalItens = itensConcurso.length;
-
-    // 1. Cobertura: existência de nota, grau de correspondência e ausência são estados distintos.
-    // Itens legados sem coberturaNota continuam tratados como integrais apenas quando possuem notaPath.
-    const integrais = itensConcurso.filter(i => i.coberturaNota === "integral" || (!i.coberturaNota && !!i.notaPath));
-    const parciais = itensConcurso.filter(i => i.coberturaNota === "parcial");
-    const ausentes = itensConcurso.filter(i => i.coberturaNota === "ausente" || (!i.coberturaNota && !i.notaPath));
-    let textoCobertura = "—";
-    let detalheCobertura = "sem itens cadastrados no edital";
-    if (totalItens > 0) {
-        const pctCoberturaIntegral = Math.round((integrais.length / totalItens) * 100);
-        textoCobertura = `${pctCoberturaIntegral}%`;
-        detalheCobertura = `${integrais.length} integrais · ${parciais.length} parciais · ${ausentes.length} ausentes`;
-    }
-
-    // 2. Exposição: itens trabalhados em sessões registradas
-    // Se o concurso não tem rastreio formal de sessões ou se nenhum item foi marcado, registrar ausência de dados
-    const itensComRastreioExposicao = itensConcurso.filter(i => typeof i.exposicaoEstudo === "boolean");
-    let textoExposicao = "—";
-    let detalheExposicao = "dados insuficientes de sessões";
-    if (itensComRastreioExposicao.length > 0 && totalItens > 0) {
-        const expostos = itensConcurso.filter(i => i.exposicaoEstudo === true);
-        const pctExposicao = Math.round((expostos.length / totalItens) * 100);
-        textoExposicao = `${pctExposicao}%`;
-        detalheExposicao = `${expostos.length} de ${totalItens} tópicos já trabalhados`;
-    }
-
-    // 3. Domínio: somente quando houver evidência empírica por simulados
-    const comEvidencia = itensConcurso.filter(i => i.dominioMensuravel === true && i.evidencia);
-    const validados = comEvidencia.filter(i => i.evidencia.status === "validado");
-    let textoDominio = "ainda não mensurável";
-    let detalheDominio = "requer evidência empírica por simulados";
-    if (validados.length > 0 && totalItens > 0) {
-        const pctDom = Math.round((validados.length / totalItens) * 100);
-        textoDominio = `${pctDom}%`;
-        detalheDominio = `${validados.length} de ${totalItens} tópicos com retenção comprovada`;
-    }
-
-    // Próxima Prioridade Real (a partir de erros ou tópicos em reforço)
-    const erroPendente = dadosErrosEstrategicos.find(e => e.concursoId === concursoAtivo.id && e.status === "pendente");
-    let artigoParaRevisar = null;
-    if (erroPendente && erroPendente.notaPath) {
-        const nomeNota = erroPendente.notaPath.split("/").pop().replace(".md", "");
-        artigoParaRevisar = todosOsArtigos.find(a => a.titulo.toLowerCase() === nomeNota.toLowerCase());
-    }
+    const diffDias = Math.max(0, Math.ceil((dataProva - hoje) / (1000 * 60 * 60 * 24)));
 
     conteudo.innerHTML = `
         <div class="concurso-linha-topo">
             <div class="concurso-seletor-textual">
                 <span class="concurso-seletor-rotulo">concurso:</span>
-                ${dadosConcursosEstrategicos.map((c, idx) => `
-                    <button type="button" class="concurso-btn-opcao ${c.id === concursoAtivo.id ? 'concurso-selecionado' : ''}" data-concurso-id="${c.id}">
-                        ${c.nome.toLowerCase()}
-                    </button>
-                    ${idx < dadosConcursosEstrategicos.length - 1 ? '<span class="concurso-barra-separadora">/</span>' : ''}
-                `).join("")}
+                <span class="concurso-btn-opcao concurso-selecionado" aria-current="true">${concursoAtivo.nome.toLowerCase()}</span>
             </div>
             <div class="concurso-dias-container">
-                <span class="concurso-dias-destaque">${diffDias > 0 ? diffDias : 0}</span> dias até a prova (${concursoAtivo.banca} · ${dataProva.toLocaleDateString('pt-BR')})
-            </div>
-        </div>
-
-        ${erroPendente ? `
-            <div class="concurso-prioridade-linha">
-                <span class="concurso-prioridade-tag">prioridade atual</span>
-                <div>
-                    <p class="concurso-prioridade-texto">${erroPendente.assunto}</p>
-                    <p class="concurso-prioridade-sub">${erroPendente.disciplina} · Fonte: ${erroPendente.sourcePath}</p>
-                </div>
-                <div>
-                    ${artigoParaRevisar ? `
-                        <a href="${rotaDoArtigo(artigoParaRevisar)}" class="concurso-link-estudo" data-link-artigo="${artigoParaRevisar.titulo}">
-                            revisar nota →
-                        </a>
-                    ` : ''}
-                </div>
-            </div>
-        ` : ''}
-
-        <div class="concurso-regua-indicadores">
-            <div class="concurso-celula-indicador">
-                <div class="concurso-indicador-rotulo">cobertura integral</div>
-                <div class="concurso-indicador-valor ${textoCobertura.includes('%') ? '' : 'valor-indisponivel'}">${textoCobertura}</div>
-                <div class="concurso-indicador-detalhe">${detalheCobertura}</div>
-            </div>
-
-            <div class="concurso-celula-indicador">
-                <div class="concurso-indicador-rotulo">exposição ao conteúdo</div>
-                <div class="concurso-indicador-valor ${textoExposicao.includes('%') ? '' : 'valor-indisponivel'}">${textoExposicao}</div>
-                <div class="concurso-indicador-detalhe">${detalheExposicao}</div>
-            </div>
-
-            <div class="concurso-celula-indicador">
-                <div class="concurso-indicador-rotulo">domínio validado</div>
-                <div class="concurso-indicador-valor ${textoDominio.includes('%') ? '' : 'valor-indisponivel'}">${textoDominio}</div>
-                <div class="concurso-indicador-detalhe">${detalheDominio}</div>
+                <span class="concurso-dias-destaque">${diffDias}</span> dias até a prova (${concursoAtivo.banca} · ${dataProva.toLocaleDateString("pt-BR")})
             </div>
         </div>
     `;
-
-    // Eventos dos botões de seleção de concurso
-    conteudo.querySelectorAll(".concurso-btn-opcao").forEach(btn => {
-        btn.addEventListener("click", () => {
-            concursoSelecionadoId = btn.dataset.concursoId;
-            localStorage.setItem("concurso_ativo_id", concursoSelecionadoId);
-            renderizarPainelConcursoHome();
-        });
-    });
-
-    // Evento de clique no link de revisão
-    const linkRevisao = conteudo.querySelector(".concurso-link-estudo");
-    if (linkRevisao && artigoParaRevisar) {
-        linkRevisao.addEventListener("click", (e) => {
-            e.preventDefault();
-            abrirArtigo(artigoParaRevisar);
-        });
-    }
 }
 
 // Renderiza a Grade Suíça

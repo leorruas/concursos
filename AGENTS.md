@@ -9,3 +9,24 @@ Uma nota canônica nova exige, na mesma operação e no mesmo commit, a nota, o 
 Antes de encerrar a operação, execute as validações disponíveis, incluindo `node scripts/validate-vault-invariants.js` e `node scripts/validate-integrity.js`. Se estiver operando pelo GitHub conectado, acompanhe o workflow **Publicar no GitHub Pages** do HEAD final. Se ele falhar, corrija a falha antes de iniciar conteúdo não relacionado; se estiver pendente, não anuncie publicação concluída.
 
 O contrato completo de mudança e publicação está em `1 - Planejamento/Contrato transacional de mudancas.md` e `1 - Planejamento/Contrato de publicacao GitHub Pages.md`.
+
+
+## Propagação obrigatória de simulados para o painel
+
+Todo simulado ou bateria que deva aparecer na interface pública é uma **operação multi-arquivo**. Não considerar o registro concluído após atualizar apenas o `Log de erros.md`.
+
+Para um **simulado integral**, o agente deve atualizar, na mesma operação lógica:
+
+1. `00 - Desempenho/Simulados/Simulado-XX.md`, com resultado, respostas, gabarito, erros, dúvidas e diagnóstico;
+2. `00 - Desempenho/Simulados/00 - Catalogo de simulados.md`;
+3. `4 - Projetos/dataprev-2026/Questoes e Simulados.md` (ou o projeto do concurso correspondente);
+4. `4 - Projetos/dataprev-2026/Log de erros.md`, quando houver erros ou acertos com lacuna relevante;
+5. `4 - Projetos/dataprev-2026/00 Dashboard.md`, atualizando o último simulado;
+6. `data/provas.json`, que alimenta o painel estratégico da interface e deve conter `sourcePath`, resultado, comparabilidade e nota calculável quando aplicável;
+7. os arquivos de desempenho/avanços exigidos por `me.md`, quando o novo resultado alterar métricas consolidadas.
+
+Para baterias mistas, atualizar as superfícies equivalentes compatíveis com o tipo de registro; não inventar nota /115 quando a composição oficial não tiver sido reproduzida.
+
+**Regra de interface:** criar o Markdown do simulado não basta. Se `data/provas.json` ou o catálogo estiverem desatualizados, o painel está inconsistente. Após a alteração, acompanhar o workflow **Publicar no GitHub Pages** e só afirmar que o simulado “aparece no painel” depois de confirmar o deploy do HEAD e, quando aplicável, a presença do arquivo no manifesto/site publicado.
+
+Mudanças dependentes de um mesmo simulado devem preferencialmente entrar em **um único commit atômico**.

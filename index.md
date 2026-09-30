@@ -41,7 +41,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]
 
 ## 3 - Matérias
-- [[3 - Materias/Estrategia de Prova/FGV - Dataprev e corpus de Comunicacao|FGV: Dataprev e corpus de Comunicação]]
+- [[3 - Materias/Estrategia de Prova/estrategia-de-prova|Estratégia de prova]]
+  - [[3 - Materias/Estrategia de Prova/FGV - Dataprev e corpus de Comunicacao|FGV: Dataprev e corpus de Comunicação]]
 - [[3 - Materias/Portugues/portugues|Língua portuguesa]]
   - [[3 - Materias/Portugues/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Portugues/01 - interpretacao de texto|01 • Interpretação de texto]]

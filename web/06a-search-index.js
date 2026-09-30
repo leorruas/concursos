@@ -34,6 +34,7 @@ criarEntradaIndiceBusca = function criarEntradaIndiceBuscaCompacta(artigo) {
         return {
             titulo,
             nivel: secao.nivel || 2,
+            anchor: secao.anchor || "",
             texto,
             termos,
             tituloNormalizado: normalizarBusca(titulo),

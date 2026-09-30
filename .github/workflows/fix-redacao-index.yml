@@ -1,0 +1,42 @@
+name: Corrigir índice de Redação (temporário)
+
+on:
+  push:
+    paths:
+      - ".github/workflows/fix-redacao-index.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  fix-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inserir artigos 02 e 03 no index
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const path = 'index.md';
+          let c = fs.readFileSync(path, 'utf8');
+          const marker = '  - [[3 - Materias/Redacao/01 - leitura do tema e projeto de texto|01 • Leitura do tema e projeto de texto]]';
+          const add = marker +
+            '\n  - [[3 - Materias/Redacao/02 - tese e linha argumentativa|02 • Tese e linha argumentativa]]' +
+            '\n  - [[3 - Materias/Redacao/03 - estrategias de argumentacao|03 • Estratégias de argumentação]]';
+          if (!c.includes('02 • Tese e linha argumentativa')) {
+            if (!c.includes(marker)) throw new Error('Marcador de Redação não encontrado em index.md');
+            c = c.replace(marker, add);
+            fs.writeFileSync(path, c);
+          }
+          NODE
+      - name: Commitar correção
+        run: |
+          if git diff --quiet -- index.md; then
+            echo "Índice já estava atualizado."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.md
+          git commit -m "Indexa artigos 02 e 03 de Redação"
+          git push

@@ -3,7 +3,7 @@ title: "Interpretação de texto"
 type: "conceito"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-06-02
+updated: 2026-09-30
 ---
 
 # Interpretação de texto
@@ -67,6 +67,27 @@ Uma reescrita correta não precisa manter a precisão idêntica ou o mesmo níve
 ---
 
 ## 5. Coesão Textual e Ambiguidade de Referenciação
+
+### Anáfora × catáfora
+
+**Anáfora** é a retomada de um referente ou conteúdo já apresentado no texto.
+
+> "A diretoria revisou a política. **Essa medida** buscava reduzir inconsistências."
+
+`Essa medida` retoma a ação anterior. A referenciação é **anafórica** porque aponta para trás no texto.
+
+**Catáfora** antecipa um referente ou conteúdo que será apresentado depois.
+
+> "Só quero **isto**: que o relatório seja revisto."
+
+`Isto` antecipa a informação que aparece em seguida.
+
+> [!TIP]
+> **Anáfora = olha para trás. Catáfora = aponta para frente.**
+
+A retomada pode ocorrer por pronomes, expressões nominais, sinônimos, hiperônimos ou outras formas de referenciação; não se limita à repetição literal da mesma palavra.
+
+**Pegadinha FGV:** não confundir função referencial com significado lexical. Expressões como `essa decisão`, `o episódio`, `tal medida` ou `esse processo` podem condensar e retomar uma oração ou trecho inteiro, e não apenas um substantivo isolado.
 
 ### Ambiguidade Referencial de Pronomes (FGV)
 Ocorre quando um elemento anafórico (ex: pronome de 3ª pessoa *eles*, *este*, *aquele*) possui mais de um antecedente gramaticalmente compatível na oração anterior (ex: dois substantivos masculinos plurais).

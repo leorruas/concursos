@@ -191,8 +191,16 @@ if (fs.existsSync(simuladosDir)) {
       check(`[${simFile}] Acertos (${acertos}) <= Total (${total})`, acertos <= total);
     }
 
-    // Se mencionar /115 ou pontuação ponderada Dataprev, verificar se há ressalva de não calculável quando a distribuição for diferente
-    if (content.includes('115') && (content.includes('não oficial') || content.includes('incompleta'))) {
+    // Se mencionar /115 ou pontuação ponderada Dataprev, verificar se há ressalva de
+    // não calculável apenas quando a própria distribuição/composição for declarada
+    // não oficial, incompleta ou diferente. Não usar palavras soltas como
+    // "incompleta", pois elas podem aparecer em outros contextos pedagógicos
+    // (ex.: "recuperação incompleta").
+    const distribuicaoNaoOficial =
+      /(?:distribui(?:ç|c)ão|composi(?:ç|c)ão)[^\n]{0,160}(?:não oficial|nao oficial|incompleta|diferente)/i.test(content) ||
+      /não reproduziu corretamente a distribui(?:ç|c)ão oficial/i.test(content);
+
+    if (content.includes('115') && distribuicaoNaoOficial) {
       check(`[${simFile}] Simulado com distribuição não oficial não aplica nota ponderada /115`, content.includes('Não calculável') || content.includes('não deve ser convertido'));
     }
   }

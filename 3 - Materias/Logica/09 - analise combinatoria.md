@@ -3,7 +3,7 @@ title: "Análise combinatória"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-06-08
+updated: 2026-09-30
 ---
 # Análise combinatória
 
@@ -67,6 +67,26 @@ $$n! = n \times (n-1) \times (n-2) \times \dots \times 1$$
 *Exemplo de aplicação*: Organizar 5 pessoas em 5 cadeiras em fila. Para a primeira cadeira há 5 opções, para a segunda 4, e assim sucessivamente. O total de filas é $5! = 120$.
 
 ---
+
+### Elementos que devem ficar juntos: método do bloco
+
+Quando dois ou mais elementos precisam permanecer **juntos** em uma ordenação, trate o conjunto obrigatório como um único bloco no primeiro momento.
+
+Exemplo: ordenar cinco matérias distintas, com Português (P) e Lógica (L) juntas.
+
+1. Trate `PL` como um bloco. Agora há quatro objetos para ordenar: `[PL]` + três matérias.
+2. Esses quatro objetos podem ser ordenados de (4! = 24) formas.
+3. Dentro do bloco, P e L podem aparecer como `PL` ou `LP`: (2! = 2) formas.
+4. Total:
+
+[
+4! 	imes 2! = 24 	imes 2 = 48
+]
+
+> [!WARNING]
+> Parar em (4! = 24) conta corretamente a posição do bloco, mas **esquece as ordens internas do bloco**.
+
+A mesma lógica vale para três elementos obrigatoriamente juntos: organiza-se o bloco como uma unidade e depois multiplica-se pelas permutações internas dos três elementos, (3!), quando todas forem permitidas.
 
 ## 4. Arranjo
 

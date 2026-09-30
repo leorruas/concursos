@@ -4,7 +4,7 @@ type: "conceito"
 status: "ativo"
 layer: "fundamento_estavel"
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-09-30
 ---
 
 # Câmbio, balança comercial e comércio exterior
@@ -22,6 +22,26 @@ A **balança comercial** registra exportações e importações de bens. Há sup
 O câmbio pode influenciar comércio exterior, preços e atividade, mas a relação não é mecânica. Em tese, uma moeda doméstica depreciada tende a tornar exportações mais baratas para compradores externos e importações mais caras em moeda local. Na prática, contratos, preços internacionais, estrutura produtiva, demanda externa e defasagens alteram o efeito.
 
 A taxa de câmbio também pode afetar a inflação por meio do chamado **pass-through cambial**, quando variações do câmbio repercutem sobre preços de produtos importados ou de bens com insumos cotados internacionalmente. O repasse não é necessariamente integral nem imediato.
+
+### Preços relativos, tarifas, demanda, estoques e substituição de fornecedores
+
+A decisão de importar determinado produto não depende apenas de diplomacia ou de uma tarifa isolada. Entre os fatores que podem alterar fluxos comerciais estão:
+
+- **preço relativo** entre fornecedores, incluindo frete e custos de entrega;
+- **tarifas e outras barreiras comerciais**;
+- **taxa de câmbio**;
+- **qualidade e características do produto**;
+- **estoques disponíveis** no país comprador;
+- **demanda doméstica** e condições do setor que utiliza o produto;
+- **margens econômicas** de quem processa ou revende a mercadoria;
+- **sazonalidade e disponibilidade** nos países exportadores.
+
+Uma tarifa torna o produto importado relativamente mais caro, mantidas as demais condições, mas **tarifa não é sinônimo de proibição**. Da mesma forma, a redução de uma tarifa pode não gerar aumento de importações se a demanda estiver fraca, os estoques estiverem elevados ou outros fornecedores continuarem mais competitivos.
+
+Quando compradores deslocam compras de um país para outro em resposta a preços, tarifas ou condições comerciais, ocorre **substituição entre fornecedores**. Em análise de comércio internacional, é importante separar mudança de fornecedor de mudança da demanda total pelo produto.
+
+> [!TIP]
+> **FGV:** desconfie de explicações monocausais. Fluxo comercial pode mudar por preço + tarifa + demanda + estoque + câmbio ao mesmo tempo.
 
 ## Como interpretar uma notícia
 
@@ -65,6 +85,16 @@ Pode ainda afirmar que uma depreciação cambial necessariamente aumenta exporta
 Em agosto de 2026, o Brasil exportou cerca de **US$ 33,2 bilhões** e importou **US$ 25,8 bilhões**, produzindo superávit comercial de aproximadamente **US$ 7,4 bilhões**. A corrente de comércio ficou próxima de **US$ 58,9 bilhões**.
 
 Esses números permitem afirmar que as exportações superaram as importações naquele mês. Não permitem, isoladamente, concluir que o real se valorizou, que a conta corrente foi superavitária ou que o volume físico de todas as exportações aumentou.
+
+### Exemplo 2 — soja chinesa e substituição entre fornecedores
+
+> Exemplo conjuntural verificado em 30/09/2026. Revalidar antes de uso futuro.
+
+No fim de setembro de 2026, a demanda chinesa por novas cargas de soja dos Estados Unidos estava enfraquecida. Entre os fatores relatados estavam estoques elevados nos esmagadores chineses, demanda mais fraca por ração, margens de processamento ruins e condições de preço menos favoráveis para a soja norte-americana. Compradores privados continuavam encontrando condições competitivas em fornecedores como Brasil e Argentina.
+
+O exemplo mostra por que é inadequado explicar comércio apenas por relações diplomáticas. **Preço relativo, tarifa, estoque, demanda e substituição entre fornecedores podem atuar simultaneamente.**
+
+Fonte conjuntural: Reuters, 30/09/2026 — https://www.reuters.com/world/china/chinas-weak-soybean-demand-dims-prospects-us-cargoes-after-tariff-snub-2026-09-30/
 
 ## Heurísticas
 

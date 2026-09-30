@@ -3,7 +3,7 @@ title: "Atualidades"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-09-14
+updated: 2026-09-30
 ---
 
 # Atualidades
@@ -54,6 +54,7 @@ A pergunta de controle é: **se a FGV trocar o fato concreto, o fundamento conti
 ## Tecnologia e inteligência artificial
 
 - [[01 - inteligencia artificial|Inteligência artificial]]
+- [[14 - governanca e regulacao de inteligencia artificial|Governança e regulação de inteligência artificial]]
 - [[02 - quarto chines|Quarto chinês: sintaxe, semântica e compreensão]]
 - Regulação de IA, infraestrutura digital e novos riscos tecnológicos devem ser criados como notas próprias apenas quando trouxerem mecanismos não cobertos pelas notas existentes.
 

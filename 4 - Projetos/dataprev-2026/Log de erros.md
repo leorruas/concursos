@@ -48,3 +48,28 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 
 ## Atualidades / IA
 - **Regime de metas, IPCA, Selic e Copom:** Q1 da bateria de 14/09/2026 — [K]. Queda do IPCA não produz redução automática da Selic nem na mesma proporção. A leitura correta exige separar meta central (3,0%), faixa de tolerância (1,5% a 4,5%), critério formal de seis meses consecutivos fora da faixa e decisão do Copom baseada no conjunto do cenário e expectativas. [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom#Tensões e pegadinhas|Estudo em regime de metas, inflação, Selic e Copom]].
+
+
+## Simulado 03 — 30/09/2026
+
+**Resultado:** 63/70 questões = 90,0%. Pontuação ponderada: **103,5/115 = 90,0%**.  
+Módulo I: 36/40. Comunicação: 27/30 = 67,5/75.
+
+### Lógica
+- **Q26 — negação de universal com disjunção:** [C]. `¬∀x(D ∨ J) ≡ ∃x(¬D ∧ ¬J)`. A alternativa marcada usou `¬D ∨ ¬J`, que corresponde à negação de uma conjunção, não da disjunção original. [[3 - Materias/Logica/03 - quantificadores#Quantificador + `e` / `ou`|Quantificadores + De Morgan]].
+- **Q27 — divisão diretamente proporcional:** [D]. Na razão 2:3:4, a soma é 9; R$ 7.200/9 = R$ 800 por unidade; a parcela da razão 2 é R$ 1.600. R$ 2.400 corresponde à razão 3. [[3 - Materias/Logica/10 - razoes proporcoes e divisao proporcional#Exemplos comentados|Divisão proporcional]].
+- **Q28 — elementos juntos em permutação:** [C]. Tratar P e L como bloco gera 4! posições, mas é preciso multiplicar pelas 2! ordens internas do bloco: 4! × 2! = 48. [[3 - Materias/Logica/09 - analise combinatoria#Elementos que devem ficar juntos: método do bloco|Método do bloco]].
+
+### Legislação
+- **Q38 — art. 154-A vigente:** [C]. A obtenção efetiva de dados não é requisito do tipo básico; o caput exige invasão com finalidade específica. A redação vigente também não exige violação de mecanismo de segurança e prevê reclusão de 1 a 4 anos e multa. [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos#Estrutura do art. 154-A|Lei 12.737 / art. 154-A]].
+
+### Comunicação
+- **Q56 — malinformation:** [C]. Informação verdadeira originalmente privada, divulgada deliberadamente para causar dano, enquadra-se em `malinformation`; deepfake é técnica de mídia sintética/manipulada e não foi descrita no caso. [[3 - Materias/Comunicacao/18 - fact checking e desinformacao#Wardle e Derakhshan: três tipos de desordem informacional|Wardle e Derakhshan]].
+- **Q57 — conversão × alcance:** [C]. Realização de ação desejada é conversão; alcance mede pessoas/contas únicas expostas. [[3 - Materias/Comunicacao/06 - comunicacao digital#4. Métricas, KPIs e comunicação baseada em dados|Métricas digitais]].
+- **Q58 — ROAS × ROI:** [C]. ROAS = receita atribuída à publicidade / gasto publicitário = 80/20 = 4. O valor 3 corresponde ao cálculo de ROI `(80-20)/20`. [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia#ROI × ROAS|ROI × ROAS]].
+
+### Acertos com dúvida / lacunas de terminologia
+- **Q6 — partícula apassivadora × IIS:** acerto com dúvida. `Precisa-se de profissionais` usa verbo transitivo indireto e `se` como índice de indeterminação do sujeito. [[3 - Materias/Portugues/02 - sujeito#A partícula `se`: partícula apassivadora × índice de indeterminação|Funções do se]].
+- **Q12 — anáfora:** acerto por contexto, mas lacuna terminológica. Anáfora retoma conteúdo anterior; catáfora antecipa conteúdo posterior. [[3 - Materias/Portugues/01 - interpretacao de texto#Anáfora × catáfora|Anáfora × catáfora]].
+- **Q44 — gatekeeping × agenda-setting:** acerto com dúvida. Selecionar o que entra/sai do fluxo noticioso = gatekeeping; saliência de temas = agenda-setting. [[3 - Materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa#Gatekeeping: seleção|Gatekeeping]].
+- **Q66 — amostragem estratificada:** acerto sem recuperação consciente do conteúdo. População dividida em estratos relevantes, com seleção dentro de cada estrato; útil quando se quer garantir representação de subgrupos. [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao#Fronteiras entre os principais desenhos probabilísticos|Amostragem estratificada]].

@@ -43,7 +43,11 @@ check('insere token estável no lugar do bloco', protegido.markdown.includes('MA
 
 const htmlSimulado = '<p>Considere:</p>\n<p>MATHBLOCKTOKEN0END</p>\n<p>Depois.</p>';
 const restaurado = api.restaurarBlocosMatematicosHtml(htmlSimulado, protegido.blocos);
-check('restaura delimitadores $$ em um único nó HTML', restaurado.includes('<div class="math-display">$$\\exists x\\,(A(x) \\land \\neg B(x))$$</div>'));
+const matchBloco = restaurado.match(/<div class="math-display">([\s\S]*?)<\/div>/);
+check('restaura bloco matemático em nó próprio', Boolean(matchBloco));
+check('restaura delimitador de abertura $', Boolean(matchBloco && matchBloco[1].startsWith('$')));
+check('restaura delimitador de fechamento $', Boolean(matchBloco && matchBloco[1].endsWith('$')));
+check('preserva a fórmula dentro do bloco restaurado', Boolean(matchBloco && matchBloco[1].includes('\\exists x\\,(A(x) \\land \\neg B(x))')));
 check('não introduz <br> dentro do bloco matemático', !restaurado.match(/math-display[^]*?<br[^>]*>/));
 
 const comCodigo = [

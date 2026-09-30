@@ -60,6 +60,11 @@ function irParaSecaoArtigo(secao, comportamento = "smooth") {
 }
 
 async function abrirArtigo(artigo, atualizarRota = true, secao = "") {
+    if (window.CONCURSOS_MOSTRAR_TRANSICAO) {
+        window.CONCURSOS_MOSTRAR_TRANSICAO();
+        await new Promise(resolve => requestAnimationFrame(resolve));
+    }
+
     artigoAtual = artigo;
     atualizarDestinoIndiceTopo(artigo.categoria);
     const rotaDestino = rotaDoArtigo(artigo, secao);
@@ -97,6 +102,9 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "") {
     } catch (erro) {
         console.error("Erro ao abrir artigo:", artigo.path, erro);
         artigoCorpo.innerHTML = '<p class="mensagem-busca">não foi possível carregar este artigo. tente novamente.</p>';
+        if (window.CONCURSOS_FINALIZAR_TRANSICAO && artigoAtual === artigo) {
+            window.CONCURSOS_FINALIZAR_TRANSICAO();
+        }
         return;
     }
 
@@ -164,6 +172,10 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "") {
         });
     } else {
         window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    if (window.CONCURSOS_FINALIZAR_TRANSICAO) {
+        window.CONCURSOS_FINALIZAR_TRANSICAO();
     }
 }
 

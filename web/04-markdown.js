@@ -55,7 +55,8 @@ function restaurarBlocosMatematicosHtml(html, blocos) {
 
     (blocos || []).forEach((formula, indice) => {
         const token = `MATHBLOCKTOKEN${indice}END`;
-        const bloco = `<div class="math-display">$$${escaparHtmlMatematica(formula)}$$</div>`;
+        const delimitador = "$";
+        const bloco = `<div class="math-display">${delimitador}${escaparHtmlMatematica(formula)}${delimitador}</div>`;
         resultado = resultado
             .replace(`<p>${token}</p>`, bloco)
             .replace(token, bloco);

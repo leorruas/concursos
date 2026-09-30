@@ -104,3 +104,20 @@ Sempre que a tarefa alterar busca, ranking, aliases, anchors, deep links, índic
 Quando houver falha semântica de busca, registrar primeiro a consulta em `scripts/search-benchmarks.json` com artigo e seção esperados; só depois alterar aliases, configuração ou algoritmo. Mudanças de pesos devem preservar a régua global de Top 1, Top 3 e seção correta.
 
 Aliases e parâmetros deliberados de ranking vivem em `web/05a-search-config.js`. Não duplicar essa configuração em outros arquivos.
+
+
+## Regra para testes e validadores novos
+
+Sempre que uma mudança criar ou alterar um teste, validador, script de build ou etapa de CI, o agente deve executar diretamente o novo/alterado script **antes do commit** quando o ambiente disponível permitir.
+
+O preflight do estado anterior não substitui essa verificação: ele prova que o `main` estava saudável antes da mudança, não que o teste recém-criado funciona.
+
+Fluxo obrigatório para scripts novos ou alterados:
+
+1. executar o script isoladamente;
+2. corrigir qualquer falha do próprio teste/fixture;
+3. executar as validações relacionadas;
+4. só então incluir o script e a alteração funcional no commit;
+5. após o commit, confirmar o workflow completo.
+
+Não enfraquecer uma asserção apenas para deixar o CI verde. Quando um teste falhar, distinguir entre bug de implementação, fixture incorreta e asserção excessivamente literal; preservar a propriedade semântica que o teste deveria garantir.

@@ -170,6 +170,27 @@ function obterRotaCategoria(categoria) {
     return `#/disciplina/${encodeURIComponent(categoria)}`;
 }
 
+function atualizarDestinoIndiceTopo(categoria = "") {
+    const link = document.getElementById("nav-link-pastas");
+    if (!link) return;
+
+    link.textContent = "índice";
+
+    if (categoria) {
+        const nomeMateria = limparNomeCategoria(categoria);
+        link.href = obterRotaCategoria(categoria);
+        link.dataset.categoria = categoria;
+        link.setAttribute("aria-label", `Abrir índice de ${nomeMateria}`);
+        link.title = `índice de ${nomeMateria}`;
+        return;
+    }
+
+    link.href = "#explorar-disciplinas";
+    delete link.dataset.categoria;
+    link.setAttribute("aria-label", "Ir ao índice de matérias");
+    link.title = "índice de matérias";
+}
+
 function rotaDoArtigo(artigo, secao = "") {
     return construirRotaArtigo(artigo.categoria, artigo.titulo, secao);
 }

@@ -61,6 +61,7 @@ function irParaSecaoArtigo(secao, comportamento = "smooth") {
 
 async function abrirArtigo(artigo, atualizarRota = true, secao = "") {
     artigoAtual = artigo;
+    atualizarDestinoIndiceTopo(artigo.categoria);
     const rotaDestino = rotaDoArtigo(artigo, secao);
     if (atualizarRota && window.location.hash !== rotaDestino) {
         history.pushState({ artigo: artigo.titulo, categoria: artigo.categoria, secao }, "", rotaDestino);

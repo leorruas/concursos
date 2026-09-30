@@ -47,7 +47,7 @@ A prioridade é construir poucos artigos canônicos, cada um com função clara,
 
 ### Fase 1 — fundamentos de maior retorno
 
-1. **01 - leitura do tema e projeto de texto**
+1. **[[01 - leitura do tema e projeto de texto|01 - leitura do tema e projeto de texto]]**
    - identificar tema, recorte, comando e tipo textual;
    - transformar o enunciado em problema de escrita;
    - delimitar o que precisa ser respondido;

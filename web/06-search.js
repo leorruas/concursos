@@ -535,8 +535,10 @@ function exibirResultados(resultados, termo = "", termos = []) {
         grupos[categoria].forEach((resultado, idx) => {
             const artigo = resultado.artigo;
             const card = document.createElement("a");
+            const secaoRelevante = obterSecaoMaisRelevante(resultado.entrada, termo, termos);
+            const anchor = secaoRelevante && secaoRelevante.anchor ? secaoRelevante.anchor : "";
             card.className = "resultado-item";
-            card.href = rotaDoArtigo(artigo);
+            card.href = rotaDoArtigo(artigo, anchor);
             const contexto = obterContextoResultado(resultado.entrada, termo, termos);
             card.innerHTML = `
                 <span class="resultado-numero">${String(idx + 1).padStart(2, "0")}</span>
@@ -548,7 +550,7 @@ function exibirResultados(resultados, termo = "", termos = []) {
             card.addEventListener("click", (e) => {
                 if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
                 e.preventDefault();
-                abrirArtigo(artigo);
+                abrirArtigo(artigo, true, anchor);
             });
             subCards.appendChild(card);
         });

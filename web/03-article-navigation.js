@@ -48,10 +48,22 @@ async function carregarConteudoCompletoArtigo(artigo) {
     return texto;
 }
 
-async function abrirArtigo(artigo, atualizarRota = true) {
+function irParaSecaoArtigo(secao, comportamento = "smooth") {
+    if (!secao) return false;
+    const alvo = document.getElementById(secao);
+    if (!alvo || !artigoCorpo.contains(alvo)) return false;
+
+    alvo.scrollIntoView({ behavior: comportamento, block: "start" });
+    alvo.classList.add("secao-alvo-busca");
+    window.setTimeout(() => alvo.classList.remove("secao-alvo-busca"), 1800);
+    return true;
+}
+
+async function abrirArtigo(artigo, atualizarRota = true, secao = "") {
     artigoAtual = artigo;
-    if (atualizarRota && window.location.hash !== rotaDoArtigo(artigo)) {
-        history.pushState({ artigo: artigo.titulo, categoria: artigo.categoria }, "", rotaDoArtigo(artigo));
+    const rotaDestino = rotaDoArtigo(artigo, secao);
+    if (atualizarRota && window.location.hash !== rotaDestino) {
+        history.pushState({ artigo: artigo.titulo, categoria: artigo.categoria, secao }, "", rotaDestino);
     }
 
     document.getElementById("painel-concurso-home")?.classList.add("escondido");
@@ -140,7 +152,13 @@ async function abrirArtigo(artigo, atualizarRota = true) {
     if (retornoArtigoTexto) {
         retornoArtigoTexto.innerHTML = `terminou este artigo? <strong>continue pelas outras notas de ${limparNomeCategoria(artigo.categoria)}.</strong>`;
     }
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    if (secao) {
+        window.requestAnimationFrame(() => {
+            irParaSecaoArtigo(secao, atualizarRota ? "smooth" : "auto");
+        });
+    } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
 }
 
 function renderizarBotoesNavegacao(artigoAtual) {

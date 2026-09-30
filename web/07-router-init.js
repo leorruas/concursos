@@ -1,29 +1,23 @@
 function tratarHashNavegacao() {
-    const hash = window.location.hash;
-    if (!hash || hash === "#" || hash === "#/") {
+    const rota = parsearHashVault(window.location.hash);
+
+    if (rota.tipo === "home") {
         voltarParaHome(false);
         return;
     }
 
-    const rotaLimpa = decodeURIComponent(hash.replace(/^#\/?/, "").trim());
-    
-    if (rotaLimpa.startsWith("disciplina/")) {
-        const categoria = rotaLimpa.replace("disciplina/", "").trim();
-        abrirDisciplina(categoria, false);
+    if (rota.tipo === "disciplina") {
+        abrirDisciplina(rota.categoria, false);
         return;
     }
 
-    const partes = rotaLimpa.split("/");
-    if (partes.length >= 2) {
-        const [categoria, ...resto] = partes;
-        const nomeArtigo = resto.join("/");
-        const artigo = todosOsArtigos.find(a => 
-            a.categoria.toLowerCase() === categoria.toLowerCase() && 
-            a.titulo.toLowerCase() === nomeArtigo.toLowerCase()
+    if (rota.tipo === "artigo") {
+        const artigo = todosOsArtigos.find(a =>
+            a.categoria.toLowerCase() === rota.categoria.toLowerCase() &&
+            a.titulo.toLowerCase() === rota.titulo.toLowerCase()
         );
         if (artigo) {
-            abrirArtigo(artigo, false);
-            return;
+            abrirArtigo(artigo, false, rota.secao || "");
         }
     }
 }

@@ -192,9 +192,15 @@ function gerarTableOfContents() {
 
     const listaDesktop = document.createElement("ul");
     listaDesktop.className = "toc-list";
+    const secoesIndexadas = artigoAtual && artigoAtual.indiceBusca && Array.isArray(artigoAtual.indiceBusca.secoes)
+        ? artigoAtual.indiceBusca.secoes.filter(secao => secao && secao.titulo && secao.anchor)
+        : [];
 
     headings.forEach((heading, index) => {
-        if (!heading.id) {
+        const secaoIndexada = secoesIndexadas[index];
+        if (secaoIndexada && secaoIndexada.anchor) {
+            heading.id = secaoIndexada.anchor;
+        } else if (!heading.id) {
             heading.id = `heading-toc-${index}`;
         }
 
@@ -202,7 +208,7 @@ function gerarTableOfContents() {
         liDesktop.className = "toc-item";
         const linkDesktop = document.createElement("a");
         linkDesktop.textContent = heading.textContent.replace(/^[0-9.]+\s*/, "").toLowerCase();
-        linkDesktop.href = `#${heading.id}`;
+        linkDesktop.href = artigoAtual ? rotaDoArtigo(artigoAtual, heading.id) : `#${heading.id}`;
         linkDesktop.setAttribute("data-target", heading.id);
 
         if (heading.tagName.toLowerCase() === "h3") {
@@ -212,7 +218,14 @@ function gerarTableOfContents() {
 
         linkDesktop.addEventListener("click", (e) => {
             e.preventDefault();
-            heading.scrollIntoView({ behavior: "smooth", block: "start" });
+            if (artigoAtual) {
+                history.replaceState(
+                    { artigo: artigoAtual.titulo, categoria: artigoAtual.categoria, secao: heading.id },
+                    "",
+                    rotaDoArtigo(artigoAtual, heading.id)
+                );
+            }
+            irParaSecaoArtigo(heading.id, "smooth");
         });
 
         liDesktop.appendChild(linkDesktop);

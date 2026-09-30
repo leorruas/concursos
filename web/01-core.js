@@ -170,8 +170,8 @@ function obterRotaCategoria(categoria) {
     return `#/disciplina/${encodeURIComponent(categoria)}`;
 }
 
-function rotaDoArtigo(artigo) {
-    return `#/${encodeURIComponent(artigo.categoria)}/${encodeURIComponent(artigo.titulo)}`;
+function rotaDoArtigo(artigo, secao = "") {
+    return construirRotaArtigo(artigo.categoria, artigo.titulo, secao);
 }
 
 // Variáveis da Camada Estratégica (Opcional e Não-Invasiva)

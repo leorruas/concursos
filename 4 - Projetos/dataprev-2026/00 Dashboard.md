@@ -3,7 +3,7 @@ title: "Dashboard - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-09-14
+updated: 2026-09-30
 ---
 
 # Dashboard - Dataprev 2026
@@ -65,7 +65,7 @@ A **Wiki do edital** mapeia os tópicos exigidos de forma direta, servindo como 
 
 | Data | Resultado bruto | Nota ponderada Dataprev | Diagnóstico |
 | :--- | :---: | :---: | :--- |
-| 01/09/2026 | [[00 - Desempenho/Simulados/Simulado-02|67/70 — 95,7%]] | Não calculável | Distribuição por disciplina diferente do edital. Três erros: dois em Lógica e um em Português. |
+| 30/09/2026 | [[00 - Desempenho/Simulados/Simulado-03|63/70 — 90,0%]] | **103,5/115 — 90,0%** | Distribuição oficial. Principal gargalo: Lógica 2/5. Comunicação e Atualidades/IA ficaram subcalibradas em dificuldade. |
 
 ## Última bateria mista
 
@@ -75,7 +75,7 @@ A **Wiki do edital** mapeia os tópicos exigidos de forma direta, servindo como 
 
 ## Metas e Foco da Reta Final (40 Dias — 11/10/2026)
 
-- **Fase Atual:** **Fase 1 — Fechamento de Lacunas e Alinhamento de Base** (01 a 10 de setembro).
+- **Fase Atual:** **Fase 3 — Modo Prova e Calibração de Ritmo** (28 de setembro a 10 de outubro).
 - **Régua de Pontuação Dataprev Ponderada:** Perseguir **$\ge$ 102 / 115 pontos (88,7%)**:
   - *Módulo I (Gerais — Peso 1,0):* $\ge$ 32 / 40 acertos (Português 10/12, Inglês 10/12, Lógica 4/5, Legislação 4/5, Atualidades/IA 4/6).
   - *Módulo II (Comunicação — Peso 2,5):* **$\ge$ 28 / 30 acertos (70,0 / 75,0 pts — 93,3%)**.

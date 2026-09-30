@@ -1,5 +1,53 @@
 [
   {
+    "id": "dataprev-simulado-03",
+    "concursoId": "dataprev-2026",
+    "nome": "Simulado 03",
+    "tipo": "simulado",
+    "bancaReferencia": "FGV",
+    "data": "2026-09-30",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-03.md",
+    "resultado": {
+      "totalQuestoes": 70,
+      "acertos": 63,
+      "percentualBruto": 90,
+      "acertosGerais": 36,
+      "acertosEspecificos": 27,
+      "notaPonderada": 103.5,
+      "disciplinas": {
+        "linguaPortuguesa": {
+          "acertos": 12,
+          "total": 12
+        },
+        "linguaInglesa": {
+          "acertos": 12,
+          "total": 12
+        },
+        "raciocinioLogicoMatematico": {
+          "acertos": 2,
+          "total": 5
+        },
+        "atualidadesInteligenciaArtificial": {
+          "acertos": 6,
+          "total": 6
+        },
+        "legislacaoSegurancaInformacaoProtecaoDados": {
+          "acertos": 4,
+          "total": 5
+        },
+        "conhecimentosEspecificosComunicacao": {
+          "acertos": 27,
+          "total": 30
+        }
+      }
+    },
+    "comparabilidadeEdital": {
+      "status": "muito_alta",
+      "notaEditalAtualCalculavel": true,
+      "motivo": "Reproduziu integralmente a distribuição oficial Dataprev 2026 (12/12/5/6/5/30), permitindo cálculo /115. Comunicação e Atualidades/IA ficaram subcalibradas em dificuldade, o que limita a projeção apesar da comparabilidade estrutural."
+    }
+  },
+  {
     "id": "dataprev-simulado-01",
     "concursoId": "dataprev-2026",
     "nome": "Simulado 01",

@@ -54,14 +54,14 @@ A prioridade é construir poucos artigos canônicos, cada um com função clara,
    - planejar tese e desenvolvimento antes de escrever;
    - pegadinhas: tangenciamento, fuga parcial do tema e resposta genérica.
 
-2. **02 - tese e linha argumentativa**
+2. **[[02 - tese e linha argumentativa|02 - tese e linha argumentativa]]**
    - diferença entre tema, opinião, tese e argumento;
    - tese explícita × implícita;
    - critérios de uma tese defensável;
    - coerência entre tese, argumentos e conclusão;
    - como evitar teses amplas demais, óbvias ou impossíveis de sustentar.
 
-3. **03 - estratégias de argumentação**
+3. **[[03 - estrategias de argumentacao|03 - estratégias de argumentação]]**
    - causa e consequência;
    - exemplificação;
    - comparação e contraste;

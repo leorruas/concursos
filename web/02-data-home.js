@@ -1,3 +1,35 @@
+function normalizarIdentificadorMateria(valor) {
+    return String(valor || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/\.md$/i, "")
+        .replace(/[^a-z0-9]+/g, "");
+}
+
+function ehResumoPrincipalDaMateria(artigo) {
+    const sourcePath = artigo?.sourcePath || "";
+    if (!sourcePath.startsWith("3 - Materias/")) return false;
+
+    if (String(artigo.tipo || "").trim().toLowerCase() === "hub") return true;
+
+    const nomeArquivo = sourcePath.split("/").pop() || "";
+    return normalizarIdentificadorMateria(nomeArquivo) === normalizarIdentificadorMateria(artigo.categoria);
+}
+
+function ordenarArtigosDaMateria(a, b) {
+    const resumoA = ehResumoPrincipalDaMateria(a) ? 0 : 1;
+    const resumoB = ehResumoPrincipalDaMateria(b) ? 0 : 1;
+
+    if (resumoA !== resumoB) return resumoA - resumoB;
+
+    return (a.sourcePath || a.path || "").localeCompare(
+        b.sourcePath || b.path || "",
+        "pt-BR",
+        { numeric: true }
+    );
+}
+
 async function carregarCamadaEstrategica() {
     try {
         const [resConc, resEdital, resErros] = await Promise.all([
@@ -56,41 +88,9 @@ async function carregarTodosOsArtigos() {
         todasAsPastas[artigo.categoria].push(artigo);
     });
 
-    function normalizarIdentificadorMateria(valor) {
-        return String(valor || "")
-            .normalize("NFD")
-            .replace(/[\u0300-\u036f]/g, "")
-            .toLowerCase()
-            .replace(/\.md$/i, "")
-            .replace(/[^a-z0-9]+/g, "");
-    }
-
-    function ehResumoPrincipalDaMateria(artigo) {
-        const sourcePath = artigo?.sourcePath || "";
-        if (!sourcePath.startsWith("3 - Materias/")) return false;
-
-        // Regra canônica: frontmatter type: hub.
-        // O fallback por nome preserva compatibilidade com resumos antigos
-        // que ainda não tenham o metadado explícito.
-        if (artigo.tipo === "hub") return true;
-
-        const nomeArquivo = sourcePath.split("/").pop() || "";
-        return normalizarIdentificadorMateria(nomeArquivo) === normalizarIdentificadorMateria(artigo.categoria);
-    }
 
     Object.values(todasAsPastas).forEach(artigos => {
-        artigos.sort((a, b) => {
-            const resumoA = ehResumoPrincipalDaMateria(a) ? 0 : 1;
-            const resumoB = ehResumoPrincipalDaMateria(b) ? 0 : 1;
-
-            if (resumoA !== resumoB) return resumoA - resumoB;
-
-            return (a.sourcePath || a.path).localeCompare(
-                b.sourcePath || b.path,
-                "pt-BR",
-                { numeric: true }
-            );
-        });
+        artigos.sort(ordenarArtigosDaMateria);
     });
 
     renderizarPastas();

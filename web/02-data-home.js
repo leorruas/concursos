@@ -53,8 +53,36 @@ async function carregarTodosOsArtigos() {
         todasAsPastas[artigo.categoria].push(artigo);
     });
 
+    function normalizarIdentificadorMateria(valor) {
+        return String(valor || "")
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .replace(/\.md$/i, "")
+            .replace(/[^a-z0-9]+/g, "");
+    }
+
+    function ehResumoPrincipalDaMateria(artigo) {
+        const sourcePath = artigo?.sourcePath || "";
+        if (!sourcePath.startsWith("3 - Materias/")) return false;
+
+        const nomeArquivo = sourcePath.split("/").pop() || "";
+        return normalizarIdentificadorMateria(nomeArquivo) === normalizarIdentificadorMateria(artigo.categoria);
+    }
+
     Object.values(todasAsPastas).forEach(artigos => {
-        artigos.sort((a, b) => (a.sourcePath || a.path).localeCompare(b.sourcePath || b.path, "pt-BR", { numeric: true }));
+        artigos.sort((a, b) => {
+            const resumoA = ehResumoPrincipalDaMateria(a) ? 0 : 1;
+            const resumoB = ehResumoPrincipalDaMateria(b) ? 0 : 1;
+
+            if (resumoA !== resumoB) return resumoA - resumoB;
+
+            return (a.sourcePath || a.path).localeCompare(
+                b.sourcePath || b.path,
+                "pt-BR",
+                { numeric: true }
+            );
+        });
     });
 
     renderizarPastas();

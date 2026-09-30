@@ -3,7 +3,7 @@ title: "Avanços globais"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-09-14
+updated: 2026-09-30
 ---
 
 # Avanços globais
@@ -18,25 +18,26 @@ Consulte as diretrizes metodológicas, réguas de competitividade e metas de pro
 
 ## Painel de desempenho por disciplina
 
-Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 dias** (16/08/2026 a 14/09/2026).
+Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 dias** (01/09/2026 a 30/09/2026).
 
 | Disciplina | Aproveitamento (30d) | Questões (30d) | Meta | Status de Amostragem | Último Treino |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *80,0%* | 20 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
-| [[3 - Materias/Ingles/ingles\|Língua inglesa]] | *100,0%* | 7 | - | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
-| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | *61,0%* | 41 | 85% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
+| **Semana 40** (28/09 a 04/10) | 70 | 90,0% (63/70) | 89,0% | **Alta**: Simulado 03 integral Dataprev/FGV, com distribuição oficial e nota ponderada 103,5/115. O bloco de Lógica caiu para 2/5; Comunicação 27/30 e Atualidades/IA 6/6 devem ser interpretados com ressalva de subcalibração de dificuldade. |
+| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *94,4%* | 18 | 95% | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
+| [[3 - Materias/Ingles/ingles\|Língua inglesa]] | *100,0%* | 12 | - | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
+| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | *63,4%* | 41 | 85% | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/07/2026 |
 | [[3 - Materias/Direito Constitucional/direito-constitucional\|Direito constitucional]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
 | [[3 - Materias/Direito Administrativo/direito-administrativo\|Direito administrativo]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
-| [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | 85,9% | 71 | 90% | **Amostragem sólida** ($\ge$ 50 Qs) | 14/09/2026 |
-| [[3 - Materias/Administracao Publica/administracao-publica\|Administração pública]] | *100,0%* | 1 | 85% | **Amostragem insuficiente** (< 50 Qs) | 31/08/2026 |
+| [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | *89,2%* | 37 | 90% | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
+| [[3 - Materias/Administracao Publica/administracao-publica\|Administração pública]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
 | [[3 - Materias/Administracao Geral/administracao-geral\|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
-| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *71,4%* | 7 | 75% | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
-| [[3 - Materias/Informatica/informatica\|Legislação de SI e proteção de dados]] | *62,5%* | 16 | - | **Amostragem insuficiente** (< 50 Qs) | 14/09/2026 |
+| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *88,9%* | 9 | 75% | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
+| [[3 - Materias/Informatica/informatica\|Legislação de SI e proteção de dados]] | *88,9%* | 9 | - | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
 | [[3 - Materias/Redacao/redacao\|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
 
 > [!NOTE]
-> A janela por disciplina exclui o Simulado 02 de 01/09, porque a distribuição das 70 questões por matéria não foi preservada. O simulado continua contabilizado nos totais semanal e global bruto, mas não é repartido artificialmente entre disciplinas.
+> A janela por disciplina exclui o Simulado 02 de 01/09, porque a distribuição das 70 questões por matéria não foi preservada. O simulado continua contabilizado no total bruto da semana correspondente, mas não é repartido artificialmente entre disciplinas. Os valores de 01/09 a 30/09 consideram apenas sessões com distribuição disciplinar identificável no vault.
 
 ### Métricas específicas por disciplina
 
@@ -45,6 +46,7 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | Qualidade da Transformação | *96,8%* | 14/07/2026 | 95% | **Amostragem insuficiente** (< 50 Qs) |
 
 ### Análise de evolução recente
+- **Simulado 03 — 30/09**: [[00 - Desempenho/Simulados/Simulado-03|Simulado 03 — Dataprev FGV]]: **63/70 (90,0%)**, nota ponderada **103,5/115 (90,0%)** e TAP diária **89,0%**. A distribuição oficial 12/12/5/6/5/30 foi preservada. Português e Inglês fecharam 12/12; Atualidades/IA 6/6; Legislação 4/5; Comunicação 27/30. O principal gargalo foi Raciocínio Lógico, com **2/5**. Comunicação e Atualidades/IA foram consideradas subcalibradas em dificuldade, portanto o resultado não deve ser lido como projeção isolada de domínio nesses blocos.
 - **Sessão mista de 14/09**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]: **22/26 questões válidas (84,6%)**, TAP **84,4%** e pontuação ponderada parcial **31,0/36,5** nos itens respondidos. Uma questão de Português foi anulada e excluída do denominador; o bloco de Inglês não teve respostas registradas e não entra nas métricas. Os quatro erros válidos foram: Lógica [C] em `nenhum → algum`; Português [C] recorrente em adversativa × concessiva; Comunicação [C] em clipping × auditoria de imagem; Atualidades [K] em regime de metas/IPCA/Selic/Copom. Legislação fechou 4/4. A nota oficial /115 não é calculável para esta bateria.
 - **Raciocínio lógico — 14/09**: 5/6 (83,3%). De Morgan e o caso falso da condicional reapareceram corretamente; o novo erro ficou isolado na negação de `nenhum` como existência de ao menos um contraexemplo.
 - **Língua Portuguesa — 14/09**: 5/6 válidas (83,3%). Houve recuperação de concordância, funções do `se`, crase, voz passiva e regência; a fronteira `contudo` × `embora` reincidiu e passou a erro recorrente.

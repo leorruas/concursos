@@ -3,7 +3,7 @@ title: "Lei 12.737/2012 — delitos informáticos"
 type: "conceito"
 status: "ativo"
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-09-30
 ---
 # Lei 12.737/2012 — delitos informáticos
 
@@ -59,6 +59,49 @@ Heurística:
 
 **2012: alheio + titular → foco textual na titularidade.**  
 **2021: de uso alheio + usuário → foco no uso protegido.**
+
+
+
+## Nova conexão — monitoramento de empregados pela empresa
+
+A expressão **“dispositivo informático de uso alheio”** não transforma todo monitoramento empresarial em crime.
+
+O art. 154-A exige mais do que o fato de o equipamento estar destinado ao uso do empregado. O tipo penal exige **invasão** do dispositivo, ausência de autorização expressa ou tácita do usuário e uma das finalidades específicas do caput: obter, adulterar ou destruir dados ou informações sem autorização, ou instalar vulnerabilidades para obter vantagem ilícita.
+
+Por isso, um notebook ser de propriedade da empresa e de uso do empregado não resolve sozinho a questão. É preciso distinguir:
+
+> **propriedade do equipamento ≠ autorização ilimitada para qualquer acesso**
+
+e também:
+
+> **monitoramento empresarial ≠ automaticamente invasão de dispositivo informático**
+
+O TST admite, em sua jurisprudência, monitoramento de **e-mail corporativo** como ferramenta de trabalho, especialmente quando o empregado sabe que a conta é destinada ao trabalho e está sujeita a fiscalização. Isso não significa que toda forma de vigilância seja permitida.
+
+Além do Código Penal, entram em jogo os direitos à intimidade e à vida privada e a LGPD. O tratamento de dados do empregado deve observar, entre outros, os princípios da **finalidade**, **adequação**, **necessidade** e **transparência**. Um monitoramento excessivo, oculto ou sem relação com uma finalidade legítima pode ser ilícito mesmo que não configure o crime do art. 154-A.
+
+### Exemplo comparativo
+
+> A empresa informa previamente que o e-mail corporativo e os acessos à rede podem ser auditados para segurança e cumprimento de políticas internas.
+
+Esse cenário pode configurar monitoramento empresarial legítimo, dependendo da forma e do alcance da fiscalização.
+
+> O empregador acessa escondido um dispositivo destinado ao uso pessoal do empregado para copiar conversas e arquivos privados, sem autorização, com finalidade abrangida pelo art. 154-A.
+
+Aqui podem surgir elementos compatíveis com **invasão de dispositivo informático**, além de possíveis violações de privacidade e proteção de dados.
+
+### Pegadinha de prova
+
+> “Como o computador pertence à empresa, ela pode acessar livremente qualquer dado armazenado nele pelo empregado.”
+
+A afirmação é ampla demais. A propriedade do hardware não elimina, por si só, a proteção do **usuário** nem afasta direitos de privacidade e proteção de dados.
+
+Heurística:
+
+**empresa dona do equipamento → poder de gestão**  
+**empregado usuário → esfera de proteção ainda pode existir**  
+**monitoramento legítimo → finalidade + transparência + necessidade + limites**  
+**art. 154-A → invasão + falta de autorização + finalidade específica**
 
 
 ## Como a FGV pode cobrar

@@ -20,7 +20,7 @@ Conectivos lógicos combinam proposições e determinam quando uma proposição 
 | Condicional | $p \to q$ | se p, então q | só é F em V → F |
 | Bicondicional | $p \leftrightarrow q$ | p se e somente se q | é V quando os valores são iguais |
 
-Para negações, contrapositiva e outras equivalências, usar [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]]. Esta nota fica concentrada em **reconhecer e traduzir os conectivos**.
+Para negações, contrapositiva e outras equivalências, usar [[3 - Materias/Logica/04 - equivalencias|Equivalências e negações lógicas]]. Para uma legenda geral dos símbolos, variáveis e predicados, usar [[3 - Materias/Logica/11 - simbolos e notacao logica|Símbolos e notação lógica]]. Esta nota fica concentrada em **reconhecer e traduzir os conectivos**.
 
 ## Como a FGV cobra
 

@@ -25,7 +25,8 @@ A pergunta de controle é: **se a FGV trocar o fato concreto, o fundamento conti
 
 ## Economia brasileira
 
-- [[03 - regime de metas inflacao selic copom|Regime de metas, inflação, Selic e Copom]]
+- [[02.5 - inflacao causas medicao e efeitos|Inflação: conceito, causas, medição e efeitos]]
+- [[03 - regime de metas inflacao selic copom|Regime de metas, Selic e Copom]]
 - [[04 - pib e atividade economica|PIB e atividade econômica]]
 - [[05 - mercado de trabalho desemprego e informalidade|Mercado de trabalho, desemprego e informalidade]]
 - [[06 - politica fiscal resultado primario e divida publica|Política fiscal, resultado primário e dívida pública]]

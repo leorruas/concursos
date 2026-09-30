@@ -18,6 +18,8 @@ Quantificadores dizem **quantos elementos de um domínio** precisam satisfazer u
 | Nenhum A é B | não existe A que seja B | $\forall x\,(A(x) \to \neg B(x))$ |
 | Algum A não é B | existe pelo menos um A fora de B | $\exists x\,(A(x) \land \neg B(x))$ |
 
+Para ler a notação símbolo por símbolo — $\forall$, $\exists$, $\neg$, $\land$, $\to$, $A(x)$ etc. — ver [[3 - Materias/Logica/11 - simbolos e notacao logica|Símbolos e notação lógica]].
+
 A ideia central é simples:
 
 - **universal** (`todo`) estabelece uma regra para todos os elementos;

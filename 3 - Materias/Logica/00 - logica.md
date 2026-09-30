@@ -16,6 +16,7 @@ Mapeamento de tópicos e organização das notas de Raciocínio Lógico e Lógic
 - **Proposição e Sentenças**: [[01 - proposicao|Conceitos iniciais de proposição, tabelas e fluxo de resolução]].
 - **Conectivos Lógicos**: [[02 - conectivos|Tabela de operadores, prioridade de conectivos e ordem de avaliação]].
 - **Quantificadores Lógicos**: [[03 - quantificadores|Quantificador universal, existencial e escopo de atuação]].
+- **Símbolos e Notação Lógica**: [[11 - simbolos e notacao logica|Guia de leitura para ∀, ∃, ¬, ∧, ∨, →, ↔, predicados e variáveis]].
 - **Equivalências e Negações**: [[04 - equivalencias|Equivalências da condicional, dupla negação e negações de compostas]].
   - **[[04 - equivalencias#3 Leis de De Morgan negação de land e lor|Leis de De Morgan]]** (Negação de Conjunção e Disjunção).
 - **Tabela Verdade**: [[05 - tabela verdade|Construção de tabelas, tautologias, contradições e contingências]].

@@ -3,7 +3,7 @@ title: "Pesquisa em comunicação"
 type: "conceito"
 status: "ativo"
 created: 2026-07-22
-updated: 2026-09-10
+updated: 2026-09-30
 ---
 # Pesquisa em comunicação
 
@@ -62,6 +62,22 @@ Na amostragem probabilística, as unidades da população têm probabilidade de 
 - **sistemática**;
 - **estratificada**;
 - **por conglomerados**.
+
+#### Fronteiras entre os principais desenhos probabilísticos
+
+| Tipo | Lógica do desenho | Pegadinha provável |
+|---|---|---|
+| **Aleatória simples** | unidades são sorteadas diretamente a partir da população, conforme o plano amostral | não cria grupos prévios para garantir representação |
+| **Sistemática** | escolhe-se ponto inicial e depois unidades em intervalo regular definido pelo desenho | regularidade de seleção não significa amostra por conveniência |
+| **Estratificada** | divide-se a população em estratos relevantes e realiza-se seleção dentro de cada estrato | usada quando é importante garantir representação de subgrupos, como regiões ou categorias |
+| **Conglomerados** | a população é dividida em grupos naturais e selecionam-se conglomerados para observação total ou amostragem posterior | seleciona grupos como unidades do desenho; não é a mesma lógica de garantir amostra em todos os estratos |
+
+**Estratificada × conglomerados** é uma fronteira especialmente útil para prova. Na estratificada, o desenho busca representar **cada estrato relevante**. Em conglomerados, sorteiam-se **grupos** da população, frequentemente por razões operacionais ou de custo.
+
+Exemplo: se uma organização possui regiões muito diferentes e quer assegurar participantes de **todas as regiões**, a solução típica é estratificar por região e selecionar dentro de cada estrato.
+
+> [!WARNING]
+> **Cotas ≠ estratificada.** Ambas podem organizar participantes por categorias, mas a amostragem por cotas é não probabilística quando a seleção dentro das cotas não segue um mecanismo probabilístico conhecido.
 
 A FGV já apresentou **amostragem por julgamento** como distrator quando perguntou qual não pertencia ao grupo probabilístico.
 

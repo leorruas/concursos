@@ -7,23 +7,12 @@ const STOPWORDS_BUSCA = new Set([
     "significado", "definicao", "definir", "explicacao", "funciona", "funcionar", "relacao", "relacoes"
 ]);
 
-const GRUPOS_ALIASES_BUSCA = [
-    ["ia", "ai", "inteligencia artificial"],
-    ["lgpd", "lei geral de protecao de dados", "protecao de dados", "dados pessoais"],
-    ["lai", "lei de acesso a informacao", "acesso a informacao"],
-    ["ux", "user experience", "experiencia do usuario"],
-    ["fact checking", "fact-checking", "checagem de fatos", "verificacao de fatos"],
-    ["assessoria de imprensa", "assessoria imprensa", "relacoes com a imprensa"],
-    ["raciocinio logico", "logica", "logica proposicional"],
-    ["jornalismo", "jornalista", "jornalistico", "jornalistica"],
-    ["organizacao", "organizacoes", "organizacional"],
-    ["comunicacao", "comunicacional"],
-    ["midia", "midias"],
-    ["publicidade", "publicitario", "publicitaria"],
-    ["redacao", "texto discursivo", "discursiva"],
-    ["cebraspe", "cespe"],
-    ["fgv", "fundacao getulio vargas"]
-].map(grupo => grupo.map(item => normalizarBusca(item)));
+const GRUPOS_ALIASES_BUSCA = (
+    typeof CONFIG_BUSCA_VAULT !== "undefined" &&
+    Array.isArray(CONFIG_BUSCA_VAULT.aliases)
+        ? CONFIG_BUSCA_VAULT.aliases
+        : []
+).map(grupo => grupo.map(item => normalizarBusca(item)));
 
 let indiceBuscaArtigos = [];
 let assinaturaIndiceBusca = "";

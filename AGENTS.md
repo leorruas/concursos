@@ -23,7 +23,9 @@ Para um **simulado integral**, o agente deve atualizar, na mesma operação lóg
 4. `4 - Projetos/dataprev-2026/Log de erros.md`, quando houver erros ou acertos com lacuna relevante;
 5. `4 - Projetos/dataprev-2026/00 Dashboard.md`, atualizando o último simulado;
 6. `data/provas.json`, que alimenta o painel estratégico da interface e deve conter `sourcePath`, resultado, comparabilidade e nota calculável quando aplicável;
-7. os arquivos de desempenho/avanços exigidos por `me.md`, quando o novo resultado alterar métricas consolidadas.
+7. `00 - Desempenho/00 Avancos globais.md`, recalculando a janela de 30 dias, o acompanhamento semanal e o controle de simulados consolidados;
+8. `00 - Desempenho/01 Log de saturacao diaria.md`, registrando volume, aproveitamento bruto, TAP e diagnóstico de carga;
+9. os `Avancos.md` locais exigidos por `me.md`, quando o novo resultado alterar métricas da disciplina.
 
 Para baterias mistas, atualizar as superfícies equivalentes compatíveis com o tipo de registro; não inventar nota /115 quando a composição oficial não tiver sido reproduzida.
 

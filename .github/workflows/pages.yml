@@ -55,6 +55,8 @@ jobs:
         run: node scripts/test-search-index.js
       - name: Testar deep links da busca
         run: node scripts/test-search-routing.js
+      - name: Testar renderização de matemática em bloco
+        run: node scripts/test-math-rendering.js
       - name: Testar ranking real da busca
         run: node scripts/test-search-ranking.js
       - name: Auditar ausência de arquivos privados em _site

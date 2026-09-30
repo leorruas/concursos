@@ -1,3 +1,69 @@
+function protegerBlocosMatematicosMarkdown(markdown) {
+    const blocos = [];
+    const linhas = String(markdown || "").split(/\r?\n/);
+    const saida = [];
+    let dentroDeCodigo = false;
+
+    for (let i = 0; i < linhas.length; i += 1) {
+        const linha = linhas[i];
+
+        if (/^\s*```/.test(linha)) {
+            dentroDeCodigo = !dentroDeCodigo;
+            saida.push(linha);
+            continue;
+        }
+
+        if (!dentroDeCodigo && /^\s*\$\$\s*$/.test(linha)) {
+            const formula = [];
+            let fechou = false;
+
+            for (i += 1; i < linhas.length; i += 1) {
+                if (/^\s*\$\$\s*$/.test(linhas[i])) {
+                    fechou = true;
+                    break;
+                }
+                formula.push(linhas[i]);
+            }
+
+            if (fechou) {
+                const indice = blocos.length;
+                blocos.push(formula.join("\n").trim());
+                saida.push(`MATHBLOCKTOKEN${indice}END`);
+                continue;
+            }
+
+            // Delimitador sem fechamento: preserva o original para diagnóstico visual.
+            saida.push("$$", ...formula);
+            break;
+        }
+
+        saida.push(linha);
+    }
+
+    return { markdown: saida.join("\n"), blocos };
+}
+
+function escaparHtmlMatematica(texto) {
+    return String(texto || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+}
+
+function restaurarBlocosMatematicosHtml(html, blocos) {
+    let resultado = String(html || "");
+
+    (blocos || []).forEach((formula, indice) => {
+        const token = `MATHBLOCKTOKEN${indice}END`;
+        const bloco = `<div class="math-display">$$${escaparHtmlMatematica(formula)}$$</div>`;
+        resultado = resultado
+            .replace(`<p>${token}</p>`, bloco)
+            .replace(token, bloco);
+    });
+
+    return resultado;
+}
+
 function processarCalloutsObsidian() {
     const blockquotes = artigoCorpo.querySelectorAll('blockquote');
     blockquotes.forEach(bq => {

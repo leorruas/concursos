@@ -132,3 +132,20 @@ Uma mudança na busca só está concluída quando:
 3. build passou;
 4. deploy do Pages passou;
 5. catálogo ao vivo foi confirmado.
+
+
+## Observabilidade
+
+A busca possui um modo de diagnóstico deliberado, sem coleta de telemetria.
+
+Adicionar `?debugBusca=1` à URL do GitHub Pages faz os resultados exibirem:
+
+- score combinado;
+- score da melhor seção;
+- score do artigo/contexto.
+
+O modo normal não mostra esses números. O debug serve para reproduzir e explicar um ranking antes de alterar pesos.
+
+O CI também imprime Top 1, Top 3 e taxa de seção correta para o benchmark canônico. Essas métricas são a fonte preferencial para avaliar regressões globais.
+
+Não registrar cliques, histórico pessoal de consultas ou ajuste automático de pesos sem nova decisão explícita de governança.

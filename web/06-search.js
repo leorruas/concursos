@@ -369,6 +369,12 @@ function pontuarEntradaBusca(entrada, consultaNormalizada, termos) {
     return Math.max(0, Math.round(score * 100) / 100);
 }
 
+function modoDebugBuscaAtivo() {
+    if (typeof window === "undefined" || !window.location) return false;
+    const query = String(window.location.search || "").replace(/^\?/, "").split("&");
+    return query.some(par => par === "debugBusca=1" || par === "debugBusca=true");
+}
+
 function filtrarArtigos(termoBusca) {
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.add("escondido");
@@ -395,7 +401,13 @@ function filtrarArtigos(termoBusca) {
 
     garantirIndiceBusca();
     const ranqueados = indiceBuscaArtigos
-        .map(entrada => ({ entrada, artigo: entrada.artigo, score: pontuarEntradaBusca(entrada, consultaNormalizada, termos) }))
+        .map(entrada => {
+            const score = pontuarEntradaBusca(entrada, consultaNormalizada, termos);
+            const diagnostico = modoDebugBuscaAtivo() && typeof detalharPontuacaoEntradaBusca === "function"
+                ? detalharPontuacaoEntradaBusca(entrada, consultaNormalizada, termos)
+                : null;
+            return { entrada, artigo: entrada.artigo, score, diagnostico };
+        })
         .filter(item => item.score > 0)
         .sort((a, b) => {
             if (b.score !== a.score) return b.score - a.score;
@@ -501,7 +513,7 @@ function exibirResultados(resultados, termo = "", termos = []) {
         : null;
     const resumo = document.createElement("p");
     resumo.className = "resumo-busca";
-    resumo.textContent = `${resultados.length} ${resultados.length === 1 ? "resultado" : "resultados"} · ordem global por relevância${concursoAtivo && concursoAtivo.nome ? ` · contexto: ${concursoAtivo.nome}` : ""}`;
+    resumo.textContent = `${resultados.length} ${resultados.length === 1 ? "resultado" : "resultados"} · ordem global por relevância${concursoAtivo && concursoAtivo.nome ? ` · contexto: ${concursoAtivo.nome}` : ""}${modoDebugBuscaAtivo() ? " · debug ativo" : ""}`;
     containerResultados.appendChild(resumo);
 
     const lista = document.createElement("div");
@@ -516,6 +528,9 @@ function exibirResultados(resultados, termo = "", termos = []) {
             .filter(Boolean)
             .join(" › ");
         const contexto = obterContextoResultado(resultado.entrada, termo, termos);
+        const debug = resultado.diagnostico
+            ? `<span class="resultado-debug">score ${resultado.diagnostico.total.toFixed(2)} · seção ${resultado.diagnostico.scoreSecao.toFixed(2)} · artigo/contexto ${resultado.diagnostico.scoreArtigo.toFixed(2)}</span>`
+            : "";
 
         const card = document.createElement("a");
         card.className = "resultado-item";
@@ -527,6 +542,7 @@ function exibirResultados(resultados, termo = "", termos = []) {
                 <strong>${destacarTexto(artigo.tituloExibicao || artigo.titulo, termo)}</strong>
                 <span class="resultado-meta">${escaparHtml(meta)}</span>
                 <span class="resultado-trecho">${destacarTexto(contexto, termo)}</span>
+                ${debug}
             </span>
         `;
         card.addEventListener("click", (e) => {

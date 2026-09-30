@@ -62,7 +62,8 @@ vm.runInContext(`globalThis.__searchApi = {
   obterTermosEssenciais,
   criarEntradaIndiceBusca,
   pontuarEntradaBusca,
-  obterSecaoMaisRelevante
+  obterSecaoMaisRelevante,
+  detalharPontuacaoEntradaBusca
 };`, contexto);
 
 const api = contexto.__searchApi;
@@ -90,13 +91,17 @@ for (const caso of benchmarks) {
   const esperado = ranking.find(item => item.path === caso.expectedPath);
   const secao = esperado ? api.obterSecaoMaisRelevante(esperado.entrada, caso.query, termos) : null;
   const secaoOk = secao && normalizar(secao.titulo) === normalizar(caso.expectedSection);
+  const diagnostico = esperado
+    ? api.detalharPontuacaoEntradaBusca(esperado.entrada, consulta, termos)
+    : null;
+  const diagnosticoOk = diagnostico && Math.abs(diagnostico.total - esperado.score) < 0.001;
 
   if (rank === 1) top1 += 1;
   if (rank > 0 && rank <= 3) top3 += 1;
   if (secaoOk) secoesCorretas += 1;
 
-  if (rank === 0 || rank > 3 || !secaoOk) {
-    console.error(`✗ ${caso.query} → rank=${rank || 'fora'}; seção=${secao ? secao.titulo : 'nenhuma'}`);
+  if (rank === 0 || rank > 3 || !secaoOk || !diagnosticoOk) {
+    console.error(`✗ ${caso.query} → rank=${rank || 'fora'}; seção=${secao ? secao.titulo : 'nenhuma'}; diagnóstico=${diagnosticoOk ? 'ok' : 'inconsistente'}`);
     falhas += 1;
   } else {
     console.log(`✓ ${caso.query} → #${rank} · ${secao.titulo}`);

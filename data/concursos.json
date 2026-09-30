@@ -10,13 +10,13 @@
     "fonteOficial": "https://conhecimento.fgv.br/concursos/dataprev26",
     "estruturaProva": {
       "totalQuestoes": 70,
-      "pontuacaoMaxima": 115.0,
+      "pontuacaoMaxima": 115,
       "modulos": {
         "moduloI": {
           "nome": "Conhecimentos Gerais",
           "questoes": 40,
-          "pesoPorQuestao": 1.0,
-          "pontos": 40.0,
+          "pesoPorQuestao": 1,
+          "pontos": 40,
           "distribuicao": {
             "linguaPortuguesa": 12,
             "linguaInglesa": 12,
@@ -29,7 +29,7 @@
           "nome": "Conhecimentos Específicos: Perfil 9",
           "questoes": 30,
           "pesoPorQuestao": 2.5,
-          "pontos": 75.0
+          "pontos": 75
         }
       },
       "criteriosAprovacao": {
@@ -43,51 +43,10 @@
       }
     },
     "metasCandidato": {
-      "metaPontuacao": 102.0,
+      "metaPontuacao": 102,
       "metaPercentualPontos": 88.7,
       "natureza": "meta_pessoal",
       "sourcePath": "4 - Projetos/dataprev-2026/Estrategia.md"
-    }
-  },
-  {
-    "id": "tcdf-2026",
-    "nome": "TCDF 2026",
-    "banca": "Cebraspe",
-    "cargo": "Analista Administrativo de Controle Externo (ANACE): Especialidade Serviços Técnico-Administrativos",
-    "dataProva": "2026-11-22T08:00:00-03:00",
-    "status": "planejado",
-    "sourcePath": "2 - Editais/TCDF 2026 ANACE.md",
-    "fonteOficial": "https://www.cebraspe.org.br/concursos/TC_DF_26_ANALISTA",
-    "estruturaProva": {
-      "totalItens": 150,
-      "pontuacaoMaxima": 150.0,
-      "metodoAvaliacao": "Certo ou Errado com fator de correção",
-      "regraPontuacao": {
-        "descricao": "Uma resposta incorreta anula a pontuação de uma resposta correta, conforme o edital sintetizado no vault.",
-        "implicacaoDesempenho": "Acertos isolados não bastam para estimar a nota: é necessário registrar também erros e, quando aplicável, itens deixados sem resposta."
-      },
-      "modulos": {
-        "p1": {
-          "nome": "Conhecimentos Básicos",
-          "itens": 35,
-          "minimoAprovacao": 7.0
-        },
-        "p2": {
-          "nome": "Conhecimentos Específicos",
-          "itens": 45,
-          "minimoAprovacao": 13.0
-        },
-        "p3": {
-          "nome": "Conhecimentos Especializados",
-          "itens": 70,
-          "minimoAprovacao": 21.0
-        }
-      },
-      "minimoAprovacaoConjunto": 45.0
-    },
-    "metasCandidato": {
-      "metaPontuacao": null,
-      "observacao": "Meta pessoal ainda não definida formalmente para o TCDF"
     }
   }
 ]

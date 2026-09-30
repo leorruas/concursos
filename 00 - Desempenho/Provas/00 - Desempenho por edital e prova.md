@@ -3,12 +3,12 @@ title: "Desempenho por edital e prova"
 type: "hub"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-09-30
 ---
 
 # Desempenho por edital e prova
 
-Período das fontes analisadas: 2021 a 2026. Última validação documental: 10/09/2026.
+Período das fontes analisadas: 2024 a 2026. Última validação documental: 30/09/2026.
 
 Este hub separa três medidas que não devem ser misturadas: **aproveitamento bruto**, **nota calculada pelas regras do edital** e **comparabilidade da prova com o concurso atual**. O objetivo é impedir que um percentual alto em uma bateria de composição diferente seja interpretado como estimativa direta de classificação.
 
@@ -49,38 +49,6 @@ A arquitetura do MPU é diferente da Dataprev. Seu papel no vault é validar mec
 - [Página do concurso Dataprev 2026 na FGV](https://conhecimento.fgv.br/concursos/dataprev26)
 - [Página do concurso MPU 2025 na FGV](https://conhecimento.fgv.br/concursos/mpu2025)
 
-## TCDF 2026
-
-A nota de edital já existente no vault registra 150 itens objetivos no modelo Certo ou Errado: P1 com 35 itens de Conhecimentos Básicos, P2 com 45 itens de Conhecimentos Específicos e P3 com 70 itens de Conhecimentos Especializados. O fator de correção torna o desempenho bruto em acertos insuficiente como métrica: uma resposta incorreta reduz a pontuação obtida com uma correta.
-
-Os mínimos registrados para 2026 são 7 pontos em P1, 13 em P2, 21 em P3 e 45 no conjunto das provas objetivas. Como ainda não há prova ou simulado TCDF resolvido e catalogado, **não existe desempenho empírico do candidato para este edital no momento**.
-
-### Provas históricas registradas
-
-| Prova | Resultado registrado | Comparabilidade com o edital 2026 | Uso correto |
-| :--- | :---: | :--- | :--- |
-| [[00 - Desempenho/Provas/TCDF 2023 - ANACE|TCDF 2023: ANACE]] | Ainda não resolvida | Muito alta | Prova-espelho principal do Cebraspe |
-| [[00 - Desempenho/Provas/TCDF 2021 - Auditor de Controle Externo|TCDF 2021: Auditor de Controle Externo]] | Ainda não resolvida | Média | Corpus secundário do mesmo tribunal |
-
-## Prova-espelho Cebraspe: TCDF 2023
-
-O concurso do TCDF de 2023 para o mesmo cargo de Analista Administrativo de Controle Externo, Área de Gestão, Serviços Técnicos e Administrativos, reproduz a arquitetura central do edital atual: 35 itens de Conhecimentos Básicos, 45 de Conhecimentos Específicos I e 70 de Conhecimentos Específicos II, totalizando 150 itens objetivos. As objetivas tiveram quatro horas e a prova discursiva também quatro horas.
-
-Essa coincidência torna o TCDF 2023 a prova-espelho prioritária para treinar o Cebraspe neste projeto. O valor maior não está apenas no conteúdo: está em treinar a decisão de **marcar, deixar em branco e administrar risco** sob correção negativa, além da escrita de peça técnica exigida pelo próprio tribunal.
-
-### Corpus secundário Cebraspe: TCDF 2021
-
-O concurso para Auditor de Controle Externo teve 65 itens em P1 e 85 em P2, total de 150, com outra prova discursiva. Ele confirma mecanismos do próprio tribunal, como comandos que governam blocos de itens e situações hipotéticas usadas como premissas para uma assertiva.
-
-A fórmula histórica possuía reescalonamento dos itens válidos quando havia anulações. Isso demonstra por que resultados históricos precisam preservar a regra da prova de origem e não receber automaticamente a fórmula de 2026.
-
-**Fontes oficiais:**
-- [Edital de abertura TCDF 2023](https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/ED_1_2023_TCDF_ABERTURA.PDF)
-- [Padrão preliminar da prova discursiva do Cargo 1](https://cdn.cebraspe.org.br/concursos/tc_df_23/arquivos/TC_DF_23_PADRO_PRELIMINAR_DE_RESPOSTAS_PROVA_DISCURSIVA_P4_CARGO_1.PDF)
-- [Página do concurso TCDF 2026 no Cebraspe](https://www.cebraspe.org.br/concursos/TC_DF_26_ANALISTA)
-- [Edital TCDF Auditor de Controle Externo](https://cdn.cebraspe.org.br/concursos/tc_df_20_ace/arquivos/ED_1_TCDF_ACE_20_ABT.PDF)
-- [Caderno objetivo TCDF aplicado em 2021](https://cdn.cebraspe.org.br/concursos/TC_DF_20_ACE/arquivos/MATRIZ_OBJETIVA.PDF)
-
 ## Regra de comparabilidade
 
 Uma prova pode ser útil sem ser diretamente conversível para a nota do edital atual. O vault passa a usar a seguinte leitura:
@@ -95,6 +63,10 @@ A fonte canônica estruturada dessa camada é `data/provas.json`. Resultados fut
 ---
 **Fontes brutas do vault:**
 - [[2 - Editais/Dataprev 2026 (Original)|Dataprev 2026]]
-- [[2 - Editais/TCDF 2026 ANACE|TCDF 2026 ANACE]]
 - [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]]
 - [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]]
+
+
+## Próximos concursos
+
+Câmara dos Deputados e ANPD estão em estado **aguardando edital**. Até a publicação de fonte oficial, não há prova-espelho, estrutura de pontuação ou mapeamento de conteúdo atribuídos a esses alvos no vault.

@@ -13,12 +13,11 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[1 - Planejamento/Auditoria editorial do vault|Auditoria editorial do vault]]
 - [[1 - Planejamento/concursos abertos|Concursos abertos]]
 - [[1 - Planejamento/horarios|Cronograma e horários]]
-- [[1 - Planejamento/Roadmap Dataprev e TCDF|Roadmap Dataprev e TCDF]]
+- [[1 - Planejamento/Roadmap Dataprev e proximos alvos|Roadmap Dataprev e próximos alvos]]
 
 ## 2 - Editais
 - [[2 - Editais/Fundacao Florestal SP 2026|Fundação Florestal SP 2026]]
 - [[2 - Editais/Dataprev 2026 (Original)|Dataprev 2026 (Original)]]
-- [[2 - Editais/TCDF 2026 ANACE|TCDF 2026 ANACE]]
 
 ## 4 - Projetos
 - [[00 Dashboard|Dataprev 2026 (Dashboard)]]
@@ -34,8 +33,6 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]]
   - [[00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social|Dataprev 2024: Comunicação Social]]
   - [[00 - Desempenho/Provas/MPU 2025 - Comunicacao Social|MPU 2025: Comunicação Social]]
-  - [[00 - Desempenho/Provas/TCDF 2023 - ANACE|TCDF 2023: ANACE]]
-  - [[00 - Desempenho/Provas/TCDF 2021 - Auditor de Controle Externo|TCDF 2021: Auditor de Controle Externo]]
 - [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]]
   - [[00 - Desempenho/Simulados/Prompt - gerar simulados por prova-espelho|Prompt para gerar simulados por prova-espelho]]
   - [[00 - Desempenho/Simulados/Simulado-01|Simulado 01 — Diagnóstico e erros]]
@@ -43,7 +40,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]
 
 ## 3 - Matérias
-- [[3 - Materias/Estrategia de Prova/FGV e Cebraspe - Dataprev e TCDF|FGV e Cebraspe: Dataprev e TCDF]]
+- [[3 - Materias/Estrategia de Prova/FGV - Dataprev e corpus de Comunicacao|FGV: Dataprev e corpus de Comunicação]]
 - [[3 - Materias/Portugues/portugues|Língua portuguesa]]
   - [[3 - Materias/Portugues/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Portugues/01 - interpretacao de texto|01 • Interpretação de texto]]
@@ -153,4 +150,4 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[3 - Materias/Redacao/redacao|Redação]]
 
 ---
-*Última atualização: 2026-09-14*
+*Última atualização: 2026-09-30*

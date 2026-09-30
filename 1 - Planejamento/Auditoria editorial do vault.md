@@ -73,7 +73,7 @@ Aliases e fuzzy search já estão ativos. O próximo ganho técnico relevante é
 |---|---|
 | `condição necessária` | Conectivos lógicos |
 | `contrapositiva` | Equivalências e negações |
-| `lógica sentencial` | Conectivos via TCDF |
+| `lógica sentencial` | Conectivos / lógica sentencial |
 | `G3.1` | Conectivos via Dataprev |
 | `cultura organizacional` | Comunicação organizacional / interna |
 | `eficácia efetividade` | Planejamento de comunicação |
@@ -127,7 +127,7 @@ A frente jurídica foi orientada por confiabilidade legal e histórico de erros.
 
 Uma segunda passada corrigiu ainda Princípios Fundamentais, Poder Executivo, Funções Essenciais à Justiça e Processo Legislativo/Poder Constituinte. Entre os problemas removidos estavam regras anteriores à EC 131/2023, fases incorretas da Lei 14.133, classificação excessivamente absoluta de atos, confusão entre PF e Administração Indireta, autonomias institucionais generalizadas e fórmulas incorretas do art. 60 da Constituição.
 
-Três lacunas reais do TCDF viraram notas canônicas novas:
+Três lacunas jurídicas identificadas pelo mapeamento multi-edital viraram notas canônicas novas:
 
 - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|Organização do Estado]];
 - [[3 - Materias/Direito Administrativo/10 - servicos publicos|Serviços públicos]];
@@ -135,11 +135,11 @@ Três lacunas reais do TCDF viraram notas canônicas novas:
 
 Esses itens têm agora `coberturaNota: integral`, mas permanecem com `exposicaoEstudo: false` até serem efetivamente estudados.
 
-**Processo administrativo no TCDF continua `parcial`**, pois a nota existente é especificamente da Lei federal nº 9.784/1999. **Organização dos Poderes continua `parcial`** no mapeamento atual, porque o item do edital é mais amplo que a nota principal ligada ao Poder Legislativo.
+**Processo administrativo federal** permanece uma nota de escopo próprio da Lei nº 9.784/1999; não deve ser promovido automaticamente a cobertura integral de editais futuros com regime local ou conteúdo mais amplo.
 
 ## Administração Geral e Pública
 
-O hub genérico foi decomposto exatamente pelos sete tópicos previstos no TCDF, sem inventar subdisciplinas adicionais:
+O hub genérico foi decomposto em sete tópicos canônicos reutilizáveis de Administração Geral/Pública:
 
 - [[3 - Materias/Administracao Publica/01 - evolucao da administracao publica|Evolução da Administração Pública]];
 - [[3 - Materias/Administracao Geral/02 - planejamento estrategico|Planejamento estratégico]];
@@ -149,7 +149,7 @@ O hub genérico foi decomposto exatamente pelos sete tópicos previstos no TCDF,
 - [[3 - Materias/Administracao Geral/05 - gestao da qualidade|Gestão da qualidade]];
 - [[3 - Materias/Administracao Publica/02 - governanca publica|Governança pública]].
 
-Todos os sete itens do TCDF passaram a `coberturaNota: integral` e permanecem `exposicaoEstudo: false`.
+As sete notas permanecem como conhecimento canônico reutilizável. A existência da nota continua separada de `exposicaoEstudo`; nenhum concurso futuro deve ser marcado como coberto antes do edital oficial.
 
 A nota de projetos foi escrita com controle de versão conceitual: o PMBOK 8 é a edição vigente em 2026, mas provas e materiais atuais ainda podem usar grupos de processos e áreas de conhecimento de edições anteriores. A nota não mistura essas taxonomias.
 
@@ -174,10 +174,15 @@ O lote deixou quatro ganhos estruturais:
 
 A próxima fase deve priorizar **uso real do sistema**, não expansão automática da wiki. Há três frentes possíveis, em ordem de retorno:
 
-1. validar as novas notas do TCDF por questões, convertendo `exposicaoEstudo` apenas após estudo real;
-2. atacar lacunas ainda visíveis dos editais ativos fora do escopo do Lote 3, especialmente matérias próprias do TCDF;
+1. validar as notas canônicas por questões, convertendo `exposicaoEstudo` apenas após estudo real;
+2. quando Câmara dos Deputados ou ANPD publicarem edital, executar diff semântico contra o vault antes de criar conteúdo novo;
 3. melhorar a performance da busca com índice pré-compilado e carregamento preguiçoso dos artigos, preservando a compatibilidade com dispositivos antigos.
 
 # Lote 4: baixa cobertura ou aprendizagem predominantemente prática
 
 Inglês, Redação e outras matérias com baixa cobertura teórica devem ser auditadas distinguindo **lacuna real de conteúdo** de temas cujo domínio melhora mais por questões, leitura e treino do que pela produção de artigos extensos. A criação de páginas deve continuar sendo dirigida por edital e evidência de prova, não por completude enciclopédica.
+
+
+## Refinamento — mudança de alvo em 30/09/2026
+
+O TCDF deixou de ser concurso-alvo do usuário e foi removido das camadas ativas de edital, mapeamento e prova. As notas teóricas produzidas durante aquele ciclo permanecem quando têm valor canônico e reutilizável. Câmara dos Deputados e ANPD passam a constar apenas como **alvos aguardando edital**; é proibido presumir banca, conteúdo programático, datas ou estrutura de prova antes de fonte oficial.

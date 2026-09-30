@@ -26,6 +26,41 @@ Atenção: a redação do art. 154-A **não é mais exatamente a redação origi
 | Prejuízo econômico | aumento de 1/6 a 1/3 | aumento de 1/3 a 2/3 |
 | Resultado qualificado do §3º | reclusão de 6 meses a 2 anos e multa, se não constituísse crime mais grave | reclusão de 2 a 5 anos e multa |
 
+
+## Refinamento — “alheio” × “de uso alheio”
+
+A mudança de **“dispositivo informático alheio”** para **“dispositivo informático de uso alheio”** não é apenas estilística.
+
+Na redação original, `alheio` podia conduzir à leitura centrada na **propriedade ou titularidade do dispositivo**: o aparelho deveria pertencer a outra pessoa. A redação vigente desloca o foco para o **uso**: importa que o dispositivo esteja legitimamente destinado ao uso de outra pessoa, ainda que ela não seja sua proprietária.
+
+Isso se conecta a outra alteração do mesmo caput:
+
+| Redação de 2012 | Redação vigente |
+| :--- | :--- |
+| sem autorização do **titular** do dispositivo | sem autorização do **usuário** do dispositivo |
+
+Assim, **proprietário e usuário podem ser pessoas diferentes**. Em tese, até o proprietário do equipamento pode praticar o crime se o dispositivo estiver cedido ao uso de outra pessoa e ele o invadir, sem autorização desse usuário, com uma das finalidades específicas do art. 154-A.
+
+Exemplo:
+
+> Uma empresa é proprietária de um notebook, mas o equipamento é destinado ao uso de um empregado. A proteção do art. 154-A não depende de o empregado ser dono do notebook: a redação atual considera o **uso alheio**.
+
+Outro exemplo que evidencia a mudança:
+
+> A pessoa A é dona de um computador e o cede regularmente à pessoa B. A invade o ambiente utilizado por B para obter dados privados sem autorização. O fato de A ser proprietária do hardware não afasta, por si só, o art. 154-A, porque o dispositivo pode ser **de uso alheio**.
+
+### Pegadinha de prova
+
+> “Para configurar o art. 154-A, o dispositivo invadido deve necessariamente pertencer a outra pessoa.”
+
+**Falso na redação vigente.** O Código Penal exige dispositivo **de uso alheio**, não necessariamente **de propriedade alheia**.
+
+Heurística:
+
+**2012: alheio + titular → foco textual na titularidade.**  
+**2021: de uso alheio + usuário → foco no uso protegido.**
+
+
 ## Como a FGV pode cobrar
 
 A principal pegadinha é tratar como requisito atual uma expressão que existia apenas na redação original:

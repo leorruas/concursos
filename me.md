@@ -4,7 +4,7 @@ type: "perfil-pessoal"
 status: "ativo"
 leitura: "mandatória — ler antes de qualquer operação no vault"
 created: 2026-04-25
-updated: 2026-09-14
+updated: 2026-09-30
 ---
 
 # me
@@ -199,6 +199,22 @@ Reproduzir mistura de questões fáceis, médias e difíceis.
 
 A dificuldade deve decorrer do conhecimento exigido e da proximidade conceitual quando isso corresponder ao modelo FGV.
 
+#### Calibração pós-Simulado 03 — 30/09/2026
+
+O Simulado 03 foi considerado **subcalibrado em Comunicação Social e Atualidades/IA**: houve excesso de itens resolvíveis por eliminação simples, alternativas pouco competitivas e pouca exigência de recuperação factual específica.
+
+A partir do próximo simulado integral:
+
+- **Comunicação Social** deve ficar mais exigente, sobretudo em autores, taxonomias, classificações, história da imprensa/rádio/TV, terminologia técnica e fronteiras entre categorias próximas;
+- pelo menos parte relevante das 30 questões de Comunicação deve exigir **recuperação específica de conteúdo**, e não apenas bom senso profissional ou reconhecimento de uma alternativa obviamente moderada;
+- distratores de Comunicação devem usar mais **transposição conceitual, verdade parcial, troca de autor/categoria, inversão de etapa/finalidade e classificações vizinhas**;
+- **Atualidades/IA** deve cobrar mais repertório factual e institucional recente, com contexto suficiente para a questão ser respondível, mas sem entregar no enunciado a própria distinção que será cobrada;
+- fatos conjunturais devem ser combinados com fundamentos estáveis, exigindo identificar instituições, mecanismos, efeitos plausíveis e limites de inferência;
+- Português, Inglês, Lógica e Legislação devem manter heterogeneidade compatível com a prova, sem aumento artificial de dificuldade apenas para "compensar" o desempenho do candidato;
+- elevar dificuldade significa **aumentar a qualidade e proximidade dos distratores**, não tornar enunciados desnecessariamente longos ou obscuros.
+
+A meta é que o próximo simulado produza um diagnóstico mais discriminante, especialmente na faixa de desempenho acima de 85%, sem deixar de parecer uma prova real da FGV.
+
 ### Composição
 
 Simulado completo Dataprev 2026:
@@ -361,4 +377,4 @@ Mapeamento de proficiência lógica construído e refinado através de simulados
 - **Fuso:** America/Sao_Paulo (UTC-3).
 
 ---
-*Última atualização: 2026-09-14*
+*Última atualização: 2026-09-30*

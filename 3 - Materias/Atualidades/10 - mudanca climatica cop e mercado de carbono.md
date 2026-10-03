@@ -4,7 +4,7 @@ type: "conceito"
 status: "ativo"
 layer: "fundamento_estavel"
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-10-03
 ---
 
 # Mudança climática, COP e mercado de carbono
@@ -18,6 +18,15 @@ Duas respostas centrais precisam ser distinguidas: **mitigação**, que busca re
 ## Estrutura interna
 
 A **Convenção-Quadro das Nações Unidas sobre Mudança do Clima (UNFCCC)** é o marco multilateral sob o qual ocorrem as **COPs**, as Conferências das Partes. A COP é uma reunião dos países que são Partes da Convenção, não uma organização independente da ONU.
+
+### Refinamento — COP × Pre-COP
+
+A **COP** integra o processo formal da UNFCCC: é a Conferência das Partes, na qual ocorrem sessões, negociações e decisões dentro da arquitetura institucional da Convenção.
+
+A **Pre-COP** é uma reunião política e ministerial **preparatória**, realizada antes da COP para aproximar posições, dar impulso às negociações e permitir diálogo de alto nível sobre temas que chegarão à conferência. Ela não substitui a COP nem transforma, por si só, seus debates em decisões finais da Conferência das Partes.
+
+> [!TIP]
+> **Pre-COP prepara; COP delibera no processo formal.** Se a alternativa disser que a Pre-COP "substitui juridicamente" a conferência ou aprova antecipadamente todas as decisões finais, desconfie.
 
 O **Acordo de Paris** estabelece a arquitetura contemporânea de cooperação climática. Cada país apresenta **Contribuições Nacionalmente Determinadas (NDCs)**, nas quais registra seus compromissos e metas climáticas nacionais. As NDCs são definidas nacionalmente e atualizadas de forma periódica dentro da arquitetura do acordo.
 
@@ -61,7 +70,7 @@ Também pode confundir COP com Acordo de Paris ou afirmar que uma conferência c
 
 > Exemplo conjuntural verificado em 14/09/2026. Revalidar antes de uso futuro.
 
-A **COP31** está prevista para ocorrer de **9 a 20 de novembro de 2026 em Antalya, Türkiye**. A conferência reúne, entre outras sessões, a COP31 da Convenção, a CMA8 das Partes do Acordo de Paris e órgãos subsidiários.
+A **COP31** está prevista para ocorrer de **9 a 20 de novembro de 2026 em Antalya, Türkiye**. Antes dela, **Fiji, Tuvalu e Austrália** realizam de **5 a 8 de outubro de 2026** a Pre-COP 31 oficial, com reunião ministerial e evento de líderes, para criar impulso político e preparar as negociações. A conferência de Antalya reúne, entre outras sessões, a COP31 da Convenção, a CMA8 das Partes do Acordo de Paris e órgãos subsidiários.
 
 Uma questão pode usar corretamente o local e a data e inserir a inferência falsa de que a COP “substitui” o Acordo de Paris ou de que suas decisões entram automaticamente em vigor como lei doméstica em todos os países.
 

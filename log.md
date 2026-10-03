@@ -1043,3 +1043,12 @@
 - Erros: Lógica [C] `nenhum → algum`; Português [C] recorrente adversativa × concessiva; Comunicação [C] clipping × auditoria de imagem; Atualidades [K] regime de metas/IPCA/Selic/Copom.
 - Teoria já promovida sem duplicação: [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos|Lei 12.737/2012 — delitos informáticos]] e [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom|Regime de metas, inflação, Selic e Copom]].
 - Criado o acompanhamento local [[3 - Materias/Informatica/Avancos|Avanços de Informática e legislação de SI]] e sincronizadas as camadas local, global, projeto e diagnóstico consolidado.
+
+## 2026-10-03 — Simulado 04 Dataprev/FGV e microrevisões
+
+- Registrado o [[00 - Desempenho/Simulados/Simulado-04|Simulado 04 — Dataprev FGV]]: **63/70 (90,0%)**, **105/115 ponderados (91,3%)**, com 35/40 em conhecimentos gerais e 28/30 em Comunicação Social.
+- Atualizadas as superfícies de desempenho global, diário e locais de Português, Lógica, Atualidades, Legislação de SI e Comunicação; a Semana 40 passou a consolidar os Simulados 03 e 04.
+- Erros clínicos do Simulado 04: Q7 [I] ambiguidade referencial; Q11 [K] hífen; Q28 [C] recorrente método do bloco; Q30 [K] recorrente regime de metas/Selic; Q37 [K] prazos do Marco Civil; Q41 [C] interação × ouvidoria social; Q45 [C] Process × Physical Evidence.
+- Refinadas as notas de coesão/referenciação, acordo ortográfico, regime de metas, COP/Pre-COP, LAI, comunicação pública e 7 Ps. Não houve criação de nova nota: as lacunas cabiam nas notas canônicas já existentes.
+- Mantidos como acertos com recuperação incompleta Q10 (colocação pronominal), Q25 (contrapositiva), Q31 (Pre-COP) e Q36 (prazos de sigilo da LAI).
+

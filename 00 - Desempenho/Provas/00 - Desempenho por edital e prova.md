@@ -3,12 +3,12 @@ title: "Desempenho por edital e prova"
 type: "hub"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-09-30
+updated: 2026-10-03
 ---
 
 # Desempenho por edital e prova
 
-Período das fontes analisadas: 2024 a 2026. Última validação documental: 30/09/2026.
+Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 03/10/2026.
 
 Este hub separa três medidas que não devem ser misturadas: **aproveitamento bruto**, **nota calculada pelas regras do edital** e **comparabilidade da prova com o concurso atual**. O objetivo é impedir que um percentual alto em uma bateria de composição diferente seja interpretado como estimativa direta de classificação.
 
@@ -24,12 +24,13 @@ A meta de **102/115 (88,7%)** registrada no vault é uma meta estratégica pesso
 
 | Prova | Resultado registrado | Comparabilidade com o edital 2026 | Uso correto |
 | :--- | :---: | :--- | :--- |
-| [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]] | 54/70, 77,1% | Não comparável para nota ponderada | Diagnóstico de erros e aproveitamento bruto |
-| [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]] | 67/70, 95,7% | Não comparável para nota ponderada | Diagnóstico de erros e aproveitamento bruto |
-| [[00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social|Dataprev 2024: Comunicação Social]] | Ainda não resolvida | Alta | Prova-espelho principal da FGV |
-| [[00 - Desempenho/Provas/MPU 2025 - Comunicacao Social|MPU 2025: Comunicação Social]] | Ainda não resolvida | Média | Corpus secundário para mecanismos de cobrança FGV |
+| [[00 - Desempenho/Simulados/Simulado-03\|Simulado 03]] | 63/70, 90,0%; **103,5/115** | Muito alta; composição oficial | Nota /115 calculável, com cautela pela subcalibração de Comunicação e Atualidades/IA |
+| [[00 - Desempenho/Simulados/Simulado-02\|Simulado 02]] | 67/70, 95,7% | Não comparável para nota ponderada | Diagnóstico de erros e aproveitamento bruto |
+| [[00 - Desempenho/Simulados/Simulado-01\|Simulado 01]] | 54/70, 77,1% | Não comparável para nota ponderada | Diagnóstico de erros e aproveitamento bruto |
+| [[00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social\|Dataprev 2024: Comunicação Social]] | Ainda não resolvida | Alta | Prova-espelho principal da FGV |
+| [[00 - Desempenho/Provas/MPU 2025 - Comunicacao Social\|MPU 2025: Comunicação Social]] | Ainda não resolvida | Média | Corpus secundário para mecanismos de cobrança FGV |
 
-O Simulado 01 foi montado em blocos mistos sem confirmação da distribuição oficial. O Simulado 02 registra expressamente distribuição não oficial. Por isso, nenhum dos dois deve gerar nota /115. Essa distinção é relevante porque **67/70 não equivale, por si só, a 95,7% dos 115 pontos**: a posição dos erros entre gerais e Comunicação altera muito o resultado ponderado.
+O Simulado 01 foi montado em blocos mistos sem confirmação da distribuição oficial. O Simulado 02 registra expressamente distribuição não oficial. Por isso, nenhum dos dois deve gerar nota /115. Já o **Simulado 03 reproduziu integralmente a distribuição oficial** e permite o cálculo de **103,5/115**, embora Comunicação e Atualidades/IA tenham sido registradas como subcalibradas em dificuldade. Essa distinção é relevante porque **67/70 não equivale, por si só, a 95,7% dos 115 pontos**: a posição dos erros entre gerais e Comunicação altera muito o resultado ponderado.
 
 ## Prova-espelho FGV: Dataprev 2024
 
@@ -65,8 +66,11 @@ A fonte canônica estruturada dessa camada é `data/provas.json`. Resultados fut
 - [[2 - Editais/Dataprev 2026 (Original)|Dataprev 2026]]
 - [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]]
 - [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]]
+- [[00 - Desempenho/Simulados/Simulado-03|Simulado 03]]
 
 
 ## Próximos concursos
 
-Câmara dos Deputados e ANPD estão em estado **aguardando edital**. Até a publicação de fonte oficial, não há prova-espelho, estrutura de pontuação ou mapeamento de conteúdo atribuídos a esses alvos no vault.
+A **Câmara dos Deputados 2026** já tem edital publicado e projeto próprio no vault, com estrutura de prova, corpus Cebraspe e fluxo de questões/simulados definidos. Ainda não há desempenho de bateria ou simulado da Câmara registrado neste hub.
+
+A **ANPD** permanece aguardando edital oficial; até a publicação de fonte oficial, não há estrutura de pontuação ou mapeamento definitivo de conteúdo atribuídos a esse alvo no vault.

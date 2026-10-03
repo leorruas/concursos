@@ -164,6 +164,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Atualidades/12 - saude publica vigilancia e vacinacao|12 • Saúde pública, vigilância e vacinação]]
   - [[3 - Materias/Atualidades/13 - politica instituicoes e democracia nas atualidades|13 • Política, instituições e democracia nas Atualidades]]
   - [[3 - Materias/Atualidades/14 - governanca e regulacao de inteligencia artificial|14 • Governança e regulação de inteligência artificial]]
+  - [[3 - Materias/Atualidades/15 - seguranca publica ciberseguranca e temas de seguranca 2026|🆕 15 • Segurança pública, cibersegurança e temas de segurança — Atualidades 2026]]
   - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]
 - [[3 - Materias/Redacao/redacao|Redação]]
   - [[3 - Materias/Redacao/01 - leitura do tema e projeto de texto|01 • Leitura do tema e projeto de texto]]

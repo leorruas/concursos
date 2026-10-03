@@ -3,7 +3,7 @@ title: "Atualidades"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-09-30
+updated: 2026-10-03
 ---
 
 # Atualidades
@@ -70,7 +70,7 @@ A pergunta de controle é: **se a FGV trocar o fato concreto, o fundamento conti
 
 ## Lacunas remanescentes do edital amplo
 
-Segurança, transportes, educação e cultura continuam deliberadamente sem uma nota genérica. Esses termos do edital são muito amplos para justificar teoria abstrata sem um acontecimento ou mecanismo relevante. Quando surgirem fatos com potencial real de cobrança, primeiro verificar se revelam fundamento reutilizável; caso contrário, registrar apenas snapshot conjuntural.
+Transportes, educação e cultura continuam sem uma nota genérica estável. Segurança já possui o snapshot [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026]], que combina fatos recentes com os mecanismos mínimos necessários para interpretá-los. Os demais termos do edital continuam amplos demais para justificar teoria abstrata sem acontecimento ou mecanismo relevante.
 
 # Snapshots conjunturais
 
@@ -78,6 +78,7 @@ Segurança, transportes, educação e cultura continuam deliberadamente sem uma 
 
 ## 2026
 
+- [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026]]
 - [[Snapshots/2026-09-14 - IPCA agosto e Selic|IPCA de agosto e Selic — 14/09/2026]]
 
 # Como a FGV pode cobrar

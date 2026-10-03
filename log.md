@@ -1129,3 +1129,10 @@
 - Foram incluídas fronteiras FGV, duas questões comentadas e ligação direta com [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]].
 - Hub de Português, índice global e cronograma da semana final atualizados na mesma operação.
 
+## 2026-10-03 — Chunk 6 — segurança pública e cibersegurança 2026
+
+- Criado [[3 - Materias/Atualidades/15 - seguranca publica ciberseguranca e temas de seguranca 2026|🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026]] como snapshot conjuntural com data de corte em 03/10/2026.
+- A nota cobre Programa Brasil contra o Crime Organizado, Mapa da Segurança Pública 2026, feminicídios, E-Ciber, CTIR Gov, mudança metodológica das notificações de incidentes, ameaças cibernéticas recentes e MED/Pix.
+- O artigo enfatiza as fronteiras que geram bons distratores: programa × sistema × plano; estratégia × órgão operacional; notificação × ataque; mudança metodológica × mudança do fenômeno; queda no período × tendência estrutural.
+- Hub de Atualidades, índice global e cronograma da semana final atualizados na mesma operação.
+

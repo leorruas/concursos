@@ -40,6 +40,11 @@ Fases:
 - [ ] preservar fisicamente os cadernos e gabaritos no vault local, fora do Git; execução pendente para Codex/Gemini conforme o prompt preparado;
 - [x] indexar o corpus-base por prova, bloco e intervalo de itens em [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]]: Correios 2011, CNMP 2023, DPDF 2020, Câmara 2003, Câmara 2007, TCE-MG 2026 e PF Administrativo 2025;
 - [ ] indexar em nível de item individual apenas os temas prioritários do edital, com gabarito definitivo, mecanismo de cobrança e validade atual;
+  - [x] Teorias da Comunicação;
+  - [ ] Publicidade e planejamento;
+  - [ ] Comunicação Pública e Comunicação Organizacional;
+  - [ ] Processo Legislativo;
+  - [ ] Ciência Política;
 - [ ] medir mecanismos recorrentes de erro e ampliar a análise Cebraspe com evidência quantitativa;
 - [ ] integrar o índice de questões reais ao fluxo de estudo e aos simulados da Câmara;
 - [ ] criar análise específica da prova discursiva do Cebraspe a partir de padrões oficiais de resposta.

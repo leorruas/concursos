@@ -195,13 +195,46 @@ Padrão definitivo da discursiva: https://cdn.cebraspe.org.br/concursos/pf_25_ad
 | LGPD | CNMP 117–118; TCE-MG 16 |
 | Processo administrativo | CNMP 119–120 |
 
+## Indexação individual prioritária: Teorias da Comunicação
+
+Nesta seção, o texto integral dos itens não é reproduzido. O índice registra apenas o alvo conceitual, o gabarito definitivo e o mecanismo de cobrança para permitir recuperação posterior da questão real na fonte.
+
+| Prova | Item | Gab. | Alvo conceitual | Mecanismo observado | Validade |
+| :--- | ---: | :---: | :--- | :--- | :--- |
+| Correios 2011 | 61 | C | modelo de Lasswell | associação autor → estrutura do modelo | estável |
+| Correios 2011 | 62 | E | tradição norte-americana × teoria crítica | transposição entre correntes teóricas | estável |
+| Correios 2011 | 63 | C | agenda-setting × espiral do silêncio | relação entre teorias vizinhas | estável |
+| Correios 2011 | 64 | E | história dos conceitos de cultura e comunicação de massa | atribuição histórica/cronológica | estável |
+| CNMP 2023 | 51 | C | autopoiese e teoria sistêmica da comunicação | escopo de definição teórica | estável |
+| CNMP 2023 | 52 | E | teoria da informação × modelo circular | mistura de modelos e estrutura interna | estável |
+| CNMP 2023 | 53 | C | sociedade do espetáculo | reconhecimento de definição conceitual | estável |
+| CNMP 2023 | 54 | E | teoria crítica e indústria cultural | inversão/substituição conceitual | estável |
+| DPDF 2020 | 51 | C | teoria matemática de Shannon | aplicação contemporânea de modelo clássico | estável |
+| DPDF 2020 | 52 | C | funções da comunicação em Lasswell | recuperação de estrutura interna | estável |
+| DPDF 2020 | 53 | E | regras/princípios da boa comunicação | transposição de atributo entre categorias próximas | estável |
+| DPDF 2020 | 86 | C | indústria cultural | característica teórica aplicada corretamente | estável |
+| DPDF 2020 | 87 | E | cultural studies | atribuição indevida de reducionismo econômico | estável |
+| DPDF 2020 | 88 | E | teoria crítica | inversão do efeito atribuído à mídia/indústria cultural | estável |
+| DPDF 2020 | 89 | C | sociedade do espetáculo | definição conceitual precisa | estável |
+| DPDF 2020 | 90 | C | agenda-setting | aplicação do efeito de saliência temática | estável |
+
+### Padrões desta amostra
+
+Nesta primeira amostra individual, o Cebraspe alterna **reconhecimento direto**, **aplicação a caso contemporâneo** e, sobretudo, **trocas mínimas dentro de teorias próximas**. Os itens errados não dependem apenas de palavras absolutas: aparecem por mistura entre modelos, deslocamento de características de uma corrente para outra e inversão do efeito previsto pela teoria.
+
+Para gerar itens inéditos de Teorias da Comunicação para a Câmara, priorizar esses mesmos mecanismos: autor correto com estrutura errada; teoria correta com efeito invertido; aplicação plausível ao meio digital; duas teorias próximas relacionadas de forma sutilmente incorreta.
+
+Fontes desta indexação: cadernos e gabaritos oficiais do Correios 2011, CNMP 2023 e DPDF 2020 registrados neste documento.
+
 ## Estado da indexação
 
 **Fase 1 concluída:** Correios 2011, CNMP 2023 e DPDF 2020 foram mapeados por intervalos e temas.
 
 **Fase 2 concluída:** Câmara 2003, Câmara 2007, TCE-MG 2026 e PF Administrativo 2025 foram incorporados ao mapa. O corpus-base agora está coberto em nível de blocos e intervalos.
 
-**Próxima fase:** descer para item individual apenas nos temas de maior prioridade do edital, registrando item, gabarito definitivo, mecanismo de cobrança e validade atual. Prioridade inicial: Teorias da Comunicação, Publicidade/planejamento, Comunicação Pública, Comunicação Organizacional, Processo Legislativo e Ciência Política.
+**Indexação individual iniciada:** Teorias da Comunicação já está detalhada por item, gabarito e mecanismo de cobrança.
+
+**Próxima fase:** Publicidade e planejamento. Depois: Comunicação Pública/Organizacional, Processo Legislativo e Ciência Política.
 
 ## Relações
 

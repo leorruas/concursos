@@ -48,7 +48,7 @@ Fases:
 - [x] concluir a primeira indexação individual dos temas prioritários; em Ciência Política, incorporar a prova da Câmara 2014 — Consultor Legislativo, Área XIX, como prova-espelho principal;
 - [x] medir mecanismos recorrentes de erro na amostra individual e ampliar a análise pública Cebraspe com evidência quantitativa;
 - [x] integrar o índice de questões reais ao fluxo de estudo e aos simulados da Câmara em [[4 - Projetos/camara-2026/Questoes e Simulados|Questões e simulados - Câmara 2026]];
-- [ ] criar análise específica da prova discursiva do Cebraspe a partir de padrões oficiais de resposta.
+- [x] criar [[4 - Projetos/camara-2026/Discursiva Cebraspe - Camara 2026|análise específica da prova discursiva Cebraspe]] a partir do edital vigente e dos padrões oficiais da PF 2025, TCE-MG 2026 e Câmara 2026 — Processo Legislativo e Gestão.
 
 ## Quando sair ANPD
 

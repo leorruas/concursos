@@ -43,7 +43,7 @@ Fases:
   - [x] Teorias da Comunicação;
   - [x] Publicidade e planejamento;
   - [x] Comunicação Pública e Comunicação Organizacional;
-  - [ ] Processo Legislativo;
+  - [x] Processo Legislativo;
   - [ ] Ciência Política;
 - [ ] medir mecanismos recorrentes de erro e ampliar a análise Cebraspe com evidência quantitativa;
 - [ ] integrar o índice de questões reais ao fluxo de estudo e aos simulados da Câmara;

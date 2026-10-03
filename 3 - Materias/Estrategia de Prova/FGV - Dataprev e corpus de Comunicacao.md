@@ -60,6 +60,23 @@ Na parte geral, a prova de 2024 também mostra que:
 
 **Fonte de calibração:** FGV, Dataprev 2024, ATI — Comunicação Social, Tipo 1: https://conhecimento.fgv.br/sites/default/files/concursos/ati-comunicacao-socialcns009-tipo-1.pdf
 
+## Blueprint do próximo simulado — pós-Simulado 04
+
+A próxima prova simulada deve preservar integralmente a estrutura **12/12/5/6/5/30**, mas aproximar sua densidade da prova oficial de 2024.
+
+| Bloco | Calibração prioritária |
+| :--- | :--- |
+| Português | mais classificação sintática/semântica, trechos e alternativas próximas; menos regra evidente isolada |
+| Inglês | 2–3 textos, incluindo um mais longo; leitura + referência + conectores + vocabulário + função gramatical |
+| Lógica | dois problemas contextualizados/duas etapas; lógica formal + aritmética/proporção + contagem/ordenação + padrão/álgebra/geometria/matriz |
+| Atualidades/IA | fatos recentes que precisem ser conhecidos; I/II/III ou V/F; evitar enunciado que entregue a resposta |
+| Legislação | alternativas juridicamente próximas, prazos, competências, condições e exceções |
+| Comunicação | cerca de 1/3 factual/autoral/taxonômica; restante dividido entre terminologia técnica, associação e aplicação profissional |
+
+Em Comunicação, a rotação deve tocar os dez blocos do edital e reservar espaço real para **história/repertório de mídia, rádio/TV, comunicação empresarial, autores e classificações**, porque a prova de 2024 mostrou que esses mecanismos convivem com questões aplicadas.
+
+O objetivo não é reproduzir fatos de 2024, mas reproduzir o **custo cognitivo**: lembrar uma estrutura específica, distinguir categorias próximas e só então aplicar a informação.
+
 ## Consequência para a Dataprev
 
 As 30 questões específicas de Comunicação concentram a maior parte da pontuação do edital. O treino deve priorizar autores, estruturas internas, classificações, história/repertório e distinções entre conceitos vizinhos, sem abandonar aplicação profissional.

@@ -1094,3 +1094,12 @@
 - Atualidades passa a admitir artigos curtos por eixo já nesta semana — segurança, transportes, educação, cultura/temas sociais e relações internacionais — com pesquisa atual e data de corte.
 - Durante a reta final, artigos de estudo **novos** recebem **🆕** no título exibido; artigos **substancialmente atualizados** recebem **🔄**. O nome físico do arquivo permanece estável.
 
+## 2026-10-03 — Fase 1 do backlog final: três artigos de Comunicação
+
+- Criados, em um único change set, três artigos prioritários para aproximar o vault da densidade da prova FGV Dataprev 2024:
+  - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 Autores e taxonomias de comunicação organizacional e relações públicas]];
+  - [[3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil|🆕 História da mídia, do jornalismo e da comunicação empresarial no Brasil]];
+  - [[3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual|🆕 Radiojornalismo, telejornalismo e linguagem audiovisual]].
+- O artigo 22 materializa Ehling/White/Grunig, Cesca e a aplicação digital de Paulo Nassar; o 23 concentra repertório histórico brasileiro efetivamente cobrado; o 24 fecha texto manchetado e cabeça/pé/off/sonora/passagem, remetendo à nota 12 para fundamentos audiovisuais já existentes.
+- O hub de Comunicação e o índice global foram atualizados atomicamente; o cronograma marcou as três entregas de Comunicação da Prioridade A como criadas, sem confundir criação de nota com exposição/domínio do conteúdo.
+

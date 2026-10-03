@@ -4,7 +4,7 @@ type: "perfil-pessoal"
 status: "ativo"
 leitura: "mandatória — ler antes de qualquer operação no vault"
 created: 2026-04-25
-updated: 2026-09-30
+updated: 2026-10-03
 ---
 
 # me
@@ -242,6 +242,55 @@ Antes de liberar o simulado, verificar silenciosamente:
 8. Atualidades parte de fatos/contextos concretos?
 9. os erros anteriores influenciaram distratores sem deformar a prova?
 10. o conjunto parece uma prova única, e não 70 exercícios didáticos?
+
+## Protocolo Cebraspe-Câmara: geração e uso de questões
+
+Este protocolo se aplica ao projeto `camara-2026` e não substitui o protocolo FGV-Dataprev fora desse projeto.
+
+### Estrutura de referência
+
+A prova objetiva da Câmara 2026 usa o Método Cespe em itens **CERTO ou ERRADO**, com **+1 ponto por acerto, -1 ponto por erro e 0 ponto em branco ou com marcação dupla**. O treino deve reproduzir essa estrutura desde o início, inclusive em baterias curtas.
+
+Em simulados e baterias da Câmara, registrar separadamente **acertos, erros, itens em branco e nota líquida**. A métrica principal de desempenho é a nota líquida, e não apenas a taxa bruta de acertos.
+
+### Corpus de calibração
+
+Usar como fonte operacional [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]].
+
+Ordem de prioridade:
+
+1. edital vigente da Câmara 2026 para conteúdo, formato e regras de pontuação;
+2. provas Cebraspe/Cespe em formato C/E e com forte aderência temática a Comunicação Social e Publicidade e Propaganda;
+3. provas anteriores da Câmara para contexto institucional, processo legislativo e recorrências temáticas;
+4. provas Cebraspe recentes de Comunicação em outros formatos apenas para conteúdo, nível e mecanismo de cobrança;
+5. conhecimento geral sobre a banca somente como complemento.
+
+### Questões reais e questões inéditas
+
+Quando houver questão real do corpus que cubra diretamente o tema estudado, ela deve ser priorizada no treino. Identificar sempre **órgão, ano, banca e número do item**. Questão real não deve ser silenciosamente reescrita e apresentada como original.
+
+Questões inéditas devem ser marcadas como inéditas e modelar o mecanismo observado no corpus, sem copiar o conteúdo literal da fonte.
+
+Questões antigas de legislação, regimento ou tecnologia só podem ser usadas como conteúdo atual depois de conferir compatibilidade com o edital e a norma vigente. Se a norma mudou, a questão continua útil para estudar o mecanismo da banca, mas não como fonte factual atual.
+
+### DNA Cebraspe-Câmara
+
+Priorizar:
+
+- comandos comuns seguidos de itens independentes;
+- afirmações em que uma troca de conceito, autor, etapa, finalidade, condição ou escopo altera o julgamento;
+- itens majoritariamente verdadeiros com uma parte material incorreta;
+- comparação entre conceitos vizinhos;
+- aplicação a situações profissionais e institucionais;
+- literalidade de Constituição, leis e regimentos quando o edital exigir texto normativo;
+- autores, escolas e classificações em Comunicação, Publicidade e Ciência Política;
+- integração entre dois objetos do edital no mesmo item quando isso for natural.
+
+Evitar transformar o Cebraspe em prova de múltipla escolha disfarçada. A dificuldade deve vir da precisão do julgamento C/E e da proximidade entre a formulação correta e a incorreta.
+
+### Estratégia de resposta
+
+Nas baterias da Câmara, permitir três respostas do candidato: **C, E ou branco**. O branco é uma decisão possível porque o erro tem penalização simétrica ao acerto. O diagnóstico deve distinguir desconhecimento do conteúdo de erro de julgamento e de decisão de risco.
 
 ## Padrões de Escrita e Nomenclatura
 

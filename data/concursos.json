@@ -56,6 +56,53 @@
     "cargo": "Analista Legislativo: Comunicação Social — Divulgação Institucional",
     "dataProva": "2027-01-17T00:00:00-03:00",
     "status": "planejado",
-    "sourcePath": "2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional.md"
+    "sourcePath": "2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional.md",
+    "estruturaProva": {
+      "objetiva": {
+        "totalItens": 180,
+        "p1": {
+          "nome": "Conhecimentos básicos",
+          "itens": 90
+        },
+        "p2": {
+          "nome": "Conhecimentos específicos",
+          "itens": 90
+        },
+        "julgamento": "Certo ou Errado",
+        "pontuacao": {
+          "acerto": 1,
+          "erro": -1,
+          "brancoOuMarcacaoDupla": 0
+        },
+        "duracao": "5 horas",
+        "criteriosEliminacao": {
+          "p1Minimo": 18,
+          "p2Minimo": 27,
+          "totalMinimo": 54
+        }
+      },
+      "discursiva": {
+        "pontuacaoMaxima": 60,
+        "questoes": [
+          {
+            "quantidade": 2,
+            "linhasMaximas": 20,
+            "pontosPorQuestao": 15
+          },
+          {
+            "tipo": "peça técnica",
+            "quantidade": 1,
+            "linhasMaximas": 50,
+            "pontos": 30
+          }
+        ],
+        "notaMinima": 30
+      },
+      "sourcePath": "2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional.md"
+    },
+    "metasCandidato": {
+      "natureza": "nao_definida",
+      "observacao": "Até 03/10/2026 não há meta pessoal de pontuação registrada para a Câmara 2026."
+    }
   }
 ]

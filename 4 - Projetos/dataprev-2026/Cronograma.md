@@ -108,7 +108,7 @@ O emoji entra no `title:` e no `# H1`, mas **não** no nome físico do arquivo.
 
 ### Prioridade B — fechar até 08/10
 
-- [ ] **🆕 Tipos e gêneros textuais**  
+- [x] **🆕 Tipos e gêneros textuais**  
   Arquivo: `3 - Materias/Portugues/09 - tipos e generos textuais.md`  
   Núcleo: tipo textual × gênero; narração, descrição, exposição, argumentação e injunção; finalidade, suporte, marcas linguísticas e variação quando relevante ao gênero.
 

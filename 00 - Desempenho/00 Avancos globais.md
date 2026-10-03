@@ -3,7 +3,7 @@ title: "Avanços globais"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-09-30
+updated: 2026-10-03
 ---
 
 # Avanços globais
@@ -18,26 +18,25 @@ Consulte as diretrizes metodológicas, réguas de competitividade e metas de pro
 
 ## Painel de desempenho por disciplina
 
-Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 dias** (01/09/2026 a 30/09/2026).
+Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 dias** (04/09/2026 a 03/10/2026).
 
 | Disciplina | Aproveitamento (30d) | Questões (30d) | Meta | Status de Amostragem | Último Treino |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Semana 40** (28/09 a 04/10) | 70 | 90,0% (63/70) | 89,0% | **Alta**: Simulado 03 integral Dataprev/FGV, com distribuição oficial e nota ponderada 103,5/115. O bloco de Lógica caiu para 2/5; Comunicação 27/30 e Atualidades/IA 6/6 devem ser interpretados com ressalva de subcalibração de dificuldade. |
-| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *94,4%* | 18 | 95% | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
-| [[3 - Materias/Ingles/ingles\|Língua inglesa]] | *100,0%* | 12 | - | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
-| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | *63,4%* | 41 | 85% | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
+| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *90,0%* | 30 | 95% | **Amostragem insuficiente** (< 50 Qs) | 03/10/2026 |
+| [[3 - Materias/Ingles/ingles\|Língua inglesa]] | *100,0%* | 24 | - | **Amostragem insuficiente** (< 50 Qs) | 03/10/2026 |
+| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | *75,0%* | 28 | 85% | **Amostragem insuficiente** (< 50 Qs) | 03/10/2026 |
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/07/2026 |
 | [[3 - Materias/Direito Constitucional/direito-constitucional\|Direito constitucional]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
 | [[3 - Materias/Direito Administrativo/direito-administrativo\|Direito administrativo]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
-| [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | *89,2%* | 37 | 90% | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
+| [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | **91,0%** | 67 | 90% | **Amostragem sólida** (>= 50 Qs) | 03/10/2026 |
 | [[3 - Materias/Administracao Publica/administracao-publica\|Administração pública]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
 | [[3 - Materias/Administracao Geral/administracao-geral\|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
-| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *88,9%* | 9 | 75% | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
-| [[3 - Materias/Informatica/informatica\|Legislação de SI e proteção de dados]] | *88,9%* | 9 | - | **Amostragem insuficiente** (< 50 Qs) | 30/09/2026 |
+| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *86,7%* | 15 | 75% | **Amostragem insuficiente** (< 50 Qs) | 03/10/2026 |
+| [[3 - Materias/Informatica/informatica\|Legislação de SI e proteção de dados]] | *85,7%* | 14 | - | **Amostragem insuficiente** (< 50 Qs) | 03/10/2026 |
 | [[3 - Materias/Redacao/redacao\|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
 
 > [!NOTE]
-> A janela por disciplina exclui o Simulado 02 de 01/09, porque a distribuição das 70 questões por matéria não foi preservada. O simulado continua contabilizado no total bruto da semana correspondente, mas não é repartido artificialmente entre disciplinas. Os valores de 01/09 a 30/09 consideram apenas sessões com distribuição disciplinar identificável no vault.
+> A janela atual começa em 04/09/2026 e considera apenas sessões com distribuição disciplinar identificável. O Simulado 02 de 01/09 já está fora da janela móvel; seus dados históricos permanecem preservados no catálogo, sem repartição artificial entre disciplinas.
 
 ### Métricas específicas por disciplina
 
@@ -46,6 +45,7 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | Qualidade da Transformação | *96,8%* | 14/07/2026 | 95% | **Amostragem insuficiente** (< 50 Qs) |
 
 ### Análise de evolução recente
+- **Simulado 04 — 03/10**: [[00 - Desempenho/Simulados/Simulado-04|Simulado 04 — Dataprev FGV]]: **63/70 (90,0%)**, nota ponderada **105/115 (91,3%)** e TAP diária **89,8%**. Comunicação atingiu 28/30 e Lógica recuperou de 2/5 no Simulado 03 para 4/5. Os sete erros se distribuíram entre Português (2), Lógica (1), Atualidades/IA (1), Legislação (1) e Comunicação (2); método do bloco e regime de metas/Selic reapareceram como vulnerabilidades, enquanto Inglês permaneceu em 12/12.
 - **Simulado 03 — 30/09**: [[00 - Desempenho/Simulados/Simulado-03|Simulado 03 — Dataprev FGV]]: **63/70 (90,0%)**, nota ponderada **103,5/115 (90,0%)** e TAP diária **89,0%**. A distribuição oficial 12/12/5/6/5/30 foi preservada. Português e Inglês fecharam 12/12; Atualidades/IA 6/6; Legislação 4/5; Comunicação 27/30. O principal gargalo foi Raciocínio Lógico, com **2/5**. Comunicação e Atualidades/IA foram consideradas subcalibradas em dificuldade, portanto o resultado não deve ser lido como projeção isolada de domínio nesses blocos.
 - **Sessão mista de 14/09**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]: **22/26 questões válidas (84,6%)**, TAP **84,4%** e pontuação ponderada parcial **31,0/36,5** nos itens respondidos. Uma questão de Português foi anulada e excluída do denominador; o bloco de Inglês não teve respostas registradas e não entra nas métricas. Os quatro erros válidos foram: Lógica [C] em `nenhum → algum`; Português [C] recorrente em adversativa × concessiva; Comunicação [C] em clipping × auditoria de imagem; Atualidades [K] em regime de metas/IPCA/Selic/Copom. Legislação fechou 4/4. A nota oficial /115 não é calculável para esta bateria.
 - **Raciocínio lógico — 14/09**: 5/6 (83,3%). De Morgan e o caso falso da condicional reapareceram corretamente; o novo erro ficou isolado na negação de `nenhum` como existência de ao menos um contraexemplo.
@@ -82,6 +82,7 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 
 | Semana / Período | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Análise de Saturação Semanal |
 | :--- | :--- | :--- | :--- | :--- |
+| **Semana 40** (28/09 a 04/10) | 140 | 90,0% (126/140) | 89,4% | **Alta**: Simulados 03 e 04 completos, ambos com distribuição oficial. Consolidado por disciplina: Português 22/24, Inglês 24/24, Lógica 6/10, Atualidades/IA 11/12, Legislação 8/10 e Comunicação 55/60. A nota ponderada subiu de 103,5/115 no Simulado 03 para 105/115 no Simulado 04; Lógica recuperou no segundo simulado, embora o método do bloco tenha reincidido. |
 | **Semana 38** (14/09 a 20/09) | 26 | 84,6% (22/26) | 84,4% | **Média**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]. Sessão mista em cinco disciplinas, com pontuação ponderada parcial de **31,0/36,5** nos itens respondidos. Três erros de confusão conceitual e um de conhecimento; Legislação 4/4. Uma questão de Português anulada ficou fora do denominador e Inglês não foi contado por ausência de respostas. |
 | **Semana 36** (31/08 a 06/09) | 207 | 82,1% (170/207) | Não calculável | **Alta**: Sessões de 31/08, 01/09, 02/09, 03/09 e 04/09 totalizando 207 Qs (170 acertos). A sessão de 04/09 adicionou 12 Qs úteis de Raciocínio Lógico (10 acertos, 83,3%) em duas baterias (retenção de necessária/suficiente e mista com De Morgan e contraposição). A sessão de 03/09 adicionou 5 Qs úteis de Raciocínio Lógico (3 acertos, 60,0%). A sessão de 02/09 adicionou 13 Qs úteis de Raciocínio Lógico (6 acertos, 46,2%). O Simulado 02 (01/09) acrescentou 70 Qs e 67 acertos, mas sua distribuição por disciplina não foi registrada, impedindo o recálculo responsável da TAP global. Sessões anteriores totalizaram 107 Qs com 84 acertos: **Simulado 01 Completo** (70 Qs, 54/70 — 77,1%) e **Bateria LGPD Aprofundada** (37 Qs, 30/37 — 81,1%). |
 | **Semana 33** (10/08 a 16/08) | 113 | 91,2% (103/113) | 90,4% | **Alta**: Ingestão de Inbox nos dias 10/08 (51 Qs CS), 11/08 (44 Qs CS) e 12/08 (18 Qs Português). Concluiu 100% do edital de Comunicação e aplicou diagnósticos de gramática e regência da FGV em Português. |
@@ -105,6 +106,8 @@ Registro de simulados completos ou baterias mistas em condições reais de prova
 
 | Simulado / Treino Misto | Data | Acertos | Desvio / Variância | Condições (Tempo / Qs) | Diagnóstico / Observação |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [[00 - Desempenho/Simulados/Simulado-04\|Simulado 04 — Dataprev FGV]] | 03/10/2026 | 63/70 (90,0%) | **105/115** ponderados; +1,5 ponto vs. Simulado 03 | 70 Qs; distribuição oficial 12/12/5/6/5/30 | Comunicação 28/30; Lógica 4/5. Sete erros em microfronteiras, com reincidência em método do bloco e regime de metas/Selic. |
+| [[00 - Desempenho/Simulados/Simulado-03\|Simulado 03 — Dataprev FGV]] | 30/09/2026 | 63/70 (90,0%) | **103,5/115** ponderados | 70 Qs; distribuição oficial 12/12/5/6/5/30 | Lógica 2/5 foi o principal gargalo; Comunicação 27/30 e Atualidades/IA 6/6 ficaram subcalibradas em dificuldade. |
 | [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]] | 14/09/2026 | 22/26 (84,6%) | Pontuação ponderada parcial: 31,0/36,5; /115 não calculável | 26 válidas; 5 disciplinas; 1 questão de Português anulada; Inglês sem respostas | Diagnóstico de retenção com quatro erros úteis: três [C] e um [K]. Destaques positivos: Legislação 4/4, De Morgan recuperado e Comunicação em 6/7. |
 | [[00 - Desempenho/Simulados/Simulado-02\|Simulado 02 (distribuição não oficial)]] | 01/09/2026 | 67/70 (95,7%) | +18,6 p.p. sobre o Simulado 01 | 70 Qs | Desempenho bruto alto; nota /115 e TAP indisponíveis. Erros concentrados em equivalências/negações lógicas e concordância verbal. |
 | [[00 - Desempenho/Simulados/Simulado-01\|Simulado 01 (Módulo I + Comunicação)]] | 31/08/2026 | 54/70 (77,1%) | - | 70 Qs (7 blocos de 10 Qs) | Bateria completa de prova Dataprev. 100% de aproveitamento em Inglês, Comunicação Pública, Jornalismo, Comunicação Digital/UX, Planejamento e Administração Pública. 16 erros mapeados em Lógica (equivalências/tabela verdade), Marco Civil (art. 2º e 9º), Schein (artefatos vs. pressupostos), Português ("SE" e crase) e LGPD (bases públicas). |

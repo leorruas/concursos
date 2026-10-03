@@ -1,5 +1,75 @@
 [
   {
+    "id": "err-sim04-q07-referencia",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Portuguesa",
+    "assunto": "Ambiguidade de referência pronominal: possessivo compatível com mais de um antecedente",
+    "notaPath": "3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais.md",
+    "tipoErro": "interpretacao",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-04.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim04-q11-hifen",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Portuguesa",
+    "assunto": "Hífen com prefixos: vogais iguais, vogais diferentes, H e duplicação de R/S",
+    "notaPath": "3 - Materias/Portugues/05 - acordo ortografico.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-04.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim04-q28-bloco",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Raciocínio Lógico",
+    "assunto": "Método do bloco recorrente: contar objetos externos e multiplicar pelas permutações internas",
+    "notaPath": "3 - Materias/Logica/09 - analise combinatoria.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-04.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim04-q30-metas",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Atualidades e Inteligência Artificial",
+    "assunto": "Regime de metas recorrente: meta central × faixa de tolerância × expectativas × decisão não automática da Selic",
+    "notaPath": "3 - Materias/Atualidades/03 - regime de metas inflacao selic copom.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-04.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim04-q37-marco-civil-prazos",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Legislação de SI e proteção de dados",
+    "assunto": "Marco Civil: registro de conexão por 1 ano × acesso a aplicações por 6 meses",
+    "notaPath": "3 - Materias/Informatica/01 - marco civil da internet.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-04.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim04-q41-duarte",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Jorge Duarte: interação × ouvidoria social",
+    "notaPath": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-04.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim04-q45-7ps",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "7 Ps de serviços: Process × Physical Evidence",
+    "notaPath": "3 - Materias/Comunicacao/19 - marketing institucional e branding.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-04.md",
+    "status": "pendente"
+  },
+  {
     "id": "err-sim02-q15",
     "concursoId": "dataprev-2026",
     "disciplina": "Raciocínio Lógico",

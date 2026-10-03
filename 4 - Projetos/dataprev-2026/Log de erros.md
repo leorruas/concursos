@@ -3,14 +3,14 @@ title: "Log de erros - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-09-14
+updated: 2026-10-03
 ---
 
 # Log de erros - Dataprev 2026
 
 Registro de erros recorrentes, pegadinhas de banca e falsos cognatos lógicos identificados durante a resolução de questões e simulados da FGV.
 
-Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]], os diagnósticos do [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]] e do [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], e a [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
+Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]], os diagnósticos dos [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]], [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], [[00 - Desempenho/Simulados/Simulado-03|Simulado 03]] e [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]], além da [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
 
 ## Língua Portuguesa (FGV)
 - **Funções do "SE" (PA vs. IIS):** Q21 do Simulado 01 — *VTD/VTDI com sujeito paciente no plural exige concordância passiva (PA)*; *VTI/VI com preposição mantém verbo invariável na 3ª pessoa do singular (IIS)*. [[3 - Materias/Portugues/02 - sujeito#Sujeito Determinado vs. Indeterminado e as Funções da Partícula "SE"|Estudo em Sujeito]].
@@ -49,6 +49,30 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 ## Atualidades / IA
 - **Regime de metas, IPCA, Selic e Copom:** Q1 da bateria de 14/09/2026 — [K]. Queda do IPCA não produz redução automática da Selic nem na mesma proporção. A leitura correta exige separar meta central (3,0%), faixa de tolerância (1,5% a 4,5%), critério formal de seis meses consecutivos fora da faixa e decisão do Copom baseada no conjunto do cenário e expectativas. [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom#Tensões e pegadinhas|Estudo em regime de metas, inflação, Selic e Copom]].
 
+
+## Simulado 04 — 03/10/2026
+
+**Resultado:** 63/70 = 90,0%. **105/115 = 91,3%**. Módulo I: 35/40; Comunicação: 28/30.
+
+### Língua portuguesa
+- **Q7 — ambiguidade de referência pronominal:** [I]. "Seu relatório" admitia dois antecedentes plausíveis. [[3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais#Refinamento — ambiguidade de referência pronominal|Ambiguidade referencial]].
+- **Q11 — hífen com prefixos:** [K]. Reincidência de recuperação ortográfica. [[3 - Materias/Portugues/05 - acordo ortografico#Refinamento — teste rápido de hífen|Hífen com prefixos]].
+
+### Raciocínio lógico
+- **Q28 — método do bloco:** [C, recorrente]. Cinco objetos externos × 3! ordens internas = 720. [[3 - Materias/Logica/09 - analise combinatoria#Elementos que devem ficar juntos: método do bloco|Método do bloco]].
+- **Q25 — contrapositiva, acerto inseguro:** manter P → Q ≡ ¬Q → ¬P em recuperação espaçada. [[3 - Materias/Logica/04 - equivalencias#Contrapositiva — voltar negando|Contrapositiva]].
+
+### Atualidades e IA
+- **Q30 — regime de metas/Selic:** [K, recorrente]. Separar meta, faixa, expectativas, horizonte e decisão do Copom. [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom#Novo exemplo — corte da Selic com inflação ainda acima da meta|Regime de metas e Copom]].
+- **Q31 — COP × Pre-COP, acerto inseguro:** baixa familiaridade declarada. [[3 - Materias/Atualidades/10 - mudanca climatica cop e mercado de carbono#Refinamento — COP × Pre-COP|COP × Pre-COP]].
+
+### Legislação
+- **Q37 — Marco Civil:** [K]. Conexão = 1 ano; acesso a aplicações = 6 meses. [[3 - Materias/Informatica/01 - marco civil da internet#Guarda de registros|Guarda de registros]].
+- **Q36 — LAI, acerto com lacuna do vault:** acertou 25/15/5, mas a teoria não continha a tríade e foi refinada. [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao#Refinamento — graus e prazos de sigilo|Graus e prazos de sigilo]].
+
+### Comunicação social
+- **Q41 — Jorge Duarte:** [C]. Interação × ouvidoria social. [[3 - Materias/Comunicacao/02 - comunicacao publica#Ouvidoria social|Ouvidoria social]].
+- **Q45 — 7 Ps:** [C]. Process × Physical Evidence. [[3 - Materias/Comunicacao/19 - marketing institucional e branding#Refinamento — Process × Physical Evidence|7 Ps de serviços]].
 
 ## Simulado 03 — 30/09/2026
 

@@ -3,7 +3,7 @@ title: "Acordo ortográfico"
 type: "conceito"
 status: "ativo"
 created: 2026-06-08
-updated: 2026-07-07
+updated: 2026-10-03
 ---
 
 # Acordo ortográfico
@@ -27,6 +27,19 @@ O uso do hífen com prefixos segue heurísticas bem definidas baseadas no encont
   - Ex: **autoescola**, **infraestrutura**, **semiaberto**, **semiárido** (mantém o acento original da palavra base).
 - **Prefixos com R ou S**: Se a segunda palavra começar com **R** ou **S**, o hífen é eliminado e duplica-se a consoante.
   - Ex: **antissocial**, **contrarregra**, **autorretrato**.
+
+### Refinamento — teste rápido de hífen
+
+Antes de confiar na memória visual, olhe para a fronteira entre prefixo e base:
+
+| Encontro | Regra | Exemplo |
+| :--- | :--- | :--- |
+| mesma vogal | mantém hífen | **micro-ondas**, **anti-inflamatório** |
+| vogais diferentes | une | **autoavaliação**, **infraestrutura** |
+| R ou S após prefixo terminado em vogal | une e duplica | **contrarregra**, **antissocial** |
+| base iniciada por H | mantém hífen | **anti-herói** |
+
+A FGV pode reunir palavras de famílias diferentes na mesma alternativa. A decisão deve ser feita **palavra por palavra**, e não por semelhança visual do conjunto.
 
 ---
 

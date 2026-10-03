@@ -3,10 +3,18 @@ title: "Avanços e desempenho (Português)"
 type: "hub"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-09-14
+updated: 2026-10-03
 ---
 
 # Avanços e desempenho (Português)
+
+## Simulado 04 — 03/10/2026
+
+- **Resultado:** 10/12 (83,3%).
+- **Erros:** Q7 [I] em ambiguidade de referência pronominal e Q11 [K] em hífen com prefixos.
+- **Acerto inseguro:** Q10, colocação pronominal.
+- **Diagnóstico:** interpretação global continua forte; os desvios se concentram em microdecisões gramaticais e referenciais. O hífen reaparece como recuperação visual instável apesar de teoria já existente.
+- **Estudo:** [[3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais#Refinamento — ambiguidade de referência pronominal|Ambiguidade referencial]] e [[3 - Materias/Portugues/05 - acordo ortografico#Refinamento — teste rápido de hífen|Hífen com prefixos]].
 
 ## Simulado 02 — 01/09/2026
 
@@ -22,6 +30,8 @@ updated: 2026-09-14
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 03/10/2026 | 12 | Língua Portuguesa | Simulado 04 Dataprev/FGV: 10/12 (83,3%). Erros Q7 [I] em ambiguidade referencial e Q11 [K] em hífen; Q10 correta com insegurança em colocação pronominal. |
+| 30/09/2026 | 12 | Língua Portuguesa | Simulado 03 Dataprev/FGV: 12/12 (100%). |
 | 14/09/2026 | 6 | Língua Portuguesa | Bateria mista FGV: 7 itens apresentados, 1 anulado por ausência de alternativa incorreta; 6 válidos, 5/6 (83,3%). Acertos em haver/existir, `se` apassivador × indeterminação, crase, voz passiva e regência de `preferir`; erro [C] em adversativa × concessiva. |
 | 12/08/2026 | 18 | Língua Portuguesa | Ingestão de Inbox (Diagnóstico FGV): Bateria 1 (7/8) e Bateria 2 (5/10) abrangendo Acentuação, Acordo Ortográfico, Concordância Impessoal (Fazer/Haver/Existir), Conjunções Concessivas, Colocação Pronomial, Coesão/Ambiguidade e Regência (Preferir X a Y / Chegar a) (12/18) |
 | 07/07/2026 | 19 | Língua Portuguesa | Bateria de Gramática e Acordo Ortográfico (6/10) e Identificação de Tonicidade (8/9) (14/19) |
@@ -34,6 +44,7 @@ updated: 2026-09-14
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
+| **Semana 40** (28/09 a 04/10) | 24 | 91,7% (22/24) | Simulados 03 e 04. Interpretação permaneceu forte; no Simulado 04 surgiram ambiguidade referencial e recuperação instável de hífen. |
 | **Semana 38** (14/09 a 20/09) | 6 | 83,3% (5/6) | Recuperação forte dos gargalos gramaticais recentes. O único erro válido foi a reincidência `contudo` × `embora`, agora classificada como erro recorrente [C]. |
 | **Semana 33** (10/08 a 16/08) | 18 | 66,7% (12/18) | Diagnóstico FGV revelou lacunas de convenção ortográfica, impessoalidade, regência e ambiguidade referencial. |
 | **Semana 28** (06/07 a 12/07) | 19 | 73,7% (14/19) | Retorno após hiato com oscilação em convenções arbitrárias, acordo ortográfico e leitura rápida. |

@@ -1,5 +1,53 @@
 [
   {
+    "id": "dataprev-simulado-04",
+    "concursoId": "dataprev-2026",
+    "nome": "Simulado 04",
+    "tipo": "simulado",
+    "bancaReferencia": "FGV",
+    "data": "2026-10-03",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-04.md",
+    "resultado": {
+      "totalQuestoes": 70,
+      "acertos": 63,
+      "percentualBruto": 90,
+      "acertosGerais": 35,
+      "acertosEspecificos": 28,
+      "notaPonderada": 105,
+      "disciplinas": {
+        "linguaPortuguesa": {
+          "acertos": 10,
+          "total": 12
+        },
+        "linguaInglesa": {
+          "acertos": 12,
+          "total": 12
+        },
+        "raciocinioLogicoMatematico": {
+          "acertos": 4,
+          "total": 5
+        },
+        "atualidadesInteligenciaArtificial": {
+          "acertos": 5,
+          "total": 6
+        },
+        "legislacaoSegurancaInformacaoProtecaoDados": {
+          "acertos": 4,
+          "total": 5
+        },
+        "conhecimentosEspecificosComunicacao": {
+          "acertos": 28,
+          "total": 30
+        }
+      }
+    },
+    "comparabilidadeEdital": {
+      "status": "muito_alta",
+      "notaEditalAtualCalculavel": true,
+      "motivo": "Reproduziu integralmente a distribuição oficial Dataprev 2026 (12/12/5/6/5/30), permitindo cálculo /115. Foi calibrado com maior exigência em autores, taxonomias e fatos institucionais após o Simulado 03."
+    }
+  },
+  {
     "id": "dataprev-simulado-03",
     "concursoId": "dataprev-2026",
     "nome": "Simulado 03",

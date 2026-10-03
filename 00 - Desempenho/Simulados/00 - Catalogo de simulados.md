@@ -3,7 +3,7 @@ title: "Catálogo de simulados"
 type: "hub"
 status: "ativo"
 created: 2026-08-31
-updated: 2026-09-30
+updated: 2026-10-03
 ---
 
 # Catálogo de simulados
@@ -20,6 +20,7 @@ Para gerar uma nova prova com ChatGPT, Gemini ou outra LLM com acesso ao vault, 
 
 | Simulado | Data | Questões | Acertos | Aproveitamento | Erros Mapeados | Arquivo de Diagnóstico |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Simulado 04** (distribuição oficial) | 03/10/2026 | 70 | 63 | **90,0%** | 7 (Q7, Q11, Q28, Q30, Q37, Q41, Q45) | [[00 - Desempenho/Simulados/Simulado-04\|Simulado 04 - Diagnóstico Completo]] |
 | **Simulado 03** (distribuição oficial) | 30/09/2026 | 70 | 63 | **90,0%** | 7 (Q26, Q27, Q28, Q38, Q56, Q57, Q58) | [[00 - Desempenho/Simulados/Simulado-03\|Simulado 03 - Diagnóstico Completo]] |
 | **Bateria Mista Dataprev/FGV** | 14/09/2026 | 26 válidas | 22 | **84,6%** | 4 erros úteis (3 [C], 1 [K]) | [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14\|Diagnóstico da bateria mista]] |
 | **Simulado 01** (Módulo I + Comunicação) | 31/08/2026 | 70 | 54 | **77,1%** | 16 (Q3, Q5, Q10, Q13, Q14, Q21, Q22, Q24, Q26, Q31, Q48, Q54, Q58, Q61, Q65, Q70) | [[00 - Desempenho/Simulados/Simulado-01\|Simulado 01 - Diagnóstico Completo]] |

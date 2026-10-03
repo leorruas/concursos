@@ -3,7 +3,7 @@ title: "Coesão textual: referenciação, conectores e tempos verbais"
 type: "conceito"
 status: "ativo"
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-03
 ---
 
 # Coesão textual: referenciação, conectores e tempos verbais
@@ -27,6 +27,17 @@ updated: 2026-09-30
 Heurística: **anáfora olha para trás; catáfora aponta para frente**.
 
 A retomada também pode ocorrer por expressão nominal, sinônimo, hiperônimo, repetição controlada ou elipse.
+
+### Refinamento — ambiguidade de referência pronominal
+
+Um pronome pode ser gramaticalmente compatível com mais de um antecedente. Nesse caso, a proximidade física não basta para determinar o referente.
+
+> A coordenadora informou à analista que **seu relatório** precisava de ajustes.
+
+O possessivo "seu" pode apontar para o relatório da coordenadora ou para o da analista. Sem informação adicional, a referência é ambígua. Em prova, compare **gênero/número, papel sintático e plausibilidade semântica**; se dois antecedentes continuarem compatíveis, não invente uma preferência pelo termo mais próximo.
+
+> [!TIP]
+> **Referente mais próximo ≠ referente obrigatório.** Se a frase permite duas leituras sem violar a gramática nem o contexto, há ambiguidade referencial.
 
 ### Elipse
 

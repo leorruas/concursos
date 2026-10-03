@@ -3,7 +3,7 @@ title: "Marketing institucional e branding"
 type: "conceito"
 status: "ativo"
 created: 2026-07-27
-updated: 2026-09-10
+updated: 2026-10-03
 ---
 # Marketing institucional e branding
 
@@ -39,6 +39,15 @@ Para serviços, Booms e Bitner acrescentam três dimensões aos 4 Ps:
 - **People / Pessoas**: quem participa da entrega e da interação com o usuário.
 - **Process / Processos**: como o serviço é executado.
 - **Physical Evidence / Evidências físicas**: elementos tangíveis que ajudam o usuário a perceber e avaliar um serviço intangível, como ambiente, sinalização, interface, materiais e comprovantes.
+
+### Refinamento — Process × Physical Evidence
+
+| Dimensão | Pergunta de prova | Exemplos |
+| :--- | :--- | :--- |
+| **Process** | **Como** o serviço é executado? | etapas, fila, aprovação, handoffs, tempo e fluxo de atendimento |
+| **Physical Evidence** | **Por quais sinais tangíveis** o usuário percebe/avalia o serviço? | ambiente, sinalização, interface, material, comprovante |
+
+Uma interface pode participar das duas dimensões em análises diferentes. Se o enunciado enfatiza o **fluxo de execução** que ela operacionaliza, há componente de Process; se enfatiza sua aparência ou função como evidência tangível da experiência, a categoria pedida tende a ser Physical Evidence. O critério é a **função descrita no enunciado**.
 
 > [!IMPORTANT]
 > **Evidência física não é sinônimo de touchpoint.** Um touchpoint é qualquer ponto de contato entre público e marca. Atendimento humano, aplicativo, e-mail, publicidade, interface e ambiente físico podem todos ser touchpoints. A evidência física é uma categoria específica do mix de serviços.
@@ -194,6 +203,7 @@ Em provas recentes, a FGV cobrou diretamente os 4 Ps, segmentação psicográfic
 
 ## Tensões e pegadinhas
 
+- **Process ≠ Physical Evidence**: processo = execução/fluxo; evidência física = sinais tangíveis pelos quais o serviço intangível é percebido.
 - **Marketing ≠ publicidade**.
 - **Promoção ≠ desconto**.
 - **Segmentação ≠ público-alvo**.

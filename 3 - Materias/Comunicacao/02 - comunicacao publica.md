@@ -3,7 +3,7 @@ title: "Comunicação pública"
 type: "conceito"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-09-10
+updated: 2026-10-03
 ---
 # Comunicação pública
 
@@ -120,6 +120,8 @@ Os melhores distratores deslocam partes verdadeiras entre os quatro eixos ou tra
 
 ## Tensões e pegadinhas
 
+**Interação × ouvidoria social:** interação enfatiza a existência de fluxo bi ou multilateral, diálogo e oportunidade de falar e ser ouvido. Ouvidoria social enfatiza **conhecer sistematicamente opiniões, motivações, interesses e critérios de satisfação dos segmentos sociais** para usar essa escuta como referência de ação. Pesquisa de opinião pode gerar interação no processo, mas, se o núcleo do enunciado for conhecer os públicos para orientar decisões, a categoria mais específica é ouvidoria social.
+
 - **Público ≠ governamental**.
 - **Estado ≠ governo**.
 - **Informação ≠ comunicação**.
@@ -130,6 +132,8 @@ Os melhores distratores deslocam partes verdadeiras entre os quatro eixos ou tra
 - **Interesse público ≠ conveniência do emissor**.
 
 ## Exemplos comentados
+
+**Novo exemplo — pesquisa para orientar decisão:** uma instituição aplica pesquisas periódicas para compreender percepções e expectativas de grupos sociais e usa os resultados para revisar sua atuação. O melhor enquadramento entre os quatro eixos de Duarte é **ouvidoria social**. O distrator mais plausível é **interação**, porque ambos envolvem relação com públicos; a diferença está na finalidade predominante da prática descrita.
 
 **Caso 1:** um ministério publica uma planilha completa, mas incompreensível e impossível de localizar. Há oferta formal de informação, porém o eixo `acesso` continua problemático na perspectiva comunicacional de Duarte.
 

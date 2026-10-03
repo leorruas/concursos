@@ -3,7 +3,7 @@ title: "Dashboard - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-09-30
+updated: 2026-10-03
 ---
 
 # Dashboard - Dataprev 2026
@@ -65,7 +65,7 @@ A **Wiki do edital** mapeia os tópicos exigidos de forma direta, servindo como 
 
 | Data | Resultado bruto | Nota ponderada Dataprev | Diagnóstico |
 | :--- | :---: | :---: | :--- |
-| 30/09/2026 | [[00 - Desempenho/Simulados/Simulado-03|63/70 — 90,0%]] | **103,5/115 — 90,0%** | Distribuição oficial. Principal gargalo: Lógica 2/5. Comunicação e Atualidades/IA ficaram subcalibradas em dificuldade. |
+| 03/10/2026 | [[00 - Desempenho/Simulados/Simulado-04|63/70 — 90,0%]] | **105/115 — 91,3%** | Distribuição oficial. Comunicação 28/30; Lógica recuperou para 4/5. Erros residuais concentrados em microfronteiras de Português, Atualidades, Legislação e taxonomias de Comunicação. |
 
 ## Última bateria mista
 

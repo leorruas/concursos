@@ -3,7 +3,7 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-09-14
+updated: 2026-10-03
 ---
 # Avanços e desempenho
 
@@ -70,6 +70,8 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 03/10/2026 | 30 | Comunicação Social | Simulado 04 Dataprev/FGV: 28/30 (93,3%). Erros [C] em Jorge Duarte (interação × ouvidoria social) e 7 Ps (Process × Physical Evidence); acertos em Aaker/brand equity, Mattar e touchpoints. |
+| 30/09/2026 | 30 | Comunicação Social | Simulado 03 Dataprev/FGV: 27/30 (90%). Erros em malinformation, conversão × alcance e ROI × ROAS; bloco considerado subcalibrado em dificuldade. |
 | 14/09/2026 | 7 | Comunicação Social | Bateria FGV de Schein, Kunsch, teorias do jornalismo, assessoria/media training e finalidade predominante: 6/7 (85,7%). Erro único [C] em clipping × auditoria de imagem na mídia. |
 | 31/08/2026 | 37 | Comunicação Social | Ingestão de Inbox (LGPD Aprofundada - Bloco 2): Poder Público e Segurança (2/4), Fixação Poder Público (2/3), Categorias e Sensibilidade (4/6), Bases Legais (4/5), Consentimento (4/4), Compartilhamento e Estatais (5/5), Agentes/Responsabilidade (5/5) e Sanções/ANPD (4/5) (30/37 — 81,1%) |
 | 11/08/2026 | 44 | Comunicação Social | Ingestão de Inbox (Fechamento do Edital): Bridging/Coletivas (6/6), Nielsen em UX Writing (11/14), Redes Sociais Governamentais (6/6), CMS e Ferramentas Adobe (6/6), Produção por Meio (6/6) e Transparência/Prestação de Contas (5/6) (40/44) |
@@ -96,6 +98,7 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
+| **Semana 40** (28/09 a 04/10) | 60 | 91,7% (55/60) | Dois simulados integrais. O Simulado 04 elevou Comunicação a 28/30 sob calibração mais exigente; os erros ficaram em taxonomias próximas de Duarte e Booms/Bitner. |
 | **Semana 38** (14/09 a 20/09) | 7 | 85,7% (6/7) | Desempenho alto em autores, taxonomias e aplicação profissional. Falha isolada de fronteira entre etapa de coleta (`clipping`) e análise longitudinal estruturada (`auditoria de imagem na mídia`). |
 | **Semana 36** (31/08 a 06/09) | 37 | 81,1% (30/37) | Bateria LGPD aprofundada. Acertos fortes em consentimento, compartilhamento e agentes; lacunas pontuais em Poder Público, sensibilidade, bases legais e sanções foram corrigidas na própria sessão. |
 | **Semana 33** (10/08 a 16/08) | 95 | 95,8% (91/95) | Fechamento do edital com produção audiovisual, digital, LGPD, Nielsen, redes governamentais, CMS/Adobe e transparência. |
@@ -109,6 +112,14 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 ---
 
 ## Diagnósticos de desempenho
+
+### Simulado 04 — autores e taxonomias (03/10/2026)
+- **Resultado:** 28/30 (93,3%).
+- **Erro Q41 [C]:** interação × ouvidoria social em Jorge Duarte. O caso descrevia pesquisa/escuta sistemática para compreender segmentos e orientar decisões, núcleo de ouvidoria social.
+- **Erro Q45 [C]:** Process × Physical Evidence nos 7 Ps. Confundiu execução do serviço com evidências tangíveis da experiência.
+- **Evidências positivas:** Aaker/brand equity, Mattar, touchpoints, agenda-setting, noticiabilidade, assessoria, PESO, métricas, visualização, UX Writing, produção audiovisual, CMS e governança de IA foram recuperados corretamente.
+- **Destino pedagógico:** ambos os erros = métrica + enriquecimento teórico + questão comentada candidata; as notas existentes foram refinadas sem criar teoria duplicada.
+- **Estudo:** [[3 - Materias/Comunicacao/02 - comunicacao publica#Ouvidoria social|Ouvidoria social]] e [[3 - Materias/Comunicacao/19 - marketing institucional e branding#Refinamento — Process × Physical Evidence|Process × Physical Evidence]].
 
 ### Diagnóstico de bateria FGV: autores, teorias do jornalismo e assessoria (14/09/2026)
 - **Diagnóstico consolidado da sessão**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].

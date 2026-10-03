@@ -4,7 +4,7 @@ type: "conceito"
 status: "ativo"
 layer: "fundamento_estavel"
 created: 2026-09-14
-updated: 2026-09-30
+updated: 2026-10-03
 ---
 
 # Regime de metas, Selic e Copom
@@ -101,6 +101,23 @@ Se o IPCA acumulado em 12 meses estiver em 4,2%:
 
 Se o IPCA cai em determinado mês, isso pode aumentar a probabilidade de redução da Selic, mas não determina a decisão do Copom. O Comitê avalia se a queda é persistente, quais grupos de preços explicam o movimento, expectativas futuras e o balanço de riscos.
 
+### Novo exemplo — corte da Selic com inflação ainda acima da meta
+
+> [!NOTE]
+> Exemplo conjuntural verificado em 03/10/2026. Revalidar antes de reutilizar como fato atual.
+
+Na reunião de **15 e 16 de setembro de 2026**, o Copom registrou que a inflação cheia e as medidas subjacentes haviam desacelerado e estavam **abaixo do limite superior da faixa de tolerância, mas ainda acima da meta**. As expectativas Focus para 2026 e 2027 continuavam acima da meta. Mesmo nesse quadro, o Comitê reduziu a Selic para **13,75% ao ano**, considerando o horizonte relevante, a moderação da atividade e o balanço de riscos.
+
+Esse caso separa quatro camadas que a prova pode misturar:
+
+1. **meta central**: onde a inflação deve convergir;
+2. **faixa de tolerância**: intervalo em torno da meta, não sinônimo da meta;
+3. **expectativas e projeções**: sinais sobre inflação futura, não inflação já realizada;
+4. **decisão da Selic**: resposta do Copom ao conjunto do cenário, não função automática de um número isolado.
+
+> [!WARNING]
+> **Inflação ainda acima da meta** não implica **corte de juros impossível**. Também não significa que qualquer corte seja adequado: a decisão depende do horizonte e do balanço de riscos.
+
 ## Snapshots relacionados
 
 - [[Snapshots/2026-09-14 - IPCA agosto e Selic|IPCA de agosto e Selic — 14/09/2026]]
@@ -124,4 +141,5 @@ Verificadas em 14/09/2026:
 - Banco Central do Brasil: histórico do regime de metas: https://www.bcb.gov.br/controleinflacao/historicometas
 - Resolução CMN nº 5.141/2024: https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=5141&tipo=RESOLU%C3%87%C3%83O%20CMN
 - Banco Central do Brasil: histórico da Selic: https://www.bcb.gov.br/controleinflacao/historicotaxasjuros
+- Banco Central do Brasil: Ata da 281ª reunião do Copom (15–16/09/2026): https://www.bcb.gov.br/publicacoes/atascopom/16092026
 - IBGE: IPCA e séries oficiais: https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html

@@ -3,9 +3,17 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-05-28
-updated: 2026-09-14
+updated: 2026-10-03
 ---
 # Avanços e desempenho
+
+## Simulado 04 — 03/10/2026
+
+- **Resultado:** 4/5 (80%), contra 2/5 no Simulado 03.
+- **Erro:** Q28 [C] em método do bloco, reincidente em relação ao Simulado 03: contou de modo incompleto as permutações internas.
+- **Acerto inseguro:** Q25, contrapositiva P → Q ≡ ¬Q → ¬P.
+- **Diagnóstico:** houve recuperação clara do bloco de Lógica, mas o método do bloco permanece um erro recorrente real. Contrapositiva foi acertada, porém ainda exige recuperação consciente.
+- **Estudo:** [[3 - Materias/Logica/09 - analise combinatoria#Elementos que devem ficar juntos: método do bloco|Método do bloco]] e [[3 - Materias/Logica/04 - equivalencias#Contrapositiva — voltar negando|Contrapositiva]].
 
 ## Simulado 02 — 01/09/2026
 
@@ -20,6 +28,8 @@ updated: 2026-09-14
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 03/10/2026 | 5 | Raciocínio Lógico | Simulado 04 Dataprev/FGV: 4/5 (80%). Erro [C] recorrente no método do bloco; contrapositiva correta com insegurança declarada. |
+| 30/09/2026 | 5 | Raciocínio Lógico | Simulado 03 Dataprev/FGV: 2/5 (40%). Erros em negação de universal com disjunção, divisão proporcional e método do bloco. |
 | 14/09/2026 | 6 | Raciocínio Lógico | Bateria mista de quantificadores, proposições, inferência categórica, De Morgan e condicional: 5/6 (83,3%). Erro único [C] na negação de “nenhum”; De Morgan e falsidade da condicional recuperados corretamente. |
 | 04/09/2026 | 12 | Raciocínio Lógico | Ingestão de Inbox: Bateria 1 de Retenção (Condição Necessária × Suficiente: 6/6, 100%) + Bateria 2 Mista (Quantificadores, Recíproca, De Morgan e Contraposição: 4/6, 66,7%). Total útil: 10/12 (83,3%). |
 | 03/09/2026 | 5 | Raciocínio Lógico | Ingestão de Inbox (Bateria Dirigida — Condição Necessária × Suficiente): 3/5 acertos válidos (60,0%; Q2 anulada por ausência de alternativa correta). Mapeou distinção estrita entre 'somente se' / condição necessária e condição suficiente. |
@@ -40,6 +50,7 @@ updated: 2026-09-14
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
+| **Semana 40** (28/09 a 04/10) | 10 | 60,0% (6/10) | O agregado ainda carrega o 2/5 do Simulado 03, mas o Simulado 04 recuperou para 4/5. Método do bloco reincidiu; contrapositiva acertada com baixa segurança. |
 | **Semana 38** (14/09 a 20/09) | 6 | 83,3% (5/6) | Retenção ampla preservada. Erro isolado em `Nenhum A é B → Algum A é B`; De Morgan e caso falso da condicional apareceram corretamente em contexto misto. |
 | **Semana 36** (31/08 a 06/09) | 30 | 63,3% (19/30) | Baterias de 02, 03 e 04/09. Houve recuperação de necessária × suficiente, com oscilações em tradução da condicional, De Morgan e contrapositiva. O Simulado 02 não entra nesta linha porque o número total de questões de Lógica não foi preservado. |
 | **Semana 27** (29/06 a 05/07) | 40 | 85,0% (34/40) | Revisão geral de 30/06 (26/30) + Possível × Necessário × Impossível em 02/07 (8/10). |

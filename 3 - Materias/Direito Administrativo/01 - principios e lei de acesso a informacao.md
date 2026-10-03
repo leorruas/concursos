@@ -3,7 +3,7 @@ title: "Princípios e lei de acesso à informação"
 type: "conceito"
 status: "ativo"
 created: 2026-06-02
-updated: 2026-09-10
+updated: 2026-10-03
 ---
 
 # Princípios e Lei de Acesso à Informação
@@ -110,6 +110,23 @@ Se isso não for possível, o órgão possui prazo de até **20 dias** para adot
 > O prazo de 20 dias não é um “prazo mínimo de espera”. A regra legal continua sendo acesso imediato quando possível.
 
 ## Acesso parcial e sigilo
+
+### Refinamento — graus e prazos de sigilo
+
+Pelo art. 24 da Lei nº 12.527/2011, informação imprescindível à segurança da sociedade ou do Estado pode ser classificada em três graus. Os **prazos máximos de restrição**, contados da data de produção, são:
+
+| Grau | Prazo máximo |
+| :--- | ---: |
+| **Ultrassecreta** | **25 anos** |
+| **Secreta** | **15 anos** |
+| **Reservada** | **5 anos** |
+
+Heurística: **U–S–R = 25–15–5**.
+
+A lei permite estabelecer como termo final um evento que ocorra antes do prazo máximo. Encerrado o prazo ou ocorrido esse evento, a informação torna-se automaticamente de acesso público. Há ainda regra específica para informações que possam colocar em risco a segurança do Presidente e do Vice-Presidente da República e de seus cônjuges e filhos: são classificadas como reservadas e permanecem sob sigilo até o término do mandato em exercício ou do último mandato, em caso de reeleição.
+
+> [!WARNING]
+> Não confunda **prazo de classificação do sigilo (25/15/5)** com **prazo de resposta a pedido de acesso (20 dias + possível prorrogação por 10)**. São institutos diferentes.
 
 Quando apenas parte do documento estiver protegida por sigilo, a LAI assegura acesso à parte não sigilosa mediante certidão, extrato ou cópia com ocultação do trecho protegido.
 

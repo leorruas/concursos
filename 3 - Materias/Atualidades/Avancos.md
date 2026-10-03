@@ -3,7 +3,7 @@ title: "Avanços e desempenho (Atualidades)"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-09-14
+updated: 2026-10-03
 ---
 
 # Avanços e desempenho (Atualidades)
@@ -12,6 +12,8 @@ updated: 2026-09-14
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 03/10/2026 | 6 | Atualidades / IA | Simulado 04 Dataprev/FGV: 5/6 (83,3%). Erro [K] recorrente em regime de metas/Selic; Pre-COP correta, mas com baixa familiaridade declarada. |
+| 30/09/2026 | 6 | Atualidades / IA | Simulado 03 Dataprev/FGV: 6/6 (100%), com ressalva de subcalibração de dificuldade. |
 | 14/09/2026 | 3 | Atualidades / IA | Bateria contextual de economia, mercados de carbono e segurança internacional de IA: 2/3 (66,7%). Erro [K] em regime de metas, IPCA, Selic e Copom; acertos em mercado de carbono e coexistência entre competição estratégica e cooperação em segurança de IA. |
 | 15/07/2026 | 8 | Atualidades / IA | Funcionamento de LLMs, Transformers, Attention, Alucinações, Deepfakes, Governança e Ética (8/8) |
 | 14/07/2026 | 3 | Atualidades / IA | Conceitos fundamentais de IA, ML, IA Generativa e LLMs (3/3) |
@@ -20,12 +22,20 @@ updated: 2026-09-14
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
+| **Semana 40** (28/09 a 04/10) | 12 | 91,7% (11/12) | Simulados 03 e 04. O único erro foi a reincidência em meta × faixa × decisão do Copom; COP/Pre-COP foi acertada, mas revelou lacuna de familiaridade institucional. |
 | **Semana 38** (14/09 a 20/09) | 3 | 66,7% (2/3) | IA/geopolítica e mercado de carbono foram resolvidos por compreensão. A falha ficou concentrada em repertório econômico básico: meta central × faixa de tolerância × descumprimento formal e relação não automática entre IPCA e Selic. |
 | **Semana 29** (13/07 a 19/07) | 11 | 100,0% (11/11) | Bloco de IA consolidado. Domínio perfeito das distinções conceituais (IA > ML > IA Gen. > LLM), funcionamento probabilístico de tokens, arquitetura Transformer (mecanismo de attention), origem estatística das alucinações, uso ético na comunicação pública, deepfakes vs. desinformação e princípios de governança e ética da IA (transparência, supervisão humana e LGPD). |
 
 ---
 
 ## Diagnósticos de desempenho
+
+### Simulado 04 — regime de metas e arquitetura das COPs (03/10/2026)
+- **Resultado:** 5/6 (83,3%).
+- **Erro Q30 [K, recorrente]:** confundiu estar abaixo do limite superior da faixa com estar na meta e não dominou a possibilidade de corte da Selic com inflação ainda acima da meta. A mesma família já havia aparecido em 14/09.
+- **Acerto Q31 com baixa segurança:** reconheceu corretamente a Pre-COP como etapa preparatória, mas declarou pouca familiaridade. A nota de clima foi refinada com a fronteira COP × Pre-COP.
+- **Destino pedagógico:** Q30 = métrica + enriquecimento teórico + erro recorrente; Q31 = enriquecimento teórico por lacuna declarada apesar do acerto.
+- **Estudo:** [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom#Novo exemplo — corte da Selic com inflação ainda acima da meta|Regime de metas e Copom]] e [[3 - Materias/Atualidades/10 - mudanca climatica cop e mercado de carbono#Refinamento — COP × Pre-COP|COP × Pre-COP]].
 
 ### Diagnóstico de bateria contextual — economia, clima e segurança de IA (14/09/2026)
 - **Diagnóstico consolidado da sessão**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].

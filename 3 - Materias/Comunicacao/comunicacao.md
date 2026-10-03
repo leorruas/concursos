@@ -13,6 +13,9 @@ updated: 2026-10-03
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]
+  - [[3 - Materias/Comunicacao/22.1 - ehling white e grunig quatro teorias do gerenciamento de rp|🆕 22.1 • Ehling, White e Grunig — quatro teorias do gerenciamento de RP]]
+  - [[3 - Materias/Comunicacao/22.2 - cesca comunicacao dirigida e veiculos|🆕 22.2 • Cesca — comunicação dirigida e classificação dos veículos]]
+  - [[3 - Materias/Comunicacao/22.3 - paulo nassar comunicacao integrada virtual|🆕 22.3 • Paulo Nassar — comunicação integrada virtual]]
 - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
 - [[3 - Materias/Comunicacao/02 - comunicacao publica|02 • Comunicação pública]]
 - [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]]
@@ -53,4 +56,4 @@ updated: 2026-10-03
 - [[3 - Materias/Comunicacao/referencias/Kunsch|Kunsch (Obra integrada)]]
 
 ---
-*Última atualização: 2026-07-29*
+*Última atualização: 2026-10-03*

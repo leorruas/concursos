@@ -1122,3 +1122,10 @@
 - A nota cobre equivalência, sinonímia contextual, conectores, voz ativa/passiva, discurso direto/indireto, pressupostos, escopo de negação e quantificadores.
 - Hub de Português, índice global e cronograma da semana final atualizados na mesma operação.
 
+## 2026-10-03 — Chunk 5 — crase
+
+- Criado [[3 - Materias/Portugues/11 - crase|🆕 Crase]] como artigo completo para o item 5.7 do edital de Português.
+- A nota organiza crase por estrutura: preposição + artigo/demonstrativo, casos obrigatórios, proibidos e facultativos, locuções, horas, topônimos, `àquele/à qual`, casa/terra/distância e testes operacionais.
+- Foram incluídas fronteiras FGV, duas questões comentadas e ligação direta com [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]].
+- Hub de Português, índice global e cronograma da semana final atualizados na mesma operação.
+

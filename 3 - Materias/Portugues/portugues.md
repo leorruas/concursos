@@ -26,7 +26,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Concordância**: [[06 - concordancia verbal e nominal|06 • Concordância verbal e nominal]].
 - **Orações e conectivos**: [[07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas]].
 - **Morfologia**: Classes de palavras (substantivo, verbo, adjetivo, pronome) e flexões.
-- **Crase**: Casos obrigatórios, proibidos e facultativos.
+- **Crase**: [[11 - crase|🆕 11 • Crase]].
 - **Reescrita, semântica e preservação de sentido**: [[10 - reescrita semantica e preservacao de sentido|🆕 10 • Reescrita, semântica e preservação de sentido]].
 
 ---

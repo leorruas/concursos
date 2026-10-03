@@ -79,42 +79,66 @@ Planejamento operacional da **Reta Final de 40 Dias** até a prova (**11 de outu
 
 ## 3. Backlog teórico mínimo da semana final (03 a 10/10)
 
-A auditoria contra a prova oficial de 2024 mostrou que não vale reabrir toda a teoria. O ganho marginal está concentrado em poucos artigos novos e refinamentos de alto retorno.
+A auditoria contra a prova oficial de 2024 mostrou que vale **materializar artigos completos e curtos**, em vez de concentrar tudo em pequenos enxertos. A leitura não é o gargalo; o objetivo é deixar cada lacuna com um destino de revisão claro.
+
+### Convenção visual desta semana
+
+- **🆕** = artigo novo;
+- **🔄** = artigo existente substancialmente atualizado.
+
+O emoji entra no `title:` e no `# H1`, mas **não** no nome físico do arquivo.
 
 ### Prioridade A — fazer antes do próximo ou do penúltimo simulado
 
-- [ ] **Criar:** `3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas.md`  
-  Núcleo: Ehling, White & Grunig; Cesca; Paulo Nassar; fronteiras entre teorias/categorias; associação autor → estrutura → aplicação. Evitar biografias: estudar somente o que produz alternativa de prova.
+- [ ] **🆕 Autores e taxonomias de comunicação organizacional e relações públicas**  
+  Arquivo: `3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas.md`  
+  Núcleo: Ehling, White & Grunig; Cesca; Paulo Nassar; autor → conceito → estrutura interna → categorias → limites → confusões prováveis. Evitar biografia sem função de prova.
 
-- [ ] **Refinar:** [[3 - Materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa|21 • Teorias do jornalismo e história da imprensa]]  
-  Acrescentar repertório brasileiro de alto valor: *O Cruzeiro* e fotojornalismo, fases da televisão, trajetória do *Jornal do Brasil*, ABERJE, Boletim Light/Nossa Estrada e jornalismo empresarial. Separar fatos estruturais de trivia conjuntural.
+- [ ] **🆕 História da mídia, do jornalismo e da comunicação empresarial no Brasil**  
+  Arquivo: `3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil.md`  
+  Núcleo: *O Cruzeiro* e fotojornalismo, fases da televisão, trajetória do *Jornal do Brasil*, ABERJE, Boletim Light/Nossa Estrada, consolidação do jornalismo empresarial e marcos que a FGV pode transformar em associação factual. Pode remeter à [[3 - Materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa|21 • Teorias do jornalismo e história da imprensa]] para teoria geral.
 
-- [ ] **Refinar:** [[3 - Materias/Comunicacao/12 - producao editorial e design|12 • Produção editorial e design]]  
-  O artigo já cobre sangria, tipografia e boa parte do vocabulário de TV. Completar **radiojornalismo/texto manchetado** e a fronteira **cabeça × pé × off × sonora × passagem**, sem criar nota duplicada.
+- [ ] **🆕 Radiojornalismo, telejornalismo e linguagem audiovisual**  
+  Arquivo: `3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual.md`  
+  Núcleo: texto manchetado, linguagem radiofônica, cabeça × pé × off × sonora × passagem, roteiro e estrutura de matéria. Citar e complementar [[3 - Materias/Comunicacao/12 - producao editorial e design|12 • Produção editorial e design]] em vez de duplicar sangria, tipografia e fundamentos de produção.
 
-- [ ] **Criar:** `3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais.md`  
-  Fechar o item amplo do edital com problemas contextualizados: média ponderada, variações sucessivas, proporção, álgebra curta, geometria básica e padrões/matrizes. Foco em modelagem FGV, não em matemática extensa.
+- [ ] **🆕 Problemas aritméticos, geométricos e matriciais**  
+  Arquivo: `3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais.md`  
+  Núcleo: média ponderada, variações sucessivas, proporção, álgebra curta, geometria básica e padrões/matrizes. Foco em modelagem FGV e problemas de duas etapas, não em matemática extensa.
 
 ### Prioridade B — fechar até 08/10
 
-- [ ] **Criar:** `3 - Materias/Portugues/09 - tipos e generos textuais.md`  
-  Tipo textual × gênero; narração, descrição, exposição, argumentação e injunção; finalidade, suporte e marcas linguísticas; variação linguística quando relevante ao gênero.
+- [ ] **🆕 Tipos e gêneros textuais**  
+  Arquivo: `3 - Materias/Portugues/09 - tipos e generos textuais.md`  
+  Núcleo: tipo textual × gênero; narração, descrição, exposição, argumentação e injunção; finalidade, suporte, marcas linguísticas e variação quando relevante ao gênero.
 
-- [ ] **Refinar:** [[3 - Materias/Portugues/01 - interpretacao de texto|01 • Interpretação de texto]]  
-  Reforçar reescrita e semântica: significação, equivalência, substituição de trecho, reorganização, discurso direto/indireto e preservação de sentido/nível de formalidade.
+- [ ] **🆕 Reescrita, semântica e preservação de sentido**  
+  Arquivo: `3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido.md`  
+  Núcleo: significação, equivalência, substituição de trecho, reorganização da oração/período, discurso direto/indireto, voz verbal e manutenção de sentido e nível de formalidade. Pode citar [[3 - Materias/Portugues/01 - interpretacao de texto|01 • Interpretação de texto]].
 
-- [ ] **Refinar:** [[3 - Materias/Portugues/04 - regencia|04 • Regência verbal e nominal]]  
-  Consolidar uma seção sistemática de **crase**: condição estrutural, casos obrigatórios/proibidos/facultativos e fronteiras com regência. Colocação pronominal já possui seção própria.
+- [ ] **🆕 Crase**  
+  Arquivo: `3 - Materias/Portugues/11 - crase.md`  
+  Núcleo: condição estrutural, casos obrigatórios, proibidos e facultativos, locuções, topônimos e fronteiras com regência. Deve citar [[3 - Materias/Portugues/04 - regencia|04 • Regência verbal e nominal]].
 
-### Prioridade C — produzir no fim da semana, não agora
+### Prioridade C — Atualidades em artigos curtos e rápidos
 
-- [ ] **Snapshot final de Atualidades (08–09/10):** criar apenas após nova varredura factual, reunindo fatos realmente cobráveis da última semana nos eixos do edital. Não criar artigos genéricos de segurança, transportes, educação ou cultura sem fato relevante.
-- [ ] **Refinar [[4 - Projetos/dataprev-2026/Revisao final|Revisão final]]:** condensar prazos, pares conceituais, fórmulas e decorebas que tenham surgido nos Simulados 03–05/06. A véspera deve ser leitura leve, não teoria nova.
+A leitura não é limitante; portanto, não concentrar tudo em um único snapshot gigante. Criar artigos curtos por eixo, todos com fatos recentes verificados em fontes primárias e data de corte explícita:
+
+- [ ] **🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026**
+- [ ] **🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026**
+- [ ] **🆕 Educação e políticas educacionais — Atualidades 2026**
+- [ ] **🆕 Cultura, mídia e temas sociais — Atualidades 2026**
+- [ ] **🆕 Relações internacionais e fatos globais da semana final — Atualidades 2026**
+
+Esses artigos devem ser seletivos: registrar acontecimentos com potencial real de cobrança, não produzir enciclopédias genéricas. Em 08–09/10, fazer uma última varredura e **🔄 atualizar** os que tiverem fato novo relevante.
+
+### Fechamento de véspera
+
+- [ ] **🔄 Revisão final — Dataprev 2026**  
+  Refinar [[4 - Projetos/dataprev-2026/Revisao final|Revisão final]] com prazos, pares conceituais, fórmulas, autores/taxonomias e decorebas efetivamente reveladas pelos Simulados 03 em diante. Deve continuar leve o suficiente para leitura de véspera.
 
 ### O que não precisa de artigo novo agora
 
-- Inglês: desempenho e cobertura não justificam abrir teoria nova; manter treino por textos.
+- Inglês: desempenho e cobertura não justificam teoria nova; manter treino por textos.
 - LAI, LGPD, Marco Civil e Lei 12.737: a teoria canônica existe; priorizar recuperação literal por questões e revisão final.
-- Mattar, Aaker/brand equity, Bueno, Kunsch, Schein, touchpoints, sangria e tipografia: já existem no vault; revisar/refinar apenas se um novo erro revelar lacuna.
-
-
+- Mattar, Aaker/brand equity, Bueno, Kunsch, Schein, touchpoints, sangria e tipografia: já existem no vault; atualizar apenas se um novo erro revelar lacuna material.

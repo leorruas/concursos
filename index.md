@@ -19,6 +19,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 ## 2 - Editais
 - [[2 - Editais/Fundacao Florestal SP 2026|Fundação Florestal SP 2026]]
 - [[2 - Editais/Dataprev 2026 (Original)|Dataprev 2026 (Original)]]
+- [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|Câmara dos Deputados 2026: Divulgação Institucional]]
 
 ## 4 - Projetos
 - [[00 Dashboard|Dataprev 2026 (Dashboard)]]
@@ -26,6 +27,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[4 - Projetos/dataprev-2026/Cronograma|Cronograma]]
   - [[4 - Projetos/dataprev-2026/Estrategia|Estratégia]]
   - [[4 - Projetos/dataprev-2026/Log de erros|Log de erros]]
+- [[4 - Projetos/camara-2026/O que estudar|Câmara 2026: O que estudar]]
+  - [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]]
 
 ## 5 - Desempenho
 - [[00 Avancos globais|Avanços e desempenho global]]
@@ -158,4 +161,4 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Redacao/03 - estrategias de argumentacao|03 • Estratégias de argumentação]]
 
 ---
-*Última atualização: 2026-09-30*
+*Última atualização: 2026-10-03*

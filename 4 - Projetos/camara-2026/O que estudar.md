@@ -3,7 +3,7 @@ title: "Câmara 2026 — O que estudar — Divulgação Institucional"
 type: "guia"
 status: "ativo"
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-10-03
 ---
 
 # Câmara 2026 — O que estudar — Divulgação Institucional
@@ -11,6 +11,8 @@ updated: 2026-10-02
 Checklist orientado pelo Edital nº 1/2026 da Câmara dos Deputados para o Cargo 1 — Analista Legislativo — Comunicação Social — Divulgação Institucional.
 
 Este documento mede **cobertura do vault**, não domínio do candidato.
+
+Corpus operacional de questões: [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Provas anteriores e padrão Cebraspe]].
 
 Legenda: **REVISAR** = nota canônica com aderência forte; **EXPANDIR** = há base reutilizável, mas falta recorte do edital; **NOVO** = não há cobertura adequada.
 
@@ -155,6 +157,14 @@ Tratar como matéria nova, sem importar preferências ou opiniões políticas pe
 - [ ] Power BI, Tableau e Data Studio;
 - [ ] storytelling para visualização de dados.
 
+## Treino por questões desde o início
+
+O padrão Cebraspe deve entrar desde a primeira sessão, e não apenas depois da abertura das lacunas teóricas. Para conteúdos já estudados, a revisão deve ocorrer preferencialmente por itens **Certo/Errado**. Para conteúdos novos, alternar explicação curta, itens reais ou calibrados pelo corpus e correção clínica.
+
+Nas baterias, admitir **C, E ou branco** e registrar a nota líquida pelo padrão do edital: acerto +1, erro -1 e branco 0. O objetivo é treinar simultaneamente conteúdo, precisão de julgamento e decisão de risco.
+
+Priorizar questões reais do [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|corpus Cebraspe-Câmara]] quando houver aderência direta. Questões inéditas devem reproduzir os mecanismos da banca observados nas provas, sem converter o treino para o padrão de cinco alternativas.
+
 ## Discursiva
 
 A discursiva deve entrar desde o início da preparação pós-Dataprev porque representa 60 pontos e cobra apenas conhecimentos específicos.
@@ -177,9 +187,9 @@ Treino recomendado: alternar questões conceituais com peças compatíveis com o
 5. Documentos próprios da Câmara: Política de Comunicação, Manual de Comunicação e Manual de Linguagem Simples.
 6. TI e Dados.
 
-### Fase 2 — transformar reaproveitamento em padrão Cebraspe
+### Fase 2 — ampliar a densidade do treino Cebraspe
 
-Revisar Comunicação, Português, Administrativo, Administração Pública e Constitucional em itens C/E com penalização por erro.
+Aumentar o volume e a integração de itens C/E em Comunicação, Português, Administrativo, Administração Pública e Constitucional, mantendo penalização por erro. O formato Cebraspe já deve estar presente desde a Fase 1.
 
 ### Fase 3 — discursiva e integração
 

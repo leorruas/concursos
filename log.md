@@ -1109,3 +1109,10 @@
 - A nota prioriza modelagem FGV: média ponderada, percentuais sucessivos, equações curtas, problemas em duas etapas, perímetro/área/Pitágoras/escala e padrões organizados em matrizes.
 - Hub de Lógica, índice global e cronograma da semana final atualizados na mesma operação.
 
+## 2026-10-03 — Chunk 3 — tipos e gêneros textuais
+
+- Criado [[3 - Materias/Portugues/09 - tipos e generos textuais|🆕 Tipos e gêneros textuais]] para fechar o item explícito do edital de Português.
+- A nota separa tipo textual de gênero, cobre narração, descrição, exposição, argumentação e injunção, e enfatiza predominância, finalidade, suporte, registro e textos híbridos.
+- Foram incluídas duas questões comentadas com distratores próximos, além de relações com interpretação, coesão e gêneros jornalísticos.
+- Hub de Português, índice global e cronograma da semana final atualizados na mesma operação.
+

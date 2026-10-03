@@ -14,7 +14,7 @@ O conteúdo foi desmembrado porque as três estruturas usam **critérios classif
 
 ## Trilha
 
-### [[22.1 - ehling white e grunig quatro teorias do gerenciamento de rp|🆕 Ehling, White e Grunig — quatro teorias do gerenciamento de Relações Públicas]]
+### [[22.1 - ehling white e grunig quatro teorias do gerenciamento de rp|🆕 Quatro teorias do gerenciamento de Relações Públicas — Ehling, White e Grunig]]
 
 Pergunta central:
 
@@ -29,7 +29,7 @@ Estrutura:
 
 FGV Dataprev 2024: questão 62.
 
-### [[22.2 - cesca comunicacao dirigida e veiculos|🆕 Cesca — comunicação dirigida e classificação dos veículos]]
+### [[22.2 - cesca comunicacao dirigida e veiculos|🆕 Comunicação dirigida e classificação dos veículos — Cesca]]
 
 Pergunta central:
 
@@ -41,7 +41,7 @@ Estrutura:
 
 FGV Dataprev 2024: questão 63.
 
-### [[22.3 - paulo nassar comunicacao integrada virtual|🆕 Paulo Nassar — comunicação integrada virtual]]
+### [[22.3 - paulo nassar comunicacao integrada virtual|🆕 Comunicação integrada virtual — Paulo Nassar]]
 
 Pergunta central:
 

@@ -265,15 +265,68 @@ Nesta amostra, os melhores mecanismos para treino da Câmara são: **efeito prov
 
 Fontes: Correios 2011, caderno e gabarito definitivo oficiais; Câmara 2007, caderno e gabarito oficiais, já registrados acima.
 
+## Indexação individual prioritária: Comunicação Pública e Comunicação Organizacional
+
+O texto integral dos itens não é reproduzido. O objetivo aqui é registrar o **conceito decisivo**, o gabarito definitivo e a forma de distorção usada pela banca.
+
+### Comunicação Pública
+
+| Prova | Item | Gab. | Alvo conceitual | Mecanismo observado |
+| :--- | ---: | :---: | :--- | :--- |
+| CNMP 2023 | 55 | C | participação social e prestação de contas | reconhecimento de dimensões da comunicação pública |
+| CNMP 2023 | 56 | C | cidadania | definição nuclear do conceito |
+| CNMP 2023 | 65 | E | opinião pública | inversão entre esfera pública e origem individual do diálogo |
+| DPDF 2020 | 54 | E | relação Estado, governo e sociedade | delimitação indevida dos atores da comunicação pública |
+| DPDF 2020 | 55 | C | comunicação segmentada | classificação de instrumentos |
+| DPDF 2020 | 56 | C | opinião pública | atualização do conceito diante de novos espaços públicos |
+| PF 2025 | 51 | E | linguagem simples | falsa incompatibilidade entre simplicidade e precisão |
+| PF 2025 | 52 | C | interesse público, transparência e pluralidade | reconhecimento dos princípios orientadores |
+| PF 2025 | 53 | E | impessoalidade | exceção indevida baseada na legitimidade eleitoral da autoridade |
+| PF 2025 | 54 | C | bidirecionalidade e escuta ativa | contraste com modelo vertical/autoritário |
+
+### Comunicação Organizacional
+
+| Prova | Item | Gab. | Alvo conceitual | Mecanismo observado |
+| :--- | ---: | :---: | :--- | :--- |
+| CNMP 2023 | 57 | E | identidade organizacional | minimização indevida do efeito de mudanças sociais e históricas |
+| CNMP 2023 | 59 | C | intranet | reconhecimento de função e mensuração de uso |
+| CNMP 2023 | 61 | E | responsabilidade social corporativa | redução instrumental à promoção de imagem |
+| DPDF 2020 | 57 | E | análise de ambiente | troca entre ambiente setorial e ambiente interno |
+| DPDF 2020 | 58 | C | marca e identidade | relação entre marca, valores e identidade |
+| DPDF 2020 | 59 | C | imagem institucional | distinção entre percepção dos públicos e realidade organizacional |
+| DPDF 2020 | 60 | E | comunicação interna × ambiente externo | negação indevida do impacto da comunicação interna |
+| DPDF 2020 | 63 | E | sistema formal × informal | transposição de finalidade e fluxo |
+| DPDF 2020 | 64 | C | stakeholders | reconhecimento de engajamento e participação |
+| PF 2025 | 55 | E | assessoria de comunicação | redução de função estratégica a núcleo meramente operacional |
+| PF 2025 | 56 | C | comunicação organizacional | função estratégica na imagem e nos relacionamentos |
+| PF 2025 | 60 | E | clipping | redução a arquivamento, retirando análise estratégica |
+| PF 2025 | 61 | E | comunicação de crise | improvisação apresentada como princípio |
+| PF 2025 | 62 | C | nota oficial | tom institucional, clareza, objetividade e impessoalidade |
+| PF 2025 | 63 | C | atendimento à imprensa | proatividade, transparência e construção de confiança |
+| PF 2025 | 65 | C | endomarketing | identificação organizacional |
+| PF 2025 | 66 | C | comunicação interna | ouvir, informar, mobilizar, educar e gerar coesão |
+| PF 2025 | 68 | E | ferramentas informacionais × relacionais | transposição de finalidade entre categorias |
+| PF 2025 | 71 | C | canais internos | classificação em informacionais, relacionais e híbridos |
+
+### Padrões úteis para treino
+
+Neste bloco, a banca explora sobretudo **fronteiras entre conceitos vizinhos**. Comunicação pública pode ser reduzida indevidamente a comunicação de governo; impessoalidade pode ganhar uma exceção inexistente; imagem pode ser tratada como identidade; ambiente interno pode ser chamado de setorial; e comunicação informal pode receber características do fluxo formal.
+
+Em comunicação organizacional, outro mecanismo forte é retirar a dimensão estratégica de ferramentas reais. Assessoria, clipping, comunicação interna e crise aparecem corretamente nomeados, mas com finalidade diminuída, função deslocada ou prática incompatível com o conceito.
+
+Para itens inéditos da Câmara, priorizar as fronteiras: **comunicação pública × governamental; identidade × imagem; formal × informal; interno × externo; ferramenta informacional × relacional; rotina operacional × função estratégica; comunicação de crise planejada × improvisação**.
+
+Fontes: cadernos e gabaritos oficiais do CNMP 2023, DPDF 2020 e PF Administrativo 2025 registrados neste índice.
+
 ## Estado da indexação
 
 **Fase 1 concluída:** Correios 2011, CNMP 2023 e DPDF 2020 foram mapeados por intervalos e temas.
 
 **Fase 2 concluída:** Câmara 2003, Câmara 2007, TCE-MG 2026 e PF Administrativo 2025 foram incorporados ao mapa. O corpus-base agora está coberto em nível de blocos e intervalos.
 
-**Indexação individual concluída até aqui:** Teorias da Comunicação; Publicidade e planejamento.
+**Indexação individual concluída até aqui:** Teorias da Comunicação; Publicidade e planejamento; Comunicação Pública e Comunicação Organizacional.
 
-**Próxima fase:** Comunicação Pública e Comunicação Organizacional. Depois: Processo Legislativo e Ciência Política.
+**Próxima fase:** Processo Legislativo. Depois: Ciência Política.
 
 ## Relações
 

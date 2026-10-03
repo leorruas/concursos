@@ -157,6 +157,16 @@ Para **cada item** dessas duas seções:
 O objetivo é que o diagnóstico funcione como uma rota de revisão: **erro ou dúvida → clique → parágrafo exato de teoria**.
 
 ## Estrutura mínima do relatório de ingestão
+### Propagação obrigatória para o hub de desempenho por edital e prova
+
+Ao registrar um **simulado completo** ou qualquer prova que gere entrada em `data/provas.json`, incluir obrigatoriamente no mesmo change set:
+
+`00 - Desempenho/Provas/00 - Desempenho por edital e prova.md`
+
+Nesse hub, registrar resultado, comparabilidade e uso correto da métrica. Se a composição reproduzir o edital vigente, publicar a nota calculável pelo edital; se não reproduzir, manter apenas aproveitamento bruto e diagnóstico, sem converter artificialmente para a pontuação oficial.
+
+A atualização precisa ocorrer junto com o catálogo de simulados, `data/provas.json`, avanços globais e superfícies do projeto correspondente. Não considerar a ingestão encerrada enquanto o hub de desempenho por edital/prova estiver defasado.
+
 
 Quando houver questões, o relatório deve conseguir distinguir:
 

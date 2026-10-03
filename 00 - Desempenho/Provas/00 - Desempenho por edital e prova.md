@@ -24,13 +24,14 @@ A meta de **102/115 (88,7%)** registrada no vault é uma meta estratégica pesso
 
 | Prova | Resultado registrado | Comparabilidade com o edital 2026 | Uso correto |
 | :--- | :---: | :--- | :--- |
+| [[00 - Desempenho/Simulados/Simulado-04\|Simulado 04]] | 63/70, 90,0%; **105/115** | Muito alta; composição oficial | Nota /115 calculável. Melhor resultado ponderado até aqui: 35/40 em gerais + 28/30 em Comunicação. |
 | [[00 - Desempenho/Simulados/Simulado-03\|Simulado 03]] | 63/70, 90,0%; **103,5/115** | Muito alta; composição oficial | Nota /115 calculável, com cautela pela subcalibração de Comunicação e Atualidades/IA |
 | [[00 - Desempenho/Simulados/Simulado-02\|Simulado 02]] | 67/70, 95,7% | Não comparável para nota ponderada | Diagnóstico de erros e aproveitamento bruto |
 | [[00 - Desempenho/Simulados/Simulado-01\|Simulado 01]] | 54/70, 77,1% | Não comparável para nota ponderada | Diagnóstico de erros e aproveitamento bruto |
 | [[00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social\|Dataprev 2024: Comunicação Social]] | Ainda não resolvida | Alta | Prova-espelho principal da FGV |
 | [[00 - Desempenho/Provas/MPU 2025 - Comunicacao Social\|MPU 2025: Comunicação Social]] | Ainda não resolvida | Média | Corpus secundário para mecanismos de cobrança FGV |
 
-O Simulado 01 foi montado em blocos mistos sem confirmação da distribuição oficial. O Simulado 02 registra expressamente distribuição não oficial. Por isso, nenhum dos dois deve gerar nota /115. Já o **Simulado 03 reproduziu integralmente a distribuição oficial** e permite o cálculo de **103,5/115**, embora Comunicação e Atualidades/IA tenham sido registradas como subcalibradas em dificuldade. Essa distinção é relevante porque **67/70 não equivale, por si só, a 95,7% dos 115 pontos**: a posição dos erros entre gerais e Comunicação altera muito o resultado ponderado.
+O Simulado 01 foi montado em blocos mistos sem confirmação da distribuição oficial. O Simulado 02 registra expressamente distribuição não oficial. Por isso, nenhum dos dois deve gerar nota /115. Já os **Simulados 03 e 04 reproduziram integralmente a distribuição oficial** e permitem cálculo ponderado direto: **103,5/115** no Simulado 03 e **105/115** no Simulado 04. Os dois tiveram os mesmos **63/70 acertos**, mas a nota subiu no Simulado 04 porque a distribuição foi mais favorável ao peso do edital: **28/30 em Comunicação** e **35/40 em conhecimentos gerais**. Isso evidencia por que o percentual bruto, sozinho, não determina a pontuação final: a posição dos erros entre gerais e específicas altera o resultado ponderado.
 
 ## Prova-espelho FGV: Dataprev 2024
 
@@ -67,6 +68,7 @@ A fonte canônica estruturada dessa camada é `data/provas.json`. Resultados fut
 - [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]]
 - [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]]
 - [[00 - Desempenho/Simulados/Simulado-03|Simulado 03]]
+- [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]]
 
 
 ## Próximos concursos

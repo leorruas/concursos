@@ -72,6 +72,20 @@ Legenda padrão:
 A legenda é obrigatória mesmo quando a taxonomia já estiver documentada em outro arquivo do vault.
 
 ### Links ancorados obrigatórios em ajustes e acertos inseguros
+### Hub obrigatório de desempenho por edital e prova
+
+Sempre que um **simulado completo** ou outra prova registrada em `data/provas.json` for criada ou corrigida, atualizar na mesma operação o hub público [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]].
+
+O hub deve:
+- registrar o novo resultado na seção do concurso correto;
+- distinguir aproveitamento bruto de nota calculada pelas regras do edital;
+- declarar a comparabilidade da prova/simulado;
+- atualizar a análise comparativa quando o novo resultado altera a leitura da evolução;
+- nunca misturar métricas da Dataprev com Câmara ou outro concurso;
+- permanecer sincronizado com `data/provas.json`, o catálogo de simulados e os dashboards aplicáveis.
+
+Um simulado não está totalmente propagado enquanto esse hub estiver desatualizado.
+
 
 Ao gerar ou atualizar as seções **## Ajustes a partir dos erros** e **## Acertos com dúvida ou recuperação incompleta**, cada item deve terminar com um **wikilink direto para o subtítulo exato da teoria**: `[[Pasta/Nota#Subtítulo exato|Texto]]`.
 

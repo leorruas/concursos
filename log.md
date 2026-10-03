@@ -1064,3 +1064,10 @@
 - Corrigidos os itens sem destino ancorado: Q10 agora aponta para a seção de colocação pronominal; Q46/Q49/Q64 apontam diretamente para **Brand equity/Aaker**, **Classificações de Mattar** e **Touchpoints**.
 - Criada na nota [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]] a seção **Colocação pronominal — próclise, ênclise e mesóclise**, necessária para transformar a dúvida da Q10 em rota de revisão precisa.
 - Atualizadas as [[1 - Planejamento/Regras de ingestao de questoes|Regras de ingestão de questões]] e `.agent/AGENTS.md`: todo item desses dois blocos deve usar wikilink com âncora de cabeçalho; quando o subtítulo não existir, a nota canônica deve ser refinada antes do fechamento do diagnóstico.
+
+## 2026-10-03 — Hub de desempenho por edital/prova entra na propagação obrigatória
+
+- Atualizado [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]] com o Simulado 04: **63/70 (90,0%)**, **105/115 (91,3%)**, 35/40 em gerais e 28/30 em Comunicação.
+- A análise comparativa agora registra que Simulados 03 e 04 tiveram os mesmos 63/70, mas o Simulado 04 subiu de 103,5 para 105 pontos pela distribuição dos acertos entre gerais e específicas.
+- `.agent/AGENTS.md` e [[1 - Planejamento/Regras de ingestao de questoes|Regras de ingestão de questões]] passam a exigir a atualização desse hub sempre que um simulado completo ou prova gerar/alterar entrada em `data/provas.json`.
+- `scripts/ingestion-propagation-policy.js` passa a tratar `00 - Desempenho/Provas/00 - Desempenho por edital e prova.md` como destino obrigatório de toda ingestão classificada como `simulado`.

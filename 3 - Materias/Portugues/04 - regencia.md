@@ -3,7 +3,7 @@ title: "Regência verbal e nominal"
 type: "conceito"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-09-10
+updated: 2026-10-03
 ---
 
 # Regência verbal e nominal
@@ -85,6 +85,33 @@ Na regência nominal, a preposição é selecionada por um nome. Alguns padrões
 O ponto de maior retorno não é decorar centenas de combinações, mas reconhecer quando a regência nominal cria ou impede crase. Em `medida favorável à população`, por exemplo, `favorável` exige `a` e `população` admite artigo `a`, produzindo `à`. Já em `medida compatível com a norma`, a regência é `com`, portanto não existe sequer a condição sintática para crase.
 
 Alguns nomes admitem mais de uma preposição. Por isso, alternativas absolutas do tipo “este nome exige sempre uma única preposição” merecem cautela quando não se conhece o regime específico do vocábulo.
+
+## Colocação pronominal — próclise, ênclise e mesóclise
+
+A colocação dos pronomes oblíquos átonos (me, te, se, o, a, lhe, nos, vos, os, as, lhes) pode ocorrer antes, depois ou, em contextos restritos, no interior da forma verbal.
+
+- **Próclise**: pronome antes do verbo — *não se informou*, *quem lhe apresentou*.
+- **Ênclise**: pronome depois do verbo — *informou-se*, *apresente-lhe*.
+- **Mesóclise**: pronome no interior de futuro do presente ou futuro do pretérito, quando não houver elemento que exija próclise — *informar-se-á*, *dir-lhe-ia*.
+
+### Palavras atrativas e fronteiras de prova
+
+Na norma-padrão tradicional, certos elementos favorecem ou exigem **próclise**, entre eles palavras negativas, pronomes relativos/interrogativos, pronomes indefinidos e conjunções subordinativas:
+
+- *Nada **se informou** sobre o caso.*
+- *Quem **lhe apresentou** essa versão?*
+- *Quando **se divulgar** o resultado, avisaremos.*
+
+Em prova, duas armadilhas são frequentes:
+
+1. **colocar ênclise apesar de palavra atrativa**: *Nada informou-se* → inadequado na norma-padrão; o esperado é *Nada se informou*;
+2. **iniciar oração com pronome oblíquo átono**: em registro formal normativo, evita-se *Se encaminhará o documento*; prefere-se *Encaminhar-se-á o documento* ou uma reconstrução com próclise legitimada por elemento anterior.
+
+> [!TIP]
+> Heurística: antes de escolher entre próclise e ênclise, procure primeiro uma **palavra atrativa**. Se houver, a FGV tende a explorar justamente a posição indevida do pronome.
+
+> [!WARNING]
+> Colocação pronominal e regência são temas diferentes. Eles aparecem juntos nesta nota apenas porque questões sintáticas frequentemente combinam pronomes, complementos verbais e norma-padrão; não confunda a posição do pronome com a preposição exigida pelo verbo.
 
 ## Relações com outros temas
 

@@ -1058,3 +1058,9 @@
 - Atualizadas as [[1 - Planejamento/Regras de ingestao de questoes|Regras de ingestão de questões]] e `.agent/AGENTS.md` para tornar essa legenda obrigatória em qualquer simulado, bateria, diagnóstico, tabela ou relatório que apresente as siglas clínicas.
 - Motivo: impedir que os códigos percam legibilidade com o tempo e evitar dependência de memória ou navegação para outro arquivo.
 
+## 2026-10-03 — Links ancorados obrigatórios em ajustes de simulados
+
+- Atualizado o [[00 - Desempenho/Simulados/Simulado-04|Simulado 04 — Dataprev FGV]] para que os blocos **Ajustes a partir dos erros** e **Acertos com dúvida ou recuperação incompleta** tenham destinos diretos de estudo por subtítulo.
+- Corrigidos os itens sem destino ancorado: Q10 agora aponta para a seção de colocação pronominal; Q46/Q49/Q64 apontam diretamente para **Brand equity/Aaker**, **Classificações de Mattar** e **Touchpoints**.
+- Criada na nota [[3 - Materias/Portugues/04 - regencia|Regência verbal e nominal]] a seção **Colocação pronominal — próclise, ênclise e mesóclise**, necessária para transformar a dúvida da Q10 em rota de revisão precisa.
+- Atualizadas as [[1 - Planejamento/Regras de ingestao de questoes|Regras de ingestão de questões]] e `.agent/AGENTS.md`: todo item desses dois blocos deve usar wikilink com âncora de cabeçalho; quando o subtítulo não existir, a nota canônica deve ser refinada antes do fechamento do diagnóstico.

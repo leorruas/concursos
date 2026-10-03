@@ -71,6 +71,13 @@ Legenda padrão:
 
 A legenda é obrigatória mesmo quando a taxonomia já estiver documentada em outro arquivo do vault.
 
+### Links ancorados obrigatórios em ajustes e acertos inseguros
+
+Ao gerar ou atualizar as seções **## Ajustes a partir dos erros** e **## Acertos com dúvida ou recuperação incompleta**, cada item deve terminar com um **wikilink direto para o subtítulo exato da teoria**: `[[Pasta/Nota#Subtítulo exato|Texto]]`.
+
+Não usar apenas link para a nota. Se um item agrupar mais de um conceito, incluir um link ancorado para cada conceito. Se o subtítulo adequado ainda não existir, refinar a nota canônica e criar esse destino antes de considerar o diagnóstico concluído.
+
+
 Antes de inserir questão comentada em uma nota, verificar se já existe questão cobrindo a mesma fronteira. O artigo não deve virar banco de questões: preservar a régua de 1 a 3 questões comentadas de alto valor cognitivo por nota, substituindo ou fundindo quando surgir exemplo melhor.
 
 ### Comando canônico, idempotência e apply transacional

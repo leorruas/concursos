@@ -194,6 +194,7 @@ Padrão definitivo da discursiva: https://cdn.cebraspe.org.br/concursos/pf_25_ad
 | Lei nº 14.133/2021 | CNMP 111–116 |
 | LGPD | CNMP 117–118; TCE-MG 16 |
 | Processo administrativo | CNMP 119–120 |
+| Ciência Política | Câmara 2014 — Área XIX, especialmente itens 111–156 |
 
 ## Indexação individual prioritária: Teorias da Comunicação
 
@@ -357,15 +358,81 @@ Para simulados da Câmara, priorizar especialmente:
 
 O caderno de 2003 permanece fonte de **mecanismo de cobrança**. A norma atual é a fonte de verdade para conteúdo vigente.
 
+## Indexação individual prioritária: Ciência Política
+
+A principal prova-espelho encontrada para este bloco é **Câmara dos Deputados 2014 — Analista Legislativo, Consultor Legislativo, Área XIX**. Ela é CESPE/UnB, usa itens C/E e o conteúdo programático da Área XIX apresenta forte sobreposição com o bloco de Ciência Política do edital atual.
+
+Caderno oficial: https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_020_39.pdf  
+Gabarito definitivo: https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_020_39.PDF
+
+| Item | Gab. | Alvo conceitual | Mecanismo observado | Uso atual |
+| ---: | :---: | :--- | :--- | :--- |
+| 111 | C | Estado moderno e sociedade civil | relação histórica entre diferenciação institucional e conceito | estável |
+| 113 | C | Weber e legitimidade | associação autor → dominação racional-legal | estável |
+| 114 | E | Bobbio e ideologia | negação indevida da função política das ideologias | estável |
+| 116 | C | legitimidade do poder | definição por confiança, consenso e obediência | estável |
+| 118 | C | conceito de democracia | disputa e ressignificação conceitual | estável |
+| 119 | E | democracia deliberativa | retirada indevida da participação cidadã | estável |
+| 120 | C | Chantal Mouffe | associação autora → democracia agonista | estável |
+| 121 | E | Lijphart e democracia consociacional | atribuição de traço de democracia direta ao modelo errado | estável |
+| 122 | C | Robert Dahl | conexão entre procedimento eleitoral e cidadania inclusiva | estável |
+| 123 | C | representação por discurso | modalidade de representação em contextos sem demos definido | estável |
+| 124 | E | participação e representação | separação artificial entre participação social e debate representativo | estável |
+| 126 | C | estrutura de oportunidade política | relação entre contexto e ação coletiva | estável |
+| 127 | E | campo político em Bourdieu | retirada indevida da autonomia relativa do campo | estável |
+| 128 | E | Gramsci | redução do pensamento gramsciano a determinismo econômico | estável |
+| 129 | C | pluralismo | sistema de representação de interesses e autonomia estatal relativa | estável |
+| 131 | E | sistemas semipresidenciais/mistos | aproximação excessiva ao presidencialismo | estável |
+| 133 | E | Huntington e terceira onda | deslocamento cronológico do processo de democratização | histórico/conceitual |
+| 134 | C | regime político | definição institucional do regime | estável |
+| 135 | E | representação política | exclusividade indevida atribuída à democracia | estável |
+| 136 | E | democracia majoritária × consensual | tribunal constitucional atribuído ao modelo errado | estável |
+| 137 | C | democracia consensual | independência do banco central como característica associada | estável |
+| 138 | C | democracia majoritária | concentração de poder e competição governo-oposição | estável |
+| 139 | E | Reino Unido | classificação trocada entre modelo majoritário e consensual | estável |
+| 140 | C | democracia consensual | bicameralismo, proporcionalidade e multipartidarismo | estável |
+| 141 | E | partidos políticos | minimização indevida de origem e trajetória histórica | estável |
+| 142 | C | sistema proporcional | relação com multipartidarismo | estável |
+| 143 | C | partidos de quadros | origem em grupos parlamentares e comitês eleitorais | estável |
+| 144 | C | partidos de massa | origem em grupos sociais não representados e organização extraparlementar | estável |
+| 145 | C | ampliação do sufrágio | relação histórica com desenvolvimento dos partidos | estável |
+| 151 | E | listas proporcionais | generalização indevida da lista aberta como regra majoritária internacional | estável |
+| 152 | C | sistema majoritário | desproporção votos × cadeiras como crítica recorrente | estável |
+| 153 | C | sistema eleitoral misto | combinação de componentes majoritário e proporcional | estável |
+| 155 | C | presidencialismo de coalizão | combinação de presidencialismo, multipartidarismo e federalismo | conceito histórico da literatura brasileira |
+| 156 | C | presidencialismo de coalizão | heterogeneidade e disciplina partidária como eixo de crítica | conceito histórico da literatura; não tratar como diagnóstico necessário do presente |
+
+Os itens 132 e 150 foram anulados no gabarito definitivo e não devem ser usados como questão-fonte sem análise específica. Itens dependentes da legislação eleitoral de 2014 ou de conjuntura daquele governo permanecem úteis apenas como evidência de mecanismo de cobrança, não como conteúdo atual.
+
+### Padrões desta amostra
+
+O bloco de Ciência Política é particularmente aderente ao padrão Cebraspe porque a banca consegue tornar um item falso com uma troca pequena de **autor, modelo, propriedade institucional, cronologia ou relação causal**.
+
+As fronteiras de maior valor para treino são:
+
+- democracia majoritária × consensual;
+- presidencialismo × parlamentarismo × sistemas mistos;
+- representação × participação;
+- partido de quadros × partido de massa;
+- sistema majoritário × proporcional × misto;
+- pluralismo × corporativismo;
+- Estado × sociedade civil;
+- autonomia do campo político × determinismo econômico;
+- conceito teórico estável × afirmação conjuntural sobre o sistema político brasileiro.
+
+### Consequência para a Câmara 2026
+
+Esta prova passa a ser a **fonte prioritária de questões reais de Ciência Política**. Além de coincidir em banca e instituição, o edital de 2014 da Área XIX já cobrava Ciência Política, teoria política, regimes, sistemas e formas de governo, representação, relações entre Poderes, sistemas eleitorais, partidos, política brasileira, política internacional e teoria/formação do Estado, entre outros tópicos que reaparecem no edital atual.
+
 ## Estado da indexação
 
 **Fase 1 concluída:** Correios 2011, CNMP 2023 e DPDF 2020 foram mapeados por intervalos e temas.
 
 **Fase 2 concluída:** Câmara 2003, Câmara 2007, TCE-MG 2026 e PF Administrativo 2025 foram incorporados ao mapa. O corpus-base agora está coberto em nível de blocos e intervalos.
 
-**Indexação individual concluída até aqui:** Teorias da Comunicação; Publicidade e planejamento; Comunicação Pública e Comunicação Organizacional; Processo Legislativo.
+**Indexação individual prioritária concluída:** Teorias da Comunicação; Publicidade e planejamento; Comunicação Pública e Comunicação Organizacional; Processo Legislativo; Ciência Política.
 
-**Próxima fase:** Ciência Política.
+**Próxima fase do corpus:** medir os mecanismos recorrentes de erro e transformar a amostra em evidência quantitativa para a análise pública do Cebraspe.
 
 ## Relações
 

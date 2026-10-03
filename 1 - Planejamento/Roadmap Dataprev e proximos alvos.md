@@ -44,7 +44,8 @@ Fases:
   - [x] Publicidade e planejamento;
   - [x] Comunicação Pública e Comunicação Organizacional;
   - [x] Processo Legislativo;
-  - [ ] Ciência Política;
+  - [x] Ciência Política;
+- [x] concluir a primeira indexação individual dos temas prioritários; em Ciência Política, incorporar a prova da Câmara 2014 — Consultor Legislativo, Área XIX, como prova-espelho principal;
 - [ ] medir mecanismos recorrentes de erro e ampliar a análise Cebraspe com evidência quantitativa;
 - [ ] integrar o índice de questões reais ao fluxo de estudo e aos simulados da Câmara;
 - [ ] criar análise específica da prova discursiva do Cebraspe a partir de padrões oficiais de resposta.

@@ -49,6 +49,12 @@ Arquivos Markdown de metadados, hashes, proveniência e índices podem permanece
 - imprensa escrita: https://cdn.cebraspe.org.br/concursos/_antigos/2003/CD2003/arquivos/TCS_IMP_ESC.PDF
 - gabarito definitivo: https://cdn.cebraspe.org.br/concursos/_antigos/2003/CD2003/arquivos/CAMARA_GAB.PDF
 
+### Câmara dos Deputados 2014: Consultor Legislativo — Área XIX
+
+- página oficial do concurso: https://cdn.cebraspe.org.br/concursos/CD_14_AT/
+- caderno oficial: https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_020_39.pdf
+- gabarito definitivo: https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/Gab_Definitivo_CAMARA14_020_39.PDF
+
 ### Câmara dos Deputados 2007: Divulgação Institucional
 
 - página oficial da área: https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concursos-realizados/2007/analista-legislativo/arquivos/grupo-ii/comunicacao-social/divulgacao-institucional
@@ -122,6 +128,8 @@ Faça o trabalho em etapas verificáveis:
    camara-2003-comunicacao-radio-prova.pdf
    camara-2003-comunicacao-imprensa-prova.pdf
    camara-2003-comunicacao-gabarito.pdf
+   camara-2014-ciencia-politica-area19-prova.pdf
+   camara-2014-ciencia-politica-area19-gabarito.pdf
    camara-2007-divulgacao-tipo1-prova.pdf
    camara-2007-divulgacao-tipo1-gabarito.pdf
    tce-mg-2026-comunicador-prova.pdf

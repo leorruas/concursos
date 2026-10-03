@@ -424,6 +424,26 @@ As fronteiras de maior valor para treino são:
 
 Esta prova passa a ser a **fonte prioritária de questões reais de Ciência Política**. Além de coincidir em banca e instituição, o edital de 2014 da Área XIX já cobrava Ciência Política, teoria política, regimes, sistemas e formas de governo, representação, relações entre Poderes, sistemas eleitorais, partidos, política brasileira, política internacional e teoria/formação do Estado, entre outros tópicos que reaparecem no edital atual.
 
+## Quantificação inicial dos mecanismos de erro
+
+Base de contagem: itens individualmente indexados em provas **Cebraspe/CESPE no formato C/E**. Foram excluídos da métrica a Câmara 2007, por ser FCC/múltipla escolha, e o TCE-MG 2026, por usar múltipla escolha. Um item anulado da Câmara 2003 também não entra na distribuição C/E.
+
+A amostra operacional contém **100 itens com julgamento válido**, sendo **56 C e 44 E**. Como a seleção foi orientada por aderência ao edital, essa proporção não representa uma estimativa do futuro gabarito.
+
+Nos 44 itens errados, foi atribuído um único mecanismo primário:
+
+| Mecanismo | n | % dos itens E |
+| :--- | ---: | ---: |
+| escopo/generalização/exclusividade | 13 | 29,5% |
+| troca de categoria/conceito | 9 | 20,5% |
+| troca de autor/escola/modelo | 8 | 18,2% |
+| inversão de relação/causalidade | 7 | 15,9% |
+| agente/competência/procedimento/quórum | 5 | 11,4% |
+| cronologia/enquadramento histórico | 2 | 4,5% |
+| **Total** | **44** | **100%** |
+
+A categoria primária corresponde à **alteração mínima decisiva** registrada no índice. Ela serve para calibrar treino e simulados; não pretende funcionar como taxonomia acadêmica exaustiva da banca.
+
 ## Estado da indexação
 
 **Fase 1 concluída:** Correios 2011, CNMP 2023 e DPDF 2020 foram mapeados por intervalos e temas.

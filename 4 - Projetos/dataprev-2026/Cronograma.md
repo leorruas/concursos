@@ -116,7 +116,7 @@ O emoji entra no `title:` e no `# H1`, mas **não** no nome físico do arquivo.
   Arquivo: `3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido.md`  
   Núcleo: significação, equivalência, substituição de trecho, reorganização da oração/período, discurso direto/indireto, voz verbal e manutenção de sentido e nível de formalidade. Pode citar [[3 - Materias/Portugues/01 - interpretacao de texto|01 • Interpretação de texto]].
 
-- [ ] **🆕 Crase**  
+- [x] **🆕 Crase**  
   Arquivo: `3 - Materias/Portugues/11 - crase.md`  
   Núcleo: condição estrutural, casos obrigatórios, proibidos e facultativos, locuções, topônimos e fronteiras com regência. Deve citar [[3 - Materias/Portugues/04 - regencia|04 • Regência verbal e nominal]].
 

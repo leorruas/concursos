@@ -7,6 +7,16 @@
 >
 > **[[me|me.md]]** — **Single Source of Truth (SSoT)**: Contém identidade, regras de escrita, arquitetura, workflows e governança global.
 
+## Roteamento obrigatório por concurso
+
+Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, identificar o concurso-alvo pelo contexto explícito da conversa.
+
+- Até **11/10/2026**, pedidos genéricos ou ambíguos continuam vinculados à **Dataprev**, que permanece como prioridade temporal até a prova.
+- Referência explícita à **Dataprev** aciona o protocolo FGV-Dataprev de `me.md`. Nesta reta final, o fluxo padrão é de **simulados integrais**, com teoria apenas como microrevisão derivada de erros, salvo pedido explícito em contrário.
+- Referência explícita à **Câmara dos Deputados** aciona o projeto `4 - Projetos/camara-2026/`, o edital da Câmara e o protocolo **Cebraspe-Câmara** de `me.md`. Estudo teórico, revisão, questões e simulados da Câmara seguem o padrão Cebraspe/Cespe e o formato C/E.
+- Nunca misturar banca ou formato: **FGV para Dataprev; Cebraspe para Câmara**. Notas teóricas compartilhadas podem ser reutilizadas, mas a mecânica de cobrança, o corpus de calibração e os registros de desempenho pertencem ao concurso-alvo.
+- Ao registrar desempenho, atualizar apenas as superfícies do projeto correspondente. É proibido lançar uma sessão da Câmara em arquivos da Dataprev ou uma sessão da Dataprev em arquivos da Câmara.
+
 ## Gate de integridade do main
 
 Antes de iniciar qualquer mudança **não corretiva**, provar que o estado atual do vault está saudável.

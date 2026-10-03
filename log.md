@@ -1071,3 +1071,11 @@
 - A análise comparativa agora registra que Simulados 03 e 04 tiveram os mesmos 63/70, mas o Simulado 04 subiu de 103,5 para 105 pontos pela distribuição dos acertos entre gerais e específicas.
 - `.agent/AGENTS.md` e [[1 - Planejamento/Regras de ingestao de questoes|Regras de ingestão de questões]] passam a exigir a atualização desse hub sempre que um simulado completo ou prova gerar/alterar entrada em `data/provas.json`.
 - `scripts/ingestion-propagation-policy.js` passa a tratar `00 - Desempenho/Provas/00 - Desempenho por edital e prova.md` como destino obrigatório de toda ingestão classificada como `simulado`.
+
+## 2026-10-03 — Auditoria de cobertura e dificuldade do Simulado 04
+
+- Reauditado o Simulado 04 contra o conteúdo programático da Dataprev 2026 e a prova oficial FGV Dataprev 2024 — Comunicação Social.
+- Diagnóstico: a estrutura 12/12/5/6/5/30 e a ponderação estavam corretas, mas a dificuldade do Simulado 04 ficou moderadamente abaixo da prova real, sobretudo por excesso de aplicação/definição e baixa densidade de história, repertório, terminologia profissional, autores/taxonomias, associações e I/II/III.
+- A nota [[3 - Materias/Estrategia de Prova/FGV - Dataprev e corpus de Comunicacao|FGV: Dataprev e corpus de Comunicação]] passou a registrar a auditoria de cobertura: Comunicação formalmente coberta; Português ainda relativamente fino em tipos/gêneros, crase sistemática e partes de reescrita; Lógica com menor materialização de problemas geométricos/matriciais; Atualidades exigindo varredura factual recente; Legislação com foco de risco em literalidade e fronteiras.
+- O diagnóstico do [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]] foi refinado para impedir que 105/115 seja interpretado como previsão direta da nota real e para calibrar o próximo simulado ao caderno de 2024.
+

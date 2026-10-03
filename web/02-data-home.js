@@ -113,29 +113,60 @@ function renderizarPainelConcursoHome() {
     const conteudo = document.getElementById("concurso-home-conteudo");
     if (!container || !conteudo) return;
 
-    const concursoAtivo = dadosConcursosEstrategicos.find(c => c.id === "dataprev-2026");
+    const concursosComData = dadosConcursosEstrategicos.filter(c => c.dataProva);
+    const concursoAtivo =
+        concursosComData.find(c => c.id === concursoSelecionadoId) ||
+        concursosComData.find(c => c.id === "dataprev-2026") ||
+        concursosComData[0];
+
     if (!concursoAtivo) {
         container.classList.add("escondido");
         return;
     }
 
     container.classList.remove("escondido");
+    concursoSelecionadoId = concursoAtivo.id;
 
     const dataProva = new Date(concursoAtivo.dataProva);
     const hoje = new Date();
     const diffDias = Math.max(0, Math.ceil((dataProva - hoje) / (1000 * 60 * 60 * 24)));
 
+    const seletorConcursos = concursosComData.map((concurso, indice) => {
+        const selecionado = concurso.id === concursoAtivo.id;
+        const separador = indice > 0
+            ? '<span class="concurso-barra-separadora" aria-hidden="true">/</span>'
+            : '';
+
+        return `${separador}<button
+            type="button"
+            class="concurso-btn-opcao${selecionado ? " concurso-selecionado" : ""}"
+            data-concurso-id="${concurso.id}"
+            aria-pressed="${selecionado ? "true" : "false"}"
+        >${concurso.nome.toLowerCase()}</button>`;
+    }).join("");
+
     conteudo.innerHTML = `
         <div class="concurso-linha-topo">
             <div class="concurso-seletor-textual">
                 <span class="concurso-seletor-rotulo">concurso:</span>
-                <span class="concurso-btn-opcao concurso-selecionado" aria-current="true">${concursoAtivo.nome.toLowerCase()}</span>
+                ${seletorConcursos}
             </div>
             <div class="concurso-dias-container">
                 <span class="concurso-dias-destaque">${diffDias}</span> dias até a prova (${concursoAtivo.banca} · ${dataProva.toLocaleDateString("pt-BR")})
             </div>
         </div>
     `;
+
+    conteudo.querySelectorAll(".concurso-btn-opcao[data-concurso-id]").forEach(botao => {
+        botao.addEventListener("click", () => {
+            const novoConcursoId = botao.dataset.concursoId;
+            if (!novoConcursoId || novoConcursoId === concursoSelecionadoId) return;
+
+            concursoSelecionadoId = novoConcursoId;
+            localStorage.setItem("concurso_ativo_id", concursoSelecionadoId);
+            renderizarPainelConcursoHome();
+        });
+    });
 }
 
 // Renderiza a Grade Suíça

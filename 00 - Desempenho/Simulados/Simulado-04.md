@@ -89,10 +89,28 @@ A reincidência do **método do bloco** e de **regime de metas/Selic** exige rec
 
 ## Calibração para o próximo simulado
 
-- manter Comunicação com autores, taxonomias e fronteiras próximas;
-- manter Atualidades com fatos institucionais recentes sem entregar a distinção no enunciado;
+### Auditoria de dificuldade contra a prova real de 2024
+
+A distribuição e a ponderação do Simulado 04 foram fiéis ao edital, mas a dificuldade ficou **moderadamente abaixo** da prova real Dataprev 2024, especialmente em Comunicação, Legislação, Atualidades e parte de Português/Lógica.
+
+- **Comunicação:** melhor calibrada que o Simulado 03, porém ainda excessivamente centrada em aplicação e definição. A prova real trouxe mais história/repertório, terminologia profissional, autores e taxonomias específicas, associações longas e questões I/II/III.
+- **Português:** o simulado cobriu bons pontos do edital, mas usou muitos itens curtos e isolados. A prova real explorou classificação sintática e semântica com alternativas mais próximas.
+- **Inglês:** foi o bloco mais próximo do nível observado em 2024, embora os textos do simulado tenham sido mais curtos.
+- **Lógica:** os temas foram pertinentes, mas proporção e sequência ficaram mais diretas que os problemas contextuais da prova real; manter equivalência, mas aumentar a presença de aritmética contextual e raciocínio em duas etapas.
+- **Atualidades/IA:** os fatos escolhidos foram adequados e atuais, mas alguns enunciados forneceram pistas suficientes para responder por interpretação. A FGV 2024 exigiu mais conhecimento factual externo, frequentemente em I/II/III ou V/F.
+- **Legislação:** houve boa aderência temática, mas predominou literalidade de primeira camada. A prova real usou alternativas juridicamente próximas sobre LAI e LGPD, exigindo recuperação mais precisa.
+
+Portanto, **105/115 é um resultado válido deste simulado, mas não deve ser tratado como previsão direta da nota na prova real**. O próximo simulado deve conservar a mesma composição oficial e elevar a densidade até se aproximar do caderno de 2024.
+
+### Regras operacionais
+
+- manter Comunicação com autores, taxonomias, história/repertório e fronteiras próximas;
+- incluir formatos I/II/III, V/F, associação e exceção em quantidade natural;
+- manter Atualidades com fatos recentes, mas sem entregar a distinção central no próprio enunciado;
+- em Legislação, usar literalidade e exceções com alternativas próximas;
+- em Lógica, alternar lógica formal com aritmética contextual e problemas de duas etapas;
 - não super-representar os erros apenas porque reapareceram: retomá-los como distratores em prova heterogênea;
-- Português deve continuar misturando interpretação, referenciação, ortografia e sintaxe.
+- Português deve continuar misturando interpretação, referenciação, ortografia e sintaxe, com alternativas mais próximas.
 
 ---
 **Fonte:** simulado integral realizado e corrigido em 03/10/2026.

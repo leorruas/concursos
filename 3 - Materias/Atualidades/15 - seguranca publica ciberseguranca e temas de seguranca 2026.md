@@ -15,6 +15,15 @@ revalidar: true
 
 Este artigo reúne fatos e mecanismos de **segurança pública e cibersegurança** com potencial de cobrança em Atualidades. O foco não é decorar manchetes, mas distinguir instituição, instrumento, dado observado e inferência legítima.
 
+> [!IMPORTANT]
+> **Régua temporal para a Dataprev 2026:** `data_corte: 2026-10-03` registra quando este artigo foi verificado; **não é uma hipótese de que a FGV aceite fatos até 03/10**. Como a prova será em 11/10 e já precisa estar editorialmente fechada antes disso, a revisão para esta prova prioriza fatos consolidados com antecedência. Não há data oficial de corte conhecida; por isso, acontecimentos dos últimos dias de setembro ou de outubro ficam com prioridade reduzida, sem serem tratados como impossíveis.
+
+## Prioridade para a Dataprev 2026
+
+**Alta prioridade:** Programa Brasil contra o Crime Organizado, Mapa da Segurança Pública 2026, E-Ciber, CTIR Gov como estrutura de resposta e MED/Pix. São temas já consolidados antes da reta final e produzem boas fronteiras conceituais.
+
+**Prioridade secundária:** números mensais ou parciais de feminicídios e volumes específicos de notificações cibernéticas. Vale entender a leitura correta do dado, mas decorar números exatos tem retorno menor que dominar **período × tendência** e **mudança metodológica × mudança do fenômeno**.
+
 ## O que aconteceu
 
 ### 1. Programa Brasil contra o Crime Organizado
@@ -261,4 +270,4 @@ Fontes primárias verificadas em 03/10/2026:
 
 ## Data de corte
 
-**03/10/2026.** Revalidar dados conjunturais antes de simulado, revisão de véspera ou uso futuro.
+**03/10/2026.** Para a Dataprev de 11/10, este artigo fica **fechado para revisão**: não adicionar fatos da semana final apenas por serem mais recentes. Revalidar dados conjunturais somente para uso futuro ou outro concurso.

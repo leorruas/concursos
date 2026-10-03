@@ -128,9 +128,11 @@ A leitura não é limitante; portanto, não concentrar tudo em um único snapsho
 - [x] **🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026**
 - [x] **🆕 Educação e políticas educacionais — Atualidades 2026**
 - [x] **🆕 Cultura, mídia e temas sociais — Atualidades 2026**
-- [x] **🆕 Relações internacionais e fatos globais da semana final — Atualidades 2026**
+- [x] **🆕 Relações internacionais e fatos globais — Atualidades 2026**
 
-Esses artigos devem ser seletivos: registrar acontecimentos com potencial real de cobrança, não produzir enciclopédias genéricas. Em 08–09/10, fazer uma última varredura e **🔄 atualizar** os que tiverem fato novo relevante.
+Esses artigos devem ser seletivos: registrar acontecimentos com potencial real de cobrança, não produzir enciclopédias genéricas.
+
+**Fechamento temporal:** para a prova de 11/10, os snapshots de Atualidades ficam **fechados em 03/10**. Não fazer varredura factual em 08–09/10: fatos surgidos tão perto da prova têm baixo valor preditivo porque o caderno já precisa estar editorialmente fechado. A data exata de corte da FGV não é conhecida; por isso, a estratégia é priorizar fatos consolidados com antecedência e reduzir o peso de acontecimentos dos últimos dias de setembro.
 
 ### Fechamento de véspera
 

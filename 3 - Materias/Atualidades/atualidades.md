@@ -72,11 +72,17 @@ A pergunta de controle é: **se a FGV trocar o fato concreto, o fundamento conti
 
 ## Lacunas remanescentes do edital amplo
 
-As lacunas amplas priorizadas para a semana final agora possuem snapshots: [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|segurança]], [[16 - transportes mobilidade e infraestrutura 2026|transportes]], [[17 - educacao e politicas educacionais 2026|educação]], [[18 - cultura midia e temas sociais 2026|cultura/mídia]] e [[19 - relacoes internacionais e fatos globais 2026|relações internacionais]]. Esses artigos são conjunturais e devem ser revalidados.
+As lacunas amplas priorizadas para a semana final agora possuem snapshots: [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|segurança]], [[16 - transportes mobilidade e infraestrutura 2026|transportes]], [[17 - educacao e politicas educacionais 2026|educação]], [[18 - cultura midia e temas sociais 2026|cultura/mídia]] e [[19 - relacoes internacionais e fatos globais 2026|relações internacionais]]. Para a Dataprev de 11/10, esses artigos ficam fechados em 03/10; revalidação posterior serve para uso futuro ou outros concursos.
 
 # Snapshots conjunturais
 
-> Snapshots registram o estado de um tema em uma data específica. Revalidar antes de revisão futura e nunca substituir silenciosamente um registro histórico por valores novos.
+> Snapshots registram o estado de um tema em uma data específica. Revalidar antes de uso futuro e nunca substituir silenciosamente um registro histórico por valores novos. **Para a Dataprev de 11/10/2026, a data de verificação do artigo não deve ser confundida com a data provável de fechamento editorial da prova.**
+
+## Régua temporal — Dataprev 2026
+
+A FGV não publicou, nos materiais deste vault, uma data oficial de corte de Atualidades. Portanto, o vault **não inventa um dia exato**. Como estratégia de prova, fatos consolidados com antecedência recebem prioridade maior; acontecimentos dos últimos dias de setembro e de outubro recebem prioridade reduzida, porque podem ter ocorrido depois do fechamento editorial do caderno.
+
+A partir de **03/10**, Atualidades entra em **modo revisão** para esta prova: não acrescentar fatos novos apenas por recência. Atualizações conjunturais posteriores ficam para outros concursos ou para preservação histórica.
 
 ## 2026
 
@@ -103,7 +109,7 @@ Erros `[K]` futuros devem primeiro ser confrontados com os fundamentos existente
 
 Antes de criar uma nota, verificar se o tema tem relevância nacional ou internacional, aderência aos editais ativos, possibilidade realista de cobrança, necessidade conceitual e se uma nota existente já pode receber o exemplo. Se houver um fundamento adequado, preferir refiná-lo ou criar somente um snapshot vinculado.
 
-Informações atuais exigem pesquisa web. Para dados e fatos, priorizar fontes oficiais primárias; usar jornalismo de alta confiabilidade para contexto quando necessário. Toda nota conjuntural deve conter `updated`, `data_corte`, fontes e aviso de revalidação.
+Informações atuais exigem pesquisa web. Para dados e fatos, priorizar fontes oficiais primárias; usar jornalismo de alta confiabilidade para contexto quando necessário. Toda nota conjuntural deve conter `updated`, `data_corte`, fontes e aviso de revalidação. **`data_corte` é data de verificação da nota, não data presumida de corte da banca.** Para a Dataprev 2026, não atualizar os snapshots na semana final só porque surgiu fato mais recente.
 
 # Acompanhamento
 

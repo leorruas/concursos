@@ -1143,3 +1143,10 @@
 - A leitura de prova enfatiza plano × execução, carteira × investimento realizado, concessão × venda do ativo, modal × integração modal e correlação × causalidade.
 - Hub de Atualidades, índice global e cronograma da semana final atualizados na mesma operação.
 
+## 2026-10-03 — Chunk 8 — educação e políticas educacionais 2026
+
+- Criado [[3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026|🆕 Educação e políticas educacionais — Atualidades 2026]] com data de corte em 03/10/2026.
+- A nota reúne novo PNE, Ideb 2025, Saeb, Censo Escolar 2026 e Pé-de-Meia.
+- O eixo central de prova é distinguir PNE × programa específico, Censo × Saeb × Ideb, aprovação × aprendizagem e resultado observado × causalidade.
+- Hub de Atualidades, índice global e cronograma da semana final atualizados na mesma operação.
+

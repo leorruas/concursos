@@ -70,7 +70,7 @@ A pergunta de controle é: **se a FGV trocar o fato concreto, o fundamento conti
 
 ## Lacunas remanescentes do edital amplo
 
-Educação e cultura continuam sem uma nota genérica estável. Segurança já possui o snapshot [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026]] e transportes possui [[16 - transportes mobilidade e infraestrutura 2026|🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026]]. Os demais termos do edital continuam amplos demais para justificar teoria abstrata sem acontecimento ou mecanismo relevante.
+Cultura continua sem uma nota genérica estável. Segurança já possui [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026]], transportes possui [[16 - transportes mobilidade e infraestrutura 2026|🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026]] e educação possui [[17 - educacao e politicas educacionais 2026|🆕 Educação e políticas educacionais — Atualidades 2026]].
 
 # Snapshots conjunturais
 
@@ -80,6 +80,7 @@ Educação e cultura continuam sem uma nota genérica estável. Segurança já p
 
 - [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026]]
 - [[16 - transportes mobilidade e infraestrutura 2026|🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026]]
+- [[17 - educacao e politicas educacionais 2026|🆕 Educação e políticas educacionais — Atualidades 2026]]
 - [[Snapshots/2026-09-14 - IPCA agosto e Selic|IPCA de agosto e Selic — 14/09/2026]]
 
 # Como a FGV pode cobrar

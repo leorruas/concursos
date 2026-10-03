@@ -127,7 +127,7 @@ A leitura não é limitante; portanto, não concentrar tudo em um único snapsho
 - [x] **🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026**
 - [x] **🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026**
 - [x] **🆕 Educação e políticas educacionais — Atualidades 2026**
-- [ ] **🆕 Cultura, mídia e temas sociais — Atualidades 2026**
+- [x] **🆕 Cultura, mídia e temas sociais — Atualidades 2026**
 - [ ] **🆕 Relações internacionais e fatos globais da semana final — Atualidades 2026**
 
 Esses artigos devem ser seletivos: registrar acontecimentos com potencial real de cobrança, não produzir enciclopédias genéricas. Em 08–09/10, fazer uma última varredura e **🔄 atualizar** os que tiverem fato novo relevante.

@@ -66,11 +66,12 @@ A pergunta de controle é: **se a FGV trocar o fato concreto, o fundamento conti
 
 ## Cultura e temas sociais relevantes
 
-- Criar fundamentos apenas quando o tema tiver relevância suficiente, aderência ao edital e capacidade de gerar questão razoável. Evitar transformar manchetes isoladas em conhecimento permanente.
+- [[18 - cultura midia e temas sociais 2026|🆕 Cultura, mídia e temas sociais — Atualidades 2026]]
+- O artigo atual é conjuntural; novos fundamentos permanentes só devem ser criados quando a fronteira conceitual justificar.
 
 ## Lacunas remanescentes do edital amplo
 
-Cultura continua sem uma nota genérica estável. Segurança já possui [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026]], transportes possui [[16 - transportes mobilidade e infraestrutura 2026|🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026]] e educação possui [[17 - educacao e politicas educacionais 2026|🆕 Educação e políticas educacionais — Atualidades 2026]].
+As quatro lacunas amplas priorizadas para a semana final agora possuem snapshots: [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|segurança]], [[16 - transportes mobilidade e infraestrutura 2026|transportes]], [[17 - educacao e politicas educacionais 2026|educação]] e [[18 - cultura midia e temas sociais 2026|cultura/mídia]]. Esses artigos são conjunturais e devem ser revalidados.
 
 # Snapshots conjunturais
 
@@ -81,6 +82,7 @@ Cultura continua sem uma nota genérica estável. Segurança já possui [[15 - s
 - [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026]]
 - [[16 - transportes mobilidade e infraestrutura 2026|🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026]]
 - [[17 - educacao e politicas educacionais 2026|🆕 Educação e políticas educacionais — Atualidades 2026]]
+- [[18 - cultura midia e temas sociais 2026|🆕 Cultura, mídia e temas sociais — Atualidades 2026]]
 - [[Snapshots/2026-09-14 - IPCA agosto e Selic|IPCA de agosto e Selic — 14/09/2026]]
 
 # Como a FGV pode cobrar

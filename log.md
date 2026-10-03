@@ -1150,3 +1150,10 @@
 - O eixo central de prova é distinguir PNE × programa específico, Censo × Saeb × Ideb, aprovação × aprendizagem e resultado observado × causalidade.
 - Hub de Atualidades, índice global e cronograma da semana final atualizados na mesma operação.
 
+## 2026-10-03 — Chunk 9 — cultura, mídia e temas sociais 2026
+
+- Criado [[3 - Materias/Atualidades/18 - cultura midia e temas sociais 2026|🆕 Cultura, mídia e temas sociais — Atualidades 2026]] com data de corte em 03/10/2026.
+- A nota diferencia SNC, PNC e PNA, registra a Política Nacional para as Culturas Tradicionais e Populares, a inscrição dos Teatros da Amazônia na UNESCO e a plataforma pública Tela Brasil.
+- O eixo de prova prioriza sistema × plano × política, tramitação legislativa × lei vigente, patrimônio mundial × propriedade e candidatura conjunta × sítios separados.
+- Hub de Atualidades, índice global e cronograma da semana final atualizados na mesma operação.
+

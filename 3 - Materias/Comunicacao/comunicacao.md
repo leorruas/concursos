@@ -3,7 +3,7 @@ title: "Comunicação social"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-09-01
+updated: 2026-10-03
 ---
 
 # Comunicação (Concursos)
@@ -12,6 +12,7 @@ updated: 2026-09-01
 - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
 
 ## Comunicação Organizacional e Pública
+- [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]
 - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
 - [[3 - Materias/Comunicacao/02 - comunicacao publica|02 • Comunicação pública]]
 - [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]]
@@ -27,6 +28,8 @@ updated: 2026-09-01
 - [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|18 • Fact-checking e desinformação]]
 - [[3 - Materias/Comunicacao/12 - producao editorial e design|12 • Produção editorial e design]]
 - [[3 - Materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa|21 • Teorias do jornalismo e história da imprensa]]
+- [[3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil|🆕 23 • História da mídia, do jornalismo e da comunicação empresarial no Brasil]]
+- [[3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual|🆕 24 • Radiojornalismo, telejornalismo e linguagem audiovisual]]
 
 ## Planejamento e Pesquisa
 - [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16 • Planejamento de comunicação]]

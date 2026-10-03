@@ -90,15 +90,15 @@ O emoji entra no `title:` e no `# H1`, mas **não** no nome físico do arquivo.
 
 ### Prioridade A — fazer antes do próximo ou do penúltimo simulado
 
-- [ ] **🆕 Autores e taxonomias de comunicação organizacional e relações públicas**  
+- [x] **🆕 Autores e taxonomias de comunicação organizacional e relações públicas**  
   Arquivo: `3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas.md`  
   Núcleo: Ehling, White & Grunig; Cesca; Paulo Nassar; autor → conceito → estrutura interna → categorias → limites → confusões prováveis. Evitar biografia sem função de prova.
 
-- [ ] **🆕 História da mídia, do jornalismo e da comunicação empresarial no Brasil**  
+- [x] **🆕 História da mídia, do jornalismo e da comunicação empresarial no Brasil**  
   Arquivo: `3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil.md`  
   Núcleo: *O Cruzeiro* e fotojornalismo, fases da televisão, trajetória do *Jornal do Brasil*, ABERJE, Boletim Light/Nossa Estrada, consolidação do jornalismo empresarial e marcos que a FGV pode transformar em associação factual. Pode remeter à [[3 - Materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa|21 • Teorias do jornalismo e história da imprensa]] para teoria geral.
 
-- [ ] **🆕 Radiojornalismo, telejornalismo e linguagem audiovisual**  
+- [x] **🆕 Radiojornalismo, telejornalismo e linguagem audiovisual**  
   Arquivo: `3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual.md`  
   Núcleo: texto manchetado, linguagem radiofônica, cabeça × pé × off × sonora × passagem, roteiro e estrutura de matéria. Citar e complementar [[3 - Materias/Comunicacao/12 - producao editorial e design|12 • Produção editorial e design]] em vez de duplicar sangria, tipografia e fundamentos de produção.
 

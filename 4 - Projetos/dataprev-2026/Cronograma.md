@@ -125,7 +125,7 @@ O emoji entra no `title:` e no `# H1`, mas **não** no nome físico do arquivo.
 A leitura não é limitante; portanto, não concentrar tudo em um único snapshot gigante. Criar artigos curtos por eixo, todos com fatos recentes verificados em fontes primárias e data de corte explícita:
 
 - [x] **🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026**
-- [ ] **🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026**
+- [x] **🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026**
 - [ ] **🆕 Educação e políticas educacionais — Atualidades 2026**
 - [ ] **🆕 Cultura, mídia e temas sociais — Atualidades 2026**
 - [ ] **🆕 Relações internacionais e fatos globais da semana final — Atualidades 2026**

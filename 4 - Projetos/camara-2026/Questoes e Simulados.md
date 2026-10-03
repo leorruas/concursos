@@ -101,7 +101,7 @@ Não chamar uma bateria parcial de simulado integral.
 
 ### Simulação completa da prova
 
-Além dos 180 itens objetivos, incluir em momento separado a prova discursiva conforme o edital vigente: duas questões e uma peça técnica. A análise específica da discursiva será tratada em nota própria.
+Além dos 180 itens objetivos, incluir em momento separado a prova discursiva conforme o edital vigente: duas questões e uma peça técnica. A estratégia e os padrões oficiais estão em [[4 - Projetos/camara-2026/Discursiva Cebraspe - Camara 2026|Discursiva Cebraspe - Câmara 2026]].
 
 ## Correção clínica
 

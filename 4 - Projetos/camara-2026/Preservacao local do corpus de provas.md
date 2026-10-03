@@ -72,6 +72,10 @@ Se algum link direto tiver sido reorganizado pelo Portal da Câmara, resolver o 
 
 Antes de baixar o caderno do espelho, procurar uma cópia oficial no evento `TCE_MG_25`. Se existir, preferir a oficial e registrar a substituição.
 
+### Câmara dos Deputados 2026: Processo Legislativo e Gestão — padrão discursivo
+
+- padrão definitivo das duas questões e da peça técnica: https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/D5F3CAA9B8BAEA93D7B1750A43949FF94C88F2DA3F44ADAE978062F601A94FDD.pdf
+
 ### PF Administrativo 2025: Técnico em Comunicação Social
 
 - caderno oficial: https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_014_01.pdf
@@ -135,6 +139,7 @@ Faça o trabalho em etapas verificáveis:
    tce-mg-2026-comunicador-prova.pdf
    tce-mg-2026-comunicador-gabarito.pdf
    tce-mg-2026-comunicador-discursiva-padrao.pdf
+   camara-2026-processo-legislativo-discursiva-padrao.pdf
    pf-2025-comunicacao-prova.pdf
    pf-2025-comunicacao-gabarito.pdf
    pf-2025-comunicacao-discursiva-padrao.pdf

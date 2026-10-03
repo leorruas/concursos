@@ -10,7 +10,7 @@ updated: 2026-10-03
 
 Análise operacional do padrão Cebraspe para a preparação da Câmara dos Deputados 2026. A nota parte do edital vigente e de provas reais de Comunicação Social e Publicidade, com prioridade para itens **Certo ou Errado**.
 
-A amostra inicial usa principalmente **Correios 2011 — Comunicação Social/Publicidade e Propaganda**, **CNMP 2023 — Comunicação Social** e **DPDF 2020 — Comunicação Social**. O corpus será ampliado progressivamente em [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]].
+A amostra atual combina **Correios 2011**, **CNMP 2023**, **DPDF 2020**, **PF Administrativo 2025**, **Câmara dos Deputados 2003** e **Câmara dos Deputados 2014**, priorizando provas Cebraspe em formato C/E e alta aderência aos blocos do edital. Provas de outros formatos permanecem no corpus apenas como apoio de conteúdo. O detalhamento operacional está em [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]].
 
 ## Núcleo do método
 
@@ -61,6 +61,43 @@ Os mecanismos observados até aqui podem ser tratados como uma taxonomia de leit
 7. **desatualização normativa ou tecnológica**: item historicamente válido deixa de ser fonte factual atual.
 
 Essa taxonomia deve orientar tanto a correção de questões reais quanto a geração de itens inéditos para a Câmara.
+
+## O que a amostra quantitativa mostra
+
+A primeira indexação individual reúne **101 registros de itens Cebraspe C/E** nos blocos prioritários. Um item da Câmara 2003 foi anulado, portanto a amostra efetivamente julgada contém **100 itens: 56 certos e 44 errados**.
+
+Essa divisão **não estima a proporção de C e E da futura prova**. A amostra foi selecionada por aderência temática e valor pedagógico, não por amostragem aleatória.
+
+Para os **44 itens errados**, cada questão recebeu um único mecanismo primário, definido pelo fragmento que efetivamente torna a afirmação falsa. O resultado é:
+
+| Mecanismo primário | Itens | Participação entre os 44 itens E |
+| :--- | ---: | ---: |
+| excesso de escopo, generalização ou exclusividade indevida | 13 | 29,5% |
+| troca de categoria ou conceito vizinho | 9 | 20,5% |
+| troca de autor, escola ou modelo | 8 | 18,2% |
+| inversão de relação, efeito ou causalidade | 7 | 15,9% |
+| troca de agente, competência, procedimento ou quórum | 5 | 11,4% |
+| erro de cronologia ou enquadramento histórico | 2 | 4,5% |
+
+A classificação é **operacional e mutuamente exclusiva apenas para contagem**. Um mesmo item pode permitir mais de uma leitura. Quando isso ocorre, prevalece a alteração mínima que decide o julgamento.
+
+### Consequência para o estudo
+
+O dado mais útil é que **13 de 44 itens falsos** da amostra falham por escopo. A frase costuma partir de um núcleo verdadeiro e exagerá-lo: algo possível vira necessário, uma atribuição compartilhada vira exclusiva, uma ferramenta estratégica é reduzida a função operacional ou uma característica contextual vira regra geral.
+
+Somando **troca de categoria** e **troca de autor, escola ou modelo**, há **17 de 44 itens** em que o erro depende de manter fronteiras conceituais bem definidas. Isso reforça o valor de estudar estruturas internas, categorias vizinhas e relações autor-conceito, em vez de memorizar apenas definições isoladas.
+
+Já as inversões de relação e as trocas de agente, competência ou procedimento somam **12 de 44 itens**. Esse padrão é especialmente relevante em Processo Legislativo e em situações profissionais de Comunicação, onde uma ação real pode ser atribuída ao setor, órgão, etapa ou quórum errado.
+
+A ordem prática de verificação de um item difícil pode ser:
+
+1. testar **escopo**: a frase tornou algo absoluto, exclusivo ou necessário?
+2. testar **categoria/modelo**: uma característica correta foi deslocada para o conceito vizinho?
+3. testar **relação**: causa, efeito, finalidade, parte/todo ou sequência foram invertidos?
+4. testar **agente/procedimento**: quem faz, quando faz e com qual quórum estão corretos?
+5. em itens teóricos, conferir **autor/escola/modelo** e **cronologia**.
+
+Isso é uma heurística de auditoria, não um algoritmo de gabarito.
 
 ## Diferença prática para a FGV
 
@@ -114,11 +151,10 @@ Essas fronteiras devem receber mais treino do que definições isoladas. Um item
 
 ## Próximas expansões
 
-Esta é uma análise inicial. As próximas fases do corpus devem acrescentar:
+A primeira indexação individual e a contagem dos mecanismos de erro já estão concluídas. As próximas fases devem acrescentar:
 
-- índice de itens reais por tópico do edital da Câmara;
-- frequência dos mecanismos de erro por prova;
 - comparação entre específicos de Comunicação/Publicidade e conhecimentos básicos;
+- integração sistemática do índice real ao fluxo de estudo e aos simulados;
 - análise separada da prova discursiva do Cebraspe;
 - calibração de nível e extensão dos itens por prova;
 - exemplos comentados de alto valor cognitivo, sem transformar esta nota em banco de questões.
@@ -129,4 +165,7 @@ Esta é uma análise inicial. As próximas fases do corpus devem acrescentar:
 - [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]]
 - Correios 2011 — Comunicação Social, Publicidade e Propaganda: https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf
 - CNMP 2023 — Analista, Comunicação Social: https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF
-- DPDF 2020 — Comunicação Social: https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF
+- DPDF 2020, Comunicação Social: https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF
+- PF Administrativo 2025, Técnico em Comunicação Social: https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_014_01.pdf
+- Câmara dos Deputados 2003, Técnico em Comunicação Social: https://cdn.cebraspe.org.br/concursos/_antigos/2003/CD2003/
+- Câmara dos Deputados 2014, Consultor Legislativo, Área XIX: https://cdn.cebraspe.org.br/concursos/CD_14_AT/arquivos/CAMARA14_020_39.pdf

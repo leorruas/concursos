@@ -1157,3 +1157,11 @@
 - O eixo de prova prioriza sistema × plano × política, tramitação legislativa × lei vigente, patrimônio mundial × propriedade e candidatura conjunta × sítios separados.
 - Hub de Atualidades, índice global e cronograma da semana final atualizados na mesma operação.
 
+
+
+## 2026-10-03 — Chunk 10 — relações internacionais e fatos globais 2026
+
+- Criado [[3 - Materias/Atualidades/19 - relacoes internacionais e fatos globais 2026|🆕 Relações internacionais e fatos globais — Atualidades 2026]] com data de corte em 03/10/2026.
+- A nota reúne a 81ª Assembleia Geral da ONU, sucessão de António Guterres, Ucrânia, Gaza, aplicação provisória do acordo comercial Mercosul–UE, Cúpula da OTAN em Ancara e presidência indiana do BRICS.
+- O eixo de prova prioriza Assembleia Geral × Conselho de Segurança, recomendação × nomeação, cessar-fogo × paz, assinatura × aplicação provisória × ratificação e presidência rotativa × hierarquia.
+- Hub de Atualidades, índice global e cronograma da semana final atualizados na mesma operação.

@@ -40,6 +40,7 @@ A pergunta de controle é: **se a FGV trocar o fato concreto, o fundamento conti
 ## Geopolítica e relações internacionais
 
 - [[08 - organizacoes internacionais e blocos|Organizações internacionais e blocos: ONU, Conselho de Segurança, OTAN, UE, Mercosul, BRICS e G20]]
+- [[19 - relacoes internacionais e fatos globais 2026|🆕 Relações internacionais e fatos globais — Atualidades 2026]]
 - Conflitos específicos e mudanças de alianças devem entrar como snapshots quando tiverem relevância de prova.
 
 ## Sociedade e indicadores sociais
@@ -71,7 +72,7 @@ A pergunta de controle é: **se a FGV trocar o fato concreto, o fundamento conti
 
 ## Lacunas remanescentes do edital amplo
 
-As quatro lacunas amplas priorizadas para a semana final agora possuem snapshots: [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|segurança]], [[16 - transportes mobilidade e infraestrutura 2026|transportes]], [[17 - educacao e politicas educacionais 2026|educação]] e [[18 - cultura midia e temas sociais 2026|cultura/mídia]]. Esses artigos são conjunturais e devem ser revalidados.
+As lacunas amplas priorizadas para a semana final agora possuem snapshots: [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|segurança]], [[16 - transportes mobilidade e infraestrutura 2026|transportes]], [[17 - educacao e politicas educacionais 2026|educação]], [[18 - cultura midia e temas sociais 2026|cultura/mídia]] e [[19 - relacoes internacionais e fatos globais 2026|relações internacionais]]. Esses artigos são conjunturais e devem ser revalidados.
 
 # Snapshots conjunturais
 
@@ -83,6 +84,7 @@ As quatro lacunas amplas priorizadas para a semana final agora possuem snapshots
 - [[16 - transportes mobilidade e infraestrutura 2026|🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026]]
 - [[17 - educacao e politicas educacionais 2026|🆕 Educação e políticas educacionais — Atualidades 2026]]
 - [[18 - cultura midia e temas sociais 2026|🆕 Cultura, mídia e temas sociais — Atualidades 2026]]
+- [[19 - relacoes internacionais e fatos globais 2026|🆕 Relações internacionais e fatos globais — Atualidades 2026]]
 - [[Snapshots/2026-09-14 - IPCA agosto e Selic|IPCA de agosto e Selic — 14/09/2026]]
 
 # Como a FGV pode cobrar

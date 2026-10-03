@@ -29,6 +29,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[4 - Projetos/dataprev-2026/Log de erros|Log de erros]]
 - [[4 - Projetos/camara-2026/O que estudar|Câmara 2026: O que estudar]]
   - [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]]
+  - [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]]
+  - [[4 - Projetos/camara-2026/Questoes e Simulados|Questões e simulados]]
 
 ## 5 - Desempenho
 - [[00 Avancos globais|Avanços e desempenho global]]

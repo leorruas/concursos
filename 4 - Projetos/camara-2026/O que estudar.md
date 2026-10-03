@@ -12,7 +12,7 @@ Checklist orientado pelo Edital nº 1/2026 da Câmara dos Deputados para o Cargo
 
 Este documento mede **cobertura do vault**, não domínio do candidato.
 
-Corpus operacional de questões: [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Provas anteriores e padrão Cebraspe]].
+Corpus operacional de questões: [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Provas anteriores e padrão Cebraspe]]. Fluxo de treino: [[4 - Projetos/camara-2026/Questoes e Simulados|Questões e simulados - Câmara 2026]].
 
 Legenda: **REVISAR** = nota canônica com aderência forte; **EXPANDIR** = há base reutilizável, mas falta recorte do edital; **NOVO** = não há cobertura adequada.
 
@@ -163,7 +163,7 @@ O padrão Cebraspe deve entrar desde a primeira sessão, e não apenas depois da
 
 Nas baterias, admitir **C, E ou branco** e registrar a nota líquida pelo padrão do edital: acerto +1, erro -1 e branco 0. O objetivo é treinar simultaneamente conteúdo, precisão de julgamento e decisão de risco.
 
-Priorizar questões reais do [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|corpus Cebraspe-Câmara]] quando houver aderência direta. Questões inéditas devem reproduzir os mecanismos da banca observados nas provas, sem converter o treino para o padrão de cinco alternativas.
+Priorizar questões reais do [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]] quando houver aderência direta. Depois, usar questões inéditas para variar a aplicação dos mesmos mecanismos, sem copiar a redação da fonte e sem converter o treino para o padrão de cinco alternativas. O procedimento completo está em [[4 - Projetos/camara-2026/Questoes e Simulados|Questões e simulados - Câmara 2026]].
 
 ## Discursiva
 

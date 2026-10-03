@@ -46,6 +46,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 ## 3 - Matérias
 - [[3 - Materias/Estrategia de Prova/estrategia-de-prova|Estratégia de prova]]
   - [[3 - Materias/Estrategia de Prova/FGV - Dataprev e corpus de Comunicacao|FGV: Dataprev e corpus de Comunicação]]
+  - [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]]
 - [[3 - Materias/Portugues/portugues|Língua portuguesa]]
   - [[3 - Materias/Portugues/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Portugues/01 - interpretacao de texto|01 • Interpretação de texto]]

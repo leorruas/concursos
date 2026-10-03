@@ -1052,3 +1052,9 @@
 - Refinadas as notas de coesão/referenciação, acordo ortográfico, regime de metas, COP/Pre-COP, LAI, comunicação pública e 7 Ps. Não houve criação de nova nota: as lacunas cabiam nas notas canônicas já existentes.
 - Mantidos como acertos com recuperação incompleta Q10 (colocação pronominal), Q25 (contrapositiva), Q31 (Pre-COP) e Q36 (prazos de sigilo da LAI).
 
+## 2026-10-03 — Legenda clínica obrigatória em diagnósticos de erro
+
+- Adicionada ao [[00 - Desempenho/Simulados/Simulado-04|Simulado 04 — Dataprev FGV]] uma legenda visível para **[K] conhecimento, [C] confusão conceitual, [I] interpretação e [D] distração**, incluindo a possibilidade de combinações quando houver mais de um mecanismo causal.
+- Atualizadas as [[1 - Planejamento/Regras de ingestao de questoes|Regras de ingestão de questões]] e `.agent/AGENTS.md` para tornar essa legenda obrigatória em qualquer simulado, bateria, diagnóstico, tabela ou relatório que apresente as siglas clínicas.
+- Motivo: impedir que os códigos percam legibilidade com o tempo e evitar dependência de memória ou navegação para outro arquivo.
+

@@ -3,7 +3,7 @@ title: "Regras de ingestão de questões"
 type: "governanca-estudo"
 status: "ativo"
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-10-03
 ---
 
 # Regras de ingestão de questões
@@ -63,6 +63,19 @@ Indica lapso de leitura, marcação, palavra delimitadora ou cálculo final. Em 
 - alimenta apenas métricas e diagnóstico;
 - não deve poluir artigo teórico;
 - só sobe para `Heurísticas` ou questão comentada quando o mesmo mecanismo se repetir de forma relevante e recuperável.
+
+## Legenda obrigatória nos artefatos de erro
+
+Sempre que um **simulado, bateria, diagnóstico, relatório, tabela ou página de desempenho** exibir as abreviações clínicas `[K]`, `[C]`, `[I]` ou `[D]`, o próprio artefato deve incluir uma **legenda visível próxima da primeira ocorrência dos códigos**. Não exigir que o leitor memorize as siglas nem dependa de outro arquivo para entendê-las.
+
+Usar esta redação semântica:
+
+- **[K] Conhecimento** — faltava saber ou recuperar uma regra, fato, conceito ou informação específica.
+- **[C] Confusão conceitual** — o conteúdo já havia sido visto, mas houve troca entre conceitos próximos, categorias, relações ou aplicações.
+- **[I] Interpretação** — o conteúdo era conhecido, mas houve leitura inadequada do comando, do escopo, da referência ou das premissas apresentadas.
+- **[D] Distração** — lapso de atenção, marcação, leitura de palavra delimitadora ou cálculo final, sem evidência principal de lacuna conceitual.
+
+Combinações como **[K/C]** ou **[D/C]** são permitidas quando houver evidência de mais de um mecanismo causal relevante. No dado canônico, preservar os valores semânticos definidos pela taxonomia; as siglas continuam sendo apenas uma camada visual de apresentação.
 
 ## Acertos também podem gerar conhecimento
 

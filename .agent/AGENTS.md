@@ -58,6 +58,19 @@ Toda questão deve receber um destino pedagógico explícito. Não assumir que e
 
 Erros `[C]` e `[K]` são os principais candidatos a enriquecimento/questão comentada; erros `[I]` e `[D]` só devem subir para a teoria quando revelarem mecanismo recorrente e recuperável. Questões acertadas também podem virar candidatas quando possuírem distrator excepcionalmente plausível, fronteira conceitual importante ou mecanismo recorrente de banca.
 
+### Legenda clínica obrigatória na apresentação
+
+Sempre que qualquer artefato de estudo ou desempenho — especialmente `Simulado-XX.md`, baterias, diagnósticos, tabelas de erros e relatórios — usar as siglas `[K]`, `[C]`, `[I]` ou `[D]`, incluir uma **legenda visível no próprio documento, próxima da primeira ocorrência**. Nunca pressupor que o usuário lembrará o significado das siglas.
+
+Legenda padrão:
+- **[K] Conhecimento** — faltava saber ou recuperar regra, fato, conceito ou informação específica.
+- **[C] Confusão conceitual** — conceito visto, mas com fronteira borrada, categoria trocada ou aplicação indevida.
+- **[I] Interpretação** — leitura inadequada do comando, escopo, referência ou premissas.
+- **[D] Distração** — lapso de atenção, marcação, delimitador ou cálculo final.
+- Combinações como **[K/C]** e **[D/C]** podem aparecer quando mais de um mecanismo tiver contribuído de forma relevante.
+
+A legenda é obrigatória mesmo quando a taxonomia já estiver documentada em outro arquivo do vault.
+
 Antes de inserir questão comentada em uma nota, verificar se já existe questão cobrindo a mesma fronteira. O artigo não deve virar banco de questões: preservar a régua de 1 a 3 questões comentadas de alto valor cognitivo por nota, substituindo ou fundindo quando surgir exemplo melhor.
 
 ### Comando canônico, idempotência e apply transacional

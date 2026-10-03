@@ -51,6 +51,16 @@ O aproveitamento bruto repetiu os 63/70 do Simulado 03, mas a distribuição dos
 | 41 | Comunicação | D | C | [C] | Jorge Duarte: interação × ouvidoria social |
 | 45 | Comunicação | A | D | [C] | 7 Ps: Process × Physical Evidence |
 
+### Legenda dos tipos de erro
+
+> [!NOTE]
+> - **[K] Conhecimento** — faltava saber ou recuperar uma regra, fato, conceito ou informação específica.
+> - **[C] Confusão conceitual** — o conteúdo já havia sido visto, mas houve troca entre conceitos próximos, categorias, relações ou aplicações.
+> - **[I] Interpretação** — o conteúdo era conhecido, mas houve leitura inadequada do comando, do escopo, da referência ou das premissas apresentadas.
+> - **[D] Distração** — lapso de atenção, marcação, leitura de palavra delimitadora ou cálculo final, sem evidência principal de lacuna conceitual.
+> - **Combinações**, como **[K/C]** ou **[D/C]**, indicam que mais de um mecanismo contribuiu de forma relevante para o erro.
+
+
 ## Ajustes a partir dos erros
 
 - **Q7 — interpretação:** identificar se pronome possessivo admite dois antecedentes plausíveis; proximidade não resolve sozinha o referente. [[3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais#Refinamento — ambiguidade de referência pronominal|Ambiguidade de referência pronominal]]

@@ -38,6 +38,15 @@ Criar uma nota em `3 - Materias/` é uma operação lógica multi-arquivo. No me
 
 Não criar a nota primeiro para “indexar depois”. `scripts/validate-change-contract.js` exige essas superfícies no mesmo diff. Se a matéria não possuir hub local, o contrato exige ao menos a nota e o `index.md` global e sinaliza a ausência do hub.
 
+### Marcador visual de artigos da semana final
+
+Durante a reta final da Dataprev até 11/10/2026, todo artigo de estudo em `3 - Materias/` que for **criado** ou **substancialmente atualizado** para fechar o backlog da semana deve receber um marcador visual no **título exibido**, sem alterar o nome físico do arquivo:
+
+- **🆕** para artigo novo;
+- **🔄** para artigo existente que recebeu atualização substancial.
+
+Aplicar o emoji tanto no campo `title:` do frontmatter quanto no `# H1` da nota, mantendo o wikilink pelo nome físico do arquivo. Não usar emoji para correção tipográfica mínima, ajuste de link ou housekeeping sem ganho de conteúdo.
+
 ## Regra adicional para artigos de matéria
 
 Sempre que a tarefa criar, revisar, expandir ou auditar uma nota em `3 - Materias/`, o agente deve também ler e aplicar:

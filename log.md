@@ -1086,3 +1086,11 @@
 - O [[4 - Projetos/dataprev-2026/Cronograma|Cronograma Dataprev]] recebeu o backlog mínimo da semana final: novo artigo de autores/taxonomias de Comunicação; refinamentos de história da imprensa e produção editorial/AV; novo artigo de problemas aritméticos/geométricos/matriciais; novo artigo de tipos/gêneros textuais; refinamentos de reescrita/semântica e crase; snapshot final de Atualidades apenas em 08–09/10.
 - Foi explicitado o que **não** precisa de artigo novo agora para evitar expansão do vault sem retorno de prova.
 
+## 2026-10-03 — Backlog final passa a usar artigos completos e marcador visual
+
+- O backlog da semana final da Dataprev foi reformulado para privilegiar **artigos completos, curtos e autocontidos**, em vez de apenas enxertos em notas existentes.
+- Comunicação ganha artigos próprios de autores/taxonomias, história da mídia/comunicação empresarial e radiojornalismo/telejornalismo; este último deve citar a nota de produção editorial/design sem duplicar conteúdo.
+- Português ganha artigos próprios de tipos/gêneros, reescrita/semântica e crase; Lógica mantém o artigo específico de problemas aritméticos/geométricos/matriciais.
+- Atualidades passa a admitir artigos curtos por eixo já nesta semana — segurança, transportes, educação, cultura/temas sociais e relações internacionais — com pesquisa atual e data de corte.
+- Durante a reta final, artigos de estudo **novos** recebem **🆕** no título exibido; artigos **substancialmente atualizados** recebem **🔄**. O nome físico do arquivo permanece estável.
+

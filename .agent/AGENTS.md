@@ -48,6 +48,48 @@ Esse documento é a régua canônica para artigos de estudo. Prompts específico
 
 Para qualquer tarefa em `3 - Materias/Atualidades/`, aplicar também a seção **Extensão editorial para Atualidades** do padrão editorial. Antes de criar ou atualizar conteúdo, ler o hub `[[3 - Materias/Atualidades/atualidades|Atualidades]]`, os artigos existentes, o edital ativo pertinente e os registros de desempenho/erros relacionados. Informações conjunturais exigem pesquisa web e prioridade para fontes oficiais primárias; fundamentos estáveis e snapshots conjunturais devem permanecer explicitamente separados.
 
+### Calibração vigente pós-Simulado 04 — próximo simulado Dataprev
+
+Até nova autópsia substituir esta régua, o próximo simulado integral da Dataprev deve mirar a dificuldade observada na prova oficial FGV Dataprev 2024, sem copiar itens.
+
+**Composição obrigatória:** 12 Português + 12 Inglês + 5 Lógica + 6 Atualidades/IA + 5 Legislação + 30 Comunicação.
+
+**Português**
+- usar trechos reais ou verossímeis em parte relevante do bloco;
+- privilegiar classificação sintática/semântica, regência, concordância, coesão, reescrita e variação, com alternativas próximas;
+- evitar excesso de itens resolvíveis apenas por reconhecer uma regra evidente.
+
+**Inglês**
+- preferir 2 a 3 textos, com pelo menos um texto mais longo;
+- misturar interpretação, referência pronominal, conectores, vocabulário, modalização e classe/função da palavra;
+- evitar transformar o bloco em gramática isolada.
+
+**Lógica**
+- incluir ao menos dois problemas contextualizados ou em duas etapas;
+- misturar lógica formal com aritmética/proporção, ordenação/contagem e um item de padrão, álgebra, geometria ou raciocínio matricial;
+- dificuldade deve vir da modelagem, não de conta longa.
+
+**Atualidades/IA**
+- priorizar 4 itens de fatos/instituições recentes e 2 de IA, ajustando apenas se a conjuntura justificar;
+- incluir naturalmente I/II/III ou V/F;
+- o enunciado não deve fornecer a definição que resolve a própria questão;
+- fatos conjunturais precisam ser verificados em fontes atuais antes da geração.
+
+**Legislação**
+- distribuir as 5 questões entre LAI/Decretos, Lei 12.737/art. 154-A, Marco Civil e LGPD;
+- usar alternativas juridicamente próximas, exceções, sujeitos, prazos, competências e condições;
+- evitar cinco perguntas de literalidade de primeira camada.
+
+**Comunicação**
+- cobrir todos os dez blocos do edital ao longo das 30 questões, sem forçar três questões por bloco;
+- aumentar materialmente história/repertório, autores, estruturas internas, taxonomias e terminologia profissional;
+- mesclar reconhecimento factual, associação/correlação, I/II/III, EXCETO, interpretação de trecho teórico e caso profissional;
+- aproximadamente um terço do bloco deve exigir recuperação factual/autoral/taxonômica e não apenas aplicação intuitiva;
+- incluir rádio/TV, história da imprensa e comunicação empresarial, além de digital/marketing/pesquisa/design;
+- não super-representar os erros recentes do candidato.
+
+**Régua de dificuldade:** igual ou levemente acima da prova-espelho de 2024. A dificuldade deve vir de alternativas próximas, verdade parcial, transposição conceitual, recuperação factual e duas etapas de raciocínio — não de obscuridade gratuita, enunciado artificialmente longo ou conhecimento fora do edital.
+
 ## Regra obrigatória para ingestão de questões
 
 Sempre que a tarefa envolver questões resolvidas, baterias dirigidas, simulados, correções, diagnóstico de erros ou ingestão de exercícios, o agente deve também ler e aplicar:

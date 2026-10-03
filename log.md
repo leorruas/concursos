@@ -1079,3 +1079,10 @@
 - A nota [[3 - Materias/Estrategia de Prova/FGV - Dataprev e corpus de Comunicacao|FGV: Dataprev e corpus de Comunicação]] passou a registrar a auditoria de cobertura: Comunicação formalmente coberta; Português ainda relativamente fino em tipos/gêneros, crase sistemática e partes de reescrita; Lógica com menor materialização de problemas geométricos/matriciais; Atualidades exigindo varredura factual recente; Legislação com foco de risco em literalidade e fronteiras.
 - O diagnóstico do [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]] foi refinado para impedir que 105/115 seja interpretado como previsão direta da nota real e para calibrar o próximo simulado ao caderno de 2024.
 
+## 2026-10-03 — Calibração do próximo simulado e backlog da semana final
+
+- O protocolo Dataprev foi recalibrado para que o próximo simulado preserve 12/12/5/6/5/30, mas se aproxime do custo cognitivo da prova FGV Dataprev 2024: mais história/repertório, autores/taxonomias, terminologia técnica, I/II/III, associação e alternativas próximas.
+- Registrado em `.agent/AGENTS.md` o blueprint operacional por disciplina, incluindo 2–3 textos em Inglês, Lógica com problemas contextualizados em duas etapas, Atualidades com fatos não entregues pelo enunciado, Legislação com fronteiras jurídicas e Comunicação com cerca de um terço factual/autoral/taxonômico.
+- O [[4 - Projetos/dataprev-2026/Cronograma|Cronograma Dataprev]] recebeu o backlog mínimo da semana final: novo artigo de autores/taxonomias de Comunicação; refinamentos de história da imprensa e produção editorial/AV; novo artigo de problemas aritméticos/geométricos/matriciais; novo artigo de tipos/gêneros textuais; refinamentos de reescrita/semântica e crase; snapshot final de Atualidades apenas em 08–09/10.
+- Foi explicitado o que **não** precisa de artigo novo agora para evitar expansão do vault sem retorno de prova.
+

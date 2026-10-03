@@ -48,5 +48,14 @@
       "natureza": "meta_pessoal",
       "sourcePath": "4 - Projetos/dataprev-2026/Estrategia.md"
     }
+  },
+  {
+    "id": "camara-2026",
+    "nome": "Câmara 2026",
+    "banca": "Cebraspe",
+    "cargo": "Analista Legislativo: Comunicação Social — Divulgação Institucional",
+    "dataProva": "2027-01-17T00:00:00-03:00",
+    "status": "planejado",
+    "sourcePath": "2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional.md"
   }
 ]

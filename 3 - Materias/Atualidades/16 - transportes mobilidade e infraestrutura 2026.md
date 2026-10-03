@@ -15,6 +15,15 @@ revalidar: true
 
 Este artigo organiza fatos recentes de **transportes, mobilidade urbana e infraestrutura logística** com potencial de cobrança pela FGV. O foco é distinguir planejamento, investimento, concessão, operação e integração entre modais.
 
+> [!IMPORTANT]
+> **Régua temporal para a Dataprev 2026:** `data_corte: 2026-10-03` registra quando este artigo foi verificado; **não é uma hipótese de que a FGV aceite fatos até 03/10**. Como a prova será em 11/10 e já precisa estar editorialmente fechada antes disso, a revisão para esta prova prioriza fatos consolidados com antecedência. Não há data oficial de corte conhecida; por isso, acontecimentos dos últimos dias de setembro ou de outubro ficam com prioridade reduzida, sem serem tratados como impossíveis.
+
+## Prioridade para a Dataprev 2026
+
+**Alta prioridade:** PNL 2050, Novo PAC Mobilidade e a fronteira **concessão × venda/privatização do ativo**. São conteúdos anteriores à reta final e reaproveitáveis em várias formulações.
+
+**Prioridade secundária:** quantidades exatas de projetos, aeroportos e valores de carteiras. Para a prova, é mais importante reconhecer **carteira × investimento executado**, **planejamento × obra** e **correlação × causalidade**.
+
 ## O que aconteceu
 
 ### 1. Plano Nacional de Logística 2050
@@ -227,4 +236,4 @@ Fontes primárias verificadas em 03/10/2026:
 
 ## Data de corte
 
-**03/10/2026.** Revalidar anúncios, valores de carteira e status de projetos antes de revisão de véspera ou uso futuro.
+**03/10/2026.** Para a Dataprev de 11/10, este artigo fica **fechado para revisão**. Não atualizar anúncios ou valores na semana final; revalidar apenas para uso futuro ou outro concurso.

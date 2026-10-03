@@ -15,6 +15,15 @@ revalidar: true
 
 Este artigo reúne fatos recentes de educação com potencial de cobrança pela FGV, priorizando **planejamento nacional, indicadores, permanência escolar e avaliação da educação básica**.
 
+> [!IMPORTANT]
+> **Régua temporal para a Dataprev 2026:** `data_corte: 2026-10-03` registra quando este artigo foi verificado; **não é uma hipótese de que a FGV aceite fatos até 03/10**. Como a prova será em 11/10 e já precisa estar editorialmente fechada antes disso, a revisão para esta prova prioriza fatos consolidados com antecedência. Não há data oficial de corte conhecida; por isso, acontecimentos dos últimos dias de setembro ou de outubro ficam com prioridade reduzida, sem serem tratados como impossíveis.
+
+## Prioridade para a Dataprev 2026
+
+**Alta prioridade:** novo PNE, Ideb 2025, Saeb, Censo Escolar e Pé-de-Meia como instrumentos distintos. O maior retorno está na associação **PNE planeja · Censo descreve · Saeb avalia · Ideb combina · Pé-de-Meia incentiva permanência**.
+
+**Prioridade secundária:** resultados preliminares ou números divulgados muito perto da reta final. Use-os para compreender o mecanismo, não como decoreba principal.
+
 ## O que aconteceu
 
 ### 1. Novo Plano Nacional de Educação
@@ -216,4 +225,4 @@ Fontes primárias verificadas em 03/10/2026:
 
 ## Data de corte
 
-**03/10/2026.** Revalidar novos resultados, calendários e regras operacionais antes de uso futuro.
+**03/10/2026.** Para a Dataprev de 11/10, não incorporar novos resultados da semana final. Revalidar calendários, números e regras operacionais apenas para uso futuro ou outro concurso.

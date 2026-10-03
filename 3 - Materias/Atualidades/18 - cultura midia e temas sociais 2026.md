@@ -15,6 +15,15 @@ revalidar: true
 
 O eixo de cultura do edital é amplo. Para a reta final, vale concentrar em fatos de 2026 que permitem à FGV explorar **instituição × plano × política × patrimônio × plataforma pública**, em vez de acumular notícias isoladas.
 
+> [!IMPORTANT]
+> **Régua temporal para a Dataprev 2026:** `data_corte: 2026-10-03` registra quando este artigo foi verificado; **não é uma hipótese de que a FGV aceite fatos até 03/10**. Como a prova será em 11/10 e já precisa estar editorialmente fechada antes disso, a revisão para esta prova prioriza fatos consolidados com antecedência. Não há data oficial de corte conhecida; por isso, acontecimentos dos últimos dias de setembro ou de outubro ficam com prioridade reduzida, sem serem tratados como impossíveis.
+
+## Prioridade para a Dataprev 2026
+
+**Alta prioridade:** SNC × PNC, Política Nacional das Artes, Política Nacional para as Culturas Tradicionais e Populares e a inscrição dos Teatros da Amazônia na UNESCO. São fatos e estruturas consolidados com antecedência suficiente para merecer revisão.
+
+**Prioridade secundária:** detalhes operacionais da Tela Brasil e qualquer mudança legislativa posterior ao estágio do PNC já registrado. O ganho de prova está mais na fronteira **sistema × plano × política** e **aprovação legislativa × lei vigente** do que em atualização de última hora.
+
 ## O que aconteceu
 
 ### 1. Sistema Nacional de Cultura — SNC
@@ -233,4 +242,4 @@ Fontes primárias verificadas em 03/10/2026:
 
 ## Data de corte
 
-**03/10/2026.** Revalidar especialmente a tramitação do novo Plano Nacional de Cultura antes da revisão final.
+**03/10/2026.** Para a Dataprev de 11/10, manter o estágio legislativo aqui registrado como referência de estudo e **não perseguir mudanças da semana final**. Revalidar a tramitação somente para uso futuro ou outro concurso.

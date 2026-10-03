@@ -15,9 +15,23 @@ revalidar: true
 
 O eixo de relações internacionais do edital é amplo. Para a reta final, o melhor retorno está em fatos que permitem à FGV cobrar **instituição × competência × etapa do processo × consequência possível**, e não em acumular detalhes militares ou diplomáticos de curta duração.
 
+> [!IMPORTANT]
+> **Régua temporal para a Dataprev 2026:** `data_corte: 2026-10-03` registra quando este artigo foi verificado; **não é uma hipótese de que a FGV aceite fatos até 03/10**. Como a prova será em 11/10 e já precisa estar editorialmente fechada antes disso, a revisão para esta prova prioriza fatos consolidados com antecedência. Não há data oficial de corte conhecida; por isso, acontecimentos dos últimos dias de setembro ou de outubro ficam com prioridade reduzida, sem serem tratados como impossíveis.
+
+## Prioridade para a Dataprev 2026
+
+**Alta prioridade:** Mercosul–União Europeia, Cúpula da OTAN em Ancara, presidência indiana do BRICS e a estrutura institucional da ONU. Esses elementos estavam consolidados antes dos últimos dias de setembro.
+
+**Prioridade secundária:** processo de sucessão do secretário-geral e situação de Gaza/Ucrânia, estudados principalmente pelas fronteiras institucionais e conceituais.
+
+**Baixa prioridade para esta prova:** detalhes específicos do Debate Geral da ONU de **22 a 28/09**, inclusive tema da sessão e fatos diplomáticos surgidos nesses últimos dias. Eles permanecem no artigo como contexto e para uso futuro, mas não devem ocupar tempo de memorização na reta final.
+
 ## O que aconteceu
 
 ### 1. 81ª sessão da Assembleia Geral da ONU e Semana de Alto Nível
+
+> [!CAUTION]
+> **Baixa prioridade para a Dataprev 2026:** os detalhes do Debate Geral de 22–28/09 ficam muito próximos da provável fase de fechamento editorial do caderno. Para esta prova, priorize a distinção **Assembleia Geral × Conselho de Segurança**, não a decoreba do tema ou da agenda específica da semana.
 
 A **81ª sessão da Assembleia Geral das Nações Unidas** foi aberta em **8 de setembro de 2026**.
 
@@ -248,4 +262,4 @@ Fontes oficiais verificadas em 03/10/2026:
 
 ## Data de corte
 
-**03/10/2026.** Revalidar conflitos, o processo de escolha do próximo secretário-geral e qualquer mudança no estágio jurídico do acordo Mercosul–UE antes da revisão final.
+**03/10/2026.** Para a Dataprev de 11/10, este artigo fica **fechado para revisão**. Não atualizar conflitos, sucessão na ONU ou etapas do acordo Mercosul–UE na semana final; revalidar somente para uso futuro ou outro concurso.

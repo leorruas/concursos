@@ -82,7 +82,8 @@ Até nova autópsia substituir esta régua, o próximo simulado integral da Data
 - priorizar 4 itens de fatos/instituições recentes e 2 de IA, ajustando apenas se a conjuntura justificar;
 - incluir naturalmente I/II/III ou V/F;
 - o enunciado não deve fornecer a definição que resolve a própria questão;
-- fatos conjunturais precisam ser verificados em fontes atuais antes da geração.
+- fatos conjunturais precisam ser verificados em fontes atuais antes da geração;
+- **para simulados Dataprev até 11/10/2026, não usar a data de geração como corte de Atualidades**: o simulado deve reproduzir o universo plausível de um caderno já fechado editorialmente. Priorizar fatos consolidados com antecedência e reduzir fortemente fatos dos últimos dias de setembro ou de outubro. Não inventar uma data oficial de corte da FGV.
 
 **Legislação**
 - distribuir as 5 questões entre LAI/Decretos, Lei 12.737/art. 154-A, Marco Civil e LGPD;

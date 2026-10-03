@@ -1165,3 +1165,12 @@
 - A nota reúne a 81ª Assembleia Geral da ONU, sucessão de António Guterres, Ucrânia, Gaza, aplicação provisória do acordo comercial Mercosul–UE, Cúpula da OTAN em Ancara e presidência indiana do BRICS.
 - O eixo de prova prioriza Assembleia Geral × Conselho de Segurança, recomendação × nomeação, cessar-fogo × paz, assinatura × aplicação provisória × ratificação e presidência rotativa × hierarquia.
 - Hub de Atualidades, índice global e cronograma da semana final atualizados na mesma operação.
+
+
+## 2026-10-03 — Fechamento temporal de Atualidades para a Dataprev
+
+- Corrigida a premissa de que os snapshots deveriam receber nova varredura factual em 08–09/10. Como a prova ocorre em 11/10 e o caderno precisa estar editorialmente fechado antes disso, Atualidades entra em **modo revisão** a partir de 03/10.
+- Explicitado que `data_corte: 2026-10-03` é a data de verificação do artigo, não uma suposta data oficial de corte da FGV. O vault não atribui uma data exata de fechamento porque ela não está documentada nas fontes disponíveis.
+- Os snapshots 15 a 19 passaram a distinguir prioridade de estudo. Fatos consolidados com antecedência têm maior peso; acontecimentos dos últimos dias de setembro ou de outubro têm prioridade reduzida para a Dataprev.
+- Em Relações Internacionais, detalhes do Debate Geral da ONU de 22–28/09 foram marcados como baixa prioridade para esta prova, preservando-se o conteúdo como contexto e para uso futuro.
+- O cronograma deixou de prever atualização em 08–09/10, e o protocolo do próximo simulado passou a impedir o uso automático de notícias recentes demais apenas porque o simulado é gerado perto da prova.

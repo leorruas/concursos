@@ -102,7 +102,7 @@ O emoji entra no `title:` e no `# H1`, mas **não** no nome físico do arquivo.
   Arquivo: `3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual.md`  
   Núcleo: texto manchetado, linguagem radiofônica, cabeça × pé × off × sonora × passagem, roteiro e estrutura de matéria. Citar e complementar [[3 - Materias/Comunicacao/12 - producao editorial e design|12 • Produção editorial e design]] em vez de duplicar sangria, tipografia e fundamentos de produção.
 
-- [ ] **🆕 Problemas aritméticos, geométricos e matriciais**  
+- [x] **🆕 Problemas aritméticos, geométricos e matriciais**  
   Arquivo: `3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais.md`  
   Núcleo: média ponderada, variações sucessivas, proporção, álgebra curta, geometria básica e padrões/matrizes. Foco em modelagem FGV e problemas de duas etapas, não em matemática extensa.
 

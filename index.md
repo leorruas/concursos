@@ -73,6 +73,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Logica/09 - analise combinatoria|09 • Análise combinatória]]
   - [[3 - Materias/Logica/10 - razoes proporcoes e divisao proporcional|10 • Razões, proporções e divisão proporcional]]
   - [[3 - Materias/Logica/11 - simbolos e notacao logica|11 • Símbolos e notação lógica]]
+  - [[3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais|🆕 12 • Problemas aritméticos, geométricos e matriciais]]
 - [[3 - Materias/Calculo Mental/calculo-mental|Cálculo mental]]
   - [[3 - Materias/Calculo Mental/Avancos|Avanços e desempenho]]
 - [[3 - Materias/Informatica/informatica|Informatica]]

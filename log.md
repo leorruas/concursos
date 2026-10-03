@@ -1103,3 +1103,9 @@
 - O artigo 22 materializa Ehling/White/Grunig, Cesca e a aplicação digital de Paulo Nassar; o 23 concentra repertório histórico brasileiro efetivamente cobrado; o 24 fecha texto manchetado e cabeça/pé/off/sonora/passagem, remetendo à nota 12 para fundamentos audiovisuais já existentes.
 - O hub de Comunicação e o índice global foram atualizados atomicamente; o cronograma marcou as três entregas de Comunicação da Prioridade A como criadas, sem confundir criação de nota com exposição/domínio do conteúdo.
 
+## 2026-10-03 — Chunk 2 — problemas aritméticos, geométricos e matriciais
+
+- Criado [[3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais|🆕 Problemas aritméticos, geométricos e matriciais]] para fechar o item amplo do edital de Lógica.
+- A nota prioriza modelagem FGV: média ponderada, percentuais sucessivos, equações curtas, problemas em duas etapas, perímetro/área/Pitágoras/escala e padrões organizados em matrizes.
+- Hub de Lógica, índice global e cronograma da semana final atualizados na mesma operação.
+

@@ -3,7 +3,7 @@ title: "Raciocínio lógico"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-09-30
+updated: 2026-10-03
 ---
 
 # Raciocínio lógico
@@ -34,6 +34,7 @@ Mapeamento de tópicos e organização das notas de Raciocínio Lógico e Lógic
 - **Probabilidade**: Espaço amostral, eventos, probabilidade da união e probabilidade condicional.
 - **Lógica de Conjuntos**: [[07 - diagramas logicos e conjuntos|Operações de conjuntos, diagramas de Venn e lógica de pertinência]].
 - **Sequências Lógicas**: Padrões numéricos, progressões (PA e PG) e sequências com figuras.
+- **Problemas aritméticos, geométricos e matriciais**: [[12 - problemas aritmeticos geometricos e matriciais|🆕 modelagem, porcentagens, médias, geometria e padrões em matrizes]].
 - **Interpretação e Modelagem**: Tradução da linguagem natural para a estrutura lógica formal.
 
 ---

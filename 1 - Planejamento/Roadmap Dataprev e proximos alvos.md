@@ -42,7 +42,7 @@ Fases:
 - [ ] indexar em nível de item individual apenas os temas prioritários do edital, com gabarito definitivo, mecanismo de cobrança e validade atual;
   - [x] Teorias da Comunicação;
   - [x] Publicidade e planejamento;
-  - [ ] Comunicação Pública e Comunicação Organizacional;
+  - [x] Comunicação Pública e Comunicação Organizacional;
   - [ ] Processo Legislativo;
   - [ ] Ciência Política;
 - [ ] medir mecanismos recorrentes de erro e ampliar a análise Cebraspe com evidência quantitativa;

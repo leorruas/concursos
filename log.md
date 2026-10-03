@@ -1116,3 +1116,9 @@
 - Foram incluídas duas questões comentadas com distratores próximos, além de relações com interpretação, coesão e gêneros jornalísticos.
 - Hub de Português, índice global e cronograma da semana final atualizados na mesma operação.
 
+## 2026-10-03 — Chunk 4 — reescrita, semântica e preservação de sentido
+
+- Criado [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido|🆕 Reescrita, semântica e preservação de sentido]] com base nos quatro subitens explícitos do edital: significação, substituição, reorganização e adaptação entre gêneros/níveis de formalidade.
+- A nota cobre equivalência, sinonímia contextual, conectores, voz ativa/passiva, discurso direto/indireto, pressupostos, escopo de negação e quantificadores.
+- Hub de Português, índice global e cronograma da semana final atualizados na mesma operação.
+

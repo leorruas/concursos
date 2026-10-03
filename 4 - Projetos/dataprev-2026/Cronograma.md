@@ -112,7 +112,7 @@ O emoji entra no `title:` e no `# H1`, mas **não** no nome físico do arquivo.
   Arquivo: `3 - Materias/Portugues/09 - tipos e generos textuais.md`  
   Núcleo: tipo textual × gênero; narração, descrição, exposição, argumentação e injunção; finalidade, suporte, marcas linguísticas e variação quando relevante ao gênero.
 
-- [ ] **🆕 Reescrita, semântica e preservação de sentido**  
+- [x] **🆕 Reescrita, semântica e preservação de sentido**  
   Arquivo: `3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido.md`  
   Núcleo: significação, equivalência, substituição de trecho, reorganização da oração/período, discurso direto/indireto, voz verbal e manutenção de sentido e nível de formalidade. Pode citar [[3 - Materias/Portugues/01 - interpretacao de texto|01 • Interpretação de texto]].
 

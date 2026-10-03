@@ -27,7 +27,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Orações e conectivos**: [[07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas]].
 - **Morfologia**: Classes de palavras (substantivo, verbo, adjetivo, pronome) e flexões.
 - **Crase**: Casos obrigatórios, proibidos e facultativos.
-- **Reescrita de Frases**: Equivalência de sentido, substituição de estruturas e vozes do verbo.
+- **Reescrita, semântica e preservação de sentido**: [[10 - reescrita semantica e preservacao de sentido|🆕 10 • Reescrita, semântica e preservação de sentido]].
 
 ---
 - **Acompanhamento**: [[Avancos|Avanços e desempenho (Português)]]

@@ -226,15 +226,54 @@ Para gerar itens inéditos de Teorias da Comunicação para a Câmara, priorizar
 
 Fontes desta indexação: cadernos e gabaritos oficiais do Correios 2011, CNMP 2023 e DPDF 2020 registrados neste documento.
 
+## Indexação individual prioritária: Publicidade e planejamento
+
+O texto integral dos itens não é reproduzido. O índice registra apenas conceito, gabarito e mecanismo de cobrança.
+
+### Correios 2011
+
+| Item | Gab. | Alvo | Mecanismo |
+| ---: | :---: | :--- | :--- |
+| 52 | E | efeito da publicidade | exagero causal |
+| 56 | E | criação × mídia | troca de responsabilidade |
+| 57 | C | storyboard | reconhecimento técnico |
+| 71 | E | frequência × intensidade | inversão de variáveis |
+| 72 | E | briefing | exclusividade indevida |
+| 73 | C | função da mídia | seleção de meios e veículos |
+| 81 | C | avaliação de campanha | inclusão da recepção |
+| 82 | E | market share | indicador dinâmico tratado como fixo |
+| 83 | C | sazonalidade | variável de planejamento |
+| 84 | E | pré-teste | regra válida transformada em obrigação universal |
+| 86 | E | entrevista em profundidade | método deslocado para escala inadequada |
+| 87 | C | checagem de pesquisa | controle de qualidade |
+| 90 | C | pesquisa internacional | integração de contexto cultural e econômico |
+
+### Câmara 2007
+
+A prova é FCC e serve para conteúdo do cargo, não para calibrar formato C/E.
+
+| Item | Gab. | Alvo |
+| ---: | :---: | :--- |
+| 81 | D | storyboard |
+| 82 | C | briefing |
+| 83 | A | repertório do receptor |
+| 86 | B | estrutura de plano de mídia |
+
+### Padrões úteis para itens inéditos
+
+Nesta amostra, os melhores mecanismos para treino da Câmara são: **efeito provável transformado em efeito garantido; troca de responsabilidade entre criação, mídia e atendimento; exclusividade indevida; indicador dinâmico tratado como fixo; e método de pesquisa aplicado a escala incompatível**.
+
+Fontes: Correios 2011, caderno e gabarito definitivo oficiais; Câmara 2007, caderno e gabarito oficiais, já registrados acima.
+
 ## Estado da indexação
 
 **Fase 1 concluída:** Correios 2011, CNMP 2023 e DPDF 2020 foram mapeados por intervalos e temas.
 
 **Fase 2 concluída:** Câmara 2003, Câmara 2007, TCE-MG 2026 e PF Administrativo 2025 foram incorporados ao mapa. O corpus-base agora está coberto em nível de blocos e intervalos.
 
-**Indexação individual iniciada:** Teorias da Comunicação já está detalhada por item, gabarito e mecanismo de cobrança.
+**Indexação individual concluída até aqui:** Teorias da Comunicação; Publicidade e planejamento.
 
-**Próxima fase:** Publicidade e planejamento. Depois: Comunicação Pública/Organizacional, Processo Legislativo e Ciência Política.
+**Próxima fase:** Comunicação Pública e Comunicação Organizacional. Depois: Processo Legislativo e Ciência Política.
 
 ## Relações
 

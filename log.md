@@ -1136,3 +1136,10 @@
 - O artigo enfatiza as fronteiras que geram bons distratores: programa × sistema × plano; estratégia × órgão operacional; notificação × ataque; mudança metodológica × mudança do fenômeno; queda no período × tendência estrutural.
 - Hub de Atualidades, índice global e cronograma da semana final atualizados na mesma operação.
 
+## 2026-10-03 — Chunk 7 — transportes, mobilidade e infraestrutura 2026
+
+- Criado [[3 - Materias/Atualidades/16 - transportes mobilidade e infraestrutura 2026|🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026]] com data de corte em 03/10/2026.
+- A nota reúne PNL 2050, Novo PAC Mobilidade, concessões, carteira rodoviária, expansão das concessões aeroportuárias e portos/hidrovias.
+- A leitura de prova enfatiza plano × execução, carteira × investimento realizado, concessão × venda do ativo, modal × integração modal e correlação × causalidade.
+- Hub de Atualidades, índice global e cronograma da semana final atualizados na mesma operação.
+

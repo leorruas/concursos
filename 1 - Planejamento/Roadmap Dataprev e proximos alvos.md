@@ -37,7 +37,7 @@ Fases:
 - [x] mapear o corpus inicial de provas aderentes em [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]];
 - [x] criar a análise pública [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]], publicada na camada de matérias do GitHub Pages;
 - [ ] preservar cadernos e gabaritos como fontes brutas do vault, sem depender apenas de links externos;
-- [ ] indexar itens reais por tópico do edital da Câmara, com prova, ano, número do item e gabarito;
+- [ ] indexar itens reais por tópico do edital da Câmara, com prova, ano, número do item e gabarito; **fase 1 concluída** para Correios 2011, CNMP 2023 e DPDF 2020 em [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]];
 - [ ] medir mecanismos recorrentes de erro e ampliar a análise Cebraspe com evidência quantitativa;
 - [ ] integrar o índice de questões reais ao fluxo de estudo e aos simulados da Câmara;
 - [ ] criar análise específica da prova discursiva do Cebraspe a partir de padrões oficiais de resposta.
@@ -67,4 +67,5 @@ O conhecimento já consolidado no vault continua disponível para Câmara e ANPD
 - [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|Câmara 2026 — Divulgação Institucional]]
 - [[4 - Projetos/camara-2026/O que estudar|Câmara 2026 — O que estudar]]
 - [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]]
+- [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]]
 - [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]]

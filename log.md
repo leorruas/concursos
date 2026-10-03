@@ -1,3 +1,10 @@
+## [2026-10-03] câmara 2026 | Preservação local do corpus de provas Cebraspe e criação do manifesto
+
+- Preservados localmente na pasta `2 - Provas/Camara-Cebraspe/` 21 arquivos PDF (cadernos de prova, gabaritos definitivos e padrões discursivos) do corpus de calibração Cebraspe/Câmara para o cargo de Analista Legislativo — Divulgação Institucional.
+- Criado o arquivo [[4 - Projetos/camara-2026/Manifesto local do corpus de provas|Manifesto local do corpus de provas]] contendo hashes SHA-256, tamanhos em bytes, proveniência detalhada e observações de restrições de cada item.
+- Corrigida a URL canônica do caderno tipo 1 da Câmara 2007 (FCC) em [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]], [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]] e [[4 - Projetos/camara-2026/Preservacao local do corpus de provas|Preservação local do corpus de provas]].
+- Confirmado o isolamento estrito dos binários PDF fora do versionamento do Git (`.gitignore`).
+
 ## [2026-09-04] infraestrutura | Refatoração modular do leitor web
 
 - Dividido o antigo `script.js` monolítico em sete módulos da pasta `web/`, mantendo a ordem de execução e o comportamento do baseline:

@@ -12,6 +12,8 @@ Corpus de calibração para o Cargo 1: Analista Legislativo, Comunicação Socia
 
 A síntese pública dos mecanismos observados está em [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]]. Este arquivo permanece como camada operacional do projeto; a nota de Estratégia de Prova concentra a análise reutilizável e publicada no GitHub Pages.
 
+O acesso rápido às questões por prova e tópico está em [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]].
+
 ## Regra de uso
 
 A prova vigente da Câmara define o formato principal: itens **Certo ou Errado**, acerto **+1**, erro **-1** e branco **0**. Uma prova de outra banca ou um concurso Cebraspe com outro formato pode ser útil para conteúdo, mas não deve substituir esse formato no treino.

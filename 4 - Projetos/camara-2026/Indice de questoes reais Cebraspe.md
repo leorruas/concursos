@@ -108,7 +108,7 @@ As três versões têm a mesma arquitetura geral de 250 itens C/E, variando o bl
 ## Câmara dos Deputados 2007: Divulgação Institucional
 
 Página oficial da área: https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concursos-realizados/2007/analista-legislativo/arquivos/grupo-ii/comunicacao-social/divulgacao-institucional  
-Caderno tipo 1: https://www2.camara.leg.br/transparencia/concursos/concursos-realizados/2007/analista-legislativo/arquivos/grupo-ii/comunicacao-social/divulgacao-institucional/Prova-N14-Tipo-001.pdf  
+Caderno tipo 1: https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concursos-realizados/2007/analista-legislativo/arquivos/grupo-ii/comunicacao-social/divulgacao-institucional/Prova-N14-Tipo-001.pdf  
 Gabarito tipo 1: https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concursos-realizados/2007/analista-legislativo/arquivos/grupo-ii/comunicacao-social/divulgacao-institucional/Gabarito-N14-tipo-1-Folha-1.pdf
 
 A prova é FCC e múltipla escolha. Ela não calibra o formato C/E, mas é a fonte histórica de maior coincidência nominal com a área atual.
@@ -457,6 +457,7 @@ A categoria primária corresponde à **alteração mínima decisiva** registrada
 ## Relações
 
 - [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]]
+- [[4 - Projetos/camara-2026/Manifesto local do corpus de provas|Manifesto local do corpus de provas]]
 - [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]]
 - [[4 - Projetos/camara-2026/O que estudar|Câmara 2026 — O que estudar]]
 - [[4 - Projetos/camara-2026/Preservacao local do corpus de provas|Preservação local do corpus de provas]]

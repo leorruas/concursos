@@ -58,7 +58,7 @@ Arquivos Markdown de metadados, hashes, proveniência e índices podem permanece
 ### Câmara dos Deputados 2007: Divulgação Institucional
 
 - página oficial da área: https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concursos-realizados/2007/analista-legislativo/arquivos/grupo-ii/comunicacao-social/divulgacao-institucional
-- caderno tipo 1: https://www2.camara.leg.br/transparencia/concursos/concursos-realizados/2007/analista-legislativo/arquivos/grupo-ii/comunicacao-social/divulgacao-institucional/Prova-N14-Tipo-001.pdf
+- caderno tipo 1: https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concursos-realizados/2007/analista-legislativo/arquivos/grupo-ii/comunicacao-social/divulgacao-institucional/Prova-N14-Tipo-001.pdf
 - gabarito tipo 1: https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concursos-realizados/2007/analista-legislativo/arquivos/grupo-ii/comunicacao-social/divulgacao-institucional/Gabarito-N14-tipo-1-Folha-1.pdf
 
 Se algum link direto tiver sido reorganizado pelo Portal da Câmara, resolver o `href` atual a partir da página oficial da área em vez de adivinhar um novo caminho.
@@ -186,3 +186,9 @@ Para cada arquivo, registre:
 Esta tarefa só estará concluída quando houver cópia local válida de cada arquivo disponível, manifesto com proveniência e hash, e confirmação de que **nenhum PDF foi versionado ou publicado**.
 
 Se algum arquivo não puder ser recuperado, mantê-lo como pendência explícita com o último link oficial conhecido.
+
+## Relações
+
+- [[4 - Projetos/camara-2026/Manifesto local do corpus de provas|Manifesto local do corpus de provas]]
+- [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]]
+- [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]]

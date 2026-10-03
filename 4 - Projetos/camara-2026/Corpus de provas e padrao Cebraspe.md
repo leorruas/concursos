@@ -10,6 +10,8 @@ updated: 2026-10-03
 
 Corpus de calibração para o Cargo 1: Analista Legislativo, Comunicação Social, Área Divulgação Institucional. O objetivo é preservar provas-fonte, gabaritos e a função pedagógica de cada prova para que questões reais e questões inéditas sejam selecionadas com critério.
 
+A síntese pública dos mecanismos observados está em [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]]. Este arquivo permanece como camada operacional do projeto; a nota de Estratégia de Prova concentra a análise reutilizável e publicada no GitHub Pages.
+
 ## Regra de uso
 
 A prova vigente da Câmara define o formato principal: itens **Certo ou Errado**, acerto **+1**, erro **-1** e branco **0**. Uma prova de outra banca ou um concurso Cebraspe com outro formato pode ser útil para conteúdo, mas não deve substituir esse formato no treino.

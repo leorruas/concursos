@@ -38,8 +38,8 @@ Fases:
 - [x] criar a análise pública [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]], publicada na camada de matérias do GitHub Pages;
 - [x] registrar os links de origem e preparar a execução local em [[4 - Projetos/camara-2026/Preservacao local do corpus de provas|Preservação local do corpus de provas]];
 - [ ] preservar fisicamente os cadernos e gabaritos no vault local, fora do Git; execução pendente para Codex/Gemini conforme o prompt preparado;
-- [x] indexar o corpus-base por prova, bloco e intervalo de itens em [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]]: Correios 2011, CNMP 2023, DPDF 2020, Câmara 2003, Câmara 2007, TCE-MG 2026 e PF Administrativo 2025;
-- [ ] indexar em nível de item individual apenas os temas prioritários do edital, com gabarito definitivo, mecanismo de cobrança e validade atual;
+- [x] indexar o corpus-base por prova, bloco e intervalo de itens em [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]]: Correios 2011, CNMP 2023, DPDF 2020, Câmara 2003, Câmara 2007, Câmara 2014, TCE-MG 2026 e PF Administrativo 2025;
+- [x] indexar em nível de item individual apenas os temas prioritários do edital, com gabarito definitivo, mecanismo de cobrança e validade atual;
   - [x] Teorias da Comunicação;
   - [x] Publicidade e planejamento;
   - [x] Comunicação Pública e Comunicação Organizacional;

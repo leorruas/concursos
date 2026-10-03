@@ -318,15 +318,54 @@ Para itens inéditos da Câmara, priorizar as fronteiras: **comunicação públi
 
 Fontes: cadernos e gabaritos oficiais do CNMP 2023, DPDF 2020 e PF Administrativo 2025 registrados neste índice.
 
+## Indexação individual prioritária: Processo Legislativo
+
+Para este bloco, a prova-base é **Câmara dos Deputados 2003**, porque reúne itens C/E de processo legislativo dentro de uma prova de Comunicação da própria Casa. Como o material é antigo, cada item abaixo foi confrontado com fonte normativa atual antes de receber status de validade.
+
+| Item | Gab. 2003 | Alvo conceitual | Mecanismo observado | Situação atual |
+| ---: | :---: | :--- | :--- | :--- |
+| 1 | E | sessão conjunta × tramitação bicameral | transforma iniciativa conjunta em hipótese de sessão conjunta | revalidado: sessões conjuntas têm hipóteses próprias; projetos de lei seguem deliberação das Casas |
+| 2 | C | direção das sessões conjuntas | negação de competência da Mesa do Senado | revalidado: a sessão conjunta é dirigida pela Mesa do Senado |
+| 3 | C | lei delegada | troca do legitimado para solicitar a delegação | revalidado: a solicitação cabe ao Presidente da República |
+| 4 | C | limites materiais da lei delegada | matéria eleitoral tratada como delegável | revalidado: direitos políticos e eleitorais permanecem fora da delegação |
+| 5 | C | sessão conjunta × PEC/lei complementar | confusão entre reunião conjunta e processo legislativo bicameral | revalidado |
+| 7 | E | rejeição de veto | elevação indevida do quórum para dois terços | revalidado: exige maioria absoluta de Deputados e Senadores |
+| 8 | anulada | medida provisória e comissão mista | item historicamente anulado apesar de tratar de comissão mista | não usar o gabarito como fonte factual; a Constituição atual exige comissão mista antes da apreciação pelas Casas |
+| 9 | E | apreciação de medida provisória | transforma votação separada das Casas em sessão conjunta | revalidado: votação começa na Câmara e ocorre separadamente nas duas Casas |
+| 10 | E | emendas a medida provisória | restringe indevidamente a apresentação de emendas | revalidado: a Resolução nº 1/2002-CN admite emendas, vedando matéria estranha ao objeto da MP |
+
+### O que este bloco ensina sobre a banca
+
+O núcleo da cobrança é menos “decorar etapas” e mais **distinguir órgãos, sessões, legitimados, quóruns e espécies normativas**. Um item pode trazer uma operação legislativa real, mas deslocá-la para a sessão errada, atribuí-la ao agente errado ou trocar o quórum.
+
+Para simulados da Câmara, priorizar especialmente:
+
+- sessão conjunta × sessões separadas de Câmara e Senado;
+- Mesa do Senado × Mesa da Câmara;
+- iniciativa/solicitação × deliberação;
+- maioria simples × maioria absoluta × três quintos;
+- lei delegada × medida provisória;
+- comissão mista × plenário de cada Casa;
+- emenda admissível × matéria estranha à proposição.
+
+### Fontes normativas de revalidação
+
+- Constituição Federal, arts. 57 e 59 a 69;
+- Regimento Comum do Congresso Nacional, especialmente as hipóteses de sessão conjunta;
+- Resolução nº 1/2002-CN para tramitação e emendas a medidas provisórias;
+- Regimento Interno da Câmara dos Deputados, edição atualizada até a Resolução nº 34/2026.
+
+O caderno de 2003 permanece fonte de **mecanismo de cobrança**. A norma atual é a fonte de verdade para conteúdo vigente.
+
 ## Estado da indexação
 
 **Fase 1 concluída:** Correios 2011, CNMP 2023 e DPDF 2020 foram mapeados por intervalos e temas.
 
 **Fase 2 concluída:** Câmara 2003, Câmara 2007, TCE-MG 2026 e PF Administrativo 2025 foram incorporados ao mapa. O corpus-base agora está coberto em nível de blocos e intervalos.
 
-**Indexação individual concluída até aqui:** Teorias da Comunicação; Publicidade e planejamento; Comunicação Pública e Comunicação Organizacional.
+**Indexação individual concluída até aqui:** Teorias da Comunicação; Publicidade e planejamento; Comunicação Pública e Comunicação Organizacional; Processo Legislativo.
 
-**Próxima fase:** Processo Legislativo. Depois: Ciência Política.
+**Próxima fase:** Ciência Política.
 
 ## Relações
 

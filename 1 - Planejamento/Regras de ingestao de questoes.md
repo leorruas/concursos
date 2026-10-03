@@ -141,6 +141,21 @@ Para `bateria_dirigida`, `simulado` ou correção de questão:
 8. atualizar `Avancos.md`, simulados, dashboards e demais métricas aplicáveis;
 9. se houver nota nova ou alteração pública relevante em `3 - Materias/`, cumprir o [[1 - Planejamento/Contrato de publicacao GitHub Pages|Contrato de publicação — GitHub Pages]].
 
+## Links diretos obrigatórios nos ajustes e acertos inseguros
+
+Nos diagnósticos de simulados e baterias, as seções **## Ajustes a partir dos erros** e **## Acertos com dúvida ou recuperação incompleta** devem ser acionáveis para revisão.
+
+Para **cada item** dessas duas seções:
+
+- incluir um wikilink para a **nota canônica e o subtítulo exato** em que o conteúdo é estudado;
+- usar obrigatoriamente âncora de cabeçalho no formato `[[Pasta/Nota#Subtítulo exato|Texto do link]]`;
+- não considerar suficiente um link apenas para o arquivo sem `#Subtítulo`;
+- quando um mesmo item reunir conceitos diferentes, fornecer um link ancorado para **cada conceito relevante**;
+- se a teoria existir, mas não houver um subtítulo específico que sirva de destino claro, **refinar a nota existente criando o subtítulo necessário antes de finalizar o diagnóstico**;
+- se o conteúdo não existir no vault, aplicar a regra de criação/enriquecimento teórico correspondente, em vez de deixar o item sem destino de estudo.
+
+O objetivo é que o diagnóstico funcione como uma rota de revisão: **erro ou dúvida → clique → parágrafo exato de teoria**.
+
 ## Estrutura mínima do relatório de ingestão
 
 Quando houver questões, o relatório deve conseguir distinguir:

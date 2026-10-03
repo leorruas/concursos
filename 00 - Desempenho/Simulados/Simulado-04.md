@@ -73,11 +73,11 @@ O aproveitamento bruto repetiu os 63/70 do Simulado 03, mas a distribuição dos
 
 ## Acertos com dúvida ou recuperação incompleta
 
-- **Q10 — colocação pronominal:** resposta correta, mas com insegurança declarada sobre as regras; manter recuperação ativa em questões, sem abrir nova teoria.
+- **Q10 — colocação pronominal:** resposta correta, mas com insegurança declarada sobre as regras; manter recuperação ativa em questões. [[3 - Materias/Portugues/04 - regencia#Colocação pronominal — próclise, ênclise e mesóclise|Colocação pronominal]]
 - **Q25 — contrapositiva:** resposta correta, mas com forte insegurança de recuperação. Regra: P → Q ≡ ¬Q → ¬P. [[3 - Materias/Logica/04 - equivalencias#Contrapositiva — voltar negando|Contrapositiva]]
 - **Q31 — Pre-COP:** resposta correta, mas baixa familiaridade declarada. [[3 - Materias/Atualidades/10 - mudanca climatica cop e mercado de carbono#Refinamento — COP × Pre-COP|COP × Pre-COP]]
 - **Q36 — LAI:** resposta correta, mas o vault não continha os prazos de classificação. [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao#Refinamento — graus e prazos de sigilo|Graus e prazos de sigilo]]
-- **Q46/Q49/Q64 — Comunicação:** brand equity/Aaker, Mattar e touchpoints foram recuperados corretamente e já possuem teoria canônica no vault.
+- **Q46/Q49/Q64 — Comunicação:** brand equity/Aaker, Mattar e touchpoints foram recuperados corretamente e já possuem teoria canônica no vault: [[3 - Materias/Comunicacao/19 - marketing institucional e branding#Brand equity|Brand equity / Aaker]], [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao#2. Classificações de Mattar cobradas na Dataprev 2024|Classificações de Mattar]] e [[3 - Materias/Comunicacao/19 - marketing institucional e branding#Touchpoints|Touchpoints]].
 
 ## Diagnóstico
 

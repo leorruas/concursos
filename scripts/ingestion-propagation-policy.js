@@ -20,7 +20,9 @@ export function extrairDisciplinaDaEntrada(content) {
   return match ? match[1].trim() : null;
 }
 
-export function destinosObrigatoriosIngestao({ classification, disciplina = null, hasErrors = false } = {}) {
+export function destinosObrigatoriosIngestao({ classification, disciplina = null, hasErrors = false, concurso = 'dataprev-2026', sourcePath = null } = {}) {
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(concurso)) throw new Error(`Concurso inválido: ${concurso}`);
+  const projeto = `4 - Projetos/${concurso}`;
   const required = new Set(['log.md']);
 
   if (classification === 'bateria_dirigida') {
@@ -31,22 +33,27 @@ export function destinosObrigatoriosIngestao({ classification, disciplina = null
     required.add(`3 - Materias/${pasta}/Avancos.md`);
     required.add('00 - Desempenho/00 Avancos globais.md');
     required.add('00 - Desempenho/01 Log de saturacao diaria.md');
-    required.add('4 - Projetos/dataprev-2026/Questoes e Simulados.md');
+    required.add(`${projeto}/Questoes e Simulados.md`);
     if (hasErrors) {
-      required.add('4 - Projetos/dataprev-2026/Log de erros.md');
+      required.add(`${projeto}/Log de erros.md`);
       required.add('data/erros-recorrentes.json');
     }
   }
 
   if (classification === 'simulado') {
+    if (!/^00 - Desempenho\/Simulados\/[^/]+\.md$/.test(sourcePath || '') || /(?:^|\/)\.\./.test(sourcePath)) {
+      throw new Error('Simulado exige sourcePath do caderno em 00 - Desempenho/Simulados/.');
+    }
+    required.add(sourcePath);
+    required.add('data/provas.json');
     required.add('00 - Desempenho/Simulados/00 - Catalogo de simulados.md');
     required.add('00 - Desempenho/Provas/00 - Desempenho por edital e prova.md');
     required.add('00 - Desempenho/00 Avancos globais.md');
     required.add('00 - Desempenho/01 Log de saturacao diaria.md');
-    required.add('4 - Projetos/dataprev-2026/Questoes e Simulados.md');
-    required.add('4 - Projetos/dataprev-2026/00 Dashboard.md');
+    required.add(`${projeto}/Questoes e Simulados.md`);
+    required.add(`${projeto}/00 Dashboard.md`);
     if (hasErrors) {
-      required.add('4 - Projetos/dataprev-2026/Log de erros.md');
+      required.add(`${projeto}/Log de erros.md`);
       required.add('data/erros-recorrentes.json');
     }
   }
@@ -62,6 +69,9 @@ export function destinosObrigatoriosIngestao({ classification, disciplina = null
 
 export function validarManifestoPropagacao(manifest, context) {
   const paths = new Set((manifest.operations || []).map((op) => String(op.path || '').replace(/\\/g, '/')));
+  const concurso = context.concurso || 'dataprev-2026';
+  const outrosProjetos = [...paths].filter(p => p.startsWith('4 - Projetos/') && !p.startsWith(`4 - Projetos/${concurso}/`));
+  if (outrosProjetos.length) throw new Error(`Ingestão de ${concurso} tentou propagar para outro projeto: ${outrosProjetos.join(', ')}`);
   const required = destinosObrigatoriosIngestao(context);
   const missing = required.filter((p) => !paths.has(p));
 
@@ -70,6 +80,8 @@ export function validarManifestoPropagacao(manifest, context) {
     if (!hasTheoryNote) missing.push('3 - Materias/<nota canônica>.md');
   }
 
+  const removidos = (manifest.operations || []).filter(op => required.includes(op.path) && op.op === 'delete');
+  if (removidos.length) throw new Error('Destinos obrigatórios não podem ser removidos pela ingestão.');
   if (missing.length > 0) {
     throw new Error(`Change set de ingestão incompleto. Destinos obrigatórios ausentes: ${missing.join(', ')}`);
   }

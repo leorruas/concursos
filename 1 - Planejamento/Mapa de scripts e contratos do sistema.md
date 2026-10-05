@@ -8,7 +8,9 @@ updated: 2026-10-05
 
 # Mapa de scripts e contratos do sistema
 
-Inventário técnico extraído em **05/10/2026**, com base no commit `7d644624002ea1b316e128b5a81f4e64a9caf1fe` de `leorruas/concursos`. Abrange todos os **39 arquivos JavaScript versionados**: 25 em `scripts/`, 13 em `web/` e `script.js`, além do JavaScript embutido em `index.html`, do workflow e dos dados que conectam essas partes. Exclui bibliotecas externas, temas e artefatos gerados. Os links de código ao final apontam para essa versão auditada.
+Inventário técnico extraído em **05/10/2026**, com base no commit `7d644624002ea1b316e128b5a81f4e64a9caf1fe` de `leorruas/concursos`. O inventário inicial abrangia os **39 arquivos JavaScript versionados**: 25 em `scripts/`, 13 em `web/` e `script.js`, além do JavaScript embutido em `index.html`, do workflow e dos dados que conectam essas partes. Exclui bibliotecas externas, temas e artefatos gerados. Os links de código ao final apontam para essa versão auditada.
+
+Após a primeira rodada de correções, há **41 arquivos JavaScript** (27 em `scripts/`, 13 em `web/` e `script.js`). O snapshot inicial e seus links permanecem rastreáveis; as mudanças vigentes estão registradas abaixo.
 
 Este mapa descreve **o contrato esperado pela governança**, **o comportamento implementado** e **as lacunas verificadas**. Não substitui [[me]], [[AGENTS]] nem [[.agent/AGENTS]]. Um teste verde prova somente as propriedades que ele verifica.
 
@@ -57,13 +59,13 @@ Todos os comandos abaixo partem da raiz do repositório. Os scripts usam módulo
 
 **Faz:** prova a saúde inicial do vault. **Entrada:** árvore atual de notas/dados/governança. **Saída:** relatório no terminal; interrompe no primeiro check que falhar. **Escrita:** os testes chamados usam áreas temporárias; nenhuma alteração de conteúdo do vault é pretendida.
 
-**Dependências:** executa, em sequência, `validate-vault-invariants`, `validate-integrity`, `test-ingestion-idempotency`, `test-question-ingestion-policy`, `test-ingestion-propagation-policy` e `test-changeset-transaction`. **Contrato:** executar antes de mudança não corretiva; estado vermelho admite apenas correção relacionada. **Limite:** não verifica busca, build, interface, deploy nem o diff da mudança futura. Uso: `node scripts/preflight-vault.js`.
+**Dependências:** executa, em sequência, `validate-vault-invariants`, `validate-integrity`, `test-ingestion-idempotency`, `test-question-ingestion-policy`, `test-ingestion-propagation-policy` e `test-changeset-transaction`. **Dependências adicionais vigentes:** testa também `test-simulado-propagation.js` e `test-home-without-provas.js`. **Contrato:** executar antes de mudança não corretiva; estado vermelho admite apenas correção relacionada. **Limite:** não verifica busca, build, interface, deploy nem o diff da mudança futura. Uso: `node scripts/preflight-vault.js`.
 
 ### scripts/ingest-safe.js
 
 **Faz:** porta canônica de ingestão. **Entrada:** `--input` (padrão `00 inbox/00 ingestão.md`), `--type`, `--concurso` (padrão `dataprev-2026`), `--dry-run` ou `--apply --changeset <arquivo>`. **Saída:** preview, erros clínicos e prefixo do fingerprint no terminal; apply informa arquivos alterados. **Dependências:** motor legado, idempotência, política de propagação e transação.
 
-**Contrato do apply:** manifesto `{version:1, draft:false, ingestionFingerprint, operations:[...]}`, concurso compatível quando declarado, destinos obrigatórios e hashes dos arquivos existentes. Acrescenta as operações reservadas do ledger e da limpeza da inbox canônica; o manifesto do agente não pode declará-las. Valida invariantes e integridade após escrever e reverte o conjunto se falharem. Duplicata permite inspeção em dry-run, bloqueia apply. **Limites:** não cria o conteúdo editorial nem recalcula todos os painéis automaticamente; não executa preflight nem o contrato do diff por conta própria. A mensagem de erro cita um gerador inexistente e o preview só imprime prefixo do hash.
+**Contrato do apply:** manifesto `{version:1, draft:false, ingestionFingerprint, operations:[...]}`, concurso compatível quando declarado, destinos obrigatórios e hashes dos arquivos existentes. Acrescenta as operações reservadas do ledger e da limpeza da inbox canônica; o manifesto do agente não pode declará-las. Valida invariantes e integridade após escrever e reverte o conjunto se falharem. Duplicata permite inspeção em dry-run, bloqueia apply. **Limites:** não cria o conteúdo editorial nem recalcula todos os painéis automaticamente; não executa preflight nem o contrato do diff por conta própria. O preview imprime o fingerprint integral e a orientação pede preparar o change set, sem citar gerador inexistente. Concurso precisa existir em `data/concursos.json`. Simulado exige `sourcePath` no manifesto, identificando seu caderno.
 
 Uso de análise: `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --concurso dataprev-2026 --dry-run`. O apply só ocorre após plano aprovado, conforme [[me]] e [[1 - Planejamento/Contrato transacional de mudancas]].
 
@@ -85,7 +87,7 @@ Uso de análise: `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md"
 
 **Mínimos implementados:** sempre `log.md`; bateria exige avanço local, globais, saturação e questões do projeto Dataprev; erros acrescentam log de erros e JSON de recorrência. Simulado exige catálogo, hub de provas, globais, saturação, questões e dashboard Dataprev; erros acrescentam os mesmos destinos. Teoria exige `index.md` e uma nota de matéria que não seja `Avancos.md`.
 
-**Limites:** caminhos do projeto fixos em Dataprev; não recebe concurso; simulado não exige `data/provas.json`, caderno específico ou avanços locais. Valida presença de caminho, não suficiência pedagógica, conteúdo novo ou operação apropriada. Outros tipos recebem apenas o mínimo geral. Teste: `test-ingestion-propagation-policy.js`.
+**Limites:** recebe `concurso` (padrão Dataprev) e `sourcePath`; exige caderno e `data/provas.json` para simulado e bloqueia operações em outro projeto. Não infere todos os avanços locais de simulado; agente ainda precisa incluí-los quando as métricas mudarem. Câmara sem superfícies existentes exige prepará-las ou declarar pendência, sem reutilizar Dataprev. Valida presença de caminho, não suficiência pedagógica, conteúdo novo ou operação apropriada. Outros tipos recebem apenas o mínimo geral. Teste: `test-ingestion-propagation-policy.js`.
 
 ### scripts/question-ingestion-policy.js
 
@@ -109,7 +111,7 @@ Uso de análise: `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md"
 
 **Faz:** valida obrigações no diff de commits. **Entrada:** `BASE_SHA` e `HEAD_SHA`; fallback `HEAD^ → HEAD`; usa Git. **Saída:** relatório e status. Não escreve. **Contrato:** nota nova/renomeada em matérias deve estar no índice e alterar índice/hub no mesmo diff; snapshots devem cumprir metadados/seções; mudanças de avanços e novos simulados devem incluir destinos mínimos; alterações de ingestão preservam referências da governança.
 
-**Limites:** fallback sem base emite aviso e tem cobertura reduzida. Worktree não commitado não é o diff validado. Detecção de novo simulado considera adição/rename, não todas as alterações em cadernos existentes ou conclusão de rascunhos. Propagação ainda fixa Dataprev e não exige todas as superfícies textuais. O alcance da descoberta de hub usa o diretório obtido por `parts.slice(0,3)`, o que merece atenção para notas diretamente na pasta da matéria. Executado no CI antes do build.
+**Limites:** fallback sem base emite aviso e tem cobertura reduzida. Worktree não commitado não é o diff validado. Simulados adicionados, renomeados ou modificados são verificados; parcial/rascunho conserva exceção. Concluídos exigem concurso rastreável no frontmatter ou registro, resultado/comparabilidade em provas.json e destinos do concurso no mesmo diff. Avanços locais exigem projeto explicitamente propagado; ausência falha. Não reconstitui todas as métricas textuais. O alcance da descoberta de hub usa o diretório obtido por `parts.slice(0,3)`, o que merece atenção para notas diretamente na pasta da matéria. Executado no CI antes do build.
 
 ### scripts/validate-vault-invariants.js
 
@@ -151,15 +153,17 @@ Uso de análise: `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md"
 
 ## Contratos dos testes
 
-Os dez arquivos abaixo são executáveis com `node scripts/<nome>`. O contrato de teste é receber fixtures/código ou artefatos, verificar propriedades e falhar quando alguma asserção não passa. Os testes em máquina virtual não substituem avaliação no navegador.
+Os doze arquivos abaixo são executáveis com `node scripts/<nome>`. O contrato de teste é receber fixtures/código ou artefatos, verificar propriedades e falhar quando alguma asserção não passa. Os testes em máquina virtual não substituem avaliação no navegador.
 
 | Arquivo | Entrada e propriedade verificada | Escrita/limpeza e limites | Onde roda |
 | --- | --- | --- | --- |
 | `scripts/test-changeset-transaction.js` | Biblioteca + arquivos temporários; replace/append/prepend/create, conflito de hash sem escrita parcial, rollback e proibição de replace do histórico | Cria diretório temporário do sistema e limpa em finally; não cobre crash/lock nem todos os caminhos protegidos | Preflight e CI |
 | `scripts/test-ingestion-idempotency.js` | Normalização, conteúdo/concurso, ledger; equivalência textual, distinção substantiva, duplicata bloqueada e outro concurso | Ledger temporário e limpeza em finally; não testa concorrência entre processos nem fluxo completo do wrapper | Preflight e CI |
-| `scripts/test-ingestion-propagation-policy.js` | Contextos e manifestos sintéticos; mapeamento, destinos de bateria/simulado/teoria, bloqueio de parcial | Sem escrita; hashes fictícios são suficientes porque o teste verifica presença, não transação; não prova separação Câmara | Preflight e CI |
+| `scripts/test-ingestion-propagation-policy.js` | Contextos e manifestos sintéticos; mapeamento, destinos de bateria/simulado/teoria, bloqueio de parcial e separação de projetos, inclusive Câmara | Sem escrita; hashes fictícios são suficientes porque o teste verifica presença, não transação | Preflight e CI |
 | `scripts/test-question-ingestion-policy.js` | Questões sintéticas e conjuntos esperados de destinos; conhecimento, confusão, interpretação, distração, acerto valioso e conteúdo ausente | Sem escrita; política isolada, sem integração com ingestão | Preflight e CI |
 | `scripts/test-ingest.js` | Motor legado; classificação, erros, duplicata histórica, fonte protegida, ambiguidade, dry-run e rollback induzido | Cria `scripts/.test-tmp`, faz escrita temporária em `log.md` no caso de rollback e limpa; executar em checkout isolado. Caso /115 usa `assert(..., true)` e não prova o cálculo | Fora do preflight/CI atuais |
+| `scripts/test-simulado-propagation.js` | Função real do validador em VM: inclusão/alteração/conclusão, exceção parcial, JSON no diff com registro, hub e concurso Câmara | Sem escrita; testa contrato de propagação, não toda a CLI Git | Preflight e CI |
+| `scripts/test-home-without-provas.js` | Home real em DOM mínimo: ausência de painel de provas ao iniciar e alternar concursos; cálculo preservado | Sem escrita; teste de integração sintética, complementado por inspeção no navegador | Preflight e CI |
 | `scripts/test-search-index.js` | Índice gerado + benchmarks; artigo, título da seção, anchor válido, termos preservados e anchors não duplicados | Sem escrita; mede presença lexical no corpus, não ranking | CI, após build |
 | `scripts/test-search-routing.js` | `web/00-route-utils.js` + regressão textual de `web/04-markdown.js`; categoria/título/seção, rotas antigas, disciplina, home e preservação de seção em wikilink | Sem escrita; valida contrato de deep link e clique, mas não executa DOM/scroll em navegador real | CI |
 | `scripts/test-hub-ordering.js` | Helpers de `02-data-home` em VM + inspeção de `02a-lazy-data`; hub no topo, tipo e await da rota inicial | Sem escrita; usa recorte do código e checks textuais; não testa UI completa | CI |
@@ -185,7 +189,7 @@ São scripts clássicos compartilhando funções/variáveis globais. Não são m
 | `web/06-search.js` | Normaliza consulta, filtra stopwords, aliases/fuzzy matching, cria entradas e pontua artigo com contexto de edital/erro | Índice em memória, resultados até 60, trecho/seção, rota e debug `?debugBusca=1` | Depende de config, dados e core. Exclui Avancos pelo papel; favorece contexto do concurso ativo sem limitar biblioteca a um concurso. Funções são substituídas por 06a/06b |
 | `web/06a-search-index.js` | Adapta funções de 06 ao índice compacto estruturado e mantém fallback | Sobrescreve tipo/papel/criação/score; termos únicos das seções, desativa bônus de proximidade para compacto; penaliza referência no score de artigo | Exige 06 carregado primeiro; trechos compactos não preservam todas as posições/frases do corpo |
 | `web/06b-section-ranking.js` | Ranqueia melhor seção e combina com score contextual de artigo | Substitui score/seção; `detalharPontuacaoEntradaBusca` retorna total, componentes e seção | Exige 06a; nesta config total = seção × 0,82 + artigo × 0,38, arredondado. Penalização de referência aplicada ao componente artigo não representa necessariamente todo o componente seção. Teste de ranking |
-| `web/08-provas.js` | Busca `data/provas.json`, filtra concurso, ordena resultados e calcula descrições/notas | Observer tenta inserir painel em home; links por sourcePath; dados de provas globais | Deve carregar antes do init. Exige `.concurso-regua-indicadores`, ausente no renderizador atual. Trata Dataprev e TCDF explicitamente; Câmara cai em descrição genérica |
+| `web/08-provas.js` | Mantém helpers de ordenação, comparabilidade, links e descrição/notas de provas | Helpers disponíveis, sem carregar JSON ou alterar a home | Deve carregar antes do init. Por solicitação do usuário, a home não exibe desempenho em provas; removidos fetch, observer e montagem desse painel. Helpers de cálculo/descrição permanecem disponíveis sem efeitos de montagem. Trata Dataprev e TCDF explicitamente; Câmara cai em descrição genérica |
 | `web/07-router-init.js` | Liga busca/voltar/scroll/popstate, interpreta hash e inicia carregamento | Eventos, navegação e finalização do loader mesmo em erro | Carrega por último, após 08. Depende de todas as funções anteriores; carregar antes dos adaptadores pode iniciar comportamento errado |
 | `script.js` | Arquivo de compatibilidade com comentário sobre divisão do leitor | Nenhuma função nem efeito executável nesta versão | Copiado pelo build, mas não referenciado como script no HTML; lógica real está em web/ |
 
@@ -230,7 +234,7 @@ A numeração dos nomes não basta: `08-provas.js` vem antes de `07-router-init.
 
 ## Lacunas verificadas entre governança e implementação
 
-Estas são observações da versão auditada e propostas de correção, **não correções já aplicadas**. Prioridade deriva do impacto no contrato, não de incidente reproduzido em produção.
+As linhas abaixo preservam o diagnóstico do snapshot inicial; consultar o estado de correção a seguir para distinguir lacunas resolvidas e limites restantes. Prioridade deriva do impacto no contrato, não de incidente reproduzido em produção.
 
 | Prioridade | Evidência no código | Consequência | Correção e prova recomendadas |
 | --- | --- | --- | --- |
@@ -248,6 +252,16 @@ Estas são observações da versão auditada e propostas de correção, **não c
 | Baixa | API pedagógica recebe siglas; integridade aceita siglas; `me.md` exige valores semânticos | Compatibilidade legado pode esconder desvio do schema esperado | Normalização explícita sem apagar proveniência, teste de serialização e migração revisável |
 
 Também há diferenças entre listas de proteção do motor e da transação e instruções antigas de `me.md` que mostram apply sem changeset. A regra operacional detalhada de `.agent/AGENTS.md` e o contrato transacional exigem changeset. Não interpretar um comando antigo ou limite de validador como autorização para contornar regra textual.
+
+## Primeira rodada de correções — 05/10/2026
+
+- **Separação de projetos corrigida no wrapper, preview e política:** concurso explícito determina destinos; outro projeto no change set é rejeitado. A CLI segura valida o cadastro do concurso. Política/motor compartilham mapeamento de matérias.
+- **Propagação de simulados reforçada:** manifesto exige `sourcePath` do caderno e `data/provas.json`; destinos obrigatórios não podem ser apagados. CI cobre criação e alteração, inclusive conclusão de rascunho, exige resultado/comparabilidade rastreáveis e hub de provas. A derivação e conferência de todas as métricas locais permanece responsabilidade do agente.
+- **Painel retirado da home por solicitação explícita do usuário:** foram removidos montagem, observer e carregamento de provas nessa superfície. Dados, páginas de desempenho e helpers de cálculo são preservados. Teste garante ausência do painel mesmo ao alternar concursos. A falha do seletor do painel deixa de ser aplicável à home vigente.
+- **Orientação de apply corrigida:** fingerprint integral disponível; removida referência ao gerador inexistente. Exemplo de cabeçalho para manifesto de simulado: `{version:1, draft:false, concurso:"dataprev-2026", sourcePath:"00 - Desempenho/Simulados/Simulado-XX.md", ingestionFingerprint:"<hash integral>", operations:[...]}`. Fonte de entrada e destino do caderno podem ser diferentes.
+- **Regressões protegidas:** dois novos testes entram em preflight e CI. Testes de política adicionam rejeição de mistura de projetos e ausência de caderno/JSON.
+
+**Ainda pendente:** integração pedagógica por questão, cálculo/extração completa, avanços locais do simulado inferidos automaticamente, criação das superfícies ausentes da Câmara, links ancorados, display matemático, fallback público, verificação de bytes ao vivo e garantias de concorrência/crash. Esta rodada não altera registros históricos de desempenho nem normas editoriais.
 
 ## Roteiro para resolver problemas entre as partes
 
@@ -338,3 +352,6 @@ O mapa preserva conhecimento operacional para próximas sessões. A capacidade d
 - [web/08-provas.js](https://github.com/leorruas/concursos/blob/7d644624002ea1b316e128b5a81f4e64a9caf1fe/web/08-provas.js#L1)
 
 **Validação do estado-base:** preflight aprovado e workflow `Publicar no GitHub Pages` do commit auditado concluído com sucesso (run `37337471511`). As lacunas acima resultam de leitura do código; não foram corrigidas nesta operação de documentação.
+
+- [scripts/test-simulado-propagation.js](https://github.com/leorruas/concursos/blob/main/scripts/test-simulado-propagation.js#L1)
+- [scripts/test-home-without-provas.js](https://github.com/leorruas/concursos/blob/main/scripts/test-home-without-provas.js#L1)

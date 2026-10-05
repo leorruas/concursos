@@ -1,10 +1,10 @@
 // --------------------------------------------------------------------------
 // DESEMPENHO POR PROVA E EDITAL
-// Camada aditiva: preserva o painel estratégico existente e injeta apenas
-// resultados cuja proveniência e comparabilidade estejam declaradas.
+// Compatibilidade: preserva cálculos e descrição de resultados, sem montar painel.
+// Mantém apenas
+// helpers de proveniência e comparabilidade. A home não exibe resultados de provas.
 // --------------------------------------------------------------------------
 
-let dadosProvasEstrategicas = [];
 
 function provasEscapeHtml(valor) {
     return String(valor ?? "")
@@ -211,71 +211,3 @@ function provasOrdenar(lista) {
         return String(dataB).localeCompare(String(dataA));
     });
 }
-
-function renderizarPainelProvas() {
-    const conteudo = document.getElementById("concurso-home-conteudo");
-    if (!conteudo || conteudo.querySelector("[data-painel-provas]")) return;
-    if (!Array.isArray(dadosProvasEstrategicas) || dadosProvasEstrategicas.length === 0) return;
-    if (!Array.isArray(dadosConcursosEstrategicos) || dadosConcursosEstrategicos.length === 0) return;
-
-    const regua = conteudo.querySelector(".concurso-regua-indicadores");
-    if (!regua) return;
-
-    const concurso = dadosConcursosEstrategicos.find(c => c.id === concursoSelecionadoId) || dadosConcursosEstrategicos[0];
-    const provas = provasOrdenar(dadosProvasEstrategicas.filter(p => p.concursoId === concurso.id));
-    if (provas.length === 0) return;
-
-    const painel = document.createElement("div");
-    painel.className = "concurso-prioridade-linha";
-    painel.dataset.painelProvas = "true";
-    painel.style.marginTop = "24px";
-
-    const linhas = provas.map((prova, indice) => {
-        const nome = provasEscapeHtml(prova.nome);
-        const resultado = provasEscapeHtml(provasDescreverResultado(prova, concurso));
-        const comparabilidade = provasEscapeHtml(provasRotuloComparabilidade(prova?.comparabilidadeEdital?.status));
-        const separador = indice < provas.length - 1 ? "<br>" : "";
-        return `
-            <p class="concurso-prioridade-texto"><strong>${nome}</strong>${provasLinkArtigo(prova)}</p>
-            <p class="concurso-prioridade-sub">${resultado} · ${comparabilidade}</p>
-            ${separador}
-        `;
-    }).join("");
-
-    const hub = provasEncontrarArtigo("00 - Desempenho/Provas/00 - Desempenho por edital e prova.md");
-    const linkHub = hub
-        ? `<a class="concurso-link-estudo" href="${rotaDoArtigo(hub)}">ver detalhes →</a>`
-        : "";
-
-    painel.innerHTML = `
-        <span class="concurso-prioridade-tag">desempenho em provas</span>
-        <div>${linhas}</div>
-        <div>${linkHub}</div>
-    `;
-
-    regua.insertAdjacentElement("afterend", painel);
-}
-
-async function carregarProvasEstrategicas() {
-    try {
-        const resposta = await fetch("data/provas.json");
-        if (!resposta.ok) return;
-        const dados = await resposta.json();
-        dadosProvasEstrategicas = Array.isArray(dados) ? dados : [];
-        renderizarPainelProvas();
-    } catch (erro) {
-        console.warn("Não foi possível carregar o desempenho por prova:", erro);
-    }
-}
-
-const provasPainelConteudo = document.getElementById("concurso-home-conteudo");
-if (provasPainelConteudo) {
-    const provasObserver = new MutationObserver(() => {
-        if (!provasPainelConteudo.querySelector("[data-painel-provas]")) {
-            queueMicrotask(renderizarPainelProvas);
-        }
-    });
-    provasObserver.observe(provasPainelConteudo, { childList: true, subtree: true });
-}
-
-carregarProvasEstrategicas();

@@ -45,7 +45,8 @@ assert('Bateria com erro exige Log de erros', bateriaComErro.includes('4 - Proje
 
 const simulado = destinosObrigatoriosIngestao({
   classification: 'simulado',
-  hasErrors: true
+  hasErrors: true,
+  sourcePath: '00 - Desempenho/Simulados/Simulado-fixture.md'
 });
 assert('Simulado exige catálogo', simulado.includes('00 - Desempenho/Simulados/00 - Catalogo de simulados.md'));
 assert('Simulado exige dashboard', simulado.includes('4 - Projetos/dataprev-2026/00 Dashboard.md'));
@@ -104,6 +105,24 @@ try {
   theoryWithNoteAccepted = false;
 }
 assert('Teoria com nota + index + log é aceita pela política', theoryWithNoteAccepted);
+
+
+const simuladoPath = '00 - Desempenho/Simulados/Simulado-fixture.md';
+assert('Simulado exige registro do painel', simulado.includes('data/provas.json'));
+assert('Simulado exige o próprio caderno', simulado.includes(simuladoPath));
+const camara = destinosObrigatoriosIngestao({classification:'bateria_dirigida', disciplina:'Comunicação', concurso:'camara-2026', hasErrors:true});
+assert('Câmara exige destinos do projeto Câmara', camara.includes('4 - Projetos/camara-2026/Log de erros.md'));
+assert('Câmara nunca exige destinos Dataprev', !camara.some(p => p.includes('/dataprev-2026/')));
+function bloqueia(paths, context) {
+  try { validarManifestoPropagacao(manifest(paths), context); return false; }
+  catch { return true; }
+}
+assert('Bloqueia destino de outro concurso mesmo junto dos destinos corretos', bloqueia([...camara, '4 - Projetos/dataprev-2026/Log de erros.md'], {classification:'bateria_dirigida', disciplina:'Comunicação', concurso:'camara-2026', hasErrors:true}));
+const simContext = {classification:'simulado', sourcePath:simuladoPath};
+const completos = destinosObrigatoriosIngestao(simContext);
+assert('Bloqueia simulado sem JSON do painel', bloqueia(completos.filter(p=>p!=='data/provas.json'),simContext));
+assert('Bloqueia simulado sem caderno', bloqueia(completos.filter(p=>p!==simuladoPath),simContext));
+assert('Aceita simulado com propagação completa', !bloqueia(completos,simContext));
 
 if (failures > 0) {
   console.error(`FALHA: ${failures} teste(s) de propagação falharam.`);

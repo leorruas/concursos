@@ -3,7 +3,7 @@ title: "Contrato de publicação — GitHub Pages"
 type: "governanca-operacional"
 status: "ativo"
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-10-05
 ---
 
 # Contrato de publicação — GitHub Pages
@@ -13,6 +13,8 @@ Este documento define quando uma criação ou alteração de conteúdo público 
 ## Escopo público
 
 Todo Markdown aceito pelas regras de visibilidade de `scripts/build-site.js` deve ser representado no `manifest.json`, no `search-index.json` e no artefato `_site/`. Em especial, notas sob `3 - Materias/` e materiais públicos sob `00 - Desempenho/` devem ser publicados automaticamente, salvo exclusão explícita e documentada na regra canônica de visibilidade.
+
+**Exceção operacional para simulados em andamento:** arquivos em `00 - Desempenho/Simulados/` com `status: rascunho` e `parcial: true` ficam deliberadamente fora do `manifest.json`, do `search-index.json` e do `_site/` até a conclusão. A exceção existe para preservar respostas e correções parciais sem transformar um caderno incompleto em conteúdo público ou desempenho consolidado. Ao finalizar o simulado, retirar essas marcas e publicar pela regra normal.
 
 Não criar listas paralelas manuais para decidir quais artigos de matéria aparecem no site. A fonte da verdade deve continuar sendo a árvore pública do vault + a função canônica de visibilidade do build.
 

@@ -123,6 +123,22 @@ Legenda padrão:
 
 A legenda é obrigatória mesmo quando a taxonomia já estiver documentada em outro arquivo do vault.
 
+### Rascunhos parciais de simulados
+
+Um simulado ainda em resolução pode ser preservado em `00 - Desempenho/Simulados/Simulado-XX.md` sem contaminar métricas consolidadas. A exceção só vale quando o frontmatter declarar **as duas condições ao mesmo tempo**:
+
+- `status: rascunho`;
+- `parcial: true`.
+
+Enquanto essas condições estiverem presentes, o arquivo:
+
+- não exige propagação para catálogo, dashboard, `data/provas.json`, avanços globais, log de saturação ou métricas locais;
+- não deve integrar o manifesto, a busca nem o artefato público do GitHub Pages;
+- pode registrar respostas já dadas, correção parcial, questões anuladas, dúvidas e ajustes provisórios;
+- não pode receber nota final `/115` nem ser tratado como simulado consolidado.
+
+Quando o caderno for concluído, a mesma operação que retirar `status: rascunho` / `parcial: true` deve executar a propagação integral exigida para simulados completos. Um arquivo com apenas uma das duas marcas não recebe a exceção.
+
 ### Links ancorados obrigatórios em ajustes e acertos inseguros
 ### Hub obrigatório de desempenho por edital e prova
 

@@ -29,6 +29,8 @@ Para um **simulado integral**, o agente deve atualizar, na mesma operação lóg
 
 Para baterias mistas, atualizar as superfícies equivalentes compatíveis com o tipo de registro; não inventar nota /115 quando a composição oficial não tiver sido reproduzida.
 
+**Rascunho parcial:** um simulado ainda em resolução pode ser salvo em `00 - Desempenho/Simulados/Simulado-XX.md` sem propagação para catálogo, dashboard, `data/provas.json`, avanços ou métricas finais **somente** quando o frontmatter declarar simultaneamente `status: rascunho` e `parcial: true`. Esse rascunho também não deve integrar o GitHub Pages. Ao concluir o caderno, remover a condição de parcial/rascunho e executar a propagação integral na mesma operação lógica.
+
 **Regra de interface:** criar o Markdown do simulado não basta. Se `data/provas.json` ou o catálogo estiverem desatualizados, o painel está inconsistente. Após a alteração, acompanhar o workflow **Publicar no GitHub Pages** e só afirmar que o simulado “aparece no painel” depois de confirmar o deploy do HEAD e, quando aplicável, a presença do arquivo no manifesto/site publicado.
 
 Mudanças dependentes de um mesmo simulado devem preferencialmente entrar em **um único commit atômico**.

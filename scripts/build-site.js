@@ -19,11 +19,26 @@ const STOPWORDS_INDICE = new Set([
 // 1. REGRAS CANÔNICAS DE VISIBILIDADE PÚBLICA (SSoT)
 // --------------------------------------------------------------------------
 
+function isRascunhoParcialSimulado(relPath) {
+  const normPath = relPath.replace(/\\/g, '/');
+  if (!normPath.startsWith('00 - Desempenho/Simulados/') || !normPath.endsWith('.md')) return false;
+
+  const fullPath = path.join(rootDir, normPath);
+  if (!fs.existsSync(fullPath)) return false;
+
+  const conteudo = fs.readFileSync(fullPath, 'utf8');
+  return (
+    extrairCampoFrontmatter(conteudo, 'status').toLowerCase() === 'rascunho' &&
+    extrairCampoFrontmatter(conteudo, 'parcial').toLowerCase() === 'true'
+  );
+}
+
 function isArquivoPublico(relPath) {
   const normPath = relPath.replace(/\\/g, '/');
   const fileName = path.basename(normPath).toLowerCase();
 
   if (!normPath.endsWith('.md')) return false;
+  if (isRascunhoParcialSimulado(normPath)) return false;
 
   if (
     fileName === 'me.md' ||

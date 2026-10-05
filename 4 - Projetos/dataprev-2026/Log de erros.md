@@ -56,7 +56,7 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 
 ### Língua Portuguesa
 - **Q2 — condição necessária × suficiente:** [C]. “Só P se Q” foi tratado como se Q fosse suficiente; Q é condição necessária. [[3 - Materias/Logica/02 - conectivos#Condição suficiente e necessária|Condição suficiente e necessária]]
-- **Q12 — discurso indireto:** [K/C]. Futuro do discurso direto exigia transposição para futuro do pretérito e ajuste do marcador temporal. [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido#6. Discurso direto × indireto|Discurso direto × indireto]]
+- **Q12 — discurso indireto:** [K]. Futuro do discurso direto exigia transposição para futuro do pretérito e ajuste do marcador temporal. [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido#6. Discurso direto × indireto|Discurso direto × indireto]]
 
 ### Raciocínio Lógico
 - **Q27 — combinação por complemento:** [C]. Pelo menos uma entre A e B = total menos seleções sem A e B. [[3 - Materias/Logica/09 - analise combinatoria#Complemento com restrições|Complemento com restrições]]

@@ -30,7 +30,7 @@ updated: 2026-10-05
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
-| 05/10/2026 | 12 | Língua Portuguesa | Simulado 05 Dataprev/FGV: 10/12 (83,3%). Erros Q2 [C] em condição necessária × suficiente e Q12 [K/C] em discurso indireto; Q7 correta com lacuna declarada em “injunção”. |
+| 05/10/2026 | 12 | Língua Portuguesa | Simulado 05 Dataprev/FGV: 10/12 (83,3%). Erros Q2 [C] em condição necessária × suficiente e Q12 [K] em discurso indireto; Q7 correta com lacuna declarada em “injunção”. |
 | 03/10/2026 | 12 | Língua Portuguesa | Simulado 04 Dataprev/FGV: 10/12 (83,3%). Erros Q7 [I] em ambiguidade referencial e Q11 [K] em hífen; Q10 correta com insegurança em colocação pronominal. |
 | 30/09/2026 | 12 | Língua Portuguesa | Simulado 03 Dataprev/FGV: 12/12 (100%). |
 | 14/09/2026 | 6 | Língua Portuguesa | Bateria mista FGV: 7 itens apresentados, 1 anulado por ausência de alternativa incorreta; 6 válidos, 5/6 (83,3%). Acertos em haver/existir, `se` apassivador × indeterminação, crase, voz passiva e regência de `preferir`; erro [C] em adversativa × concessiva. |

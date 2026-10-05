@@ -50,7 +50,7 @@ A composição reproduz integralmente o edital vigente: 12 Português + 12 Ingl�
 | Q | Disciplina | Resposta | Gabarito | Tipo | Núcleo |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | 2 | Português | D | B | [C] | condição necessária × suficiente em “só... se” |
-| 12 | Português | B | A | [K/C] | transposição temporal no discurso indireto |
+| 12 | Português | B | A | [K] | transposição temporal no discurso indireto |
 | 27 | Lógica | C | A | [C] | contagem por complemento com restrição |
 | 37 | Legislação | C | A | [K] recorrente | Marco Civil: conexão 1 ano × acesso a aplicações 6 meses |
 | 47 | Comunicação | B | C | [K] | Sérgio Mattos: 1975–1985 = desenvolvimento tecnológico |

@@ -192,9 +192,26 @@ function exigirMudancas(paths, changedSet, contexto) {
   }
 }
 
+function isSimuladoParcialRascunho(change) {
+  if (!change.path || !exists(change.path)) return false;
+  const fm = parseFrontmatter(read(change.path));
+  return (
+    String(fm.status || '').toLowerCase() === 'rascunho' &&
+    String(fm.parcial || '').toLowerCase() === 'true'
+  );
+}
+
 function validarPropagacaoIngestao(changes, changedSet) {
   const avancosLocais = changes.filter((c) => /^3 - Materias\/[^/]+\/Avancos\.md$/.test(c.path || ''));
-  const novosSimulados = changes.filter((c) => ['A', 'R'].includes(c.status) && /^00 - Desempenho\/Simulados\/Simulado-[^/]+\.md$/.test(c.path || ''));
+  const candidatosSimulados = changes.filter((c) =>
+    ['A', 'R'].includes(c.status) &&
+    /^00 - Desempenho\/Simulados\/Simulado-[^/]+\.md$/.test(c.path || '')
+  );
+  const simuladosParciais = candidatosSimulados.filter(isSimuladoParcialRascunho);
+  for (const parcial of simuladosParciais) {
+    ok(`Rascunho parcial não exige propagação final: ${parcial.path}`);
+  }
+  const novosSimulados = candidatosSimulados.filter((c) => !isSimuladoParcialRascunho(c));
 
   if (avancosLocais.length > 0) {
     exigirMudancas([

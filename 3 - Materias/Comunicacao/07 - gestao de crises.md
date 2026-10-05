@@ -3,7 +3,7 @@ title: "Gestão de crises"
 type: "conceito"
 status: "ativo"
 created: 2026-07-08
-updated: 2026-09-10
+updated: 2026-10-05
 ---
 # Gestão de crises
 
@@ -26,6 +26,20 @@ A divisão **antes → durante → depois** funciona como modelo de planejamento
 ### Antes: prevenção e preparação
 
 Inclui mapeamento de riscos, cenários, definição de responsabilidades, comitê de crise, fluxos de decisão, porta-vozes, media training, monitoramento e preparação de mensagens iniciais adaptáveis. O objetivo é reduzir improviso quando a situação exigir resposta rápida.
+
+### Issues management — controvérsia antes da crise
+
+**Issues management** é o acompanhamento e o tratamento estratégico de temas, controvérsias e expectativas emergentes que podem afetar a organização e seus públicos **antes de assumirem a forma de uma crise aguda**. O foco é identificar sinais, atores, argumentos, interesses, possíveis impactos e opções de resposta ou relacionamento.
+
+Um *issue* pode ser regulatório, social, ambiental, reputacional ou político. Ele não precisa ser um incidente técnico: pode existir apenas como controvérsia pública em formação.
+
+A fronteira de prova é:
+
+- **issues management** → monitoramento e atuação proativa sobre tema controverso em evolução;
+- **gestão de crise** → preparação e resposta quando a ameaça já possui intensidade e urgência capazes de comprometer operação, confiança, reputação ou legitimidade.
+
+> [!WARNING]
+> **Issue ≠ crise.** Nem toda controvérsia evolui para crise, e identificar um *issue* não significa que a organização já esteja em resposta emergencial. O valor do *issues management* está justamente em permitir atuação antes da escalada.
 
 ### Durante: resposta
 
@@ -107,6 +121,7 @@ A banca tende a construir alternativas plausíveis deslocando boas práticas par
 - **Porta-voz**: centralização de mensagens não significa concentração de toda a informação em uma única pessoa.
 - **Crise encerrada**: normalização técnica não elimina automaticamente efeitos reputacionais ou obrigações posteriores.
 - **Boa prática × obrigação**: dark site, linha do tempo documental e holding statement são instrumentos possíveis; sua adoção depende do plano e do contexto.
+- **Issues management × resposta à crise**: acompanhar atores, argumentos e riscos de uma controvérsia ainda em formação é atuação preventiva; responder a uma ameaça já aguda pertence à gestão de crise.
 
 ## Relações com outros temas
 
@@ -123,6 +138,7 @@ A banca tende a construir alternativas plausíveis deslocando boas práticas par
 - **Público interno também comunica.** Informar e orientar é diferente de autorizar todos a serem porta-vozes.
 - **Comunicação não substitui solução operacional.**
 - **Boa prática não vira lei por aparecer em um manual.** Procure norma específica quando a alternativa usar “obrigatório”, “sempre” ou “exclusivamente”.
+- **Issue é sinal/controvérsia em evolução; crise é ameaça aguda.**
 
 ## Fontes
 

@@ -33,6 +33,8 @@ Para baterias mistas, atualizar as superfícies equivalentes compatíveis com o 
 
 **Regra de interface:** criar o Markdown do simulado não basta. Se `data/provas.json` ou o catálogo estiverem desatualizados, o painel está inconsistente. Após a alteração, acompanhar o workflow **Publicar no GitHub Pages** e só afirmar que o simulado “aparece no painel” depois de confirmar o deploy do HEAD e, quando aplicável, a presença do arquivo no manifesto/site publicado.
 
+**Regra de links de revisão:** em relatórios de questões, baterias e simulados — incluindo `## Ajustes a partir dos erros`, acertos com dúvida/baixa segurança, `Log de erros.md`, diagnósticos e campos de estudo/revisão — todo link para teoria deve apontar para o **subtítulo exato** que contém o conceito: `[[Pasta/Nota#Subtítulo exato|Texto]]`. Linkar apenas o topo da nota não satisfaz a regra quando existe um destino mais específico. Se o subtítulo adequado ainda não existir, refinar a nota canônica antes de concluir o relatório. No GitHub Pages, o deep link deve abrir diretamente nessa seção; mudanças no renderizador de wikilinks devem preservar e testar a seção na rota pública.
+
 Mudanças dependentes de um mesmo simulado devem preferencialmente entrar em **um único commit atômico**.
 
 ## Mapa operacional de scripts e diagnóstico

@@ -139,7 +139,14 @@ Enquanto essas condições estiverem presentes, o arquivo:
 
 Quando o caderno for concluído, a mesma operação que retirar `status: rascunho` / `parcial: true` deve executar a propagação integral exigida para simulados completos. Um arquivo com apenas uma das duas marcas não recebe a exceção.
 
-### Links ancorados obrigatórios em ajustes e acertos inseguros
+### Links ancorados obrigatórios em relatórios de questões e simulados
+
+Em qualquer artefato derivado de resolução de questões — especialmente `Simulado-XX.md`, baterias, diagnósticos, tabelas de erros, `Log de erros.md`, **## Ajustes a partir dos erros**, **## Acertos com dúvida ou recuperação incompleta** e campos de **Estudo/Revisar** — cada referência à teoria deve terminar em um **wikilink direto para o subtítulo exato** que contém o conceito cobrado: `[[Pasta/Nota#Subtítulo exato|Texto]]`.
+
+Não usar apenas link para o topo da nota quando houver seção específica. Se um item agrupar mais de um conceito, incluir um link ancorado para cada conceito. Se o subtítulo adequado ainda não existir, refinar a nota canônica e criar esse destino antes de considerar o diagnóstico concluído.
+
+A exigência vale também no leitor web: o link publicado deve preservar o deep link e abrir diretamente no heading correspondente, não apenas no início do artigo. Mudanças em wikilinks, rotas, anchors ou renderização devem manter a seção na rota pública (atualmente `?secao=`) e possuir teste de regressão.
+
 ### Hub obrigatório de desempenho por edital e prova
 
 Sempre que um **simulado completo** ou outra prova registrada em `data/provas.json` for criada ou corrigida, atualizar na mesma operação o hub público [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]].
@@ -153,11 +160,6 @@ O hub deve:
 - permanecer sincronizado com `data/provas.json`, o catálogo de simulados e os dashboards aplicáveis.
 
 Um simulado não está totalmente propagado enquanto esse hub estiver desatualizado.
-
-
-Ao gerar ou atualizar as seções **## Ajustes a partir dos erros** e **## Acertos com dúvida ou recuperação incompleta**, cada item deve terminar com um **wikilink direto para o subtítulo exato da teoria**: `[[Pasta/Nota#Subtítulo exato|Texto]]`.
-
-Não usar apenas link para a nota. Se um item agrupar mais de um conceito, incluir um link ancorado para cada conceito. Se o subtítulo adequado ainda não existir, refinar a nota canônica e criar esse destino antes de considerar o diagnóstico concluído.
 
 
 Antes de inserir questão comentada em uma nota, verificar se já existe questão cobrindo a mesma fronteira. O artigo não deve virar banco de questões: preservar a régua de 1 a 3 questões comentadas de alto valor cognitivo por nota, substituindo ou fundindo quando surgir exemplo melhor.

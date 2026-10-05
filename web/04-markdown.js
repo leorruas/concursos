@@ -341,6 +341,36 @@ function inicializarScrollspyTOC(headings) {
     headings.forEach(heading => scrollSpyObserver.observe(heading));
 }
 
+function normalizarTituloSecaoWikilink(texto) {
+    return String(texto || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[“”"'\`´’]/g, " ")
+        .replace(/[^a-z0-9]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function resolverSecaoWikilink(artigoDestino, subtitulo) {
+    const desejado = normalizarTituloSecaoWikilink(subtitulo);
+    if (!desejado) return "";
+
+    const secoes = artigoDestino?.indiceBusca?.secoes || [];
+    const exata = secoes.find(secao =>
+        normalizarTituloSecaoWikilink(secao?.titulo) === desejado
+    );
+    if (exata?.anchor) return exata.anchor;
+
+    const porSufixo = secoes.find(secao => {
+        const titulo = normalizarTituloSecaoWikilink(secao?.titulo);
+        return titulo && titulo.endsWith(` ${desejado}`);
+    });
+    if (porSufixo?.anchor) return porSufixo.anchor;
+
+    return desejado.replace(/\s+/g, "-");
+}
+
 function processarWikilinks(container) {
     const html = container.innerHTML;
     const regex = /\[\[(.*?)\]\]/g;
@@ -350,14 +380,18 @@ function processarWikilinks(container) {
         if (p1.includes("|")) {
             const partes = p1.split("|");
             destino = partes[0];
-            rotulo = partes[1];
+            rotulo = partes.slice(1).join("|");
         }
-        
-        const nomeArquivo = destino.split("#")[0].split("/").pop();
+
+        const indiceHash = destino.indexOf("#");
+        const destinoNota = indiceHash >= 0 ? destino.slice(0, indiceHash) : destino;
+        const subtitulo = indiceHash >= 0 ? destino.slice(indiceHash + 1).trim() : "";
+        const nomeArquivo = destinoNota.split("/").pop();
         const artigoDestino = todosOsArtigos.find(a => a.titulo.toLowerCase() === nomeArquivo.toLowerCase());
-        
+
         if (artigoDestino) {
-            return `<a href="${rotaDoArtigo(artigoDestino)}" class="wikilink" data-artigo="${artigoDestino.titulo}">${rotulo}</a>`;
+            const secao = resolverSecaoWikilink(artigoDestino, subtitulo);
+            return `<a href="${rotaDoArtigo(artigoDestino, secao)}" class="wikilink" data-artigo="${artigoDestino.titulo}" data-secao="${secao}">${rotulo}</a>`;
         }
         return `<span class="wikilink-texto">${rotulo}</span>`;
     });
@@ -365,10 +399,11 @@ function processarWikilinks(container) {
     container.querySelectorAll("a.wikilink").forEach(link => {
         link.addEventListener("click", (e) => {
             const nome = link.dataset.artigo;
+            const secao = link.dataset.secao || "";
             const dest = todosOsArtigos.find(a => a.titulo === nome);
             if (dest) {
                 e.preventDefault();
-                abrirArtigo(dest);
+                abrirArtigo(dest, true, secao);
             }
         });
     });

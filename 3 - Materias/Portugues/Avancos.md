@@ -3,7 +3,7 @@ title: "Avanços e desempenho (Português)"
 type: "hub"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 
 # Avanços e desempenho (Português)
@@ -30,6 +30,7 @@ updated: 2026-10-03
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 05/10/2026 | 12 | Língua Portuguesa | Simulado 05 Dataprev/FGV: 10/12 (83,3%). Erros Q2 [C] em condição necessária × suficiente e Q12 [K/C] em discurso indireto; Q7 correta com lacuna declarada em “injunção”. |
 | 03/10/2026 | 12 | Língua Portuguesa | Simulado 04 Dataprev/FGV: 10/12 (83,3%). Erros Q7 [I] em ambiguidade referencial e Q11 [K] em hífen; Q10 correta com insegurança em colocação pronominal. |
 | 30/09/2026 | 12 | Língua Portuguesa | Simulado 03 Dataprev/FGV: 12/12 (100%). |
 | 14/09/2026 | 6 | Língua Portuguesa | Bateria mista FGV: 7 itens apresentados, 1 anulado por ausência de alternativa incorreta; 6 válidos, 5/6 (83,3%). Acertos em haver/existir, `se` apassivador × indeterminação, crase, voz passiva e regência de `preferir`; erro [C] em adversativa × concessiva. |
@@ -44,6 +45,7 @@ updated: 2026-10-03
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
+| **Semana 41** (05/10 a 11/10) | 12 | 83,3% (10/12) | Simulado 05: estabilidade em 10/12; revisar apenas condição necessária/suficiente e transposição temporal do discurso indireto. |
 | **Semana 40** (28/09 a 04/10) | 24 | 91,7% (22/24) | Simulados 03 e 04. Interpretação permaneceu forte; no Simulado 04 surgiram ambiguidade referencial e recuperação instável de hífen. |
 | **Semana 38** (14/09 a 20/09) | 6 | 83,3% (5/6) | Recuperação forte dos gargalos gramaticais recentes. O único erro válido foi a reincidência `contudo` × `embora`, agora classificada como erro recorrente [C]. |
 | **Semana 33** (10/08 a 16/08) | 18 | 66,7% (12/18) | Diagnóstico FGV revelou lacunas de convenção ortográfica, impessoalidade, regência e ambiguidade referencial. |

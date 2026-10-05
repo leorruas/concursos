@@ -1,5 +1,75 @@
 [
   {
+    "id": "err-sim05-q02-necessaria",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Portuguesa",
+    "assunto": "Condição necessária × suficiente em construção com 'só... se'",
+    "notaPath": "3 - Materias/Logica/02 - conectivos.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-05.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim05-q12-discurso-indireto",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Portuguesa",
+    "assunto": "Transposição temporal no discurso indireto",
+    "notaPath": "3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido.md",
+    "tipoErro": "conhecimento_confusao",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-05.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim05-q27-complemento",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Raciocínio Lógico",
+    "assunto": "Combinação com restrição por complemento: pelo menos uma entre duas propostas",
+    "notaPath": "3 - Materias/Logica/09 - analise combinatoria.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-05.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim05-q37-marco-civil-prazos",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Legislação de SI e proteção de dados",
+    "assunto": "Marco Civil recorrente: conexão por 1 ano × acesso a aplicações por 6 meses",
+    "notaPath": "3 - Materias/Informatica/01 - marco civil da internet.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-05.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim05-q47-tv-mattos",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Sérgio Mattos: 1975–1985 = fase de desenvolvimento tecnológico",
+    "notaPath": "3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-05.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim05-q48-manchetado-exceto",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Texto manchetado: leitura do comando EXCETO",
+    "notaPath": "3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual.md",
+    "tipoErro": "interpretacao",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-05.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim05-q49-telejornalismo",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Telejornalismo: off × passagem × sonora × pé × cabeça",
+    "notaPath": "3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-05.md",
+    "status": "pendente"
+  },
+  {
     "id": "err-sim04-q07-referencia",
     "concursoId": "dataprev-2026",
     "disciplina": "Língua Portuguesa",

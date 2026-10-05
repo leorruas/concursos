@@ -1,5 +1,35 @@
 [
   {
+    "id": "dataprev-simulado-05",
+    "concursoId": "dataprev-2026",
+    "nome": "Simulado 05",
+    "tipo": "simulado",
+    "bancaReferencia": "FGV",
+    "data": "2026-10-05",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-05.md",
+    "resultado": {
+      "totalQuestoes": 70,
+      "acertos": 63,
+      "percentualBruto": 90,
+      "acertosGerais": 36,
+      "acertosEspecificos": 27,
+      "notaPonderada": 103.5,
+      "disciplinas": {
+        "linguaPortuguesa": { "acertos": 10, "total": 12 },
+        "linguaInglesa": { "acertos": 12, "total": 12 },
+        "raciocinioLogicoMatematico": { "acertos": 4, "total": 5 },
+        "atualidadesInteligenciaArtificial": { "acertos": 6, "total": 6 },
+        "legislacaoSegurancaInformacaoProtecaoDados": { "acertos": 4, "total": 5 },
+        "conhecimentosEspecificosComunicacao": { "acertos": 27, "total": 30 }
+      }
+    },
+    "comparabilidadeEdital": {
+      "status": "muito_alta",
+      "notaEditalAtualCalculavel": true,
+      "motivo": "Reproduziu integralmente a distribuição oficial Dataprev 2026 (12/12/5/6/5/30), com Q29 defeituosa anulada e substituída por item válido antes do fechamento. Comunicação foi calibrada com maior densidade factual, histórica e terminológica, aproximando o caderno da prova-espelho FGV Dataprev 2024."
+    }
+  },
+  {
     "id": "dataprev-simulado-04",
     "concursoId": "dataprev-2026",
     "nome": "Simulado 04",
@@ -15,30 +45,12 @@
       "acertosEspecificos": 28,
       "notaPonderada": 105,
       "disciplinas": {
-        "linguaPortuguesa": {
-          "acertos": 10,
-          "total": 12
-        },
-        "linguaInglesa": {
-          "acertos": 12,
-          "total": 12
-        },
-        "raciocinioLogicoMatematico": {
-          "acertos": 4,
-          "total": 5
-        },
-        "atualidadesInteligenciaArtificial": {
-          "acertos": 5,
-          "total": 6
-        },
-        "legislacaoSegurancaInformacaoProtecaoDados": {
-          "acertos": 4,
-          "total": 5
-        },
-        "conhecimentosEspecificosComunicacao": {
-          "acertos": 28,
-          "total": 30
-        }
+        "linguaPortuguesa": { "acertos": 10, "total": 12 },
+        "linguaInglesa": { "acertos": 12, "total": 12 },
+        "raciocinioLogicoMatematico": { "acertos": 4, "total": 5 },
+        "atualidadesInteligenciaArtificial": { "acertos": 5, "total": 6 },
+        "legislacaoSegurancaInformacaoProtecaoDados": { "acertos": 4, "total": 5 },
+        "conhecimentosEspecificosComunicacao": { "acertos": 28, "total": 30 }
       }
     },
     "comparabilidadeEdital": {
@@ -63,30 +75,12 @@
       "acertosEspecificos": 27,
       "notaPonderada": 103.5,
       "disciplinas": {
-        "linguaPortuguesa": {
-          "acertos": 12,
-          "total": 12
-        },
-        "linguaInglesa": {
-          "acertos": 12,
-          "total": 12
-        },
-        "raciocinioLogicoMatematico": {
-          "acertos": 2,
-          "total": 5
-        },
-        "atualidadesInteligenciaArtificial": {
-          "acertos": 6,
-          "total": 6
-        },
-        "legislacaoSegurancaInformacaoProtecaoDados": {
-          "acertos": 4,
-          "total": 5
-        },
-        "conhecimentosEspecificosComunicacao": {
-          "acertos": 27,
-          "total": 30
-        }
+        "linguaPortuguesa": { "acertos": 12, "total": 12 },
+        "linguaInglesa": { "acertos": 12, "total": 12 },
+        "raciocinioLogicoMatematico": { "acertos": 2, "total": 5 },
+        "atualidadesInteligenciaArtificial": { "acertos": 6, "total": 6 },
+        "legislacaoSegurancaInformacaoProtecaoDados": { "acertos": 4, "total": 5 },
+        "conhecimentosEspecificosComunicacao": { "acertos": 27, "total": 30 }
       }
     },
     "comparabilidadeEdital": {

@@ -3,9 +3,17 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 # Avanços e desempenho
+
+## Simulado 05 — 05/10/2026
+
+- **Resultado:** 27/30 (90,0%).
+- **Erros:** Q47 [K] em Sérgio Mattos; Q48 [I] no comando EXCETO do texto manchetado; Q49 [C] em terminologia de telejornalismo.
+- **Acertos de alto valor:** Q45 comunicação pública/neutralidade; Q52 issues management; Q55 Aaker, com dúvida B × D.
+- **Diagnóstico:** o bloco foi mais factual e técnico que o Simulado 04. A perda ficou concentrada em história e vocabulário de rádio/TV, sem indício de regressão sistêmica em Comunicação.
+- **Estudo:** [[3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil#Fases da televisão brasileira — Sérgio Mattos|Sérgio Mattos]] e [[3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual#Telejornalismo: cinco elementos estruturais|Telejornalismo]].
 
 ## Mapeamento de deficiências e tópicos estudados
 
@@ -70,6 +78,7 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 05/10/2026 | 30 | Comunicação Social | Simulado 05 Dataprev/FGV: 27/30 (90%). Erros em Sérgio Mattos, comando EXCETO no texto manchetado e off/passagem/sonora/pé/cabeça; acertos de alto valor em comunicação pública, issues management e Aaker. |
 | 03/10/2026 | 30 | Comunicação Social | Simulado 04 Dataprev/FGV: 28/30 (93,3%). Erros [C] em Jorge Duarte (interação × ouvidoria social) e 7 Ps (Process × Physical Evidence); acertos em Aaker/brand equity, Mattar e touchpoints. |
 | 30/09/2026 | 30 | Comunicação Social | Simulado 03 Dataprev/FGV: 27/30 (90%). Erros em malinformation, conversão × alcance e ROI × ROAS; bloco considerado subcalibrado em dificuldade. |
 | 14/09/2026 | 7 | Comunicação Social | Bateria FGV de Schein, Kunsch, teorias do jornalismo, assessoria/media training e finalidade predominante: 6/7 (85,7%). Erro único [C] em clipping × auditoria de imagem na mídia. |
@@ -98,6 +107,7 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
+| **Semana 41** (05/10 a 11/10) | 30 | 90,0% (27/30) | Bloco mais factual/técnico. Erros concentrados em TV/telejornalismo; demais eixos permaneceram fortes. |
 | **Semana 40** (28/09 a 04/10) | 60 | 91,7% (55/60) | Dois simulados integrais. O Simulado 04 elevou Comunicação a 28/30 sob calibração mais exigente; os erros ficaram em taxonomias próximas de Duarte e Booms/Bitner. |
 | **Semana 38** (14/09 a 20/09) | 7 | 85,7% (6/7) | Desempenho alto em autores, taxonomias e aplicação profissional. Falha isolada de fronteira entre etapa de coleta (`clipping`) e análise longitudinal estruturada (`auditoria de imagem na mídia`). |
 | **Semana 36** (31/08 a 06/09) | 37 | 81,1% (30/37) | Bateria LGPD aprofundada. Acertos fortes em consentimento, compartilhamento e agentes; lacunas pontuais em Poder Público, sensibilidade, bases legais e sanções foram corrigidas na própria sessão. |

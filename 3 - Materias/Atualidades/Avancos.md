@@ -3,15 +3,23 @@ title: "Avanços e desempenho (Atualidades)"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 
 # Avanços e desempenho (Atualidades)
+
+## Simulado 05 — 05/10/2026
+
+- **Resultado:** 6/6 (100%).
+- **Ressalva:** Q30–Q33 foram acertadas com baixa segurança declarada; o resultado não deve ser interpretado como domínio factual pleno desses quatro tópicos.
+- **Diagnóstico:** ausência de erro objetivo, mas presença de lacuna de recuperação em PNE, Teatros da Amazônia, PNL 2050 e E-Ciber × CTIR Gov.
+- **Ação:** microrevisão dos quatro fatos já consolidados no vault; não ampliar Atualidades apenas por recência na semana da prova.
 
 ## Volume diário de exercícios
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 05/10/2026 | 6 | Atualidades / IA | Simulado 05 Dataprev/FGV: 6/6 (100%), com Q30–Q33 declaradas como acertos de baixa segurança. |
 | 03/10/2026 | 6 | Atualidades / IA | Simulado 04 Dataprev/FGV: 5/6 (83,3%). Erro [K] recorrente em regime de metas/Selic; Pre-COP correta, mas com baixa familiaridade declarada. |
 | 30/09/2026 | 6 | Atualidades / IA | Simulado 03 Dataprev/FGV: 6/6 (100%), com ressalva de subcalibração de dificuldade. |
 | 14/09/2026 | 3 | Atualidades / IA | Bateria contextual de economia, mercados de carbono e segurança internacional de IA: 2/3 (66,7%). Erro [K] em regime de metas, IPCA, Selic e Copom; acertos em mercado de carbono e coexistência entre competição estratégica e cooperação em segurança de IA. |
@@ -22,6 +30,7 @@ updated: 2026-10-03
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
+| **Semana 41** (05/10 a 11/10) | 6 | 100% (6/6) | Gabarito completo, mas quatro itens factuais foram acertados com baixa segurança; revisar sem abrir novo backlog conjuntural. |
 | **Semana 40** (28/09 a 04/10) | 12 | 91,7% (11/12) | Simulados 03 e 04. O único erro foi a reincidência em meta × faixa × decisão do Copom; COP/Pre-COP foi acertada, mas revelou lacuna de familiaridade institucional. |
 | **Semana 38** (14/09 a 20/09) | 3 | 66,7% (2/3) | IA/geopolítica e mercado de carbono foram resolvidos por compreensão. A falha ficou concentrada em repertório econômico básico: meta central × faixa de tolerância × descumprimento formal e relação não automática entre IPCA e Selic. |
 | **Semana 29** (13/07 a 19/07) | 11 | 100,0% (11/11) | Bloco de IA consolidado. Domínio perfeito das distinções conceituais (IA > ML > IA Gen. > LLM), funcionamento probabilístico de tokens, arquitetura Transformer (mecanismo de attention), origem estatística das alucinações, uso ético na comunicação pública, deepfakes vs. desinformação e princípios de governança e ética da IA (transparência, supervisão humana e LGPD). |

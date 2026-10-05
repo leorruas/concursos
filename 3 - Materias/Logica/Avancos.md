@@ -3,9 +3,17 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-05-28
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 # Avanços e desempenho
+
+## Simulado 05 — 05/10/2026
+
+- **Resultado:** 4/5 (80,0%).
+- **Erro:** Q27 [C] em combinação por complemento.
+- **Questão substituta:** Q29 original anulada por duas alternativas verdadeiras; Q29-R foi acertada e recompôs o quinto item oficial.
+- **Diagnóstico:** desempenho manteve 4/5. O erro não repetiu método do bloco; ficou em modelagem de “pelo menos uma” por complemento.
+- **Estudo:** [[3 - Materias/Logica/09 - analise combinatoria#Complemento com restrições|Complemento com restrições]].
 
 ## Simulado 04 — 03/10/2026
 
@@ -28,6 +36,7 @@ updated: 2026-10-03
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 05/10/2026 | 5 | Raciocínio Lógico | Simulado 05 Dataprev/FGV: 4/5 (80%). Erro [C] em combinação por complemento; Q29 original anulada e substituta acertada. |
 | 03/10/2026 | 5 | Raciocínio Lógico | Simulado 04 Dataprev/FGV: 4/5 (80%). Erro [C] recorrente no método do bloco; contrapositiva correta com insegurança declarada. |
 | 30/09/2026 | 5 | Raciocínio Lógico | Simulado 03 Dataprev/FGV: 2/5 (40%). Erros em negação de universal com disjunção, divisão proporcional e método do bloco. |
 | 14/09/2026 | 6 | Raciocínio Lógico | Bateria mista de quantificadores, proposições, inferência categórica, De Morgan e condicional: 5/6 (83,3%). Erro único [C] na negação de “nenhum”; De Morgan e falsidade da condicional recuperados corretamente. |
@@ -50,6 +59,7 @@ updated: 2026-10-03
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
+| **Semana 41** (05/10 a 11/10) | 5 | 80,0% (4/5) | Simulado 05: desempenho preservado em 4/5, agora com erro isolado de combinação por complemento. |
 | **Semana 40** (28/09 a 04/10) | 10 | 60,0% (6/10) | O agregado ainda carrega o 2/5 do Simulado 03, mas o Simulado 04 recuperou para 4/5. Método do bloco reincidiu; contrapositiva acertada com baixa segurança. |
 | **Semana 38** (14/09 a 20/09) | 6 | 83,3% (5/6) | Retenção ampla preservada. Erro isolado em `Nenhum A é B → Algum A é B`; De Morgan e caso falso da condicional apareceram corretamente em contexto misto. |
 | **Semana 36** (31/08 a 06/09) | 30 | 63,3% (19/30) | Baterias de 02, 03 e 04/09. Houve recuperação de necessária × suficiente, com oscilações em tradução da condicional, De Morgan e contrapositiva. O Simulado 02 não entra nesta linha porque o número total de questões de Lógica não foi preservado. |

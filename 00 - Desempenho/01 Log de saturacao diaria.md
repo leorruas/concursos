@@ -3,7 +3,7 @@ title: "Log de saturação diária"
 type: "hub"
 status: "ativo"
 created: 2026-06-08
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 # Log de saturação diária
 
@@ -17,6 +17,7 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 | Data | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Sintomas Qualitativos da Sessão |
 | :--- | :--- | :--- | :--- | :--- |
+| 05/10/2026 | 70 | 90,0% (63/70) | 89,8% | **Alta**: Simulado 05 integral Dataprev/FGV. Português 10/12, Inglês 12/12, Lógica 4/5, Atualidades/IA 6/6, Legislação 4/5 e Comunicação 27/30. Nota ponderada **103,5/115**. A Q29 original foi anulada por defeito e substituída antes do fechamento. Sem evidência de degradação global por fadiga; erros de Comunicação ficaram agrupados em história/terminologia de TV e houve reincidência factual nos prazos do Marco Civil. |
 | 03/10/2026 | 70 | 90,0% (63/70) | 89,8% | **Alta**: Simulado 04 integral Dataprev/FGV. Português 10/12, Inglês 12/12, Lógica 4/5, Atualidades/IA 5/6, Legislação 4/5 e Comunicação 28/30. Nota ponderada **105/115**. Houve recuperação importante em Lógica frente ao Simulado 03, mas reincidência do método do bloco; os demais erros ficaram dispersos em microfronteiras e recuperação factual. |
 | 30/09/2026 | 70 | 90,0% (63/70) | 89,0% | **Alta**: Simulado 03 integral Dataprev/FGV. Português 12/12, Inglês 12/12, Lógica 2/5, Atualidades/IA 6/6, Legislação 4/5 e Comunicação 27/30. Não houve evidência suficiente para atribuir os erros a fadiga; a concentração em Lógica aponta prioritariamente para instabilidade de recuperação formal. Comunicação e Atualidades/IA ficaram subcalibradas em dificuldade. |
 | 14/09/2026 | 26 | 84,6% (22/26) | 84,4% | **Média**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]. Sessão mista em Lógica (5/6), Português (5/6 válidas; 1 anulada), Legislação (4/4), Comunicação (6/7) e Atualidades/IA (2/3). Pontuação ponderada parcial: **31,0/36,5** nos itens respondidos; /115 não calculável. Erros: [C] negação de `nenhum`; [C] recorrente adversativa × concessiva; [C] clipping × auditoria de imagem; [K] regime de metas/IPCA/Selic/Copom. O bloco de Inglês não foi contabilizado por ausência de respostas. |

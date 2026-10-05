@@ -3,14 +3,14 @@ title: "Log de erros - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 
 # Log de erros - Dataprev 2026
 
 Registro de erros recorrentes, pegadinhas de banca e falsos cognatos lógicos identificados durante a resolução de questões e simulados da FGV.
 
-Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]], os diagnósticos dos [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]], [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], [[00 - Desempenho/Simulados/Simulado-03|Simulado 03]] e [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]], além da [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
+Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]], os diagnósticos dos [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]], [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], [[00 - Desempenho/Simulados/Simulado-03|Simulado 03]], [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]] e [[00 - Desempenho/Simulados/Simulado-05|Simulado 05]], além da [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
 
 ## Língua Portuguesa (FGV)
 - **Funções do "SE" (PA vs. IIS):** Q21 do Simulado 01 — *VTD/VTDI com sujeito paciente no plural exige concordância passiva (PA)*; *VTI/VI com preposição mantém verbo invariável na 3ª pessoa do singular (IIS)*. [[3 - Materias/Portugues/02 - sujeito#Sujeito Determinado vs. Indeterminado e as Funções da Partícula "SE"|Estudo em Sujeito]].
@@ -49,6 +49,34 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 ## Atualidades / IA
 - **Regime de metas, IPCA, Selic e Copom:** Q1 da bateria de 14/09/2026 — [K]. Queda do IPCA não produz redução automática da Selic nem na mesma proporção. A leitura correta exige separar meta central (3,0%), faixa de tolerância (1,5% a 4,5%), critério formal de seis meses consecutivos fora da faixa e decisão do Copom baseada no conjunto do cenário e expectativas. [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom#Tensões e pegadinhas|Estudo em regime de metas, inflação, Selic e Copom]].
 
+
+## Simulado 05 — 05/10/2026
+
+**Resultado:** 63/70 = 90,0%. **103,5/115 = 90,0%**. Conhecimentos Gerais: 36/40; Comunicação: 27/30.
+
+### Língua Portuguesa
+- **Q2 — condição necessária × suficiente:** [C]. “Só P se Q” foi tratado como se Q fosse suficiente; Q é condição necessária. [[3 - Materias/Logica/02 - conectivos#Condição suficiente e necessária|Condição suficiente e necessária]]
+- **Q12 — discurso indireto:** [K/C]. Futuro do discurso direto exigia transposição para futuro do pretérito e ajuste do marcador temporal. [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido#6. Discurso direto × indireto|Discurso direto × indireto]]
+
+### Raciocínio Lógico
+- **Q27 — combinação por complemento:** [C]. Pelo menos uma entre A e B = total menos seleções sem A e B. [[3 - Materias/Logica/09 - analise combinatoria#Complemento com restrições|Complemento com restrições]]
+- **Q29 original:** anulada por duas respostas necessariamente verdadeiras; não é erro do candidato. A Q29-R substituta foi acertada.
+
+### Legislação
+- **Q37 — prazos do Marco Civil:** [K, recorrente]. Segundo simulado consecutivo com a mesma inversão: conexão = 1 ano; acesso a aplicações = 6 meses. [[3 - Materias/Informatica/01 - marco civil da internet#Guarda de registros|Guarda de registros]]
+
+### Comunicação Social
+- **Q47 — Sérgio Mattos:** [K]. 1975–1985 = desenvolvimento tecnológico. [[3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil#Fases da televisão brasileira — Sérgio Mattos|Fases da televisão brasileira]]
+- **Q48 — texto manchetado:** [I]. O comando era EXCETO; a alternativa incompatível trazia períodos longos e vocabulário rebuscado. [[3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual#Texto manchetado|Texto manchetado]]
+- **Q49 — telejornalismo:** [C]. Sequência correta: off → passagem → sonora → pé → cabeça. [[3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual#Telejornalismo: cinco elementos estruturais|Elementos do telejornalismo]]
+
+### Acertos inseguros ou de alto valor
+- Q7: injunção.
+- Q30–Q33: Atualidades acertadas com baixa segurança declarada.
+- Q39: incidente de segurança acertado com dúvida.
+- Q45: neutralidade absoluta em comunicação pública rejeitada corretamente e nota refinada.
+- Q52: issues management acertado; lacuna nominal do vault corrigida.
+- Q55: Aaker acertado com dúvida; cinco dimensões já estavam consolidadas.
 
 ## Simulado 04 — 03/10/2026
 

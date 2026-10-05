@@ -1,3 +1,6 @@
+import fs from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
 import '../web/00-route-utils.js';
 
 let falhas = 0;
@@ -19,6 +22,17 @@ const disciplina = parsearHashVault('#/disciplina/Direito%20Constitucional');
 check('rota de disciplina continua válida', disciplina.tipo === 'disciplina' && disciplina.categoria === 'Direito Constitucional');
 
 check('home continua válido', parsearHashVault('#/').tipo === 'home');
+
+const raizRepo = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const markdownWeb = fs.readFileSync(path.join(raizRepo, 'web/04-markdown.js'), 'utf8');
+check(
+  'wikilink ancorado preserva seção no href público',
+  markdownWeb.includes('rotaDoArtigo(artigoDestino, secao)')
+);
+check(
+  'clique em wikilink ancorado abre artigo na seção',
+  markdownWeb.includes('abrirArtigo(dest, true, secao)')
+);
 
 if (falhas > 0) process.exit(1);
 console.log('SUCESSO: rotas de busca e deep links preservadas.');

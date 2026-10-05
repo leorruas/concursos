@@ -16,6 +16,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { mapearPastaMateria } from './ingestion-propagation-policy.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -442,20 +443,7 @@ export class IngestionEngine {
     }
   }
 
-  mapearPastaMateria(nomeDisc) {
-    if (!nomeDisc) return null;
-    const lower = nomeDisc.toLowerCase();
-    if (lower.includes('lógic') || lower.includes('logic')) return 'Logica';
-    if (lower.includes('portugu')) return 'Portugues';
-    if (lower.includes('comunica')) return 'Comunicacao';
-    if (lower.includes('ingl')) return 'Ingles';
-    if (lower.includes('cálculo') || lower.includes('calculo')) return 'Calculo Mental';
-    if (lower.includes('constitucional')) return 'Direito Constitucional';
-    if (lower.includes('administrativo')) return 'Direito Administrativo';
-    if (lower.includes('atualidades') || lower.includes('inteligência') || lower.includes('ia')) return 'Atualidades';
-    if (lower.includes('informática') || lower.includes('informatica')) return 'Informatica';
-    return null;
-  }
+  mapearPastaMateria(nomeDisc) { return mapearPastaMateria(nomeDisc); }
 
   step6_identifyTargetFiles(facts, classification) {
     const targets = {
@@ -471,14 +459,18 @@ export class IngestionEngine {
       return targets;
     }
 
+    const projeto = `4 - Projetos/${this.options.concurso || 'dataprev-2026'}`;
+
     if (classification === 'simulado') {
       targets.desempenho.push('00 - Desempenho/Simulados/00 - Catalogo de simulados.md');
       targets.desempenho.push('00 - Desempenho/00 Avancos globais.md');
       targets.desempenho.push('00 - Desempenho/01 Log de saturacao diaria.md');
-      targets.projetos.push('4 - Projetos/dataprev-2026/Questoes e Simulados.md');
-      targets.projetos.push('4 - Projetos/dataprev-2026/Log de erros.md');
-      targets.projetos.push('4 - Projetos/dataprev-2026/00 Dashboard.md');
+      targets.projetos.push(`${projeto}/Questoes e Simulados.md`);
+      targets.projetos.push(`${projeto}/Log de erros.md`);
+      targets.projetos.push(`${projeto}/00 Dashboard.md`);
       targets.projetos.push('data/erros-recorrentes.json');
+      targets.projetos.push('data/provas.json');
+      targets.desempenho.push('00 - Desempenho/Provas/00 - Desempenho por edital e prova.md');
     } else if (classification === 'bateria_dirigida') {
       const matFolder = this.mapearPastaMateria(facts.disciplina);
       if (matFolder) {
@@ -486,8 +478,8 @@ export class IngestionEngine {
       }
       targets.desempenho.push('00 - Desempenho/00 Avancos globais.md');
       targets.desempenho.push('00 - Desempenho/01 Log de saturacao diaria.md');
-      targets.projetos.push('4 - Projetos/dataprev-2026/Questoes e Simulados.md');
-      targets.projetos.push('4 - Projetos/dataprev-2026/Log de erros.md');
+      targets.projetos.push(`${projeto}/Questoes e Simulados.md`);
+      targets.projetos.push(`${projeto}/Log de erros.md`);
       targets.projetos.push('data/erros-recorrentes.json');
     }
 

@@ -14,6 +14,8 @@ const checks = [
   ['Idempotência da ingestão', 'scripts/test-ingestion-idempotency.js'],
   ['Política pedagógica de questões', 'scripts/test-question-ingestion-policy.js'],
   ['Política de propagação', 'scripts/test-ingestion-propagation-policy.js'],
+  ['Propagação de simulados concluídos', 'scripts/test-simulado-propagation.js'],
+  ['Home sem desempenho em provas', 'scripts/test-home-without-provas.js'],
   ['Transações multi-arquivo', 'scripts/test-changeset-transaction.js']
 ];
 

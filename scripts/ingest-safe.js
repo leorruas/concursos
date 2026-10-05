@@ -92,6 +92,8 @@ async function main() {
     throw new Error(`Arquivo de entrada não encontrado: ${options.input}`);
   }
 
+  const concursos = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/concursos.json'), 'utf8'));
+  if (!concursos.some(c => c.id === options.concurso)) throw new Error(`Concurso não cadastrado: ${options.concurso}`);
   const content = fs.readFileSync(inputPath, 'utf8');
   const fingerprint = calcularFingerprintIngestao({ content, concurso: options.concurso });
 
@@ -108,14 +110,14 @@ async function main() {
   }
 
   const report = await preview(options);
-  console.log(`✓ Fingerprint candidato: ${fingerprint.slice(0, 12)}…`);
+  console.log(`✓ Fingerprint candidato: ${fingerprint}`);
 
   if (!options.apply) return;
 
   if (!options.changeset) {
     throw new Error(
       'APPLY BLOQUEADO: --apply exige --changeset <arquivo.json>. ' +
-      'Gere primeiro um rascunho com scripts/generate-ingestion-changeset.js.'
+      'Prepare um change set completo a partir do dry-run, com draft:false e ingestionFingerprint integral.'
     );
   }
 
@@ -135,7 +137,9 @@ async function main() {
   validarManifestoPropagacao(manifest, {
     classification: report.classification,
     disciplina,
-    hasErrors
+    hasErrors,
+    concurso: options.concurso,
+    sourcePath: manifest.sourcePath
   });
 
   const nextLedger = [
@@ -180,7 +184,7 @@ async function main() {
   });
 
   console.log(`✓ INGESTÃO TRANSACIONAL CONCLUÍDA: ${result.changed.length} arquivo(s).`);
-  console.log(`✓ Fingerprint registrado atomicamente: ${fingerprint.slice(0, 12)}…`);
+  console.log(`✓ Fingerprint registrado atomicamente: ${fingerprint}`);
 }
 
 main().catch((err) => {

@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
+import { destinosObrigatoriosIngestao } from './ingestion-propagation-policy.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -202,35 +203,41 @@ function isSimuladoParcialRascunho(change) {
 }
 
 function validarPropagacaoIngestao(changes, changedSet) {
-  const avancosLocais = changes.filter((c) => /^3 - Materias\/[^/]+\/Avancos\.md$/.test(c.path || ''));
-  const candidatosSimulados = changes.filter((c) =>
-    ['A', 'R'].includes(c.status) &&
-    /^00 - Desempenho\/Simulados\/Simulado-[^/]+\.md$/.test(c.path || '')
-  );
-  const simuladosParciais = candidatosSimulados.filter(isSimuladoParcialRascunho);
-  for (const parcial of simuladosParciais) {
-    ok(`Rascunho parcial não exige propagação final: ${parcial.path}`);
-  }
-  const novosSimulados = candidatosSimulados.filter((c) => !isSimuladoParcialRascunho(c));
-
-  if (avancosLocais.length > 0) {
-    exigirMudancas([
-      '00 - Desempenho/00 Avancos globais.md',
-      '00 - Desempenho/01 Log de saturacao diaria.md',
-      '4 - Projetos/dataprev-2026/Questoes e Simulados.md'
-    ], changedSet, `Ingestão em ${avancosLocais.map((c) => c.path).join(', ')}`);
-    if (changedSet.has('data/erros-recorrentes.json')) exigirMudancas(['4 - Projetos/dataprev-2026/Log de erros.md'], changedSet, 'Ingestão com erro(s) clínico(s)');
+  const avancosLocais = changes.filter(c => /^3 - Materias\/[^/]+\/Avancos\.md$/.test(c.path || ''));
+  const projetos = [...new Set(changes.map(c => (c.path || '').match(/^4 - Projetos\/([^/]+)\/(?:Questoes e Simulados|Log de erros|00 Dashboard)\.md$/)?.[1]).filter(Boolean))];
+  if (avancosLocais.length) {
+    if (!projetos.length) fail('Avanços locais exigem propagação para o projeto do concurso correspondente.');
+    for (const concurso of projetos) {
+      exigirMudancas([
+        '00 - Desempenho/00 Avancos globais.md',
+        '00 - Desempenho/01 Log de saturacao diaria.md',
+        `4 - Projetos/${concurso}/Questoes e Simulados.md`
+      ], changedSet, `Avanços locais de ${concurso}`);
+      if (changedSet.has('data/erros-recorrentes.json')) exigirMudancas([`4 - Projetos/${concurso}/Log de erros.md`], changedSet, `Erros de ${concurso}`);
+    }
   }
 
-  if (novosSimulados.length > 0) {
-    exigirMudancas([
-      '00 - Desempenho/Simulados/00 - Catalogo de simulados.md',
-      '00 - Desempenho/00 Avancos globais.md',
-      '00 - Desempenho/01 Log de saturacao diaria.md',
-      '4 - Projetos/dataprev-2026/Questoes e Simulados.md',
-      '4 - Projetos/dataprev-2026/00 Dashboard.md'
-    ], changedSet, 'Novo simulado');
-    if (changedSet.has('data/erros-recorrentes.json')) exigirMudancas(['4 - Projetos/dataprev-2026/Log de erros.md'], changedSet, 'Simulado com erro(s) clínico(s)');
+  const simulados = changes.filter(c => ['A', 'R', 'M'].includes(c.status) && /^00 - Desempenho\/Simulados\/Simulado-[^/]+\.md$/.test(c.path || ''));
+  const provas = exists('data/provas.json') ? JSON.parse(read('data/provas.json')) : [];
+  for (const change of simulados) {
+    if (isSimuladoParcialRascunho(change)) {
+      ok(`Rascunho parcial não exige propagação final: ${change.path}`);
+      continue;
+    }
+    const fm = exists(change.path) ? parseFrontmatter(read(change.path)) : {};
+    const registros = provas.filter(p => p.sourcePath === change.path);
+    const concursos = [...new Set(registros.map(p => p.concursoId))];
+    const concurso = fm.concurso_referencia || fm.concursoId || (concursos.length === 1 ? concursos[0] : null);
+    if (!concurso) { fail(`Simulado sem concurso rastreável: ${change.path}`); continue; }
+    if (!registros.some(p => p.concursoId === concurso && p.resultado && p.comparabilidadeEdital)) {
+      fail(`Simulado concluído sem resultado e comparabilidade em data/provas.json para ${concurso}: ${change.path}`);
+    }
+    try {
+      exigirMudancas(destinosObrigatoriosIngestao({
+        classification: 'simulado', concurso, sourcePath: change.path,
+        hasErrors: changedSet.has('data/erros-recorrentes.json')
+      }), changedSet, `Simulado concluído/atualizado de ${concurso}`);
+    } catch (error) { fail(error.message); }
   }
 }
 

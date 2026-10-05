@@ -1181,3 +1181,11 @@
 - Mapa incluído no índice global e referenciado por AGENTS.md; esta operação documenta lacunas e não altera o comportamento dos scripts.
 
 - Errata de contagem do inventário: 39 arquivos JavaScript (25 scripts, 13 módulos web e 1 arquivo de compatibilidade); HTML e workflow são entradas adicionais.
+
+## [2026-10-05] Primeira rodada de correções dos contratos
+- Separação de projetos no wrapper/preview/política, fingerprint integral e orientação de apply válida.
+- Simulados exigem caderno + provas.json e propagação no mesmo diff ao serem concluídos/atualizados.
+- Painel de provas corrigido e testado na prévia; testes de regressão incluídos no preflight e CI.
+- Mapa atualizado com estado das lacunas e limitações restantes; registros históricos de estudo preservados.
+
+- Ajuste solicitado pelo usuário nesta rodada: retirar desempenho em provas da home. Removidos montagem, observer e fetch desse painel; dados e páginas de desempenho preservados. Teste de home cobre ausência após alternar concursos.

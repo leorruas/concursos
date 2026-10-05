@@ -34,3 +34,7 @@ Para baterias mistas, atualizar as superfícies equivalentes compatíveis com o 
 **Regra de interface:** criar o Markdown do simulado não basta. Se `data/provas.json` ou o catálogo estiverem desatualizados, o painel está inconsistente. Após a alteração, acompanhar o workflow **Publicar no GitHub Pages** e só afirmar que o simulado “aparece no painel” depois de confirmar o deploy do HEAD e, quando aplicável, a presença do arquivo no manifesto/site publicado.
 
 Mudanças dependentes de um mesmo simulado devem preferencialmente entrar em **um único commit atômico**.
+
+## Mapa operacional de scripts e diagnóstico
+
+Para tarefas nos scripts, na interface ou nas integrações entre ingestão, dados, busca e publicação, consultar [[1 - Planejamento/Mapa de scripts e contratos do sistema|Mapa de scripts e contratos do sistema]]. Ele reúne entradas, saídas, dependências, limites dos checks e lacunas verificadas. Conferir o código vigente, localizar a primeira divergência entre produtor e consumidor e aplicar os contratos existentes; o mapa não substitui `me.md` nem as regras detalhadas de `.agent/AGENTS.md`. Manter a entrada dos scripts afetados atualizada ao concluir mudanças nesse sistema.

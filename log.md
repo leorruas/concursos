@@ -1174,3 +1174,10 @@
 - Os snapshots 15 a 19 passaram a distinguir prioridade de estudo. Fatos consolidados com antecedência têm maior peso; acontecimentos dos últimos dias de setembro ou de outubro têm prioridade reduzida para a Dataprev.
 - Em Relações Internacionais, detalhes do Debate Geral da ONU de 22–28/09 foram marcados como baixa prioridade para esta prova, preservando-se o conteúdo como contexto e para uso futuro.
 - O cronograma deixou de prever atualização em 08–09/10, e o protocolo do próximo simulado passou a impedir o uso automático de notícias recentes demais apenas porque o simulado é gerado perto da prova.
+
+## [2026-10-05] Mapa de scripts e contratos do sistema
+- Inventariados os 40 arquivos JavaScript, o script embutido no HTML, o workflow de publicação e os contratos de dados.
+- Documentadas entradas, saídas, efeitos, dependências, verificações e diferenças entre governança e implementação, com roteiro de diagnóstico entre camadas.
+- Mapa incluído no índice global e referenciado por AGENTS.md; esta operação documenta lacunas e não altera o comportamento dos scripts.
+
+- Errata de contagem do inventário: 39 arquivos JavaScript (25 scripts, 13 módulos web e 1 arquivo de compatibilidade); HTML e workflow são entradas adicionais.

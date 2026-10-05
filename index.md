@@ -5,6 +5,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 > **Leitura obrigatória para agentes:** ler `[[me]]` antes de qualquer operação. Diretrizes de governança e regras estão lá.
 
 ## 1 - Planejamento
+- [[1 - Planejamento/Mapa de scripts e contratos do sistema|Mapa de scripts e contratos do sistema]]
 - [[1 - Planejamento/diretrizes de busca|Diretrizes de busca]]
 - [[1 - Planejamento/Governanca da busca|Governança da busca]]
 - [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]]

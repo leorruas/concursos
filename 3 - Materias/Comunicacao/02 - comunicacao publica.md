@@ -3,7 +3,7 @@ title: "Comunicação pública"
 type: "conceito"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 # Comunicação pública
 
@@ -30,6 +30,15 @@ Relaciona-se ao discurso e à ação de governos, partidos e agentes na disputa 
 > **Pergunta de prova:** o que define o enquadramento é apenas “quem fala” ou também **para quê, sobre que tema e com que relação com o cidadão**?
 
 A FGV NAV Brasil 2026 explorou exatamente essa fronteira, considerando incorreta a equivalência entre comunicação pública e governamental e valorizando cidadão, interesse coletivo, diálogo e participação.
+
+### Explicação de políticas públicas × neutralidade absoluta
+
+Comunicação pública **não exige neutralidade absoluta no sentido de impedir o Estado ou o governo de explicar políticas adotadas**. Informar objetivos, fundamentos, critérios, execução, resultados, limites e formas de acesso a uma política pode integrar transparência, acesso, utilidade pública e prestação de contas.
+
+O ponto de controle é a **finalidade pública e a perspectiva cidadã**. Explicar uma decisão não equivale a transformar a comunicação em promoção pessoal, propaganda eleitoral ou defesa acrítica do governante. A comunicação institucional pode contextualizar escolhas e apresentar razões, desde que preserve impessoalidade, interesse coletivo, informação verificável e possibilidade de escrutínio.
+
+> [!WARNING]
+> **Imparcialidade/impessoalidade ≠ silêncio institucional.** A banca pode tornar falsa uma alternativa ao afirmar que comunicação pública só existe quando o emissor se abstém de explicar políticas, decisões ou prioridades. O erro está em confundir ausência de personalismo com ausência de conteúdo explicativo.
 
 ## 2. Informação não é sinônimo de comunicação
 
@@ -130,6 +139,7 @@ Os melhores distratores deslocam partes verdadeiras entre os quatro eixos ou tra
 - **Interação ≠ fluxo descendente**.
 - **Ouvidoria social ≠ unidade administrativa de Ouvidoria apenas**.
 - **Interesse público ≠ conveniência do emissor**.
+- **Impessoalidade ≠ neutralidade absoluta ou silêncio sobre políticas públicas**.
 
 ## Exemplos comentados
 
@@ -150,6 +160,7 @@ Os melhores distratores deslocam partes verdadeiras entre os quatro eixos ou tra
 - Ouvidoria social = compreender públicos e incorporar escuta como referência.
 - Governo é gestor transitório; Estado é estrutura mais ampla.
 - Mais divulgação não significa necessariamente mais comunicação.
+- Explicar política pública pode ser comunicação pública; promoção personalista não.
 
 ---
 **Fonte bruta prioritária:**

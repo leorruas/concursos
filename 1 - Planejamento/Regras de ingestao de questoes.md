@@ -137,6 +137,8 @@ A fonte canônica é `data/questoes-ledger.json`. Cada questão resolvida deve r
 
 **Depois de resolver:** atualizar o ledger na mesma operação do simulado e executar `node scripts/question-ledger.js --validate`. Para auditar: `node scripts/question-ledger.js --report dataprev-simulado-XX`. Se a repetição excessiva só for descoberta depois da aplicação, preservar nota/histórico, marcar qualidade contaminada e retirar o caderno da função de benchmark.
 
+**Backfill histórico:** quando simulados anteriores não preservarem o caderno completo, registrar somente os itens documentalmente recuperáveis, com `ledgerCoverage: partial_historical` e `registeredQuestions`. Não completar tema, mecanismo, gabarito ou resposta por inferência. `answerKnown: false` é permitido apenas nesse regime histórico parcial. Simulados gerados após a implantação do ledger continuam obrigados a cobertura integral.
+
 ## Fluxo de ingestão
 
 Para `bateria_dirigida`, `simulado` ou correção de questão:

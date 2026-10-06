@@ -25,8 +25,14 @@ try {
   const fixture={
     schemaVersion:1,updated:'2026-10-06',
     policy:{recentSimulationWindow:3,minimumNewRate:0.75,maximumExactRate:0.03,maximumMechanicalRate:0.10,maximumIntentionalReviewRate:0.15,exactCooldownSimulations:5,mechanicalCooldownSimulations:3,thematicReuseAllowed:true,missedItemRule:'transform_mechanism'},
-    simulations:[{id:'sim-fixture-01',concursoId:'dataprev-2026',date:'2026-10-05',totalQuestions:1,benchmarkEligible:true,generationAudit:{counts:{new:1,thematic:0,mechanical:0,exact:0},newRate:1,thematicRate:0,mechanicalRate:0,exactRate:0,intentionalReviewRate:0}}],
-    questions:[{...baseQuestion,id:'fixture-q1',number:1}]
+    simulations:[
+      {id:'sim-fixture-01',concursoId:'dataprev-2026',date:'2026-10-05',totalQuestions:1,benchmarkEligible:true,ledgerCoverage:'complete',generationAudit:{counts:{new:1,thematic:0,mechanical:0,exact:0},newRate:1,thematicRate:0,mechanicalRate:0,exactRate:0,intentionalReviewRate:0}},
+      {id:'sim-historico',concursoId:'dataprev-2026',date:'2026-10-03',totalQuestions:70,benchmarkEligible:true,ledgerCoverage:'partial_historical',registeredQuestions:1}
+    ],
+    questions:[
+      {...baseQuestion,id:'fixture-q1',number:1},
+      {...baseQuestion,id:'historico-q25',sourceId:'sim-historico',number:25,mechanism:'condicional-contrapositiva',topic:'Condicional',subtopic:'contrapositiva',answerKnown:false,correctAnswer:null,userAnswer:null,result:'correct',confidence:'unknown'}
+    ]
   };
   const ledgerFile=path.join(dir,'ledger.json');
   fs.writeFileSync(ledgerFile,JSON.stringify(fixture));
@@ -35,7 +41,7 @@ try {
   if(validate.status!==0) throw new Error('Fixture do ledger deve validar.\n'+validate.stderr);
 
   const newQuestions=Array.from({length:19},(_,i)=>({number:i+1,topic:'Tema '+i,subtopic:'Subtema '+i,mechanism:'mecanismo-novo-'+i,intentionalReview:false}));
-  const repeated={number:20,topic:'Marco Civil',subtopic:'Guarda de registros',mechanism:'marco-civil-prazos-conexao-aplicacoes',intentionalReview:true,transformation:'Aplicar o prazo em caso temporal com consequência prática, sem associação direta.'};
+  const repeated={number:20,topic:'Condicional',subtopic:'contrapositiva',mechanism:'condicional-contrapositiva',intentionalReview:true,transformation:'Aplicar a contrapositiva em linguagem natural com consequência prática, sem pedir equivalência direta.'};
   const passFile=path.join(dir,'pass.json');
   fs.writeFileSync(passFile,JSON.stringify({concursoId:'dataprev-2026',questions:[...newQuestions,repeated]}));
   const pass=run(['--check-plan',passFile,'--ledger',ledgerFile]);

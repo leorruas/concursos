@@ -93,7 +93,7 @@ Uso de análise: `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md"
 
 **Função:** validar o ledger canônico de questões, listar mecanismos recentes, auditar simulados registrados e bloquear planos com repetição excessiva antes da redação final.
 
-**Comandos:** `--validate`, `--report <simId>`, `--recent <concursoId> --window N` e `--check-plan <arquivo>`. **Contrato:** usa `data/questoes-ledger.json`; exige links ancorados para erros/acertos inseguros; aplica a régua de novidade definida no próprio ledger. **Limite:** não escreve o ledger nem gera o texto das questões; a classificação semântica de mecanismo continua sendo responsabilidade do agente.
+**Comandos:** `--validate`, `--report <simId>`, `--recent <concursoId> --window N` e `--check-plan <arquivo>`. **Contrato:** usa `data/questoes-ledger.json`; exige links ancorados para erros/acertos inseguros; aplica a régua de novidade definida no próprio ledger. **Limite:** não escreve o ledger nem gera o texto das questões; a classificação semântica de mecanismo continua sendo responsabilidade do agente. Backfills antigos podem declarar `ledgerCoverage: partial_historical`; o validador exige contagem explícita e não presume os itens ausentes.
 
 ### scripts/test-question-ledger.js
 

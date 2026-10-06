@@ -72,14 +72,23 @@ function validateLedger(ledger){
     }
     if(q.mechanism && normalize(q.mechanism)!==q.mechanism) errors.push(`${q.id}: mechanism deve ser slug canônico.`);
     if(!Number.isInteger(q.number) || q.number<1) errors.push(`${q.id}: number inválido.`);
-    if(!allowedAnswer.has(q.correctAnswer)) errors.push(`${q.id}: correctAnswer deve ser A-E.`);
-    if(!allowedAnswer.has(q.userAnswer)) errors.push(`${q.id}: userAnswer deve ser A-E.`);
+    const sourceSim=simulations.get(q.sourceId);
+    const partialHistorical=sourceSim?.ledgerCoverage==='partial_historical';
+    const answerKnown=q.answerKnown!==false;
+    if(answerKnown){
+      if(!allowedAnswer.has(q.correctAnswer)) errors.push(`${q.id}: correctAnswer deve ser A-E.`);
+      if(!allowedAnswer.has(q.userAnswer)) errors.push(`${q.id}: userAnswer deve ser A-E.`);
+    } else if(!partialHistorical) {
+      errors.push(`${q.id}: answerKnown=false só é permitido em backfill histórico parcial.`);
+    }
     if(!allowedResult.has(q.result)) errors.push(`${q.id}: result inválido.`);
     if(!allowedConfidence.has(q.confidence||'unknown')) errors.push(`${q.id}: confidence inválido.`);
     if(!allowedError.has(q.errorType??null)) errors.push(`${q.id}: errorType inválido.`);
     if(q.result==='incorrect' && !q.errorType) errors.push(`${q.id}: erro exige errorType K/C/I/D.`);
-    const expected=q.correctAnswer===q.userAnswer?'correct':'incorrect';
-    if(q.result!=='annulled' && q.result!==expected) errors.push(`${q.id}: result não corresponde a gabarito/resposta.`);
+    if(answerKnown){
+      const expected=q.correctAnswer===q.userAnswer?'correct':'incorrect';
+      if(q.result!=='annulled' && q.result!==expected) errors.push(`${q.id}: result não corresponde a gabarito/resposta.`);
+    }
 
     const rep=q.repetition||{};
     if(!allowedRep.has(rep.classification)) errors.push(`${q.id}: repetition.classification inválida.`);
@@ -102,9 +111,16 @@ function validateLedger(ledger){
 
   for(const sim of ledger.simulations||[]){
     const qs=(ledger.questions||[]).filter(q=>q.sourceId===sim.id);
-    if(qs.length!==sim.totalQuestions) errors.push(`${sim.id}: totalQuestions=${sim.totalQuestions}, mas há ${qs.length} registros.`);
-    const numbers=new Set(qs.map(q=>q.number));
-    for(let i=1;i<=sim.totalQuestions;i++) if(!numbers.has(i)) errors.push(`${sim.id}: Q${i} ausente no ledger.`);
+    const partialHistorical=sim.ledgerCoverage==='partial_historical';
+    if(partialHistorical){
+      if(!Number.isInteger(sim.registeredQuestions) || sim.registeredQuestions!==qs.length) errors.push(`${sim.id}: registeredQuestions deve refletir os ${qs.length} registros históricos presentes.`);
+      if(qs.length<1 || qs.length>sim.totalQuestions) errors.push(`${sim.id}: backfill histórico parcial possui quantidade inválida de registros.`);
+      warnings.push(`${sim.id}: cobertura histórica parcial (${qs.length}/${sim.totalQuestions}); mecanismos ausentes não podem ser inferidos.`);
+    } else {
+      if(qs.length!==sim.totalQuestions) errors.push(`${sim.id}: totalQuestions=${sim.totalQuestions}, mas há ${qs.length} registros.`);
+      const numbers=new Set(qs.map(q=>q.number));
+      for(let i=1;i<=sim.totalQuestions;i++) if(!numbers.has(i)) errors.push(`${sim.id}: Q${i} ausente no ledger.`);
+    }
 
     const counts={new:0,thematic:0,mechanical:0,exact:0};
     let intentional=0;
@@ -125,6 +141,11 @@ function validateLedger(ledger){
     if(rates.exactRate>p.maximumExactRate) gate.push(`exact ${(rates.exactRate*100).toFixed(1)}%`);
     if(rates.mechanicalRate>p.maximumMechanicalRate) gate.push(`mechanical ${(rates.mechanicalRate*100).toFixed(1)}%`);
     if(rates.intentionalReviewRate>p.maximumIntentionalReviewRate) gate.push(`revisão intencional ${(rates.intentionalReviewRate*100).toFixed(1)}%`);
+
+    if(partialHistorical){
+      if(sim.generationAudit) warnings.push(`${sim.id}: generationAudit ignorada porque o backfill é parcial.`);
+      continue;
+    }
 
     if(sim.generationAudit){
       for(const [k,v] of Object.entries(rates)){
@@ -220,7 +241,7 @@ if(cmd==='--validate'){
   const idx=args.indexOf('--window');
   const windowSize=idx>=0?Number(args[idx+1]):Number(ledger.policy.recentSimulationWindow||3);
   const out=recentQuestions(ledger,concursoId,windowSize);
-  console.log(JSON.stringify({simulations:out.sims.map(s=>({id:s.id,date:s.date,benchmarkEligible:s.benchmarkEligible})),mechanisms:[...new Set(out.questions.map(q=>q.mechanism))].sort()},null,2));
+  console.log(JSON.stringify({simulations:out.sims.map(s=>({id:s.id,date:s.date,benchmarkEligible:s.benchmarkEligible,ledgerCoverage:s.ledgerCoverage||'complete',registeredQuestions:s.registeredQuestions??s.totalQuestions})),mechanisms:[...new Set(out.questions.map(q=>q.mechanism))].sort()},null,2));
 } else if(cmd==='--check-plan'){
   if(!args[0]) die('Uso: node scripts/question-ledger.js --check-plan caminho/plan.json [--ledger caminho/ledger.json]');
   checkPlan(ledger,args[0]);

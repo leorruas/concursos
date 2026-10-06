@@ -119,6 +119,8 @@ Depois da resolução, registrar **todas** as questões no ledger: gabarito, res
 
 Se um simulado já aplicado violar o gate, não apagar: registrar a auditoria, manter nota e erros, mas marcar `benchmarkEligible: false` e explicar a contaminação.
 
+**Backfill de simulados anteriores ao ledger:** nunca inventar metadados ausentes. Se o arquivo histórico não preservar todas as questões, registrar o simulado com `ledgerCoverage: partial_historical` e `registeredQuestions` igual ao número efetivamente recuperado. Questões cuja correção é conhecida, mas cuja letra não foi preservada, podem usar `answerKnown: false`. Esse backfill participa do bloqueio de mecanismos conhecidos, mas não autoriza inferir as questões ausentes nem calcular taxa histórica de novidade.
+
 ## Regra obrigatória para ingestão de questões
 
 Sempre que a tarefa envolver questões resolvidas, baterias dirigidas, simulados, correções, diagnóstico de erros ou ingestão de exercícios, o agente deve também ler e aplicar:

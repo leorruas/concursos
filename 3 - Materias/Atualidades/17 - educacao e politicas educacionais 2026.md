@@ -42,13 +42,73 @@ A lei diferencia:
 
 A FGV pode trocar funções entre PNE, Ideb, Saeb, Censo Escolar e programas do MEC.
 
-### 2. Ideb 2025 divulgado em 2026
+### 2. Ideb — o que é, como funciona e como ler
 
-Em agosto de 2026, o Inep divulgou os resultados do **Ideb 2025**. O Ideb varia de **0 a 10** e sintetiza duas dimensões da educação básica: **fluxo escolar** e **desempenho no Saeb**.
+O **Ideb — Índice de Desenvolvimento da Educação Básica** é um indicador criado pelo Inep em 2007 para acompanhar, de forma sintética, a qualidade da educação básica.
 
-#### Para que servem esses números?
+Ele varia de **0 a 10**, mas atenção:
 
-Eles não são seis notas que precisam ser decoradas isoladamente. Servem principalmente para responder três perguntas:
+> **Ideb não é porcentagem, não é nota individual do aluno e não é simplesmente a nota do Saeb.**
+
+Um Ideb de **6,3** não significa “63% de qualidade” nem que os estudantes tiraram 6,3 em uma prova.
+
+#### O que o Ideb tenta responder?
+
+Ele tenta juntar duas perguntas diferentes:
+
+1. **os estudantes estão aprendendo?**
+2. **eles estão avançando de ano sem repetência excessiva?**
+
+Por isso, o Ideb combina duas dimensões:
+
+| Dimensão | Fonte | O que representa |
+| :--- | :--- | :--- |
+| **Desempenho / aprendizagem** | **Saeb** | desempenho dos estudantes nas avaliações, especialmente em Língua Portuguesa e Matemática |
+| **Fluxo escolar** | **Censo Escolar** | rendimento escolar, principalmente aprovação |
+
+Em forma de prova:
+
+> **Ideb = aprendizagem + fluxo escolar**
+
+A lógica é impedir uma leitura distorcida da qualidade.
+
+Uma rede poderia aumentar a taxa de aprovação simplesmente promovendo alunos sem aprendizagem suficiente. Nesse caso, o componente de fluxo melhoraria, mas o desempenho no Saeb tenderia a revelar o problema.
+
+No sentido inverso, uma rede poderia ter bons resultados entre os alunos que chegam à avaliação, mas reter muitos estudantes ao longo do caminho. O componente de fluxo reduziria o Ideb.
+
+> [!IMPORTANT]
+> O Ideb procura equilibrar **aprender** e **progredir na trajetória escolar**.
+
+#### Para que o Ideb serve?
+
+Ele permite:
+
+- acompanhar a evolução da educação básica ao longo do tempo;
+- comparar resultados de diferentes etapas e redes, respeitando o recorte analisado;
+- identificar avanços e dificuldades;
+- subsidiar políticas públicas e monitoramento de metas educacionais.
+
+Ele pode ser apresentado para diferentes recortes, como Brasil, unidades da Federação, municípios, redes e escolas, conforme os critérios da metodologia.
+
+#### O que significa um número maior?
+
+Em termos gerais, **quanto maior o Ideb, melhor o resultado combinado de aprendizagem e fluxo**.
+
+Mas o número sozinho não explica **por que** houve melhora.
+
+Um aumento pode decorrer de:
+
+- melhora do desempenho;
+- melhora do fluxo;
+- ou melhora simultânea dos dois componentes.
+
+Por isso, uma questão não pode concluir automaticamente que “a aprendizagem aumentou” apenas porque o Ideb subiu, sem olhar os componentes.
+
+#### Ideb 2025 divulgado em 2026
+
+Em agosto de 2026, o Inep divulgou os resultados do **Ideb 2025**.
+
+Esses números servem principalmente para responder três perguntas:
 
 1. **o indicador melhorou ou piorou em relação à edição anterior?**
 2. **em qual etapa da educação básica o resultado é mais alto ou mais baixo?**
@@ -74,34 +134,23 @@ E a ordem dos resultados permaneceu:
 
 > **anos iniciais > anos finais > ensino médio**
 
-A comparação entre as duas colunas mostra ainda que o recorte da **rede pública** apresenta resultados inferiores ao agregado que reúne redes públicas e privadas. Isso descreve os recortes agregados do indicador; **não permite concluir que toda escola privada tenha desempenho superior a toda escola pública**.
+A comparação entre as duas colunas mostra ainda que o recorte da **rede pública** apresenta resultados inferiores ao agregado que reúne redes públicas e privadas.
+
+Isso descreve médias de recortes diferentes. **Não permite concluir que toda escola privada tenha desempenho superior a toda escola pública.**
 
 > [!TIP]
-> Se a FGV cobrar os números, é mais provável que use a **tendência ou a comparação entre etapas** do que exigir a memorização das seis casas decimais.
->
-> Para revisão: **subiu nas três; iniciais mais altos; ensino médio mais baixo.**
+> Para revisão: **Ideb combina aprendizagem + fluxo; subiu nas três etapas; anos iniciais têm o maior resultado; ensino médio, o menor.**
 
-O dado conceitualmente mais importante continua sendo entender **como o Ideb é construído**, porque é daí que saem os melhores distratores.
+#### Pegadinhas sobre o Ideb
 
-### 3. Ideb = fluxo escolar + desempenho
+- **Ideb ≠ Saeb**: o Saeb fornece o componente de desempenho.
+- **Ideb ≠ taxa de aprovação**: aprovação entra no componente de fluxo.
+- **Ideb ≠ nota individual**: é indicador agregado.
+- **6,3 ≠ 63%**: a escala vai de 0 a 10, mas não é percentual.
+- **Ideb maior ≠ prova automática de que só a aprendizagem melhorou**: é preciso observar os componentes.
+- **resultado nacional ≠ resultado de todas as escolas**: médias agregadas não autorizam universalização.
 
-O Ideb combina:
-
-- **fluxo escolar**, especialmente aprovação, obtido a partir do Censo Escolar;
-- **desempenho em avaliações**, medido pelo Saeb.
-
-Logo:
-
-> aumentar aprovação sem melhorar aprendizagem não garante melhora sustentável de qualidade;
-
-e:
-
-> elevar desempenho em prova retendo excessivamente alunos também afeta o componente de fluxo.
-
-> [!WARNING]
-> **Ideb não é simplesmente a nota do Saeb.** Também não é taxa de aprovação isolada.
-
-### 4. Saeb
+### 3. Saeb
 
 O **Sistema de Avaliação da Educação Básica — Saeb** é um conjunto de avaliações externas em larga escala coordenado pelo Inep.
 
@@ -112,7 +161,7 @@ Os resultados de desempenho do Saeb, combinados com indicadores de rendimento es
 > [!TIP]
 > **Saeb mede desempenho; Censo informa fluxo; Ideb combina as duas dimensões.**
 
-### 5. Censo Escolar 2026
+### 4. Censo Escolar 2026
 
 Em setembro de 2026 foram divulgados os **resultados preliminares do Censo Escolar da Educação Básica 2026**.
 
@@ -124,7 +173,7 @@ Sua função é diferente da do Saeb:
 - Saeb → avaliação de aprendizagem;
 - Ideb → indicador sintético que combina fluxo e desempenho.
 
-### 6. Pé-de-Meia
+### 5. Pé-de-Meia
 
 O **Pé-de-Meia** é um programa de incentivo financeiro-educacional em forma de poupança voltado à **permanência e conclusão do ensino médio público**.
 
@@ -142,7 +191,7 @@ O total pode chegar a **R$ 9,2 mil por estudante** ao longo do ensino médio, co
 > [!WARNING]
 > O Pé-de-Meia não é bolsa universal para qualquer estudante nem programa destinado ao ensino superior.
 
-### 7. Permanência escolar × causalidade
+### 6. Permanência escolar × causalidade
 
 Em 2026, o MEC divulgou exemplos de queda de abandono e distorção idade-série em redes com participação no Pé-de-Meia.
 

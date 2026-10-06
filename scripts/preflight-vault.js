@@ -13,6 +13,8 @@ const checks = [
   ['Integridade de dados e links', 'scripts/validate-integrity.js'],
   ['Idempotência da ingestão', 'scripts/test-ingestion-idempotency.js'],
   ['Política pedagógica de questões', 'scripts/test-question-ingestion-policy.js'],
+  ['Ledger anti-repetição de questões', 'scripts/question-ledger.js'],
+  ['Teste do ledger anti-repetição', 'scripts/test-question-ledger.js'],
   ['Política de propagação', 'scripts/test-ingestion-propagation-policy.js'],
   ['Propagação de simulados concluídos', 'scripts/test-simulado-propagation.js'],
   ['Home sem desempenho em provas', 'scripts/test-home-without-provas.js'],

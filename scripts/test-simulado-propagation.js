@@ -26,6 +26,7 @@ function executar({concurso = 'dataprev-2026', parcial = false, omit = null, reg
 }
 assert.deepEqual(executar(), [], 'Conclusão/edição completa deve passar');
 assert.ok(executar({omit:'data/provas.json'}).length, 'Conclusão de rascunho sem JSON no diff deve falhar');
+assert.ok(executar({omit:'data/questoes-ledger.json'}).length, 'Simulado completo sem ledger de questões no diff deve falhar');
 assert.ok(executar({registro:false}).length, 'Presença do arquivo sem registro não basta');
 assert.ok(executar({omit:'00 - Desempenho/Provas/00 - Desempenho por edital e prova.md'}).length, 'Hub deve entrar junto');
 assert.deepEqual(executar({parcial:true,omit:'data/provas.json',registro:false}), [], 'Rascunho parcial mantém exceção');

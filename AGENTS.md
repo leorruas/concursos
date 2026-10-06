@@ -25,7 +25,8 @@ Para um **simulado integral**, o agente deve atualizar, na mesma operação lóg
 6. `data/provas.json`, que alimenta o painel estratégico da interface e deve conter `sourcePath`, resultado, comparabilidade e nota calculável quando aplicável;
 7. `00 - Desempenho/00 Avancos globais.md`, recalculando a janela de 30 dias, o acompanhamento semanal e o controle de simulados consolidados;
 8. `00 - Desempenho/01 Log de saturacao diaria.md`, registrando volume, aproveitamento bruto, TAP e diagnóstico de carga;
-9. os `Avancos.md` locais exigidos por `me.md`, quando o novo resultado alterar métricas da disciplina.
+9. os `Avancos.md` locais exigidos por `me.md`, quando o novo resultado alterar métricas da disciplina;
+10. `data/questoes-ledger.json`, registrando todas as questões do caderno, mecanismo cognitivo, gabarito, resposta, segurança e relação de repetição.
 
 Para baterias mistas, atualizar as superfícies equivalentes compatíveis com o tipo de registro; não inventar nota /115 quando a composição oficial não tiver sido reproduzida.
 
@@ -34,6 +35,8 @@ Para baterias mistas, atualizar as superfícies equivalentes compatíveis com o 
 **Regra de interface:** criar o Markdown do simulado não basta. Se `data/provas.json` ou o catálogo estiverem desatualizados, o painel está inconsistente. Após a alteração, acompanhar o workflow **Publicar no GitHub Pages** e só afirmar que o simulado “aparece no painel” depois de confirmar o deploy do HEAD e, quando aplicável, a presença do arquivo no manifesto/site publicado.
 
 **Regra de links de revisão:** em relatórios de questões, baterias e simulados — incluindo `## Ajustes a partir dos erros`, acertos com dúvida/baixa segurança, `Log de erros.md`, diagnósticos e campos de estudo/revisão — todo link para teoria deve apontar para o **subtítulo exato** que contém o conceito: `[[Pasta/Nota#Subtítulo exato|Texto]]`. Linkar apenas o topo da nota não satisfaz a regra quando existe um destino mais específico. Se o subtítulo adequado ainda não existir, refinar a nota canônica antes de concluir o relatório. No GitHub Pages, o deep link deve abrir diretamente nessa seção; mudanças no renderizador de wikilinks devem preservar e testar a seção na rota pública.
+
+**Governança anti-repetição:** antes de gerar questões, baterias ou simulados, consultar `data/questoes-ledger.json` e, quando houver ambiente de execução, rodar `node scripts/question-ledger.js --recent <concursoId> --window 3`. Um simulado completo deve ser planejado por mecanismo cognitivo antes da redação final e passar por `--check-plan`. Régua padrão: **≥ 75% de mecanismos novos**, **≤ 3% de repetição exata**, **≤ 10% de repetição mecânica** e **≤ 15% de revisão intencional**. Erro recente não autoriza repetir a mesma pergunta: a revisão deve mudar o mecanismo de cobrança. Após a resolução, registrar o caderno inteiro no ledger na mesma operação de propagação; simulado completo sem ledger atualizado é incompleto. Se um caderno já aplicado violar a régua, preservar o resultado, medir a contaminação e marcar `benchmarkEligible: false` com justificativa, em vez de apagar o histórico.
 
 Mudanças dependentes de um mesmo simulado devem preferencialmente entrar em **um único commit atômico**.
 

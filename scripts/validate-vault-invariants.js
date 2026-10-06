@@ -117,11 +117,15 @@ if (!agents.includes('Contrato transacional de mudancas')) fail('.agent/AGENTS.m
 else ok('Agentes apontam para o contrato transacional.');
 if (!agents.includes('main vermelho')) fail('.agent/AGENTS.md deve declarar o gate operacional de main vermelho.');
 else ok('Agentes declaram o gate de main vermelho.');
+if (!agents.includes('data/questoes-ledger.json')) fail('.agent/AGENTS.md deve declarar o ledger canônico de questões.');
+else ok('Agentes apontam para o ledger canônico de questões.');
 
 const scriptsObrigatorios = [
   'scripts/validate-change-contract.js',
   'scripts/verify-live-pages.js',
   'scripts/question-ingestion-policy.js',
+  'scripts/question-ledger.js',
+  'scripts/test-question-ledger.js',
   'scripts/ingestion-propagation-policy.js',
   'scripts/changeset-transaction.js',
   'scripts/apply-changeset.js',

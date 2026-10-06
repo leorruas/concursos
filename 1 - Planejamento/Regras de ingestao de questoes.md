@@ -3,7 +3,7 @@ title: "Regras de ingestão de questões"
 type: "governanca-estudo"
 status: "ativo"
 created: 2026-09-14
-updated: 2026-10-03
+updated: 2026-10-06
 ---
 
 # Regras de ingestão de questões
@@ -126,6 +126,16 @@ A questão integrada à teoria deve conter o suficiente para ser revisada isolad
 - comentários adicionais apenas quando produzirem distinção útil.
 
 Questões reais devem preservar proveniência: banca, prova/ano e fonte. Se houver adaptação, declarar explicitamente que é uma adaptação ou questão inédita inspirada no mecanismo de cobrança; não apresentar como transcrição literal.
+
+## Ledger canônico de questões e controle de repetição
+
+A fonte canônica é `data/questoes-ledger.json`. Cada questão resolvida deve registrar identificador, concurso, banca, origem, número, disciplina, tópico, subtópico, autor/taxonomia quando aplicável, tipo, `mechanism` cognitivo, mecanismo do melhor distrator, gabarito, resposta, resultado, segurança, classificação de repetição, referências a itens semelhantes e política de reuso. Erros e acertos inseguros exigem `theoryRefs` ancorados no subtítulo exato.
+
+**Antes de gerar:** consultar o ledger e os três simulados recentes; rodar `node scripts/question-ledger.js --recent <concursoId> --window 3`; criar plano temporário com `mechanism`; validar com `node scripts/question-ledger.js --check-plan <arquivo>`.
+
+**Régua:** ≥75% `new`; ≤3% `exact`; ≤10% `mechanical`; ≤15% `intentionalReview`. `thematic` é permitido quando muda de fato a operação cognitiva. Repetir erro exige transformar o mecanismo, não só cenário/números.
+
+**Depois de resolver:** atualizar o ledger na mesma operação do simulado e executar `node scripts/question-ledger.js --validate`. Para auditar: `node scripts/question-ledger.js --report dataprev-simulado-XX`. Se a repetição excessiva só for descoberta depois da aplicação, preservar nota/histórico, marcar qualidade contaminada e retirar o caderno da função de benchmark.
 
 ## Fluxo de ingestão
 

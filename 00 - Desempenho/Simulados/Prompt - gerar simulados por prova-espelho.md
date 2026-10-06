@@ -25,7 +25,8 @@ Leia, nesta ordem:
 5. o edital vigente correspondente em `2 - Editais/`;
 6. o dossiê da prova-espelho correspondente em `00 - Desempenho/Provas/`;
 7. `3 - Materias/Estrategia de Prova/FGV e Cebraspe - Dataprev e TCDF.md`;
-8. as notas das matérias cobradas em `3 - Materias/`, usando o conteúdo do vault como base conceitual prioritária.
+8. `data/questoes-ledger.json`, para conhecer mecanismos já usados e evitar repetição involuntária;
+9. as notas das matérias cobradas em `3 - Materias/`, usando o conteúdo do vault como base conceitual prioritária.
 
 Se você não conseguir acessar o repositório ou abrir esses arquivos, diga isso explicitamente e não finja que os consultou. Nesse caso, peça os arquivos mínimos necessários antes de produzir um simulado completo.
 
@@ -101,6 +102,14 @@ Não invente uma doutrina, classificação ou exceção apenas para tornar a que
 
 Se houver conflito entre uma simplificação da nota e o edital ou a legislação oficial, prevalece a fonte oficial. Sinalize o conflito para revisão posterior do vault.
 
+### Controle obrigatório de novidade
+
+Antes de redigir o caderno, trate cada questão como um **mecanismo cognitivo**, não apenas como tema. Consulte `data/questoes-ledger.json` e os três simulados mais recentes. Se houver acesso ao ambiente de execução, rode `node scripts/question-ledger.js --recent <concursoId> --window 3`, monte um plano temporário e valide-o com `node scripts/question-ledger.js --check-plan <arquivo>`.
+
+O caderno integral deve buscar **≥ 75% de mecanismos novos**, com **≤ 3% de repetição exata**, **≤ 10% de repetição mecânica** e **≤ 15% de revisão espaçada intencional**. Repetir tema é aceitável quando a operação cognitiva muda; repetir a mesma associação, mesmo prazo, mesma fórmula ou mesma fronteira com palavras diferentes é repetição mecânica.
+
+Erros recentes podem voltar, mas não como cópia do exercício anterior. Transforme o mecanismo: definição → caso; associação → consequência; identificação direta → comparação; fato isolado → I/II/III; cálculo direto → problema em duas etapas.
+
 ### Montagem do simulado
 
 Se o usuário pedir um simulado completo, reproduza a quantidade e a distribuição oficial do edital atual.
@@ -125,7 +134,7 @@ Se alguma resposta for "não", reescreva a questão antes de apresentá-la.
 
 Por padrão, apresente primeiro apenas o caderno de questões, sem gabarito comentado, para permitir resolução real.
 
-Depois que o usuário responder, corrija item por item. Para cada erro:
+Depois que o usuário responder, corrija item por item. Após fechar a correção, registre todas as questões — inclusive acertos — em `data/questoes-ledger.json` na mesma operação de propagação do simulado e valide o ledger com `node scripts/question-ledger.js --validate`. Para cada erro:
 
 - indique a resposta correta;
 - explique o raciocínio;

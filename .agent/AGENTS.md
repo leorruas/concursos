@@ -100,6 +100,25 @@ Até nova autópsia substituir esta régua, o próximo simulado integral da Data
 
 **Régua de dificuldade:** igual ou levemente acima da prova-espelho de 2024. A dificuldade deve vir de alternativas próximas, verdade parcial, transposição conceitual, recuperação factual e duas etapas de raciocínio — não de obscuridade gratuita, enunciado artificialmente longo ou conhecimento fora do edital.
 
+### Gate obrigatório de novidade e ledger de questões
+
+`data/questoes-ledger.json` é a fonte canônica para impedir que o candidato aprenda o caderno em vez do conteúdo. Antes de gerar qualquer bateria ou simulado:
+
+1. ler o ledger e os últimos simulados do concurso;
+2. em ambiente local/Work, executar `node scripts/question-ledger.js --recent <concursoId> --window 3`;
+3. montar um plano com disciplina, tópico, subtópico, `mechanism`, tipo de questão e mecanismo do melhor distrator;
+4. validar o plano com `node scripts/question-ledger.js --check-plan caminho/plan.json` antes de redigir o caderno final.
+
+Classificações: **new** = mecanismo não usado na janela; **thematic** = mesmo tema com outra fronteira/operação; **mechanical** = texto muda, mas a operação para acertar é essencialmente a mesma; **exact** = pergunta/associação praticamente equivalente.
+
+Régua padrão: **mínimo 75% new**, **máximo 3% exact**, **máximo 10% mechanical** e **máximo 15% de itens de revisão intencional**. Janela padrão de três simulados; cooldown de cinco para repetição exata e três para mecânica.
+
+Revisão espaçada é permitida, mas deve usar `intentionalReview: true` e descrever a transformação. **Erro recente não é licença para reciclar a mesma questão.** Reteste por outro mecanismo: caso, comparação, inferência, associação diferente, consequência prática ou distrator novo. Não concentrar o próximo simulado nos erros recentes.
+
+Depois da resolução, registrar **todas** as questões no ledger: gabarito, resposta, resultado, segurança, tema, subtópico, autor/taxonomia quando houver, tipo, `mechanism`, mecanismo do distrator, classificação de repetição, referências similares e links teóricos para erros/acertos inseguros. Essa atualização integra a mesma operação atômica de propagação do simulado.
+
+Se um simulado já aplicado violar o gate, não apagar: registrar a auditoria, manter nota e erros, mas marcar `benchmarkEligible: false` e explicar a contaminação.
+
 ## Regra obrigatória para ingestão de questões
 
 Sempre que a tarefa envolver questões resolvidas, baterias dirigidas, simulados, correções, diagnóstico de erros ou ingestão de exercícios, o agente deve também ler e aplicar:

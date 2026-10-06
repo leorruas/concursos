@@ -46,6 +46,7 @@ export function destinosObrigatoriosIngestao({ classification, disciplina = null
     }
     required.add(sourcePath);
     required.add('data/provas.json');
+    required.add('data/questoes-ledger.json');
     required.add('00 - Desempenho/Simulados/00 - Catalogo de simulados.md');
     required.add('00 - Desempenho/Provas/00 - Desempenho por edital e prova.md');
     required.add('00 - Desempenho/00 Avancos globais.md');

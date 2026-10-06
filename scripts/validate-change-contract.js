@@ -267,6 +267,9 @@ const tocouIngestao = changes.some((c) =>
   c.path === 'scripts/ingest-vault.js' ||
   c.path === 'scripts/ingest-safe.js' ||
   c.path === 'scripts/question-ingestion-policy.js' ||
+  c.path === 'scripts/question-ledger.js' ||
+  c.path === 'scripts/test-question-ledger.js' ||
+  c.path === 'data/questoes-ledger.json' ||
   c.path === 'scripts/ingestion-idempotency.js' ||
   c.path === '1 - Planejamento/Regras de ingestao de questoes.md'
 );

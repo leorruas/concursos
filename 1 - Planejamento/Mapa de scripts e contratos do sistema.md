@@ -3,7 +3,7 @@ title: "Mapa de scripts e contratos do sistema"
 type: "guia"
 status: "ativo"
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 
 # Mapa de scripts e contratos do sistema
@@ -88,6 +88,16 @@ Uso de análise: `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md"
 **Mínimos implementados:** sempre `log.md`; bateria exige avanço local, globais, saturação e questões do projeto Dataprev; erros acrescentam log de erros e JSON de recorrência. Simulado exige catálogo, hub de provas, globais, saturação, questões e dashboard Dataprev; erros acrescentam os mesmos destinos. Teoria exige `index.md` e uma nota de matéria que não seja `Avancos.md`.
 
 **Limites:** recebe `concurso` (padrão Dataprev) e `sourcePath`; exige caderno e `data/provas.json` para simulado e bloqueia operações em outro projeto. Não infere todos os avanços locais de simulado; agente ainda precisa incluí-los quando as métricas mudarem. Câmara sem superfícies existentes exige prepará-las ou declarar pendência, sem reutilizar Dataprev. Valida presença de caminho, não suficiência pedagógica, conteúdo novo ou operação apropriada. Outros tipos recebem apenas o mínimo geral. Teste: `test-ingestion-propagation-policy.js`.
+
+### scripts/question-ledger.js
+
+**Função:** validar o ledger canônico de questões, listar mecanismos recentes, auditar simulados registrados e bloquear planos com repetição excessiva antes da redação final.
+
+**Comandos:** `--validate`, `--report <simId>`, `--recent <concursoId> --window N` e `--check-plan <arquivo>`. **Contrato:** usa `data/questoes-ledger.json`; exige links ancorados para erros/acertos inseguros; aplica a régua de novidade definida no próprio ledger. **Limite:** não escreve o ledger nem gera o texto das questões; a classificação semântica de mecanismo continua sendo responsabilidade do agente.
+
+### scripts/test-question-ledger.js
+
+**Função:** regressão sintética do ledger. Valida schema e prova que uma revisão transformada e intencional pode passar enquanto repetição mecânica não intencional falha.
 
 ### scripts/question-ingestion-policy.js
 
@@ -214,6 +224,7 @@ A numeração dos nomes não basta: `08-provas.js` vem antes de `07-router-init.
 | `data/edital-itens.json` | Mapeamento de cobertura/evidência | Invariantes, integridade, busca; id/concursoId, notaPath, coberturaNota, exposicaoEstudo, evidência | Cobertura integral/parcial/ausente não equivale automaticamente a domínio mensurado |
 | `data/erros-recorrentes.json` | Diagnóstico baseado em evidência | Integridade e ranking; id, concursoId, disciplina, assunto, tipoErro, notaPath, sourcePath | Dado esperado é semântico; validador aceita siglas legadas |
 | `data/provas.json` | Registro de provas/simulados | Integridade e 08-provas; id, concursoId, sourcePath, resultado, comparabilidadeEdital | Markdown do simulado sozinho não cria entrada no painel; nota depende de comparabilidade/composição |
+| `data/questoes-ledger.json` | Ledger canônico anti-repetição | Uma linha lógica por questão: mecanismo, tópico, gabarito, resposta, segurança, repetição e reuso | Fonte obrigatória para planejar novos simulados; alimentado após resolução completa |
 | `_site/manifest.json` | Build | Core/lazy, validadores, testes e verificação ao vivo; titulo, tituloExibicao, sourcePath, path codificado, categoria | Catálogo derivado, não editar manualmente |
 | `_site/search-index.json` | Build | Lazy/adaptadores/sumário/testes; sourcePath, tipo, secoes com titulo/nivel/anchor/trecho/termos | Compacto, não preserva corpo completo nem todas as distâncias lexicais |
 | `log.md` | Agente via append/prepend com leitura/hash integral | Histórico humano e transação | Acumulativo; preservar bytes anteriores |
@@ -242,6 +253,7 @@ As linhas abaixo preservam o diagnóstico do snapshot inicial; consultar o estad
 | Alta | Política de simulado não exige `data/provas.json` nem caderno específico; contrato do diff cobre simulados novos, não todas as conclusões/edições | É possível cumprir checks mínimos e deixar painel/catálogos incompletos | Unificar conjunto obrigatório e detectar transição parcial → concluído; testar fonte + JSON + hubs + métricas no mesmo conjunto |
 | Alta | `08-provas` retorna sem `.concurso-regua-indicadores`, que `02-data-home` não cria | Registro correto em provas.json pode não aparecer na home | Ajustar ponto de inserção e reproduzir painel renderizado; esta relação foi verificada estaticamente, sem teste de navegador |
 | Média | `processarWikilinks` ainda resolve a nota por basename | Colisão entre notas homônimas pode escolher artigo errado, embora `#Subtítulo` agora seja preservado | Evoluir resolução para sourcePath exato e testar colisão de basename |
+| Alta | Gerador de simulados sem ledger pode reciclar o mesmo mecanismo com texto diferente | Nota aparente sobe por reconhecimento do exercício, não por transferência | Ledger + `--check-plan`; gates 75% new, 3% exact, 10% mechanical e 15% revisão intencional |
 | Média | `ingest-safe` indica `generate-ingestion-changeset.js` inexistente e imprime somente prefixo do fingerprint | Caminho sugerido para apply não pode ser seguido como documentado | Corrigir instrução/output; permitir obter fingerprint integral e plano revisável, sem inventar gerador disponível |
 | Média | Motor não extrai distribuição/acertos por bloco e não integra `classificarDestinoQuestao` | Preview não automatiza nota oficial nem destino de cada questão | Integrar schema/extração e política; testar distribuição válida/inválida, valores semânticos e destinos; agente continua responsável até isso existir |
 | Média | `test-ingest` fora do CI; caso da nota usa asserção constante; checks atuais não cobrem painel em DOM | Verde não detecta todas as lacunas observadas | Fortalecer propriedades sem enfraquecer régua; testar wrapper/integração/UI e fixtures isoladas |

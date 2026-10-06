@@ -37,6 +37,10 @@ jobs:
         run: node scripts/test-ingestion-idempotency.js
       - name: Testar política pedagógica de questões
         run: node scripts/test-question-ingestion-policy.js
+      - name: Validar ledger anti-repetição de questões
+        run: node scripts/question-ledger.js --validate
+      - name: Testar ledger anti-repetição
+        run: node scripts/test-question-ledger.js
       - name: Testar política de propagação da ingestão
         run: node scripts/test-ingestion-propagation-policy.js
       - name: Testar propagação de simulados concluídos

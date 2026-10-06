@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-06",
+  "policy": {
+    "recentSimulationWindow": 3,
+    "minimumNewRate": 0.75,
+    "maximumExactRate": 0.03,
+    "maximumMechanicalRate": 0.1,
+    "maximumIntentionalReviewRate": 0.15,
+    "exactCooldownSimulations": 5,
+    "mechanicalCooldownSimulations": 3,
+    "thematicReuseAllowed": true,
+    "missedItemRule": "transform_mechanism"
+  },
+  "simulations": [],
+  "questions": []
+}

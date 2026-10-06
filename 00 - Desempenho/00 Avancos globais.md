@@ -3,7 +3,7 @@ title: "Avanços globais"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 
 # Avanços globais
@@ -18,25 +18,25 @@ Consulte as diretrizes metodológicas, réguas de competitividade e metas de pro
 
 ## Painel de desempenho por disciplina
 
-Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 dias** (06/09/2026 a 05/10/2026).
+Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 dias** (07/09/2026 a 06/10/2026).
 
 | Disciplina | Aproveitamento (30d) | Questões (30d) | Meta | Status de Amostragem | Último Treino |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | *88,1%* | 42 | 95% | **Amostragem insuficiente** (< 50 Qs) | 05/10/2026 |
-| [[3 - Materias/Ingles/ingles\|Língua inglesa]] | *100,0%* | 36 | - | **Amostragem insuficiente** (< 50 Qs) | 05/10/2026 |
-| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | *71,4%* | 21 | 85% | **Amostragem insuficiente** (< 50 Qs) | 05/10/2026 |
+| [[3 - Materias/Portugues/portugues\|Língua portuguesa]] | **87,0%** | 54 | 95% | **Amostragem sólida** (>= 50 Qs) | 06/10/2026 |
+| [[3 - Materias/Ingles/ingles\|Língua inglesa]] | *100,0%* | 48 | - | **Amostragem insuficiente** (< 50 Qs) | 06/10/2026 |
+| [[3 - Materias/Logica/00 - logica\|Raciocínio lógico]] | *76,9%* | 26 | 85% | **Amostragem insuficiente** (< 50 Qs) | 06/10/2026 |
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 14/07/2026 |
 | [[3 - Materias/Direito Constitucional/direito-constitucional\|Direito constitucional]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
 | [[3 - Materias/Direito Administrativo/direito-administrativo\|Direito administrativo]] | - | 0 | 95% | **Amostragem insuficiente** (< 50 Qs) | 29/06/2026 |
-| [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | **90,7%** | 97 | 90% | **Amostragem sólida** (>= 50 Qs) | 05/10/2026 |
+| [[3 - Materias/Comunicacao/comunicacao\|Comunicação social]] | **90,6%** | 127 | 90% | **Amostragem sólida** (>= 50 Qs) | 06/10/2026 |
 | [[3 - Materias/Administracao Publica/administracao-publica\|Administração pública]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
 | [[3 - Materias/Administracao Geral/administracao-geral\|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
-| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *90,5%* | 21 | 75% | **Amostragem insuficiente** (< 50 Qs) | 05/10/2026 |
-| [[3 - Materias/Informatica/informatica\|Legislação de SI e proteção de dados]] | *84,2%* | 19 | - | **Amostragem insuficiente** (< 50 Qs) | 05/10/2026 |
+| [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *88,9%* | 27 | 75% | **Amostragem insuficiente** (< 50 Qs) | 06/10/2026 |
+| [[3 - Materias/Informatica/informatica\|Legislação de SI e proteção de dados]] | *83,3%* | 24 | - | **Amostragem insuficiente** (< 50 Qs) | 06/10/2026 |
 | [[3 - Materias/Redacao/redacao\|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
 
 > [!NOTE]
-> A janela atual começa em 06/09/2026 e considera apenas sessões com distribuição disciplinar identificável. O Simulado 02 de 01/09 já está fora da janela móvel; seus dados históricos permanecem preservados no catálogo, sem repartição artificial entre disciplinas.
+> A janela atual começa em 07/09/2026 e considera apenas sessões com distribuição disciplinar identificável. O Simulado 02 de 01/09 já está fora da janela móvel; seus dados históricos permanecem preservados no catálogo, sem repartição artificial entre disciplinas.
 
 ### Métricas específicas por disciplina
 
@@ -45,6 +45,7 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | Qualidade da Transformação | *96,8%* | 14/07/2026 | 95% | **Amostragem insuficiente** (< 50 Qs) |
 
 ### Análise de evolução recente
+- **Simulado 06 — 06/10**: [[00 - Desempenho/Simulados/Simulado-06|Simulado 06 — Dataprev FGV]]: **63/70 (90,0%)**, nota ponderada **103,5/115 (90,0%)** e TAP diária **90,4%**. Gerais 36/40; Comunicação 27/30; Lógica 5/5. A nota é preservada, mas o novo ledger auditou **48,6% de mecanismos novos** e **45,7% de repetição cognitiva forte**, portanto o caderno não é benchmark de dificuldade. Sete erros: Português (2), Atualidades/IA (1), Legislação (1) e Comunicação (3).
 - **Simulado 05 — 05/10**: [[00 - Desempenho/Simulados/Simulado-05|Simulado 05 — Dataprev FGV]]: **63/70 (90,0%)**, nota ponderada **103,5/115 (90,0%)** e TAP diária **89,8%**. Gerais subiram para 36/40; Comunicação ficou em 27/30 num bloco mais factual e técnico. Os sete erros foram Português (2), Lógica (1), Legislação (1) e Comunicação (3). Atualidades/IA fechou 6/6, mas Q30–Q33 foram declaradas com baixa segurança. Marco Civil repetiu exatamente a inversão de prazos do Simulado 04.
 - **Simulado 04 — 03/10**: [[00 - Desempenho/Simulados/Simulado-04|Simulado 04 — Dataprev FGV]]: **63/70 (90,0%)**, nota ponderada **105/115 (91,3%)** e TAP diária **89,8%**. Comunicação atingiu 28/30 e Lógica recuperou de 2/5 no Simulado 03 para 4/5. Os sete erros se distribuíram entre Português (2), Lógica (1), Atualidades/IA (1), Legislação (1) e Comunicação (2); método do bloco e regime de metas/Selic reapareceram como vulnerabilidades, enquanto Inglês permaneceu em 12/12.
 - **Simulado 03 — 30/09**: [[00 - Desempenho/Simulados/Simulado-03|Simulado 03 — Dataprev FGV]]: **63/70 (90,0%)**, nota ponderada **103,5/115 (90,0%)** e TAP diária **89,0%**. A distribuição oficial 12/12/5/6/5/30 foi preservada. Português e Inglês fecharam 12/12; Atualidades/IA 6/6; Legislação 4/5; Comunicação 27/30. O principal gargalo foi Raciocínio Lógico, com **2/5**. Comunicação e Atualidades/IA foram consideradas subcalibradas em dificuldade, portanto o resultado não deve ser lido como projeção isolada de domínio nesses blocos.
@@ -83,7 +84,7 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 
 | Semana / Período | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Análise de Saturação Semanal |
 | :--- | :--- | :--- | :--- | :--- |
-| **Semana 41** (05/10 a 11/10) | 70 | 90,0% (63/70) | 89,8% | **Alta**: Simulado 05 integral, distribuição oficial. Português 10/12, Inglês 12/12, Lógica 4/5, Atualidades/IA 6/6, Legislação 4/5 e Comunicação 27/30. Nota ponderada 103,5/115. Erros de Comunicação concentrados em história/terminologia de TV; Marco Civil reincidiu. |
+| **Semana 41** (05/10 a 11/10) | 140 | 90,0% (126/140) | 90,1% | **Alta**: Simulados 05 e 06 integrais, ambos 63/70. O 06 elevou Lógica a 5/5, mas a leitura da semana deve separar desempenho da qualidade do instrumento: o ledger encontrou 45,7% de repetição exata/mecânica no Simulado 06, que não calibra dificuldade. |
 | **Semana 40** (28/09 a 04/10) | 140 | 90,0% (126/140) | 89,4% | **Alta**: Simulados 03 e 04 completos, ambos com distribuição oficial. Consolidado por disciplina: Português 22/24, Inglês 24/24, Lógica 6/10, Atualidades/IA 11/12, Legislação 8/10 e Comunicação 55/60. A nota ponderada subiu de 103,5/115 no Simulado 03 para 105/115 no Simulado 04; Lógica recuperou no segundo simulado, embora o método do bloco tenha reincidido. |
 | **Semana 38** (14/09 a 20/09) | 26 | 84,6% (22/26) | 84,4% | **Média**: [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]]. Sessão mista em cinco disciplinas, com pontuação ponderada parcial de **31,0/36,5** nos itens respondidos. Três erros de confusão conceitual e um de conhecimento; Legislação 4/4. Uma questão de Português anulada ficou fora do denominador e Inglês não foi contado por ausência de respostas. |
 | **Semana 36** (31/08 a 06/09) | 207 | 82,1% (170/207) | Não calculável | **Alta**: Sessões de 31/08, 01/09, 02/09, 03/09 e 04/09 totalizando 207 Qs (170 acertos). A sessão de 04/09 adicionou 12 Qs úteis de Raciocínio Lógico (10 acertos, 83,3%) em duas baterias (retenção de necessária/suficiente e mista com De Morgan e contraposição). A sessão de 03/09 adicionou 5 Qs úteis de Raciocínio Lógico (3 acertos, 60,0%). A sessão de 02/09 adicionou 13 Qs úteis de Raciocínio Lógico (6 acertos, 46,2%). O Simulado 02 (01/09) acrescentou 70 Qs e 67 acertos, mas sua distribuição por disciplina não foi registrada, impedindo o recálculo responsável da TAP global. Sessões anteriores totalizaram 107 Qs com 84 acertos: **Simulado 01 Completo** (70 Qs, 54/70 — 77,1%) e **Bateria LGPD Aprofundada** (37 Qs, 30/37 — 81,1%). |
@@ -108,6 +109,7 @@ Registro de simulados completos ou baterias mistas em condições reais de prova
 
 | Simulado / Treino Misto | Data | Acertos | Desvio / Variância | Condições (Tempo / Qs) | Diagnóstico / Observação |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [[00 - Desempenho/Simulados/Simulado-06\|Simulado 06 — Dataprev FGV]] | 06/10/2026 | 63/70 (90,0%) | **103,5/115** ponderados | 70 Qs; distribuição oficial; **benchmark não elegível** | Gerais 36/40; Comunicação 27/30. Auditoria do ledger: 48,6% new; 45,7% exact+mechanical. Preservado como diagnóstico, não como calibração de dificuldade. |
 | [[00 - Desempenho/Simulados/Simulado-05\|Simulado 05 — Dataprev FGV]] | 05/10/2026 | 63/70 (90,0%) | **103,5/115** ponderados; -1,5 ponto vs. Simulado 04 | 70 Qs; distribuição oficial 12/12/5/6/5/30 | Gerais 36/40; Comunicação 27/30. Caderno mais denso em história/repertório e terminologia. Q29 original anulada e substituída antes do fechamento. |
 | [[00 - Desempenho/Simulados/Simulado-04\|Simulado 04 — Dataprev FGV]] | 03/10/2026 | 63/70 (90,0%) | **105/115** ponderados; +1,5 ponto vs. Simulado 03 | 70 Qs; distribuição oficial 12/12/5/6/5/30 | Comunicação 28/30; Lógica 4/5. Sete erros em microfronteiras, com reincidência em método do bloco e regime de metas/Selic. |
 | [[00 - Desempenho/Simulados/Simulado-03\|Simulado 03 — Dataprev FGV]] | 30/09/2026 | 63/70 (90,0%) | **103,5/115** ponderados | 70 Qs; distribuição oficial 12/12/5/6/5/30 | Lógica 2/5 foi o principal gargalo; Comunicação 27/30 e Atualidades/IA 6/6 ficaram subcalibradas em dificuldade. |

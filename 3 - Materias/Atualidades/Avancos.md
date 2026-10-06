@@ -3,10 +3,19 @@ title: "Avanços e desempenho (Atualidades)"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 
 # Avanços e desempenho (Atualidades)
+
+## Simulado 06 — 06/10/2026
+
+- **Resultado:** 5/6 (83,3%).
+- **Erro:** Q30 [K] em Saeb × Ideb × Pé-de-Meia.
+- **Acerto inseguro:** Q33, acordo Mercosul–União Europeia e aplicação provisória.
+- **Qualidade do caderno:** Q31 e Q32 repetiram conteúdos do dia anterior; o bloco não deve ser usado como calibração independente de dificuldade.
+- **Estudo:** [[3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026#3. Ideb = fluxo escolar + desempenho|Ideb]] · [[3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026#4. Saeb|Saeb]] · [[3 - Materias/Atualidades/19 - relacoes internacionais e fatos globais 2026#5. Acordo Mercosul–União Europeia passou da assinatura para aplicação provisória|Mercosul–União Europeia]].
+
 
 ## Simulado 05 — 05/10/2026
 
@@ -19,6 +28,7 @@ updated: 2026-10-05
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 06/10/2026 | 6 | Atualidades / IA | Simulado 06 Dataprev/FGV: 5/6 (83,3%). Erro [K] em Saeb × Ideb; Q33 correta com baixa segurança; Q31/Q32 repetiram conteúdo recente. |
 | 05/10/2026 | 6 | Atualidades / IA | Simulado 05 Dataprev/FGV: 6/6 (100%), com Q30–Q33 declaradas como acertos de baixa segurança. |
 | 03/10/2026 | 6 | Atualidades / IA | Simulado 04 Dataprev/FGV: 5/6 (83,3%). Erro [K] recorrente em regime de metas/Selic; Pre-COP correta, mas com baixa familiaridade declarada. |
 | 30/09/2026 | 6 | Atualidades / IA | Simulado 03 Dataprev/FGV: 6/6 (100%), com ressalva de subcalibração de dificuldade. |
@@ -30,7 +40,7 @@ updated: 2026-10-05
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
-| **Semana 41** (05/10 a 11/10) | 6 | 100% (6/6) | Gabarito completo, mas quatro itens factuais foram acertados com baixa segurança; revisar sem abrir novo backlog conjuntural. |
+| **Semana 41** (05/10 a 11/10) | 12 | 91,7% (11/12) | Simulados 05 e 06. Erro novo em Saeb × Ideb; Mercosul–UE apareceu como acerto inseguro. Q31/Q32 do Sim06 tiveram baixa novidade e não devem pesar como confirmação independente. |
 | **Semana 40** (28/09 a 04/10) | 12 | 91,7% (11/12) | Simulados 03 e 04. O único erro foi a reincidência em meta × faixa × decisão do Copom; COP/Pre-COP foi acertada, mas revelou lacuna de familiaridade institucional. |
 | **Semana 38** (14/09 a 20/09) | 3 | 66,7% (2/3) | IA/geopolítica e mercado de carbono foram resolvidos por compreensão. A falha ficou concentrada em repertório econômico básico: meta central × faixa de tolerância × descumprimento formal e relação não automática entre IPCA e Selic. |
 | **Semana 29** (13/07 a 19/07) | 11 | 100,0% (11/11) | Bloco de IA consolidado. Domínio perfeito das distinções conceituais (IA > ML > IA Gen. > LLM), funcionamento probabilístico de tokens, arquitetura Transformer (mecanismo de attention), origem estatística das alucinações, uso ético na comunicação pública, deepfakes vs. desinformação e princípios de governança e ética da IA (transparência, supervisão humana e LGPD). |

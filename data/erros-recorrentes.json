@@ -1,5 +1,75 @@
 [
   {
+    "id": "err-sim06-q01-que",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Portuguesa",
+    "assunto": "Conjunção integrante × pronome relativo em oração substantiva",
+    "notaPath": "3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-06.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim06-q07-tipo-genero",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Portuguesa",
+    "assunto": "Manual como gênero × injunção como tipo/sequência textual",
+    "notaPath": "3 - Materias/Portugues/09 - tipos e generos textuais.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-06.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim06-q30-saeb",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Atualidades e Inteligência Artificial",
+    "assunto": "Saeb × Ideb × Pé-de-Meia",
+    "notaPath": "3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-06.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim06-q37-marco-civil",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Legislação de SI e proteção de dados",
+    "assunto": "Marco Civil recorrente: conexão 1 ano × acesso a aplicações 6 meses",
+    "notaPath": "3 - Materias/Informatica/01 - marco civil da internet.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-06.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim06-q42-duarte",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Jorge Duarte recorrente: interação × ouvidoria social",
+    "notaPath": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-06.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim06-q43-ehling",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Ehling, White e Grunig: conflitos-resoluções → função política",
+    "notaPath": "3 - Materias/Comunicacao/22.1 - ehling white e grunig quatro teorias do gerenciamento de rp.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-06.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim06-q65-mattos",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Sérgio Mattos: 1964–1975 = fase populista",
+    "notaPath": "3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-06.md",
+    "status": "pendente"
+  },
+  {
     "id": "err-sim05-q02-necessaria",
     "concursoId": "dataprev-2026",
     "disciplina": "Língua Portuguesa",

@@ -3,9 +3,17 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-05-28
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 # Avanços e desempenho
+
+## Simulado 06 — 06/10/2026
+
+- **Resultado:** 5/5 (100%).
+- **Acerto inseguro:** Q27, permutação com restrição de não adjacência, resolvida por complemento.
+- **Qualidade do caderno:** Q25, Q26 e Q28 foram reconhecidas como repetidas/muito próximas de mecanismos recentes; por isso o 5/5 não deve ser usado isoladamente para inferir salto de domínio.
+- **Estudo:** [[3 - Materias/Logica/09 - analise combinatoria#3. Permutação e Fatorial|Permutação]] e [[3 - Materias/Logica/09 - analise combinatoria#Complemento com restrições|Complemento com restrições]].
+
 
 ## Simulado 05 — 05/10/2026
 
@@ -36,6 +44,7 @@ updated: 2026-10-05
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 06/10/2026 | 5 | Raciocínio Lógico | Simulado 06 Dataprev/FGV: 5/5 (100%). Q27 correta com insegurança em não adjacência; Q25, Q26 e Q28 estavam excessivamente próximas de mecanismos recentes. |
 | 05/10/2026 | 5 | Raciocínio Lógico | Simulado 05 Dataprev/FGV: 4/5 (80%). Erro [C] em combinação por complemento; Q29 original anulada e substituta acertada. |
 | 03/10/2026 | 5 | Raciocínio Lógico | Simulado 04 Dataprev/FGV: 4/5 (80%). Erro [C] recorrente no método do bloco; contrapositiva correta com insegurança declarada. |
 | 30/09/2026 | 5 | Raciocínio Lógico | Simulado 03 Dataprev/FGV: 2/5 (40%). Erros em negação de universal com disjunção, divisão proporcional e método do bloco. |
@@ -59,7 +68,7 @@ updated: 2026-10-05
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
-| **Semana 41** (05/10 a 11/10) | 5 | 80,0% (4/5) | Simulado 05: desempenho preservado em 4/5, agora com erro isolado de combinação por complemento. |
+| **Semana 41** (05/10 a 11/10) | 10 | 90,0% (9/10) | Simulados 05 e 06. O 5/5 do Sim06 é preservado, mas deve ser lido com cautela por repetição de mecanismos; Q27 foi o melhor indicador novo e foi acertada com insegurança. |
 | **Semana 40** (28/09 a 04/10) | 10 | 60,0% (6/10) | O agregado ainda carrega o 2/5 do Simulado 03, mas o Simulado 04 recuperou para 4/5. Método do bloco reincidiu; contrapositiva acertada com baixa segurança. |
 | **Semana 38** (14/09 a 20/09) | 6 | 83,3% (5/6) | Retenção ampla preservada. Erro isolado em `Nenhum A é B → Algum A é B`; De Morgan e caso falso da condicional apareceram corretamente em contexto misto. |
 | **Semana 36** (31/08 a 06/09) | 30 | 63,3% (19/30) | Baterias de 02, 03 e 04/09. Houve recuperação de necessária × suficiente, com oscilações em tradução da condicional, De Morgan e contrapositiva. O Simulado 02 não entra nesta linha porque o número total de questões de Lógica não foi preservado. |

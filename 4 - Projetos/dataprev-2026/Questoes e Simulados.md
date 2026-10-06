@@ -3,7 +3,7 @@ title: "Questões e simulados - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 
 # Questões e simulados - Dataprev 2026
@@ -14,6 +14,7 @@ Registro de simulados realizados especificamente com foco na Dataprev e na banca
 
 | Data | Simulado | Acertos / Total | % Aproveitamento | Observações |
 | :--- | :--- | :---: | :---: | :--- |
+| 06/10/2026 | [[00 - Desempenho/Simulados/Simulado-06\|Simulado 06 - FGV]] | 63 / 70 | 90,0% | **103,5/115**. Estrutura oficial, mas qualidade de medição contaminada por repetição: 48,6% new; 45,7% repetição cognitiva forte. Preservar como diagnóstico, não como benchmark de dificuldade. |
 | 05/10/2026 | [[00 - Desempenho/Simulados/Simulado-05\|Simulado 05 - FGV]] | 63 / 70 | 90,0% | Distribuição oficial; **103,5/115** ponderados. Gerais 36/40 e Comunicação 27/30. Caderno mais denso em história/repertório e terminologia; erros de Comunicação concentrados em TV/telejornalismo. |
 | 03/10/2026 | [[00 - Desempenho/Simulados/Simulado-04\|Simulado 04 - FGV]] | 63 / 70 | 90,0% | Distribuição oficial; **105/115** ponderados. Comunicação 28/30, Lógica 4/5 e sete erros concentrados em microfronteiras de recuperação. |
 | 30/09/2026 | [[00 - Desempenho/Simulados/Simulado-03\|Simulado 03 - FGV]] | 63 / 70 | 90,0% | Distribuição oficial; **103,5/115** ponderados. Lógica 2/5 foi o principal gargalo. Comunicação 27/30 e Atualidades 6/6, com ressalva de subcalibração de dificuldade. |

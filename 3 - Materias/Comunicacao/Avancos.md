@@ -3,9 +3,18 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 # Avanços e desempenho
+
+## Simulado 06 — 06/10/2026
+
+- **Resultado:** 27/30 (90,0%).
+- **Erros:** Q42 [C] em Jorge Duarte (interação × ouvidoria social), Q43 [C] em Ehling/White/Grunig e Q65 [K] em Sérgio Mattos.
+- **Qualidade do caderno:** o bloco de Comunicação foi o mais contaminado por repetição. Questões sobre Kunsch, autores/taxonomias, issues management, clipping, Aaker, Mattar, tipografia, sangria, gêneros, história, métricas e Schein reapareceram com pouca novidade cognitiva.
+- **Diagnóstico:** os erros que permaneceram apesar da repetição são particularmente informativos: interação × ouvidoria social continua instável; função política em conflitos-resoluções precisa de recuperação; e a cronologia de Sérgio Mattos ainda não está automatizada.
+- **Estudo:** [[3 - Materias/Comunicacao/02 - comunicacao publica#Interação|Interação]] · [[3 - Materias/Comunicacao/02 - comunicacao publica#Ouvidoria social|Ouvidoria social]] · [[3 - Materias/Comunicacao/22.1 - ehling white e grunig quatro teorias do gerenciamento de rp#4. Teoria de conflitos-resoluções → função política|Conflitos-resoluções → função política]] · [[3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil#Fases da televisão brasileira — Sérgio Mattos|Sérgio Mattos]].
+
 
 ## Simulado 05 — 05/10/2026
 
@@ -78,6 +87,7 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 06/10/2026 | 30 | Comunicação Social | Simulado 06 Dataprev/FGV: 27/30 (90%). Erros em Duarte, Ehling/White/Grunig e Sérgio Mattos. Auditoria do ledger classificou grande parte do bloco como repetição exata/mecânica; preservar diagnóstico, não usar como benchmark. |
 | 05/10/2026 | 30 | Comunicação Social | Simulado 05 Dataprev/FGV: 27/30 (90%). Erros em Sérgio Mattos, comando EXCETO no texto manchetado e off/passagem/sonora/pé/cabeça; acertos de alto valor em comunicação pública, issues management e Aaker. |
 | 03/10/2026 | 30 | Comunicação Social | Simulado 04 Dataprev/FGV: 28/30 (93,3%). Erros [C] em Jorge Duarte (interação × ouvidoria social) e 7 Ps (Process × Physical Evidence); acertos em Aaker/brand equity, Mattar e touchpoints. |
 | 30/09/2026 | 30 | Comunicação Social | Simulado 03 Dataprev/FGV: 27/30 (90%). Erros em malinformation, conversão × alcance e ROI × ROAS; bloco considerado subcalibrado em dificuldade. |
@@ -107,7 +117,7 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
-| **Semana 41** (05/10 a 11/10) | 30 | 90,0% (27/30) | Bloco mais factual/técnico. Erros concentrados em TV/telejornalismo; demais eixos permaneceram fortes. |
+| **Semana 41** (05/10 a 11/10) | 60 | 90,0% (54/60) | Simulados 05 e 06, ambos 27/30. O 06 não adiciona evidência independente equivalente por repetição alta; erros persistentes em Duarte, Ehling/White/Grunig e Sérgio Mattos orientam microrevisão. |
 | **Semana 40** (28/09 a 04/10) | 60 | 91,7% (55/60) | Dois simulados integrais. O Simulado 04 elevou Comunicação a 28/30 sob calibração mais exigente; os erros ficaram em taxonomias próximas de Duarte e Booms/Bitner. |
 | **Semana 38** (14/09 a 20/09) | 7 | 85,7% (6/7) | Desempenho alto em autores, taxonomias e aplicação profissional. Falha isolada de fronteira entre etapa de coleta (`clipping`) e análise longitudinal estruturada (`auditoria de imagem na mídia`). |
 | **Semana 36** (31/08 a 06/09) | 37 | 81,1% (30/37) | Bateria LGPD aprofundada. Acertos fortes em consentimento, compartilhamento e agentes; lacunas pontuais em Poder Público, sensibilidade, bases legais e sanções foram corrigidas na própria sessão. |

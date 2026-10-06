@@ -3,7 +3,7 @@ title: "Dashboard - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 
 # Dashboard - Dataprev 2026
@@ -65,6 +65,7 @@ A **Wiki do edital** mapeia os tópicos exigidos de forma direta, servindo como 
 
 | Data | Resultado bruto | Nota ponderada Dataprev | Diagnóstico |
 | :--- | :---: | :---: | :--- |
+| 06/10/2026 | [[00 - Desempenho/Simulados/Simulado-06|63/70 — 90,0%]] | **103,5/115 — 90,0%** | Distribuição oficial. **Não usar como benchmark de dificuldade**: auditoria do ledger encontrou 48,6% de mecanismos novos e 45,7% de repetição cognitiva forte. Erros: Português 2, Atualidades/IA 1, Legislação 1, Comunicação 3. |
 | 05/10/2026 | [[00 - Desempenho/Simulados/Simulado-05|63/70 — 90,0%]] | **103,5/115 — 90,0%** | Distribuição oficial. Gerais 36/40 e Comunicação 27/30. Bloco de Comunicação mais factual/técnico; erros específicos em TV/telejornalismo. Marco Civil reincidiu. |
 
 ## Última bateria mista

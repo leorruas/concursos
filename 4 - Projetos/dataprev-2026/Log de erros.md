@@ -3,14 +3,14 @@ title: "Log de erros - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 
 # Log de erros - Dataprev 2026
 
 Registro de erros recorrentes, pegadinhas de banca e falsos cognatos lógicos identificados durante a resolução de questões e simulados da FGV.
 
-Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]], os diagnósticos dos [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]], [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], [[00 - Desempenho/Simulados/Simulado-03|Simulado 03]], [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]] e [[00 - Desempenho/Simulados/Simulado-05|Simulado 05]], além da [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
+Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]], os diagnósticos dos [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]], [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], [[00 - Desempenho/Simulados/Simulado-03|Simulado 03]], [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]], [[00 - Desempenho/Simulados/Simulado-05|Simulado 05]] e [[00 - Desempenho/Simulados/Simulado-06|Simulado 06]], além da [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
 
 ## Língua Portuguesa (FGV)
 - **Funções do "SE" (PA vs. IIS):** Q21 do Simulado 01 — *VTD/VTDI com sujeito paciente no plural exige concordância passiva (PA)*; *VTI/VI com preposição mantém verbo invariável na 3ª pessoa do singular (IIS)*. [[3 - Materias/Portugues/02 - sujeito#Sujeito Determinado vs. Indeterminado e as Funções da Partícula "SE"|Estudo em Sujeito]].
@@ -49,6 +49,33 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 ## Atualidades / IA
 - **Regime de metas, IPCA, Selic e Copom:** Q1 da bateria de 14/09/2026 — [K]. Queda do IPCA não produz redução automática da Selic nem na mesma proporção. A leitura correta exige separar meta central (3,0%), faixa de tolerância (1,5% a 4,5%), critério formal de seis meses consecutivos fora da faixa e decisão do Copom baseada no conjunto do cenário e expectativas. [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom#Tensões e pegadinhas|Estudo em regime de metas, inflação, Selic e Copom]].
 
+
+## Simulado 06 — 06/10/2026
+
+**Resultado:** 63/70 = 90,0%. **103,5/115 = 90,0%**. Gerais 36/40; Comunicação 27/30. **Qualidade da medição contaminada por repetição:** 48,6% new; 32,9% exact; 12,9% mechanical; 5,7% thematic.
+
+### Língua Portuguesa
+- **Q1 — conjunção integrante × pronome relativo:** [C]. Em “reconheceu que...”, a oração completa o verbo; não há antecedente nominal retomado. [[3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas#`que`: conjunção integrante × pronome relativo|Conjunção integrante × pronome relativo]]
+- **Q7 — tipo × gênero:** [C]. Manual é gênero; injunção é tipo/sequência textual. [[3 - Materias/Portugues/09 - tipos e generos textuais#Tipo × gênero|Tipo × gênero]]
+
+### Atualidades / IA
+- **Q30 — Saeb × Ideb:** [K]. Saeb = avaliação; Ideb = desempenho + fluxo; Pé-de-Meia = permanência/incentivo financeiro. [[3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026#3. Ideb = fluxo escolar + desempenho|Ideb]] · [[3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026#4. Saeb|Saeb]]
+
+### Legislação
+- **Q37 — Marco Civil:** [K, recorrente]. Conexão = 1 ano; acesso a aplicações = 6 meses. [[3 - Materias/Informatica/01 - marco civil da internet#Guarda de registros|Guarda de registros]]
+
+### Comunicação Social
+- **Q42 — Jorge Duarte:** [C, recorrente]. Interação = fluxo bi/multilateral; ouvidoria social = escuta/compreensão dos públicos. [[3 - Materias/Comunicacao/02 - comunicacao publica#Interação|Interação]] · [[3 - Materias/Comunicacao/02 - comunicacao publica#Ouvidoria social|Ouvidoria social]]
+- **Q43 — Ehling, White e Grunig:** [C]. Conflitos-resoluções → função política; gerenciamento → estratégica. [[3 - Materias/Comunicacao/22.1 - ehling white e grunig quatro teorias do gerenciamento de rp#4. Teoria de conflitos-resoluções → função política|Conflitos-resoluções → função política]]
+- **Q65 — Sérgio Mattos:** [K]. 1964–1975 = fase populista. [[3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil#Fases da televisão brasileira — Sérgio Mattos|Fases da televisão brasileira]]
+
+### Acertos inseguros
+- **Q27:** não adjacência em permutação; acerto com insegurança. [[3 - Materias/Logica/09 - analise combinatoria#3. Permutação e Fatorial|Permutação]]
+- **Q33:** acordo Mercosul–UE; acerto sem segurança. [[3 - Materias/Atualidades/19 - relacoes internacionais e fatos globais 2026#5. Acordo Mercosul–União Europeia passou da assinatura para aplicação provisória|Mercosul–UE]]
+- **Q38:** art. 11 LGPD; acerto por eliminação. [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia#Dados pessoais sensíveis, art. 11|Dados sensíveis — art. 11]]
+
+### Qualidade do caderno
+O Simulado 06 permanece no histórico, mas não calibra dificuldade futura. O ledger identificou **32/70 questões com repetição exata ou mecânica (45,7%)**. A partir do Simulado 07, aplicar o gate de novidade antes da redação do caderno.
 
 ## Simulado 05 — 05/10/2026
 

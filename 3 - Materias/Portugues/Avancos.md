@@ -3,10 +3,18 @@ title: "Avanços e desempenho (Português)"
 type: "hub"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 
 # Avanços e desempenho (Português)
+
+## Simulado 06 — 06/10/2026
+
+- **Resultado:** 10/12 (83,3%).
+- **Erros:** Q1 [C] em conjunção integrante × pronome relativo; Q7 [C] em tipo textual × gênero.
+- **Diagnóstico:** os dois desvios foram de classificação de categorias próximas, não de interpretação global. O Simulado 06 teve repetição excessiva no conjunto, mas estes dois erros continuam úteis como evidência clínica.
+- **Estudo:** [[3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas#`que`: conjunção integrante × pronome relativo|Conjunção integrante × pronome relativo]] e [[3 - Materias/Portugues/09 - tipos e generos textuais#Tipo × gênero|Tipo × gênero]].
+
 
 ## Simulado 04 — 03/10/2026
 
@@ -30,6 +38,7 @@ updated: 2026-10-05
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 06/10/2026 | 12 | Língua Portuguesa | Simulado 06 Dataprev/FGV: 10/12 (83,3%). Erros [C] em conjunção integrante × pronome relativo e tipo × gênero. Caderno com repetição auditada; preservar o desempenho, mas não usar a prova como benchmark de dificuldade. |
 | 05/10/2026 | 12 | Língua Portuguesa | Simulado 05 Dataprev/FGV: 10/12 (83,3%). Erros Q2 [C] em condição necessária × suficiente e Q12 [K] em discurso indireto; Q7 correta com lacuna declarada em “injunção”. |
 | 03/10/2026 | 12 | Língua Portuguesa | Simulado 04 Dataprev/FGV: 10/12 (83,3%). Erros Q7 [I] em ambiguidade referencial e Q11 [K] em hífen; Q10 correta com insegurança em colocação pronominal. |
 | 30/09/2026 | 12 | Língua Portuguesa | Simulado 03 Dataprev/FGV: 12/12 (100%). |
@@ -45,7 +54,7 @@ updated: 2026-10-05
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
-| **Semana 41** (05/10 a 11/10) | 12 | 83,3% (10/12) | Simulado 05: estabilidade em 10/12; revisar apenas condição necessária/suficiente e transposição temporal do discurso indireto. |
+| **Semana 41** (05/10 a 11/10) | 24 | 83,3% (20/24) | Simulados 05 e 06. Resultado idêntico em ambos; no 06, erros migraram para conjunção integrante × relativo e tipo × gênero. A qualidade global do Sim06 foi contaminada por repetição, mas os erros clínicos permanecem válidos. |
 | **Semana 40** (28/09 a 04/10) | 24 | 91,7% (22/24) | Simulados 03 e 04. Interpretação permaneceu forte; no Simulado 04 surgiram ambiguidade referencial e recuperação instável de hífen. |
 | **Semana 38** (14/09 a 20/09) | 6 | 83,3% (5/6) | Recuperação forte dos gargalos gramaticais recentes. O único erro válido foi a reincidência `contudo` × `embora`, agora classificada como erro recorrente [C]. |
 | **Semana 33** (10/08 a 16/08) | 18 | 66,7% (12/18) | Diagnóstico FGV revelou lacunas de convenção ortográfica, impessoalidade, regência e ambiguidade referencial. |

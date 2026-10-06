@@ -3,7 +3,7 @@ title: "Comunicação pública"
 type: "conceito"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 # Comunicação pública
 
@@ -16,11 +16,37 @@ Na formulação de **Jorge Duarte**, comunicação pública ocorre no espaço do
 
 ### Comunicação governamental
 
-Para Duarte, diz respeito aos fluxos de informação e aos padrões de relacionamento envolvendo gestores, ação do Estado e sociedade. Governo e Estado não são sinônimos: o governo é gestor transitório do aparato estatal.
+Para Duarte, diz respeito aos **fluxos de informação e aos padrões de relacionamento envolvendo gestores, ação do Estado e sociedade**. Governo e Estado não são sinônimos: o governo é gestor transitório do aparato estatal.
+
+O centro aqui é a **ação governamental em funcionamento** e sua relação com a sociedade.
+
+**Exemplo:** uma prefeitura informa como funcionará uma nova política de vacinação, explica critérios de acesso, prazos e canais de atendimento.
 
 ### Comunicação política
 
-Relaciona-se ao discurso e à ação de governos, partidos e agentes na disputa da opinião pública em temas vinculados ao poder político, eleitorais ou não.
+Para Duarte, trata do **discurso e da ação de governos, partidos e seus agentes na conquista da opinião pública** em relação a ideias ou atividades ligadas ao **poder político**, sejam ou não eleitorais.
+
+O centro aqui é a **disputa por apoio, adesão, legitimidade ou interpretação política**.
+
+**Exemplo:** o prefeito defende publicamente que seu projeto de mobilidade representa uma visão política superior à proposta da oposição e busca conquistar apoio social para essa agenda.
+
+#### Diferenciador segundo Duarte
+
+| Comunicação governamental | Comunicação política |
+| :--- | :--- |
+| foco nos fluxos e relações ligados à **gestão e à ação do Estado** | foco na **conquista da opinião pública** |
+| governo aparece como **gestor do aparato estatal** | governo, partido ou agente aparece como **ator da disputa política** |
+| pergunta-chave: **como o governo informa e se relaciona com a sociedade ao executar sua ação?** | pergunta-chave: **como o ator busca apoio ou adesão em torno de ideias e atividades ligadas ao poder?** |
+
+A diferença, portanto, **não está em quem fala**. Um governo pode produzir comunicação governamental e comunicação política.
+
+Também não é uma fronteira absoluta. O próprio Duarte ressalta que as interfaces entre essas áreas são várias e que as linhas divisórias são **fluidas**.
+
+> [!TIP]
+> Em prova, procure a finalidade predominante:
+>
+> **ação/gestão estatal → governamental**  
+> **conquista da opinião pública sobre poder político → política**
 
 ### Comunicação pública
 

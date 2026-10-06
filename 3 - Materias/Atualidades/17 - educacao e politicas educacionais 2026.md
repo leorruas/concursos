@@ -1,15 +1,15 @@
 ---
-title: "🆕 Educação e políticas educacionais — Atualidades 2026"
+title: "🔄 Educação e políticas educacionais — Atualidades 2026"
 type: "snapshot-conjuntural"
 status: "ativo"
 layer: "snapshot_conjuntural"
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-10-06
 data_corte: 2026-10-03
 revalidar: true
 ---
 
-# 🆕 Educação e políticas educacionais — Atualidades 2026
+# 🔄 Educação e políticas educacionais — Atualidades 2026
 
 > Snapshot conjuntural. Revalidar antes de usar futuramente.
 
@@ -44,21 +44,44 @@ A FGV pode trocar funções entre PNE, Ideb, Saeb, Censo Escolar e programas do 
 
 ### 2. Ideb 2025 divulgado em 2026
 
-Em agosto de 2026, o Inep divulgou os resultados do **Ideb 2025**.
+Em agosto de 2026, o Inep divulgou os resultados do **Ideb 2025**. O Ideb varia de **0 a 10** e sintetiza duas dimensões da educação básica: **fluxo escolar** e **desempenho no Saeb**.
 
-Considerando redes públicas e privadas, de 2023 para 2025:
+#### Para que servem esses números?
 
-- anos iniciais do ensino fundamental: **6,0 → 6,3**;
-- anos finais: **5,0 → 5,3**;
-- ensino médio: **4,3 → 4,5**.
+Eles não são seis notas que precisam ser decoradas isoladamente. Servem principalmente para responder três perguntas:
 
-Na rede pública:
+1. **o indicador melhorou ou piorou em relação à edição anterior?**
+2. **em qual etapa da educação básica o resultado é mais alto ou mais baixo?**
+3. **há diferença entre o resultado agregado do país e o recorte apenas da rede pública?**
 
-- anos iniciais: **5,7 → 6,1**;
-- anos finais: **4,7 → 5,0**;
-- ensino médio: **4,1 → 4,3**.
+De 2023 para 2025, o resultado nacional melhorou nas três etapas avaliadas:
 
-O dado mais importante para prova é entender **como o Ideb é construído**.
+| Etapa | Brasil — públicas + privadas | Rede pública | Leitura principal |
+| :--- | :---: | :---: | :--- |
+| **Anos iniciais do fundamental** | **6,0 → 6,3** | **5,7 → 6,1** | maior Ideb entre as três etapas |
+| **Anos finais do fundamental** | **5,0 → 5,3** | **4,7 → 5,0** | melhora, mas permanece abaixo dos anos iniciais |
+| **Ensino médio** | **4,3 → 4,5** | **4,1 → 4,3** | melhora, mas continua com o menor Ideb |
+
+Os resultados de 2025 foram os maiores da série histórica nacional iniciada em 2005 nas três etapas.
+
+#### O que vale guardar para prova
+
+Mais importante que memorizar cada decimal:
+
+> **2023 → 2025: o Ideb nacional avançou nas três etapas.**
+
+E a ordem dos resultados permaneceu:
+
+> **anos iniciais > anos finais > ensino médio**
+
+A comparação entre as duas colunas mostra ainda que o recorte da **rede pública** apresenta resultados inferiores ao agregado que reúne redes públicas e privadas. Isso descreve os recortes agregados do indicador; **não permite concluir que toda escola privada tenha desempenho superior a toda escola pública**.
+
+> [!TIP]
+> Se a FGV cobrar os números, é mais provável que use a **tendência ou a comparação entre etapas** do que exigir a memorização das seis casas decimais.
+>
+> Para revisão: **subiu nas três; iniciais mais altos; ensino médio mais baixo.**
+
+O dado conceitualmente mais importante continua sendo entender **como o Ideb é construído**, porque é daí que saem os melhores distratores.
 
 ### 3. Ideb = fluxo escolar + desempenho
 
@@ -145,6 +168,8 @@ O erro típico é misturar **instrumentos diferentes** que operam na mesma área
 
 - O Brasil aprovou novo PNE em 2026 com horizonte decenal.
 - O Ideb 2025 melhorou nas três etapas agregadas divulgadas pelo Inep.
+- Entre as três etapas, os anos iniciais apresentam o maior resultado e o ensino médio, o menor.
+- Os números nacionais agregados e os da rede pública são recortes distintos e não descrevem individualmente todas as escolas.
 - Ideb combina fluxo escolar e desempenho.
 - Saeb é avaliação externa de aprendizagem.
 - Censo Escolar produz dados estruturais e de matrículas/rendimento.

@@ -3,7 +3,7 @@ title: "Direito constitucional"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-06-15
+updated: 2026-10-06
 ---
 
 # Direito constitucional
@@ -30,7 +30,7 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
   - [[08 - poder judiciario e controle de constitucionalidade|08 • Poder judiciário e controle de constitucionalidade]]
   - [[09 - funcoes essenciais a justica|09 • Funções essenciais à Justiça]]
 - **Processo Legislativo e Teoria da Constituição**:
-  - [[10 - processo legislativo e poder constituinte|10 • Processo legislativo e poder constituinte]]
+  - [[10 - processo legislativo e poder constituinte|🔄 10 • Processo legislativo e poder constituinte]]
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).
@@ -40,5 +40,5 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 ---
 - **Acompanhamento**: [[Avancos|Avanços e desempenho (Direito constitucional)]]
-*Última atualização: 2026-06-29*
+*Última atualização: 2026-10-06*
 

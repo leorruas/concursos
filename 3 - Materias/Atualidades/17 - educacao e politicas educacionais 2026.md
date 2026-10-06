@@ -161,17 +161,110 @@ Os resultados de desempenho do Saeb, combinados com indicadores de rendimento es
 > [!TIP]
 > **Saeb mede desempenho; Censo informa fluxo; Ideb combina as duas dimensões.**
 
-### 4. Censo Escolar 2026
+### 4. Censo Escolar — como funciona
 
-Em setembro de 2026 foram divulgados os **resultados preliminares do Censo Escolar da Educação Básica 2026**.
+O **Censo Escolar** não é o Censo Demográfico do IBGE.
 
-O Censo Escolar é a principal pesquisa estatística sobre educação básica e coleta informações sobre escolas, matrículas, docentes e etapas/modalidades de ensino.
+Ele é uma pesquisa estatística **anual da educação básica**, coordenada pelo **Inep**, com participação das secretarias de educação e de **todas as escolas públicas e privadas do país**.
 
-Sua função é diferente da do Saeb:
+> [!IMPORTANT]
+> **Censo Demográfico → IBGE → população e domicílios.**
+>
+> **Censo Escolar → Inep → escolas, turmas, estudantes, profissionais e trajetória escolar.**
 
-- Censo → estrutura, matrículas e fluxo;
-- Saeb → avaliação de aprendizagem;
-- Ideb → indicador sintético que combina fluxo e desempenho.
+#### Quem fornece os dados?
+
+Não são pesquisadores do Inep visitando cada casa ou entrevistando cada estudante.
+
+As próprias escolas e redes de ensino declaram as informações no **Sistema Educacenso**, com base em seus registros administrativos e acadêmicos, como:
+
+- fichas de matrícula;
+- diários de classe;
+- registros de frequência;
+- históricos escolares;
+- sistemas eletrônicos de gestão;
+- dados de turmas e profissionais.
+
+Os diretores e dirigentes escolares respondem pela veracidade das informações declaradas.
+
+Por isso, o Censo Escolar é uma pesquisa de caráter **declaratório**, mas não significa “responder de memória”: os dados devem estar apoiados nos registros da escola.
+
+#### O que ele coleta?
+
+O levantamento não registra apenas “quantas escolas existem”.
+
+Ele reúne informações sobre:
+
+- estabelecimentos de ensino e infraestrutura;
+- gestores;
+- turmas;
+- matrículas e estudantes;
+- profissionais escolares;
+- etapas e modalidades de ensino;
+- rendimento e movimento dos alunos.
+
+#### As duas etapas
+
+O Censo Escolar tem duas grandes etapas.
+
+**1ª etapa — Matrícula Inicial**
+
+É uma espécie de **fotografia da escola em uma data de referência**, situada na última quarta-feira de maio.
+
+Registra, entre outras informações:
+
+- quem está matriculado;
+- em quais turmas;
+- quais profissionais atuam;
+- características da escola.
+
+Em 2026, a data de referência foi **27 de maio**.
+
+**2ª etapa — Situação do Aluno**
+
+Ocorre depois do encerramento do ano letivo e informa o que aconteceu com os estudantes declarados anteriormente, como:
+
+- aprovado;
+- reprovado;
+- transferido;
+- deixou de frequentar;
+- outras situações previstas pelo levantamento.
+
+É essa etapa que ajuda a produzir as taxas de **aprovação, reprovação e abandono**.
+
+#### E onde isso entra no Ideb?
+
+Aqui fecha a lógica:
+
+> **Censo Escolar informa o fluxo/rendimento.**
+>
+> **Saeb informa o desempenho em aprendizagem.**
+>
+> **Ideb combina os dois.**
+
+Exemplo:
+
+Se uma rede declara no Censo Escolar que muitos estudantes foram reprovados, isso piora o componente de **fluxo** usado no Ideb.
+
+Se os estudantes têm bom desempenho no Saeb, o componente de **aprendizagem** pode estar alto.
+
+O Ideb junta essas duas dimensões para evitar olhar apenas uma delas.
+
+#### Por que chamar de “censo”?
+
+Porque a intenção é fazer um levantamento amplo do universo das escolas de educação básica, e não trabalhar apenas com uma pequena amostra.
+
+Mas isso não o transforma em uma extensão do Censo Demográfico: são pesquisas diferentes, produzidas por órgãos diferentes e com objetos diferentes.
+
+#### Censo Escolar 2026
+
+Em setembro de 2026 foram divulgados os resultados preliminares da primeira etapa do Censo Escolar da Educação Básica 2026.
+
+Para prova, o mais importante é reconhecer a função de cada instrumento:
+
+- **Censo Escolar → estrutura, matrículas e fluxo/rendimento**;
+- **Saeb → avaliação de aprendizagem**;
+- **Ideb → indicador sintético que combina fluxo e desempenho**.
 
 ### 5. Pé-de-Meia
 
@@ -294,7 +387,8 @@ Fontes primárias verificadas em 03/10/2026:
 - Inep, Ideb 2025: https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/ideb/ideb-avanca-em-todas-as-etapas-da-educacao-basica
 - Inep, definição e metodologia do Ideb: https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb
 - Inep, Saeb: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb
-- Inep, Censo Escolar: https://www.gov.br/inep/pt-br/centrais-de-conteudo/legislacao/censo-escolar
+- Inep, Censo Escolar — apresentação e funcionamento: https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar
+- Inep, etapas da coleta do Censo Escolar: https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar/etapas-da-coleta
 - MEC, Pé-de-Meia: https://www.gov.br/mec/pt-br/assuntos/pe-de-meia
 
 ## Data de corte

@@ -1,3 +1,10 @@
+## [2026-10-06] dataprev 2026 | Simulado 06 e baseline do ledger anti-repetição
+
+- Registrado o [[00 - Desempenho/Simulados/Simulado-06|Simulado 06 — Dataprev FGV]]: **63/70 (90,0%)**, **103,5/115** e TAP **90,4%**.
+- Preservado o resultado, mas marcado como **não elegível para benchmark de dificuldade** após auditoria do novo `data/questoes-ledger.json`: 48,6% de mecanismos novos e 45,7% de repetição exata/mecânica.
+- Erros clínicos: Português Q1/Q7, Atualidades Q30, Marco Civil Q37, Comunicação Q42/Q43/Q65; acertos inseguros em Q27, Q33 e Q38.
+- A partir do Simulado 07, novos cadernos devem passar pelo gate de novidade do ledger antes da redação final.
+
 ## [2026-10-03] câmara 2026 | Preservação local do corpus de provas Cebraspe e criação do manifesto
 
 - Preservados localmente na pasta `2 - Provas/Camara-Cebraspe/` 21 arquivos PDF (cadernos de prova, gabaritos definitivos e padrões discursivos) do corpus de calibração Cebraspe/Câmara para o cargo de Analista Legislativo — Divulgação Institucional.

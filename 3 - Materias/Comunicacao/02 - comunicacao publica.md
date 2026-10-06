@@ -117,7 +117,7 @@ Interesse em conhecer e compreender a opinião pública e seus diferentes segmen
 
 **Exemplo:** o órgão combina pesquisas de opinião, análise das reclamações recebidas, consultas com diferentes grupos e outros mecanismos de escuta para identificar por que determinados públicos estão insatisfeitos com um serviço e usa esse diagnóstico para orientar mudanças.
 
-O núcleo é **compreender sistematicamente o que a sociedade pensa, deseja e avalia**.
+O núcleo é **produzir conhecimento sistemático sobre os diferentes segmentos de público** — suas opiniões, motivações, interesses, propostas e critérios de satisfação — e usar esse conhecimento como referência para a ação.
 
 #### Ouvidoria social × Ouvidoria administrativa
 
@@ -139,7 +139,7 @@ Assim:
 > **Ouvidoria social ≠ simplesmente possuir uma Ouvidoria administrativa.**
 >
 > **Ouvidoria administrativa = canal/estrutura.**  
-> **Ouvidoria social = princípio de escuta e compreensão da sociedade para orientar a ação.**
+> **Ouvidoria social = conhecer sistematicamente os segmentos de público para orientar a ação.**
 
 #### Fronteiras entre os quatro eixos
 
@@ -148,7 +148,7 @@ Assim:
 | tornar atos, decisões e dados públicos visíveis e fiscalizáveis | **Transparência** |
 | fazer a informação chegar de modo compreensível e adequado aos públicos | **Acesso** |
 | criar troca, diálogo e possibilidade de falar e ser ouvido | **Interação** |
-| investigar e compreender opiniões, interesses e critérios de satisfação dos públicos | **Ouvidoria social** |
+| produzir conhecimento sobre segmentos de público — opiniões, motivações, interesses e critérios de satisfação — para orientar a ação | **Ouvidoria social** |
 
 Um mesmo instrumento pode contribuir para mais de um eixo. A diferença está na **função que ele cumpre no caso concreto**.
 

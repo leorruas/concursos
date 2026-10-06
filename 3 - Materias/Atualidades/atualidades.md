@@ -88,7 +88,7 @@ A partir de **03/10**, Atualidades entra em **modo revisão** para esta prova: n
 
 - [[15 - seguranca publica ciberseguranca e temas de seguranca 2026|🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026]]
 - [[16 - transportes mobilidade e infraestrutura 2026|🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026]]
-- [[17 - educacao e politicas educacionais 2026|🆕 Educação e políticas educacionais — Atualidades 2026]]
+- [[17 - educacao e politicas educacionais 2026|🔄 Educação e políticas educacionais — Atualidades 2026]]
 - [[18 - cultura midia e temas sociais 2026|🆕 Cultura, mídia e temas sociais — Atualidades 2026]]
 - [[19 - relacoes internacionais e fatos globais 2026|🆕 Relações internacionais e fatos globais — Atualidades 2026]]
 - [[Snapshots/2026-09-14 - IPCA agosto e Selic|IPCA de agosto e Selic — 14/09/2026]]

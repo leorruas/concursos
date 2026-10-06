@@ -124,7 +124,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[3 - Materias/Comunicacao/comunicacao|Comunicação social]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
-  - [[3 - Materias/Comunicacao/02 - comunicacao publica|02 • Comunicação pública]]
+  - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]
   - [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]]
   - [[3 - Materias/Comunicacao/04 - criterios de noticiabilidade|04 • Critérios de noticiabilidade]]
   - [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling|05 • Lead, pirâmide invertida e storytelling]]

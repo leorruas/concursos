@@ -17,7 +17,7 @@ updated: 2026-10-03
   - [[3 - Materias/Comunicacao/22.2 - cesca comunicacao dirigida e veiculos|🆕 22.2 • Comunicação dirigida e classificação dos veículos — Cesca]]
   - [[3 - Materias/Comunicacao/22.3 - paulo nassar comunicacao integrada virtual|🆕 22.3 • Comunicação integrada virtual — Paulo Nassar]]
 - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
-- [[3 - Materias/Comunicacao/02 - comunicacao publica|02 • Comunicação pública]]
+- [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]
 - [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]]
 - [[3 - Materias/Comunicacao/09 - comunicacao interna|09 • Comunicação interna]]
 - [[3 - Materias/Comunicacao/10 - linguagem simples|10 • Linguagem simples]]

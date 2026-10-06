@@ -1,11 +1,11 @@
 ---
-title: "Comunicação pública"
+title: "🔄 Comunicação pública"
 type: "conceito"
 status: "ativo"
 created: 2026-07-06
 updated: 2026-10-06
 ---
-# Comunicação pública
+# 🔄 Comunicação pública
 
 Na formulação de **Jorge Duarte**, comunicação pública ocorre no espaço dos fluxos de informação e interação entre agentes públicos e atores sociais em temas de interesse público. Seu eixo normativo é a perspectiva cidadã: direito ao diálogo, à informação, à expressão e à participação em questões de relevância coletiva.
 
@@ -91,20 +91,66 @@ Duarte propõe explicitamente quatro eixos centrais como pré-requisitos para a 
 
 Compromisso com atuação responsável em questões públicas, oferta de informações, estímulo ao acesso, facilitação da fiscalização e prestação de contas, associado a valores éticos na ação pública.
 
+**Exemplo:** uma prefeitura publica contratos, gastos, critérios de uma política pública e relatórios de execução para que qualquer cidadão possa acompanhar e fiscalizar a atuação governamental.
+
+A palavra-chave é **visibilidade da ação pública**.
+
 ### Acesso
 
 A sociedade precisa ter facilidade para obter informação, ser estimulada a buscá-la, opinar, fiscalizar e influir na gestão do que é público. O acesso não é apenas disponibilidade física: envolve informação adaptada às necessidades dos diferentes públicos, linguagem, layout, formatos, mídias, fluxos, horários e processos adequados.
+
+**Exemplo:** os dados de um programa social já estão publicados no portal, mas o órgão também oferece versão em linguagem simples, página acessível por celular, atendimento presencial e material adaptado para pessoas com deficiência.
+
+Aqui, não basta a informação **existir**: ela precisa ser **encontrável, compreensível e utilizável**.
 
 ### Interação
 
 Criação e fortalecimento de instrumentos que permitam fluxos **bi ou multilaterais**, com oportunidade de falar e ser ouvido. Está associada a diálogo, compreensão, cooperação, participação e crítica.
 
+**Exemplo:** antes de reformular o transporte público, a prefeitura realiza audiência e consulta pública em que cidadãos podem apresentar propostas, questionar gestores e receber respostas.
+
+O núcleo é a **troca**: não apenas informar ou ouvir silenciosamente, mas criar condições para comunicação de mão dupla ou múltiplas vias.
+
 ### Ouvidoria social
 
 Interesse em conhecer e compreender a opinião pública e seus diferentes segmentos para considerar motivações, interesses, propostas e critérios de satisfação como referência na ação. Pesquisas e mecanismos de escuta são centrais nesse eixo.
 
+**Exemplo:** o órgão combina pesquisas de opinião, análise das reclamações recebidas, consultas com diferentes grupos e outros mecanismos de escuta para identificar por que determinados públicos estão insatisfeitos com um serviço e usa esse diagnóstico para orientar mudanças.
+
+O núcleo é **compreender sistematicamente o que a sociedade pensa, deseja e avalia**.
+
+#### Ouvidoria social × Ouvidoria administrativa
+
+Esses conceitos não são equivalentes.
+
+Uma **Ouvidoria administrativa** é uma estrutura ou canal institucional que recebe e trata manifestações como reclamações, denúncias, sugestões, elogios e solicitações.
+
+A **ouvidoria social**, no sentido usado por Duarte, é mais ampla: é um **eixo de atuação da comunicação pública**, baseado no compromisso de conhecer e compreender a opinião pública e os diferentes segmentos sociais para que essa escuta seja considerada na ação institucional.
+
+Assim:
+
+- possuir uma Ouvidoria formal pode ser **um instrumento de escuta**;
+- mas a ouvidoria social pode também utilizar **pesquisas, consultas, monitoramento de opiniões, reuniões, escutas com públicos e outros mecanismos**;
+- e, principalmente, exige que o conhecimento obtido seja **considerado como referência para a ação**, não apenas protocolado e respondido.
+
+**Exemplo de fronteira:** se uma prefeitura recebe 500 reclamações sobre um posto de saúde e responde individualmente aos protocolos, sua Ouvidoria administrativa está funcionando. Se ela analisa o padrão dessas manifestações, pesquisa outros usuários, identifica as causas da insatisfação e usa esse conhecimento para rever o serviço, está operando também no eixo de **ouvidoria social**.
+
 > [!WARNING]
-> **Ouvidoria social ≠ simplesmente possuir uma Ouvidoria administrativa.** Em Duarte, é um eixo mais amplo de escuta e compreensão dos públicos.
+> **Ouvidoria social ≠ simplesmente possuir uma Ouvidoria administrativa.**
+>
+> **Ouvidoria administrativa = canal/estrutura.**  
+> **Ouvidoria social = princípio de escuta e compreensão da sociedade para orientar a ação.**
+
+#### Fronteiras entre os quatro eixos
+
+| Situação predominante | Eixo |
+| :--- | :--- |
+| tornar atos, decisões e dados públicos visíveis e fiscalizáveis | **Transparência** |
+| fazer a informação chegar de modo compreensível e adequado aos públicos | **Acesso** |
+| criar troca, diálogo e possibilidade de falar e ser ouvido | **Interação** |
+| investigar e compreender opiniões, interesses e critérios de satisfação dos públicos | **Ouvidoria social** |
+
+Um mesmo instrumento pode contribuir para mais de um eixo. A diferença está na **função que ele cumpre no caso concreto**.
 
 A FGV MPU 2025 cobrou diretamente esses quatro eixos e descreveu corretamente `ouvidoria social` como interesse em conhecer e compreender a opinião pública e seus segmentos.
 

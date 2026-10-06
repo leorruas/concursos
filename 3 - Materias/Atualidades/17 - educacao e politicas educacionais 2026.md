@@ -284,13 +284,106 @@ O total pode chegar a **R$ 9,2 mil por estudante** ao longo do ensino médio, co
 > [!WARNING]
 > O Pé-de-Meia não é bolsa universal para qualquer estudante nem programa destinado ao ensino superior.
 
-### 6. Permanência escolar × causalidade
+### 6. Pé-de-Meia — resultados observados × evidência de impacto
 
-Em 2026, o MEC divulgou exemplos de queda de abandono e distorção idade-série em redes com participação no Pé-de-Meia.
+A simples queda do abandono depois da criação do Pé-de-Meia é um **indício**, mas não basta para concluir causalidade.
 
-Esses dados podem sustentar avaliação positiva e monitoramento da política, mas exigem cuidado causal.
+É útil separar três níveis de evidência.
 
-Uma queda observada depois da implementação de um programa **não prova, sozinha, que todo o efeito foi causado por ele**.
+#### 1. Resultado observado
+
+Os indicadores de abandono do ensino médio público melhoraram no período posterior à criação do programa.
+
+Esse dado é importante, mas sozinho responde apenas:
+
+> **o abandono caiu depois da implementação?**
+
+Não responde:
+
+> **quanto dessa queda foi causado especificamente pelo Pé-de-Meia?**
+
+Outras políticas, mudanças econômicas, características das redes de ensino e tendências anteriores também podem influenciar o resultado.
+
+#### 2. Evidência quase-experimental com dados da PNAD
+
+Em 2026, **Daniel Duque e Michael França**, no âmbito do Núcleo de Estudos Raciais do Insper, analisaram microdados da **PNAD Contínua de 2022 a 2025** para investigar diretamente se o Pé-de-Meia aumentou permanência e conclusão escolar.
+
+O estudo utiliza uma estratégia de **diferenças em diferenças**:
+
+- compara jovens com renda compatível com a elegibilidade ao programa;
+- usa como grupo de comparação jovens com renda imediatamente superior;
+- verifica como a diferença entre os grupos muda antes e depois da criação do programa;
+- aplica ponderações e testes adicionais para reduzir a influência de diferenças regionais e das redes de ensino.
+
+Antes do programa, em 2022 e 2023, os grupos apresentavam trajetórias semelhantes. A partir de 2024, quando o Pé-de-Meia começa, surge uma diferença favorável ao grupo elegível.
+
+Na especificação preferida pelos autores, os efeitos estimados sobre permanência/conclusão foram de aproximadamente:
+
+- **2 pontos percentuais** entre jovens de **15 a 19 anos**;
+- **4,3 pontos percentuais** entre jovens de **15 a 24 anos**.
+
+Os pesquisadores também repetiram a análise com dados trimestrais da PNAD e encontraram resultados compatíveis.
+
+> [!IMPORTANT]
+> Isso é uma evidência causal **mais forte** que uma simples comparação “antes × depois”, porque existe um grupo de comparação e um método para isolar melhor o efeito do programa.
+
+Ainda assim, não é um experimento aleatório. Como toda avaliação observacional por diferenças em diferenças, a interpretação causal depende de pressupostos metodológicos, especialmente de que, sem o programa, os grupos teriam mantido tendências comparáveis.
+
+#### 3. Simulação ex ante do potencial do programa
+
+Outro estudo, de **Laura Almeida de Abreu, Ricardo Paes de Barros, Samuel Franco e Laura Muller Machado**, publicado pelo Insper, avaliou **ex ante** o desenho de programas de bolsas como o Pé-de-Meia.
+
+A modelagem estimou, entre jovens de famílias vulneráveis, uma taxa acumulada de evasão de aproximadamente:
+
+- **26,4% sem o programa**;
+- **19,9% com o desenho amplo do Pé-de-Meia**.
+
+A diferença é de cerca de **6,5 pontos percentuais**.
+
+Em linguagem mais intuitiva, a estimativa sugere que aproximadamente **1 em cada 4 jovens que abandonariam o ensino médio poderia permanecer por causa do incentivo**.
+
+Mas atenção:
+
+> **avaliação ex ante é uma simulação baseada em dados, evidências anteriores e hipóteses; não é a medição direta do efeito já ocorrido depois da implementação.**
+
+#### Então já dá para dizer que o Pé-de-Meia funciona?
+
+A formulação mais segura é:
+
+> **há evidências crescentes de que o Pé-de-Meia aumenta a permanência e a conclusão escolar, além da queda observada nos indicadores agregados.**
+
+É forte demais dizer:
+
+> “toda a queda recente do abandono foi causada pelo Pé-de-Meia”.
+
+E também seria incorreto dizer:
+
+> “não existe evidência de efeito porque só sabemos que o abandono caiu”.
+
+Já há análise quase-experimental específica do programa.
+
+#### O que ainda não está respondido do mesmo modo?
+
+**Permanência não é sinônimo de aprendizagem.**
+
+O programa foi desenhado diretamente para matrícula, frequência, permanência e conclusão. Mesmo que produza efeito nessas dimensões, outra pergunta permanece:
+
+> **os estudantes que permanecem mais tempo na escola também aprendem mais?**
+
+Para responder isso, seria necessário comparar resultados de aprendizagem de beneficiários e não beneficiários comparáveis ao longo do tempo.
+
+Até aqui, a evidência mais forte apresentada nesta nota diz respeito principalmente a **frequência, permanência e conclusão**, e não a um efeito causal já estabelecido sobre proficiência em Português, Matemática ou outras competências.
+
+#### Heurística de causalidade para prova
+
+**Depois do programa + indicador melhorou** → associação temporal.
+
+**Beneficiários comparáveis com grupo de controle + método de inferência causal** → evidência mais forte de impacto.
+
+**Modelo que simula o que ocorreria com e sem programa** → avaliação ex ante.
+
+> [!TIP]
+> FGV pode explorar exatamente essa fronteira: **resultado observado ≠ impacto causal estimado ≠ projeção ex ante**.
 
 ## Por que importa
 
@@ -390,6 +483,8 @@ Fontes primárias verificadas em 03/10/2026:
 - Inep, Censo Escolar — apresentação e funcionamento: https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar
 - Inep, etapas da coleta do Censo Escolar: https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar/etapas-da-coleta
 - MEC, Pé-de-Meia: https://www.gov.br/mec/pt-br/assuntos/pe-de-meia
+- DUQUE, Daniel; FRANÇA, Michael. *O Pé-de-Meia aumenta a permanência escolar? Evidências iniciais da PNAD Contínua*. Insper, 2026.
+- ABREU, Laura Almeida R. de; BARROS, Ricardo Paes de; FRANCO, Samuel; MACHADO, Laura Muller. *Bolsas de estudo e evasão: avaliação de impacto ex-ante*. Insper, 2025.
 
 ## Data de corte
 

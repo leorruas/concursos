@@ -40,7 +40,7 @@ A pergunta de controle é: **se a FGV trocar o fato concreto, o fundamento conti
 ## Geopolítica e relações internacionais
 
 - [[08 - organizacoes internacionais e blocos|Organizações internacionais e blocos: ONU, Conselho de Segurança, OTAN, UE, Mercosul, BRICS e G20]]
-- [[19 - relacoes internacionais e fatos globais 2026|🆕 Relações internacionais e fatos globais — Atualidades 2026]]
+- [[19 - relacoes internacionais e fatos globais 2026|🔄 Relações internacionais e fatos globais — Atualidades 2026]]
 - Conflitos específicos e mudanças de alianças devem entrar como snapshots quando tiverem relevância de prova.
 
 ## Sociedade e indicadores sociais

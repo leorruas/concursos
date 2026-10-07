@@ -172,7 +172,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Atualidades/16 - transportes mobilidade e infraestrutura 2026|🆕 16 • Transportes, mobilidade e infraestrutura — Atualidades 2026]]
   - [[3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026|🔄 17 • Educação e políticas educacionais — Atualidades 2026]]
   - [[3 - Materias/Atualidades/18 - cultura midia e temas sociais 2026|🆕 18 • Cultura, mídia e temas sociais — Atualidades 2026]]
-  - [[3 - Materias/Atualidades/19 - relacoes internacionais e fatos globais 2026|🆕 19 • Relações internacionais e fatos globais — Atualidades 2026]]
+  - [[3 - Materias/Atualidades/19 - relacoes internacionais e fatos globais 2026|🔄 19 • Relações internacionais e fatos globais — Atualidades 2026]]
   - [[3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic|Snapshot • IPCA de agosto e Selic — 14/09/2026]]
 - [[3 - Materias/Redacao/redacao|Redação]]
   - [[3 - Materias/Redacao/01 - leitura do tema e projeto de texto|01 • Leitura do tema e projeto de texto]]

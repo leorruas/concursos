@@ -1,15 +1,15 @@
 ---
-title: "🆕 Relações internacionais e fatos globais — Atualidades 2026"
+title: "🔄 Relações internacionais e fatos globais — Atualidades 2026"
 type: "snapshot-conjuntural"
 status: "ativo"
 layer: "snapshot_conjuntural"
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-10-06
 data_corte: 2026-10-03
 revalidar: true
 ---
 
-# 🆕 Relações internacionais e fatos globais — Atualidades 2026
+# 🔄 Relações internacionais e fatos globais — Atualidades 2026
 
 > Snapshot conjuntural. Revalidar antes de usar futuramente.
 
@@ -31,127 +31,261 @@ O eixo de relações internacionais do edital é amplo. Para a reta final, o mel
 ### 1. 81ª sessão da Assembleia Geral da ONU e Semana de Alto Nível
 
 > [!CAUTION]
-> **Baixa prioridade para a Dataprev 2026:** os detalhes do Debate Geral de 22–28/09 ficam muito próximos da provável fase de fechamento editorial do caderno. Para esta prova, priorize a distinção **Assembleia Geral × Conselho de Segurança**, não a decoreba do tema ou da agenda específica da semana.
+> **Baixa prioridade para a Dataprev 2026:** os detalhes do Debate Geral de 22–28/09 ficam muito próximos da provável fase de fechamento editorial do caderno. Para esta prova, priorize **o que é a Assembleia Geral e como ela se diferencia do Conselho de Segurança**.
 
-A **81ª sessão da Assembleia Geral das Nações Unidas** foi aberta em **8 de setembro de 2026**.
+A **Assembleia Geral da ONU** é o órgão em que estão representados os **193 Estados-membros**, cada um com **um voto**. Ela funciona em sessões anuais: a 81ª sessão começou em **8 de setembro de 2026**.
 
-O Debate Geral ocorreu entre **22 e 28 de setembro de 2026**, sob a presidência de **Khalilur Rahman**, de Bangladesh.
+A chamada **Semana de Alto Nível** é o período em que chefes de Estado, chefes de governo e ministros se concentram em Nova York para discursos, reuniões e negociações diplomáticas. O **Debate Geral** faz parte desse período, mas não é uma “eleição mundial” nem um órgão separado da ONU.
 
-O tema da sessão é:
+Em 2026, o presidente da 81ª sessão é **Khalilur Rahman**, de Bangladesh.
 
-> **“Restoring trust, managing transformation: A United Nations that delivers for all.”**
+#### O que isso significa na prática?
 
-A Assembleia Geral reúne os **193 Estados-membros**, cada um com um voto. Em 2026, a Semana de Alto Nível concentrou debates sobre paz e segurança, desenvolvimento sustentável, mudança climática, elevação do nível do mar, preparação para pandemias, combate ao racismo e desarmamento nuclear.
+A Assembleia Geral funciona como grande fórum político e representativo da ONU. Ela:
+
+- debate temas internacionais;
+- aprova resoluções;
+- aprova orçamento e decisões internas da organização;
+- participa de processos como a nomeação do secretário-geral;
+- dá visibilidade política à posição da maioria dos Estados.
+
+Em temas de paz e segurança, porém, suas resoluções **em regra não têm o mesmo poder coercitivo das decisões do Conselho de Segurança adotadas nos termos da Carta**.
 
 > [!IMPORTANT]
-> **Assembleia Geral ≠ Conselho de Segurança.**  
-> A Assembleia é o principal órgão deliberativo e representativo da ONU. O poder de veto dos cinco membros permanentes existe no Conselho de Segurança, não na Assembleia Geral.
+> **Assembleia Geral ≠ Conselho de Segurança.**
+>
+> **Assembleia Geral:** todos os membros, um voto por Estado, grande fórum deliberativo e representativo.  
+> **Conselho de Segurança:** 15 membros, responsabilidade principal por paz e segurança; os cinco permanentes possuem poder de veto em decisões substantivas.
+
+A FGV pode transformar “a Assembleia aprovou uma resolução” em “a ONU obrigou militarmente os países a cumprir a medida”. Essa passagem é indevida.
 
 ### 2. A ONU está escolhendo o sucessor de António Guterres
 
-O segundo mandato de **António Guterres** termina em **31 de dezembro de 2026**. O processo de escolha do próximo secretário-geral está em andamento.
+O segundo mandato de **António Guterres** termina em **31 de dezembro de 2026**. O processo de escolha do próximo secretário-geral foi formalmente iniciado em 2025 e avançou ao longo de 2026 com candidaturas, documentos de visão, diálogos públicos e análise pelo Conselho de Segurança.
 
-A regra central está no **art. 97 da Carta das Nações Unidas**:
+#### Antes: o que faz o secretário-geral?
 
-> o secretário-geral é **nomeado pela Assembleia Geral mediante recomendação do Conselho de Segurança**.
+O secretário-geral é o **chefe administrativo da ONU** e uma das principais figuras diplomáticas da organização. Ele coordena o Secretariado, representa a ONU, pode chamar atenção do Conselho de Segurança para ameaças à paz e exerce funções de mediação e diplomacia.
 
-Durante 2026 houve apresentação de candidaturas, diálogos públicos na Assembleia Geral e rodadas de consideração no Conselho de Segurança.
+Ele **não é um “presidente do mundo”** e não governa os Estados-membros.
 
-Na data de corte deste artigo, **3 de outubro de 2026**, o processo ainda estava em curso e não havia sucessor formalmente nomeado pela Assembleia Geral.
+#### Como é escolhido?
 
-> [!WARNING]
-> **Conselho de Segurança recomenda; Assembleia Geral nomeia.**  
-> A Assembleia não escolhe de forma independente ignorando a recomendação do Conselho.
+O art. 97 da Carta estabelece:
 
-### 3. Guerra na Ucrânia continua e permanece no centro da agenda da ONU
+> **Conselho de Segurança recomenda → Assembleia Geral nomeia.**
 
-Em setembro de 2026, a guerra decorrente da invasão em larga escala da Ucrânia pela Rússia já passava de quatro anos.
+Isso cria uma divisão importante.
 
-A Assembleia Geral voltou a defender:
+O Conselho de Segurança não faz apenas uma consulta simbólica: sem sua recomendação, a Assembleia Geral não pode simplesmente escolher outro nome. Como a recomendação é decisão substantiva do Conselho, a posição dos cinco membros permanentes — **China, Estados Unidos, França, Reino Unido e Rússia** — tem enorme peso e pode bloquear uma candidatura por veto.
 
-- cessar-fogo imediato, completo e incondicional;
-- respeito à soberania, independência, unidade e integridade territorial da Ucrânia;
-- retirada das forças russas do território ucraniano;
-- busca de uma paz abrangente, justa e duradoura em conformidade com a Carta da ONU.
-
-O tema também apareceu no Debate Geral da 81ª sessão.
-
-A distinção de prova é importante:
-
-> **pedido ou resolução da Assembleia Geral ≠ execução automática da medida no terreno.**
-
-A Assembleia possui forte peso político e diplomático, mas não funciona como um governo mundial capaz de impor diretamente um cessar-fogo.
-
-### 4. Gaza: cessar-fogo vigente, mas situação continua frágil
-
-Segundo relatório da ONU de setembro de 2026, o cessar-fogo em Gaza entrou em vigor em **10 de outubro de 2025** e encerrou as hostilidades em grande escala, mas permaneceu **frágil**.
-
-A ONU registrou em 2026:
-
-- continuidade de ataques e episódios de violência;
-- graves restrições e desafios humanitários;
-- ausência de desarmamento do Hamas e de outros grupos armados;
-- recuperação e reconstrução ainda muito abaixo das necessidades;
-- manutenção da solução de dois Estados como referência política defendida pelas Nações Unidas.
-
-Em reunião de alto nível de setembro de 2026, o secretário-geral voltou a defender dois Estados soberanos, com base nas linhas anteriores a 1967, em conformidade com o direito internacional e resoluções pertinentes.
-
-> [!IMPORTANT]
-> **Cessar-fogo ≠ acordo de paz definitivo.**  
-> A interrupção das hostilidades em grande escala não resolve automaticamente fronteiras, segurança, governança, reconhecimento, reconstrução ou o status político final.
-
-### 5. Acordo Mercosul–União Europeia passou da assinatura para aplicação provisória
-
-Em **17 de janeiro de 2026**, em Assunção, Mercosul e União Europeia assinaram o **Acordo de Associação** e o **Acordo Interino de Comércio**.
-
-Depois da conclusão dos procedimentos internos necessários pelos países do Mercosul, o Acordo Interino de Comércio passou a ser **aplicado provisoriamente a partir de 1º de maio de 2026**.
-
-A Comissão Europeia registra que, com a aplicação provisória, o acordo comercial tornou-se vinculante sob o direito internacional entre as partes abrangidas.
-
-Essa sequência é excelente para distrator:
-
-1. negociação concluída;
-2. assinatura;
-3. procedimentos internos;
-4. aplicação provisória do acordo comercial;
-5. processos mais amplos de ratificação do acordo de associação.
+Depois da recomendação, a Assembleia Geral formaliza a nomeação.
 
 > [!WARNING]
-> **Assinatura ≠ ratificação integral.**  
-> E **aplicação provisória do acordo comercial ≠ conclusão de todas as etapas do acordo de associação mais amplo**.
+> **Conselho recomenda; Assembleia nomeia.**
+>
+> Não confunda participação pública dos candidatos na Assembleia com poder da Assembleia para ignorar o Conselho de Segurança.
 
-### 6. Cúpula da OTAN em Ancara reafirmou defesa coletiva
+Na data de corte deste artigo, **3 de outubro de 2026**, ainda não havia sucessor formalmente nomeado.
 
-A cúpula da **OTAN** de 2026 ocorreu em **Ancara, Turquia, em 7 e 8 de julho**.
+### 3. Guerra na Ucrânia: por que a ONU aparece tanto no tema?
 
-A declaração final reafirmou:
+A guerra em larga escala começou com a invasão russa da Ucrânia em **fevereiro de 2022** e seguia em curso em 2026.
 
-- o compromisso com a defesa coletiva do **art. 5º** do Tratado do Atlântico Norte;
-- a abordagem de dissuasão e defesa em 360 graus;
-- a Rússia como ameaça de longo prazo à segurança euro-atlântica;
-- a continuidade dos compromissos de fortalecimento das capacidades de defesa.
+A Assembleia Geral reiterou posições como:
+
+- defesa da soberania e da integridade territorial da Ucrânia;
+- retirada das forças russas;
+- cessar-fogo;
+- busca de uma paz justa e duradoura conforme a Carta da ONU.
+
+#### Por que isso costuma aparecer na Assembleia Geral?
+
+A Rússia é **membro permanente do Conselho de Segurança** e possui poder de veto. Isso limita a possibilidade de o Conselho aprovar medidas substantivas contra a própria Rússia.
+
+A Assembleia Geral não substitui o Conselho, mas permite que o conjunto dos Estados expresse uma posição política mais ampla.
+
+Por isso, é importante distinguir:
+
+> **resolução da Assembleia Geral = forte sinal político e diplomático**  
+> **≠ execução militar automática**
+
+Esse é o tipo de inversão que a FGV pode usar: transformar uma manifestação política multilateral em mecanismo automático de imposição.
+
+### 4. Gaza: cessar-fogo não é o mesmo que paz
+
+O conflito em Gaza se intensificou a partir de **7 de outubro de 2023**, com os ataques do Hamas contra Israel e a guerra subsequente.
+
+Segundo relatório da ONU, um cessar-fogo entrou em vigor em **10 de outubro de 2025** e encerrou as hostilidades em grande escala, mas não eliminou episódios de violência nem resolveu as questões políticas centrais.
+
+Em 2026 permaneciam problemas como:
+
+- ataques e mortes;
+- crise humanitária e restrições de acesso;
+- reconstrução insuficiente;
+- desarmamento de grupos armados;
+- definição de governança futura;
+- status político dos territórios palestinos.
+
+#### O que significa “solução de dois Estados”?
+
+É a proposta de coexistência de:
+
+- **Israel**;
+- um **Estado palestino soberano**,
+
+com arranjos negociados sobre fronteiras, segurança, Jerusalém, refugiados e outras questões.
+
+A ONU continua tratando essa solução como referência política, frequentemente com base nas linhas anteriores a 1967 e negociações sobre eventuais ajustes.
 
 > [!IMPORTANT]
-> **OTAN ≠ União Europeia.**  
-> Há sobreposição de membros, mas a OTAN é uma aliança político-militar de defesa coletiva; a UE é um processo de integração regional com instituições e competências próprias.
+> **Cessar-fogo = interromper ou reduzir hostilidades.**  
+> **Acordo de paz = resolver politicamente o conflito de forma mais abrangente.**
+>
+> Um cessar-fogo pode existir sem resolver fronteiras, reconhecimento, segurança, governança e reconstrução.
 
-Também é perigoso transformar o art. 5º em fórmula automática de resposta militar idêntica: cada aliado toma as medidas que considerar necessárias nos termos do tratado.
+### 5. Mercosul–União Europeia: o que o acordo significa de fato?
+
+Esse é um dos fatos de maior utilidade para prova porque mistura **comércio internacional + integração regional + etapas jurídicas**.
+
+As negociações entre União Europeia e Mercosul começaram ainda em **2000**. Depois de décadas de negociação, os quatro países do Mercosul que participam deste acordo — **Argentina, Brasil, Paraguai e Uruguai** — e a União Europeia assinaram, em **17 de janeiro de 2026**, dois instrumentos paralelos:
+
+1. **Acordo de Parceria/Associação UE–Mercosul (EMPA)**;
+2. **Acordo Interino de Comércio (iTA)**.
+
+#### O que eles pretendem fazer?
+
+A ideia central é **reduzir barreiras econômicas e criar regras comuns para ampliar comércio e investimento entre os dois blocos**.
+
+O componente comercial trata de temas como:
+
+- redução ou eliminação gradual de tarifas de importação;
+- regras de origem;
+- serviços;
+- compras governamentais;
+- propriedade intelectual;
+- barreiras técnicas;
+- medidas sanitárias e fitossanitárias;
+- desenvolvimento sustentável.
+
+Para o Mercosul, o acordo amplia o **acesso preferencial ao mercado europeu**. O próprio Mercosul informa que a UE eliminará tarifas para cerca de **92% das exportações mercosulinas** e oferecerá acesso preferencial para parcela adicional.
+
+Na direção contrária, produtos industriais e serviços europeus também passam a ter melhores condições de entrada nos mercados do Mercosul. A abertura não ocorre toda de uma vez: muitos setores têm **cronogramas graduais de redução tarifária**, justamente para permitir adaptação.
+
+#### Por que existem dois acordos?
+
+Porque o acordo mais amplo envolve não apenas comércio, mas também **diálogo político e cooperação**.
+
+O **Acordo de Parceria (EMPA)** contém:
+
+- pilar político;
+- pilar de cooperação;
+- pilar comercial.
+
+Já o **Acordo Interino de Comércio (iTA)** separa o componente comercial para permitir que ele comece a operar antes de terminar toda a ratificação do acordo mais amplo.
+
+#### Então o que significa “aplicação provisória desde 1º de maio de 2026”?
+
+Não significa “teste informal” nem “acordo sem validade”.
+
+Significa que, depois do cumprimento dos procedimentos internos exigidos, **as regras do acordo comercial passaram a produzir efeitos jurídicos e econômicos antes da conclusão de todas as ratificações necessárias ao Acordo de Parceria completo**.
+
+A partir de **1º de maio de 2026**, o iTA passou a ser aplicado provisoriamente. A Comissão Europeia registra que ele se tornou vinculante internacionalmente entre as partes abrangidas.
+
+Enquanto isso, o EMPA mais amplo continua seu processo de ratificação. Quando o Acordo de Parceria entrar plenamente em vigor, ele substituirá o acordo comercial interino.
+
+A sequência correta é:
+
+1. negociação;
+2. acordo político;
+3. assinatura;
+4. procedimentos internos;
+5. **aplicação provisória do acordo comercial**;
+6. ratificação completa do acordo de parceria;
+7. entrada plena do acordo mais amplo.
+
+> [!WARNING]
+> **Assinatura ≠ entrada em vigor integral.**  
+> **Aplicação provisória ≠ “não vale ainda”.**  
+> **Acordo comercial interino ≠ todo o acordo de parceria.**
+
+#### Por que isso importa para o Brasil?
+
+Porque a União Europeia é um dos principais parceiros comerciais do Mercosul. O acordo tende a:
+
+- ampliar mercado para exportadores;
+- reduzir custos de importação de alguns bens e insumos;
+- aumentar concorrência em determinados setores;
+- exigir adaptação a regras técnicas, ambientais e sanitárias;
+- aprofundar a integração econômica entre as duas regiões.
+
+Isso não significa que **todo setor ganha igualmente**. A abertura cria oportunidades para alguns segmentos e pressão competitiva para outros.
+
+### 6. Cúpula da OTAN em Ancara: o que é a defesa coletiva?
+
+A **OTAN — Organização do Tratado do Atlântico Norte** é uma aliança político-militar criada em 1949.
+
+Sua lógica central é a **defesa coletiva**: os países membros assumem que a segurança de um está ligada à segurança dos demais.
+
+Na Cúpula de **Ancara, em 7 e 8 de julho de 2026**, os aliados reafirmaram o compromisso com o **art. 5º** do Tratado do Atlântico Norte e trataram a Rússia como ameaça de longo prazo à segurança euro-atlântica.
+
+#### O que o art. 5º realmente diz?
+
+Um ataque armado contra um ou mais membros é considerado um ataque contra todos.
+
+Mas há uma pegadinha importante: isso **não significa que todos estejam juridicamente obrigados a responder com exatamente a mesma ação militar**.
+
+O tratado diz que cada aliado prestará assistência adotando **a ação que considerar necessária**, inclusive — mas não necessariamente — o uso da força armada.
+
+> [!TIP]
+> **Art. 5º = obrigação de assistência coletiva, não roteiro militar automático e idêntico para todos.**
+
+#### OTAN × União Europeia
+
+Também não confunda:
+
+- **OTAN** → aliança de segurança e defesa coletiva;
+- **União Europeia** → integração política, econômica e jurídica muito mais ampla.
+
+Há vários membros em comum, mas são instituições diferentes, com tratados, membros e competências diferentes.
 
 ### 7. Índia exerce a presidência do BRICS em 2026
 
-A presidência rotativa do **BRICS** passou do Brasil para a **Índia** para o ano de 2026.
+Antes de entender a presidência, é preciso entender **o que é o BRICS**.
 
-O fato conjuntural deve ser lido junto ao fundamento institucional:
+O BRICS é um **foro de articulação político-diplomática e cooperação de países do Sul Global**. Em 2026, reúne **11 membros**.
 
-- BRICS é um mecanismo de coordenação e cooperação;
+Ele não funciona como a União Europeia nem como uma organização internacional clássica:
+
 - não possui tratado constitutivo;
-- não possui orçamento próprio;
+- não possui orçamento próprio do agrupamento;
 - não possui secretariado permanente;
-- a presidência é rotativa.
+- suas decisões políticas são construídas por consenso.
+
+> [!IMPORTANT]
+> **BRICS não é um “governo dos emergentes” nem um bloco supranacional.**
+
+#### Então o que significa a Índia “presidir” o BRICS?
+
+A presidência é **rotativa e anual**.
+
+O país que exerce a presidência:
+
+- organiza reuniões;
+- coordena o calendário;
+- define e articula prioridades da agenda;
+- prepara a cúpula anual;
+- conduz parte da interlocução política do grupo naquele ano.
+
+O Brasil presidiu o BRICS em 2025 e a **Índia assumiu a presidência em 2026**.
+
+Isso não dá à Índia poder de mando sobre China, Brasil, Rússia ou qualquer outro membro.
 
 > [!WARNING]
-> **Presidir o BRICS ≠ comandar os demais membros.**  
-> A presidência organiza e coordena a agenda anual, sem criar hierarquia entre os Estados participantes.
+> **Presidência rotativa = coordenação da agenda.**  
+> **≠ autoridade hierárquica sobre os demais países.**
+
+Uma pegadinha adicional: embora o BRICS em si não tenha secretariado permanente nem tratado constitutivo, ele criou instituições específicas, como o **Novo Banco de Desenvolvimento (NDB)**, que possui estrutura própria. Não confunda a natureza informal do agrupamento com a natureza jurídica de instituições criadas pelos seus membros.
 
 ## Por que importa
 
@@ -256,7 +390,9 @@ Fontes oficiais verificadas em 03/10/2026:
 - ONU, reunião de alto nível sobre a solução de dois Estados: https://www.un.org/unispal/document/sg-statement-22sep26/
 - Mercosul, assinatura do acordo com a União Europeia: https://www.mercosur.int/pt-br/comunicado-conjunto-sobre-a-assinatura-do-acordo-de-associacao-entre-o-mercosul-e-a-uniao-europeia
 - Comissão Europeia, texto e aplicação provisória do Acordo Interino de Comércio: https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/mercosur/eu-mercosur-agreement/text-agreement_en
+- Comissão Europeia, relações comerciais UE–Mercosul e escopo do acordo: https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/mercosur_en
 - OTAN, Cúpula de Ancara 2026: https://www.nato.int/en/news-and-events/events/event-programmes/2026/07/nato-summit-2026
+- OTAN, Tratado do Atlântico Norte, art. 5º: https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/1949/04/04/the-north-atlantic-treaty
 - BRICS Brasil, perguntas frequentes: https://brics.br/pt-br/sobre-o-brics/perguntas-frequentes-sobre-o-brics
 - BRICS Brasil, passagem da presidência para a Índia: https://brics.br/pt-br/noticias/brasil-passa-a-presidencia-do-brics-para-a-india
 

@@ -27,7 +27,6 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 ## 4 - Projetos
 - [[4 - Projetos/cgu-2026/00 Dashboard|CGU 2026: Auditoria (projeto prioritário pós-Dataprev)]]
   - [[4 - Projetos/cgu-2026/O que estudar|O que estudar: programa e cobertura do vault]]
-  - [[4 - Projetos/cgu-2026/Estrategia|Estratégia Cebraspe e cronograma]]
   - [[4 - Projetos/cgu-2026/Discursiva|Discursiva: 30 e 60 linhas]]
 - [[00 Dashboard|Dataprev 2026 (Dashboard)]]
   - [[4 - Projetos/dataprev-2026/O que estudar|O que estudar (Checklist)]]
@@ -56,6 +55,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[3 - Materias/Estrategia de Prova/estrategia-de-prova|Estratégia de prova]]
   - [[3 - Materias/Estrategia de Prova/FGV - Dataprev e corpus de Comunicacao|FGV: Dataprev e corpus de Comunicação]]
   - [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]]
+  - [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|Cebraspe: CGU 2026 Auditoria e método C/E]]
 - [[3 - Materias/Portugues/portugues|Língua portuguesa]]
   - [[3 - Materias/Portugues/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Portugues/01 - interpretacao de texto|01 • Interpretação de texto]]

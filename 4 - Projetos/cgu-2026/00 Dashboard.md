@@ -18,7 +18,7 @@ updated: 2026-10-09
 ## Acessos do projeto
 
 - [[4 - Projetos/cgu-2026/O que estudar|O que estudar: checklist do edital e cobertura real do vault]]
-- [[4 - Projetos/cgu-2026/Estrategia|Estratégia Cebraspe, fases e controle de desempenho]]
+- [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|Estratégia de prova Cebraspe: Auditoria]]
 - [[4 - Projetos/cgu-2026/Discursiva|Duas discursivas: treino e correção]]
 - [[1 - Planejamento/Roadmap Dataprev e proximos alvos|Prioridades entre concursos]]
 

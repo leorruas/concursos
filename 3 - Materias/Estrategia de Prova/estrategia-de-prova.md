@@ -3,7 +3,7 @@ title: "Estratégia de prova"
 type: "hub"
 status: "ativo"
 created: 2026-09-30
-updated: 2026-10-03
+updated: 2026-10-09
 ---
 
 # Estratégia de prova
@@ -29,6 +29,7 @@ Não transportar automaticamente conclusões de uma banca, órgão ou cargo para
 
 - [[FGV - Dataprev e corpus de Comunicacao|FGV: Dataprev e corpus de Comunicação]]: corpus prioritário, mecanismos recorrentes de cobrança e consequências para o treino da Dataprev.
 - [[Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]]: análise de itens C/E, mecanismos de erro, estratégia de resposta e consequências para o treino da Câmara.
+- [[Cebraspe - CGU 2026 Auditoria e metodo C E|Cebraspe: CGU 2026, Auditoria e método C/E]]: pesos próprios, cortes por bloco, decisões C/E/branco, discursivas e fases de preparação.
 
 ## Relações
 

@@ -19,7 +19,7 @@ Checklist permanente e histórico de pendências por concurso. **Atualizar este 
 - [ ] Distinguir dados oficiais, hipóteses do agente e metas pessoais.
 
 ### Diagnóstico de cobertura e estudos
-- [ ] Criar `4 - Projetos/<concurso-id>/` com painel, `O que estudar`, estratégia e preparação discursiva conforme edital.
+- [ ] Criar `4 - Projetos/<concurso-id>/` com painel, `O que estudar` e preparação discursiva conforme edital. **A estratégia de prova pertence à pasta canônica `3 - Materias/Estrategia de Prova/`**, junto às outras bancas/concursos; vincular a nota ao painel e ao índice, sem criar cópia em `4 - Projetos/`.
 - [ ] Comparar **cada subtema** com o vault: cobertura documental integral, parcial ou ausente; `coberturaNota` não significa `exposicaoEstudo` nem domínio.
 - [ ] Identificar lacunas, pesos, mínimos e competências transversais; priorizar sem eliminar conteúdos obrigatórios.
 - [ ] Criar corpus de provas reais aderentes (banca, ano, cargo, item, gabarito definitivo, validade legal); manter métricas separadas por concurso.
@@ -43,14 +43,15 @@ Checklist permanente e histórico de pendências por concurso. **Atualizar este 
 Projeto: [[4 - Projetos/cgu-2026/00 Dashboard|CGU 2026]]. Referência: [[2 - Editais/CGU 2026 - Auditoria|Edital]].
 
 ### Entregas
-- [x] Projeto criado com quatro documentos: painel, checklist, estratégia e discursiva.
+- [x] Projeto iniciado com painel, checklist e discursiva; estratégia de prova transferida para `3 - Materias/Estrategia de Prova/` após correção de estrutura em 09/10/2026.
 - [x] Mapeamento inicial do reaproveitamento e lacunas contra o vault.
 - [x] Novo edital registrado no `index.md` e nas regras de prioridade após a Dataprev.
 - [x] Diagnóstico da ausência no Pages: `4 - Projetos/` excluído por padrão; CGU ausente no `data/concursos.json`.
 - [x] Opt-in das quatro páginas CGU para publicação e cadastro CGU no JSON da home.
 - [x] Adicionada validação no build para impedir `dashboardPath` fora do catálogo público.
 - [x] CI, build, verificações de privacidade e manifesto do Pages confirmados em 09/10/2026: [workflow de publicação](https://github.com/leorruas/concursos/actions/runs/37923202287).
-- [ ] Verificar manualmente no navegador a jornada home → CGU → painel → checklist; a validação automática não substitui essa prova visual.
+- [x] Estratégia CGU consolidada no hub existente de Estratégia de Prova, com remoção do arquivo de projeto redundante.
+- [ ] Verificar manualmente no navegador a jornada home → CGU → painel → checklist e estratégia; a validação automática não substitui essa prova visual.
 
 ### Próximos trabalhos de conteúdo
 - [ ] Confrontar o checklist detalhadamente com o PDF oficial e eventuais retificações.

@@ -10,7 +10,7 @@ updated: 2026-10-09
 
 # CGU 2026: Auditoria | O que estudar
 
-Mapa dos **objetos de avaliação do item 15 do edital CGU nº 1/2026**, para o **Cargo 1: Auditoria**, cruzados com o conteúdo existente no vault. A ordem dos blocos abaixo é a do edital; a prioridade prática está em [[4 - Projetos/cgu-2026/Estrategia|Estratégia]].
+Mapa dos **objetos de avaliação do item 15 do edital CGU nº 1/2026**, para o **Cargo 1: Auditoria**, cruzados com o conteúdo existente no vault. A ordem dos blocos abaixo é a do edital; a prioridade prática está em [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|Estratégia]].
 
 ## Como interpretar o acompanhamento
 

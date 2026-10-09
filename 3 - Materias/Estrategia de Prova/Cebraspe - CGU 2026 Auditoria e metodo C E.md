@@ -1,14 +1,12 @@
 ---
-title: "CGU 2026 Auditoria - Estrategia"
-type: "guia"
+title: "Cebraspe: CGU 2026, Auditoria e método C/E"
+type: "conceito"
 status: "ativo"
-public: true
-publicCategoria: "14. CGU 2026"
 created: 2026-10-09
 updated: 2026-10-09
 ---
 
-# CGU 2026: Estratégia de preparação | Auditoria
+# Cebraspe: CGU 2026, Auditoria e método C/E
 
 ## Arquitetura oficial e consequências
 
@@ -24,7 +22,17 @@ A objetiva ocorre de manhã, em **5 horas**, e a discursiva à tarde, em **3h30*
 
 A nota final do concurso segue **NFC = NFPO/26 + NFPD/10**, de 0 a 20 pontos. Na escala final, a objetiva vale até 10 e a discursiva até 10; cada etapa pode responder por metade da classificação. A discursiva elimina se o total for menor que 50/100.
 
-**Conseqüência de estudo:** P3 vale **180/260 pontos na objetiva**, e ainda determina o objeto da situação-problema que vale **70/100 pontos da discursiva**. Priorizar específicos sem negligenciar os mínimos por prova.
+**Consequência de estudo:** P3 vale **180/260 pontos na objetiva**, e ainda determina o objeto da situação-problema que vale **70/100 pontos da discursiva**. Priorizar específicos sem negligenciar os mínimos por prova.
+
+## Execução da objetiva e da discursiva
+
+A CGU tem duas provas no mesmo dia. A objetiva de 5 horas exige **julgamento rápido e controle de risco**, mas os cortes de P1, P2 e P3 precisam ser acompanhados separadamente; o peso 2 de P3 não compensa uma eliminação por desempenho mínimo insuficiente nas demais.
+
+**Sequência sugerida para testar em simulados (estratégia, não exigência do edital):** começar pelo bloco em que houver melhor equilíbrio entre precisão e velocidade, percorrer todos os itens antes de gastar tempo excessivo nos duvidosos, marcar para retorno aqueles que exigirem cálculo ou conferência, reservar margem para transferência ao cartão-resposta. Só estabelecer uma ordem fixa entre P1/P2/P3 depois de medir o próprio tempo e os erros em provas completas.
+
+Na discursiva, ler os dois comandos e separar os **quesitos explícitos** antes de redigir. Distribuir o tempo considerando a situação-problema (70 pontos, 60 linhas) e a questão complementar (30 pontos, 30 linhas), preservando minutos para revisão de cobertura, coesão e transcrição. Testar a distribuição de tempo e a legibilidade em condições de prova, sem presumir o tema da banca.
+
+Para cada item C/E, procurar a menor parte que decide o julgamento: sujeito competente, norma aplicável, critério, condição, exceção, relação causal, momento do procedimento ou conclusão acima do alcance da evidência. Registrar os brancos como decisão de risco, e não automaticamente como erro de conhecimento.
 
 ## Mecânica de decisão em C/E
 

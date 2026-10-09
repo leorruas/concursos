@@ -41,7 +41,6 @@ function caminhoPublicoSeguro(sourcePath) {
     '00 inbox/',
     '1 - Planejamento/',
     '2 - Editais/',
-    '4 - Projetos/',
     '.agent/',
     '.git/',
     '.github/',
@@ -50,9 +49,13 @@ function caminhoPublicoSeguro(sourcePath) {
   ];
   const nomesPrivados = new Set(['me.md', 'agents.md', 'log.md', 'todo.md']);
 
-  return Boolean(p) &&
-    !prefixosPrivados.some(prefixo => p.startsWith(prefixo)) &&
-    !nomesPrivados.has(nome);
+  if (!p || nomesPrivados.has(nome) || prefixosPrivados.some(prefixo => p.startsWith(prefixo))) return false;
+  if (p.startsWith('4 - Projetos/')) {
+    const origem = path.join(rootDir, p);
+    return fs.existsSync(origem) &&
+      /^public:\s*true\s*$/m.test(fs.readFileSync(origem, 'utf8'));
+  }
+  return true;
 }
 
 console.log('=== AUDITORIA DO ÍNDICE DE BUSCA PUBLICADO ===');

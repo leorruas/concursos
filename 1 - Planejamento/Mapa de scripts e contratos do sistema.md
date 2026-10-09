@@ -380,3 +380,9 @@ A CGU não aparecia no site apesar de o workflow estar verde: o filtro de `scrip
 - Pendências e rotinas futuras: [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]].
 
 Limite: testes de manifesto não substituem a verificação visual da navegação em navegador.
+
+### Refinamento dos validadores de privacidade (09/10/2026)
+
+O primeiro CI da CGU falhou após o build: `scripts/validate-search-index.js` e `scripts/validate-integrity.js --audit-site` mantinham proibição total de `4 - Projetos/`, incompatível com o novo opt-in.
+
+Os dois validadores agora tratam projeto como privado por padrão e aceitam **somente** Markdown cujo conteúdo de origem possui `public: true`. A auditoria do artefato deixa de rejeitar o diretório completo e avalia seus arquivos individualmente. A lista de proibições para `me.md`, `AGENTS.md`, `log.md`, editais de referência e planejamento continua inalterada.

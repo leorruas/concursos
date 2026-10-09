@@ -3,6 +3,8 @@
 .obsidian/workspace*
 .obsidian/cache/
 *.pdf
+# Exceção controlada: arquivo oficial de provas-espelho, com hashes SHA-256.
+!assets/provas-espelho/*.pdf
 *.csv
 * 2.*
 * 2

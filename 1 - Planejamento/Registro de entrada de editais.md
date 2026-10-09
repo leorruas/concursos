@@ -49,7 +49,8 @@ Projeto: [[4 - Projetos/cgu-2026/00 Dashboard|CGU 2026]]. Referência: [[2 - Edi
 - [x] Diagnóstico da ausência no Pages: `4 - Projetos/` excluído por padrão; CGU ausente no `data/concursos.json`.
 - [x] Opt-in das quatro páginas CGU para publicação e cadastro CGU no JSON da home.
 - [x] Adicionada validação no build para impedir `dashboardPath` fora do catálogo público.
-- [ ] Conferir CI do HEAD final, manifesto ao vivo e navegação visual.
+- [x] CI, build, verificações de privacidade e manifesto do Pages confirmados em 09/10/2026: [workflow de publicação](https://github.com/leorruas/concursos/actions/runs/37923202287).
+- [ ] Verificar manualmente no navegador a jornada home → CGU → painel → checklist; a validação automática não substitui essa prova visual.
 
 ### Próximos trabalhos de conteúdo
 - [ ] Confrontar o checklist detalhadamente com o PDF oficial e eventuais retificações.

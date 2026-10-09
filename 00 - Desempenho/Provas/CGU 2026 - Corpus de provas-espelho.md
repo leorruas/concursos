@@ -45,16 +45,30 @@ Links externos são mantidos mesmo após arquivamento. Não afirmar que o PDF es
 - **Prova histórica ≠ norma vigente**. Conferir legislação, manuais e jurisprudência aplicáveis ao edital 2026.
 - O corpus bruto nunca deve ser somado a `data/provas.json` como desempenho do candidato; essa estrutura registra **provas realizadas e comparabilidade**.
 
+## Indexação-piloto de itens reais (sem transcrição do enunciado)
+
+Quatro itens da prova **CGU 2022 / Auditoria e Fiscalização / TARDE / TIPO 1** foram associados ao gabarito **definitivo retificado**, identificado na **página 17** do PDF de gabaritos. Os números abaixo são da numeração original do caderno, não da CGU 2026.
+
+| Item original | Página do caderno | Mecanismo observado | Gabarito oficial | Relação com CGU 2026 |
+| :---: | :---: | :--- | :---: | :--- |
+| 1 | 3 | Livre iniciativa × restrição fiscal como sanção política | **B** | P1 / Constitucional |
+| 4 | 4 | Requisitos de CPI × deliberação política da direção | **D** | P1 / Controles e democracia |
+| 6 | 5 | Iniciativa legislativa em matéria tributária × veto | **D** | P1 / Estado e instituições |
+| 11 | 6 | Improbidade e entidades privadas financiadas pelo poder público | **D** | P2 / Responsabilização |
+
+O registro estruturado está em `data/corpus-itens.json`; o estado **`validadeNormativa: revalidar_2026`** proíbe tratar esses itens como diagnóstico atual pronto até conferir a legislação e jurisprudência vigentes. Mesmo assim, a extração de **mecanismos conceituais reais** já orienta a preparação da primeira bateria inédita de treino. Os PDFs oficiais completos continuam no acervo, para consulta do enunciado original e alternativas.
+
 ## Pendências auditáveis
 
 - [x] Confirmar PDF CGU 2022, específicos, tipo 1, e gabarito definitivo.
 - [x] Confirmar PDF de caderno C/E TCU AUFC 2025/2026, conhecimentos básicos.
 - [x] Identificar por edital que CGE/AL é C/E e que TCE/MG é múltipla escolha.
-- [ ] Confirmar commit dos PDFs binários no GitHub, SHA-256 e limites de redistribuição.
+- [x] Confirmar 4 PDFs binários versionados em GitHub com tamanho e SHA-256 no manifesto; termos de redistribuição ainda exigem verificação para uso externo.
 - [ ] Localizar caderno e **gabarito definitivo da CGE/AL 2026**.
 - [ ] Localizar caderno e gabarito definitivo de TCE/MG 2026.
 - [ ] Recuperar gabarito definitivo da prova AUFC TCU e associar por modelo.
-- [ ] Indexar primeiros itens reais CGU/CGE/TCE/TCU com tema, página e validade normativa.
+- [x] Indexar piloto de quatro itens CGU 2022 (Tipo 1 / tarde) com páginas, mecanismos e gabarito definitivo, **sem ainda validar legislação 2026**.
+- [ ] Ampliar indexação CGU/CGE/TCE/TCU e verificar validade normativa de cada item.
 - [ ] Analisar amostra suficiente para medir mecanismos de cobrança antes de calibrar simulados.
 
 ## Fontes

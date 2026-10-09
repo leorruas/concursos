@@ -41,7 +41,7 @@ A estrutura do edital vigente prevalece sobre a estrutura de qualquer prova hist
 
 Para `cgu-2026`, leia `00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho.md`. **CGU 2022 FGV é referência de conteúdo/carreira, mas não do julgamento C/E**. CGE/AL 2026 usa C/E e é candidata a modelo de cobrança **após a recuperação e indexação do caderno**. TCU AUFC 2026 tem caderno C/E efetivamente localizado; seu conteúdo de TI não substitui o programa da CGU. TCE/MG 2026 Cebraspe usa **A–E**, não C/E. Não declarar prova calibrada a partir de links: conferir PDF e gabarito definitivo e ler os itens de `data/corpus-itens.json`.
 
-Se `data/corpus-itens.json` estiver vazio ou os itens pertinentes não estiverem verificados, **não afirmar calibração empírica ao caderno**. Questões podem ser produzidas com base no edital/teoria e rotuladas `provisoriamente calibradas ao edital`, sem falsa menção a padrões observados no corpus. Não apresentar questões antigas como inéditas nem reproduzir texto integral dos PDFs no simulado.
+Se `data/corpus-itens.json` estiver vazio, ou se os itens pertinentes estiverem marcados `validadeNormativa: revalidar_2026` (como a indexação-piloto CGU 2022), **não afirmar calibração empírica ao caderno**. Questões podem ser produzidas com base no edital/teoria e rotuladas `provisoriamente calibradas ao edital`, sem falsa menção a padrões observados no corpus. Não apresentar questões antigas como inéditas nem reproduzir texto integral dos PDFs no simulado.
 
 ### Hierarquia das referências
 

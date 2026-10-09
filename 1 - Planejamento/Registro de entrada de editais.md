@@ -63,9 +63,10 @@ Fontes atuais: [[2 - Editais/CGU 2026 - Auditoria|edital e checklist CGU]], [[3 
 - [ ] Confrontar o checklist detalhadamente com o PDF oficial e eventuais retificações.
 - [x] Identificar corpus inicial e formato: CGU 2022/FGV (conteúdo), CGE/AL 2026 C/E, TCU AUFC 2026 C/E e TCE/MG 2026 A–E (conteúdo).
 - [x] Criar catálogo de fontes com links oficiais, função de cada prova e documentação do pipeline para exercícios.
-- [ ] Confirmar sincronização dos PDFs no GitHub e hashes SHA-256; pesquisar termos de redistribuição.
+- [x] Confirmar quatro PDFs arquivados com hashes SHA-256 e paths efetivamente presentes no commit; pendente verificar condições de redistribuição fora do acervo.
 - [ ] Recuperar caderno e gabarito definitivo CGE/AL 2026 e gabarito definitivo TCU AUFC.
-- [ ] Indexar itens reais com numeração e gabarito definitivo, sem inventar respostas ou incidência estatística.
+- [x] Indexar quatro questões-piloto da CGU 2022 / Auditoria / Tipo 1 / tarde, com gabarito definitivo retificado e validade normativa ainda por conferir.
+- [ ] Ampliar indexação ao corpus C/E e revalidar legislação/jurisprudência dos itens antes de aferir desempenho.
 - [ ] Fazer diagnóstico por P1/P2/P3 e uma discursiva de referência, sem transferir resultados FGV.
 - [ ] Criar notas canônicas para auditoria governamental, execução orçamentária, contabilidade pública e avaliação causal.
 - [ ] Mapear subitens CGU em `data/edital-itens.json` sem inventar domínio ou estudo.

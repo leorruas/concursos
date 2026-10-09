@@ -23,7 +23,7 @@ Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, i
 
 Para todo novo edital ou retificação relevante, ler e atualizar [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] na mesma operação: fonte, dados em `data/concursos.json`, comparação com notas, projeto, preparação, índice, prioridades, publicação e pendências.
 
-Projetos em `4 - Projetos/` são **privados por padrão**. Publicar apenas as notas explicitamente autorizadas com `public: true` e `publicCategoria`. Confirmar `dashboardPath` no manifesto e a jornada da home. Workflow verde sozinho não prova visibilidade do projeto.
+Projetos em `4 - Projetos/` são **privados por padrão**. Publicar apenas as notas explicitamente autorizadas com `public: true` e `publicCategoria`. **Estratégias de prova de qualquer novo edital pertencem ao hub `3 - Materias/Estrategia de Prova/`**, com link a partir do painel do concurso; evitar cópia em `4 - Projetos/`. Confirmar `dashboardPath` no manifesto e a jornada da home. Workflow verde sozinho não prova visibilidade do projeto.
 
 ## Gate de integridade do main
 

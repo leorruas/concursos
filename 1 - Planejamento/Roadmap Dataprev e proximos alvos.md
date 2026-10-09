@@ -25,7 +25,7 @@ Prioridade total para revisão e simulados da Dataprev, com ênfase em Comunica�
 
 ## CGU publicada: foco em Auditoria
 
-A CGU será o alvo principal de **12/10 até 13/12/2026**. O projeto separa os [[4 - Projetos/cgu-2026/O que estudar|objetos do edital e a cobertura existente]], a [[4 - Projetos/cgu-2026/Estrategia|estratégia de preparação]] e a [[4 - Projetos/cgu-2026/Discursiva|prova discursiva]]. Há reutilização em Direito Administrativo, governança, LAI/LGPD, indicadores e pesquisa; as lacunas dominantes são auditoria, orçamento/contabilidade, avaliação causal, transferências e responsabilização. A CGU é **Cebraspe/C-E com pesos próprios**, sem herdar resultados, corpus ou metas FGV da Dataprev.
+A CGU será o alvo principal de **12/10 até 13/12/2026**. O projeto separa os [[4 - Projetos/cgu-2026/O que estudar|objetos do edital e a cobertura existente]], a [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia de preparação]] e a [[4 - Projetos/cgu-2026/Discursiva|prova discursiva]]. Há reutilização em Direito Administrativo, governança, LAI/LGPD, indicadores e pesquisa; as lacunas dominantes são auditoria, orçamento/contabilidade, avaliação causal, transferências e responsabilização. A CGU é **Cebraspe/C-E com pesos próprios**, sem herdar resultados, corpus ou metas FGV da Dataprev.
 
 ## Câmara publicada
 
@@ -77,7 +77,7 @@ O conhecimento já consolidado no vault continua disponível para Câmara e ANPD
 
 - [[4 - Projetos/cgu-2026/00 Dashboard|CGU 2026: Auditoria]]
 - [[4 - Projetos/cgu-2026/O que estudar|CGU: checklist]]
-- [[4 - Projetos/cgu-2026/Estrategia|CGU: estratégia]]
+- [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|CGU: estratégia]]
 
 - [[2 - Editais/Dataprev 2026 (Original)|Dataprev 2026]]
 - [[4 - Projetos/dataprev-2026/Cronograma|Cronograma Dataprev]]

@@ -1,6 +1,75 @@
 {
   "versao": 1,
   "concursoAlvo": "cgu-2026",
-  "metadados": "Índice de itens reais: começa sem transcrições ou gabaritos não confirmados; ver schema no dossiê de provas.",
-  "itens": []
+  "metadados": "Índice piloto com questões reais verificadas por número, página e gabarito definitivo da prova CGU 2022, mas com revalidação normativa pendente. Não equivale à calibração estatística.",
+  "itens": [
+    {
+      "numeroOriginal": 1,
+      "pagina": 3,
+      "blocoCGU": "P1",
+      "tema": "Direito Constitucional — livre iniciativa, sanção política e exigência fiscal",
+      "mecanismo": "Distinção entre regulação válida e restrição desproporcional ao exercício da atividade econômica",
+      "gabaritoDefinitivo": "B",
+      "id": "cgu-2022-fgv-auditoria-especificos-t1-q001",
+      "idProva": "cgu-2022-fgv-auditoria-especificos-t1",
+      "tipoOriginal": "multipla_escolha_5",
+      "situacaoGabarito": "definitivo_conferido",
+      "validadeNormativa": "revalidar_2026",
+      "notaPath": null,
+      "evidenciaFonte": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_auditoria_e_fiscalizacaoaffc-af_tipo_1_tarde.pdf#page=3",
+      "evidenciaGabarito": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf#page=17",
+      "observacao": "Gabarito final confirmado para turno TARDE, especialidade Auditoria e Fiscalização, TIPO 1; conferir norma/jurisprudência vigente antes de usar em diagnóstico 2026."
+    },
+    {
+      "numeroOriginal": 4,
+      "pagina": 4,
+      "blocoCGU": "P1",
+      "tema": "Direito Constitucional — direito de minoria parlamentar e requisitos de CPI",
+      "mecanismo": "Fronteira entre requisitos constitucionais da CPI e juízo político de oportunidade por órgão diretivo",
+      "gabaritoDefinitivo": "D",
+      "id": "cgu-2022-fgv-auditoria-especificos-t1-q004",
+      "idProva": "cgu-2022-fgv-auditoria-especificos-t1",
+      "tipoOriginal": "multipla_escolha_5",
+      "situacaoGabarito": "definitivo_conferido",
+      "validadeNormativa": "revalidar_2026",
+      "notaPath": null,
+      "evidenciaFonte": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_auditoria_e_fiscalizacaoaffc-af_tipo_1_tarde.pdf#page=4",
+      "evidenciaGabarito": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf#page=17",
+      "observacao": "Gabarito final confirmado para turno TARDE, especialidade Auditoria e Fiscalização, TIPO 1; conferir norma/jurisprudência vigente antes de usar em diagnóstico 2026."
+    },
+    {
+      "numeroOriginal": 6,
+      "pagina": 5,
+      "blocoCGU": "P1",
+      "tema": "Direito Constitucional — iniciativa legislativa tributária municipal e veto",
+      "mecanismo": "Confusão entre iniciativa privativa e iniciativa concorrente; validação do processo legislativo",
+      "gabaritoDefinitivo": "D",
+      "id": "cgu-2022-fgv-auditoria-especificos-t1-q006",
+      "idProva": "cgu-2022-fgv-auditoria-especificos-t1",
+      "tipoOriginal": "multipla_escolha_5",
+      "situacaoGabarito": "definitivo_conferido",
+      "validadeNormativa": "revalidar_2026",
+      "notaPath": null,
+      "evidenciaFonte": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_auditoria_e_fiscalizacaoaffc-af_tipo_1_tarde.pdf#page=5",
+      "evidenciaGabarito": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf#page=17",
+      "observacao": "Gabarito final confirmado para turno TARDE, especialidade Auditoria e Fiscalização, TIPO 1; conferir norma/jurisprudência vigente antes de usar em diagnóstico 2026."
+    },
+    {
+      "numeroOriginal": 11,
+      "pagina": 6,
+      "blocoCGU": "P2",
+      "tema": "Direito Administrativo — improbidade, convênios e responsabilização de entidade privada",
+      "mecanismo": "Escopo subjetivo de responsabilidade em entidades privadas beneficiárias de recursos públicos",
+      "gabaritoDefinitivo": "D",
+      "id": "cgu-2022-fgv-auditoria-especificos-t1-q011",
+      "idProva": "cgu-2022-fgv-auditoria-especificos-t1",
+      "tipoOriginal": "multipla_escolha_5",
+      "situacaoGabarito": "definitivo_conferido",
+      "validadeNormativa": "revalidar_2026",
+      "notaPath": null,
+      "evidenciaFonte": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_auditoria_e_fiscalizacaoaffc-af_tipo_1_tarde.pdf#page=6",
+      "evidenciaGabarito": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf#page=17",
+      "observacao": "Gabarito final confirmado para turno TARDE, especialidade Auditoria e Fiscalização, TIPO 1; conferir norma/jurisprudência vigente antes de usar em diagnóstico 2026."
+    }
+  ]
 }

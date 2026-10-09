@@ -114,10 +114,13 @@ function renderizarPainelConcursoHome() {
     if (!container || !conteudo) return;
 
     const concursosComData = dadosConcursosEstrategicos.filter(c => c.dataProva);
-    const concursoAtivo =
-        concursosComData.find(c => c.id === concursoSelecionadoId) ||
-        concursosComData.find(c => c.id === "dataprev-2026") ||
-        concursosComData[0];
+    const agora = new Date();
+    const selecionado = concursosComData.find(c => c.id === concursoSelecionadoId);
+    const proximo = [...concursosComData]
+        .filter(c => new Date(c.dataProva) >= agora)
+        .sort((a, b) => new Date(a.dataProva) - new Date(b.dataProva))[0];
+    const concursoAtivo = (selecionado && new Date(selecionado.dataProva) >= agora)
+        ? selecionado : (proximo || selecionado || concursosComData[0]);
 
     if (!concursoAtivo) {
         container.classList.add("escondido");
@@ -129,6 +132,10 @@ function renderizarPainelConcursoHome() {
 
     const dataProva = new Date(concursoAtivo.dataProva);
     const hoje = new Date();
+    const painelDoConcurso = todosOsArtigos.find(a => a.sourcePath === concursoAtivo.dashboardPath);
+    const atalhoProjeto = painelDoConcurso
+        ? `<a href="${rotaDoArtigo(painelDoConcurso)}" class="concurso-link-projeto" style="display:inline-block;margin-top:14px">abrir preparação: ${concursoAtivo.nome.toLowerCase()} →</a>`
+        : "";
     const diffDias = Math.max(0, Math.ceil((dataProva - hoje) / (1000 * 60 * 60 * 24)));
 
     const seletorConcursos = concursosComData.map((concurso, indice) => {
@@ -155,7 +162,14 @@ function renderizarPainelConcursoHome() {
                 <span class="concurso-dias-destaque">${diffDias}</span> dias até a prova (${concursoAtivo.banca} · ${dataProva.toLocaleDateString("pt-BR")})
             </div>
         </div>
+        ${atalhoProjeto}
     `;
+
+    conteudo.querySelector(".concurso-link-projeto")?.addEventListener("click", evento => {
+        if (evento.metaKey || evento.ctrlKey || evento.shiftKey || evento.button === 1) return;
+        evento.preventDefault();
+        abrirArtigo(painelDoConcurso);
+    });
 
     conteudo.querySelectorAll(".concurso-btn-opcao[data-concurso-id]").forEach(botao => {
         botao.addEventListener("click", () => {

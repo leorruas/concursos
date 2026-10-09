@@ -2,6 +2,8 @@
 title: "CGU 2026 - Auditoria (Painel)"
 type: "projeto"
 status: "ativo"
+public: true
+publicCategoria: "14. CGU 2026"
 created: 2026-10-09
 updated: 2026-10-09
 ---

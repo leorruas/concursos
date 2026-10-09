@@ -124,6 +124,15 @@ assert('Bloqueia simulado sem JSON do painel', bloqueia(completos.filter(p=>p!==
 assert('Bloqueia simulado sem caderno', bloqueia(completos.filter(p=>p!==simuladoPath),simContext));
 assert('Aceita simulado com propagação completa', !bloqueia(completos,simContext));
 
+const cguBat = destinosObrigatoriosIngestao({ classification:'bateria_dirigida', disciplina:'Direito Administrativo', concurso:'cgu-2026', hasErrors:true });
+assert('CGU exige hub por edital', cguBat.includes('00 - Desempenho/Provas/00 - Desempenho por edital e prova.md'));
+assert('CGU exige ledger para baterias', cguBat.includes('data/questoes-ledger.json'));
+assert('CGU não cria projeto em baterias', !cguBat.some(p=>p.startsWith('4 - Projetos/cgu-2026/')));
+const cguSim = destinosObrigatoriosIngestao({ classification:'simulado', concurso:'cgu-2026', hasErrors:true, sourcePath:simuladoPath });
+assert('CGU não cria projeto em simulados', !cguSim.some(p=>p.startsWith('4 - Projetos/cgu-2026/')));
+assert('CGU aceita propagação compartilhada', !bloqueia(cguSim, {classification:'simulado', concurso:'cgu-2026', hasErrors:true, sourcePath:simuladoPath}));
+assert('CGU rejeita recriação do projeto', bloqueia([...cguSim, '4 - Projetos/cgu-2026/00 Dashboard.md'], {classification:'simulado', concurso:'cgu-2026', hasErrors:true, sourcePath:simuladoPath}));
+
 if (failures > 0) {
   console.error(`FALHA: ${failures} teste(s) de propagação falharam.`);
   process.exit(1);

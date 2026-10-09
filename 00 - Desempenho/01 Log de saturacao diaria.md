@@ -13,6 +13,8 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 ---
 
+**CGU 2026/Auditoria:** sem sessão realizada registrada. Não criar linha de TAP nem percentual simplesmente porque o edital foi incorporado. Quando houver treino real de C/E, lançar data, volume, P1/P2/P3, C/E/branco, nota líquida, cansaço e diagnóstico, preservando a série histórica da Dataprev/FGV. O acompanhamento por concurso fica no [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|hub de provas]].
+
 ## Log de Saturação Diária
 
 | Data | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Sintomas Qualitativos da Sessão |

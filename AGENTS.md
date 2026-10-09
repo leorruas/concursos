@@ -1,6 +1,6 @@
 # Instruções para agentes — vault de concursos
 
-Antes de modificar este repositório, leia integralmente `me.md`, `index.md` e `.agent/AGENTS.md`. As regras operacionais detalhadas ficam em `.agent/AGENTS.md`.
+Antes de modificar este repositório, leia integralmente `me.md`, `index.md` e `.agent/AGENTS.md`. Para a CGU, **não recriar `4 - Projetos/cgu-2026/`**: edital/checklist em `2 - Editais/`, objetiva/discursiva em Estratégia de Prova, métricas/simulados em `00 - Desempenho/`. As regras operacionais detalhadas ficam em `.agent/AGENTS.md`.
 
 ## Criação de notas em `3 - Materias/`
 
@@ -19,9 +19,9 @@ Para um **simulado integral**, o agente deve atualizar, na mesma operação lóg
 
 1. `00 - Desempenho/Simulados/Simulado-XX.md`, com resultado, respostas, gabarito, erros, dúvidas e diagnóstico;
 2. `00 - Desempenho/Simulados/00 - Catalogo de simulados.md`;
-3. `4 - Projetos/dataprev-2026/Questoes e Simulados.md` (ou o projeto do concurso correspondente);
+3. `4 - Projetos/dataprev-2026/Questoes e Simulados.md` (para CGU, usar os hubs comuns de desempenho e simulados, sem projeto próprio);
 4. `4 - Projetos/dataprev-2026/Log de erros.md`, quando houver erros ou acertos com lacuna relevante;
-5. `4 - Projetos/dataprev-2026/00 Dashboard.md`, atualizando o último simulado;
+5. `4 - Projetos/dataprev-2026/00 Dashboard.md` apenas em concursos com painel legado; **CGU não tem dashboard**;
 6. `data/provas.json`, que alimenta o painel estratégico da interface e deve conter `sourcePath`, resultado, comparabilidade e nota calculável quando aplicável;
 7. `00 - Desempenho/00 Avancos globais.md`, recalculando a janela de 30 dias, o acompanhamento semanal e o controle de simulados consolidados;
 8. `00 - Desempenho/01 Log de saturacao diaria.md`, registrando volume, aproveitamento bruto, TAP e diagnóstico de carga;

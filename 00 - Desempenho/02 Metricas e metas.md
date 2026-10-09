@@ -38,6 +38,10 @@ Referência de taxa de acertos nos últimos 30 dias (com amostragem sólida) bas
 
 ---
 
+## CGU 2026: métrica específica Cebraspe
+
+Percentual bruto de acertos não substitui **nota líquida por bloco**. Na CGU: P1 e P2 = acertos − erros (peso 1); P3 = 2 × (acertos − erros); branco ou dupla = 0. Mínimos eliminatórios de edital: P1 ≥ 8, P2 ≥ 12, P3 ≥ 54 e total ≥ 78, além de P4 ≥ 50/100. **Não são metas pessoais nem notas de corte competitivas.** A linha de base CGU e as metas estratégicas ainda dependem de diagnóstico real. Os percentuais de competitividade listados acima não foram calibrados para a escala C/E e não devem ser usados como projeção CGU. Consulte [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia CGU]].
+
 ## Metas de progresso
 
 ### Curto prazo

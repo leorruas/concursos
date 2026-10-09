@@ -24,7 +24,7 @@ Leia, nesta ordem:
 4. `data/provas.json`, para identificar quais são as provas-espelho principais e quais são apenas corpus secundário;
 5. o edital vigente correspondente em `2 - Editais/`;
 6. o dossiê da prova-espelho correspondente em `00 - Desempenho/Provas/`;
-7. `3 - Materias/Estrategia de Prova/FGV e Cebraspe - Dataprev e TCDF.md`;
+7. `3 - Materias/Estrategia de Prova/estrategia-de-prova.md` e a nota específica do concurso;
 8. `data/questoes-ledger.json`, para conhecer mecanismos já usados e evitar repetição involuntária;
 9. as notas das matérias cobradas em `3 - Materias/`, usando o conteúdo do vault como base conceitual prioritária.
 
@@ -32,7 +32,7 @@ Se você não conseguir acessar o repositório ou abrir esses arquivos, diga iss
 
 ### Concurso
 
-Gere o simulado para o concurso indicado pelo usuário. Se o usuário disser apenas "Dataprev", use `dataprev-2026`. Se disser apenas "TCDF", use `tcdf-2026`.
+Gere o simulado para o concurso indicado pelo usuário. Se o usuário disser apenas "Dataprev", use `dataprev-2026`. Se disser "CGU", use `cgu-2026` (Auditoria). Não reativar TCDF como padrão.
 
 A estrutura do edital vigente prevalece sobre a estrutura de qualquer prova histórica. A prova-espelho serve para reproduzir estilo de cobrança, densidade, mecanismos de distração, extensão dos enunciados, repertório exigido e tipos de comando. Ela não autoriza alterar quantidade de questões, pesos, disciplinas ou regras do edital atual.
 
@@ -92,7 +92,9 @@ Quando o concurso usar Cebraspe no formato Certo ou Errado:
 - reproduzir a densidade e a extensão da prova-espelho sem copiar sua redação;
 - não assumir automaticamente regra de pontuação de outra edição histórica. Usar exclusivamente a regra do edital vigente para calcular nota.
 
-Para o TCDF 2026, manter separados P1, P2 e P3. Se houver correção do simulado, registrar acertos, erros e brancos por bloco e calcular a nota líquida apenas conforme a regra vigente registrada no vault. Verificar também os mínimos por bloco e o mínimo total.
+Para a CGU 2026, manter separados P1 (40 itens), P2 (40) e P3 (90), com +1/-1 nos dois primeiros, +2/-2 nos específicos e branco=0. Se houver correção do simulado, registrar acertos, erros e brancos por bloco e calcular a nota líquida apenas conforme a regra vigente registrada no vault. Verificar também os mínimos por bloco e o mínimo total.
+
+Para a CGU, não criar pasta de projeto: edital/checklist, estratégia, simulados e progresso permanecem nas camadas canônicas por função.
 
 ### Uso das notas do vault
 
@@ -154,7 +156,7 @@ O usuário pode simplesmente escrever, por exemplo:
 
 ou
 
-`Gere 20 itens do TCDF usando o prompt de prova-espelho, priorizando os tópicos em que ainda não há evidência de domínio.`
+`Gere 20 itens da CGU/Auditoria usando o prompt de prova-espelho, priorizando os tópicos em que ainda não há evidência de domínio.`
 
 Antes de começar, consulte novamente o vault em https://github.com/leorruas/concursos para usar a versão mais atual das notas, editais, erros e provas de referência.
 ```

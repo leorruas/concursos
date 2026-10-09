@@ -386,3 +386,7 @@ Limite: testes de manifesto não substituem a verificação visual da navegaçã
 O primeiro CI da CGU falhou após o build: `scripts/validate-search-index.js` e `scripts/validate-integrity.js --audit-site` mantinham proibição total de `4 - Projetos/`, incompatível com o novo opt-in.
 
 Os dois validadores agora tratam projeto como privado por padrão e aceitam **somente** Markdown cujo conteúdo de origem possui `public: true`. A auditoria do artefato deixa de rejeitar o diretório completo e avalia seus arquivos individualmente. A lista de proibições para `me.md`, `AGENTS.md`, `log.md`, editais de referência e planejamento continua inalterada.
+
+## Refinamento posterior: CGU integrada por função (09/10/2026)
+
+O modelo anterior com `4 - Projetos/cgu-2026/`, painel público, `dashboardPath` e link “abrir preparação” foi descontinuado por decisão do usuário. As três notas CGU migraram para **edital/checklist**, **Estratégia de Prova com protocolo discursivo** e **hubs de desempenho, simulados e métricas**. A home mantém seleção via `data/concursos.json`, sem link extra. Os scripts de ingestão/validação não devem exigir arquivo de projeto da CGU. As descrições históricas anteriores de dashboard CGU são preservadas acima apenas para rastrear o incidente original, não para orientar agentes.

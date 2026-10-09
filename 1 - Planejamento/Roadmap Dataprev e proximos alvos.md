@@ -13,7 +13,7 @@ updated: 2026-10-09
 | Alvo | Estado | Regra de preparação |
 | :--- | :--- | :--- |
 | **Dataprev 2026** | Preparação ativa até 11/10 | Concluir prova e preservar o histórico FGV. |
-| **CGU 2026: Auditoria** | **Edital publicado; foco escolhido** | Prova em **13/12/2026**, Cebraspe. Prioridade principal a partir de 12/10; [[4 - Projetos/cgu-2026/00 Dashboard|projeto próprio]]. |
+| **CGU 2026: Auditoria** | **Edital publicado; foco escolhido** | Prova em **13/12/2026**, Cebraspe. Prioridade principal a partir de 12/10; [[2 - Editais/CGU 2026 - Auditoria|edital e checklist CGU]] e [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia e discursiva CGU]]. |
 | **Câmara dos Deputados** | Edital publicado | Cargo-alvo: Analista Legislativo — Comunicação Social — Divulgação Institucional. Prova em 17/01/2027; preparação preservada, prioridade posterior à CGU. |
 | **ANPD** | Aguardando edital | Sem grade oficial no vault até publicação de fonte oficial. |
 
@@ -25,7 +25,7 @@ Prioridade total para revisão e simulados da Dataprev, com ênfase em Comunica�
 
 ## CGU publicada: foco em Auditoria
 
-A CGU será o alvo principal de **12/10 até 13/12/2026**. O projeto separa os [[4 - Projetos/cgu-2026/O que estudar|objetos do edital e a cobertura existente]], a [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia de preparação]] e a [[4 - Projetos/cgu-2026/Discursiva|prova discursiva]]. Há reutilização em Direito Administrativo, governança, LAI/LGPD, indicadores e pesquisa; as lacunas dominantes são auditoria, orçamento/contabilidade, avaliação causal, transferências e responsabilização. A CGU é **Cebraspe/C-E com pesos próprios**, sem herdar resultados, corpus ou metas FGV da Dataprev.
+A CGU será o alvo principal de **12/10 até 13/12/2026**, sem pasta de projeto própria. A preparação fica distribuída entre [[2 - Editais/CGU 2026 - Auditoria|edital e checklist CGU]], a [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia de preparação]] e a [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia e discursiva CGU]]. Há reutilização em Direito Administrativo, governança, LAI/LGPD, indicadores e pesquisa; as lacunas dominantes são auditoria, orçamento/contabilidade, avaliação causal, transferências e responsabilização. A CGU é **Cebraspe/C-E com pesos próprios**, sem herdar resultados, corpus ou metas FGV da Dataprev.
 
 ## Câmara publicada
 
@@ -75,8 +75,8 @@ O conhecimento já consolidado no vault continua disponível para Câmara e ANPD
 
 ## Referências
 
-- [[4 - Projetos/cgu-2026/00 Dashboard|CGU 2026: Auditoria]]
-- [[4 - Projetos/cgu-2026/O que estudar|CGU: checklist]]
+- [[2 - Editais/CGU 2026 - Auditoria|edital e checklist CGU]]
+- [[2 - Editais/CGU 2026 - Auditoria|edital e checklist CGU]]
 - [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|CGU: estratégia]]
 
 - [[2 - Editais/Dataprev 2026 (Original)|Dataprev 2026]]

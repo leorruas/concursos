@@ -16,6 +16,22 @@ Consulte as diretrizes metodológicas, réguas de competitividade e metas de pro
 
 ---
 
+## CGU 2026 — diagnóstico ainda pendente
+
+**Cargo 1: Auditoria, Cebraspe.** A preparação foi mapeada em 09/10/2026, mas **não existe simulado CGU concluído nem resultado CGU em `data/provas.json`**. Portanto, ainda não há nota líquida, TAP, taxa de acerto, diagnóstico P1/P2/P3 ou discursiva realizada. Os percentuais abaixo pertencem a outros treinos, predominantemente Dataprev/FGV.
+
+| Frente | Cobertura documental do vault | Domínio CGU medido | Próximo passo |
+| :--- | :--- | :--- | :--- |
+| Direito Administrativo, governança e LAI/LGPD | Base aproveitável parcial | Não | Revisão aplicada e itens C/E |
+| Estado, sociedade, ética e políticas públicas | Parcial | Não | Completar lacunas P1/P2 |
+| Auditoria governamental e evidências | Núcleo próprio ausente | Não | Ciclo, três linhas, achados, testes |
+| Orçamento e contabilidade pública | Grande lacuna | Não | Execução, PPA/LDO/LOA, MCASP, estatais |
+| Avaliação de políticas e inferência causal | Parcial | Não | Indicadores, contrafactual, desenho de avaliação |
+| Contratações, transferências, integridade e responsabilização | Parcial | Não | Casos, PAD/PAR, leniência, ouvidoria |
+| Provas discursivas | Protocolo preparado | Não | Questão de 30 linhas e situação-problema de 60 |
+
+Próximos passos: diagnóstico líquido separado em P1/P2/P3, corpus próprio de provas Cebraspe-CGU e primeira discursiva manuscrita. Não marcar o checklist como estudado sem evidência. O [[2 - Editais/CGU 2026 - Auditoria#Checklist completo de estudos por bloco|checklist completo]] está no edital; execução e rubrica em [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia]]. Resultados futuros entram em [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|desempenho por edital]] e [[00 - Desempenho/Simulados/00 - Catalogo de simulados|catálogo]].
+
 ## Painel de desempenho por disciplina
 
 Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 dias** (07/09/2026 a 06/10/2026).

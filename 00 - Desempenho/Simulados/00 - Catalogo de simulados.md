@@ -16,6 +16,14 @@ Para gerar uma nova prova com ChatGPT, Gemini ou outra LLM com acesso ao vault, 
 
 ---
 
+## CGU 2026 — Auditoria (Cebraspe, C/E)
+
+**Nenhum simulado CGU concluído até 09/10/2026.** Isto não representa zero acertos, apenas ausência de medição. Quando houver caderno próprio, usar `00 - Desempenho/Simulados/` e identificador `cgu-2026` (sem pasta do concurso); registrar C/E/branco, desempenho líquido em P1/P2/P3, comparabilidade e discursiva quando aplicada em `data/provas.json`, no ledger e no [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|hub de provas]].
+
+Simulado integral: **170 itens**, com P1 40 e P2 40 (+1/−1), P3 90 (+2/−2) e rubrica própria da P4 se incluída. Seguir [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia CGU]]. Não replicar pontuação ou itens do acervo Dataprev.
+
+## Dataprev 2026 — simulados históricos
+
 ## 1. Visão Geral de Simulados Realizados
 
 | Simulado | Data | Questões | Acertos | Aproveitamento | Erros Mapeados | Arquivo de Diagnóstico |

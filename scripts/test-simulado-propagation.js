@@ -31,5 +31,8 @@ assert.ok(executar({registro:false}).length, 'Presença do arquivo sem registro 
 assert.ok(executar({omit:'00 - Desempenho/Provas/00 - Desempenho por edital e prova.md'}).length, 'Hub deve entrar junto');
 assert.deepEqual(executar({parcial:true,omit:'data/provas.json',registro:false}), [], 'Rascunho parcial mantém exceção');
 assert.deepEqual(executar({concurso:'camara-2026'}), [], 'Câmara completa não exige Dataprev');
+assert.deepEqual(executar({concurso:'cgu-2026'}), [], 'CGU sem pasta mantém propagação completa');
+assert.ok(executar({concurso:'cgu-2026',omit:'00 - Desempenho/Provas/00 - Desempenho por edital e prova.md'}).length,
+    'CGU exige hub por edital');
 assert.deepEqual(executar({status:'A'}), [], 'Novo simulado usa o mesmo contrato');
 console.log('SUCESSO: simulado novo, concluído e atualizado exige propagação rastreável do concurso correto.');

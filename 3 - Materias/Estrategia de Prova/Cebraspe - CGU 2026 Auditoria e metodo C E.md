@@ -92,15 +92,72 @@ O vault registra **7h às 11h** como janela de estudo em [[1 - Planejamento/hora
 
 Evitar produzir artigos teóricos apenas para completar a lista. A prioridade é transformar conteúdo em decisões corretas e respostas discursivas avaliáveis.
 
+## Discursiva CGU — protocolo completo
+
+Conteúdo do antigo guia da P4 preservado nesta nota de estratégia de prova.
+
+### Regras oficiais da P4
+
+A **prova discursiva** será realizada em **13/12/2026**, no turno da tarde, com **3 horas e 30 minutos**, e vale **100 pontos**:
+
+| Resposta | Conteúdo | Limite | Pontuação |
+| :--- | :--- | :--- | ---: |
+| Questão 1 | Conhecimentos **complementares (P2)** | 30 linhas | 30 |
+| Questão 2 | **Situação-problema** de conhecimentos específicos da especialidade Auditoria (P3) | 60 linhas | 70 |
+
+A correção mede conteúdo (abordagem e estrutura), expressão escrita e registro formal culto. Exige texto manuscrito, legível, com **caneta preta de material transparente** (salvo adaptações deferidas). A nota final P4 deve ser **pelo menos 50/100**. Somente terão suas discursivas corrigidas os classificados na objetiva conforme os limites do edital.
+
+**Desconto gramatical oficial:** na questão de 30 linhas, `NQ1 = NC - 6 × NE / TL`; na situação-problema, `NQ2 = NC - 14 × NE / TL`. `NC` é nota de conteúdo, `NE` o número de erros gramaticais e `TL` linhas efetivamente escritas. Notas negativas viram zero. Fragmentos além do limite não são avaliados.
+
+### O que treinar
+
+#### Questão 1: complementar, 30 linhas
+
+A banca pode cobrar, dentro do programa, distinções de governança, riscos e controles; transparência e ouvidoria; direito público, competências e responsabilização; inferências de dados/IA; ou funcionamento integrado da CGU. **Esses são eixos plausíveis, não previsão de tema.**
+
+Treino: identificar os verbos do comando, listar os pontos exigidos, reservar uma frase por distinção decisiva e concluir com consequência para a atuação institucional. O texto deve mostrar o mecanismo, em vez de apenas citar princípios.
+
+#### Situação-problema: específica, 60 linhas
+
+O edital permite casos envolvendo planejamento e achados de auditoria; execução orçamentária e contabilidade; avaliação de política pública; contratação e transferências; ou integridade e responsabilização. Não pressupor forma fixa de relatório: o comando pode pedir diagnóstico, critérios, testes, riscos e recomendações.
+
+Roteiro flexível de resposta: **problema e finalidade → critérios aplicáveis → evidências disponíveis e limites → análise de causas/riscos → encaminhamento/recomendação fundamentada → verificação dos resultados**. Ajustar conforme o caso; auditoria, apuração, PAD e PAR têm competências e limites distintos.
+
+### Fronteiras que rendem pontuação
+
+- **Achado de auditoria ≠ imputação automática de responsabilidade.**
+- **Critério ≠ condição; causa ≠ efeito; indício ≠ conclusão.**
+- **Teste de controle ≠ teste substantivo; amostragem dirigida por risco ≠ inferência estatística para toda a população.**
+- **Empenho ≠ liquidação ≠ pagamento; execução financeira ≠ informação patrimonial.**
+- **Monitoramento de produto ≠ avaliação causal de impacto.**
+- **Ouvidoria acolhe e encaminha; apuração e sanção dependem de procedimento e instância competentes.**
+- **Implementação de plano ≠ alcance de resultado ou benefício.**
+
+### Protocolo de correção
+
+1. Copiar o enunciado e a resposta **sem inventar padrão oficial**.
+2. Corrigir por requisitos explícitos do comando e pelos conceitos do edital. Quando o Cebraspe publicar espelho oficial, usá-lo como critério superior.
+3. Identificar acertos, omissões, trocas de conceitos, erros de expressão e risco de exceder linhas.
+4. Atribuir nota estimada **como exercício**, distinguindo-a de nota da banca.
+5. Para cada lacuna recorrente, criar vínculo com seção exata `[[Caminho/Nota#Subtítulo|Conceito]]`. Só expandir teoria quando o erro revelar conhecimento não consolidado.
+6. Registrar o desempenho nos hubs compartilhados de desempenho e simulados sob `concursoId: cgu-2026`, sem usar `/115` da Dataprev nem a rubrica discursiva da Câmara.
+
+### Cadência
+
+Na etapa inicial, uma questão de 30 linhas e uma situação-problema de 60 linhas por semana. Aumentar para **duas produções por semana com reescrita dirigida** nas fases de consolidação, sem substituir treino da objetiva. Nas últimas semanas, ensaiar as duas na mesma janela de 3h30.
+
+
 ## Estado e métricas
 
 - **Baseline CGU:** pendente, sem percentual nem nota de corte inventados.
-- **Cobertura de edital:** consultar [[4 - Projetos/cgu-2026/O que estudar|checklist]]; `coberturaNota` não é `exposicaoEstudo`.
-- **Provas, questões e simulados futuros:** criar registro CGU próprio, respeitando `data/questoes-ledger.json`, regras de ingestão, links para seções e propagação atômica. Não reutilizar dashboard nem avaliações da Dataprev/Câmara.
+- **Cobertura de edital:** consultar o [checklist completo anexado ao edital (no GitHub)](https://github.com/leorruas/concursos/blob/main/2%20-%20Editais/CGU%202026%20-%20Auditoria.md); `coberturaNota` não é `exposicaoEstudo`.
+- **Provas, questões e simulados futuros:** registrar no `data/provas.json`, ledger e hubs de `00 - Desempenho/` com `concursoId: cgu-2026`, sem criar `4 - Projetos/cgu-2026/` nem importar métricas de outras provas.
 - **Último benchmark válido:** pendente até existir prova/simulado integral CGU com correção e controle de novidade.
 
 ## Fontes
 
+- [Edital CGU e checklist detalhado no repositório](https://github.com/leorruas/concursos/blob/main/2%20-%20Editais/CGU%202026%20-%20Auditoria.md).
+
 - [Edital CGU 2026](https://arquivos.qconcursos.com/f/concurso-cgu-2026-edital_.pdf), itens 7, 8.11, 9, 11 e 15 e Anexo I.
-- [[4 - Projetos/cgu-2026/Discursiva|Protocolo de discursiva CGU]].
+- [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E#Discursiva CGU — protocolo completo|Protocolo da discursiva CGU]].
 - [[1 - Planejamento/Regras de ingestao de questoes|Ingestão de questões]].

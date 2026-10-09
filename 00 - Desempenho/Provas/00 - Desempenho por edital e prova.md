@@ -12,6 +12,20 @@ Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 
 
 Este hub separa três medidas que não devem ser misturadas: **aproveitamento bruto**, **nota calculada pelas regras do edital** e **comparabilidade da prova com o concurso atual**. O objetivo é impedir que um percentual alto em uma bateria de composição diferente seja interpretado como estimativa direta de classificação.
 
+## CGU 2026 — Auditoria (Cebraspe)
+
+**Sem resultado de prova, simulado ou discursiva CGU registrado em 09/10/2026.** Checklist e estratégia são planejamento documental, não histórico de desempenho. Não transferir notas de Comunicação/FGV ou Câmara/Cebraspe.
+
+| Prova | Itens | Acerto / erro / branco | Máximo | Mínimo eliminatório |
+| :--- | ---: | :--- | ---: | ---: |
+| P1 — básicos | 40 | +1 / −1 / 0 | 40 | 8 |
+| P2 — complementares | 40 | +1 / −1 / 0 | 40 | 12 |
+| P3 — específicos Auditoria | 90 | +2 / −2 / 0 | 180 | 54 |
+| Objetiva total | 170 | Soma líquida | 260 | 78, respeitando mínimos por bloco |
+| Discursiva P4 | 2 respostas (30/60 linhas) | Critérios oficiais | 100 | 50 |
+
+Após primeiro diagnóstico, registrar em `data/provas.json` o resultado por bloco, acertos, erros, brancos e comparabilidade, usando `concursoId: cgu-2026`; atualizar este hub, [[00 - Desempenho/00 Avancos globais|Avanços globais]] e [[00 - Desempenho/Simulados/00 - Catalogo de simulados|catálogo]], sem painel CGU próprio. Para regras de execução e discursiva, ver [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia de prova CGU]].
+
 ## Dataprev 2026
 
 O edital retificado da Dataprev estabelece 70 questões: 40 de Conhecimentos Gerais e 30 de Conhecimentos Específicos. As questões gerais valem 1 ponto e as específicas valem 2,5 pontos, produzindo máximo de 115 pontos. A aprovação exige cumulativamente **57,5 pontos ou mais** e **não zerar nenhuma disciplina**.

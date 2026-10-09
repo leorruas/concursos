@@ -29,8 +29,12 @@ for (const pathPrivado of [
     assert.ok(!pathsPublicos.has(pathPrivado), `${pathPrivado}: vazamento no catálogo`);
     assert.ok(!fs.existsSync(path.join(site, pathPrivado)), `${pathPrivado}: vazamento de arquivo`);
 }
-assert.equal(manifesto.filter(x => x.sourcePath.startsWith('4 - Projetos/cgu-2026/')).length, 3,
-    'Exatamente três notas CGU de projeto foram autorizadas');
+assert.equal(manifesto.filter(x => x.sourcePath.startsWith('4 - Projetos/cgu-2026/')).length, 0,
+    'CGU não pode publicar projeto separado');
+assert.equal(concursos.find(x => x.id === 'cgu-2026')?.dashboardPath, undefined,
+    'CGU não deve declarar dashboardPath');
+assert.ok(!fs.existsSync(path.join(raiz, '4 - Projetos/cgu-2026')),
+    'Pasta CGU deve estar ausente do repositório');
 const estrategiaCGU = '3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E.md';
 assert.ok(pathsPublicos.has(estrategiaCGU), 'Estratégia CGU ausente da matéria canônica');
 assert.ok(pathsBusca.has(estrategiaCGU), 'Estratégia CGU ausente da busca pública');

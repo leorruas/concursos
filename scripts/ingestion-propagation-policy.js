@@ -23,6 +23,8 @@ export function extrairDisciplinaDaEntrada(content) {
 export function destinosObrigatoriosIngestao({ classification, disciplina = null, hasErrors = false, concurso = 'dataprev-2026', sourcePath = null } = {}) {
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(concurso)) throw new Error(`Concurso inválido: ${concurso}`);
   const projeto = `4 - Projetos/${concurso}`;
+  const semProjeto = concurso === 'cgu-2026';
+  const desempenhoCGU = '00 - Desempenho/Provas/00 - Desempenho por edital e prova.md';
   const required = new Set(['log.md']);
 
   if (classification === 'bateria_dirigida') {
@@ -33,9 +35,14 @@ export function destinosObrigatoriosIngestao({ classification, disciplina = null
     required.add(`3 - Materias/${pasta}/Avancos.md`);
     required.add('00 - Desempenho/00 Avancos globais.md');
     required.add('00 - Desempenho/01 Log de saturacao diaria.md');
-    required.add(`${projeto}/Questoes e Simulados.md`);
+    if (semProjeto) {
+      required.add(desempenhoCGU);
+      required.add('data/questoes-ledger.json');
+    } else {
+      required.add(`${projeto}/Questoes e Simulados.md`);
+    }
     if (hasErrors) {
-      required.add(`${projeto}/Log de erros.md`);
+      if (!semProjeto) required.add(`${projeto}/Log de erros.md`);
       required.add('data/erros-recorrentes.json');
     }
   }
@@ -51,10 +58,12 @@ export function destinosObrigatoriosIngestao({ classification, disciplina = null
     required.add('00 - Desempenho/Provas/00 - Desempenho por edital e prova.md');
     required.add('00 - Desempenho/00 Avancos globais.md');
     required.add('00 - Desempenho/01 Log de saturacao diaria.md');
-    required.add(`${projeto}/Questoes e Simulados.md`);
-    required.add(`${projeto}/00 Dashboard.md`);
+    if (!semProjeto) {
+      required.add(`${projeto}/Questoes e Simulados.md`);
+      required.add(`${projeto}/00 Dashboard.md`);
+    }
     if (hasErrors) {
-      required.add(`${projeto}/Log de erros.md`);
+      if (!semProjeto) required.add(`${projeto}/Log de erros.md`);
       required.add('data/erros-recorrentes.json');
     }
   }
@@ -71,6 +80,9 @@ export function destinosObrigatoriosIngestao({ classification, disciplina = null
 export function validarManifestoPropagacao(manifest, context) {
   const paths = new Set((manifest.operations || []).map((op) => String(op.path || '').replace(/\\/g, '/')));
   const concurso = context.concurso || 'dataprev-2026';
+  if (concurso === 'cgu-2026' && [...paths].some(p => p.startsWith('4 - Projetos/cgu-2026/'))) {
+    throw new Error('CGU deve usar os hubs globais e o edital, sem recriar projeto.');
+  }
   const outrosProjetos = [...paths].filter(p => p.startsWith('4 - Projetos/') && !p.startsWith(`4 - Projetos/${concurso}/`));
   if (outrosProjetos.length) throw new Error(`Ingestão de ${concurso} tentou propagar para outro projeto: ${outrosProjetos.join(', ')}`);
   const required = destinosObrigatoriosIngestao(context);

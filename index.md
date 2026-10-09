@@ -22,12 +22,9 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[2 - Editais/Fundacao Florestal SP 2026|Fundação Florestal SP 2026]]
 - [[2 - Editais/Dataprev 2026 (Original)|Dataprev 2026 (Original)]]
 - [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|Câmara dos Deputados 2026: Divulgação Institucional]]
-- [[2 - Editais/CGU 2026 - Auditoria|CGU 2026: Auditoria]]
+- [[2 - Editais/CGU 2026 - Auditoria|CGU 2026: Auditoria — edital e checklist]]
 
 ## 4 - Projetos
-- [[4 - Projetos/cgu-2026/00 Dashboard|CGU 2026: Auditoria (projeto prioritário pós-Dataprev)]]
-  - [[4 - Projetos/cgu-2026/O que estudar|O que estudar: programa e cobertura do vault]]
-  - [[4 - Projetos/cgu-2026/Discursiva|Discursiva: 30 e 60 linhas]]
 - [[00 Dashboard|Dataprev 2026 (Dashboard)]]
   - [[4 - Projetos/dataprev-2026/O que estudar|O que estudar (Checklist)]]
   - [[4 - Projetos/dataprev-2026/Cronograma|Cronograma]]

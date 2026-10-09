@@ -132,10 +132,6 @@ function renderizarPainelConcursoHome() {
 
     const dataProva = new Date(concursoAtivo.dataProva);
     const hoje = new Date();
-    const painelDoConcurso = todosOsArtigos.find(a => a.sourcePath === concursoAtivo.dashboardPath);
-    const atalhoProjeto = painelDoConcurso
-        ? `<a href="${rotaDoArtigo(painelDoConcurso)}" class="concurso-link-projeto" style="display:inline-block;margin-top:14px">abrir preparação: ${concursoAtivo.nome.toLowerCase()} →</a>`
-        : "";
     const diffDias = Math.max(0, Math.ceil((dataProva - hoje) / (1000 * 60 * 60 * 24)));
 
     const seletorConcursos = concursosComData.map((concurso, indice) => {
@@ -162,14 +158,7 @@ function renderizarPainelConcursoHome() {
                 <span class="concurso-dias-destaque">${diffDias}</span> dias até a prova (${concursoAtivo.banca} · ${dataProva.toLocaleDateString("pt-BR")})
             </div>
         </div>
-        ${atalhoProjeto}
     `;
-
-    conteudo.querySelector(".concurso-link-projeto")?.addEventListener("click", evento => {
-        if (evento.metaKey || evento.ctrlKey || evento.shiftKey || evento.button === 1) return;
-        evento.preventDefault();
-        abrirArtigo(painelDoConcurso);
-    });
 
     conteudo.querySelectorAll(".concurso-btn-opcao[data-concurso-id]").forEach(botao => {
         botao.addEventListener("click", () => {

@@ -206,7 +206,15 @@ function validarPropagacaoIngestao(changes, changedSet) {
   const avancosLocais = changes.filter(c => /^3 - Materias\/[^/]+\/Avancos\.md$/.test(c.path || ''));
   const projetos = [...new Set(changes.map(c => (c.path || '').match(/^4 - Projetos\/([^/]+)\/(?:Questoes e Simulados|Log de erros|00 Dashboard)\.md$/)?.[1]).filter(Boolean))];
   if (avancosLocais.length) {
-    if (!projetos.length) fail('Avanços locais exigem propagação para o projeto do concurso correspondente.');
+    if (!projetos.length) {
+      // CGU não usa pasta de projeto: consolidação obrigatória nos hubs públicos.
+      exigirMudancas([
+        '00 - Desempenho/00 Avancos globais.md',
+        '00 - Desempenho/01 Log de saturacao diaria.md',
+        '00 - Desempenho/Provas/00 - Desempenho por edital e prova.md',
+        'data/questoes-ledger.json'
+      ], changedSet, 'Avanços locais sem pasta de projeto (CGU)');
+    }
     for (const concurso of projetos) {
       exigirMudancas([
         '00 - Desempenho/00 Avancos globais.md',

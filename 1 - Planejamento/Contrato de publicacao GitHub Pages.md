@@ -36,7 +36,7 @@ O agente não deve afirmar “publicado”, “já aparece no site” ou equival
 
 `4 - Projetos/` continua privado por padrão. Cada nota que deve aparecer no Pages declara `public: true` e `publicCategoria: "14. Nome do concurso"` no frontmatter. O catálogo e o índice de busca incluem somente esses arquivos autorizados, após revisão de dados pessoais.
 
-O seletor da home lê `data/concursos.json`; um edital incorporado deve ser cadastrado nesse arquivo. Quando `dashboardPath` estiver definido, o build falha se a página não aparecer no catálogo. O leitor precisa alcançar o painel por navegação, além de ter o arquivo presente no manifesto.
+O seletor da home lê `data/concursos.json` e **não exige `dashboardPath`**. Se um painel opcional for declarado, o build ainda deve encontrá-lo. Para a CGU, não há painel próprio: a navegação ocorre pelo hub Estratégia de Prova e pelos hubs de desempenho, sem link “abrir preparação” na home.
 
 Ver [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] para o procedimento e as pendências por concurso.
 

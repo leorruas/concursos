@@ -13,7 +13,7 @@ Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, i
 
 - Até **11/10/2026**, pedidos genéricos ou ambíguos continuam vinculados à **Dataprev**, que permanece como prioridade temporal até a prova.
 - Referência explícita à **Dataprev** aciona o protocolo FGV-Dataprev de `me.md`. Nesta reta final, o fluxo padrão é de **simulados integrais**, com teoria apenas como microrevisão derivada de erros, salvo pedido explícito em contrário.
-- De **12/10/2026 a 13/12/2026**, após a Dataprev, o padrão para pedidos genéricos será **CGU 2026, Cargo 1 Auditoria**, conforme decisão de 09/10/2026: `4 - Projetos/cgu-2026/`. Usar o edital CGU, Cebraspe C/E, pesos +1/-1 (P1/P2) e +2/-2 (P3), as duas discursivas próprias e ledger de desempenho separado.
+- De **12/10/2026 a 13/12/2026**, após a Dataprev, o padrão para pedidos genéricos será **CGU 2026, Cargo 1 Auditoria**, conforme decisão de 09/10/2026, com fonte em `2 - Editais/CGU 2026 - Auditoria.md`, estratégia e discursiva em `3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E.md` e acompanhamento em `00 - Desempenho/` (sem pasta de projeto CGU). Usar o edital CGU, Cebraspe C/E, pesos +1/-1 (P1/P2) e +2/-2 (P3), as duas discursivas próprias e ledger de desempenho separado.
 - Referência explícita à **CGU** sempre aciona seu projeto, inclusive antes de 11/10. Não transformar nota existente em conhecimento comprovado; `coberturaNota` e `exposicaoEstudo` devem permanecer distintos.
 - Referência explícita à **Câmara dos Deputados** aciona o projeto `4 - Projetos/camara-2026/`, o edital da Câmara e o protocolo **Cebraspe-Câmara** de `me.md`. Estudo teórico, revisão, questões e simulados da Câmara seguem o padrão Cebraspe/Cespe e o formato C/E.
 - Nunca misturar banca ou formato: **FGV para Dataprev; Cebraspe para Câmara e CGU, cada uma com seu edital e pontuação**. Notas teóricas compartilhadas podem ser reutilizadas, mas a mecânica de cobrança, o corpus de calibração e os registros de desempenho pertencem ao concurso-alvo.
@@ -21,9 +21,9 @@ Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, i
 
 ## Protocolo recorrente de entrada de editais
 
-Para todo novo edital ou retificação relevante, ler e atualizar [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] na mesma operação: fonte, dados em `data/concursos.json`, comparação com notas, projeto, preparação, índice, prioridades, publicação e pendências.
+Para todo novo edital ou retificação relevante, ler e atualizar [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] na mesma operação: fonte, dados em `data/concursos.json`, comparação com notas, checklist no edital, estratégia/discursiva na matéria, acompanhamento em desempenho e simulados, índice, prioridades, publicação e pendências; não criar automaticamente pastas de projeto.
 
-Projetos em `4 - Projetos/` são **privados por padrão**. Publicar apenas as notas explicitamente autorizadas com `public: true` e `publicCategoria`. **Estratégias de prova de qualquer novo edital pertencem ao hub `3 - Materias/Estrategia de Prova/`**, com link a partir do painel do concurso; evitar cópia em `4 - Projetos/`. Confirmar `dashboardPath` no manifesto e a jornada da home. Workflow verde sozinho não prova visibilidade do projeto.
+Projetos em `4 - Projetos/` são **privados por padrão**. Publicar apenas as notas explicitamente autorizadas com `public: true` e `publicCategoria`. **Estratégias de prova e discursivas pertencem a `3 - Materias/Estrategia de Prova/`; programa e checklist a `2 - Editais/`; resultados e simulados a `00 - Desempenho/`.** Não recriar a pasta CGU. `dashboardPath` é opcional; a home não deve mostrar “abrir preparação”. Verificar presença da estratégia no manifesto público e preservação dos dados do concurso, sem confundir commit verde com navegação validada.
 
 ## Gate de integridade do main
 

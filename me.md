@@ -71,6 +71,10 @@ updated: 2026-10-09
 - **Eficiência Operacional**: A manutenção do vault é subordinada ao objetivo pedagógico. Atualizações de logs, dashboards, métricas e arquivos derivados não devem consumir esforço desproporcional nem interromper o treino. Sempre que a mesma informação puder ser derivada automaticamente de uma fonte canônica, preferir derivação a duplicação manual.
 - **Proveniência e Fidelidade Epistemológica**: Distinguir sempre: fato oficial/documental, registro histórico real do candidato, dado calculado/derivado, meta pessoal e inferência do agente. Nunca promover inferência, estimativa ou meta pessoal à condição de fato histórico ou oficial.
 
+### Corpus de provas-espelho e exercícios por edital
+
+A entrada de edital exige busca **documentada** por cadernos oficiais e gabaritos definitivos: mesmas funções/cargo para conteúdo, mesma banca e mesmo formato para construção da prova. Separar `data/corpus-provas-espelho.json` (proveniência da prova) de `data/corpus-itens.json` (indexação de itens lidos) e de `data/provas.json` (desempenho real do candidato). Os PDFs podem ser arquivados em `assets/provas-espelho/` com SHA-256, se autorizada a redistribuição. O agente **não pode presumir** que uma prova do Cebraspe seja C/E; verificar edital e caderno. Não usar gabarito preliminar para corrigir treino nem estimar padrão estatístico sem indexação concreta. Ver [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] e [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|Corpus CGU]].
+
 ### Roteamento por concurso e banca
 
 - **O vault é multi-edital.** A banca, o formato das questões, a composição, a pontuação, o corpus de provas e os registros de desempenho devem seguir o concurso explicitamente citado na conversa.

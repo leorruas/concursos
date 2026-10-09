@@ -14,6 +14,8 @@ Este hub separa três medidas que não devem ser misturadas: **aproveitamento br
 
 ## CGU 2026 — Auditoria (Cebraspe)
 
+**Corpus fonte de exercícios:** [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|CGU 2026 — Provas-espelho: conteúdo × formato]], com PDFs oficiais, estados de verificação, gabaritos e protocolo de indexação em `data/corpus-provas-espelho.json`. Prova localizada não é simulado realizado.
+
 **Sem resultado de prova, simulado ou discursiva CGU registrado em 09/10/2026.** Checklist e estratégia são planejamento documental, não histórico de desempenho. Não transferir notas de Comunicação/FGV ou Câmara/Cebraspe.
 
 | Prova | Itens | Acerto / erro / branco | Máximo | Mínimo eliminatório |

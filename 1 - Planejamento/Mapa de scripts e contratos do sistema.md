@@ -387,6 +387,10 @@ O primeiro CI da CGU falhou após o build: `scripts/validate-search-index.js` e 
 
 Os dois validadores agora tratam projeto como privado por padrão e aceitam **somente** Markdown cujo conteúdo de origem possui `public: true`. A auditoria do artefato deixa de rejeitar o diretório completo e avalia seus arquivos individualmente. A lista de proibições para `me.md`, `AGENTS.md`, `log.md`, editais de referência e planejamento continua inalterada.
 
+## Corpus de provas-espelho (09/10/2026)
+
+Adotados dois novos dados: `data/corpus-provas-espelho.json` (URLs oficiais, formato real, finalidade, paths dos PDFs) e `data/corpus-itens.json` (itens reais indexados, inicialmente vazios); não confundir com `data/provas.json`, que só contém provas efetivamente realizadas. O dossiê canônico CGU está em `00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho.md`. `scripts/baixar-provas-espelho.mjs` arquiva PDFs oficiais e grava manifesto de SHA-256; `scripts/test-corpus-provas-espelho.js` valida metadados/consistência. Workflow de sincronização de fontes (se disponível) deve registrar binários no Git antes de declarar preservação. Critérios anti-ilusão: fonte ≠ download ≠ leitura ≠ indexação ≠ calibração.
+
 ## Refinamento posterior: CGU integrada por função (09/10/2026)
 
 O modelo anterior com `4 - Projetos/cgu-2026/`, painel público, `dashboardPath` e link “abrir preparação” foi descontinuado por decisão do usuário. As três notas CGU migraram para **edital/checklist**, **Estratégia de Prova com protocolo discursivo** e **hubs de desempenho, simulados e métricas**. A home mantém seleção via `data/concursos.json`, sem link extra. Os scripts de ingestão/validação não devem exigir arquivo de projeto da CGU. As descrições históricas anteriores de dashboard CGU são preservadas acima apenas para rastrear o incidente original, não para orientar agentes.

@@ -21,7 +21,8 @@ Leia, nesta ordem:
 1. `me.md`, para respeitar a governança do vault;
 2. `index.md`, para localizar as notas e a estrutura vigente;
 3. `data/concursos.json`, para identificar a estrutura oficial do concurso escolhido;
-4. `data/provas.json`, para identificar quais são as provas-espelho principais e quais são apenas corpus secundário;
+4. `data/corpus-provas-espelho.json`, para consultar provas-espelho (conteúdo × formato), origem oficial, estado do PDF e do gabarito; e `data/corpus-itens.json`, para questões reais efetivamente indexadas;
+4b. `data/provas.json`, apenas para registros de desempenho real e comparabilidade (não é o catálogo de provas-espelho);
 5. o edital vigente correspondente em `2 - Editais/`;
 6. o dossiê da prova-espelho correspondente em `00 - Desempenho/Provas/`;
 7. `3 - Materias/Estrategia de Prova/estrategia-de-prova.md` e a nota específica do concurso;
@@ -35,6 +36,12 @@ Se você não conseguir acessar o repositório ou abrir esses arquivos, diga iss
 Gere o simulado para o concurso indicado pelo usuário. Se o usuário disser apenas "Dataprev", use `dataprev-2026`. Se disser "CGU", use `cgu-2026` (Auditoria). Não reativar TCDF como padrão.
 
 A estrutura do edital vigente prevalece sobre a estrutura de qualquer prova histórica. A prova-espelho serve para reproduzir estilo de cobrança, densidade, mecanismos de distração, extensão dos enunciados, repertório exigido e tipos de comando. Ela não autoriza alterar quantidade de questões, pesos, disciplinas ou regras do edital atual.
+
+### Governança do corpus CGU (obrigatória)
+
+Para `cgu-2026`, leia `00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho.md`. **CGU 2022 FGV é referência de conteúdo/carreira, mas não do julgamento C/E**. CGE/AL 2026 usa C/E e é candidata a modelo de cobrança **após a recuperação e indexação do caderno**. TCU AUFC 2026 tem caderno C/E efetivamente localizado; seu conteúdo de TI não substitui o programa da CGU. TCE/MG 2026 Cebraspe usa **A–E**, não C/E. Não declarar prova calibrada a partir de links: conferir PDF e gabarito definitivo e ler os itens de `data/corpus-itens.json`.
+
+Se `data/corpus-itens.json` estiver vazio ou os itens pertinentes não estiverem verificados, **não afirmar calibração empírica ao caderno**. Questões podem ser produzidas com base no edital/teoria e rotuladas `provisoriamente calibradas ao edital`, sem falsa menção a padrões observados no corpus. Não apresentar questões antigas como inéditas nem reproduzir texto integral dos PDFs no simulado.
 
 ### Hierarquia das referências
 

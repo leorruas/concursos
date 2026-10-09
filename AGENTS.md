@@ -2,6 +2,10 @@
 
 Antes de modificar este repositório, leia integralmente `me.md`, `index.md` e `.agent/AGENTS.md`. Para a CGU, **não recriar `4 - Projetos/cgu-2026/`**: edital/checklist em `2 - Editais/`, objetiva/discursiva em Estratégia de Prova, métricas/simulados em `00 - Desempenho/`. As regras operacionais detalhadas ficam em `.agent/AGENTS.md`.
 
+## Entrada de edital: corpus e geração de exercícios
+
+É obrigatório localizar provas-espelho, identificar **mesmo cargo/conteúdo** e **mesma banca/formato**, registrar URLs oficiais no catálogo `data/corpus-provas-espelho.json` e criar/atualizar o dossiê em `00 - Desempenho/Provas/`. Preservar PDFs e gabaritos com SHA-256 em `assets/provas-espelho/` se autorizados; não considerar fonte arquivada sem arquivo verificável no Git. A indexação real usa `data/corpus-itens.json` e exige gabarito definitivo, modelo da prova, validade normativa e item numerado. Questões inéditas devem reproduzir mecanismos comprovados sem copiar o enunciado. CGU 2026: conteúdo CGU 2022/FGV; formato C/E CGE/AL e TCU AUFC; TCE/MG 2026 é A–E, mesmo com banca Cebraspe. Ver [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]].
+
 ## Criação de notas em `3 - Materias/`
 
 Uma nota canônica nova exige, na mesma operação e no mesmo commit, a nota, o link no hub da matéria (quando existir) e o wikilink com o caminho exato no `index.md` global. Confira os três arquivos antes de gravar. Não crie a nota primeiro para indexá-la em um commit posterior.

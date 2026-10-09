@@ -41,6 +41,8 @@ jobs:
         run: node scripts/question-ledger.js --validate
       - name: Testar ledger anti-repetição
         run: node scripts/test-question-ledger.js
+      - name: Validar catálogo de fontes e provas-espelho
+        run: node scripts/test-corpus-provas-espelho.js
       - name: Testar política de propagação da ingestão
         run: node scripts/test-ingestion-propagation-policy.js
       - name: Testar propagação de simulados concluídos

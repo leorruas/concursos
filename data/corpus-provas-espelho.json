@@ -1,0 +1,142 @@
+{
+  "versao": 1,
+  "concursoAlvo": "cgu-2026",
+  "atualizadoEm": "2026-10-09",
+  "definicao": "Fontes oficiais classificadas por utilidade: conteúdo e forma de cobrança são eixos independentes; não declarar item indexado sem PDF+gabarito conferidos.",
+  "provas": [
+    {
+      "id": "cgu-2022-fgv-auditoria-especificos-t1",
+      "orgao": "CGU",
+      "ano": 2022,
+      "banca": "FGV",
+      "cargo": "Auditor Federal de Finanças e Controle — Auditoria e Fiscalização",
+      "blocoOriginal": "Específicos e especializados; tipo 1; tarde",
+      "formato": "multipla_escolha_5",
+      "papel": "principal_conteudo",
+      "prioridade": 1,
+      "coberturaCGU": [
+        "P2",
+        "P3"
+      ],
+      "edital": "https://conhecimento.fgv.br/concursos/concursocgu21",
+      "pdf": {
+        "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_auditoria_e_fiscalizacaoaffc-af_tipo_1_tarde.pdf",
+        "repoPath": "assets/provas-espelho/cgu-2022-fgv-auditoria-especificos-t1.pdf",
+        "archivarNoGitHub": true,
+        "verificado": "PDF oficial conferido, 26 páginas"
+      },
+      "gabaritoId": "cgu-2022-fgv-gabarito-definitivo",
+      "observacao": "Referência mais próxima do conteúdo/cargo, não do formato C/E; 80 questões objetivas."
+    },
+    {
+      "id": "cgu-2022-fgv-basicos-t1",
+      "orgao": "CGU",
+      "ano": 2022,
+      "banca": "FGV",
+      "cargo": "Auditor Federal de Finanças e Controle — comum",
+      "blocoOriginal": "Conhecimentos gerais; tipo 1; manhã",
+      "formato": "multipla_escolha_5",
+      "papel": "secundaria_conteudo",
+      "prioridade": 3,
+      "coberturaCGU": [
+        "P1",
+        "P2"
+      ],
+      "edital": "https://conhecimento.fgv.br/concursos/concursocgu21",
+      "pdf": {
+        "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controleaffc_tipo_1_manha.pdf",
+        "repoPath": "assets/provas-espelho/cgu-2022-fgv-basicos-t1.pdf",
+        "archivarNoGitHub": true,
+        "verificado": "URL oficial localizada; resposta PDF ainda não inspecionada"
+      },
+      "gabaritoId": "cgu-2022-fgv-gabarito-definitivo",
+      "observacao": "Aguardando confirmação do download e conferência do PDF."
+    },
+    {
+      "id": "cgu-2022-fgv-gabarito-definitivo",
+      "orgao": "CGU",
+      "ano": 2022,
+      "banca": "FGV",
+      "cargo": "Gabarito geral — CGU 2022",
+      "blocoOriginal": "Gabaritos definitivos retificados",
+      "formato": "gabarito",
+      "papel": "gabarito",
+      "prioridade": 1,
+      "coberturaCGU": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "edital": "https://conhecimento.fgv.br/concursos/concursocgu21",
+      "pdf": {
+        "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+        "repoPath": "assets/provas-espelho/cgu-2022-fgv-gabarito-definitivo.pdf",
+        "archivarNoGitHub": true,
+        "verificado": "Documento oficial confirmado; 36 páginas"
+      },
+      "observacao": "Identificar tabela/cargo/tipo antes de vincular qualquer questão a resposta."
+    },
+    {
+      "id": "cge-al-2026-cebraspe-controle-interno",
+      "orgao": "CGE/AL",
+      "ano": 2026,
+      "banca": "Cebraspe",
+      "cargo": "Analista de Controle Interno — Ciências Contábeis",
+      "blocoOriginal": "P1 50 itens e P2 70 itens",
+      "formato": "certo_errado",
+      "papel": "principal_formato_potencial",
+      "prioridade": 2,
+      "coberturaCGU": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "edital": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/C264386053CAB55BDCA62806E4E6DF992CA8851CCED0E14318D8F334F82A1651.html",
+      "paginaProvas": "https://www.cebraspe.org.br/concursos/cge_al_26",
+      "pdf": null,
+      "observacao": "Edital oficial C/E verificado, mas URL do caderno e gabarito definitivo ainda não identificadas; não classificar conteúdo de questões como analisado."
+    },
+    {
+      "id": "tcu-2026-cebraspe-auditoria-ti-basicos",
+      "orgao": "TCU",
+      "ano": 2026,
+      "banca": "Cebraspe",
+      "cargo": "Auditor Federal de Controle Externo — Auditoria de Tecnologia da Informação",
+      "blocoOriginal": "Conhecimentos básicos; caderno modelo 2025 aplicado em 2026",
+      "formato": "certo_errado",
+      "papel": "secundaria_formato",
+      "prioridade": 3,
+      "coberturaCGU": [
+        "P1",
+        "P2"
+      ],
+      "edital": "https://www.cebraspe.org.br/concursos/tcu_25_aufc",
+      "pdf": {
+        "url": "https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf",
+        "repoPath": "assets/provas-espelho/tcu-2026-cebraspe-auditoria-ti-basicos.pdf",
+        "archivarNoGitHub": true,
+        "verificado": "Caderno de conhecimentos básicos confirmado, 6 páginas"
+      },
+      "observacao": "Prova real C/E, mas com peso temático elevado em língua e TI. Não usar como distribuição de conteúdos da CGU; gabarito definitivo ainda pendente."
+    },
+    {
+      "id": "tce-mg-2026-cebraspe-contabeis",
+      "orgao": "TCE/MG",
+      "ano": 2026,
+      "banca": "Cebraspe",
+      "cargo": "Analista de Controle Externo — Ciências Contábeis",
+      "blocoOriginal": "Auditoria do setor público, contabilidade e controle externo",
+      "formato": "multipla_escolha_5",
+      "papel": "secundaria_conteudo",
+      "prioridade": 4,
+      "coberturaCGU": [
+        "P2",
+        "P3"
+      ],
+      "edital": "https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/DE4C24366A74F67144091D9B1A570F6D0BD2BB1821318ACFBE708991C7C28A8A.html",
+      "paginaProvas": "https://www.cebraspe.org.br/concursos/tce_mg_25",
+      "pdf": null,
+      "observacao": "ATENÇÃO: prova do Cebraspe com CINCO alternativas, não C/E; serve para conteúdo técnico apenas. Caderno e gabarito em PDF pendentes."
+    }
+  ]
+}

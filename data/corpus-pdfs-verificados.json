@@ -1,0 +1,38 @@
+{
+  "versao": 1,
+  "comentario": "PDF confirmado apenas quando pdfPath existe no GitHub e o sha256 confere; falha_download não é acervo.",
+  "arquivos": [
+    {
+      "id": "cgu-2022-fgv-auditoria-especificos-t1",
+      "pdfPath": "assets/provas-espelho/cgu-2022-fgv-auditoria-especificos-t1.pdf",
+      "origem": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_auditoria_e_fiscalizacaoaffc-af_tipo_1_tarde.pdf",
+      "bytes": 1106591,
+      "sha256": "f0857b431ba18d899fa161ccc66fe74f4b74cc914a974ab508b9fe757801d4b1",
+      "situacao": "arquivado"
+    },
+    {
+      "id": "cgu-2022-fgv-basicos-t1",
+      "pdfPath": "assets/provas-espelho/cgu-2022-fgv-basicos-t1.pdf",
+      "origem": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controleaffc_tipo_1_manha.pdf",
+      "bytes": 1033864,
+      "sha256": "754334fccdad35ede08a3a8b7ed5d7b365c2cdbf9de3cb33b042117843e556b7",
+      "situacao": "arquivado"
+    },
+    {
+      "id": "cgu-2022-fgv-gabarito-definitivo",
+      "pdfPath": "assets/provas-espelho/cgu-2022-fgv-gabarito-definitivo.pdf",
+      "origem": "https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf",
+      "bytes": 883549,
+      "sha256": "1b908040aff014df0fcbc0070f7cc96584ebd95334819663b39eda83a9fc3e70",
+      "situacao": "arquivado"
+    },
+    {
+      "id": "tcu-2026-cebraspe-auditoria-ti-basicos",
+      "pdfPath": "assets/provas-espelho/tcu-2026-cebraspe-auditoria-ti-basicos.pdf",
+      "origem": "https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf",
+      "bytes": 656494,
+      "sha256": "e85c35039244f7f0b90c3fb5230d568d6a65ac04aaebc50540642c901aaff059",
+      "situacao": "arquivado"
+    }
+  ]
+}

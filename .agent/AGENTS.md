@@ -13,9 +13,11 @@ Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, i
 
 - Até **11/10/2026**, pedidos genéricos ou ambíguos continuam vinculados à **Dataprev**, que permanece como prioridade temporal até a prova.
 - Referência explícita à **Dataprev** aciona o protocolo FGV-Dataprev de `me.md`. Nesta reta final, o fluxo padrão é de **simulados integrais**, com teoria apenas como microrevisão derivada de erros, salvo pedido explícito em contrário.
+- De **12/10/2026 a 13/12/2026**, após a Dataprev, o padrão para pedidos genéricos será **CGU 2026, Cargo 1 Auditoria**, conforme decisão de 09/10/2026: `4 - Projetos/cgu-2026/`. Usar o edital CGU, Cebraspe C/E, pesos +1/-1 (P1/P2) e +2/-2 (P3), as duas discursivas próprias e ledger de desempenho separado.
+- Referência explícita à **CGU** sempre aciona seu projeto, inclusive antes de 11/10. Não transformar nota existente em conhecimento comprovado; `coberturaNota` e `exposicaoEstudo` devem permanecer distintos.
 - Referência explícita à **Câmara dos Deputados** aciona o projeto `4 - Projetos/camara-2026/`, o edital da Câmara e o protocolo **Cebraspe-Câmara** de `me.md`. Estudo teórico, revisão, questões e simulados da Câmara seguem o padrão Cebraspe/Cespe e o formato C/E.
-- Nunca misturar banca ou formato: **FGV para Dataprev; Cebraspe para Câmara**. Notas teóricas compartilhadas podem ser reutilizadas, mas a mecânica de cobrança, o corpus de calibração e os registros de desempenho pertencem ao concurso-alvo.
-- Ao registrar desempenho, atualizar apenas as superfícies do projeto correspondente. É proibido lançar uma sessão da Câmara em arquivos da Dataprev ou uma sessão da Dataprev em arquivos da Câmara.
+- Nunca misturar banca ou formato: **FGV para Dataprev; Cebraspe para Câmara e CGU, cada uma com seu edital e pontuação**. Notas teóricas compartilhadas podem ser reutilizadas, mas a mecânica de cobrança, o corpus de calibração e os registros de desempenho pertencem ao concurso-alvo.
+- Ao registrar desempenho, atualizar apenas as superfícies do projeto correspondente. É proibido lançar uma sessão da Câmara, da CGU ou da Dataprev em arquivos de outro concurso.
 
 ## Gate de integridade do main
 

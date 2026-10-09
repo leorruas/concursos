@@ -23,6 +23,10 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|Câmara dos Deputados 2026: Divulgação Institucional]]
 
 ## 4 - Projetos
+- [[4 - Projetos/cgu-2026/00 Dashboard|CGU 2026: Auditoria (projeto prioritário pós-Dataprev)]]
+  - [[4 - Projetos/cgu-2026/O que estudar|O que estudar: programa e cobertura do vault]]
+  - [[4 - Projetos/cgu-2026/Estrategia|Estratégia Cebraspe e cronograma]]
+  - [[4 - Projetos/cgu-2026/Discursiva|Discursiva: 30 e 60 linhas]]
 - [[00 Dashboard|Dataprev 2026 (Dashboard)]]
   - [[4 - Projetos/dataprev-2026/O que estudar|O que estudar (Checklist)]]
   - [[4 - Projetos/dataprev-2026/Cronograma|Cronograma]]
@@ -180,4 +184,4 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Redacao/03 - estrategias de argumentacao|03 • Estratégias de argumentação]]
 
 ---
-*Última atualização: 2026-10-03*
+*Última atualização: 2026-10-09*

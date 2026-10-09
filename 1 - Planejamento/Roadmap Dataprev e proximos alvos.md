@@ -3,17 +3,18 @@ title: "Roadmap Dataprev e próximos alvos"
 type: "planejamento"
 status: "ativo"
 created: 2026-07-10
-updated: 2026-10-03
+updated: 2026-10-09
 ---
 
-# Roadmap: Dataprev, Câmara dos Deputados e ANPD
+# Roadmap: Dataprev, CGU Auditoria, Câmara dos Deputados e ANPD
 
 ## Estado atual
 
 | Alvo | Estado | Regra de preparação |
 | :--- | :--- | :--- |
-| **Dataprev 2026** | Preparação ativa | Foco até a prova de 11/10/2026. |
-| **Câmara dos Deputados** | Edital publicado | Cargo-alvo: Analista Legislativo — Comunicação Social — Divulgação Institucional. Prova em 17/01/2027; preparação estruturada no projeto próprio. |
+| **Dataprev 2026** | Preparação ativa até 11/10 | Concluir prova e preservar o histórico FGV. |
+| **CGU 2026: Auditoria** | **Edital publicado; foco escolhido** | Prova em **13/12/2026**, Cebraspe. Prioridade principal a partir de 12/10; [[4 - Projetos/cgu-2026/00 Dashboard|projeto próprio]]. |
+| **Câmara dos Deputados** | Edital publicado | Cargo-alvo: Analista Legislativo — Comunicação Social — Divulgação Institucional. Prova em 17/01/2027; preparação preservada, prioridade posterior à CGU. |
 | **ANPD** | Aguardando edital | Sem grade oficial no vault até publicação de fonte oficial. |
 
 O TCDF foi abandonado como objetivo e foi removido das camadas ativas do vault. As notas canônicas de Direito, Administração e demais matérias permanecem porque são reutilizáveis por outros concursos.
@@ -22,9 +23,13 @@ O TCDF foi abandonado como objetivo e foi removido das camadas ativas do vault. 
 
 Prioridade total para revisão e simulados da Dataprev, com ênfase em Comunicação, Português gramatical, Lógica e legislação digital conforme o diagnóstico atual.
 
+## CGU publicada: foco em Auditoria
+
+A CGU será o alvo principal de **12/10 até 13/12/2026**. O projeto separa os [[4 - Projetos/cgu-2026/O que estudar|objetos do edital e a cobertura existente]], a [[4 - Projetos/cgu-2026/Estrategia|estratégia de preparação]] e a [[4 - Projetos/cgu-2026/Discursiva|prova discursiva]]. Há reutilização em Direito Administrativo, governança, LAI/LGPD, indicadores e pesquisa; as lacunas dominantes são auditoria, orçamento/contabilidade, avaliação causal, transferências e responsabilização. A CGU é **Cebraspe/C-E com pesos próprios**, sem herdar resultados, corpus ou metas FGV da Dataprev.
+
 ## Câmara publicada
 
-A Câmara passa a ser o próximo alvo estruturado após a Dataprev. O checklist oficial está em [[4 - Projetos/camara-2026/O que estudar|Câmara 2026 — O que estudar]].
+A Câmara permanece como concurso estruturado para depois da CGU, sem perda das notas ou do corpus já construídos. O checklist oficial está em [[4 - Projetos/camara-2026/O que estudar|Câmara 2026 — O que estudar]].
 
 O edital revelou quatro frentes com grande conteúdo novo no vault: Teorias da Comunicação; Publicidade e legislação publicitária; Processo Legislativo/Regimentos; Ciência Política. Comunicação organizacional, comunicação pública, planejamento, pesquisa, branding, design e parte de Direito/Administração já têm alto reaproveitamento das notas canônicas existentes.
 
@@ -69,6 +74,10 @@ Até o edital oficial, é proibido transformar expectativa, rumor ou conteúdo d
 O conhecimento já consolidado no vault continua disponível para Câmara e ANPD quando houver aderência real ao futuro edital. A regra é **reutilizar por conceito, não por concurso de origem**.
 
 ## Referências
+
+- [[4 - Projetos/cgu-2026/00 Dashboard|CGU 2026: Auditoria]]
+- [[4 - Projetos/cgu-2026/O que estudar|CGU: checklist]]
+- [[4 - Projetos/cgu-2026/Estrategia|CGU: estratégia]]
 
 - [[2 - Editais/Dataprev 2026 (Original)|Dataprev 2026]]
 - [[4 - Projetos/dataprev-2026/Cronograma|Cronograma Dataprev]]

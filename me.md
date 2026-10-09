@@ -4,7 +4,7 @@ type: "perfil-pessoal"
 status: "ativo"
 leitura: "mandatória — ler antes de qualquer operação no vault"
 created: 2026-04-25
-updated: 2026-10-03
+updated: 2026-10-09
 ---
 
 # me
@@ -78,10 +78,12 @@ updated: 2026-10-03
 - **Se houver referência explícita à Dataprev:** aplicar o protocolo FGV-Dataprev. Nesta reta final, o fluxo padrão é de **simulados integrais**, com teoria apenas como microrevisão derivada da autópsia dos erros. Pedido explícito de explicação teórica continua sendo atendido.
 - **Se houver referência explícita à Câmara dos Deputados:** aplicar o projeto Câmara 2026 e o protocolo Cebraspe-Câmara. Estudo teórico, revisão, questões e simulados da Câmara continuam permitidos e devem seguir o edital, o formato C/E e o corpus próprio da Câmara/Cebraspe.
 - **Separação de banca é obrigatória:** não aplicar o DNA FGV à Câmara nem o DNA Cebraspe à Dataprev. Conteúdo teórico comum pode ser reutilizado; o mecanismo de cobrança deve seguir a prova-alvo.
-- **Depois da prova da Dataprev:** a prioridade temporal padrão pode migrar para a Câmara, preservando o histórico e os protocolos específicos de cada concurso.
+- **De 12/10/2026 até 13/12/2026, CGU Auditoria é a prioridade temporal padrão pós-Dataprev**, por decisão explícita de 09/10/2026. Pedidos genéricos de estudo nesse período seguem [[4 - Projetos/cgu-2026/00 Dashboard|CGU Auditoria]], desde que não indiquem outro concurso. O programa, os pesos, o corpus e as discursivas seguem os documentos desse projeto.
+- **Se houver referência explícita à CGU:** aplicar edital CGU 2026, Cargo 1 Auditoria, itens C/E Cebraspe, P1=40, P2=40, P3=90 (+1/-1 nas duas primeiras; +2/-2 na P3), duas discursivas 30/70 pontos. Não confundir com o edital da Câmara e não inferir domínio CGU a partir de desempenho FGV/Dataprev.
+- **Após a CGU:** a Câmara dos Deputados (prova prevista em 17/01/2027) permanece alvo estruturado; manter suas regras, arquivos e métricas separados.
 
 ### Workflows Mandatórios
-- **Ingestão**: Ler fontes → Sintetizar na `wiki/` (ou na respectiva pasta da matéria) → Linkar via `[[Wikilinks]]` → Atualizar `index.md` e registrar histórico por mecanismo seguro de log. **Aproveitamento Máximo**: Todo conteúdo processado a partir do inbox deve ser aproveitado ao máximo para criar ou enriquecer as notas de matérias/teoria correspondentes no vault, indo além do mero registro de métricas e diagnósticos nos logs de avanços. **Enriquecimento Imediato de Teoria**: Sempre que uma questão ou simulação do inbox trouxer uma nuance, pegadinha clássica ou critério de classificação específico da banca, o agente deve obrigatoriamente atualizar a nota teórica correspondente (Camada 2) com essa informação (ex: enquadramento de vestibulares, hierarquia de releases, tipos de clipping, etc.), transformando os aprendizados das questões em teoria integrada. **Sincronia do Edital**: Ao ingerir e processar novos tópicos de estudo do inbox, o agente deve verificar de imediato quais itens do edital-alvo foram cobertos e atualizar as superfícies do projeto correspondente. Para Dataprev, usar `4 - Projetos/dataprev-2026/`; para Câmara, usar `4 - Projetos/camara-2026/`. Nunca propagar automaticamente uma sessão da Câmara para os painéis da Dataprev, nem o inverso.
+- **Ingestão**: Ler fontes → Sintetizar na `wiki/` (ou na respectiva pasta da matéria) → Linkar via `[[Wikilinks]]` → Atualizar `index.md` e registrar histórico por mecanismo seguro de log. **Aproveitamento Máximo**: Todo conteúdo processado a partir do inbox deve ser aproveitado ao máximo para criar ou enriquecer as notas de matérias/teoria correspondentes no vault, indo além do mero registro de métricas e diagnósticos nos logs de avanços. **Enriquecimento Imediato de Teoria**: Sempre que uma questão ou simulação do inbox trouxer uma nuance, pegadinha clássica ou critério de classificação específico da banca, o agente deve obrigatoriamente atualizar a nota teórica correspondente (Camada 2) com essa informação (ex: enquadramento de vestibulares, hierarquia de releases, tipos de clipping, etc.), transformando os aprendizados das questões em teoria integrada. **Sincronia do Edital**: Ao ingerir e processar novos tópicos de estudo do inbox, o agente deve verificar de imediato quais itens do edital-alvo foram cobertos e atualizar as superfícies do projeto correspondente. Para Dataprev, usar `4 - Projetos/dataprev-2026/`; para Câmara, usar `4 - Projetos/camara-2026/`; para CGU, usar `4 - Projetos/cgu-2026/`. Nunca propagar automaticamente uma sessão da Câmara para os painéis da Dataprev, nem o inverso.
 - **Fase de Simulados e Catalogação de Erros (Mandatório)**: Todo simulado ou bateria mista de questões resolvido a partir do inbox deve ser catalogado na pasta dedicada `00 - Desempenho/Simulados/`, atualizando o hub central [[00 - Desempenho/Simulados/00 - Catalogo de simulados|00 - Catalogo de simulados.md]] e gerando/atualizando o arquivo de diagnóstico correspondente (`Simulado-XX.md`). Adicionalmente, o agente **deve atualizar obrigatoriamente os arquivos do projeto correspondente ao concurso-alvo**. As superfícies da Dataprev só recebem sessões Dataprev; as superfícies da Câmara só recebem sessões Câmara. Se o projeto ainda não possuir uma superfície equivalente, registrar a necessidade sem reutilizar um arquivo de outro concurso. A cada erro mapeado, o agente **DEVE OBRIGATORIAMENTE**:
   1. Identificar a **disciplina e o recorte exato do tema**.
   2. Declarar a **causa raiz clínica do erro** (pegadinha de banca, armadilha formal, lacuna teórica ou desatenção).
@@ -436,4 +438,4 @@ Mapeamento de proficiência lógica construído e refinado através de simulados
 - **Fuso:** America/Sao_Paulo (UTC-3).
 
 ---
-*Última atualização: 2026-09-30*
+*Última atualização: 2026-10-09*

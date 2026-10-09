@@ -226,7 +226,6 @@ if (process.argv.includes('--audit-site')) {
           entryRel.startsWith('00 inbox') ||
           entryRel.startsWith('1 - Planejamento') ||
           entryRel.startsWith('2 - Editais') ||
-          entryRel.startsWith('4 - Projetos') ||
           entryRel.startsWith('.agent') ||
           entryRel.startsWith('.git') ||
           entryRel.startsWith('.github') ||
@@ -247,7 +246,8 @@ if (process.argv.includes('--audit-site')) {
           entryRel.startsWith('00 inbox/') ||
           entryRel.startsWith('1 - Planejamento/') ||
           entryRel.startsWith('2 - Editais/') ||
-          entryRel.startsWith('4 - Projetos/')
+          (entryRel.startsWith('4 - Projetos/') &&
+            !(/^public:\s*true\s*$/m.test(fs.readFileSync(fullPath, 'utf8'))))
         ) {
           proibidosEncontrados.push(entryRel);
         }

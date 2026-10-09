@@ -40,6 +40,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[01 Log de saturacao diaria|Log de saturação diária]]
 - [[02 Metricas e metas|Métricas e metas]]
 - [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]]
+  - [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|CGU 2026: corpus de provas-espelho]]
   - [[00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social|Dataprev 2024: Comunicação Social]]
   - [[00 - Desempenho/Provas/MPU 2025 - Comunicacao Social|MPU 2025: Comunicação Social]]
 - [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]]

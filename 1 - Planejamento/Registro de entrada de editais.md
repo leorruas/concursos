@@ -22,7 +22,11 @@ Checklist permanente e histórico de pendências por concurso. **Atualizar este 
 - [ ] Integrar checklist e diagnóstico em `2 - Editais/`, estratégia e discursiva em `3 - Materias/Estrategia de Prova/` e avanços, provas, simulados e metas em `00 - Desempenho/`. **Não criar automaticamente uma pasta por edital**.
 - [ ] Comparar **cada subtema** com o vault: cobertura documental integral, parcial ou ausente; `coberturaNota` não significa `exposicaoEstudo` nem domínio.
 - [ ] Identificar lacunas, pesos, mínimos e competências transversais; priorizar sem eliminar conteúdos obrigatórios.
-- [ ] Criar corpus de provas reais aderentes (banca, ano, cargo, item, gabarito definitivo, validade legal); manter métricas separadas por concurso.
+- [ ] **Pesquisar provas-espelho antes de gerar simulados:** procurar (1) mesmo órgão/carreira/conteúdo; (2) mesma banca e **mesmo formato efetivo**; (3) questões da área técnica em órgãos análogos. Conferir o edital de cada prova histórica, não presumir que "Cebraspe = C/E".
+- [ ] Registrar cada fonte em `data/corpus-provas-espelho.json`: URL oficial, cargo/ano, formato REAL, valor para conteúdo × forma, versão e estado (localizada, PDF arquivado, gabarito conferido, itens indexados, prova calibrada). Vincular corpus no hub `00 - Desempenho/Provas/` sem abrir nova pasta de projeto.
+- [ ] Preservar, quando for permitido, cadernos e gabaritos PDF em `assets/provas-espelho/` usando `scripts/baixar-provas-espelho.mjs`, registrar SHA-256, verificar `git ls-tree`/commit e manter URL primária. PDF **sem confirmação no Git não conta como arquivado**.
+- [ ] Indexar questão real só depois de ler PDF, identificar numeração/cargo/tipo e confrontar **gabarito definitivo** e norma vigente; registrar em `data/corpus-itens.json` com assunto, bloco P1/P2/P3 e mecanismo, sem copiar o enunciado integral.
+- [ ] Criar duas réguas para exercícios: corpus de **conteúdo** e corpus de **mecanismo da banca**. Questões inéditas precisam de rastreabilidade aos dois e de validação com edital, controle de novidade e registro de desempenho por concurso.
 - [ ] Aplicar diagnóstico inicial, registrar erros com seções ancoradas e planejar estudo, revisão e discursivas.
 
 ### Navegação e publicação
@@ -57,7 +61,11 @@ Fontes atuais: [[2 - Editais/CGU 2026 - Auditoria|edital e checklist CGU]], [[3 
 
 ### Próximos trabalhos de conteúdo
 - [ ] Confrontar o checklist detalhadamente com o PDF oficial e eventuais retificações.
-- [ ] Organizar corpus de questões reais CGU, auditoria, controle e finanças públicas.
+- [x] Identificar corpus inicial e formato: CGU 2022/FGV (conteúdo), CGE/AL 2026 C/E, TCU AUFC 2026 C/E e TCE/MG 2026 A–E (conteúdo).
+- [x] Criar catálogo de fontes com links oficiais, função de cada prova e documentação do pipeline para exercícios.
+- [ ] Confirmar sincronização dos PDFs no GitHub e hashes SHA-256; pesquisar termos de redistribuição.
+- [ ] Recuperar caderno e gabarito definitivo CGE/AL 2026 e gabarito definitivo TCU AUFC.
+- [ ] Indexar itens reais com numeração e gabarito definitivo, sem inventar respostas ou incidência estatística.
 - [ ] Fazer diagnóstico por P1/P2/P3 e uma discursiva de referência, sem transferir resultados FGV.
 - [ ] Criar notas canônicas para auditoria governamental, execução orçamentária, contabilidade pública e avaliação causal.
 - [ ] Mapear subitens CGU em `data/edital-itens.json` sem inventar domínio ou estudo.

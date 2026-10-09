@@ -1,0 +1,43 @@
+name: Arquivar PDFs das provas-espelho
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/corpus-provas-espelho.json'
+      - 'scripts/baixar-provas-espelho.mjs'
+      - '.github/workflows/arquivar-provas-espelho.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: arquivar-provas-espelho
+  cancel-in-progress: false
+
+jobs:
+  preservar-pdfs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Baixar e verificar PDFs oficiais
+        run: node scripts/baixar-provas-espelho.mjs
+      - name: Validar integridade dos arquivos
+        run: node scripts/test-corpus-provas-espelho.js
+      - name: Registrar PDFs e manifesto no GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/provas-espelho/ data/corpus-pdfs-verificados.json
+          if git diff --cached --quiet; then
+            echo "Acervo já sincronizado."
+          else
+            git commit -m "Arquiva PDFs oficiais de provas-espelho com SHA-256"
+            git push origin HEAD:main
+          fi

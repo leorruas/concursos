@@ -50,6 +50,8 @@ O método Dataprev transferível é: **edital → notas canônicas → treino �
 
 A estrutura do vault já contém notas úteis em [[3 - Materias/Direito Administrativo/direito-administrativo|Direito administrativo]], [[3 - Materias/Administracao Publica/administracao-publica|Administração pública]], [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa]] e [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI/LGPD]]. **O desempenho elevado em Comunicação/FGV não é evidência de domínio de Auditoria/Cebraspe**. O diagnóstico CGU parte do zero.
 
+**Corpus próprio:** [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|provas-espelho CGU: conteúdo e formato]], com referências CGU 2022/FGV, CGE/AL Cebraspe C/E, TCU AUFC C/E e TCE/MG Cebraspe A–E. A descoberta de fontes **ainda não equivale a indexação item a item nem a calibração estatística**.
+
 O [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|corpus Cebraspe da Câmara]] e a [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|análise do mecanismo C/E]] ajudam na forma de cobrança, mas sua amostra principal é de Comunicação e outras áreas. **Não usar suas frequências de erros como estimativa de Auditoria.** Construir um corpus CGU/controle/auditoria com provas reais e gabaritos definitivos, respeitando legislação vigente e escopo do edital.
 
 ## Plano de execução até 13/12

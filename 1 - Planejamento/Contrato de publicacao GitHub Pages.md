@@ -3,7 +3,7 @@ title: "Contrato de publicação — GitHub Pages"
 type: "governanca-operacional"
 status: "ativo"
 created: 2026-09-14
-updated: 2026-10-05
+updated: 2026-10-09
 ---
 
 # Contrato de publicação — GitHub Pages
@@ -31,6 +31,14 @@ Uma criação ou alteração em `3 - Materias/` só pode ser considerada conclu�
 7. o `manifest.json` **do Pages ao vivo** contém exatamente o catálogo que acabou de ser construído.
 
 O agente não deve afirmar “publicado”, “já aparece no site” ou equivalente antes da etapa 7. Se apenas o commit estiver concluído, dizer explicitamente que o conteúdo está no repositório e que a publicação ainda não foi confirmada.
+
+## Projetos de concursos com publicação seletiva
+
+`4 - Projetos/` continua privado por padrão. Cada nota que deve aparecer no Pages declara `public: true` e `publicCategoria: "14. Nome do concurso"` no frontmatter. O catálogo e o índice de busca incluem somente esses arquivos autorizados, após revisão de dados pessoais.
+
+O seletor da home lê `data/concursos.json`; um edital incorporado deve ser cadastrado nesse arquivo. Quando `dashboardPath` estiver definido, o build falha se a página não aparecer no catálogo. O leitor precisa alcançar o painel por navegação, além de ter o arquivo presente no manifesto.
+
+Ver [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] para o procedimento e as pendências por concurso.
 
 ## Verificação automática
 

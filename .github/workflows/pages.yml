@@ -57,6 +57,8 @@ jobs:
         run: node scripts/validate-search-governance.js
       - name: Montar artefato estático isolado (_site)
         run: node scripts/build-site.js
+      - name: Verificar projetos publicados de concursos
+        run: node scripts/test-public-projects.js
       - name: Validar índice de busca publicado
         run: node scripts/validate-search-index.js
       - name: Testar recall mínimo da busca

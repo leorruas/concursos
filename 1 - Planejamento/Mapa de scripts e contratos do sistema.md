@@ -3,7 +3,7 @@ title: "Mapa de scripts e contratos do sistema"
 type: "guia"
 status: "ativo"
 created: 2026-10-05
-updated: 2026-10-06
+updated: 2026-10-09
 ---
 
 # Mapa de scripts e contratos do sistema
@@ -367,3 +367,16 @@ O mapa preserva conhecimento operacional para próximas sessões. A capacidade d
 
 - [scripts/test-simulado-propagation.js](https://github.com/leorruas/concursos/blob/main/scripts/test-simulado-propagation.js#L1)
 - [scripts/test-home-without-provas.js](https://github.com/leorruas/concursos/blob/main/scripts/test-home-without-provas.js#L1)
+
+## Refinamento: projetos públicos e novos editais (09/10/2026)
+
+A CGU não aparecia no site apesar de o workflow estar verde: o filtro de `scripts/build-site.js` excluía `4 - Projetos/` e `data/concursos.json` só listava Dataprev/Câmara. O catálogo local e ao vivo coincidiam, mas ambos omitiam o projeto.
+
+- `scripts/build-site.js`: seleção opt-in via `public: true` para notas de projeto, categoria `publicCategoria` e falha explícita quando `dashboardPath` não estiver publicado.
+- `web/02-data-home.js`: seleção de concurso por data e link para o dashboard no leitor quando `dashboardPath` existe.
+- `data/concursos.json`: registra CGU Auditoria com fonte e formato específicos e ponteiro para o painel.
+- `scripts/test-public-projects.js`: testa catálogo, cópias de Markdown, privacidade e ligação com os dashboards.
+- `.github/workflows/pages.yml`: executa a verificação de projeto após o build e antes do deploy.
+- Pendências e rotinas futuras: [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]].
+
+Limite: testes de manifesto não substituem a verificação visual da navegação em navegador.

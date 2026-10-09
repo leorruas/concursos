@@ -64,11 +64,16 @@ function isArquivoPublico(relPath) {
 
   if (fileName.includes(' 2.md') || normPath.includes(' 2/')) return false;
 
+  // Projetos privados por padrão; só entram no site com consentimento por nota.
+  if (normPath.startsWith('4 - Projetos/')) {
+    const conteudo = fs.readFileSync(path.join(rootDir, normPath), 'utf8');
+    return extrairCampoFrontmatter(conteudo, 'public').toLowerCase() === 'true';
+  }
+
   if (
     normPath.startsWith('00 inbox/') ||
     normPath.startsWith('1 - Planejamento/') ||
     normPath.startsWith('2 - Editais/') ||
-    normPath.startsWith('4 - Projetos/') ||
     normPath.startsWith('materias/') ||
     normPath.startsWith('wiki/') ||
     normPath.startsWith('scripts/') ||
@@ -237,6 +242,9 @@ const manifesto = arquivosPublicos.map((relPath) => {
 
   if (relPath.startsWith('3 - Materias/')) {
     categoria = partes[1] || 'Matérias';
+  } else if (relPath.startsWith('4 - Projetos/')) {
+    const projeto = fs.readFileSync(path.join(rootDir, relPath), 'utf8');
+    categoria = extrairCampoFrontmatter(projeto, 'publicCategoria') || '14. Projetos';
   } else if (relPath.startsWith('00 - Desempenho/Simulados/')) {
     categoria = '00. Simulados';
   } else if (relPath.startsWith('00 - Desempenho/')) {
@@ -280,6 +288,19 @@ if (
   manifesto.some(item => !pathsIndice.has(item.sourcePath))
 ) {
   throw new Error('Falha de integridade: manifest.json e search-index.json não representam o mesmo conjunto de artigos.');
+}
+
+// Um edital com painel declarado não pode produzir deploy verde sem o painel.
+const concursosRegistrados = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/concursos.json'), 'utf8'));
+for (const concurso of concursosRegistrados) {
+  if (!concurso.dashboardPath) continue;
+  if (!pathsManifesto.has(concurso.dashboardPath)) {
+    throw new Error(`Concurso ${concurso.id}: dashboardPath ausente no catálogo público (${concurso.dashboardPath}).`);
+  }
+  const item = manifesto.find(x => x.sourcePath === concurso.dashboardPath);
+  if (!item?.categoria || item.categoria === 'Geral') {
+    throw new Error(`Concurso ${concurso.id}: falta categoria no painel público.`);
+  }
 }
 
 const bytesMarkdown = Array.from(conteudosPorPath.values())

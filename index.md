@@ -6,6 +6,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 
 ## 1 - Planejamento
 - [[1 - Planejamento/Mapa de scripts e contratos do sistema|Mapa de scripts e contratos do sistema]]
+- [[1 - Planejamento/Registro de entrada de editais|Registro permanente de entrada de editais]]
 - [[1 - Planejamento/diretrizes de busca|Diretrizes de busca]]
 - [[1 - Planejamento/Governanca da busca|Governança da busca]]
 - [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]]
@@ -21,6 +22,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[2 - Editais/Fundacao Florestal SP 2026|Fundação Florestal SP 2026]]
 - [[2 - Editais/Dataprev 2026 (Original)|Dataprev 2026 (Original)]]
 - [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|Câmara dos Deputados 2026: Divulgação Institucional]]
+- [[2 - Editais/CGU 2026 - Auditoria|CGU 2026: Auditoria]]
 
 ## 4 - Projetos
 - [[4 - Projetos/cgu-2026/00 Dashboard|CGU 2026: Auditoria (projeto prioritário pós-Dataprev)]]

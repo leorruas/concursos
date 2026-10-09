@@ -19,6 +19,12 @@ Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, i
 - Nunca misturar banca ou formato: **FGV para Dataprev; Cebraspe para Câmara e CGU, cada uma com seu edital e pontuação**. Notas teóricas compartilhadas podem ser reutilizadas, mas a mecânica de cobrança, o corpus de calibração e os registros de desempenho pertencem ao concurso-alvo.
 - Ao registrar desempenho, atualizar apenas as superfícies do projeto correspondente. É proibido lançar uma sessão da Câmara, da CGU ou da Dataprev em arquivos de outro concurso.
 
+## Protocolo recorrente de entrada de editais
+
+Para todo novo edital ou retificação relevante, ler e atualizar [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] na mesma operação: fonte, dados em `data/concursos.json`, comparação com notas, projeto, preparação, índice, prioridades, publicação e pendências.
+
+Projetos em `4 - Projetos/` são **privados por padrão**. Publicar apenas as notas explicitamente autorizadas com `public: true` e `publicCategoria`. Confirmar `dashboardPath` no manifesto e a jornada da home. Workflow verde sozinho não prova visibilidade do projeto.
+
 ## Gate de integridade do main
 
 Antes de iniciar qualquer mudança **não corretiva**, provar que o estado atual do vault está saudável.

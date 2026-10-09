@@ -50,6 +50,63 @@
     }
   },
   {
+    "id": "cgu-2026",
+    "nome": "CGU 2026",
+    "banca": "Cebraspe",
+    "cargo": "Auditor Federal de Finanças e Controle: Auditoria",
+    "dataProva": "2026-12-13T00:00:00-03:00",
+    "status": "edital_publicado",
+    "sourcePath": "2 - Editais/CGU 2026 - Auditoria.md",
+    "fonteOficial": "https://www.cebraspe.org.br/concursos/cgu_26_affc",
+    "dashboardPath": "4 - Projetos/cgu-2026/00 Dashboard.md",
+    "estruturaProva": {
+      "objetiva": {
+        "totalItens": 170,
+        "totalPontos": 260,
+        "julgamento": "Certo ou Errado",
+        "p1": {
+          "itens": 40,
+          "peso": 1,
+          "minimo": 8
+        },
+        "p2": {
+          "itens": 40,
+          "peso": 1,
+          "minimo": 12
+        },
+        "p3": {
+          "itens": 90,
+          "peso": 2,
+          "minimo": 54
+        },
+        "minimoGlobal": 78,
+        "pontuacao": {
+          "brancoOuMarcacaoDupla": 0
+        }
+      },
+      "discursiva": {
+        "pontuacaoMaxima": 100,
+        "notaMinima": 50,
+        "questoes": [
+          {
+            "conteudo": "conhecimentos complementares",
+            "linhasMaximas": 30,
+            "pontos": 30
+          },
+          {
+            "conteudo": "situação-problema de Auditoria",
+            "linhasMaximas": 60,
+            "pontos": 70
+          }
+        ]
+      }
+    },
+    "metasCandidato": {
+      "natureza": "nao_definida",
+      "observacao": "Diagnóstico e metas CGU pendentes; não transferir notas FGV."
+    }
+  },
+  {
     "id": "camara-2026",
     "nome": "Câmara 2026",
     "banca": "Cebraspe",

@@ -68,6 +68,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido|🆕 10 • Reescrita, semântica e preservação de sentido]]
   - [[3 - Materias/Portugues/11 - crase|🆕 11 • Crase]]
 - [[3 - Materias/Ingles/ingles|Língua inglesa]]
+  - [[3 - Materias/Ingles/Avancos|Avanços e desempenho]]
 - [[3 - Materias/Logica/00 - logica|Raciocínio lógico]]
   - [[3 - Materias/Logica/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Logica/01 - proposicao|01 • Proposição]]
@@ -184,4 +185,4 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Redacao/03 - estrategias de argumentacao|03 • Estratégias de argumentação]]
 
 ---
-*Última atualização: 2026-10-09*
+*Última atualização: 2026-10-10*

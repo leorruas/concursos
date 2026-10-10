@@ -57,6 +57,23 @@ Compare:
 
 Essa distinção é especialmente perigosa na **3ª pessoa do plural**. A mesma forma verbal pode corresponder a sujeito oculto ou indeterminado; o que muda é a existência ou não de um referente recuperável.
 
+#### Na 3ª pessoa do plural, o contexto costuma decidir
+
+A desinência verbal de formas como `chegaram`, `disseram` ou `saíram` informa apenas que o sujeito está na **3ª pessoa do plural**. Sozinha, ela normalmente não informa **quem** são essas pessoas.
+
+Por isso, a classificação depende do contexto textual:
+
+*João e Maria terminaram a reunião. Saíram logo depois.*  
+→ em `saíram`, o sujeito é **determinado oculto**, porque o texto anterior permite recuperar `João e Maria`.
+
+*Saíram logo depois.*  
+→ isoladamente, sem informação anterior ou posterior que identifique quem saiu, temos **sujeito indeterminado**.
+
+> [!TIP]
+> Em prova, não analise apenas a oração recortada quando houver um texto maior. Na 3ª pessoa do plural, procure no período anterior, nas frases próximas ou no restante do trecho um referente que possa exercer a função de sujeito. **Se o texto permite recuperar o referente, é determinado oculto; se não permite, é indeterminado.**
+
+Isso difere de formas como `chegamos`, em que a própria desinência `-mos` já permite identificar o sujeito gramatical `nós`, mesmo sem antecedente textual.
+
 ### Sujeito indeterminado
 
 Existe alguém praticando ou vivenciando o processo verbal, mas sua identidade não é determinada. Entre as estruturas clássicas de prova estão:

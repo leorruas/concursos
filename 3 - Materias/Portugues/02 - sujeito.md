@@ -1,12 +1,12 @@
 ---
-title: "Sujeito e termos da oração"
+title: "🔄 Sujeito e termos da oração"
 type: "conceito"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-09-10
+updated: 2026-10-10
 ---
 
-# Sujeito e termos da oração
+# 🔄 Sujeito e termos da oração
 
 Identificar corretamente o sujeito é uma etapa anterior a várias questões de sintaxe. A banca costuma explorar ordem inversa, verbos impessoais e a partícula `se` para fazer um termo parecer sujeito quando não é — ou esconder um sujeito que está depois do verbo.
 
@@ -25,6 +25,37 @@ Em *Chegaram os documentos ontem*, `os documentos` é sujeito posposto. Em *Exis
 - *O relatório chegou.* → sujeito simples: `o relatório`.
 - *O relatório e a planilha chegaram.* → sujeito composto.
 - *Chegamos cedo.* → sujeito oculto/desinencial: `nós`, recuperado pela flexão verbal.
+
+### Determinado × oculto: não são categorias opostas
+
+**Sujeito determinado** é a categoria mais ampla: significa que é possível identificar quem ou o que exerce a função de sujeito, seja porque o termo aparece na oração, seja porque pode ser recuperado pelo contexto ou pela flexão verbal.
+
+Por isso, **sujeito oculto é um tipo de sujeito determinado**.
+
+| Situação | Exemplo | Classificação |
+| :--- | :--- | :--- |
+| O sujeito aparece com um núcleo | *O relatório chegou.* | determinado simples |
+| O sujeito aparece com mais de um núcleo | *O relatório e a planilha chegaram.* | determinado composto |
+| O sujeito não aparece, mas pode ser recuperado | *Chegamos cedo.* | determinado oculto/desinencial: `nós` |
+| Há sujeito, mas não é possível identificar quem é | *Disseram que a prova mudou.* | indeterminado |
+
+A fronteira decisiva é **recuperabilidade**:
+
+- **oculto/desinencial** → não está escrito, mas sabemos quem é;
+- **indeterminado** → sabemos que existe um sujeito, mas não conseguimos identificá-lo.
+
+Compare:
+
+*João e Maria entraram na sala. Disseram que a reunião começaria.*  
+→ `Disseram` pode ter sujeito **oculto/determinado** (`João e Maria`), porque o referente é recuperável pelo contexto.
+
+*Disseram que a reunião começaria.*  
+→ sem contexto que permita saber quem disse, o sujeito é **indeterminado**.
+
+> [!WARNING]
+> **Oculto ≠ indeterminado.** A ausência de uma palavra que expresse o sujeito não basta para classificá-lo como indeterminado. Pergunte: **consigo recuperar quem é o sujeito pela desinência verbal ou pelo contexto?** Se sim, ele é determinado — ainda que oculto.
+
+Essa distinção é especialmente perigosa na **3ª pessoa do plural**. A mesma forma verbal pode corresponder a sujeito oculto ou indeterminado; o que muda é a existência ou não de um referente recuperável.
 
 ### Sujeito indeterminado
 
@@ -112,6 +143,8 @@ No histórico do vault, os erros mais recorrentes foram classificar *Existem opo
 
 **Agente semântico ≠ sujeito sintático.** Nem todo sujeito pratica ação; nem toda oração descreve uma ação.
 
+**Oculto ≠ indeterminado.** *Chegamos cedo* tem sujeito determinado oculto (`nós`); *Disseram que a prova mudou*, sem referente recuperável, tem sujeito indeterminado.
+
 **Impessoalidade ≠ indeterminação.** *Há problemas* é oração sem sujeito; *Precisa-se de profissionais* tem sujeito indeterminado.
 
 **Posição ≠ função.** Em *Chegaram os documentos*, o termo depois do verbo continua sendo sujeito.
@@ -130,11 +163,12 @@ No histórico do vault, os erros mais recorrentes foram classificar *Existem opo
 
 ## Heurísticas
 
-1. Localize o verbo e procure o termo com o qual ele pode concordar.
-2. Se houver `haver = existir` ou `fazer = tempo`, teste primeiro a impessoalidade.
-3. Com `se`, tente a transformação para `ser + particípio`; se funcionar, procure o sujeito paciente.
-4. Não classifique sujeito pela posição nem pela ideia de “quem faz a ação”.
-5. Depois de achar o sujeito, vá para a nota de concordância; não misture identificação sintática com todas as regras de flexão.
+1. Antes de chamar o sujeito de indeterminado, pergunte se ele pode ser recuperado pelo contexto ou pela flexão verbal; se puder, é determinado, ainda que oculto.
+2. Localize o verbo e procure o termo com o qual ele pode concordar.
+3. Se houver `haver = existir` ou `fazer = tempo`, teste primeiro a impessoalidade.
+4. Com `se`, tente a transformação para `ser + particípio`; se funcionar, procure o sujeito paciente.
+5. Não classifique sujeito pela posição nem pela ideia de “quem faz a ação”.
+6. Depois de achar o sujeito, vá para a nota de concordância; não misture identificação sintática com todas as regras de flexão.
 
 ## Fontes
 

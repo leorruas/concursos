@@ -1,5 +1,62 @@
 [
   {
+    "id": "dataprev-simulado-07",
+    "concursoId": "dataprev-2026",
+    "nome": "Simulado 07",
+    "tipo": "simulado",
+    "bancaReferencia": "FGV",
+    "data": "2026-10-10",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "resultado": {
+      "totalQuestoes": 70,
+      "acertos": 60,
+      "percentualBruto": 85.7,
+      "acertosGerais": 34,
+      "acertosEspecificos": 26,
+      "notaPonderada": 99,
+      "disciplinas": {
+        "linguaPortuguesa": {
+          "acertos": 9,
+          "total": 12
+        },
+        "linguaInglesa": {
+          "acertos": 11,
+          "total": 12
+        },
+        "raciocinioLogicoMatematico": {
+          "acertos": 4,
+          "total": 5
+        },
+        "atualidadesInteligenciaArtificial": {
+          "acertos": 6,
+          "total": 6
+        },
+        "legislacaoSegurancaInformacaoProtecaoDados": {
+          "acertos": 4,
+          "total": 5
+        },
+        "conhecimentosEspecificosComunicacao": {
+          "acertos": 26,
+          "total": 30
+        }
+      }
+    },
+    "comparabilidadeEdital": {
+      "status": "muito_alta",
+      "notaEditalAtualCalculavel": true,
+      "motivo": "Reproduziu integralmente a distribuição oficial Dataprev 2026 (12/12/5/6/5/30). Foi o primeiro simulado pós-ledger, com 97,1% de mecanismos novos e 0 repetição exata."
+    },
+    "qualidadeMedicao": {
+      "status": "valida_com_ressalva_formatacao",
+      "benchmarkElegivel": true,
+      "novidadePct": 97.1,
+      "repeticaoExataPct": 0,
+      "repeticaoMecanicaPct": 2.9,
+      "repeticaoTematicaPct": 0,
+      "observacao": "Q7 teve pista visual involuntária por destacar apenas a alternativa correta; manter o resultado global, mas não usar esse item isoladamente como evidência forte."
+    }
+  },
+  {
     "id": "dataprev-simulado-06",
     "concursoId": "dataprev-2026",
     "nome": "Simulado 06",

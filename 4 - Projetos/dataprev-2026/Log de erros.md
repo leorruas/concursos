@@ -3,14 +3,14 @@ title: "Log de erros - Dataprev 2026"
 type: "projeto"
 status: "ativo"
 created: 2026-07-05
-updated: 2026-10-06
+updated: 2026-10-10
 ---
 
 # Log de erros - Dataprev 2026
 
 Registro de erros recorrentes, pegadinhas de banca e falsos cognatos lógicos identificados durante a resolução de questões e simulados da FGV.
 
-Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]], os diagnósticos dos [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]], [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], [[00 - Desempenho/Simulados/Simulado-03|Simulado 03]], [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]], [[00 - Desempenho/Simulados/Simulado-05|Simulado 05]] e [[00 - Desempenho/Simulados/Simulado-06|Simulado 06]], além da [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
+Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]], os diagnósticos dos [[00 - Desempenho/Simulados/Simulado-01|Simulado 01]], [[00 - Desempenho/Simulados/Simulado-02|Simulado 02]], [[00 - Desempenho/Simulados/Simulado-03|Simulado 03]], [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]], [[00 - Desempenho/Simulados/Simulado-05|Simulado 05]], [[00 - Desempenho/Simulados/Simulado-06|Simulado 06]] e [[00 - Desempenho/Simulados/Simulado-07|Simulado 07]], além da [[00 - Desempenho/Simulados/Bateria-Mista-2026-09-14|Bateria mista Dataprev/FGV — 14/09/2026]].
 
 ## Língua Portuguesa (FGV)
 - **Funções do "SE" (PA vs. IIS):** Q21 do Simulado 01 — *VTD/VTDI com sujeito paciente no plural exige concordância passiva (PA)*; *VTI/VI com preposição mantém verbo invariável na 3ª pessoa do singular (IIS)*. [[3 - Materias/Portugues/02 - sujeito#Sujeito Determinado vs. Indeterminado e as Funções da Partícula "SE"|Estudo em Sujeito]].
@@ -49,6 +49,39 @@ Consulte o catálogo central de simulados em [[00 - Desempenho/Simulados/00 - Ca
 ## Atualidades / IA
 - **Regime de metas, IPCA, Selic e Copom:** Q1 da bateria de 14/09/2026 — [K]. Queda do IPCA não produz redução automática da Selic nem na mesma proporção. A leitura correta exige separar meta central (3,0%), faixa de tolerância (1,5% a 4,5%), critério formal de seis meses consecutivos fora da faixa e decisão do Copom baseada no conjunto do cenário e expectativas. [[3 - Materias/Atualidades/03 - regime de metas inflacao selic copom#Tensões e pegadinhas|Estudo em regime de metas, inflação, Selic e Copom]].
 
+
+## Simulado 07 — 10/10/2026
+
+**Resultado:** 60/70 = 85,7%. **99/115 = 86,1%**. Gerais 34/40; Comunicação 26/30. **Primeiro caderno pós-ledger:** 97,1% de mecanismos novos, 0 repetição exata e 2,9% de repetição mecânica intencional.
+
+### Língua Portuguesa
+- **Q3 — sujeito indeterminado:** [C]. 3ª pessoa do plural sem agente recuperável. [[3 - Materias/Portugues/02 - sujeito#Sujeito indeterminado|Sujeito indeterminado]]
+- **Q5 — crase:** [K]. `à medida que` leva crase; `a prazo` não. [[3 - Materias/Portugues/11 - crase#Locuções femininas|Locuções femininas]]
+- **Q12 — voz ativa × passiva:** [C]. Preservar o futuro: `revisará` → `serão revisados`. [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido#5. Voz ativa × voz passiva|Voz ativa × passiva]]
+
+### Língua Inglesa
+- **Q24 — melhor título:** [I]. O texto defendia benchmarks como parte de uma avaliação mais ampla, não um tutorial de maximização de score. [[3 - Materias/Ingles/ingles#2. Leitura Instrumental e Vocabulário Técnico|Leitura instrumental]]
+
+### Raciocínio Lógico
+- **Q29 — idades:** [D]. Soma atual = 30; Bruno = 12 e Ana = 18. [[3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais#Equação curta|Equação curta]]
+
+### Legislação
+- **Q37 — Marco Civil:** [K, recorrente]. Mesmo em caso temporal transformado, houve nova inversão: conexão = 1 ano; acesso a aplicações = 6 meses. [[3 - Materias/Informatica/01 - marco civil da internet#Guarda de registros|Guarda de registros]]
+
+### Comunicação Social
+- **Q42 — ampulheta:** [K]. Resumo + contexto + transição + narrativa cronológica. [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling#Estrutura híbrida: ampulheta|Estrutura de ampulheta]]
+- **Q43 — dark site:** [K]. Página pré-preparada para ativação em crise. [[3 - Materias/Comunicacao/07 - gestao de crises#Dark site|Dark site]]
+- **Q52 — Nilson Lage:** [K]. Personalidade/trajetória/visão de mundo = entrevista em profundidade. [[3 - Materias/Comunicacao/14 - entrevista jornalistica#Em profundidade|Entrevista em profundidade]]
+- **Q57 — amostragem sistemática:** [C]. Ponto inicial aleatório + cada k-ésimo elemento. [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao#Fronteiras entre os principais desenhos probabilísticos|Desenhos probabilísticos]]
+
+### Acertos com dúvida ou recuperação incompleta
+- **Q4:** regência nominal; correta C, com dúvida sobre “consciente de” e “desejoso de”. [[3 - Materias/Portugues/04 - regencia#Regência nominal|Regência nominal]]
+- **Q26:** produtividade; acertou E, mas com dificuldade de decomposição em analista-dias. [[3 - Materias/Logica/10 - razoes proporcoes e divisao proporcional#Núcleo do conceito|Razões e proporções]]
+- **Q27:** matriz numérica; acertou A, mas pediu explicação da regra. [[3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais#4. Raciocínio matricial|Raciocínio matricial]]
+- **Q32:** incidência × prevalência × cobertura; acerto sem referência segura. [[3 - Materias/Atualidades/12 - saude publica vigilancia e vacinacao#Núcleo do conceito|Saúde pública]]
+- **Q38:** art. 154-B; acerto sem recordar a seção existente no vault. [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos#Art. 154-B: ação penal|Art. 154-B]]
+- **Q58:** erro amostral × não amostral; acerto com dúvida sobre cobertura. [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao#Erro amostral × não amostral|Erro amostral × não amostral]]
+- **Q67:** Jornal do Brasil; acerto sem recuperação consciente da cronologia. [[3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil#Jornal do Brasil — fases editoriais|Jornal do Brasil — fases editoriais]]
 
 ## Simulado 06 — 06/10/2026
 

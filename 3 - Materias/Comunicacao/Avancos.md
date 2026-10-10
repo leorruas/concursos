@@ -3,9 +3,18 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-10-06
+updated: 2026-10-10
 ---
 # Avanços e desempenho
+
+## Simulado 07 — 10/10/2026
+
+- **Resultado:** 26/30 (86,7%).
+- **Erros:** Q42 [K] ampulheta; Q43 [K] dark site; Q52 [K] Nilson Lage — entrevista em profundidade; Q57 [C] amostragem sistemática × conglomerados.
+- **Acertos inseguros:** Q58 erro amostral × não amostral e Q67 Jornal do Brasil; ambos já cobertos no vault.
+- **Diagnóstico:** primeiro bloco de Comunicação pós-ledger, quase todo novo. Os quatro erros são de recuperação de conteúdo já existente, não de cobertura estrutural.
+- **Estudo:** [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling#Estrutura híbrida: ampulheta|Ampulheta]] · [[3 - Materias/Comunicacao/07 - gestao de crises#Dark site|Dark site]] · [[3 - Materias/Comunicacao/14 - entrevista jornalistica#Em profundidade|Entrevista em profundidade]] · [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao#Fronteiras entre os principais desenhos probabilísticos|Amostragens]] · [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao#Erro amostral × não amostral|Erros em pesquisa]] · [[3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil#Jornal do Brasil — fases editoriais|Jornal do Brasil]].
+
 
 ## Simulado 06 — 06/10/2026
 
@@ -87,6 +96,7 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 10/10/2026 | 30 | Comunicação Social | Simulado 07 Dataprev/FGV: 26/30 (86,7%). Primeiro bloco pós-ledger: erros em ampulheta, dark site, Nilson Lage e amostragem sistemática; Q58/Q67 corretas com baixa recuperação consciente. |
 | 06/10/2026 | 30 | Comunicação Social | Simulado 06 Dataprev/FGV: 27/30 (90%). Erros em Duarte, Ehling/White/Grunig e Sérgio Mattos. Auditoria do ledger classificou grande parte do bloco como repetição exata/mecânica; preservar diagnóstico, não usar como benchmark. |
 | 05/10/2026 | 30 | Comunicação Social | Simulado 05 Dataprev/FGV: 27/30 (90%). Erros em Sérgio Mattos, comando EXCETO no texto manchetado e off/passagem/sonora/pé/cabeça; acertos de alto valor em comunicação pública, issues management e Aaker. |
 | 03/10/2026 | 30 | Comunicação Social | Simulado 04 Dataprev/FGV: 28/30 (93,3%). Erros [C] em Jorge Duarte (interação × ouvidoria social) e 7 Ps (Process × Physical Evidence); acertos em Aaker/brand equity, Mattar e touchpoints. |
@@ -117,7 +127,7 @@ Checklist mental e tendências de erros recorrentes identificados na resolução
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
-| **Semana 41** (05/10 a 11/10) | 60 | 90,0% (54/60) | Simulados 05 e 06, ambos 27/30. O 06 não adiciona evidência independente equivalente por repetição alta; erros persistentes em Duarte, Ehling/White/Grunig e Sérgio Mattos orientam microrevisão. |
+| **Semana 41** (05/10 a 11/10) | 90 | 88,9% (80/90) | Simulados 05, 06 e 07. O 07 fez 26/30 em mecanismo quase totalmente novo e é evidência mais forte de transferência; revisar quatro lacunas de recuperação sem abrir novas frentes. |
 | **Semana 40** (28/09 a 04/10) | 60 | 91,7% (55/60) | Dois simulados integrais. O Simulado 04 elevou Comunicação a 28/30 sob calibração mais exigente; os erros ficaram em taxonomias próximas de Duarte e Booms/Bitner. |
 | **Semana 38** (14/09 a 20/09) | 7 | 85,7% (6/7) | Desempenho alto em autores, taxonomias e aplicação profissional. Falha isolada de fronteira entre etapa de coleta (`clipping`) e análise longitudinal estruturada (`auditoria de imagem na mídia`). |
 | **Semana 36** (31/08 a 06/09) | 37 | 81,1% (30/37) | Bateria LGPD aprofundada. Acertos fortes em consentimento, compartilhamento e agentes; lacunas pontuais em Poder Público, sensibilidade, bases legais e sanções foram corrigidas na própria sessão. |

@@ -1,5 +1,105 @@
 [
   {
+    "id": "err-sim07-q03-sujeito",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Portuguesa",
+    "assunto": "Sujeito indeterminado na 3ª pessoa do plural",
+    "notaPath": "3 - Materias/Portugues/02 - sujeito.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim07-q05-crase",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Portuguesa",
+    "assunto": "Crase em locuções femininas × a prazo",
+    "notaPath": "3 - Materias/Portugues/11 - crase.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim07-q12-passiva",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Portuguesa",
+    "assunto": "Voz ativa × passiva preservando o tempo verbal",
+    "notaPath": "3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim07-q24-titulo",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Língua Inglesa",
+    "assunto": "Síntese global do texto na escolha do melhor título",
+    "notaPath": "3 - Materias/Ingles/ingles.md",
+    "tipoErro": "interpretacao",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim07-q29-idades",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Raciocínio Lógico",
+    "assunto": "Modelagem de problema de idades por equação curta",
+    "notaPath": "3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais.md",
+    "tipoErro": "distracao",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim07-q37-marco-civil",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Legislação de SI e proteção de dados",
+    "assunto": "Marco Civil recorrente em caso temporal: conexão 1 ano × acesso a aplicações 6 meses",
+    "notaPath": "3 - Materias/Informatica/01 - marco civil da internet.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim07-q42-ampulheta",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Estrutura de ampulheta: resumo + transição + narrativa cronológica",
+    "notaPath": "3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim07-q43-dark-site",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Dark site como página pré-preparada para crise",
+    "notaPath": "3 - Materias/Comunicacao/07 - gestao de crises.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim07-q52-lage",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Nilson Lage: entrevista em profundidade × testemunhal",
+    "notaPath": "3 - Materias/Comunicacao/14 - entrevista jornalistica.md",
+    "tipoErro": "conhecimento",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "status": "pendente"
+  },
+  {
+    "id": "err-sim07-q57-sistematica",
+    "concursoId": "dataprev-2026",
+    "disciplina": "Comunicação Social",
+    "assunto": "Amostragem sistemática × conglomerados",
+    "notaPath": "3 - Materias/Comunicacao/17 - pesquisa em comunicacao.md",
+    "tipoErro": "confusao_conceitual",
+    "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+    "status": "pendente"
+  },
+  {
     "id": "err-sim06-q01-que",
     "concursoId": "dataprev-2026",
     "disciplina": "Língua Portuguesa",

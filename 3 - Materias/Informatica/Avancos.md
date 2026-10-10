@@ -3,10 +3,19 @@ title: "Avanços e desempenho (Informática e legislação de SI)"
 type: "hub"
 status: "ativo"
 created: 2026-09-14
-updated: 2026-10-06
+updated: 2026-10-10
 ---
 
 # Avanços e desempenho (Informática e legislação de SI)
+
+## Simulado 07 — 10/10/2026
+
+- **Resultado:** 4/5 (80,0%).
+- **Erro:** Q37 [K, recorrente] — prazos do Marco Civil invertidos novamente, agora em caso temporal transformado.
+- **Acerto inseguro:** Q38 em art. 154-B; a regra já estava explicitamente registrada no vault.
+- **Diagnóstico:** conexão = 1 ano × acesso a aplicações = 6 meses é a vulnerabilidade factual mais persistente da reta final.
+- **Estudo:** [[3 - Materias/Informatica/01 - marco civil da internet#Guarda de registros|Guarda de registros]] · [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos#Art. 154-B: ação penal|Art. 154-B]].
+
 
 ## Simulado 06 — 06/10/2026
 
@@ -29,6 +38,7 @@ updated: 2026-10-06
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 10/10/2026 | 5 | Legislação de SI e proteção de dados | Simulado 07 Dataprev/FGV: 4/5 (80%). Marco Civil 1 ano × 6 meses reincidiu mesmo em caso transformado; art. 154-B correto com baixa lembrança consciente. |
 | 06/10/2026 | 5 | Legislação de SI e proteção de dados | Simulado 06 Dataprev/FGV: 4/5 (80%). Terceira inversão recente dos prazos do Marco Civil; Q38 correta por eliminação, sem recuperação segura do art. 11. |
 | 05/10/2026 | 5 | Legislação de SI e proteção de dados | Simulado 05 Dataprev/FGV: 4/5 (80%). Reincidência [K] em conexão 1 ano × acesso a aplicações 6 meses. |
 | 03/10/2026 | 5 | Legislação de SI e proteção de dados | Simulado 04 Dataprev/FGV: 4/5 (80%). Erro [K] na inversão dos prazos do Marco Civil; Q36 da LAI correta, mas revelou lacuna teórica no vault, já preenchida na nota de Direito Administrativo. |
@@ -39,7 +49,7 @@ updated: 2026-10-06
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
-| **Semana 41** (05/10 a 11/10) | 10 | 80,0% (8/10) | Simulados 05 e 06. O mesmo prazo do Marco Civil foi errado novamente; tratar como vulnerabilidade factual real, mas retestar por caso/aplicação em vez de associação literal. |
+| **Semana 41** (05/10 a 11/10) | 15 | 80,0% (12/15) | Simulados 05, 06 e 07. O prazo do Marco Civil permanece reincidente mesmo após transformação do mecanismo; automatizar 1 ano × 6 meses. |
 | **Semana 40** (28/09 a 04/10) | 10 | **80,0% (8/10)** | Simulados 03 e 04. O erro migrou do art. 154-A para um prazo literal do Marco Civil; a tríade de sigilo da LAI foi acertada, mas precisou ser incorporada à teoria canônica. |
 | **Semana 38** (14/09 a 20/09) | 4 | **100% (4/4)** | Bateria gabaritada. A questão de maior valor cognitivo foi a distinção entre a redação original de 2012 e a redação vigente do art. 154-A após a Lei 14.155/2021. |
 

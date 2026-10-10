@@ -3,12 +3,12 @@ title: "Desempenho por edital e prova"
 type: "hub"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-10-06
+updated: 2026-10-10
 ---
 
 # Desempenho por edital e prova
 
-Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 06/10/2026.
+Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 10/10/2026.
 
 Este hub separa três medidas que não devem ser misturadas: **aproveitamento bruto**, **nota calculada pelas regras do edital** e **comparabilidade da prova com o concurso atual**. O objetivo é impedir que um percentual alto em uma bateria de composição diferente seja interpretado como estimativa direta de classificação.
 
@@ -40,6 +40,7 @@ A meta de **102/115 (88,7%)** registrada no vault é uma meta estratégica pesso
 
 | Prova | Resultado registrado | Comparabilidade com o edital 2026 | Uso correto |
 | :--- | :---: | :--- | :--- |
+| [[00 - Desempenho/Simulados/Simulado-07\|Simulado 07]] | 60/70, 85,7%; **99/115** | Muito alta; composição oficial + gate pós-ledger | Primeiro benchmark pós-ledger: 97,1% de mecanismos novos e 0 repetição exata; 34/40 gerais e 26/30 Comunicação. Q7 teve ressalva de pista visual. |
 | [[00 - Desempenho/Simulados/Simulado-06\|Simulado 06]] | 63/70, 90,0%; **103,5/115** | Muito alta estruturalmente; **medição contaminada** | Nota /115 calculável pela composição oficial, mas não usar como benchmark de dificuldade: ledger auditou 48,6% new e 45,7% de repetição exata/mecânica. |
 | [[00 - Desempenho/Simulados/Simulado-05\|Simulado 05]] | 63/70, 90,0%; **103,5/115** | Muito alta; composição oficial | Nota /115 calculável. 36/40 em gerais + 27/30 em Comunicação; caderno calibrado com maior densidade factual/histórica em Comunicação. |
 | [[00 - Desempenho/Simulados/Simulado-04\|Simulado 04]] | 63/70, 90,0%; **105/115** | Muito alta; composição oficial | Nota /115 calculável. Melhor resultado ponderado até aqui: 35/40 em gerais + 28/30 em Comunicação. |
@@ -49,7 +50,7 @@ A meta de **102/115 (88,7%)** registrada no vault é uma meta estratégica pesso
 | [[00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social\|Dataprev 2024: Comunicação Social]] | Ainda não resolvida | Alta | Prova-espelho principal da FGV |
 | [[00 - Desempenho/Provas/MPU 2025 - Comunicacao Social\|MPU 2025: Comunicação Social]] | Ainda não resolvida | Média | Corpus secundário para mecanismos de cobrança FGV |
 
-O Simulado 01 foi montado em blocos mistos sem confirmação da distribuição oficial. O Simulado 02 registra expressamente distribuição não oficial. Por isso, nenhum dos dois deve gerar nota /115. Já os **Simulados 03, 04, 05 e 06 reproduziram integralmente a distribuição oficial** e permitem cálculo ponderado direto: **103,5/115** no Simulado 03, **105/115** no Simulado 04 e **103,5/115** nos Simulados 05 e 06. O Simulado 06, porém, é excluído da calibração de dificuldade por repetição cognitiva excessiva. Os três tiveram os mesmos **63/70 acertos**. A nota variou conforme a distribuição dos erros entre os blocos: o Simulado 04 fez **28/30 em Comunicação** e **35/40 em gerais**, enquanto o Simulado 05 fez **27/30 em Comunicação** e **36/40 em gerais**. Isso evidencia por que o percentual bruto, sozinho, não determina a pontuação final: a posição dos erros entre gerais e específicas altera o resultado ponderado.
+O Simulado 01 foi montado em blocos mistos sem confirmação da distribuição oficial. O Simulado 02 registra expressamente distribuição não oficial. Por isso, nenhum dos dois deve gerar nota /115. Já os **Simulados 03, 04, 05, 06 e 07 reproduziram integralmente a distribuição oficial** e permitem cálculo ponderado direto: **103,5/115** no Simulado 03, **105/115** no Simulado 04 e **103,5/115** nos Simulados 05 e 06 e **99/115** no Simulado 07. O Simulado 06 é excluído da calibração de dificuldade por repetição cognitiva excessiva; o Simulado 07 é o primeiro benchmark pós-ledger. Os três tiveram os mesmos **63/70 acertos**. A nota variou conforme a distribuição dos erros entre os blocos: o Simulado 04 fez **28/30 em Comunicação** e **35/40 em gerais**, enquanto o Simulado 05 fez **27/30 em Comunicação** e **36/40 em gerais**. Isso evidencia por que o percentual bruto, sozinho, não determina a pontuação final: a posição dos erros entre gerais e específicas altera o resultado ponderado.
 
 ## Prova-espelho FGV: Dataprev 2024
 
@@ -89,6 +90,7 @@ A fonte canônica estruturada dessa camada é `data/provas.json`. Resultados fut
 - [[00 - Desempenho/Simulados/Simulado-04|Simulado 04]]
 - [[00 - Desempenho/Simulados/Simulado-05|Simulado 05]]
 - [[00 - Desempenho/Simulados/Simulado-06|Simulado 06]]
+- [[00 - Desempenho/Simulados/Simulado-07|Simulado 07]]
 
 ## Próximos concursos
 

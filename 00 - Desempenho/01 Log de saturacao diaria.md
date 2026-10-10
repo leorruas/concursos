@@ -3,7 +3,7 @@ title: "Log de saturação diária"
 type: "hub"
 status: "ativo"
 created: 2026-06-08
-updated: 2026-10-06
+updated: 2026-10-10
 ---
 # Log de saturação diária
 
@@ -19,6 +19,7 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 | Data | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Sintomas Qualitativos da Sessão |
 | :--- | :--- | :--- | :--- | :--- |
+| 10/10/2026 | 70 | 85,7% (60/70) | 85,4% | **Alta**: Simulado 07 integral. Português 9/12, Inglês 11/12, Lógica 4/5, Atualidades/IA 6/6, Legislação 4/5 e Comunicação 26/30; **99/115**. Primeiro caderno pós-ledger: 97,1% de mecanismos novos e 0 repetição exata. Queda frente aos simulados anteriores sem evidência de colapso; maior novidade tornou o instrumento mais exigente. |
 | 06/10/2026 | 70 | 90,0% (63/70) | 90,4% | **Alta**: Simulado 06 integral. Português 10/12, Inglês 12/12, Lógica 5/5, Atualidades/IA 5/6, Legislação 4/5 e Comunicação 27/30; 103,5/115. **Qualidade do instrumento separada da carga:** 45,7% do caderno teve repetição exata ou mecânica, portanto o resultado não serve como benchmark independente de dificuldade. |
 | 05/10/2026 | 70 | 90,0% (63/70) | 89,8% | **Alta**: Simulado 05 integral Dataprev/FGV. Português 10/12, Inglês 12/12, Lógica 4/5, Atualidades/IA 6/6, Legislação 4/5 e Comunicação 27/30. Nota ponderada **103,5/115**. A Q29 original foi anulada por defeito e substituída antes do fechamento. Sem evidência de degradação global por fadiga; erros de Comunicação ficaram agrupados em história/terminologia de TV e houve reincidência factual nos prazos do Marco Civil. |
 | 03/10/2026 | 70 | 90,0% (63/70) | 89,8% | **Alta**: Simulado 04 integral Dataprev/FGV. Português 10/12, Inglês 12/12, Lógica 4/5, Atualidades/IA 5/6, Legislação 4/5 e Comunicação 28/30. Nota ponderada **105/115**. Houve recuperação importante em Lógica frente ao Simulado 03, mas reincidência do método do bloco; os demais erros ficaram dispersos em microfronteiras e recuperação factual. |

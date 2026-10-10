@@ -3,9 +3,17 @@ title: "Avanços e desempenho"
 type: "hub"
 status: "ativo"
 created: 2026-05-28
-updated: 2026-10-06
+updated: 2026-10-10
 ---
 # Avanços e desempenho
+
+## Simulado 07 — 10/10/2026
+
+- **Resultado:** 4/5 (80,0%).
+- **Erro:** Q29 [D] em modelagem de idades por equação curta.
+- **Acertos inseguros:** Q26 produtividade e Q27 matriz numérica; ambos corretos, mas com dificuldade declarada de decomposição.
+- **Estudo:** [[3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais#Equação curta|Equação curta]] · [[3 - Materias/Logica/10 - razoes proporcoes e divisao proporcional#Núcleo do conceito|Razões e proporções]] · [[3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais#4. Raciocínio matricial|Raciocínio matricial]].
+
 
 ## Simulado 06 — 06/10/2026
 
@@ -44,6 +52,7 @@ updated: 2026-10-06
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 10/10/2026 | 5 | Raciocínio Lógico | Simulado 07 Dataprev/FGV: 4/5 (80%). Erro [D] em idades; Q26 e Q27 corretas, mas exigiram decomposição consciente. Caderno quase integralmente novo. |
 | 06/10/2026 | 5 | Raciocínio Lógico | Simulado 06 Dataprev/FGV: 5/5 (100%). Q27 correta com insegurança em não adjacência; Q25, Q26 e Q28 estavam excessivamente próximas de mecanismos recentes. |
 | 05/10/2026 | 5 | Raciocínio Lógico | Simulado 05 Dataprev/FGV: 4/5 (80%). Erro [C] em combinação por complemento; Q29 original anulada e substituta acertada. |
 | 03/10/2026 | 5 | Raciocínio Lógico | Simulado 04 Dataprev/FGV: 4/5 (80%). Erro [C] recorrente no método do bloco; contrapositiva correta com insegurança declarada. |
@@ -68,7 +77,7 @@ updated: 2026-10-06
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
-| **Semana 41** (05/10 a 11/10) | 10 | 90,0% (9/10) | Simulados 05 e 06. O 5/5 do Sim06 é preservado, mas deve ser lido com cautela por repetição de mecanismos; Q27 foi o melhor indicador novo e foi acertada com insegurança. |
+| **Semana 41** (05/10 a 11/10) | 15 | 86,7% (13/15) | Simulados 05, 06 e 07. O 07 confirmou 4/5 em mecanismos novos; manter atenção à modelagem curta e decomposição sem alongar a revisão. |
 | **Semana 40** (28/09 a 04/10) | 10 | 60,0% (6/10) | O agregado ainda carrega o 2/5 do Simulado 03, mas o Simulado 04 recuperou para 4/5. Método do bloco reincidiu; contrapositiva acertada com baixa segurança. |
 | **Semana 38** (14/09 a 20/09) | 6 | 83,3% (5/6) | Retenção ampla preservada. Erro isolado em `Nenhum A é B → Algum A é B`; De Morgan e caso falso da condicional apareceram corretamente em contexto misto. |
 | **Semana 36** (31/08 a 06/09) | 30 | 63,3% (19/30) | Baterias de 02, 03 e 04/09. Houve recuperação de necessária × suficiente, com oscilações em tradução da condicional, De Morgan e contrapositiva. O Simulado 02 não entra nesta linha porque o número total de questões de Lógica não foi preservado. |

@@ -3,10 +3,18 @@ title: "Avanços e desempenho (Atualidades)"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-10-06
+updated: 2026-10-10
 ---
 
 # Avanços e desempenho (Atualidades)
+
+## Simulado 07 — 10/10/2026
+
+- **Resultado:** 6/6 (100%).
+- **Acerto inseguro:** Q32, incidência × prevalência × cobertura; o conteúdo já estava no vault, mas não foi recuperado com segurança prévia.
+- **Diagnóstico:** bloco integralmente correto em mecanismos novos, incluindo mercado de trabalho, energia, saúde, demografia, Quarto Chinês e governança multistakeholder.
+- **Estudo:** [[3 - Materias/Atualidades/12 - saude publica vigilancia e vacinacao#Núcleo do conceito|Saúde pública, vigilância e vacinação]].
+
 
 ## Simulado 06 — 06/10/2026
 
@@ -28,6 +36,7 @@ updated: 2026-10-06
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 10/10/2026 | 6 | Atualidades / IA | Simulado 07 Dataprev/FGV: 6/6 (100%). Q32 correta com baixa referência consciente em incidência/prevalência/cobertura; demais itens seguros. |
 | 06/10/2026 | 6 | Atualidades / IA | Simulado 06 Dataprev/FGV: 5/6 (83,3%). Erro [K] em Saeb × Ideb; Q33 correta com baixa segurança; Q31/Q32 repetiram conteúdo recente. |
 | 05/10/2026 | 6 | Atualidades / IA | Simulado 05 Dataprev/FGV: 6/6 (100%), com Q30–Q33 declaradas como acertos de baixa segurança. |
 | 03/10/2026 | 6 | Atualidades / IA | Simulado 04 Dataprev/FGV: 5/6 (83,3%). Erro [K] recorrente em regime de metas/Selic; Pre-COP correta, mas com baixa familiaridade declarada. |
@@ -40,7 +49,7 @@ updated: 2026-10-06
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
-| **Semana 41** (05/10 a 11/10) | 12 | 91,7% (11/12) | Simulados 05 e 06. Erro novo em Saeb × Ideb; Mercosul–UE apareceu como acerto inseguro. Q31/Q32 do Sim06 tiveram baixa novidade e não devem pesar como confirmação independente. |
+| **Semana 41** (05/10 a 11/10) | 18 | 94,4% (17/18) | Simulados 05, 06 e 07. O 07 fechou 6/6 com mecanismos novos; única ressalva foi recuperação insegura de incidência × prevalência × cobertura. |
 | **Semana 40** (28/09 a 04/10) | 12 | 91,7% (11/12) | Simulados 03 e 04. O único erro foi a reincidência em meta × faixa × decisão do Copom; COP/Pre-COP foi acertada, mas revelou lacuna de familiaridade institucional. |
 | **Semana 38** (14/09 a 20/09) | 3 | 66,7% (2/3) | IA/geopolítica e mercado de carbono foram resolvidos por compreensão. A falha ficou concentrada em repertório econômico básico: meta central × faixa de tolerância × descumprimento formal e relação não automática entre IPCA e Selic. |
 | **Semana 29** (13/07 a 19/07) | 11 | 100,0% (11/11) | Bloco de IA consolidado. Domínio perfeito das distinções conceituais (IA > ML > IA Gen. > LLM), funcionamento probabilístico de tokens, arquitetura Transformer (mecanismo de attention), origem estatística das alucinações, uso ético na comunicação pública, deepfakes vs. desinformação e princípios de governança e ética da IA (transparência, supervisão humana e LGPD). |

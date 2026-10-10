@@ -3,10 +3,12 @@ title: "Língua inglesa"
 type: "hub"
 status: "ativo"
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-10-10
 ---
 
 # Língua inglesa
+
+- [[3 - Materias/Ingles/Avancos|Avanços e desempenho]]
 
 Hub de estudos de Língua Inglesa aplicada a concursos públicos (interpretação de textos técnicos, vocabulário corporativo/institucional, conectivos e gramática instrumental).
 

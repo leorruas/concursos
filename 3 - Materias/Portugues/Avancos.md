@@ -3,10 +3,18 @@ title: "Avanços e desempenho (Português)"
 type: "hub"
 status: "ativo"
 created: 2026-05-30
-updated: 2026-10-06
+updated: 2026-10-10
 ---
 
 # Avanços e desempenho (Português)
+
+## Simulado 07 — 10/10/2026
+
+- **Resultado:** 9/12 (75,0%).
+- **Erros:** Q3 [C] sujeito indeterminado; Q5 [K] crase em locuções femininas; Q12 [C] voz ativa × passiva preservando futuro.
+- **Acerto inseguro:** Q4 em regência nominal — correta C, com dúvida sobre por que “consciente sobre” / “desejosa pela” estava inadequado.
+- **Estudo:** [[3 - Materias/Portugues/02 - sujeito#Sujeito indeterminado|Sujeito indeterminado]] · [[3 - Materias/Portugues/11 - crase#Locuções femininas|Locuções femininas]] · [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido#5. Voz ativa × voz passiva|Voz ativa × passiva]] · [[3 - Materias/Portugues/04 - regencia#Regência nominal|Regência nominal]].
+
 
 ## Simulado 06 — 06/10/2026
 
@@ -38,6 +46,7 @@ updated: 2026-10-06
 
 | Data | Quantidade | Matéria | Detalhamento / Blocos |
 | :--- | :--- | :--- | :--- |
+| 10/10/2026 | 12 | Língua Portuguesa | Simulado 07 Dataprev/FGV: 9/12 (75,0%). Primeiro caderno pós-ledger; erros em sujeito indeterminado, crase e ativa/passiva. Q4 correta com dúvida em regência nominal. |
 | 06/10/2026 | 12 | Língua Portuguesa | Simulado 06 Dataprev/FGV: 10/12 (83,3%). Erros [C] em conjunção integrante × pronome relativo e tipo × gênero. Caderno com repetição auditada; preservar o desempenho, mas não usar a prova como benchmark de dificuldade. |
 | 05/10/2026 | 12 | Língua Portuguesa | Simulado 05 Dataprev/FGV: 10/12 (83,3%). Erros Q2 [C] em condição necessária × suficiente e Q12 [K] em discurso indireto; Q7 correta com lacuna declarada em “injunção”. |
 | 03/10/2026 | 12 | Língua Portuguesa | Simulado 04 Dataprev/FGV: 10/12 (83,3%). Erros Q7 [I] em ambiguidade referencial e Q11 [K] em hífen; Q10 correta com insegurança em colocação pronominal. |
@@ -54,7 +63,7 @@ updated: 2026-10-06
 
 | Semana / Período | Questões | Aproveitamento | Evolução / Análise de Progresso |
 | :--- | :--- | :--- | :--- |
-| **Semana 41** (05/10 a 11/10) | 24 | 83,3% (20/24) | Simulados 05 e 06. Resultado idêntico em ambos; no 06, erros migraram para conjunção integrante × relativo e tipo × gênero. A qualidade global do Sim06 foi contaminada por repetição, mas os erros clínicos permanecem válidos. |
+| **Semana 41** (05/10 a 11/10) | 36 | 80,6% (29/36) | Simulados 05, 06 e 07. O 07 caiu para 9/12 em caderno 97,1% novo, com três microfronteiras gramaticais diferentes; priorizar revisão curta, não nova teoria. |
 | **Semana 40** (28/09 a 04/10) | 24 | 91,7% (22/24) | Simulados 03 e 04. Interpretação permaneceu forte; no Simulado 04 surgiram ambiguidade referencial e recuperação instável de hífen. |
 | **Semana 38** (14/09 a 20/09) | 6 | 83,3% (5/6) | Recuperação forte dos gargalos gramaticais recentes. O único erro válido foi a reincidência `contudo` × `embora`, agora classificada como erro recorrente [C]. |
 | **Semana 33** (10/08 a 16/08) | 18 | 66,7% (12/18) | Diagnóstico FGV revelou lacunas de convenção ortográfica, impessoalidade, regência e ambiguidade referencial. |

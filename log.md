@@ -1,3 +1,12 @@
+## [2026-10-10] dataprev 2026 | Simulado 07 pós-ledger
+
+- Registrado o [[00 - Desempenho/Simulados/Simulado-07|Simulado 07 — Dataprev FGV]]: **60/70 (85,7%)**, **99/115 (86,1%)** e TAP **85,4%**.
+- Primeiro simulado integral gerado e resolvido sob o gate anti-repetição: **68/70 mecanismos novos (97,1%)**, 0 repetição exata e 2 repetições mecânicas intencionais.
+- Erros clínicos: Português Q3/Q5/Q12; Inglês Q24; Lógica Q29; Marco Civil Q37; Comunicação Q42/Q43/Q52/Q57.
+- Acertos inseguros com rota direta de revisão: Q4, Q26, Q27, Q32, Q38, Q58 e Q67.
+- Criado [[3 - Materias/Ingles/Avancos|Avanços e desempenho (Inglês)]] para manter a propagação disciplinar completa; hub de Inglês e índice global sincronizados.
+- Q7 recebeu ressalva de qualidade por pista visual involuntária no destaque da alternativa correta.
+
 ## [2026-10-06] dataprev 2026 | Simulado 06 e baseline do ledger anti-repetição
 
 - Registrado o [[00 - Desempenho/Simulados/Simulado-06|Simulado 06 — Dataprev FGV]]: **63/70 (90,0%)**, **103,5/115** e TAP **90,4%**.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "policy": {
     "recentSimulationWindow": 3,
     "minimumNewRate": 0.75,
@@ -23,7 +23,11 @@
       "ledgerCoverage": "partial_historical",
       "registeredQuestions": 11,
       "benchmarkEligible": true,
-      "coverageNote": "O arquivo preserva erros e alguns acertos inseguros, não o caderno integral; somente mecanismos documentalmente recuperáveis foram registrados."
+      "coverageNote": "O arquivo preserva erros e alguns acertos inseguros, não o caderno integral; somente mecanismos documentalmente recuperáveis foram registrados.",
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Sessão anterior ao protocolo ?/??; somente dúvidas explicitamente verbalizadas foram registradas. Não usar para média oficial de incerteza."
+      }
     },
     {
       "id": "dataprev-simulado-04",
@@ -35,7 +39,11 @@
       "ledgerCoverage": "partial_historical",
       "registeredQuestions": 14,
       "benchmarkEligible": true,
-      "coverageNote": "O arquivo preserva erros e acertos inseguros, mas não todas as questões; backfill sem inferir itens ausentes."
+      "coverageNote": "O arquivo preserva erros e acertos inseguros, mas não todas as questões; backfill sem inferir itens ausentes.",
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Sessão anterior ao protocolo ?/??; somente dúvidas explicitamente verbalizadas foram registradas. Não usar para média oficial de incerteza."
+      }
     },
     {
       "id": "dataprev-simulado-05",
@@ -47,7 +55,11 @@
       "ledgerCoverage": "partial_historical",
       "registeredQuestions": 41,
       "benchmarkEligible": true,
-      "coverageNote": "O registro preserva respostas/gabarito e diagnóstico detalhado do bloco de Comunicação, além de itens gerais selecionados; somente mecanismos sustentados pelo histórico foram incluídos."
+      "coverageNote": "O registro preserva respostas/gabarito e diagnóstico detalhado do bloco de Comunicação, além de itens gerais selecionados; somente mecanismos sustentados pelo histórico foram incluídos.",
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Sessão anterior ao protocolo ?/??; somente dúvidas explicitamente verbalizadas foram registradas. Não usar para média oficial de incerteza."
+      }
     },
     {
       "id": "dataprev-simulado-06",
@@ -72,7 +84,11 @@
         "exactRate": 0.3286,
         "intentionalReviewRate": 0
       },
-      "ledgerCoverage": "complete"
+      "ledgerCoverage": "complete",
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Sessão anterior ao protocolo ?/??; somente dúvidas explicitamente verbalizadas foram registradas. Não usar para média oficial de incerteza."
+      }
     },
     {
       "id": "dataprev-simulado-07",
@@ -97,6 +113,10 @@
         "mechanicalRate": 0.0286,
         "exactRate": 0,
         "intentionalReviewRate": 0.0286
+      },
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Sessão anterior ao protocolo ?/??; somente dúvidas explicitamente verbalizadas foram registradas. Não usar para média oficial de incerteza."
       }
     }
   ],

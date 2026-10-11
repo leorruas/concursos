@@ -1,3 +1,11 @@
+## [2026-10-11] rastreamento de confiança em simulados
+
+- Padronizado o protocolo de resposta: sem marca = segura, `?` = dúvida, `??` = chute.
+- `data/questoes-ledger.json` passa a distinguir `secure`, `insecure`, `guess` e `unknown`, com `confidenceTracking.coverage` no nível do simulado.
+- Criado o comando `node scripts/question-ledger.js --confidence <concursoId> [--window N]`, que calcula média de dúvidas/chutes, taxa de incerteza, acurácia por nível de confiança e recorte por disciplina.
+- Simulados 03–07 foram marcados como rastreamento parcial: preservam apenas as dúvidas explicitamente registradas e ficam fora da média oficial, evitando retroinferir segurança.
+- Governança, prompt de simulados, regras de ingestão, mapa de scripts e teste de regressão foram sincronizados.
+
 ## [2026-10-10] dataprev 2026 | Simulado 07 pós-ledger
 
 - Registrado o [[00 - Desempenho/Simulados/Simulado-07|Simulado 07 — Dataprev FGV]]: **60/70 (85,7%)**, **99/115 (86,1%)** e TAP **85,4%**.

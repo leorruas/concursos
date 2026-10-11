@@ -131,6 +131,12 @@ Revisão espaçada é permitida, mas deve usar `intentionalReview: true` e descr
 
 Depois da resolução, registrar **todas** as questões no ledger: gabarito, resposta, resultado, segurança, tema, subtópico, autor/taxonomia quando houver, tipo, `mechanism`, mecanismo do distrator, classificação de repetição, referências similares e links teóricos para erros/acertos inseguros. Essa atualização integra a mesma operação atômica de propagação do simulado.
 
+**Protocolo de confiança e chute.** Em todo novo simulado completo resolvido em chat, orientar o usuário a responder com `sem marca = seguro`, `? = dúvida` e `?? = chute`. Persistir como `confidence: secure`, `insecure` e `guess`; usar `unknown` somente quando a segurança não foi registrada. O conceito de “dúvida” é subjetivo e deve refletir a percepção declarada durante a resolução, não ser inferido a posteriori pelo fato de a resposta estar certa ou errada.
+
+No objeto do simulado no ledger, usar `confidenceTracking.coverage: complete` somente quando todas as questões tiveram a segurança capturada por esse protocolo. Se a sessão é anterior ao protocolo ou houve marcação incompleta, usar `coverage: partial`; esses dados podem ser mostrados como contagem mínima, mas ficam **fora da média oficial de incerteza**. `confidence: guess` e `confidence: insecure` em acertos exigem `theoryRefs` ancorados, pois indicam recuperação frágil.
+
+Para auditar calibração metacognitiva, usar `node scripts/question-ledger.js --confidence <concursoId> [--window N]`. O relatório deve separar média de dúvidas, média de chutes, taxa total de incerteza, acurácia quando `secure`, `insecure` e `guess`, além do recorte por disciplina. Isso serve como referência para comparar a sensação na prova real com a distribuição observada nos simulados.
+
 Se um simulado já aplicado violar o gate, não apagar: registrar a auditoria, manter nota e erros, mas marcar `benchmarkEligible: false` e explicar a contaminação.
 
 **Backfill de simulados anteriores ao ledger:** nunca inventar metadados ausentes. Se o arquivo histórico não preservar todas as questões, registrar o simulado com `ledgerCoverage: partial_historical` e `registeredQuestions` igual ao número efetivamente recuperado. Questões cuja correção é conhecida, mas cuja letra não foi preservada, podem usar `answerKnown: false`. Esse backfill participa do bloqueio de mecanismos conhecidos, mas não autoriza inferir as questões ausentes nem calcular taxa histórica de novidade.

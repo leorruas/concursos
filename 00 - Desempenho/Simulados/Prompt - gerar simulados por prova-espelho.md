@@ -143,7 +143,9 @@ Se alguma resposta for "não", reescreva a questão antes de apresentá-la.
 
 Por padrão, apresente primeiro apenas o caderno de questões, sem gabarito comentado, para permitir resolução real.
 
-Depois que o usuário responder, corrija item por item. Após fechar a correção, registre todas as questões — inclusive acertos — em `data/questoes-ledger.json` na mesma operação de propagação do simulado e valide o ledger com `node scripts/question-ledger.js --validate`. Para cada erro:
+Antes de o usuário começar a responder, informe o protocolo curto de confiança: **resposta sem marca = segura; `?` = dúvida; `??` = chute**. Exemplo: `1A 2C? 3E??`. Não use o gabarito para inferir segurança depois; registre a percepção declarada durante a resolução.
+
+Depois que o usuário responder, corrija item por item. Após fechar a correção, registre todas as questões — inclusive acertos — em `data/questoes-ledger.json` na mesma operação de propagação do simulado e valide o ledger com `node scripts/question-ledger.js --validate`. Persistir `confidence: secure|insecure|guess` conforme as marcas do usuário e declarar `confidenceTracking.coverage: complete` somente se o protocolo foi seguido em todas as questões; caso contrário, usar `partial`. Quando houver cobertura completa, incluir o resumo produzido por `node scripts/question-ledger.js --confidence <concursoId>` no diagnóstico metacognitivo. Para cada erro:
 
 - indique a resposta correta;
 - explique o raciocínio;

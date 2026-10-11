@@ -51,7 +51,7 @@ function validateLedger(ledger){
   const allowedRep=new Set(['new','thematic','mechanical','exact']);
   const allowedAnswer=new Set(['A','B','C','D','E']);
   const allowedResult=new Set(['correct','incorrect','annulled']);
-  const allowedConfidence=new Set(['secure','insecure','unknown']);
+  const allowedConfidence=new Set(['secure','insecure','guess','unknown']);
   const allowedError=new Set(['K','C','I','D',null]);
   const ids=new Set();
 
@@ -99,7 +99,7 @@ function validateLedger(ledger){
       errors.push(`${q.id}: revisão intencional exata/mecânica exige transformation.`);
     }
 
-    if(q.result==='incorrect'||q.confidence==='insecure'){
+    if(q.result==='incorrect'||q.confidence==='insecure'||q.confidence==='guess'){
       if(!Array.isArray(q.theoryRefs)||q.theoryRefs.length===0) errors.push(`${q.id}: erro/acerto inseguro exige theoryRefs.`);
       else for(const ref of q.theoryRefs){
         if(!String(ref).includes('#')) errors.push(`${q.id}: theoryRef deve apontar para subtítulo: ${ref}`);
@@ -112,6 +112,15 @@ function validateLedger(ledger){
   for(const sim of ledger.simulations||[]){
     const qs=(ledger.questions||[]).filter(q=>q.sourceId===sim.id);
     const partialHistorical=sim.ledgerCoverage==='partial_historical';
+    if(sim.confidenceTracking){
+      const coverage=sim.confidenceTracking.coverage;
+      if(!['complete','partial'].includes(coverage)) errors.push(`${sim.id}: confidenceTracking.coverage deve ser complete ou partial.`);
+      if(coverage==='complete'){
+        if(partialHistorical) errors.push(`${sim.id}: confidenceTracking complete é incompatível com ledgerCoverage partial_historical.`);
+        const missing=qs.filter(q=>!['secure','insecure','guess'].includes(q.confidence));
+        if(missing.length) errors.push(`${sim.id}: confidenceTracking complete exige confidence secure/insecure/guess em todas as questões; faltam ${missing.map(q=>q.id).join(', ')}.`);
+      }
+    }
     if(partialHistorical){
       if(!Number.isInteger(sim.registeredQuestions) || sim.registeredQuestions!==qs.length) errors.push(`${sim.id}: registeredQuestions deve refletir os ${qs.length} registros históricos presentes.`);
       if(qs.length<1 || qs.length>sim.totalQuestions) errors.push(`${sim.id}: backfill histórico parcial possui quantidade inválida de registros.`);
@@ -162,6 +171,98 @@ function validateLedger(ledger){
     }
   }
   return {errors,warnings};
+}
+
+function confidenceSummary(qs){
+  const valid=(qs||[]).filter(q=>q.result!=='annulled');
+  const counts={secure:0,insecure:0,guess:0,unknown:0};
+  for(const q of valid){
+    const key=['secure','insecure','guess'].includes(q.confidence)?q.confidence:'unknown';
+    counts[key]++;
+  }
+  const uncertain=counts.insecure+counts.guess;
+  const accuracy={};
+  for(const key of ['secure','insecure','guess']){
+    const items=valid.filter(q=>q.confidence===key && (q.result==='correct'||q.result==='incorrect'));
+    const correct=items.filter(q=>q.result==='correct').length;
+    const incorrect=items.filter(q=>q.result==='incorrect').length;
+    accuracy[key]={count:items.length,correct,incorrect,rate:pct(correct,items.length)};
+  }
+  const byDiscipline={};
+  for(const q of valid){
+    const name=q.discipline||'Sem disciplina';
+    if(!byDiscipline[name]) byDiscipline[name]={total:0,secure:0,insecure:0,guess:0,unknown:0,uncertain:0,correct:0};
+    const bucket=byDiscipline[name];
+    bucket.total++;
+    const key=['secure','insecure','guess'].includes(q.confidence)?q.confidence:'unknown';
+    bucket[key]++;
+    if(key==='insecure'||key==='guess') bucket.uncertain++;
+    if(q.result==='correct') bucket.correct++;
+  }
+  for(const bucket of Object.values(byDiscipline)){
+    bucket.uncertaintyRate=pct(bucket.uncertain,bucket.total);
+    bucket.accuracyRate=pct(bucket.correct,bucket.total);
+  }
+  return {
+    total:valid.length,
+    counts,
+    uncertain,
+    uncertaintyRate:pct(uncertain,valid.length),
+    doubtRate:pct(counts.insecure,valid.length),
+    guessRate:pct(counts.guess,valid.length),
+    accuracy,
+    byDiscipline
+  };
+}
+
+function confidenceReport(ledger,concursoId,windowSize){
+  const sims=(ledger.simulations||[])
+    .filter(s=>s.concursoId===concursoId)
+    .sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+  const selected=Number.isFinite(windowSize)&&windowSize>0?sims.slice(0,windowSize):sims;
+  const rows=selected.map(sim=>{
+    const qs=(ledger.questions||[]).filter(q=>q.sourceId===sim.id);
+    const coverage=sim.confidenceTracking?.coverage||'untracked';
+    const stats=confidenceSummary(qs);
+    return {
+      id:sim.id,
+      date:sim.date,
+      totalQuestions:sim.totalQuestions,
+      ledgerCoverage:sim.ledgerCoverage||'complete',
+      confidenceCoverage:coverage,
+      comparable:coverage==='complete',
+      recordedDoubts:stats.counts.insecure,
+      recordedGuesses:stats.counts.guess,
+      recordedUncertain:stats.uncertain,
+      ...(coverage==='complete'?{stats}:{}),
+      ...((coverage!=='complete'&&stats.uncertain)?{note:'Rastreamento parcial: contagem mínima registrada; não usar para taxa média.'}:{})
+    };
+  });
+
+  const complete=rows.filter(r=>r.comparable);
+  const completeIds=new Set(complete.map(r=>r.id));
+  const completeQs=(ledger.questions||[]).filter(q=>completeIds.has(q.sourceId));
+  const aggregate=confidenceSummary(completeQs);
+  const mean=(field)=>complete.length?Number((complete.reduce((sum,r)=>sum+r.stats.counts[field],0)/complete.length).toFixed(2)):null;
+  const meanUncertain=complete.length?Number((complete.reduce((sum,r)=>sum+r.stats.uncertain,0)/complete.length).toFixed(2)):null;
+  const meanRate=(field)=>complete.length?Number((complete.reduce((sum,r)=>sum+r.stats[field],0)/complete.length).toFixed(4)):null;
+
+  return {
+    concursoId,
+    window:Number.isFinite(windowSize)&&windowSize>0?windowSize:null,
+    simulations:rows,
+    officialAverage:{
+      completeSimulations:complete.length,
+      simulationIds:complete.map(r=>r.id),
+      meanSecureQuestions:mean('secure'),
+      meanDoubtQuestions:mean('insecure'),
+      meanGuessQuestions:mean('guess'),
+      meanUncertainQuestions:meanUncertain,
+      meanUncertaintyRate:meanRate('uncertaintyRate'),
+      aggregate:complete.length?aggregate:null,
+      note:complete.length?'Média calculada apenas com simulados cujo confidenceTracking.coverage é complete.':'Ainda não há simulado com rastreamento completo de confiança; registros históricos permanecem apenas como contagem mínima.'
+    }
+  };
 }
 
 function recentQuestions(ledger,concursoId,windowSize){
@@ -235,16 +336,21 @@ if(cmd==='--validate'){
   const sim=(ledger.simulations||[]).find(s=>s.id===id);
   if(!sim) die(`Simulado não encontrado: ${id}`);
   const qs=ledger.questions.filter(q=>q.sourceId===id);
-  console.log(JSON.stringify({simulation:sim,errors:qs.filter(q=>q.result==='incorrect'),insecure:qs.filter(q=>q.confidence==='insecure')},null,2));
+  console.log(JSON.stringify({simulation:sim,errors:qs.filter(q=>q.result==='incorrect'),insecure:qs.filter(q=>q.confidence==='insecure'),guesses:qs.filter(q=>q.confidence==='guess'),confidence:confidenceSummary(qs)},null,2));
 } else if(cmd==='--recent'){
   const concursoId=args[0]||'dataprev-2026';
   const idx=args.indexOf('--window');
   const windowSize=idx>=0?Number(args[idx+1]):Number(ledger.policy.recentSimulationWindow||3);
   const out=recentQuestions(ledger,concursoId,windowSize);
   console.log(JSON.stringify({simulations:out.sims.map(s=>({id:s.id,date:s.date,benchmarkEligible:s.benchmarkEligible,ledgerCoverage:s.ledgerCoverage||'complete',registeredQuestions:s.registeredQuestions??s.totalQuestions})),mechanisms:[...new Set(out.questions.map(q=>q.mechanism))].sort()},null,2));
+} else if(cmd==='--confidence'){
+  const concursoId=args[0]||'dataprev-2026';
+  const idx=args.indexOf('--window');
+  const windowSize=idx>=0?Number(args[idx+1]):null;
+  console.log(JSON.stringify(confidenceReport(ledger,concursoId,windowSize),null,2));
 } else if(cmd==='--check-plan'){
   if(!args[0]) die('Uso: node scripts/question-ledger.js --check-plan caminho/plan.json [--ledger caminho/ledger.json]');
   checkPlan(ledger,args[0]);
 } else {
-  die('Comando desconhecido. Use --validate, --report, --recent ou --check-plan.');
+  die('Comando desconhecido. Use --validate, --report, --recent, --confidence ou --check-plan.');
 }

@@ -137,6 +137,19 @@ A fonte canônica é `data/questoes-ledger.json`. Cada questão resolvida deve r
 
 **Depois de resolver:** atualizar o ledger na mesma operação do simulado e executar `node scripts/question-ledger.js --validate`. Para auditar: `node scripts/question-ledger.js --report dataprev-simulado-XX`. Se a repetição excessiva só for descoberta depois da aplicação, preservar nota/histórico, marcar qualidade contaminada e retirar o caderno da função de benchmark.
 
+### Confiança, dúvida e chute
+
+A segurança da resposta passa a ser registrada explicitamente para permitir uma média útil antes de provas reais:
+
+- resposta sem marca → `confidence: secure`;
+- resposta com `?` → `confidence: insecure` (dúvida);
+- resposta com `??` → `confidence: guess` (chute);
+- `unknown` → segurança não documentada.
+
+O simulado recebe `confidenceTracking.coverage: complete` apenas quando o protocolo foi usado no caderno inteiro. Histórico sem rastreamento sistemático usa `partial` e não entra na média oficial. Não converter ausência de comentário histórico em “seguro” por inferência.
+
+O comando `node scripts/question-ledger.js --confidence <concursoId> [--window N]` calcula, apenas sobre simulados com cobertura completa, a média de dúvidas por prova, média de chutes, total médio de questões incertas, taxa média de incerteza e acurácia por nível de confiança. Também apresenta recorte por disciplina. Nos simulados parciais, mostra somente a contagem mínima registrada, explicitando que ela não é comparável.
+
 **Backfill histórico:** quando simulados anteriores não preservarem o caderno completo, registrar somente os itens documentalmente recuperáveis, com `ledgerCoverage: partial_historical` e `registeredQuestions`. Não completar tema, mecanismo, gabarito ou resposta por inferência. `answerKnown: false` é permitido apenas nesse regime histórico parcial. Simulados gerados após a implantação do ledger continuam obrigados a cobertura integral.
 
 ## Fluxo de ingestão

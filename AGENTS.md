@@ -42,6 +42,8 @@ Para baterias mistas, atualizar as superfícies equivalentes compatíveis com o 
 
 **Governança anti-repetição:** antes de gerar questões, baterias ou simulados, consultar `data/questoes-ledger.json` e, quando houver ambiente de execução, rodar `node scripts/question-ledger.js --recent <concursoId> --window 3`. Um simulado completo deve ser planejado por mecanismo cognitivo antes da redação final e passar por `--check-plan`. Régua padrão: **≥ 75% de mecanismos novos**, **≤ 3% de repetição exata**, **≤ 10% de repetição mecânica** e **≤ 15% de revisão intencional**. Erro recente não autoriza repetir a mesma pergunta: a revisão deve mudar o mecanismo de cobrança. Após a resolução, registrar o caderno inteiro no ledger na mesma operação de propagação; simulado completo sem ledger atualizado é incompleto. Se um caderno já aplicado violar a régua, preservar o resultado, medir a contaminação e marcar `benchmarkEligible: false` com justificativa, em vez de apagar o histórico.
 
+**Rastreamento de confiança:** nos simulados resolvidos em chat, adotar por padrão `sem marca = secure`, `? = insecure/dúvida` e `?? = guess/chute`. O ledger aceita `confidence: secure|insecure|guess|unknown`. Só declarar `confidenceTracking.coverage: complete` quando o protocolo tiver sido aplicado ao caderno inteiro; sessões antigas ou incompletamente marcadas ficam como `partial` e não entram na média oficial. Para medir dúvida/chute, usar `node scripts/question-ledger.js --confidence <concursoId> [--window N]`, que calcula média de questões incertas e acurácia por nível de confiança e por disciplina.
+
 Mudanças dependentes de um mesmo simulado devem preferencialmente entrar em **um único commit atômico**.
 
 ## Mapa operacional de scripts e diagnóstico

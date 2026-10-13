@@ -3,7 +3,7 @@ title: "Avanços globais"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-10-10
+updated: 2026-10-13
 ---
 
 # Avanços globais
@@ -61,6 +61,7 @@ Mapeamento do aproveitamento médio e volume na janela móvel dos **últimos 30 
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | Qualidade da Transformação | *96,8%* | 14/07/2026 | 95% | **Amostragem insuficiente** (< 50 Qs) |
 
 ### Análise de evolução recente
+- **Pós-prova Dataprev — sinal provisório de calibração em Português (13/10):** a reconstrução de memória das 12 respostas de Português do caderno Tipo 2, comparada ao gabarito **preliminar**, indicou 6/12 e erros concentrados em coerência, referenciação, flexão/pronomes, tipologia e valor semântico de adjetivos. **Não é desempenho oficial**: as respostas foram reconstruídas sem cartão-resposta e o gabarito ainda pode mudar. A lição transferível para os próximos concursos é metodológica: calibrar Português de forma mais capciosa pelo corpus real da banca, com alternativas próximas e interpretação fina, para evitar que simulados fáceis superestimem o domínio.
 - **Simulado 07 — 10/10**: [[00 - Desempenho/Simulados/Simulado-07|Simulado 07 — Dataprev FGV]]: **60/70 (85,7%)**, nota ponderada **99/115 (86,1%)** e TAP diária **85,4%**. Foi o primeiro simulado pós-ledger, com **97,1% de mecanismos novos e 0 repetição exata**. A queda frente aos cadernos anteriores é mais informativa do que alarmante: Gerais 34/40 e Comunicação 26/30, com erros dispersos e Marco Civil ainda recorrente.
 - **Simulado 06 — 06/10**: [[00 - Desempenho/Simulados/Simulado-06|Simulado 06 — Dataprev FGV]]: **63/70 (90,0%)**, nota ponderada **103,5/115 (90,0%)** e TAP diária **90,4%**. Gerais 36/40; Comunicação 27/30; Lógica 5/5. A nota é preservada, mas o novo ledger auditou **48,6% de mecanismos novos** e **45,7% de repetição cognitiva forte**, portanto o caderno não é benchmark de dificuldade. Sete erros: Português (2), Atualidades/IA (1), Legislação (1) e Comunicação (3).
 - **Simulado 05 — 05/10**: [[00 - Desempenho/Simulados/Simulado-05|Simulado 05 — Dataprev FGV]]: **63/70 (90,0%)**, nota ponderada **103,5/115 (90,0%)** e TAP diária **89,8%**. Gerais subiram para 36/40; Comunicação ficou em 27/30 num bloco mais factual e técnico. Os sete erros foram Português (2), Lógica (1), Legislação (1) e Comunicação (3). Atualidades/IA fechou 6/6, mas Q30–Q33 foram declaradas com baixa segurança. Marco Civil repetiu exatamente a inversão de prazos do Simulado 04.

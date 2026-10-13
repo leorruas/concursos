@@ -1,3 +1,10 @@
+## [2026-10-13] estratégia | calibração mais rigorosa de Português
+
+- Registrado como **sinal provisório**, e não como nota oficial, o pós-prova de Português da Dataprev: reconstrução de memória + gabarito preliminar sugerem desempenho inferior ao observado nos simulados.
+- A principal lição transferível é de calibração: futuros treinos de Português devem usar o corpus real da banca e aumentar a proximidade entre alternativas, sobretudo em coerência, referenciação, valor semântico, tipologia e fronteiras classificatórias.
+- A regra preserva a separação entre bancas: mecanismos FGV não devem ser transplantados para Cebraspe; cada concurso usa seu próprio formato e corpus.
+- me.md, .agent/AGENTS.md e 00 - Desempenho/00 Avancos globais.md foram sincronizados com essa orientação.
+
 ## [2026-10-11] rastreamento de confiança em simulados
 
 - Padronizado o protocolo de resposta: sem marca = segura, `?` = dúvida, `??` = chute.

@@ -114,6 +114,17 @@ Até nova autópsia substituir esta régua, o próximo simulado integral da Data
 
 **Régua de dificuldade:** igual ou levemente acima da prova-espelho de 2024. A dificuldade deve vir de alternativas próximas, verdade parcial, transposição conceitual, recuperação factual e duas etapas de raciocínio — não de obscuridade gratuita, enunciado artificialmente longo ou conhecimento fora do edital.
 
+### Lição transferível pós-Dataprev — calibração de Português
+
+A reconstrução parcial da prova real Dataprev 2026, ainda sob **gabarito preliminar** e sem cartão-resposta confirmado, apontou risco de falsa segurança em Português: o bloco real exigiu mais discriminação em **coerência, referenciação, valor semântico, tipologia e fronteiras classificatórias**, e não apenas recuperação de regras gramaticais. Esse sinal deve influenciar o desenho de treinos futuros, mas **não deve ser registrado como nota oficial** até haver respostas confirmadas e gabarito definitivo.
+
+Para qualquer próximo concurso:
+- calibrar Português pela prova real da **banca e formato do concurso-alvo**, sem transferir mecanicamente o estilo FGV para Cebraspe;
+- evitar baterias em que a maioria dos itens seja resolvida por reconhecimento imediato de regra;
+- exigir comparação entre alternativas plausíveis, leitura de escopo, coerência global/local, retomada referencial e efeito semântico quando o corpus da banca sustentar esses mecanismos;
+- tratar desempenho alto em simulados como suspeito de subcalibração quando o bloco de Português tiver poucos distratores próximos ou pouca interpretação fina;
+- ao auditar um simulado, perguntar explicitamente se ele seria capaz de produzir erros em um candidato que domina a regra, mas lê rápido ou classifica categorias próximas de modo superficial.
+
 ### Gate obrigatório de novidade e ledger de questões
 
 `data/questoes-ledger.json` é a fonte canônica para impedir que o candidato aprenda o caderno em vez do conteúdo. Antes de gerar qualquer bateria ou simulado:

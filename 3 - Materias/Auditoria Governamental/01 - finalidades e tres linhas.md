@@ -213,7 +213,29 @@ A **Lei de Acesso à Informação (LAI), Lei nº 12.527/2011**, garante, no **ar
 
 ## Tensões e pegadinhas
 
-**Avaliação × apuração:** ambas podem examinar documentos, entrevistar envolvidos e descobrir irregularidades. O objetivo inicial é o melhor critério de diferenciação.
+### Avaliação × apuração: perguntas, alcance e finalidade
+
+Os dois serviços podem usar **análise documental, entrevistas, cruzamento de dados e testes de auditoria**. O que melhor os distingue é **a finalidade do trabalho, definida em seu objetivo e escopo**, e não a técnica empregada, o canal pelo qual chegou uma informação ou a mera descoberta de uma irregularidade.
+
+| Critério | Avaliação | Apuração |
+| :--- | :--- | :--- |
+| **Pergunta central** | O objeto examinado atende aos critérios? Seus controles, resultados ou processos funcionam adequadamente? | O ato ou fato apontado como irregular ocorreu? Quais evidências demonstram sua natureza, extensão e circunstâncias? |
+| **Ponto de partida usual** | Planejamento baseado em riscos e escolha de objeto de auditoria | Suspeita, denúncia, representação, alerta interno ou indício encontrado em outro trabalho |
+| **Objeto e escopo usuais** | Programa, processo, política, operação, demonstrações financeiras ou controles, considerados segundo objetivos e critérios | Fatos ou transações delimitados e possíveis erros ou fraudes na utilização de recursos públicos |
+| **Produto principal** | Opinião ou conclusão independente, que pode apontar conformidade, desempenho, fragilidades e recomendações estruturantes | Esclarecimento fundamentado dos fatos e encaminhamentos ou medidas corretivas cabíveis, sem julgamento ou aplicação automática de sanção |
+
+Essas diferenças descrevem **tendências**, não fronteiras absolutas. Uma **auditoria de conformidade é avaliação**, embora investigue operações e encontre ilegalidades. Uma **avaliação iniciada após denúncia** continua sendo avaliação se o objetivo definido for examinar, por exemplo, o funcionamento dos controles de concessão de bolsas. Da mesma forma, a equipe pode identificar indícios de fraude durante uma avaliação; deverá tratá-los e encaminhá-los às instâncias competentes, podendo haver apuração específica, **sem reclassificar automaticamente o trabalho original**.
+
+**Fronteira adicional: apuração de erro × apuração de fraude.** Conforme o **Manual de Orientações Técnicas (MOT)**, a apuração de erro trata de irregularidade possivelmente **não intencional** e pode adotar o mesmo processo de trabalho da avaliação. A apuração de fraude parte de suspeita fundamentada de conduta **intencional**, como dissimulação ou desonestidade, e pode exigir procedimentos investigativos e preservação de provas para responsabilização por instância competente. Uma denúncia deve ser examinada quanto à admissibilidade: **seu recebimento não obriga a abertura de apuração**. Além disso, a atribuição de apurar deve ser verificada conforme a competência da unidade; nem toda unidade singular de auditoria interna tem competência para conduzir apuração de fraude.
+
+**Três casos quase idênticos:**
+1. A equipe examina pagamentos de bolsas para concluir se os controles de elegibilidade funcionam; identifica algumas duplicidades. **Avaliação**, mesmo com irregularidades encontradas.
+2. Após indícios consistentes de pagamentos fictícios, a unidade competente delimita fatos e busca evidências para verificar se ocorreram e em que extensão. **Apuração**, ainda que utilize testes documentais iguais aos de uma avaliação.
+3. Uma denúncia sobre bolsas gera preocupação com fragilidades gerais; o trabalho autorizado passa a examinar os controles de concessão do programa. **Avaliação**, embora a informação inicial tenha sido uma denúncia.
+
+**Para prova:** cuidado com as equivalências falsas **“denúncia = apuração”**, **“achado irregular = apuração”**, **“avaliação só examina controles, nunca transações”** e **“apuração sempre pressupõe fraude intencional”**. A **Orientação Prática: Serviços de Auditoria**, da **Controladoria-Geral da União (CGU)**, compara as duas modalidades no *Apêndice XIII*. O **MOT**, capítulo 2, explica a diferença entre apuração de erro e de fraude e os limites de competência.
+
+**Fontes:** [CGU, Orientação Prática: Serviços de Auditoria, 2022, capítulos 2 e 4 e Apêndice XIII](https://repositorio.cgu.gov.br/bitstream/1/68936/3/OP_Servicos_de_Auditoria); [CGU, MOT, capítulos 1 e 2](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
 
 **Consultoria × gestão:** apoiar a decisão não equivale a tomar a decisão. A responsabilidade operacional pertence à administração.
 

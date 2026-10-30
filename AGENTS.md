@@ -12,6 +12,16 @@ A técnica de Feynman serve **para explicar**: partir de um problema concreto, u
 
 **Não criar na nota seções automáticas como “Verificação de compreensão (Feynman)”**, convites para o leitor explicar com as próprias palavras nem questionários metacognitivos. A interação para verificar o entendimento, identificar confusões e corrigir o raciocínio ocorre **no chat**, a partir das respostas reais do estudante. Na wiki, preservar a explicação, as fronteiras conceituais e, quando relevantes, **itens comentados em formato de prova**, que são outra finalidade. Não registrar domínio ou erro sem resposta efetivamente dada.
 
+## Modo intensivão: profundidade e cobertura antes de avançar
+
+Quando o pedido for **aprender matéria nova, aprofundar conteúdo ou fazer um intensivão**, a tarefa principal é **ensinar o assunto com densidade suficiente para o edital**, e não produzir rapidamente uma nota ou uma sequência de questões. Aplicar o protocolo detalhado de `.agent/AGENTS.md` e a régua de cobertura de [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]].
+
+**Antes de escrever:** ler o trecho pertinente do edital, as fontes primárias (normas, manuais, autores) e as notas existentes; decompor o assunto em conceitos, estruturas, etapas, condições, exceções, exemplos e fronteiras entre conceitos próximos. Manter um **roteiro de aprofundamento no hub da matéria**, com itens cobertos, superficiais e pendentes, priorizados pelo concurso. Uma nota panorâmica não equivale a domínio de seus subtópicos.
+
+**Durante a aula no chat:** ensinar por explicação progressiva e exemplos concretos (técnica de Feynman), apresentar a terminologia técnica e as exceções e conectar os conceitos. O aluno deve receber a **explicação completa aqui**, sem precisar abrir o GitHub para aprender. Só depois de apresentar a base necessária, aplicar questões do formato da banca que discriminem fronteiras reais. Uma resposta correta isolada não comprova domínio.
+
+**Ao consolidar:** refinar notas canônicas existentes ou criar novas notas somente quando o conteúdo justificar estudo independente. Preservar origens, condições e limites das regras, exemplos resolvidos, diferenças perigosas, relações com o edital e pegadinhas relevantes. **Consolidar ao final de um bloco coerente de estudo ou quando o usuário pedir**, em vez de publicar a cada resposta. Registrar lacunas sem inventar detalhes e distinguir cobertura da nota, exposição no chat e desempenho efetivamente medido. A meta é **profundidade útil para prova**, não volume de texto, de notas ou de questões.
+
 ## Criação de notas em `3 - Materias/`
 
 Uma nota canônica nova exige, na mesma operação e no mesmo commit, a nota, o link no hub da matéria (quando existir) e o wikilink com o caminho exato no `index.md` global. Confira os três arquivos antes de gravar. Não crie a nota primeiro para indexá-la em um commit posterior.

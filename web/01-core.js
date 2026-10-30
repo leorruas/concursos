@@ -84,8 +84,9 @@ const informacoesDisciplinas = {
     "Administracao Geral": { numero: "11", nome: "administração geral", resumo: "planejamento estratégico, processos e teorias" },
     "Atualidades": { numero: "12", nome: "atualidades", resumo: "inteligência artificial, tecnologia e sociedade" },
     "Redacao": { numero: "13", nome: "redação discursiva", resumo: "técnicas discursivas, estrutura argumentativa e repertório" },
-    "04. Projetos & Edital": { numero: "14", nome: "projetos & edital", resumo: "dashboards, cronogramas e wiki do edital dataprev/tcdf" },
-    "01. Planejamento": { numero: "15", nome: "planejamento", resumo: "cronogramas, horários e editais abertos/previstos" }
+    "Auditoria Governamental": { numero: "14", nome: "auditoria governamental", resumo: "avaliação, consultoria, apuração, três linhas, controles e evidências" },
+    "04. Projetos & Edital": { numero: "15", nome: "projetos & edital", resumo: "dashboards, cronogramas e wiki do edital dataprev/tcdf" },
+    "01. Planejamento": { numero: "16", nome: "planejamento", resumo: "cronogramas, horários e editais abertos/previstos" }
 };
 
 // Variáveis Globais

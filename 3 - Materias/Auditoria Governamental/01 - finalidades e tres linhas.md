@@ -68,6 +68,20 @@ Apoia, orienta, coordena, monitora e supervisiona a atuação da primeira linha 
 
 Proporciona avaliações independentes e objetivas e pode prestar consultoria, preservando sua posição perante as atividades que examina. É **terceira linha**, mesmo quando desempenha serviços de consultoria. Sua atuação não substitui os controles da primeira ou da segunda linha.
 
+### Aplicação: concessão de benefícios e fronteiras entre linhas
+
+Imagine um órgão público que analisa e concede benefícios sociais.
+
+- **Primeira linha:** a equipe que analisa pedidos e concede benefícios verifica documentos, aplica regras, detecta problemas e mantém controles durante a operação. **Gerenciar o risco faz parte do trabalho de quem executa.**
+- **Segunda linha:** a unidade especializada em gestão de riscos ou conformidade orienta, monitora e questiona a adequação desses controles, por exemplo, analisando taxas de inconsistência. **A responsabilidade continua no campo da gestão.**
+- **Terceira linha:** a auditoria interna examina com independência se os controles da primeira linha e as funções de segunda linha são adequados e efetivos, produzindo conclusões fundamentadas e orientações de melhoria quando cabíveis.
+
+**Refinamento:** as linhas não representam uma sequência temporal obrigatória nem necessariamente três departamentos estanques. São *papéis* que coexistem; primeira e segunda linhas podem ter funções parcialmente combinadas conforme a organização. O **órgão de governança** supervisiona a gestão e a auditoria, mas não é contado como uma quarta linha. **Controle externo**, a exemplo do exercido no plano federal pelo Congresso com auxílio do Tribunal de Contas da União (TCU), não se confunde com a terceira linha de auditoria *interna*.
+
+**Item inédito de treino (Cebraspe, C/E):** “Uma unidade de conformidade que acompanha e orienta os gestores na identificação de riscos passa a integrar a terceira linha por avaliar a qualidade dos controles operacionais.” **Errado.** Orientação e monitoramento especializados de riscos são típicos da **segunda linha**; a existência de atividades de verificação não transforma automaticamente essa unidade em auditoria interna independente.
+
+Referências: [CGU, Sistema de Controle Interno](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/sistema-de-controle-interno); [IIA, Modelo das Três Linhas](https://www.theiia.org/en/resources/statements-of-position/).
+
 **Cuidado de prova:** o modelo das três linhas trata de **papéis de governança, gestão e auditoria dentro da organização**. Não é uma tradução direta de **controle interno, controle externo e controle social** do Direito Constitucional.
 
 ## Independência, objetividade e responsabilidade

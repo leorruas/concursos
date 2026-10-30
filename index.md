@@ -52,6 +52,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 ## 3 - Matérias
 - [[3 - Materias/Auditoria Governamental/auditoria-governamental|Auditoria governamental]]
   - [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|01 • Finalidades e três linhas]]
+  - [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|02 • Ciclo de auditoria]]
 - [[3 - Materias/Estrategia de Prova/estrategia-de-prova|Estratégia de prova]]
   - [[3 - Materias/Estrategia de Prova/FGV - Dataprev e corpus de Comunicacao|FGV: Dataprev e corpus de Comunicação]]
   - [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]]

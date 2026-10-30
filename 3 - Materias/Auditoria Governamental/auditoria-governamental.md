@@ -13,11 +13,12 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 ## Notas
 
 - [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|01. Finalidades da auditoria e modelo das três linhas]]: avaliação, consultoria, apuração, responsabilidades, independência e fronteiras entre categorias.
+- [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|02. Ciclo de auditoria: planejamento, execução, comunicação e monitoramento]]: prioridades e risco, plano anual versus trabalho individual, evidências, achados, recomendações e responsáveis.
 
 ## Sequência de estudo
 
 - [ ] **01. Finalidades e três linhas**: primeira explicação apresentada; validação com itens certo/errado pendente.
-- [ ] **02. Ciclo de auditoria**: planejamento, execução, comunicação e monitoramento.
+- [ ] **02. Ciclo de auditoria**: nota teórica elaborada; fixação e validação com itens C/E pendentes.
 - [ ] **03. Evidências e técnicas**: suficiência, adequação, testes de controle, testes substantivos e amostragem.
 - [ ] **04. Achados e relatórios**: critério, condição, causa, efeito, recomendações e acompanhamento.
 - [ ] **05. Qualidade e atuação institucional**: supervisão, Programa de Gestão e Melhoria da Qualidade, integração com CGU.

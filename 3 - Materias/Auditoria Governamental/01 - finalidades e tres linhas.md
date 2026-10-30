@@ -10,7 +10,7 @@ updated: 2026-10-30
 
 ## Refinamento: duas classificações que se cruzam
 
-### Primeiro, o problema que o modelo tenta resolver (explicação Feynman)
+### Um exemplo para entender o problema
 
 Imagine um órgão federal que concede bolsas de permanência estudantil. Dinheiro pode ser pago a uma pessoa que não atende aos critérios. **Quem deve impedir isso? Quem verifica se a prevenção está funcionando? E quem avalia, com independência, se o conjunto é confiável?**
 
@@ -38,7 +38,7 @@ O **Tribunal de Contas da União (TCU)** integra outro arranjo: o **controle ext
 
 Também é possível que a CGU fiscalize a **aplicação de recursos federais por estados, municípios ou entidades privadas**. O caráter de auditoria interna governamental da SFC decorre de sua **competência e posição dentro do sistema de controle do Executivo federal**, e não de todo auditado ser uma unidade federal.
 
-**Explicação Feynman:** imagine três ângulos para examinar a concessão de bolsas do IFMG. A gestão do próprio IFMG deve prevenir erros. A **Audin do IFMG** pode avaliar os controles da instituição. A **SFC/CGU** pode fazer auditoria dentro das suas competências de controle do Executivo federal e supervisionar tecnicamente a atividade da Audin. O **TCU** participa do controle externo. Há mais de uma equipe de controle envolvida; o critério para classificá-las é a **posição institucional e a competência constitucional ou normativa**, e não o endereço ou o vínculo funcional da pessoa auditora com a unidade examinada.
+**Aplicação ao IFMG:** imagine três ângulos para examinar a concessão de bolsas do IFMG. A gestão do próprio IFMG deve prevenir erros. A **Audin do IFMG** pode avaliar os controles da instituição. A **SFC/CGU** pode fazer auditoria dentro das suas competências de controle do Executivo federal e supervisionar tecnicamente a atividade da Audin. O **TCU** participa do controle externo. Há mais de uma equipe de controle envolvida; o critério para classificá-las é a **posição institucional e a competência constitucional ou normativa**, e não o endereço ou o vínculo funcional da pessoa auditora com a unidade examinada.
 
 **Fronteira de prova:** a afirmação “uma auditoria feita pela CGU em uma autarquia federal é controle externo porque os auditores não pertencem à autarquia” é **errada**. O raciocínio troca a noção de externo **à entidade auditada** pela de **controle externo constitucional**.
 
@@ -53,12 +53,6 @@ Agora usamos uma **segunda classificação**, referente aos serviços que a fun�
 - **Apurar:** investigar indícios concretos de pagamentos irregulares e documentar os fatos para os encaminhamentos cabíveis.
 
 **Ligação lógica:** as três linhas classificam **papéis e responsabilidades na organização**; avaliação, consultoria e apuração classificam **modalidades de trabalho da auditoria interna**. As três modalidades podem ocorrer no exercício do papel de terceira linha. **Não existe correspondência “primeira linha = avaliação, segunda = consultoria, terceira = apuração”.**
-
-### Verificação de compreensão (Feynman)
-
-Explique com suas próprias palavras, sem usar os termos “primeira”, “segunda” e “terceira linha”: *quem paga a bolsa, quem ajuda a supervisionar os riscos e quem examina com independência se os controles estão funcionando?* Depois, explique por que o auditor pode **prestar consultoria** sem deixar de pertencer à **terceira linha**.
-
-Se a explicação atribuir a implantação ou a execução dos controles ao auditor, a fronteira conceitual ainda precisa de revisão.
 
 ### Ponto de prova do Cebraspe
 

@@ -15,15 +15,34 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 - [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|01. Finalidades da auditoria e modelo das três linhas]]: avaliação, consultoria, apuração, responsabilidades, independência e fronteiras entre categorias.
 - [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|02. Ciclo de auditoria: planejamento, execução, comunicação e monitoramento]]: prioridades e risco, plano anual versus trabalho individual, evidências, achados, recomendações e responsáveis.
 
-## Sequência de estudo
+## Planejamento de aprofundamento para o intensivão CGU
 
-- [ ] **01. Finalidades e três linhas**: primeira explicação apresentada; validação com itens certo/errado pendente.
-- [ ] **02. Ciclo de auditoria**: nota teórica elaborada; fixação e validação com itens C/E pendentes.
-- [ ] **03. Evidências e técnicas**: suficiência, adequação, testes de controle, testes substantivos e amostragem.
-- [ ] **04. Achados e relatórios**: critério, condição, causa, efeito, recomendações e acompanhamento.
-- [ ] **05. Qualidade e atuação institucional**: supervisão, Programa de Gestão e Melhoria da Qualidade, integração com CGU.
+**Recorte do edital:** P2, item **5. Fundamentos de auditoria governamental e atuação integrada da CGU**; P3, item **1. Auditoria governamental: avaliação, consultoria e apuração**. O roteiro abaixo organiza esses subitens em **unidades de conhecimento**. As outras frentes da P3, como orçamento e contabilidade, avaliação de políticas, contratações, transferências e responsabilização, exigem seus próprios roteiros de matéria e não devem desaparecer dentro desta disciplina.
 
-Este hub é um **roteiro de conteúdo**, não um registro de aprovação nos itens do edital. O desempenho permanece sem medição nesta etapa. As primeiras respostas em itens C/E serão registradas nos hubs globais da CGU, depois da correção.
+**Diagnóstico da cobertura atual:** as notas 01 e 02 oferecem um **panorama inicial** e alguns refinamentos normativos decorrentes das questões. Elas **não significam** que foram esgotados os conteúdos de controles, riscos, planejamento baseado em risco, testes, achados ou qualidade. Tampouco os acertos iniciais em questões pontuais comprovam domínio de uma unidade completa.
+
+| Ordem | Unidade de aprofundamento | Conteúdos que precisam ser ensinados e discriminados | Situação |
+| :--- | :--- | :--- | :--- |
+| 01 | **Estrutura da auditoria pública e serviços** | CGU/SFC, Audin, Sistema de Controle Interno, controle externo; avaliação × consultoria × apuração, competências, objetos e limites | Panorama na [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|nota 01]]; **aprofundar** |
+| 02 | **Independência, objetividade, ética e ceticismo** | Autonomia da UAIG, atitude do auditor, conflito de interesse, ameaças e salvaguardas, impedimentos, regra dos 24 meses, consultoria anterior × gestão anterior, dever de comunicação | Regra dos 24 meses já registrada na nota 01; **aprofundar sistematicamente** |
+| 03 | **Governança, riscos, controles e três linhas** | Objetivos organizacionais, identificação e avaliação de riscos, desenho × operação de controles, papéis da gestão e auditoria, responsabilidades que não podem migrar | Modelo introdutório na nota 01; **aprofundar** |
+| 04 | **Planejamento da UAIG baseado em riscos** | Universo auditável, fatores de risco e materialidade, escolha e priorização de objetos, recursos, PAINT e RAINT, diferença entre plano anual e auditoria específica | Panorama na [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|nota 02]]; **aprofundar** |
+| 05 | **Planejamento individual e desenho da auditoria** | Objetivo, objeto, escopo, critérios, questões/subquestões, matriz de planejamento, programa de trabalho, risco de auditoria, supervisão, alterações justificadas | Panorama na nota 02; **aprofundar** |
+| 06 | **Evidências e documentação** | Evidência × indício × conclusão; suficiência, adequação, confiabilidade, relevância, rastreabilidade; fontes e papéis de trabalho; limitações | **Pendente** |
+| 07 | **Procedimentos e testes de auditoria** | Inspeção, observação, confirmação, entrevista/indagação, recálculo, reexecução, revisão analítica; teste de controle × procedimento substantivo | **Pendente** |
+| 08 | **Amostragem e generalização** | População, unidade amostral, critérios de seleção, métodos estatísticos × não estatísticos, risco de amostragem, ampliação de testes × alteração de escopo | **Pendente** |
+| 09 | **Achados, causas e fraude** | Critério, condição, causa, efeito, materialidade, evidências e responsabilização; achado × mera irregularidade; indício de fraude, comunicação e encaminhamento | **Pendente** |
+| 10 | **Comunicação e relatórios** | Discussão de achados, manifestação da unidade, conclusões, recomendações, relatórios, limitações, qualidade e clareza; informar × decidir | Panorama na nota 02; **aprofundar** |
+| 11 | **Monitoramento, ações e benefícios** | Recomendação × plano de ação; gestor implementa, auditor verifica; cumprimento formal × efetividade; benefício financeiro e não financeiro, riscos residuais | Panorama na nota 02; **aprofundar** |
+| 12 | **Supervisão e qualidade da auditoria** | Revisão dos trabalhos, supervisão técnica, Programa de Gestão e Melhoria da Qualidade (PGMQ), avaliações internas/externas, supervisão × independência | **Pendente** |
+| 13 | **Dados, análise e IA aplicados à auditoria** | Tratamento e validação de dados, trilha de auditoria, qualidade, vieses, cruzamentos, rastreabilidade, limites e validação humana de resultados da IA | **Pendente** |
+| 14 | **Integração das funções da CGU** | Auditoria × ouvidoria × transparência × integridade × correição × responsabilização; encaminhamentos, proteção da informação, diferenças institucionais | **Pendente** |
+
+**Ordem pedagógica recomendada:** aprofundar primeiro a **unidade 02** (independência, objetividade e impedimentos), porque já surgiu nas questões e sustenta a unidade 01; em seguida unidades 03 a 05 (riscos e planejamento), depois 06 a 09 (evidências, testes, amostragem e achados) e finalmente 10 a 14 (comunicação, qualidade, dados e integração). A ordem não fixa quantidade de aulas ou notas: se um tema exigir duas explicações ou artigos independentes, aprofundá-lo antes de avançar.
+
+**Critério para alterar o status:** *panorama* = conceito mencionado ou explicado inicialmente; *aprofundado na nota* = estruturas, normas, condições, limites e aplicações realmente documentados; *validado por questões* = evidências reais de resolução em diferentes mecanismos, sem confundir acertos avulsos com domínio de todos os subtópicos. Toda aula deve acontecer no **chat**, com a nota publicada consolidada posteriormente, ao final de unidade coerente ou por solicitação do usuário.
+
+**Fontes prioritárias:** [[2 - Editais/CGU 2026 - Auditoria|Edital e checklist CGU 2026]], Referencial Técnico da Auditoria Interna Governamental (IN SFC nº 3/2017), Manual de Orientações Técnicas (IN SFC nº 8/2017), normas da CGU sobre planejamento/qualidade e corpus de provas reais correspondente ao concurso. Para regras pontuais, citar itens e versões após conferência.
 
 ## Relações com outras matérias
 

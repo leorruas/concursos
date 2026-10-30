@@ -22,6 +22,18 @@ nota canônica → conceitos → itens de vários editais → provas/bancas → 
 
 `data/edital-itens.json` é a camada atual de relação entre edital e nota. `data/erros-recorrentes.json` registra evidências de dificuldade. `data/provas.json` registra provas e sua comparabilidade. Essas camadas devem enriquecer prioridade e busca sem contaminar a nota teórica com repetição de contexto específico.
 
+## Régua do intensivão: unidade de conhecimento e profundidade
+
+O **modo intensivão** prioriza **cobertura substantiva do edital antes de produzir baterias extensas**. Antes de expandir um artigo, verificar se existe um mapa de aprofundamento no hub da matéria, distinguindo o que tem **panorama**, o que requer **desenvolvimento** e o que foi efetivamente **validado por exercícios**. Cobertura documental, exposição na aula e domínio medido não são sinônimos.
+
+Uma nota é **substancialmente aprofundada** quando o tema exige e o texto explica, apoiado em fontes: **origem e finalidade** do conceito; definição e condições de aplicação; estrutura interna, categorias, etapas ou classificações; responsabilidade institucional e sequência operacional; **exceções, prazos e limites normativos**; fronteiras com conceitos próximos e possíveis inversões da banca; **ao menos um caso desenvolvido que exija raciocínio**, e relações com outros itens do edital. Itens não aplicáveis devem ser omitidos, nunca preenchidos artificialmente. A extensão segue a complexidade da matéria; notas curtas podem ser adequadas a conceitos simples, mas um conceito complexo não deve ser tratado como glossário.
+
+**Planejar a arquitetura antes de dividir textos:** construir unidades conceituais coerentes, identificar pré-requisitos, reutilizar notas existentes e separar temas independentes que merecem aprofundamento próprio. O mapa do hub deve nomear lacunas e prioridades, não apenas apresentar cinco títulos gerais. **Não publicar uma sequência de notas introdutórias e tratá-la como syllabus concluído.**
+
+**Ensinar e verificar:** apresentar explicação progressiva no chat, com técnica de Feynman e precisão terminológica, antes de questões. Ao corrigir questões, identificar a confusão que merece enriquecer a teoria. Consolidar no Markdown depois de um bloco de estudo ou a pedido do usuário; preservar de 1 a 3 itens comentados particularmente úteis, sem substituir a aula por questionários. **Não escrever exercícios de autoexplicação Feynman na wiki.**
+
+**Gate de saída:** conferir o texto contra os subtópicos do edital e as fontes. Registrar explicitamente o que permanece sem cobertura aprofundada, em vez de usar rótulos vagos como “tema visto” ou “finalizado”. Um acerto pontual mede o item resolvido, não valida todos os conceitos associados.
+
 ## Estrutura editorial canônica
 
 A estrutura abaixo é uma referência de cobertura, não um molde rígido. Se uma seção não fizer sentido para o tema, ela pode ser omitida. O objetivo é garantir que a nota cubra as funções cognitivas necessárias para prova.

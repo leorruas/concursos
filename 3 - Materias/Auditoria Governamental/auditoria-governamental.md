@@ -16,6 +16,8 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 - [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|02. Ciclo de auditoria: planejamento, execução, comunicação e monitoramento]]: prioridades e risco, plano anual versus trabalho individual, evidências, achados, recomendações e responsáveis.
 - [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|03. Independência, objetividade, impedimentos e sigilo]]: normas 45 a 58, salvaguardas, supervisão, exemplos comparados e erros de treino.
 
+- [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]]: resultados separados por modalidade, erros e revisão.
+
 ## Planejamento de aprofundamento para o intensivão CGU
 
 **Recorte do edital:** P2, item **5. Fundamentos de auditoria governamental e atuação integrada da CGU**; P3, item **1. Auditoria governamental: avaliação, consultoria e apuração**. O roteiro abaixo organiza esses subitens em **unidades de conhecimento**. As outras frentes da P3, como orçamento e contabilidade, avaliação de políticas, contratações, transferências e responsabilização, exigem seus próprios roteiros de matéria e não devem desaparecer dentro desta disciplina.
@@ -46,6 +48,9 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 **Fontes prioritárias:** [[2 - Editais/CGU 2026 - Auditoria|Edital e checklist CGU 2026]], Referencial Técnico da Auditoria Interna Governamental (IN SFC nº 3/2017), Manual de Orientações Técnicas (IN SFC nº 8/2017), normas da CGU sobre planejamento/qualidade e corpus de provas reais correspondente ao concurso. Para regras pontuais, citar itens e versões após conferência.
 
 ### Ponto de retomada da unidade 02
+
+**30/10/2026:** a parte B (proficiência, zelo e ceticismo, itens 59 a 68) já teve aula e fronteiras, treino de aprendizagem **3/3** e treino para valer **1/1 respondido**, com quatro questões ainda pendentes. Retomar a partir da **questão 2/5** e consolidar a teoria ao encerrar. Histórico: [[3 - Materias/Auditoria Governamental/Avancos|Avanços da disciplina]].
+
 
 **Etapa concluída para a parte A:** aula, comparação de fronteiras, três itens didáticos sobre sigilo (3/3), cinco itens inéditos de aproximação à prova (3/5) e consolidação na [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|nota 03]]. Os erros no treino para valer envolveram conflitos de interesses sem irregularidade consumada e o limite institucional entre consultoria e gestão. O resultado é **parcial, sem validade de simulado ou certificação de domínio**.
 

@@ -8,7 +8,7 @@ updated: 2026-10-10
 
 # Desempenho por edital e prova
 
-Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 10/10/2026.
+Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 30/10/2026.
 
 Este hub separa três medidas que não devem ser misturadas: **aproveitamento bruto**, **nota calculada pelas regras do edital** e **comparabilidade da prova com o concurso atual**. O objetivo é impedir que um percentual alto em uma bateria de composição diferente seja interpretado como estimativa direta de classificação.
 
@@ -16,7 +16,7 @@ Este hub separa três medidas que não devem ser misturadas: **aproveitamento br
 
 **Corpus fonte de exercícios:** [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|CGU 2026 — Provas-espelho: conteúdo × formato]], com PDFs oficiais, estados de verificação, gabaritos e protocolo de indexação em `data/corpus-provas-espelho.json`. Prova localizada não é simulado realizado.
 
-**Sem resultado de prova, simulado ou discursiva CGU registrado em 09/10/2026.** Checklist e estratégia são planejamento documental, não histórico de desempenho. Não transferir notas de Comunicação/FGV ou Câmara/Cebraspe.
+**Sem prova, simulado ou discursiva CGU integral até 30/10/2026.** Há microtreinos em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]: **12 itens válidos, 10 acertos**, divididos em **aprendizagem 6/6** e **para valer 4/6**, bateria final parcial. Eles não equivalem a nota líquida ou prontidão de prova. Manter Dataprev/FGV e Câmara/Cebraspe separados.
 
 | Prova | Itens | Acerto / erro / branco | Máximo | Mínimo eliminatório |
 | :--- | ---: | :--- | ---: | ---: |

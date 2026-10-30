@@ -13,7 +13,7 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 ---
 
-**CGU 2026/Auditoria:** 12 microtreinos respondidos em 30/10, com 10 acertos: aprendizagem 6/6, para valer 4/6, última bateria parcial. Esses dados são distintos de simulados, notas líquidas ou resultados Dataprev. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços locais]].
+**CGU 2026/Auditoria:** 12 microtreinos respondidos em 30/10, com 10 acertos: aprendizagem 6/6, para valer 4/6, última bateria parcial. Esses dados são distintos de simulados, notas líquidas ou resultados Dataprev. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços locais]] e os itens individualizados em `data/questoes-ledger.json`.
 
 ## Log de Saturação Diária
 

@@ -12,7 +12,7 @@ Registro das questões respondidas na preparação para a **Controladoria-Geral 
 
 **Registro estruturado:** `data/questoes-ledger.json`, com identificação individual dos 12 itens, modalidade `aprendizagem` ou `para_valer`, respostas, gabaritos, correção, fontes de revisão e status de microtreino parcial.
 
-**ID da sessão:** `cgu-2026-auditoria-2026-10-30-unidade02`. Nas próximas correções, atualizar esta mesma sessão para impedir dupla contagem.
+**ID da sessão:** `cgu-2026-auditoria-2026-10-30-unidade02`. Nas próximas correções, atualizar esta mesma sessão para impedir dupla contagem. **Ledger individual dos 12 itens sincronizado com os painéis globais e o registro do edital.**
 
 ## Volume diário de exercícios
 

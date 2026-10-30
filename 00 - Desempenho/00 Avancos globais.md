@@ -18,7 +18,7 @@ Consulte as diretrizes metodológicas, réguas de competitividade e metas de pro
 
 ## CGU 2026: microtreinos registrados, simulado ainda pendente
 
-**Cargo 1: Auditoria, Cebraspe.** Até 30/10/2026, foram respondidas **12 questões de Auditoria Governamental, com 10 acertos (83,3%)**: **aprendizagem 6/6**; **para valer 4/6**, com a bateria mais recente ainda parcial. Histórico em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]. **Ainda não existe simulado integral nem nota líquida CGU**; os indicadores da Dataprev abaixo são históricos de outro concurso.
+**Cargo 1: Auditoria, Cebraspe.** Até 30/10/2026, foram respondidas **12 questões de Auditoria Governamental, com 10 acertos (83,3%)**: **aprendizagem 6/6**; **para valer 4/6**, com a bateria mais recente ainda parcial. Histórico em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]. **Ainda não existe simulado integral nem nota líquida CGU**; os indicadores da Dataprev abaixo são históricos de outro concurso. Os 12 itens estão individualizados em `data/questoes-ledger.json` por modalidade.
 
 | Frente | Cobertura documental do vault | Domínio CGU medido | Próximo passo |
 | :--- | :--- | :--- | :--- |

@@ -155,7 +155,8 @@
       "confidenceTracking": {
         "coverage": "partial",
         "note": "Somente insegurança explicitamente declarada foi marcada; demais itens têm confiança unknown, exceto justificativas afirmativas explícitas."
-      }
+      },
+      "syncStatus": "sincronizado_com_avancos_locais_globais_log_e_hub_de_edital"
     }
   ],
   "questions": [

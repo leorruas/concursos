@@ -85,6 +85,26 @@ O estudante deve ser informado **antes do enunciado**, sempre que o treino tiver
 
 A modalidade deve constar na **abertura da bateria ou antes de cada item isolado**, e novamente se houver transição. No intensivão, a sequência pode partir de treino de aprendizagem e avançar para treino para valer **após calibração verificável**. Se faltar evidência suficiente, manter a classificação didática, sem alegar validade preditiva. Avisar antecipadamente, sem exigir confirmação do aluno e sem confundir resultado didático com métrica competitiva.
 
+### Ciclo de ensino com gates explícitos de avanço e registro
+
+A implementação do intensivão exige **um único bloco conceitual por ciclo**, escolhido pelo mapa de cobertura e pelos pré-requisitos. O conjunto pode durar mais de uma mensagem, mas deve terminar com síntese documental **antes de mudar de bloco**. Distinguir rigorosamente estas seis etapas:
+
+**[PREPARAÇÃO]** Consultar edital, fonte primária, nota e hub. Definir a pergunta central, os conceitos subordinados, as diferenças difíceis e as regras indispensáveis. Anunciar em uma frase o objetivo de aprendizagem. Não escolher assunto apenas porque surgiu em uma questão.
+
+**[AULA]** Expor primeiro **todo o núcleo pertinente**, com linguagem didática, terminologia exata, requisitos, consequências, exceções e exemplo progressivo. Uma aula pode exigir diversas respostas e não precisa acabar em pergunta. Se uma norma tiver vários itens que funcionam em conjunto, **explicar esse conjunto antes de cobrar uma aparente colisão normativa**. Confrontar texto oficial com a explicação; diferenciar obrigação geral de proibição específica e de exceção.
+
+**[FRONTEIRAS]** Antes de avaliações, apresentar explicitamente os contrastes que o estudante terá de discriminar, com pares de situações reais ou hipotéticas: o que muda com uma condição, um agente competente, um momento, um prazo, uma forma de divulgação, um objeto ou um limite. O propósito é **ensinar limites, não induzir erro em regra inédita**. Se aparecer um subtópico ainda não ensinado, registrar a lacuna e completar a aula.
+
+**[DIAGNÓSTICO DE APRENDIZAGEM]** Após [AULA]+[FRONTEIRAS], aplicar uma checagem pequena, em geral 2 a 4 itens de mecanismos variados, declarando **TREINO DE APRENDIZAGEM**. Corrigir com referência às partes efetivamente ensinadas. Se uma questão contiver regra nova ou exigir norma até então apenas mencionada, o item é **invalidado para diagnóstico de domínio**: assumir a falha de sequência, ensinar a base e só então retestar. Não contar uma sequência de itens didáticos como simulado, nem fazer nova questão automática após cada correção.
+
+**[TREINO PARA VALER]** Depois de concluída a instrução, quando houver corpus **de fato lido** da banca/formato e itens identificáveis, oferecer bateria de questões inéditas calibradas (em geral 5 a 8, variando mecanismos e acertos esperados) e/ou reais com gabarito definitivo. Informar fontes e limites de comparabilidade. Não transformar bateria curta em previsão de nota ou status de domínio integral. Se o corpus ainda não sustentar a calibração, manter o rótulo didático e registrar a pendência de prova-espelho.
+
+**[CONSOLIDAÇÃO]** Obrigatória **ao fechar o bloco e antes de abrir o próximo**, não depois de cada resposta isolada e não somente ao fim da matéria inteira. Atualizar a nota canônica correspondente ou criar artigo com autonomia temática e links conforme contrato; explicar normas, fundamentos, estruturas, exemplos e fronteiras, e selecionar apenas questões comentadas que acrescentem distinções. Atualizar o mapa do hub de forma verdadeira: **panorama**, **em aula**, **fronteiras ensinadas**, **nota aprofundada**, **validado em treino**, **pendente**. Essas categorias não devem ser tratadas como um único indicador. Se houver impedimento técnico de gravação, **informar que o bloco continua pendente de consolidação**, sem declarar completo.
+
+**Regra de ritmo e interrupção:** o estudo é intensivo em **matéria**, não em quantidade de perguntas. Usar uma explicação longa quando necessária; não forçar uma questão no fim de toda mensagem. Um erro recorrente exige retorno fundamentado à aula e comparação orientada antes do próximo teste. Quando a resposta do usuário evidenciar falha do próprio ensino, priorizar reparar o conteúdo, não aumentar dificuldade. A **questão de diagnóstico nunca pode ser o primeiro lugar onde se aprende a condição decisiva para respondê-la**.
+
+**Exemplo de aplicação CGU:** antes de perguntar se o sigilo profissional impede comunicação interna, ensinar conjuntamente os **itens 55 a 58 da IN SFC nº 3/2017**, os destinatários competentes e a diferença entre **proteção do dado, comunicação institucional autorizada e divulgação externa indevida**. Se apenas o item 56 foi explicado, a questão que depende do item 58 **não mede domínio do aluno**.
+
 ### Protocolo para o intensivão de matérias
 
 **Gatilho e prioridade:** vale para pedidos de estudo, explicação, avanço em conteúdo e aprofundamento. A banca, o cargo e as fontes do edital ativo determinam a profundidade. **Para CGU 2026/Auditoria**, ler e seguir `2 - Editais/CGU 2026 - Auditoria.md`, com atenção aos itens de **P2 (fundamentos)** e **P3 (específicos)**, ao MOT/Referencial Técnico e ao corpus de provas-espelho. Revisão e simulado solicitado explicitamente seguem seus protocolos próprios.

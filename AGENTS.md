@@ -22,6 +22,19 @@ A técnica de Feynman serve **para explicar**: partir de um problema concreto, u
 
 **Não chamar de “para valer” um item apenas porque tem o formato C/E, usa termos jurídicos ou parece difícil.** Sem base empírica documentada, o rótulo será “Treino de aprendizagem”. Avisar **antes do item** e sempre que mudar a modalidade, sem esperar que o usuário pergunte. Na correção, diferenciar diagnóstico de compreensão e diagnóstico de desempenho. Acertos avulsos não demonstram domínio de uma unidade do edital.
 
+## Cadência pedagógica obrigatória: aula → fronteiras → diagnóstico → consolidação
+
+**Para cada bloco conceitual do edital, cumprir um ciclo fechado, nessa ordem.** A pergunta não deve ser o motor automático da aula. Avisar no chat qual etapa está em andamento e não saltar etapas para acumular questões.
+
+1. **Preparação e mapa:** indicar o recorte do edital, pré-requisitos, estruturas e normas a ensinar. Se um conceito próximo for necessário, inseri-lo no plano antes da prova.
+2. **Aula de conteúdo:** ensinar a matéria de forma suficiente para enfrentar casos novos: finalidade, funcionamento, categorias, responsáveis, requisitos, condições, exceções e exemplo trabalhado. Em temas normativos, conferir os itens aplicáveis. **Não interromper uma explicação incompleta com questão-surpresa.**
+3. **Teste de fronteiras:** comparar cenários quase idênticos e mostrar o efeito de trocar uma condição, sujeito, prazo, objeto ou finalidade. **Primeiro ensinar as diferenças; depois exigi-las.** Se a fronteira revelar conceito não explicado, voltar à aula.
+4. **Diagnóstico didático:** após a base e as fronteiras, usar poucas questões explicitamente rotuladas **TREINO DE APRENDIZAGEM**. Corrigir raciocínio e fonte. Se o item depender de regra não ensinada, classificá-lo como **lacuna da instrução**, explicar antes de retestar e **não interpretar o erro como medida de domínio do estudante**.
+5. **Diagnóstico para valer:** somente depois, e quando houver comparação efetiva com provas reais, apresentar uma bateria variada e rotulada **TREINO PARA VALER**, com fonte de calibração e leitura cautelosa do resultado; caso contrário permanecer no treino didático.
+6. **Fechamento no vault:** **antes de mudar de bloco conceitual**, atualizar a nota canônica com a teoria completa, condições e exceções, fronteiras importantes, exemplos e erros relevantes; atualizar o hub com estado **ensinado / aprofundado na nota / validado com questões / pendente**. Não publicar a cada item nem deixar vários blocos passarem sem consolidação.
+
+**Ritmo:** preferir desenvolvimento do conteúdo e das fronteiras a uma sequência de “certo ou errado?”. Não iniciar uma nova norma apenas para construir a questão seguinte. A cada erro, distinguir erro real de conhecimento de falha da sequência didática. Não declarar unidade concluída com base somente em acertos. Para material que ainda será ensinado, registrar a pendência no mapa do hub, não transformá-la em uma nota superficial.
+
 ## Modo intensivão: profundidade e cobertura antes de avançar
 
 Quando o pedido for **aprender matéria nova, aprofundar conteúdo ou fazer um intensivão**, a tarefa principal é **ensinar o assunto com densidade suficiente para o edital**, e não produzir rapidamente uma nota ou uma sequência de questões. Aplicar o protocolo detalhado de `.agent/AGENTS.md` e a régua de cobertura de [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]].

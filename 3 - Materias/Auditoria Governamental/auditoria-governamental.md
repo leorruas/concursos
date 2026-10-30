@@ -24,7 +24,7 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 | Ordem | Unidade de aprofundamento | Conteúdos que precisam ser ensinados e discriminados | Situação |
 | :--- | :--- | :--- | :--- |
 | 01 | **Estrutura da auditoria pública e serviços** | CGU/SFC, Audin, Sistema de Controle Interno, controle externo; avaliação × consultoria × apuração, competências, objetos e limites | Panorama na [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|nota 01]]; **aprofundar** |
-| 02 | **Independência, objetividade, ética e ceticismo** | Autonomia da UAIG, atitude do auditor, conflito de interesse, ameaças e salvaguardas, impedimentos, regra dos 24 meses, consultoria anterior × gestão anterior, dever de comunicação | Regra dos 24 meses já registrada na nota 01; **aprofundar sistematicamente** |
+| 02 | **Independência, objetividade, ética e ceticismo** | Autonomia da UAIG, atitude do auditor, conflito de interesse, ameaças e salvaguardas, impedimentos, regra dos 24 meses, consultoria anterior × gestão anterior, **sigilo e comunicação institucional (itens 55 a 58)**, proficiência e zelo | **Em aula, não consolidada:** autonomia e objetividade explicadas; sigilo introduzido sem cobertura conjunta dos itens 55 a 58; **reparar essa lacuna, ensinar fronteiras e consolidar antes de avançar** |
 | 03 | **Governança, riscos, controles e três linhas** | Objetivos organizacionais, identificação e avaliação de riscos, desenho × operação de controles, papéis da gestão e auditoria, responsabilidades que não podem migrar | Modelo introdutório na nota 01; **aprofundar** |
 | 04 | **Planejamento da UAIG baseado em riscos** | Universo auditável, fatores de risco e materialidade, escolha e priorização de objetos, recursos, PAINT e RAINT, diferença entre plano anual e auditoria específica | Panorama na [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|nota 02]]; **aprofundar** |
 | 05 | **Planejamento individual e desenho da auditoria** | Objetivo, objeto, escopo, critérios, questões/subquestões, matriz de planejamento, programa de trabalho, risco de auditoria, supervisão, alterações justificadas | Panorama na nota 02; **aprofundar** |
@@ -43,6 +43,12 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 **Critério para alterar o status:** *panorama* = conceito mencionado ou explicado inicialmente; *aprofundado na nota* = estruturas, normas, condições, limites e aplicações realmente documentados; *validado por questões* = evidências reais de resolução em diferentes mecanismos, sem confundir acertos avulsos com domínio de todos os subtópicos. Toda aula deve acontecer no **chat**, com a nota publicada consolidada posteriormente, ao final de unidade coerente ou por solicitação do usuário.
 
 **Fontes prioritárias:** [[2 - Editais/CGU 2026 - Auditoria|Edital e checklist CGU 2026]], Referencial Técnico da Auditoria Interna Governamental (IN SFC nº 3/2017), Manual de Orientações Técnicas (IN SFC nº 8/2017), normas da CGU sobre planejamento/qualidade e corpus de provas reais correspondente ao concurso. Para regras pontuais, citar itens e versões após conferência.
+
+### Ponto de retomada e fechamento da unidade 02
+
+**Etapa vigente: [AULA], com lacuna a reparar; ainda não entrar em novo diagnóstico.** A sequência de itens mostrou que uma pergunta sobre comunicação institucional e sigilo foi apresentada antes de desenvolver conjuntamente os itens **55 a 58** da IN SFC nº 3/2017. **Esse item não mede domínio**, porque a condição decisiva foi ensinada apenas na correção. Retomar com uma explicação integrada dos deveres de sigilo, divulgação institucional autorizada, comunicação materialmente completa e eventuais limites legais de encaminhamento. Depois, ensinar contrastes e só então propor checagem didática; calibrar uma bateria para valer apenas com corpus real.
+
+**Próxima consolidação no vault:** ao completar [AULA]+[FRONTEIRAS] e a correção da unidade 02, aprofundar a nota de independência/objetividade/ética (ou separar sigilo em nota própria caso a autonomia editorial o justifique), incluindo itens 49 a 58, condições e exceções, ameaças, salvaguardas, exemplos contrastados e correções. **Publicar antes de iniciar a unidade 03**. A nota atual é panorama, não registro de assunto concluído.
 
 ## Relações com outras matérias
 

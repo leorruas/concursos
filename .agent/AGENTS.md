@@ -231,6 +231,12 @@ Legenda padrão:
 
 A legenda é obrigatória mesmo quando a taxonomia já estiver documentada em outro arquivo do vault.
 
+### Registro obrigatório de microtreinos, questões reais e simulados
+
+**Toda questão efetivamente respondida e corrigida, mesmo durante uma aula, entra nos avanços**, de acordo com `AGENTS.md`. Manter categorias separadas: **aprendizagem** (inédita didática), **para valer** (inédita com calibração verificável), **questão real** (enunciado original com caderno, número, banca, cargo, ano e gabarito definitivo), **questão adaptada** (modificações e fonte declaradas) e **simulado** (caderno estruturado com regras próprias). Não converter uma categoria em outra para elevar resultados.
+
+**Checkpoint:** encerramento da microbateria ou solicitação de registro, mesmo com bateria parcial. Salvar ID estável, concurso, matéria, data, modalidade, quantidade respondida válida, acertos, erros, brancos, anuladas, confiança declarada, mecanismos e status parcial/concluído. Atualizar `Avancos.md` local, avanços globais e log diário; criar links no hub e índice se necessário. Em bateria aberta, **somente respostas efetivamente recebidas**, e na retomada **atualizar o mesmo ID sem dupla contagem**. Separar percentuais didáticos de desempenho competitivo e de nota líquida Cebraspe; não inserir baterias curtas em `data/provas.json` como simulados.
+
 ### Rascunhos parciais de simulados
 
 Um simulado ainda em resolução pode ser preservado em `00 - Desempenho/Simulados/Simulado-XX.md` sem contaminar métricas consolidadas. A exceção só vale quando o frontmatter declarar **as duas condições ao mesmo tempo**:

@@ -34,5 +34,26 @@ check(
   markdownWeb.includes('abrirArtigo(dest, true, secao)')
 );
 
+
+// Regressão: em tabelas Markdown do Obsidian, o pipe no alias do wikilink
+// precisa ser escapado para não virar uma nova coluna antes do renderizador.
+const hubAuditoria = fs.readFileSync(
+  path.join(raizRepo, '3 - Materias/Auditoria Governamental/auditoria-governamental.md'),
+  'utf8'
+);
+const linhasMatriz = hubAuditoria.split(/\r?\n/).filter(linha => /^\| (?:0[1-9]|1[0-4]) \|/.test(linha));
+check('matriz de auditoria preserva 14 unidades e quatro colunas', (
+  linhasMatriz.length === 14 &&
+  linhasMatriz.every(linha => (linha.match(/(?<!\\)\|/g) || []).length === 5)
+));
+check('links da matriz usam alias escapado e preservam notas 01 a 04', (
+  ['01 - finalidades e tres linhas', '02 - ciclo de auditoria',
+   '03 - independencia objetividade e sigilo',
+   '04 - proficiencia zelo e ceticismo profissional'
+  ].every(arquivo => linhasMatriz.some(linha => linha.includes(
+    '[[3 - Materias/Auditoria Governamental/' + arquivo + '\\|nota '
+  )))
+));
+
 if (falhas > 0) process.exit(1);
 console.log('SUCESSO: rotas de busca e deep links preservadas.');

@@ -147,6 +147,29 @@ Referências: [CGU, Sistema de Controle Interno](https://www.gov.br/cgu/pt-br/as
 
 A consultoria exige atenção especial ao risco de **autor revisão**: se o auditor assume o desenho e a operação de um controle como gestor, sua avaliação posterior sobre esse controle ficaria comprometida.
 
+### Refinamento: o prazo de 24 meses e as ameaças à objetividade (IN SFC nº 3/2017)
+
+A **independência** está ligada à posição e à autonomia técnica da Unidade de Auditoria Interna Governamental (UAIG); a **objetividade** exige imparcialidade de cada auditor. A organização pode ser independente e, ainda assim, determinado profissional estar impedido ou exposto a viés.
+
+**Regra específica, item 52:** o auditor deve **abster-se de auditar operações específicas com as quais esteve envolvido nos últimos 24 meses**, como gestor ou em razão de vínculos profissionais, comerciais, pessoais, familiares ou de outra natureza, **mesmo quando sua participação anterior foi operacional**. Não transformar essa regra em proibição automática de auditar uma *instituição inteira* em que trabalhou; o texto refere-se às **operações específicas** envolvidas.
+
+**Regra geral, itens 50 e 51:** a objetividade deve ser preservada **de fato e na aparência**; o auditor deve comunicar impedimentos e buscar orientação quando houver dúvida sobre ameaças à objetividade.
+
+**24 meses é prazo mínimo, não presunção absoluta de imparcialidade.** Um auditor que participou da gestão de uma operação há **18 meses** está dentro da vedação. Se deixou essa função há **30 meses**, a vedação temporal do item 52 já não incide por esse fundamento, mas possíveis conflitos, familiaridade, intimidação, autorrevisão ou outros vieses ainda exigem análise. A mera autorização de um supervisor **não afasta a regra expressa dos 24 meses**.
+
+**Consultoria anterior não é igual a gestão anterior, item 53:** uma UAIG pode avaliar operações sobre as quais prestou consultoria, e prestar consultoria sobre operações que já avaliou, desde que a natureza do serviço não prejudique a objetividade e que a designação dos auditores administre os riscos individuais. Trabalhos com prejuízos potenciais à autonomia técnica ou objetividade devem ser recusados. A possibilidade para a **unidade** não torna todo **auditor individual** automaticamente apto.
+
+O **Manual de Orientações Técnicas (MOT)** descreve ameaças como familiaridade, revisão do próprio trabalho, intimidação e conduta tendenciosa. Entre as medidas de proteção estão **rodízio de auditores ou supervisores, composição de equipes com diferentes perspectivas, supervisão atuante, revisão dos papéis de trabalho e avaliação de qualidade**. Nenhuma medida elimina a necessidade de julgar a situação concreta.
+
+**Itens inéditos comentados, Cebraspe:**
+
+- “O auditor que deixou uma função de gestão há 18 meses pode auditar as mesmas operações, desde que declare o vínculo e receba autorização superior.” **Errado:** o item 52 determina a abstenção no período de 24 meses.
+- “Após 30 meses de afastamento, a designação dispensa a análise de ameaças à objetividade.” **Errado:** o fim da restrição temporal não elimina os deveres gerais dos itens 50 e 51.
+
+**Heurística:** *prazo cumprido* não significa *risco ético encerrado*; *consultoria sem assumir a gestão* não equivale a *exercício anterior de gestão*.
+
+**Fontes primárias:** [CGU, Referencial Técnico, IN SFC nº 3/2017, itens 47 a 54](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna); [CGU, MOT, seção 3.4: ameaças e medidas de proteção à objetividade](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
+
 ## Como a FGV ou o Cebraspe podem cobrar
 
 O edital CGU 2026 usa itens de **certo ou errado** do Cebraspe. Mecanismos plausíveis, derivados das fronteiras das normas, são:

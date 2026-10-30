@@ -84,6 +84,26 @@ Essas atividades podem ocorrer na mesma instituição, mas têm **objetos e resp
 
 **Refinamento:** para recomendações decorrentes de **consultoria**, o MOT orienta que eventual monitoramento e sua forma sejam definidos e documentados durante o planejamento, em conjunto com a unidade auditada. Não extrapolar para consultoria uma obrigação automática idêntica à da avaliação.
 
+## Refinamento: o que as questões distinguiram no ciclo de auditoria
+
+**PAINT × planejamento individual × plano de ação da gestão.** O **Plano Anual de Auditoria Interna (PAINT)** organiza os trabalhos priorizados pela UAIG para o período. No **planejamento individual**, a equipe define objetivo, escopo, questões, critérios e programa de testes de **um trabalho específico**. Após recomendações, o **plano de ação da gestão** organiza como os responsáveis implementarão as medidas corretivas. Os três instrumentos respondem a perguntas distintas: *quais trabalhos fazer?*, *como auditar este objeto?* e *como corrigir o problema encontrado?*
+
+**Mudança de escopo × extensão da amostra.** Se a equipe passa de 30 para 50 processos examinados **dentro do período, das unidades e do objeto já definidos**, pode estar apenas ampliando os testes. Se acrescenta novo campus, período ou processo ao objeto examinado, **altera o escopo**. A equipe deve fundamentar, documentar e obter a aprovação adequada aos ajustes relevantes do programa de trabalho. No MOT, seção 4.3, o programa pode ser ajustado mediante anuência do supervisor.
+
+**Implementação × efetividade.** A gestão pode demonstrar que instalou um controle, mas a auditoria ainda precisa avaliar, conforme o risco, se o controle solucionou a fragilidade: **adotar uma medida não prova que ela funciona**. O monitoramento pode incluir novos testes proporcionais ao risco, sem repetir necessariamente toda a auditoria original.
+
+**Avaliação com recomendação × consultoria.** Uma auditoria de **avaliação** pode identificar falhas, recomendar ações e acompanhar sua implementação **sem mudar de modalidade**. Uma **consultoria** é um serviço específico de aconselhamento, assessoramento, treinamento ou facilitação, tipicamente acordado com a gestão. O critério decisivo é a **finalidade do serviço**, não a presença da palavra “recomendação” nem a técnica usada.
+
+**Responsabilidade pela correção.** A UAIG recomenda e monitora; **a gestão decide e implementa** as providências. A eventual consultoria prestada pela UAIG não transfere a ela as atribuições administrativas do gestor.
+
+**Itens inéditos comentados, Cebraspe:**
+
+- “Ampliar uma amostra sem modificar as unidades, o período ou o objeto altera necessariamente o escopo.” **Errado:** pode ser ajuste na extensão dos testes; a palavra *necessariamente* torna a afirmação falsa.
+- “A simples comprovação de que uma recomendação foi implementada demonstra, em qualquer situação, que o problema foi solucionado.” **Errado:** a efetividade pode depender de nova verificação.
+- “A formulação de recomendações em uma avaliação transforma o trabalho em consultoria.” **Errado:** recomendação é compatível com serviço de avaliação.
+
+**Conexão de revisão:** [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas#Refinamento: o prazo de 24 meses e as ameaças à objetividade (IN SFC nº 3/2017)|Objetividade e impedimentos dos auditores]].
+
 ## Relações com outros temas
 
 - [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|Finalidades, três linhas e independência]]: a equipe de auditoria atua como terceira linha; a gestão continua responsável pelos controles e por implementar as recomendações.

@@ -15,6 +15,7 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 - [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|01. Finalidades da auditoria e modelo das três linhas]]: avaliação, consultoria, apuração, responsabilidades, independência e fronteiras entre categorias.
 - [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|02. Ciclo de auditoria: planejamento, execução, comunicação e monitoramento]]: prioridades e risco, plano anual versus trabalho individual, evidências, achados, recomendações e responsáveis.
 - [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|03. Independência, objetividade, impedimentos e sigilo]]: normas 45 a 58, salvaguardas, supervisão, exemplos comparados e erros de treino.
+- [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|04. Proficiência, zelo, ceticismo e especialistas]]: itens 59 a 68; capacidade coletiva/individual, segurança razoável e limites do julgamento.
 
 - [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]]: resultados separados por modalidade, erros e revisão.
 
@@ -22,12 +23,12 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 
 **Recorte do edital:** P2, item **5. Fundamentos de auditoria governamental e atuação integrada da CGU**; P3, item **1. Auditoria governamental: avaliação, consultoria e apuração**. O roteiro abaixo organiza esses subitens em **unidades de conhecimento**. As outras frentes da P3, como orçamento e contabilidade, avaliação de políticas, contratações, transferências e responsabilização, exigem seus próprios roteiros de matéria e não devem desaparecer dentro desta disciplina.
 
-**Diagnóstico da cobertura atual:** as notas 01 e 02 oferecem panoramas iniciais. A [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|nota 03]] consolidou o estudo e os testes dos itens 45 a 58 do Referencial Técnico. **Ainda faltam proficiência, competências, zelo e ceticismo em profundidade** para fechar a unidade 02. Os demais tópicos permanecem conforme as lacunas da matriz.
+**Diagnóstico da cobertura atual:** as notas 01 e 02 oferecem panoramas iniciais. A [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|nota 03]] consolidou o estudo e os testes dos itens 45 a 58 do Referencial Técnico. **A unidade 02 está consolidada em duas notas canônicas**, com aulas, fronteiras e treinos concluídos. Persistem dois erros conceituais da parte A para revisão aplicada. Os demais tópicos permanecem conforme as lacunas da matriz.
 
 | Ordem | Unidade de aprofundamento | Conteúdos que precisam ser ensinados e discriminados | Situação |
 | :--- | :--- | :--- | :--- |
 | 01 | **Estrutura da auditoria pública e serviços** | CGU/SFC, Audin, Sistema de Controle Interno, controle externo; avaliação × consultoria × apuração, competências, objetos e limites | Panorama na nota 01; **aprofundar** |
-| 02 | **Independência, objetividade, ética e ceticismo** | Autonomia da UAIG; conflito, ameaças, salvaguardas, regra dos 24 meses, consultoria × gestão; supervisão; sigilo/comunicação (55 a 58); **proficiência, zelo e ceticismo (59+)** | **Parte A consolidada na nota 03:** independência, objetividade, sigilo, supervisão e fronteiras; **parte B pendente:** proficiência, zelo e ceticismo em profundidade |
+| 02 | **Independência, objetividade, ética e ceticismo** | Autonomia da UAIG; conflito, ameaças, salvaguardas, regra dos 24 meses, consultoria × gestão; supervisão; sigilo/comunicação (55 a 58); **proficiência, zelo e ceticismo (59+)** | **Parte A consolidada na nota 03:** independência, objetividade, sigilo, supervisão e fronteiras; **parte B consolidada:** [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|nota 04]], itens 59 a 68, com 3/3 na aprendizagem e 5/5 para valer |
 | 03 | **Governança, riscos, controles e três linhas** | Objetivos organizacionais, identificação e avaliação de riscos, desenho × operação de controles, papéis da gestão e auditoria, responsabilidades que não podem migrar | Modelo introdutório na nota 01; **aprofundar** |
 | 04 | **Planejamento da UAIG baseado em riscos** | Universo auditável, fatores de risco e materialidade, escolha e priorização de objetos, recursos, PAINT e RAINT, diferença entre plano anual e auditoria específica | Panorama na nota 02; **aprofundar** |
 | 05 | **Planejamento individual e desenho da auditoria** | Objetivo, objeto, escopo, critérios, questões/subquestões, matriz de planejamento, programa de trabalho, risco de auditoria, supervisão, alterações justificadas | Panorama na nota 02; **aprofundar** |
@@ -51,12 +52,12 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 
 ### Ponto de retomada da unidade 02
 
-**30/10/2026:** a parte B (proficiência, zelo e ceticismo, itens 59 a 68) já teve aula e fronteiras, treino de aprendizagem **3/3** e treino para valer **1/1 respondido**, com quatro questões ainda pendentes. Retomar a partir da **questão 2/5** e consolidar a teoria ao encerrar. Histórico: [[3 - Materias/Auditoria Governamental/Avancos|Avanços da disciplina]].
+**30/10/2026, unidade 02 concluída:** a parte B (proficiência, zelo e ceticismo, itens 59 a 68) teve aula, fronteiras, aprendizagem **3/3**, treino para valer **5/5** e consolidação na [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|nota 04]]. Total da unidade: **6/6 em aprendizagem** e **8/10 para valer**, com dois erros conceituais na parte A. Próximo bloco: **unidade 03, governança, riscos e controles**. Histórico: [[3 - Materias/Auditoria Governamental/Avancos|Avanços da disciplina]].
 
 
 **Etapa concluída para a parte A:** aula, comparação de fronteiras, três itens didáticos sobre sigilo (3/3), cinco itens inéditos de aproximação à prova (3/5) e consolidação na [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|nota 03]]. Os erros no treino para valer envolveram conflitos de interesses sem irregularidade consumada e o limite institucional entre consultoria e gestão. O resultado é **parcial, sem validade de simulado ou certificação de domínio**.
 
-**Próximo conteúdo a ensinar, antes de considerar a unidade 02 fechada:** **proficiência, competências individuais e coletivas, necessidade de especialistas, zelo profissional e ceticismo profissional**, a partir dos itens 59 e seguintes da IN SFC nº 3/2017, com casos comparativos e testes identificados por modalidade. A documentação e supervisão detalhadas retornam nas unidades 06 e 12. Consolidar essa parte antes de iniciar a unidade 03.
+**Próximo conteúdo:** unidade 03, governança, riscos, controles e três linhas. Revisar os erros de conflitos de interesses e de responsabilidade gerencial em novos contextos. A documentação e a supervisão detalhadas retornam nas unidades 06 e 12.
 
 ## Relações com outras matérias
 

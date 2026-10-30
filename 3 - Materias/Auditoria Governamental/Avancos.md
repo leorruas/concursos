@@ -10,6 +10,8 @@ updated: 2026-10-30
 
 Registro das questões respondidas na preparação para a **Controladoria-Geral da União (CGU) 2026**, especialidade Auditoria. Questões **inéditas** em formato certo/errado do Cebraspe; os exercícios de **aprendizagem** e **para valer** têm finalidades distintas. Nesta sessão, **questões reais originais = 0; questões adaptadas = 0; simulados completos = 0**.
 
+**Registro estruturado:** `data/questoes-ledger.json`, com identificação individual dos 12 itens, modalidade `aprendizagem` ou `para_valer`, respostas, gabaritos, correção, fontes de revisão e status de microtreino parcial.
+
 **ID da sessão:** `cgu-2026-auditoria-2026-10-30-unidade02`. Nas próximas correções, atualizar esta mesma sessão para impedir dupla contagem.
 
 ## Volume diário de exercícios

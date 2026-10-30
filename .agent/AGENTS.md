@@ -71,6 +71,20 @@ Esse documento é a régua canônica para artigos de estudo. Prompts específico
 
 Para qualquer tarefa em `3 - Materias/Atualidades/`, aplicar também a seção **Extensão editorial para Atualidades** do padrão editorial. Antes de criar ou atualizar conteúdo, ler o hub `[[3 - Materias/Atualidades/atualidades|Atualidades]]`, os artigos existentes, o edital ativo pertinente e os registros de desempenho/erros relacionados. Informações conjunturais exigem pesquisa web e prioridade para fontes oficiais primárias; fundamentos estáveis e snapshots conjunturais devem permanecer explicitamente separados.
 
+### Questões: declaração prévia de modalidade e evidência de calibração
+
+O estudante deve ser informado **antes do enunciado**, sempre que o treino tiver finalidade diferente:
+
+**Treino de aprendizagem:** checagem de conceito e raciocínio após a aula, com questões inéditas didáticas. Formato C/E ou alternativas pode ser usado sem que isso implique semelhança comprovada com a prova. Registrar dúvidas e erros para corrigir teoria; não computar esse resultado como benchmark ou domínio do edital.
+
+**Treino para valer:** questão inédita de prova-espelho com **mecanismo, exigência de leitura, escopo, nível de detalhe, extensão e dificuldade comparados a itens reais previamente examinados** do mesmo formato da banca; priorizar concursos e assuntos similares. Declarar quais provas ou itens foram usados como referência, sem fingir análise de corpus não efetuada. Avaliar erros, confiança e variação de mecanismo. Bateria calibrada indica desempenho apenas no recorte examinado, **não gera estimativa automática da nota integral**.
+
+**Questão real:** usar somente o caderno autêntico e o gabarito definitivo associado a concurso, cargo, banca, ano, item original e tipo de prova. Conferir anulações e validade normativa. Se houver adaptação do texto, identificar como **questão adaptada**, sem atribuir à adaptação o gabarito oficial.
+
+**Simulado para valer:** reproduzir distribuição, dificuldade, pontuação e tempo da prova e seguir protocolo de ledger e registro do concurso. Uma questão ou bateria avulsa não é um simulado.
+
+A modalidade deve constar na **abertura da bateria ou antes de cada item isolado**, e novamente se houver transição. No intensivão, a sequência pode partir de treino de aprendizagem e avançar para treino para valer **após calibração verificável**. Se faltar evidência suficiente, manter a classificação didática, sem alegar validade preditiva. Avisar antecipadamente, sem exigir confirmação do aluno e sem confundir resultado didático com métrica competitiva.
+
 ### Protocolo para o intensivão de matérias
 
 **Gatilho e prioridade:** vale para pedidos de estudo, explicação, avanço em conteúdo e aprofundamento. A banca, o cargo e as fontes do edital ativo determinam a profundidade. **Para CGU 2026/Auditoria**, ler e seguir `2 - Editais/CGU 2026 - Auditoria.md`, com atenção aos itens de **P2 (fundamentos)** e **P3 (específicos)**, ao MOT/Referencial Técnico e ao corpus de provas-espelho. Revisão e simulado solicitado explicitamente seguem seus protocolos próprios.

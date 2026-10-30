@@ -12,6 +12,16 @@ A técnica de Feynman serve **para explicar**: partir de um problema concreto, u
 
 **Não criar na nota seções automáticas como “Verificação de compreensão (Feynman)”**, convites para o leitor explicar com as próprias palavras nem questionários metacognitivos. A interação para verificar o entendimento, identificar confusões e corrigir o raciocínio ocorre **no chat**, a partir das respostas reais do estudante. Na wiki, preservar a explicação, as fronteiras conceituais e, quando relevantes, **itens comentados em formato de prova**, que são outra finalidade. Não registrar domínio ou erro sem resposta efetivamente dada.
 
+## Identificação das questões: aprendizagem e para valer
+
+**Antes de apresentar qualquer questão ou bateria no chat**, rotular explicitamente sua função. Usar três modalidades:
+
+- **Treino de aprendizagem:** questão inédita, didática, destinada a verificar entendimento e encontrar lacunas. Pode ter formato C/E do Cebraspe sem imitar fielmente sua dificuldade. Seus acertos **não medem prontidão para a prova**.
+- **Treino para valer:** questão inédita **calibrada por leitura e comparação efetiva com itens reais identificáveis** da banca, do mesmo formato e, sempre que possível, da mesma área. Informar a fonte da calibração. Uma bateria calibrada é diagnóstico parcial; **não equivale a simulado integral**.
+- **Questão real da banca:** item efetivamente encontrado em caderno oficial, com concurso, cargo, ano, número/tipo, e gabarito definitivo conferido. Se adaptado ou parafraseado, rotular como **adaptado**, não como questão real transcrita.
+
+**Não chamar de “para valer” um item apenas porque tem o formato C/E, usa termos jurídicos ou parece difícil.** Sem base empírica documentada, o rótulo será “Treino de aprendizagem”. Avisar **antes do item** e sempre que mudar a modalidade, sem esperar que o usuário pergunte. Na correção, diferenciar diagnóstico de compreensão e diagnóstico de desempenho. Acertos avulsos não demonstram domínio de uma unidade do edital.
+
 ## Modo intensivão: profundidade e cobertura antes de avançar
 
 Quando o pedido for **aprender matéria nova, aprofundar conteúdo ou fazer um intensivão**, a tarefa principal é **ensinar o assunto com densidade suficiente para o edital**, e não produzir rapidamente uma nota ou uma sequência de questões. Aplicar o protocolo detalhado de `.agent/AGENTS.md` e a régua de cobertura de [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]].

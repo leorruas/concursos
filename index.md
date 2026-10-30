@@ -55,6 +55,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|02 • Ciclo de auditoria]]
   - [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|03 • Independência, objetividade e sigilo]]
   - [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|04 • Proficiência, zelo e ceticismo]]
+  - [[3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas|05 • Governança, riscos e controles]]
   - [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]]
 - [[3 - Materias/Estrategia de Prova/estrategia-de-prova|Estratégia de prova]]
   - [[3 - Materias/Estrategia de Prova/FGV - Dataprev e corpus de Comunicacao|FGV: Dataprev e corpus de Comunicação]]

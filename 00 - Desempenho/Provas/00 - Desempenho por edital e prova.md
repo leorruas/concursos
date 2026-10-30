@@ -16,7 +16,7 @@ Este hub separa três medidas que não devem ser misturadas: **aproveitamento br
 
 **Corpus fonte de exercícios:** [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|CGU 2026 — Provas-espelho: conteúdo × formato]], com PDFs oficiais, estados de verificação, gabaritos e protocolo de indexação em `data/corpus-provas-espelho.json`. Prova localizada não é simulado realizado.
 
-**Sem prova, simulado ou discursiva CGU integral até 30/10/2026.** Há microtreinos em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]: **16 itens válidos, 14 acertos**, divididos em **aprendizagem 6/6** e **para valer 8/10**, bateria concluída. Eles não equivalem a nota líquida ou prontidão de prova. As 16 respostas estão individualizadas no ledger por modalidade, sem lançamento como simulado. Manter Dataprev/FGV e Câmara/Cebraspe separados.
+**Sem prova, simulado ou discursiva CGU integral até 30/10/2026.** Há microtreinos em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]: **24 itens válidos, 20 acertos**, divididos em **aprendizagem 8/9** e **para valer 12/15**, unidades 02 e 03 concluídas; houve uma questão anulada e substituída, excluída da pontuação. Eles não equivalem a nota líquida ou prontidão de prova. Os 25 enunciados respondidos (24 válidos, 1 anulado) estão individualizados no ledger por modalidade, sem lançamento como simulado. Manter Dataprev/FGV e Câmara/Cebraspe separados.
 
 | Prova | Itens | Acerto / erro / branco | Máximo | Mínimo eliminatório |
 | :--- | ---: | :--- | ---: | ---: |

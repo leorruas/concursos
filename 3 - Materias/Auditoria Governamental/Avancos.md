@@ -8,23 +8,23 @@ updated: 2026-10-30
 
 # Avanços e desempenho (Auditoria governamental)
 
-Registro das questões respondidas na preparação para a **Controladoria-Geral da União (CGU) 2026**, especialidade Auditoria. Questões **inéditas** em formato certo/errado do Cebraspe; os exercícios de **aprendizagem** e **para valer** têm finalidades distintas. Nesta sessão, **questões reais originais = 0; questões adaptadas = 0; simulados completos = 0**.
+Registro das questões respondidas na preparação para a **Controladoria-Geral da União (CGU) 2026**, especialidade Auditoria. Questões **inéditas** em formato certo/errado do Cebraspe; os exercícios de **aprendizagem** e **para valer** têm finalidades distintas. Neste histórico, **questões reais originais = 0; questões adaptadas = 0; simulados completos = 0**.
 
-**Registro estruturado:** `data/questoes-ledger.json`, com identificação individual dos 16 itens, modalidade `aprendizagem` ou `para_valer`, respostas, gabaritos, correção, fontes de revisão e status de microtreino parcial.
+**Registro estruturado:** `data/questoes-ledger.json`, com identificação individual de **25 enunciados respondidos**, sendo **24 válidos e um anulado**, modalidade `aprendizagem` ou `para_valer`, respostas, gabaritos, correção, fontes de revisão e status de cada microtreino.
 
-**ID da sessão:** `cgu-2026-auditoria-2026-10-30-unidade02`. Nas próximas correções, atualizar esta mesma sessão para impedir dupla contagem. **Ledger individual dos 16 itens sincronizado com os painéis globais e o registro do edital.**
+**Sessões únicas:** `cgu-2026-auditoria-2026-10-30-unidade02` (16 itens válidos) e `cgu-2026-auditoria-2026-10-30-unidade03` (oito válidos e um anulado). Atualizar a sessão correspondente nos próximos treinos, sem dupla contagem. Ledger individual sincronizado com os painéis globais e por edital.
 
 ## Volume diário de exercícios
 
 | Data | Total válido | Matéria / Concurso | Detalhamento |
 | :--- | ---: | :--- | :--- |
-| 30/10/2026 | **16** | Auditoria Governamental, CGU 2026 | Parte A: aprendizagem **3/3**, para valer **3/5**. Parte B: aprendizagem **3/3**, para valer **5/5**, bateria concluída. Total **14/16**. |
+| 30/10/2026 | **24** | Auditoria Governamental, CGU 2026 | Unidade 02: aprendizagem **6/6**, para valer **8/10**, total **14/16**. Unidade 03: aprendizagem **2/3**, para valer **4/5**, total **6/8**; **uma questão anulada e substituída, excluída**. Total diário válido **20/24**. |
 
 ## Aproveitamento semanal
 
 | Semana | Volume | Aprendizagem | Para valer | Total |
 | :--- | ---: | :--- | :--- | :--- |
-| 26/10 a 01/11/2026 | **16** | **6/6 (100%)** | **8/10 (80,0%)** | **14/16 (87,5%)**, amostra insuficiente |
+| 26/10 a 01/11/2026 | **24** | **8/9 (88,9%)** | **12/15 (80,0%)** | **20/24 (83,3%)**, amostra insuficiente; 1 anulação adicional |
 
 ## Diagnósticos
 
@@ -32,8 +32,14 @@ Registro das questões respondidas na preparação para a **Controladoria-Geral 
 
 **Parte B: proficiência, zelo e ceticismo.** Aprendizagem **3/3**: supervisão de especialistas, proficiência individual e coletiva e divergências relevantes. Treino para valer **5/5**, encerrado: Q1 ceticismo e peso das evidências; Q2 segurança razoável e fraude descoberta posteriormente (acerto com justificativa sobre limitações de eficácia); Q3 conhecimentos periciais e proficiência coletiva; Q4 zelo também em consultoria; Q5 competência técnica do especialista × ameaça à objetividade por autorrevisão. Sem erro nesta parte. O resultado demonstra compreensão dos contrastes cobrados, mas a amostra não é suficiente para prever desempenho em prova.
 
+**Unidade 03: governança, gestão de riscos, controles e três linhas.** Aprendizagem **2/3**: Q1 acerto ao distinguir monitoramento especializado de terceira linha; Q2 erro ao classificar tanto a decisão de tratamento quanto a implantação de verificações como resposta a riscos, embora a norma separe **resposta (art. 16, V)** e **atividades de controles (VI)**; Q3 acerto na distinção entre desenho e operação. Treino para valer **4/5**: Q1 acerto em conciliação detectiva e monitoramento na segunda linha; Q2 erro ao supor que a ausência de comprovação de eficácia exige classificar o risco como inerente, apesar de sua definição como **residual após a implantação das medidas**; Q3 original **anulada por ambiguidade do enunciado** (a autoridade para orientar e acompanhar foi confundida com executar controles pessoalmente); Q3 substituta **certa**, sobre alçada do gestor de risco (art. 20); Q4 **certa**, sobre monitoramento pela primeira linha; Q5 **certa**, sobre aceitação de risco residual com acompanhamento. **Erros válidos classificados como confusão conceitual (C)**; a anulada não é erro do candidato e não entra no aproveitamento. Consolidação: [[3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas#Estrutura interna: oito componentes da gestão de riscos (art. 16)|Resposta a riscos × controles]] e [[3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas#Núcleo do conceito|Risco inerente × residual]].
+
+## Ajustes a partir dos erros
+
+Revisar, com **casos novos**, a transição *decisão de tratar → procedimento de controle* (art. 16, V e VI) e a distinção *risco inerente → exposição residual após tratamento*. Nos próximos exercícios, evitar deduzir uma categoria pela finalidade compartilhada e conferir a **condição normativa**. Como controle de qualidade do instrumento, a questão original sobre designação de gestor de risco foi anulada e substituída por enunciado inequívoco, mantendo registro de ambas sem duplicar o aproveitamento.
+
 ## Limites da medição
 
-Há **16 itens válidos nos últimos 30 dias**, amostragem insuficiente para interpretar o aproveitamento como desempenho estável. Os totais por modalidade devem permanecer separados; a soma **14/16 (87,5%)** serve somente para volume e histórico, **não projeta nota líquida do Cebraspe**. Não houve questão anulada ou deixada em branco nesse conjunto.
+Há **24 itens válidos nos últimos 30 dias**, além de **uma questão anulada e substituída**, amostragem insuficiente para interpretar o aproveitamento como desempenho estável. Os totais por modalidade devem permanecer separados; a soma **20/24 (83,3%)** serve somente para volume e histórico, **não projeta nota líquida do Cebraspe**. Na unidade 02 não houve anulação; a unidade 03 teve uma questão anulada e substituída, ambas individualizadas no ledger, com apenas a substituta no cálculo.
 
-**Unidade 02 concluída didaticamente e consolidada em teoria:** partes A e B. Revisar os dois erros conceituais da parte A em uma nova aplicação, sem repetir mecanicamente os enunciados. Retomar a unidade 03: governança, riscos, controles e três linhas, após verificar o mapa da matéria. Nota canônica: [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|Proficiência, zelo e ceticismo]].
+**Unidades 02 e 03 concluídas didaticamente e consolidadas em teoria.** Unidade 03 documentada em [[3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas|Governança, riscos, controles e três linhas]]. Retomar os quatro erros conceituais das duas unidades em novos casos, sem repetição mecânica. Próximo conteúdo no roteiro: **unidade 04, planejamento da auditoria interna governamental baseado em riscos**.

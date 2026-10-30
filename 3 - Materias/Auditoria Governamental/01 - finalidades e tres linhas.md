@@ -194,6 +194,23 @@ Esses são exemplos de mecanismos possíveis; não representam frequência medid
 - [[3 - Materias/Auditoria Governamental/auditoria-governamental#Sequência de estudo|Ciclo e técnicas de auditoria]]: etapas e instrumentos que serão estudados nas próximas notas.
 - [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E#Fronteiras que rendem pontuação|Distinções para a prova discursiva]].
 
+
+### Nova conexão: Lei de Acesso à Informação, resultados de auditoria e controle social
+
+A **Lei de Acesso à Informação (LAI), Lei nº 12.527/2011**, garante, no **art. 7º, VII, b**, acesso a informações sobre os **resultados de inspeções, auditorias, prestações e tomadas de contas** realizadas por órgãos de controle interno e externo, inclusive relativas a exercícios anteriores. A LAI permite que a sociedade conheça conclusões e acompanhe providências. Essa participação é **controle social**, não transforma o cidadão em órgão de auditoria e não desloca as competências da **Controladoria-Geral da União (CGU)**, do **Tribunal de Contas da União (TCU)** ou das unidades de auditoria interna.
+
+**Fronteira 1: resultado × documentação de auditoria.** O direito de conhecer resultados não equivale a acesso irrestrito a cada papel de trabalho, base de dados ou informação pessoal utilizada nos exames. Também não torna os papéis de trabalho automaticamente sigilosos: o acesso deve ser examinado conforme a legislação. Se apenas parte estiver legitimamente protegida, a **LAI, art. 7º, § 2º**, assegura a parte não sigilosa com ocultação do trecho restrito.
+
+**Fronteira 2: pedido pela LAI × requisição funcional.** O cidadão pode buscar informação já divulgada (**transparência ativa**) ou formular pedido (**transparência passiva**), sem precisar justificar a finalidade. O auditor governamental, por sua vez, obtém acesso a documentos e sistemas no exercício de competências institucionais, conforme o **item 144 do Referencial Técnico da Atividade de Auditoria Interna Governamental (Instrução Normativa da Secretaria Federal de Controle Interno nº 3/2017)**. Sua atuação não depende de um pedido cidadão pela LAI.
+
+**Exemplo comentado:** após uma auditoria de programa de bolsas, alguém obtém o relatório, compara valores pagos com o regulamento e comunica possível inconsistência à ouvidoria ou ao órgão de controle. Esse exame constitui exercício de **controle social**; a avaliação formal dos achados e os encaminhamentos institucionais permanecem com as autoridades competentes.
+
+**Pegadinha de prova:** trocar o **direito de acesso ao resultado** por uma suposta **obrigação de liberar integralmente todos os documentos de auditoria**; ou chamar a fiscalização realizada por cidadãos de **controle externo constitucional**.
+
+**Relações:** [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao#Nova conexão: LAI e auditoria governamental|LAI e resultados de auditoria]] e [[3 - Materias/Direito Administrativo/11 - controle da administracao publica#Controle social|Controle social]].
+
+**Fontes:** [Lei nº 12.527/2011, arts. 3º, V, e 7º, VII, b, e § 2º](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm); [CGU, Referencial Técnico, item 144](https://repositorio.cgu.gov.br/bitstream/1/33409/19/Instrucao_Normativa_CGU_3_2017.pdf).
+
 ## Tensões e pegadinhas
 
 **Avaliação × apuração:** ambas podem examinar documentos, entrevistar envolvidos e descobrir irregularidades. O objetivo inicial é o melhor critério de diferenciação.

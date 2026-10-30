@@ -156,6 +156,19 @@ A própria LAI fornece fundamento mais preciso para a preocupação prática: ex
 > [!TIP]
 > Para prova, prefira citar os requisitos concretos da LAI em vez de tratar “publicidade material” como instituto legal autônomo.
 
+
+## Nova conexão: LAI e auditoria governamental
+
+A **Lei de Acesso à Informação (LAI)** atua como instrumento do **controle social** ao permitir que a sociedade acompanhe o resultado das atividades de fiscalização. Pelo **art. 7º, VII, b, da Lei nº 12.527/2011**, o direito de obter informação abrange resultados de inspeções, auditorias, prestações e tomadas de contas de órgãos de controle interno e externo, inclusive de exercícios anteriores.
+
+**Resultado de auditoria × papéis de trabalho:** a garantia legal de acesso ao resultado não autoriza presumir divulgação integral de cada documento utilizado pelos auditores; tampouco justifica classificar todos eles como sigilosos. Dados pessoais e outras informações com restrição legal exigem análise específica, garantindo-se acesso parcial quando aplicável (**art. 7º, § 2º**).
+
+**Participação social × competência de auditoria:** o cidadão pode examinar um relatório publicado, formular pedido de acesso e apontar indícios de irregularidade. Esse exercício é **controle social**. A atividade de auditoria governamental continua vinculada às competências e aos procedimentos dos órgãos de controle. A requisição de documentos pelos auditores, no exercício do cargo, decorre de seus poderes institucionais, não da condição de solicitantes comuns da LAI.
+
+**Como a banca pode cobrar:** afirmar que a LAI torna o cidadão responsável pelo controle externo constitucional, ou que o direito ao resultado de auditoria elimina qualquer restrição legal à divulgação de documentos de suporte, constitui transposição indevida de conceitos.
+
+Ver [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas#Nova conexão: Lei de Acesso à Informação, resultados de auditoria e controle social|Auditoria e acesso aos resultados]] e [[3 - Materias/Direito Administrativo/11 - controle da administracao publica#Controle social|Controle social]].
+
 ## Como a banca cobra
 
 - **Legalidade × eficiência**: usa eficiência para justificar atuação sem base jurídica.

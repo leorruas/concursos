@@ -8,11 +8,53 @@ updated: 2026-10-30
 
 # Finalidades da auditoria governamental e modelo das três linhas
 
+## Refinamento: duas classificações que se cruzam
+
+### Primeiro, o problema que o modelo tenta resolver (explicação Feynman)
+
+Imagine um órgão federal que concede bolsas de permanência estudantil. Dinheiro pode ser pago a uma pessoa que não atende aos critérios. **Quem deve impedir isso? Quem verifica se a prevenção está funcionando? E quem avalia, com independência, se o conjunto é confiável?**
+
+O **Modelo das Três Linhas** organiza responsabilidades em torno desse problema. O setor que concede a bolsa confere documentos, decide e mantém controles: **primeira linha**. A área especializada em riscos ou conformidade orienta e acompanha se esses controles são adequados: **segunda linha**. A auditoria interna examina com independência as fragilidades das duas anteriores: **terceira linha**.
+
+O modelo diz **quem faz qual papel na governança e na gestão dos riscos**, não quais procedimentos devem compor cada auditoria. Ele também é aplicável a organizações privadas.
+
+### De onde veio e por que aparece na CGU?
+
+O modelo foi desenvolvido e difundido pelo **Institute of Internal Auditors (IIA)**, o Instituto dos Auditores Internos. Evoluiu do antigo modelo das **Três Linhas de Defesa**, com ênfase ampliada em colaboração, responsabilidades de gestão, governança e avaliação independente. O IIA atualizou seu posicionamento também em 2026.
+
+O Poder Executivo federal brasileiro **incorporou a abordagem** à gestão de riscos e controles internos, especialmente pela **Instrução Normativa Conjunta MP/CGU nº 1/2016**, que descreve a auditoria interna como terceira linha. A CGU utiliza e orienta sua aplicação, mas **não criou o modelo**.
+
+No **Sistema de Controle Interno do Poder Executivo Federal**, a **Secretaria Federal de Controle Interno da CGU** atua como órgão central da atividade de auditoria interna governamental, situada na terceira linha; outras unidades de auditoria também cumprem esse papel. A CGU, considerada como instituição inteira, tem diversas outras competências, como ouvidoria, correição e integridade. **Não classificar toda atividade da CGU como terceira linha nem toda atuação da CGU como serviço de auditoria.**
+
+### Em que ponto entram avaliação, consultoria e apuração?
+
+Agora usamos uma **segunda classificação**, referente aos serviços que a função de auditoria interna presta. Para o mesmo programa de bolsas, a equipe de auditoria, exercendo seu **papel de terceira linha**, pode:
+
+- **Avaliar:** examinar concessões e controles, obtendo evidências para concluir se as regras estão sendo cumpridas.
+- **Prestar consultoria:** orientar a gestão na identificação de riscos e no aperfeiçoamento de controles, **sem decidir ou executar por ela**.
+- **Apurar:** investigar indícios concretos de pagamentos irregulares e documentar os fatos para os encaminhamentos cabíveis.
+
+**Ligação lógica:** as três linhas classificam **papéis e responsabilidades na organização**; avaliação, consultoria e apuração classificam **modalidades de trabalho da auditoria interna**. As três modalidades podem ocorrer no exercício do papel de terceira linha. **Não existe correspondência “primeira linha = avaliação, segunda = consultoria, terceira = apuração”.**
+
+### Verificação de compreensão (Feynman)
+
+Explique com suas próprias palavras, sem usar os termos “primeira”, “segunda” e “terceira linha”: *quem paga a bolsa, quem ajuda a supervisionar os riscos e quem examina com independência se os controles estão funcionando?* Depois, explique por que o auditor pode **prestar consultoria** sem deixar de pertencer à **terceira linha**.
+
+Se a explicação atribuir a implantação ou a execução dos controles ao auditor, a fronteira conceitual ainda precisa de revisão.
+
+### Ponto de prova do Cebraspe
+
+**Item inédito (C/E):** “Como a CGU realiza avaliações, consultorias e apurações, cada um desses três serviços corresponde, respectivamente, a uma linha do modelo de governança adotado pelo Poder Executivo federal.”
+
+**Errado.** O enunciado mistura dois critérios de classificação: linhas organizacionais e modalidades de serviço. A auditoria interna exerce papel de terceira linha e pode executar os três serviços sem migrar de linha.
+
+**Fontes:** [IIA, Modelo das Três Linhas](https://www.theiia.org/en/resources/statements-of-position/); [IN Conjunta MP/CGU nº 1/2016, texto disponibilizado pela CGU](https://wiki.cgu.gov.br/index.php?title=Instru%C3%A7%C3%A3o_Normativa_Conjunta_MP-CGU_n%C2%BA_01%2C_de_10_de_maio_de_2016); [CGU, Sistema de Controle Interno](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/sistema-de-controle-interno); [CGU, Serviços de Auditoria](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/uaig/perguntas-frequentes).
+
 ## Núcleo do conceito
 
 A **auditoria interna governamental** é uma atividade independente e objetiva que contribui para o aperfeiçoamento de governança, gerenciamento de riscos e controles internos. Adota abordagem sistemática e disciplinada para agregar valor à atuação pública.
 
-Na Controladoria-Geral da União (CGU), as modalidades de serviço incluem **avaliação, consultoria e apuração**. Sua classificação exige atenção à finalidade do trabalho, e não apenas à técnica utilizada. Análise documental, entrevista e exame de controles podem aparecer em mais de uma modalidade.
+No exercício da atividade de auditoria interna governamental, a Controladoria-Geral da União (CGU) realiza serviços de **avaliação, consultoria e apuração**. Sua classificação exige atenção à finalidade do trabalho, e não apenas à técnica utilizada. Análise documental, entrevista e exame de controles podem aparecer em mais de uma modalidade.
 
 A referência técnica é o **Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal**, aprovado pela Instrução Normativa (IN) SFC nº 3/2017, complementado pelo **Manual de Orientações Técnicas (MOT)**, aprovado pela IN SFC nº 8/2017, e pelas orientações práticas aplicáveis.
 

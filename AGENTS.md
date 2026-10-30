@@ -62,6 +62,19 @@ Antes de encerrar a operação, execute as validações disponíveis, incluindo 
 O contrato completo de mudança e publicação está em `1 - Planejamento/Contrato transacional de mudancas.md` e `1 - Planejamento/Contrato de publicacao GitHub Pages.md`.
 
 
+## Registro obrigatório de todas as questões respondidas
+
+**Toda questão respondida e corrigida no chat precisa ser registrada**, inclusive itens avulsos, questões de aula e baterias incompletas. Em cada checkpoint (fim de bloco ou pedido do estudante), atualizar `Avancos.md` da disciplina, `00 - Desempenho/00 Avancos globais.md` e `00 - Desempenho/01 Log de saturacao diaria.md`; criar e indexar `Avancos.md` caso não exista. **Não esperar por um simulado completo.** Registrar separadamente concurso, disciplina, data, ID estável da sessão, itens respondidos válidos, acertos, erros, brancos, questões anuladas, dúvidas, diagnóstico e estágio parcial/concluído. Na retomada, atualizar a **mesma sessão sem duplicar contagens**.
+
+**Modalidades obrigatoriamente separadas nas métricas:**
+- **Treino de aprendizagem:** questão inédita didática. Serve para medir compreensão, não previsão de nota.
+- **Treino para valer:** questão inédita calibrada com provas reais identificadas. Registrar a fonte da calibração; não é questão real.
+- **Questão real:** item original de prova, com banca, ano, concurso, cargo, caderno, número e gabarito definitivo verificado.
+- **Questão adaptada:** derivada de item real, com mudanças declaradas e fonte; não contabilizar como item original.
+- **Simulado:** avaliação estruturada e concluída; usar protocolo específico de pontuação, ledger e propagação.
+
+**Não contabilizar enunciados apenas apresentados, ainda não respondidos, inválidos ou anulados** como acertos/erros. O volume total pode ser agregado somente com modalidade, origem e concurso identificados; manter taxas separadas e amostragem insuficiente abaixo de 50 questões. **Microbateria não vira simulado em `data/provas.json` nem produz nota líquida oficial.** No fim de uma bateria, atualizar os indicadores de 30 dias e semana, e conferir a consistência local/global e o deploy.
+
 ## Propagação obrigatória de simulados para o painel
 
 Todo simulado ou bateria que deva aparecer na interface pública é uma **operação multi-arquivo**. Não considerar o registro concluído após atualizar apenas o `Log de erros.md`.

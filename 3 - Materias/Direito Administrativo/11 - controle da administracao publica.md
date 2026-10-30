@@ -83,6 +83,13 @@ O Judiciário **não revoga** ato administrativo por discordar de sua conveniên
 
 Controle social não se confunde com controle interno ou externo institucional. Ele pode ser estimulado e organizado pelo próprio Estado sem deixar de ser participação social.
 
+
+### Nova conexão: controle social, LAI e auditoria
+
+O **art. 3º, V, da Lei nº 12.527/2011** estabelece o desenvolvimento do controle social como diretriz da **Lei de Acesso à Informação (LAI)**. Seu **art. 7º, VII, b** permite obter resultados de inspeções, auditorias, prestações e tomadas de contas dos órgãos de controle interno e externo. Assim, uma pessoa pode examinar relatórios, confrontar despesas com contratos e encaminhar indícios de irregularidade. Esse acompanhamento permanece **controle social**, ainda que utilize técnicas de análise documental: **não se confunde com a auditoria interna governamental nem com o controle externo constitucional**.
+
+Ver [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao#Nova conexão: LAI e auditoria governamental|LAI e limites de acesso]] e [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas#Nova conexão: Lei de Acesso à Informação, resultados de auditoria e controle social|Resultados de auditorias e controle social]].
+
 ## Quanto ao momento
 
 Outra classificação frequente considera quando o controle ocorre:

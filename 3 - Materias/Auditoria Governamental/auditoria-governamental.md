@@ -14,17 +14,18 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 
 - [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|01. Finalidades da auditoria e modelo das três linhas]]: avaliação, consultoria, apuração, responsabilidades, independência e fronteiras entre categorias.
 - [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|02. Ciclo de auditoria: planejamento, execução, comunicação e monitoramento]]: prioridades e risco, plano anual versus trabalho individual, evidências, achados, recomendações e responsáveis.
+- [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|03. Independência, objetividade, impedimentos e sigilo]]: normas 45 a 58, salvaguardas, supervisão, exemplos comparados e erros de treino.
 
 ## Planejamento de aprofundamento para o intensivão CGU
 
 **Recorte do edital:** P2, item **5. Fundamentos de auditoria governamental e atuação integrada da CGU**; P3, item **1. Auditoria governamental: avaliação, consultoria e apuração**. O roteiro abaixo organiza esses subitens em **unidades de conhecimento**. As outras frentes da P3, como orçamento e contabilidade, avaliação de políticas, contratações, transferências e responsabilização, exigem seus próprios roteiros de matéria e não devem desaparecer dentro desta disciplina.
 
-**Diagnóstico da cobertura atual:** as notas 01 e 02 oferecem um **panorama inicial** e alguns refinamentos normativos decorrentes das questões. Elas **não significam** que foram esgotados os conteúdos de controles, riscos, planejamento baseado em risco, testes, achados ou qualidade. Tampouco os acertos iniciais em questões pontuais comprovam domínio de uma unidade completa.
+**Diagnóstico da cobertura atual:** as notas 01 e 02 oferecem panoramas iniciais. A [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|nota 03]] consolidou o estudo e os testes dos itens 45 a 58 do Referencial Técnico. **Ainda faltam proficiência, competências, zelo e ceticismo em profundidade** para fechar a unidade 02. Os demais tópicos permanecem conforme as lacunas da matriz.
 
 | Ordem | Unidade de aprofundamento | Conteúdos que precisam ser ensinados e discriminados | Situação |
 | :--- | :--- | :--- | :--- |
 | 01 | **Estrutura da auditoria pública e serviços** | CGU/SFC, Audin, Sistema de Controle Interno, controle externo; avaliação × consultoria × apuração, competências, objetos e limites | Panorama na [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|nota 01]]; **aprofundar** |
-| 02 | **Independência, objetividade, ética e ceticismo** | Autonomia da UAIG, atitude do auditor, conflito de interesse, ameaças e salvaguardas, impedimentos, regra dos 24 meses, consultoria anterior × gestão anterior, **sigilo e comunicação institucional (itens 55 a 58)**, proficiência e zelo | **Em aula, não consolidada:** autonomia e objetividade explicadas; sigilo introduzido sem cobertura conjunta dos itens 55 a 58; **reparar essa lacuna, ensinar fronteiras e consolidar antes de avançar** |
+| 02 | **Independência, objetividade, ética e ceticismo** | Autonomia da UAIG; conflito, ameaças, salvaguardas, regra dos 24 meses, consultoria × gestão; supervisão; sigilo/comunicação (55 a 58); **proficiência, zelo e ceticismo (59+)** | **Parte A consolidada na [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|nota 03]]:** independência, objetividade, sigilo, supervisão e fronteiras; **parte B pendente:** proficiência, zelo e ceticismo em profundidade |
 | 03 | **Governança, riscos, controles e três linhas** | Objetivos organizacionais, identificação e avaliação de riscos, desenho × operação de controles, papéis da gestão e auditoria, responsabilidades que não podem migrar | Modelo introdutório na nota 01; **aprofundar** |
 | 04 | **Planejamento da UAIG baseado em riscos** | Universo auditável, fatores de risco e materialidade, escolha e priorização de objetos, recursos, PAINT e RAINT, diferença entre plano anual e auditoria específica | Panorama na [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|nota 02]]; **aprofundar** |
 | 05 | **Planejamento individual e desenho da auditoria** | Objetivo, objeto, escopo, critérios, questões/subquestões, matriz de planejamento, programa de trabalho, risco de auditoria, supervisão, alterações justificadas | Panorama na nota 02; **aprofundar** |
@@ -44,11 +45,11 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 
 **Fontes prioritárias:** [[2 - Editais/CGU 2026 - Auditoria|Edital e checklist CGU 2026]], Referencial Técnico da Auditoria Interna Governamental (IN SFC nº 3/2017), Manual de Orientações Técnicas (IN SFC nº 8/2017), normas da CGU sobre planejamento/qualidade e corpus de provas reais correspondente ao concurso. Para regras pontuais, citar itens e versões após conferência.
 
-### Ponto de retomada e fechamento da unidade 02
+### Ponto de retomada da unidade 02
 
-**Etapa vigente: [AULA], com lacuna a reparar; ainda não entrar em novo diagnóstico.** A sequência de itens mostrou que uma pergunta sobre comunicação institucional e sigilo foi apresentada antes de desenvolver conjuntamente os itens **55 a 58** da IN SFC nº 3/2017. **Esse item não mede domínio**, porque a condição decisiva foi ensinada apenas na correção. Retomar com uma explicação integrada dos deveres de sigilo, divulgação institucional autorizada, comunicação materialmente completa e eventuais limites legais de encaminhamento. Depois, ensinar contrastes e só então propor checagem didática; calibrar uma bateria para valer apenas com corpus real.
+**Etapa concluída para a parte A:** aula, comparação de fronteiras, três itens didáticos sobre sigilo (3/3), cinco itens inéditos de aproximação à prova (3/5) e consolidação na [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|nota 03]]. Os erros no treino para valer envolveram conflitos de interesses sem irregularidade consumada e o limite institucional entre consultoria e gestão. O resultado é **parcial, sem validade de simulado ou certificação de domínio**.
 
-**Próxima consolidação no vault:** ao completar [AULA]+[FRONTEIRAS] e a correção da unidade 02, aprofundar a nota de independência/objetividade/ética (ou separar sigilo em nota própria caso a autonomia editorial o justifique), incluindo itens 49 a 58, condições e exceções, ameaças, salvaguardas, exemplos contrastados e correções. **Publicar antes de iniciar a unidade 03**. A nota atual é panorama, não registro de assunto concluído.
+**Próximo conteúdo a ensinar, antes de considerar a unidade 02 fechada:** **proficiência, competências individuais e coletivas, necessidade de especialistas, zelo profissional e ceticismo profissional**, a partir dos itens 59 e seguintes da IN SFC nº 3/2017, com casos comparativos e testes identificados por modalidade. A documentação e supervisão detalhadas retornam nas unidades 06 e 12. Consolidar essa parte antes de iniciar a unidade 03.
 
 ## Relações com outras matérias
 

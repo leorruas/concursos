@@ -168,6 +168,8 @@ O **Manual de Orientações Técnicas (MOT)** descreve ameaças como familiarida
 
 **Heurística:** *prazo cumprido* não significa *risco ético encerrado*; *consultoria sem assumir a gestão* não equivale a *exercício anterior de gestão*.
 
+**Estudo aprofundado:** [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|Independência, objetividade, impedimentos, supervisão e sigilo]] reúne os itens 45 a 58, exemplos contrastados e diagnósticos de estudo. Esta seção permanece como síntese introdutória dos conceitos.
+
 **Fontes primárias:** [CGU, Referencial Técnico, IN SFC nº 3/2017, itens 47 a 54](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna); [CGU, MOT, seção 3.4: ameaças e medidas de proteção à objetividade](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
 
 ## Como a FGV ou o Cebraspe podem cobrar

@@ -10,13 +10,13 @@ updated: 2026-10-30
 
 ## Núcleo do conceito
 
-Segundo o **Manual de Orientações Técnicas (MOT) da CGU**, um **trabalho de avaliação** de auditoria interna governamental abrange, em termos básicos, **planejamento → execução → comunicação dos resultados → monitoramento**. A separação é funcional, **não rígida**: o planejamento pode ser revisto durante a execução; resultados relevantes podem ser comunicados antes do relatório final; e providências precisam ser acompanhadas depois da comunicação.
+Segundo o **Manual de Orientações Técnicas (MOT) da Controladoria-Geral da União (CGU)**, um **trabalho de avaliação** de auditoria interna governamental abrange, em termos básicos, **planejamento → execução → comunicação dos resultados → monitoramento**. A separação é funcional, **não rígida**: o planejamento pode ser revisto durante a execução; resultados relevantes podem ser comunicados antes do relatório final; e providências precisam ser acompanhadas depois da comunicação.
 
 É importante precisar o escopo: a sequência de quatro etapas é apresentada expressamente no capítulo sobre **serviços de avaliação**. Serviços de consultoria e apuração também requerem organização e comunicação, mas possuem requisitos e finalidades próprios. Logo, não se deve transportar automaticamente cada procedimento da avaliação para qualquer outro serviço.
 
 ### O mesmo exemplo do início ao fim
 
-Imagine que a **Audin do IFMG**, no exercício de suas atribuições, decida avaliar os controles de concessão de bolsas estudantis. São riscos possíveis a **duplicidade de pagamentos**, a concessão a estudantes que não preenchem requisitos ou a ausência de documentos exigidos. O exemplo é **hipotético**: não relata irregularidades reais no IFMG.
+Imagine que a **Auditoria Interna (Audin) do Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais (IFMG)**, no exercício de suas atribuições, decida avaliar os controles de concessão de bolsas estudantis. São riscos possíveis a **duplicidade de pagamentos**, a concessão a estudantes que não preenchem requisitos ou a ausência de documentos exigidos. O exemplo é **hipotético**: não relata irregularidades reais no IFMG.
 
 O trabalho começa por **decidir o que examinar e por quê**. Depois, a equipe **testa documentos e controles**; **comunica conclusões fundamentadas e eventuais recomendações**; e **verifica se a gestão adotou medidas suficientes**. O produto final almejado é o aperfeiçoamento dos controles e da gestão, não a simples existência de um relatório.
 
@@ -24,7 +24,7 @@ O trabalho começa por **decidir o que examinar e por quê**. Depois, a equipe *
 
 ### Antes de tudo: plano anual da unidade × planejamento de trabalho individual
 
-A **Unidade de Auditoria Interna Governamental (UAIG)** precisa escolher quais objetos merecem auditoria. O **Plano Anual de Auditoria Interna (PAINT)** documenta o planejamento das atividades da unidade, priorizado com base em riscos, objetivos e disponibilidade de recursos, segundo as normas aplicáveis, incluindo a **IN SFC nº 3/2017** e a **IN SFC/CGU nº 5/2021**.
+A **Unidade de Auditoria Interna Governamental (UAIG)** precisa escolher quais objetos merecem auditoria. O **Plano Anual de Auditoria Interna (PAINT)** documenta o planejamento das atividades da unidade, priorizado com base em riscos, objetivos e disponibilidade de recursos, segundo as normas aplicáveis, incluindo a **Instrução Normativa (IN) da Secretaria Federal de Controle Interno (SFC) nº 3/2017** e a **IN SFC/CGU nº 5/2021**.
 
 **Exemplo:** ao montar o PAINT, a Audin pode considerar a concessão de bolsas mais prioritária que outro processo em razão dos riscos identificados. Trata-se da **seleção e programação de trabalhos**.
 

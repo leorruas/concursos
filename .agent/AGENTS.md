@@ -105,6 +105,12 @@ A implementação do intensivão exige **um único bloco conceitual por ciclo**,
 
 **Exemplo de aplicação CGU:** antes de perguntar se o sigilo profissional impede comunicação interna, ensinar conjuntamente os **itens 55 a 58 da IN SFC nº 3/2017**, os destinatários competentes e a diferença entre **proteção do dado, comunicação institucional autorizada e divulgação externa indevida**. Se apenas o item 56 foi explicado, a questão que depende do item 58 **não mede domínio do aluno**.
 
+### Regra editorial de siglas na primeira menção
+
+Toda nota de estudo, roteiro, relatório, questão comentada e explicação de aula deve apresentar **nome oficial ou técnico completo (SIGLA)** no **primeiro uso de cada texto**, reutilizando depois somente a sigla. Isso vale para instituições, unidades, normas, leis, modelos, programas, planos, relatórios e abreviações em línguas estrangeiras. Exemplos: **Controladoria-Geral da União (CGU)**; **Secretaria Federal de Controle Interno (SFC)**; **Unidade de Auditoria Interna Governamental (UAIG)**; **Manual de Orientações Técnicas (MOT)**; **Instrução Normativa (IN)**; **Plano Anual de Auditoria Interna (PAINT)** e **Lei Geral de Proteção de Dados Pessoais (LGPD)**.
+
+Para expressões compostas como **IN SFC nº 3/2017**, desenvolver **IN** e **SFC** antes de empregar a forma abreviada. Títulos e subtítulos também contam: garantir que a expansão apareça antes da primeira sigla ou nessa primeira ocorrência, sem quebrar desnecessariamente âncoras e wikilinks preexistentes. A definição não pode depender de um glossário em outra página. Conferir a **ordem real de leitura** na auditoria editorial. Exceções: URLs, caminhos, nomes de arquivos, identificadores técnicos e citações literais mantêm sua grafia; explicar na prosa o que significam.
+
 ### Protocolo para o intensivão de matérias
 
 **Gatilho e prioridade:** vale para pedidos de estudo, explicação, avanço em conteúdo e aprofundamento. A banca, o cargo e as fontes do edital ativo determinam a profundidade. **Para CGU 2026/Auditoria**, ler e seguir `2 - Editais/CGU 2026 - Auditoria.md`, com atenção aos itens de **P2 (fundamentos)** e **P3 (específicos)**, ao MOT/Referencial Técnico e ao corpus de provas-espelho. Revisão e simulado solicitado explicitamente seguem seus protocolos próprios.

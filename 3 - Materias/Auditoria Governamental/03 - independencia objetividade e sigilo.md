@@ -8,7 +8,7 @@ updated: 2026-10-30
 
 # Independência, objetividade, impedimentos e sigilo na auditoria interna governamental
 
-Esta nota aprofunda a ética e as condições de atuação da **Unidade de Auditoria Interna Governamental (UAIG)**, a partir do **Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal (IN SFC nº 3/2017, especialmente itens 45 a 58)** e do **Manual de Orientações Técnicas (MOT), aprovado pela IN SFC nº 8/2017**. Integra os estudos de [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|finalidades, consultoria e três linhas]] e [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|ciclo e supervisão do trabalho]].
+Esta nota aprofunda a ética e as condições de atuação da **Unidade de Auditoria Interna Governamental (UAIG)**, a partir do **Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal, aprovado pela Instrução Normativa (IN) da Secretaria Federal de Controle Interno (SFC) nº 3/2017 (especialmente itens 45 a 58)** e do **Manual de Orientações Técnicas (MOT) da Controladoria-Geral da União (CGU), aprovado pela IN SFC nº 8/2017**. Integra os estudos de [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|finalidades, consultoria e três linhas]] e [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|ciclo e supervisão do trabalho]].
 
 **Pergunta central:** como uma auditoria pode produzir conclusões confiáveis quando atua dentro de uma organização, interage com gestores, recebe informações sensíveis e pode ter prestado consultoria no mesmo objeto?
 
@@ -162,7 +162,7 @@ No estudo dialogado, foram realizadas **três questões didáticas sobre sigilo 
 - [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#Estrutura interna e fronteiras das etapas|Ciclo da auditoria]]: revisão dos registros e comunicação fundamentada.
 - **Governança, riscos e três linhas:** gestão responde pelo controle; a auditoria avalia e orienta.
 - **Evidências e documentação:** papéis de trabalho, rastreabilidade, revisão técnica, suficiência e adequação.
-- **LAI e LGPD:** restrições legais à publicidade e proteção de informações pessoais, a desenvolver com os próprios dispositivos legais.
+- **Lei de Acesso à Informação (LAI) e Lei Geral de Proteção de Dados Pessoais (LGPD):** restrições legais à publicidade e proteção de informações pessoais, a desenvolver com os próprios dispositivos legais.
 
 ## Heurísticas de prova
 

@@ -35,6 +35,14 @@ A técnica de Feynman serve **para explicar**: partir de um problema concreto, u
 
 **Ritmo:** preferir desenvolvimento do conteúdo e das fronteiras a uma sequência de “certo ou errado?”. Não iniciar uma nova norma apenas para construir a questão seguinte. A cada erro, distinguir erro real de conhecimento de falha da sequência didática. Não declarar unidade concluída com base somente em acertos. Para material que ainda será ensinado, registrar a pendência no mapa do hub, não transformá-la em uma nota superficial.
 
+## Siglas e acrônimos: expansão na primeira ocorrência
+
+Em **cada nota, artigo, roteiro, questão comentada, relatório e aula no chat**, escrever o **nome por extenso seguido da sigla entre parênteses na primeira ocorrência**, por exemplo: **Unidade de Auditoria Interna Governamental (UAIG)**. Nas menções seguintes do mesmo texto, usar **UAIG**. Aplicar também a órgãos, leis, normas, cargos, planos, relatórios, programas, métodos e siglas em outros idiomas.
+
+**Cada nota deve ser compreensível de forma independente**, mesmo que a sigla tenha sido explicada em outro artigo. Quando aparecer no título ou subtítulo, expandir no primeiro ponto visível ou antes dele, preservando âncoras e links já existentes. Em siglas compostas, explicar cada elemento importante, como **Instrução Normativa (IN)** e **Secretaria Federal de Controle Interno (SFC)** antes de escrever **IN SFC nº 3/2017**. Não modificar siglas literais em URLs, caminhos ou citações exatas.
+
+**Antes de publicar**, revisar as primeiras ocorrências na ordem de leitura. Evitar repetir o nome extenso em todos os usos ou substituir a explicação por um glossário desconectado. Ao revisar um artigo existente, corrigir também as siglas que nele ficaram sem expansão.
+
 ## Modo intensivão: profundidade e cobertura antes de avançar
 
 Quando o pedido for **aprender matéria nova, aprofundar conteúdo ou fazer um intensivão**, a tarefa principal é **ensinar o assunto com densidade suficiente para o edital**, e não produzir rapidamente uma nota ou uma sequência de questões. Aplicar o protocolo detalhado de `.agent/AGENTS.md` e a régua de cobertura de [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]].

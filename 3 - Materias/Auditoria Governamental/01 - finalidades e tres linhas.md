@@ -16,21 +16,21 @@ Imagine um órgão federal que concede bolsas de permanência estudantil. Dinhei
 
 O **Modelo das Três Linhas** organiza responsabilidades em torno desse problema. O setor que concede a bolsa confere documentos, decide e mantém controles: **primeira linha**. A área especializada em riscos ou conformidade orienta e acompanha se esses controles são adequados: **segunda linha**. A auditoria interna examina com independência as fragilidades das duas anteriores: **terceira linha**.
 
-O modelo diz **quem faz qual papel na governança e na gestão dos riscos**, não quais procedimentos devem compor cada auditoria. Ele também é aplicável a organizações privadas.
+O modelo diz **quem faz qual papel na governança e na gestão dos riscos**, não quais procedimentos devem compor cada auditoria. Ele também é aplicável a organizações privadas. No Poder Executivo federal, a **Controladoria-Geral da União (CGU)** é uma das instituições que utilizam essa abordagem.
 
 ### De onde veio e por que aparece na CGU?
 
 O modelo foi desenvolvido e difundido pelo **Institute of Internal Auditors (IIA)**, o Instituto dos Auditores Internos. Evoluiu do antigo modelo das **Três Linhas de Defesa**, com ênfase ampliada em colaboração, responsabilidades de gestão, governança e avaliação independente. O IIA atualizou seu posicionamento também em 2026.
 
-O Poder Executivo federal brasileiro **incorporou a abordagem** à gestão de riscos e controles internos, especialmente pela **Instrução Normativa Conjunta MP/CGU nº 1/2016**, que descreve a auditoria interna como terceira linha. A CGU utiliza e orienta sua aplicação, mas **não criou o modelo**.
+O Poder Executivo federal brasileiro **incorporou a abordagem** à gestão de riscos e controles internos, especialmente pela **Instrução Normativa (IN) Conjunta nº 1/2016**, do **Ministério do Planejamento, Orçamento e Gestão (MP)** e da CGU, que descreve a auditoria interna como terceira linha. A CGU utiliza e orienta sua aplicação, mas **não criou o modelo**.
 
-No **Sistema de Controle Interno do Poder Executivo Federal**, a **Secretaria Federal de Controle Interno da CGU** atua como órgão central da atividade de auditoria interna governamental, situada na terceira linha; outras unidades de auditoria também cumprem esse papel. A CGU, considerada como instituição inteira, tem diversas outras competências, como ouvidoria, correição e integridade. **Não classificar toda atividade da CGU como terceira linha nem toda atuação da CGU como serviço de auditoria.**
+No **Sistema de Controle Interno do Poder Executivo Federal**, a **Secretaria Federal de Controle Interno da CGU** atua como órgão central da atividade de auditoria interna governamental, situada na terceira linha; outras unidades de auditoria também cumprem esse papel. A CGU, considerada como instituição inteira, tem diversas outras competências, como ouvidoria, correição e integridade. **Não classificar toda atividade da CGU como terceira linha nem toda atuação da CGU como serviço de auditoria.** A comparação seguinte utiliza o **Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais (IFMG)** e o **Tribunal de Contas da União (TCU)** para diferenciar posições institucionais.
 
 ### Interna em relação a qual estrutura? IFMG, CGU e TCU
 
 A palavra **interna** descreve a posição institucional da função de auditoria **dentro do sistema de governança e controle ao qual ela pertence**. Ela não exige que a equipe auditora esteja lotada no mesmo órgão ou na mesma entidade que está sendo examinada.
 
-**Caso real:** o Instituto Federal de Minas Gerais (IFMG) é uma **autarquia federal** integrante da Administração Pública Federal indireta, vinculada ao Ministério da Educação. Possui uma **Unidade de Auditoria Interna (Audin)** própria, vinculada ao **Conselho Superior** conforme sua página institucional atualizada em 2025. Essa Audin é uma unidade de auditoria interna governamental do IFMG e atua como órgão auxiliar do Sistema de Controle Interno do Poder Executivo Federal.
+**Caso real:** o IFMG é uma **autarquia federal** integrante da Administração Pública Federal indireta, vinculada ao Ministério da Educação. Possui uma **Unidade de Auditoria Interna (Audin)** própria, vinculada ao **Conselho Superior** conforme sua página institucional atualizada em 2025. Essa Audin é uma unidade de auditoria interna governamental do IFMG e atua como órgão auxiliar do Sistema de Controle Interno do Poder Executivo Federal.
 
 A **Controladoria-Geral da União (CGU)**, por meio da **Secretaria Federal de Controle Interno (SFC)**, exerce funções centrais desse sistema, inclusive a auditoria interna governamental em órgãos e entidades federais dentro de suas competências. Assim, **Audin do IFMG e SFC/CGU** podem atuar como auditoria interna governamental **em níveis institucionais diferentes**. A Audin é própria da entidade; a SFC/CGU atua no âmbito mais amplo do Executivo federal e exerce orientação normativa e supervisão técnica sobre as unidades de auditoria interna. Essa relação técnica não equivale a dizer que a Audin faz parte da estrutura administrativa da CGU.
 
@@ -171,6 +171,8 @@ O **Manual de Orientações Técnicas (MOT)** descreve ameaças como familiarida
 **Estudo aprofundado:** [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|Independência, objetividade, impedimentos, supervisão e sigilo]] reúne os itens 45 a 58, exemplos contrastados e diagnósticos de estudo. Esta seção permanece como síntese introdutória dos conceitos.
 
 **Fontes primárias:** [CGU, Referencial Técnico, IN SFC nº 3/2017, itens 47 a 54](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna); [CGU, MOT, seção 3.4: ameaças e medidas de proteção à objetividade](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
+
+A **Fundação Getulio Vargas (FGV)** e o Cebraspe podem cobrar as mesmas diferenças por mecanismos distintos.
 
 ## Como a FGV ou o Cebraspe podem cobrar
 

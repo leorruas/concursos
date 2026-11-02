@@ -209,20 +209,21 @@
       "isSimulado": false,
       "status": "concluido",
       "trainingModes": [
-        "aprendizagem"
+        "aprendizagem",
+        "para_valer"
       ],
       "origin": "inedita",
-      "totalQuestions": 6,
-      "plannedItems": 6,
-      "validItems": 6,
+      "totalQuestions": 14,
+      "plannedItems": 14,
+      "validItems": 14,
       "annulledItems": 0,
       "ledgerCoverage": "complete",
       "benchmarkEligible": false,
-      "qualityStatus": "microtreino_aprendizagem_concluido_nao_simulado",
-      "qualityNote": "Unidade 04: seis itens didáticos C/E respondidos e corrigidos em duas baterias no mesmo dia, 6/6, sem erros. Primeira bateria sobre maturidade de riscos, fatores indiretos e seleção; segunda sobre PAINT/RAINT, prazos e competências. Medida didática; não equivale a treino para valer ou simulado e não comprova domínio.",
+      "qualityStatus": "microtreino_misto_6_aprendizagem_8_para_valer_com_branco",
+      "qualityNote": "Unidade 04: 6/6 em aprendizagem e 6/8 para valer (um erro, um branco), sem simulado completo. Comparação de estilo com quatro itens reais (61,62,65,70) da CGE/AL 2026; equivalência de dificuldade não validada.",
       "generationAudit": {
         "counts": {
-          "new": 6,
+          "new": 14,
           "thematic": 0,
           "mechanical": 0,
           "exact": 0
@@ -235,9 +236,9 @@
       },
       "confidenceTracking": {
         "coverage": "partial",
-        "note": "Respostas por seleção clicável; não houve declaração explícita de segurança, dúvida ou chute."
+        "note": "Um branco explícito, sem justificativa; demais respostas sem grau de confiança declarado."
       },
-      "syncStatus": "sincronizado_com_avancos_locais_globais_log_hub_de_edital_nota"
+      "syncStatus": "sincronizado_com_avancos_locais_globais_log_hub_edital"
     }
   ],
   "questions": [
@@ -7539,6 +7540,318 @@
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, art. 11, II",
       "userReasoning": "Resposta selecionada sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q7",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 7,
+      "questionNumberInBatch": 1,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "PAINT",
+      "subtopic": "supervisão: recomendação não atendida com justificativa",
+      "questionType": "comparison",
+      "mechanism": "recomendacao-supervisao-justificadamente-nao-atendida",
+      "distractorMechanism": "recomendacao-supervisao-imporia-objeto",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade04-treino-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "normativeBasis": "IN SFC/CGU nº 5/2021, art. 6º, §2º",
+      "calibrationEvidence": [
+        "CGE/AL 2026 específicos 61 E, 62 C, 65 C, 70 E"
+      ],
+      "userReasoning": "Resposta marcada sem justificativa.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q8",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 8,
+      "questionNumberInBatch": 2,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "PAINT",
+      "subtopic": "competência para alterar plano e comunicar depois",
+      "questionType": "case",
+      "mechanism": "alteracao-significativa-apreciacao-antes-comunicacao",
+      "distractorMechanism": "comunicacao-substituiria-aprovacao",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade04-treino-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "errorType": "C",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "normativeBasis": "IN SFC/CGU nº 5/2021, art. 7º, §§1º e 2º",
+      "calibrationEvidence": [
+        "CGE/AL 2026 específicos 61 E, 62 C, 65 C, 70 E"
+      ],
+      "userReasoning": "Escolha C, correta E; classificação de erro provisória; sem justificativa.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q9",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 9,
+      "questionNumberInBatch": 3,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento de auditoria",
+      "subtopic": "PAINT versus programa de trabalho individual",
+      "questionType": "comparison",
+      "mechanism": "paint-objeto-objetivo-horas-programa-testes",
+      "distractorMechanism": "paint-obrigaria-testes-detalhados",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade04-treino-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "normativeBasis": "IN SFC/CGU nº 5/2021, art. 4º, I",
+      "calibrationEvidence": [
+        "CGE/AL 2026 específicos 61 E, 62 C, 65 C, 70 E"
+      ],
+      "userReasoning": "Resposta marcada sem justificativa.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q10",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 10,
+      "questionNumberInBatch": 4,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Gestão de riscos",
+      "subtopic": "priorização indireta materialidade relevância criticidade",
+      "questionType": "comparison",
+      "mechanism": "fatores-indiretos-ainda-permitem-priorizacao",
+      "distractorMechanism": "fatores-indiretos-descartariam-risco",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade04-treino-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": null,
+      "result": "blank",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+      ],
+      "normativeBasis": "MOT CGU, seção 4.1.4",
+      "calibrationEvidence": [
+        "CGE/AL 2026 específicos 61 E, 62 C, 65 C, 70 E"
+      ],
+      "userReasoning": "Escolha explícita de branco; motivo não declarado.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q11",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 11,
+      "questionNumberInBatch": 5,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "RAINT",
+      "subtopic": "serviços ainda não concluídos",
+      "questionType": "comparison",
+      "mechanism": "raint-abrange-servicos-nao-concluidos",
+      "distractorMechanism": "raint-somente-trabalhos-concluidos",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade04-treino-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "normativeBasis": "IN SFC/CGU nº 5/2021, art. 11, II",
+      "calibrationEvidence": [
+        "CGE/AL 2026 específicos 61 E, 62 C, 65 C, 70 E"
+      ],
+      "userReasoning": "Resposta marcada sem justificativa.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q12",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 12,
+      "questionNumberInBatch": 6,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "PAINT/RAINT",
+      "subtopic": "horas planejadas e força efetiva",
+      "questionType": "comparison",
+      "mechanism": "paint-planeja-raint-presta-contas-horas",
+      "distractorMechanism": "previsto-igual-efetivo",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade04-treino-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "normativeBasis": "IN SFC/CGU nº 5/2021, arts. 4º e 11",
+      "calibrationEvidence": [
+        "CGE/AL 2026 específicos 61 E, 62 C, 65 C, 70 E"
+      ],
+      "userReasoning": "Resposta marcada sem justificativa.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q13",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 13,
+      "questionNumberInBatch": 7,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Riscos",
+      "subtopic": "prioridade não é somente valor financeiro",
+      "questionType": "comparison",
+      "mechanism": "prioridade-materialidade-menor-mais-criticidade",
+      "distractorMechanism": "montante-financeiro-impoe-prioridade",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade04-treino-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+      ],
+      "normativeBasis": "IN SFC/CGU nº 5/2021, art. 3º",
+      "calibrationEvidence": [
+        "CGE/AL 2026 específicos 61 E, 62 C, 65 C, 70 E"
+      ],
+      "userReasoning": "Resposta marcada sem justificativa.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q14",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 14,
+      "questionNumberInBatch": 8,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "RAINT e parecer",
+      "subtopic": "parecer de contas não dispensa RAINT",
+      "questionType": "comparison",
+      "mechanism": "parecer-nao-substitui-raint",
+      "distractorMechanism": "parecer-substituiria-raint",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade04-treino-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "normativeBasis": "IN SFC/CGU nº 5/2021, arts. 1º e 10 a 17",
+      "calibrationEvidence": [
+        "CGE/AL 2026 específicos 61 E, 62 C, 65 C, 70 E"
+      ],
+      "userReasoning": "Resposta marcada sem justificativa.",
       "repetition": {
         "classification": "new",
         "similarTo": [],

@@ -50,7 +50,7 @@ function validateLedger(ledger){
   const errors=[],warnings=[];
   const allowedRep=new Set(['new','thematic','mechanical','exact']);
   const allowedAnswer=new Set(['A','B','C','D','E']);
-  const allowedResult=new Set(['correct','incorrect','annulled']);
+  const allowedResult=new Set(['correct','incorrect','blank','annulled']);
   const allowedConfidence=new Set(['secure','insecure','guess','unknown']);
   const allowedError=new Set(['K','C','I','D',null]);
   const ids=new Set();
@@ -77,7 +77,8 @@ function validateLedger(ledger){
     const answerKnown=q.answerKnown!==false;
     if(answerKnown){
       if(!allowedAnswer.has(q.correctAnswer)) errors.push(`${q.id}: correctAnswer deve ser A-E.`);
-      if(!allowedAnswer.has(q.userAnswer)) errors.push(`${q.id}: userAnswer deve ser A-E.`);
+      if(q.result==='blank') { if(q.userAnswer!==null) errors.push(`${q.id}: resposta em branco exige userAnswer=null.`); }
+      else if(!allowedAnswer.has(q.userAnswer)) errors.push(`${q.id}: userAnswer deve ser A-E.`);
     } else if(!partialHistorical) {
       errors.push(`${q.id}: answerKnown=false só é permitido em backfill histórico parcial.`);
     }
@@ -86,7 +87,7 @@ function validateLedger(ledger){
     if(!allowedError.has(q.errorType??null)) errors.push(`${q.id}: errorType inválido.`);
     if(q.result==='incorrect' && !q.errorType) errors.push(`${q.id}: erro exige errorType K/C/I/D.`);
     if(answerKnown){
-      const expected=q.correctAnswer===q.userAnswer?'correct':'incorrect';
+      const expected=q.userAnswer===null?'blank':(q.correctAnswer===q.userAnswer?'correct':'incorrect');
       if(q.result!=='annulled' && q.result!==expected) errors.push(`${q.id}: result não corresponde a gabarito/resposta.`);
     }
 

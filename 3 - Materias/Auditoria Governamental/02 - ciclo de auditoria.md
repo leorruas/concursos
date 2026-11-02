@@ -145,7 +145,7 @@ O **parecer da auditoria interna sobre a prestação de contas anual** é distin
 
 **Fontes normativas:** [IN SFC/CGU nº 5/2021, texto na Wiki CGU](https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_5%2C_de_27_de_agosto_de_20218); [CGU, perguntas frequentes sobre o PAINT](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/uaig/perguntas-frequentes); [CGU, PAINT e RAINT publicados](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/PAINT-e-RAINT).
 
-**Situação didática:** conteúdo explicado no chat e consolidado na nota em **02/11/2026**; **PAINT/RAINT testados em três itens didáticos, 3/3 (E/C/C)**; somados aos três itens sobre bases de avaliação de riscos e seleção, a unidade 04 possui **6/6 em aprendizagem** na sessão de 02/11/2026. O treino para valer, com prova-espelho efetivamente calibrada, segue pendente; não inferir domínio da unidade inteira.
+**Situação didática:** conteúdo explicado no chat e consolidado na nota em **02/11/2026**; **PAINT/RAINT testados em três itens didáticos, 3/3 (E/C/C)**; somados aos três itens sobre bases de avaliação de riscos e seleção, a unidade 04 possui **6/6 em aprendizagem** na sessão de 02/11/2026. Treino para valer de oito itens realizado com aproximação a quatro mecanismos reais da CGE/AL 2026: **6/8, com um erro e um branco**. O erro é na competência para apreciar alterações significativas do PAINT, exigida no art. 7º, §1º, antes da comunicação prevista no §2º. O branco foi sobre fatores indiretos de riscos. O treino é curto, sem controle de tempo nem equivalência estatística; não declarar domínio integral.
 
 
 ### 1. Planejamento: formular perguntas que os testes poderão responder

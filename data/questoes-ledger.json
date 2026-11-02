@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-11-02",
   "policy": {
     "recentSimulationWindow": 3,
     "minimumNewRate": 0.75,
@@ -198,6 +198,46 @@
         "note": "Usuário informou apenas Certo/Errado nesta unidade; níveis de confiança não coletados."
       },
       "syncStatus": "sincronizado_com_avancos_locais_globais_log_hub_de_edital_nota_e_indice"
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "date": "2026-11-02",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "origin": "inedita",
+      "totalQuestions": 3,
+      "plannedItems": 3,
+      "validItems": 3,
+      "annulledItems": 0,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityStatus": "microtreino_aprendizagem_concluido_nao_simulado",
+      "qualityNote": "Unidade 04: três itens didáticos C/E respondidos e corrigidos, 3/3, sem erros. Avalia entendimento de maturidade de riscos, fatores indiretos e seleção de trabalhos; não prova domínio e não equivale a simulado.",
+      "generationAudit": {
+        "counts": {
+          "new": 3,
+          "thematic": 0,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 1,
+        "thematicRate": 0,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0
+      },
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Resposta por seleção clicável; usuário não declarou certeza, dúvida ou chute."
+      },
+      "syncStatus": "sincronizado_com_avancos_locais_globais_log_hub_e_nota"
     }
   ],
   "questions": [
@@ -7286,6 +7326,111 @@
       "errorType": null,
       "theoryRefs": [],
       "userReasoning": "Não foi apresentada justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q1",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 1,
+      "questionNumberInBatch": 1,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento baseado em riscos",
+      "subtopic": "maturidade e confiabilidade da avaliação da gestão",
+      "questionType": "application",
+      "mechanism": "cadastro-riscos-deve-ser-validado-pela-auditoria",
+      "distractorMechanism": "documentacao-formal-como-prova-de-maturidade",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade04",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+      ],
+      "userReasoning": "Selecionou a alternativa sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q2",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 2,
+      "questionNumberInBatch": 2,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento baseado em riscos",
+      "subtopic": "priorização indireta por fatores de risco",
+      "questionType": "comparison",
+      "mechanism": "fatores-indiretos-ainda-fundamentam-planejamento-por-riscos",
+      "distractorMechanism": "avaliacao-indireta-nao-seria-baseada-em-riscos",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade04",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+      ],
+      "userReasoning": "Selecionou a alternativa sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q3",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 3,
+      "questionNumberInBatch": 3,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento anual de auditoria",
+      "subtopic": "classificação e seleção final dos trabalhos do PAINT",
+      "questionType": "case",
+      "mechanism": "priorizacao-classificatoria-nao-determina-inclusao-no-paint",
+      "distractorMechanism": "maior-risco-impoe-inclusao-obrigatoria-no-plano",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade04",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+      ],
+      "userReasoning": "Selecionou a alternativa sem justificativa verbalizada.",
       "repetition": {
         "classification": "new",
         "similarTo": [],

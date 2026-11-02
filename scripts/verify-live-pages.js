@@ -41,7 +41,9 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
       headers: {
         'cache-control': 'no-cache',
         pragma: 'no-cache'
-      }
+      },
+      // Evita que a publicação fique indefinidamente bloqueada por uma conexão HTTP.
+      signal: AbortSignal.timeout(8000)
     });
 
     if (!resposta.ok) {

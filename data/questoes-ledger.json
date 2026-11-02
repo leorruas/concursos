@@ -212,17 +212,17 @@
         "aprendizagem"
       ],
       "origin": "inedita",
-      "totalQuestions": 3,
-      "plannedItems": 3,
-      "validItems": 3,
+      "totalQuestions": 6,
+      "plannedItems": 6,
+      "validItems": 6,
       "annulledItems": 0,
       "ledgerCoverage": "complete",
       "benchmarkEligible": false,
       "qualityStatus": "microtreino_aprendizagem_concluido_nao_simulado",
-      "qualityNote": "Unidade 04: três itens didáticos C/E respondidos e corrigidos, 3/3, sem erros. Avalia entendimento de maturidade de riscos, fatores indiretos e seleção de trabalhos; não prova domínio e não equivale a simulado.",
+      "qualityNote": "Unidade 04: seis itens didáticos C/E respondidos e corrigidos em duas baterias no mesmo dia, 6/6, sem erros. Primeira bateria sobre maturidade de riscos, fatores indiretos e seleção; segunda sobre PAINT/RAINT, prazos e competências. Medida didática; não equivale a treino para valer ou simulado e não comprova domínio.",
       "generationAudit": {
         "counts": {
-          "new": 3,
+          "new": 6,
           "thematic": 0,
           "mechanical": 0,
           "exact": 0
@@ -235,9 +235,9 @@
       },
       "confidenceTracking": {
         "coverage": "partial",
-        "note": "Resposta por seleção clicável; usuário não declarou certeza, dúvida ou chute."
+        "note": "Respostas por seleção clicável; não houve declaração explícita de segurança, dúvida ou chute."
       },
-      "syncStatus": "sincronizado_com_avancos_locais_globais_log_hub_e_nota"
+      "syncStatus": "sincronizado_com_avancos_locais_globais_log_hub_de_edital_nota"
     }
   ],
   "questions": [
@@ -7431,6 +7431,114 @@
         "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
       ],
       "userReasoning": "Selecionou a alternativa sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q4",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 4,
+      "questionNumberInBatch": 1,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento anual de auditoria",
+      "subtopic": "silêncio da supervisão técnica e aprovação interna",
+      "questionType": "interpretation",
+      "mechanism": "silencio-supervisao-nao-bloqueia-aprovacao-paint",
+      "distractorMechanism": "ausencia-manifestacao-impede-aprovacao",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade04-paint-raint",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "normativeBasis": "IN SFC/CGU nº 5/2021, art. 6º, §1º",
+      "userReasoning": "Resposta selecionada sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q5",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 5,
+      "questionNumberInBatch": 2,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento anual de auditoria",
+      "subtopic": "40 horas de capacitação por auditor e alocação de força de trabalho",
+      "questionType": "application",
+      "mechanism": "capac-40h-por-auditor-inclusive-titular-alocacao",
+      "distractorMechanism": "capacitacao-40h-global-e-nao-por-auditor",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade04-paint-raint",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "normativeBasis": "IN SFC/CGU nº 5/2021, art. 4º, II e §2º",
+      "userReasoning": "Resposta selecionada sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-q6",
+      "sourceId": "cgu-2026-auditoria-2026-11-02-unidade04",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-02",
+      "number": 6,
+      "questionNumberInBatch": 3,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Relatório Anual de Atividades de Auditoria Interna",
+      "subtopic": "trabalhos realizados sem previsão no PAINT reportados no RAINT",
+      "questionType": "case",
+      "mechanism": "raint-inclui-servicos-extraprogramacao",
+      "distractorMechanism": "raint-somente-trabalhos-previstos-paint",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade04-paint-raint",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "normativeBasis": "IN SFC/CGU nº 5/2021, art. 11, II",
+      "userReasoning": "Resposta selecionada sem justificativa verbalizada.",
       "repetition": {
         "classification": "new",
         "similarTo": [],

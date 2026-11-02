@@ -18,13 +18,13 @@ Consulte as diretrizes metodológicas, réguas de competitividade e metas de pro
 
 ## CGU 2026: microtreinos registrados, simulado ainda pendente
 
-**Cargo 1: Auditoria, Cebraspe.** Até 02/11/2026, foram respondidas **27 questões válidas de Auditoria Governamental, com 23 acertos (85,2%)**: aprendizagem **11/12 (91,7%)** e para valer **12/15 (80,0%)**, unidades 02 e 03 concluídas e unidade 04 ainda em andamento (aprendizagem 3/3). Uma questão anulada permanece excluída do aproveitamento. Nenhuma questão real ou simulado foi aplicado. Histórico em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]. **Ainda não existe simulado integral nem nota líquida CGU**; os indicadores da Dataprev abaixo são históricos de outro concurso. Os 28 enunciados estão individualizados (27 válidos e 1 anulado) em `data/questoes-ledger.json` por modalidade.
+**Cargo 1: Auditoria, Cebraspe.** Até 02/11/2026, foram respondidas **30 questões válidas de Auditoria Governamental, com 26 acertos (86,7%)**: aprendizagem **14/15 (93,3%)** e para valer **12/15 (80,0%)**, unidades 02 e 03 concluídas e unidade 04 ainda em andamento (aprendizagem 6/6 em duas baterias). Uma questão anulada permanece excluída do aproveitamento. Nenhuma questão real ou simulado foi aplicado. Histórico em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]. **Ainda não existe simulado integral nem nota líquida CGU**; os indicadores da Dataprev abaixo são históricos de outro concurso. Os 31 enunciados estão individualizados (30 válidos e 1 anulado) em `data/questoes-ledger.json` por modalidade.
 
 | Frente | Cobertura documental do vault | Domínio CGU medido | Próximo passo |
 | :--- | :--- | :--- | :--- |
 | Direito Administrativo, governança e LAI/LGPD | Base aproveitável parcial | Não | Revisão aplicada e itens C/E |
 | Estado, sociedade, ética e políticas públicas | Parcial | Não | Completar lacunas P1/P2 |
-| Auditoria governamental e evidências | Notas 01 a 05; unidades 02 e 03 consolidadas, incluindo gestão de riscos e controles | **27 válidos, 23 acertos; 1 anulado; nenhum simulado** | Unidade 04: aprofundar PAINT/RAINT e aplicar treino calibrado; revisar erros das unidades 02 e 03 |
+| Auditoria governamental e evidências | Notas 01 a 05; unidades 02 e 03 consolidadas, incluindo gestão de riscos e controles | **30 válidos, 26 acertos; 1 anulado; nenhum simulado** | Unidade 04: PAINT/RAINT ensinados e testados em aprendizagem; aplicar treino calibrado; revisar erros das unidades 02 e 03 |
 | Orçamento e contabilidade pública | Grande lacuna | Não | Execução, PPA/LDO/LOA, MCASP, estatais |
 | Avaliação de políticas e inferência causal | Parcial | Não | Indicadores, contrafactual, desenho de avaliação |
 | Contratações, transferências, integridade e responsabilização | Parcial | Não | Casos, PAD/PAR, leniência, ouvidoria |
@@ -49,11 +49,11 @@ Mapeamento das **sessões identificáveis nos últimos 30 dias** (04/10/2026 a 0
 | [[3 - Materias/Administracao Geral/administracao-geral\|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
 | [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *94,4%* | 18 | 75% | **Amostragem insuficiente** (< 50 Qs) | 10/10/2026 |
 | [[3 - Materias/Informatica/informatica\|Legislação de SI e proteção de dados]] | *80,0%* | 15 | - | **Amostragem insuficiente** (< 50 Qs) | 10/10/2026 |
-| [[3 - Materias/Auditoria Governamental/auditoria-governamental\|Auditoria governamental (CGU)]] | *85,2%* (23/27; aprendizagem 11/12; para valer 12/15) | 27 | - | **Amostragem insuficiente** (< 50 Qs); unidade 04 em andamento | 02/11/2026 |
+| [[3 - Materias/Auditoria Governamental/auditoria-governamental\|Auditoria governamental (CGU)]] | *86,7%* (26/30; aprendizagem 14/15; para valer 12/15) | 30 | - | **Amostragem insuficiente** (< 50 Qs); unidade 04 em andamento | 02/11/2026 |
 | [[3 - Materias/Redacao/redacao\|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
 
 > [!NOTE]
-> A janela de 04/10 a 02/11 inclui simulados Dataprev 05 a 07 (**210 itens, 186 acertos**) e microtreinos CGU (**27 válidos, 23 acertos**; uma anulação adicional). Os dois concursos e modalidades de treino permanecem separados para interpretação da prontidão.
+> A janela de 04/10 a 02/11 inclui simulados Dataprev 05 a 07 (**210 itens, 186 acertos**) e microtreinos CGU (**30 válidos, 26 acertos**; uma anulação adicional). Os dois concursos e modalidades de treino permanecem separados para interpretação da prontidão.
 
 ### Métricas específicas por disciplina
 
@@ -62,7 +62,7 @@ Mapeamento das **sessões identificáveis nos últimos 30 dias** (04/10/2026 a 0
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | Qualidade da Transformação | *96,8%* | 14/07/2026 | 95% | **Amostragem insuficiente** (< 50 Qs) |
 
 ### Análise de evolução recente
-- **CGU, unidade 04, 02/11:** **3/3 em aprendizagem**, sem erros, sobre confiabilidade da avaliação de riscos, fatores indiretos e seleção anual de trabalhos. O resultado reforça a compreensão didática, mas não equivale a treino para valer. No intervalo de 04/10 a 02/11, CGU somou 23/27 (aprendizagem 11/12; para valer 12/15). Próximo conteúdo: composição do PAINT/RAINT.
+- **CGU, unidade 04, 02/11:** **6/6 em aprendizagem** distribuídos entre seleção anual por riscos (3/3) e PAINT/RAINT (3/3), sem erros. Entendimento didático dos 15 dias e do efeito do silêncio, das 40 horas de capacitação por auditor e da obrigação de informar trabalhos não previstos no RAINT. Ainda não equivale a treino para valer. No intervalo de 04/10 a 02/11, CGU somou 26/30 (aprendizagem 14/15; para valer 12/15). Próximo: bateria calibrada e integração dos conceitos.
 - **Auditoria Governamental, CGU, 30/10:** unidades 02 e 03: **20/24** válidas, aprendizagem 8/9, para valer 12/15, 1 anulada. Erros conceituais: conflito de interesses, operação de controles, resposta ao risco e classificação do residual. Próxima: unidade 04, planejamento por riscos.
 - **Pós-prova Dataprev — sinal provisório de calibração em Português (13/10):** a reconstrução de memória das 12 respostas de Português do caderno Tipo 2, comparada ao gabarito **preliminar**, indicou 6/12 e erros concentrados em coerência, referenciação, flexão/pronomes, tipologia e valor semântico de adjetivos. **Não é desempenho oficial**: as respostas foram reconstruídas sem cartão-resposta e o gabarito ainda pode mudar. A lição transferível para os próximos concursos é metodológica: calibrar Português de forma mais capciosa pelo corpus real da banca, com alternativas próximas e interpretação fina, para evitar que simulados fáceis superestimem o domínio.
 - **Simulado 07 — 10/10**: [[00 - Desempenho/Simulados/Simulado-07|Simulado 07 — Dataprev FGV]]: **60/70 (85,7%)**, nota ponderada **99/115 (86,1%)** e TAP diária **85,4%**. Foi o primeiro simulado pós-ledger, com **97,1% de mecanismos novos e 0 repetição exata**. A queda frente aos cadernos anteriores é mais informativa do que alarmante: Gerais 34/40 e Comunicação 26/30, com erros dispersos e Marco Civil ainda recorrente.
@@ -105,7 +105,7 @@ Mapeamento das **sessões identificáveis nos últimos 30 dias** (04/10/2026 a 0
 
 | Semana / Período | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Análise de Saturação Semanal |
 | :--- | :--- | :--- | :--- | :--- |
-| **Semana 45** (02/11 a 08/11) | **3** | **100,0% (3/3)** | **100,0%** (aprendizagem, peso 1,0) | CGU Auditoria, unidade 04: critérios para selecionar trabalhos com base em riscos; sem erros; carga não informada. |
+| **Semana 45** (02/11 a 08/11) | **6** | **100,0% (6/6)** | **100,0%** (aprendizagem, peso 1,0) | CGU Auditoria, unidade 04: critérios de seleção, PAINT e RAINT; seis itens didáticos corretos em duas baterias; carga não informada. |
 | **Semana 44** (26/10 a 01/11) | **24** | **83,3% (20/24)** | **83,3%** (microtreino, peso 1,0) | Carga não informada; 8/9 aprendizagem, 12/15 para valer; 1 anulada fora da pontuação. |
 | **Semana 41** (05/10 a 11/10) | 210 | 88,6% (186/210) | 88,5% | **Alta**: Simulados 05, 06 e 07. O Simulado 07 foi o primeiro pós-ledger, com 97,1% de mecanismos novos; fez 60/70 e 99/115. A redução do agregado semanal deve ser lida junto da melhora na qualidade do instrumento, não como queda pura de domínio. |
 | **Semana 40** (28/09 a 04/10) | 140 | 90,0% (126/140) | 89,4% | **Alta**: Simulados 03 e 04 completos, ambos com distribuição oficial. Consolidado por disciplina: Português 22/24, Inglês 24/24, Lógica 6/10, Atualidades/IA 11/12, Legislação 8/10 e Comunicação 55/60. A nota ponderada subiu de 103,5/115 no Simulado 03 para 105/115 no Simulado 04; Lógica recuperou no segundo simulado, embora o método do bloco tenha reincidido. |

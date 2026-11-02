@@ -13,13 +13,13 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 ---
 
-**CGU 2026/Auditoria:** 27 itens válidos respondidos até 02/11, com 23 acertos: aprendizagem 11/12, para valer 12/15; unidades 02 e 03 concluídas, unidade 04 com treino didático 3/3 e aprofundamento ainda em andamento; mais uma questão anulada e substituída. Esses dados são distintos de simulados, notas líquidas ou resultados Dataprev. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços locais]] e os itens individualizados em `data/questoes-ledger.json`.
+**CGU 2026/Auditoria:** 30 itens válidos respondidos até 02/11, com 26 acertos: aprendizagem 14/15, para valer 12/15; unidades 02 e 03 concluídas, unidade 04 com treino didático 6/6 e aprofundamento ainda em andamento; mais uma questão anulada e substituída. Esses dados são distintos de simulados, notas líquidas ou resultados Dataprev. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços locais]] e os itens individualizados em `data/questoes-ledger.json`.
 
 ## Log de Saturação Diária
 
 | Data | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Sintomas Qualitativos da Sessão |
 | :--- | :--- | :--- | :--- | :--- |
-| **02/11/2026** | **3** | **100,0% (3/3)** | **100,0%** (peso 1,0) | **Carga não relatada**: CGU Auditoria, unidade 04, treino de aprendizagem sobre maturidade de riscos, fatores indiretos e critérios de seleção do PAINT. Sem erros; não é treino para valer nem simulado. |
+| **02/11/2026** | **6** | **100,0% (6/6)** | **100,0%** (peso 1,0) | **Carga não relatada**: CGU Auditoria, unidade 04, duas baterias de aprendizagem sobre maturidade de riscos, fatores indiretos, PAINT e RAINT. Sem erros; não é treino para valer nem simulado. |
 | **30/10/2026** | **24** | **83,3% (20/24)** | **83,3%** (peso 1,0) | **Carga não relatada**: CGU Auditoria, aprendizagem 8/9, para valer 12/15; quatro erros de classificação e responsabilidade, duas unidades concluídas, uma questão anulada fora do cálculo. Nenhum simulado. |
 | 10/10/2026 | 70 | 85,7% (60/70) | 85,4% | **Alta**: Simulado 07 integral. Português 9/12, Inglês 11/12, Lógica 4/5, Atualidades/IA 6/6, Legislação 4/5 e Comunicação 26/30; **99/115**. Primeiro caderno pós-ledger: 97,1% de mecanismos novos e 0 repetição exata. Queda frente aos simulados anteriores sem evidência de colapso; maior novidade tornou o instrumento mais exigente. |
 | 06/10/2026 | 70 | 90,0% (63/70) | 90,4% | **Alta**: Simulado 06 integral. Português 10/12, Inglês 12/12, Lógica 5/5, Atualidades/IA 5/6, Legislação 4/5 e Comunicação 27/30; 103,5/115. **Qualidade do instrumento separada da carga:** 45,7% do caderno teve repetição exata ou mecânica, portanto o resultado não serve como benchmark independente de dificuldade. |

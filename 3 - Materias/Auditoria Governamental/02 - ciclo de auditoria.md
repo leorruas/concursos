@@ -145,7 +145,7 @@ O **parecer da auditoria interna sobre a prestação de contas anual** é distin
 
 **Fontes normativas:** [IN SFC/CGU nº 5/2021, texto na Wiki CGU](https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_5%2C_de_27_de_agosto_de_20218); [CGU, perguntas frequentes sobre o PAINT](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/uaig/perguntas-frequentes); [CGU, PAINT e RAINT publicados](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/PAINT-e-RAINT).
 
-**Situação didática:** conteúdo explicado no chat e consolidado na nota em **02/11/2026**; **PAINT/RAINT ainda não testados por respostas do estudante**. O treino didático anterior da mesma unidade, sobre bases de avaliação de riscos e seleção, teve **3/3 (C/E/C)**, sem inferência de domínio da unidade inteira.
+**Situação didática:** conteúdo explicado no chat e consolidado na nota em **02/11/2026**; **PAINT/RAINT testados em três itens didáticos, 3/3 (E/C/C)**; somados aos três itens sobre bases de avaliação de riscos e seleção, a unidade 04 possui **6/6 em aprendizagem** na sessão de 02/11/2026. O treino para valer, com prova-espelho efetivamente calibrada, segue pendente; não inferir domínio da unidade inteira.
 
 
 ### 1. Planejamento: formular perguntas que os testes poderão responder

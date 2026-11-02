@@ -22,6 +22,12 @@ O modelo de aula preferido foi confirmado em 02/11/2026, no estudo da CGU sobre 
 
 **Transferência para outros temas:** seguir a estrutura causal real da matéria: casos e consequências para Direito, decisão e etapas para Administração e Auditoria, premissas e contraexemplos para Lógica, autores e fronteiras para Comunicação. O recurso didático serve ao conteúdo, não o contrário. Não presumir que a situação hipotética seja fato de órgão público. Concluir aula e fronteiras **antes** de cobrar questão; preservar a nota canônica existente e acrescentar refinamento apenas quando consolidado, sem duplicar explicações.
 
+## Respostas interativas em questões e simulados
+
+**Preferência confirmada em 02/11/2026:** quando o cliente suportar controles interativos, apresentar por padrão **opções clicáveis** para todas as questões: Certo/Errado para Cebraspe, A/B/C/D/E para múltipla escolha, com um botão **“Corrigir minhas respostas”** que envie a seleção como mensagem ao chat. Evitar exigir que o estudante digite sequências de letras. Para baterias, manter estado individual de cada resposta, permitir alteração antes do envio e somente habilitar correção quando os itens necessários tiverem sido respondidos; permitir branco ou pular quando compatível com a prova e o objetivo do treino. **Nunca enviar automaticamente** sem ação do estudante. Quando os controles não estiverem disponíveis, aceitar respostas digitadas de forma compacta como alternativa.
+
+A interface de resposta não muda as regras pedagógicas: declarar modalidade antes do primeiro item, explicar primeiro a matéria e as fronteiras, mostrar correção comentada depois da resposta e registrar cada item respondido no ledger sem confundir treino de aprendizagem, treino para valer e simulado. Campo de justificativa é opcional; não condicionar a correção a redação longa. Evitar ícones decorativos, elementos excessivos ou UI que esconda o enunciado.
+
 ## Identificação das questões: aprendizagem e para valer
 
 **Antes de apresentar qualquer questão ou bateria no chat**, rotular explicitamente sua função. Usar três modalidades:

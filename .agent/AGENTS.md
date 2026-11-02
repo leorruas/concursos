@@ -71,6 +71,12 @@ Esse documento é a régua canônica para artigos de estudo. Prompts específico
 
 Para qualquer tarefa em `3 - Materias/Atualidades/`, aplicar também a seção **Extensão editorial para Atualidades** do padrão editorial. Antes de criar ou atualizar conteúdo, ler o hub `[[3 - Materias/Atualidades/atualidades|Atualidades]]`, os artigos existentes, o edital ativo pertinente e os registros de desempenho/erros relacionados. Informações conjunturais exigem pesquisa web e prioridade para fontes oficiais primárias; fundamentos estáveis e snapshots conjunturais devem permanecer explicitamente separados.
 
+### Protocolo de resposta interativa e envio por clique
+
+**Regra de interação aprovada em 02/11/2026:** usar por padrão seletores clicáveis em questões e simulados se a interface da conversa os suportar. Para julgamento Cebraspe: escolha **Certo/Errado** por item. Para múltipla escolha: **A, B, C, D, E**. Manter seleções separadas e revisáveis e disponibilizar botão claro para enviar todas as respostas selecionadas em uma única mensagem; a mensagem deve incluir número/ID do item, modalidade e respostas, para evitar erros de associação. Não acionar correção em mudança de opção: aguardar clique explícito no botão de envio. Para simulado com branco admitido, permitir escolha **Em branco**, sem forçar resposta. Texto opcional pode registrar dúvida/justificativa; não transformar isso em formulário obrigatório nem pedir que digite letras quando o controle clicável funcionar.
+
+Esse formato melhora a interação, mas **não substitui** auditoria da qualidade, fonte, gabarito, classificação de erro e registro no ledger. Fallback: se o cliente não renderizar controles, aceitar sequências compactas digitadas. Evitar decoração, ícones e botões inertes. Os rótulos da banca e o contrato de pontuação prevalecem.
+
 ### Questões: declaração prévia de modalidade e evidência de calibração
 
 O estudante deve ser informado **antes do enunciado**, sempre que o treino tiver finalidade diferente:

@@ -88,7 +88,7 @@ A fronteira com o **planejamento individual** permanece: o PAINT seleciona o con
 
 **Fontes primárias específicas:** [MOT da CGU, seções 4.1.3 a 4.1.5](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal); [Orientação Prática: Plano de Auditoria Interna Baseado em Riscos, seções 3.3 a 3.8](https://wiki.cgu.gov.br/index.php/Orienta%C3%A7%C3%A3o_pr%C3%A1tica_PABR), aprovada pela Portaria SFC/CGU nº 1.055/2020.
 
-**Estado didático desta unidade em 02/11/2026:** aula e fronteiras explicadas; diagnóstico de aprendizagem ainda sem resposta corrigida. A distinção foi documentada, mas o desempenho na unidade 04 não foi aferido.
+**Estado didático desta unidade em 02/11/2026:** aula e fronteiras explicadas; diagnóstico de aprendizagem realizado, **3/3 (C/E/C)**, sem erros. O resultado demonstra entendimento inicial das diferenças estudadas, sem validação de prontidão, e permanecem pendentes o aprofundamento do PAINT/RAINT e o treino calibrado.
 
 
 ### 1. Planejamento: formular perguntas que os testes poderão responder

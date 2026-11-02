@@ -3,12 +3,12 @@ title: "Desempenho por edital e prova"
 type: "hub"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-10-10
+updated: 2026-11-02
 ---
 
 # Desempenho por edital e prova
 
-Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 30/10/2026.
+Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 02/11/2026.
 
 Este hub separa três medidas que não devem ser misturadas: **aproveitamento bruto**, **nota calculada pelas regras do edital** e **comparabilidade da prova com o concurso atual**. O objetivo é impedir que um percentual alto em uma bateria de composição diferente seja interpretado como estimativa direta de classificação.
 
@@ -16,7 +16,7 @@ Este hub separa três medidas que não devem ser misturadas: **aproveitamento br
 
 **Corpus fonte de exercícios:** [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|CGU 2026 — Provas-espelho: conteúdo × formato]], com PDFs oficiais, estados de verificação, gabaritos e protocolo de indexação em `data/corpus-provas-espelho.json`. Prova localizada não é simulado realizado.
 
-**Sem prova, simulado ou discursiva CGU integral até 30/10/2026.** Há microtreinos em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]: **24 itens válidos, 20 acertos**, divididos em **aprendizagem 8/9** e **para valer 12/15**, unidades 02 e 03 concluídas; houve uma questão anulada e substituída, excluída da pontuação. Eles não equivalem a nota líquida ou prontidão de prova. Os 25 enunciados respondidos (24 válidos, 1 anulado) estão individualizados no ledger por modalidade, sem lançamento como simulado. Manter Dataprev/FGV e Câmara/Cebraspe separados.
+**Sem prova, simulado ou discursiva CGU integral até 02/11/2026.** Há microtreinos em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]: **27 itens válidos, 23 acertos**, divididos em **aprendizagem 11/12** e **para valer 12/15**; unidades 02 e 03 consolidadas e unidade 04 em estudo, com 3/3 no treino de aprendizagem. Houve uma questão anulada e substituída, excluída da pontuação. Esses resultados não equivalem a nota líquida ou prontidão de prova. Os 28 enunciados respondidos (27 válidos, 1 anulado) estão individualizados no ledger por modalidade, sem lançamento como simulado. Manter Dataprev/FGV e Câmara/Cebraspe separados.
 
 | Prova | Itens | Acerto / erro / branco | Máximo | Mínimo eliminatório |
 | :--- | ---: | :--- | ---: | ---: |

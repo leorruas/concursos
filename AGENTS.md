@@ -12,6 +12,16 @@ A técnica de Feynman serve **para explicar**: partir de um problema concreto, u
 
 **Não criar na nota seções automáticas como “Verificação de compreensão (Feynman)”**, convites para o leitor explicar com as próprias palavras nem questionários metacognitivos. A interação para verificar o entendimento, identificar confusões e corrigir o raciocínio ocorre **no chat**, a partir das respostas reais do estudante. Na wiki, preservar a explicação, as fronteiras conceituais e, quando relevantes, **itens comentados em formato de prova**, que são outra finalidade. Não registrar domínio ou erro sem resposta efetivamente dada.
 
+## Padrão de explicação aprovado pelo estudante: caso → mecanismo → decisão → limites
+
+O modelo de aula preferido foi confirmado em 02/11/2026, no estudo da CGU sobre planejamento baseado em riscos. Ele é **um padrão de raciocínio, não um molde de formatação**. Em cada conteúdo, partir de um problema institucional concreto e inteligível; explicitar a pergunta que aquele conceito ou norma pretende resolver; apresentar a lógica da solução em etapas, sem pular condições; em seguida, desenvolver definições técnicas, categorias, responsabilidades e sua finalidade. Não iniciar com taxonomias soltas nem com uma sucessão de frases-resumo.
+
+**Desenvolvimento recomendado:** (1) situação-problema única que evolui ao longo da aula; (2) procedimento ou alternativas reais de decisão na **ordem normativa correta**, inclusive pré-requisitos e saídas quando não houver dados; (3) comparação direta de conceitos próximos por perguntas distintas, como materialidade, relevância e criticidade; (4) exemplo aplicado com critérios e resultados interpretados, preferencialmente em tabela quando a comparação ajudar; (5) distinção entre fatos da fonte, hipóteses e valores ilustrativos; (6) condições, exceções, insuficiências metodológicas e deslocamentos que a banca explora; (7) conclusão operacional com heurística e ponte para a próxima etapa do edital.
+
+**Mostrar por que, e não só o que:** explicar por que determinado critério é útil e o que muda a decisão se uma premissa for alterada. Ao usar números, explicitar escalas, pesos, dados que justificariam notas e que a fórmula pode ser apenas didática. Comparar, por exemplo, avaliação direta de eventos e avaliação indireta por fatores sem equipará-las. Evitar tanto a explicação abstrata e curta demais quanto a repetição longa do mesmo conteúdo. Tabelas e fluxos só quando ajudam a enxergar diferenças; a exposição principal deve ter parágrafos coesos, linguagem simples, precisão normativa e poucos elementos decorativos.
+
+**Transferência para outros temas:** seguir a estrutura causal real da matéria: casos e consequências para Direito, decisão e etapas para Administração e Auditoria, premissas e contraexemplos para Lógica, autores e fronteiras para Comunicação. O recurso didático serve ao conteúdo, não o contrário. Não presumir que a situação hipotética seja fato de órgão público. Concluir aula e fronteiras **antes** de cobrar questão; preservar a nota canônica existente e acrescentar refinamento apenas quando consolidado, sem duplicar explicações.
+
 ## Identificação das questões: aprendizagem e para valer
 
 **Antes de apresentar qualquer questão ou bateria no chat**, rotular explicitamente sua função. Usar três modalidades:

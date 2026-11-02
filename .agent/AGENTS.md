@@ -105,6 +105,21 @@ A implementação do intensivão exige **um único bloco conceitual por ciclo**,
 
 **Exemplo de aplicação CGU:** antes de perguntar se o sigilo profissional impede comunicação interna, ensinar conjuntamente os **itens 55 a 58 da IN SFC nº 3/2017**, os destinatários competentes e a diferença entre **proteção do dado, comunicação institucional autorizada e divulgação externa indevida**. Se apenas o item 56 foi explicado, a questão que depende do item 58 **não mede domínio do aluno**.
 
+### Qualidade explicativa: problema real, procedimento completo, contraste e aplicação
+
+**Preferência pedagógica explicitamente confirmada em 02/11/2026:** a aula sobre priorização de auditorias funcionou quando partiu do problema de uma UAIG com capacidade limitada, apresentou a sequência contextual → universo → maturidade → seleção, diferenciou as três bases possíveis de avaliação de riscos, explicou os motivos de uso de cada alternativa, contrastou materialidade, relevância e criticidade e aplicou uma matriz hipotética com notas, justificativas, pesos e limites. Replicar **a lógica** desse ensino, não necessariamente o mesmo tamanho, a tabela ou o tema.
+
+Para qualquer nova aula:
+1. **Problema concreto:** descrever a decisão, a dificuldade e as consequências, sem inventar fatos sobre instituições reais;
+2. **Caminho explicativo:** ensinar o procedimento do começo ao fim na ordem recomendada pela fonte, mostrando as condições que habilitam cada alternativa;
+3. **Definição após função:** introduzir o termo técnico junto da pergunta prática que ele responde; diferenciar termos vizinhos por critérios operacionais;
+4. **Exemplo acompanhado:** fazer um único caso evoluir, preferindo números comparáveis ou casos contrastivos quando ajudam, com escalas, pesos, hipóteses e limitações transparentes;
+5. **Contrafactual:** alterar uma premissa e explicar por que prioridade, classificação ou consequência mudaria; delimitar regra geral, exceções e ambiguidades terminológicas;
+6. **Prova:** apontar transposições de categorias, condições omitidas, falsa equivalência entre fatores e riscos, além de palavras que alteram o julgamento, sem reduzir o treino a truques linguísticos;
+7. **Consolidação:** concluir com uma regra de decisão e manter o registro na nota canônica, sem marcar como domínio um conteúdo ainda não testado.
+
+A utilidade de materialidade, relevância e criticidade na priorização indireta foi o exemplo validado. **Sempre explicar o nexo entre conceito, motivo de uso, evidência, escolha e limite.** A organização do texto deve acompanhar o raciocínio em prosa; tabelas e diagramas ficam opcionais e devem justificar seu espaço. Não interromper antes de completar a parte normativa necessária. Não confundir reprodução de texto da fonte com hipótese ilustrativa ou interpretação do assistente.
+
 ### Regra editorial de siglas na primeira menção
 
 Toda nota de estudo, roteiro, relatório, questão comentada e explicação de aula deve apresentar **nome oficial ou técnico completo (SIGLA)** no **primeiro uso de cada texto**, reutilizando depois somente a sigla. Isso vale para instituições, unidades, normas, leis, modelos, programas, planos, relatórios e abreviações em línguas estrangeiras. Exemplos: **Controladoria-Geral da União (CGU)**; **Secretaria Federal de Controle Interno (SFC)**; **Unidade de Auditoria Interna Governamental (UAIG)**; **Manual de Orientações Técnicas (MOT)**; **Instrução Normativa (IN)**; **Plano Anual de Auditoria Interna (PAINT)** e **Lei Geral de Proteção de Dados Pessoais (LGPD)**.

@@ -1,7 +1,7 @@
 {
   "versao": 1,
   "concursoAlvo": "cgu-2026",
-  "atualizadoEm": "2026-10-09",
+  "atualizadoEm": "2026-11-02",
   "definicao": "Fontes oficiais classificadas por utilidade: conteúdo e forma de cobrança são eixos independentes; não declarar item indexado sem PDF+gabarito conferidos.",
   "provas": [
     {
@@ -93,8 +93,13 @@
       ],
       "edital": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/C264386053CAB55BDCA62806E4E6DF992CA8851CCED0E14318D8F334F82A1651.html",
       "paginaProvas": "https://www.cebraspe.org.br/concursos/cge_al_26",
-      "pdf": null,
-      "observacao": "Edital oficial C/E verificado, mas URL do caderno e gabarito definitivo ainda não identificadas; não classificar conteúdo de questões como analisado."
+      "pdf": {
+        "url": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf",
+        "archivarNoGitHub": false,
+        "verificado": "Caderno oficial 4 páginas inspecionado, 02/11/2026; quatro itens 61, 62, 65 e 70 confirmados, não arquivado no GitHub"
+      },
+      "observacao": "Prova C/E e gabarito definitivo confirmados; quatro itens indexados. Calibração parcial de mecanismos, não equivalência estatística.",
+      "gabaritoUrl": "https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf"
     },
     {
       "id": "tcu-2026-cebraspe-auditoria-ti-basicos",

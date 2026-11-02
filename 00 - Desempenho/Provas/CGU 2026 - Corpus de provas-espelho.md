@@ -3,7 +3,7 @@ title: "CGU 2026 — Corpus de provas-espelho"
 type: "corpus-provas"
 status: "em_construcao"
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-11-02
 ---
 
 # CGU 2026 — Corpus de provas-espelho
@@ -16,11 +16,11 @@ updated: 2026-10-09
 | :--- | :--- | :--- | :--- |
 | [CGU 2022 — Auditoria e Fiscalização, específicos](https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controle_-_area_auditoria_e_fiscalizacaoaffc-af_tipo_1_tarde.pdf) | FGV, 80 questões A–E | **Principal de conteúdo e atribuições**; não imitar o formato de respostas | Caderno oficial e [gabarito definitivo retificado](https://conhecimento.fgv.br/sites/default/files/concursos/cgu2021_gabarito_definitivo_retificado_20.04.2022.pdf) localizados; indexação individual pendente |
 | [CGU 2022 — básicos, manhã](https://conhecimento.fgv.br/sites/default/files/concursos/cgu_2021_auditor_federal_de_financas_e_controleaffc_tipo_1_manha.pdf) | FGV, A–E | Complementar P1/P2; verificar atualidade dos temas | Link oficial identificado; PDF ainda não validado |
-| [CGE/AL 2026 — Controle Interno](https://www.cebraspe.org.br/concursos/cge_al_26) | Cebraspe, **C/E** (edital verificado) | **Principal candidata para formato** e processos de controle, quando caderno recuperado | Caderno e gabarito definitivo pendentes |
+| [CGE/AL 2026 — Controle Interno](https://www.cebraspe.org.br/concursos/cge_al_26) | Cebraspe, **C/E** (caderno e gabarito definitivo conferidos) | Referência de mecanismos C/E em auditoria governamental | Itens 61, 62, 65 e 70: **E, C, C, E** no gabarito definitivo; não equivalem a uma calibração integral de dificuldade |
 | [TCU 2026 — AUFC Auditoria de TI, básicos](https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/E853346980B6093207C3ECF8630F11E71C8F39D74F9D7881E2AB5DE760FB5366.pdf) | Cebraspe, **C/E** (caderno real) | Evidência imediata de formulação de itens, comandos, escopo e extensão; **não** copiar distribuição temática de TI | Caderno oficial confirmado, gabarito definitivo pendente |
 | [TCE/MG 2026 — Ciências Contábeis](https://www.cebraspe.org.br/concursos/tce_mg_25) | Cebraspe, **múltipla escolha A–E** | Corpus secundário de auditoria/contabilidade, **não** modelo C/E | Caderno e gabarito definitivo pendentes |
 
-A **CGU 2022 foi organizada pela FGV** e serve para aproximar o conteúdo; a CGU 2026 é **Cebraspe C/E**. Mesma banca não implica mesmo formato: o TCE/MG 2026 utilizou cinco alternativas. O edital da CGE/AL 2026 prevê C/E, mas não se pode tratar seu corpus como analisado antes de recuperar o caderno.
+A **CGU 2022 foi organizada pela FGV** e serve para aproximar o conteúdo; a CGU 2026 é **Cebraspe C/E**. Mesma banca não implica mesmo formato: o TCE/MG 2026 utilizou cinco alternativas. O caderno C/E da CGE/AL e seu gabarito definitivo foram inspecionados em 02/11/2026, com análise dos itens 61, 62, 65 e 70. A amostra de quatro mecanismos não é suficiente para atestar equivalência de dificuldade com uma prova integral da CGU.
 
 ## Arquivo permanente das fontes PDF
 
@@ -58,13 +58,26 @@ Quatro itens da prova **CGU 2022 / Auditoria e Fiscalização / TARDE / TIPO 1**
 
 O registro estruturado está em `data/corpus-itens.json`; o estado **`validadeNormativa: revalidar_2026`** proíbe tratar esses itens como diagnóstico atual pronto até conferir a legislação e jurisprudência vigentes. Mesmo assim, a extração de **mecanismos conceituais reais** já orienta a preparação da primeira bateria inédita de treino. Os PDFs oficiais completos continuam no acervo, para consulta do enunciado original e alternativas.
 
+## Calibração verificada do Cebraspe: CGE/AL 2026 (02/11)
+
+Prova oficial de Conhecimentos Específicos para Analista de Controle Interno, Ciências Contábeis, caderno de 23/08/2026; gabarito definitivo de 29/09/2026. O caderno tem formato **Certo/Errado**, mas a especialidade, o órgão e parte das normas diferem da CGU 2026.
+
+| Questão real | Definitivo | Mecanismo examinado |
+| :---: | :---: | :--- |
+| 61 | **E** | Conclusão com alcance excessivo: qualquer pessoa reproduziria o trabalho |
+| 62 | **C** | Programa de auditoria e procedimentos analíticos |
+| 65 | **C** | Escopo como foco e limites ligados a objetivos |
+| 70 | **E** | Definição de risco deslocada indevidamente para materialidade |
+
+**Aplicação ao treino da unidade 04:** oito itens novos sobre planejamento por riscos, PAINT e RAINT; **6/8**, sendo um erro e um branco. A análise sustenta aproximação de mecanismos (escopo, categorias próximas, extensão da afirmação), mas **não** possui amostra suficientemente ampla, tempo controlado ou validação estatística de dificuldade para predizer nota na CGU. [Caderno específico](https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/6A03839D2036E88263FC70B58771671F2C9BA0908A6431D21DBAA81935A43DF2.pdf#page=1); [gabarito oficial definitivo](https://cdn.cebraspe.org.br/concursos/CGE_AL_26/arquivos/A3A16EACEC6609C65C560D319924002DC6EAE8D577C8BB6988EB4EE8BE4E05F6.pdf#page=1). Cada item real está indexado em `data/corpus-itens.json`.
+
 ## Pendências auditáveis
 
 - [x] Confirmar PDF CGU 2022, específicos, tipo 1, e gabarito definitivo.
 - [x] Confirmar PDF de caderno C/E TCU AUFC 2025/2026, conhecimentos básicos.
 - [x] Identificar por edital que CGE/AL é C/E e que TCE/MG é múltipla escolha.
 - [x] Confirmar 4 PDFs binários versionados em GitHub com tamanho e SHA-256 no manifesto; termos de redistribuição ainda exigem verificação para uso externo.
-- [ ] Localizar caderno e **gabarito definitivo da CGE/AL 2026**.
+- [x] Localizar caderno e **gabarito definitivo da CGE/AL 2026** e conferir quatro itens de auditoria; ampliar amostra permanece pendente.
 - [ ] Localizar caderno e gabarito definitivo de TCE/MG 2026.
 - [ ] Recuperar gabarito definitivo da prova AUFC TCU e associar por modelo.
 - [x] Indexar piloto de quatro itens CGU 2022 (Tipo 1 / tarde) com páginas, mecanismos e gabarito definitivo, **sem ainda validar legislação 2026**.

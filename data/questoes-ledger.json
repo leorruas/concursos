@@ -320,6 +320,47 @@
         "note": "Sem justificativa ou grau de confiança informados."
       },
       "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_nota"
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade05-revisao",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "date": "2026-11-03",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "revisao"
+      ],
+      "origin": "inedita",
+      "totalQuestions": 6,
+      "plannedItems": 6,
+      "validItems": 6,
+      "annulledItems": 0,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "noveltyException": "Bateria de revisão dirigida intencionalmente derivada dos dois erros anteriores da unidade 05: quatro revisões temáticas e duas mecânicas, sem itens novos para benchmark.",
+      "qualityStatus": "revisao_aplicada_6_6_nao_benchmark",
+      "qualityNote": "Revisão aplicada de escopo/critério e supervisão de programa individual: 6/6, após aprendizagem 4/6. Confirma recuperação imediata, sem comprovar retenção espaçada ou calibração de dificuldade para prova.",
+      "generationAudit": {
+        "counts": {
+          "new": 0,
+          "thematic": 4,
+          "mechanical": 2,
+          "exact": 0
+        },
+        "newRate": 0,
+        "thematicRate": 0.6666666666666666,
+        "mechanicalRate": 0.3333333333333333,
+        "exactRate": 0,
+        "intentionalReviewRate": 1
+      },
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Seleção de C/E sem grau de confiança ou justificativa pessoal."
+      },
+      "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_nota"
     }
   ],
   "questions": [
@@ -8304,6 +8345,234 @@
         "similarTo": [],
         "intentional": false,
         "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-revisao-q1",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-revisao",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 1,
+      "questionNumberInBatch": 1,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Escopo territorial e temporal definido por riscos",
+      "questionType": "case",
+      "mechanism": "delimitacao-de-contratos-ano-e-unidades-constitui-escopo",
+      "distractorMechanism": "escopo-seria-criterio",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade05-revisao-aplicada",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, item 134; MOT CGU, 4.3.2.2",
+      "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un05-q1"
+        ],
+        "intentional": true,
+        "transformation": "Revisão aplicada da fronteira Escopo territorial e temporal definido por riscos com enunciado contextual distinto da bateria de aprendizagem.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-revisao-q2",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-revisao",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 2,
+      "questionNumberInBatch": 2,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Recorte temporal não é padrão de conformidade",
+      "questionType": "classification",
+      "mechanism": "periodo-examinado-nao-define-criterio-de-conformidade",
+      "distractorMechanism": "periodo-como-criterio",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade05-revisao-aplicada",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, itens 134 e 139; MOT CGU, 4.3.2.2 e 4.3.3",
+      "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un05-q1"
+        ],
+        "intentional": true,
+        "transformation": "Revisão aplicada da fronteira Recorte temporal não é padrão de conformidade com enunciado contextual distinto da bateria de aprendizagem.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-revisao-q3",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-revisao",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 3,
+      "questionNumberInBatch": 3,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Meta de desempenho como critério não necessariamente legal",
+      "questionType": "comparison",
+      "mechanism": "criterio-desempenho-nao-precisa-ser-lei-ou-regulamento",
+      "distractorMechanism": "criterios-restritos-a-normas-juridicas",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade05-revisao-aplicada",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, 4.3.3 (padrões razoáveis e atingíveis de desempenho)",
+      "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un05-q1"
+        ],
+        "intentional": true,
+        "transformation": "Revisão aplicada da fronteira Meta de desempenho como critério não necessariamente legal com enunciado contextual distinto da bateria de aprendizagem.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-revisao-q4",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-revisao",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 4,
+      "questionNumberInBatch": 4,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Ajuste justificado exige aprovação prévia do supervisor",
+      "questionType": "case",
+      "mechanism": "programa-ineficaz-exige-ajuste-aprovado-pelo-supervisor",
+      "distractorMechanism": "ajuste-sem-anuencia",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade05-revisao-aplicada",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, item 141; MOT CGU, 4.3.3",
+      "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un05-q3"
+        ],
+        "intentional": true,
+        "transformation": "Revisão aplicada da fronteira Ajuste justificado exige aprovação prévia do supervisor com enunciado contextual distinto da bateria de aprendizagem.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-revisao-q5",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-revisao",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 5,
+      "questionNumberInBatch": 5,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Coordenador não aprova sozinho aumento de testes",
+      "questionType": "application",
+      "mechanism": "paint-aprovado-nao-dispensa-supervisor-para-novos-testes",
+      "distractorMechanism": "coordenador-com-competencia-exclusiva",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade05-revisao-aplicada",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, item 141",
+      "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un05-q3"
+        ],
+        "intentional": true,
+        "transformation": "Revisão aplicada da fronteira Coordenador não aprova sozinho aumento de testes com enunciado contextual distinto da bateria de aprendizagem.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-revisao-q6",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-revisao",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 6,
+      "questionNumberInBatch": 6,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Análise de riscos pode refinar objetivos e escopo",
+      "questionType": "comparison",
+      "mechanism": "risco-controle-refina-escopo-sem-virar-criterio",
+      "distractorMechanism": "fator-selecao-de-escopo-tratado-como-criterio",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade05-revisao-aplicada",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, 4.3.2.2",
+      "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un05-q1"
+        ],
+        "intentional": true,
+        "transformation": "Revisão aplicada da fronteira Análise de riscos pode refinar objetivos e escopo com enunciado contextual distinto da bateria de aprendizagem.",
         "userFlagged": false
       }
     }

@@ -198,7 +198,15 @@ O programa e eventuais ajustes devem ser **documentados e previamente aprovados 
 
 **Refinamento para a próxima revisão (03/11):** critérios de auditoria não se limitam a leis e regulamentos: o MOT, seção 4.3.3, admite padrões razoáveis e atingíveis de desempenho para avaliar economia, eficiência e eficácia. Uma meta institucional formal e pertinente pode fornecer um critério, desde que sua adequação seja justificada; o simples período de referência da meta continua integrando o **escopo**. A definição de escopo pode ser revista após a análise de riscos e controles (MOT, seção 4.3.2.2), sem que delimitações se convertam em critérios. Quanto ao **programa**, o Referencial Técnico, item 141, exige **documentação e aprovação prévia pelo supervisor tanto da versão inicial quanto de ajustes posteriores**. Justificar ou comunicar uma alteração após executá-la não equivale a obter anuência prévia. Fontes: [MOT, seções 4.3.2.2 e 4.3.3](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal) e [IN SFC nº 3/2017, item 141](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/pgmq/arquivos/in-sfc-03-2017-referencial-tecnico.pdf).
 
-**Bateria:** respostas C/C/C/C/C/E; gabarito E/C/E/C/C/E; **4/6 (66,7%)**. Acertos sobre subquestões e matriz, fonte versus procedimento, risco de auditoria versus risco do objeto e Ordem de Serviço versus programa. Sem justificativas verbais, a tipologia dos dois erros é provisória. A próxima bateria deve testar essas duas distinções em contextos novos, sem inferir domínio pelo resultado didático.
+**Bateria:** respostas C/C/C/C/C/E; gabarito E/C/E/C/C/E; **4/6 (66,7%)**.
+
+#### Refinamento: revisão aplicada da unidade 05 (03/11)
+
+**Seis julgamentos corretos: C/E/E/C/E/C, 6/6.** Q1 e Q2: a delimitação de unidades e período pertence ao **escopo**, conforme IN SFC nº 3/2017, item 134, e MOT, seção 4.3.2.2. Q3: uma meta de desempenho adequada pode servir de **critério**, mesmo sem figurar em lei ou regulamento; MOT, seção 4.3.3. Q4 e Q5: o **supervisor** deve aprovar previamente o programa de trabalho e os ajustes, independentemente da aprovação do PAINT ou de manutenção do objetivo, segundo IN SFC nº 3/2017, item 141. Q6: riscos e controles permitem rever objetivo e escopo, sem converter automaticamente os fatores usados na escolha em critérios.
+
+A aprendizagem anterior havia sido **4/6**, com erro em escopo × critério e na competência para autorizar alterações do programa. A revisão corrige o julgamento desses mecanismos em outros contextos, **sem apagar os erros nem demonstrar retenção espaçada**. A bateria contém quatro reutilizações temáticas e duas mecânicas intencionais, e por isso não é benchmark de dificuldade. **Próximo passo: treino para valer com problemas novos, incluindo critérios de desempenho, planejamento individual, supervisão e risco de auditoria.**
+
+ Acertos sobre subquestões e matriz, fonte versus procedimento, risco de auditoria versus risco do objeto e Ordem de Serviço versus programa. Sem justificativas verbais, a tipologia dos dois erros é provisória. A próxima bateria deve testar essas duas distinções em contextos novos, sem inferir domínio pelo resultado didático.
 
 
 ### 1. Planejamento: formular perguntas que os testes poderão responder

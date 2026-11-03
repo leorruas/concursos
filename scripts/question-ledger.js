@@ -219,6 +219,7 @@ function confidenceSummary(qs){
 function confidenceReport(ledger,concursoId,windowSize){
   const sims=(ledger.simulations||[])
     .filter(s=>s.concursoId===concursoId)
+    .reverse()
     .sort((a,b)=>String(b.date).localeCompare(String(a.date)));
   const selected=Number.isFinite(windowSize)&&windowSize>0?sims.slice(0,windowSize):sims;
   const rows=selected.map(sim=>{
@@ -269,6 +270,7 @@ function confidenceReport(ledger,concursoId,windowSize){
 function recentQuestions(ledger,concursoId,windowSize){
   const sims=(ledger.simulations||[])
     .filter(s=>s.concursoId===concursoId)
+    .reverse()
     .sort((a,b)=>String(b.date).localeCompare(String(a.date)))
     .slice(0,windowSize);
   const ids=new Set(sims.map(s=>s.id));

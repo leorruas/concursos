@@ -1,5 +1,10 @@
 # Instruções para agentes — vault de concursos
 
+## Fluxo rápido de estudo pelo chat: prioridade operacional
+
+A partir de 03/11/2026, aulas e checkpoints de microtreinos seguem `CHAT.md`. Nesse escopo, a entrada curta e `data/contexto-estudo/<concursoId>.json` substituem a releitura integral recorrente de governança e ledger. As regras completas continuam aplicáveis a manutenção, ingestão legada, notas novas e simulados integrais. Salvar uma sessão em `data/sessoes/<id>.json` no fechamento do bloco; a automação atualiza as métricas derivadas. Corrigir na origem, preservar o legado e consolidar teoria uma vez por assunto. As antigas exigências de editar manualmente todas as superfícies por microtreino ficam substituídas pela projeção automática validada. Ver `data/sessoes/README.md`.
+
+
 Antes de modificar este repositório, leia integralmente `me.md`, `index.md` e `.agent/AGENTS.md`. Para a CGU, **não recriar `4 - Projetos/cgu-2026/`**: edital/checklist em `2 - Editais/`, objetiva/discursiva em Estratégia de Prova, métricas/simulados em `00 - Desempenho/`. As regras operacionais detalhadas ficam em `.agent/AGENTS.md`.
 
 ## Entrada de edital: corpus e geração de exercícios

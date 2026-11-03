@@ -16,7 +16,7 @@ Corte: **2026-11-03**. Fonte: itens individualizados no ledger, incluindo sessõ
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-11-03 / cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | 2026-11-03 / cgu-2026 / Auditoria Governamental / para_valer | 14 | 1 | 1 | 0 | 93.3% | insuficiente |
-| 2026-11-03 / cgu-2026 / Auditoria Governamental / aprendizagem | 9 | 3 | 0 | 0 | 75.0% | insuficiente |
+| 2026-11-03 / cgu-2026 / Auditoria Governamental / aprendizagem | 13 | 3 | 0 | 0 | 81.3% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / para_valer | 6 | 1 | 1 | 0 | 85.7% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / aprendizagem | 6 | 0 | 0 | 0 | 100.0% | insuficiente |
 | 2026-10-30 / cgu-2026 / Auditoria Governamental / para_valer | 12 | 3 | 0 | 1 | 80.0% | insuficiente |

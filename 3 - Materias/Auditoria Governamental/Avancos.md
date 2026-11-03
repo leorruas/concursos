@@ -8,6 +8,37 @@ updated: 2026-11-03
 
 # Avanços e desempenho (Auditoria governamental)
 
+<!-- estudo-sessoes:inicio -->
+## Indicadores automáticos
+
+Corte: **2026-11-03**. Fonte: itens individualizados no ledger, incluindo sessões do chat. Histórico parcialmente recuperado não equivale ao volume total estudado. Percentual = acertos / (acertos + erros); brancos e anulados separados. Modalidades e concursos permanecem separados. Volume de 50 itens não comprova domínio. Sem estimativa de nota oficial ou inferência de fadiga.
+
+### Janela de 30 dias
+
+| Concurso / disciplina / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
+| cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |
+| cgu-2026 / Auditoria Governamental / aprendizagem | 27 | 4 | 0 | 0 | 87.1% | insuficiente |
+
+### Volume diário
+
+| Dia / concurso / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-03 / cgu-2026 / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
+| 2026-11-03 / cgu-2026 / para_valer | 14 | 1 | 1 | 0 | 93.3% | insuficiente |
+| 2026-11-03 / cgu-2026 / aprendizagem | 13 | 3 | 0 | 0 | 81.3% | insuficiente |
+| 2026-11-02 / cgu-2026 / para_valer | 6 | 1 | 1 | 0 | 85.7% | insuficiente |
+| 2026-11-02 / cgu-2026 / aprendizagem | 6 | 0 | 0 | 0 | 100.0% | insuficiente |
+| 2026-10-30 / cgu-2026 / para_valer | 12 | 3 | 0 | 1 | 80.0% | insuficiente |
+| 2026-10-30 / cgu-2026 / aprendizagem | 8 | 1 | 0 | 0 | 88.9% | insuficiente |
+<!-- estudo-sessoes:fim -->
+
+## Histórico preservado
+
+Os registros abaixo são anteriores à projeção automática. Não somar seus totais às tabelas acima.
+
+
 Registro das questões respondidas na preparação para a **Controladoria-Geral da União (CGU) 2026**, especialidade Auditoria. Questões **inéditas** em formato certo/errado do Cebraspe; os exercícios de **aprendizagem** e **para valer** têm finalidades distintas. Neste histórico, **questões reais originais = 0; questões adaptadas = 0; simulados completos = 0**.
 
 **Registro estruturado:** `data/questoes-ledger.json`: **83 enunciados, 82 itens válidos, 70 acertos, 10 erros, 2 brancos e uma questão anulada**. Modos aprendizagem, revisão e para valer separados; nenhum simulado integral.

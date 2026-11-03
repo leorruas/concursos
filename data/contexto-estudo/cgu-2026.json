@@ -30,18 +30,26 @@
     },
     {
       "key": "Auditoria Governamental / aprendizagem",
-      "total": 27,
-      "correct": 23,
+      "total": 31,
+      "correct": 27,
       "incorrect": 4,
       "blank": 0,
       "annulled": 0,
-      "answered": 27,
-      "valid": 27,
-      "accuracy": 0.8518518518518519,
+      "answered": 31,
+      "valid": 31,
+      "accuracy": 0.8709677419354839,
       "sample": "insuficiente"
     }
   ],
   "recentSessions": [
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem",
+      "date": "2026-11-03",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "status": "concluido",
+      "diagnosis": "4/4 acertos e nenhum branco, treino de aprendizagem sem calibração. Confiança não informada.",
+      "nextStep": "Prosseguir unidade 07 com mais casos e fronteiras entre técnicas, testar após calibração e consolidar teoria ao fechar o assunto."
+    },
     {
       "id": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
       "date": "2026-11-03",
@@ -57,29 +65,21 @@
       "status": "concluido",
       "diagnosis": "2/2: aprovação da política pela alta administração e distinção de procedimentos técnicos.",
       "nextStep": null
-    },
-    {
-      "id": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-dirigida",
-      "date": "2026-11-03",
-      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
-      "status": "concluido",
-      "diagnosis": "3/4. Respostas C/C/C/E, gabarito E/C/C/E, erro Q1 na competência de aprovação da política de acesso que já motivou erro Q6 na aprendizagem. Sem brancos. A unidade 06 não está pronta para treino para valer nesse ponto: requer reforço normativo e nova aplicação.",
-      "nextStep": null
     }
   ],
   "recentMechanisms": [
-    "alta-administracao-aprova-politica-uaig-processa-pedidos",
     "conciliacao-dados-evidencia-analitica",
+    "finalidade-substantiva-inspecao-documental",
     "minuta-sem-aprovacao-institucional",
     "mudanca-rotina-armazenamento-sem-mudanca-politica",
-    "norma-interna-nao-sobrepoe-acesso-legal-controle",
     "observacao-exclusiva-dois-auditores",
-    "parecer-juridico-nao-aprova-politica-uaig",
     "politica-aprovada-responsaveis-pedidos",
     "populacao-extraida-exclui-cancelados",
+    "procedimento-analitico-substantivo",
+    "recalculo-versus-validade-de-dados",
+    "reexecucao-versus-observacao",
     "relatorio-anterior-arquivo-permanente",
     "relatorios-de-setores-mesma-base",
-    "responsavel-uaig-organiza-alta-administracao-aprova-politica",
     "supervisor-nao-dispensa-documentacao",
     "testemunho-assinado-nao-conclusivo"
   ],

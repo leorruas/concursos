@@ -567,6 +567,43 @@
         "note": "Um branco; nenhum chute declarado nesta bateria, demais confianças desconhecidas."
       },
       "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_nota"
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "date": "2026-11-03",
+      "startedAt": "2026-11-03T18:45:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "totalQuestions": 4,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "4/4 acertos e nenhum branco, treino de aprendizagem sem calibração. Confiança não informada.",
+      "nextStep": "Prosseguir unidade 07 com mais casos e fronteiras entre técnicas, testar após calibração e consolidar teoria ao fechar o assunto.",
+      "generationAudit": {
+        "counts": {
+          "new": 4,
+          "thematic": 0,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 1,
+        "thematicRate": 0,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0
+      },
+      "noveltyException": null,
+      "confidenceTracking": {
+        "coverage": "partial"
+      }
     }
   ],
   "questions": [
@@ -9887,6 +9924,154 @@
         "transformation": "Nova situação para mecanismo temático",
         "userFlagged": false
       }
+    },
+    {
+      "number": 1,
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "finalidade-substantiva-inspecao-documental",
+      "questionType": "comparison",
+      "mechanism": "finalidade-substantiva-inspecao-documental",
+      "distractorMechanism": "confusao-de-categorias-e-alcance",
+      "statement": "Ao verificar diretamente documentos de pagamento para determinar se as despesas registradas efetivamente ocorreram, o auditor realiza um teste de controle, uma vez que emprega a técnica de inspeção documental.",
+      "explanation": "Examinar despesas diretamente é teste substantivo de detalhes. Inspeção é técnica, não finalidade.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-q1",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "date": "2026-11-03",
+      "startedAt": "2026-11-03T18:45:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 2,
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "reexecucao-versus-observacao",
+      "questionType": "comparison",
+      "mechanism": "reexecucao-versus-observacao",
+      "distractorMechanism": "confusao-de-categorias-e-alcance",
+      "statement": "Quando o auditor executa independentemente uma rotina de validação originalmente realizada pelos servidores da unidade auditada, emprega a técnica de reexecução, ainda que essa atividade também pudesse ser examinada por observação.",
+      "explanation": "Reexecução: auditor executa independentemente. Observação: auditor acompanha outra pessoa.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-q2",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "date": "2026-11-03",
+      "startedAt": "2026-11-03T18:45:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 3,
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "recalculo-versus-validade-de-dados",
+      "questionType": "comparison",
+      "mechanism": "recalculo-versus-validade-de-dados",
+      "distractorMechanism": "confusao-de-categorias-e-alcance",
+      "statement": "Caso o recálculo confirme a exatidão matemática dos valores pagos, o auditor poderá considerar comprovada a validade dos dados utilizados como base do cálculo, dispensando procedimentos destinados a examinar sua origem.",
+      "explanation": "Recálculo comprova exatidão aritmética, mas não legitimidade dos dados de entrada.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-q3",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "date": "2026-11-03",
+      "startedAt": "2026-11-03T18:45:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 4,
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "procedimento-analitico-substantivo",
+      "questionType": "comparison",
+      "mechanism": "procedimento-analitico-substantivo",
+      "distractorMechanism": "confusao-de-categorias-e-alcance",
+      "statement": "A comparação entre despesas registradas e indicadores não financeiros pode constituir procedimento analítico substantivo, desde que empregada para obter evidências sobre a adequação dos valores examinados.",
+      "explanation": "Procedimentos analíticos substantivos podem relacionar dados financeiros e não financeiros confiáveis.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-q4",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
+      "date": "2026-11-03",
+      "startedAt": "2026-11-03T18:45:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
     }
   ]
 }

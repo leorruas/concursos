@@ -3,7 +3,7 @@ title: "CGU 2026 - Auditoria"
 type: "edital-referencia"
 status: "ativo"
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-11-03
 ---
 
 # CGU 2026: Auditoria
@@ -48,28 +48,29 @@ Conteúdo preservado do antigo painel CGU, integrado ao documento do edital.
 
 A escolha da **lotação** será feita na inscrição e implica concorrência e classificação por cargo/especialidade/lotação. **Não há lotação inicial em MG** no quadro de vagas. O edital prevê regime presencial integral no primeiro ano do estágio probatório (item 13.12) e restrição por cinco anos à remoção prevista no art. 36, parágrafo único, II, da Lei nº 8.112/1990 (item 13.13). Isso deve ser considerado antes da inscrição.
 
-### Foto inicial da preparação (09/10/2026)
+### Estado da preparação (atualizado em 03/11/2026)
 
 | Eixo | Situação verificada | Próximo movimento |
 | :--- | :--- | :--- |
 | LAI, LGPD, Direito Administrativo, governança | Notas canônicas existentes e conteúdo parcialmente aproveitável | Revisão aplicada à atuação da CGU e ao julgamento C/E |
 | Pesquisa, amostragem, entrevistas, indicadores | Há base em pesquisa em comunicação e atualidades | Ampliar para avaliação de políticas, validade e inferência causal |
-| Auditoria governamental | Falta nota canônica própria para ciclo, achados, testes e evidências | Estudo prioritário |
-| Orçamento e contabilidade pública | Base conceitual limitada em política fiscal; falta contabilidade pública e execução | Estudo prioritário |
+| Auditoria governamental | Notas próprias 01–05; finalidade, três linhas, ciclo, independência, ceticismo e riscos/controles estudados | **48 itens válidos: 40 acertos, 7 erros e 1 branco**; fechar unidade 05 e avançar para testes, achados e evidências |
+| Orçamento e contabilidade pública | Base conceitual limitada em política fiscal; falta contabilidade pública e execução | Estudo prioritário, ainda sem exposição medida |
 | Contratações e transferências | Licitações e contratos já existem; fiscalização, evidências e transferências exigem expansão | Treino por situações-problema |
 | Responsabilização e integridade CGU | Base parcial em improbidade e processo administrativo | Estudar PAD, PAR, leniência, TAC, proteção de denunciantes |
-| Desempenho CGU | **Sem prova ou simulado CGU registrado** | Fazer diagnóstico próprio; nunca projetar nota com simulados FGV |
+| Desempenho CGU | **48 itens de microtreino em Auditoria Governamental: 40 acertos, 7 erros e 1 branco; sem prova/simulado integral** | Fazer diagnóstico próprio por P1/P2/P3; nunca projetar nota com simulados FGV |
 
 **Nota metodológica:** “nota existente” mede cobertura documental, não comprova domínio nem exposição efetiva ao programa CGU. O diagnóstico deve inaugurar a série de desempenho deste concurso.
 
 ### Primeiros passos
 
-- [ ] Concluir a Dataprev em 11/10, sem antecipar o abandono do treino FGV.
+- [x] Concluir a Dataprev em 11/10, sem antecipar o abandono do treino FGV.
 - [ ] Fazer diagnóstico Cebraspe **CGU/Auditoria**: itens por bloco, registro de C, E e branco, sem copiar métricas da Câmara.
-- [ ] Iniciar auditoria governamental + ciclo, achados e evidência, junto de orçamento/contabilidade.
+- [x] Iniciar Auditoria Governamental: finalidade, três linhas, ciclo, independência, ceticismo, governança, riscos e controles. Testes/amostragem, achados e evidências seguem pendentes de validação.
+- [ ] Iniciar orçamento/contabilidade pública com estudo e itens próprios.
 - [ ] Produzir a primeira discursiva curta e a primeira situação-problema manuscritas.
 - [ ] Montar corpus próprio de provas reais CGU/controle/auditoria: órgão, ano, banca, item e gabarito definitivo; verificar atualidade normativa antes de usar.
-- [ ] Vincular futuros erros às seções canônicas e registrar questões no ledger do concurso específico.
+- [x] Vincular erros e questões ao ledger do concurso específico; o histórico está em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]].
 
 ### Fontes
 
@@ -79,7 +80,7 @@ A escolha da **lotação** será feita na inscrição e implica concorrência e 
 
 ## Checklist completo de estudos por bloco
 
-A relação abaixo preserva o mapeamento preliminar feito em 09/10/2026; **nota existente não equivale a item estudado nem comprova domínio**. Retificações oficiais prevalecem.
+A relação abaixo foi atualizada em **03/11/2026**. **Nota existente não equivale a item estudado nem comprova domínio**; `[x]` significa primeira passagem com teoria e aplicação registrada, não proficiência permanente. Retificações oficiais prevalecem.
 
 Mapa dos **objetos de avaliação do item 15 do edital CGU nº 1/2026**, para o **Cargo 1: Auditoria**, cruzados com o conteúdo existente no vault. A ordem dos blocos abaixo é a do edital; a prioridade prática está em [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|Estratégia]].
 
@@ -91,6 +92,7 @@ Mapa dos **objetos de avaliação do item 15 do edital CGU nº 1/2026**, para o 
 - **Parcial:** parte do recorte existe; edital exige novas relações, técnicas ou profundidade.
 - **Ausente:** não encontramos nota canônica própria ou tratamento suficiente.
 - **[ ]:** assunto ainda pendente de validação por estudo e itens Cebraspe-CGU.
+- **[x]:** primeira passagem concluída com nota e aplicação registrada; pode requerer reteste em caso novo.
 
 ### Diagnóstico de cobertura do vault em 09/10/2026
 
@@ -104,14 +106,20 @@ Mapa dos **objetos de avaliação do item 15 do edital CGU nº 1/2026**, para o 
 | P2: Transparência, ouvidoria e participação social | Base aproveitável, com lacunas | [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|LAI]], [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LGPD]], [[3 - Materias/Comunicacao/02 - comunicacao publica|Comunicação pública]]; falta atuação de ouvidoria e proteção ao denunciante |
 | P2: Direito público aplicado, controle e responsabilização | Parcial | [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo]], [[3 - Materias/Direito Administrativo/11 - controle da administracao publica|Controle]], [[3 - Materias/Direito Administrativo/07 - improbidade administrativa|Improbidade]]; aprofundar PAD, PAR, leniência e competências CGU |
 | P2: Evidências, dados e inteligência artificial | Parcial | [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa]], [[3 - Materias/Atualidades/01 - inteligencia artificial|IA]], [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|Proteção de dados]]; falta auditoria de evidências, falsos resultados e inferência causal aplicada |
-| P2: Auditoria governamental e atuação integrada da CGU | Ausente como núcleo próprio | Criar teoria para avaliação, consultoria, apuração, ciclo, três linhas e achados |
-| P3: Auditoria governamental: avaliação, consultoria e apuração | Ausente como núcleo próprio | Métodos e instrumentos de auditoria, testes, papéis, risco e supervisão |
+| P2: Auditoria governamental e atuação integrada da CGU | Em execução | Notas 01–05 e 48 itens registrados; concluída a primeira passagem de finalidade, papéis, ciclo, planejamento e riscos/controles. Falta integração CGU, achados e validação mais ampla. |
+| P3: Auditoria governamental: avaliação, consultoria e apuração | Em execução | Primeira passagem de formas de atuação e planejamento; faltam testes/amostragem, achados, dados/IA e comunicação/qualidade. |
 | P3: Finanças públicas, orçamento e contabilidade pública | Parcial, com grande lacuna | [[3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica|Política fiscal]], [[3 - Materias/Administracao Publica/02 - governanca publica|Governança]]; execução, demonstrações contábeis, MCASP/MIC e estatais novos |
 | P3: Políticas públicas e métodos de investigação e avaliação | Parcial | [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Métodos de pesquisa]], [[3 - Materias/Atualidades/09 - demografia e indicadores sociais|Indicadores]]; modelo lógico, contrafactual, desenhos de avaliação e análises econômicas |
 | P3: Auditoria de contratações, transferências e recursos | Parcial | [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]]; transferências, controle da execução, testes e evidência de dano |
 | P3: Integridade, transparência e responsabilização aplicadas ao controle | Parcial | [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo]], [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI e LGPD]], [[3 - Materias/Direito Administrativo/07 - improbidade administrativa|Improbidade]]; proteção de denunciantes, PAD/PAR, leniência, TAC e avaliação de efetividade |
 
 **Limite importante:** este é um inventário de **notas existentes e aderência aproximada**, não uma auditoria de linha a linha de cada subitem nem uma medição de conhecimento adquirido. Abrir a teoria nova e aferir C/E antes de marcar conclusões.
+
+## Passagens comprovadas em Auditoria Governamental
+
+Atualização baseada em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]], em 03/11/2026: **48 itens válidos**, com **40 acertos, 7 erros e 1 branco**; uma questão anulada permanece fora do cálculo. São microtreinos (aprendizagem, para valer e revisão dirigida), **não** um diagnóstico CGU por prova nem simulado integral.
+
+Foram estudados e aplicados em itens C/E: finalidade e formas de atuação; três linhas; independência, objetividade, sigilo, proficiência, zelo e ceticismo; ciclo e planejamento de auditoria; PAINT/RAINT e planejamento individual; governança, riscos, controles e risco residual. A unidade de planejamento individual teve primeira aprendizagem de 4/6 e ainda requer revisão e treino para valer. Não marcar como visto, por enquanto, testes/amostragem, achados completos, dados/IA em auditoria, orçamento/contabilidade, avaliação de políticas, contratações/transferências e responsabilização.
 
 ### P1: Conhecimentos básicos (40 itens, +1/-1/0)
 
@@ -150,8 +158,8 @@ Mapa dos **objetos de avaliação do item 15 do edital CGU nº 1/2026**, para o 
 ### P2: Conhecimentos complementares (40 itens, +1/-1/0)
 
 ### 1. Fundamentos de governança, riscos e integridade pública e privada
-- [ ] 1 Governança e responsabilidades: direção, gestão, controle, transparência, prestação de contas.
-- [ ] 2 Riscos e controles: causa, consequência, prevenção, detecção, segregação de funções, risco residual e proporcionalidade.
+- [x] 1 Governança e responsabilidades: direção, gestão, controle, transparência, prestação de contas.
+- [x] 2 Riscos e controles: causa, consequência, prevenção, detecção, segregação de funções, risco residual e proporcionalidade.
 - [ ] 3 Integridade pública: liderança, identificação de riscos, orientação, canais, prevenção de assédio e não retaliação.
 - [ ] 4 Integridade privada: diligência de terceiros e registros; existência formal × implementação × efetividade.
 - [ ] 5 Melhoria institucional: incentivos, evidências, denúncias, baixa ocorrência × baixa detecção.
@@ -178,17 +186,17 @@ Mapa dos **objetos de avaliação do item 15 do edital CGU nº 1/2026**, para o 
 - [ ] 5 IA responsável: classificação, síntese, vieses, erro, revisão humana, contestação e direitos.
 
 ### 5. Fundamentos de auditoria governamental e atuação integrada da CGU
-- [ ] 1 Propósito, serviços e papéis: avaliação × consultoria × apuração, SFC, autonomia, três linhas e ceticismo.
-- [ ] 2 Ciclo: planejamento, execução, comunicação, monitoramento, objetivos, escopo, risco e materialidade.
-- [ ] 3 Evidência: suficiência, adequação, confiabilidade; sinal de risco × evidência × conclusão.
-- [ ] 4 Comunicação e acompanhamento: recomendações, plano de ação, implementação, resultados e benefícios.
+- [x] 1 Propósito, serviços e papéis: avaliação × consultoria × apuração, SFC, autonomia, três linhas e ceticismo.
+- [x] 2 Ciclo: planejamento, execução, comunicação, monitoramento, objetivos, escopo, risco e materialidade.
+- [x] 3 Evidência: suficiência, adequação, confiabilidade; sinal de risco × evidência × conclusão.
+- [x] 4 Comunicação e acompanhamento: recomendações, plano de ação, implementação, resultados e benefícios.
 - [ ] 5 Integração CGU: ouvidoria, transparência, integridade, correição, responsabilização e proteção de informações.
 
 ### P3: Conhecimentos específicos de Auditoria (90 itens, +2/-2/0)
 
 ### 1. Auditoria governamental: avaliação, consultoria e apuração
-- [ ] 1 Formas de atuação: seleção entre avaliação, consultoria e apuração; objetivos, limites e instâncias.
-- [ ] 2 Planejamento: universo, seleção, risco, objetivos, questões, critérios, matriz, programa e desenho de evidências.
+- [x] 1 Formas de atuação: seleção entre avaliação, consultoria e apuração; objetivos, limites e instâncias.
+- [x] 2 Planejamento: universo, seleção, risco, objetivos, questões, critérios, matriz, programa e desenho de evidências.
 - [ ] 3 Testes/amostragem: controle × substantivo, inspeção, confirmação, observação, analíticos, recálculo e amostragens.
 - [ ] 4 Achados e documentação: critério, condição, causa, efeito; papéis de trabalho, revisão, supervisão e fraude.
 - [ ] 5 Dados e IA em auditoria: qualidade, rastreabilidade, viés, validação independente e limites da IA como evidência.

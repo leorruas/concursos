@@ -3,7 +3,7 @@ title: "Direito administrativo"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-06-11
+updated: 2026-11-03
 ---
 
 # Direito administrativo
@@ -13,8 +13,9 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 ---
 
 ## 1. Introdução e Princípios
-- [[01 - principios e lei de acesso a informacao|01 • Princípios e Lei de acesso à informação (LAI)]].
+- [[01 - principios e lei de acesso a informacao|01 • Princípios da Administração Pública]].
 - Princípios expressos e implícitos da Administração.
+- [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]]: referência central para LAI e LGPD.
 
 ## 2. Organização Administrativa
 - [[02 - organizacao administrativa|02 • Organização administrativa (Direta e Indireta, Órgãos e Entidades)]].

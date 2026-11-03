@@ -1,12 +1,12 @@
 ---
-title: "Princípios e lei de acesso à informação"
+title: "Princípios da Administração Pública"
 type: "conceito"
 status: "ativo"
 created: 2026-06-02
-updated: 2026-10-03
+updated: 2026-11-03
 ---
 
-# Princípios e Lei de Acesso à Informação
+# Princípios da Administração Pública
 
 O art. 37, caput, da Constituição submete a Administração Pública direta e indireta de todos os Poderes e de todos os entes federativos aos princípios expressos de **legalidade, impessoalidade, moralidade, publicidade e eficiência**. O mnemônico **LIMPE** ajuda a recordar o rol, mas a prova costuma exigir as fronteiras entre eles.
 
@@ -51,169 +51,39 @@ LIMPE é o rol **expresso no caput do art. 37**, não a lista completa de princ�
 > [!TIP]
 > Se a questão perguntar “princípios expressos no caput do art. 37”, use LIMPE. Se perguntar “princípios da Administração Pública”, o universo pode ser mais amplo.
 
-## Lei de Acesso à Informação: Lei nº 12.527/2011
 
-A LAI regula o direito constitucional de acesso à informação e estabelece procedimentos para União, Estados, Distrito Federal e Municípios.
+## Lei de Acesso à Informação: nota canônica
 
-Estão submetidos ao seu regime, entre outros:
-
-- órgãos da administração direta dos Poderes Executivo, Legislativo e Judiciário;
-- Cortes de Contas e Ministério Público;
-- autarquias e fundações públicas;
-- empresas públicas e sociedades de economia mista;
-- demais entidades controladas direta ou indiretamente pelo poder público.
-
-Entidades privadas sem fins lucrativos que recebem recursos públicos para ações de interesse público também se submetem à LAI **no que couber**, especialmente quanto à parcela dos recursos recebidos e sua destinação.
-
-## Diretrizes da LAI: art. 3º
-
-A lei adota cinco diretrizes centrais:
-
-1. **publicidade como preceito geral e sigilo como exceção**;
-2. divulgação de informação de interesse público **independentemente de solicitação**;
-3. utilização de meios de comunicação viabilizados pela tecnologia da informação;
-4. fomento à cultura de transparência;
-5. desenvolvimento do controle social da Administração Pública.
-
-Essas diretrizes explicam a diferença entre transparência ativa e passiva.
-
-## Transparência ativa × passiva
-
-### Transparência ativa
-
-O art. 8º determina divulgação, **independentemente de requerimento**, de informações de interesse coletivo ou geral produzidas ou custodiadas pelo órgão ou entidade.
-
-Entre os conteúdos mínimos estão:
-
-- competências e estrutura organizacional;
-- repasses e transferências de recursos;
-- despesas;
-- licitações, editais, resultados e contratos;
-- programas, ações, projetos e obras;
-- respostas a perguntas frequentes.
-
-Os sítios oficiais devem possuir, entre outros requisitos, ferramenta de pesquisa, possibilidade de acesso em formatos abertos e estruturados, atualização, autenticidade, integridade e medidas de acessibilidade.
-
-### Transparência passiva
-
-Surge quando o interessado apresenta pedido de acesso. O termo “passiva” não significa inércia administrativa: apenas indica que o fluxo foi provocado por uma solicitação.
-
-O pedido deve identificar o requerente e especificar a informação pretendida, mas a Administração **não pode exigir os motivos determinantes da solicitação de informação de interesse público**.
-
-## Prazo para resposta
-
-Se a informação estiver disponível, o acesso deve ser autorizado ou concedido **imediatamente**.
-
-Se isso não for possível, o órgão possui prazo de até **20 dias** para adotar as providências do art. 11, prorrogável por **mais 10 dias**, mediante justificativa expressa e ciência do requerente.
-
-> [!WARNING]
-> O prazo de 20 dias não é um “prazo mínimo de espera”. A regra legal continua sendo acesso imediato quando possível.
-
-## Acesso parcial e sigilo
-
-### Refinamento — graus e prazos de sigilo
-
-Pelo art. 24 da Lei nº 12.527/2011, informação imprescindível à segurança da sociedade ou do Estado pode ser classificada em três graus. Os **prazos máximos de restrição**, contados da data de produção, são:
-
-| Grau | Prazo máximo |
-| :--- | ---: |
-| **Ultrassecreta** | **25 anos** |
-| **Secreta** | **15 anos** |
-| **Reservada** | **5 anos** |
-
-Heurística: **U–S–R = 25–15–5**.
-
-A lei permite estabelecer como termo final um evento que ocorra antes do prazo máximo. Encerrado o prazo ou ocorrido esse evento, a informação torna-se automaticamente de acesso público. Há ainda regra específica para informações que possam colocar em risco a segurança do Presidente e do Vice-Presidente da República e de seus cônjuges e filhos: são classificadas como reservadas e permanecem sob sigilo até o término do mandato em exercício ou do último mandato, em caso de reeleição.
-
-> [!WARNING]
-> Não confunda **prazo de classificação do sigilo (25/15/5)** com **prazo de resposta a pedido de acesso (20 dias + possível prorrogação por 10)**. São institutos diferentes.
-
-Quando apenas parte do documento estiver protegida por sigilo, a LAI assegura acesso à parte não sigilosa mediante certidão, extrato ou cópia com ocultação do trecho protegido.
-
-Portanto, a existência de informação restrita dentro de um documento não transforma automaticamente o documento inteiro em sigiloso.
-
-## Gratuidade
-
-A busca e o fornecimento da informação são gratuitos. Pode haver cobrança exclusivamente para ressarcir custos de reprodução de documentos, observadas as hipóteses legais de isenção.
-
-## Informação pessoal × informação sigilosa
-
-A LAI diferencia:
-
-- **informação sigilosa**: temporariamente submetida a restrição de acesso por sua imprescindibilidade à segurança da sociedade e do Estado;
-- **informação pessoal**: relacionada a pessoa natural identificada ou identificável.
-
-Essas categorias não são sinônimas. Também não se confundem automaticamente com **dado pessoal sensível** da LGPD.
-
-Para a interação LAI × LGPD e categorias de dados, ver [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI, LGPD e transparência]].
-
-## Publicação formal × transparência efetiva: heurística, não categoria legal
-
-A oposição entre **“publicidade formal”** e **“publicidade material”** pode ser útil didaticamente para perguntar se a informação apenas foi colocada em algum lugar ou se pode ser efetivamente localizada e compreendida. Entretanto, esses nomes **não formam uma classificação jurídica estabelecida pelo art. 37 ou pela LAI**.
-
-A própria LAI fornece fundamento mais preciso para a preocupação prática: exige procedimentos objetivos e ágeis, informação transparente, clara e em linguagem de fácil compreensão, além de mecanismos de pesquisa, formatos abertos e acessibilidade nos sítios oficiais.
-
-> [!TIP]
-> Para prova, prefira citar os requisitos concretos da LAI em vez de tratar “publicidade material” como instituto legal autônomo.
-
+A **Lei de Acesso à Informação (LAI)** e sua relação com a **Lei Geral de Proteção de Dados Pessoais (LGPD)** passaram a ser estudadas juntas em [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]]. Aqui permanecem os princípios expressos e sistêmicos do Direito Administrativo.
 
 ## Nova conexão: LAI e auditoria governamental
 
-A **Lei de Acesso à Informação (LAI)** atua como instrumento do **controle social** ao permitir que a sociedade acompanhe o resultado das atividades de fiscalização. Pelo **art. 7º, VII, b, da Lei nº 12.527/2011**, o direito de obter informação abrange resultados de inspeções, auditorias, prestações e tomadas de contas de órgãos de controle interno e externo, inclusive de exercícios anteriores.
-
-**Resultado de auditoria × papéis de trabalho:** a garantia legal de acesso ao resultado não autoriza presumir divulgação integral de cada documento utilizado pelos auditores; tampouco justifica classificar todos eles como sigilosos. Dados pessoais e outras informações com restrição legal exigem análise específica, garantindo-se acesso parcial quando aplicável (**art. 7º, § 2º**).
-
-**Participação social × competência de auditoria:** o cidadão pode examinar um relatório publicado, formular pedido de acesso e apontar indícios de irregularidade. Esse exercício é **controle social**. A atividade de auditoria governamental continua vinculada às competências e aos procedimentos dos órgãos de controle. A requisição de documentos pelos auditores, no exercício do cargo, decorre de seus poderes institucionais, não da condição de solicitantes comuns da LAI.
-
-**Como a banca pode cobrar:** afirmar que a LAI torna o cidadão responsável pelo controle externo constitucional, ou que o direito ao resultado de auditoria elimina qualquer restrição legal à divulgação de documentos de suporte, constitui transposição indevida de conceitos.
-
-Ver [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas#Nova conexão: Lei de Acesso à Informação, resultados de auditoria e controle social|Auditoria e acesso aos resultados]] e [[3 - Materias/Direito Administrativo/11 - controle da administracao publica#Controle social|Controle social]].
+Ver [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados#Compatibilização LAI × LGPD: entendimentos da CGU|acesso aos resultados de auditorias e controle social]].
 
 ## Como a banca cobra
 
-- **Legalidade × eficiência**: usa eficiência para justificar atuação sem base jurídica.
-- **Impessoalidade × publicidade**: apresenta promoção pessoal de autoridade como publicidade institucional legítima.
-- **Publicidade × sigilo**: transforma publicidade em obrigação absoluta de divulgar qualquer informação.
-- **LIMPE**: inclui princípios verdadeiros do Direito Administrativo em pergunta que pede especificamente os cinco expressos no art. 37.
-- **Ativa × passiva**: chama publicação espontânea de transparência passiva.
-- **Motivação do pedido**: exige que o cidadão demonstre por que quer a informação.
-- **Prazo**: diz que o órgão pode sempre esperar 20 dias mesmo dispondo imediatamente da informação.
-- **Documento parcialmente sigiloso**: nega acesso ao conteúdo não protegido.
-- **Entidades privadas**: afirma que toda a atividade de qualquer entidade beneficiária de recurso público fica integralmente submetida à LAI.
-- **LAI × LGPD**: trata informação pessoal, informação sigilosa e dado sensível como expressões equivalentes.
+- **LIMPE** é o rol de princípios expressos do art. 37, não todos os princípios da Administração.
+- **Eficiência** não autoriza ilegalidade ou desrespeito a direitos fundamentais.
+- **Impessoalidade** veda uso de publicidade estatal para promoção pessoal da autoridade.
+- **Publicidade** admite restrições com fundamento jurídico, examinadas na nota canônica de transparência.
 
 ## Exemplos comentados
 
-**Campanha institucional com fotografia e slogan centrados na autoridade responsável:** pode violar a impessoalidade e a vedação de promoção pessoal do art. 37, § 1º, mesmo que trate de obra pública verdadeira.
-
-**Pedido de contratos já disponíveis em sistema oficial:** se a informação estiver acessível, a Administração deve privilegiar acesso imediato, não utilizar os 20 dias como prazo automático.
-
-**Relatório com uma página protegida por sigilo e demais páginas públicas:** deve-se examinar a possibilidade de acesso parcial, ocultando apenas a informação juridicamente restrita.
+**Campanha institucional com fotografia e slogan centrados na autoridade:** pode violar a impessoalidade do art. 37, § 1º, ainda que relate uma realização verdadeira.
 
 ## Heurísticas
 
-- **LIMPE = princípios expressos do art. 37, não todos os princípios administrativos.**
-- **Eficiência nunca autoriza ilegalidade.**
-- **Publicidade é regra; sigilo exige fundamento.**
-- **Ativa = Administração publica antes do pedido. Passiva = alguém provoca.**
-- **Pedido de LAI não exige justificativa do interesse.**
-- **Informação disponível = acesso imediato; 20 + 10 é a regra subsidiária de prazo.**
-- **Parte sigilosa não contamina automaticamente o documento inteiro.**
+- LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência.
+- A eficiência administrativa opera dentro da legalidade.
+- Para sigilo, acesso, LAI, LGPD e recursos: [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]].
 
 ## Relações com outros temas
 
-- [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]]: legalidade, motivação, publicidade e controle.
-- [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos]]: impessoalidade, concurso e promoção pessoal.
-- [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]]: transparência de editais, resultados e contratos.
-- [[3 - Materias/Comunicacao/02 - comunicacao publica|Comunicação pública]]: acesso, transparência e capacidade de ação do cidadão.
-- [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI, LGPD e transparência]]: proteção de dados e equilíbrio entre acesso e privacidade.
+- [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]] e [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos]].
+- [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]].
 
 ## Fontes
 
-- Constituição da República Federativa do Brasil de 1988, art. 37.
-- Lei nº 12.527/2011, especialmente arts. 1º a 16.
-- Lei nº 9.784/1999, art. 2º, para princípios do processo administrativo federal.
-
----
-**Fontes Brutas:**
-- [[11-06-2026|Inbox - 02-06-2026]]
+- Constituição Federal, art. 37.
+- Lei nº 9.784/1999, art. 2º.
+- Fontes específicas da LAI e LGPD: nota canônica vinculada.

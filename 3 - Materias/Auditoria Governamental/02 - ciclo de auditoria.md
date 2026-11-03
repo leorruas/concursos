@@ -188,7 +188,15 @@ O programa e eventuais ajustes devem ser **documentados e previamente aprovados 
 
 **Heurística Cebraspe:** objeto = *o quê*; objetivo = *para quê*; escopo = *até onde*; questão = *o que responder*; critério = *com que padrão*; fonte = *onde estão os dados*; procedimento = *como testar*; supervisor = *quem aprova previamente o programa*. 
 
-**Status:** teoria da unidade 05 ensinada e registrada em 03/11/2026. **Nenhuma questão da unidade 05 foi respondida ainda.** Os quatro acertos de revisão pertencem à unidade 04.
+**Status:** teoria da unidade 05 ensinada em 03/11/2026, primeira bateria de aprendizagem respondida **4/6**, sem treino para valer da unidade. A revisão 4/4 anterior pertence à unidade 04.
+
+#### Refinamento a partir dos erros: primeira bateria da unidade 05
+
+**Q1: escopo × critério.** Escolha C, gabarito E, erro [C] provisório. *Escopo* estabelece limites de locais, períodos, etapas e operações abrangidas (MOT, seção 4.3.2.2). *Critério* é o padrão com que se compara a condição encontrada (MOT, seção 5.4.2). Exemplo hipotético: «bolsas do campus A no exercício de 2025» indica escopo; «comprovação de elegibilidade exigida pelo regulamento» constitui critério.
+
+**Q3: instância de aprovação do PAINT × supervisor do programa individual.** Escolha C, gabarito E, erro [C] provisório. A aprovação do plano anual não afasta a exigência de aprovação do programa de trabalho e de seus ajustes pelo **supervisor**, conforme IN SFC nº 3/2017, item 141, e MOT, seção 4.3.3. Registrar justificativa em papel de trabalho também não supre a anuência do supervisor.
+
+**Bateria:** respostas C/C/C/C/C/E; gabarito E/C/E/C/C/E; **4/6 (66,7%)**. Acertos sobre subquestões e matriz, fonte versus procedimento, risco de auditoria versus risco do objeto e Ordem de Serviço versus programa. Sem justificativas verbais, a tipologia dos dois erros é provisória. A próxima bateria deve testar essas duas distinções em contextos novos, sem inferir domínio pelo resultado didático.
 
 
 ### 1. Planejamento: formular perguntas que os testes poderão responder

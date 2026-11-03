@@ -1,16 +1,16 @@
 ---
-title: "Independência, objetividade, impedimentos e sigilo na auditoria interna governamental"
+title: "Independência, objetividade, impedimentos e supervisão na auditoria"
 type: "conceito"
 status: "ativo"
 created: 2026-10-30
 updated: 2026-10-30
 ---
 
-# Independência, objetividade, impedimentos e sigilo na auditoria interna governamental
+# Independência, objetividade, impedimentos e supervisão na auditoria
 
-Esta nota aprofunda a ética e as condições de atuação da **Unidade de Auditoria Interna Governamental (UAIG)**, a partir do **Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal, aprovado pela Instrução Normativa (IN) da Secretaria Federal de Controle Interno (SFC) nº 3/2017 (especialmente itens 45 a 58)** e do **Manual de Orientações Técnicas (MOT) da Controladoria-Geral da União (CGU), aprovado pela IN SFC nº 8/2017**. Integra os estudos de [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|finalidades, consultoria e três linhas]] e [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|ciclo e supervisão do trabalho]].
+Esta nota aprofunda as condições de independência e objetividade na atuação da **Unidade de Auditoria Interna Governamental (UAIG)**, a partir do **Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal, aprovado pela Instrução Normativa (IN) da Secretaria Federal de Controle Interno (SFC) nº 3/2017 (especialmente itens 45 a 58)** e do **Manual de Orientações Técnicas (MOT) da Controladoria-Geral da União (CGU), aprovado pela IN SFC nº 8/2017**. Integra os estudos de [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|finalidades, consultoria e três linhas]] e [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|ciclo e supervisão do trabalho]].
 
-**Pergunta central:** como uma auditoria pode produzir conclusões confiáveis quando atua dentro de uma organização, interage com gestores, recebe informações sensíveis e pode ter prestado consultoria no mesmo objeto?
+**Pergunta central:** como uma auditoria pode produzir conclusões confiáveis quando atua dentro de uma organização, interage com gestores e pode ter prestado consultoria no mesmo objeto? A disciplina de [[3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria|sigilo profissional e transparência]] possui nota própria.
 
 ## Núcleo do conceito: condições distintas de confiabilidade
 
@@ -113,25 +113,7 @@ O grau de acompanhamento pode variar segundo complexidade do objeto e experiênc
 
 ## Sigilo profissional: itens 55 a 58 aplicados conjuntamente
 
-A primeira pergunta é **como a informação foi obtida e para que será usada**; a segunda é **quem pode recebê-la e por qual canal**; a terceira é **o que não pode ser omitido das conclusões**.
-
-| Item | Obrigação principal | Confusão provável |
-| :---: | :--- | :--- |
-| **55** | Informações e recursos públicos utilizados para **fins oficiais**; vedado obter benefício de interesses pessoais, familiares ou organizações de interesse do auditor | Supor que só há violação se houve pagamento ou classificação formal de sigilo |
-| **56** | Dever de **sigilo e cuidado** com informações recebidas na função, inclusive se **fora do escopo** | Imaginar que o dever de proteção desaparece fora do objeto auditado |
-| **57** | Não divulgar trabalhos realizados ou futuros, nem repassar informações a terceiros, **sem prévia anuência da autoridade competente** | Confundir comunicação autorizada com vazamento individual |
-| **58** | Comunicação **institucional** de todos os fatos **materiais** cuja omissão possa distorcer o relatório sobre as atividades avaliadas | Achar que sigilo justifica ocultar achados relevantes da autoridade competente |
-
-**Quatro situações que mudam a regra:**
-
-1. A equipe usa informação antecipada sobre contratação para favorecer empresa de familiar, **sem receber dinheiro**: pode violar o item **55**. A existência de interesse particular é o aspecto decisivo.
-2. Dados pessoais de estudantes foram recebidos juntamente com documentos de bolsas, ainda que irrelevantes para os testes: continuam sujeitos ao cuidado do item **56**. **Escopo não delimita o dever de sigilo.**
-3. Há indícios de irregularidade relevante em contratação **fora do escopo**: o encaminhamento **pelos canais institucionais competentes** não depende, por si, de ampliação prévia e formal da auditoria. Aprofundar o exame pode demandar outro trabalho ou replanejamento; **comunicar, investigar e ampliar escopo** são decisões distintas.
-4. A equipe deve relatar falhas importantes, mas documentos contêm dados pessoais legalmente protegidos: o relatório institucional deve ser completo quanto aos fatos materiais, e a **versão pública** deve observar a legislação sobre acesso, proteção de dados e sigilo. **Publicidade dos achados não equivale a publicação irrestrita das fontes.**
-
-**Materialidade aqui:** fatos cuja omissão poderia alterar significativamente a compreensão do resultado, inclusive fatos favoráveis à gestão ou correções já adotadas. Não se restringe a valor monetário.
-
-**Ponto normativo delicado:** o item **58** exige comunicação institucional suficiente para não distorcer resultados; o **57** proíbe repasse informal não autorizado a terceiros. Uma ordem de omitir achados por conveniência reputacional viola a lógica da comunicação confiável. As regras não dispensam o exame de **competências, autorizações e restrições legais específicas** ao compartilhar informações protegidas.
+A explicação das obrigações profissionais e suas relações com o direito de acesso está em [[3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria|Sigilo profissional, acesso e transparência na auditoria]]. Este título permanece para preservar referências antigas.
 
 ## Como o Cebraspe pode cobrar: fronteiras reais e distratores
 
@@ -162,7 +144,7 @@ No estudo dialogado, foram realizadas **três questões didáticas sobre sigilo 
 - [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#Estrutura interna e fronteiras das etapas|Ciclo da auditoria]]: revisão dos registros e comunicação fundamentada.
 - **Governança, riscos e três linhas:** gestão responde pelo controle; a auditoria avalia e orienta.
 - **Evidências e documentação:** papéis de trabalho, rastreabilidade, revisão técnica, suficiência e adequação.
-- **Lei de Acesso à Informação (LAI) e Lei Geral de Proteção de Dados Pessoais (LGPD):** restrições legais à publicidade e proteção de informações pessoais, a desenvolver com os próprios dispositivos legais.
+- [[3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria|Sigilo, acesso e transparência]]: dever profissional, comunicação institucional e LAI; proteção de dados conforme regras legais aplicáveis.
 
 ## Heurísticas de prova
 
@@ -176,9 +158,9 @@ No estudo dialogado, foram realizadas **três questões didáticas sobre sigilo 
 
 ## Estado e próximos aprofundamentos
 
-**Cobertura nesta nota:** explicações desenvolvidas de independência/autonomia, objetividade, conflito, impedimento, 24 meses, consultoria prévia, supervisão e sigilo (itens 45 a 58). A bateria verificou parte das fronteiras e revelou dois pontos a reforçar.
+**Cobertura nesta nota:** independência/autonomia, objetividade, conflito, impedimento, 24 meses, consultoria prévia e supervisão (itens 45 a 54). O sigilo (itens 55 a 58) está na nota especializada. A bateria verificou parte das fronteiras e revelou dois pontos a reforçar.
 
-**Pendências explícitas da unidade 02:** aprofundar **proficiência, competências coletivas, auxílio de especialistas, zelo profissional e ceticismo profissional** nos itens **59 e seguintes** do Referencial Técnico e no MOT. O conteúdo foi apenas introduzido aqui. **Não marcar a unidade integral como concluída** até cobrir essas partes e testar novas aplicações.
+**Unidade didática 02:** a parte de proficiência, zelo e ceticismo (itens 59 a 68) já foi aprofundada em [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|nota própria]]. O encerramento didático e as pendências de revisão ficam em [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]], sem presunção de retenção permanente.
 
 ## Fontes primárias
 

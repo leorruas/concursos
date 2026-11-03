@@ -51,17 +51,13 @@ O **controle preventivo** procura reduzir a ocorrência do evento; o **detectivo
 
 ## Três linhas: papéis e responsabilidades
 
-**Primeira linha:** gestores e equipes que entregam serviços e administram diretamente riscos e controles, como analisar pedidos e efetuar pagamentos. O monitoramento de seus próprios controles pode integrar suas atividades.
-
-**Segunda linha:** funções especializadas de gestão (gestão de riscos, integridade, conformidade, segurança, qualidade) que orientam, monitoram e questionam processos e controles da primeira linha. Realizar verificações ou monitoramento não transforma essa unidade, por si só, em terceira linha.
-
-**Terceira linha:** auditoria interna que oferece avaliação independente e consultoria, preservando sua independência e objetividade. Pode examinar controles e recomendar melhorias, **sem assumir a decisão gerencial nem a operação dos controles**. A classificação decorre de responsabilidades institucionais, não do nome do setor ou da técnica utilizada.
+A distinção entre papéis da primeira, segunda e terceira linhas, inclusive o controle externo, está na nota [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle|Modelo das três linhas e sistema de controle]]. Nesta nota, o recorte é a atribuição de responsabilidades pelo controle e pela gestão dos riscos na Instrução Normativa Conjunta nº 1/2016.
 
 **Art. 12:** alta administração estabelece, mantém, monitora e aperfeiçoa os controles internos da gestão, sem prejuízo das responsabilidades de outros gestores. Os demais servidores operam controles e comunicam deficiências. **Art. 19:** o dirigente máximo responde principalmente pela estratégia e pela estrutura de gestão de riscos. **Art. 20:** cada risco deve ter gestor formalmente identificado, com **alçada suficiente para orientar e acompanhar o mapeamento, a avaliação e a mitigação**; não é necessário que execute pessoalmente todos os controles.
 
 **Cuidado com uma conclusão excessiva:** uma unidade de segunda linha pode assessorar e monitorar a gestão dos riscos; não existe uma regra que proíba em absoluto um profissional dessa unidade de exercer responsabilidades gerenciais por determinado risco. A designação deve ser analisada pela **alçada** e pelas funções efetivamente exercidas, respeitando as atribuições institucionais. Esta fronteira provocou a **anulação de um item de treino** mal formulado.
 
-**Controles internos da gestão × Sistema de Controle Interno do Executivo Federal:** os controles da gestão são estabelecidos e operados pelas unidades administrativas e não se confundem com as atribuições de auditoria e fiscalização do Sistema de Controle Interno (art. 7º da IN Conjunta). Ver [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|modelo institucional e controle externo]].
+**Controles internos da gestão × Sistema de Controle Interno do Executivo Federal:** os controles da gestão são estabelecidos e operados pelas unidades administrativas e não se confundem com as atribuições de auditoria e fiscalização do Sistema de Controle Interno (art. 7º da IN Conjunta). Ver [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle|modelo institucional e controle externo]].
 
 ## Como o Cebraspe pode cobrar
 

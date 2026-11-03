@@ -77,7 +77,7 @@ function validateLedger(ledger){
     const answerKnown=q.answerKnown!==false;
     if(answerKnown){
       if(!allowedAnswer.has(q.correctAnswer)) errors.push(`${q.id}: correctAnswer deve ser A-E.`);
-      if(q.result==='blank') { if(q.userAnswer!==null) errors.push(`${q.id}: resposta em branco exige userAnswer=null.`); }
+      if(q.result==='blank' || (q.result==='annulled' && q.userAnswer===null)) { if(q.userAnswer!==null) errors.push(`${q.id}: resposta em branco exige userAnswer=null.`); }
       else if(!allowedAnswer.has(q.userAnswer)) errors.push(`${q.id}: userAnswer deve ser A-E.`);
     } else if(!partialHistorical) {
       errors.push(`${q.id}: answerKnown=false só é permitido em backfill histórico parcial.`);
@@ -129,7 +129,11 @@ function validateLedger(ledger){
     } else {
       if(qs.length!==sim.totalQuestions) errors.push(`${sim.id}: totalQuestions=${sim.totalQuestions}, mas há ${qs.length} registros.`);
       const numbers=new Set(qs.map(q=>q.number));
-      for(let i=1;i<=sim.totalQuestions;i++) if(!numbers.has(i)) errors.push(`${sim.id}: Q${i} ausente no ledger.`);
+      if(sim.sessionFile) {
+        if(numbers.size!==qs.length) errors.push(`${sim.id}: números duplicados na sessão.`);
+      } else {
+        for(let i=1;i<=sim.totalQuestions;i++) if(!numbers.has(i)) errors.push(`${sim.id}: Q${i} ausente no ledger.`);
+      }
     }
 
     const counts={new:0,thematic:0,mechanical:0,exact:0};

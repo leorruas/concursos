@@ -53,6 +53,10 @@ try {
   const integration = structuredClone(s);
   integration.banca = 'Cebraspe';
   integration.questions[0].theoryRefs = [];
+  integration.questions[0].number = 3; // Bateria parcial: só a questão 3 foi respondida.
+  integration.questions[0].userAnswer = null;
+  integration.questions[0].annulled = true;
+  integration.questions[0].annulmentReason = 'Falha de instrução';
   const combined = mergeSessions(actual,[integration]);
   const combinedPath = path.join(root,'integration-ledger.json');
   fs.writeFileSync(combinedPath,JSON.stringify(combined));

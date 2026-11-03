@@ -361,6 +361,46 @@
         "note": "Seleção de C/E sem grau de confiança ou justificativa pessoal."
       },
       "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_nota"
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade05-para-valer",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "date": "2026-11-03",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "para_valer"
+      ],
+      "origin": "inedita",
+      "totalQuestions": 8,
+      "plannedItems": 8,
+      "validItems": 8,
+      "annulledItems": 0,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityStatus": "treino-para-valer-8-8-com-um-acerto-por-chute",
+      "qualityNote": "8/8 no treino inédito para valer da unidade 05. Item 8 sobre consultoria x avaliação acertado por chute explicitamente declarado; requer revisão específica. Calibração parcial de mecanismos por 4 itens CGE/AL 2026, sem equivalência estatística nem simulado integral. Unidade 05 concluída didaticamente, revisão espaçada pendente.",
+      "generationAudit": {
+        "counts": {
+          "new": 6,
+          "thematic": 2,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0.75,
+        "thematicRate": 0.25,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0
+      },
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Q8 confidence=guess declarado após a resposta; Q1-7 sem grau de confiança informado (unknown). Não inferir acertos seguros."
+      },
+      "syncStatus": "sincronizado_com_avancos_locais_globais_log_hub_nota_e_edital"
     }
   ],
   "questions": [
@@ -8573,6 +8613,346 @@
         ],
         "intentional": true,
         "transformation": "Revisão aplicada da fronteira Análise de riscos pode refinar objetivos e escopo com enunciado contextual distinto da bateria de aprendizagem.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-pv-q1",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 1,
+      "questionNumberInBatch": 1,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Critério de economicidade e escopo da auditoria",
+      "questionType": "case",
+      "mechanism": "precos-comparaveis-criterio-e-contratos-escopo",
+      "distractorMechanism": "precos-referencia-como-escopo-ou-criterio",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade05-treino-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, seções 4.3.2.2, 4.3.3 e 5.4.2",
+      "calibrationSourceIds": [
+        "cge-al-2026-cebraspe-controle-interno-q61",
+        "cge-al-2026-cebraspe-controle-interno-q62",
+        "cge-al-2026-cebraspe-controle-interno-q65",
+        "cge-al-2026-cebraspe-controle-interno-q70"
+      ],
+      "userReasoning": "Resposta selecionada sem justificativa nem grau de segurança informado.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un05-q1"
+        ],
+        "intentional": false,
+        "transformation": "Mecanismo temático semelhante em novo caso de prova, sem reprodução textual.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-pv-q2",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 2,
+      "questionNumberInBatch": 2,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Generalização de conclusão além do escopo",
+      "questionType": "case",
+      "mechanism": "escopo-candidatos-aprovados-nao-autoriza-opiniao-integral",
+      "distractorMechanism": "testes-extensos-supririam-restricao-de-escopo",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade05-treino-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, itens 133-137; MOT CGU, seção 4.3.2.2",
+      "calibrationSourceIds": [
+        "cge-al-2026-cebraspe-controle-interno-q61",
+        "cge-al-2026-cebraspe-controle-interno-q62",
+        "cge-al-2026-cebraspe-controle-interno-q65",
+        "cge-al-2026-cebraspe-controle-interno-q70"
+      ],
+      "userReasoning": "Resposta selecionada sem justificativa nem grau de segurança informado.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-pv-q3",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 3,
+      "questionNumberInBatch": 3,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Hipótese de achado não equivale a condição comprovada",
+      "questionType": "application",
+      "mechanism": "possivel-achado-na-matriz-nao-e-condicao-comprovada",
+      "distractorMechanism": "denuncia-considerada-constatacao-suficiente",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade05-treino-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, Apêndice B; capítulo 5",
+      "calibrationSourceIds": [
+        "cge-al-2026-cebraspe-controle-interno-q61",
+        "cge-al-2026-cebraspe-controle-interno-q62",
+        "cge-al-2026-cebraspe-controle-interno-q65",
+        "cge-al-2026-cebraspe-controle-interno-q70"
+      ],
+      "userReasoning": "Resposta selecionada sem justificativa nem grau de segurança informado.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-pv-q4",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 4,
+      "questionNumberInBatch": 4,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Ajuste de procedimento individual e aprovação supervisor",
+      "questionType": "case",
+      "mechanism": "complementar-tecnica-no-programa-sem-necessaria-mudanca-paint",
+      "distractorMechanism": "mudanca-individual-seria-alteracao-anual-necessaria",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade05-treino-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, item 141; MOT CGU, seção 4.3.3",
+      "calibrationSourceIds": [
+        "cge-al-2026-cebraspe-controle-interno-q61",
+        "cge-al-2026-cebraspe-controle-interno-q62",
+        "cge-al-2026-cebraspe-controle-interno-q65",
+        "cge-al-2026-cebraspe-controle-interno-q70"
+      ],
+      "userReasoning": "Resposta selecionada sem justificativa nem grau de segurança informado.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un05-q3"
+        ],
+        "intentional": false,
+        "transformation": "Mecanismo temático semelhante em novo caso de prova, sem reprodução textual.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-pv-q5",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 5,
+      "questionNumberInBatch": 5,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Extensão de teste versus natureza",
+      "questionType": "classification",
+      "mechanism": "tamanho-amostra-altera-extensao-nao-natureza",
+      "distractorMechanism": "quantidade-de-itens-como-natureza-de-teste",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade05-treino-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, seções 4.3.4.1 e 4.3.4.3",
+      "calibrationSourceIds": [
+        "cge-al-2026-cebraspe-controle-interno-q61",
+        "cge-al-2026-cebraspe-controle-interno-q62",
+        "cge-al-2026-cebraspe-controle-interno-q65",
+        "cge-al-2026-cebraspe-controle-interno-q70"
+      ],
+      "userReasoning": "Resposta selecionada sem justificativa nem grau de segurança informado.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-pv-q6",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 6,
+      "questionNumberInBatch": 6,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Risco de auditoria por dados incompletos",
+      "questionType": "case",
+      "mechanism": "base-inconsistente-pode-aumentar-risco-de-conclusao-equivocada",
+      "distractorMechanism": "risco-objeto-impediria-risco-auditoria",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade05-treino-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, seção 4.3.2 e orientações de evidência",
+      "calibrationSourceIds": [
+        "cge-al-2026-cebraspe-controle-interno-q61",
+        "cge-al-2026-cebraspe-controle-interno-q62",
+        "cge-al-2026-cebraspe-controle-interno-q65",
+        "cge-al-2026-cebraspe-controle-interno-q70"
+      ],
+      "userReasoning": "Resposta selecionada sem justificativa nem grau de segurança informado.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-pv-q7",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 7,
+      "questionNumberInBatch": 7,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Critério legal e meta de desempenho em paralelo",
+      "questionType": "case",
+      "mechanism": "prazo-legal-e-meta-operacional-criterios-distintos",
+      "distractorMechanism": "criterio-desempenho-confundido-com-criterio-legal",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade05-treino-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, seções 4.3.3 e 5.4.2",
+      "calibrationSourceIds": [
+        "cge-al-2026-cebraspe-controle-interno-q61",
+        "cge-al-2026-cebraspe-controle-interno-q62",
+        "cge-al-2026-cebraspe-controle-interno-q65",
+        "cge-al-2026-cebraspe-controle-interno-q70"
+      ],
+      "userReasoning": "Resposta selecionada sem justificativa nem grau de segurança informado.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-pv-q8",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 8,
+      "questionNumberInBatch": 8,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Consultoria: flexibilidade do programa de trabalho",
+      "questionType": "comparison",
+      "mechanism": "consultoria-programa-varia-forma-e-conteudo",
+      "distractorMechanism": "consultoria-programa-fixo-com-alteracao-so-na-extensao",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade05-treino-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "guess",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, itens 139 e 140; MOT CGU, seção 1.2.3.1",
+      "calibrationSourceIds": [
+        "cge-al-2026-cebraspe-controle-interno-q61",
+        "cge-al-2026-cebraspe-controle-interno-q62",
+        "cge-al-2026-cebraspe-controle-interno-q65",
+        "cge-al-2026-cebraspe-controle-interno-q70"
+      ],
+      "userReasoning": "Usuário informou explicitamente: 'confesso que chutei a última'. Acerto por chute, não conhecimento confirmado.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
         "userFlagged": false
       }
     }

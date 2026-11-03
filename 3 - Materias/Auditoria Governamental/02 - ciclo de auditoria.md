@@ -290,7 +290,7 @@ O MOT orienta a evitar duplicação de documentos permanentes nos arquivos corre
 
 **Heurística:** suficiência = *quanto basta*; confiabilidade = *de onde/como veio*; fidedignidade = *retrata o fato?*; relevância = *responde à questão?*; utilidade = *ajuda a concluir e melhorar?*; papel permanente = *serve a vários trabalhos*; corrente = *documenta este trabalho*.
 
-**Status:** aula ministrada e primeira bateria de aprendizagem **5/6** em 03/11/2026. Um erro na Q6, sobre competência para aprovar a política de acesso. Revisão dirigida e treino para valer pendentes.
+**Status (03/11/2026):** aula ministrada, aprendizagem **5/6** e revisão dirigida **3/4**, com **reincidência do erro de competência para aprovação da política de acesso**. O diagnóstico para valer permanece pendente até novo teste aplicado.
 
 
 #### Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)
@@ -302,6 +302,18 @@ O MOT orienta a evitar duplicação de documentos permanentes nos arquivos corre
 **Fronteira:** definir e propor política ≠ aprovar sua versão institucional isoladamente. A aprovação da política também não significa que toda decisão operacional de acesso seja tomada pessoalmente pela alta administração: cada solicitação deve seguir a política aprovada, as competências nela estabelecidas e a legislação. **Rastreabilidade ≠ acesso irrestrito**. A política precisa preservar sigilos legítimos e não pode impedir atribuições legalmente asseguradas a órgãos de controle.
 
 **Diagnóstico:** erro Q6 provisoriamente classificado como confusão normativa de competências, pois não houve justificativa verbalizada. **Próximo passo:** testar elaboração, apreciação, aprovação e processamento de pedidos em cenário novo.
+
+
+
+#### Refinamento: reaparição do erro em competência de aprovação (unidade 06, 03/11)
+
+**Revisão dirigida: respostas C/C/C/E; gabarito E/C/C/E; 3/4.** Q1 repetiu a confusão da questão 6 da aprendizagem: o **parecer favorável da assessoria jurídica não transfere a decisão de aprovar a política institucional de acesso para o titular da Unidade de Auditoria Interna Governamental (UAIG)**. A aprovação permanece na **alta administração** (Referencial Técnico, IN SFC nº 3/2017, item **154(c)**). O MOT, seção **5.7.5**, explicita a sequência: a UAIG responde pela guarda e propõe/estabelece a política; a **assessoria jurídica analisa** sua proposta e a **alta administração aprova**. Depois, solicitações individuais são tratadas segundo a política aprovada. Não confundir a aprovação da política, com alcance institucional, com o processamento de pedidos concretos.
+
+**Exemplo institucional hipotético:** o setor de auditoria prepara uma política prevendo papéis acessíveis, tratamento de dados pessoais e rotinas de pedidos. A assessoria jurídica emite análise favorável. **Ainda falta a aprovação da alta administração** para que a política percorra as etapas previstas no item 154(c); a concordância jurídica não é substituto da decisão final. Mais tarde, um pedido de acesso pode ser respondido pelo responsável designado na própria política, observadas as competências e o sigilo. Não é necessário que a alta administração decida pessoalmente cada pedido, salvo exigência da política ou de norma aplicável.
+
+**Resultados da revisão:** Q2 C (organização e armazenamento pertencem ao responsável da UAIG, item 152, enquanto aprovação da política de acesso cabe à alta administração); Q3 C (a política pode disciplinar responsáveis pelos pedidos concretos, MOT 5.7.5(b)); Q4 E (a política não pode inviabilizar atribuições de agentes públicos autorizados por lei, MOT 5.7.5). **Q1 E** (aprovação definitiva pela UAIG seria erro). Nenhum branco. O novo erro é registrado separadamente, provisoriamente como confusão normativa de competência, sem atribuir distração não demonstrada.
+
+**Situação didática:** em dois treinos da unidade 06, **8 acertos em 10 itens**. A dificuldade remanescente é a atribuição da competência de aprovação institucional, apesar dos acertos nas competências operacionais. **Treino para valer ainda pendente**; primeiro testar essa distinção em um caso novo que não repita literalmente a mesma formulação. Não registrar domínio com base nos 3 acertos do conjunto.
 
 
 

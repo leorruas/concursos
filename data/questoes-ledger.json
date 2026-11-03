@@ -441,6 +441,47 @@
         "note": "Grau de confiança e justificativas não fornecidos; erro categorizado provisoriamente."
       },
       "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_e_nota"
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-dirigida",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "date": "2026-11-03",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "revisao"
+      ],
+      "origin": "inedita",
+      "totalQuestions": 4,
+      "plannedItems": 4,
+      "validItems": 4,
+      "annulledItems": 0,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "noveltyException": "Revisão dirigida, quatro mecanismos intencionalmente derivados da questão Q6 de aprendizagem da unidade 06; 1 mecânico e 3 temáticos. Aferição de aprendizagem, não benchmark.",
+      "qualityStatus": "revisao_dirigida_un06_3_4_mesma_competencia_reincidente",
+      "qualityNote": "3/4. Respostas C/C/C/E, gabarito E/C/C/E, erro Q1 na competência de aprovação da política de acesso que já motivou erro Q6 na aprendizagem. Sem brancos. A unidade 06 não está pronta para treino para valer nesse ponto: requer reforço normativo e nova aplicação.",
+      "generationAudit": {
+        "counts": {
+          "new": 0,
+          "thematic": 3,
+          "mechanical": 1,
+          "exact": 0
+        },
+        "newRate": 0,
+        "thematicRate": 0.75,
+        "mechanicalRate": 0.25,
+        "exactRate": 0,
+        "intentionalReviewRate": 1
+      },
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Usuário não explicou escolhas nem grau de confiança."
+      },
+      "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_e_nota"
     }
   ],
   "questions": [
@@ -9211,6 +9252,158 @@
         "similarTo": [],
         "intentional": false,
         "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-revisao-q1",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-dirigida",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 1,
+      "questionNumberInBatch": 1,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Análise jurídica não transfere aprovação final à UAIG",
+      "questionType": "application",
+      "mechanism": "parecer-juridico-nao-aprova-politica-uaig",
+      "distractorMechanism": "parecer-autoriza-titular-uaig-aprovar-finalmente",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade06-revisao-dirigida",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "errorType": "C",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, item 154(c); MOT 5.7.5",
+      "userReasoning": "Marcada C, sem justificativa. Repetiu a atribuição indevida de aprovação ao titular da UAIG após análise jurídica; erro normativo de competência, provisoriamente [C].",
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un06-q6"
+        ],
+        "intentional": true,
+        "transformation": "Nova aplicação da fronteira de competência envolvendo elaboração, parecer jurídico, aprovação da política, atendimento a pedidos e direitos legais.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-revisao-q2",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-dirigida",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 2,
+      "questionNumberInBatch": 2,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Organização da documentação × aprovação institucional do acesso",
+      "questionType": "comparison",
+      "mechanism": "responsavel-uaig-organiza-alta-administracao-aprova-politica",
+      "distractorMechanism": "confusao-de-procedimento-organizacao-e-acesso",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade06-revisao-dirigida",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, itens 152 e 154(c)",
+      "userReasoning": "Resposta C/E selecionada sem justificativa ou segurança informada.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un06-q6"
+        ],
+        "intentional": true,
+        "transformation": "Nova aplicação da fronteira de competência envolvendo elaboração, parecer jurídico, aprovação da política, atendimento a pedidos e direitos legais.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-revisao-q3",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-dirigida",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 3,
+      "questionNumberInBatch": 3,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Política aprovada pode definir tratamento de pedidos individuais",
+      "questionType": "case",
+      "mechanism": "alta-administracao-aprova-politica-uaig-processa-pedidos",
+      "distractorMechanism": "alta-administracao-teria-que-decidirtodos-pedidos",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade06-revisao-dirigida",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, item 154(a); MOT 5.7.5(b)",
+      "userReasoning": "Resposta C/E selecionada sem justificativa ou segurança informada.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un06-q6"
+        ],
+        "intentional": true,
+        "transformation": "Nova aplicação da fronteira de competência envolvendo elaboração, parecer jurídico, aprovação da política, atendimento a pedidos e direitos legais.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-revisao-q4",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-dirigida",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 4,
+      "questionNumberInBatch": 4,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Política interna não pode obstruir agente legalmente autorizado",
+      "questionType": "application",
+      "mechanism": "norma-interna-nao-sobrepoe-acesso-legal-controle",
+      "distractorMechanism": "sigilo-interno-impediria-direito-legal",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade06-revisao-dirigida",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+      ],
+      "normativeBasis": "MOT CGU, seção 5.7.5, parte final",
+      "userReasoning": "Resposta C/E selecionada sem justificativa ou segurança informada.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un06-q6"
+        ],
+        "intentional": true,
+        "transformation": "Nova aplicação da fronteira de competência envolvendo elaboração, parecer jurídico, aprovação da política, atendimento a pedidos e direitos legais.",
         "userFlagged": false
       }
     }

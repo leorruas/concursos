@@ -43,25 +43,28 @@
   ],
   "recentSessions": [
     {
-      "id": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-dirigida",
+      "id": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
       "date": "2026-11-03",
       "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
       "status": "concluido",
-      "diagnosis": "3/4. Respostas C/C/C/E, gabarito E/C/C/E, erro Q1 na competência de aprovação da política de acesso que já motivou erro Q6 na aprendizagem. Sem brancos. A unidade 06 não está pronta para treino para valer nesse ponto: requer reforço normativo e nova aplicação."
+      "diagnosis": "6/8: branco Q3 (dois auditores na observação exclusiva), erro Q6 (relatório anterior como papel permanente); revisão espaçada pendente.",
+      "nextStep": null
     },
     {
       "id": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-aplicada",
       "date": "2026-11-03",
       "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
       "status": "concluido",
-      "diagnosis": "2/2: aprovação da política pela alta administração e distinção de procedimentos técnicos."
+      "diagnosis": "2/2: aprovação da política pela alta administração e distinção de procedimentos técnicos.",
+      "nextStep": null
     },
     {
-      "id": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "id": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-dirigida",
       "date": "2026-11-03",
       "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
       "status": "concluido",
-      "diagnosis": "6/8: branco Q3 (dois auditores na observação exclusiva), erro Q6 (relatório anterior como papel permanente); revisão espaçada pendente."
+      "diagnosis": "3/4. Respostas C/C/C/E, gabarito E/C/C/E, erro Q1 na competência de aprovação da política de acesso que já motivou erro Q6 na aprendizagem. Sem brancos. A unidade 06 não está pronta para treino para valer nesse ponto: requer reforço normativo e nova aplicação.",
+      "nextStep": null
     }
   ],
   "recentMechanisms": [

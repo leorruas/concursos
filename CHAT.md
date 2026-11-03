@@ -1,6 +1,6 @@
 # Estudo pelo chat
 
-Entrada curta aprovada em 03/11/2026. Para aulas, correções e checkpoints de microtreinos, este arquivo é suficiente como protocolo operacional inicial. Ler as regras completas somente quando a tarefa exigir manutenção, ingestão de arquivos, criação de nota ou simulado integral. Esta exceção substitui a leitura integral recorrente de `me.md`, `index.md` e `.agent/AGENTS.md` para estudo cotidiano.
+Entrada curta aprovada em 03/11/2026. Para aulas, correções e checkpoints de microtreinos, este arquivo é suficiente como protocolo operacional inicial. Ler as regras completas somente quando a tarefa exigir manutenção, ingestão de arquivos, criação de nota ou simulado integral. Esta exceção substitui a leitura integral recorrente de `me.md`, `index.md` e `AGENTS.md` para estudo cotidiano.
 
 ## Retomada
 

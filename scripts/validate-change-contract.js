@@ -282,9 +282,9 @@ const tocouIngestao = changes.some((c) =>
   c.path === '1 - Planejamento/Regras de ingestao de questoes.md'
 );
 if (tocouIngestao) {
-  const agents = exists('.agent/AGENTS.md') ? read('.agent/AGENTS.md') : '';
-  if (!agents.includes('Regras de ingestao de questoes')) fail('Mudança no sistema de ingestão sem referência à política canônica em .agent/AGENTS.md.');
-  else ok('Política de ingestão continua referenciada por .agent/AGENTS.md.');
+  const agents = exists('AGENTS.md') ? read('AGENTS.md') : '';
+  if (!agents.includes('Regras de ingestao de questoes')) fail('Mudança no sistema de ingestão sem referência à política canônica em AGENTS.md.');
+  else ok('Política de ingestão continua referenciada por AGENTS.md.');
   if (!agents.includes('scripts/ingest-safe.js')) fail('Mudança no sistema de ingestão sem declarar ingest-safe.js como porta canônica.');
 }
 

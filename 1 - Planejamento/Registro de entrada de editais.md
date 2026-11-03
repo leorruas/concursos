@@ -30,7 +30,7 @@ Checklist permanente e histórico de pendências por concurso. **Atualizar este 
 - [ ] Aplicar diagnóstico inicial, registrar erros com seções ancoradas e planejar estudo, revisão e discursivas.
 
 ### Navegação e publicação
-- [ ] Atualizar `index.md`, o roadmap e o roteamento em `me.md` e `.agent/AGENTS.md` quando mudar a prioridade.
+- [ ] Atualizar `index.md`, o roadmap e o roteamento em `me.md` e `AGENTS.md` quando mudar a prioridade.
 - [ ] Escolher expressamente o que será público. Os projetos legados em `4 - Projetos/` são privados por padrão. Estratégias em `3 - Materias/` são públicas, editais/checklists em `2 - Editais/` ficam no GitHub/Obsidian. Não promover automaticamente documentos de planejamento à interface.
 - [ ] Confirmar que o concurso está no seletor da home (por `data/concursos.json`), **sem** link “abrir preparação”; `dashboardPath` não é obrigatório.
 - [ ] Testar `_site/manifest.json`, `_site/search-index.json` e presença física dos Markdown no build. **Um wikilink em `index.md` não publica um arquivo.**

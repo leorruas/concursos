@@ -108,16 +108,17 @@ else {
 }
 
 console.log('\n=== INVARIANTE 5: GOVERNANÇA OPERACIONAL ===');
-const agents = read('.agent/AGENTS.md');
-if (!agents.includes('scripts/ingest-safe.js')) fail('.agent/AGENTS.md deve declarar ingest-safe.js como porta canônica de ingestão.');
+const agents = read('AGENTS.md');
+if (exists('.agent/' + 'AGENTS.md')) fail('Instruções duplicadas: manter somente AGENTS.md na raiz.');
+if (!agents.includes('scripts/ingest-safe.js')) fail('AGENTS.md deve declarar ingest-safe.js como porta canônica de ingestão.');
 else ok('Agentes apontam para ingest-safe.js.');
-if (!agents.includes('Contrato de publicacao GitHub Pages')) fail('.agent/AGENTS.md deve referenciar o contrato de publicação.');
+if (!agents.includes('Contrato de publicacao GitHub Pages')) fail('AGENTS.md deve referenciar o contrato de publicação.');
 else ok('Agentes apontam para o contrato de publicação.');
-if (!agents.includes('Contrato transacional de mudancas')) fail('.agent/AGENTS.md deve referenciar o contrato transacional de mudanças.');
+if (!agents.includes('Contrato transacional de mudancas')) fail('AGENTS.md deve referenciar o contrato transacional de mudanças.');
 else ok('Agentes apontam para o contrato transacional.');
-if (!agents.includes('main vermelho')) fail('.agent/AGENTS.md deve declarar o gate operacional de main vermelho.');
+if (!agents.includes('main vermelho')) fail('AGENTS.md deve declarar o gate operacional de main vermelho.');
 else ok('Agentes declaram o gate de main vermelho.');
-if (!agents.includes('data/questoes-ledger.json')) fail('.agent/AGENTS.md deve declarar o ledger canônico de questões.');
+if (!agents.includes('data/questoes-ledger.json')) fail('AGENTS.md deve declarar o ledger canônico de questões.');
 else ok('Agentes apontam para o ledger canônico de questões.');
 
 const scriptsObrigatorios = [

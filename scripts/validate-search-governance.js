@@ -28,7 +28,7 @@ function normalizar(texto) {
 const configPath = path.join(rootDir, 'web/05a-search-config.js');
 const benchmarkPath = path.join(rootDir, 'scripts/search-benchmarks.json');
 const governancePath = path.join(rootDir, '1 - Planejamento/Governanca da busca.md');
-const agentsPath = path.join(rootDir, '.agent/AGENTS.md');
+const agentsPath = path.join(rootDir, 'AGENTS.md');
 
 for (const p of [configPath, benchmarkPath, governancePath, agentsPath]) {
   if (!fs.existsSync(p)) fail('arquivo obrigatório da governança ausente: ' + path.relative(rootDir, p));

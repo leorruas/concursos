@@ -23,7 +23,7 @@ Corte: **2026-11-03**. Fonte: itens individualizados no ledger, incluindo sessõ
 | dataprev-2026 / Atualidades/IA / simulado histórico | 16 | 2 | 0 | 0 | 88.9% | insuficiente |
 | cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |
-| cgu-2026 / Auditoria Governamental / aprendizagem | 27 | 4 | 0 | 0 | 87.1% | insuficiente |
+| cgu-2026 / Auditoria Governamental / aprendizagem | 31 | 5 | 0 | 0 | 86.1% | insuficiente |
 
 Microtreinos são diagnósticos do recorte, sem nota integral. Simulados históricos mantêm seus resultados próprios abaixo.
 <!-- estudo-sessoes:fim -->

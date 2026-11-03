@@ -30,18 +30,26 @@
     },
     {
       "key": "Auditoria Governamental / aprendizagem",
-      "total": 31,
-      "correct": 27,
-      "incorrect": 4,
+      "total": 36,
+      "correct": 31,
+      "incorrect": 5,
       "blank": 0,
       "annulled": 0,
-      "answered": 31,
-      "valid": 31,
-      "accuracy": 0.8709677419354839,
+      "answered": 36,
+      "valid": 36,
+      "accuracy": 0.8611111111111112,
       "sample": "insuficiente"
     }
   ],
   "recentSessions": [
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada",
+      "date": "2026-11-03",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada.json",
+      "status": "concluido",
+      "diagnosis": "Aplicação didática unidade 07: 4/5 (80%), sem brancos, um erro no item 4 com dúvida declarada. Acertou rastreamento, vouching, limite da confirmação externa e alcance temporal da observação. Erro [C] provisório: não reconheceu que inspeção documental pode servir a teste de controle conforme sua finalidade. Sem justificativa do estudante, causa não comprovada. Não é benchmark.",
+      "nextStep": "Reforçar finalidade do teste versus técnica de execução, contrastando inspeção de autorizações (controle) e inspeção de comprovantes (substantivo). Avançar para treino para valer apenas com fonte e calibração real identificadas, sem inferir domínio por bateria curta; consolidar nota e hub ao fechar unidade 07."
+    },
     {
       "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem",
       "date": "2026-11-03",
@@ -57,31 +65,26 @@
       "status": "concluido",
       "diagnosis": "6/8: branco Q3 (dois auditores na observação exclusiva), erro Q6 (relatório anterior como papel permanente); revisão espaçada pendente.",
       "nextStep": null
-    },
-    {
-      "id": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-aplicada",
-      "date": "2026-11-03",
-      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
-      "status": "concluido",
-      "diagnosis": "2/2: aprovação da política pela alta administração e distinção de procedimentos técnicos.",
-      "nextStep": null
     }
   ],
   "recentMechanisms": [
     "conciliacao-dados-evidencia-analitica",
+    "confirmacao-externa-nao-atribuicao-de-origem",
     "finalidade-substantiva-inspecao-documental",
-    "minuta-sem-aprovacao-institucional",
-    "mudanca-rotina-armazenamento-sem-mudanca-politica",
+    "inspecao-documental-para-testar-operacao-do-controle",
     "observacao-exclusiva-dois-auditores",
+    "observacao-pontual-nao-valida-todo-periodo",
     "politica-aprovada-responsaveis-pedidos",
     "populacao-extraida-exclui-cancelados",
     "procedimento-analitico-substantivo",
+    "rastreamento-da-origem-ao-registro",
     "recalculo-versus-validade-de-dados",
     "reexecucao-versus-observacao",
     "relatorio-anterior-arquivo-permanente",
     "relatorios-de-setores-mesma-base",
     "supervisor-nao-dispensa-documentacao",
-    "testemunho-assinado-nao-conclusivo"
+    "testemunho-assinado-nao-conclusivo",
+    "vouching-do-registro-ao-documento"
   ],
   "review": [
     {
@@ -190,6 +193,15 @@
       "confidence": "unknown",
       "theoryRefs": [
         "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada-q4",
+      "topic": "Procedimentos e testes de auditoria",
+      "result": "incorrect",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar"
       ]
     }
   ]

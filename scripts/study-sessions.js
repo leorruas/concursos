@@ -27,6 +27,7 @@ function safeRef(root, ref) {
 }
 export function validateSession(s, filename, root, concursos) {
   assert(s.schemaVersion === 1 && slug(s.id) && filename === s.id + '.json', `Identidade inválida: ${filename}`);
+  assert(text(s.startedAt) && /(?:Z|[+-]\d{2}:\d{2})$/.test(s.startedAt) && Number.isFinite(Date.parse(s.startedAt)), `${s.id}: startedAt exige data/hora com fuso`);
   assert(dateOK(s.date) && ['parcial', 'concluido'].includes(s.status), `${s.id}: data/status inválido`);
   assert(concursos.some(c => c.id === s.concursoId && c.banca === s.banca), `${s.id}: concurso/banca incompatível`);
   assert(s.kind === 'microtreino', `${s.id}: simulados integrais seguem o contrato próprio de propagação`);
@@ -77,7 +78,7 @@ export function mergeSessions(legacy, sessions) {
     const qs = s.questions.map(q => {
       const id = `${s.id}-q${q.number}`;
       assert(!ids.has(id), `Questão duplicada: ${id}`); ids.add(id);
-      return { ...q, id, sourceId: s.id, sessionFile, sourcePath: sessionFile, date: s.date, concursoId: s.concursoId, banca: s.banca,
+      return { ...q, id, sourceId: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
         trainingMode: s.trainingMode, result: q.annulled ? 'annulled' : q.userAnswer === null ? 'blank' : q.userAnswer === q.correctAnswer ? 'correct' : 'incorrect', errorType: q.errorType ? errors[q.errorType] : null };
     });
     const counts = {new:0,thematic:0,mechanical:0,exact:0};
@@ -85,9 +86,9 @@ export function mergeSessions(legacy, sessions) {
     const rate = n => Number((n / qs.length).toFixed(4));
     const generationAudit = {counts,newRate:rate(counts.new),thematicRate:rate(counts.thematic),mechanicalRate:rate(counts.mechanical),exactRate:rate(counts.exact),intentionalReviewRate:rate(qs.filter(q=>q.repetition.intentional).length)};
     ledger.questions.push(...qs);
-    ledger.simulations.push({ id: s.id, sessionFile, sourcePath: sessionFile, date: s.date, concursoId: s.concursoId, banca: s.banca,
+    ledger.simulations.push({ id: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
       tipo: 'microtreino', isSimulado: false, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
-      ledgerCoverage: 'complete', benchmarkEligible: false, qualityNote: s.diagnosis, generationAudit, noveltyException: s.noveltyException || null,
+      ledgerCoverage: 'complete', benchmarkEligible: false, qualityNote: s.diagnosis, nextStep: s.nextStep, generationAudit, noveltyException: s.noveltyException || null,
       confidenceTracking: { coverage: qs.every(q => q.confidence !== 'unknown') ? 'complete' : 'partial' } });
   }
   for (const q of ledger.questions.filter(q => q.sessionFile)) for (const id of q.repetition.similarTo) assert(ids.has(id) && id !== q.id, `${q.id}: referência de repetição inexistente/autorreferente: ${id}`);
@@ -124,7 +125,7 @@ export function prepare(root = ROOT, asOf) {
   const legacy = JSON.parse(read('data/questoes-ledger.json'));
   const concursos = JSON.parse(read('data/concursos.json'));
   const dir = path.join(root, 'data/sessoes');
-  const sessions = fs.existsSync(dir) ? fs.readdirSync(dir).filter(p => p.endsWith('.json')).sort().map(p => { const s = JSON.parse(read('data/sessoes/' + p)); validateSession(s, p, root, concursos); return s; }) : [];
+  const sessions = fs.existsSync(dir) ? fs.readdirSync(dir).filter(p => p.endsWith('.json')).sort().map(p => { const s = JSON.parse(read('data/sessoes/' + p)); validateSession(s, p, root, concursos); return s; }).sort((a,b) => Date.parse(a.startedAt) - Date.parse(b.startedAt) || a.id.localeCompare(b.id)) : [];
   for (const old of legacy.simulations.filter(s => s.sessionFile)) assert(sessions.some(s => s.id === old.id), `Sessão removida: ${old.id}. Preserve o arquivo e anule itens com motivo.`);
   const ledger = mergeSessions(legacy, sessions);
   const source = new Map(ledger.simulations.map(s => [s.id, s]));
@@ -147,10 +148,10 @@ export function prepare(root = ROOT, asOf) {
   }
   const contexts = concursos.map(c => {
     const all = qs.filter(q => q.concursoId === c.id);
-    const last = ledger.simulations.filter(s => s.concursoId === c.id).sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id)).slice(0, 3);
+    const last = ledger.simulations.filter(s => s.concursoId === c.id).reverse().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
     const ids = new Set(last.map(s => s.id));
     return { concursoId: c.id, cut, coverage: 'somente itens individualizados; legado pode ser parcial', totals: grouped(all, q => `${q.discipline} / ${mode(q)}`).map(({ questions, ...r }) => r),
-      recentSessions: last.map(s => ({ id: s.id, date: s.date, sourcePath: s.sourcePath, status: s.status || 'historico', diagnosis: s.qualityNote || null })),
+      recentSessions: last.map(s => ({ id: s.id, date: s.date, sourcePath: s.sourcePath, status: s.status || 'historico', diagnosis: s.qualityNote || null, nextStep: s.nextStep || null })),
       recentMechanisms: [...new Set(all.filter(q => ids.has(q.sourceId)).map(q => q.mechanism))].sort(),
       review: all.filter(q => q.result === 'incorrect' || ['insecure', 'guess'].includes(q.confidence)).slice(-30).map(q => ({ id: q.id, topic: q.topic, result: q.result, confidence: q.confidence, theoryRefs: q.theoryRefs })) };
   });

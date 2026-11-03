@@ -7,6 +7,55 @@ updated: 2026-11-03
 ---
 # Log de saturação diária
 
+<!-- estudo-sessoes:inicio -->
+## Indicadores automáticos
+
+Corte: **2026-11-03**. Fonte: itens individualizados no ledger, incluindo sessões do chat. Histórico parcialmente recuperado não equivale ao volume total estudado. Percentual = acertos / (acertos + erros); brancos e anulados separados. Modalidades e concursos permanecem separados. Volume de 50 itens não comprova domínio. Sem estimativa de nota oficial ou inferência de fadiga.
+
+| Dia / concurso / disciplina / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-03 / cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
+| 2026-11-03 / cgu-2026 / Auditoria Governamental / para_valer | 14 | 1 | 1 | 0 | 93.3% | insuficiente |
+| 2026-11-03 / cgu-2026 / Auditoria Governamental / aprendizagem | 9 | 3 | 0 | 0 | 75.0% | insuficiente |
+| 2026-11-02 / cgu-2026 / Auditoria Governamental / para_valer | 6 | 1 | 1 | 0 | 85.7% | insuficiente |
+| 2026-11-02 / cgu-2026 / Auditoria Governamental / aprendizagem | 6 | 0 | 0 | 0 | 100.0% | insuficiente |
+| 2026-10-30 / cgu-2026 / Auditoria Governamental / para_valer | 12 | 3 | 0 | 1 | 80.0% | insuficiente |
+| 2026-10-30 / cgu-2026 / Auditoria Governamental / aprendizagem | 8 | 1 | 0 | 0 | 88.9% | insuficiente |
+| 2026-10-10 / dataprev-2026 / Raciocínio Lógico / simulado histórico | 4 | 1 | 0 | 0 | 80.0% | insuficiente |
+| 2026-10-10 / dataprev-2026 / Língua Portuguesa / simulado histórico | 9 | 3 | 0 | 0 | 75.0% | insuficiente |
+| 2026-10-10 / dataprev-2026 / Língua Inglesa / simulado histórico | 11 | 1 | 0 | 0 | 91.7% | insuficiente |
+| 2026-10-10 / dataprev-2026 / Legislação / simulado histórico | 4 | 1 | 0 | 0 | 80.0% | insuficiente |
+| 2026-10-10 / dataprev-2026 / Comunicação Social / simulado histórico | 26 | 4 | 0 | 0 | 86.7% | insuficiente |
+| 2026-10-10 / dataprev-2026 / Atualidades/IA / simulado histórico | 6 | 0 | 0 | 0 | 100.0% | insuficiente |
+| 2026-10-06 / dataprev-2026 / Raciocínio Lógico / simulado histórico | 5 | 0 | 0 | 0 | 100.0% | insuficiente |
+| 2026-10-06 / dataprev-2026 / Língua Portuguesa / simulado histórico | 10 | 2 | 0 | 0 | 83.3% | insuficiente |
+| 2026-10-06 / dataprev-2026 / Língua Inglesa / simulado histórico | 12 | 0 | 0 | 0 | 100.0% | insuficiente |
+| 2026-10-06 / dataprev-2026 / Legislação / simulado histórico | 4 | 1 | 0 | 0 | 80.0% | insuficiente |
+| 2026-10-06 / dataprev-2026 / Comunicação Social / simulado histórico | 27 | 3 | 0 | 0 | 90.0% | insuficiente |
+| 2026-10-06 / dataprev-2026 / Atualidades/IA / simulado histórico | 5 | 1 | 0 | 0 | 83.3% | insuficiente |
+| 2026-10-05 / dataprev-2026 / Raciocínio Lógico / simulado histórico | 1 | 1 | 0 | 0 | 50.0% | insuficiente |
+| 2026-10-05 / dataprev-2026 / Língua Portuguesa / simulado histórico | 1 | 2 | 0 | 0 | 33.3% | insuficiente |
+| 2026-10-05 / dataprev-2026 / Legislação / simulado histórico | 1 | 1 | 0 | 0 | 50.0% | insuficiente |
+| 2026-10-05 / dataprev-2026 / Comunicação Social / simulado histórico | 27 | 3 | 0 | 0 | 90.0% | insuficiente |
+| 2026-10-05 / dataprev-2026 / Atualidades/IA / simulado histórico | 4 | 0 | 0 | 0 | 100.0% | insuficiente |
+| 2026-10-03 / dataprev-2026 / Raciocínio Lógico / simulado histórico | 1 | 1 | 0 | 0 | 50.0% | insuficiente |
+| 2026-10-03 / dataprev-2026 / Língua Portuguesa / simulado histórico | 1 | 2 | 0 | 0 | 33.3% | insuficiente |
+| 2026-10-03 / dataprev-2026 / Legislação / simulado histórico | 1 | 1 | 0 | 0 | 50.0% | insuficiente |
+| 2026-10-03 / dataprev-2026 / Comunicação Social / simulado histórico | 3 | 2 | 0 | 0 | 60.0% | insuficiente |
+| 2026-10-03 / dataprev-2026 / Atualidades/IA / simulado histórico | 1 | 1 | 0 | 0 | 50.0% | insuficiente |
+| 2026-09-30 / dataprev-2026 / Raciocínio Lógico / simulado histórico | 0 | 3 | 0 | 0 | 0.0% | insuficiente |
+| 2026-09-30 / dataprev-2026 / Língua Portuguesa / simulado histórico | 2 | 0 | 0 | 0 | 100.0% | insuficiente |
+| 2026-09-30 / dataprev-2026 / Legislação / simulado histórico | 0 | 1 | 0 | 0 | 0.0% | insuficiente |
+| 2026-09-30 / dataprev-2026 / Comunicação Social / simulado histórico | 2 | 3 | 0 | 0 | 40.0% | insuficiente |
+
+Carga cognitiva e sintomas só podem ser registrados quando relatados pelo estudante.
+<!-- estudo-sessoes:fim -->
+
+## Histórico preservado
+
+Os registros abaixo são anteriores à projeção automática. Não somar seus totais às tabelas acima.
+
+
 Registro diário detalhado monitorando o volume bruto de exercícios, o aproveitamento diário, a Taxa de Aproveitamento Ponderada (TAP) e a análise qualitativa dos sintomas de fadiga cognitiva.
 
 Este log subsidia a análise metodológica de consistência detalhada em [[00 Avancos globais|Avanços globais]].

@@ -4,10 +4,15 @@ type: "perfil-pessoal"
 status: "ativo"
 leitura: "mandatória — ler antes de qualquer operação no vault"
 created: 2026-04-25
-updated: 2026-10-09
+updated: 2026-11-03
 ---
 
 # me
+
+## Fluxo rápido de estudo pelo chat: prioridade operacional
+
+A partir de 03/11/2026, aulas e checkpoints de microtreinos seguem `CHAT.md`. Nesse escopo, a entrada curta e `data/contexto-estudo/<concursoId>.json` substituem a releitura integral recorrente de governança e ledger. As regras completas continuam aplicáveis a manutenção, ingestão legada, notas novas e simulados integrais. Salvar uma sessão em `data/sessoes/<id>.json` no fechamento do bloco; a automação atualiza as métricas derivadas. Corrigir na origem, preservar o legado e consolidar teoria uma vez por assunto. As antigas exigências de editar manualmente todas as superfícies por microtreino ficam substituídas pela projeção automática validada. Ver `data/sessoes/README.md`.
+
 
 > [!IMPORTANT]
 > **LEITURA MANDATÓRIA PARA AGENTES:** Este arquivo é a âncora de identidade do vault. ABSOLUTAMENTE TODO agente ou assistente de IA deve ler este documento na íntegra antes de qualquer operação. Ele define quem sou, como penso, as regras críticas de escrita e os protocolos de atualização de log/index que regem este espaço.

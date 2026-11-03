@@ -116,3 +116,10 @@ Uma operação multi-arquivo só pode ser descrita como concluída quando:
 7. quando houver conteúdo público, o contrato de publicação do GitHub Pages também foi satisfeito.
 
 Se algum desses pontos estiver pendente, declarar o estado real em vez de anunciar conclusão.
+
+
+## Sessões do chat e projeção automática: 03/11/2026
+
+O fluxo aprovado em `CHAT.md` e `data/sessoes/README.md` recebe microtreinos em arquivos individuais. `scripts/study-sessions.js` valida e projeta ledger, blocos marcados nos avanços locais existentes e globais, log diário, hub por edital e contexto compacto por concurso. `scripts/test-study-sessions.js` verifica correção sem duplicação, preservação histórica e entradas inválidas. O restante das notas e métricas históricas permanece preservado, identificado como histórico. O ledger legado não é reimportado. Simulados integrais e ingestão via `scripts/ingest-safe.js` mantêm seus contratos próprios.
+
+No workflow, o contrato do commit de entrada é verificado antes da projeção. Depois, geração determinística, teste de consistência e validadores existentes verificam as saídas, que são persistidas juntas em um commit automático antes da publicação na mesma execução. Este commit derivado pode alterar apenas os destinos enumerados pelo gerador; dispensa incluir no diff arquivos cujo resultado não mudou. Sem force ou rebase em concorrência. Checkpoint salvo, consolidação validada e publicação confirmada são estados distintos. A aula pode continuar enquanto o workflow roda; uma falha deve ser reparada antes de outra gravação não relacionada.

@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "concursoId": "cgu-2026",
+  "cut": "2026-11-03",
+  "coverage": "somente itens individualizados; legado pode ser parcial",
+  "totals": [
+    {
+      "key": "Auditoria Governamental / revisao",
+      "total": 16,
+      "correct": 15,
+      "incorrect": 1,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 16,
+      "valid": 16,
+      "accuracy": 0.9375,
+      "sample": "insuficiente"
+    },
+    {
+      "key": "Auditoria Governamental / para_valer",
+      "total": 40,
+      "correct": 32,
+      "incorrect": 5,
+      "blank": 2,
+      "annulled": 1,
+      "answered": 37,
+      "valid": 39,
+      "accuracy": 0.8648648648648649,
+      "sample": "insuficiente"
+    },
+    {
+      "key": "Auditoria Governamental / aprendizagem",
+      "total": 27,
+      "correct": 23,
+      "incorrect": 4,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 27,
+      "valid": 27,
+      "accuracy": 0.8518518518518519,
+      "sample": "insuficiente"
+    }
+  ],
+  "recentSessions": [
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-dirigida",
+      "date": "2026-11-03",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "status": "concluido",
+      "diagnosis": "3/4. Respostas C/C/C/E, gabarito E/C/C/E, erro Q1 na competência de aprovação da política de acesso que já motivou erro Q6 na aprendizagem. Sem brancos. A unidade 06 não está pronta para treino para valer nesse ponto: requer reforço normativo e nova aplicação."
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade06-revisao-aplicada",
+      "date": "2026-11-03",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "status": "concluido",
+      "diagnosis": "2/2: aprovação da política pela alta administração e distinção de procedimentos técnicos."
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "date": "2026-11-03",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "status": "concluido",
+      "diagnosis": "6/8: branco Q3 (dois auditores na observação exclusiva), erro Q6 (relatório anterior como papel permanente); revisão espaçada pendente."
+    }
+  ],
+  "recentMechanisms": [
+    "alta-administracao-aprova-politica-uaig-processa-pedidos",
+    "conciliacao-dados-evidencia-analitica",
+    "minuta-sem-aprovacao-institucional",
+    "mudanca-rotina-armazenamento-sem-mudanca-politica",
+    "norma-interna-nao-sobrepoe-acesso-legal-controle",
+    "observacao-exclusiva-dois-auditores",
+    "parecer-juridico-nao-aprova-politica-uaig",
+    "politica-aprovada-responsaveis-pedidos",
+    "populacao-extraida-exclui-cancelados",
+    "relatorio-anterior-arquivo-permanente",
+    "relatorios-de-setores-mesma-base",
+    "responsavel-uaig-organiza-alta-administracao-aprova-politica",
+    "supervisor-nao-dispensa-documentacao",
+    "testemunho-assinado-nao-conclusivo"
+  ],
+  "review": [
+    {
+      "id": "cgu26-auditoria-un02-q04",
+      "topic": "Objetividade",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo#Objetividade individual: conflitos, impedimentos e consultas anteriores"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un02-q05",
+      "topic": "Supervisão",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo#Supervisão, revisão técnica e documentação"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un02-q06",
+      "topic": "Consultoria",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo#Consultoria anterior e avaliação posterior (item 53)"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un03-q2",
+      "topic": "Estrutura da gestão de riscos",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas.md#Estrutura interna: oito componentes da gestão de riscos (art. 16)"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un03-q5",
+      "topic": "Gestão de riscos",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas.md#Núcleo do conceito"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un04-q8",
+      "topic": "PAINT",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un05-q1",
+      "topic": "Planejamento individual de auditoria",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un05-q3",
+      "topic": "Planejamento individual de auditoria",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un05-pv-q8",
+      "topic": "Planejamento individual de auditoria",
+      "result": "correct",
+      "confidence": "guess",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un06-q6",
+      "topic": "Evidências e documentação de auditoria",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un06-revisao-q1",
+      "topic": "Evidências e documentação de auditoria",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+      ]
+    },
+    {
+      "id": "cgu26-auditoria-un06-para-valer-q6",
+      "topic": "Evidências e documentação de auditoria",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: treino para valer da unidade 06 (03/11)"
+      ]
+    }
+  ]
+}

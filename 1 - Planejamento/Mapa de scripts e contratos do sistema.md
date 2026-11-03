@@ -394,3 +394,10 @@ Adotados dois novos dados: `data/corpus-provas-espelho.json` (URLs oficiais, for
 ## Refinamento posterior: CGU integrada por função (09/10/2026)
 
 O modelo anterior com `4 - Projetos/cgu-2026/`, painel público, `dashboardPath` e link “abrir preparação” foi descontinuado por decisão do usuário. As três notas CGU migraram para **edital/checklist**, **Estratégia de Prova com protocolo discursivo** e **hubs de desempenho, simulados e métricas**. A home mantém seleção via `data/concursos.json`, sem link extra. Os scripts de ingestão/validação não devem exigir arquivo de projeto da CGU. As descrições históricas anteriores de dashboard CGU são preservadas acima apenas para rastrear o incidente original, não para orientar agentes.
+
+
+## Sessões do chat e projeção automática: 03/11/2026
+
+O fluxo aprovado em `CHAT.md` e `data/sessoes/README.md` recebe microtreinos em arquivos individuais. `scripts/study-sessions.js` valida e projeta ledger, blocos marcados nos avanços locais existentes e globais, log diário, hub por edital e contexto compacto por concurso. `scripts/test-study-sessions.js` verifica correção sem duplicação, preservação histórica e entradas inválidas. O restante das notas e métricas históricas permanece preservado, identificado como histórico. O ledger legado não é reimportado. Simulados integrais e ingestão via `scripts/ingest-safe.js` mantêm seus contratos próprios.
+
+No workflow, o contrato do commit de entrada é verificado antes da projeção. Depois, geração determinística, teste de consistência e validadores existentes verificam as saídas, que são persistidas juntas em um commit automático antes da publicação na mesma execução. Este commit derivado pode alterar apenas os destinos enumerados pelo gerador; dispensa incluir no diff arquivos cujo resultado não mudou. Sem force ou rebase em concorrência. Checkpoint salvo, consolidação validada e publicação confirmada são estados distintos. A aula pode continuar enquanto o workflow roda; uma falha deve ser reparada antes de outra gravação não relacionada.

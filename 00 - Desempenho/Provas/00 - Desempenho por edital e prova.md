@@ -8,6 +8,31 @@ updated: 2026-11-03
 
 # Desempenho por edital e prova
 
+<!-- estudo-sessoes:inicio -->
+## Indicadores automáticos
+
+Corte: **2026-11-03**. Fonte: itens individualizados no ledger, incluindo sessões do chat. Histórico parcialmente recuperado não equivale ao volume total estudado. Percentual = acertos / (acertos + erros); brancos e anulados separados. Modalidades e concursos permanecem separados. Volume de 50 itens não comprova domínio. Sem estimativa de nota oficial ou inferência de fadiga.
+
+| Concurso / disciplina / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| dataprev-2026 / Raciocínio Lógico / simulado histórico | 11 | 6 | 0 | 0 | 64.7% | insuficiente |
+| dataprev-2026 / Língua Portuguesa / simulado histórico | 23 | 9 | 0 | 0 | 71.9% | insuficiente |
+| dataprev-2026 / Língua Inglesa / simulado histórico | 23 | 1 | 0 | 0 | 95.8% | insuficiente |
+| dataprev-2026 / Legislação / simulado histórico | 10 | 5 | 0 | 0 | 66.7% | insuficiente |
+| dataprev-2026 / Comunicação Social / simulado histórico | 85 | 15 | 0 | 0 | 85.0% | volume >= 50; verificar representatividade |
+| dataprev-2026 / Atualidades/IA / simulado histórico | 16 | 2 | 0 | 0 | 88.9% | insuficiente |
+| cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
+| cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |
+| cgu-2026 / Auditoria Governamental / aprendizagem | 23 | 4 | 0 | 0 | 85.2% | insuficiente |
+
+Microtreinos são diagnósticos do recorte, sem nota integral. Simulados históricos mantêm seus resultados próprios abaixo.
+<!-- estudo-sessoes:fim -->
+
+## Histórico preservado
+
+Os registros abaixo são anteriores à projeção automática. Não somar seus totais às tabelas acima.
+
+
 Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 03/11/2026.
 
 Este hub separa três medidas que não devem ser misturadas: **aproveitamento bruto**, **nota calculada pelas regras do edital** e **comparabilidade da prova com o concurso atual**. O objetivo é impedir que um percentual alto em uma bateria de composição diferente seja interpretado como estimativa direta de classificação.

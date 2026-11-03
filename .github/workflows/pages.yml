@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -33,6 +33,12 @@ jobs:
           BASE_SHA: ${{ github.event.before }}
           HEAD_SHA: ${{ github.sha }}
         run: node scripts/validate-change-contract.js
+      - name: Testar sessões de estudo
+        run: node scripts/test-study-sessions.js
+      - name: Consolidar sessões e contexto compacto
+        run: node scripts/study-sessions.js
+      - name: Conferir projeções das sessões
+        run: node scripts/study-sessions.js --check
       - name: Testar idempotência da ingestão
         run: node scripts/test-ingestion-idempotency.js
       - name: Testar política pedagógica de questões
@@ -75,6 +81,23 @@ jobs:
         run: node scripts/test-search-ranking.js
       - name: Auditar ausência de arquivos privados em _site
         run: node scripts/validate-integrity.js --audit-site
+      - name: Persistir somente projeções validadas
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import { execFileSync } from 'node:child_process';
+          const paths = JSON.parse(fs.readFileSync('data/sessoes-saidas.json', 'utf8'));
+          const git = args => execFileSync('git', args, {stdio: 'inherit'});
+          git(['add', '--', ...paths]);
+          try { execFileSync('git', ['diff', '--cached', '--quiet']); }
+          catch {
+            git(['config', 'user.name', 'github-actions[bot]']);
+            git(['config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com']);
+            git(['commit', '-m', 'study: consolidar sessões e indicadores automaticamente']);
+            // Sem force ou rebase: concorrência exige nova execução sobre a base atual.
+            git(['push', 'origin', 'HEAD:main']);
+          }
+          NODE
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

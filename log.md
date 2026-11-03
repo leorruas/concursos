@@ -1220,3 +1220,8 @@
 - Mapa atualizado com estado das lacunas e limitações restantes; registros históricos de estudo preservados.
 
 - Ajuste solicitado pelo usuário nesta rodada: retirar desempenho em provas da home. Removidos montagem, observer e fetch desse painel; dados e páginas de desempenho preservados. Teste de home cobre ausência após alternar concursos.
+
+
+## 2026-11-03: fluxo de estudo pelo chat
+
+Autorizado registro por sessão, correção no chat e consolidação automática de microtreinos. Implementados scripts de projeção/testes, contexto compacto por concurso e persistência validada no workflow de publicação. Histórico preservado; nenhuma questão fictícia registrada. Teoria continua editorial; simulados integrais mantêm contrato próprio.

@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "concursoId": "dataprev-2026",
+  "cut": "2026-11-03",
+  "coverage": "somente itens individualizados; legado pode ser parcial",
+  "totals": [
+    {
+      "key": "Raciocínio Lógico / simulado histórico",
+      "total": 17,
+      "correct": 11,
+      "incorrect": 6,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 17,
+      "valid": 17,
+      "accuracy": 0.6470588235294118,
+      "sample": "insuficiente"
+    },
+    {
+      "key": "Língua Portuguesa / simulado histórico",
+      "total": 32,
+      "correct": 23,
+      "incorrect": 9,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 32,
+      "valid": 32,
+      "accuracy": 0.71875,
+      "sample": "insuficiente"
+    },
+    {
+      "key": "Língua Inglesa / simulado histórico",
+      "total": 24,
+      "correct": 23,
+      "incorrect": 1,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 24,
+      "valid": 24,
+      "accuracy": 0.9583333333333334,
+      "sample": "insuficiente"
+    },
+    {
+      "key": "Legislação / simulado histórico",
+      "total": 15,
+      "correct": 10,
+      "incorrect": 5,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 15,
+      "valid": 15,
+      "accuracy": 0.6666666666666666,
+      "sample": "insuficiente"
+    },
+    {
+      "key": "Comunicação Social / simulado histórico",
+      "total": 100,
+      "correct": 85,
+      "incorrect": 15,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 100,
+      "valid": 100,
+      "accuracy": 0.85,
+      "sample": "volume >= 50; verificar representatividade"
+    },
+    {
+      "key": "Atualidades/IA / simulado histórico",
+      "total": 18,
+      "correct": 16,
+      "incorrect": 2,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 18,
+      "valid": 18,
+      "accuracy": 0.8888888888888888,
+      "sample": "insuficiente"
+    }
+  ],
+  "recentSessions": [
+    {
+      "id": "dataprev-simulado-07",
+      "date": "2026-10-10",
+      "sourcePath": "00 - Desempenho/Simulados/Simulado-07.md",
+      "status": "historico",
+      "diagnosis": "Q7 teve pista visual involuntária: apenas a alternativa correta continha trecho destacado."
+    },
+    {
+      "id": "dataprev-simulado-06",
+      "date": "2026-10-06",
+      "sourcePath": "00 - Desempenho/Simulados/Simulado-06.md",
+      "status": "historico",
+      "diagnosis": null
+    },
+    {
+      "id": "dataprev-simulado-05",
+      "date": "2026-10-05",
+      "sourcePath": "00 - Desempenho/Simulados/Simulado-05.md",
+      "status": "historico",
+      "diagnosis": null
+    }
+  ],
+  "recentMechanisms": [
+    "a-roll-vs-b-roll",
+    "aaker-dimensoes-brand-equity",
+    "aberje-fundacao-nome-original",
+    "adverbial-causal-vs-consecutiva",
+    "alcance-vs-impressoes",
+    "ambiguidade-escopo-modificador",
+    "amostragem-identificar-conglomerados",
+    "amostragem-identificar-estratificada",
+    "amostragem-sistematica",
+    "art154a-elementos-tipo-basico",
+    "art154b-representacao-excecoes",
+    "assessoria-instrumentos-presskit-release-nota",
+    "audiovisual-imagem-texto-complementaridade",
+    "branding-arquitetura-marcas",
+    "branding-identidade-imagem-reputacao",
+    "briefing-objetivo-entrega-mandatorio",
+    "calendario-editorial-vs-plano-midia",
+    "cesca-aproximativo-vs-auxiliar",
+    "cesca-veiculos-classificacao",
+    "clipping-vs-analise-imagem-midia",
+    "cms-conceito",
+    "coesao-substituicao-lexical-hiperonimo",
+    "colocacao-pronominal-proclise-negativa",
+    "combinacao-complemento-restricao",
+    "comunicacao-empresarial-pioneiro-vs-planejado",
+    "comunicacao-interna-endomarketing-mudanca",
+    "comunicacao-publica-neutralidade-explicacao-politicas",
+    "concordancia-impessoais-vs-pessoais",
+    "concordancia-nominal-meio-bastante-anexo",
+    "condicao-necessaria-suficiente-so-se",
+    "condicional-contrapositiva",
+    "conjuntos-inclusao-exclusao-dois-conjuntos",
+    "crase-locucoes-femininas",
+    "crase-pronome-demonstrativo-aquela",
+    "crise-dark-site-funcao",
+    "demografia-envelhecimento-razao-dependencia",
+    "design-grid-hierarquia",
+    "design-raster-vs-vetor",
+    "design-rgb-vs-cmyk",
+    "design-sangria-impressao",
+    "discurso-direto-indireto-transposicao-temporal",
+    "duarte-interacao-vs-ouvidoria",
+    "eciber-vs-ctir-estrategico-operacional",
+    "editorial-vs-artigo",
+    "educacao-pne-ideb-saeb-associacao",
+    "ehling-quatro-teorias-funcao",
+    "energia-matriz-energetica-vs-eletrica",
+    "english-author-stance-benchmarks",
+    "english-automation-process-accountability",
+    "english-automation-review-risk",
+    "english-best-title-synthesis",
+    "english-despite-concession",
+    "english-inference-trust-uncertainty",
+    "english-main-idea-metrics-outcomes",
+    "english-modality-possibility-vs-obligation",
+    "english-operational-metric-not-sufficient-outcome",
+    "english-paragraph-purpose-documentation",
+    "english-paraphrase-no-absolutization",
+    "english-reference-it-system",
+    "english-reference-it-usable-information",
+    "english-reference-such-efforts",
+    "english-reference-they-operational-metrics",
+    "english-transparency-access-usability",
+    "english-unless-negative-condition",
+    "english-vocab-accountability-responsibility",
+    "english-vocab-detached-disconnected",
+    "english-vocab-disclosure",
+    "english-vocab-proxy-indirect-measure",
+    "english-vocab-robust",
+    "english-vocab-tradeoff",
+    "english-whereas-contrast",
+    "erro-amostral-vs-nao-amostral",
+    "estrutura-ampulheta-hibrida",
+    "etica-sigilo-fonte-apuracao",
+    "fact-checking-metodo-evidencias",
+    "framing-enfase-de-aspectos",
+    "geometria-retangulo-perimetro-area",
+    "governanca-ia-hard-soft-law",
+    "grupo-focal-discussao-moderada",
+    "ia-comunicacao-validacao-humana",
+    "ia-governanca-multistakeholder-coordenacao",
+    "ia-hierarquia-ia-ml-genai-llm",
+    "ia-quarto-chines-sintaxe-semantica",
+    "idades-sistema-linear-duas-etapas",
+    "identificar-sujeito-verbo-faltar",
+    "interpretacao-inferencia-sem-extrapolacao",
+    "issues-management-controversia-pre-crise",
+    "jornal-do-brasil-fases-editoriais",
+    "jornal-nacional-cronologia-apresentadores",
+    "kotler-evolucao-marketing-fases",
+    "kotter-vitorias-curto-prazo",
+    "kunsch-composto-comunicacao-integrada",
+    "lage-entrevista-circunstancias",
+    "lage-entrevista-objetivos",
+    "lai-acesso-imediato-prazo",
+    "lai-lgpd-acesso-parcial",
+    "lai-transparencia-ativa-vs-passiva",
+    "lgpd-art11-bases-dados-sensiveis",
+    "lgpd-controlador-operador-encarregado",
+    "linguagem-simples-encontrar-compreender-usar",
+    "malinformation-informacao-verdadeira-dano",
+    "marco-civil-neutralidade-rede-excecoes",
+    "marco-civil-prazos-conexao-aplicacoes",
+    "matriz-numerica-regra-por-linha",
+    "mattar-ocasional-evolutiva-tempo",
+    "media-training-bridging",
+    "mercosul-ue-assinatura-aplicacao-provisoria",
+    "nassar-areas-aplicacoes-virtuais",
+    "newsmaking-vs-gatekeeping-rotinas",
+    "noticiabilidade-impacto-vs-importancia-institucional",
+    "o-cruzeiro-nasser-manzon",
+    "ordenacao-restricoes-transitividade",
+    "permutacao-nao-adjacencia-por-complemento",
+    "peso-owned-paid-earned",
+    "pesquisa-qualitativa-vs-quantitativa",
+    "piramide-invertida-ordem-relevancia",
+    "planejamento-eficiencia-eficacia-efetividade",
+    "planejamento-ordem-diagnostico-objetivos",
+    "pne-novo-plano-educacao",
+    "pnl2050-plano-nacional-logistica",
+    "pontuacao-aposto-vs-vocativo",
+    "porcentagem-variacao-sucessiva",
+    "pressuposicao-voltar-a",
+    "preteste-vs-posteste-campanha",
+    "pronome-relativo-regencia-a-que",
+    "proporcao-inversa-produtividade-duas-etapas",
+    "que-conjuncao-integrante-vs-pronome-relativo",
+    "radiojornalismo-linearidade-escrita-oral",
+    "regencia-nominal-adjetivos-preposicao",
+    "regencia-verbal-assistir-preferir-aspirar-obedecer",
+    "roas-calculo-receita-sobre-midia",
+    "saude-incidencia-prevalencia-cobertura",
+    "schein-identificar-pressupostos-basicos",
+    "sequencia-padrao-alternado",
+    "sergio-mattos-identificar-fase-por-periodo",
+    "sete-ps-identificar-people",
+    "sete-ps-identificar-process-physical-evidence",
+    "so-depois-de-preservacao-sentido",
+    "stakeholder-matriz-poder-interesse",
+    "stakeholder-vs-publico-mobilizado",
+    "sujeito-indeterminado-terceira-pessoa-plural",
+    "teatros-amazonia-patrimonio-mundial",
+    "telejornalismo-identificar-elemento-passagem",
+    "telejornalismo-identificar-elementos-sequencia",
+    "tempo-verbal-perfeito-vs-imperfeito-aspecto",
+    "texto-manchetado-caracteristicas-exceto",
+    "tipo-genero-injuncao",
+    "tipografia-kerning",
+    "trabalho-desemprego-vs-informalidade",
+    "tufte-data-ink-chartjunk",
+    "virgula-adjetiva-restritiva-vs-explicativa",
+    "virgula-adverbial-deslocada",
+    "voz-ativa-passiva-preservacao-sentido",
+    "vulnerabilidade-nao-e-incidente"
+  ],
+  "review": [
+    {
+      "id": "sim05-q47",
+      "topic": "História da TV",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil#Fases da televisão brasileira — Sérgio Mattos"
+      ]
+    },
+    {
+      "id": "sim05-q48",
+      "topic": "Radio/TV",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual#Texto manchetado"
+      ]
+    },
+    {
+      "id": "sim05-q49",
+      "topic": "Telejornalismo",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual#Telejornalismo: cinco elementos estruturais"
+      ]
+    },
+    {
+      "id": "sim06-q01",
+      "topic": "Orações subordinadas",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas#`que`: conjunção integrante × pronome relativo"
+      ]
+    },
+    {
+      "id": "sim06-q07",
+      "topic": "Tipos e gêneros textuais",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Portugues/09 - tipos e generos textuais#Tipo × gênero"
+      ]
+    },
+    {
+      "id": "sim06-q27",
+      "topic": "Análise combinatória",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Logica/09 - analise combinatoria#3. Permutação e Fatorial"
+      ]
+    },
+    {
+      "id": "sim06-q30",
+      "topic": "Educação",
+      "result": "incorrect",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026#3. Ideb = fluxo escolar + desempenho",
+        "3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026#4. Saeb"
+      ]
+    },
+    {
+      "id": "sim06-q33",
+      "topic": "Relações internacionais",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Atualidades/19 - relacoes internacionais e fatos globais 2026#5. Acordo Mercosul–União Europeia passou da assinatura para aplicação provisória"
+      ]
+    },
+    {
+      "id": "sim06-q37",
+      "topic": "Marco Civil",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Informatica/01 - marco civil da internet#Guarda de registros"
+      ]
+    },
+    {
+      "id": "sim06-q38",
+      "topic": "LGPD",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/03 - lai lgpd e transparencia#Dados pessoais sensíveis, art. 11"
+      ]
+    },
+    {
+      "id": "sim06-q42",
+      "topic": "Comunicação pública",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/02 - comunicacao publica#Interação",
+        "3 - Materias/Comunicacao/02 - comunicacao publica#Ouvidoria social"
+      ]
+    },
+    {
+      "id": "sim06-q43",
+      "topic": "Relações Públicas",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/22.1 - ehling white e grunig quatro teorias do gerenciamento de rp#4. Teoria de conflitos-resoluções → função política"
+      ]
+    },
+    {
+      "id": "sim06-q65",
+      "topic": "História da TV",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil#Fases da televisão brasileira — Sérgio Mattos"
+      ]
+    },
+    {
+      "id": "sim07-q03",
+      "topic": "Sujeito",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Portugues/02 - sujeito#Sujeito indeterminado"
+      ]
+    },
+    {
+      "id": "sim07-q04",
+      "topic": "Regência nominal",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Portugues/04 - regencia#Regência nominal"
+      ]
+    },
+    {
+      "id": "sim07-q05",
+      "topic": "Crase",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Portugues/11 - crase#Locuções femininas"
+      ]
+    },
+    {
+      "id": "sim07-q12",
+      "topic": "Reescrita",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido#5. Voz ativa × voz passiva"
+      ]
+    },
+    {
+      "id": "sim07-q24",
+      "topic": "Reading",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Ingles/ingles#2. Leitura Instrumental e Vocabulário Técnico"
+      ]
+    },
+    {
+      "id": "sim07-q26",
+      "topic": "Razões e proporções",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Logica/10 - razoes proporcoes e divisao proporcional#Núcleo do conceito"
+      ]
+    },
+    {
+      "id": "sim07-q27",
+      "topic": "Raciocínio matricial",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais#4. Raciocínio matricial"
+      ]
+    },
+    {
+      "id": "sim07-q29",
+      "topic": "Problemas aritméticos",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais#Equação curta"
+      ]
+    },
+    {
+      "id": "sim07-q32",
+      "topic": "Saúde pública",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Atualidades/12 - saude publica vigilancia e vacinacao#Núcleo do conceito"
+      ]
+    },
+    {
+      "id": "sim07-q37",
+      "topic": "Marco Civil",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Informatica/01 - marco civil da internet#Guarda de registros"
+      ]
+    },
+    {
+      "id": "sim07-q38",
+      "topic": "Lei 12.737",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Informatica/02 - lei 12737 delitos informaticos#Art. 154-B: ação penal"
+      ]
+    },
+    {
+      "id": "sim07-q42",
+      "topic": "Redação jornalística",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling#Estrutura híbrida: ampulheta"
+      ]
+    },
+    {
+      "id": "sim07-q43",
+      "topic": "Gestão de crises",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/07 - gestao de crises#Dark site"
+      ]
+    },
+    {
+      "id": "sim07-q52",
+      "topic": "Entrevista jornalística",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/14 - entrevista jornalistica#Em profundidade"
+      ]
+    },
+    {
+      "id": "sim07-q57",
+      "topic": "Pesquisa",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/17 - pesquisa em comunicacao#Fronteiras entre os principais desenhos probabilísticos"
+      ]
+    },
+    {
+      "id": "sim07-q58",
+      "topic": "Pesquisa",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/17 - pesquisa em comunicacao#Erro amostral × não amostral"
+      ]
+    },
+    {
+      "id": "sim07-q67",
+      "topic": "História da imprensa",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil#Jornal do Brasil — fases editoriais"
+      ]
+    }
+  ]
+}

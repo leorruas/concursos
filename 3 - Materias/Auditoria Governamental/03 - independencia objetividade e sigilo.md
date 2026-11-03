@@ -3,7 +3,7 @@ title: "Independência, objetividade, impedimentos e supervisão na auditoria"
 type: "conceito"
 status: "ativo"
 created: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-03
 ---
 
 # Independência, objetividade, impedimentos e supervisão na auditoria

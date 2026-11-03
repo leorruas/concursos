@@ -46,13 +46,18 @@ check('matriz de auditoria preserva 14 unidades e quatro colunas', (
   linhasMatriz.length === 14 &&
   linhasMatriz.every(linha => (linha.match(/(?<!\\)\|/g) || []).length === 5)
 ));
-check('links da matriz usam alias escapado e preservam notas 01 a 04', (
-  ['01 - finalidades e tres linhas', '02 - ciclo de auditoria',
-   '03 - independencia objetividade e sigilo',
+check('links da matriz preservam notas históricas e atalhos para etapas do ciclo', (
+  ['01 - finalidades e tres linhas', '03 - independencia objetividade e sigilo',
    '04 - proficiencia zelo e ceticismo profissional'
   ].every(arquivo => linhasMatriz.some(linha => linha.includes(
     '[[3 - Materias/Auditoria Governamental/' + arquivo + '\\|nota '
-  )))
+  ))) &&
+  linhasMatriz.some(linha => linha.includes(
+    '[[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#3. Comunicação: transformar evidências em conclusões úteis\\|etapa de comunicação]]'
+  )) &&
+  linhasMatriz.some(linha => linha.includes(
+    '[[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#4. Monitoramento: verificar a resposta e o resultado\\|etapa de monitoramento]]'
+  ))
 ));
 
 if (falhas > 0) process.exit(1);

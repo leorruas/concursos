@@ -3,7 +3,7 @@ title: "Cebraspe: CGU 2026, Auditoria e método C/E"
 type: "conceito"
 status: "ativo"
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-11-03
 ---
 
 # Cebraspe: CGU 2026, Auditoria e método C/E
@@ -69,10 +69,11 @@ Preservar revisão e prova da Dataprev. A montagem do projeto CGU não gera duas
 
 ### 26/10 a 15/11: maiores lacunas dos específicos
 
-- Contabilidade aplicada ao setor público: MCASP 11ª, demonstrações e leitura de inconsistências; informação societária e estatais.
-- Avaliação de políticas: teoria da mudança, modelo lógico, contrafactual, diferenças em diferenças, regressão descontínua, pareamento e análise de custos.
-- Auditoria de contratações, transferências, contratos e responsabilização aplicada.
-- Duas produções discursivas por semana, alternando questão curta e situação-problema.
+- **Auditoria governamental em execução:** unidades 02, 03 e 04 encerradas didaticamente; na unidade 04, 6/6 em aprendizagem, 6/8 para valer e 4/4 em revisão dirigida. Os desvios úteis foram competência para alterar o PAINT e fatores indiretos; a unidade 05 foi estudada, mas ainda não testada.
+- Fechar o ciclo de Auditoria com diagnóstico da unidade 05 e reteste dos erros das unidades 02 e 03. O acumulado de 42 itens válidos (36 acertos; 85,7%) é indicador de microtreino, **não** de prontidão nem de nota CGU.
+- Em paralelo, atacar a maior lacuna ainda sem medida: Contabilidade aplicada ao setor público — MCASP 11ª, demonstrações, execução orçamentária e leitura de inconsistências; informação societária e estatais.
+- Em seguida, avaliação de políticas: teoria da mudança, modelo lógico, contrafactual, diferenças em diferenças, regressão descontínua, pareamento e análise de custos.
+- Manter casos de auditoria de contratações, transferências, contratos e responsabilização aplicada. Iniciar uma questão discursiva de 30 linhas e uma situação-problema de 60 linhas por semana; ampliar para duas produções semanais apenas após a primeira correção diagnóstica.
 
 ### 16/11 a 29/11: integração e aplicação
 
@@ -151,10 +152,11 @@ Na etapa inicial, uma questão de 30 linhas e uma situação-problema de 60 linh
 
 ## Estado e métricas
 
-- **Baseline CGU:** pendente, sem percentual nem nota de corte inventados.
+- **Situação em 03/11/2026:** Auditoria Governamental soma **42 itens válidos, 36 acertos (85,7%)**, com 14/15 em aprendizagem, 18/23 para valer (um branco) e 4/4 em revisão dirigida. Há também uma questão anulada, excluída do indicador. A amostra é insuficiente e mistura modalidades; não estimar nota nem classificação.
+- **Baseline CGU integral:** pendente. Aplicar diagnóstico líquido separado em P1, P2 e P3, com controle de tempo e de novidade, antes de ajustar a distribuição entre blocos.
 - **Cobertura de edital:** consultar o [checklist completo anexado ao edital (no GitHub)](https://github.com/leorruas/concursos/blob/main/2%20-%20Editais/CGU%202026%20-%20Auditoria.md); `coberturaNota` não é `exposicaoEstudo`.
 - **Provas, questões e simulados futuros:** registrar no `data/provas.json`, ledger e hubs de `00 - Desempenho/` com `concursoId: cgu-2026`, sem criar `4 - Projetos/cgu-2026/` nem importar métricas de outras provas.
-- **Último benchmark válido:** pendente até existir prova/simulado integral CGU com correção e controle de novidade.
+- **Último benchmark válido:** pendente até existir prova/simulado integral CGU com correção, tempo real e controle de novidade.
 
 ## Fontes
 

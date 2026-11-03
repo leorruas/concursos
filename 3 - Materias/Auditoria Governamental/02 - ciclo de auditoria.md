@@ -188,7 +188,7 @@ O programa e eventuais ajustes devem ser **documentados e previamente aprovados 
 
 **Heurística Cebraspe:** objeto = *o quê*; objetivo = *para quê*; escopo = *até onde*; questão = *o que responder*; critério = *com que padrão*; fonte = *onde estão os dados*; procedimento = *como testar*; supervisor = *quem aprova previamente o programa*. 
 
-**Status:** teoria da unidade 05 ensinada em 03/11/2026, primeira bateria de aprendizagem respondida **4/6**, sem treino para valer da unidade. A revisão 4/4 anterior pertence à unidade 04.
+**Status (03/11/2026): unidade 05 concluída didaticamente**, após aprendizagem **4/6**, revisão aplicada **6/6** e treino para valer **8/8**, com **um acerto declarado por chute** sobre programa de consultoria. A revisão não apaga os dois erros originais. Retenção espaçada e transferência para novas situações ainda devem ser testadas.
 
 #### Refinamento a partir dos erros: primeira bateria da unidade 05
 
@@ -207,6 +207,16 @@ O programa e eventuais ajustes devem ser **documentados e previamente aprovados 
 A aprendizagem anterior havia sido **4/6**, com erro em escopo × critério e na competência para autorizar alterações do programa. A revisão corrige o julgamento desses mecanismos em outros contextos, **sem apagar os erros nem demonstrar retenção espaçada**. A bateria contém quatro reutilizações temáticas e duas mecânicas intencionais, e por isso não é benchmark de dificuldade. **Próximo passo: treino para valer com problemas novos, incluindo critérios de desempenho, planejamento individual, supervisão e risco de auditoria.**
 
  Acertos sobre subquestões e matriz, fonte versus procedimento, risco de auditoria versus risco do objeto e Ordem de Serviço versus programa. Sem justificativas verbais, a tipologia dos dois erros é provisória. A próxima bateria deve testar essas duas distinções em contextos novos, sem inferir domínio pelo resultado didático.
+
+
+#### Refinamento: bateria para valer e acerto inseguro (03/11)
+
+**Oito itens inéditos Cebraspe, 8/8; gabarito e respostas: C/E/E/C/E/C/C/E.** Q1: preços comparáveis adequados podem ser critério, enquanto contratos escolhidos delimitam escopo. Q2: exame restrito a candidatos aprovados não sustenta opinião sobre todas as etapas do processo seletivo. Q3: possível achado em matriz de planejamento não é condição comprovada. Q4: ajuste individual do programa precisa de anuência prévia do supervisor, sem implicar necessariamente mudança significativa do PAINT. Q5: aumentar a amostra altera **extensão**, não natureza do teste. Q6: base incompleta pode aumentar o risco de conclusão inválida do auditor. Q7: limite legal e meta operacional pertinente podem ser critérios de finalidades distintas.
+
+**Q8: acerto por chute, confiança `guess`.** O item 139 do Referencial Técnico (IN SFC nº 3/2017) dispõe sobre conteúdo do programa nos **serviços de avaliação**. O **item 140** estabelece que, em **consultoria**, o programa pode variar na **forma e no conteúdo**, conforme a natureza do trabalho. O MOT, seção **1.2.3.1**, exige planejamento e entendimento documentado com a unidade auditada sobre objetivos, natureza, escopo, prazo e responsabilidades. A flexibilidade do programa não autoriza iniciar consultoria sem acordo ou planejamento. O chute exige retomada futura da fronteira *avaliação × consultoria*, apesar do gabarito correto.
+
+**Decisão:** aprendizagem 4/6, revisão 6/6 (intencional) e treino para valer 8/8 (um chute); 18/20 nos exercícios da unidade. Encerramento **didático**, com revisão espaçada de escopo/critério, competência para autorizar programa e consultoria/avaliação. A calibração do treino para valer tem base em mecanismos de apenas quatro itens reais da CGE/AL 2026, não em equalização estatística de dificuldade. Não inferir domínio permanente.
+
 
 
 ### 1. Planejamento: formular perguntas que os testes poderão responder

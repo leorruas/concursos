@@ -51,3 +51,9 @@ A **Lei de Acesso à Informação (LAI), Lei nº 12.527/2011**, garante, no **ar
 ## Fronteiras com outras notas
 
 [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao|Evidências e documentação]] aborda guarda e aprovação institucional da política de acesso a papéis de trabalho; esta nota trata do dever profissional, da comunicação dos resultados e do direito de acesso. [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|Independência e objetividade]] aborda os conflitos e impedimentos do auditor. **Comunicar fatos materiais à autoridade competente, responder pedido público pela LAI e acessar registros para executar a auditoria são procedimentos diferentes**, cada um sujeito a regras próprias.
+
+## Fontes normativas
+
+- [Referencial Técnico de Auditoria Interna Governamental, Instrução Normativa SFC nº 3/2017, itens 55 a 58](https://repositorio.cgu.gov.br/bitstream/1/33409/21/Instrucao_Normativa_CGU_3_2017.pdf).
+- [Manual de Orientações Técnicas da CGU](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
+- [Lei de Acesso à Informação, Lei nº 12.527/2011, arts. 3º e 7º](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm).

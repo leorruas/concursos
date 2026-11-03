@@ -3,7 +3,7 @@ title: "Finalidades e modalidades de auditoria governamental"
 type: "conceito"
 status: "ativo"
 created: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-03
 ---
 
 # Finalidades e modalidades de auditoria governamental

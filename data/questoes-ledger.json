@@ -7724,7 +7724,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+        "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md#Três bases para priorização: ordem preferencial na orientação da CGU"
       ],
       "userReasoning": "Selecionou a alternativa sem justificativa verbalizada.",
       "repetition": {
@@ -7759,7 +7759,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+        "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md#Três bases para priorização: ordem preferencial na orientação da CGU"
       ],
       "userReasoning": "Selecionou a alternativa sem justificativa verbalizada.",
       "repetition": {
@@ -7794,7 +7794,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+        "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md#Priorização dos objetos × escolha dos trabalhos do PAINT"
       ],
       "userReasoning": "Selecionou a alternativa sem justificativa verbalizada.",
       "repetition": {
@@ -7829,7 +7829,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#Sequência de competências e prazos do PAINT (arts. 5º a 9º)"
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, art. 6º, §1º",
       "userReasoning": "Resposta selecionada sem justificativa verbalizada.",
@@ -7865,7 +7865,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#Compor o PAINT: da ordem de prioridades ao portfólio possível (arts. 3º e 4º)"
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, art. 4º, II e §2º",
       "userReasoning": "Resposta selecionada sem justificativa verbalizada.",
@@ -7901,7 +7901,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#RAINT: o que foi realizado e com quais resultados (arts. 10 a 14)"
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, art. 11, II",
       "userReasoning": "Resposta selecionada sem justificativa verbalizada.",
@@ -7937,7 +7937,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#Sequência de competências e prazos do PAINT (arts. 5º a 9º)"
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, art. 6º, §2º",
       "calibrationEvidence": [
@@ -7976,7 +7976,7 @@
       "confidence": "unknown",
       "errorType": "C",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#Sequência de competências e prazos do PAINT (arts. 5º a 9º)"
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, art. 7º, §§1º e 2º",
       "calibrationEvidence": [
@@ -8015,7 +8015,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#Compor o PAINT: da ordem de prioridades ao portfólio possível (arts. 3º e 4º)"
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, art. 4º, I",
       "calibrationEvidence": [
@@ -8054,7 +8054,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+        "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md#Materialidade, relevância e criticidade: três perguntas diferentes"
       ],
       "normativeBasis": "MOT CGU, seção 4.1.4",
       "calibrationEvidence": [
@@ -8093,7 +8093,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#RAINT: o que foi realizado e com quais resultados (arts. 10 a 14)"
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, art. 11, II",
       "calibrationEvidence": [
@@ -8132,7 +8132,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#RAINT: o que foi realizado e com quais resultados (arts. 10 a 14)"
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, arts. 4º e 11",
       "calibrationEvidence": [
@@ -8171,7 +8171,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+        "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md#Materialidade, relevância e criticidade: três perguntas diferentes"
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, art. 3º",
       "calibrationEvidence": [
@@ -8210,7 +8210,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#Parecer sobre a prestação de contas: terceiro produto (arts. 15 a 17)"
       ],
       "normativeBasis": "IN SFC/CGU nº 5/2021, arts. 1º e 10 a 17",
       "calibrationEvidence": [
@@ -8249,7 +8249,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#Sequência de competências e prazos do PAINT (arts. 5º a 9º)"
       ],
       "userReasoning": "Resposta clicável sem justificativa; revisão de mecanismos anteriores.",
       "repetition": {
@@ -8286,7 +8286,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#Sequência de competências e prazos do PAINT (arts. 5º a 9º)"
       ],
       "userReasoning": "Resposta clicável sem justificativa; revisão de mecanismos anteriores.",
       "repetition": {
@@ -8323,7 +8323,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+        "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md#Três bases para priorização: ordem preferencial na orientação da CGU"
       ],
       "userReasoning": "Resposta clicável sem justificativa; revisão de mecanismos anteriores.",
       "repetition": {
@@ -8360,7 +8360,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+        "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md#Três bases para priorização: ordem preferencial na orientação da CGU"
       ],
       "userReasoning": "Resposta clicável sem justificativa; revisão de mecanismos anteriores.",
       "repetition": {
@@ -8397,7 +8397,7 @@
       "confidence": "unknown",
       "errorType": "C",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "MOT CGU, seções 4.3.2.2 e 5.4.2",
       "userReasoning": "Resposta C em item errado, sem justificativa. Categoria de erro provisória.",
@@ -8433,7 +8433,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Matriz, programa e supervisão"
       ],
       "normativeBasis": "MOT CGU, seção 4.3.3 e Apêndice B",
       "userReasoning": "Resposta C/E sem justificativa verbalizada.",
@@ -8469,7 +8469,7 @@
       "confidence": "unknown",
       "errorType": "C",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Matriz, programa e supervisão"
       ],
       "normativeBasis": "IN SFC nº 3/2017, item 141; MOT CGU, seção 4.3.3",
       "userReasoning": "Resposta C em item errado, sem justificativa. Categoria de erro provisória.",
@@ -8507,7 +8507,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "MOT CGU, Apêndice B",
       "userReasoning": "Resposta C/E sem justificativa verbalizada.",
@@ -8543,7 +8543,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Risco do objeto versus risco de auditoria"
       ],
       "normativeBasis": "MOT CGU, seção 4.3.2",
       "userReasoning": "Resposta C/E sem justificativa verbalizada.",
@@ -8579,7 +8579,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Matriz, programa e supervisão"
       ],
       "normativeBasis": "MOT CGU, seções 4.2 e 4.3.3",
       "userReasoning": "Resposta C/E sem justificativa verbalizada.",
@@ -8615,7 +8615,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "IN SFC nº 3/2017, item 134; MOT CGU, 4.3.2.2",
       "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
@@ -8653,7 +8653,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "IN SFC nº 3/2017, itens 134 e 139; MOT CGU, 4.3.2.2 e 4.3.3",
       "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
@@ -8691,7 +8691,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "MOT CGU, 4.3.3 (padrões razoáveis e atingíveis de desempenho)",
       "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
@@ -8729,7 +8729,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Matriz, programa e supervisão"
       ],
       "normativeBasis": "IN SFC nº 3/2017, item 141; MOT CGU, 4.3.3",
       "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
@@ -8767,7 +8767,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "IN SFC nº 3/2017, item 141",
       "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
@@ -8805,7 +8805,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "MOT CGU, 4.3.2.2",
       "userReasoning": "Resposta C/E marcada sem justificativa verbalizada.",
@@ -8843,7 +8843,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "MOT CGU, seções 4.3.2.2, 4.3.3 e 5.4.2",
       "calibrationSourceIds": [
@@ -8887,7 +8887,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "IN SFC nº 3/2017, itens 133-137; MOT CGU, seção 4.3.2.2",
       "calibrationSourceIds": [
@@ -8929,7 +8929,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "MOT CGU, Apêndice B; capítulo 5",
       "calibrationSourceIds": [
@@ -8971,7 +8971,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Matriz, programa e supervisão"
       ],
       "normativeBasis": "IN SFC nº 3/2017, item 141; MOT CGU, seção 4.3.3",
       "calibrationSourceIds": [
@@ -9015,7 +9015,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "MOT CGU, seções 4.3.4.1 e 4.3.4.3",
       "calibrationSourceIds": [
@@ -9057,7 +9057,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Risco do objeto versus risco de auditoria"
       ],
       "normativeBasis": "MOT CGU, seção 4.3.2 e orientações de evidência",
       "calibrationSourceIds": [
@@ -9099,7 +9099,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ],
       "normativeBasis": "MOT CGU, seções 4.3.3 e 5.4.2",
       "calibrationSourceIds": [
@@ -9141,7 +9141,7 @@
       "confidence": "guess",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Refinamento de conceitos próximos"
       ],
       "normativeBasis": "IN SFC nº 3/2017, itens 139 e 140; MOT CGU, seção 1.2.3.1",
       "calibrationSourceIds": [
@@ -9183,7 +9183,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Suficiência × adequação: estrutura normativa"
       ],
       "normativeBasis": "MOT CGU seção 5.3.1; IN SFC nº 3/2017, item 150",
       "userReasoning": "Resposta selecionada sem justificativa verbalizada ou grau de confiança.",
@@ -9219,7 +9219,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Fontes, natureza e persuasão"
       ],
       "normativeBasis": "MOT CGU, seção 5.3.3",
       "userReasoning": "Resposta selecionada sem justificativa verbalizada ou grau de confiança.",
@@ -9255,7 +9255,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Fontes, natureza e persuasão"
       ],
       "normativeBasis": "MOT CGU, seção 5.3.2",
       "userReasoning": "Resposta selecionada sem justificativa verbalizada ou grau de confiança.",
@@ -9293,7 +9293,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Papéis de trabalho: finalidade e responsabilidades"
       ],
       "normativeBasis": "MOT CGU, seção 5.7.1 e 5.7.2; IN SFC nº 3/2017, itens 150 e 151",
       "userReasoning": "Resposta selecionada sem justificativa verbalizada ou grau de confiança.",
@@ -9329,7 +9329,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Fontes, natureza e persuasão"
       ],
       "normativeBasis": "MOT CGU, seção 5.7.3",
       "userReasoning": "Resposta selecionada sem justificativa verbalizada ou grau de confiança.",
@@ -9365,7 +9365,7 @@
       "confidence": "unknown",
       "errorType": "C",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ],
       "normativeBasis": "IN SFC nº 3/2017, item 154, c; MOT CGU, seção 5.7.5",
       "userReasoning": "O aluno marcou C para dispensa de assessoria jurídica e alta administração, sem justificativa. Classificação provisória como confusão de responsabilidades/competências.",
@@ -9401,7 +9401,7 @@
       "confidence": "unknown",
       "errorType": "C",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ],
       "normativeBasis": "IN SFC nº 3/2017, item 154(c); MOT 5.7.5",
       "userReasoning": "Marcada C, sem justificativa. Repetiu a atribuição indevida de aprovação ao titular da UAIG após análise jurídica; erro normativo de competência, provisoriamente [C].",
@@ -9439,7 +9439,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ],
       "normativeBasis": "IN SFC nº 3/2017, itens 152 e 154(c)",
       "userReasoning": "Resposta C/E selecionada sem justificativa ou segurança informada.",
@@ -9477,7 +9477,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ],
       "normativeBasis": "IN SFC nº 3/2017, item 154(a); MOT 5.7.5(b)",
       "userReasoning": "Resposta C/E selecionada sem justificativa ou segurança informada.",
@@ -9515,7 +9515,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ],
       "normativeBasis": "MOT CGU, seção 5.7.5, parte final",
       "userReasoning": "Resposta C/E selecionada sem justificativa ou segurança informada.",
@@ -9553,7 +9553,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ],
       "normativeBasis": "IN SFC nº 3/2017, item 154(c); MOT 5.7.5",
       "userReasoning": "Assinalou E corretamente: parecer jurídico não substitui aprovação institucional pela alta administração. Confiança não declarada.",
@@ -9591,7 +9591,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ],
       "normativeBasis": "IN SFC nº 3/2017, itens 152 e 154(c)",
       "userReasoning": "Resposta C/E selecionada sem justificativa ou segurança informada.",
@@ -9629,7 +9629,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Suficiência × adequação: estrutura normativa"
       ],
       "normativeBasis": "MOT 5.3.1, 5.3.3",
       "calibrationEvidence": [
@@ -9670,7 +9670,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Fontes, natureza e persuasão"
       ],
       "normativeBasis": "MOT 5.3.2, 5.3.3",
       "calibrationEvidence": [
@@ -9709,7 +9709,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Fontes, natureza e persuasão"
       ],
       "normativeBasis": "MOT 5.3.2",
       "calibrationEvidence": [
@@ -9748,7 +9748,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Fontes, natureza e persuasão"
       ],
       "normativeBasis": "MOT 5.3.2",
       "calibrationEvidence": [
@@ -9787,7 +9787,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Fontes, natureza e persuasão"
       ],
       "normativeBasis": "MOT 5.3.1, 5.3.2",
       "calibrationEvidence": [
@@ -9826,7 +9826,7 @@
       "confidence": "unknown",
       "errorType": "C",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: treino para valer da unidade 06 (03/11)"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ],
       "normativeBasis": "MOT 5.7.3",
       "calibrationEvidence": [
@@ -9867,7 +9867,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Papéis de trabalho: finalidade e responsabilidades"
       ],
       "normativeBasis": "MOT 5.7.1 e 5.7.2",
       "calibrationEvidence": [
@@ -9908,7 +9908,7 @@
       "confidence": "unknown",
       "errorType": null,
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ],
       "normativeBasis": "IN SFC 3/2017 item 154; MOT 5.7.5",
       "calibrationEvidence": [

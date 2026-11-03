@@ -140,23 +140,3 @@ A sequência também conecta as próximas notas: **evidências e técnicas** exp
 - [CGU: Planejamento de Trabalho de Auditoria Baseada em Risco](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/competencias-tecnicas-de-auditoria/trabalho-auditoria-baseada-em-riscos).
 
 O histórico e os resultados de aprendizagem ficam em [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]].
-
-## Encaminhamentos de links antigos
-
-Estes títulos preservam referências anteriores à divisão do conteúdo. O estudo aprofundado está nas notas relacionadas.
-
-### Refinamento: seleção de objetos com gestão de riscos pouco madura
-
-[[3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos#Três bases para priorização: ordem preferencial na orientação da CGU|Planejamento baseado em riscos]].
-
-### Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas
-
-[[3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas#Núcleo: programação e prestação de contas|PAINT e RAINT]].
-
-### Expansão: unidade 05, planejamento individual do trabalho de auditoria
-
-[[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria#Núcleo e preparação do trabalho|Planejamento individual]].
-
-### Expansão: unidade 06, evidências e documentação
-
-[[3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Suficiência × adequação: estrutura normativa|Evidências e documentação]].

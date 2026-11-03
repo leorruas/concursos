@@ -62,7 +62,7 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 ---
 
-**CGU 2026/Auditoria:** 72 itens válidos respondidos até 03/11, com 62 acertos, nove erros e um branco, incluindo um acerto por chute: aprendizagem 23/27, para valer 26/31 e revisão 13/14; unidades 02 a 05 concluídas didaticamente, unidade 06 com aprendizagem 5/6 e revisão 3/4, em ambos erro na competência final de aprovação da política de acesso; mais uma questão anulada e substituída. Esses dados são distintos de simulados, notas líquidas ou resultados Dataprev. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços locais]] e os itens individualizados em `data/questoes-ledger.json`.
+**CGU 2026/Auditoria:** 72 itens válidos respondidos até 03/11, com 62 acertos, nove erros e um branco, incluindo um acerto por chute: aprendizagem 23/27, para valer 26/31 e revisão 13/14; unidades 02 a 05 concluídas didaticamente, unidade 06 com aprendizagem 5/6 e revisão 3/4, em ambos erro na competência final de aprovação da política de acesso; mais uma questão anulada e substituída. Esses dados são distintos de simulados, notas líquidas ou resultados Dataprev. A regra de aprovação e o tratamento das solicitações estão em [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Refinamento: fronteiras do treino da unidade 06|Evidências e documentação]]. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços locais]] e os itens individualizados em `data/questoes-ledger.json`.
 
 ## Log de Saturação Diária
 

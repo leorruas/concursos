@@ -70,7 +70,7 @@ Consulte as diretrizes metodológicas, réguas de competitividade e metas de pro
 | :--- | :--- | :--- | :--- |
 | Direito Administrativo, governança e LAI/LGPD | Base aproveitável parcial | Não | Revisão aplicada e itens C/E |
 | Estado, sociedade, ética e políticas públicas | Parcial | Não | Completar lacunas P1/P2 |
-| Auditoria governamental e evidências | Notas especializadas de modalidades, três linhas, ética, planejamento, ciclo e evidências | Histórico até U06: 82 válidos, 70 acertos, dez erros, dois brancos e uma anulação; conferir indicadores automáticos acima; nenhum simulado | U06 encerrada didaticamente (16/20); U07 iniciou aprendizagem (4/4), com treino para valer pendente |
+| Auditoria governamental e evidências | Notas de modalidades, três linhas, ética e ciclo; [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria#Fronteiras entre os elementos\|planejamento individual]] e [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Refinamento: fronteiras do treino da unidade 06\|evidências]] | Histórico até U06: 82 válidos, 70 acertos, dez erros, dois brancos e uma anulação; conferir indicadores automáticos acima; nenhum simulado | U06 encerrada didaticamente (16/20); U07 iniciou aprendizagem (4/4), com treino para valer pendente |
 | Orçamento e contabilidade pública | Grande lacuna | Não | Execução, PPA/LDO/LOA, MCASP, estatais |
 | Avaliação de políticas e inferência causal | Parcial | Não | Indicadores, contrafactual, desenho de avaliação |
 | Contratações, transferências, integridade e responsabilização | Parcial | Não | Casos, PAD/PAR, leniência, ouvidoria |

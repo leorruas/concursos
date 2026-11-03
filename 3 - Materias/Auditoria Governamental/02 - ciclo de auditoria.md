@@ -3,7 +3,7 @@ title: "Ciclo de auditoria interna governamental: planejamento, execução, comu
 type: "conceito"
 status: "ativo"
 created: 2026-10-30
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 
 # Ciclo de auditoria interna governamental
@@ -146,6 +146,49 @@ O **parecer da auditoria interna sobre a prestação de contas anual** é distin
 **Fontes normativas:** [IN SFC/CGU nº 5/2021, texto na Wiki CGU](https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_5%2C_de_27_de_agosto_de_20218); [CGU, perguntas frequentes sobre o PAINT](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/uaig/perguntas-frequentes); [CGU, PAINT e RAINT publicados](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/PAINT-e-RAINT).
 
 **Situação didática:** conteúdo explicado no chat e consolidado na nota em **02/11/2026**; **PAINT/RAINT testados em três itens didáticos, 3/3 (E/C/C)**; somados aos três itens sobre bases de avaliação de riscos e seleção, a unidade 04 possui **6/6 em aprendizagem** na sessão de 02/11/2026. Treino para valer de oito itens realizado com aproximação a quatro mecanismos reais da CGE/AL 2026: **6/8, com um erro e um branco**. O erro é na competência para apreciar alterações significativas do PAINT, exigida no art. 7º, §1º, antes da comunicação prevista no §2º. O branco foi sobre fatores indiretos de riscos. O treino é curto, sem controle de tempo nem equivalência estatística; não declarar domínio integral.
+
+
+### Expansão: unidade 05, planejamento individual do trabalho de auditoria
+
+**Base normativa:** [IN SFC nº 3/2017, Referencial Técnico, itens 119 a 141 e 157](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/pgmq/arquivos/in-sfc-03-2017-referencial-tecnico.pdf) e [Manual de Orientações Técnicas da CGU, seções 4.2 e 4.3 e Apêndice B](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal). **Aula em 03/11/2026; treino da unidade 05 ainda pendente.**
+
+#### Distinção em relação ao PAINT
+
+O PAINT seleciona **quais trabalhos** a UAIG pretende realizar no exercício. O planejamento individual determina **como um trabalho selecionado responderá às questões de auditoria**, com objetivos, limites, métodos, equipe e cronograma. Pelo item 122 do Referencial Técnico, contempla análise preliminar do objeto, definição de objetivos e escopo à luz de riscos e controles, programa de trabalho, alocação da equipe e coordenação. Esses passos podem ser refinados no decorrer da preparação, sem confundir a escolha anual do objeto com o desenho de seus testes.
+
+**Formalização** (MOT, seção 4.2): o trabalho é formalizado internamente, usualmente por **Ordem de Serviço**, com unidade auditada, objeto, objetivo, equipe, responsáveis e prazo. A ordem de serviço pode anteceder o programa de trabalho e **não é sinônimo deste**; nome e forma variam conforme normas internas da UAIG.
+
+#### Fronteiras entre os elementos
+
+| Elemento | Pergunta de controle | Exemplo hipotético: assistência estudantil |
+| :--- | :--- | :--- |
+| **Objeto** | O que será auditado? | Concessão e pagamento de bolsas |
+| **Objetivo** | Para que auditar? | Avaliar controles contra pagamento indevido |
+| **Escopo** | Até onde o trabalho irá? | Bolsas de determinado exercício, em dois campi |
+| **Questão** | O que deve ser respondido com evidências? | Pagamentos tiveram comprovação prévia de elegibilidade? |
+| **Subquestão** | Qual parte da questão geral deve ser examinada? | Houve verificação de duplicidades antes de pagar? |
+| **Critério** | Qual padrão permite comparar situação real e esperada? | Exigências do regulamento de concessão de bolsas |
+| **Informações e fontes** | Quais dados e onde estão? | Cadastro, editais, processos e registros financeiros |
+| **Procedimento** | Como obter e avaliar evidências? | Inspeção e cruzamento de cadastros e pagamentos |
+| **Possível achado** | Qual desvio poderá ser demonstrado, se encontrado? | Pagamento sem comprovação exigida, sujeito à prova |
+
+**Escopo não é critério:** período e unidades delimitam o exame; regras e padrões são referências para julgar conformidade. **Fonte não é procedimento:** o cadastro contém registros; cruzar ou inspecionar registros é o procedimento. **Risco não é achado:** a possibilidade de pagamento indevido motiva o exame, enquanto a ocorrência precisa ser verificada e documentada.
+
+#### Matriz, programa e supervisão
+
+A **matriz de planejamento**, exemplificada no **Apêndice B do MOT**, encadeia problema/risco, questão, subquestão, critério, informações necessárias, fontes, procedimentos, limitações, responsável, período e possível achado. Serve para verificar se cada questão pode ser respondida por evidências e se os procedimentos adotados efetivamente permitem comparação com o critério. **Possível achado** na matriz é hipótese, não irregularidade comprovada.
+
+O **programa de trabalho** é documentado e contém procedimentos aptos a responder aos objetivos específicos. Nos serviços de avaliação, prevê questões, critérios, técnicas e **natureza e extensão dos testes** (Referencial, itens 138 e 139). Na escolha da **natureza, época e extensão** dos exames: *natureza* é tipo de procedimento; *época* é quando testar; *extensão* é quanto ou quantos elementos examinar. Nem todo exame requer 100% dos registros.
+
+O programa e eventuais ajustes devem ser **documentados e previamente aprovados pelo supervisor da auditoria** (item 141). Supervisão acompanha desde planejamento até monitoramento e autoriza ajustes pertinentes (item 157). **Conselho/dirigente aprova o PAINT; supervisor aprova programa individual**. Em serviços de consultoria, o programa pode variar na forma e conteúdo conforme a natureza do serviço (item 140).
+
+#### Risco do objeto versus risco de auditoria
+
+**Risco do objeto**: possibilidade de evento prejudicar objetivo do processo examinado, como pagamento de bolsa a pessoa inelegível. **Risco de auditoria**: possibilidade de o auditor chegar a conclusão inválida ou opinião equivocada a partir de seu exame (MOT, 4.3.2). Dados incompletos, escopo impróprio e extensão inadequada dos testes podem elevar o risco de auditoria. Uma área pode ter riscos elevados sem que se deva aceitar conclusões frágeis a seu respeito.
+
+**Heurística Cebraspe:** objeto = *o quê*; objetivo = *para quê*; escopo = *até onde*; questão = *o que responder*; critério = *com que padrão*; fonte = *onde estão os dados*; procedimento = *como testar*; supervisor = *quem aprova previamente o programa*. 
+
+**Status:** teoria da unidade 05 ensinada e registrada em 03/11/2026. **Nenhuma questão da unidade 05 foi respondida ainda.** Os quatro acertos de revisão pertencem à unidade 04.
 
 
 ### 1. Planejamento: formular perguntas que os testes poderão responder

@@ -56,38 +56,69 @@ O [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|corpus Cebraspe 
 
 ## Plano de execução até 13/12
 
-### Até 11/10: encerramento da Dataprev
+**Ponto de partida — 03/11:** Auditoria Governamental tem 42 itens válidos, 36 acertos (85,7%), mas ainda sem diagnóstico por prova nem simulado. As unidades 02, 03 e 04 estão trabalhadas; a unidade 05 foi estudada e ainda precisa de teste. O plano abaixo prioriza **cobertura crítica → teste novo → correção → reteste**, sem transformar leitura em avanço concluído.
 
-Preservar revisão e prova da Dataprev. A montagem do projeto CGU não gera duas rotinas concorrentes neste fim de semana.
+### 03/11 a 08/11 — fechar o primeiro ciclo de Auditoria
 
-### 12/10 a 25/10: estrutura técnica e diagnóstico
+- Aplicar diagnóstico da unidade 05 e retestar, em itens novos, os erros das unidades 02 e 03.
+- Consolidar no máximo uma nota por lacuna que apareça na correção: competência e aprovação do PAINT, fatores de risco, controles, risco residual e evidência.
+- Produzir a primeira questão de 30 linhas: governança, riscos, controles e auditoria, com correção pelo comando.
+- Ao fim da semana, registrar acertos, erros, brancos, tempo e modalidade; a revisão dirigida não entra como novo indicador de domínio.
 
-- Auditoria governamental: avaliação × consultoria × apuração; três linhas, independência, matriz, achados, controle × teste substantivo.
-- Orçamento: PPA/LDO/LOA, receita/despesa, empenho, liquidação, pagamento, restos a pagar.
-- Abrir primeiras notas canônicas **somente depois de ler padrão editorial e verificar existência de matéria próxima**. Usar um hub específico se nova matéria for necessária e atualizar o índice na mesma transação.
-- Fazer diagnóstico C/E separado em P1, P2, P3 e uma discursiva diagnóstica sem estimar classificação.
+**Entrega da semana:** ciclo de Auditoria Governamental fechado com teste novo e uma discursiva curta corrigida.
 
-### 26/10 a 15/11: maiores lacunas dos específicos
+### 09/11 a 15/11 — orçamento, execução e contabilidade pública
 
-- **Auditoria governamental em execução:** unidades 02, 03 e 04 encerradas didaticamente; na unidade 04, 6/6 em aprendizagem, 6/8 para valer e 4/4 em revisão dirigida. Os desvios úteis foram competência para alterar o PAINT e fatores indiretos; a unidade 05 foi estudada, mas ainda não testada.
-- Fechar o ciclo de Auditoria com diagnóstico da unidade 05 e reteste dos erros das unidades 02 e 03. O acumulado de 42 itens válidos (36 acertos; 85,7%) é indicador de microtreino, **não** de prontidão nem de nota CGU.
-- Em paralelo, atacar a maior lacuna ainda sem medida: Contabilidade aplicada ao setor público — MCASP 11ª, demonstrações, execução orçamentária e leitura de inconsistências; informação societária e estatais.
-- Em seguida, avaliação de políticas: teoria da mudança, modelo lógico, contrafactual, diferenças em diferenças, regressão descontínua, pareamento e análise de custos.
-- Manter casos de auditoria de contratações, transferências, contratos e responsabilização aplicada. Iniciar uma questão discursiva de 30 linhas e uma situação-problema de 60 linhas por semana; ampliar para duas produções semanais apenas após a primeira correção diagnóstica.
+- Estudar e testar em sequência: PPA/LDO/LOA → receita e despesa → empenho, liquidação, pagamento e restos a pagar.
+- Introduzir MCASP 11ª, demonstrações e leitura de inconsistências, sem confundir execução orçamentária/financeira com informação patrimonial.
+- Manter um bloco curto de C/E de Auditoria para retenção, usando itens inéditos.
+- Produzir uma situação-problema de até 60 linhas que exija critério, evidência, análise e recomendação.
 
-### 16/11 a 29/11: integração e aplicação
+**Entrega da semana:** mapa de execução e contabilidade + primeira situação-problema corrigida.
 
-- Integridade CGU, atuação da SFC, ouvidoria, denúncias, proteção e não retaliação.
-- PAD, PAR, leniência, TAC, prova, prescrição e diferenças entre responsabilizações.
-- Baterias interdisciplinares e casos unindo evidências, auditoria, contratos e políticas. Reforçar P1/P2 conforme erros reais.
+### 16/11 a 22/11 — avaliação de políticas e blocos P1/P2
 
-### 30/11 a 12/12: treino de prova
+- Estudar e aplicar teoria da mudança, modelo lógico, indicadores, linha de base, monitoramento e avaliação.
+- Treinar fronteiras entre associação e causalidade: contrafactual, diferenças em diferenças, regressão descontínua, pareamento e análise de custos.
+- Aplicar uma bateria diagnóstica cronometrada, separada em P1, P2 e P3; registrar C, E e branco, acertos, erros, nota líquida e tempo por bloco.
+- Ajustar a alocação da semana seguinte pelos erros da bateria, sem inferir classificação a partir de uma única amostra.
 
-- Simulados completos **170 C/E** com pesos oficiais, tempo real e duas discursivas.
-- Alternar prova integral, análise dos erros, microrevisão e reteste por mecanismo diferente. Evitar cadernos contaminados por repetição.
-- Rever requisitos eliminatórios por bloco e praticar folha/resposta manuscrita. Véspera: revisão breve.
+**Entrega da semana:** primeiro baseline parcial por blocos e mapa de lacunas P1/P2/P3.
 
-As datas são **planejamento interno**, não prazos oficiais. Ajustar após o primeiro diagnóstico e sem marcar teoria como concluída apenas por existir no vault.
+### 23/11 a 29/11 — contratações, integridade e responsabilização
+
+- Resolver casos de planejamento, contratação, transferência e achado de auditoria: critério, condição, causa, efeito, evidência, risco e recomendação.
+- Estudar integridade, SFC, ouvidoria, denúncia, proteção contra retaliação, PAD, PAR, leniência, TAC, prova, prescrição e competências.
+- Produzir duas discursivas, uma de P2 e uma situação-problema de P3, com reescrita dirigida da pior resposta.
+- Fazer bateria C/E interdisciplinar e retestar cada erro por mecanismo distinto.
+
+**Entrega da semana:** casos integrados e duas discursivas com autópsia de lacunas.
+
+### 30/11 a 06/12 — primeiro ensaio integral
+
+- Fazer o primeiro simulado completo: **170 itens C/E**, pesos oficiais, 5 horas, registro separado de P1/P2/P3 e controle de itens novos.
+- Em dia separado, fazer as duas discursivas na janela de 3h30, manuscritas e dentro dos limites de linhas.
+- Reservar os demais dias para correção: separar [K], [C], [I] e [D], atualizar somente as notas necessárias e retestar os mecanismos de erro.
+- Conferir os mínimos eliminatórios por prova; não compensar lacuna de P1/P2 com bom resultado em P3.
+
+**Entrega da semana:** primeiro benchmark válido, com nota líquida por prova e plano de reparo.
+
+### 07/12 a 12/12 — consolidação e controle de risco
+
+- Alternar bateria curta de alta precisão, microrevisão dos erros do simulado e reteste inédito; não abrir frentes teóricas extensas.
+- Fazer no máximo um segundo ensaio parcial ou integral, conforme o diagnóstico do primeiro, preservando energia e sono.
+- Repassar fronteiras decisivas: competência, condição, exceção, evidência versus conclusão, controles versus testes substantivos, empenho/liquidação/pagamento, e monitoramento versus avaliação de impacto.
+- Treinar preenchimento e conferência de respostas; preparar material permitido e logística. Na véspera, apenas revisão breve e organização.
+
+**Entrega da semana:** repertório estabilizado por erro real, sem sobrecarga de véspera.
+
+### 13/12 — execução da prova
+
+- Objetiva: acompanhar P1, P2 e P3 separadamente; decidir C/E/branco pelo ponto que altera o julgamento e preservar tempo para conferência.
+- Discursiva: decompor os quesitos, priorizar a situação-problema de 70 pontos, controlar linhas e reservar tempo para revisar cobertura, coesão e transcrição.
+- Não alterar a estratégia de marcação por uma sequência curta de itens difíceis; o objetivo é nota líquida e sobrevivência aos mínimos por prova.
+
+As datas são **planejamento interno**, não prazos oficiais. Se uma entrega semanal atrasar, cortar expansão de teoria e preservar a sequência **teste novo → correção → reteste → registro**.
 
 ## Rotina no horário já estabelecido
 

@@ -54,6 +54,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[3 - Materias/Auditoria Governamental/auditoria-governamental|Auditoria governamental]]
   - [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|01 • Finalidades e três linhas]]
   - [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|02 • Ciclo de auditoria]]
+  - [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao|Evidências e documentação]]
   - [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|03 • Independência, objetividade e sigilo]]
   - [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|04 • Proficiência, zelo e ceticismo]]
   - [[3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas|05 • Governança, riscos e controles]]

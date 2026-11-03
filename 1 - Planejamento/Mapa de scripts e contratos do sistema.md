@@ -40,7 +40,7 @@ Para alterações multi-arquivo fora da ingestão, `apply-changeset.js` chama di
 
 | Camada | Responsabilidade | Evidência necessária |
 | --- | --- | --- |
-| Governança | Definir concurso, fontes, destino pedagógico, propagação, publicação e escrita | Leitura de `me.md`, dos dois `AGENTS.md` e do contrato aplicável |
+| Governança | Definir concurso, fontes, destino pedagógico, propagação, publicação e escrita | Leitura de `me.md`, do único `AGENTS.md` e do contrato aplicável |
 | Agente | Interpretar entrada, escolher notas, calcular métricas e preparar todos os conteúdos | Plano revisável e change set completo |
 | Ingestão | Analisar entrada, impedir reaplicação da mesma evidência e exigir destinos mínimos | Preview, fingerprint e validação do manifesto |
 | Transação | Verificar precondições de todos os arquivos e reverter falha capturada | Hashes SHA-256 e validação pós-escrita |
@@ -406,3 +406,10 @@ No workflow, o contrato do commit de entrada é verificado antes da projeção. 
 ## Unificação das instruções: 03/11/2026
 
 As regras para agentes ficam somente no `AGENTS.md` da raiz. As seções operacionais detalhadas foram reunidas com as regras exclusivas de Feynman, divisão de notas, propagação de simulados e diagnóstico de scripts. Os validadores de invariantes, contrato de mudança e governança de busca leem o arquivo único. A entrada curta `CHAT.md` continua aplicável ao estudo cotidiano. O caminho antigo foi removido; referências históricas no log permanecem como histórico.
+
+
+## Continuidade por matéria: formato 2
+
+O contrato vigente de continuidade está em [[1 - Planejamento/Continuidade de estudo por materia|Continuidade por matéria]]. `study-sessions.js` recebe um checkpoint único com respostas e estado pedagógico; `study-context.js` deriva o índice, os contextos por concurso/matéria e as filas paginadas. `test-study-context.js` cobre alternância, recuperação/retencão, correções, matérias sem Avancos e fontes normativas sem nota. O formato 1 e o histórico permanecem preservados. No formato 2, diagnósticos sem nota específica aceitam fonte catalogada com localizador; a lacuna teórica fica editorialmente pendente. As páginas de revisão excedentes são removidas na mesma transação e commit gerado. O workflow valida a origem e todos os derivados antes de persistir/publicar.
+
+**Entradas novas:** `data/planos-estudo/<concurso>.json` e `learning`, `subjectId`, `unitId`, `conceptId`, `retrievalOf` nas sessões de formato 2. **Saídas novas:** `data/contexto-estudo/indice.json`, `<concurso>/<materia>.json` e `<concurso>/<materia>/revisoes-NNN.json`. O resumo antigo do concurso continua disponível com ponteiro de retomada. A fonte de teoria e o catálogo público permanecem inalterados.

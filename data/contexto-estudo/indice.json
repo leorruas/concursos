@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "activeDefault": {
+    "concursoId": "cgu-2026",
+    "from": "2026-10-12",
+    "through": "2026-12-13",
+    "after": "camara-2026"
+  },
+  "commands": [
+    "continuar <matéria>",
+    "estudar <matéria>",
+    "revisar meus erros de <matéria>",
+    "continuar <concurso> de onde parei"
+  ],
+  "contests": [
+    {
+      "concursoId": "dataprev-2026",
+      "banca": "FGV",
+      "subjects": [
+        {
+          "id": "administracao-geral",
+          "name": "Administracao Geral",
+          "aliases": [
+            "Administracao Geral"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/administracao-geral.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "administracao-publica",
+          "name": "Administracao Publica",
+          "aliases": [
+            "Administracao Publica"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/administracao-publica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "atualidades",
+          "name": "Atualidades",
+          "aliases": [
+            "Atualidades"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/atualidades.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "auditoria-governamental",
+          "name": "Auditoria Governamental",
+          "aliases": [
+            "Auditoria Governamental"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/auditoria-governamental.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "calculo-mental",
+          "name": "Calculo Mental",
+          "aliases": [
+            "Calculo Mental"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/calculo-mental.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "comunicacao",
+          "name": "Comunicacao",
+          "aliases": [
+            "Comunicacao"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/comunicacao.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "direito-administrativo",
+          "name": "Direito Administrativo",
+          "aliases": [
+            "Direito Administrativo"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/direito-administrativo.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "direito-constitucional",
+          "name": "Direito Constitucional",
+          "aliases": [
+            "Direito Constitucional"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/direito-constitucional.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "informatica",
+          "name": "Informatica",
+          "aliases": [
+            "Informatica"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/informatica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "ingles",
+          "name": "Ingles",
+          "aliases": [
+            "Ingles"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/ingles.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "logica",
+          "name": "Logica",
+          "aliases": [
+            "Logica"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/logica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "portugues",
+          "name": "Portugues",
+          "aliases": [
+            "Portugues"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/portugues.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "redacao",
+          "name": "Redacao",
+          "aliases": [
+            "Redacao"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/redacao.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        }
+      ],
+      "resume": null
+    },
+    {
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjects": [
+        {
+          "id": "auditoria-governamental",
+          "name": "Auditoria Governamental",
+          "aliases": [
+            "Auditoria Governamental",
+            "auditoria",
+            "auditoria interna governamental"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/auditoria-governamental.json",
+          "state": "em-estudo",
+          "priority": "A"
+        },
+        {
+          "id": "estado-democracia",
+          "name": "Estado e democracia",
+          "aliases": [
+            "Estado e democracia",
+            "estado-democracia"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/estado-democracia.json",
+          "state": "nao-iniciada",
+          "priority": "C"
+        },
+        {
+          "id": "sociedade-brasileira",
+          "name": "Sociedade brasileira",
+          "aliases": [
+            "Sociedade brasileira",
+            "sociedade-brasileira"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/sociedade-brasileira.json",
+          "state": "nao-iniciada",
+          "priority": "C"
+        },
+        {
+          "id": "etica-publica",
+          "name": "Ética pública",
+          "aliases": [
+            "Ética pública",
+            "etica-publica"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/etica-publica.json",
+          "state": "nao-iniciada",
+          "priority": "C"
+        },
+        {
+          "id": "administracao-publica",
+          "name": "Administração Pública",
+          "aliases": [
+            "Administração Pública",
+            "administracao-publica"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/administracao-publica.json",
+          "state": "nao-iniciada",
+          "priority": "C"
+        },
+        {
+          "id": "governanca-riscos-integridade",
+          "name": "Governança, riscos e integridade",
+          "aliases": [
+            "Governança, riscos e integridade",
+            "governanca-riscos-integridade"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/governanca-riscos-integridade.json",
+          "state": "exposicao-parcial-compartilhada",
+          "priority": "C"
+        },
+        {
+          "id": "transparencia-ouvidoria",
+          "name": "Transparência e ouvidoria",
+          "aliases": [
+            "Transparência e ouvidoria",
+            "transparencia-ouvidoria"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/transparencia-ouvidoria.json",
+          "state": "nao-iniciada",
+          "priority": "C"
+        },
+        {
+          "id": "direito-administrativo",
+          "name": "Direito Administrativo",
+          "aliases": [
+            "Direito Administrativo",
+            "direito-administrativo"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/direito-administrativo.json",
+          "state": "nao-iniciada",
+          "priority": "C"
+        },
+        {
+          "id": "evidencias-dados-ia",
+          "name": "Evidências, dados e inteligência artificial",
+          "aliases": [
+            "Evidências, dados e inteligência artificial",
+            "evidencias-dados-ia"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/evidencias-dados-ia.json",
+          "state": "nao-iniciada",
+          "priority": "C"
+        },
+        {
+          "id": "financas-publicas",
+          "name": "Finanças Públicas",
+          "aliases": [
+            "Finanças Públicas",
+            "financas-publicas"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/financas-publicas.json",
+          "state": "nao-iniciada",
+          "priority": "B"
+        },
+        {
+          "id": "orcamento-publico",
+          "name": "Orçamento Público",
+          "aliases": [
+            "Orçamento Público",
+            "orcamento-publico",
+            "AFO",
+            "administração financeira e orçamentária",
+            "orçamento"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/orcamento-publico.json",
+          "state": "nao-iniciada",
+          "priority": "A"
+        },
+        {
+          "id": "contabilidade-publica",
+          "name": "Contabilidade Pública",
+          "aliases": [
+            "Contabilidade Pública",
+            "contabilidade-publica",
+            "contabilidade",
+            "contabilidade aplicada ao setor público",
+            "CASP"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/contabilidade-publica.json",
+          "state": "nao-iniciada",
+          "priority": "A"
+        },
+        {
+          "id": "politicas-publicas",
+          "name": "Políticas Públicas e avaliação",
+          "aliases": [
+            "Políticas Públicas e avaliação",
+            "politicas-publicas"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
+          "state": "nao-iniciada",
+          "priority": "B"
+        },
+        {
+          "id": "contratacoes-transferencias",
+          "name": "Contratações e transferências",
+          "aliases": [
+            "Contratações e transferências",
+            "contratacoes-transferencias"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/contratacoes-transferencias.json",
+          "state": "nao-iniciada",
+          "priority": "B"
+        },
+        {
+          "id": "integridade-responsabilizacao",
+          "name": "Integridade e responsabilização",
+          "aliases": [
+            "Integridade e responsabilização",
+            "integridade-responsabilizacao"
+          ],
+          "path": "data/contexto-estudo/cgu-2026/integridade-responsabilizacao.json",
+          "state": "nao-iniciada",
+          "priority": "B"
+        }
+      ],
+      "resume": {
+        "subjectId": "auditoria-governamental",
+        "path": "data/contexto-estudo/cgu-2026/auditoria-governamental.json",
+        "lastSessionId": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada",
+        "time": 1793745602000
+      }
+    },
+    {
+      "concursoId": "camara-2026",
+      "banca": "Cebraspe",
+      "subjects": [
+        {
+          "id": "administracao-geral",
+          "name": "Administracao Geral",
+          "aliases": [
+            "Administracao Geral"
+          ],
+          "path": "data/contexto-estudo/camara-2026/administracao-geral.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "administracao-publica",
+          "name": "Administracao Publica",
+          "aliases": [
+            "Administracao Publica"
+          ],
+          "path": "data/contexto-estudo/camara-2026/administracao-publica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "atualidades",
+          "name": "Atualidades",
+          "aliases": [
+            "Atualidades"
+          ],
+          "path": "data/contexto-estudo/camara-2026/atualidades.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "auditoria-governamental",
+          "name": "Auditoria Governamental",
+          "aliases": [
+            "Auditoria Governamental"
+          ],
+          "path": "data/contexto-estudo/camara-2026/auditoria-governamental.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "calculo-mental",
+          "name": "Calculo Mental",
+          "aliases": [
+            "Calculo Mental"
+          ],
+          "path": "data/contexto-estudo/camara-2026/calculo-mental.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "comunicacao",
+          "name": "Comunicacao",
+          "aliases": [
+            "Comunicacao"
+          ],
+          "path": "data/contexto-estudo/camara-2026/comunicacao.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "direito-administrativo",
+          "name": "Direito Administrativo",
+          "aliases": [
+            "Direito Administrativo"
+          ],
+          "path": "data/contexto-estudo/camara-2026/direito-administrativo.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "direito-constitucional",
+          "name": "Direito Constitucional",
+          "aliases": [
+            "Direito Constitucional"
+          ],
+          "path": "data/contexto-estudo/camara-2026/direito-constitucional.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "informatica",
+          "name": "Informatica",
+          "aliases": [
+            "Informatica"
+          ],
+          "path": "data/contexto-estudo/camara-2026/informatica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "ingles",
+          "name": "Ingles",
+          "aliases": [
+            "Ingles"
+          ],
+          "path": "data/contexto-estudo/camara-2026/ingles.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "logica",
+          "name": "Logica",
+          "aliases": [
+            "Logica"
+          ],
+          "path": "data/contexto-estudo/camara-2026/logica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "portugues",
+          "name": "Portugues",
+          "aliases": [
+            "Portugues"
+          ],
+          "path": "data/contexto-estudo/camara-2026/portugues.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "redacao",
+          "name": "Redacao",
+          "aliases": [
+            "Redacao"
+          ],
+          "path": "data/contexto-estudo/camara-2026/redacao.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        }
+      ],
+      "resume": null
+    }
+  ]
+}

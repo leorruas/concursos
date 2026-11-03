@@ -9996,6 +9996,7 @@
       "startedAt": "2026-11-03T18:45:00-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
+      "checkpointSchema": 1,
       "trainingMode": "aprendizagem",
       "result": "correct"
     },
@@ -10033,6 +10034,7 @@
       "startedAt": "2026-11-03T18:45:00-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
+      "checkpointSchema": 1,
       "trainingMode": "aprendizagem",
       "result": "correct"
     },
@@ -10070,6 +10072,7 @@
       "startedAt": "2026-11-03T18:45:00-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
+      "checkpointSchema": 1,
       "trainingMode": "aprendizagem",
       "result": "correct"
     },
@@ -10107,6 +10110,7 @@
       "startedAt": "2026-11-03T18:45:00-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
+      "checkpointSchema": 1,
       "trainingMode": "aprendizagem",
       "result": "correct"
     },
@@ -10144,6 +10148,7 @@
       "startedAt": "2026-11-03T19:40:02-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
+      "checkpointSchema": 1,
       "trainingMode": "aprendizagem",
       "result": "correct"
     },
@@ -10181,6 +10186,7 @@
       "startedAt": "2026-11-03T19:40:02-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
+      "checkpointSchema": 1,
       "trainingMode": "aprendizagem",
       "result": "correct"
     },
@@ -10218,6 +10224,7 @@
       "startedAt": "2026-11-03T19:40:02-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
+      "checkpointSchema": 1,
       "trainingMode": "aprendizagem",
       "result": "correct"
     },
@@ -10260,6 +10267,7 @@
       "startedAt": "2026-11-03T19:40:02-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
+      "checkpointSchema": 1,
       "trainingMode": "aprendizagem",
       "result": "incorrect"
     },
@@ -10297,6 +10305,7 @@
       "startedAt": "2026-11-03T19:40:02-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
+      "checkpointSchema": 1,
       "trainingMode": "aprendizagem",
       "result": "correct"
     }

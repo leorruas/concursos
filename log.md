@@ -1230,3 +1230,8 @@ Autorizado registro por sessão, correção no chat e consolidação automática
 ## 2026-11-03: unificação das instruções para agentes
 
 Regras reunidas no AGENTS.md da raiz, com remoção do arquivo duplicado, preservação das regras exclusivas e atualização das referências ativas e validadores. CHAT.md permanece a entrada curta para estudo.
+
+
+## 2026-11-03: continuidade de estudo por matéria
+
+Auditado o fluxo e implementado catálogo inicial CGU, checkpoints de formato 2, contextos por matéria, filas paginadas e roteamento natural. Distintos conhecimento, exposição, aprendizagem, desempenho competitivo e retenção. Preservados sessões antigas, respostas, notas, hubs e interface; nenhuma aula/questão fictícia incorporada ao histórico. Testes de retorno após troca de matéria e em outro dia executados em área temporária. Documentação em 1 - Planejamento/Continuidade de estudo por materia.md.

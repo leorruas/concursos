@@ -5,6 +5,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 > **Leitura obrigatória para agentes:** ler `[[me]]` antes de qualquer operação. Diretrizes de governança e regras estão lá.
 
 ## 1 - Planejamento
+- [[1 - Planejamento/Continuidade de estudo por materia|Continuidade de estudo por matéria]]
 - [[CHAT|Estudo pelo chat: entrada curta]]
 - [[1 - Planejamento/Mapa de scripts e contratos do sistema|Mapa de scripts e contratos do sistema]]
 - [[1 - Planejamento/Registro de entrada de editais|Registro permanente de entrada de editais]]

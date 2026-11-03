@@ -6,5 +6,7 @@
   "totals": [],
   "recentSessions": [],
   "recentMechanisms": [],
-  "review": []
+  "review": [],
+  "resume": null,
+  "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

@@ -204,5 +204,12 @@
         "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar"
       ]
     }
-  ]
+  ],
+  "resume": {
+    "subjectId": "auditoria-governamental",
+    "path": "data/contexto-estudo/cgu-2026/auditoria-governamental.json",
+    "lastSessionId": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada",
+    "time": 1793745602000
+  },
+  "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

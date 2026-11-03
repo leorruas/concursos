@@ -3,7 +3,7 @@ title: "Administração pública"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-11-03
 ---
 
 # Administração pública
@@ -19,6 +19,7 @@ Mapeamento de tópicos e organização das notas de Administração Pública par
 - Reformas administrativas no Brasil.
 
 ## 2. Governança e Governabilidade
+- [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]]: LAI, LGPD, sigilo, recursos, ouvidoria e controle social.
 - Conceitos de governabilidade, governança e intermediação de interesses.
 - Accountability (responsabilização e prestação de contas).
 - Transparência, controle social e Ouvidoria no setor público.

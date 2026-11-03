@@ -3,7 +3,7 @@ title: "Comunicação social"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-10-03
+updated: 2026-11-03
 ---
 
 # Comunicação (Concursos)
@@ -18,7 +18,7 @@ updated: 2026-10-03
   - [[3 - Materias/Comunicacao/22.3 - paulo nassar comunicacao integrada virtual|🆕 22.3 • Comunicação integrada virtual — Paulo Nassar]]
 - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
 - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]
-- [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]]
+- [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]] (ver Administração Pública).
 - [[3 - Materias/Comunicacao/09 - comunicacao interna|09 • Comunicação interna]]
 - [[3 - Materias/Comunicacao/10 - linguagem simples|10 • Linguagem simples]]
 - [[3 - Materias/Comunicacao/15 - publicos e stakeholders|15 • Públicos e stakeholders]]

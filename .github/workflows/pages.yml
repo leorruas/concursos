@@ -35,6 +35,8 @@ jobs:
         run: node scripts/validate-change-contract.js
       - name: Testar sessões de estudo
         run: node scripts/test-study-sessions.js
+      - name: Testar continuidade por matéria
+        run: node scripts/test-study-context.js
       - name: Consolidar sessões e contexto compacto
         run: node scripts/study-sessions.js
       - name: Conferir projeções das sessões
@@ -89,6 +91,7 @@ jobs:
           const paths = JSON.parse(fs.readFileSync('data/sessoes-saidas.json', 'utf8'));
           const git = args => execFileSync('git', args, {stdio: 'inherit'});
           git(['add', '--', ...paths]);
+          git(['add', '-u', '--', 'data/contexto-estudo']);
           try { execFileSync('git', ['diff', '--cached', '--quiet']); }
           catch {
             git(['config', 'user.name', 'github-actions[bot]']);

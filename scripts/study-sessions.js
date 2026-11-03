@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildSubjectContexts, validateLearning } from './study-context.js';
 import { aplicarChangeSet, fileSha256 } from './changeset-transaction.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -26,14 +27,15 @@ function safeRef(root, ref) {
   assert(headings.includes(heading), `Subtítulo ausente: ${ref}`);
 }
 export function validateSession(s, filename, root, concursos) {
-  assert(s.schemaVersion === 1 && slug(s.id) && filename === s.id + '.json', `Identidade inválida: ${filename}`);
+  assert([1, 2].includes(s.schemaVersion) && slug(s.id) && filename === s.id + '.json', `Identidade inválida: ${filename}`);
   assert(text(s.startedAt) && /(?:Z|[+-]\d{2}:\d{2})$/.test(s.startedAt) && Number.isFinite(Date.parse(s.startedAt)), `${s.id}: startedAt exige data/hora com fuso`);
   assert(dateOK(s.date) && ['parcial', 'concluido'].includes(s.status), `${s.id}: data/status inválido`);
   assert(concursos.some(c => c.id === s.concursoId && c.banca === s.banca), `${s.id}: concurso/banca incompatível`);
-  assert(s.kind === 'microtreino', `${s.id}: simulados integrais seguem o contrato próprio de propagação`);
+  assert(s.kind === 'microtreino' || (s.schemaVersion === 2 && s.kind === 'aula'), `${s.id}: simulados integrais seguem o contrato próprio de propagação`);
   assert(modes.includes(s.trainingMode), `${s.id}: modalidade inválida`);
   assert(text(s.diagnosis) && text(s.nextStep), `${s.id}: diagnóstico/próximo passo ausentes`);
-  assert(Array.isArray(s.questions) && s.questions.length > 0, `${s.id}: questões ausentes`);
+  assert(Array.isArray(s.questions) && (s.questions.length > 0 || s.kind === 'aula'), `${s.id}: questões ausentes`);
+  validateLearning(root, s, concursos);
   const numbers = new Set();
   for (const q of s.questions) {
     assert(Number.isInteger(q.number) && q.number > 0 && !numbers.has(q.number), `${s.id}: número repetido/inválido`); numbers.add(q.number);
@@ -56,14 +58,14 @@ export function validateSession(s, filename, root, concursos) {
     if (incorrect) assert(Object.hasOwn(errors, q.errorType), `${s.id}: erro exige causa semântica`);
     else assert(q.errorType === null, `${s.id}: causa de erro só cabe em erro válido`);
     assert(Array.isArray(q.theoryRefs), `${s.id}: theoryRefs deve ser array`);
-    if (incorrect || ['insecure', 'guess'].includes(q.confidence)) assert(q.theoryRefs.length, `${s.id}: erro/dúvida exige referência`);
+    if (incorrect || ['insecure', 'guess'].includes(q.confidence)) assert(q.theoryRefs.length || (s.schemaVersion === 2 && q.sourceRefs?.length), `${s.id}: erro/dúvida exige referência`);
     q.theoryRefs.forEach(ref => safeRef(root, ref));
     const rep = q.repetition;
     assert(rep && ['new', 'thematic', 'mechanical', 'exact'].includes(rep.classification) && Array.isArray(rep.similarTo) && typeof rep.intentional === 'boolean', `${s.id}: repetição inválida`);
     if (rep.classification !== 'new') assert(rep.similarTo.length > 0, `${s.id}: repetição sem origem`);
     if (['mechanical', 'exact'].includes(rep.classification)) assert(rep.intentional && text(rep.transformation), `${s.id}: repetição exige transformação intencional`);
     const avancos = `3 - Materias/${q.discipline}/Avancos.md`;
-    assert(!q.discipline.includes('/') && !q.discipline.includes('..') && fs.existsSync(path.join(root, avancos)), `${s.id}: criar/indexar avanços da disciplina antes: ${avancos}`);
+    assert(!q.discipline.includes('/') && !q.discipline.includes('..') && (s.schemaVersion === 2 || fs.existsSync(path.join(root, avancos))), `${s.id}: criar/indexar avanços da disciplina antes: ${avancos}`);
   }
 }
 export function mergeSessions(legacy, sessions) {
@@ -79,17 +81,17 @@ export function mergeSessions(legacy, sessions) {
       const id = `${s.id}-q${q.number}`;
       assert(!ids.has(id), `Questão duplicada: ${id}`); ids.add(id);
       return { ...q, id, sourceId: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
-        trainingMode: s.trainingMode, result: q.annulled ? 'annulled' : q.userAnswer === null ? 'blank' : q.userAnswer === q.correctAnswer ? 'correct' : 'incorrect', errorType: q.errorType ? errors[q.errorType] : null };
+        checkpointSchema: s.schemaVersion, subjectId: s.subjectId, unitId: q.unitId || s.unitId, trainingMode: s.trainingMode, result: q.annulled ? 'annulled' : q.userAnswer === null ? 'blank' : q.userAnswer === q.correctAnswer ? 'correct' : 'incorrect', errorType: q.errorType ? errors[q.errorType] : null };
     });
     const counts = {new:0,thematic:0,mechanical:0,exact:0};
     qs.forEach(q => counts[q.repetition.classification]++);
-    const rate = n => Number((n / qs.length).toFixed(4));
+    const rate = n => qs.length ? Number((n / qs.length).toFixed(4)) : 0;
     const generationAudit = {counts,newRate:rate(counts.new),thematicRate:rate(counts.thematic),mechanicalRate:rate(counts.mechanical),exactRate:rate(counts.exact),intentionalReviewRate:rate(qs.filter(q=>q.repetition.intentional).length)};
     ledger.questions.push(...qs);
     ledger.simulations.push({ id: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
-      tipo: 'microtreino', isSimulado: false, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
-      ledgerCoverage: 'complete', benchmarkEligible: false, qualityNote: s.diagnosis, nextStep: s.nextStep, generationAudit, noveltyException: s.noveltyException || null,
-      confidenceTracking: { coverage: qs.every(q => q.confidence !== 'unknown') ? 'complete' : 'partial' } });
+      subjectId: s.subjectId, unitId: s.unitId, learning: s.learning, tipo: s.kind === 'aula' ? 'aula' : 'microtreino', isSimulado: false, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
+      ledgerCoverage: 'complete', benchmarkEligible: false, qualityNote: s.diagnosis, nextStep: s.nextStep, generationAudit, noveltyException: s.noveltyException || (s.kind === 'aula' ? 'Checkpoint de exposição sem questões; fora de benchmark e métricas de acerto.' : null),
+      confidenceTracking: { coverage: qs.length && qs.every(q => q.confidence !== 'unknown') ? 'complete' : 'partial' } });
   }
   for (const q of ledger.questions.filter(q => q.sessionFile)) for (const id of q.repetition.similarTo) assert(ids.has(id) && id !== q.id, `${q.id}: referência de repetição inexistente/autorreferente: ${id}`);
   return ledger;
@@ -127,6 +129,10 @@ export function prepare(root = ROOT, asOf) {
   const dir = path.join(root, 'data/sessoes');
   const sessions = fs.existsSync(dir) ? fs.readdirSync(dir).filter(p => p.endsWith('.json')).sort().map(p => { const s = JSON.parse(read('data/sessoes/' + p)); validateSession(s, p, root, concursos); return s; }).sort((a,b) => Date.parse(a.startedAt) - Date.parse(b.startedAt) || a.id.localeCompare(b.id)) : [];
   for (const old of legacy.simulations.filter(s => s.sessionFile)) assert(sessions.some(s => s.id === old.id), `Sessão removida: ${old.id}. Preserve o arquivo e anule itens com motivo.`);
+  for (const q of legacy.questions.filter(q => q.sessionFile)) {
+    const session = sessions.find(s => `data/sessoes/${s.id}.json` === q.sessionFile);
+    assert(session?.questions.some(item => item.number === q.number), `Questão removida: ${q.id}. Preserve a resposta e anule com motivo.`);
+  }
   const ledger = mergeSessions(legacy, sessions);
   const source = new Map(ledger.simulations.map(s => [s.id, s]));
   const qs = ledger.questions;
@@ -144,6 +150,7 @@ export function prepare(root = ROOT, asOf) {
   projection('00 - Desempenho/01 Log de saturacao diaria.md', metrics(dated, q => `${q.date} / ${key(q)}`, 'Dia / concurso / disciplina / modalidade') + '\n\nCarga cognitiva e sintomas só podem ser registrados quando relatados pelo estudante.');
   projection('00 - Desempenho/Provas/00 - Desempenho por edital e prova.md', metrics(qs, key, 'Concurso / disciplina / modalidade') + '\n\nMicrotreinos são diagnósticos do recorte, sem nota integral. Simulados históricos mantêm seus resultados próprios abaixo.');
   for (const discipline of [...new Set(sessions.flatMap(s => s.questions.map(q => q.discipline)))]) {
+    if (!fs.existsSync(path.join(root, `3 - Materias/${discipline}/Avancos.md`))) continue;
     projection(`3 - Materias/${discipline}/Avancos.md`, '### Janela de 30 dias\n\n' + metrics(recent.filter(q => q.discipline === discipline), key, 'Concurso / disciplina / modalidade') + '\n\n### Volume diário\n\n' + metrics(dated.filter(q => q.discipline === discipline), q => `${q.date} / ${q.concursoId} / ${mode(q)}`, 'Dia / concurso / modalidade'));
   }
   const contexts = concursos.map(c => {
@@ -156,9 +163,21 @@ export function prepare(root = ROOT, asOf) {
       review: all.filter(q => q.result === 'incorrect' || ['insecure', 'guess'].includes(q.confidence)).slice(-30).map(q => ({ id: q.id, topic: q.topic, result: q.result, confidence: q.confidence, theoryRefs: q.theoryRefs })) };
   });
   for (const context of contexts) outputs.set(`data/contexto-estudo/${context.concursoId}.json`, json({ schemaVersion: 1, ...context }));
+  const subjectContexts = buildSubjectContexts(root, ledger, concursos, cut);
+  for (const [p, content] of subjectContexts.outputs) outputs.set(p, content);
+  for (const c of subjectContexts.index.contests) {
+    const p = `data/contexto-estudo/${c.concursoId}.json`;
+    const summary = JSON.parse(outputs.get(p));
+    summary.resume = c.resume;
+    summary.subjectIndexPath = 'data/contexto-estudo/indice.json';
+    outputs.set(p, json(summary));
+  }
   // Manifesto explícito e determinístico para persistir somente saídas autorizadas no CI.
   outputs.set('data/sessoes-saidas.json', json([...outputs.keys(), 'data/sessoes-saidas.json'].sort()));
+  const previousOutputs = fs.existsSync(path.join(root, 'data/sessoes-saidas.json')) ? JSON.parse(read('data/sessoes-saidas.json')) : [];
+  const retiredPages = previousOutputs.filter(p => /^data\/contexto-estudo\/[a-z0-9-]+\/[a-z0-9-]+\/revisoes-\d{3}\.json$/.test(p) && !outputs.has(p) && fs.existsSync(path.join(root, p)));
   const operations = [...outputs].filter(([p, content]) => !fs.existsSync(path.join(root, p)) || read(p) !== content).map(([p, content]) => ({ op: fs.existsSync(path.join(root, p)) ? 'replace' : 'create', path: p, expectedSha256: fileSha256(path.join(root, p)), content }));
+  for (const p of retiredPages) operations.push({ op: 'delete', path: p, expectedSha256: fileSha256(path.join(root, p)) });
   return { version: 1, operations };
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

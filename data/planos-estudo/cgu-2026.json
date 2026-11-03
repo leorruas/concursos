@@ -1,0 +1,2175 @@
+{
+  "schemaVersion": 1,
+  "concursoId": "cgu-2026",
+  "editalPath": "2 - Editais/CGU 2026 - Auditoria.md",
+  "programSource": "síntese local do item 15; sem afirmar auditoria linha a linha do PDF oficial",
+  "blocks": [
+    {
+      "id": "P1.1",
+      "heading": "1. Estado, democracia, direitos e ciência política",
+      "weight": 1
+    },
+    {
+      "id": "P1.2",
+      "heading": "2. Sociedade brasileira, desigualdades, diversidade e desenvolvimento",
+      "weight": 1
+    },
+    {
+      "id": "P1.3",
+      "heading": "3. Ética pública e responsabilidade profissional",
+      "weight": 1
+    },
+    {
+      "id": "P1.4",
+      "heading": "4. Administração pública e fundamentos de políticas públicas",
+      "weight": 1
+    },
+    {
+      "id": "P2.1",
+      "heading": "1. Fundamentos de governança, riscos e integridade pública e privada",
+      "weight": 1
+    },
+    {
+      "id": "P2.2",
+      "heading": "2. Fundamentos de transparência, ouvidoria e participação social",
+      "weight": 1
+    },
+    {
+      "id": "P2.3",
+      "heading": "3. Fundamentos de direito público aplicado, controle e responsabilização",
+      "weight": 1
+    },
+    {
+      "id": "P2.4",
+      "heading": "4. Fundamentos de evidências, dados e inteligência artificial",
+      "weight": 1
+    },
+    {
+      "id": "P2.5",
+      "heading": "5. Fundamentos de auditoria governamental e atuação integrada da CGU",
+      "weight": 1
+    },
+    {
+      "id": "P3.1",
+      "heading": "1. Auditoria governamental: avaliação, consultoria e apuração",
+      "weight": 2
+    },
+    {
+      "id": "P3.2",
+      "heading": "2. Finanças públicas, orçamento e contabilidade pública",
+      "weight": 2
+    },
+    {
+      "id": "P3.3",
+      "heading": "3. Políticas públicas e métodos de investigação e avaliação",
+      "weight": 2
+    },
+    {
+      "id": "P3.4",
+      "heading": "4. Auditoria de contratações, transferências e execução de recursos",
+      "weight": 2
+    },
+    {
+      "id": "P3.5",
+      "heading": "5. Integridade, transparência e responsabilização aplicadas ao controle público",
+      "weight": 2
+    }
+  ],
+  "sources": {
+    "edital": {
+      "label": "Edital CGU: síntese do item 15, conferir PDF e retificações",
+      "ref": "2 - Editais/CGU 2026 - Auditoria#Checklist completo de estudos por bloco",
+      "url": "https://www.cebraspe.org.br/concursos/cgu_26_affc",
+      "scope": "Itens 15.2.2, 15.2.3 e 15.2.4; síntese local não substitui edital"
+    },
+    "referencial": {
+      "label": "Referencial Técnico: Instrução Normativa SFC nº 3/2017",
+      "url": "https://repositorio.cgu.gov.br/bitstream/1/33409/21/Instrucao_Normativa_CGU_3_2017.pdf",
+      "scope": "Conferir itens pertinentes na aula"
+    },
+    "mot": {
+      "label": "Manual de Orientações Técnicas da CGU",
+      "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+      "scope": "Unidade 07: 4.3.4 (testes e técnicas, incluindo 4.3.4.6.1 inspeção); evidências em 5.3. Conferir texto e condições na fonte."
+    },
+    "mcasp": {
+      "label": "Manual de Contabilidade Aplicada ao Setor Público: 11ª edição",
+      "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf",
+      "catalogUrl": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+      "scope": "Entrada: Parte Geral; orçamento: Parte I; patrimônio: Parte II; demonstrações: Parte V. Verificar trechos e versão exigida antes de ensinar. MIC e estatais requerem fontes complementares no bloco próprio.",
+      "verifiedAt": "2026-11-03"
+    },
+    "constituicao": {
+      "label": "Constituição Federal: texto oficial",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "scope": "Recorte do edital e das notas; conferir texto vigente na aula"
+    },
+    "processo-administrativo": {
+      "label": "Lei nº 9.784/1999: processo administrativo federal",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+      "scope": "Entrada de Direito Administrativo: princípios, competência e motivação; conferir arts. 2º, 11 a 15 e 50",
+      "provenance": "Fontes da nota de atos e catálogo da Base de Conhecimento da CGU"
+    },
+    "conflitos": {
+      "label": "Lei nº 12.813/2013: conflitos de interesses",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12813.htm",
+      "scope": "Recorte do edital; conferir requisitos e destinatários na aula"
+    },
+    "contratacoes": {
+      "label": "Lei nº 14.133/2021: licitações e contratos",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+      "scope": "Planejamento e execução; selecionar dispositivos pertinentes antes dos testes"
+    },
+    "lai": {
+      "label": "Lei de Acesso à Informação (Lei nº 12.527/2011)",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+      "scope": "Pedidos, sigilos e acesso parcial; conferir artigos pertinentes"
+    },
+    "lgpd": {
+      "label": "Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "scope": "Necessidade, finalidade, dados sensíveis e exercício de direitos; conferir texto vigente"
+    }
+  },
+  "subjects": [
+    {
+      "id": "auditoria-governamental",
+      "name": "Auditoria Governamental",
+      "aliases": [
+        "Auditoria Governamental",
+        "auditoria",
+        "auditoria interna governamental"
+      ],
+      "hub": "3 - Materias/Auditoria Governamental/auditoria-governamental",
+      "legacyDisciplines": [
+        "Auditoria Governamental"
+      ],
+      "priority": {
+        "tier": "A",
+        "rationale": "Peso 2 na P3, fundamento da situação-problema e estudo já em curso",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "u01",
+          "title": "Estrutura da auditoria pública e serviços",
+          "plannedConcepts": [
+            "CGU/SFC, Audin, Sistema de Controle Interno, controle externo",
+            "avaliação × consultoria × apuração, competências, objetos e limites"
+          ],
+          "editalItems": [
+            "P2.5.1",
+            "P3.1.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas",
+            "3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "parcial"
+        },
+        {
+          "id": "u02",
+          "title": "Independência, objetividade, ética e ceticismo",
+          "plannedConcepts": [
+            "Autonomia da UAIG",
+            "conflito, ameaças, salvaguardas, regra dos 24 meses, consultoria × gestão",
+            "supervisão",
+            "sigilo/comunicação (55 a 58)",
+            "**proficiência, zelo e ceticismo (59+)**"
+          ],
+          "editalItems": [
+            "P2.5.1",
+            "P3.1.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo",
+            "3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria",
+            "3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "aprofundada",
+          "historicalExposure": {
+            "date": "2026-10-30",
+            "evidenceRef": "3 - Materias/Auditoria Governamental/auditoria-governamental#Planejamento de aprofundamento para o intensivão CGU",
+            "status": "encerrada-didaticamente",
+            "taughtConcepts": [
+              "Autonomia da UAIG",
+              "conflito, ameaças, salvaguardas, regra dos 24 meses, consultoria × gestão",
+              "supervisão",
+              "sigilo/comunicação (55 a 58)",
+              "**proficiência, zelo e ceticismo (59+)**"
+            ],
+            "boundaries": [
+              "independência versus objetividade",
+              "sigilo versus comunicação institucional",
+              "proficiência individual versus capacidade coletiva"
+            ]
+          }
+        },
+        {
+          "id": "u03",
+          "title": "Governança, riscos, controles e três linhas",
+          "plannedConcepts": [
+            "Objetivos organizacionais, identificação e avaliação de riscos, desenho × operação de controles, papéis da gestão e auditoria, responsabilidades que não podem migrar"
+          ],
+          "editalItems": [
+            "P2.1.1",
+            "P2.1.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas"
+          ],
+          "requires": [
+            "u02"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "aprofundada",
+          "historicalExposure": {
+            "date": "2026-10-30",
+            "evidenceRef": "3 - Materias/Auditoria Governamental/auditoria-governamental#Planejamento de aprofundamento para o intensivão CGU",
+            "status": "encerrada-didaticamente",
+            "taughtConcepts": [
+              "Objetivos organizacionais, identificação e avaliação de riscos, desenho × operação de controles, papéis da gestão e auditoria, responsabilidades que não podem migrar"
+            ],
+            "boundaries": [
+              "resposta ao risco versus atividade de controle",
+              "risco residual versus eficácia demonstrada"
+            ]
+          }
+        },
+        {
+          "id": "u04",
+          "title": "Planejamento da UAIG baseado em riscos",
+          "plannedConcepts": [
+            "Universo auditável, fatores de risco e materialidade, escolha e priorização de objetos, recursos, PAINT e RAINT, diferença entre plano anual e auditoria específica"
+          ],
+          "editalItems": [
+            "P2.5.2",
+            "P3.1.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos",
+            "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas"
+          ],
+          "requires": [
+            "u03"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "aprofundada",
+          "historicalExposure": {
+            "date": "2026-11-02",
+            "evidenceRef": "3 - Materias/Auditoria Governamental/auditoria-governamental#Planejamento de aprofundamento para o intensivão CGU",
+            "status": "encerrada-didaticamente",
+            "taughtConcepts": [
+              "Universo auditável, fatores de risco e materialidade, escolha e priorização de objetos, recursos, PAINT e RAINT, diferença entre plano anual e auditoria específica"
+            ],
+            "boundaries": [
+              "priorização direta versus fatores indiretos",
+              "materialidade versus relevância versus criticidade",
+              "aprovação do PAINT versus alteração do programa individual"
+            ]
+          }
+        },
+        {
+          "id": "u05",
+          "title": "Planejamento individual e desenho da auditoria",
+          "plannedConcepts": [
+            "Objetivo, objeto, escopo, critérios, questões/subquestões, matriz de planejamento, programa de trabalho, risco de auditoria, supervisão, alterações justificadas"
+          ],
+          "editalItems": [
+            "P2.5.2",
+            "P3.1.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria"
+          ],
+          "requires": [
+            "u04"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "aprofundada",
+          "historicalExposure": {
+            "date": "2026-11-03",
+            "evidenceRef": "3 - Materias/Auditoria Governamental/auditoria-governamental#Planejamento de aprofundamento para o intensivão CGU",
+            "status": "encerrada-didaticamente",
+            "taughtConcepts": [
+              "Objetivo, objeto, escopo, critérios, questões/subquestões, matriz de planejamento, programa de trabalho, risco de auditoria, supervisão, alterações justificadas"
+            ],
+            "boundaries": [
+              "objetivo versus escopo versus critério",
+              "supervisão do programa versus aprovação do plano anual",
+              "avaliação versus consultoria"
+            ]
+          }
+        },
+        {
+          "id": "u06",
+          "title": "Evidências e documentação",
+          "plannedConcepts": [
+            "Evidência × indício × conclusão",
+            "suficiência, adequação, confiabilidade, relevância, rastreabilidade",
+            "fontes e papéis de trabalho",
+            "limitações"
+          ],
+          "editalItems": [
+            "P2.5.3",
+            "P3.1.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+          ],
+          "requires": [
+            "u05"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "aprofundada",
+          "historicalExposure": {
+            "date": "2026-11-03",
+            "evidenceRef": "3 - Materias/Auditoria Governamental/auditoria-governamental#Planejamento de aprofundamento para o intensivão CGU",
+            "status": "encerrada-didaticamente",
+            "taughtConcepts": [
+              "Evidência × indício × conclusão",
+              "suficiência, adequação, confiabilidade, relevância, rastreabilidade",
+              "fontes e papéis de trabalho",
+              "limitações"
+            ],
+            "boundaries": [
+              "suficiência versus adequação",
+              "política de acesso versus pedidos individuais",
+              "papéis permanentes versus correntes",
+              "observação exclusiva versus observação como uma das fontes"
+            ]
+          }
+        },
+        {
+          "id": "u07",
+          "title": "Procedimentos e testes de auditoria",
+          "plannedConcepts": [
+            "Inspeção, observação, confirmação, entrevista/indagação, recálculo, reexecução, revisão analítica",
+            "teste de controle × procedimento substantivo"
+          ],
+          "editalItems": [
+            "P3.1.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar"
+          ],
+          "requires": [
+            "u06"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "parcial",
+          "historicalExposure": {
+            "date": "2026-11-03",
+            "evidenceRef": "3 - Materias/Auditoria Governamental/auditoria-governamental#Planejamento de aprofundamento para o intensivão CGU",
+            "status": "em-aula",
+            "taughtConcepts": [
+              "testes de controle versus substantivos",
+              "reexecução versus observação",
+              "limites do recálculo",
+              "procedimentos analíticos substantivos"
+            ],
+            "boundaries": [
+              "técnica de inspeção versus finalidade de teste",
+              "observação versus reexecução",
+              "recálculo versus confiabilidade dos dados"
+            ]
+          }
+        },
+        {
+          "id": "u08",
+          "title": "Amostragem e generalização",
+          "plannedConcepts": [
+            "População, unidade amostral, critérios de seleção, métodos estatísticos × não estatísticos, risco de amostragem, ampliação de testes × alteração de escopo"
+          ],
+          "editalItems": [
+            "P3.1.3"
+          ],
+          "noteRefs": [],
+          "requires": [
+            "u07"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "parcial"
+        },
+        {
+          "id": "u09",
+          "title": "Achados, causas e fraude",
+          "plannedConcepts": [
+            "Critério, condição, causa, efeito, materialidade, evidências e responsabilização",
+            "achado × mera irregularidade",
+            "indício de fraude, comunicação e encaminhamento"
+          ],
+          "editalItems": [
+            "P3.1.4"
+          ],
+          "noteRefs": [],
+          "requires": [
+            "u08"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "parcial"
+        },
+        {
+          "id": "u10",
+          "title": "Comunicação e relatórios",
+          "plannedConcepts": [
+            "Discussão de achados, manifestação da unidade, conclusões, recomendações, relatórios, limitações, qualidade e clareza",
+            "informar × decidir"
+          ],
+          "editalItems": [
+            "P2.5.4",
+            "P3.1.6"
+          ],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#3. Comunicação: transformar evidências em conclusões úteis"
+          ],
+          "requires": [
+            "u09"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "parcial"
+        },
+        {
+          "id": "u11",
+          "title": "Monitoramento, ações e benefícios",
+          "plannedConcepts": [
+            "Recomendação × plano de ação",
+            "gestor implementa, auditor verifica",
+            "cumprimento formal × efetividade",
+            "benefício financeiro e não financeiro, riscos residuais"
+          ],
+          "editalItems": [
+            "P2.5.4",
+            "P3.1.6"
+          ],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#4. Monitoramento: verificar a resposta e o resultado"
+          ],
+          "requires": [
+            "u10"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "parcial"
+        },
+        {
+          "id": "u12",
+          "title": "Supervisão e qualidade da auditoria",
+          "plannedConcepts": [
+            "Revisão dos trabalhos, supervisão técnica, Programa de Gestão e Melhoria da Qualidade (PGMQ), avaliações internas/externas, supervisão × independência"
+          ],
+          "editalItems": [
+            "P3.1.6"
+          ],
+          "noteRefs": [],
+          "requires": [
+            "u11"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "parcial"
+        },
+        {
+          "id": "u13",
+          "title": "Dados, análise e IA aplicados à auditoria",
+          "plannedConcepts": [
+            "Tratamento e validação de dados, trilha de auditoria, qualidade, vieses, cruzamentos, rastreabilidade, limites e validação humana de resultados da IA"
+          ],
+          "editalItems": [
+            "P3.1.5"
+          ],
+          "noteRefs": [],
+          "requires": [
+            "u12"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "parcial"
+        },
+        {
+          "id": "u14",
+          "title": "Integração das funções da CGU",
+          "plannedConcepts": [
+            "Auditoria × ouvidoria × transparência × integridade × correição × responsabilização",
+            "encaminhamentos, proteção da informação, diferenças institucionais"
+          ],
+          "editalItems": [
+            "P2.5.5"
+          ],
+          "noteRefs": [],
+          "requires": [
+            "u13"
+          ],
+          "sourceIds": [
+            "referencial",
+            "mot"
+          ],
+          "coverage": "parcial"
+        }
+      ],
+      "legacySourceUnits": {
+        "cgu-2026-auditoria-2026-10-30-unidade02": "u02",
+        "cgu-2026-auditoria-2026-10-30-unidade03": "u03",
+        "cgu-2026-auditoria-2026-11-02-unidade04": "u04",
+        "cgu-2026-auditoria-2026-11-03-unidade04-revisao": "u04",
+        "cgu-2026-auditoria-2026-11-03-unidade05-aprendizagem": "u05",
+        "cgu-2026-auditoria-2026-11-03-unidade05-revisao": "u05",
+        "cgu-2026-auditoria-2026-11-03-unidade05-para-valer": "u05",
+        "cgu-2026-auditoria-2026-11-03-unidade06-aprendizagem": "u06",
+        "cgu-2026-auditoria-2026-11-03-unidade06-revisao-dirigida": "u06",
+        "cgu-2026-auditoria-2026-11-03-unidade06-revisao-aplicada": "u06",
+        "cgu-2026-auditoria-2026-11-03-unidade06-para-valer": "u06",
+        "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem": "u07",
+        "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada": "u07"
+      },
+      "requiresSubjects": []
+    },
+    {
+      "id": "estado-democracia",
+      "name": "Estado e democracia",
+      "aliases": [
+        "Estado e democracia",
+        "estado-democracia"
+      ],
+      "hub": "3 - Materias/Direito Constitucional/direito-constitucional",
+      "legacyDisciplines": [
+        "Estado e democracia"
+      ],
+      "priority": {
+        "tier": "C",
+        "rationale": "Peso 1, base parcial aproveitável e validação CGU pendente",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up1-1-1",
+          "editalItems": [
+            "P1.1.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Constitucional/01 - principios fundamentais",
+            "3 - Materias/Direito Constitucional/05 - direitos politicos",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "constituicao"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-1-2",
+          "editalItems": [
+            "P1.1.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Constitucional/01 - principios fundamentais",
+            "3 - Materias/Direito Constitucional/05 - direitos politicos",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+          ],
+          "requires": [
+            "up1-1-1"
+          ],
+          "sourceIds": [
+            "constituicao"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-1-3",
+          "editalItems": [
+            "P1.1.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Constitucional/01 - principios fundamentais",
+            "3 - Materias/Direito Constitucional/05 - direitos politicos",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+          ],
+          "requires": [
+            "up1-1-2"
+          ],
+          "sourceIds": [
+            "constituicao"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-1-4",
+          "editalItems": [
+            "P1.1.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Constitucional/01 - principios fundamentais",
+            "3 - Materias/Direito Constitucional/05 - direitos politicos",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+          ],
+          "requires": [
+            "up1-1-3"
+          ],
+          "sourceIds": [
+            "constituicao"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-1-5",
+          "editalItems": [
+            "P1.1.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Constitucional/01 - principios fundamentais",
+            "3 - Materias/Direito Constitucional/05 - direitos politicos",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+          ],
+          "requires": [
+            "up1-1-4"
+          ],
+          "sourceIds": [
+            "constituicao"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-1-6",
+          "editalItems": [
+            "P1.1.6"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Constitucional/01 - principios fundamentais",
+            "3 - Materias/Direito Constitucional/05 - direitos politicos",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+          ],
+          "requires": [
+            "up1-1-5"
+          ],
+          "sourceIds": [
+            "constituicao"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-1-7",
+          "editalItems": [
+            "P1.1.7"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Constitucional/01 - principios fundamentais",
+            "3 - Materias/Direito Constitucional/05 - direitos politicos",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+          ],
+          "requires": [
+            "up1-1-6"
+          ],
+          "sourceIds": [
+            "constituicao"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-1-8",
+          "editalItems": [
+            "P1.1.8"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Constitucional/01 - principios fundamentais",
+            "3 - Materias/Direito Constitucional/05 - direitos politicos",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+          ],
+          "requires": [
+            "up1-1-7"
+          ],
+          "sourceIds": [
+            "constituicao"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-1-9",
+          "editalItems": [
+            "P1.1.9"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Constitucional/01 - principios fundamentais",
+            "3 - Materias/Direito Constitucional/05 - direitos politicos",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+          ],
+          "requires": [
+            "up1-1-8"
+          ],
+          "sourceIds": [
+            "constituicao"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "sociedade-brasileira",
+      "name": "Sociedade brasileira",
+      "aliases": [
+        "Sociedade brasileira",
+        "sociedade-brasileira"
+      ],
+      "hub": "3 - Materias/Atualidades/atualidades",
+      "legacyDisciplines": [
+        "Sociedade brasileira"
+      ],
+      "priority": {
+        "tier": "C",
+        "rationale": "Peso 1, base parcial aproveitável e validação CGU pendente",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up1-2-1",
+          "editalItems": [
+            "P1.2.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais",
+            "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade",
+            "3 - Materias/Comunicacao/10 - linguagem simples"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-2-2",
+          "editalItems": [
+            "P1.2.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais",
+            "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade",
+            "3 - Materias/Comunicacao/10 - linguagem simples"
+          ],
+          "requires": [
+            "up1-2-1"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-2-3",
+          "editalItems": [
+            "P1.2.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais",
+            "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade",
+            "3 - Materias/Comunicacao/10 - linguagem simples"
+          ],
+          "requires": [
+            "up1-2-2"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-2-4",
+          "editalItems": [
+            "P1.2.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais",
+            "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade",
+            "3 - Materias/Comunicacao/10 - linguagem simples"
+          ],
+          "requires": [
+            "up1-2-3"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-2-5",
+          "editalItems": [
+            "P1.2.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais",
+            "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade",
+            "3 - Materias/Comunicacao/10 - linguagem simples"
+          ],
+          "requires": [
+            "up1-2-4"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "etica-publica",
+      "name": "Ética pública",
+      "aliases": [
+        "Ética pública",
+        "etica-publica"
+      ],
+      "hub": null,
+      "legacyDisciplines": [
+        "Ética pública"
+      ],
+      "priority": {
+        "tier": "C",
+        "rationale": "Peso 1, base parcial aproveitável e validação CGU pendente",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up1-3-1",
+          "editalItems": [
+            "P1.3.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Comunicacao/11 - etica em comunicacao"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "conflitos",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-3-2",
+          "editalItems": [
+            "P1.3.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Comunicacao/11 - etica em comunicacao"
+          ],
+          "requires": [
+            "up1-3-1"
+          ],
+          "sourceIds": [
+            "conflitos",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-3-3",
+          "editalItems": [
+            "P1.3.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Comunicacao/11 - etica em comunicacao"
+          ],
+          "requires": [
+            "up1-3-2"
+          ],
+          "sourceIds": [
+            "conflitos",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-3-4",
+          "editalItems": [
+            "P1.3.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Comunicacao/11 - etica em comunicacao"
+          ],
+          "requires": [
+            "up1-3-3"
+          ],
+          "sourceIds": [
+            "conflitos",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-3-5",
+          "editalItems": [
+            "P1.3.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Comunicacao/11 - etica em comunicacao"
+          ],
+          "requires": [
+            "up1-3-4"
+          ],
+          "sourceIds": [
+            "conflitos",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "administracao-publica",
+      "name": "Administração Pública",
+      "aliases": [
+        "Administração Pública",
+        "administracao-publica"
+      ],
+      "hub": "3 - Materias/Administracao Publica/administracao-publica",
+      "legacyDisciplines": [
+        "Administração Pública"
+      ],
+      "priority": {
+        "tier": "C",
+        "rationale": "Peso 1, base parcial aproveitável e validação CGU pendente",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up1-4-1",
+          "editalItems": [
+            "P1.4.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/01 - evolucao da administracao publica",
+            "3 - Materias/Administracao Publica/02 - governanca publica",
+            "3 - Materias/Administracao Geral/03 - gestao de processos"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-4-2",
+          "editalItems": [
+            "P1.4.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/01 - evolucao da administracao publica",
+            "3 - Materias/Administracao Publica/02 - governanca publica",
+            "3 - Materias/Administracao Geral/03 - gestao de processos"
+          ],
+          "requires": [
+            "up1-4-1"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-4-3",
+          "editalItems": [
+            "P1.4.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/01 - evolucao da administracao publica",
+            "3 - Materias/Administracao Publica/02 - governanca publica",
+            "3 - Materias/Administracao Geral/03 - gestao de processos"
+          ],
+          "requires": [
+            "up1-4-2"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-4-4",
+          "editalItems": [
+            "P1.4.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/01 - evolucao da administracao publica",
+            "3 - Materias/Administracao Publica/02 - governanca publica",
+            "3 - Materias/Administracao Geral/03 - gestao de processos"
+          ],
+          "requires": [
+            "up1-4-3"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up1-4-5",
+          "editalItems": [
+            "P1.4.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/01 - evolucao da administracao publica",
+            "3 - Materias/Administracao Publica/02 - governanca publica",
+            "3 - Materias/Administracao Geral/03 - gestao de processos"
+          ],
+          "requires": [
+            "up1-4-4"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "governanca-riscos-integridade",
+      "name": "Governança, riscos e integridade",
+      "aliases": [
+        "Governança, riscos e integridade",
+        "governanca-riscos-integridade"
+      ],
+      "hub": "3 - Materias/Administracao Publica/administracao-publica",
+      "legacyDisciplines": [
+        "Governança, riscos e integridade"
+      ],
+      "priority": {
+        "tier": "C",
+        "rationale": "Peso 1, base parcial aproveitável e validação CGU pendente",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up2-1-1",
+          "editalItems": [
+            "P2.1.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/02 - governanca publica",
+            "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "sharedExposureFrom": {
+            "subjectId": "auditoria-governamental",
+            "unitId": "u03"
+          },
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-1-2",
+          "editalItems": [
+            "P2.1.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/02 - governanca publica",
+            "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas"
+          ],
+          "requires": [
+            "up2-1-1"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "sharedExposureFrom": {
+            "subjectId": "auditoria-governamental",
+            "unitId": "u03"
+          },
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-1-3",
+          "editalItems": [
+            "P2.1.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/02 - governanca publica",
+            "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas"
+          ],
+          "requires": [
+            "up2-1-2"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-1-4",
+          "editalItems": [
+            "P2.1.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/02 - governanca publica",
+            "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas"
+          ],
+          "requires": [
+            "up2-1-3"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-1-5",
+          "editalItems": [
+            "P2.1.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/02 - governanca publica",
+            "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas"
+          ],
+          "requires": [
+            "up2-1-4"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "transparencia-ouvidoria",
+      "name": "Transparência e ouvidoria",
+      "aliases": [
+        "Transparência e ouvidoria",
+        "transparencia-ouvidoria"
+      ],
+      "hub": "3 - Materias/Administracao Publica/administracao-publica",
+      "legacyDisciplines": [
+        "Transparência e ouvidoria"
+      ],
+      "priority": {
+        "tier": "C",
+        "rationale": "Peso 1, base parcial aproveitável e validação CGU pendente",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up2-2-1",
+          "editalItems": [
+            "P2.2.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Comunicacao/02 - comunicacao publica"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "lai",
+            "lgpd"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-2-2",
+          "editalItems": [
+            "P2.2.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Comunicacao/02 - comunicacao publica"
+          ],
+          "requires": [
+            "up2-2-1"
+          ],
+          "sourceIds": [
+            "lai",
+            "lgpd"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-2-3",
+          "editalItems": [
+            "P2.2.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Comunicacao/02 - comunicacao publica"
+          ],
+          "requires": [
+            "up2-2-2"
+          ],
+          "sourceIds": [
+            "lai",
+            "lgpd"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-2-4",
+          "editalItems": [
+            "P2.2.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Comunicacao/02 - comunicacao publica"
+          ],
+          "requires": [
+            "up2-2-3"
+          ],
+          "sourceIds": [
+            "lai",
+            "lgpd"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-2-5",
+          "editalItems": [
+            "P2.2.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Comunicacao/02 - comunicacao publica"
+          ],
+          "requires": [
+            "up2-2-4"
+          ],
+          "sourceIds": [
+            "lai",
+            "lgpd"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "direito-administrativo",
+      "name": "Direito Administrativo",
+      "aliases": [
+        "Direito Administrativo",
+        "direito-administrativo"
+      ],
+      "hub": "3 - Materias/Direito Administrativo/direito-administrativo",
+      "legacyDisciplines": [
+        "Direito Administrativo"
+      ],
+      "priority": {
+        "tier": "C",
+        "rationale": "Peso 1, base parcial aproveitável e validação CGU pendente",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up2-3-1",
+          "editalItems": [
+            "P2.3.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/03 - atos administrativos",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-3-2",
+          "editalItems": [
+            "P2.3.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/03 - atos administrativos",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa"
+          ],
+          "requires": [
+            "up2-3-1"
+          ],
+          "sourceIds": [
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-3-3",
+          "editalItems": [
+            "P2.3.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/03 - atos administrativos",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa"
+          ],
+          "requires": [
+            "up2-3-2"
+          ],
+          "sourceIds": [
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-3-4",
+          "editalItems": [
+            "P2.3.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/03 - atos administrativos",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa"
+          ],
+          "requires": [
+            "up2-3-3"
+          ],
+          "sourceIds": [
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-3-5",
+          "editalItems": [
+            "P2.3.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/03 - atos administrativos",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa"
+          ],
+          "requires": [
+            "up2-3-4"
+          ],
+          "sourceIds": [
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "evidencias-dados-ia",
+      "name": "Evidências, dados e inteligência artificial",
+      "aliases": [
+        "Evidências, dados e inteligência artificial",
+        "evidencias-dados-ia"
+      ],
+      "hub": null,
+      "legacyDisciplines": [
+        "Evidências, dados e inteligência artificial"
+      ],
+      "priority": {
+        "tier": "C",
+        "rationale": "Peso 1, base parcial aproveitável e validação CGU pendente",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up2-4-1",
+          "editalItems": [
+            "P2.4.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/01 - inteligencia artificial",
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-4-2",
+          "editalItems": [
+            "P2.4.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/01 - inteligencia artificial",
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+          ],
+          "requires": [
+            "up2-4-1"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-4-3",
+          "editalItems": [
+            "P2.4.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/01 - inteligencia artificial",
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+          ],
+          "requires": [
+            "up2-4-2"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-4-4",
+          "editalItems": [
+            "P2.4.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/01 - inteligencia artificial",
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+          ],
+          "requires": [
+            "up2-4-3"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up2-4-5",
+          "editalItems": [
+            "P2.4.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/01 - inteligencia artificial",
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+          ],
+          "requires": [
+            "up2-4-4"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "financas-publicas",
+      "name": "Finanças Públicas",
+      "aliases": [
+        "Finanças Públicas",
+        "financas-publicas"
+      ],
+      "hub": null,
+      "legacyDisciplines": [
+        "Finanças Públicas"
+      ],
+      "priority": {
+        "tier": "B",
+        "rationale": "Peso 2, aplicação e integração com auditoria",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up3-2-1",
+          "editalItems": [
+            "P3.2.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "orcamento-publico",
+      "name": "Orçamento Público",
+      "aliases": [
+        "Orçamento Público",
+        "orcamento-publico",
+        "AFO",
+        "administração financeira e orçamentária",
+        "orçamento"
+      ],
+      "hub": null,
+      "legacyDisciplines": [
+        "Orçamento Público"
+      ],
+      "priority": {
+        "tier": "A",
+        "rationale": "Peso 2 e lacuna extensa de base",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up3-2-2",
+          "editalItems": [
+            "P3.2.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "mcasp"
+          ],
+          "coverage": "base-adjacente",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-2-3",
+          "editalItems": [
+            "P3.2.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
+          ],
+          "requires": [
+            "up3-2-2"
+          ],
+          "sourceIds": [
+            "mcasp"
+          ],
+          "coverage": "base-adjacente",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "contabilidade-publica",
+      "name": "Contabilidade Pública",
+      "aliases": [
+        "Contabilidade Pública",
+        "contabilidade-publica",
+        "contabilidade",
+        "contabilidade aplicada ao setor público",
+        "CASP"
+      ],
+      "hub": null,
+      "legacyDisciplines": [
+        "Contabilidade Pública"
+      ],
+      "priority": {
+        "tier": "A",
+        "rationale": "Peso 2 e lacuna extensa de base",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "fundamentos",
+          "title": "Patrimônio e óticas orçamentária, financeira e patrimonial",
+          "editalItems": [
+            "P3.2.4"
+          ],
+          "noteRefs": [],
+          "requires": [],
+          "sourceIds": [
+            "mcasp"
+          ],
+          "coverage": "ausente",
+          "plannedConcepts": [
+            "objeto da contabilidade pública",
+            "execução orçamentária versus financeira versus variação patrimonial"
+          ]
+        },
+        {
+          "id": "up3-2-4",
+          "editalItems": [
+            "P3.2.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
+          ],
+          "requires": [
+            "fundamentos"
+          ],
+          "sourceIds": [
+            "mcasp"
+          ],
+          "coverage": "base-adjacente",
+          "recommendedPrerequisites": [
+            {
+              "subjectId": "orcamento-publico",
+              "unitId": "up3-2-3"
+            }
+          ],
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-2-5",
+          "editalItems": [
+            "P3.2.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
+          ],
+          "requires": [
+            "up3-2-4"
+          ],
+          "sourceIds": [
+            "mcasp"
+          ],
+          "coverage": "base-adjacente",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-2-6",
+          "editalItems": [
+            "P3.2.6"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
+          ],
+          "requires": [
+            "up3-2-5"
+          ],
+          "sourceIds": [
+            "mcasp"
+          ],
+          "coverage": "base-adjacente",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-2-7",
+          "editalItems": [
+            "P3.2.7"
+          ],
+          "noteRefs": [
+            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
+          ],
+          "requires": [
+            "up3-2-6"
+          ],
+          "sourceIds": [
+            "mcasp"
+          ],
+          "coverage": "base-adjacente",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "politicas-publicas",
+      "name": "Políticas Públicas e avaliação",
+      "aliases": [
+        "Políticas Públicas e avaliação",
+        "politicas-publicas"
+      ],
+      "hub": "3 - Materias/Administracao Publica/administracao-publica",
+      "legacyDisciplines": [
+        "Políticas Públicas e avaliação"
+      ],
+      "priority": {
+        "tier": "B",
+        "rationale": "Peso 2, aplicação e integração com auditoria",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up3-3-1",
+          "editalItems": [
+            "P3.3.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-3-2",
+          "editalItems": [
+            "P3.3.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais"
+          ],
+          "requires": [
+            "up3-3-1"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-3-3",
+          "editalItems": [
+            "P3.3.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais"
+          ],
+          "requires": [
+            "up3-3-2"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-3-4",
+          "editalItems": [
+            "P3.3.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais"
+          ],
+          "requires": [
+            "up3-3-3"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-3-5",
+          "editalItems": [
+            "P3.3.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais"
+          ],
+          "requires": [
+            "up3-3-4"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-3-6",
+          "editalItems": [
+            "P3.3.6"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais"
+          ],
+          "requires": [
+            "up3-3-5"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-3-7",
+          "editalItems": [
+            "P3.3.7"
+          ],
+          "noteRefs": [
+            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+            "3 - Materias/Atualidades/09 - demografia e indicadores sociais"
+          ],
+          "requires": [
+            "up3-3-6"
+          ],
+          "sourceIds": [
+            "edital"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "contratacoes-transferencias",
+      "name": "Contratações e transferências",
+      "aliases": [
+        "Contratações e transferências",
+        "contratacoes-transferencias"
+      ],
+      "hub": "3 - Materias/Direito Administrativo/direito-administrativo",
+      "legacyDisciplines": [
+        "Contratações e transferências"
+      ],
+      "priority": {
+        "tier": "B",
+        "rationale": "Peso 2, aplicação e integração com auditoria",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up3-4-1",
+          "editalItems": [
+            "P3.4.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "contratacoes"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-4-2",
+          "editalItems": [
+            "P3.4.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos"
+          ],
+          "requires": [
+            "up3-4-1"
+          ],
+          "sourceIds": [
+            "contratacoes"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-4-3",
+          "editalItems": [
+            "P3.4.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos"
+          ],
+          "requires": [
+            "up3-4-2"
+          ],
+          "sourceIds": [
+            "contratacoes"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-4-4",
+          "editalItems": [
+            "P3.4.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos"
+          ],
+          "requires": [
+            "up3-4-3"
+          ],
+          "sourceIds": [
+            "contratacoes"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-4-5",
+          "editalItems": [
+            "P3.4.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos"
+          ],
+          "requires": [
+            "up3-4-4"
+          ],
+          "sourceIds": [
+            "contratacoes"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    },
+    {
+      "id": "integridade-responsabilizacao",
+      "name": "Integridade e responsabilização",
+      "aliases": [
+        "Integridade e responsabilização",
+        "integridade-responsabilizacao"
+      ],
+      "hub": null,
+      "legacyDisciplines": [
+        "Integridade e responsabilização"
+      ],
+      "priority": {
+        "tier": "B",
+        "rationale": "Peso 2, aplicação e integração com auditoria",
+        "nature": "proposta-pedagogica-sem-estatistica-de-incidencia"
+      },
+      "units": [
+        {
+          "id": "up3-5-1",
+          "editalItems": [
+            "P3.5.1"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+          ],
+          "requires": [],
+          "sourceIds": [
+            "edital",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-5-2",
+          "editalItems": [
+            "P3.5.2"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+          ],
+          "requires": [
+            "up3-5-1"
+          ],
+          "sourceIds": [
+            "edital",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-5-3",
+          "editalItems": [
+            "P3.5.3"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+          ],
+          "requires": [
+            "up3-5-2"
+          ],
+          "sourceIds": [
+            "edital",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-5-4",
+          "editalItems": [
+            "P3.5.4"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+          ],
+          "requires": [
+            "up3-5-3"
+          ],
+          "sourceIds": [
+            "edital",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-5-5",
+          "editalItems": [
+            "P3.5.5"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+          ],
+          "requires": [
+            "up3-5-4"
+          ],
+          "sourceIds": [
+            "edital",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-5-6",
+          "editalItems": [
+            "P3.5.6"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+          ],
+          "requires": [
+            "up3-5-5"
+          ],
+          "sourceIds": [
+            "edital",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        },
+        {
+          "id": "up3-5-7",
+          "editalItems": [
+            "P3.5.7"
+          ],
+          "noteRefs": [
+            "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
+            "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+          ],
+          "requires": [
+            "up3-5-6"
+          ],
+          "sourceIds": [
+            "edital",
+            "processo-administrativo"
+          ],
+          "coverage": "parcial",
+          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+        }
+      ],
+      "requiresSubjects": []
+    }
+  ],
+  "reviewPolicy": {
+    "intervalDays": [
+      1,
+      7,
+      21
+    ],
+    "minimumSpacingDays": 1,
+    "nature": "heuristica-pedagogica-ajustavel-sem-promessa-de-dominio"
+  },
+  "questionFormat": "CE"
+}

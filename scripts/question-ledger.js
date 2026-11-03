@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
+import { loadPlans } from './study-context.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -44,6 +45,14 @@ function theoryPathExists(ref){
   if(!raw) return false;
   const candidate=raw.endsWith('.md')?raw:raw+'.md';
   return fs.existsSync(path.join(rootDir,candidate));
+}
+
+function normativeRefsValid(q){
+  if(q.checkpointSchema!==2 || !q.sessionFile || !Array.isArray(q.sourceRefs) || !q.sourceRefs.length) return false;
+  const plan=loadPlans(rootDir).find(p=>p.concursoId===q.concursoId);
+  const contests=readJson('data/concursos.json');
+  const sources=plan?.sources || (contests.some(c=>c.id===q.concursoId)?{edital:{}}:{});
+  return q.sourceRefs.every(r=>sources[r.sourceId] && typeof r.locator==='string' && r.locator.trim().length>=3);
 }
 
 function validateLedger(ledger){
@@ -101,8 +110,8 @@ function validateLedger(ledger){
     }
 
     if(q.result==='incorrect'||q.confidence==='insecure'||q.confidence==='guess'){
-      if(!Array.isArray(q.theoryRefs)||q.theoryRefs.length===0) errors.push(`${q.id}: erro/acerto inseguro exige theoryRefs.`);
-      else for(const ref of q.theoryRefs){
+      if((!Array.isArray(q.theoryRefs)||q.theoryRefs.length===0) && !normativeRefsValid(q)) errors.push(`${q.id}: erro/acerto inseguro exige theoryRefs.`);
+      else for(const ref of q.theoryRefs||[]){
         if(!String(ref).includes('#')) errors.push(`${q.id}: theoryRef deve apontar para subtítulo: ${ref}`);
         if(!theoryPathExists(ref)) errors.push(`${q.id}: theoryRef aponta para arquivo inexistente: ${ref}`);
       }

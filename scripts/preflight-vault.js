@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
 const checks = [
+  ['Continuidade por matéria', 'scripts/test-study-context.js'],
   ['Invariantes globais', 'scripts/validate-vault-invariants.js'],
   ['Integridade de dados e links', 'scripts/validate-integrity.js'],
   ['Idempotência da ingestão', 'scripts/test-ingestion-idempotency.js'],

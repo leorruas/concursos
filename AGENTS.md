@@ -74,6 +74,16 @@ Quando o pedido for **aprender matéria nova, aprofundar conteúdo ou fazer um i
 
 **Ao consolidar:** refinar notas canônicas existentes ou criar novas notas somente quando o conteúdo justificar estudo independente. Preservar origens, condições e limites das regras, exemplos resolvidos, diferenças perigosas, relações com o edital e pegadinhas relevantes. **Consolidar ao final de um bloco coerente de estudo ou quando o usuário pedir**, em vez de publicar a cada resposta. Registrar lacunas sem inventar detalhes e distinguir cobertura da nota, exposição no chat e desempenho efetivamente medido. A meta é **profundidade útil para prova**, não volume de texto, de notas ou de questões.
 
+## Divisão progressiva das notas por assunto
+
+**Unidade editorial:** cada nota canônica deve tratar de um assunto que possa ser entendido e revisado de maneira independente. Uma unidade didática ou um processo amplo pode reunir vários assuntos; nesse caso, a nota panorâmica deve apresentar as relações e apontar para notas específicas. O hub organiza a sequência de estudo. Não duplicar teoria em diversos arquivos.
+
+**Tamanho orientativo:** preferir aproximadamente **8 mil a 15 mil caracteres** em notas densas. Ao ultrapassar **20 mil caracteres**, ou ao reunir dois assuntos suficientemente independentes mesmo abaixo disso, **revisar obrigatoriamente a estrutura**. O limite é flexível: não reduzir explicações, exemplos, normas e exceções importantes apenas para cumprir uma contagem. Evitar notas artificiais com uma definição isolada.
+
+**Migração em partes:** (1) mapear os conceitos, os títulos e os links existentes; (2) extrair um assunto fechado com teoria, exemplos, fontes e fronteiras relevantes; (3) preservar as âncoras antigas por pequenos encaminhamentos quando já forem referenciadas; (4) atualizar nota, hub da matéria e índice global no mesmo commit, e corrigir links diretos de revisões; (5) verificar integridade e publicação antes de avançar para a próxima divisão. Preservar o registro de desempenho, as respostas e os gabaritos.
+
+**Separação entre teoria e histórico:** explicações, regras e sínteses de erros úteis pertencem à nota de estudo; datas de sessões, respostas, notas e diagnósticos completos permanecem em `Avancos.md`, ledger e sessões. A reorganização não deve reduzir a profundidade necessária para a prova. Aplicar também a régua de `1 - Planejamento/Padrao editorial multi-edital.md`.
+
 ## Criação de notas em `3 - Materias/`
 
 Uma nota canônica nova exige, na mesma operação e no mesmo commit, a nota, o link no hub da matéria (quando existir) e o wikilink com o caminho exato no `index.md` global. Confira os três arquivos antes de gravar. Não crie a nota primeiro para indexá-la em um commit posterior.

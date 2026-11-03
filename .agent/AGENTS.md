@@ -68,6 +68,9 @@ Aplicar o emoji tanto no campo `title:` do frontmatter quanto no `# H1` da nota,
 
 ## Regra adicional para artigos de matéria
 
+**Divisão de artigos:** seguir `AGENTS.md`, seção «Divisão progressiva das notas por assunto»: unidade editorial independente, meta orientativa de 8 a 15 mil caracteres, revisão acima de 20 mil, preservação de âncoras e migração gradual. Esta regra complementa o padrão editorial sem substituir profundidade por tamanho.
+
+
 Sempre que a tarefa criar, revisar, expandir ou auditar uma nota em `3 - Materias/`, o agente deve também ler e aplicar:
 
 **[[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]]**.

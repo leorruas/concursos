@@ -3,12 +3,12 @@ title: "Desempenho por edital e prova"
 type: "hub"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 
 # Desempenho por edital e prova
 
-Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 02/11/2026.
+Período das fontes analisadas: 2024 a 2026. Última atualização operacional: 03/11/2026.
 
 Este hub separa três medidas que não devem ser misturadas: **aproveitamento bruto**, **nota calculada pelas regras do edital** e **comparabilidade da prova com o concurso atual**. O objetivo é impedir que um percentual alto em uma bateria de composição diferente seja interpretado como estimativa direta de classificação.
 
@@ -16,7 +16,7 @@ Este hub separa três medidas que não devem ser misturadas: **aproveitamento br
 
 **Corpus fonte de exercícios:** [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|CGU 2026 — Provas-espelho: conteúdo × formato]], com PDFs oficiais, estados de verificação, gabaritos e protocolo de indexação em `data/corpus-provas-espelho.json`. Prova localizada não é simulado realizado.
 
-**Sem prova, simulado ou discursiva CGU integral até 02/11/2026.** Há microtreinos em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]: **38 itens válidos, 32 acertos**, divididos em **aprendizagem 14/15** e **para valer 18/23 (um branco)**; unidades 02 e 03 consolidadas e unidade 04 em revisão, com aprendizagem 6/6 e para valer 6/8. Escore líquido ilustrativo da última bateria em P3: +10/16, sem equivalência com simulado. Houve uma questão anulada e substituída, excluída da pontuação. Esses resultados não equivalem a nota líquida ou prontidão de prova. Os 39 enunciados respondidos (38 válidos, incluindo um branco, 1 anulado) estão individualizados no ledger por modalidade, sem lançamento como simulado. Manter Dataprev/FGV e Câmara/Cebraspe separados.
+**Sem prova, simulado ou discursiva CGU integral até 03/11/2026.** Há microtreinos em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]: **42 itens válidos, 36 acertos**, divididos em **aprendizagem 14/15**, **para valer 18/23 (um branco)** e **revisão dirigida 4/4 (intencional)**; unidades 02, 03 e 04 consolidadas didaticamente e unidade 05 introduzida na nota. Escore líquido ilustrativo da última bateria em P3: +10/16, sem equivalência com simulado. Houve uma questão anulada e substituída, excluída da pontuação. Esses resultados não equivalem a nota líquida ou prontidão de prova. Os 43 enunciados respondidos (42 válidos, incluindo um branco, 1 anulado) estão individualizados no ledger por modalidade, sem lançamento como simulado. Manter Dataprev/FGV e Câmara/Cebraspe separados.
 
 | Prova | Itens | Acerto / erro / branco | Máximo | Mínimo eliminatório |
 | :--- | ---: | :--- | ---: | ---: |

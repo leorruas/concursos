@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "policy": {
     "recentSimulationWindow": 3,
     "minimumNewRate": 0.75,
@@ -239,6 +239,47 @@
         "note": "Um branco explícito, sem justificativa; demais respostas sem grau de confiança declarado."
       },
       "syncStatus": "sincronizado_com_avancos_locais_globais_log_hub_edital"
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade04-revisao",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "date": "2026-11-03",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "revisao"
+      ],
+      "origin": "inedita",
+      "totalQuestions": 4,
+      "plannedItems": 4,
+      "validItems": 4,
+      "annulledItems": 0,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "noveltyException": "Revisão intencional dos mesmos mecanismos após erro e branco; duas questões com reutilização temática e duas mecânicas. Não elegível a benchmark.",
+      "qualityStatus": "revisao_dirigida_repetida_sem_benchmark",
+      "qualityNote": "4/4 em revisão dirigida dos dois pontos da unidade 04, sem prova independente de retenção.",
+      "generationAudit": {
+        "counts": {
+          "new": 0,
+          "thematic": 2,
+          "mechanical": 2,
+          "exact": 0
+        },
+        "newRate": 0,
+        "thematicRate": 0.5,
+        "mechanicalRate": 0.5,
+        "exactRate": 0,
+        "intentionalReviewRate": 1
+      },
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Segurança do candidato não informada."
+      },
+      "syncStatus": "sincronizado_com_avancos_globais_log_hub_edital_nota"
     }
   ],
   "questions": [
@@ -7857,6 +7898,154 @@
         "similarTo": [],
         "intentional": false,
         "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-revisao-q1",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade04-revisao",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 1,
+      "questionNumberInBatch": 1,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Alteração do PAINT",
+      "subtopic": "mudança significativa com mesmas horas",
+      "questionType": "case",
+      "mechanism": "mudanca-significativa-mesmo-sem-horas",
+      "distractorMechanism": "dispensa-apreciacao-do-paint",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade04-revisao-dirigida",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "userReasoning": "Resposta clicável sem justificativa; revisão de mecanismos anteriores.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un04-q8"
+        ],
+        "intentional": true,
+        "transformation": "Comparação por significância, não horas",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-revisao-q2",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade04-revisao",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 2,
+      "questionNumberInBatch": 2,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Alteração do PAINT",
+      "subtopic": "comunicação não substitui aprovação",
+      "questionType": "comparison",
+      "mechanism": "apreciar-antes-comunicar",
+      "distractorMechanism": "dispensa-apreciacao-do-paint",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade04-revisao-dirigida",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+      ],
+      "userReasoning": "Resposta clicável sem justificativa; revisão de mecanismos anteriores.",
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un04-q8"
+        ],
+        "intentional": true,
+        "transformation": "Reteste da sequência de aprovação e comunicação",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-revisao-q3",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade04-revisao",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 3,
+      "questionNumberInBatch": 3,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento anual baseado em riscos",
+      "subtopic": "preferência avaliação própria antes de fatores",
+      "questionType": "comparison",
+      "mechanism": "ordem-avaliacao-direta-antes-indiretos",
+      "distractorMechanism": "confusao-fatores-indiretos",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade04-revisao-dirigida",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+      ],
+      "userReasoning": "Resposta clicável sem justificativa; revisão de mecanismos anteriores.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un04-q10"
+        ],
+        "intentional": true,
+        "transformation": "Escolha entre bases de avaliação",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un04-revisao-q4",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade04-revisao",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 4,
+      "questionNumberInBatch": 4,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento anual baseado em riscos",
+      "subtopic": "fatores indiretos válidos quando avaliações inviáveis",
+      "questionType": "case",
+      "mechanism": "fatores-indiretos-risco-documentados",
+      "distractorMechanism": "confusao-fatores-indiretos",
+      "trainingMode": "revisao",
+      "origin": "inedita",
+      "part": "unidade04-revisao-dirigida",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: seleção de objetos com gestão de riscos pouco madura"
+      ],
+      "userReasoning": "Resposta clicável sem justificativa; revisão de mecanismos anteriores.",
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un04-q10"
+        ],
+        "intentional": true,
+        "transformation": "Cenário de inviabilidade de avaliação direta",
         "userFlagged": false
       }
     }

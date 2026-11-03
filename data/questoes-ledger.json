@@ -280,6 +280,46 @@
         "note": "Segurança do candidato não informada."
       },
       "syncStatus": "sincronizado_com_avancos_globais_log_hub_edital_nota"
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade05-aprendizagem",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "date": "2026-11-03",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "origin": "inedita",
+      "totalQuestions": 6,
+      "plannedItems": 6,
+      "validItems": 6,
+      "annulledItems": 0,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityStatus": "aprendizagem_unidade05_nao_simulado",
+      "qualityNote": "4/6 em aprendizagem, erros Q1 escopo × critério e Q3 supervisão do programa. Não é simulado.",
+      "generationAudit": {
+        "counts": {
+          "new": 5,
+          "thematic": 1,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0.8333333333333334,
+        "thematicRate": 0.16666666666666666,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0
+      },
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Sem justificativa ou grau de confiança informados."
+      },
+      "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_nota"
     }
   ],
   "questions": [
@@ -8046,6 +8086,224 @@
         ],
         "intentional": true,
         "transformation": "Cenário de inviabilidade de avaliação direta",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-q1",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 1,
+      "questionNumberInBatch": 1,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Escopo versus critério",
+      "questionType": "classification",
+      "mechanism": "escopo-e-limites-nao-criterio",
+      "distractorMechanism": "criterio-nao-e-delimitacao",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade05-aprendizagem",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "errorType": "C",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, seções 4.3.2.2 e 5.4.2",
+      "userReasoning": "Resposta C em item errado, sem justificativa. Categoria de erro provisória.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-q2",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 2,
+      "questionNumberInBatch": 2,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Questões e subquestões em matriz",
+      "questionType": "comparison",
+      "mechanism": "matriz-subquestoes-criterios-procedimentos",
+      "distractorMechanism": "questoes-nao-se-desdobram",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade05-aprendizagem",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, seção 4.3.3 e Apêndice B",
+      "userReasoning": "Resposta C/E sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-q3",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 3,
+      "questionNumberInBatch": 3,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Programa de trabalho e supervisor",
+      "questionType": "case",
+      "mechanism": "supervisor-aprova-alteracoes-programa",
+      "distractorMechanism": "paint-substituiria-supervisor",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade05-aprendizagem",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "errorType": "C",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, item 141; MOT CGU, seção 4.3.3",
+      "userReasoning": "Resposta C em item errado, sem justificativa. Categoria de erro provisória.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un04-q8"
+        ],
+        "intentional": false,
+        "transformation": "Transpõe competência de aprovação PAINT para alteração do programa individual.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-q4",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 4,
+      "questionNumberInBatch": 4,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Fonte versus procedimento",
+      "questionType": "classification",
+      "mechanism": "cadastro-fonte-cruzamento-procedimento",
+      "distractorMechanism": "fonte-e-procedimento-confundidos",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade05-aprendizagem",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, Apêndice B",
+      "userReasoning": "Resposta C/E sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-q5",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 5,
+      "questionNumberInBatch": 5,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Risco de auditoria versus risco do objeto",
+      "questionType": "comparison",
+      "mechanism": "risco-opiniao-vs-risco-processo",
+      "distractorMechanism": "risco-auditoria-equivale-risco-objeto",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade05-aprendizagem",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, seção 4.3.2",
+      "userReasoning": "Resposta C/E sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un05-q6",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade05-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 6,
+      "questionNumberInBatch": 6,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual de auditoria",
+      "subtopic": "Ordem de serviço versus programa de trabalho",
+      "questionType": "comparison",
+      "mechanism": "ordem-servico-nao-dispensa-programa",
+      "distractorMechanism": "ordem-servico-substituiria-programa",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade05-aprendizagem",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+      ],
+      "normativeBasis": "MOT CGU, seções 4.2 e 4.3.3",
+      "userReasoning": "Resposta C/E sem justificativa verbalizada.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
         "userFlagged": false
       }
     }

@@ -13,13 +13,13 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 ---
 
-**CGU 2026/Auditoria:** 42 itens válidos respondidos até 03/11, com 36 acertos, cinco erros e um branco: aprendizagem 14/15, para valer 18/23, revisão 4/4; unidades 02, 03 e 04 concluídas didaticamente, unidade 05 ensinada e não testada; mais uma questão anulada e substituída. Esses dados são distintos de simulados, notas líquidas ou resultados Dataprev. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços locais]] e os itens individualizados em `data/questoes-ledger.json`.
+**CGU 2026/Auditoria:** 48 itens válidos respondidos até 03/11, com 40 acertos, sete erros e um branco: aprendizagem 18/21, para valer 18/23, revisão 4/4; unidades 02, 03 e 04 concluídas didaticamente, unidade 05 com aprendizagem 4/6; mais uma questão anulada e substituída. Esses dados são distintos de simulados, notas líquidas ou resultados Dataprev. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços locais]] e os itens individualizados em `data/questoes-ledger.json`.
 
 ## Log de Saturação Diária
 
 | Data | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Sintomas Qualitativos da Sessão |
 | :--- | :--- | :--- | :--- | :--- |
-| **03/11/2026** | **4** | **100,0% (4/4)** | **Não comparável a para valer** | CGU, revisão dirigida da unidade 04: 4/4 em competência de alterações do PAINT e fatores indiretos; quatro reaplicações intencionais. Carga não informada, unidade 05 estudada sem exercício. |
+| **03/11/2026** | **10** | **80,0% (8/10)** | **Não comparável entre modalidades** | CGU: revisão dirigida unidade 04 4/4 e aprendizagem unidade 05 4/6, com dois erros novos em escopo × critério e aprovação do programa individual; quatro revisões intencionais, carga não informada. |
 | **02/11/2026** | **14** | **85,7% (12/14)** | **Não calculável entre modalidades distintas** | **Carga não relatada**: CGU Auditoria, unidade 04, aprendizagem 6/6 e para valer 6/8 (um erro em competência para alterar PAINT, um branco em fatores indiretos). P3 hipotética da bateria para valer: +10/16. |
 | **30/10/2026** | **24** | **83,3% (20/24)** | **83,3%** (peso 1,0) | **Carga não relatada**: CGU Auditoria, aprendizagem 8/9, para valer 12/15; quatro erros de classificação e responsabilidade, duas unidades concluídas, uma questão anulada fora do cálculo. Nenhum simulado. |
 | 10/10/2026 | 70 | 85,7% (60/70) | 85,4% | **Alta**: Simulado 07 integral. Português 9/12, Inglês 11/12, Lógica 4/5, Atualidades/IA 6/6, Legislação 4/5 e Comunicação 26/30; **99/115**. Primeiro caderno pós-ledger: 97,1% de mecanismos novos e 0 repetição exata. Queda frente aos simulados anteriores sem evidência de colapso; maior novidade tornou o instrumento mais exigente. |

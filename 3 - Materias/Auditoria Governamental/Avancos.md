@@ -10,15 +10,15 @@ updated: 2026-11-03
 
 Registro das questões respondidas na preparação para a **Controladoria-Geral da União (CGU) 2026**, especialidade Auditoria. Questões **inéditas** em formato certo/errado do Cebraspe; os exercícios de **aprendizagem** e **para valer** têm finalidades distintas. Neste histórico, **questões reais originais = 0; questões adaptadas = 0; simulados completos = 0**.
 
-**Registro estruturado:** `data/questoes-ledger.json`, com identificação individual de **43 enunciados respondidos**, sendo **42 válidos, com um branco, e um anulado**, modalidade `aprendizagem` ou `para_valer`, respostas, gabaritos, correção, fontes de revisão e status de cada microtreino.
+**Registro estruturado:** `data/questoes-ledger.json`, com identificação individual de **49 enunciados respondidos**, sendo **48 válidos, incluindo um branco, e um anulado**, modalidade `aprendizagem` ou `para_valer`, respostas, gabaritos, correção, fontes de revisão e status de cada microtreino.
 
-**Sessões únicas:** `cgu-2026-auditoria-2026-10-30-unidade02` (16 itens válidos) e `cgu-2026-auditoria-2026-10-30-unidade03` (oito válidos e um anulado) e `cgu-2026-auditoria-2026-11-02-unidade04` (14 válidos: seis de aprendizagem e oito para valer, um branco). Sessão nova de revisão dirigida: `cgu-2026-auditoria-2026-11-03-unidade04-revisao` (4/4, questões repetidas intencionalmente); manter distinta das sessões anteriores, sem duplicação. Ledger individual sincronizado com os painéis globais e por edital.
+**Sessões únicas:** `cgu-2026-auditoria-2026-10-30-unidade02` (16 itens válidos) e `cgu-2026-auditoria-2026-10-30-unidade03` (oito válidos e um anulado) e `cgu-2026-auditoria-2026-11-02-unidade04` (14 válidos: seis de aprendizagem e oito para valer, um branco). Sessão nova de revisão dirigida: `cgu-2026-auditoria-2026-11-03-unidade04-revisao` (4/4, questões repetidas intencionalmente); manter distinta das sessões anteriores, sem duplicação. Sessão própria da unidade 05: `cgu-2026-auditoria-2026-11-03-unidade05-aprendizagem` (aprendizagem 4/6), sem duplicação. Ledger sincronizado com os painéis globais e por edital.
 
 ## Volume diário de exercícios
 
 | Data | Total válido | Matéria / Concurso | Detalhamento |
 | :--- | ---: | :--- | :--- |
-| 03/11/2026 | **4** | Auditoria Governamental, CGU 2026 | Revisão dirigida da unidade 04: **4/4 (C/E/E/C)**, mecanismos de erro e branco anteriores; aula da unidade 05 sem treino. |
+| 03/11/2026 | **10** | Auditoria Governamental, CGU 2026 | Revisão dirigida da unidade 04 **4/4** e aprendizagem da unidade 05 **4/6** (erros em escopo × critério e aprovação do programa pelo supervisor); total diário **8/10**. |
 | 02/11/2026 | **14** | Auditoria Governamental, CGU 2026 | Unidade 04: aprendizagem **6/6**, treino para valer **6/8** (um erro e um branco), total **12/14**. |
 | 30/10/2026 | **24** | Auditoria Governamental, CGU 2026 | Unidade 02: aprendizagem **6/6**, para valer **8/10**, total **14/16**. Unidade 03: aprendizagem **2/3**, para valer **4/5**, total **6/8**; **uma questão anulada e substituída, excluída**. Total diário válido **20/24**. |
 
@@ -26,10 +26,12 @@ Registro das questões respondidas na preparação para a **Controladoria-Geral 
 
 | Semana | Volume | Aprendizagem | Para valer | Total |
 | :--- | ---: | :--- | :--- | :--- |
-| 02/11 a 08/11/2026 | **18** | **6/6 (100%)** | **6/8 (75%)** | **16/18 (88,9%)**, com revisão dirigida 4/4, sem benchmark independente |
+| 02/11 a 08/11/2026 | **24** | **10/12 (83,3%)** | **6/8 (75%)** | **20/24 (83,3%)**, com revisão dirigida 4/4 e dois novos erros de aprendizagem |
 | 26/10 a 01/11/2026 | **24** | **8/9 (88,9%)** | **12/15 (80,0%)** | **20/24 (83,3%)**, amostra insuficiente; 1 anulação adicional |
 
 ## Diagnósticos
+
+**Unidade 05, primeira aprendizagem (03/11): 4/6 (66,7%).** Sessão `cgu-2026-auditoria-2026-11-03-unidade05-aprendizagem` com respostas **C/C/C/C/C/E**; gabarito **E/C/E/C/C/E**. **Q1 [C], provisória:** confusão de **escopo** (limites de períodos, campi e etapas) com **critério** (padrão de comparação), MOT CGU, seções 4.3.2.2 e 5.4.2. **Q3 [C], provisória:** aprovação do PAINT pelo conselho não dispensa **aprovação prévia do supervisor** para ajustes no programa do trabalho individual, IN SFC nº 3/2017, item 141 e MOT, seção 4.3.3. Como o candidato não justificou as escolhas, as classificações não excluem outras causas. Acertos Q2: questões e subquestões da matriz; Q4: cadastro como fonte e cruzamento como procedimento; Q5: risco do objeto × risco de auditoria; Q6: Ordem de Serviço não substitui programa. Treino **didático**, sem aferir prontidão. Nota: [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#Expansão: unidade 05, planejamento individual do trabalho de auditoria|planejamento individual]].
 
 **Revisão dirigida da unidade 04 (03/11): 4/4, C/E/E/C.** Sessão `cgu-2026-auditoria-2026-11-03-unidade04-revisao`, separada da bateria anterior. Q1 e Q2 verificaram competência de apreciação de alterações significativas do PAINT e comunicação posterior à supervisão (IN SFC/CGU nº 5/2021, art. 7º, §§1º e 2º). Q3 e Q4 verificaram preferência da avaliação direta pela UAIG antes dos fatores indiretos e possibilidade de fatores indiretos quando as bases diretas não são viáveis. **Sem novos erros**; recuperação de erro conceitual anterior e ponto deixado em branco. Os quatro itens retomam intencionalmente mecanismos já vistos (2 temáticos e 2 mecânicos) e não servem como benchmark independente nem apagam o erro e a abstenção originais. Unidade 04 encerrada didaticamente, com revisão espaçada futura. Unidade 05 iniciada em aula na [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#Expansão: unidade 05, planejamento individual do trabalho de auditoria|nota 02]], sem treino ainda.
 
@@ -46,12 +48,14 @@ Registro das questões respondidas na preparação para a **Controladoria-Geral 
 
 ## Ajustes a partir dos erros
 
+**Unidade 05 (03/11):** dois erros provisoriamente [C]. Verificar em casos novos que **escopo** limita a auditoria, enquanto **critério** é padrão de comparação. Distinguir a aprovação do **PAINT** por conselho/dirigente da aprovação do **programa individual e seus ajustes** pelo supervisor (IN SFC nº 3/2017, item 141). Revisar sem repetir os enunciados literalmente antes de avançar para treino para valer.
+
 **Unidade 04 (03/11):** revisão dirigida 4/4 recuperou os pontos referentes a competência de apreciação de mudanças do PAINT e fatores indiretos de risco. Erro anterior [C] permanece no histórico, assim como o branco. Próxima revisão deve testar transferência em mecanismos mais distintos.
 
 Revisar, com **casos novos**, a transição *decisão de tratar → procedimento de controle* (art. 16, V e VI) e a distinção *risco inerente → exposição residual após tratamento*. Nos próximos exercícios, evitar deduzir uma categoria pela finalidade compartilhada e conferir a **condição normativa**. Como controle de qualidade do instrumento, a questão original sobre designação de gestor de risco foi anulada e substituída por enunciado inequívoco, mantendo registro de ambas sem duplicar o aproveitamento.
 
 ## Limites da medição
 
-Há **42 itens válidos nos últimos 30 dias**, sendo 41 marcados e um branco, além de uma anulada. **Aprendizagem: 14/15 (93,3%); para valer: 18/23 (78,3%, um branco); revisão: 4/4 (100%, repetição intencional); total 36/42 (85,7%)**. São 36 acertos, cinco erros e um branco; não projeta nota. Os indicadores são distintos e **não projetam nota líquida do Cebraspe**. Na unidade 02 não houve anulação; a unidade 03 teve uma questão anulada e substituída, ambas individualizadas no ledger, com apenas a substituta no cálculo.
+Há **48 itens válidos nos últimos 30 dias**, sendo 47 marcados e um branco, além de um anulado. **Aprendizagem: 18/21 (85,7%); para valer: 18/23 (78,3%, um branco); revisão: 4/4 (100%, repetição intencional); total 40/48 (83,3%)**. São 40 acertos, sete erros e um branco; não projeta nota. Os indicadores são distintos e **não projetam nota líquida do Cebraspe**. Na unidade 02 não houve anulação; a unidade 03 teve uma questão anulada e substituída, ambas individualizadas no ledger, com apenas a substituta no cálculo.
 
-**Unidades 02 e 03 concluídas didaticamente e consolidadas em teoria.** Unidade 03 documentada em [[3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas|Governança, riscos, controles e três linhas]]. Retomar os quatro erros conceituais das duas unidades em novos casos, sem repetição mecânica. A unidade 04 teve **6/6 em aprendizagem, 6/8 para valer e 4/4 de revisão dirigida**, concluída didaticamente com revisão espaçada pendente. Unidade 05 aberta na nota 02, sem desempenho específico.
+**Unidades 02 e 03 concluídas didaticamente e consolidadas em teoria.** Unidade 03 documentada em [[3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas|Governança, riscos, controles e três linhas]]. Retomar os quatro erros conceituais das duas unidades em novos casos, sem repetição mecânica. A unidade 04 teve **6/6 em aprendizagem, 6/8 para valer e 4/4 de revisão dirigida**, concluída didaticamente com revisão espaçada pendente. Unidade 05 aberta na nota 02, com primeira aprendizagem **4/6**; revisão dirigida dos dois erros e treino para valer ainda pendentes.

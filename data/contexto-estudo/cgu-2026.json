@@ -135,7 +135,7 @@
       "result": "incorrect",
       "confidence": "unknown",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas"
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md#Sequência de competências e prazos do PAINT (arts. 5º a 9º)"
       ]
     },
     {
@@ -144,7 +144,7 @@
       "result": "incorrect",
       "confidence": "unknown",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Fronteiras entre os elementos"
       ]
     },
     {
@@ -153,7 +153,7 @@
       "result": "incorrect",
       "confidence": "unknown",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Matriz, programa e supervisão"
       ]
     },
     {
@@ -162,7 +162,7 @@
       "result": "correct",
       "confidence": "guess",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 05, planejamento individual do trabalho de auditoria"
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Refinamento de conceitos próximos"
       ]
     },
     {
@@ -171,7 +171,7 @@
       "result": "incorrect",
       "confidence": "unknown",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ]
     },
     {
@@ -180,7 +180,7 @@
       "result": "incorrect",
       "confidence": "unknown",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ]
     },
     {
@@ -189,7 +189,7 @@
       "result": "incorrect",
       "confidence": "unknown",
       "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: treino para valer da unidade 06 (03/11)"
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
       ]
     }
   ]

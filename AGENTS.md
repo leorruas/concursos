@@ -1,15 +1,120 @@
-# Instruções para agentes — vault de concursos
+# Instruções para agentes: vault de concursos
 
 ## Fluxo rápido de estudo pelo chat: prioridade operacional
 
 A partir de 03/11/2026, aulas e checkpoints de microtreinos seguem `CHAT.md`. Nesse escopo, a entrada curta e `data/contexto-estudo/<concursoId>.json` substituem a releitura integral recorrente de governança e ledger. As regras completas continuam aplicáveis a manutenção, ingestão legada, notas novas e simulados integrais. Salvar uma sessão em `data/sessoes/<id>.json` no fechamento do bloco; a automação atualiza as métricas derivadas. Corrigir na origem, preservar o legado e consolidar teoria uma vez por assunto. As antigas exigências de editar manualmente todas as superfícies por microtreino ficam substituídas pela projeção automática validada. Ver `data/sessoes/README.md`.
 
 
-Antes de modificar este repositório, leia integralmente `me.md`, `index.md` e `.agent/AGENTS.md`. Para a CGU, **não recriar `4 - Projetos/cgu-2026/`**: edital/checklist em `2 - Editais/`, objetiva/discursiva em Estratégia de Prova, métricas/simulados em `00 - Desempenho/`. As regras operacionais detalhadas ficam em `.agent/AGENTS.md`.
+## Leitura para manutenção e hierarquia das instruções
 
-## Entrada de edital: corpus e geração de exercícios
+`AGENTS.md` na raiz é o único arquivo de instruções para agentes deste repositório. Para manutenção e operações fora do fluxo rápido, ler também `me.md` (perfil e padrões), `index.md` (catálogo) e os contratos pertinentes. Para estudo cotidiano, prevalece a entrada curta em `CHAT.md`, conforme a seção anterior. Regras de concurso e contratos específicos complementam este arquivo; não criar outro `AGENTS.md` para duplicá-las.
 
-É obrigatório localizar provas-espelho, identificar **mesmo cargo/conteúdo** e **mesma banca/formato**, registrar URLs oficiais no catálogo `data/corpus-provas-espelho.json` e criar/atualizar o dossiê em `00 - Desempenho/Provas/`. Preservar PDFs e gabaritos com SHA-256 em `assets/provas-espelho/` se autorizados; não considerar fonte arquivada sem arquivo verificável no Git. A indexação real usa `data/corpus-itens.json` e exige gabarito definitivo, modelo da prova, validade normativa e item numerado. Questões inéditas devem reproduzir mecanismos comprovados sem copiar o enunciado. CGU 2026: conteúdo CGU 2022/FGV; formato C/E CGE/AL e TCU AUFC; TCE/MG 2026 é A–E, mesmo com banca Cebraspe. Ver [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]].
+## Roteamento obrigatório por concurso
+
+Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, identificar o concurso-alvo pelo contexto explícito da conversa.
+
+- Até **11/10/2026**, pedidos genéricos ou ambíguos continuam vinculados à **Dataprev**, que permanece como prioridade temporal até a prova.
+- Referência explícita à **Dataprev** aciona o protocolo FGV-Dataprev de `me.md`. Nesta reta final, o fluxo padrão é de **simulados integrais**, com teoria apenas como microrevisão derivada de erros, salvo pedido explícito em contrário.
+- De **12/10/2026 a 13/12/2026**, após a Dataprev, o padrão para pedidos genéricos será **CGU 2026, Cargo 1 Auditoria**, conforme decisão de 09/10/2026, com fonte em `2 - Editais/CGU 2026 - Auditoria.md`, estratégia e discursiva em `3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E.md` e acompanhamento em `00 - Desempenho/` (sem pasta de projeto CGU). Usar o edital CGU, Cebraspe C/E, pesos +1/-1 (P1/P2) e +2/-2 (P3), as duas discursivas próprias e ledger de desempenho separado.
+- Referência explícita à **CGU** sempre aciona seu projeto, inclusive antes de 11/10. Não transformar nota existente em conhecimento comprovado; `coberturaNota` e `exposicaoEstudo` devem permanecer distintos.
+- Referência explícita à **Câmara dos Deputados** aciona o projeto `4 - Projetos/camara-2026/`, o edital da Câmara e o protocolo **Cebraspe-Câmara** de `me.md`. Estudo teórico, revisão, questões e simulados da Câmara seguem o padrão Cebraspe/Cespe e o formato C/E.
+- Nunca misturar banca ou formato: **FGV para Dataprev; Cebraspe para Câmara e CGU, cada uma com seu edital e pontuação**. Notas teóricas compartilhadas podem ser reutilizadas, mas a mecânica de cobrança, o corpus de calibração e os registros de desempenho pertencem ao concurso-alvo.
+- Ao registrar desempenho, atualizar apenas as superfícies do projeto correspondente. É proibido lançar uma sessão da Câmara, da CGU ou da Dataprev em arquivos de outro concurso.
+
+## Protocolo recorrente de entrada de editais
+
+Para todo novo edital ou retificação relevante, ler e atualizar [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] na mesma operação: fonte, dados em `data/concursos.json`, comparação com notas, checklist no edital, estratégia/discursiva na matéria, acompanhamento em desempenho e simulados, índice, prioridades, publicação e pendências; não criar automaticamente pastas de projeto.
+
+Projetos em `4 - Projetos/` são **privados por padrão**. Publicar apenas as notas explicitamente autorizadas com `public: true` e `publicCategoria`. **Estratégias de prova e discursivas pertencem a `3 - Materias/Estrategia de Prova/`; programa e checklist a `2 - Editais/`; resultados e simulados a `00 - Desempenho/`.** Não recriar a pasta CGU. `dashboardPath` é opcional; a home não deve mostrar “abrir preparação”. Verificar presença da estratégia no manifesto público e preservação dos dados do concurso, sem confundir commit verde com navegação validada.
+
+## Corpus de provas-espelho: etapa obrigatória do novo edital
+
+Antes de escrever questões ou simulados para um edital recém-publicado, pesquisar **provas reais** do mesmo órgão/cargo e **provas do mesmo formato** da banca. Para CGU, consultar [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|corpus CGU]], `data/corpus-provas-espelho.json` e `data/corpus-itens.json`, além do edital e da [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia]]. CGU 2022/FGV tem valor de conteúdo, mas seu A–E **não representa C/E**. TCE/MG 2026/Cebraspe também usou múltipla escolha; CGE/AL e TCU AUFC usam C/E. Prova localizada não é prova indexada nem simulado calibrado.
+
+Preservar PDFs oficiais e gabaritos na pasta funcional `assets/provas-espelho/` quando a redistribuição for permitida; o download automatizado `scripts/baixar-provas-espelho.mjs` registra hashes. **Não afirmar arquivamento** antes de confirmar binários presentes no branch. Não apresentar gabaritos preliminares como definitivos; verificar anulações/alterações, versão/tipo do caderno e legislação vigente. Para exercícios inéditos, combinar conteúdo do órgão com mecanismos reais da banca sem copiar as questões; para treinos de questões reais, referenciar PDF e item numerado. Continuar separando `data/provas.json` (desempenho pessoal) do arquivo de fontes `data/corpus-provas-espelho.json`.
+
+## Gate de integridade do main
+
+Antes de iniciar qualquer mudança **não corretiva**, provar que o estado atual do vault está saudável.
+
+- Em ambiente local/Work, executar `node scripts/preflight-vault.js`.
+- Em operações via GitHub conectado, consultar o workflow mais recente **Publicar no GitHub Pages** correspondente ao `HEAD` atual.
+- Se o preflight falhar ou o último workflow do `HEAD` estiver `failure`, considerar o **main vermelho**. Enquanto o main estiver vermelho, são permitidas somente mudanças diretamente destinadas a corrigir a falha atual. É proibido continuar refinando conteúdo, criar notas novas ou fazer housekeeping não relacionado sobre um estado inválido.
+- Depois de uma operação lógica concluída, verificar o workflow final antes de iniciar uma operação não relacionada. Não interpretar commits intermediários de uma operação multi-arquivo como conclusão.
+
+Quando a ferramenta GitHub oferecer `create_tree`, `create_commit` e `update_ref`, usar esse caminho para reunir mudanças dependentes em **um único commit atômico**, em vez de vários `update_file` sequenciais.
+
+### Criação de nota canônica
+
+Criar uma nota em `3 - Materias/` é uma operação lógica multi-arquivo. No mesmo commit atômico devem entrar:
+
+1. a nova nota;
+2. o hub local da matéria (`type: hub`), quando existir;
+3. o `index.md` global.
+
+Não criar a nota primeiro para “indexar depois”. `scripts/validate-change-contract.js` exige essas superfícies no mesmo diff. Se a matéria não possuir hub local, o contrato exige ao menos a nota e o `index.md` global e sinaliza a ausência do hub.
+
+### Marcador visual de artigos da semana final
+
+Durante a reta final da Dataprev até 11/10/2026, todo artigo de estudo em `3 - Materias/` que for **criado** ou **substancialmente atualizado** para fechar o backlog da semana deve receber um marcador visual no **título exibido**, sem alterar o nome físico do arquivo:
+
+- **🆕** para artigo novo;
+- **🔄** para artigo existente que recebeu atualização substancial.
+
+Aplicar o emoji tanto no campo `title:` do frontmatter quanto no `# H1` da nota, mantendo o wikilink pelo nome físico do arquivo. Não usar emoji para correção tipográfica mínima, ajuste de link ou housekeeping sem ganho de conteúdo.
+
+## Regra adicional para artigos de matéria
+
+**Divisão de artigos:** seguir `AGENTS.md`, seção «Divisão progressiva das notas por assunto»: unidade editorial independente, meta orientativa de 8 a 15 mil caracteres, revisão acima de 20 mil, preservação de âncoras e migração gradual. Esta regra complementa o padrão editorial sem substituir profundidade por tamanho.
+
+
+Sempre que a tarefa criar, revisar, expandir ou auditar uma nota em `3 - Materias/`, o agente deve também ler e aplicar:
+
+**[[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]]**.
+
+Esse documento é a régua canônica para artigos de estudo. Prompts específicos de concurso podem acrescentar contexto de banca, edital e prioridade, mas não devem criar uma arquitetura editorial concorrente.
+
+Para qualquer tarefa em `3 - Materias/Atualidades/`, aplicar também a seção **Extensão editorial para Atualidades** do padrão editorial. Antes de criar ou atualizar conteúdo, ler o hub `[[3 - Materias/Atualidades/atualidades|Atualidades]]`, os artigos existentes, o edital ativo pertinente e os registros de desempenho/erros relacionados. Informações conjunturais exigem pesquisa web e prioridade para fontes oficiais primárias; fundamentos estáveis e snapshots conjunturais devem permanecer explicitamente separados.
+
+### Protocolo de resposta interativa e envio por clique
+
+**Regra de interação aprovada em 02/11/2026:** usar por padrão seletores clicáveis em questões e simulados se a interface da conversa os suportar. Para julgamento Cebraspe: escolha **Certo/Errado** por item. Para múltipla escolha: **A, B, C, D, E**. Manter seleções separadas e revisáveis e disponibilizar botão claro para enviar todas as respostas selecionadas em uma única mensagem; a mensagem deve incluir número/ID do item, modalidade e respostas, para evitar erros de associação. Não acionar correção em mudança de opção: aguardar clique explícito no botão de envio. Para simulado com branco admitido, permitir escolha **Em branco**, sem forçar resposta. Texto opcional pode registrar dúvida/justificativa; não transformar isso em formulário obrigatório nem pedir que digite letras quando o controle clicável funcionar.
+
+Esse formato melhora a interação, mas **não substitui** auditoria da qualidade, fonte, gabarito, classificação de erro e registro no ledger. Fallback: se o cliente não renderizar controles, aceitar sequências compactas digitadas. Evitar decoração, ícones e botões inertes. Os rótulos da banca e o contrato de pontuação prevalecem.
+
+### Questões: declaração prévia de modalidade e evidência de calibração
+
+O estudante deve ser informado **antes do enunciado**, sempre que o treino tiver finalidade diferente:
+
+**Treino de aprendizagem:** checagem de conceito e raciocínio após a aula, com questões inéditas didáticas. Formato C/E ou alternativas pode ser usado sem que isso implique semelhança comprovada com a prova. Registrar dúvidas e erros para corrigir teoria; não computar esse resultado como benchmark ou domínio do edital.
+
+**Treino para valer:** questão inédita de prova-espelho com **mecanismo, exigência de leitura, escopo, nível de detalhe, extensão e dificuldade comparados a itens reais previamente examinados** do mesmo formato da banca; priorizar concursos e assuntos similares. Declarar quais provas ou itens foram usados como referência, sem fingir análise de corpus não efetuada. Avaliar erros, confiança e variação de mecanismo. Bateria calibrada indica desempenho apenas no recorte examinado, **não gera estimativa automática da nota integral**.
+
+**Questão real:** usar somente o caderno autêntico e o gabarito definitivo associado a concurso, cargo, banca, ano, item original e tipo de prova. Conferir anulações e validade normativa. Se houver adaptação do texto, identificar como **questão adaptada**, sem atribuir à adaptação o gabarito oficial.
+
+**Simulado para valer:** reproduzir distribuição, dificuldade, pontuação e tempo da prova e seguir protocolo de ledger e registro do concurso. Uma questão ou bateria avulsa não é um simulado.
+
+A modalidade deve constar na **abertura da bateria ou antes de cada item isolado**, e novamente se houver transição. No intensivão, a sequência pode partir de treino de aprendizagem e avançar para treino para valer **após calibração verificável**. Se faltar evidência suficiente, manter a classificação didática, sem alegar validade preditiva. Avisar antecipadamente, sem exigir confirmação do aluno e sem confundir resultado didático com métrica competitiva.
+
+### Ciclo de ensino com gates explícitos de avanço e registro
+
+A implementação do intensivão exige **um único bloco conceitual por ciclo**, escolhido pelo mapa de cobertura e pelos pré-requisitos. O conjunto pode durar mais de uma mensagem, mas deve terminar com síntese documental **antes de mudar de bloco**. Distinguir rigorosamente estas seis etapas:
+
+**[PREPARAÇÃO]** Consultar edital, fonte primária, nota e hub. Definir a pergunta central, os conceitos subordinados, as diferenças difíceis e as regras indispensáveis. Anunciar em uma frase o objetivo de aprendizagem. Não escolher assunto apenas porque surgiu em uma questão.
+
+**[AULA]** Expor primeiro **todo o núcleo pertinente**, com linguagem didática, terminologia exata, requisitos, consequências, exceções e exemplo progressivo. Uma aula pode exigir diversas respostas e não precisa acabar em pergunta. Se uma norma tiver vários itens que funcionam em conjunto, **explicar esse conjunto antes de cobrar uma aparente colisão normativa**. Confrontar texto oficial com a explicação; diferenciar obrigação geral de proibição específica e de exceção.
+
+**[FRONTEIRAS]** Antes de avaliações, apresentar explicitamente os contrastes que o estudante terá de discriminar, com pares de situações reais ou hipotéticas: o que muda com uma condição, um agente competente, um momento, um prazo, uma forma de divulgação, um objeto ou um limite. O propósito é **ensinar limites, não induzir erro em regra inédita**. Se aparecer um subtópico ainda não ensinado, registrar a lacuna e completar a aula.
+
+**[DIAGNÓSTICO DE APRENDIZAGEM]** Após [AULA]+[FRONTEIRAS], aplicar uma checagem pequena, em geral 2 a 4 itens de mecanismos variados, declarando **TREINO DE APRENDIZAGEM**. Corrigir com referência às partes efetivamente ensinadas. Se uma questão contiver regra nova ou exigir norma até então apenas mencionada, o item é **invalidado para diagnóstico de domínio**: assumir a falha de sequência, ensinar a base e só então retestar. Não contar uma sequência de itens didáticos como simulado, nem fazer nova questão automática após cada correção.
+
+**[TREINO PARA VALER]** Depois de concluída a instrução, quando houver corpus **de fato lido** da banca/formato e itens identificáveis, oferecer bateria de questões inéditas calibradas (em geral 5 a 8, variando mecanismos e acertos esperados) e/ou reais com gabarito definitivo. Informar fontes e limites de comparabilidade. Não transformar bateria curta em previsão de nota ou status de domínio integral. Se o corpus ainda não sustentar a calibração, manter o rótulo didático e registrar a pendência de prova-espelho.
+
+**[CONSOLIDAÇÃO]** Obrigatória **ao fechar o bloco e antes de abrir o próximo**, não depois de cada resposta isolada e não somente ao fim da matéria inteira. Atualizar a nota canônica correspondente ou criar artigo com autonomia temática e links conforme contrato; explicar normas, fundamentos, estruturas, exemplos e fronteiras, e selecionar apenas questões comentadas que acrescentem distinções. Atualizar o mapa do hub de forma verdadeira: **panorama**, **em aula**, **fronteiras ensinadas**, **nota aprofundada**, **validado em treino**, **pendente**. Essas categorias não devem ser tratadas como um único indicador. Se houver impedimento técnico de gravação, **informar que o bloco continua pendente de consolidação**, sem declarar completo.
+
+**Regra de ritmo e interrupção:** o estudo é intensivo em **matéria**, não em quantidade de perguntas. Usar uma explicação longa quando necessária; não forçar uma questão no fim de toda mensagem. Um erro recorrente exige retorno fundamentado à aula e comparação orientada antes do próximo teste. Quando a resposta do usuário evidenciar falha do próprio ensino, priorizar reparar o conteúdo, não aumentar dificuldade. A **questão de diagnóstico nunca pode ser o primeiro lugar onde se aprende a condição decisiva para respondê-la**.
+
+**Exemplo de aplicação CGU:** antes de perguntar se o sigilo profissional impede comunicação interna, ensinar conjuntamente os **itens 55 a 58 da IN SFC nº 3/2017**, os destinatários competentes e a diferença entre **proteção do dado, comunicação institucional autorizada e divulgação externa indevida**. Se apenas o item 56 foi explicado, a questão que depende do item 58 **não mede domínio do aluno**.
 
 ## Uso didático da técnica de Feynman
 
@@ -17,62 +122,26 @@ A técnica de Feynman serve **para explicar**: partir de um problema concreto, u
 
 **Não criar na nota seções automáticas como “Verificação de compreensão (Feynman)”**, convites para o leitor explicar com as próprias palavras nem questionários metacognitivos. A interação para verificar o entendimento, identificar confusões e corrigir o raciocínio ocorre **no chat**, a partir das respostas reais do estudante. Na wiki, preservar a explicação, as fronteiras conceituais e, quando relevantes, **itens comentados em formato de prova**, que são outra finalidade. Não registrar domínio ou erro sem resposta efetivamente dada.
 
-## Padrão de explicação aprovado pelo estudante: caso → mecanismo → decisão → limites
+### Qualidade explicativa: problema real, procedimento completo, contraste e aplicação
 
-O modelo de aula preferido foi confirmado em 02/11/2026, no estudo da CGU sobre planejamento baseado em riscos. Ele é **um padrão de raciocínio, não um molde de formatação**. Em cada conteúdo, partir de um problema institucional concreto e inteligível; explicitar a pergunta que aquele conceito ou norma pretende resolver; apresentar a lógica da solução em etapas, sem pular condições; em seguida, desenvolver definições técnicas, categorias, responsabilidades e sua finalidade. Não iniciar com taxonomias soltas nem com uma sucessão de frases-resumo.
+**Preferência pedagógica explicitamente confirmada em 02/11/2026:** a aula sobre priorização de auditorias funcionou quando partiu do problema de uma UAIG com capacidade limitada, apresentou a sequência contextual → universo → maturidade → seleção, diferenciou as três bases possíveis de avaliação de riscos, explicou os motivos de uso de cada alternativa, contrastou materialidade, relevância e criticidade e aplicou uma matriz hipotética com notas, justificativas, pesos e limites. Replicar **a lógica** desse ensino, não necessariamente o mesmo tamanho, a tabela ou o tema.
 
-**Desenvolvimento recomendado:** (1) situação-problema única que evolui ao longo da aula; (2) procedimento ou alternativas reais de decisão na **ordem normativa correta**, inclusive pré-requisitos e saídas quando não houver dados; (3) comparação direta de conceitos próximos por perguntas distintas, como materialidade, relevância e criticidade; (4) exemplo aplicado com critérios e resultados interpretados, preferencialmente em tabela quando a comparação ajudar; (5) distinção entre fatos da fonte, hipóteses e valores ilustrativos; (6) condições, exceções, insuficiências metodológicas e deslocamentos que a banca explora; (7) conclusão operacional com heurística e ponte para a próxima etapa do edital.
+Para qualquer nova aula:
+1. **Problema concreto:** descrever a decisão, a dificuldade e as consequências, sem inventar fatos sobre instituições reais;
+2. **Caminho explicativo:** ensinar o procedimento do começo ao fim na ordem recomendada pela fonte, mostrando as condições que habilitam cada alternativa;
+3. **Definição após função:** introduzir o termo técnico junto da pergunta prática que ele responde; diferenciar termos vizinhos por critérios operacionais;
+4. **Exemplo acompanhado:** fazer um único caso evoluir, preferindo números comparáveis ou casos contrastivos quando ajudam, com escalas, pesos, hipóteses e limitações transparentes;
+5. **Contrafactual:** alterar uma premissa e explicar por que prioridade, classificação ou consequência mudaria; delimitar regra geral, exceções e ambiguidades terminológicas;
+6. **Prova:** apontar transposições de categorias, condições omitidas, falsa equivalência entre fatores e riscos, além de palavras que alteram o julgamento, sem reduzir o treino a truques linguísticos;
+7. **Consolidação:** concluir com uma regra de decisão e manter o registro na nota canônica, sem marcar como domínio um conteúdo ainda não testado.
 
-**Mostrar por que, e não só o que:** explicar por que determinado critério é útil e o que muda a decisão se uma premissa for alterada. Ao usar números, explicitar escalas, pesos, dados que justificariam notas e que a fórmula pode ser apenas didática. Comparar, por exemplo, avaliação direta de eventos e avaliação indireta por fatores sem equipará-las. Evitar tanto a explicação abstrata e curta demais quanto a repetição longa do mesmo conteúdo. Tabelas e fluxos só quando ajudam a enxergar diferenças; a exposição principal deve ter parágrafos coesos, linguagem simples, precisão normativa e poucos elementos decorativos.
+A utilidade de materialidade, relevância e criticidade na priorização indireta foi o exemplo validado. **Sempre explicar o nexo entre conceito, motivo de uso, evidência, escolha e limite.** A organização do texto deve acompanhar o raciocínio em prosa; tabelas e diagramas ficam opcionais e devem justificar seu espaço. Não interromper antes de completar a parte normativa necessária. Não confundir reprodução de texto da fonte com hipótese ilustrativa ou interpretação do assistente.
 
-**Transferência para outros temas:** seguir a estrutura causal real da matéria: casos e consequências para Direito, decisão e etapas para Administração e Auditoria, premissas e contraexemplos para Lógica, autores e fronteiras para Comunicação. O recurso didático serve ao conteúdo, não o contrário. Não presumir que a situação hipotética seja fato de órgão público. Concluir aula e fronteiras **antes** de cobrar questão; preservar a nota canônica existente e acrescentar refinamento apenas quando consolidado, sem duplicar explicações.
+### Regra editorial de siglas na primeira menção
 
-## Respostas interativas em questões e simulados
+Toda nota de estudo, roteiro, relatório, questão comentada e explicação de aula deve apresentar **nome oficial ou técnico completo (SIGLA)** no **primeiro uso de cada texto**, reutilizando depois somente a sigla. Isso vale para instituições, unidades, normas, leis, modelos, programas, planos, relatórios e abreviações em línguas estrangeiras. Exemplos: **Controladoria-Geral da União (CGU)**; **Secretaria Federal de Controle Interno (SFC)**; **Unidade de Auditoria Interna Governamental (UAIG)**; **Manual de Orientações Técnicas (MOT)**; **Instrução Normativa (IN)**; **Plano Anual de Auditoria Interna (PAINT)** e **Lei Geral de Proteção de Dados Pessoais (LGPD)**.
 
-**Preferência confirmada em 02/11/2026:** quando o cliente suportar controles interativos, apresentar por padrão **opções clicáveis** para todas as questões: Certo/Errado para Cebraspe, A/B/C/D/E para múltipla escolha, com um botão **“Corrigir minhas respostas”** que envie a seleção como mensagem ao chat. Evitar exigir que o estudante digite sequências de letras. Para baterias, manter estado individual de cada resposta, permitir alteração antes do envio e somente habilitar correção quando os itens necessários tiverem sido respondidos; permitir branco ou pular quando compatível com a prova e o objetivo do treino. **Nunca enviar automaticamente** sem ação do estudante. Quando os controles não estiverem disponíveis, aceitar respostas digitadas de forma compacta como alternativa.
-
-A interface de resposta não muda as regras pedagógicas: declarar modalidade antes do primeiro item, explicar primeiro a matéria e as fronteiras, mostrar correção comentada depois da resposta e registrar cada item respondido no ledger sem confundir treino de aprendizagem, treino para valer e simulado. Campo de justificativa é opcional; não condicionar a correção a redação longa. Evitar ícones decorativos, elementos excessivos ou UI que esconda o enunciado.
-
-## Identificação das questões: aprendizagem e para valer
-
-**Antes de apresentar qualquer questão ou bateria no chat**, rotular explicitamente sua função. Usar três modalidades:
-
-- **Treino de aprendizagem:** questão inédita, didática, destinada a verificar entendimento e encontrar lacunas. Pode ter formato C/E do Cebraspe sem imitar fielmente sua dificuldade. Seus acertos **não medem prontidão para a prova**.
-- **Treino para valer:** questão inédita **calibrada por leitura e comparação efetiva com itens reais identificáveis** da banca, do mesmo formato e, sempre que possível, da mesma área. Informar a fonte da calibração. Uma bateria calibrada é diagnóstico parcial; **não equivale a simulado integral**.
-- **Questão real da banca:** item efetivamente encontrado em caderno oficial, com concurso, cargo, ano, número/tipo, e gabarito definitivo conferido. Se adaptado ou parafraseado, rotular como **adaptado**, não como questão real transcrita.
-
-**Não chamar de “para valer” um item apenas porque tem o formato C/E, usa termos jurídicos ou parece difícil.** Sem base empírica documentada, o rótulo será “Treino de aprendizagem”. Avisar **antes do item** e sempre que mudar a modalidade, sem esperar que o usuário pergunte. Na correção, diferenciar diagnóstico de compreensão e diagnóstico de desempenho. Acertos avulsos não demonstram domínio de uma unidade do edital.
-
-## Cadência pedagógica obrigatória: aula → fronteiras → diagnóstico → consolidação
-
-**Para cada bloco conceitual do edital, cumprir um ciclo fechado, nessa ordem.** A pergunta não deve ser o motor automático da aula. Avisar no chat qual etapa está em andamento e não saltar etapas para acumular questões.
-
-1. **Preparação e mapa:** indicar o recorte do edital, pré-requisitos, estruturas e normas a ensinar. Se um conceito próximo for necessário, inseri-lo no plano antes da prova.
-2. **Aula de conteúdo:** ensinar a matéria de forma suficiente para enfrentar casos novos: finalidade, funcionamento, categorias, responsáveis, requisitos, condições, exceções e exemplo trabalhado. Em temas normativos, conferir os itens aplicáveis. **Não interromper uma explicação incompleta com questão-surpresa.**
-3. **Teste de fronteiras:** comparar cenários quase idênticos e mostrar o efeito de trocar uma condição, sujeito, prazo, objeto ou finalidade. **Primeiro ensinar as diferenças; depois exigi-las.** Se a fronteira revelar conceito não explicado, voltar à aula.
-4. **Diagnóstico didático:** após a base e as fronteiras, usar poucas questões explicitamente rotuladas **TREINO DE APRENDIZAGEM**. Corrigir raciocínio e fonte. Se o item depender de regra não ensinada, classificá-lo como **lacuna da instrução**, explicar antes de retestar e **não interpretar o erro como medida de domínio do estudante**.
-5. **Diagnóstico para valer:** somente depois, e quando houver comparação efetiva com provas reais, apresentar uma bateria variada e rotulada **TREINO PARA VALER**, com fonte de calibração e leitura cautelosa do resultado; caso contrário permanecer no treino didático.
-6. **Fechamento no vault:** **antes de mudar de bloco conceitual**, atualizar a nota canônica com a teoria completa, condições e exceções, fronteiras importantes, exemplos e erros relevantes; atualizar o hub com estado **ensinado / aprofundado na nota / validado com questões / pendente**. Não publicar a cada item nem deixar vários blocos passarem sem consolidação.
-
-**Ritmo:** preferir desenvolvimento do conteúdo e das fronteiras a uma sequência de “certo ou errado?”. Não iniciar uma nova norma apenas para construir a questão seguinte. A cada erro, distinguir erro real de conhecimento de falha da sequência didática. Não declarar unidade concluída com base somente em acertos. Para material que ainda será ensinado, registrar a pendência no mapa do hub, não transformá-la em uma nota superficial.
-
-## Siglas e acrônimos: expansão na primeira ocorrência
-
-Em **cada nota, artigo, roteiro, questão comentada, relatório e aula no chat**, escrever o **nome por extenso seguido da sigla entre parênteses na primeira ocorrência**, por exemplo: **Unidade de Auditoria Interna Governamental (UAIG)**. Nas menções seguintes do mesmo texto, usar **UAIG**. Aplicar também a órgãos, leis, normas, cargos, planos, relatórios, programas, métodos e siglas em outros idiomas.
-
-**Cada nota deve ser compreensível de forma independente**, mesmo que a sigla tenha sido explicada em outro artigo. Quando aparecer no título ou subtítulo, expandir no primeiro ponto visível ou antes dele, preservando âncoras e links já existentes. Em siglas compostas, explicar cada elemento importante, como **Instrução Normativa (IN)** e **Secretaria Federal de Controle Interno (SFC)** antes de escrever **IN SFC nº 3/2017**. Não modificar siglas literais em URLs, caminhos ou citações exatas.
-
-**Antes de publicar**, revisar as primeiras ocorrências na ordem de leitura. Evitar repetir o nome extenso em todos os usos ou substituir a explicação por um glossário desconectado. Ao revisar um artigo existente, corrigir também as siglas que nele ficaram sem expansão.
-
-## Modo intensivão: profundidade e cobertura antes de avançar
-
-Quando o pedido for **aprender matéria nova, aprofundar conteúdo ou fazer um intensivão**, a tarefa principal é **ensinar o assunto com densidade suficiente para o edital**, e não produzir rapidamente uma nota ou uma sequência de questões. Aplicar o protocolo detalhado de `.agent/AGENTS.md` e a régua de cobertura de [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]].
-
-**Antes de escrever:** ler o trecho pertinente do edital, as fontes primárias (normas, manuais, autores) e as notas existentes; decompor o assunto em conceitos, estruturas, etapas, condições, exceções, exemplos e fronteiras entre conceitos próximos. Manter um **roteiro de aprofundamento no hub da matéria**, com itens cobertos, superficiais e pendentes, priorizados pelo concurso. Uma nota panorâmica não equivale a domínio de seus subtópicos.
-
-**Durante a aula no chat:** ensinar por explicação progressiva e exemplos concretos (técnica de Feynman), apresentar a terminologia técnica e as exceções e conectar os conceitos. O aluno deve receber a **explicação completa aqui**, sem precisar abrir o GitHub para aprender. Só depois de apresentar a base necessária, aplicar questões do formato da banca que discriminem fronteiras reais. Uma resposta correta isolada não comprova domínio.
-
-**Ao consolidar:** refinar notas canônicas existentes ou criar novas notas somente quando o conteúdo justificar estudo independente. Preservar origens, condições e limites das regras, exemplos resolvidos, diferenças perigosas, relações com o edital e pegadinhas relevantes. **Consolidar ao final de um bloco coerente de estudo ou quando o usuário pedir**, em vez de publicar a cada resposta. Registrar lacunas sem inventar detalhes e distinguir cobertura da nota, exposição no chat e desempenho efetivamente medido. A meta é **profundidade útil para prova**, não volume de texto, de notas ou de questões.
+Para expressões compostas como **IN SFC nº 3/2017**, desenvolver **IN** e **SFC** antes de empregar a forma abreviada. Títulos e subtítulos também contam: garantir que a expansão apareça antes da primeira sigla ou nessa primeira ocorrência, sem quebrar desnecessariamente âncoras e wikilinks preexistentes. A definição não pode depender de um glossário em outra página. Conferir a **ordem real de leitura** na auditoria editorial. Exceções: URLs, caminhos, nomes de arquivos, identificadores técnicos e citações literais mantêm sua grafia; explicar na prosa o que significam.
 
 ## Divisão progressiva das notas por assunto
 
@@ -84,27 +153,157 @@ Quando o pedido for **aprender matéria nova, aprofundar conteúdo ou fazer um i
 
 **Separação entre teoria e histórico:** explicações, regras e sínteses de erros úteis pertencem à nota de estudo; datas de sessões, respostas, notas e diagnósticos completos permanecem em `Avancos.md`, ledger e sessões. A reorganização não deve reduzir a profundidade necessária para a prova. Aplicar também a régua de `1 - Planejamento/Padrao editorial multi-edital.md`.
 
-## Criação de notas em `3 - Materias/`
+### Protocolo para o intensivão de matérias
 
-Uma nota canônica nova exige, na mesma operação e no mesmo commit, a nota, o link no hub da matéria (quando existir) e o wikilink com o caminho exato no `index.md` global. Confira os três arquivos antes de gravar. Não crie a nota primeiro para indexá-la em um commit posterior.
+**Gatilho e prioridade:** vale para pedidos de estudo, explicação, avanço em conteúdo e aprofundamento. A banca, o cargo e as fontes do edital ativo determinam a profundidade. **Para CGU 2026/Auditoria**, ler e seguir `2 - Editais/CGU 2026 - Auditoria.md`, com atenção aos itens de **P2 (fundamentos)** e **P3 (específicos)**, ao MOT/Referencial Técnico e ao corpus de provas-espelho. Revisão e simulado solicitado explicitamente seguem seus protocolos próprios.
 
-Antes de encerrar a operação, execute as validações disponíveis, incluindo `node scripts/validate-vault-invariants.js` e `node scripts/validate-integrity.js`. Se estiver operando pelo GitHub conectado, acompanhe o workflow **Publicar no GitHub Pages** do HEAD final. Se ele falhar, corrija a falha antes de iniciar conteúdo não relacionado; se estiver pendente, não anuncie publicação concluída.
+**Etapa 1: mapa de cobertura antes de publicar.** Ler o hub e os artigos existentes, confrontar o edital com os conceitos que realmente foram desenvolvidos e construir ou atualizar um mapa de unidades de estudo no hub. Para cada unidade, explicitar: (a) subitens do edital; (b) pergunta central a ser respondida; (c) conceitos, normas, estrutura interna e exceções; (d) fronteiras e distratores plausíveis; (e) pré-requisitos e relações; (f) status **panorama / aprofundamento pendente / aprofundado na nota / validado por resolução**. Priorizar os tópicos de maior peso, risco de erro e interdependência. **Não marcar uma unidade como aprofundada só porque a palavra aparece no texto.**
 
-O contrato completo de mudança e publicação está em `1 - Planejamento/Contrato transacional de mudancas.md` e `1 - Planejamento/Contrato de publicacao GitHub Pages.md`.
+**Etapa 2: pesquisa e precisão.** Partir das fontes indicadas no edital e da legislação, normas, referenciais e provas reais aplicáveis. Conferir versão, artigo/item normativo e alcance. Distinguir texto normativo, orientação técnica, explicação didática e inferência do agente. Para autores e modelos: **autor/origem → conceito → problema que resolve → estrutura → categorias → limites → aplicação → confusões**. Para procedimentos: **finalidade → momento → agente responsável → entrada → método → resultado → limites e exceções**. Quando houver regra numérica, prazo, condição ou impedimento, **não omitir seu contexto nem criar uma generalização indevida**. Não transformar hipótese ou caso didático em fato da instituição.
 
+**Etapa 3: aula intensiva no chat, antes dos testes.** Explicar um bloco conceitual **completo e relacionado**, em linguagem acessível, mediante caso que evolua ao longo das etapas. Apresentar a formulação técnica, as classificações, as relações causais e as exceções relevantes. Em vez de alternar uma definição e uma pergunta, desenvolver primeiro o raciocínio necessário para responder questões sem depender de reconhecimento de palavras. Quando a explicação revelar uma lacuna de pré-requisito, saná-la antes de prosseguir. Adaptar a duração da aula ao tema e ao pedido do aluno; evitar tanto excesso de resumo quanto enchimento artificial. Feynman é **modo de explicar**, não seção obrigatória de autoavaliação no Markdown.
 
-## Registro obrigatório de todas as questões respondidas
+**Etapa 4: questões como teste de transferência, não como aula substituta.** Depois da explicação, usar pequeno conjunto de questões **inéditas e/ou reais verificadas**, com dificuldade derivada do corpus e do formato do concurso. Variar cenários, enunciados, operações mentais e conceitos próximos. Corrigir no chat: resposta, fundamento, por que o distrator é atraente, condição que muda o gabarito e tipo do erro (conhecimento, interpretação, distração ou confusão). Em Cebraspe C/E, não criar rotina previsível de itens falsos por “necessariamente” nem se limitar a uma exceção verbal. Acertos repetidos em itens fáceis **não autorizam** considerar o conteúdo dominado. A interação e as verificações de compreensão ficam no chat, não como questionário Feynman na nota.
 
-**Toda questão respondida e corrigida no chat precisa ser registrada**, inclusive itens avulsos, questões de aula e baterias incompletas. Em cada checkpoint (fim de bloco ou pedido do estudante), atualizar `Avancos.md` da disciplina, `00 - Desempenho/00 Avancos globais.md` e `00 - Desempenho/01 Log de saturacao diaria.md`; criar e indexar `Avancos.md` caso não exista. **Não esperar por um simulado completo.** Registrar separadamente concurso, disciplina, data, ID estável da sessão, itens respondidos válidos, acertos, erros, brancos, questões anuladas, dúvidas, diagnóstico e estágio parcial/concluído. Na retomada, atualizar a **mesma sessão sem duplicar contagens**.
+**Etapa 5: síntese editorial posterior.** Ao terminar uma **unidade conceitual coerente**, ou quando o usuário pedir, incorporar à nota somente aprendizado durável: explicação, estruturas, normas, distinções difíceis e questões comentadas selecionadas (sem fazer da nota uma transcrição da conversa). Criar nota distinta quando o tema tiver autonomia suficiente para ser consultado e revisto separadamente; evitar uma nota gigante com assuntos sem unidade e evitar múltiplos microartigos superficiais. Atualizar o hub com a cobertura efetivamente desenvolvida. **Separar:** `coberturaNota` (profundidade documental), `exposicaoEstudo` (o que foi ensinado) e **desempenho** (respostas reais válidas). Não inventar indicadores CGU nem lançar um item avulso como simulado.
 
-**Modalidades obrigatoriamente separadas nas métricas:**
-- **Treino de aprendizagem:** questão inédita didática. Serve para medir compreensão, não previsão de nota.
-- **Treino para valer:** questão inédita calibrada com provas reais identificadas. Registrar a fonte da calibração; não é questão real.
-- **Questão real:** item original de prova, com banca, ano, concurso, cargo, caderno, número e gabarito definitivo verificado.
-- **Questão adaptada:** derivada de item real, com mudanças declaradas e fonte; não contabilizar como item original.
-- **Simulado:** avaliação estruturada e concluída; usar protocolo específico de pontuação, ledger e propagação.
+**Verificação editorial antes de avançar para outro tema:** a nota explica *o que é, de onde vem, por que existe, como funciona, quem é responsável, quais exceções ou condições importam e como a banca pode confundir*? Uma pessoa que só leu o artigo conseguiria enfrentar um caso novo ou ainda precisaria de uma segunda aula? Se faltar conteúdo material para o edital, **continuar o aprofundamento**, sem marcar a unidade como concluída. Profundidade mede **cobertura das fronteiras relevantes**, não número de caracteres.
 
-**Não contabilizar enunciados apenas apresentados, ainda não respondidos, inválidos ou anulados** como acertos/erros. O volume total pode ser agregado somente com modalidade, origem e concurso identificados; manter taxas separadas e amostragem insuficiente abaixo de 50 questões. **Microbateria não vira simulado em `data/provas.json` nem produz nota líquida oficial.** No fim de uma bateria, atualizar os indicadores de 30 dias e semana, e conferir a consistência local/global e o deploy.
+### Calibração vigente pós-Simulado 04 — próximo simulado Dataprev
+
+Até nova autópsia substituir esta régua, o próximo simulado integral da Dataprev deve mirar a dificuldade observada na prova oficial FGV Dataprev 2024, sem copiar itens.
+
+**Composição obrigatória:** 12 Português + 12 Inglês + 5 Lógica + 6 Atualidades/IA + 5 Legislação + 30 Comunicação.
+
+**Português**
+- usar trechos reais ou verossímeis em parte relevante do bloco;
+- privilegiar classificação sintática/semântica, regência, concordância, coesão, reescrita e variação, com alternativas próximas;
+- evitar excesso de itens resolvíveis apenas por reconhecer uma regra evidente.
+
+**Inglês**
+- preferir 2 a 3 textos, com pelo menos um texto mais longo;
+- misturar interpretação, referência pronominal, conectores, vocabulário, modalização e classe/função da palavra;
+- evitar transformar o bloco em gramática isolada.
+
+**Lógica**
+- incluir ao menos dois problemas contextualizados ou em duas etapas;
+- misturar lógica formal com aritmética/proporção, ordenação/contagem e um item de padrão, álgebra, geometria ou raciocínio matricial;
+- dificuldade deve vir da modelagem, não de conta longa.
+
+**Atualidades/IA**
+- priorizar 4 itens de fatos/instituições recentes e 2 de IA, ajustando apenas se a conjuntura justificar;
+- incluir naturalmente I/II/III ou V/F;
+- o enunciado não deve fornecer a definição que resolve a própria questão;
+- fatos conjunturais precisam ser verificados em fontes atuais antes da geração;
+- **para simulados Dataprev até 11/10/2026, não usar a data de geração como corte de Atualidades**: o simulado deve reproduzir o universo plausível de um caderno já fechado editorialmente. Priorizar fatos consolidados com antecedência e reduzir fortemente fatos dos últimos dias de setembro ou de outubro. Não inventar uma data oficial de corte da FGV.
+
+**Legislação**
+- distribuir as 5 questões entre LAI/Decretos, Lei 12.737/art. 154-A, Marco Civil e LGPD;
+- usar alternativas juridicamente próximas, exceções, sujeitos, prazos, competências e condições;
+- evitar cinco perguntas de literalidade de primeira camada.
+
+**Comunicação**
+- cobrir todos os dez blocos do edital ao longo das 30 questões, sem forçar três questões por bloco;
+- aumentar materialmente história/repertório, autores, estruturas internas, taxonomias e terminologia profissional;
+- mesclar reconhecimento factual, associação/correlação, I/II/III, EXCETO, interpretação de trecho teórico e caso profissional;
+- aproximadamente um terço do bloco deve exigir recuperação factual/autoral/taxonômica e não apenas aplicação intuitiva;
+- incluir rádio/TV, história da imprensa e comunicação empresarial, além de digital/marketing/pesquisa/design;
+- não super-representar os erros recentes do candidato.
+
+**Régua de dificuldade:** igual ou levemente acima da prova-espelho de 2024. A dificuldade deve vir de alternativas próximas, verdade parcial, transposição conceitual, recuperação factual e duas etapas de raciocínio — não de obscuridade gratuita, enunciado artificialmente longo ou conhecimento fora do edital.
+
+### Lição transferível pós-Dataprev — calibração de Português
+
+A reconstrução parcial da prova real Dataprev 2026, ainda sob **gabarito preliminar** e sem cartão-resposta confirmado, apontou risco de falsa segurança em Português: o bloco real exigiu mais discriminação em **coerência, referenciação, valor semântico, tipologia e fronteiras classificatórias**, e não apenas recuperação de regras gramaticais. Esse sinal deve influenciar o desenho de treinos futuros, mas **não deve ser registrado como nota oficial** até haver respostas confirmadas e gabarito definitivo.
+
+Para qualquer próximo concurso:
+- calibrar Português pela prova real da **banca e formato do concurso-alvo**, sem transferir mecanicamente o estilo FGV para Cebraspe;
+- evitar baterias em que a maioria dos itens seja resolvida por reconhecimento imediato de regra;
+- exigir comparação entre alternativas plausíveis, leitura de escopo, coerência global/local, retomada referencial e efeito semântico quando o corpus da banca sustentar esses mecanismos;
+- tratar desempenho alto em simulados como suspeito de subcalibração quando o bloco de Português tiver poucos distratores próximos ou pouca interpretação fina;
+- ao auditar um simulado, perguntar explicitamente se ele seria capaz de produzir erros em um candidato que domina a regra, mas lê rápido ou classifica categorias próximas de modo superficial.
+
+### Gate obrigatório de novidade e ledger de questões
+
+`data/questoes-ledger.json` é a fonte canônica para impedir que o candidato aprenda o caderno em vez do conteúdo. Antes de gerar qualquer bateria ou simulado:
+
+1. ler o ledger e os últimos simulados do concurso;
+2. em ambiente local/Work, executar `node scripts/question-ledger.js --recent <concursoId> --window 3`;
+3. montar um plano com disciplina, tópico, subtópico, `mechanism`, tipo de questão e mecanismo do melhor distrator;
+4. validar o plano com `node scripts/question-ledger.js --check-plan caminho/plan.json` antes de redigir o caderno final.
+
+Classificações: **new** = mecanismo não usado na janela; **thematic** = mesmo tema com outra fronteira/operação; **mechanical** = texto muda, mas a operação para acertar é essencialmente a mesma; **exact** = pergunta/associação praticamente equivalente.
+
+Régua padrão: **mínimo 75% new**, **máximo 3% exact**, **máximo 10% mechanical** e **máximo 15% de itens de revisão intencional**. Janela padrão de três simulados; cooldown de cinco para repetição exata e três para mecânica.
+
+Revisão espaçada é permitida, mas deve usar `intentionalReview: true` e descrever a transformação. **Erro recente não é licença para reciclar a mesma questão.** Reteste por outro mecanismo: caso, comparação, inferência, associação diferente, consequência prática ou distrator novo. Não concentrar o próximo simulado nos erros recentes.
+
+Depois da resolução, registrar **todas** as questões no ledger: gabarito, resposta, resultado, segurança, tema, subtópico, autor/taxonomia quando houver, tipo, `mechanism`, mecanismo do distrator, classificação de repetição, referências similares e links teóricos para erros/acertos inseguros. Essa atualização integra a mesma operação atômica de propagação do simulado.
+
+**Protocolo de confiança e chute.** Em todo novo simulado completo resolvido em chat, orientar o usuário a responder com `sem marca = seguro`, `? = dúvida` e `?? = chute`. Persistir como `confidence: secure`, `insecure` e `guess`; usar `unknown` somente quando a segurança não foi registrada. O conceito de “dúvida” é subjetivo e deve refletir a percepção declarada durante a resolução, não ser inferido a posteriori pelo fato de a resposta estar certa ou errada.
+
+No objeto do simulado no ledger, usar `confidenceTracking.coverage: complete` somente quando todas as questões tiveram a segurança capturada por esse protocolo. Se a sessão é anterior ao protocolo ou houve marcação incompleta, usar `coverage: partial`; esses dados podem ser mostrados como contagem mínima, mas ficam **fora da média oficial de incerteza**. `confidence: guess` e `confidence: insecure` em acertos exigem `theoryRefs` ancorados, pois indicam recuperação frágil.
+
+Para auditar calibração metacognitiva, usar `node scripts/question-ledger.js --confidence <concursoId> [--window N]`. O relatório deve separar média de dúvidas, média de chutes, taxa total de incerteza, acurácia quando `secure`, `insecure` e `guess`, além do recorte por disciplina. Isso serve como referência para comparar a sensação na prova real com a distribuição observada nos simulados.
+
+Se um simulado já aplicado violar o gate, não apagar: registrar a auditoria, manter nota e erros, mas marcar `benchmarkEligible: false` e explicar a contaminação.
+
+**Backfill de simulados anteriores ao ledger:** nunca inventar metadados ausentes. Se o arquivo histórico não preservar todas as questões, registrar o simulado com `ledgerCoverage: partial_historical` e `registeredQuestions` igual ao número efetivamente recuperado. Questões cuja correção é conhecida, mas cuja letra não foi preservada, podem usar `answerKnown: false`. Esse backfill participa do bloqueio de mecanismos conhecidos, mas não autoriza inferir as questões ausentes nem calcular taxa histórica de novidade.
+
+## Regra obrigatória para ingestão de questões
+
+Sempre que a tarefa envolver questões resolvidas, baterias dirigidas, simulados, correções, diagnóstico de erros ou ingestão de exercícios, o agente deve também ler e aplicar:
+
+**[[1 - Planejamento/Regras de ingestao de questoes|Regras de ingestão de questões]]**.
+
+Toda questão deve receber um destino pedagógico explícito. Não assumir que erro significa automaticamente alteração teórica, nem que acerto significa ausência de aprendizado. Usar os destinos canônicos `metrica_apenas`, `enriquecimento_teorico`, `questao_comentada_candidata`, `erro_recorrente` e `nova_nota`, combinando-os quando necessário.
+
+Erros `[C]` e `[K]` são os principais candidatos a enriquecimento/questão comentada; erros `[I]` e `[D]` só devem subir para a teoria quando revelarem mecanismo recorrente e recuperável. Questões acertadas também podem virar candidatas quando possuírem distrator excepcionalmente plausível, fronteira conceitual importante ou mecanismo recorrente de banca.
+
+### Legenda clínica obrigatória na apresentação
+
+Sempre que qualquer artefato de estudo ou desempenho — especialmente `Simulado-XX.md`, baterias, diagnósticos, tabelas de erros e relatórios — usar as siglas `[K]`, `[C]`, `[I]` ou `[D]`, incluir uma **legenda visível no próprio documento, próxima da primeira ocorrência**. Nunca pressupor que o usuário lembrará o significado das siglas.
+
+Legenda padrão:
+- **[K] Conhecimento** — faltava saber ou recuperar regra, fato, conceito ou informação específica.
+- **[C] Confusão conceitual** — conceito visto, mas com fronteira borrada, categoria trocada ou aplicação indevida.
+- **[I] Interpretação** — leitura inadequada do comando, escopo, referência ou premissas.
+- **[D] Distração** — lapso de atenção, marcação, delimitador ou cálculo final.
+- Combinações como **[K/C]** e **[D/C]** podem aparecer quando mais de um mecanismo tiver contribuído de forma relevante.
+
+A legenda é obrigatória mesmo quando a taxonomia já estiver documentada em outro arquivo do vault.
+
+### Registro obrigatório de microtreinos, questões reais e simulados
+
+**Toda questão efetivamente respondida e corrigida, mesmo durante uma aula, entra nos avanços**, de acordo com `AGENTS.md`. Manter categorias separadas: **aprendizagem** (inédita didática), **para valer** (inédita com calibração verificável), **questão real** (enunciado original com caderno, número, banca, cargo, ano e gabarito definitivo), **questão adaptada** (modificações e fonte declaradas) e **simulado** (caderno estruturado com regras próprias). Não converter uma categoria em outra para elevar resultados.
+
+**Checkpoint:** encerramento da microbateria ou solicitação de registro, mesmo com bateria parcial. Salvar ID estável, concurso, matéria, data, modalidade, quantidade respondida válida, acertos, erros, brancos, anuladas, confiança declarada, mecanismos e status parcial/concluído. Atualizar `Avancos.md` local, avanços globais e log diário; criar links no hub e índice se necessário. Em bateria aberta, **somente respostas efetivamente recebidas**, e na retomada **atualizar o mesmo ID sem dupla contagem**. Separar percentuais didáticos de desempenho competitivo e de nota líquida Cebraspe; não inserir baterias curtas em `data/provas.json` como simulados.
+
+**Contagem:** excluir enunciados apenas apresentados, inválidos ou anulados dos acertos/erros. Manter brancos separados, amostragem insuficiente abaixo de 50 respostas válidas, janela de 30 dias e semana. Amostra numerosa não comprova representatividade. No fluxo por sessão, esses indicadores são projeções automáticas, conforme `CHAT.md`; criar e indexar `Avancos.md` antes de usar uma disciplina nova.
+
+### Rascunhos parciais de simulados
+
+Um simulado ainda em resolução pode ser preservado em `00 - Desempenho/Simulados/Simulado-XX.md` sem contaminar métricas consolidadas. A exceção só vale quando o frontmatter declarar **as duas condições ao mesmo tempo**:
+
+- `status: rascunho`;
+- `parcial: true`.
+
+Enquanto essas condições estiverem presentes, o arquivo:
+
+- não exige propagação para catálogo, dashboard, `data/provas.json`, avanços globais, log de saturação ou métricas locais;
+- não deve integrar o manifesto, a busca nem o artefato público do GitHub Pages;
+- pode registrar respostas já dadas, correção parcial, questões anuladas, dúvidas e ajustes provisórios;
+- não pode receber nota final `/115` nem ser tratado como simulado consolidado.
+
+Quando o caderno for concluído, a mesma operação que retirar `status: rascunho` / `parcial: true` deve executar a propagação integral exigida para simulados completos. Um arquivo com apenas uma das duas marcas não recebe a exceção.
+
+### Links ancorados obrigatórios em relatórios de questões e simulados
+
+Em qualquer artefato derivado de resolução de questões — especialmente `Simulado-XX.md`, baterias, diagnósticos, tabelas de erros, `Log de erros.md`, **## Ajustes a partir dos erros**, **## Acertos com dúvida ou recuperação incompleta** e campos de **Estudo/Revisar** — cada referência à teoria deve terminar em um **wikilink direto para o subtítulo exato** que contém o conceito cobrado: `[[Pasta/Nota#Subtítulo exato|Texto]]`.
+
+Não usar apenas link para o topo da nota quando houver seção específica. Se um item agrupar mais de um conceito, incluir um link ancorado para cada conceito. Se o subtítulo adequado ainda não existir, refinar a nota canônica e criar esse destino antes de considerar o diagnóstico concluído.
+
+A exigência vale também no leitor web: o link publicado deve preservar o deep link e abrir diretamente no heading correspondente, não apenas no início do artigo. Mudanças em wikilinks, rotas, anchors ou renderização devem manter a seção na rota pública (atualmente `?secao=`) e possuir teste de regressão.
 
 ## Propagação obrigatória de simulados para o painel
 
@@ -125,18 +324,98 @@ Para um **simulado integral**, o agente deve atualizar, na mesma operação lóg
 
 Para baterias mistas, atualizar as superfícies equivalentes compatíveis com o tipo de registro; não inventar nota /115 quando a composição oficial não tiver sido reproduzida.
 
-**Rascunho parcial:** um simulado ainda em resolução pode ser salvo em `00 - Desempenho/Simulados/Simulado-XX.md` sem propagação para catálogo, dashboard, `data/provas.json`, avanços ou métricas finais **somente** quando o frontmatter declarar simultaneamente `status: rascunho` e `parcial: true`. Esse rascunho também não deve integrar o GitHub Pages. Ao concluir o caderno, remover a condição de parcial/rascunho e executar a propagação integral na mesma operação lógica.
+Para Câmara ou outro concurso, usar as superfícies equivalentes do concurso-alvo; nunca escrever na Dataprev por padrão. Atualizar também o hub por edital/prova, conforme a seção correspondente. As regras de rascunhos, links ancorados, novidade e confiança estão nas seções próprias deste arquivo.
 
-**Regra de interface:** criar o Markdown do simulado não basta. Se `data/provas.json` ou o catálogo estiverem desatualizados, o painel está inconsistente. Após a alteração, acompanhar o workflow **Publicar no GitHub Pages** e só afirmar que o simulado “aparece no painel” depois de confirmar o deploy do HEAD e, quando aplicável, a presença do arquivo no manifesto/site publicado.
+### Hub obrigatório de desempenho por edital e prova
 
-**Regra de links de revisão:** em relatórios de questões, baterias e simulados — incluindo `## Ajustes a partir dos erros`, acertos com dúvida/baixa segurança, `Log de erros.md`, diagnósticos e campos de estudo/revisão — todo link para teoria deve apontar para o **subtítulo exato** que contém o conceito: `[[Pasta/Nota#Subtítulo exato|Texto]]`. Linkar apenas o topo da nota não satisfaz a regra quando existe um destino mais específico. Se o subtítulo adequado ainda não existir, refinar a nota canônica antes de concluir o relatório. No GitHub Pages, o deep link deve abrir diretamente nessa seção; mudanças no renderizador de wikilinks devem preservar e testar a seção na rota pública.
+Sempre que um **simulado completo** ou outra prova registrada em `data/provas.json` for criada ou corrigida, atualizar na mesma operação o hub público [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]].
 
-**Governança anti-repetição:** antes de gerar questões, baterias ou simulados, consultar `data/questoes-ledger.json` e, quando houver ambiente de execução, rodar `node scripts/question-ledger.js --recent <concursoId> --window 3`. Um simulado completo deve ser planejado por mecanismo cognitivo antes da redação final e passar por `--check-plan`. Régua padrão: **≥ 75% de mecanismos novos**, **≤ 3% de repetição exata**, **≤ 10% de repetição mecânica** e **≤ 15% de revisão intencional**. Erro recente não autoriza repetir a mesma pergunta: a revisão deve mudar o mecanismo de cobrança. Após a resolução, registrar o caderno inteiro no ledger na mesma operação de propagação; simulado completo sem ledger atualizado é incompleto. Se um caderno já aplicado violar a régua, preservar o resultado, medir a contaminação e marcar `benchmarkEligible: false` com justificativa, em vez de apagar o histórico.
+O hub deve:
+- registrar o novo resultado na seção do concurso correto;
+- distinguir aproveitamento bruto de nota calculada pelas regras do edital;
+- declarar a comparabilidade da prova/simulado;
+- atualizar a análise comparativa quando o novo resultado altera a leitura da evolução;
+- nunca misturar métricas da Dataprev com Câmara ou outro concurso;
+- permanecer sincronizado com `data/provas.json`, o catálogo de simulados e os dashboards aplicáveis.
 
-**Rastreamento de confiança:** nos simulados resolvidos em chat, adotar por padrão `sem marca = secure`, `? = insecure/dúvida` e `?? = guess/chute`. O ledger aceita `confidence: secure|insecure|guess|unknown`. Só declarar `confidenceTracking.coverage: complete` quando o protocolo tiver sido aplicado ao caderno inteiro; sessões antigas ou incompletamente marcadas ficam como `partial` e não entram na média oficial. Para medir dúvida/chute, usar `node scripts/question-ledger.js --confidence <concursoId> [--window N]`, que calcula média de questões incertas e acurácia por nível de confiança e por disciplina.
+Um simulado não está totalmente propagado enquanto esse hub estiver desatualizado.
 
-Mudanças dependentes de um mesmo simulado devem preferencialmente entrar em **um único commit atômico**.
+
+Antes de inserir questão comentada em uma nota, verificar se já existe questão cobrindo a mesma fronteira. O artigo não deve virar banco de questões: preservar a régua de 1 a 3 questões comentadas de alto valor cognitivo por nota, substituindo ou fundindo quando surgir exemplo melhor.
+
+### Comando canônico, idempotência e apply transacional
+
+Para ingestões novas, usar **`scripts/ingest-safe.js`** como porta de entrada. `scripts/ingest-vault.js` é o motor de análise legado e não deve ser chamado diretamente com `--apply`.
+
+Primeiro executar:
+
+```bash
+node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --dry-run
+```
+
+Depois construir um change set que contenha todos os destinos obrigatórios e o `ingestionFingerprint` exibido no dry-run. A aplicação canônica é:
+
+```bash
+node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --apply --changeset caminho/change-set.json
+```
+
+O change set é regido por **[[1 - Planejamento/Contrato transacional de mudancas|Contrato transacional de mudanças]]** e por `scripts/ingestion-propagation-policy.js`. Toda alteração de arquivo existente deve usar o hash SHA-256 da versão lida como precondição. Se um único arquivo tiver mudado, nada é escrito.
+
+A camada segura calcula fingerprint do conteúdo e consulta `data/ingestoes-processadas.json`. Uma ingestão já aplicada é bloqueada mesmo que a mesma evidência reapareça em outro arquivo ou com outro `--type`. O ledger e a limpeza da inbox canônica entram na mesma transação dos demais arquivos. Em caso de falha das validações pós-escrita, o conjunto inteiro sofre rollback.
+
+É proibido contornar o mecanismo chamando `scripts/ingest-vault.js --apply` diretamente. Também é proibido usar replace/delete em `log.md`; o aplicador transacional aceita apenas `append` ou `prepend` com hash da versão integral atual.
+
+## Regra para mudanças multi-arquivo críticas
+
+Quando uma operação só estiver correta se vários arquivos permanecerem sincronizados — criação de nota canônica, ingestões, propagação de desempenho, catálogos, dashboards e alterações equivalentes — aplicar também **[[1 - Planejamento/Contrato transacional de mudancas|Contrato transacional de mudanças]]**.
+
+- Em ambiente local/Work, preferir `scripts/apply-changeset.js` a uma sequência de gravações independentes.
+- Pelo conector GitHub, preferir um único `create_tree` → `create_commit` → `update_ref` para a operação lógica inteira.
+- Se a ferramenta disponível não permitir atomicidade, declarar essa limitação e concluir todas as superfícies dependentes antes de tratar a operação como encerrada; não iniciar trabalho não relacionado no intervalo.
+
+## Regra de publicação de conteúdo público
+
+Sempre que a tarefa criar, mover ou alterar de forma relevante uma página pública em `3 - Materias/` ou `00 - Desempenho/`, o agente deve também ler e aplicar:
+
+**[[1 - Planejamento/Contrato de publicacao GitHub Pages|Contrato de publicação — GitHub Pages]]**.
+
+O commit no repositório **não encerra** a operação. O agente só pode afirmar que o conteúdo foi publicado ou que já aparece no site depois de confirmar o último workflow `Publicar no GitHub Pages` e a presença do catálogo esperado no `manifest.json` servido pelo Pages ao vivo. Se o deploy estiver pendente, deve distinguir claramente “está no repositório” de “publicação confirmada”.
+
+Em Atualidades, fundamentos e snapshots colocados sob `3 - Materias/Atualidades/` são tratados como material público de estudo. Se a intenção for manter algo apenas como fonte bruta ou bastidor, o arquivo deve ir para uma camada não pública apropriada, e não ficar em `Snapshots/` esperando aparecer magicamente no site.
+
+O padrão editorial é evolutivo. Se o uso real do vault revelar uma necessidade recorrente que ainda não esteja prevista — por exemplo, um novo tipo de seção, artefato de estudo, comparação, questão comentada ou mecanismo de navegação — o agente deve **propor a mudança e pedir autorização antes de alterar a governança ou aplicá-la em massa**. Correções locais e aplicação de regras já aprovadas não exigem nova autorização. Um pedido explícito do usuário para alterar a regra conta como autorização para aquela mudança específica.
+
+
+## Regra obrigatória para mudanças na busca
+
+Sempre que a tarefa alterar busca, ranking, aliases, anchors, deep links, índice de pesquisa ou quando o usuário relatar que uma consulta devolve o resultado errado, ler e aplicar:
+
+**[[1 - Planejamento/Governanca da busca|Governança da busca]]**.
+
+`search-index.json` é artefato derivado e nunca deve ser editado manualmente. Mudanças normais nos artigos são absorvidas automaticamente pelo build.
+
+Quando houver falha semântica de busca, registrar primeiro a consulta em `scripts/search-benchmarks.json` com artigo e seção esperados; só depois alterar aliases, configuração ou algoritmo. Mudanças de pesos devem preservar a régua global de Top 1, Top 3 e seção correta.
+
+Aliases e parâmetros deliberados de ranking vivem em `web/05a-search-config.js`. Não duplicar essa configuração em outros arquivos.
+
+
+## Regra para testes e validadores novos
+
+Sempre que uma mudança criar ou alterar um teste, validador, script de build ou etapa de CI, o agente deve executar diretamente o novo/alterado script **antes do commit** quando o ambiente disponível permitir.
+
+O preflight do estado anterior não substitui essa verificação: ele prova que o `main` estava saudável antes da mudança, não que o teste recém-criado funciona.
+
+Fluxo obrigatório para scripts novos ou alterados:
+
+1. executar o script isoladamente;
+2. corrigir qualquer falha do próprio teste/fixture;
+3. executar as validações relacionadas;
+4. só então incluir o script e a alteração funcional no commit;
+5. após o commit, confirmar o workflow completo.
+
+Não enfraquecer uma asserção apenas para deixar o CI verde. Quando um teste falhar, distinguir entre bug de implementação, fixture incorreta e asserção excessivamente literal; preservar a propriedade semântica que o teste deveria garantir.
+
 
 ## Mapa operacional de scripts e diagnóstico
 
-Para tarefas nos scripts, na interface ou nas integrações entre ingestão, dados, busca e publicação, consultar [[1 - Planejamento/Mapa de scripts e contratos do sistema|Mapa de scripts e contratos do sistema]]. Ele reúne entradas, saídas, dependências, limites dos checks e lacunas verificadas. Conferir o código vigente, localizar a primeira divergência entre produtor e consumidor e aplicar os contratos existentes; o mapa não substitui `me.md` nem as regras detalhadas de `.agent/AGENTS.md`. Manter a entrada dos scripts afetados atualizada ao concluir mudanças nesse sistema.
+Para tarefas nos scripts, na interface ou nas integrações entre ingestão, dados, busca e publicação, consultar [[1 - Planejamento/Mapa de scripts e contratos do sistema|Mapa de scripts e contratos do sistema]]. Ele reúne entradas, saídas, dependências, limites dos checks e lacunas verificadas. Conferir o código vigente, localizar a primeira divergência entre produtor e consumidor e aplicar os contratos existentes; o mapa não substitui `me.md` nem as regras deste `AGENTS.md`. Manter a entrada dos scripts afetados atualizada ao concluir mudanças nesse sistema.

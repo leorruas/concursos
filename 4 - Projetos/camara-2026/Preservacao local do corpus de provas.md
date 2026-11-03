@@ -94,7 +94,7 @@ Objetivo: preservar localmente os cadernos, gabaritos e padrões de resposta lis
 4 - Projetos/camara-2026/Preservacao local do corpus de provas.md
 
 Antes de agir:
-1. leia AGENTS.md, me.md, index.md e .agent/AGENTS.md;
+1. leia AGENTS.md, me.md e index.md;
 2. execute o preflight/gate de integridade previsto pela governança;
 3. leia também:
    - 4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe.md

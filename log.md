@@ -1225,3 +1225,8 @@
 ## 2026-11-03: fluxo de estudo pelo chat
 
 Autorizado registro por sessão, correção no chat e consolidação automática de microtreinos. Implementados scripts de projeção/testes, contexto compacto por concurso e persistência validada no workflow de publicação. Histórico preservado; nenhuma questão fictícia registrada. Teoria continua editorial; simulados integrais mantêm contrato próprio.
+
+
+## 2026-11-03: unificação das instruções para agentes
+
+Regras reunidas no AGENTS.md da raiz, com remoção do arquivo duplicado, preservação das regras exclusivas e atualização das referências ativas e validadores. CHAT.md permanece a entrada curta para estudo.

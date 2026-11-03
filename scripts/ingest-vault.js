@@ -4,7 +4,7 @@
  * scripts/ingest-vault.js
  *
  * Sistema Operacional de Ingestão e Atualização Assistida do Vault Concursos.
- * Governança Centralizada (SSoT): me.md e .agent/AGENTS.md
+ * Governança Centralizada (SSoT): me.md e AGENTS.md
  *
  * Uso:
  *   node scripts/ingest-vault.js --input "00 inbox/00 ingestão.md" --dry-run

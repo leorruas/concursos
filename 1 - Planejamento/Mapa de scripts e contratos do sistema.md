@@ -12,7 +12,7 @@ Inventário técnico extraído em **05/10/2026**, com base no commit `7d64462400
 
 Após a primeira rodada de correções, há **41 arquivos JavaScript** (27 em `scripts/`, 13 em `web/` e `script.js`). O snapshot inicial e seus links permanecem rastreáveis; as mudanças vigentes estão registradas abaixo.
 
-Este mapa descreve **o contrato esperado pela governança**, **o comportamento implementado** e **as lacunas verificadas**. Não substitui [[me]], [[AGENTS]] nem [[.agent/AGENTS]]. Um teste verde prova somente as propriedades que ele verifica.
+Este mapa descreve **o contrato esperado pela governança**, **o comportamento implementado** e **as lacunas verificadas**. Não substitui [[me]] nem [[AGENTS]]. Um teste verde prova somente as propriedades que ele verifica.
 
 ## Como as partes se conectam
 
@@ -137,7 +137,7 @@ Uso de análise: `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md"
 
 ### scripts/validate-search-governance.js
 
-**Faz:** exige configuração, benchmarks, governança e referência em `.agent/AGENTS.md`; executa configuração em VM (máquina virtual), rejeita colisões entre grupos de aliases, piso Top 1 inválido, menos de 18 benchmarks, consultas duplicadas/incompletas e índice canônico na raiz. **Entrada:** `web/05a-search-config.js`, `scripts/search-benchmarks.json` e documentos. **Saída:** status, sem escrita.
+**Faz:** exige configuração, benchmarks, governança e referência em `AGENTS.md`; executa configuração em VM (máquina virtual), rejeita colisões entre grupos de aliases, piso Top 1 inválido, menos de 18 benchmarks, consultas duplicadas/incompletas e índice canônico na raiz. **Entrada:** `web/05a-search-config.js`, `scripts/search-benchmarks.json` e documentos. **Saída:** status, sem escrita.
 
 **Contrato:** semântica centralizada e índice derivado só em `_site/`. **Limite:** não comprova que alias é conceitualmente correto nem que busca ranqueia bem; isso exige benchmark e avaliação do agente. Uso: `node scripts/validate-search-governance.js`.
 
@@ -263,7 +263,7 @@ As linhas abaixo preservam o diagnóstico do snapshot inicial; consultar o estad
 | Média | Restauração de blocos matemáticos insere `$...$`; teste aceita um dólar | Classe display não comprova KaTeX em modo display | Verificar renderização visual e modo matemático apropriado; teste que diferencie display/inline |
 | Baixa | API pedagógica recebe siglas; integridade aceita siglas; `me.md` exige valores semânticos | Compatibilidade legado pode esconder desvio do schema esperado | Normalização explícita sem apagar proveniência, teste de serialização e migração revisável |
 
-Também há diferenças entre listas de proteção do motor e da transação e instruções antigas de `me.md` que mostram apply sem changeset. A regra operacional detalhada de `.agent/AGENTS.md` e o contrato transacional exigem changeset. Não interpretar um comando antigo ou limite de validador como autorização para contornar regra textual.
+Também há diferenças entre listas de proteção do motor e da transação e instruções antigas de `me.md` que mostram apply sem changeset. A regra operacional detalhada de `AGENTS.md` e o contrato transacional exigem changeset. Não interpretar um comando antigo ou limite de validador como autorização para contornar regra textual.
 
 ## Primeira rodada de correções — 05/10/2026
 
@@ -319,7 +319,7 @@ O mapa preserva conhecimento operacional para próximas sessões. A capacidade d
 
 ## Fontes e código auditado
 
-**Governança:** [[me]], [[AGENTS]], [[.agent/AGENTS]], [[index]], [[1 - Planejamento/Contrato transacional de mudancas]], [[1 - Planejamento/Contrato de publicacao GitHub Pages]], [[1 - Planejamento/Regras de ingestao de questoes]], [[1 - Planejamento/Governanca da busca]].
+**Governança:** [[me]], [[AGENTS]], [[index]], [[1 - Planejamento/Contrato transacional de mudancas]], [[1 - Planejamento/Contrato de publicacao GitHub Pages]], [[1 - Planejamento/Regras de ingestao de questoes]], [[1 - Planejamento/Governanca da busca]].
 
 - [.github/workflows/pages.yml](https://github.com/leorruas/concursos/blob/7d644624002ea1b316e128b5a81f4e64a9caf1fe/.github/workflows/pages.yml#L1)
 - [index.html](https://github.com/leorruas/concursos/blob/7d644624002ea1b316e128b5a81f4e64a9caf1fe/index.html#L1)
@@ -401,3 +401,8 @@ O modelo anterior com `4 - Projetos/cgu-2026/`, painel público, `dashboardPath`
 O fluxo aprovado em `CHAT.md` e `data/sessoes/README.md` recebe microtreinos em arquivos individuais. `scripts/study-sessions.js` valida e projeta ledger, blocos marcados nos avanços locais existentes e globais, log diário, hub por edital e contexto compacto por concurso. `scripts/test-study-sessions.js` verifica correção sem duplicação, preservação histórica e entradas inválidas. O restante das notas e métricas históricas permanece preservado, identificado como histórico. O ledger legado não é reimportado. Simulados integrais e ingestão via `scripts/ingest-safe.js` mantêm seus contratos próprios.
 
 No workflow, o contrato do commit de entrada é verificado antes da projeção. Depois, geração determinística, teste de consistência e validadores existentes verificam as saídas, que são persistidas juntas em um commit automático antes da publicação na mesma execução. Este commit derivado pode alterar apenas os destinos enumerados pelo gerador; dispensa incluir no diff arquivos cujo resultado não mudou. Sem force ou rebase em concorrência. Checkpoint salvo, consolidação validada e publicação confirmada são estados distintos. A aula pode continuar enquanto o workflow roda; uma falha deve ser reparada antes de outra gravação não relacionada.
+
+
+## Unificação das instruções: 03/11/2026
+
+As regras para agentes ficam somente no `AGENTS.md` da raiz. As seções operacionais detalhadas foram reunidas com as regras exclusivas de Feynman, divisão de notas, propagação de simulados e diagnóstico de scripts. Os validadores de invariantes, contrato de mudança e governança de busca leem o arquivo único. A entrada curta `CHAT.md` continua aplicável ao estudo cotidiano. O caminho antigo foi removido; referências históricas no log permanecem como histórico.

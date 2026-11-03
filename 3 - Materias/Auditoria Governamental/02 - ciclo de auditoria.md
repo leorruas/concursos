@@ -290,7 +290,19 @@ O MOT orienta a evitar duplicação de documentos permanentes nos arquivos corre
 
 **Heurística:** suficiência = *quanto basta*; confiabilidade = *de onde/como veio*; fidedignidade = *retrata o fato?*; relevância = *responde à questão?*; utilidade = *ajuda a concluir e melhorar?*; papel permanente = *serve a vários trabalhos*; corrente = *documenta este trabalho*.
 
-**Status:** aula e expansão concluídas em 03/11/2026; **nenhuma resposta da unidade 06 ainda registrada**. Próximo passo: microbateria de **aprendizagem**, depois aprofundamento de dificuldades e treino para valer baseado no corpus de itens Cebraspe. A unidade 06 permanece em estudo.
+**Status:** aula ministrada e primeira bateria de aprendizagem **5/6** em 03/11/2026. Um erro na Q6, sobre competência para aprovar a política de acesso. Revisão dirigida e treino para valer pendentes.
+
+
+#### Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)
+
+**Primeira bateria: 5/6. Respostas C/E/E/C/C/C; gabarito C/E/E/C/C/E.** Na Q6, a alternativa atribuiu à Unidade de Auditoria Interna Governamental (UAIG) competência para aprovar isoladamente a política de acesso aos papéis de trabalho. Essa competência foi transposta indevidamente.
+
+**IN SFC nº 3/2017, itens 152 a 154:** o responsável pela UAIG define procedimentos de estrutura, organização e armazenamento dos papéis; cabe à UAIG a guarda e o estabelecimento de política de acesso, a qual deve respeitar sigilo e definir quem pode acessar registros e como pedidos são tratados. Pelo **item 154, alínea c**, a política exige **apreciação da assessoria jurídica e aprovação da alta administração** do órgão ou entidade. O MOT, seção **5.7.5**, confirma a regra.
+
+**Fronteira:** definir e propor política ≠ aprovar sua versão institucional isoladamente. A aprovação da política também não significa que toda decisão operacional de acesso seja tomada pessoalmente pela alta administração: cada solicitação deve seguir a política aprovada, as competências nela estabelecidas e a legislação. **Rastreabilidade ≠ acesso irrestrito**. A política precisa preservar sigilos legítimos e não pode impedir atribuições legalmente asseguradas a órgãos de controle.
+
+**Diagnóstico:** erro Q6 provisoriamente classificado como confusão normativa de competências, pois não houve justificativa verbalizada. **Próximo passo:** testar elaboração, apreciação, aprovação e processamento de pedidos em cenário novo.
+
 
 
 ### 1. Planejamento: formular perguntas que os testes poderão responder

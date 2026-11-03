@@ -18,13 +18,13 @@ Consulte as diretrizes metodológicas, réguas de competitividade e metas de pro
 
 ## CGU 2026: microtreinos registrados, simulado ainda pendente
 
-**Cargo 1: Auditoria, Cebraspe.** Até 03/11/2026, foram respondidas **62 questões válidas de Auditoria Governamental, com 54 acertos (87,1%)**: aprendizagem **18/21 (85,7%)**, para valer **26/31 (83,9%, um branco e um acerto por chute)** e revisão dirigida **10/10 (repetição intencional)**; unidades 02 a 05 encerradas didaticamente, com revisão espaçada de consultoria × avaliação pendente. Uma questão anulada permanece excluída do aproveitamento. Nenhuma questão real ou simulado foi aplicado. Histórico em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]. **Ainda não existe simulado integral nem nota líquida CGU**; os indicadores da Dataprev abaixo são históricos de outro concurso. Os 63 enunciados estão individualizados (62 válidos, um branco e 1 anulado) em `data/questoes-ledger.json` por modalidade.
+**Cargo 1: Auditoria, Cebraspe.** Até 03/11/2026, foram respondidas **68 questões válidas de Auditoria Governamental, com 59 acertos (86,8%)**: aprendizagem **23/27 (85,2%)**, para valer **26/31 (83,9%, um branco e um acerto por chute)** e revisão dirigida **10/10 (repetição intencional)**. Unidades 02 a 05 encerradas didaticamente; unidade 06 em aprendizagem **5/6**, com erro na competência de aprovação da política de acesso. Uma questão anulada permanece excluída do aproveitamento. Nenhuma questão real ou simulado foi aplicado. Histórico em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]]. **Ainda não existe simulado integral nem nota líquida CGU**; os indicadores da Dataprev abaixo são históricos de outro concurso. Os 69 enunciados estão individualizados (68 válidos, um branco e 1 anulado) em `data/questoes-ledger.json` por modalidade.
 
 | Frente | Cobertura documental do vault | Domínio CGU medido | Próximo passo |
 | :--- | :--- | :--- | :--- |
 | Direito Administrativo, governança e LAI/LGPD | Base aproveitável parcial | Não | Revisão aplicada e itens C/E |
 | Estado, sociedade, ética e políticas públicas | Parcial | Não | Completar lacunas P1/P2 |
-| Auditoria governamental e evidências | Notas 01 a 05; unidades 02 e 03 consolidadas, incluindo gestão de riscos e controles | **62 válidos, 54 acertos, 1 branco; 1 anulado; nenhum simulado** | Unidade 05 concluída didaticamente (4/6, 6/6 e 8/8, um chute); seguir para unidade 06; revisar erros das unidades 02 e 03 |
+| Auditoria governamental e evidências | Notas 01 a 05; unidades 02 e 03 consolidadas, incluindo gestão de riscos e controles | **68 válidos, 59 acertos, 1 branco; 1 anulado; nenhum simulado** | Unidade 06 aprendizagem 5/6: revisar política de acesso (apreciação jurídica e aprovação da alta administração); revisar erros das unidades 02 e 03 |
 | Orçamento e contabilidade pública | Grande lacuna | Não | Execução, PPA/LDO/LOA, MCASP, estatais |
 | Avaliação de políticas e inferência causal | Parcial | Não | Indicadores, contrafactual, desenho de avaliação |
 | Contratações, transferências, integridade e responsabilização | Parcial | Não | Casos, PAD/PAR, leniência, ouvidoria |
@@ -49,11 +49,11 @@ Mapeamento das **sessões identificáveis nos últimos 30 dias** (05/10/2026 a 0
 | [[3 - Materias/Administracao Geral/administracao-geral\|Administração geral]] | - | 0 | 85% | **Amostragem insuficiente** (< 50 Qs) | - |
 | [[3 - Materias/Atualidades/atualidades\|Atualidades]] | *94,4%* | 18 | 75% | **Amostragem insuficiente** (< 50 Qs) | 10/10/2026 |
 | [[3 - Materias/Informatica/informatica\|Legislação de SI e proteção de dados]] | *80,0%* | 15 | - | **Amostragem insuficiente** (< 50 Qs) | 10/10/2026 |
-| [[3 - Materias/Auditoria Governamental/auditoria-governamental\|Auditoria governamental (CGU)]] | *87,1%* (54/62; aprendizagem 18/21; para valer 26/31, revisão 10/10, 1 branco e um chute) | 62 | - | **Amostragem não independente:** 10 revisões intencionais e um acerto por chute; nenhum simulado; unidade 05 concluída didaticamente | 03/11/2026 |
+| [[3 - Materias/Auditoria Governamental/auditoria-governamental\|Auditoria governamental (CGU)]] | *86,8%* (59/68; aprendizagem 23/27; para valer 26/31, revisão 10/10, 1 branco e um chute) | 68 | - | **Amostragem não independente:** dez revisões intencionais e um chute; nenhum simulado; unidade 06 em aprendizagem | 03/11/2026 |
 | [[3 - Materias/Redacao/redacao\|Redação]] | - | 0 | 90% | **Amostragem insuficiente** (< 50 Qs) | - |
 
 > [!NOTE]
-> A janela de 04/10 a 02/11 inclui simulados Dataprev 05 a 07 (**210 itens, 186 acertos**) e microtreinos CGU (**62 válidos, 54 acertos, um branco e um acerto por chute, incluídas dez revisões intencionais**; uma anulação adicional). Os dois concursos e modalidades de treino permanecem separados para interpretação da prontidão.
+> A janela de 04/10 a 02/11 inclui simulados Dataprev 05 a 07 (**210 itens, 186 acertos**) e microtreinos CGU (**68 válidos, 59 acertos, um branco e um acerto por chute, incluídas dez revisões intencionais**; uma anulação adicional). Os dois concursos e modalidades de treino permanecem separados para interpretação da prontidão.
 
 ### Métricas específicas por disciplina
 
@@ -62,6 +62,7 @@ Mapeamento das **sessões identificáveis nos últimos 30 dias** (05/10/2026 a 0
 | [[3 - Materias/Calculo Mental/calculo-mental\|Cálculo mental]] | Qualidade da Transformação | *96,8%* | 14/07/2026 | 95% | **Amostragem insuficiente** (< 50 Qs) |
 
 ### Análise de evolução recente
+- **CGU, unidade 06, aprendizagem, 03/11:** **5/6**, respostas C/E/E/C/C/C, gabarito C/E/E/C/C/E; único erro [C provisório] na competência de aprovação da política de acesso aos papéis de trabalho: UAIG estabelece, assessoria jurídica aprecia, alta administração aprova (IN SFC nº 3/2017, item 154, c). CGU **59/68**: aprendizagem 23/27, para valer 26/31, revisão 10/10, um branco e um chute. Próximo: revisão aplicada de competências e diagnóstico para valer.
 - **CGU, unidade 05 para valer, 03/11:** 8/8 (C/E/E/C/E/C/C/E), sendo **Q8 acerto declarado por chute** na distinção consultoria × avaliação (IN SFC nº 3/2017, item 140). Trajetória da unidade 05: aprendizagem 4/6, revisão 6/6, para valer 8/8, encerrada didaticamente sem demonstrar retenção espaçada. CGU **54/62**, aprendizagem 18/21, para valer 26/31 e revisão 10/10, um branco e um chute. Próxima unidade 06: evidências e documentação.
 - **CGU, 03/11, unidade 05 revisão aplicada:** **6/6 (C/E/E/C/E/C)** em escopo × critério, critério de desempenho, aprovação prévia do programa pelo supervisor e refinamento de escopo por riscos. Recuperou os dois pontos errados na aprendizagem anterior 4/6; sessão de revisão intencional, sem benchmark independente. CGU: **46/54** (aprendizagem 18/21, para valer 18/23, revisão 10/10, um branco). Próximo: treino para valer original da unidade 05 e revisão espaçada posterior.
 - **CGU, unidade 05, aprendizagem (03/11): 4/6 (66,7%).** Dois erros [C] provisórios em escopo × critério e aprovação do programa de trabalho individual pelo supervisor. Acertos em questões/subquestões, fonte/procedimento, riscos e Ordem de Serviço. Total CGU **40/48** (aprendizagem 18/21; para valer 18/23; revisão 4/4; um branco), sem simulado. Próximo: testar novamente os dois conceitos em casos diferentes.
@@ -109,7 +110,7 @@ Mapeamento das **sessões identificáveis nos últimos 30 dias** (05/10/2026 a 0
 
 | Semana / Período | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Análise de Saturação Semanal |
 | :--- | :--- | :--- | :--- | :--- |
-| **Semana 45** (02/11 a 08/11) | **38** | **89,5% (34/38)** | **Não calculável entre modalidades distintas** | CGU Auditoria: aprendizagem 10/12, para valer 14/16 (um chute), revisão dirigida 10/10 (todos intencionais); três erros e um branco na semana. Carga não informada, nenhuma prova integral. |
+| **Semana 45** (02/11 a 08/11) | **44** | **88,6% (39/44)** | **Não calculável entre modalidades distintas** | CGU Auditoria: aprendizagem 15/18 (unidade 06 5/6), para valer 14/16 (um chute), revisão dirigida 10/10 (intencional); quatro erros e um branco na semana. Carga não informada, nenhuma prova integral. |
 | **Semana 44** (26/10 a 01/11) | **24** | **83,3% (20/24)** | **83,3%** (microtreino, peso 1,0) | Carga não informada; 8/9 aprendizagem, 12/15 para valer; 1 anulada fora da pontuação. |
 | **Semana 41** (05/10 a 11/10) | 210 | 88,6% (186/210) | 88,5% | **Alta**: Simulados 05, 06 e 07. O Simulado 07 foi o primeiro pós-ledger, com 97,1% de mecanismos novos; fez 60/70 e 99/115. A redução do agregado semanal deve ser lida junto da melhora na qualidade do instrumento, não como queda pura de domínio. |
 | **Semana 40** (28/09 a 04/10) | 140 | 90,0% (126/140) | 89,4% | **Alta**: Simulados 03 e 04 completos, ambos com distribuição oficial. Consolidado por disciplina: Português 22/24, Inglês 24/24, Lógica 6/10, Atualidades/IA 11/12, Legislação 8/10 e Comunicação 55/60. A nota ponderada subiu de 103,5/115 no Simulado 03 para 105/115 no Simulado 04; Lógica recuperou no segundo simulado, embora o método do bloco tenha reincidido. |

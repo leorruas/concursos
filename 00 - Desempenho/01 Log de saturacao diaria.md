@@ -13,13 +13,13 @@ Este log subsidia a análise metodológica de consistência detalhada em [[00 Av
 
 ---
 
-**CGU 2026/Auditoria:** 62 itens válidos respondidos até 03/11, com 54 acertos, sete erros e um branco, incluindo um acerto por chute: aprendizagem 18/21, para valer 26/31 e revisão aplicada 10/10; unidades 02 a 05 concluídas didaticamente, com revisão espaçada ainda necessária; mais uma questão anulada e substituída. Esses dados são distintos de simulados, notas líquidas ou resultados Dataprev. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços locais]] e os itens individualizados em `data/questoes-ledger.json`.
+**CGU 2026/Auditoria:** 68 itens válidos respondidos até 03/11, com 59 acertos, oito erros e um branco, incluindo um acerto por chute: aprendizagem 23/27, para valer 26/31 e revisão aplicada 10/10; unidades 02 a 05 concluídas didaticamente, unidade 06 em aprendizagem 5/6, com revisão de competências da política de acesso pendente; mais uma questão anulada e substituída. Esses dados são distintos de simulados, notas líquidas ou resultados Dataprev. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços locais]] e os itens individualizados em `data/questoes-ledger.json`.
 
 ## Log de Saturação Diária
 
 | Data | Questões (Brutas) | Aproveitamento (Bruto) | TAP (Ponderada) | Nível de Carga / Sintomas Qualitativos da Sessão |
 | :--- | :--- | :--- | :--- | :--- |
-| **03/11/2026** | **24** | **91,7% (22/24)** | **Não comparável entre modalidades** | CGU: revisão unidade 04 4/4; unidade 05 aprendizagem 4/6, revisão 6/6 e para valer 8/8, **um chute declarado na Q8**. Dois erros de aprendizagem preservados, dez revisões intencionais; carga não informada. |
+| **03/11/2026** | **30** | **90,0% (27/30)** | **Não comparável entre modalidades** | CGU: revisão unidade 04 4/4, unidade 05 aprendizagem 4/6, revisão 6/6 e para valer 8/8 (Q8 por chute), unidade 06 aprendizagem 5/6 (erro em política de acesso, IN SFC nº 3/2017, item 154). Três erros no dia, dez revisões intencionais; carga não informada. |
 | **02/11/2026** | **14** | **85,7% (12/14)** | **Não calculável entre modalidades distintas** | **Carga não relatada**: CGU Auditoria, unidade 04, aprendizagem 6/6 e para valer 6/8 (um erro em competência para alterar PAINT, um branco em fatores indiretos). P3 hipotética da bateria para valer: +10/16. |
 | **30/10/2026** | **24** | **83,3% (20/24)** | **83,3%** (peso 1,0) | **Carga não relatada**: CGU Auditoria, aprendizagem 8/9, para valer 12/15; quatro erros de classificação e responsabilidade, duas unidades concluídas, uma questão anulada fora do cálculo. Nenhum simulado. |
 | 10/10/2026 | 70 | 85,7% (60/70) | 85,4% | **Alta**: Simulado 07 integral. Português 9/12, Inglês 11/12, Lógica 4/5, Atualidades/IA 6/6, Legislação 4/5 e Comunicação 26/30; **99/115**. Primeiro caderno pós-ledger: 97,1% de mecanismos novos e 0 repetição exata. Queda frente aos simulados anteriores sem evidência de colapso; maior novidade tornou o instrumento mais exigente. |

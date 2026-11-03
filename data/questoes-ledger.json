@@ -401,6 +401,46 @@
         "note": "Q8 confidence=guess declarado após a resposta; Q1-7 sem grau de confiança informado (unknown). Não inferir acertos seguros."
       },
       "syncStatus": "sincronizado_com_avancos_locais_globais_log_hub_nota_e_edital"
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade06-aprendizagem",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "date": "2026-11-03",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "origin": "inedita",
+      "totalQuestions": 6,
+      "plannedItems": 6,
+      "validItems": 6,
+      "annulledItems": 0,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityStatus": "aprendizagem_unidade06_5_6",
+      "qualityNote": "Primeira bateria da unidade 06: 5/6; único erro Q6, confundindo competência da UAIG para propor/reger política de acesso com exigências de análise jurídica e aprovação pela alta administração (IN SFC nº 3/2017, item 154, c). Sem brancos, não é simulado ou prova calibrada.",
+      "generationAudit": {
+        "counts": {
+          "new": 5,
+          "thematic": 1,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0.8333333333333334,
+        "thematicRate": 0.16666666666666666,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0
+      },
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Grau de confiança e justificativas não fornecidos; erro categorizado provisoriamente."
+      },
+      "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_e_nota"
     }
   ],
   "questions": [
@@ -8948,6 +8988,224 @@
         "cge-al-2026-cebraspe-controle-interno-q70"
       ],
       "userReasoning": "Usuário informou explicitamente: 'confesso que chutei a última'. Acerto por chute, não conhecimento confirmado.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-q1",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 1,
+      "questionNumberInBatch": 1,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Suficiência não compensa má qualidade",
+      "questionType": "case",
+      "mechanism": "volume-de-registros-nao-compensa-baixa-adequacao",
+      "distractorMechanism": "suficiencia-compensaria-fonte-ruim",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade06-aprendizagem",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT CGU seção 5.3.1; IN SFC nº 3/2017, item 150",
+      "userReasoning": "Resposta selecionada sem justificativa verbalizada ou grau de confiança.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-q2",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 2,
+      "questionNumberInBatch": 2,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Fonte externa processada internamente",
+      "questionType": "case",
+      "mechanism": "fonte-externa-transformada-pela-gestao-perde-confiabilidade-potencial",
+      "distractorMechanism": "origem-externa-garantiria-confiabilidade",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade06-aprendizagem",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT CGU, seção 5.3.3",
+      "userReasoning": "Resposta selecionada sem justificativa verbalizada ou grau de confiança.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-q3",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 3,
+      "questionNumberInBatch": 3,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Indício documental não comprova irregularidade",
+      "questionType": "case",
+      "mechanism": "cadastros-duplicados-indicio-nao-prova-pagamento-ilegal",
+      "distractorMechanism": "circunstancial-documental-viraria-conclusiva",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade06-aprendizagem",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT CGU, seção 5.3.2",
+      "userReasoning": "Resposta selecionada sem justificativa verbalizada ou grau de confiança.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un05-pv-q3"
+        ],
+        "intentional": false,
+        "transformation": "Examina indício circunstancial em registros de cadastro após possível achado em matriz.",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-q4",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 4,
+      "questionNumberInBatch": 4,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Papéis de trabalho e sustentação documental",
+      "questionType": "application",
+      "mechanism": "documentacao-permite-revisao-auditor-independente",
+      "distractorMechanism": "explicacoes-verbais-substituiriam-papeis",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade06-aprendizagem",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT CGU, seção 5.7.1 e 5.7.2; IN SFC nº 3/2017, itens 150 e 151",
+      "userReasoning": "Resposta selecionada sem justificativa verbalizada ou grau de confiança.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-q5",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 5,
+      "questionNumberInBatch": 5,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Papel permanente versus papel corrente",
+      "questionType": "classification",
+      "mechanism": "uso-perene-vs-exame-especifico-nao-idade",
+      "distractorMechanism": "classificacao-pelo-tempo-de-criacao",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade06-aprendizagem",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT CGU, seção 5.7.3",
+      "userReasoning": "Resposta selecionada sem justificativa verbalizada ou grau de confiança.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-q6",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-aprendizagem",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 6,
+      "questionNumberInBatch": 6,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Competência pela política de acesso a papéis",
+      "questionType": "application",
+      "mechanism": "politica-acesso-depende-analise-juridica-aprovacao-alta-administracao",
+      "distractorMechanism": "uaig-aprovaria-isoladamente-politica",
+      "trainingMode": "aprendizagem",
+      "origin": "inedita",
+      "part": "unidade06-aprendizagem",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "errorType": "C",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "IN SFC nº 3/2017, item 154, c; MOT CGU, seção 5.7.5",
+      "userReasoning": "O aluno marcou C para dispensa de assessoria jurídica e alta administração, sem justificativa. Classificação provisória como confusão de responsabilidades/competências.",
       "repetition": {
         "classification": "new",
         "similarTo": [],

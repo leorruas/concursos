@@ -9,6 +9,7 @@ O assistente prepara este registro; o estudante só precisa responder às quest�
   "schemaVersion": 1,
   "id": "cgu-2026-2026-11-03-auditoria-b01",
   "date": "2026-11-03",
+  "startedAt": "2026-11-03T18:00:00-03:00",
   "concursoId": "cgu-2026",
   "banca": "Cebraspe",
   "kind": "microtreino",
@@ -40,7 +41,7 @@ O assistente prepara este registro; o estudante só precisa responder às quest�
 }
 ```
 
-Modalidades: `aprendizagem`, `para_valer`, `real`, `adaptada`, `revisao`. Separar arquivos se a modalidade mudar. `status`: `parcial` ou `concluido`. `discipline` é o nome exato da pasta da matéria e exige `Avancos.md` já criado/indexado. Sessões mistas podem ter várias disciplinas. `date` é a data local da resolução, em America/Sao_Paulo; separar dias diferentes em sessões distintas.
+Modalidades: `aprendizagem`, `para_valer`, `real`, `adaptada`, `revisao`. Separar arquivos se a modalidade mudar. `status`: `parcial` ou `concluido`. `discipline` é o nome exato da pasta da matéria e exige `Avancos.md` já criado/indexado. Sessões mistas podem ter várias disciplinas. `startedAt` é a data/hora de início com fuso, preservada nas correções para ordenar sessões do mesmo dia. `date` é a data local da resolução, em America/Sao_Paulo; separar dias diferentes em sessões distintas.
 
 `format`: `CE` aceita C/E; `AE` aceita A/B/C/D/E e exige `options` com cinco textos em ordem. `userAnswer: null` significa branco explícito. `confidence`: `secure`, `insecure`, `guess`, `unknown`. Não deduzir segurança pelo acerto. `origin`: `inedita`, `real`, `adaptada`. Questões reais/adaptadas e treino para valer exigem `sourceEvidence` com identificação verificável de prova, item e gabarito/calibração. Para adaptações, declarar as mudanças. O validador verifica presença; a conferência factual é tarefa do assistente.
 

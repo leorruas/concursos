@@ -502,9 +502,9 @@
       "annulledItems": 0,
       "ledgerCoverage": "complete",
       "benchmarkEligible": false,
-      "noveltyException": "Revisão dirigida, quatro mecanismos intencionalmente derivados da questão Q6 de aprendizagem da unidade 06; 1 mecânico e 3 temáticos. Aferição de aprendizagem, não benchmark.",
+      "noveltyException": "Revisão aplicada intencional de 2 mecanismos temáticos; não é benchmark independente.",
       "qualityStatus": "revisao_2_2",
-      "qualityNote": "2/2 na reaplicação; avanço autorizado para treino para valer.",
+      "qualityNote": "2/2: aprovação da política pela alta administração e distinção de procedimentos técnicos.",
       "generationAudit": {
         "counts": {
           "new": 0,
@@ -522,7 +522,51 @@
         "coverage": "partial",
         "note": "Usuário não explicou escolhas nem grau de confiança."
       },
-      "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_e_nota"
+      "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_nota"
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "date": "2026-11-03",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "para_valer"
+      ],
+      "origin": "inedita",
+      "totalQuestions": 8,
+      "plannedItems": 8,
+      "validItems": 8,
+      "annulledItems": 0,
+      "correctItems": 6,
+      "incorrectItems": 1,
+      "blankItems": 1,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "noveltyException": "Quatro mecanismos novos e quatro temáticos; calibração parcial por CGE/AL 2026, item 61; sem equivalência de simulado integral.",
+      "qualityStatus": "para_valer_un06_6_8",
+      "qualityNote": "6/8: branco Q3 (dois auditores na observação exclusiva), erro Q6 (relatório anterior como papel permanente); revisão espaçada pendente.",
+      "generationAudit": {
+        "counts": {
+          "new": 4,
+          "thematic": 4,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0.5,
+        "thematicRate": 0.5,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0
+      },
+      "confidenceTracking": {
+        "coverage": "partial",
+        "note": "Um branco; nenhum chute declarado nesta bateria, demais confianças desconhecidas."
+      },
+      "syncStatus": "sincronizado_com_avancos_local_global_log_hub_edital_nota"
     }
   ],
   "questions": [
@@ -9475,7 +9519,7 @@
         "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)"
       ],
       "normativeBasis": "IN SFC nº 3/2017, item 154(c); MOT 5.7.5",
-      "userReasoning": "Marcada C, sem justificativa. Repetiu a atribuição indevida de aprovação ao titular da UAIG após análise jurídica; erro normativo de competência, provisoriamente [C].",
+      "userReasoning": "Assinalou E corretamente: parecer jurídico não substitui aprovação institucional pela alta administração. Confiança não declarada.",
       "repetition": {
         "classification": "thematic",
         "similarTo": [
@@ -9521,6 +9565,326 @@
         ],
         "intentional": true,
         "transformation": "Novo caso institucional",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-para-valer-q1",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 1,
+      "questionNumberInBatch": 1,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Extração incompleta e generalização",
+      "questionType": "case",
+      "mechanism": "populacao-extraida-exclui-cancelados",
+      "distractorMechanism": "amostra-grande-compensaria-exclusao",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade06-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT 5.3.1, 5.3.3",
+      "calibrationEvidence": [
+        "CGE/AL 2026 item 61: correspondência parcial de mecanismo documental"
+      ],
+      "userReasoning": "Resposta indicada sem justificativa ou declaração de segurança.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un06-q1"
+        ],
+        "intentional": false,
+        "transformation": "Nova situação para mecanismo temático",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-para-valer-q2",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 2,
+      "questionNumberInBatch": 2,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Corroboração por fontes independentes",
+      "questionType": "application",
+      "mechanism": "relatorios-de-setores-mesma-base",
+      "distractorMechanism": "setores-diferentes-seriam-fontes-independentes",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade06-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT 5.3.2, 5.3.3",
+      "calibrationEvidence": [
+        "CGE/AL 2026 item 61: correspondência parcial de mecanismo documental"
+      ],
+      "userReasoning": "Resposta indicada sem justificativa ou declaração de segurança.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-para-valer-q3",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 3,
+      "questionNumberInBatch": 3,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Observação direta exclusiva com dois auditores",
+      "questionType": "application",
+      "mechanism": "observacao-exclusiva-dois-auditores",
+      "distractorMechanism": "evento-único-dispensaria-dois-auditores",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade06-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": null,
+      "result": "blank",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT 5.3.2",
+      "calibrationEvidence": [
+        "CGE/AL 2026 item 61: correspondência parcial de mecanismo documental"
+      ],
+      "userReasoning": "Em branco, motivo não declarado; não classificar como chute.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-para-valer-q4",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 4,
+      "questionNumberInBatch": 4,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Depoimento escrito continua testemunhal",
+      "questionType": "classification",
+      "mechanism": "testemunho-assinado-nao-conclusivo",
+      "distractorMechanism": "assinatura-alteraria-natureza-da-evidencia",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade06-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT 5.3.2",
+      "calibrationEvidence": [
+        "CGE/AL 2026 item 61: correspondência parcial de mecanismo documental"
+      ],
+      "userReasoning": "Resposta indicada sem justificativa ou declaração de segurança.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-para-valer-q5",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 5,
+      "questionNumberInBatch": 5,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Conciliação gera evidência analítica",
+      "questionType": "application",
+      "mechanism": "conciliacao-dados-evidencia-analitica",
+      "distractorMechanism": "cruzamento-conclusivo-sem-considerar-dados",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade06-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT 5.3.1, 5.3.2",
+      "calibrationEvidence": [
+        "CGE/AL 2026 item 61: correspondência parcial de mecanismo documental"
+      ],
+      "userReasoning": "Resposta indicada sem justificativa ou declaração de segurança.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false,
+        "transformation": null,
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-para-valer-q6",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 6,
+      "questionNumberInBatch": 6,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Relatórios anteriores podem integrar papéis permanentes",
+      "questionType": "classification",
+      "mechanism": "relatorio-anterior-arquivo-permanente",
+      "distractorMechanism": "origem-trabalho-especifico-impediria-permanente",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade06-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "E",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "errorType": "C",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Refinamento: treino para valer da unidade 06 (03/11)"
+      ],
+      "normativeBasis": "MOT 5.7.3",
+      "calibrationEvidence": [
+        "CGE/AL 2026 item 61: correspondência parcial de mecanismo documental"
+      ],
+      "userReasoning": "Marcou E para item correto; hipótese de confusão de classificação, não confirmada sem justificativa.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un06-q5"
+        ],
+        "intentional": false,
+        "transformation": "Nova situação para mecanismo temático",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-para-valer-q7",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 7,
+      "questionNumberInBatch": 7,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Supervisão não substitui documentação",
+      "questionType": "application",
+      "mechanism": "supervisor-nao-dispensa-documentacao",
+      "distractorMechanism": "relato-verbal-substituiria-papeis",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade06-para-valer",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "MOT 5.7.1 e 5.7.2",
+      "calibrationEvidence": [
+        "CGE/AL 2026 item 61: correspondência parcial de mecanismo documental"
+      ],
+      "userReasoning": "Resposta indicada sem justificativa ou declaração de segurança.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un06-q4"
+        ],
+        "intentional": false,
+        "transformation": "Nova situação para mecanismo temático",
+        "userFlagged": false
+      }
+    },
+    {
+      "id": "cgu26-auditoria-un06-para-valer-q8",
+      "sourceId": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
+      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
+      "date": "2026-11-03",
+      "number": 8,
+      "questionNumberInBatch": 8,
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação de auditoria",
+      "subtopic": "Política aprovada e pedidos individuais",
+      "questionType": "application",
+      "mechanism": "politica-aprovada-responsaveis-pedidos",
+      "distractorMechanism": "alta-administracao-decidira-cada-pedido",
+      "trainingMode": "para_valer",
+      "origin": "inedita",
+      "part": "unidade06-para-valer",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "result": "correct",
+      "confidence": "unknown",
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md#Expansão: unidade 06, evidências e documentação"
+      ],
+      "normativeBasis": "IN SFC 3/2017 item 154; MOT 5.7.5",
+      "calibrationEvidence": [
+        "CGE/AL 2026 item 61: correspondência parcial de mecanismo documental"
+      ],
+      "userReasoning": "Resposta indicada sem justificativa ou declaração de segurança.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un06-revisao-q3"
+        ],
+        "intentional": false,
+        "transformation": "Nova situação para mecanismo temático",
         "userFlagged": false
       }
     }

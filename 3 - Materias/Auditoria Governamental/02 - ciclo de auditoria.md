@@ -221,7 +221,7 @@ A aprendizagem anterior havia sido **4/6**, com erro em escopo × critério e na
 
 ### Expansão: unidade 06, evidências e documentação
 
-**Fontes normativas:** [IN SFC nº 3/2017, Referencial Técnico, itens 143, 148 e 150 a 154](https://repositorio.cgu.gov.br/bitstream/1/33409/21/Instrucao_Normativa_CGU_3_2017.pdf); [Manual de Orientações Técnicas (MOT), seções 5.2, 5.3 e 5.7](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal). **Aula no chat em 03/11/2026, diagnóstico de aprendizagem pendente.** Conteúdo concentrado em trabalhos de avaliação, sem transplantar requisitos próprios a outros serviços.
+**Fontes normativas:** [IN SFC nº 3/2017, Referencial Técnico, itens 143, 148 e 150 a 154](https://repositorio.cgu.gov.br/bitstream/1/33409/21/Instrucao_Normativa_CGU_3_2017.pdf); [Manual de Orientações Técnicas (MOT), seções 5.2, 5.3 e 5.7](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal). **Aula e quatro baterias concluídas em 03/11/2026; revisão espaçada pendente.** Conteúdo voltado a trabalhos de avaliação.
 
 #### Caso-base: denúncia de pagamentos duplicados
 
@@ -290,7 +290,7 @@ O MOT orienta a evitar duplicação de documentos permanentes nos arquivos corre
 
 **Heurística:** suficiência = *quanto basta*; confiabilidade = *de onde/como veio*; fidedignidade = *retrata o fato?*; relevância = *responde à questão?*; utilidade = *ajuda a concluir e melhorar?*; papel permanente = *serve a vários trabalhos*; corrente = *documenta este trabalho*.
 
-**Status (03/11/2026):** aula ministrada, aprendizagem **5/6** e revisão dirigida **3/4**, com **reincidência do erro de competência para aprovação da política de acesso**. O diagnóstico para valer permanece pendente até novo teste aplicado.
+**Status (03/11/2026):** aula e fronteiras ensinadas; aprendizagem 5/6, revisão dirigida 3/4, aplicada 2/2, para valer 6/8: **16/20 (80%)**. Encerramento didático com revisão espaçada sobre classificação de papéis, observação direta exclusiva e competência para política de acesso.
 
 
 #### Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)
@@ -313,9 +313,21 @@ O MOT orienta a evitar duplicação de documentos permanentes nos arquivos corre
 
 **Resultados da revisão:** Q2 C (organização e armazenamento pertencem ao responsável da UAIG, item 152, enquanto aprovação da política de acesso cabe à alta administração); Q3 C (a política pode disciplinar responsáveis pelos pedidos concretos, MOT 5.7.5(b)); Q4 E (a política não pode inviabilizar atribuições de agentes públicos autorizados por lei, MOT 5.7.5). **Q1 E** (aprovação definitiva pela UAIG seria erro). Nenhum branco. O novo erro é registrado separadamente, provisoriamente como confusão normativa de competência, sem atribuir distração não demonstrada.
 
-**Situação didática:** em dois treinos da unidade 06, **8 acertos em 10 itens**. A dificuldade remanescente é a atribuição da competência de aprovação institucional, apesar dos acertos nas competências operacionais. **Treino para valer ainda pendente**; primeiro testar essa distinção em um caso novo que não repita literalmente a mesma formulação. Não registrar domínio com base nos 3 acertos do conjunto.
+**Situação didática intermediária:** primeiros treinos 8/10, com erro repetido em aprovação da política de acesso. Posteriormente revisão aplicada 2/2 e para valer 6/8; diagnóstico final abaixo.
 
 
+
+#### Refinamento: treino para valer da unidade 06 (03/11)
+
+**Resultado:** 6/8. Gabarito C/E/C/E/C/C/E/C; respostas C/E/B/E/C/E/E/C. Erro Q6 e branco Q3. A revisão aplicada anterior (2/2) e Q8 correta mostraram recuperação imediata na competência de aprovação de política de acesso pela alta administração, distinta da análise jurídica e da organização dos papéis pela UAIG (IN SFC nº 3/2017, itens 152 e 154(c)).
+
+**Permanente × corrente:** o MOT 5.7.3 apresenta **relatórios de auditoria de exercícios anteriores** entre os exemplos de papéis permanentes. O relatório do trabalho atual pode integrar os papéis correntes. A classificação considera utilidade e função de consulta posterior, e não apenas onde o documento foi originalmente produzido. Q6 rejeitou erroneamente a possibilidade de manter um relatório de exercício anterior no arquivo permanente. Registrar como confusão conceitual provisória, pois não houve justificativa pessoal.
+
+**Observação direta exclusiva:** o MOT 5.3.2 determina a presença de **pelo menos dois auditores internos para analisar informação somente obtenível por observação direta**. O requisito depende da exclusividade dessa forma de obtenção, e não de o evento acontecer uma vez ou várias. Q3 ficou em branco, sem motivo declarado; não se pode classificar como chute.
+
+**Demais acertos:** Q1 rejeitou generalizar a partir de extração incompleta; Q2 negou independência a relatórios da mesma base; Q4 preservou natureza testemunhal do depoimento escrito; Q5 reconheceu evidência analítica por conciliação dependente da qualidade dos dados; Q7 exigiu documentação apesar de supervisor presente; Q8 diferenciou aprovação da política de decisões individuais. Quatro mecanismos novos e quatro retomados tematicamente; comparação parcial com o item 61 da CGE/AL 2026, sem equivalência de dificuldade nem simulado integral.
+
+**Encerramento didático:** quatro baterias: 5/6, 3/4, 2/2 e 6/8, somando **16/20**. A revisão espaçada deve abordar os dois auditores na observação exclusiva, o uso de relatórios anteriores em papéis permanentes e a aprovação institucional da política de acesso. Próxima unidade: 07, procedimentos e testes de auditoria.
 
 ### 1. Planejamento: formular perguntas que os testes poderão responder
 

@@ -54,11 +54,11 @@ A escolha da **lotação** será feita na inscrição e implica concorrência e 
 | :--- | :--- | :--- |
 | LAI, LGPD, Direito Administrativo, governança | Notas canônicas existentes e conteúdo parcialmente aproveitável | Revisão aplicada à atuação da CGU e ao julgamento C/E |
 | Pesquisa, amostragem, entrevistas, indicadores | Há base em pesquisa em comunicação e atualidades | Ampliar para avaliação de políticas, validade e inferência causal |
-| Auditoria governamental | Notas próprias 01–05; finalidade, três linhas, ciclo, independência, ceticismo e riscos/controles estudados | **48 itens válidos: 40 acertos, 7 erros e 1 branco**; fechar unidade 05 e avançar para testes, achados e evidências |
+| Auditoria governamental | Notas 01 a 05; unidades 02 a 06 aprofundadas e encerradas didaticamente; unidade 06 na nota 02 | **82 itens válidos, 70 acertos, 10 erros e dois brancos; U06: 16/20** | Revisão espaçada de papéis permanentes e observação exclusiva; prosseguir unidade 07 |
 | Orçamento e contabilidade pública | Base conceitual limitada em política fiscal; falta contabilidade pública e execução | Estudo prioritário, ainda sem exposição medida |
 | Contratações e transferências | Licitações e contratos já existem; fiscalização, evidências e transferências exigem expansão | Treino por situações-problema |
 | Responsabilização e integridade CGU | Base parcial em improbidade e processo administrativo | Estudar PAD, PAR, leniência, TAC, proteção de denunciantes |
-| Desempenho CGU | **48 itens de microtreino em Auditoria Governamental: 40 acertos, 7 erros e 1 branco; sem prova/simulado integral** | Fazer diagnóstico próprio por P1/P2/P3; nunca projetar nota com simulados FGV |
+| Desempenho CGU | **82 itens válidos: 70 acertos, 10 erros, dois brancos, mais uma anulada; sem simulado integral** | Diagnóstico por P1/P2/P3 e nota líquida ainda pendentes |
 
 **Nota metodológica:** “nota existente” mede cobertura documental, não comprova domínio nem exposição efetiva ao programa CGU. O diagnóstico deve inaugurar a série de desempenho deste concurso.
 
@@ -66,7 +66,7 @@ A escolha da **lotação** será feita na inscrição e implica concorrência e 
 
 - [x] Concluir a Dataprev em 11/10, sem antecipar o abandono do treino FGV.
 - [ ] Fazer diagnóstico Cebraspe **CGU/Auditoria**: itens por bloco, registro de C, E e branco, sem copiar métricas da Câmara.
-- [x] Iniciar Auditoria Governamental: finalidade, três linhas, ciclo, independência, ceticismo, governança, riscos e controles. Testes/amostragem, achados e evidências seguem pendentes de validação.
+- [x] Iniciar Auditoria Governamental: finalidade, três linhas, ciclo, independência, ceticismo, governança, riscos, controles e evidências/documentação (unidades 02 a 06). Próximos: procedimentos e testes, amostragem e achados.
 - [ ] Iniciar orçamento/contabilidade pública com estudo e itens próprios.
 - [ ] Produzir a primeira discursiva curta e a primeira situação-problema manuscritas.
 - [ ] Montar corpus próprio de provas reais CGU/controle/auditoria: órgão, ano, banca, item e gabarito definitivo; verificar atualidade normativa antes de usar.
@@ -117,9 +117,9 @@ Mapa dos **objetos de avaliação do item 15 do edital CGU nº 1/2026**, para o 
 
 ## Passagens comprovadas em Auditoria Governamental
 
-Atualização baseada em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]], em 03/11/2026: **48 itens válidos**, com **40 acertos, 7 erros e 1 branco**; uma questão anulada permanece fora do cálculo. São microtreinos (aprendizagem, para valer e revisão dirigida), **não** um diagnóstico CGU por prova nem simulado integral.
+Atualização baseada em [[3 - Materias/Auditoria Governamental/Avancos|Avanços de Auditoria Governamental]], em 03/11/2026: **82 itens válidos**, **70 acertos, 10 erros, dois brancos**, mais uma questão anulada fora do total. Baterias separadas de aprendizagem, revisão e para valer; não são simulado integral.
 
-Foram estudados e aplicados em itens C/E: finalidade e formas de atuação; três linhas; independência, objetividade, sigilo, proficiência, zelo e ceticismo; ciclo e planejamento de auditoria; PAINT/RAINT e planejamento individual; governança, riscos, controles e risco residual. A unidade de planejamento individual teve primeira aprendizagem de 4/6 e ainda requer revisão e treino para valer. Não marcar como visto, por enquanto, testes/amostragem, achados completos, dados/IA em auditoria, orçamento/contabilidade, avaliação de políticas, contratações/transferências e responsabilização.
+Foram estudados e aplicados em itens C/E: finalidade e serviços, três linhas, independência, sigilo, proficiência e ceticismo; ciclo de auditoria, PAINT/RAINT, planejamento individual, riscos e controles; **evidências e documentação (unidade 06, 16/20)**. Unidades 02 a 06 encerradas didaticamente, revisão espaçada ainda pendente. Faltam aprofundamento e testes em procedimentos e técnicas, amostragem, achados completos, dados/IA aplicados, orçamento/contabilidade, avaliação de políticas e transferências.
 
 ### P1: Conhecimentos básicos (40 itens, +1/-1/0)
 

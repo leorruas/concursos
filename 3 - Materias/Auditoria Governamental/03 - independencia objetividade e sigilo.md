@@ -141,7 +141,7 @@ No estudo dialogado, foram realizadas **três questões didáticas sobre sigilo 
 ## Relações com outros temas
 
 - [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas#Estrutura interna: três modalidades de serviço|Avaliação, consultoria e apuração]]: aconselhar e recomendar sem operar controles.
-- [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#Estrutura interna e fronteiras das etapas|Ciclo da auditoria]]: revisão dos registros e comunicação fundamentada.
+- [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#3. Comunicação: transformar evidências em conclusões úteis|Comunicação no ciclo de auditoria]]: revisão dos resultados e comunicação fundamentada.
 - **Governança, riscos e três linhas:** gestão responde pelo controle; a auditoria avalia e orienta.
 - **Evidências e documentação:** papéis de trabalho, rastreabilidade, revisão técnica, suficiência e adequação.
 - [[3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria|Sigilo, acesso e transparência]]: dever profissional, comunicação institucional e LAI; proteção de dados conforme regras legais aplicáveis.

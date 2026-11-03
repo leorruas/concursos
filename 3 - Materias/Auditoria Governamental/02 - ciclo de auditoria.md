@@ -32,92 +32,7 @@ Depois, para a auditoria de bolsas escolhida, ocorre um **planejamento específi
 
 **Distinção de prova:** PAINT = portfólio anual de atividades. **Programa de trabalho** = procedimentos e testes detalhados de **uma auditoria específica**. O **Relatório Anual de Atividades de Auditoria Interna (RAINT)** apresenta informações sobre as atividades realizadas no ano; **não é o relatório final de uma auditoria individual**.
 
-A priorização dos objetos, o plano anual e o planejamento de cada trabalho têm notas próprias. O **Plano Anual de Auditoria Interna (PAINT)** seleciona serviços; o **Relatório Anual de Atividades de Auditoria Interna (RAINT)** descreve a execução; o **programa individual** define procedimentos de um trabalho.
-
-### Refinamento: seleção de objetos com gestão de riscos pouco madura
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos]].
-
-#### Três bases para priorização: ordem preferencial na orientação da CGU
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos]].
-
-#### Materialidade, relevância e criticidade: três perguntas diferentes
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos]].
-
-#### Priorização dos objetos × escolha dos trabalhos do PAINT
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos]].
-
-### Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas
-
-Ver [[3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas]].
-
-#### Compor o PAINT: da ordem de prioridades ao portfólio possível (arts. 3º e 4º)
-
-Ver [[3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas]].
-
-#### Sequência de competências e prazos do PAINT (arts. 5º a 9º)
-
-Ver [[3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas]].
-
-#### RAINT: o que foi realizado e com quais resultados (arts. 10 a 14)
-
-Ver [[3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas]].
-
-#### Parecer sobre a prestação de contas: terceiro produto (arts. 15 a 17)
-
-Ver [[3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas]].
-
-### Expansão: unidade 05, planejamento individual do trabalho de auditoria
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria]].
-
-#### Distinção em relação ao PAINT
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria]].
-
-#### Fronteiras entre os elementos
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria]].
-
-#### Matriz, programa e supervisão
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria]].
-
-#### Risco do objeto versus risco de auditoria
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria]].
-
-#### Refinamento a partir dos erros: primeira bateria da unidade 05
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria]].
-
-#### Refinamento: revisão aplicada da unidade 05 (03/11)
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria]].
-
-#### Refinamento: bateria para valer e acerto inseguro (03/11)
-
-Ver [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria]].
-
-
-### Expansão: unidade 06, evidências e documentação
-
-A explicação e os exemplos estão agora em [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao|Evidências e documentação]]. Estes títulos são preservados apenas para manter links anteriores.
-
-#### Refinamento: acesso aos papéis de trabalho (erro Q6 da unidade 06)
-
-Ver [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Refinamento: fronteiras do treino da unidade 06|refinamento da unidade 06]].
-
-#### Refinamento: reaparição do erro em competência de aprovação (unidade 06, 03/11)
-
-Ver [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Refinamento: fronteiras do treino da unidade 06|refinamento da unidade 06]].
-
-#### Refinamento: treino para valer da unidade 06 (03/11)
-
-Ver [[3 - Materias/Auditoria Governamental/Avancos|histórico de respostas]] e [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao|Evidências e documentação]].
+Aprofundamentos: [[3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos#Priorização dos objetos × escolha dos trabalhos do PAINT|seleção por riscos]], [[3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas#Núcleo: programação e prestação de contas|PAINT e RAINT]] e [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria#Fronteiras entre os elementos|planejamento individual]].
 
 ### 1. Planejamento: formular perguntas que os testes poderão responder
 
@@ -146,7 +61,7 @@ Quando uma situação encontrada diverge de um critério aplicável, pode surgir
 
 Um relato ou uma suspeita não substitui evidência. Um teste isolado também não autoriza uma conclusão mais ampla que o escopo ou a amostra permitem. A qualidade da evidência precisa ser considerada: **suficiência**, **confiabilidade**, **relevância** e utilidade para sustentar as conclusões.
 
-**Fronteira:** testar o funcionamento de um controle (ex.: verificar se o sistema bloqueia pagamento sem documentação) é diferente de testar diretamente uma operação ou saldo (ex.: verificar a existência de pagamento indevido). O detalhamento dos **testes de controle × procedimentos substantivos** será estudado na nota sobre evidências e técnicas.
+**Fronteira:** testar o funcionamento de um controle (ex.: verificar se o sistema bloqueia pagamento sem documentação) é diferente de testar diretamente uma operação ou saldo (ex.: verificar a existência de pagamento indevido). As diferenças entre **testes de controle e procedimentos substantivos** integram a unidade 07, ainda em estudo. Para os critérios de qualidade das evidências, veja [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Suficiência × adequação: estrutura normativa|suficiência e adequação]].
 
 ### 3. Comunicação: transformar evidências em conclusões úteis
 
@@ -154,7 +69,7 @@ A equipe discute os achados com a unidade auditada e apresenta **situações ide
 
 A manifestação dos responsáveis ajuda a esclarecer os fatos e a avaliar alternativas de correção. **Ela não transfere ao gestor o poder de substituir a conclusão técnica do auditor**. Também não significa que o auditor assume a gestão ao formular uma recomendação.
 
-**Comunicação ocorre ao longo do trabalho**, mesmo que haja uma etapa formal de comunicação final. Resultados finais de auditoria interna governamental estão sujeitos às regras aplicáveis de publicidade e às exceções legais de sigilo e proteção de dados.
+**Comunicação ocorre ao longo do trabalho**, mesmo que haja uma etapa formal de comunicação final. A comunicação institucional dos fatos e a divulgação pública obedecem a regras diferentes, explicadas em [[3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria#Sigilo profissional: itens 55 a 58 aplicados conjuntamente|sigilo e transparência]].
 
 ### 4. Monitoramento: verificar a resposta e o resultado
 
@@ -183,7 +98,7 @@ Essas atividades podem ocorrer na mesma instituição, mas têm **objetos e resp
 
 ## Relações com outros temas
 
-- [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|Finalidades, três linhas e independência]]: a equipe de auditoria atua como terceira linha; a gestão continua responsável pelos controles e por implementar as recomendações.
+- [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle#Modelo das três linhas|Modelo das três linhas]]: a equipe de auditoria atua como terceira linha; a gestão continua responsável pelos controles e por implementar as recomendações.
 - [[3 - Materias/Administracao Publica/02 - governanca publica|Governança pública]]: riscos, prestação de contas, efetividade e tomada de decisão.
 - [[3 - Materias/Direito Administrativo/11 - controle da administracao publica|Controle da Administração Pública]]: auditoria interna governamental e controle externo são papéis institucionais distintos.
 
@@ -224,4 +139,24 @@ A sequência também conecta as próximas notas: **evidências e técnicas** exp
 - [CGU: Normas de Auditoria Interna](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna). Lista a **IN SFC nº 3/2017**, a **IN SFC/CGU nº 5/2021** e normas complementares.
 - [CGU: Planejamento de Trabalho de Auditoria Baseada em Risco](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/competencias-tecnicas-de-auditoria/trabalho-auditoria-baseada-em-riscos).
 
-**Situação do estudo em 03/11/2026:** unidades 04 e 05 encerradas didaticamente, com revisão espaçada pendente. Os conteúdos aprofundados estão nas notas próprias de planejamento, e a unidade 06 em [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao|Evidências e documentação]]. Ver [[3 - Materias/Auditoria Governamental/Avancos|histórico de exercícios]]; não equivale a simulado integral.
+O histórico e os resultados de aprendizagem ficam em [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]].
+
+## Encaminhamentos de links antigos
+
+Estes títulos preservam referências anteriores à divisão do conteúdo. O estudo aprofundado está nas notas relacionadas.
+
+### Refinamento: seleção de objetos com gestão de riscos pouco madura
+
+[[3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos#Três bases para priorização: ordem preferencial na orientação da CGU|Planejamento baseado em riscos]].
+
+### Refinamento: PAINT e RAINT: programação, aprovação e prestação de contas
+
+[[3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas#Núcleo: programação e prestação de contas|PAINT e RAINT]].
+
+### Expansão: unidade 05, planejamento individual do trabalho de auditoria
+
+[[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria#Núcleo e preparação do trabalho|Planejamento individual]].
+
+### Expansão: unidade 06, evidências e documentação
+
+[[3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Suficiência × adequação: estrutura normativa|Evidências e documentação]].

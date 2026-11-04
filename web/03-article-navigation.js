@@ -161,7 +161,7 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
 
     const avisoEscopo = document.getElementById("artigo-contexto");
     if (avisoEscopo) {
-        const noPrograma = obterArtigosDaMateria(artigo.categoria)
+        const noPrograma = obterArtigosDaMateria(categoriaOrigem)
             .some(item => item.sourcePath === artigo.sourcePath);
         const foraDoPrograma = !modoBibliotecaCompleta && Boolean(obterProgramaSelecionado()) && !noPrograma;
         avisoEscopo.hidden = !foraDoPrograma;

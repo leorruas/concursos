@@ -26,17 +26,21 @@ Um cartão aberto sem avaliação não recebe nota automática ao encerrar. Toda
 
 Se acabarem os cartões elegíveis, apresentar **“Sua fila está em dia”**, com a próxima revisão disponível e opções de escolher outra matéria ou encerrar. A continuidade não deve ser simulada por repetição imediata sem propósito. Oferecer prática antecipada apenas como escolha explícita, preservando a regra de que ensaio no mesmo dia não estabelece retenção espaçada.
 
+## Atualização de 04/11: remover importação manual
+
+A página de flashcards passa a consultar o perfil de prioridades diretamente do GitHub público, sem controle de importação no painel. A interface usa uma linha discreta de estado, sem o campo de arquivo nativo. O acesso ao arquivo continua público no repositório (não no Pages), exigindo transparência; os dados de autoavaliação dos flashcards continuam privados ao navegador. No fechamento da unidade, novos cartões devem entrar em pequenos lotes **após validação editorial**, e o Pages os disponibiliza na publicação seguinte. A consulta de prioridades não gera cartões por conta própria.
+
 ## Seleção, erros e espaçamento
 
-Reutilizar a integração já implementada com `data/contexto-estudo/flashcards-prioridades.json`: erros conceituais recorrentes pendentes, outros erros, incertezas e revisões posteriores à recuperação imediata. A importação permanece uma fotografia com corte visível. Este plano não acrescenta sincronização automática entre navegador e GitHub.
+Reutilizar a integração já implementada com `data/contexto-estudo/flashcards-prioridades.json`: erros conceituais recorrentes pendentes, outros erros, incertezas e revisões posteriores à recuperação imediata. A página agora consulta automaticamente o arquivo de prioridades diretamente do repositório público do GitHub, sem copiar o perfil para o GitHub Pages. O corte continua visível. Falha de rede mantém a última fotografia local, e a consulta nunca substitui outra de data mais recente.
 
-Ao repor a janela de cartões, considerar prioridades importadas, revisões vencidas, dificuldades locais e novos conceitos conforme o modo escolhido. Manter diversidade para que um pequeno conjunto de erros não impeça revisar os demais cartões vencidos. Testar a política com filas concorrentes antes de fixar proporções; evitar uma quota universal sem evidência de necessidade.
+Ao repor a janela de cartões, considerar prioridades sincronizadas, revisões vencidas, dificuldades locais e novos conceitos conforme o modo escolhido. Manter diversidade para que um pequeno conjunto de erros não impeça revisar os demais cartões vencidos. Testar a política com filas concorrentes antes de fixar proporções; evitar uma quota universal sem evidência de necessidade.
 
 Manter históricos separados de recuperação direta, inversa e contraste. Contrastes são relevantes para erros de fronteira, mas só entram quando o cartão tiver pergunta e resposta discriminadoras verificadas. O modo explicitamente direto ou inverso deve respeitar a escolha; eventual modo alternado que inclua contraste precisa ter rótulo correspondente.
 
-Um “Não sei” pode voltar depois de pelo menos três **outros conceitos**, quando houver candidatos suficientes, sem multiplicar indefinidamente a mesma falha na fila. Um “Sei” não volta imediatamente só porque a questão de origem continua pendente. A janela de seleção precisa lembrar o que já foi apresentado naquela sessão e respeitar um período de afastamento; erros importados continuam diagnosticados, mas não se tornam autorização para repetição contínua do mesmo cartão.
+Um “Não sei” pode voltar depois de pelo menos três **outros conceitos**, quando houver candidatos suficientes, sem multiplicar indefinidamente a mesma falha na fila. Um “Sei” não volta imediatamente só porque a questão de origem continua pendente. A janela de seleção precisa lembrar o que já foi apresentado naquela sessão e respeitar um período de afastamento; erros sincronizados continuam diagnosticados, mas não se tornam autorização para repetição contínua do mesmo cartão.
 
-A recuperação em flashcards altera somente o agendamento e a memória local dos cartões. O estado de um erro das questões depende de evidência posterior nas questões e de importação atualizada. Recuperação imediata, retenção posterior e desempenho competitivo continuam distintos.
+A recuperação em flashcards altera somente o agendamento e a memória local dos cartões. O estado de um erro das questões depende de evidência posterior nas questões e da consolidação publicada e consultada pelo navegador. Recuperação imediata, retenção posterior e desempenho competitivo continuam distintos.
 
 ## Persistência e migração
 

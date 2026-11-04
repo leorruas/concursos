@@ -42,6 +42,10 @@ Com base nos artigos já documentados e nas prioridades das questões, complemen
 
 Três cartões novos testam a troca de perspectiva entre despesa do ente transferidor e receita do ente recebedor, programação física versus execução financeira e auditoria operacional versus identificação causal. Dois cartões são compartilhados entre matérias para evitar duplicação de conceito. Seis cartões já existentes ganharam contrastes mais discriminativos. Expansões pontuais nos artigos de classificação orçamentária, monitoramento/avaliação e procedimentos de auditoria. Manter distinção entre publicação do conhecimento e evidência de retenção. Validar no workflow antes de fechar esta etapa.
 
+## Lote de recuperação: auditoria e orçamento (04/11)
+
+Conferidas as prioridades do conjunto CGU, os principais erros recorrentes já tinham cartões: rastreamento × vouching, finalidade do teste de controle, desenho × operação e risco residual. Em vez de clonar definições, nove cartões foram refinados com novos casos e apenas um cartão novo entrou, para risco inerente. O exemplo de registro patrimonial no artigo de procedimentos usa populações de origem distintas e mostra os limites da conclusão. A nota de governança separa risco, desenho, operação e risco residual. A nota de classificações reforça ARO × operação comum e institucional × programática. Preservar metadados, links e acertos no ledger; a revisão espaçada é um evento futuro de estudo, não consequência de publicar texto.
+
 ## Seleção, erros e espaçamento
 
 Reutilizar a integração já implementada com `data/contexto-estudo/flashcards-prioridades.json`: erros conceituais recorrentes pendentes, outros erros, incertezas e revisões posteriores à recuperação imediata. A página agora consulta automaticamente o arquivo de prioridades diretamente do repositório público do GitHub, sem copiar o perfil para o GitHub Pages. O corte continua visível. Falha de rede mantém a última fotografia local, e a consulta nunca substitui outra de data mais recente.

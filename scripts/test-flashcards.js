@@ -38,6 +38,13 @@ for(const id of ['orc-transferencia-gasto-vs-receita','orc-meta-fisica-vs-valor-
 assert(cards.find(c=>c.id==='orc-meta-fisica-vs-valor-pago')?.subjectIds.includes('politicas-publicas'),'Meta física deve ser reutilizada em políticas');
 assert(cards.find(c=>c.id==='pp-auditoria-operacional-vs-impacto')?.subjectIds.includes('auditoria-governamental'),'Conexão entre avaliação e auditoria ausente');
 assert(cards.length>=231,'Cobertura transversal inferior ao lote novo');
+const inerente=cards.find(c=>c.id==='aud-risco-inerente');
+assert(inerente?.examIds.includes('cgu-2026'),'Falta cartão de risco inerente da CGU');
+assert(inerente.subjectIds.includes('governanca-riscos-integridade')&&inerente.subjectIds.includes('auditoria-governamental'),'Risco inerente deve ser compartilhado entre Governança e Auditoria');
+for(const id of ['aud-rastreamento-integridade','aud-vouching-ocorrencia','operacao-controle','desenho-controle','aud-risco-residual','aud-finalidade-teste-controle','aro','institucional','classificacao-programatica']) {
+ const c=cards.find(c=>c.id===id);assert(c?.revision>=2&&c.contrast?.prompt&&c.contrast?.answer,'Revisão/contraste ausente: '+id);
+}
+assert(cards.length>=232,'Coleção deve incluir o cartão novo sem perder anteriores');
 assert(cards.filter(c=>c.subjectIds.includes('politicas-publicas')&&c.examIds.includes('cgu-2026')).length>=15,
  'Cobertura inicial de políticas públicas menor que o lote publicado');
 assert.equal(F.stats(cards,F.empty(),now).unseen,cards.length);

@@ -1260,3 +1260,8 @@ Interface de recuperação ativa integrada à navegação, com 85 conceitos revi
 ## 2026-11-04: refinamento visual dos flashcards
 
 Interface compactada após feedback do usuário: painel inicial com hierarquia editorial, configuração em duas colunas, foco exclusivo no cartão durante a rodada, resposta separada do exemplo e avaliações com indicação de revisão. Temas claro/escuro e largura móvel conferidos no navegador. Motor, coleção e progresso preservados.
+
+
+## 2026-11-04: entrada dos flashcards integrada à home
+
+Link removido do subtítulo principal e substituído por acesso próprio na área de ferramentas de estudo, com descrição do vocabulário CGU e ação de começar rodada. Atalho da navegação superior preservado.

@@ -138,6 +138,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Contabilidade Publica/06 - mic sic e informacoes gerenciais de custos|06 • Sistema de custos, MIC, SIC e indicadores]]
    - [[3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes|07 • Provisões e contingências]]
    - [[3 - Materias/Contabilidade Publica/08 - depreciacao reducao ao valor recuperavel e ativos|08 • Depreciação e recuperabilidade de ativos]]
+   - [[3 - Materias/Contabilidade Publica/09 - demonstracoes societarias das estatais|09 • Demonstrações societárias das estatais]]
 13. [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Avaliação de políticas públicas]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|01 • Teoria da mudança: fundamentos da avaliação]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas|02 • Implementação de políticas públicas]]

@@ -43,6 +43,18 @@
       "sample": "insuficiente"
     },
     {
+      "key": "Orçamento Público / aprendizagem",
+      "total": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 6,
+      "valid": 6,
+      "accuracy": 0.8333333333333334,
+      "sample": "insuficiente"
+    },
+    {
       "key": "Auditoria Governamental / revisao",
       "total": 16,
       "correct": 15,
@@ -81,6 +93,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b01",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b01.json",
+      "status": "parcial",
+      "diagnosis": "Primeira bateria do artigo 01: 5 acertos em 6 respostas, dos quais 1 acerto inseguro (op02). Erro seguro em op03 por confundir dotação autorizada com disponibilidade financeira, apesar da ressalva correta sobre entrega física. Não constitui treino competitivo nem evidência de retenção.",
+      "nextStep": "Retestar dotação versus disponibilidade financeira com outro contexto e recuperar classificação da aprovação legislativa, antes de começar PPA, LDO e LOA (artigo 02)."
+    },
+    {
       "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade",
       "date": "2026-11-04",
       "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
@@ -95,20 +115,18 @@
       "status": "parcial",
       "diagnosis": "Bateria final de aprendizagem U03: 3/4 (C/E/C/E), respostas do estudante C/E/C/C. Erro de confusão conceitual no item 4: a existência de metas operacionais cumpridas somadas à mudança observada no resultado pretendido não identifica por si só o efeito causal da política. Todos os níveis de confiança foram unknown, sem inferir segurança ou insegurança. A unidade tem nota canônica aprofundada, mas permanece aberta até a recuperação do conceito, sem confundir conhecimento documentado e retenção.",
       "nextStep": "Fazer micro-reteste do erro de causalidade com cenário não escolar e mecanismo diferente, pedindo declaração de confiança. Depois registrar encerramento didático e editorial da U03 se a lacuna for recuperada. Manter revisão espaçada da avaliabilidade U01 prevista para 05/11 e U02 para revisão futura."
-    },
-    {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial.json",
-      "status": "concluido",
-      "diagnosis": "Fechamento editorial da unidade 02: artigo canônico específico de implementação consolidado a partir das duas baterias didáticas já resolvidas. Não registra novas questões e não altera resultados nem retenção. Reforça as fronteiras top-down/bottom-up, discricionariedade e arbitrariedade, coordenação, capacidades e barreiras de acesso. A U01 continua com revisão de avaliabilidade pendente.",
-      "nextStep": "Retomar U03, monitoramento e avaliação, com duas baterias respondidas pendentes de consolidação técnica; continuar fronteiras insumos/produtos/resultados/impactos e rever a U01 em 05/11."
     }
   ],
   "recentMechanisms": [
+    "classificacao-de-fases",
     "classificacao-do-fluxo-de-transporte",
     "comparacao-antes-depois-sem-contrafactual-valido",
     "comparador-entre-municipios-condicoes-de-validade",
+    "diferenciacao-de-taxonomias",
+    "diferenciar-autorizacao-e-caixa",
+    "diferenciar-conformidade-e-resultado",
+    "distinguir-produto-e-impacto",
+    "identificacao-de-simultaneidade",
     "indicador-finalistico-em-monitoramento",
     "metas-mais-mudanca-observada-nao-provam-atribuicao",
     "mudanca-observada-com-explicacao-concorrente",
@@ -247,13 +265,31 @@
       "theoryRefs": [
         "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Mudança observada, efeito causal e contrafactual"
       ]
+    },
+    {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b01-q2",
+      "topic": "Ciclo orçamentário",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Discussão e aprovação legislativa"
+      ]
+    },
+    {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b01-q3",
+      "topic": "Orçamento público e execução",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Dotação orçamentária: autorização e limite de gasto"
+      ]
     }
   ],
   "resume": {
-    "subjectId": "politicas-publicas",
-    "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
-    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade",
-    "time": 1793793830000
+    "subjectId": "orcamento-publico",
+    "path": "data/contexto-estudo/cgu-2026/orcamento-publico.json",
+    "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b01",
+    "time": 1793800980000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

@@ -424,7 +424,7 @@
             "orçamento"
           ],
           "path": "data/contexto-estudo/cgu-2026/orcamento-publico.json",
-          "state": "nao-iniciada",
+          "state": "em-estudo",
           "priority": "A"
         },
         {
@@ -477,10 +477,10 @@
         }
       ],
       "resume": {
-        "subjectId": "politicas-publicas",
-        "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
-        "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade",
-        "time": 1793793830000
+        "subjectId": "orcamento-publico",
+        "path": "data/contexto-estudo/cgu-2026/orcamento-publico.json",
+        "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b01",
+        "time": 1793800980000
       }
     },
     {

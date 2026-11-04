@@ -50,3 +50,7 @@ No site, importar o arquivo pelo controle “Importar prioridades”. A importa�
 O progresso local continua no formato 1, agora com `priorities` opcional, incluído no backup. Backups antigos continuam válidos. Alterar autoavaliação do cartão não resolve erro no perfil; só nova evidência em questões muda o diagnóstico após nova consolidação e importação. Conceitos e concursos seguem isolados. O corte importado aparece na tela; não existe sincronização automática entre GitHub e armazenamento local.
 
 Primeira integração: vínculos conferidos para orçamento, causalidade em políticas públicas e teste de controle. Acrescentado cartão de consultoria prévia/objetividade (IN SFC 3/2017, itens 52 e 53) para um erro recorrente documentado. Outras lacunas permanecem na fila editorial.
+
+## Próxima evolução planejada
+
+Plano canônico: [[1 - Planejamento/Flashcards - Sessoes continuas e ampliacao|Sessões contínuas e ampliação por matéria]]. Prevê sessões sem conclusão obrigatória a cada dez cartões, encerramento voluntário no botão atual de pausa, migração dos dados, fila de trabalho limitada e expansão orientada pelas lacunas das quinze matérias. Está planejado, sem alterar o comportamento atual documentado acima.

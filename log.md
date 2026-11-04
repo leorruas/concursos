@@ -1270,3 +1270,8 @@ Link removido do subtítulo principal e substituído por acesso próprio na áre
 ## 2026-11-04: flashcards orientados pelos erros das questões
 
 Consolidação gera perfil de prioridades a partir de todas as páginas de lacunas, com vínculos conceituais explícitos, fila editorial de conceitos sem cartão e separação por concurso/matéria. O arquivo pessoal não entra no site público. Importação local orienta novas rodadas, preserva avaliações e não resolve lacunas do estudo. Acrescentado cartão de consultoria prévia/objetividade para um erro recorrente registrado. Testes verificam recorrência, recuperação imediata, retenção, falha posterior, isolamento e compatibilidade dos backups.
+
+
+## 2026-11-04: plano de sessões contínuas e expansão dos flashcards
+
+Registrado plano de sessão contínua com encerramento voluntário, migração de backups, preservação do agendamento e limites de repetição. Inventário de 86 cartões únicos e das quinze matérias CGU orienta expansão por lacunas e fontes. O plano prevê tratamento inicial da fila de conceitos sem cartão, coleções hoje zeradas e critérios de teste/publicação. Nesta operação apenas planejamento e índices foram alterados; a interface e a coleção permanecem como estão.

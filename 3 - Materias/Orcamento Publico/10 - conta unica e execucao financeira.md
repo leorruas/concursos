@@ -95,6 +95,28 @@ O contraste mais útil: **provisão/destaque movimentam crédito; cota/repasse/s
 
 Uma unidade precisa realizar projeto e recebe **destaque de crédito** de outro órgão. Ela tem autorização para efetuar empenhos dentro do crédito descentralizado, observadas as regras. Para realizar pagamentos, precisará de **recursos financeiros**, cuja movimentação segue cotas, repasses ou sub-repasses conforme o vínculo entre as unidades. **Destaque não é repasse financeiro**: são dimensões paralelas.
 
+### Quem define o momento do pagamento e quando há caixa?
+
+O ingresso financeiro depende da **arrecadação efetiva**, das demais entradas de recursos e das disponibilidades já existentes: a publicação da LOA, por si, não deposita dinheiro na conta de nenhum órgão. A **Lei de Responsabilidade Fiscal (LRF), art. 8º**, determina que o **Poder Executivo** estabeleça, até **30 dias depois da publicação dos orçamentos**, a programação financeira e o **cronograma mensal de desembolso**. Esse calendário organiza a execução conforme o fluxo provável de receitas e os limites fiscais; não é uma garantia de que todo o valor autorizado esteja disponível de imediato.
+
+Na União, a **Secretaria do Tesouro Nacional (STN)** é o órgão central da programação financeira. O **órgão setorial de programação financeira** consolida as necessidades das unidades vinculadas e distribui disponibilidades conforme a programação; a **unidade gestora executora** empenha, liquida e paga a despesa, nos limites aplicáveis. A execução pode envolver órgãos de diferentes Poderes, cujos regimes de programação e autonomia devem ser respeitados; não atribuir ao Tesouro a decisão individual sobre cada contrato ou pagamento.
+
+Na **Conta Única federal**, o fluxo financeiro para uma autarquia pode se dar por **limites de saque e registros no SIAFI**, sem que cada liberação corresponda a um depósito em conta bancária individual da autarquia. É no pagamento ao fornecedor ou beneficiário, depois dos procedimentos regulares, que há o desembolso final. Nem toda entidade ou operação utiliza o mesmo arranjo bancário, pois existem hipóteses regulamentadas de contas e procedimentos específicos.
+
+**Exemplo hipotético:** a LOA autoriza R$ 1 milhão para uma autarquia federal; o limite de empenho corrente pode ser R$ 800 mil, e a programação de pagamentos do mês, R$ 200 mil. Mesmo que R$ 500 mil tenham sido empenhados e R$ 300 mil liquidados, a dotação **não equivale** ao dinheiro em caixa, o limite financeiro **não comprova pagamento**, e os valores pendentes demandam observância da programação e das obrigações assumidas. Ver também [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|programação e contingenciamento]].
+
+### Transferência entre entes federativos não é repasse interno do SIAFI
+
+A expressão **repasse** exige identificar os sujeitos e o fundamento:
+
+- **Dentro da União:** cota, repasse e sub-repasse são modalidades de **descentralização financeira** entre estruturas de sua própria execução orçamentária e financeira. Por exemplo, movimentação de recursos para uma unidade gestora de **autarquia federal**: a autarquia faz parte da administração indireta federal, **não é novo ente federativo**.
+- **Da União para estados ou municípios:** são **transferências intergovernamentais**, constitucionais, legais ou por instrumentos próprios. O **Fundo de Participação dos Municípios (FPM)** é transferido diretamente aos municípios, sem passagem obrigatória pelos estados. O **Fundo de Participação dos Estados (FPE)** tem os estados e o Distrito Federal como beneficiários.
+- **No âmbito de cada estado ou município:** há orçamento, receitas, tesouraria e administração indireta próprios. Uma **autarquia estadual** integra o orçamento do estado; uma **autarquia municipal**, o do município, observadas as respectivas regras de execução.
+
+Portanto, **União → estado → município → autarquia** não é uma sequência geral de liberação financeira. Os entes são politicamente autônomos e recebem transferências conforme o tipo de receita ou instrumento. Já a liberação financeira para uma autarquia é operação na estrutura orçamentária do **ente a que ela pertence**, com regras próprias de execução. Uma entidade de outro ente também pode ser destinatária de transferência intergovernamental quando o instrumento legal permitir: a classificação decorre da operação, não somente do nome da entidade.
+
+**Fronteiras para itens C/E (CGU 2026):** aprovação de dotação × arrecadação efetiva; programação mensal × caixa já existente; **cota/repasse/sub-repasse** no sistema federal × **FPM/FPE**; **autarquia (administração indireta)** × **estado ou município (ente federativo)**; liberação de limite de saque × transferência bancária ao fornecedor.
+
 ## SIAFI: papel e limites da informação
 
 O **SIAFI** é o instrumento central federal de acompanhamento e controle da execução orçamentária, financeira, patrimonial e contábil. Registra empenhos, movimentações financeiras, documentos e saldos, de modo a permitir gestão e fiscalização.
@@ -168,5 +190,8 @@ Quando a questão falar em “transferência”, primeiro identifique se houve *
 - [Tesouro Nacional: SIAFI e suas funções](https://www.gov.br/tesouronacional/pt-br/siafi).
 - [Manual SIAFI: cota, repasse e sub-repasse](https://conteudo.tesouro.gov.br/manuais/modules/mod_pdf_manual/pdf/manual-siafi.pdf).
 - [LRF, art. 8º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm).
+- [Tesouro Nacional: Cronograma de Pagamento dos Órgãos](https://www.gov.br/tesouronacional/pt-br/execucao-orcamentaria-e-financeira/programacao-financeira/cronograma-de-pagamento-dos-orgaos).
+- [Tesouro Nacional: Transferências Constitucionais e Legais](https://www.gov.br/tesouronacional/pt-br/estados-e-municipios/transferencias-a-estados-e-municipios/transferencias-constitucionais-e-legais).
+- [Tesouro Nacional: Execução orçamentária e financeira no SIAFI](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos).
 
 A terminologia federal pode variar com procedimentos e manuais atualizados. A consulta a uma nota preparada **não significa estudo registrado**.

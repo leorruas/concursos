@@ -40,3 +40,30 @@ assert.equal(unico.length,1,'matéria sem artigos próprios conserva o hub');
 ctx.concursoSelecionadoId='cgu-2026';
 assert.equal(ctx.obterArtigosDaMateria('Comunicacao').length,0,'CGU sem Comunicação como frente autônoma');
 console.log('SUCESSO: listas de artigos filtradas por edital, hub primeiro, artigos compartilhados e estados vazios.');
+
+// A faixa identifica o concurso inclusive quando o artigo veio da lista da matéria.
+class ContextElement {
+  constructor(tag='div'){this.tag=tag;this.children=[];this.hidden=false;this.attrs={};this.textContent='';}
+  replaceChildren(){this.children=[];this.textContent='';}
+  append(...items){this.children.push(...items);}
+  setAttribute(k,v){this.attrs[k]=v;}
+  addEventListener(_,fn){this.click=fn;}
+}
+const strip=new ContextElement();
+ctx.document={getElementById:id=>id==='artigo-contexto'?strip:null,createElement:tag=>new ContextElement(tag)};
+vm.runInContext(fs.readFileSync(new URL('../web/03-article-navigation.js',import.meta.url),'utf8'),ctx);
+ctx.obterRotaCategoria=category=>'#/disciplina/'+encodeURIComponent(category)+'?concurso='+ctx.concursoSelecionadoId;
+const budget=artigos.find(a=>a.sourcePath.endsWith('/01 - orcamento publico e ciclo orcamentario.md'));
+assert(budget);
+ctx.renderizarContextoConcursoArtigo(budget);
+assert.equal(strip.hidden,false);
+assert.equal(strip.children[0].children[1].textContent,'CGU 2026');
+assert.equal(strip.children[1].children[0].textContent,'Orçamento Público');
+assert(strip.children[1].children[0].href.includes('concurso=cgu-2026'));
+ctx.concursoSelecionadoId='dataprev-2026';ctx.renderizarContextoConcursoArtigo(budget);
+assert.equal(strip.children[0].children[1].textContent,'Dataprev 2026');
+assert.equal(strip.children[1].textContent,'Artigo da biblioteca geral, fora deste programa.');
+ctx.selecionarBibliotecaCompleta=()=>{};
+vm.runInContext('modoBibliotecaCompleta = true',ctx);ctx.renderizarContextoConcursoArtigo(budget);
+assert.equal(strip.hidden,true);assert.equal(strip.children.length,0,'Troca de escopo não deixa nome antigo na faixa');
+console.log('SUCESSO: faixa identifica concurso ativo, vínculo de matéria e artigo fora do programa, sem contexto residual.');

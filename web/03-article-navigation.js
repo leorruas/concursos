@@ -159,26 +159,7 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
         });
     }
 
-    const avisoEscopo = document.getElementById("artigo-contexto");
-    if (avisoEscopo) {
-        const programaAtual = obterProgramaSelecionado();
-        const vinculos = programaAtual?.subjects.filter(m => [m.hubSourcePath, ...m.articleSourcePaths].includes(artigo.sourcePath)) || [];
-        const noPrograma = categoriaOrigem ? obterArtigosDaMateria(categoriaOrigem)
-            .some(item => item.sourcePath === artigo.sourcePath) : vinculos.length > 0;
-        const foraDoPrograma = !modoBibliotecaCompleta && Boolean(obterProgramaSelecionado()) && !noPrograma;
-        avisoEscopo.hidden = !foraDoPrograma && (Boolean(categoriaOrigem) || !vinculos.length);
-        avisoEscopo.textContent = foraDoPrograma
-            ? "Artigo da biblioteca geral: fora da lista de estudo do concurso selecionado."
-            : "";
-        if (!categoriaOrigem && vinculos.length) {
-            avisoEscopo.textContent = "Neste concurso: ";
-            vinculos.forEach((m,i) => {
-                if(i) avisoEscopo.append(document.createTextNode(" / "));
-                const link=document.createElement("a"); link.textContent=m.rotulo; link.href=rotaDoArtigo(artigo, secao, m.categoria);
-                link.addEventListener("click", e=>{if(e.ctrlKey||e.metaKey||e.shiftKey)return;e.preventDefault();abrirArtigo(artigo,true,secao,m.categoria);}); avisoEscopo.append(link);
-            });
-        }
-    }
+    renderizarContextoConcursoArtigo(artigo);
 
     renderizarDiagramasMermaid();
     gerarTableOfContents();
@@ -265,4 +246,47 @@ function renderizarBotoesNavegacao(artigoAtual, categoriaOrigem = artigoAtual.ca
     }
 
     rodapeNavContainer.appendChild(grid);
+}
+
+// Contexto editorial leve, separado do corpo da nota e do estado de aprendizagem.
+function renderizarContextoConcursoArtigo(artigo) {
+    const container = document.getElementById("artigo-contexto");
+    if (!container) return;
+    container.replaceChildren();
+    const programa = obterProgramaSelecionado();
+    container.hidden = !programa;
+    if (!programa) return;
+    const concurso = dadosConcursosEstrategicos.find(c => c.id === programa.concursoId);
+    const identidade = document.createElement("div");
+    identidade.className = "artigo-contexto-identidade";
+    const rotulo = document.createElement("span");
+    rotulo.className = "artigo-contexto-rotulo";
+    rotulo.textContent = "Concurso";
+    const nome = document.createElement("strong");
+    nome.textContent = concurso?.nome || programa.concursoId;
+    identidade.append(rotulo, nome);
+    container.append(identidade);
+    const vinculos = programa.subjects.filter(m => [m.hubSourcePath, ...m.articleSourcePaths].includes(artigo.sourcePath));
+    const lista = document.createElement("nav");
+    lista.className = "artigo-contexto-materias";
+    lista.setAttribute("aria-label", "Matérias deste artigo em " + nome.textContent);
+    for (const materia of vinculos) {
+        const link = document.createElement("a");
+        link.className = "artigo-contexto-link";
+        link.textContent = materia.rotulo;
+        link.href = obterRotaCategoria(materia.categoria);
+        link.addEventListener("click", e => {
+            if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey || e.button > 0) return;
+            e.preventDefault();
+            abrirDisciplina(materia.categoria);
+        });
+        lista.append(link);
+    }
+    if (vinculos.length) container.append(lista);
+    else {
+        const aviso = document.createElement("span");
+        aviso.className = "artigo-contexto-fora";
+        aviso.textContent = "Artigo da biblioteca geral, fora deste programa.";
+        container.append(aviso);
+    }
 }

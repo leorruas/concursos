@@ -56,6 +56,18 @@ As distinções que precisam permanecer separadas são:
 
 A diferença entre **dotação e créditos adicionais** será aprofundada em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]]. **Limitação de empenho e cronograma financeiro** serão tratados em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]]. A base é a Lei nº 4.320/1964, especialmente arts. 2º, 40 a 43 e 58 a 65, e a LRF, arts. 8º e 9º.
 
+## O que significa programação física cumprida
+
+**Programação física** é a previsão de quanto uma ação deverá produzir ou entregar em determinado período. Ela associa um **produto**, uma **unidade de medida** e uma **meta física**. Por exemplo: produto **escola construída**, unidade de medida **unidade**, meta **cinco escolas no exercício**. O termo *física* também abrange serviços: atendimentos realizados, pessoas capacitadas ou famílias beneficiadas, conforme o produto definido.
+
+Dizer que a **programação física foi cumprida** significa que o realizado alcançou a meta de entrega considerada, observados o período, a especificação do produto e os critérios de apuração. Se estavam previstas cinco escolas concluídas e as cinco foram efetivamente entregues conforme a especificação, a meta física foi cumprida. Se apenas três foram entregues, a execução física corresponde a 60% dessa meta, ainda que todo o dinheiro previsto já tenha sido pago. **Obra contratada não equivale a escola entregue.** Se a unidade de medida adotada for percentual de execução da obra, a comparação deverá usar esse percentual, e não o número de escolas concluídas.
+
+**Exemplo didático:** uma ação prevê cinco escolas e R$ 10 milhões. As cinco são entregues conforme a especificação, com gasto de R$ 9 milhões: houve cumprimento da meta física com gasto inferior ao previsto. Se fossem entregues apenas três, com gasto de R$ 10 milhões, executar todo o valor não significaria cumprir a programação física. Para comparar percentuais financeiros, indicar sempre o estágio medido: empenhado, liquidado ou pago.
+
+A distinção para prova é: **meta física mede entrega; execução financeira mede valores; efetividade exige examinar a mudança produzida na realidade**. Entregar as cinco escolas não demonstra, isoladamente, redução da evasão ou melhora da aprendizagem. Também não basta observar gasto menor para concluir automaticamente pela eficiência: é preciso comparar produtos, qualidade, custos e condições de execução.
+
+**Cuidado com a base de comparação:** meta inicial e meta reprogramada podem ser diferentes. Ao informar que a programação foi cumprida, explicitar qual meta e qual período foram usados. No acompanhamento federal pelo Sistema Integrado de Planejamento e Orçamento (SIOP), a apuração do realizado físico segue os critérios do produto e da unidade de medida; o orientador da Secretaria de Orçamento Federal (SOF), item 4.3, também estabelece sua relação com a liquidação financeira. Essa regra de registro não torna liquidação, pagamento e entrega conceitos equivalentes.
+
 ## Estrutura do ciclo orçamentário
 
 A apresentação didática mais comum separa o ciclo em quatro momentos. **É uma classificação analítica**, não um calendário em que uma fase só começa depois que todas as demais terminaram: planejamento de um exercício pode ocorrer enquanto outro orçamento está em execução e um terceiro passa por controle.
@@ -141,6 +153,8 @@ As duas afirmações são **inéditas e didáticas**, sem alegação de equival�
 
 - Constituição Federal, especialmente arts. 165 a 169: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
 - Lei nº 4.320/1964, arts. 2º e 34: https://legis.senado.leg.br/norma/546169/publicacao/34620275
+- Secretaria de Orçamento Federal (SOF), *Orientador do Acompanhamento Físico-Financeiro do Orçamento*, itens 1.1 a 1.5 e 4.3: https://www1.siop.planejamento.gov.br/siopdoc/doku.php/acompanhamento_orcamentario:orientador_acompanhamento_orcamentario
+- Congresso Nacional, *Glossário de Termos Orçamentários*, verbete Meta Física: https://www.congressonacional.leg.br/en_US/legislacao-e-publicacoes/glossario-orcamentario/-/orcamentario/lista/_
 - Senado Federal, *Entenda o Orçamento*: https://www25.senado.leg.br/web/orcamento/entenda
 - Base local de programa: [[2 - Editais/CGU 2026 - Auditoria#Checklist completo de estudos por bloco|Checklist CGU 2026]], P3.2.2 e P3.2.3.
 

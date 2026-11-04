@@ -16,6 +16,8 @@ Os contextos são gerados: se a última gravação ainda estiver em processament
 
 ## Ensinar, avaliar e registrar
 
+**Marcação opcional de insegurança:** ao lado de cada item, usar a caixa **“Respondi com insegurança”**. Marcada: `confidence: insecure`. Desmarcada: `confidence: unknown`; nunca presumir `secure`. Segurança declarada pelo estudante deve ser recolhida separadamente quando necessária à revisão espaçada. Respostas já registradas como `unknown` continuam assim, sem reinterpretar retroativamente.
+
 Seguir preparação → aula pelo caso/mecanismo/decisão/limites → fronteiras → aprendizagem → treino calibrado → correção → checkpoint → revisão espaçada. Não cobrar regra ainda não ensinada. Explicar siglas na primeira ocorrência; sem ícones. Usar controles clicáveis se disponíveis, com envio explícito; aceitar respostas compactas. Corrigir no chat, diagnosticando conhecimento, confusão conceitual, interpretação ou distração.
 
 Separar notas disponíveis, conteúdo explicado, aprendizagem didática, desempenho competitivo e retenção. “Para valer” exige comparação real com corpus identificado do concurso/banca/formato; rótulo ou gabarito isolado não provam calibração. Dúvida e chute são declarados, nunca inferidos pelo acerto. Recuperação no mesmo dia permite continuar com revisão pendente; retenção exige recuperação posterior, segura e por mecanismo diferente. Pré-requisitos e lacunas orientam o próximo passo, sem bloqueio indefinido por um erro.

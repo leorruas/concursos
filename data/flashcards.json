@@ -2340,14 +2340,16 @@
       "topic": "Prevenção de conflitos",
       "subjectIds": [
         "etica-publica",
-        "integridade-responsabilizacao"
+        "integridade-responsabilizacao",
+        "auditoria-governamental"
       ],
       "examIds": [
         "cgu-2026"
       ],
       "editalRefs": [
         "P1.3",
-        "P3.5"
+        "P3.5",
+        "P3.1.1"
       ],
       "note": {
         "articleId": "art-2d79b55e1c2b4a9f",
@@ -2360,7 +2362,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "conflito-interesse-sem-ato-ilicito"
       ]
@@ -3209,6 +3211,512 @@
       "contrast": {
         "prompt": "Acompanhar conformidade e gestão de riscos torna uma equipe terceira linha?",
         "answer": "Não. Em geral é papel de segunda linha; a terceira oferece avaliação independente como auditoria interna."
+      }
+    },
+    {
+      "id": "avaliabilidade-reconstrucao",
+      "term": "Avaliabilidade sem modelo lógico prévio",
+      "definition": "O exame de avaliabilidade verifica se as perguntas de avaliação podem ser respondidas com dados, recursos e métodos disponíveis; a teoria do programa pode ser reconstruída retrospectivamente.",
+      "example": "Programa antigo sem modelo documentado: entrevistas e registros permitem reconstruir a intervenção e avaliar sua implementação.",
+      "confusion": "Falta de modelo lógico prévio pode dificultar a análise, mas não impede toda avaliação; reconstrução não garante identificação causal.",
+      "topic": "Avaliabilidade e modelo lógico",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-50878ee79345479b",
+        "section": "Avaliabilidade: quando a política pode ser avaliada"
+      },
+      "source": {
+        "title": "Guia Prático de Análise Ex Post (Casa Civil/Ipea)",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Guia Ex Post, reconstrução da teoria do programa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "avaliabilidade-modelo-logico-reconstrucao"
+      ],
+      "contrast": {
+        "prompt": "Sem modelo lógico original, uma política é necessariamente não avaliável?",
+        "answer": "Não. Pode-se reconstruir retrospectivamente a teoria do programa. A viabilidade de cada avaliação ainda depende das evidências."
+      }
+    },
+    {
+      "id": "aud-escopo-criterio",
+      "term": "Escopo versus critério da auditoria",
+      "definition": "Escopo delimita unidades, períodos, processos e extensão do exame. Critério fornece o padrão usado para julgar a condição encontrada.",
+      "example": "Examinar bolsas de dois campi em 2025 define escopo; as regras de elegibilidade definem critério.",
+      "confusion": "Período analisado não é padrão de conformidade; a regra de elegibilidade não é o limite temporal do exame.",
+      "topic": "Planejamento individual",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.2"
+      ],
+      "note": {
+        "articleId": "art-417d0901f19843a5",
+        "section": "Refinamento de conceitos próximos"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seções 4.3.2.2 e 4.3.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "escopo-e-limites-nao-criterio"
+      ],
+      "contrast": {
+        "prompt": "Em uma auditoria, 2025 e um regulamento de elegibilidade são ambos critérios?",
+        "answer": "Não. 2025 delimita o escopo temporal; o regulamento pode ser critério para avaliar conformidade."
+      }
+    },
+    {
+      "id": "aud-politica-acesso-papeis",
+      "term": "Política de acesso a papéis de trabalho",
+      "definition": "A política de acesso deve passar pela apreciação da assessoria jurídica e pela aprovação da alta administração do órgão ou entidade a que a UAIG se vincula.",
+      "example": "Chefe da auditoria organiza os arquivos, mas a política institucional de acesso ainda deve ser apreciada pelo jurídico e aprovada pela alta administração.",
+      "confusion": "O responsável pela UAIG define organização e armazenamento; parecer jurídico favorável não substitui aprovação da alta administração.",
+      "topic": "Papéis de trabalho e competência",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-2ac819ec38f94031",
+        "section": "Refinamento: fronteiras do treino da unidade 06"
+      },
+      "source": {
+        "title": "CGU: Referencial Técnico",
+        "url": "https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_3%2C_de_9_de_junho_de_2017",
+        "locator": "IN SFC nº 3/2017, itens 152 a 154, especialmente 154(c)"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "politica-acesso-depende-analise-juridica-aprovacao-alta-administracao"
+      ],
+      "contrast": {
+        "prompt": "Quem organiza a guarda também pode aprovar sozinho a política de concessão de acesso?",
+        "answer": "Não. A UAIG organiza os papéis; a política de acesso exige apreciação jurídica e aprovação da alta administração."
+      }
+    },
+    {
+      "id": "aud-consultoria-nao-gestao",
+      "term": "Consultoria da UAIG sem assumir gestão",
+      "definition": "A auditoria interna pode avaliar e aconselhar sobre riscos e controles, mas não deve assumir responsabilidades que competem à administração.",
+      "example": "A auditoria recomenda melhorias nos controles de bolsas; gestores decidem, implantam e operam os controles.",
+      "confusion": "Separar auditores não legitima transferir à UAIG a execução gerencial do controle.",
+      "topic": "Independência e três linhas",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.1",
+        "P2.1.2"
+      ],
+      "note": {
+        "articleId": "art-2fcfb61ee9284dcc",
+        "section": "Como o Cebraspe pode cobrar: fronteiras reais e distratores"
+      },
+      "source": {
+        "title": "CGU: Referencial Técnico",
+        "url": "https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_3%2C_de_9_de_junho_de_2017",
+        "locator": "IN SFC nº 3/2017, itens 14, 16 e 18"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "transferencia-de-gestao-para-auditoria"
+      ],
+      "contrast": {
+        "prompt": "Uma auditoria pode implantar controles gerenciais se outra equipe os avaliar depois?",
+        "answer": "Não. A prestação de consultoria não transfere à UAIG a responsabilidade da gestão."
+      }
+    },
+    {
+      "id": "receita-originaria-patrimonial",
+      "term": "Receita originária versus receita patrimonial",
+      "definition": "Originária é uma categoria doutrinária ligada à exploração do patrimônio ou à atividade econômica estatal; patrimonial é uma origem oficial de receita corrente.",
+      "example": "O aluguel de um imóvel público pode ser classificado como receita originária, na doutrina, e patrimonial corrente, na natureza da receita.",
+      "confusion": "As categorias pertencem a classificações distintas: originária/derivada não substitui a classificação orçamentária de natureza.",
+      "topic": "Classificação da receita",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Originária × derivada"
+      },
+      "source": {
+        "title": "Manual Técnico do Orçamento 2026",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "MTO 2026, natureza da receita; nota do vault: classificação doutrinária"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "receita-originaria-doutrina-vs-patrimonial"
+      ],
+      "contrast": {
+        "prompt": "O aluguel de imóvel público é originário ou patrimonial?",
+        "answer": "Pode ser ambos: originário na classificação doutrinária e receita patrimonial corrente na classificação orçamentária."
+      }
+    },
+    {
+      "id": "aud-supervisao-interferencia",
+      "term": "Supervisão técnica versus interferência",
+      "definition": "Revisão de critérios, cálculos, evidências e conclusões fundamentada tecnicamente é supervisão; impor omissões por conveniência institucional é interferência indevida.",
+      "example": "O supervisor comprova estornos e pede retificar parte dos achados: revisão técnica. Determinar que se apaguem todos para proteger a imagem: interferência.",
+      "confusion": "Supervisão pode modificar conclusões justificadamente; a autonomia da auditoria não dispensa revisão técnica.",
+      "topic": "Supervisão e independência",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.1",
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-38af14d12a5745bd",
+        "section": "Revisão técnica versus interferência na independência"
+      },
+      "source": {
+        "title": "CGU: Referencial Técnico",
+        "url": "https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_3%2C_de_9_de_junho_de_2017",
+        "locator": "IN SFC nº 3/2017, itens 46, 47 e 155 a 158"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "supervisao-tecnica-versus-interferencia"
+      ],
+      "contrast": {
+        "prompt": "Revisão de achado pelo supervisor viola, por si só, a independência da auditoria?",
+        "answer": "Não. Revisão fundada em evidências e critérios integra a supervisão; imposição sem fundamento técnico pode ser interferência."
+      }
+    },
+    {
+      "id": "ciclo-aprovacao-legislativo",
+      "term": "Aprovação legislativa no ciclo orçamentário",
+      "definition": "O Executivo elabora e encaminha os projetos de leis orçamentárias; o Legislativo discute, pode emendar nos limites constitucionais e vota sua aprovação.",
+      "example": "O Executivo envia o projeto da LOA, mas a deliberação ocorre no Congresso Nacional.",
+      "confusion": "Iniciativa do Executivo não significa aprovação exclusivamente executiva; controle e execução são fases distintas.",
+      "topic": "Ciclo orçamentário",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-f6cfe9fbcc764554",
+        "section": "Discussão e aprovação legislativa"
+      },
+      "source": {
+        "title": "Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "CF, arts. 165 e 166"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "ciclo-orcamentario-fase-aprovacao"
+      ],
+      "contrast": {
+        "prompt": "A iniciativa do projeto de LOA pelo Executivo também lhe atribui a aprovação?",
+        "answer": "Não. O Legislativo aprecia e aprova, com possibilidade de emendas nos limites da Constituição."
+      }
+    },
+    {
+      "id": "aud-consultoria-programa-flexivel",
+      "term": "Programa de trabalho em consultoria",
+      "definition": "Em serviços de consultoria, o programa de trabalho pode variar na forma e no conteúdo conforme a natureza do serviço, preservando planejamento e entendimento documentado.",
+      "example": "Oficina de aconselhamento sobre riscos exige programa ajustado ao serviço, sem reproduzir rigidamente todos os testes de uma avaliação.",
+      "confusion": "Flexibilidade de formato não dispensa definir objetivos, natureza, escopo, prazo e responsabilidades com a unidade auditada.",
+      "topic": "Planejamento de consultoria",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.2"
+      ],
+      "note": {
+        "articleId": "art-417d0901f19843a5",
+        "section": "Refinamento de conceitos próximos"
+      },
+      "source": {
+        "title": "CGU: Referencial Técnico",
+        "url": "https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_3%2C_de_9_de_junho_de_2017",
+        "locator": "IN SFC nº 3/2017, itens 139 e 140; MOT, seção 1.2.3.1"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "consultoria-programa-varia-forma-e-conteudo"
+      ],
+      "contrast": {
+        "prompt": "O programa de consultoria precisa repetir a forma do programa de avaliação?",
+        "answer": "Não. Pode variar na forma e no conteúdo segundo a natureza do serviço, mantendo planejamento documentado."
+      }
+    },
+    {
+      "id": "esfera-versus-investimento",
+      "term": "Esfera orçamentária versus investimento como despesa",
+      "definition": "Esfera identifica orçamento fiscal, seguridade social ou investimento de estatais; natureza da despesa classifica o gasto, inclusive como investimento.",
+      "example": "Construir hospital administrado pela União pode ser investimento como natureza da despesa e integrar o orçamento da seguridade.",
+      "confusion": "Despesa classificada como investimento não pertence necessariamente ao orçamento de investimento das empresas estatais.",
+      "topic": "Esferas e natureza da despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Esfera × natureza da despesa"
+      },
+      "source": {
+        "title": "Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "CF, art. 165, § 5º; MTO 2026, classificação da despesa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "esfera-vs-natureza-investimento"
+      ],
+      "contrast": {
+        "prompt": "Toda obra pública deve estar no orçamento de investimento das estatais?",
+        "answer": "Não. A natureza econômica da despesa e a esfera do orçamento respondem a perguntas diferentes."
+      }
+    },
+    {
+      "id": "estatal-dependente-orcamento",
+      "term": "Estatal dependente versus orçamento de investimento",
+      "definition": "Empresa estatal controlada que recebe recursos do controlador para pessoal, custeio ou despesas de capital, salvo aporte para aumento de participação acionária, pode ser dependente.",
+      "example": "Uma estatal recebe recursos do Tesouro para pagar salários: o critério de dependência deve ser examinado; seus gastos integram, em regra, orçamento fiscal ou da seguridade.",
+      "confusion": "Maioria do capital votante define controle, não dependência; investimentos de estatais não dependentes seguem, em regra, o orçamento de investimento.",
+      "topic": "Esfera e dependência estatal",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Empresa controlada × estatal dependente × estatal não dependente"
+      },
+      "source": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "LC nº 101/2000, art. 2º, II e III; CF, art. 165, § 5º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "estatais-dependentes-esferas"
+      ],
+      "contrast": {
+        "prompt": "Uma estatal com 80% do capital votante público é necessariamente dependente?",
+        "answer": "Não. O controle acionário não basta: a dependência depende da natureza e finalidade dos recursos recebidos."
+      }
+    },
+    {
+      "id": "ldo-riscos-passivos-contingentes",
+      "term": "Riscos fiscais da LDO: passivos contingentes",
+      "definition": "O Anexo de Riscos Fiscais da LDO avalia passivos contingentes e outros riscos capazes de afetar as contas públicas e informa providências caso se concretizem.",
+      "example": "Uma ação judicial de valor elevado e resultado incerto pode ser registrada como risco fiscal, com medidas previstas para enfrentá-la.",
+      "confusion": "Risco judicial não equivale a despesa certa; Anexo de Riscos Fiscais não é Anexo de Metas Fiscais.",
+      "topic": "Riscos fiscais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Metas fiscais × riscos fiscais"
+      },
+      "source": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "LC nº 101/2000, art. 4º, § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "ldo-risco-judicial"
+      ],
+      "contrast": {
+        "prompt": "A mera inclusão de uma ação judicial no Anexo de Riscos Fiscais significa despesa certa?",
+        "answer": "Não. O anexo trata de passivos contingentes e outros riscos e das medidas previstas caso se concretizem."
+      }
+    },
+    {
+      "id": "aud-observacao-exclusiva-dupla",
+      "term": "Observação direta exclusiva e dois auditores",
+      "definition": "Quando determinada informação só puder ser obtida por observação direta, o MOT exige ao menos dois auditores internos para analisá-la.",
+      "example": "Procedimento que não deixa registro e só pode ser verificado presencialmente: dois auditores acompanham e analisam a observação.",
+      "confusion": "A exigência decorre da exclusividade da técnica para obter a informação, não da duração da visita ou do número de ocorrências.",
+      "topic": "Evidências físicas",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-2ac819ec38f94031",
+        "section": "Refinamento: fronteiras do treino da unidade 06"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 5.3.2, evidências físicas e observação direta"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "observacao-exclusiva-dois-auditores"
+      ],
+      "contrast": {
+        "prompt": "Dois auditores são obrigatórios em toda observação presencial?",
+        "answer": "A regra específica do MOT incide quando a informação só pode ser obtida por observação direta."
+      }
+    },
+    {
+      "id": "prazos-envio-ldo-loa-federal",
+      "term": "Prazos federais de encaminhamento da LDO e LOA",
+      "definition": "Pelo art. 35, § 2º, do ADCT, o Executivo federal envia projeto de LDO até oito meses e meio e de LOA até quatro meses antes do fim do exercício.",
+      "example": "Marcos federais usuais: 15 de abril para LDO e 31 de agosto para LOA, sem confundir envio com devolução para sanção.",
+      "confusion": "São prazos de encaminhamento no regime do ADCT, não prazos iguais de aprovação nem calendário universal de municípios.",
+      "topic": "Prazos orçamentários",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Iniciativa, apreciação e prazos no plano federal"
+      },
+      "source": {
+        "title": "Ato das Disposições Constitucionais Transitórias",
+        "url": "https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Aato.disposicoes.constitucionais.transitorias%3A1988-10-05%3B1988%21art35",
+        "locator": "ADCT, art. 35, § 2º, II e III"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "prazos-envio-ldo-loa"
+      ],
+      "contrast": {
+        "prompt": "LDO e LOA têm o mesmo prazo federal de envio ao Legislativo?",
+        "answer": "Não. LDO: oito meses e meio antes do fim do exercício; LOA: quatro meses antes. Devolução para sanção tem prazo distinto."
+      }
+    },
+    {
+      "id": "aud-relatorio-previo-permanente",
+      "term": "Relatório de auditoria anterior: papel permanente",
+      "definition": "Relatórios de auditorias de exercícios anteriores são exemplos de papéis de trabalho permanentes no MOT, por sua utilidade para consulta e trabalhos posteriores.",
+      "example": "Relatório antigo usado como histórico de um processo é guardado entre referências permanentes; o relatório do trabalho atual tende a ser corrente.",
+      "confusion": "Permanente indica informação de uso continuado, não apenas documento antigo; corrente se vincula ao período e objeto do exame.",
+      "topic": "Papéis permanentes e correntes",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-2ac819ec38f94031",
+        "section": "Refinamento: fronteiras do treino da unidade 06"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 5.7.3, classificação dos papéis de trabalho"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "relatorio-anterior-arquivo-permanente"
+      ],
+      "contrast": {
+        "prompt": "Um relatório de auditoria de exercício anterior nunca pode integrar arquivo permanente?",
+        "answer": "Pode. O MOT cita relatórios de exercícios anteriores como exemplo de papéis permanentes, destinados à consulta futura."
       }
     }
   ]

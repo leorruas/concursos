@@ -107,3 +107,15 @@ gaps[24].status='retencao-observada';outputs.set(page,JSON.stringify({gaps}));as
 gaps[24].status='pendente';gaps[24].recurrences=4;outputs.set(page,JSON.stringify({gaps}));assert.equal(buildFlashcardPriorities(outputs,data,'2026-11-07').entries[0].recurrences,4,'Falha posterior reabre prioridade');
 assert.equal(JSON.stringify(outputs.get(contextPath)),snapshot,'Projeção não altera contexto de origem');
 console.log('SUCESSO: erros recorrentes, retenção, reincidência, filas completas, importação compatível e independência dos resultados.');
+
+const prioritySnapshot=JSON.parse(fs.readFileSync(new URL('../data/contexto-estudo/flashcards-prioridades.json',import.meta.url)));
+const pendingEditorial=prioritySnapshot.unmapped||[];
+for(const gap of pendingEditorial) {
+    const matches=cards.filter(c=>c.examIds.includes(gap.examId)&&c.subjectIds.includes(gap.subjectId)&&c.conceptIds.includes(gap.conceptId));
+    assert(matches.length, 'Falta cartão para erro documentado '+gap.conceptId);
+}
+assert(cards.some(c=>c.id==='conflito-interesses'&&c.subjectIds.includes('auditoria-governamental')),
+    'Conflito de interesses deve reaproveitar o cartão existente na auditoria');
+assert(cards.length>=112,'Coleção de recuperação deve manter o lote editorial');
+console.log('SUCESSO: '+pendingEditorial.length+' lacunas do corte 04/11 vinculadas a cartões e reutilização por matéria.');
+

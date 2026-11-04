@@ -1,6 +1,6 @@
 # Flashcards de vocabulário
 
-Criado em 2026-11-04. Coleção atual: 86 cartões, sendo 53 de Orçamento Público e 7 de Contabilidade Pública; os demais iniciam Auditoria, Políticas Públicas, Ética/Integridade, Transparência e Direito Administrativo. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
+Criado em 2026-11-04. Coleção atual: 112 cartões, sendo 53 de Orçamento Público e 7 de Contabilidade Pública; os demais iniciam Auditoria, Políticas Públicas, Ética/Integridade, Transparência e Direito Administrativo. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
 
 ## Arquitetura
 
@@ -49,8 +49,8 @@ No site, importar o arquivo pelo controle “Importar prioridades”. A importa�
 
 O progresso local usa formato 2, com `priorities` opcional e resumo da última sessão encerrada. Backups no formato 1 continuam aceitos e são migrados. O botão “Encerrar por agora” finaliza voluntariamente a sessão, mantém avaliações e agendamentos e informa quantas recuperações e conceitos distintos foram trabalhados. Alterar autoavaliação do cartão não resolve erro no perfil; só nova evidência em questões muda o diagnóstico após nova consolidação e importação. Conceitos e concursos seguem isolados. O corte importado aparece na tela; não existe sincronização automática entre GitHub e armazenamento local.
 
-Primeira integração: vínculos conferidos para orçamento, causalidade em políticas públicas e teste de controle. Acrescentado cartão de consultoria prévia/objetividade (IN SFC 3/2017, itens 52 e 53) para um erro recorrente documentado. Outras lacunas permanecem na fila editorial.
+Primeira integração: vínculos conferidos para orçamento, causalidade em políticas públicas e teste de controle. Acrescentado cartão de consultoria prévia/objetividade (IN SFC 3/2017, itens 52 e 53) para erro recorrente. Segundo lote de 04/11: 14 cartões novos para as lacunas ainda não mapeadas na importação (auditoria, políticas públicas e orçamento) e reaproveitamento do cartão existente de conflito de interesses para Auditoria. Os vínculos conceituais foram conferidos contra `flashcards-prioridades.json`, notas canônicas e fontes. Os dados de prioridade são regenerados pelo consolidado das sessões; para atualizar a lista no navegador é necessário baixar e importar a nova versão do JSON. Os novos cartões continuam sujeitos a revisões e ao estudo espaçado.
 
 ## Evolução por etapas
 
-Plano canônico: [[1 - Planejamento/Flashcards - Sessoes continuas e ampliacao|Sessões contínuas e ampliação por matéria]]. Motor contínuo, encerramento voluntário, migração v1→v2 e interface foram implementados. **A ampliação editorial por lacunas e pelas matérias sem cartões ainda está pendente.** Os testes cobrem continuidade acima de dez cartões, retentativa, migração de backups e preservação de avaliações após encerramento. A publicação requer validação do workflow no commit final.
+Plano canônico: [[1 - Planejamento/Flashcards - Sessoes continuas e ampliacao|Sessões contínuas e ampliação por matéria]]. Motor contínuo, encerramento voluntário, migração v1→v2 e interface foram implementados. **O primeiro lote editorial de recuperação foi implementado: 14 cartões inéditos e um vínculo cruzado, cobrindo as 15 lacunas ainda sem mapeamento no snapshot de 04/11. A ampliação das seis matérias sem cartões continua pendente.** Os testes cobrem continuidade acima de dez cartões, retentativa, migração de backups e preservação de avaliações após encerramento. A publicação requer validação do workflow no commit final.

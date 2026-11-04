@@ -32,14 +32,14 @@
     },
     {
       "key": "Políticas Públicas e avaliação / aprendizagem",
-      "total": 13,
-      "correct": 12,
+      "total": 22,
+      "correct": 21,
       "incorrect": 1,
       "blank": 0,
       "annulled": 0,
-      "answered": 13,
-      "valid": 13,
-      "accuracy": 0.9230769230769231,
+      "answered": 22,
+      "valid": 22,
+      "accuracy": 0.9545454545454546,
       "sample": "insuficiente"
     },
     {
@@ -81,43 +81,40 @@
   ],
   "recentSessions": [
     {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado",
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial",
       "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial.json",
       "status": "concluido",
-      "diagnosis": "Bateria didática integrada da unidade 02: 5/5 acertos, respostas C/E/E/C/C, sem brancos. Com a bateria anterior de 4/4, total específico de implementação 9/9 em duas baterias inéditas didáticas, sem erro observado. Os julgamentos cobriram bottom-up, insuficiência de recursos materiais para inferir capacidade plena, adaptação legítima, fragilidade político-relacional e barreira de acesso por exigência local. Confiança não declarada para todos os itens; não há retenção espaçada nem prova de desempenho competitivo. A lacuna da unidade 01 sobre avaliabilidade permanece aberta para revisão posterior.",
-      "nextStep": "Iniciar unidade 03 (monitoramento e avaliação), diferenciando insumos, atividades, produtos, resultados e impactos, eficácia, eficiência, efetividade e equidade, ex ante/ex post. Em 05/11 retestar com confiança declarada a avaliabilidade da unidade 01, preservando a lacuna. Revisar implementação em outro dia e calibrar questões com corpus Cebraspe real antes de treino para valer."
+      "diagnosis": "Fechamento editorial da unidade 02: artigo canônico específico de implementação consolidado a partir das duas baterias didáticas já resolvidas. Não registra novas questões e não altera resultados nem retenção. Reforça as fronteiras top-down/bottom-up, discricionariedade e arbitrariedade, coordenação, capacidades e barreiras de acesso. A U01 continua com revisão de avaliabilidade pendente.",
+      "nextStep": "Retomar U03, monitoramento e avaliação, com duas baterias respondidas pendentes de consolidação técnica; continuar fronteiras insumos/produtos/resultados/impactos e rever a U01 em 05/11."
     },
     {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras",
       "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
       "status": "parcial",
-      "diagnosis": "Unidade 02 (implementação): 4/4 julgamentos corretos C/E/C/E em treino didático; compreensão inicial observada das fronteiras bottom-up/top-down, discricionariedade versus arbitrariedade, coordenação federativa/horizontal/intersetorial e capacidades estatais técnico-administrativa/político-relacional. Nenhum erro válido nesta bateria. Confiança não informada; bateria curta e didática, sem evidência de retenção ou desempenho competitivo calibrado. A lacuna da U01 sobre avaliabilidade permanece pendente de revisão espaçada, sem ser resolvida por estes acertos.",
-      "nextStep": "Aplicar caso integrado de implementação com fronteiras próximas, riscos e capacidade estatal; buscar corpus Cebraspe C/E efetivamente examinado antes de treino para valer e consolidar teoria na nota canônica em operação editorial própria. Em 05/11 realizar revisão espaçada da U01 sobre avaliabilidade e pedir confiança; não encerrar a lacuna antecipadamente."
+      "diagnosis": "Recuperação de bateria didática respondida no chat em 04/11, gabarito E/C/C/C/E, 5/5 acertos. Confiança não declarada para todos os itens; horário representa tentativa de registro, não início real confirmado. Sem retenção espaçada nem calibração competitiva. Unidade 03 ainda aberta.",
+      "nextStep": "Aprofundar atividades, produtos, resultados e impactos em casos menos diretos; consolidar o artigo U03 quando a unidade for concluída. Manter revisão de avaliabilidade U01 pendente para 05/11."
     },
     {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade",
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem",
       "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
       "status": "parcial",
-      "diagnosis": "Reteste didático da lacuna registrada em 04/11, item 3 da bateria de aprendizagem (avaliabilidade versus formalização prévia do modelo lógico). 3/3 julgamentos corretos: C/E/C. Recuperação correta imediata observada em três mecanismos próximos, inclusive reconstrução retrospectiva, suficiência de dados e diferença entre implementação e impacto. Confiança não declarada; não registrar recuperação segura nem retenção espaçada. Sem calibração competitiva.",
-      "nextStep": "Manter na fila revisão posterior (proposta inicial 05/11) com questão C/E de mecanismo diferente e pedir declaração de confiança. Depois da revisão, decidir encerramento didático da unidade 01 e completar a nota canônica da matéria; treino para valer somente com corpus Cebraspe C/E examinado."
+      "diagnosis": "Recuperação de bateria didática respondida no chat em 04/11, gabarito E/C/C/C, 4/4 acertos. Confiança não declarada para todos os itens; horário representa tentativa de registro, não início real confirmado. Sem retenção espaçada nem calibração competitiva. Unidade 03 ainda aberta.",
+      "nextStep": "Aprofundar atividades, produtos, resultados e impactos em casos menos diretos; consolidar o artigo U03 quando a unidade for concluída. Manter revisão de avaliabilidade U01 pendente para 05/11."
     }
   ],
   "recentMechanisms": [
-    "alteracao-justificada-sem-desvio-automatico",
-    "avaliabilidade-distinta-implementacao-impacto",
-    "bottom-up-agentes-condicoes-locais",
-    "bottom-up-examina-adaptacoes-e-barreiras",
-    "classificacoes-simultaneas-horizontal-intersetorial",
-    "discricionariedade-nao-e-autonomia-ilimitada",
-    "distinguir-recursos-gestao-de-articulacao-politica",
-    "exigencia-local-adicional-e-exclusao-indevida",
-    "problema-de-articulacao-indica-fragilidade-relacional",
-    "reconstrucao-retrospectiva-nao-comprova-efeito",
-    "recursos-materiais-nao-afastam-fragilidade-relacional",
-    "teoria-formalizada-nao-garante-dados-para-impacto"
+    "atividade-visita-resultado-frequencia",
+    "eficacia-depende-de-objetivos-indicadores",
+    "equidade-necessidades-diferentes",
+    "ex-post-abrange-implementacao",
+    "igualdade-tratamento-nao-garante-equidade",
+    "metas-cumpridas-com-custo-excessivo",
+    "metas-nao-comprovam-efetividade",
+    "monitoramento-indicadores-avaliacao-explicacao",
+    "resultado-nao-prova-efeito-causal"
   ],
   "review": [
     {
@@ -248,8 +245,8 @@
   "resume": {
     "subjectId": "politicas-publicas",
     "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
-    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado",
-    "time": 1793790433000
+    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial",
+    "time": 1793792462000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

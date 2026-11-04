@@ -928,6 +928,218 @@
       "confidenceTracking": {
         "coverage": "partial"
       }
+    },
+    {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:18:40-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "learning": {
+        "stage": "aprendizagem",
+        "taughtConcepts": [
+          "Monitoramento e avaliação",
+          "Eficácia, eficiência, efetividade e equidade",
+          "Ex ante e ex post",
+          "Insumos, atividades, produtos, resultados e impactos"
+        ],
+        "boundaries": [
+          "Cumprimento de metas de atendimento versus efetividade",
+          "Monitoramento de indicadores versus avaliação explicativa",
+          "Eficácia versus eficiência",
+          "Avaliação ex post não se restringe à mensuração causal de impactos"
+        ],
+        "pending": [
+          "Unidade U03 ainda não encerrada didaticamente nem editorialmente",
+          "Confiança desconhecida; retenção posterior não demonstrada",
+          "Treino competitivo demanda corpus Cebraspe identificado",
+          "Lacuna U01 avaliabilidade preservada para revisão espaçada em 05/11"
+        ],
+        "unitCompleted": false,
+        "next": {
+          "unitId": "up3-3-3",
+          "stage": "fronteiras",
+          "objective": "Distinguir produtos, resultados e impactos em caso novo antes de fechar U03; manter revisão posterior U01.",
+          "noteRef": "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca",
+          "sourceIds": [
+            "edital"
+          ]
+        }
+      },
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "parcial",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "totalQuestions": 4,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "Recuperação de bateria didática respondida no chat em 04/11, gabarito E/C/C/C, 4/4 acertos. Confiança não declarada para todos os itens; horário representa tentativa de registro, não início real confirmado. Sem retenção espaçada nem calibração competitiva. Unidade 03 ainda aberta.",
+      "nextStep": "Aprofundar atividades, produtos, resultados e impactos em casos menos diretos; consolidar o artigo U03 quando a unidade for concluída. Manter revisão de avaliabilidade U01 pendente para 05/11.",
+      "generationAudit": {
+        "counts": {
+          "new": 4,
+          "thematic": 0,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 1,
+        "thematicRate": 0,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0
+      },
+      "noveltyException": null,
+      "confidenceTracking": {
+        "coverage": "partial"
+      }
+    },
+    {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:32:31-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "learning": {
+        "stage": "aprendizagem",
+        "taughtConcepts": [
+          "Equidade e igualdade",
+          "Atividades versus resultados",
+          "Mudanças observadas versus atribuição causal",
+          "Escopo de metas de eficácia"
+        ],
+        "boundaries": [
+          "Tratamento igual versus equidade substantiva",
+          "Visitas realizadas versus mudança na frequência escolar",
+          "Gasto desigual pode refletir necessidade desigual",
+          "Resultado observado não é, por si, efeito causal",
+          "Escopo das metas determina o julgamento de eficácia"
+        ],
+        "pending": [
+          "Unidade U03 ainda não encerrada didaticamente nem editorialmente",
+          "Confiança desconhecida; retenção posterior não demonstrada",
+          "Treino competitivo demanda corpus Cebraspe identificado",
+          "Lacuna U01 avaliabilidade preservada para revisão espaçada em 05/11"
+        ],
+        "unitCompleted": false,
+        "next": {
+          "unitId": "up3-3-3",
+          "stage": "fronteiras",
+          "objective": "Distinguir produtos, resultados e impactos em caso novo antes de fechar U03; manter revisão posterior U01.",
+          "noteRef": "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca",
+          "sourceIds": [
+            "edital"
+          ]
+        }
+      },
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "parcial",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "totalQuestions": 5,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "Recuperação de bateria didática respondida no chat em 04/11, gabarito E/C/C/C/E, 5/5 acertos. Confiança não declarada para todos os itens; horário representa tentativa de registro, não início real confirmado. Sem retenção espaçada nem calibração competitiva. Unidade 03 ainda aberta.",
+      "nextStep": "Aprofundar atividades, produtos, resultados e impactos em casos menos diretos; consolidar o artigo U03 quando a unidade for concluída. Manter revisão de avaliabilidade U01 pendente para 05/11.",
+      "generationAudit": {
+        "counts": {
+          "new": 4,
+          "thematic": 1,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0.8,
+        "thematicRate": 0.2,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0.2
+      },
+      "noveltyException": "Caso didático com quatro mecanismos distintos e um reteste temático intencional de eficácia sob mudança de escopo. Não constitui benchmark.",
+      "confidenceTracking": {
+        "coverage": "partial"
+      }
+    },
+    {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:41:02-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "learning": {
+        "stage": "consolidacao",
+        "taughtConcepts": [],
+        "boundaries": [],
+        "pending": [
+          "Revisão espaçada U01 avaliabilidade em 2026-11-05, ainda sem retenção observada",
+          "Revisão espaçada U02 em data futura",
+          "Calibração competitiva Cebraspe U02 ainda não feita",
+          "U03 em aprendizagem"
+        ],
+        "unitCompleted": false,
+        "editorialConsolidation": {
+          "status": "consolidado",
+          "noteRefs": [
+            "3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas"
+          ],
+          "coveredSessionIds": [
+            "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
+            "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado"
+          ],
+          "summary": "Artigo canônico novo ligado ao hub e índice. Consolida top-down e bottom-up; Michael Lipsky e discricionariedade; burocracia de médio escalão; coordenação federativa, horizontal e intersetorial; capacidades técnico-administrativa e político-relacional; riscos e barreiras de acesso. Inclui caso dos três municípios e questões C/E comentadas. Retenção e treino competitivo permanecem pendentes."
+        },
+        "next": {
+          "unitId": "up3-3-3",
+          "stage": "fronteiras",
+          "objective": "Continuar U03 em fronteiras de monitoramento e avaliação, classificando insumos, atividades, produtos, resultados e impactos; preservar revisão espaçada U01.",
+          "noteRef": "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca",
+          "sourceIds": [
+            "edital"
+          ]
+        }
+      },
+      "tipo": "fechamento",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "totalQuestions": 0,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "Fechamento editorial da unidade 02: artigo canônico específico de implementação consolidado a partir das duas baterias didáticas já resolvidas. Não registra novas questões e não altera resultados nem retenção. Reforça as fronteiras top-down/bottom-up, discricionariedade e arbitrariedade, coordenação, capacidades e barreiras de acesso. A U01 continua com revisão de avaliabilidade pendente.",
+      "nextStep": "Retomar U03, monitoramento e avaliação, com duas baterias respondidas pendentes de consolidação técnica; continuar fronteiras insumos/produtos/resultados/impactos e rever a U01 em 05/11.",
+      "generationAudit": {
+        "counts": {
+          "new": 0,
+          "thematic": 0,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0,
+        "thematicRate": 0,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0
+      },
+      "noveltyException": "Checkpoint sem questões; fora de benchmark e métricas de acerto.",
+      "confidenceTracking": {
+        "coverage": "partial"
+      }
     }
   ],
   "questions": [
@@ -11366,6 +11578,432 @@
       "checkpointSchema": 2,
       "subjectId": "politicas-publicas",
       "unitId": "up3-3-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 1,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Eficácia e efetividade",
+      "questionType": "application",
+      "mechanism": "metas-nao-comprovam-efetividade",
+      "conceptId": "eficacia-meta-versus-efetividade",
+      "distractorMechanism": "confusao-de-categoria-condicao-ou-escopo",
+      "statement": "O cumprimento integral das metas de atendimento de um programa público constitui, por si só, evidência suficiente de sua efetividade, pois demonstra que as atividades planejadas foram convertidas em benefícios sociais.",
+      "explanation": "Errado. Cumprir metas de atendimento demonstra entrega e possível eficácia nesse recorte, sem comprovar transformação social ou atribuição causal.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist CGU 2026 > P3 > Políticas públicas e métodos de investigação e avaliação > item 3 (escopo temático, não evidência de gabarito)"
+        }
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem-q1",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:18:40-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 2,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Monitoramento e avaliação",
+      "questionType": "application",
+      "mechanism": "monitoramento-indicadores-avaliacao-explicacao",
+      "conceptId": "monitoramento-versus-avaliacao",
+      "distractorMechanism": "confusao-de-categoria-condicao-ou-escopo",
+      "statement": "O acompanhamento mensal da quantidade de estudantes atendidos e dos recursos executados constitui atividade de monitoramento, enquanto a investigação dos fatores que explicam mudanças na aprendizagem pode exigir uma avaliação específica.",
+      "explanation": "Certo. O monitoramento segue indicadores periodicamente; a avaliação investiga questões e mecanismos mediante métodos apropriados.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist CGU 2026 > P3 > Políticas públicas e métodos de investigação e avaliação > item 3 (escopo temático, não evidência de gabarito)"
+        }
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem-q2",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:18:40-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 3,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Eficácia e eficiência",
+      "questionType": "application",
+      "mechanism": "metas-cumpridas-com-custo-excessivo",
+      "conceptId": "eficacia-versus-eficiencia",
+      "distractorMechanism": "confusao-de-categoria-condicao-ou-escopo",
+      "statement": "Uma política pode apresentar eficácia no cumprimento das metas e, simultaneamente, baixa eficiência, caso utilize recursos excessivos em relação às entregas realizadas.",
+      "explanation": "Certo. Atingimento de metas e relação de recursos por entregas ou resultados são dimensões distintas.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist CGU 2026 > P3 > Políticas públicas e métodos de investigação e avaliação > item 3 (escopo temático, não evidência de gabarito)"
+        }
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem-q3",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:18:40-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 4,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Avaliação ex post",
+      "questionType": "application",
+      "mechanism": "ex-post-abrange-implementacao",
+      "conceptId": "ex-post-nao-somente-impacto",
+      "distractorMechanism": "confusao-de-categoria-condicao-ou-escopo",
+      "statement": "A avaliação ex post de uma política pública pode examinar a implementação e os resultados da intervenção, mesmo quando não existem condições metodológicas suficientes para estimar seus impactos causais.",
+      "explanation": "Certo. Ex post pode examinar processos e resultados; estimação causal de impacto depende de condições e métodos adicionais.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist CGU 2026 > P3 > Políticas públicas e métodos de investigação e avaliação > item 3 (escopo temático, não evidência de gabarito)"
+        }
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem-q4",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:18:40-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 1,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Equidade e igualdade",
+      "questionType": "application",
+      "mechanism": "igualdade-tratamento-nao-garante-equidade",
+      "conceptId": "equidade-versus-igualdade-de-recursos",
+      "distractorMechanism": "confusao-de-categoria-condicao-ou-escopo",
+      "statement": "A distribuição de recursos financeiros idênticos por estudante, independentemente das condições territoriais e das barreiras de acesso, assegura a equidade de uma política educacional, pois elimina diferenças no tratamento administrativo dos beneficiários.",
+      "explanation": "Errado. Mesmo gasto nominal por pessoa não assegura equidade diante de necessidades e barreiras distintas.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist CGU 2026 > P3 > Políticas públicas e métodos de investigação e avaliação > item 3 (escopo temático, não evidência de gabarito)"
+        }
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras-q1",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:32:31-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 2,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Atividades versus resultados",
+      "questionType": "application",
+      "mechanism": "atividade-visita-resultado-frequencia",
+      "conceptId": "atividade-visita-versus-resultado-frequencia",
+      "distractorMechanism": "confusao-de-categoria-condicao-ou-escopo",
+      "statement": "No programa descrito, a quantidade de visitas domiciliares realizadas pode constituir um indicador de atividade executada, enquanto a proporção de estudantes que passaram a frequentar regularmente as aulas pode representar um indicador de resultado.",
+      "explanation": "Certo. As visitas são ações de execução; frequência regular corresponde a mudança observada na conduta dos atendidos.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist CGU 2026 > P3 > Políticas públicas e métodos de investigação e avaliação > item 3 (escopo temático, não evidência de gabarito)"
+        }
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras-q2",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:32:31-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 3,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Equidade territorial",
+      "questionType": "application",
+      "mechanism": "equidade-necessidades-diferentes",
+      "conceptId": "equidade-tratamento-diferenciado",
+      "distractorMechanism": "confusao-de-categoria-condicao-ou-escopo",
+      "statement": "A destinação de recursos adicionais ao transporte de estudantes de regiões rurais pode ser compatível com a equidade, ainda que produza diferenças no gasto por beneficiário entre municípios.",
+      "explanation": "Certo. Desigualdade de recursos pode ser justificada por diferentes obstáculos e necessidades de acesso.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist CGU 2026 > P3 > Políticas públicas e métodos de investigação e avaliação > item 3 (escopo temático, não evidência de gabarito)"
+        }
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras-q3",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:32:31-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 4,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Mudança observada e efeito causal",
+      "questionType": "application",
+      "mechanism": "resultado-nao-prova-efeito-causal",
+      "conceptId": "resultado-observado-versus-causalidade",
+      "distractorMechanism": "confusao-de-categoria-condicao-ou-escopo",
+      "statement": "A redução da taxa de evasão escolar após a implementação do programa constitui evidência de uma mudança observada, mas sua atribuição causal à intervenção depende da análise de explicações alternativas e de um desenho avaliativo adequado.",
+      "explanation": "Certo. Mudança temporal observada não prova causalidade; outras intervenções e fatores podem explicar parte dos resultados.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist CGU 2026 > P3 > Políticas públicas e métodos de investigação e avaliação > item 3 (escopo temático, não evidência de gabarito)"
+        }
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras-q4",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:32:31-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 5,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Eficácia e escopo de objetivos",
+      "questionType": "application",
+      "mechanism": "eficacia-depende-de-objetivos-indicadores",
+      "conceptId": "eficacia-escopo-das-metas",
+      "distractorMechanism": "confusao-de-categoria-condicao-ou-escopo",
+      "statement": "Caso o programa cumpra integralmente suas metas de atendimento, mas não alcance os resultados educacionais esperados, a avaliação deverá classificá-lo necessariamente como ineficaz, independentemente de quais objetivos e indicadores tenham sido definidos para aferir sua eficácia.",
+      "explanation": "Errado. É preciso examinar quais metas e objetivos definem eficácia: pode haver eficácia no atendimento e ausência de efetividade educacional.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist CGU 2026 > P3 > Políticas públicas e métodos de investigação e avaliação > item 3 (escopo temático, não evidência de gabarito)"
+        }
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem-q1"
+        ],
+        "intentional": true,
+        "transformation": "Inverte a condição e torna explícito o escopo dos objetivos de eficácia no caso educacional."
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras-q5",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:32:31-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
       "trainingMode": "aprendizagem",
       "result": "correct"
     }

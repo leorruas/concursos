@@ -114,6 +114,14 @@ O *Guia Prático de Análise Ex Post* trata expressamente da reconstrução da t
 
 A reconstrução tampouco garante que todas as modalidades de avaliação sejam possíveis. Pode haver informação suficiente para examinar implementação, mas insuficiente para identificar um **efeito causal** com segurança.
 
+### Duas perguntas de avaliação para a mesma política
+
+Considere um programa hipotético de reforço escolar executado há três anos. A administração não preparou um modelo lógico quando começou, mas preservou listas de presença, registros de aulas e documentos de contratação. Um avaliador pode **reconstruir** a cadeia proposta, usando esses registros e entrevistas com gestores e participantes. É necessário identificar também hipóteses e condições que os documentos talvez não revelem.
+
+A primeira pergunta é: **as atividades previstas foram realmente executadas e alcançaram os estudantes elegíveis?** Os registros podem tornar essa avaliação de implementação viável, depois de conferir sua qualidade. A segunda pergunta é: **quanto da melhora na leitura foi causado pelo reforço?** Os mesmos registros podem ser insuficientes para responder, caso não haja informação adequada sobre resultados, seleção dos participantes e uma comparação contrafactual plausível.
+
+Daí a diferença entre duas confusões frequentes: **modelo lógico prévio não é condição universal para qualquer avaliação**, mas reconstruí-lo retrospectivamente **também não cria, por si só, evidência de causalidade**. A avaliabilidade depende da pergunta e dos dados disponíveis. A reconstrução esclarece *o que a política pretendia fazer*; a avaliação exige evidência para verificar *o que efetivamente aconteceu*.
+
 ## Indicadores, monitoramento e avaliação
 
 O **monitoramento** acompanha continuamente ou periodicamente o funcionamento e os sinais de desempenho da política, por meio de dados e indicadores. Ajuda a identificar desvios e tomar decisões de gestão.

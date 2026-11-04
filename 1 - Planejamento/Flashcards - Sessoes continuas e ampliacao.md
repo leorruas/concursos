@@ -34,6 +34,10 @@ A página de flashcards passa a consultar o perfil de prioridades diretamente do
 
 Retirado o último controle visual de importação, “Importar cópia”, da área de ajuda. A exportação continua como cópia de segurança, sem restauração de arquivo pela interface. O lote seguinte de Auditoria acrescenta três cartões de finalidades e técnicas (teste de controle, teste substantivo de detalhes e observação versus reexecução), refina quatro existentes e acrescenta um caso comparativo ao artigo de procedimentos. Não inferir aprendizagem ou retenção pela edição do conteúdo.
 
+## Lote transversal: avaliação e orçamento (04/11)
+
+Com base nos artigos já documentados e nas prioridades das questões, complementar Avaliação de Políticas Públicas com sete cartões de fronteiras conceituais e refinar quatro cartões existentes, sem clonar os oito conceitos iniciais. Atualizar duas notas canônicas com cenários que distingam reconstrução da teoria do programa, avaliabilidade da implementação e identificação causal. Em Orçamento, refinar quatro cartões existentes (PPA, LDO, LOA e crédito suplementar) e desenvolver um exemplo integrado no artigo de planejamento, contrastando dotação insuficiente e inexistente. Verificar artigo/âncora, fontes, catálogo, testes e publicação. Acertos dos exercícios anteriores não são convertidos automaticamente em retenção.
+
 ## Seleção, erros e espaçamento
 
 Reutilizar a integração já implementada com `data/contexto-estudo/flashcards-prioridades.json`: erros conceituais recorrentes pendentes, outros erros, incertezas e revisões posteriores à recuperação imediata. A página agora consulta automaticamente o arquivo de prioridades diretamente do repositório público do GitHub, sem copiar o perfil para o GitHub Pages. O corte continua visível. Falha de rede mantém a última fotografia local, e a consulta nunca substitui outra de data mais recente.

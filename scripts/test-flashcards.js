@@ -20,6 +20,19 @@ for(const name of ['aud-finalidade-teste-controle','aud-teste-substantivo-detalh
  assert(card?.subjectIds.includes('auditoria-governamental')&&card.contrast,'Card novo de Auditoria ausente: '+name);
 }
 assert(cards.length>=221,'Inventário deve conter a expansão de Auditoria');
+const politicaNovos=[
+ 'pp-teoria-mudanca-vs-modelo-logico','pp-insumos-vs-atividades','pp-produtos-vs-resultados',
+ 'pp-impacto-logico-vs-causal','pp-avaliabilidade-por-pergunta','pp-variacao-observada-vs-efeito',
+ 'pp-economicidade-vs-eficiencia'
+];
+for(const id of politicaNovos) {
+ const card=cards.find(c=>c.id===id);
+ assert(card?.examIds.includes('cgu-2026')&&card?.subjectIds.includes('politicas-publicas')&&card.contrast,
+  'Novo cartão de Políticas Públicas sem contexto e contraste: '+id);
+}
+assert(cards.length>=228,'Coleção deve preservar o lote transversal de Políticas Públicas');
+assert(cards.filter(c=>c.subjectIds.includes('politicas-publicas')&&c.examIds.includes('cgu-2026')).length>=15,
+ 'Cobertura inicial de políticas públicas menor que o lote publicado');
 assert.equal(F.stats(cards,F.empty(),now).unseen,cards.length);
 const queue=F.select(cards,F.empty(),options,now,()=>.5);assert.equal(queue.length,10);assert.equal(new Set(queue.map(q=>q.id)).size,10);
 let state=F.start(cards,F.empty(),options,now,()=>.5);

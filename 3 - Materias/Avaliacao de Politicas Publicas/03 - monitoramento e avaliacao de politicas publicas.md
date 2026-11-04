@@ -58,6 +58,16 @@ Outras mudanças podem influenciar a evasão: melhora na renda das famílias, no
 
 Na avaliação de impacto, o foco é identificar efeitos atribuíveis à intervenção com grau de confiança compatível com o método e os dados. Os instrumentos específicos de inferência causal, como experimentos e quase experimentos, são aprofundados em unidade própria. Aqui importa dominar a fronteira lógica entre **descrição de mudança e atribuição de causa**.
 
+### Três conclusões possíveis para o mesmo indicador
+
+Em um exemplo hipotético, a evasão escolar diminuiu de **12% para 8%** depois da oferta de transporte. Há ao menos três afirmações de alcance diferente:
+
+1. **Descrição:** a evasão caiu **quatro pontos percentuais** no período. Essa diferença é observável nos indicadores, desde que os dados sejam comparáveis.
+2. **Investigação:** é razoável perguntar se transporte, renda das famílias, mudanças no calendário ou outras condições contribuíram para a queda. A pergunta é avaliativa, mas ainda não há resposta causal.
+3. **Atribuição:** afirmar que o transporte **causou os quatro pontos** exige estimar o que ocorreria na ausência do programa, com desenho e evidências capazes de lidar com causas alternativas.
+
+Uma comparação com outro grupo pode ajudar a construir o contrafactual, mas **a mera existência de grupo de comparação não garante validade**: diferenças de composição, tendências anteriores e seleção podem distorcer a inferência. O exame do método é decisivo. Essa fronteira é particularmente útil no Cebraspe, que pode apresentar números verdadeiros e deslocá-los da descrição para a causalidade.
+
 ## Monitoramento: perguntas, indicadores e uso
 
 O monitoramento costuma acompanhar periodicamente o que está acontecendo com recursos, processos, entregas e resultados. Um painel pode incluir gastos executados, rotas realizadas, estudantes transportados, cobertura de elegíveis, frequência e evasão. A inclusão de indicadores de resultados **não transforma o painel automaticamente em avaliação de impacto**.

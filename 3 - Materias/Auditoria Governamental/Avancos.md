@@ -19,14 +19,14 @@ Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessõ
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | cgu-2026 / Auditoria Governamental / revisao | 34 | 5 | 0 | 0 | 87.2% | insuficiente |
 | cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |
-| cgu-2026 / Auditoria Governamental / aprendizagem | 35 | 6 | 0 | 0 | 85.4% | insuficiente |
+| cgu-2026 / Auditoria Governamental / aprendizagem | 40 | 6 | 0 | 0 | 87.0% | insuficiente |
 
 ### Volume diário
 
 | Dia / concurso / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-11-04 / cgu-2026 / revisao | 19 | 4 | 0 | 0 | 82.6% | insuficiente |
-| 2026-11-04 / cgu-2026 / aprendizagem | 4 | 1 | 0 | 0 | 80.0% | insuficiente |
+| 2026-11-04 / cgu-2026 / aprendizagem | 9 | 1 | 0 | 0 | 90.0% | insuficiente |
 | 2026-11-03 / cgu-2026 / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | 2026-11-03 / cgu-2026 / para_valer | 14 | 1 | 1 | 0 | 93.3% | insuficiente |
 | 2026-11-03 / cgu-2026 / aprendizagem | 17 | 4 | 0 | 0 | 81.0% | insuficiente |

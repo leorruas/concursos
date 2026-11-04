@@ -80,18 +80,26 @@
     },
     {
       "key": "Auditoria Governamental / aprendizagem",
-      "total": 41,
-      "correct": 35,
+      "total": 46,
+      "correct": 40,
       "incorrect": 6,
       "blank": 0,
       "annulled": 0,
-      "answered": 41,
-      "valid": 41,
-      "accuracy": 0.8536585365853658,
+      "answered": 46,
+      "valid": 46,
+      "accuracy": 0.8695652173913043,
       "sample": "insuficiente"
     }
   ],
   "recentSessions": [
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-analiticos-u07-recuperacao",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-04-analiticos-u07-recuperacao.json",
+      "status": "concluido",
+      "diagnosis": "5/5 corretas e seguras, sem brancos, em treino didático de procedimentos analíticos u07. Recuperação imediata do erro sobre expectativa substantiva e acertos sobre planejamento, testes de detalhes, limites da inferência e qualidade das evidências. Reteste tematicamente próximo do anterior, sem benchmark calibrado ou retenção espaçada.",
+      "nextStep": "Preparar treino para valer da unidade 07 com corpus Cebraspe identificado e depois realizar fechamento editorial. Reter para revisão posterior procedimentos analíticos, recálculo, vouching/rastreamento, consultoria e dúvidas anteriores."
+    },
     {
       "id": "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01",
       "date": "2026-11-04",
@@ -107,35 +115,27 @@
       "status": "parcial",
       "diagnosis": "Bateria 06, artigo 04: 6/8 acertos (itens 1,2,3,5,7,8); erros seguros nos itens 4 (ARO extraorçamentária versus operação comum como receita de capital) e 6 (troca entre classificação institucional e programática), ambos confusão conceitual. Acertos inseguros nos itens 2,3,7,8 (alienação/destinação; origem doutrinária/natureza; projeto/GND; GND/elemento/fonte). Item 1 foi recuperação segura no mesmo dia de exclusividade versus crédito especial da bateria 05, sem demonstração de retenção.",
       "nextStep": "Treinar duas fronteiras por casos contrastivos: ARO como ingresso extraorçamentário versus operação de crédito orçamentária de capital; institucional (quem) versus programática (qual política/ação). Recuperar quatro acertos inseguros por novos mecanismos. Prosseguir no artigo 04 por fonte/destinação e resultado primário; manter revisão espaçada prevista para 2026-11-05 das lacunas do orçamento, inclusive regionalização do PPA."
-    },
-    {
-      "id": "cgu-2026-auditoria-2026-11-04-fronteiras-u07-revisao-dirigida",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-04-fronteiras-u07-revisao-dirigida.json",
-      "status": "concluido",
-      "diagnosis": "Bateria didática de recuperação de 5 itens C/E: 4 acertos e 1 erro, sem brancos ou anulações, todos com confiança secure. Unidades: u07 3/3, u03 1/1, u02 0/1. Q5 incorreta com segurança repete a confusão entre consultoria prévia sem gestão e impedimento temporal automático (item 53 versus 52 do Referencial); classificação provisória de confusão conceitual. Q1 e Q2 recuperaram rastreamento/integridade versus vouching/ocorrência, Q3 recuperou finalidade de teste de controle versus técnica documental, Q4 recuperou risco residual versus funcionamento efetivo de controle. Retestes intencionais no mesmo dia, dois com repetição mecânica; não demonstram retenção espaçada ou desempenho calibrado Cebraspe.",
-      "nextStep": "Retestar consultoria anterior versus responsabilidade gerencial e ameaças à objetividade (u02) com caso realmente distinto, reavaliar depois de intervalo as distinções vouching/rastreamento (u07) e risco residual (u03), além dos acertos inseguros RAINT/parecer (u04) e segunda/terceira linha (u03). Prosseguir na unidade 07 com treino para valer somente após leitura e identificação de corpus oficial Cebraspe; fechamento editorial no encerramento didático. O exemplo de bolsas foi incorporado à nota por solicitação explícita."
     }
   ],
   "recentMechanisms": [
+    "analise-para-selecao-objetos",
     "aritmetica-nao-comprova-elegibilidade",
     "autorizou-pagamentos-ha-18-meses",
     "avaliacao-de-ameacas-apos-consultoria",
-    "classificar-inspecao-por-finalidade",
     "comparar-tratamento-orcamentario-de-dois-emprestimos",
-    "consultoria-previa-sem-gestao-e-impedimento-temporal",
-    "controle-formal-contornado-e-risco-residual",
     "distinguir-categoria-economica-e-destinacao",
     "distinguir-classificador-oficial-de-criterio-doutrinario",
     "distinguir-niveis-da-natureza-e-fonte-dos-recursos",
     "distinguir-quem-executa-de-objetivo-e-acao",
-    "distinguir-registro-documento-e-omissao",
     "distinguir-tipo-de-acao-e-natureza-da-despesa",
+    "exame-individual-pagamentos",
+    "expectativa-beneficios-meses",
     "expectativa-com-beneficiarios-e-valores",
     "identificar-especie-de-credito-em-caso-novo",
     "operacao-controle-ao-longo-do-exercicio",
-    "origem-para-registro-em-estoque",
-    "reconhecer-combinacao-matricial-com-ressalvas"
+    "qualidade-expectativa-e-dados",
+    "reconhecer-combinacao-matricial-com-ressalvas",
+    "total-nao-comprova-cada-concessao"
   ],
   "review": [
     {
@@ -413,8 +413,8 @@
   "resume": {
     "subjectId": "auditoria-governamental",
     "path": "data/contexto-estudo/cgu-2026/auditoria-governamental.json",
-    "lastSessionId": "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01",
-    "time": 1793821699000
+    "lastSessionId": "cgu-2026-auditoria-2026-11-04-analiticos-u07-recuperacao",
+    "time": 1793822487000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

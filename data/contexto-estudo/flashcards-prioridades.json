@@ -252,15 +252,6 @@
     {
       "examId": "cgu-2026",
       "subjectId": "auditoria-governamental",
-      "conceptId": "procedimento-analitico-substantivo",
-      "status": "pendente",
-      "priority": 300,
-      "recurrences": 1,
-      "dueOn": "2026-11-05"
-    },
-    {
-      "examId": "cgu-2026",
-      "subjectId": "auditoria-governamental",
       "conceptId": "risco-residual-independe-de-eficacia-comprovada",
       "status": "pendente",
       "priority": 300,
@@ -388,6 +379,15 @@
       "examId": "cgu-2026",
       "subjectId": "orcamento-publico",
       "conceptId": "prazos-envio-ldo-loa",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "procedimento-analitico-substantivo",
       "status": "recuperacao-imediata",
       "priority": 100,
       "recurrences": 1,

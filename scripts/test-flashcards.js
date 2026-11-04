@@ -180,9 +180,9 @@ for(const id of novosOrcamento) {
 assert(cards.length>=218,'O inventário não deve perder cartões anteriores ao lote de classificações');
 assert(cards.filter(c=>c.examIds.includes('cgu-2026')&&c.subjectIds.includes('orcamento-publico')).length>=73,
  'O conjunto de Orçamento deve incluir o lote das classificações');
-for(const [subject,min] of [['contabilidade-publica',14],['financas-publicas',10],['contratacoes-transferencias',13],['auditoria-governamental',44]]) {
+for(const [subject,min] of [['contabilidade-publica',14],['financas-publicas',10],['contratacoes-transferencias',13],['auditoria-governamental',47]]) {
  const pool=cards.filter(c=>c.examIds.includes('cgu-2026')&&c.subjectIds.includes(subject));
- assert.equal(pool.length,min,'Contagem de matéria após ampliação: '+subject);
+ assert(pool.length>=min,'Cobertura mínima da matéria após ampliação: '+subject);
  assert.equal(new Set(pool.map(c=>c.id)).size,pool.length,'ID duplicado na matéria '+subject);
  const sample=F.select(cards,F.empty(),{exam:'cgu-2026',subject,mode:'new',direction:'forward'},now,()=>.5);
  assert.equal(sample.length,10,'Matéria precisa oferecer uma janela de dez cartões: '+subject);

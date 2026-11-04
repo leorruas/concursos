@@ -32,14 +32,14 @@
     },
     {
       "key": "Políticas Públicas e avaliação / aprendizagem",
-      "total": 26,
-      "correct": 24,
+      "total": 29,
+      "correct": 27,
       "incorrect": 2,
       "blank": 0,
       "annulled": 0,
-      "answered": 26,
-      "valid": 26,
-      "accuracy": 0.9230769230769231,
+      "answered": 29,
+      "valid": 29,
+      "accuracy": 0.9310344827586207,
       "sample": "insuficiente"
     },
     {
@@ -81,6 +81,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
+      "status": "concluido",
+      "diagnosis": "Micro-reteste dirigido do item 4 da bateria final U03: 3/3 acertos C/E/C, todos com confiança secure expressamente declarada pelo fluxo clicável. A interpretação foi transferida de evasão escolar para campanha de saúde, saneamento e comparação entre municípios. Recuperação correta imediata, no mesmo dia do erro original; não é evidência de retenção espaçada. Os itens são inéditos didáticos e não calibrados por corpus Cebraspe.",
+      "nextStep": "Iniciar unidade 04 de Políticas Públicas: estratégias qualitativas e métodos mistos (casos, entrevistas, grupos, observação, triangulação, generalização). Preservar revisão espaçada da U01 sobre avaliabilidade em 05/11, a revisão do erro de causalidade da U03 em data posterior e revisões gerais da U02/U03. Não declarar retenção já comprovada."
+    },
+    {
       "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final",
       "date": "2026-11-04",
       "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final.json",
@@ -95,25 +103,15 @@
       "status": "concluido",
       "diagnosis": "Fechamento editorial da unidade 02: artigo canônico específico de implementação consolidado a partir das duas baterias didáticas já resolvidas. Não registra novas questões e não altera resultados nem retenção. Reforça as fronteiras top-down/bottom-up, discricionariedade e arbitrariedade, coordenação, capacidades e barreiras de acesso. A U01 continua com revisão de avaliabilidade pendente.",
       "nextStep": "Retomar U03, monitoramento e avaliação, com duas baterias respondidas pendentes de consolidação técnica; continuar fronteiras insumos/produtos/resultados/impactos e rever a U01 em 05/11."
-    },
-    {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras.json",
-      "status": "parcial",
-      "diagnosis": "Recuperação de bateria didática respondida no chat em 04/11, gabarito E/C/C/C/E, 5/5 acertos. Confiança não declarada para todos os itens; horário representa tentativa de registro, não início real confirmado. Sem retenção espaçada nem calibração competitiva. Unidade 03 ainda aberta.",
-      "nextStep": "Aprofundar atividades, produtos, resultados e impactos em casos menos diretos; consolidar o artigo U03 quando a unidade for concluída. Manter revisão de avaliabilidade U01 pendente para 05/11."
     }
   ],
   "recentMechanisms": [
-    "atividade-visita-resultado-frequencia",
     "classificacao-do-fluxo-de-transporte",
-    "eficacia-depende-de-objetivos-indicadores",
-    "equidade-necessidades-diferentes",
-    "igualdade-tratamento-nao-garante-equidade",
+    "comparacao-antes-depois-sem-contrafactual-valido",
+    "comparador-entre-municipios-condicoes-de-validade",
     "indicador-finalistico-em-monitoramento",
     "metas-mais-mudanca-observada-nao-provam-atribuicao",
-    "resultado-nao-prova-efeito-causal",
+    "mudanca-observada-com-explicacao-concorrente",
     "visita-concluida-como-produto-entregue"
   ],
   "review": [
@@ -254,8 +252,8 @@
   "resume": {
     "subjectId": "politicas-publicas",
     "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
-    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final",
-    "time": 1793793272000
+    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade",
+    "time": 1793793830000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

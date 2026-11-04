@@ -1211,6 +1211,88 @@
       "confidenceTracking": {
         "coverage": "partial"
       }
+    },
+    {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T09:03:50-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "learning": {
+        "stage": "aprendizagem",
+        "taughtConcepts": [
+          "Recuperação em novo caso da distinção entre mudança observada e efeito causal atribuível",
+          "Explicações concorrentes e problema do contrafactual",
+          "Limites da comparação antes/depois e condições da comparação entre grupos"
+        ],
+        "boundaries": [
+          "Qualidade dos registros não equivale a identificação causal",
+          "Comparar antes/depois não elimina tendências e intervenções concorrentes",
+          "Existência de grupo de comparação não garante comparabilidade",
+          "Metas operacionais ou impacto esperado não comprovam atribuição causal"
+        ],
+        "pending": [
+          "Erro anterior da U03 recuperado com 3/3 acertos seguros no mesmo dia; observar retenção em 05/11 ou depois, com mecanismo novo",
+          "Revisão espaçada da U01 sobre avaliabilidade permanece pendente para 2026-11-05; não encerrá-la",
+          "Revisão da U02 e da U03, treino para valer calibrado com prova Cebraspe, e revisão de prontidão ainda pendentes",
+          "Amostra didática curta não equivale à competência competitiva comprovada"
+        ],
+        "unitCompleted": true,
+        "editorialConsolidation": {
+          "status": "revisado-sem-alteracao",
+          "noteRefs": [
+            "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas"
+          ],
+          "coveredSessionIds": [
+            "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem",
+            "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras",
+            "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final",
+            "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade"
+          ],
+          "summary": "Conferida a nota canônica U03, já publicada e vinculada ao hub e ao índice, contra os quatro checkpoints. Contém insumos, atividades, produtos, resultados e impactos; monitoramento e avaliação; eficácia, eficiência, efetividade e equidade; ex ante/ex post; explicações concorrentes e contrafactual; questões comentadas que explicitam a falha observada na bateria final. Nenhuma alteração teórica foi necessária. Fechamento didático após reteste seguro 3/3 no mesmo dia, com lacuna espaçada e calibração competitiva pendentes."
+        },
+        "next": {
+          "unitId": "up3-3-4",
+          "stage": "preparacao",
+          "objective": "Estudar estratégias qualitativas e métodos mistos em políticas públicas: casos, entrevistas, grupos, observação, triangulação, inferência e limites de generalização. Manter revisões da U01 e U03 em 05/11.",
+          "noteRef": "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+          "sourceIds": [
+            "edital"
+          ]
+        }
+      },
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "totalQuestions": 3,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "Micro-reteste dirigido do item 4 da bateria final U03: 3/3 acertos C/E/C, todos com confiança secure expressamente declarada pelo fluxo clicável. A interpretação foi transferida de evasão escolar para campanha de saúde, saneamento e comparação entre municípios. Recuperação correta imediata, no mesmo dia do erro original; não é evidência de retenção espaçada. Os itens são inéditos didáticos e não calibrados por corpus Cebraspe.",
+      "nextStep": "Iniciar unidade 04 de Políticas Públicas: estratégias qualitativas e métodos mistos (casos, entrevistas, grupos, observação, triangulação, generalização). Preservar revisão espaçada da U01 sobre avaliabilidade em 05/11, a revisão do erro de causalidade da U03 em data posterior e revisões gerais da U02/U03. Não declarar retenção já comprovada.",
+      "generationAudit": {
+        "counts": {
+          "new": 0,
+          "thematic": 3,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0,
+        "thematicRate": 1,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 1
+      },
+      "noveltyException": "Micro-reteste intencional do mesmo conceito com três mecanismos novos (causas concorrentes, antes/depois, validade de grupos comparadores). A taxa temática alta é necessária para verificar a recuperação após confusão conceitual. Não é bateria competitiva.",
+      "confidenceTracking": {
+        "coverage": "complete"
+      }
     }
   ],
   "questions": [
@@ -12259,6 +12341,153 @@
       "unitId": "up3-3-3",
       "trainingMode": "aprendizagem",
       "result": "incorrect"
+    },
+    {
+      "number": 1,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação: inferência causal",
+      "subtopic": "Explicações concorrentes",
+      "questionType": "application",
+      "conceptId": "resultado-observado-versus-causalidade",
+      "mechanism": "mudanca-observada-com-explicacao-concorrente",
+      "distractorMechanism": "confundir-coincidencia-e-atribuicao",
+      "statement": "A redução das internações após a campanha constitui evidência de uma mudança observada, mas a ampliação da rede de abastecimento deve ser considerada como possível explicação concorrente antes de atribuir causalmente essa redução à campanha.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Certo. A queda observada é um resultado; expansão do abastecimento e melhorias sanitárias podem também explicar a queda. Atribuição causal exige analisar fatores concorrentes.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Mudança observada, efeito causal e contrafactual"
+      ],
+      "retrievalOf": [
+        "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final-q4"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final-q4"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação dirigida da mesma fronteira em saúde pública: campanha, ampliação de abastecimento, comparação antes/depois e comparação entre municípios. Mecânica distinta da frase original sobre metas e evasão."
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade-q1",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T09:03:50-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 2,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação: inferência causal",
+      "subtopic": "Antes/depois e contrafactual",
+      "questionType": "interpretation",
+      "conceptId": "resultado-observado-versus-causalidade",
+      "mechanism": "comparacao-antes-depois-sem-contrafactual-valido",
+      "distractorMechanism": "transpor-confiabilidade-dos-dados-para-identificacao-causal",
+      "statement": "A existência de registros confiáveis sobre a execução da campanha e de indicadores de internação anteriores e posteriores à intervenção é suficiente para identificar seu efeito causal, pois permite comparar o desempenho da política em dois momentos.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "explanation": "Errado. Dados confiáveis antes/depois medem a mudança temporal, mas não permitem distinguir causalidade sem controlar causas externas e a tendência contrafactual.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Mudança observada, efeito causal e contrafactual"
+      ],
+      "retrievalOf": [
+        "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final-q4"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final-q4"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação dirigida da mesma fronteira em saúde pública: campanha, ampliação de abastecimento, comparação antes/depois e comparação entre municípios. Mecânica distinta da frase original sobre metas e evasão."
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade-q2",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T09:03:50-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 3,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação: inferência causal",
+      "subtopic": "Comparabilidade e seleção",
+      "questionType": "application",
+      "conceptId": "resultado-observado-versus-causalidade",
+      "mechanism": "comparador-entre-municipios-condicoes-de-validade",
+      "distractorMechanism": "confundir-coincidencia-e-atribuicao",
+      "statement": "A comparação entre municípios com e sem a campanha pode contribuir para estimar seus efeitos, desde que o desenho avaliativo trate adequadamente as diferenças preexistentes, a seleção dos municípios e outros fatores capazes de influenciar as internações.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Certo. Um grupo de comparação pode apoiar identificação causal quando diferenças preexistentes, viés de seleção e outros fatores são tratados pelo desenho e pela análise.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Mudança observada, efeito causal e contrafactual"
+      ],
+      "retrievalOf": [
+        "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final-q4"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final-q4"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação dirigida da mesma fronteira em saúde pública: campanha, ampliação de abastecimento, comparação antes/depois e comparação entre municípios. Mecânica distinta da frase original sobre metas e evasão."
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade-q3",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T09:03:50-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-3",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
     }
   ]
 }

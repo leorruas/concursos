@@ -26,6 +26,10 @@ Ao encerrar cada bateria, salvar **um único arquivo** `data/sessoes/<id-estavel
 
 Usar versão atual e SHA como precondição. A automação valida e gera contextos, filas e métricas; não editar derivados, hubs, índices ou relatórios a cada bateria. Nuances ainda sem nota canônica ficam na sessão, com fonte/localizador, até o fechamento obrigatório da unidade. A aula seguinte pode continuar enquanto o GitHub processa. Só afirmar publicação confirmada após sucesso do workflow; reparar falhas antes de outra gravação não relacionada. Trabalho cotidiano não exige Work nem execução local de scripts.
 
+## Treinos discursivos CGU: registrar a correção
+
+Para respostas escritas de P2/P3, usar a rotina em `data/planos-estudo/cgu-2026.json > discursivePractice`, e o histórico legível em [[00 - Desempenho/Provas/CGU 2026 - Discursivas e correcoes|Discursivas CGU: correções e evolução]]. Após **cada tentativa efetivamente produzida e corrigida**, atualizar no mesmo commit a entrada `discursivePractice.attempts` e o artigo, com ID estável, quesitos atendidos/omitidos, evidências do texto, conceitos incorretos, dificuldades de escrita, reescrita indicada e data de reteste. A correção pode ficar sem nota se não houver critérios e extensão suficientes; nunca inventar desempenho. Registrar resultados de resposta completa ou simulação integral nas superfícies de provas, quando aplicável. A discursiva não é uma bateria C/E e não entra no ledger de itens. Não publicar texto integral do aluno sem autorização específica, especialmente em repositório público.
+
 ## Fechar a unidade e seus artigos
 
 Ao concluir uma unidade, conferir suas sessões e consolidar nas notas canônicas o conteúdo ensinado, fronteiras, exemplos úteis, dúvidas e correções, antes de iniciar a próxima unidade dessa matéria. Ler o padrão editorial e os contratos pertinentes nessa etapa. Refinar notas existentes; criar nota apenas quando houver autonomia temática. Fazer tudo diretamente pelo GitHub, sem exigir Work nem autorização recorrente.

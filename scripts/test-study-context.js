@@ -25,7 +25,15 @@ try{
   assert.equal(cp.state,'nao-iniciada');assert.deepEqual(cp.results,{});assert.equal(cp.resume.unitId,'fundamentos');
   assert.equal(ctx('direito-administrativo').state,'nao-iniciada','Existência de notas e história Dataprev não expõe conteúdo CGU');
   const index=read('data/contexto-estudo/indice.json');
-  for(const [cmd,id] of [['continuar Auditoria Governamental','auditoria-governamental'],['vamos continuar Contabilidade Pública','contabilidade-publica'],['revisar meus erros de Direito Administrativo','direito-administrativo'],['continuar a CGU de onde parei','auditoria-governamental']])assert.equal(resolveCommand(index,cmd).subjectId,id);
+  // A retomada global deve seguir a sessão real mais recente, não uma matéria fixa da fixture.
+  const latestCguSession=fs.readdirSync(path.join(root,'data/sessoes'))
+    .filter(name=>name.endsWith('.json'))
+    .map(name=>read('data/sessoes/'+name))
+    .filter(s=>s.concursoId==='cgu-2026')
+    .sort((a,b)=>Date.parse(b.startedAt)-Date.parse(a.startedAt)||b.id.localeCompare(a.id))[0];
+  assert(latestCguSession,'Falta sessão CGU para validar retomada global');
+  assert.equal(index.contests.find(c=>c.concursoId==='cgu-2026').resume.lastSessionId,latestCguSession.id);
+  for(const [cmd,id] of [['continuar Auditoria Governamental','auditoria-governamental'],['vamos continuar Contabilidade Pública','contabilidade-publica'],['revisar meus erros de Direito Administrativo','direito-administrativo'],['continuar a CGU de onde parei',latestCguSession.subjectId]])assert.equal(resolveCommand(index,cmd).subjectId,id);
   const make=(suffix,date,time='18:00:00')=>({schemaVersion:2,id:'cgu-2026-context-test-'+suffix,startedAt:date+'T'+time+'-03:00',date,concursoId:'cgu-2026',banca:'Cebraspe',kind:'microtreino',trainingMode:'aprendizagem',status:'concluido',subjectId:'auditoria-governamental',unitId:'u07',diagnosis:'Fixture de teste, nunca publicada.',nextStep:'Reparar finalidade do teste versus técnica.',learning:{stage:'aprendizagem',taughtConcepts:['finalidade dos testes'],boundaries:['técnica versus finalidade'],pending:['treino calibrado'],unitCompleted:false,next:{unitId:'u07',stage:'fronteiras',objective:'Comparar finalidades em um novo caso.',noteRef:'3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar',sourceIds:['mot']}},questions:[{number:1,discipline:'Auditoria Governamental',conceptId:'finalidade-do-teste',topic:'Teste',subtopic:'Finalidade versus técnica',questionType:'comparison',mechanism:'fixture-'+suffix,distractorMechanism:'troca-de-categoria',statement:'Item sintético apenas em diretório temporário.',explanation:'Comentário de teste.',format:'CE',correctAnswer:'C',userAnswer:'E',confidence:'secure',origin:'inedita',destinations:['metrica_apenas'],annulled:false,errorType:'confusao_conceitual',theoryRefs:['3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar'],repetition:{classification:'new',similarTo:[],intentional:false}}]});
   const save=s=>write('data/sessoes/'+s.id+'.json',s);
   const s=make('erro','2026-11-04');save(s);sync();const target=s.id+'-q1';

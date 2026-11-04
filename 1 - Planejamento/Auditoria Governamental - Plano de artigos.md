@@ -50,6 +50,9 @@ Na manutenção futura, um novo artigo exigirá **nota canônica com identidade 
 ## Fontes
 
 - [[2 - Editais/CGU 2026 - Auditoria|Edital e checklist CGU]], P2.5 e P3.1.
+- [Constituição Federal, arts. 70, 71 e 74](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+- [Lei nº 10.180/2001, arts. 19 a 24](https://wiki.cgu.gov.br/index.php/Lei_n%C2%BA_10.180,_de_6_de_fevereiro_de_2001).
+- [Decreto nº 3.591/2000, arts. 14 e 15](https://wiki.cgu.gov.br/index.php?title=Decreto_n%C2%BA_3.591,_de_6_de_setembro_de_2000).
 - [CGU, Manual de Orientações Técnicas, seções 4.3.4 e 4.3.4.7](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
 - [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial]] e [[1 - Planejamento/Continuidade de estudo por materia|Continuidade de estudo]].
 

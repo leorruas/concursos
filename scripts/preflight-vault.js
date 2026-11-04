@@ -13,6 +13,7 @@ const checks = [
   ['Catálogo de matérias por concurso', 'scripts/test-contest-catalog.js'],
   ['Filtro da grade por concurso', 'scripts/test-contest-home-filter.js'],
   ['Filtro de artigos e seletor por concurso', 'scripts/test-contest-article-filter.js'],
+  ['Busca contextual por concurso', 'scripts/test-contest-search-scope.js'],
   ['Invariantes globais', 'scripts/validate-vault-invariants.js'],
   ['Integridade de dados e links', 'scripts/validate-integrity.js'],
   ['Idempotência da ingestão', 'scripts/test-ingestion-idempotency.js'],

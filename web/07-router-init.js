@@ -10,7 +10,9 @@ function sincronizarContextoDaRota(rota) {
             localStorage.setItem("concurso_ativo_id", concursoSelecionadoId);
         }
     }
-    return anteriorId !== concursoSelecionadoId || anteriorBiblioteca !== modoBibliotecaCompleta;
+    const alterado = anteriorId !== concursoSelecionadoId || anteriorBiblioteca !== modoBibliotecaCompleta;
+    if (alterado && typeof buscaGlobalAtiva !== "undefined") buscaGlobalAtiva = false;
+    return alterado;
 }
 
 async function tratarHashNavegacao() {

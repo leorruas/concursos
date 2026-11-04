@@ -134,6 +134,7 @@ function persistirEscopoNaRota() {
 function selecionarBibliotecaCompleta() {
     if (modoBibliotecaCompleta) return;
     modoBibliotecaCompleta = true;
+    if (typeof buscaGlobalAtiva !== "undefined") buscaGlobalAtiva = false;
     renderizarPainelConcursoHome();
     renderizarPastas();
     persistirEscopoNaRota();
@@ -144,6 +145,7 @@ function selecionarConcurso(novoConcursoId) {
     if (!dadosConcursosEstrategicos.some(item => item.id === novoConcursoId)) return;
     if (concursoSelecionadoId === novoConcursoId && !modoBibliotecaCompleta) return;
     modoBibliotecaCompleta = false;
+    if (typeof buscaGlobalAtiva !== "undefined") buscaGlobalAtiva = false;
     concursoSelecionadoId = novoConcursoId;
     localStorage.setItem("concurso_ativo_id", novoConcursoId);
     renderizarPainelConcursoHome();

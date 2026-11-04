@@ -375,6 +375,27 @@ function modoDebugBuscaAtivo() {
     return query.some(par => par === "debugBusca=1" || par === "debugBusca=true");
 }
 
+// Escopo da busca reutiliza o mesmo catálogo público da grade e da lista de artigos.
+let buscaGlobalAtiva = false;
+
+function obterCaminhosPermitidosBusca() {
+    if (buscaGlobalAtiva || typeof obterProgramaSelecionado !== "function") return null;
+    const programa = obterProgramaSelecionado();
+    if (!programa) return null;
+    const caminhos = new Set();
+    for (const materia of programa.subjects) {
+        caminhos.add(materia.hubSourcePath);
+        for (const path of materia.articleSourcePaths) caminhos.add(path);
+    }
+    return caminhos;
+}
+
+function selecionarEscopoBusca(global) {
+    buscaGlobalAtiva = Boolean(global);
+    const consulta = (campoTexto?.value || campoTextoNav?.value || "").trim();
+    if (consulta) filtrarArtigos(consulta);
+}
+
 function filtrarArtigos(termoBusca) {
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.add("escondido");
@@ -400,7 +421,9 @@ function filtrarArtigos(termoBusca) {
     }
 
     garantirIndiceBusca();
+    const permitidos = obterCaminhosPermitidosBusca();
     const ranqueados = indiceBuscaArtigos
+        .filter(entrada => !permitidos || permitidos.has(entrada.artigo.sourcePath))
         .map(entrada => {
             const score = pontuarEntradaBusca(entrada, consultaNormalizada, termos);
             const diagnostico = modoDebugBuscaAtivo() && typeof detalharPontuacaoEntradaBusca === "function"
@@ -503,18 +526,44 @@ function obterContextoResultado(entrada, termo, termos) {
 
 function exibirResultados(resultados, termo = "", termos = []) {
     containerResultados.innerHTML = "";
-    if (resultados.length === 0) {
-        containerResultados.innerHTML = `<p class="mensagem-busca">nenhum artigo encontrado para “${escaparHtml(termo)}”. tente menos termos ou outra forma de escrever o conceito.</p>`;
-        return;
-    }
-
     const concursoAtivo = Array.isArray(dadosConcursosEstrategicos)
         ? dadosConcursosEstrategicos.find(c => c.id === concursoSelecionadoId)
         : null;
+    const programa = typeof obterProgramaSelecionado === "function" ? obterProgramaSelecionado() : null;
+    if (programa) {
+        const controles = document.createElement("div");
+        controles.className = "busca-escopo concurso-seletor-textual";
+        controles.setAttribute("role", "group");
+        controles.setAttribute("aria-label", "Escopo da pesquisa");
+        controles.innerHTML = `
+            <span class="concurso-seletor-rotulo">buscar em:</span>
+            <button type="button" data-busca-global="false" class="concurso-btn-opcao${!buscaGlobalAtiva ? " concurso-selecionado" : ""}"
+                aria-pressed="${!buscaGlobalAtiva}">${escaparHtml(concursoAtivo?.nome || concursoSelecionadoId)}</button>
+            <span class="concurso-barra-separadora" aria-hidden="true">/</span>
+            <button type="button" data-busca-global="true" class="concurso-btn-opcao${buscaGlobalAtiva ? " concurso-selecionado" : ""}"
+                aria-pressed="${buscaGlobalAtiva}">todo o vault</button>
+        `;
+        controles.querySelectorAll("[data-busca-global]").forEach(botao => {
+            botao.addEventListener("click", () => selecionarEscopoBusca(botao.dataset.buscaGlobal === "true"));
+        });
+        containerResultados.appendChild(controles);
+    }
+
     const resumo = document.createElement("p");
     resumo.className = "resumo-busca";
-    resumo.textContent = `${resultados.length} ${resultados.length === 1 ? "resultado" : "resultados"} · ordem global por relevância${concursoAtivo && concursoAtivo.nome ? ` · contexto: ${concursoAtivo.nome}` : ""}${modoDebugBuscaAtivo() ? " · debug ativo" : ""}`;
+    const escopoRotulo = obterCaminhosPermitidosBusca()
+        ? (concursoAtivo?.nome || concursoSelecionadoId)
+        : "todo o vault";
+    resumo.textContent = `${resultados.length} ${resultados.length === 1 ? "resultado" : "resultados"} · escopo: ${escopoRotulo} · ordem por relevância${modoDebugBuscaAtivo() ? " · debug ativo" : ""}`;
     containerResultados.appendChild(resumo);
+
+    if (resultados.length === 0) {
+        const aviso = document.createElement("p");
+        aviso.className = "mensagem-busca";
+        aviso.textContent = "Nenhum artigo encontrado para “" + termo + "” neste escopo. Experimente outro termo ou selecione todo o vault.";
+        containerResultados.appendChild(aviso);
+        return;
+    }
 
     const lista = document.createElement("div");
     lista.className = "resultados-lista resultados-lista-global";

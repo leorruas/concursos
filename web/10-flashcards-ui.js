@@ -2,6 +2,9 @@
     'use strict';
     const F=window.Flashcards, $=id=>document.getElementById('fc-'+id);
     let cards=[], catalog, state=F.empty(), revealed=false, storageOK=true, corrupt=false;
+    // Somente leitura: o perfil existe no GitHub público e não é copiado ao Pages.
+    const PRIORITIES_URL='https://raw.githubusercontent.com/leorruas/concursos/main/data/contexto-estudo/flashcards-prioridades.json';
+    let prioritySync='loading',priorityRequest=null,lastPriorityCheck=0;
     const status=text=>{$('status').textContent=text;};
     const show=(id,visible)=>{$(id).hidden=!visible;};
     function save(next) {
@@ -21,13 +24,49 @@
         const stats=F.stats(filtered(),state);
         const profile=state.priorities;
         const priorities=profile?.entries.filter(p=>p.examId===$('exam').value&&(!$('subject').value||p.subjectId===$('subject').value))||[];
-        $('errors-status').textContent=profile ? `${new Set(priorities.map(p=>p.cardId)).size} cartões vinculados neste recorte · corte ${profile.cut}. Fila editorial sem cartão: ${profile.unmappedCount}. Válido para novas rodadas; importe outra versão após novas baterias.` : 'Importe o arquivo de prioridades do estudo para orientar as próximas rodadas.';
-        show('errors-clear',!!profile);
+        const count=new Set(priorities.map(p=>p.cardId)).size;
+        const summary=profile ? `${count} cartões ligados aos erros deste recorte · dados de ${profile.cut}.${profile.unmappedCount ? ` ${profile.unmappedCount} lacuna(s) aguardam novos cartões no conjunto.` : ''}` : '';
+        $('errors-status').textContent=prioritySync==='loading' ?
+            (summary ? summary+' Verificando atualizações…' : 'Verificando automaticamente os erros das questões…') :
+            prioritySync==='offline' ?
+            (summary ? summary+' Sem acesso às atualizações agora; usando a última versão salva.' : 'Não foi possível consultar as prioridades no GitHub. As revisões e os novos cartões continuam disponíveis.') :
+            (summary || 'Nenhuma prioridade vinculada no momento.');
         $('stats').replaceChildren(...[['known','Conhecidos'],['learning','Em aprendizagem'],['unknown','Ainda não sei'],['due','Precisam de revisão'],['unseen','Ainda não estudados']].map(([key,label])=>{
             const box=document.createElement('div'), n=document.createElement('strong'), t=document.createElement('span');n.textContent=stats[key];t.textContent=label;box.append(n,t);return box;
         }));
         $('stats').setAttribute('aria-label',`${stats.unknown} conceitos com resposta Não sei; revisões pendentes podem incluir conceitos conhecidos ou em aprendizagem.`);
         show('resume',!!state.session);
+    }
+    // A coleção de cartões já chega pelo build do Pages. O foco derivado das questões
+    // chega diretamente do GitHub e é atualizado sem upload ou download manual.
+    async function syncPriorities(force=false) {
+        if(corrupt) return false;
+        if(priorityRequest) return priorityRequest;
+        if(!force && lastPriorityCheck && Date.now()-lastPriorityCheck<60000)return !!state.priorities;
+        prioritySync='loading';
+        if(catalog)dashboard();
+        priorityRequest=(async()=>{
+            const controller=new AbortController();
+            const timeout=setTimeout(()=>controller.abort(),10000);
+            try {
+                const response=await fetch(PRIORITIES_URL+'?v='+Date.now(),{cache:'no-store',signal:controller.signal});
+                if(!response.ok)throw Error('Prioridades indisponíveis: '+response.status);
+                const snapshot=await response.json();
+                const next=F.applyPrioritySnapshot(state,snapshot,cards);
+                if(next!==state)save(next);
+                prioritySync='ready';
+                return true;
+            }catch {
+                prioritySync='offline';
+                return !!state.priorities;
+            }finally {
+                clearTimeout(timeout);
+                lastPriorityCheck=Date.now();
+                priorityRequest=null;
+                if(catalog)dashboard();
+            }
+        })();
+        return priorityRequest;
     }
     function home() {document.querySelector('.fc-main').classList.remove('is-studying');show('dashboard',true);show('round',false);show('summary',false);dashboard();}
     function render() {
@@ -79,26 +118,24 @@
         const examFromURL=new URLSearchParams(location.search).get('concurso');
         if(catalog.exams.some(e=>e.id===examFromURL))$('exam').value=examFromURL;
         subjects();home();
-        if(storageOK)status(`${cards.length} conceitos · CGU 2026 / Cebraspe · progresso privado neste dispositivo`);
-        $('export').disabled=false;$('import').disabled=false;
-        $('form').addEventListener('submit',e=>{
+        void syncPriorities(true);
+        if(storageOK)status(`${cards.length} conceitos · CGU 2026 / Cebraspe · progresso dos cartões neste dispositivo`);
+        $('export').disabled=false;$('import').disabled=false;$('import-trigger').disabled=false;
+        $('form').addEventListener('submit',async e=>{
             e.preventDefault();
             if(corrupt){status('O progresso salvo não pôde ser lido. Exporte a cópia antes de iniciar uma nova sessão.');return;}
             if(state.session&&!confirm('Encerrar a sessão anterior e iniciar outra? As avaliações e agendamentos serão preservados.'))return;
             const o=scope();
-            if(o.mode==='errors'&&!state.priorities){status('Importe primeiro o arquivo de prioridades das questões.');return;}
+            if(o.mode==='errors') {
+                await syncPriorities(true);
+                if(!state.priorities){status('Ainda não foi possível consultar os erros das questões. Estude os outros modos e tente novamente.');return;}
+            }else void syncPriorities();
             const base=state.session?F.finish(state):state;
             save(F.start(cards,base,o));render();
         });
-        $('errors-import').addEventListener('change',async e=>{
-            try {
-                const file=e.target.files[0];if(!file)return;if(file.size>2000000)throw Error('Arquivo maior que 2 MB.');
-                const priorities=F.validatePriorities(JSON.parse(await file.text()),cards);
-                save({...state,priorities});dashboard();
-                if(storageOK)status('Prioridades das questões importadas. Suas revisões e a rodada salva foram preservadas; novas rodadas usam este corte.');
-            } catch(error) {status('Prioridades recusadas: '+error.message);}finally{e.target.value='';}
+        document.addEventListener('visibilitychange',()=>{
+            if(document.visibilityState==='visible')void syncPriorities();
         });
-        $('errors-clear').addEventListener('click',()=>{save({...state,priorities:null});dashboard();if(storageOK)status('Prioridades removidas. O histórico dos cartões foi preservado.');});
         $('exam').addEventListener('change',subjects);$('subject').addEventListener('change',dashboard);
         $('resume').addEventListener('click',render);
         $('pause').addEventListener('click',()=>{save(F.finish(state));render();});
@@ -118,12 +155,13 @@
             const url=URL.createObjectURL(new Blob([content],{type:'application/json'})), a=document.createElement('a');
             a.href=url;a.download='flashcards-progresso-'+new Date().toISOString().slice(0,10)+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
         });
+        $('import-trigger').addEventListener('click',()=>{$('import').click();});
         $('import').addEventListener('change',async e=>{
             try{
                 const file=e.target.files[0];if(!file)return;if(file.size>2000000)throw Error('Arquivo maior que 2 MB.');
                 const next=F.validateState(JSON.parse(await file.text()),cards);
                 if(!confirm('Substituir o progresso deste navegador pela cópia importada? Exporte antes se quiser preservar o atual.'))return;
-                save(next);raw=null;corrupt=false;home();if(storageOK)status('Progresso importado e salvo neste navegador.');
+                save(next);raw=null;corrupt=false;home();void syncPriorities(true);if(storageOK)status('Progresso importado e salvo neste navegador.');
             }catch(error){status('Importação recusada: '+error.message);}finally{e.target.value='';}
         });
     }catch(error){status('Não foi possível abrir os flashcards. Recarregue a página para tentar novamente. '+error.message);}

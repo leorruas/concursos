@@ -6,6 +6,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 
 ## 1 - Planejamento
 - [[1 - Planejamento/Continuidade de estudo por materia|Continuidade de estudo por matéria]]
+- [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano das 15 matérias]]
 - [[CHAT|Estudo pelo chat: entrada curta]]
 - [[1 - Planejamento/Mapa de scripts e contratos do sistema|Mapa de scripts e contratos do sistema]]
 - [[1 - Planejamento/Registro de entrada de editais|Registro permanente de entrada de editais]]
@@ -137,6 +138,17 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|03 • Transparência, acesso à informação e proteção de dados pessoais]]
 - [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Avaliação de políticas públicas]]
   - [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|01 • Teoria da mudança: fundamentos da avaliação]]
+- [[3 - Materias/Estado e Democracia/estado-e-democracia|Estado e democracia]]
+- [[3 - Materias/Sociedade Brasileira/sociedade-brasileira|Sociedade brasileira]]
+- [[3 - Materias/Etica Publica/etica-publica|Ética pública]]
+- [[3 - Materias/Governanca Riscos e Integridade/governanca-riscos-e-integridade|Governança, riscos e integridade]]
+- [[3 - Materias/Transparencia e Ouvidoria/transparencia-e-ouvidoria|Transparência e ouvidoria]]
+- [[3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia|Evidências, dados e inteligência artificial]]
+- [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]]
+- [[3 - Materias/Orcamento Publico/orcamento-publico|Orçamento Público]]
+- [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]
+- [[3 - Materias/Contratacoes e Transferencias/contratacoes-e-transferencias|Contratações e transferências]]
+- [[3 - Materias/Integridade e Responsabilizacao/integridade-e-responsabilizacao|Integridade e responsabilização]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Administracao Geral/01 - gestao de projetos|01 • Gestão de projetos]]
@@ -203,4 +215,4 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Redacao/03 - estrategias de argumentacao|03 • Estratégias de argumentação]]
 
 ---
-*Última atualização: 2026-10-10*
+*Última atualização: 2026-11-04*

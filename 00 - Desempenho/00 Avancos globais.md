@@ -11,18 +11,19 @@ updated: 2026-11-03
 <!-- estudo-sessoes:inicio -->
 ## Indicadores automáticos
 
-Corte: **2026-11-03**. Fonte: itens individualizados no ledger, incluindo sessões do chat. Histórico parcialmente recuperado não equivale ao volume total estudado. Percentual = acertos / (acertos + erros); brancos e anulados separados. Modalidades e concursos permanecem separados. Volume de 50 itens não comprova domínio. Sem estimativa de nota oficial ou inferência de fadiga.
+Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessões do chat. Histórico parcialmente recuperado não equivale ao volume total estudado. Percentual = acertos / (acertos + erros); brancos e anulados separados. Modalidades e concursos permanecem separados. Volume de 50 itens não comprova domínio. Sem estimativa de nota oficial ou inferência de fadiga.
 
 ### Janela de 30 dias
 
 | Concurso / disciplina / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| dataprev-2026 / Raciocínio Lógico / simulado histórico | 10 | 2 | 0 | 0 | 83.3% | insuficiente |
-| dataprev-2026 / Língua Portuguesa / simulado histórico | 20 | 7 | 0 | 0 | 74.1% | insuficiente |
+| dataprev-2026 / Raciocínio Lógico / simulado histórico | 9 | 1 | 0 | 0 | 90.0% | insuficiente |
+| dataprev-2026 / Língua Portuguesa / simulado histórico | 19 | 5 | 0 | 0 | 79.2% | insuficiente |
 | dataprev-2026 / Língua Inglesa / simulado histórico | 23 | 1 | 0 | 0 | 95.8% | insuficiente |
-| dataprev-2026 / Legislação / simulado histórico | 9 | 3 | 0 | 0 | 75.0% | insuficiente |
-| dataprev-2026 / Comunicação Social / simulado histórico | 80 | 10 | 0 | 0 | 88.9% | volume >= 50; verificar representatividade |
-| dataprev-2026 / Atualidades/IA / simulado histórico | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
+| dataprev-2026 / Legislação / simulado histórico | 8 | 2 | 0 | 0 | 80.0% | insuficiente |
+| dataprev-2026 / Comunicação Social / simulado histórico | 53 | 7 | 0 | 0 | 88.3% | volume >= 50; verificar representatividade |
+| dataprev-2026 / Atualidades/IA / simulado histórico | 11 | 1 | 0 | 0 | 91.7% | insuficiente |
+| cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 3 | 1 | 0 | 0 | 75.0% | insuficiente |
 | cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |
 | cgu-2026 / Auditoria Governamental / aprendizagem | 31 | 5 | 0 | 0 | 86.1% | insuficiente |
@@ -31,6 +32,7 @@ Corte: **2026-11-03**. Fonte: itens individualizados no ledger, incluindo sessõ
 
 | Segunda-feira / concurso / disciplina / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-02 / cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 3 | 1 | 0 | 0 | 75.0% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / para_valer | 20 | 2 | 2 | 0 | 90.9% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / aprendizagem | 23 | 4 | 0 | 0 | 85.2% | insuficiente |

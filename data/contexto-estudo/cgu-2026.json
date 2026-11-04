@@ -1,9 +1,21 @@
 {
   "schemaVersion": 1,
   "concursoId": "cgu-2026",
-  "cut": "2026-11-03",
+  "cut": "2026-11-04",
   "coverage": "somente itens individualizados; legado pode ser parcial",
   "totals": [
+    {
+      "key": "Políticas Públicas e avaliação / aprendizagem",
+      "total": 4,
+      "correct": 3,
+      "incorrect": 1,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 4,
+      "valid": 4,
+      "accuracy": 0.75,
+      "sample": "insuficiente"
+    },
     {
       "key": "Auditoria Governamental / revisao",
       "total": 16,
@@ -43,6 +55,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem.json",
+      "status": "parcial",
+      "diagnosis": "Unidade 01, checagem didática após aula e fronteiras: 3/4 acertos (75%); itens 1, 2 e 4 corretos, item 3 errado ao tratar formalização prévia de modelo lógico como pré-requisito absoluto de avaliabilidade. Erro [C] provisório por confusão entre instrumento recomendado e condição indispensável; sem justificativa nem declaração de confiança, causa não comprovada. Não é treino calibrado, não comprova retenção ou domínio.",
+      "nextStep": "Retomar a fronteira avaliabilidade versus existência prévia de modelo lógico; confrontar reconstrução retrospectiva e ausência real de condições de avaliação; aplicar reteste novo sobre essa fronteira antes de considerar encerramento didático. Aprofundar nota canônica de avaliação de políticas públicas em etapa editorial separada e calibrar prova-espelho antes de treino para valer."
+    },
+    {
       "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada",
       "date": "2026-11-03",
       "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada.json",
@@ -57,33 +77,21 @@
       "status": "concluido",
       "diagnosis": "4/4 acertos e nenhum branco, treino de aprendizagem sem calibração. Confiança não informada.",
       "nextStep": "Prosseguir unidade 07 com mais casos e fronteiras entre técnicas, testar após calibração e consolidar teoria ao fechar o assunto."
-    },
-    {
-      "id": "cgu-2026-auditoria-2026-11-03-unidade06-para-valer",
-      "date": "2026-11-03",
-      "sourcePath": "3 - Materias/Auditoria Governamental/Avancos.md",
-      "status": "concluido",
-      "diagnosis": "6/8: branco Q3 (dois auditores na observação exclusiva), erro Q6 (relatório anterior como papel permanente); revisão espaçada pendente.",
-      "nextStep": null
     }
   ],
   "recentMechanisms": [
-    "conciliacao-dados-evidencia-analitica",
+    "avaliabilidade-sem-modelo-formal-preexistente",
+    "coerencia-logica-nao-prova-causalidade",
     "confirmacao-externa-nao-atribuicao-de-origem",
+    "distinguir-adequacao-da-solucao-e-diagnostico",
+    "distinguir-entrega-de-mudanca-produzida",
     "finalidade-substantiva-inspecao-documental",
     "inspecao-documental-para-testar-operacao-do-controle",
-    "observacao-exclusiva-dois-auditores",
     "observacao-pontual-nao-valida-todo-periodo",
-    "politica-aprovada-responsaveis-pedidos",
-    "populacao-extraida-exclui-cancelados",
     "procedimento-analitico-substantivo",
     "rastreamento-da-origem-ao-registro",
     "recalculo-versus-validade-de-dados",
     "reexecucao-versus-observacao",
-    "relatorio-anterior-arquivo-permanente",
-    "relatorios-de-setores-mesma-base",
-    "supervisor-nao-dispensa-documentacao",
-    "testemunho-assinado-nao-conclusivo",
     "vouching-do-registro-ao-documento"
   ],
   "review": [
@@ -203,13 +211,20 @@
       "theoryRefs": [
         "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar"
       ]
+    },
+    {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem-q3",
+      "topic": "Problema, desenho e avaliabilidade de políticas públicas",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": []
     }
   ],
   "resume": {
-    "subjectId": "auditoria-governamental",
-    "path": "data/contexto-estudo/cgu-2026/auditoria-governamental.json",
-    "lastSessionId": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada",
-    "time": 1793745602000
+    "subjectId": "politicas-publicas",
+    "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
+    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem",
+    "time": 1793788320000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

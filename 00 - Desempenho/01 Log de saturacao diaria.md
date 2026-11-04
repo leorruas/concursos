@@ -10,10 +10,11 @@ updated: 2026-11-03
 <!-- estudo-sessoes:inicio -->
 ## Indicadores automáticos
 
-Corte: **2026-11-03**. Fonte: itens individualizados no ledger, incluindo sessões do chat. Histórico parcialmente recuperado não equivale ao volume total estudado. Percentual = acertos / (acertos + erros); brancos e anulados separados. Modalidades e concursos permanecem separados. Volume de 50 itens não comprova domínio. Sem estimativa de nota oficial ou inferência de fadiga.
+Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessões do chat. Histórico parcialmente recuperado não equivale ao volume total estudado. Percentual = acertos / (acertos + erros); brancos e anulados separados. Modalidades e concursos permanecem separados. Volume de 50 itens não comprova domínio. Sem estimativa de nota oficial ou inferência de fadiga.
 
 | Dia / concurso / disciplina / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-04 / cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 3 | 1 | 0 | 0 | 75.0% | insuficiente |
 | 2026-11-03 / cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | 2026-11-03 / cgu-2026 / Auditoria Governamental / para_valer | 14 | 1 | 1 | 0 | 93.3% | insuficiente |
 | 2026-11-03 / cgu-2026 / Auditoria Governamental / aprendizagem | 17 | 4 | 0 | 0 | 81.0% | insuficiente |

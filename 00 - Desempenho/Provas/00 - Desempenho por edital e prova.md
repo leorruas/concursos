@@ -11,7 +11,7 @@ updated: 2026-11-03
 <!-- estudo-sessoes:inicio -->
 ## Indicadores automáticos
 
-Corte: **2026-11-03**. Fonte: itens individualizados no ledger, incluindo sessões do chat. Histórico parcialmente recuperado não equivale ao volume total estudado. Percentual = acertos / (acertos + erros); brancos e anulados separados. Modalidades e concursos permanecem separados. Volume de 50 itens não comprova domínio. Sem estimativa de nota oficial ou inferência de fadiga.
+Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessões do chat. Histórico parcialmente recuperado não equivale ao volume total estudado. Percentual = acertos / (acertos + erros); brancos e anulados separados. Modalidades e concursos permanecem separados. Volume de 50 itens não comprova domínio. Sem estimativa de nota oficial ou inferência de fadiga.
 
 | Concurso / disciplina / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -21,6 +21,7 @@ Corte: **2026-11-03**. Fonte: itens individualizados no ledger, incluindo sessõ
 | dataprev-2026 / Legislação / simulado histórico | 10 | 5 | 0 | 0 | 66.7% | insuficiente |
 | dataprev-2026 / Comunicação Social / simulado histórico | 85 | 15 | 0 | 0 | 85.0% | volume >= 50; verificar representatividade |
 | dataprev-2026 / Atualidades/IA / simulado histórico | 16 | 2 | 0 | 0 | 88.9% | insuficiente |
+| cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 3 | 1 | 0 | 0 | 75.0% | insuficiente |
 | cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |
 | cgu-2026 / Auditoria Governamental / aprendizagem | 31 | 5 | 0 | 0 | 86.1% | insuficiente |

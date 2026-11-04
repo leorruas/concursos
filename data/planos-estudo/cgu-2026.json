@@ -571,7 +571,7 @@
         "Estado e democracia",
         "estado-democracia"
       ],
-      "hub": "3 - Materias/Direito Constitucional/direito-constitucional",
+      "hub": "3 - Materias/Estado e Democracia/estado-e-democracia",
       "legacyDisciplines": [
         "Estado e democracia"
       ],
@@ -760,7 +760,7 @@
         "Sociedade brasileira",
         "sociedade-brasileira"
       ],
-      "hub": "3 - Materias/Atualidades/atualidades",
+      "hub": "3 - Materias/Sociedade Brasileira/sociedade-brasileira",
       "legacyDisciplines": [
         "Sociedade brasileira"
       ],
@@ -873,7 +873,7 @@
         "Ética pública",
         "etica-publica"
       ],
-      "hub": null,
+      "hub": "3 - Materias/Etica Publica/etica-publica",
       "legacyDisciplines": [
         "Ética pública"
       ],
@@ -1099,7 +1099,7 @@
         "Governança, riscos e integridade",
         "governanca-riscos-integridade"
       ],
-      "hub": "3 - Materias/Administracao Publica/administracao-publica",
+      "hub": "3 - Materias/Governanca Riscos e Integridade/governanca-riscos-e-integridade",
       "legacyDisciplines": [
         "Governança, riscos e integridade"
       ],
@@ -1215,7 +1215,7 @@
         "Transparência e ouvidoria",
         "transparencia-ouvidoria"
       ],
-      "hub": "3 - Materias/Administracao Publica/administracao-publica",
+      "hub": "3 - Materias/Transparencia e Ouvidoria/transparencia-e-ouvidoria",
       "legacyDisciplines": [
         "Transparência e ouvidoria"
       ],
@@ -1446,7 +1446,7 @@
         "Evidências, dados e inteligência artificial",
         "evidencias-dados-ia"
       ],
-      "hub": null,
+      "hub": "3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia",
       "legacyDisciplines": [
         "Evidências, dados e inteligência artificial"
       ],
@@ -1559,7 +1559,7 @@
         "Finanças Públicas",
         "financas-publicas"
       ],
-      "hub": null,
+      "hub": "3 - Materias/Financas Publicas/financas-publicas",
       "legacyDisciplines": [
         "Finanças Públicas"
       ],
@@ -1597,7 +1597,7 @@
         "administração financeira e orçamentária",
         "orçamento"
       ],
-      "hub": null,
+      "hub": "3 - Materias/Orcamento Publico/orcamento-publico",
       "legacyDisciplines": [
         "Orçamento Público"
       ],
@@ -1652,7 +1652,7 @@
         "contabilidade aplicada ao setor público",
         "CASP"
       ],
-      "hub": null,
+      "hub": "3 - Materias/Contabilidade Publica/contabilidade-publica",
       "legacyDisciplines": [
         "Contabilidade Pública"
       ],
@@ -1909,7 +1909,7 @@
         "Contratações e transferências",
         "contratacoes-transferencias"
       ],
-      "hub": "3 - Materias/Direito Administrativo/direito-administrativo",
+      "hub": "3 - Materias/Contratacoes e Transferencias/contratacoes-e-transferencias",
       "legacyDisciplines": [
         "Contratações e transferências"
       ],
@@ -2012,7 +2012,7 @@
         "Integridade e responsabilização",
         "integridade-responsabilizacao"
       ],
-      "hub": null,
+      "hub": "3 - Materias/Integridade e Responsabilizacao/integridade-e-responsabilizacao",
       "legacyDisciplines": [
         "Integridade e responsabilização"
       ],

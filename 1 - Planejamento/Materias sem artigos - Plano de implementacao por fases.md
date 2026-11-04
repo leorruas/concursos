@@ -51,6 +51,8 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 - [ ] **F06 · Contabilidade societária das estatais**: U04: BP/DRE, depreciação, impairment, provisões, contingências, partes relacionadas.
 - [ ] **F07 · Governança e prestação de contas das estatais**: U05: conselhos, finalidade pública, carta anual, transparência, sustentabilidade.
 
+**C3 iniciado (04/11/2026):** [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo|artigo 05]] publicado. **F05 parcialmente pendente** até a nota 06, de MIC, SIC e indicadores físico-financeiros. Próxima execução: somente artigo 06.
+
 **Lote C2 publicado (04/11/2026):** F04 atendida por [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|artigo 03 (BP/DVP)]] e [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|artigo 04 (DFC, notas e conciliações)]]. O segundo é complemento previsto no plano específico e não cria nova unidade didática. Próximo lote: C3 de custos.
 
 **Lote C1 publicado (04/11/2026):** F01 e F02 cobertos pelo artigo [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|01]]; F03 pelo [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|02]]. C1 segue o plano específico de Contabilidade, que articula esses conteúdos em dois artigos canônicos. **Cobertura documental parcial; nenhum estudo ou retenção registrado.** Próxima fase: BP/DVP e, depois, DFC/notas.

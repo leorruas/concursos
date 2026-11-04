@@ -192,6 +192,14 @@ A natureza da despesa responde **qual é o tipo e o objeto do gasto**. A classif
 
 A **despesa com serviço corrente de limpeza** pode ter classificação por função Educação e, ao mesmo tempo, GND **Outras Despesas Correntes**, com elemento de serviço aplicável. Sua função não modifica a natureza econômica.
 
+### Transferência: despesa de quem envia × receita de quem recebe
+
+Considere duas perspectivas da **mesma transferência hipotética**: a União envia recursos a um município para custear atendimento em saúde, e o município recebe esse dinheiro para executar a ação. **Na União**, o gasto precisa ser examinado como **despesa**: a modalidade de aplicação pode indicar *Transferências a Municípios*. **No município**, o ingresso é examinado como **receita orçamentária**: quando destinado ao financiamento de despesas correntes, corresponde a transferência corrente, observadas as regras de classificação.
+
+Se os recursos recebidos forem destinados **à construção de um equipamento público**, pode haver, no orçamento municipal, **receita de transferência de capital**. Isso não transforma “Transferências a Municípios” em categoria econômica de receita: a modalidade responde **como o ente que paga aplica os recursos**, enquanto a natureza da receita responde **qual ingresso o ente recebedor registra**. Em casos concretos, é preciso verificar instrumento, finalidade e classificadores do exercício. A classificação da receita recebida **não decorre automaticamente do nome da modalidade** na despesa de quem transfere.
+
+**Regra de prova:** antes de classificar, identifique **quem é o ente** e se a questão observa a **despesa de quem transfere** ou a **receita de quem recebe**. Essa troca de ponto de vista permite um distrator com nomes tecnicamente verdadeiros, mas usados na categoria errada.
+
 ### Dimensões física e financeira da programação
 
 **Meta física** indica quantidade de entregas programadas. **Dotação financeira** identifica valor autorizado segundo a programação. Se foram previstos 500 atendimentos e entregues 350, o resultado deve ser examinado com dados físicos e financeiros, além do contexto de implementação.

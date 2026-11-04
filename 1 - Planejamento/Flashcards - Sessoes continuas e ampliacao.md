@@ -38,6 +38,10 @@ Retirado o último controle visual de importação, “Importar cópia”, da á
 
 Com base nos artigos já documentados e nas prioridades das questões, complementar Avaliação de Políticas Públicas com sete cartões de fronteiras conceituais e refinar quatro cartões existentes, sem clonar os oito conceitos iniciais. Atualizar duas notas canônicas com cenários que distingam reconstrução da teoria do programa, avaliabilidade da implementação e identificação causal. Em Orçamento, refinar quatro cartões existentes (PPA, LDO, LOA e crédito suplementar) e desenvolver um exemplo integrado no artigo de planejamento, contrastando dotação insuficiente e inexistente. Verificar artigo/âncora, fontes, catálogo, testes e publicação. Acertos dos exercícios anteriores não são convertidos automaticamente em retenção.
 
+## Lote de conexões: execução e avaliação (04/11)
+
+Três cartões novos testam a troca de perspectiva entre despesa do ente transferidor e receita do ente recebedor, programação física versus execução financeira e auditoria operacional versus identificação causal. Dois cartões são compartilhados entre matérias para evitar duplicação de conceito. Seis cartões já existentes ganharam contrastes mais discriminativos. Expansões pontuais nos artigos de classificação orçamentária, monitoramento/avaliação e procedimentos de auditoria. Manter distinção entre publicação do conhecimento e evidência de retenção. Validar no workflow antes de fechar esta etapa.
+
 ## Seleção, erros e espaçamento
 
 Reutilizar a integração já implementada com `data/contexto-estudo/flashcards-prioridades.json`: erros conceituais recorrentes pendentes, outros erros, incertezas e revisões posteriores à recuperação imediata. A página agora consulta automaticamente o arquivo de prioridades diretamente do repositório público do GitHub, sem copiar o perfil para o GitHub Pages. O corte continua visível. Falha de rede mantém a última fotografia local, e a consulta nunca substitui outra de data mais recente.

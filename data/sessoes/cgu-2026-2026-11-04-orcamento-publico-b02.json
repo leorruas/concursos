@@ -281,5 +281,6 @@
         "intentional": false
       }
     }
-  ]
+  ],
+  "noveltyException": "Bateria didática com 7 itens, fora de benchmark. Os itens 1 e 2 são recuperações temáticas intencionais de duas lacunas documentadas na bateria 01 (dotação versus caixa; aprovação legislativa versus execução), com novo mecanismo e referência retrievalOf. São 2 retestes em 7 questões (28,6% de revisão intencional), acima do limite geral do gate de novidade, pois a finalidade foi recuperar conceitos pendentes antes de aprofundar o artigo 02. Os outros cinco itens introduzem novos recortes sobre PPA, LDO e LOA. Preservar os dois retestes, seus IDs, as classificações e o acerto inseguro do item 3 sem declarar retenção ou treino competitivo."
 }

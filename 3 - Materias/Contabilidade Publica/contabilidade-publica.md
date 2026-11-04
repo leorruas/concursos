@@ -28,6 +28,12 @@ Demonstração das Variações Patrimoniais (DVP); Manual de Contabilidade Aplic
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 
+## Plano editorial de aprofundamento
+
+O [[1 - Planejamento/Contabilidade Publica - Plano de artigos|plano de artigos de Contabilidade Pública]] detalha as próximas notas: balanços e DVP, DFC/notas, custos públicos e MIC, provisões e contingências, ativos, demonstrações societárias e governança de estatais. O roteiro propõe lotes de até dois artigos completos, com fonte normativa, exemplos e atualização do catálogo por `articleId`.
+
+A existência desse plano **não representa conteúdo estudado, unidade concluída ou cobertura integral**. A retomada continua condicionada ao contexto de estudo da matéria.
+
 ## Fronteiras prioritárias
 
 Ótica orçamentária × patrimonial; receita orçamentária × variação patrimonial aumentativa; execução física × financeira; provisão × passivo contingente. São distinções a desenvolver nos artigos e nos treinos, conforme as fontes aplicáveis. Não são resultados observados de desempenho do estudante.

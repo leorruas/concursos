@@ -110,3 +110,8 @@ Foram incluídos 25 cartões novos para Estado e democracia, Sociedade brasileir
 **37 novos cartões, total 204:** Contabilidade Pública +7, Finanças Públicas +6, Contratações e Transferências +9, Auditoria Governamental +15. Os cartões referenciam seções existentes e fontes legais/técnicas, preservam os IDs e históricos anteriores e foram planejados como treino de recuperação, sem atribuir domínio ou erro novo. As questões antigas não foram reclassificadas.
 
 **Lacunas deliberadamente não forçadas:** o hub de Contabilidade ainda carece de notas específicas sobre demonstrações contábeis, custos, contabilidade societária de estatais e provisões; Contratações e Transferências ainda precisa de artigos próprios sobre fiscalização, parcerias, termos e prestação de contas das transferências. O próximo lote deverá desenvolver essas notas e normas antes de criar cartões dependentes de detalhes não documentados.
+
+
+## Dependência editorial para os próximos cartões de Contabilidade e Transferências
+
+A expansão desses eixos agora tem dois roteiros específicos: [[1 - Planejamento/Contabilidade Publica - Plano de artigos|Contabilidade Pública: plano de artigos]] e [[1 - Planejamento/Contratacoes e Transferencias - Plano de artigos|Contratações e Transferências: plano de artigos]]. Primeiro desenvolver a teoria, as taxonomias, os casos e as fontes; depois gerar somente os cartões de fronteiras ainda ausentes na coleção. Os planos organizam a publicação **sem adicionar notas, cartões, sessões ou evidência de domínio**. No corte de 04/11, existem 14 cartões de Contabilidade Pública e 13 de Contratações e Transferências; as normas de demonstrações, custos, provisões e transferências ainda precisam das notas especializadas descritas nos roteiros.

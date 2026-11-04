@@ -26,6 +26,12 @@ Planejamento e fiscalização de contratações, transferências, parcerias, tes
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 
+## Plano editorial de aprofundamento
+
+O [[1 - Planejamento/Contratacoes e Transferencias - Plano de artigos|plano de artigos de Contratações e Transferências]] estabelece o desenvolvimento das diferenças entre regimes e instrumentos de repasse, convênios, contratos de repasse, parcerias com OSC, transferências especiais, execução física e financeira, prestação de contas e encaminhamentos de auditoria.
+
+A criação do roteiro **não significa estudo concluído ou cobertura integral do edital**. Os próximos artigos devem preservar as versões de normas aplicáveis e ser vinculados ao filtro do concurso pelo `articleId`.
+
 ## Fronteiras prioritárias
 
 Planejamento × execução contratual; medição × aceite × pagamento; irregularidade × dano comprovado; fiscalização × responsabilização. São distinções a desenvolver nos artigos e nos treinos, conforme as fontes aplicáveis. Não são resultados observados de desempenho do estudante.

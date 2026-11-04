@@ -1255,3 +1255,8 @@ Artigos e hubs canônicos recebem IDs e aliases de caminho, sem mover arquivos o
 ## 2026-11-04: flashcards de vocabulário com revisão espaçada
 
 Interface de recuperação ativa integrada à navegação, com 85 conceitos revisados, sendo 60 de Orçamento e Contabilidade Pública, e coleções iniciais de outras matérias da CGU. Cartões em JSON usam IDs estáveis de artigos, seções e metadados explícitos de edital/matéria; não dependem das pastas. Revisões diretas, inversas e contrastes possuem históricos separados; conhecimento exige lembranças espaçadas nas duas direções. Progresso e rodada ficam apenas no navegador, com exportação/importação local, sem gravação de respostas no repositório ou no ledger. Build, CI e verificação ao vivo conferem a publicação dos cartões e da interface. Documentação técnica em scripts/FLASHCARDS.md. Corrigidos três testes que interpretavam caminhos com espaços como URLs não decodificadas.
+
+
+## 2026-11-04: refinamento visual dos flashcards
+
+Interface compactada após feedback do usuário: painel inicial com hierarquia editorial, configuração em duas colunas, foco exclusivo no cartão durante a rodada, resposta separada do exemplo e avaliações com indicação de revisão. Temas claro/escuro e largura móvel conferidos no navegador. Motor, coleção e progresso preservados.

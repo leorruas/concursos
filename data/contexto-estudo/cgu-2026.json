@@ -32,14 +32,14 @@
     },
     {
       "key": "Políticas Públicas e avaliação / aprendizagem",
-      "total": 8,
-      "correct": 7,
+      "total": 13,
+      "correct": 12,
       "incorrect": 1,
       "blank": 0,
       "annulled": 0,
-      "answered": 8,
-      "valid": 8,
-      "accuracy": 0.875,
+      "answered": 13,
+      "valid": 13,
+      "accuracy": 0.9230769230769231,
       "sample": "insuficiente"
     },
     {
@@ -81,6 +81,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "status": "concluido",
+      "diagnosis": "Bateria didática integrada da unidade 02: 5/5 acertos, respostas C/E/E/C/C, sem brancos. Com a bateria anterior de 4/4, total específico de implementação 9/9 em duas baterias inéditas didáticas, sem erro observado. Os julgamentos cobriram bottom-up, insuficiência de recursos materiais para inferir capacidade plena, adaptação legítima, fragilidade político-relacional e barreira de acesso por exigência local. Confiança não declarada para todos os itens; não há retenção espaçada nem prova de desempenho competitivo. A lacuna da unidade 01 sobre avaliabilidade permanece aberta para revisão posterior.",
+      "nextStep": "Iniciar unidade 03 (monitoramento e avaliação), diferenciando insumos, atividades, produtos, resultados e impactos, eficácia, eficiência, efetividade e equidade, ex ante/ex post. Em 05/11 retestar com confiança declarada a avaliabilidade da unidade 01, preservando a lacuna. Revisar implementação em outro dia e calibrar questões com corpus Cebraspe real antes de treino para valer."
+    },
+    {
       "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
       "date": "2026-11-04",
       "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
@@ -95,27 +103,20 @@
       "status": "parcial",
       "diagnosis": "Reteste didático da lacuna registrada em 04/11, item 3 da bateria de aprendizagem (avaliabilidade versus formalização prévia do modelo lógico). 3/3 julgamentos corretos: C/E/C. Recuperação correta imediata observada em três mecanismos próximos, inclusive reconstrução retrospectiva, suficiência de dados e diferença entre implementação e impacto. Confiança não declarada; não registrar recuperação segura nem retenção espaçada. Sem calibração competitiva.",
       "nextStep": "Manter na fila revisão posterior (proposta inicial 05/11) com questão C/E de mecanismo diferente e pedir declaração de confiança. Depois da revisão, decidir encerramento didático da unidade 01 e completar a nota canônica da matéria; treino para valer somente com corpus Cebraspe C/E examinado."
-    },
-    {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem.json",
-      "status": "parcial",
-      "diagnosis": "Unidade 01, checagem didática após aula e fronteiras: 3/4 acertos (75%); itens 1, 2 e 4 corretos, item 3 errado ao tratar formalização prévia de modelo lógico como pré-requisito absoluto de avaliabilidade. Erro [C] provisório por confusão entre instrumento recomendado e condição indispensável; sem justificativa nem declaração de confiança, causa não comprovada. Não é treino calibrado, não comprova retenção ou domínio.",
-      "nextStep": "Retomar a fronteira avaliabilidade versus existência prévia de modelo lógico; confrontar reconstrução retrospectiva e ausência real de condições de avaliação; aplicar reteste novo sobre essa fronteira antes de considerar encerramento didático. Aprofundar nota canônica de avaliação de políticas públicas em etapa editorial separada e calibrar prova-espelho antes de treino para valer."
     }
   ],
   "recentMechanisms": [
+    "alteracao-justificada-sem-desvio-automatico",
     "avaliabilidade-distinta-implementacao-impacto",
-    "avaliabilidade-sem-modelo-formal-preexistente",
     "bottom-up-agentes-condicoes-locais",
+    "bottom-up-examina-adaptacoes-e-barreiras",
     "classificacoes-simultaneas-horizontal-intersetorial",
-    "coerencia-logica-nao-prova-causalidade",
     "discricionariedade-nao-e-autonomia-ilimitada",
-    "distinguir-adequacao-da-solucao-e-diagnostico",
-    "distinguir-entrega-de-mudanca-produzida",
     "distinguir-recursos-gestao-de-articulacao-politica",
+    "exigencia-local-adicional-e-exclusao-indevida",
+    "problema-de-articulacao-indica-fragilidade-relacional",
     "reconstrucao-retrospectiva-nao-comprova-efeito",
+    "recursos-materiais-nao-afastam-fragilidade-relacional",
     "teoria-formalizada-nao-garante-dados-para-impacto"
   ],
   "review": [
@@ -247,8 +248,8 @@
   "resume": {
     "subjectId": "politicas-publicas",
     "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
-    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
-    "time": 1793789938000
+    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado",
+    "time": 1793790433000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

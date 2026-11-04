@@ -856,6 +856,78 @@
       "confidenceTracking": {
         "coverage": "partial"
       }
+    },
+    {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:07:13-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "learning": {
+        "stage": "aprendizagem",
+        "taughtConcepts": [
+          "Aplicação integrada de implementação de programa federativo em três municípios",
+          "Práticas de agentes de nível de rua em contextos de adaptação, exclusão e responsabilização",
+          "Capacidade estatal técnico-administrativa e político-relacional sob restrições e falhas",
+          "Riscos de critérios locais de atendimento incompatíveis com regras de elegibilidade"
+        ],
+        "boundaries": [
+          "Explicar implementação bottom-up não equivale a legitimar qualquer decisão do agente",
+          "Possuir recursos e veículos não afasta deficiência de capacidade político-relacional",
+          "Adaptação dentro das normas e motivada por emergência versus desvio arbitrário",
+          "Discricionariedade legítima versus criação indevida de barreira de acesso",
+          "Elementos técnico-administrativos presentes não provam plena capacidade da política"
+        ],
+        "pending": [
+          "Confiança não declarada nos 5 julgamentos; sem evidência de retenção espaçada nem desempenho competitivo",
+          "Revisar em outro dia a unidade 02 em mecanismo diferente",
+          "Nota canônica especializada da unidade 02 ainda pendente de elaboração editorial",
+          "Lacuna da unidade 01 sobre avaliabilidade continua pendente de revisão espaçada em 05/11, sem encerramento antecipado",
+          "Treino para valer depende de comparação com questões reais da Cebraspe"
+        ],
+        "unitCompleted": true,
+        "next": {
+          "unitId": "up3-3-3",
+          "stage": "preparacao",
+          "objective": "Ensinar monitoramento e avaliação pelo modelo lógico, com distinção entre entregas, efeitos e critérios de desempenho; antes ou durante a progressão, revisar avaliabilidade U01 em 05/11, pedindo confiança.",
+          "noteRef": "3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas",
+          "sourceIds": [
+            "edital"
+          ]
+        }
+      },
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "concluido",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "totalQuestions": 5,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "Bateria didática integrada da unidade 02: 5/5 acertos, respostas C/E/E/C/C, sem brancos. Com a bateria anterior de 4/4, total específico de implementação 9/9 em duas baterias inéditas didáticas, sem erro observado. Os julgamentos cobriram bottom-up, insuficiência de recursos materiais para inferir capacidade plena, adaptação legítima, fragilidade político-relacional e barreira de acesso por exigência local. Confiança não declarada para todos os itens; não há retenção espaçada nem prova de desempenho competitivo. A lacuna da unidade 01 sobre avaliabilidade permanece aberta para revisão posterior.",
+      "nextStep": "Iniciar unidade 03 (monitoramento e avaliação), diferenciando insumos, atividades, produtos, resultados e impactos, eficácia, eficiência, efetividade e equidade, ex ante/ex post. Em 05/11 retestar com confiança declarada a avaliabilidade da unidade 01, preservando a lacuna. Revisar implementação em outro dia e calibrar questões com corpus Cebraspe real antes de treino para valer.",
+      "generationAudit": {
+        "counts": {
+          "new": 0,
+          "thematic": 5,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0,
+        "thematicRate": 1,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 1
+      },
+      "noveltyException": "Caso didático integrado intencional de reforço: cinco itens de aplicação de conceitos cobrados na bateria anterior, agora com situações reais de gestão simuladas, três municípios e mecanismos de fronteira inéditos. A classificação 'thematic' preserva o vínculo com os itens de origem e resulta em repetição acima da meta do ledger, admitida por exceção explícita para aprendizagem. Não é benchmark.",
+      "confidenceTracking": {
+        "coverage": "partial"
+      }
     }
   ],
   "questions": [
@@ -11039,6 +11111,256 @@
       "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
       "date": "2026-11-04",
       "startedAt": "2026-11-04T07:58:58-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Implementação: caso integrado em três municípios",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 2: Implementação (limite de escopo; não prova o gabarito)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "number": 1,
+      "conceptId": "implementacao-bottom-up-analise-agentes",
+      "subtopic": "Bottom-up: práticas locais e avaliação",
+      "questionType": "application",
+      "mechanism": "bottom-up-examina-adaptacoes-e-barreiras",
+      "distractorMechanism": "confundir-analisar-praticas-com-aprovar-decisoes",
+      "statement": "A análise da implementação pela perspectiva bottom-up permite investigar como as decisões dos profissionais dos municípios B e C influenciaram a prestação do serviço, mesmo que os objetivos e critérios gerais tenham sido definidos pelo governo federal.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "explanation": "Certo. A abordagem bottom-up examina decisões e interações dos executores locais e permite estudar tanto ajustes lícitos quanto práticas possivelmente irregulares.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem-q1"
+        ],
+        "intentional": true,
+        "transformation": "Conceito da bateria anterior reaplicado em situação integrada dos municípios A, B e C, com fronteira causal ou normativa distinta."
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado-q1",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:07:13-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Implementação: caso integrado em três municípios",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 2: Implementação (limite de escopo; não prova o gabarito)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "number": 2,
+      "conceptId": "capacidade-estatal-recursos-nao-suficientes",
+      "subtopic": "Capacidade estatal: recursos e articulação",
+      "questionType": "application",
+      "mechanism": "recursos-materiais-nao-afastam-fragilidade-relacional",
+      "distractorMechanism": "reducao-da-capacidade-a-recursos-materiais",
+      "statement": "No município A, a existência de recursos e veículos suficientes permite afastar a hipótese de deficiência de capacidade estatal, uma vez que dificuldades de articulação entre órgãos e comunidades dizem respeito exclusivamente ao ambiente externo da política.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "explanation": "Errado. Recursos materiais indicam meios técnico-administrativos disponíveis, mas dificuldades de coordenação e relacionamento podem expressar limitações de capacidade político-relacional da implementação.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem-q4"
+        ],
+        "intentional": true,
+        "transformation": "Conceito da bateria anterior reaplicado em situação integrada dos municípios A, B e C, com fronteira causal ou normativa distinta."
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado-q2",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:07:13-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Implementação: caso integrado em três municípios",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 2: Implementação (limite de escopo; não prova o gabarito)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "number": 3,
+      "conceptId": "lipsky-adaptacao-legitima-versus-desvio",
+      "subtopic": "Discricionariedade e adaptação lícita",
+      "questionType": "application",
+      "mechanism": "alteracao-justificada-sem-desvio-automatico",
+      "distractorMechanism": "equiparar-adaptacao-operacional-a-desvio",
+      "statement": "A reorganização das rotas no município B caracteriza necessariamente desvio de implementação, pois a discricionariedade dos agentes executores é incompatível com a alteração de procedimentos originalmente planejados.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "explanation": "Errado. A reorganização emergencial dentro das regras pode ser adaptação legítima; modificação do plano não equivale necessariamente a desvio, exigindo exame de fundamento, limites e consequências.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem-q2"
+        ],
+        "intentional": true,
+        "transformation": "Conceito da bateria anterior reaplicado em situação integrada dos municípios A, B e C, com fronteira causal ou normativa distinta."
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado-q3",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:07:13-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Implementação: caso integrado em três municípios",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 2: Implementação (limite de escopo; não prova o gabarito)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "number": 4,
+      "conceptId": "capacidade-estatal-politico-relacional-diagnostico",
+      "subtopic": "Diagnóstico de dimensões de capacidade estatal",
+      "questionType": "application",
+      "mechanism": "problema-de-articulacao-indica-fragilidade-relacional",
+      "distractorMechanism": "deduzir-capacidade-total-a-partir-de-alguns-meios",
+      "statement": "Os problemas observados no município A podem indicar limitações de capacidade político-relacional, embora a presença de recursos e veículos sugira disponibilidade de alguns meios técnico-administrativos necessários à execução.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "explanation": "Certo. Articulação institucional e comunitária relaciona-se à capacidade político-relacional, enquanto recursos e veículos indicam alguns meios técnico-administrativos, sem garantir sua suficiência integral.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem-q4"
+        ],
+        "intentional": true,
+        "transformation": "Conceito da bateria anterior reaplicado em situação integrada dos municípios A, B e C, com fronteira causal ou normativa distinta."
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado-q4",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:07:13-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Implementação: caso integrado em três municípios",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 2: Implementação (limite de escopo; não prova o gabarito)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "number": 5,
+      "conceptId": "lipsky-barreira-acesso-limites-normativos",
+      "subtopic": "Discricionariedade, critérios de elegibilidade e acesso",
+      "questionType": "application",
+      "mechanism": "exigencia-local-adicional-e-exclusao-indevida",
+      "distractorMechanism": "confundir-discricionariedade-com-poder-de-criar-restricoes",
+      "statement": "No município C, a exigência documental adicional pode representar uma barreira indevida de acesso. A análise da discricionariedade dos agentes deve considerar os limites normativos, a justificativa das decisões e seus efeitos sobre os beneficiários.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "explanation": "Certo. Nova exigência não prevista nas normas pode excluir elegíveis e representar barreira indevida. A discricionariedade é limitada por normas e sujeita a exame das justificativas e efeitos.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem-q2"
+        ],
+        "intentional": true,
+        "transformation": "Conceito da bateria anterior reaplicado em situação integrada dos municípios A, B e C, com fronteira causal ou normativa distinta."
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado-q5",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-caso-integrado.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T08:07:13-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
       "checkpointSchema": 2,

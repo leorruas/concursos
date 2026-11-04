@@ -1761,9 +1761,10 @@
       "name": "Políticas Públicas e avaliação",
       "aliases": [
         "Políticas Públicas e avaliação",
-        "politicas-publicas"
+        "politicas-publicas",
+        "Avaliação de Políticas Públicas"
       ],
-      "hub": "3 - Materias/Administracao Publica/administracao-publica",
+      "hub": "3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas",
       "legacyDisciplines": [
         "Políticas Públicas e avaliação"
       ],
@@ -1779,6 +1780,7 @@
             "P3.3.1"
           ],
           "noteRefs": [
+            "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca",
             "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
             "3 - Materias/Atualidades/09 - demografia e indicadores sociais"
           ],

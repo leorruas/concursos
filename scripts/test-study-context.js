@@ -22,7 +22,9 @@ try{
   sync();assert.equal(prepare(root).operations.length,0,'Consolidação idempotente');
   let a=ctx('auditoria-governamental');const retentionBaseline=a.observationAxes.retention.retrievedLater;const cp=ctx('contabilidade-publica');
   assert.equal(a.resume.unitId,'u07');assert.equal(a.lastCompletedUnit,'u06');assert.equal(a.resume.stage,'fronteiras');
-  assert.equal(a.results.aprendizagem.correct,31);assert.equal(a.results.aprendizagem.incorrect,5);
+  const auditLearning=read('data/questoes-ledger.json').questions.filter(q=>q.concursoId==='cgu-2026'&&q.discipline==='Auditoria Governamental'&&q.trainingMode==='aprendizagem');
+  assert.equal(a.results.aprendizagem.correct,auditLearning.filter(q=>q.result==='correct').length);assert.equal(a.results.aprendizagem.incorrect,auditLearning.filter(q=>q.result==='incorrect').length);
+  assert(a.results.aprendizagem.correct>=31&&a.results.aprendizagem.incorrect>=5,'Preservar o histórico de aprendizagem já registrado');
   assert.equal(cp.state,'nao-iniciada');assert.deepEqual(cp.results,{});assert.equal(cp.resume.unitId,'fundamentos');
   assert.equal(ctx('direito-administrativo').state,'nao-iniciada','Existência de notas e história Dataprev não expõe conteúdo CGU');
   const index=read('data/contexto-estudo/indice.json');

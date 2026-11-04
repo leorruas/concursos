@@ -8,6 +8,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[1 - Planejamento/Flashcards - Sessoes continuas e ampliacao|Flashcards: sessões contínuas e ampliação por matéria]]
 - [[1 - Planejamento/Continuidade de estudo por materia|Continuidade de estudo por matéria]]
 - [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano das 15 matérias]]
+- [[1 - Planejamento/Materias sem artigos - Plano de implementacao por fases|Matérias sem artigos próprios: plano por fases]]
 - [[1 - Planejamento/Orcamento Publico - Plano de artigos|Orçamento Público: plano de artigos]]
 - [[1 - Planejamento/Etica Publica - Plano de artigos|Ética Pública: plano de artigos]]
 - [[1 - Planejamento/Auditoria Governamental - Plano de artigos|Auditoria Governamental: plano de artigos]]

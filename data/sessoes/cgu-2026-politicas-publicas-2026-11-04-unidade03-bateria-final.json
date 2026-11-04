@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "politicas-publicas",
+  "unitId": "up3-3-3",
+  "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final",
+  "date": "2026-11-04",
+  "startedAt": "2026-11-04T08:54:32-03:00",
+  "concursoId": "cgu-2026",
+  "banca": "Cebraspe",
+  "kind": "microtreino",
+  "trainingMode": "aprendizagem",
+  "status": "parcial",
+  "diagnosis": "Bateria final de aprendizagem U03: 3/4 (C/E/C/E), respostas do estudante C/E/C/C. Erro de confusão conceitual no item 4: a existência de metas operacionais cumpridas somadas à mudança observada no resultado pretendido não identifica por si só o efeito causal da política. Todos os níveis de confiança foram unknown, sem inferir segurança ou insegurança. A unidade tem nota canônica aprofundada, mas permanece aberta até a recuperação do conceito, sem confundir conhecimento documentado e retenção.",
+  "nextStep": "Fazer micro-reteste do erro de causalidade com cenário não escolar e mecanismo diferente, pedindo declaração de confiança. Depois registrar encerramento didático e editorial da U03 se a lacuna for recuperada. Manter revisão espaçada da avaliabilidade U01 prevista para 05/11 e U02 para revisão futura.",
+  "learning": {
+    "stage": "fronteiras",
+    "taughtConcepts": [
+      "Classificação de atividades, produtos e resultados no programa de transporte escolar",
+      "Monitoramento de indicadores de resultados",
+      "Produto como serviço entregue versus resultado como mudança",
+      "Impacto finalístico previsto versus inferência de efeito causal"
+    ],
+    "boundaries": [
+      "Planejar rotas é atividade; estudantes transportados são entregas; frequência pode ser resultado",
+      "Monitoramento não é limitado a indicadores operacionais",
+      "Visitas domiciliares concluídas podem ser produtos, conforme o modelo",
+      "Metas cumpridas e impacto observado juntos não bastam para inferir causalidade"
+    ],
+    "pending": [
+      "Erro conceitual no item 4 exige recuperação dirigida e confiança declarada",
+      "Unidade 03 ainda sem conclusão didática e recibo editorial; nota criada, com vínculo no hub e index",
+      "Retenção posterior da U03 não demonstrada",
+      "Treino competitivo exige corpus Cebraspe identificado",
+      "Revisão espaçada da U01 sobre avaliabilidade permanece pendente para 2026-11-05"
+    ],
+    "unitCompleted": false,
+    "next": {
+      "unitId": "up3-3-3",
+      "stage": "fronteiras",
+      "objective": "Retestar em caso novo a distinção entre mudança observada e efeito causal atribuível, com confiança declarada, antes do encerramento didático. Preservar revisão U01.",
+      "noteRef": "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Mudança observada, efeito causal e contrafactual",
+      "sourceIds": [
+        "edital"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "number": 1,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Atividades, produtos e resultados",
+      "questionType": "classification",
+      "mechanism": "classificacao-do-fluxo-de-transporte",
+      "conceptId": "modelo-logico-atividades-produtos-resultados",
+      "distractorMechanism": "inversao-atividade-produto-resultado",
+      "statement": "Em um programa de transporte escolar, o planejamento das rotas pode ser classificado como atividade, a quantidade de estudantes efetivamente transportados como produto e a melhoria da frequência às aulas como resultado da intervenção.",
+      "explanation": "Certo. Planejar rotas é atividade; estudantes transportados podem expressar entregas; melhora de frequência é mudança observada no público.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Modelo lógico: insumos, atividades, produtos, resultados e impactos"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      }
+    },
+    {
+      "number": 2,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Monitoramento de resultados",
+      "questionType": "comparison",
+      "mechanism": "indicador-finalistico-em-monitoramento",
+      "conceptId": "monitoramento-pode-acompanhar-resultados",
+      "distractorMechanism": "exclusividade-indevida-da-avaliacao-ex-post",
+      "statement": "Um indicador de redução da evasão escolar não pode integrar o monitoramento de uma política pública, pois o acompanhamento de resultados é atribuição exclusiva da avaliação ex post.",
+      "explanation": "Errado. Monitoramento pode registrar indicadores de resultados e impactos pretendidos. Identificar causalidade é uma pergunta adicional de avaliação.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Monitoramento: perguntas, indicadores e uso"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem-q2"
+        ],
+        "intentional": true,
+        "transformation": "A distinção é reaplicada a um indicador finalístico, e não somente a dados periódicos de atendimento."
+      }
+    },
+    {
+      "number": 3,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Serviço entregue versus mudança",
+      "questionType": "classification",
+      "mechanism": "visita-concluida-como-produto-entregue",
+      "conceptId": "produto-visitas-domiciliares",
+      "distractorMechanism": "confundir-entrega-com-efeito-social",
+      "statement": "O número de visitas domiciliares concluídas pode ser utilizado como indicador de produto quando representa um serviço entregue ao público, sem que isso comprove, isoladamente, uma mudança nas condições dos beneficiários.",
+      "explanation": "Certo. Visitas concluídas podem representar serviços entregues e, nesse recorte, produtos; não demonstram mudança na condição de beneficiários. Classificação depende do modelo.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Modelo lógico: insumos, atividades, produtos, resultados e impactos"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras-q2"
+        ],
+        "intentional": true,
+        "transformation": "Classifica o mesmo elemento sob função distinta do modelo lógico, separando medida da atividade e produto entregue."
+      }
+    },
+    {
+      "number": 4,
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Monitoramento e avaliação",
+      "subtopic": "Impacto planejado versus efeito causal demonstrado",
+      "questionType": "application",
+      "mechanism": "metas-mais-mudanca-observada-nao-provam-atribuição",
+      "conceptId": "resultado-observado-versus-causalidade",
+      "distractorMechanism": "inferir-causalidade-de-metas-cumpridas-e-resultados-observados",
+      "statement": "Uma redução observada da evasão escolar, mesmo quando corresponde ao impacto esperado no modelo lógico, demonstra que o programa produziu o efeito causal previsto, desde que as metas operacionais de atendimento também tenham sido cumpridas.",
+      "explanation": "Errado. Cumprimento de metas e mudança observada não demonstram isoladamente o efeito causal. É preciso identificar explicações concorrentes e estabelecer método apropriado para inferência contrafactual. O erro foi confusão conceitual entre impacto previsto/observado e efeito atribuído à intervenção.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": "confusao_conceitual",
+      "destinations": [
+        "enriquecimento_teorico",
+        "questao_comentada_candidata"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Mudança observada, efeito causal e contrafactual"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade03-fronteiras-q4"
+        ],
+        "intentional": true,
+        "transformation": "No item anterior a atribuição dependia de desenho adequado; aqui uma verdade parcial adiciona metas operacionais cumpridas como condição supostamente suficiente."
+      }
+    }
+  ],
+  "noveltyException": "Três itens retomam conscientemente conceitos de sessões anteriores, com novos mecanismos e contexto de aplicação. Reteste temático didático e não benchmark; a revisão intencional explica a taxa de repetição da unidade."
+}

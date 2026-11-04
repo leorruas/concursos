@@ -135,6 +135,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|03 • Balanço Patrimonial e DVP]]
    - [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|04 • DFC, notas e conciliações]]
    - [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo|05 • Custos públicos: fundamentos e objetos]]
+   - [[3 - Materias/Contabilidade Publica/06 - mic sic e informacoes gerenciais de custos|06 • Sistema de custos, MIC, SIC e indicadores]]
 13. [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Avaliação de políticas públicas]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|01 • Teoria da mudança: fundamentos da avaliação]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas|02 • Implementação de políticas públicas]]

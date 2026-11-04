@@ -224,7 +224,7 @@
     "mic-2025": {
       "label": "MIC: Manual de Informações do Sistema de Custos, 2ª edição (2025)",
       "url": "https://www.tesourotransparente.gov.br/publicacoes/mic-manual-de-informacoes-do-sistema-de-custos-do-governo-federal/2025/26",
-      "scope": "Fundamentos; detalhamento de sistema e indicadores pendente para a nota 06",
+      "scope": "Fundamentos e detalhamento do sistema, SIC/TG, processos e indicadores; validação integral do edital pendente",
       "verifiedAt": "2026-11-04"
     }
   },
@@ -1875,7 +1875,8 @@
           ],
           "noteRefs": [
             "3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo",
-            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
+            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica",
+            "3 - Materias/Contabilidade Publica/06 - mic sic e informacoes gerenciais de custos"
           ],
           "requires": [
             "up3-2-4"
@@ -1886,7 +1887,7 @@
             "mic-2025"
           ],
           "coverage": "parcial",
-          "noteRole": "fundamentos-e-objetos-publicados-mic-sic-e-indicadores-pendentes"
+          "noteRole": "fundamentos-mic-sic-indicadores-publicados-conferencia-edital-pendente"
         },
         {
           "id": "up3-2-6",

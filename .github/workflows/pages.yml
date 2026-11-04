@@ -12,7 +12,8 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # Cada publicação em execução termina antes da próxima, evitando cancelamento de deploy em andamento.
+  cancel-in-progress: false
 
 jobs:
   deploy:

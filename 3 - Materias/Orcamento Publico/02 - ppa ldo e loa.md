@@ -20,6 +20,8 @@ aliases:
 
 A Constituição Federal, art. 165, estabelece três leis de iniciativa do **Poder Executivo**: Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA). Elas organizam **planejamento de médio prazo, orientação fiscal e programação anual**, respectivamente. O Congresso Nacional aprecia os projetos no plano federal; iniciativa e deliberação legislativa são papéis distintos.
 
+**Nota de leitura: o que é o ADCT?** O **Ato das Disposições Constitucionais Transitórias (ADCT)** integra a Constituição de 1988 e possui **hierarquia constitucional**, assim como suas disposições permanentes. **Não é uma lei ordinária nem complementar separada.** Reúne normas que organizam transições entre regimes jurídicos ou estabelecem regras aplicáveis enquanto outras normas não entram em vigor. *Transitório* não significa que o dispositivo tenha perdido a validade: é preciso verificar a condição ou o prazo de cada regra. No orçamento, o **art. 35, § 2º, do ADCT** estabelece regras sobre PPA, LDO e LOA até a entrada em vigor da lei complementar prevista no art. 165, § 9º, nos pontos indicados pelo próprio dispositivo. Texto oficial: [ADCT no Senado](https://legis.senado.leg.br/norma/604119) e [art. 35 no STF](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=35&abrirBase=AD).
+
 Imagine uma política de expansão da rede de atendimento à saúde. O **PPA** estrutura objetivos e metas de médio prazo; a **LDO** define prioridades e diretrizes para a preparação do orçamento de cada exercício; a **LOA** estima receitas e fixa despesas para ações naquele ano. A execução e o controle são passos posteriores e transversais. A relação serve para lembrar os instrumentos, mas o conteúdo jurídico de cada um vai além desse resumo.
 
 O artigo introdutório [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|Orçamento público e ciclo orçamentário]] distingue autorização, execução, pagamentos e resultados. Esta nota aprofunda o recorte **P3.2.2** do programa local da CGU, com conhecimento reutilizável para outros editais.
@@ -32,7 +34,7 @@ Isso exige duas atenções. Primeiro, o PPA não se reduz a uma lista de obras: 
 
 ### Vigência do PPA e transição de governos
 
-No regime federal previsto no **Ato das Disposições Constitucionais Transitórias (ADCT)**, art. 35, § 2º, I, o PPA tem vigência **do segundo exercício financeiro do mandato presidencial até o fim do primeiro exercício do mandato seguinte**. Assim, a duração é de quatro exercícios, mas não coincide integralmente com os quatro anos do mesmo mandato.
+No regime federal previsto no **ADCT**, art. 35, § 2º, I, o PPA tem vigência **do segundo exercício financeiro do mandato presidencial até o fim do primeiro exercício do mandato seguinte**. Assim, a duração é de quatro exercícios, mas não coincide integralmente com os quatro anos do mesmo mandato.
 
 Exemplo: o PPA **2024 a 2027** cobre os três últimos exercícios do mandato presidencial iniciado em 2023 e o primeiro exercício do mandato iniciado em 2027. É uma regra de continuidade intergovernamental. O exemplo de 2024 a 2027 é também o período previsto na Lei nº 14.802/2024.
 

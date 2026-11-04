@@ -62,7 +62,7 @@ const gaps=Array.from({length:25},(_,i)=>({concept:i===24?'consultoria-previa-ob
 const contextPath='data/contexto-estudo/cgu-2026/auditoria-governamental.json',page='data/contexto-estudo/cgu-2026/auditoria-governamental/revisoes-002.json';
 const outputs=new Map([[contextPath,JSON.stringify({concursoId:'cgu-2026',subjectId:'auditoria-governamental',gaps:gaps.slice(0,20),reviewIndex:{pages:[page]}})],[page,JSON.stringify({gaps})]]);
 const generated=buildFlashcardPriorities(outputs,data,'2026-11-04');
-assert.equal(generated.entries[0].cardId,target.id,'Usa fila completa, incluindo além dos 20 visíveis');assert.equal(generated.unmapped.length,24);
+assert(generated.entries.some(e=>e.cardId===target.id),'Usa fila completa, incluindo além dos 20 visíveis, mesmo com mais de um cartão para o conceito');assert.equal(generated.unmapped.length,24);
 assert(!JSON.stringify(generated).includes('userAnswer'),'Perfil não copia respostas');
 const snapshot=JSON.stringify(outputs.get(contextPath));
 gaps[24].status='retencao-observada';outputs.set(page,JSON.stringify({gaps}));assert.equal(buildFlashcardPriorities(outputs,data,'2026-11-06').entries.length,0,'Retenção em questões remove prioridade');

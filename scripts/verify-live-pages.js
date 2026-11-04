@@ -74,6 +74,15 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
       if (JSON.stringify(catalogoAoVivo) !== JSON.stringify(esperadoCatalogo)) {
         throw new Error('Catálogo de matérias ao vivo diverge do catálogo construído');
       }
+      for (const recurso of ['data/flashcards.json', 'flashcards.html', 'web/09-flashcards-engine.js', 'web/10-flashcards-ui.js']) {
+        const res = await fetch(new URL(recurso + '?' + cacheBuster, baseUrl), {
+          headers: { 'cache-control': 'no-cache' }, signal: AbortSignal.timeout(8000)
+        });
+        if (!res.ok) throw new Error('Flashcards publicados: HTTP ' + res.status + ' em ' + recurso);
+        const local = fs.readFileSync(path.join(rootDir, '_site', recurso), 'utf8');
+        if (await res.text() !== local) throw new Error('Recurso dos flashcards diverge do build: ' + recurso);
+      }
+      console.log('✓ Coleção e interface dos flashcards sincronizadas no Pages.');
       console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');
       console.log(`✓ GitHub Pages sincronizado: ${publicadoPaths.size} artigos no manifesto ao vivo.`);
       process.exit(0);

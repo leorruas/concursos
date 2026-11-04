@@ -54,6 +54,10 @@ A referência à **“administração pública federal”** no art. 165, § 2º,
 
 **Autarquias não editam LDO própria**. Embora disponham de autonomia administrativa e financeira dentro da lei, não têm competência legislativa para instituir outra LDO. Suas programações orçamentárias integram os orçamentos do ente federativo ao qual pertencem e devem observar as diretrizes correspondentes. Assim, uma autarquia federal segue a LDO da União; uma estadual, a do estado; uma municipal, a do município.
 
+**Participação da autarquia na elaboração:** a autarquia pode identificar suas necessidades, preparar a **proposta orçamentária de sua unidade** e encaminhá-la pelos canais setoriais do sistema de planejamento e orçamento; pode também fornecer subsídios e sugestões técnicas para o **projeto da LDO (PLDO)**. No plano federal, a **Secretaria de Orçamento Federal (SOF)** coordena e consolida o processo técnico do PLDO, com participação de órgãos setoriais e unidades orçamentárias. O **Poder Executivo** tem a iniciativa do projeto de lei e o encaminha ao Congresso; a **aprovação** cabe ao Legislativo. O fluxo exato de elaboração da LOA e do PLDO é diferente, e as competências de outros Poderes e órgãos constitucionalmente autônomos têm regras próprias.
+
+**Exemplo:** o INSS pode apresentar necessidades orçamentárias e dados para fundamentar propostas; a LDO federal continua sendo **uma lei da União**, de iniciativa do presidente da República, e não uma lei proposta pelo INSS.
+
 **Fronteira de prova:** a LDO pertence ao **ente federativo**; a autarquia é **entidade abrangida pelo planejamento e orçamento desse ente**. Não confundir autonomia administrativa de pessoa jurídica da administração indireta com autonomia política de ente federativo.
 
 O papel da LDO é normativo e orientador. Ela **não substitui** a LOA na fixação anual das despesas nem o PPA na organização dos objetivos de médio prazo.
@@ -168,7 +172,17 @@ Para a vigência do PPA, lembrar: **segundo ano de um mandato → primeiro ano d
 - Lei Complementar nº 101/2000 (LRF), arts. 1º, §§ 2º e 3º, 2º, III, e 4º: https://legis.senado.leg.br/norma/572856/publicacao/34621009
 - Manual Técnico do Orçamento (MTO), capítulo de classificação da despesa por esfera: https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4
 - Senado, *Legislação Orçamentária*: https://www12.senado.leg.br/orcamento/legislacao-orcamentaria
+- Manual Técnico de Orçamento (MTO 2027), seção 5.5, participantes e responsabilidades na elaboração da LDO: https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2027%3Amto2027_1a_versao.pdf
 - Plano Plurianual 2024–2027, Lei nº 14.802/2024: https://legis.senado.leg.br/norma/38150943/publicacao/38151432
 - Programa de referência: [[2 - Editais/CGU 2026 - Auditoria#Checklist completo de estudos por bloco|CGU 2026, P3.2.2]]; o resumo local não substitui o edital oficial e suas retificações.
 
-Emendas, créditos adicionais, classificações de despesa e receita, limitação efetiva de empenho e execução financeira **ainda exigem artigos especializados**. Produzir esta nota não equivale a aula realizada, fechamento de unidade ou retenção demonstrada.
+### Continuação por artigos especializados
+
+Os temas citados nesta introdução **já possuem artigos próprios** no vault, que aprofundam regras, exceções e fronteiras de prova:
+
+- [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas parlamentares]]: modalidades, fontes de recursos, autorizações, emendas e limites.
+- [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Classificações da receita e da despesa]]: natureza, esfera, fonte/destinação, função, subfunção e programa.
+- [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação financeira e limitação de empenho]]: LRF, arts. 8º e 9º, cronograma de desembolso, limitação e recomposição.
+- [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|Conta Única e execução financeira]]: crédito × recurso, cota/repasse/sub-repasse, limites e pagamento.
+
+A existência de artigos publicados comprova **cobertura editorial**, mas não equivale a aula realizada, fechamento didático de unidade ou retenção demonstrada. Conferir o contexto de estudo do concurso antes de retomar.

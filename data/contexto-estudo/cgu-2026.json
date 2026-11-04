@@ -44,14 +44,14 @@
     },
     {
       "key": "Orçamento Público / aprendizagem",
-      "total": 26,
-      "correct": 22,
-      "incorrect": 4,
+      "total": 34,
+      "correct": 29,
+      "incorrect": 5,
       "blank": 0,
       "annulled": 0,
-      "answered": 26,
-      "valid": 26,
-      "accuracy": 0.8461538461538461,
+      "answered": 34,
+      "valid": 34,
+      "accuracy": 0.8529411764705882,
       "sample": "insuficiente"
     },
     {
@@ -93,6 +93,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b05",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b05.json",
+      "status": "parcial",
+      "diagnosis": "Bateria 05, artigo 03: 7 acertos em 8 itens. Acertos seguros: 1, 3, 5, 7 e 8. Acertos inseguros: universalidade e receita de pequeno valor (2), orçamento bruto e deduções indevidas (4). Erro inseguro: crédito especial tratado como integrante da exceção à exclusividade prevista para créditos suplementares (6), confusão conceitual por extensão indevida do alcance da norma. Ressalva da regra de ouro inclui suplementares ou especiais (item 8), sem modificar a exceção à exclusividade. Aprendizagem didática; não constitui benchmark nem comprova retenção.",
+      "nextStep": "Reparar a fronteira créditos suplementares vs especiais: exclusividade da LOA (CF art. 165, §8º) versus ressalva à regra de ouro (CF art. 167, III). Retestar universalidade e orçamento bruto com casos diferentes. Em 05/11/2026, manter revisão espaçada de regionalização do PPA e das lacunas anteriores. Depois avançar na unidade up3-2-2, artigo 04 (classificações) e seguintes."
+    },
+    {
       "id": "cgu-2026-2026-11-04-orcamento-publico-b04",
       "date": "2026-11-04",
       "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
@@ -107,42 +115,24 @@
       "status": "parcial",
       "diagnosis": "4/7 acertos. Erros seguros: esfera orçamentária versus natureza da despesa (item 3) e estatais dependentes versus não dependentes (item 4): confusão conceitual. Erro inseguro de prazo federal de envio (item 6): lacuna de conhecimento; causa exata não declarada. Acerto inseguro sobre risco judicial (item 2). Não houve treino para valer ou retenção.",
       "nextStep": "Retestar esfera versus natureza, regime das estatais e prazos de encaminhamento; recuperar risco judicial. Preservar revisão de 05/11 sobre regionalização do PPA federal, sem declarar retenção."
-    },
-    {
-      "id": "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07.json",
-      "status": "concluido",
-      "diagnosis": "Simulado curto misto de retenção, 18 itens C/E, unidades 02 a 07, criado no chat e corrigido em 04/11/2026: 15 acertos/3 erros/0 brancos, 83,33% acurácia, pontuação hipotética P3 +24/36 (+2/-2/0); unidades u02 2/3, u03 2/3, u04 3/3, u05 3/3, u06 3/3 e u07 2/3. Três respostas inseguras: q2 (errada), q13 e q14 (corretas). Dois erros com confiança secure: q3 consultoria anterior/objetividade e q18 vouching/ocorrência. Erro inseguro q2: existência formal de controle não demonstra eficácia nem redução de risco residual. Retenção por conceito com ressalvas: questões muito semelhantes a itens anteriores não comprovam transferência robusta; não é simulado integral nem benchmark Cebraspe calibrado.",
-      "nextStep": "Revisar em novos casos o risco residual versus desenho/efetividade (u03), consultoria anterior versus impedimento temporal/objetividade (u02) e vouching/ocorrência versus rastreamento/integridade (u07). Retestar q13 (RAINT versus parecer) e q14 (segunda versus terceira linha) com confiança declarada. Manter o ponto de retomada didático da u07 em fronteiras, concluir treino para valer com corpus Cebraspe real identificado e realizar fechamento editorial quando a unidade for completada. Não presumir retenção integral pelas 18 questões."
     }
   ],
   "recentMechanisms": [
-    "acesso-papeis-aprovacao-alta-administracao",
-    "aprovacao-alteracoes-programa",
     "classificacao-dupla",
     "classificar-fronteira",
     "comparar-prazos",
-    "conflito-interesse-sem-ilicito",
-    "consultoria-previa-objetividade",
-    "consultoria-programa-flexibilidade",
-    "criterio-meta-institucional",
-    "especialista-responsabilidade-auditoria",
+    "deducao-do-bruto",
+    "dotacao-indiferenciada",
     "estatal-dependente",
     "estatal-nao-dependente",
-    "finalidade-teste-controle-tecnica-documental",
+    "estrutura-da-loa-e-unidade",
+    "excecao-educacao-tratada-como-proibicao",
+    "excecao-falsa-do-ppa-a-anualidade",
     "inferir-execucao-de-risco",
     "inversao-de-classificacao",
-    "mudanca-significativa-paint",
-    "observacao-exclusiva-dois-auditores",
-    "observacao-versus-reexecucao",
-    "papeis-permanentes-relatorio",
-    "priorizacao-indireta-riscos",
-    "raint-versus-parecer-contas",
-    "resposta-risco-versus-controle",
-    "risco-residual-controle",
-    "segunda-versus-terceira-linha",
-    "vouching-ocorrencia-versus-integridade"
+    "omissao-por-baixo-valor",
+    "regra-de-ouro-maioria-absoluta",
+    "transferencia-de-excecao-suplementar-para-especial"
   ],
   "review": [
     {
@@ -385,13 +375,40 @@
       "theoryRefs": [
         "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Iniciativa, apreciação e prazos no plano federal"
       ]
+    },
+    {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b05-q2",
+      "topic": "Princípios orçamentários e vedações constitucionais",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais#Universalidade: inclusão, não ausência de classificação"
+      ]
+    },
+    {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b05-q4",
+      "topic": "Princípios orçamentários e vedações constitucionais",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais#Orçamento bruto: registrar pelos totais"
+      ]
+    },
+    {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b05-q6",
+      "topic": "Princípios orçamentários e vedações constitucionais",
+      "result": "incorrect",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais#Exclusividade e suas duas exceções constitucionais"
+      ]
     }
   ],
   "resume": {
     "subjectId": "orcamento-publico",
     "path": "data/contexto-estudo/cgu-2026/orcamento-publico.json",
-    "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b04",
-    "time": 1793815823000
+    "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b05",
+    "time": 1793817208000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

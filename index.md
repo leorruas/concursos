@@ -7,6 +7,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 ## 1 - Planejamento
 - [[1 - Planejamento/Continuidade de estudo por materia|Continuidade de estudo por matéria]]
 - [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano das 15 matérias]]
+- [[1 - Planejamento/Filtro de materias e artigos por concurso|Plano: filtro de matérias e artigos por concurso]]
 - [[CHAT|Estudo pelo chat: entrada curta]]
 - [[1 - Planejamento/Mapa de scripts e contratos do sistema|Mapa de scripts e contratos do sistema]]
 - [[1 - Planejamento/Registro de entrada de editais|Registro permanente de entrada de editais]]

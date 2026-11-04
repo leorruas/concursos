@@ -69,12 +69,20 @@ A existência de **reservas** e hipóteses normativas específicas impede afirma
 
 ## Exclusividade e suas duas exceções constitucionais
 
-O art. 165, § 8º, da Constituição proíbe que a LOA contenha dispositivo estranho à **previsão da receita e fixação da despesa**. As exceções expressas são:
+O art. 165, § 8º, da Constituição proíbe que a LOA contenha dispositivo estranho à **previsão da receita e fixação da despesa**.
+
+**Créditos suplementares × especiais: o que significam?** A Lei nº 4.320/1964, arts. 40 e 41, chama de **créditos adicionais** as autorizações de despesas não computadas ou insuficientemente dotadas na lei orçamentária. O **crédito suplementar** serve para **reforçar uma dotação específica já existente**, quando seu valor não basta. Exemplo: uma ação tem R$ 300 mil autorizados e precisa de mais R$ 100 mil para a mesma finalidade. O **crédito especial** atende **despesa para a qual não existe dotação orçamentária específica**, como uma nova ação não contemplada na LOA. Portanto, o suplementar **aumenta a autorização de uma dotação existente**; o especial **cria autorização específica para uma despesa não dotada**.
+
+Ambos exigem, em regra, **autorização legislativa prévia e indicação dos recursos** para abertura (CF, art. 167, V; Lei nº 4.320/1964, arts. 42 e 43). A abertura altera a autorização orçamentária, mas não comprova disponibilidade de caixa, empenho ou pagamento. O regime completo, inclusive o crédito extraordinário, está em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas parlamentares]].
+
+As exceções expressas à **exclusividade da LOA** são:
 
 1. **Autorização para abertura de créditos suplementares**.
 2. **Autorização para contratação de operações de crédito**, inclusive antecipação de receita, nos termos da lei.
 
 A autorização de crédito **especial** não está incluída, por simples extensão, na exceção constitucional específica para suplementares. A existência de exceções também não autoriza inserir regras sobre organização de pessoal ou estrutura de órgãos na LOA.
+
+**Comparação que muda o gabarito:** o art. 165, § 8º, excepciona a **autorização para créditos suplementares** na LOA, enquanto a ressalva da **regra de ouro** do art. 167, III, menciona créditos **suplementares ou especiais**, desde que cumpridos seus requisitos. São dois dispositivos com objetos e condições distintos.
 
 A exclusividade examina **o conteúdo permitido da lei**; não se confunde com anualidade, que trata do período, nem com especificação, que trata do detalhamento da despesa.
 

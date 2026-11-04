@@ -168,6 +168,18 @@
     },
     {
       "examId": "cgu-2026",
+      "subjectId": "politicas-publicas",
+      "cardId": "pp-avaliabilidade-por-pergunta",
+      "priority": 300,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "avaliabilidade-modelo-logico-reconstrucao"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
       "subjectId": "orcamento-publico",
       "cardId": "alienacao",
       "priority": 200,
@@ -887,6 +899,18 @@
       "dueOn": "2026-11-05",
       "conceptIds": [
         "ldo-risco-judicial"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "politicas-publicas",
+      "cardId": "pp-variacao-observada-vs-efeito",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "resultado-observado-versus-causalidade"
       ]
     },
     {

@@ -169,6 +169,16 @@
       "label": "SeCI: Sistema Eletrônico de Prevenção de Conflito de Interesses, CGU",
       "url": "https://seci.cgu.gov.br/",
       "scope": "Consultas e pedidos de autorização de atividade privada; procedimento atual, não substitui a lei"
+    },
+    "decreto93872": {
+      "label": "Decreto nº 93.872/1986: unificação de caixa e suprimento de fundos",
+      "url": "https://legis.senado.gov.br/norma/516512/publicacao/15785552",
+      "scope": "Conta Única, tesouraria, programação financeira e adiantamentos; conferir redação vigente."
+    },
+    "mfas2025": {
+      "label": "Tesouro Nacional: Manual de Análise Fiscal de Estados e Municípios (2025)",
+      "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51484_1600177/Manual%20de%20an%C3%A1lise%20fiscal%20-%202025%20-%20vers%C3%A3o%20final.pdf",
+      "scope": "Distinguir cancelamento de restos a pagar de receita orçamentária, na metodologia fiscal vigente."
     }
   },
   "subjects": [
@@ -1699,6 +1709,9 @@
           "noteRefs": [
             "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios",
             "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios",
+            "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos",
+            "3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira",
+            "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [
@@ -1708,10 +1721,12 @@
             "mcasp",
             "lei4320",
             "lrf",
-            "constituicao"
+            "constituicao",
+            "decreto93872",
+            "mfas2025"
           ],
           "coverage": "parcial",
-          "noteRole": "notas-diretas-parciais-e-base-adjacente"
+          "noteRole": "notas-diretas-do-roteiro-publicadas-sem-validacao-integral-do-edital"
         }
       ],
       "requiresSubjects": []

@@ -22,8 +22,11 @@ Matéria de planejamento e execução orçamentária, receita, despesa e respons
 - [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|06. Programação e contingenciamento]]: cronograma, limites de empenho, metas e recomposição.
 - [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|07. Receitas públicas]]: orçamentárias × extraorçamentárias; previsão, lançamento, arrecadação e recolhimento.
 - [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|08. Despesas públicas]]: fixação, empenho, liquidação, pagamento e modalidades de empenho.
+- [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|09. Restos a pagar, DEA e suprimento de fundos]]: liquidado × não liquidado, exercício da dotação e adiantamento.
+- [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|10. Conta Única e execução financeira]]: crédito × recurso; provisão/destaque × cota/repasse/sub-repasse.
+- [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|11. Responsabilidade fiscal e controle]]: RCL, limites de pessoal, RREO, RGF, transparência e fiscalização.
 
-Os oito primeiros textos estão **preparados editorialmente, sem estudo registrado**. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
+Os 11 artigos do roteiro estão **preparados editorialmente, sem estudo registrado**. O roteiro documental foi completado, mas não equivale a cobertura integral comprovada do edital nem a domínio aferido. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
 
 ## Unidade P3.2.2: orçamento e planejamento
 
@@ -42,9 +45,9 @@ Os oito primeiros textos estão **preparados editorialmente, sem estudo registra
 | :--- | :--- | :--- |
 | 07 | [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|Receitas públicas]]: orçamentária × extraorçamentária e quatro estágios | Artigo publicado; sem estudo registrado |
 | 08 | [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Despesas públicas]]: fixação, empenho, liquidação e pagamento | Artigo publicado; sem estudo registrado |
-| 09 | Restos a pagar e ajustes: processado × não processado; DEA e suprimento de fundos | Nota pendente |
-| 10 | Conta Única e gestão financeira: crédito orçamentário × recurso financeiro × cronograma de desembolso | Nota pendente |
-| 11 | Responsabilidade fiscal: metas, limites, relatórios, transparência e consequências da execução | Nota pendente |
+| 09 | [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|Restos a pagar e ajustes]]: processado × não processado; DEA × RP; adiantamento | Artigo publicado; sem estudo registrado |
+| 10 | [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|Conta Única e gestão financeira]]: crédito × recurso; cota × repasse × sub-repasse | Artigo publicado; sem estudo registrado |
+| 11 | [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|Responsabilidade fiscal]]: metas, limites, RREO × RGF, transparência e controle | Artigo publicado; sem estudo registrado |
 
 A segunda unidade tem como pré-requisito curricular a primeira, mas dúvidas e desempenho podem exigir retorno seletivo a qualquer artigo.
 

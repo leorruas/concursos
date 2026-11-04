@@ -6,6 +6,11 @@
       "id": "cgu-2026",
       "title": "CGU 2026 · Auditoria",
       "board": "Cebraspe"
+    },
+    {
+      "id": "dataprev-2026",
+      "title": "Dataprev 2026 · Comunicação Social",
+      "board": "FGV"
     }
   ],
   "subjects": [
@@ -68,6 +73,22 @@
     {
       "id": "integridade-responsabilizacao",
       "title": "Integridade e responsabilização"
+    },
+    {
+      "id": "portugues",
+      "title": "Língua Portuguesa"
+    },
+    {
+      "id": "logica",
+      "title": "Raciocínio Lógico"
+    },
+    {
+      "id": "informatica",
+      "title": "Legislação e Informática"
+    },
+    {
+      "id": "comunicacao",
+      "title": "Comunicação Social"
     }
   ],
   "cards": [
@@ -3056,9 +3077,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
-        "programa-de-trabalho-planejamento-versus-execucao"
+        "programa-de-trabalho-planejamento-versus-execucao",
+        "supervisor-aprova-alteracoes-programa"
       ],
       "contrast": {
         "prompt": "Definir fontes e testes no programa equivale à execução desses testes?",
@@ -3312,9 +3334,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
-        "politica-acesso-depende-analise-juridica-aprovacao-alta-administracao"
+        "politica-acesso-depende-analise-juridica-aprovacao-alta-administracao",
+        "parecer-juridico-nao-aprova-politica-uaig"
       ],
       "contrast": {
         "prompt": "Quem organiza a guarda também pode aprovar sozinho a política de concessão de acesso?",
@@ -3718,6 +3741,845 @@
         "prompt": "Um relatório de auditoria de exercício anterior nunca pode integrar arquivo permanente?",
         "answer": "Pode. O MOT cita relatórios de exercícios anteriores como exemplo de papéis permanentes, destinados à consulta futura."
       }
+    },
+    {
+      "id": "dp-marco-prazos-registros",
+      "term": "Registros de conexão e de aplicações",
+      "definition": "Registros de conexão devem ser guardados, em regra, por 1 ano pelo administrador do sistema autônomo; registros de acesso a aplicações, pelo provedor sujeito ao art. 15, por 6 meses.",
+      "example": "Provedor de conexão guarda registros da conexão pelo prazo legal próprio; aplicação econômica organizada guarda acessos ao serviço por seis meses.",
+      "confusion": "Guarda não significa acesso irrestrito: disponibilização deve observar hipóteses legais, incluindo autorização judicial quando exigida.",
+      "topic": "Marco Civil da Internet",
+      "subjectIds": [
+        "informatica"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-bae07e2af7594b72",
+        "section": "Guarda de registros"
+      },
+      "source": {
+        "title": "Lei nº 12.965/2014: Marco Civil da Internet",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+        "locator": "Arts. 13, 14 e 15"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "marco-registros-conexao-vs-aplicacao"
+      ],
+      "legacyErrorIds": [
+        "err-sim07-q37-marco-civil",
+        "err-sim06-q37-marco-civil",
+        "err-sim05-q37-marco-civil-prazos",
+        "err-sim04-q37-marco-civil-prazos"
+      ]
+    },
+    {
+      "id": "dp-duarte-eixos",
+      "term": "Jorge Duarte: interação e ouvidoria social",
+      "definition": "Interação favorece diálogo em fluxos bi ou multilaterais. Ouvidoria social conhece opiniões, interesses e necessidades de segmentos do público para orientar a ação.",
+      "example": "Audiência com debate e respostas: interação; pesquisar motivos da insatisfação e usar os resultados para reformular serviço: ouvidoria social.",
+      "confusion": "Ouvidoria social como eixo de comunicação pública é mais ampla que o canal administrativo de atendimento.",
+      "topic": "Comunicação pública",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-aa982758b945496d",
+        "section": "Fronteiras entre os quatro eixos"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/02%20-%20comunicacao%20publica.md",
+        "locator": "Seção: Fronteiras entre os quatro eixos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "duarte-interacao-ouvidoria-social"
+      ],
+      "legacyErrorIds": [
+        "err-sim06-q42-duarte",
+        "err-sim04-q41-duarte"
+      ]
+    },
+    {
+      "id": "dp-ehling-politica",
+      "term": "Ehling, White e Grunig: função política",
+      "definition": "A teoria de conflitos-resoluções corresponde à função política das Relações Públicas: lidar com disputas, controvérsias, crises e relações de poder.",
+      "example": "Comunidade e empresa negociam após protestos por impactos ambientais: conflitos-resoluções.",
+      "confusion": "A função estratégica pertence à teoria de gerenciamento; a política destaca interesses em conflito.",
+      "topic": "Teorias de RP",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-ccdd4dc3d35e4b46",
+        "section": "4. Teoria de conflitos-resoluções → função política"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/22.1%20-%20ehling%20white%20e%20grunig%20quatro%20teorias%20do%20gerenciamento%20de%20rp.md",
+        "locator": "Seção: 4. Teoria de conflitos-resoluções → função política"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "ehling-conflitos-funcao-politica"
+      ],
+      "legacyErrorIds": [
+        "err-sim06-q43-ehling"
+      ]
+    },
+    {
+      "id": "dp-mattos-populista",
+      "term": "Sérgio Mattos: fase populista da televisão",
+      "definition": "Na periodização de Sérgio Mattos, a fase populista da televisão brasileira corresponde a 1964–1975, com ênfase em entretenimento popular e auditórios.",
+      "example": "Questão sobre a programação televisiva em 1969: localizar na fase populista.",
+      "confusion": "Não confundir com a etapa de desenvolvimento tecnológico de 1975–1985.",
+      "topic": "História da televisão",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-5356f5d7ce6f4c78",
+        "section": "Fases da televisão brasileira — Sérgio Mattos"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/23%20-%20historia%20da%20midia%20e%20comunicacao%20empresarial%20no%20brasil.md",
+        "locator": "Seção: Fases da televisão brasileira — Sérgio Mattos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "mattos-populista-1964-1975"
+      ],
+      "legacyErrorIds": [
+        "err-sim06-q65-mattos"
+      ]
+    },
+    {
+      "id": "dp-mattos-tecnologico",
+      "term": "Sérgio Mattos: desenvolvimento tecnológico",
+      "definition": "Na periodização de Sérgio Mattos, 1975–1985 é a fase de desenvolvimento tecnológico, marcada por profissionalização, produção própria e exportação.",
+      "example": "Avanços de produção televisiva em 1980 correspondem à fase de desenvolvimento tecnológico.",
+      "confusion": "Fase populista: 1964–1975; não inverter os dois períodos.",
+      "topic": "História da televisão",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-5356f5d7ce6f4c78",
+        "section": "Fases da televisão brasileira — Sérgio Mattos"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/23%20-%20historia%20da%20midia%20e%20comunicacao%20empresarial%20no%20brasil.md",
+        "locator": "Seção: Fases da televisão brasileira — Sérgio Mattos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "mattos-desenvolvimento-1975-1985"
+      ],
+      "legacyErrorIds": [
+        "err-sim05-q47-tv-mattos"
+      ]
+    },
+    {
+      "id": "dp-lage-entrevista",
+      "term": "Nilson Lage: entrevista testemunhal × em profundidade",
+      "definition": "Testemunhal busca o relato de quem presenciou um fato; em profundidade tem a própria pessoa, a trajetória e a visão de mundo como foco.",
+      "example": "Testemunha de acidente: testemunhal. Perfil de uma escritora: em profundidade.",
+      "confusion": "O tempo de entrevista ou a circunstância coletiva não substitui a classificação por objetivos.",
+      "topic": "Entrevista jornalística",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-31ef5073bdfd419c",
+        "section": "4. As duas classificações podem se cruzar"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/14%20-%20entrevista%20jornalistica.md",
+        "locator": "Seção: 4. As duas classificações podem se cruzar"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "lage-testemunhal-vs-profundidade"
+      ],
+      "legacyErrorIds": [
+        "err-sim07-q52-lage"
+      ]
+    },
+    {
+      "id": "dp-logica-somente-se",
+      "term": "Condição necessária: P somente se Q",
+      "definition": "'P somente se Q' significa P → Q: Q é necessária para P, enquanto P é suficiente para Q.",
+      "example": "'Será convocado somente se aprovado' significa convocação → aprovação.",
+      "confusion": "A aprovação pode ser necessária sem bastar para convocação; inverter a seta é erro de condição.",
+      "topic": "Condicionais",
+      "subjectIds": [
+        "logica"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-fba617ec4a0f4faf",
+        "section": "Condição suficiente e necessária"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Logica/02%20-%20conectivos.md",
+        "locator": "Seção: Condição suficiente e necessária"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "condicional-somente-se"
+      ],
+      "legacyErrorIds": [
+        "err-sim05-q02-necessaria"
+      ]
+    },
+    {
+      "id": "dp-logica-p-se-q",
+      "term": "Tradução lógica: P se Q",
+      "definition": "A construção 'P se Q' significa Q → P: o antecedente lógico é a condição introduzida por 'se'.",
+      "example": "'Recebo certificado se concluir o curso' traduz concluir → receber certificado.",
+      "confusion": "Diferencie de 'P somente se Q', que significa P → Q.",
+      "topic": "Condicionais",
+      "subjectIds": [
+        "logica"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-fba617ec4a0f4faf",
+        "section": "Tradução da linguagem natural"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Logica/02%20-%20conectivos.md",
+        "locator": "Seção: Tradução da linguagem natural"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "condicional-p-se-q"
+      ],
+      "legacyErrorIds": [
+        "err-bat-20260902-se"
+      ]
+    },
+    {
+      "id": "dp-logica-contrapositiva",
+      "term": "Contrapositiva versus recíproca e inversa",
+      "definition": "A contrapositiva de P → Q é ¬Q → ¬P e preserva a equivalência. Q → P é recíproca; ¬P → ¬Q é inversa, nenhuma em geral equivalente.",
+      "example": "Se houve deferimento, o pedido era válido; se não era válido, não houve deferimento: contrapositiva.",
+      "confusion": "P → Q equivale a ¬P ∨ Q; não equivale a ¬Q ∨ P.",
+      "topic": "Equivalências",
+      "subjectIds": [
+        "logica"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-ba9ff21a0ed04e81",
+        "section": "A condicional: quatro estruturas que não podem se misturar"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Logica/04%20-%20equivalencias.md",
+        "locator": "Seção: A condicional: quatro estruturas que não podem se misturar"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "contrapositiva-reciproca-inversa"
+      ],
+      "legacyErrorIds": [
+        "err-sim02-q35",
+        "err-bat-20260904-contrapositiva"
+      ]
+    },
+    {
+      "id": "dp-bloco-contagem",
+      "term": "Permutação com elementos juntos",
+      "definition": "Para elementos que devem permanecer juntos, conte o conjunto como um bloco nas posições externas e multiplique pelas ordens internas permitidas.",
+      "example": "Cinco livros distintos, com dois específicos juntos: 4! × 2! = 48.",
+      "confusion": "Parar em 4! esquece as permutações dentro do bloco.",
+      "topic": "Combinatória",
+      "subjectIds": [
+        "logica"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-d273fe550f474474",
+        "section": "Elementos que devem ficar juntos: método do bloco"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Logica/09%20-%20analise%20combinatoria.md",
+        "locator": "Seção: Elementos que devem ficar juntos: método do bloco"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "contagem-bloco-ordem-interna"
+      ],
+      "legacyErrorIds": [
+        "err-sim04-q28-bloco"
+      ]
+    },
+    {
+      "id": "dp-complemento-contagem",
+      "term": "Combinações: pelo menos um pelo complemento",
+      "definition": "Conte seleções com pelo menos um elemento especial como total menos seleções sem nenhum desses elementos.",
+      "example": "Escolher três de oito propostas com ao menos uma de duas prioritárias: C(8,3) − C(6,3).",
+      "confusion": "O complemento de pelo menos uma é nenhuma, não exatamente uma.",
+      "topic": "Combinatória",
+      "subjectIds": [
+        "logica"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-d273fe550f474474",
+        "section": "Complemento com restrições"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Logica/09%20-%20analise%20combinatoria.md",
+        "locator": "Seção: Complemento com restrições"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "contagem-complemento-pelo-menos-um"
+      ],
+      "legacyErrorIds": [
+        "err-sim05-q27-complemento"
+      ]
+    },
+    {
+      "id": "dp-7ps-process-evidencia",
+      "term": "7 Ps: Process × Physical Evidence",
+      "definition": "Process descreve fluxo, tempo e etapas de execução do serviço; Physical Evidence trata dos sinais tangíveis pelos quais o usuário percebe o serviço.",
+      "example": "Reorganizar fila e aprovação: Process; mudar sinalização e ambiente: Physical Evidence.",
+      "confusion": "A mesma interface pode se relacionar às duas categorias conforme o aspecto destacado no enunciado.",
+      "topic": "Marketing de serviços",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-e51e5d78db5a4c99",
+        "section": "Refinamento — Process × Physical Evidence"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/19%20-%20marketing%20institucional%20e%20branding.md",
+        "locator": "Seção: Refinamento — Process × Physical Evidence"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "7ps-process-vs-physical-evidence"
+      ],
+      "legacyErrorIds": [
+        "err-sim04-q45-7ps"
+      ]
+    },
+    {
+      "id": "dp-crise-dark-site",
+      "term": "Dark site de crise",
+      "definition": "Página preparada antes da crise para ser ativada em incidente grave, reunindo atualizações, orientações, perguntas frequentes e contatos.",
+      "example": "Após interrupção de serviço, a instituição ativa página pronta com avisos oficiais.",
+      "confusion": "Recurso de preparação não é obrigação universal, nem significa tirar o site comum do ar.",
+      "topic": "Gestão de crises",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-50f1296bdde542f0",
+        "section": "Dark site"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/07%20-%20gestao%20de%20crises.md",
+        "locator": "Seção: Dark site"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "dark-site-crise"
+      ],
+      "legacyErrorIds": [
+        "err-sim07-q43-dark-site"
+      ]
+    },
+    {
+      "id": "dp-ampulheta-jornalismo",
+      "term": "Estrutura de ampulheta",
+      "definition": "Estrutura jornalística híbrida: abertura com resumo informativo, transição e narrativa geralmente cronológica.",
+      "example": "Reportagem apresenta fato principal, introduz transição e reconstrói a sequência do ocorrido.",
+      "confusion": "Não equivale a pirâmide invertida até o final nem a narração sem resumo inicial.",
+      "topic": "Estrutura jornalística",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-5d257022e5a6465f",
+        "section": "Estrutura híbrida: ampulheta"
+      },
+      "source": {
+        "title": "Poynter: The Hourglass",
+        "url": "https://www.poynter.org/reporting-editing/2003/the-hourglass-serving-the-news-serving-the-reader/",
+        "locator": "The top; the turn; the narrative"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "jornalismo-ampulheta"
+      ],
+      "legacyErrorIds": [
+        "err-sim07-q42-ampulheta"
+      ]
+    },
+    {
+      "id": "dp-amostragem-sistematica",
+      "term": "Amostragem sistemática × conglomerados",
+      "definition": "Sistemática escolhe unidades segundo intervalo regular após ponto inicial. Conglomerados seleciona grupos naturais como unidades amostrais.",
+      "example": "Cada décimo nome de uma lista após início sorteado: sistemática; sortear escolas para entrevistar alunos: conglomerados.",
+      "confusion": "Selecionar em intervalos não é selecionar grupos; conglomerados também difere de estratos com representação garantida.",
+      "topic": "Amostragem",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-553db0a4633f46c6",
+        "section": "Fronteiras entre os principais desenhos probabilísticos"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/17%20-%20pesquisa%20em%20comunicacao.md",
+        "locator": "Seção: Fronteiras entre os principais desenhos probabilísticos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "amostragem-sistematica-conglomerados"
+      ],
+      "legacyErrorIds": [
+        "err-sim07-q57-sistematica"
+      ]
+    },
+    {
+      "id": "dp-sujeito-contexto",
+      "term": "Sujeito indeterminado × oculto na 3ª pessoa do plural",
+      "definition": "Na 3ª pessoa do plural, o sujeito é oculto determinado se o texto permite recuperar o referente; sem referente recuperável, é indeterminado.",
+      "example": "'Ana e Bia chegaram. Saíram': oculto. 'Disseram que a prova mudou', sem contexto: indeterminado.",
+      "confusion": "A flexão verbal isolada não basta quando existe contexto textual mais amplo.",
+      "topic": "Análise sintática",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-98cd849c42bb4294",
+        "section": "Na 3ª pessoa do plural, o contexto costuma decidir"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/02%20-%20sujeito.md",
+        "locator": "Seção: Na 3ª pessoa do plural, o contexto costuma decidir"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "sujeito-plural-oculto-indeterminado"
+      ],
+      "legacyErrorIds": [
+        "err-sim07-q03-sujeito"
+      ]
+    },
+    {
+      "id": "dp-crase-locucoes",
+      "term": "Crase: locuções femininas × a prazo",
+      "definition": "Locuções consagradas de núcleo feminino costumam levar acento grave, como 'à tarde' ou 'às pressas'; 'a prazo' não leva crase por ter núcleo masculino.",
+      "example": "'Pagar a prazo' e 'voltar à noite' pedem grafias diferentes.",
+      "confusion": "Nem toda expressão com a recebe crase; avaliar preposição, artigo e locução.",
+      "topic": "Crase",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-f7dcd59a14c24446",
+        "section": "Locuções femininas"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/11%20-%20crase.md",
+        "locator": "Seção: Locuções femininas"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "crase-locucao-feminina-a-prazo"
+      ],
+      "legacyErrorIds": [
+        "err-sim07-q05-crase"
+      ]
+    },
+    {
+      "id": "dp-voz-passiva-tempo",
+      "term": "Ativa e passiva: preservação do tempo verbal",
+      "definition": "Na passiva analítica, objeto direto da ativa vira sujeito paciente; 'ser' preserva tempo e modo verbal da frase original, seguido de particípio.",
+      "example": "'A equipe revisará os dados' → 'Os dados serão revisados pela equipe'.",
+      "confusion": "Trocar 'revisará' por 'foram revisados' muda o tempo, ainda que preserve agentes.",
+      "topic": "Reescrita",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-ffda49b0fbcc4fbe",
+        "section": "5. Voz ativa × voz passiva"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/10%20-%20reescrita%20semantica%20e%20preservacao%20de%20sentido.md",
+        "locator": "Seção: 5. Voz ativa × voz passiva"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "voz-passiva-tempo"
+      ],
+      "legacyErrorIds": [
+        "err-sim07-q12-passiva"
+      ]
+    },
+    {
+      "id": "dp-telejornalismo-partes",
+      "term": "Telejornalismo: cabeça, pé, off, sonora e passagem",
+      "definition": "Cabeça introduz pelo apresentador; pé complementa ou encerra; off é locução sem repórter visível; sonora é fala da fonte; passagem mostra o repórter.",
+      "example": "Repórter visível na reportagem: passagem. Entrevistado falando: sonora. Narração sobre imagens: off.",
+      "confusion": "Off da reportagem não é off the record, acordo com fonte sobre uso da informação.",
+      "topic": "Telejornalismo",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-8e408175a4194a99",
+        "section": "Telejornalismo: cinco elementos estruturais"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/24%20-%20radiojornalismo%20telejornalismo%20e%20linguagem%20audiovisual.md",
+        "locator": "Seção: Telejornalismo: cinco elementos estruturais"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "telejornalismo-off-passagem-sonora"
+      ],
+      "legacyErrorIds": [
+        "err-sim05-q49-telejornalismo"
+      ]
+    },
+    {
+      "id": "dp-hifen-prefixos",
+      "term": "Hífen com prefixos: vogais, H, R e S",
+      "definition": "Em regra: prefixo e base com mesma vogal usam hífen; com vogais diferentes se unem; antes de H, mantém-se hífen; antes de R/S após vogal, em geral duplica-se a consoante.",
+      "example": "Micro-ondas, autoavaliação, anti-herói, antissocial.",
+      "confusion": "Regras possuem exceções específicas; analisar cada palavra e família de prefixo.",
+      "topic": "Ortografia",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-7cea3aa409804c07",
+        "section": "Refinamento — teste rápido de hífen"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/05%20-%20acordo%20ortografico.md",
+        "locator": "Seção: Refinamento — teste rápido de hífen"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "hifen-prefixos-regras"
+      ],
+      "legacyErrorIds": [
+        "err-sim04-q11-hifen"
+      ]
+    },
+    {
+      "id": "dp-que-integrante-relativo",
+      "term": "Que: conjunção integrante × pronome relativo",
+      "definition": "Conjunção integrante introduz oração substantiva sem retomar antecedente; pronome relativo retoma substantivo anterior e exerce função na oração adjetiva.",
+      "example": "'Afirmou que voltaria': integrante. 'O livro que li': relativo, retomando livro.",
+      "confusion": "Ligar orações não basta para classificar o 'que'; verifique antecedente e função.",
+      "topic": "Orações subordinadas",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-1accdd2da469401d",
+        "section": "`que`: conjunção integrante × pronome relativo"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/07%20-%20oracoes%20coordenadas%20e%20subordinadas.md",
+        "locator": "Seção: `que`: conjunção integrante × pronome relativo"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "que-integrante-relativo"
+      ],
+      "legacyErrorIds": [
+        "err-sim06-q01-que"
+      ]
+    },
+    {
+      "id": "dp-manual-injuncao",
+      "term": "Manual: gênero textual × injunção: tipo",
+      "definition": "Manual é gênero textual ligado à finalidade comunicativa; injunção é tipo ou sequência textual que orienta ações e procedimentos.",
+      "example": "Manual apresenta conceitos e passos: mesmo gênero, combinando exposição e injunção.",
+      "confusion": "Gênero e tipo são níveis diferentes; um gênero pode reunir várias sequências.",
+      "topic": "Tipos e gêneros textuais",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-e8ba958c8c194bab",
+        "section": "Tipo × gênero"
+      },
+      "source": {
+        "title": "Nota teórica do vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/09%20-%20tipos%20e%20generos%20textuais.md",
+        "locator": "Seção: Tipo × gênero"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "manual-genero-injuncao-tipo"
+      ],
+      "legacyErrorIds": [
+        "err-sim06-q07-tipo-genero"
+      ]
+    },
+    {
+      "id": "aud-resposta-controle-componentes",
+      "term": "Resposta a risco × atividades de controle",
+      "definition": "No art. 16 da IN Conjunta MP/CGU 1/2016, resposta a risco é a decisão de evitar, transferir, aceitar ou tratar; atividades de controle são procedimentos para executar o tratamento.",
+      "example": "Decidir reduzir risco de pagamento duplicado é resposta; implantar conferência automática é controle.",
+      "confusion": "Escolher tratamento não comprova que o controle está implementado nem que é efetivo.",
+      "topic": "Gestão de riscos",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-e090ae9b07314c94",
+        "section": "Estrutura interna: oito componentes da gestão de riscos (art. 16)"
+      },
+      "source": {
+        "title": "IN Conjunta MP/CGU nº 1/2016",
+        "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/auditoria-e-fiscalizacao/in-conjunta-mp-cgu-no-01-2016",
+        "locator": "Art. 16, itens V e VI"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "risco-resposta-versus-atividade-controle"
+      ]
+    },
+    {
+      "id": "aud-paint-alteracao-aprovacao",
+      "term": "PAINT: mudança significativa, aprovação e comunicação",
+      "definition": "Mudança significativa do PAINT aprovado deve ser apreciada pela instância competente para aprová-lo; depois é comunicada à supervisão técnica em até 30 dias.",
+      "example": "Conselho aprova a alteração do plano anual e a UAIG comunica à supervisão técnica.",
+      "confusion": "A comunicação posterior não substitui a aprovação interna; programa individual tem outra competência.",
+      "topic": "Planejamento anual",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-99dd198f53bb43d3",
+        "section": "Sequência de competências e prazos do PAINT (arts. 5º a 9º)"
+      },
+      "source": {
+        "title": "IN SFC nº 5/2021",
+        "url": "https://www.in.gov.br/web/dou/-/instrucao-normativa-n-5-de-27-de-agosto-de-2021-342352374",
+        "locator": "Art. 7º, §§ 1º e 2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "paint-mudanca-significativa-comunicacao"
+      ]
     }
   ]
 }

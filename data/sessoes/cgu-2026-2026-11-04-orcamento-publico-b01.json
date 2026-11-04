@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "orcamento-publico",
+  "unitId": "up3-2-2",
+  "id": "cgu-2026-2026-11-04-orcamento-publico-b01",
+  "date": "2026-11-04",
+  "startedAt": "2026-11-04T11:03:00-03:00",
+  "concursoId": "cgu-2026",
+  "banca": "Cebraspe",
+  "kind": "microtreino",
+  "trainingMode": "aprendizagem",
+  "status": "parcial",
+  "diagnosis": "Primeira bateria do artigo 01: 5 acertos em 6 respostas, dos quais 1 acerto inseguro (op02). Erro seguro em op03 por confundir dotação autorizada com disponibilidade financeira, apesar da ressalva correta sobre entrega física. Não constitui treino competitivo nem evidência de retenção.",
+  "nextStep": "Retestar dotação versus disponibilidade financeira com outro contexto e recuperar classificação da aprovação legislativa, antes de começar PPA, LDO e LOA (artigo 02).",
+  "learning": {
+    "stage": "aprendizagem",
+    "taughtConcepts": [
+      "orçamento público: planejamento, autorização e controle",
+      "fases do ciclo orçamentário",
+      "controle prévio, concomitante e posterior",
+      "dotação, caixa, entrega e resultado",
+      "ciclo orçamentário versus estágios da despesa"
+    ],
+    "boundaries": [
+      "aprovação legislativa versus execução",
+      "dotação orçamentária versus disponibilidade financeira",
+      "entrega física versus resultado social",
+      "controle de regularidade versus avaliação de efetividade",
+      "fases do ciclo versus estágios da despesa"
+    ],
+    "pending": [
+      "Revisar dotação versus caixa: erro seguro no item 3.",
+      "Retestar aprovação legislativa versus execução: acerto inseguro no item 2.",
+      "Validar recuperação em mecanismo diferente e revisão espaçada; treino didático não calibra desempenho para valer."
+    ],
+    "unitCompleted": false,
+    "next": {
+      "unitId": "up3-2-2",
+      "stage": "fronteiras",
+      "objective": "Fazer dois novos casos de recuperação sobre dotação versus caixa e aprovação versus execução; em seguida iniciar PPA, LDO e LOA.",
+      "noteRef": "article:art-f6cfe9fbcc764554#Dotação orçamentária: autorização e limite de gasto",
+      "sourceIds": [
+        "lei4320",
+        "constituicao",
+        "lrf"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "conceptId": "ciclo-orcamentario-sobreposicao",
+      "number": 1,
+      "discipline": "Orçamento Público",
+      "topic": "Ciclo orçamentário",
+      "subtopic": "Sobreposição temporal entre exercícios",
+      "questionType": "application",
+      "mechanism": "identificacao-de-simultaneidade",
+      "distractorMechanism": "sequencia-rigida-do-ciclo",
+      "statement": "Um ente público pode elaborar a proposta orçamentária de um exercício futuro enquanto executa o orçamento vigente e avalia contas do exercício anterior, sem que isso descaracterize o ciclo orçamentário.",
+      "explanation": "Certo. A divisão do ciclo em elaboração, aprovação, execução e controle é analítica. Propostas, execução e controle de exercícios diferentes podem ocorrer simultaneamente.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Estrutura do ciclo orçamentário"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      }
+    },
+    {
+      "conceptId": "ciclo-orcamentario-fase-aprovacao",
+      "number": 2,
+      "discipline": "Orçamento Público",
+      "topic": "Ciclo orçamentário",
+      "subtopic": "Aprovação legislativa versus execução",
+      "questionType": "classification",
+      "mechanism": "classificacao-de-fases",
+      "distractorMechanism": "transposicao-de-efeito-para-fase",
+      "statement": "A aprovação da LOA pelo Poder Legislativo integra a fase de execução orçamentária, uma vez que a autorização legislativa é condição para a realização das despesas.",
+      "explanation": "Errado. A votação/aprovação legislativa faz parte da fase de discussão e aprovação. Embora a autorização resultante seja condição para executar despesas, essa relação não altera a classificação da etapa.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "questao_comentada_candidata"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Discussão e aprovação legislativa"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      }
+    },
+    {
+      "conceptId": "dotacao-vs-disponibilidade-financeira",
+      "number": 3,
+      "discipline": "Orçamento Público",
+      "topic": "Orçamento público e execução",
+      "subtopic": "Dotação autorizada versus caixa e pagamento",
+      "questionType": "comparison",
+      "mechanism": "diferenciar-autorizacao-e-caixa",
+      "distractorMechanism": "verdade-parcial-com-efeito-financeiro-indevido",
+      "statement": "A existência de dotação na LOA assegura, no mesmo momento, a disponibilidade financeira necessária ao pagamento da despesa, embora ainda não comprove a entrega física da ação.",
+      "explanation": "Errado. Dotação é valor de despesa autorizado e não garante recursos financeiros imediatamente disponíveis. A ressalva verdadeira sobre não comprovar entrega não torna correto o trecho que equipara dotação a caixa. Confusão conceitual declarada segura.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "annulled": false,
+      "errorType": "confusao_conceitual",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Dotação orçamentária: autorização e limite de gasto"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      }
+    },
+    {
+      "conceptId": "controle-orcamentario-momentos-e-efetividade",
+      "number": 4,
+      "discipline": "Orçamento Público",
+      "topic": "Ciclo orçamentário",
+      "subtopic": "Controle concomitante e efetividade",
+      "questionType": "comparison",
+      "mechanism": "diferenciar-conformidade-e-resultado",
+      "distractorMechanism": "equivalencia-legalidade-efetividade",
+      "statement": "O controle pode acompanhar a execução de despesas públicas, e a comprovação da regularidade legal de um gasto não demonstra, por si só, que a política alcançou seus resultados.",
+      "explanation": "Certo. O controle pode ser prévio, concomitante ou posterior; legalidade/regularidade e efetividade são critérios distintos. Um gasto regular não demonstra automaticamente resultado social.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Controle e avaliação"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      }
+    },
+    {
+      "conceptId": "entrega-fisica-vs-resultado",
+      "number": 5,
+      "discipline": "Orçamento Público",
+      "topic": "Orçamento público e resultados",
+      "subtopic": "Entrega física versus resultado social",
+      "questionType": "interpretation",
+      "mechanism": "distinguir-produto-e-impacto",
+      "distractorMechanism": "suficiencia-indicador-de-entrega",
+      "statement": "O cumprimento da meta física de uma ação prevista no orçamento é evidência suficiente de que o objetivo social final da política pública foi alcançado.",
+      "explanation": "Errado. A entrega física mede produto/ação realizada; efeito social e alcance de objetivos exigem indicadores e evidências próprias. Escola construída não demonstra por si ampliação de acesso.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Fronteiras fundamentais para recuperar em prova"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      }
+    },
+    {
+      "conceptId": "ciclo-orcamentario-vs-estagios-despesa",
+      "number": 6,
+      "discipline": "Orçamento Público",
+      "topic": "Ciclo orçamentário",
+      "subtopic": "Fases do ciclo versus estágios da despesa",
+      "questionType": "classification",
+      "mechanism": "diferenciacao-de-taxonomias",
+      "distractorMechanism": "transposicao-entre-taxonomias",
+      "statement": "Empenho, liquidação e pagamento são estágios da execução da despesa, distintos das quatro fases utilizadas para descrever o ciclo orçamentário.",
+      "explanation": "Certo. O ciclo abrange elaboração, aprovação, execução e controle; empenho, liquidação e pagamento são estágios internos da execução da despesa.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Ciclo orçamentário × estágios da despesa"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      }
+    }
+  ]
+}

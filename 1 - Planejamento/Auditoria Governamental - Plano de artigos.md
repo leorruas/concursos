@@ -26,14 +26,14 @@ O [[3 - Materias/Auditoria Governamental/auditoria-governamental|hub da matéria
 | **06. Evidências** | Qualidade das evidências, papéis de trabalho e acesso | Revisões espaçadas; não refazer nota |
 | **07. Procedimentos** | [[3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria|Artigo criado]] | Completar aprendizagem, treino e fechamento da unidade |
 | **08. Amostragem** | [[3 - Materias/Auditoria Governamental/amostragem-e-generalizacao|Artigo criado]] | Aula inaugural **ainda não registrada** |
-| **09. Achados e fraude** | Apenas panorama parcial no ciclo | Criar nota sobre critério, condição, causa, efeito, indícios e encaminhamento |
-| **10. Comunicação e relatórios** | Panorama no ciclo | Criar nota sobre discussão de achados, manifestação, conclusões, recomendações e relatório |
+| **09. Achados e fraude** | [[3 - Materias/Auditoria Governamental/achados-causas-e-indicios-de-fraude\|Artigo criado]]: quatro componentes, matriz, fraude e apuração | Aula e avaliação não realizadas |
+| **10. Comunicação e relatórios** | [[3 - Materias/Auditoria Governamental/comunicacao-e-relatorios-de-auditoria\|Artigo criado]]: comunicação durante o trabalho, relatórios, manifestações e recomendações | Aula e avaliação não realizadas |
 | **11. Monitoramento e benefícios** | Panorama no ciclo | Criar nota sobre plano de ação, efetividade, riscos residuais e benefícios; conferir IN 10/2020 |
 | **12. Supervisão e qualidade** | Supervisão já discutida em notas anteriores | Criar nota focal sobre Programa de Gestão e Melhoria da Qualidade (PGMQ) e avaliações internas/externas |
 | **13. Dados e IA** | Base de evidências/analíticos parcial | Criar nota sobre bases, integridade, cruzamentos, testes automatizados e limites da IA |
 | **14. Integração CGU** | Finalidades e serviços introdutórios | Criar nota sobre competência de auditoria, ouvidoria, transparência, correição e responsabilização |
 
-**Próximos lotes editoriais:** (1) unidades **09 e 10**, para fechar procedimentos → evidências → achado → comunicação; (2) **11 e 12**, para acompanhamento e qualidade; (3) **13 e 14**, para dados e integração. A unidade 01 deve receber revisão de cobertura após esse ciclo, aproveitando notas existentes.
+**Lote das unidades 09 e 10 preparado em 04/11/2026.** Próximos lotes editoriais: **11 e 12**, sobre monitoramento e qualidade; depois **13 e 14**, sobre dados e integração. A unidade 01 requer revisão focal de cobertura, aproveitando notas existentes.
 
 ## Recuperar o estudo no ChatGPT
 

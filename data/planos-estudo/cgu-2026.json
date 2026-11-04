@@ -473,7 +473,9 @@
           "editalItems": [
             "P3.1.4"
           ],
-          "noteRefs": [],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/achados-causas-e-indicios-de-fraude"
+          ],
           "requires": [
             "u08"
           ],
@@ -481,7 +483,7 @@
             "referencial",
             "mot"
           ],
-          "coverage": "parcial"
+          "coverage": "aprofundada"
         },
         {
           "id": "u10",
@@ -495,6 +497,7 @@
             "P3.1.6"
           ],
           "noteRefs": [
+            "3 - Materias/Auditoria Governamental/comunicacao-e-relatorios-de-auditoria",
             "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#3. Comunicação: transformar evidências em conclusões úteis"
           ],
           "requires": [
@@ -504,7 +507,7 @@
             "referencial",
             "mot"
           ],
-          "coverage": "parcial"
+          "coverage": "aprofundada"
         },
         {
           "id": "u11",

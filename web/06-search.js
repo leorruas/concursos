@@ -114,10 +114,13 @@ function obterPapelArtigoBusca(artigo) {
 
 function obterItensEditalBusca(artigo) {
     if (!artigo || !artigo.sourcePath || !Array.isArray(dadosEditalEstrategico)) return [];
+    const programa = typeof obterProgramaSelecionado === "function" ? obterProgramaSelecionado() : null;
+    const idAtivo = programa && !buscaGlobalAtiva ? concursoSelecionadoId : "";
     return dadosEditalEstrategico.filter(item =>
         item &&
         item.notaPath === artigo.sourcePath &&
-        item.coberturaNota !== "ausente"
+        item.coberturaNota !== "ausente" &&
+        (!idAtivo || item.concursoId === idAtivo)
     );
 }
 
@@ -165,6 +168,9 @@ function calcularAssinaturaIndiceBusca() {
     return [
         todosOsArtigos.length,
         Array.isArray(dadosEditalEstrategico) ? dadosEditalEstrategico.length : 0,
+        concursoSelecionadoId,
+        typeof modoBibliotecaCompleta !== "undefined" && modoBibliotecaCompleta ? "biblioteca" : "edital",
+        buscaGlobalAtiva ? "global" : "contextual",
         todosOsArtigos.map(a => a.sourcePath || a.titulo).join("|")
     ].join("::");
 }
@@ -402,6 +408,7 @@ function filtrarArtigos(termoBusca) {
     if (!termoBusca || termoBusca.trim() === "") {
         divResultados.classList.add("escondido");
         containerResultados.innerHTML = "";
+        document.getElementById("painel-concurso-home")?.classList.remove("escondido");
         document.getElementById("orientacoes-iniciais")?.classList.remove("escondido");
         document.getElementById("explorar-disciplinas")?.classList.remove("escondido");
         return;

@@ -204,8 +204,8 @@ function atualizarDestinoIndiceTopo(categoria = "") {
     link.title = "índice de matérias";
 }
 
-function rotaDoArtigo(artigo, secao = "") {
-    return construirRotaArtigo(artigo.categoria, artigo.titulo, secao, concursoSelecionadoId, modoBibliotecaCompleta);
+function rotaDoArtigo(artigo, secao = "", origem = "") {
+    return construirRotaArtigo(artigo.categoria, artigo.titulo, secao, concursoSelecionadoId, modoBibliotecaCompleta, origem);
 }
 
 // Variáveis da Camada Estratégica (Opcional e Não-Invasiva)

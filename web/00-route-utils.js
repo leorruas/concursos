@@ -4,9 +4,10 @@
         catch (erro) { return String(valor || ""); }
     }
 
-    function queryEscopo(concursoId = "", biblioteca = false, secao = "") {
+    function queryEscopo(concursoId = "", biblioteca = false, secao = "", origem = "") {
         const partes = [];
         if (secao) partes.push("secao=" + encodeURIComponent(secao));
+        if (origem) partes.push("origem=" + encodeURIComponent(origem));
         if (biblioteca) partes.push("biblioteca=1");
         else if (concursoId) partes.push("concurso=" + encodeURIComponent(concursoId));
         return partes.length ? "?" + partes.join("&") : "";
@@ -21,9 +22,9 @@
     }
 
     // Preserva a assinatura antiga de três argumentos e a âncora por seção.
-    function construirRotaArtigo(categoria, titulo, secao = "", concursoId = "", biblioteca = false) {
+    function construirRotaArtigo(categoria, titulo, secao = "", concursoId = "", biblioteca = false, origem = "") {
         const base = "#/" + encodeURIComponent(categoria || "") + "/" + encodeURIComponent(titulo || "");
-        return base + queryEscopo(concursoId, biblioteca, secao);
+        return base + queryEscopo(concursoId, biblioteca, secao, origem && origem !== categoria ? origem : "");
     }
 
     function parsearHashVault(hash) {
@@ -55,6 +56,7 @@
                 categoria: decodificar(segmentos[0]),
                 titulo: decodificar(segmentos.slice(1).join("/")),
                 secao: params.secao || "",
+                origem: params.origem || "",
                 ...contexto
             };
         }

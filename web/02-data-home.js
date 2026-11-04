@@ -123,7 +123,7 @@ function persistirEscopoNaRota() {
     if (rota.tipo === "disciplina") {
         destino = obterRotaCategoria(rota.categoria);
     } else if (rota.tipo === "artigo") {
-        destino = construirRotaArtigo(rota.categoria, rota.titulo, rota.secao, concursoSelecionadoId, modoBibliotecaCompleta);
+        destino = construirRotaArtigo(rota.categoria, rota.titulo, rota.secao, concursoSelecionadoId, modoBibliotecaCompleta, rota.origem);
     } else {
         destino = construirRotaHome(concursoSelecionadoId, modoBibliotecaCompleta);
     }
@@ -375,7 +375,8 @@ function abrirDisciplina(categoria, atualizarRota = true) {
     artigos.forEach((artigo, idx) => {
         const acao = document.createElement("a");
         acao.className = "disciplina-acao";
-        acao.href = rotaDoArtigo(artigo);
+        const origem = artigo.categoria !== categoria ? categoria : "";
+        acao.href = rotaDoArtigo(artigo, "", origem);
         acao.setAttribute("aria-label", artigo.titulo);
 
         const numeroFormatado = String(idx + 1).padStart(2, "0");
@@ -391,7 +392,7 @@ function abrirDisciplina(categoria, atualizarRota = true) {
         acao.addEventListener("click", (e) => {
             if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
             e.preventDefault();
-            abrirArtigo(artigo);
+            abrirArtigo(artigo, true, "", origem);
         });
 
         disciplinaAcoes.appendChild(acao);

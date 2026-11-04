@@ -90,7 +90,9 @@ Esta primeira associação é um **mapa editorial de navegação**, não uma dec
 
 **Fase 5: busca contextual.** Resultados são filtrados pelos mesmos `sourcePath` do catálogo do concurso, antes de aplicar o ranking; assim, a busca não mistura conteúdos exclusivos de outros editais. Acima dos resultados, é possível alternar entre "buscar em [concurso]" e "todo o vault", inclusive quando não há resultados. O modo biblioteca geral busca em todo o conteúdo público. O escopo global temporário é reiniciado ao mudar de concurso; a busca mantém o algoritmo de relevância já validado.
 
-**Verificação final:** testes de catálogo, filtros da home e das matérias, rotas com seção, busca contextual e global, build e auditoria de publicação do GitHub Pages.
+**Refinamento final de navegação e busca:** quando uma nota aparece vinculada a outra matéria, a URL inclui `origem` para permitir voltar à lista correta e navegar entre notas por edital. Metadados editoriais de um concurso deixam de influenciar o ranking contextual de outro; o índice é reconstruído ao trocar o concurso. Ao limpar a busca, o painel principal reaparece.
+
+**Verificação final:** testes de catálogo, filtros da home e das matérias, rotas com seção e origem, busca contextual e global, build e auditoria de publicação do GitHub Pages.
 
 ## Critérios de aceite
 

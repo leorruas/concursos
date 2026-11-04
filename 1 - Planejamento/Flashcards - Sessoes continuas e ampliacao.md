@@ -12,7 +12,7 @@ updated: 2026-11-04
 
 Pedido de 04/11/2026: permitir estudar continuamente até decidir parar; o botão hoje chamado **Pausar** encerra a sessão naquele momento, preservando as avaliações; ampliar os flashcards das quinze matérias da CGU com foco nas fronteiras conceituais e nos erros das questões.
 
-**Estado por etapa:** motor de sessão contínua, interface, encerramento voluntário e migração implementados. O primeiro lote editorial orientado por erros foi implementado: 14 novos cartões e reutilização de um cartão em Auditoria para cobrir as 15 lacunas do snapshot de 04/11/2026. **A expansão das seis matérias sem cartões e outras frentes do edital permanece planejada.** O inventário agora reúne 112 cartões únicos. `scripts/FLASHCARDS.md` descreve o comportamento técnico vigente. A publicação do lote depende do workflow do commit final.
+**Estado por etapa:** motor de sessão contínua, interface, encerramento voluntário e migração implementados. Dois lotes de recuperação foram preparados: 14 cartões recentes da CGU e, no segundo lote, 22 cartões para erros históricos da Dataprev, 2 novos cartões de Auditoria e 2 vínculos aprimorados em cartões já existentes. **A expansão das seis matérias sem cartões e outras frentes do edital permanece planejada.** O inventário agora reúne 136 cartões únicos: 114 vinculados à CGU e 22 à Dataprev. `scripts/FLASHCARDS.md` descreve o comportamento técnico vigente. A publicação do lote depende do workflow do commit final.
 
 A prioridade pedagógica é reduzir lacunas e melhorar recuperação e aplicação. Aumentar o tamanho da coleção não equivale a estudar a matéria, reter os conceitos ou aumentar desempenho competitivo. O conteúdo teórico é reutilizável; edital, banca e resultados continuam separados. CGU 2026: Cebraspe, Certo/Errado.
 
@@ -48,11 +48,11 @@ O resumo pode registrar os contadores da última sessão encerrada, sem impor hi
 
 ## Inventário atual e expansão das quinze matérias
 
-Corte deste inventário: 04/11/2026. Há **112 cartões únicos**; a soma de vínculos por matéria é maior porque alguns conceitos são compartilhados. As prioridades abaixo são propostas editoriais baseadas em lacunas, pré-requisitos e cobertura disponível, sem estatística de incidência da banca. Cada lote deve ser conferido no edital e nas fontes antes da redação.
+Corte deste inventário: 04/11/2026. Há **136 cartões únicos** (114 da CGU; 22 da Dataprev); a soma de vínculos por matéria é maior porque alguns conceitos são compartilhados. As prioridades abaixo são propostas editoriais baseadas em lacunas, pré-requisitos e cobertura disponível, sem estatística de incidência da banca. Cada lote deve ser conferido no edital e nas fontes antes da redação.
 
 | Matéria CGU | Cartões vinculados hoje | Próximo recorte proposto | Prioridade |
 | :--- | ---: | :--- | :--- |
-| Auditoria Governamental | 27 | Lacunas da fila: técnicas e finalidades de testes, procedimento analítico, vouching/rastreamento, evidência, objetividade, supervisão, escopo e risco residual | Primeira etapa: erros documentados |
+| Auditoria Governamental | 29 | Lacunas da fila: técnicas e finalidades de testes, procedimento analítico, vouching/rastreamento, evidência, objetividade, supervisão, escopo e risco residual | Primeira etapa: erros documentados |
 | Contabilidade Pública | 7 | Objeto, regimes e enfoques; variações patrimoniais, demonstrações, custos e estatais conforme o edital | Alta: base extensa e pré-requisitos |
 | Políticas Públicas e avaliação | 8 | Avaliabilidade, modelo lógico, implementação, monitoramento, indicadores, avaliação e inferência causal | Primeira etapa: erros documentados |
 | Orçamento Público | 59 | Cobrir lacunas concretas: esferas, estatais dependentes, prazos, classificações e critérios da receita; evitar multiplicar sinônimos já cobertos | Primeira etapa: completar fronteiras |
@@ -68,7 +68,7 @@ Corte deste inventário: 04/11/2026. Há **112 cartões únicos**; a soma de ví
 | Sociedade brasileira | 0 | Desigualdades, diversidade, território, estrutura social e direitos no recorte do edital | Iniciar coleção de base |
 | Evidências, dados e inteligência artificial | 0 | Dados/informação/evidência, qualidade, vieses, limites de inferência e uso de IA previstos no programa | Iniciar coleção de base |
 
-**Sequência atualizada:** a fila `unmapped` do corte 04/11 foi coberta por cartões com vínculos aos respectivos conceitos. **Isso resolve o mapeamento editorial, não comprova retenção nem encerra o diagnóstico dos erros nas questões.** Próximas etapas: ampliar Contabilidade, Auditoria, Políticas Públicas e cobrir lacunas remanescentes de Orçamento; abrir as seis matérias sem cartões conforme estudo; aprofundar as demais coleções. Novos erros podem reabrir a fila após a próxima consolidação. A ordem é ajustável por prova, peso, pré-requisitos e novas evidências de erro.
+**Sequência atualizada:** a fila `unmapped` recente da CGU no corte 04/11 foi coberta por cartões com vínculos aos respectivos conceitos. As ocorrências históricas pendentes da Dataprev passaram a alimentar prioridades próprias, com cartões em Português, Lógica, Informática/Legislação e Comunicação. As ocorrências anteriores sem correspondência permanecem numa fila editorial separada até revisão, e o status histórico `superado` não cria nova prioridade. **Isso resolve o mapeamento editorial, não comprova retenção nem encerra o diagnóstico dos erros nas questões.** Próximas etapas: ampliar Contabilidade, Auditoria, Políticas Públicas e cobrir lacunas remanescentes de Orçamento; abrir as seis matérias sem cartões conforme estudo; aprofundar as demais coleções. Novos erros podem reabrir a fila após a próxima consolidação. A ordem é ajustável por prova, peso, pré-requisitos e novas evidências de erro.
 
 Para matérias sem cartões, começar com um lote editorial pequeno, em geral **8 a 15 conceitos realmente distintos**, e avaliar as lacunas restantes antes de outro lote. A faixa é orientação de trabalho, não meta de cobertura. Orçamento já tem 59: o próximo ganho tende a vir de melhorar fronteiras e aplicações, e não de alcançar um número arbitrário de cartões. Nenhuma matéria deve ser considerada concluída apenas por atingir uma quantidade.
 
@@ -86,8 +86,15 @@ No fechamento editorial de cada unidade de estudo, incluir a conferência das la
 
 1. **Motor contínuo e migração:** retirar o limite de dez apresentações totais; manter fila em memória limitada, seleção elegível e antirrepetição; preservar backups e retomada acidental. Testar sequência superior a dez, coleção pequena, nenhum elegível, retorno de erro, avanço do relógio e ausência de duplicação na migração.
 2. **Interface e encerramento:** substituir posição fracionária, remover conclusão forçada da rodada, acrescentar encerramento voluntário e resumo fiel; verificar teclado, foco, telefone, tema claro/escuro, recarga e cartão aberto sem avaliação. Confirmar que encerrar mantém agendamentos e que abrir outra sessão não retoma a encerrada.
-3. **Lote editorial de recuperação:** primeiro lote concluído com 14 cartões novos e extensão de pertencimento do cartão de conflito de interesses. As 15 lacunas do snapshot de 04/11 agora possuem vínculo conceitual e recorte de matéria. Conferir a projeção regenerada e não classificar recuperação nos cartões como retenção em questões. Próximas lacunas seguem fluxo incremental.
+3. **Lote editorial de recuperação:** dois lotes preparados: 14 cartões CGU e depois 22 Dataprev + 2 Auditoria CGU, com refinamento de dois vínculos existentes. As 15 lacunas do snapshot de 04/11 agora possuem vínculo conceitual e recorte de matéria. Conferir a projeção regenerada e não classificar recuperação nos cartões como retenção em questões. Próximas lacunas seguem fluxo incremental.
 4. **Expansão por matéria:** ainda pendente nas seis matérias sem cartões. Executar lotes por recorte, conferir com o programa e inventariar as lacunas restantes. Publicar lotes pequenos e verificáveis, sem reescrever todas as notas.
 5. **Validação e publicação:** executar os testes de flashcards, continuidade, importação/backup, catálogo, privacidade, build e workflow. Confirmar coleção, interface e rotas no Pages. Apenas depois atualizar o estado de cada etapa para implementada.
 
 Critério principal: estudar por mais de dez cartões sem reiniciar a sessão, encerrar voluntariamente sem perder avaliações, retornar depois com o agendamento preservado e encontrar uma coleção que se amplie de acordo com as lacunas reais das matérias.
+
+
+## Expansão histórica de erros: Dataprev
+
+Em 04/11/2026 foram identificados 38 registros de erros antigos no arquivo `data/erros-recorrentes.json`, dos quais 33 tinham status `pendente` no corte analisado. O lote de 22 cartões novos cobre 27 dessas ocorrências, pois alguns conceitos foram errados em mais de um simulado. As seis ocorrências restantes permanecem para triagem posterior. Os cartões de revisão foram incluídos sob `dataprev-2026` com banca FGV e assuntos próprios. Reaproveitamento futuro para outros concursos exige conferência de edital e pertinência.
+
+A consolidação do perfil importa os registros históricos somente enquanto estiverem pendentes, sem alterar seus status, sem copiar respostas pessoais para a coleção de cartões e sem transferir desempenho entre concursos. Os rótulos `DP-GER` e `DP-ESP` são classificadores internos, não denominações do edital. Os erros antigos não representam falhas de retenção medidas agora.

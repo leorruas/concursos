@@ -119,3 +119,19 @@ assert(cards.some(c=>c.id==='conflito-interesses'&&c.subjectIds.includes('audito
 assert(cards.length>=112,'Coleção de recuperação deve manter o lote editorial');
 console.log('SUCESSO: '+pendingEditorial.length+' lacunas do corte 04/11 vinculadas a cartões e reutilização por matéria.');
 
+
+
+const priorLegacy=JSON.parse(fs.readFileSync(new URL('../data/erros-recorrentes.json',import.meta.url)));
+const legacyProfile=buildFlashcardPriorities(outputs,data,'2026-11-04',priorLegacy);
+const marco=legacyProfile.entries.find(x=>x.cardId==='dp-marco-prazos-registros');
+assert.equal(marco.examId,'dataprev-2026');
+assert.equal(marco.recurrences,4,'Erros históricos repetidos alimentam prioridade sem duplicar cartão');
+assert(!legacyProfile.entries.some(x=>x.conceptIds.includes('legado-err-sim02-q15')),
+    'Erros históricos superados não devem ser reabertos');
+assert(legacyProfile.unmapped.some(x=>x.examId==='dataprev-2026'),'Lacunas do legado sem cartão continuam visíveis');
+const legacyImported={...F.empty(),priorities:F.validatePriorities(legacyProfile,cards)};
+const legacyQueue=F.select(cards,legacyImported,{exam:'dataprev-2026',subject:'informatica',mode:'errors',direction:'forward'},now,()=>.5);
+assert.equal(legacyQueue[0].id,'dp-marco-prazos-registros','Importação ativa prioridades históricas no concurso original');
+assert.equal(F.select(cards,legacyImported,{exam:'cgu-2026',subject:'informatica',mode:'errors',direction:'forward'},now).length,0,
+    'Nenhum erro da Dataprev é transferido indevidamente à CGU');
+console.log('SUCESSO: legado FGV, recorrência, isolamento entre concursos, superados e lacunas editoriais.');

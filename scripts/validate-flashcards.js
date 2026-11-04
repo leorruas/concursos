@@ -16,8 +16,11 @@ export function validateFlashcards(data,root) {
         assert.ok(Array.isArray(c.conceptIds)&&new Set(c.conceptIds).size===c.conceptIds.length&&c.conceptIds.every(id=>typeof id==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)),c.id+': conceitos inválidos');
         assert.equal(c.status,'validated');assert.match(c.reviewedAt,/^\d{4}-\d{2}-\d{2}$/);assert.ok(Number.isInteger(c.revision)&&c.revision>0);
         assert.ok(c.examIds.length&&c.examIds.every(id=>exams.has(id)));assert.ok(c.subjectIds.length&&c.subjectIds.every(id=>subjects.has(id)));
-        assert.ok(c.editalRefs.length&&c.editalRefs.every(x=>typeof x==='string'&&/^P\d/.test(x)));
+        assert.ok(c.editalRefs.length&&c.editalRefs.every(x=>typeof x==='string'&&/^(?:P\d|DP-(?:GER|ESP))/.test(x)));
         for(const eid of c.examIds) {const cat=contests.find(x=>x.concursoId===eid);assert.ok(cat);assert.ok(c.subjectIds.every(id=>cat.subjects.some(s=>s.subjectId===id)),c.id+': matéria fora do catálogo');}
+        if(c.legacyErrorIds!==undefined)assert.ok(Array.isArray(c.legacyErrorIds)&&
+            c.legacyErrorIds.length>0&&new Set(c.legacyErrorIds).size===c.legacyErrorIds.length &&
+            c.legacyErrorIds.every(id=>typeof id==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)),c.id+': IDs históricos inválidos');
         const article=inventory.get(c.note.articleId);assert.ok(article,c.id+': artigo inexistente');
         const text=fs.readFileSync(path.join(root,article.sourcePath),'utf8');
         assert.ok(text.split(/\r?\n/).some(l=>/^#{1,6} /.test(l)&&l.replace(/^#{1,6} /,'').trim()===c.note.section),c.id+': seção inexistente');

@@ -38,6 +38,8 @@ A Constituição, art. 165, organiza **Plano Plurianual (PPA)**, **Lei de Diretr
 
 A LDO contém **Anexo de Metas Fiscais** e **Anexo de Riscos Fiscais**, conforme a LRF e sua redação atual. **Metas** tratam de resultados e parâmetros fiscais. **Riscos** tratam de passivos contingentes e outros fatores capazes de afetar as contas, com providências previstas. Risco não equivale a despesa já realizada.
 
+A LRF, art. 2º, II e III, também distingue a **empresa controlada**, definida pela maioria do capital social votante, da **empresa estatal dependente**, definida pelo recebimento de recursos do controlador para determinadas despesas, com exceção legal relativa a aumento de participação acionária. Essa distinção afeta a abrangência do orçamento fiscal e da seguridade e evita confundir **controle societário** com **dependência financeira**. Para as condições legais e exemplos, consulte [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Empresa controlada × estatal dependente × estatal não dependente|estatais dependentes e não dependentes]].
+
 Ver [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] para o detalhamento constitucional e [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|programação e limitação de empenho]] para o art. 9º da LRF.
 
 ## Receita Corrente Líquida: denominador fiscal

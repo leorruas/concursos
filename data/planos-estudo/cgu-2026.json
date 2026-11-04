@@ -129,6 +129,16 @@
       "label": "Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)",
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
       "scope": "Necessidade, finalidade, dados sensíveis e exercício de direitos; conferir texto vigente"
+    },
+    "lei4320": {
+      "label": "Lei nº 4.320/1964: normas gerais de direito financeiro",
+      "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+      "scope": "Orçamento, receita, despesa, créditos adicionais e execução; conferir texto e alterações vigentes."
+    },
+    "lrf": {
+      "label": "Lei Complementar nº 101/2000: Lei de Responsabilidade Fiscal",
+      "url": "https://legis.senado.leg.br/norma/572856/publicacao/34621009",
+      "scope": "LDO, metas fiscais, programação, limitação de empenho, limites e relatórios; conferir alterações e vigência."
     }
   },
   "subjects": [
@@ -1613,14 +1623,19 @@
             "P3.2.2"
           ],
           "noteRefs": [
+            "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario",
+            "3 - Materias/Orcamento Publico/02 - ppa ldo e loa",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [],
           "sourceIds": [
-            "mcasp"
+            "mcasp",
+            "constituicao",
+            "lei4320",
+            "lrf"
           ],
-          "coverage": "base-adjacente",
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "coverage": "parcial",
+          "noteRole": "notas-diretas-parciais-e-base-adjacente"
         },
         {
           "id": "up3-2-3",

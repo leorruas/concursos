@@ -143,6 +143,8 @@
           "itemEdital": "P3.2",
           "hubSourcePath": "3 - Materias/Orcamento Publico/orcamento-publico.md",
           "articleSourcePaths": [
+            "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md",
+            "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica.md"
           ]
         },

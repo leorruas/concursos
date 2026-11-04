@@ -144,5 +144,19 @@ for(const subject of ['estado-democracia','sociedade-brasileira','administracao-
 for(const [id,subject] of [['accountability','administracao-publica'],['equidade','sociedade-brasileira'],['contrafactual','evidencias-dados-ia']]) {
   assert(cards.find(c=>c.id===id)?.subjectIds.includes(subject),'Vínculo reutilizado perdido: '+id);
 }
-assert.equal(cards.length,167,'Inventário inicial da expansão das seis matérias');
+assert.equal(cards.length,204,'Inventário após lote de Contabilidade, Finanças, Contratações e Auditoria');
+for(const [subject,min] of [['contabilidade-publica',14],['financas-publicas',10],['contratacoes-transferencias',13],['auditoria-governamental',44]]) {
+ const pool=cards.filter(c=>c.examIds.includes('cgu-2026')&&c.subjectIds.includes(subject));
+ assert.equal(pool.length,min,'Contagem de matéria após ampliação: '+subject);
+ assert.equal(new Set(pool.map(c=>c.id)).size,pool.length,'ID duplicado na matéria '+subject);
+ const sample=F.select(cards,F.empty(),{exam:'cgu-2026',subject,mode:'new',direction:'forward'},now,()=>.5);
+ assert.equal(sample.length,10,'Matéria precisa oferecer uma janela de dez cartões: '+subject);
+}
+assert(cards.find(c=>c.id==='cont-vpa-sem-caixa')?.note.articleId==='art-4677cfa327ce43bb',
+ 'Cartão de competência deve apontar à nota detalhada, não apenas ao hub de Contabilidade');
+assert(cards.find(c=>c.id==='contr-acrescimos-25-50')?.contrast.answer.includes('supressões'),
+ 'Contraste quantitativo tem de impedir extensão indevida do limite de 50%');
+assert(cards.find(c=>c.id==='aud-beneficio-liquido')?.source.url.includes('Instru'),
+ 'Benefício financeiro precisa da IN SFC 10/2020 como fonte');
+console.log('SUCESSO: expansão de 37 conceitos nas matérias específicas e limites de reutilização.');
 console.log('SUCESSO: seis matérias da CGU iniciadas, 25 cartões novos e três vínculos compartilhados.');

@@ -1,6 +1,6 @@
 # Flashcards de vocabulário
 
-Criado em 2026-11-04. Coleção atual: 167 cartões únicos, sendo 139 vinculados à CGU 2026 e 28 à Dataprev 2026. Na CGU, há 59 cartões de Orçamento Público, 7 de Contabilidade Pública e coleções parciais nas demais matérias. A Dataprev inclui Português, Lógica, Informática/Legislação, Atualidades e Comunicação. Os vínculos cruzados reutilizam conceitos sem duplicar cartões. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
+Criado em 2026-11-04. Coleção atual: 204 cartões únicos, sendo 176 vinculados à CGU 2026 e 28 à Dataprev 2026. Na CGU, há 59 cartões de Orçamento Público, 14 de Contabilidade Pública e coleções parciais nas demais matérias. A Dataprev inclui Português, Lógica, Informática/Legislação, Atualidades e Comunicação. Os vínculos cruzados reutilizam conceitos sem duplicar cartões. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
 
 ## Arquitetura
 
@@ -37,7 +37,7 @@ O armazenamento pertence à origem, navegador e dispositivo. Não sincroniza com
 5. Construir com `node scripts/build-site.js`, depois `node scripts/validate-flashcards.js --site` e `node scripts/validate-integrity.js --audit-site`.
 6. Publicar pelo workflow existente. Confirmar o HEAD final, a coleção ao vivo, a página e os links do manifesto. Uma revisão só está publicada depois disso.
 
-Ampliação seguinte: aprofundar Contabilidade (demonstrações, custos e estatais), ampliar os seis eixos da CGU que receberam coleções iniciais e vincular novos conceitos à medida que suas unidades forem estudadas. O esquema já comporta essas coleções sem mudança na interface; não apresentar a estrutura preparada como conteúdo concluído.
+Ampliação seguinte: aprofundar Contabilidade em DVP, custos e estatais com notas específicas; ampliar contratos de transferências, finanças e auditoria aplicada, preservando apenas conceitos efetivamente documentados. Não confundir coleção parcial com domínio da matéria. O esquema já comporta essas coleções sem mudança na interface; não apresentar a estrutura preparada como conteúdo concluído.
 
 ## Ligação com erros das questões
 
@@ -64,3 +64,10 @@ Em 04/11/2026, o arquivo de erros históricos tinha 38 ocorrências da Dataprev:
 ### Primeiro lote das seis matérias da CGU antes vazias
 
 Em 04/11/2026, foram acrescentados **25 cartões inéditos** distribuídos entre Estado e Democracia (4), Sociedade Brasileira (4), Administração Pública (4), Finanças Públicas (4), Contratações e Transferências (4) e Evidências, Dados e IA (5). Outros três cartões previamente existentes foram associados a matérias adicionais: `accountability` (Administração Pública), `equidade` (Sociedade Brasileira) e `contrafactual` (Evidências, Dados e IA). Total de cartões por matéria após os vínculos: respectivamente **4, 5, 5, 4, 4 e 6**. As notas originais dos conceitos estão em Constitucional, Administrativo, Administração Pública, Atualidades, Auditoria e Avaliação de Políticas. O hub de cada matéria ainda é roteiro: **presença de cartão não equivale a aula, retenção ou cobertura completa do edital**.
+
+
+### Lote de ampliação de 04/11/2026: contabilidade, finanças, contratos e auditoria
+
+**37 cartões novos**, totalizando 204. Distribuição: **Contabilidade Pública +7 (14 no total); Finanças Públicas +6 (10); Contratações e Transferências +9 (13); Auditoria Governamental +15 (44)**. Os vínculos das notas vêm dos artigos canônicos já existentes de Orçamento Público, Direito Administrativo e Auditoria. O lote separa estágio orçamentário, entrada de caixa e reconhecimento patrimonial; limites e demonstrações fiscais; hipóteses de alteração e encerramento contratual; amostragem, achados e monitoramento da auditoria.
+
+**Limite editorial:** a nota própria de Contabilidade Pública ainda é um hub de planejamento. Os cartões adicionais são fronteiras patrimoniais sustentadas por notas de receita, despesa e restos a pagar; não cobrem integralmente balanços, DVP, MIC/custos, provisões e estatais. Da mesma forma, os cartões de Contratações cobrem principalmente a Lei nº 14.133/2021 e ainda não esgotam o regime de transferências e parcerias. Fonte normativa de referência: MCASP 11ª edição, Lei 4.320/1964, LRF, Lei 14.133/2021, MOT/IN 10/2020. Não registrar avanço em domínio ou retenção sem nova evidência de questões.

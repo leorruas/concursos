@@ -5609,6 +5609,1210 @@
       "conceptIds": [
         "ia-gerativa-fluencia-nao-prova"
       ]
+    },
+    {
+      "id": "cont-receita-efetiva",
+      "term": "Receita orçamentária efetiva × não efetiva",
+      "definition": "A natureza efetiva ou não efetiva se relaciona ao efeito sobre o patrimônio líquido. Uma receita orçamentária de capital por operação de crédito é, em regra, não efetiva: entra recurso e nasce uma obrigação.",
+      "example": "Empréstimo bancário recebido por ente público aumenta caixa e passivo, sem enriquecê-lo pelo valor principal.",
+      "confusion": "Ingresso orçamentário não é sinônimo de aumento patrimonial líquido; receita de capital não significa receita patrimonial efetiva.",
+      "topic": "Receitas e patrimônio",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Receita efetiva × não efetiva: classificação patrimonial"
+      },
+      "source": {
+        "title": "MCASP, 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Parte I: receitas efetivas e não efetivas"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "cont-receita-orcamentaria-vs-efetiva"
+      ],
+      "contrast": {
+        "prompt": "Operação de crédito aumenta caixa. Ela gera automaticamente VPA?",
+        "answer": "Não. O ingresso cria obrigação de restituição e normalmente não aumenta o patrimônio líquido no reconhecimento."
+      }
+    },
+    {
+      "id": "cont-vpa-sem-caixa",
+      "term": "VPA antes da arrecadação",
+      "definition": "A variação patrimonial aumentativa segue reconhecimento por competência e pode ocorrer quando surge o direito de receber, antes do ingresso de caixa e da receita orçamentária arrecadada.",
+      "example": "Crédito tributário reconhecido em fevereiro e pago em maio: o reconhecimento patrimonial pode preceder a arrecadação.",
+      "confusion": "Registro do direito a receber não prova recebimento financeiro; a receita orçamentária segue o art. 35 da Lei 4.320.",
+      "topic": "Regime orçamentário e patrimonial",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Regime orçamentário × competência patrimonial"
+      },
+      "source": {
+        "title": "MCASP, 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Partes I e II: enfoque orçamentário e patrimonial"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "cont-vpa-direito-vs-arrecadacao"
+      ]
+    },
+    {
+      "id": "cont-aquisicao-ativo",
+      "term": "Despesa de capital × VPD na aquisição de ativo",
+      "definition": "Aquisição de equipamento pode constituir despesa orçamentária de capital e gerar registro patrimonial de ativo, sem VPD integral e imediata de igual valor.",
+      "example": "Órgão compra equipamento de R$ 80 mil: registra gasto orçamentário e bem no patrimônio; consumo/depreciação têm momento próprio.",
+      "confusion": "A existência de empenho ou pagamento não torna automaticamente todo o valor uma VPD no mesmo instante.",
+      "topic": "Despesa e patrimônio",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Orçamentário × patrimonial"
+      },
+      "source": {
+        "title": "MCASP, 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Partes I e II: despesa orçamentária e aquisição de ativo"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "cont-compra-ativo-despesa-vs-vpd"
+      ]
+    },
+    {
+      "id": "cont-liquidacao-caixa",
+      "term": "Liquidação × pagamento sob duas óticas",
+      "definition": "A liquidação confirma o direito do credor pela entrega ou prestação verificada. O pagamento é saída financeira, que pode ocorrer depois da liquidação.",
+      "example": "Serviço atestado em dezembro e pago em janeiro pode gerar obrigação a pagar enquanto o caixa ainda não saiu.",
+      "confusion": "Não misturar o estágio de liquidação com quitação em caixa, nem deduzir automaticamente a data patrimonial só pelo pagamento.",
+      "topic": "Diferentes óticas da execução",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Liquidação × pagamento"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Arts. 62 a 65: liquidação, ordem e pagamento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "cont-liquidacao-diferente-desembolso"
+      ]
+    },
+    {
+      "id": "cont-rp-vs-dea",
+      "term": "Restos a pagar × Despesas de Exercícios Anteriores",
+      "definition": "RP preserva a continuidade de empenho válido inscrito ao encerramento; DEA trata obrigação de exercício anterior que será processada com dotação e empenho do exercício atual nas hipóteses legais.",
+      "example": "Empenho antigo inscrito em RP segue execução de RP; serviço antigo não inscrito pode exigir DEA, caso enquadrado no art. 37.",
+      "confusion": "Nem todo pagamento de obrigação antiga é DEA; pagamento de RP válido não requer novo empenho ordinário.",
+      "topic": "Registros de encerramento",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e4e79c7f4bb4aa3",
+        "section": "RP × DEA: onde se rompe a continuidade"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Arts. 36 e 37: RP e DEA"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "cont-rp-dea-empenho-exercicio"
+      ]
+    },
+    {
+      "id": "cont-cancelamento-rp",
+      "term": "Cancelamento de RP × arrecadação nova",
+      "definition": "Segundo tratamento contábil atual do MCASP, cancelamento de restos a pagar não gera por si nova receita orçamentária, pois não existe novo ingresso de recursos.",
+      "example": "Cancelar RP libera comprometimento financeiro, mas não corresponde a um contribuinte pagando receita nova.",
+      "confusion": "O art. 38 da Lei 4.320 tem redação histórica distinta: em questão literal da lei, identificar a fonte pedida antes de aplicar o tratamento do MCASP.",
+      "topic": "Registros de RP e receita",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e4e79c7f4bb4aa3",
+        "section": "Cancelamento de restos a pagar × nova receita"
+      },
+      "source": {
+        "title": "MCASP, 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Parte I: restos a pagar; confrontar art. 38 da Lei 4.320"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "cont-cancelamento-rp-nao-ingresso"
+      ]
+    },
+    {
+      "id": "cont-suprimento-restituicao",
+      "term": "Devolução de suprimento: exercício atual × seguinte",
+      "definition": "Na regra descrita pelo MCASP, recursos de suprimento devolvidos no exercício de concessão geram, em regra, anulação de despesa; no exercício seguinte, receita orçamentária pertinente.",
+      "example": "Servidor devolve saldo de adiantamento ainda em dezembro: anulação de despesa. Se devolve após encerramento, recebe tratamento orçamentário distinto.",
+      "confusion": "Não transpor a regra de restituição de suprimento para cancelamento de restos a pagar.",
+      "topic": "Adiantamentos e devoluções",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e4e79c7f4bb4aa3",
+        "section": "Restituições de suprimento"
+      },
+      "source": {
+        "title": "MCASP, 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Parte I: suprimento de fundos e restituições"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "cont-suprimento-restituicao-exercicio"
+      ]
+    },
+    {
+      "id": "fin-rcl-base",
+      "term": "Receita Corrente Líquida × receita bruta",
+      "definition": "RCL é calculada a partir de receitas correntes, deduções legais e apuração na janela de doze meses; serve como base de limites fiscais da LRF.",
+      "example": "Um limite de pessoal expresso em porcentagem da RCL utiliza o indicador legal, não a arrecadação tributária de um único mês.",
+      "confusion": "RCL não é receita tributária isolada, receita primária, saldo de caixa ou arrecadação corrente bruta.",
+      "topic": "Indicadores fiscais",
+      "subjectIds": [
+        "financas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-91ab320cdfb64b8a",
+        "section": "Receita Corrente Líquida: denominador fiscal"
+      },
+      "source": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Art. 2º, IV e § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "fin-rcl-denominador-fiscal"
+      ]
+    },
+    {
+      "id": "fin-alerta-prudencial",
+      "term": "Despesa com pessoal: alerta × prudencial",
+      "definition": "Ao atingir 90% do limite, o Tribunal de Contas emite alerta; ao ultrapassar 95%, aplicam-se vedações prudenciais específicas. O limite máximo é 100% do limite legal próprio.",
+      "example": "Órgão cujo limite é 6% da RCL tem patamar prudencial de 5,7% da RCL, não 95% de toda a RCL.",
+      "confusion": "Os limiares incidem sobre o limite do Poder ou órgão, não diretamente sobre 90 ou 95 pontos percentuais da RCL.",
+      "topic": "Limites da despesa com pessoal",
+      "subjectIds": [
+        "financas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-91ab320cdfb64b8a",
+        "section": "Limite de alerta × prudencial × máximo"
+      },
+      "source": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Arts. 22 e 59, § 1º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "fin-lrf-alerta90-prudencial95"
+      ],
+      "contrast": {
+        "prompt": "95% do limite próprio significa 95% da receita corrente líquida?",
+        "answer": "Não. Um limite de 6% da RCL tem patamar prudencial de 5,7% da RCL."
+      }
+    },
+    {
+      "id": "fin-pessoal-reconducao",
+      "term": "Excesso de pessoal: prazo de recondução",
+      "definition": "Ultrapassado o limite máximo de despesa com pessoal, o excesso deve ser eliminado nos dois quadrimestres seguintes, ao menos um terço no primeiro, observadas ressalvas legais.",
+      "example": "Limite legal de 12 milhões e despesa de 12,6 milhões exigem exame de recondução do excesso de 600 mil.",
+      "confusion": "Alerta e prudencial têm consequências próprias; a recondução do art. 23 pressupõe excesso sobre o limite máximo.",
+      "topic": "Regras da LRF",
+      "subjectIds": [
+        "financas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-91ab320cdfb64b8a",
+        "section": "Recondução após ultrapassar o máximo"
+      },
+      "source": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Art. 23: prazo e recondução"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "fin-pessoal-excesso-dois-quadrimestres"
+      ]
+    },
+    {
+      "id": "fin-rreo-rgf",
+      "term": "RREO bimestral × RGF quadrimestral",
+      "definition": "RREO informa execução orçamentária e é bimestral, com publicação até 30 dias após cada bimestre; RGF acompanha limites fiscais e é, como regra, quadrimestral, também com publicação em até 30 dias.",
+      "example": "Dados de receita/despesa do bimestre: RREO. Limites de pessoal, dívida e disponibilidade: RGF.",
+      "confusion": "A regra quadrimestral do RGF admite regime diferenciado legal para municípios pequenos; não apresentar periodicidade como exceção inexistente.",
+      "topic": "Relatórios fiscais",
+      "subjectIds": [
+        "financas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-91ab320cdfb64b8a",
+        "section": "RREO × RGF: relatórios que cumprem funções diferentes"
+      },
+      "source": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Arts. 52 a 55 e 63"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "fin-rreo-bimestral-rgf-quadrimestral"
+      ]
+    },
+    {
+      "id": "fin-lrf-contingenciamento",
+      "term": "Limitação de empenho × anulação de dotação",
+      "definition": "A avaliação bimestral prevista no art. 9º da LRF pode exigir limitação de empenho e movimentação financeira para ajustar execução às metas fiscais; não é cancelamento automático da dotação.",
+      "example": "Projeção de receita cai; Poder limita novos empenhos nos termos da LDO, preservando distinção entre autorização e execução.",
+      "confusion": "Uma dotação autorizada pode continuar existindo mesmo com empenho temporariamente limitado.",
+      "topic": "Gestão fiscal",
+      "subjectIds": [
+        "financas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-91ab320cdfb64b8a",
+        "section": "Riscos, limitação de empenho e final de mandato"
+      },
+      "source": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Art. 9º: avaliação e limitação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "fin-limite-empenho-versus-cancelamento"
+      ]
+    },
+    {
+      "id": "fin-final-mandato-caixa",
+      "term": "Art. 42 da LRF: obrigações no fim do mandato",
+      "definition": "Nos últimos dois quadrimestres do mandato, obrigação assumida que não possa ser integralmente cumprida deve observar disponibilidade de caixa para parcelas que serão pagas no exercício seguinte, conforme condições do art. 42.",
+      "example": "Despesas assumidas no fim do mandato exigem exame de suficiência financeira por fonte legalmente vinculada.",
+      "confusion": "Não transformar a norma em proibição total de empenhar em dezembro ou de inscrever qualquer resto a pagar.",
+      "topic": "Regras de final de mandato",
+      "subjectIds": [
+        "financas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-91ab320cdfb64b8a",
+        "section": "Riscos, limitação de empenho e final de mandato"
+      },
+      "source": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "Art. 42: disponibilidade de caixa e final de mandato"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "fin-art42-caixa-ultimos-quadrimestres"
+      ]
+    },
+    {
+      "id": "contr-habilitacao-inversao",
+      "term": "Habilitação: regra geral e inversão motivada",
+      "definition": "Na Lei 14.133/2021, a habilitação ocorre em regra depois do julgamento; pode anteceder propostas/lances e julgamento por ato motivado, benefícios explicitados e previsão no edital.",
+      "example": "Edital justifica habilitação antecipada por vantagens do procedimento: exceção legal possível.",
+      "confusion": "Habilitação anterior não é obrigatória em todas as modalidades nem liberdade sem motivação.",
+      "topic": "Fases licitatórias",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Fases da licitação: art. 17"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Art. 17, caput e § 1º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "licitacao-habilitacao-regra-inversao"
+      ],
+      "contrast": {
+        "prompt": "A habilitação deve necessariamente vir antes do julgamento?",
+        "answer": "Não. A regra é depois; inversão exige motivação, explicitação dos benefícios e previsão no edital."
+      }
+    },
+    {
+      "id": "contr-adjudicacao-fases",
+      "term": "Adjudicação × homologação na Lei 14.133",
+      "definition": "Homologação aparece como última fase do art. 17; adjudicação é providência do encerramento prevista no art. 71, IV, não uma oitava fase posterior.",
+      "example": "Após recursos, autoridade competente pode adjudicar objeto e homologar licitação nos termos legais.",
+      "confusion": "A expressão 'fase 8 de adjudicação' não corresponde à sequência do art. 17.",
+      "topic": "Encerramento da licitação",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Adjudicação não é uma oitava fase do art. 17"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Arts. 17 e 71, IV"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "licitacao-adjudicacao-encerramento"
+      ]
+    },
+    {
+      "id": "contr-prerrogativas-limites",
+      "term": "Prerrogativas contratuais × poder ilimitado",
+      "definition": "Administração pode fiscalizar, sancionar, modificar ou extinguir contratos unilateralmente nos casos legais, respeitando direitos do contratado e motivação.",
+      "example": "Fiscal identifica descumprimento e propõe sanção motivada: prerrogativa legal sujeita a processo.",
+      "confusion": "Cláusulas econômico-financeiras não podem ser alteradas unilateralmente sem prévia concordância; prerrogativa não é arbítrio.",
+      "topic": "Execução contratual",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Prerrogativas da Administração: art. 104"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Art. 104, especialmente §§ 1º e 2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "contratos-prerrogativas-limitadas"
+      ]
+    },
+    {
+      "id": "contr-acrescimos-25-50",
+      "term": "Alteração quantitativa: 25% × 50%",
+      "definition": "Alterações unilaterais quantitativas têm limite geral de 25% do valor inicial atualizado. Acréscimos em reforma de edifício ou equipamento admitem limite específico de 50%.",
+      "example": "Reforma de edifício admite acréscimo até 50% conforme hipótese legal; supressão unilateral não recebe o mesmo limite especial.",
+      "confusion": "Não aplicar 50% a qualquer obra, fornecimento ou supressão; alteração não pode transfigurar objeto.",
+      "topic": "Alterações contratuais",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Alterações contratuais"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Arts. 124 e 125"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "alteracao-quantitativa-25-50"
+      ],
+      "contrast": {
+        "prompt": "Em reforma de edifício, o limite de 50% também vale para supressão unilateral?",
+        "answer": "Não. A ressalva de 50% é para acréscimos na reforma; a regra geral de 25% se aplica às supressões unilaterais."
+      }
+    },
+    {
+      "id": "contr-alteracao-unilateral-acordo",
+      "term": "Alteração unilateral × por acordo entre partes",
+      "definition": "Alterações de projeto/especificações e quantitativos podem ser unilaterais nas hipóteses legais; outras alterações, como substituição conveniente da garantia, ocorrem por acordo.",
+      "example": "Administração modifica especificações para adequação técnica do objeto: hipótese de alteração unilateral legal.",
+      "confusion": "O fato de toda alteração ser formalizada não significa que qualquer cláusula possa ser modificada sem acordo.",
+      "topic": "Alterações e consensualidade",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Alterações contratuais"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Art. 124, I e II"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "alteracoes-contratuais-unilateral-vs-acordo"
+      ]
+    },
+    {
+      "id": "contr-equilibrio-alteracao",
+      "term": "Alteração unilateral e equilíbrio econômico-financeiro",
+      "definition": "Se alteração unilateral aumentar ou diminuir encargos do contratado, a Administração deve recompor no mesmo termo aditivo o equilíbrio econômico-financeiro inicial.",
+      "example": "Mudança unilateral da especificação eleva custo comprovado de execução: avaliar recomposição legal correspondente.",
+      "confusion": "Poder de alteração unilateral não autoriza impor encargos adicionais sem preservar equilíbrio conforme art. 130.",
+      "topic": "Equilíbrio contratual",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Alterações contratuais"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Arts. 104, § 2º, e 130"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "reequilibrio-alteracao-unilateral"
+      ]
+    },
+    {
+      "id": "contr-extincao-formas",
+      "term": "Extinção unilateral × consensual × arbitral ou judicial",
+      "definition": "A Lei 14.133 prevê extinção contratual unilateral, consensual ou por decisão arbitral/judicial, conforme hipóteses e com motivação e garantias legais.",
+      "example": "Inexecução grave pode levar a decisão unilateral motivada; extinção amigável demanda condições e interesse pertinentes.",
+      "confusion": "A existência de prerrogativa unilateral não elimina contraditório, ampla defesa ou requisitos legais.",
+      "topic": "Extinção contratual",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Extinção do contrato"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Arts. 137 e 138"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "extincao-contratual-hipoteses"
+      ]
+    },
+    {
+      "id": "contr-sancoes-proporcao",
+      "term": "Sanções da Lei 14.133 e proporcionalidade",
+      "definition": "Sanções previstas incluem advertência, multa, impedimento de licitar e contratar e declaração de inidoneidade; seleção depende da infração, gravidade, circunstâncias e rito legal.",
+      "example": "Falha contratual exige identificar hipótese e gravidade antes de definir penalidade, sem impor sanção máxima automaticamente.",
+      "confusion": "Advertência e inidoneidade não são intercambiáveis; há consequências e competências distintas.",
+      "topic": "Responsabilização contratual",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Sanções administrativas"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Art. 156"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "licitacoes-sancoes-quatro-especies"
+      ]
+    },
+    {
+      "id": "contr-singularidade-art74",
+      "term": "Notória especialização × singularidade universal",
+      "definition": "Para serviços técnicos especializados do art. 74, III, inexigibilidade envolve inviabilidade de competição e notória especialização nos termos legais, sem 'objeto singular' como requisito geral textual.",
+      "example": "Serviço técnico predominantemente intelectual pode exigir comprovação de notória especialização; publicidade/divulgação não se enquadra nessa hipótese.",
+      "confusion": "A palavra singularidade pode surgir em outra hipótese, como escolha específica de imóvel, e não deve ser transposta para todos os serviços técnicos.",
+      "topic": "Inexigibilidade e exceções",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Dispensa × inexigibilidade"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Art. 74, III e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "inexigibilidade-nao-singularidade-geral"
+      ]
+    },
+    {
+      "id": "aud-populacao-cobertura",
+      "term": "População-alvo × população referenciada",
+      "definition": "População-alvo é o universo sobre o qual se quer concluir; a referenciada é a abrangida pela base de seleção, que pode omitir eventos do alvo.",
+      "example": "Sistema de pagamentos exclui lançamentos manuais: sortear só o cadastro não alcança todas as operações do exercício.",
+      "confusion": "Aumentar tamanho da amostra numa base incompleta não corrige erro de cobertura.",
+      "topic": "Amostragem de auditoria",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-f248acc45b9541df",
+        "section": "População-alvo, referenciada e amostrada"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 4.3.4.7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "amostragem-cobertura-alvo-base"
+      ]
+    },
+    {
+      "id": "aud-inferencia-probabilistica",
+      "term": "Amostra probabilística × seleção por risco",
+      "definition": "Amostragem probabilística pode sustentar estimativas para população delimitada com incerteza adequada; seleção dirigida por risco prioriza itens críticos, sem inferência estatística automática.",
+      "example": "Examinar 40 maiores pagamentos permite concluir sobre eles, não extrapolar a taxa de erro à população de todos os pagamentos.",
+      "confusion": "Tamanho grande não transforma seleção por julgamento em desenho probabilístico representativo.",
+      "topic": "Inferência e seleção",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-f248acc45b9541df",
+        "section": "Classificação e fronteiras: método probabilístico e não probabilístico"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 4.3.4.7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-amostra-risco-nao-generaliza"
+      ],
+      "contrast": {
+        "prompt": "Amostra por julgamento de 300 itens autoriza afirmar percentual de erro de toda a população?",
+        "answer": "Não. Sem seleção probabilística e desenho apropriado, a conclusão se restringe aos itens examinados."
+      }
+    },
+    {
+      "id": "aud-risco-amostragem-duplo",
+      "term": "Duas direções do risco de amostragem",
+      "definition": "A amostra pode sugerir população adequada quando ela é inadequada ou inadequada quando ela é adequada. Ambas são formas de risco amostral.",
+      "example": "Poucos pagamentos selecionados aparentam regularidade apesar de fraude dispersa no conjunto: conclusão falsamente favorável.",
+      "confusion": "Risco amostral não equivale a falha de cadastro ou de procedimento, que são riscos de outra natureza.",
+      "topic": "Risco de amostragem",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-f248acc45b9541df",
+        "section": "Risco de amostragem: duas direções possíveis"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 4.3.4.7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "risco-amostragem-duas-direcoes"
+      ]
+    },
+    {
+      "id": "aud-extensao-escopo",
+      "term": "Extensão dos testes × mudança do escopo",
+      "definition": "Aumentar extensão significa examinar mais itens dentro da população e limites planejados. Mudar escopo inclui novo período, unidade ou operação anteriormente excluída.",
+      "example": "Passar de 60 a 100 pagamentos de 2025: ampliar extensão; incluir 2024: alterar escopo temporal.",
+      "confusion": "Mudança do recorte exige análise e aprovações do planejamento, não simples incremento da amostra.",
+      "topic": "Planejamento de auditoria",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-f248acc45b9541df",
+        "section": "Extensão dos testes e mudança do escopo"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seções 4.3.2 e 4.3.4.7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-extensao-vs-escopo"
+      ]
+    },
+    {
+      "id": "aud-achado-quatro-elementos",
+      "term": "Achado: critério, condição, causa e efeito",
+      "definition": "Critério descreve padrão esperado; condição é o fato constatado; causa explica desvio; efeito descreve consequência ocorrida ou exposição potencial.",
+      "example": "Norma requer aprovação, processo não tem registro, fluxo é falho, existe risco de pagamento indevido: quatro elementos em ordem.",
+      "confusion": "Recomendação é providência derivada do achado, não quinto elemento da estrutura básica do MOT.",
+      "topic": "Estrutura de achados",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-247a95edc82e4ef3",
+        "section": "Estrutura: critério, condição, causa e efeito"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 5.4.2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "achado-criterio-condicao-causa-efeito"
+      ]
+    },
+    {
+      "id": "aud-causa-raiz-intermediaria",
+      "term": "Causa raiz × causa intermediária",
+      "definition": "Causa raiz busca explicação subjacente e duradoura de um desvio; causa intermediária descreve mecanismo causal parcial, que pode ser o máximo sustentado pelas evidências.",
+      "example": "Falta de assinatura é condição; falha no fluxo de autorização pode ser causa, ainda sujeita a verificação.",
+      "confusion": "Apurar causa não autoriza concluir automaticamente dolo individual ou fraude.",
+      "topic": "Causalidade de achados",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-247a95edc82e4ef3",
+        "section": "Causa, causa raiz e causa intermediária"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seções 5.4.2 e 5.6"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-causa-raiz-nao-fraude"
+      ]
+    },
+    {
+      "id": "aud-efeito-potencial-dano",
+      "term": "Efeito potencial × dano comprovado",
+      "definition": "Achado pode indicar consequência potencial, como exposição a pagamentos indevidos, sem demonstrar prejuízo financeiro efetivamente ocorrido.",
+      "example": "Controle falhou em 15 processos, mas pagamentos foram regulares: há risco de dano, sem comprovação automática de perda.",
+      "confusion": "A afirmação de dano de valor definido exige prova própria; ausência de prejuízo não apaga necessariamente o achado.",
+      "topic": "Efeito do achado",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-247a95edc82e4ef3",
+        "section": "Efeito real versus efeito potencial"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 5.4.2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-risco-dano-nao-prova"
+      ]
+    },
+    {
+      "id": "aud-fraude-indicio-apuracao",
+      "term": "Indício de fraude × fraude demonstrada",
+      "definition": "Suspeita fundada de intencionalidade pode justificar apuração e encaminhamentos; auditor discute indícios com supervisor e não assume automaticamente funções de responsabilização.",
+      "example": "Sinais de notas duplicadas levam a novos testes e avaliação de necessidade de apuração; isso não prova, por si, fraude.",
+      "confusion": "Erro administrativo não é necessariamente fraude; indício não equivale a tipificação penal ou condenação.",
+      "topic": "Apuração de irregularidades",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-247a95edc82e4ef3",
+        "section": "Indícios de fraude e limites da atuação"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, capítulo 2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-indicio-fraude-nao-conclusao"
+      ]
+    },
+    {
+      "id": "aud-sa-na",
+      "term": "Solicitação de Auditoria × Nota de Auditoria",
+      "definition": "SA solicita informações/documentos e pode ser emitida em diversas fases do trabalho. NA registra achado e recomendação para providência imediata durante exames, nas hipóteses previstas no MOT.",
+      "example": "Equipe pede acesso a notas fiscais: SA. Constatado risco urgente, comunica necessidade de providência: NA.",
+      "confusion": "Nota de Auditoria não é solicitação genérica de documentos nem sinônimo de relatório final.",
+      "topic": "Comunicações de auditoria",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-69d32fe8c12b4c09",
+        "section": "Solicitação de Auditoria versus Nota de Auditoria"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seções 5.1.4 e 5.1.5"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-sa-versus-na"
+      ]
+    },
+    {
+      "id": "aud-recomendacao-plano",
+      "term": "Recomendação da UAIG × plano de ação da gestão",
+      "definition": "A auditoria formula recomendações dirigidas a resultados; os gestores da unidade auditada elaboram e executam plano de ação com medidas, responsáveis e prazos.",
+      "example": "Auditoria recomenda controle prévio; gestor propõe implementar validação eletrônica com prazo e responsável.",
+      "confusion": "A auditoria monitora, mas não assume execução gerencial da solução.",
+      "topic": "Governança das recomendações",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-69d32fe8c12b4c09",
+        "section": "Quem faz o quê"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seções 5.5, 5.6 e 7.2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-recomendacao-versus-plano-acao"
+      ]
+    },
+    {
+      "id": "aud-formal-operacional",
+      "term": "Recomendação atendida formalmente × controle efetivo",
+      "definition": "Publicação de norma ou implantação declarada pode demonstrar avanço formal; para avaliar funcionamento operacional podem ser necessários testes de execução real.",
+      "example": "Órgão publica nova regra de conferência, mas pagamentos continuam sem validação: atendimento documental não demonstra correção operacional.",
+      "confusion": "Monitoramento pode envolver testes sem exigir nova auditoria integral em todos os casos.",
+      "topic": "Monitoramento de recomendações",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-77be37cc96764e98",
+        "section": "Atendimento formal versus efetividade operacional"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 7.2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-atendimento-formal-versus-operacional"
+      ]
+    },
+    {
+      "id": "aud-recomendacao-alterada",
+      "term": "Recomendação alterada/cancelada × atendida",
+      "definition": "Recomendação pode ser alterada ou cancelada por mudança fundamentada do contexto, exigindo registro e justificativa; cancelamento não equivale a cumprimento.",
+      "example": "Mudou legislação aplicável e recomendação ficou inviável: decisão documentada de revisão não prova execução anterior.",
+      "confusion": "Quantidade de recomendações encerradas não representa automaticamente a efetividade da gestão.",
+      "topic": "Situações do monitoramento",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-77be37cc96764e98",
+        "section": "Situação de uma recomendação é dinâmica"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 7.2.2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-recomendacao-cancelada-nao-atendida"
+      ]
+    },
+    {
+      "id": "aud-beneficio-liquido",
+      "term": "Benefício financeiro líquido de auditoria",
+      "definition": "Benefício financeiro líquido corresponde ao benefício bruto demonstrado menos custos claros e mensuráveis da adoção da medida pela gestão, quando possível, conforme IN 10/2020.",
+      "example": "Economia comprovada de 180 mil menos implantação de 30 mil: benefício líquido de 150 mil, desde que o nexo causal esteja demonstrado.",
+      "confusion": "Custos do trabalho da própria auditoria não entram como custo da adoção da medida pela gestão.",
+      "topic": "Benefícios de auditoria",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-77be37cc96764e98",
+        "section": "Benefício financeiro líquido"
+      },
+      "source": {
+        "title": "IN SFC nº 10/2020",
+        "url": "https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_10,_de_28_de_abril_de_2020",
+        "locator": "Anexo, item II, alínea c"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-beneficio-bruto-menos-custo-gestao"
+      ]
+    },
+    {
+      "id": "aud-atendimento-beneficio",
+      "term": "Atendimento de recomendação × benefício contabilizável",
+      "definition": "Atendimento indica providência implementada; contabilizar benefício exige demonstrar impacto positivo efetivo e atribuível à atuação da auditoria segundo critérios aplicáveis.",
+      "example": "Controle foi implantado e testado, mas ainda não existe evidência de economia atribuível: atendimento pode existir sem benefício financeiro reconhecido.",
+      "confusion": "Não inventar valor de benefício por mera execução formal da recomendação.",
+      "topic": "Mensuração de benefícios",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-77be37cc96764e98",
+        "section": "Atendimento sem benefício contabilizável"
+      },
+      "source": {
+        "title": "IN SFC nº 10/2020",
+        "url": "https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_10,_de_28_de_abril_de_2020",
+        "locator": "Anexo: requisitos de benefícios"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-atendimento-nao-beneficio-monetario"
+      ]
+    },
+    {
+      "id": "aud-risco-aceito-escalonamento",
+      "term": "Risco aceito pela gestão × independência da auditoria",
+      "definition": "Alta administração pode aceitar formalmente risco ao não implementar recomendação. Se UAIG considerar o nível inaceitável, discute com gestão e, se persistir, leva à instância superior prevista no MOT.",
+      "example": "Gestor aceita risco de controle deficiente; auditor documenta e escalona se considerar intolerável.",
+      "confusion": "Aceitação formal pelo gestor não significa aprovação do auditor, nem transfere gestão de riscos à UAIG.",
+      "topic": "Recomendações e risco",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-77be37cc96764e98",
+        "section": "Recomendações reiteradamente não atendidas e aceitação de risco"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 7.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "aud-risco-aceito-escalonamento"
+      ]
     }
   ]
 }

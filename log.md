@@ -1240,3 +1240,8 @@ Auditado o fluxo e implementado catálogo inicial CGU, checkpoints de formato 2,
 ## 2026-11-04: perfil de banca explícito na retomada CGU
 
 CGU 2026/Cebraspe/C-E explicitado no protocolo, nas instruções e em todos os contextos gerados. Prompts Dataprev/FGV delimitados ao seu concurso. Validadores rejeitam troca para FGV e sessões A-E na CGU, mantendo fontes históricas e dados anteriores.
+
+
+## 2026-11-04: fechamento editorial obrigatório por unidade
+
+O protocolo rápido passa a consolidar os artigos ao fechar cada unidade, antes da próxima unidade da matéria. Sessões intermediárias continuam com gravação única. Recibos editoriais ligam sessões conferidas a notas canônicas; o contexto distingue fechamento didático e editorial e encaminha pendências para consolidacao. Sessão de fechamento sem questões permite conferência posterior sem inventar desempenho. O contrato exige artigo referenciado no mesmo commit quando o recibo declara alteração. Históricos sem recibo permanecem explícitos, sem bloqueio retroativo. Validação em fixtures temporárias cobre pendência, recibo, reabertura, isolamento e ausência de métricas fictícias. Nenhuma sessão real ou artigo teórico foi inventado nesta mudança.

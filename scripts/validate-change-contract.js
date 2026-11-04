@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
+import { editorialClosureErrors } from './editorial-closure-policy.js';
 import path from 'path';
 import { execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
@@ -270,6 +271,12 @@ if (changes.some((c) => c.path === 'data/edital-itens.json')) {
 }
 
 validarPropagacaoIngestao(changes, changedSet);
+const [editorialBase] = resolveDiffRange();
+for (const message of editorialClosureErrors(changes, read, p => {
+  if (!editorialBase) return null;
+  try { return execFileSync('git', ['show', `${editorialBase}:${p}`], {cwd: rootDir, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore']}); }
+  catch { return null; }
+})) fail(message);
 
 const tocouIngestao = changes.some((c) =>
   c.path === 'scripts/ingest-vault.js' ||

@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "auditoria-governamental",
+  "unitId": "u07",
+  "id": "cgu-2026-auditoria-2026-11-04-confronto-u07-procedimentos-b01",
+  "date": "2026-11-04",
+  "startedAt": "2026-11-04T17:06:00-03:00",
+  "concursoId": "cgu-2026",
+  "banca": "Cebraspe",
+  "kind": "microtreino",
+  "trainingMode": "aprendizagem",
+  "status": "concluido",
+  "diagnosis": "Confronto didático C/E da u07 com 8 itens inéditos elaborados após consulta a itens identificados da CGE/AL 2026. Resultado 6/8, com erros seguros Q1 (inspeção documental aplicada a teste de controle) e Q7 (rastreamento documento de origem para registro), e acertos declarados inseguros Q2 (programa de trabalho), Q3 (indagação versus confirmação externa), Q6 (procedimento analítico substantivo com dado não financeiro), Q8 (circularização versus rastreamento). Q4 e Q5 corretas com confiança segura. Não há equivalência estatística comprovada com corpus real; a unidade permanece em estudo pela reincidência de Q1/Q7.",
+  "nextStep": "Reparar por casos novos as fronteiras teste de controle versus substantivo e rastreamento versus vouching, preservando dúvidas sobre programa de trabalho, indagação/confirmacão externa, análise substantiva e circularização. Fazer revisão espaçada após intervalo; só então decidir fechamento didático e conferir as notas, sem declarar benchmark calibrado.",
+  "noveltyException": "Bateria de confronto com oito itens inéditos e diferentes cenários, alguns tematicamente próximos a erros/recuperações do mesmo dia. Comparação com dois itens oficiais apenas orientou mecanismos de cobrança: não há calibração quantitativa ou equivalência estatística.",
+  "learning": {
+    "stage": "aprendizagem",
+    "taughtConcepts": [
+      "Classificar o teste pela finalidade, não pela origem contratual do documento.",
+      "Rastreamento parte de documento de origem em direção ao registro, mesmo quando físico.",
+      "Confirmação externa é técnica própria e difere de indagação e rastreamento."
+    ],
+    "boundaries": [
+      "Teste de controle versus inspeção documental e procedimento substantivo.",
+      "Rastreamento documento→registro versus vouching registro→documento.",
+      "Indagação telefônica versus confirmação formal diretamente de terceiro independente.",
+      "Análise substantiva com dado não financeiro versus análise no planejamento.",
+      "Programa de trabalho previsto versus procedimentos efetivamente executados.",
+      "Recálculo versus entrega física e reexecução versus veracidade de insumos."
+    ],
+    "pending": [
+      "u07: Q1 erro seguro, retestar finalidade de teste de controle em cenário sem autorização documental.",
+      "u07: Q7 erro seguro, retestar rastreamento versus vouching por direção e objetivo em cenário distinto.",
+      "u07: acertos inseguros Q2, Q3, Q6 e Q8: recuperar depois com novos casos e confiança declarada.",
+      "u07: unidade não está encerrada; não promover bateria a benchmark calibrado.",
+      "u02/u03/u04: manter revisões espaçadas de consultoria e impedimento, risco residual, RAINT versus parecer, segunda versus terceira linha e dúvida de recálculo."
+    ],
+    "unitCompleted": false,
+    "next": {
+      "unitId": "u07",
+      "stage": "fronteiras",
+      "objective": "Recuperar erros seguros de classificação de testes e tracing, reavaliar acertos inseguros, depois fechar didaticamente e consolidar editorialmente a unidade.",
+      "noteRef": "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria",
+      "sourceIds": [
+        "mot",
+        "referencial"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "number": 1,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Finalidade do teste versus documentos inspecionados",
+      "questionType": "application",
+      "conceptId": "inspecao-documental-para-testar-operacao-do-controle",
+      "mechanism": "teste-controle-consulta-cadastro-fornecedores",
+      "distractorMechanism": "transposicao-tecnica-documental-para-finalidade-substantiva",
+      "statement": "Em auditoria de contratos, a equipe inspeciona registros eletrônicos de consultas ao cadastro de fornecedores impedidos, realizadas antes de cada contratação. Como os documentos analisados pertencem a processos de contratação, o procedimento tem natureza substantiva, ainda que sua finalidade seja verificar a operação do controle.",
+      "explanation": "Errado. O objetivo de verificar execução da consulta obrigatória caracteriza teste de controle, mesmo em documentos contratuais.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "erro_recorrente"
+      ],
+      "annulled": false,
+      "errorType": "confusao_conceitual",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Teste de controle: desenho versus efetividade operacional"
+      ],
+      "retrievalOf": [
+        "cgu-2026-auditoria-2026-11-04-fronteiras-u07-revisao-dirigida-q3"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-04-fronteiras-u07-revisao-dirigida-q3"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação temática intencional em cenário diferente, destacando a fronteira entre técnica, finalidade e alcance da evidência."
+      }
+    },
+    {
+      "number": 2,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Programa de trabalho e posterior execução",
+      "questionType": "application",
+      "conceptId": "programa-de-trabalho-planejamento-versus-execucao",
+      "mechanism": "prever-cruzamento-notas-e-recebimento",
+      "distractorMechanism": "confundir-previsao-execucao",
+      "statement": "O programa de trabalho de uma auditoria prevê cruzar notas fiscais com registros de recebimento, especificando a fonte de dados e os critérios para selecionar operações. Essa previsão integra o planejamento dos procedimentos, embora sua execução ocorra posteriormente.",
+      "explanation": "Certo. O programa de trabalho define exames, fontes e critérios; a execução produz os resultados e evidências posteriormente.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria#Matriz, programa e supervisão"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      }
+    },
+    {
+      "number": 3,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Declarações orais versus confirmação externa formal",
+      "questionType": "application",
+      "conceptId": "indagacao-versus-confirmacao-externa",
+      "mechanism": "informacao-telefonica-fornecedores",
+      "distractorMechanism": "fonte-externa-nao-basta-para-confirmacao",
+      "statement": "Três fornecedores informaram por telefone que os preços pagos pela administração são compatíveis com os de mercado. Por terem sido prestadas por agentes externos à entidade auditada, essas declarações constituem confirmação externa suficiente, independentemente de outros exames.",
+      "explanation": "Errado. Declarações telefônicas são informações obtidas por indagação; não equivalem automaticamente à confirmação formal independente nem dispensam corroboração.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Indagação, confirmação externa e procedimentos analíticos"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      }
+    },
+    {
+      "number": 4,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Reexecução e limite da evidência",
+      "questionType": "application",
+      "conceptId": "reexecucao-procedimento-versus-validade-insumos",
+      "mechanism": "reexecutar-triagem-e-comparar-resultados",
+      "distractorMechanism": "confundir-reexecucao-com-validade-insumos",
+      "statement": "Um auditor aplica independentemente as regras de triagem utilizadas pela unidade auditada a uma seleção de inscrições e encontra resultados diferentes dos registrados pelos servidores. O procedimento pode fornecer evidência sobre a operação do controle, mesmo sem demonstrar, por si, a veracidade dos dados cadastrais.",
+      "explanation": "Certo. Repetir independentemente a triagem é reexecução. A divergência pode evidenciar operação falha sem comprovar a autenticidade de todos os dados cadastrais.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Técnicas de auditoria e os limites de cada uma"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [],
+        "intentional": true,
+        "transformation": "Recuperação temática intencional em cenário diferente, destacando a fronteira entre técnica, finalidade e alcance da evidência."
+      }
+    },
+    {
+      "number": 5,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Recálculo e comprovação material da entrega",
+      "questionType": "application",
+      "conceptId": "recalculo-versus-validade-de-dados",
+      "mechanism": "aritmetica-notas-nao-prova-quantidade-entregue",
+      "distractorMechanism": "extrapolar-acerto-aritmetico-para-entrega",
+      "statement": "Ao conferir a multiplicação das quantidades pelos preços unitários constantes de notas fiscais, o auditor confirma a exatidão aritmética dos valores. Esse resultado não comprova, isoladamente, que as quantidades de mercadorias indicadas nos documentos tenham sido efetivamente entregues.",
+      "explanation": "Certo. Recálculo confirma aritmética; a quantidade física efetivamente entregue depende de evidências adicionais.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Três fronteiras examinadas em prova"
+      ],
+      "retrievalOf": [
+        "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q4"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q4"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação temática intencional em cenário diferente, destacando a fronteira entre técnica, finalidade e alcance da evidência."
+      }
+    },
+    {
+      "number": 6,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Dados não financeiros e finalidade substantiva",
+      "questionType": "application",
+      "conceptId": "procedimento-analitico-substantivo",
+      "mechanism": "cruzar-refeicoes-e-valores-pagos",
+      "distractorMechanism": "rotular-analise-com-dado-nao-financeiro-como-planejamento",
+      "statement": "Uma equipe compara o número de refeições escolares servidas com os valores pagos aos fornecedores para avaliar a adequação da despesa registrada. Por empregar dados não financeiros, essa comparação constitui procedimento de planejamento, mesmo quando utilizada diretamente para obter evidência sobre o montante pago.",
+      "explanation": "Errado. Comparação com quantidades de refeições para obter evidência sobre despesas pode ser procedimento analítico substantivo; dado não financeiro não obriga classificá-lo como planejamento.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Procedimento substantivo: detalhes e análise"
+      ],
+      "retrievalOf": [
+        "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q3"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q3"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação temática intencional em cenário diferente, destacando a fronteira entre técnica, finalidade e alcance da evidência."
+      }
+    },
+    {
+      "number": 7,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Direção da verificação: baixa patrimonial ao lançamento",
+      "questionType": "classification",
+      "conceptId": "rastreamento-integridade",
+      "mechanism": "baixa-patrimonial-documentos-para-registros",
+      "distractorMechanism": "trocar-tracing-e-vouching-pela-origem-fisica",
+      "statement": "O auditor seleciona documentos de baixa patrimonial autorizada e procura os respectivos lançamentos contábeis. O percurso adotado pode oferecer evidência sobre a integridade dos registros, ainda que os documentos de origem sejam físicos.",
+      "explanation": "Certo. Documento de origem para registro é rastreamento, voltado à integridade. A materialidade física da origem não altera a direção.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "erro_recorrente"
+      ],
+      "annulled": false,
+      "errorType": "confusao_conceitual",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Três fronteiras examinadas em prova"
+      ],
+      "retrievalOf": [
+        "cgu-2026-auditoria-2026-11-04-fronteiras-u07-revisao-dirigida-q1",
+        "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07-q18"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-04-fronteiras-u07-revisao-dirigida-q1",
+          "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07-q18"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação temática intencional em cenário diferente, destacando a fronteira entre técnica, finalidade e alcance da evidência."
+      }
+    },
+    {
+      "number": 8,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Circularização e rastreamento",
+      "questionType": "application",
+      "conceptId": "confirmacao-externa-versus-rastreamento",
+      "mechanism": "confirmacao-formal-direta-saldo-fornecedor",
+      "distractorMechanism": "confundir-independencia-fonte-com-direcao-tracing",
+      "statement": "Em circularização, a equipe recebe diretamente do fornecedor a confirmação de um saldo em aberto. Por partir de uma fonte independente para conferir informação contábil, esse exame caracteriza rastreamento de documentos de origem para registros.",
+      "explanation": "Errado. Receber resposta formal diretamente de terceiro independente é confirmação externa. Rastreamento requer partir do documento de origem e procurar o registro.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Indagação, confirmação externa e procedimentos analíticos"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      }
+    }
+  ]
+}

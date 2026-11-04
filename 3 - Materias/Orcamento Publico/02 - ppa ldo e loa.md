@@ -167,6 +167,26 @@ Um governo quer abrir dez centros de atendimento ao longo de três exercícios. 
 
 Uma empresa possui 30% de participação da União, sem maioria do capital votante. A mera participação minoritária **não satisfaz** o critério do orçamento de investimento do art. 165, § 5º, II. Outros critérios orçamentários e institucionais podem afetar sua relação com o setor público, mas o inciso constitucional tem objeto próprio.
 
+### Caso real: Correios, serviço universal e risco de dependência (2024 a 2026)
+
+A **Empresa Brasileira de Correios e Telégrafos (ECT)** é uma **empresa pública federal controlada integralmente pela União**. No **Relatório Agregado das Empresas Estatais Federais 2025 (ano-base 2024)**, o Ministério da Gestão a classificou como **não dependente**. Em **2 de junho de 2026**, o Tribunal de Contas da União (TCU) também descreveu a ECT como empresa estatal independente, mas alertou para dificuldades financeiras e **risco de passar a depender de aportes do Tesouro**.
+
+O caso envolve a obrigação de **universalização postal**: atender também localidades e grupos cujo serviço pode ser deficitário. A manutenção do serviço universal é financiada, entre outras fontes, por **subsídio cruzado**, quando receitas de atividades concorrenciais ou mais rentáveis ajudam a cobrir os custos de atividades deficitárias **dentro da própria empresa**. Em fiscalização de 2026, o TCU apontou desequilíbrio econômico-financeiro e recomendou avaliar mecanismos mais estáveis de financiamento da política.
+
+**O que separar no caso:**
+
+- **Controle societário:** os Correios pertencem à União, o que **não define** sua dependência financeira.
+- **Subsídio cruzado:** uma atividade financia outra com receitas da própria empresa; **não é, por si, transferência do orçamento da União**.
+- **Prejuízo e dificuldades de liquidez:** podem levar à busca de financiamento, mas **não enquadram automaticamente** a empresa como dependente.
+- **Empréstimo com garantia da União:** a garantia cria exposição a risco fiscal, mas **não é, por si, aporte orçamentário para pessoal ou custeio**.
+- **Transferência do controlador para pagar pessoal, custeio ou despesas de capital:** pode preencher os requisitos de **empresa estatal dependente** do art. 2º, III, da LRF, observada a exceção referente ao aumento de participação acionária e as regras aplicáveis.
+
+**Inferência condicionada, não fato ocorrido:** caso os Correios passassem a receber aportes do Tesouro para sustentar despesas correntes nas condições da LRF, seria necessário examinar seu enquadramento como estatal dependente. O TCU **apontou risco de mudança**, não declarou que ela já havia acontecido em junho de 2026. A situação deve ser verificada novamente se a questão exigir a classificação em data posterior.
+
+**Conexão com avaliação de políticas públicas:** a universalização postal pode atender a uma finalidade social enquanto o modelo de financiamento perde sustentabilidade. Avaliar **cobertura/equidade**, **eficiência operacional**, **custo de universalização** e **risco fiscal** requer indicadores diferentes. A existência de prejuízo não prova, isoladamente, má gestão ou inefetividade social.
+
+**Fontes do caso (com data):** [Ministério da Gestão, relatório agregado 2025, p. 35, ano-base 2024](https://www.gov.br/gestao/pt-br/assuntos/estatais/copy_of_transparencia/RelatrioEstataisFINAL2808WEB.pdf); [TCU, acompanhamento da reestruturação, 02/06/2026](https://portal.tcu.gov.br/imprensa/noticias/tribunal-de-contas-da-uniao-analisa-reestruturacao-dos-correios); [TCU, auditoria sobre universalização, 22/07/2026](https://portal.tcu.gov.br/imprensa/noticias/tcu-propoe-medidas-para-garantir-sustentabilidade-dos-servicos-postais); [TCU, sumário da política postal, 21/10/2026](https://portal.tcu.gov.br/imprensa/noticias/sumario-executivo-traz-analise-sobre-universalizacao-dos-servicos-postais).
+
 ## Questões comentadas: treino didático C/E
 
 **Item 1.** O plano plurianual federal em vigor durante os três últimos exercícios de um mandato presidencial alcança também o primeiro exercício financeiro do mandato seguinte. **Gabarito: Certo.** É a regra federal de transição do ADCT, art. 35, § 2º, I. O possível erro nasce da associação automática entre os quatro anos do PPA e os quatro anos de um mandato.

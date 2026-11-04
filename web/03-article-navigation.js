@@ -37,7 +37,7 @@ async function carregarConteudoCompletoArtigo(artigo) {
 
     if (!artigo.path) throw new Error("Caminho público do artigo não encontrado");
 
-    const resposta = await fetch(artigo.path);
+    const resposta = await fetch(artigo.path, { cache: "no-cache" });
     if (!resposta.ok) {
         throw new Error(`Falha ao carregar artigo (${resposta.status})`);
     }

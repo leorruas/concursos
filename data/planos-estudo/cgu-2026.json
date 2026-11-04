@@ -149,6 +149,21 @@
       "label": "Lei Complementar nº 210/2024: emendas parlamentares",
       "url": "https://legis.senado.gov.br/norma/39857130/publicacao/39857348",
       "scope": "Emendas parlamentares na LOA federal, com atos e decisões posteriores a conferir."
+    },
+    "decreto1171": {
+      "label": "Decreto nº 1.171/1994: código de ética do Executivo Federal",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm",
+      "scope": "Regras deontológicas, deveres e vedações; verificar texto vigente"
+    },
+    "lei8112": {
+      "label": "Lei nº 8.112/1990, deveres e proibições",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm",
+      "scope": "Arts. 116 e 117; verificar condições e regimes aplicáveis"
+    },
+    "codigo-cgu": {
+      "label": "Código de Conduta da CGU e Comissão de Ética",
+      "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica",
+      "scope": "Portaria CGU nº 2.425/2009: princípios, destinatários e deveres"
     }
   },
   "subjects": [
@@ -912,11 +927,15 @@
             "P1.3.1"
           ],
           "noteRefs": [
+            "3 - Materias/Etica Publica/01 - etica moralidade e interesse publico",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
             "3 - Materias/Comunicacao/11 - etica em comunicacao"
           ],
           "requires": [],
           "sourceIds": [
+            "edital",
+            "constituicao",
+            "decreto1171",
             "conflitos",
             "processo-administrativo"
           ],
@@ -929,6 +948,7 @@
             "P1.3.2"
           ],
           "noteRefs": [
+            "3 - Materias/Etica Publica/02 - deveres e conduta profissional",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
             "3 - Materias/Comunicacao/11 - etica em comunicacao"
           ],
@@ -936,6 +956,9 @@
             "up1-3-1"
           ],
           "sourceIds": [
+            "edital",
+            "lei8112",
+            "codigo-cgu",
             "conflitos",
             "processo-administrativo"
           ],

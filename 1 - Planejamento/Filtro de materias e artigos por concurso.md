@@ -103,3 +103,48 @@ Esta primeira associação é um **mapa editorial de navegação**, não uma dec
 - Não há vazamento de dados de estudo ou arquivos privados; a busca geral continua disponível e os testes mais o Pages confirmam o comportamento implantado.
 
 **Estado atual:** catálogo público, grade e artigos filtrados, seletor nas duas superfícies, URLs contextuais, biblioteca geral e busca contextual implementados. A pertinência de cada artigo segue o catálogo editorial, não inferência automática por palavras do título.
+
+## Evolução futura: artigos independentes das pastas de matéria
+
+**Registrado em 04/11/2026. Estado: planejado para execução posterior.** Esta seção complementa as fases já implementadas. O registro deste plano não autoriza uma migração física imediata nem altera os artigos, o filtro ou os registros de estudo atuais.
+
+### Resultado desejado
+
+A indicação de matéria deve vir do filtro e do percurso do concurso selecionado. Cada artigo tem uma identidade própria e pode integrar várias matérias, inclusive no mesmo edital, sem ser duplicado. As pastas exibidas na interface passam a representar agrupamentos virtuais do programa; o local físico de armazenamento não define pertencimento, ordem, número ou banca.
+
+Exemplo: um artigo sobre controle da Administração pode aparecer em Direito Administrativo na Dataprev e em Estado e Democracia ou Auditoria na CGU, conforme pertinência efetivamente conferida. O texto canônico continua único. Na CGU, a navegação e os exercícios seguem Cebraspe C/E; na Dataprev, FGV. A existência do artigo não marca nenhum desses percursos como estudado.
+
+O breadcrumb deve mostrar o caminho de leitura escolhido: concurso → matéria de origem → artigo. A matéria de origem vem da navegação, como no parâmetro `origem` já existente; nunca deve ser deduzida exclusivamente da pasta física. Um acesso direto sem origem válida apresenta o artigo e seus vínculos disponíveis, sem inventar uma matéria principal. Na biblioteca geral, oferecer pesquisa e agrupamentos temáticos independentes dos editais, preservando acesso ao conteúdo público completo.
+
+### O que já existe e o que ainda limita o reaproveitamento
+
+O catálogo `data/catalogo-materias-por-concurso.json` já expressa vínculos explícitos concurso/matéria/artigos. As listas filtradas, a biblioteca geral, a busca contextual e as rotas com origem já foram implementadas. O reaproveitamento entre matérias, portanto, já é possível sem mover arquivos.
+
+A dívida restante é o acoplamento a `sourcePath`, `categoria` e caminhos de hubs: manifesto, busca, URLs, wikilinks, referências de questões, planos e contextos ainda dependem desses endereços. Achatar as pastas agora deslocaria o problema para links e histórico. Primeiro desacoplar identidade, armazenamento e apresentação; decidir a organização física depois do piloto.
+
+### Modelo e fonte de verdade
+
+- **Artigo:** um `articleId` estável e único, sem número de unidade, nome de concurso ou pasta no identificador. Guardar a identidade no frontmatter da própria nota. Preservar título, fontes, datas e âncoras de seção; o caminho continua como endereço físico durante a transição.
+- **Percurso:** o catálogo existente continua como fonte única de pertencimento, ordem, rótulo contextual e relação com o edital. Evoluir seu contrato para referências por `articleId`, inclusive hubs quando forem notas, em vez de criar outro mapa concorrente. Um mesmo ID pode participar de vários pares concurso/matéria, com papel de conteúdo principal ou apoio quando necessário.
+- **Resolução:** o build gera um índice `articleId → sourcePath atual`, aliases legados e metadados públicos a partir das notas. Esse índice é derivado, sem manutenção manual. Durante a transição, aceitar caminhos antigos com resolução validada para a identidade canônica; estabelecer quando o formato antigo deixará de ser emitido.
+- **Estudo:** sessões e desempenho continuam separados por concurso e unidade. Não recalcular exposição ou domínio a partir dos vínculos editoriais. Novos registros passam a poder citar ID e seção; registros históricos preservam seus caminhos e são resolvidos por compatibilidade, sem reescrever respostas ou inventar sessões.
+- **Conteúdo:** teoria comum é compartilhada; diferenças de escopo, vigência normativa e cobrança devem ficar explícitas. Não unificar artigos só porque os títulos se parecem, nem multiplicar uma mesma teoria por banca. Recortes específicos podem ser seções ou notas próprias quando houver autonomia conceitual.
+
+Não registrar as mesmas associações de concurso simultaneamente no frontmatter e no catálogo. A nota fornece identidade e conteúdo; o catálogo fornece sua participação nos percursos. Contagens e listas são geradas.
+
+### Implementação posterior por etapas
+
+1. **Inventário de dependências e piloto sem movimentação.** Levantar uso de pastas em `scripts/build-site.js`, `scripts/contest-catalog.js`, componentes `web/`, manifesto, busca, hubs, wikilinks, referências de sessões/ledger, catálogo curricular e contextos. Escolher um artigo já compartilhado entre matérias para testar a resolução. Separar agrupamentos de navegação de permissões de publicação: desvincular uma nota de um concurso não pode expô-la ou apagá-la da biblioteca.
+2. **Identidade e compatibilidade.** Introduzir IDs únicos nas notas do piloto, gerar o índice de resolução e aceitar referências antigas. Planejar URLs estáveis por identidade, mantendo rotas anteriores e fragmentos de seção funcionando. Tratar colisões de nomes e IDs como erros explícitos; mudanças futuras de título não podem trocar a identidade.
+3. **Catálogo e interface por vínculo.** Versionar o contrato existente e migrar os vínculos do piloto para IDs. Resolver artigos sem exigir que pertençam à pasta da matéria selecionada. Ajustar lista, breadcrumb, anterior/próximo, busca, contagens, origem e restauração do histórico. Dentro de um percurso, cada artigo aparece uma vez; o mesmo artigo pode aparecer legitimamente em outros percursos.
+4. **Integração com a continuidade de estudo.** Permitir referências por ID/seção no plano e nos novos checkpoints, mantendo resolução das referências antigas. Gerar contextos com endereço legível da nota e ponto de retomada. O fechamento editorial continua refinando o artigo canônico correspondente, independentemente da matéria em que foi estudado. Preservar a separação entre recibo editorial, conclusão didática e retenção.
+5. **Expansão gradual e decisão sobre armazenamento.** Após validar o piloto, ampliar a identidade estável para as demais notas. A hipótese inicial é manter os arquivos onde estão enquanto as pastas deixam de determinar a navegação. Caso uma biblioteca física neutra ainda seja útil, elaborar mapa de movimentos, aliases, atualização de links/âncoras e reversão antes de mover lotes. Evitar nomes apenas numerados e preservar legibilidade no Obsidian. Não misturar essa migração com revisão teórica em massa.
+6. **Publicação e retirada das dependências antigas.** Validar cada lote localmente e no GitHub, publicar em commit atômico e conferir site ao vivo. Retirar inferências por pasta somente quando todas as superfícies aplicáveis usarem identidade ou vínculo explícito. Documentar compatibilidade mantida e reversão de cada lote; não apagar aliases enquanto links históricos dependerem deles.
+
+### Critérios de aceite e riscos a verificar
+
+Um único artigo deve abrir, com o mesmo conteúdo e identidade, a partir de duas matérias e de dois concursos; breadcrumb, ordem e retorno seguem o percurso de origem. Trocar o filtro altera os vínculos exibidos sem mover ou copiar a nota. Mudar título ou local de um artigo no piloto preserva URLs antigas, wikilinks, seções e referências históricas. Busca contextual e geral encontram o conteúdo nos escopos corretos, sem duplicação por alias. Matérias sem artigo e artigos fora de um edital continuam com estados explícitos.
+
+Testar também origem inválida, múltiplos vínculos no mesmo concurso, colisão de nomes, ID ausente/duplicado, seção renomeada, notas privadas, contagens, anterior/próximo e navegação pelo histórico. Resultados e ponto de retomada de CGU/Dataprev/Câmara devem permanecer idênticos após a migração, salvo mudança editorial de vínculo expressamente documentada. Os testes de catálogo, busca, rotas, continuidade, privacidade, build e verificação do Pages continuam obrigatórios.
+
+**Decisão adiada:** a pasta física final. O resultado necessário é reaproveitamento e navegação por edital. A necessidade de mover todos os arquivos deve ser demonstrada após o desacoplamento, pois o filtro por si só já permite compartilhar teoria. Próxima ação de implementação: inventariar dependências e executar o piloto sem movimentação física.

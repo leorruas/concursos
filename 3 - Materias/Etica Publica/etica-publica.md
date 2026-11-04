@@ -16,17 +16,17 @@ Fundamentos de ética, deveres profissionais, conflitos de interesses, assédio 
 
 ## Percurso e links de recuperação
 
-Há **seis artigos planejados para cinco unidades**; o [[1 - Planejamento/Etica Publica - Plano de artigos|plano editorial]] registra a sequência. Os quatro primeiros estão publicados, porém **publicação não equivale a aula ou domínio comprovado**.
+Há **seis artigos publicados para cinco unidades**; o [[1 - Planejamento/Etica Publica - Plano de artigos|plano editorial]] reúne a sequência. **A publicação não equivale a exposição, desempenho ou domínio comprovado.**
 
 | Unidade | Material e fronteira | Estado editorial |
 | :--- | :--- | :--- |
 | P1.3.1 | [[3 - Materias/Etica Publica/01 - etica moralidade e interesse publico|01. Ética, moralidade e interesse público]]: ética × moral × moralidade jurídica | Publicado, estudo pendente |
 | P1.3.2 | [[3 - Materias/Etica Publica/02 - deveres e conduta profissional|02. Deveres e conduta profissional]]: hierarquia × ordem manifestamente ilegal; sigilo × acesso | Publicado, estudo pendente |
 | P1.3.3 | [[3 - Materias/Etica Publica/03 - conflito de interesses lei 12813|03. Conflito de interesses]] e [[3 - Materias/Etica Publica/04 - impedimento e suspeicao processo administrativo|04. Impedimento e suspeição]]: risco privado × impedimento processual × suspeição por relações pessoais | **Publicados, estudo pendente** |
-| P1.3.4 | Assédio e discriminação (artigo 05) | Artigo pendente |
-| P1.3.5 | Integridade institucional e comissões de ética (artigo 06) | Artigo pendente |
+| P1.3.4 | [[3 - Materias/Etica Publica/05 - assedio discriminacao e relacoes de trabalho|05. Assédio, discriminação e relações de trabalho]]: cobrança × abuso; acolhimento × apuração | **Publicado, estudo pendente** |
+| P1.3.5 | [[3 - Materias/Etica Publica/06 - integridade institucional e comissoes de etica|06. Integridade institucional e comissões de ética]]: CEP × comissão local; Sistema de Gestão da Ética × Sitai; programa × plano | **Publicado, estudo pendente** |
 
-**Recuperação por dúvida:** “qual critério ético usar?” → 01; “que dever recai sobre o servidor?” → 02; “há risco de interesse privado?” → [[3 - Materias/Etica Publica/03 - conflito de interesses lei 12813|03]]; “pode atuar no processo?” → [[3 - Materias/Etica Publica/04 - impedimento e suspeicao processo administrativo|04]]; “assédio ou discriminação?” → 05 futuro; “qual órgão previne ou apura?” → 06 futuro.
+**Recuperação por dúvida:** “qual critério ético usar?” → 01; “que dever recai sobre o servidor?” → 02; “há risco de interesse privado?” → [[3 - Materias/Etica Publica/03 - conflito de interesses lei 12813|03]]; “pode atuar no processo?” → [[3 - Materias/Etica Publica/04 - impedimento e suspeicao processo administrativo|04]]; “assédio ou discriminação?” → [[3 - Materias/Etica Publica/05 - assedio discriminacao e relacoes de trabalho|05]]; “qual órgão previne ou apura?” → [[3 - Materias/Etica Publica/06 - integridade institucional e comissoes de etica|06]].
 
 ## Fronteiras prioritárias
 

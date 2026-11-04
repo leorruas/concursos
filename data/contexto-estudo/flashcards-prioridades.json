@@ -1,0 +1,425 @@
+{
+  "version": 1,
+  "type": "study-errors",
+  "cut": "2026-11-04",
+  "entries": [
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "aro",
+      "priority": 300,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "aro-extraorcamentaria-vs-credito-capital"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "institucional",
+      "priority": 300,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "classificacao-institucional-vs-programatica"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "alienacao",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "receita-capital-alienacao-vs-destinacao"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "elemento",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "gnd-vs-elemento-vs-fonte"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "gnd",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "projeto-acao-vs-gnd-investimento",
+        "gnd-vs-elemento-vs-fonte"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "orcamento-bruto",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "orcamento-bruto-registro-integral"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "ppa",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "ppa-regionalizacao-e-escopo"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "projeto",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "projeto-acao-vs-gnd-investimento"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "receitas-capital",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "receita-capital-alienacao-vs-destinacao"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "universalidade",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "universalidade-abrangencia-sem-limite-valor"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "consultoria-previa-e-objetividade",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 2,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "consultoria-previa-objetividade"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "politicas-publicas",
+      "cardId": "contrafactual",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "resultado-observado-versus-causalidade"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "dotacao",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "dotacao-vs-disponibilidade-financeira"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "especial",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "exclusividade-suplementar-vs-especial"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "exclusividade",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "exclusividade-suplementar-vs-especial"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "operacao-controle",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "inspecao-documental-para-testar-operacao-do-controle"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "programacao-financeira",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "dotacao-vs-disponibilidade-financeira"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "suplementar",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "exclusividade-suplementar-vs-especial"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "examId": "cgu-2026",
+      "subjectId": "politicas-publicas",
+      "conceptId": "avaliabilidade-modelo-logico-reconstrucao",
+      "status": "pendente",
+      "priority": 300,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "escopo-e-limites-nao-criterio",
+      "status": "pendente",
+      "priority": 300,
+      "recurrences": 1,
+      "dueOn": "2026-11-04"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "politica-acesso-depende-analise-juridica-aprovacao-alta-administracao",
+      "status": "pendente",
+      "priority": 300,
+      "recurrences": 1,
+      "dueOn": "2026-11-04"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "procedimento-analitico-substantivo",
+      "status": "pendente",
+      "priority": 300,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "risco-residual-independe-de-eficacia-comprovada",
+      "status": "pendente",
+      "priority": 300,
+      "recurrences": 1,
+      "dueOn": "2026-10-31"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "transferencia-de-gestao-para-auditoria",
+      "status": "pendente",
+      "priority": 300,
+      "recurrences": 1,
+      "dueOn": "2026-10-31"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "raint-versus-parecer-contas",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "recalculo-versus-validade-de-dados",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "conceptId": "receita-originaria-doutrina-vs-patrimonial",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "segunda-versus-terceira-linha",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "supervisao-tecnica-versus-interferencia",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-10-31"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "conceptId": "ciclo-orcamentario-fase-aprovacao",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "conflito-interesse-sem-ato-ilicito",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "consultoria-programa-varia-forma-e-conteudo",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "conceptId": "esfera-vs-natureza-investimento",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "conceptId": "estatais-dependentes-esferas",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "conceptId": "ldo-risco-judicial",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "observacao-exclusiva-dois-auditores",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "conceptId": "prazos-envio-ldo-loa",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "relatorio-anterior-arquivo-permanente",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "risco-residual-controle",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 2,
+      "dueOn": "2026-11-05"
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "conceptId": "vouching-ocorrencia-versus-integridade",
+      "status": "recuperacao-imediata",
+      "priority": 100,
+      "recurrences": 1,
+      "dueOn": "2026-11-05"
+    }
+  ],
+  "policy": "Erros de questões orientam prioridade. Autoavaliação de flashcard não altera recuperação/retencão no estudo. Importar nova versão substitui apenas as prioridades."
+}

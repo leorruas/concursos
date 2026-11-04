@@ -1265,3 +1265,8 @@ Interface compactada após feedback do usuário: painel inicial com hierarquia e
 ## 2026-11-04: entrada dos flashcards integrada à home
 
 Link removido do subtítulo principal e substituído por acesso próprio na área de ferramentas de estudo, com descrição do vocabulário CGU e ação de começar rodada. Atalho da navegação superior preservado.
+
+
+## 2026-11-04: flashcards orientados pelos erros das questões
+
+Consolidação gera perfil de prioridades a partir de todas as páginas de lacunas, com vínculos conceituais explícitos, fila editorial de conceitos sem cartão e separação por concurso/matéria. O arquivo pessoal não entra no site público. Importação local orienta novas rodadas, preserva avaliações e não resolve lacunas do estudo. Acrescentado cartão de consultoria prévia/objetividade para um erro recorrente registrado. Testes verificam recorrência, recuperação imediata, retenção, falha posterior, isolamento e compatibilidade dos backups.

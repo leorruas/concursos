@@ -40,6 +40,8 @@ A LDO contém **Anexo de Metas Fiscais** e **Anexo de Riscos Fiscais**, conforme
 
 A LRF, art. 2º, II e III, também distingue a **empresa controlada**, definida pela maioria do capital social votante, da **empresa estatal dependente**, definida pelo recebimento de recursos do controlador para determinadas despesas, com exceção legal relativa a aumento de participação acionária. Essa distinção afeta a abrangência do orçamento fiscal e da seguridade e evita confundir **controle societário** com **dependência financeira**. Para as condições legais e exemplos, consulte [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Empresa controlada × estatal dependente × estatal não dependente|estatais dependentes e não dependentes]].
 
+**Caso recuperável:** [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Caso real: Correios, serviço universal e risco de dependência (2024 a 2026)|Correios: universalização, subsídio cruzado, empréstimo garantido e risco de dependência]]. O caso permite separar **classificação jurídico-fiscal**, **resultado da empresa** e **custo de uma política pública**, sem supor que prejuízo ou subsídio cruzado transformem automaticamente a empresa em dependente. A condição da ECT foi registrada pelas fontes de **2024 a 2026**, não devendo ser projetada sem verificação para outros exercícios.
+
 Ver [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] para o detalhamento constitucional e [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|programação e limitação de empenho]] para o art. 9º da LRF.
 
 ## Receita Corrente Líquida: denominador fiscal

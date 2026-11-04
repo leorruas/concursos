@@ -228,11 +228,29 @@ Uma receita de aluguel público é **corrente patrimonial** e pode ser chamada d
 
 ## Questões comentadas: treino didático C/E
 
-**Item 1.** A subfunção orçamentária deve ser necessariamente vinculada à função à qual se associa originalmente, pois a classificação funcional não admite combinações matriciais. **Gabarito: Errado.** A classificação permite matricialidade, sujeita às regras próprias.
+Responda aos itens antes de consultar o gabarito ao final deste bloco. Os cenários são hipotéticos, sem códigos oficiais de programa ou ação.
 
-**Item 2.** A fonte/destinação registra a relação entre recursos arrecadados e regras de sua aplicação, enquanto a natureza identifica características do ingresso. **Gabarito: Certo.** As categorias respondem a perguntas diferentes, e a fonte acompanha também a despesa.
+**Item 1.** A subfunção orçamentária deve ser necessariamente vinculada à função à qual se associa originalmente, pois a classificação funcional não admite combinações matriciais.
 
-**Item 3.** Uma despesa do GND Investimentos já tem, pela natureza, sua função e sua unidade orçamentária automaticamente definidas. **Gabarito: Errado.** Função e unidade derivam de classificações **funcional** e **institucional**, respectivamente.
+**Item 2.** A fonte/destinação registra a relação entre recursos arrecadados e regras de sua aplicação, enquanto a natureza identifica características do ingresso.
+
+**Item 3.** Uma despesa do GND Investimentos já tem, pela natureza, sua função e sua unidade orçamentária automaticamente definidas.
+
+**Item 4.** A compra de equipamentos para laboratório de uma universidade federal deve integrar o orçamento de investimento das estatais, pois seu GND é Investimentos.
+
+**Item 5.** Na programação de vacinação, o ministério e a unidade orçamentária pertencem à classificação institucional, enquanto o programa e a ação pertencem à programática.
+
+### Gabarito comentado
+
+**1. Errado.** A classificação funcional admite matricialidade entre função e subfunção, respeitadas as regras pertinentes.
+
+**2. Certo.** Fonte/destinação e natureza são classificadores distintos. A fonte vincula ingressos às regras de aplicação e também acompanha a despesa.
+
+**3. Errado.** GND é nível da natureza da despesa; função e unidade são identificadas por classificações funcional e institucional.
+
+**4. Errado.** O GND Investimentos é um grupo econômico da natureza da despesa. Uma universidade federal, em regra, integra o orçamento fiscal, mesmo ao comprar equipamentos ou construir um laboratório.
+
+**5. Certo.** Institucional responde por órgão/unidade; programática, por programa/ação. O exemplo não presume qualquer código oficial.
 
 Itens inéditos didáticos; não equivalem a prova real e não geram desempenho.
 

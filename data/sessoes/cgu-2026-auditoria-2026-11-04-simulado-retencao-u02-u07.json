@@ -1,0 +1,715 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "auditoria-governamental",
+  "unitId": "u07",
+  "id": "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07",
+  "date": "2026-11-04",
+  "startedAt": "2026-11-04T12:19:00-03:00",
+  "concursoId": "cgu-2026",
+  "banca": "Cebraspe",
+  "kind": "microtreino",
+  "trainingMode": "revisao",
+  "status": "concluido",
+  "diagnosis": "Simulado curto misto de retenção, 18 itens C/E, unidades 02 a 07, criado no chat e corrigido em 04/11/2026: 15 acertos/3 erros/0 brancos, 83,33% acurácia, pontuação hipotética P3 +24/36 (+2/-2/0); unidades u02 2/3, u03 2/3, u04 3/3, u05 3/3, u06 3/3 e u07 2/3. Três respostas inseguras: q2 (errada), q13 e q14 (corretas). Dois erros com confiança secure: q3 consultoria anterior/objetividade e q18 vouching/ocorrência. Erro inseguro q2: existência formal de controle não demonstra eficácia nem redução de risco residual. Retenção por conceito com ressalvas: questões muito semelhantes a itens anteriores não comprovam transferência robusta; não é simulado integral nem benchmark Cebraspe calibrado.",
+  "nextStep": "Revisar em novos casos o risco residual versus desenho/efetividade (u03), consultoria anterior versus impedimento temporal/objetividade (u02) e vouching/ocorrência versus rastreamento/integridade (u07). Retestar q13 (RAINT versus parecer) e q14 (segunda versus terceira linha) com confiança declarada. Manter o ponto de retomada didático da u07 em fronteiras, concluir treino para valer com corpus Cebraspe real identificado e realizar fechamento editorial quando a unidade for completada. Não presumir retenção integral pelas 18 questões.",
+  "learning": {
+    "stage": "revisao",
+    "taughtConcepts": [],
+    "boundaries": [
+      "Risco residual versus existência e eficácia comprovada do controle",
+      "Consultoria prévia versus impedimento expresso de 24 meses e análise da objetividade",
+      "Vouching registro→documento (ocorrência) versus rastreamento documento→registro (integridade)",
+      "PAINT e aprovação interna versus comunicação de mudança significativa",
+      "Papel permanente versus papel corrente e acesso institucional",
+      "Teste de controle versus técnica documental"
+    ],
+    "pending": [
+      "u03: q2 respondida incorretamente com insegurança; refazer com novo caso e verificar eficácia de controle",
+      "u02: q3 incorreta e declarada segura; diferenciar consultoria prévia, autorrevisão e envolvimento gerencial",
+      "u07: q18 incorreta e declarada segura; recuperar sentido registro→documento e sua finalidade",
+      "u04: q13 acertada com insegurança; diferenciar RAINT e parecer de contas em novo caso",
+      "u03: q14 acertada com insegurança; reavaliar papel de segunda linha versus terceira linha",
+      "A sessão contém revisões intencionais e casos mecanicamente próximos; não usar como prontidão competitiva calibrada nem declarar retenção integral"
+    ],
+    "unitCompleted": false,
+    "next": {
+      "unitId": "u07",
+      "stage": "fronteiras",
+      "objective": "Reparar vouching versus rastreamento em casos novos e confirmar finalidade de teste de controle versus inspeção; prosseguir para treino para valer apenas com corpus Cebraspe identificado. Manter revisões espaçadas de u02/u03 e dos acertos inseguros u04/u03.",
+      "noteRef": "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria",
+      "sourceIds": [
+        "referencial",
+        "mot"
+      ]
+    }
+  },
+  "noveltyException": "Simulado curto temático de recuperação sobre unidades já ensinadas, explicitamente solicitado pelo estudante, com 18 itens formulados para retomar fronteiras antes cobradas. Há repetição temática e mecânica intencional registrada em repetition.classification e retrievalOf, acima da taxa de novidade de baterias competitivas. Não atribuir equivalência de dificuldade Cebraspe, não criar dados de corpus não verificados e não usar como benchmark de prova integral. Retenção só é reconhecida por mecanismo distinto em recuperação posterior segura, sem converter respostas inseguras em domínio.",
+  "questions": [
+    {
+      "number": 1,
+      "unitId": "u04",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento anual da UAIG",
+      "subtopic": "Alteração significativa do PAINT",
+      "questionType": "application",
+      "conceptId": "mudanca-significativa-paint",
+      "mechanism": "mudanca-significativa-paint",
+      "distractorMechanism": "inverter-apreciacao-e-comunicacao",
+      "statement": "Uma alteração significativa do PAINT já aprovado deve ser submetida à instância competente para sua aprovação; depois de aprovada, deve ser comunicada à unidade de supervisão técnica no prazo previsto na norma.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Certo. Mudanças significativas no PAINT exigem apreciação da mesma instância que aprova o plano, antes da comunicação posterior à supervisão técnica, em até 30 dias após a aprovação.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas#Sequência de competências e prazos do PAINT (arts. 5º a 9º)"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un04-q8"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un04-q8"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 2,
+      "unitId": "u03",
+      "discipline": "Auditoria Governamental",
+      "topic": "Gestão de riscos",
+      "subtopic": "Risco residual e eficácia operacional de controles",
+      "questionType": "interpretation",
+      "conceptId": "risco-residual-controle",
+      "mechanism": "risco-residual-controle",
+      "distractorMechanism": "trocar-existencia-formal-por-efetividade",
+      "statement": "Para considerar residual o risco de pagamentos indevidos, basta constatar a existência formal de um controle no manual do órgão, pois isso demonstra sua efetividade operacional.",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "confidence": "insecure",
+      "explanation": "Errado. Risco residual é a exposição remanescente após medidas de tratamento; a mera existência de um controle formal não comprova sua efetividade. Controle ineficaz pode deixar risco residual elevado, e sem evidência de funcionamento não se deve presumir redução do risco.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": "confusao_conceitual",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas#Núcleo do conceito"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un03-q5"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un03-q5"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 3,
+      "unitId": "u02",
+      "discipline": "Auditoria Governamental",
+      "topic": "Independência e objetividade",
+      "subtopic": "Consultoria prévia e impedimentos de 24 meses",
+      "questionType": "application",
+      "conceptId": "consultoria-previa-objetividade",
+      "mechanism": "consultoria-previa-objetividade",
+      "distractorMechanism": "impedimento-automatico-por-consultoria",
+      "statement": "Um auditor que prestou consultoria sobre alternativas de melhoria há 14 meses, sem assumir a gestão ou executar controles do processo, está automaticamente impedido pela regra dos 24 meses de avaliar esse processo.",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Errado. A regra dos 24 meses abrange operações específicas com envolvimento impeditivo, inclusive gerencial ou outros vínculos pertinentes. Consultoria anterior sem assunção de funções gerenciais não gera proibição temporal automática. É necessário examinar a natureza do serviço, a objetividade e eventuais ameaças e salvaguardas, conforme item 53 do Referencial Técnico.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": "confusao_conceitual",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo#Consultoria anterior e avaliação posterior (item 53)"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un02-q07"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un02-q07"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 4,
+      "unitId": "u05",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual",
+      "subtopic": "Aprovação prévia de alterações no programa",
+      "questionType": "application",
+      "conceptId": "aprovacao-alteracoes-programa",
+      "mechanism": "aprovacao-alteracoes-programa",
+      "distractorMechanism": "substituir-aprovacao-previa-por-documentacao-posterior",
+      "statement": "Depois da aprovação do PAINT, a equipe pode modificar procedimentos do programa individual de auditoria sem autorização prévia do supervisor, desde que documente posteriormente as razões da mudança.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "explanation": "Errado. A aprovação anual do PAINT não dispensa aprovação prévia pelo supervisor do programa individual e de suas alterações pertinentes, documentadas conforme o item 141 do Referencial Técnico.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria#Refinamento de conceitos próximos"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un05-q3"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un05-q3"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 5,
+      "unitId": "u06",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e papéis de trabalho",
+      "subtopic": "Relatório anterior como papel permanente",
+      "questionType": "classification",
+      "conceptId": "papeis-permanentes-relatorio",
+      "mechanism": "papeis-permanentes-relatorio",
+      "distractorMechanism": "confundir-antiguidade-e-funcao-do-documento",
+      "statement": "Um relatório de auditoria de exercício anterior, mantido como referência reutilizável em trabalhos posteriores, pode integrar os papéis de trabalho permanentes.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Certo. O MOT admite relatórios de auditorias anteriores como documentos permanentes, quando servem de referência recorrente. A classificação decorre do uso, não somente da data.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Refinamento: fronteiras do treino da unidade 06"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un06-para-valer-q6"
+      ],
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un06-para-valer-q6"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 6,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos de auditoria",
+      "subtopic": "Observação e reexecução",
+      "questionType": "classification",
+      "conceptId": "observacao-versus-reexecucao",
+      "mechanism": "observacao-versus-reexecucao",
+      "distractorMechanism": "transposicao-de-tecnica",
+      "statement": "Ao acompanhar servidores executando uma rotina de conferência durante três visitas, o auditor realiza reexecução do controle, pois presencia diretamente seu funcionamento.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "explanation": "Errado. Acompanhar servidores executando a rotina é observação. Reexecução requer que o próprio auditor execute independentemente o procedimento ou controle. A repetição de visitas não altera a natureza da técnica.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Três fronteiras examinadas em prova"
+      ],
+      "retrievalOf": [
+        "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-q2"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-q2"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 7,
+      "unitId": "u04",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento anual da UAIG",
+      "subtopic": "Priorização por fatores indiretos",
+      "questionType": "application",
+      "conceptId": "priorizacao-indireta-riscos",
+      "mechanism": "priorizacao-indireta-riscos",
+      "distractorMechanism": "exigir-avaliacao-direta-em-qualquer-cenario",
+      "statement": "Quando a avaliação de riscos da gestão não é confiável e o levantamento direto de eventos de risco pela UAIG não é viável, fatores indiretos, como materialidade, relevância e criticidade, podem fundamentar uma priorização devidamente justificada.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Certo. A orientação da CGU prevê seleção por fatores indiretos quando fontes de risco direto não são viáveis ou confiáveis, com critérios, pesos e justificativas documentados.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos#Três bases para priorização: ordem preferencial na orientação da CGU"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un04-q10"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un04-q10"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 8,
+      "unitId": "u03",
+      "discipline": "Auditoria Governamental",
+      "topic": "Gestão de riscos",
+      "subtopic": "Resposta ao risco versus atividade de controle",
+      "questionType": "comparison",
+      "conceptId": "resposta-risco-versus-controle",
+      "mechanism": "resposta-risco-versus-controle",
+      "distractorMechanism": "transposicao-de-componente",
+      "statement": "Se a gestão decide encerrar uma atividade para evitar um risco reputacional elevado, essa decisão constitui uma atividade de controle, em vez de uma resposta ao risco.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "explanation": "Errado. Decidir evitar um risco encerrando a atividade constitui resposta ao risco; atividades de controle são procedimentos concretos de prevenção, detecção ou mitigação para operacionalizar respostas escolhidas.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas#Estrutura interna: oito componentes da gestão de riscos (art. 16)"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un03-q2"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un03-q2"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 9,
+      "unitId": "u02",
+      "discipline": "Auditoria Governamental",
+      "topic": "Proficiência e responsabilidade",
+      "subtopic": "Responsabilidade pelo uso de especialista",
+      "questionType": "application",
+      "conceptId": "especialista-responsabilidade-auditoria",
+      "mechanism": "especialista-responsabilidade-auditoria",
+      "distractorMechanism": "transferencia-da-responsabilidade-para-terceiro",
+      "statement": "Quando um especialista externo emite laudo sobre um sistema complexo, a responsabilidade pela adequação das conclusões de auditoria passa àquele especialista.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "explanation": "Errado. O trabalho de especialista pode fornecer evidência técnica, mas a equipe mantém a responsabilidade de avaliar adequação, suficiência e uso do laudo ao sustentar suas conclusões.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional#Tensões e pegadinhas"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un02-q09"
+      ],
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un02-q09"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 10,
+      "unitId": "u05",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento individual",
+      "subtopic": "Meta institucional como critério",
+      "questionType": "interpretation",
+      "conceptId": "criterio-meta-institucional",
+      "mechanism": "criterio-meta-institucional",
+      "distractorMechanism": "exigir-previsao-legal-literal-de-todo-criterio",
+      "statement": "Uma meta institucional razoável e devidamente justificada pode servir como critério de auditoria, mesmo que seu valor numérico não esteja literalmente previsto em lei.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Certo. O critério pode decorrer de padrões de desempenho razoáveis e justificáveis, inclusive metas institucionais pertinentes; não se restringe a exigências numéricas expressas em lei.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria#Refinamento de conceitos próximos"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un05-revisao-q3"
+      ],
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un05-revisao-q3"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 11,
+      "unitId": "u06",
+      "discipline": "Auditoria Governamental",
+      "topic": "Evidências e documentação",
+      "subtopic": "Observação direta como fonte exclusiva",
+      "questionType": "classification",
+      "conceptId": "observacao-exclusiva-dois-auditores",
+      "mechanism": "observacao-exclusiva-dois-auditores",
+      "distractorMechanism": "generalizar-ou-omitir-regra-condicional",
+      "statement": "Quando determinada informação só pode ser obtida por observação direta, o Manual de Orientações Técnicas da CGU orienta que o exame envolva pelo menos dois auditores internos.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Certo. A seção 5.3.2 do MOT prevê pelo menos dois auditores quando a informação é obtida exclusivamente por observação direta. A exigência é condicionada à exclusividade da fonte.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Refinamento: fronteiras do treino da unidade 06"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un06-para-valer-q3"
+      ],
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un06-para-valer-q3"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 12,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes",
+      "subtopic": "Finalidade do teste de controle e técnica documental",
+      "questionType": "classification",
+      "conceptId": "finalidade-teste-controle-tecnica-documental",
+      "mechanism": "finalidade-teste-controle-tecnica-documental",
+      "distractorMechanism": "confundir-finalidade-e-tecnica",
+      "statement": "A inspeção de registros eletrônicos de aprovação, destinada a avaliar se a etapa prevista no fluxo funcionou ao longo do período, pode constituir teste de controle, embora empregue análise documental.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Certo. Quando o objetivo é verificar se o controle foi efetivamente executado, a finalidade é teste de controle. A inspeção dos registros é a técnica empregada, não uma classificação substantiva por si só.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Estrutura interna: finalidade e tipo do procedimento"
+      ],
+      "retrievalOf": [
+        "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada-q4"
+      ],
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada-q4"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 13,
+      "unitId": "u04",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento e prestação de contas",
+      "subtopic": "RAINT versus parecer de prestação de contas",
+      "questionType": "comparison",
+      "conceptId": "raint-versus-parecer-contas",
+      "mechanism": "raint-versus-parecer-contas",
+      "distractorMechanism": "equivalencia-indevida-de-produtos",
+      "statement": "O parecer anual sobre a prestação de contas, nos casos em que for exigido, é equivalente ao RAINT e pode ser substituído por esse relatório sem exame específico das contas.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "insecure",
+      "explanation": "Errado. RAINT relata a atividade anual da UAIG; o parecer sobre a prestação de contas é produto distinto, com objeto e exame próprios, nos casos definidos na IN SFC nº 5/2021.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "questao_comentada_candidata"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas#Núcleo: programação e prestação de contas"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un04-q14"
+      ],
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un04-q14"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 14,
+      "unitId": "u03",
+      "discipline": "Auditoria Governamental",
+      "topic": "Governança e três linhas",
+      "subtopic": "Monitoramento da segunda linha versus terceira linha",
+      "questionType": "classification",
+      "conceptId": "segunda-versus-terceira-linha",
+      "mechanism": "segunda-versus-terceira-linha",
+      "distractorMechanism": "atribuir-papel-de-auditoria-a-controle-de-gestao",
+      "statement": "Uma unidade de conformidade que orienta e acompanha a gestão dos riscos passa a integrar a terceira linha de governança em razão dessa atividade de monitoramento.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "insecure",
+      "explanation": "Errado. Apoio, acompanhamento e monitoramento dos riscos são atividades típicas da segunda linha. A terceira linha presta avaliação independente; monitorar riscos por si só não altera o papel da unidade.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "questao_comentada_candidata"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas#Três linhas: papéis e responsabilidades"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un03-q4"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un03-q4"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 15,
+      "unitId": "u02",
+      "discipline": "Auditoria Governamental",
+      "topic": "Objetividade e ética",
+      "subtopic": "Conflito de interesses antes de ilícito consumado",
+      "questionType": "interpretation",
+      "conceptId": "conflito-interesse-sem-ilicito",
+      "mechanism": "conflito-interesse-sem-ilicito",
+      "distractorMechanism": "condicionar-conflito-a-infracao-consumada",
+      "statement": "Um interesse financeiro do auditor relacionado a contratos sob exame pode comprometer sua objetividade, mesmo que não tenha ocorrido infração ética ou legal consumada.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Certo. A ameaça à objetividade pode existir antes de qualquer infração, pela relação financeira ou pela aparência de comprometimento da imparcialidade; deve ser declarada e tratada conforme a norma.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo#Objetividade individual: conflitos, impedimentos e consultas anteriores"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un02-q04"
+      ],
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un02-q04"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 16,
+      "unitId": "u05",
+      "discipline": "Auditoria Governamental",
+      "topic": "Planejamento em consultoria",
+      "subtopic": "Flexibilidade do programa de trabalho",
+      "questionType": "interpretation",
+      "conceptId": "consultoria-programa-flexibilidade",
+      "mechanism": "consultoria-programa-flexibilidade",
+      "distractorMechanism": "confundir-flexibilidade-com-falta-de-planejamento",
+      "statement": "Em um serviço de consultoria, a forma e o conteúdo do programa de trabalho podem variar conforme a natureza do serviço, sem dispensar entendimento documentado sobre objetivos, escopo, prazo e responsabilidades.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Certo. O Referencial permite programa de consultoria flexível conforme a natureza da atuação, mas requer entendimento documentado e definição do serviço, preservando responsabilidades da gestão.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria#Refinamento de conceitos próximos"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un05-pv-q8"
+      ],
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu26-auditoria-un05-pv-q8"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 17,
+      "unitId": "u06",
+      "discipline": "Auditoria Governamental",
+      "topic": "Documentação e políticas de acesso",
+      "subtopic": "Competência para aprovar política de acesso",
+      "questionType": "comparison",
+      "conceptId": "acesso-papeis-aprovacao-alta-administracao",
+      "mechanism": "acesso-papeis-aprovacao-alta-administracao",
+      "distractorMechanism": "inverter-parecer-e-aprovacao",
+      "statement": "Após parecer favorável da assessoria jurídica, o responsável pela UAIG pode aprovar sozinho a política institucional de acesso aos papéis de trabalho, cabendo à alta administração apenas acompanhar os pedidos individuais.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "explanation": "Errado. A política institucional de acesso é apreciada pela assessoria jurídica e aprovada pela alta administração. O responsável pela UAIG organiza os papéis e aplica regras; parecer jurídico não substitui a aprovação institucional.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Refinamento: fronteiras do treino da unidade 06"
+      ],
+      "retrievalOf": [
+        "cgu26-auditoria-un06-revisao-q1"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu26-auditoria-un06-revisao-q1"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    },
+    {
+      "number": 18,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Técnicas de auditoria",
+      "subtopic": "Vouching versus rastreamento",
+      "questionType": "comparison",
+      "conceptId": "vouching-ocorrencia-versus-integridade",
+      "mechanism": "vouching-ocorrencia-versus-integridade",
+      "distractorMechanism": "inverter-objeto-verificado-por-direcao",
+      "statement": "Partir de pagamentos já registrados e procurar a documentação de origem que os sustente privilegia a verificação da ocorrência das operações, e não a integridade dos registros.",
+      "correctAnswer": "C",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "explanation": "Certo. Registro → documento de suporte caracteriza vouching, que privilegia ocorrência/existência. Documento de origem → registro é rastreamento, voltado principalmente à integridade. A inversão da direção altera a afirmação verificada.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": "confusao_conceitual",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Técnicas de auditoria e os limites de cada uma"
+      ],
+      "retrievalOf": [
+        "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada-q2"
+      ],
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada-q2"
+        ],
+        "intentional": true,
+        "transformation": "Recuperação espaçada em simulado misto: formulação e enquadramento modificados para testar julgamento em contexto diferente, preservando a fronteira conceitual; se o raciocínio permaneceu essencialmente igual, classificado como repetição mecânica."
+      }
+    }
+  ]
+}

@@ -8,31 +8,48 @@ updated: 2026-11-04
 
 # Orçamento Público
 
-Planejamento orçamentário, programação, execução de receitas e despesas e responsabilidade fiscal. Este hub organiza o estudo do recorte **P3.2** da Controladoria-Geral da União (CGU) 2026, banca **Cebraspe**, com itens de **Certo ou Errado (C/E)**. É uma rota de aprendizagem que pode apontar para conceitos canônicos de outras matérias sem reproduzir seus textos.
+Matéria de planejamento e execução orçamentária, receita, despesa e responsabilidade fiscal. Os artigos são **conhecimento canônico reutilizável**; a rota inicial foi organizada para **CGU 2026: Cebraspe, itens Certo ou Errado (C/E)**, bloco P3.2.2 e P3.2.3. **Prioridade interna A**, devido ao peso da P3 e ao volume de conteúdo ainda pendente, sem estimativa comprovada de incidência.
 
-Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA) são instrumentos centrais deste roteiro.
+## Começar por aqui
 
-**Prioridade pedagógica:** Alta (A), segundo o plano interno, não como classificação oficial de incidência na prova. **Escopo:** 2 unidades.
+- [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|01. Orçamento público e ciclo orçamentário]]: autorização × execução × caixa × entrega; quatro momentos do ciclo; controle e avaliação.
+- [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02. PPA, LDO e LOA]]: papéis, vigência, iniciativa, três orçamentos, prazos, exclusividade e exceções.
 
-## Planejamento das unidades
+Os dois textos estão **preparados editorialmente, sem estudo registrado**. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
 
-| Ordem | Conteúdo e distinções a estudar | Situação editorial |
+## Unidade P3.2.2: orçamento e planejamento
+
+| Sequência | Conteúdo e fronteiras prioritárias | Cobertura editorial |
 | :--- | :--- | :--- |
-| 01 | Orçamento e planejamento: PPA, LDO, LOA, emendas, classificações, créditos, programação e contingenciamento. | Base adjacente; nota específica pendente |
-| 02 | Execução e responsabilidade fiscal: receita/despesa, empenho, liquidação, pagamento, restos a pagar, Conta Única e limites. | Base adjacente; nota específica pendente |
+| 01 | [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|Ciclo orçamentário]]: fases × estágios da despesa; dotação × entrega | Artigo de entrada publicado |
+| 02 | [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO, LOA]]: médio prazo × orientação anual × lei anual; exceções constitucionais | Primeira versão publicada |
+| 03 | Princípios orçamentários: unidade, universalidade, anualidade, exclusividade, orçamento bruto e especificação | Nota especializada pendente |
+| 04 | Classificações de receita e despesa: natureza, institucional, funcional, programática e fontes | Nota especializada pendente |
+| 05 | Créditos adicionais e emendas: suplementar × especial × extraordinário; fontes, autorização e limites | Nota especializada pendente |
+| 06 | Programação e contingenciamento: dotação × limite de empenho × liberação financeira | Nota especializada pendente |
 
-O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
+## Unidade P3.2.3: execução e responsabilidade fiscal
 
-## Fronteiras prioritárias
+| Sequência | Conteúdo e fronteiras prioritárias | Cobertura editorial |
+| :--- | :--- | :--- |
+| 07 | Receita pública: receitas orçamentárias × entradas extraorçamentárias; previsão, lançamento, arrecadação e recolhimento | Nota pendente |
+| 08 | Despesa pública: fixação × empenho × liquidação × pagamento; modalidades e comprovação | Nota pendente |
+| 09 | Restos a pagar e ajustes: processado × não processado; DEA e suprimento de fundos | Nota pendente |
+| 10 | Conta Única e gestão financeira: crédito orçamentário × recurso financeiro × cronograma de desembolso | Nota pendente |
+| 11 | Responsabilidade fiscal: metas, limites, relatórios, transparência e consequências da execução | Nota pendente |
 
-Fixação × execução da despesa; empenho × liquidação × pagamento; créditos orçamentários × recursos financeiros; restos a pagar processados × não processados. São distinções a desenvolver nos artigos e nos treinos, conforme as fontes aplicáveis. Não são resultados observados de desempenho do estudante.
+A segunda unidade tem como pré-requisito curricular a primeira, mas dúvidas e desempenho podem exigir retorno seletivo a qualquer artigo.
 
-## Referências já disponíveis no vault
+## Conexões e material já existente
 
-- [[3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica|Política fiscal]]: material relacionado, sem presumir cobertura completa deste recorte do edital.
+- [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]]: funções econômicas, resultados e dívida, sem duplicar no orçamento.
+- [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]: registros, regimes e demonstrações; execução orçamentária não se confunde com informação patrimonial.
+- [[3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica|Política fiscal]]: base adjacente de metas e resultados, sem substituir as notas jurídicas da matéria.
+- [[3 - Materias/Auditoria Governamental/auditoria-governamental|Auditoria Governamental]]: critérios, execução, conformidade e resultados.
+- [[2 - Editais/CGU 2026 - Auditoria|Edital e checklist CGU 2026]]: delimita o recorte; normas citadas nos artigos sustentam o conteúdo.
 
-## Continuidade e próximos passos
+## Continuidade do estudo
 
-A sequência sugerida é iniciar pela primeira unidade listada, verificar os pré-requisitos e as fontes correspondentes, explicar conceitos e fronteiras, testar com itens didáticos e consolidar as notas próprias conforme a necessidade. O estado real de exposição, as dúvidas, os erros e a próxima atividade devem ser lidos no contexto **`data/contexto-estudo/cgu-2026/orcamento-publico.json`**, que é gerado a partir das sessões. Não copiar números de acertos para este hub.
+Na retomada por chat, ler **`CHAT.md` → `data/contexto-estudo/cgu-2026/orcamento-publico.json` → `resume.noteRef` → seção da nota → fonte normativa**. O contexto gerado é a fonte para **exposição, dúvidas, desempenho e próximo passo**. Não há métricas de acerto neste hub; a publicação de notas **não representa** aula, unidade concluída ou retenção.
 
-O planejamento geral das 15 frentes está em [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano de matérias]]. O formato de avaliação é **Cebraspe, Certo ou Errado**, com regras de pontuação específicas por prova.
+O mapa global das matérias é [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano de matérias]]. O roteiro dos 11 artigos está em [[1 - Planejamento/Orcamento Publico - Plano de artigos|Plano de artigos de Orçamento Público]].

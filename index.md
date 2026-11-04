@@ -7,6 +7,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 ## 1 - Planejamento
 - [[1 - Planejamento/Continuidade de estudo por materia|Continuidade de estudo por matéria]]
 - [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano das 15 matérias]]
+- [[1 - Planejamento/Orcamento Publico - Plano de artigos|Orçamento Público: plano de artigos]]
 - [[1 - Planejamento/Filtro de materias e artigos por concurso|Plano: filtro de matérias e artigos por concurso]]
 - [[CHAT|Estudo pelo chat: entrada curta]]
 - [[1 - Planejamento/Mapa de scripts e contratos do sistema|Mapa de scripts e contratos do sistema]]
@@ -96,6 +97,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 9. [[3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia|Evidências, dados e inteligência artificial]]
 10. [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]]
 11. [[3 - Materias/Orcamento Publico/orcamento-publico|Orçamento Público]]
+   - [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|01 • Orçamento público e ciclo orçamentário]]
+   - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02 • PPA, LDO e LOA]]
 12. [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]
 13. [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Avaliação de políticas públicas]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|01 • Teoria da mudança: fundamentos da avaliação]]

@@ -179,6 +179,41 @@
       "label": "Tesouro Nacional: Manual de Análise Fiscal de Estados e Municípios (2025)",
       "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51484_1600177/Manual%20de%20an%C3%A1lise%20fiscal%20-%202025%20-%20vers%C3%A3o%20final.pdf",
       "scope": "Distinguir cancelamento de restos a pagar de receita orçamentária, na metodologia fiscal vigente."
+    },
+    "decreto12122": {
+      "label": "Decreto nº 12.122/2024: programa federal de assédio e discriminação",
+      "url": "https://www.gov.br/ouvidorias/pt-br/prevencao-e-enfretamento-assedio-discriminacao/pfpead",
+      "scope": "Quatro diretrizes e três eixos; órgãos federais abrangidos"
+    },
+    "lei14540": {
+      "label": "Lei nº 14.540/2023: prevenção do assédio sexual e violência sexual",
+      "url": "https://www.gov.br/mds/pt-br/acesso-a-informacao/legislacao/leis/lei-no-14-540-de-3-de-abril-de-2023",
+      "scope": "Objeto e abrangência federativa"
+    },
+    "guia-lilas": {
+      "label": "Guia Lilás da CGU, 2024",
+      "url": "https://www.gov.br/fazenda/pt-br/internet/gabriel-teste/integridade-programa-proposta/guia-lilas",
+      "scope": "Conceitos e jornada de acolhimento e denúncia; guia orientativo"
+    },
+    "decreto6029": {
+      "label": "Decreto nº 6.029/2007: Sistema de Gestão da Ética",
+      "url": "https://legis.senado.leg.br/norma/566597/publicacao/15735475",
+      "scope": "CEP e comissões, procedimento, garantias e prazos"
+    },
+    "decreto11529": {
+      "label": "Decreto nº 11.529/2023: Sitai",
+      "url": "https://www.gov.br/cgu/pt-br/assuntos/integridade-publica/sitai",
+      "scope": "CGU como órgão central, unidades setoriais e escopo"
+    },
+    "portaria239": {
+      "label": "Portaria Normativa CGU nº 239/2025: CGU+Integridade",
+      "url": "https://basedeconhecimento.cgu.gov.br/items/71b30979-38b6-4b5a-b4ff-980dd71ff4ec",
+      "scope": "Programa de integridade da CGU"
+    },
+    "portaria283": {
+      "label": "Portaria Normativa CGU nº 283/2026: Plano de Integridade 2026–2027",
+      "url": "https://basedeconhecimento.cgu.gov.br/items/10ec3d73-ee56-40e0-86a4-d09f800edf91",
+      "scope": "Plano da CGU como desdobramento operacional"
     }
   },
   "subjects": [
@@ -1012,6 +1047,7 @@
             "P1.3.4"
           ],
           "noteRefs": [
+            "3 - Materias/Etica Publica/05 - assedio discriminacao e relacoes de trabalho",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
             "3 - Materias/Comunicacao/11 - etica em comunicacao"
           ],
@@ -1019,11 +1055,16 @@
             "up1-3-3"
           ],
           "sourceIds": [
+            "edital",
+            "decreto12122",
+            "lei14540",
+            "guia-lilas",
+            "lei8112",
             "conflitos",
             "processo-administrativo"
           ],
           "coverage": "parcial",
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "noteRole": "base-teorica-preparada-sem-exposicao"
         },
         {
           "id": "up1-3-5",
@@ -1031,6 +1072,7 @@
             "P1.3.5"
           ],
           "noteRefs": [
+            "3 - Materias/Etica Publica/06 - integridade institucional e comissoes de etica",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
             "3 - Materias/Comunicacao/11 - etica em comunicacao"
           ],
@@ -1038,11 +1080,17 @@
             "up1-3-4"
           ],
           "sourceIds": [
+            "edital",
+            "decreto6029",
+            "decreto11529",
+            "portaria239",
+            "portaria283",
+            "decreto1171",
             "conflitos",
             "processo-administrativo"
           ],
           "coverage": "parcial",
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "noteRole": "base-teorica-preparada-sem-exposicao"
         }
       ],
       "requiresSubjects": []

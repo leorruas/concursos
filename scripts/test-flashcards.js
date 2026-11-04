@@ -135,3 +135,14 @@ assert.equal(legacyQueue[0].id,'dp-marco-prazos-registros','Importação ativa p
 assert.equal(F.select(cards,legacyImported,{exam:'cgu-2026',subject:'informatica',mode:'errors',direction:'forward'},now).length,0,
     'Nenhum erro da Dataprev é transferido indevidamente à CGU');
 console.log('SUCESSO: legado FGV, recorrência, isolamento entre concursos, superados e lacunas editoriais.');
+
+// Cobertura inicial de todas as matérias que estavam sem cartões; continuidade do mesmo conceito entre recortes.
+for(const subject of ['estado-democracia','sociedade-brasileira','administracao-publica','financas-publicas','contratacoes-transferencias','evidencias-dados-ia']) {
+  assert(cards.filter(c=>c.examIds.includes('cgu-2026')&&c.subjectIds.includes(subject)).length>=4,'Matéria CGU ainda sem lote inicial: '+subject);
+  assert(F.select(cards,F.empty(),{exam:'cgu-2026',subject,mode:'new',direction:'forward'},now,()=>.5).length>=4,'Filtro da matéria não encontra cartões: '+subject);
+}
+for(const [id,subject] of [['accountability','administracao-publica'],['equidade','sociedade-brasileira'],['contrafactual','evidencias-dados-ia']]) {
+  assert(cards.find(c=>c.id===id)?.subjectIds.includes(subject),'Vínculo reutilizado perdido: '+id);
+}
+assert.equal(cards.length,167,'Inventário inicial da expansão das seis matérias');
+console.log('SUCESSO: seis matérias da CGU iniciadas, 25 cartões novos e três vínculos compartilhados.');

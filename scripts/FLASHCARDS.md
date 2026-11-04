@@ -1,6 +1,6 @@
 # Flashcards de vocabulário
 
-Criado em 2026-11-04. Coleção atual: 142 cartões únicos, sendo 114 vinculados à CGU 2026 e 28 à Dataprev 2026. Na CGU, há 59 cartões de Orçamento Público, 7 de Contabilidade Pública e coleções parciais nas demais matérias. A Dataprev inclui Português, Lógica, Informática/Legislação, Atualidades e Comunicação. Os vínculos cruzados reutilizam conceitos sem duplicar cartões. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
+Criado em 2026-11-04. Coleção atual: 167 cartões únicos, sendo 139 vinculados à CGU 2026 e 28 à Dataprev 2026. Na CGU, há 59 cartões de Orçamento Público, 7 de Contabilidade Pública e coleções parciais nas demais matérias. A Dataprev inclui Português, Lógica, Informática/Legislação, Atualidades e Comunicação. Os vínculos cruzados reutilizam conceitos sem duplicar cartões. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
 
 ## Arquitetura
 
@@ -37,7 +37,7 @@ O armazenamento pertence à origem, navegador e dispositivo. Não sincroniza com
 5. Construir com `node scripts/build-site.js`, depois `node scripts/validate-flashcards.js --site` e `node scripts/validate-integrity.js --audit-site`.
 6. Publicar pelo workflow existente. Confirmar o HEAD final, a coleção ao vivo, a página e os links do manifesto. Uma revisão só está publicada depois disso.
 
-Ampliação seguinte: aprofundar Contabilidade (demonstrações, custos e estatais) e as frentes ainda sem cartões específicos — Estado e Democracia, Sociedade Brasileira, Finanças, Evidências/Dados/IA, Contratações e Transferências. O esquema já comporta essas coleções sem mudança na interface; não apresentar a estrutura preparada como conteúdo concluído.
+Ampliação seguinte: aprofundar Contabilidade (demonstrações, custos e estatais), ampliar os seis eixos da CGU que receberam coleções iniciais e vincular novos conceitos à medida que suas unidades forem estudadas. O esquema já comporta essas coleções sem mudança na interface; não apresentar a estrutura preparada como conteúdo concluído.
 
 ## Ligação com erros das questões
 
@@ -53,9 +53,14 @@ Primeira integração: vínculos conferidos para orçamento, causalidade em pol�
 
 ## Evolução por etapas
 
-Plano canônico: [[1 - Planejamento/Flashcards - Sessoes continuas e ampliacao|Sessões contínuas e ampliação por matéria]]. Motor contínuo, encerramento voluntário, migração v1→v2 e interface foram implementados. **Dois lotes de recuperação implementados: 14 cartões de lacunas recentes da CGU, seguidos de 28 cartões de erros históricos da Dataprev e 2 novos cartões para conceitos da CGU. A ampliação das seis matérias da CGU sem cartões continua pendente.** Os testes cobrem continuidade acima de dez cartões, retentativa, migração de backups e preservação de avaliações após encerramento. A publicação requer validação do workflow no commit final.
+Plano canônico: [[1 - Planejamento/Flashcards - Sessoes continuas e ampliacao|Sessões contínuas e ampliação por matéria]]. Motor contínuo, encerramento voluntário, migração v1→v2 e interface foram implementados. **Dois lotes de recuperação implementados: 14 cartões de lacunas recentes da CGU, seguidos de 28 cartões de erros históricos da Dataprev e 2 novos cartões para conceitos da CGU. Todas as seis matérias que estavam vazias receberam uma coleção inicial; ampliar profundidade e cobertura do edital continua pendente.** Os testes cobrem continuidade acima de dez cartões, retentativa, migração de backups e preservação de avaliações após encerramento. A publicação requer validação do workflow no commit final.
 
 
 ### Ocorrências históricas ainda sem cartão
 
 Em 04/11/2026, o arquivo de erros históricos tinha 38 ocorrências da Dataprev: **35 pendentes e 3 superadas**. Os 28 cartões da Dataprev estão associados a **33 ocorrências pendentes**. Permanecem duas lacunas em `unmapped`: escolha de título por síntese global em inglês e modelagem de problemas de idades. São dificuldades de aplicação que exigem exercícios contextualizados, em vez de cartões de definição vaga. O erro de leitura de **EXCETO** foi associado ao conceito de texto manchetado, mas a recuperação do conceito não substitui a prática de atenção ao comando.
+
+
+### Primeiro lote das seis matérias da CGU antes vazias
+
+Em 04/11/2026, foram acrescentados **25 cartões inéditos** distribuídos entre Estado e Democracia (4), Sociedade Brasileira (4), Administração Pública (4), Finanças Públicas (4), Contratações e Transferências (4) e Evidências, Dados e IA (5). Outros três cartões previamente existentes foram associados a matérias adicionais: `accountability` (Administração Pública), `equidade` (Sociedade Brasileira) e `contrafactual` (Evidências, Dados e IA). Total de cartões por matéria após os vínculos: respectivamente **4, 5, 5, 4, 4 e 6**. As notas originais dos conceitos estão em Constitucional, Administrativo, Administração Pública, Atualidades, Auditoria e Avaliação de Políticas. O hub de cada matéria ainda é roteiro: **presença de cartão não equivale a aula, retenção ou cobertura completa do edital**.

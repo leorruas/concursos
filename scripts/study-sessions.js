@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { buildFlashcardPriorities } from './flashcard-priorities.js';
 import { resolveArticleRef } from './article-identity.js';
 // Sessões pequenas são entradas; ledger e blocos marcados são projeções reproduzíveis.
 import fs from 'node:fs';
@@ -176,6 +177,7 @@ export function prepare(root = ROOT, asOf) {
     summary.subjectIndexPath = 'data/contexto-estudo/indice.json';
     outputs.set(p, json(summary));
   }
+  if(fs.existsSync(path.join(root,'data/flashcards.json')))outputs.set('data/contexto-estudo/flashcards-prioridades.json', json(buildFlashcardPriorities(subjectContexts.outputs,JSON.parse(read('data/flashcards.json')),cut)));
   // Manifesto explícito e determinístico para persistir somente saídas autorizadas no CI.
   outputs.set('data/sessoes-saidas.json', json([...outputs.keys(), 'data/sessoes-saidas.json'].sort()));
   const previousOutputs = fs.existsSync(path.join(root, 'data/sessoes-saidas.json')) ? JSON.parse(read('data/sessoes-saidas.json')) : [];

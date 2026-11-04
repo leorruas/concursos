@@ -1,3 +1,4 @@
+import {buildFlashcardPriorities} from './flashcard-priorities.js';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
@@ -33,3 +34,38 @@ assert.throws(()=>F.validateState({...state,session:{...state.session,position:9
 const bad=structuredClone(data);bad.cards[0].note.section='Seção que não existe';assert.throws(()=>validateFlashcards(bad,root));
 const duplicate=structuredClone(data);duplicate.cards.push(duplicate.cards[0]);assert.throws(()=>validateFlashcards(duplicate,root));
 console.log('SUCESSO: agendamento, lembranças espaçadas, inversão, contraste, priorização, isolamento por edital, retomada JSON e rejeição de dados inválidos.');
+
+// Prioridade vem de questões; memória autodeclarada permanece independente.
+const target=cards.find(c=>c.id==='consultoria-previa-e-objetividade');
+const profile={version:1,type:'study-errors',cut:'2026-11-04',entries:[{examId:'cgu-2026',subjectId:'auditoria-governamental',cardId:target.id,priority:400,status:'pendente',recurrences:2,dueOn:'2026-11-05'}]};
+let prioritized={...F.empty(),priorities:F.validatePriorities(profile,cards)};
+const scope={exam:'cgu-2026',subject:'',mode:'mixed',direction:'forward'};
+assert.equal(F.select(cards,prioritized,scope,now,()=>.5)[0].id,target.id);
+assert.equal(F.select(cards,prioritized,{...scope,mode:'errors'},now).length,1);
+assert(!F.select(cards,prioritized,{...scope,subject:'orcamento-publico',mode:'errors'},now).length,'Não vaza prioridade entre matérias');
+assert(!F.select(cards,prioritized,{...scope,exam:'dataprev-2026',mode:'errors'},now).length);
+prioritized.reviews[target.id+':forward']=F.schedule(undefined,'good',now);
+assert.equal(F.select(cards,prioritized,scope,now+1000)[0].id,target.id,'Erro pendente da questão permite retomar cartão antes do vencimento local');
+prioritized.session={...scope,mode:'errors',position:0,queue:[{id:target.id,direction:'forward'}]};
+const after=F.rate(prioritized,'good',now+1000);
+assert.equal(after.priorities.entries[0].status,'pendente','Sei no cartão não resolve erro de questão');
+assert.equal(F.validateState(JSON.parse(JSON.stringify(after)),cards).priorities.entries[0].cardId,target.id);
+assert.equal(F.validateState({version:1,reviews:{},session:null},cards).priorities,null,'Backup antigo continua aceito');
+const immediateProfile=structuredClone(profile);immediateProfile.entries[0].priority=100;immediateProfile.entries[0].status='recuperacao-imediata';
+const immediateState={...F.empty(),priorities:F.validatePriorities(immediateProfile,cards)};
+assert.equal(F.select(cards,immediateState,{...scope,mode:'errors'},Date.UTC(2026,10,4,12)).length,0);
+assert.equal(F.select(cards,immediateState,{...scope,mode:'errors'},Date.UTC(2026,10,5,12)).length,1,'Recuperação imediata aguarda revisão posterior');
+const wrong=structuredClone(profile);wrong.entries[0].examId='dataprev-2026';assert.throws(()=>F.validatePriorities(wrong,cards),/fora do concurso/);
+const duplicateProfile=structuredClone(profile);duplicateProfile.entries.push(duplicateProfile.entries[0]);assert.throws(()=>F.validatePriorities(duplicateProfile,cards),/duplicada/);
+const invalidPriority=structuredClone(profile);invalidPriority.entries[0].priority=NaN;assert.throws(()=>F.validatePriorities(invalidPriority,cards));
+const gaps=Array.from({length:25},(_,i)=>({concept:i===24?'consultoria-previa-objetividade':'sem-cartao-'+i,status:'pendente',kind:'erro',errorType:'C',recurrences:i===24?3:1,dueOn:'2026-11-05'}));
+const contextPath='data/contexto-estudo/cgu-2026/auditoria-governamental.json',page='data/contexto-estudo/cgu-2026/auditoria-governamental/revisoes-002.json';
+const outputs=new Map([[contextPath,JSON.stringify({concursoId:'cgu-2026',subjectId:'auditoria-governamental',gaps:gaps.slice(0,20),reviewIndex:{pages:[page]}})],[page,JSON.stringify({gaps})]]);
+const generated=buildFlashcardPriorities(outputs,data,'2026-11-04');
+assert.equal(generated.entries[0].cardId,target.id,'Usa fila completa, incluindo além dos 20 visíveis');assert.equal(generated.unmapped.length,24);
+assert(!JSON.stringify(generated).includes('userAnswer'),'Perfil não copia respostas');
+const snapshot=JSON.stringify(outputs.get(contextPath));
+gaps[24].status='retencao-observada';outputs.set(page,JSON.stringify({gaps}));assert.equal(buildFlashcardPriorities(outputs,data,'2026-11-06').entries.length,0,'Retenção em questões remove prioridade');
+gaps[24].status='pendente';gaps[24].recurrences=4;outputs.set(page,JSON.stringify({gaps}));assert.equal(buildFlashcardPriorities(outputs,data,'2026-11-07').entries[0].recurrences,4,'Falha posterior reabre prioridade');
+assert.equal(JSON.stringify(outputs.get(contextPath)),snapshot,'Projeção não altera contexto de origem');
+console.log('SUCESSO: erros recorrentes, retenção, reincidência, filas completas, importação compatível e independência dos resultados.');

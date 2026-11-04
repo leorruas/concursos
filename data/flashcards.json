@@ -98,7 +98,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "ppa-regionalizacao-e-escopo"
+      ]
     },
     {
       "id": "ldo",
@@ -131,7 +134,8 @@
       "contrast": {
         "prompt": "PPA × LDO × LOA: qual é o papel de cada lei?",
         "answer": "PPA: diretrizes, objetivos e metas de médio prazo. LDO: metas, prioridades e orientação anual. LOA: previsão de receitas e fixação das despesas."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "loa",
@@ -160,7 +164,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "dotacao",
@@ -193,7 +198,10 @@
       "contrast": {
         "prompt": "Dotação × caixa: ter autorização significa ter dinheiro disponível?",
         "answer": "Não. A dotação autoriza a despesa; o caixa e a programação financeira condicionam o desembolso."
-      }
+      },
+      "conceptIds": [
+        "dotacao-vs-disponibilidade-financeira"
+      ]
     },
     {
       "id": "limite-empenho",
@@ -222,7 +230,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "credito-adicional",
@@ -251,7 +260,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "suplementar",
@@ -284,7 +294,10 @@
       "contrast": {
         "prompt": "Suplementar × especial: qual depende de uma dotação já existente?",
         "answer": "Suplementar reforça dotação existente. Especial atende despesa sem dotação específica."
-      }
+      },
+      "conceptIds": [
+        "exclusividade-suplementar-vs-especial"
+      ]
     },
     {
       "id": "especial",
@@ -313,7 +326,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "exclusividade-suplementar-vs-especial"
+      ]
     },
     {
       "id": "extraordinario",
@@ -342,7 +358,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "superavit-financeiro",
@@ -371,7 +388,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "excesso-arrecadacao",
@@ -400,7 +418,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "empenho",
@@ -433,7 +452,8 @@
       "contrast": {
         "prompt": "Empenho × liquidação: o que muda?",
         "answer": "Empenho compromete o crédito por ato competente. Liquidação verifica o direito do credor com base nos títulos e documentos da obrigação."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "ordinario",
@@ -462,7 +482,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "global",
@@ -491,7 +512,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "estimativo",
@@ -520,7 +542,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "liquidacao",
@@ -549,7 +572,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "pagamento",
@@ -582,7 +606,8 @@
       "contrast": {
         "prompt": "Liquidação × pagamento: conferir o direito do credor é desembolsar?",
         "answer": "Não. Liquidar é verificar o direito e o valor devido; pagar é efetuar a saída de recursos após a liquidação regular."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "previsao",
@@ -611,7 +636,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "lancamento",
@@ -640,7 +666,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "arrecadacao",
@@ -673,7 +700,8 @@
       "contrast": {
         "prompt": "Arrecadação × recolhimento: qual é a diferença?",
         "answer": "Arrecadação: recebimento pelo agente arrecadador. Recolhimento: transferência do produto arrecadado à unidade de tesouraria."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "recolhimento",
@@ -702,7 +730,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "receita-orcamentaria",
@@ -731,7 +760,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "ingresso-extra",
@@ -760,7 +790,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "aro",
@@ -789,7 +820,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "aro-extraorcamentaria-vs-credito-capital"
+      ]
     },
     {
       "id": "restos-pagar",
@@ -818,7 +852,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "rp-processados",
@@ -851,7 +886,8 @@
       "contrast": {
         "prompt": "RP processados × não processados: qual estágio os separa?",
         "answer": "A liquidação. Ambos foram empenhados e ainda não pagos; processados já foram liquidados, não processados ainda não."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "rp-nao-processados",
@@ -880,7 +916,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "dea",
@@ -913,7 +950,8 @@
       "contrast": {
         "prompt": "RP × DEA: qual usa dotação do orçamento atual?",
         "answer": "DEA usa dotação específica atual, nas hipóteses legais. RP dá continuidade à despesa empenhada no exercício de origem."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "suprimento",
@@ -942,7 +980,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "desembolso-extra",
@@ -971,7 +1010,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "programacao-financeira",
@@ -1000,7 +1040,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "dotacao-vs-disponibilidade-financeira"
+      ]
     },
     {
       "id": "cronograma",
@@ -1029,7 +1072,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "contingenciamento",
@@ -1062,7 +1106,8 @@
       "contrast": {
         "prompt": "Contingenciamento × anulação de dotação: produzem o mesmo efeito?",
         "answer": "Não. Contingenciamento restringe a execução; anulação reduz a autorização orçamentária."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "unidade",
@@ -1091,7 +1136,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "universalidade",
@@ -1120,7 +1166,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "universalidade-abrangencia-sem-limite-valor"
+      ]
     },
     {
       "id": "anualidade",
@@ -1149,7 +1198,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "orcamento-bruto",
@@ -1178,7 +1228,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "orcamento-bruto-registro-integral"
+      ]
     },
     {
       "id": "especificacao",
@@ -1207,7 +1260,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "exclusividade",
@@ -1236,7 +1290,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "exclusividade-suplementar-vs-especial"
+      ]
     },
     {
       "id": "receitas-correntes",
@@ -1265,7 +1322,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "receitas-capital",
@@ -1294,7 +1352,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "receita-capital-alienacao-vs-destinacao"
+      ]
     },
     {
       "id": "alienacao",
@@ -1323,7 +1384,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "receita-capital-alienacao-vs-destinacao"
+      ]
     },
     {
       "id": "amortizacao-emprestimo",
@@ -1352,7 +1416,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "institucional",
@@ -1381,7 +1446,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "classificacao-institucional-vs-programatica"
+      ]
     },
     {
       "id": "funcional",
@@ -1410,7 +1478,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "projeto",
@@ -1439,7 +1508,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "projeto-acao-vs-gnd-investimento"
+      ]
     },
     {
       "id": "atividade",
@@ -1472,7 +1544,8 @@
       "contrast": {
         "prompt": "Projeto × atividade: construir e manter uma escola são o mesmo tipo de ação?",
         "answer": "Construir a escola exemplifica projeto; manter seu funcionamento exemplifica atividade."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "operacao-especial",
@@ -1501,7 +1574,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "gnd",
@@ -1530,7 +1604,11 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "gnd-vs-elemento-vs-fonte",
+        "projeto-acao-vs-gnd-investimento"
+      ]
     },
     {
       "id": "elemento",
@@ -1559,7 +1637,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "gnd-vs-elemento-vs-fonte"
+      ]
     },
     {
       "id": "amortizacao-divida",
@@ -1588,7 +1669,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "ativo",
@@ -1617,7 +1699,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "passivo",
@@ -1646,7 +1729,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "patrimonio-liquido",
@@ -1675,7 +1759,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "vpa",
@@ -1708,7 +1793,8 @@
       "contrast": {
         "prompt": "VPA × VPD: qual é o efeito sobre a situação patrimonial líquida?",
         "answer": "VPA aumenta e VPD diminui a situação patrimonial líquida, excluídas contribuições e distribuições aos proprietários."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "vpd",
@@ -1737,7 +1823,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "competencia",
@@ -1766,7 +1853,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "dvp",
@@ -1795,7 +1883,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "divida-consolidada",
@@ -1824,7 +1913,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "controle-preventivo",
@@ -1859,7 +1949,8 @@
       "contrast": {
         "prompt": "Controle preventivo × detectivo: em que momento atuam?",
         "answer": "Preventivo procura reduzir a ocorrência; detectivo identifica o evento já ocorrido."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "controle-detectivo",
@@ -1890,7 +1981,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "desenho-controle",
@@ -1919,7 +2011,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "operacao-controle",
@@ -1948,7 +2041,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "inspecao-documental-para-testar-operacao-do-controle"
+      ]
     },
     {
       "id": "resposta-risco",
@@ -1979,7 +2075,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "aceitacao-risco",
@@ -2010,7 +2107,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "monitoramento",
@@ -2039,7 +2137,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "avaliacao",
@@ -2068,7 +2167,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "contrafactual",
@@ -2097,7 +2197,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "resultado-observado-versus-causalidade"
+      ]
     },
     {
       "id": "eficacia",
@@ -2126,7 +2229,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "eficiencia",
@@ -2159,7 +2263,8 @@
       "contrast": {
         "prompt": "Eficiência × eficácia: atingir a meta significa usar bem os recursos?",
         "answer": "Não necessariamente. Eficácia avalia alcance da meta; eficiência relaciona recursos e produtos com qualidade preservada."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "efetividade",
@@ -2188,7 +2293,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "equidade",
@@ -2217,7 +2323,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "conflito-interesses",
@@ -2248,7 +2355,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": [
+        "conflito-interesse-sem-ato-ilicito"
+      ]
     },
     {
       "id": "informacao-privilegiada",
@@ -2279,7 +2389,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "transparencia-ativa",
@@ -2312,7 +2423,8 @@
       "contrast": {
         "prompt": "Transparência ativa × passiva: o que distingue as duas?",
         "answer": "Ativa é divulgação sem solicitação; passiva é resposta a um pedido de acesso."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "transparencia-passiva",
@@ -2341,7 +2453,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "accountability",
@@ -2370,7 +2483,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "dado-pessoal",
@@ -2399,7 +2513,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "dado-sensivel",
@@ -2428,7 +2543,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "motivo",
@@ -2457,7 +2573,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "motivacao",
@@ -2486,7 +2603,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "anulacao",
@@ -2519,7 +2637,8 @@
       "contrast": {
         "prompt": "Anulação × revogação: qual é o fundamento de cada retirada?",
         "answer": "Anulação: ilegalidade, observados os limites jurídicos. Revogação: conveniência ou oportunidade de ato válido, nos limites legais."
-      }
+      },
+      "conceptIds": []
     },
     {
       "id": "revogacao",
@@ -2548,7 +2667,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "convalidacao",
@@ -2577,7 +2697,8 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
     },
     {
       "id": "despesa-orcamentaria",
@@ -2606,7 +2727,44 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1
+      "revision": 1,
+      "conceptIds": []
+    },
+    {
+      "id": "consultoria-previa-e-objetividade",
+      "term": "Consultoria prévia e avaliação posterior",
+      "definition": "Possibilidade de avaliar operações antes objeto de consultoria, condicionada à preservação da objetividade e ao gerenciamento da objetividade individual na designação da equipe.",
+      "example": "Uma equipe facilitou uma oficina de riscos sem decidir ou executar os controles. A avaliação posterior exige examinar a natureza da consultoria e os riscos à objetividade.",
+      "confusion": "A mera consultoria anterior não cria impedimento temporal automático. Assumir atribuições de gestão é situação diferente.",
+      "topic": "Objetividade e consultoria",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.5"
+      ],
+      "note": {
+        "articleId": "art-2fcfb61ee9284dcc",
+        "section": "Consultoria anterior e avaliação posterior (item 53)"
+      },
+      "source": {
+        "title": "CGU: Referencial Técnico",
+        "url": "https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/pgmq/arquivos/in-sfc-03-2017-referencial-tecnico.pdf/@@download/file",
+        "locator": "IN SFC nº 3/2017, itens 52 e 53"
+      },
+      "contrast": {
+        "prompt": "Facilitar uma oficina de riscos sem decidir os controles e executar os controles são a mesma situação para a objetividade?",
+        "answer": "Não. A consultoria prévia exige exame de sua natureza e gerenciamento da objetividade. Executar controles é atribuição de gestão e exige tratar os impedimentos e responsabilidades correspondentes."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "consultoria-previa-objetividade"
+      ]
     }
   ]
 }

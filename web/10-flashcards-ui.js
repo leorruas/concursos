@@ -19,6 +19,10 @@
     }
     function dashboard() {
         const stats=F.stats(filtered(),state);
+        const profile=state.priorities;
+        const priorities=profile?.entries.filter(p=>p.examId===$('exam').value&&(!$('subject').value||p.subjectId===$('subject').value))||[];
+        $('errors-status').textContent=profile ? `${new Set(priorities.map(p=>p.cardId)).size} cartões vinculados neste recorte · corte ${profile.cut}. Fila editorial sem cartão: ${profile.unmappedCount}. Válido para novas rodadas; importe outra versão após novas baterias.` : 'Importe o arquivo de prioridades do estudo para orientar as próximas rodadas.';
+        show('errors-clear',!!profile);
         $('stats').replaceChildren(...[['known','Conhecidos'],['learning','Em aprendizagem'],['unknown','Ainda não sei'],['due','Precisam de revisão'],['unseen','Ainda não estudados']].map(([key,label])=>{
             const box=document.createElement('div'), n=document.createElement('strong'), t=document.createElement('span');n.textContent=stats[key];t.textContent=label;box.append(n,t);return box;
         }));
@@ -41,6 +45,9 @@
         $('position').textContent=`${String(s.position+1).padStart(2,'0')} / ${String(s.queue.length).padStart(2,'0')} · ${catalog.subjects.find(x=>x.id===s.subject)?.title || catalog.exams.find(e=>e.id===s.exam)?.title || s.exam}`;
         $('progress').max=s.queue.length;$('progress').value=s.position;
         $('kind').textContent=`${c.topic} / ${q.direction==='reverse'?'DEFINIÇÃO → TERMO':q.direction==='contrast'?'CONTRASTE':'TERMO → DEFINIÇÃO'}`;
+        const priority=F.studyPriority(c.id,state,{exam:s.exam,subject:s.subject});
+        show('priority-hint',!!priority);
+        $('priority-hint').textContent=priority ? (priority.priority===400?'Erro conceitual recorrente nas questões':priority.priority===300?'Erro nas questões':priority.priority===200?'Recuperação incerta nas questões':'Revisão posterior à recuperação imediata')+' · lembrar este cartão não encerra a lacuna das questões.' : '';
         $('prompt').textContent=q.direction==='reverse'?c.definition:q.direction==='contrast'?c.contrast.prompt:c.term;
         $('answer-title').textContent=c.term;
         $('definition').textContent=q.direction==='contrast'?c.contrast.answer:c.definition;
@@ -67,10 +74,21 @@
         $('form').addEventListener('submit',e=>{
             e.preventDefault();
             if(state.session&&state.session.position<state.session.queue.length&&!confirm('Substituir a rodada em andamento? As revisões já feitas serão preservadas.'))return;
-            const o=scope(),queue=F.select(cards,state,o);
+            const o=scope();
+            if(o.mode==='errors'&&!state.priorities){status('Importe primeiro o arquivo de prioridades das questões.');return;}
+            const queue=F.select(cards,state,o);
             if(!queue.length){status('Nenhum cartão disponível neste recorte. Tente outra matéria, direção ou tipo de sessão.');return;}
             save({...state,session:{...o,queue,position:0}});corrupt=false;render();
         });
+        $('errors-import').addEventListener('change',async e=>{
+            try {
+                const file=e.target.files[0];if(!file)return;if(file.size>2000000)throw Error('Arquivo maior que 2 MB.');
+                const priorities=F.validatePriorities(JSON.parse(await file.text()),cards);
+                save({...state,priorities});dashboard();
+                if(storageOK)status('Prioridades das questões importadas. Suas revisões e a rodada salva foram preservadas; novas rodadas usam este corte.');
+            } catch(error) {status('Prioridades recusadas: '+error.message);}finally{e.target.value='';}
+        });
+        $('errors-clear').addEventListener('click',()=>{save({...state,priorities:null});dashboard();if(storageOK)status('Prioridades removidas. O histórico dos cartões foi preservado.');});
         $('exam').addEventListener('change',subjects);$('subject').addEventListener('change',dashboard);
         $('resume').addEventListener('click',render);
         $('pause').addEventListener('click',()=>{home();status(storageOK?'Rodada pausada e salva. Use “Continuar rodada salva” para retomar.':'Rodada pausada em memória. Exporte para não perder o progresso.');});

@@ -13,6 +13,7 @@ export function validateFlashcards(data,root) {
     for(const c of data.cards) {
         assert.match(c.id,/^[a-z0-9]+(?:-[a-z0-9]+)*$/);assert.ok(!ids.has(c.id),'ID duplicado: '+c.id);ids.add(c.id);
         for(const k of ['term','definition','example','confusion','topic']) assert.ok(typeof c[k]==='string'&&c[k].trim()&&c[k].length<=600,`${c.id}: campo ${k} ausente/longo`);
+        assert.ok(Array.isArray(c.conceptIds)&&new Set(c.conceptIds).size===c.conceptIds.length&&c.conceptIds.every(id=>typeof id==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)),c.id+': conceitos inválidos');
         assert.equal(c.status,'validated');assert.match(c.reviewedAt,/^\d{4}-\d{2}-\d{2}$/);assert.ok(Number.isInteger(c.revision)&&c.revision>0);
         assert.ok(c.examIds.length&&c.examIds.every(id=>exams.has(id)));assert.ok(c.subjectIds.length&&c.subjectIds.every(id=>subjects.has(id)));
         assert.ok(c.editalRefs.length&&c.editalRefs.every(x=>typeof x==='string'&&/^P\d/.test(x)));
@@ -32,6 +33,7 @@ if(process.argv[1]===fileURLToPath(import.meta.url)) {
  if(process.argv.includes('--site')) {
   const site=path.join(root,'_site'),manifest=JSON.parse(fs.readFileSync(path.join(site,'manifest.json')));
   const data=JSON.parse(fs.readFileSync(path.join(site,'data/flashcards.json')));
+  assert.ok(!fs.existsSync(path.join(site,'data/contexto-estudo/flashcards-prioridades.json')),'Perfil pessoal não pode ser publicado no site');
   for(const c of data.cards)assert.ok(manifest.some(a=>a.articleId===c.note.articleId),'Nota não publicada: '+c.id);
   for(const f of ['flashcards.html','web/09-flashcards-engine.js','web/10-flashcards-ui.js'])assert.ok(fs.existsSync(path.join(site,f)),f);
   assert.deepEqual(data,JSON.parse(fs.readFileSync(path.join(root,'data/flashcards.json'))));

@@ -38,3 +38,15 @@ O armazenamento pertence à origem, navegador e dispositivo. Não sincroniza com
 6. Publicar pelo workflow existente. Confirmar o HEAD final, a coleção ao vivo, a página e os links do manifesto. Uma revisão só está publicada depois disso.
 
 Ampliação seguinte: aprofundar Contabilidade (demonstrações, custos e estatais) e as frentes ainda sem cartões específicos — Estado e Democracia, Sociedade Brasileira, Finanças, Evidências/Dados/IA, Contratações e Transferências. O esquema já comporta essas coleções sem mudança na interface; não apresentar a estrutura preparada como conteúdo concluído.
+
+## Ligação com erros das questões
+
+A coleção pública contém `conceptIds` explícitos, revisados editorialmente. A consolidação em `study-sessions.js` usa `flashcard-priorities.js` e as páginas completas de lacunas geradas, não apenas as 20 visíveis. Gera `data/contexto-estudo/flashcards-prioridades.json`, incluído nas saídas automáticas e excluído do site. O perfil acompanha o histórico no repositório: não é segredo em um repositório público. Não copia enunciados ou respostas para a coleção de cartões.
+
+Hierarquia: erro conceitual recorrente pendente, demais erros pendentes, incerteza/chute/branco, revisão posterior de recuperação imediata. Retenção observada e histórico substituído não geram prioridade; falhas posteriores reabrem a fila conforme o motor de estudo. Recuperação imediata só entra a partir da data de revisão. Conceitos sem cartão aparecem em `unmapped`, sem aproximação automática por palavras. A fila orienta a consolidação editorial; não inventa cartões ou sessões.
+
+No site, importar o arquivo pelo controle “Importar prioridades”. A importação substitui apenas a fotografia de prioridades; preserva avaliações e a rodada já iniciada, que não é reordenada no meio. Novas rodadas mistas priorizam a evidência importada e podem retomar um cartão com erro pendente mesmo antes do vencimento local. O modo “Erros das questões” usa somente as prioridades elegíveis; “Novos” e “Revisões pendentes” mantêm seus filtros. O modo difícil reúne dificuldades locais e de questões. Pontuação de prioridade não é nota nem previsão competitiva.
+
+O progresso local continua no formato 1, agora com `priorities` opcional, incluído no backup. Backups antigos continuam válidos. Alterar autoavaliação do cartão não resolve erro no perfil; só nova evidência em questões muda o diagnóstico após nova consolidação e importação. Conceitos e concursos seguem isolados. O corte importado aparece na tela; não existe sincronização automática entre GitHub e armazenamento local.
+
+Primeira integração: vínculos conferidos para orçamento, causalidade em políticas públicas e teste de controle. Acrescentado cartão de consultoria prévia/objetividade (IN SFC 3/2017, itens 52 e 53) para um erro recorrente documentado. Outras lacunas permanecem na fila editorial.

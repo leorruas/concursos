@@ -5,6 +5,31 @@
   "entries": [
     {
       "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "aud-rastreamento-integridade",
+      "priority": 400,
+      "status": "pendente",
+      "recurrences": 2,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "rastreamento-integridade",
+        "vouching-ocorrencia-versus-integridade"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "operacao-controle",
+      "priority": 400,
+      "status": "pendente",
+      "recurrences": 2,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "inspecao-documental-para-testar-operacao-do-controle"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
       "subjectId": "orcamento-publico",
       "cardId": "aro",
       "priority": 300,
@@ -13,6 +38,19 @@
       "dueOn": "2026-11-05",
       "conceptIds": [
         "aro-extraorcamentaria-vs-credito-capital"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "aud-risco-residual",
+      "priority": 300,
+      "status": "pendente",
+      "recurrences": 2,
+      "dueOn": "2026-10-31",
+      "conceptIds": [
+        "risco-residual-independe-de-eficacia-comprovada",
+        "risco-residual-controle"
       ]
     },
     {
@@ -37,6 +75,79 @@
       "dueOn": "2026-11-05",
       "conceptIds": [
         "receita-capital-alienacao-vs-destinacao"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "aud-analitico-substantivo",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 2,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "procedimento-analitico-substantivo"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "aud-confirmacao-externa",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "indagacao-versus-confirmacao-externa",
+        "confirmacao-externa-versus-rastreamento"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "aud-indagacao-corroboracao",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "indagacao-versus-confirmacao-externa"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "aud-programa-trabalho",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "programa-de-trabalho-planejamento-versus-execucao"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "aud-raint-parecer",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "raint-versus-parecer-contas"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "aud-segunda-terceira-linha",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "segunda-versus-terceira-linha"
       ]
     },
     {
@@ -127,6 +238,42 @@
     {
       "examId": "cgu-2026",
       "subjectId": "auditoria-governamental",
+      "cardId": "aud-impedimento-24-meses",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 2,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "consultoria-previa-objetividade"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "aud-recalculo-insumos",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "recalculo-versus-validade-de-dados"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
+      "cardId": "aud-vouching-ocorrencia",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "vouching-ocorrencia-versus-integridade"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
       "cardId": "consultoria-previa-e-objetividade",
       "priority": 100,
       "status": "recuperacao-imediata",
@@ -186,18 +333,6 @@
     },
     {
       "examId": "cgu-2026",
-      "subjectId": "auditoria-governamental",
-      "cardId": "operacao-controle",
-      "priority": 100,
-      "status": "recuperacao-imediata",
-      "recurrences": 1,
-      "dueOn": "2026-11-05",
-      "conceptIds": [
-        "inspecao-documental-para-testar-operacao-do-controle"
-      ]
-    },
-    {
-      "examId": "cgu-2026",
       "subjectId": "orcamento-publico",
       "cardId": "programacao-financeira",
       "priority": 100,
@@ -252,15 +387,6 @@
     {
       "examId": "cgu-2026",
       "subjectId": "auditoria-governamental",
-      "conceptId": "risco-residual-independe-de-eficacia-comprovada",
-      "status": "pendente",
-      "priority": 300,
-      "recurrences": 1,
-      "dueOn": "2026-10-31"
-    },
-    {
-      "examId": "cgu-2026",
-      "subjectId": "auditoria-governamental",
       "conceptId": "transferencia-de-gestao-para-auditoria",
       "status": "pendente",
       "priority": 300,
@@ -269,35 +395,8 @@
     },
     {
       "examId": "cgu-2026",
-      "subjectId": "auditoria-governamental",
-      "conceptId": "raint-versus-parecer-contas",
-      "status": "pendente",
-      "priority": 200,
-      "recurrences": 1,
-      "dueOn": "2026-11-05"
-    },
-    {
-      "examId": "cgu-2026",
-      "subjectId": "auditoria-governamental",
-      "conceptId": "recalculo-versus-validade-de-dados",
-      "status": "pendente",
-      "priority": 200,
-      "recurrences": 1,
-      "dueOn": "2026-11-05"
-    },
-    {
-      "examId": "cgu-2026",
       "subjectId": "orcamento-publico",
       "conceptId": "receita-originaria-doutrina-vs-patrimonial",
-      "status": "pendente",
-      "priority": 200,
-      "recurrences": 1,
-      "dueOn": "2026-11-05"
-    },
-    {
-      "examId": "cgu-2026",
-      "subjectId": "auditoria-governamental",
-      "conceptId": "segunda-versus-terceira-linha",
       "status": "pendente",
       "priority": 200,
       "recurrences": 1,
@@ -387,34 +486,7 @@
     {
       "examId": "cgu-2026",
       "subjectId": "auditoria-governamental",
-      "conceptId": "procedimento-analitico-substantivo",
-      "status": "recuperacao-imediata",
-      "priority": 100,
-      "recurrences": 1,
-      "dueOn": "2026-11-05"
-    },
-    {
-      "examId": "cgu-2026",
-      "subjectId": "auditoria-governamental",
       "conceptId": "relatorio-anterior-arquivo-permanente",
-      "status": "recuperacao-imediata",
-      "priority": 100,
-      "recurrences": 1,
-      "dueOn": "2026-11-05"
-    },
-    {
-      "examId": "cgu-2026",
-      "subjectId": "auditoria-governamental",
-      "conceptId": "risco-residual-controle",
-      "status": "recuperacao-imediata",
-      "priority": 100,
-      "recurrences": 2,
-      "dueOn": "2026-11-05"
-    },
-    {
-      "examId": "cgu-2026",
-      "subjectId": "auditoria-governamental",
-      "conceptId": "vouching-ocorrencia-versus-integridade",
       "status": "recuperacao-imediata",
       "priority": 100,
       "recurrences": 1,

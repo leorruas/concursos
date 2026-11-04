@@ -80,18 +80,26 @@
     },
     {
       "key": "Auditoria Governamental / aprendizagem",
-      "total": 46,
-      "correct": 40,
-      "incorrect": 6,
+      "total": 54,
+      "correct": 46,
+      "incorrect": 8,
       "blank": 0,
       "annulled": 0,
-      "answered": 46,
-      "valid": 46,
-      "accuracy": 0.8695652173913043,
-      "sample": "insuficiente"
+      "answered": 54,
+      "valid": 54,
+      "accuracy": 0.8518518518518519,
+      "sample": "volume >= 50; verificar representatividade"
     }
   ],
   "recentSessions": [
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-confronto-u07-procedimentos-b01",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-04-confronto-u07-procedimentos-b01.json",
+      "status": "concluido",
+      "diagnosis": "Confronto didático C/E da u07 com 8 itens inéditos elaborados após consulta a itens identificados da CGE/AL 2026. Resultado 6/8, com erros seguros Q1 (inspeção documental aplicada a teste de controle) e Q7 (rastreamento documento de origem para registro), e acertos declarados inseguros Q2 (programa de trabalho), Q3 (indagação versus confirmação externa), Q6 (procedimento analítico substantivo com dado não financeiro), Q8 (circularização versus rastreamento). Q4 e Q5 corretas com confiança segura. Não há equivalência estatística comprovada com corpus real; a unidade permanece em estudo pela reincidência de Q1/Q7.",
+      "nextStep": "Reparar por casos novos as fronteiras teste de controle versus substantivo e rastreamento versus vouching, preservando dúvidas sobre programa de trabalho, indagação/confirmacão externa, análise substantiva e circularização. Fazer revisão espaçada após intervalo; só então decidir fechamento didático e conferir as notas, sem declarar benchmark calibrado."
+    },
     {
       "id": "cgu-2026-auditoria-2026-11-04-analiticos-u07-recuperacao",
       "date": "2026-11-04",
@@ -107,89 +115,29 @@
       "status": "concluido",
       "diagnosis": "Bateria didática de aplicação: 5 itens C/E, 4 acertos, 1 erro, 0 brancos, unidades u02 (2/2) e u07 (2/3). Q1 e Q2 corretas com confiança secure: recuperação imediata de consultoria anterior versus impedimento por responsabilidade operacional nos 24 meses. Q3 incorreta com confiança insecure: procedimento analítico substantivo por expectativa de valor total de bolsas; erro classificado provisoriamente como confusão conceitual, sem justificativa do estudante. Q4 correta com confiança insecure: recálculo versus validade dos dados de elegibilidade, permanece para revisão. Q5 correta e segura: limite temporal da observação. Treino com retomadas mecânicas e temáticas, sem calibração Cebraspe, sem medição autônoma de retenção.",
       "nextStep": "Na unidade 07, reparar procedimento analítico substantivo versus teste de detalhes com caso novo baseado em finalidade, expectativa e dados. Retestar após intervalo Q4 recálculo e validade dos insumos; manter revisão u02 consultoria e impedimento recuperados imediatamente, bem como dúvidas u03 segunda/terceira linha e u04 RAINT/parecer. Só fazer treino para valer após corpus Cebraspe oficial identificado; concluir editorialmente u07 apenas no fechamento didático."
-    },
-    {
-      "id": "cgu-2026-2026-11-04-orcamento-publico-b06",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
-      "status": "parcial",
-      "diagnosis": "Bateria 06, artigo 04: 6/8 acertos (itens 1,2,3,5,7,8); erros seguros nos itens 4 (ARO extraorçamentária versus operação comum como receita de capital) e 6 (troca entre classificação institucional e programática), ambos confusão conceitual. Acertos inseguros nos itens 2,3,7,8 (alienação/destinação; origem doutrinária/natureza; projeto/GND; GND/elemento/fonte). Item 1 foi recuperação segura no mesmo dia de exclusividade versus crédito especial da bateria 05, sem demonstração de retenção.",
-      "nextStep": "Treinar duas fronteiras por casos contrastivos: ARO como ingresso extraorçamentário versus operação de crédito orçamentária de capital; institucional (quem) versus programática (qual política/ação). Recuperar quatro acertos inseguros por novos mecanismos. Prosseguir no artigo 04 por fonte/destinação e resultado primário; manter revisão espaçada prevista para 2026-11-05 das lacunas do orçamento, inclusive regionalização do PPA."
     }
   ],
   "recentMechanisms": [
     "analise-para-selecao-objetos",
     "aritmetica-nao-comprova-elegibilidade",
+    "aritmetica-notas-nao-prova-quantidade-entregue",
     "autorizou-pagamentos-ha-18-meses",
     "avaliacao-de-ameacas-apos-consultoria",
-    "comparar-tratamento-orcamentario-de-dois-emprestimos",
-    "distinguir-categoria-economica-e-destinacao",
-    "distinguir-classificador-oficial-de-criterio-doutrinario",
-    "distinguir-niveis-da-natureza-e-fonte-dos-recursos",
-    "distinguir-quem-executa-de-objetivo-e-acao",
-    "distinguir-tipo-de-acao-e-natureza-da-despesa",
+    "baixa-patrimonial-documentos-para-registros",
+    "confirmacao-formal-direta-saldo-fornecedor",
+    "cruzar-refeicoes-e-valores-pagos",
     "exame-individual-pagamentos",
     "expectativa-beneficios-meses",
     "expectativa-com-beneficiarios-e-valores",
-    "identificar-especie-de-credito-em-caso-novo",
+    "informacao-telefonica-fornecedores",
     "operacao-controle-ao-longo-do-exercicio",
+    "prever-cruzamento-notas-e-recebimento",
     "qualidade-expectativa-e-dados",
-    "reconhecer-combinacao-matricial-com-ressalvas",
+    "reexecutar-triagem-e-comparar-resultados",
+    "teste-controle-consulta-cadastro-fornecedores",
     "total-nao-comprova-cada-concessao"
   ],
   "review": [
-    {
-      "id": "cgu26-auditoria-un06-q6",
-      "topic": "Evidências e documentação de auditoria",
-      "result": "incorrect",
-      "confidence": "unknown",
-      "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
-      ]
-    },
-    {
-      "id": "cgu26-auditoria-un06-revisao-q1",
-      "topic": "Evidências e documentação de auditoria",
-      "result": "incorrect",
-      "confidence": "unknown",
-      "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
-      ]
-    },
-    {
-      "id": "cgu26-auditoria-un06-para-valer-q6",
-      "topic": "Evidências e documentação de auditoria",
-      "result": "incorrect",
-      "confidence": "unknown",
-      "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md#Refinamento: fronteiras do treino da unidade 06"
-      ]
-    },
-    {
-      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada-q4",
-      "topic": "Procedimentos e testes de auditoria",
-      "result": "incorrect",
-      "confidence": "insecure",
-      "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar"
-      ]
-    },
-    {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem-q3",
-      "topic": "Problema, desenho e avaliabilidade de políticas públicas",
-      "result": "incorrect",
-      "confidence": "unknown",
-      "theoryRefs": []
-    },
-    {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final-q4",
-      "topic": "Monitoramento e avaliação",
-      "result": "incorrect",
-      "confidence": "unknown",
-      "theoryRefs": [
-        "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Mudança observada, efeito causal e contrafactual"
-      ]
-    },
     {
       "id": "cgu-2026-2026-11-04-orcamento-publico-b01-q2",
       "topic": "Ciclo orçamentário",
@@ -408,13 +356,67 @@
       "theoryRefs": [
         "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Três fronteiras examinadas em prova"
       ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-confronto-u07-procedimentos-b01-q1",
+      "topic": "Procedimentos e testes de auditoria",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Teste de controle: desenho versus efetividade operacional"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-confronto-u07-procedimentos-b01-q2",
+      "topic": "Procedimentos e testes de auditoria",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria#Matriz, programa e supervisão"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-confronto-u07-procedimentos-b01-q3",
+      "topic": "Procedimentos e testes de auditoria",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Indagação, confirmação externa e procedimentos analíticos"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-confronto-u07-procedimentos-b01-q6",
+      "topic": "Procedimentos e testes de auditoria",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Procedimento substantivo: detalhes e análise"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-confronto-u07-procedimentos-b01-q7",
+      "topic": "Procedimentos e testes de auditoria",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Três fronteiras examinadas em prova"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-confronto-u07-procedimentos-b01-q8",
+      "topic": "Procedimentos e testes de auditoria",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Indagação, confirmação externa e procedimentos analíticos"
+      ]
     }
   ],
   "resume": {
     "subjectId": "auditoria-governamental",
     "path": "data/contexto-estudo/cgu-2026/auditoria-governamental.json",
-    "lastSessionId": "cgu-2026-auditoria-2026-11-04-analiticos-u07-recuperacao",
-    "time": 1793822487000
+    "lastSessionId": "cgu-2026-auditoria-2026-11-04-confronto-u07-procedimentos-b01",
+    "time": 1793822760000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

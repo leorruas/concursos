@@ -26,7 +26,7 @@ Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessõ
 | cgu-2026 / Orçamento Público / aprendizagem | 35 | 7 | 0 | 0 | 83.3% | insuficiente |
 | cgu-2026 / Auditoria Governamental / revisao | 34 | 5 | 0 | 0 | 87.2% | insuficiente |
 | cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |
-| cgu-2026 / Auditoria Governamental / aprendizagem | 40 | 6 | 0 | 0 | 87.0% | insuficiente |
+| cgu-2026 / Auditoria Governamental / aprendizagem | 46 | 8 | 0 | 0 | 85.2% | volume >= 50; verificar representatividade |
 
 Microtreinos são diagnósticos do recorte, sem nota integral. Simulados históricos mantêm seus resultados próprios abaixo.
 <!-- estudo-sessoes:fim -->

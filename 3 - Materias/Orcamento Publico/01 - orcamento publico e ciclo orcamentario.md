@@ -35,6 +35,25 @@ O **orçamento público** é instrumento jurídico de autorização e controle, 
 
 Um valor **fixado na LOA** é uma dotação autorizada, não prova de pagamento, entrega ou impacto. Um valor **pago** também não basta para concluir que a política alcançou sua finalidade. Essa diferença interessa tanto à gestão orçamentária quanto à [[3 - Materias/Auditoria Governamental/auditoria-governamental|auditoria governamental]] e à [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|avaliação de políticas públicas]].
 
+## Dotação orçamentária: autorização e limite de gasto
+
+**Dotação orçamentária** é o **valor autorizado no orçamento para uma despesa ou programação específica**, identificado nas classificações legais e registrado na Lei Orçamentária Anual (LOA) ou em seus créditos adicionais. Ela indica **quanto pode ser comprometido**, dentro das regras e limites aplicáveis. Dotação é uma **autorização para despesa**, não um saldo de dinheiro depositado em conta.
+
+**Exemplo:** a LOA prevê uma **dotação de R$ 2 milhões** para reforma de escolas. O órgão tem autorização orçamentária nesse montante, mas pode receber um **limite de empenho** inferior, conforme a programação e as restrições vigentes. Ainda é preciso contratar regularmente, empenhar, comprovar a execução para liquidar e observar a disponibilidade financeira para pagar. Se R$ 1,5 milhão tiver sido empenhado e R$ 800 mil pago, nenhum desses valores poderá ser identificado automaticamente como o total da dotação.
+
+As distinções que precisam permanecer separadas são:
+
+- **Dotação:** valor **autorizado** para despesa.
+- **Limite de empenho:** parcela que a programação permite **comprometer** naquele momento.
+- **Empenho:** ato que **compromete o crédito orçamentário**, nas condições legais.
+- **Disponibilidade financeira ou caixa:** recursos financeiros disponíveis, observadas fontes e vinculações.
+- **Pagamento:** efetiva saída de recursos para quitar obrigação regularmente liquidada e ordenada.
+- **Entrega e resultado:** o que foi produzido e a mudança observada na realidade; exigem evidências próprias.
+
+**Pegadinha de Certo/Errado:** “A existência de dotação suficiente na LOA assegura, por si só, a disponibilidade de recursos financeiros para pagar a despesa.” **Errado.** A dotação permite a despesa nos limites legais, mas não assegura imediatamente caixa, pagamento ou entrega. O mesmo vale no sentido inverso: possuir dinheiro não dispensa a autorização orçamentária necessária.
+
+A diferença entre **dotação e créditos adicionais** será aprofundada em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]]. **Limitação de empenho e cronograma financeiro** serão tratados em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]]. A base é a Lei nº 4.320/1964, especialmente arts. 2º, 40 a 43 e 58 a 65, e a LRF, arts. 8º e 9º.
+
 ## Estrutura do ciclo orçamentário
 
 A apresentação didática mais comum separa o ciclo em quatro momentos. **É uma classificação analítica**, não um calendário em que uma fase só começa depois que todas as demais terminaram: planejamento de um exercício pode ocorrer enquanto outro orçamento está em execução e um terceiro passa por controle.

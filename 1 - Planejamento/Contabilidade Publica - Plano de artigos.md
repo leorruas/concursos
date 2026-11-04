@@ -1,7 +1,7 @@
 ---
 title: "Contabilidade Pública: plano de artigos e recuperação"
 type: "planejamento"
-status: "planejado"
+status: "em-execucao"
 created: 2026-11-04
 updated: 2026-11-04
 ---
@@ -12,7 +12,7 @@ updated: 2026-11-04
 
 Preparar a matéria de **Contabilidade Pública** para a CGU 2026, Cargo 1 Auditoria, **Cebraspe, Certo/Errado**. A correspondência editorial está no recorte **P3.2**, sobretudo informação contábil, demonstrações, custos, provisões, informações societárias e governança de estatais. A fonte de programa é [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist]]; o PDF oficial e eventuais retificações prevalecem.
 
-**Estado em 04/11/2026:** o [[3 - Materias/Contabilidade Publica/contabilidade-publica|hub da matéria]] ainda é um roteiro, sem artigos próprios especializados publicados. Há **14 flashcards** vinculados a Contabilidade, vários fundamentados em notas de Orçamento Público. O contexto `data/contexto-estudo/cgu-2026/contabilidade-publica.json` indica preparação dos fundamentos; **nenhuma unidade ou retenção pode ser declarada concluída pela criação deste plano**.
+**Estado inicial em 04/11/2026:** o [[3 - Materias/Contabilidade Publica/contabilidade-publica|hub da matéria]] era um roteiro sem artigos próprios; **lote C1 publicado no mesmo dia**, com as notas 01 e 02. Há **14 flashcards** vinculados a Contabilidade, vários fundamentados em notas de Orçamento Público. O contexto `data/contexto-estudo/cgu-2026/contabilidade-publica.json` indica preparação dos fundamentos; **nenhuma unidade ou retenção pode ser declarada concluída pela criação deste plano**.
 
 **Princípio editorial:** separar a ótica orçamentária, a patrimonial, a financeira e a de custos. Não converter balanço, despesa, desembolso e custo em sinônimos. O plano prevê **10 artigos potenciais**, que subdividem unidades existentes do programa, sem criar automaticamente dez unidades de aprendizagem.
 
@@ -20,8 +20,8 @@ Preparar a matéria de **Contabilidade Pública** para a CGU 2026, Cargo 1 Audit
 
 | Ordem | Nota prevista em `3 - Materias/Contabilidade Publica/` | Conteúdo e fronteira de prova | Recorte CGU / prioridade | Estado |
 | :--- | :--- | :--- | :--- | :--- |
-| 01 | `01 - patrimonio publico e regimes de reconhecimento.md` | Ativo, passivo, PL, VPA/VPD, competência patrimonial × receitas arrecadadas e despesas empenhadas; distinguir aquisição de ativo de consumo | Fundamentos e P3.2.4; **P0** | Planejada; reutilizar teoria orçamentária |
-| 02 | `02 - balanco orcamentario e balanco financeiro.md` | Previsão/fixação/execução × entradas e saídas financeiras; leitura de quadros, RP e saldos; comparar BO × BF | P3.2.4; **P0** | Planejada |
+| 01 | `01 - patrimonio publico e regimes de reconhecimento.md` | Ativo, passivo, PL, VPA/VPD, competência patrimonial × receitas arrecadadas e despesas empenhadas; distinguir aquisição de ativo de consumo | Fundamentos e P3.2.4; **P0** | **Publicado no lote C1**; teoria orçamentária reutilizada |
+| 02 | `02 - balanco orcamentario e balanco financeiro.md` | Previsão/fixação/execução × entradas e saídas financeiras; leitura de quadros, RP e saldos; comparar BO × BF | P3.2.4; **P0** | **Publicado no lote C1** |
 | 03 | `03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md` | Estoques e fluxos; patrimônio líquido, VPA, VPD e resultado patrimonial; BP × DVP × BO | P3.2.4; **P0** | Planejada |
 | 04 | `04 - fluxos de caixa notas explicativas e conciliacoes.md` | DFC, classificação de fluxos, notas, conciliações e critérios de leitura; fluxo de caixa × resultado patrimonial | P3.2.4; **P1** | Planejada |
 | 05 | `05 - custos publicos fundamentos e objetos de custo.md` | Gasto, despesa, custo, desembolso; custo de serviço, objeto de custos, eficiência e custo unitário | P3.2.5; **P0** | Planejada |
@@ -32,6 +32,8 @@ Preparar a matéria de **Contabilidade Pública** para a CGU 2026, Cargo 1 Audit
 | 10 | `10 - governanca transparencia e finalidade publica das estatais.md` | Lei 13.303/2016, conselhos, controles, carta anual, políticas públicas e sustentabilidade; empresa controlada × dependente | P3.2.7; **P2** | Planejada |
 
 **P0, P1 e P2 são prioridades editoriais internas**, não uma frequência medida de cobrança. A divisão em arquivos é proposta: se as fontes mostrarem forte dependência entre dois tópicos, consolidar com critério, mantendo uma única nota canônica por conceito. **Não criar 10 resumos curtos** apenas para completar a lista.
+
+**Registro de execução em 04/11/2026:** [01 Patrimônio e regimes] publicado em [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|nota canônica]]; [02 BO e BF] publicado em [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|nota canônica]]. Fontes-base: MCASP 11ª edição (Parte I 3.4; Parte V 2 e 3), Lei 4.320/1964, PCASP e NBC TSP Estrutura Conceitual (R1). **Pendências:** notas 03 a 10, confronto detalhado com todos os subitens e estudo efetivo.
 
 ## Lotes de execução: pequenos, completos e verificáveis
 

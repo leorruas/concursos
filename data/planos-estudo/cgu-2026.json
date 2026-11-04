@@ -1815,16 +1815,19 @@
           "editalItems": [
             "P3.2.4"
           ],
-          "noteRefs": [],
+          "noteRefs": [
+            "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento"
+          ],
           "requires": [],
           "sourceIds": [
             "mcasp"
           ],
-          "coverage": "ausente",
+          "coverage": "parcial",
           "plannedConcepts": [
             "objeto da contabilidade pública",
             "execução orçamentária versus financeira versus variação patrimonial"
-          ]
+          ],
+          "noteRole": "base-canônica-desenvolvida-nao-estudada"
         },
         {
           "id": "up3-2-4",
@@ -1832,6 +1835,8 @@
             "P3.2.4"
           ],
           "noteRefs": [
+            "3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro",
+            "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [
@@ -1840,14 +1845,14 @@
           "sourceIds": [
             "mcasp"
           ],
-          "coverage": "base-adjacente",
+          "coverage": "parcial",
           "recommendedPrerequisites": [
             {
               "subjectId": "orcamento-publico",
               "unitId": "up3-2-3"
             }
           ],
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "noteRole": "bo-bf-preparados-bp-dvp-e-conciliacoes-pendentes"
         },
         {
           "id": "up3-2-5",

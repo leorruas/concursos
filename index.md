@@ -129,6 +129,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|10 • Conta Única e execução financeira]]
    - [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|11 • Responsabilidade fiscal e controle]]
 12. [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]
+   - [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|01 • Patrimônio público e regimes de reconhecimento]]
+   - [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|02 • Balanço Orçamentário e Balanço Financeiro]]
 13. [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Avaliação de políticas públicas]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|01 • Teoria da mudança: fundamentos da avaliação]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas|02 • Implementação de políticas públicas]]

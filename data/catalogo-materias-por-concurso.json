@@ -178,7 +178,10 @@
           "rotulo": "Contabilidade Pública",
           "itemEdital": "P3.2",
           "hubArticleId": "art-3a7092089cf44cce",
-          "articleIds": []
+          "articleIds": [
+            "art-85b3a61ad09e44c1",
+            "art-420d779b988c4cc8"
+          ]
         },
         {
           "subjectId": "politicas-publicas",

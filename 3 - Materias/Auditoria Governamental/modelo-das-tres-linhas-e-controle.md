@@ -5,7 +5,7 @@ title: "Modelo das três linhas e sistema de controle"
 type: "conceito"
 status: "ativo"
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-04
 ---
 
 # Modelo das três linhas e sistema de controle
@@ -54,17 +54,67 @@ Agora usamos uma **segunda classificação**, referente aos serviços que a fun�
 
 - **Avaliar:** examinar concessões e controles, obtendo evidências para concluir se as regras estão sendo cumpridas.
 - **Prestar consultoria:** orientar a gestão na identificação de riscos e no aperfeiçoamento de controles, **sem decidir ou executar por ela**.
-- **Apurar:** investigar indícios concretos de pagamentos irregulares e documentar os fatos para os encaminhamentos cabíveis.
+- **Apurar, quando tiver competência atribuída:** investigar indícios concretos de pagamentos irregulares e documentar fatos para encaminhamentos. Esta atribuição pertence aos órgãos e unidades do SCI; para Audin singular, depende de previsão normativa ou de atribuição pela administração, conforme MOT, capítulo 2.
 
-**Ligação lógica:** as três linhas classificam **papéis e responsabilidades na organização**; avaliação, consultoria e apuração classificam **modalidades de trabalho da auditoria interna**. As três modalidades podem ocorrer no exercício do papel de terceira linha. **Não existe correspondência “primeira linha = avaliação, segunda = consultoria, terceira = apuração”.**
+**Ligação lógica:** as três linhas classificam **papéis e responsabilidades na organização**; avaliação e consultoria são **serviços típicos de auditoria interna**, enquanto apuração é **competência legal dos órgãos do SCI** e, em certas condições, também pode ser atribuída à Audin. A execução de qualquer uma dessas atividades não muda o posicionamento de terceira linha da UAIG. **Não existe correspondência “primeira linha = avaliação, segunda = consultoria, terceira = apuração”.**
 
 ### Ponto de prova do Cebraspe
 
-**Item inédito (C/E):** “Como a CGU realiza avaliações, consultorias e apurações, cada um desses três serviços corresponde, respectivamente, a uma linha do modelo de governança adotado pelo Poder Executivo federal.”
+**Item inédito (C/E):** “Como órgãos de controle realizam avaliações, consultorias e, conforme suas competências, apurações, essas três formas de atuação correspondem respectivamente à primeira, à segunda e à terceira linhas do modelo de governança adotado pelo Executivo federal.”
 
-**Errado.** O enunciado mistura dois critérios de classificação: linhas organizacionais e modalidades de serviço. A auditoria interna exerce papel de terceira linha e pode executar os três serviços sem migrar de linha.
+**Errado.** O enunciado mistura papéis organizacionais, serviços de auditoria e competência de apuração. A auditoria interna exerce papel de terceira linha ao avaliar, prestar consultoria e, quando competente, apurar, sem migrar de linha.
 
 **Fontes:** [IIA, Modelo das Três Linhas](https://www.theiia.org/en/resources/statements-of-position/); [IN Conjunta MP/CGU nº 1/2016, texto disponibilizado pela CGU](https://wiki.cgu.gov.br/index.php?title=Instru%C3%A7%C3%A3o_Normativa_Conjunta_MP-CGU_n%C2%BA_01%2C_de_10_de_maio_de_2016); [CGU, Sistema de Controle Interno](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/sistema-de-controle-interno); [CGU, Serviços de Auditoria](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/uaig/perguntas-frequentes).
+
+## Estrutura institucional: Sistema de Controle Interno, Audin e controle externo
+
+A classificação das **três linhas** descreve funções de governança. Outra classificação, prevista na **Constituição, arts. 70 a 74**, na **Lei nº 10.180/2001, arts. 19 a 24**, e no **Decreto nº 3.591/2000, arts. 14 e 15**, define **competências institucionais**. A auditoria interna governamental do Executivo federal precisa ser situada nos dois eixos.
+
+### Quem integra o SCI e quem o auxilia
+
+| Posição jurídica e organizacional | Unidade | Competência e fronteira |
+| :--- | :--- | :--- |
+| **Órgão central do SCI** | **Secretaria Federal de Controle Interno (SFC)**, na CGU | Exerce orientação normativa, supervisão técnica e atividades de auditoria de sua competência no Executivo federal |
+| **Órgãos setoriais do SCI** | Secretarias de Controle Interno (CISET), nos âmbitos definidos por lei e regulamentação; o portal da CGU também relaciona a auditoria interna do Banco Central | Atuam em sua jurisdição, sob orientação normativa e supervisão técnica do órgão central |
+| **Unidades setoriais** | Centros de Controle Interno dos comandos militares | Exercem atribuições setoriais, dentro da estrutura e da área de competência pertinentes |
+| **Órgãos auxiliares do SCI** | **Audin singulares** de órgãos e entidades do Executivo federal | Prestam serviços de auditoria interna na própria organização e se sujeitam à orientação normativa e à supervisão técnica, **sem se converterem em órgão central ou setorial** |
+| **Controle externo, fora do SCI** | **Congresso Nacional com auxílio do Tribunal de Contas da União (TCU)** | Fiscaliza a Administração conforme as atribuições constitucionais, em arranjo distinto da auditoria interna |
+
+A **Lei nº 10.180/2001, art. 22**, identifica integrantes do SCI como **SFC e órgãos setoriais**. A classificação das **Audin como órgãos auxiliares** aparece no Referencial Técnico e no MOT. **Não equiparar “órgão auxiliar do SCI” a “órgão integrante do SCI”**, pois a diferença influencia, inclusive, a competência para apuração.
+
+A página institucional da CGU enumera, no âmbito setorial, CISET da Presidência, Relações Exteriores, Defesa e Advocacia-Geral da União, além da auditoria interna do Banco Central; as unidades setoriais estão relacionadas aos comandos militares. A configuração e as denominações podem depender de legislação organizacional específica. Na prova, confrontar o **nível jurídico da unidade** com o comando do enunciado.
+
+### Supervisão técnica não transfere subordinação administrativa
+
+O **MOT** define supervisão técnica como orientação, normatização, capacitação e avaliação destinadas a harmonizar o trabalho das UAIG e promover qualidade. **Supervisão técnica não implica subordinação hierárquica.** A Audin singular integra a estrutura institucional do órgão ou entidade em que está estabelecida, ainda que se submeta a requisitos e orientações da CGU/SFC.
+
+Pelo **Decreto nº 3.591/2000, art. 14**, entidades da Administração Federal indireta devem organizar unidade de auditoria interna; quando a demanda não justificar uma unidade, o ato de organização deve prever a atividade por auditor interno. Pelo **art. 15, §§ 3º a 5º**, a auditoria vincula-se ao **conselho de administração ou órgão equivalente**; se não existir, subordina-se diretamente ao **dirigente máximo**, vedada delegação a outra autoridade. A aprovação da nomeação ou dispensa do titular possui regras próprias, incluindo aprovação da CGU nos termos do dispositivo.
+
+**Distinção tripla:** o vínculo administrativo da Audin é com a sua entidade e instância de governança; **supervisão técnica** é exercida pelo SCI; **independência e objetividade** são requisitos do exercício profissional. Uma relação não elimina a outra.
+
+### O que o SCI avalia e qual é seu limite perante o TCU?
+
+O **art. 74 da Constituição** e os **arts. 19 a 21 da Lei nº 10.180/2001** definem, entre as finalidades do sistema de controle interno: **avaliar metas do Plano Plurianual (PPA), execução de programas e orçamentos; comprovar legalidade e avaliar eficácia e eficiência da gestão e uso de recursos; controlar operações de crédito, avais, garantias, direitos e haveres da União; e apoiar o controle externo**.
+
+**Controle externo federal** é exercido pelo **Congresso Nacional com auxílio do TCU** (CF, arts. 70 e 71). A distinção de competência é particularmente cobrável: **o TCU aprecia as contas anuais do Presidente da República e emite parecer prévio**; **o Congresso Nacional julga as contas do Presidente**; o **TCU julga as contas dos demais administradores e responsáveis indicados no art. 71, II**. Não trocar parecer prévio por julgamento das contas presidenciais.
+
+O **art. 74, § 1º**, determina que responsáveis pelo controle interno, ao conhecerem **irregularidade ou ilegalidade**, deem ciência ao **TCU**, sob pena de responsabilidade solidária, na forma constitucional. Essa obrigação de comunicar **não transforma o SCI em órgão de controle externo nem confere ao TCU subordinação hierárquica sobre toda Audin**. Sua operacionalização observa as instâncias e normas aplicáveis.
+
+**Apoiar controle externo** pode incluir troca de informações, experiências e ações integradas. **Cooperar não é exercer a competência do outro Poder.** A distinção deve ser preservada também quando a CGU examina recursos federais aplicados por municípios ou organizações privadas.
+
+### Exemplo aplicado e item didático
+
+Uma autarquia possui Audin própria. A SFC/CGU pode realizar auditoria na autarquia dentro de suas competências; o TCU exerce controle externo. **Audin e SFC têm posições diferentes no sistema de auditoria interna; o TCU integra outra estrutura constitucional.**
+
+**Item didático C/E:** “A supervisão técnica da CGU faz da Audin singular uma unidade administrativamente subordinada à SFC.” **Errado.** A supervisão normativa e técnica não implica subordinação hierárquica.
+
+**Fontes normativas:**
+
+- [Constituição Federal, arts. 70, 71 e 74](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+- [Lei nº 10.180/2001, arts. 19 a 24](https://wiki.cgu.gov.br/index.php/Lei_n%C2%BA_10.180,_de_6_de_fevereiro_de_2001).
+- [Decreto nº 3.591/2000, arts. 14 e 15](https://wiki.cgu.gov.br/index.php?title=Decreto_n%C2%BA_3.591,_de_6_de_setembro_de_2000).
+- [CGU, Sistema de Controle Interno: central, setoriais, unidades setoriais e auxiliares](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/sistema-de-controle-interno).
+- [CGU, MOT: conceitos de UAIG, Audin e supervisão técnica](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
 
 ## Modelo das três linhas
 

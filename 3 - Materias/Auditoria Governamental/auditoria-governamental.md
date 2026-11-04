@@ -25,6 +25,8 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 - [[3 - Materias/Auditoria Governamental/amostragem-e-generalizacao|Amostragem e generalização]]: populações, métodos e inferência, unidade 08.
 - [[3 - Materias/Auditoria Governamental/achados-causas-e-indicios-de-fraude|Achados, causas e indícios de fraude]]: critério, condição, causa, efeito e apuração, unidade 09.
 - [[3 - Materias/Auditoria Governamental/comunicacao-e-relatorios-de-auditoria|Comunicação e relatórios]]: instrumentos, manifestações e recomendações, unidade 10.
+- [[3 - Materias/Auditoria Governamental/monitoramento-de-recomendacoes-e-beneficios|Monitoramento e benefícios]]: atendimento, efetividade, risco aceito, benefícios financeiros e não financeiros, unidade 11.
+- [[3 - Materias/Auditoria Governamental/supervisao-e-qualidade-da-auditoria|Supervisão e qualidade]]: supervisor, PGMQ, avaliações internas e externas, unidade 12.
 - [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|03. Independência, objetividade, impedimentos e supervisão]]: autonomia, regra dos 24 meses, conflitos, salvaguardas e revisão técnica.
 - [[3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria|Sigilo profissional, acesso e transparência]]: uso de informações, comunicação institucional e acesso aos resultados de auditoria.
 - [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|04. Proficiência, zelo, ceticismo e especialistas]]: itens 59 a 68; capacidade coletiva/individual, segurança razoável e limites do julgamento.
@@ -34,7 +36,7 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 
 ## Plano de artigos e retomada
 
-O [[1 - Planejamento/Auditoria Governamental - Plano de artigos|plano editorial]] distingue as notas existentes, os quatro artigos preparados (unidades 07 a 10) e as lacunas de 11 a 14. Para retomar o estudo, priorizar `CHAT.md` e `data/contexto-estudo/cgu-2026/auditoria-governamental.json`, que apontam para a unidade, a etapa e a nota correspondentes. **Publicação da nota não significa aula concluída.**
+O [[1 - Planejamento/Auditoria Governamental - Plano de artigos|plano editorial]] distingue as notas existentes, os seis artigos preparados (unidades 07 a 12) e as lacunas de 13 e 14. Para retomar o estudo, priorizar `CHAT.md` e `data/contexto-estudo/cgu-2026/auditoria-governamental.json`, que apontam para a unidade, a etapa e a nota correspondentes. **Publicação da nota não significa aula concluída.**
 
 ## Planejamento de aprofundamento para o intensivão CGU
 
@@ -54,8 +56,8 @@ O [[1 - Planejamento/Auditoria Governamental - Plano de artigos|plano editorial]
 | 08 | **Amostragem e generalização** | População, unidade amostral, critérios de seleção, métodos probabilísticos × não probabilísticos, risco de amostragem, ampliação de testes × alteração de escopo | **Nota preparada** em [[3 - Materias/Auditoria Governamental/amostragem-e-generalizacao\|Amostragem]]; aula e exercícios ainda não registrados |
 | 09 | **Achados, causas e fraude** | Critério, condição, causa, efeito, materialidade, evidências e responsabilização; achado × irregularidade; indício de fraude e encaminhamento | **Nota preparada** em [[3 - Materias/Auditoria Governamental/achados-causas-e-indicios-de-fraude\|Achados e fraude]]; aula e exercícios não registrados |
 | 10 | **Comunicação e relatórios** | Discussão de achados, manifestação, conclusões, recomendações, relatórios e limites; informar × decidir | **Nota preparada** em [[3 - Materias/Auditoria Governamental/comunicacao-e-relatorios-de-auditoria\|Comunicação e relatórios]]; panorama no [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#3. Comunicação: transformar evidências em conclusões úteis\|etapa de comunicação]]; aula e exercícios não registrados |
-| 11 | **Monitoramento, ações e benefícios** | Recomendação × plano de ação; gestor implementa, auditor verifica; cumprimento formal × efetividade; benefício financeiro e não financeiro, riscos residuais | Panorama na [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#4. Monitoramento: verificar a resposta e o resultado\|etapa de monitoramento]]; **aprofundar** |
-| 12 | **Supervisão e qualidade da auditoria** | Revisão dos trabalhos, supervisão técnica, Programa de Gestão e Melhoria da Qualidade (PGMQ), avaliações internas/externas, supervisão × independência | **Pendente** |
+| 11 | **Monitoramento, ações e benefícios** | Recomendação × plano de ação; gestão implementa, UAIG verifica; atendimento × efetividade; benefícios e riscos aceitos | **Nota preparada:** [[3 - Materias/Auditoria Governamental/monitoramento-de-recomendacoes-e-beneficios\|Monitoramento e benefícios]]; aula e bateria ainda não registradas |
+| 12 | **Supervisão e qualidade da auditoria** | Supervisão individual, Programa de Gestão e Melhoria da Qualidade (PGMQ), avaliações internas e externas; independência | **Nota preparada:** [[3 - Materias/Auditoria Governamental/supervisao-e-qualidade-da-auditoria\|Supervisão e qualidade]]; aula e bateria ainda não registradas |
 | 13 | **Dados, análise e IA aplicados à auditoria** | Tratamento e validação de dados, trilha de auditoria, qualidade, vieses, cruzamentos, rastreabilidade, limites e validação humana de resultados da IA | **Pendente** |
 | 14 | **Integração das funções da CGU** | Auditoria × ouvidoria × transparência × integridade × correição × responsabilização; encaminhamentos, proteção da informação, diferenças institucionais | **Pendente** |
 

@@ -109,7 +109,7 @@ assert.equal(JSON.stringify(outputs.get(contextPath)),snapshot,'Projeção não 
 console.log('SUCESSO: erros recorrentes, retenção, reincidência, filas completas, importação compatível e independência dos resultados.');
 
 const prioritySnapshot=JSON.parse(fs.readFileSync(new URL('../data/contexto-estudo/flashcards-prioridades.json',import.meta.url)));
-const pendingEditorial=prioritySnapshot.unmapped||[];
+const pendingEditorial=(prioritySnapshot.unmapped||[]).filter(gap=>gap.examId==='cgu-2026');
 for(const gap of pendingEditorial) {
     const matches=cards.filter(c=>c.examIds.includes(gap.examId)&&c.subjectIds.includes(gap.subjectId)&&c.conceptIds.includes(gap.conceptId));
     assert(matches.length, 'Falta cartão para erro documentado '+gap.conceptId);

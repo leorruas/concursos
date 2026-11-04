@@ -22,10 +22,10 @@ O eixo da **P3, item 3, da CGU 2026** possui sete unidades. A existência de uma
 
 | Unidade | Conteúdo e fronteiras que precisam ser dominados | Cobertura editorial |
 | :--- | :--- | :--- |
-| 01 | Problema, desenho e avaliabilidade: teoria da mudança, modelo lógico, hipóteses, população elegível e evidências | Introdução em [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|Teoria da mudança]]; permanecem aprofundamentos de desenho e avaliabilidade |
-| 02 | Implementação: coordenação federativa, burocracia de linha de frente, capacidades, processos e riscos | [[3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas|Nota aprofundada]], com encerramento didático documentado; revisão espaçada e treino calibrado pendentes |
-| 03 | Monitoramento e avaliação: produtos, resultados e impactos; eficácia, eficiência, efetividade, equidade; ex ante e ex post | [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas|Nota aprofundada]]; erro de atribuição causal registrado para reteste, sem retenção demonstrada |
-| 04 | Pesquisa qualitativa e métodos mistos: casos, entrevistas, grupos, observação, triangulação e generalização | Bases parciais em [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa em comunicação]] |
+| 01 | Problema, desenho e avaliabilidade: teoria da mudança, modelo lógico, hipóteses, população elegível e evidências | Introdução em [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca\|Teoria da mudança]]; permanecem aprofundamentos de desenho e avaliabilidade |
+| 02 | Implementação: coordenação federativa, burocracia de linha de frente, capacidades, processos e riscos | [[3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas\|Nota aprofundada]], com encerramento didático documentado; revisão espaçada e treino calibrado pendentes |
+| 03 | Monitoramento e avaliação: produtos, resultados e impactos; eficácia, eficiência, efetividade, equidade; ex ante e ex post | [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas\|Nota aprofundada]]; erro de atribuição causal registrado para reteste, sem retenção demonstrada |
+| 04 | Pesquisa qualitativa e métodos mistos: casos, entrevistas, grupos, observação, triangulação e generalização | Bases parciais em [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao\|Pesquisa em comunicação]] |
 | 05 | Inferência causal e avaliação econômica: contrafactual, confundimento, métodos quase experimentais, custo-benefício e custo-efetividade | Nota especializada pendente |
 | 06 | Conclusões e recomendações: validade, incerteza, heterogeneidade, viabilidade e benefícios | Nota especializada pendente |
 | 07 | Ética e pesquisa: consentimento quando aplicável, segurança, dados e distinções com auditoria | Nota especializada pendente |

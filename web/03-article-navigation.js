@@ -134,7 +134,7 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
     // 4. Oculta comentários brutos restantes do Obsidian (%% comentário geral %%) igual ao modo de leitura
     markdownLimpo = markdownLimpo.replace(/%%[\s\S]*?%%/g, '');
 
-    const matematicaProtegida = protegerBlocosMatematicosMarkdown(markdownLimpo);
+    const matematicaProtegida = protegerBlocosMatematicosMarkdown(escaparSeparadoresWikilinksEmTabelas(markdownLimpo));
     marked.setOptions({ gfm: true, breaks: true });
     const htmlRenderizado = marked.parse(matematicaProtegida.markdown);
     artigoCorpo.innerHTML = restaurarBlocosMatematicosHtml(

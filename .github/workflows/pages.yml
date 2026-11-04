@@ -61,6 +61,8 @@ jobs:
         run: node scripts/test-contest-home-filter.js
       - name: Testar filtro de artigos por concurso
         run: node scripts/test-contest-article-filter.js
+      - name: Testar busca contextual por concurso
+        run: node scripts/test-contest-search-scope.js
       - name: Testar home sem desempenho em provas
         run: node scripts/test-home-without-provas.js
       - name: Testar transações multi-arquivo

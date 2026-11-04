@@ -88,7 +88,9 @@ Esta primeira associação é um **mapa editorial de navegação**, não uma dec
 
 **Fase 4: rotas contextuais e biblioteca completa.** As rotas de home, matéria e artigo suportam `?concurso=<id>` ou `?biblioteca=1`; a seção do artigo continua em `?secao=<id>`. O seletor de ambas as telas oferece "todas matérias" e preserva o concurso no histórico. Artigos acessados por links diretos permanecem disponíveis mesmo fora do programa, com aviso; a navegação anterior/próximo usa a lista filtrada. Links sem contexto continuam válidos.
 
-**Próxima fase:** busca por edital com opção de buscar em todo o vault, testes do fluxo completo e publicação final.
+**Fase 5: busca contextual.** Resultados são filtrados pelos mesmos `sourcePath` do catálogo do concurso, antes de aplicar o ranking; assim, a busca não mistura conteúdos exclusivos de outros editais. Acima dos resultados, é possível alternar entre "buscar em [concurso]" e "todo o vault", inclusive quando não há resultados. O modo biblioteca geral busca em todo o conteúdo público. O escopo global temporário é reiniciado ao mudar de concurso; a busca mantém o algoritmo de relevância já validado.
+
+**Verificação final:** testes de catálogo, filtros da home e das matérias, rotas com seção, busca contextual e global, build e auditoria de publicação do GitHub Pages.
 
 ## Critérios de aceite
 
@@ -98,4 +100,4 @@ Esta primeira associação é um **mapa editorial de navegação**, não uma dec
 - Matéria não prevista no concurso escolhido gera mensagem clara; artigo público aberto por link direto permanece acessível. Os estados de concurso são preservados na navegação.
 - Não há vazamento de dados de estudo ou arquivos privados; a busca geral continua disponível e os testes mais o Pages confirmam o comportamento implantado.
 
-**Estado atual:** catálogo público, grade e artigos filtrados, seletor nas duas superfícies, URLs contextuais e biblioteca geral implementados. Busca contextual permanece pendente.
+**Estado atual:** catálogo público, grade e artigos filtrados, seletor nas duas superfícies, URLs contextuais, biblioteca geral e busca contextual implementados. A pertinência de cada artigo segue o catálogo editorial, não inferência automática por palavras do título.

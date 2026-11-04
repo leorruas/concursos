@@ -17,6 +17,21 @@
       ]
     },
     {
+      "examId": "dataprev-2026",
+      "subjectId": "informatica",
+      "cardId": "dp-marco-prazos-registros",
+      "priority": 400,
+      "status": "pendente",
+      "recurrences": 4,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim07-q37-marco-civil",
+        "legado-err-sim06-q37-marco-civil",
+        "legado-err-sim05-q37-marco-civil-prazos",
+        "legado-err-sim04-q37-marco-civil-prazos"
+      ]
+    },
+    {
       "examId": "cgu-2026",
       "subjectId": "auditoria-governamental",
       "cardId": "operacao-controle",
@@ -99,6 +114,32 @@
       "dueOn": "2026-11-05",
       "conceptIds": [
         "avaliabilidade-modelo-logico-reconstrucao"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "cardId": "dp-duarte-eixos",
+      "priority": 300,
+      "status": "pendente",
+      "recurrences": 2,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim06-q42-duarte",
+        "legado-err-sim04-q41-duarte"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "logica",
+      "cardId": "dp-logica-contrapositiva",
+      "priority": 300,
+      "status": "pendente",
+      "recurrences": 2,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim02-q35",
+        "legado-err-bat-20260904-contrapositiva"
       ]
     },
     {
@@ -208,6 +249,234 @@
       "dueOn": "2026-10-31",
       "conceptIds": [
         "supervisao-tecnica-versus-interferencia"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "cardId": "dp-7ps-process-evidencia",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim04-q45-7ps"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "cardId": "dp-amostragem-sistematica",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim07-q57-sistematica"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "cardId": "dp-ampulheta-jornalismo",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim07-q42-ampulheta"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "logica",
+      "cardId": "dp-bloco-contagem",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim04-q28-bloco"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "logica",
+      "cardId": "dp-complemento-contagem",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim05-q27-complemento"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "portugues",
+      "cardId": "dp-crase-locucoes",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim07-q05-crase"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "cardId": "dp-crise-dark-site",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim07-q43-dark-site"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "cardId": "dp-ehling-politica",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim06-q43-ehling"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "portugues",
+      "cardId": "dp-hifen-prefixos",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim04-q11-hifen"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "cardId": "dp-lage-entrevista",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim07-q52-lage"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "logica",
+      "cardId": "dp-logica-p-se-q",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-bat-20260902-se"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "logica",
+      "cardId": "dp-logica-somente-se",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim05-q02-necessaria"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "portugues",
+      "cardId": "dp-manual-injuncao",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim06-q07-tipo-genero"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "cardId": "dp-mattos-populista",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim06-q65-mattos"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "cardId": "dp-mattos-tecnologico",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim05-q47-tv-mattos"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "portugues",
+      "cardId": "dp-que-integrante-relativo",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim06-q01-que"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "portugues",
+      "cardId": "dp-sujeito-contexto",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim07-q03-sujeito"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "cardId": "dp-telejornalismo-partes",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim05-q49-telejornalismo"
+      ]
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "portugues",
+      "cardId": "dp-voz-passiva-tempo",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-04",
+      "conceptIds": [
+        "legado-err-sim07-q12-passiva"
       ]
     },
     {
@@ -536,6 +805,79 @@
       ]
     }
   ],
-  "unmapped": [],
-  "policy": "Erros de questões orientam prioridade. Autoavaliação de flashcard não altera recuperação/retencão no estudo. Importar nova versão substitui apenas as prioridades."
+  "unmapped": [
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "portugues",
+      "conceptId": "legado-err-bat-20260914-adversativa-concessiva",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-04"
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "portugues",
+      "conceptId": "legado-err-sim04-q07-referencia",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-04"
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "atualidades",
+      "conceptId": "legado-err-sim04-q30-metas",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-04"
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "portugues",
+      "conceptId": "legado-err-sim05-q12-discurso-indireto",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-04"
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "comunicacao",
+      "conceptId": "legado-err-sim05-q48-manchetado-exceto",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-04"
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "atualidades",
+      "conceptId": "legado-err-sim06-q30-saeb",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-04"
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "ingles",
+      "conceptId": "legado-err-sim07-q24-titulo",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-04"
+    },
+    {
+      "examId": "dataprev-2026",
+      "subjectId": "logica",
+      "conceptId": "legado-err-sim07-q29-idades",
+      "status": "pendente",
+      "priority": 200,
+      "recurrences": 1,
+      "dueOn": "2026-11-04"
+    }
+  ],
+  "policy": "Erros de questões orientam prioridade. Legado Dataprev pendente é fotografia histórica, não falha atual de retenção. Autoavaliação de cartão não altera o estudo. Importar nova versão substitui apenas as prioridades."
 }

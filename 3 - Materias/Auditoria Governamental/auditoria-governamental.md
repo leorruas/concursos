@@ -5,7 +5,7 @@ title: "Auditoria governamental"
 type: "hub"
 status: "ativo"
 created: 2026-10-30
-updated: 2026-11-03
+updated: 2026-11-04
 ---
 
 # Auditoria governamental
@@ -28,6 +28,10 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 
 - [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]]: resultados separados por modalidade, erros e revisão.
 
+## Plano de artigos e retomada
+
+O [[1 - Planejamento/Auditoria Governamental - Plano de artigos|plano editorial]] distingue as notas existentes, os dois artigos preparados (unidades 07 e 08) e as lacunas de 09 a 14. Para retomar o estudo, priorizar `CHAT.md` e `data/contexto-estudo/cgu-2026/auditoria-governamental.json`, que apontam para a unidade, a etapa e a nota correspondentes. **Publicação da nota não significa aula concluída.**
+
 ## Planejamento de aprofundamento para o intensivão CGU
 
 **Recorte do edital:** P2, item **5. Fundamentos de auditoria governamental e atuação integrada da CGU**; P3, item **1. Auditoria governamental: avaliação, consultoria e apuração**. O roteiro abaixo organiza esses subitens em **unidades de conhecimento**. As outras frentes da P3, como orçamento e contabilidade, avaliação de políticas, contratações, transferências e responsabilização, exigem seus próprios roteiros de matéria e não devem desaparecer dentro desta disciplina.
@@ -43,7 +47,7 @@ Estudo canônico e reutilizável sobre auditoria interna governamental, com ênf
 | 05 | **Planejamento individual e desenho da auditoria** | Objetivo, objeto, escopo, critérios, questões/subquestões, matriz de planejamento, programa de trabalho, risco de auditoria, supervisão, alterações justificadas | **Aula consolidada em [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria\|nota própria]] em 03/11**; **aprendizagem 4/6, revisão 6/6 e para valer 8/8 (03/11)**; um acerto por chute em consultoria, dois erros históricos recuperados; **concluída didaticamente**, revisão espaçada pendente |
 | 06 | **Evidências e documentação** | Evidência × indício × conclusão; suficiência, adequação, confiabilidade, relevância, rastreabilidade; fontes e papéis de trabalho; limitações | **Encerrada didaticamente em 03/11:** aprendizagem 5/6, revisão dirigida 3/4, aplicada 2/2 e para valer 6/8 (**16/20**). Nota canônica [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao\|Evidências e documentação]]; erro em relatórios anteriores como papéis permanentes e branco sobre dois auditores na observação exclusiva; revisão espaçada pendente. |
 | 07 | **Procedimentos e testes de auditoria** | Inspeção, observação, confirmação, entrevista/indagação, recálculo, reexecução, revisão analítica; teste de controle × procedimento substantivo | **Em aprendizagem:** 4/4 em 03/11/2026; treino para valer e consolidação ainda pendentes |
-| 08 | **Amostragem e generalização** | População, unidade amostral, critérios de seleção, métodos estatísticos × não estatísticos, risco de amostragem, ampliação de testes × alteração de escopo | **Pendente** |
+| 08 | **Amostragem e generalização** | População, unidade amostral, critérios de seleção, métodos probabilísticos × não probabilísticos, risco de amostragem, ampliação de testes × alteração de escopo | **Nota preparada** em [[3 - Materias/Auditoria Governamental/amostragem-e-generalizacao|Amostragem]]; aula e exercícios ainda não registrados |
 | 09 | **Achados, causas e fraude** | Critério, condição, causa, efeito, materialidade, evidências e responsabilização; achado × mera irregularidade; indício de fraude, comunicação e encaminhamento | **Pendente** |
 | 10 | **Comunicação e relatórios** | Discussão de achados, manifestação da unidade, conclusões, recomendações, relatórios, limitações, qualidade e clareza; informar × decidir | Panorama na [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#3. Comunicação: transformar evidências em conclusões úteis\|etapa de comunicação]]; **aprofundar** |
 | 11 | **Monitoramento, ações e benefícios** | Recomendação × plano de ação; gestor implementa, auditor verifica; cumprimento formal × efetividade; benefício financeiro e não financeiro, riscos residuais | Panorama na [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#4. Monitoramento: verificar a resposta e o resultado\|etapa de monitoramento]]; **aprofundar** |

@@ -86,7 +86,21 @@ No orçamento federal, os três componentes da LOA têm **recortes diferentes**:
 - **Orçamento da seguridade social:** reúne a programação vinculada a **saúde, previdência social e assistência social** (CF, arts. 194 e 195, § 2º). Exemplos: atendimento financiado pelo SUS, benefícios previdenciários pagos pelo INSS e Benefício de Prestação Continuada (BPC). **Pode haver despesas de investimento na seguridade**, como obras de infraestrutura de saúde.
 - **Orçamento de investimento das empresas estatais:** contempla investimentos de empresas em que a União possua, direta ou indiretamente, **mais da metade do capital votante**, considerando as regras de classificação das estatais. Exemplo: aquisição de equipamentos para ampliar a produção de uma empresa estatal **não dependente**. Esse orçamento não corresponde a todas as despesas operacionais da empresa.
 
-Há uma distinção adicional importante. A **empresa estatal dependente**, definida no art. 2º, III, da LRF pelo recebimento de recursos do ente controlador para determinadas despesas, tem, **como regra**, sua programação integral nos orçamentos **fiscal ou da seguridade social**, conforme a atividade. O orçamento de investimento reúne, em regra, os investimentos de **estatais não dependentes**. A legislação orçamentária pode prever situações específicas de transição ou tratamento especial, por isso a classificação não deve ser reduzida apenas à existência de controle societário.
+#### Empresa controlada × estatal dependente × estatal não dependente
+
+São **duas perguntas independentes**: **quem controla o capital com direito a voto?** e **para que a empresa recebe recursos do ente controlador?** A Lei Complementar nº 101/2000, **Lei de Responsabilidade Fiscal (LRF)**, art. 2º, separa esses conceitos:
+
+| Conceito | Critério jurídico | Consequência para a LOA federal |
+| :--- | :--- | :--- |
+| **Empresa controlada** (art. 2º, II) | União ou outro ente federativo detém, direta ou indiretamente, a **maioria do capital social com direito a voto** | Define controle societário, **sem dizer se a empresa é dependente** |
+| **Empresa estatal dependente** (art. 2º, III) | Empresa controlada que **recebe recursos do ente controlador** para pagar **pessoal, custeio em geral ou despesas de capital**, ressalvada, nas despesas de capital, a hipótese de **aumento da participação acionária** | Sua programação integra, **em regra**, os orçamentos **fiscal ou da seguridade social**, conforme a área |
+| **Empresa estatal não dependente** | Empresa controlada que **não se enquadra na definição de dependência** do art. 2º, III | Seus **investimentos** integram, em regra, o **orçamento de investimento das estatais** |
+
+**Atenção aos três usos da palavra “capital”:** **capital social com direito a voto** define quem **controla** a sociedade; **despesas de capital** dizem respeito ao tipo de gasto (como investimentos); e **aumento de participação acionária** é uma hipótese de aporte expressamente **excluída do critério de dependência**, quando relacionada à despesa de capital. Uma empresa não se torna dependente pelo simples fato de ter 51%, 80% ou 100% das ações votantes em mãos públicas.
+
+**Exemplo comparativo:** duas empresas têm **80% do capital votante controlado pela União**. A empresa A recebe transferência da União para pagar salários: **controlada e dependente**. A empresa B paga pessoal e custeio com receitas de sua atividade e recebe apenas aporte destinado ao aumento de participação acionária: **controlada e não dependente**, considerando esses fatos. Não se exige que uma estatal não dependente seja lucrativa em todos os exercícios nem que nunca tenha recebido qualquer recurso público: importa a **natureza do recurso e sua destinação legal**.
+
+**Fronteira de prova (CGU, Cebraspe C/E):** “maioria do capital votante” é o critério de **controle**, não o critério de **dependência**. Na LOA, a classificação por esfera deve considerar também o regime orçamentário da empresa. A legislação pode prever situações de transição entre regimes, que exigem consulta às regras do exercício. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Esfera × natureza da despesa|classificação por esfera]] e [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario#Planejamento fiscal: PPA, LDO, LOA e LRF|abrangência da LRF]].
 
 **Mesmo tipo de gasto, esferas distintas:** construir uma escola pela administração pública pertence ao **fiscal**; construir uma unidade de saúde com programação da seguridade pertence à **seguridade**; ampliar instalações produtivas de estatal não dependente pertence ao **investimento**. As três despesas podem ser investimentos no sentido da **natureza da despesa**, mas são classificadas em esferas orçamentárias diferentes.
 
@@ -173,6 +187,8 @@ Para a vigência do PPA, lembrar: **segundo ano de um mandato → primeiro ano d
 - Texto organizado do art. 165 no Senado: https://legis.senado.leg.br/norma/579494/publicacao/16434817
 - Lei Complementar nº 101/2000 (LRF), arts. 1º, §§ 2º e 3º, 2º, III, e 4º: https://legis.senado.leg.br/norma/572856/publicacao/34621009
 - Manual Técnico do Orçamento (MTO), capítulo de classificação da despesa por esfera: https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4
+- Manual Técnico do Orçamento de Investimento (MTOI 2026), item 5.1 (classificação das estatais): https://www.gov.br/gestao/pt-br/assuntos/estatais/orcamento/MTOI_2026.pdf
+- Congresso Nacional, Glossário Orçamentário: [Orçamento de Investimento de Empresa Estatal](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-orcamentario/-/orcamentario/termo/orcamento_de_investimento_de_empresa_estatal)
 - Senado, *Legislação Orçamentária*: https://www12.senado.leg.br/orcamento/legislacao-orcamentaria
 - Manual Técnico de Orçamento (MTO 2027), seção 5.5, participantes e responsabilidades na elaboração da LDO: https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2027%3Amto2027_1a_versao.pdf
 - Plano Plurianual 2024–2027, Lei nº 14.802/2024: https://legis.senado.leg.br/norma/38150943/publicacao/38151432

@@ -25,7 +25,7 @@ Preparar a matéria de **Contabilidade Pública** para a CGU 2026, Cargo 1 Audit
 | 03 | `03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md` | Estoques e fluxos; patrimônio líquido, VPA, VPD e resultado patrimonial; BP × DVP × BO | P3.2.4; **P0** | **Publicado no lote C2** |
 | 04 | `04 - fluxos de caixa notas explicativas e conciliacoes.md` | DFC, classificação de fluxos, notas, conciliações e critérios de leitura; fluxo de caixa × resultado patrimonial | P3.2.4; **P1** | **Publicado no lote C2** |
 | 05 | `05 - custos publicos fundamentos e objetos de custo.md` | Gasto, despesa, custo, desembolso; custo de serviço, objeto de custos, eficiência e custo unitário | P3.2.5; **P0** | **Publicado**: fundamentos, métodos e exemplo; MIC/SIC e indicadores na nota 06 |
-| 06 | `06 - mic sic e informacoes gerenciais de custos.md` | NBC TSP 34, MIC, SIC, geração/uso da informação; análise físico-financeira e indicadores de desempenho | P3.2.5; **P1** | Planejada |
+| 06 | `06 - mic sic e informacoes gerenciais de custos.md` | NBC TSP 34, MIC, SIC, geração/uso da informação; análise físico-financeira e indicadores de desempenho | P3.2.5; **P1** | **Publicado no C3**: sistemas, funções, processos, indicadores e exemplo |
 | 07 | `07 - provisoes e passivos e ativos contingentes.md` | Obrigação presente × possível, probabilidade, estimativa, reconhecimento × divulgação; comparar NBC TSP 03 (R1) com CPC 25 conforme entidade | P3.2.6; **P0** | Planejada |
 | 08 | `08 - depreciacao reducao ao valor recuperavel e ativos.md` | Depreciação, amortização, impairment, ativos geradores × não geradores de caixa, estimativas e evidência | P3.2.6; **P1** | Planejada |
 | 09 | `09 - demonstracoes societarias das estatais.md` | Balanço, DRE, notas, partes relacionadas e particularidades das estatais; DRE × DVP, sem trocar regimes | P3.2.6; **P1** | Planejada |
@@ -33,7 +33,7 @@ Preparar a matéria de **Contabilidade Pública** para a CGU 2026, Cargo 1 Audit
 
 **P0, P1 e P2 são prioridades editoriais internas**, não uma frequência medida de cobrança. A divisão em arquivos é proposta: se as fontes mostrarem forte dependência entre dois tópicos, consolidar com critério, mantendo uma única nota canônica por conceito. **Não criar 10 resumos curtos** apenas para completar a lista.
 
-**Registro de execução em 04/11/2026:** [01 Patrimônio e regimes] publicado em [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|nota canônica]]; [02 BO e BF] publicado em [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|nota canônica]]. Fontes-base: MCASP 11ª edição (Parte I 3.4; Parte V 2 e 3), Lei 4.320/1964, PCASP e NBC TSP Estrutura Conceitual (R1). **Lote C2, 04/11/2026:** publicados [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|03 BP/DVP]] e [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|04 DFC/notas]], fundamentados no MCASP 11, Parte V, capítulos 4–6 e 8. **Pendências:** notas 05 a 10, conferência integral do edital e estudo real.
+**Registro de execução em 04/11/2026:** [01 Patrimônio e regimes] publicado em [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|nota canônica]]; [02 BO e BF] publicado em [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|nota canônica]]. Fontes-base: MCASP 11ª edição (Parte I 3.4; Parte V 2 e 3), Lei 4.320/1964, PCASP e NBC TSP Estrutura Conceitual (R1). **Lote C2, 04/11/2026:** publicados [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|03 BP/DVP]] e [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|04 DFC/notas]], fundamentados no MCASP 11, Parte V, capítulos 4–6 e 8. **Pendências:** notas 07 a 10, conferência integral do edital e estudo real.
 
 ## Lotes de execução: pequenos, completos e verificáveis
 
@@ -70,7 +70,7 @@ Não alterar `data/contexto-estudo/` manualmente, não marcar unidades como estu
 
 - **C1 (04/11/2026):** notas 01 e 02, fundamentos e BO/BF.
 - **C2 (04/11/2026):** notas 03 e 04, BP/DVP, DFC, notas e conciliações. Exemplo numérico reconciliado: resultado orçamentário R$ 40, variação de caixa R$ 60, resultado patrimonial R$ 94 após depreciação de R$ 6.
-- **C3 em andamento (04/11/2026):** artigo [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo|05]] publicado com fundamentos, objetos e classificações da NBC TSP 34. **Próximo: artigo 06, MIC, SIC e indicadores**. Publicação não representa estudo ou retenção.
+- **C3 concluído editorialmente (04/11/2026):** [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo|05]] (fundamentos) e [[3 - Materias/Contabilidade Publica/06 - mic sic e informacoes gerenciais de custos|06]] (sistema e indicadores). **Próximo artigo: 07, provisões e contingências**. Não equivale a estudo ou retenção.
 
 ## Critério de conclusão editorial
 

@@ -174,7 +174,9 @@
       ],
       "repetition": {
         "classification": "thematic",
-        "similarTo": [],
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-q2"
+        ],
         "intentional": true,
         "transformation": "Recuperação temática intencional em cenário diferente, destacando a fronteira entre técnica, finalidade e alcance da evidência."
       }

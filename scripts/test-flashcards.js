@@ -31,6 +31,13 @@ for(const id of politicaNovos) {
   'Novo cartão de Políticas Públicas sem contexto e contraste: '+id);
 }
 assert(cards.length>=228,'Coleção deve preservar o lote transversal de Políticas Públicas');
+for(const id of ['orc-transferencia-gasto-vs-receita','orc-meta-fisica-vs-valor-pago','pp-auditoria-operacional-vs-impacto']) {
+ const c=cards.find(x=>x.id===id);
+ assert(c?.examIds.includes('cgu-2026')&&c.contrast?.prompt&&c.contrast?.answer,'Lote transversal ausente: '+id);
+}
+assert(cards.find(c=>c.id==='orc-meta-fisica-vs-valor-pago')?.subjectIds.includes('politicas-publicas'),'Meta física deve ser reutilizada em políticas');
+assert(cards.find(c=>c.id==='pp-auditoria-operacional-vs-impacto')?.subjectIds.includes('auditoria-governamental'),'Conexão entre avaliação e auditoria ausente');
+assert(cards.length>=231,'Cobertura transversal inferior ao lote novo');
 assert(cards.filter(c=>c.subjectIds.includes('politicas-publicas')&&c.examIds.includes('cgu-2026')).length>=15,
  'Cobertura inicial de políticas públicas menor que o lote publicado');
 assert.equal(F.stats(cards,F.empty(),now).unseen,cards.length);

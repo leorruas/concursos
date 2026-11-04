@@ -246,6 +246,25 @@
       "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56",
       "scope": "Contraste de alcance e itens com NBC TSP 03 em contexto de estatais, junto da Lei 13.303/2016",
       "verifiedAt": "2026-11-04"
+    },
+    "nbc-tsp-ativos-2026": {
+      "label": "NBC TSP 07, 08, 09 e 10, versões aplicáveis a exercícios de 2026",
+      "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/",
+      "scope": "Imobilizado, intangível, depreciação, amortização, redução ao valor recuperável de geradores e não geradores de caixa",
+      "verifiedAt": "2026-11-04"
+    },
+    "nbc-tsp-ativos-2027": {
+      "label": "NBC TSP 37 e revisões NBC TSP 08(R1), 09(R1), 10(R1) aplicáveis a partir de 2027",
+      "url": "https://www.legisweb.com.br/legislacao/?id=492508",
+      "catalogUrl": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/",
+      "scope": "NBC TSP 37 substitui a 07 em 01/01/2027; revisões 08/09/10 a partir de 2027, ressalvados normativos nacionais específicos",
+      "verifiedAt": "2026-11-04"
+    },
+    "cpc-ativos-societario": {
+      "label": "CPC 27 e CPC 01(R1), ativos e recuperabilidade societários",
+      "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58",
+      "scope": "Comparação para demonstrações societárias de estatais, segundo regime aplicável",
+      "verifiedAt": "2026-11-04"
     }
   },
   "subjects": [
@@ -1916,6 +1935,7 @@
           ],
           "noteRefs": [
             "3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes",
+            "3 - Materias/Contabilidade Publica/08 - depreciacao reducao ao valor recuperavel e ativos",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [
@@ -1925,10 +1945,13 @@
             "mcasp",
             "nbc-tsp-03-2026",
             "nbc-tsp-03-r1-2027",
-            "cpc25-societario"
+            "cpc25-societario",
+            "nbc-tsp-ativos-2026",
+            "nbc-tsp-ativos-2027",
+            "cpc-ativos-societario"
           ],
           "coverage": "parcial",
-          "noteRole": "provisoes-contingencias-publicadas-depreciacao-impairment-e-societario-pendentes"
+          "noteRole": "provisoes-depreciacao-impairment-preparados-demonstracoes-societarias-pendentes"
         },
         {
           "id": "up3-2-7",

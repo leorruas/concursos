@@ -1,5 +1,24 @@
+function sincronizarContextoDaRota(rota) {
+    const anteriorId = concursoSelecionadoId;
+    const anteriorBiblioteca = modoBibliotecaCompleta;
+    if (rota.biblioteca) {
+        modoBibliotecaCompleta = true;
+    } else {
+        modoBibliotecaCompleta = false;
+        if (rota.concursoId && dadosConcursosEstrategicos.some(item => item.id === rota.concursoId)) {
+            concursoSelecionadoId = rota.concursoId;
+            localStorage.setItem("concurso_ativo_id", concursoSelecionadoId);
+        }
+    }
+    return anteriorId !== concursoSelecionadoId || anteriorBiblioteca !== modoBibliotecaCompleta;
+}
+
 async function tratarHashNavegacao() {
     const rota = parsearHashVault(window.location.hash);
+    if (sincronizarContextoDaRota(rota)) {
+        renderizarPainelConcursoHome();
+        renderizarPastas();
+    }
 
     if (rota.tipo === "home") {
         voltarParaHome(false);
@@ -24,7 +43,7 @@ async function tratarHashNavegacao() {
 
 function voltarParaHome(atualizarRota = true) {
     if (atualizarRota) {
-        window.location.hash = "#/";
+        window.location.hash = construirRotaHome(concursoSelecionadoId, modoBibliotecaCompleta);
     }
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.add("escondido");

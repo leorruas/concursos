@@ -114,18 +114,45 @@ async function carregarTodosOsArtigos() {
 // --------------------------------------------------------------------------
 // RENDERIZADOR DO PAINEL DE CONCURSO (DESIGN SUÍÇO / REGRAS SEMÂNTICAS)
 // --------------------------------------------------------------------------
+let modoBibliotecaCompleta = false;
+
+function persistirEscopoNaRota() {
+    if (typeof window === "undefined" || typeof history === "undefined" || typeof parsearHashVault !== "function") return;
+    const rota = parsearHashVault(window.location.hash);
+    let destino;
+    if (rota.tipo === "disciplina") {
+        destino = obterRotaCategoria(rota.categoria);
+    } else if (rota.tipo === "artigo") {
+        destino = construirRotaArtigo(rota.categoria, rota.titulo, rota.secao, concursoSelecionadoId, modoBibliotecaCompleta);
+    } else {
+        destino = construirRotaHome(concursoSelecionadoId, modoBibliotecaCompleta);
+    }
+    if (destino !== window.location.hash) history.pushState({ concursoId: concursoSelecionadoId, biblioteca: modoBibliotecaCompleta }, "", destino);
+    if (rota.tipo === "disciplina") abrirDisciplina(rota.categoria, false);
+}
+
+function selecionarBibliotecaCompleta() {
+    if (modoBibliotecaCompleta) return;
+    modoBibliotecaCompleta = true;
+    renderizarPainelConcursoHome();
+    renderizarPastas();
+    persistirEscopoNaRota();
+}
 
 // Ponto único de mudança de concurso, reutilizável no seletor da lista interna.
 function selecionarConcurso(novoConcursoId) {
     if (!dadosConcursosEstrategicos.some(item => item.id === novoConcursoId)) return;
-    if (concursoSelecionadoId === novoConcursoId) return;
+    if (concursoSelecionadoId === novoConcursoId && !modoBibliotecaCompleta) return;
+    modoBibliotecaCompleta = false;
     concursoSelecionadoId = novoConcursoId;
     localStorage.setItem("concurso_ativo_id", novoConcursoId);
     renderizarPainelConcursoHome();
     renderizarPastas();
+    persistirEscopoNaRota();
 }
 
 function obterProgramaSelecionado() {
+    if (modoBibliotecaCompleta) return null;
     const dados = typeof dadosCatalogoMaterias !== "undefined" ? dadosCatalogoMaterias : null;
     return dados?.contests?.find(item => item.concursoId === concursoSelecionadoId) || null;
 }
@@ -142,7 +169,8 @@ function montarSeletorConcursos(concursoIdAtivo) {
             data-concurso-id="${concurso.id}"
             aria-pressed="${selecionado ? "true" : "false"}"
         >${concurso.nome.toLowerCase()}</button>`;
-    }).join("");
+    }).join("") + '<span class="concurso-barra-separadora" aria-hidden="true">/</span>' +
+        `<button type="button" class="concurso-btn-opcao${modoBibliotecaCompleta ? " concurso-selecionado" : ""}" data-biblioteca-completa="true" aria-pressed="${modoBibliotecaCompleta}">todas matérias</button>`;
 }
 
 function obterArtigosDaMateria(categoria) {
@@ -198,9 +226,10 @@ function renderizarPainelConcursoHome() {
     `;
 
     conteudo.querySelectorAll(".concurso-btn-opcao[data-concurso-id]").forEach(botao => {
-        botao.addEventListener("click", () => {
-            selecionarConcurso(botao.dataset.concursoId);
-        });
+        botao.addEventListener("click", () => selecionarConcurso(botao.dataset.concursoId));
+    });
+    conteudo.querySelectorAll(".concurso-btn-opcao[data-biblioteca-completa]").forEach(botao => {
+        botao.addEventListener("click", selecionarBibliotecaCompleta);
     });
 }
 
@@ -228,7 +257,7 @@ function renderizarPastas() {
     if (titulo) titulo.textContent = programa
         ? "matérias: " + (concurso?.nome || concursoSelecionadoId).toLowerCase()
         : "matérias: biblioteca geral";
-    if (!programa && concursoSelecionadoId) {
+    if (!programa && concursoSelecionadoId && !modoBibliotecaCompleta) {
         const aviso = document.createElement("p");
         aviso.className = "mensagem-busca";
         aviso.textContent = "Catálogo indisponível: exibindo a biblioteca geral, sem filtro por edital.";
@@ -329,9 +358,9 @@ function abrirDisciplina(categoria, atualizarRota = true) {
             const proximoId = botao.dataset.concursoId;
             if (!proximoId || proximoId === concursoSelecionadoId) return;
             selecionarConcurso(proximoId);
-            // A matéria permanece aberta; apenas os artigos do edital mudam.
-            abrirDisciplina(categoria, false);
         }));
+    disciplinaCabecalho.querySelectorAll(".disciplina-concurso-seletor .concurso-btn-opcao[data-biblioteca-completa]")
+        .forEach(botao => botao.addEventListener("click", selecionarBibliotecaCompleta));
 
     disciplinaAcoes.innerHTML = "";
     if (artigos.length === 0) {

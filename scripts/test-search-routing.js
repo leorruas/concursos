@@ -22,6 +22,15 @@ const disciplina = parsearHashVault('#/disciplina/Direito%20Constitucional');
 check('rota de disciplina continua válida', disciplina.tipo === 'disciplina' && disciplina.categoria === 'Direito Constitucional');
 
 check('home continua válido', parsearHashVault('#/').tipo === 'home');
+check('home com concurso preserva contexto', parsearHashVault(construirRotaHome('cgu-2026')).concursoId === 'cgu-2026');
+check('home com biblioteca geral preserva modo', parsearHashVault(construirRotaHome('', true)).biblioteca === true);
+const rotDisciplina = construirRotaDisciplina('Avaliacao de Politicas Publicas', 'cgu-2026');
+check('disciplina preserva concurso', parsearHashVault(rotDisciplina).concursoId === 'cgu-2026');
+const rotArtigo = construirRotaArtigo('Direito Constitucional', 'direito-constitucional', 'primeira-secao', 'camara-2026');
+check('artigo preserva concurso e seção juntos', parsearHashVault(rotArtigo).concursoId === 'camara-2026' && parsearHashVault(rotArtigo).secao === 'primeira-secao');
+const rotBiblioteca = construirRotaArtigo('Comunicacao', 'comunicacao', 'trecho', 'dataprev-2026', true);
+check('biblioteca geral prevalece e não apaga seção', parsearHashVault(rotBiblioteca).biblioteca && parsearHashVault(rotBiblioteca).secao === 'trecho' && !parsearHashVault(rotBiblioteca).concursoId);
+check('rota antiga com secao continua válida', parsearHashVault('#/Informatica/informatica?secao=apresentacao').secao === 'apresentacao');
 
 const raizRepo = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const markdownWeb = fs.readFileSync(path.join(raizRepo, 'web/04-markdown.js'), 'utf8');

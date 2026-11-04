@@ -76,6 +76,14 @@ Produzir o primeiro mapeamento da CGU a partir de suas 15 frentes e unidades. Pa
 4. **Preservar rotas e busca.** Atualizar helpers de URL, retorno, breadcrumb, navegação entre artigos, pesquisa e opção de biblioteca completa. O contexto de prova e a banca não podem ser trocados por uma regra global de categoria.
 5. **Testar e publicar.** Criar testes de troca CGU ↔ Dataprev ↔ Câmara na home e dentro de matérias, artigos compartilhados, temas sem nota, links diretos com `secao`, busca geral, persistência, estado vazio e privacidade. Manter `scripts/test-home-without-provas.js`, `scripts/test-hub-ordering.js`, `scripts/test-search-routing.js` e demais testes existentes. Rodar `node scripts/preflight-vault.js`, build, validação dos índices e publicação; confirmar o catálogo e as páginas no GitHub Pages.
 
+## Execução por fases (iniciada em 04/11/2026)
+
+**Fase 1: catálogo e contrato público implementados.** Arquivo `data/catalogo-materias-por-concurso.json` vincula as 15 matérias CGU, seis frentes Dataprev e onze frentes Câmara a hubs e artigos públicos explicitamente relacionados. O teste `scripts/test-contest-catalog.js` valida rotas, integridade, ordem e rejeição de arquivos privados. O build valida o catálogo contra o manifesto, copia apenas o JSON autorizado e a verificação do Pages confere também esse arquivo ao vivo.
+
+Esta primeira associação é um **mapa editorial de navegação**, não uma declaração de cobertura integral dos editais. Em particular, alguns assuntos sem nota especializada apontam apenas para o hub, enquanto notas compartilhadas são vinculadas por caminho sem duplicação.
+
+**Fases seguintes:** integrar seleção centralizada e filtro da grade da home; adicionar seletor na lista interna de artigos e filtrar os links; preservar rotas e busca, testar casos de navegação e publicar. A numeração 17–28 da biblioteca geral continua temporária até a implantação da ordem específica por concurso.
+
 ## Critérios de aceite
 
 - CGU selecionada: **15 matérias**, numeradas de **01 a 15**, na ordem do plano; nenhum assunto de outro concurso aparece por inclusão automática.

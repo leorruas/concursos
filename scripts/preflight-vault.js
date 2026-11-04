@@ -10,6 +10,7 @@ const rootDir = path.resolve(__dirname, '..');
 
 const checks = [
   ['Continuidade por matéria', 'scripts/test-study-context.js'],
+  ['Catálogo de matérias por concurso', 'scripts/test-contest-catalog.js'],
   ['Invariantes globais', 'scripts/validate-vault-invariants.js'],
   ['Integridade de dados e links', 'scripts/validate-integrity.js'],
   ['Idempotência da ingestão', 'scripts/test-ingestion-idempotency.js'],

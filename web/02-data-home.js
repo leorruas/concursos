@@ -225,11 +225,13 @@ function renderizarPainelConcursoHome() {
         </div>
     `;
 
-    conteudo.querySelectorAll(".concurso-btn-opcao[data-concurso-id]").forEach(botao => {
-        botao.addEventListener("click", () => selecionarConcurso(botao.dataset.concursoId));
-    });
-    conteudo.querySelectorAll(".concurso-btn-opcao[data-biblioteca-completa]").forEach(botao => {
-        botao.addEventListener("click", selecionarBibliotecaCompleta);
+    // Um único registro por controle: evita callbacks sobrescritos em renderizações e DOMs simplificados.
+    conteudo.querySelectorAll(".concurso-btn-opcao").forEach(botao => {
+        if (botao.dataset?.concursoId) {
+            botao.addEventListener("click", () => selecionarConcurso(botao.dataset.concursoId));
+        } else if (botao.dataset?.bibliotecaCompleta) {
+            botao.addEventListener("click", selecionarBibliotecaCompleta);
+        }
     });
 }
 

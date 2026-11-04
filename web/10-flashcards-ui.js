@@ -27,23 +27,33 @@
             const box=document.createElement('div'), n=document.createElement('strong'), t=document.createElement('span');n.textContent=stats[key];t.textContent=label;box.append(n,t);return box;
         }));
         $('stats').setAttribute('aria-label',`${stats.unknown} conceitos com resposta Não sei; revisões pendentes podem incluir conceitos conhecidos ou em aprendizagem.`);
-        show('resume',!!state.session&&state.session.position<state.session.queue.length);
+        show('resume',!!state.session);
     }
     function home() {document.querySelector('.fc-main').classList.remove('is-studying');show('dashboard',true);show('round',false);show('summary',false);dashboard();}
     function render() {
         const s=state.session;
         document.querySelector('.fc-main').classList.add('is-studying');
         if(storageOK)status('Progresso salvo neste dispositivo');
-        if (s.position>=s.queue.length) {
-            show('round',false);show('summary',true);
-            $('summary-text').textContent=`${s.queue.length} recuperações concluídas. As próximas revisões foram agendadas. Lembranças direta e inversa continuam sendo acompanhadas separadamente.`;
+        if(!s || s.position>=s.queue.length) {
+            show('dashboard',false);show('round',false);show('summary',true);
+            if(s) {
+                const due=F.nextReview(cards,state,s);
+                const when=due ? ' Próxima revisão agendada: '+new Intl.DateTimeFormat('pt-BR',{dateStyle:'short',timeStyle:'short'}).format(new Date(due))+'.' : '';
+                $('summary-heading').textContent=s.mode==='new'?'Não há novos cartões disponíveis.':s.mode==='errors'?'Sem prioridades elegíveis neste recorte.':'Sua fila está em dia.';
+                $('summary-text').textContent=s.graded+' apresentações avaliadas nesta sessão.'+when+' Você pode escolher outro recorte ou encerrar por agora.';
+                show('summary-end',true);
+            } else {
+                const x=state.lastSession;
+                $('summary-heading').textContent='Sessão encerrada.';
+                $('summary-text').textContent=x ? x.graded+' apresentações avaliadas, '+x.distinct+' conceitos distintos. Sei: '+x.grades.good+'; Quase lembrei: '+x.grades.hard+'; Não sei: '+x.grades.again+'.'+(x.legacyGraded?' Avaliações anteriores migradas sem detalhamento: '+x.legacyGraded+'.':'')+' As revisões continuam agendadas.' : 'As revisões continuam agendadas.';
+                show('summary-end',false);
+            }
             $('summary').focus();return;
         }
         show('dashboard',false);show('summary',false);show('round',true);
         const q=s.queue[s.position], c=cards.find(c=>c.id===q.id);
         revealed=false;show('answer',false);show('reveal',true);show('instruction',true);
-        $('position').textContent=`${String(s.position+1).padStart(2,'0')} / ${String(s.queue.length).padStart(2,'0')} · ${catalog.subjects.find(x=>x.id===s.subject)?.title || catalog.exams.find(e=>e.id===s.exam)?.title || s.exam}`;
-        $('progress').max=s.queue.length;$('progress').value=s.position;
+        $('position').textContent=`${s.graded} cartões nesta sessão · ${catalog.subjects.find(x=>x.id===s.subject)?.title || catalog.exams.find(e=>e.id===s.exam)?.title || s.exam}`;
         $('kind').textContent=`${c.topic} / ${q.direction==='reverse'?'DEFINIÇÃO → TERMO':q.direction==='contrast'?'CONTRASTE':'TERMO → DEFINIÇÃO'}`;
         const priority=F.studyPriority(c.id,state,{exam:s.exam,subject:s.subject});
         show('priority-hint',!!priority);
@@ -59,7 +69,7 @@
         $('prompt').focus();
     }
     function reveal() {if(!$('round').hidden&&!revealed){revealed=true;show('answer',true);show('reveal',false);show('instruction',false);document.querySelector('[data-grade="again"]').focus();}}
-    function grade(value) {if(!revealed||$('round').hidden)return;save(F.rate(state,value));if(storageOK)status('Salvo neste dispositivo');render();}
+    function grade(value) {if(!revealed||$('round').hidden)return;save(F.refill(cards,F.rate(state,value)));if(storageOK)status('Salvo neste dispositivo');render();}
     try {
         const response=await fetch('data/flashcards.json');if(!response.ok)throw Error('Coleção indisponível.');
         catalog=await response.json();cards=catalog.cards.filter(c=>c.status==='validated');
@@ -73,12 +83,12 @@
         $('export').disabled=false;$('import').disabled=false;
         $('form').addEventListener('submit',e=>{
             e.preventDefault();
-            if(state.session&&state.session.position<state.session.queue.length&&!confirm('Substituir a rodada em andamento? As revisões já feitas serão preservadas.'))return;
+            if(corrupt){status('O progresso salvo não pôde ser lido. Exporte a cópia antes de iniciar uma nova sessão.');return;}
+            if(state.session&&!confirm('Encerrar a sessão anterior e iniciar outra? As avaliações e agendamentos serão preservados.'))return;
             const o=scope();
             if(o.mode==='errors'&&!state.priorities){status('Importe primeiro o arquivo de prioridades das questões.');return;}
-            const queue=F.select(cards,state,o);
-            if(!queue.length){status('Nenhum cartão disponível neste recorte. Tente outra matéria, direção ou tipo de sessão.');return;}
-            save({...state,session:{...o,queue,position:0}});corrupt=false;render();
+            const base=state.session?F.finish(state):state;
+            save(F.start(cards,base,o));render();
         });
         $('errors-import').addEventListener('change',async e=>{
             try {
@@ -91,7 +101,8 @@
         $('errors-clear').addEventListener('click',()=>{save({...state,priorities:null});dashboard();if(storageOK)status('Prioridades removidas. O histórico dos cartões foi preservado.');});
         $('exam').addEventListener('change',subjects);$('subject').addEventListener('change',dashboard);
         $('resume').addEventListener('click',render);
-        $('pause').addEventListener('click',()=>{home();status(storageOK?'Rodada pausada e salva. Use “Continuar rodada salva” para retomar.':'Rodada pausada em memória. Exporte para não perder o progresso.');});
+        $('pause').addEventListener('click',()=>{save(F.finish(state));render();});
+        $('summary-end').addEventListener('click',()=>{save(F.finish(state));render();});
         $('reveal').addEventListener('click',reveal);
         document.querySelectorAll('[data-grade]').forEach(b=>b.addEventListener('click',()=>grade(b.dataset.grade)));
         $('another').addEventListener('click',()=>{home();$('mode').focus();});

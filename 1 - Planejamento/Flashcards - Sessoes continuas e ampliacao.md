@@ -1,7 +1,7 @@
 ---
 title: "Flashcards: sessões contínuas e ampliação por matéria"
 type: "planejamento-tecnico-pedagogico"
-status: "planejado"
+status: "em-implementacao"
 created: 2026-11-04
 updated: 2026-11-04
 ---
@@ -12,7 +12,7 @@ updated: 2026-11-04
 
 Pedido de 04/11/2026: permitir estudar continuamente até decidir parar; o botão hoje chamado **Pausar** encerra a sessão naquele momento, preservando as avaliações; ampliar os flashcards das quinze matérias da CGU com foco nas fronteiras conceituais e nos erros das questões.
 
-**Este documento registra o plano. Sessão contínua e expansão abaixo ainda não foram implementadas.** O estado atual é coleção de 86 cartões únicos, sessões limitadas a dez apresentações, repetição espaçada local e importação das prioridades das questões. O protocolo técnico vigente permanece em `scripts/FLASHCARDS.md` até a implementação das respectivas etapas.
+**Estado por etapa:** motor de sessão contínua, interface, encerramento voluntário e migração do armazenamento implementados. A expansão editorial por lacunas e pelas matérias ainda sem cartões permanece planejada. O inventário inicial reúne 86 cartões únicos; `scripts/FLASHCARDS.md` descreve o comportamento técnico vigente. A publicação destas mudanças depende do workflow do commit final.
 
 A prioridade pedagógica é reduzir lacunas e melhorar recuperação e aplicação. Aumentar o tamanho da coleção não equivale a estudar a matéria, reter os conceitos ou aumentar desempenho competitivo. O conteúdo teórico é reutilizável; edital, banca e resultados continuam separados. CGU 2026: Cebraspe, Certo/Errado.
 

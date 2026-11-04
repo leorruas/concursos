@@ -89,6 +89,10 @@
     {
       "id": "comunicacao",
       "title": "Comunicação Social"
+    },
+    {
+      "id": "atualidades",
+      "title": "Atualidades"
     }
   ],
   "cards": [
@@ -4579,6 +4583,216 @@
       "revision": 1,
       "conceptIds": [
         "paint-mudanca-significativa-comunicacao"
+      ]
+    },
+    {
+      "id": "dp-adversativa-concessiva",
+      "term": "Adversativa × concessiva na reescrita",
+      "definition": "'Mas' e 'contudo' conectam orações coordenadas adversativas; 'embora' e 'ainda que' introduzem subordinadas concessivas, podendo exigir mudança de estrutura e verbo.",
+      "example": "'O relatório era longo, mas foi claro' → 'Embora fosse longo, o relatório foi claro'.",
+      "confusion": "Conservar contraste sem reconstruir corretamente a sintaxe não preserva a frase original.",
+      "topic": "Coordenação e subordinação",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-24350eefe84c43b5",
+        "section": "Coordenação adversativa × subordinação concessiva"
+      },
+      "source": {
+        "title": "Nota de estudo e fontes indicadas no vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/03%20-%20pontuacao%20e%20virgula.md",
+        "locator": "Seção: Coordenação adversativa × subordinação concessiva"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "adversativa-coordenacao-vs-concessiva-subordinacao"
+      ],
+      "legacyErrorIds": [
+        "err-bat-20260914-adversativa-concessiva"
+      ]
+    },
+    {
+      "id": "dp-ambiguidade-pronome",
+      "term": "Referência pronominal ambígua",
+      "definition": "Quando pronome possessivo é compatível com dois antecedentes, a proximidade física não basta para identificar o referente: é preciso considerar concordância e contexto.",
+      "example": "'A analista falou à coordenadora sobre seu relatório': sem contexto, 'seu' admite mais de uma leitura.",
+      "confusion": "O antecedente mais próximo não é obrigatório se houver outra interpretação gramatical e semântica plausível.",
+      "topic": "Coesão e referenciação",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-b46ab5677a26469e",
+        "section": "Refinamento — ambiguidade de referência pronominal"
+      },
+      "source": {
+        "title": "Nota de estudo e fontes indicadas no vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/08%20-%20coesao%20textual%20referenciacao%20e%20tempos%20verbais.md",
+        "locator": "Seção: Refinamento — ambiguidade de referência pronominal"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "referente-pronome-ambiguidade"
+      ],
+      "legacyErrorIds": [
+        "err-sim04-q07-referencia"
+      ]
+    },
+    {
+      "id": "dp-meta-faixa-selic",
+      "term": "Meta central, tolerância e decisão da Selic",
+      "definition": "No regime de metas, meta central e faixa de tolerância são referências diferentes. O Copom decide a Selic considerando inflação, expectativas, atividade e riscos, sem relação automática com a variação mensal do IPCA.",
+      "example": "IPCA recua, mas expectativas continuam pressionadas: isso não obriga corte de juros na reunião seguinte.",
+      "confusion": "Estar dentro da faixa não é o mesmo que atingir a meta central; IPCA mensal menor não equivale a decisão automática de Selic.",
+      "topic": "Política monetária",
+      "subjectIds": [
+        "atualidades"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-b753b14428774911",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Nota de estudo e fontes indicadas no vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Atualidades/03%20-%20regime%20de%20metas%20inflacao%20selic%20copom.md",
+        "locator": "Seção: Núcleo do conceito"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "meta-inflacao-faixa-selic-nao-automatica"
+      ],
+      "legacyErrorIds": [
+        "err-sim04-q30-metas"
+      ]
+    },
+    {
+      "id": "dp-discurso-indireto-tempo",
+      "term": "Discurso indireto: ajuste de tempo e ponto de vista",
+      "definition": "Passar de discurso direto ao indireto exige adequar pessoa, tempo verbal e referências temporais ou espaciais ao ponto de vista do narrador.",
+      "example": "A diretora disse: 'Publicarei amanhã' → A diretora disse que publicaria no dia seguinte.",
+      "confusion": "Trocar futuro por pretérito sem examinar o momento da narração pode alterar o sentido; ajustes dependem do contexto.",
+      "topic": "Reescrita",
+      "subjectIds": [
+        "portugues"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-ffda49b0fbcc4fbe",
+        "section": "6. Discurso direto × indireto"
+      },
+      "source": {
+        "title": "Nota de estudo e fontes indicadas no vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Portugues/10%20-%20reescrita%20semantica%20e%20preservacao%20de%20sentido.md",
+        "locator": "Seção: 6. Discurso direto × indireto"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "discurso-direto-indireto-ajuste-temporal"
+      ],
+      "legacyErrorIds": [
+        "err-sim05-q12-discurso-indireto"
+      ]
+    },
+    {
+      "id": "dp-texto-manchetado",
+      "term": "Texto manchetado no radiojornalismo",
+      "definition": "No padrão cobrado pela FGV, distribui fatos em frases curtas e informativamente completas, lembrando manchetes, com possível supressão de artigos e pronomes.",
+      "example": "Boletim radiofônico com períodos breves, informação localizada e vocabulário simples.",
+      "confusion": "Períodos longos e linguagem rebuscada não são características desejáveis; acertar 'EXCETO' ainda exige atenção ao comando da questão.",
+      "topic": "Gêneros de texto jornalístico",
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-ESP"
+      ],
+      "note": {
+        "articleId": "art-8e408175a4194a99",
+        "section": "Texto manchetado"
+      },
+      "source": {
+        "title": "Nota de estudo e fontes indicadas no vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Comunicacao/24%20-%20radiojornalismo%20telejornalismo%20e%20linguagem%20audiovisual.md",
+        "locator": "Seção: Texto manchetado"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "texto-manchetado-frases-curtas"
+      ],
+      "legacyErrorIds": [
+        "err-sim05-q48-manchetado-exceto"
+      ]
+    },
+    {
+      "id": "dp-saeb-ideb-pe-de-meia",
+      "term": "Saeb × Ideb × Pé-de-Meia",
+      "definition": "Saeb é avaliação externa de aprendizagem; Ideb combina desempenho do Saeb com fluxo escolar; Pé-de-Meia é incentivo financeiro-educacional para permanência e conclusão do ensino médio público conforme critérios.",
+      "example": "Uma prova de desempenho gera dados para o Saeb; combinar aprendizagem com aprovação compõe Ideb; pagar incentivo de permanência remete ao Pé-de-Meia.",
+      "confusion": "Não transformar o Ideb em nota individual nem confundir avaliação educacional com benefício financeiro.",
+      "topic": "Políticas educacionais",
+      "subjectIds": [
+        "atualidades"
+      ],
+      "examIds": [
+        "dataprev-2026"
+      ],
+      "editalRefs": [
+        "DP-GER"
+      ],
+      "note": {
+        "articleId": "art-df3459b517244e85",
+        "section": "Prioridade para a Dataprev 2026"
+      },
+      "source": {
+        "title": "Nota de estudo e fontes indicadas no vault",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Atualidades/17%20-%20educacao%20e%20politicas%20educacionais%202026.md",
+        "locator": "Seção: Prioridade para a Dataprev 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "saeb-ideb-pe-de-meia-distincao"
+      ],
+      "legacyErrorIds": [
+        "err-sim06-q30-saeb"
       ]
     }
   ]

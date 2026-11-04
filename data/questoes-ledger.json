@@ -1521,6 +1521,92 @@
       "confidenceTracking": {
         "coverage": "complete"
       }
+    },
+    {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b03",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T14:39:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "learning": {
+        "stage": "aprendizagem",
+        "taughtConcepts": [
+          "anexos de metas e riscos fiscais da LDO",
+          "esferas fiscal, seguridade e investimento da LOA",
+          "estatais dependentes e não dependentes",
+          "autarquias e LDO federal",
+          "prazos federais de envio do PLDO e PLOA",
+          "critério de contingenciamento e execução"
+        ],
+        "boundaries": [
+          "risco potencial versus despesa executada",
+          "natureza da despesa versus esfera orçamentária",
+          "estatais dependentes versus não dependentes",
+          "autarquia versus ente federativo",
+          "encaminhamento versus devolução",
+          "critérios de empenho versus limites concretos"
+        ],
+        "pending": [
+          "Reforçar itens 3 e 4: erros seguros em classificação orçamentária.",
+          "Reforçar item 6: erro inseguro nos prazos de envio.",
+          "Revisar item 2: acerto inseguro sobre risco judicial.",
+          "Preservar em 05/11 revisão da regionalização do PPA e dos conceitos do artigo 01."
+        ],
+        "doubts": [
+          {
+            "id": "risco-fiscal-judicial-vs-execucao",
+            "text": "Acerto inseguro: risco de despesa por decisão judicial futura não implica despesa executada.",
+            "status": "aberta",
+            "evidenceQuestionNumbers": [
+              2
+            ]
+          }
+        ],
+        "unitCompleted": false,
+        "next": {
+          "unitId": "up3-2-2",
+          "stage": "fronteiras",
+          "objective": "Reparar classificações dos três orçamentos da LOA e prazos de envio do PLDO e PLOA.",
+          "noteRef": "article:art-c301f2c741504403#Entendendo as três esferas orçamentárias na prática",
+          "sourceIds": [
+            "constituicao",
+            "lrf",
+            "mto2026"
+          ]
+        }
+      },
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "parcial",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "totalQuestions": 7,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "4/7 acertos. Erros seguros: esfera orçamentária versus natureza da despesa (item 3) e estatais dependentes versus não dependentes (item 4): confusão conceitual. Erro inseguro de prazo federal de envio (item 6): lacuna de conhecimento; causa exata não declarada. Acerto inseguro sobre risco judicial (item 2). Não houve treino para valer ou retenção.",
+      "nextStep": "Retestar esfera versus natureza, regime das estatais e prazos de encaminhamento; recuperar risco judicial. Preservar revisão de 05/11 sobre regionalização do PPA federal, sem declarar retenção.",
+      "generationAudit": {
+        "counts": {
+          "new": 7,
+          "thematic": 0,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 1,
+        "thematicRate": 0,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0
+      },
+      "noveltyException": null,
+      "confidenceTracking": {
+        "coverage": "complete"
+      }
     }
   ],
   "questions": [
@@ -14169,6 +14255,307 @@
       "subjectId": "auditoria-governamental",
       "trainingMode": "revisao",
       "result": "incorrect"
+    },
+    {
+      "conceptId": "ldo-metas-riscos",
+      "number": 1,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "ldo-metas-riscos",
+      "questionType": "comparison",
+      "mechanism": "classificar-fronteira",
+      "distractorMechanism": "transposicao-conceitual-ou-regra-de-prazo",
+      "statement": "O Anexo de Metas Fiscais da LDO é destinado principalmente à identificação de passivos contingentes e à descrição das providências a serem tomadas caso esses passivos se concretizem.",
+      "explanation": "Passivos contingentes e providências pertencem ao Anexo de Riscos Fiscais; as metas fiscais orientam resultados pretendidos.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Metas fiscais × riscos fiscais"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b03-q1",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b03",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T14:39:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "conceptId": "ldo-risco-judicial",
+      "number": 2,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "ldo-risco-judicial",
+      "questionType": "application",
+      "mechanism": "classificar-fronteira",
+      "distractorMechanism": "transposicao-conceitual-ou-regra-de-prazo",
+      "statement": "Uma ação judicial cuja decisão futura possa impor obrigação relevante ao governo pode constituir risco fiscal, sem que isso signifique que a despesa já tenha sido executada.",
+      "explanation": "Risco judicial futuro pode ser um passivo contingente sem despesa executada. Acerto inseguro requer reteste.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "questao_comentada_candidata"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Metas fiscais × riscos fiscais"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b03-q2",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b03",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T14:39:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "conceptId": "esfera-vs-natureza-investimento",
+      "number": 3,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "esfera-vs-natureza-investimento",
+      "questionType": "classification",
+      "mechanism": "classificar-fronteira",
+      "distractorMechanism": "transposicao-conceitual-ou-regra-de-prazo",
+      "statement": "A construção de um hospital federal financiado no âmbito das ações do SUS deve ser registrada no orçamento de investimento da LOA, pois a construção constitui despesa de capital.",
+      "explanation": "Construção é investimento por natureza, mas ação do SUS integra orçamento da seguridade social por esfera.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "annulled": false,
+      "errorType": "C",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Entendendo as três esferas orçamentárias na prática"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b03-q3",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b03",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T14:39:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "incorrect"
+    },
+    {
+      "conceptId": "estatais-dependentes-esferas",
+      "number": 4,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "estatais-dependentes-esferas",
+      "questionType": "classification",
+      "mechanism": "classificar-fronteira",
+      "distractorMechanism": "transposicao-conceitual-ou-regra-de-prazo",
+      "statement": "Embora controladas pela União, as empresas estatais dependentes têm, como regra, sua programação nos orçamentos fiscal ou da seguridade social, e não no orçamento de investimento das estatais não dependentes.",
+      "explanation": "Estatais dependentes integram, como regra, fiscal ou seguridade; investimentos das não dependentes entram no orçamento de investimento.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "annulled": false,
+      "errorType": "C",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Entendendo as três esferas orçamentárias na prática"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b03-q4",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b03",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T14:39:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "incorrect"
+    },
+    {
+      "conceptId": "ldo-autarquia-ente",
+      "number": 5,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "ldo-autarquia-ente",
+      "questionType": "comparison",
+      "mechanism": "classificar-fronteira",
+      "distractorMechanism": "transposicao-conceitual-ou-regra-de-prazo",
+      "statement": "O INSS, em razão de sua autonomia administrativa e financeira, possui competência para elaborar uma Lei de Diretrizes Orçamentárias própria, independentemente da LDO da União.",
+      "explanation": "Autarquia pode contribuir tecnicamente, mas não possui competência legislativa para instituir LDO própria.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Abrangência federativa da LDO e situação das autarquias"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b03-q5",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b03",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T14:39:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "conceptId": "prazos-envio-ldo-loa",
+      "number": 6,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "prazos-envio-ldo-loa",
+      "questionType": "recognition",
+      "mechanism": "classificar-fronteira",
+      "distractorMechanism": "transposicao-conceitual-ou-regra-de-prazo",
+      "statement": "No regime federal previsto no ADCT, o projeto da LDO deve ser encaminhado pelo Executivo até 15 de abril, ao passo que o projeto da LOA deve ser encaminhado até 31 de agosto, sendo ambos prazos de envio.",
+      "explanation": "PLDO: 15/4; PLOA: 31/8. São prazos federais de encaminhamento, distintos da devolução para sanção.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "E",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "enriquecimento_teorico"
+      ],
+      "annulled": false,
+      "errorType": "K",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Iniciativa, apreciação e prazos no plano federal"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b03-q6",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b03",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T14:39:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "incorrect"
+    },
+    {
+      "conceptId": "ldo-contingenciamento",
+      "number": 7,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "ldo-contingenciamento",
+      "questionType": "comparison",
+      "mechanism": "classificar-fronteira",
+      "distractorMechanism": "transposicao-conceitual-ou-regra-de-prazo",
+      "statement": "Como a LDO estabelece os critérios de limitação de empenho, a necessidade concreta de contingenciamento e seu montante são definidos definitivamente nessa lei, independentemente do comportamento posterior das receitas.",
+      "explanation": "A LDO fixa critérios; necessidade e montante da limitação dependem da execução fiscal, inclusive receitas.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#LDO e contingenciamento"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b03-q7",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b03",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T14:39:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
     }
   ]
 }

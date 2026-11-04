@@ -1664,6 +1664,7 @@
             "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais",
             "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa",
             "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares",
+            "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [],
@@ -1684,16 +1685,21 @@
             "P3.2.3"
           ],
           "noteRefs": [
+            "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios",
+            "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [
             "up3-2-2"
           ],
           "sourceIds": [
-            "mcasp"
+            "mcasp",
+            "lei4320",
+            "lrf",
+            "constituicao"
           ],
-          "coverage": "base-adjacente",
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "coverage": "parcial",
+          "noteRole": "notas-diretas-parciais-e-base-adjacente"
         }
       ],
       "requiresSubjects": []

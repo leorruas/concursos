@@ -96,6 +96,14 @@
         if(unmappedCount<0||unmappedCount>100000)throw Error('Contagem de lacunas inválida.');
         return {version:1,type:'study-errors',cut:value.cut,entries,unmappedCount};
     }
+    // Prioridades externas não alteram histórico local nem a fila já montada.
+    // Um snapshot atrasado do GitHub não pode substituir outro mais recente.
+    function applyPrioritySnapshot(state,snapshot,cards) {
+        const priorities=validatePriorities(snapshot,cards);
+        if(state.priorities?.cut>priorities.cut) return state;
+        if(JSON.stringify(state.priorities)===JSON.stringify(priorities)) return state;
+        return {...state,priorities};
+    }
     function studyPriority(cardId,state,options,now=Date.now()) {
         const date=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(now));
         return (state.priorities?.entries||[]).filter(p=>p.cardId===cardId&&p.examId===options.exam&&(!options.subject||p.subjectId===options.subject)&&(p.status!=='recuperacao-imediata'||p.dueOn<=date)).sort((a,b)=>b.priority-a.priority||b.recurrences-a.recurrences)[0]||null;
@@ -192,5 +200,5 @@
         }
         return next;
     }
-    root.Flashcards={DAY,KEY,empty,reviewKey,validateState,schedule,select,stats,start,refill,rate,finish,nextReview,validatePriorities,studyPriority};
+    root.Flashcards={DAY,KEY,empty,reviewKey,validateState,schedule,select,stats,start,refill,rate,finish,nextReview,validatePriorities,applyPrioritySnapshot,studyPriority};
 })(typeof window !== 'undefined' ? window : globalThis);

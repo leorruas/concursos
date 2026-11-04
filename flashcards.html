@@ -13,7 +13,7 @@
 <section id="fc-dashboard" hidden>
 <div class="fc-section-label"><h2>Seu repertório</h2><span>lembrar é diferente de reconhecer</span></div>
 <div id="fc-stats" class="fc-stats"></div>
-<div class="fc-session-note"><strong>Erros das questões</strong><p id="fc-errors-status">Importe o arquivo de prioridades do estudo para orientar as próximas rodadas.</p><div class="fc-actions"><label class="fc-import">Importar prioridades <input id="fc-errors-import" type="file" accept="application/json,.json"></label><button id="fc-errors-clear" type="button" hidden>Remover prioridades</button></div></div>
+<p id="fc-errors-status" class="fc-priorities-status" role="status" aria-live="polite">Atualizando automaticamente os cartões ligados aos erros das questões…</p>
 <div class="fc-setup"><div class="fc-setup-heading"><p class="fc-eyebrow">PRÓXIMA SESSÃO</p><h2>Estude no seu ritmo.</h2><p>Continue enquanto houver cartões elegíveis. Encerre quando quiser, preservando as revisões.</p><div class="fc-session-note"><strong>Como estudar</strong><p>Pense na resposta antes de revelar. Depois, avalie o que conseguiu recuperar.</p></div></div>
 <form id="fc-form" class="fc-controls">
 <label for="fc-exam">Concurso</label><select id="fc-exam" name="exam"></select>
@@ -38,10 +38,11 @@
 <details class="fc-help"><summary>Sobre as revisões e seu progresso</summary>
 <p>“Não sei”: volta em 10 minutos e pode reaparecer nesta sessão após três outros conceitos distintos, quando houver cartões suficientes. “Quase lembrei”: volta em 1 dia. “Sei”: intervalos de 1, 3, 7, 14 e 30 dias. Repetir antes de 20 horas não aumenta a sequência de lembranças espaçadas.</p>
 <p>Direta, inversa e contraste têm históricos separados. “Conhecidos” exige três lembranças espaçadas em cada uma das duas direções; é um indicador de vocabulário, não de domínio do edital. “Precisam de revisão” pode incluir conceitos conhecidos ou em aprendizagem. A autoavaliação não equivale a acerto em questão Cebraspe.</p>
-<p>Erros das questões: a consolidação das sessões gera <code>data/contexto-estudo/flashcards-prioridades.json</code> no GitHub. Baixe esse arquivo e use “Importar prioridades” acima. Ele orienta as próximas rodadas e preserva seu progresso. Após novas baterias, importe a versão atualizada. O arquivo pessoal não é copiado para o site público. Conceitos ainda sem cartão ficam na fila editorial do arquivo.</p>
+<p>Erros das questões: após a consolidação das sessões no GitHub, a página consulta automaticamente as prioridades mais recentes. Não há download nem importação manual. As prioridades orientam as próximas janelas de estudo, sem interromper uma sessão em andamento. Conceitos ainda sem cartão passam pela revisão das notas e fontes antes de entrar na coleção publicada.</p>
+<p>O arquivo de prioridades continua fora do GitHub Pages. Ele já está acessível no repositório público do projeto, de onde esta página o consulta; portanto os dados de erros registrados no GitHub não são privados. A avaliação que você faz de cada flashcard permanece neste navegador e não é enviada ao repositório.</p>
 <p>Uma lembrança neste cartão não encerra um erro das questões. A prioridade só muda com nova evidência de recuperação nas sessões e a importação atualizada. Recuperações imediatas continuam aguardando revisão posterior.</p>
 <p>Seu progresso fica apenas neste navegador e dispositivo (localStorage). Não é enviado ao GitHub nem sincronizado automaticamente. Limpar os dados do navegador ou usar navegação privada pode apagá-lo. Exporte uma cópia para transferir ou guardar; importar substitui o progresso local após confirmação.</p>
-<div class="fc-actions"><button id="fc-export" type="button" disabled>Exportar progresso</button><label class="fc-import">Importar cópia <input id="fc-import" type="file" accept="application/json,.json" disabled></label></div>
+<div class="fc-actions"><button id="fc-export" type="button" disabled>Exportar progresso</button><button id="fc-import-trigger" type="button" disabled>Importar cópia</button><input id="fc-import" type="file" accept="application/json,.json" hidden disabled></div>
 <p>Conteúdo didático revisado em 04/11/2026. As notas e fontes indicam o recorte de cada cartão. Exemplos são hipotéticos. Novas coleções só entram após revisão de conteúdo e validação de vínculos.</p>
 </details>
 <noscript>Ative JavaScript para estudar e salvar o progresso neste dispositivo.</noscript>

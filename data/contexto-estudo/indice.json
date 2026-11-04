@@ -58,6 +58,16 @@
           "priority": "a-definir"
         },
         {
+          "id": "avaliacao-de-politicas-publicas",
+          "name": "Avaliacao de Politicas Publicas",
+          "aliases": [
+            "Avaliacao de Politicas Publicas"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/avaliacao-de-politicas-publicas.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
           "id": "calculo-mental",
           "name": "Calculo Mental",
           "aliases": [
@@ -298,7 +308,8 @@
           "name": "Políticas Públicas e avaliação",
           "aliases": [
             "Políticas Públicas e avaliação",
-            "politicas-publicas"
+            "politicas-publicas",
+            "Avaliação de Políticas Públicas"
           ],
           "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
           "state": "em-estudo",
@@ -375,6 +386,16 @@
             "Auditoria Governamental"
           ],
           "path": "data/contexto-estudo/camara-2026/auditoria-governamental.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "avaliacao-de-politicas-publicas",
+          "name": "Avaliacao de Politicas Publicas",
+          "aliases": [
+            "Avaliacao de Politicas Publicas"
+          ],
+          "path": "data/contexto-estudo/camara-2026/avaliacao-de-politicas-publicas.json",
           "state": "nao-iniciada",
           "priority": "a-definir"
         },

@@ -568,6 +568,7 @@
             "P3.1.6"
           ],
           "noteRefs": [
+            "3 - Materias/Auditoria Governamental/monitoramento-de-recomendacoes-e-beneficios",
             "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#4. Monitoramento: verificar a resposta e o resultado"
           ],
           "requires": [
@@ -577,7 +578,7 @@
             "referencial",
             "mot"
           ],
-          "coverage": "parcial"
+          "coverage": "aprofundada"
         },
         {
           "id": "u12",
@@ -588,7 +589,10 @@
           "editalItems": [
             "P3.1.6"
           ],
-          "noteRefs": [],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/supervisao-e-qualidade-da-auditoria",
+            "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo#Supervisão, revisão técnica e documentação"
+          ],
           "requires": [
             "u11"
           ],
@@ -596,7 +600,7 @@
             "referencial",
             "mot"
           ],
-          "coverage": "parcial"
+          "coverage": "aprofundada"
         },
         {
           "id": "u13",

@@ -72,6 +72,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Auditoria Governamental/amostragem-e-generalizacao|Amostragem e generalização]]
    - [[3 - Materias/Auditoria Governamental/achados-causas-e-indicios-de-fraude|Achados, causas e indícios de fraude]]
    - [[3 - Materias/Auditoria Governamental/comunicacao-e-relatorios-de-auditoria|Comunicação e relatórios de auditoria]]
+   - [[3 - Materias/Auditoria Governamental/monitoramento-de-recomendacoes-e-beneficios|Monitoramento de recomendações e benefícios]]
+   - [[3 - Materias/Auditoria Governamental/supervisao-e-qualidade-da-auditoria|Supervisão e qualidade da auditoria]]
    - [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|03 • Independência, objetividade e supervisão]]
    - [[3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria|Sigilo profissional e transparência]]
    - [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|04 • Proficiência, zelo e ceticismo]]

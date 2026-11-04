@@ -140,4 +140,4 @@ A interpretação correta exige separar **autorização, limite de empenho, disp
 - [Lei Complementar nº 200/2023](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm).
 - [[2 - Editais/CGU 2026 - Auditoria|Programa CGU, P3.2.2]].
 
-**Pendente em outras notas:** Conta Única, limites específicos, relatórios fiscais e restos a pagar. Programação e bloqueios do exercício exigem consulta ao ato aplicável. Este artigo está preparado, **sem aula registrada**.
+**Aprofundamentos já disponíveis:** [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|Conta Única e execução financeira]], [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|relatórios fiscais e responsabilidade fiscal]] e [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|restos a pagar]]. Os **limites e bloqueios concretos de cada exercício** exigem consulta aos atos vigentes. Este artigo está preparado editorialmente; sua leitura não comprova domínio ou retenção.

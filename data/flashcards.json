@@ -123,10 +123,14 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "ppa-regionalizacao-e-escopo"
-      ]
+      ],
+      "contrast": {
+        "prompt": "PPA prevê ampliar uma universidade por quatro exercícios, mas a LOA não tem dotação para a obra. Há autorização de gasto?",
+        "answer": "Não basta constar do PPA. Para executar, é necessária dotação específica na LOA ou por crédito adicional."
+      }
     },
     {
       "id": "ldo",
@@ -155,10 +159,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
-        "prompt": "PPA × LDO × LOA: qual é o papel de cada lei?",
-        "answer": "PPA: diretrizes, objetivos e metas de médio prazo. LDO: metas, prioridades e orientação anual. LOA: previsão de receitas e fixação das despesas."
+        "prompt": "A LDO torna prioritária uma obra para o ano seguinte. Isso equivale a autorizar o gasto?",
+        "answer": "Não. A LDO orienta prioridades; a dotação consta da LOA ou de crédito adicional pertinente."
       },
       "conceptIds": []
     },
@@ -189,8 +193,12 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "A LOA fixa R$ 2 milhões para laboratório. Isso prova caixa ou entrega da obra?",
+        "answer": "Não. É autorização orçamentária, distinta de disponibilidade financeira, empenho, liquidação, pagamento e entrega."
+      }
     },
     {
       "id": "dotacao",
@@ -315,10 +323,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
-        "prompt": "Suplementar × especial: qual depende de uma dotação já existente?",
-        "answer": "Suplementar reforça dotação existente. Especial atende despesa sem dotação específica."
+        "prompt": "Laboratório já tem dotação de R$ 2 milhões, mas necessita mais R$ 500 mil. Que crédito cabe?",
+        "answer": "Suplementar, pois reforça dotação já existente. Sem dotação específica na LOA, seria especial."
       },
       "conceptIds": [
         "exclusividade-suplementar-vs-especial"
@@ -2191,8 +2199,12 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Painel mensal registra participação e evasão. A presença de um indicador de resultado transforma-o em avaliação de impacto?",
+        "answer": "Não. Monitoramento acompanha indicadores; avaliação de impacto exige desenho capaz de estimar efeito causal."
+      }
     },
     {
       "id": "avaliacao",
@@ -2252,10 +2264,14 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "resultado-observado-versus-causalidade"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Evasão caiu de 12% para 8% após o programa. Essa queda de 4 p.p. é o efeito causal estimado?",
+        "answer": "Ainda não: é mudança observada. Para atribuir causa é preciso estimar o que ocorreria sem o programa."
+      }
     },
     {
       "id": "eficacia",
@@ -2348,8 +2364,12 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Um programa atingiu todas as metas de atendimento, mas o problema público permanece: eficácia ou efetividade?",
+        "answer": "Houve eficácia relativa às metas operacionais; a efetividade finalística não está demonstrada."
+      }
     },
     {
       "id": "equidade",
@@ -3293,13 +3313,13 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "avaliabilidade-modelo-logico-reconstrucao"
       ],
       "contrast": {
-        "prompt": "Sem modelo lógico original, uma política é necessariamente não avaliável?",
-        "answer": "Não. Pode-se reconstruir retrospectivamente a teoria do programa. A viabilidade de cada avaliação ainda depende das evidências."
+        "prompt": "Registros suficientes para medir a entrega, mas sem comparação contrafactual: a política é totalmente não avaliável?",
+        "answer": "Não. É possível avaliar aspectos de execução; o impacto causal pode continuar sem evidência adequada."
       }
     },
     {
@@ -7420,6 +7440,248 @@
       "conceptIds": [
         "observacao-versus-reexecucao"
       ]
+    },
+    {
+      "id": "pp-teoria-mudanca-vs-modelo-logico",
+      "term": "Teoria da mudança × modelo lógico",
+      "definition": "A teoria da mudança explica mecanismos e condições de mudança; o modelo lógico organiza visualmente insumos, atividades, produtos e efeitos esperados.",
+      "example": "Reforço escolar: o diagrama mostra aulas e resultados; a teoria explica por que participação continuada poderia melhorar leitura.",
+      "confusion": "Os instrumentos podem se sobrepor conforme o referencial. Cinco caixas não comprovam um nexo causal.",
+      "topic": "Modelo lógico e avaliação",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-50878ee79345479b",
+        "section": "Teoria da mudança, teoria do programa, modelo lógico e marco lógico"
+      },
+      "source": {
+        "title": "Guia Prático de Análise Ex Ante (Casa Civil/Ipea)",
+        "url": "https://www.gov.br/gestao/pt-br/acesso-a-informacao/estrategia-e-governanca/planejamento_estrategico_arquivos/livros_guias_publicacoes/avaliacao-de-politicas-publicas-guia-pratico-de-analise-ex-ante-volume-1-ipea-2018.pdf",
+        "locator": "Guia Ex Ante, v. 1, 2018, cap. 4: modelo lógico"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Uma sequência de caixas já explica por que a política produz efeitos?",
+        "answer": "Não necessariamente. O modelo representa a cadeia; a teoria precisa explicitar mecanismos, pressupostos e condições."
+      }
+    },
+    {
+      "id": "pp-insumos-vs-atividades",
+      "term": "Insumos × atividades no modelo lógico",
+      "definition": "Insumos são recursos mobilizados; atividades são ações realizadas com esses recursos.",
+      "example": "Profissionais e salas são insumos; ministrar aulas de reforço é atividade.",
+      "confusion": "Contratar pessoal não equivale a comprovar que o atendimento planejado foi realizado.",
+      "topic": "Modelo lógico e avaliação",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-50878ee79345479b",
+        "section": "Estrutura interna: o encadeamento da intervenção"
+      },
+      "source": {
+        "title": "Guia Prático de Análise Ex Ante (Casa Civil/Ipea)",
+        "url": "https://www.gov.br/gestao/pt-br/acesso-a-informacao/estrategia-e-governanca/planejamento_estrategico_arquivos/livros_guias_publicacoes/avaliacao-de-politicas-publicas-guia-pratico-de-analise-ex-ante-volume-1-ipea-2018.pdf",
+        "locator": "Guia Ex Ante, v. 1, 2018, cap. 4: modelo lógico"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Profissionais contratados × encontros realizados: insumo ou atividade?",
+        "answer": "Profissionais disponíveis: insumo. Realizar encontros: atividade."
+      }
+    },
+    {
+      "id": "pp-produtos-vs-resultados",
+      "term": "Produtos × resultados em políticas públicas",
+      "definition": "Produtos são entregas diretas da execução; resultados são mudanças observadas ou pretendidas na população atendida.",
+      "example": "Duzentos encontros realizados são produtos; avanço na leitura dos alunos é resultado.",
+      "confusion": "Uma entrega concluída pode não produzir a mudança esperada.",
+      "topic": "Modelo lógico e avaliação",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-50878ee79345479b",
+        "section": "Estrutura interna: o encadeamento da intervenção"
+      },
+      "source": {
+        "title": "Guia Prático de Análise Ex Ante (Casa Civil/Ipea)",
+        "url": "https://www.gov.br/gestao/pt-br/acesso-a-informacao/estrategia-e-governanca/planejamento_estrategico_arquivos/livros_guias_publicacoes/avaliacao-de-politicas-publicas-guia-pratico-de-analise-ex-ante-volume-1-ipea-2018.pdf",
+        "locator": "Guia Ex Ante, v. 1, 2018, cap. 4: modelo lógico"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Um programa realizou 200 aulas, mas alunos ainda não melhoraram: produto ou resultado comprovado?",
+        "answer": "Produto entregue; melhora de leitura, como resultado, ainda não foi demonstrada."
+      }
+    },
+    {
+      "id": "pp-impacto-logico-vs-causal",
+      "term": "Impacto na cadeia lógica × avaliação de impacto",
+      "definition": "Na cadeia lógica, impacto é um efeito final pretendido; a avaliação de impacto procura estimar efeitos causais atribuíveis à intervenção.",
+      "example": "Redução duradoura da evasão é objetivo final; comprovar contribuição causal exige contrafactual plausível.",
+      "confusion": "Usar a palavra impacto num modelo lógico não prova que a política causou a mudança.",
+      "topic": "Modelo lógico e avaliação",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-50878ee79345479b",
+        "section": "Estrutura interna: o encadeamento da intervenção"
+      },
+      "source": {
+        "title": "Guia Prático de Análise Ex Ante (Casa Civil/Ipea)",
+        "url": "https://www.gov.br/gestao/pt-br/acesso-a-informacao/estrategia-e-governanca/planejamento_estrategico_arquivos/livros_guias_publicacoes/avaliacao-de-politicas-publicas-guia-pratico-de-analise-ex-ante-volume-1-ipea-2018.pdf",
+        "locator": "Guia Ex Ante, v. 1, 2018, cap. 4: modelo lógico"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "A teoria da mudança prevê impacto na evasão. Isso prova impacto causal?",
+        "answer": "Não. Prever um efeito final não identifica causalidade; avaliação de impacto exige evidência apropriada."
+      }
+    },
+    {
+      "id": "pp-avaliabilidade-por-pergunta",
+      "term": "Avaliabilidade depende da pergunta",
+      "definition": "Uma política pode ter evidências suficientes para avaliar execução ou implementação, mas insuficientes para estimar efeito causal.",
+      "example": "Programa antigo tem registros de aulas e presença, mas não dispõe de dados que sustentem comparação contrafactual.",
+      "confusion": "A ausência de modelo original não torna a política inteiramente não avaliável, e sua reconstrução não garante avaliação de impacto.",
+      "topic": "Modelo lógico e avaliação",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-50878ee79345479b",
+        "section": "Duas perguntas de avaliação para a mesma política"
+      },
+      "source": {
+        "title": "Guia Prático de Análise Ex Post (Casa Civil/Ipea)",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Guia Ex Post, v. 2, 2018: teoria do programa, reconstrução e inferência causal"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "avaliabilidade-modelo-logico-reconstrucao"
+      ],
+      "contrast": {
+        "prompt": "Sem modelo lógico prévio: posso avaliar a implementação mesmo sem estimar impacto causal?",
+        "answer": "Sim, se os registros permitirem responder à pergunta de implementação. A avaliabilidade varia conforme pergunta e método."
+      }
+    },
+    {
+      "id": "pp-variacao-observada-vs-efeito",
+      "term": "Mudança observada × efeito causal",
+      "definition": "Uma diferença antes e depois descreve variação observada; atribuição causal exige estimar o que ocorreria sem a intervenção.",
+      "example": "Evasão cai de 12% para 8% após o transporte escolar. Isso são quatro pontos de queda observada, ainda sem atribuição causal.",
+      "confusion": "Tendências prévias, renda, seleção e mudanças simultâneas podem explicar parte da diferença.",
+      "topic": "Modelo lógico e avaliação",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Três conclusões possíveis para o mesmo indicador"
+      },
+      "source": {
+        "title": "Guia Prático de Análise Ex Post (Casa Civil/Ipea)",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Guia Ex Post, v. 2, 2018: teoria do programa, reconstrução e inferência causal"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "resultado-observado-versus-causalidade"
+      ],
+      "contrast": {
+        "prompt": "A evasão caiu quatro pontos após o programa. Quanto desse valor é comprovadamente efeito causal?",
+        "answer": "Não é possível saber só com a comparação antes/depois; falta contrafactual defensável."
+      }
+    },
+    {
+      "id": "pp-economicidade-vs-eficiencia",
+      "term": "Economicidade × eficiência",
+      "definition": "Economicidade examina condições de obtenção dos insumos; eficiência relaciona produtos entregues e recursos empregados, preservada a qualidade.",
+      "example": "Comprar veículos a preço adequado trata de economicidade; custo por estudante transportado com serviço equivalente trata de eficiência.",
+      "confusion": "Preço unitário baixo não comprova que o serviço final foi entregue com eficiência.",
+      "topic": "Modelo lógico e avaliação",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Eficiência: relação entre insumos e produtos"
+      },
+      "source": {
+        "title": "Manual de Auditoria Operacional (TCU, 4ª edição)",
+        "url": "https://portal.tcu.gov.br/data/files/F2/73/02/68/7335671023455957E18818A8/Manual_auditoria_operacional_4_edicao.pdf",
+        "locator": "TCU, Manual de Auditoria Operacional, 2020, seção 1.3: dimensões de desempenho"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Ônibus adquirido pelo menor preço × menor custo por aluno transportado: quais dimensões?",
+        "answer": "A aquisição pode indicar economicidade; a razão entre recursos usados e transporte entregue envolve eficiência."
+      }
     }
   ]
 }

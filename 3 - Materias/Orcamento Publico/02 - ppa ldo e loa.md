@@ -177,6 +177,14 @@ Um governo quer abrir dez centros de atendimento ao longo de três exercícios. 
 
 Uma empresa possui 30% de participação da União, sem maioria do capital votante. A mera participação minoritária **não satisfaz** o critério do orçamento de investimento do art. 165, § 5º, II. Outros critérios orçamentários e institucionais podem afetar sua relação com o setor público, mas o inciso constitucional tem objeto próprio.
 
+### Caso integrado: PPA, LDO, LOA e crédito adicional
+
+Um exemplo hipotético de educação federal ajuda a distinguir **planejamento**, **prioridade**, **autorização** e **execução**. O **PPA** prevê ampliar a oferta de laboratórios em regiões com demanda educacional; a **LDO** inclui orientações e prioridades para o exercício seguinte; a **LOA** fixa dotação de **R$ 2 milhões** para uma ação específica de construção. Esses instrumentos se articulam, mas nenhum registro comprova que a obra já começou ou que todo o dinheiro está disponível para pagamento.
+
+No meio do exercício, o projeto da obra é revisto e precisa de **mais R$ 500 mil** para a mesma programação. Como já existe dotação específica de R$ 2 milhões, o reforço, cumpridos os requisitos legais, é um **crédito suplementar**. Imagine agora que a expansão estivesse **prevista no PPA**, mas a LOA **não tivesse criado dotação específica** para aquela ação: a nova autorização, observadas as condições legais, seria um **crédito especial**. A pergunta decisiva é a existência da dotação na LOA, **não** a existência da ideia no planejamento plurianual.
+
+Em ambos os cenários, **dotação é autorização**. Ela precisa ser distinguida de disponibilidades financeiras, limitação de empenho, contratação, empenho, liquidação, pagamento e entrega. Para separar o papel legislativo, consulte também [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares#Por que crédito especial e emenda parlamentar podem aparecer juntos?|créditos e emendas]]: o projeto de lei de crédito pode receber emendas parlamentares enquanto tramita.
+
 ### Caso real: Correios, serviço universal e risco de dependência (2024 a 2026)
 
 A **Empresa Brasileira de Correios e Telégrafos (ECT)** é uma **empresa pública federal controlada integralmente pela União**. No **Relatório Agregado das Empresas Estatais Federais 2025 (ano-base 2024)**, o Ministério da Gestão a classificou como **não dependente**. Em **2 de junho de 2026**, o Tribunal de Contas da União (TCU) também descreveu a ECT como empresa estatal independente, mas alertou para dificuldades financeiras e **risco de passar a depender de aportes do Tesouro**.

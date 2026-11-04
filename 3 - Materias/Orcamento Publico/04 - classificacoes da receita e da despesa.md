@@ -75,6 +75,12 @@ O **ingresso orçamentário** incorpora a execução da receita e é classificad
 
 Os estágios **previsão, lançamento, arrecadação e recolhimento** pertencem a outra dimensão: cronologia de realização da receita. Uma receita não é “corrente” ou “de capital” porque se encontra num desses estágios.
 
+### Exemplo contrastivo: dois empréstimos, duas classificações
+
+Um ente contrata financiamento para **construir um laboratório durante os próximos exercícios**. A entrada oriunda de operação de crédito comum, observadas as normas pertinentes, constitui **receita orçamentária de capital**. Em outro cenário, o ente realiza uma **operação de crédito por antecipação de receita orçamentária (ARO)** para enfrentar insuficiência **temporária de caixa** enquanto aguarda arrecadação: trata-se de **ingresso extraorçamentário** na classificação aplicável.
+
+As duas operações podem envolver captação de dinheiro, mas a distinção para a prova não depende só da palavra *empréstimo*: a **finalidade e a espécie da operação** determinam seu tratamento. Tampouco se deve confundir o ingresso da ARO com a própria receita tributária que futuramente será arrecadada; são fatos distintos, sujeitos às regras específicas da Lei nº 4.320/1964 e da LRF.
+
 ## Fonte/destinação de recursos × natureza da receita
 
 A **natureza** responde: *qual fato econômico originou o ingresso?* A **fonte/destinação** responde: *quais são as regras de aplicação desses recursos e em que despesas poderão ser utilizados?*
@@ -141,6 +147,8 @@ Nas empresas estatais, é preciso distinguir **controle acionário** de **depend
 Na União, a classificação institucional é formada por **órgão orçamentário** e **unidade orçamentária (UO)**. O órgão pode agrupar várias unidades; a unidade recebe dotações e responde pelo programa de trabalho no formato orçamentário. A UO não precisa coincidir exatamente com uma repartição administrativa física: fundos e encargos podem ter representação própria.
 
 A pergunta institucional é **“quem?”**, e não “para quê?” ou “em qual área de política pública?”.
+
+**Caso de classificação:** uma **universidade federal** recebe dotação para o **programa hipotético de permanência estudantil**, que inclui uma ação de apoio aos alunos. A universidade ou unidade orçamentária responsável pertence à **classificação institucional**; o programa e a ação, à **programática**. Não é preciso conhecer o código da unidade para acertar a fronteira: primeiro perguntar **quem responde pela programação**, depois **qual objetivo e ação** serão executados.
 
 ### Classificação funcional: função × subfunção
 

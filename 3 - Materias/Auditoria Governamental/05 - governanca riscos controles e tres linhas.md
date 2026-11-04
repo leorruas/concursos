@@ -20,6 +20,21 @@ Esta nota aprofunda a **unidade 03** de Auditoria Governamental, com base na **I
 
 **Risco inerente**: exposição antes de considerar as medidas gerenciais de tratamento. **Risco residual**: exposição que permanece após sua implementação. Controles implantados podem ser ineficazes e deixar a exposição elevada; **risco residual não pressupõe comprovação de redução do risco**. A falta de evidência de eficácia impede confiança na estimativa do residual, mas não altera por si só sua categoria.
 
+### Um mesmo controle: risco, desenho e funcionamento
+
+Considere um caso hipotético de **pagamentos duplicados** em um programa de bolsas. Três perguntas precisam permanecer separadas:
+
+| Pergunta | Conceito | Evidência que seria necessária |
+| :--- | :--- | :--- |
+| Qual exposição existia **antes** de considerar o bloqueio de duplicidades? | **Risco inerente** | Identificar evento, probabilidade e impacto em relação ao objetivo |
+| A regra do sistema, se aplicada, seria capaz de evitar pagamentos repetidos? | **Desenho do controle** | Examinar a lógica da regra, suas exceções e os riscos cobertos |
+| O bloqueio foi efetivamente aplicado durante os pagamentos examinados? | **Funcionamento operacional** | Obter registros confiáveis da aplicação do controle ao longo do período |
+| Qual exposição permanece ao considerar as medidas efetivamente implementadas? | **Risco residual** | Avaliar os controles na prática e os riscos que continuam presentes |
+
+O **risco residual pode continuar elevado** quando o controle é ineficaz, descumprido ou insuficiente. Sua denominação não depende de provar que a exposição caiu; a confiança em uma estimativa de redução, porém, depende de evidências da eficácia das medidas. Assim, “há um bloqueio previsto” não autoriza concluir nem que o controle funciona nem que o risco residual é baixo.
+
+A Cebraspe pode deslocar uma frase verdadeira entre etapas: **desenho adequado** não equivale a **operação eficaz**, e **risco residual** não é sinônimo de **risco pequeno**. Um teste que inspeciona logs de aprovação para verificar o funcionamento do controle é, pela **finalidade**, um teste de controle, ainda que utilize inspeção documental. Veja [[3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Três testes sobre a mesma despesa|finalidade dos procedimentos de auditoria]].
+
 ## Estrutura interna: cinco componentes dos controles internos (art. 11)
 
 | Componente | O que examina | Exemplo em programa de bolsas |

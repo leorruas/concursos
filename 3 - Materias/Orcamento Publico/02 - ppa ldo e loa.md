@@ -68,6 +68,16 @@ O papel da LDO é normativo e orientador. Ela **não substitui** a LOA na fixaç
 
 A **LOA**, para um exercício financeiro, **prevê receitas e fixa despesas**. A formulação é importante: receitas são estimadas e podem variar, enquanto dotações representam autorizações para a despesa, sujeitas às condições legais e financeiras. Não se deve afirmar que toda receita prevista será arrecadada ou que toda despesa fixada será necessariamente paga.
 
+### Do projeto de orçamento à lei: onde entra a dotação?
+
+O Executivo elabora e envia ao Congresso o **Projeto de Lei Orçamentária Anual (PLOA)**. Enquanto está em análise legislativa, o texto é uma **proposta**: pode receber emendas dentro dos limites constitucionais. Após aprovação e sanção, torna-se a **Lei Orçamentária Anual (LOA)**. O mesmo modelo básico de iniciativa do Executivo e apreciação legislativa vale para PPA e LDO, observados seus procedimentos.
+
+A LOA **estima** receitas, mas **fixa** despesas. Quando a LOA autoriza, por exemplo, **R$ 2 milhões para construir um laboratório de universidade federal**, essa quantia é uma **dotação orçamentária**: um limite/autorização para determinada programação, não a prova de que R$ 2 milhões já estão disponíveis em caixa. A palavra *dotação* se relaciona a *dotar*, atribuir recursos a uma finalidade; para a prova importa o sentido jurídico de **autorização para gastar**.
+
+Se a arrecadação ficar abaixo do previsto, a execução poderá ser ajustada conforme a programação e as regras de limitação de empenho. A dotação aprovada **não desaparece automaticamente** pela redução de caixa: autorização orçamentária, disponibilidade financeira, empenho, pagamento e entrega são fatos distintos.
+
+**Mesmo órgão, dois tipos de despesa:** o orçamento fiscal de uma universidade federal pode conter papel para atividades administrativas (**corrente**, Outras Despesas Correntes) e construção de laboratório (**capital**, Investimentos). O nome “orçamento de investimento das estatais” designa outra esfera da LOA, não uma categoria onde entram todas as obras públicas. Compare as perguntas no [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Exemplo guiado: um mesmo gasto visto por várias classificações|exemplo de classificações da despesa]].
+
 ### Três orçamentos em uma lei
 
 Conforme o art. 165, § 5º, a LOA compreende:

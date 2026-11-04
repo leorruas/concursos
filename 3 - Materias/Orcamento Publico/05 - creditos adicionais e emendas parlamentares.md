@@ -27,6 +27,14 @@ A Lei nº 4.320/1964, art. 40, define **créditos adicionais** como autorizaçõ
 
 **Emenda parlamentar** é proposta de alteração de projeto de lei orçamentária, apresentada no processo legislativo e sujeita a condições constitucionais e legais. Ela pode originar uma programação de despesa, inclusive impositiva em situações específicas, mas não é uma das três espécies de crédito adicional.
 
+### Por que crédito especial e emenda parlamentar podem aparecer juntos?
+
+Considere um caso hipotético. A LOA não contém **dotação específica** para um laboratório. Para incluir essa despesa durante o exercício, o Executivo encaminha um **projeto de lei de crédito especial**: a espécie de crédito depende da ausência da dotação, ainda que a obra já esteja prevista no PPA. Enquanto o Congresso analisa esse projeto, um parlamentar propõe uma **emenda** para modificar o valor ou a programação. Nesse cenário, o **crédito especial** é a autorização que se pretende criar; a **emenda parlamentar** é a proposta de alterar o projeto em tramitação.
+
+Uma emenda pode aumentar, reduzir ou modificar uma programação conforme as regras aplicáveis, mas **não basta ao deputado escolher um valor livremente**. Há requisitos de compatibilidade, indicação de recursos em hipóteses constitucionais e restrições a dotações que podem ser anuladas. O detalhamento está na seção “Emendas aos projetos orçamentários: critérios”. A iniciativa do Executivo e o poder parlamentar de emenda são papéis diferentes.
+
+**Reconhecimento rápido:** dotação existente e insuficiente → crédito **suplementar**; dotação específica ausente → **especial**; despesa imprevisível e urgente sob as condições constitucionais → **extraordinário**. Emenda parlamentar não é uma quarta espécie de crédito adicional. A autorização de créditos **suplementares** na própria LOA é exceção ao princípio da exclusividade; essa exceção não se estende automaticamente à autorização de créditos especiais.
+
 ## Suplementar, especial e extraordinário
 
 | Espécie | Qual problema resolve? | Regra normativa central |

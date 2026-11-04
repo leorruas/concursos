@@ -351,10 +351,14 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "exclusividade-suplementar-vs-especial"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Obra prevista no PPA, mas sem dotação específica na LOA: qual crédito?",
+        "answer": "Crédito especial. A previsão no PPA não substitui dotação específica na LOA."
+      }
     },
     {
       "id": "extraordinario",
@@ -1471,10 +1475,14 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "classificacao-institucional-vs-programatica"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Ministério da Saúde × ação de vacinação: o que é institucional?",
+        "answer": "O órgão e a unidade orçamentária. Programa e ação são da classificação programática."
+      }
     },
     {
       "id": "funcional",
@@ -1503,8 +1511,12 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Função Saúde × programa de imunização: qual é funcional?",
+        "answer": "Função Saúde; o programa de imunização é programático."
+      }
     },
     {
       "id": "projeto",
@@ -1629,11 +1641,15 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "gnd-vs-elemento-vs-fonte",
         "projeto-acao-vs-gnd-investimento"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Quatro níveis da natureza da despesa, em ordem?",
+        "answer": "Categoria econômica → GND → modalidade de aplicação → elemento."
+      }
     },
     {
       "id": "elemento",
@@ -1662,10 +1678,14 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "gnd-vs-elemento-vs-fonte"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Compra de seringas: material de consumo é GND ou elemento?",
+        "answer": "Elemento. O GND correspondente é Outras Despesas Correntes."
+      }
     },
     {
       "id": "amortizacao-divida",
@@ -1694,8 +1714,12 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Principal da dívida × juros: qual despesa é de capital?",
+        "answer": "Amortização do principal: capital. Juros e encargos da dívida: corrente."
+      }
     },
     {
       "id": "ativo",
@@ -3560,13 +3584,13 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "esfera-vs-natureza-investimento"
       ],
       "contrast": {
-        "prompt": "Toda obra pública deve estar no orçamento de investimento das estatais?",
-        "answer": "Não. A natureza econômica da despesa e a esfera do orçamento respondem a perguntas diferentes."
+        "prompt": "Universidade constrói laboratório e compra papel: a esfera da LOA muda?",
+        "answer": "Não, ambas no fiscal. A natureza muda: capital/Investimentos na obra, corrente no papel."
       }
     },
     {
@@ -6813,6 +6837,483 @@
       "conceptIds": [
         "aud-risco-aceito-escalonamento"
       ]
+    },
+    {
+      "id": "classificacao-programatica",
+      "term": "Classificação programática da despesa",
+      "definition": "Identifica o programa, a ação e o subtítulo vinculados à política pública.",
+      "example": "Programa hipotético de imunização e ação de vacinação.",
+      "confusion": "Secretaria executora integra a lente institucional; ação integra a programática.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação programática: programa × ação × subtítulo"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Secretaria responsável × ação de vacinação: quais classificações?",
+        "answer": "Secretaria ou UO: institucional. Programa e ação: programática."
+      },
+      "conceptIds": [
+        "classificacao-institucional-vs-programatica"
+      ]
+    },
+    {
+      "id": "categoria-economica-despesa",
+      "term": "Categoria econômica da despesa",
+      "definition": "Primeiro nível da natureza da despesa: correntes ou de capital.",
+      "example": "Compra de papel: corrente; construção de laboratório: capital.",
+      "confusion": "Corrente não significa frequente; capital não significa gasto caro.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Qual lente diferencia corrente de capital: esfera ou natureza?",
+        "answer": "Natureza da despesa, no nível categoria econômica. Esfera distingue fiscal, seguridade e estatais."
+      },
+      "conceptIds": [
+        "esfera-vs-natureza-investimento"
+      ]
+    },
+    {
+      "id": "gnd-pessoal-encargos-sociais",
+      "term": "Pessoal e Encargos Sociais (GND 1)",
+      "definition": "Grupo de despesas correntes com pessoal e respectivos encargos sociais.",
+      "example": "Remuneração e encargos sociais de servidores.",
+      "confusion": "É um GND, não o elemento que detalha a despesa.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": []
+    },
+    {
+      "id": "gnd-juros-encargos-divida",
+      "term": "Juros e Encargos da Dívida (GND 2)",
+      "definition": "Grupo de despesas correntes referentes a juros e encargos da dívida.",
+      "example": "Pagar juros de financiamento contratado pelo ente.",
+      "confusion": "O pagamento do principal da dívida é amortização: despesa de capital.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Juros de empréstimo × devolução do principal: quais categorias?",
+        "answer": "Juros e encargos: despesa corrente, GND 2. Amortização do principal: capital, GND 6."
+      },
+      "conceptIds": []
+    },
+    {
+      "id": "gnd-outras-despesas-correntes",
+      "term": "Outras Despesas Correntes (GND 3)",
+      "definition": "Grupo de despesas correntes que inclui materiais de consumo e serviços de custeio, entre outros.",
+      "example": "Comprar seringas descartáveis para uma ação de vacinação.",
+      "confusion": "É grupo da natureza; material de consumo é elemento.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": []
+    },
+    {
+      "id": "gnd-investimentos",
+      "term": "Investimentos (GND 4)",
+      "definition": "Grupo de despesas de capital que inclui obras, instalações e equipamentos, entre outras hipóteses.",
+      "example": "Construir um laboratório em universidade federal.",
+      "confusion": "O GND Investimentos não determina orçamento de investimento das estatais.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Obra em universidade federal: GND e esfera orçamentária?",
+        "answer": "GND Investimentos (capital); esfera fiscal da LOA, em regra."
+      },
+      "conceptIds": [
+        "esfera-vs-natureza-investimento",
+        "projeto-acao-vs-gnd-investimento"
+      ]
+    },
+    {
+      "id": "gnd-inversoes-financeiras",
+      "term": "Inversões Financeiras (GND 5)",
+      "definition": "Grupo de despesas de capital que inclui certas aquisições de imóveis e participações societárias.",
+      "example": "Adquirir imóvel pronto sem vinculação à execução de obra, conforme as regras.",
+      "confusion": "A compra de qualquer bem pronto não é automaticamente inversão financeira.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Imóvel adquirido para realizar obra × imóvel pronto sem obra: qual atenção?",
+        "answer": "A vinculação à execução de obra pode levar a Investimentos; outras aquisições podem ser Inversões Financeiras."
+      },
+      "conceptIds": []
+    },
+    {
+      "id": "modalidade-aplicacao-despesa",
+      "term": "Modalidade de aplicação da despesa",
+      "definition": "Terceiro nível da natureza: indica como os recursos serão aplicados ou transferidos.",
+      "example": "Aplicação direta pelo ministério ou transferência ao município.",
+      "confusion": "Não é GND, elemento nem modalidade de licitação.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Aplicação direta e transferência a município pertencem a qual nível?",
+        "answer": "Modalidade de aplicação, terceiro nível da natureza da despesa."
+      },
+      "conceptIds": []
+    },
+    {
+      "id": "modalidade-aplicacoes-diretas",
+      "term": "Aplicações Diretas: modalidade de aplicação",
+      "definition": "Modalidade em que a unidade executora aplica diretamente os recursos em suas despesas.",
+      "example": "Ministério compra seringas diretamente para suas unidades.",
+      "confusion": "Aplicação direta não significa GND Investimentos.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Ministério compra material de consumo: modalidade e elemento?",
+        "answer": "Modalidade: aplicações diretas. Elemento: material de consumo."
+      },
+      "conceptIds": []
+    },
+    {
+      "id": "modalidade-transferencias-municipios",
+      "term": "Transferências a Municípios: modalidade",
+      "definition": "Indica aplicação por transferência de recursos a municípios pelo ente transferidor.",
+      "example": "União transfere recursos para um município executar uma ação.",
+      "confusion": "É modalidade da despesa do transferidor; difere da receita recebida pelo município.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "União envia recursos à prefeitura para executar ação: qual modalidade?",
+        "answer": "Transferências a Municípios, conforme a classificação da despesa do ente transferidor."
+      },
+      "conceptIds": []
+    },
+    {
+      "id": "elemento-material-consumo",
+      "term": "Material de Consumo: elemento de despesa",
+      "definition": "Elemento que identifica a compra de materiais usados ou consumidos nas atividades.",
+      "example": "Seringas descartáveis e papel de escritório.",
+      "confusion": "É elemento, não modalidade de aplicação nem GND.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Compra direta de seringas: qual GND, modalidade e elemento?",
+        "answer": "Outras Despesas Correntes; Aplicações Diretas; Material de Consumo."
+      },
+      "conceptIds": [
+        "gnd-vs-elemento-vs-fonte"
+      ]
+    },
+    {
+      "id": "elemento-equipamento-permanente",
+      "term": "Equipamentos e Material Permanente: elemento",
+      "definition": "Elemento destinado à aquisição de equipamentos e materiais permanentes.",
+      "example": "Compra de computadores para laboratório.",
+      "confusion": "Elemento descreve o objeto; grupo Investimentos é um nível anterior.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Computadores novos: elemento e GND mais usuais?",
+        "answer": "Equipamentos e Material Permanente; GND Investimentos."
+      },
+      "conceptIds": []
+    },
+    {
+      "id": "ploa-projeto-lei",
+      "term": "Projeto de Lei Orçamentária Anual (PLOA)",
+      "definition": "Proposta do Executivo encaminhada ao Legislativo; a LOA é a lei após a tramitação.",
+      "example": "Projeto do orçamento anual é enviado ao Congresso para análise.",
+      "confusion": "O orçamento proposto ainda não é lei aprovada.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "LOA: Lei Orçamentária Anual"
+      },
+      "source": {
+        "title": "Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Arts. 165 e 166; processamento legislativo das leis orçamentárias"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "PLOA × LOA: qual existe antes da aprovação legislativa?",
+        "answer": "PLOA é o projeto; LOA é a lei orçamentária aprovada e sancionada."
+      },
+      "conceptIds": []
+    },
+    {
+      "id": "emenda-projeto-orcamentario",
+      "term": "Emenda parlamentar a projeto orçamentário",
+      "definition": "Proposta de alteração legislativa ao projeto, como LOA ou crédito adicional, sob requisitos legais.",
+      "example": "Deputado propõe alterar o valor em projeto de crédito especial.",
+      "confusion": "Emenda modifica o projeto; crédito especial cria dotação que faltava.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Emendas aos projetos orçamentários: critérios"
+      },
+      "source": {
+        "title": "Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Arts. 165 e 166; processamento legislativo das leis orçamentárias"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Um projeto de crédito especial recebe emenda: qual é o crédito e qual a emenda?",
+        "answer": "Especial é a espécie de crédito. Emenda é a proposta parlamentar de alteração do projeto."
+      },
+      "conceptIds": []
     }
   ]
 }

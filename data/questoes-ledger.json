@@ -1754,6 +1754,88 @@
       "confidenceTracking": {
         "coverage": "complete"
       }
+    },
+    {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b06",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T16:05:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "learning": {
+        "stage": "aprendizagem",
+        "taughtConcepts": [
+          "crédito especial para dotação ausente e exclusividade",
+          "receitas correntes versus de capital e alienação de bens",
+          "receita originária doutrinária versus patrimonial oficial",
+          "receita orçamentária versus ingresso extraorçamentário, incluindo ARO",
+          "função e subfunção matriciais",
+          "classificação institucional versus programática",
+          "projeto versus grupo de natureza da despesa",
+          "GND, elemento e fonte/destinação"
+        ],
+        "boundaries": [
+          "crédito suplementar versus especial",
+          "alienação como receita de capital e regras distintas de destinação",
+          "doutrina originária versus natureza oficial patrimonial",
+          "operação de crédito comum versus ARO",
+          "função versus subfunção",
+          "institucional responde quem; programática responde que política e ação",
+          "projeto não determina GND Investimentos",
+          "GND/elemento da natureza versus fonte/destinação"
+        ],
+        "pending": [
+          "Erros seguros nos itens 4 e 6: confusão conceitual em operações ARO e classificação institucional/programática.",
+          "Itens 2, 3, 7 e 8: acertos inseguros, retestar depois com mecanismos diferentes.",
+          "Item 1: recuperação imediata segura da dificuldade de créditos especiais da bateria 05; retenção posterior não testada.",
+          "Preservar revisão em 2026-11-05 da regionalização do PPA e demais lacunas das baterias 01 a 05.",
+          "A unidade up3-2-2 segue aberta: fontes, indicadores de resultado primário, créditos e programação."
+        ],
+        "unitCompleted": false,
+        "next": {
+          "unitId": "up3-2-2",
+          "stage": "fronteiras",
+          "objective": "Comparar ARO versus empréstimo de financiamento e institucional versus programática, depois fonte/destinação e classificação por resultado primário do artigo 04.",
+          "noteRef": "article:art-d8b1c5e6037249fa#Receita orçamentária × ingresso extraorçamentário",
+          "sourceIds": [
+            "mto2026",
+            "mcasp",
+            "lei4320",
+            "lrf"
+          ]
+        }
+      },
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "parcial",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "totalQuestions": 8,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "Bateria 06, artigo 04: 6/8 acertos (itens 1,2,3,5,7,8); erros seguros nos itens 4 (ARO extraorçamentária versus operação comum como receita de capital) e 6 (troca entre classificação institucional e programática), ambos confusão conceitual. Acertos inseguros nos itens 2,3,7,8 (alienação/destinação; origem doutrinária/natureza; projeto/GND; GND/elemento/fonte). Item 1 foi recuperação segura no mesmo dia de exclusividade versus crédito especial da bateria 05, sem demonstração de retenção.",
+      "nextStep": "Treinar duas fronteiras por casos contrastivos: ARO como ingresso extraorçamentário versus operação de crédito orçamentária de capital; institucional (quem) versus programática (qual política/ação). Recuperar quatro acertos inseguros por novos mecanismos. Prosseguir no artigo 04 por fonte/destinação e resultado primário; manter revisão espaçada prevista para 2026-11-05 das lacunas do orçamento, inclusive regionalização do PPA.",
+      "generationAudit": {
+        "counts": {
+          "new": 7,
+          "thematic": 1,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0.875,
+        "thematicRate": 0.125,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0.125
+      },
+      "noveltyException": null,
+      "confidenceTracking": {
+        "coverage": "complete"
+      }
     }
   ],
   "questions": [
@@ -15335,6 +15417,361 @@
       "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b05.json",
       "date": "2026-11-04",
       "startedAt": "2026-11-04T15:33:28-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 1,
+      "conceptId": "exclusividade-suplementar-vs-especial",
+      "discipline": "Orçamento Público",
+      "topic": "Créditos adicionais e princípio da exclusividade",
+      "subtopic": "Crédito especial para despesa sem dotação",
+      "questionType": "application",
+      "mechanism": "identificar-especie-de-credito-em-caso-novo",
+      "distractorMechanism": "transposicao-da-autorizacao-de-suplementar-ao-especial",
+      "statement": "Uma nova ação governamental previsível, sem dotação específica na LOA, pode demandar crédito especial autorizado por lei própria; a possibilidade de a LOA autorizar créditos suplementares não dispensa esse procedimento.",
+      "explanation": "Certo. Ação previsível sem dotação específica exige examinar crédito especial autorizado por lei; a exceção na LOA para créditos suplementares não autoriza automaticamente o especial. Acerto seguro constitui recuperação imediata do erro da bateria 05, não prova retenção.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares#Dotação insuficiente × dotação inexistente",
+        "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais#Exclusividade e suas duas exceções constitucionais"
+      ],
+      "retrievalOf": [
+        "cgu-2026-2026-11-04-orcamento-publico-b05-q6"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-2026-11-04-orcamento-publico-b05-q6"
+        ],
+        "intentional": true,
+        "transformation": "Caso concreto de nova ação previsível sem dotação; a bateria anterior questionava a extensão da ressalva de exclusividade diretamente."
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b06-q1",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b06",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T16:05:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 2,
+      "conceptId": "receita-capital-alienacao-vs-destinacao",
+      "discipline": "Orçamento Público",
+      "topic": "Classificação da receita",
+      "subtopic": "Alienação de bens versus regras de destinação",
+      "questionType": "classification",
+      "mechanism": "distinguir-categoria-economica-e-destinacao",
+      "distractorMechanism": "confusao-entre-natureza-do-ingresso-e-vinculacao",
+      "statement": "A alienação de imóvel público é classificada como receita de capital quanto à categoria econômica, embora a aplicação dos recursos arrecadados possa estar sujeita a regras específicas de destinação.",
+      "explanation": "Certo. Alienação de imóvel público é receita de capital, na origem alienação de bens; as condições jurídicas para aplicar o valor não são a mesma classificação e podem impor restrições. Acerto inseguro pede revisão.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "questao_comentada_candidata"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Receita: categoria econômica e natureza"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b06-q2",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b06",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T16:05:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 3,
+      "conceptId": "receita-originaria-doutrina-vs-patrimonial",
+      "discipline": "Orçamento Público",
+      "topic": "Classificação da receita",
+      "subtopic": "Origem doutrinária versus natureza oficial",
+      "questionType": "comparison",
+      "mechanism": "distinguir-classificador-oficial-de-criterio-doutrinario",
+      "distractorMechanism": "equiparacao-de-taxonomias-vizinhas",
+      "statement": "Ao classificar a receita obtida com o aluguel de imóvel público como originária, utiliza-se a mesma categoria do classificador oficial de natureza que a identifica como receita corrente patrimonial.",
+      "explanation": "Errado. Originária é a classificação doutrinária ligada à exploração do patrimônio ou atividade econômica do Estado; corrente patrimonial é a classificação oficial por natureza. Mesmo ingresso admite ambas em dimensões distintas. Acerto inseguro.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "questao_comentada_candidata"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Originária × derivada"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b06-q3",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b06",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T16:05:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 4,
+      "conceptId": "aro-extraorcamentaria-vs-credito-capital",
+      "discipline": "Orçamento Público",
+      "topic": "Receita orçamentária e extraorçamentária",
+      "subtopic": "ARO versus operação de crédito comum",
+      "questionType": "comparison",
+      "mechanism": "comparar-tratamento-orcamentario-de-dois-emprestimos",
+      "distractorMechanism": "generalizacao-da-natureza-do-emprestimo",
+      "statement": "Os recursos obtidos por operação de crédito por antecipação de receita orçamentária recebem o mesmo tratamento de receita orçamentária de capital atribuído, em regra, às operações de crédito destinadas ao financiamento público.",
+      "explanation": "Errado. Operação de crédito comum para financiamento público integra, em regra, receita orçamentária de capital; a antecipação de receita orçamentária (ARO) tem natureza de ingresso extraorçamentário de gestão de caixa. Erro seguro, confusão conceitual por equiparar dois empréstimos com tratamentos distintos.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "enriquecimento_teorico",
+        "questao_comentada_candidata"
+      ],
+      "annulled": false,
+      "errorType": "C",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Receita orçamentária × ingresso extraorçamentário"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b06-q4",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b06",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T16:05:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "incorrect"
+    },
+    {
+      "number": 5,
+      "conceptId": "funcao-subfuncao-matricialidade",
+      "discipline": "Orçamento Público",
+      "topic": "Classificação funcional da despesa",
+      "subtopic": "Matricialidade entre função e subfunção",
+      "questionType": "recognition",
+      "mechanism": "reconhecer-combinacao-matricial-com-ressalvas",
+      "distractorMechanism": "rigidez-indevida-entre-funcao-e-subfuncao",
+      "statement": "Na classificação funcional da despesa, uma subfunção pode ser combinada com função diferente daquela à qual costuma estar associada, observadas as regras específicas aplicáveis.",
+      "explanation": "Certo. A classificação funcional admite matricialidade, de modo que subfunção pode combinar-se com função de outro campo, ressalvadas regras específicas de algumas despesas.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Classificação funcional: função × subfunção"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b06-q5",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b06",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T16:05:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 6,
+      "conceptId": "classificacao-institucional-vs-programatica",
+      "discipline": "Orçamento Público",
+      "topic": "Classificações da despesa",
+      "subtopic": "Órgão e UO versus programa e ação",
+      "questionType": "comparison",
+      "mechanism": "distinguir-quem-executa-de-objetivo-e-acao",
+      "distractorMechanism": "inversao-de-atributos-entre-institucional-e-programatica",
+      "statement": "A identificação do órgão e da unidade orçamentária responsáveis por uma despesa é feita pela classificação programática, enquanto a classificação institucional identifica os objetivos e as ações governamentais.",
+      "explanation": "Errado. Institucional responde quem é responsável: órgão e unidade orçamentária; programática responde quais objetivos e ações: programa, ação e subtítulo. Erro seguro caracterizado por inversão dos conceitos.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "enriquecimento_teorico",
+        "questao_comentada_candidata"
+      ],
+      "annulled": false,
+      "errorType": "C",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Classificação institucional: órgão × unidade orçamentária",
+        "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Classificação programática: programa × ação × subtítulo"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b06-q6",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b06",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T16:05:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "incorrect"
+    },
+    {
+      "number": 7,
+      "conceptId": "projeto-acao-vs-gnd-investimento",
+      "discipline": "Orçamento Público",
+      "topic": "Classificações da despesa",
+      "subtopic": "Projeto versus GND investimentos",
+      "questionType": "comparison",
+      "mechanism": "distinguir-tipo-de-acao-e-natureza-da-despesa",
+      "distractorMechanism": "transposicao-projeto-para-gnd-investimentos",
+      "statement": "Uma ação orçamentária classificada como projeto, por ser delimitada no tempo, deve ter obrigatoriamente suas despesas classificadas no Grupo de Natureza da Despesa Investimentos.",
+      "explanation": "Errado. Projeto identifica um tipo de ação programática, frequentemente limitado no tempo; GND Investimentos é uma categoria de natureza econômica. A classificação de projeto não impõe automaticamente GND Investimentos a todas as despesas. Acerto inseguro.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "questao_comentada_candidata"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Classificação programática: programa × ação × subtítulo"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b06-q7",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b06",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T16:05:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "number": 8,
+      "conceptId": "gnd-vs-elemento-vs-fonte",
+      "discipline": "Orçamento Público",
+      "topic": "Classificações da despesa",
+      "subtopic": "GND, elemento e fonte/destinação",
+      "questionType": "classification",
+      "mechanism": "distinguir-niveis-da-natureza-e-fonte-dos-recursos",
+      "distractorMechanism": "equiparacao-de-elemento-e-fonte-a-gnd",
+      "statement": "Na aquisição de computadores para um laboratório, o GND Investimentos e o elemento Equipamentos e Material Permanente correspondem a níveis diferentes da classificação por natureza da despesa, enquanto a fonte identifica regras relativas aos recursos que a financiam.",
+      "explanation": "Certo. Investimentos é Grupo de Natureza da Despesa, Equipamentos e Material Permanente é elemento, e fonte/destinação informa regras de aplicação dos recursos. Acerto inseguro.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "insecure",
+      "origin": "inedita",
+      "destinations": [
+        "questao_comentada_candidata"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Natureza da despesa: categoria, GND, modalidade e elemento",
+        "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Fonte/destinação de recursos × natureza da receita"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b06-q8",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b06",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b06.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T16:05:00-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
       "checkpointSchema": 2,

@@ -2018,8 +2018,8 @@
       "id": "operacao-controle",
       "term": "Funcionamento operacional do controle",
       "definition": "Execução efetiva e consistente do procedimento de controle previsto.",
-      "example": "Conferir se a validação obrigatória foi realmente realizada nos pagamentos.",
-      "confusion": "Execução consistente não compensa necessariamente um desenho inadequado.",
+      "example": "Verificar nos registros de cada contratação se a consulta obrigatória ao cadastro de fornecedores impedidos foi realizada.",
+      "confusion": "Examinar documentação contratual não torna o teste substantivo quando a finalidade é verificar a operação do controle.",
       "topic": "Controles internos",
       "subjectIds": [
         "auditoria-governamental"
@@ -2041,10 +2041,15 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
-        "inspecao-documental-para-testar-operacao-do-controle"
-      ]
+        "inspecao-documental-para-testar-operacao-do-controle",
+        "finalidade-teste-controle-tecnica-documental"
+      ],
+      "contrast": {
+        "prompt": "Inspecionar aprovações para testar se o controle funcionou × examinar pagamentos para testar regularidade: qual finalidade em cada caso?",
+        "answer": "Primeiro, teste de controle; segundo, procedimento substantivo. A técnica documental pode ser a mesma."
+      }
     },
     {
       "id": "resposta-risco",
@@ -2735,7 +2740,7 @@
       "term": "Consultoria prévia e avaliação posterior",
       "definition": "Possibilidade de avaliar operações antes objeto de consultoria, condicionada à preservação da objetividade e ao gerenciamento da objetividade individual na designação da equipe.",
       "example": "Uma equipe facilitou uma oficina de riscos sem decidir ou executar os controles. A avaliação posterior exige examinar a natureza da consultoria e os riscos à objetividade.",
-      "confusion": "A mera consultoria anterior não cria impedimento temporal automático. Assumir atribuições de gestão é situação diferente.",
+      "confusion": "A mera consultoria sem gestão não aciona automaticamente os 24 meses, mas exige avaliar objetividade. Autorizar ou executar operações específicas é envolvimento distinto e pode impor abstenção.",
       "topic": "Objetividade e consultoria",
       "subjectIds": [
         "auditoria-governamental"
@@ -2756,15 +2761,455 @@
         "locator": "IN SFC nº 3/2017, itens 52 e 53"
       },
       "contrast": {
-        "prompt": "Facilitar uma oficina de riscos sem decidir os controles e executar os controles são a mesma situação para a objetividade?",
-        "answer": "Não. A consultoria prévia exige exame de sua natureza e gerenciamento da objetividade. Executar controles é atribuição de gestão e exige tratar os impedimentos e responsabilidades correspondentes."
+        "prompt": "Consultoria anterior sem gestão e autorização das mesmas despesas há 18 meses são equivalentes para os 24 meses?",
+        "answer": "Não. Consultoria sem gestão exige exame de objetividade; o envolvimento operacional recente nas despesas impede avaliar aquelas operações."
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 2,
+      "conceptIds": [
+        "consultoria-previa-objetividade"
+      ]
+    },
+    {
+      "id": "aud-rastreamento-integridade",
+      "term": "Rastreamento (tracing)",
+      "definition": "Selecionar documentos de origem e procurar os lançamentos correspondentes, principalmente para examinar integridade e possíveis omissões.",
+      "example": "Partir dos documentos de baixa de bens e localizar as baixas nos registros patrimoniais.",
+      "confusion": "A origem física ou digital não importa; importa começar pelo documento para verificar o registro.",
+      "topic": "Testes e técnicas",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-a760ecbf01b84d2e",
+        "section": "Três fronteiras examinadas em prova"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT 4.3.4.6.9"
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
       "revision": 1,
       "conceptIds": [
+        "rastreamento-integridade",
+        "vouching-ocorrencia-versus-integridade"
+      ],
+      "contrast": {
+        "prompt": "Documento de baixa → lançamento contábil: rastreamento ou vouching? O que testa?",
+        "answer": "Rastreamento: documento → registro; privilegia a integridade, isto é, possíveis omissões."
+      }
+    },
+    {
+      "id": "aud-vouching-ocorrencia",
+      "term": "Vouching",
+      "definition": "Selecionar operações já registradas e procurar a documentação de suporte para examinar principalmente ocorrência ou existência.",
+      "example": "Partir de pagamentos contabilizados e buscar contratos, notas e recibos que os sustentem.",
+      "confusion": "Registro → documento é vouching; documento → registro é rastreamento. Documento existente não prova sozinho legalidade.",
+      "topic": "Testes e técnicas",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-a760ecbf01b84d2e",
+        "section": "Três fronteiras examinadas em prova"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT 4.3.4.6.9"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "vouching-ocorrencia-versus-integridade"
+      ],
+      "contrast": {
+        "prompt": "Registro de pagamento → comprovante: qual técnica e finalidade principal?",
+        "answer": "Vouching: registro → documento; examina ocorrência/existência da operação registrada."
+      }
+    },
+    {
+      "id": "aud-analitico-substantivo",
+      "term": "Procedimento analítico substantivo",
+      "definition": "Comparar valores registrados com expectativas e relações fundamentadas para obter evidência direta sobre a adequação dos valores ou transações.",
+      "example": "Comparar gastos em refeições com quantidades servidas e preços esperados, investigando diferenças.",
+      "confusion": "Usar dado não financeiro não transforma a análise em planejamento; a finalidade de obter evidência define o caráter substantivo.",
+      "topic": "Finalidade dos testes",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-a760ecbf01b84d2e",
+        "section": "Procedimento analítico substantivo: definição e razão do nome"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT 4.3.4.3 e 4.3.4.5"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "procedimento-analitico-substantivo",
+        "precisao-confiabilidade-analitico"
+      ],
+      "contrast": {
+        "prompt": "Análise de tendências para escolher objetos × comparação para sustentar valor pago: o que muda?",
+        "answer": "A finalidade: priorização no planejamento versus procedimento analítico substantivo para obter evidência sobre o valor."
+      }
+    },
+    {
+      "id": "aud-analise-planejamento",
+      "term": "Análise de tendências no planejamento de auditoria",
+      "definition": "Comparar indicadores para identificar riscos e selecionar objetos ou testes, sem necessariamente fornecer evidência substantiva sobre operações.",
+      "example": "Comparar evolução de gastos entre órgãos para escolher contratos que merecem auditoria.",
+      "confusion": "A técnica de comparação pode ser semelhante à substantiva; decidir prioridades não equivale a testar diretamente valores.",
+      "topic": "Finalidade dos testes",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-a760ecbf01b84d2e",
+        "section": "Procedimento analítico substantivo: definição e razão do nome"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT 4.2 e 4.3.4.5"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "finalidade-analise-planejamento"
+      ],
+      "contrast": {
+        "prompt": "O mesmo cruzamento de dados pode ser analítico no planejamento ou substantivo?",
+        "answer": "Sim. O que muda é a finalidade do exame e a conclusão probatória pretendida."
+      }
+    },
+    {
+      "id": "aud-recalculo-insumos",
+      "term": "Recálculo e limite dos dados de entrada",
+      "definition": "Conferir independentemente a exatidão matemática de valores calculados por terceiros; não atesta automaticamente autenticidade dos dados usados.",
+      "example": "Quantidade × preço unitário confere, mas ainda é preciso comprovar a entrega real.",
+      "confusion": "Recálculo testa aritmética. Reexecução repete procedimento ou controle; ambos têm alcance limitado ao que foi examinado.",
+      "topic": "Técnicas e evidência",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-a760ecbf01b84d2e",
+        "section": "Três fronteiras examinadas em prova"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT 4.3.4.6: recálculo e reexecução"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "recalculo-versus-validade-de-dados"
+      ],
+      "contrast": {
+        "prompt": "Cálculo correto comprova que beneficiário era elegível ou mercadoria foi entregue?",
+        "answer": "Não. Exatidão aritmética não valida automaticamente elegibilidade, quantidade física nem autenticidade dos insumos."
+      }
+    },
+    {
+      "id": "aud-indagacao-corroboracao",
+      "term": "Indagação e corroboração",
+      "definition": "Perguntar oralmente ou por escrito para obter informações, avaliando sua confiabilidade e buscando evidências adicionais quando necessário.",
+      "example": "Fornecedor informa por telefone que o preço de mercado é semelhante ao contratado.",
+      "confusion": "Declaração verbal de agente externo não equivale automaticamente a confirmação externa formal suficiente.",
+      "topic": "Técnicas e evidência",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-a760ecbf01b84d2e",
+        "section": "Indagação, confirmação externa e procedimentos analíticos"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT 4.3.4.6: indagação e confirmação externa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "indagacao-versus-confirmacao-externa"
+      ],
+      "contrast": {
+        "prompt": "Três fornecedores respondem por telefone: isso substitui confirmação externa formal?",
+        "answer": "Não. Trata-se de indagação; a informação precisa ser avaliada e corroborada quando apropriado."
+      }
+    },
+    {
+      "id": "aud-confirmacao-externa",
+      "term": "Confirmação externa (circularização)",
+      "definition": "Obter resposta formal diretamente de terceiro independente sobre informação relevante para a auditoria, avaliando autenticidade e confiabilidade.",
+      "example": "Fornecedor responde diretamente ao auditor confirmando saldo em aberto.",
+      "confusion": "Fonte independente não transforma a confirmação em rastreamento: falta o percurso documento de origem → registro.",
+      "topic": "Técnicas e evidência",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-a760ecbf01b84d2e",
+        "section": "Indagação, confirmação externa e procedimentos analíticos"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT 4.3.4.6: circularização"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "confirmacao-externa-versus-rastreamento",
+        "indagacao-versus-confirmacao-externa"
+      ],
+      "contrast": {
+        "prompt": "Receber diretamente declaração de saldo do fornecedor é circularização ou tracing?",
+        "answer": "Circularização: confirmação formal de terceiro independente; tracing segue documento de origem até registro."
+      }
+    },
+    {
+      "id": "aud-programa-trabalho",
+      "term": "Programa de trabalho de auditoria",
+      "definition": "Documento de planejamento individual que especifica os procedimentos, fontes, critérios e extensão necessários para responder às questões de auditoria.",
+      "example": "Antes da execução, prever cruzamento de notas fiscais e registros de recebimento e critérios de seleção.",
+      "confusion": "Previsão do procedimento no programa não significa exame já executado; o supervisor aprova o programa e seus ajustes pertinentes.",
+      "topic": "Planejamento do trabalho",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.2",
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-417d0901f19843a5",
+        "section": "Matriz, programa e supervisão"
+      },
+      "source": {
+        "title": "CGU: Referencial Técnico",
+        "url": "https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/pgmq/arquivos/in-sfc-03-2017-referencial-tecnico.pdf/@@download/file",
+        "locator": "IN SFC nº 3/2017, itens 138 a 141; MOT, seção 4.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "programa-de-trabalho-planejamento-versus-execucao"
+      ],
+      "contrast": {
+        "prompt": "Definir fontes e testes no programa equivale à execução desses testes?",
+        "answer": "Não. O programa planeja os procedimentos; os exames são realizados durante a execução."
+      }
+    },
+    {
+      "id": "aud-risco-residual",
+      "term": "Risco residual e funcionamento dos controles",
+      "definition": "Exposição que permanece após considerar o tratamento do risco; um controle formalmente existente pode ser ineficaz e deixar risco elevado.",
+      "example": "Controle de bloqueio de pagamentos existe no manual, mas pode ser contornado.",
+      "confusion": "Ter controle instituído não demonstra operação consistente nem redução comprovada do risco.",
+      "topic": "Gestão de riscos",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.1.2"
+      ],
+      "note": {
+        "articleId": "art-e090ae9b07314c94",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "IN Conjunta MP/CGU nº 1/2016",
+        "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/auditoria-e-fiscalizacao/in-conjunta-mp-cgu-no-01-2016",
+        "locator": "IN Conjunta MP/CGU nº 1/2016, arts. 2º, 11 e 16"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "risco-residual-controle",
+        "risco-residual-independe-de-eficacia-comprovada"
+      ],
+      "contrast": {
+        "prompt": "Basta encontrar um controle escrito para concluir que o risco residual caiu?",
+        "answer": "Não. É preciso considerar se o controle foi implementado e se funciona para reduzir a exposição."
+      }
+    },
+    {
+      "id": "aud-impedimento-24-meses",
+      "term": "Impedimento de 24 meses: operações específicas",
+      "definition": "Auditor deve abster-se de examinar operações específicas em que se envolveu nos últimos 24 meses, inclusive por responsabilidades operacionais ou vínculos relevantes.",
+      "example": "Servidor autorizou pagamentos há 18 meses e agora seria designado para auditar aqueles pagamentos.",
+      "confusion": "Supervisão não afasta o impedimento; consultoria anterior sem assumir gestão exige análise distinta de objetividade.",
+      "topic": "Objetividade e impedimentos",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.5.1",
+        "P3.1.1"
+      ],
+      "note": {
+        "articleId": "art-2fcfb61ee9284dcc",
+        "section": "O prazo de 24 meses (item 52)"
+      },
+      "source": {
+        "title": "CGU: Referencial Técnico",
+        "url": "https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/pgmq/arquivos/in-sfc-03-2017-referencial-tecnico.pdf/@@download/file",
+        "locator": "IN SFC nº 3/2017, itens 52 e 53"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "impedimento-24-meses-operacoes-especificas",
         "consultoria-previa-objetividade"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Consultoria de oficina de riscos × autorização de pagamentos: qual aciona o impedimento temporal?",
+        "answer": "Autorizar as mesmas operações nos últimos 24 meses aciona abstenção. Consultoria sem gestão não gera vedação automática, mas exige avaliar objetividade."
+      }
+    },
+    {
+      "id": "aud-raint-parecer",
+      "term": "RAINT versus parecer anual sobre contas",
+      "definition": "RAINT relata execução do plano e resultados da auditoria; parecer sobre a prestação de contas é opinião geral fundamentada exigida nas situações normativas específicas.",
+      "example": "RAINT lista trabalhos concluídos, não realizados e benefícios; parecer avalia governança, controles e conformidade das contas.",
+      "confusion": "RAINT não substitui o parecer; PAINT é planejamento anual e também é produto distinto.",
+      "topic": "Planejamento e prestação de contas",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.2"
+      ],
+      "note": {
+        "articleId": "art-99dd198f53bb43d3",
+        "section": "Parecer sobre a prestação de contas: terceiro produto (arts. 15 a 17)"
+      },
+      "source": {
+        "title": "IN SFC nº 5/2021",
+        "url": "https://www.in.gov.br/web/dou/-/instrucao-normativa-n-5-de-27-de-agosto-de-2021-342352374",
+        "locator": "IN SFC nº 5/2021, arts. 10 a 17"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "raint-versus-parecer-contas"
+      ],
+      "contrast": {
+        "prompt": "RAINT pode substituir parecer da auditoria sobre contas anual?",
+        "answer": "Não. RAINT presta contas da execução do PAINT; parecer formula opinião geral fundamentada nas condições da IN SFC nº 5/2021."
+      }
+    },
+    {
+      "id": "aud-segunda-terceira-linha",
+      "term": "Segunda versus terceira linha",
+      "definition": "Segunda linha orienta, acompanha e monitora riscos e conformidade junto à gestão; terceira linha é auditoria interna, com avaliação independente.",
+      "example": "Unidade de conformidade monitora riscos, enquanto auditoria interna avalia controles e governança com autonomia.",
+      "confusion": "Monitorar riscos não transforma conformidade automaticamente em terceira linha; as linhas descrevem papéis, não uma ordem temporal.",
+      "topic": "Modelo das três linhas",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.1.1",
+        "P2.1.2"
+      ],
+      "note": {
+        "articleId": "art-497828bde2144eed",
+        "section": "Modelo das três linhas"
+      },
+      "source": {
+        "title": "IIA: Modelo das Três Linhas",
+        "url": "https://www.theiia.org/en/resources/statements-of-position/",
+        "locator": "IIA, Modelo das Três Linhas; IN Conjunta MP/CGU nº 1/2016"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "segunda-versus-terceira-linha"
+      ],
+      "contrast": {
+        "prompt": "Acompanhar conformidade e gestão de riscos torna uma equipe terceira linha?",
+        "answer": "Não. Em geral é papel de segunda linha; a terceira oferece avaliação independente como auditoria interna."
+      }
     }
   ]
 }

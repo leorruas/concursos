@@ -70,6 +70,8 @@ Consulte as diretrizes metodológicas, réguas de competitividade e metas de pro
 
 ## CGU 2026: microtreinos registrados, simulado ainda pendente
 
+**Discursiva:** [[00 - Desempenho/Provas/CGU 2026 - Discursivas e correcoes|Discursivas CGU: correções e evolução]]. Registrar avaliação por quesito, lacunas de conteúdo, escrita e reescrita somente após cada treino real; não misturar com acertos C/E ou indicadores automáticos.
+
 **Cargo 1: Auditoria, Cebraspe. Registro histórico até o encerramento da unidade 06, em 03/11/2026:** **82 itens válidos**, **70 acertos (85,4%)**, 10 erros, 2 brancos e 1 anulação. Aprendizagem **23/27**, para valer **32/39** (dois brancos e um chute declarado em sessão anterior), revisão intencional **15/16**. Unidades 02 a 06 encerradas didaticamente, com revisão espaçada pendente. U06: aprendizagem 5/6, dirigida 3/4, aplicada 2/2, para valer 6/8, total 16/20; erro na classificação de relatório anterior como permanente e branco na regra de dois auditores quando observação direta é exclusiva. Naquele recorte eram 83 enunciados (82 válidos e um anulado); os números atuais ficam nos indicadores automáticos. A unidade 07 teve 4/4 na primeira aprendizagem. Sem simulado integral, questão real resolvida ou nota líquida; Dataprev permanece separado.
 
 | Frente | Cobertura documental do vault | Domínio CGU medido | Próximo passo |

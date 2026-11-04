@@ -2403,6 +2403,56 @@
     ],
     "scorePolicy": "registrar pontuação somente quando houver correção com critérios definidos; estimativa didática não equivale à nota Cebraspe",
     "attempts": [],
-    "dataPolicy": "não registrar sessões fictícias; manter treinos discursivos separados do ledger de itens C/E; vincular temas às notas e registrar lacunas para revisão"
+    "dataPolicy": "não registrar sessões fictícias; manter treinos discursivos separados do ledger de itens C/E; vincular temas às notas e registrar lacunas para revisão",
+    "assessmentContract": {
+      "assessmentStates": [
+        "nao_corrigida",
+        "corrigida",
+        "corrigida_parcialmente",
+        "nao_avaliavel"
+      ],
+      "quesitoFields": [
+        "id",
+        "requirement",
+        "observedTextEvidence",
+        "coverage",
+        "sourceRefs",
+        "maxPoints",
+        "awardedPoints"
+      ],
+      "coverageValues": [
+        "atendido",
+        "parcial",
+        "omitido",
+        "nao_avaliavel"
+      ],
+      "assessmentFields": [
+        "status",
+        "correctionDate",
+        "rubricRef",
+        "quesitos",
+        "technicalFeedback",
+        "writingFeedback",
+        "scoreEstimation",
+        "calibrationLimitations"
+      ],
+      "scoreEstimationFields": [
+        "contentPoints",
+        "languageErrorCount",
+        "effectiveLines",
+        "languagePenalty",
+        "estimatedPoints",
+        "maximumPoints"
+      ],
+      "revisionFields": [
+        "conceptualGaps",
+        "writingGaps",
+        "priorityRewrite",
+        "rewriteRef",
+        "nextReviewOn",
+        "followUpAttemptId"
+      ],
+      "rule": "Por treino real, registrar correção por quesito; maxPoints e awardedPoints podem ser null sem distribuição explícita; nota didática não é oficial. Reescrita curta não equivale a simulação completa; nunca publicar texto original sem autorização específica."
+    }
   }
 }

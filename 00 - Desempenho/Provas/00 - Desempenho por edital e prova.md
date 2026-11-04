@@ -42,6 +42,8 @@ Este hub separa três medidas que não devem ser misturadas: **aproveitamento br
 
 ## CGU 2026 — Auditoria (Cebraspe)
 
+Acompanhamento das respostas escritas e correções: [[00 - Desempenho/Provas/CGU 2026 - Discursivas e correcoes|Discursivas CGU: correções e evolução]]. As notas de discursiva são medidas à parte dos itens objetivos e só entram após produção efetivamente avaliada.
+
 **Corpus fonte de exercícios:** [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|CGU 2026 — Provas-espelho: conteúdo × formato]], com PDFs oficiais, estados de verificação, gabaritos e protocolo de indexação em `data/corpus-provas-espelho.json`. Prova localizada não é simulado realizado.
 
 **Sem prova, simulado ou discursiva CGU integral até 03/11/2026.** Microtreinos em [[3 - Materias/Auditoria Governamental/Avancos|Avanços]]: **82 itens válidos, 70 acertos**, aprendizagem 23/27, para valer 32/39 (dois brancos e um acerto por chute declarado em sessão anterior), revisão intencional 15/16. Unidade 06 encerrada didaticamente: aprendizagem 5/6, revisão dirigida 3/4, aplicada 2/2 e para valer 6/8, total 16/20. Erro em relatório anterior permanente, branco na regra de observação exclusiva com dois auditores. Os dois pontos são explicados em [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao#Refinamento: fronteiras do treino da unidade 06|Evidências e documentação]]. 83 enunciados individualizados no ledger (uma anulação). Não constituem simulado nem nota líquida oficial.

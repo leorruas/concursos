@@ -10,8 +10,8 @@ const contexto = {
     concursoSelecionadoId: 'cgu-2026',
     modoBibliotecaCompleta: false,
     obterProgramaSelecionado() {
-        if (this.modoBibliotecaCompleta) return null;
-        return this.dadosCatalogoMaterias.contests.find(item => item.concursoId === this.concursoSelecionadoId);
+        if (contexto.modoBibliotecaCompleta) return null;
+        return contexto.dadosCatalogoMaterias.contests.find(item => item.concursoId === contexto.concursoSelecionadoId);
     }
 };
 vm.createContext(contexto);

@@ -106,14 +106,14 @@
     },
     "processo-administrativo": {
       "label": "Lei nº 9.784/1999: processo administrativo federal",
-      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
-      "scope": "Entrada de Direito Administrativo: princípios, competência e motivação; conferir arts. 2º, 11 a 15 e 50",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+      "scope": "Arts. 18 a 21: impedimento, dever de comunicação, suspeição e recurso; verificado em 04/11/2026",
       "provenance": "Fontes da nota de atos e catálogo da Base de Conhecimento da CGU"
     },
     "conflitos": {
       "label": "Lei nº 12.813/2013: conflitos de interesses",
-      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12813.htm",
-      "scope": "Recorte do edital; conferir requisitos e destinatários na aula"
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12813-16-maio-2013-776005-normaatualizada-pl.html",
+      "scope": "Arts. 2º a 6º, 8º e 10: hipótese, sujeitos, divisão de competência e extensão; verificado em 04/11/2026"
     },
     "contratacoes": {
       "label": "Lei nº 14.133/2021: licitações e contratos",
@@ -164,6 +164,11 @@
       "label": "Código de Conduta da CGU e Comissão de Ética",
       "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/governanca/comissao-de-etica",
       "scope": "Portaria CGU nº 2.425/2009: princípios, destinatários e deveres"
+    },
+    "seci": {
+      "label": "SeCI: Sistema Eletrônico de Prevenção de Conflito de Interesses, CGU",
+      "url": "https://seci.cgu.gov.br/",
+      "scope": "Consultas e pedidos de autorização de atividade privada; procedimento atual, não substitui a lei"
     }
   },
   "subjects": [
@@ -971,6 +976,8 @@
             "P1.3.3"
           ],
           "noteRefs": [
+            "3 - Materias/Etica Publica/03 - conflito de interesses lei 12813",
+            "3 - Materias/Etica Publica/04 - impedimento e suspeicao processo administrativo",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
             "3 - Materias/Comunicacao/11 - etica em comunicacao"
           ],
@@ -978,11 +985,13 @@
             "up1-3-2"
           ],
           "sourceIds": [
+            "edital",
             "conflitos",
-            "processo-administrativo"
+            "processo-administrativo",
+            "seci"
           ],
           "coverage": "parcial",
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "noteRole": "base-teorica-preparada-sem-exposicao"
         },
         {
           "id": "up1-3-4",

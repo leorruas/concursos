@@ -20,8 +20,8 @@ Preparar o conteúdo de Ética Pública como conhecimento reutilizável, mantend
 | :--- | :--- | :--- | :--- |
 | 01 | [[3 - Materias/Etica Publica/01 - etica moralidade e interesse publico|Ética, moralidade e interesse público]]: ética × moral × moralidade administrativa; deveres × consequências | P1.3.1 | **Publicado, não estudado** |
 | 02 | [[3 - Materias/Etica Publica/02 - deveres e conduta profissional|Deveres e conduta profissional]]: autonomia técnica × hierarquia; sigilo × transparência | P1.3.2 | **Publicado, não estudado** |
-| 03 | Conflito de interesses: Lei nº 12.813/2013; risco × benefício efetivo; exercício do cargo × após desligamento | P1.3.3 | Artigo pendente |
-| 04 | Impedimento e suspeição: Lei nº 9.784/1999, arts. 18 a 21; hipóteses, procedimentos e contraste com conflitos de interesses | P1.3.3 | Artigo pendente |
+| 03 | [[3 - Materias/Etica Publica/03 - conflito de interesses lei 12813|Conflito de interesses]]: Lei nº 12.813/2013; risco × benefício efetivo; arts. 2º e 10; durante o cargo × após desligamento | P1.3.3 | **Publicado, não estudado** |
+| 04 | [[3 - Materias/Etica Publica/04 - impedimento e suspeicao processo administrativo|Impedimento e suspeição]]: Lei nº 9.784/1999, arts. 18 a 21; comunicar × arguir × recorrer; contraste com conflito de interesses | P1.3.3 | **Publicado, não estudado** |
 | 05 | Assédio, discriminação e relações de trabalho: poder, acolhimento × investigação × responsabilização | P1.3.4 | Artigo pendente |
 | 06 | Integridade institucional e comissões de ética: orientação, prevenção, canais e responsabilização; vínculos com outras matérias | P1.3.5 | Artigo pendente |
 
@@ -38,7 +38,7 @@ Dois artigos para P1.3.3 são necessários porque **conflito de interesses**, **
 
 ## Próximos lotes
 
-Primeiro preparar os artigos **03 e 04**, verificando a Lei nº 12.813/2013 e a Lei nº 9.784/1999. Em seguida desenvolver **05 e 06**, selecionando normas e guias oficiais adequados. Cada lote deve incluir o artigo e as alterações correspondentes ao hub, índice global, catálogo e plano CGU em commit atômico. Evitar notas vazias ou repetição de artigos existentes.
+Os artigos **03 e 04** foram preparados com confronto aos textos atualizados das Leis nº 12.813/2013 e nº 9.784/1999. O próximo lote desenvolverá **05 e 06**, selecionando normas e guias oficiais adequados. Cada lote deve incluir o artigo e as alterações correspondentes ao hub, índice global, catálogo e plano CGU em commit atômico. Evitar notas vazias ou repetição de artigos existentes.
 
 O primeiro estudo começa pela nota 01: ensinar o núcleo e as fronteiras, aplicar treino didático C/E e salvar um checkpoint de sessão. Depois estudar a nota 02, consolidando cada unidade antes de seguir para a próxima. Treino “para valer” depende de consulta real ao [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|corpus de provas-espelho]], não de rótulo de banca.
 
@@ -52,4 +52,4 @@ O primeiro estudo começa pela nota 01: ensinar o núcleo e as fronteiras, aplic
 - [Lei nº 12.813/2013](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12813.htm).
 - [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm).
 
-**Corte editorial em 04/11/2026:** publicados 2 de 6 artigos. A matéria continua sem sessões e as cinco unidades permanecem não iniciadas.
+**Corte editorial em 04/11/2026:** publicados 4 de 6 artigos. A matéria continua sem sessões e as cinco unidades permanecem não iniciadas.

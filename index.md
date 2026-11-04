@@ -80,6 +80,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 4. [[3 - Materias/Etica Publica/etica-publica|Ética pública]]
    - [[3 - Materias/Etica Publica/01 - etica moralidade e interesse publico|01 • Ética, moralidade e interesse público]]
    - [[3 - Materias/Etica Publica/02 - deveres e conduta profissional|02 • Deveres e conduta profissional]]
+   - [[3 - Materias/Etica Publica/03 - conflito de interesses lei 12813|03 • Conflito de interesses: Lei nº 12.813/2013]]
+   - [[3 - Materias/Etica Publica/04 - impedimento e suspeicao processo administrativo|04 • Impedimento e suspeição no processo administrativo]]
 5. [[3 - Materias/Administracao Publica/administracao-publica|Administração Pública]]
    - [[3 - Materias/Administracao Publica/Avancos|Avanços e desempenho]]
    - [[3 - Materias/Administracao Publica/01 - evolucao da administracao publica|01 • Evolução da Administração Pública]]

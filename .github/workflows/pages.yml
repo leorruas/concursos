@@ -57,6 +57,8 @@ jobs:
         run: node scripts/test-simulado-propagation.js
       - name: Testar catálogo de matérias por concurso
         run: node scripts/test-contest-catalog.js
+      - name: Testar filtro da grade por concurso
+        run: node scripts/test-contest-home-filter.js
       - name: Testar home sem desempenho em provas
         run: node scripts/test-home-without-provas.js
       - name: Testar transações multi-arquivo

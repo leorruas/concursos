@@ -32,19 +32,27 @@ function ordenarArtigosDaMateria(a, b) {
 
 async function carregarCamadaEstrategica() {
     try {
-        const [resConc, resEdital, resErros] = await Promise.all([
+        const [resConc, resEdital, resErros, resCatalogo] = await Promise.all([
             fetch("data/concursos.json"),
             fetch("data/edital-itens.json"),
-            fetch("data/erros-recorrentes.json")
+            fetch("data/erros-recorrentes.json"),
+            fetch("data/catalogo-materias-por-concurso.json")
         ]);
         if (resConc.ok) dadosConcursosEstrategicos = await resConc.json();
         if (resEdital.ok) dadosEditalEstrategico = await resEdital.json();
         if (resErros.ok) dadosErrosEstrategicos = await resErros.json();
+        if (resCatalogo.ok) {
+            const catalogo = await resCatalogo.json();
+            if (catalogo?.schemaVersion === 1 && Array.isArray(catalogo.contests)) {
+                dadosCatalogoMaterias = catalogo;
+            }
+        }
     } catch (e) {
         // Se a pasta data/ não existir ou falhar, a biblioteca continua 100% funcional!
         dadosConcursosEstrategicos = [];
         dadosEditalEstrategico = [];
         dadosErrosEstrategicos = [];
+        dadosCatalogoMaterias = null;
     }
 }
 
@@ -93,11 +101,10 @@ async function carregarTodosOsArtigos() {
         artigos.sort(ordenarArtigosDaMateria);
     });
 
-    renderizarPastas();
-
-    // 2. Enriquecimento da Home com a camada estratégica de concursos (se disponível)
+    // Resolver concurso e catálogo antes da primeira apresentação da grade.
     await carregarCamadaEstrategica();
     renderizarPainelConcursoHome();
+    renderizarPastas();
 
     if (window.location.hash) {
         await tratarHashNavegacao();
@@ -107,6 +114,21 @@ async function carregarTodosOsArtigos() {
 // --------------------------------------------------------------------------
 // RENDERIZADOR DO PAINEL DE CONCURSO (DESIGN SUÍÇO / REGRAS SEMÂNTICAS)
 // --------------------------------------------------------------------------
+
+// Ponto único de mudança de concurso, reutilizável no seletor da lista interna.
+function selecionarConcurso(novoConcursoId) {
+    if (!dadosConcursosEstrategicos.some(item => item.id === novoConcursoId)) return;
+    if (concursoSelecionadoId === novoConcursoId) return;
+    concursoSelecionadoId = novoConcursoId;
+    localStorage.setItem("concurso_ativo_id", novoConcursoId);
+    renderizarPainelConcursoHome();
+    renderizarPastas();
+}
+
+function obterProgramaSelecionado() {
+    const dados = typeof dadosCatalogoMaterias !== "undefined" ? dadosCatalogoMaterias : null;
+    return dados?.contests?.find(item => item.concursoId === concursoSelecionadoId) || null;
+}
 
 function renderizarPainelConcursoHome() {
     const container = document.getElementById("painel-concurso-home");
@@ -119,8 +141,8 @@ function renderizarPainelConcursoHome() {
     const proximo = [...concursosComData]
         .filter(c => new Date(c.dataProva) >= agora)
         .sort((a, b) => new Date(a.dataProva) - new Date(b.dataProva))[0];
-    const concursoAtivo = (selecionado && new Date(selecionado.dataProva) >= agora)
-        ? selecionado : (proximo || selecionado || concursosComData[0]);
+    // A escolha explícita continua válida mesmo quando a data da prova já passou.
+    const concursoAtivo = selecionado || proximo || concursosComData[0];
 
     if (!concursoAtivo) {
         container.classList.add("escondido");
@@ -162,12 +184,7 @@ function renderizarPainelConcursoHome() {
 
     conteudo.querySelectorAll(".concurso-btn-opcao[data-concurso-id]").forEach(botao => {
         botao.addEventListener("click", () => {
-            const novoConcursoId = botao.dataset.concursoId;
-            if (!novoConcursoId || novoConcursoId === concursoSelecionadoId) return;
-
-            concursoSelecionadoId = novoConcursoId;
-            localStorage.setItem("concurso_ativo_id", concursoSelecionadoId);
-            renderizarPainelConcursoHome();
+            selecionarConcurso(botao.dataset.concursoId);
         });
     });
 }
@@ -181,11 +198,27 @@ function renderizarPastas() {
     pastasContainer.innerHTML = "";
     orientacoesContainer.innerHTML = "";
 
-    const todasCategorias = Object.keys(todasAsPastas).sort((a, b) => {
-        const numA = informacoesDisciplinas[a]?.numero || "99";
-        const numB = informacoesDisciplinas[b]?.numero || "99";
-        return numA.localeCompare(numB, "pt-BR", { numeric: true });
-    });
+    const programa = obterProgramaSelecionado();
+    const materias = programa?.subjects?.slice().sort((a, b) => a.ordem - b.ordem) || [];
+    const materiaPorCategoria = new Map(materias.map(m => [m.categoria, m]));
+    const todasCategorias = programa
+        ? materias.map(m => m.categoria)
+        : Object.keys(todasAsPastas).sort((a, b) => {
+            const numA = informacoesDisciplinas[a]?.numero || "99";
+            const numB = informacoesDisciplinas[b]?.numero || "99";
+            return numA.localeCompare(numB, "pt-BR", { numeric: true });
+        });
+    const titulo = document.getElementById("disciplinas-titulo");
+    const concurso = dadosConcursosEstrategicos.find(c => c.id === concursoSelecionadoId);
+    if (titulo) titulo.textContent = programa
+        ? "matérias: " + (concurso?.nome || concursoSelecionadoId).toLowerCase()
+        : "matérias: biblioteca geral";
+    if (!programa && concursoSelecionadoId) {
+        const aviso = document.createElement("p");
+        aviso.className = "mensagem-busca";
+        aviso.textContent = "Catálogo indisponível: exibindo a biblioteca geral, sem filtro por edital.";
+        pastasContainer.appendChild(aviso);
+    }
 
     const categoriasOrientacao = ["00. Simulados", "00. Desempenho"];
 
@@ -199,20 +232,23 @@ function renderizarPastas() {
     ));
 
     todasCategorias.forEach(categoria => {
-        const info = informacoesDisciplinas[categoria] || {
-            numero: numerosNovos.get(categoria),
-            resumo: `${todasAsPastas[categoria].length} artigos disponíveis`
+        const registro = materiaPorCategoria.get(categoria);
+        const infoBase = informacoesDisciplinas[categoria] || {};
+        const info = {
+            numero: registro ? String(registro.ordem).padStart(2, "0") : (infoBase.numero || numerosNovos.get(categoria)),
+            resumo: infoBase.resumo || ((todasAsPastas[categoria]?.length || 0) + " artigos disponíveis")
         };
+        const nomeExibicao = registro?.rotulo?.toLowerCase() || limparNomeCategoria(categoria);
 
         const card = document.createElement("a");
         card.className = "disciplina-card";
         card.href = obterRotaCategoria(categoria);
-        card.setAttribute("aria-label", `Abrir ${limparNomeCategoria(categoria)}`);
+        card.setAttribute("aria-label", `Abrir ${nomeExibicao}`);
 
         card.innerHTML = `
             <span class="indice-numero">${info.numero}</span>
             <span class="disciplina-card-conteudo">
-                <strong>${limparNomeCategoria(categoria)}</strong>
+                <strong>${nomeExibicao}</strong>
                 <span class="indice-resumo">${info.resumo}</span>
             </span>
         `;

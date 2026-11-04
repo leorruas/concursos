@@ -82,7 +82,9 @@ Produzir o primeiro mapeamento da CGU a partir de suas 15 frentes e unidades. Pa
 
 Esta primeira associação é um **mapa editorial de navegação**, não uma declaração de cobertura integral dos editais. Em particular, alguns assuntos sem nota especializada apontam apenas para o hub, enquanto notas compartilhadas são vinculadas por caminho sem duplicação.
 
-**Fases seguintes:** integrar seleção centralizada e filtro da grade da home; adicionar seletor na lista interna de artigos e filtrar os links; preservar rotas e busca, testar casos de navegação e publicar. A numeração 17–28 da biblioteca geral continua temporária até a implantação da ordem específica por concurso.
+**Fase 2: grade de matérias filtrada na home.** O catálogo passa a alimentar a grade conforme o concurso selecionado, com ordem 01–15 (CGU), 01–06 (Dataprev) e 01–11 (Câmara). A escolha permanece válida mesmo depois da prova e é salva numa única função de seleção. Os testes verificam a troca entre três concursos sem misturar disciplinas. O modo de biblioteca geral ainda é o fallback identificado quando o catálogo falha.
+
+**Fases seguintes:** adicionar seletor à lista interna dos artigos, filtrar seus vínculos por edital, preservar rotas e busca contextual, e validar a navegação completa.
 
 ## Critérios de aceite
 

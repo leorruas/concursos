@@ -56,8 +56,8 @@ carregarTodosOsArtigos = async function carregarTodosOsArtigosLeve() {
         artigos.sort(ordenarArtigosDaMateria);
     });
 
-    renderizarPastas();
     renderizarPainelConcursoHome();
+    renderizarPastas();
 
     if (window.location.hash) await tratarHashNavegacao();
 };

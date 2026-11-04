@@ -715,6 +715,72 @@
       "confidenceTracking": {
         "coverage": "partial"
       }
+    },
+    {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T07:48:57-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-1",
+      "learning": {
+        "stage": "revisao",
+        "taughtConcepts": [
+          "Revisão aplicada da reconstrução retrospectiva do modelo lógico e dos limites da avaliabilidade"
+        ],
+        "boundaries": [
+          "Modelo lógico previamente formalizado versus reconstruível posteriormente",
+          "Teoria da mudança formalizada versus dados capazes de sustentar avaliação de impacto",
+          "Avaliabilidade da implementação versus avaliabilidade de impactos"
+        ],
+        "pending": [
+          "Recuperação correta imediata, mas confiança não declarada: não encerrar lacuna como recuperação segura",
+          "Revisão em outro dia com mecanismo distinto para observar retenção espaçada",
+          "Consolidação teórica em nota canônica específica de Avaliação de Políticas Públicas",
+          "Treino calibrado e fechamento didático ainda pendentes"
+        ],
+        "unitCompleted": false,
+        "next": {
+          "unitId": "up3-3-1",
+          "stage": "revisao",
+          "objective": "Aplicar revisão espaçada de avaliabilidade, distinguindo modelo reconstruível, pergunta avaliativa e condição real de identificar efeitos, registrando confiança.",
+          "noteRef": "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+          "sourceIds": [
+            "edital"
+          ]
+        }
+      },
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "parcial",
+      "trainingModes": [
+        "revisao"
+      ],
+      "totalQuestions": 3,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "Reteste didático da lacuna registrada em 04/11, item 3 da bateria de aprendizagem (avaliabilidade versus formalização prévia do modelo lógico). 3/3 julgamentos corretos: C/E/C. Recuperação correta imediata observada em três mecanismos próximos, inclusive reconstrução retrospectiva, suficiência de dados e diferença entre implementação e impacto. Confiança não declarada; não registrar recuperação segura nem retenção espaçada. Sem calibração competitiva.",
+      "nextStep": "Manter na fila revisão posterior (proposta inicial 05/11) com questão C/E de mecanismo diferente e pedir declaração de confiança. Depois da revisão, decidir encerramento didático da unidade 01 e completar a nota canônica da matéria; treino para valer somente com corpus Cebraspe C/E examinado.",
+      "generationAudit": {
+        "counts": {
+          "new": 2,
+          "thematic": 1,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0.6667,
+        "thematicRate": 0.3333,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0.3333
+      },
+      "noveltyException": "Reteste didático intencional de 3 itens para reparar o erro do item 3 da sessão anterior, com 1 item tematicamente vinculado (33,3% de repetição) e 2 itens que ampliam o mecanismo para suficiência de dados e avaliabilidade por objeto. Não elegível a benchmark ou estimativa de nota.",
+      "confidenceTracking": {
+        "coverage": "partial"
+      }
     }
   ],
   "questions": [
@@ -10569,6 +10635,153 @@
       "subjectId": "politicas-publicas",
       "unitId": "up3-3-1",
       "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Problema, desenho e avaliabilidade de políticas públicas",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 1 (recorte temático: avaliabilidade)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "number": 1,
+      "conceptId": "avaliabilidade-modelo-logico-reconstrucao",
+      "subtopic": "Reconstrução retrospectiva de modelo lógico",
+      "questionType": "application",
+      "mechanism": "reconstrucao-retrospectiva-nao-comprova-efeito",
+      "distractorMechanism": "transposicao-da-hipotese-para-prova-causal",
+      "statement": "Uma política pública que não dispõe de modelo lógico previamente formalizado pode ter sua cadeia de intervenção reconstruída durante a avaliação, mediante análise documental e consulta aos envolvidos, sem que essa reconstrução constitua prova da ocorrência dos efeitos esperados.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "explanation": "Certo. A formalização anterior não é obrigatória para iniciar a avaliação. A reconstrução retrospectiva descreve hipóteses e componentes, mas não prova efeitos causais.",
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem-q3"
+        ],
+        "intentional": true,
+        "transformation": "Reformula a afirmação do erro anterior, agora em caso positivo de reconstrução e com limite de inferência causal."
+      },
+      "retrievalOf": [
+        "cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem-q3"
+      ],
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade-q1",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T07:48:57-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-1",
+      "trainingMode": "revisao",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Problema, desenho e avaliabilidade de políticas públicas",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 1 (recorte temático: avaliabilidade)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "number": 2,
+      "conceptId": "avaliabilidade-condicoes-teoria-dados",
+      "subtopic": "Teoria da mudança versus dados e condições de avaliar impactos",
+      "questionType": "comparison",
+      "mechanism": "teoria-formalizada-nao-garante-dados-para-impacto",
+      "distractorMechanism": "condicao-favoravel-tratada-como-suficiente",
+      "statement": "A existência de uma teoria da mudança formalizada, com objetivos, mecanismos causais e indicadores definidos, é condição suficiente para assegurar a avaliabilidade dos impactos de uma política, ainda que os dados disponíveis não permitam observar os efeitos produzidos.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "explanation": "Errado. A teoria da mudança formalizada é útil, mas, isoladamente, não garante que a avaliação de impactos possa ser executada com validade: dados e desenho são relevantes.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade-q2",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T07:48:57-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-1",
+      "trainingMode": "revisao",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Problema, desenho e avaliabilidade de políticas públicas",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 1 (recorte temático: avaliabilidade)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "number": 3,
+      "conceptId": "avaliabilidade-implementacao-versus-impacto",
+      "subtopic": "Avaliabilidade por objeto e pergunta avaliativa",
+      "questionType": "application",
+      "mechanism": "avaliabilidade-distinta-implementacao-impacto",
+      "distractorMechanism": "equiparar-avaliabilidade-de-processos-a-impactos",
+      "statement": "Em um programa social cujos registros administrativos permitem examinar a cobertura e a execução das atividades, mas não sustentam uma estimativa confiável de efeitos causais, a análise de avaliabilidade pode identificar condições distintas para avaliações de implementação e de impacto.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "explanation": "Certo. Há dados suficientes para investigar implementação/cobertura sem condições equivalentes para estimar efeitos causais; avaliabilidade depende da pergunta e evidências.",
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade-q3",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T07:48:57-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-1",
+      "trainingMode": "revisao",
       "result": "correct"
     }
   ]

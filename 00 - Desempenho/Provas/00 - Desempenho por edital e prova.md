@@ -21,6 +21,7 @@ Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessõ
 | dataprev-2026 / Legislação / simulado histórico | 10 | 5 | 0 | 0 | 66.7% | insuficiente |
 | dataprev-2026 / Comunicação Social / simulado histórico | 85 | 15 | 0 | 0 | 85.0% | volume >= 50; verificar representatividade |
 | dataprev-2026 / Atualidades/IA / simulado histórico | 16 | 2 | 0 | 0 | 88.9% | insuficiente |
+| cgu-2026 / Políticas Públicas e avaliação / revisao | 3 | 0 | 0 | 0 | 100.0% | insuficiente |
 | cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 3 | 1 | 0 | 0 | 75.0% | insuficiente |
 | cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |

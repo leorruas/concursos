@@ -5,6 +5,18 @@
   "coverage": "somente itens individualizados; legado pode ser parcial",
   "totals": [
     {
+      "key": "Políticas Públicas e avaliação / revisao",
+      "total": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "blank": 0,
+      "annulled": 0,
+      "answered": 3,
+      "valid": 3,
+      "accuracy": 1,
+      "sample": "insuficiente"
+    },
+    {
       "key": "Políticas Públicas e avaliação / aprendizagem",
       "total": 4,
       "correct": 3,
@@ -55,6 +67,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
+      "status": "parcial",
+      "diagnosis": "Reteste didático da lacuna registrada em 04/11, item 3 da bateria de aprendizagem (avaliabilidade versus formalização prévia do modelo lógico). 3/3 julgamentos corretos: C/E/C. Recuperação correta imediata observada em três mecanismos próximos, inclusive reconstrução retrospectiva, suficiência de dados e diferença entre implementação e impacto. Confiança não declarada; não registrar recuperação segura nem retenção espaçada. Sem calibração competitiva.",
+      "nextStep": "Manter na fila revisão posterior (proposta inicial 05/11) com questão C/E de mecanismo diferente e pedir declaração de confiança. Depois da revisão, decidir encerramento didático da unidade 01 e completar a nota canônica da matéria; treino para valer somente com corpus Cebraspe C/E examinado."
+    },
+    {
       "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem",
       "date": "2026-11-04",
       "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem.json",
@@ -69,29 +89,20 @@
       "status": "concluido",
       "diagnosis": "Aplicação didática unidade 07: 4/5 (80%), sem brancos, um erro no item 4 com dúvida declarada. Acertou rastreamento, vouching, limite da confirmação externa e alcance temporal da observação. Erro [C] provisório: não reconheceu que inspeção documental pode servir a teste de controle conforme sua finalidade. Sem justificativa do estudante, causa não comprovada. Não é benchmark.",
       "nextStep": "Reforçar finalidade do teste versus técnica de execução, contrastando inspeção de autorizações (controle) e inspeção de comprovantes (substantivo). Avançar para treino para valer apenas com fonte e calibração real identificadas, sem inferir domínio por bateria curta; consolidar nota e hub ao fechar unidade 07."
-    },
-    {
-      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem",
-      "date": "2026-11-03",
-      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem.json",
-      "status": "concluido",
-      "diagnosis": "4/4 acertos e nenhum branco, treino de aprendizagem sem calibração. Confiança não informada.",
-      "nextStep": "Prosseguir unidade 07 com mais casos e fronteiras entre técnicas, testar após calibração e consolidar teoria ao fechar o assunto."
     }
   ],
   "recentMechanisms": [
+    "avaliabilidade-distinta-implementacao-impacto",
     "avaliabilidade-sem-modelo-formal-preexistente",
     "coerencia-logica-nao-prova-causalidade",
     "confirmacao-externa-nao-atribuicao-de-origem",
     "distinguir-adequacao-da-solucao-e-diagnostico",
     "distinguir-entrega-de-mudanca-produzida",
-    "finalidade-substantiva-inspecao-documental",
     "inspecao-documental-para-testar-operacao-do-controle",
     "observacao-pontual-nao-valida-todo-periodo",
-    "procedimento-analitico-substantivo",
     "rastreamento-da-origem-ao-registro",
-    "recalculo-versus-validade-de-dados",
-    "reexecucao-versus-observacao",
+    "reconstrucao-retrospectiva-nao-comprova-efeito",
+    "teoria-formalizada-nao-garante-dados-para-impacto",
     "vouching-do-registro-ao-documento"
   ],
   "review": [
@@ -223,8 +234,8 @@
   "resume": {
     "subjectId": "politicas-publicas",
     "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
-    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade01-aprendizagem",
-    "time": 1793788320000
+    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade",
+    "time": 1793789337000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

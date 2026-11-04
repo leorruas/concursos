@@ -14,6 +14,7 @@ Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessõ
 
 | Dia / concurso / disciplina / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-04 / cgu-2026 / Políticas Públicas e avaliação / revisao | 3 | 0 | 0 | 0 | 100.0% | insuficiente |
 | 2026-11-04 / cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 3 | 1 | 0 | 0 | 75.0% | insuficiente |
 | 2026-11-03 / cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | 2026-11-03 / cgu-2026 / Auditoria Governamental / para_valer | 14 | 1 | 1 | 0 | 93.3% | insuficiente |

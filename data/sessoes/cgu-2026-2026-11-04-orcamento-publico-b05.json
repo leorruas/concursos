@@ -57,9 +57,9 @@
       "discipline": "Orçamento Público",
       "topic": "Princípios orçamentários e vedações constitucionais",
       "subtopic": "Unidade: a LOA inclui três orçamentos",
-      "questionType": "unidade-versus-tres-esferas",
-      "mechanism": "comparison",
-      "distractorMechanism": "comparison",
+      "questionType": "comparison",
+      "mechanism": "estrutura-da-loa-e-unidade",
+      "distractorMechanism": "estrutura-da-loa-e-unidade",
       "statement": "A organização dos orçamentos fiscal, da seguridade social e de investimento das estatais em partes distintas de uma mesma LOA federal é compatível com o princípio da unidade orçamentária.",
       "format": "CE",
       "correctAnswer": "C",
@@ -78,7 +78,8 @@
         "classification": "new",
         "similarTo": [],
         "intentional": false
-      }
+      },
+      "explanation": "Certo. A LOA federal reúne três orçamentos em uma lei. A unidade/totalidade não exige eliminar a classificação por esferas."
     },
     {
       "conceptId": "universalidade-abrangencia-sem-limite-valor",
@@ -86,9 +87,9 @@
       "discipline": "Orçamento Público",
       "topic": "Princípios orçamentários e vedações constitucionais",
       "subtopic": "Universalidade: inclusão, não ausência de classificação",
-      "questionType": "excecao-de-pequeno-valor-inexistente",
-      "mechanism": "comparison",
-      "distractorMechanism": "comparison",
+      "questionType": "comparison",
+      "mechanism": "omissao-por-baixo-valor",
+      "distractorMechanism": "omissao-por-baixo-valor",
       "statement": "O princípio da universalidade permite que receitas orçamentárias de pequeno valor sejam excluídas da LOA, desde que as despesas financiadas por essas receitas estejam devidamente discriminadas.",
       "format": "CE",
       "correctAnswer": "E",
@@ -107,7 +108,8 @@
         "classification": "new",
         "similarTo": [],
         "intentional": false
-      }
+      },
+      "explanation": "Errado. O princípio da universalidade não cria dispensa geral para receita orçamentária de pequeno valor; discriminar despesas não justifica excluir receitas. Acerto inseguro."
     },
     {
       "conceptId": "anualidade-ppa-nao-afasta-loa",
@@ -115,9 +117,9 @@
       "discipline": "Orçamento Público",
       "topic": "Princípios orçamentários e vedações constitucionais",
       "subtopic": "Anualidade e vigência de créditos",
-      "questionType": "planejamento-plurianual-tomado-como-autorizacao-permanente",
-      "mechanism": "comparison",
-      "distractorMechanism": "comparison",
+      "questionType": "comparison",
+      "mechanism": "excecao-falsa-do-ppa-a-anualidade",
+      "distractorMechanism": "excecao-falsa-do-ppa-a-anualidade",
       "statement": "A previsão de uma política pública no PPA para vários exercícios financeiros dispensa, em relação às despesas dessa política, a observância do princípio da anualidade orçamentária.",
       "format": "CE",
       "correctAnswer": "E",
@@ -136,7 +138,8 @@
         "classification": "new",
         "similarTo": [],
         "intentional": false
-      }
+      },
+      "explanation": "Errado. A previsão plurianual no PPA não afasta a referência anual das autorizações da LOA, nem a exigência de dotações nos exercícios correspondentes."
     },
     {
       "conceptId": "orcamento-bruto-registro-integral",
@@ -144,9 +147,9 @@
       "discipline": "Orçamento Público",
       "topic": "Princípios orçamentários e vedações constitucionais",
       "subtopic": "Orçamento bruto: registrar pelos totais",
-      "questionType": "deducao-de-despesa-da-receita-bruta",
-      "mechanism": "application",
-      "distractorMechanism": "application",
+      "questionType": "application",
+      "mechanism": "deducao-do-bruto",
+      "distractorMechanism": "deducao-do-bruto",
       "statement": "A apresentação apenas do valor líquido de uma receita, após a dedução de transferência que deveria ser registrada como despesa, pode contrariar o princípio do orçamento bruto.",
       "format": "CE",
       "correctAnswer": "C",
@@ -165,7 +168,8 @@
         "classification": "new",
         "similarTo": [],
         "intentional": false
-      }
+      },
+      "explanation": "Certo. A lei exige receitas e despesas pelos totais, sem deduções. Se a transferência deveria integrar a despesa, seu abatimento na receita pode contrariar o orçamento bruto. Acerto inseguro."
     },
     {
       "conceptId": "especificacao-proibicao-dotacao-generica",
@@ -173,9 +177,9 @@
       "discipline": "Orçamento Público",
       "topic": "Princípios orçamentários e vedações constitucionais",
       "subtopic": "Especificação: não criar dotação indiferenciada",
-      "questionType": "dotacao-global-sem-detalhamento",
-      "mechanism": "application",
-      "distractorMechanism": "application",
+      "questionType": "application",
+      "mechanism": "dotacao-indiferenciada",
+      "distractorMechanism": "dotacao-indiferenciada",
       "statement": "A utilização de dotação genérica para cobrir indistintamente despesas com pessoal, materiais e serviços, fora das hipóteses legalmente ressalvadas, contraria o princípio da especificação.",
       "format": "CE",
       "correctAnswer": "C",
@@ -194,7 +198,8 @@
         "classification": "new",
         "similarTo": [],
         "intentional": false
-      }
+      },
+      "explanation": "Certo. Dotações genéricas para cobrir indistintamente pessoal, materiais e serviços contrariam a especificação, salvo hipóteses expressamente permitidas."
     },
     {
       "conceptId": "exclusividade-suplementar-vs-especial",
@@ -202,9 +207,9 @@
       "discipline": "Orçamento Público",
       "topic": "Princípios orçamentários e vedações constitucionais",
       "subtopic": "Exclusividade e suas duas exceções constitucionais",
-      "questionType": "extensao-indevida-de-excecao-de-suplementar-para-especial",
-      "mechanism": "comparison",
-      "distractorMechanism": "comparison",
+      "questionType": "comparison",
+      "mechanism": "transferencia-de-excecao-suplementar-para-especial",
+      "distractorMechanism": "transferencia-de-excecao-suplementar-para-especial",
       "statement": "A autorização para abertura de créditos especiais pode ser incluída na LOA com fundamento direto na mesma exceção ao princípio da exclusividade que permite autorizar créditos suplementares.",
       "format": "CE",
       "correctAnswer": "E",
@@ -224,7 +229,8 @@
         "classification": "new",
         "similarTo": [],
         "intentional": false
-      }
+      },
+      "explanation": "Errado. A exceção do art. 165, § 8º, da Constituição admite autorização para créditos suplementares e operações de crédito, não a extensão automática para abertura de créditos especiais. Erro inseguro por ampliação do alcance da exceção."
     },
     {
       "conceptId": "nao-afetacao-impostos-excecao-educacao",
@@ -232,9 +238,9 @@
       "discipline": "Orçamento Público",
       "topic": "Princípios orçamentários e vedações constitucionais",
       "subtopic": "Não afetação de impostos e as exceções",
-      "questionType": "excecao-constitucional-tratada-como-infracao",
-      "mechanism": "comparison",
-      "distractorMechanism": "comparison",
+      "questionType": "comparison",
+      "mechanism": "excecao-educacao-tratada-como-proibicao",
+      "distractorMechanism": "excecao-educacao-tratada-como-proibicao",
       "statement": "A vinculação constitucional de receitas de impostos à manutenção e ao desenvolvimento do ensino representa violação do princípio da não afetação, ainda que prevista expressamente na Constituição.",
       "format": "CE",
       "correctAnswer": "E",
@@ -253,7 +259,8 @@
         "classification": "new",
         "similarTo": [],
         "intentional": false
-      }
+      },
+      "explanation": "Errado. A destinação constitucional da receita de impostos à manutenção e desenvolvimento do ensino é ressalva expressa à não afetação."
     },
     {
       "conceptId": "regra-ouro-ressalva-suplementar-especial",
@@ -261,9 +268,9 @@
       "discipline": "Orçamento Público",
       "topic": "Princípios orçamentários e vedações constitucionais",
       "subtopic": "Regra de ouro: limite e ressalva",
-      "questionType": "transposicao-de-requisitos-entre-regra-ouro-e-exclusividade",
-      "mechanism": "recognition",
-      "distractorMechanism": "recognition",
+      "questionType": "recognition",
+      "mechanism": "regra-de-ouro-maioria-absoluta",
+      "distractorMechanism": "regra-de-ouro-maioria-absoluta",
       "statement": "A regra de ouro admite ressalva mediante créditos suplementares ou especiais com finalidade precisa, aprovados pelo Poder Legislativo por maioria absoluta.",
       "format": "CE",
       "correctAnswer": "C",
@@ -282,7 +289,8 @@
         "classification": "new",
         "similarTo": [],
         "intentional": false
-      }
+      },
+      "explanation": "Certo. O art. 167, III, da Constituição prevê a ressalva da regra de ouro com créditos suplementares ou especiais de finalidade precisa aprovados pelo Legislativo por maioria absoluta."
     }
   ]
 }

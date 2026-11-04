@@ -25,9 +25,9 @@ Os **11 artigos propostos** não são 11 unidades didáticas novas. Eles subdivi
 | 03 | [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios orçamentários e vedações]]: unidade, universalidade, anualidade, orçamento bruto, especificação e exceções | P3.2.2 | **Publicado: sem estudo registrado** |
 | 04 | [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Classificações de receita e despesa]]: natureza, fonte/destinação, esfera, instituição, função, subfunção, programa e ação | P3.2.2 | **Publicado: sem estudo registrado** |
 | 05 | [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]]: suplementares, especiais, extraordinários, fontes, limites e emendas | P3.2.2 | **Publicado: sem estudo registrado** |
-| 06 | Programação orçamentária e contingenciamento: execução por cotas, metas fiscais, limitação de empenho e desbloqueio | P3.2.2 | Pendente |
-| 07 | Receitas públicas: ingressos orçamentários/extraorçamentários, classificações e estágios | P3.2.3 | Pendente |
-| 08 | Despesa pública: fixação, empenho, liquidação, pagamento, modalidades e documentação | P3.2.3 | Pendente |
+| 06 | [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação orçamentária e contingenciamento]]: execução por limites, metas, limitação e recomposição | P3.2.2 | **Publicado: sem estudo registrado** |
+| 07 | [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|Receitas públicas]]: ingressos orçamentários/extraorçamentários e estágios | P3.2.3 | **Publicado: sem estudo registrado** |
+| 08 | [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Despesa pública]]: fixação, empenho, liquidação, pagamento e modalidades | P3.2.3 | **Publicado: sem estudo registrado** |
 | 09 | Restos a pagar e ajustes da despesa: processados/não processados, despesas de exercícios anteriores e suprimento de fundos | P3.2.3 | Pendente |
 | 10 | Execução financeira, Conta Única e cronograma de desembolso: diferença entre crédito e recurso financeiro | P3.2.3 | Pendente |
 | 11 | Responsabilidade fiscal e controle da execução: limites, riscos, transparência, RREO, RGF e responsabilização | P3.2.3 | Pendente |
@@ -58,4 +58,4 @@ Antes de treinos “para valer”, consultar o [[00 - Desempenho/Provas/CGU 2026
 - MCASP, 11ª edição, **Parte I**, para conceitos orçamentários, conferindo a versão indicada no plano.
 - Guias e materiais explicativos do Senado como apoio didático; a norma e sua vigência prevalecem.
 
-A cobertura atual é **parcial**: cinco artigos publicados, outros seis previstos. Não há exposição registrada para Orçamento Público no contexto inicial consultado em 04/11/2026.
+A cobertura atual é **parcial**: oito artigos publicados, outros três previstos. Não há exposição registrada para Orçamento Público no contexto inicial consultado em 04/11/2026.

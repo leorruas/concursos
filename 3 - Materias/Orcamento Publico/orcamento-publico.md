@@ -19,8 +19,11 @@ Matéria de planejamento e execução orçamentária, receita, despesa e respons
 - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|03. Princípios orçamentários]]: unidade, universalidade, anualidade, exclusividade, não afetação e regra de ouro.
 - [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|04. Classificações de receita e despesa]]: natureza, fonte, esfera, função, subfunção, programa e GND.
 - [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|05. Créditos adicionais e emendas]]: suplementar × especial × extraordinário; fontes, vigência e emendas impositivas.
+- [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|06. Programação e contingenciamento]]: cronograma, limites de empenho, metas e recomposição.
+- [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|07. Receitas públicas]]: orçamentárias × extraorçamentárias; previsão, lançamento, arrecadação e recolhimento.
+- [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|08. Despesas públicas]]: fixação, empenho, liquidação, pagamento e modalidades de empenho.
 
-Os cinco primeiros textos estão **preparados editorialmente, sem estudo registrado**. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
+Os oito primeiros textos estão **preparados editorialmente, sem estudo registrado**. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
 
 ## Unidade P3.2.2: orçamento e planejamento
 
@@ -31,14 +34,14 @@ Os cinco primeiros textos estão **preparados editorialmente, sem estudo registr
 | 03 | [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios orçamentários]]: unidade, universalidade, anualidade, exclusividade, orçamento bruto e não afetação | Artigo publicado; sem estudo registrado |
 | 04 | [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Classificações da receita e da despesa]]: natureza, institucional, funcional, programática e fontes | Artigo publicado; sem estudo registrado |
 | 05 | [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]]: espécies, fontes, reabertura e limites de execução | Artigo publicado; sem estudo registrado |
-| 06 | Programação e contingenciamento: dotação × limite de empenho × liberação financeira | Nota especializada pendente |
+| 06 | [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]]: dotação × limite de empenho × liberação financeira | Artigo publicado; sem estudo registrado |
 
 ## Unidade P3.2.3: execução e responsabilidade fiscal
 
 | Sequência | Conteúdo e fronteiras prioritárias | Cobertura editorial |
 | :--- | :--- | :--- |
-| 07 | Receita pública: receitas orçamentárias × entradas extraorçamentárias; previsão, lançamento, arrecadação e recolhimento | Nota pendente |
-| 08 | Despesa pública: fixação × empenho × liquidação × pagamento; modalidades e comprovação | Nota pendente |
+| 07 | [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|Receitas públicas]]: orçamentária × extraorçamentária e quatro estágios | Artigo publicado; sem estudo registrado |
+| 08 | [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Despesas públicas]]: fixação, empenho, liquidação e pagamento | Artigo publicado; sem estudo registrado |
 | 09 | Restos a pagar e ajustes: processado × não processado; DEA e suprimento de fundos | Nota pendente |
 | 10 | Conta Única e gestão financeira: crédito orçamentário × recurso financeiro × cronograma de desembolso | Nota pendente |
 | 11 | Responsabilidade fiscal: metas, limites, relatórios, transparência e consequências da execução | Nota pendente |

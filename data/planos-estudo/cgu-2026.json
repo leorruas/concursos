@@ -393,6 +393,7 @@
             "P3.1.3"
           ],
           "noteRefs": [
+            "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria",
             "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar"
           ],
           "requires": [
@@ -402,7 +403,7 @@
             "referencial",
             "mot"
           ],
-          "coverage": "parcial",
+          "coverage": "aprofundada",
           "historicalExposure": {
             "date": "2026-11-03",
             "evidenceRef": "3 - Materias/Auditoria Governamental/auditoria-governamental#Planejamento de aprofundamento para o intensivão CGU",
@@ -429,7 +430,9 @@
           "editalItems": [
             "P3.1.3"
           ],
-          "noteRefs": [],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/amostragem-e-generalizacao"
+          ],
           "requires": [
             "u07"
           ],
@@ -437,7 +440,7 @@
             "referencial",
             "mot"
           ],
-          "coverage": "parcial"
+          "coverage": "aprofundada"
         },
         {
           "id": "u09",

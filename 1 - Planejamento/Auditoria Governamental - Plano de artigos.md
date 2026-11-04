@@ -18,7 +18,7 @@ O [[3 - Materias/Auditoria Governamental/auditoria-governamental|hub da matéria
 
 | Unidade | Existência de artigos e lacunas | Próxima ação |
 | :--- | :--- | :--- |
-| **01. Estrutura e serviços** | Finalidades, modalidades e três linhas já possuem notas; recorte de CGU/SFC e fronteira com controle externo requer auditoria fina | Revisar cobertura sem duplicar |
+| **01. Estrutura e serviços** | [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas\|Finalidades e serviços]] e [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle\|Três linhas e SCI]] revisados: SFC, órgãos setoriais, Audin, TCU, supervisão técnica e limites de apuração | **Cobertura editorial aprofundada**; preservar aprendizagem já registrada e revisar erros quando surgirem |
 | **02. Independência, ética e proficiência** | Independência, sigilo/transparência e proficiência/ceticismo aprofundados | Manter e refinar por erros novos |
 | **03. Governança e controles** | Nota de governança, riscos e três linhas | Manutenção após revisão |
 | **04. Planejamento anual** | Priorização por riscos e PAINT/RAINT | Manutenção após revisão |
@@ -33,7 +33,7 @@ O [[3 - Materias/Auditoria Governamental/auditoria-governamental|hub da matéria
 | **13. Dados e IA** | [[3 - Materias/Auditoria Governamental/dados-analise-e-ia-na-auditoria\|Artigo preparado]]: TAAC, bases, Alice, IA, falsos resultados e validação humana | Aula e avaliação ainda não realizadas |
 | **14. Integração CGU** | [[3 - Materias/Auditoria Governamental/integracao-das-funcoes-da-cgu\|Artigo preparado]]: SFC, OGU, CRG, SIP, SIPRI, SNAI, sistemas e encaminhamentos | Aula e avaliação ainda não realizadas |
 
-**Lotes das unidades 07 a 14 preparados em 04/11/2026.** Resta revisão focal da unidade 01: CGU/SFC, Audin, Sistema de Controle Interno e controle externo, sem duplicar notas existentes. A cobertura editorial não significa unidade estudada; a progressão permanece nas sessões e nos contextos gerados.
+**Cobertura documental das 14 unidades preparada e revisada em 04/11/2026.** As unidades 07 a 14 receberam artigos próprios; a unidade 01 foi refinada nas duas notas preexistentes, sem duplicação. **Cobertura editorial não representa retenção nem conclusão didática:** os contextos e sessões permanecem como fonte de aprendizagem e do próximo passo. A documentação exige manutenção quando surgirem questões, erros ou mudanças normativas.
 
 ## Recuperar o estudo no ChatGPT
 
@@ -45,7 +45,7 @@ O artigo da [[3 - Materias/Auditoria Governamental/amostragem-e-generalizacao|un
 
 ## Contrato para os próximos lotes
 
-Um novo artigo exige **nota canônica com identidade estável, hub, índice global, catálogo de matérias/concursos e referência no plano de estudo**, no mesmo commit. O build gera os contextos: não editar os derivados. Revisar fontes oficiais e incluir conceitos, classificações, fronteiras, exemplo desenvolvido e perguntas de decisão úteis. Manter 1 a 3 itens comentados **didáticos e não resolvidos**, em vez de simular desempenho.
+Na manutenção futura, um novo artigo exigirá **nota canônica com identidade estável, hub, índice global, catálogo de matérias/concursos e referência no plano de estudo**, no mesmo commit. A revisão focal da unidade 01 **não criou artigo**, preservando IDs, caminhos e links já existentes. O build gera os contextos: não editar os derivados. Revisar fontes oficiais e incluir conceitos, classificações, fronteiras, exemplo desenvolvido e perguntas de decisão úteis. Manter 1 a 3 itens comentados **didáticos e não resolvidos**, em vez de simular desempenho.
 
 ## Fontes
 

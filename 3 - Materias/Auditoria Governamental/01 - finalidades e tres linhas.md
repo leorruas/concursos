@@ -5,23 +5,25 @@ title: "Finalidades e modalidades de auditoria governamental"
 type: "conceito"
 status: "ativo"
 created: 2026-10-30
-updated: 2026-11-03
+updated: 2026-11-04
 ---
 
 # Finalidades e modalidades de auditoria governamental
 
 
-Esta nota trata das modalidades **avaliação, consultoria e apuração**. O [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle|modelo das três linhas]] organiza as responsabilidades de gestão e auditoria; [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|independência e objetividade]] tratam das condições de atuação do auditor.
+Esta nota distingue os **serviços de avaliação e consultoria** e a **competência de apuração** de irregularidades. Os três são formas relevantes de atuação no contexto da auditoria governamental, mas possuem enquadramentos normativos diferentes. O [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle|modelo das três linhas]] organiza as responsabilidades de gestão e auditoria; [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|independência e objetividade]] tratam das condições de atuação do auditor.
 
 ## Núcleo do conceito
 
 A **auditoria interna governamental** é uma atividade independente e objetiva que contribui para o aperfeiçoamento de governança, gerenciamento de riscos e controles internos. Adota abordagem sistemática e disciplinada para agregar valor à atuação pública.
 
-No exercício da atividade de auditoria interna governamental, a Controladoria-Geral da União (CGU) realiza serviços de **avaliação, consultoria e apuração**. Sua classificação exige atenção à finalidade do trabalho, e não apenas à técnica utilizada. Análise documental, entrevista e exame de controles podem aparecer em mais de uma modalidade.
+O Referencial Técnico da Controladoria-Geral da União (CGU), aprovado pela IN SFC nº 3/2017, define **avaliação e consultoria** como serviços típicos da auditoria interna. A **apuração** é competência legal dos órgãos e unidades do Sistema de Controle Interno (SCI), prevista no art. 24, VII, da Lei nº 10.180/2001, e detalhada no capítulo 2 do MOT. Classificar a atuação exige considerar **finalidade do trabalho e competência da unidade**, e não apenas a técnica utilizada. Análise documental, entrevista e exame de controles podem aparecer em mais de uma modalidade.
 
 A referência técnica é o **Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal**, aprovado pela Instrução Normativa (IN) SFC nº 3/2017, complementado pelo **Manual de Orientações Técnicas (MOT)**, aprovado pela IN SFC nº 8/2017, e pelas orientações práticas aplicáveis.
 
 ## Estrutura interna: três modalidades de serviço
+
+**Precisão terminológica para esta âncora histórica:** a organização em três tópicos serve à comparação didática. **Na classificação técnica do Referencial, os serviços típicos são avaliação e consultoria; apuração é competência adicional do SCI**, com regras próprias. Não pressupor que toda UAIG possa assumir indistintamente os três tipos de trabalho.
 
 ### Avaliação
 
@@ -46,6 +48,8 @@ Execução de procedimentos para **averiguar atos ou fatos com indícios de ileg
 **Exemplo:** examinar indícios de pagamentos por serviços não executados, cruzando medições, comprovantes e registros de fiscalização.
 
 **Limite decisivo:** apurar fatos e produzir evidências não significa automaticamente condenar pessoas ou aplicar sanções. Medidas de responsabilização exigem procedimento, provas e competência da instância responsável.
+
+**Alcance da competência:** o MOT, capítulo 2, explica que a Lei nº 10.180/2001 atribuiu apuração aos **órgãos e unidades integrantes do SCI**. As **auditorias internas singulares (Audin)** são **órgãos auxiliares**, não integrantes do SCI na classificação do art. 22, e **não recebem automaticamente essa atribuição**. Podem assumir apuração quando houver previsão normativa ou decisão legítima da alta administração. Mesmo sem essa atribuição, devem estar alertas a indícios, conhecer riscos de fraude e **encaminhar tempestivamente informações suficientes à instância competente**. A apuração de erro pode seguir um trabalho de avaliação; a de fraude exige cautelas e capacidades próprias.
 
 ### Fronteiras entre modalidades
 
@@ -81,7 +85,7 @@ Esses são exemplos de mecanismos possíveis; não representam frequência medid
 
 ### Avaliação × apuração: perguntas, alcance e finalidade
 
-Os dois serviços podem usar **análise documental, entrevistas, cruzamento de dados e testes de auditoria**. O que melhor os distingue é **a finalidade do trabalho, definida em seu objetivo e escopo**, e não a técnica empregada, o canal pelo qual chegou uma informação ou a mera descoberta de uma irregularidade.
+Os dois tipos de trabalho podem usar **análise documental, entrevistas, cruzamento de dados e testes de auditoria**. O que melhor os distingue é **a finalidade do trabalho, definida em seu objetivo e escopo**, e não a técnica empregada, o canal pelo qual chegou uma informação ou a mera descoberta de uma irregularidade.
 
 | Critério | Avaliação | Apuração |
 | :--- | :--- | :--- |
@@ -99,7 +103,7 @@ Essas diferenças descrevem **tendências**, não fronteiras absolutas. Uma **au
 2. Após indícios consistentes de pagamentos fictícios, a unidade competente delimita fatos e busca evidências para verificar se ocorreram e em que extensão. **Apuração**, ainda que utilize testes documentais iguais aos de uma avaliação.
 3. Uma denúncia sobre bolsas gera preocupação com fragilidades gerais; o trabalho autorizado passa a examinar os controles de concessão do programa. **Avaliação**, embora a informação inicial tenha sido uma denúncia.
 
-**Para prova:** cuidado com as equivalências falsas **“denúncia = apuração”**, **“achado irregular = apuração”**, **“avaliação só examina controles, nunca transações”** e **“apuração sempre pressupõe fraude intencional”**. A **Orientação Prática: Serviços de Auditoria**, da **Controladoria-Geral da União (CGU)**, compara as duas modalidades no *Apêndice XIII*. O **MOT**, capítulo 2, explica a diferença entre apuração de erro e de fraude e os limites de competência.
+**Para prova:** cuidado com as equivalências falsas **“denúncia = apuração”**, **“achado irregular = apuração”**, **“avaliação só examina controles, nunca transações”** e **“apuração sempre pressupõe fraude intencional”**. A **Orientação Prática: Serviços de Auditoria**, da **Controladoria-Geral da União (CGU)**, compara essas formas de atuação no *Apêndice XIII*. O **MOT**, capítulo 2, explica a diferença entre apuração de erro e de fraude e os limites de competência.
 
 **Fontes:** [CGU, Orientação Prática: Serviços de Auditoria, 2022, capítulos 2 e 4 e Apêndice XIII](https://repositorio.cgu.gov.br/bitstream/1/68936/3/OP_Servicos_de_Auditoria); [CGU, MOT, capítulos 1 e 2](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
 
@@ -117,7 +121,7 @@ Essas diferenças descrevem **tendências**, não fronteiras absolutas. Uma **au
 
 **Caso 2.** A administração solicita apoio para mapear riscos antes de implantar uma plataforma. A equipe sugere controles, mas não aprova o desenho final nem os opera. **Consultoria**, respeitando a responsabilidade da gestão.
 
-**Caso 3.** A equipe verifica uma denúncia de medição fictícia em contrato, reúne documentos e encaminha os achados para a instância competente. **Apuração**. O encaminhamento não representa sanção automática.
+**Caso 3.** A equipe de unidade **legalmente competente para apurar** verifica uma denúncia de medição fictícia em contrato, reúne documentos e encaminha os achados para a instância competente. **Apuração**. O encaminhamento não representa sanção automática.
 
 ## Heurísticas
 
@@ -135,6 +139,8 @@ A explicação das modalidades e sua articulação com as três linhas foi conso
 
 ## Fontes
 
+- [Lei nº 10.180/2001, arts. 22 e 24, especialmente inciso VII](https://wiki.cgu.gov.br/index.php/Lei_n%C2%BA_10.180,_de_6_de_fevereiro_de_2001).
+- [CGU, Manual de Orientações Técnicas (MOT), capítulos 1 e 2: serviços e apuração](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
 - [CGU, Normas de Auditoria Interna: IN SFC nº 3/2017 e IN SFC nº 8/2017](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna).
 - [CGU, Perguntas frequentes: avaliação, consultoria e apuração](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/uaig/perguntas-frequentes).
 - [CGU, Sistema de Controle Interno: modelo das três linhas](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/sistema-de-controle-interno).

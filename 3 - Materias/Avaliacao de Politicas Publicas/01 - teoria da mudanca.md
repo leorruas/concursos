@@ -1,4 +1,6 @@
 ---
+articleId: art-50878ee79345479b
+articleAliases: ["3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca.md"]
 title: "Teoria da mudança: fundamentos da avaliação de políticas públicas"
 type: "conceito"
 status: "ativo"

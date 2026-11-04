@@ -1,4 +1,6 @@
 ---
+articleId: art-811ada4b2aba4a5a
+articleAliases: ["3 - Materias/Auditoria Governamental/auditoria-governamental.md"]
 title: "Auditoria governamental"
 type: "hub"
 status: "ativo"

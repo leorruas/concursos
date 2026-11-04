@@ -1,4 +1,6 @@
 ---
+articleId: art-7c5228e2781b4336
+articleAliases: ["3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md"]
 title: "Poder judiciário e controle de constitucionalidade"
 type: "conceito"
 status: "ativo"

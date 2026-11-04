@@ -1,4 +1,6 @@
 ---
+articleId: art-24350eefe84c43b5
+articleAliases: ["3 - Materias/Portugues/03 - pontuacao e virgula.md"]
 title: "Pontuação e vírgula"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-5b05d80d60e74b16
+articleAliases: ["3 - Materias/Atualidades/02 - quarto chines.md"]
 title: "Quarto chinês"
 type: "conceito"
 status: "ativo"

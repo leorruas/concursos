@@ -1,4 +1,6 @@
 ---
+articleId: art-e3f6a25897ea48ab
+articleAliases: ["3 - Materias/Transparencia e Ouvidoria/transparencia-e-ouvidoria.md"]
 title: "Transparência e ouvidoria"
 type: "hub"
 status: "ativo"

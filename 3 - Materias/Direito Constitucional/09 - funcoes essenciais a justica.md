@@ -1,4 +1,6 @@
 ---
+articleId: art-95bcc6a866f044bd
+articleAliases: ["3 - Materias/Direito Constitucional/09 - funcoes essenciais a justica.md"]
 title: "Funções essenciais à Justiça"
 type: "conceito"
 status: "ativo"

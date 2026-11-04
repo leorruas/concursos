@@ -1,4 +1,6 @@
 ---
+articleId: art-4d608c62a6414e07
+articleAliases: ["3 - Materias/Atualidades/08 - organizacoes internacionais e blocos.md"]
 title: "Organizações internacionais e blocos"
 type: "conceito"
 status: "ativo"

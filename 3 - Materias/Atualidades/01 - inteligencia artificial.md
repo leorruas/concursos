@@ -1,4 +1,6 @@
 ---
+articleId: art-a0fd083e56314c44
+articleAliases: ["3 - Materias/Atualidades/01 - inteligencia artificial.md"]
 title: "Inteligência artificial"
 type: "conceito"
 status: "ativo"

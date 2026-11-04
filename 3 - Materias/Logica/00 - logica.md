@@ -1,4 +1,6 @@
 ---
+articleId: art-41d7705cb7e64e1c
+articleAliases: ["3 - Materias/Logica/00 - logica.md"]
 title: "Raciocínio lógico"
 type: "hub"
 status: "ativo"

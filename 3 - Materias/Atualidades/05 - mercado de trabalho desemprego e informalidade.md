@@ -1,4 +1,6 @@
 ---
+articleId: art-fcbf8bc6df474e22
+articleAliases: ["3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade.md"]
 title: "Mercado de trabalho, desemprego e informalidade"
 type: "conceito"
 status: "ativo"

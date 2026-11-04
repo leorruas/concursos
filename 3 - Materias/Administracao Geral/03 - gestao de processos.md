@@ -1,4 +1,6 @@
 ---
+articleId: art-67c55e30982c4c0a
+articleAliases: ["3 - Materias/Administracao Geral/03 - gestao de processos.md"]
 title: "Gestão de processos"
 type: "conceito"
 status: "ativo"

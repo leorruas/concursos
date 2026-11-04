@@ -1,4 +1,6 @@
 ---
+articleId: art-2c08fdb390ff4b8b
+articleAliases: ["3 - Materias/Direito Constitucional/04 - nacionalidade.md"]
 title: "Nacionalidade"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-4affdff661924df1
+articleAliases: ["3 - Materias/Comunicacao/08 - assessoria de imprensa.md"]
 title: "Assessoria de imprensa"
 type: "conceito"
 status: "ativo"

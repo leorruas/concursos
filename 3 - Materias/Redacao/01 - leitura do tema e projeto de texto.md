@@ -1,4 +1,6 @@
 ---
+articleId: art-eee736362f70467f
+articleAliases: ["3 - Materias/Redacao/01 - leitura do tema e projeto de texto.md"]
 title: "Leitura do tema e projeto de texto"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-4deb120dd6574387
+articleAliases: ["3 - Materias/Logica/01 - proposicao.md"]
 title: "Proposição"
 type: "conceito"
 status: "ativo"

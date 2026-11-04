@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { resolveArticleRef } from './article-identity.js';
 
 import fs from 'fs';
 import { editorialClosureErrors } from './editorial-closure-policy.js';
@@ -276,7 +277,7 @@ for (const message of editorialClosureErrors(changes, read, p => {
   if (!editorialBase) return null;
   try { return execFileSync('git', ['show', `${editorialBase}:${p}`], {cwd: rootDir, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore']}); }
   catch { return null; }
-})) fail(message);
+}, ref => resolveArticleRef(rootDir,ref))) fail(message);
 
 const tocouIngestao = changes.some((c) =>
   c.path === 'scripts/ingest-vault.js' ||

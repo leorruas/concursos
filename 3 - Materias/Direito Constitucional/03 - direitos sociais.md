@@ -1,4 +1,6 @@
 ---
+articleId: art-b72f4e7f06344051
+articleAliases: ["3 - Materias/Direito Constitucional/03 - direitos sociais.md"]
 title: "Direitos sociais"
 type: "conceito"
 status: "ativo"

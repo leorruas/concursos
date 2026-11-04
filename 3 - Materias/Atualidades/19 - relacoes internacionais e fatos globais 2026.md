@@ -1,4 +1,6 @@
 ---
+articleId: art-a3bbad1c1d4b402a
+articleAliases: ["3 - Materias/Atualidades/19 - relacoes internacionais e fatos globais 2026.md"]
 title: "🔄 Relações internacionais e fatos globais — Atualidades 2026"
 type: "snapshot-conjuntural"
 status: "ativo"

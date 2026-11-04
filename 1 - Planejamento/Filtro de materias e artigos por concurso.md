@@ -148,3 +148,15 @@ Um único artigo deve abrir, com o mesmo conteúdo e identidade, a partir de dua
 Testar também origem inválida, múltiplos vínculos no mesmo concurso, colisão de nomes, ID ausente/duplicado, seção renomeada, notas privadas, contagens, anterior/próximo e navegação pelo histórico. Resultados e ponto de retomada de CGU/Dataprev/Câmara devem permanecer idênticos após a migração, salvo mudança editorial de vínculo expressamente documentada. Os testes de catálogo, busca, rotas, continuidade, privacidade, build e verificação do Pages continuam obrigatórios.
 
 **Decisão adiada:** a pasta física final. O resultado necessário é reaproveitamento e navegação por edital. A necessidade de mover todos os arquivos deve ser demonstrada após o desacoplamento, pois o filtro por si só já permite compartilhar teoria. Próxima ação de implementação: inventariar dependências e executar o piloto sem movimentação física.
+
+## Implementação da identidade estável: 04/11/2026
+
+A evolução descrita acima foi implementada sem movimentação física: notas canônicas receberam `articleId` e aliases do caminho original, preservando os corpos teóricos. O catálogo fonte passou ao formato 2 (`hubArticleId`/`articleIds`), sem caminhos manuais de vínculo. `scripts/article-identity.js` valida unicidade, resolve referências e compila o catálogo público de compatibilidade a partir das notas efetivamente presentes no manifesto. O próprio manifesto funciona como índice público de identidades e aliases; não há um segundo registro manual.
+
+Rotas novas usam `#/artigo/<articleId>`, preservando concurso, origem e seção; rotas antigas continuam aceitas, inclusive por alias de caminho. Hubs de concurso podem estar em qualquer pasta pública de matérias. A indicação de matéria no artigo aberto por edital vem da origem de navegação; acesso direto sem origem apresenta os vínculos disponíveis no concurso. A biblioteca geral mantém os agrupamentos existentes de compatibilidade.
+
+Sessões, teoria referenciada por questões, recibos editoriais e próximo passo aceitam `article:<articleId>#Seção exata`; contextos resolvem a retomada para um caminho legível. O histórico não foi reescrito. Títulos de seção não foram alterados; mudança futura de seção requer migração própria de âncoras. A resolução de identidade não torna renomeações de seções automaticamente seguras.
+
+O teste de identidade usa uma nota temporária movida e renomeada e verifica resolução por ID, caminho antigo, seção, duas matérias virtuais, privacidade, colisões e URLs. Integra preflight e workflow. Os testes de filtro usam o catálogo compilado, igual ao consumidor público. O Pages verifica também as identidades e aliases do manifesto ao vivo.
+
+**Permanece deliberadamente adiado:** reorganizar fisicamente as pastas, revisar em massa a teoria e converter todos os wikilinks/caminhos históricos para IDs. A nova estrutura permite reuso sem essas operações. Ao mover futuramente uma nota, manter seu ID, acrescentar os caminhos antigos aos aliases e aplicar os contratos de link, hub e índice; a compatibilidade Obsidian exige atualizar os wikilinks físicos na mesma mudança.

@@ -1,4 +1,6 @@
 ---
+articleId: art-f6cfe9fbcc764554
+articleAliases: ["3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md"]
 title: "Orçamento público e ciclo orçamentário"
 type: "conceito"
 status: "ativo"

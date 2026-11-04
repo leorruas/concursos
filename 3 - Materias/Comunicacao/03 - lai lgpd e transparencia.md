@@ -1,4 +1,6 @@
 ---
+articleId: art-2f08d016bf214fc3
+articleAliases: ["3 - Materias/Comunicacao/03 - lai lgpd e transparencia.md"]
 title: "LAI, LGPD e transparência (nota transferida)"
 type: "conceito"
 status: "ativo"

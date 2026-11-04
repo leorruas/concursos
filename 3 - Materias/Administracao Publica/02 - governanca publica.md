@@ -1,4 +1,6 @@
 ---
+articleId: art-23fe2441eab94f8d
+articleAliases: ["3 - Materias/Administracao Publica/02 - governanca publica.md"]
 title: "Governança pública"
 type: "conceito"
 status: "ativo"

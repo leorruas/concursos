@@ -1,8 +1,9 @@
+import { articleInventory, resolveCatalog } from './article-identity.js';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 
-const catalogo = JSON.parse(fs.readFileSync(new URL('../data/catalogo-materias-por-concurso.json', import.meta.url)));
+const catalogo = resolveCatalog(JSON.parse(fs.readFileSync(new URL('../data/catalogo-materias-por-concurso.json', import.meta.url))), articleInventory(new URL('..', import.meta.url).pathname));
 const concursos = JSON.parse(fs.readFileSync(new URL('../data/concursos.json', import.meta.url)));
 const artigos=[];
 const paths=new Set();

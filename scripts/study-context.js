@@ -1,3 +1,4 @@
+import { resolveArticleRef } from './article-identity.js';
 // Currículo e retomada por concurso/matéria. Não escreve arquivos nem teoria.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -23,6 +24,7 @@ export function examProfile(contest) {
     metadataSource:'data/concursos.json',historicalSourcesRole:'Fontes históricas e de outras bancas servem como apoio de conteúdo; sua origem não redefine banca, formato ou pontuação do concurso-alvo.'};
 }
 export function checkRef(root, ref) {
+  ref=resolveArticleRef(root,ref);
   ok(txt(ref) && !ref.includes('..') && !ref.includes('\\') && !path.isAbsolute(ref), `Referência local inválida: ${ref}`);
   const [p,heading]=ref.split('#');const text=file(root,p.endsWith('.md')?p:p+'.md');
   if (heading) ok(text.split(/\r?\n/).some(l=>/^#{1,6} /.test(l) && l.replace(/^#{1,6} /,'').trim()===heading), `Seção não encontrada: ${ref}`);
@@ -93,7 +95,7 @@ export function validateLearning(root,s,concursos) {
   const editorial=l.editorialConsolidation;
   if(editorial){
     ok(['consolidado','revisado-sem-alteracao'].includes(editorial.status)&&txt(editorial.summary),`${s.id}: recibo editorial sem estado ou justificativa`);
-    ok(arr(editorial.noteRefs)&&editorial.noteRefs.length>0&&editorial.noteRefs.every(r=>txt(r)&&r.startsWith('3 - Materias/')&&!/(?:^|\/)Avancos(?:\.md)?$/.test(r.split('#')[0])),`${s.id}: recibo editorial exige notas canônicas`);
+    ok(arr(editorial.noteRefs)&&editorial.noteRefs.length>0&&editorial.noteRefs.every(r=>txt(r)&&(r.startsWith('3 - Materias/')||r.startsWith('article:'))&&!/(?:^|\/)Avancos(?:\.md)?$/.test(r.split('#')[0])),`${s.id}: recibo editorial exige notas canônicas`);
     editorial.noteRefs.forEach(r=>checkRef(root,r));
     ok(arr(editorial.coveredSessionIds)&&editorial.coveredSessionIds.length>0&&editorial.coveredSessionIds.every(txt)&&new Set(editorial.coveredSessionIds).size===editorial.coveredSessionIds.length,`${s.id}: sessões editoriais ausentes ou duplicadas`);
   }
@@ -186,7 +188,8 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
         next={unitId:target.id,title:target.title,stage:'consolidacao',objective:'Fechar editorialmente a unidade: conferir as sessões indicadas, incorporar conceitos, fronteiras, exemplos e correções nas notas canônicas e registrar o recibo antes de iniciar a próxima unidade.',noteRef:target.editorial.noteRefs[0]||null,sourceIds:target.sourceIds,requiredSessionIds:target.editorial.requiredSessionIds,afterEditorial:next};
       }
       const doubts=new Map();for(const s of selected)for(const d of s.learning?.doubts||[]) {if(d.status==='resolvida')ok(d.evidenceQuestionNumbers.every(n=>qs.some(q=>q.sourceId===s.id&&q.number===n&&q.result==='correct'&&q.confidence==='secure')),`${s.id}: dúvida resolvida sem resposta segura`);doubts.set(d.id,d);}
-      const refs=[...new Set(subject.units.flatMap(u=>u.noteRefs).map(r=>r.split('#')[0]+'.md'))];
+      const refs=[...new Set(subject.units.flatMap(u=>u.noteRefs).map(r=>{const p=resolveArticleRef(root,r).split('#')[0];return p.endsWith('.md')?p:p+'.md';}))];
+      if(next.noteRef)next.noteRef=resolveArticleRef(root,next.noteRef);
       const sourceIds=[...new Set(subject.units.flatMap(u=>u.sourceIds))];
       const context={schemaVersion:2,concursoId:contest.id,subjectId:subject.id,discipline:subject.name,banca:contest.banca,activeExam,format:contest.estruturaProva?.objetiva?.julgamento||'consultar edital',cut,coverage:'Somente evidência registrada deste concurso. Nota disponível não implica exposição; legado pode ser parcial.',priority:{...subject.priority,unitCount:subject.units.length,officialItems:[...new Set(subject.units.flatMap(u=>u.editalItems))].length,weightByPart:Object.fromEntries((plan?.blocks||[]).filter(b=>subject.units.some(u=>u.editalItems.some(i=>i.startsWith(b.id+'.')))).map(b=>[b.id.split('.')[0],b.weight]))},hub:subject.hub||null,state:latest?'em-estudo':units.some(u=>u.exposure.state!=='nao-registrada')?'exposicao-parcial-compartilhada':'nao-iniciada',sourceFingerprint:refFingerprint(root,refs),latestSession:latest?{id:latest.id,date:latest.date,startedAt:latest.startedAt||null,path:latest.sourcePath,diagnosis:latest.qualityNote||null}:null,lastCompletedUnit:closed.at(-1)?.id||null,lastEditoriallyClosedUnit:closed.filter(u=>['consolidado','revisado-sem-alteracao'].includes(u.editorial.status)).at(-1)?.id||null,pendingEditorial,results:modeResults,units,gaps,openDoubts:[...doubts.values()].filter(d=>d.status==='aberta'),pendingReviews:units.filter(u=>u.lastEvidenceDate).map(u=>({unitId:u.id,dueOn:u.retention.reviewDueOn,status:'retencao-da-unidade-nao-testada',rule:'Datas são propostas; comparar com a data atual no chat. Revisão no mesmo dia mede recuperação imediata.'})),recentMechanisms:[...new Set(qs.slice(-24).map(q=>q.mechanism))],sources:Object.fromEntries(sourceIds.map(id=>[id,plan?.sources[id]||{label:'Edital do concurso: conferir recorte e norma indicada',ref:contest.sourcePath}])),resume:next,limits:[]};
       if(!plan)context.limits.push('Plano do edital ainda não auditado: inventário de notas, não percurso validado.');

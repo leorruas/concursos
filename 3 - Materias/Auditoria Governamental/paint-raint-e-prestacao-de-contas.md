@@ -1,4 +1,6 @@
 ---
+articleId: art-99dd198f53bb43d3
+articleAliases: ["3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md"]
 title: "PAINT, RAINT e prestação de contas anual"
 type: "conceito"
 status: "ativo"

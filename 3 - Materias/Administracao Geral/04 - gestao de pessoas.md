@@ -1,4 +1,6 @@
 ---
+articleId: art-0cc53d53f94f4fd2
+articleAliases: ["3 - Materias/Administracao Geral/04 - gestao de pessoas.md"]
 title: "Gestão de pessoas"
 type: "conceito"
 status: "ativo"

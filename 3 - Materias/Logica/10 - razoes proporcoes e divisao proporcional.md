@@ -1,4 +1,6 @@
 ---
+articleId: art-c66e408f47fa4576
+articleAliases: ["3 - Materias/Logica/10 - razoes proporcoes e divisao proporcional.md"]
 title: "Razões, proporções e divisão proporcional"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-aa994c593ec8460b
+articleAliases: ["3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas.md"]
 title: "Implementação de políticas públicas"
 type: "conceito"
 status: "ativo"

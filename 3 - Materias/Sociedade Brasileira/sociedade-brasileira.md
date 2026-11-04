@@ -1,4 +1,6 @@
 ---
+articleId: art-78bc825a42f84a42
+articleAliases: ["3 - Materias/Sociedade Brasileira/sociedade-brasileira.md"]
 title: "Sociedade brasileira"
 type: "hub"
 status: "ativo"

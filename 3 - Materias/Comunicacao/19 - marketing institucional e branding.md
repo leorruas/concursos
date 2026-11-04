@@ -1,4 +1,6 @@
 ---
+articleId: art-e51e5d78db5a4c99
+articleAliases: ["3 - Materias/Comunicacao/19 - marketing institucional e branding.md"]
 title: "Marketing institucional e branding"
 type: "conceito"
 status: "ativo"

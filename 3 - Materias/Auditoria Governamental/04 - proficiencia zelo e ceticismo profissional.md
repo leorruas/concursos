@@ -1,4 +1,6 @@
 ---
+articleId: art-7446e1f6086f4d9a
+articleAliases: ["3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional.md"]
 title: "Proficiência, zelo e ceticismo profissional"
 type: "conceito"
 status: "ativo"

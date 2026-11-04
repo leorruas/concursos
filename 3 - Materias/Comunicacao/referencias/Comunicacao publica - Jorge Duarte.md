@@ -1,3 +1,8 @@
+---
+articleId: art-bb423d0498194a22
+articleAliases: ["3 - Materias/Comunicacao/referencias/Comunicacao publica - Jorge Duarte.md"]
+---
+
 **Comunicação Pública *Jorge Duarte******1* Resumo –** Discute-se a consolidação do conceito de comunicação pública, a partir de um enfoque pragmático-idealizante. Propõem-se tipologias que possam ajudar a estabelecer linhas de pesquisa, de discussão e de atuação em busca de melhorar a qualidade da relação entre cidadão e as instituições que atuam com questões de interesse público.
 
 **Palavras-chave:** comunicação pública; comunicação governamental; cidadania.

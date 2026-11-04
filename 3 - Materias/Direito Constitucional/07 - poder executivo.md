@@ -1,4 +1,6 @@
 ---
+articleId: art-4572f492f3444994
+articleAliases: ["3 - Materias/Direito Constitucional/07 - poder executivo.md"]
 title: "Poder executivo"
 type: "conceito"
 status: "ativo"

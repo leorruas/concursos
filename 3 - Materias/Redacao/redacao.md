@@ -1,4 +1,6 @@
 ---
+articleId: art-53aaeb5f3d694d57
+articleAliases: ["3 - Materias/Redacao/redacao.md"]
 title: "Redação"
 type: "hub"
 status: "ativo"

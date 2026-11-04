@@ -1,4 +1,6 @@
 ---
+articleId: art-f3e70dd8fbe34df4
+articleAliases: ["3 - Materias/Direito Constitucional/06 - poder legislativo.md"]
 title: "Poder legislativo"
 type: "conceito"
 status: "ativo"

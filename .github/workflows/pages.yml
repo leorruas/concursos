@@ -55,6 +55,8 @@ jobs:
         run: node scripts/test-ingestion-propagation-policy.js
       - name: Testar propagação de simulados concluídos
         run: node scripts/test-simulado-propagation.js
+      - name: Testar identidade e compatibilidade dos artigos
+        run: node scripts/test-article-identity.js
       - name: Testar catálogo de matérias por concurso
         run: node scripts/test-contest-catalog.js
       - name: Testar filtro da grade por concurso

@@ -1,4 +1,6 @@
 ---
+articleId: art-d4eb46e628944cd7
+articleAliases: ["3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas.md"]
 title: "Monitoramento e avaliação de políticas públicas"
 type: "conceito"
 status: "ativo"

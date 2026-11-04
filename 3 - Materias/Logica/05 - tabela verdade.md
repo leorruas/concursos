@@ -1,4 +1,6 @@
 ---
+articleId: art-b3fca2dd9fec4de0
+articleAliases: ["3 - Materias/Logica/05 - tabela verdade.md"]
 title: "Tabela verdade"
 type: "conceito"
 status: "ativo"

@@ -67,7 +67,7 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
 
     artigoAtual = artigo;
     const categoriaOrigem = origem && obterArtigosDaMateria(origem)
-        .some(item => item.sourcePath === artigo.sourcePath) ? origem : artigo.categoria;
+        .some(item => item.sourcePath === artigo.sourcePath) ? origem : (obterProgramaSelecionado() ? "" : artigo.categoria);
     atualizarDestinoIndiceTopo(categoriaOrigem);
     const rotaDestino = rotaDoArtigo(artigo, secao, categoriaOrigem);
     if (atualizarRota && window.location.hash !== rotaDestino) {
@@ -86,12 +86,12 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
     breadcrumbs.innerHTML = `
         <button type="button" class="breadcrumb-link" id="btn-bc-art-home">início</button>
         <span class="breadcrumb-separator">/</span>
-        <button type="button" class="breadcrumb-link" id="btn-bc-art-cat">${limparNomeCategoria(categoriaOrigem)}</button>
+        <button type="button" class="breadcrumb-link" id="btn-bc-art-cat">${categoriaOrigem ? limparNomeCategoria(categoriaOrigem) : "biblioteca"}</button>
         <span class="breadcrumb-separator">/</span>
         <span class="breadcrumb-atual">${tituloNavegacao}</span>
     `;
     document.getElementById("btn-bc-art-home")?.addEventListener("click", () => voltarParaHome(true));
-    document.getElementById("btn-bc-art-cat")?.addEventListener("click", () => abrirDisciplina(categoriaOrigem));
+    document.getElementById("btn-bc-art-cat")?.addEventListener("click", () => categoriaOrigem ? abrirDisciplina(categoriaOrigem) : voltarParaHome(true));
 
     artigoTitulo.textContent = tituloNavegacao;
 
@@ -161,23 +161,33 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
 
     const avisoEscopo = document.getElementById("artigo-contexto");
     if (avisoEscopo) {
-        const noPrograma = obterArtigosDaMateria(categoriaOrigem)
-            .some(item => item.sourcePath === artigo.sourcePath);
+        const programaAtual = obterProgramaSelecionado();
+        const vinculos = programaAtual?.subjects.filter(m => [m.hubSourcePath, ...m.articleSourcePaths].includes(artigo.sourcePath)) || [];
+        const noPrograma = categoriaOrigem ? obterArtigosDaMateria(categoriaOrigem)
+            .some(item => item.sourcePath === artigo.sourcePath) : vinculos.length > 0;
         const foraDoPrograma = !modoBibliotecaCompleta && Boolean(obterProgramaSelecionado()) && !noPrograma;
-        avisoEscopo.hidden = !foraDoPrograma;
+        avisoEscopo.hidden = !foraDoPrograma && (Boolean(categoriaOrigem) || !vinculos.length);
         avisoEscopo.textContent = foraDoPrograma
             ? "Artigo da biblioteca geral: fora da lista de estudo do concurso selecionado."
             : "";
+        if (!categoriaOrigem && vinculos.length) {
+            avisoEscopo.textContent = "Neste concurso: ";
+            vinculos.forEach((m,i) => {
+                if(i) avisoEscopo.append(document.createTextNode(" / "));
+                const link=document.createElement("a"); link.textContent=m.rotulo; link.href=rotaDoArtigo(artigo, secao, m.categoria);
+                link.addEventListener("click", e=>{if(e.ctrlKey||e.metaKey||e.shiftKey)return;e.preventDefault();abrirArtigo(artigo,true,secao,m.categoria);}); avisoEscopo.append(link);
+            });
+        }
     }
 
     renderizarDiagramasMermaid();
     gerarTableOfContents();
     renderizarBotoesNavegacao(artigo, categoriaOrigem);
 
-    btnVoltar.textContent = `← voltar para ${limparNomeCategoria(categoriaOrigem)}`;
-    btnVoltar.onclick = () => abrirDisciplina(categoriaOrigem);
+    btnVoltar.textContent = `← voltar para ${categoriaOrigem ? limparNomeCategoria(categoriaOrigem) : "biblioteca"}`;
+    btnVoltar.onclick = () => categoriaOrigem ? abrirDisciplina(categoriaOrigem) : voltarParaHome(true);
     if (retornoArtigoTexto) {
-        retornoArtigoTexto.innerHTML = `terminou este artigo? <strong>continue pelas outras notas de ${limparNomeCategoria(categoriaOrigem)}.</strong>`;
+        retornoArtigoTexto.innerHTML = `terminou este artigo? <strong>continue pelas outras notas de ${categoriaOrigem ? limparNomeCategoria(categoriaOrigem) : "biblioteca"}.</strong>`;
     }
     if (secao) {
         window.requestAnimationFrame(() => {

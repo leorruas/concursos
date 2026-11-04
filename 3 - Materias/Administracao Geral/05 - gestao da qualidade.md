@@ -1,4 +1,6 @@
 ---
+articleId: art-5e5676b0f9464d17
+articleAliases: ["3 - Materias/Administracao Geral/05 - gestao da qualidade.md"]
 title: "Gestão da qualidade"
 type: "conceito"
 status: "ativo"

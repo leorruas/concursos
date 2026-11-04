@@ -1,4 +1,6 @@
 ---
+articleId: art-7cea3aa409804c07
+articleAliases: ["3 - Materias/Portugues/05 - acordo ortografico.md"]
 title: "Acordo ortográfico"
 type: "conceito"
 status: "ativo"

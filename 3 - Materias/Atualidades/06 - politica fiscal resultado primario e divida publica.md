@@ -1,4 +1,6 @@
 ---
+articleId: art-9be1a39d536a47ea
+articleAliases: ["3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica.md"]
 title: "Política fiscal, resultado primário e dívida pública"
 type: "conceito"
 status: "ativo"

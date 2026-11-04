@@ -1,4 +1,6 @@
 ---
+articleId: art-f1483b1fa6d042c2
+articleAliases: ["3 - Materias/Comunicacao/18 - fact checking e desinformacao.md"]
 title: "Fact-checking e desinformação"
 type: "conceito"
 status: "ativo"

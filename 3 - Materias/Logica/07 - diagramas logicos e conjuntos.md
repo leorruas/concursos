@@ -1,4 +1,6 @@
 ---
+articleId: art-53f0296d95474030
+articleAliases: ["3 - Materias/Logica/07 - diagramas logicos e conjuntos.md"]
 title: "Diagramas lógicos e conjuntos"
 type: "conceito"
 status: "ativo"

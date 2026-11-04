@@ -1,4 +1,6 @@
 ---
+articleId: art-64e3efe8e4884914
+articleAliases: ["3 - Materias/Comunicacao/referencias/Comunicacao publica e democracia.md"]
 title: "Comunicação pública, cidadania e democracia: algumas reflexões"
 type: "conceito"
 status: "ativo"

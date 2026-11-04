@@ -1,4 +1,6 @@
 ---
+articleId: art-4242e8e7b3b744a9
+articleAliases: ["3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas.md"]
 title: "Avaliação de políticas públicas"
 type: "hub"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-d67ecbb2f9204843
+articleAliases: ["3 - Materias/Atualidades/14 - governanca e regulacao de inteligencia artificial.md"]
 title: "Governança e regulação de inteligência artificial"
 type: "conceito"
 status: "ativo"

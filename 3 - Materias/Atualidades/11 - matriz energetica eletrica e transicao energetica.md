@@ -1,4 +1,6 @@
 ---
+articleId: art-057280dd0a704032
+articleAliases: ["3 - Materias/Atualidades/11 - matriz energetica eletrica e transicao energetica.md"]
 title: "Matriz energética, matriz elétrica e transição energética"
 type: "conceito"
 status: "ativo"

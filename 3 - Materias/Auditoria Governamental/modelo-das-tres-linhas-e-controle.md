@@ -1,4 +1,6 @@
 ---
+articleId: art-497828bde2144eed
+articleAliases: ["3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle.md"]
 title: "Modelo das três linhas e sistema de controle"
 type: "conceito"
 status: "ativo"

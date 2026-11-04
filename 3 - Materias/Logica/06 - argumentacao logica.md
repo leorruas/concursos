@@ -1,4 +1,6 @@
 ---
+articleId: art-c943e569e531451f
+articleAliases: ["3 - Materias/Logica/06 - argumentacao logica.md"]
 title: "Argumentação lógica"
 type: "conceito"
 status: "ativo"

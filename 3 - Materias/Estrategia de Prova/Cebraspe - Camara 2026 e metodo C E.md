@@ -1,4 +1,6 @@
 ---
+articleId: art-de96ded5ecdb4c12
+articleAliases: ["3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E.md"]
 title: "Cebraspe: Câmara 2026 e método C/E"
 type: "conceito"
 status: "ativo"

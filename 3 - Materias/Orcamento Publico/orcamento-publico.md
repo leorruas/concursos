@@ -1,4 +1,6 @@
 ---
+articleId: art-61a554a75c574053
+articleAliases: ["3 - Materias/Orcamento Publico/orcamento-publico.md"]
 title: "Orçamento Público"
 type: "hub"
 status: "ativo"

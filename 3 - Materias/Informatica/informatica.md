@@ -1,4 +1,6 @@
 ---
+articleId: art-b60c73bfb6574fe0
+articleAliases: ["3 - Materias/Informatica/informatica.md"]
 title: "Informatica"
 type: "hub"
 status: "ativo"

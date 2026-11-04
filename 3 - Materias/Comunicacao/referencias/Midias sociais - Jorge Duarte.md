@@ -1,4 +1,6 @@
 ---
+articleId: art-3f1f6ae912964410
+articleAliases: ["3 - Materias/Comunicacao/referencias/Midias sociais - Jorge Duarte.md"]
 title: "Uso de mídias sociais na interação com a imprensa"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-bae07e2af7594b72
+articleAliases: ["3 - Materias/Informatica/01 - marco civil da internet.md"]
 title: "Marco Civil da Internet"
 type: "conceito"
 status: "ativo"

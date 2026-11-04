@@ -1,3 +1,4 @@
+import { articleInventory, resolveCatalog } from './article-identity.js';
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
@@ -6,7 +7,7 @@ import { validarCatalogoMaterias } from './contest-catalog.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const carregar = arquivo => JSON.parse(fs.readFileSync(path.join(root, arquivo), 'utf8'));
-const catalogo = carregar('data/catalogo-materias-por-concurso.json');
+const catalogo = resolveCatalog(carregar('data/catalogo-materias-por-concurso.json'), articleInventory(root));
 const concursos = carregar('data/concursos.json');
 const arquivos = [];
 const walk = (dir, prefix = '') => {

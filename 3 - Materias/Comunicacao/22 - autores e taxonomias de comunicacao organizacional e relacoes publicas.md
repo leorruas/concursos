@@ -1,4 +1,6 @@
 ---
+articleId: art-8f680037dea445fa
+articleAliases: ["3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas.md"]
 title: "🆕 Autores e taxonomias de comunicação organizacional e relações públicas"
 type: "mapa"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-e8ba958c8c194bab
+articleAliases: ["3 - Materias/Portugues/09 - tipos e generos textuais.md"]
 title: "🆕 Tipos e gêneros textuais"
 type: "conceito"
 status: "ativo"

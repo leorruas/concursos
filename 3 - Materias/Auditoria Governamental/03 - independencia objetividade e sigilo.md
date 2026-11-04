@@ -1,4 +1,6 @@
 ---
+articleId: art-2fcfb61ee9284dcc
+articleAliases: ["3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo.md"]
 title: "Independência, objetividade, impedimentos e supervisão na auditoria"
 type: "conceito"
 status: "ativo"

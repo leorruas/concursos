@@ -1,4 +1,6 @@
 ---
+articleId: art-2ca37017208841b8
+articleAliases: ["3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md"]
 title: "Transparência, acesso à informação e proteção de dados pessoais"
 type: "conceito"
 status: "ativo"

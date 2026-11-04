@@ -1,4 +1,6 @@
 ---
+articleId: art-5d257022e5a6465f
+articleAliases: ["3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling.md"]
 title: "Lead, pirâmide invertida e storytelling"
 type: "conceito"
 status: "ativo"

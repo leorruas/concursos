@@ -1,4 +1,6 @@
 ---
+articleId: art-98cd849c42bb4294
+articleAliases: ["3 - Materias/Portugues/02 - sujeito.md"]
 title: "🔄 Sujeito e termos da oração"
 type: "conceito"
 status: "ativo"

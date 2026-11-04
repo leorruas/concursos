@@ -10,6 +10,7 @@ const rootDir = path.resolve(__dirname, '..');
 
 const checks = [
   ['Wikilinks em tabelas Markdown', 'scripts/test-wikilinks-tables.js'],
+  ['Identidade e compatibilidade dos artigos', 'scripts/test-article-identity.js'],
   ['Continuidade por matéria', 'scripts/test-study-context.js'],
   ['Catálogo de matérias por concurso', 'scripts/test-contest-catalog.js'],
   ['Filtro da grade por concurso', 'scripts/test-contest-home-filter.js'],

@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { resolveArticleRef } from './article-identity.js';
 // Sessões pequenas são entradas; ledger e blocos marcados são projeções reproduzíveis.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -18,6 +19,7 @@ const slug = x => typeof x === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(x);
 const dateOK = x => typeof x === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(x) && !Number.isNaN(Date.parse(x)) && new Date(x).toISOString().slice(0, 10) === x;
 const text = x => typeof x === 'string' && x.trim().length > 0;
 function safeRef(root, ref) {
+  ref=resolveArticleRef(root,ref);
   assert(text(ref) && ref.includes('#'), `Referência exige subtítulo: ${ref}`);
   const [raw, heading] = ref.split('#');
   assert(raw.startsWith('3 - Materias/') && !raw.includes('..') && !raw.includes('\\') && text(heading), `Referência inválida: ${ref}`);

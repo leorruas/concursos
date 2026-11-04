@@ -1,4 +1,6 @@
 ---
+articleId: art-01fadcd18fd9499b
+articleAliases: ["3 - Materias/Atualidades/referencias/Minds Brains and Programs.md"]
 title: "Minds, Brains, and Programs"
 author: "john searle"
 source: "behavioral and brain sciences"

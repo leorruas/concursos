@@ -1,4 +1,6 @@
 ---
+articleId: art-6a55fcee78be4a39
+articleAliases: ["3 - Materias/Direito Constitucional/05 - direitos politicos.md"]
 title: "Direitos políticos"
 type: "conceito"
 status: "ativo"

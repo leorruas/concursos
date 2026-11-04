@@ -1,4 +1,6 @@
 ---
+articleId: art-9b4bc5f91bab49ae
+articleAliases: ["3 - Materias/Comunicacao/01 - comunicacao organizacional.md"]
 title: "Comunicação organizacional"
 type: "conceito"
 status: "ativo"

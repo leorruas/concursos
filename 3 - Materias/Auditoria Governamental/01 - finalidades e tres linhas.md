@@ -1,4 +1,6 @@
 ---
+articleId: art-10bfa7268f8340bf
+articleAliases: ["3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas.md"]
 title: "Finalidades e modalidades de auditoria governamental"
 type: "conceito"
 status: "ativo"

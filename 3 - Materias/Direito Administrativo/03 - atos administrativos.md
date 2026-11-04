@@ -1,4 +1,6 @@
 ---
+articleId: art-a7703dd0e3fc4618
+articleAliases: ["3 - Materias/Direito Administrativo/03 - atos administrativos.md"]
 title: "Atos administrativos"
 type: "conceito"
 status: "ativo"

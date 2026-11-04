@@ -1,3 +1,8 @@
+---
+articleId: art-eab9c61a54674fce
+articleAliases: ["3 - Materias/Comunicacao/referencias/Assessoria de imprensa - Jorge Duarte.md"]
+---
+
 Assessoria de imprensa: o caso brasileiro Jorge Antonio Menna Duarte"
 
 Resumo O artigo aborda a evolução da atividade de assessoria de imprensa no Brasil e a ocupação, pelos jornalistas, deste mercado, em um processo peculiar, específico do país. Área originalmente relacionada às relações públicas, a assessoria de imprensa é campo profissional principalmente de jornalistas, que têm nela provavelmente o principal mercado de atuação. O artigo aborda também as implicações profissionais e éticas da atuação do jornalista como divulgador de organizações públicas e privadas. Por último, mostra que, com a implantação de programas de comunicação empresarial, o mercado profissional do jornalista está se ampliando e exige comunicadores de visão estratégica e que possam contribuir para a consecução dos objetivos empresariais.

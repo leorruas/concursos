@@ -1,4 +1,6 @@
 ---
+articleId: art-ccdfc14e51494dd1
+articleAliases: ["3 - Materias/Governanca Riscos e Integridade/governanca-riscos-e-integridade.md"]
 title: "Governança, riscos e integridade"
 type: "hub"
 status: "ativo"

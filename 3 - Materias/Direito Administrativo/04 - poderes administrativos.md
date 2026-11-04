@@ -1,4 +1,6 @@
 ---
+articleId: art-b740cbbd05e54a26
+articleAliases: ["3 - Materias/Direito Administrativo/04 - poderes administrativos.md"]
 title: "Poderes administrativos"
 type: "conceito"
 status: "ativo"

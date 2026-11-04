@@ -1,4 +1,6 @@
 ---
+articleId: art-10fc735caeec4e83
+articleAliases: ["3 - Materias/Contratacoes e Transferencias/contratacoes-e-transferencias.md"]
 title: "Contratações e transferências"
 type: "hub"
 status: "ativo"

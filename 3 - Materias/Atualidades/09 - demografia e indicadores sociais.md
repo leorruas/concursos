@@ -1,4 +1,6 @@
 ---
+articleId: art-2abbed45a7b04a21
+articleAliases: ["3 - Materias/Atualidades/09 - demografia e indicadores sociais.md"]
 title: "Demografia e indicadores sociais"
 type: "conceito"
 status: "ativo"

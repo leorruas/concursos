@@ -1,4 +1,6 @@
 ---
+articleId: art-47d19972e3bc4d29
+articleAliases: ["3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md"]
 title: "Ciclo de auditoria interna governamental: planejamento, execução, comunicação e monitoramento"
 type: "conceito"
 status: "ativo"

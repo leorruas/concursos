@@ -1,4 +1,6 @@
 ---
+articleId: art-1accdd2da469401d
+articleAliases: ["3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas.md"]
 title: "Orações coordenadas e subordinadas"
 type: "conceito"
 status: "ativo"

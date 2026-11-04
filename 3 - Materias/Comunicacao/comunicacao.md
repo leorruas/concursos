@@ -1,4 +1,6 @@
 ---
+articleId: art-c5912e71806e4f06
+articleAliases: ["3 - Materias/Comunicacao/comunicacao.md"]
 title: "Comunicação social"
 type: "hub"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-12e2ffc0c1fe4c6f
+articleAliases: ["3 - Materias/Ingles/ingles.md"]
 title: "Língua inglesa"
 type: "hub"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-a6edc965cb9e4eb6
+articleAliases: ["3 - Materias/Direito Constitucional/01 - principios fundamentais.md"]
 title: "Princípios fundamentais"
 type: "conceito"
 status: "ativo"

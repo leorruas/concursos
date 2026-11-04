@@ -1,4 +1,6 @@
 ---
+articleId: art-e090ae9b07314c94
+articleAliases: ["3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas.md"]
 title: "Governança, gestão de riscos e controles internos"
 type: "conceito"
 status: "ativo"

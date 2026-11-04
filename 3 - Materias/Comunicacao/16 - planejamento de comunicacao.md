@@ -1,4 +1,6 @@
 ---
+articleId: art-1739e871ee1a45de
+articleAliases: ["3 - Materias/Comunicacao/16 - planejamento de comunicacao.md"]
 title: "Planejamento de comunicação"
 type: "conceito"
 status: "ativo"

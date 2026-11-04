@@ -139,6 +139,16 @@
       "label": "Lei Complementar nº 101/2000: Lei de Responsabilidade Fiscal",
       "url": "https://legis.senado.leg.br/norma/572856/publicacao/34621009",
       "scope": "LDO, metas fiscais, programação, limitação de empenho, limites e relatórios; conferir alterações e vigência."
+    },
+    "mto2026": {
+      "label": "Manual Técnico de Orçamento, edição 2026",
+      "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+      "scope": "Classificações de receita/despesa e programação; conferir versão aplicável."
+    },
+    "lc210": {
+      "label": "Lei Complementar nº 210/2024: emendas parlamentares",
+      "url": "https://legis.senado.gov.br/norma/39857130/publicacao/39857348",
+      "scope": "Emendas parlamentares na LOA federal, com atos e decisões posteriores a conferir."
     }
   },
   "subjects": [
@@ -1625,6 +1635,9 @@
           "noteRefs": [
             "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario",
             "3 - Materias/Orcamento Publico/02 - ppa ldo e loa",
+            "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais",
+            "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa",
+            "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [],
@@ -1632,7 +1645,9 @@
             "mcasp",
             "constituicao",
             "lei4320",
-            "lrf"
+            "lrf",
+            "mto2026",
+            "lc210"
           ],
           "coverage": "parcial",
           "noteRole": "notas-diretas-parciais-e-base-adjacente"

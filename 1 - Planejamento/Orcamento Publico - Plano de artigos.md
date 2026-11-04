@@ -22,9 +22,9 @@ Os **11 artigos propostos** não são 11 unidades didáticas novas. Eles subdivi
 | :--- | :--- | :--- | :--- |
 | 01 | [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|Orçamento público e ciclo orçamentário]]: conceitos, funções, fases e distinções entre dotação, caixa e entrega | P3.2.2 | **Publicado: entrada, não estudado** |
 | 02 | [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]: finalidade, vigência, três orçamentos, prazos, exclusividade e exceções | P3.2.2 | **Publicado: primeira versão, não estudado** |
-| 03 | Princípios orçamentários e vedações constitucionais: unidade, universalidade, anualidade, orçamento bruto, especificação e exceções | P3.2.2 | Pendente |
-| 04 | Classificações de receita e despesa: natureza, fonte/destinação, esfera, instituição, função, subfunção, programa e ação | P3.2.2 | Pendente |
-| 05 | Créditos adicionais e emendas parlamentares: suplementares, especiais, extraordinários, fontes e limites | P3.2.2 | Pendente |
+| 03 | [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios orçamentários e vedações]]: unidade, universalidade, anualidade, orçamento bruto, especificação e exceções | P3.2.2 | **Publicado: sem estudo registrado** |
+| 04 | [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Classificações de receita e despesa]]: natureza, fonte/destinação, esfera, instituição, função, subfunção, programa e ação | P3.2.2 | **Publicado: sem estudo registrado** |
+| 05 | [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]]: suplementares, especiais, extraordinários, fontes, limites e emendas | P3.2.2 | **Publicado: sem estudo registrado** |
 | 06 | Programação orçamentária e contingenciamento: execução por cotas, metas fiscais, limitação de empenho e desbloqueio | P3.2.2 | Pendente |
 | 07 | Receitas públicas: ingressos orçamentários/extraorçamentários, classificações e estágios | P3.2.3 | Pendente |
 | 08 | Despesa pública: fixação, empenho, liquidação, pagamento, modalidades e documentação | P3.2.3 | Pendente |
@@ -39,7 +39,7 @@ Os **11 artigos propostos** não são 11 unidades didáticas novas. Eles subdivi
 - O **hub** responde “qual artigo abrir, sobre que fronteira e em que ordem?”.
 - Os **artigos canônicos** respondem “qual regra, como aplicar, qual exceção e qual confusão possível?”.
 - `data/planos-estudo/cgu-2026.json` informa **unidade, fontes e referências editoriais** e alimenta os contextos gerados. Atualizar `noteRefs` à medida que novos artigos forem publicados, mantendo `coverage` proporcional à cobertura real.
-- `data/catalogo-materias-por-concurso.json` controla quais artigos aparecem no **filtro da CGU**. Atualizar o vínculo por caminho real em cada lote; notas compartilhadas entre matérias ou concursos devem usar a mesma identidade.
+- `data/catalogo-materias-por-concurso.json` controla quais artigos aparecem no **filtro da CGU**. Atualizar o vínculo por **articleId** em cada lote, conforme catálogo v2; caminhos físicos ficam em aliases e não definem o pertencimento ao concurso. Notas compartilhadas preservam sua identidade.
 - `index.md` e o hub são atualizados **na mesma alteração atômica da criação das notas**, conforme o contrato do repositório.
 - O **estado de aula, diagnóstico, dúvidas, erros, revisões e fechamento editorial** vem de `data/sessoes/` e da projeção em `data/contexto-estudo/`. Planejar ou publicar artigos **não cria sessão** nem marca unidade concluída.
 
@@ -58,4 +58,4 @@ Antes de treinos “para valer”, consultar o [[00 - Desempenho/Provas/CGU 2026
 - MCASP, 11ª edição, **Parte I**, para conceitos orçamentários, conferindo a versão indicada no plano.
 - Guias e materiais explicativos do Senado como apoio didático; a norma e sua vigência prevalecem.
 
-A cobertura atual é **parcial**: dois artigos introdutórios publicados, outros nove previstos. Não há exposição registrada para Orçamento Público no contexto inicial consultado em 04/11/2026.
+A cobertura atual é **parcial**: cinco artigos publicados, outros seis previstos. Não há exposição registrada para Orçamento Público no contexto inicial consultado em 04/11/2026.

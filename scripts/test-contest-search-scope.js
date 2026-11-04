@@ -1,9 +1,10 @@
 import { articleInventory, resolveCatalog } from './article-identity.js';
 import fs from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 
-const catalogo = resolveCatalog(JSON.parse(fs.readFileSync(new URL('../data/catalogo-materias-por-concurso.json', import.meta.url))), articleInventory(new URL('..', import.meta.url).pathname));
+const catalogo = resolveCatalog(JSON.parse(fs.readFileSync(new URL('../data/catalogo-materias-por-concurso.json', import.meta.url))), articleInventory(fileURLToPath(new URL('..', import.meta.url))));
 const codigoBusca = fs.readFileSync(new URL('../web/06-search.js', import.meta.url), 'utf8');
 const contexto = {
     console,

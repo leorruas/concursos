@@ -1,0 +1,2612 @@
+{
+  "version": 1,
+  "updated": "2026-11-04",
+  "exams": [
+    {
+      "id": "cgu-2026",
+      "title": "CGU 2026 · Auditoria",
+      "board": "Cebraspe"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "auditoria-governamental",
+      "title": "Auditoria Governamental"
+    },
+    {
+      "id": "estado-democracia",
+      "title": "Estado e democracia"
+    },
+    {
+      "id": "sociedade-brasileira",
+      "title": "Sociedade brasileira"
+    },
+    {
+      "id": "etica-publica",
+      "title": "Ética pública"
+    },
+    {
+      "id": "administracao-publica",
+      "title": "Administração Pública"
+    },
+    {
+      "id": "governanca-riscos-integridade",
+      "title": "Governança, riscos e integridade"
+    },
+    {
+      "id": "transparencia-ouvidoria",
+      "title": "Transparência e ouvidoria"
+    },
+    {
+      "id": "direito-administrativo",
+      "title": "Direito Administrativo"
+    },
+    {
+      "id": "evidencias-dados-ia",
+      "title": "Evidências, dados e inteligência artificial"
+    },
+    {
+      "id": "financas-publicas",
+      "title": "Finanças Públicas"
+    },
+    {
+      "id": "orcamento-publico",
+      "title": "Orçamento Público"
+    },
+    {
+      "id": "contabilidade-publica",
+      "title": "Contabilidade Pública"
+    },
+    {
+      "id": "politicas-publicas",
+      "title": "Políticas Públicas e avaliação"
+    },
+    {
+      "id": "contratacoes-transferencias",
+      "title": "Contratações e transferências"
+    },
+    {
+      "id": "integridade-responsabilizacao",
+      "title": "Integridade e responsabilização"
+    }
+  ],
+  "cards": [
+    {
+      "id": "ppa",
+      "term": "Plano Plurianual (PPA)",
+      "definition": "Lei que estabelece, de forma regionalizada, diretrizes, objetivos e metas para despesas de capital, as delas decorrentes e programas de duração continuada.",
+      "example": "Planejar a expansão de uma rede de hospitais para vários exercícios.",
+      "confusion": "PPA orienta o médio prazo; a LOA autoriza despesas de cada exercício.",
+      "topic": "Planejamento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "PPA: Plano Plurianual"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 1º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "ldo",
+      "term": "Lei de Diretrizes Orçamentárias (LDO)",
+      "definition": "Lei que estabelece metas e prioridades e orienta a elaboração da LOA, incluindo diretrizes fiscais nos termos constitucionais e legais.",
+      "example": "Definir prioridades para a proposta orçamentária do próximo ano.",
+      "confusion": "A LDO orienta a LOA; não substitui as dotações da LOA.",
+      "topic": "Planejamento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "LDO: Lei de Diretrizes Orçamentárias"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 2º; LRF, art. 4º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "PPA × LDO × LOA: qual é o papel de cada lei?",
+        "answer": "PPA: diretrizes, objetivos e metas de médio prazo. LDO: metas, prioridades e orientação anual. LOA: previsão de receitas e fixação das despesas."
+      }
+    },
+    {
+      "id": "loa",
+      "term": "Lei Orçamentária Anual (LOA)",
+      "definition": "Lei que estima receitas e fixa despesas para um exercício financeiro.",
+      "example": "Autorizar dotação anual para funcionamento de escolas.",
+      "confusion": "Autorização orçamentária não significa caixa disponível nem pagamento realizado.",
+      "topic": "Planejamento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "LOA: Lei Orçamentária Anual"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, §§ 5º e 8º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "dotacao",
+      "term": "Dotação orçamentária",
+      "definition": "Valor autorizado para determinada despesa na LOA ou em crédito adicional.",
+      "example": "A ação de capacitação tem R$ 300 mil autorizados.",
+      "confusion": "Dotação é autorização; caixa é disponibilidade financeira.",
+      "topic": "Execução",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Dotação, empenho, caixa e pagamento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html",
+        "locator": "LRF, arts. 8º e 9º; nota de programação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Dotação × caixa: ter autorização significa ter dinheiro disponível?",
+        "answer": "Não. A dotação autoriza a despesa; o caixa e a programação financeira condicionam o desembolso."
+      }
+    },
+    {
+      "id": "limite-empenho",
+      "term": "Limite de empenho",
+      "definition": "Parcela da dotação que pode ser comprometida conforme a programação e as restrições vigentes.",
+      "example": "Há R$ 1 milhão autorizado, mas limite para empenhar apenas R$ 700 mil.",
+      "confusion": "Limite de empenho não é empenho realizado nem cancelamento automático da dotação.",
+      "topic": "Execução",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Dotação, empenho, caixa e pagamento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html",
+        "locator": "LRF, arts. 8º e 9º; nota de programação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "credito-adicional",
+      "term": "Crédito adicional",
+      "definition": "Autorização de despesa não computada ou insuficientemente dotada na lei orçamentária.",
+      "example": "Reforçar o orçamento de uma ação durante o exercício.",
+      "confusion": "É uma alteração de autorização; não prova arrecadação ou pagamento.",
+      "topic": "Créditos adicionais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 40 e 41; CF, art. 167, § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "suplementar",
+      "term": "Crédito suplementar",
+      "definition": "Crédito adicional destinado a reforçar dotação já existente.",
+      "example": "A manutenção de escolas tem dotação insuficiente e recebe reforço.",
+      "confusion": "Especial atende despesa sem dotação específica.",
+      "topic": "Créditos adicionais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 40 e 41; CF, art. 167, § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Suplementar × especial: qual depende de uma dotação já existente?",
+        "answer": "Suplementar reforça dotação existente. Especial atende despesa sem dotação específica."
+      }
+    },
+    {
+      "id": "especial",
+      "term": "Crédito especial",
+      "definition": "Crédito adicional destinado a despesa sem dotação orçamentária específica.",
+      "example": "Autorizar uma ação não contemplada na LOA.",
+      "confusion": "Ausência de dotação não demonstra urgência e imprevisibilidade.",
+      "topic": "Créditos adicionais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 40 e 41; CF, art. 167, § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "extraordinario",
+      "term": "Crédito extraordinário",
+      "definition": "Crédito para despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública.",
+      "example": "Atender despesa imprevisível e urgente de uma calamidade.",
+      "confusion": "Pressa administrativa ou planejamento deficiente não bastam para caracterizá-lo.",
+      "topic": "Créditos adicionais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 40 e 41; CF, art. 167, § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "superavit-financeiro",
+      "term": "Superávit financeiro",
+      "definition": "Diferença positiva entre ativo financeiro e passivo financeiro, com os ajustes legais, apurada no balanço patrimonial do exercício anterior.",
+      "example": "Saldo financeiro do balanço anterior pode apoiar abertura de crédito, observadas as condições legais.",
+      "confusion": "Não equivale ao resultado primário nem ao mero saldo bancário.",
+      "topic": "Fontes para créditos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Superávit financeiro × excesso de arrecadação"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 43, §§ 2º e 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "excesso-arrecadacao",
+      "term": "Excesso de arrecadação",
+      "definition": "Saldo positivo das diferenças acumuladas entre arrecadação prevista e realizada, considerada a tendência do exercício, nos termos legais.",
+      "example": "A arrecadação realizada supera a previsão e a tendência confirma disponibilidade.",
+      "confusion": "Superávit financeiro vem do balanço anterior; excesso se relaciona à arrecadação do exercício.",
+      "topic": "Fontes para créditos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Superávit financeiro × excesso de arrecadação"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 43, §§ 2º e 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "empenho",
+      "term": "Empenho",
+      "definition": "Ato da autoridade competente que cria para o Estado obrigação de pagamento, pendente ou não de implemento de condição.",
+      "example": "Comprometer crédito para comprar computadores antes da entrega.",
+      "confusion": "Empenhar não comprova entrega nem autoriza confundir o ato com pagamento.",
+      "topic": "Estágios da despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Empenho: reserva e obrigação orçamentária"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 58"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Empenho × liquidação: o que muda?",
+        "answer": "Empenho compromete o crédito por ato competente. Liquidação verifica o direito do credor com base nos títulos e documentos da obrigação."
+      }
+    },
+    {
+      "id": "ordinario",
+      "term": "Empenho ordinário",
+      "definition": "Empenho usado, em regra, para despesa de valor determinado e pagamento de uma só vez.",
+      "example": "Compra de equipamento de valor definido, paga em parcela única.",
+      "confusion": "Global combina valor conhecido e execução parcelada.",
+      "topic": "Espécies de empenho",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Empenho ordinário, global e estimativo"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 60; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "global",
+      "term": "Empenho global",
+      "definition": "Empenho para despesas contratuais e outras de valor determinado sujeitas a parcelamento.",
+      "example": "Contrato de limpeza com valor total conhecido e parcelas mensais.",
+      "confusion": "Parcelamento não significa valor total incerto.",
+      "topic": "Espécies de empenho",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Empenho ordinário, global e estimativo"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 60; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "estimativo",
+      "term": "Empenho estimativo",
+      "definition": "Empenho usado quando não é possível determinar previamente o montante da despesa.",
+      "example": "Conta de energia cujo consumo varia ao longo do exercício.",
+      "confusion": "O critério é incerteza do montante, e não apenas recorrência mensal.",
+      "topic": "Espécies de empenho",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Empenho ordinário, global e estimativo"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 60; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "liquidacao",
+      "term": "Liquidação da despesa",
+      "definition": "Verificação do direito adquirido pelo credor, com base nos títulos e documentos comprobatórios do crédito.",
+      "example": "Conferir entrega, contrato, valor devido e credor antes de pagar.",
+      "confusion": "Uma nota fiscal, sozinha, não comprova que o objeto foi entregue.",
+      "topic": "Estágios da despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Liquidação: verificar o direito do credor"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 63"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "pagamento",
+      "term": "Pagamento da despesa",
+      "definition": "Entrega dos recursos ao credor após regular liquidação e ordem da autoridade competente.",
+      "example": "Transferir ao fornecedor o valor de bens entregues e conferidos.",
+      "confusion": "Liquidação verifica o direito; pagamento realiza a saída financeira.",
+      "topic": "Estágios da despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Pagamento e ordem de pagamento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 62 a 65"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Liquidação × pagamento: conferir o direito do credor é desembolsar?",
+        "answer": "Não. Liquidar é verificar o direito e o valor devido; pagar é efetuar a saída de recursos após a liquidação regular."
+      }
+    },
+    {
+      "id": "previsao",
+      "term": "Previsão da receita",
+      "definition": "Estimativa de quanto se espera arrecadar, usada no planejamento e no orçamento.",
+      "example": "Estimar R$ 10 milhões em arrecadação anual de imposto.",
+      "confusion": "Prever não constitui crédito individual nem comprova recebimento.",
+      "topic": "Estágios da receita",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Previsão, lançamento, arrecadação e recolhimento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 51 a 57; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "lancamento",
+      "term": "Lançamento da receita",
+      "definition": "Ato da repartição competente que verifica a procedência do crédito fiscal, identifica o devedor e inscreve o débito.",
+      "example": "Identificar o contribuinte e o crédito de imposto devido.",
+      "confusion": "Nem toda receita passa por lançamento; ele não comprova pagamento.",
+      "topic": "Estágios da receita",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Previsão, lançamento, arrecadação e recolhimento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 51 a 57; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "arrecadacao",
+      "term": "Arrecadação da receita",
+      "definition": "Recebimento do valor pelo agente arrecadador habilitado.",
+      "example": "O contribuinte paga um tributo ao banco arrecadador.",
+      "confusion": "Recolhimento é a entrega dos valores arrecadados à tesouraria.",
+      "topic": "Estágios da receita",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Previsão, lançamento, arrecadação e recolhimento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 51 a 57; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Arrecadação × recolhimento: qual é a diferença?",
+        "answer": "Arrecadação: recebimento pelo agente arrecadador. Recolhimento: transferência do produto arrecadado à unidade de tesouraria."
+      }
+    },
+    {
+      "id": "recolhimento",
+      "term": "Recolhimento da receita",
+      "definition": "Transferência dos valores arrecadados à unidade de tesouraria, observada a unidade de caixa.",
+      "example": "O banco transfere ao Tesouro o produto dos tributos recebidos.",
+      "confusion": "A proximidade temporal não elimina a diferença em relação à arrecadação.",
+      "topic": "Estágios da receita",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Previsão, lançamento, arrecadação e recolhimento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 51 a 57; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "receita-orcamentaria",
+      "term": "Receita orçamentária",
+      "definition": "Ingresso classificado como receita na execução do orçamento, inclusive quando arrecadado sem previsão inicial.",
+      "example": "Arrecadação de tributo ou ingresso de empréstimo comum.",
+      "confusion": "Receita orçamentária não é sinônimo de aumento do patrimônio líquido.",
+      "topic": "Ingressos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Receita orçamentária × ingresso extraorçamentário"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 3º e 57; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "ingresso-extra",
+      "term": "Ingresso extraorçamentário",
+      "definition": "Entrada temporária ou compensatória que não integra a receita orçamentária e geralmente gera obrigação de devolução ou repasse.",
+      "example": "Caução em dinheiro recebida de contratado.",
+      "confusion": "Entrar no caixa não basta para ser receita orçamentária.",
+      "topic": "Ingressos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Receita orçamentária × ingresso extraorçamentário"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 3º e 57; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "aro",
+      "term": "Operação de Crédito por Antecipação de Receita Orçamentária (ARO)",
+      "definition": "Operação para atender insuficiência temporária de caixa, tratada como ingresso extraorçamentário.",
+      "example": "Antecipar recursos enquanto se aguarda a arrecadação do exercício.",
+      "confusion": "Operação de crédito comum é, em regra, receita orçamentária de capital.",
+      "topic": "Ingressos",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Operações de crédito × antecipação de receita (ARO)"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 3º, parágrafo único; LRF, art. 38"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "restos-pagar",
+      "term": "Restos a pagar (RP)",
+      "definition": "Despesas empenhadas e não pagas até 31 de dezembro, distinguindo-se processadas e não processadas.",
+      "example": "Compra empenhada em dezembro com pagamento pendente no encerramento.",
+      "confusion": "Ambas as espécies pressupõem empenho.",
+      "topic": "Encerramento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e4e79c7f4bb4aa3",
+        "section": "Restos a pagar: condição e espécie"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 36; MCASP, Parte I, 4.7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "rp-processados",
+      "term": "Restos a pagar processados",
+      "definition": "Despesas empenhadas e já liquidadas, mas não pagas até o encerramento do exercício.",
+      "example": "Equipamento entregue e liquidado em dezembro, com pagamento em janeiro.",
+      "confusion": "O direito do credor já foi verificado.",
+      "topic": "Encerramento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e4e79c7f4bb4aa3",
+        "section": "Restos a pagar: condição e espécie"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 36; MCASP, Parte I, 4.7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "RP processados × não processados: qual estágio os separa?",
+        "answer": "A liquidação. Ambos foram empenhados e ainda não pagos; processados já foram liquidados, não processados ainda não."
+      }
+    },
+    {
+      "id": "rp-nao-processados",
+      "term": "Restos a pagar não processados",
+      "definition": "Despesas empenhadas e não pagas até o encerramento cuja liquidação ainda não foi concluída.",
+      "example": "Compra empenhada cuja entrega ainda não ocorreu em 31 de dezembro.",
+      "confusion": "Não processado não significa ausência de empenho.",
+      "topic": "Encerramento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e4e79c7f4bb4aa3",
+        "section": "Restos a pagar: condição e espécie"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 36; MCASP, Parte I, 4.7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "dea",
+      "term": "Despesas de Exercícios Anteriores (DEA)",
+      "definition": "Despesas relativas a exercícios encerrados, enquadradas nas hipóteses legais, pagas com dotação específica do orçamento atual.",
+      "example": "Compromisso de exercício encerrado reconhecido depois, enquadrado no art. 37.",
+      "confusion": "RP mantém o empenho anterior; DEA usa dotação atual nas hipóteses do art. 37.",
+      "topic": "Encerramento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e4e79c7f4bb4aa3",
+        "section": "Despesas de Exercícios Anteriores (DEA): art. 37"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 37"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "RP × DEA: qual usa dotação do orçamento atual?",
+        "answer": "DEA usa dotação específica atual, nas hipóteses legais. RP dá continuidade à despesa empenhada no exercício de origem."
+      }
+    },
+    {
+      "id": "suprimento",
+      "term": "Suprimento de fundos",
+      "definition": "Adiantamento a servidor, precedido de empenho em dotação própria, para despesas que não possam seguir o processamento normal.",
+      "example": "Servidor recebe adiantamento para pequena despesa excepcional, com posterior comprovação.",
+      "confusion": "Excepcionalidade não dispensa empenho nem prestação de contas.",
+      "topic": "Execução excepcional",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e4e79c7f4bb4aa3",
+        "section": "Suprimento de fundos: adiantamento excepcional"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 68 e 69"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "desembolso-extra",
+      "term": "Desembolso extraorçamentário",
+      "definition": "Saída financeira que não corresponde a nova despesa orçamentária do exercício do pagamento.",
+      "example": "Pagamento de RP relativo a empenho do ano anterior.",
+      "confusion": "O RP teve origem orçamentária; seu pagamento não é um novo empenho do ano atual.",
+      "topic": "Ótica financeira",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-6e4e79c7f4bb4aa3",
+        "section": "Pagamento no exercício seguinte"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I, restos a pagar"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "programacao-financeira",
+      "term": "Programação financeira",
+      "definition": "Organização da execução financeira segundo o fluxo de receitas, a disponibilidade de recursos e as obrigações a pagar.",
+      "example": "Ajustar o ritmo de pagamentos dos órgãos às entradas previstas.",
+      "confusion": "É atividade normal de execução, mesmo sem frustração de arrecadação.",
+      "topic": "Programação",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Programação financeira: art. 8º da LRF"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html",
+        "locator": "LRF, arts. 8º e 13"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "cronograma",
+      "term": "Cronograma de execução mensal de desembolso",
+      "definition": "Instrumento que organiza o ritmo mensal das saídas financeiras previstas na execução orçamentária.",
+      "example": "Distribuir os pagamentos previstos ao longo dos meses.",
+      "confusion": "É mensal e trata de saídas; metas de arrecadação são bimestrais.",
+      "topic": "Programação",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Programação financeira: art. 8º da LRF"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html",
+        "locator": "LRF, arts. 8º e 13"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "contingenciamento",
+      "term": "Contingenciamento",
+      "definition": "Limitação de empenho e movimentação financeira diante de risco ao cumprimento das metas fiscais, conforme art. 9º da LRF.",
+      "example": "A arrecadação indica risco à meta e são editados atos de limitação.",
+      "confusion": "Limitar empenho não anula automaticamente a dotação.",
+      "topic": "Programação",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html",
+        "locator": "LRF, art. 9º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Contingenciamento × anulação de dotação: produzem o mesmo efeito?",
+        "answer": "Não. Contingenciamento restringe a execução; anulação reduz a autorização orçamentária."
+      }
+    },
+    {
+      "id": "unidade",
+      "term": "Princípio da unidade orçamentária",
+      "definition": "Orienta a integração das peças orçamentárias de um mesmo ente em um sistema coerente.",
+      "example": "A LOA federal integra três orçamentos previstos na Constituição.",
+      "confusion": "Não exige eliminar a separação informacional entre fiscal, seguridade e investimento.",
+      "topic": "Princípios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Unidade, universalidade e anualidade"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 2º e 34"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "universalidade",
+      "term": "Princípio da universalidade",
+      "definition": "Exige a inclusão das receitas e despesas abrangidas pela lei orçamentária, conforme as regras aplicáveis.",
+      "example": "Receitas e despesas dos órgãos são evidenciadas no orçamento.",
+      "confusion": "A abrangência não transforma cauções temporárias em receita orçamentária.",
+      "topic": "Princípios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Unidade, universalidade e anualidade"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 2º e 34"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "anualidade",
+      "term": "Princípio da anualidade",
+      "definition": "A autorização orçamentária tem como referência um exercício financeiro, que coincide com o ano civil.",
+      "example": "A LOA de um ano autoriza a programação daquele exercício.",
+      "confusion": "Ações podem durar vários anos; cada exercício tem autorização própria.",
+      "topic": "Princípios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Unidade, universalidade e anualidade"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 2º e 34"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "orcamento-bruto",
+      "term": "Princípio do orçamento bruto",
+      "definition": "Receitas e despesas devem constar pelos valores totais, sem deduções que ocultem os fluxos.",
+      "example": "Evidenciar a receita total e, separadamente, a transferência devida a outro ente.",
+      "confusion": "Universalidade trata da inclusão; orçamento bruto trata da apresentação pelos totais.",
+      "topic": "Princípios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Orçamento bruto e especificação"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 5º e 6º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "especificacao",
+      "term": "Princípio da especificação",
+      "definition": "Orienta discriminar a despesa, evitando dotações globais indiferenciadas, ressalvadas as hipóteses legais.",
+      "example": "Separar dotações por objetos e finalidades em vez de um valor indistinto para qualquer gasto.",
+      "confusion": "Não se confunde com anualidade ou exclusividade.",
+      "topic": "Princípios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Orçamento bruto e especificação"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 5º e 6º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "exclusividade",
+      "term": "Princípio da exclusividade",
+      "definition": "A LOA não deve conter matéria estranha à previsão de receita e à fixação de despesa, com as exceções constitucionais.",
+      "example": "Autorizar crédito suplementar na LOA é uma exceção expressa.",
+      "confusion": "A exceção para suplementares não se estende automaticamente a créditos especiais.",
+      "topic": "Princípios",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Exclusividade e suas duas exceções constitucionais"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 8º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "receitas-correntes",
+      "term": "Receitas correntes",
+      "definition": "Categoria econômica que inclui tributos, contribuições, receitas patrimoniais, serviços e transferências destinadas a despesas correntes, entre outras.",
+      "example": "Arrecadação de imposto e receita de aluguel de imóvel público.",
+      "confusion": "Corrente não é sinônimo de primária.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Receita: categoria econômica e natureza"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 11"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "receitas-capital",
+      "term": "Receitas de capital",
+      "definition": "Categoria que inclui operações de crédito, alienações de bens, amortização de empréstimos concedidos e transferências de capital.",
+      "example": "Venda de imóvel público ou ingresso de empréstimo comum.",
+      "confusion": "Receita de capital não é necessariamente aumento do patrimônio líquido.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Receita: categoria econômica e natureza"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 11"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "alienacao",
+      "term": "Alienação de bens",
+      "definition": "Receita obtida com a venda de bens ou direitos do patrimônio público, classificada como receita de capital.",
+      "example": "O ente vende um terreno e recebe o preço.",
+      "confusion": "Alugar um imóvel gera receita patrimonial corrente; vendê-lo gera receita de alienação.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Vocabulário das origens da receita: o que efetivamente entra no caixa?"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 11; nota de classificações"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "amortizacao-emprestimo",
+      "term": "Amortização de empréstimos concedidos",
+      "definition": "Recebimento do principal de empréstimos que o ente havia concedido.",
+      "example": "O município recebe de volta parte do principal emprestado.",
+      "confusion": "É receita para o credor; pagar principal da própria dívida é despesa para o devedor.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Vocabulário das origens da receita: o que efetivamente entra no caixa?"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 11; nota de classificações"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "institucional",
+      "term": "Classificação institucional da despesa",
+      "definition": "Identifica quem é responsável pela programação orçamentária, por órgão e unidade orçamentária.",
+      "example": "Identificar o ministério e a unidade que recebem a dotação.",
+      "confusion": "Quem é institucional; em qual área é funcional.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação institucional: órgão × unidade orçamentária"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I; MTO 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "funcional",
+      "term": "Classificação funcional da despesa",
+      "definition": "Agrupa a despesa por área de atuação governamental, em função e subfunção.",
+      "example": "Classificar a despesa na área Saúde.",
+      "confusion": "Não identifica o órgão responsável nem o objeto comprado.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação funcional: função × subfunção"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I; MTO 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "projeto",
+      "term": "Projeto orçamentário",
+      "definition": "Ação delimitada no tempo que contribui para expandir ou aperfeiçoar a atuação governamental.",
+      "example": "Construção de uma escola.",
+      "confusion": "Atividade é contínua; tipo de ação não determina sozinho a natureza da despesa.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação programática: programa × ação × subtítulo"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I; MTO 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "atividade",
+      "term": "Atividade orçamentária",
+      "definition": "Ação contínua e permanente destinada à manutenção da atuação governamental.",
+      "example": "Funcionamento regular de escolas.",
+      "confusion": "Projeto tem duração delimitada.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação programática: programa × ação × subtítulo"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I; MTO 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Projeto × atividade: construir e manter uma escola são o mesmo tipo de ação?",
+        "answer": "Construir a escola exemplifica projeto; manter seu funcionamento exemplifica atividade."
+      }
+    },
+    {
+      "id": "operacao-especial",
+      "term": "Operação especial",
+      "definition": "Ação cujas despesas não geram diretamente bem ou serviço típico da ação produtiva estatal.",
+      "example": "Programação de serviço da dívida.",
+      "confusion": "Não significa uma operação de crédito nem uma emergência.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação programática: programa × ação × subtítulo"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I; MTO 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "gnd",
+      "term": "Grupo de Natureza de Despesa (GND)",
+      "definition": "Agrupamento econômico da despesa por características comuns do gasto, como pessoal, juros, investimentos ou amortização da dívida.",
+      "example": "Equipamento pode integrar o GND Investimentos.",
+      "confusion": "GND não é elemento de despesa.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I; Lei nº 4.320/1964, art. 12"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "elemento",
+      "term": "Elemento de despesa",
+      "definition": "Nível da natureza da despesa que identifica o objeto do gasto.",
+      "example": "Equipamentos e material permanente identifica o objeto adquirido.",
+      "confusion": "Modalidade de aplicação indica a forma de aplicação ou transferência, não o objeto.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I; Lei nº 4.320/1964, art. 12"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "amortizacao-divida",
+      "term": "Amortização da dívida",
+      "definition": "Despesa com redução do principal da dívida pública, classificada como despesa de capital.",
+      "example": "Pagar uma parcela do principal de financiamento.",
+      "confusion": "Juros e encargos são despesas correntes; amortização do principal é de capital.",
+      "topic": "Classificações",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I; Lei nº 4.320/1964, art. 12"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "ativo",
+      "term": "Ativo",
+      "definition": "Recurso controlado no presente pela entidade, resultante de evento passado, com potencial de serviços ou de benefícios econômicos.",
+      "example": "Escola pública controlada pelo ente presta serviços à população.",
+      "confusion": "Ativo não exige gerar lucro nem se resume a dinheiro.",
+      "topic": "Fundamentos patrimoniais",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3a7092089cf44cce",
+        "section": "Fronteiras prioritárias"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "passivo",
+      "term": "Passivo",
+      "definition": "Obrigação presente, derivada de evento passado, cuja extinção deve resultar em saída de recursos da entidade.",
+      "example": "Obrigação de pagar fornecedor por bens já recebidos.",
+      "confusion": "Planejar uma compra futura não constitui, sozinho, obrigação presente.",
+      "topic": "Fundamentos patrimoniais",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3a7092089cf44cce",
+        "section": "Fronteiras prioritárias"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "patrimonio-liquido",
+      "term": "Patrimônio líquido",
+      "definition": "Interesse residual nos ativos após deduzidos todos os passivos.",
+      "example": "Ativos de 100 e passivos de 40 resultam em patrimônio líquido de 60.",
+      "confusion": "Não é o saldo disponível na conta bancária.",
+      "topic": "Fundamentos patrimoniais",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3a7092089cf44cce",
+        "section": "Fronteiras prioritárias"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "vpa",
+      "term": "Variação Patrimonial Aumentativa (VPA)",
+      "definition": "Aumento da situação patrimonial líquida que não decorre de contribuição dos proprietários.",
+      "example": "Reconhecimento de doação de bem sem obrigação associada, atendidos os critérios de reconhecimento.",
+      "confusion": "Ingresso de empréstimo aumenta caixa e passivo; não gera VPA por si só.",
+      "topic": "Fundamentos patrimoniais",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3a7092089cf44cce",
+        "section": "Fronteiras prioritárias"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "VPA × VPD: qual é o efeito sobre a situação patrimonial líquida?",
+        "answer": "VPA aumenta e VPD diminui a situação patrimonial líquida, excluídas contribuições e distribuições aos proprietários."
+      }
+    },
+    {
+      "id": "vpd",
+      "term": "Variação Patrimonial Diminutiva (VPD)",
+      "definition": "Diminuição da situação patrimonial líquida que não decorre de distribuição aos proprietários.",
+      "example": "Consumo de material de almoxarifado na prestação de serviço.",
+      "confusion": "Comprar e estocar material não é o mesmo que consumi-lo.",
+      "topic": "Fundamentos patrimoniais",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3a7092089cf44cce",
+        "section": "Fronteiras prioritárias"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "competencia",
+      "term": "Regime de competência patrimonial",
+      "definition": "Reconhecimento dos efeitos de transações e eventos quando ocorrem, independentemente do momento de receber ou pagar dinheiro.",
+      "example": "Reconhecer serviço consumido em dezembro mesmo que seja pago em janeiro.",
+      "confusion": "O enfoque patrimonial não se confunde com o pertencimento orçamentário do art. 35.",
+      "topic": "Fundamentos patrimoniais",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3a7092089cf44cce",
+        "section": "Fronteiras prioritárias"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "dvp",
+      "term": "Demonstração das Variações Patrimoniais (DVP)",
+      "definition": "Demonstração que evidencia alterações patrimoniais e apura o resultado patrimonial do período.",
+      "example": "Confrontar VPA e VPD para apurar o resultado patrimonial.",
+      "confusion": "Resultado patrimonial não é superávit financeiro nem saldo orçamentário.",
+      "topic": "Fundamentos patrimoniais",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-3a7092089cf44cce",
+        "section": "Fronteiras prioritárias"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "divida-consolidada",
+      "term": "Dívida pública consolidada ou fundada",
+      "definition": "Montante das obrigações financeiras do ente assumidas nos termos do art. 29 da LRF, com amortização em prazo superior a 12 meses, além das inclusões legais.",
+      "example": "Financiamento público de longo prazo integra o estoque da dívida consolidada.",
+      "confusion": "Serviço da dívida é o fluxo de pagamentos; dívida consolidada é um estoque. Há inclusões legais mesmo com prazo inferior a 12 meses.",
+      "topic": "Dívida pública",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-91ab320cdfb64b8a",
+        "section": "Planejamento fiscal: PPA, LDO, LOA e LRF"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html",
+        "locator": "LRF, art. 29, I e § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "controle-preventivo",
+      "term": "Controle preventivo",
+      "definition": "Controle concebido para reduzir a ocorrência de um evento indesejado antes que ele aconteça.",
+      "example": "Validar documentos antes de autorizar um pagamento.",
+      "confusion": "Detectivo identifica eventos que já ocorreram.",
+      "topic": "Controles internos",
+      "subjectIds": [
+        "auditoria-governamental",
+        "governanca-riscos-integridade"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.5",
+        "P2.1"
+      ],
+      "note": {
+        "articleId": "art-e090ae9b07314c94",
+        "section": "Estrutura interna: cinco componentes dos controles internos (art. 11)"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/auditoria-e-fiscalizacao/in-conjunta-mp-cgu-no-01-2016",
+        "locator": "IN Conjunta MP/CGU nº 1/2016, art. 11 e nota explicativa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Controle preventivo × detectivo: em que momento atuam?",
+        "answer": "Preventivo procura reduzir a ocorrência; detectivo identifica o evento já ocorrido."
+      }
+    },
+    {
+      "id": "controle-detectivo",
+      "term": "Controle detectivo",
+      "definition": "Controle destinado a identificar eventos indesejados já ocorridos.",
+      "example": "Conciliação posterior identifica pagamentos duplicados.",
+      "confusion": "Usar o achado para prevenir recorrência não muda a natureza detectiva da conciliação.",
+      "topic": "Controles internos",
+      "subjectIds": [
+        "auditoria-governamental",
+        "governanca-riscos-integridade"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.5",
+        "P2.1"
+      ],
+      "note": {
+        "articleId": "art-e090ae9b07314c94",
+        "section": "Estrutura interna: cinco componentes dos controles internos (art. 11)"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/auditoria-e-fiscalizacao/in-conjunta-mp-cgu-no-01-2016",
+        "locator": "IN Conjunta MP/CGU nº 1/2016, art. 11 e nota explicativa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "desenho-controle",
+      "term": "Desenho do controle",
+      "definition": "Adequação do procedimento previsto para enfrentar o risco identificado.",
+      "example": "Avaliar se a validação planejada consegue detectar duplicidades.",
+      "confusion": "Um controle adequado no papel pode não ser executado.",
+      "topic": "Controles internos",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.5"
+      ],
+      "note": {
+        "articleId": "art-e090ae9b07314c94",
+        "section": "Estrutura interna: cinco componentes dos controles internos (art. 11)"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/auditoria-e-fiscalizacao/in-conjunta-mp-cgu-no-01-2016",
+        "locator": "IN Conjunta MP/CGU nº 1/2016, art. 11 e nota explicativa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "operacao-controle",
+      "term": "Funcionamento operacional do controle",
+      "definition": "Execução efetiva e consistente do procedimento de controle previsto.",
+      "example": "Conferir se a validação obrigatória foi realmente realizada nos pagamentos.",
+      "confusion": "Execução consistente não compensa necessariamente um desenho inadequado.",
+      "topic": "Controles internos",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.5"
+      ],
+      "note": {
+        "articleId": "art-e090ae9b07314c94",
+        "section": "Estrutura interna: cinco componentes dos controles internos (art. 11)"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/auditoria-e-fiscalizacao/in-conjunta-mp-cgu-no-01-2016",
+        "locator": "IN Conjunta MP/CGU nº 1/2016, art. 11 e nota explicativa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "resposta-risco",
+      "term": "Resposta a risco",
+      "definition": "Decisão de evitar, transferir, aceitar ou tratar o risco, segundo objetivos e limites da organização.",
+      "example": "Decidir tratar o risco de pagamento indevido.",
+      "confusion": "A decisão de tratar é resposta; a validação concreta é atividade de controle.",
+      "topic": "Gestão de riscos",
+      "subjectIds": [
+        "auditoria-governamental",
+        "governanca-riscos-integridade"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.5",
+        "P2.1"
+      ],
+      "note": {
+        "articleId": "art-e090ae9b07314c94",
+        "section": "Estrutura interna: oito componentes da gestão de riscos (art. 16)"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/auditoria-e-fiscalizacao/in-conjunta-mp-cgu-no-01-2016",
+        "locator": "IN Conjunta MP/CGU nº 1/2016, art. 16"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "aceitacao-risco",
+      "term": "Aceitação de risco",
+      "definition": "Decisão informada de conviver com uma exposição dentro dos limites adotados, mantendo monitoramento.",
+      "example": "Aceitar exposição residual baixa e revisá-la periodicamente.",
+      "confusion": "Aceitar não significa abandonar o acompanhamento.",
+      "topic": "Gestão de riscos",
+      "subjectIds": [
+        "auditoria-governamental",
+        "governanca-riscos-integridade"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.5",
+        "P2.1"
+      ],
+      "note": {
+        "articleId": "art-e090ae9b07314c94",
+        "section": "Estrutura interna: oito componentes da gestão de riscos (art. 16)"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/auditoria-e-fiscalizacao/in-conjunta-mp-cgu-no-01-2016",
+        "locator": "IN Conjunta MP/CGU nº 1/2016, art. 16"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "monitoramento",
+      "term": "Monitoramento de políticas públicas",
+      "definition": "Acompanhamento sistemático ou periódico de indicadores para observar a execução, identificar desvios e apoiar decisões.",
+      "example": "Acompanhar mensalmente alunos transportados e frequência escolar.",
+      "confusion": "Acompanhar indicador de resultado não comprova impacto causal.",
+      "topic": "Avaliação e desempenho",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Monitoramento: perguntas, indicadores e uso"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Guia de Análise Ex Post, 2018; Manual de Auditoria Operacional/TCU, 2020, seção 1.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "avaliacao",
+      "term": "Avaliação de políticas públicas",
+      "definition": "Exame estruturado de uma intervenção, com perguntas e métodos adequados ao desenho, implementação, resultados ou outros aspectos.",
+      "example": "Investigar por que um programa não alcança o público pretendido.",
+      "confusion": "A pergunta e o método distinguem a avaliação do acompanhamento rotineiro.",
+      "topic": "Avaliação e desempenho",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Avaliação: objeto, pergunta e método"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Guia de Análise Ex Post, 2018; Manual de Auditoria Operacional/TCU, 2020, seção 1.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "contrafactual",
+      "term": "Contrafactual",
+      "definition": "Situação que ocorreria com a população analisada na ausência da intervenção.",
+      "example": "Estimar como evoluiria a evasão escolar sem o programa.",
+      "confusion": "Comparar antes e depois, sozinho, não isola o efeito da política.",
+      "topic": "Avaliação e desempenho",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Mudança observada, efeito causal e contrafactual"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Guia de Análise Ex Post, 2018; Manual de Auditoria Operacional/TCU, 2020, seção 1.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "eficacia",
+      "term": "Eficácia",
+      "definition": "Grau de alcance das metas e objetivos imediatos programados, independentemente dos custos empregados.",
+      "example": "Transportar os 500 alunos previstos na meta.",
+      "confusion": "Cumprir meta não prova eficiência nem efeito causal.",
+      "topic": "Avaliação e desempenho",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Eficácia: alcance das metas"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Guia de Análise Ex Post, 2018; Manual de Auditoria Operacional/TCU, 2020, seção 1.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "eficiencia",
+      "term": "Eficiência",
+      "definition": "Relação entre produtos entregues e recursos consumidos, preservados os padrões de qualidade.",
+      "example": "Transportar a mesma quantidade de alunos com menos recursos e qualidade equivalente.",
+      "confusion": "Gastar menos com perda de qualidade não demonstra eficiência.",
+      "topic": "Avaliação e desempenho",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Eficiência: relação entre insumos e produtos"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Guia de Análise Ex Post, 2018; Manual de Auditoria Operacional/TCU, 2020, seção 1.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Eficiência × eficácia: atingir a meta significa usar bem os recursos?",
+        "answer": "Não necessariamente. Eficácia avalia alcance da meta; eficiência relaciona recursos e produtos com qualidade preservada."
+      }
+    },
+    {
+      "id": "efetividade",
+      "term": "Efetividade",
+      "definition": "Alcance de efeitos finalísticos da intervenção sobre a situação que se pretende transformar.",
+      "example": "Examinar a redução sustentada da evasão escolar.",
+      "confusion": "Entregar transporte é produto; melhorar a situação educacional é efeito finalístico.",
+      "topic": "Avaliação e desempenho",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Efetividade: alcance dos efeitos finalísticos"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Guia de Análise Ex Post, 2018; Manual de Auditoria Operacional/TCU, 2020, seção 1.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "equidade",
+      "term": "Equidade",
+      "definition": "Dimensão que examina a distribuição de acesso e benefícios segundo necessidades e condições dos grupos.",
+      "example": "Priorizar transporte para estudantes com maiores barreiras de acesso.",
+      "confusion": "Distribuir quantidades iguais não garante equidade diante de necessidades diferentes.",
+      "topic": "Avaliação e desempenho",
+      "subjectIds": [
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Equidade: distribuição segundo necessidades e condições"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Guia de Análise Ex Post, 2018; Manual de Auditoria Operacional/TCU, 2020, seção 1.3"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "conflito-interesses",
+      "term": "Conflito de interesses",
+      "definition": "Confronto entre interesses públicos e privados capaz de comprometer o interesse coletivo ou influenciar indevidamente a função pública.",
+      "example": "Servidor presta serviço a empresa interessada em decisão que ele prepara.",
+      "confusion": "Não depende de dano ao patrimônio público ou ganho consumado.",
+      "topic": "Prevenção de conflitos",
+      "subjectIds": [
+        "etica-publica",
+        "integridade-responsabilizacao"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.3",
+        "P3.5"
+      ],
+      "note": {
+        "articleId": "art-2d79b55e1c2b4a9f",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12813-16-maio-2013-776005-normaatualizada-pl.html",
+        "locator": "Lei nº 12.813/2013, arts. 3º e 4º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "informacao-privilegiada",
+      "term": "Informação privilegiada",
+      "definition": "Informação sigilosa ou relevante ao processo decisório no Executivo federal, com repercussão econômica ou financeira e sem amplo conhecimento público.",
+      "example": "Conhecer previamente decisão econômica ainda restrita que pode beneficiar uma empresa.",
+      "confusion": "Nem toda informação interna atende à definição da Lei nº 12.813/2013.",
+      "topic": "Prevenção de conflitos",
+      "subjectIds": [
+        "etica-publica",
+        "integridade-responsabilizacao"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.3",
+        "P3.5"
+      ],
+      "note": {
+        "articleId": "art-2d79b55e1c2b4a9f",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2013/lei-12813-16-maio-2013-776005-normaatualizada-pl.html",
+        "locator": "Lei nº 12.813/2013, arts. 3º e 4º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "transparencia-ativa",
+      "term": "Transparência ativa",
+      "definition": "Divulgação de informações de interesse coletivo ou geral pelo órgão, independentemente de pedido.",
+      "example": "Publicar contratos e despesas em portal institucional.",
+      "confusion": "Transparência passiva responde a uma solicitação.",
+      "topic": "Acesso à informação",
+      "subjectIds": [
+        "transparencia-ouvidoria"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.2"
+      ],
+      "note": {
+        "articleId": "art-2ca37017208841b8",
+        "section": "Transparência ativa"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+        "locator": "Lei nº 12.527/2011, arts. 3º, 8º e 10; nota de transparência"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Transparência ativa × passiva: o que distingue as duas?",
+        "answer": "Ativa é divulgação sem solicitação; passiva é resposta a um pedido de acesso."
+      }
+    },
+    {
+      "id": "transparencia-passiva",
+      "term": "Transparência passiva",
+      "definition": "Fornecimento de informação pelo poder público em resposta a uma solicitação.",
+      "example": "Responder a pedido de cópia de contrato apresentado por cidadão.",
+      "confusion": "Divulgação espontânea no portal é ativa.",
+      "topic": "Acesso à informação",
+      "subjectIds": [
+        "transparencia-ouvidoria"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.2"
+      ],
+      "note": {
+        "articleId": "art-2ca37017208841b8",
+        "section": "Transparência passiva"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+        "locator": "Lei nº 12.527/2011, arts. 3º, 8º e 10; nota de transparência"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "accountability",
+      "term": "Accountability",
+      "definition": "Prestação de contas, justificação de decisões e sujeição ao escrutínio e à eventual responsabilização.",
+      "example": "Gestor apresenta resultados, explica decisões e responde pelos atos.",
+      "confusion": "Publicar dados, por si só, não esgota a prestação de contas.",
+      "topic": "Acesso à informação",
+      "subjectIds": [
+        "transparencia-ouvidoria"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.2"
+      ],
+      "note": {
+        "articleId": "art-2ca37017208841b8",
+        "section": "Transparência, prestação de contas e participação"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+        "locator": "Lei nº 12.527/2011, arts. 3º, 8º e 10; nota de transparência"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "dado-pessoal",
+      "term": "Dado pessoal",
+      "definition": "Informação relacionada a pessoa natural identificada ou identificável.",
+      "example": "Matrícula de servidor vinculável a uma pessoa.",
+      "confusion": "Dado de pessoa jurídica não se torna pessoal apenas por constar em cadastro.",
+      "topic": "Proteção de dados",
+      "subjectIds": [
+        "transparencia-ouvidoria"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.2"
+      ],
+      "note": {
+        "articleId": "art-2ca37017208841b8",
+        "section": "Dado pessoal"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "locator": "Lei nº 13.709/2018, art. 5º, I e II"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "dado-sensivel",
+      "term": "Dado pessoal sensível",
+      "definition": "Dado pessoal sobre origem racial ou étnica, religião, opinião política, filiações previstas na lei, saúde, vida sexual, genética ou biometria vinculada a pessoa natural.",
+      "example": "Informação de saúde de servidor identificável.",
+      "confusion": "Dado sensível não é sinônimo de toda informação confidencial.",
+      "topic": "Proteção de dados",
+      "subjectIds": [
+        "transparencia-ouvidoria"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.2"
+      ],
+      "note": {
+        "articleId": "art-2ca37017208841b8",
+        "section": "Dado pessoal sensível"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "locator": "Lei nº 13.709/2018, art. 5º, I e II"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "motivo",
+      "term": "Motivo do ato administrativo",
+      "definition": "Pressupostos de fato e de direito que fundamentam a prática do ato.",
+      "example": "Infração constatada e norma que autoriza a sanção.",
+      "confusion": "Motivação é a exposição dos fundamentos.",
+      "topic": "Atos administrativos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.3"
+      ],
+      "note": {
+        "articleId": "art-a7703dd0e3fc4618",
+        "section": "Motivo"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+        "locator": "Lei nº 9.784/1999, arts. 50, 53 e 55; nota de atos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "motivacao",
+      "term": "Motivação do ato administrativo",
+      "definition": "Exteriorização dos fundamentos de fato e de direito da decisão administrativa.",
+      "example": "A decisão explica a infração e o fundamento legal da sanção.",
+      "confusion": "Não se confunde com a finalidade pública do poder exercido.",
+      "topic": "Atos administrativos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.3"
+      ],
+      "note": {
+        "articleId": "art-a7703dd0e3fc4618",
+        "section": "Motivação"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+        "locator": "Lei nº 9.784/1999, arts. 50, 53 e 55; nota de atos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "anulacao",
+      "term": "Anulação do ato administrativo",
+      "definition": "Retirada de ato por vício de legalidade, observados os limites jurídicos pertinentes.",
+      "example": "Anular ato com ilegalidade não sanável, respeitadas as garantias processuais.",
+      "confusion": "Revogação recai sobre ato válido por conveniência e oportunidade.",
+      "topic": "Atos administrativos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.3"
+      ],
+      "note": {
+        "articleId": "art-a7703dd0e3fc4618",
+        "section": "Anulação"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+        "locator": "Lei nº 9.784/1999, arts. 50, 53 e 55; nota de atos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Anulação × revogação: qual é o fundamento de cada retirada?",
+        "answer": "Anulação: ilegalidade, observados os limites jurídicos. Revogação: conveniência ou oportunidade de ato válido, nos limites legais."
+      }
+    },
+    {
+      "id": "revogacao",
+      "term": "Revogação do ato administrativo",
+      "definition": "Retirada de ato válido por conveniência ou oportunidade, respeitados os direitos adquiridos e limites legais.",
+      "example": "A Administração retira autorização válida revogável que deixou de ser conveniente.",
+      "confusion": "Não é o instrumento para sanar ilegalidade.",
+      "topic": "Atos administrativos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.3"
+      ],
+      "note": {
+        "articleId": "art-a7703dd0e3fc4618",
+        "section": "Revogação"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+        "locator": "Lei nº 9.784/1999, arts. 50, 53 e 55; nota de atos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "convalidacao",
+      "term": "Convalidação",
+      "definition": "Correção de defeito sanável de ato administrativo, sem lesão ao interesse público nem prejuízo a terceiros.",
+      "example": "Sanar vício de competência não exclusiva, quando juridicamente admissível.",
+      "confusion": "Nem todo defeito admite convalidação.",
+      "topic": "Atos administrativos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.3"
+      ],
+      "note": {
+        "articleId": "art-a7703dd0e3fc4618",
+        "section": "Convalidação: art. 55"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+        "locator": "Lei nº 9.784/1999, arts. 50, 53 e 55; nota de atos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    },
+    {
+      "id": "despesa-orcamentaria",
+      "term": "Despesa orçamentária",
+      "definition": "Despesa cuja realização depende de autorização orçamentária e é executada mediante os estágios pertinentes.",
+      "example": "Compra de computadores empenhada em dotação da LOA.",
+      "confusion": "Pagar restos a pagar de ano anterior é desembolso extraorçamentário no ano do pagamento; a despesa original foi orçamentária.",
+      "topic": "Estágios da despesa",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 4º, 35 e 58 a 65; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1
+    }
+  ]
+}

@@ -265,6 +265,7 @@ if (process.argv.includes('--audit-site')) {
   const siteDataDir = path.join(siteDir, 'data');
   if (fs.existsSync(siteDataDir)) {
     const JSONS_PUBLICOS_AUTORIZADOS = new Set([
+      'flashcards.json',
       'concursos.json',
       'edital-itens.json',
       'erros-recorrentes.json',

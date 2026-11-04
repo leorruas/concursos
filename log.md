@@ -1250,3 +1250,8 @@ O protocolo rápido passa a consolidar os artigos ao fechar cada unidade, antes 
 ## 2026-11-04: identidade estável e matérias virtuais
 
 Artigos e hubs canônicos recebem IDs e aliases de caminho, sem mover arquivos ou alterar corpos teóricos. Catálogo fonte por concurso usa IDs; build gera vínculos públicos por caminho e manifesto com identidade. Rotas estáveis, aliases e referências de estudo por ID preservam compatibilidade. Testes incluem movimento/renomeação temporária, matérias virtuais, escopo, privacidade e continuidade. Reorganização física e migração dos wikilinks históricos permanecem adiadas conforme plano.
+
+
+## 2026-11-04: flashcards de vocabulário com revisão espaçada
+
+Interface de recuperação ativa integrada à navegação, com 85 conceitos revisados, sendo 60 de Orçamento e Contabilidade Pública, e coleções iniciais de outras matérias da CGU. Cartões em JSON usam IDs estáveis de artigos, seções e metadados explícitos de edital/matéria; não dependem das pastas. Revisões diretas, inversas e contrastes possuem históricos separados; conhecimento exige lembranças espaçadas nas duas direções. Progresso e rodada ficam apenas no navegador, com exportação/importação local, sem gravação de respostas no repositório ou no ledger. Build, CI e verificação ao vivo conferem a publicação dos cartões e da interface. Documentação técnica em scripts/FLASHCARDS.md. Corrigidos três testes que interpretavam caminhos com espaços como URLs não decodificadas.

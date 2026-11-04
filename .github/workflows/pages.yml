@@ -49,6 +49,8 @@ jobs:
         run: node scripts/question-ledger.js --validate
       - name: Testar ledger anti-repetição
         run: node scripts/test-question-ledger.js
+      - name: Validar flashcards e repetição espaçada
+        run: node scripts/validate-flashcards.js && node scripts/test-flashcards.js
       - name: Validar catálogo de fontes e provas-espelho
         run: node scripts/test-corpus-provas-espelho.js
       - name: Testar política de propagação da ingestão
@@ -77,6 +79,8 @@ jobs:
         run: node scripts/validate-search-governance.js
       - name: Montar artefato estático isolado (_site)
         run: node scripts/build-site.js
+      - name: Validar publicação dos flashcards
+        run: node scripts/validate-flashcards.js --site
       - name: Verificar projetos publicados de concursos
         run: node scripts/test-public-projects.js
       - name: Validar índice de busca publicado

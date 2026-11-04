@@ -333,7 +333,7 @@ if (fs.existsSync(outDir)) {
 }
 fs.mkdirSync(outDir, { recursive: true });
 
-const arquivosSPA = ['index.html', 'style.css', 'script.js'];
+const arquivosSPA = ['index.html', 'flashcards.html', 'style.css', 'script.js'];
 for (const f of arquivosSPA) {
   const src = path.join(rootDir, f);
   const dest = path.join(outDir, f);
@@ -358,6 +358,7 @@ if (fs.existsSync(webSrcDir)) {
 }
 
 const JSONS_PUBLICOS_AUTORIZADOS = [
+  'flashcards.json',
   'concursos.json',
   'edital-itens.json',
   'erros-recorrentes.json',
@@ -401,7 +402,8 @@ fs.writeFileSync(searchIndexPath, indiceBuscaSerializado, 'utf8');
 console.log('✓ Gerado _site/search-index.json com sucesso.');
 
 // A URL dos arquivos visuais muda com seu conteúdo, evitando CSS/JS de outra publicação.
-const htmlPath = path.join(outDir, 'index.html');
+for (const pagina of ['index.html', 'flashcards.html']) {
+const htmlPath = path.join(outDir, pagina);
 const htmlVersionado = fs.readFileSync(htmlPath, 'utf8').replace(/(src|href)="([^"?#]+\.(?:css|js))(?:\?[^"#]*)?"/g, (original, atributo, recurso) => {
   if (/^(?:https?:|\/\/)/.test(recurso)) return original;
   const destino = path.join(outDir, recurso);
@@ -410,6 +412,7 @@ const htmlVersionado = fs.readFileSync(htmlPath, 'utf8').replace(/(src|href)="([
   return `${atributo}="${recurso}?v=${versao}"`;
 });
 fs.writeFileSync(htmlPath, htmlVersionado);
+}
 console.log('✓ CSS e JavaScript locais versionados por conteúdo.');
 
 console.log('\nSUCESSO: Build estático concluído em _site/.');

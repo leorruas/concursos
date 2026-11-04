@@ -1,0 +1,71 @@
+---
+title: "Contabilidade Pública: plano de artigos e recuperação"
+type: "planejamento"
+status: "planejado"
+created: 2026-11-04
+updated: 2026-11-04
+---
+
+# Contabilidade Pública: plano de artigos e recuperação
+
+## Objetivo, alcance e estado
+
+Preparar a matéria de **Contabilidade Pública** para a CGU 2026, Cargo 1 Auditoria, **Cebraspe, Certo/Errado**. A correspondência editorial está no recorte **P3.2**, sobretudo informação contábil, demonstrações, custos, provisões, informações societárias e governança de estatais. A fonte de programa é [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist]]; o PDF oficial e eventuais retificações prevalecem.
+
+**Estado em 04/11/2026:** o [[3 - Materias/Contabilidade Publica/contabilidade-publica|hub da matéria]] ainda é um roteiro, sem artigos próprios especializados publicados. Há **14 flashcards** vinculados a Contabilidade, vários fundamentados em notas de Orçamento Público. O contexto `data/contexto-estudo/cgu-2026/contabilidade-publica.json` indica preparação dos fundamentos; **nenhuma unidade ou retenção pode ser declarada concluída pela criação deste plano**.
+
+**Princípio editorial:** separar a ótica orçamentária, a patrimonial, a financeira e a de custos. Não converter balanço, despesa, desembolso e custo em sinônimos. O plano prevê **10 artigos potenciais**, que subdividem unidades existentes do programa, sem criar automaticamente dez unidades de aprendizagem.
+
+## Sequência dos artigos: frentes e decisões de publicação
+
+| Ordem | Nota prevista em `3 - Materias/Contabilidade Publica/` | Conteúdo e fronteira de prova | Recorte CGU / prioridade | Estado |
+| :--- | :--- | :--- | :--- | :--- |
+| 01 | `01 - patrimonio publico e regimes de reconhecimento.md` | Ativo, passivo, PL, VPA/VPD, competência patrimonial × receitas arrecadadas e despesas empenhadas; distinguir aquisição de ativo de consumo | Fundamentos e P3.2.4; **P0** | Planejada; reutilizar teoria orçamentária |
+| 02 | `02 - balanco orcamentario e balanco financeiro.md` | Previsão/fixação/execução × entradas e saídas financeiras; leitura de quadros, RP e saldos; comparar BO × BF | P3.2.4; **P0** | Planejada |
+| 03 | `03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md` | Estoques e fluxos; patrimônio líquido, VPA, VPD e resultado patrimonial; BP × DVP × BO | P3.2.4; **P0** | Planejada |
+| 04 | `04 - fluxos de caixa notas explicativas e conciliacoes.md` | DFC, classificação de fluxos, notas, conciliações e critérios de leitura; fluxo de caixa × resultado patrimonial | P3.2.4; **P1** | Planejada |
+| 05 | `05 - custos publicos fundamentos e objetos de custo.md` | Gasto, despesa, custo, desembolso; custo de serviço, objeto de custos, eficiência e custo unitário | P3.2.5; **P0** | Planejada |
+| 06 | `06 - mic sic e informacoes gerenciais de custos.md` | NBC TSP 34, MIC, SIC, geração/uso da informação; análise físico-financeira e indicadores de desempenho | P3.2.5; **P1** | Planejada |
+| 07 | `07 - provisoes e passivos e ativos contingentes.md` | Obrigação presente × possível, probabilidade, estimativa, reconhecimento × divulgação; comparar NBC TSP 03 (R1) com CPC 25 conforme entidade | P3.2.6; **P0** | Planejada |
+| 08 | `08 - depreciacao reducao ao valor recuperavel e ativos.md` | Depreciação, amortização, impairment, ativos geradores × não geradores de caixa, estimativas e evidência | P3.2.6; **P1** | Planejada |
+| 09 | `09 - demonstracoes societarias das estatais.md` | Balanço, DRE, notas, partes relacionadas e particularidades das estatais; DRE × DVP, sem trocar regimes | P3.2.6; **P1** | Planejada |
+| 10 | `10 - governanca transparencia e finalidade publica das estatais.md` | Lei 13.303/2016, conselhos, controles, carta anual, políticas públicas e sustentabilidade; empresa controlada × dependente | P3.2.7; **P2** | Planejada |
+
+**P0, P1 e P2 são prioridades editoriais internas**, não uma frequência medida de cobrança. A divisão em arquivos é proposta: se as fontes mostrarem forte dependência entre dois tópicos, consolidar com critério, mantendo uma única nota canônica por conceito. **Não criar 10 resumos curtos** apenas para completar a lista.
+
+## Lotes de execução: pequenos, completos e verificáveis
+
+**Lote C1: fundamentos e primeiros demonstrativos (01 e 02).** Conferir MCASP 11ª edição e Lei 4.320/1964; explicar quatro enfoques por meio de um único caso progressivo. Tomar um equipamento adquirido no fim do ano: dotação, empenho, liquidação, caixa, ativo e eventuais RP. Mostrar o que cada registro permite concluir e o que não permite. Publicar os dois artigos com fontes, links, exemplo e distinções; atualizar hub, catálogo por `articleId`, índice e plano de estudo no mesmo commit.
+
+**Lote C2: demonstrações e conciliações (03 e 04).** Construir uma matriz: **BO pergunta pela execução do orçamento; BF pelos ingressos e dispêndios financeiros; BP pela posição patrimonial; DVP pelas variações patrimoniais; DFC pelos fluxos de caixa; notas complementam a interpretação.** Validar a matriz contra a seção de DCASP da edição vigente do MCASP e NBC TSP aplicáveis. Usar quadros hipotéticos com números coerentes; um aumento do caixa não implica necessariamente superávit patrimonial.
+
+**Lote C3: custos públicos (05 e 06).** Trabalhar o mesmo serviço público com volume de atendimentos, custos diretos e indiretos, custos unitários, capacidade ociosa e qualidade da entrega. Distinguir economia financeira de eficiência em custos e de efetividade da política. Conferir **MIC, segunda edição de 2025**, e **NBC TSP 34**, inclusive responsabilidades do gestor e limites de comparabilidade dos indicadores.
+
+**Lote C4: provisões, contingências e ativos (07 e 08).** Desenvolver árvore de decisões: obrigação presente × possível, saída de recursos, confiabilidade da estimativa, registro contábil × nota explicativa. Incluir disputa judicial hipotética, com diferentes avaliações de probabilidade, sem declarar toda ação judicial como provisão. Tratar a revisão da **NBC TSP 03 (R1), de 2026**, como versão a consultar. Examinar impairment gerador/não gerador de caixa nas NBC TSP 09/10 vigentes. **CPC 25 é referência própria para o contexto societário**: comparar, não aplicar automaticamente toda norma de empresa a órgão público.
+
+**Lote C5: estatais e finalidade pública (09 e 10).** Elaborar exemplo de estatal com resultado societário e indicadores de política pública. Distinguir DRE de DVP, informação financeira de cumprimento da missão e transações com partes relacionadas de fraude automaticamente presumida. Conferir Lei nº 13.303/2016, CPCs aplicáveis, normas setoriais e requisitos da carta anual e de governança. Não confundir empresa estatal **dependente** com o conjunto de empresas controladas.
+
+## Contrato editorial e flashcards
+
+Cada nota precisa explicar definição, função, estrutura, reconhecimento/mensuração, exceções e limites **quando pertinentes**, com ao menos um caso que obrigue a escolher entre conceitos próximos. Incluir itens **didáticos C/E** com comentários apenas quando ajudam a testar uma fronteira. Provas reais Cebraspe exigem fonte, cargo, caderno, item e gabarito definitivo; não presumir que a mera menção à banca prova calibração.
+
+**Fluxo obrigatório a cada lote:** fonte primária e edital → nota profunda → links com notas anteriores (sem duplicar) → `articleId` + `data/catalogo-materias-por-concurso.json` → hub → `index.md` → conferência no manifesto/site → flashcards novos ou refinados, se houver conceitos de fato distintos. Antes de criar cartões, comparar com os 14 existentes, evitando repetir VPA, VPD, competência, DVP e as fronteiras orçamentárias já cobertas.
+
+Não alterar `data/contexto-estudo/` manualmente, não marcar unidades como estudadas e não inferir domínio de publicação. Sessões e provas futuras determinam exposição e aprendizagem. Quando começar a estudar, seguir `CHAT.md` e o campo `resume` do contexto da matéria, e não a posição estática deste plano.
+
+## Fontes de partida e pontos que exigem verificação
+
+- [MCASP, 11ª edição, Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1): enfoques orçamentário e patrimonial, PCASP e DCASP. Conferir seção e edição no momento da redação.
+- [Lei nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm): receitas, despesas, balanços e demonstrações; ler em conjunto com o MCASP quanto a registros atuais.
+- [Manual de Informações do Sistema de Custos do Governo Federal (MIC), 2025](https://www.tesourotransparente.gov.br/publicacoes/mic-manual-de-informacoes-do-sistema-de-custos-do-governo-federal/2025/26) e [página de custos da STN](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/custos/publicacoes).
+- [CFC: normas NBC TSP](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/): **NBC TSP 03 (R1), 09 (R1), 10 (R1), 11 (R1), 12 (R1), 13 (R1)** em 2026 e **NBC TSP 34 (custos)**; conferir eventual vigência e transição antes de aplicar.
+- [CPC 25: provisões e contingências](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56), para confronto com demonstrações societárias.
+- [Lei nº 13.303/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm), em especial governança, transparência e demonstrações de estatais.
+
+**Alerta de atualização:** em 04/11/2026, as propostas **NBC TSP 39 (Receita)** e **NBC TSP 40 (Despesa de Transferência)** estão em **audiência pública até 12/11/2026**. Não tratá-las como normas aprovadas ou regras vigentes neste plano. Antes de publicar artigos sobre elas, verificar o resultado da consulta e a vigência efetiva no CFC.
+
+## Critério de conclusão editorial
+
+Lote concluído só quando arquivos, fontes, exemplos, vínculos de catálogo e publicação estiverem verificados. A matéria só pode ser chamada de **cobertura documental integral** depois de confrontar cada subitem do edital com notas substanciais e registrar lacunas residuais. Aula, domínio, retenção e prontidão para P3 continuam estados separados.
+
+**Plano relacionado:** [[1 - Planejamento/Contratacoes e Transferencias - Plano de artigos|Contratações e transferências]], sobretudo os critérios de comprovação de execução financeira, entrega física e prestação de contas.

@@ -226,6 +226,26 @@
       "url": "https://www.tesourotransparente.gov.br/publicacoes/mic-manual-de-informacoes-do-sistema-de-custos-do-governo-federal/2025/26",
       "scope": "Fundamentos e detalhamento do sistema, SIC/TG, processos e indicadores; validação integral do edital pendente",
       "verifiedAt": "2026-11-04"
+    },
+    "nbc-tsp-03-2026": {
+      "label": "NBC TSP 03 (2016), aplicável aos exercícios de 2026",
+      "url": "https://www.legisweb.com.br/legislacao/?id=330456",
+      "catalogUrl": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/",
+      "scope": "Provisões, passivos e ativos contingentes: classificação, mensuração, divulgação e casos",
+      "verifiedAt": "2026-11-04"
+    },
+    "nbc-tsp-03-r1-2027": {
+      "label": "NBC TSP 03 (R1), publicada em 17/03/2026 e aplicável a exercícios de 2027",
+      "url": "https://www.legisweb.com.br/legislacao/?id=492475",
+      "catalogUrl": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/",
+      "scope": "Vigência de revisão: 01/01/2027, ressalvados prazos nacionais específicos",
+      "verifiedAt": "2026-11-04"
+    },
+    "cpc25-societario": {
+      "label": "CPC 25, provisões e contingências em demonstrações societárias",
+      "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56",
+      "scope": "Contraste de alcance e itens com NBC TSP 03 em contexto de estatais, junto da Lei 13.303/2016",
+      "verifiedAt": "2026-11-04"
     }
   },
   "subjects": [
@@ -1895,16 +1915,20 @@
             "P3.2.6"
           ],
           "noteRefs": [
+            "3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [
             "up3-2-5"
           ],
           "sourceIds": [
-            "mcasp"
+            "mcasp",
+            "nbc-tsp-03-2026",
+            "nbc-tsp-03-r1-2027",
+            "cpc25-societario"
           ],
-          "coverage": "base-adjacente",
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "coverage": "parcial",
+          "noteRole": "provisoes-contingencias-publicadas-depreciacao-impairment-e-societario-pendentes"
         },
         {
           "id": "up3-2-7",

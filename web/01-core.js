@@ -212,5 +212,7 @@ function rotaDoArtigo(artigo, secao = "") {
 let dadosConcursosEstrategicos = [];
 let dadosEditalEstrategico = [];
 let dadosErrosEstrategicos = [];
-let concursoSelecionadoId = localStorage.getItem("concurso_ativo_id") || "dataprev-2026";
+// Quando não há preferência salva, selecionar a próxima prova no painel.
+let concursoSelecionadoId = localStorage.getItem("concurso_ativo_id") || "";
+let dadosCatalogoMaterias = null;
 

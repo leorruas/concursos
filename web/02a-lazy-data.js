@@ -41,6 +41,8 @@ carregarTodosOsArtigos = async function carregarTodosOsArtigosLeve() {
             conteudoCompleto: false,
             indiceBusca: registroBusca,
             articleId: item.articleId,
+            articleSlug: item.articleSlug,
+            articleSlugAliases: item.articleSlugAliases || [],
             articleAliases: item.articleAliases || [],
             sourcePath: item.sourcePath,
             path: item.path,

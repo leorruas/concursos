@@ -160,3 +160,7 @@ Sessões, teoria referenciada por questões, recibos editoriais e próximo passo
 O teste de identidade usa uma nota temporária movida e renomeada e verifica resolução por ID, caminho antigo, seção, duas matérias virtuais, privacidade, colisões e URLs. Integra preflight e workflow. Os testes de filtro usam o catálogo compilado, igual ao consumidor público. O Pages verifica também as identidades e aliases do manifesto ao vivo.
 
 **Permanece deliberadamente adiado:** reorganizar fisicamente as pastas, revisar em massa a teoria e converter todos os wikilinks/caminhos históricos para IDs. A nova estrutura permite reuso sem essas operações. Ao mover futuramente uma nota, manter seu ID, acrescentar os caminhos antigos aos aliases e aplicar os contratos de link, hub e índice; a compatibilidade Obsidian exige atualizar os wikilinks físicos na mesma mudança.
+
+## URLs legíveis: 04/11/2026
+
+A URL pública passa a usar `#/artigo/controle-da-administracao-publica`, com slug legível e identidade interna preservada. O slug padrão é derivado do primeiro caminho histórico em `articleAliases`, não do título atual ou da pasta atual; os arquivos continuam intactos. O build valida colisões e publica os slugs no manifesto. Notas novas ambíguas exigem `articleSlug` específico; renomeações explícitas de URL preservam `articleSlugAliases`. Links anteriores por ID e por categoria/nome, seção, concurso e origem continuam aceitos. O prefixo `#` permite acesso direto e atualização da página no GitHub Pages sem depender de regras de servidor.

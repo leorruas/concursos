@@ -56,6 +56,22 @@ Os procedimentos substantivos procuram evidências diretamente sobre operações
 
 Um crescimento inexplicado no gasto por estudante pode indicar necessidade de exames adicionais. Essa diferença **não comprova fraude**. É necessário avaliar a confiabilidade dos dados e executar procedimentos aptos a sustentar a conclusão. Testes substantivos podem complementar testes de controle; verificar a operação de um bloqueio não comprova automaticamente a regularidade de todos os pagamentos.
 
+### Três testes sobre a mesma despesa
+
+Um exemplo hipotético ajuda a separar **finalidade** de **técnica**. Uma instituição prevê pagar 1.200 bolsas de R$ 400 e registra R$ 495 mil no período. Se todas as 1.200 parcelas forem devidas, a expectativa inicial é R$ 480 mil. O mesmo caso permite três perguntas:
+
+| Pergunta de auditoria | Exame | Finalidade |
+| :--- | :--- | :--- |
+| As aprovações independentes foram realizadas antes dos pagamentos? | Inspecionar registros de aprovação em momentos distintos do período | **Teste de controle**: examinar o funcionamento do controle |
+| As bolsas pagas são devidas aos beneficiários e os valores individuais estão corretos? | Examinar comprovantes e requisitos de pagamentos selecionados | **Teste substantivo de detalhes** |
+| O total pago corresponde a uma expectativa fundamentada? | Comparar R$ 495 mil com R$ 480 mil e investigar diferenças | **Procedimento analítico substantivo**, se a expectativa tiver dados confiáveis e precisão adequada |
+
+A técnica **inspeção documental** pode aparecer nos dois primeiros exames. O que determina o tipo de teste é a **afirmação examinada**: execução de um controle ou regularidade de transações. A diferença de R$ 15 mil na comparação é um ponto para investigação, e não prova de fraude; a expectativa pode precisar de ajustes por bolsas retroativas ou parcelas não devidas.
+
+Uma comparação semelhante pode servir apenas para **escolher o objeto da auditoria no planejamento**, sem constituir evidência substantiva sobre valores. E **observar** um servidor executar a checagem não é **reexecutar** o procedimento independentemente. Observar uma ocorrência não permite afirmar que o controle operou durante todo o exercício.
+
+**Como recuperar na prova:** primeiro identifique *para quê* o auditor examina; depois *como* ele examina; por último, pergunte o que o resultado permite concluir e quais limites permanecem.
+
 ### Natureza, época e extensão
 
 **Natureza** é a finalidade e o tipo do procedimento. **Época** é quando e em qual período se realiza o exame. **Extensão** é a quantidade ou profundidade do exame, considerada a complexidade e os riscos (MOT 4.3.4.1 a 4.3.4.3).

@@ -2852,14 +2852,14 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "rastreamento-integridade",
         "vouching-ocorrencia-versus-integridade"
       ],
       "contrast": {
-        "prompt": "Documento de baixa → lançamento contábil: rastreamento ou vouching? O que testa?",
-        "answer": "Rastreamento: documento → registro; privilegia a integridade, isto é, possíveis omissões."
+        "prompt": "Existem concessões autorizadas não encontradas nos pagamentos: partir das concessões para os registros é qual técnica?",
+        "answer": "Rastreamento: documento → registro; verifica sobretudo integridade e possíveis omissões."
       }
     },
     {
@@ -2889,21 +2889,21 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "vouching-ocorrencia-versus-integridade"
       ],
       "contrast": {
-        "prompt": "Registro de pagamento → comprovante: qual técnica e finalidade principal?",
-        "answer": "Vouching: registro → documento; examina ocorrência/existência da operação registrada."
+        "prompt": "Existem pagamentos registrados sem concessão comprovada: qual sentido de busca usar?",
+        "answer": "Do registro ao documento de suporte: vouching, para avaliar ocorrência/existência."
       }
     },
     {
       "id": "aud-analitico-substantivo",
       "term": "Procedimento analítico substantivo",
       "definition": "Comparar valores registrados com expectativas e relações fundamentadas para obter evidência direta sobre a adequação dos valores ou transações.",
-      "example": "Comparar gastos em refeições com quantidades servidas e preços esperados, investigando diferenças.",
-      "confusion": "Usar dado não financeiro não transforma a análise em planejamento; a finalidade de obter evidência define o caráter substantivo.",
+      "example": "Estimar R$ 480 mil para 1.200 bolsas de R$ 400 e investigar a diferença diante dos R$ 495 mil registrados.",
+      "confusion": "Analítico indica relações e expectativas; substantivo indica busca de evidência sobre valores. Uma diferença, sozinha, não comprova fraude.",
       "topic": "Finalidade dos testes",
       "subjectIds": [
         "auditoria-governamental"
@@ -2925,7 +2925,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "procedimento-analitico-substantivo",
         "precisao-confiabilidade-analitico"
@@ -2962,13 +2962,13 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "finalidade-analise-planejamento"
       ],
       "contrast": {
-        "prompt": "O mesmo cruzamento de dados pode ser analítico no planejamento ou substantivo?",
-        "answer": "Sim. O que muda é a finalidade do exame e a conclusão probatória pretendida."
+        "prompt": "Comparação de gastos para selecionar risco × comparação de valores registrados com expectativa: o que muda?",
+        "answer": "A finalidade: planejamento de riscos versus procedimento analítico substantivo para obter evidência sobre valores."
       }
     },
     {
@@ -7314,6 +7314,112 @@
         "answer": "Especial é a espécie de crédito. Emenda é a proposta parlamentar de alteração do projeto."
       },
       "conceptIds": []
+    },
+    {
+      "id": "aud-finalidade-teste-controle",
+      "term": "Teste de controle: finalidade",
+      "definition": "Examina o desenho ou o funcionamento operacional de um mecanismo de controle.",
+      "example": "Conferir registros de aprovação prévia em pagamentos distribuídos pelo semestre.",
+      "confusion": "Inspeção documental pode servir tanto a testes de controle quanto a testes substantivos; a finalidade decide.",
+      "topic": "Finalidade e técnicas de auditoria",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-a760ecbf01b84d2e",
+        "section": "Três testes sobre a mesma despesa"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seções 4.3.4.3 a 4.3.4.6"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Inspecionar aprovações para saber se o controle funcionou: qual teste?",
+        "answer": "Teste de controle: verificar funcionamento do mecanismo, ainda que se examine documentos."
+      },
+      "conceptIds": [
+        "finalidade-teste-controle-tecnica-documental"
+      ]
+    },
+    {
+      "id": "aud-teste-substantivo-detalhes",
+      "term": "Teste substantivo de detalhes",
+      "definition": "Examina diretamente operações, saldos ou transações específicas para obter evidência sobre sua correção.",
+      "example": "Selecionar vinte bolsas pagas e conferir elegibilidade, valor devido e documentos de suporte.",
+      "confusion": "Inspecionar pagamento individual não equivale a verificar se o controle de aprovação foi seguido.",
+      "topic": "Finalidade e técnicas de auditoria",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-a760ecbf01b84d2e",
+        "section": "Três testes sobre a mesma despesa"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seções 4.3.4.3 a 4.3.4.6"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Verificar elegibilidade e valores de vinte pagamentos: teste de detalhes ou analítico?",
+        "answer": "Teste substantivo de detalhes: examina diretamente as operações selecionadas."
+      },
+      "conceptIds": []
+    },
+    {
+      "id": "aud-observacao-reexecucao",
+      "term": "Observação × reexecução",
+      "definition": "Observar é acompanhar o procedimento feito por outra pessoa; reexecutar é repeti-lo independentemente.",
+      "example": "Assistir ao servidor validar uma bolsa é observar; repetir o procedimento sem ele é reexecutar.",
+      "confusion": "Uma observação pontual não demonstra funcionamento consistente durante todo o exercício.",
+      "topic": "Finalidade e técnicas de auditoria",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.1.3"
+      ],
+      "note": {
+        "articleId": "art-a760ecbf01b84d2e",
+        "section": "Três fronteiras examinadas em prova"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seções 4.3.4.3 a 4.3.4.6"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Ver funcionário executar controle × auditor refazer sozinho: quais técnicas?",
+        "answer": "Observação no primeiro; reexecução no segundo. A observação isolada tem limite temporal."
+      },
+      "conceptIds": [
+        "observacao-versus-reexecucao"
+      ]
     }
   ]
 }

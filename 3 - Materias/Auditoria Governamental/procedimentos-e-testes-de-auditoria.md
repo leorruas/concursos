@@ -43,6 +43,17 @@ Exemplo: a norma interna exige autorização de pessoa independente antes de cad
 
 Os procedimentos substantivos procuram evidências diretamente sobre operações e registros (MOT 4.3.4.5). **Teste de detalhes**: conferir valores pagos, destinatários, requisitos e documentos de suporte. **Procedimento analítico substantivo**: comparar o total pago com número de beneficiários, períodos anteriores ou outra expectativa apropriada.
 
+#### Procedimento analítico substantivo: definição e razão do nome
+
+**Procedimento analítico substantivo**, também chamado de **revisão analítica**, é o uso de relações plausíveis, comparações e expectativas fundamentadas para **obter evidência sobre a adequação de valores, registros ou transações auditados**. O nome reúne duas dimensões:
+
+- **Analítico** indica **como se examina**: relacionam-se dados financeiros e não financeiros, valores de períodos distintos, índices, volumes e tendências. Diferenças inesperadas ou a ausência de uma variação esperada precisam ser investigadas.
+- **Substantivo** indica **para que se examina**: busca-se evidência diretamente sobre a **suficiência, exatidão e validade das informações e operações**, e não apenas sobre a execução de um controle. O termo não significa que a análise seja “mais profunda” ou necessariamente mais complexa.
+
+**Exemplo hipotético:** uma universidade informa **1.000 bolsas de R$ 300** no mês. Com dados confiáveis sobre a quantidade de bolsistas e o valor devido, o auditor desenvolve uma **expectativa de R$ 300 mil** e compara-a aos **R$ 315 mil** registrados. A diferença de **R$ 15 mil** exige examinar possíveis pagamentos retroativos, mudanças no número de beneficiários, erros ou outras explicações. A comparação, isoladamente, **não prova fraude, irregularidade nem o valor correto de cada pagamento**. A força da evidência depende da confiabilidade e da precisão dos dados e da investigação da diferença.
+
+**Fronteira entre finalidades:** comparar gastos para **identificar áreas de risco no planejamento** é empregar um procedimento analítico na avaliação de riscos; usar uma comparação suficientemente confiável e precisa para **obter evidência sobre valores registrados** pode constituir um **procedimento analítico substantivo**. Conferir comprovantes e elegibilidade de pagamentos individualmente constitui **teste substantivo de detalhes**. Já verificar se a autorização prévia foi realizada em cada caso é **teste de controle**. A técnica pode ser semelhante, mas o **objetivo probatório** muda.
+
 Um crescimento inexplicado no gasto por estudante pode indicar necessidade de exames adicionais. Essa diferença **não comprova fraude**. É necessário avaliar a confiabilidade dos dados e executar procedimentos aptos a sustentar a conclusão. Testes substantivos podem complementar testes de controle; verificar a operação de um bloqueio não comprova automaticamente a regularidade de todos os pagamentos.
 
 ### Natureza, época e extensão
@@ -117,6 +128,6 @@ Esses dois exemplos **não foram respondidos pelo estudante** e não integram a 
 
 ## Fontes
 
-- [CGU: Manual de Orientações Técnicas (MOT), seções 4.3.4.1 a 4.3.4.6](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
+- [CGU: Manual de Orientações Técnicas (MOT), seções 4.3.4.1 a 4.3.4.6, especialmente 4.3.4.5 (procedimentos substantivos) e 4.3.4.6.7 (analíticos)](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal).
 - [CGU: Normas de Auditoria Interna, com o Referencial Técnico da IN SFC nº 3/2017 e MOT da IN SFC nº 8/2017](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna).
 - [[2 - Editais/CGU 2026 - Auditoria|CGU 2026, programa P3.1.3]]. Confirmar o edital e eventuais retificações para regras de prova.

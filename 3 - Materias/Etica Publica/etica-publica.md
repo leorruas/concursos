@@ -14,17 +14,19 @@ Fundamentos de ética, deveres profissionais, conflitos de interesses, assédio 
 
 **Prioridade pedagógica:** Complementar (C), segundo o plano interno, não como classificação oficial de incidência na prova. **Escopo:** 5 unidades.
 
-## Planejamento das unidades
+## Percurso e links de recuperação
 
-| Ordem | Conteúdo e distinções a estudar | Situação editorial |
+Há **seis artigos planejados para cinco unidades**; o [[1 - Planejamento/Etica Publica - Plano de artigos|plano editorial]] registra a sequência. Os dois primeiros estão publicados, porém **nenhuma unidade foi estudada por esta operação**.
+
+| Unidade | Material e fronteira | Estado editorial |
 | :--- | :--- | :--- |
-| 01 | Fundamentos: interesse público, dignidade, justiça, deveres, consequências e virtudes profissionais. | Referências relacionadas; aprofundar para o recorte |
-| 02 | Deveres: probidade, autonomia técnica, limites da obediência hierárquica, informações e recursos; valores de conduta da CGU. | Referências relacionadas; aprofundar para o recorte |
-| 03 | Conflitos de interesses: Lei nº 12.813/2013 (arts. 3º a 5º, 8º e 10) e impedimento/suspeição na Lei nº 9.784/1999 (arts. 18 a 21). | Referências relacionadas; aprofundar para o recorte |
-| 04 | Relações de trabalho: assédio, discriminação, poder, acolhimento × verificação × responsabilização. | Referências relacionadas; aprofundar para o recorte |
-| 05 | Integridade institucional: coerência entre regras e prática, canais e prestação de contas. | Referências relacionadas; aprofundar para o recorte |
+| P1.3.1 | [[3 - Materias/Etica Publica/01 - etica moralidade e interesse publico|01. Ética, moralidade e interesse público]]: ética × moral × moralidade jurídica | Publicado, estudo pendente |
+| P1.3.2 | [[3 - Materias/Etica Publica/02 - deveres e conduta profissional|02. Deveres e conduta profissional]]: hierarquia × ordem manifestamente ilegal; sigilo × acesso | Publicado, estudo pendente |
+| P1.3.3 | Conflito de interesses (artigo 03) e impedimento/suspeição (artigo 04) | Artigos pendentes |
+| P1.3.4 | Assédio e discriminação (artigo 05) | Artigo pendente |
+| P1.3.5 | Integridade institucional e comissões de ética (artigo 06) | Artigo pendente |
 
-O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
+**Recuperação por dúvida:** “qual critério ético usar?” → 01; “que dever recai sobre o servidor?” → 02; “há risco de interesse privado?” → 03 futuro; “pode atuar no processo?” → 04 futuro; “assédio ou discriminação?” → 05 futuro; “qual órgão previne ou apura?” → 06 futuro.
 
 ## Fronteiras prioritárias
 

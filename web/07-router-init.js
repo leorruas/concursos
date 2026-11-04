@@ -38,7 +38,7 @@ async function tratarHashNavegacao() {
             a.titulo.toLowerCase() === rota.titulo.toLowerCase()
         );
         if (artigo) {
-            return abrirArtigo(artigo, false, rota.secao || "");
+            return abrirArtigo(artigo, false, rota.secao || "", rota.origem || "");
         }
     }
 }

@@ -59,15 +59,17 @@ function irParaSecaoArtigo(secao, comportamento = "smooth") {
     return true;
 }
 
-async function abrirArtigo(artigo, atualizarRota = true, secao = "") {
+async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = "") {
     if (window.CONCURSOS_MOSTRAR_TRANSICAO) {
         window.CONCURSOS_MOSTRAR_TRANSICAO();
         await new Promise(resolve => requestAnimationFrame(resolve));
     }
 
     artigoAtual = artigo;
-    atualizarDestinoIndiceTopo(artigo.categoria);
-    const rotaDestino = rotaDoArtigo(artigo, secao);
+    const categoriaOrigem = origem && obterArtigosDaMateria(origem)
+        .some(item => item.sourcePath === artigo.sourcePath) ? origem : artigo.categoria;
+    atualizarDestinoIndiceTopo(categoriaOrigem);
+    const rotaDestino = rotaDoArtigo(artigo, secao, categoriaOrigem);
     if (atualizarRota && window.location.hash !== rotaDestino) {
         history.pushState({ artigo: artigo.titulo, categoria: artigo.categoria, secao }, "", rotaDestino);
     }
@@ -84,12 +86,12 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "") {
     breadcrumbs.innerHTML = `
         <button type="button" class="breadcrumb-link" id="btn-bc-art-home">início</button>
         <span class="breadcrumb-separator">/</span>
-        <button type="button" class="breadcrumb-link" id="btn-bc-art-cat">${limparNomeCategoria(artigo.categoria)}</button>
+        <button type="button" class="breadcrumb-link" id="btn-bc-art-cat">${limparNomeCategoria(categoriaOrigem)}</button>
         <span class="breadcrumb-separator">/</span>
         <span class="breadcrumb-atual">${tituloNavegacao}</span>
     `;
     document.getElementById("btn-bc-art-home")?.addEventListener("click", () => voltarParaHome(true));
-    document.getElementById("btn-bc-art-cat")?.addEventListener("click", () => abrirDisciplina(artigo.categoria));
+    document.getElementById("btn-bc-art-cat")?.addEventListener("click", () => abrirDisciplina(categoriaOrigem));
 
     artigoTitulo.textContent = tituloNavegacao;
 
@@ -170,12 +172,12 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "") {
 
     renderizarDiagramasMermaid();
     gerarTableOfContents();
-    renderizarBotoesNavegacao(artigo);
+    renderizarBotoesNavegacao(artigo, categoriaOrigem);
 
-    btnVoltar.textContent = `← voltar para ${limparNomeCategoria(artigo.categoria)}`;
-    btnVoltar.onclick = () => abrirDisciplina(artigo.categoria);
+    btnVoltar.textContent = `← voltar para ${limparNomeCategoria(categoriaOrigem)}`;
+    btnVoltar.onclick = () => abrirDisciplina(categoriaOrigem);
     if (retornoArtigoTexto) {
-        retornoArtigoTexto.innerHTML = `terminou este artigo? <strong>continue pelas outras notas de ${limparNomeCategoria(artigo.categoria)}.</strong>`;
+        retornoArtigoTexto.innerHTML = `terminou este artigo? <strong>continue pelas outras notas de ${limparNomeCategoria(categoriaOrigem)}.</strong>`;
     }
     if (secao) {
         window.requestAnimationFrame(() => {
@@ -190,13 +192,13 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "") {
     }
 }
 
-function renderizarBotoesNavegacao(artigoAtual) {
+function renderizarBotoesNavegacao(artigoAtual, categoriaOrigem = artigoAtual.categoria) {
     const rodapeNavContainer = document.getElementById("artigo-nav-rodape");
     if (!rodapeNavContainer) return;
 
     rodapeNavContainer.innerHTML = "";
 
-    const artigosDaCategoria = obterArtigosDaMateria(artigoAtual.categoria);
+    const artigosDaCategoria = obterArtigosDaMateria(categoriaOrigem);
     if (artigosDaCategoria.length <= 1) return;
 
     const indiceAtual = artigosDaCategoria.findIndex(a => a.titulo === artigoAtual.titulo);
@@ -213,7 +215,7 @@ function renderizarBotoesNavegacao(artigoAtual) {
     if (artigoAnterior) {
         const cardPrev = document.createElement("a");
         cardPrev.className = "nav-card nav-card-prev";
-        cardPrev.href = rotaDoArtigo(artigoAnterior);
+        cardPrev.href = rotaDoArtigo(artigoAnterior, "", categoriaOrigem);
         const tituloLimpo = artigoAnterior.tituloExibicao || formatarNomeArtigo(artigoAnterior.titulo);
         cardPrev.innerHTML = `
             <span class="nav-card-label">← anterior</span>
@@ -222,7 +224,7 @@ function renderizarBotoesNavegacao(artigoAtual) {
         cardPrev.addEventListener("click", (e) => {
             if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
             e.preventDefault();
-            abrirArtigo(artigoAnterior);
+            abrirArtigo(artigoAnterior, true, "", categoriaOrigem);
         });
         grid.appendChild(cardPrev);
     } else {
@@ -234,7 +236,7 @@ function renderizarBotoesNavegacao(artigoAtual) {
     if (artigoProximo) {
         const cardNext = document.createElement("a");
         cardNext.className = "nav-card nav-card-next";
-        cardNext.href = rotaDoArtigo(artigoProximo);
+        cardNext.href = rotaDoArtigo(artigoProximo, "", categoriaOrigem);
         const tituloLimpo = artigoProximo.tituloExibicao || formatarNomeArtigo(artigoProximo.titulo);
         cardNext.innerHTML = `
             <span class="nav-card-label">próximo →</span>
@@ -243,7 +245,7 @@ function renderizarBotoesNavegacao(artigoAtual) {
         cardNext.addEventListener("click", (e) => {
             if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
             e.preventDefault();
-            abrirArtigo(artigoProximo);
+            abrirArtigo(artigoProximo, true, "", categoriaOrigem);
         });
         grid.appendChild(cardNext);
     } else {

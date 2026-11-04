@@ -31,6 +31,9 @@ check('artigo preserva concurso e seção juntos', parsearHashVault(rotArtigo).c
 const rotBiblioteca = construirRotaArtigo('Comunicacao', 'comunicacao', 'trecho', 'dataprev-2026', true);
 check('biblioteca geral prevalece e não apaga seção', parsearHashVault(rotBiblioteca).biblioteca && parsearHashVault(rotBiblioteca).secao === 'trecho' && !parsearHashVault(rotBiblioteca).concursoId);
 check('rota antiga com secao continua válida', parsearHashVault('#/Informatica/informatica?secao=apresentacao').secao === 'apresentacao');
+const linkCompartilhado = construirRotaArtigo('Comunicacao', '17 - pesquisa em comunicacao', 'hipoteses', 'cgu-2026', false, 'Avaliacao de Politicas Publicas');
+const parsedCompartilhado = parsearHashVault(linkCompartilhado);
+check('origem de artigo compartilhado e secao sao preservadas', parsedCompartilhado.origem === 'Avaliacao de Politicas Publicas' && parsedCompartilhado.secao === 'hipoteses' && parsedCompartilhado.concursoId === 'cgu-2026');
 
 const raizRepo = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const markdownWeb = fs.readFileSync(path.join(raizRepo, 'web/04-markdown.js'), 'utf8');

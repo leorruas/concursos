@@ -135,6 +135,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Administracao Publica/01 - evolucao da administracao publica|01 • Evolução da Administração Pública]]
   - [[3 - Materias/Administracao Publica/02 - governanca publica|02 • Governança pública]]
   - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|03 • Transparência, acesso à informação e proteção de dados pessoais]]
+- [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Avaliação de políticas públicas]]
+  - [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|01 • Teoria da mudança: fundamentos da avaliação]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Administracao Geral/01 - gestao de projetos|01 • Gestão de projetos]]

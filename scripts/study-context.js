@@ -9,6 +9,19 @@ const txt = x => typeof x === 'string' && x.trim().length > 0;
 const count = qs => { const n = result => qs.filter(q => q.result === result).length; const correct=n('correct'),incorrect=n('incorrect'); return {correct,incorrect,blank:n('blank'),annulled:n('annulled'),accuracy:correct+incorrect?Number((correct/(correct+incorrect)).toFixed(4)):null}; };
 const addDays = (date,n) => { const d=new Date(date+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10); };
 const file = (root, p) => fs.readFileSync(path.join(root,p),'utf8');
+// O contrato da preparação vem do concurso-alvo, separado do corpus histórico.
+export function examProfile(contest) {
+  ok(contest && txt(contest.id) && txt(contest.banca), 'Concurso sem banca definida');
+  const judgment=contest.estruturaProva?.objetiva?.julgamento;
+  if(contest.id==='cgu-2026') {
+    ok(contest.banca==='Cebraspe', 'CGU 2026 exige banca Cebraspe; referência histórica não altera o concurso-alvo');
+    ok(!judgment || judgment==='Certo ou Errado', 'CGU 2026 exige formato Certo ou Errado');
+  }
+  const questionFormat=contest.id==='cgu-2026'||judgment==='Certo ou Errado'?'CE':contest.banca==='FGV'?'AE':null;
+  return {concursoId:contest.id,banca:contest.banca,questionFormat,answerOptions:questionFormat==='CE'?['C','E','Em branco']:questionFormat==='AE'?['A','B','C','D','E']:[],
+    instruction:`Concurso-alvo: ${contest.nome||contest.id}. Banca: ${contest.banca}. Formato de treino: ${questionFormat==='CE'?'Certo/Errado':questionFormat==='AE'?'múltipla escolha A–E':'conferir edital'}. Aplicar esse perfil em todas as matérias e na retomada; protocolos de outro concurso permanecem restritos ao respectivo concurso.`,
+    metadataSource:'data/concursos.json',historicalSourcesRole:'Fontes históricas e de outras bancas servem como apoio de conteúdo; sua origem não redefine banca, formato ou pontuação do concurso-alvo.'};
+}
 export function checkRef(root, ref) {
   ok(txt(ref) && !ref.includes('..') && !ref.includes('\\') && !path.isAbsolute(ref), `Referência local inválida: ${ref}`);
   const [p,heading]=ref.split('#');const text=file(root,p.endsWith('.md')?p:p+'.md');
@@ -30,6 +43,8 @@ export function loadPlans(root) {
 }
 export function validatePlan(root,plan,concursos) {
   ok(plan.schemaVersion===1 && concursos.some(c=>c.id===plan.concursoId),'Plano sem concurso válido');
+  const profile=examProfile(concursos.find(c=>c.id===plan.concursoId));
+  if(plan.questionFormat)ok(profile.questionFormat===plan.questionFormat,'Formato do plano diverge da banca/concurso-alvo');
   const program=parseProgram(root,plan.editalPath);const itemIds=new Set(program.map(i=>i.id));
   ok(program.length>0,'Programa vazio');
   const ids=new Set(),aliases=new Map(),used=new Set();
@@ -100,7 +115,8 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
   for(const contest of concursos){
     const plan=plans.find(p=>p.concursoId===contest.id);const program=plan?validatePlan(root,plan,concursos):[];
     const subjects=plan?plan.subjects:genericSubjects(root);
-    const contestIndex={concursoId:contest.id,banca:contest.banca,subjects:[],resume:null};
+    const activeExam=examProfile(contest);
+    const contestIndex={concursoId:contest.id,banca:contest.banca,activeExam,subjects:[],resume:null};
     const modes=q=>q.trainingMode||sources.get(q.sourceId)?.trainingModes?.join('+')||(sources.get(q.sourceId)?.sourcePath?.startsWith('00 - Desempenho/Simulados/Simulado-')?'simulado':'historico-nao-classificado');
     for(const subject of subjects){
       const matches=q=>q.concursoId===contest.id&&(q.subjectId?q.subjectId===subject.id:subject.legacyDisciplines.some(d=>normalize(d)===normalize(q.discipline)));
@@ -152,7 +168,7 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
       const doubts=new Map();for(const s of selected)for(const d of s.learning?.doubts||[]) {if(d.status==='resolvida')ok(d.evidenceQuestionNumbers.every(n=>qs.some(q=>q.sourceId===s.id&&q.number===n&&q.result==='correct'&&q.confidence==='secure')),`${s.id}: dúvida resolvida sem resposta segura`);doubts.set(d.id,d);}
       const refs=[...new Set(subject.units.flatMap(u=>u.noteRefs).map(r=>r.split('#')[0]+'.md'))];
       const sourceIds=[...new Set(subject.units.flatMap(u=>u.sourceIds))];
-      const context={schemaVersion:2,concursoId:contest.id,subjectId:subject.id,discipline:subject.name,banca:contest.banca,format:contest.estruturaProva?.objetiva?.julgamento||'consultar edital',cut,coverage:'Somente evidência registrada deste concurso. Nota disponível não implica exposição; legado pode ser parcial.',priority:{...subject.priority,unitCount:subject.units.length,officialItems:[...new Set(subject.units.flatMap(u=>u.editalItems))].length,weightByPart:Object.fromEntries((plan?.blocks||[]).filter(b=>subject.units.some(u=>u.editalItems.some(i=>i.startsWith(b.id+'.')))).map(b=>[b.id.split('.')[0],b.weight]))},hub:subject.hub||null,state:latest?'em-estudo':units.some(u=>u.exposure.state!=='nao-registrada')?'exposicao-parcial-compartilhada':'nao-iniciada',sourceFingerprint:refFingerprint(root,refs),latestSession:latest?{id:latest.id,date:latest.date,startedAt:latest.startedAt||null,path:latest.sourcePath,diagnosis:latest.qualityNote||null}:null,lastCompletedUnit:closed.at(-1)?.id||null,results:modeResults,units,gaps,openDoubts:[...doubts.values()].filter(d=>d.status==='aberta'),pendingReviews:units.filter(u=>u.lastEvidenceDate).map(u=>({unitId:u.id,dueOn:u.retention.reviewDueOn,status:'retencao-da-unidade-nao-testada',rule:'Datas são propostas; comparar com a data atual no chat. Revisão no mesmo dia mede recuperação imediata.'})),recentMechanisms:[...new Set(qs.slice(-24).map(q=>q.mechanism))],sources:Object.fromEntries(sourceIds.map(id=>[id,plan?.sources[id]||{label:'Edital do concurso: conferir recorte e norma indicada',ref:contest.sourcePath}])),resume:next,limits:[]};
+      const context={schemaVersion:2,concursoId:contest.id,subjectId:subject.id,discipline:subject.name,banca:contest.banca,activeExam,format:contest.estruturaProva?.objetiva?.julgamento||'consultar edital',cut,coverage:'Somente evidência registrada deste concurso. Nota disponível não implica exposição; legado pode ser parcial.',priority:{...subject.priority,unitCount:subject.units.length,officialItems:[...new Set(subject.units.flatMap(u=>u.editalItems))].length,weightByPart:Object.fromEntries((plan?.blocks||[]).filter(b=>subject.units.some(u=>u.editalItems.some(i=>i.startsWith(b.id+'.')))).map(b=>[b.id.split('.')[0],b.weight]))},hub:subject.hub||null,state:latest?'em-estudo':units.some(u=>u.exposure.state!=='nao-registrada')?'exposicao-parcial-compartilhada':'nao-iniciada',sourceFingerprint:refFingerprint(root,refs),latestSession:latest?{id:latest.id,date:latest.date,startedAt:latest.startedAt||null,path:latest.sourcePath,diagnosis:latest.qualityNote||null}:null,lastCompletedUnit:closed.at(-1)?.id||null,results:modeResults,units,gaps,openDoubts:[...doubts.values()].filter(d=>d.status==='aberta'),pendingReviews:units.filter(u=>u.lastEvidenceDate).map(u=>({unitId:u.id,dueOn:u.retention.reviewDueOn,status:'retencao-da-unidade-nao-testada',rule:'Datas são propostas; comparar com a data atual no chat. Revisão no mesmo dia mede recuperação imediata.'})),recentMechanisms:[...new Set(qs.slice(-24).map(q=>q.mechanism))],sources:Object.fromEntries(sourceIds.map(id=>[id,plan?.sources[id]||{label:'Edital do concurso: conferir recorte e norma indicada',ref:contest.sourcePath}])),resume:next,limits:[]};
       if(!plan)context.limits.push('Plano do edital ainda não auditado: inventário de notas, não percurso validado.');
       if(qs.some(q=>!unitOf(q)))context.limits.push('Há itens históricos sem unidade explicitamente mapeada; entram só nas métricas da matéria.');
       if(latest&&!latest.learning)context.limits.push('Último checkpoint legado: exposição/fronteiras usam evidência do hub; o próximo registro deve usar schemaVersion 2.');

@@ -1235,3 +1235,8 @@ Regras reunidas no AGENTS.md da raiz, com remoção do arquivo duplicado, preser
 ## 2026-11-03: continuidade de estudo por matéria
 
 Auditado o fluxo e implementado catálogo inicial CGU, checkpoints de formato 2, contextos por matéria, filas paginadas e roteamento natural. Distintos conhecimento, exposição, aprendizagem, desempenho competitivo e retenção. Preservados sessões antigas, respostas, notas, hubs e interface; nenhuma aula/questão fictícia incorporada ao histórico. Testes de retorno após troca de matéria e em outro dia executados em área temporária. Documentação em 1 - Planejamento/Continuidade de estudo por materia.md.
+
+
+## 2026-11-04: perfil de banca explícito na retomada CGU
+
+CGU 2026/Cebraspe/C-E explicitado no protocolo, nas instruções e em todos os contextos gerados. Prompts Dataprev/FGV delimitados ao seu concurso. Validadores rejeitam troca para FGV e sessões A-E na CGU, mantendo fontes históricas e dados anteriores.

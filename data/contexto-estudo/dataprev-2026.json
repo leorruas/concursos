@@ -1,6 +1,22 @@
 {
   "schemaVersion": 1,
   "concursoId": "dataprev-2026",
+  "banca": "FGV",
+  "activeExam": {
+    "concursoId": "dataprev-2026",
+    "banca": "FGV",
+    "questionFormat": "AE",
+    "answerOptions": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "instruction": "Concurso-alvo: Dataprev 2026. Banca: FGV. Formato de treino: múltipla escolha A–E. Aplicar esse perfil em todas as matérias e na retomada; protocolos de outro concurso permanecem restritos ao respectivo concurso.",
+    "metadataSource": "data/concursos.json",
+    "historicalSourcesRole": "Fontes históricas e de outras bancas servem como apoio de conteúdo; sua origem não redefine banca, formato ou pontuação do concurso-alvo."
+  },
   "cut": "2026-11-04",
   "coverage": "somente itens individualizados; legado pode ser parcial",
   "totals": [

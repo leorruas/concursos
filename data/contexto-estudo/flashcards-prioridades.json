@@ -117,6 +117,18 @@
       ]
     },
     {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "classificacao-programatica",
+      "priority": 300,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "classificacao-institucional-vs-programatica"
+      ]
+    },
+    {
       "examId": "dataprev-2026",
       "subjectId": "comunicacao",
       "cardId": "dp-duarte-eixos",
@@ -566,6 +578,18 @@
     {
       "examId": "cgu-2026",
       "subjectId": "orcamento-publico",
+      "cardId": "elemento-material-consumo",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "gnd-vs-elemento-vs-fonte"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
       "cardId": "gnd",
       "priority": 200,
       "status": "pendente",
@@ -574,6 +598,19 @@
       "conceptIds": [
         "projeto-acao-vs-gnd-investimento",
         "gnd-vs-elemento-vs-fonte"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "gnd-investimentos",
+      "priority": 200,
+      "status": "pendente",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "projeto-acao-vs-gnd-investimento",
+        "esfera-vs-natureza-investimento"
       ]
     },
     {
@@ -718,6 +755,18 @@
       "dueOn": "2026-11-05",
       "conceptIds": [
         "vouching-ocorrencia-versus-integridade"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "orcamento-publico",
+      "cardId": "categoria-economica-despesa",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 1,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "esfera-vs-natureza-investimento"
       ]
     },
     {

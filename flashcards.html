@@ -14,18 +14,17 @@
 <div class="fc-section-label"><h2>Seu repertório</h2><span>lembrar é diferente de reconhecer</span></div>
 <div id="fc-stats" class="fc-stats"></div>
 <div class="fc-session-note"><strong>Erros das questões</strong><p id="fc-errors-status">Importe o arquivo de prioridades do estudo para orientar as próximas rodadas.</p><div class="fc-actions"><label class="fc-import">Importar prioridades <input id="fc-errors-import" type="file" accept="application/json,.json"></label><button id="fc-errors-clear" type="button" hidden>Remover prioridades</button></div></div>
-<div class="fc-setup"><div class="fc-setup-heading"><p class="fc-eyebrow">PRÓXIMA RODADA</p><h2>Um pouco, todos os dias.</h2><p>Até 10 cartões. Cerca de 5 minutos.<br>Seu ponto de partida, no seu ritmo.</p><div class="fc-session-note"><strong>Como estudar</strong><p>Pense na resposta antes de revelar. Depois, avalie o que conseguiu recuperar.</p></div></div>
+<div class="fc-setup"><div class="fc-setup-heading"><p class="fc-eyebrow">PRÓXIMA SESSÃO</p><h2>Estude no seu ritmo.</h2><p>Continue enquanto houver cartões elegíveis. Encerre quando quiser, preservando as revisões.</p><div class="fc-session-note"><strong>Como estudar</strong><p>Pense na resposta antes de revelar. Depois, avalie o que conseguiu recuperar.</p></div></div>
 <form id="fc-form" class="fc-controls">
 <label for="fc-exam">Concurso</label><select id="fc-exam" name="exam"></select>
 <label for="fc-subject">Matéria</label><select id="fc-subject" name="subject"></select>
 <div class="fc-control-pair"><div><label for="fc-mode">O que estudar</label><select id="fc-mode" name="mode"><option value="mixed">Revisões + novos</option><option value="new">Novos conceitos</option><option value="due">Revisões pendentes</option><option value="difficult">Conceitos difíceis</option><option value="errors">Erros das questões</option></select></div>
 <div><label for="fc-direction">Como lembrar</label><select id="fc-direction" name="direction"><option value="alternate">Direta e inversa</option><option value="forward">Termo → definição</option><option value="reverse">Definição → termo</option><option value="contrast">Contrastes</option></select></div></div>
-<div class="fc-actions"><button class="fc-primary" type="submit">Começar rodada</button><button id="fc-resume" type="button" hidden>Continuar rodada salva</button></div>
+<div class="fc-actions"><button class="fc-primary" type="submit">Começar sessão</button><button id="fc-resume" type="button" hidden>Retomar sessão interrompida</button></div>
 </form></div>
 </section>
 <section id="fc-round" hidden aria-labelledby="fc-prompt">
-<div class="fc-round-top"><div><p class="fc-eyebrow">SESSÃO DE ESTUDO</p><span id="fc-position"></span></div><button id="fc-pause" type="button">Pausar</button></div>
-<progress id="fc-progress" max="10" value="0" aria-label="Progresso da rodada"></progress>
+<div class="fc-round-top"><div><p class="fc-eyebrow">SESSÃO DE ESTUDO</p><span id="fc-position"></span></div><button id="fc-pause" type="button">Encerrar por agora</button></div>
 <article class="fc-card"><div class="fc-question"><p id="fc-kind" class="fc-eyebrow"></p><h2 id="fc-prompt" tabindex="-1"></h2>
 <p id="fc-priority-hint" class="fc-keyboard-note" hidden></p>
 <p id="fc-instruction">O que você lembra sobre isso?</p>
@@ -35,9 +34,9 @@
 </article>
 <p class="fc-keyboard-note">Espaço para revelar · 1, 2 ou 3 para avaliar · progresso salvo a cada cartão</p>
 </section>
-<section id="fc-summary" hidden tabindex="-1"><p class="fc-eyebrow">POR HOJE, MAIS UM PASSO.</p><h2>Rodada concluída.</h2><p id="fc-summary-text"></p><button id="fc-another" class="fc-primary" type="button">Escolher próxima rodada</button></section>
+<section id="fc-summary" hidden tabindex="-1"><p class="fc-eyebrow">REVISÃO E CONTINUIDADE</p><h2 id="fc-summary-heading">Sessão encerrada.</h2><p id="fc-summary-text"></p><div class="fc-actions"><button id="fc-summary-end" type="button" hidden>Encerrar por agora</button><button id="fc-another" class="fc-primary" type="button">Escolher outra sessão</button></div></section>
 <details class="fc-help"><summary>Sobre as revisões e seu progresso</summary>
-<p>“Não sei”: volta em 10 minutos e, se houver espaço, depois de três cartões nesta rodada. “Quase lembrei”: volta em 1 dia. “Sei”: intervalos de 1, 3, 7, 14 e 30 dias. Repetir antes de 20 horas não aumenta a sequência de lembranças espaçadas.</p>
+<p>“Não sei”: volta em 10 minutos e pode reaparecer nesta sessão após três outros conceitos distintos, quando houver cartões suficientes. “Quase lembrei”: volta em 1 dia. “Sei”: intervalos de 1, 3, 7, 14 e 30 dias. Repetir antes de 20 horas não aumenta a sequência de lembranças espaçadas.</p>
 <p>Direta, inversa e contraste têm históricos separados. “Conhecidos” exige três lembranças espaçadas em cada uma das duas direções; é um indicador de vocabulário, não de domínio do edital. “Precisam de revisão” pode incluir conceitos conhecidos ou em aprendizagem. A autoavaliação não equivale a acerto em questão Cebraspe.</p>
 <p>Erros das questões: a consolidação das sessões gera <code>data/contexto-estudo/flashcards-prioridades.json</code> no GitHub. Baixe esse arquivo e use “Importar prioridades” acima. Ele orienta as próximas rodadas e preserva seu progresso. Após novas baterias, importe a versão atualizada. O arquivo pessoal não é copiado para o site público. Conceitos ainda sem cartão ficam na fila editorial do arquivo.</p>
 <p>Uma lembrança neste cartão não encerra um erro das questões. A prioridade só muda com nova evidência de recuperação nas sessões e a importação atualizada. Recuperações imediatas continuam aguardando revisão posterior.</p>

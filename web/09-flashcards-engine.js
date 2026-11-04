@@ -4,7 +4,7 @@
     const DAY = 86400000;
     const KEY = 'concursos-flashcards-v1';
     const directions = ['forward', 'reverse', 'contrast'];
-    const empty = () => ({ version: 1, reviews: {}, session: null, priorities: null });
+    const empty = () => ({ version: 2, reviews: {}, session: null, priorities: null, lastSession: null });
     const reviewKey = (id, direction) => `${id}:${direction}`;
     function validReview(r) {
         return r && ['again', 'hard', 'good'].includes(r.grade) &&
@@ -12,9 +12,13 @@
             ['streak', 'attempts'].every(k => Number.isSafeInteger(r[k]) && r[k] >= 0) && r.streak <= 5;
     }
     function validateState(value, cards) {
-        if (!value || value.version !== 1 || !value.reviews || Array.isArray(value.reviews) || typeof value.reviews !== 'object') throw Error('Formato de progresso inválido.');
+        if (!value || ![1,2].includes(value.version) || !value.reviews || Array.isArray(value.reviews) || typeof value.reviews !== 'object') throw Error('Formato de progresso inválido.');
         const ids = new Set(cards.map(c => c.id));
         const out = empty();
+        const validPair = q => q && ids.has(q.id) && directions.includes(q.direction);
+        const validInteger = n => Number.isSafeInteger(n) && n >= 0;
+        const validSessionScope = a => a && typeof a.exam === 'string' && typeof a.subject === 'string' &&
+            ['mixed','new','difficult','due','errors'].includes(a.mode) && ['forward','reverse','alternate','contrast'].includes(a.direction);
         for (const [key, r] of Object.entries(value.reviews)) {
             const i = key.lastIndexOf(':');
             if (!ids.has(key.slice(0, i)) || !directions.includes(key.slice(i + 1))) continue;
@@ -23,11 +27,50 @@
         }
         const s = value.session;
         if (s != null) {
-            if (!s || !Array.isArray(s.queue) || s.queue.length > 10 || !Number.isSafeInteger(s.position) || s.position < 0 || s.position > s.queue.length || typeof s.exam !== 'string' || typeof s.subject !== 'string' || !['mixed','new','difficult','due','errors'].includes(s.mode) || !['forward','reverse','alternate','contrast'].includes(s.direction)) throw Error('Sessão salva inválida.');
-            if (s.queue.some(q => !q || !ids.has(q.id) || !directions.includes(q.direction))) throw Error('Os cartões da sessão mudaram. Importe apenas as revisões ou inicie nova rodada.');
-            out.session = { exam:s.exam, subject:s.subject, mode:s.mode, direction:s.direction, position:s.position, queue:s.queue.map(q => ({id:q.id,direction:q.direction})) };
+            if (!validSessionScope(s) || !Array.isArray(s.queue) || s.queue.length > 10 ||
+                !validInteger(s.position) || s.position > s.queue.length || s.queue.some(q => !validPair(q)))
+                throw Error('Sessão salva inválida.');
+            if (value.version === 1) {
+                // A rodada antiga pode conter retornos de erros; preservar somente sua fila não avaliada.
+                if (s.position < s.queue.length) {
+                    const completed=s.queue.slice(0,s.position);
+                    out.session = {
+                        exam:s.exam, subject:s.subject, mode:s.mode, direction:s.direction,
+                        queue:s.queue.slice(s.position).map(q=>({id:q.id,direction:q.direction})), position:0,
+                        graded:s.position, grades:{again:0,hard:0,good:0}, legacyGraded:s.position,
+                        seen:[...new Set(completed.map(q=>q.id))], recent:completed.slice(-3).map(q=>q.id),
+                        retries:[], retried:[]
+                    };
+                }
+            } else {
+                if (!validInteger(s.graded) || !s.grades || !['again','hard','good'].every(k=>validInteger(s.grades[k])) ||
+                    !validInteger(s.legacyGraded) || s.graded !== s.legacyGraded + s.grades.again + s.grades.hard + s.grades.good ||
+                    !Array.isArray(s.seen) || s.seen.length > ids.size || s.seen.some(id=>!ids.has(id)) ||
+                    new Set(s.seen).size !== s.seen.length || !Array.isArray(s.recent) || s.recent.length > 3 ||
+                    s.recent.some(id=>!ids.has(id)) || !Array.isArray(s.retries) || s.retries.length > ids.size ||
+                    s.retries.some(q=>!validPair(q)||!validInteger(q.after)) || !Array.isArray(s.retried) ||
+                    s.retried.length > ids.size*3 || new Set(s.retried).size !== s.retried.length ||
+                    s.retried.some(key=>{const i=key.lastIndexOf(':');return !ids.has(key.slice(0,i))||!directions.includes(key.slice(i+1));}))
+                    throw Error('Sessão contínua inválida.');
+                out.session = {
+                    exam:s.exam, subject:s.subject, mode:s.mode, direction:s.direction,
+                    queue:s.queue.map(q=>({id:q.id,direction:q.direction})), position:s.position,
+                    graded:s.graded, grades:{...s.grades}, legacyGraded:s.legacyGraded,
+                    seen:[...s.seen], recent:[...s.recent],
+                    retries:s.retries.map(q=>({id:q.id,direction:q.direction,after:q.after})), retried:[...s.retried]
+                };
+            }
         }
-        if(value.priorities)out.priorities=validatePriorities(value.priorities,cards);
+        if (value.priorities) out.priorities=validatePriorities(value.priorities,cards);
+        if (value.version===2 && value.lastSession!=null) {
+            const x=value.lastSession;
+            if (!x || !validInteger(x.graded) || !validInteger(x.distinct) || x.distinct>ids.size ||
+                !validInteger(x.legacyGraded) || !validInteger(x.closedAt) || !x.grades ||
+                !['again','hard','good'].every(k=>validInteger(x.grades[k])) ||
+                x.graded !== x.legacyGraded+x.grades.again+x.grades.hard+x.grades.good)
+                throw Error('Resumo de sessão inválido.');
+            out.lastSession={graded:x.graded,distinct:x.distinct,legacyGraded:x.legacyGraded,closedAt:x.closedAt,grades:{...x.grades}};
+        }
         return out;
     }
     function schedule(previous, grade, now = Date.now()) {
@@ -86,18 +129,68 @@
         }
         return result;
     }
+    function start(cards,state,options,now=Date.now(),random=Math.random) {
+        if (state.session) throw Error('Encerre a sessão anterior antes de começar outra.');
+        const s={exam:options.exam,subject:options.subject,mode:options.mode,direction:options.direction,
+            queue:[],position:0,graded:0,grades:{again:0,hard:0,good:0},legacyGraded:0,
+            seen:[],recent:[],retries:[],retried:[]};
+        return refill(cards,{...state,session:s},now,random);
+    }
+    function refill(cards,state,now=Date.now(),random=Math.random) {
+        const out=JSON.parse(JSON.stringify(state)),s=out.session;
+        if (!s || s.position<s.queue.length) return out;
+        s.queue=select(cards.filter(c=>!s.seen.includes(c.id)),out,s,now,random);
+        s.position=0;
+        return out;
+    }
     function rate(state,grade,now=Date.now()) {
-        const out=JSON.parse(JSON.stringify(state)), s=out.session;
+        const out=JSON.parse(JSON.stringify(state)),s=out.session;
         if (!s || s.position>=s.queue.length) throw Error('Sem cartão ativo.');
-        const q=s.queue[s.position], key=reviewKey(q.id,q.direction);
+        const q=s.queue[s.position],key=reviewKey(q.id,q.direction);
         out.reviews[key]=schedule(out.reviews[key],grade,now);
         s.position++;
-        // A failed concept returns after three intervening retrievals, within the 10-card round.
-        if (grade==='again' && s.position+3 < 10 && s.queue.length>=s.position+3 && !s.queue.slice(s.position).some(x=>x.id===q.id && x.direction===q.direction)) {
-            s.queue.splice(s.position+3,0,q);
-            s.queue=s.queue.slice(0,10);
+        s.graded++;
+        s.grades[grade]++;
+        if (!s.seen.includes(q.id)) s.seen.push(q.id);
+        s.recent.push(q.id);
+        s.recent=s.recent.slice(-3);
+        // Retorno único por direção na sessão: três OUTROS conceitos distintos antes do erro.
+        if (grade==='again' && !s.retried.includes(key) &&
+            !s.retries.some(x=>reviewKey(x.id,x.direction)===key) &&
+            !s.queue.slice(s.position).some(x=>reviewKey(x.id,x.direction)===key)) {
+            s.retries.push({id:q.id,direction:q.direction,after:s.graded+3});
+            s.retried.push(key);
+        }
+        const ready=s.retries.findIndex(x=>s.graded>=x.after && s.recent.length===3 &&
+            new Set(s.recent).size===3 && s.recent.every(id=>id!==x.id) &&
+            !s.queue.slice(s.position).some(y=>y.id===x.id));
+        if (ready>=0) {
+            const [retry]=s.retries.splice(ready,1);
+            if (s.queue.length>=10) s.queue.pop(); // O cartão deslocado continua elegível na próxima janela.
+            s.queue.splice(s.position,0,{id:retry.id,direction:retry.direction});
         }
         return out;
     }
-    root.Flashcards={DAY,KEY,empty,reviewKey,validateState,schedule,select,stats,rate,validatePriorities,studyPriority};
+    function finish(state,now=Date.now()) {
+        if (!state.session) return state;
+        const out=JSON.parse(JSON.stringify(state)),s=out.session;
+        out.lastSession={graded:s.graded,grades:{...s.grades},legacyGraded:s.legacyGraded,
+            distinct:s.seen.length,closedAt:now};
+        out.session=null;
+        return out;
+    }
+    function nextReview(cards,state,options,now=Date.now()) {
+        const ds=options.direction==='alternate'?['forward','reverse']:[options.direction];
+        let next=null;
+        for(const c of cards) {
+            if(!c.examIds.includes(options.exam) || (options.subject&&!c.subjectIds.includes(options.subject)))continue;
+            for(const d of ds) {
+                if(d==='contrast'&&!c.contrast)continue;
+                const due=state.reviews[reviewKey(c.id,d)]?.due;
+                if(due>now && (next===null || due<next))next=due;
+            }
+        }
+        return next;
+    }
+    root.Flashcards={DAY,KEY,empty,reviewKey,validateState,schedule,select,stats,start,refill,rate,finish,nextReview,validatePriorities,studyPriority};
 })(typeof window !== 'undefined' ? window : globalThis);

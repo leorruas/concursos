@@ -10,11 +10,11 @@ const F=ctx.Flashcards, data=JSON.parse(fs.readFileSync(new URL('../data/flashca
 const now=Date.UTC(2026,10,4), options={exam:'cgu-2026',subject:'orcamento-publico',mode:'new',direction:'forward'};
 assert.equal(F.stats(cards,F.empty(),now).unseen,cards.length);
 const queue=F.select(cards,F.empty(),options,now,()=>.5);assert.equal(queue.length,10);assert.equal(new Set(queue.map(q=>q.id)).size,10);
-let state={...F.empty(),session:{...options,queue,position:0}};
-const id=queue[0].id;
-state=F.rate(state,'again',now);assert.equal(state.session.position,1);assert.equal(state.reviews[id+':forward'].due,now+600000);assert.equal(state.session.queue[4].id,id);
+let state=F.start(cards,F.empty(),options,now,()=>.5);
+const id=state.session.queue[0].id;
+state=F.rate(state,'again',now);assert.equal(state.session.position,1);assert.equal(state.reviews[id+':forward'].due,now+600000);assert.equal(state.session.retries[0].id,id);
 assert.equal(state.session.queue.length,10);
-const roundtrip=F.validateState(JSON.parse(JSON.stringify(state)),cards);assert.equal(roundtrip.session.position,1);assert.equal(roundtrip.session.queue[4].id,id);
+const roundtrip=F.validateState(JSON.parse(JSON.stringify(state)),cards);assert.equal(roundtrip.session.position,1);assert.equal(roundtrip.session.retries[0].id,id);
 assert.equal(F.stats(cards,state,now).known,0);assert.equal(F.stats(cards,state,now).unknown,1);
 let r=F.schedule(undefined,'good',now);assert.equal(r.streak,1);assert.equal(r.due,now+F.DAY);
 r=F.schedule(r,'good',now+1000);assert.equal(r.streak,1,'rehearsal must not advance spaced streak');
@@ -33,7 +33,45 @@ assert.throws(()=>F.validateState({version:1,reviews:{[id+':forward']:{grade:'go
 assert.throws(()=>F.validateState({...state,session:{...state.session,position:99}},cards));
 const bad=structuredClone(data);bad.cards[0].note.section='Seção que não existe';assert.throws(()=>validateFlashcards(bad,root));
 const duplicate=structuredClone(data);duplicate.cards.push(duplicate.cards[0]);assert.throws(()=>validateFlashcards(duplicate,root));
-console.log('SUCESSO: agendamento, lembranças espaçadas, inversão, contraste, priorização, isolamento por edital, retomada JSON e rejeição de dados inválidos.');
+
+let continuous=F.start(cards,F.empty(),options,now,()=>.5);
+for(let i=0;i<13;i++) {
+    assert(continuous.session.queue[continuous.session.position],'Sessão terminou antes de 13 apresentações');
+    continuous=F.refill(cards,F.rate(continuous,'good',now+i*1000),now+i*1000,()=>.5);
+}
+assert.equal(continuous.session.graded,13,'Permite estudar além de dez sem reiniciar');
+assert(continuous.session.queue.length<=10,'Janela permanece limitada');
+const restored=F.validateState(JSON.parse(JSON.stringify(continuous)),cards);
+assert.equal(restored.session.graded,13,'Recarga preserva avaliação e posição');
+const finished=F.finish(restored,now+13000);
+assert.equal(finished.session,null,'Encerrar não mantém sessão ativa');
+assert.equal(finished.lastSession.graded,13);
+assert.equal(finished.lastSession.grades.good,13);
+assert.equal(finished.lastSession.distinct,13);
+assert.equal(F.validateState(JSON.parse(JSON.stringify(finished)),cards).lastSession.graded,13);
+assert.equal(F.nextReview(cards,finished,options,now),now+F.DAY,'Agendamento preservado no fechamento');
+
+const four=cards.filter(c=>c.examIds.includes(options.exam)&&c.subjectIds.includes(options.subject)).slice(0,4);
+let small=F.start(four,F.empty(),options,now,()=>.5);
+const failedId=small.session.queue[0].id;
+small=F.refill(four,F.rate(small,'again',now),now,()=>.5);
+for(let i=0;i<3;i++)small=F.refill(four,F.rate(small,'good',now+(i+1)*1000),now+(i+1)*1000,()=>.5);
+assert.equal(small.session.queue[small.session.position].id,failedId,'Não sei retorna após três OUTROS conceitos');
+small=F.refill(four,F.rate(small,'again',now+4000),now+4000,()=>.5);
+assert.equal(small.session.retries.length,0,'Não sei repetido não cria ciclo infinito na mesma sessão');
+assert.equal(small.session.queue.length,0,'Fila pequena termina sem duplicar revisões');
+
+const legacy={version:1,reviews:state.reviews,session:{...options,queue:[{id,direction:'forward'},{id:queue[1].id,direction:'forward'}],position:1},priorities:null};
+const migrated=F.validateState(legacy,cards);
+assert.equal(migrated.version,2);
+assert.equal(migrated.session.graded,1);
+assert.equal(migrated.session.legacyGraded,1);
+assert.equal(migrated.session.queue[0].id,queue[1].id,'Preserva cartão não avaliado');
+assert.equal(migrated.reviews[id+':forward'].grade,'again','Preserva avaliação antiga');
+assert.equal(F.validateState({...legacy,session:{...legacy.session,position:2}},cards).session,null,'Rodada antiga concluída não reabre');
+assert.throws(()=>F.validateState({...continuous,session:{...continuous.session,seen:['inexistente']}},cards));
+assert.throws(()=>F.validateState({...continuous,session:{...continuous.session,queue:Array(11).fill({id,direction:'forward'})}},cards));
+console.log('SUCESSO: sessão contínua, fila limitada, retentativa, migração v1, encerramento, agendamento e validação de backup.');
 
 // Prioridade vem de questões; memória autodeclarada permanece independente.
 const target=cards.find(c=>c.id==='consultoria-previa-e-objetividade');
@@ -46,7 +84,7 @@ assert(!F.select(cards,prioritized,{...scope,subject:'orcamento-publico',mode:'e
 assert(!F.select(cards,prioritized,{...scope,exam:'dataprev-2026',mode:'errors'},now).length);
 prioritized.reviews[target.id+':forward']=F.schedule(undefined,'good',now);
 assert.equal(F.select(cards,prioritized,scope,now+1000)[0].id,target.id,'Erro pendente da questão permite retomar cartão antes do vencimento local');
-prioritized.session={...scope,mode:'errors',position:0,queue:[{id:target.id,direction:'forward'}]};
+prioritized=F.start(cards,prioritized,{...scope,mode:'errors'},now,()=>.5);
 const after=F.rate(prioritized,'good',now+1000);
 assert.equal(after.priorities.entries[0].status,'pendente','Sei no cartão não resolve erro de questão');
 assert.equal(F.validateState(JSON.parse(JSON.stringify(after)),cards).priorities.entries[0].cardId,target.id);

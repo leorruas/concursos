@@ -32,7 +32,7 @@ Isso exige duas atenções. Primeiro, o PPA não se reduz a uma lista de obras: 
 
 ### Vigência do PPA e transição de governos
 
-No regime federal previsto no ADCT, art. 35, § 2º, I, o PPA tem vigência **do segundo exercício financeiro do mandato presidencial até o fim do primeiro exercício do mandato seguinte**. Assim, a duração é de quatro exercícios, mas não coincide integralmente com os quatro anos do mesmo mandato.
+No regime federal previsto no **Ato das Disposições Constitucionais Transitórias (ADCT)**, art. 35, § 2º, I, o PPA tem vigência **do segundo exercício financeiro do mandato presidencial até o fim do primeiro exercício do mandato seguinte**. Assim, a duração é de quatro exercícios, mas não coincide integralmente com os quatro anos do mesmo mandato.
 
 Exemplo: o PPA **2024 a 2027** cobre os três últimos exercícios do mandato presidencial iniciado em 2023 e o primeiro exercício do mandato iniciado em 2027. É uma regra de continuidade intergovernamental. O exemplo de 2024 a 2027 é também o período previsto na Lei nº 14.802/2024.
 

@@ -1,1 +1,221 @@
-{"schemaVersion":2}
+{
+  "schemaVersion": 2,
+  "subjectId": "auditoria-governamental",
+  "unitId": "u07",
+  "id": "cgu-2026-auditoria-2026-11-04-analiticos-u07-recuperacao",
+  "date": "2026-11-04",
+  "startedAt": "2026-11-04T17:01:27-03:00",
+  "concursoId": "cgu-2026",
+  "banca": "Cebraspe",
+  "kind": "microtreino",
+  "trainingMode": "aprendizagem",
+  "status": "concluido",
+  "diagnosis": "5/5 corretas e seguras, sem brancos, em treino didático de procedimentos analíticos u07. Recuperação imediata do erro sobre expectativa substantiva e acertos sobre planejamento, testes de detalhes, limites da inferência e qualidade das evidências. Reteste tematicamente próximo do anterior, sem benchmark calibrado ou retenção espaçada.",
+  "nextStep": "Preparar treino para valer da unidade 07 com corpus Cebraspe identificado e depois realizar fechamento editorial. Reter para revisão posterior procedimentos analíticos, recálculo, vouching/rastreamento, consultoria e dúvidas anteriores.",
+  "noveltyException": "Bateria intencionalmente dedicada ao reparo de erro anterior: Q1 quase idêntica no mecanismo; demais itens retomam contrastes ensinados. Não mede transferência independente nem prontidão competitiva.",
+  "learning": {
+    "stage": "aprendizagem",
+    "taughtConcepts": [
+      "Finalidade analítica substantiva versus uso de análise no planejamento.",
+      "Teste de detalhes e limite de inferências sobre totais.",
+      "Precisão da expectativa e confiabilidade dos dados."
+    ],
+    "boundaries": [
+      "Finalidade do exame versus técnica.",
+      "Exame de totais versus regularidade individual.",
+      "Qualidade dos dados e necessidade de procedimentos adicionais."
+    ],
+    "pending": [
+      "A recuperação foi no mesmo dia com questões semelhantes; verificar retenção depois por mecanismo diferente.",
+      "Revisar recálculo/reexecução e veracidade dos insumos, com insegurança anterior.",
+      "Manter revisão de rastreamento/vouching, consultoria, RAINT/parecer e segunda/terceira linha.",
+      "Unidade 07 não concluída didaticamente até treino competitivo e fechamento editorial."
+    ],
+    "unitCompleted": false,
+    "next": {
+      "unitId": "u07",
+      "stage": "para_valer",
+      "objective": "Preparar treino para valer baseado em corpus Cebraspe identificado; depois corrigir e consolidar editorialmente a unidade 07.",
+      "noteRef": "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria",
+      "sourceIds": [
+        "mot",
+        "referencial"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "number": 1,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Expectativa substantiva",
+      "questionType": "application",
+      "conceptId": "procedimento-analitico-substantivo",
+      "mechanism": "expectativa-beneficios-meses",
+      "distractorMechanism": "confundir-analitico-e-detalhes",
+      "statement": "Durante a execução da auditoria, uma equipe compara o total de benefícios registrados com uma expectativa construída a partir de beneficiários ativos, valores regulamentares e meses de pagamento. O procedimento pode ser classificado como analítico substantivo, ainda que não examine individualmente cada pagamento.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "A comparação entre valores registrados e uma expectativa confiável pode constituir procedimento analítico substantivo; não depende de examinar todos os pagamentos.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Procedimento substantivo: detalhes e análise"
+      ],
+      "retrievalOf": [
+        "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q3"
+      ],
+      "repetition": {
+        "classification": "mechanical",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q3"
+        ],
+        "intentional": true,
+        "transformation": "Reteste mecânico intencional da expectativa de pagamentos anteriormente errada."
+      }
+    },
+    {
+      "number": 2,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Planejamento e finalidade",
+      "questionType": "application",
+      "conceptId": "finalidade-analise-planejamento",
+      "mechanism": "analise-para-selecao-objetos",
+      "distractorMechanism": "classificar-pela-tecnica",
+      "statement": "Na elaboração do planejamento anual, uma unidade de auditoria compara a evolução das despesas entre órgãos para selecionar objetos prioritários. Por utilizar relações entre valores financeiros, essa comparação constitui, necessariamente, procedimento analítico substantivo.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "explanation": "A análise feita para priorizar objetos no planejamento não é necessariamente substantiva. A finalidade do procedimento determina a classificação.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Procedimento substantivo: detalhes e análise"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q3"
+        ],
+        "intentional": true,
+        "transformation": "Revisão temática intencional de finalidade, detalhes ou alcance de evidência."
+      }
+    },
+    {
+      "number": 3,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Teste de detalhes",
+      "questionType": "classification",
+      "conceptId": "teste-substantivo-detalhes",
+      "mechanism": "exame-individual-pagamentos",
+      "distractorMechanism": "confundir-controle-e-detalhes",
+      "statement": "A verificação dos requisitos de elegibilidade, da autorização e do valor de cada benefício em uma seleção de pagamentos caracteriza teste substantivo de detalhes quando se destina a obter evidência sobre a regularidade dessas operações.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Verificar diretamente regularidade, elegibilidade e valores de pagamentos selecionados caracteriza teste substantivo de detalhes; a inspeção documental também pode servir a outras finalidades.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Procedimento substantivo: detalhes e análise"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-q1"
+        ],
+        "intentional": true,
+        "transformation": "Revisão temática intencional de finalidade, detalhes ou alcance de evidência."
+      }
+    },
+    {
+      "number": 4,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Limites da comparação agregada",
+      "questionType": "application",
+      "conceptId": "limites-analise-agregada",
+      "mechanism": "total-nao-comprova-cada-concessao",
+      "distractorMechanism": "generalizar-total-para-individuos",
+      "statement": "Se o valor total de pagamentos coincide com uma expectativa construída a partir de dados confiáveis, a auditoria pode concluir, apenas com essa correspondência, que todas as concessões individuais foram regulares.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "explanation": "A correspondência de totais não comprova a regularidade de cada concessão; pagamentos indevidos e omissões podem se compensar.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Procedimento substantivo: detalhes e análise"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q3"
+        ],
+        "intentional": true,
+        "transformation": "Revisão temática intencional de finalidade, detalhes ou alcance de evidência."
+      }
+    },
+    {
+      "number": 5,
+      "unitId": "u07",
+      "discipline": "Auditoria Governamental",
+      "topic": "Procedimentos e testes de auditoria",
+      "subtopic": "Precisão e confiabilidade",
+      "questionType": "application",
+      "conceptId": "precisao-confiabilidade-analitico",
+      "mechanism": "qualidade-expectativa-e-dados",
+      "distractorMechanism": "ignorar-qualidade-da-expectativa",
+      "statement": "A precisão da expectativa e a confiabilidade dos dados utilizados influenciam a força da evidência obtida por procedimento analítico substantivo, podendo tornar necessários exames complementares.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "explanation": "Precisão da expectativa e confiabilidade dos dados condicionam a força da evidência e podem exigir procedimentos adicionais.",
+      "format": "CE",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Procedimento substantivo: detalhes e análise"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q3"
+        ],
+        "intentional": true,
+        "transformation": "Revisão temática intencional de finalidade, detalhes ou alcance de evidência."
+      }
+    }
+  ]
+}

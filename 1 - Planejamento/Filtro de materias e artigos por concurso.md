@@ -84,7 +84,9 @@ Esta primeira associação é um **mapa editorial de navegação**, não uma dec
 
 **Fase 2: grade de matérias filtrada na home.** O catálogo passa a alimentar a grade conforme o concurso selecionado, com ordem 01–15 (CGU), 01–06 (Dataprev) e 01–11 (Câmara). A escolha permanece válida mesmo depois da prova e é salva numa única função de seleção. Os testes verificam a troca entre três concursos sem misturar disciplinas. O modo de biblioteca geral ainda é o fallback identificado quando o catálogo falha.
 
-**Fases seguintes:** adicionar seletor à lista interna dos artigos, filtrar seus vínculos por edital, preservar rotas e busca contextual, e validar a navegação completa.
+**Fase 3: seletor dentro da matéria e filtragem dos artigos.** O mesmo seletor textual da home passou a aparecer acima da lista de artigos. O sistema usa `articleSourcePaths` do par concurso/matéria, inclui o hub uma única vez, atualiza a numeração da lista e informa quando uma matéria não está prevista para o concurso recém-selecionado. O teste cobre artigos compartilhados, listas distintas, hub único e ausência de conteúdo.
+
+**Fases seguintes:** preservar o concurso na URL e na navegação entre matérias e artigos, inclusive links diretos; disponibilizar biblioteca completa e busca contextual opcional; testar fluxos de retorno e publicar a experiência final.
 
 ## Critérios de aceite
 
@@ -94,4 +96,4 @@ Esta primeira associação é um **mapa editorial de navegação**, não uma dec
 - Matéria não prevista no concurso escolhido gera mensagem clara; artigo público aberto por link direto permanece acessível. Os estados de concurso são preservados na navegação.
 - Não há vazamento de dados de estudo ou arquivos privados; a busca geral continua disponível e os testes mais o Pages confirmam o comportamento implantado.
 
-**Separação importante:** este plano descreve a futura filtragem. A correção de números da **biblioteca geral** já está incluída na mudança desta data, mas o catálogo por concurso, os dois seletores sincronizados e a filtragem de artigos ainda **não estão implementados**.
+**Estado atual:** catálogo público, filtro e numeração da home, seletor e listas internas de artigos foram implementados. Navegação contextual por URL, busca filtrada e opção explícita de biblioteca completa permanecem para a fase seguinte.

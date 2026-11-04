@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import { articleMetadata, validateIdentities, resolveCatalog } from './article-identity.js';
 import fs from 'fs';
 import path from 'path';
@@ -398,5 +399,17 @@ console.log('✓ Gerado _site/manifest.json com sucesso.');
 const searchIndexPath = path.join(outDir, 'search-index.json');
 fs.writeFileSync(searchIndexPath, indiceBuscaSerializado, 'utf8');
 console.log('✓ Gerado _site/search-index.json com sucesso.');
+
+// A URL dos arquivos visuais muda com seu conteúdo, evitando CSS/JS de outra publicação.
+const htmlPath = path.join(outDir, 'index.html');
+const htmlVersionado = fs.readFileSync(htmlPath, 'utf8').replace(/(src|href)="([^"?#]+\.(?:css|js))(?:\?[^"#]*)?"/g, (original, atributo, recurso) => {
+  if (/^(?:https?:|\/\/)/.test(recurso)) return original;
+  const destino = path.join(outDir, recurso);
+  if (!fs.existsSync(destino)) throw new Error('Recurso local ausente no build: ' + recurso);
+  const versao = createHash('sha256').update(fs.readFileSync(destino)).digest('hex').slice(0, 12);
+  return `${atributo}="${recurso}?v=${versao}"`;
+});
+fs.writeFileSync(htmlPath, htmlVersionado);
+console.log('✓ CSS e JavaScript locais versionados por conteúdo.');
 
 console.log('\nSUCESSO: Build estático concluído em _site/.');

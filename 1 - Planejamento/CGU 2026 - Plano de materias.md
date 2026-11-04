@@ -14,42 +14,34 @@ Cada frente possui hub navegável próprio, com unidades do programa e referênc
 
 ## Organização por bloco da prova
 
+### Auditoria governamental: transversal a P2 e P3
+
+1. [[3 - Materias/Auditoria Governamental/auditoria-governamental|Auditoria Governamental]]: 14 unidades; prioridade alta (a).
+
 ### P1: conhecimentos básicos, 40 itens (+1/-1/0)
 
-| Matéria | Unidades | Prioridade do plano |
-| :--- | ---: | :--- |
-| [[3 - Materias/Estado e Democracia/estado-e-democracia|Estado e democracia]] | 9 | Complementar (C) |
-| [[3 - Materias/Sociedade Brasileira/sociedade-brasileira|Sociedade brasileira]] | 5 | Complementar (C) |
-| [[3 - Materias/Etica Publica/etica-publica|Ética pública]] | 5 | Complementar (C) |
-| [[3 - Materias/Administracao Publica/administracao-publica|Administração Pública]] | 5 | Complementar (C) |
+2. [[3 - Materias/Estado e Democracia/estado-e-democracia|Estado e democracia]]: 9 unidades; prioridade complementar (c).
+3. [[3 - Materias/Sociedade Brasileira/sociedade-brasileira|Sociedade brasileira]]: 5 unidades; prioridade complementar (c).
+4. [[3 - Materias/Etica Publica/etica-publica|Ética pública]]: 5 unidades; prioridade complementar (c).
+5. [[3 - Materias/Administracao Publica/administracao-publica|Administração Pública]]: 5 unidades; prioridade complementar (c).
 
 ### P2: conhecimentos complementares, 40 itens (+1/-1/0)
 
-| Matéria | Unidades | Prioridade do plano |
-| :--- | ---: | :--- |
-| [[3 - Materias/Governanca Riscos e Integridade/governanca-riscos-e-integridade|Governança, riscos e integridade]] | 5 | Complementar (C) |
-| [[3 - Materias/Transparencia e Ouvidoria/transparencia-e-ouvidoria|Transparência e ouvidoria]] | 5 | Complementar (C) |
-| [[3 - Materias/Direito Administrativo/direito-administrativo|Direito Administrativo]] | 5 | Complementar (C) |
-| [[3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia|Evidências, dados e inteligência artificial]] | 5 | Complementar (C) |
+6. [[3 - Materias/Governanca Riscos e Integridade/governanca-riscos-e-integridade|Governança, riscos e integridade]]: 5 unidades; prioridade complementar (c).
+7. [[3 - Materias/Transparencia e Ouvidoria/transparencia-e-ouvidoria|Transparência e ouvidoria]]: 5 unidades; prioridade complementar (c).
+8. [[3 - Materias/Direito Administrativo/direito-administrativo|Direito Administrativo]]: 5 unidades; prioridade complementar (c).
+9. [[3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia|Evidências, dados e inteligência artificial]]: 5 unidades; prioridade complementar (c).
 
 ### P3: conhecimentos específicos, 90 itens (+2/-2/0)
 
-| Matéria | Unidades | Prioridade do plano |
-| :--- | ---: | :--- |
-| [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]] | 1 | Intermediária (B) |
-| [[3 - Materias/Orcamento Publico/orcamento-publico|Orçamento Público]] | 2 | Alta (A) |
-| [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]] | 5 | Alta (A) |
-| [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Políticas Públicas e avaliação]] | 7 | Intermediária (B) |
-| [[3 - Materias/Contratacoes e Transferencias/contratacoes-e-transferencias|Contratações e transferências]] | 5 | Intermediária (B) |
-| [[3 - Materias/Integridade e Responsabilizacao/integridade-e-responsabilizacao|Integridade e responsabilização]] | 7 | Intermediária (B) |
+10. [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]]: 1 unidade; prioridade intermediária (b).
+11. [[3 - Materias/Orcamento Publico/orcamento-publico|Orçamento Público]]: 2 unidades; prioridade alta (a).
+12. [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]: 5 unidades; prioridade alta (a).
+13. [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Avaliação de políticas públicas]]: 7 unidades; prioridade intermediária (b).
+14. [[3 - Materias/Contratacoes e Transferencias/contratacoes-e-transferencias|Contratações e transferências]]: 5 unidades; prioridade intermediária (b).
+15. [[3 - Materias/Integridade e Responsabilizacao/integridade-e-responsabilizacao|Integridade e responsabilização]]: 7 unidades; prioridade intermediária (b).
 
-### Transversal à P2 e P3
-
-| Matéria | Unidades | Prioridade do plano |
-| :--- | ---: | :--- |
-| [[3 - Materias/Auditoria Governamental/auditoria-governamental|Auditoria Governamental]] | 14 | Alta (A) |
-
-**Auditoria governamental** está listada à parte porque seu plano integra fundamentos de auditoria na P2 e conteúdos específicos na P3. Isso evita contá-la duas vezes como disciplina independente.
+**Auditoria governamental** reúne fundamentos da P2 e conteúdo específico da P3. A numeração 1 a 15 organiza as frentes do plano; não corresponde ao número oficial do item no edital nem define ordem rígida de aulas.
 
 ## Ordem sugerida e estratégia de continuidade
 

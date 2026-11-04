@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { editorialClosureErrors } from './editorial-closure-policy.js';
 import path from 'node:path';
 import os from 'node:os';
 import assert from 'node:assert/strict';
@@ -81,6 +82,22 @@ try{
   const summary=read('data/contexto-estudo/cgu-2026.json');assert.equal(summary.banca,'Cebraspe');assert.equal(summary.activeExam.questionFormat,'CE');
   for(const item of read('data/contexto-estudo/indice.json').contests.find(c=>c.concursoId==='cgu-2026').subjects){const c=read(item.path);assert.equal(c.activeExam.banca,'Cebraspe');assert.equal(c.activeExam.questionFormat,'CE');assert(c.activeExam.instruction.includes('Certo/Errado'));}
   assert.equal(examProfile(contests.find(c=>c.id==='dataprev-2026')).banca,'FGV','Correção da CGU preserva o perfil Dataprev');
+  // Fechamento didático pendente, recibo válido e reabertura por conteúdo posterior.
+  const closing=make('fechar','2026-11-30');closing.learning.unitCompleted=true;closing.learning.advanceWithGaps='Recuperação imediata com revisão posterior.';closing.learning.next={unitId:'u08',stage:'preparacao',objective:'Preparar unidade seguinte.',sourceIds:['mot']};save(closing);sync();
+  const unit7=()=>ctx('auditoria-governamental').units.find(u=>u.id==='u07');
+  assert.equal(unit7().didacticCompletion,true);assert.equal(ctx('auditoria-governamental').resume.stage,'consolidacao');assert.equal(ctx('auditoria-governamental').resume.afterEditorial.unitId,'u08');
+  const metricBefore=ctx('auditoria-governamental').results;
+  const receiptSession=make('recibo','2026-12-01');receiptSession.kind='fechamento';receiptSession.questions=[];receiptSession.learning={...structuredClone(closing.learning),stage:'consolidacao',taughtConcepts:[],boundaries:[],pending:[],unitCompleted:false,editorialConsolidation:{status:'revisado-sem-alteracao',noteRefs:closing.questions[0].theoryRefs,coveredSessionIds:unit7().editorial.requiredSessionIds,summary:'Fixture: artigos conferidos nas seções de finalidade e técnica.'}};save(receiptSession);sync();
+  assert.deepEqual(ctx('auditoria-governamental').results,metricBefore,'Recibo não inventa desempenho');assert.equal(unit7().editorial.status,'revisado-sem-alteracao');assert.equal(ctx('auditoria-governamental').resume.unitId,'u08');assert.equal(ctx('auditoria-governamental').lastEditoriallyClosedUnit,'u07');
+  receiptSession.learning.editorialConsolidation.coveredSessionIds.push(another.id);save(receiptSession);assert.throws(()=>prepare(root),/outra unidade/);receiptSession.learning.editorialConsolidation.coveredSessionIds.pop();save(receiptSession);
+  const noRef=structuredClone(receiptSession);noRef.learning.editorialConsolidation.noteRefs=['3 - Materias/Inexistente'];assert.throws(()=>validateSession(noRef,noRef.id+'.json',root,contests));
+  const extra=make('nuance-posterior','2026-12-02');save(extra);sync();assert.equal(unit7().editorial.status,'pendente');assert.equal(ctx('auditoria-governamental').resume.stage,'consolidacao');assert(unit7().editorial.requiredSessionIds.includes(extra.id));
+  const sessionPath='data/sessoes/fechar.json';const article=closing.questions[0].theoryRefs[0].split('#')[0]+'.md';const claim=structuredClone(receiptSession);claim.learning.editorialConsolidation.status='consolidado';const content=JSON.stringify(claim);
+  assert.equal(editorialClosureErrors([{path:sessionPath,status:'A'}],()=>content,()=>null).length,1);
+  assert.equal(editorialClosureErrors([{path:sessionPath,status:'A'},{path:article,status:'M'}],()=>content,()=>null).length,0);
+  assert.equal(editorialClosureErrors([{path:sessionPath,status:'M'}],()=>content,()=>content).length,0,'Correção sem mudar recibo não exige reescrever artigo');
+  assert.equal(editorialClosureErrors([{path:sessionPath,status:'A'}],()=>JSON.stringify(receiptSession),()=>null).length,0);
+  execFileSync('node',[path.join(actual,'scripts/question-ledger.js'),'--validate','--ledger',path.join(root,'data/questoes-ledger.json')],{stdio:'pipe'});
   const missing=structuredClone(plan);missing.subjects=missing.subjects.filter(s=>s.id!=='etica-publica');assert.throws(()=>validatePlan(root,missing,contests),/sem rota/);
   const cycle=structuredClone(plan);cycle.subjects[0].units[0].requires=['u02'];cycle.subjects[0].units[1].requires=['u01'];assert.throws(()=>validatePlan(root,cycle,contests),/Ciclo/);
   for(const c of read('data/contexto-estudo/indice.json').contests)for(const sub of c.subjects)assert(fs.statSync(path.join(root,sub.path)).size<65000,'Contexto compacto excede orçamento');

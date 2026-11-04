@@ -88,3 +88,22 @@ Dúvidas declaradas podem ser mantidas em `learning.doubts`: objetos `{id, text,
 A configuração inicial de disciplinas, unidades, fontes e pré-requisitos é `data/planos-estudo/cgu-2026.json`. O programa textual continua no edital; as notas continuam nos hubs canônicos. As evidências antigas não estruturadas foram auditadas com referência ao hub, sem recriar sessões. Novas exposições e resultados vêm da sessão; não atualizar esse catálogo a cada bateria. Outros concursos recebem inventário reutilizável por matéria, com a sequência do edital explicitamente ainda não auditada.
 
 A mesma consolidação gera `data/contexto-estudo/<concurso>/<materia>.json`, índice de roteamento e páginas de revisão com até 20 itens. O contexto contém até 20 lacunas prioritárias e aponta para a fila completa. Revisões usam intervalos propostos de 1, 7 e 21 dias, ajustáveis; não equivalem a garantias de retenção. O chat compara datas com hoje e escolhe um recorte viável, sem paralisar o estudo novo indefinidamente. Correção/anulação recalcula projeções e remove páginas derivadas excedentes.
+
+## Fechamento editorial obrigatório da unidade
+
+Ao encerrar didaticamente a unidade (`unitCompleted: true`), o contexto passa a exigir conferência dos artigos antes da próxima unidade. Baterias intermediárias mantêm o checkpoint único. No fechamento, o assistente lê as sessões da unidade e incorpora nas notas canônicas o que acrescenta explicação, fontes, fronteiras e exemplos, preservando os contratos editoriais. Registrar na sessão final `learning.editorialConsolidation`:
+
+```json
+{
+  "status": "consolidado",
+  "noteRefs": ["3 - Materias/Pasta/Nota#Seção exata"],
+  "coveredSessionIds": ["id-da-sessao-conferida"],
+  "summary": "Conceitos e fronteiras incorporados e respectivas seções."
+}
+```
+
+Usar `consolidado` quando houver alterações nos artigos no mesmo commit atômico. Se os artigos já contemplam integralmente as sessões, usar `revisado-sem-alteracao` e explicar concretamente em `summary` o que foi conferido. `coveredSessionIds` deve cobrir todos os IDs de `units[].editorial.requiredSessionIds`, sempre da mesma unidade, matéria e concurso, inclusive legado mapeado. Referências e seções precisam existir. A revisão editorial é responsabilidade do assistente; o validador verifica consistência, não qualidade semântica.
+
+Se o fechamento for feito depois da bateria, criar sessão `kind: "fechamento"`, `questions: []`, `learning.stage: "consolidacao"`, com os demais campos do formato 2. Não repetir aula ou respostas para registrar a conferência. Pode manter `unitCompleted: false` nesse recibo quando a conclusão já estiver documentada na sessão anterior. `learning.next` preserva o destino pedagógico. A sessão editorial não cria acertos nem exposição nova.
+
+Sem recibo completo, `pendingEditorial` aponta as sessões a conferir e `resume.stage` vira `consolidacao`; `resume.afterEditorial` preserva a proposta de continuação. Novas sessões da unidade tornam o recibo anterior insuficiente até nova conferência. Fechamentos históricos sem checkpoint explícito aparecem como `historico-a-conferir`, sem bloqueio retroativo. `lastCompletedUnit` continua significando conclusão didática; `lastEditoriallyClosedUnit` distingue fechamento editorial comprovado. Não editar manualmente os contextos gerados.

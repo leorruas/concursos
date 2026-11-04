@@ -32,10 +32,10 @@ export function validateSession(s, filename, root, concursos) {
   assert(dateOK(s.date) && ['parcial', 'concluido'].includes(s.status), `${s.id}: data/status inválido`);
   assert(concursos.some(c => c.id === s.concursoId && c.banca === s.banca), `${s.id}: concurso/banca incompatível`);
   const profile = examProfile(concursos.find(c => c.id === s.concursoId));
-  assert(s.kind === 'microtreino' || (s.schemaVersion === 2 && s.kind === 'aula'), `${s.id}: simulados integrais seguem o contrato próprio de propagação`);
+  assert(s.kind === 'microtreino' || (s.schemaVersion === 2 && ['aula', 'fechamento'].includes(s.kind)), `${s.id}: simulados integrais seguem o contrato próprio de propagação`);
   assert(modes.includes(s.trainingMode), `${s.id}: modalidade inválida`);
   assert(text(s.diagnosis) && text(s.nextStep), `${s.id}: diagnóstico/próximo passo ausentes`);
-  assert(Array.isArray(s.questions) && (s.questions.length > 0 || s.kind === 'aula'), `${s.id}: questões ausentes`);
+  assert(Array.isArray(s.questions) && (s.questions.length > 0 || ['aula', 'fechamento'].includes(s.kind)), `${s.id}: questões ausentes`);
   validateLearning(root, s, concursos);
   const numbers = new Set();
   for (const q of s.questions) {
@@ -91,8 +91,8 @@ export function mergeSessions(legacy, sessions) {
     const generationAudit = {counts,newRate:rate(counts.new),thematicRate:rate(counts.thematic),mechanicalRate:rate(counts.mechanical),exactRate:rate(counts.exact),intentionalReviewRate:rate(qs.filter(q=>q.repetition.intentional).length)};
     ledger.questions.push(...qs);
     ledger.simulations.push({ id: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
-      subjectId: s.subjectId, unitId: s.unitId, learning: s.learning, tipo: s.kind === 'aula' ? 'aula' : 'microtreino', isSimulado: false, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
-      ledgerCoverage: 'complete', benchmarkEligible: false, qualityNote: s.diagnosis, nextStep: s.nextStep, generationAudit, noveltyException: s.noveltyException || (s.kind === 'aula' ? 'Checkpoint de exposição sem questões; fora de benchmark e métricas de acerto.' : null),
+      subjectId: s.subjectId, unitId: s.unitId, learning: s.learning, tipo: s.kind, isSimulado: false, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
+      ledgerCoverage: 'complete', benchmarkEligible: false, qualityNote: s.diagnosis, nextStep: s.nextStep, generationAudit, noveltyException: s.noveltyException || (['aula', 'fechamento'].includes(s.kind) ? 'Checkpoint sem questões; fora de benchmark e métricas de acerto.' : null),
       confidenceTracking: { coverage: qs.length && qs.every(q => q.confidence !== 'unknown') ? 'complete' : 'partial' } });
   }
   for (const q of ledger.questions.filter(q => q.sessionFile)) for (const id of q.repetition.similarTo) assert(ids.has(id) && id !== q.id, `${q.id}: referência de repetição inexistente/autorreferente: ${id}`);

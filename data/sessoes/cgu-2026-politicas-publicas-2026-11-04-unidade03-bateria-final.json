@@ -147,7 +147,7 @@
       "topic": "Monitoramento e avaliação",
       "subtopic": "Impacto planejado versus efeito causal demonstrado",
       "questionType": "application",
-      "mechanism": "metas-mais-mudanca-observada-nao-provam-atribuição",
+      "mechanism": "metas-mais-mudanca-observada-nao-provam-atribuicao",
       "conceptId": "resultado-observado-versus-causalidade",
       "distractorMechanism": "inferir-causalidade-de-metas-cumpridas-e-resultados-observados",
       "statement": "Uma redução observada da evasão escolar, mesmo quando corresponde ao impacto esperado no modelo lógico, demonstra que o programa produziu o efeito causal previsto, desde que as metas operacionais de atendimento também tenham sido cumpridas.",

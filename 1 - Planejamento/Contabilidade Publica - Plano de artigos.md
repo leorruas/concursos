@@ -22,8 +22,8 @@ Preparar a matéria de **Contabilidade Pública** para a CGU 2026, Cargo 1 Audit
 | :--- | :--- | :--- | :--- | :--- |
 | 01 | `01 - patrimonio publico e regimes de reconhecimento.md` | Ativo, passivo, PL, VPA/VPD, competência patrimonial × receitas arrecadadas e despesas empenhadas; distinguir aquisição de ativo de consumo | Fundamentos e P3.2.4; **P0** | **Publicado no lote C1**; teoria orçamentária reutilizada |
 | 02 | `02 - balanco orcamentario e balanco financeiro.md` | Previsão/fixação/execução × entradas e saídas financeiras; leitura de quadros, RP e saldos; comparar BO × BF | P3.2.4; **P0** | **Publicado no lote C1** |
-| 03 | `03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md` | Estoques e fluxos; patrimônio líquido, VPA, VPD e resultado patrimonial; BP × DVP × BO | P3.2.4; **P0** | Planejada |
-| 04 | `04 - fluxos de caixa notas explicativas e conciliacoes.md` | DFC, classificação de fluxos, notas, conciliações e critérios de leitura; fluxo de caixa × resultado patrimonial | P3.2.4; **P1** | Planejada |
+| 03 | `03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md` | Estoques e fluxos; patrimônio líquido, VPA, VPD e resultado patrimonial; BP × DVP × BO | P3.2.4; **P0** | **Publicado no lote C2** |
+| 04 | `04 - fluxos de caixa notas explicativas e conciliacoes.md` | DFC, classificação de fluxos, notas, conciliações e critérios de leitura; fluxo de caixa × resultado patrimonial | P3.2.4; **P1** | **Publicado no lote C2** |
 | 05 | `05 - custos publicos fundamentos e objetos de custo.md` | Gasto, despesa, custo, desembolso; custo de serviço, objeto de custos, eficiência e custo unitário | P3.2.5; **P0** | Planejada |
 | 06 | `06 - mic sic e informacoes gerenciais de custos.md` | NBC TSP 34, MIC, SIC, geração/uso da informação; análise físico-financeira e indicadores de desempenho | P3.2.5; **P1** | Planejada |
 | 07 | `07 - provisoes e passivos e ativos contingentes.md` | Obrigação presente × possível, probabilidade, estimativa, reconhecimento × divulgação; comparar NBC TSP 03 (R1) com CPC 25 conforme entidade | P3.2.6; **P0** | Planejada |
@@ -33,7 +33,7 @@ Preparar a matéria de **Contabilidade Pública** para a CGU 2026, Cargo 1 Audit
 
 **P0, P1 e P2 são prioridades editoriais internas**, não uma frequência medida de cobrança. A divisão em arquivos é proposta: se as fontes mostrarem forte dependência entre dois tópicos, consolidar com critério, mantendo uma única nota canônica por conceito. **Não criar 10 resumos curtos** apenas para completar a lista.
 
-**Registro de execução em 04/11/2026:** [01 Patrimônio e regimes] publicado em [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|nota canônica]]; [02 BO e BF] publicado em [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|nota canônica]]. Fontes-base: MCASP 11ª edição (Parte I 3.4; Parte V 2 e 3), Lei 4.320/1964, PCASP e NBC TSP Estrutura Conceitual (R1). **Pendências:** notas 03 a 10, confronto detalhado com todos os subitens e estudo efetivo.
+**Registro de execução em 04/11/2026:** [01 Patrimônio e regimes] publicado em [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|nota canônica]]; [02 BO e BF] publicado em [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|nota canônica]]. Fontes-base: MCASP 11ª edição (Parte I 3.4; Parte V 2 e 3), Lei 4.320/1964, PCASP e NBC TSP Estrutura Conceitual (R1). **Lote C2, 04/11/2026:** publicados [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|03 BP/DVP]] e [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|04 DFC/notas]], fundamentados no MCASP 11, Parte V, capítulos 4–6 e 8. **Pendências:** notas 05 a 10, conferência integral do edital e estudo real.
 
 ## Lotes de execução: pequenos, completos e verificáveis
 
@@ -65,6 +65,12 @@ Não alterar `data/contexto-estudo/` manualmente, não marcar unidades como estu
 - [Lei nº 13.303/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm), em especial governança, transparência e demonstrações de estatais.
 
 **Alerta de atualização:** em 04/11/2026, as propostas **NBC TSP 39 (Receita)** e **NBC TSP 40 (Despesa de Transferência)** estão em **audiência pública até 12/11/2026**. Não tratá-las como normas aprovadas ou regras vigentes neste plano. Antes de publicar artigos sobre elas, verificar o resultado da consulta e a vigência efetiva no CFC.
+
+## Histórico de execução editorial
+
+- **C1 (04/11/2026):** notas 01 e 02, fundamentos e BO/BF.
+- **C2 (04/11/2026):** notas 03 e 04, BP/DVP, DFC, notas e conciliações. Exemplo numérico reconciliado: resultado orçamentário R$ 40, variação de caixa R$ 60, resultado patrimonial R$ 94 após depreciação de R$ 6.
+- **Próxima frente C3:** custos públicos, MIC e NBC TSP 34, mediante conferência normativa. Nenhuma publicação representa estudo ou retenção.
 
 ## Critério de conclusão editorial
 

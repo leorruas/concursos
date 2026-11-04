@@ -214,6 +214,18 @@
       "label": "Portaria Normativa CGU nº 283/2026: Plano de Integridade 2026–2027",
       "url": "https://basedeconhecimento.cgu.gov.br/items/10ec3d73-ee56-40e0-86a4-d09f800edf91",
       "scope": "Plano da CGU como desdobramento operacional"
+    },
+    "nbc-tsp-34": {
+      "label": "NBC TSP 34: Custos no Setor Público, CFC",
+      "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/",
+      "scope": "Itens 5, 19-26, 28-44 e 48-58; fundamentos, objetos, classificações e métodos",
+      "verifiedAt": "2026-11-04"
+    },
+    "mic-2025": {
+      "label": "MIC: Manual de Informações do Sistema de Custos, 2ª edição (2025)",
+      "url": "https://www.tesourotransparente.gov.br/publicacoes/mic-manual-de-informacoes-do-sistema-de-custos-do-governo-federal/2025/26",
+      "scope": "Fundamentos; detalhamento de sistema e indicadores pendente para a nota 06",
+      "verifiedAt": "2026-11-04"
     }
   },
   "subjects": [
@@ -1862,16 +1874,19 @@
             "P3.2.5"
           ],
           "noteRefs": [
+            "3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [
             "up3-2-4"
           ],
           "sourceIds": [
-            "mcasp"
+            "mcasp",
+            "nbc-tsp-34",
+            "mic-2025"
           ],
-          "coverage": "base-adjacente",
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "coverage": "parcial",
+          "noteRole": "fundamentos-e-objetos-publicados-mic-sic-e-indicadores-pendentes"
         },
         {
           "id": "up3-2-6",

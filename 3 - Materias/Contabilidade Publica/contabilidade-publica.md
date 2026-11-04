@@ -22,7 +22,7 @@ Demonstração das Variações Patrimoniais (DVP); Manual de Contabilidade Aplic
 | :--- | :--- | :--- |
 | Pré-requisito | Patrimônio e óticas orçamentária, financeira e patrimonial | [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|Artigo 01]] publicado: fundamentos e regimes |
 | 02 | Informação contábil: execução orçamentária × financeira × patrimônio; balanços e DVP; conciliações. | [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|BO/BF]], [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|BP/DVP]] e [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|DFC/notas]] publicados; validar cobertura integral com edital |
-| 03 | Custos e execução: análise físico-financeira, eficiência e indicadores; **MCASP 11ª edição** e **Manual de Informações do Sistema de Custos (MIC)**. | Base adjacente; nota específica pendente |
+| 03 | Custos e execução: análise físico-financeira, eficiência e indicadores; **MCASP 11ª edição** e **Manual de Informações do Sistema de Custos (MIC)**. | [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo|Artigo 05]]: conceitos, objetos e classificações publicados; MIC, SIC e indicadores no artigo 06 |
 | 04 | Informação societária de estatais: balanço/DRE, notas, depreciação, impairment, provisões, contingências e partes relacionadas. | Base adjacente; nota específica pendente |
 | 05 | Governança de estatais: conselhos, controle, finalidade pública, sustentabilidade, carta anual e políticas públicas. | Base adjacente; nota específica pendente |
 
@@ -35,8 +35,9 @@ O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da 
 
 3. [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|Balanço Patrimonial e DVP]]: quatro quadros do BP, circulante × financeiro, resultado patrimonial e superávit financeiro.
 4. [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|DFC, notas e conciliações]]: método direto, três fluxos, caixa × competência e notas explicativas.
+5. [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo|Custos públicos: fundamentos e objetos de custo]]: gasto × custo × desembolso, objetos finais/intermediários, classificações e custo unitário.
 
-**Cobertura:** quatro artigos nos lotes C1 e C2, como preparação documental, sem registrar aula ou concluir as cinco unidades.
+**Cobertura:** cinco artigos nos lotes C1, C2 e início de C3. O recorte de custos permanece parcial até MIC, SIC e indicadores na nota 06. Nenhum artigo representa aula ou unidade concluída.
 
 ## Plano editorial de aprofundamento
 

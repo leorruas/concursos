@@ -25,9 +25,11 @@
         $('stats').setAttribute('aria-label',`${stats.unknown} conceitos com resposta Não sei; revisões pendentes podem incluir conceitos conhecidos ou em aprendizagem.`);
         show('resume',!!state.session&&state.session.position<state.session.queue.length);
     }
-    function home() {show('dashboard',true);show('round',false);show('summary',false);dashboard();}
+    function home() {document.querySelector('.fc-main').classList.remove('is-studying');show('dashboard',true);show('round',false);show('summary',false);dashboard();}
     function render() {
         const s=state.session;
+        document.querySelector('.fc-main').classList.add('is-studying');
+        if(storageOK)status('Progresso salvo neste dispositivo');
         if (s.position>=s.queue.length) {
             show('round',false);show('summary',true);
             $('summary-text').textContent=`${s.queue.length} recuperações concluídas. As próximas revisões foram agendadas. Lembranças direta e inversa continuam sendo acompanhadas separadamente.`;
@@ -36,7 +38,7 @@
         show('dashboard',false);show('summary',false);show('round',true);
         const q=s.queue[s.position], c=cards.find(c=>c.id===q.id);
         revealed=false;show('answer',false);show('reveal',true);show('instruction',true);
-        $('position').textContent=`${s.position+1} / ${s.queue.length} · ${catalog.exams.find(e=>e.id===s.exam)?.title || s.exam}`;
+        $('position').textContent=`${String(s.position+1).padStart(2,'0')} / ${String(s.queue.length).padStart(2,'0')} · ${catalog.subjects.find(x=>x.id===s.subject)?.title || catalog.exams.find(e=>e.id===s.exam)?.title || s.exam}`;
         $('progress').max=s.queue.length;$('progress').value=s.position;
         $('kind').textContent=`${c.topic} / ${q.direction==='reverse'?'DEFINIÇÃO → TERMO':q.direction==='contrast'?'CONTRASTE':'TERMO → DEFINIÇÃO'}`;
         $('prompt').textContent=q.direction==='reverse'?c.definition:q.direction==='contrast'?c.contrast.prompt:c.term;
@@ -44,13 +46,13 @@
         $('definition').textContent=q.direction==='contrast'?c.contrast.answer:c.definition;
         $('extra').textContent=c.explanation||'';
         $('example').textContent=c.example;
-        $('confusion').textContent=c.confusion?'Atenção à diferença: '+c.confusion:'';
+        $('confusion').textContent=c.confusion?'Não confunda · '+c.confusion:'';
         $('note').href='index.html'+construirRotaArtigoId(c.note.articleId,c.note.section,s.exam);
         $('source').href=c.source.url;$('source').textContent=c.source.title+' · '+c.source.locator;
         $('prompt').focus();
     }
     function reveal() {if(!$('round').hidden&&!revealed){revealed=true;show('answer',true);show('reveal',false);show('instruction',false);document.querySelector('[data-grade="again"]').focus();}}
-    function grade(value) {if(!revealed||$('round').hidden)return;save(F.rate(state,value));if(storageOK)status('Progresso salvo neste navegador.');render();}
+    function grade(value) {if(!revealed||$('round').hidden)return;save(F.rate(state,value));if(storageOK)status('Salvo neste dispositivo');render();}
     try {
         const response=await fetch('data/flashcards.json');if(!response.ok)throw Error('Coleção indisponível.');
         catalog=await response.json();cards=catalog.cards.filter(c=>c.status==='validated');
@@ -60,7 +62,7 @@
         const examFromURL=new URLSearchParams(location.search).get('concurso');
         if(catalog.exams.some(e=>e.id===examFromURL))$('exam').value=examFromURL;
         subjects();home();
-        if(storageOK)status(`${cards.length} conceitos disponíveis. Progresso privado, salvo somente neste navegador.`);
+        if(storageOK)status(`${cards.length} conceitos · CGU 2026 / Cebraspe · progresso privado neste dispositivo`);
         $('export').disabled=false;$('import').disabled=false;
         $('form').addEventListener('submit',e=>{
             e.preventDefault();

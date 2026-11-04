@@ -1,3 +1,26 @@
+// Em tabelas GFM, "|" de [[nota|rótulo]] precisa ser escapado antes do parser.
+function escaparSeparadoresWikilinksEmTabelas(markdown) {
+    let cercaAberta = null;
+    return String(markdown || "").split(/\r?\n/).map(linha => {
+        const cerca = linha.match(/^\s*(\x60{3,}|~{3,})/);
+        if (cerca) {
+            const atual = cerca[1];
+            if (!cercaAberta) cercaAberta = { caractere: atual[0], tamanho: atual.length };
+            else if (atual[0] === cercaAberta.caractere && atual.length >= cercaAberta.tamanho) cercaAberta = null;
+            return linha;
+        }
+        if (cercaAberta || !linha.includes("[[")) return linha;
+
+        // Também cobre tabelas sem "|" inicial e preserva blocos de código.
+        const semWikilinks = linha.replace(/\[\[[^\]\r\n]*\]\]/g, "");
+        if (!/^\s*\|/.test(linha) && !/(?<!\\)\|/.test(semWikilinks)) return linha;
+
+        return linha.replace(/\[\[[^\]\r\n]*\]\]/g, wikilink =>
+            wikilink.replace(/(?<!\\)\|/g, "\\|")
+        );
+    }).join("\n");
+}
+
 function protegerBlocosMatematicosMarkdown(markdown) {
     const blocos = [];
     const linhas = String(markdown || "").split(/\r?\n/);

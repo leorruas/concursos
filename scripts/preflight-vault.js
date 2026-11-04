@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
 const checks = [
+  ['Wikilinks em tabelas Markdown', 'scripts/test-wikilinks-tables.js'],
   ['Continuidade por matéria', 'scripts/test-study-context.js'],
   ['Catálogo de matérias por concurso', 'scripts/test-contest-catalog.js'],
   ['Filtro da grade por concurso', 'scripts/test-contest-home-filter.js'],

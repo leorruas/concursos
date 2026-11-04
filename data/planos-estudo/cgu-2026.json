@@ -265,6 +265,36 @@
       "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=58",
       "scope": "Comparação para demonstrações societárias de estatais, segundo regime aplicável",
       "verifiedAt": "2026-11-04"
+    },
+    "lei-13303": {
+      "label": "Lei nº 13.303/2016",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm",
+      "scope": "Arts. 5º, 7º, 8º e 86, demonstrações societárias, auditoria e transparência",
+      "verifiedAt": "2026-11-04"
+    },
+    "lei-6404": {
+      "label": "Lei nº 6.404/1976",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l6404compilada.htm",
+      "scope": "Arts. 176, 186 a 188, peças societárias e resultado",
+      "verifiedAt": "2026-11-04"
+    },
+    "cpc26-societario": {
+      "label": "CPC 26 (R1), Apresentação das Demonstrações Contábeis",
+      "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=57",
+      "scope": "BP, DRE, DRA, DMPL, DFC e notas em contexto societário",
+      "verifiedAt": "2026-11-04"
+    },
+    "cpc05-partes-relacionadas": {
+      "label": "CPC 05 (R1), Divulgação sobre Partes Relacionadas",
+      "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=36",
+      "scope": "Relacionamentos, transações e saldos, exceção parcial Estado nos itens 25 a 27",
+      "verifiedAt": "2026-11-04"
+    },
+    "cpc36-consolidacao": {
+      "label": "CPC 36 (R3), Demonstrações Consolidadas",
+      "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=67",
+      "scope": "Controle, grupo e eliminações intragrupo; comparação com CPC 18 (R3)",
+      "verifiedAt": "2026-11-04"
     }
   },
   "subjects": [
@@ -1936,6 +1966,7 @@
           "noteRefs": [
             "3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes",
             "3 - Materias/Contabilidade Publica/08 - depreciacao reducao ao valor recuperavel e ativos",
+            "3 - Materias/Contabilidade Publica/09 - demonstracoes societarias das estatais",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [
@@ -1948,10 +1979,15 @@
             "cpc25-societario",
             "nbc-tsp-ativos-2026",
             "nbc-tsp-ativos-2027",
-            "cpc-ativos-societario"
+            "cpc-ativos-societario",
+            "lei-13303",
+            "lei-6404",
+            "cpc26-societario",
+            "cpc05-partes-relacionadas",
+            "cpc36-consolidacao"
           ],
           "coverage": "parcial",
-          "noteRole": "provisoes-depreciacao-impairment-preparados-demonstracoes-societarias-pendentes"
+          "noteRole": "provisoes-ativos-e-demonstracoes-societarias-publicados-cotejo-edital-pendente"
         },
         {
           "id": "up3-2-7",

@@ -130,6 +130,33 @@ function obterProgramaSelecionado() {
     return dados?.contests?.find(item => item.concursoId === concursoSelecionadoId) || null;
 }
 
+function montarSeletorConcursos(concursoIdAtivo) {
+    return dadosConcursosEstrategicos.filter(c => c.dataProva).map((concurso, indice) => {
+        const selecionado = concurso.id === concursoIdAtivo;
+        const separador = indice > 0
+            ? '<span class="concurso-barra-separadora" aria-hidden="true">/</span>'
+            : '';
+        return `${separador}<button
+            type="button"
+            class="concurso-btn-opcao${selecionado ? " concurso-selecionado" : ""}"
+            data-concurso-id="${concurso.id}"
+            aria-pressed="${selecionado ? "true" : "false"}"
+        >${concurso.nome.toLowerCase()}</button>`;
+    }).join("");
+}
+
+function obterArtigosDaMateria(categoria) {
+    const programa = obterProgramaSelecionado();
+    if (!programa) return todasAsPastas[categoria] || [];
+
+    const materia = programa.subjects.find(item => item.categoria === categoria);
+    if (!materia) return [];
+
+    const porCaminho = new Map(todosOsArtigos.map(artigo => [artigo.sourcePath, artigo]));
+    const caminhos = [materia.hubSourcePath, ...materia.articleSourcePaths];
+    return [...new Set(caminhos)].map(caminho => porCaminho.get(caminho)).filter(Boolean);
+}
+
 function renderizarPainelConcursoHome() {
     const container = document.getElementById("painel-concurso-home");
     const conteudo = document.getElementById("concurso-home-conteudo");
@@ -156,19 +183,7 @@ function renderizarPainelConcursoHome() {
     const hoje = new Date();
     const diffDias = Math.max(0, Math.ceil((dataProva - hoje) / (1000 * 60 * 60 * 24)));
 
-    const seletorConcursos = concursosComData.map((concurso, indice) => {
-        const selecionado = concurso.id === concursoAtivo.id;
-        const separador = indice > 0
-            ? '<span class="concurso-barra-separadora" aria-hidden="true">/</span>'
-            : '';
-
-        return `${separador}<button
-            type="button"
-            class="concurso-btn-opcao${selecionado ? " concurso-selecionado" : ""}"
-            data-concurso-id="${concurso.id}"
-            aria-pressed="${selecionado ? "true" : "false"}"
-        >${concurso.nome.toLowerCase()}</button>`;
-    }).join("");
+    const seletorConcursos = montarSeletorConcursos(concursoAtivo.id);
 
     conteudo.innerHTML = `
         <div class="concurso-linha-topo">
@@ -269,8 +284,10 @@ function renderizarPastas() {
 
 // Visualizador da Disciplina
 function abrirDisciplina(categoria, atualizarRota = true) {
-    const artigos = todasAsPastas[categoria] || [];
-    if (artigos.length === 0) return;
+    if (!(todasAsPastas[categoria]?.length)) return;
+    const artigos = obterArtigosDaMateria(categoria);
+    const materiaSelecionada = obterProgramaSelecionado()
+        ?.subjects.find(item => item.categoria === categoria) || null;
 
     if (campoTexto) campoTexto.value = "";
     if (campoTextoNav) campoTextoNav.value = "";
@@ -295,12 +312,33 @@ function abrirDisciplina(categoria, atualizarRota = true) {
     `;
     document.getElementById("btn-bc-home")?.addEventListener("click", () => voltarParaHome(true));
 
+    const tituloMateria = materiaSelecionada?.rotulo?.toLowerCase() || limparNomeCategoria(categoria);
     disciplinaCabecalho.innerHTML = `
-        <p class="disciplina-rotulo">matéria • ${artigos.length} artigos</p>
-        <h2>${limparNomeCategoria(categoria)}</h2>
+        <p class="disciplina-rotulo">matéria • ${artigos.length} ${artigos.length === 1 ? "artigo" : "artigos"}</p>
+        <h2>${tituloMateria}</h2>
+        <div class="disciplina-concurso-seletor">
+            <div class="concurso-seletor-textual" role="group" aria-label="Filtrar artigos por concurso">
+                <span class="concurso-seletor-rotulo">concurso:</span>
+                ${montarSeletorConcursos(concursoSelecionadoId)}
+            </div>
+        </div>
     `;
 
+    disciplinaCabecalho.querySelectorAll(".disciplina-concurso-seletor .concurso-btn-opcao[data-concurso-id]")
+        .forEach(botao => botao.addEventListener("click", () => {
+            const proximoId = botao.dataset.concursoId;
+            if (!proximoId || proximoId === concursoSelecionadoId) return;
+            selecionarConcurso(proximoId);
+            // A matéria permanece aberta; apenas os artigos do edital mudam.
+            abrirDisciplina(categoria, false);
+        }));
+
     disciplinaAcoes.innerHTML = "";
+    if (artigos.length === 0) {
+        disciplinaAcoes.innerHTML = materiaSelecionada
+            ? '<p class="mensagem-busca">Ainda não há artigos publicados para esta matéria neste concurso.</p>'
+            : '<p class="mensagem-busca">Esta matéria não está mapeada para o concurso selecionado. Selecione outro concurso ou volte às matérias.</p>';
+    }
     artigos.forEach((artigo, idx) => {
         const acao = document.createElement("a");
         acao.className = "disciplina-acao";

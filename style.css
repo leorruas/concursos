@@ -2185,3 +2185,18 @@ html body .artigo-corpo h3::before {
     line-height: 1.35;
     opacity: .78;
 }
+
+/* Seletor de concurso na lista interna de artigos (mesmo vocabulário da home). */
+.disciplina-concurso-seletor {
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+}
+.disciplina-concurso-seletor .concurso-seletor-textual {
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.disciplina-concurso-seletor .concurso-btn-opcao:focus-visible {
+    outline: 2px solid var(--accent-blue);
+    outline-offset: 3px;
+}

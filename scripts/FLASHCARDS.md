@@ -1,6 +1,8 @@
 # Flashcards de vocabulário
 
-Criado em 2026-11-04. Coleção atual: 204 cartões únicos, sendo 176 vinculados à CGU 2026 e 28 à Dataprev 2026. Na CGU, há 59 cartões de Orçamento Público, 14 de Contabilidade Pública e coleções parciais nas demais matérias. A Dataprev inclui Português, Lógica, Informática/Legislação, Atualidades e Comunicação. Os vínculos cruzados reutilizam conceitos sem duplicar cartões. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
+Criado em 2026-11-04. Coleção atual: 218 cartões únicos, sendo 190 vinculados à CGU 2026 e 28 à Dataprev 2026. Na CGU, há 73 cartões de Orçamento Público, 14 de Contabilidade Pública e coleções parciais nas demais matérias. A Dataprev inclui Português, Lógica, Informática/Legislação, Atualidades e Comunicação. Os vínculos cruzados reutilizam conceitos sem duplicar cartões. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
+
+Lote didático de 04/11/2026: 14 novos cartões de classificações, natureza da despesa, PLOA e emendas, além de 7 cartões existentes refinados com contraste. Exemplos de vacinação e universidade foram incorporados aos artigos canônicos; o lote só será considerado publicado após as verificações do workflow e do site.
 
 ## Arquitetura
 

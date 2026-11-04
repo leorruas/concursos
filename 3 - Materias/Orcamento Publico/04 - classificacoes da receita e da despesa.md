@@ -110,6 +110,24 @@ Essas proposições confundem **três dimensões diferentes**. Juros, financiame
 
 Esses elementos não competem pela mesma posição. O registro da despesa possui várias dimensões ao mesmo tempo.
 
+### Exemplo guiado: um mesmo gasto visto por várias classificações
+
+Considere um **caso hipotético**, sem códigos de programação oficiais: o Ministério da Saúde prevê comprar diretamente seringas descartáveis para uma ação de vacinação. A mesma despesa recebe diferentes classificações, porque cada uma responde a uma pergunta:
+
+| Pergunta | Classificação | Resposta no exemplo |
+| :--- | :--- | :--- |
+| Em qual orçamento da LOA? | **Esfera** | Seguridade social, por se tratar de ação de saúde |
+| Quem responde pela programação? | **Institucional** | Órgão Ministério da Saúde e unidade orçamentária correspondente |
+| Qual a área de governo? | **Funcional** | Saúde (função); subfunção conforme a programação |
+| Qual política e ação? | **Programática** | Programa hipotético de imunização; ação de vacinação |
+| Que despesa será feita? | **Natureza** | Corrente → Outras Despesas Correntes → Aplicações Diretas → Material de Consumo |
+| Que recursos podem financiá-la? | **Fonte/destinação** | A fonte orçamentária e suas regras legais de aplicação |
+| Quanto será entregue e autorizado? | **Dimensões física e financeira** | Quantidade de seringas e valor da dotação |
+
+As sete respostas aparecem **lado a lado**, no registro de uma despesa. Não são sete degraus da mesma hierarquia. Dentro de **natureza**, por outro lado, há níveis ordenados: categoria econômica, grupo, modalidade e elemento. “Ministério” ou “secretaria” é informação institucional; “programa” e “ação” são informação programática.
+
+**Teste de fronteira:** uma universidade federal compra papel e depois constrói um laboratório. Em regra, as duas despesas ficam no **orçamento fiscal**. A compra de papel é corrente; a construção é de capital, no GND Investimentos. A esfera permaneceu igual, enquanto a natureza mudou. Já a construção de uma unidade pública do SUS pode ser despesa de capital no **orçamento da seguridade social**.
+
 ### Esfera × natureza da despesa
 
 A **esfera** identifica orçamento **fiscal**, **seguridade social** ou **investimento das estatais**, segundo o art. 165, § 5º, da Constituição. A **categoria econômica**, por sua vez, separa gastos **correntes** e de **capital**.
@@ -156,6 +174,19 @@ A natureza da despesa responde **qual é o tipo e o objeto do gasto**. A classif
 | **Grupo de Natureza de Despesa (GND)** | Grupo econômico: pessoal e encargos, juros e encargos da dívida, outras correntes, investimentos, inversões financeiras ou amortização da dívida | Investimentos |
 | **Modalidade de aplicação** | Se os recursos serão aplicados diretamente ou transferidos e por qual modalidade | Aplicações diretas |
 | **Elemento** | Objeto que se pretende adquirir ou contratar | Equipamentos e material permanente |
+
+**Leitura passo a passo:** a **categoria econômica** separa despesas correntes e de capital; dentro dela, o **Grupo de Natureza de Despesa (GND)** aproxima gastos economicamente semelhantes; a **modalidade de aplicação** indica quem aplicará os recursos ou como serão transferidos; o **elemento** identifica o objeto adquirido ou contratado.
+
+| Categoria econômica | Grupos de Natureza de Despesa (GND) |
+| :--- | :--- |
+| **Correntes** | Pessoal e Encargos Sociais; Juros e Encargos da Dívida; Outras Despesas Correntes |
+| **De capital** | Investimentos; Inversões Financeiras; Amortização da Dívida |
+
+“Corrente” é categoria econômica, e **não quer dizer frequente**. “Capital” também não significa gasto de grande valor. Pagar juros da dívida é despesa corrente; devolver o principal é despesa de capital (Amortização da Dívida). Construir um laboratório ou adquirir equipamento novo pode entrar em **Investimentos**; certas compras de imóveis sem vinculação à execução de obras e certas participações societárias são **Inversões Financeiras**. A classificação exata depende das condições legais: comprar algo pronto **não transforma qualquer bem em inversão financeira**.
+
+**O terceiro nível, modalidade de aplicação, tem outra lógica:** se o ministério compra diretamente as seringas, a modalidade é **Aplicações Diretas**. Se a União transfere recursos para um município executar a despesa, a modalidade pode ser **Transferências a Municípios**, segundo o instrumento aplicável. Isso não equivale a dizer que “aplicação direta é investimento”: os grupos e a modalidade respondem a perguntas independentes.
+
+**O quarto nível, elemento, dá nome orçamentário ao objeto:** seringas e papel podem ser **Material de Consumo**; computadores e equipamentos duradouros, **Equipamentos e Material Permanente**. “Seringa” é o bem concreto; “Material de Consumo” é o elemento no classificador. **GND ≠ elemento; modalidade ≠ elemento; modalidade de aplicação ≠ modalidade de licitação.**
 
 **GND não é elemento.** O GND **investimentos** agrupa gastos de capital; “equipamentos e material permanente” especifica um **elemento**. Modalidade de **aplicação** não é modalidade de **licitação**.
 

@@ -760,6 +760,18 @@
     {
       "examId": "cgu-2026",
       "subjectId": "auditoria-governamental",
+      "cardId": "aud-risco-inerente",
+      "priority": 100,
+      "status": "recuperacao-imediata",
+      "recurrences": 2,
+      "dueOn": "2026-11-05",
+      "conceptIds": [
+        "risco-residual-controle"
+      ]
+    },
+    {
+      "examId": "cgu-2026",
+      "subjectId": "auditoria-governamental",
       "cardId": "aud-vouching-ocorrencia",
       "priority": 100,
       "status": "recuperacao-imediata",

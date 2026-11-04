@@ -2208,7 +2208,8 @@
       "confusion": "Comparar antes e depois, sozinho, não isola o efeito da política.",
       "topic": "Avaliação e desempenho",
       "subjectIds": [
-        "politicas-publicas"
+        "politicas-publicas",
+        "evidencias-dados-ia"
       ],
       "examIds": [
         "cgu-2026"
@@ -2227,7 +2228,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "resultado-observado-versus-causalidade"
       ]
@@ -2334,7 +2335,8 @@
       "confusion": "Distribuir quantidades iguais não garante equidade diante de necessidades diferentes.",
       "topic": "Avaliação e desempenho",
       "subjectIds": [
-        "politicas-publicas"
+        "politicas-publicas",
+        "sociedade-brasileira"
       ],
       "examIds": [
         "cgu-2026"
@@ -2353,7 +2355,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": []
     },
     {
@@ -2496,7 +2498,8 @@
       "confusion": "Publicar dados, por si só, não esgota a prestação de contas.",
       "topic": "Acesso à informação",
       "subjectIds": [
-        "transparencia-ouvidoria"
+        "transparencia-ouvidoria",
+        "administracao-publica"
       ],
       "examIds": [
         "cgu-2026"
@@ -2515,7 +2518,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": []
     },
     {
@@ -4793,6 +4796,818 @@
       ],
       "legacyErrorIds": [
         "err-sim06-q30-saeb"
+      ]
+    },
+    {
+      "id": "cgu-soberania-representacao",
+      "term": "Soberania popular: representação e participação direta",
+      "definition": "Na CF, o poder emana do povo e é exercido por representantes eleitos ou diretamente, nos termos constitucionais.",
+      "example": "Eleição de parlamentares e uso de instrumentos de participação direta são formas distintas de exercício da soberania popular.",
+      "confusion": "Democracia representativa e participação direta são compatíveis; a existência de eleição não elimina participação direta.",
+      "topic": "Democracia e representação",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.1"
+      ],
+      "note": {
+        "articleId": "art-a6edc965cb9e4eb6",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Arts. 1º, parágrafo único; 2º; 70 e 74"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "soberania-representativa-direta"
+      ],
+      "contrast": {
+        "prompt": "Se o poder é exercido por representantes, a participação direta fica excluída?",
+        "answer": "Não. O art. 1º, parágrafo único, admite representação e exercício direto do poder."
+      }
+    },
+    {
+      "id": "cgu-poderes-freios",
+      "term": "Separação de Poderes e controles recíprocos",
+      "definition": "Os Poderes da União são independentes e harmônicos, cada qual com competências próprias e mecanismos constitucionais de controles recíprocos.",
+      "example": "A fiscalização legislativa de certas atividades do Executivo não implica, por si só, subordinação hierárquica de um Poder ao outro.",
+      "confusion": "Freios e contrapesos não equivalem a violação da separação dos Poderes; harmonia não significa ausência de controle.",
+      "topic": "Separação dos Poderes",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.1"
+      ],
+      "note": {
+        "articleId": "art-a6edc965cb9e4eb6",
+        "section": "Art. 2º — separação dos Poderes"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Arts. 1º, parágrafo único; 2º; 70 e 74"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "separacao-poderes-freios-contrapesos"
+      ]
+    },
+    {
+      "id": "cgu-controle-interno-externo",
+      "term": "Controle interno × controle externo constitucional",
+      "definition": "Cada Poder mantém sistema de controle interno; na União, o controle externo é exercido pelo Congresso Nacional com auxílio do TCU.",
+      "example": "Controle interno de um tribunal avalia sua gestão; a fiscalização externa constitucional é exercida conforme o arranjo Congresso e TCU.",
+      "confusion": "Controle interno não é exclusivo do Executivo, e TCU não é subordinado hierarquicamente ao Congresso.",
+      "topic": "Controles constitucionais",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.1"
+      ],
+      "note": {
+        "articleId": "art-cbd0b4285d514319",
+        "section": "Controle interno × externo"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Arts. 70, 71 e 74"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "controle-interno-externo-cf"
+      ]
+    },
+    {
+      "id": "cgu-controle-social",
+      "term": "Controle social × controle institucional",
+      "definition": "Controle social é a fiscalização e o acompanhamento da atuação estatal pela sociedade, usando informação, participação e mecanismos institucionais de acesso.",
+      "example": "Cidadão confronta dados de contrato com relatórios de execução e encaminha indícios à ouvidoria: controle social.",
+      "confusion": "Analisar dados públicos não transforma o cidadão em órgão de auditoria interna nem no controle externo constitucional.",
+      "topic": "Participação e controle social",
+      "subjectIds": [
+        "estado-democracia"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.1"
+      ],
+      "note": {
+        "articleId": "art-cbd0b4285d514319",
+        "section": "Controle social"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Arts. 70, 71 e 74"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "controle-social-versus-institucional"
+      ]
+    },
+    {
+      "id": "cgu-desocupacao-forca",
+      "term": "Desocupação × fora da força de trabalho",
+      "definition": "Taxa de desocupação relaciona desocupados à força de trabalho, composta por ocupados e desocupados; fora da força estão outras pessoas em idade de trabalhar que não integram esse grupo.",
+      "example": "Pessoa sem trabalho, disponível e em busca segundo critérios da pesquisa pode ser desocupada; quem não procura não é automaticamente classificado assim.",
+      "confusion": "Não calcular taxa de desocupação sobre toda a população nem tratar toda pessoa sem trabalho como desocupada.",
+      "topic": "Mercado de trabalho",
+      "subjectIds": [
+        "sociedade-brasileira"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.2"
+      ],
+      "note": {
+        "articleId": "art-fcbf8bc6df474e22",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "IBGE: PNAD Contínua",
+        "url": "https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html",
+        "locator": "Glossário e conceitos de força de trabalho e desocupação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "desocupacao-forca-trabalho"
+      ]
+    },
+    {
+      "id": "cgu-informalidade-desocupacao",
+      "term": "Informalidade × desocupação",
+      "definition": "Informalidade descreve características de ocupações e vínculos de trabalho, enquanto desocupação descreve situação de busca e disponibilidade sem ocupação.",
+      "example": "Pessoa que trabalha sem registro pode estar ocupada e informal; não integra automaticamente a população desocupada.",
+      "confusion": "Taxa de desemprego baixa não implica informalidade baixa; os indicadores observam dimensões diferentes.",
+      "topic": "Mercado de trabalho",
+      "subjectIds": [
+        "sociedade-brasileira"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.2"
+      ],
+      "note": {
+        "articleId": "art-fcbf8bc6df474e22",
+        "section": "Estrutura interna"
+      },
+      "source": {
+        "title": "IBGE: PNAD Contínua",
+        "url": "https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html",
+        "locator": "Glossário e conceitos de força de trabalho e desocupação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "informalidade-versus-desocupacao"
+      ]
+    },
+    {
+      "id": "cgu-fecundidade-natalidade",
+      "term": "Fecundidade total × natalidade",
+      "definition": "Taxa de fecundidade total sintetiza o número médio de filhos por mulher conforme taxas por idade; taxa bruta de natalidade relaciona nascimentos à população total.",
+      "example": "Um país pode ter queda de fecundidade sem reduzir imediatamente sua população, devido à estrutura etária.",
+      "confusion": "Fecundidade e natalidade usam conceitos e denominadores diferentes; fecundidade abaixo da reposição não significa população menor no mesmo ano.",
+      "topic": "Demografia",
+      "subjectIds": [
+        "sociedade-brasileira"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.2"
+      ],
+      "note": {
+        "articleId": "art-2abbed45a7b04a21",
+        "section": "Estrutura interna"
+      },
+      "source": {
+        "title": "IBGE: Projeções da População",
+        "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html",
+        "locator": "Indicadores demográficos e projeções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "fecundidade-total-versus-natalidade"
+      ]
+    },
+    {
+      "id": "cgu-envelhecimento-dependencia",
+      "term": "Envelhecimento demográfico × dependência econômica",
+      "definition": "Envelhecimento aumenta a participação relativa de pessoas idosas; razão de dependência é proporção etária entre grupos potencialmente dependentes e pessoas em idade potencialmente ativa.",
+      "example": "Mais idosos pode elevar razão de dependência demográfica, sem determinar exatamente quantas pessoas precisam de apoio financeiro.",
+      "confusion": "Razão de dependência é aproximação por faixa etária, não contagem direta de dependentes econômicos.",
+      "topic": "Indicadores demográficos",
+      "subjectIds": [
+        "sociedade-brasileira"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.2"
+      ],
+      "note": {
+        "articleId": "art-2abbed45a7b04a21",
+        "section": "Estrutura interna"
+      },
+      "source": {
+        "title": "IBGE: Projeções da População",
+        "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html",
+        "locator": "Indicadores demográficos e projeções"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "razao-dependencia-demografica-nao-economica"
+      ]
+    },
+    {
+      "id": "cgu-patrimonialismo",
+      "term": "Patrimonialismo: confusão do público e do privado",
+      "definition": "Modelo patrimonialista caracteriza-se pela baixa separação entre patrimônio público e interesses privados de quem exerce poder, favorecendo personalismo e apropriação privada.",
+      "example": "Gestor distribui funções segundo lealdade pessoal, ignorando critérios impessoais: traço patrimonialista.",
+      "confusion": "A existência de regras formais não elimina automaticamente práticas patrimonialistas numa organização.",
+      "topic": "Modelos de Administração Pública",
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.4"
+      ],
+      "note": {
+        "articleId": "art-2e8a8f600b964d40",
+        "section": "Patrimonialismo"
+      },
+      "source": {
+        "title": "Nota canônica do vault: Evolução da administração pública",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Administracao%20Publica/01%20-%20evolucao%20da%20administracao%20publica.md",
+        "locator": "Seção: Patrimonialismo"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "patrimonialismo-publico-privado"
+      ]
+    },
+    {
+      "id": "cgu-burocracia-gerencial",
+      "term": "Burocracia weberiana × administração gerencial",
+      "definition": "Burocracia valoriza regras, hierarquia, profissionalização e impessoalidade; modelo gerencial amplia o foco para resultados, qualidade e responsabilização pelo desempenho.",
+      "example": "Controle de conformidade documental é traço burocrático; metas de atendimento e avaliação de resultados, traços gerenciais.",
+      "confusion": "Gerencialismo não abandona a legalidade; disfunção burocrática não é a definição da burocracia de Weber.",
+      "topic": "Modelos de Administração Pública",
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.4"
+      ],
+      "note": {
+        "articleId": "art-2e8a8f600b964d40",
+        "section": "Administração Pública burocrática × gerencial"
+      },
+      "source": {
+        "title": "Nota canônica do vault: Evolução da administração pública",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Administracao%20Publica/01%20-%20evolucao%20da%20administracao%20publica.md",
+        "locator": "Seção: Administração Pública burocrática × gerencial"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "burocracia-versus-gerencialismo"
+      ],
+      "contrast": {
+        "prompt": "Gestão por resultados elimina o dever de obedecer procedimentos legais?",
+        "answer": "Não. O modelo gerencial amplia o controle de resultados sem afastar legalidade e responsabilização."
+      }
+    },
+    {
+      "id": "cgu-governanca-gestao",
+      "term": "Governança × gestão",
+      "definition": "Governança avalia, direciona e monitora a organização; gestão executa planos, processos, projetos e recursos conforme as orientações definidas.",
+      "example": "A alta administração define objetivos e monitora riscos; equipes administrativas organizam contratos e processos para entregar os objetivos.",
+      "confusion": "Executar rotinas gerenciais não equivale, por si, a exercer governança; governança tampouco é externa à organização.",
+      "topic": "Governança organizacional",
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.4"
+      ],
+      "note": {
+        "articleId": "art-23fe2441eab94f8d",
+        "section": "Governança × gestão"
+      },
+      "source": {
+        "title": "Decreto nº 9.203/2017",
+        "url": "https://legis.senado.gov.br/norma/26288727/publicacao/26288736",
+        "locator": "Arts. 2º e 5º; mecanismos de governança"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "governanca-avalia-direciona-monitora"
+      ]
+    },
+    {
+      "id": "cgu-governanca-governabilidade",
+      "term": "Governança × governabilidade",
+      "definition": "Governabilidade é condição político-institucional para governar, incluindo legitimidade e sustentação; governança organiza mecanismos de direção, monitoramento e responsabilização.",
+      "example": "Governo obtém apoio para aprovar agenda: governabilidade. Órgão estrutura mecanismos de estratégia e controle: governança.",
+      "confusion": "Capacidade de apoio político não é sinônimo de processo de gestão, nem substitui mecanismos de governança.",
+      "topic": "Governança e instituições",
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P1.4"
+      ],
+      "note": {
+        "articleId": "art-23fe2441eab94f8d",
+        "section": "Governança × governabilidade"
+      },
+      "source": {
+        "title": "Decreto nº 9.203/2017",
+        "url": "https://legis.senado.gov.br/norma/26288727/publicacao/26288736",
+        "locator": "Arts. 2º e 5º; mecanismos de governança"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "governanca-versus-governabilidade"
+      ]
+    },
+    {
+      "id": "cgu-primario-nominal",
+      "term": "Resultado primário × resultado nominal",
+      "definition": "Resultado primário compara receitas e despesas não financeiras, excluindo juros da dívida; nominal incorpora juros nominais.",
+      "example": "Superávit primário de 10 e juros de 20 podem coexistir com déficit nominal de 10, mantidas demais condições.",
+      "confusion": "Superávit primário não assegura superávit nominal nem elimina dívida pública.",
+      "topic": "Resultados fiscais",
+      "subjectIds": [
+        "financas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-9be1a39d536a47ea",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "Banco Central: Estatísticas Fiscais",
+        "url": "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
+        "locator": "Conceitos de resultado primário, nominal e dívida pública"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "resultado-primario-versus-nominal"
+      ]
+    },
+    {
+      "id": "cgu-dpf-dbgg",
+      "term": "Dívida Pública Federal × Dívida Bruta do Governo Geral",
+      "definition": "DPF refere-se à dívida de responsabilidade do Tesouro Nacional; DBGG cobre agregado mais amplo de Governo Geral segundo a metodologia do Banco Central.",
+      "example": "Indicador federal de dívida do Tesouro e indicador de dívida bruta do Governo Geral podem evoluir de forma diferente.",
+      "confusion": "DPF e DBGG não têm cobertura institucional idêntica; não trocar séries sem conferir conceito e órgão produtor.",
+      "topic": "Indicadores da dívida",
+      "subjectIds": [
+        "financas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-9be1a39d536a47ea",
+        "section": "Estrutura interna"
+      },
+      "source": {
+        "title": "Banco Central: Estatísticas Fiscais",
+        "url": "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
+        "locator": "Conceitos de resultado primário, nominal e dívida pública"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "dpf-versus-dbgg"
+      ]
+    },
+    {
+      "id": "cgu-divida-bruta-liquida",
+      "term": "Dívida bruta × dívida líquida",
+      "definition": "Dívida bruta registra obrigações segundo seu conceito estatístico; dívida líquida considera abatimento de certos ativos financeiros na metodologia pertinente.",
+      "example": "Dois entes com obrigação bruta semelhante podem ter posições líquidas diferentes em razão de ativos financeiros.",
+      "confusion": "Não tratar dívida líquida como sinônimo de dívida bruta, nem subtrair qualquer ativo não elegível ao indicador.",
+      "topic": "Indicadores da dívida",
+      "subjectIds": [
+        "financas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-9be1a39d536a47ea",
+        "section": "Estrutura interna"
+      },
+      "source": {
+        "title": "Banco Central: Estatísticas Fiscais",
+        "url": "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
+        "locator": "Conceitos de resultado primário, nominal e dívida pública"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "divida-bruta-versus-liquida"
+      ]
+    },
+    {
+      "id": "cgu-divida-pib",
+      "term": "Dívida absoluta × dívida em proporção do PIB",
+      "definition": "A relação dívida/PIB depende do estoque da dívida e do denominador econômico; juros, resultado fiscal, crescimento e outras operações afetam sua trajetória.",
+      "example": "Mesmo com aumento nominal da dívida, a relação dívida/PIB pode cair se o PIB nominal crescer proporcionalmente mais.",
+      "confusion": "Um déficit mensal não implica aumento proporcional idêntico da razão dívida/PIB.",
+      "topic": "Dinâmica da dívida",
+      "subjectIds": [
+        "financas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "note": {
+        "articleId": "art-9be1a39d536a47ea",
+        "section": "Estrutura interna"
+      },
+      "source": {
+        "title": "Banco Central: Estatísticas Fiscais",
+        "url": "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
+        "locator": "Conceitos de resultado primário, nominal e dívida pública"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "divida-estoque-versus-pib"
+      ]
+    },
+    {
+      "id": "cgu-modalidade-criterio",
+      "term": "Modalidade × critério de julgamento na licitação",
+      "definition": "Modalidade define o procedimento licitatório previsto em lei; critério de julgamento define a regra de comparação das propostas para escolher a vencedora.",
+      "example": "Pregão é modalidade; menor preço e maior desconto são critérios de julgamento.",
+      "confusion": "Não confundir as cinco modalidades do art. 28 com os critérios do art. 33 da Lei nº 14.133/2021.",
+      "topic": "Planejamento de contratação",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Critérios de julgamento: art. 33"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Arts. 5º, 28, 33, 72, 74 e 75"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "modalidade-versus-criterio-licitacao"
+      ],
+      "contrast": {
+        "prompt": "Maior desconto é modalidade de licitação?",
+        "answer": "Não. É critério de julgamento; pregão e concorrência são exemplos de modalidades."
+      }
+    },
+    {
+      "id": "cgu-dispensa-inexigibilidade",
+      "term": "Dispensa × inexigibilidade de licitação",
+      "definition": "Inexigibilidade se fundamenta na inviabilidade de competição; dispensa ocorre nas hipóteses previstas em lei para contratar diretamente.",
+      "example": "Fornecedor exclusivo pode configurar inexigibilidade; hipótese legal específica pode admitir dispensa apesar de competição em abstrato possível.",
+      "confusion": "Contratação direta não se confunde com modalidade licitatória; singularidade não é requisito geral de toda inexigibilidade.",
+      "topic": "Contratação direta",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Dispensa × inexigibilidade"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Arts. 5º, 28, 33, 72, 74 e 75"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "dispensa-versus-inexigibilidade"
+      ]
+    },
+    {
+      "id": "cgu-contratacao-direta-processo",
+      "term": "Contratação direta exige processo instruído",
+      "definition": "A contratação direta deve observar formalização, estimativa de despesa, justificativa de preço, motivo da escolha, habilitação exigível e autorização competente nos termos do art. 72.",
+      "example": "Órgão contrata sem licitação, mas documenta escolha, preço e disponibilidade orçamentária antes de autorizar.",
+      "confusion": "Dispensa ou inexigibilidade não significam contratação verbal livre nem ausência de motivação e formalidades.",
+      "topic": "Formalização da contratação",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Contratação direta não elimina formalidades"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Arts. 5º, 28, 33, 72, 74 e 75"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "contratacao-direta-instrucao-art72"
+      ]
+    },
+    {
+      "id": "cgu-segregacao-contratacoes",
+      "term": "Segregação de funções na contratação",
+      "definition": "Segregação de funções reduz risco de concentração de decisões suscetíveis a erros, fraudes e conflitos, com desenho proporcional ao processo.",
+      "example": "Agente que planeja demanda não deve concentrar indevidamente aprovação, fiscalização e pagamento sem salvaguardas.",
+      "confusion": "Não significa proibição absoluta de qualquer acúmulo de tarefas em toda organização; avaliar riscos e competências.",
+      "topic": "Governança das contratações",
+      "subjectIds": [
+        "contratacoes-transferencias"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.4"
+      ],
+      "note": {
+        "articleId": "art-e3be4825ac4c455a",
+        "section": "Princípios de prova"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+        "locator": "Arts. 5º, 28, 33, 72, 74 e 75"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "segregacao-funcoes-licitacoes"
+      ]
+    },
+    {
+      "id": "cgu-evidencia-suficiente-adequada",
+      "term": "Evidência suficiente × adequada",
+      "definition": "Suficiência diz respeito à quantidade de evidência necessária para sustentar conclusão; adequação abrange qualidade, como confiabilidade, relevância e fidelidade aos fatos.",
+      "example": "Mil registros de base incompleta podem ser insuficientes para demonstrar regularidade; poucos documentos confiáveis podem ser decisivos em certo teste.",
+      "confusion": "Aumentar o volume de informação fraca não elimina sua baixa qualidade.",
+      "topic": "Qualidade da evidência",
+      "subjectIds": [
+        "evidencias-dados-ia"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.4"
+      ],
+      "note": {
+        "articleId": "art-2ac819ec38f94031",
+        "section": "Suficiência × adequação: estrutura normativa"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "Seção 5.3, evidência de auditoria"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "evidencia-suficiencia-versus-adequacao"
+      ]
+    },
+    {
+      "id": "cgu-evidencia-confiavel-fidedigna",
+      "term": "Confiabilidade × fidedignidade da evidência",
+      "definition": "Confiabilidade considera credibilidade da fonte e modo de obtenção; fidedignidade considera a precisão com que a informação representa o fato.",
+      "example": "Extrato originado em sistema com bons controles pode ser confiável como fonte, mas requer verificar se registra corretamente determinado pagamento.",
+      "confusion": "Fonte externa não garante informação verdadeira em qualquer caso; corroboração de fonte independente melhora confiança.",
+      "topic": "Qualidade da evidência",
+      "subjectIds": [
+        "evidencias-dados-ia"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.4"
+      ],
+      "note": {
+        "articleId": "art-2ac819ec38f94031",
+        "section": "Suficiência × adequação: estrutura normativa"
+      },
+      "source": {
+        "title": "Manual de Orientações Técnicas da CGU",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "Seção 5.3, evidência de auditoria"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "evidencia-confiabilidade-versus-fidedignidade"
+      ]
+    },
+    {
+      "id": "cgu-mudanca-causalidade",
+      "term": "Mudança observada × efeito causal",
+      "definition": "Uma diferença entre antes e depois da política é resultado observado; atribuir o efeito à intervenção exige hipótese contrafactual e método adequado.",
+      "example": "Evasão cai de 12% para 8% após programa: redução observada de quatro pontos, ainda não efeito causal demonstrado.",
+      "confusion": "Cumprimento de metas e melhora do indicador, isoladamente, não comprovam atribuição à política.",
+      "topic": "Inferência causal",
+      "subjectIds": [
+        "evidencias-dados-ia"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.4"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Mudança observada, efeito causal e contrafactual"
+      },
+      "source": {
+        "title": "Guia Prático de Avaliação Ex Post",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Teoria do programa, inferência causal e avaliação de impacto"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "observacao-versus-atribuicao-causal"
+      ]
+    },
+    {
+      "id": "cgu-indicador-monitoramento",
+      "term": "Monitoramento com indicadores × avaliação de impacto",
+      "definition": "Monitoramento acompanha periodicamente recursos, processos, produtos e resultados; avaliação de impacto investiga efeitos atribuíveis à intervenção.",
+      "example": "Painel de frequência escolar e cobertura indica desempenho operacional, sem estimar o que ocorreria sem o programa.",
+      "confusion": "Incluir indicador de resultado no painel não o transforma automaticamente em estudo causal.",
+      "topic": "Indicadores e avaliação",
+      "subjectIds": [
+        "evidencias-dados-ia"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.4"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Monitoramento: perguntas, indicadores e uso"
+      },
+      "source": {
+        "title": "Guia Prático de Avaliação Ex Post",
+        "url": "https://www.gov.br/planejamento/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cmap/publicacoes/guias/avaliacao_de_politicas_publicas_expost.pdf",
+        "locator": "Teoria do programa, inferência causal e avaliação de impacto"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "indicador-monitoramento-versus-impacto"
+      ]
+    },
+    {
+      "id": "cgu-ia-alucinacao-validacao",
+      "term": "Texto de IA plausível × evidência verificada",
+      "definition": "Modelos generativos podem produzir afirmações fluentes e factualmente incorretas; conteúdo gerado deve ser conferido com fontes confiáveis antes de fundamentar decisões públicas.",
+      "example": "Sistema redige síntese de denúncia e cita decisão inexistente: a plausibilidade textual não constitui prova.",
+      "confusion": "Automação de síntese não dispensa validação humana e rastreabilidade; erro não implica intenção própria do modelo de enganar.",
+      "topic": "IA e validação humana",
+      "subjectIds": [
+        "evidencias-dados-ia"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.4"
+      ],
+      "note": {
+        "articleId": "art-a0fd083e56314c44",
+        "section": "Funcionamento dos LLMs e Limitações"
+      },
+      "source": {
+        "title": "Nota canônica do vault: Inteligência artificial",
+        "url": "https://github.com/leorruas/concursos/blob/main/3%20-%20Materias/Atualidades/01%20-%20inteligencia%20artificial.md",
+        "locator": "Seção: Funcionamento dos LLMs e Limitações"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "ia-gerativa-fluencia-nao-prova"
       ]
     }
   ]

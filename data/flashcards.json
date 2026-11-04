@@ -834,7 +834,7 @@
       "id": "aro",
       "term": "Operação de Crédito por Antecipação de Receita Orçamentária (ARO)",
       "definition": "Operação para atender insuficiência temporária de caixa, tratada como ingresso extraorçamentário.",
-      "example": "Antecipar recursos enquanto se aguarda a arrecadação do exercício.",
+      "example": "O município contrata ARO para cobrir insuficiência temporária de caixa antes da arrecadação esperada.",
       "confusion": "Operação de crédito comum é, em regra, receita orçamentária de capital.",
       "topic": "Ingressos",
       "subjectIds": [
@@ -857,13 +857,13 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "aro-extraorcamentaria-vs-credito-capital"
       ],
       "contrast": {
-        "prompt": "Operação de crédito comum × ARO para cobrir insuficiência temporária de caixa: que ingresso é extraorçamentário?",
-        "answer": "ARO, nas condições legais. Operação de crédito comum, em regra, constitui receita orçamentária de capital."
+        "prompt": "Dois empréstimos entram no caixa: um financia obra plurianual; o outro antecipa receita para cobrir falta temporária de caixa. Qual é ARO?",
+        "answer": "O segundo, nas condições legais: ingresso extraorçamentário. A operação de crédito comum para a obra é, em regra, receita orçamentária de capital."
       }
     },
     {
@@ -1491,13 +1491,13 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "classificacao-institucional-vs-programatica"
       ],
       "contrast": {
-        "prompt": "Ministério da Saúde × ação de vacinação: o que é institucional?",
-        "answer": "O órgão e a unidade orçamentária. Programa e ação são da classificação programática."
+        "prompt": "Universidade federal recebe dotação para o programa de assistência estudantil. A universidade ou unidade orçamentária pertence a qual classificação?",
+        "answer": "Institucional: identifica órgão e unidade orçamentária. Programa e ação de assistência estudantil são programáticos."
       }
     },
     {
@@ -2076,8 +2076,12 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "O procedimento é capaz de barrar pagamentos indevidos, mas ninguém fez a verificação exigida. Qual falha há?",
+        "answer": "O desenho pode ser adequado, mas o funcionamento operacional falhou. A adequação do controle no papel não comprova execução."
+      }
     },
     {
       "id": "operacao-controle",
@@ -2106,14 +2110,14 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "inspecao-documental-para-testar-operacao-do-controle",
         "finalidade-teste-controle-tecnica-documental"
       ],
       "contrast": {
-        "prompt": "Inspecionar aprovações para testar se o controle funcionou × examinar pagamentos para testar regularidade: qual finalidade em cada caso?",
-        "answer": "Primeiro, teste de controle; segundo, procedimento substantivo. A técnica documental pode ser a mesma."
+        "prompt": "Auditor inspeciona registros de aprovações para verificar se o bloqueio de pagamentos funcionou durante meses. Qual teste?",
+        "answer": "Teste de controle: a finalidade é avaliar a operação do mecanismo. Inspeção é a técnica usada, não a categoria do teste."
       }
     },
     {
@@ -2861,7 +2865,7 @@
       "id": "aud-rastreamento-integridade",
       "term": "Rastreamento (tracing)",
       "definition": "Selecionar documentos de origem e procurar os lançamentos correspondentes, principalmente para examinar integridade e possíveis omissões.",
-      "example": "Partir dos documentos de baixa de bens e localizar as baixas nos registros patrimoniais.",
+      "example": "Partir dos termos de baixa patrimonial efetivamente concluídos e procurar cada baixa no registro de bens.",
       "confusion": "A origem física ou digital não importa; importa começar pelo documento para verificar o registro.",
       "topic": "Testes e técnicas",
       "subjectIds": [
@@ -2884,21 +2888,21 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "rastreamento-integridade",
         "vouching-ocorrencia-versus-integridade"
       ],
       "contrast": {
-        "prompt": "Existem concessões autorizadas não encontradas nos pagamentos: partir das concessões para os registros é qual técnica?",
-        "answer": "Rastreamento: documento → registro; verifica sobretudo integridade e possíveis omissões."
+        "prompt": "Termos comprovam 20 baixas patrimoniais concluídas, mas só 18 aparecem no sistema. Qual sentido testa possíveis omissões?",
+        "answer": "Documento de baixa concluída → lançamento: rastreamento (tracing), com foco na integridade do registro. Conferir também as condições de registro."
       }
     },
     {
       "id": "aud-vouching-ocorrencia",
       "term": "Vouching",
       "definition": "Selecionar operações já registradas e procurar a documentação de suporte para examinar principalmente ocorrência ou existência.",
-      "example": "Partir de pagamentos contabilizados e buscar contratos, notas e recibos que os sustentem.",
+      "example": "Selecionar baixas registradas no sistema patrimonial e procurar seus termos e evidências de suporte.",
       "confusion": "Registro → documento é vouching; documento → registro é rastreamento. Documento existente não prova sozinho legalidade.",
       "topic": "Testes e técnicas",
       "subjectIds": [
@@ -2921,13 +2925,13 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "vouching-ocorrencia-versus-integridade"
       ],
       "contrast": {
-        "prompt": "Existem pagamentos registrados sem concessão comprovada: qual sentido de busca usar?",
-        "answer": "Do registro ao documento de suporte: vouching, para avaliar ocorrência/existência."
+        "prompt": "O sistema registra 20 baixas, mas para duas não se encontra documento de suporte. Qual sentido da conferência?",
+        "answer": "Registro → documento: vouching, voltado à ocorrência/existência do fato registrado. Falta de documento pede apuração, não prova fraude."
       }
     },
     {
@@ -3177,14 +3181,14 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "risco-residual-controle",
         "risco-residual-independe-de-eficacia-comprovada"
       ],
       "contrast": {
-        "prompt": "Basta encontrar um controle escrito para concluir que o risco residual caiu?",
-        "answer": "Não. É preciso considerar se o controle foi implementado e se funciona para reduzir a exposição."
+        "prompt": "A gestão implantou um controle de duplicidade, mas há falhas na execução. Pode existir risco residual elevado?",
+        "answer": "Sim. Residual é o risco após considerar o tratamento. Ele não precisa ser baixo, e a eficácia do controle deve ser examinada."
       }
     },
     {
@@ -6893,14 +6897,14 @@
       "source": {
         "title": "Manual Técnico de Orçamento (MTO 2026)",
         "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
-        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+        "locator": "MTO 2026, classificação programática: programa, ação e subtítulo"
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
-        "prompt": "Secretaria responsável × ação de vacinação: quais classificações?",
-        "answer": "Secretaria ou UO: institucional. Programa e ação: programática."
+        "prompt": "Em uma ação de apoio à permanência estudantil, o programa e a ação pertencem a qual classificação? E quem recebe a dotação?",
+        "answer": "Programa e ação: programática. Órgão e unidade orçamentária que respondem pela dotação: institucional."
       },
       "conceptIds": [
         "classificacao-institucional-vs-programatica"
@@ -7374,10 +7378,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
-        "prompt": "Inspecionar aprovações para saber se o controle funcionou: qual teste?",
-        "answer": "Teste de controle: verificar funcionamento do mecanismo, ainda que se examine documentos."
+        "prompt": "Usando o mesmo documento de pagamento, o auditor verifica aprovação prévia ou elegibilidade do beneficiário. Qual finalidade muda?",
+        "answer": "Aprovação prévia testa a operação do controle; elegibilidade testa diretamente a transação (procedimento substantivo)."
       },
       "conceptIds": [
         "finalidade-teste-controle-tecnica-documental"
@@ -7806,6 +7810,44 @@
       "conceptIds": [
         "auditoria-operacional-versus-inferencia-causal"
       ]
+    },
+    {
+      "id": "aud-risco-inerente",
+      "term": "Risco inerente × risco residual",
+      "definition": "O risco inerente é a exposição antes de considerar medidas de tratamento; o residual é a exposição que permanece ao considerá-las, e pode continuar elevada.",
+      "example": "Antes do bloqueio de pagamentos duplicados, mede-se a exposição inerente; depois de implementado o bloqueio, examina-se o risco que permanece, conferindo também se o controle funciona.",
+      "confusion": "Um controle bem desenhado, registrado em manual ou instalado no sistema não prova que operou de modo eficaz ou que reduziu o risco residual.",
+      "topic": "Gestão de riscos",
+      "subjectIds": [
+        "auditoria-governamental",
+        "governanca-riscos-integridade"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P2.1.2",
+        "P2.5"
+      ],
+      "note": {
+        "articleId": "art-e090ae9b07314c94",
+        "section": "Núcleo do conceito"
+      },
+      "source": {
+        "title": "IN Conjunta MP/CGU nº 1/2016",
+        "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/perguntas-frequentes/auditoria-e-fiscalizacao/in-conjunta-mp-cgu-no-01-2016",
+        "locator": "IN Conjunta MP/CGU nº 1/2016, arts. 2º, 11 e 16"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "conceptIds": [
+        "risco-residual-controle"
+      ],
+      "contrast": {
+        "prompt": "O controle de bloqueio de pagamentos consta no manual, mas não há prova de execução: o risco residual é necessariamente baixo?",
+        "answer": "Não. Risco inerente é a exposição sem tratamento; residual é a exposição considerando medidas implementadas. A eficácia não se presume."
+      }
     }
   ]
 }

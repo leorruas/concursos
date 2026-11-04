@@ -1,6 +1,6 @@
 # Flashcards de vocabulário
 
-Criado em 2026-11-04. Coleção atual: 231 cartões únicos, sendo 203 vinculados à CGU 2026 e 28 à Dataprev 2026. Na CGU, há 75 cartões de Orçamento Público, 17 de Avaliação de Políticas Públicas, 14 de Contabilidade Pública e coleções parciais nas demais matérias. A Dataprev inclui Português, Lógica, Informática/Legislação, Atualidades e Comunicação. Os vínculos cruzados reutilizam conceitos sem duplicar cartões. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
+Criado em 2026-11-04. Coleção atual: 232 cartões únicos, sendo 204 vinculados à CGU 2026 e 28 à Dataprev 2026. Na CGU, há 75 cartões de Orçamento Público, 17 de Avaliação de Políticas Públicas, 14 de Contabilidade Pública e coleções parciais nas demais matérias. A Dataprev inclui Português, Lógica, Informática/Legislação, Atualidades e Comunicação. Os vínculos cruzados reutilizam conceitos sem duplicar cartões. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
 
 Lote didático de 04/11/2026: 14 novos cartões de classificações, natureza da despesa, PLOA e emendas, além de 7 cartões existentes refinados com contraste. Exemplos de vacinação e universidade foram incorporados aos artigos canônicos; o lote só será considerado publicado após as verificações do workflow e do site.
 
@@ -46,6 +46,8 @@ Lote de Auditoria (04/11): três cartões novos para distinguir teste de control
 Lote transversal de 04/11: **7 novos cartões** em Avaliação de Políticas Públicas (teoria da mudança, modelo lógico, insumos/atividades, produtos/resultados, impacto na cadeia versus inferência causal, avaliabilidade por pergunta, mudança observada e economicidade/eficiência). **8 cartões existentes refinados**, quatro em Políticas Públicas e quatro em Orçamento. Dois artigos de Políticas Públicas e o artigo de PPA/LDO/LOA receberam casos guiados. As prioridades continuam derivadas das sessões; editar cartões não gera retenção nem novos resultados pessoais.
 
 Lote de conexões de 04/11: **3 cartões novos** sobre a transferência vista pelo orçamento do pagador e do recebedor, cumprimento da meta física versus execução financeira (reutilizado em Orçamento/Políticas) e auditoria operacional versus identificação de impacto causal (reutilizado em Auditoria/Políticas). **6 cartões existentes refinados**, preservando os IDs. Foram adicionadas explicações às notas de classificações orçamentárias, monitoramento/avaliação e procedimentos de auditoria. Sem criação de resultados pessoais, acertos ou retenção.
+
+Lote de revisão de erros recorrentes (04/11): **1 cartão novo** sobre risco inerente × residual, reutilizado entre Auditoria e Governança; **9 cartões existentes refinados** com cenários novos de patrimônio, desenho/funcionamento do controle, ARO e classificação institucional/programática. Três notas canônicas receberam expansões pontuais, preservando os artigos e âncoras. A publicação de cartões não registra acertos nem substitui a revisão espaçada.
 
 ## Integração contínua: cartões e interface
 

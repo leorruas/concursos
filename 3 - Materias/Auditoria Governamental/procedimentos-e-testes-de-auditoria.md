@@ -111,6 +111,14 @@ Em outra hipótese, o sistema contém pagamentos para os quais não se sabe se h
 
 **Fronteira decisiva:** o sentido da busca depende da **afirmação que se quer testar**. Perguntar se houve **omissão de registros** sugere rastreamento. Perguntar se houve **registro sem operação de suporte** sugere vouching. A mesma inspeção documental pode ser usada com finalidades distintas; ver [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar|execução dos testes]].
 
+#### Caso alternativo: registro patrimonial e direção da verificação
+
+No exemplo hipotético, **20 termos de baixa patrimonial concluída** demonstram retiradas de bens efetivamente realizadas, mas o sistema possui somente **18 registros** correspondentes. A verificação parte dos **documentos de origem** e procura os lançamentos: rastreamento (*tracing*), útil para investigar **integridade** e possíveis omissões. É necessário conferir quais eventos exigiam registro; um documento de mera intenção ou autorização futura não equivale a baixa concluída.
+
+Agora inverta a suspeita: o sistema apresenta **20 baixas registradas**, e duas carecem de termo ou outra evidência de suporte. O auditor começa pelos **registros** e busca documentos comprobatórios: *vouching*, voltado à **ocorrência/existência** das baixas registradas. A ausência de documento exige investigação; não autoriza, isoladamente, concluir fraude ou invalidade definitiva.
+
+Essa distinção não depende do **formato físico ou digital** da prova. O sentido da seleção e a afirmação testada definem o procedimento. Em ambos os cenários, se o auditor examina o mesmo documento para verificar a **observância de uma aprovação obrigatória**, a finalidade pode ser **teste de controle**. Se verifica a **validade da própria baixa**, pode ser **procedimento substantivo de detalhes**.
+
 ### Indagação, confirmação externa e procedimentos analíticos
 
 Indagar ajuda a conhecer processos, causas possíveis e pontos que ainda precisam ser testados. Uma entrevista assinada **não elimina a necessidade de verificar as informações**. A confirmação externa é uma declaração formal de terceiro independente; sua confiabilidade depende das circunstâncias de obtenção e autenticidade. Uma mensagem apenas atribuída a terceiro não basta para afirmar que houve confirmação independente.

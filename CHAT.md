@@ -16,7 +16,7 @@ Os contextos são gerados: se a última gravação ainda estiver em processament
 
 ## Ensinar, avaliar e registrar
 
-**Marcação opcional de insegurança:** ao lado de cada item, usar a caixa **“Respondi com insegurança”**. Marcada: `confidence: insecure`. Desmarcada: `confidence: unknown`; nunca presumir `secure`. Segurança declarada pelo estudante deve ser recolhida separadamente quando necessária à revisão espaçada. Respostas já registradas como `unknown` continuam assim, sem reinterpretar retroativamente.
+**Marcação opcional de confiança:** ao lado de cada item, usar a caixa **“Tenho confiança nesta resposta”**. Marcada: `confidence: secure` (declaração explícita de segurança). Desmarcada: `confidence: unknown` (sem declaração), nunca inferir insegurança pela ausência de marcação. `confidence: insecure` só pode ser registrado quando o estudante declarar insegurança expressamente em texto ou em controle específico. A regra vale para baterias futuras, sem reclassificar retrospectivamente respostas já salvas como `unknown`. Para revisão espaçada, a confiança precisa ser informada no momento da recuperação.
 
 Seguir preparação → aula pelo caso/mecanismo/decisão/limites → fronteiras → aprendizagem → treino calibrado → correção → checkpoint → revisão espaçada. Não cobrar regra ainda não ensinada. Explicar siglas na primeira ocorrência; sem ícones. Usar controles clicáveis se disponíveis, com envio explícito; aceitar respostas compactas. Corrigir no chat, diagnosticando conhecimento, confusão conceitual, interpretação ou distração.
 

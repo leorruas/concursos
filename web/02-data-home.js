@@ -189,9 +189,18 @@ function renderizarPastas() {
 
     const categoriasOrientacao = ["00. Simulados", "00. Desempenho"];
 
+    // Numeração editorial da biblioteca geral: garantir número também para futuras matérias.
+    // O filtro por edital previsto no planejamento substituirá esta ordem pela do concurso.
+    const inicioAdicionais = Math.max(...Object.values(informacoesDisciplinas)
+        .map(info => Number(info.numero)).filter(Number.isFinite)) + 1;
+    const categoriasNovas = todasCategorias.filter(categoria => !informacoesDisciplinas[categoria]);
+    const numerosNovos = new Map(categoriasNovas.map((categoria, i) =>
+        [categoria, String(inicioAdicionais + i).padStart(2, "0")]
+    ));
+
     todasCategorias.forEach(categoria => {
         const info = informacoesDisciplinas[categoria] || {
-            numero: "•",
+            numero: numerosNovos.get(categoria),
             resumo: `${todasAsPastas[categoria].length} artigos disponíveis`
         };
 

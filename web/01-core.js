@@ -86,7 +86,19 @@ const informacoesDisciplinas = {
     "Redacao": { numero: "13", nome: "redação discursiva", resumo: "técnicas discursivas, estrutura argumentativa e repertório" },
     "Auditoria Governamental": { numero: "14", nome: "auditoria governamental", resumo: "avaliação, consultoria, apuração, três linhas, controles e evidências" },
     "04. Projetos & Edital": { numero: "15", nome: "projetos & edital", resumo: "dashboards, cronogramas e wiki do edital dataprev/tcdf" },
-    "01. Planejamento": { numero: "16", nome: "planejamento", resumo: "cronogramas, horários e editais abertos/previstos" }
+    "01. Planejamento": { numero: "16", nome: "planejamento", resumo: "cronogramas, horários e editais abertos/previstos" },
+    "Avaliacao de Politicas Publicas": { numero: "17", nome: "avaliação de políticas públicas", resumo: "teoria da mudança, implementação, avaliação e inferência" },
+    "Estado e Democracia": { numero: "18", nome: "estado e democracia", resumo: "legitimidade, democracia, federalismo e controle" },
+    "Sociedade Brasileira": { numero: "19", nome: "sociedade brasileira", resumo: "diversidade, desigualdades, cidadania e desenvolvimento" },
+    "Etica Publica": { numero: "20", nome: "ética pública", resumo: "deveres, conduta e conflitos de interesse" },
+    "Governanca Riscos e Integridade": { numero: "21", nome: "governança, riscos e integridade", resumo: "governança, controles e integridade institucional" },
+    "Transparencia e Ouvidoria": { numero: "22", nome: "transparência e ouvidoria", resumo: "acesso à informação, proteção de dados e participação" },
+    "Evidencias Dados e IA": { numero: "23", nome: "evidências, dados e inteligência artificial", resumo: "indicadores, inferência, ética e uso de IA" },
+    "Financas Publicas": { numero: "24", nome: "finanças públicas", resumo: "economia do setor público e política fiscal" },
+    "Orcamento Publico": { numero: "25", nome: "orçamento público", resumo: "PPA, LDO, LOA e execução orçamentária" },
+    "Contabilidade Publica": { numero: "26", nome: "contabilidade pública", resumo: "patrimônio, demonstrações contábeis e custos" },
+    "Contratacoes e Transferencias": { numero: "27", nome: "contratações e transferências", resumo: "contratos, fiscalização, transferências e controles" },
+    "Integridade e Responsabilizacao": { numero: "28", nome: "integridade e responsabilização", resumo: "correição, apuração, sanção e reparação" }
 };
 
 // Variáveis Globais

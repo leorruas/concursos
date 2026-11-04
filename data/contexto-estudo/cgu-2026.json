@@ -32,14 +32,14 @@
     },
     {
       "key": "Políticas Públicas e avaliação / aprendizagem",
-      "total": 22,
-      "correct": 21,
-      "incorrect": 1,
+      "total": 26,
+      "correct": 24,
+      "incorrect": 2,
       "blank": 0,
       "annulled": 0,
-      "answered": 22,
-      "valid": 22,
-      "accuracy": 0.9545454545454546,
+      "answered": 26,
+      "valid": 26,
+      "accuracy": 0.9230769230769231,
       "sample": "insuficiente"
     },
     {
@@ -81,6 +81,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final.json",
+      "status": "parcial",
+      "diagnosis": "Bateria final de aprendizagem U03: 3/4 (C/E/C/E), respostas do estudante C/E/C/C. Erro de confusão conceitual no item 4: a existência de metas operacionais cumpridas somadas à mudança observada no resultado pretendido não identifica por si só o efeito causal da política. Todos os níveis de confiança foram unknown, sem inferir segurança ou insegurança. A unidade tem nota canônica aprofundada, mas permanece aberta até a recuperação do conceito, sem confundir conhecimento documentado e retenção.",
+      "nextStep": "Fazer micro-reteste do erro de causalidade com cenário não escolar e mecanismo diferente, pedindo declaração de confiança. Depois registrar encerramento didático e editorial da U03 se a lacuna for recuperada. Manter revisão espaçada da avaliabilidade U01 prevista para 05/11 e U02 para revisão futura."
+    },
+    {
       "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial",
       "date": "2026-11-04",
       "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial.json",
@@ -95,26 +103,18 @@
       "status": "parcial",
       "diagnosis": "Recuperação de bateria didática respondida no chat em 04/11, gabarito E/C/C/C/E, 5/5 acertos. Confiança não declarada para todos os itens; horário representa tentativa de registro, não início real confirmado. Sem retenção espaçada nem calibração competitiva. Unidade 03 ainda aberta.",
       "nextStep": "Aprofundar atividades, produtos, resultados e impactos em casos menos diretos; consolidar o artigo U03 quando a unidade for concluída. Manter revisão de avaliabilidade U01 pendente para 05/11."
-    },
-    {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-aprendizagem.json",
-      "status": "parcial",
-      "diagnosis": "Recuperação de bateria didática respondida no chat em 04/11, gabarito E/C/C/C, 4/4 acertos. Confiança não declarada para todos os itens; horário representa tentativa de registro, não início real confirmado. Sem retenção espaçada nem calibração competitiva. Unidade 03 ainda aberta.",
-      "nextStep": "Aprofundar atividades, produtos, resultados e impactos em casos menos diretos; consolidar o artigo U03 quando a unidade for concluída. Manter revisão de avaliabilidade U01 pendente para 05/11."
     }
   ],
   "recentMechanisms": [
     "atividade-visita-resultado-frequencia",
+    "classificacao-do-fluxo-de-transporte",
     "eficacia-depende-de-objetivos-indicadores",
     "equidade-necessidades-diferentes",
-    "ex-post-abrange-implementacao",
     "igualdade-tratamento-nao-garante-equidade",
-    "metas-cumpridas-com-custo-excessivo",
-    "metas-nao-comprovam-efetividade",
-    "monitoramento-indicadores-avaliacao-explicacao",
-    "resultado-nao-prova-efeito-causal"
+    "indicador-finalistico-em-monitoramento",
+    "metas-mais-mudanca-observada-nao-provam-atribuicao",
+    "resultado-nao-prova-efeito-causal",
+    "visita-concluida-como-produto-entregue"
   ],
   "review": [
     {
@@ -240,13 +240,22 @@
       "result": "incorrect",
       "confidence": "unknown",
       "theoryRefs": []
+    },
+    {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final-q4",
+      "topic": "Monitoramento e avaliação",
+      "result": "incorrect",
+      "confidence": "unknown",
+      "theoryRefs": [
+        "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Mudança observada, efeito causal e contrafactual"
+      ]
     }
   ],
   "resume": {
     "subjectId": "politicas-publicas",
     "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
-    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-fechamento-editorial",
-    "time": 1793792462000
+    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final",
+    "time": 1793793272000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

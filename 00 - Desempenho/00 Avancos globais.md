@@ -24,7 +24,7 @@ Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessõ
 | dataprev-2026 / Comunicação Social / simulado histórico | 53 | 7 | 0 | 0 | 88.3% | volume >= 50; verificar representatividade |
 | dataprev-2026 / Atualidades/IA / simulado histórico | 11 | 1 | 0 | 0 | 91.7% | insuficiente |
 | cgu-2026 / Políticas Públicas e avaliação / revisao | 3 | 0 | 0 | 0 | 100.0% | insuficiente |
-| cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 21 | 1 | 0 | 0 | 95.5% | insuficiente |
+| cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 24 | 2 | 0 | 0 | 92.3% | insuficiente |
 | cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |
 | cgu-2026 / Auditoria Governamental / aprendizagem | 31 | 5 | 0 | 0 | 86.1% | insuficiente |
@@ -34,7 +34,7 @@ Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessõ
 | Segunda-feira / concurso / disciplina / modalidade | Acertos | Erros | Brancos | Anulados | Acerto entre respondidas | Amostra |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-11-02 / cgu-2026 / Políticas Públicas e avaliação / revisao | 3 | 0 | 0 | 0 | 100.0% | insuficiente |
-| 2026-11-02 / cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 21 | 1 | 0 | 0 | 95.5% | insuficiente |
+| 2026-11-02 / cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 24 | 2 | 0 | 0 | 92.3% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / para_valer | 20 | 2 | 2 | 0 | 90.9% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / aprendizagem | 23 | 4 | 0 | 0 | 85.2% | insuficiente |

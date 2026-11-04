@@ -28,7 +28,7 @@ Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessõ
 | cgu-2026 / Orçamento Público / aprendizagem | 35 | 7 | 0 | 0 | 83.3% | insuficiente |
 | cgu-2026 / Auditoria Governamental / revisao | 34 | 5 | 0 | 0 | 87.2% | insuficiente |
 | cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |
-| cgu-2026 / Auditoria Governamental / aprendizagem | 31 | 5 | 0 | 0 | 86.1% | insuficiente |
+| cgu-2026 / Auditoria Governamental / aprendizagem | 35 | 6 | 0 | 0 | 85.4% | insuficiente |
 
 ### Volume semanal
 
@@ -39,7 +39,7 @@ Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessõ
 | 2026-11-02 / cgu-2026 / Orçamento Público / aprendizagem | 35 | 7 | 0 | 0 | 83.3% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / revisao | 34 | 5 | 0 | 0 | 87.2% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / para_valer | 20 | 2 | 2 | 0 | 90.9% | insuficiente |
-| 2026-11-02 / cgu-2026 / Auditoria Governamental / aprendizagem | 23 | 4 | 0 | 0 | 85.2% | insuficiente |
+| 2026-11-02 / cgu-2026 / Auditoria Governamental / aprendizagem | 27 | 5 | 0 | 0 | 84.4% | insuficiente |
 | 2026-10-26 / cgu-2026 / Auditoria Governamental / para_valer | 12 | 3 | 0 | 1 | 80.0% | insuficiente |
 | 2026-10-26 / cgu-2026 / Auditoria Governamental / aprendizagem | 8 | 1 | 0 | 0 | 88.9% | insuficiente |
 | 2026-10-05 / dataprev-2026 / Raciocínio Lógico / simulado histórico | 10 | 2 | 0 | 0 | 83.3% | insuficiente |

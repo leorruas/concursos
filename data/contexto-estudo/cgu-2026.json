@@ -80,18 +80,26 @@
     },
     {
       "key": "Auditoria Governamental / aprendizagem",
-      "total": 36,
-      "correct": 31,
-      "incorrect": 5,
+      "total": 41,
+      "correct": 35,
+      "incorrect": 6,
       "blank": 0,
       "annulled": 0,
-      "answered": 36,
-      "valid": 36,
-      "accuracy": 0.8611111111111112,
+      "answered": 41,
+      "valid": 41,
+      "accuracy": 0.8536585365853658,
       "sample": "insuficiente"
     }
   ],
   "recentSessions": [
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01.json",
+      "status": "concluido",
+      "diagnosis": "Bateria didática de aplicação: 5 itens C/E, 4 acertos, 1 erro, 0 brancos, unidades u02 (2/2) e u07 (2/3). Q1 e Q2 corretas com confiança secure: recuperação imediata de consultoria anterior versus impedimento por responsabilidade operacional nos 24 meses. Q3 incorreta com confiança insecure: procedimento analítico substantivo por expectativa de valor total de bolsas; erro classificado provisoriamente como confusão conceitual, sem justificativa do estudante. Q4 correta com confiança insecure: recálculo versus validade dos dados de elegibilidade, permanece para revisão. Q5 correta e segura: limite temporal da observação. Treino com retomadas mecânicas e temáticas, sem calibração Cebraspe, sem medição autônoma de retenção.",
+      "nextStep": "Na unidade 07, reparar procedimento analítico substantivo versus teste de detalhes com caso novo baseado em finalidade, expectativa e dados. Retestar após intervalo Q4 recálculo e validade dos insumos; manter revisão u02 consultoria e impedimento recuperados imediatamente, bem como dúvidas u03 segunda/terceira linha e u04 RAINT/parecer. Só fazer treino para valer após corpus Cebraspe oficial identificado; concluir editorialmente u07 apenas no fechamento didático."
+    },
     {
       "id": "cgu-2026-2026-11-04-orcamento-publico-b06",
       "date": "2026-11-04",
@@ -107,58 +115,29 @@
       "status": "concluido",
       "diagnosis": "Bateria didática de recuperação de 5 itens C/E: 4 acertos e 1 erro, sem brancos ou anulações, todos com confiança secure. Unidades: u07 3/3, u03 1/1, u02 0/1. Q5 incorreta com segurança repete a confusão entre consultoria prévia sem gestão e impedimento temporal automático (item 53 versus 52 do Referencial); classificação provisória de confusão conceitual. Q1 e Q2 recuperaram rastreamento/integridade versus vouching/ocorrência, Q3 recuperou finalidade de teste de controle versus técnica documental, Q4 recuperou risco residual versus funcionamento efetivo de controle. Retestes intencionais no mesmo dia, dois com repetição mecânica; não demonstram retenção espaçada ou desempenho calibrado Cebraspe.",
       "nextStep": "Retestar consultoria anterior versus responsabilidade gerencial e ameaças à objetividade (u02) com caso realmente distinto, reavaliar depois de intervalo as distinções vouching/rastreamento (u07) e risco residual (u03), além dos acertos inseguros RAINT/parecer (u04) e segunda/terceira linha (u03). Prosseguir na unidade 07 com treino para valer somente após leitura e identificação de corpus oficial Cebraspe; fechamento editorial no encerramento didático. O exemplo de bolsas foi incorporado à nota por solicitação explícita."
-    },
-    {
-      "id": "cgu-2026-2026-11-04-orcamento-publico-b05",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b05.json",
-      "status": "parcial",
-      "diagnosis": "Bateria 05, artigo 03: 7 acertos em 8 itens. Acertos seguros: 1, 3, 5, 7 e 8. Acertos inseguros: universalidade e receita de pequeno valor (2), orçamento bruto e deduções indevidas (4). Erro inseguro: crédito especial tratado como integrante da exceção à exclusividade prevista para créditos suplementares (6), confusão conceitual por extensão indevida do alcance da norma. Ressalva da regra de ouro inclui suplementares ou especiais (item 8), sem modificar a exceção à exclusividade. Aprendizagem didática; não constitui benchmark nem comprova retenção.",
-      "nextStep": "Reparar a fronteira créditos suplementares vs especiais: exclusividade da LOA (CF art. 165, §8º) versus ressalva à regra de ouro (CF art. 167, III). Retestar universalidade e orçamento bruto com casos diferentes. Em 05/11/2026, manter revisão espaçada de regionalização do PPA e das lacunas anteriores. Depois avançar na unidade up3-2-2, artigo 04 (classificações) e seguintes."
     }
   ],
   "recentMechanisms": [
+    "aritmetica-nao-comprova-elegibilidade",
+    "autorizou-pagamentos-ha-18-meses",
+    "avaliacao-de-ameacas-apos-consultoria",
     "classificar-inspecao-por-finalidade",
     "comparar-tratamento-orcamentario-de-dois-emprestimos",
     "consultoria-previa-sem-gestao-e-impedimento-temporal",
     "controle-formal-contornado-e-risco-residual",
-    "deducao-do-bruto",
     "distinguir-categoria-economica-e-destinacao",
     "distinguir-classificador-oficial-de-criterio-doutrinario",
     "distinguir-niveis-da-natureza-e-fonte-dos-recursos",
     "distinguir-quem-executa-de-objetivo-e-acao",
     "distinguir-registro-documento-e-omissao",
     "distinguir-tipo-de-acao-e-natureza-da-despesa",
-    "dotacao-indiferenciada",
-    "estrutura-da-loa-e-unidade",
-    "excecao-educacao-tratada-como-proibicao",
-    "excecao-falsa-do-ppa-a-anualidade",
+    "expectativa-com-beneficiarios-e-valores",
     "identificar-especie-de-credito-em-caso-novo",
-    "omissao-por-baixo-valor",
+    "operacao-controle-ao-longo-do-exercicio",
     "origem-para-registro-em-estoque",
-    "reconhecer-combinacao-matricial-com-ressalvas",
-    "regra-de-ouro-maioria-absoluta",
-    "transferencia-de-excecao-suplementar-para-especial"
+    "reconhecer-combinacao-matricial-com-ressalvas"
   ],
   "review": [
-    {
-      "id": "cgu26-auditoria-un05-q3",
-      "topic": "Planejamento individual de auditoria",
-      "result": "incorrect",
-      "confidence": "unknown",
-      "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Matriz, programa e supervisão"
-      ]
-    },
-    {
-      "id": "cgu26-auditoria-un05-pv-q8",
-      "topic": "Planejamento individual de auditoria",
-      "result": "correct",
-      "confidence": "guess",
-      "theoryRefs": [
-        "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md#Refinamento de conceitos próximos"
-      ]
-    },
     {
       "id": "cgu26-auditoria-un06-q6",
       "topic": "Evidências e documentação de auditoria",
@@ -410,13 +389,32 @@
         "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Natureza da despesa: categoria, GND, modalidade e elemento",
         "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Fonte/destinação de recursos × natureza da receita"
       ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q3",
+      "topic": "Procedimentos e testes de auditoria",
+      "result": "incorrect",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Procedimento substantivo: detalhes e análise",
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Indagação, confirmação externa e procedimentos analíticos"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01-q4",
+      "topic": "Procedimentos e testes de auditoria",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Três fronteiras examinadas em prova"
+      ]
     }
   ],
   "resume": {
-    "subjectId": "orcamento-publico",
-    "path": "data/contexto-estudo/cgu-2026/orcamento-publico.json",
-    "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b06",
-    "time": 1793819100000
+    "subjectId": "auditoria-governamental",
+    "path": "data/contexto-estudo/cgu-2026/auditoria-governamental.json",
+    "lastSessionId": "cgu-2026-auditoria-2026-11-04-aplicacao-u02-u07-b01",
+    "time": 1793821699000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

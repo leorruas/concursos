@@ -12,8 +12,14 @@ const uiText=fs.readFileSync(new URL('../web/10-flashcards-ui.js',import.meta.ur
 const pageText=fs.readFileSync(new URL('../flashcards.html',import.meta.url),'utf8');
 assert(uiText.includes('raw.githubusercontent.com/leorruas/concursos/main/data/contexto-estudo/flashcards-prioridades.json'));
 assert(!pageText.includes('fc-errors-import'),'Importação manual de prioridades deve desaparecer');
-assert(pageText.includes('id="fc-errors-status"') && pageText.includes('id="fc-import-trigger"'));
-assert(pageText.includes('id="fc-import" type="file"') && pageText.includes('hidden disabled'),'Backup oculto até ser acionado');
+assert(pageText.includes('id="fc-errors-status"'),'Manter status automático de prioridades');
+assert(!pageText.includes('type="file"')&&!pageText.includes('fc-import-trigger'),'Remover controle de arquivos de toda a interface');
+assert(!uiText.includes("$('import')")&&!uiText.includes('import-trigger'),'Remover handlers de importação');
+for(const name of ['aud-finalidade-teste-controle','aud-teste-substantivo-detalhes','aud-observacao-reexecucao']) {
+ const card=cards.find(c=>c.id===name);
+ assert(card?.subjectIds.includes('auditoria-governamental')&&card.contrast,'Card novo de Auditoria ausente: '+name);
+}
+assert(cards.length>=221,'Inventário deve conter a expansão de Auditoria');
 assert.equal(F.stats(cards,F.empty(),now).unseen,cards.length);
 const queue=F.select(cards,F.empty(),options,now,()=>.5);assert.equal(queue.length,10);assert.equal(new Set(queue.map(q=>q.id)).size,10);
 let state=F.start(cards,F.empty(),options,now,()=>.5);

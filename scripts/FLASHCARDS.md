@@ -1,6 +1,6 @@
 # Flashcards de vocabulário
 
-Criado em 2026-11-04. Coleção atual: 218 cartões únicos, sendo 190 vinculados à CGU 2026 e 28 à Dataprev 2026. Na CGU, há 73 cartões de Orçamento Público, 14 de Contabilidade Pública e coleções parciais nas demais matérias. A Dataprev inclui Português, Lógica, Informática/Legislação, Atualidades e Comunicação. Os vínculos cruzados reutilizam conceitos sem duplicar cartões. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
+Criado em 2026-11-04. Coleção atual: 221 cartões únicos, sendo 193 vinculados à CGU 2026 e 28 à Dataprev 2026. Na CGU, há 73 cartões de Orçamento Público, 14 de Contabilidade Pública e coleções parciais nas demais matérias. A Dataprev inclui Português, Lógica, Informática/Legislação, Atualidades e Comunicação. Os vínculos cruzados reutilizam conceitos sem duplicar cartões. Vínculos múltiplos reutilizam conceitos em Governança e Integridade sem duplicar cartões. Não representa cobertura completa do edital.
 
 Lote didático de 04/11/2026: 14 novos cartões de classificações, natureza da despesa, PLOA e emendas, além de 7 cartões existentes refinados com contraste. Exemplos de vacinação e universidade foram incorporados aos artigos canônicos; o lote só será considerado publicado após as verificações do workflow e do site.
 
@@ -28,7 +28,7 @@ Isso é uma heurística transparente de recuperação autodeclarada, não algori
 
 Chave local preservada: `concursos-flashcards-v1`; formato atual `{version:2,reviews,session,priorities,lastSession}`. Backups no formato 1 são migrados na leitura, preservando revisões e fila ainda não avaliada. Uma rodada antiga concluída não reabre. Cada avaliação e reposição da janela são salvas juntas; recarregar permite retomar uma interrupção acidental, com a resposta oculta. A resposta volta oculta ao retomar. Não há chamada de rede para transmitir respostas; somente leitura da coleção pública.
 
-O armazenamento pertence à origem, navegador e dispositivo. Não sincroniza com Obsidian, GitHub, chat ou outro dispositivo. Dados podem ser apagados pelo navegador. Falha de gravação é anunciada e a memória pode ser exportada. Exportação gera JSON local; importação valida antes de substituir e exige confirmação. IDs de cartões removidos são ignorados nos históricos; sessão com referência removida é recusada, sem gravação parcial. Backups são pessoais: não os colocar no repositório. Não há mesclagem automática de backups concorrentes.
+O armazenamento pertence à origem, navegador e dispositivo. Não sincroniza com Obsidian, GitHub, chat ou outro dispositivo. Dados podem ser apagados pelo navegador. Falha de gravação é anunciada e a memória pode ser exportada. Exportação gera JSON local como cópia de segurança; a interface não oferece importação de arquivos. O motor ainda consegue validar estados antigos, sem formulário de upload. IDs de cartões removidos são ignorados nos históricos; sessão com referência removida é recusada, sem gravação parcial. Backups são pessoais: não os colocar no repositório. Não há mesclagem automática de backups concorrentes.
 
 ## Adicionar e revisar cartões
 
@@ -41,11 +41,13 @@ O armazenamento pertence à origem, navegador e dispositivo. Não sincroniza com
 
 Ampliação seguinte: aprofundar Contabilidade em DVP, custos e estatais com notas específicas; ampliar contratos de transferências, finanças e auditoria aplicada, preservando apenas conceitos efetivamente documentados. Não confundir coleção parcial com domínio da matéria. O esquema já comporta essas coleções sem mudança na interface; não apresentar a estrutura preparada como conteúdo concluído.
 
+Lote de Auditoria (04/11): três cartões novos para distinguir teste de controle, teste substantivo de detalhes e observação versus reexecução; quatro refinamentos de cartões já existentes; caso guiado incluído no artigo de procedimentos. O lote não registra sessão, pontuação ou retenção.
+
 ## Integração contínua: cartões e interface
 
 As sessões registradas no GitHub geram prioridades por `conceptIds`. O navegador consulta esse arquivo e ajusta a ordem das revisões sem importação manual. **O conteúdo dos cartões é outra etapa:** no fechamento de cada unidade, o agente revisa conceitos ainda sem cartão e acrescenta pequenos lotes a `data/flashcards.json` com fontes, artigo e metadados validados. O Pages passa a disponibilizar esses cartões após publicação; não há geração automática de conteúdo não revisado no navegador.
 
-O formulário nativo de envio de arquivo foi retirado da seção principal. A restauração eventual de backups do progresso continua disponível na ajuda, por um botão consistente com a interface. Nenhum arquivo pessoal passa para o build público.
+O formulário nativo de envio de arquivo foi retirado da seção principal. A importação de cópias foi retirada também da seção de ajuda; resta a exportação de segurança. Não há restauração de arquivo pela interface. Nenhum arquivo pessoal passa para o build público.
 
 ## Ligação com erros das questões
 

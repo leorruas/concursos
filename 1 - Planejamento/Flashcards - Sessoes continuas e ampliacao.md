@@ -30,6 +30,10 @@ Se acabarem os cartões elegíveis, apresentar **“Sua fila está em dia”**, 
 
 A página de flashcards passa a consultar o perfil de prioridades diretamente do GitHub público, sem controle de importação no painel. A interface usa uma linha discreta de estado, sem o campo de arquivo nativo. O acesso ao arquivo continua público no repositório (não no Pages), exigindo transparência; os dados de autoavaliação dos flashcards continuam privados ao navegador. No fechamento da unidade, novos cartões devem entrar em pequenos lotes **após validação editorial**, e o Pages os disponibiliza na publicação seguinte. A consulta de prioridades não gera cartões por conta própria.
 
+## Continuação: Auditoria e retirada dos controles de importação
+
+Retirado o último controle visual de importação, “Importar cópia”, da área de ajuda. A exportação continua como cópia de segurança, sem restauração de arquivo pela interface. O lote seguinte de Auditoria acrescenta três cartões de finalidades e técnicas (teste de controle, teste substantivo de detalhes e observação versus reexecução), refina quatro existentes e acrescenta um caso comparativo ao artigo de procedimentos. Não inferir aprendizagem ou retenção pela edição do conteúdo.
+
 ## Seleção, erros e espaçamento
 
 Reutilizar a integração já implementada com `data/contexto-estudo/flashcards-prioridades.json`: erros conceituais recorrentes pendentes, outros erros, incertezas e revisões posteriores à recuperação imediata. A página agora consulta automaticamente o arquivo de prioridades diretamente do repositório público do GitHub, sem copiar o perfil para o GitHub Pages. O corte continua visível. Falha de rede mantém a última fotografia local, e a consulta nunca substitui outra de data mais recente.

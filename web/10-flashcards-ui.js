@@ -120,7 +120,7 @@
         subjects();home();
         void syncPriorities(true);
         if(storageOK)status(`${cards.length} conceitos · CGU 2026 / Cebraspe · progresso dos cartões neste dispositivo`);
-        $('export').disabled=false;$('import').disabled=false;$('import-trigger').disabled=false;
+        $('export').disabled=false;
         $('form').addEventListener('submit',async e=>{
             e.preventDefault();
             if(corrupt){status('O progresso salvo não pôde ser lido. Exporte a cópia antes de iniciar uma nova sessão.');return;}
@@ -155,15 +155,7 @@
             const url=URL.createObjectURL(new Blob([content],{type:'application/json'})), a=document.createElement('a');
             a.href=url;a.download='flashcards-progresso-'+new Date().toISOString().slice(0,10)+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
         });
-        $('import-trigger').addEventListener('click',()=>{$('import').click();});
-        $('import').addEventListener('change',async e=>{
-            try{
-                const file=e.target.files[0];if(!file)return;if(file.size>2000000)throw Error('Arquivo maior que 2 MB.');
-                const next=F.validateState(JSON.parse(await file.text()),cards);
-                if(!confirm('Substituir o progresso deste navegador pela cópia importada? Exporte antes se quiser preservar o atual.'))return;
-                save(next);raw=null;corrupt=false;home();void syncPriorities(true);if(storageOK)status('Progresso importado e salvo neste navegador.');
-            }catch(error){status('Importação recusada: '+error.message);}finally{e.target.value='';}
-        });
+
     }catch(error){status('Não foi possível abrir os flashcards. Recarregue a página para tentar novamente. '+error.message);}
     try { document.documentElement.dataset.theme=localStorage.getItem('tema-concursos')||'dark'; } catch {}
     $('theme').addEventListener('click',()=>{const t=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=t;try{localStorage.setItem('tema-concursos',t);}catch{}});

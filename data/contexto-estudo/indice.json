@@ -477,10 +477,10 @@
         }
       ],
       "resume": {
-        "subjectId": "orcamento-publico",
-        "path": "data/contexto-estudo/cgu-2026/orcamento-publico.json",
-        "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b02",
-        "time": 1793803953000
+        "subjectId": "auditoria-governamental",
+        "path": "data/contexto-estudo/cgu-2026/auditoria-governamental.json",
+        "lastSessionId": "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07",
+        "time": 1793805540000
       }
     },
     {

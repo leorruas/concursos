@@ -56,14 +56,14 @@
     },
     {
       "key": "Auditoria Governamental / revisao",
-      "total": 16,
-      "correct": 15,
-      "incorrect": 1,
+      "total": 34,
+      "correct": 30,
+      "incorrect": 4,
       "blank": 0,
       "annulled": 0,
-      "answered": 16,
-      "valid": 16,
-      "accuracy": 0.9375,
+      "answered": 34,
+      "valid": 34,
+      "accuracy": 0.8823529411764706,
       "sample": "insuficiente"
     },
     {
@@ -93,6 +93,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07.json",
+      "status": "concluido",
+      "diagnosis": "Simulado curto misto de retenção, 18 itens C/E, unidades 02 a 07, criado no chat e corrigido em 04/11/2026: 15 acertos/3 erros/0 brancos, 83,33% acurácia, pontuação hipotética P3 +24/36 (+2/-2/0); unidades u02 2/3, u03 2/3, u04 3/3, u05 3/3, u06 3/3 e u07 2/3. Três respostas inseguras: q2 (errada), q13 e q14 (corretas). Dois erros com confiança secure: q3 consultoria anterior/objetividade e q18 vouching/ocorrência. Erro inseguro q2: existência formal de controle não demonstra eficácia nem redução de risco residual. Retenção por conceito com ressalvas: questões muito semelhantes a itens anteriores não comprovam transferência robusta; não é simulado integral nem benchmark Cebraspe calibrado.",
+      "nextStep": "Revisar em novos casos o risco residual versus desenho/efetividade (u03), consultoria anterior versus impedimento temporal/objetividade (u02) e vouching/ocorrência versus rastreamento/integridade (u07). Retestar q13 (RAINT versus parecer) e q14 (segunda versus terceira linha) com confiança declarada. Manter o ponto de retomada didático da u07 em fronteiras, concluir treino para valer com corpus Cebraspe real identificado e realizar fechamento editorial quando a unidade for completada. Não presumir retenção integral pelas 18 questões."
+    },
+    {
       "id": "cgu-2026-2026-11-04-orcamento-publico-b02",
       "date": "2026-11-04",
       "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b02.json",
@@ -107,33 +115,40 @@
       "status": "parcial",
       "diagnosis": "Primeira bateria do artigo 01: 5 acertos em 6 respostas, dos quais 1 acerto inseguro (op02). Erro seguro em op03 por confundir dotação autorizada com disponibilidade financeira, apesar da ressalva correta sobre entrega física. Não constitui treino competitivo nem evidência de retenção.",
       "nextStep": "Retestar dotação versus disponibilidade financeira com outro contexto e recuperar classificação da aprovação legislativa, antes de começar PPA, LDO e LOA (artigo 02)."
-    },
-    {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-reteste-causalidade.json",
-      "status": "concluido",
-      "diagnosis": "Micro-reteste dirigido do item 4 da bateria final U03: 3/3 acertos C/E/C, todos com confiança secure expressamente declarada pelo fluxo clicável. A interpretação foi transferida de evasão escolar para campanha de saúde, saneamento e comparação entre municípios. Recuperação correta imediata, no mesmo dia do erro original; não é evidência de retenção espaçada. Os itens são inéditos didáticos e não calibrados por corpus Cebraspe.",
-      "nextStep": "Iniciar unidade 04 de Políticas Públicas: estratégias qualitativas e métodos mistos (casos, entrevistas, grupos, observação, triangulação, generalização). Preservar revisão espaçada da U01 sobre avaliabilidade em 05/11, a revisão do erro de causalidade da U03 em data posterior e revisões gerais da U02/U03. Não declarar retenção já comprovada."
     }
   ],
   "recentMechanisms": [
+    "acesso-papeis-aprovacao-alta-administracao",
     "aplicacao-excecao-constitucional",
+    "aprovacao-alteracoes-programa",
     "classificacao-de-fases",
-    "comparacao-antes-depois-sem-contrafactual-valido",
-    "comparador-entre-municipios-condicoes-de-validade",
+    "conflito-interesse-sem-ilicito",
+    "consultoria-previa-objetividade",
+    "consultoria-programa-flexibilidade",
+    "criterio-meta-institucional",
     "diferenciacao-de-taxonomias",
     "diferenciar-autorizacao-e-caixa",
     "diferenciar-conformidade-e-resultado",
     "diferenciar-criterio-institucional-e-despesa",
     "distinguir-produto-e-impacto",
+    "especialista-responsabilidade-auditoria",
+    "finalidade-teste-controle-tecnica-documental",
     "identificacao-de-simultaneidade",
     "inversao-do-caso-caixa-sem-credito",
     "literalidade-art-165-paragrafo-1",
-    "mudanca-observada-com-explicacao-concorrente",
+    "mudanca-significativa-paint",
+    "observacao-exclusiva-dois-auditores",
+    "observacao-versus-reexecucao",
+    "papeis-permanentes-relatorio",
+    "priorizacao-indireta-riscos",
+    "raint-versus-parecer-contas",
     "regra-transitoria-ppa",
+    "resposta-risco-versus-controle",
+    "risco-residual-controle",
+    "segunda-versus-terceira-linha",
     "separacao-de-atributos-normativos",
-    "transposicao-entre-atribuicoes-do-legislativo"
+    "transposicao-entre-atribuicoes-do-legislativo",
+    "vouching-ocorrencia-versus-integridade"
   ],
   "review": [
     {
@@ -295,13 +310,58 @@
       "theoryRefs": [
         "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#PPA: Plano Plurianual"
       ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07-q2",
+      "topic": "Gestão de riscos",
+      "result": "incorrect",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas#Núcleo do conceito"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07-q3",
+      "topic": "Independência e objetividade",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo#Consultoria anterior e avaliação posterior (item 53)"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07-q13",
+      "topic": "Planejamento e prestação de contas",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas#Núcleo: programação e prestação de contas"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07-q14",
+      "topic": "Governança e três linhas",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas#Três linhas: papéis e responsabilidades"
+      ]
+    },
+    {
+      "id": "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07-q18",
+      "topic": "Técnicas de auditoria",
+      "result": "incorrect",
+      "confidence": "secure",
+      "theoryRefs": [
+        "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Técnicas de auditoria e os limites de cada uma"
+      ]
     }
   ],
   "resume": {
-    "subjectId": "orcamento-publico",
-    "path": "data/contexto-estudo/cgu-2026/orcamento-publico.json",
-    "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b02",
-    "time": 1793803953000
+    "subjectId": "auditoria-governamental",
+    "path": "data/contexto-estudo/cgu-2026/auditoria-governamental.json",
+    "lastSessionId": "cgu-2026-auditoria-2026-11-04-simulado-retencao-u02-u07",
+    "time": 1793805540000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

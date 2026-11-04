@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import { prepare, validateSession } from './study-sessions.js';
 import { aplicarChangeSet } from './changeset-transaction.js';
-import { loadPlans, validatePlan, parseProgram, resolveCommand } from './study-context.js';
+import { loadPlans, validatePlan, parseProgram, resolveCommand, examProfile } from './study-context.js';
 const actual=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const root=fs.mkdtempSync(path.join(os.tmpdir(),'study-context-'));
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
@@ -75,6 +75,12 @@ try{
   const correctReview=make('correto-retido','2026-11-29');correctReview.subjectId='contabilidade-publica';correctReview.unitId='fundamentos';correctReview.trainingMode='revisao';correctReview.questions[0].discipline='Contabilidade Pública';correctReview.questions[0].conceptId='oticas-contabeis';correctReview.questions[0].userAnswer='C';correctReview.questions[0].errorType=null;correctReview.questions[0].theoryRefs=[];correctReview.questions[0].retrievalOf=[another.id+'-q1'];correctReview.learning.next={unitId:'fundamentos',stage:'aprendizagem',objective:'Prosseguir com novo recorte.',sourceIds:['mcasp']};save(correctReview);sync();
   assert(ctx('contabilidade-publica').retentionObservations.recent.some(o=>o.targetQuestionId===another.id+'-q1'&&o.status==='espacada'),'Retenção também deve reconhecer conceitos antes acertados');
   assert.equal(resolveCommand(index,'revisar meus erros de Direito Administrativo na Dataprev').concursoId,'dataprev-2026');
+  assert.throws(()=>examProfile({...contests.find(c=>c.id==='cgu-2026'),banca:'FGV'}),/Cebraspe/);
+  const bankBad=structuredClone(contests);bankBad.find(c=>c.id==='cgu-2026').banca='FGV';assert.throws(()=>validatePlan(root,plan,bankBad),/Cebraspe/);
+  for(const schema of [1,2]){const wrong=make('banca-'+schema,'2026-11-29');wrong.schemaVersion=schema;wrong.questions[0].format='AE';wrong.questions[0].options=['a','b','c','d','e'];assert.throws(()=>validateSession(wrong,wrong.id+'.json',root,contests),/formato|Certo\/Errado/);wrong.questions[0].format='CE';wrong.banca='FGV';assert.throws(()=>validateSession(wrong,wrong.id+'.json',root,contests),/banca/);}
+  const summary=read('data/contexto-estudo/cgu-2026.json');assert.equal(summary.banca,'Cebraspe');assert.equal(summary.activeExam.questionFormat,'CE');
+  for(const item of read('data/contexto-estudo/indice.json').contests.find(c=>c.concursoId==='cgu-2026').subjects){const c=read(item.path);assert.equal(c.activeExam.banca,'Cebraspe');assert.equal(c.activeExam.questionFormat,'CE');assert(c.activeExam.instruction.includes('Certo/Errado'));}
+  assert.equal(examProfile(contests.find(c=>c.id==='dataprev-2026')).banca,'FGV','Correção da CGU preserva o perfil Dataprev');
   const missing=structuredClone(plan);missing.subjects=missing.subjects.filter(s=>s.id!=='etica-publica');assert.throws(()=>validatePlan(root,missing,contests),/sem rota/);
   const cycle=structuredClone(plan);cycle.subjects[0].units[0].requires=['u02'];cycle.subjects[0].units[1].requires=['u01'];assert.throws(()=>validatePlan(root,cycle,contests),/Ciclo/);
   for(const c of read('data/contexto-estudo/indice.json').contests)for(const sub of c.subjects)assert(fs.statSync(path.join(root,sub.path)).size<65000,'Contexto compacto excede orçamento');

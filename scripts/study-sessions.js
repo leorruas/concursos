@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { buildSubjectContexts, validateLearning } from './study-context.js';
+import { buildSubjectContexts, validateLearning, examProfile } from './study-context.js';
 import { aplicarChangeSet, fileSha256 } from './changeset-transaction.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -31,6 +31,7 @@ export function validateSession(s, filename, root, concursos) {
   assert(text(s.startedAt) && /(?:Z|[+-]\d{2}:\d{2})$/.test(s.startedAt) && Number.isFinite(Date.parse(s.startedAt)), `${s.id}: startedAt exige data/hora com fuso`);
   assert(dateOK(s.date) && ['parcial', 'concluido'].includes(s.status), `${s.id}: data/status inválido`);
   assert(concursos.some(c => c.id === s.concursoId && c.banca === s.banca), `${s.id}: concurso/banca incompatível`);
+  const profile = examProfile(concursos.find(c => c.id === s.concursoId));
   assert(s.kind === 'microtreino' || (s.schemaVersion === 2 && s.kind === 'aula'), `${s.id}: simulados integrais seguem o contrato próprio de propagação`);
   assert(modes.includes(s.trainingMode), `${s.id}: modalidade inválida`);
   assert(text(s.diagnosis) && text(s.nextStep), `${s.id}: diagnóstico/próximo passo ausentes`);
@@ -42,6 +43,7 @@ export function validateSession(s, filename, root, concursos) {
     for (const k of ['discipline', 'topic', 'subtopic', 'questionType', 'distractorMechanism', 'statement', 'explanation']) assert(text(q[k]), `${s.id}/Q${q.number}: ${k} ausente`);
     assert(slug(q.mechanism), `${s.id}/Q${q.number}: mecanismo inválido`);
     assert(['CE', 'AE'].includes(q.format), `${s.id}: formato inválido`);
+    if (s.concursoId === 'cgu-2026') assert(q.format === profile.questionFormat, `${s.id}: CGU 2026 exige itens Certo/Errado (CE), inclusive no legado por sessão`);
     const allowed = q.format === 'CE' ? ['C', 'E'] : ['A', 'B', 'C', 'D', 'E'];
     assert(allowed.includes(q.correctAnswer) && (q.userAnswer === null || allowed.includes(q.userAnswer)), `${s.id}: gabarito/resposta inválida`);
     assert(['secure', 'insecure', 'guess', 'unknown'].includes(q.confidence), `${s.id}: confiança inválida`);
@@ -157,7 +159,7 @@ export function prepare(root = ROOT, asOf) {
     const all = qs.filter(q => q.concursoId === c.id);
     const last = ledger.simulations.filter(s => s.concursoId === c.id).reverse().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
     const ids = new Set(last.map(s => s.id));
-    return { concursoId: c.id, cut, coverage: 'somente itens individualizados; legado pode ser parcial', totals: grouped(all, q => `${q.discipline} / ${mode(q)}`).map(({ questions, ...r }) => r),
+    return { concursoId: c.id, banca: c.banca, activeExam: examProfile(c), cut, coverage: 'somente itens individualizados; legado pode ser parcial', totals: grouped(all, q => `${q.discipline} / ${mode(q)}`).map(({ questions, ...r }) => r),
       recentSessions: last.map(s => ({ id: s.id, date: s.date, sourcePath: s.sourcePath, status: s.status || 'historico', diagnosis: s.qualityNote || null, nextStep: s.nextStep || null })),
       recentMechanisms: [...new Set(all.filter(q => ids.has(q.sourceId)).map(q => q.mechanism))].sort(),
       review: all.filter(q => q.result === 'incorrect' || ['insecure', 'guess'].includes(q.confidence)).slice(-30).map(q => ({ id: q.id, topic: q.topic, result: q.result, confidence: q.confidence, theoryRefs: q.theoryRefs })) };

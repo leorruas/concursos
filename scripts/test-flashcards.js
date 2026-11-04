@@ -144,7 +144,22 @@ for(const subject of ['estado-democracia','sociedade-brasileira','administracao-
 for(const [id,subject] of [['accountability','administracao-publica'],['equidade','sociedade-brasileira'],['contrafactual','evidencias-dados-ia']]) {
   assert(cards.find(c=>c.id===id)?.subjectIds.includes(subject),'Vínculo reutilizado perdido: '+id);
 }
-assert.equal(cards.length,204,'Inventário após lote de Contabilidade, Finanças, Contratações e Auditoria');
+// Coleções crescem por lotes; validar o recorte introduzido sem congelar a contagem global.
+const novosOrcamento = [
+ 'classificacao-programatica','categoria-economica-despesa','gnd-pessoal-encargos-sociais',
+ 'gnd-juros-encargos-divida','gnd-outras-despesas-correntes','gnd-investimentos',
+ 'gnd-inversoes-financeiras','modalidade-aplicacao-despesa','modalidade-aplicacoes-diretas',
+ 'modalidade-transferencias-municipios','elemento-material-consumo',
+ 'elemento-equipamento-permanente','ploa-projeto-lei','emenda-projeto-orcamentario'
+];
+for(const id of novosOrcamento) {
+ const card=cards.find(c=>c.id===id);
+ assert(card?.examIds.includes('cgu-2026')&&card?.subjectIds.includes('orcamento-publico'),
+  'Flashcard de Orçamento CGU ausente ou sem vínculo: '+id);
+}
+assert(cards.length>=218,'O inventário não deve perder cartões anteriores ao lote de classificações');
+assert(cards.filter(c=>c.examIds.includes('cgu-2026')&&c.subjectIds.includes('orcamento-publico')).length>=73,
+ 'O conjunto de Orçamento deve incluir o lote das classificações');
 for(const [subject,min] of [['contabilidade-publica',14],['financas-publicas',10],['contratacoes-transferencias',13],['auditoria-governamental',44]]) {
  const pool=cards.filter(c=>c.examIds.includes('cgu-2026')&&c.subjectIds.includes(subject));
  assert.equal(pool.length,min,'Contagem de matéria após ampliação: '+subject);

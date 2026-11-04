@@ -78,6 +78,12 @@ O MOT, seção 4.3.4.6, apresenta técnicas complementares. A lista não deve se
 
 **Rastreamento versus vouching:** no rastreamento, parte-se de documentos de concessão e procura-se o registro correspondente. No vouching, parte-se do lançamento e procura-se documentação que prove sua ocorrência. Os sentidos são opostos. O MOT, 4.3.4.6.9, relaciona o primeiro à **integridade** e o segundo à **existência/ocorrência**.
 
+**Exemplo aplicado: duas suspeitas sobre bolsas estudantis.** Imagine que uma instituição possua documentos de concessões **autorizadas para pagamento naquele período**, mas algumas delas talvez não estejam no sistema de pagamentos. O auditor começa por essas concessões e procura os registros correspondentes: **documento de origem → registro**. Esse é o **rastreamento (*tracing*)**, direcionado à **integridade dos registros**, isto é, a investigar operações que deveriam ter sido registradas e podem estar ausentes. A concessão documentada, isoladamente, não comprova que a parcela era efetivamente devida: é necessário verificar as condições do pagamento.
+
+Em outra hipótese, o sistema contém pagamentos para os quais não se sabe se há concessão válida ou outro suporte. O auditor parte das operações **já registradas** e procura a documentação que as sustenta: **registro → documento**. Esse é o **vouching**, direcionado principalmente à **ocorrência/existência** da transação registrada. Encontrar um documento não comprova automaticamente sua autenticidade, a elegibilidade do beneficiário ou a legalidade da despesa; esses aspectos exigem outros procedimentos.
+
+**Fronteira decisiva:** o sentido da busca depende da **afirmação que se quer testar**. Perguntar se houve **omissão de registros** sugere rastreamento. Perguntar se houve **registro sem operação de suporte** sugere vouching. A mesma inspeção documental pode ser usada com finalidades distintas; ver [[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar|execução dos testes]].
+
 ### Indagação, confirmação externa e procedimentos analíticos
 
 Indagar ajuda a conhecer processos, causas possíveis e pontos que ainda precisam ser testados. Uma entrevista assinada **não elimina a necessidade de verificar as informações**. A confirmação externa é uma declaração formal de terceiro independente; sua confiabilidade depende das circunstâncias de obtenção e autenticidade. Uma mensagem apenas atribuída a terceiro não basta para afirmar que houve confirmação independente.

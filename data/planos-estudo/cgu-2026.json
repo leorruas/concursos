@@ -1797,6 +1797,7 @@
             "P3.3.2"
           ],
           "noteRefs": [
+            "3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas",
             "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
             "3 - Materias/Atualidades/09 - demografia e indicadores sociais"
           ],
@@ -1807,7 +1808,7 @@
             "edital"
           ],
           "coverage": "parcial",
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "noteRole": "nota-especializada-aprofundada; desempenho e retenção são aferidos separadamente"
         },
         {
           "id": "up3-3-3",

@@ -99,6 +99,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 12. [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]
 13. [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Avaliação de políticas públicas]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|01 • Teoria da mudança: fundamentos da avaliação]]
+   - [[3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas|02 • Implementação de políticas públicas]]
 14. [[3 - Materias/Contratacoes e Transferencias/contratacoes-e-transferencias|Contratações e transferências]]
 15. [[3 - Materias/Integridade e Responsabilizacao/integridade-e-responsabilizacao|Integridade e responsabilização]]
 - [[3 - Materias/Estrategia de Prova/estrategia-de-prova|Estratégia de prova]]

@@ -20,7 +20,7 @@ try{
   const program=validatePlan(root,plan,contests);
   assert.equal(new Set(program.map(p=>p.block)).size,14);assert.equal(program.length,81);assert.equal(plan.subjects.length,15);
   sync();assert.equal(prepare(root).operations.length,0,'Consolidação idempotente');
-  let a=ctx('auditoria-governamental');const cp=ctx('contabilidade-publica');
+  let a=ctx('auditoria-governamental');const retentionBaseline=a.observationAxes.retention.retrievedLater;const cp=ctx('contabilidade-publica');
   assert.equal(a.resume.unitId,'u07');assert.equal(a.lastCompletedUnit,'u06');assert.equal(a.resume.stage,'fronteiras');
   assert.equal(a.results.aprendizagem.correct,31);assert.equal(a.results.aprendizagem.incorrect,5);
   assert.equal(cp.state,'nao-iniciada');assert.deepEqual(cp.results,{});assert.equal(cp.resume.unitId,'fundamentos');
@@ -48,7 +48,7 @@ try{
   assert.equal(ctx('auditoria-governamental').gaps.find(g=>g.questionId===target).status,'pendente','Acerto inseguro não resolve');
   const immediate=retrieval('imediata','2026-11-04');save(immediate);sync();
   assert.equal(ctx('auditoria-governamental').gaps.find(g=>g.questionId===target).status,'recuperacao-imediata');
-  assert.equal(ctx('auditoria-governamental').observationAxes.retention.retrievedLater,0);
+  assert.equal(ctx('auditoria-governamental').observationAxes.retention.retrievedLater,retentionBaseline,'Recuperação imediata não aumenta retenção espaçada já registrada');
   const delayed=retrieval('espacada','2026-11-11');save(delayed);sync();
   let gap=ctx('auditoria-governamental').gaps.find(g=>g.questionId===target);assert.equal(gap.status,'retencao-observada');assert.equal(gap.dueOn,'2026-11-18');
   const second=retrieval('espacada-2','2026-11-25');save(second);sync();gap=ctx('auditoria-governamental').gaps.find(g=>g.questionId===target);assert.equal(gap.dueOn,'2026-12-16');

@@ -2344,5 +2344,65 @@
     "minimumSpacingDays": 1,
     "nature": "heuristica-pedagogica-ajustavel-sem-promessa-de-dominio"
   },
-  "questionFormat": "CE"
+  "questionFormat": "CE",
+  "discursivePractice": {
+    "status": "planejado; nenhuma produção registrada",
+    "sourceRef": "3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E#Discursiva CGU — protocolo completo",
+    "exam": {
+      "date": "2026-12-13",
+      "questionP2": {
+        "maxLines": 30,
+        "maxPoints": 30
+      },
+      "caseP3": {
+        "maxLines": 60,
+        "maxPoints": 70
+      }
+    },
+    "routine": {
+      "suggestedSessionsPerWeek": 2,
+      "shortSessionMinutes": 20,
+      "startWindow": "2026-11-05 a 2026-11-08",
+      "pucWeek": "reduzir ou suspender treinos curtos durante a preparação prioritária da prova PUC em 14/11; retomar a partir de 15/11",
+      "fullExamPractice": "incluir progressivamente respostas completas e simulação manuscrita com cronômetro; 20 minutos servem ao treino curto, não equivalem às condições da prova"
+    },
+    "practiceTypes": [
+      {
+        "id": "complementar-p2",
+        "part": "P2",
+        "objective": "Responder quesitos de governança, riscos, controles ou atuação integrada; usar comando com critérios explícitos."
+      },
+      {
+        "id": "situacao-problema-p3",
+        "part": "P3",
+        "objective": "Analisar caso envolvendo auditoria, orçamento ou contabilidade; distinguir situação, critérios, evidências, conclusão e recomendações."
+      }
+    ],
+    "attemptRequiredFields": [
+      "id",
+      "date",
+      "practiceType",
+      "subjectIds",
+      "promptRef",
+      "commandRequirements",
+      "responseRef",
+      "durationMinutes",
+      "lineCount",
+      "assessment",
+      "conceptualGaps",
+      "writingGaps",
+      "rewriteRef",
+      "nextReviewOn"
+    ],
+    "assessmentCriteria": [
+      "atendimento a cada quesito do comando",
+      "precisão dos conceitos e das normas aplicáveis",
+      "encadeamento de análise, justificativa e conclusão",
+      "organização, clareza e correção formal",
+      "respeito ao tempo e ao limite de linhas"
+    ],
+    "scorePolicy": "registrar pontuação somente quando houver correção com critérios definidos; estimativa didática não equivale à nota Cebraspe",
+    "attempts": [],
+    "dataPolicy": "não registrar sessões fictícias; manter treinos discursivos separados do ledger de itens C/E; vincular temas às notas e registrar lacunas para revisão"
+  }
 }

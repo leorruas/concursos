@@ -51,7 +51,7 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 - [ ] **F06 · Contabilidade societária das estatais**: U04: BP/DRE, depreciação, impairment, provisões, contingências, partes relacionadas.
 - [ ] **F07 · Governança e prestação de contas das estatais**: U05: conselhos, finalidade pública, carta anual, transparência, sustentabilidade.
 
-**C4 iniciado (04/11/2026):** [[3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes|artigo 07]] de provisões e contingências publicado. **F06 permanece parcial**, com depreciação, impairment e demonstrações societárias nas notas 08 e 09. Próxima execução: artigo 08.
+**C4 com notas 07 e 08 publicadas (04/11/2026):** [[3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes|provisões]] e [[3 - Materias/Contabilidade Publica/08 - depreciacao reducao ao valor recuperavel e ativos|depreciação e recuperabilidade]]. **F06 permanece parcial**: demonstrações societárias, DRE e partes relacionadas dependem da nota 09. Próxima execução: somente artigo 09.
 
 **C3 concluído editorialmente (04/11/2026):** publicados [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo|artigo 05]] e [[3 - Materias/Contabilidade Publica/06 - mic sic e informacoes gerenciais de custos|artigo 06]]. F05 encerrada como trabalho editorial, sem estudo nem cobertura integral do edital presumidos.
 
@@ -179,4 +179,4 @@ A publicação deve também registrar vínculo de cobertura para as unidades que
 
 Para executar qualquer fase: ler `AGENTS.md` → este roteiro → hub correspondente → notas de reuso → fonte do edital/legislação → consultar `data/contexto-estudo/<concurso>/<materia>.json` se a mudança se relacionar a conteúdo já estudado. Publicar o pequeno lote, conferir CI e marcar como concluídas **somente** as microfases efetivamente publicadas; registrar desvios e lacunas com precisão. Na aula, usar `CHAT.md` e o contexto/sessão mais recente como fonte do próximo passo, não as caixas deste plano.
 
-**Controle:** 11 ondas e 49 microfases de artigos/refinamentos; **F01–F05 atendidas editorialmente (7 artigos canônicos de Contabilidade Pública, incluindo 07 da F06 em andamento)**, 44 microfases pendentes. Marcação editorial não indica aula, acertos ou retenção. As etapas G00–G04 descrevem a governança, sem contabilizar artigos.
+**Controle:** 11 ondas e 49 microfases de artigos/refinamentos; **F01–F05 atendidas editorialmente (8 artigos canônicos de Contabilidade Pública, com F06 ainda parcial)**, 44 microfases pendentes. Marcação editorial não indica aula, acertos ou retenção. As etapas G00–G04 descrevem a governança, sem contabilizar artigos.

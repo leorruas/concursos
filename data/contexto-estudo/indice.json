@@ -103,6 +103,26 @@
           "priority": "a-definir"
         },
         {
+          "id": "contabilidade-publica",
+          "name": "Contabilidade Publica",
+          "aliases": [
+            "Contabilidade Publica"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/contabilidade-publica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "contratacoes-e-transferencias",
+          "name": "Contratacoes e Transferencias",
+          "aliases": [
+            "Contratacoes e Transferencias"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/contratacoes-e-transferencias.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
           "id": "direito-administrativo",
           "name": "Direito Administrativo",
           "aliases": [
@@ -119,6 +139,56 @@
             "Direito Constitucional"
           ],
           "path": "data/contexto-estudo/dataprev-2026/direito-constitucional.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "estado-e-democracia",
+          "name": "Estado e Democracia",
+          "aliases": [
+            "Estado e Democracia"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/estado-e-democracia.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "etica-publica",
+          "name": "Etica Publica",
+          "aliases": [
+            "Etica Publica"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/etica-publica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "evidencias-dados-e-ia",
+          "name": "Evidencias Dados e IA",
+          "aliases": [
+            "Evidencias Dados e IA"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/evidencias-dados-e-ia.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "financas-publicas",
+          "name": "Financas Publicas",
+          "aliases": [
+            "Financas Publicas"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/financas-publicas.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "governanca-riscos-e-integridade",
+          "name": "Governanca Riscos e Integridade",
+          "aliases": [
+            "Governanca Riscos e Integridade"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/governanca-riscos-e-integridade.json",
           "state": "nao-iniciada",
           "priority": "a-definir"
         },
@@ -143,12 +213,32 @@
           "priority": "a-definir"
         },
         {
+          "id": "integridade-e-responsabilizacao",
+          "name": "Integridade e Responsabilizacao",
+          "aliases": [
+            "Integridade e Responsabilizacao"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/integridade-e-responsabilizacao.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
           "id": "logica",
           "name": "Logica",
           "aliases": [
             "Logica"
           ],
           "path": "data/contexto-estudo/dataprev-2026/logica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "orcamento-publico",
+          "name": "Orcamento Publico",
+          "aliases": [
+            "Orcamento Publico"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/orcamento-publico.json",
           "state": "nao-iniciada",
           "priority": "a-definir"
         },
@@ -169,6 +259,26 @@
             "Redacao"
           ],
           "path": "data/contexto-estudo/dataprev-2026/redacao.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "sociedade-brasileira",
+          "name": "Sociedade Brasileira",
+          "aliases": [
+            "Sociedade Brasileira"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/sociedade-brasileira.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "transparencia-e-ouvidoria",
+          "name": "Transparencia e Ouvidoria",
+          "aliases": [
+            "Transparencia e Ouvidoria"
+          ],
+          "path": "data/contexto-estudo/dataprev-2026/transparencia-e-ouvidoria.json",
           "state": "nao-iniciada",
           "priority": "a-definir"
         }
@@ -461,6 +571,26 @@
           "priority": "a-definir"
         },
         {
+          "id": "contabilidade-publica",
+          "name": "Contabilidade Publica",
+          "aliases": [
+            "Contabilidade Publica"
+          ],
+          "path": "data/contexto-estudo/camara-2026/contabilidade-publica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "contratacoes-e-transferencias",
+          "name": "Contratacoes e Transferencias",
+          "aliases": [
+            "Contratacoes e Transferencias"
+          ],
+          "path": "data/contexto-estudo/camara-2026/contratacoes-e-transferencias.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
           "id": "direito-administrativo",
           "name": "Direito Administrativo",
           "aliases": [
@@ -477,6 +607,56 @@
             "Direito Constitucional"
           ],
           "path": "data/contexto-estudo/camara-2026/direito-constitucional.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "estado-e-democracia",
+          "name": "Estado e Democracia",
+          "aliases": [
+            "Estado e Democracia"
+          ],
+          "path": "data/contexto-estudo/camara-2026/estado-e-democracia.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "etica-publica",
+          "name": "Etica Publica",
+          "aliases": [
+            "Etica Publica"
+          ],
+          "path": "data/contexto-estudo/camara-2026/etica-publica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "evidencias-dados-e-ia",
+          "name": "Evidencias Dados e IA",
+          "aliases": [
+            "Evidencias Dados e IA"
+          ],
+          "path": "data/contexto-estudo/camara-2026/evidencias-dados-e-ia.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "financas-publicas",
+          "name": "Financas Publicas",
+          "aliases": [
+            "Financas Publicas"
+          ],
+          "path": "data/contexto-estudo/camara-2026/financas-publicas.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "governanca-riscos-e-integridade",
+          "name": "Governanca Riscos e Integridade",
+          "aliases": [
+            "Governanca Riscos e Integridade"
+          ],
+          "path": "data/contexto-estudo/camara-2026/governanca-riscos-e-integridade.json",
           "state": "nao-iniciada",
           "priority": "a-definir"
         },
@@ -501,12 +681,32 @@
           "priority": "a-definir"
         },
         {
+          "id": "integridade-e-responsabilizacao",
+          "name": "Integridade e Responsabilizacao",
+          "aliases": [
+            "Integridade e Responsabilizacao"
+          ],
+          "path": "data/contexto-estudo/camara-2026/integridade-e-responsabilizacao.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
           "id": "logica",
           "name": "Logica",
           "aliases": [
             "Logica"
           ],
           "path": "data/contexto-estudo/camara-2026/logica.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "orcamento-publico",
+          "name": "Orcamento Publico",
+          "aliases": [
+            "Orcamento Publico"
+          ],
+          "path": "data/contexto-estudo/camara-2026/orcamento-publico.json",
           "state": "nao-iniciada",
           "priority": "a-definir"
         },
@@ -527,6 +727,26 @@
             "Redacao"
           ],
           "path": "data/contexto-estudo/camara-2026/redacao.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "sociedade-brasileira",
+          "name": "Sociedade Brasileira",
+          "aliases": [
+            "Sociedade Brasileira"
+          ],
+          "path": "data/contexto-estudo/camara-2026/sociedade-brasileira.json",
+          "state": "nao-iniciada",
+          "priority": "a-definir"
+        },
+        {
+          "id": "transparencia-e-ouvidoria",
+          "name": "Transparencia e Ouvidoria",
+          "aliases": [
+            "Transparencia e Ouvidoria"
+          ],
+          "path": "data/contexto-estudo/camara-2026/transparencia-e-ouvidoria.json",
           "state": "nao-iniciada",
           "priority": "a-definir"
         }

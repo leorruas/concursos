@@ -1,4 +1,6 @@
 ---
+articleId: art-6b9002df47604ea5
+articleAliases: ["3 - Materias/Direito Administrativo/05 - agentes publicos.md"]
 title: "Agentes públicos"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-cde55b38eb404ce7
+articleAliases: ["3 - Materias/Portugues/06 - concordancia verbal e nominal.md"]
 title: "Concordância verbal e nominal"
 type: "conceito"
 status: "ativo"

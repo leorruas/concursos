@@ -1,4 +1,6 @@
 ---
+articleId: art-ea06e80ef83f4af7
+articleAliases: ["3 - Materias/Direito Administrativo/07 - improbidade administrativa.md"]
 title: "Improbidade administrativa"
 type: "conceito"
 status: "ativo"

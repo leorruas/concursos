@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { resolveArticleRef } from './article-identity.js';
 
 import fs from 'fs';
 import { loadPlans } from './study-context.js';
@@ -41,7 +42,8 @@ function normalize(value){
 }
 
 function theoryPathExists(ref){
-  const [raw]=String(ref||'').split('#');
+  let resolved;try{resolved=resolveArticleRef(rootDir,String(ref||''));}catch{return false;}
+  const [raw]=resolved.split('#');
   if(!raw) return false;
   const candidate=raw.endsWith('.md')?raw:raw+'.md';
   return fs.existsSync(path.join(rootDir,candidate));

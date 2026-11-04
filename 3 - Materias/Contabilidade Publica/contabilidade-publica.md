@@ -1,4 +1,6 @@
 ---
+articleId: art-3a7092089cf44cce
+articleAliases: ["3 - Materias/Contabilidade Publica/contabilidade-publica.md"]
 title: "Contabilidade Pública"
 type: "hub"
 status: "ativo"

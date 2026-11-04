@@ -1,4 +1,6 @@
 ---
+articleId: art-806546892285426f
+articleAliases: ["3 - Materias/Comunicacao/09 - comunicacao interna.md"]
 title: "Comunicação interna"
 type: "conceito"
 status: "ativo"

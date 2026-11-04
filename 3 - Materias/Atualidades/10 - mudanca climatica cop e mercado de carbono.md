@@ -1,4 +1,6 @@
 ---
+articleId: art-cb0f48a0417e428f
+articleAliases: ["3 - Materias/Atualidades/10 - mudanca climatica cop e mercado de carbono.md"]
 title: "Mudança climática, COP e mercado de carbono"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-1518ce1ad35a4ae3
+articleAliases: ["3 - Materias/Comunicacao/04 - criterios de noticiabilidade.md"]
 title: "Critérios de noticiabilidade"
 type: "conceito"
 status: "ativo"

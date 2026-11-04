@@ -27,6 +27,10 @@
         return base + queryEscopo(concursoId, biblioteca, secao, origem && origem !== categoria ? origem : "");
     }
 
+    function construirRotaArtigoId(articleId, secao = "", concursoId = "", biblioteca = false, origem = "") {
+        return "#/artigo/" + encodeURIComponent(articleId) + queryEscopo(concursoId, biblioteca, secao, origem);
+    }
+
     function parsearHashVault(hash) {
         const valor = String(hash || "").trim();
         if (!valor || valor === "#" || valor === "#/") return { tipo: "home", concursoId: "", biblioteca: false };
@@ -47,6 +51,7 @@
             biblioteca: params.biblioteca === "1"
         };
         if (segmentos.length === 0) return { tipo: "home", ...contexto };
+        if (segmentos[0] === "artigo" && segmentos.length === 2) return {tipo:"artigo", articleId:decodificar(segmentos[1]), secao:params.secao||"", origem:params.origem||"", ...contexto};
         if (segmentos[0] === "disciplina") {
             return { tipo: "disciplina", categoria: decodificar(segmentos.slice(1).join("/")), ...contexto };
         }
@@ -63,6 +68,14 @@
         return { tipo: "desconhecida", ...contexto };
     }
 
+    function resolverArtigoRota(artigos, rota) {
+        if(rota.articleId) return artigos.find(a => a.articleId === rota.articleId);
+        const lower=s=>String(s||"").toLowerCase();
+        return artigos.find(a => lower(a.categoria)===lower(rota.categoria) && lower(a.titulo)===lower(rota.titulo)) ||
+            artigos.find(a => (a.articleAliases||[]).some(p => lower(p.split('/')[1])===lower(rota.categoria) && lower(p.split('/').at(-1).replace(/\.md$/, ""))===lower(rota.titulo)));
+    }
+    global.resolverArtigoRota = resolverArtigoRota;
+    global.construirRotaArtigoId = construirRotaArtigoId;
     global.construirRotaHome = construirRotaHome;
     global.construirRotaDisciplina = construirRotaDisciplina;
     global.construirRotaArtigo = construirRotaArtigo;

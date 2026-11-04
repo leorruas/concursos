@@ -1,4 +1,6 @@
 ---
+articleId: art-ce0fff3c37334081
+articleAliases: ["3 - Materias/Atualidades/18 - cultura midia e temas sociais 2026.md"]
 title: "🆕 Cultura, mídia e temas sociais — Atualidades 2026"
 type: "snapshot-conjuntural"
 status: "ativo"

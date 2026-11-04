@@ -1,4 +1,6 @@
 ---
+articleId: art-c301f2c741504403
+articleAliases: ["3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md"]
 title: "PPA, LDO e LOA: sistema constitucional de planejamento e orçamento"
 type: "conceito"
 status: "ativo"

@@ -76,7 +76,9 @@ async function carregarTodosOsArtigos() {
                 tituloExibicao: extrairTituloReal(texto, item.titulo),
                 tipo: tipoMatch?.[1]?.trim().toLowerCase() || "",
                 conteudo: texto,
-                sourcePath: item.sourcePath,
+                articleId: item.articleId,
+            articleAliases: item.articleAliases || [],
+            sourcePath: item.sourcePath,
                 categoria: item.categoria
             };
         } catch (e) {
@@ -123,12 +125,13 @@ function persistirEscopoNaRota() {
     if (rota.tipo === "disciplina") {
         destino = obterRotaCategoria(rota.categoria);
     } else if (rota.tipo === "artigo") {
-        destino = construirRotaArtigo(rota.categoria, rota.titulo, rota.secao, concursoSelecionadoId, modoBibliotecaCompleta, rota.origem);
+        destino = rota.articleId ? construirRotaArtigoId(rota.articleId, rota.secao, concursoSelecionadoId, modoBibliotecaCompleta, rota.origem) : construirRotaArtigo(rota.categoria, rota.titulo, rota.secao, concursoSelecionadoId, modoBibliotecaCompleta, rota.origem);
     } else {
         destino = construirRotaHome(concursoSelecionadoId, modoBibliotecaCompleta);
     }
     if (destino !== window.location.hash) history.pushState({ concursoId: concursoSelecionadoId, biblioteca: modoBibliotecaCompleta }, "", destino);
     if (rota.tipo === "disciplina") abrirDisciplina(rota.categoria, false);
+    else if (rota.tipo === "artigo") tratarHashNavegacao();
 }
 
 function selecionarBibliotecaCompleta() {
@@ -317,7 +320,7 @@ function renderizarPastas() {
 
 // Visualizador da Disciplina
 function abrirDisciplina(categoria, atualizarRota = true) {
-    if (!(todasAsPastas[categoria]?.length)) return;
+    if (!(todasAsPastas[categoria]?.length) && !obterProgramaSelecionado()?.subjects.some(m => m.categoria === categoria)) return;
     const artigos = obterArtigosDaMateria(categoria);
     const materiaSelecionada = obterProgramaSelecionado()
         ?.subjects.find(item => item.categoria === categoria) || null;
@@ -375,7 +378,7 @@ function abrirDisciplina(categoria, atualizarRota = true) {
     artigos.forEach((artigo, idx) => {
         const acao = document.createElement("a");
         acao.className = "disciplina-acao";
-        const origem = artigo.categoria !== categoria ? categoria : "";
+        const origem = categoria;
         acao.href = rotaDoArtigo(artigo, "", origem);
         acao.setAttribute("aria-label", artigo.titulo);
 

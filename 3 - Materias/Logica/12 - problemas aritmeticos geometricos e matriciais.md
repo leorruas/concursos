@@ -1,4 +1,6 @@
 ---
+articleId: art-e9f2f92c92f0426b
+articleAliases: ["3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais.md"]
 title: "🆕 Problemas aritméticos, geométricos e matriciais"
 type: "conceito"
 status: "ativo"

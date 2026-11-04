@@ -1,4 +1,6 @@
 ---
+articleId: art-d273fe550f474474
+articleAliases: ["3 - Materias/Logica/09 - analise combinatoria.md"]
 title: "Análise combinatória"
 type: "hub"
 status: "ativo"

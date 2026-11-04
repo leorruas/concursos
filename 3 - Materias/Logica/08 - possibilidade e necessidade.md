@@ -1,4 +1,6 @@
 ---
+articleId: art-74440fc1db164f9a
+articleAliases: ["3 - Materias/Logica/08 - possibilidade e necessidade.md"]
 title: "Possibilidade e necessidade"
 type: "conceito"
 status: "ativo"

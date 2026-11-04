@@ -1,4 +1,6 @@
 ---
+articleId: art-9f98650edd9e4278
+articleAliases: ["3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado.md"]
 title: "Responsabilidade civil do Estado"
 type: "conceito"
 status: "ativo"

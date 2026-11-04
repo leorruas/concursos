@@ -1,4 +1,6 @@
 ---
+articleId: art-6340ec193409456d
+articleAliases: ["3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria.md"]
 title: "Sigilo profissional, acesso e transparência na auditoria"
 type: "conceito"
 status: "ativo"

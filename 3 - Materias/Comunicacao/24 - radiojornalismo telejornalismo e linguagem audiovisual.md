@@ -1,4 +1,6 @@
 ---
+articleId: art-8e408175a4194a99
+articleAliases: ["3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual.md"]
 title: "🆕 Radiojornalismo, telejornalismo e linguagem audiovisual"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-2e8a8f600b964d40
+articleAliases: ["3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md"]
 title: "Evolução da Administração Pública"
 type: "conceito"
 status: "ativo"

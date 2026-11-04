@@ -1,4 +1,6 @@
 ---
+articleId: art-c641f812918e4678
+articleAliases: ["3 - Materias/Portugues/04 - regencia.md"]
 title: "Regência verbal e nominal"
 type: "conceito"
 status: "ativo"

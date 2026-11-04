@@ -1,4 +1,6 @@
 ---
+articleId: art-50e0978739874d08
+articleAliases: ["3 - Materias/Estado e Democracia/estado-e-democracia.md"]
 title: "Estado e democracia"
 type: "hub"
 status: "ativo"

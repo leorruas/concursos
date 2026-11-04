@@ -1,4 +1,6 @@
 ---
+articleId: art-df3459b517244e85
+articleAliases: ["3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026.md"]
 title: "🔄 Educação e políticas educacionais — Atualidades 2026"
 type: "snapshot-conjuntural"
 status: "ativo"

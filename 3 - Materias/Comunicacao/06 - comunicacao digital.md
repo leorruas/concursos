@@ -1,4 +1,6 @@
 ---
+articleId: art-36581e505e5f476c
+articleAliases: ["3 - Materias/Comunicacao/06 - comunicacao digital.md"]
 title: "Comunicação digital"
 type: "conceito"
 status: "ativo"

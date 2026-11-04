@@ -40,6 +40,8 @@ carregarTodosOsArtigos = async function carregarTodosOsArtigosLeve() {
             tipo: String((registroBusca && registroBusca.tipo) || item.tipo || "").trim().toLowerCase(),
             conteudoCompleto: false,
             indiceBusca: registroBusca,
+            articleId: item.articleId,
+            articleAliases: item.articleAliases || [],
             sourcePath: item.sourcePath,
             path: item.path,
             categoria: item.categoria

@@ -1,4 +1,6 @@
 ---
+articleId: art-765a21a4e9ca4caa
+articleAliases: ["3 - Materias/Estrategia de Prova/estrategia-de-prova.md"]
 title: "Estratégia de prova"
 type: "hub"
 status: "ativo"

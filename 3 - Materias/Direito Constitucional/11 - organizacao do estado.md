@@ -1,4 +1,6 @@
 ---
+articleId: art-efb14d491dd34d54
+articleAliases: ["3 - Materias/Direito Constitucional/11 - organizacao do estado.md"]
 title: "Organização do Estado"
 type: "conceito"
 status: "ativo"

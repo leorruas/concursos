@@ -1,4 +1,6 @@
 ---
+articleId: art-553db0a4633f46c6
+articleAliases: ["3 - Materias/Comunicacao/17 - pesquisa em comunicacao.md"]
 title: "Pesquisa em comunicação"
 type: "conceito"
 status: "ativo"

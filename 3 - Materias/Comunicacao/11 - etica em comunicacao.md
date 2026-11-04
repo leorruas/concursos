@@ -1,4 +1,6 @@
 ---
+articleId: art-af0fe39c4031493a
+articleAliases: ["3 - Materias/Comunicacao/11 - etica em comunicacao.md"]
 title: "Ética em comunicação"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-fa8b3b9455ee4db4
+articleAliases: ["3 - Materias/Calculo Mental/calculo-mental.md"]
 title: "Cálculo mental"
 type: "hub"
 status: "ativo"

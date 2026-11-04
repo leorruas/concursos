@@ -1,4 +1,6 @@
 ---
+articleId: art-446b8dd206cd4e84
+articleAliases: ["3 - Materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa.md"]
 title: "Teorias do jornalismo e história da imprensa"
 type: "conceito"
 status: "ativo"

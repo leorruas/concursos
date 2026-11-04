@@ -1,4 +1,6 @@
 ---
+articleId: art-10517fc075cf4aaf
+articleAliases: ["3 - Materias/Logica/03 - quantificadores.md"]
 title: "Quantificadores"
 type: "conceito"
 status: "ativo"

@@ -33,10 +33,7 @@ async function tratarHashNavegacao() {
     }
 
     if (rota.tipo === "artigo") {
-        const artigo = todosOsArtigos.find(a =>
-            a.categoria.toLowerCase() === rota.categoria.toLowerCase() &&
-            a.titulo.toLowerCase() === rota.titulo.toLowerCase()
-        );
+        const artigo = resolverArtigoRota(todosOsArtigos, rota);
         if (artigo) {
             return abrirArtigo(artigo, false, rota.secao || "", rota.origem || "");
         }

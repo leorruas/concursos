@@ -1,4 +1,6 @@
 ---
+articleId: art-ffda49b0fbcc4fbe
+articleAliases: ["3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido.md"]
 title: "🆕 Reescrita, semântica e preservação de sentido"
 type: "conceito"
 status: "ativo"

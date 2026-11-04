@@ -1,5 +1,7 @@
+import { resolveCatalog } from './article-identity.js';
 // Contrato puro do catálogo público. Não lê sessões ou contextos pessoais.
 export function validarCatalogoMaterias(catalogo, manifesto, concursos) {
+  catalogo = resolveCatalog(catalogo, manifesto);
   const falhar = mensagem => { throw new Error('Catálogo de matérias: ' + mensagem); };
   if (catalogo?.schemaVersion !== 1 || !Array.isArray(catalogo.contests)) falhar('schemaVersion/contests inválido');
   if (!Array.isArray(manifesto) || !Array.isArray(concursos)) falhar('fontes de validação ausentes');
@@ -24,7 +26,7 @@ export function validarCatalogoMaterias(catalogo, manifesto, concursos) {
       subjectIds.add(subjectId);
       if (!Number.isInteger(ordem) || ordem < 1 || ordens.has(ordem)) falhar('ordem inválida em ' + id);
       ordens.add(ordem);
-      if (typeof hubSourcePath !== 'string' || !hubSourcePath.startsWith('3 - Materias/' + categoria + '/') || !hubSourcePath.endsWith('.md') || !caminhos.has(hubSourcePath)) falhar('hub não público: ' + hubSourcePath);
+      if (typeof hubSourcePath !== 'string' || !hubSourcePath.startsWith('3 - Materias/') || !hubSourcePath.endsWith('.md') || !caminhos.has(hubSourcePath)) falhar('hub não público: ' + hubSourcePath);
       if (!Array.isArray(articleSourcePaths)) falhar('lista de artigos inválida para ' + subjectId);
       const vistos = new Set([hubSourcePath]);
       for (const nota of articleSourcePaths) {

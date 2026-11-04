@@ -1,4 +1,6 @@
 ---
+articleId: art-59bf2bfc2a5e42be
+articleAliases: ["3 - Materias/Atualidades/15 - seguranca publica ciberseguranca e temas de seguranca 2026.md"]
 title: "🆕 Segurança pública, cibersegurança e temas de segurança — Atualidades 2026"
 type: "snapshot-conjuntural"
 status: "ativo"

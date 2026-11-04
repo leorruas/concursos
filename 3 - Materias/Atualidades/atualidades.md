@@ -1,4 +1,6 @@
 ---
+articleId: art-034e24ba95be4ab1
+articleAliases: ["3 - Materias/Atualidades/atualidades.md"]
 title: "Atualidades"
 type: "hub"
 status: "ativo"

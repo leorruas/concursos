@@ -1,4 +1,6 @@
 ---
+articleId: art-b3edb79bff314c93
+articleAliases: ["3 - Materias/Direito Administrativo/10 - servicos publicos.md"]
 title: "Serviços públicos"
 type: "conceito"
 status: "ativo"

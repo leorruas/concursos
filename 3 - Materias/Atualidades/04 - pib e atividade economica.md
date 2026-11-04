@@ -1,4 +1,6 @@
 ---
+articleId: art-e094545fd9304ee0
+articleAliases: ["3 - Materias/Atualidades/04 - pib e atividade economica.md"]
 title: "PIB e atividade econômica"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-df1afbd404734be2
+articleAliases: ["3 - Materias/Comunicacao/15 - publicos e stakeholders.md"]
 title: "Públicos e stakeholders"
 type: "conceito"
 status: "ativo"

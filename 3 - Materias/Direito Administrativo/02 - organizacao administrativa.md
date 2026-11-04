@@ -1,4 +1,6 @@
 ---
+articleId: art-86dee064aef44ba4
+articleAliases: ["3 - Materias/Direito Administrativo/02 - organizacao administrativa.md"]
 title: "Organização administrativa"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-7593a7e29400423d
+articleAliases: ["3 - Materias/Atualidades/16 - transportes mobilidade e infraestrutura 2026.md"]
 title: "🆕 Transportes, mobilidade e infraestrutura — Atualidades 2026"
 type: "snapshot-conjuntural"
 status: "ativo"

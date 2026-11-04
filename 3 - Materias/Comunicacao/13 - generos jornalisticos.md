@@ -1,4 +1,6 @@
 ---
+articleId: art-ac5fa232ec4743c1
+articleAliases: ["3 - Materias/Comunicacao/13 - generos jornalisticos.md"]
 title: "Gêneros jornalísticos"
 type: "conceito"
 status: "ativo"

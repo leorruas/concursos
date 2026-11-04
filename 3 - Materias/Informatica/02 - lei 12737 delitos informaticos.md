@@ -1,4 +1,6 @@
 ---
+articleId: art-b121871de5f644ca
+articleAliases: ["3 - Materias/Informatica/02 - lei 12737 delitos informaticos.md"]
 title: "Lei 12.737/2012 — delitos informáticos"
 type: "conceito"
 status: "ativo"

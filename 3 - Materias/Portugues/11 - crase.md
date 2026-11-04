@@ -1,4 +1,6 @@
 ---
+articleId: art-f7dcd59a14c24446
+articleAliases: ["3 - Materias/Portugues/11 - crase.md"]
 title: "🆕 Crase"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-3c9d6061de704340
+articleAliases: ["3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E.md"]
 title: "Cebraspe: CGU 2026, Auditoria e método C/E"
 type: "conceito"
 status: "ativo"

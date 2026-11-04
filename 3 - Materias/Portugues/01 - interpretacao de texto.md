@@ -1,4 +1,6 @@
 ---
+articleId: art-a3dbf98e0e974302
+articleAliases: ["3 - Materias/Portugues/01 - interpretacao de texto.md"]
 title: "Interpretação de texto"
 type: "conceito"
 status: "ativo"

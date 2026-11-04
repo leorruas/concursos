@@ -1,4 +1,6 @@
 ---
+articleId: art-ad33fc3379e14071
+articleAliases: ["3 - Materias/Comunicacao/12 - producao editorial e design.md"]
 title: "Produção editorial e design"
 type: "conceito"
 status: "ativo"

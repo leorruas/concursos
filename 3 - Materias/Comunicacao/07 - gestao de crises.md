@@ -1,4 +1,6 @@
 ---
+articleId: art-50f1296bdde542f0
+articleAliases: ["3 - Materias/Comunicacao/07 - gestao de crises.md"]
 title: "Gestão de crises"
 type: "conceito"
 status: "ativo"

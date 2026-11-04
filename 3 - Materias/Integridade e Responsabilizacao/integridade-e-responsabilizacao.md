@@ -1,4 +1,6 @@
 ---
+articleId: art-cad1885ead364c57
+articleAliases: ["3 - Materias/Integridade e Responsabilizacao/integridade-e-responsabilizacao.md"]
 title: "Integridade e responsabilização"
 type: "hub"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-cbd0b4285d514319
+articleAliases: ["3 - Materias/Direito Administrativo/11 - controle da administracao publica.md"]
 title: "Controle da Administração Pública"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-4c8a4b35894d4fa9
+articleAliases: ["3 - Materias/Direito Administrativo/09 - processo administrativo federal.md"]
 title: "Processo administrativo federal"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-76a6d49bcd9c4a3e
+articleAliases: ["3 - Materias/Comunicacao/10 - linguagem simples.md"]
 title: "Linguagem simples e acessibilidade digital"
 type: "conceito"
 status: "ativo"

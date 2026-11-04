@@ -1,4 +1,6 @@
 ---
+articleId: art-29baf79e652444a7
+articleAliases: ["3 - Materias/Administracao Geral/02 - planejamento estrategico.md"]
 title: "Planejamento estratégico"
 type: "conceito"
 status: "ativo"

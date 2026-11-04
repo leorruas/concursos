@@ -1,3 +1,8 @@
+---
+articleId: art-bf7a9884a2564c51
+articleAliases: ["3 - Materias/Comunicacao/referencias/Kunsch.md"]
+---
+
 ## Marcações 
 
 

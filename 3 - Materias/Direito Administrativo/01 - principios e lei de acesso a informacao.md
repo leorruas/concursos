@@ -1,4 +1,6 @@
 ---
+articleId: art-8946971690804376
+articleAliases: ["3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md"]
 title: "Princípios da Administração Pública"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-7bcedf840e464bd8
+articleAliases: ["3 - Materias/Redacao/02 - tese e linha argumentativa.md"]
 title: "Tese e linha argumentativa"
 type: "conceito"
 status: "ativo"

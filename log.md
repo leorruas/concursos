@@ -1245,3 +1245,8 @@ CGU 2026/Cebraspe/C-E explicitado no protocolo, nas instruções e em todos os c
 ## 2026-11-04: fechamento editorial obrigatório por unidade
 
 O protocolo rápido passa a consolidar os artigos ao fechar cada unidade, antes da próxima unidade da matéria. Sessões intermediárias continuam com gravação única. Recibos editoriais ligam sessões conferidas a notas canônicas; o contexto distingue fechamento didático e editorial e encaminha pendências para consolidacao. Sessão de fechamento sem questões permite conferência posterior sem inventar desempenho. O contrato exige artigo referenciado no mesmo commit quando o recibo declara alteração. Históricos sem recibo permanecem explícitos, sem bloqueio retroativo. Validação em fixtures temporárias cobre pendência, recibo, reabertura, isolamento e ausência de métricas fictícias. Nenhuma sessão real ou artigo teórico foi inventado nesta mudança.
+
+
+## 2026-11-04: identidade estável e matérias virtuais
+
+Artigos e hubs canônicos recebem IDs e aliases de caminho, sem mover arquivos ou alterar corpos teóricos. Catálogo fonte por concurso usa IDs; build gera vínculos públicos por caminho e manifesto com identidade. Rotas estáveis, aliases e referências de estudo por ID preservam compatibilidade. Testes incluem movimento/renomeação temporária, matérias virtuais, escopo, privacidade e continuidade. Reorganização física e migração dos wikilinks históricos permanecem adiadas conforme plano.

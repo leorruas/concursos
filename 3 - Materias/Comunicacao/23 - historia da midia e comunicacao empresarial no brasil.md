@@ -1,4 +1,6 @@
 ---
+articleId: art-5356f5d7ce6f4c78
+articleAliases: ["3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil.md"]
 title: "🆕 História da mídia, do jornalismo e da comunicação empresarial no Brasil"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-82361a9e55874776
+articleAliases: ["3 - Materias/Etica Publica/etica-publica.md"]
 title: "Ética pública"
 type: "hub"
 status: "ativo"

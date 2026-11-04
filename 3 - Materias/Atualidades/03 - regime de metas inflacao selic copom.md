@@ -1,4 +1,6 @@
 ---
+articleId: art-b753b14428774911
+articleAliases: ["3 - Materias/Atualidades/03 - regime de metas inflacao selic copom.md"]
 title: "Regime de metas, Selic e Copom"
 type: "conceito"
 status: "ativo"

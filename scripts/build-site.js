@@ -1,3 +1,4 @@
+import { articleMetadata, validateIdentities, resolveCatalog } from './article-identity.js';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -224,6 +225,7 @@ function criarRegistroIndice(relPath, conteudo) {
   }
 
   return {
+    ...articleMetadata(conteudo),
     sourcePath: relPath,
     tipo,
     secoes: criarSecoesIndice(conteudo)
@@ -266,6 +268,7 @@ const manifesto = arquivosPublicos.map((relPath) => {
   }
 
   return {
+    ...articleMetadata(conteudo),
     titulo: fileName,
     tituloExibicao,
     sourcePath: relPath,
@@ -274,6 +277,8 @@ const manifesto = arquivosPublicos.map((relPath) => {
   };
 });
 
+validateIdentities(manifesto);
+for(const item of manifesto)if(item.sourcePath.startsWith('3 - Materias/')&&!item.sourcePath.endsWith('/Avancos.md')&&!item.articleId)throw Error('Nota canônica sem articleId: '+item.sourcePath);
 manifesto.sort((a, b) => a.sourcePath.localeCompare(b.sourcePath, 'pt-BR', { numeric: true }));
 
 const indiceBusca = manifesto.map((item) =>
@@ -293,7 +298,7 @@ if (
 
 // Um edital com painel declarado não pode produzir deploy verde sem o painel.
 const concursosRegistrados = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/concursos.json'), 'utf8'));
-const catalogoMaterias = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/catalogo-materias-por-concurso.json'), 'utf8'));
+const catalogoMaterias = resolveCatalog(JSON.parse(fs.readFileSync(path.join(rootDir, 'data/catalogo-materias-por-concurso.json'), 'utf8')), manifesto);
 const auditoriaCatalogo = validarCatalogoMaterias(catalogoMaterias, manifesto, concursosRegistrados);
 console.log('✓ Catálogo por concurso validado: ' + auditoriaCatalogo.materias + ' matérias em ' + auditoriaCatalogo.concursos + ' concursos.');
 
@@ -366,7 +371,8 @@ for (const nomeJson of JSONS_PUBLICOS_AUTORIZADOS) {
   const src = path.join(rootDir, 'data', nomeJson);
   const dest = path.join(dataDest, nomeJson);
   if (fs.existsSync(src)) {
-    fs.copyFileSync(src, dest);
+    if(nomeJson === 'catalogo-materias-por-concurso.json') fs.writeFileSync(dest, JSON.stringify(catalogoMaterias, null, 2)+'\n');
+    else fs.copyFileSync(src, dest);
     console.log(`✓ Copiado JSON autorizado (allowlist): data/${nomeJson}`);
   } else {
     console.warn(`! AVISO: JSON autorizado não encontrado na origem: data/${nomeJson}`);

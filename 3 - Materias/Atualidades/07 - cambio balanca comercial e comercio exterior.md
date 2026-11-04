@@ -1,4 +1,6 @@
 ---
+articleId: art-6ebaa72cd0434fed
+articleAliases: ["3 - Materias/Atualidades/07 - cambio balanca comercial e comercio exterior.md"]
 title: "Câmbio, balança comercial e comércio exterior"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-bbfbb387695641a3
+articleAliases: ["3 - Materias/Atualidades/Snapshots/2026-09-14 - IPCA agosto e Selic.md"]
 title: "IPCA de agosto e Selic — 14/09/2026"
 type: "snapshot-conjuntural"
 status: "ativo"

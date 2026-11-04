@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "contests": [
     {
       "concursoId": "cgu-2026",
@@ -10,19 +10,19 @@
           "ordem": 1,
           "rotulo": "Auditoria Governamental",
           "itemEdital": "P2.5",
-          "hubSourcePath": "3 - Materias/Auditoria Governamental/auditoria-governamental.md",
-          "articleSourcePaths": [
-            "3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas.md",
-            "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md",
-            "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo.md",
-            "3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional.md",
-            "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas.md",
-            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md",
-            "3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle.md",
-            "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md",
-            "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md",
-            "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md",
-            "3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria.md"
+          "hubArticleId": "art-811ada4b2aba4a5a",
+          "articleIds": [
+            "art-10bfa7268f8340bf",
+            "art-47d19972e3bc4d29",
+            "art-2fcfb61ee9284dcc",
+            "art-7446e1f6086f4d9a",
+            "art-e090ae9b07314c94",
+            "art-2ac819ec38f94031",
+            "art-497828bde2144eed",
+            "art-99dd198f53bb43d3",
+            "art-35f552e59d334020",
+            "art-417d0901f19843a5",
+            "art-6340ec193409456d"
           ]
         },
         {
@@ -31,11 +31,11 @@
           "ordem": 2,
           "rotulo": "Estado e democracia",
           "itemEdital": "P1.1",
-          "hubSourcePath": "3 - Materias/Estado e Democracia/estado-e-democracia.md",
-          "articleSourcePaths": [
-            "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
-            "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica.md"
+          "hubArticleId": "art-50e0978739874d08",
+          "articleIds": [
+            "art-a6edc965cb9e4eb6",
+            "art-6a55fcee78be4a39",
+            "art-cbd0b4285d514319"
           ]
         },
         {
@@ -44,10 +44,10 @@
           "ordem": 3,
           "rotulo": "Sociedade brasileira",
           "itemEdital": "P1.2",
-          "hubSourcePath": "3 - Materias/Sociedade Brasileira/sociedade-brasileira.md",
-          "articleSourcePaths": [
-            "3 - Materias/Atualidades/09 - demografia e indicadores sociais.md",
-            "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade.md"
+          "hubArticleId": "art-78bc825a42f84a42",
+          "articleIds": [
+            "art-2abbed45a7b04a21",
+            "art-fcbf8bc6df474e22"
           ]
         },
         {
@@ -56,9 +56,9 @@
           "ordem": 4,
           "rotulo": "Ética pública",
           "itemEdital": "P1.3",
-          "hubSourcePath": "3 - Materias/Etica Publica/etica-publica.md",
-          "articleSourcePaths": [
-            "3 - Materias/Direito Administrativo/09 - processo administrativo federal.md"
+          "hubArticleId": "art-82361a9e55874776",
+          "articleIds": [
+            "art-4c8a4b35894d4fa9"
           ]
         },
         {
@@ -67,10 +67,10 @@
           "ordem": 5,
           "rotulo": "Administração Pública",
           "itemEdital": "P1.4",
-          "hubSourcePath": "3 - Materias/Administracao Publica/administracao-publica.md",
-          "articleSourcePaths": [
-            "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
-            "3 - Materias/Administracao Publica/02 - governanca publica.md"
+          "hubArticleId": "art-5ea2f1457821480d",
+          "articleIds": [
+            "art-2e8a8f600b964d40",
+            "art-23fe2441eab94f8d"
           ]
         },
         {
@@ -79,10 +79,10 @@
           "ordem": 6,
           "rotulo": "Governança, riscos e integridade",
           "itemEdital": "P2.1",
-          "hubSourcePath": "3 - Materias/Governanca Riscos e Integridade/governanca-riscos-e-integridade.md",
-          "articleSourcePaths": [
-            "3 - Materias/Administracao Publica/02 - governanca publica.md",
-            "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas.md"
+          "hubArticleId": "art-ccdfc14e51494dd1",
+          "articleIds": [
+            "art-23fe2441eab94f8d",
+            "art-e090ae9b07314c94"
           ]
         },
         {
@@ -91,10 +91,10 @@
           "ordem": 7,
           "rotulo": "Transparência e ouvidoria",
           "itemEdital": "P2.2",
-          "hubSourcePath": "3 - Materias/Transparencia e Ouvidoria/transparencia-e-ouvidoria.md",
-          "articleSourcePaths": [
-            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md",
-            "3 - Materias/Comunicacao/02 - comunicacao publica.md"
+          "hubArticleId": "art-e3f6a25897ea48ab",
+          "articleIds": [
+            "art-2ca37017208841b8",
+            "art-aa982758b945496d"
           ]
         },
         {
@@ -103,12 +103,12 @@
           "ordem": 8,
           "rotulo": "Direito Administrativo",
           "itemEdital": "P2.3",
-          "hubSourcePath": "3 - Materias/Direito Administrativo/direito-administrativo.md",
-          "articleSourcePaths": [
-            "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
-            "3 - Materias/Direito Administrativo/07 - improbidade administrativa.md",
-            "3 - Materias/Direito Administrativo/09 - processo administrativo federal.md",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica.md"
+          "hubArticleId": "art-4dfddd0b96a7454a",
+          "articleIds": [
+            "art-a7703dd0e3fc4618",
+            "art-ea06e80ef83f4af7",
+            "art-4c8a4b35894d4fa9",
+            "art-cbd0b4285d514319"
           ]
         },
         {
@@ -117,11 +117,11 @@
           "ordem": 9,
           "rotulo": "Evidências, dados e inteligência artificial",
           "itemEdital": "P2.4",
-          "hubSourcePath": "3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia.md",
-          "articleSourcePaths": [
-            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao.md",
-            "3 - Materias/Atualidades/01 - inteligencia artificial.md",
-            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md"
+          "hubArticleId": "art-72ea59d3ca214163",
+          "articleIds": [
+            "art-553db0a4633f46c6",
+            "art-a0fd083e56314c44",
+            "art-2ac819ec38f94031"
           ]
         },
         {
@@ -130,9 +130,9 @@
           "ordem": 10,
           "rotulo": "Finanças Públicas",
           "itemEdital": "P3.2",
-          "hubSourcePath": "3 - Materias/Financas Publicas/financas-publicas.md",
-          "articleSourcePaths": [
-            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica.md"
+          "hubArticleId": "art-5d1f7fdeec02403b",
+          "articleIds": [
+            "art-9be1a39d536a47ea"
           ]
         },
         {
@@ -141,11 +141,11 @@
           "ordem": 11,
           "rotulo": "Orçamento Público",
           "itemEdital": "P3.2",
-          "hubSourcePath": "3 - Materias/Orcamento Publico/orcamento-publico.md",
-          "articleSourcePaths": [
-            "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md",
-            "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
-            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica.md"
+          "hubArticleId": "art-61a554a75c574053",
+          "articleIds": [
+            "art-f6cfe9fbcc764554",
+            "art-c301f2c741504403",
+            "art-9be1a39d536a47ea"
           ]
         },
         {
@@ -154,8 +154,8 @@
           "ordem": 12,
           "rotulo": "Contabilidade Pública",
           "itemEdital": "P3.2",
-          "hubSourcePath": "3 - Materias/Contabilidade Publica/contabilidade-publica.md",
-          "articleSourcePaths": []
+          "hubArticleId": "art-3a7092089cf44cce",
+          "articleIds": []
         },
         {
           "subjectId": "politicas-publicas",
@@ -163,11 +163,11 @@
           "ordem": 13,
           "rotulo": "Políticas Públicas e avaliação",
           "itemEdital": "P3.3",
-          "hubSourcePath": "3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas.md",
-          "articleSourcePaths": [
-            "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca.md",
-            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao.md",
-            "3 - Materias/Atualidades/09 - demografia e indicadores sociais.md"
+          "hubArticleId": "art-4242e8e7b3b744a9",
+          "articleIds": [
+            "art-50878ee79345479b",
+            "art-553db0a4633f46c6",
+            "art-2abbed45a7b04a21"
           ]
         },
         {
@@ -176,9 +176,9 @@
           "ordem": 14,
           "rotulo": "Contratações e transferências",
           "itemEdital": "P3.4",
-          "hubSourcePath": "3 - Materias/Contratacoes e Transferencias/contratacoes-e-transferencias.md",
-          "articleSourcePaths": [
-            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md"
+          "hubArticleId": "art-10fc735caeec4e83",
+          "articleIds": [
+            "art-e3be4825ac4c455a"
           ]
         },
         {
@@ -187,11 +187,11 @@
           "ordem": 15,
           "rotulo": "Integridade e responsabilização",
           "itemEdital": "P3.5",
-          "hubSourcePath": "3 - Materias/Integridade e Responsabilizacao/integridade-e-responsabilizacao.md",
-          "articleSourcePaths": [
-            "3 - Materias/Direito Administrativo/07 - improbidade administrativa.md",
-            "3 - Materias/Direito Administrativo/09 - processo administrativo federal.md",
-            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md"
+          "hubArticleId": "art-cad1885ead364c57",
+          "articleIds": [
+            "art-ea06e80ef83f4af7",
+            "art-4c8a4b35894d4fa9",
+            "art-2ca37017208841b8"
           ]
         }
       ]
@@ -205,19 +205,19 @@
           "ordem": 1,
           "rotulo": "Língua Portuguesa",
           "itemEdital": "Módulo I: Língua Portuguesa",
-          "hubSourcePath": "3 - Materias/Portugues/portugues.md",
-          "articleSourcePaths": [
-            "3 - Materias/Portugues/01 - interpretacao de texto.md",
-            "3 - Materias/Portugues/02 - sujeito.md",
-            "3 - Materias/Portugues/03 - pontuacao e virgula.md",
-            "3 - Materias/Portugues/04 - regencia.md",
-            "3 - Materias/Portugues/05 - acordo ortografico.md",
-            "3 - Materias/Portugues/06 - concordancia verbal e nominal.md",
-            "3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas.md",
-            "3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais.md",
-            "3 - Materias/Portugues/09 - tipos e generos textuais.md",
-            "3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido.md",
-            "3 - Materias/Portugues/11 - crase.md"
+          "hubArticleId": "art-383ddf4724f64b80",
+          "articleIds": [
+            "art-a3dbf98e0e974302",
+            "art-98cd849c42bb4294",
+            "art-24350eefe84c43b5",
+            "art-c641f812918e4678",
+            "art-7cea3aa409804c07",
+            "art-cde55b38eb404ce7",
+            "art-1accdd2da469401d",
+            "art-b46ab5677a26469e",
+            "art-e8ba958c8c194bab",
+            "art-ffda49b0fbcc4fbe",
+            "art-f7dcd59a14c24446"
           ]
         },
         {
@@ -226,8 +226,8 @@
           "ordem": 2,
           "rotulo": "Língua Inglesa",
           "itemEdital": "Módulo I: Língua Inglesa",
-          "hubSourcePath": "3 - Materias/Ingles/ingles.md",
-          "articleSourcePaths": []
+          "hubArticleId": "art-12e2ffc0c1fe4c6f",
+          "articleIds": []
         },
         {
           "subjectId": "logica",
@@ -235,20 +235,20 @@
           "ordem": 3,
           "rotulo": "Raciocínio Lógico",
           "itemEdital": "Módulo I: Raciocínio Lógico",
-          "hubSourcePath": "3 - Materias/Logica/00 - logica.md",
-          "articleSourcePaths": [
-            "3 - Materias/Logica/01 - proposicao.md",
-            "3 - Materias/Logica/02 - conectivos.md",
-            "3 - Materias/Logica/03 - quantificadores.md",
-            "3 - Materias/Logica/04 - equivalencias.md",
-            "3 - Materias/Logica/05 - tabela verdade.md",
-            "3 - Materias/Logica/06 - argumentacao logica.md",
-            "3 - Materias/Logica/07 - diagramas logicos e conjuntos.md",
-            "3 - Materias/Logica/08 - possibilidade e necessidade.md",
-            "3 - Materias/Logica/09 - analise combinatoria.md",
-            "3 - Materias/Logica/10 - razoes proporcoes e divisao proporcional.md",
-            "3 - Materias/Logica/11 - simbolos e notacao logica.md",
-            "3 - Materias/Logica/12 - problemas aritmeticos geometricos e matriciais.md"
+          "hubArticleId": "art-41d7705cb7e64e1c",
+          "articleIds": [
+            "art-4deb120dd6574387",
+            "art-fba617ec4a0f4faf",
+            "art-10517fc075cf4aaf",
+            "art-ba9ff21a0ed04e81",
+            "art-b3fca2dd9fec4de0",
+            "art-c943e569e531451f",
+            "art-53f0296d95474030",
+            "art-74440fc1db164f9a",
+            "art-d273fe550f474474",
+            "art-c66e408f47fa4576",
+            "art-5d5654c192c24db2",
+            "art-e9f2f92c92f0426b"
           ]
         },
         {
@@ -257,28 +257,28 @@
           "ordem": 4,
           "rotulo": "Atualidades e Inteligência Artificial",
           "itemEdital": "Módulo I: Atualidades e Inteligência Artificial",
-          "hubSourcePath": "3 - Materias/Atualidades/atualidades.md",
-          "articleSourcePaths": [
-            "3 - Materias/Atualidades/01 - inteligencia artificial.md",
-            "3 - Materias/Atualidades/02 - quarto chines.md",
-            "3 - Materias/Atualidades/02.5 - inflacao causas medicao e efeitos.md",
-            "3 - Materias/Atualidades/03 - regime de metas inflacao selic copom.md",
-            "3 - Materias/Atualidades/04 - pib e atividade economica.md",
-            "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade.md",
-            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica.md",
-            "3 - Materias/Atualidades/07 - cambio balanca comercial e comercio exterior.md",
-            "3 - Materias/Atualidades/08 - organizacoes internacionais e blocos.md",
-            "3 - Materias/Atualidades/09 - demografia e indicadores sociais.md",
-            "3 - Materias/Atualidades/10 - mudanca climatica cop e mercado de carbono.md",
-            "3 - Materias/Atualidades/11 - matriz energetica eletrica e transicao energetica.md",
-            "3 - Materias/Atualidades/12 - saude publica vigilancia e vacinacao.md",
-            "3 - Materias/Atualidades/13 - politica instituicoes e democracia nas atualidades.md",
-            "3 - Materias/Atualidades/14 - governanca e regulacao de inteligencia artificial.md",
-            "3 - Materias/Atualidades/15 - seguranca publica ciberseguranca e temas de seguranca 2026.md",
-            "3 - Materias/Atualidades/16 - transportes mobilidade e infraestrutura 2026.md",
-            "3 - Materias/Atualidades/17 - educacao e politicas educacionais 2026.md",
-            "3 - Materias/Atualidades/18 - cultura midia e temas sociais 2026.md",
-            "3 - Materias/Atualidades/19 - relacoes internacionais e fatos globais 2026.md"
+          "hubArticleId": "art-034e24ba95be4ab1",
+          "articleIds": [
+            "art-a0fd083e56314c44",
+            "art-5b05d80d60e74b16",
+            "art-572fd6a793d54785",
+            "art-b753b14428774911",
+            "art-e094545fd9304ee0",
+            "art-fcbf8bc6df474e22",
+            "art-9be1a39d536a47ea",
+            "art-6ebaa72cd0434fed",
+            "art-4d608c62a6414e07",
+            "art-2abbed45a7b04a21",
+            "art-cb0f48a0417e428f",
+            "art-057280dd0a704032",
+            "art-35b6784e35b44a68",
+            "art-90eb72996adf4088",
+            "art-d67ecbb2f9204843",
+            "art-59bf2bfc2a5e42be",
+            "art-7593a7e29400423d",
+            "art-df3459b517244e85",
+            "art-ce0fff3c37334081",
+            "art-a3bbad1c1d4b402a"
           ]
         },
         {
@@ -287,12 +287,12 @@
           "ordem": 5,
           "rotulo": "Legislação de Segurança da Informação e Proteção de Dados",
           "itemEdital": "Módulo I: Legislação de Segurança da Informação e Proteção de Dados",
-          "hubSourcePath": "3 - Materias/Informatica/informatica.md",
-          "articleSourcePaths": [
-            "3 - Materias/Informatica/01 - marco civil da internet.md",
-            "3 - Materias/Informatica/02 - lei 12737 delitos informaticos.md",
-            "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
-            "3 - Materias/Comunicacao/03 - lai lgpd e transparencia.md"
+          "hubArticleId": "art-b60c73bfb6574fe0",
+          "articleIds": [
+            "art-bae07e2af7594b72",
+            "art-b121871de5f644ca",
+            "art-8946971690804376",
+            "art-2f08d016bf214fc3"
           ]
         },
         {
@@ -301,35 +301,35 @@
           "ordem": 6,
           "rotulo": "Comunicação Social: Perfil 9",
           "itemEdital": "Módulo II: Comunicação Social",
-          "hubSourcePath": "3 - Materias/Comunicacao/comunicacao.md",
-          "articleSourcePaths": [
-            "3 - Materias/Comunicacao/01 - comunicacao organizacional.md",
-            "3 - Materias/Comunicacao/02 - comunicacao publica.md",
-            "3 - Materias/Comunicacao/03 - lai lgpd e transparencia.md",
-            "3 - Materias/Comunicacao/04 - criterios de noticiabilidade.md",
-            "3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling.md",
-            "3 - Materias/Comunicacao/06 - comunicacao digital.md",
-            "3 - Materias/Comunicacao/07 - gestao de crises.md",
-            "3 - Materias/Comunicacao/08 - assessoria de imprensa.md",
-            "3 - Materias/Comunicacao/09 - comunicacao interna.md",
-            "3 - Materias/Comunicacao/10 - linguagem simples.md",
-            "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
-            "3 - Materias/Comunicacao/12 - producao editorial e design.md",
-            "3 - Materias/Comunicacao/13 - generos jornalisticos.md",
-            "3 - Materias/Comunicacao/14 - entrevista jornalistica.md",
-            "3 - Materias/Comunicacao/15 - publicos e stakeholders.md",
-            "3 - Materias/Comunicacao/16 - planejamento de comunicacao.md",
-            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao.md",
-            "3 - Materias/Comunicacao/18 - fact checking e desinformacao.md",
-            "3 - Materias/Comunicacao/19 - marketing institucional e branding.md",
-            "3 - Materias/Comunicacao/20 - campanhas e planejamento de midia.md",
-            "3 - Materias/Comunicacao/21 - teorias do jornalismo e historia da imprensa.md",
-            "3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas.md",
-            "3 - Materias/Comunicacao/22.1 - ehling white e grunig quatro teorias do gerenciamento de rp.md",
-            "3 - Materias/Comunicacao/22.2 - cesca comunicacao dirigida e veiculos.md",
-            "3 - Materias/Comunicacao/22.3 - paulo nassar comunicacao integrada virtual.md",
-            "3 - Materias/Comunicacao/23 - historia da midia e comunicacao empresarial no brasil.md",
-            "3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual.md"
+          "hubArticleId": "art-c5912e71806e4f06",
+          "articleIds": [
+            "art-9b4bc5f91bab49ae",
+            "art-aa982758b945496d",
+            "art-2f08d016bf214fc3",
+            "art-1518ce1ad35a4ae3",
+            "art-5d257022e5a6465f",
+            "art-36581e505e5f476c",
+            "art-50f1296bdde542f0",
+            "art-4affdff661924df1",
+            "art-806546892285426f",
+            "art-76a6d49bcd9c4a3e",
+            "art-af0fe39c4031493a",
+            "art-ad33fc3379e14071",
+            "art-ac5fa232ec4743c1",
+            "art-31ef5073bdfd419c",
+            "art-df1afbd404734be2",
+            "art-1739e871ee1a45de",
+            "art-553db0a4633f46c6",
+            "art-f1483b1fa6d042c2",
+            "art-e51e5d78db5a4c99",
+            "art-128136a69e634e4b",
+            "art-446b8dd206cd4e84",
+            "art-8f680037dea445fa",
+            "art-ccdd4dc3d35e4b46",
+            "art-5d2613d010ea4081",
+            "art-b009c992463c4316",
+            "art-5356f5d7ce6f4c78",
+            "art-8e408175a4194a99"
           ]
         }
       ]
@@ -343,19 +343,19 @@
           "ordem": 1,
           "rotulo": "Língua Portuguesa",
           "itemEdital": "Conhecimentos básicos: Língua Portuguesa",
-          "hubSourcePath": "3 - Materias/Portugues/portugues.md",
-          "articleSourcePaths": [
-            "3 - Materias/Portugues/01 - interpretacao de texto.md",
-            "3 - Materias/Portugues/02 - sujeito.md",
-            "3 - Materias/Portugues/03 - pontuacao e virgula.md",
-            "3 - Materias/Portugues/04 - regencia.md",
-            "3 - Materias/Portugues/05 - acordo ortografico.md",
-            "3 - Materias/Portugues/06 - concordancia verbal e nominal.md",
-            "3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas.md",
-            "3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais.md",
-            "3 - Materias/Portugues/09 - tipos e generos textuais.md",
-            "3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido.md",
-            "3 - Materias/Portugues/11 - crase.md"
+          "hubArticleId": "art-383ddf4724f64b80",
+          "articleIds": [
+            "art-a3dbf98e0e974302",
+            "art-98cd849c42bb4294",
+            "art-24350eefe84c43b5",
+            "art-c641f812918e4678",
+            "art-7cea3aa409804c07",
+            "art-cde55b38eb404ce7",
+            "art-1accdd2da469401d",
+            "art-b46ab5677a26469e",
+            "art-e8ba958c8c194bab",
+            "art-ffda49b0fbcc4fbe",
+            "art-f7dcd59a14c24446"
           ]
         },
         {
@@ -364,8 +364,8 @@
           "ordem": 2,
           "rotulo": "Língua Inglesa",
           "itemEdital": "Conhecimentos básicos: Língua Inglesa",
-          "hubSourcePath": "3 - Materias/Ingles/ingles.md",
-          "articleSourcePaths": []
+          "hubArticleId": "art-12e2ffc0c1fe4c6f",
+          "articleIds": []
         },
         {
           "subjectId": "direito-administrativo",
@@ -373,19 +373,19 @@
           "ordem": 3,
           "rotulo": "Direito Administrativo",
           "itemEdital": "Conhecimentos básicos: Direito Administrativo",
-          "hubSourcePath": "3 - Materias/Direito Administrativo/direito-administrativo.md",
-          "articleSourcePaths": [
-            "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
-            "3 - Materias/Direito Administrativo/02 - organizacao administrativa.md",
-            "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
-            "3 - Materias/Direito Administrativo/04 - poderes administrativos.md",
-            "3 - Materias/Direito Administrativo/05 - agentes publicos.md",
-            "3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado.md",
-            "3 - Materias/Direito Administrativo/07 - improbidade administrativa.md",
-            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
-            "3 - Materias/Direito Administrativo/09 - processo administrativo federal.md",
-            "3 - Materias/Direito Administrativo/10 - servicos publicos.md",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica.md"
+          "hubArticleId": "art-4dfddd0b96a7454a",
+          "articleIds": [
+            "art-8946971690804376",
+            "art-86dee064aef44ba4",
+            "art-a7703dd0e3fc4618",
+            "art-b740cbbd05e54a26",
+            "art-6b9002df47604ea5",
+            "art-9f98650edd9e4278",
+            "art-ea06e80ef83f4af7",
+            "art-e3be4825ac4c455a",
+            "art-4c8a4b35894d4fa9",
+            "art-b3edb79bff314c93",
+            "art-cbd0b4285d514319"
           ]
         },
         {
@@ -394,11 +394,11 @@
           "ordem": 4,
           "rotulo": "Administração Pública",
           "itemEdital": "Conhecimentos básicos: Administração Pública",
-          "hubSourcePath": "3 - Materias/Administracao Publica/administracao-publica.md",
-          "articleSourcePaths": [
-            "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
-            "3 - Materias/Administracao Publica/02 - governanca publica.md",
-            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md"
+          "hubArticleId": "art-5ea2f1457821480d",
+          "articleIds": [
+            "art-2e8a8f600b964d40",
+            "art-23fe2441eab94f8d",
+            "art-2ca37017208841b8"
           ]
         },
         {
@@ -407,19 +407,19 @@
           "ordem": 5,
           "rotulo": "Direito Constitucional e processo legislativo",
           "itemEdital": "Conhecimentos básicos: Constitucional e Regimento",
-          "hubSourcePath": "3 - Materias/Direito Constitucional/direito-constitucional.md",
-          "articleSourcePaths": [
-            "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
-            "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
-            "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
-            "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
-            "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
-            "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
-            "3 - Materias/Direito Constitucional/07 - poder executivo.md",
-            "3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md",
-            "3 - Materias/Direito Constitucional/09 - funcoes essenciais a justica.md",
-            "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
-            "3 - Materias/Direito Constitucional/11 - organizacao do estado.md"
+          "hubArticleId": "art-63ee6efc2e9e4c17",
+          "articleIds": [
+            "art-a6edc965cb9e4eb6",
+            "art-ec49c177b1ae43c7",
+            "art-b72f4e7f06344051",
+            "art-2c08fdb390ff4b8b",
+            "art-6a55fcee78be4a39",
+            "art-f3e70dd8fbe34df4",
+            "art-4572f492f3444994",
+            "art-7c5228e2781b4336",
+            "art-95bcc6a866f044bd",
+            "art-4c1041281ca44ee5",
+            "art-efb14d491dd34d54"
           ]
         },
         {
@@ -428,10 +428,10 @@
           "ordem": 6,
           "rotulo": "Tecnologia da Informação e Dados",
           "itemEdital": "Conhecimentos básicos: Tecnologia da Informação e Dados",
-          "hubSourcePath": "3 - Materias/Informatica/informatica.md",
-          "articleSourcePaths": [
-            "3 - Materias/Atualidades/01 - inteligencia artificial.md",
-            "3 - Materias/Atualidades/14 - governanca e regulacao de inteligencia artificial.md"
+          "hubArticleId": "art-b60c73bfb6574fe0",
+          "articleIds": [
+            "art-a0fd083e56314c44",
+            "art-d67ecbb2f9204843"
           ]
         },
         {
@@ -440,28 +440,28 @@
           "ordem": 7,
           "rotulo": "Comunicação Social e Divulgação Institucional",
           "itemEdital": "Conhecimentos específicos: Comunicação e Divulgação Institucional",
-          "hubSourcePath": "3 - Materias/Comunicacao/comunicacao.md",
-          "articleSourcePaths": [
-            "3 - Materias/Comunicacao/01 - comunicacao organizacional.md",
-            "3 - Materias/Comunicacao/02 - comunicacao publica.md",
-            "3 - Materias/Comunicacao/03 - lai lgpd e transparencia.md",
-            "3 - Materias/Comunicacao/06 - comunicacao digital.md",
-            "3 - Materias/Comunicacao/07 - gestao de crises.md",
-            "3 - Materias/Comunicacao/09 - comunicacao interna.md",
-            "3 - Materias/Comunicacao/10 - linguagem simples.md",
-            "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
-            "3 - Materias/Comunicacao/12 - producao editorial e design.md",
-            "3 - Materias/Comunicacao/15 - publicos e stakeholders.md",
-            "3 - Materias/Comunicacao/16 - planejamento de comunicacao.md",
-            "3 - Materias/Comunicacao/17 - pesquisa em comunicacao.md",
-            "3 - Materias/Comunicacao/18 - fact checking e desinformacao.md",
-            "3 - Materias/Comunicacao/19 - marketing institucional e branding.md",
-            "3 - Materias/Comunicacao/20 - campanhas e planejamento de midia.md",
-            "3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas.md",
-            "3 - Materias/Comunicacao/22.1 - ehling white e grunig quatro teorias do gerenciamento de rp.md",
-            "3 - Materias/Comunicacao/22.2 - cesca comunicacao dirigida e veiculos.md",
-            "3 - Materias/Comunicacao/22.3 - paulo nassar comunicacao integrada virtual.md",
-            "3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual.md"
+          "hubArticleId": "art-c5912e71806e4f06",
+          "articleIds": [
+            "art-9b4bc5f91bab49ae",
+            "art-aa982758b945496d",
+            "art-2f08d016bf214fc3",
+            "art-36581e505e5f476c",
+            "art-50f1296bdde542f0",
+            "art-806546892285426f",
+            "art-76a6d49bcd9c4a3e",
+            "art-af0fe39c4031493a",
+            "art-ad33fc3379e14071",
+            "art-df1afbd404734be2",
+            "art-1739e871ee1a45de",
+            "art-553db0a4633f46c6",
+            "art-f1483b1fa6d042c2",
+            "art-e51e5d78db5a4c99",
+            "art-128136a69e634e4b",
+            "art-8f680037dea445fa",
+            "art-ccdd4dc3d35e4b46",
+            "art-5d2613d010ea4081",
+            "art-b009c992463c4316",
+            "art-8e408175a4194a99"
           ]
         },
         {
@@ -470,11 +470,11 @@
           "ordem": 8,
           "rotulo": "Ciência Política e Estado",
           "itemEdital": "Ciência Política",
-          "hubSourcePath": "3 - Materias/Estado e Democracia/estado-e-democracia.md",
-          "articleSourcePaths": [
-            "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
-            "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
-            "3 - Materias/Atualidades/13 - politica instituicoes e democracia nas atualidades.md"
+          "hubArticleId": "art-50e0978739874d08",
+          "articleIds": [
+            "art-a6edc965cb9e4eb6",
+            "art-6a55fcee78be4a39",
+            "art-90eb72996adf4088"
           ]
         },
         {
@@ -483,10 +483,10 @@
           "ordem": 9,
           "rotulo": "Orçamento e processo legislativo orçamentário",
           "itemEdital": "Processo Legislativo e Regimento",
-          "hubSourcePath": "3 - Materias/Orcamento Publico/orcamento-publico.md",
-          "articleSourcePaths": [
-            "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
-            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica.md"
+          "hubArticleId": "art-61a554a75c574053",
+          "articleIds": [
+            "art-4c1041281ca44ee5",
+            "art-9be1a39d536a47ea"
           ]
         },
         {
@@ -495,9 +495,9 @@
           "ordem": 10,
           "rotulo": "Ética e decoro parlamentar",
           "itemEdital": "Código de Ética e Decoro Parlamentar / ética profissional",
-          "hubSourcePath": "3 - Materias/Etica Publica/etica-publica.md",
-          "articleSourcePaths": [
-            "3 - Materias/Comunicacao/11 - etica em comunicacao.md"
+          "hubArticleId": "art-82361a9e55874776",
+          "articleIds": [
+            "art-af0fe39c4031493a"
           ]
         },
         {
@@ -506,11 +506,11 @@
           "ordem": 11,
           "rotulo": "Redação discursiva e peça técnica",
           "itemEdital": "Prova discursiva",
-          "hubSourcePath": "3 - Materias/Redacao/redacao.md",
-          "articleSourcePaths": [
-            "3 - Materias/Redacao/01 - leitura do tema e projeto de texto.md",
-            "3 - Materias/Redacao/02 - tese e linha argumentativa.md",
-            "3 - Materias/Redacao/03 - estrategias de argumentacao.md"
+          "hubArticleId": "art-53aaeb5f3d694d57",
+          "articleIds": [
+            "art-eee736362f70467f",
+            "art-7bcedf840e464bd8",
+            "art-1d85f42895fe4b85"
           ]
         }
       ]

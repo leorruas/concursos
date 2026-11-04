@@ -1,4 +1,6 @@
 ---
+articleId: art-5d1f7fdeec02403b
+articleAliases: ["3 - Materias/Financas Publicas/financas-publicas.md"]
 title: "Finanças Públicas"
 type: "hub"
 status: "ativo"

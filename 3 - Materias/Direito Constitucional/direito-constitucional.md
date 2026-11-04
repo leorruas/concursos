@@ -1,4 +1,6 @@
 ---
+articleId: art-63ee6efc2e9e4c17
+articleAliases: ["3 - Materias/Direito Constitucional/direito-constitucional.md"]
 title: "Direito constitucional"
 type: "hub"
 status: "ativo"

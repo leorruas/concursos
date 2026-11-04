@@ -410,11 +410,14 @@ function processarWikilinks(container) {
         const destinoNota = indiceHash >= 0 ? destino.slice(0, indiceHash) : destino;
         const subtitulo = indiceHash >= 0 ? destino.slice(indiceHash + 1).trim() : "";
         const nomeArquivo = destinoNota.split("/").pop();
-        const artigoDestino = todosOsArtigos.find(a => a.titulo.toLowerCase() === nomeArquivo.toLowerCase());
+        const caminhoNota = destinoNota.replace(/\.md$/, "");
+        const exato = todosOsArtigos.find(a => [a.sourcePath, ...(a.articleAliases||[])].some(p => p?.replace(/\.md$/, "") === caminhoNota));
+        const porNome = todosOsArtigos.filter(a => a.titulo.toLowerCase() === nomeArquivo.toLowerCase() || (a.articleAliases||[]).some(p=>p.split('/').at(-1).replace(/\.md$/, "").toLowerCase()===nomeArquivo.toLowerCase()));
+        const artigoDestino = exato || (porNome.length===1 ? porNome[0] : null);
 
         if (artigoDestino) {
             const secao = resolverSecaoWikilink(artigoDestino, subtitulo);
-            return `<a href="${rotaDoArtigo(artigoDestino, secao)}" class="wikilink" data-artigo="${artigoDestino.titulo}" data-secao="${secao}">${rotulo}</a>`;
+            return `<a href="${rotaDoArtigo(artigoDestino, secao)}" class="wikilink" data-artigo="${artigoDestino.titulo}" data-article-id="${artigoDestino.articleId || ""}" data-secao="${secao}">${rotulo}</a>`;
         }
         return `<span class="wikilink-texto">${rotulo}</span>`;
     });
@@ -423,7 +426,7 @@ function processarWikilinks(container) {
         link.addEventListener("click", (e) => {
             const nome = link.dataset.artigo;
             const secao = link.dataset.secao || "";
-            const dest = todosOsArtigos.find(a => a.titulo === nome);
+            const dest = link.dataset.articleId ? todosOsArtigos.find(a => a.articleId === link.dataset.articleId) : todosOsArtigos.find(a => a.titulo === nome);
             if (dest) {
                 e.preventDefault();
                 abrirArtigo(dest, true, secao);

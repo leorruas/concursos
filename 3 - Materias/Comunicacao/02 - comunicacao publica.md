@@ -1,4 +1,6 @@
 ---
+articleId: art-aa982758b945496d
+articleAliases: ["3 - Materias/Comunicacao/02 - comunicacao publica.md"]
 title: "🔄 Comunicação pública"
 type: "conceito"
 status: "ativo"

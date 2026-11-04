@@ -1,4 +1,6 @@
 ---
+articleId: art-5ea2f1457821480d
+articleAliases: ["3 - Materias/Administracao Publica/administracao-publica.md"]
 title: "Administração pública"
 type: "hub"
 status: "ativo"

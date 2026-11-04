@@ -1,4 +1,6 @@
 ---
+articleId: art-4dfddd0b96a7454a
+articleAliases: ["3 - Materias/Direito Administrativo/direito-administrativo.md"]
 title: "Direito administrativo"
 type: "hub"
 status: "ativo"

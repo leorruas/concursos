@@ -1,4 +1,6 @@
 ---
+articleId: art-fba617ec4a0f4faf
+articleAliases: ["3 - Materias/Logica/02 - conectivos.md"]
 title: "Conectivos lógicos"
 type: "conceito"
 status: "ativo"

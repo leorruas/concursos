@@ -1,4 +1,6 @@
 ---
+articleId: art-72ea59d3ca214163
+articleAliases: ["3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia.md"]
 title: "Evidências, dados e inteligência artificial"
 type: "hub"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-b46ab5677a26469e
+articleAliases: ["3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais.md"]
 title: "Coesão textual: referenciação, conectores e tempos verbais"
 type: "conceito"
 status: "ativo"

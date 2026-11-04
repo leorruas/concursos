@@ -1,4 +1,6 @@
 ---
+articleId: art-4c1041281ca44ee5
+articleAliases: ["3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md"]
 title: "🔄 Processo legislativo e poder constituinte"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-e3be4825ac4c455a
+articleAliases: ["3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md"]
 title: "Licitações e contratos"
 type: "conceito"
 status: "ativo"

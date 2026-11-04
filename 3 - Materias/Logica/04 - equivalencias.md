@@ -1,4 +1,6 @@
 ---
+articleId: art-ba9ff21a0ed04e81
+articleAliases: ["3 - Materias/Logica/04 - equivalencias.md"]
 title: "Equivalências e negações lógicas"
 type: "conceito"
 status: "ativo"

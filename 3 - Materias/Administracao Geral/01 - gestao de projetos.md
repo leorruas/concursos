@@ -1,4 +1,6 @@
 ---
+articleId: art-e0feecf7f067492d
+articleAliases: ["3 - Materias/Administracao Geral/01 - gestao de projetos.md"]
 title: "Gestão de projetos"
 type: "conceito"
 status: "ativo"

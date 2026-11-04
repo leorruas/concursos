@@ -1,4 +1,6 @@
 ---
+articleId: art-383ddf4724f64b80
+articleAliases: ["3 - Materias/Portugues/portugues.md"]
 title: "Língua portuguesa"
 type: "hub"
 status: "ativo"

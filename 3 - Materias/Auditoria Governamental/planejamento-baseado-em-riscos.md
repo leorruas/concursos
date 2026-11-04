@@ -1,4 +1,6 @@
 ---
+articleId: art-35f552e59d334020
+articleAliases: ["3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md"]
 title: "Planejamento de auditoria baseado em riscos"
 type: "conceito"
 status: "ativo"

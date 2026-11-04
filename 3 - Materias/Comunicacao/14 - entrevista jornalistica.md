@@ -1,4 +1,6 @@
 ---
+articleId: art-31ef5073bdfd419c
+articleAliases: ["3 - Materias/Comunicacao/14 - entrevista jornalistica.md"]
 title: "Entrevista jornalística"
 type: "conceito"
 status: "ativo"

@@ -1,4 +1,6 @@
 ---
+articleId: art-5d5654c192c24db2
+articleAliases: ["3 - Materias/Logica/11 - simbolos e notacao logica.md"]
 title: "Símbolos e notação lógica"
 type: "conceito"
 status: "ativo"

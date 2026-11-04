@@ -1,4 +1,6 @@
 ---
+articleId: art-1d85f42895fe4b85
+articleAliases: ["3 - Materias/Redacao/03 - estrategias de argumentacao.md"]
 title: "Estratégias de argumentação"
 type: "conceito"
 status: "ativo"

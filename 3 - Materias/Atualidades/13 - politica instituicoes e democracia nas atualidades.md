@@ -1,4 +1,6 @@
 ---
+articleId: art-90eb72996adf4088
+articleAliases: ["3 - Materias/Atualidades/13 - politica instituicoes e democracia nas atualidades.md"]
 title: "Política, instituições e democracia nas Atualidades"
 type: "conceito"
 status: "ativo"

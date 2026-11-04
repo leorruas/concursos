@@ -1,4 +1,6 @@
 ---
+articleId: art-417d0901f19843a5
+articleAliases: ["3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md"]
 title: "Planejamento individual de auditoria"
 type: "conceito"
 status: "ativo"

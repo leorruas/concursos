@@ -1,4 +1,6 @@
 ---
+articleId: art-35b6784e35b44a68
+articleAliases: ["3 - Materias/Atualidades/12 - saude publica vigilancia e vacinacao.md"]
 title: "Saúde pública, vigilância e vacinação"
 type: "conceito"
 status: "ativo"

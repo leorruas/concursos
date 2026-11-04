@@ -1,4 +1,6 @@
 ---
+articleId: art-0b277c9e82bc4d66
+articleAliases: ["3 - Materias/Administracao Geral/administracao-geral.md"]
 title: "Administração geral"
 type: "hub"
 status: "ativo"

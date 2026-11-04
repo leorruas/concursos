@@ -1,4 +1,6 @@
 ---
+articleId: art-ec49c177b1ae43c7
+articleAliases: ["3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md"]
 title: "Direitos e garantias fundamentais"
 type: "conceito"
 status: "ativo"

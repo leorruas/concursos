@@ -1,4 +1,6 @@
 ---
+articleId: art-128136a69e634e4b
+articleAliases: ["3 - Materias/Comunicacao/20 - campanhas e planejamento de midia.md"]
 title: "Campanhas e planejamento de mídia"
 type: "conceito"
 status: "ativo"

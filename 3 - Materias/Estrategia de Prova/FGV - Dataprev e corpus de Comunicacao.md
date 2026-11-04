@@ -1,4 +1,6 @@
 ---
+articleId: art-576ded18bdfd448f
+articleAliases: ["3 - Materias/Estrategia de Prova/FGV - Dataprev e corpus de Comunicacao.md"]
 title: "FGV: Dataprev e corpus de Comunicação"
 type: "estrategia-de-prova"
 status: "ativo"

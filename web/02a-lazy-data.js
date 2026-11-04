@@ -56,6 +56,9 @@ carregarTodosOsArtigos = async function carregarTodosOsArtigosLeve() {
         artigos.sort(ordenarArtigosDaMateria);
     });
 
+    if (window.location.hash && typeof sincronizarContextoDaRota === "function") {
+        sincronizarContextoDaRota(parsearHashVault(window.location.hash));
+    }
     renderizarPainelConcursoHome();
     renderizarPastas();
 

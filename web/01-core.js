@@ -180,7 +180,7 @@ function limparNomeCategoria(categoria) {
 }
 
 function obterRotaCategoria(categoria) {
-    return `#/disciplina/${encodeURIComponent(categoria)}`;
+    return construirRotaDisciplina(categoria, concursoSelecionadoId, modoBibliotecaCompleta);
 }
 
 function atualizarDestinoIndiceTopo(categoria = "") {
@@ -205,7 +205,7 @@ function atualizarDestinoIndiceTopo(categoria = "") {
 }
 
 function rotaDoArtigo(artigo, secao = "") {
-    return construirRotaArtigo(artigo.categoria, artigo.titulo, secao);
+    return construirRotaArtigo(artigo.categoria, artigo.titulo, secao, concursoSelecionadoId, modoBibliotecaCompleta);
 }
 
 // Variáveis da Camada Estratégica (Opcional e Não-Invasiva)

@@ -157,6 +157,17 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "") {
         });
     }
 
+    const avisoEscopo = document.getElementById("artigo-contexto");
+    if (avisoEscopo) {
+        const noPrograma = obterArtigosDaMateria(artigo.categoria)
+            .some(item => item.sourcePath === artigo.sourcePath);
+        const foraDoPrograma = !modoBibliotecaCompleta && Boolean(obterProgramaSelecionado()) && !noPrograma;
+        avisoEscopo.hidden = !foraDoPrograma;
+        avisoEscopo.textContent = foraDoPrograma
+            ? "Artigo da biblioteca geral: fora da lista de estudo do concurso selecionado."
+            : "";
+    }
+
     renderizarDiagramasMermaid();
     gerarTableOfContents();
     renderizarBotoesNavegacao(artigo);
@@ -185,7 +196,7 @@ function renderizarBotoesNavegacao(artigoAtual) {
 
     rodapeNavContainer.innerHTML = "";
 
-    const artigosDaCategoria = todasAsPastas[artigoAtual.categoria] || [];
+    const artigosDaCategoria = obterArtigosDaMateria(artigoAtual.categoria);
     if (artigosDaCategoria.length <= 1) return;
 
     const indiceAtual = artigosDaCategoria.findIndex(a => a.titulo === artigoAtual.titulo);

@@ -2200,3 +2200,13 @@ html body .artigo-corpo h3::before {
     outline: 2px solid var(--accent-blue);
     outline-offset: 3px;
 }
+
+/* Mensagem de artigo fora do escopo, sem bloquear links diretos. */
+.artigo-contexto:not([hidden]) {
+    margin: 16px 0 24px;
+    padding: 12px 0;
+    border-top: 1px solid var(--muted);
+    border-bottom: 1px solid var(--muted);
+    color: var(--muted);
+    font-size: .88rem;
+}

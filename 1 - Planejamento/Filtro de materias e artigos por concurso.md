@@ -86,7 +86,9 @@ Esta primeira associação é um **mapa editorial de navegação**, não uma dec
 
 **Fase 3: seletor dentro da matéria e filtragem dos artigos.** O mesmo seletor textual da home passou a aparecer acima da lista de artigos. O sistema usa `articleSourcePaths` do par concurso/matéria, inclui o hub uma única vez, atualiza a numeração da lista e informa quando uma matéria não está prevista para o concurso recém-selecionado. O teste cobre artigos compartilhados, listas distintas, hub único e ausência de conteúdo.
 
-**Fases seguintes:** preservar o concurso na URL e na navegação entre matérias e artigos, inclusive links diretos; disponibilizar biblioteca completa e busca contextual opcional; testar fluxos de retorno e publicar a experiência final.
+**Fase 4: rotas contextuais e biblioteca completa.** As rotas de home, matéria e artigo suportam `?concurso=<id>` ou `?biblioteca=1`; a seção do artigo continua em `?secao=<id>`. O seletor de ambas as telas oferece "todas matérias" e preserva o concurso no histórico. Artigos acessados por links diretos permanecem disponíveis mesmo fora do programa, com aviso; a navegação anterior/próximo usa a lista filtrada. Links sem contexto continuam válidos.
+
+**Próxima fase:** busca por edital com opção de buscar em todo o vault, testes do fluxo completo e publicação final.
 
 ## Critérios de aceite
 
@@ -96,4 +98,4 @@ Esta primeira associação é um **mapa editorial de navegação**, não uma dec
 - Matéria não prevista no concurso escolhido gera mensagem clara; artigo público aberto por link direto permanece acessível. Os estados de concurso são preservados na navegação.
 - Não há vazamento de dados de estudo ou arquivos privados; a busca geral continua disponível e os testes mais o Pages confirmam o comportamento implantado.
 
-**Estado atual:** catálogo público, filtro e numeração da home, seletor e listas internas de artigos foram implementados. Navegação contextual por URL, busca filtrada e opção explícita de biblioteca completa permanecem para a fase seguinte.
+**Estado atual:** catálogo público, grade e artigos filtrados, seletor nas duas superfícies, URLs contextuais e biblioteca geral implementados. Busca contextual permanece pendente.

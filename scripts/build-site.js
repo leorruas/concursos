@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { validarCatalogoMaterias } from './contest-catalog.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -292,6 +293,10 @@ if (
 
 // Um edital com painel declarado não pode produzir deploy verde sem o painel.
 const concursosRegistrados = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/concursos.json'), 'utf8'));
+const catalogoMaterias = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/catalogo-materias-por-concurso.json'), 'utf8'));
+const auditoriaCatalogo = validarCatalogoMaterias(catalogoMaterias, manifesto, concursosRegistrados);
+console.log('✓ Catálogo por concurso validado: ' + auditoriaCatalogo.materias + ' matérias em ' + auditoriaCatalogo.concursos + ' concursos.');
+
 for (const concurso of concursosRegistrados) {
   if (!concurso.dashboardPath) continue;
   if (!pathsManifesto.has(concurso.dashboardPath)) {
@@ -350,7 +355,8 @@ const JSONS_PUBLICOS_AUTORIZADOS = [
   'concursos.json',
   'edital-itens.json',
   'erros-recorrentes.json',
-  'provas.json'
+  'provas.json',
+  'catalogo-materias-por-concurso.json'
 ];
 
 const dataDest = path.join(outDir, 'data');

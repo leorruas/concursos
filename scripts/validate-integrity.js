@@ -268,7 +268,8 @@ if (process.argv.includes('--audit-site')) {
       'concursos.json',
       'edital-itens.json',
       'erros-recorrentes.json',
-      'provas.json'
+      'provas.json',
+      'catalogo-materias-por-concurso.json'
     ]);
     const arquivosEmSiteData = fs.readdirSync(siteDataDir);
     const arquivosNaoAutorizados = arquivosEmSiteData.filter(f => !JSONS_PUBLICOS_AUTORIZADOS.has(f));

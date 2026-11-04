@@ -60,6 +60,20 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
     const extrasNoSite = diferenca(publicadoPaths, esperadoPaths);
 
     if (faltandoNoSite.length === 0 && extrasNoSite.length === 0) {
+      // O manifesto pode permanecer igual quando muda só o catálogo de disciplinas.
+      const nomeCatalogo = 'data/catalogo-materias-por-concurso.json';
+      const esperadoCatalogo = JSON.parse(fs.readFileSync(path.join(rootDir, '_site', nomeCatalogo), 'utf8'));
+      const urlCatalogo = new URL(nomeCatalogo + '?' + cacheBuster, baseUrl).toString();
+      const respostaCatalogo = await fetch(urlCatalogo, {
+        headers: { 'cache-control': 'no-cache', pragma: 'no-cache' },
+        signal: AbortSignal.timeout(8000)
+      });
+      if (!respostaCatalogo.ok) throw new Error('Catálogo publicado: HTTP ' + respostaCatalogo.status);
+      const catalogoAoVivo = await respostaCatalogo.json();
+      if (JSON.stringify(catalogoAoVivo) !== JSON.stringify(esperadoCatalogo)) {
+        throw new Error('Catálogo de matérias ao vivo diverge do catálogo construído');
+      }
+      console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');
       console.log(`✓ GitHub Pages sincronizado: ${publicadoPaths.size} artigos no manifesto ao vivo.`);
       process.exit(0);
     }

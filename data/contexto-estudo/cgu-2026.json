@@ -44,14 +44,14 @@
     },
     {
       "key": "Orçamento Público / aprendizagem",
-      "total": 6,
-      "correct": 5,
+      "total": 13,
+      "correct": 12,
       "incorrect": 1,
       "blank": 0,
       "annulled": 0,
-      "answered": 6,
-      "valid": 6,
-      "accuracy": 0.8333333333333334,
+      "answered": 13,
+      "valid": 13,
+      "accuracy": 0.9230769230769231,
       "sample": "insuficiente"
     },
     {
@@ -93,6 +93,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b02",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b02.json",
+      "status": "parcial",
+      "diagnosis": "Bateria 02: 7/7 itens corretos (6 seguros e um inseguro). Dois retestes do artigo 01 corretos e seguros: recuperação imediata, ainda sem retenção posterior demonstrada. Dúvida declarada após a correção no item 3: o estudante supunha que a exigência 'de forma regionalizada' não seria aplicável ao PPA federal; o art. 165, § 1º, da Constituição confirma que a exigência é expressa. Nenhum erro de conteúdo nesta bateria; o acerto inseguro requer revisão.",
+      "nextStep": "Aprofundar PPA/LDO/LOA: metas fiscais versus riscos fiscais, três orçamentos da LOA, exclusividade e prazos de envio versus devolução. Revisar a regionalização do PPA, incluindo o art. 165, § 1º, em nova questão de mecanismo diferente em outro dia. Continuar na unidade up3-2-2, sem concluir a unidade."
+    },
+    {
       "id": "cgu-2026-2026-11-04-orcamento-publico-b01",
       "date": "2026-11-04",
       "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b01.json",
@@ -107,30 +115,25 @@
       "status": "concluido",
       "diagnosis": "Micro-reteste dirigido do item 4 da bateria final U03: 3/3 acertos C/E/C, todos com confiança secure expressamente declarada pelo fluxo clicável. A interpretação foi transferida de evasão escolar para campanha de saúde, saneamento e comparação entre municípios. Recuperação correta imediata, no mesmo dia do erro original; não é evidência de retenção espaçada. Os itens são inéditos didáticos e não calibrados por corpus Cebraspe.",
       "nextStep": "Iniciar unidade 04 de Políticas Públicas: estratégias qualitativas e métodos mistos (casos, entrevistas, grupos, observação, triangulação, generalização). Preservar revisão espaçada da U01 sobre avaliabilidade em 05/11, a revisão do erro de causalidade da U03 em data posterior e revisões gerais da U02/U03. Não declarar retenção já comprovada."
-    },
-    {
-      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade03-bateria-final.json",
-      "status": "parcial",
-      "diagnosis": "Bateria final de aprendizagem U03: 3/4 (C/E/C/E), respostas do estudante C/E/C/C. Erro de confusão conceitual no item 4: a existência de metas operacionais cumpridas somadas à mudança observada no resultado pretendido não identifica por si só o efeito causal da política. Todos os níveis de confiança foram unknown, sem inferir segurança ou insegurança. A unidade tem nota canônica aprofundada, mas permanece aberta até a recuperação do conceito, sem confundir conhecimento documentado e retenção.",
-      "nextStep": "Fazer micro-reteste do erro de causalidade com cenário não escolar e mecanismo diferente, pedindo declaração de confiança. Depois registrar encerramento didático e editorial da U03 se a lacuna for recuperada. Manter revisão espaçada da avaliabilidade U01 prevista para 05/11 e U02 para revisão futura."
     }
   ],
   "recentMechanisms": [
+    "aplicacao-excecao-constitucional",
     "classificacao-de-fases",
-    "classificacao-do-fluxo-de-transporte",
     "comparacao-antes-depois-sem-contrafactual-valido",
     "comparador-entre-municipios-condicoes-de-validade",
     "diferenciacao-de-taxonomias",
     "diferenciar-autorizacao-e-caixa",
     "diferenciar-conformidade-e-resultado",
+    "diferenciar-criterio-institucional-e-despesa",
     "distinguir-produto-e-impacto",
     "identificacao-de-simultaneidade",
-    "indicador-finalistico-em-monitoramento",
-    "metas-mais-mudanca-observada-nao-provam-atribuicao",
+    "inversao-do-caso-caixa-sem-credito",
+    "literalidade-art-165-paragrafo-1",
     "mudanca-observada-com-explicacao-concorrente",
-    "visita-concluida-como-produto-entregue"
+    "regra-transitoria-ppa",
+    "separacao-de-atributos-normativos",
+    "transposicao-entre-atribuicoes-do-legislativo"
   ],
   "review": [
     {
@@ -283,13 +286,22 @@
       "theoryRefs": [
         "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Dotação orçamentária: autorização e limite de gasto"
       ]
+    },
+    {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b02-q3",
+      "topic": "Plano Plurianual",
+      "result": "correct",
+      "confidence": "insecure",
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#PPA: Plano Plurianual"
+      ]
     }
   ],
   "resume": {
     "subjectId": "orcamento-publico",
     "path": "data/contexto-estudo/cgu-2026/orcamento-publico.json",
-    "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b01",
-    "time": 1793800980000
+    "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b02",
+    "time": 1793803953000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

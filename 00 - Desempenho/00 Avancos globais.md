@@ -25,7 +25,7 @@ Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessõ
 | dataprev-2026 / Atualidades/IA / simulado histórico | 11 | 1 | 0 | 0 | 91.7% | insuficiente |
 | cgu-2026 / Políticas Públicas e avaliação / revisao | 3 | 0 | 0 | 0 | 100.0% | insuficiente |
 | cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 27 | 2 | 0 | 0 | 93.1% | insuficiente |
-| cgu-2026 / Orçamento Público / aprendizagem | 5 | 1 | 0 | 0 | 83.3% | insuficiente |
+| cgu-2026 / Orçamento Público / aprendizagem | 12 | 1 | 0 | 0 | 92.3% | insuficiente |
 | cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | cgu-2026 / Auditoria Governamental / para_valer | 32 | 5 | 2 | 1 | 86.5% | insuficiente |
 | cgu-2026 / Auditoria Governamental / aprendizagem | 31 | 5 | 0 | 0 | 86.1% | insuficiente |
@@ -36,7 +36,7 @@ Corte: **2026-11-04**. Fonte: itens individualizados no ledger, incluindo sessõ
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-11-02 / cgu-2026 / Políticas Públicas e avaliação / revisao | 3 | 0 | 0 | 0 | 100.0% | insuficiente |
 | 2026-11-02 / cgu-2026 / Políticas Públicas e avaliação / aprendizagem | 27 | 2 | 0 | 0 | 93.1% | insuficiente |
-| 2026-11-02 / cgu-2026 / Orçamento Público / aprendizagem | 5 | 1 | 0 | 0 | 83.3% | insuficiente |
+| 2026-11-02 / cgu-2026 / Orçamento Público / aprendizagem | 12 | 1 | 0 | 0 | 92.3% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / revisao | 15 | 1 | 0 | 0 | 93.8% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / para_valer | 20 | 2 | 2 | 0 | 90.9% | insuficiente |
 | 2026-11-02 / cgu-2026 / Auditoria Governamental / aprendizagem | 23 | 4 | 0 | 0 | 85.2% | insuficiente |

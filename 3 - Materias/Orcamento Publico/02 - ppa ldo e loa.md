@@ -48,6 +48,14 @@ Na Lei de Responsabilidade Fiscal (LRF), Lei Complementar nº 101/2000, art. 4º
 
 As **metas fiscais** expressam resultados e parâmetros que orientam a gestão fiscal. Os **riscos fiscais** identificam passivos contingentes e outros fatores capazes de afetar as contas públicas, com medidas previstas para enfrentá-los. São anexos com propósitos diferentes. A existência de um risco não equivale à certeza de que a despesa se realizará.
 
+### Abrangência federativa da LDO e situação das autarquias
+
+A referência à **“administração pública federal”** no art. 165, § 2º, descreve diretamente a LDO da União. O modelo constitucional de planejamento e orçamento também se aplica a **estados, Distrito Federal e municípios**: cada ente político tem sua **própria LDO anual**, proposta pelo Executivo e apreciada pelo Legislativo competente. A LRF, art. 1º, §§ 2º e 3º, explicita a abrangência das normas de responsabilidade fiscal aos entes federativos e à administração pública por eles compreendida.
+
+**Autarquias não editam LDO própria**. Embora disponham de autonomia administrativa e financeira dentro da lei, não têm competência legislativa para instituir outra LDO. Suas programações orçamentárias integram os orçamentos do ente federativo ao qual pertencem e devem observar as diretrizes correspondentes. Assim, uma autarquia federal segue a LDO da União; uma estadual, a do estado; uma municipal, a do município.
+
+**Fronteira de prova:** a LDO pertence ao **ente federativo**; a autarquia é **entidade abrangida pelo planejamento e orçamento desse ente**. Não confundir autonomia administrativa de pessoa jurídica da administração indireta com autonomia política de ente federativo.
+
 O papel da LDO é normativo e orientador. Ela **não substitui** a LOA na fixação anual das despesas nem o PPA na organização dos objetivos de médio prazo.
 
 ## LOA: Lei Orçamentária Anual
@@ -63,6 +71,20 @@ Conforme o art. 165, § 5º, a LOA compreende:
 | **Orçamento fiscal** | Poderes da União, fundos, órgãos e entidades da administração direta e indireta, inclusive fundações instituídas e mantidas pelo poder público |
 | **Orçamento de investimento** | Empresas em que a União, direta ou indiretamente, possua a **maioria do capital social com direito a voto** |
 | **Orçamento da seguridade social** | Entidades e órgãos vinculados à seguridade, da administração direta ou indireta, e fundos e fundações instituídos e mantidos pelo poder público |
+
+### Entendendo as três esferas orçamentárias na prática
+
+No orçamento federal, os três componentes da LOA têm **recortes diferentes**:
+
+- **Orçamento fiscal:** reúne a programação dos Poderes, órgãos, fundos e entidades públicas em geral, ressalvada a programação classificada na seguridade social. Exemplos: funcionamento de ministérios, manutenção de uma escola federal ou construção de uma estrada pela administração pública. **Pode haver despesas de investimento no orçamento fiscal.**
+- **Orçamento da seguridade social:** reúne a programação vinculada a **saúde, previdência social e assistência social** (CF, arts. 194 e 195, § 2º). Exemplos: atendimento financiado pelo SUS, benefícios previdenciários pagos pelo INSS e Benefício de Prestação Continuada (BPC). **Pode haver despesas de investimento na seguridade**, como obras de infraestrutura de saúde.
+- **Orçamento de investimento das empresas estatais:** contempla investimentos de empresas em que a União possua, direta ou indiretamente, **mais da metade do capital votante**, considerando as regras de classificação das estatais. Exemplo: aquisição de equipamentos para ampliar a produção de uma empresa estatal **não dependente**. Esse orçamento não corresponde a todas as despesas operacionais da empresa.
+
+Há uma distinção adicional importante. A **empresa estatal dependente**, definida no art. 2º, III, da LRF pelo recebimento de recursos do ente controlador para determinadas despesas, tem, **como regra**, sua programação integral nos orçamentos **fiscal ou da seguridade social**, conforme a atividade. O orçamento de investimento reúne, em regra, os investimentos de **estatais não dependentes**. A legislação orçamentária pode prever situações específicas de transição ou tratamento especial, por isso a classificação não deve ser reduzida apenas à existência de controle societário.
+
+**Mesmo tipo de gasto, esferas distintas:** construir uma escola pela administração pública pertence ao **fiscal**; construir uma unidade de saúde com programação da seguridade pertence à **seguridade**; ampliar instalações produtivas de estatal não dependente pertence ao **investimento**. As três despesas podem ser investimentos no sentido da **natureza da despesa**, mas são classificadas em esferas orçamentárias diferentes.
+
+O Manual Técnico do Orçamento (MTO) distingue as esferas **F (fiscal, código 10)**, **S (seguridade, código 20)** e **I (investimento, código 30)**. “Investimento” pode significar tanto **categoria de despesa** quanto **orçamento institucional de estatais**: a banca pode explorar essa dupla acepção.
 
 Não interpretar o “orçamento de investimento” como o conjunto de todas as despesas de investimento de toda a administração. O critério constitucional aqui é **institucional**, relativo às empresas em que a União detém o controle votante. Da mesma forma, a LOA possui **três orçamentos**, e isso não significa três leis orçamentárias anuais independentes.
 
@@ -143,7 +165,8 @@ Para a vigência do PPA, lembrar: **segundo ano de um mandato → primeiro ano d
 
 - Constituição Federal vigente, arts. 165 a 167, e ADCT, art. 35, § 2º: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
 - Texto organizado do art. 165 no Senado: https://legis.senado.leg.br/norma/579494/publicacao/16434817
-- Lei Complementar nº 101/2000, art. 4º: https://legis.senado.leg.br/norma/572856/publicacao/34621009
+- Lei Complementar nº 101/2000 (LRF), arts. 1º, §§ 2º e 3º, 2º, III, e 4º: https://legis.senado.leg.br/norma/572856/publicacao/34621009
+- Manual Técnico do Orçamento (MTO), capítulo de classificação da despesa por esfera: https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4
 - Senado, *Legislação Orçamentária*: https://www12.senado.leg.br/orcamento/legislacao-orcamentaria
 - Plano Plurianual 2024–2027, Lei nº 14.802/2024: https://legis.senado.leg.br/norma/38150943/publicacao/38151432
 - Programa de referência: [[2 - Editais/CGU 2026 - Auditoria#Checklist completo de estudos por bloco|CGU 2026, P3.2.2]]; o resumo local não substitui o edital oficial e suas retificações.

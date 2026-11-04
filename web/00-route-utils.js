@@ -69,7 +69,7 @@
     }
 
     function resolverArtigoRota(artigos, rota) {
-        if(rota.articleId) return artigos.find(a => a.articleId === rota.articleId);
+        if(rota.articleId) return artigos.find(a => a.articleId === rota.articleId) || artigos.find(a => a.articleSlug === rota.articleId || (a.articleSlugAliases||[]).includes(rota.articleId));
         const lower=s=>String(s||"").toLowerCase();
         return artigos.find(a => lower(a.categoria)===lower(rota.categoria) && lower(a.titulo)===lower(rota.titulo)) ||
             artigos.find(a => (a.articleAliases||[]).some(p => lower(p.split('/')[1])===lower(rota.categoria) && lower(p.split('/').at(-1).replace(/\.md$/, ""))===lower(rota.titulo)));

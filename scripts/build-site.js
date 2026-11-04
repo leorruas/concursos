@@ -278,7 +278,7 @@ const manifesto = arquivosPublicos.map((relPath) => {
 });
 
 validateIdentities(manifesto);
-for(const item of manifesto)if(item.sourcePath.startsWith('3 - Materias/')&&!item.sourcePath.endsWith('/Avancos.md')&&!item.articleId)throw Error('Nota canônica sem articleId: '+item.sourcePath);
+for(const item of manifesto)if(item.sourcePath.startsWith('3 - Materias/')&&!item.sourcePath.endsWith('/Avancos.md')&&(!item.articleId||!item.articleSlug))throw Error('Nota canônica sem identidade ou slug: '+item.sourcePath);
 manifesto.sort((a, b) => a.sourcePath.localeCompare(b.sourcePath, 'pt-BR', { numeric: true }));
 
 const indiceBusca = manifesto.map((item) =>

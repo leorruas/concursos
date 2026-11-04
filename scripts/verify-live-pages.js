@@ -60,7 +60,7 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
     const extrasNoSite = diferenca(publicadoPaths, esperadoPaths);
 
     if (faltandoNoSite.length === 0 && extrasNoSite.length === 0) {
-      if (JSON.stringify(publicado.map(x=>[x.sourcePath,x.articleId,x.articleAliases])) !== JSON.stringify(esperado.map(x=>[x.sourcePath,x.articleId,x.articleAliases]))) throw new Error('Identidades e aliases do manifesto ao vivo divergem do build');
+      if (JSON.stringify(publicado.map(x=>[x.sourcePath,x.articleId,x.articleAliases,x.articleSlug,x.articleSlugAliases])) !== JSON.stringify(esperado.map(x=>[x.sourcePath,x.articleId,x.articleAliases,x.articleSlug,x.articleSlugAliases]))) throw new Error('Identidades e aliases do manifesto ao vivo divergem do build');
       // O manifesto pode permanecer igual quando muda só o catálogo de disciplinas.
       const nomeCatalogo = 'data/catalogo-materias-por-concurso.json';
       const esperadoCatalogo = JSON.parse(fs.readFileSync(path.join(rootDir, '_site', nomeCatalogo), 'utf8'));

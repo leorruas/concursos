@@ -205,7 +205,7 @@ function atualizarDestinoIndiceTopo(categoria = "") {
 }
 
 function rotaDoArtigo(artigo, secao = "", origem = "") {
-    if (artigo.articleId) return construirRotaArtigoId(artigo.articleId, secao, concursoSelecionadoId, modoBibliotecaCompleta, origem);
+    if (artigo.articleId) return construirRotaArtigoId(artigo.articleSlug || artigo.articleId, secao, concursoSelecionadoId, modoBibliotecaCompleta, origem);
     return construirRotaArtigo(artigo.categoria, artigo.titulo, secao, concursoSelecionadoId, modoBibliotecaCompleta, origem);
 }
 

@@ -433,3 +433,9 @@ Não enfraquecer uma asserção apenas para deixar o CI verde. Quando um teste f
 ## Mapa operacional de scripts e diagnóstico
 
 Para tarefas nos scripts, na interface ou nas integrações entre ingestão, dados, busca e publicação, consultar [[1 - Planejamento/Mapa de scripts e contratos do sistema|Mapa de scripts e contratos do sistema]]. Ele reúne entradas, saídas, dependências, limites dos checks e lacunas verificadas. Conferir o código vigente, localizar a primeira divergência entre produtor e consumidor e aplicar os contratos existentes; o mapa não substitui `me.md` nem as regras deste `AGENTS.md`. Manter a entrada dos scripts afetados atualizada ao concluir mudanças nesse sistema.
+
+## Links legíveis dos artigos
+
+Links públicos novos usam `#/artigo/<articleSlug>`, preservando seção, concurso e origem. O ID interno continua estável. Por padrão, o slug deriva do nome do arquivo no primeiro `articleAliases`, sem número inicial, acentos ou espaços; por isso, renomear título ou arquivo não altera a URL. Preservar a ordem dos aliases e o caminho original em primeiro lugar. Nenhum mapa de slugs é mantido manualmente fora das notas.
+
+Para desambiguar uma nota nova com nome já usado, definir `articleSlug: nome-especifico` no frontmatter; colisões são rejeitadas pelo build, sem renomear automaticamente URLs existentes. Para alterar um slug explícito já publicado, preservar o anterior em `articleSlugAliases: ["slug-anterior"]` em JSON numa linha. O slug derivado original também permanece alias automaticamente. Os links anteriores por ID e por pasta continuam aceitos. O caractere `#` permanece necessário ao roteamento estático do GitHub Pages.

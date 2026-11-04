@@ -77,6 +77,8 @@ async function carregarTodosOsArtigos() {
                 tipo: tipoMatch?.[1]?.trim().toLowerCase() || "",
                 conteudo: texto,
                 articleId: item.articleId,
+            articleSlug: item.articleSlug,
+            articleSlugAliases: item.articleSlugAliases || [],
             articleAliases: item.articleAliases || [],
             sourcePath: item.sourcePath,
                 categoria: item.categoria

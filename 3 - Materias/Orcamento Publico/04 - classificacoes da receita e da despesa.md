@@ -1,0 +1,181 @@
+---
+articleId: art-d8b1c5e6037249fa
+articleAliases: ["3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md"]
+title: "Classificações da receita e da despesa orçamentária"
+type: "conceito"
+status: "ativo"
+created: 2026-11-04
+updated: 2026-11-04
+aliases:
+  - "Classificação orçamentária"
+  - "Classificação funcional e programática"
+  - "Natureza da despesa"
+  - "Fontes e destinação de recursos"
+---
+
+# Classificações da receita e da despesa orçamentária
+
+## Problema de entrada
+
+Uma universidade federal comprará computadores para um laboratório. A despesa pode ser identificada pela **unidade orçamentária**, pela **função de governo**, pelo **programa e ação**, pela **categoria econômica**, pelo **grupo de natureza da despesa**, pelo **elemento**, pela **fonte dos recursos** e pelo **valor e meta física**. Essas classificações convivem: cada uma responde a uma pergunta.
+
+A prova pode informar corretamente que se trata de uma despesa de investimento e perguntar, equivocadamente, se isso determina a função Educação ou o órgão responsável. A natureza **não** responde à pergunta institucional. O objetivo deste artigo é impedir a transposição de uma categoria para outra.
+
+## Núcleo do conceito
+
+As classificações orçamentárias padronizam os registros e a apresentação da **receita e da despesa** para planejamento, autorização, execução e controle. Um mesmo ingresso pode ser descrito por **natureza**, **fonte/destinação** e **indicador de resultado primário**. Uma despesa também recebe classificações independentes por esfera, instituição, função, programa e natureza.
+
+O **Manual Técnico de Orçamento (MTO)** é a referência da estrutura federal e o **Manual de Contabilidade Aplicada ao Setor Público (MCASP)** organiza procedimentos contábeis orçamentários do setor público. As tabelas de códigos dependem da versão do exercício. A ênfase desta nota é compreender os **critérios de classificação**, antes de memorizar códigos.
+
+## Receita: categoria econômica e natureza
+
+A natureza descreve a **origem econômica e legal do ingresso**, em níveis progressivos: categoria, origem, espécie e detalhamentos. A Lei nº 4.320/1964, art. 11, distingue:
+
+| Categoria econômica | Exemplos usuais | Fronteira |
+| :--- | :--- | :--- |
+| **Receitas correntes** | Impostos, taxas, contribuições, serviços, receita patrimonial, transferências correntes | Não se confunde com “receita primária” |
+| **Receitas de capital** | Operações de crédito, alienação de bens, amortização de empréstimos concedidos, transferências de capital | Nem toda receita de capital é sinônimo de receita financeira |
+
+As **origens** agrupam ingressos dentro de cada categoria. Receita tributária e de contribuições pode envolver subdivisões específicas nos manuais, que não devem ser confundidas com a classificação doutrinária de **receitas originárias e derivadas**.
+
+### Originária × derivada
+
+Na doutrina, receitas **originárias** decorrem de exploração do patrimônio ou atividade econômica do Estado; receitas **derivadas** se relacionam ao poder de império, como tributos. A distinção é útil conceitualmente, mas **não substitui o classificador oficial de natureza**.
+
+Exemplo: aluguel de imóvel público é, em regra, **receita corrente patrimonial**, enquanto na classificação doutrinária pode ser **originária**. As duas descrições não disputam a mesma categoria.
+
+### Receita orçamentária × ingresso extraorçamentário
+
+O **ingresso orçamentário** incorpora a execução da receita e é classificado nas rubricas aplicáveis. Uma **entrada extraorçamentária** tende a ser temporária, com obrigação de devolução ou repasse, sem produzir receita orçamentária no mesmo sentido.
+
+**Operações de crédito** contratadas para financiamento público são, em regra, receitas **orçamentárias de capital**. Já a operação de crédito por **antecipação de receita orçamentária (ARO)** é tratada como ingresso **extraorçamentário**, por sua função específica de gestão de caixa. O fato de as duas operações serem empréstimos não as coloca no mesmo tratamento orçamentário.
+
+Os estágios **previsão, lançamento, arrecadação e recolhimento** pertencem a outra dimensão: cronologia de realização da receita. Uma receita não é “corrente” ou “de capital” porque se encontra num desses estágios.
+
+## Fonte/destinação de recursos × natureza da receita
+
+A **natureza** responde: *qual fato econômico originou o ingresso?* A **fonte/destinação** responde: *quais são as regras de aplicação desses recursos e em que despesas poderão ser utilizados?*
+
+A fonte/destinação reúne receitas com **normas de aplicação semelhantes** e é empregada tanto na receita quanto na despesa, permitindo verificar o financiamento de ações e suas vinculações. Uma mesma ação pode ser financiada por fontes distintas, quando legalmente permitido.
+
+Exemplo: duas entradas patrimoniais com natureza semelhante podem ter destinações diferentes, a depender das regras aplicáveis. A origem econômica não determina automaticamente o vínculo. Da mesma forma, “fonte de recurso” não equivale a “origem da receita” na estrutura por natureza.
+
+**Atenção:** a vedação constitucional de vincular receitas de **impostos** tem exceções específicas; a existência do classificador de fonte não autoriza inventar uma vinculação. Ver [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|não afetação e suas exceções]].
+
+## Primária × financeira: efeito no resultado primário
+
+O **identificador de resultado primário** distingue receitas que entram no cálculo do resultado primário das que ficam fora dele, conforme a regra fiscal aplicável. É uma classificação **independente** da categoria econômica corrente/capital.
+
+Não é correto resolver automaticamente por equivalência:
+- toda receita corrente seria primária;
+- toda receita de capital seria financeira;
+- toda receita financeira seria ingresso extraorçamentário.
+
+Essas proposições confundem **três dimensões diferentes**. Juros, financiamento e operações de capital precisam ser identificados pelas regras específicas do indicador. Consulte [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]] para o cálculo e a interpretação dos resultados fiscais.
+
+## Despesa: perguntas qualitativas e quantitativas
+
+| Dimensão | Pergunta | Componentes |
+| :--- | :--- | :--- |
+| **Esfera** | Em qual orçamento da LOA federal? | Fiscal, seguridade ou investimento das estatais |
+| **Institucional** | Quem é responsável pela programação? | Órgão orçamentário e unidade orçamentária |
+| **Funcional** | Em qual área de atuação governamental? | Função e subfunção |
+| **Programática** | Qual objetivo e ação serão realizados? | Programa, ação e subtítulo |
+| **Natureza** | Que tipo econômico de gasto e objeto? | Categoria econômica, grupo, modalidade de aplicação, elemento |
+| **Fonte/destinação** | Qual recurso financiará a despesa e sob que regras? | Fonte de recursos |
+| **Física e financeira** | Quantos bens ou serviços e qual dotação? | Meta física e valor |
+
+Esses elementos não competem pela mesma posição. O registro da despesa possui várias dimensões ao mesmo tempo.
+
+### Esfera × natureza da despesa
+
+A **esfera** identifica orçamento **fiscal**, **seguridade social** ou **investimento das estatais**, segundo o art. 165, § 5º, da Constituição. A **categoria econômica**, por sua vez, separa gastos **correntes** e de **capital**.
+
+Uma obra pública em hospital administrado diretamente pela União pode ser despesa **de capital** no **orçamento da seguridade social**. Capital não equivale à esfera de investimento das empresas estatais.
+
+### Classificação institucional: órgão × unidade orçamentária
+
+Na União, a classificação institucional é formada por **órgão orçamentário** e **unidade orçamentária (UO)**. O órgão pode agrupar várias unidades; a unidade recebe dotações e responde pelo programa de trabalho no formato orçamentário. A UO não precisa coincidir exatamente com uma repartição administrativa física: fundos e encargos podem ter representação própria.
+
+A pergunta institucional é **“quem?”**, e não “para quê?” ou “em qual área de política pública?”.
+
+### Classificação funcional: função × subfunção
+
+A **função** é o nível mais amplo de agregação da despesa por área de governo: Educação, Saúde, Legislativa, Cultura e outras. A **subfunção** indica uma agregação inferior, mais relacionada à natureza da atuação.
+
+A classificação permite **matricialidade**: subfunção combinada com função distinta daquela a que está mais tipicamente associada. Exemplo de estrutura descrita no MTO: uma ação de apoio pré-escolar a dependentes de servidores de órgão legislativo pode combinar função **Legislativa** e subfunção **Educação Infantil**. A subfunção não fica necessariamente vinculada à função de mesmo campo temático.
+
+Esse princípio de combinação possui regras especiais para certas despesas, como as classificadas em Encargos Especiais. Portanto, não presumir liberdade irrestrita de combinação.
+
+### Classificação programática: programa × ação × subtítulo
+
+O **programa** organiza esforços relacionados a objetivos de política pública. A **ação orçamentária** identifica o que será feito. O **subtítulo** contribui para localizar a execução ou os beneficiários.
+
+Há três tipos clássicos de ação:
+
+| Tipo | Característica | Exemplo didático |
+| :--- | :--- | :--- |
+| **Projeto** | Operação delimitada no tempo, geralmente voltada à expansão ou aperfeiçoamento da atuação | Construção de escola |
+| **Atividade** | Ação contínua de manutenção das atividades governamentais | Funcionamento de unidades escolares |
+| **Operação especial** | Despesa da qual não resulta diretamente bem ou serviço típico da ação produtiva estatal | Serviço da dívida, conforme programação |
+
+**Projeto não determina automaticamente GND Investimentos.** Tipo de ação e natureza do gasto são dimensões separadas. Também não se deve transformar “subfunção” em “programa”: uma indica área de atuação, o outro organiza a política e sua estratégia de entrega.
+
+### Natureza da despesa: categoria, GND, modalidade e elemento
+
+A natureza da despesa responde **qual é o tipo e o objeto do gasto**. A classificação inclui:
+
+| Nível | O que identifica | Exemplo |
+| :--- | :--- | :--- |
+| **Categoria econômica** | Despesa corrente ou de capital | Capital |
+| **Grupo de Natureza de Despesa (GND)** | Grupo econômico: pessoal e encargos, juros e encargos da dívida, outras correntes, investimentos, inversões financeiras ou amortização da dívida | Investimentos |
+| **Modalidade de aplicação** | Se os recursos serão aplicados diretamente ou transferidos e por qual modalidade | Aplicações diretas |
+| **Elemento** | Objeto que se pretende adquirir ou contratar | Equipamentos e material permanente |
+
+**GND não é elemento.** O GND **investimentos** agrupa gastos de capital; “equipamentos e material permanente” especifica um **elemento**. Modalidade de **aplicação** não é modalidade de **licitação**.
+
+A **despesa com serviço corrente de limpeza** pode ter classificação por função Educação e, ao mesmo tempo, GND **Outras Despesas Correntes**, com elemento de serviço aplicável. Sua função não modifica a natureza econômica.
+
+### Dimensões física e financeira da programação
+
+**Meta física** indica quantidade de entregas programadas. **Dotação financeira** identifica valor autorizado segundo a programação. Se foram previstos 500 atendimentos e entregues 350, o resultado deve ser examinado com dados físicos e financeiros, além do contexto de implementação.
+
+A dotação não comprova empenho, pagamento nem resultado da política. O tema se relaciona a [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|monitoramento e avaliação]], mas a execução da despesa não substitui avaliação de impacto.
+
+## Como a banca pode cobrar
+
+Os mecanismos de confusão mais úteis são **natureza × fonte**, **função × programa**, **subfunção × programa**, **GND × elemento**, **modalidade de aplicação × licitação** e **categoria econômica × esfera**. Uma proposição pode trazer um conceito correto e atribuir a ele função da classificação vizinha.
+
+A presença dessas distinções no artigo é preparação pedagógica; a frequência e a forma de cobrança Cebraspe precisam ser verificadas em provas reais.
+
+## Exemplos comentados
+
+Um relatório informa: “Órgão Ministério da Educação, função Educação, ação Implantação de Laboratórios, GND Investimentos, elemento Equipamentos, fonte X”. Não há redundância: as classificações identificam **quem**, **área**, **programação**, **grupo e objeto do gasto** e **fonte de financiamento**.
+
+Uma receita de aluguel público é **corrente patrimonial** e pode ser chamada de **originária** na classificação doutrinária. O vínculo de aplicação exige examinar a fonte/destinação aplicável; ele não decorre apenas da origem econômica.
+
+## Questões comentadas: treino didático C/E
+
+**Item 1.** A subfunção orçamentária deve ser necessariamente vinculada à função à qual se associa originalmente, pois a classificação funcional não admite combinações matriciais. **Gabarito: Errado.** A classificação permite matricialidade, sujeita às regras próprias.
+
+**Item 2.** A fonte/destinação registra a relação entre recursos arrecadados e regras de sua aplicação, enquanto a natureza identifica características do ingresso. **Gabarito: Certo.** As categorias respondem a perguntas diferentes, e a fonte acompanha também a despesa.
+
+**Item 3.** Uma despesa do GND Investimentos já tem, pela natureza, sua função e sua unidade orçamentária automaticamente definidas. **Gabarito: Errado.** Função e unidade derivam de classificações **funcional** e **institucional**, respectivamente.
+
+Itens inéditos didáticos; não equivalem a prova real e não geram desempenho.
+
+## Heurísticas
+
+**Quem gasta?** Institucional. **Em que área?** Funcional. **Que política/ação?** Programática. **Que tipo de gasto e objeto?** Natureza. **De onde vêm recursos para gastar?** Fonte. **Quanto entregar e quanto custa?** Meta física e dotação.
+
+Na receita, **origem** é natureza; **aplicação permitida** é fonte; **efeito no resultado primário** é outro indicador. O nome do classificador é parte da resposta.
+
+## Relações e fontes
+
+- [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios orçamentários]]: discriminação e orçamento bruto.
+- [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]]: dotação, natureza e fontes para suplementação.
+- [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]: diferença entre classificação orçamentária e registro patrimonial.
+
+Fontes: [MTO, edição 2026, Secretaria de Orçamento Federal](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026), [MTO, estrutura funcional/programática e matricialidade](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4), [MCASP, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1), [Lei nº 4.320/1964, arts. 11 e 12](https://legis.senado.leg.br/norma/546169/publicacao/34620275).
+
+**Limite editorial:** a estrutura conceitual é reutilizável, mas códigos de natureza, fonte e elemento exigem a versão vigente do exercício. Estágios de receita e despesa terão artigos próprios. Publicar não significa estudar.

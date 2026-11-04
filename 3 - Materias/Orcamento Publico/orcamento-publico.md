@@ -16,8 +16,11 @@ Matéria de planejamento e execução orçamentária, receita, despesa e respons
 
 - [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|01. Orçamento público e ciclo orçamentário]]: autorização × execução × caixa × entrega; quatro momentos do ciclo; controle e avaliação.
 - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02. PPA, LDO e LOA]]: papéis, vigência, iniciativa, três orçamentos, prazos, exclusividade e exceções.
+- [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|03. Princípios orçamentários]]: unidade, universalidade, anualidade, exclusividade, não afetação e regra de ouro.
+- [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|04. Classificações de receita e despesa]]: natureza, fonte, esfera, função, subfunção, programa e GND.
+- [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|05. Créditos adicionais e emendas]]: suplementar × especial × extraordinário; fontes, vigência e emendas impositivas.
 
-Os dois textos estão **preparados editorialmente, sem estudo registrado**. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
+Os cinco primeiros textos estão **preparados editorialmente, sem estudo registrado**. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
 
 ## Unidade P3.2.2: orçamento e planejamento
 
@@ -25,9 +28,9 @@ Os dois textos estão **preparados editorialmente, sem estudo registrado**. A or
 | :--- | :--- | :--- |
 | 01 | [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|Ciclo orçamentário]]: fases × estágios da despesa; dotação × entrega | Artigo de entrada publicado |
 | 02 | [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO, LOA]]: médio prazo × orientação anual × lei anual; exceções constitucionais | Primeira versão publicada |
-| 03 | Princípios orçamentários: unidade, universalidade, anualidade, exclusividade, orçamento bruto e especificação | Nota especializada pendente |
-| 04 | Classificações de receita e despesa: natureza, institucional, funcional, programática e fontes | Nota especializada pendente |
-| 05 | Créditos adicionais e emendas: suplementar × especial × extraordinário; fontes, autorização e limites | Nota especializada pendente |
+| 03 | [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios orçamentários]]: unidade, universalidade, anualidade, exclusividade, orçamento bruto e não afetação | Artigo publicado; sem estudo registrado |
+| 04 | [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Classificações da receita e da despesa]]: natureza, institucional, funcional, programática e fontes | Artigo publicado; sem estudo registrado |
+| 05 | [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]]: espécies, fontes, reabertura e limites de execução | Artigo publicado; sem estudo registrado |
 | 06 | Programação e contingenciamento: dotação × limite de empenho × liberação financeira | Nota especializada pendente |
 
 ## Unidade P3.2.3: execução e responsabilidade fiscal

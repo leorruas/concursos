@@ -1835,6 +1835,8 @@
             "P3.2.4"
           ],
           "noteRefs": [
+            "3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais",
+            "3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes",
             "3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro",
             "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
@@ -1852,7 +1854,7 @@
               "unitId": "up3-2-3"
             }
           ],
-          "noteRole": "bo-bf-preparados-bp-dvp-e-conciliacoes-pendentes"
+          "noteRole": "bp-dvp-dfc-notas-preparadas-precisa-validar-abrangencia-edital"
         },
         {
           "id": "up3-2-5",

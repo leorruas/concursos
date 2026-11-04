@@ -21,7 +21,7 @@ Demonstração das Variações Patrimoniais (DVP); Manual de Contabilidade Aplic
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
 | Pré-requisito | Patrimônio e óticas orçamentária, financeira e patrimonial | [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|Artigo 01]] publicado: fundamentos e regimes |
-| 02 | Informação contábil: execução orçamentária × financeira × patrimônio; balanços e DVP; conciliações. | [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|BO e BF]] publicados; BP, DVP e conciliações pendentes |
+| 02 | Informação contábil: execução orçamentária × financeira × patrimônio; balanços e DVP; conciliações. | [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|BO/BF]], [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|BP/DVP]] e [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|DFC/notas]] publicados; validar cobertura integral com edital |
 | 03 | Custos e execução: análise físico-financeira, eficiência e indicadores; **MCASP 11ª edição** e **Manual de Informações do Sistema de Custos (MIC)**. | Base adjacente; nota específica pendente |
 | 04 | Informação societária de estatais: balanço/DRE, notas, depreciação, impairment, provisões, contingências e partes relacionadas. | Base adjacente; nota específica pendente |
 | 05 | Governança de estatais: conselhos, controle, finalidade pública, sustentabilidade, carta anual e políticas públicas. | Base adjacente; nota específica pendente |
@@ -33,7 +33,10 @@ O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da 
 1. [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|Patrimônio público e regimes de reconhecimento]]: competência patrimonial × art. 35 da Lei nº 4.320/1964; ativo/passivo/PL, VPA/VPD, PCASP e compra de equipamento.
 2. [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|Balanço Orçamentário e Balanço Financeiro]]: BO × BF; coluna de empenho × pagamento, inscrição compensatória de RP, caixa × resultado orçamentário × superávit financeiro.
 
-**Cobertura:** primeira versão substantiva publicada; não é registro de aula nem cobertura integral das cinco unidades.
+3. [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|Balanço Patrimonial e DVP]]: quatro quadros do BP, circulante × financeiro, resultado patrimonial e superávit financeiro.
+4. [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|DFC, notas e conciliações]]: método direto, três fluxos, caixa × competência e notas explicativas.
+
+**Cobertura:** quatro artigos nos lotes C1 e C2, como preparação documental, sem registrar aula ou concluir as cinco unidades.
 
 ## Plano editorial de aprofundamento
 

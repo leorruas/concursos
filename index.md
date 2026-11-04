@@ -131,6 +131,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 12. [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]
    - [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|01 • Patrimônio público e regimes de reconhecimento]]
    - [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|02 • Balanço Orçamentário e Balanço Financeiro]]
+   - [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|03 • Balanço Patrimonial e DVP]]
+   - [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|04 • DFC, notas e conciliações]]
 13. [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Avaliação de políticas públicas]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|01 • Teoria da mudança: fundamentos da avaliação]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas|02 • Implementação de políticas públicas]]

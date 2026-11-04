@@ -74,6 +74,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Auditoria Governamental/comunicacao-e-relatorios-de-auditoria|Comunicação e relatórios de auditoria]]
    - [[3 - Materias/Auditoria Governamental/monitoramento-de-recomendacoes-e-beneficios|Monitoramento de recomendações e benefícios]]
    - [[3 - Materias/Auditoria Governamental/supervisao-e-qualidade-da-auditoria|Supervisão e qualidade da auditoria]]
+   - [[3 - Materias/Auditoria Governamental/dados-analise-e-ia-na-auditoria|Dados, análise e IA na auditoria]]
+   - [[3 - Materias/Auditoria Governamental/integracao-das-funcoes-da-cgu|Integração das funções da CGU]]
    - [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|03 • Independência, objetividade e supervisão]]
    - [[3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria|Sigilo profissional e transparência]]
    - [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|04 • Proficiência, zelo e ceticismo]]

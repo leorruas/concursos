@@ -30,10 +30,10 @@ O [[3 - Materias/Auditoria Governamental/auditoria-governamental|hub da matéria
 | **10. Comunicação e relatórios** | [[3 - Materias/Auditoria Governamental/comunicacao-e-relatorios-de-auditoria\|Artigo criado]]: comunicação durante o trabalho, relatórios, manifestações e recomendações | Aula e avaliação não realizadas |
 | **11. Monitoramento e benefícios** | [[3 - Materias/Auditoria Governamental/monitoramento-de-recomendacoes-e-beneficios\|Artigo preparado]]: monitoramento, risco aceito e benefícios da IN SFC nº 10/2020 | Aula e avaliação ainda não realizadas |
 | **12. Supervisão e qualidade** | [[3 - Materias/Auditoria Governamental/supervisao-e-qualidade-da-auditoria\|Artigo preparado]]: supervisão, PGMQ, avaliação interna/externa e orientação de 2024 | Aula e avaliação ainda não realizadas |
-| **13. Dados e IA** | Base de evidências/analíticos parcial | Criar nota sobre bases, integridade, cruzamentos, testes automatizados e limites da IA |
-| **14. Integração CGU** | Finalidades e serviços introdutórios | Criar nota sobre competência de auditoria, ouvidoria, transparência, correição e responsabilização |
+| **13. Dados e IA** | [[3 - Materias/Auditoria Governamental/dados-analise-e-ia-na-auditoria\|Artigo preparado]]: TAAC, bases, Alice, IA, falsos resultados e validação humana | Aula e avaliação ainda não realizadas |
+| **14. Integração CGU** | [[3 - Materias/Auditoria Governamental/integracao-das-funcoes-da-cgu\|Artigo preparado]]: SFC, OGU, CRG, SIP, SIPRI, SNAI, sistemas e encaminhamentos | Aula e avaliação ainda não realizadas |
 
-**Lotes das unidades 09 a 12 preparados em 04/11/2026.** Próximo lote editorial: **13 e 14**, com dados/IA e integração de funções da CGU. As unidades 07 a 12 possuem notas para iniciar o estudo; a progressão permanece no contexto e nas sessões. A unidade 01 requer revisão focal de cobertura, aproveitando notas existentes.
+**Lotes das unidades 07 a 14 preparados em 04/11/2026.** Resta revisão focal da unidade 01: CGU/SFC, Audin, Sistema de Controle Interno e controle externo, sem duplicar notas existentes. A cobertura editorial não significa unidade estudada; a progressão permanece nas sessões e nos contextos gerados.
 
 ## Recuperar o estudo no ChatGPT
 

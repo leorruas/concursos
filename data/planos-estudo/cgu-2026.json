@@ -611,7 +611,10 @@
           "editalItems": [
             "P3.1.5"
           ],
-          "noteRefs": [],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/dados-analise-e-ia-na-auditoria",
+            "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria"
+          ],
           "requires": [
             "u12"
           ],
@@ -619,7 +622,7 @@
             "referencial",
             "mot"
           ],
-          "coverage": "parcial"
+          "coverage": "aprofundada"
         },
         {
           "id": "u14",
@@ -631,7 +634,10 @@
           "editalItems": [
             "P2.5.5"
           ],
-          "noteRefs": [],
+          "noteRefs": [
+            "3 - Materias/Auditoria Governamental/integracao-das-funcoes-da-cgu",
+            "3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas"
+          ],
           "requires": [
             "u13"
           ],
@@ -639,7 +645,7 @@
             "referencial",
             "mot"
           ],
-          "coverage": "parcial"
+          "coverage": "aprofundada"
         }
       ],
       "legacySourceUnits": {

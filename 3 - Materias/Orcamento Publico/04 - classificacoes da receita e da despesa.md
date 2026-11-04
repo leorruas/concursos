@@ -38,6 +38,29 @@ A natureza descreve a **origem econômica e legal do ingresso**, em níveis prog
 
 As **origens** agrupam ingressos dentro de cada categoria. Receita tributária e de contribuições pode envolver subdivisões específicas nos manuais, que não devem ser confundidas com a classificação doutrinária de **receitas originárias e derivadas**.
 
+### Vocabulário das origens da receita: o que efetivamente entra no caixa?
+
+A palavra **receita** descreve um ingresso **para quem recebe**. Um mesmo pagamento pode ser **despesa de um ente** e **receita de outro**. O nome da origem identifica **de onde veio o dinheiro e a operação que o gerou**, não necessariamente onde será aplicado. A exceção importante são as **transferências**, cuja classificação entre corrente e de capital depende da finalidade das despesas que os recursos se destinam a financiar (Lei nº 4.320/1964, art. 11).
+
+| Origem | O que significa | Exemplo e distinção |
+| :--- | :--- | :--- |
+| **Contribuições** (corrente) | Valores cobrados com fundamento legal específico, como contribuições sociais e de intervenção no domínio econômico | Contribuição previdenciária. Não confundir com **contribuição de melhoria**, tributo classificado com impostos e taxas |
+| **Receita patrimonial** (corrente) | Ganho pela exploração ou remuneração de patrimônio público | Aluguel de prédio público ou dividendos de participação societária. **Alugar** o imóvel é diferente de **vendê-lo** |
+| **Receita de serviços** (corrente) | Valores cobrados pela prestação de serviços remunerados pelo ente público | Tarifa/preço público por serviço prestado. **Preço público** não é automaticamente **taxa tributária** |
+| **Transferência corrente** | Recurso recebido de outra pessoa pública ou privada, **sem contraprestação direta ao transferidor**, destinado a financiar **despesas correntes**, como manutenção e funcionamento | Recurso recebido por município para custear serviços e comprar materiais de consumo em unidades de saúde |
+| **Operação de crédito** (capital) | Entrada obtida porque o poder público **contrai uma dívida**, por empréstimo ou emissão de títulos | Estado toma empréstimo para financiar obra: entra dinheiro, mas nasce obrigação de pagar a dívida. A **antecipação de receita orçamentária (ARO)** segue tratamento **extraorçamentário** próprio |
+| **Alienação de bens** (capital) | Venda ou outra transferência onerosa de bens ou direitos do patrimônio público, convertendo-os em dinheiro | Prefeitura vende imóvel ou veículo de sua propriedade. A receita **não é aluguel**; o art. 44 da LRF restringe seu uso em despesas correntes |
+| **Amortização de empréstimos** (capital) | **Devolução do principal** de empréstimo que o **próprio ente público havia concedido** a alguém | Município havia emprestado R$ 100 mil e recebe R$ 20 mil de principal: isso é receita de capital. **Juros recebidos** são receita corrente na classificação pertinente |
+| **Transferência de capital** | Recurso recebido de outra pessoa pública ou privada, **sem contraprestação direta ao transferidor**, destinado a financiar **despesas de capital**, como investimentos ou inversões financeiras | Município recebe recursos vinculados à construção de um hospital, e não ao custeio regular do hospital |
+
+Há ainda **receitas agropecuárias** (exploração econômica de atividades vegetais e animais pelo ente), **industriais** (produção ou comercialização industrial pelo ente) e **outras receitas correntes ou de capital** (ingressos que não se enquadram nas demais origens, segundo o classificador vigente).
+
+**Comparação no mesmo hospital:** receber transferência para comprar medicamentos e manter o atendimento é **transferência corrente**; receber transferência destinada à **construção** do hospital é **transferência de capital**. Em ambos os casos, a categoria é analisada sob a perspectiva do **ente recebedor**. O instrumento e a destinação legal devem ser conferidos: não classificar toda transferência entre governos automaticamente como de capital.
+
+**Outro contraste:** se o Estado **toma** empréstimo, registra **operação de crédito**. Se o Estado **emprestou** e recebe de volta o principal, registra **amortização de empréstimos concedidos**. Se vende um imóvel, registra **alienação**; se apenas recebe aluguel do imóvel, registra **receita patrimonial**. São fatos econômicos diferentes, ainda que todos façam entrar dinheiro.
+
+Para distinguir **origem da receita** de **fonte/destinação**, consulte [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Fonte/destinação de recursos × natureza da receita|as regras de vinculação]]. Para distinguir a **operação de crédito comum** da **ARO**, veja [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios#Operações de crédito × antecipação de receita (ARO)|o tratamento extraorçamentário]].
+
 ### Originária × derivada
 
 Na doutrina, receitas **originárias** decorrem de exploração do patrimônio ou atividade econômica do Estado; receitas **derivadas** se relacionam ao poder de império, como tributos. A distinção é útil conceitualmente, mas **não substitui o classificador oficial de natureza**.
@@ -178,6 +201,6 @@ Na receita, **origem** é natureza; **aplicação permitida** é fonte; **efeito
 - [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]]: dotação, natureza e fontes para suplementação.
 - [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]: diferença entre classificação orçamentária e registro patrimonial.
 
-Fontes: [LRF, art. 2º, II e III](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm), [Manual Técnico do Orçamento de Investimento 2026, item 5.1](https://www.gov.br/gestao/pt-br/assuntos/estatais/orcamento/MTOI_2026.pdf), [MTO, edição 2026, Secretaria de Orçamento Federal](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026), [MTO, estrutura funcional/programática e matricialidade](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4), [MCASP, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1), [Lei nº 4.320/1964, arts. 11 e 12](https://legis.senado.leg.br/norma/546169/publicacao/34620275).
+Fontes: [LRF, art. 2º, II e III](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm), [Manual Técnico do Orçamento de Investimento 2026, item 5.1](https://www.gov.br/gestao/pt-br/assuntos/estatais/orcamento/MTOI_2026.pdf), [MTO, edição 2026, Secretaria de Orçamento Federal](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026), [MTO, estrutura funcional/programática e matricialidade](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4), [MCASP, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1), [Lei nº 4.320/1964, arts. 11 e 12](https://legis.senado.leg.br/norma/546169/publicacao/34620275), [Lei de Responsabilidade Fiscal, art. 44](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm).
 
 **Limite editorial:** a estrutura conceitual é reutilizável, mas códigos de natureza, fonte e elemento exigem a versão vigente do exercício. Estágios de receita e despesa terão artigos próprios. Publicar não significa estudar.

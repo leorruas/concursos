@@ -18,6 +18,8 @@ aliases:
 
 Uma prefeitura recebe R$ 800 mil de impostos, R$ 100 mil de caução contratual e R$ 300 mil provenientes de empréstimo para obra pública. Houve entrada financeira em todos os casos, mas **nem toda entrada é receita orçamentária**. A arrecadação de impostos é receita corrente, a caução é normalmente ingresso extraorçamentário e o empréstimo regular é receita orçamentária de capital.
 
+Para recuperar o significado de **transferências correntes e de capital, operações de crédito, alienação de bens, amortização de empréstimos e receita patrimonial**, consulte o [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Vocabulário das origens da receita: o que efetivamente entra no caixa?|vocabulário comentado das origens da receita]]. Esta nota concentra os **estágios** e o tratamento da execução, sem repetir a classificação inteira.
+
 **Receita orçamentária** é o ingresso financeiro que integra a execução da receita pública nas classificações aplicáveis. **Ingresso extraorçamentário** é entrada temporária ou compensatória, frequentemente associada a obrigação de devolução ou repasse. A diferença precisa ser identificada antes de falar nos estágios da receita.
 
 O **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição**, apresenta as etapas didáticas **previsão, lançamento, arrecadação e recolhimento**. O reconhecimento de uma receita orçamentária **não depende de ela ter passado por todas as quatro etapas**.

@@ -43,13 +43,15 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 **Reuso obrigatório antes de criar:** Orçamento Público (11 notas), política fiscal e MCASP 11ª ed.; conferir PCASP e normas das estatais.
 
-- [ ] **F01 · Patrimônio público e três óticas da informação**: U01: objeto, orçamento × financeiro × patrimonial, fatos e fluxos.
-- [ ] **F02 · Ativos, passivos e variações patrimoniais**: U01: PCASP, reconhecimento, VPA × VPD e seus limites; confirmar abrangência nas fontes.
-- [ ] **F03 · Balanço Orçamentário e Balanço Financeiro**: U02: estrutura, leituras, saldos, execução × caixa.
+- [x] **F01 · Patrimônio público e três óticas da informação**: U01: objeto, orçamento × financeiro × patrimonial, fatos e fluxos.
+- [x] **F02 · Ativos, passivos e variações patrimoniais**: U01: PCASP, reconhecimento, VPA × VPD e seus limites; confirmar abrangência nas fontes.
+- [x] **F03 · Balanço Orçamentário e Balanço Financeiro**: U02: estrutura, leituras, saldos, execução × caixa.
 - [ ] **F04 · Balanço Patrimonial, DVP e notas explicativas**: U02: componentes, conciliação, variações e análise crítica.
 - [ ] **F05 · Custos e desempenho físico-financeiro**: U03: MIC, MCASP, custos × despesas × pagamentos, eficiência e indicadores.
 - [ ] **F06 · Contabilidade societária das estatais**: U04: BP/DRE, depreciação, impairment, provisões, contingências, partes relacionadas.
 - [ ] **F07 · Governança e prestação de contas das estatais**: U05: conselhos, finalidade pública, carta anual, transparência, sustentabilidade.
+
+**Lote C1 publicado (04/11/2026):** F01 e F02 cobertos pelo artigo [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|01]]; F03 pelo [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|02]]. C1 segue o plano específico de Contabilidade, que articula esses conteúdos em dois artigos canônicos. **Cobertura documental parcial; nenhum estudo ou retenção registrado.** Próxima fase: BP/DVP e, depois, DFC/notas.
 
 ## Onda 2: Contratações e Transferências
 
@@ -171,4 +173,4 @@ A publicação deve também registrar vínculo de cobertura para as unidades que
 
 Para executar qualquer fase: ler `AGENTS.md` → este roteiro → hub correspondente → notas de reuso → fonte do edital/legislação → consultar `data/contexto-estudo/<concurso>/<materia>.json` se a mudança se relacionar a conteúdo já estudado. Publicar o pequeno lote, conferir CI e marcar como concluídas **somente** as microfases efetivamente publicadas; registrar desvios e lacunas com precisão. Na aula, usar `CHAT.md` e o contexto/sessão mais recente como fonte do próximo passo, não as caixas deste plano.
 
-**Controle:** 11 ondas e 49 microfases de artigos/refinamentos planejadas; 0 executadas por este documento. As etapas G00–G04 descrevem a governança, sem contabilizar artigos.
+**Controle:** 11 ondas e 49 microfases de artigos/refinamentos; **F01–F03 publicadas (2 artigos canônicos)**, 46 microfases pendentes. Marcação editorial não indica aula, acertos ou retenção. As etapas G00–G04 descrevem a governança, sem contabilizar artigos.

@@ -781,6 +781,81 @@
       "confidenceTracking": {
         "coverage": "partial"
       }
+    },
+    {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T07:58:58-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "learning": {
+        "stage": "aprendizagem",
+        "taughtConcepts": [
+          "Implementação como tradução prática de políticas e possibilidade de adaptações",
+          "Perspectivas top-down e bottom-up na implementação",
+          "Lipsky: burocracia de nível de rua, discricionariedade e limites administrativos",
+          "Burocracia de médio escalão como articulação entre formulação e execução",
+          "Coordenação federativa, horizontal e intersetorial",
+          "Capacidades estatais técnico-administrativa e político-relacional",
+          "Riscos de execução: diferenças locais, recursos, processos e atendimento"
+        ],
+        "boundaries": [
+          "Top-down centrado em objetivos/regras versus bottom-up centrado nos agentes e condições locais",
+          "Discricionariedade legítima versus arbitrariedade e ausência de controles",
+          "Burocracia de nível de rua versus burocracia de médio escalão",
+          "Coordenação federativa/vertical versus horizontal; intersetorialidade pode coexistir",
+          "Capacidade técnico-administrativa versus capacidade político-relacional",
+          "Diferenças na implementação não são automaticamente falhas: verificar regras, causas e consequências"
+        ],
+        "pending": [
+          "Validar com casos aplicados de maior exigência e treino Cebraspe C/E calibrado por provas reais",
+          "Confiança não declarada, sem evidência de retenção espaçada da unidade 02",
+          "Criar ou ampliar nota canônica sobre implementação em operação editorial posterior",
+          "Preservar revisão espaçada da unidade 01: avaliabilidade versus modelo lógico formal, vencimento proposto em 2026-11-05"
+        ],
+        "unitCompleted": false,
+        "next": {
+          "unitId": "up3-3-2",
+          "stage": "fronteiras",
+          "objective": "Aplicar casos integrados de implementação, capacidade estatal e escolhas de agentes para testar limites entre categorias; depois rever avaliabilidade U01 na data de 05/11.",
+          "noteRef": "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
+          "sourceIds": [
+            "edital"
+          ]
+        }
+      },
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "parcial",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "totalQuestions": 4,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "Unidade 02 (implementação): 4/4 julgamentos corretos C/E/C/E em treino didático; compreensão inicial observada das fronteiras bottom-up/top-down, discricionariedade versus arbitrariedade, coordenação federativa/horizontal/intersetorial e capacidades estatais técnico-administrativa/político-relacional. Nenhum erro válido nesta bateria. Confiança não informada; bateria curta e didática, sem evidência de retenção ou desempenho competitivo calibrado. A lacuna da U01 sobre avaliabilidade permanece pendente de revisão espaçada, sem ser resolvida por estes acertos.",
+      "nextStep": "Aplicar caso integrado de implementação com fronteiras próximas, riscos e capacidade estatal; buscar corpus Cebraspe C/E efetivamente examinado antes de treino para valer e consolidar teoria na nota canônica em operação editorial própria. Em 05/11 realizar revisão espaçada da U01 sobre avaliabilidade e pedir confiança; não encerrar a lacuna antecipadamente.",
+      "generationAudit": {
+        "counts": {
+          "new": 4,
+          "thematic": 0,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 1,
+        "thematicRate": 0,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 0
+      },
+      "noveltyException": null,
+      "confidenceTracking": {
+        "coverage": "partial"
+      }
     }
   ],
   "questions": [
@@ -10782,6 +10857,194 @@
       "subjectId": "politicas-publicas",
       "unitId": "up3-3-1",
       "trainingMode": "revisao",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Implementação de políticas públicas",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 2: Implementação (referência de escopo, não de gabarito)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "number": 1,
+      "conceptId": "implementacao-top-down-bottom-up",
+      "subtopic": "Abordagem bottom-up",
+      "questionType": "recognition",
+      "mechanism": "bottom-up-agentes-condicoes-locais",
+      "distractorMechanism": "atribuir-primazia-da-decisao-central-a-bottom-up",
+      "statement": "A abordagem bottom-up da implementação de políticas públicas privilegia a análise das decisões e interações dos agentes implementadores, reconhecendo que as condições locais podem influenciar a configuração da política efetivamente entregue.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "explanation": "Certo. Bottom-up focaliza práticas dos implementadores e fatores locais. Top-down parte mais das decisões e objetivos centrais, sem excluir que ambas possam ser combinadas em análises.",
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem-q1",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T07:58:58-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Implementação de políticas públicas",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 2: Implementação (referência de escopo, não de gabarito)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "number": 2,
+      "conceptId": "lipsky-discricionariedade-controle",
+      "subtopic": "Discricionariedade da burocracia de nível de rua",
+      "questionType": "comparison",
+      "mechanism": "discricionariedade-nao-e-autonomia-ilimitada",
+      "distractorMechanism": "incompatibilidade-falsa-entre-discricionariedade-e-controle",
+      "statement": "Segundo a perspectiva da burocracia de nível de rua, a discricionariedade dos agentes que prestam serviços diretamente à população constitui manifestação de autonomia decisória incompatível com mecanismos de controle e responsabilização administrativa.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "explanation": "Errado. Em Lipsky, agentes de nível de rua tomam decisões práticas em contextos específicos, mas sua discricionariedade permanece limitada por normas, deveres e mecanismos de responsabilização.",
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem-q2",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T07:58:58-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Implementação de políticas públicas",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 2: Implementação (referência de escopo, não de gabarito)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "number": 3,
+      "conceptId": "coordenacao-federativa-horizontal-intersetorial",
+      "subtopic": "Coordenação federativa e intersetorial",
+      "questionType": "classification",
+      "mechanism": "classificacoes-simultaneas-horizontal-intersetorial",
+      "distractorMechanism": "confundir-eixos-ente-federado-e-area-de-politica",
+      "statement": "A articulação entre a União e municípios para a execução de um programa educacional caracteriza coordenação federativa, ao passo que a articulação entre órgãos municipais de educação e assistência social pode caracterizar simultaneamente coordenação horizontal e intersetorial.",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "explanation": "Certo. União/municípios é coordenação entre entes federativos. Secretarias de educação e assistência social no mesmo município combinam horizontalidade e intersetorialidade.",
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem-q3",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T07:58:58-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "discipline": "Políticas Públicas e avaliação",
+      "topic": "Implementação de políticas públicas",
+      "format": "CE",
+      "confidence": "unknown",
+      "origin": "inedita",
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [],
+      "sourceRefs": [
+        {
+          "sourceId": "edital",
+          "locator": "Checklist completo de estudos por bloco > P3 > 3. Políticas públicas e métodos de investigação e avaliação > item 2: Implementação (referência de escopo, não de gabarito)"
+        }
+      ],
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "repetition": {
+        "classification": "new",
+        "similarTo": [],
+        "intentional": false
+      },
+      "number": 4,
+      "conceptId": "capacidade-tecnico-administrativa-politico-relacional",
+      "subtopic": "Dimensões de capacidade estatal",
+      "questionType": "comparison",
+      "mechanism": "distinguir-recursos-gestao-de-articulacao-politica",
+      "distractorMechanism": "inversao-capacidades-tecnico-administrativa-politico-relacional",
+      "statement": "A capacidade político-relacional de implementação diz respeito predominantemente à disponibilidade de recursos humanos, tecnológicos e financeiros, enquanto a capacidade técnico-administrativa se refere à negociação entre atores políticos e sociais.",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "explanation": "Errado. Houve inversão. Técnico-administrativa envolve pessoal, recursos, processos e instrumentos de gestão; político-relacional envolve articulação, negociação e interação com atores relevantes.",
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem-q4",
+      "sourceId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
+      "sessionFile": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T07:58:58-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "politicas-publicas",
+      "unitId": "up3-3-2",
+      "trainingMode": "aprendizagem",
       "result": "correct"
     }
   ]

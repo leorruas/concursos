@@ -32,14 +32,14 @@
     },
     {
       "key": "Políticas Públicas e avaliação / aprendizagem",
-      "total": 4,
-      "correct": 3,
+      "total": 8,
+      "correct": 7,
       "incorrect": 1,
       "blank": 0,
       "annulled": 0,
-      "answered": 4,
-      "valid": 4,
-      "accuracy": 0.75,
+      "answered": 8,
+      "valid": 8,
+      "accuracy": 0.875,
       "sample": "insuficiente"
     },
     {
@@ -81,6 +81,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem.json",
+      "status": "parcial",
+      "diagnosis": "Unidade 02 (implementação): 4/4 julgamentos corretos C/E/C/E em treino didático; compreensão inicial observada das fronteiras bottom-up/top-down, discricionariedade versus arbitrariedade, coordenação federativa/horizontal/intersetorial e capacidades estatais técnico-administrativa/político-relacional. Nenhum erro válido nesta bateria. Confiança não informada; bateria curta e didática, sem evidência de retenção ou desempenho competitivo calibrado. A lacuna da U01 sobre avaliabilidade permanece pendente de revisão espaçada, sem ser resolvida por estes acertos.",
+      "nextStep": "Aplicar caso integrado de implementação com fronteiras próximas, riscos e capacidade estatal; buscar corpus Cebraspe C/E efetivamente examinado antes de treino para valer e consolidar teoria na nota canônica em operação editorial própria. Em 05/11 realizar revisão espaçada da U01 sobre avaliabilidade e pedir confiança; não encerrar a lacuna antecipadamente."
+    },
+    {
       "id": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade",
       "date": "2026-11-04",
       "sourcePath": "data/sessoes/cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade.json",
@@ -95,29 +103,20 @@
       "status": "parcial",
       "diagnosis": "Unidade 01, checagem didática após aula e fronteiras: 3/4 acertos (75%); itens 1, 2 e 4 corretos, item 3 errado ao tratar formalização prévia de modelo lógico como pré-requisito absoluto de avaliabilidade. Erro [C] provisório por confusão entre instrumento recomendado e condição indispensável; sem justificativa nem declaração de confiança, causa não comprovada. Não é treino calibrado, não comprova retenção ou domínio.",
       "nextStep": "Retomar a fronteira avaliabilidade versus existência prévia de modelo lógico; confrontar reconstrução retrospectiva e ausência real de condições de avaliação; aplicar reteste novo sobre essa fronteira antes de considerar encerramento didático. Aprofundar nota canônica de avaliação de políticas públicas em etapa editorial separada e calibrar prova-espelho antes de treino para valer."
-    },
-    {
-      "id": "cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada",
-      "date": "2026-11-03",
-      "sourcePath": "data/sessoes/cgu-2026-auditoria-2026-11-03-unidade07-aprendizagem-aplicada.json",
-      "status": "concluido",
-      "diagnosis": "Aplicação didática unidade 07: 4/5 (80%), sem brancos, um erro no item 4 com dúvida declarada. Acertou rastreamento, vouching, limite da confirmação externa e alcance temporal da observação. Erro [C] provisório: não reconheceu que inspeção documental pode servir a teste de controle conforme sua finalidade. Sem justificativa do estudante, causa não comprovada. Não é benchmark.",
-      "nextStep": "Reforçar finalidade do teste versus técnica de execução, contrastando inspeção de autorizações (controle) e inspeção de comprovantes (substantivo). Avançar para treino para valer apenas com fonte e calibração real identificadas, sem inferir domínio por bateria curta; consolidar nota e hub ao fechar unidade 07."
     }
   ],
   "recentMechanisms": [
     "avaliabilidade-distinta-implementacao-impacto",
     "avaliabilidade-sem-modelo-formal-preexistente",
+    "bottom-up-agentes-condicoes-locais",
+    "classificacoes-simultaneas-horizontal-intersetorial",
     "coerencia-logica-nao-prova-causalidade",
-    "confirmacao-externa-nao-atribuicao-de-origem",
+    "discricionariedade-nao-e-autonomia-ilimitada",
     "distinguir-adequacao-da-solucao-e-diagnostico",
     "distinguir-entrega-de-mudanca-produzida",
-    "inspecao-documental-para-testar-operacao-do-controle",
-    "observacao-pontual-nao-valida-todo-periodo",
-    "rastreamento-da-origem-ao-registro",
+    "distinguir-recursos-gestao-de-articulacao-politica",
     "reconstrucao-retrospectiva-nao-comprova-efeito",
-    "teoria-formalizada-nao-garante-dados-para-impacto",
-    "vouching-do-registro-ao-documento"
+    "teoria-formalizada-nao-garante-dados-para-impacto"
   ],
   "review": [
     {
@@ -248,8 +247,8 @@
   "resume": {
     "subjectId": "politicas-publicas",
     "path": "data/contexto-estudo/cgu-2026/politicas-publicas.json",
-    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade01-revisao-avaliabilidade",
-    "time": 1793789337000
+    "lastSessionId": "cgu-2026-politicas-publicas-2026-11-04-unidade02-aprendizagem",
+    "time": 1793789938000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

@@ -135,6 +135,9 @@ Esses dois exemplos **não foram respondidos pelo estudante** e não integram a 
 
 ## Relações com outros temas e heurísticas
 
+A finalidade dos procedimentos também importa quando uma auditoria examina políticas públicas: verificar controles, custos e metas **não identifica automaticamente um efeito causal**. A avaliação de impacto exige estratégia de identificação apropriada. Veja [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas#Auditoria operacional × avaliação de impacto: a finalidade da evidência|auditoria operacional e avaliação de impacto]].
+
+
 - [[3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria|Planejamento individual]]: objetivo, escopo, programa e supervisão.
 - [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao|Evidências]]: suficiência, confiabilidade e documentação dos resultados.
 - [[3 - Materias/Auditoria Governamental/amostragem-e-generalizacao|Amostragem]]: extensão, seleção e limites de generalização.

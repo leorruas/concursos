@@ -48,6 +48,12 @@ A mesma informação pode desempenhar funções diferentes em modelos de granula
 
 A palavra **impacto** pode aparecer como etapa esperada do modelo lógico ou como **efeito causal estimado** em pesquisa de impacto. São usos relacionados, mas distintos. O simples fato de um indicador final melhorar não comprova, por si só, que a política produziu essa diferença.
 
+### Cumprimento físico, execução financeira e efeito social
+
+Considere uma ação hipotética que prevê **cinco escolas construídas** no exercício, com uma dotação anual de R$ 10 milhões. Se foram **pagos R$ 10 milhões**, mas apenas **três escolas foram entregues** de acordo com a definição do produto, houve pagamento integral do valor considerado, porém **cumprimento de 60% da meta física**. Se o indicador físico for *percentual de avanço da obra* em vez de *escola concluída*, o cálculo precisa seguir essa unidade de medida. O estágio financeiro também deve ser declarado: empenhado, liquidado e pago não são sinônimos.
+
+Mesmo com as cinco escolas entregues, é preciso outra evidência para afirmar que a **aprendizagem melhorou** ou que a política contribuiu para reduzir a evasão. O produto entregue pertence à cadeia de execução, o resultado educacional pertence à transformação pretendida, e a atribuição causal requer enfrentar explicações alternativas. A conexão entre programação física e orçamentária está em [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#O que significa programação física cumprida|programação física cumprida]].
+
 ## Mudança observada, efeito causal e contrafactual
 
 Suponha que a evasão escolar tenha diminuído de 12% para 8% após a implementação. A diferença de quatro pontos percentuais é uma **mudança observada**. Para afirmar que quatro pontos foram causados pelo programa, é necessário estimar o que teria acontecido no mesmo contexto **sem a intervenção**, isto é, um **contrafactual** plausível.
@@ -91,6 +97,14 @@ Uma avaliação pode investigar:
 Essas perguntas demandam evidências diferentes. Entrevistas e documentos podem ajudar a reconstruir processos e decisões; registros administrativos permitem acompanhar produtos e cobertura; a identificação de efeitos causais exige enfrentar a hipótese do que teria ocorrido sem a política.
 
 **Avaliabilidade** diz respeito às condições para responder a perguntas de avaliação de forma útil e fundamentada. Um programa pode ser avaliável para examinar implementação e cobertura, mas não para estimar seu impacto causal. A inexistência de um modelo lógico originalmente formalizado pode exigir reconstrução, sem tornar automaticamente impossível toda avaliação. Ver [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|Teoria da mudança]].
+
+### Auditoria operacional × avaliação de impacto: a finalidade da evidência
+
+A **auditoria operacional**, conforme o *Manual de Auditoria Operacional* do TCU, pode examinar economicidade, eficiência, eficácia, efetividade e equidade, com critérios e procedimentos adequados à pergunta. Uma auditoria pode verificar se o transporte escolar **alcançou a população prevista**, se os **custos** são compatíveis e se existem obstáculos à prestação do serviço. Essas conclusões não dependem, em todos os trabalhos, de estimar o efeito causal do transporte sobre a evasão.
+
+A **avaliação de impacto causal**, por sua vez, procura estimar quanto da mudança observada pode ser atribuído à intervenção, exigindo uma estratégia de identificação e comparação contrafactual defensável. Uma auditoria operacional **pode empregar** técnicas de avaliação de impacto quando a pergunta e as evidências permitirem. Portanto, **auditoria operacional e avaliação de impacto não são categorias mutuamente excludentes**; o que importa é o alcance da afirmação e a sustentação metodológica.
+
+Um item que diga que “o programa cumpriu suas metas de atendimento e, por isso, a redução observada da evasão foi causada por ele” desloca indevidamente uma evidência de **eficácia operacional** para uma conclusão **causal**. Veja também [[3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria#Três testes sobre a mesma despesa|finalidade dos procedimentos de auditoria]].
 
 ## Dimensões do desempenho: eficácia, eficiência, efetividade e equidade
 

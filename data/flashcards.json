@@ -857,10 +857,14 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "aro-extraorcamentaria-vs-credito-capital"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Operação de crédito comum × ARO para cobrir insuficiência temporária de caixa: que ingresso é extraorçamentário?",
+        "answer": "ARO, nas condições legais. Operação de crédito comum, em regra, constitui receita orçamentária de capital."
+      }
     },
     {
       "id": "restos-pagar",
@@ -1389,10 +1393,14 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "receita-capital-alienacao-vs-destinacao"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Município recebe transferência para construir unidade de saúde: qual categoria econômica da receita municipal?",
+        "answer": "Receita de capital por transferência de capital, conforme a finalidade. Não confundir com modalidade de aplicação da despesa federal."
+      }
     },
     {
       "id": "alienacao",
@@ -2233,8 +2241,12 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Auditoria examina cobertura, preços e cumprimento de metas. Isso comprova automaticamente impacto causal do programa?",
+        "answer": "Não. Avaliação e auditoria podem investigar aspectos do desempenho; atribuir causalidade exige método e evidências apropriados."
+      }
     },
     {
       "id": "contrafactual",
@@ -7190,10 +7202,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
-        "prompt": "União envia recursos à prefeitura para executar ação: qual modalidade?",
-        "answer": "Transferências a Municípios, conforme a classificação da despesa do ente transferidor."
+        "prompt": "Transferência da União a município para financiar obra: na União é modalidade da despesa; no município, qual origem da receita?",
+        "answer": "A classificação do ingresso no município pode ser transferência de capital, conforme a destinação. São perspectivas e classificadores diferentes."
       },
       "conceptIds": []
     },
@@ -7328,10 +7340,10 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "contrast": {
-        "prompt": "Um projeto de crédito especial recebe emenda: qual é o crédito e qual a emenda?",
-        "answer": "Especial é a espécie de crédito. Emenda é a proposta parlamentar de alteração do projeto."
+        "prompt": "Projeto de crédito especial de R$ 2 milhões recebe emenda para aumentar o valor. A emenda cria uma nova espécie de crédito?",
+        "answer": "Não. O crédito continua sendo especial; a emenda é proposta parlamentar de alteração, sujeita aos requisitos constitucionais e à indicação de recursos quando exigida."
       },
       "conceptIds": []
     },
@@ -7536,11 +7548,11 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [],
       "contrast": {
-        "prompt": "Um programa realizou 200 aulas, mas alunos ainda não melhoraram: produto ou resultado comprovado?",
-        "answer": "Produto entregue; melhora de leitura, como resultado, ainda não foi demonstrada."
+        "prompt": "Todas as cinco escolas previstas foram entregues. Esse cumprimento físico demonstra melhora da aprendizagem?",
+        "answer": "Não. Escolas entregues são produtos; melhora da aprendizagem é resultado, cujo efeito causal requer evidência adequada."
       }
     },
     {
@@ -7682,6 +7694,118 @@
         "prompt": "Ônibus adquirido pelo menor preço × menor custo por aluno transportado: quais dimensões?",
         "answer": "A aquisição pode indicar economicidade; a razão entre recursos usados e transporte entregue envolve eficiência."
       }
+    },
+    {
+      "id": "orc-transferencia-gasto-vs-receita",
+      "term": "Transferência orçamentária: quem paga × quem recebe",
+      "definition": "No orçamento do ente transferidor, a modalidade de aplicação identifica a transferência; no orçamento do recebedor, o ingresso é classificado pela natureza da receita e pela finalidade.",
+      "example": "União transfere recursos a município para custeio de atendimento: modalidade de transferência na despesa federal; transferência corrente na receita municipal, se essa for a finalidade.",
+      "confusion": "Modalidade de aplicação da despesa não é categoria econômica da receita. Destinar recursos para obras pode gerar receita de transferência de capital no município, sem mudar essa distinção.",
+      "topic": "Fronteiras entre execução, transferência e avaliação",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Transferência: despesa de quem envia × receita de quem recebe"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964 e MCASP",
+        "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+        "locator": "Lei nº 4.320/1964, art. 11; classificação das transferências correntes e de capital; MTO/MCASP, modalidade da despesa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "A União transfere recursos a município para custeio. A modalidade da União e a natureza da receita do município são o mesmo classificador?",
+        "answer": "Não. União registra despesa com modalidade de transferência; município pode registrar receita de transferência corrente, conforme a finalidade."
+      },
+      "conceptIds": [
+        "transferencia-despesa-versus-receita"
+      ]
+    },
+    {
+      "id": "orc-meta-fisica-vs-valor-pago",
+      "term": "Meta física cumprida × execução financeira",
+      "definition": "Meta física mede produtos efetivamente entregues segundo a unidade de medida; execução financeira mede valores em estágio identificado, como empenhados, liquidados ou pagos.",
+      "example": "Uma ação prevê cinco escolas e entrega três, embora pague todo o valor previsto: a meta física não foi cumprida.",
+      "confusion": "Pagar tudo não prova entrega; entregar obras também não comprova, por si, efeito social ou economicidade/eficiência.",
+      "topic": "Fronteiras entre execução, transferência e avaliação",
+      "subjectIds": [
+        "orcamento-publico",
+        "politicas-publicas"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2",
+        "P3.3"
+      ],
+      "note": {
+        "articleId": "art-0fb9b88e4d6c4151",
+        "section": "O que significa programação física cumprida"
+      },
+      "source": {
+        "title": "SOF: Orientador do Acompanhamento Físico-Financeiro do Orçamento",
+        "url": "https://www1.siop.planejamento.gov.br/siopdoc/doku.php/acompanhamento_orcamentario:orientador_acompanhamento_orcamentario",
+        "locator": "Orientador SOF, itens 1.1 a 1.5 e 4.3: acompanhamento físico-financeiro"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Cinco escolas previstas, três entregues, 100% do valor pago: qual percentual da meta física de escolas concluídas foi cumprido?",
+        "answer": "60% da meta física, se a unidade de medida for escola entregue. Pagamento integral não equivale a cumprimento físico."
+      },
+      "conceptIds": [
+        "execucao-fisica-versus-financeira"
+      ]
+    },
+    {
+      "id": "pp-auditoria-operacional-vs-impacto",
+      "term": "Auditoria operacional × avaliação de impacto causal",
+      "definition": "Auditoria operacional examina desempenho de programas e gestão segundo critérios e evidências; avaliação de impacto causal busca estimar efeitos atribuíveis à intervenção mediante método adequado.",
+      "example": "Auditoria verifica cobertura, metas e custos de transporte escolar; estimar quanto a queda da evasão se deve ao transporte exige enfrentar o contrafactual.",
+      "confusion": "Auditoria operacional pode empregar métodos de avaliação de impacto; chamar uma conclusão de auditoria de efetividade não significa que foi demonstrado efeito causal.",
+      "topic": "Fronteiras entre execução, transferência e avaliação",
+      "subjectIds": [
+        "politicas-publicas",
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.3",
+        "P3.1"
+      ],
+      "note": {
+        "articleId": "art-d4eb46e628944cd7",
+        "section": "Auditoria operacional × avaliação de impacto: a finalidade da evidência"
+      },
+      "source": {
+        "title": "TCU, Manual de Auditoria Operacional, 4ª edição",
+        "url": "https://portal.tcu.gov.br/data/files/F2/73/02/68/7335671023455957E18818A8/Manual_auditoria_operacional_4_edicao.pdf",
+        "locator": "Manual de Auditoria Operacional (2020), seção 1.3: objetivos e dimensões de desempenho"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-04",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Auditoria comprova metas atendidas e custos do programa. Isso identifica necessariamente o efeito causal sobre a evasão?",
+        "answer": "Não. Para atribuir causalidade é preciso desenho e evidência apropriados; a auditoria pode empregar esses métodos quando necessário."
+      },
+      "conceptIds": [
+        "auditoria-operacional-versus-inferencia-causal"
+      ]
     }
   ]
 }

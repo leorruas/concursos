@@ -12,6 +12,8 @@ Mapa editorial das **15 frentes de estudo** da preparação para a **Controlador
 
 Cada frente possui hub navegável próprio, com unidades do programa e referências do vault. Matérias que compartilham conceitos apontam para os **mesmos artigos canônicos**, sem copiar a teoria entre pastas. Os hubs indicam **planejamento e cobertura editorial**; progresso, desempenho e retenção continuam no contexto vivo de cada matéria.
 
+As lacunas de artigos próprios estão desdobradas em [[1 - Planejamento/Materias sem artigos - Plano de implementacao por fases|um roteiro de implementação por microfases]], sem misturar cobertura editorial e progresso de estudo.
+
 ## Organização por bloco da prova
 
 ### Auditoria governamental: transversal a P2 e P3

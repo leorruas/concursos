@@ -18,11 +18,11 @@ aliases:
 
 ## Núcleo do conceito: crédito autorizado não equivale a dinheiro
 
-Uma universidade recebeu **dotação de R$ 2 milhões** para determinado programa. O orçamento foi aprovado, mas os pagamentos precisam seguir um cronograma de desembolso e a movimentação das disponibilidades públicas. A dotação é uma **autorização orçamentária**; a liberação financeira é disponibilização de **recursos para pagar**; o pagamento depende ainda da execução regular da despesa.
+Uma universidade recebeu [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Dotação orçamentária: autorização e limite de gasto|**dotação de R$ 2 milhões**]] para determinado programa. O orçamento foi aprovado, mas os pagamentos precisam seguir um cronograma de desembolso e a movimentação das disponibilidades públicas. A dotação é uma **autorização orçamentária**; a liberação financeira é disponibilização de **recursos para pagar**; o pagamento depende ainda da execução regular da despesa.
 
 A gestão da **Conta Única do Tesouro Nacional** centraliza disponibilidades financeiras federais e permite racionalizar movimentações. O **Sistema Integrado de Administração Financeira do Governo Federal (SIAFI)** registra, acompanha e controla operações orçamentárias, financeiras, patrimoniais e contábeis.
 
-O principal contraste de prova é **crédito orçamentário × recurso financeiro**, seguido de **descentralização de crédito × descentralização de recursos**. A base de empenho e liquidação já está em [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Despesa pública]], e a programação do ano em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]].
+O principal contraste de prova é **crédito orçamentário × recurso financeiro**, seguido de **descentralização de crédito × descentralização de recursos**. Para diferenciar os termos, consulte [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Dotação orçamentária: autorização e limite de gasto|crédito, dotação e disponibilidade orçamentária]] e [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento#Dotação, empenho, caixa e pagamento|limite de empenho, caixa e pagamento]]. A base de empenho e liquidação já está em [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Despesa pública]], e a programação do ano em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]].
 
 ## Conta Única: fundamento, localização e administração
 

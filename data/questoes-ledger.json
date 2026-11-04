@@ -1607,6 +1607,76 @@
       "confidenceTracking": {
         "coverage": "complete"
       }
+    },
+    {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b04",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T15:10:23-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "learning": {
+        "stage": "aprendizagem",
+        "taughtConcepts": [
+          "esfera orçamentária versus natureza de investimento",
+          "estatais dependentes versus não dependentes",
+          "prazos de encaminhamento de PPA, LDO e LOA",
+          "risco judicial versus despesa paga"
+        ],
+        "boundaries": [
+          "investimento econômico versus orçamento de investimento",
+          "dependência financeira versus controle societário",
+          "envio versus devolução para sanção",
+          "risco contingente versus despesa executada"
+        ],
+        "pending": [
+          "Revisão espaçada em 05/11 para todos os retestes atuais e dúvidas anteriores, inclusive regionalização do PPA federal.",
+          "Retomar depois princípios, classificações, créditos e programação da unidade up3-2-2."
+        ],
+        "unitCompleted": false,
+        "next": {
+          "unitId": "up3-2-2",
+          "stage": "fronteiras",
+          "objective": "Verificar em outro dia retenção das fronteiras recuperadas e prosseguir nos demais artigos.",
+          "noteRef": "article:art-c301f2c741504403#Entendendo as três esferas orçamentárias na prática",
+          "sourceIds": [
+            "constituicao",
+            "lrf",
+            "mto2026"
+          ]
+        }
+      },
+      "tipo": "microtreino",
+      "isSimulado": false,
+      "status": "parcial",
+      "trainingModes": [
+        "aprendizagem"
+      ],
+      "totalQuestions": 6,
+      "ledgerCoverage": "complete",
+      "benchmarkEligible": false,
+      "qualityNote": "Bateria 04: seis acertos seguros em seis retestes temáticos de lacunas da bateria 03. Recuperação imediata, no mesmo dia; ainda não prova retenção e não é treino competitivo.",
+      "nextStep": "Revisão espaçada em 05/11: regionalização do PPA, dotação versus caixa, aprovação versus execução, esferas da LOA, estatais dependentes, prazos e riscos fiscais. Depois avançar nos demais artigos da unidade.",
+      "generationAudit": {
+        "counts": {
+          "new": 0,
+          "thematic": 6,
+          "mechanical": 0,
+          "exact": 0
+        },
+        "newRate": 0,
+        "thematicRate": 1,
+        "mechanicalRate": 0,
+        "exactRate": 0,
+        "intentionalReviewRate": 1
+      },
+      "noveltyException": "Revisão didática intencional: seis retestes temáticos de quatro conceitos com erros ou dúvida na bateria 03, por novas situações e afirmações invertidas. Excede o limite de revisão intencional do gate de novidade; não entra em benchmark.",
+      "confidenceTracking": {
+        "coverage": "complete"
+      }
     }
   ],
   "questions": [
@@ -14549,6 +14619,300 @@
       "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
       "date": "2026-11-04",
       "startedAt": "2026-11-04T14:39:00-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "conceptId": "esfera-vs-natureza-investimento",
+      "number": 1,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "Entendendo as três esferas orçamentárias na prática",
+      "questionType": "application",
+      "mechanism": "classificacao-dupla",
+      "distractorMechanism": "transposicao-conceitual",
+      "statement": "Uma obra de ampliação de hospital federal financiada no âmbito do SUS pode ser classificada como investimento pela natureza da despesa e, simultaneamente, integrar o orçamento da seguridade social.",
+      "explanation": "A natureza pode ser investimento enquanto a esfera é seguridade social, por tratar de ação do SUS.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Entendendo as três esferas orçamentárias na prática"
+      ],
+      "retrievalOf": [
+        "cgu-2026-2026-11-04-orcamento-publico-b03-q3"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-2026-11-04-orcamento-publico-b03-q3"
+        ],
+        "intentional": true,
+        "transformation": "Novo contexto e formulação que retesta deliberadamente conceito da bateria 03."
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b04-q1",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b04",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T15:10:23-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "conceptId": "esfera-vs-natureza-investimento",
+      "number": 2,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "Entendendo as três esferas orçamentárias na prática",
+      "questionType": "application",
+      "mechanism": "inversao-de-classificacao",
+      "distractorMechanism": "transposicao-conceitual",
+      "statement": "A construção de uma rodovia diretamente por um órgão federal deve integrar o orçamento de investimento das estatais sempre que a despesa for classificada economicamente como investimento.",
+      "explanation": "Rodovia construída diretamente por órgão federal integra, em regra, o orçamento fiscal; investimento econômico não se confunde com esfera de investimento das estatais.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Entendendo as três esferas orçamentárias na prática"
+      ],
+      "retrievalOf": [
+        "cgu-2026-2026-11-04-orcamento-publico-b03-q3"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-2026-11-04-orcamento-publico-b03-q3"
+        ],
+        "intentional": true,
+        "transformation": "Novo contexto e formulação que retesta deliberadamente conceito da bateria 03."
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b04-q2",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b04",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T15:10:23-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "conceptId": "estatais-dependentes-esferas",
+      "number": 3,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "Empresa controlada × estatal dependente × estatal não dependente",
+      "questionType": "application",
+      "mechanism": "estatal-dependente",
+      "distractorMechanism": "transposicao-conceitual",
+      "statement": "Uma empresa estatal federal classificada como dependente, por receber recursos do ente controlador para custeio nas condições previstas na LRF, tem, como regra, sua programação incluída no orçamento de investimento das estatais.",
+      "explanation": "Estatal dependente tem, em regra, programação nos orçamentos fiscal ou da seguridade, conforme sua atuação.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Empresa controlada × estatal dependente × estatal não dependente"
+      ],
+      "retrievalOf": [
+        "cgu-2026-2026-11-04-orcamento-publico-b03-q4"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-2026-11-04-orcamento-publico-b03-q4"
+        ],
+        "intentional": true,
+        "transformation": "Novo contexto e formulação que retesta deliberadamente conceito da bateria 03."
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b04-q3",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b04",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T15:10:23-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "conceptId": "estatais-dependentes-esferas",
+      "number": 4,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "Empresa controlada × estatal dependente × estatal não dependente",
+      "questionType": "application",
+      "mechanism": "estatal-nao-dependente",
+      "distractorMechanism": "transposicao-conceitual",
+      "statement": "Os investimentos para ampliar as instalações produtivas de uma empresa estatal federal não dependente, controlada pela União por maioria do capital votante, integram, em regra, o orçamento de investimento das estatais.",
+      "explanation": "Investimentos de estatal federal controlada e não dependente integram, em regra, o orçamento de investimento das estatais.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Empresa controlada × estatal dependente × estatal não dependente"
+      ],
+      "retrievalOf": [
+        "cgu-2026-2026-11-04-orcamento-publico-b03-q4"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-2026-11-04-orcamento-publico-b03-q4"
+        ],
+        "intentional": true,
+        "transformation": "Novo contexto e formulação que retesta deliberadamente conceito da bateria 03."
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b04-q4",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b04",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T15:10:23-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "conceptId": "prazos-envio-ldo-loa",
+      "number": 5,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "Iniciativa, apreciação e prazos no plano federal",
+      "questionType": "comparison",
+      "mechanism": "comparar-prazos",
+      "distractorMechanism": "transposicao-conceitual",
+      "statement": "No regime federal previsto no ADCT, o projeto da LDO é encaminhado até 15 de abril, enquanto os projetos da LOA e, no primeiro exercício do mandato, do PPA têm como marco de encaminhamento 31 de agosto.",
+      "explanation": "O ADCT prevê 15/4 para envio da LDO e 31/8 para envio da LOA e do PPA no primeiro ano de mandato.",
+      "format": "CE",
+      "correctAnswer": "C",
+      "userAnswer": "C",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Iniciativa, apreciação e prazos no plano federal"
+      ],
+      "retrievalOf": [
+        "cgu-2026-2026-11-04-orcamento-publico-b03-q6"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-2026-11-04-orcamento-publico-b03-q6"
+        ],
+        "intentional": true,
+        "transformation": "Novo contexto e formulação que retesta deliberadamente conceito da bateria 03."
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b04-q5",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b04",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T15:10:23-03:00",
+      "concursoId": "cgu-2026",
+      "banca": "Cebraspe",
+      "checkpointSchema": 2,
+      "subjectId": "orcamento-publico",
+      "unitId": "up3-2-2",
+      "trainingMode": "aprendizagem",
+      "result": "correct"
+    },
+    {
+      "conceptId": "ldo-risco-judicial",
+      "number": 6,
+      "discipline": "Orçamento Público",
+      "topic": "PPA, LDO e LOA",
+      "subtopic": "Metas fiscais × riscos fiscais",
+      "questionType": "application",
+      "mechanism": "inferir-execucao-de-risco",
+      "distractorMechanism": "transposicao-conceitual",
+      "statement": "O reconhecimento de uma possível obrigação decorrente de processo judicial no Anexo de Riscos Fiscais implica que a despesa correspondente já tenha sido liquidada e paga.",
+      "explanation": "Risco judicial possível registrado no anexo fiscal não prova despesa liquidada ou paga.",
+      "format": "CE",
+      "correctAnswer": "E",
+      "userAnswer": "E",
+      "confidence": "secure",
+      "origin": "inedita",
+      "destinations": [
+        "metrica_apenas"
+      ],
+      "annulled": false,
+      "errorType": null,
+      "theoryRefs": [
+        "3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Metas fiscais × riscos fiscais"
+      ],
+      "retrievalOf": [
+        "cgu-2026-2026-11-04-orcamento-publico-b03-q2"
+      ],
+      "repetition": {
+        "classification": "thematic",
+        "similarTo": [
+          "cgu-2026-2026-11-04-orcamento-publico-b03-q2"
+        ],
+        "intentional": true,
+        "transformation": "Novo contexto e formulação que retesta deliberadamente conceito da bateria 03."
+      },
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b04-q6",
+      "sourceId": "cgu-2026-2026-11-04-orcamento-publico-b04",
+      "sessionFile": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "date": "2026-11-04",
+      "startedAt": "2026-11-04T15:10:23-03:00",
       "concursoId": "cgu-2026",
       "banca": "Cebraspe",
       "checkpointSchema": 2,

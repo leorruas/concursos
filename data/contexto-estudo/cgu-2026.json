@@ -44,14 +44,14 @@
     },
     {
       "key": "Orçamento Público / aprendizagem",
-      "total": 20,
-      "correct": 16,
+      "total": 26,
+      "correct": 22,
       "incorrect": 4,
       "blank": 0,
       "annulled": 0,
-      "answered": 20,
-      "valid": 20,
-      "accuracy": 0.8,
+      "answered": 26,
+      "valid": 26,
+      "accuracy": 0.8461538461538461,
       "sample": "insuficiente"
     },
     {
@@ -93,6 +93,14 @@
   ],
   "recentSessions": [
     {
+      "id": "cgu-2026-2026-11-04-orcamento-publico-b04",
+      "date": "2026-11-04",
+      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b04.json",
+      "status": "parcial",
+      "diagnosis": "Bateria 04: seis acertos seguros em seis retestes temáticos de lacunas da bateria 03. Recuperação imediata, no mesmo dia; ainda não prova retenção e não é treino competitivo.",
+      "nextStep": "Revisão espaçada em 05/11: regionalização do PPA, dotação versus caixa, aprovação versus execução, esferas da LOA, estatais dependentes, prazos e riscos fiscais. Depois avançar nos demais artigos da unidade."
+    },
+    {
       "id": "cgu-2026-2026-11-04-orcamento-publico-b03",
       "date": "2026-11-04",
       "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b03.json",
@@ -107,42 +115,33 @@
       "status": "concluido",
       "diagnosis": "Simulado curto misto de retenção, 18 itens C/E, unidades 02 a 07, criado no chat e corrigido em 04/11/2026: 15 acertos/3 erros/0 brancos, 83,33% acurácia, pontuação hipotética P3 +24/36 (+2/-2/0); unidades u02 2/3, u03 2/3, u04 3/3, u05 3/3, u06 3/3 e u07 2/3. Três respostas inseguras: q2 (errada), q13 e q14 (corretas). Dois erros com confiança secure: q3 consultoria anterior/objetividade e q18 vouching/ocorrência. Erro inseguro q2: existência formal de controle não demonstra eficácia nem redução de risco residual. Retenção por conceito com ressalvas: questões muito semelhantes a itens anteriores não comprovam transferência robusta; não é simulado integral nem benchmark Cebraspe calibrado.",
       "nextStep": "Revisar em novos casos o risco residual versus desenho/efetividade (u03), consultoria anterior versus impedimento temporal/objetividade (u02) e vouching/ocorrência versus rastreamento/integridade (u07). Retestar q13 (RAINT versus parecer) e q14 (segunda versus terceira linha) com confiança declarada. Manter o ponto de retomada didático da u07 em fronteiras, concluir treino para valer com corpus Cebraspe real identificado e realizar fechamento editorial quando a unidade for completada. Não presumir retenção integral pelas 18 questões."
-    },
-    {
-      "id": "cgu-2026-2026-11-04-orcamento-publico-b02",
-      "date": "2026-11-04",
-      "sourcePath": "data/sessoes/cgu-2026-2026-11-04-orcamento-publico-b02.json",
-      "status": "parcial",
-      "diagnosis": "Bateria 02: 7/7 itens corretos (6 seguros e um inseguro). Dois retestes do artigo 01 corretos e seguros: recuperação imediata, ainda sem retenção posterior demonstrada. Dúvida declarada após a correção no item 3: o estudante supunha que a exigência 'de forma regionalizada' não seria aplicável ao PPA federal; o art. 165, § 1º, da Constituição confirma que a exigência é expressa. Nenhum erro de conteúdo nesta bateria; o acerto inseguro requer revisão.",
-      "nextStep": "Aprofundar PPA/LDO/LOA: metas fiscais versus riscos fiscais, três orçamentos da LOA, exclusividade e prazos de envio versus devolução. Revisar a regionalização do PPA, incluindo o art. 165, § 1º, em nova questão de mecanismo diferente em outro dia. Continuar na unidade up3-2-2, sem concluir a unidade."
     }
   ],
   "recentMechanisms": [
     "acesso-papeis-aprovacao-alta-administracao",
-    "aplicacao-excecao-constitucional",
     "aprovacao-alteracoes-programa",
+    "classificacao-dupla",
     "classificar-fronteira",
+    "comparar-prazos",
     "conflito-interesse-sem-ilicito",
     "consultoria-previa-objetividade",
     "consultoria-programa-flexibilidade",
     "criterio-meta-institucional",
-    "diferenciar-criterio-institucional-e-despesa",
     "especialista-responsabilidade-auditoria",
+    "estatal-dependente",
+    "estatal-nao-dependente",
     "finalidade-teste-controle-tecnica-documental",
-    "inversao-do-caso-caixa-sem-credito",
-    "literalidade-art-165-paragrafo-1",
+    "inferir-execucao-de-risco",
+    "inversao-de-classificacao",
     "mudanca-significativa-paint",
     "observacao-exclusiva-dois-auditores",
     "observacao-versus-reexecucao",
     "papeis-permanentes-relatorio",
     "priorizacao-indireta-riscos",
     "raint-versus-parecer-contas",
-    "regra-transitoria-ppa",
     "resposta-risco-versus-controle",
     "risco-residual-controle",
     "segunda-versus-terceira-linha",
-    "separacao-de-atributos-normativos",
-    "transposicao-entre-atribuicoes-do-legislativo",
     "vouching-ocorrencia-versus-integridade"
   ],
   "review": [
@@ -391,8 +390,8 @@
   "resume": {
     "subjectId": "orcamento-publico",
     "path": "data/contexto-estudo/cgu-2026/orcamento-publico.json",
-    "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b03",
-    "time": 1793813940000
+    "lastSessionId": "cgu-2026-2026-11-04-orcamento-publico-b04",
+    "time": 1793815823000
   },
   "subjectIndexPath": "data/contexto-estudo/indice.json"
 }

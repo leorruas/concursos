@@ -5,7 +5,7 @@ title: "Provisões, passivos contingentes e ativos contingentes"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Provisões, passivos contingentes e ativos contingentes

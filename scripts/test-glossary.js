@@ -10,11 +10,11 @@ const published = JSON.parse(fs.readFileSync(path.join(root, '_site/glossario-in
 const home = fs.readFileSync(path.join(root, '_site/index.html'), 'utf8');
 assert.equal(published.schemaVersion, 1);
 assert(published.plannedCount >= 327, 'Backlog deve preservar os 200 iniciais e as duas expansões de Orçamento');
-assert(published.publishedCount >= 211, 'Glossário deve preservar as 143 definições anteriores e mais 30 de orçamento');
+assert(published.publishedCount >= 212, 'Glossário deve preservar as 143 definições anteriores, as ampliações e o PCASP revisado');
 assert.equal(published.terms.length, published.publishedCount);
 assert.equal(new Set(published.terms.map(x => x.id)).size, published.publishedCount);
 assert(published.subjects.length >= 3);
-for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',140],['contabilidade-publica',36]]) {
+for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',140],['contabilidade-publica',37]]) {
   assert(published.terms.filter(t => t.subjectIds.includes(subject)).length >= minimo, subject + ': termo faltante');
 }
 assert(published.terms.every(t => t.status === 'reviewed' && t.sources.length > 0 && t.sources.every(s => /^https:\/\//.test(s.url))));
@@ -156,8 +156,16 @@ assert(match('fatos modificativos').some(t => t.id === 'glo-fato-modificativo'))
 assert(match('fato composto').some(t => t.id === 'glo-fato-misto'));
 const editorialBacklog = JSON.parse(fs.readFileSync(path.join(root, 'data/glossario/backlog-cgu-2026.json'), 'utf8'));
 const pcasp = editorialBacklog.terms.find(t => t.id === 'glo-plano-de-contas-aplicado-ao-setor-publico-pcasp');
-assert(pcasp && pcasp.status === 'planned', 'PCASP deve estar reservado apenas no roadmap');
-assert(!published.terms.some(t => t.id === pcasp.id), 'PCASP não pode constar como publicado sem revisão');
+assert(pcasp && pcasp.status === 'planned', 'Backlog deve preservar a proposta original do PCASP');
+const pcaspPublished = published.terms.find(t => t.id === pcasp.id);
+assert(pcaspPublished?.status === 'reviewed', 'PCASP deve ser publicado somente após revisão');
+assert(pcaspPublished.aliases.includes('PCASP'), 'Sigla PCASP deve ser pesquisável');
+assert(/três naturezas/.test(pcaspPublished.contrast) && /classes 1 a 4/.test(pcaspPublished.contrast) &&
+  /classes 5 e 6/.test(pcaspPublished.contrast) && /7 e 8/.test(pcaspPublished.contrast),
+  'PCASP deve explicar as três naturezas e as oito classes');
+assert(/quarta natureza/.test(pcaspPublished.contrast) && /classes 5 e 6/.test(pcaspPublished.cebraspeTrap),
+  'PCASP deve cobrir as armadilhas de natureza e de classes');
+assert(match('PCASP').some(t => t.id === pcasp.id), 'Busca deve encontrar PCASP pela sigla');
 const reviewPlan = fs.readFileSync(path.join(root, '1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos.md'), 'utf8');
 assert(reviewPlan.includes('Plano de revisão de linguagem de todo o glossário') &&
     reviewPlan.includes('Última etapa do roadmap: PCASP'), 'Plano de simplificação integral e PCASP devem ficar documentados');
@@ -273,7 +281,7 @@ assert(match('sem termo impossível').length === 0);
 // Revisão editorial de linguagem: definições curtas, com contraste e exemplo próprio.
 // Os testes mecânicos preservam limites e conceitos essenciais; a compreensão
 // final ainda exige leitura humana, conforme o roteiro editorial.
-assert.equal(published.publishedCount, 211);
+assert.equal(published.publishedCount, 212);
 assert(published.terms.every(t => t.definition.length <= 320),
   'Definições devem ser curtas; detalhes técnicos ficam em contraste, exemplo e artigo');
 for(const [id, fragments] of [
@@ -300,5 +308,5 @@ const plannedText = fs.readFileSync(path.join(root,
 assert(plannedText.includes('**202/202 verbetes anteriores**') &&
        plannedText.includes('**166 definições ou contrastes**') &&
        plannedText.includes('Última etapa do roadmap: PCASP'),
-       'Plano deve registrar revisão de todas as matérias sem antecipar o PCASP');
-console.log('SUCESSO: 211 verbetes, distinção financeiro/patrimonial, links e glossário testados; PCASP segue planejado.');
+       'Plano deve registrar revisão de todas as matérias e a etapa final do PCASP');
+console.log('SUCESSO: 212 verbetes, distinção financeiro/patrimonial, PCASP, links e glossário testados.');

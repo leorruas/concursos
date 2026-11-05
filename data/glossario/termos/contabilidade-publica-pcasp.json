@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "contabilidade-publica",
+  "entries": [
+    {
+      "id": "glo-plano-de-contas-aplicado-ao-setor-publico-pcasp",
+      "term": "Plano de Contas Aplicado ao Setor Público (PCASP)",
+      "aliases": [
+        "PCASP",
+        "Plano de Contas Aplicado ao Setor Público"
+      ],
+      "definition": "Relação padronizada de contas que organiza os registros contábeis dos entes públicos. O PCASP ajuda a registrar operações de modo uniforme e permite consolidar e comparar as contas públicas.",
+      "contrast": "O PCASP é o plano que organiza as contas; não é uma demonstração contábil nem uma etapa da despesa. Suas informações têm três naturezas: patrimonial (classes 1 a 4), orçamentária (classes 5 e 6) e de controle (classes 7 e 8). A classificação financeiro/permanente do Balanço Patrimonial não é uma quarta natureza do PCASP.",
+      "cebraspeTrap": "Afirmar que as classes 5 e 6 são fases cronológicas da despesa, que as contas de controle representam dinheiro disponível ou que a natureza financeira é uma quarta natureza da informação contábil.",
+      "example": "Ao empenhar a compra de cadeiras, o órgão registra controles da execução orçamentária na classe 6. Quando as cadeiras forem recebidas, o fato também pode afetar o patrimônio; a classe 6 não é o bem nem o dinheiro em caixa.",
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional: Plano de Contas Aplicado ao Setor Público (PCASP), edição 2026",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/federacao/plano-de-contas-aplicado-ao-setor-publico-pcasp-1"
+        },
+        {
+          "label": "Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição, Parte IV, Tesouro Nacional",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

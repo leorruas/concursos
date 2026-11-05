@@ -5,7 +5,7 @@ title: "Despesas públicas: fixação, empenho, liquidação e pagamento"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 aliases:
   - "Estágios da despesa"
   - "Empenho ordinário global estimativo"
@@ -43,15 +43,15 @@ A distinção entre dotação, limite de empenho e dinheiro em caixa está em [[
 
 ## Empenho: reserva e obrigação orçamentária
 
-A Lei nº 4.320/1964, art. 58, conceitua **empenho** como ato da autoridade competente que cria para o Estado obrigação de pagamento, pendente de implemento de condição nos termos legais. O art. 59 veda empenhos acima do limite dos créditos concedidos. O art. 60 determina **prévio empenho** para realização da despesa.
+A Lei nº 4.320/1964, art. 58, conceitua **empenho** como ato da autoridade competente que cria para o Estado obrigação de pagamento **pendente ou não de implemento de condição**. A expressão **“ou não”** integra a redação legal atualizada após rejeição de veto: a prova pode suprimi-la para restringir indevidamente o alcance da definição. O art. 59 veda empenhos acima do limite dos créditos concedidos. O art. 60 determina **prévio empenho** para realização da despesa.
 
-O empenho **não é prova de entrega** e tampouco corresponde ao pagamento. Uma compra pode ser empenhada e posteriormente cancelada ou anulada, conforme sua situação e regras pertinentes. A constituição orçamentária do compromisso também não é, automaticamente, o reconhecimento patrimonial final da despesa.
+O empenho **não é prova de entrega** e tampouco corresponde ao pagamento. A existência de condição a implementar não pode ser presumida em todos os casos; a liquidação verifica documentalmente o direito adquirido pelo credor. Uma compra pode ser empenhada e posteriormente cancelada ou anulada, conforme sua situação e regras pertinentes. A constituição orçamentária do compromisso também não é, automaticamente, o reconhecimento patrimonial final da despesa.
 
 ### Nota de empenho × empenho
 
 O art. 61 prevê a emissão de **nota de empenho**, com informações como credor, especificação, importância e dedução da dotação. O art. 60, § 1º, admite **dispensa da emissão da nota**, em casos especiais previstos na legislação específica.
 
-**Dispensa de emissão da nota** não pode ser transformada, por interpretação, em **dispensa geral do empenho**. Documento e ato não se confundem.
+**Dispensa de emissão da nota** não pode ser transformada, por interpretação, em **dispensa geral do empenho**. No glossário, os conceitos **empenho prévio**, **dispensa da emissão da nota**, **reforço** e **anulação de empenho** recebem verbetes próprios. Documento e ato não se confundem.
 
 ### Empenho ordinário, global e estimativo
 
@@ -112,7 +112,7 @@ A Lei nº 4.320/1964, art. 35, estabelece no enfoque orçamentário que pertence
 
 No exercício de pagamento, o desembolso correspondente a restos a pagar é tratado como **saída extraorçamentária** na execução orçamentária daquele ano, embora sua origem tenha sido **despesa orçamentária empenhada no ano anterior**. A classificação não implica falta de controle.
 
-A diferença entre **restos a pagar processados e não processados**, sua inscrição, cancelamento e tratamento patrimonial será aprofundada no artigo 09, ainda previsto.
+A diferença entre **restos a pagar processados e não processados**, sua inscrição, cancelamento e tratamento patrimonial está desenvolvida no [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|artigo 09, sobre restos a pagar e DEA]].
 
 ### Orçamentário × patrimonial
 
@@ -141,6 +141,8 @@ Esses mecanismos são sugestões didáticas fundadas nas normas, não estatísti
 **Item 2.** O empenho estimativo é apropriado quando o montante não pode ser previamente determinado; o global pode ser utilizado quando o valor contratual é conhecido e sujeito a parcelamento. **Gabarito: Certo.** A assertiva distingue **incerteza de valor** de **parcelamento**.
 
 **Item 3.** A liquidação verifica o direito adquirido pelo credor, mediante documentos pertinentes, e pode ocorrer antes do pagamento efetivo. **Gabarito: Certo.** Liquidação e pagamento são momentos diferentes, segundo os arts. 62 e 63.
+
+**Item 4.** Nos termos do art. 58 da Lei nº 4.320/1964, todo empenho cria obrigação de pagamento ainda pendente de implemento de condição. **Gabarito: Errado.** A definição legal abrange obrigação **pendente ou não** de implemento de condição. Excluir a locução “ou não” altera o alcance do dispositivo.
 
 São itens inéditos de aprendizagem. Não constituem desempenho registrado nem questões oficiais.
 

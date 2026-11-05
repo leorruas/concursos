@@ -12,7 +12,7 @@ updated: 2026-11-05
 
 Planejamento de glossário para **CGU 2026, cargo 1, Auditoria, Cebraspe (Certo/Errado)**. O recorte prioriza conceitos, siglas, etapas, classificações e fronteiras que podem gerar interpretações erradas. As prioridades A/B/C reproduzem a decisão editorial do [[1 - Planejamento/CGU 2026 - Plano de materias|plano de matérias]], **não indicam frequência comprovada de cobrança**. Escopo conferido com [[2 - Editais/CGU 2026 - Auditoria|edital sintetizado no vault]] e [edital no Cebraspe](https://www.cebraspe.org.br/concursos/cgu_26_affc).
 
-**Estado editorial em 05/11/2026:** **295 termos planejados**, incluindo os 200 iniciais e mais 95 conceitos de Orçamento, com **180 definições revisadas** no JSON público: 35 de Auditoria, 120 de Orçamento e 25 de Contabilidade. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
+**Estado editorial em 05/11/2026:** **315 termos planejados**, incluindo os 200 iniciais e mais 115 conceitos de Orçamento, com **200 definições revisadas** no JSON público: 35 de Auditoria, 140 de Orçamento e 25 de Contabilidade. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
 
 ## Onde o glossário aparecerá na wiki
 
@@ -200,11 +200,13 @@ A diferença decisiva para o Cebraspe: **corrente/capital** é categoria econôm
 
 **Refinamento por artigo e mais 7 conceitos (05/11/2026):** filtro por artigo, organização agrupada por nota e 7 verbetes identificados nos artigos existentes, sem duplicação: regra de ouro, renúncia de receita, despesa obrigatória de caráter continuado, bloqueio de dotação, empresa estatal dependente, empresa controlada e despesa total com pessoal. Os termos adicionais ficam em `data/glossario/termos/orcamento-publico-fiscal.json`. O total chega a **180/295**, incluindo **120 de Orçamento**. O vínculo usa IDs canônicos de artigos; o agrupamento apresenta cada conceito apenas uma vez, pelo primeiro artigo vinculado, enquanto o filtro considera todos os vínculos. A abertura de um verbete na lista filtrada preserva a seleção, inclusive por meio do link permanente.
 
-**Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (**230** no total).
+**Foco em empenho e estágios da despesa (20 verbetes, 05/11/2026):** complementadas as relações entre fixação, empenho prévio, dispensa da nota, reforço e anulação do empenho, limites de empenho e pagamento, crédito empenhado a liquidar, em liquidação e liquidado a pagar, ateste/recebimento contratual, restos a pagar, disponibilidade de caixa e reconhecimento orçamentário. A definição do verbete **Empenho** foi corrigida para a redação literal do art. 58 da Lei nº 4.320/1964: **“pendente ou não de implemento de condição”**. A mesma precisão foi acrescentada ao artigo canônico sobre os estágios da despesa e a um item C/E didático. Os novos termos estão em `data/glossario/termos/orcamento-publico-empenho.json`, com IDs permanentes, fontes oficiais e artigos vinculados, ampliando o catálogo para **200/315** e Orçamento Público para **140**. Esta expansão não altera os IDs ou o histórico dos verbetes existentes.
 
-**Fase 4:** outras **40 definições** de Governança, Transparência, Evidências/IA e Finanças (**270** no total).
+**Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (**250** no total).
 
-**Fase 5:** **25 definições** de Direito Administrativo, Estado e Democracia, Ética, Administração Pública e Sociedade Brasileira, completando **295** (200 iniciais mais 95 de ampliação).
+**Fase 4:** outras **40 definições** de Governança, Transparência, Evidências/IA e Finanças (**290** no total).
+
+**Fase 5:** **25 definições** de Direito Administrativo, Estado e Democracia, Ética, Administração Pública e Sociedade Brasileira, completando **315** (200 iniciais mais 115 de ampliação).
 
 A ordem é revisável se o estudo revelar lacuna de maior prioridade. O contador na interface mostrará apenas entradas **revisadas e efetivamente publicadas**.
 

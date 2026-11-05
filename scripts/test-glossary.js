@@ -9,12 +9,12 @@ const root = fileURLToPath(new URL('..', import.meta.url));
 const published = JSON.parse(fs.readFileSync(path.join(root, '_site/glossario-index.json'), 'utf8'));
 const home = fs.readFileSync(path.join(root, '_site/index.html'), 'utf8');
 assert.equal(published.schemaVersion, 1);
-assert(published.plannedCount >= 295, 'Backlog deve preservar os 200 iniciais e as duas expansões de Orçamento');
-assert(published.publishedCount >= 180, 'Glossário deve preservar as 143 definições anteriores e mais 30 de orçamento');
+assert(published.plannedCount >= 315, 'Backlog deve preservar os 200 iniciais e as duas expansões de Orçamento');
+assert(published.publishedCount >= 200, 'Glossário deve preservar as 143 definições anteriores e mais 30 de orçamento');
 assert.equal(published.terms.length, published.publishedCount);
 assert.equal(new Set(published.terms.map(x => x.id)).size, published.publishedCount);
 assert(published.subjects.length >= 3);
-for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',120],['contabilidade-publica',25]]) {
+for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',140],['contabilidade-publica',25]]) {
   assert(published.terms.filter(t => t.subjectIds.includes(subject)).length >= minimo, subject + ': termo faltante');
 }
 assert(published.terms.every(t => t.status === 'reviewed' && t.sources.length > 0 && t.sources.every(s => /^https:\/\//.test(s.url))));
@@ -53,11 +53,32 @@ assert(programacaoFisica.articleLinks.some(a => a.articleId === 'art-f6cfe9fbcc7
 assert(match('', 'P3').length >= 108);
 assert(match('', 'P2').length >= 35);
 assert(match('', '', 'auditoria-governamental').length >= 35);
-assert(match('', '', 'orcamento-publico').length >= 120);
+assert(match('', '', 'orcamento-publico').length >= 140);
 const idsOrcamento = published.terms.filter(t=>t.subjectIds.includes('orcamento-publico')).map(t=>t.id);
 assert.equal(new Set(idsOrcamento).size, idsOrcamento.length, 'IDs de orçamento duplicados');
 for(const [q,id] of [['GND','glo-grupo-de-natureza-da-despesa-gnd'],['empenho global','glo-empenho-global'],['superavit financeiro','glo-superavit-financeiro'],['RREO','glo-rreo-relatorio-resumido-da-execucao-orcamentaria'],['AMF','glo-anexo-de-metas-fiscais'],['suprimento de fundos','glo-suprimento-de-fundos']]) assert(match(q).some(t=>t.id===id),'Termo não encontrado: '+q);
 assert(fs.existsSync(path.join(root,'data/glossario/termos/orcamento-publico-complementos.json')));
+assert(fs.existsSync(path.join(root,'data/glossario/termos/orcamento-publico-empenho.json')),'Lote novo de empenho ausente');
+const empenho = published.terms.find(t => t.id === 'glo-empenho');
+assert(empenho && empenho.definition.includes('pendente ou não de implemento de condição'),'Empenho: redação legal do art. 58 foi alterada');
+assert(empenho.articleLinks.some(a => a.articleId === 'art-67167e9c18284c4c'));
+for (const [query, id] of [
+ ['empenho prévio','glo-empenho-previo'],
+ ['reforço de empenho','glo-reforco-de-empenho'],
+ ['anulação de empenho','glo-anulacao-de-empenho'],
+ ['dispensa de emissão da nota','glo-dispensa-de-emissao-da-nota-de-empenho'],
+ ['limite de empenho','glo-limite-de-empenho'],
+ ['crédito empenhado em liquidação','glo-credito-empenhado-em-liquidacao'],
+ ['crédito empenhado liquidado a pagar','glo-credito-empenhado-liquidado-a-pagar'],
+ ['ateste de recebimento','glo-ateste-de-recebimento'],
+ ['recebimento definitivo','glo-recebimento-definitivo-do-objeto'],
+ ['inscrição em restos a pagar','glo-inscricao-em-restos-a-pagar'],
+ ['cancelamento de restos a pagar','glo-cancelamento-de-restos-a-pagar'],
+ ['pagamento de restos a pagar','glo-pagamento-de-restos-a-pagar'],
+ ['disponibilidade de caixa','glo-disponibilidade-de-caixa']
+]) assert(match(query).some(t => t.id === id),'Verbetes de empenho: falta '+query);
+const notaEmpenho = fs.readFileSync(path.join(root,'3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md'),'utf8');
+assert(notaEmpenho.includes('**pendente ou não de implemento de condição**'),'Artigo canônico deve preservar o alcance literal do art. 58');
 const articleId = 'art-d8b1c5e6037249fa';
 const articleList = JSON.parse(JSON.stringify(ctx.listarArtigosGlossario(termos)));
 assert(articleList.length >= 32, 'Artigos vinculados devem ser listados sem duplicação');
@@ -81,4 +102,4 @@ for (const [query, id] of [['regra de ouro', 'glo-regra-de-ouro'], ['DOCC', 'glo
     assert(match(query).some(t => t.id === id), 'Novo conceito de orçamento ausente: ' + query);
 }
 assert(match('sem termo impossível').length === 0);
-console.log('SUCESSO: ao menos 180 definições, incluindo 120 de orçamento, com filtro e agrupamento por artigo, com fontes, filtros, aliases e links íntegros.');
+console.log('SUCESSO: ao menos 200 definições, incluindo 140 de orçamento, com filtro e agrupamento por artigo, com fontes, filtros, aliases e links íntegros.');

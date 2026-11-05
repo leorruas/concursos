@@ -20,7 +20,7 @@
     {
       "subjectId": "orcamento-publico",
       "label": "Orçamento Público",
-      "count": 120,
+      "count": 140,
       "examBlock": "P3",
       "editorialPriority": "A"
     },
@@ -2770,6 +2770,186 @@
       "examBlock": "P3",
       "editorialPriority": "A",
       "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fixacao-da-despesa",
+      "term": "Fixação da despesa",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-empenho-previo",
+      "term": "Empenho prévio",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-dispensa-de-emissao-da-nota-de-empenho",
+      "term": "Dispensa de emissão da nota de empenho",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-reforco-de-empenho",
+      "term": "Reforço de empenho",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-anulacao-de-empenho",
+      "term": "Anulação de empenho",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-saldo-de-dotacao",
+      "term": "Saldo de dotação",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-limite-de-empenho",
+      "term": "Limite de empenho",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-limite-de-pagamento",
+      "term": "Limite de pagamento",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-credito-empenhado-a-liquidar",
+      "term": "Crédito empenhado a liquidar",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-credito-empenhado-em-liquidacao",
+      "term": "Crédito empenhado em liquidação",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-credito-empenhado-liquidado-a-pagar",
+      "term": "Crédito empenhado liquidado a pagar",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ateste-de-recebimento",
+      "term": "Ateste de recebimento",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-recebimento-provisorio-do-objeto",
+      "term": "Recebimento provisório do objeto",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-recebimento-definitivo-do-objeto",
+      "term": "Recebimento definitivo do objeto",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-inscricao-em-restos-a-pagar",
+      "term": "Inscrição em restos a pagar",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-cancelamento-de-restos-a-pagar",
+      "term": "Cancelamento de restos a pagar",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-pagamento-de-restos-a-pagar",
+      "term": "Pagamento de restos a pagar",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-disponibilidade-de-caixa",
+      "term": "Disponibilidade de caixa",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-desembolso-extraorcamentario",
+      "term": "Desembolso extraorçamentário",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-regime-orcamentario-da-despesa",
+      "term": "Regime orçamentário da despesa",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
       "status": "planned"
     }
   ],

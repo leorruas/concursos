@@ -84,11 +84,14 @@
     {
       "id": "glo-empenho",
       "term": "Empenho",
-      "aliases": [],
-      "definition": "Ato de autoridade competente que cria para o Estado obrigação de pagamento, pendente de implemento de condição, conforme a Lei nº 4.320/1964.",
-      "contrast": "Empenho compromete o crédito; liquidação verifica o direito do credor.",
-      "cebraspeTrap": "Afirmar que empenhar exige entrega e pagamento já realizados.",
-      "example": "A universidade empenha a compra antes de receber os equipamentos.",
+      "aliases": [
+        "Empenho da despesa",
+        "Empenho orçamentário"
+      ],
+      "definition": "Ato emanado de autoridade competente que cria para o Estado obrigação de pagamento, pendente ou não de implemento de condição, nos termos do art. 58 da Lei nº 4.320/1964.",
+      "contrast": "Empenho compromete crédito orçamentário; liquidação verifica o direito adquirido do credor e pagamento efetua a quitação. A emissão da nota documenta o ato, mas não é o próprio empenho.",
+      "cebraspeTrap": "Omitir a expressão legal 'ou não' ao dizer que a obrigação criada pelo empenho depende sempre de condição; ou presumir que já houve entrega e pagamento.",
+      "example": "Uma universidade empenha equipamentos antes da entrega; em outra obrigação, a condição para o pagamento pode já estar implementada, sem confundir o empenho com a liquidação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -100,8 +103,8 @@
       ],
       "sources": [
         {
-          "label": "Lei nº 4.320/1964",
-          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+          "label": "Lei nº 4.320/1964, arts. 58 a 61, texto atualizado da Câmara dos Deputados",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
         }
       ],
       "status": "reviewed"

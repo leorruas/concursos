@@ -82,6 +82,16 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         const local = fs.readFileSync(path.join(rootDir, '_site', recurso), 'utf8');
         if (await res.text() !== local) throw new Error('Recurso dos flashcards diverge do build: ' + recurso);
       }
+      // O glossário é uma página própria: verificar dados, interface e link publicado.
+      for (const recurso of ['glossario-index.json', 'web/09-glossary.js', 'index.html']) {
+        const response = await fetch(new URL(recurso + '?' + cacheBuster, baseUrl), {
+          headers: { 'cache-control': 'no-cache' }, signal: AbortSignal.timeout(8000)
+        });
+        if (!response.ok) throw new Error('Glossário publicado: HTTP ' + response.status + ' em ' + recurso);
+        const local = fs.readFileSync(path.join(rootDir, '_site', recurso), 'utf8');
+        if (await response.text() !== local) throw new Error('Recurso do glossário diverge do build: ' + recurso);
+      }
+      console.log('✓ Glossário, interface e índice sincronizados no Pages.');
       console.log('✓ Coleção e interface dos flashcards sincronizadas no Pages.');
       console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');
       console.log(`✓ GitHub Pages sincronizado: ${publicadoPaths.size} artigos no manifesto ao vivo.`);

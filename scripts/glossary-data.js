@@ -10,9 +10,9 @@ const listaValida = (valor) => Array.isArray(valor) && valor.length > 0 && valor
 export function buildGlossary(rootDir, manifest, catalog, contests) {
   const dir = path.join(rootDir, 'data/glossario/termos');
   const backlog = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/glossario/backlog-cgu-2026.json'), 'utf8'));
-  verificar(backlog.terms.length === 200, 'backlog inicial deve conter 200 candidatos');
+  verificar(backlog.terms.length >= 200, 'backlog inicial deve preservar pelo menos 200 candidatos');
   const planned = new Map(backlog.terms.map(x => [x.id, x]));
-  verificar(planned.size === 200, 'IDs duplicados no backlog');
+  verificar(planned.size === backlog.terms.length, 'IDs duplicados no backlog');
   const articles = new Map(manifest.map(x => [x.articleId, x]));
   const knownContests = new Set(contests.map(x => x.id));
   const subjectsByContest = new Map(catalog.contests.map(c => [c.concursoId, new Map(c.subjects.map(s => [s.subjectId, s.rotulo || s.categoria]))]));

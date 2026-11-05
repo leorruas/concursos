@@ -183,9 +183,11 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 **Reuso obrigatório antes de criar:** Hub já tem técnicas, exemplos e heurísticas: primeiro verificar o que deve migrar, manter no hub resumo e links.
 
-- [ ] **F47 · Soma, subtração e multiplicação mental**: extrair e consolidar aproximação, compensação, produtos especiais e prevenção de erro de sinal.
-- [ ] **F48 · Porcentagem, proporções e escalas**: decomposição, razão, mudanças percentuais e verificação por estimativa; articular com Lógica/10.
-- [ ] **F49 · Estimativas e checagem de plausibilidade**: ordem de grandeza, arredondamento controlado, cálculo aproximado × exato e erros típicos.
+- [x] **F47 · Soma, subtração e multiplicação mental**: extrair e consolidar aproximação, compensação, produtos especiais e prevenção de erro de sinal.
+- [x] **F48 · Porcentagem, proporções e escalas**: decomposição, razão, mudanças percentuais e verificação por estimativa; articular com Lógica/10.
+- [x] **F49 · Estimativas e checagem de plausibilidade**: ordem de grandeza, arredondamento controlado, cálculo aproximado × exato e erros típicos.
+
+**Onda 11 concluída editorialmente (05/11/2026):** F47–F49 receberam artigos sobre compensação aritmética, porcentagens, proporções, escalas, estimativas e verificação. Corrigiu-se no hub a interpretação imprecisa do exemplo de 24% de 900 e removeu-se uma promessa de ganho percentual de precisão sem evidência. São conteúdos transversais, **sem vínculo forçado a concurso específico** no catálogo. Os resultados individuais permanecem no repositório privado.
 
 ## Recortes cobertos sem criar artigos novos
 
@@ -197,4 +199,4 @@ A publicação deve também registrar vínculo de cobertura para as unidades que
 
 Para executar qualquer fase: ler `AGENTS.md` → este roteiro → hub correspondente → notas de reuso → fonte do edital/legislação → consultar `data/contexto-estudo/<concurso>/<materia>.json` se a mudança se relacionar a conteúdo já estudado. Publicar o pequeno lote, conferir CI e marcar como concluídas **somente** as microfases efetivamente publicadas; registrar desvios e lacunas com precisão. Na aula, usar `CHAT.md` e o contexto/sessão mais recente como fonte do próximo passo, não as caixas deste plano.
 
-**Controle atualizado (05/11/2026):** 11 ondas e 49 microfases, **46 atendidas editorialmente e 3 pendentes**. Não representa estudo ou aprendizagem.
+**Controle atualizado (05/11/2026):** **49 de 49 microfases implementadas editorialmente**, sem pendências de criação previstas neste roteiro. Validação normativa, corpus de provas reais e retenção de aprendizagem não estão concluídos por esse marco.

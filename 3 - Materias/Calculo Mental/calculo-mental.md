@@ -5,7 +5,7 @@ title: "Cálculo mental"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-06-30
+updated: 2026-11-05
 ---
 
 # Cálculo mental
@@ -13,6 +13,14 @@ updated: 2026-06-30
 Treinamento focado em otimização de processamento cognitivo, retenção temporária de dados (memória de trabalho) e velocidade de cálculo para provas de concurso.
 
 ---
+
+## Artigos por técnica
+
+- [[3 - Materias/Calculo Mental/01 - soma subtracao e multiplicacao por compensacao|01. Soma, subtração e multiplicação por compensação]]: microfase F47, exemplos e itens C/E.
+- [[3 - Materias/Calculo Mental/02 - porcentagens proporcoes e escalas|02. Porcentagens, proporções e escalas]]: microfase F48, exemplos e itens C/E.
+- [[3 - Materias/Calculo Mental/03 - estimativas limites e verificacao|03. Estimativas, limites e verificação]]: microfase F49, exemplos e itens C/E.
+
+A estrutura anterior do hub foi preservada. Os artigos distinguem **resultado exato** de **estimativa de plausibilidade** e descrevem as condições de cada técnica.
 
 ## 1. Visão geral e "RAM mental"
 
@@ -93,9 +101,9 @@ Para diminuir a taxa de perda dos estados intermediários sob alta carga cogniti
 - **Regra**: Transformar o número parcial em um pequeno som verbal repetitivo (ex: falar "três cinco três" para o número $353$). Isso transfere a retenção do estado para o circuito de memória verbal (alça fonológica), permitindo liberar espaço visual para o cálculo do próximo passo sem evaporar o número anterior.
 
 ### Auditoria Mental e Radar Estrutural
-Para elevar a precisão de 90% para 97%+, desenvolve-se um radar para identificar quando um resultado "cheira errado", sem a necessidade de refazer a conta inteira mecanicamente:
+Para examinar a plausibilidade de um resultado sem refazer toda a conta, é útil verificar propriedades estruturais. A precisão individual só pode ser avaliada com registros de tentativas e resultados:
 - **Heurística**: Não recalcular, mas verificar se o resultado atende a **propriedades estruturais** básicas:
-  * *Estimativa por Fração / Limites*: $24\%$ de $900 \approx 214$? Um quarto ($25\%$) é $225$. Como $24\%$ é um pouco menor que um quarto, o resultado deve ser ligeiramente menor que $225$ (o valor exato é $216$). Um número muito distante disso (como $214$) indica desvio.
+  * *Estimativa por fração e limites*: $25\%$ de $900$ é $225$. Assim, $24\%$ é próximo e menor que $225$. **Tanto $214$ quanto $216$ são aproximações plausíveis**; para obter o valor exato, subtraia $1\%$ de $900$ ($9$) de $225$: **$216$**. Aproximação grosseira não discrimina valores tão próximos.
   * *Ordem de Grandeza*: $98 \times 67 \approx 6566$? $100 \times 67 = 6700$. Subtraindo $2 \times 67$ ($134$), o resultado deve terminar em $66$ e ser um pouco menor que $6700$. Sim, $6566$ faz sentido estrutural.
   * *Diferença de Quadrados*: $51 \times 49 = 2499$? O resultado é um acima e um abaixo de $50$ ($50^2 - 1^2$), logo deve ser $2500 - 1 = 2499$.
   * *Checagem do Troco / Ajuste*: Em subtrações como $32000 - 23998 = 8002$, o cálculo estrutural é $32000 - 24000 + 2$. O resultado precisa obrigatoriamente terminar com $2$ na unidade e ter a magnitude correta de $8000$.
@@ -103,4 +111,4 @@ Para elevar a precisão de 90% para 97%+, desenvolve-se um radar para identifica
 ---
 
 ## 3. Histórico de treinos e avanços
-O registro detalhado de todas as baterias de treino, as taxas de acerto brutas, a Taxa de Aproveitamento Ponderada (TAP) e a análise qualitativa da RAM mental estão localizados no arquivo de progresso em [[Avancos|Avanços e desempenho]].
+Resultados de treinos, erros recorrentes e métricas individuais são mantidos no **cofre privado de estudos**; esta nota pública contém apenas conceitos, exemplos e técnicas. A existência dos artigos não significa prática concluída.

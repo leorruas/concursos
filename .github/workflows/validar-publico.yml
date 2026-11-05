@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - run: node scripts/test-priority-sync.js
       - run: node scripts/validate-flashcards.js
       - run: node scripts/test-article-identity.js
       - run: node scripts/test-contest-catalog.js && node scripts/test-contest-home-filter.js && node scripts/test-contest-article-filter.js && node scripts/test-contest-search-scope.js

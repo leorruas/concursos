@@ -2,8 +2,10 @@
     'use strict';
     const F=window.Flashcards, $=id=>document.getElementById('fc-'+id);
     let cards=[], catalog, state=F.empty(), revealed=false, storageOK=true, corrupt=false;
-    // O perfil de erros agora é privado; manter somente a última cópia local.
-    let prioritySync='private';
+    // Sincronização somente quando existir serviço autenticado de mesma origem.
+    const P=window.FlashcardsPrioritySync;
+    const priorityEndpoint=P.endpointFromMeta(document,location);
+    let prioritySync=priorityEndpoint?'checking':'local',priorityRequest=null;
     const status=text=>{$('status').textContent=text;};
     const show=(id,visible)=>{$(id).hidden=!visible;};
     function save(next) {
@@ -25,19 +27,29 @@
         const priorities=profile?.entries.filter(p=>p.examId===$('exam').value&&(!$('subject').value||p.subjectId===$('subject').value))||[];
         const count=new Set(priorities.map(p=>p.cardId)).size;
         const summary=profile ? `${count} cartões ligados aos erros deste recorte · dados de ${profile.cut}.${profile.unmappedCount ? ` ${profile.unmappedCount} lacuna(s) aguardam novos cartões no conjunto.` : ''}` : '';
-        $('errors-status').textContent=summary
-            ? summary+' Última cópia local. Histórico privado, ainda sem sincronização autenticada.'
-            : 'Histórico das questões privado. Estude novos cartões ou revisões; prioridades remotas indisponíveis nesta página pública.';
+        const detail=prioritySync==='connected'?' Atualizado pelo perfil privado autenticado.'
+            : prioritySync==='unauthorized'?' Entre com GitHub para atualizar o perfil privado.'
+            : prioritySync==='offline'?' Serviço privado indisponível. Usando os dados deste navegador.'
+            : ' Cópia local. Sincronização remota ainda não configurada.';
+        $('errors-status').textContent=(summary||'Histórico das questões privado.')+detail;
+        show('priority-login',!!priorityEndpoint&&prioritySync==='unauthorized');
         $('stats').replaceChildren(...[['known','Conhecidos'],['learning','Em aprendizagem'],['unknown','Ainda não sei'],['due','Precisam de revisão'],['unseen','Ainda não estudados']].map(([key,label])=>{
             const box=document.createElement('div'), n=document.createElement('strong'), t=document.createElement('span');n.textContent=stats[key];t.textContent=label;box.append(n,t);return box;
         }));
         $('stats').setAttribute('aria-label',`${stats.unknown} conceitos com resposta Não sei; revisões pendentes podem incluir conceitos conhecidos ou em aprendizagem.`);
         show('resume',!!state.session);
     }
-    // Não buscar raw.githubusercontent.com: o cofre exige autenticação.
+    // Sem backend: nenhuma requisição privada. Falhas mantêm o histórico local.
     async function syncPriorities() {
-        if(catalog)dashboard();
-        return !!state.priorities;
+        if(!catalog||corrupt||!priorityEndpoint){if(catalog)dashboard();return !!state.priorities;}
+        if(priorityRequest)return priorityRequest;
+        priorityRequest=(async()=>{
+            const result=await P.load(priorityEndpoint,state,cards,F,window.fetch.bind(window));
+            prioritySync=result.status;
+            if(result.updated)save(result.state);
+            dashboard();return !!state.priorities;
+        })();
+        try{return await priorityRequest;}finally{priorityRequest=null;}
     }
     function home() {document.querySelector('.fc-main').classList.remove('is-studying');show('dashboard',true);show('round',false);show('summary',false);dashboard();}
     function render() {
@@ -85,6 +97,7 @@
         catalog=await response.json();cards=catalog.cards.filter(c=>c.status==='validated');
         let raw;try{raw=localStorage.getItem(F.KEY);if(raw)state=F.validateState(JSON.parse(raw),cards);}
         catch{status('Não foi possível ler o progresso salvo. Nenhum dado foi sobrescrito. Exporte uma cópia antes de iniciar uma nova rodada.');storageOK=false;corrupt=true;}
+        if(priorityEndpoint)$('priority-login').href=P.loginUrl(priorityEndpoint);
         options($('exam'),catalog.exams.map(e=>[e.id,e.title+' · '+e.board]));
         const examFromURL=new URLSearchParams(location.search).get('concurso');
         if(catalog.exams.some(e=>e.id===examFromURL))$('exam').value=examFromURL;

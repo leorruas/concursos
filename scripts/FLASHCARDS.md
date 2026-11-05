@@ -24,6 +24,14 @@ Sessões contínuas usam uma janela de até dez cartões em memória, mas permit
 
 Isso é uma heurística transparente de recuperação autodeclarada, não algoritmo clínico validado nem previsão de desempenho Cebraspe. Não escreve no ledger de questões, no desempenho de simulados ou nos contextos do chat.
 
+## Sincronização autenticada opcional: frontend pronto, backend pendente
+
+`web/11-priority-sync.js` lê `GET /v1/study/priorities` de **mesma origem HTTPS**, mediante cookie de sessão, sem token GitHub no JavaScript. O login `/v1/login/github` aparece somente diante de 401/403. O cliente recusa endpoints externos, redirecionamentos e caminhos inesperados; valida o perfil pelo motor, preserva as revisões locais, descarta snapshots atrasados e continua offline diante de falha.
+
+A configuração inicial de `flashcards.html` é `<meta name="concursos-priority-endpoint" content="">`, portanto o navegador **não consulta** serviço privado até a implantação real. Para ativar, preencher o meta com `/v1/study/priorities` apenas quando o mesmo domínio do site oferecer API autenticada validada. GitHub Pages estático não fornece esse serviço: é necessário roteamento/servidor na mesma origem, como domínio próprio com proxy. A identidade GitHub autorizada e o acesso de leitura `leorruas/concurso-dados:data/contexto-estudo/flashcards-prioridades.json` por GitHub App devem ficar exclusivamente no servidor. A resposta deve ser um snapshot compatível com `Flashcards.validatePriorities` (ou envelope `{priorities: snapshot}`), sem respostas nem ledger e com `Cache-Control: private, no-store`. O frontend não oferece upload/importação de arquivos.
+
+Testes: `node scripts/test-priority-sync.js`. A conclusão desta etapa significa adaptador testado, **não** sincronização em funcionamento. A implementação de autenticação, hospedagem e integração do servidor está descrita no cofre privado `migration/SINCRONIZACAO-AUTENTICADA.md`.
+
 ## Persistência e privacidade
 
 **Arquitetura válida desde 05/11/2026:** os dados individuais estão no repositório privado `leorruas/concurso-dados`; a coleção `data/flashcards.json` e os artigos permanecem públicos. A branch principal pública deixou de conter `data/contexto-estudo/`, `data/sessoes/`, `data/questoes-ledger.json`, `data/erros-recorrentes.json`, `data/provas.json`, `00 - Desempenho/` e `Avancos.md`. A consolidação automática das sessões foi deslocada para o workflow privado, validado com testes próprios. O Pages não consulta mais o JSON do perfil pelo `raw.githubusercontent.com`; o motor ainda reconhece uma última cópia válida do perfil no armazenamento local. **Sem backend autenticado, a atualização remota privada das prioridades fica pendente.** Nada de token no JavaScript público nem upload manual. Arquivos removidos do HEAD continuam potencialmente visíveis em commits antigos, PRs e caches do GitHub: pendência própria de higienização histórica.

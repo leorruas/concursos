@@ -29,6 +29,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Testar leitura autenticada opcional sem tokens no navegador
+        run: node scripts/test-priority-sync.js
       - name: Validar catálogo de flashcards públicos
         run: node scripts/validate-flashcards.js
       - name: Testar identidade e compatibilidade dos artigos

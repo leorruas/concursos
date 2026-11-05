@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-BR" data-theme="dark">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="concursos-priority-endpoint" content=""><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Flashcards · concursos</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -13,7 +13,8 @@
 <section id="fc-dashboard" hidden>
 <div class="fc-section-label"><h2>Seu repertório</h2><span>lembrar é diferente de reconhecer</span></div>
 <div id="fc-stats" class="fc-stats"></div>
-<p id="fc-errors-status" class="fc-priorities-status" role="status" aria-live="polite">Atualizando automaticamente os cartões ligados aos erros das questões…</p>
+<p id="fc-errors-status" class="fc-priorities-status" role="status" aria-live="polite">Histórico das questões privado.</p>
+<a id="fc-priority-login" href="/v1/login/github" hidden>Entrar com GitHub para sincronizar prioridades</a>
 <div class="fc-setup"><div class="fc-setup-heading"><p class="fc-eyebrow">PRÓXIMA SESSÃO</p><h2>Estude no seu ritmo.</h2><p>Continue enquanto houver cartões elegíveis. Encerre quando quiser, preservando as revisões.</p><div class="fc-session-note"><strong>Como estudar</strong><p>Pense na resposta antes de revelar. Depois, avalie o que conseguiu recuperar.</p></div></div>
 <form id="fc-form" class="fc-controls">
 <label for="fc-exam">Concurso</label><select id="fc-exam" name="exam"></select>
@@ -47,5 +48,5 @@
 </details>
 <noscript>Ative JavaScript para estudar e salvar o progresso neste dispositivo.</noscript>
 </main>
-<script src="web/00-route-utils.js"></script><script src="web/09-flashcards-engine.js"></script><script src="web/10-flashcards-ui.js"></script>
+<script src="web/00-route-utils.js"></script><script src="web/09-flashcards-engine.js"></script><script src="web/11-priority-sync.js"></script><script src="web/10-flashcards-ui.js"></script>
 </body></html>

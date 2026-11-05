@@ -91,6 +91,20 @@ A norma disciplina termos e procedimentos de consentimento/assentimento e análi
 
 **Exemplo 3:** pesquisador usa exclusivamente base agregada sem identificação individual em hipótese abrangida pelo art. 1º, parágrafo único; a resolução prevê que essa pesquisa não será registrada nem avaliada pelo sistema, mas isso **não elimina deveres de integridade e outras regras legais**.
 
+### Verificação normativa adicional: etapas preliminares versus pesquisa-piloto
+
+O [art. 2º, XII, da Resolução CNS nº 510/2016](https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2016/resolucao-no-510.pdf) define **etapas preliminares** como atividades para averiguar a possibilidade de realizar a pesquisa, inclusive contatos iniciais, **sem identificação das pessoas e sem registro público e formal das informações** nessas condições. O dispositivo explicita que elas **não se confundem com estudos exploratórios ou pesquisas-piloto**, considerados projetos de pesquisa. O **art. 24** exclui as etapas preliminares da avaliação pelo sistema CEP/CONEP.
+
+A consequência para o julgamento C/E é de **escopo**: a dispensa do art. 24 não se estende automaticamente a projeto-piloto de pesquisa com participantes. Tampouco toda pesquisa piloto será necessariamente submetida: primeiro se analisa o campo de aplicação da norma e as hipóteses de não registro/não avaliação do art. 1º, parágrafo único.
+
+Os **arts. 25, §§ 1º e 2º**, distinguem a competência do CEP/CONEP para análise dos **aspectos éticos e procedimentos que impliquem risco aos participantes** da avaliação científica do desenho metodológico em si, atribuída às instâncias acadêmicas específicas. Aprovação ética **não comprova** validade causal, representatividade ou qualidade estatística.
+
+O **art. 28, IV**, determina, para pesquisa no âmbito dessa resolução, guarda dos dados pelo pesquisador por **no mínimo cinco anos após o término da pesquisa**. Esse prazo tem destinatário e escopo normativo determinados: não cria automaticamente prazo universal para toda auditoria administrativa.
+
+**Item C/E inédito.** As etapas preliminares da pesquisa são excluídas da apreciação pelo CEP/CONEP, razão pela qual um estudo-piloto de pesquisa científica também estará dispensado, independentemente do método, dos participantes e da situação normativa.
+
+**Gabarito: Errado.** O art. 2º, XII, separa expressamente etapas preliminares de estudo-piloto; o art. 24 não concede dispensa geral a pilotos, e o art. 1º ainda deve ser analisado.
+
 ## Tensão entre proteção do participante e evidência verificável
 
 O avaliador deve documentar o método de maneira suficiente para auditoria da qualidade, sem criar exposição evitável de entrevistados. Anonimizar citações pode reduzir riscos, mas ocultar todos os critérios e decisões analíticas impede verificação. Solução possível: publicar procedimento, categorias, estatísticas e limitações; conservar registros identificáveis sob controle de acesso legítimo, com destinação adequada.

@@ -184,6 +184,16 @@ A coluna de planejamento causal **não equivale a uma estimativa de impacto já 
 
 **Critérios de julgamento** definem o padrão com que se apreciará um objeto: regra de acesso, meta programada, prazo de serviço, comparação histórica, padrão técnico ou qualidade mínima. Devem ser explícitos, pertinentes ao objetivo e compatíveis com a informação disponível. Uma meta arbitrária ou um padrão inadequado pode levar a julgamento enganoso, mesmo com dados exatos.
 
+### Verificação de fonte: o termo "piloto" designa objetos diferentes
+
+O [Guia Prático de Análise Ex Post, seção de avaliação de implementação, p. 165–166](https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/auditoria-e-fiscalizacao/arquivos/guiaexpost.pdf) recomenda **avaliação-piloto** quando é preciso testar se técnicas e instrumentos de coleta funcionam em diversos locais ou equipes. Ela é um **ensaio da avaliação** (incluindo coleta, cronograma e procedimentos), que não deve ser confundido com **projeto-piloto da própria intervenção** (oferecer serviço em escala pequena). Os dois podem ocorrer juntos, mas seus objetos e conclusões são diferentes.
+
+A [Resolução CNS nº 510/2016, art. 2º, XII, e art. 24](https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2016/resolucao-no-510.pdf) também separa **etapas preliminares de preparação de um projeto**, não submetidas à apreciação, de **estudos exploratórios e pesquisas-piloto**, considerados projetos de pesquisa no escopo da resolução. Portanto, se a avaliação-piloto for pesquisa científica com participantes, não se deve presumir dispensa de exame ético apenas pelo rótulo de "piloto". Ver [[3 - Materias/Avaliacao de Politicas Publicas/07 - etica e integridade da pesquisa avaliativa|Ética e integridade da pesquisa]].
+
+**Item C/E inédito.** Uma avaliação-piloto recomendada para testar instrumentos de coleta em campo equivale necessariamente ao projeto-piloto que implementa a política pública em pequena escala.
+
+**Gabarito: Errado.** O primeiro testa a **avaliação**; o segundo testa a **intervenção**. Ambos podem coexistir, mas não são sinônimos.
+
 ### Seleção do desenho a partir da pergunta
 
 | Pergunta avaliativa | Desenho ou fonte inicialmente pertinente | O que não se pode concluir automaticamente |

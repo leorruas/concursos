@@ -77,6 +77,22 @@ Uma política concede benefício a municípios com índice de vulnerabilidade **
 
 Após parear, verificar equilíbrio das covariáveis e perda de observações sem correspondência. A melhora do equilíbrio nas características observáveis **não resolve** automaticamente motivação, capacidade administrativa ou choques não medidos. Pareamento e DiD podem ser combinados, mas as respectivas hipóteses ainda precisam ser avaliadas.
 
+### Verificação metodológica dirigida: testes de identificação, não certificados de causalidade
+
+A [síntese do Banco Mundial sobre estudos de eventos e diferenças em diferenças](https://blogs.worldbank.org/en/impactevaluations/econometrics-sandbox-event-study-designs-co) explicita um risco especialmente útil: **tendências anteriores aparentemente paralelas podem coexistir com viés quando a política é atribuída em resposta a choques contemporâneos não observados no período prévio**. Portanto, verificar tendências prévias é um diagnóstico de plausibilidade, não prova lógica de validade futura. Um *placebo* sem efeito aparente reduz algumas preocupações, mas não elimina todos os confundidores.
+
+O [material do BID sobre métodos de avaliação de impacto](https://publications.iadb.org/publications/english/document/Development-Effectiveness-Overview-%28DEO%29-2010.pdf) distingue o grupo de comparação construído por mudança temporal, proximidade de um limiar e semelhança de características observadas. A escolha depende da fonte de variação, da seleção para tratamento e de pressupostos passíveis de exame.
+
+| Desenho | Verificação dirigida | O que a verificação não assegura |
+| :--- | :--- | :--- |
+| **DiD** | Trajetórias prévias, choques simultâneos, antecipação, composição dos grupos | Tendências contrafactuais futuras comprovadas |
+| **RDD** | Distribuição do índice perto do corte, covariáveis e outras regras no mesmo limiar | Validade para unidades distantes do corte |
+| **Pareamento** | Equilíbrio das covariáveis **pré-tratamento**, suporte comum e exclusão de variáveis pós-tratamento | Ausência de confundidores não medidos |
+
+**Item C/E inédito.** Em diferenças em diferenças, a existência de trajetórias paralelas nos períodos observados antes da política é suficiente para demonstrar a hipótese de tendências paralelas contrafactuais nos períodos posteriores.
+
+**Gabarito: Errado.** O dado histórico pode apoiar a hipótese, mas o contrafactual pós-intervenção não é observado e pode ser alterado por choques e seleção. O erro é trocar **evidência favorável à plausibilidade** por **prova da hipótese**.
+
 ## Comparação dos desenhos
 
 | Método | O que aproxima o contrafactual | Hipótese ou limitação crítica |

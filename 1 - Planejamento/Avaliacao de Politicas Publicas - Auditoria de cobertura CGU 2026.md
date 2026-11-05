@@ -85,6 +85,18 @@ Os artigos canônicos [[3 - Materias/Avaliacao de Politicas Publicas/02 - implem
 
 **Próxima auditoria:** verificar afirmações e exceções em fontes primárias e literatura metodológica, calibrar itens C/E com provas reais pertinentes e revisar casos/calculações. Os subitens 3.4 (pré-teste/piloto), 5.2 (pressupostos de identificação causal) e 7.3 (ética e CEP/CONEP) merecem inspeção mais rigorosa. Manter separadas cobertura editorial, validação de fonte e exposição de estudo.
 
+## Auditoria metodológica fina, lote 1 (05/11/2026): 3.4, 5.2 e 7.3
+
+**Procedimento:** conferência dirigida contra fontes primárias e documentos de referência. Este lote **não** equivale a validação integral de todos os 21 subitens, nem a calibração de itens por provas reais.
+
+| Subitem | Fonte consultada e constatação | Ajuste executado | Residual |
+| :--- | :--- | :--- | :--- |
+| **3.4** | [Guia federal de Análise Ex Post, seção avaliação de implementação, p. 165–166](https://www.gov.br/cgu/pt-br/centrais-de-conteudo/publicacoes/auditoria-e-fiscalizacao/arquivos/guiaexpost.pdf): avaliação-piloto testa técnicas e instrumentos de coleta, sobretudo em vários locais ou equipes. [Resolução 510, art. 2º, XII](https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2016/resolucao-no-510.pdf): pesquisa-piloto não se confunde com etapas preliminares. | Acrescentada distinção entre pré-teste, piloto da avaliação e piloto da intervenção na nota 03, com item C/E. | Detalhes práticos de amostragem e desenho, provas-espelho. |
+| **5.2** | [Banco Mundial, estudos de eventos e DiD](https://blogs.worldbank.org/en/impactevaluations/econometrics-sandbox-event-study-designs-co): tendências prévias podem falhar em detectar choque contemporâneo e viés. [BID, métodos de impacto](https://publications.iadb.org/publications/english/document/Development-Effectiveness-Overview-%28DEO%29-2010.pdf): contrafactuais por DiD, RDD e pareamento exigem condições de identificação distintas. | Tabela de verificações e limites no artigo 05; questão C/E sobre tendências paralelas. | Conferir variantes de DiD escalonado, RDD difuso e sensibilidade do pareamento em bibliografia técnica adicional. |
+| **7.3** | [Resolução CNS 510/2016, arts. 1º, 2º XII, 24, 25 e 28 IV](https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2016/resolucao-no-510.pdf): exceções de apreciação; distinção etapas preliminares/pesquisa-piloto; objeto da análise ética; guarda de dados por no mínimo cinco anos no regime da norma. | Acrescentadas distinções de escopo e responsabilidade no artigo 07, com item C/E. | Conferir articulação com normas posteriores de ética e proteção de dados, sem extrapolação automática à auditoria. |
+
+**Situação:** os **21/21 subitens seguem com cobertura editorial substantiva**; **3 receberam verificações metodológicas pontuais, sem selo de validação integral**, e os outros 18 permanecem fora deste lote. Provas Cebraspe reais, auditoria dos cálculos e conferência de todos os conceitos ainda pendentes. O documento continua sendo matriz editorial e de verificação, não registro de aprendizagem individual.
+
 ## Resultado e ordem de implementação
 
 **Triagem:** **21/21 subitens mapeados**; **7 substantivos, 10 parciais e 4 lacunas** (5.2, 5.3, 7.2, 7.3). *Mapeado* não significa coberto; a matéria **não está editorialmente concluída**, nem há auditoria normativa/metodológica fina dos 21 itens. A classificação é provisória e baseada nos artigos inspecionados.

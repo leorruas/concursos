@@ -12,7 +12,7 @@ updated: 2026-11-05
 
 Planejamento de glossário para **CGU 2026, cargo 1, Auditoria, Cebraspe (Certo/Errado)**. O recorte prioriza conceitos, siglas, etapas, classificações e fronteiras que podem gerar interpretações erradas. As prioridades A/B/C reproduzem a decisão editorial do [[1 - Planejamento/CGU 2026 - Plano de materias|plano de matérias]], **não indicam frequência comprovada de cobrança**. Escopo conferido com [[2 - Editais/CGU 2026 - Auditoria|edital sintetizado no vault]] e [edital no Cebraspe](https://www.cebraspe.org.br/concursos/cgu_26_affc).
 
-**Estado editorial em 05/11/2026:** **317 termos planejados**, incluindo os 200 iniciais, 115 conceitos adicionais de Orçamento e dois fundamentos de Contabilidade, com **202 definições revisadas** no JSON público: 35 de Auditoria, 140 de Orçamento e 27 de Contabilidade. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
+**Estado editorial em 05/11/2026:** **325 termos planejados**, incluindo os 200 iniciais, expansões de Orçamento, nove fundamentos adicionais de Contabilidade e o PCASP reservado para a última etapa, com **209 definições revisadas** no JSON público: 35 de Auditoria, 140 de Orçamento e 34 de Contabilidade. **PCASP é item de roadmap, ainda não é verbete publicado.** O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
 
 ## Onde o glossário aparecerá na wiki
 
@@ -208,11 +208,11 @@ A entrada **Ativo** prioriza controle, evento passado e potencial de serviços o
 
 **Foco em empenho e estágios da despesa (20 verbetes, 05/11/2026):** complementadas as relações entre fixação, empenho prévio, dispensa da nota, reforço e anulação do empenho, limites de empenho e pagamento, crédito empenhado a liquidar, em liquidação e liquidado a pagar, ateste/recebimento contratual, restos a pagar, disponibilidade de caixa e reconhecimento orçamentário. A definição do verbete **Empenho** foi corrigida para a redação literal do art. 58 da Lei nº 4.320/1964: **“pendente ou não de implemento de condição”**. A mesma precisão foi acrescentada ao artigo canônico sobre os estágios da despesa e a um item C/E didático. Os novos termos estão em `data/glossario/termos/orcamento-publico-empenho.json`, com IDs permanentes, fontes oficiais e artigos vinculados, ampliando o catálogo para **200/315** e Orçamento Público para **140**. Esta expansão não altera os IDs ou o histórico dos verbetes existentes.
 
-**Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (**250** no total).
+**Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (**259** no total, considerando a nova expansão contábil).
 
-**Fase 4:** outras **40 definições** de Governança, Transparência, Evidências/IA e Finanças (**290** no total).
+**Fase 4:** outras **40 definições** de Governança, Transparência, Evidências/IA e Finanças (**299** no total).
 
-**Fase 5:** **25 definições** de Direito Administrativo, Estado e Democracia, Ética, Administração Pública e Sociedade Brasileira, completando **315** (200 iniciais mais 115 de ampliação).
+**Fase 5:** **25 definições** de Direito Administrativo, Estado e Democracia, Ética, Administração Pública e Sociedade Brasileira, chegando a **324** verbetes. O PCASP, reservado ao final do roadmap, completa a previsão de **325**.
 
 A ordem é revisável se o estudo revelar lacuna de maior prioridade. O contador na interface mostrará apenas entradas **revisadas e efetivamente publicadas**.
 
@@ -240,3 +240,42 @@ Quando há equivalência explícita em `data/glossario/flashcard-equivalencias.j
 **Fotografia anterior à segunda ampliação (05/11/2026):** 143 termos revisados; 38 reaproveitavam cartões existentes e 105 alimentavam cartões derivados. Os 232 cartões editoriais originais permaneciam intactos. A ampliação para 173 definições atualiza automaticamente a coleção após novo build; consultar os totais gerados, sem presumir o número de equivalências do novo lote. A expansão do glossário altera esse total automaticamente no próximo build; não tratar essas quantidades como avaliação de domínio ou incidência de prova.
 
 Os vínculos editoriais explícitos devem ser preservados quando um cartão ou termo for renomeado; alterar um ID exige plano de migração das revisões locais. A inspeção de sobreposição conceitual continua necessária em cada lote de termos, porque correspondência literal não substitui revisão semântica.
+
+
+## Plano de revisão de linguagem de todo o glossário (iniciado em 05/11/2026)
+
+**Problema observado durante a leitura:** definições formalmente corretas podem ficar difíceis quando começam por expressões como “montante recuperável”, “reconhecimento patrimonial”, “agregado fiscal” ou “procedimento de mensuração”, sem explicar o acontecimento concreto. A pessoa precisa saltar entre verbetes para entender o primeiro. A revisão deve corrigir essa dependência excessiva preservando vocabulário que efetivamente aparece nas questões.
+
+**Escopo integral:** os **202 verbetes que já estavam publicados antes deste lote**, distribuídos em 140 de Orçamento Público, 35 de Auditoria Governamental e 27 de Contabilidade Pública. A simplificação **não fica limitada à Contabilidade Pública**. Os sete verbetes de fatos contábeis são novos e já entram no padrão, resultando em **209 verbetes publicados**; o backlog conta ainda com propostas para outras matérias.
+
+**Padrão editorial de cada entrada:**
+
+1. **Definição:** começar pela resposta direta, em uma ou duas frases curtas, com palavras de uso corrente. Introduzir a expressão técnica e a sigla somente quando forem necessárias para a prova, de preferência após explicar seu sentido.
+2. **Contraste:** dizer qual é a diferença para o conceito mais parecido, sem usar uma nova expressão técnica sem explicação. Exemplo: “superávit financeiro = saldo positivo apurado no balanço anterior; excesso de arrecadação = receita acima do previsto no ano atual”.
+3. **Pegadinha C/E:** construir o erro que o Cebraspe poderia cobrar, por troca de categorias, marco temporal, condição legal ou extensão indevida. Manter a redação correta de leis, percentuais e exceções.
+4. **Exemplo:** usar uma situação concreta com poucos elementos, preferencialmente em escola, universidade, órgão público, município ou auditoria. Mostrar o que muda, quando e por quê; usar números simples quando ajudarem.
+5. **Leitura isolada:** a primeira frase deve ser inteligível sem consultar outro artigo ou verbete. Se depender de outra definição, explicar ali em poucas palavras e manter o vínculo de aprofundamento.
+6. **Precisão:** não apagar ressalvas como “em regra”, “se o direito estiver reconhecido” ou “se houver obrigação presente”, nem transformar reconhecimento patrimonial em execução orçamentária. Preservar fontes, IDs, artigo canônico, siglas, links e geração de flashcards.
+
+**Execução por lotes, com acompanhamento:**
+
+| Matéria | Verbetes anteriores | Reescritos nesta primeira rodada | Restantes para revisão |
+| --- | ---: | ---: | ---: |
+| Contabilidade Pública | 27 | 20 | 7 |
+| Auditoria Governamental | 35 | 9 | 26 |
+| Orçamento Público | 140 | 7 | 133 |
+| **Total** | **202** | **36** | **166** |
+
+**Primeiro lote concluído em dados:** 20 definições e contrastes de Contabilidade foram simplificados (ativo/passivo patrimonial, regimes, demonstrações, VPA/VPD, patrimônio líquido, provisão, contingências e custos); 9 de Auditoria (condição, causa, suficiência, adequação, riscos e controles); e 7 de Orçamento (regra de ouro, renúncia, DOCC, bloqueio, estatais e despesa com pessoal). Além disso, entraram sete novos conceitos em linguagem introdutória: **fato contábil, fato permutativo, fato modificativo, fato modificativo aumentativo, fato modificativo diminutivo, fato misto e ato administrativo sem efeito patrimonial imediato**. Permanecem os critérios, exemplos e fontes das entradas existentes quando não há correção necessária.
+
+**Próximas rodadas:** concluir as sete definições anteriores ainda pendentes de Contabilidade; revisar as 26 de Auditoria; revisar as 133 de Orçamento por famílias de conceitos, começando por receita e despesa, execução e créditos, classificações e relatórios fiscais. Em cada lote, confrontar o texto com o artigo de origem e a fonte oficial vigente, testar a busca por linguagem cotidiana e termos técnicos e conferir as relações com os flashcards. O contador de progresso da revisão é editorial e **não mede domínio do conteúdo pelo estudante**.
+
+**Critérios para considerar a revisão fechada:** 202/202 entradas anteriores com leitura isolada compreensível; sete entradas novas mantidas no mesmo padrão; nenhuma alteração de ID, fonte ou categoria por mero estilo; testes automáticos de esquema, busca, links e flashcards aprovados; workflow final do Pages concluído. Uma segunda leitura amostral deve verificar se a simplificação não apagou condições normativas importantes.
+
+## Última etapa do roadmap: PCASP (planejado, não publicado)
+
+**Adicionar ao glossário, depois de concluir a revisão geral, o verbete “Plano de Contas Aplicado ao Setor Público (PCASP)”**. O ID `glo-plano-de-contas-aplicado-ao-setor-publico-pcasp` já está reservado no backlog em `data/glossario/backlog-cgu-2026.json`, **com status planejado**. É proposital deixá-lo no final, sem marcar como definição publicada nesta rodada.
+
+O verbete deve explicar primeiro **para que serve**: organizar e padronizar as contas usadas pelos entes públicos, permitindo registrar operações e comparar informações. Em seguida, abordar as **três naturezas de informação contábil**, sem inventar a natureza “financeira” como quarta categoria: **patrimonial** (classes 1 a 4), **orçamentária** (classes 5 e 6) e **controle** (classes 7 e 8). Dar sentido às oito classes: 1 Ativo; 2 Passivo e Patrimônio Líquido; 3 Variação Patrimonial Diminutiva; 4 Variação Patrimonial Aumentativa; 5 Controles da Aprovação do Planejamento e Orçamento; 6 Controles da Execução do Planejamento e Orçamento; 7 Controles Devedores; 8 Controles Credores.
+
+**Armadilhas prioritárias:** confundir classe 5/6 com as fases cronológicas da despesa, tratar contas de controle como dinheiro disponível, afirmar que o enfoque financeiro é uma quarta natureza do PCASP e usar o PCASP 2027 em uma pergunta sobre o exercício de 2026. A etapa deve ser baseada no [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|artigo de patrimônio e regimes]] e na [página oficial do PCASP da Secretaria do Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/federacao/plano-de-contas-aplicado-ao-setor-publico-pcasp-1), que oferece as versões de 2026 e 2027. Ao publicar, validar a versão do exercício cobrada no edital, acrescentar exemplo e contraste, e manter os vínculos com notas e flashcards.

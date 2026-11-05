@@ -8,8 +8,8 @@
       "aliases": [
         "Regra de ouro orçamentária"
       ],
-      "definition": "Vedação constitucional de operações de crédito em montante superior ao das despesas de capital, ressalvados créditos suplementares ou especiais com finalidade precisa, aprovados pelo Legislativo por maioria absoluta.",
-      "contrast": "Compara operações de crédito e despesas de capital; não é meta de resultado primário nem limite de despesa com pessoal.",
+      "definition": "Regra constitucional que, em geral, impede o governo de contratar operações de crédito em valor maior que suas despesas de capital. Há exceção para créditos suplementares ou especiais de finalidade precisa aprovados por maioria absoluta do Legislativo.",
+      "contrast": "A comparação é entre empréstimos e despesas de capital, não entre receita e despesa primárias. A exceção constitucional precisa ser examinada.",
       "cebraspeTrap": "Afirmar que empréstimos nunca podem superar despesas de capital, omitindo a exceção constitucional de créditos autorizados.",
       "example": "O ente pretende contratar operações de crédito superiores às despesas de capital e precisa verificar a exceção do art. 167, III.",
       "subjectIds": [
@@ -35,8 +35,8 @@
       "aliases": [
         "Benefício tributário com renúncia"
       ],
-      "definition": "Concessão ou ampliação de incentivo ou benefício de natureza tributária de que decorra renúncia de receita, sujeita à estimativa de impacto e às condições legais de responsabilidade fiscal.",
-      "contrast": "Benefício tributário que reduz arrecadação deve ser examinado pelo art. 14 da LRF; não equivale a qualquer despesa corrente de incentivo.",
+      "definition": "Benefício tributário concedido pelo governo que reduz a arrecadação esperada, como determinada isenção. Sua criação ou ampliação exige avaliar o impacto e cumprir as condições do art. 14 da LRF.",
+      "contrast": "Renunciar a uma receita significa abrir mão de cobrança tributária em condições previstas. Não é uma despesa paga a alguém.",
       "cebraspeTrap": "Afirmar que toda isenção tributária pode ser concedida sem análise de impacto ou demonstração das condições legais.",
       "example": "Uma nova isenção fiscal proposta pelo ente demanda análise da perda de arrecadação e do atendimento aos requisitos da LRF.",
       "subjectIds": [
@@ -62,8 +62,8 @@
       "aliases": [
         "DOCC"
       ],
-      "definition": "Despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente obrigação legal de execução por período superior a dois exercícios.",
-      "contrast": "A duração superior a dois exercícios é necessária, mas um contrato plurianual de obra de capital não se torna automaticamente DOCC.",
+      "definition": "Gasto corrente que a administração fica obrigada a realizar por mais de dois exercícios, por força de lei, medida provisória ou ato administrativo normativo. A sigla é DOCC.",
+      "contrast": "Uma obra que dura três anos pode ser despesa de capital e não ser DOCC. É preciso verificar tanto a natureza corrente quanto a obrigação duradoura.",
       "cebraspeTrap": "Classificar como despesa continuada qualquer investimento grande cuja construção dure três anos, sem considerar a natureza corrente.",
       "example": "Lei cria benefício corrente obrigatório por tempo superior a dois exercícios e incidem exigências do art. 17 da LRF.",
       "subjectIds": [
@@ -89,8 +89,8 @@
       "aliases": [
         "Bloqueio orçamentário"
       ],
-      "definition": "Restrição à utilização de dotação orçamentária para adequar a execução a limites ou regras fiscais específicos, conforme o fundamento legal e os atos do exercício.",
-      "contrast": "Bloqueio não é automaticamente anulação da dotação, nem equivale em todos os casos à limitação de empenho por risco às metas fiscais.",
+      "definition": "Restrição que impede o uso de parte de um valor autorizado no orçamento enquanto determinada regra ou limite fiscal exigir isso.",
+      "contrast": "Bloquear uma dotação não é apagar definitivamente o valor do orçamento. Também não é necessariamente o contingenciamento usado para cumprir metas fiscais.",
       "cebraspeTrap": "Afirmar que toda dotação bloqueada desaparece definitivamente do orçamento ou que todo bloqueio é contingenciamento do art. 9º da LRF.",
       "example": "Uma dotação fica bloqueada para observância de limite de despesa e pode ser desbloqueada conforme reavaliação legal.",
       "subjectIds": [
@@ -120,8 +120,8 @@
       "aliases": [
         "Estatal dependente"
       ],
-      "definition": "Empresa controlada que recebe recursos financeiros do ente controlador para pagamento de pessoal, custeio em geral ou despesas de capital, ressalvada a hipótese legal de aumento de participação acionária.",
-      "contrast": "Dependência financeira é critério próprio da LRF; prejuízo contábil ou controle da maioria do capital votante, isoladamente, não bastam.",
+      "definition": "Empresa controlada pelo governo que recebe dinheiro do ente controlador para pagar pessoal, custeio ou despesas de capital, com a exceção legal de aumento de participação acionária.",
+      "contrast": "Uma estatal pode ser controlada sem ser dependente. É preciso verificar para que recebe recursos do controlador, conforme a LRF.",
       "cebraspeTrap": "Afirmar que toda estatal com déficit ou majoritariamente controlada é necessariamente dependente para fins orçamentários.",
       "example": "Uma empresa controlada que recebe recursos do Tesouro para custear sua folha pode enquadrar-se como estatal dependente.",
       "subjectIds": [
@@ -151,8 +151,8 @@
       "aliases": [
         "Estatal controlada"
       ],
-      "definition": "Empresa cuja maioria do capital social com direito a voto pertence, direta ou indiretamente, a um ente da Federação, conforme a definição da LRF.",
-      "contrast": "Controle societário não implica automaticamente dependência financeira, pois o recebimento de recursos tem critérios próprios.",
+      "definition": "Empresa em que um ente público possui, diretamente ou por outras empresas, a maioria das ações ou quotas com direito a voto.",
+      "contrast": "Controlar a empresa significa ter a maioria do poder de voto. Isso não prova que ela depende do Tesouro para se manter.",
       "cebraspeTrap": "Presumir que empresa controlada recebe necessariamente recursos do orçamento fiscal para custeio ou pessoal.",
       "example": "Um ente detém a maioria das ações votantes de empresa que se mantém com receitas próprias, sem a tornar necessariamente dependente.",
       "subjectIds": [
@@ -178,8 +178,8 @@
       "aliases": [
         "Despesa com pessoal na LRF"
       ],
-      "definition": "Agregado fiscal definido na LRF que compreende gastos de pessoal nos vínculos e categorias legais, incluindo remunerações e encargos, apurado por período móvel e observadas exclusões previstas.",
-      "contrast": "Despesa total com pessoal para limites da LRF não deve ser confundida automaticamente com um único grupo de natureza da despesa orçamentária.",
+      "definition": "Valor das despesas com pessoal calculado segundo os critérios da LRF, incluindo remunerações e encargos previstos na lei. Para os limites fiscais, considera o mês de referência e os onze anteriores, com as exclusões legais.",
+      "contrast": "É uma medida para verificar limites de pessoal da LRF; não corresponde necessariamente ao total de uma única categoria do orçamento ou apenas à folha do mês.",
       "cebraspeTrap": "Afirmar que o limite fiscal se calcula apenas pelos salários pagos no mês ou pela dotação autorizada para o exercício.",
       "example": "Para verificar o limite fiscal, o ente considera o mês de referência e onze anteriores, conforme critérios legais.",
       "subjectIds": [

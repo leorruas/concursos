@@ -9,12 +9,12 @@ const root = fileURLToPath(new URL('..', import.meta.url));
 const published = JSON.parse(fs.readFileSync(path.join(root, '_site/glossario-index.json'), 'utf8'));
 const home = fs.readFileSync(path.join(root, '_site/index.html'), 'utf8');
 assert.equal(published.schemaVersion, 1);
-assert(published.plannedCount >= 317, 'Backlog deve preservar os 200 iniciais e as duas expansões de Orçamento');
-assert(published.publishedCount >= 202, 'Glossário deve preservar as 143 definições anteriores e mais 30 de orçamento');
+assert(published.plannedCount >= 325, 'Backlog deve preservar os 200 iniciais e as duas expansões de Orçamento');
+assert(published.publishedCount >= 209, 'Glossário deve preservar as 143 definições anteriores e mais 30 de orçamento');
 assert.equal(published.terms.length, published.publishedCount);
 assert.equal(new Set(published.terms.map(x => x.id)).size, published.publishedCount);
 assert(published.subjects.length >= 3);
-for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',140],['contabilidade-publica',27]]) {
+for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',140],['contabilidade-publica',34]]) {
   assert(published.terms.filter(t => t.subjectIds.includes(subject)).length >= minimo, subject + ': termo faltante');
 }
 assert(published.terms.every(t => t.status === 'reviewed' && t.sources.length > 0 && t.sources.every(s => /^https:\/\//.test(s.url))));
@@ -57,6 +57,41 @@ for (const [consulta, id, more] of [
   }
 }
 assert(fs.existsSync(path.join(root, 'data/glossario/termos/contabilidade-publica-fundamentos.json')), 'Arquivo com conceitos básicos não incluído');
+const novosFatos = [
+  'fato-contabil',
+  'fato-permutativo',
+  'fato-modificativo',
+  'fato-modificativo-aumentativo',
+  'fato-modificativo-diminutivo',
+  'fato-misto',
+  'ato-administrativo-sem-efeito-patrimonial-imediato'
+];
+for(const slug of novosFatos) {
+  const id = 'glo-' + slug;
+  const entry = published.terms.find(t => t.id === id);
+  assert(entry && entry.subjectIds.includes('contabilidade-publica'), 'Fato contábil novo ausente: ' + id);
+  assert(entry.articleLinks.some(a => a.articleId === 'art-85b3a61ad09e44c1'), 'Fato contábil sem nota canônica: ' + id);
+  assert(match(entry.term).some(t => t.id === id), 'Busca não encontra fato contábil: ' + id);
+}
+assert(match('permutativo').some(t => t.id === 'glo-fato-permutativo'));
+assert(match('fatos modificativos').some(t => t.id === 'glo-fato-modificativo'));
+assert(match('fato composto').some(t => t.id === 'glo-fato-misto'));
+const editorialBacklog = JSON.parse(fs.readFileSync(path.join(root, 'data/glossario/backlog-cgu-2026.json'), 'utf8'));
+const pcasp = editorialBacklog.terms.find(t => t.id === 'glo-plano-de-contas-aplicado-ao-setor-publico-pcasp');
+assert(pcasp && pcasp.status === 'planned', 'PCASP deve estar reservado apenas no roadmap');
+assert(!published.terms.some(t => t.id === pcasp.id), 'PCASP não pode constar como publicado sem revisão');
+const reviewPlan = fs.readFileSync(path.join(root, '1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos.md'), 'utf8');
+assert(reviewPlan.includes('Plano de revisão de linguagem de todo o glossário') &&
+    reviewPlan.includes('Última etapa do roadmap: PCASP'), 'Plano de simplificação integral e PCASP devem ficar documentados');
+for (const [id, fragment] of [
+  ['glo-regime-de-competencia', 'mesmo que o dinheiro'],
+  ['glo-risco-inerente', 'antes de levar em conta os controles'],
+  ['glo-regra-de-ouro', 'governo de contratar operações de crédito']
+]) {
+  assert(published.terms.find(t => t.id === id)?.definition.includes(fragment),
+     'Primeira revisão de linguagem não aplicada: ' + id);
+}
+
 assert(match('programacao fisica').some(t => t.id === 'glo-programacao-fisica-cumprida'));
 // A consulta deve tolerar flexão nominal, acentos, plurais e várias palavras.
 const primarios = [
@@ -157,4 +192,4 @@ for (const [query, id] of [['regra de ouro', 'glo-regra-de-ouro'], ['DOCC', 'glo
     assert(match(query).some(t => t.id === id), 'Novo conceito de orçamento ausente: ' + query);
 }
 assert(match('sem termo impossível').length === 0);
-console.log('SUCESSO: glossário com conceitos simples de ativo e passivo, buscas, vínculos e filtros validados.');
+console.log('SUCESSO: 209 verbetes, sete fatos contábeis, revisão inicial em três matérias e PCASP planejado validados.');

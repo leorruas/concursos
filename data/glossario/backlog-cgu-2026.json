@@ -27,7 +27,7 @@
     {
       "subjectId": "contabilidade-publica",
       "label": "Contabilidade Pública",
-      "count": 27,
+      "count": 35,
       "examBlock": "P3",
       "editorialPriority": "A"
     },
@@ -2964,6 +2964,78 @@
     {
       "id": "glo-passivo",
       "term": "Passivo",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fato-contabil",
+      "term": "Fato contábil",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fato-permutativo",
+      "term": "Fato permutativo",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fato-modificativo",
+      "term": "Fato modificativo",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fato-modificativo-aumentativo",
+      "term": "Fato modificativo aumentativo",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fato-modificativo-diminutivo",
+      "term": "Fato modificativo diminutivo",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fato-misto",
+      "term": "Fato misto",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ato-administrativo-sem-efeito-patrimonial-imediato",
+      "term": "Ato administrativo sem efeito patrimonial imediato",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-plano-de-contas-aplicado-ao-setor-publico-pcasp",
+      "term": "Plano de Contas Aplicado ao Setor Público (PCASP)",
       "subjectId": "contabilidade-publica",
       "examBlock": "P3",
       "editorialPriority": "A",

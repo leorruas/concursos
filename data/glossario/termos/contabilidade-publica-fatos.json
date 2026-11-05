@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "contabilidade-publica",
+  "entries": [
+    {
+      "id": "glo-fato-contabil",
+      "term": "Fato contábil",
+      "aliases": [],
+      "definition": "Acontecimento que muda o patrimônio de uma entidade: muda seus bens, seus direitos, suas obrigações ou seu patrimônio líquido.",
+      "contrast": "Fato contábil altera o patrimônio. Um ato que apenas autoriza algo, como a previsão de uma compra, pode não produzir mudança patrimonial imediata.",
+      "cebraspeTrap": "Afirmar que uma autorização orçamentária, sem entrega ou outro fato econômico, prova por si só que um ativo ou passivo mudou.",
+      "example": "A escola compra e recebe um equipamento: passa a controlar um bem e precisa registrar a mudança.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional: MCASP, 11ª edição, partes I e II",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Conselho Federal de Contabilidade: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-fato-permutativo",
+      "term": "Fato permutativo",
+      "aliases": [],
+      "definition": "Fato contábil que troca elementos do patrimônio sem alterar o valor total do patrimônio líquido. Muda o que a entidade tem ou deve, mas não sua riqueza líquida.",
+      "contrast": "Uma troca entre dinheiro e equipamento é permutativa quando os dois têm o mesmo valor. É diferente do fato modificativo, que aumenta ou diminui o patrimônio líquido.",
+      "cebraspeTrap": "Afirmar que qualquer saída de dinheiro reduz o patrimônio líquido, mesmo quando ela apenas substitui dinheiro por outro ativo.",
+      "example": "A escola paga R$ 1.000 por um computador de R$ 1.000: diminui o caixa e aumenta o valor dos equipamentos, sem mudar o patrimônio líquido.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional: MCASP, 11ª edição, partes I e II",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Conselho Federal de Contabilidade: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-fato-modificativo",
+      "term": "Fato modificativo",
+      "aliases": [],
+      "definition": "Fato contábil que aumenta ou diminui o patrimônio líquido. Pode ser aumentativo, quando a entidade ganha patrimônio, ou diminutivo, quando perde.",
+      "contrast": "Ao contrário do fato permutativo, o modificativo altera a situação líquida. Nem todo recebimento ou pagamento de dinheiro é modificativo.",
+      "cebraspeTrap": "Classificar como modificativo o pagamento de uma dívida já reconhecida, mesmo que caixa e obrigação diminuam no mesmo valor.",
+      "example": "O consumo de um serviço gera despesa patrimonial e reduz o patrimônio líquido, ainda que o governo pague depois.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional: MCASP, 11ª edição, partes I e II",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Conselho Federal de Contabilidade: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-fato-modificativo-aumentativo",
+      "term": "Fato modificativo aumentativo",
+      "aliases": [],
+      "definition": "Fato contábil que aumenta o patrimônio líquido, porque nasce um direito ou aumenta um recurso sem surgir obrigação de igual valor, conforme as regras de reconhecimento.",
+      "contrast": "Aumentativo eleva o patrimônio líquido. Permutativo pode elevar o caixa sem mudar o patrimônio líquido, como ao receber crédito já registrado.",
+      "cebraspeTrap": "Afirmar que todo depósito na conta do governo é aumento patrimonial, mesmo quando o depósito paga uma dívida que já estava registrada a receber.",
+      "example": "O direito a receber um imposto, quando reconhecido, pode aumentar o ativo e o patrimônio líquido antes da arrecadação.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional: MCASP, 11ª edição, partes I e II",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Conselho Federal de Contabilidade: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-fato-modificativo-diminutivo",
+      "term": "Fato modificativo diminutivo",
+      "aliases": [],
+      "definition": "Fato contábil que diminui o patrimônio líquido, como o consumo de um serviço ou o desgaste reconhecido de um equipamento.",
+      "contrast": "Diminutivo reduz o patrimônio líquido. A simples compra de equipamento não é necessariamente perda, pois pode trocar caixa por outro ativo.",
+      "cebraspeTrap": "Considerar toda despesa orçamentária ou saída de caixa como redução imediata do patrimônio líquido.",
+      "example": "A escola consome energia elétrica no mês: o serviço utilizado gera uma diminuição patrimonial, mesmo antes do pagamento.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional: MCASP, 11ª edição, partes I e II",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Conselho Federal de Contabilidade: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-fato-misto",
+      "term": "Fato misto",
+      "aliases": [
+        "Fato contábil misto",
+        "Fato composto"
+      ],
+      "definition": "Fato contábil que reúne, na mesma operação, uma troca de elementos do patrimônio e um aumento ou uma diminuição do patrimônio líquido.",
+      "contrast": "É a combinação de fato permutativo e modificativo. Uma operação que altera várias contas, mas não muda o patrimônio líquido, ainda é apenas permutativa.",
+      "cebraspeTrap": "Dizer que pagar uma dívida principal com juros é puramente permutativo, ignorando que os juros consumidos diminuem o patrimônio líquido.",
+      "example": "O órgão quita uma dívida de R$ 1.000 com R$ 100 de juros ainda não reconhecidos: baixa a dívida e o caixa, e reconhece perda patrimonial de R$ 100.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional: MCASP, 11ª edição, partes I e II",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Conselho Federal de Contabilidade: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-ato-administrativo-sem-efeito-patrimonial-imediato",
+      "term": "Ato administrativo sem efeito patrimonial imediato",
+      "aliases": [],
+      "definition": "Decisão ou providência da administração que ainda não muda bens, direitos, obrigações ou patrimônio líquido, embora possa exigir acompanhamento e registro de controle.",
+      "contrast": "Um ato administrativo pode preceder um fato contábil. A assinatura de autorização não prova que houve entrega, prestação de serviço ou obrigação patrimonial já reconhecível.",
+      "cebraspeTrap": "Afirmar que autorizar uma compra altera automaticamente o patrimônio líquido ou que fatos e atos administrativos têm sempre o mesmo efeito contábil.",
+      "example": "Uma escola autoriza a futura compra de cadeiras; antes de receber os bens, a autorização por si só não aumenta seus ativos.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional: MCASP, 11ª edição, partes I e II",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Conselho Federal de Contabilidade: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

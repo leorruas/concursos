@@ -85,6 +85,8 @@ Do total de vagas reservadas para mulheres, **pelo menos 30% devem ser preenchid
 
 **Exemplo de cálculo condicionado:** conselho com **10 membros**, sem a hipótese excepcional de voto múltiplo para independência. A reserva de **25% independentes** resulta em **3 assentos** após o arredondamento do art. 22, § 2º (2,5 arredonda para cima). Para mulheres, a implementação gradual prevê **1, 2 e 3 assentos mínimos**, respectivamente, nas três eleições após a lei de 2025. Só com a reserva integral de três vagas para mulheres passa a incidir a proporção específica para mulheres negras ou com deficiência, o que resultaria em **um assento**, pelo arredondamento legal. Os números não devem ser confundidos ou somados como se representassem necessariamente pessoas diferentes.
 
+**Alcance e sanção:** para as sociedades do **art. 2º, I, da Lei 15.177/2025**, o **art. 5º impede de deliberar sobre qualquer matéria o conselho que descumprir a reserva**, observada a etapa de transição cabível. Para **companhias abertas privadas**, a adesão é **facultativa** (art. 2º, II); não estender automaticamente a elas a sanção do art. 5º. O gatilho dos percentuais transitórios é **cada eleição após a vigência da lei**, não a mera passagem dos anos.
+
 ## Plano de negócios, estratégia e supervisão de resultados
 
 O **art. 23** condiciona a investidura dos diretores ao compromisso com **metas e resultados específicos**, aprovados pelo conselho. A diretoria deve apresentar, **até a última reunião ordinária do conselho do ano anterior**, **plano de negócios do exercício seguinte** e **estratégia de longo prazo atualizada**, incluindo riscos e oportunidades para **pelo menos cinco anos**.

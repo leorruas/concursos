@@ -3,7 +3,7 @@ title: "CGU 2026: auditoria de cobertura de Finanças, Orçamento e Contabilidad
 type: "auditoria-editorial"
 status: "verificacao-tematica-concluida"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # CGU 2026: auditoria de cobertura de P3.2
@@ -53,12 +53,29 @@ updated: 2026-11-04
 
 **Prioridade editorial P0/P1** aqui significa **lacuna × alcance × utilidade esperada em C/E**, não frequência estatística de cobrança. A prova **P3** tem pontuação específica e valor potencial elevado, mas não há dados para atribuir número provável de itens a cada subtema.
 
+## Auditoria normativa fina: lote 1 (05/11/2026)
+
+**Escopo:** primeira verificação direcionada de condições, vigência e exceções que podem mudar o julgamento C/E. **Seis dos 18 subitens tiveram pontos normativos conferidos** (5.3, 6.3, 7.1, 7.2, 7.3, 7.4); **12 não entraram nesta etapa e os seis também têm pontos residuais**. **Nenhum subitem foi declarado integralmente validado.** A matriz acima continua registrando **18/18 de cobertura temática editorial**, não confiabilidade normativa integral, estudo ou retenção. Fonte do programa: [Cebraspe, CGU 2026, Cargo 1, item 15.2.4](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html).
+
+| Subitem | Fonte verificada e decisão | Pendente para fechar a auditoria |
+| :--- | :--- | :--- |
+| **5.3** | [Tesouro](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1) confirma **MCASP 11ª edição vigente**; [CFC](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) confirma **NBC TSP 34, Custos, DOU 10/12/2021**. | Conferir literalmente itens da NBC TSP 34, MIC 2025, processos, indicadores e exemplos da nota 06. **Checagem de versão, não de cálculo.** |
+| **6.3** | [CPC 05 (R1), CVM, itens 25 a 27](https://conteudo.cvm.gov.br/export/sites/cvm/menu/regulados/normascontabeis/cpc/CPC_05_R1_rev06_Consolidado.pdf) confirma **dispensa parcial do item 18** com divulgação residual de ente estatal e transações significativas; [CFC](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) e textos de vigência confirmam **NBC TSP 03 (R1) e NBC TSP 37 com aplicação em 2027**, ressalvados prazos nacionais próprios. | CPC 01, 25, 27, detalhes das NBC TSP e recálculo completo do caso societário. |
+| **7.1** | [Lei 13.303 atualizada, arts. 1º, 9º, 13, 22 a 25](https://www2.camara.leg.br/legin/fed/lei/2016/lei-13303-30-junho-2016-783296-normaatualizada-pl.html) confirma **25% de independentes**, hipótese alternativa de voto múltiplo e arredondamento. [Lei 15.177/2025, arts. 2º, 3º, 5º](https://legis.senado.leg.br/norma/41155497/publicacao/41159056) confirma **10/20/30% por eleições**, impedimento de deliberar quando a estatal obrigatória descumpre a regra e **adesão facultativa** de companhia aberta privada. **Nota 10 corrigida** para explicitar limite e sanção. | Exceções do art. 17 e demais regras de indicação, conselho e porte. |
+| **7.2** | [LRF, art. 2º, II e III](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html) mantém exceção de **aumento de participação acionária** à definição de dependência. [CPC 03 (R2), itens 31–34A](https://conteudo.cvm.gov.br/export/sites/cvm/menu/regulados/normascontabeis/cpc/CPC_03_R2_rev_13.pdf) **encoraja fortemente juros pagos no operacional**, mas aceita financiamento com divulgação da alternativa em nota. **Nota 11 corrigida:** fluxo de 12, CAPEX de 25 e juros + principal de 2 + 6 mostram **12 − 25 − 8 = 10 − 25 − 6 = −21 milhões**, sem duplicar juros. | Transferências que não constituam aumento efetivo de participação; regulação setorial e análise de riscos fiscais. |
+| **7.3** | [Lei 13.303, arts. 8º, I, III, VI, § 2º, 23 e 27](https://www2.camara.leg.br/legin/fed/lei/2016/lei-13303-30-junho-2016-783296-normaatualizada-pl.html) vincula **compromissos, recursos e impactos mensuráveis**; obrigações empresariais em condições distintas das empresas privadas do setor exigem **base legal/regulamentar, ajuste e custos/receitas discriminados** nas condições do § 2º. | Requisitos específicos dos demais documentos e regras setoriais. |
+| **7.4** | [Lei 13.303, art. 8º, I, VIII, IX, X e § 4º](https://www2.camara.leg.br/legin/fed/lei/2016/lei-13303-30-junho-2016-783296-normaatualizada-pl.html): **carta de compromissos ≠ carta de governança ≠ relatório integrado**. O § 4º ainda se refere à divulgação cumulativa dos **incisos I–IX**, embora o inciso **X** tenha sido acrescentado em 2025 e exija divulgação anual da política de igualdade. | Normas de publicidade e exceções de sigilo nos respectivos documentos. |
+
+**Vigência confirmada por textos publicados:** [NBC TSP 03 (R1)](https://www.legisweb.com.br/legislacao/?id=492475), [NBC TSP 37](https://www.legisweb.com.br/legislacao/?id=492508), ambas com marco geral de 01/01/2027 e ressalva de prazos nacionais específicos. Não antecipar sua aplicação em exemplos de exercício 2026.
+
+**Fila:** subitens ainda sem qualquer verificação desta etapa: **1.1/1.2, 2.1/2.2, 3.1/3.2, 4.1/4.2, 5.1/5.2 e 6.1/6.2 (12)**. Depois revisar as pendências remanescentes de 5.3, 6.3 e 7.1–7.4. Cada lote deverá deixar **fonte, regra testada, cálculo conferido e reparo realizado**, se houver. **Zero subitens normativamente integrais validados nesta fase.**
+
 ## Controles para a próxima verificação
 
 1. **Não gerar novos artigos repetindo Orçamento Público**: os temas 2.1, 2.2, 3.1 e 3.2 já possuem notas substantivas e associação editorial própria.
 2. **Preservar registros de estudo**: nenhuma caixa de checklist do edital ou sessão foi marcada; cobertura textual não significa exposição, acerto ou retenção.
-3. **Conferência normativa fina ainda pendente**: os dez artigos de Contabilidade foram lidos por estrutura, definições, exemplos e fronteiras. Antes de declarar revisão normativa integral, conferir literalmente **cálculos, prazos, percentuais, alcance dos CPCs, NBC TSP e Lei 13.303 com atualizações**, e documentação de demonstrações, contra os dispositivos oficiais aplicáveis.
+3. **Conferência normativa fina iniciada, sem encerramento:** o lote 1 acima conferiu fontes e pontos de seis subitens, mantendo 12 sem verificação nesta etapa e todos os seis com pendências específicas. Conferir literalmente cálculos, prazos, percentuais, alcance normativo, exemplos e documentação antes de declarar revisão integral.
 4. **Versões:** MCASP **11ª edição** indicada como vigente; não antecipar revisões NBC TSP de 2027 ao exercício de 2026. Revalidar retificações posteriores a 15/10/2026 antes da prova.
 5. **Gate de saída:** a **triagem temática** registra **18/18 subitens com conteúdo substantivo**. Declarar **cobertura documental integral validada** depende de confrontar o conteúdo, as exceções, a vigência das normas e as referências **subitem a subitem** com fontes oficiais e testar casos C/E relevantes. **Estudo e domínio** são evidências posteriores e separadas.
 
-**Próximo passo recomendado:** iniciar **auditoria normativa fina dos 18 subitens P3.2**: conferir redação do edital e retificações, fontes legais/normativas (MCASP 11, NBC TSP 2026/2027, CPCs, LRF, Lei 13.303), prazos, escopo, exceções, cálculos e coerência dos exemplos. Registrar reparos na nota de origem antes de considerar cobertura validada; só depois usar itens C/E com proveniência de provas-espelho. Não marcar checklist de estudo automaticamente.
+**Próximo passo recomendado:** lote 2 da auditoria normativa de **P3.2.3.1 e P3.2.3.2** (receitas/despesas, liquidação, restos a pagar, Conta Única, LRF) seguido de **P3.2.2.1 e P3.2.2.2** (PPA/LDO/LOA, créditos, contingenciamento e bloqueio). Corrigir notas na origem e registrar base legal e exceções, sem alterar estudo. Os seis subitens revisados parcialmente no lote 1 também exigem conferência residual.

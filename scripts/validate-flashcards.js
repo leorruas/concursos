@@ -3,6 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import assert from 'node:assert/strict';
 import {articleInventory} from './article-identity.js';
+import {mergeGlossaryFlashcards} from './glossary-flashcards.js';
 export function validateFlashcards(data,root) {
     assert.equal(data.version,1);
     assert.ok(Array.isArray(data.cards)&&data.cards.length>0);
@@ -39,7 +40,12 @@ if(process.argv[1]===fileURLToPath(import.meta.url)) {
   assert.ok(!fs.existsSync(path.join(site,'data/contexto-estudo/flashcards-prioridades.json')),'Perfil pessoal não pode ser publicado no site');
   for(const c of data.cards)assert.ok(manifest.some(a=>a.articleId===c.note.articleId),'Nota não publicada: '+c.id);
   for(const f of ['flashcards.html','web/09-flashcards-engine.js','web/10-flashcards-ui.js'])assert.ok(fs.existsSync(path.join(site,f)),f);
-  assert.deepEqual(data,JSON.parse(fs.readFileSync(path.join(root,'data/flashcards.json'))));
-  console.log('SUCESSO: coleção publicada no build e todos os artigos de destino presentes no manifesto.');
+  const base=JSON.parse(fs.readFileSync(path.join(root,'data/flashcards.json')));
+  const glossaryCards=JSON.parse(fs.readFileSync(path.join(site,'data/glossario-flashcards.json')));
+  assert.deepEqual(data,mergeGlossaryFlashcards(base,glossaryCards),
+    'Baralho público deve incluir todos os cartões do glossário em um arquivo único.');
+  assert.equal(data.cards.length,base.cards.length+glossaryCards.generatedCount);
+  console.log('SUCESSO: ' + data.cards.length + ' cartões publicados em um único catálogo, incluindo '
+    + glossaryCards.generatedCount + ' do glossário; todos os artigos presentes no manifesto.');
  }
 }

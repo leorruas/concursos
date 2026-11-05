@@ -5,7 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { validarCatalogoMaterias } from './contest-catalog.js';
 import { buildGlossary } from './glossary-data.js';
-import { buildGlossaryFlashcards } from './glossary-flashcards.js';
+import { buildGlossaryFlashcards, mergeGlossaryFlashcards } from './glossary-flashcards.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -307,6 +307,7 @@ const glossarioPublico = buildGlossary(rootDir, manifesto, catalogoMaterias, con
 const equivalenciasGlossario = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/glossario/flashcard-equivalencias.json'), 'utf8'));
 const colecaoFlashcards = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/flashcards.json'), 'utf8'));
 const flashcardsGlossario = buildGlossaryFlashcards(glossarioPublico, colecaoFlashcards, equivalenciasGlossario);
+const colecaoFlashcardsPublicada = mergeGlossaryFlashcards(colecaoFlashcards, flashcardsGlossario);
 console.log('✓ Glossário validado: ' + glossarioPublico.publishedCount + ' definições revisadas de ' + glossarioPublico.plannedCount + ' planejadas.');
 
 for (const concurso of concursosRegistrados) {
@@ -421,7 +422,10 @@ console.log('✓ Gerado _site/search-index.json com sucesso.');
 fs.writeFileSync(path.join(outDir, 'glossario-index.json'), JSON.stringify(glossarioPublico));
 console.log('✓ Gerado _site/glossario-index.json sem registros pendentes.');
 fs.writeFileSync(path.join(outDir, 'data/glossario-flashcards.json'), JSON.stringify(flashcardsGlossario));
-console.log('✓ Glossário nos flashcards: ' + flashcardsGlossario.generatedCount + ' novos, ' + flashcardsGlossario.linkedCount + ' vinculados a cartões existentes.');
+// Somente um arquivo precisa ser carregado pelo navegador. Evita versões desencontradas
+// entre a coleção principal e os cartões derivados em deploys/cache distintos.
+fs.writeFileSync(path.join(outDir, 'data/flashcards.json'), JSON.stringify(colecaoFlashcardsPublicada));
+console.log('✓ Glossário nos flashcards: ' + flashcardsGlossario.generatedCount + ' novos, ' + flashcardsGlossario.linkedCount + ' vinculados a cartões existentes. Total publicado: ' + colecaoFlashcardsPublicada.cards.length + '.');
 
 // A URL dos arquivos visuais muda com seu conteúdo, evitando CSS/JS de outra publicação.
 for (const pagina of ['index.html', 'flashcards.html']) {

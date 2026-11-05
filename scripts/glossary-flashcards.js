@@ -98,3 +98,43 @@ export function buildGlossaryFlashcards(glossary, collection, equivalences) {
     cards: generated
   };
 }
+
+/**
+ * Constrói um único baralho publicado. A coleção editorial permanece imutável no repositório;
+ * as identidades de cartões revisados continuam estáveis entre publicações.
+ */
+export function mergeGlossaryFlashcards(collection, projection) {
+  exigir(collection?.version === 1 && Array.isArray(collection.cards), 'coleção base inválida');
+  exigir(projection?.schemaVersion === 1 && Array.isArray(projection.cards) &&
+    Array.isArray(projection.links) &&
+    projection.generatedCount === projection.cards.length &&
+    projection.linkedCount === projection.links.length, 'projeção inválida');
+  const originals = collection.cards.map(c => ({ ...c }));
+  const byId = new Map(originals.map(card => [card.id, card]));
+  exigir(byId.size === originals.length, 'IDs editoriais duplicados');
+  const usedTerms = new Set();
+  for (const link of projection.links) {
+    exigir(!usedTerms.has(link.glossaryId), 'termo duplicado: ' + link.glossaryId);
+    usedTerms.add(link.glossaryId);
+    const card = byId.get(link.cardId);
+    exigir(card, 'cartão de equivalência ausente: ' + link.cardId);
+    card.glossaryIds = [...new Set([...(card.glossaryIds || []), link.glossaryId])];
+  }
+  for (const card of projection.cards) {
+    exigir(card.status === 'validated' && card.glossaryId, 'cartão gerado inválido: ' + card.id);
+    exigir(!byId.has(card.id) && !usedTerms.has(card.glossaryId), 'identidade duplicada: ' + card.id);
+    usedTerms.add(card.glossaryId);
+    byId.set(card.id, card);
+  }
+  exigir(usedTerms.size === projection.reviewedCount, 'termos revisados não representados integralmente');
+  return {
+    ...collection,
+    glossary: {
+      schemaVersion: 1,
+      reviewedCount: projection.reviewedCount,
+      linkedCount: projection.linkedCount,
+      generatedCount: projection.generatedCount
+    },
+    cards: [...originals, ...projection.cards]
+  };
+}

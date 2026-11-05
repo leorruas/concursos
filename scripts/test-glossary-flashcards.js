@@ -3,7 +3,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
-import { buildGlossaryFlashcards } from './glossary-flashcards.js';
+import { buildGlossaryFlashcards, mergeGlossaryFlashcards } from './glossary-flashcards.js';
 
 const root=fileURLToPath(new URL('..',import.meta.url));
 const read=rel=>JSON.parse(fs.readFileSync(path.join(root,rel),'utf8'));
@@ -12,6 +12,16 @@ const glossary=read('_site/glossario-index.json');
 const equivalents=read('data/glossario/flashcard-equivalencias.json');
 const published=read('_site/data/glossario-flashcards.json');
 const expected=buildGlossaryFlashcards(glossary,base,equivalents);
+const combined=read('_site/data/flashcards.json');
+const expectedCombined=mergeGlossaryFlashcards(base,expected);
+assert.deepEqual(combined,expectedCombined,'A página precisa receber coleção e glossário em uma única resposta');
+assert.equal(combined.cards.length,base.cards.length+expected.generatedCount);
+assert.equal(new Set(combined.cards.map(c=>c.id)).size,combined.cards.length,'IDs duplicados no catálogo final');
+assert.equal(combined.glossary.reviewedCount,glossary.publishedCount);
+assert(combined.cards.find(c=>c.id==='ppa')?.glossaryIds.includes('glo-ppa'),
+    'O cartão existente deve abrir seu termo do glossário');
+assert(combined.cards.some(c=>c.id==='glossary-glo-balanco-orcamentario'),
+    'Cartão derivado deve aparecer no catálogo usado pela interface');
 
 assert.deepEqual(published,expected,'O build não corresponde às definições revisadas e equivalências canônicas');
 assert.equal(published.reviewedCount,glossary.publishedCount);
@@ -48,7 +58,7 @@ assert.deepEqual(pending,published,'Termos planejados não entram em flashcards'
 
 const ctx={};vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(root,'web/09-flashcards-engine.js'),'utf8'),ctx);
-const F=ctx.Flashcards,all=[...base.cards,...published.cards];
+const F=ctx.Flashcards,all=combined.cards;
 const timestamp=Date.UTC(2026,10,5);
 const old=F.empty(),review=F.schedule(undefined,'good',timestamp);
 old.reviews['ppa:forward']=review;
@@ -74,14 +84,14 @@ assert(F.select(published.cards,F.empty(),{exam:'cgu-2026',subject:'contabilidad
 
 const html=fs.readFileSync(path.join(root,'_site/flashcards.html'),'utf8');
 const ui=fs.readFileSync(path.join(root,'_site/web/10-flashcards-ui.js'),'utf8');
-assert(html.includes('id="fc-glossary"')&&ui.includes("fetch('data/glossario-flashcards.json'"),
-    'Interface deve carregar cartões derivados e abrir sua entrada do glossário');
-assert(ui.includes('glossaryUnavailable=true')&&ui.includes('F.hasGlossaryReferences(persisted)'),
-    'A falta da projeção deve permitir cartões originais sem apagar revisões de cartões derivados');
+assert(html.includes('id="fc-glossary"')&&!ui.includes("fetch('data/glossario-flashcards.json'"),
+    'Interface não pode depender de segunda requisição para carregar o glossário');
+assert(ui.includes('catalog.glossary?.generatedCount')&&ui.includes('F.hasGlossaryReferences(persisted)'),
+    'A interface deve usar o baralho combinado e proteger revisões antigas');
 const verifier=fs.readFileSync(path.join(root,'scripts/verify-live-pages.js'),'utf8');
-assert(verifier.includes("'data/glossario-flashcards.json'"),
-    'Verificação pós-publicação precisa exigir o arquivo que a página de flashcards consome');
+assert(verifier.includes("'data/flashcards.json'"),
+    'Verificação pós-publicação deve exigir o catálogo único consumido pela página');
 assert(!fs.existsSync(path.join(root,'_site/data/glossario/flashcard-equivalencias.json')),
     'Equivalências editoriais não devem ser exportadas como dado independente');
-console.log('SUCESSO: glossário alimenta '+published.generatedCount+' cartões, vincula '+published.linkedCount+
+console.log('SUCESSO: catálogo único inclui '+published.generatedCount+' cartões do glossário, vincula '+published.linkedCount+
     ' conceitos existentes e preserva identidade, filtros e revisões.');

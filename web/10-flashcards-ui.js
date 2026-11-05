@@ -99,47 +99,30 @@
         const response=await fetch('data/flashcards.json',{cache:'no-cache'});
         if(!response.ok)throw Error('Coleção indisponível.');
         catalog=await response.json();cards=catalog.cards.filter(c=>c.status==='validated');
-        // O glossário é uma fonte complementar: erro de rede ou publicação não bloqueia o baralho original.
-        // Se houver revisões de IDs derivados, impedir a validação parcial que as descartaria.
-        let glossaryUnavailable=false;
-        try {
-            const glossaryResponse=await fetch('data/glossario-flashcards.json',{cache:'no-cache'});
-            if(!glossaryResponse.ok)throw Error('HTTP '+glossaryResponse.status);
-            const glossary=await glossaryResponse.json();
-            if(glossary.schemaVersion!==1||!Array.isArray(glossary.cards)||!Array.isArray(glossary.links)||
-                glossary.generatedCount!==glossary.cards.length||glossary.linkedCount!==glossary.links.length)
-                throw Error('Projeção inválida');
-            const byId=new Map(cards.map(c=>[c.id,c]));
-            for(const link of glossary.links) {
-                const card=byId.get(link.cardId);
-                if(!card)throw Error('Vínculo de glossário sem cartão: '+link.cardId);
-                if(!card.glossaryIds)card.glossaryIds=[];
-                if(!card.glossaryIds.includes(link.glossaryId))card.glossaryIds.push(link.glossaryId);
-            }
-            for(const card of glossary.cards) {
-                if(card.status!=='validated'||byId.has(card.id)||!card.glossaryId)
-                    throw Error('Cartão derivado inválido: '+card.id);
-                byId.set(card.id,card);cards.push(card);
-            }
-        } catch(error) {
-            glossaryUnavailable=true;
-            cards=catalog.cards.filter(c=>c.status==='validated');
-            console.warn('Falha ao carregar flashcards derivados do glossário:',error.message);
-        }
-        let raw,glossaryHistoryBlocked=false;
+        // Publicação atômica: data/flashcards.json inclui cartões editoriais e derivados.
+        // Um arquivo, uma versão. Preservar IDs e histórico do navegador.
+        const availableIds=new Set(cards.map(c=>c.id));
+        let raw, missingGlossary=false;
         try {
             raw=localStorage.getItem(F.KEY);
             if(raw) {
                 const persisted=JSON.parse(raw);
-                if(glossaryUnavailable&&F.hasGlossaryReferences(persisted)) {
-                    glossaryHistoryBlocked=true;
-                    throw Error('Revisões do glossário precisam da coleção completa.');
+                // Não regravar progresso caso uma versão antiga do catálogo não contenha
+                // os cartões derivados já avaliados neste navegador.
+                if(F.hasGlossaryReferences(persisted)&&
+                    (!catalog.glossary || Object.keys(persisted.reviews||{}).some(key=>{
+                        if(!key.startsWith('glossary-glo-'))return false;
+                        const id=key.slice(0,key.lastIndexOf(':'));
+                        return !availableIds.has(id);
+                    }))) {
+                    missingGlossary=true;
+                    throw Error('Baralho do glossário incompleto.');
                 }
                 state=F.validateState(persisted,cards);
             }
-        } catch {
-            status(glossaryHistoryBlocked
-                ? 'O glossário está temporariamente indisponível. Seu progresso com esses cartões permanece salvo. Não foi alterado; exporte uma cópia e tente novamente.'
+        }catch{
+            status(missingGlossary
+                ? 'O catálogo ainda não contém todos os cartões do seu histórico. Seus dados foram preservados; atualize a página.'
                 : 'Não foi possível ler o progresso salvo. Nenhum dado foi sobrescrito. Exporte uma cópia antes de iniciar uma nova rodada.');
             storageOK=false;corrupt=true;
         }
@@ -149,9 +132,7 @@
         if(catalog.exams.some(e=>e.id===examFromURL))$('exam').value=examFromURL;
         subjects();home();
         void syncPriorities(true);
-        if(storageOK)status(glossaryUnavailable
-            ? `${cards.length} cartões disponíveis. Glossário temporariamente indisponível; a coleção principal continua acessível.`
-            : `${cards.length} conceitos · glossário integrado · progresso neste dispositivo`);
+        if(storageOK)status(`${cards.length} conceitos · ${catalog.glossary?.generatedCount || 0} do glossário · progresso neste dispositivo`);
         $('export').disabled=false;
         $('form').addEventListener('submit',async e=>{
             e.preventDefault();

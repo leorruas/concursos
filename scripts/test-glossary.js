@@ -22,6 +22,13 @@ assert(published.terms.every(t => t.articleLinks.length && t.articleLinks.every(
 assert(home.includes('id="glossario-pagina"') && home.includes('web/09-glossary.js'));
 assert(home.includes('id="nav-link-glossario"') && home.includes('id="home-glossario-entry"'));
 assert(home.includes('id="glossario-artigo"') && home.includes('id="glossario-organizacao"'), 'Filtros por artigo e organização ausentes da interface');
+const glossaryUI = fs.readFileSync(path.join(root, 'web/09-glossary.js'), 'utf8');
+const style = fs.readFileSync(path.join(root, 'style.css'), 'utf8');
+assert(glossaryUI.includes('class="glossario-artigo-grupo"') &&
+  glossaryUI.includes('class="glossario-artigo-titulo"'), 'Agrupamento por artigo deve usar classes próprias');
+assert(!glossaryUI.includes('class="glossario-grupo"'), 'Classe de grade dos artigos não pode ser reutilizada no glossário');
+assert(style.includes('.glossario-artigo-grupo{display:block;'), 'Grupos do glossário devem empilhar título e verbetes');
+assert(style.includes('.glossario-grupo {\n    display: grid;'), 'Grade dos glossários internos dos artigos deve ser preservada');
 assert.equal(parsearHashVault('#/glossario?concurso=cgu-2026').tipo, 'glossario');
 assert.equal(parsearHashVault('#/glossario/glo-ppa?concurso=cgu-2026').termoId, 'glo-ppa');
 assert.equal(construirRotaGlossario('glo-ppa', 'cgu-2026'), '#/glossario/glo-ppa?concurso=cgu-2026');

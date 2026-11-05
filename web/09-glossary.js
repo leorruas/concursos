@@ -175,8 +175,8 @@ function renderizarGlossario() {
     };
     if (glossarioState.organization === 'artigo') {
         lista.innerHTML = agruparTermosGlossario(visible, glossarioState.article).map(group =>
-            '<section class="glossario-grupo" aria-label="' + escaparGlossario(group.article.title) + '">' +
-            '<h3 class="glossario-grupo-titulo"><a href="' + escaparGlossario(group.article.href) + '">' +
+            '<section class="glossario-artigo-grupo" aria-label="' + escaparGlossario(group.article.title) + '">' +
+            '<h3 class="glossario-artigo-titulo"><a href="' + escaparGlossario(group.article.href) + '">' +
             escaparGlossario(group.article.title) + '</a><span>' + group.terms.length +
             ' termo(s)</span></h3>' + group.terms.map(montarTermo).join('') + '</section>').join('');
     } else {

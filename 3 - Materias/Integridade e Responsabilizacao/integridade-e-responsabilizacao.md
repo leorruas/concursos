@@ -51,6 +51,8 @@ Prevenção × detecção × apuração × responsabilização; autoria × mater
 - [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo federal]]: material relacionado, sem presumir cobertura completa deste recorte do edital.
 - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência e dados pessoais]]: material relacionado, sem presumir cobertura completa deste recorte do edital.
 
+**Auditoria normativa de 05/11/2026:** [[1 - Planejamento/CGU 2026 - Auditoria normativa e provas-espelho - lote 2|lote 2 de PAD, PAR, prescrição, TAC e dosimetria]], com cotejo pontual de fontes oficiais, questões C/E inéditas e pendência de prova real com gabarito definitivo.
+
 ## Continuidade e próximos passos
 
 A sequência sugerida é iniciar pela primeira unidade listada, verificar os pré-requisitos e as fontes correspondentes, explicar conceitos e fronteiras, testar com itens didáticos e consolidar as notas próprias conforme a necessidade. O estado real de exposição, as dúvidas, os erros e a próxima atividade devem ser lidos no contexto **`data/contexto-estudo/cgu-2026/integridade-responsabilizacao.json`**, que é gerado a partir das sessões. Não copiar números de acertos para este hub.

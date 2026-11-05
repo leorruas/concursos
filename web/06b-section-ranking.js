@@ -40,6 +40,12 @@ function pontuarSecaoBusca(secao, consultaNormalizada, termos) {
 
     if (correspondencias === 0) return 0;
 
+    // Uma secao que nomeia todos os termos no titulo merece precedencia sobre
+    // secoes em que esses mesmos termos aparecem dispersos no corpo do texto.
+    if (termos.length > 1 && termos.every(termo => qualidadeMatchToken(termo, tituloCampo) > 0)) {
+        score += parametroRankingBusca("bonusCoberturaIntegralTituloSecao", 100);
+    }
+
     const minimo = termos.length <= 2 ? termos.length : Math.max(2, Math.ceil(termos.length * 0.6));
     if (correspondencias < minimo) return 0;
 

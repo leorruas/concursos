@@ -87,14 +87,38 @@
         $('example').textContent=c.example;
         $('confusion').textContent=c.confusion?'Não confunda · '+c.confusion:'';
         $('note').href='index.html'+construirRotaArtigoId(c.note.articleId,c.note.section,s.exam);
+        const glossaryId=c.glossaryId||c.glossaryIds?.[0];
+        show('glossary',!!glossaryId);
+        if(glossaryId)$('glossary').href='index.html'+construirRotaGlossario(glossaryId,s.exam);
         $('source').href=c.source.url;$('source').textContent=c.source.title+' · '+c.source.locator;
         $('prompt').focus();
     }
     function reveal() {if(!$('round').hidden&&!revealed){revealed=true;show('answer',true);show('reveal',false);show('instruction',false);document.querySelector('[data-grade="again"]').focus();}}
     function grade(value) {if(!revealed||$('round').hidden)return;save(F.refill(cards,F.rate(state,value)));if(storageOK)status('Salvo neste dispositivo');render();}
     try {
-        const response=await fetch('data/flashcards.json');if(!response.ok)throw Error('Coleção indisponível.');
+        const response=await fetch('data/flashcards.json',{cache:'no-cache'});
+        if(!response.ok)throw Error('Coleção indisponível.');
         catalog=await response.json();cards=catalog.cards.filter(c=>c.status==='validated');
+        // Projeção pública: só termos revisados do glossário, já deduplicados pelo build.
+        // Não mesclar parcialmente caso falhe: uma sessão salva pode conter IDs derivados.
+        const glossaryResponse=await fetch('data/glossario-flashcards.json',{cache:'no-cache'});
+        if(!glossaryResponse.ok)throw Error('Cartões do glossário indisponíveis. Recarregue a página.');
+        const glossary=await glossaryResponse.json();
+        if(glossary.schemaVersion!==1||!Array.isArray(glossary.cards)||!Array.isArray(glossary.links)||
+            glossary.generatedCount!==glossary.cards.length||glossary.linkedCount!==glossary.links.length)
+            throw Error('Projeção de cartões do glossário inválida.');
+        const byId=new Map(cards.map(c=>[c.id,c]));
+        for(const link of glossary.links) {
+            const card=byId.get(link.cardId);
+            if(!card)throw Error('Vínculo de glossário sem cartão: '+link.cardId);
+            if(!card.glossaryIds)card.glossaryIds=[];
+            if(!card.glossaryIds.includes(link.glossaryId))card.glossaryIds.push(link.glossaryId);
+        }
+        for(const card of glossary.cards){
+            if(card.status!=='validated'||byId.has(card.id)||!card.glossaryId)
+                throw Error('Cartão derivado inválido: '+card.id);
+            byId.set(card.id,card);cards.push(card);
+        }
         let raw;try{raw=localStorage.getItem(F.KEY);if(raw)state=F.validateState(JSON.parse(raw),cards);}
         catch{status('Não foi possível ler o progresso salvo. Nenhum dado foi sobrescrito. Exporte uma cópia antes de iniciar uma nova rodada.');storageOK=false;corrupt=true;}
         if(priorityEndpoint)$('priority-login').href=P.loginUrl(priorityEndpoint);
@@ -103,7 +127,7 @@
         if(catalog.exams.some(e=>e.id===examFromURL))$('exam').value=examFromURL;
         subjects();home();
         void syncPriorities(true);
-        if(storageOK)status(`${cards.length} conceitos · CGU 2026 / Cebraspe · progresso dos cartões neste dispositivo`);
+        if(storageOK)status(`${cards.length} conceitos · ${glossary.generatedCount} vindos do glossário revisado · progresso neste dispositivo`);
         $('export').disabled=false;
         $('form').addEventListener('submit',async e=>{
             e.preventDefault();

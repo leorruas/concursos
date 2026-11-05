@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "description": "Equivalências editoriais entre conceitos de glossário e cartões já existentes. Não alterar IDs para não perder revisões.",
+  "links": [
+    {
+      "glossaryId": "glo-alienacao-de-bens",
+      "cardId": "alienacao"
+    },
+    {
+      "glossaryId": "glo-amortizacao-de-emprestimos-concedidos",
+      "cardId": "amortizacao-emprestimo"
+    },
+    {
+      "glossaryId": "glo-arrecadacao-da-receita",
+      "cardId": "arrecadacao"
+    },
+    {
+      "glossaryId": "glo-ativo-patrimonial",
+      "cardId": "ativo"
+    },
+    {
+      "glossaryId": "glo-contingenciamento",
+      "cardId": "contingenciamento"
+    },
+    {
+      "glossaryId": "glo-credito-especial",
+      "cardId": "especial"
+    },
+    {
+      "glossaryId": "glo-credito-extraordinario",
+      "cardId": "extraordinario"
+    },
+    {
+      "glossaryId": "glo-credito-suplementar",
+      "cardId": "suplementar"
+    },
+    {
+      "glossaryId": "glo-cronograma-de-desembolso",
+      "cardId": "cronograma"
+    },
+    {
+      "glossaryId": "glo-demonstracao-das-variacoes-patrimoniais",
+      "cardId": "dvp"
+    },
+    {
+      "glossaryId": "glo-despesas-de-exercicios-anteriores",
+      "cardId": "dea"
+    },
+    {
+      "glossaryId": "glo-elemento-de-despesa",
+      "cardId": "elemento"
+    },
+    {
+      "glossaryId": "glo-empenho",
+      "cardId": "empenho"
+    },
+    {
+      "glossaryId": "glo-grupo-de-natureza-da-despesa-gnd",
+      "cardId": "gnd"
+    },
+    {
+      "glossaryId": "glo-ingresso-extraorcamentario",
+      "cardId": "ingresso-extra"
+    },
+    {
+      "glossaryId": "glo-ldo",
+      "cardId": "ldo"
+    },
+    {
+      "glossaryId": "glo-liquidacao-da-despesa",
+      "cardId": "liquidacao"
+    },
+    {
+      "glossaryId": "glo-loa",
+      "cardId": "loa"
+    },
+    {
+      "glossaryId": "glo-pagamento-da-despesa",
+      "cardId": "pagamento"
+    },
+    {
+      "glossaryId": "glo-passivo-patrimonial",
+      "cardId": "passivo"
+    },
+    {
+      "glossaryId": "glo-patrimonio-liquido",
+      "cardId": "patrimonio-liquido"
+    },
+    {
+      "glossaryId": "glo-ppa",
+      "cardId": "ppa"
+    },
+    {
+      "glossaryId": "glo-previsao-de-receita",
+      "cardId": "previsao"
+    },
+    {
+      "glossaryId": "glo-principio-da-anualidade",
+      "cardId": "anualidade"
+    },
+    {
+      "glossaryId": "glo-principio-da-exclusividade",
+      "cardId": "exclusividade"
+    },
+    {
+      "glossaryId": "glo-principio-da-unidade",
+      "cardId": "unidade"
+    },
+    {
+      "glossaryId": "glo-principio-da-universalidade",
+      "cardId": "universalidade"
+    },
+    {
+      "glossaryId": "glo-principio-do-orcamento-bruto",
+      "cardId": "orcamento-bruto"
+    },
+    {
+      "glossaryId": "glo-programa-de-trabalho",
+      "cardId": "aud-programa-trabalho"
+    },
+    {
+      "glossaryId": "glo-programacao-financeira",
+      "cardId": "programacao-financeira"
+    },
+    {
+      "glossaryId": "glo-receita-orcamentaria",
+      "cardId": "receita-orcamentaria"
+    },
+    {
+      "glossaryId": "glo-regime-de-competencia",
+      "cardId": "competencia"
+    },
+    {
+      "glossaryId": "glo-restos-a-pagar-nao-processados",
+      "cardId": "rp-nao-processados"
+    },
+    {
+      "glossaryId": "glo-restos-a-pagar-processados",
+      "cardId": "rp-processados"
+    },
+    {
+      "glossaryId": "glo-risco-inerente",
+      "cardId": "aud-risco-inerente"
+    },
+    {
+      "glossaryId": "glo-risco-residual",
+      "cardId": "aud-risco-residual"
+    },
+    {
+      "glossaryId": "glo-variacao-patrimonial-aumentativa",
+      "cardId": "vpa"
+    },
+    {
+      "glossaryId": "glo-variacao-patrimonial-diminutiva",
+      "cardId": "vpd"
+    }
+  ]
+}

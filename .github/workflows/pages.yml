@@ -61,6 +61,8 @@ jobs:
         run: node scripts/validate-search-index.js
       - name: Testar definições, filtros e rotas do glossário CGU
         run: node scripts/test-glossary.js
+      - name: Verificar alimentação dos flashcards pelo glossário
+        run: node scripts/test-glossary-flashcards.js
       - name: Testar recall mínimo da busca
         run: node scripts/test-search-index.js
       - name: Testar deep links da busca

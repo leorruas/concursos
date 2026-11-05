@@ -209,3 +209,14 @@ A ordem é revisável se o estudo revelar lacuna de maior prioridade. O contador
 Validar unicidade e estabilidade de IDs, aliases sem colisões, campos obrigatórios, links canônicos existentes, correspondência a concurso e matéria, fonte legal/manual atualizada, resultados vazios e busca por acento/sigla. Testar regressões no `web/00-route-utils.js`, `web/07-router-init.js`, `web/06*.js` e `scripts/build-site.js`. O glossário não pode alterar ranking global sem benchmarks nem deixar `index.md` ou índice de navegação inconsistentes. Confirmar build, workflow e conteúdo no Pages ao vivo antes de anunciar implementação.
 
 **Arquivos implementados na Fase 1:** backlog (`data/glossario/backlog-cgu-2026.json`); definições (`data/glossario/termos/*.json`); validador (`scripts/glossary-data.js`); índice derivado (`_site/glossario-index.json`); interface (`web/09-glossary.js`); rota (`#/glossario?concurso=cgu-2026`); testes (`scripts/test-glossary.js`).
+
+
+## Conexão do glossário com flashcards
+
+O glossário revisado passou a ser uma **segunda fonte pública de cartões de recuperação**, sem copiar definições para `data/flashcards.json`. O build gera `_site/data/glossario-flashcards.json` após validar `data/glossario/termos/*.json`. Entradas com `status: reviewed` são projetadas automaticamente; itens somente planejados continuam fora do baralho.
+
+Quando há equivalência explícita em `data/glossario/flashcard-equivalencias.json` ou identidade literal de termo no mesmo concurso/matéria, **reutilizar o cartão e seu histórico**, adicionando apenas link para consulta da entrada do glossário. Caso contrário, criar cartão derivado com ID permanente `glossary-glo-...` e dados da entrada revisada, permitindo recuperação direta, inversa e contraste. A página mostra também a fonte normativa e o vínculo ao artigo.
+
+**Estado da conexão em 05/11/2026:** 143 termos revisados; 38 reaproveitam cartões existentes e 105 alimentam cartões derivados. Os 232 cartões editoriais originais permanecem intactos. A coleção disponível no navegador soma 337 cartões neste corte. A expansão do glossário altera esse total automaticamente no próximo build; não tratar essas quantidades como avaliação de domínio ou incidência de prova.
+
+Os vínculos editoriais explícitos devem ser preservados quando um cartão ou termo for renomeado; alterar um ID exige plano de migração das revisões locais. A inspeção de sobreposição conceitual continua necessária em cada lote de termos, porque correspondência literal não substitui revisão semântica.

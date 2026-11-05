@@ -5,6 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { validarCatalogoMaterias } from './contest-catalog.js';
 import { buildGlossary } from './glossary-data.js';
+import { buildGlossaryFlashcards } from './glossary-flashcards.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -303,6 +304,9 @@ const catalogoMaterias = resolveCatalog(JSON.parse(fs.readFileSync(path.join(roo
 const auditoriaCatalogo = validarCatalogoMaterias(catalogoMaterias, manifesto, concursosRegistrados);
 console.log('✓ Catálogo por concurso validado: ' + auditoriaCatalogo.materias + ' matérias em ' + auditoriaCatalogo.concursos + ' concursos.');
 const glossarioPublico = buildGlossary(rootDir, manifesto, catalogoMaterias, concursosRegistrados);
+const equivalenciasGlossario = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/glossario/flashcard-equivalencias.json'), 'utf8'));
+const colecaoFlashcards = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/flashcards.json'), 'utf8'));
+const flashcardsGlossario = buildGlossaryFlashcards(glossarioPublico, colecaoFlashcards, equivalenciasGlossario);
 console.log('✓ Glossário validado: ' + glossarioPublico.publishedCount + ' definições revisadas de ' + glossarioPublico.plannedCount + ' planejadas.');
 
 for (const concurso of concursosRegistrados) {
@@ -416,6 +420,8 @@ fs.writeFileSync(searchIndexPath, indiceBuscaSerializado, 'utf8');
 console.log('✓ Gerado _site/search-index.json com sucesso.');
 fs.writeFileSync(path.join(outDir, 'glossario-index.json'), JSON.stringify(glossarioPublico));
 console.log('✓ Gerado _site/glossario-index.json sem registros pendentes.');
+fs.writeFileSync(path.join(outDir, 'data/glossario-flashcards.json'), JSON.stringify(flashcardsGlossario));
+console.log('✓ Glossário nos flashcards: ' + flashcardsGlossario.generatedCount + ' novos, ' + flashcardsGlossario.linkedCount + ' vinculados a cartões existentes.');
 
 // A URL dos arquivos visuais muda com seu conteúdo, evitando CSS/JS de outra publicação.
 for (const pagina of ['index.html', 'flashcards.html']) {

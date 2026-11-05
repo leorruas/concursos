@@ -5,7 +5,7 @@ title: "Governança, transparência e finalidade pública das estatais"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Governança, transparência e finalidade pública das estatais

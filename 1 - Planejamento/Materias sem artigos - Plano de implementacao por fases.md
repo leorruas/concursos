@@ -155,10 +155,12 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 **Reuso obrigatório antes de criar:** Atualidades/05 e 09 (mercado de trabalho/demografia); Comunicação/10 (barreiras de acesso); U03 prioritariamente por reuso.
 
-- [ ] **F37 · Instituições, estratificação e mobilidade social**: U01: estruturas sociais, redes, discriminação, mobilidade × desigualdade.
-- [ ] **F38 · Formação social brasileira e cidadania**: U02: escravidão, hierarquias, acesso a direitos e efeitos institucionais.
-- [ ] **F39 · Diversidade, interseccionalidade e barreiras de acesso**: U04: raça, gênero, idade, deficiência, povos tradicionais e acesso formal × efetivo.
-- [ ] **F40 · Pobreza, desigualdade e desenvolvimento**: U05: indicadores, serviços e proteção social, correlação × causa, pobreza × desigualdade.
+- [x] **F37 · Instituições, estratificação e mobilidade social**: U01: estruturas sociais, redes, discriminação, mobilidade × desigualdade.
+- [x] **F38 · Formação social brasileira e cidadania**: U02: escravidão, hierarquias, acesso a direitos e efeitos institucionais.
+- [x] **F39 · Diversidade, interseccionalidade e barreiras de acesso**: U04: raça, gênero, idade, deficiência, povos tradicionais e acesso formal × efetivo.
+- [x] **F40 · Pobreza, desigualdade e desenvolvimento**: U05: indicadores, serviços e proteção social, correlação × causa, pobreza × desigualdade.
+
+**Onda 9 concluída editorialmente (05/11/2026):** quatro artigos próprios para instituições e mobilidade (F37), formação social e cidadania (F38), diversidade e barreiras de acesso (F39), pobreza e desenvolvimento (F40). U03 reusa notas de Atualidades sobre mercado de trabalho e demografia. A publicação do IBGE de dezembro de 2025 foi utilizada com ano de referência explícito para evitar projetar dados para 2026. A cobertura temática é preliminar: faltam validação com provas reais, revisão de afirmações e calibração de C/E. Sem progresso individual inferido.
 
 ## Onda 10: Inglês
 

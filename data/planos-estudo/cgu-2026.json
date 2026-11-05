@@ -1037,7 +1037,8 @@
           "noteRefs": [
             "3 - Materias/Atualidades/09 - demografia e indicadores sociais",
             "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade",
-            "3 - Materias/Comunicacao/10 - linguagem simples"
+            "3 - Materias/Comunicacao/10 - linguagem simples",
+            "3 - Materias/Sociedade Brasileira/01 - instituicoes estratificacao e mobilidade social"
           ],
           "requires": [],
           "sourceIds": [
@@ -1054,7 +1055,8 @@
           "noteRefs": [
             "3 - Materias/Atualidades/09 - demografia e indicadores sociais",
             "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade",
-            "3 - Materias/Comunicacao/10 - linguagem simples"
+            "3 - Materias/Comunicacao/10 - linguagem simples",
+            "3 - Materias/Sociedade Brasileira/02 - formacao social cidadania e hierarquias"
           ],
           "requires": [
             "up1-2-1"
@@ -1092,7 +1094,8 @@
           "noteRefs": [
             "3 - Materias/Atualidades/09 - demografia e indicadores sociais",
             "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade",
-            "3 - Materias/Comunicacao/10 - linguagem simples"
+            "3 - Materias/Comunicacao/10 - linguagem simples",
+            "3 - Materias/Sociedade Brasileira/04 - diversidade interseccionalidade e acesso efetivo"
           ],
           "requires": [
             "up1-2-3"
@@ -1111,7 +1114,8 @@
           "noteRefs": [
             "3 - Materias/Atualidades/09 - demografia e indicadores sociais",
             "3 - Materias/Atualidades/05 - mercado de trabalho desemprego e informalidade",
-            "3 - Materias/Comunicacao/10 - linguagem simples"
+            "3 - Materias/Comunicacao/10 - linguagem simples",
+            "3 - Materias/Sociedade Brasileira/05 - pobreza desigualdade desenvolvimento e indicadores"
           ],
           "requires": [
             "up1-2-4"

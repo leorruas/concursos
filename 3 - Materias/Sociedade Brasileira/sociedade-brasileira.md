@@ -5,7 +5,7 @@ title: "Sociedade brasileira"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Sociedade brasileira
@@ -14,15 +14,24 @@ Formação social, desigualdades, diversidade, território e condições do dese
 
 **Prioridade pedagógica:** Complementar (C), segundo o plano interno, não como classificação oficial de incidência na prova. **Escopo:** 5 unidades.
 
+## Artigos próprios publicados
+
+- [[3 - Materias/Sociedade Brasileira/01 - instituicoes estratificacao e mobilidade social|01. Instituições, estratificação e mobilidade social]]: núcleo específico de P1.2.1.
+- [[3 - Materias/Sociedade Brasileira/02 - formacao social cidadania e hierarquias|02. Formação social brasileira, cidadania e hierarquias]]: núcleo específico de P1.2.2.
+- [[3 - Materias/Sociedade Brasileira/04 - diversidade interseccionalidade e acesso efetivo|04. Diversidade, interseccionalidade e acesso efetivo]]: núcleo específico de P1.2.4.
+- [[3 - Materias/Sociedade Brasileira/05 - pobreza desigualdade desenvolvimento e indicadores|05. Pobreza, desigualdade, desenvolvimento e indicadores]]: núcleo específico de P1.2.5.
+
+A unidade 03 permanece vinculada às notas canônicas de demografia e mercado de trabalho. Os artigos desta matéria seguem o padrão Cebraspe C/E; cobertura editorial não certifica aprendizagem nem revisão normativa integral.
+
 ## Planejamento das unidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
-| 01 | Sociologia: instituições, ação coletiva, estratificação, mobilidade, redes e discriminação. | Referências relacionadas; aprofundar para o recorte |
-| 02 | Formação social e cidadania: escravidão, hierarquias, inclusão e exclusão institucional. | Referências relacionadas; aprofundar para o recorte |
-| 03 | População, território e trabalho: demografia, informalidade, mudanças tecnológicas e desigualdades regionais. | Referências relacionadas; aprofundar para o recorte |
-| 04 | Diversidade e acesso: raça, gênero, sexualidade, deficiência, idade, povos tradicionais, interseccionalidade e barreiras. | Referências relacionadas; aprofundar para o recorte |
-| 05 | Desenvolvimento: pobreza, renda, proteção social, serviços públicos, clima e leitura de indicadores. | Referências relacionadas; aprofundar para o recorte |
+| 01 | Sociologia: instituições, ação coletiva, estratificação, mobilidade, redes e discriminação. | Artigo 01 publicado; fontes e provas reais ainda a validar |
+| 02 | Formação social e cidadania: escravidão, hierarquias, inclusão e exclusão institucional. | Artigo 02 publicado; fontes e provas reais ainda a validar |
+| 03 | População, território e trabalho: demografia, informalidade, mudanças tecnológicas e desigualdades regionais. | Reuso de artigos canônicos de demografia e mercado de trabalho; validação pendente |
+| 04 | Diversidade e acesso: raça, gênero, sexualidade, deficiência, idade, povos tradicionais, interseccionalidade e barreiras. | Artigo 04 publicado; fontes e provas reais ainda a validar |
+| 05 | Desenvolvimento: pobreza, renda, proteção social, serviços públicos, clima e leitura de indicadores. | Artigo 05 publicado; fontes e provas reais ainda a validar |
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 

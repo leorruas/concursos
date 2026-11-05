@@ -7,7 +7,7 @@ const read=(name)=>JSON.parse(fs.readFileSync(path.join(site,name),'utf8'));
 const manifest=read('manifest.json'),search=read('search-index.json');
 for(const collection of [manifest,search]) {
   assert(!collection.some(x=>x.sourcePath?.startsWith('00 - Desempenho/')),'Relatório de desempenho no Pages');
-  assert(!collection.some(x=>/\\/Avancos\\.md$/i.test(x.sourcePath||'')),'Avanços individuais no Pages');
+  assert(!collection.some(x=>(x.sourcePath||'').toLowerCase().endsWith('/avancos.md')),'Avanços individuais no Pages');
 }
 for(const file of ['data/erros-recorrentes.json','data/provas.json','data/contexto-estudo/flashcards-prioridades.json']) {
   assert(!fs.existsSync(path.join(site,file)),'JSON de desempenho publicado: '+file);

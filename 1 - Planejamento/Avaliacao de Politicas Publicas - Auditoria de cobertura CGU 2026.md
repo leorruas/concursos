@@ -97,6 +97,20 @@ Os artigos canônicos [[3 - Materias/Avaliacao de Politicas Publicas/02 - implem
 
 **Situação:** os **21/21 subitens seguem com cobertura editorial substantiva**; **3 receberam verificações metodológicas pontuais, sem selo de validação integral**, e os outros 18 permanecem fora deste lote. Provas Cebraspe reais, auditoria dos cálculos e conferência de todos os conceitos ainda pendentes. O documento continua sendo matriz editorial e de verificação, não registro de aprendizagem individual.
 
+## Auditoria metodológica fina, lote 2 (05/11/2026): aprofundamento de 5.2
+
+Conferência dirigida a **diferenças em diferenças com implantação escalonada, RDD difusa e pareamento**. O artigo [[3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica|Identificação causal e avaliação econômica]] recebeu exemplos, hipóteses e seis itens C/E no total após as expansões.
+
+| Fronteira | Verificação de fonte | Ganho editorial |
+| :--- | :--- | :--- |
+| DiD escalonada | Goodman-Bacon (2021) e Callaway/Sant'Anna (2021): comparação entre coortes/tempos e heterogeneidade de efeitos demandam cuidado com modelos TWFE | Diferenciar implementação em datas distintas de invalidação necessária; apresentar ATT por coorte/período e problemas de ponderação |
+| RDD difusa | Banco Mundial, DIME Wiki, *Regression Discontinuity*: salto na probabilidade de tratamento, aderentes induzidos e hipóteses adicionais | Distinguir salto do resultado da razão entre saltos; exemplo numérico com interpretação local |
+| Pareamento | Banco Mundial/BID, *Impact Evaluation in Practice*, cap. 8: suporte comum, equilíbrio observável e seleção não observada | Demonstrar que equilíbrio em covariáveis medidas não elimina confundimento não observado |
+
+Fontes diretas: [Goodman-Bacon (2021)](https://doi.org/10.1016/j.jeconom.2021.03.014); [Callaway e Sant'Anna (2021)](https://doi.org/10.1016/j.jeconom.2020.12.001); [Banco Mundial, RDD](https://dimewiki.worldbank.org/Regression_Discontinuity); [Banco Mundial/BID, livro de avaliação de impacto](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice).
+
+**Estado após o lote 2:** **21/21 com cobertura editorial substantiva**. O subitem **5.2 recebeu segunda rodada de verificação metodológica direcionada**, não validação integral certificada. A auditoria ainda não cobre individualmente cada afirmação e exemplo de todos os artigos; confrontação sistemática com itens reais da Cebraspe permanece pendente. Nenhum desempenho pessoal foi registrado.
+
 ## Resultado e ordem de implementação
 
 **Triagem:** **21/21 subitens mapeados**; **7 substantivos, 10 parciais e 4 lacunas** (5.2, 5.3, 7.2, 7.3). *Mapeado* não significa coberto; a matéria **não está editorialmente concluída**, nem há auditoria normativa/metodológica fina dos 21 itens. A classificação é provisória e baseada nos artigos inspecionados.

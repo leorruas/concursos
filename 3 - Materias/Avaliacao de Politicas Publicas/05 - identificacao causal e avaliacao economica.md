@@ -93,6 +93,69 @@ O [material do BID sobre métodos de avaliação de impacto](https://publication
 
 **Gabarito: Errado.** O dado histórico pode apoiar a hipótese, mas o contrafactual pós-intervenção não é observado e pode ser alterado por choques e seleção. O erro é trocar **evidência favorável à plausibilidade** por **prova da hipótese**.
 
+## Auditoria metodológica: adoção escalonada, RDD difusa e pareamento
+
+### Diferenças em diferenças com adoção escalonada
+
+Na versão simples de DiD, há dois grupos e dois períodos. Em implantação escalonada, municípios entram em uma política em **anos diferentes**. Um modelo de efeitos fixos de unidade e tempo (*two-way fixed effects*, TWFE) pode comparar municípios tratados cedo com municípios tratados depois, inclusive em períodos nos quais ambos já recebem tratamento. Quando o efeito varia por coorte ou tempo desde a entrada, esses contrastes podem distorcer o efeito médio de interesse.
+
+**Goodman-Bacon (2021)** demonstra que o estimador TWFE pode ser decomposto em comparações DiD de dois grupos e dois períodos, com pesos que, em certas situações de heterogeneidade temporal, produzem estimativa difícil de interpretar como média dos efeitos causais. **Callaway e Sant'Anna (2021)** propõem estimar efeitos específicos por **coorte de entrada** e **período**: `ATT(g,t)`, em que `g` é a primeira data de tratamento e `t` o período observado. Essas estimativas podem depois ser agregadas com pesos e população-alvo explicitados.
+
+**Exemplo:** municípios A entram no programa em 2024, B em 2026 e C não entram até 2027. Em 2025, B pode servir como controle ainda não tratado de A se as hipóteses forem plausíveis. Em 2027, A já tratado não é automaticamente um controle válido do início do tratamento de B, porque seu próprio efeito pode continuar evoluindo.
+
+**Fronteiras importantes:** (a) escalonamento **não invalida por si só** uma avaliação; (b) testar tendências prévias não prova tendências contrafactuais; (c) grupos "ainda não tratados" e "nunca tratados" podem ser comparadores pertinentes, mas a escolha depende de antecipação, disponibilidade e pressupostos; (d) não basta calcular um coeficiente TWFE e chamá-lo de ATT médio sem avaliar heterogeneidade, composição e ponderação.
+
+### Regressão descontínua difusa (*fuzzy RDD*)
+
+Na RDD **nítida**, a passagem pelo corte altera a probabilidade de tratamento de 0 para 1. Na **difusa**, cruzar o corte altera a probabilidade, mas parte dos elegíveis pode não aderir e parte dos inelegíveis pode receber o programa. Logo, a descontinuidade observada no resultado mede inicialmente o efeito da **regra de elegibilidade ou oferta**, e não automaticamente o efeito de efetivamente receber a intervenção.
+
+Em uma RDD difusa com condições instrumentais adequadas, o efeito causal local para **aderentes induzidos pelo corte** (*compliers*) pode ser estimado pela razão entre a descontinuidade no resultado e a descontinuidade na probabilidade de tratamento:
+
+`Efeito local ≈ salto no resultado / salto na participação`.
+
+**Exemplo hipotético:** imediatamente junto ao limiar, a taxa de participação aumenta de 20% para 70% (salto de 0,50), enquanto a aprovação aumenta de 60% para 64% (salto de 0,04). A razão é **0,04 / 0,50 = 0,08**, isto é, oito pontos percentuais de efeito local estimado da participação para os aderentes induzidos pela regra, **somente** se forem sustentadas as condições de continuidade, relevância do salto, exclusão de outros canais relevantes, monotonicidade quando exigida e ausência de manipulação que invalide a comparação. O salto bruto de quatro pontos percentuais não deve ser confundido com essa estimativa.
+
+**Atenção:** se o corte também desencadeia outra política que afeta aprovação, a razão pode deixar de identificar o efeito isolado da intervenção. Se a probabilidade de tratamento quase não muda, a identificação é fraca. Uma estimativa local não é uma previsão para toda a população.
+
+### Pareamento e confundimento não observado
+
+O pareamento tenta equilibrar características **medidas antes da intervenção**. Com suporte comum e hipótese de ausência de confundimento não observado condicionada às covariáveis, pode aproximar um contrafactual. O escore de propensão é uma ferramenta para organizar a comparação; não é um certificado de causalidade.
+
+**Exemplo:** dois municípios possuem renda, tamanho e indicador educacional semelhantes, mas apenas um tem diretor escolar excepcionalmente eficaz. Se a capacidade desse diretor influencia adesão e aprendizagem, e não foi medida, o pareamento não remove esse confundimento. Desse modo, **equilíbrio estatístico das variáveis observadas é necessário à credibilidade do pareamento, mas não prova ignorabilidade condicional**.
+
+**Três verificações complementares:** (1) qualidade dos dados e temporalidade das covariáveis, evitando ajuste por variáveis afetadas pela política; (2) suporte comum e equilíbrio após parear; (3) análise de sensibilidade a confundimento não observado e coerência com conhecimento substantivo. Combinar pareamento com DiD pode lidar com certas diferenças de nível observadas e tendências, mas as hipóteses causais de ambos permanecem necessárias.
+
+### Quadro de discriminação para itens C/E
+
+| Afirmação | Julgamento | Razão |
+| :--- | :--- | :--- |
+| Implantação em diferentes anos inviabiliza qualquer DiD | **Errada** | Há estimadores para grupos e tempos distintos, sob hipóteses explícitas |
+| Na RDD difusa, o salto do resultado equivale sempre ao efeito de receber tratamento | **Errada** | O salto bruto refere-se à regra; o efeito do tratamento exige outras hipóteses e ajuste pelo salto na participação |
+| Pareamento equilibra automaticamente características não observadas | **Errada** | O método usa características observadas e depende de hipótese não testável diretamente |
+| Controles ainda não tratados podem contribuir em DiD escalonada | **Certa, com condições** | É preciso examinar ausência de antecipação, comparabilidade, período e pressupostos |
+
+### Questões comentadas: inéditas C/E
+
+**Item 4.** Em uma política implantada em anos diferentes, um modelo convencional de efeitos fixos de unidade e período pode produzir um coeficiente que não corresponde à média causal pretendida quando os efeitos variam entre coortes e ao longo do tempo.
+
+**Gabarito: Certo.** O modelo pode incorporar comparações com unidades já tratadas e ponderações inadequadas à média almejada. O problema é de interpretação e identificação, não uma proibição geral de DiD.
+
+**Item 5.** Em regressão descontínua difusa, uma descontinuidade na probabilidade de receber o programa pode ser explorada para identificar efeito local sobre aderentes induzidos pelo corte, desde que condições adicionais sejam satisfeitas.
+
+**Gabarito: Certo.** A interpretação do salto do resultado como efeito de receber tratamento depende de hipóteses instrumentais e do salto da participação, além da continuidade do desenho.
+
+**Item 6.** Após pareamento por escore de propensão, o equilíbrio entre renda e escolaridade observadas torna desnecessário investigar a possibilidade de fatores não mensurados influenciarem tratamento e resultados.
+
+**Gabarito: Errado.** O pareamento não controla automaticamente fatores não observados, e equilíbrio observável não demonstra ausência de confundimento residual.
+
+**Fontes específicas desta auditoria:**
+- Goodman-Bacon, A. (2021). [*Difference-in-Differences with Variation in Treatment Timing*](https://doi.org/10.1016/j.jeconom.2021.03.014), *Journal of Econometrics*, 225(2), 254–277.
+- Callaway, B.; Sant'Anna, P. H. C. (2021). [*Difference-in-Differences with Multiple Time Periods*](https://doi.org/10.1016/j.jeconom.2020.12.001), *Journal of Econometrics*, 225(2), 200–230.
+- Banco Mundial, [*Regression Discontinuity*, DIME Wiki](https://dimewiki.worldbank.org/Regression_Discontinuity), seção *Fuzzy vs. Sharp Design*.
+- Banco Mundial e BID, [*Impact Evaluation in Practice*, 2ª edição, capítulos 6 a 8](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice).
+
+**Limite:** as fontes corroboram as distinções conceituais centrais. Os números são didáticos e o texto não substitui especificação de estimadores, diagnóstico de hipóteses em dados reais ou validação de proficiência.
+
 ## Comparação dos desenhos
 
 | Método | O que aproxima o contrafactual | Hipótese ou limitação crítica |

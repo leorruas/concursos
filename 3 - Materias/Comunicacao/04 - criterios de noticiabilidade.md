@@ -11,7 +11,7 @@ updated: 2026-07-06
 
 Os critérios de noticiabilidade (ou valores-notícia) são um conjunto de parâmetros e valores utilizados por jornalistas e editores para decidir se um determinado acontecimento ou fato possui relevância jornalística suficiente para ser transformado em notícia.
 
-Esse processo de seleção e filtragem dos acontecimentos é conhecido como **gatekeeping** (onde o jornalista atua como o "guardião do portão", controlando o fluxo da informação).
+Os critérios de noticiabilidade **participam das decisões de gatekeeping**, mas não são sinônimos desse processo. Gatekeeping examina os pontos, agentes, regras e condições de seleção e circulação da informação, inclusive em etapas posteriores da produção. Ver [[3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao|Gatekeeping: seleção editorial, filtros e circulação de informação]].
 
 Os principais critérios tradicionais incluem:
 - **Proximidade** (geográfica, cultural, econômica ou emocional com o público).
@@ -24,14 +24,11 @@ Os principais critérios tradicionais incluem:
 - **Interesse humano** (histórias concretas de pessoas que aproximam assuntos complexos).
 - **Ineditismo** (caráter inesperado do fato).
 
-## Relação temporal no fluxo produtivo
+## Relação com as etapas da produção
 
-Os critérios de noticiabilidade agem na **etapa inicial de seleção do acontecimento**. A decisão de cobrir ou não um assunto precede cronologicamente todas as fases seguintes, tais como:
-1. Pauta.
-2. Apuração / Entrevistas.
-3. Redação.
-4. Edição.
-5. Revisão e publicação.
+Os valores-notícia ajudam a identificar a relevância jornalística do acontecimento **desde a seleção de pauta**, mas podem voltar a influenciar decisões na **apuração**, **edição** e **distribuição**. Uma notícia inicialmente selecionada pode receber destaque diferente ou ser atualizada diante de novas informações.
+
+Um fluxo didático possível inclui pauta, apuração e entrevistas, redação, edição, revisão e publicação, com retornos entre etapas. **Não é uma sequência universal obrigatória:** práticas jornalísticas e digitais podem sobrepor atividades, atualizar conteúdos publicados e criar novos pontos de seleção. O gatekeeping estuda o funcionamento desses filtros; a noticiabilidade descreve critérios de relevância usados em parte deles.
 
 > [!IMPORTANT]
 > **Noticiabilidade ≠ Veracidade**: Os valores-notícia definem a relevância de um fato para a cobertura. Um acontecimento pode ser extremamente verídico e não possuir noticiabilidade (ex: uma rotina comum sem novidade), ou possuir alto valor-notícia e exigir extensa apuração antes de sua publicação ser considerada segura.

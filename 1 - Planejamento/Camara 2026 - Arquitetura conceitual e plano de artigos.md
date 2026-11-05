@@ -456,6 +456,15 @@ Este lote também corrige uma omissão no índice geral: os artigos TC-003 a TC-
 
 A produção editorial não cria progresso de estudo. Após este lote, continuar com enquadramento (TC-012) e seleção da informação (TC-013).
 
+## Lote 4b: enquadramento e seleção jornalística (TC-012 e TC-013)
+
+- [ ] **CAM-TC-012 · validação de publicação pendente**: [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|Framing: enquadramento, seleção de aspectos e interpretação]] (`art-d825a6f0bc139e47`). Artigo vinculado ao catálogo; conferir GitHub Actions e Pages.
+- [ ] **CAM-TC-013 · validação de publicação pendente**: [[3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao|Gatekeeping: seleção editorial, filtros e circulação de informação]] (`art-4e290c7b68d351af`). Artigo vinculado ao catálogo; conferir GitHub Actions e Pages.
+
+Além das notas inéditas, foi refinada a [[3 - Materias/Comunicacao/04 - criterios de noticiabilidade|nota canônica de noticiabilidade]] para separar os valores-notícia do processo geral de gatekeeping e corrigir a limitação à seleção inicial.
+
+Próximo núcleo: **CAM-TC-014, teoria crítica e Escola de Frankfurt**, mantendo a distinção entre tradição, autor e conceito.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

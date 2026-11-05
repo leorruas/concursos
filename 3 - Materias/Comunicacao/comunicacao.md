@@ -32,7 +32,10 @@ Os dois primeiros artigos iniciaram o **piloto da fase F1** do [[1 - Planejament
 - [[3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao|34. Lazarsfeld: fluxo em duas etapas, líderes de opinião e influência pessoal]]: CAM-TC-010, conceitos, estrutura e itens C/E.
 - [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|35. Agenda-setting: saliência dos temas, agendas e limites da influência]]: CAM-TC-011, conceitos, estrutura e itens C/E.
 
-A trilha TC-001 a TC-011 agora avança das bases de comunicação aos estudos de mediação e saliência. As notas seguintes desenvolvem framing e gatekeeping. Registro editorial não equivale a estudo individual. A publicação editorial não comprova estudo ou retenção.
+- [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|36. Framing: enquadramento, seleção de aspectos e interpretação]]: CAM-TC-012, estrutura, exemplos e C/E comentados.
+- [[3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao|37. Gatekeeping: seleção editorial, filtros e circulação de informação]]: CAM-TC-013, estrutura, exemplos e C/E comentados.
+
+A trilha TC-001 a TC-013 está vinculada à Câmara: fundamentos, modelos, influência pessoal, agendas, enquadramentos e seleção jornalística. O próximo núcleo é teoria crítica e Escola de Frankfurt (TC-014). O vínculo editorial não registra domínio individual. A publicação editorial não comprova estudo ou retenção.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

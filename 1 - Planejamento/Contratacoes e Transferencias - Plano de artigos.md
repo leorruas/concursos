@@ -72,6 +72,16 @@ As comparações devem ser feitas em **casos hipotéticos verificáveis**, não 
 
 **Não misturar regimes históricos sem data.** Normas revogadas e versões anteriores podem ajudar a interpretar fatos ocorridos à sua época, mas não serão apresentadas como regra atual sem indicar período. Distinções sobre prestação de contas e tomada de contas especial devem ser ancoradas em norma própria antes da redação, inclusive competência, fase, prazo, hipóteses e órgão responsável.
 
+## Auditoria de qualidade, lote 1 (05/11/2026)
+
+**Três verificações pontuais com fontes oficiais**, registradas nos artigos existentes:
+
+- **Convênios simplificados, artigo 03:** condição suspensiva, liberação antecipada para documentação, vigência e exceções de prorrogação. Fonte: [Portaria 28/2024, arts. 7º a 10](https://www.gov.br/transferegov/pt-br/legislacao/portarias/portaria-conjunta-mgi-mf-cgu-no-28-de-21-de-maio-de-2024).
+- **Transferência especial, artigo 05:** saneamento de impropriedades, devolução após rejeição, ressalva e caráter excepcional da TCE. Fonte: [Portaria MGI 7.562/2026, arts. 7º a 9º](https://www.gov.br/transferegov/pt-br/legislacao/portarias/portaria-mgi-no-7-562-de-14-de-setembro-de-2026).
+- **TCE, artigo 07:** início e fim das fases interna e externa e diferença entre seus prazos. Fonte: [Portaria CGU 281/2026, arts. 19 a 22](https://basedeconhecimento.cgu.gov.br/handle/1/23225).
+
+**Limite:** conferência dirigida, sem validação integral dos artigos ou de itens de provas reais. Os 49/49 do plano geral representam produção editorial, não aprendizagem observada.
+
 ## Contrato de execução, flashcards e fechamento
 
 Criar **até dois artigos completos por lote**, respeitando o [[1 - Planejamento/Padrao editorial multi-edital|padrão editorial]]. Cada nota deve trazer: quem faz o quê, etapas, requisitos, limites, fonte, pelo menos um caso de auditoria e fronteiras entre categorias. Incluir itens didáticos **C/E**, identificados como inéditos; itens reais exigem caderno/gabarito definitivo e verificação de vigência.

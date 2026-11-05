@@ -77,6 +77,14 @@ O **art. 10, XII**, contempla prorrogação de ofício da vigência pelo períod
 
 **Gabarito: Certo.** Vigência, marco do instrumento e transição são determinantes.
 
+## Refinamento: três prazos distintos no regime simplificado
+
+Na [Portaria Conjunta MGI/MF/CGU nº 28/2024](https://www.gov.br/transferegov/pt-br/legislacao/portarias/portaria-conjunta-mgi-mf-cgu-no-28-de-21-de-maio-de-2024), o **art. 7º, § 2º**, prevê até **nove meses**, prorrogáveis uma vez por igual período, para apresentar peças documentais após a celebração sob condição suspensiva. O **art. 10, IV**, fixa vigência de até **36 meses** do instrumento, sujeita às hipóteses excepcionais de prorrogação do **§ 1º**. Quando o concedente ou mandatária causa atraso na liberação, o **art. 10, XII**, prevê prorrogação de ofício pelo período exato do atraso.
+
+O **art. 8º** admite liberar recursos para elaboração de certas peças documentais, até **5% do valor global**, nas condições previstas. Essa liberação **não caracteriza cumprimento da condição suspensiva**, conforme o parágrafo único, II. Portanto, prazo de condição suspensiva, vigência e prestação de contas não podem ser tratados como um único prazo.
+
+**Item inédito C/E:** A liberação prévia de recursos para elaboração de peças documentais indica que a condição suspensiva já foi cumprida. **Errado:** o art. 8º diferencia os atos expressamente.
+
 ## Relações com outros temas
 
 - [[3 - Materias/Contratacoes e Transferencias/02 - convenios contratos de repasse e plano de trabalho|Convênios e plano de trabalho]].

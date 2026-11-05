@@ -28,7 +28,18 @@ function configurarMermaid() {
 function renderizarDiagramasMermaid() {
     if (typeof mermaid === "undefined" || !artigoCorpo) return;
     configurarMermaid();
+    // O marked converte blocos ```mermaid em <pre><code class="language-mermaid">.
+    // Transformar esses blocos antes de chamar mermaid.run().
+    artigoCorpo.querySelectorAll("pre > code.language-mermaid, pre > code.lang-mermaid").forEach(codigo => {
+        const pre = codigo.parentElement;
+        const diagrama = document.createElement("div");
+        diagrama.className = "mermaid";
+        diagrama.dataset.mermaidSource = codigo.textContent;
+        diagrama.textContent = codigo.textContent;
+        pre.replaceWith(diagrama);
+    });
     const diagramas = artigoCorpo.querySelectorAll(".mermaid");
+    if (!diagramas.length) return;
     diagramas.forEach(diagrama => {
         const codigo = diagrama.dataset.mermaidSource || diagrama.textContent;
         diagrama.dataset.mermaidSource = codigo;

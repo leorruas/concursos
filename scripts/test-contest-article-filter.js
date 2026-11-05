@@ -37,8 +37,18 @@ ctx.concursoSelecionadoId='camara-2026';
 const cam=ctx.obterArtigosDaMateria(comunicacao);
 assert.ok(cam.length>10&&cam.length<dp.length,'Câmara: lista específica diferente');
 assert.ok(!cam.some(x=>x.sourcePath.endsWith('/21 - teorias do jornalismo e historia da imprensa.md')),'evitar artigos extraedital');
-const unico=ctx.obterArtigosDaMateria('Ingles');
-assert.equal(unico.length,1,'matéria sem artigos próprios conserva o hub');
+const inglesSubject=catalogo.contests.find(c=>c.concursoId==='camara-2026').subjects.find(s=>s.subjectId==='ingles');
+const inglesArtigos=ctx.obterArtigosDaMateria('Ingles');
+assert.equal(inglesArtigos.length,1+inglesSubject.articleSourcePaths.length,'Inglês: hub e artigos reais da disciplina');
+const originaisIngles=inglesSubject.articleSourcePaths;
+inglesSubject.articleSourcePaths=[];
+try {
+  const unico=ctx.obterArtigosDaMateria('Ingles');
+  assert.equal(unico.length,1,'matéria sem artigos próprios conserva o hub');
+  assert.ok(unico[0].sourcePath.endsWith('/ingles.md'),'hub isolado preservado');
+} finally {
+  inglesSubject.articleSourcePaths=originaisIngles;
+}
 ctx.concursoSelecionadoId='cgu-2026';
 assert.equal(ctx.obterArtigosDaMateria('Comunicacao').length,0,'CGU sem Comunicação como frente autônoma');
 console.log('SUCESSO: listas de artigos filtradas por edital, hub primeiro, artigos compartilhados e estados vazios.');

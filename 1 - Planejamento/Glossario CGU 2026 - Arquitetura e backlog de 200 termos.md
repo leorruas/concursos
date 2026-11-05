@@ -210,6 +210,14 @@ A diferença decisiva para o Cebraspe: **corrente/capital** é categoria econôm
 
 A ordem é revisável se o estudo revelar lacuna de maior prioridade. O contador na interface mostrará apenas entradas **revisadas e efetivamente publicadas**.
 
+## Refinamento: pesquisa por flexões e relevância (05/11/2026)
+
+A pesquisa local do glossário passou a tratar formas como **primário/primária/primários/primárias** e **financeiro/financeira** como equivalentes na recuperação, sem modificar as definições ou criar aliases duplicados. A busca continua sem distinção de maiúsculas e acentos, contempla plural regular e algumas terminações frequentes do português, como **ações/ação** e **fiscais/fiscal**. A aproximação morfológica é **conservadora**, evitando uma promessa de lematização completa ou de correção ortográfica arbitrária.
+
+Os termos de uma consulta com várias palavras são combinados por presença conjunta nos campos públicos da entrada: título, aliases, definição, contraste, pegadinha e exemplo. Na ordenação, têm precedência as correspondências **exatas de título**, **exatas de sigla/alias** e **do próprio título**, antes dos resultados obtidos pelo corpo da definição. O usuário mantém o controle pelos filtros de bloco, matéria, artigo e letra inicial; a ordenação por relevância é aplicada somente quando há texto na busca.
+
+Os testes cobrem flexões de gênero e número, siglas, plurais especiais, múltiplas palavras, ausência de duplicação, consultas sem resultado e preservação dos filtros por matéria e bloco. A busca tem alcance lexical e não substitui revisão de equivalências jurídicas de conceitos distintos.
+
 ## Testes e fechamento
 
 Validar unicidade e estabilidade de IDs, aliases sem colisões, campos obrigatórios, links canônicos existentes, correspondência a concurso e matéria, fonte legal/manual atualizada, resultados vazios e busca por acento/sigla. Testar regressões no `web/00-route-utils.js`, `web/07-router-init.js`, `web/06*.js` e `scripts/build-site.js`. O glossário não pode alterar ranking global sem benchmarks nem deixar `index.md` ou índice de navegação inconsistentes. Confirmar build, workflow e conteúdo no Pages ao vivo antes de anunciar implementação.

@@ -3,16 +3,62 @@ const glossarioState = { data: null, pending: null, query: '', block: '', subjec
 function normalizarGlossario(valor) {
     return String(valor || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
 }
+// Busca local: aproxima flexões de gênero e plural sem confundir raízes arbitrárias.
+// Exemplos: primário/primária, financeiro/financeira, públicos/públicas, ação/ações.
+function palavrasGlossario(value) {
+    return normalizarGlossario(value).match(/[a-z0-9]+/g) || [];
+}
+function formaBuscaGlossario(word) {
+    let term = word;
+    if (term.length >= 5) {
+        if (term.endsWith('coes')) term = term.slice(0, -4) + 'cao';
+        else if (term.endsWith('soes')) term = term.slice(0, -4) + 'sao';
+        else if (term.length >= 6 && term.endsWith('ais')) term = term.slice(0, -3) + 'al';
+        else if (term.length >= 6 && term.endsWith('eis')) term = term.slice(0, -3) + 'el';
+        else if (term.endsWith('s')) term = term.slice(0, -1);
+    }
+    if (term.length >= 6 && /(ari|eir|iv|ad|id|ic|os|ent)[oa]$/.test(term)) {
+        return term.slice(0, -1);
+    }
+    return term;
+}
+function palavraCompativelGlossario(queryWord, indexedWord) {
+    return indexedWord.startsWith(queryWord) ||
+        (queryWord.length >= 5 && formaBuscaGlossario(queryWord) === formaBuscaGlossario(indexedWord));
+}
+function palavrasEncontradasGlossario(queryWords, content) {
+    const indexedWords = palavrasGlossario(content);
+    return queryWords.every(word => indexedWords.some(candidate => palavraCompativelGlossario(word, candidate)));
+}
+function relevanciaTermoGlossario(term, query) {
+    const seek = normalizarGlossario(query);
+    if (!seek) return 0;
+    const queryWords = palavrasGlossario(seek);
+    if (!queryWords.length) return 0;
+    const title = normalizarGlossario(term.term);
+    const aliases = (term.aliases || []).map(normalizarGlossario);
+    if (title === seek) return 0;
+    if (aliases.includes(seek)) return 1;
+    if (title.startsWith(seek)) return 2;
+    if (palavrasEncontradasGlossario(queryWords, term.term)) return 3;
+    if (aliases.some(alias => palavrasEncontradasGlossario(queryWords, alias))) return 4;
+    const titlesAndAliases = [term.term, ...(term.aliases || [])].join(' ');
+    if (palavrasEncontradasGlossario(queryWords, titlesAndAliases)) return 5;
+    const fullContent = [titlesAndAliases, term.definition, term.contrast, term.cebraspeTrap, term.example].join(' ');
+    return palavrasEncontradasGlossario(queryWords, fullContent) ? 6 : Infinity;
+}
 function filtrarTermosGlossario(terms, query = '', block = '', subject = '', article = '') {
     const seek = normalizarGlossario(query);
-    return (terms || []).filter(term => {
+    const matches = (terms || []).filter(term => {
         if (block && !String(term.examBlock || '').split('/').includes(block)) return false;
         if (subject && !(term.subjectIds || []).includes(subject)) return false;
         if (article && !(term.articleIds || []).includes(article)) return false;
-        if (!seek) return true;
-        return [term.term, ...(term.aliases || []), term.definition, term.contrast]
-            .some(value => normalizarGlossario(value).includes(seek));
+        return !seek || relevanciaTermoGlossario(term, seek) < Infinity;
     });
+    if (seek) matches.sort((a, b) =>
+        relevanciaTermoGlossario(a, seek) - relevanciaTermoGlossario(b, seek) ||
+        a.term.localeCompare(b.term, 'pt-BR'));
+    return matches;
 }
 function listarArtigosGlossario(terms, block = '', subject = '') {
     const articles = new Map();

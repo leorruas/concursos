@@ -44,6 +44,40 @@ assert(match('PAINT').some(t => t.id === 'glo-paint'));
 assert(match('DEA').some(t => t.id === 'glo-despesas-de-exercicios-anteriores'));
 assert(match('SIC').some(t => t.id === 'glo-sistema-de-informacao-de-custos-sic'));
 assert(match('programacao fisica').some(t => t.id === 'glo-programacao-fisica-cumprida'));
+// A consulta deve tolerar flexão nominal, acentos, plurais e várias palavras.
+const primarios = [
+  'glo-receita-primaria',
+  'glo-despesa-primaria',
+  'glo-resultado-primario',
+  'glo-identificador-de-resultado-primario-da-despesa'
+];
+for (const query of ['primário', 'primaria', 'PRIMARIOS', 'primárias', 'primario']) {
+  const encontrados = match(query);
+  for (const id of primarios) {
+    assert(encontrados.some(item => item.id === id), 'Variação '+query+' não encontra '+id);
+  }
+  assert.equal(new Set(encontrados.map(t => t.id)).size, encontrados.length, 'Consulta duplicou verbetes');
+}
+for (const query of ['financeiro', 'financeira', 'financeiros', 'financeiras']) {
+  for (const id of ['glo-receita-financeira', 'glo-despesa-financeira', 'glo-superavit-financeiro']) {
+    assert(match(query).some(item => item.id === id), query+' deixou de localizar '+id);
+  }
+}
+for (const [query, id] of [
+  ['acoes','glo-acao-orcamentaria'],
+  ['ações','glo-acao-orcamentaria'],
+  ['fiscais','glo-meta-fiscal'],
+  ['liquidos','glo-receita-corrente-liquida-rcl'],
+  ['receitas primarias','glo-receita-primaria'],
+  ['RECEITA PRIMÁRIO','glo-receita-primaria'],
+  ['orcamentarias','glo-acao-orcamentaria']
+]) assert(match(query).some(t => t.id === id), 'Busca com flexão ausente: '+query);
+assert.equal(match('receita primária')[0].id, 'glo-receita-primaria', 'Correspondência exata deve aparecer primeiro');
+assert.equal(match('primário', 'P3', 'orcamento-publico').some(t => t.id === 'glo-receita-primaria'), true);
+assert.equal(match('primário', 'P3', 'contabilidade-publica').some(t => t.id === 'glo-receita-primaria'), false);
+assert(match('empenho liquidacao').some(t => t.id === 'glo-empenho'), 'Busca com termos em campos diferentes deve funcionar');
+assert(match('PAINT')[0].id === 'glo-paint', 'Siglas exatas precisam preceder correspondências no texto');
+assert(match('sem termo impossível').length === 0, 'Consultas inexistentes não devem receber correspondências arbitrárias');
 for (const [consulta, id] of [
   ['receita primaria','glo-receita-primaria'],
   ['receita financeira','glo-receita-financeira'],
@@ -109,4 +143,4 @@ for (const [query, id] of [['regra de ouro', 'glo-regra-de-ouro'], ['DOCC', 'glo
     assert(match(query).some(t => t.id === id), 'Novo conceito de orçamento ausente: ' + query);
 }
 assert(match('sem termo impossível').length === 0);
-console.log('SUCESSO: ao menos 200 definições, incluindo 140 de orçamento, com filtro e agrupamento por artigo, com fontes, filtros, aliases e links íntegros.');
+console.log('SUCESSO: glossário com flexões portuguesas, pesquisa de múltiplas palavras, relevância e filtros combinados validado.');

@@ -682,6 +682,1704 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-primaria",
+      "term": "Receita primária",
+      "aliases": [],
+      "definition": "Receita incluída no cálculo do resultado primário conforme o identificador da classificação federal; abrange principalmente tributos, contribuições, transferências e outras entradas definidas nas regras fiscais.",
+      "contrast": "Primária indica efeito no resultado primário, não categoria econômica corrente ou de capital.",
+      "cebraspeTrap": "Afirmar que receita primária é sinônimo de receita corrente ou que toda receita de capital fica fora da apuração.",
+      "example": "A União recebe tributos que entram no cálculo do resultado primário do exercício.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-financeira",
+      "term": "Receita financeira",
+      "aliases": [],
+      "definition": "Receita não incluída no cálculo do resultado primário no classificador federal, como certas captações financeiras, rendimentos de aplicações e operações de crédito.",
+      "contrast": "Financeira não significa necessariamente receita de capital e tampouco ingresso extraorçamentário.",
+      "cebraspeTrap": "Classificar toda receita patrimonial como primária ou toda receita financeira como extraorçamentária.",
+      "example": "Juros de aplicação financeira podem ser receita corrente patrimonial e, simultaneamente, receita financeira para o resultado primário.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-resultado-primario",
+      "term": "Resultado primário",
+      "aliases": [],
+      "definition": "Indicador fiscal apurado pela diferença entre receitas primárias e despesas primárias, segundo a metodologia e o período de apuração aplicáveis.",
+      "contrast": "O resultado primário exclui receitas e despesas classificadas como financeiras; não equivale ao resultado orçamentário nem ao patrimonial.",
+      "cebraspeTrap": "Tomar a diferença entre toda receita arrecadada e toda despesa paga como definição universal de resultado primário.",
+      "example": "Receitas primárias de 110 e despesas primárias de 100 produzem superávit primário de 10 no exemplo simplificado.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-corrente",
+      "term": "Receita corrente",
+      "aliases": [
+        "Receitas correntes"
+      ],
+      "definition": "Categoria econômica da receita orçamentária que reúne, entre outras, tributos, contribuições, exploração patrimonial, serviços e transferências destinadas a financiar despesas correntes.",
+      "contrast": "Categoria corrente não determina automaticamente inclusão no resultado primário; rendimento financeiro pode ser receita corrente.",
+      "cebraspeTrap": "Definir receita corrente como toda receita de arrecadação mensal ou equipará-la a receita primária.",
+      "example": "O aluguel de um imóvel público é receita corrente patrimonial.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, arts. 3º, 11 e 57",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-de-capital",
+      "term": "Receita de capital",
+      "aliases": [
+        "Receitas de capital"
+      ],
+      "definition": "Categoria econômica de receita orçamentária que abrange operações de crédito, alienação de bens, amortização de empréstimos concedidos, transferências de capital e outras origens previstas.",
+      "contrast": "Receita de capital não é idêntica a receita financeira; a classificação primária depende de critério próprio.",
+      "cebraspeTrap": "Afirmar que toda receita de capital vem de dívida ou representa ingresso extraorçamentário.",
+      "example": "A venda de um veículo público é receita de capital por alienação de bens.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, arts. 3º, 11 e 57",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-orcamentaria",
+      "term": "Receita orçamentária",
+      "aliases": [],
+      "definition": "Ingresso de recursos classificado como receita na execução orçamentária, inclusive quando não previsto inicialmente na lei orçamentária, observadas as exceções legais.",
+      "contrast": "Receita orçamentária difere de ingresso extraorçamentário temporário ou meramente compensatório.",
+      "cebraspeTrap": "Afirmar que uma doação não prevista na Lei Orçamentária Anual necessariamente será extraorçamentária.",
+      "example": "Doação em dinheiro recebida pelo ente pode ser registrada como receita orçamentária não prevista.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, arts. 3º, 11 e 57",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-ingresso-extraorcamentario",
+      "term": "Ingresso extraorçamentário",
+      "aliases": [
+        "Receita extraorçamentária"
+      ],
+      "definition": "Entrada financeira temporária ou compensatória que não integra a receita orçamentária, normalmente acompanhada de obrigação de devolução ou repasse.",
+      "contrast": "Movimentação de caixa não prova arrecadação orçamentária; nem toda operação de crédito segue a mesma classificação.",
+      "cebraspeTrap": "Tratar uma caução recebida de contratado como receita disponível para financiar livremente despesas públicas.",
+      "example": "A caução contratual recebida e sujeita à restituição constitui, em regra, ingresso extraorçamentário.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-originaria",
+      "term": "Receita originária",
+      "aliases": [],
+      "definition": "Categoria doutrinária de receita obtida a partir da exploração de patrimônio ou atividade econômica estatal, como alugueis, preços públicos e certas prestações de serviços.",
+      "contrast": "Originária e derivada são classificações de procedência da doutrina, distintas das rubricas normativas de natureza.",
+      "cebraspeTrap": "Equiparar receita originária a receita de capital ou exigir sua arrecadação mediante poder de império.",
+      "example": "O aluguel cobrado por imóvel do Estado é receita patrimonial corrente e, sob ótica doutrinária, originária.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-derivada",
+      "term": "Receita derivada",
+      "aliases": [],
+      "definition": "Categoria doutrinária de receita obtida por imposição fundada no poder de império, como impostos e contribuições legalmente exigidos.",
+      "contrast": "Derivada não significa transferência entre entes; contrapõe-se à receita originária por sua procedência.",
+      "cebraspeTrap": "Classificar aluguel de bem público como receita derivada apenas porque é recebido pela administração.",
+      "example": "A cobrança de imposto por obrigação legal é exemplo de receita derivada na classificação doutrinária.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-natureza-da-receita",
+      "term": "Natureza da receita",
+      "aliases": [
+        "Classificação por natureza da receita"
+      ],
+      "definition": "Classificação da receita que identifica o fato econômico e jurídico de sua origem, estruturada em categoria econômica, origem, espécie e detalhamentos previstos nos códigos oficiais.",
+      "contrast": "Natureza responde por que a receita surgiu; fonte/destinação determina as regras de aplicação do recurso.",
+      "cebraspeTrap": "Afirmar que o código de natureza, por si só, define onde o recurso poderá ser gasto.",
+      "example": "O imposto recebido é classificado por categoria, origem e espécie da receita.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-origem-da-receita-orcamentaria",
+      "term": "Origem da receita orçamentária",
+      "aliases": [],
+      "definition": "Nível da classificação por natureza situado abaixo da categoria econômica, que agrupa receitas com procedências semelhantes, como contribuições, serviços e transferências.",
+      "contrast": "Origem é um nível da natureza da receita; fonte/destinação é outra classificação, ligada à aplicação.",
+      "cebraspeTrap": "Chamar de origem uma fonte vinculada à saúde ou confundir origem com a etapa da arrecadação.",
+      "example": "Receita patrimonial é origem dentro da categoria receitas correntes.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-especie-da-receita",
+      "term": "Espécie da receita",
+      "aliases": [],
+      "definition": "Nível da classificação por natureza que detalha a origem e qualifica de modo mais específico o fato gerador do ingresso.",
+      "contrast": "Espécie detalha uma origem; não se confunde com categoria econômica nem com fonte de recursos.",
+      "cebraspeTrap": "Tratar imposto como categoria econômica e receitas correntes como espécie.",
+      "example": "Dentro de impostos, taxas e contribuições de melhoria, a espécie impostos detalha a receita.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-fonte-destinacao-de-recursos",
+      "term": "Fonte/destinação de recursos",
+      "aliases": [
+        "Fonte de recursos",
+        "Destinação de recursos"
+      ],
+      "definition": "Classificação que agrupa receitas segundo normas de aplicação e as vincula ao financiamento de despesas compatíveis com sua destinação legal.",
+      "contrast": "Fonte indica regras de uso do dinheiro; origem da receita indica o fato gerador do ingresso.",
+      "cebraspeTrap": "Concluir que duas receitas patrimoniais necessariamente financiam as mesmas despesas por terem natureza semelhante.",
+      "example": "Uma fonte vinculada pode financiar ações específicas ainda que a natureza econômica da receita seja comum.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-de-impostos-taxas-e-contribuicoes-de-melhoria",
+      "term": "Receita de impostos, taxas e contribuições de melhoria",
+      "aliases": [
+        "Receita tributária (origem)"
+      ],
+      "definition": "Origem de receita corrente que reúne impostos, taxas e contribuições de melhoria na classificação por natureza, com espécies distintas para cada grupo de tributos.",
+      "contrast": "Contribuições sociais são registradas na origem própria de contribuições, não na espécie contribuição de melhoria.",
+      "cebraspeTrap": "Equiparar contribuição de melhoria a contribuição previdenciária apenas pela palavra contribuição.",
+      "example": "Imposto sobre a renda e taxa por exercício do poder de polícia têm espécies distintas nessa origem.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-de-contribuicoes",
+      "term": "Receita de contribuições",
+      "aliases": [],
+      "definition": "Origem de receita corrente que reúne contribuições sociais, econômicas e outras previstas na classificação orçamentária da receita.",
+      "contrast": "Contribuição de melhoria integra a origem impostos, taxas e contribuições de melhoria, não a origem de contribuições.",
+      "cebraspeTrap": "Colocar a contribuição previdenciária na mesma espécie da contribuição de melhoria.",
+      "example": "A arrecadação de contribuição previdenciária social integra a origem receita de contribuições.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-patrimonial",
+      "term": "Receita patrimonial",
+      "aliases": [],
+      "definition": "Origem de receita corrente ligada à exploração ou remuneração do patrimônio estatal, incluindo alugueis, dividendos e determinadas remunerações financeiras.",
+      "contrast": "Aluguel é receita patrimonial; venda do bem é alienação de bens, receita de capital.",
+      "cebraspeTrap": "Considerar que toda receita patrimonial é primária ou que alienar imóvel é receita patrimonial corrente.",
+      "example": "O governo recebe aluguel de um edifício e registra ingresso de receita corrente patrimonial.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-agropecuaria",
+      "term": "Receita agropecuária",
+      "aliases": [],
+      "definition": "Origem de receita corrente vinculada à exploração econômica de atividades de produção vegetal ou animal realizadas pelo ente, conforme o classificador vigente.",
+      "contrast": "O fato de a despesa pública financiar política agrícola não a transforma em receita agropecuária.",
+      "cebraspeTrap": "Classificar imposto cobrado de produtor rural como receita agropecuária apenas pelo setor econômico do contribuinte.",
+      "example": "Venda de produção agrícola própria de estabelecimento público pode originar receita agropecuária.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-industrial",
+      "term": "Receita industrial",
+      "aliases": [],
+      "definition": "Origem de receita corrente decorrente da atividade industrial exercida pela entidade pública na produção ou comercialização de bens classificados nessa natureza.",
+      "contrast": "A atividade econômica que gera o ingresso importa mais que a função administrativa da unidade que o recebe.",
+      "cebraspeTrap": "Classificar tributo pago por empresa industrial como receita industrial do ente arrecadador.",
+      "example": "Venda de bens resultantes de produção industrial própria pode ser receita industrial.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-de-servicos",
+      "term": "Receita de serviços",
+      "aliases": [],
+      "definition": "Origem de receita corrente decorrente de serviços remunerados prestados pelo ente em condições classificáveis como receita pública de serviços.",
+      "contrast": "Preço público por prestação de serviço não é automaticamente taxa tributária, que possui hipótese legal própria.",
+      "cebraspeTrap": "Afirmar que qualquer cobrança por serviço público constitui taxa, e não receita de serviços.",
+      "example": "Cobrança de preço público por serviço remunerado pode gerar receita corrente de serviços.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-transferencia-corrente",
+      "term": "Transferência corrente",
+      "aliases": [
+        "Transferências correntes"
+      ],
+      "definition": "Receita recebida de pessoa pública ou privada, sem contraprestação direta ao transferidor, destinada a financiar despesas correntes do ente beneficiário.",
+      "contrast": "A finalidade do recurso recebido diferencia transferência corrente de transferência de capital.",
+      "cebraspeTrap": "Classificar como transferência de capital todo repasse intergovernamental apenas porque o valor é elevado.",
+      "example": "Recursos recebidos para manutenção de atendimento em saúde podem ser transferência corrente.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Lei nº 4.320/1964, arts. 3º, 11 e 57",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-transferencia-de-capital",
+      "term": "Transferência de capital",
+      "aliases": [
+        "Transferências de capital"
+      ],
+      "definition": "Receita recebida de pessoa pública ou privada, sem contraprestação direta ao transferidor, destinada a financiar despesas de capital do ente beneficiário.",
+      "contrast": "A transferência de capital é receita de quem recebe; modalidade de transferência é classificação da despesa de quem envia.",
+      "cebraspeTrap": "Concluir que o simples fato de a União transferir ao município basta para classificar a receita como capital.",
+      "example": "Repasse destinado à construção de hospital pode ser receita de transferência de capital para o município.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Lei nº 4.320/1964, arts. 3º, 11 e 57",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-operacao-de-credito",
+      "term": "Operação de crédito",
+      "aliases": [
+        "Operações de crédito"
+      ],
+      "definition": "Origem de receita de capital decorrente da contratação de empréstimos ou emissão de títulos que criam dívida para o ente, ressalvados regimes específicos como a antecipação de receita.",
+      "contrast": "Tomar empréstimo é operação de crédito; recuperar principal de crédito que o ente concedeu é amortização recebida.",
+      "cebraspeTrap": "Classificar a antecipação de receita orçamentária como receita de capital ordinária sem verificar seu regime extraorçamentário.",
+      "example": "Um ente toma empréstimo para financiar obra e registra receita de capital por operação de crédito.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-alienacao-de-bens",
+      "term": "Alienação de bens",
+      "aliases": [],
+      "definition": "Origem de receita de capital gerada pela venda ou transferência onerosa de bens e direitos do patrimônio público, conforme requisitos legais.",
+      "contrast": "Alienação é venda; o aluguel gera receita patrimonial corrente e a aplicação do produto da venda tem restrições fiscais.",
+      "cebraspeTrap": "Afirmar que vender imóvel público e receber aluguel do mesmo imóvel são a mesma origem.",
+      "example": "A venda de veículo da prefeitura é receita de capital por alienação de bens.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, arts. 3º, 11 e 57",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-amortizacao-de-emprestimos-concedidos",
+      "term": "Amortização de empréstimos concedidos",
+      "aliases": [
+        "Amortização de empréstimos (receita)"
+      ],
+      "definition": "Receita de capital decorrente do recebimento do principal de empréstimo anteriormente concedido pelo próprio ente a terceiros.",
+      "contrast": "Receber amortização de crédito concedido é ingresso; amortizar dívida contraída pelo ente é despesa.",
+      "cebraspeTrap": "Tratar juros de empréstimo concedido como amortização do principal recebido.",
+      "example": "Um município empresta recursos e recebe parcelas de devolução do valor principal.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-antecipacao-de-receita-orcamentaria-aro",
+      "term": "Antecipação de Receita Orçamentária (ARO)",
+      "aliases": [
+        "ARO",
+        "Operação de crédito por antecipação de receita"
+      ],
+      "definition": "Operação de crédito voltada a suprir insuficiência temporária de caixa diante de arrecadação futura, com tratamento de ingresso extraorçamentário e limites próprios.",
+      "contrast": "A ARO difere de operação de crédito orçamentária comum, embora ambas envolvam endividamento.",
+      "cebraspeTrap": "Classificar toda entrada de empréstimo como receita de capital, ignorando a exceção da ARO.",
+      "example": "O município antecipa temporariamente recursos de receitas esperadas e deve observar as condições legais para quitar a operação.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-intraorcamentaria",
+      "term": "Receita intraorçamentária",
+      "aliases": [
+        "Receita intra-orçamentária"
+      ],
+      "definition": "Receita de operação realizada entre órgãos e entidades integrantes dos orçamentos fiscal e da seguridade social de um mesmo ente, identificada para evitar dupla contagem na consolidação.",
+      "contrast": "É uma receita orçamentária identificada como intraorçamentária, não um ingresso extraorçamentário ou recurso novo para o ente consolidado.",
+      "cebraspeTrap": "Excluir qualquer receita intraorçamentária do orçamento como se fosse entrada extraorçamentária.",
+      "example": "Contribuição paga de um órgão a entidade do mesmo ente, quando ambos estão no orçamento fiscal e da seguridade, recebe identificação intraorçamentária.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, capítulos 3 e 4",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-classificacao-por-esfera-orcamentaria",
+      "term": "Classificação por esfera orçamentária",
+      "aliases": [
+        "Esfera orçamentária"
+      ],
+      "definition": "Classificação que identifica em qual dos orçamentos previstos constitucionalmente está a programação: fiscal, seguridade social ou investimento das empresas estatais abrangidas.",
+      "contrast": "Esfera identifica o orçamento; categoria econômica identifica se a despesa é corrente ou de capital.",
+      "cebraspeTrap": "Afirmar que toda despesa classificada como investimento econômico pertence ao orçamento de investimento das estatais.",
+      "example": "Construção de unidade do SUS pode ser despesa de capital no orçamento da seguridade social.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Constituição Federal, art. 165, § 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-classificacao-institucional",
+      "term": "Classificação institucional",
+      "aliases": [],
+      "definition": "Dimensão da programação de despesa que identifica órgão orçamentário e unidade orçamentária responsáveis pela autorização e execução da programação.",
+      "contrast": "Institucional responde quem; funcional responde área de atuação; programática responde para que e por qual ação.",
+      "cebraspeTrap": "Identificar programa de assistência estudantil como se fosse o órgão responsável pela despesa.",
+      "example": "O Ministério da Educação e a unidade orçamentária de uma universidade situam a responsabilidade institucional.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-orgao-orcamentario",
+      "term": "Órgão orçamentário",
+      "aliases": [],
+      "definition": "Agrupamento institucional de unidades orçamentárias responsável por organizar e identificar parte das dotações na estrutura da lei orçamentária.",
+      "contrast": "Órgão é nível institucional mais amplo que unidade orçamentária, e não equivale à função de governo.",
+      "cebraspeTrap": "Chamar a função Educação de órgão ou supor que órgão e unidade orçamentária são sempre idênticos.",
+      "example": "O órgão orçamentário Ministério da Educação agrega diferentes unidades com programação própria.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-unidade-orcamentaria",
+      "term": "Unidade orçamentária",
+      "aliases": [
+        "UO (unidade orçamentária)"
+      ],
+      "definition": "Componente da classificação institucional ao qual são consignadas dotações próprias no orçamento, inclusive unidades que não correspondem exatamente a repartições físicas.",
+      "contrast": "Unidade orçamentária identifica responsabilidade pela dotação, enquanto unidade gestora descreve arranjo de execução administrativa.",
+      "cebraspeTrap": "Exigir que toda unidade orçamentária corresponda a uma única unidade física de atendimento.",
+      "example": "Uma universidade ou fundo previsto na programação recebe dotação individualizada como unidade orçamentária.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-classificacao-funcional",
+      "term": "Classificação funcional",
+      "aliases": [],
+      "definition": "Classificação da despesa que identifica sua área de atuação por função e subfunção, permitindo comparar ações de governo por finalidade temática.",
+      "contrast": "Função e subfunção não equivalem a programa, ação ou grupo econômico de despesa.",
+      "cebraspeTrap": "Afirmar que toda ação da mesma subfunção precisa pertencer obrigatoriamente à mesma função.",
+      "example": "Uma ação pode ter função Legislativa e subfunção ligada à educação infantil, conforme regras de matricialidade.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-funcao-orcamentaria",
+      "term": "Função orçamentária",
+      "aliases": [
+        "Função de governo"
+      ],
+      "definition": "Maior nível de agregação da classificação funcional da despesa, que indica a área predominante de atuação governamental conforme a tabela oficial.",
+      "contrast": "Função é categoria funcional; órgão orçamentário identifica responsabilidade institucional, e GND indica tipo de gasto.",
+      "cebraspeTrap": "Concluir que a compra de material de consumo pela universidade determina a função somente pelo objeto comprado.",
+      "example": "Educação, Saúde e Legislativa são exemplos de funções na classificação funcional.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-subfuncao-orcamentaria",
+      "term": "Subfunção orçamentária",
+      "aliases": [],
+      "definition": "Detalhamento da classificação funcional que identifica subconjunto de ações por natureza da atuação, admitindo combinações matriciais com diferentes funções segundo regras aplicáveis.",
+      "contrast": "Subfunção não é um programa de política pública e não fica sempre presa à função originalmente associada.",
+      "cebraspeTrap": "Considerar inválida toda combinação de subfunção de educação com função de outra área de governo.",
+      "example": "Apoio à educação infantil em órgão legislativo pode combinar subfunção de educação infantil com função Legislativa.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-classificacao-programatica",
+      "term": "Classificação programática",
+      "aliases": [],
+      "definition": "Dimensão que organiza a programação orçamentária em programas, ações e subtítulos para relacionar objetivos, entregas e localização da execução.",
+      "contrast": "Programática descreve o que se pretende realizar; funcional indica área; institucional indica responsável.",
+      "cebraspeTrap": "Tratar subfunção como sinônimo de programa e elemento da despesa como ação orçamentária.",
+      "example": "Um programa de permanência estudantil contém ação de assistência ao estudante e subtítulo territorial.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-programa-orcamentario",
+      "term": "Programa orçamentário",
+      "aliases": [],
+      "definition": "Instrumento de organização das ações públicas ligadas a objetivos e resultados de política pública, no recorte e na estrutura da programação orçamentária vigente.",
+      "contrast": "Programa reúne esforços para atingir objetivo; ação indica operação a executar e pode possuir produto e meta.",
+      "cebraspeTrap": "Chamar uma unidade orçamentária de programa ou dizer que todo programa equivale a uma única ação.",
+      "example": "Um programa de qualificação profissional pode reunir ações de formação e apoio a estudantes.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-acao-orcamentaria",
+      "term": "Ação orçamentária",
+      "aliases": [],
+      "definition": "Operação programada com objetivo definido que materializa um programa, podendo ser classificada como projeto, atividade ou operação especial conforme suas características.",
+      "contrast": "Ação difere de elemento da despesa e de grupo de natureza; sua classificação não determina automaticamente se a despesa é corrente.",
+      "cebraspeTrap": "Afirmar que toda ação do tipo projeto pertence necessariamente ao GND Investimentos.",
+      "example": "A ação de funcionamento da rede escolar organiza entrega continuada de serviços públicos.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-projeto-acao-orcamentaria",
+      "term": "Projeto (ação orçamentária)",
+      "aliases": [
+        "Projeto orçamentário"
+      ],
+      "definition": "Tipo de ação que envolve operações limitadas no tempo, das quais resulta produto que concorre para expansão ou aperfeiçoamento da ação de governo.",
+      "contrast": "Projeto descreve duração e finalidade da ação; Investimentos é grupo econômico da natureza do gasto.",
+      "cebraspeTrap": "Classificar todo projeto como despesa de capital sem examinar os elementos de despesa que financiarão a ação.",
+      "example": "Construir escola pública é exemplo típico de projeto orçamentário com início e conclusão previstos.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-atividade-acao-orcamentaria",
+      "term": "Atividade (ação orçamentária)",
+      "aliases": [
+        "Atividade orçamentária"
+      ],
+      "definition": "Tipo de ação que envolve operações contínuas e permanentes, das quais resulta produto ou serviço necessário à manutenção da ação governamental.",
+      "contrast": "Atividade define continuidade da ação; despesa corrente é categoria econômica, analisada em outra dimensão.",
+      "cebraspeTrap": "Concluir que qualquer despesa corrente é necessariamente ação do tipo atividade.",
+      "example": "Manutenção do funcionamento de escolas pode ser ação do tipo atividade.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-operacao-especial-acao-orcamentaria",
+      "term": "Operação especial (ação orçamentária)",
+      "aliases": [
+        "Operação especial"
+      ],
+      "definition": "Tipo de ação em que a despesa não contribui diretamente para a manutenção, expansão ou aperfeiçoamento da ação governamental e não gera produto típico contraprestacional.",
+      "contrast": "Operação especial classifica ação; não significa crédito adicional extraordinário nem dispensa procedimento orçamentário.",
+      "cebraspeTrap": "Confundir operação especial com despesa urgente decorrente de calamidade pública.",
+      "example": "Serviço da dívida pode ser programado como operação especial na estrutura federal.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-subtitulo-orcamentario",
+      "term": "Subtítulo orçamentário",
+      "aliases": [
+        "Localizador do gasto"
+      ],
+      "definition": "Desdobramento da ação orçamentária utilizado para indicar localização de gasto ou alcance territorial de beneficiários da execução prevista.",
+      "contrast": "Subtítulo situa onde será feito; não indica elemento de despesa nem substitui programa.",
+      "cebraspeTrap": "Interpretar subtítulo como espécie da receita ou como categoria econômica da despesa.",
+      "example": "Uma ação de construção de unidades recebe subtítulo para identificar a localidade atendida.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-natureza-da-despesa",
+      "term": "Natureza da despesa",
+      "aliases": [
+        "Classificação por natureza da despesa"
+      ],
+      "definition": "Classificação econômica do gasto composta por categoria econômica, grupo de natureza da despesa, modalidade de aplicação, elemento e eventual desdobramento em subelemento.",
+      "contrast": "Natureza informa classe e objeto econômico; classificação funcional indica a finalidade setorial do gasto.",
+      "cebraspeTrap": "Tomar o GND Investimentos como prova de que a função é Educação ou de que a esfera é orçamento das estatais.",
+      "example": "Em uma compra direta de equipamentos, natureza identifica capital, investimentos, aplicação direta e elemento pertinente.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Lei nº 4.320/1964, classificação de despesas",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-despesa-corrente",
+      "term": "Despesa corrente",
+      "aliases": [
+        "Despesas correntes"
+      ],
+      "definition": "Categoria econômica da despesa que abrange gastos que não contribuem diretamente para formação ou aquisição de bem de capital, como pessoal, juros e demais gastos correntes.",
+      "contrast": "Categoria corrente difere da ação do tipo atividade e da classificação primária ou financeira do resultado fiscal.",
+      "cebraspeTrap": "Afirmar que toda despesa corrente se repete mensalmente ou que juros de dívida são despesa de capital.",
+      "example": "Pagamento de juros da dívida e serviços de limpeza são, em regra, despesas correntes, em grupos distintos.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Lei nº 4.320/1964, classificação de despesas",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-despesa-de-capital",
+      "term": "Despesa de capital",
+      "aliases": [
+        "Despesas de capital"
+      ],
+      "definition": "Categoria econômica da despesa relacionada a investimentos, inversões financeiras e amortização da dívida, segundo a estrutura orçamentária aplicável.",
+      "contrast": "Capital não significa gasto elevado nem orçamento das estatais; amortizar o principal da dívida é despesa de capital.",
+      "cebraspeTrap": "Classificar aquisição de qualquer material caro como despesa de capital sem analisar o objeto e sua natureza.",
+      "example": "Construir laboratório ou pagar o principal de dívida integram despesa de capital em grupos diferentes.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Lei nº 4.320/1964, classificação de despesas",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-grupo-de-natureza-da-despesa-gnd",
+      "term": "Grupo de Natureza da Despesa (GND)",
+      "aliases": [
+        "GND"
+      ],
+      "definition": "Nível da natureza da despesa que agrega elementos com características econômicas semelhantes, como pessoal, juros, outras correntes, investimentos e amortização.",
+      "contrast": "GND reúne classes de objetos; elemento individualiza o bem ou serviço e modalidade informa a forma de aplicação.",
+      "cebraspeTrap": "Apontar Equipamentos e Material Permanente como GND, quando corresponde a elemento de despesa.",
+      "example": "O GND Investimentos pode conter elementos diferentes, como obras e equipamentos permanentes.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-modalidade-de-aplicacao",
+      "term": "Modalidade de aplicação",
+      "aliases": [],
+      "definition": "Nível da natureza da despesa que informa se os recursos serão aplicados diretamente pelo ente ou transferidos para outro aplicador, segundo o código do orçamento.",
+      "contrast": "Modalidade de aplicação não é modalidade de licitação nem categoria econômica da despesa.",
+      "cebraspeTrap": "Afirmar que aplicação direta é necessariamente investimento e que transferência a município descreve a origem da receita do município.",
+      "example": "Na compra de seringas pelo próprio ministério, a modalidade pode indicar aplicações diretas.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-elemento-de-despesa",
+      "term": "Elemento de despesa",
+      "aliases": [],
+      "definition": "Nível da natureza da despesa que identifica os objetos de gasto, como material de consumo, equipamentos e material permanente, obras ou serviços.",
+      "contrast": "Elemento detalha o objeto; GND identifica grupo econômico e modalidade indica forma de aplicação.",
+      "cebraspeTrap": "Tratar material de consumo como categoria econômica ou elemento como modalidade de licitação.",
+      "example": "Aquisição de papel pode usar elemento Material de Consumo dentro do grupo Outras Despesas Correntes.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-pessoal-e-encargos-sociais-gnd",
+      "term": "Pessoal e Encargos Sociais (GND)",
+      "aliases": [],
+      "definition": "Grupo de natureza da despesa corrente que agrega gastos de pessoal e encargos sociais previstos no classificador, segundo a relação jurídica e as regras aplicáveis.",
+      "contrast": "É grupo econômico, não a classificação funcional Educação nem o limite de pessoal calculado sobre a RCL.",
+      "cebraspeTrap": "Afirmar que qualquer despesa ligada a servidores deve integrar o mesmo GND sem verificar o classificador.",
+      "example": "Vencimentos e vantagens fixas de pessoal civil podem compor este grupo de despesa.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-juros-e-encargos-da-divida-gnd",
+      "term": "Juros e Encargos da Dívida (GND)",
+      "aliases": [],
+      "definition": "Grupo de natureza da despesa corrente destinado a juros, comissões e demais encargos relacionados às operações de dívida, conforme as normas classificatórias.",
+      "contrast": "Pagar juros é despesa corrente; devolver principal da dívida pertence ao GND Amortização da Dívida, de capital.",
+      "cebraspeTrap": "Classificar pagamento de juros como amortização do principal ou como GND Investimentos.",
+      "example": "Em parcela de financiamento, os juros e o principal são tratados em grupos econômicos diferentes.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-outras-despesas-correntes-gnd",
+      "term": "Outras Despesas Correntes (GND)",
+      "aliases": [],
+      "definition": "Grupo de natureza da despesa corrente que reúne despesas correntes não enquadradas em pessoal e encargos ou juros e encargos da dívida.",
+      "contrast": "O grupo pode conter materiais e serviços; o elemento revela o objeto específico adquirido ou contratado.",
+      "cebraspeTrap": "Supor que todo gasto com material de consumo pertence ao GND Investimentos porque envolve compra de bens.",
+      "example": "Material de escritório para funcionamento de órgão pode ser despesa corrente deste grupo.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-investimentos-gnd",
+      "term": "Investimentos (GND)",
+      "aliases": [
+        "GND Investimentos"
+      ],
+      "definition": "Grupo de despesa de capital destinado a planejamento e execução de obras, aquisições e instalações previstas, incluindo bens permanentes e imóveis vinculados a obras, conforme a classificação.",
+      "contrast": "Investimentos é GND de despesa; orçamento de investimento das estatais é esfera, não o mesmo classificador.",
+      "cebraspeTrap": "Afirmar que compra de qualquer imóvel já pronto será necessariamente investimento sem avaliar a finalidade da aquisição.",
+      "example": "Construir laboratório e adquirir equipamentos permanentes podem integrar o GND Investimentos.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Lei nº 4.320/1964, classificação de despesas",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-inversoes-financeiras-gnd",
+      "term": "Inversões Financeiras (GND)",
+      "aliases": [
+        "GND Inversões Financeiras"
+      ],
+      "definition": "Grupo de despesa de capital que abrange, entre outros casos, aquisição de imóveis não vinculados à execução de obras e determinadas participações ou aquisições de bens de capital já em uso.",
+      "contrast": "Inversões financeiras e investimentos são GNDs distintos, definidos pelo tipo e finalidade da operação; ambos pertencem à despesa de capital.",
+      "cebraspeTrap": "Tratar toda aquisição de bem durável como investimento e excluir a possibilidade de inversão financeira para imóvel já existente.",
+      "example": "Comprar imóvel já existente não vinculado à execução de obra pode ser inversão financeira.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Lei nº 4.320/1964, classificação de despesas",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-amortizacao-da-divida-gnd",
+      "term": "Amortização da Dívida (GND)",
+      "aliases": [
+        "GND Amortização da Dívida"
+      ],
+      "definition": "Grupo de despesa de capital destinado ao pagamento ou refinanciamento do principal de dívida pública e à atualização monetária ou cambial pertinente, conforme a classificação.",
+      "contrast": "Amortizar dívida própria é despesa; receber principal de empréstimo que o governo concedeu é receita de capital.",
+      "cebraspeTrap": "Confundir juros de dívida com amortização do principal ou tratar esse pagamento como despesa corrente.",
+      "example": "Em parcela de empréstimo devido pela União, a devolução do principal integra Amortização da Dívida.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-aplicacoes-diretas",
+      "term": "Aplicações diretas",
+      "aliases": [
+        "Aplicação direta"
+      ],
+      "definition": "Modalidade de aplicação que indica execução da despesa diretamente pela unidade responsável, sem transferência a outro ente ou entidade na modalidade correspondente.",
+      "contrast": "Aplicação direta descreve modo de aplicar o recurso, independentemente de o grupo de despesa ser corrente ou capital.",
+      "cebraspeTrap": "Afirmar que aplicações diretas só podem financiar equipamentos ou obras de investimentos.",
+      "example": "Um ministério compra diretamente material de consumo destinado à sua operação.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-meta-fisica",
+      "term": "Meta física",
+      "aliases": [],
+      "definition": "Quantidade de bem ou serviço a entregar em determinado exercício por uma ação orçamentária, associada a produto e unidade de medida definidos.",
+      "contrast": "Meta física informa entrega prevista; dotação e empenho expressam valores, enquanto impacto examina mudança produzida.",
+      "cebraspeTrap": "Afirmar que meta física foi cumprida porque a despesa atingiu todo o limite de empenho autorizado.",
+      "example": "Uma ação prevê realizar 500 atendimentos no exercício, enquanto o orçamento estabelece o valor necessário.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-f6cfe9fbcc764554"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-identificador-de-resultado-primario-da-despesa",
+      "term": "Identificador de resultado primário da despesa",
+      "aliases": [
+        "RP da despesa"
+      ],
+      "definition": "Atributo da programação de despesa que permite distinguir sua incidência na apuração do resultado primário federal e outros enquadramentos definidos na legislação e no classificador vigente.",
+      "contrast": "O identificador de resultado primário responde à apuração fiscal; GND responde ao tipo econômico do gasto.",
+      "cebraspeTrap": "Dizer que toda despesa corrente afeta o resultado primário e toda despesa de capital fica excluída.",
+      "example": "Juros e obras podem pertencer a categorias econômicas diferentes e ter efeitos fiscais definidos por indicador próprio.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-despesa-primaria",
+      "term": "Despesa primária",
+      "aliases": [],
+      "definition": "Despesa considerada na apuração do resultado primário conforme a metodologia fiscal e o indicador de resultado primário, independentemente de sua categoria corrente ou de capital.",
+      "contrast": "Primária é dimensão fiscal, distinta de categoria econômica, função e modalidade de aplicação.",
+      "cebraspeTrap": "Afirmar que só despesas correntes afetam o resultado primário e que construção de obras nunca pode entrar no cálculo.",
+      "example": "Custeio de serviços ou investimento público podem ser despesas primárias, segundo o indicador aplicável.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-despesa-financeira",
+      "term": "Despesa financeira",
+      "aliases": [],
+      "definition": "Despesa enquadrada como financeira no classificador do resultado primário, como certos pagamentos de juros ou amortização de dívida, excluída do resultado primário conforme a metodologia.",
+      "contrast": "Financeira não se confunde com desembolso em dinheiro nem com toda despesa orçamentária de capital.",
+      "cebraspeTrap": "Tratar despesa financeira como qualquer gasto pago em caixa, mesmo quando o classificador a identifica como primária.",
+      "example": "Pagamento de juros da dívida pode ser despesa financeira e também despesa corrente pela categoria econômica.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-d8b1c5e6037249fa"
+      ],
+      "sources": [
+        {
+          "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-corrente-liquida-rcl",
+      "term": "Receita Corrente Líquida (RCL)",
+      "aliases": [
+        "RCL"
+      ],
+      "definition": "Indicador fiscal previsto na Lei de Responsabilidade Fiscal que parte das receitas correntes e deduz parcelas legalmente determinadas, calculado sobre mês de referência e onze anteriores.",
+      "contrast": "RCL é denominador de limites fiscais, distinta da receita primária, da arrecadação bruta do mês e do saldo de caixa.",
+      "cebraspeTrap": "Confundir RCL com toda receita corrente recebida em um mês ou subtrair as mesmas deduções para entes com regras distintas.",
+      "example": "Para examinar limite de pessoal, calcula-se a RCL conforme período móvel de doze meses e deduções legais do ente.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "Lei de Responsabilidade Fiscal, arts. 2º e 4º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

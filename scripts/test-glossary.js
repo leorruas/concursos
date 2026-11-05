@@ -9,12 +9,12 @@ const root = fileURLToPath(new URL('..', import.meta.url));
 const published = JSON.parse(fs.readFileSync(path.join(root, '_site/glossario-index.json'), 'utf8'));
 const home = fs.readFileSync(path.join(root, '_site/index.html'), 'utf8');
 assert.equal(published.schemaVersion, 1);
-assert(published.plannedCount >= 200);
-assert(published.publishedCount >= 85, 'Fase 2 deve manter 85 definições revisadas');
+assert(published.plannedCount >= 258, 'Backlog expandido deve preservar 200 termos iniciais e 58 conceitos adicionais');
+assert(published.publishedCount >= 143, 'Glossário deve preservar as 85 definições anteriores e mais 58 de orçamento');
 assert.equal(published.terms.length, published.publishedCount);
 assert.equal(new Set(published.terms.map(x => x.id)).size, published.publishedCount);
 assert(published.subjects.length >= 3);
-for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',25],['contabilidade-publica',25]]) {
+for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',83],['contabilidade-publica',25]]) {
   assert(published.terms.filter(t => t.subjectIds.includes(subject)).length >= minimo, subject + ': termo faltante');
 }
 assert(published.terms.every(t => t.status === 'reviewed' && t.sources.length > 0 && t.sources.every(s => /^https:\/\//.test(s.url))));
@@ -36,10 +36,24 @@ assert(match('PAINT').some(t => t.id === 'glo-paint'));
 assert(match('DEA').some(t => t.id === 'glo-despesas-de-exercicios-anteriores'));
 assert(match('SIC').some(t => t.id === 'glo-sistema-de-informacao-de-custos-sic'));
 assert(match('programacao fisica').some(t => t.id === 'glo-programacao-fisica-cumprida'));
+for (const [consulta, id] of [
+  ['receita primaria','glo-receita-primaria'],
+  ['receita financeira','glo-receita-financeira'],
+  ['receita corrente liquida','glo-receita-corrente-liquida-rcl'],
+  ['RCL','glo-receita-corrente-liquida-rcl'],
+  ['ARO','glo-antecipacao-de-receita-orcamentaria-aro'],
+  ['gnd','glo-grupo-de-natureza-da-despesa-gnd'],
+  ['subfuncao','glo-subfuncao-orcamentaria'],
+  ['destinacao de recursos','glo-fonte-destinacao-de-recursos'],
+  ['inversoes financeiras','glo-inversoes-financeiras-gnd']
+]) assert(match(consulta).some(t => t.id === id), 'Busca falhou para '+consulta);
 const programacaoFisica = published.terms.find(t => t.id === 'glo-programacao-fisica-cumprida');
 assert(programacaoFisica.articleLinks.some(a => a.articleId === 'art-f6cfe9fbcc764554'), 'programação física vinculada ao artigo onde é explicada');
-assert(match('', 'P3').length >= 50);
+assert(match('', 'P3').length >= 108);
 assert(match('', 'P2').length >= 35);
 assert(match('', '', 'auditoria-governamental').length >= 35);
+assert(match('', '', 'orcamento-publico').length >= 83);
+const idsOrcamento = published.terms.filter(t=>t.subjectIds.includes('orcamento-publico')).map(t=>t.id);
+assert.equal(new Set(idsOrcamento).size, idsOrcamento.length, 'IDs de orçamento duplicados');
 assert(match('sem termo impossível').length === 0);
-console.log('SUCESSO: 85 termos da primeira prioridade publicados; IDs, fontes, filtros, links e expansão progressiva íntegros.');
+console.log('SUCESSO: ao menos 143 definições, incluindo 83 de orçamento, com fontes, filtros, aliases e links íntegros.');

@@ -1,24 +1,24 @@
 ---
-title: "Glossário CGU 2026: arquitetura e backlog de 200 termos"
+title: "Glossário CGU 2026: arquitetura e catálogo expansível"
 type: "planejamento"
 status: "planejado"
 created: 2026-11-05
 updated: 2026-11-05
 ---
 
-# Glossário CGU 2026: arquitetura e backlog de 200 termos
+# Glossário CGU 2026: arquitetura e catálogo expansível
 
 ## Finalidade e escopo
 
 Planejamento de glossário para **CGU 2026, cargo 1, Auditoria, Cebraspe (Certo/Errado)**. O recorte prioriza conceitos, siglas, etapas, classificações e fronteiras que podem gerar interpretações erradas. As prioridades A/B/C reproduzem a decisão editorial do [[1 - Planejamento/CGU 2026 - Plano de materias|plano de matérias]], **não indicam frequência comprovada de cobrança**. Escopo conferido com [[2 - Editais/CGU 2026 - Auditoria|edital sintetizado no vault]] e [edital no Cebraspe](https://www.cebraspe.org.br/concursos/cgu_26_affc).
 
-**Estado editorial em 05/11/2026:** 200 termos **planejados** em data/glossario/backlog-cgu-2026.json, dos quais **85 possuem definições revisadas** no JSON público (35 de Auditoria, 25 de Orçamento, 25 de Contabilidade). O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
+**Estado editorial em 05/11/2026:** **258 termos planejados**, incluindo os 200 iniciais e 58 conceitos adicionais de classificações orçamentárias, com **143 definições revisadas** no JSON público: 35 de Auditoria, 83 de Orçamento e 25 de Contabilidade. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
 
 ## Onde o glossário aparecerá na wiki
 
 A página será independente das notas de estudo e obedecerá à seleção de concurso. Seu acesso principal aparecerá no menu superior como link textual **glossário**, ao lado de **flashcards** e **índice**. Na home da CGU haverá um segundo acesso ao glossário entre as ferramentas de estudo; em outras provas, a interface poderá filtrar os termos aplicáveis sem duplicar sua definição. Em uma etapa posterior, artigos podem oferecer links discretos para entradas relevantes, sempre com retorno ao artigo.
 
-Rota proposta de índice: `#/glossario?concurso=cgu-2026`. Link permanente de entrada: `#/glossario/<termoId>?concurso=cgu-2026`. Estas rotas **ainda não foram implementadas** e precisarão de suporte no parser, no histórico e no roteador existentes. Preservar as rotas amigáveis dos artigos `#/artigo/<articleSlug>` e seu contexto de concurso.
+Rota proposta de índice: `#/glossario?concurso=cgu-2026`. Link permanente de entrada: `#/glossario/<termoId>?concurso=cgu-2026`. Estas rotas **estão implementadas** no parser, no histórico e no roteador existentes. Preservar as rotas amigáveis dos artigos `#/artigo/<articleSlug>` e seu contexto de concurso.
 
 O **site terá uma lista compacta**, com campo de pesquisa, índice alfabético, filtros por assunto e por P1/P2/P3, contador de resultados e expansão por item. Só aparecem entradas revisadas, evitando centenas de cartões vazios. Nas telas pequenas: lista de uma coluna, filtros recolhíveis e busca sempre localizável. Usar texto, sem ícones decorativos.
 
@@ -30,7 +30,7 @@ Este backlog usa JSON separado do conteúdo. Definições revisadas já entram e
 
 A busca interna do glossário deve ignorar acentos e caixa, localizar siglas e variantes equivalentes, mostrar resultados imediatamente e carregar os detalhes conforme necessário. O índice de busca dos artigos atual (`search-index.json`) continuará independente. Integração opcional à busca global dependerá de benchmarks próprios e preservação da prioridade dos artigos. O navegador não salva dados pessoais de estudo no repositório público.
 
-Exemplo de **formato futuro**, ainda não publicado:
+Exemplo **ilustrativo simplificado** do formato de registro publicado (o contrato real inclui `definition`, `contrast`, `cebraspeTrap`, `example`, `subjectIds`, `contestIds`, `articleIds`, `sources` e `status`):
 
 ```json
 {
@@ -50,7 +50,7 @@ Exemplo de **formato futuro**, ainda não publicado:
 
 O exemplo demonstra a estrutura; ainda exige revisão normativa e editorial. Um registro só será publicado com definição substantiva, referência confiável, identificação única e vínculo validado. Evitar transformar nome de arquivo em prova de cobertura.
 
-## Os primeiros 200 termos
+## Núcleo do catálogo: os primeiros 200 termos
 
 ### Auditoria Governamental: 35 termos (P2/P3, prioridade A)
 
@@ -172,19 +172,35 @@ O exemplo demonstra a estrutura; ainda exige revisão normativa e editorial. Um 
 - Interseccionalidade. Artigo candidato: [[3 - Materias/Sociedade Brasileira/04 - diversidade interseccionalidade e acesso efetivo|04 - diversidade interseccionalidade e acesso efetivo]].
 - Desigualdade estrutural; Vulnerabilidade social. Artigo candidato: [[3 - Materias/Sociedade Brasileira/05 - pobreza desigualdade desenvolvimento e indicadores|05 - pobreza desigualdade desenvolvimento e indicadores]].
 
+## Expansão do núcleo de Orçamento Público: mais 58 conceitos (05/11/2026)
+
+A solicitação de ampliar conceitos como **receita primária** revelou uma lacuna da lista fundadora: a unidade de classificações da receita e da despesa estava reduzida a poucos registros. Os 58 conceitos adicionais foram incorporados **ao backlog e às definições revisadas**, preservando os IDs dos 200 anteriores. A lista original permanece acima, e o backlog em JSON tem agora **258** termos. A matéria Orçamento Público passou a **83 registros publicados**.
+
+**Classificações da receita e apuração fiscal (26):** Receita primária; Receita financeira; Resultado primário; Receita corrente; Receita de capital; Receita orçamentária; Ingresso extraorçamentário; Receita originária; Receita derivada; Natureza da receita; Origem da receita orçamentária; Espécie da receita; Fonte/destinação de recursos; Receita de impostos, taxas e contribuições de melhoria; Receita de contribuições; Receita patrimonial; Receita agropecuária; Receita industrial; Receita de serviços; Transferência corrente; Transferência de capital; Operação de crédito; Alienação de bens; Amortização de empréstimos concedidos; Antecipação de Receita Orçamentária (ARO); Receita intraorçamentária.
+
+**Classificações da despesa, programação e controle (32):** Classificação por esfera orçamentária; Classificação institucional; Órgão orçamentário; Unidade orçamentária; Classificação funcional; Função orçamentária; Subfunção orçamentária; Classificação programática; Programa orçamentário; Ação orçamentária; Projeto (ação orçamentária); Atividade (ação orçamentária); Operação especial (ação orçamentária); Subtítulo orçamentário; Natureza da despesa; Despesa corrente; Despesa de capital; Grupo de Natureza da Despesa (GND); Modalidade de aplicação; Elemento de despesa; Pessoal e Encargos Sociais (GND); Juros e Encargos da Dívida (GND); Outras Despesas Correntes (GND); Investimentos (GND); Inversões Financeiras (GND); Amortização da Dívida (GND); Aplicações diretas; Meta física; Identificador de resultado primário da despesa; Despesa primária; Despesa financeira; Receita Corrente Líquida (RCL).
+
+**Artigos canônicos vinculados:** [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Classificações da receita e da despesa]]; [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|Receitas e estágios]]; [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|Responsabilidade fiscal]]; [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|Orçamento e meta física]].
+
+**Fontes de verificação e controle de vigência:** [Manual Técnico de Orçamento 2026, Secretaria de Orçamento Federal, capítulos 3 e 4](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf); [MCASP, 11ª edição, Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1); [Lei nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) e [LRF](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm). Para categorias de 2027, verificar a atualização anual antes de reaproveitar códigos.
+
+A diferença decisiva para o Cebraspe: **corrente/capital** é categoria econômica; **primária/financeira** é classificação segundo impacto na apuração fiscal; **origem/espécie** integra a natureza; **fonte/destinação** descreve regras de uso; **função/programa/GND/elemento** pertencem a dimensões distintas da despesa.
+
 ## Fases de implementação
 
 **Fase 0 (concluída):** backlog com 200 termos distribuídos por 15 matérias e 75 caminhos candidatos verificados como arquivos existentes. O backlog continua sendo fila editorial, independente das definições aprovadas.
 
 **Fase 1 (concluída e publicada):** rota, menu, lista, filtro por bloco/matéria/letra, validador e 20 definições revisadas: 10 de Auditoria, 5 de Orçamento e 5 de Contabilidade. O build publica apenas conteúdo revisado.
 
-**Fase 2 (implementada, sujeita ao fechamento do deploy):** acrescentadas outras **65 definições** de prioridade A: 25 de Auditoria, 20 de Orçamento e 20 de Contabilidade, totalizando **85**. Cada nova entrada contém definição, contraste conceitual, armadilha C/E, exemplo, fonte e vínculo por ID de artigo. Risco inerente/residual apontam para controles internos; programação física cumprida aponta para o artigo introdutório de Orçamento, onde há explicação específica. Os testes do build exigem agora ao menos 85 definições e preservam a expansão futura.
+**Fase 2 (concluída e publicada):** acrescentadas outras **65 definições** de prioridade A: 25 de Auditoria, 20 de Orçamento e 20 de Contabilidade, totalizando **85**. Cada nova entrada contém definição, contraste conceitual, armadilha C/E, exemplo, fonte e vínculo por ID de artigo. Risco inerente/residual apontam para controles internos; programação física cumprida aponta para o artigo introdutório de Orçamento, onde há explicação específica. Os testes do build exigem agora ao menos 85 definições e preservam a expansão futura.
 
-**Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (135).
+**Ampliação complementar de Orçamento (58 novas definições):** implementada em 05/11/2026, após a Fase 2, levando de 85 a **143** termos e de 200 a **258** candidatos. A numeração de fases seguintes permanece como trilha temática original, com totais acumulados recalculados.
 
-**Fase 4:** outras **40 definições** de Governança, Transparência, Evidências/IA e Finanças (175).
+**Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (**193** no total).
 
-**Fase 5:** **25 definições** de Direito Administrativo, Estado e Democracia, Ética, Administração Pública e Sociedade Brasileira, completando 200.
+**Fase 4:** outras **40 definições** de Governança, Transparência, Evidências/IA e Finanças (**233** no total).
+
+**Fase 5:** **25 definições** de Direito Administrativo, Estado e Democracia, Ética, Administração Pública e Sociedade Brasileira, completando **258** (200 iniciais mais 58 de ampliação).
 
 A ordem é revisável se o estudo revelar lacuna de maior prioridade. O contador na interface mostrará apenas entradas **revisadas e efetivamente publicadas**.
 

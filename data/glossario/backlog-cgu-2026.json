@@ -20,7 +20,7 @@
     {
       "subjectId": "orcamento-publico",
       "label": "Orçamento Público",
-      "count": 25,
+      "count": 83,
       "examBlock": "P3",
       "editorialPriority": "A"
     },
@@ -1916,6 +1916,529 @@
       "editorialPriority": "C",
       "articleCandidate": "3 - Materias/Sociedade Brasileira/05 - pobreza desigualdade desenvolvimento e indicadores.md",
       "status": "planned"
+    },
+    {
+      "id": "glo-receita-primaria",
+      "term": "Receita primária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-financeira",
+      "term": "Receita financeira",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-resultado-primario",
+      "term": "Resultado primário",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-corrente",
+      "term": "Receita corrente",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-de-capital",
+      "term": "Receita de capital",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-orcamentaria",
+      "term": "Receita orçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ingresso-extraorcamentario",
+      "term": "Ingresso extraorçamentário",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-originaria",
+      "term": "Receita originária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-derivada",
+      "term": "Receita derivada",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-natureza-da-receita",
+      "term": "Natureza da receita",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-origem-da-receita-orcamentaria",
+      "term": "Origem da receita orçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-especie-da-receita",
+      "term": "Espécie da receita",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fonte-destinacao-de-recursos",
+      "term": "Fonte/destinação de recursos",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-de-impostos-taxas-e-contribuicoes-de-melhoria",
+      "term": "Receita de impostos, taxas e contribuições de melhoria",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-de-contribuicoes",
+      "term": "Receita de contribuições",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-patrimonial",
+      "term": "Receita patrimonial",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-agropecuaria",
+      "term": "Receita agropecuária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-industrial",
+      "term": "Receita industrial",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-de-servicos",
+      "term": "Receita de serviços",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-transferencia-corrente",
+      "term": "Transferência corrente",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-transferencia-de-capital",
+      "term": "Transferência de capital",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-operacao-de-credito",
+      "term": "Operação de crédito",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-alienacao-de-bens",
+      "term": "Alienação de bens",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-amortizacao-de-emprestimos-concedidos",
+      "term": "Amortização de empréstimos concedidos",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-antecipacao-de-receita-orcamentaria-aro",
+      "term": "Antecipação de Receita Orçamentária (ARO)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-intraorcamentaria",
+      "term": "Receita intraorçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-classificacao-por-esfera-orcamentaria",
+      "term": "Classificação por esfera orçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-classificacao-institucional",
+      "term": "Classificação institucional",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-orgao-orcamentario",
+      "term": "Órgão orçamentário",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-unidade-orcamentaria",
+      "term": "Unidade orçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-classificacao-funcional",
+      "term": "Classificação funcional",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-funcao-orcamentaria",
+      "term": "Função orçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-subfuncao-orcamentaria",
+      "term": "Subfunção orçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-classificacao-programatica",
+      "term": "Classificação programática",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-programa-orcamentario",
+      "term": "Programa orçamentário",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-acao-orcamentaria",
+      "term": "Ação orçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-projeto-acao-orcamentaria",
+      "term": "Projeto (ação orçamentária)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-atividade-acao-orcamentaria",
+      "term": "Atividade (ação orçamentária)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-operacao-especial-acao-orcamentaria",
+      "term": "Operação especial (ação orçamentária)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-subtitulo-orcamentario",
+      "term": "Subtítulo orçamentário",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-natureza-da-despesa",
+      "term": "Natureza da despesa",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-despesa-corrente",
+      "term": "Despesa corrente",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-despesa-de-capital",
+      "term": "Despesa de capital",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-grupo-de-natureza-da-despesa-gnd",
+      "term": "Grupo de Natureza da Despesa (GND)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-modalidade-de-aplicacao",
+      "term": "Modalidade de aplicação",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-elemento-de-despesa",
+      "term": "Elemento de despesa",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-pessoal-e-encargos-sociais-gnd",
+      "term": "Pessoal e Encargos Sociais (GND)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-juros-e-encargos-da-divida-gnd",
+      "term": "Juros e Encargos da Dívida (GND)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-outras-despesas-correntes-gnd",
+      "term": "Outras Despesas Correntes (GND)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-investimentos-gnd",
+      "term": "Investimentos (GND)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-inversoes-financeiras-gnd",
+      "term": "Inversões Financeiras (GND)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-amortizacao-da-divida-gnd",
+      "term": "Amortização da Dívida (GND)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-aplicacoes-diretas",
+      "term": "Aplicações diretas",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-meta-fisica",
+      "term": "Meta física",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-identificador-de-resultado-primario-da-despesa",
+      "term": "Identificador de resultado primário da despesa",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-despesa-primaria",
+      "term": "Despesa primária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-despesa-financeira",
+      "term": "Despesa financeira",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-corrente-liquida-rcl",
+      "term": "Receita Corrente Líquida (RCL)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
     }
-  ]
+  ],
+  "description": " Classificações adicionais de Orçamento Público ampliadas após a versão inicial de 200 termos."
 }

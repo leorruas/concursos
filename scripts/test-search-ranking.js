@@ -103,6 +103,7 @@ for (const caso of benchmarks) {
 
   if (rank === 0 || rank > 3 || !secaoOk || !diagnosticoOk) {
     console.error(`✗ ${caso.query} → rank=${rank || 'fora'}; seção=${secao ? secao.titulo : 'nenhuma'}; diagnóstico=${diagnosticoOk ? 'ok' : 'inconsistente'}`);
+    console.error('  Top 5: ' + ranking.slice(0,5).map((item,i) => `${i+1}: ${item.path} (${item.score})`).join(' | '));
     falhas += 1;
   } else {
     console.log(`✓ ${caso.query} → #${rank} · ${secao.titulo}`);

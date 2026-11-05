@@ -5,7 +5,7 @@ title: "Demonstração dos Fluxos de Caixa, notas e conciliações"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Demonstração dos Fluxos de Caixa, notas e conciliações
@@ -14,7 +14,7 @@ updated: 2026-11-04
 
 A **Demonstração dos Fluxos de Caixa (DFC)** apresenta **entradas e saídas efetivas de caixa e equivalentes**, separadas em atividades **operacionais, de investimento e de financiamento**. Diferencia-se do **Balanço Financeiro (BF)**, que inclui mecanismos orçamentários e lançamentos compensatórios, e da **Demonstração das Variações Patrimoniais (DVP)**, que reconhece variações pelo regime patrimonial, inclusive fatos sem pagamento.
 
-O **MCASP, 11ª edição, Parte V, capítulo 6**, baseado na **NBC TSP 12**, exige para os entes da Federação **método direto** na DFC: apresentação das principais classes de **recebimentos e pagamentos brutos**. A NBC TSP 12 faculta método direto ou indireto para o fluxo operacional, incentivando o primeiro, mas o **MCASP escolhe o direto para padronização**. A distinção entre faculdade normativa e escolha do manual é uma fronteira real de cobrança.
+O [MCASP, 11ª edição, Parte V, capítulo 6, § 6.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), **exige método direto** na DFC padronizada para os entes da Federação, com as principais classes de recebimentos e pagamentos brutos. A **NBC TSP 12** admite método direto ou indireto no fluxo operacional e incentiva o primeiro, mas o **MCASP exige o direto para padronização**. **Vigência:** a [NBC TSP 12 (R1)](https://www.legisweb.com.br/legislacao/?id=492485) foi publicada em 2026, mas sua aplicação geral está prevista para exercícios iniciados em **01/01/2027**, ressalvado normativo nacional com prazo específico. Não antecipar sua aplicação aos dados contábeis de 2026. As versões estão no [CFC](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/).
 
 **Caixa:** numerário e depósitos disponíveis. **Equivalentes de caixa:** aplicações de curto prazo, alta liquidez, prontamente conversíveis em quantia conhecida e com risco insignificante de mudança de valor. Aplicação de prazo curto **não se torna equivalente apenas pelo vencimento**: liquidez, conversibilidade e risco são requisitos. O MCASP cita como exemplo habitual vencimento de até três meses **a partir da aquisição**, junto dos demais critérios.
 
@@ -28,7 +28,7 @@ O **MCASP, 11ª edição, Parte V, capítulo 6**, baseado na **NBC TSP 12**, exi
 
 O MCASP prevê **Quadro Principal**, **Quadro de Transferências Recebidas e Concedidas**, **Quadro de Desembolsos de Pessoal e Demais Despesas por Função** e **Quadro de Juros e Encargos da Dívida**. Os três fluxos líquidos devem reconciliar com a mudança do saldo de caixa e equivalentes entre início e fim do exercício, com eventuais ajustes relevantes explicados.
 
-**Cuidado com os juros:** o MCASP ressalta que juros e dividendos podem ter classificação diferente em instituições financeiras públicas e demais entidades; não existe uma regra simples para declarar que qualquer juros pago é sempre “financiamento”.
+**Juros e dividendos:** o MCASP 11, Parte V, § 6.3.4.2, **recomenda classificar juros pagos e recebidos como fluxos operacionais**, dividendos recebidos como investimento e dividendos pagos como financiamento para padronizar contas públicas. Há diferenças possíveis entre instituições financeiras públicas e demais entes. Não transpor automaticamente regras/exemplos de DFC societária (CPC 03) ao MCASP nem concluir que todo juro pago é fluxo de financiamento.
 
 ### O que fica fora da DFC
 
@@ -107,6 +107,24 @@ A entidade inicia 2026 com caixa, ativo, passivo e PL iguais a zero. **Reconhece
 **Por que os três resultados diferem?** Orçamento compara **arrecadação com empenho** (R$ 40); caixa compara **recebimento com desembolso** (R$ 60); patrimônio reconhece **VPA e VPD pela competência** (R$ 94). A mesma operação sustenta os três números.
 
 **Variação do caso:** um depósito restituível de R$ 30 pode aumentar caixa e passivo simultaneamente, sem produzir VPA. A classificação específica do fluxo na DFC exige examinar a natureza do depósito; não presumir um grupo sem base normativa.
+
+## Novo exemplo: competência, RPNP e cinco demonstrações
+
+**Caso de verificação cruzada, independente do exemplo do equipamento:** uma entidade inicia 2026 com saldos zerados. Há **fato gerador tributário de R$ 100**, gerando direito mensurável e reconhecível conforme os critérios aplicáveis, dos quais só **R$ 70 são arrecadados**; **R$ 30 ficam a receber**. A entidade também **empenha R$ 50 por serviço prestado e integralmente consumido em dezembro**. O serviço gera **VPD e passivo de R$ 50**, mas **a liquidação formal não é concluída, nem há pagamento**. Admite-se inscrição regular como **restos a pagar não processados em liquidação (RPNP)**, sem outros eventos.
+
+| Demonstração/registro | Valores hipotéticos | Critério decisivo |
+| :--- | :--- | :--- |
+| **Balanço Orçamentário (BO)** | Receita arrecadada **70**; despesa empenhada **50**, liquidada **0**, paga **0**. **Resultado orçamentário +20**. | Art. 35: receita **arrecadada** × despesa **empenhada**. VPA de tributo não é receita orçamentária realizada integral. |
+| **Balanço Financeiro (BF)** | Ingressos: **70** de receita e **50** de compensação pela inscrição de RP = **120**; dispêndios: **50** de despesa empenhada e **70** de saldo de caixa final = **120**. | Inscrição compensatória **não traz caixa novo** (Lei 4.320, art. 103, parágrafo único). |
+| **BP, quadro principal** | Ativos: **70 de caixa + 30 a receber = 100**; passivo **50**, PL **50**. | O serviço prestado já gerou obrigação; não depende da liquidação administrativa para registro patrimonial. |
+| **DVP** | **VPA 100 − VPD 50 = resultado patrimonial +50**. | Competência para crédito tributário e serviço efetivamente consumido. |
+| **DFC, método direto** | Operacional **+70**; investimento **0**; financiamento **0**. **Variação líquida de caixa +70**. | Não registrar como fluxo o valor ainda a receber, a despesa não paga ou o RP inscrito. |
+
+**Conferências numéricas:** BO **+20**; BF **120 = 120**, com caixa real **70**; BP **100 = 50 + 50**; DVP **+50**; DFC **+70**. A divergência entre resultados é esperada porque os indicadores têm **bases diferentes**. Os registros de RPNP **em liquidação** são previstos no [MCASP 11, Parte I, seção 4.7.4.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf). O **quadro financeiro do BP** exige ainda apuração própria dos compromissos e fontes, como na [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais#Refinamento: passivo financeiro e classe 6|nota sobre classe 6]].
+
+**Dois itens C/E inéditos:** “Os R$ 30 de tributos a receber devem integrar a receita orçamentária realizada, pois já constituem VPA.” **Errado**: o art. 35 exige arrecadação no recorte orçamentário. “O serviço prestado de R$ 50 pode gerar VPD e passivo mesmo antes da liquidação administrativa, sem que inscrição de RP altere por si o caixa.” **Certo**: são regimes e momentos diferentes.
+
+**Limites:** exemplo didático sem outros fluxos, saldos por fonte ou obrigações adicionais. O **superávit financeiro do BP não pode ser inferido** apenas da variação de caixa apresentada na DFC.
 
 ## Como a Cebraspe pode cobrar: itens didáticos inéditos
 

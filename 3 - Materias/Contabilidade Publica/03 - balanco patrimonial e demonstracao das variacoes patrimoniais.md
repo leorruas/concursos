@@ -5,7 +5,7 @@ title: "Balanço Patrimonial e Demonstração das Variações Patrimoniais"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Balanço Patrimonial e Demonstração das Variações Patrimoniais
@@ -54,6 +54,16 @@ Evidencia **atos potenciais ativos e passivos a executar** que podem alterar fut
 O **superávit financeiro** corresponde, em sua forma básica, à **diferença positiva entre ativo financeiro e passivo financeiro**, discriminada por **fonte/destinação de recursos**. O MCASP utiliza o mecanismo de Disponibilidade por Destinação de Recursos (DDR) e admite fontes superavitárias e deficitárias no mesmo ente. O superávit financeiro de exercício anterior é uma das fontes de créditos adicionais segundo o **art. 43 da Lei nº 4.320/1964**, respeitados ajustes e restrições legais.
 
 Exemplo: ativo financeiro de R$ 200 e passivo financeiro de R$ 160 indicam diferença de R$ 40. **Isso não permite afirmar que todo R$ 40 esteja livre** para financiar qualquer despesa: vínculos de fonte e regras de utilização devem ser conferidos. Superávit financeiro também não é o mesmo que a variação de caixa evidenciada na DFC.
+
+### Refinamento: passivo financeiro e classe 6
+
+O [MCASP 11, Parte V, § 4.2.2, e Parte IV, § 3.5.3.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), inclui contas orçamentárias da **classe 6**, como **crédito empenhado a liquidar** e **RPNP a liquidar**, na apuração do quadro de **Ativos e Passivos Financeiros e Permanentes**, inclusive quando **não existe passivo patrimonial do mesmo valor no Quadro Principal**. O passivo financeiro não é mera soma dos passivos circulantes.
+
+**Caso independente:** a entidade dispõe de **R$ 100 em caixa**, sem outras restrições ou obrigações, e possui **empenho regular de R$ 30 por serviço ainda não prestado**, com inscrição válida como **RPNP a liquidar**. O Quadro Principal **não reconhece passivo patrimonial de R$ 30 só por esse empenho**; entretanto, o quadro financeiro/permanente inclui **R$ 30 de compromisso orçamentário em passivo financeiro**. Nas hipóteses indicadas, **ativo financeiro 100 − passivo financeiro 30 = superávit financeiro 70**, a ser detalhado por fonte/destinação antes de eventual utilização.
+
+Quando **o serviço tiver sido prestado** e ainda não houver liquidação formal, a classificação passa a ser **RPNP em liquidação**, com análise de VPD/passivo patrimonial pelo fato gerador. **“Não processado” não significa sempre “sem passivo patrimonial”.** Ver [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes#Novo exemplo: competência, RPNP e cinco demonstrações|caso com BO, BF, BP, DVP e DFC]].
+
+**Item C/E:** “O quadro financeiro do BP não pode incluir compromissos derivados de contas de execução orçamentária que não correspondam a passivos reconhecidos no quadro principal.” **Errado.** O MCASP inclui essas contas da **classe 6** no quadro financeiro/permanente.
 
 ## Estrutura da DVP: VPA e VPD
 

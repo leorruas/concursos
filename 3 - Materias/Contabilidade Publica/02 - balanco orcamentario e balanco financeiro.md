@@ -5,7 +5,7 @@ title: "Balanço Orçamentário e Balanço Financeiro"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Balanço Orçamentário e Balanço Financeiro
@@ -86,6 +86,12 @@ O BF fecha em R$ 120 de cada lado, mas a entrada efetiva de dinheiro foi **R$ 10
 Do ponto de vista patrimonial, sob as hipóteses da nota anterior, há **caixa R$ 60 + equipamento R$ 60 − obrigação R$ 20 = PL R$ 100**; a aquisição não provocou VPD imediata de R$ 60. Esses três números são compatíveis porque **medem coisas diferentes**.
 
 **Em 2027**, se ocorrer apenas o pagamento dos R$ 20 inscritos em RP, haverá redução do caixa e da obrigação, e pagamento extraorçamentário no BF de 2027. Não se produz novo empenho orçamentário de 2027 apenas porque o RP foi pago nesse ano.
+
+### Refinamento: compensação por inscrição de RPNP em liquidação
+
+No [MCASP 11, Parte V, capítulo 3](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf) e no art. 103, parágrafo único, da Lei 4.320, o ingresso compensatório no BF **não se limita a restos a pagar processados**. Imagine **R$ 50 empenhados por serviço já prestado, mas não liquidado administrativamente**: com inscrição regular em **RPNP em liquidação**, o BF inclui **R$ 50 de recebimento extraorçamentário compensatório** para neutralizar os mesmos R$ 50 de despesa orçamentária, **sem entrada efetiva de caixa**.
+
+Se também houve **R$ 70 de receita tributária arrecadada** e nenhum pagamento, o BF apresenta **ingressos de R$ 120 (70 + 50)** e **dispêndios e caixa final de R$ 120 (50 + 70)**. O caixa real é **R$ 70** e o BO apura **resultado +R$ 20 (70 − 50)**. O crédito tributário a receber e a VPD/passivo pelo serviço são tratados pela competência, conforme [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes#Novo exemplo: competência, RPNP e cinco demonstrações|conciliação de cinco demonstrações]].
 
 ## Resultado financeiro do BF × superávit financeiro do BP
 

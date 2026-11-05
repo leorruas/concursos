@@ -5,7 +5,7 @@ title: "Patrimônio público e regimes de reconhecimento"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Patrimônio público e regimes de reconhecimento
@@ -59,7 +59,13 @@ As etapas da despesa têm disciplina própria: [[3 - Materias/Orcamento Publico/
 
 O **PCASP** estrutura as contas por natureza da informação: **patrimonial** (classes 1 a 4: ativo, passivo/PL, VPD e VPA); **orçamentária** (classes 5 e 6: aprovação e execução do planejamento e orçamento); e **controle** (classes 7 e 8: controles devedores e credores). Isso permite registrar o mesmo acontecimento sob aspectos diferentes, sem transformar o número da classe em etapa cronológica.
 
-O PCASP possui versões anuais; a página do Tesouro lista o **PCASP 2026** e também arquivos de 2027. Para o exercício de 2026, não pressupor que uma estrutura publicada para 2027 tenha vigência antecipada. Para resolução de questão, a **natureza da conta** importa mais do que decorar exemplos de códigos que podem mudar.
+O [Tesouro publicou PCASP Federação e Estendido 2026](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/federacao/plano-de-contas-aplicado-ao-setor-publico-pcasp-1) (portarias STN/MF nº **1.952/2025** e nº **3.133/2025**). Embora o **PCASP 2027** já esteja disponível pela Portaria STN/MF nº **2.520/2026**, a publicação **não antecipa sua aplicação ao exercício de 2026**. Para uma questão, verificar **ano de referência, versão e natureza da conta**. O enfoque de caixa/fluxos financeiros é **transversal**, não uma quarta natureza de informação contábil do PCASP. [MCASP 11, Parte IV](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf).
+
+### Refinamento: fato gerador antes da liquidação
+
+O [MCASP 11, Parte I, §§ 3.4 e 4.7.4.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), distingue **competência patrimonial** da conclusão administrativa do estágio de **liquidação**. Um serviço de **R$ 50 efetivamente prestado e consumido em dezembro** pode produzir **VPD e obrigação de R$ 50**, mesmo se a liquidação ainda estiver pendente: com empenho e requisitos de inscrição atendidos, trata-se de **restos a pagar não processados em liquidação**. Se **não ocorreu a prestação do serviço** nem outro fato gerador, empenho isolado **não exige VPD nem passivo patrimonial**; a inscrição, quando válida, será de **RPNP a liquidar**.
+
+**Fronteira:** “não liquidado” não significa necessariamente “sem obrigação patrimonial”, e “empenhado” não demonstra entrega. O [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes#Novo exemplo: competência, RPNP e cinco demonstrações|caso alternativo das cinco demonstrações]] apresenta o impacto conjunto de competência tributária, serviço prestado e ausência de caixa.
 
 ## Exemplo comentado: equipamento entregue em dezembro
 

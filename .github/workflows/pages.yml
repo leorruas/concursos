@@ -76,14 +76,17 @@ jobs:
       - name: Testar ranking real da busca
         run: node scripts/test-search-ranking.js
       - uses: actions/configure-pages@v5
+      # Tentativas de uma mesma execução compartilham run_id, mas precisam
+      # de nomes distintos para evitar duplicação de artefatos no rerun.
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
-      # O artefato github-pages só pode ser implantado uma vez por execução.
-      # Repetir deploy-pages na mesma execução cria ambiguidade de artefato.
+          name: github-pages-${{ github.run_attempt }}
       - id: deployment
         name: Publicar no Pages
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
       - name: Confirmar catálogo publicado no Pages
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}

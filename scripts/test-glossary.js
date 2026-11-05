@@ -22,8 +22,10 @@ assert(published.terms.every(t => t.articleLinks.length && t.articleLinks.every(
 assert(home.includes('id="glossario-pagina"') && home.includes('web/09-glossary.js'));
 assert(home.includes('id="nav-link-glossario"') && home.includes('id="home-glossario-entry"'));
 assert(home.includes('id="glossario-artigo"') && home.includes('id="glossario-organizacao"'), 'Filtros por artigo e organização ausentes da interface');
-assert(home.includes('id="glossario-voltar-topo"') && home.includes('class="glossario-voltar-topo escondido"'),
-  'Botão voltar ao topo deve existir e iniciar oculto');
+assert(home.includes('id="glossario-voltar-topo"') && home.includes('class="glossario-voltar-topo"'),
+  'Botão voltar ao topo deve estar visível no glossário sem depender da rolagem');
+assert(!/id="glossario-voltar-topo"[^>]*escondido/.test(home),
+  'Botão não pode iniciar oculto no próprio elemento; sua seção controla a visibilidade');
 const glossaryUI = fs.readFileSync(path.join(root, 'web/09-glossary.js'), 'utf8');
 const style = fs.readFileSync(path.join(root, 'style.css'), 'utf8');
 assert(glossaryUI.includes('class="glossario-artigo-grupo"') &&
@@ -39,10 +41,9 @@ assert.equal(construirRotaGlossario('glo-ppa', 'cgu-2026'), '#/glossario/glo-ppa
 const ctx = {console,window:{},Intl,Array,Set,String};
 vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(root, 'web/09-glossary.js'), 'utf8'), ctx);
-// Navegação longa: botão só aparece após rolar e só dentro do glossário.
+// Navegação longa: o botão deve estar sempre acessível ao abrir o glossário.
+// A seção pai controla sua presença nas outras páginas, mesmo sem evento de scroll.
 const mockListeners = new Map();
-let hiddenPage = false;
-let topButtonHidden = true;
 let scrollToTopOptions = null;
 const mockControls = Object.fromEntries([
   'glossario-busca','glossario-bloco','glossario-materia',
@@ -51,40 +52,29 @@ const mockControls = Object.fromEntries([
   mockListeners.set(id + ':' + type, fn);
 } }]));
 const mockRoot = {
-  classList: {contains(className) {return className === 'escondido' && hiddenPage;}},
-  scrollIntoView(options) {scrollToTopOptions = options;}
+  scrollIntoView(options) { scrollToTopOptions = options; }
 };
-mockControls['glossario-voltar-topo'].classList = {toggle(name, value) {
-  if(name === 'escondido') topButtonHidden = value;
-}};
 ctx.document = {getElementById(id) {
   if(id === 'glossario-pagina') return mockRoot;
   return mockControls[id] || null;
 }};
 ctx.window.addEventListener = (type, fn) => mockListeners.set('window:' + type, fn);
 ctx.window.matchMedia = () => ({matches:false});
-ctx.window.scrollY = 0;
 ctx.prepararGlossario();
-assert.equal(mockListeners.has('window:scroll'), true,
-  'O glossário deve observar rolagem sem usar controles de outras páginas');
-assert.equal(mockListeners.has('glossario-voltar-topo:click'), true);
-assert.equal(topButtonHidden, true, 'Botão oculto no início');
-ctx.window.scrollY = 700;
-mockListeners.get('window:scroll')();
-assert.equal(topButtonHidden, false, 'Botão visível após rolagem');
+assert.equal(mockListeners.has('glossario-voltar-topo:click'), true,
+  'Botão deve receber tratamento de clique');
+assert.equal(mockListeners.has('window:scroll'), false,
+  'Visibilidade do botão não pode depender do scrollY');
 mockListeners.get('glossario-voltar-topo:click')();
 assert.equal(scrollToTopOptions.behavior, 'smooth');
 assert.equal(scrollToTopOptions.block, 'start');
 ctx.window.matchMedia = () => ({matches:true});
 mockListeners.get('glossario-voltar-topo:click')();
 assert.equal(scrollToTopOptions.behavior, 'auto', 'Respeitar preferência por movimento reduzido');
-hiddenPage = true;
-mockListeners.get('window:scroll')();
-assert.equal(topButtonHidden, true, 'Ocultar botão fora do glossário');
-hiddenPage = false;
-ctx.window.scrollY = 0;
-mockListeners.get('window:scroll')();
-assert.equal(topButtonHidden, true, 'Ocultar novamente ao chegar ao topo');
+const workflowText = fs.readFileSync(path.join(root,'.github/workflows/pages.yml'),'utf8');
+assert(workflowText.includes('name: github-pages-${{ github.run_attempt }}') &&
+       workflowText.includes('artifact_name: github-pages-${{ github.run_attempt }}'),
+  'Tentativas do workflow devem produzir artefatos de nomes distintos');
 const termos = JSON.parse(JSON.stringify(published.terms));
 const match = (query, block = '', subject = '', article = '') => ctx.filtrarTermosGlossario(termos, query, block, subject, article);
 assert(match('criterio').some(t => t.id === 'glo-criterio-de-auditoria'));

@@ -246,7 +246,7 @@ Os vínculos editoriais explícitos devem ser preservados quando um cartão ou t
 
 **Problema observado durante a leitura:** definições formalmente corretas podem ficar difíceis quando começam por expressões como “montante recuperável”, “reconhecimento patrimonial”, “agregado fiscal” ou “procedimento de mensuração”, sem explicar o acontecimento concreto. A pessoa precisa saltar entre verbetes para entender o primeiro. A revisão deve corrigir essa dependência excessiva preservando vocabulário que efetivamente aparece nas questões.
 
-**Escopo integral:** os **202 verbetes que já estavam publicados antes deste lote**, distribuídos em 140 de Orçamento Público, 35 de Auditoria Governamental e 27 de Contabilidade Pública. A simplificação **não fica limitada à Contabilidade Pública**. Os sete verbetes de fatos contábeis são novos e já entram no padrão, resultando em **209 verbetes publicados**; o backlog conta ainda com propostas para outras matérias.
+**Escopo integral:** os **202 verbetes publicados antes da expansão de fatos contábeis**, distribuídos em 140 de Orçamento Público, 35 de Auditoria Governamental e 27 de Contabilidade Pública. A primeira revisão de linguagem das **definições e contrastes está concluída em todos os 202**. Os sete verbetes de fatos contábeis entraram já no padrão simples, resultando em **209 verbetes publicados**; o backlog conta ainda com propostas para outras matérias.
 
 **Padrão editorial de cada entrada:**
 
@@ -259,18 +259,20 @@ Os vínculos editoriais explícitos devem ser preservados quando um cartão ou t
 
 **Execução por lotes, com acompanhamento:**
 
-| Matéria | Verbetes anteriores | Reescritos nesta primeira rodada | Restantes para revisão |
-| --- | ---: | ---: | ---: |
-| Contabilidade Pública | 27 | 20 | 7 |
-| Auditoria Governamental | 35 | 9 | 26 |
-| Orçamento Público | 140 | 7 | 133 |
-| **Total** | **202** | **36** | **166** |
+| Matéria | Verbetes anteriores | Primeira rodada | Segunda rodada | Definição e contraste pendentes |
+| --- | ---: | ---: | ---: | ---: |
+| Contabilidade Pública | 27 | 20 | 7 | 0 |
+| Auditoria Governamental | 35 | 9 | 26 | 0 |
+| Orçamento Público | 140 | 7 | 133 | 0 |
+| **Total** | **202** | **36** | **166** | **0** |
 
 **Primeiro lote concluído em dados:** 20 definições e contrastes de Contabilidade foram simplificados (ativo/passivo patrimonial, regimes, demonstrações, VPA/VPD, patrimônio líquido, provisão, contingências e custos); 9 de Auditoria (condição, causa, suficiência, adequação, riscos e controles); e 7 de Orçamento (regra de ouro, renúncia, DOCC, bloqueio, estatais e despesa com pessoal). Além disso, entraram sete novos conceitos em linguagem introdutória: **fato contábil, fato permutativo, fato modificativo, fato modificativo aumentativo, fato modificativo diminutivo, fato misto e ato administrativo sem efeito patrimonial imediato**. Permanecem os critérios, exemplos e fontes das entradas existentes quando não há correção necessária.
 
-**Próximas rodadas:** concluir as sete definições anteriores ainda pendentes de Contabilidade; revisar as 26 de Auditoria; revisar as 133 de Orçamento por famílias de conceitos, começando por receita e despesa, execução e créditos, classificações e relatórios fiscais. Em cada lote, confrontar o texto com o artigo de origem e a fonte oficial vigente, testar a busca por linguagem cotidiana e termos técnicos e conferir as relações com os flashcards. O contador de progresso da revisão é editorial e **não mede domínio do conteúdo pelo estudante**.
+**Segunda rodada concluída em dados (05/11/2026):** reescritas as **166 definições ou contrastes** que ficaram pendentes da primeira rodada: 7 de Contabilidade, 26 de Auditoria e 133 de Orçamento. Orçamento incluiu fundamentos, receitas, classificações, GND, empenhos, restos a pagar e limites fiscais. Todos os **202/202 verbetes anteriores** tiveram a definição ou o contraste efetivamente alterado, confirmado por comparação com o commit de referência anterior à primeira revisão (`8f0c37caa2616fbdeb3b14b1ee9f8c908dbc30b0`). Foram preservados todos os IDs, títulos, fontes, artigos de destino, exemplos e pegadinhas originais, exceto os exemplos pontualmente tornados mais diretos nos sete verbetes de Contabilidade.
 
-**Critérios para considerar a revisão fechada:** 202/202 entradas anteriores com leitura isolada compreensível; sete entradas novas mantidas no mesmo padrão; nenhuma alteração de ID, fonte ou categoria por mero estilo; testes automáticos de esquema, busca, links e flashcards aprovados; workflow final do Pages concluído. Uma segunda leitura amostral deve verificar se a simplificação não apagou condições normativas importantes.
+**Próxima etapa editorial (leitura final):** conferir as pegadinhas C/E e os exemplos dos **209 verbetes publicados**, procurando palavras ainda difíceis, dependências de outros verbetes e frases vagas. Conferir especialmente regras legais que não podem perder exceções ou condições: empenho (art. 58), créditos adicionais (Lei nº 4.320), RGF/RREO (LRF), orçamento e classificação da receita/despesa. Abrir um verbete isoladamente e testar sua compreensão, depois verificar sua conexão com o artigo canônico e com os flashcards. O PCASP permanece ao **final** dessa verificação, conforme seção própria. O contador de progresso é editorial e **não mede domínio do conteúdo pelo estudante**.
+
+**Critérios para considerar a revisão fechada:** cobertura de texto das 202/202 entradas anteriores **confirmada**; sete entradas novas no mesmo padrão; nenhuma alteração de ID, fonte ou categoria por mero estilo; testes automáticos de esquema, busca, links e flashcards aprovados; workflow final do Pages concluído. A **verificação de compreensão e de precisão de exemplos e pegadinhas** continua pendente antes do fechamento editorial definitivo.
 
 ## Última etapa do roadmap: PCASP (planejado, não publicado)
 

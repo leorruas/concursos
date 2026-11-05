@@ -192,4 +192,35 @@ for (const [query, id] of [['regra de ouro', 'glo-regra-de-ouro'], ['DOCC', 'glo
     assert(match(query).some(t => t.id === id), 'Novo conceito de orçamento ausente: ' + query);
 }
 assert(match('sem termo impossível').length === 0);
-console.log('SUCESSO: 209 verbetes, sete fatos contábeis, revisão inicial em três matérias e PCASP planejado validados.');
+// Revisão editorial de linguagem: definições curtas, com contraste e exemplo próprio.
+// Os testes mecânicos preservam limites e conceitos essenciais; a compreensão
+// final ainda exige leitura humana, conforme o roteiro editorial.
+assert.equal(published.publishedCount, 209);
+assert(published.terms.every(t => t.definition.length <= 320),
+  'Definições devem ser curtas; detalhes técnicos ficam em contraste, exemplo e artigo');
+for(const [id, fragments] of [
+  ['glo-paint',['Plano Anual de Auditoria Interna','trabalhos']],
+  ['glo-modelo-das-tres-linhas',['primeira linha','segunda','terceira']],
+  ['glo-balanco-patrimonial',['Relatório','ativos','passivos']],
+  ['glo-patrimonio-liquido',['Diferença','ativos','passivos']],
+  ['glo-receita-primaria',['Entrada','resultado primário']],
+  ['glo-grupo-de-natureza-da-despesa-gnd',['seis grupos','amortização']],
+  ['glo-empenho',['pendente ou não de implemento de condição']],
+  ['glo-credito-extraordinario',['imprevisível','urgente']],
+  ['glo-superavit-financeiro',['ano anterior']],
+  ['glo-fonte-destinacao-de-recursos',['regras','receita']],
+  ['glo-teste-de-controles',['Exame','funcionou']],
+  ['glo-despesa-primaria',['resultado primário']]
+]) {
+  const term = published.terms.find(t => t.id === id);
+  assert(term, 'Termo de revisão ausente: '+id);
+  for(const part of fragments) assert(term.definition.includes(part),
+    'Simplificação alterou a distinção central de '+id+': '+part);
+}
+const plannedText = fs.readFileSync(path.join(root,
+  '1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos.md'), 'utf8');
+assert(plannedText.includes('**202/202 verbetes anteriores**') &&
+       plannedText.includes('**166 definições ou contrastes**') &&
+       plannedText.includes('Última etapa do roadmap: PCASP'),
+       'Plano deve registrar revisão de todas as matérias sem antecipar o PCASP');
+console.log('SUCESSO: revisão lexical de 202/202 verbetes anteriores, com 209 publicados; análise final de pegadinhas pendente.');

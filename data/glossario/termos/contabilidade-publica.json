@@ -311,10 +311,10 @@
       "aliases": [
         "DVP"
       ],
-      "definition": "Demonstração contábil que evidencia variações patrimoniais aumentativas e diminutivas ocorridas no período e permite apurar o resultado patrimonial.",
-      "contrast": "DVP examina variações por competência; não se confunde com fluxo de caixa nem resultado orçamentário.",
+      "definition": "Relatório que mostra quanto o patrimônio líquido da entidade aumentou ou diminuiu durante o período e por quais fatos. É chamado de DVP.",
+      "contrast": "A DVP explica mudanças no patrimônio líquido, como consumo de serviços e reconhecimento de direitos. A DFC mostra dinheiro que entrou e saiu; o orçamento mostra receitas e despesas executadas.",
       "cebraspeTrap": "Afirmar que despesa empenhada implica automaticamente VPD de igual valor no exercício.",
-      "example": "O consumo de materiais pode gerar variação diminutiva ainda que o pagamento tenha ocorrido antes.",
+      "example": "O órgão usa materiais que já estavam no estoque: a DVP registra o consumo, mesmo sem novo pagamento.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -369,10 +369,10 @@
       "aliases": [
         "DFC"
       ],
-      "definition": "Demonstração que apresenta recebimentos e pagamentos efetivos de caixa e equivalentes nas atividades operacionais, de investimento e de financiamento.",
-      "contrast": "A DFC registra fluxos de caixa; a inscrição compensatória de restos a pagar no Balanço Financeiro não é entrada real.",
+      "definition": "Relatório que mostra o dinheiro que realmente entrou e saiu do caixa da entidade durante um período. A sigla é DFC; os movimentos são separados em atividades operacionais, de investimento e de financiamento.",
+      "contrast": "A DFC registra recebimentos e pagamentos efetivos. Depreciação e inscrição de restos a pagar, sozinhas, não são entrada nem saída de dinheiro.",
       "cebraspeTrap": "Tratar depreciação sem desembolso ou inscrição de restos a pagar como movimento efetivo de caixa.",
-      "example": "O pagamento de equipamento aparece como saída de investimento; a depreciação futura não representa nova saída.",
+      "example": "A universidade paga R$ 5 mil por um equipamento: a DFC mostra a saída de caixa; o desgaste futuro do bem não gera outra saída.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -398,10 +398,10 @@
       "id": "glo-notas-explicativas",
       "term": "Notas explicativas",
       "aliases": [],
-      "definition": "Informações complementares que integram as demonstrações contábeis e apresentam critérios, políticas contábeis, julgamentos e detalhamentos relevantes para sua compreensão.",
-      "contrast": "Notas complementam e esclarecem demonstrações, mas não substituem o reconhecimento exigido no balanço ou na DVP.",
+      "definition": "Textos que acompanham as demonstrações contábeis para explicar números, métodos de cálculo, escolhas contábeis e riscos importantes.",
+      "contrast": "As notas ajudam a entender os valores dos relatórios. Uma obrigação que deve constar do balanço também precisa ser registrada nele; explicá-la em nota não substitui esse registro.",
       "cebraspeTrap": "Afirmar que divulgar passivo reconhecível somente em nota dispensa registrá-lo contabilmente.",
-      "example": "A nota descreve bases de mensuração, riscos relevantes e critérios empregados nos saldos patrimoniais.",
+      "example": "O balanço mostra uma dívida e a nota informa quando vence, como foi calculada e quais riscos a envolvem.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -427,10 +427,10 @@
       "id": "glo-conciliacao-contabil",
       "term": "Conciliação contábil",
       "aliases": [],
-      "definition": "Procedimento de confronto entre saldos e movimentos registrados em fontes diferentes, para localizar divergências, explicar diferenças temporais e ajustar erros quando cabível.",
-      "contrast": "Conciliação compara e documenta registros; não é apenas confirmar que duas tabelas possuem números iguais.",
+      "definition": "Conferência entre registros de fontes diferentes para descobrir se os valores e movimentos combinam e explicar diferenças encontradas.",
+      "contrast": "Conciliação exige verificar cada movimento, sua data e a documentação. Dois totais iguais podem esconder lançamentos errados.",
       "cebraspeTrap": "Tratar simples igualdade de totais como prova de integridade sem examinar itens e períodos.",
-      "example": "A equipe confronta extrato bancário, registros contábeis e pagamentos em trânsito e identifica diferença de data.",
+      "example": "O extrato bancário mostra um pagamento de R$ 500 no dia 31, mas o sistema o registrou em 1º de janeiro: a conciliação identifica a diferença de data.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -686,10 +686,10 @@
       "aliases": [
         "SIC"
       ],
-      "definition": "Componente do sistema de custos que integra e processa dados monetários e físicos, organiza mensurações e fornece informações rastreáveis para gestão e avaliação de serviços públicos.",
-      "contrast": "Sistema de informação é parte da estrutura de custos; não se confunde com o manual metodológico MIC nem com toda a governança de custos.",
+      "definition": "Sistema que reúne dados de gastos e de serviços prestados para ajudar a calcular quanto custam as atividades de um órgão público. A sigla é SIC.",
+      "contrast": "O SIC fornece informações para calcular e analisar custos. Um painel só de despesas empenhadas não mostra, necessariamente, quanto recurso foi consumido para cada serviço.",
       "cebraspeTrap": "Afirmar que disponibilizar painel com gastos empenhados, sem dados sobre recursos consumidos, basta para medir custos.",
-      "example": "O sistema consolida folha, consumo de materiais e volume de atendimentos para estimar custo unitário do serviço.",
+      "example": "O sistema cruza salários, materiais consumidos e número de atendimentos para estimar quanto custa cada atendimento.",
       "subjectIds": [
         "contabilidade-publica"
       ],

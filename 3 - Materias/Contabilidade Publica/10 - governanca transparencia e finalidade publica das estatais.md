@@ -131,6 +131,8 @@ A **carta anual do art. 8º, I** deve permitir entender **compromisso, recursos 
 
 **Hipóteses concorrentes a testar:** demanda inferior à prevista; redução de oferta; diferenças de perfil das viagens; custo fixo elevado; qualidade inadequada; meta mal formulada; falhas na fonte de dados. O auditor deve verificar documentação, indicadores e causa provável dos desvios antes de concluir sobre eficiência ou responsabilidade.
 
+**Aprofundamento autônomo de P3.2.7.2:** [[3 - Materias/Contabilidade Publica/11 - sustentabilidade economico-financeira das estatais|Sustentabilidade econômico-financeira das estatais]] compara **lucro, fluxo de caixa, capacidade de investimento, serviço da dívida, capitalizações, transferências de custeio e dependência fiscal**, com exemplo numérico integrado ao cumprimento da missão. Os conceitos de governança, carta anual e finalidades deste artigo permanecem aqui; a análise de financiamento não será duplicada.
+
 ## Como a banca pode cobrar: itens C/E comentados
 
 Estes são **itens inéditos didáticos**, no formato de **Certo/Errado (C/E)** da CGU 2026, banca Cebraspe. Não são transcrições nem itens empiricamente calibrados.
@@ -165,4 +167,4 @@ Para cada item, localizar **artigo → sujeito responsável → documento/decis�
 3. [Decreto nº 8.945/2016 e alterações, regulamentação federal](https://www2.camara.leg.br/legin/fed/decret/2016/decreto-8945-27-dezembro-2016-784146-norma-pe.html): detalha governança no âmbito da União; não transplantar automaticamente detalhes regulamentares federais para estados e municípios.
 4. [Lei nº 12.527/2011, acesso à informação](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm) e [Lei nº 6.404/1976](https://www.planalto.gov.br/ccivil_03/leis/l6404compilada.htm): transparência, sigilos e regime societário.
 
-**Cobertura editorial:** artigo 10 desenvolve a **unidade P3.2.7 e microfase F07** (governança, conselhos, controles, finalidade pública, sustentabilidade e carta anual). A matéria possui dez notas preparadas, mas o **confronto integral com o edital e suas retificações ainda está pendente**. Publicação editorial não equivale a estudo, acertos, domínio ou retenção.
+**Cobertura editorial:** o artigo 10 desenvolve governança e finalidade pública em P3.2.7/F07; [[3 - Materias/Contabilidade Publica/11 - sustentabilidade economico-financeira das estatais|Sustentabilidade econômico-financeira das estatais]] aprofunda especificamente a sustentabilidade econômico-financeira **P3.2.7.2**, distinguindo caixa, resultado e financiamento. Os artigos são complementares e **a validação normativa completa e a aprendizagem ainda estão pendentes**.

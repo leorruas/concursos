@@ -142,6 +142,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Contabilidade Publica/08 - depreciacao reducao ao valor recuperavel e ativos|08 • Depreciação e recuperabilidade de ativos]]
    - [[3 - Materias/Contabilidade Publica/09 - demonstracoes societarias das estatais|09 • Demonstrações societárias das estatais]]
    - [[3 - Materias/Contabilidade Publica/10 - governanca transparencia e finalidade publica das estatais|10 • Governança e finalidade pública das estatais]]
+   - [[3 - Materias/Contabilidade Publica/11 - sustentabilidade economico-financeira das estatais|11 • Sustentabilidade econômico-financeira das estatais]]
 13. [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|Avaliação de políticas públicas]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|01 • Teoria da mudança: fundamentos da avaliação]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas|02 • Implementação de políticas públicas]]

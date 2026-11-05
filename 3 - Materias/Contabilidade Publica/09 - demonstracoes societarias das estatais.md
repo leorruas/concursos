@@ -153,6 +153,8 @@ Para a **Controladoria-Geral da União (CGU) 2026**, banca **Cebraspe**, formato
 
 **Item 3.** “Operações entre controladora e controlada podem constar nas demonstrações individuais e exigir eliminação nas consolidadas.” **Certo.** O CPC 36 apresenta o grupo como unidade econômica.
 
+**Nova conexão:** [[3 - Materias/Contabilidade Publica/11 - sustentabilidade economico-financeira das estatais|Sustentabilidade econômico-financeira das estatais]] analisa o uso conjunto de **DRE, DFC, BP, metas de serviço e riscos fiscais** para verificar a continuidade da estatal. Resultado societário positivo não equivale a cobertura de CAPEX e serviço da dívida nem à eficácia da missão pública.
+
 ## Relações e pegadinhas
 
 [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|BP/DVP]]: resultado patrimonial público versus lucro. [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|DFC/notas]]: caixa versus competência. [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo|Custos]]: eficiência de entregas. [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas|Avaliação]]: eficácia e efetividade. **DRE × DRA × DMPL**, **DLPA × DMPL**, **DVA de aberta × estatal fechada**, **controlada × dependente**, **MEP × consolidação**, **relacionada × fraude**, **isenção parcial × dispensa geral** são fronteiras recorrentes para itens com inversão.

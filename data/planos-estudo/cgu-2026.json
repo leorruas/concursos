@@ -358,6 +358,12 @@
       "url": "https://www.bcb.gov.br/ftp/infecon/Estatisticasfiscais.pdf",
       "scope": "NFSP acima/abaixo da linha, primário e nominal, juros e dívida líquida ajustada",
       "verifiedAt": "2026-11-04"
+    },
+    "cpc03-fluxos-caixa": {
+      "label": "CPC 03 (R2), Demonstração dos Fluxos de Caixa",
+      "url": "https://www.cpc.org.br/CPC/Documentos-emitidos/Pronunciamentos/Pronunciamento?Id=34",
+      "scope": "Fluxos operacionais, de investimento e financiamento; distinção de resultados de competência e caixa na empresa estatal",
+      "verifiedAt": "2026-11-05"
     }
   },
   "subjects": [
@@ -2069,6 +2075,7 @@
           ],
           "noteRefs": [
             "3 - Materias/Contabilidade Publica/10 - governanca transparencia e finalidade publica das estatais",
+            "3 - Materias/Contabilidade Publica/11 - sustentabilidade economico-financeira das estatais",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [
@@ -2079,10 +2086,12 @@
             "lei-13303",
             "lei-15177-2025",
             "decreto-8945-2016",
-            "lei-12527"
+            "lei-12527",
+            "lrf",
+            "cpc03-fluxos-caixa"
           ],
           "coverage": "parcial",
-          "noteRole": "auditoria-p3-2-7-1-7-3-7-4-substanciais-7-2-parcial-sustentabilidade-economico-financeira"
+          "noteRole": "auditoria-p3-2-7-1-a-7-4-substantivos-governanca-e-sustentabilidade-notas-10-11-revisao-normativa-e-treino-pendentes"
         }
       ],
       "requiresSubjects": []

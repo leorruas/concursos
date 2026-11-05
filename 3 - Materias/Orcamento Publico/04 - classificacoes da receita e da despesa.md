@@ -5,7 +5,7 @@ title: "Classificações da receita e da despesa orçamentária"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 aliases:
   - "Classificação orçamentária"
   - "Classificação funcional e programática"
@@ -52,6 +52,11 @@ A palavra **receita** descreve um ingresso **para quem recebe**. Um mesmo pagame
 | **Alienação de bens** (capital) | Venda ou outra transferência onerosa de bens ou direitos do patrimônio público, convertendo-os em dinheiro | Prefeitura vende imóvel ou veículo de sua propriedade. A receita **não é aluguel**; o art. 44 da LRF restringe seu uso em despesas correntes |
 | **Amortização de empréstimos** (capital) | **Devolução do principal** de empréstimo que o **próprio ente público havia concedido** a alguém | Município havia emprestado R$ 100 mil e recebe R$ 20 mil de principal: isso é receita de capital. **Juros recebidos** são receita corrente na classificação pertinente |
 | **Transferência de capital** | Recurso recebido de outra pessoa pública ou privada, **sem contraprestação direta ao transferidor**, destinado a financiar **despesas de capital**, como investimentos ou inversões financeiras | Município recebe recursos vinculados à construção de um hospital, e não ao custeio regular do hospital |
+
+
+**O que significa “sem contraprestação direta ao transferidor”?** Contraprestação é um bem ou serviço entregue **em troca do pagamento**, diretamente a quem paga. Numa transferência, o recebedor não precisa fornecer um bem ou serviço ao ente que lhe repassou os recursos. Exemplo: a União transfere recursos a um município para construir uma escola destinada à população. A escola não é uma contraprestação prestada à União.
+
+**Atenção à pegadinha:** ausência de contraprestação direta **não significa ausência de obrigações**. O município pode estar obrigado a aplicar o dinheiro na finalidade prevista, executar a obra e prestar contas à União. **Contraprestação direta ao transferidor** e **obrigação de aplicar e comprovar o uso dos recursos** são conceitos diferentes.
 
 Há ainda **receitas agropecuárias** (exploração econômica de atividades vegetais e animais pelo ente), **industriais** (produção ou comercialização industrial pelo ente) e **outras receitas correntes ou de capital** (ingressos que não se enquadram nas demais origens, segundo o classificador vigente).
 

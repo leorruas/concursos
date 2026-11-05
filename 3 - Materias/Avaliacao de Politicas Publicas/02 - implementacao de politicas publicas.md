@@ -5,7 +5,7 @@ title: "Implementação de políticas públicas"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 aliases:
   - "Implementação de políticas"
   - "Burocracia de nível de rua e capacidades estatais"
@@ -96,6 +96,51 @@ Um programa nacional busca reduzir a evasão escolar por meio do transporte de e
 **Município C:** agentes introduzem exigência documental não prevista e parte dos estudantes elegíveis deixa de receber transporte. A perspectiva bottom-up ajuda a localizar a prática que produz a barreira; a análise normativa examina sua validade e os efeitos sobre os usuários.
 
 Os três casos permitem separar **decisão local, capacidade de execução, conformidade e resultado**. Essas dimensões podem se influenciar, mas não são sinônimas.
+
+## Refinamento: processos, projetos e marcos de execução (CGU P3.3, 2.2)
+
+**Processo** é uma sequência recorrente ou repetível de atividades que transforma entradas em entregas para destinatários: cadastrar beneficiários, validar elegibilidade, programar transporte, executar rotas e registrar ocorrências. **Projeto** é esforço temporário para produzir uma entrega ou mudança específica: implantar novo sistema de rotas em seis municípios, treinar equipes e transferir a solução à operação. Um projeto pode criar ou melhorar um processo; depois do encerramento, a rotina segue exigindo responsável e controles.
+
+O exame deve separar **entregas do projeto** (sistema implantado, equipe treinada) de **resultados da política** (menor interrupção do transporte, acesso efetivo e redução da evasão). Concluir o projeto no prazo não assegura que o serviço esteja disponível e funcione como esperado. A identificação de marcos também não equivale automaticamente à aferição de impacto.
+
+Em um plano de implantação, explicitar:
+
+| Elemento | Pergunta de controle | Exemplo de transporte escolar |
+| :--- | :--- | :--- |
+| Entrega e critério de aceite | O que deve estar pronto e como será verificado? | Sistema com cadastro validado e registro de rotas efetivamente realizadas |
+| Responsável e dependências | Quem decide, executa, valida e de quem depende? | Secretaria de Educação depende de dados municipais e suporte de TI |
+| Marco e prazo | Que evento verificável demonstra avanço? | Piloto aceito em duas escolas antes da expansão |
+| Risco e controle | O que pode impedir a entrega e como será detectado? | Cadastro duplicado; rotina de reconciliação e amostra de verificação |
+| Evidência | Qual documento ou registro comprova a etapa? | Ata de aceite, trilha de testes, lista de ocorrências e relatório físico-financeiro |
+| Resultado a acompanhar | Qual mudança se espera após a entrega? | Regularidade do transporte e cobertura de estudantes elegíveis |
+
+**Marco** é um ponto verificável da execução, muitas vezes sem duração própria; **atividade** consome tempo e recursos. **Risco** é evento ou condição incerta com efeito potencial; **problema ocorrido** é fato a tratar e documentar. **Responsabilidade de execução** não é o mesmo que validação independente, que precisa respeitar as competências e a segregação de funções aplicáveis. Ao registrar percentual executado, declarar se o denominador é número de atividades, marcos, entregas aceitas, unidades físicas ou recursos financeiros. Percentual de despesa paga não mede automaticamente entrega física nem benefício social.
+
+### Caso comentado: três marcos, duas entregas
+
+Um município planejou três marcos: validação do cadastro, instalação do sistema e aceite do serviço piloto. Os dois primeiros foram concluídos, mas o piloto revelou rotas sem registro confiável. Dizer que "dois terços dos marcos foram realizados" é uma contagem administrativa possível; **não significa que dois terços do serviço final foram entregues ou que o projeto está dois terços concluído em valor e esforço**. O aceite permanece pendente, e a expansão deveria enfrentar esse risco.
+
+## Refinamento: assessoramento, cooperação e adaptação com direitos e controles (CGU P3.3, 2.3)
+
+**Assessoramento** fornece análise, orientação técnica, opções e alertas a quem tem competência para decidir. **Cooperação** articula órgãos, entes, organizações e outros participantes para compartilhar informações, recursos ou capacidades. **Adaptação** ajusta meios de execução às condições locais sem presumir alteração legítima do objetivo ou dos direitos reconhecidos aos destinatários.
+
+Essas funções podem coexistir. Por exemplo, uma equipe de avaliação identifica exigência documental que impede acesso; assessora a secretaria sobre alternativas, coopera com municípios para corrigir o fluxo e recomenda testar procedimento mais simples. A **decisão formal** e a execução permanecem com as autoridades competentes. A oferta de assessoramento não transfere automaticamente a responsabilidade por atos de gestão ao assessor.
+
+Uma solução adaptada deve ser submetida a quatro verificações: **competência e regra aplicável**, **finalidade pública**, **efeito sobre os usuários**, **rastreabilidade e controles**. Se uma escola oferece agendamento flexível para reduzir filas dentro das regras, a adaptação pode favorecer o acesso. Se cria exigência de certidão não prevista e afasta famílias elegíveis, pode produzir barreira ilegítima, ainda que pareça aumentar eficiência administrativa.
+
+**Cooperação federativa não significa hierarquia automática entre União, estados e municípios**. Instrumentos pactuados, responsabilidades, bases de compartilhamento de dados, transparência e mecanismos de supervisão devem ser examinados concretamente. Também é preciso distinguir **escuta social** de **delegação da decisão**: participação fornece evidências e controle social, mas não substitui competência legal.
+
+### Questões comentadas: treino inédito C/E
+
+**Item 4.** A entrega do sistema informatizado e o cumprimento de marcos do projeto permitem concluir, independentemente de informação adicional, que a política pública alcançou seu resultado finalístico.
+
+**Gabarito: Errado.** Entregas e marcos comprovam etapas de implantação, enquanto resultado finalístico exige indicadores pertinentes, e a atribuição causal pode exigir contrafactual.
+
+**Item 5.** Um órgão pode assessorar tecnicamente outro sobre riscos e alternativas de implementação sem assumir, apenas por esse assessoramento, a competência para decidir e executar a solução.
+
+**Gabarito: Certo.** Assessoramento e decisão são funções distintas; a atuação concreta e o regime jurídico podem impor responsabilidades próprias, mas a competência decisória não se transfere automaticamente.
+
+**Fontes direcionadas do refinamento:** [edital CGU 2026, seção Políticas Públicas, 2.2 e 2.3](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html); [Casa Civil, avaliação de políticas públicas e uso dos guias](https://www.gov.br/casacivil/pt-br/assuntos/governanca/avaliacao-de-politicas). Os exemplos e a matriz de marcos são ilustrações metodológicas, não imposições normativas universais.
 
 ## Como a Cebraspe pode cobrar
 

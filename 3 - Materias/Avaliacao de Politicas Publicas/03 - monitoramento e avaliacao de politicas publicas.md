@@ -5,7 +5,7 @@ title: "Monitoramento e avaliação de políticas públicas"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 aliases:
   - "Monitoramento de políticas públicas"
   - "Eficácia, eficiência, efetividade e equidade"
@@ -157,6 +157,57 @@ No primeiro ano do programa de transporte escolar, 100% dos estudantes previstos
 **Pela eficácia**, o programa alcançou a meta operacional de atendimento. **Pela eficiência**, é necessário comparar insumos consumidos e serviços produzidos em condições semelhantes: o cumprimento da meta não garante boa relação custo-entrega. **Pela efetividade**, a queda da evasão é compatível com o objetivo finalístico, mas exige estudo sobre a contribuição real do transporte. **Pela equidade**, devem ser investigadas as diferenças territoriais de acesso e as razões de sua persistência.
 
 O monitoramento pode registrar periodicamente todos esses indicadores. Uma avaliação pode identificar se a falta de transporte nas áreas rurais decorreu de critérios, recursos, coordenação ou outras causas, formulando recomendações fundamentadas.
+
+## Refinamento: momento da avaliação × objeto examinado (CGU P3.3, 3.3)
+
+**Ex ante** qualifica o **momento anterior à implantação ou expansão** em que se examinam problema, alternativas, teoria da intervenção, incentivos, viabilidade, riscos e custos/benefícios esperados. **Ex post** examina uma política **durante ou depois da execução**, usando evidências produzidas pela experiência. A classificação temporal responde a *quando se avalia*; a classificação pelo objeto responde a *o que se investiga*. Elas se cruzam e não devem ser tratadas como categorias excludentes. [A Casa Civil](https://www.gov.br/casacivil/pt-br/assuntos/governanca/avaliacao-de-politicas) apresenta os guias ex ante e ex post como referências de boas práticas, não como imposições gerais a todos os órgãos.
+
+| Objeto/pergunta | Exemplo de exame prévio (ex ante) | Exemplo durante/após execução (ex post) |
+| :--- | :--- | :--- |
+| **Desenho** | A teoria causal e os critérios de elegibilidade são plausíveis? | As barreiras encontradas exigem rever a teoria, regras e incentivos? |
+| **Implementação** | Há capacidade, responsabilidades e riscos mapeados? | Como os fluxos, a coordenação e as entregas de fato funcionaram? |
+| **Resultados** | Quais indicadores e metas serão usados? Que mudanças são esperadas? | Houve mudança nos resultados observados dos destinatários? |
+| **Impacto causal** | Que experimento ou estratégia contrafactual poderá ser incorporado ao desenho? | Quanto da mudança pode ser atribuído à intervenção sob as hipóteses do método? |
+| **Eficiência e avaliação econômica** | Qual alternativa parece oferecer melhores resultados em relação a custos projetados? | Quais custos reais e resultados medidos permitem comparar alternativas? |
+
+A coluna de planejamento causal **não equivale a uma estimativa de impacto já observada**. Projetar efeitos ex ante é possível, mas a identificação empírica de impacto de uma política executada requer evidências apropriadas. Uma avaliação realizada **durante** a implementação pode ser ex post no sentido dos guias federais, embora ainda seja formativa e oriente correções. **Avaliação de resultados** pode descrever mudanças sem isolar sua causa; **avaliação de impacto** exige desenho causal defensável.
+
+**Avaliação executiva** é uma análise panorâmica que pode identificar pontos da política que merecem aprofundamento, enquanto análises de desenho, implementação, impacto e eficiência podem aprofundar perguntas particulares. Sua rapidez ou amplitude não transforma automaticamente suas conclusões em demonstração causal. Ver [[3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica|Identificação causal]].
+
+## Refinamento: pré-teste, estudo-piloto, critérios e seleção do desenho (CGU P3.3, 3.4)
+
+**Pré-teste** verifica componentes delimitados de um instrumento ou procedimento **antes de seu uso principal**. Pode examinar se entrevistados compreendem uma pergunta, se categorias de resposta são suficientes, se o aplicativo registra corretamente os eventos ou se o indicador possui ambiguidades. Seu objeto pode ser um questionário, roteiro, formulário, regra operacional ou sistema.
+
+**Estudo-piloto** aplica em **escala reduzida** um conjunto mais amplo da intervenção ou da própria avaliação: recrutamento, treinamento, execução, coleta, fluxo de dados, controle de qualidade e acompanhamento. Serve para testar viabilidade e ajustar o desenho antes de ampliar. Um piloto pode incluir pré-testes, mas um pré-teste de formulário não representa necessariamente um piloto de toda a política. Um piloto **não é automaticamente experimento aleatorizado**; para estimar impacto causal, precisa de estratégia própria.
+
+**Exemplo:** uma secretaria planeja monitorar o transporte escolar em 50 escolas. O pré-teste de dez entrevistas revela que "viagem realizada" é entendido ora como ônibus que saiu, ora como estudante que chegou. O instrumento é corrigido. Depois, um piloto em duas escolas testa simultaneamente registro de rotas, agendamento, atendimento a estudantes e qualidade da base. O piloto detecta viagens marcadas como concluídas antes do desembarque. Corrigir esse fluxo melhora a medição e a operação, mas **não demonstra ainda redução causal da evasão**.
+
+**Critérios de julgamento** definem o padrão com que se apreciará um objeto: regra de acesso, meta programada, prazo de serviço, comparação histórica, padrão técnico ou qualidade mínima. Devem ser explícitos, pertinentes ao objetivo e compatíveis com a informação disponível. Uma meta arbitrária ou um padrão inadequado pode levar a julgamento enganoso, mesmo com dados exatos.
+
+### Seleção do desenho a partir da pergunta
+
+| Pergunta avaliativa | Desenho ou fonte inicialmente pertinente | O que não se pode concluir automaticamente |
+| :--- | :--- | :--- |
+| O público entende o questionário? | Pré-teste cognitivo e revisão de itens | Que o programa é efetivo |
+| O fluxo consegue operar na prática? | Piloto de execução com observação e registros | Que resultados observados são causais |
+| Os elegíveis foram atendidos? | Cadastro, critérios, amostra documental e indicadores | Que houve impacto finalístico |
+| Por que unidades divergem? | Estudos de caso, entrevistas, observação e comparação de processos | A frequência nacional do mecanismo sem base amostral |
+| A intervenção causou mudança? | Experimento ou quase experimento com pressupostos defensáveis | Que uma diferença simples antes/depois basta |
+| Qual alternativa oferece melhor relação custo-resultado? | Avaliação econômica com resultados e custos comparáveis | Que menor custo total significa maior custo-efetividade |
+
+**Decisão metodológica:** formule a pergunta; declare unidade de análise, população, critérios, fonte e tempo; avalie dados disponíveis, riscos éticos, viabilidade e incerteza; escolha desenho capaz de sustentar a **força da conclusão pretendida**. Um método estatisticamente sofisticado que não responde à pergunta pode ser inferior a uma análise de processos bem justificada. A avaliação de impacto frequentemente se beneficia de planejamento antes da implantação, mas sua possibilidade não deve ser inferida ou descartada apenas pela presença de uma linha de base.
+
+### Questões comentadas: treino inédito C/E
+
+**Item 4.** Por ser realizada após o início da política, a avaliação de implementação deve ser classificada como avaliação de impacto, ainda que investigue apenas fluxos, barreiras e entregas.
+
+**Gabarito: Errado.** Ex post identifica o momento; implementação e impacto identificam objetos/perguntas distintos. O estudo não estabelece causalidade por ocorrer depois da política.
+
+**Item 5.** O pré-teste de perguntas pode revelar falhas de compreensão do instrumento, ao passo que um estudo-piloto pode examinar a operação conjunta de procedimentos, equipes e coleta antes de expansão; nenhum deles, por si só, garante efeito causal.
+
+**Gabarito: Certo.** Os instrumentos têm escopos distintos e podem ser combinados. A inferência causal depende do desenho e das hipóteses de identificação.
+
+**Fontes direcionadas do refinamento:** [edital CGU 2026, itens 3.3 e 3.4](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html); [Casa Civil, guias ex ante e ex post](https://www.gov.br/casacivil/pt-br/assuntos/governanca/avaliacao-de-politicas); [Enap, tipos de avaliação](https://www.enap.gov.br/pesquisa-e-conhecimento/avaliacao-e-organizacao-de-evidencias/). As matrizes e exemplos são sínteses didáticas, com classificação dependente do desenho específico.
 
 ## Como a Cebraspe pode cobrar
 

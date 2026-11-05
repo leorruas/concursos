@@ -70,6 +70,21 @@ Foram criadas [[3 - Materias/Avaliacao de Politicas Publicas/06 - conclusoes e r
 
 **Limite:** zero lacunas significa nota canônica substantiva para o núcleo de cada subitem, ainda sujeita a conferência das fontes, aprofundamento dos quatro subitens parciais, itens C/E calibrados e validação de retenção. Nenhuma leitura individual ou desempenho foi inferido a partir dos artigos.
 
+## Refinamento editorial dos quatro subitens parciais (05/11/2026)
+
+Os artigos canônicos [[3 - Materias/Avaliacao de Politicas Publicas/02 - implementacao de politicas publicas|Implementação]] e [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas|Monitoramento e avaliação]] receberam expansões direcionadas, sem criar artigos redundantes:
+
+- **2.2:** processo recorrente × projeto temporário, responsáveis, entregas, marcos verificáveis, aceite, riscos e controles, incluindo exemplo com marcos concluídos sem aceite final.
+- **2.3:** assessoramento × competência decisória, cooperação interorganizacional, adaptações locais, acesso, direitos, rastreabilidade e controles.
+- **3.3:** matriz cruzada de **momento (ex ante/ex post)** e **objeto (desenho, implementação, resultados, impacto, eficiência)**, com atenção às avaliações durante execução.
+- **3.4:** pré-teste de instrumento × piloto operacional da intervenção ou da avaliação; critérios de julgamento e seleção do método a partir da pergunta.
+
+**Cobertura editorial após o refinamento: 21/21 subitens substantivos, zero parciais e zero lacunas temáticas identificadas nesta triagem.** O total substitui os saldos históricos anteriores, que permanecem documentados por etapa para rastreabilidade. Essa qualificação indica apenas que o núcleo temático possui desenvolvimento nos artigos; **não significa verificação metodológica linha a linha, validade normativa completa, reprodução de provas reais, domínio ou retenção**.
+
+**Confronto dirigido nesta etapa:** [edital oficial do Cebraspe, item 15.2.4](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html), [Casa Civil: guias de avaliação como referência não vinculante](https://www.gov.br/casacivil/pt-br/assuntos/governanca/avaliacao-de-politicas), [Enap: tipos de avaliação](https://www.enap.gov.br/pesquisa-e-conhecimento/avaliacao-e-organizacao-de-evidencias/). Nenhum subitem foi declarado **normativa ou metodologicamente validado em sua integralidade**.
+
+**Próxima auditoria:** verificar afirmações e exceções em fontes primárias e literatura metodológica, calibrar itens C/E com provas reais pertinentes e revisar casos/calculações. Os subitens 3.4 (pré-teste/piloto), 5.2 (pressupostos de identificação causal) e 7.3 (ética e CEP/CONEP) merecem inspeção mais rigorosa. Manter separadas cobertura editorial, validação de fonte e exposição de estudo.
+
 ## Resultado e ordem de implementação
 
 **Triagem:** **21/21 subitens mapeados**; **7 substantivos, 10 parciais e 4 lacunas** (5.2, 5.3, 7.2, 7.3). *Mapeado* não significa coberto; a matéria **não está editorialmente concluída**, nem há auditoria normativa/metodológica fina dos 21 itens. A classificação é provisória e baseada nos artigos inspecionados.
@@ -80,6 +95,6 @@ Foram criadas [[3 - Materias/Avaliacao de Politicas Publicas/06 - conclusoes e r
 
 **P1, conclusões e ética (artigos criados em 05/11/2026):** cotejar minuciosamente 6.1–6.3 e 7.1–7.3 com guias ex post, atos aplicáveis e itens C/E, incluindo revisão do escopo ético e proteção de dados.
 
-**P2, refinamentos curtos nas notas existentes:** 2.2–2.3 e 3.3–3.4; acrescentar exemplos com pré-teste versus piloto, etapa × objeto de avaliação, projetos e limites da cooperação.
+**P2, refinamentos nas notas existentes (concluídos editorialmente em 05/11/2026):** 2.2–2.3 e 3.3–3.4 receberam exemplos, classificações e itens inéditos C/E; resta validação fina com fontes e provas.
 
 **Gate de fechamento:** (1) conteúdo confrontado com cada subitem; (2) fontes metodológicas e legais conferidas; (3) exercícios C/E calibrados ao escopo Cebraspe; (4) nenhuma declaração de estudo ou retenção a partir de trabalho editorial. Após criar artigos próprios, atualizar hub, índice e catálogo por `articleId` no mesmo commit, conforme `AGENTS.md`, e verificar o GitHub Pages.

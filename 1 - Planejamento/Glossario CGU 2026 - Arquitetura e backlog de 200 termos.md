@@ -12,7 +12,7 @@ updated: 2026-11-05
 
 Planejamento de glossário para **CGU 2026, cargo 1, Auditoria, Cebraspe (Certo/Errado)**. O recorte prioriza conceitos, siglas, etapas, classificações e fronteiras que podem gerar interpretações erradas. As prioridades A/B/C reproduzem a decisão editorial do [[1 - Planejamento/CGU 2026 - Plano de materias|plano de matérias]], **não indicam frequência comprovada de cobrança**. Escopo conferido com [[2 - Editais/CGU 2026 - Auditoria|edital sintetizado no vault]] e [edital no Cebraspe](https://www.cebraspe.org.br/concursos/cgu_26_affc).
 
-**Estado editorial em 05/11/2026:** **258 termos planejados**, incluindo os 200 iniciais e 58 conceitos adicionais de classificações orçamentárias, com **143 definições revisadas** no JSON público: 35 de Auditoria, 83 de Orçamento e 25 de Contabilidade. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
+**Estado editorial em 05/11/2026:** **288 termos planejados**, incluindo os 200 iniciais, 58 conceitos de classificações e 30 verbetes adicionais de execução e controle, com **173 definições revisadas** no JSON público: 35 de Auditoria, 113 de Orçamento e 25 de Contabilidade. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
 
 ## Onde o glossário aparecerá na wiki
 
@@ -194,13 +194,15 @@ A diferença decisiva para o Cebraspe: **corrente/capital** é categoria econôm
 
 **Fase 2 (concluída e publicada):** acrescentadas outras **65 definições** de prioridade A: 25 de Auditoria, 20 de Orçamento e 20 de Contabilidade, totalizando **85**. Cada nova entrada contém definição, contraste conceitual, armadilha C/E, exemplo, fonte e vínculo por ID de artigo. Risco inerente/residual apontam para controles internos; programação física cumprida aponta para o artigo introdutório de Orçamento, onde há explicação específica. Os testes do build exigem agora ao menos 85 definições e preservam a expansão futura.
 
-**Ampliação complementar de Orçamento (58 novas definições):** implementada em 05/11/2026, após a Fase 2, levando de 85 a **143** termos e de 200 a **258** candidatos. A numeração de fases seguintes permanece como trilha temática original, com totais acumulados recalculados.
+**Ampliação complementar de Orçamento (58 novas definições):** implementada em 05/11/2026, após a Fase 2, levando de 85 a **143** termos e de 200 a **258** candidatos.
 
-**Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (**193** no total).
+**Novo lote de execução e controle (30 definições):** acrescenta receitas efetivas/não efetivas, lançamento e recolhimento, três modalidades de empenho, dotação, nota, ordem de pagamento, restos a pagar a liquidar/em liquidação, suprimento de fundos, fontes de créditos adicionais, reabertura, emendas parlamentares, transferências, RREO, RGF, anexos e limites de pessoal. O catálogo passa a **173/288** e Orçamento a **113**. As definições foram separadas em `data/glossario/termos/orcamento-publico-complementos.json`, preservando os 83 registros do arquivo anterior para facilitar novos lotes. A numeração de fases seguintes permanece como trilha temática original, com totais acumulados recalculados.
 
-**Fase 4:** outras **40 definições** de Governança, Transparência, Evidências/IA e Finanças (**233** no total).
+**Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (**223** no total).
 
-**Fase 5:** **25 definições** de Direito Administrativo, Estado e Democracia, Ética, Administração Pública e Sociedade Brasileira, completando **258** (200 iniciais mais 58 de ampliação).
+**Fase 4:** outras **40 definições** de Governança, Transparência, Evidências/IA e Finanças (**263** no total).
+
+**Fase 5:** **25 definições** de Direito Administrativo, Estado e Democracia, Ética, Administração Pública e Sociedade Brasileira, completando **288** (200 iniciais mais 88 de ampliação).
 
 A ordem é revisável se o estudo revelar lacuna de maior prioridade. O contador na interface mostrará apenas entradas **revisadas e efetivamente publicadas**.
 
@@ -217,6 +219,6 @@ O glossário revisado passou a ser uma **segunda fonte pública de cartões de r
 
 Quando há equivalência explícita em `data/glossario/flashcard-equivalencias.json` ou identidade literal de termo no mesmo concurso/matéria, **reutilizar o cartão e seu histórico**, adicionando apenas link para consulta da entrada do glossário. Caso contrário, criar cartão derivado com ID permanente `glossary-glo-...` e dados da entrada revisada, permitindo recuperação direta, inversa e contraste. A página mostra também a fonte normativa e o vínculo ao artigo.
 
-**Estado da conexão em 05/11/2026:** 143 termos revisados; 38 reaproveitam cartões existentes e 105 alimentam cartões derivados. Os 232 cartões editoriais originais permanecem intactos. A coleção disponível no navegador soma 337 cartões neste corte. A expansão do glossário altera esse total automaticamente no próximo build; não tratar essas quantidades como avaliação de domínio ou incidência de prova.
+**Fotografia anterior à segunda ampliação (05/11/2026):** 143 termos revisados; 38 reaproveitavam cartões existentes e 105 alimentavam cartões derivados. Os 232 cartões editoriais originais permaneciam intactos. A ampliação para 173 definições atualiza automaticamente a coleção após novo build; consultar os totais gerados, sem presumir o número de equivalências do novo lote. A expansão do glossário altera esse total automaticamente no próximo build; não tratar essas quantidades como avaliação de domínio ou incidência de prova.
 
 Os vínculos editoriais explícitos devem ser preservados quando um cartão ou termo for renomeado; alterar um ID exige plano de migração das revisões locais. A inspeção de sobreposição conceitual continua necessária em cada lote de termos, porque correspondência literal não substitui revisão semântica.

@@ -1,0 +1,866 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "orcamento-publico",
+  "entries": [
+    {
+      "id": "glo-receita-efetiva",
+      "term": "Receita efetiva",
+      "aliases": [],
+      "definition": "Receita orçamentária que, no momento de seu reconhecimento patrimonial, aumenta a situação líquida da entidade, em geral acompanhada de variação patrimonial aumentativa.",
+      "contrast": "A classificação efetiva ou não efetiva examina o patrimônio líquido, enquanto corrente ou capital classifica a natureza orçamentária.",
+      "cebraspeTrap": "Afirmar que toda receita corrente é efetiva ou que receita de capital nunca pode aumentar o patrimônio líquido.",
+      "example": "Uma receita tributária reconhecida segundo as regras patrimoniais pode aumentar o patrimônio líquido do ente.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-receita-nao-efetiva",
+      "term": "Receita não efetiva",
+      "aliases": [],
+      "definition": "Receita orçamentária cujo reconhecimento, no evento analisado, não provoca aumento do patrimônio líquido, pois envolve fatos permutativos como ingresso acompanhado de obrigação.",
+      "contrast": "Não efetiva continua podendo ser receita orçamentária; não deve ser confundida com ingresso extraorçamentário.",
+      "cebraspeTrap": "Concluir que entrada de operação de crédito comum não é receita orçamentária porque não aumenta o patrimônio líquido.",
+      "example": "Um empréstimo recebido eleva caixa e passivo simultaneamente, sendo receita orçamentária de capital não efetiva.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-lancamento-da-receita",
+      "term": "Lançamento da receita",
+      "aliases": [],
+      "definition": "Etapa que identifica o crédito exigível, sua procedência, o valor e o devedor nas hipóteses legais pertinentes; para tributos, a autoridade constitui o crédito nos termos do CTN.",
+      "contrast": "Lançamento identifica ou constitui crédito, mas não representa arrecadação, recolhimento ou pagamento realizado.",
+      "cebraspeTrap": "Afirmar que toda receita orçamentária exige lançamento ou que crédito lançado já foi recebido pelo Tesouro.",
+      "example": "O órgão lança crédito tributário em março e o contribuinte somente paga em maio.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Código Tributário Nacional, art. 142",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-recolhimento-da-receita",
+      "term": "Recolhimento da receita",
+      "aliases": [],
+      "definition": "Etapa em que agentes arrecadadores entregam à tesouraria os valores previamente arrecadados, observada a unidade de caixa aplicável.",
+      "contrast": "Arrecadação é recebimento pelo agente autorizado; recolhimento é ingresso na tesouraria, ainda que sistemas aproximem os atos.",
+      "cebraspeTrap": "Tratar previsão e arrecadação como sinônimos de recolhimento ou exigir intervalo temporal entre atos.",
+      "example": "Banco recebe tributo e transfere o valor ao caixa do Tesouro: a transferência caracteriza o recolhimento.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-dotacao-orcamentaria",
+      "term": "Dotação orçamentária",
+      "aliases": [],
+      "definition": "Valor de autorização para determinada programação de despesa fixado na lei orçamentária ou modificado por créditos adicionais, sujeito aos limites e controles de execução.",
+      "contrast": "Dotação é autorização orçamentária; empenho compromete crédito e pagamento depende de execução e caixa.",
+      "cebraspeTrap": "Concluir que dotação autorizada significa dinheiro já transferido ao fornecedor ou disponível para pagamento imediato.",
+      "example": "A lei reserva recursos a um laboratório, mas nenhuma compra foi ainda empenhada.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-empenho-ordinario",
+      "term": "Empenho ordinário",
+      "aliases": [],
+      "definition": "Modalidade de empenho adequada, em regra, a despesa de valor previamente determinado com pagamento de uma só vez, segundo o regime de execução aplicável.",
+      "contrast": "Ordinário diferencia-se de global, usado em certos compromissos parcelados, e de estimativo, quando o total não é previamente determinável.",
+      "cebraspeTrap": "Classificar contrato de execução parcelada de valor conhecido como estimativo apenas pela existência de parcelas.",
+      "example": "Compra pontual de móveis por valor conhecido e pagamento único pode utilizar empenho ordinário.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-empenho-global",
+      "term": "Empenho global",
+      "aliases": [],
+      "definition": "Modalidade de empenho destinada a despesa contratual ou outra de montante determinado, sujeita a parcelamento durante a execução.",
+      "contrast": "Global pressupõe valor total determinado e pagamento parcelado; estimativo é usado quando não se conhece previamente o total.",
+      "cebraspeTrap": "Dizer que qualquer pagamento mensal exige empenho estimativo mesmo quando o valor global do compromisso é conhecido.",
+      "example": "Um contrato com valor anual fixo e execução mensal pode ser empenhado globalmente.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-empenho-por-estimativa",
+      "term": "Empenho por estimativa",
+      "aliases": [],
+      "definition": "Modalidade de empenho utilizada quando não é possível determinar previamente o montante da despesa, exigindo acompanhamento e ajustes na execução.",
+      "contrast": "Estimativo depende da indeterminação do valor total, não da mera existência de várias parcelas de pagamento.",
+      "cebraspeTrap": "Tratar todo contrato de serviço mensal como estimativo, embora exista valor contratual total determinado.",
+      "example": "A conta de eletricidade de consumo variável ao longo do ano pode ser empenhada por estimativa.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-nota-de-empenho",
+      "term": "Nota de empenho",
+      "aliases": [],
+      "definition": "Documento utilizado para formalizar e registrar os dados do empenho, como credor, dotação, objeto e valor, nas condições definidas pela legislação e pelos sistemas de execução.",
+      "contrast": "Nota de empenho documenta o ato; o ato de empenhar é a obrigação orçamentária criada pela autoridade competente.",
+      "cebraspeTrap": "Afirmar que a emissão do documento prova a entrega do bem ou a liquidação da despesa.",
+      "example": "A unidade registra nota de empenho para aquisição, mas o fornecedor ainda não entregou os equipamentos.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-ordem-de-pagamento",
+      "term": "Ordem de pagamento",
+      "aliases": [],
+      "definition": "Despacho ou determinação da autoridade competente para pagar despesa regularmente liquidada, como parte do processamento e da autorização do desembolso.",
+      "contrast": "Ordem de pagamento pressupõe verificação da liquidação; não substitui o efetivo pagamento ao credor.",
+      "cebraspeTrap": "Equiparar assinatura da ordem de pagamento ao comprovante de transferência financeira já realizada.",
+      "example": "Depois de verificar bens e credor, a autoridade emite a ordem para a tesouraria processar o pagamento.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-restos-a-pagar-nao-processados-a-liquidar",
+      "term": "Restos a pagar não processados a liquidar",
+      "aliases": [
+        "RPNP a liquidar"
+      ],
+      "definition": "Despesas empenhadas e não pagas ao encerramento, cuja liquidação não se iniciou porque o fato gerador da obrigação patrimonial ainda não ocorreu, conforme o regime contábil aplicável.",
+      "contrast": "A liquidar difere de em liquidação, situação em que ocorreu o fato gerador, mas a verificação formal ainda não terminou.",
+      "cebraspeTrap": "Afirmar que todo resto a pagar não processado indica serviço já prestado e pendência meramente documental.",
+      "example": "Empenho de serviço que não foi prestado até 31 de dezembro pode permanecer a liquidar se a inscrição for válida.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-6e4e79c7f4bb4aa3"
+      ],
+      "sources": [
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-restos-a-pagar-nao-processados-em-liquidacao",
+      "term": "Restos a pagar não processados em liquidação",
+      "aliases": [
+        "RPNP em liquidação"
+      ],
+      "definition": "Despesas empenhadas e não pagas cujo fato gerador ocorreu até o encerramento, embora a liquidação administrativa ainda esteja pendente.",
+      "contrast": "Em liquidação permanece não processado até a conclusão da liquidação, mas pode haver passivo patrimonial pelo serviço prestado.",
+      "cebraspeTrap": "Classificar como resto processado um serviço executado que ainda não teve direito do credor formalmente liquidado.",
+      "example": "Serviço realizado em dezembro e atestado apenas em janeiro pode exigir registro em liquidação.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-6e4e79c7f4bb4aa3"
+      ],
+      "sources": [
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-suprimento-de-fundos",
+      "term": "Suprimento de fundos",
+      "aliases": [
+        "Regime de adiantamento"
+      ],
+      "definition": "Regime excepcional de adiantamento de recursos a servidor, precedido de empenho em dotação própria, para despesas que não possam seguir o processamento normal e sujeitas à prestação de contas.",
+      "contrast": "Suprimento não dispensa empenho nem prestação de contas; não se confunde com DEA ou restos a pagar.",
+      "cebraspeTrap": "Admitir adiantamento a servidor em alcance ou responsável por dois adiantamentos, contrariando o art. 69.",
+      "example": "Servidor recebe numerário para pequena despesa urgente, realiza a compra e presta contas dos comprovantes.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-6e4e79c7f4bb4aa3"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Decreto nº 93.872/1986",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm"
+        },
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-superavit-financeiro",
+      "term": "Superávit financeiro",
+      "aliases": [],
+      "definition": "Diferença positiva entre ativo financeiro e passivo financeiro apurada no balanço patrimonial do exercício anterior, com ajustes exigidos pelo art. 43 da Lei nº 4.320/1964.",
+      "contrast": "É possível fonte para créditos adicionais e difere do excesso de arrecadação do exercício e do resultado primário.",
+      "cebraspeTrap": "Tratar superávit primário do ano corrente como comprovação automática de superávit financeiro disponível para crédito.",
+      "example": "O balanço do exercício anterior indica saldo financeiro positivo ajustado, que pode servir de recurso para crédito.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-excesso-de-arrecadacao",
+      "term": "Excesso de arrecadação",
+      "aliases": [],
+      "definition": "Recurso que pode fundamentar créditos adicionais quando a arrecadação acumulada do exercício supera a previsão para o período, considerando a tendência do exercício e os ajustes legais.",
+      "contrast": "Excesso de arrecadação observa fluxo de receitas no exercício atual; superávit financeiro é saldo do balanço anterior.",
+      "cebraspeTrap": "Concluir que arrecadação maior em um único mês prova excesso anual livre para abrir crédito.",
+      "example": "A receita efetiva acumulada ultrapassa a previsão e a tendência do exercício confirma excesso na forma legal.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP 11ª edição, Tesouro Nacional",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-anulacao-de-dotacao",
+      "term": "Anulação de dotação",
+      "aliases": [
+        "Cancelamento de dotação"
+      ],
+      "definition": "Cancelamento parcial ou total de uma autorização orçamentária disponível, na forma legal, que pode ser usado como fonte para abertura de créditos suplementares ou especiais.",
+      "contrast": "Anulação redistribui autorização e não cria dinheiro em caixa; também é distinta de contingenciamento, que restringe execução.",
+      "cebraspeTrap": "Afirmar que a anulação de crédito gera receita financeira nova ou equivale ao pagamento da despesa cancelada.",
+      "example": "O órgão reduz dotação não comprometida para reforçar outra programação mediante crédito adicional.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-reabertura-de-creditos-especiais-e-extraordinarios",
+      "term": "Reabertura de créditos especiais e extraordinários",
+      "aliases": [],
+      "definition": "Possibilidade constitucional de reabrir no exercício seguinte, dentro dos saldos, créditos especiais e extraordinários autorizados nos últimos quatro meses do exercício anterior.",
+      "contrast": "A exceção não alcança créditos suplementares e não autoriza reabrir integralmente créditos sem saldo disponível.",
+      "cebraspeTrap": "Afirmar que todo crédito adicional pode ser reaberto independentemente da data de autorização.",
+      "example": "Crédito especial autorizado em novembro pode ser reaberto no exercício seguinte apenas até seu saldo.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-emenda-parlamentar-individual",
+      "term": "Emenda parlamentar individual",
+      "aliases": [],
+      "definition": "Proposta de alteração da programação orçamentária de autoria de parlamentar individual, sujeita aos requisitos constitucionais e legais e, nas hipóteses pertinentes, a garantia condicionada de execução.",
+      "contrast": "Autoria individual difere de emenda de bancada ou comissão; execução impositiva não afasta impedimentos técnicos.",
+      "cebraspeTrap": "Presumir que toda emenda aprovada precisa ser paga integralmente sem verificar requisitos de execução.",
+      "example": "Uma deputada propõe dotação individual para unidade de saúde, com execução sujeita às condições legais.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Lei Complementar nº 210/2024",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-emenda-parlamentar-de-bancada",
+      "term": "Emenda parlamentar de bancada",
+      "aliases": [],
+      "definition": "Proposição orçamentária apresentada por bancada estadual ou do Distrito Federal segundo requisitos de atuação conjunta e parâmetros legais de seleção e destinação.",
+      "contrast": "Bancada corresponde a autoria coletiva territorial; comissão possui outra organização e regras de execução.",
+      "cebraspeTrap": "Transferir para emenda de bancada o mesmo percentual e a mesma regra temporal de emenda individual sem examinar a Constituição.",
+      "example": "Bancada de um estado propõe uma ação estruturante de atendimento regional.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Lei Complementar nº 210/2024",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-emenda-parlamentar-de-comissao",
+      "term": "Emenda parlamentar de comissão",
+      "aliases": [],
+      "definition": "Proposição orçamentária realizada por comissão parlamentar conforme regras regimentais e legais, com requisitos próprios de finalidade, transparência e acompanhamento.",
+      "contrast": "Emenda de comissão não adquire automaticamente a mesma garantia constitucional de execução das individuais e de bancada.",
+      "cebraspeTrap": "Afirmar que qualquer emenda de comissão é constitucionalmente impositiva nos mesmos termos das individuais.",
+      "example": "Comissão apresenta programação para projeto de interesse setorial, observadas as exigências de execução.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Lei Complementar nº 210/2024",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-emenda-parlamentar-impositiva",
+      "term": "Emenda parlamentar impositiva",
+      "aliases": [],
+      "definition": "Programação orçamentária decorrente de emendas individuais ou de bancada sujeita à garantia constitucional de execução orçamentária e financeira, condicionada às regras e exceções pertinentes.",
+      "contrast": "Execução obrigatória não é pagamento imediato nem supera impedimentos de ordem técnica legalmente demonstrados.",
+      "cebraspeTrap": "Afirmar que a impositividade permite executar gasto sem projeto necessário, controle ou transparência.",
+      "example": "Uma emenda individual deve observar critérios técnicos de viabilidade e prestação de contas antes da execução.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167 e 166-A",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "LC nº 210/2024: emendas parlamentares",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm"
+        },
+        {
+          "label": "CGU: orientações de controle de emendas",
+          "url": "https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/relatorio-de-emendas/emendas-de-bancada-de-comissoes-e-individuais"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-transferencia-especial-emenda-parlamentar",
+      "term": "Transferência especial (emenda parlamentar)",
+      "aliases": [],
+      "definition": "Modalidade do art. 166-A da Constituição em que recursos de emenda individual são transferidos diretamente ao ente beneficiário, sem convênio, com condições de aplicação e controle.",
+      "contrast": "Transferência especial não é crédito adicional especial nem transferência livre de fiscalização; parte mínima deve financiar despesa de capital.",
+      "cebraspeTrap": "Afirmar que ausência de convênio dispensa rastreabilidade ou permite destinar recursos a pessoal e serviço da dívida.",
+      "example": "Município recebe transferência especial, aplica ao menos 70% em despesas de capital e presta as informações exigidas.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167 e 166-A",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "LC nº 210/2024: emendas parlamentares",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-transferencia-com-finalidade-definida-emenda-parlamentar",
+      "term": "Transferência com finalidade definida (emenda parlamentar)",
+      "aliases": [],
+      "definition": "Modalidade de transferência decorrente de emenda parlamentar vinculada à programação nela estabelecida e à finalidade constitucionalmente permitida, observados os instrumentos e controles pertinentes.",
+      "contrast": "Na transferência especial o ente recebe diretamente com regras gerais; a finalidade definida vincula a destinação à programação da emenda.",
+      "cebraspeTrap": "Equiparar transferência com finalidade definida à transferência especial e presumir ausência de instrumentos e controles.",
+      "example": "Uma emenda determina financiamento de ação específica de saúde, com aplicação vinculada ao objeto previsto.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167 e 166-A",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "LC nº 210/2024: emendas parlamentares",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-impedimento-tecnico-de-emenda-parlamentar",
+      "term": "Impedimento técnico de emenda parlamentar",
+      "aliases": [],
+      "definition": "Obstáculo objetivo de natureza técnica ou legal que inviabiliza a execução obrigatória de uma emenda nas hipóteses reconhecidas pelas normas, exigindo motivação e documentação.",
+      "contrast": "Impedimento técnico difere de mera escolha política de não executar; a impositividade possui exceções legalmente justificadas.",
+      "cebraspeTrap": "Tratar conveniência orçamentária genérica como prova suficiente de impedimento técnico sem documentação.",
+      "example": "Projeto de engenharia indispensável não apresentado pode impedir, justificadamente, a execução de determinada obra.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167 e 166-A",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "LC nº 210/2024: emendas parlamentares",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm"
+        },
+        {
+          "label": "CGU: orientações de controle de emendas",
+          "url": "https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/relatorio-de-emendas/emendas-de-bancada-de-comissoes-e-individuais"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-rreo-relatorio-resumido-da-execucao-orcamentaria",
+      "term": "RREO: Relatório Resumido da Execução Orçamentária",
+      "aliases": [
+        "RREO",
+        "Relatório Resumido da Execução Orçamentária"
+      ],
+      "definition": "Relatório da execução orçamentária divulgado a cada bimestre, até trinta dias após seu encerramento, com receitas, despesas e outros demonstrativos legais.",
+      "contrast": "RREO acompanha execução orçamentária bimestral; RGF acompanha limites e responsabilidades fiscais em período próprio.",
+      "cebraspeTrap": "Confundir a periodicidade bimestral do RREO com a regra quadrimestral do RGF.",
+      "example": "Depois de cada bimestre, o ente apresenta o demonstrativo de execução do orçamento.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "Lei de Responsabilidade Fiscal, arts. 52 e 53",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-rgf-relatorio-de-gestao-fiscal",
+      "term": "RGF: Relatório de Gestão Fiscal",
+      "aliases": [
+        "RGF",
+        "Relatório de Gestão Fiscal"
+      ],
+      "definition": "Relatório dos titulares de Poderes e órgãos abrangidos pela LRF que apresenta limites e informações fiscais, publicado em regra a cada quadrimestre.",
+      "contrast": "RGF acompanha limites de pessoal e dívida; RREO acompanha execução do orçamento bimestralmente.",
+      "cebraspeTrap": "Afirmar que todo município publica RGF necessariamente de dois em dois meses.",
+      "example": "Um órgão apresenta seus limites de pessoal e situação de caixa em relatório de gestão fiscal.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "LRF, arts. 54 e 55",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-anexo-de-metas-fiscais",
+      "term": "Anexo de Metas Fiscais",
+      "aliases": [
+        "AMF"
+      ],
+      "definition": "Anexo da Lei de Diretrizes Orçamentárias que reúne metas e demonstrativos fiscais exigidos pela Lei de Responsabilidade Fiscal para orientar planejamento e controle.",
+      "contrast": "Metas estabelecem parâmetros e resultados fiscais; riscos tratam de contingências e providências a adotar.",
+      "cebraspeTrap": "Tratar o anexo de metas como uma relação de despesas já pagas no exercício.",
+      "example": "A LDO estabelece metas anuais de resultado para orientar orçamento e execução.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "LRF, art. 4º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-anexo-de-riscos-fiscais",
+      "term": "Anexo de Riscos Fiscais",
+      "aliases": [
+        "ARF"
+      ],
+      "definition": "Anexo da LDO que avalia passivos contingentes e outros riscos capazes de afetar as contas públicas, indicando medidas previstas para enfrentá-los.",
+      "contrast": "Riscos fiscais são exposições a acontecimentos; metas fiscais são parâmetros e resultados pretendidos.",
+      "cebraspeTrap": "Tratar toda contingência identificada no anexo como dívida já liquidada e paga.",
+      "example": "A LDO apresenta riscos associados a ações judiciais e medidas fiscais possíveis.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "LRF, art. 4º, § 3º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-limite-prudencial-de-despesa-com-pessoal",
+      "term": "Limite prudencial de despesa com pessoal",
+      "aliases": [],
+      "definition": "Patamar de 95% do limite legal próprio de pessoal do Poder ou órgão, cuja ultrapassagem acarreta vedações previstas na Lei de Responsabilidade Fiscal.",
+      "contrast": "95% recai sobre o limite próprio, não sobre toda a Receita Corrente Líquida; o patamar de alerta é 90% desse limite.",
+      "cebraspeTrap": "Calcular o prudencial como 95% da RCL quando o órgão possui limite próprio de 6% da RCL.",
+      "example": "Se o limite próprio é 6% da RCL, o patamar prudencial é de 5,7% da RCL.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "LRF, art. 22",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-limite-de-alerta-de-despesa-com-pessoal",
+      "term": "Limite de alerta de despesa com pessoal",
+      "aliases": [],
+      "definition": "Patamar de 90% do limite legal de despesa com pessoal que motiva alerta do tribunal de contas nos termos do controle preventivo da gestão fiscal.",
+      "contrast": "Alerta de 90%, prudencial de 95% e máximo de 100% são percentuais aplicados ao limite próprio, mas produzem efeitos distintos.",
+      "cebraspeTrap": "Atribuir ao alerta de 90% todas as vedações previstas para ultrapassagem do limite prudencial.",
+      "example": "O órgão atinge 90% do próprio limite e a situação demanda alerta do tribunal de contas.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "LRF, art. 59, § 1º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

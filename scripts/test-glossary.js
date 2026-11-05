@@ -9,12 +9,12 @@ const root = fileURLToPath(new URL('..', import.meta.url));
 const published = JSON.parse(fs.readFileSync(path.join(root, '_site/glossario-index.json'), 'utf8'));
 const home = fs.readFileSync(path.join(root, '_site/index.html'), 'utf8');
 assert.equal(published.schemaVersion, 1);
-assert(published.plannedCount >= 258, 'Backlog expandido deve preservar 200 termos iniciais e 58 conceitos adicionais');
-assert(published.publishedCount >= 143, 'Glossário deve preservar as 85 definições anteriores e mais 58 de orçamento');
+assert(published.plannedCount >= 288, 'Backlog deve preservar os 200 iniciais e as duas expansões de Orçamento');
+assert(published.publishedCount >= 173, 'Glossário deve preservar as 143 definições anteriores e mais 30 de orçamento');
 assert.equal(published.terms.length, published.publishedCount);
 assert.equal(new Set(published.terms.map(x => x.id)).size, published.publishedCount);
 assert(published.subjects.length >= 3);
-for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',83],['contabilidade-publica',25]]) {
+for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',113],['contabilidade-publica',25]]) {
   assert(published.terms.filter(t => t.subjectIds.includes(subject)).length >= minimo, subject + ': termo faltante');
 }
 assert(published.terms.every(t => t.status === 'reviewed' && t.sources.length > 0 && t.sources.every(s => /^https:\/\//.test(s.url))));
@@ -52,8 +52,10 @@ assert(programacaoFisica.articleLinks.some(a => a.articleId === 'art-f6cfe9fbcc7
 assert(match('', 'P3').length >= 108);
 assert(match('', 'P2').length >= 35);
 assert(match('', '', 'auditoria-governamental').length >= 35);
-assert(match('', '', 'orcamento-publico').length >= 83);
+assert(match('', '', 'orcamento-publico').length >= 113);
 const idsOrcamento = published.terms.filter(t=>t.subjectIds.includes('orcamento-publico')).map(t=>t.id);
 assert.equal(new Set(idsOrcamento).size, idsOrcamento.length, 'IDs de orçamento duplicados');
+for(const [q,id] of [['GND','glo-grupo-de-natureza-da-despesa-gnd'],['empenho global','glo-empenho-global'],['superavit financeiro','glo-superavit-financeiro'],['RREO','glo-rreo-relatorio-resumido-da-execucao-orcamentaria'],['AMF','glo-anexo-de-metas-fiscais'],['suprimento de fundos','glo-suprimento-de-fundos']]) assert(match(q).some(t=>t.id===id),'Termo não encontrado: '+q);
+assert(fs.existsSync(path.join(root,'data/glossario/termos/orcamento-publico-complementos.json')));
 assert(match('sem termo impossível').length === 0);
-console.log('SUCESSO: ao menos 143 definições, incluindo 83 de orçamento, com fontes, filtros, aliases e links íntegros.');
+console.log('SUCESSO: ao menos 173 definições, incluindo 113 de orçamento, com fontes, filtros, aliases e links íntegros.');

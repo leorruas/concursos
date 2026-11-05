@@ -20,7 +20,7 @@
     {
       "subjectId": "orcamento-publico",
       "label": "Orçamento Público",
-      "count": 83,
+      "count": 113,
       "examBlock": "P3",
       "editorialPriority": "A"
     },
@@ -2433,6 +2433,276 @@
     {
       "id": "glo-receita-corrente-liquida-rcl",
       "term": "Receita Corrente Líquida (RCL)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-efetiva",
+      "term": "Receita efetiva",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-receita-nao-efetiva",
+      "term": "Receita não efetiva",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-lancamento-da-receita",
+      "term": "Lançamento da receita",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-recolhimento-da-receita",
+      "term": "Recolhimento da receita",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-dotacao-orcamentaria",
+      "term": "Dotação orçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-empenho-ordinario",
+      "term": "Empenho ordinário",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-empenho-global",
+      "term": "Empenho global",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-empenho-por-estimativa",
+      "term": "Empenho por estimativa",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-nota-de-empenho",
+      "term": "Nota de empenho",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ordem-de-pagamento",
+      "term": "Ordem de pagamento",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-restos-a-pagar-nao-processados-a-liquidar",
+      "term": "Restos a pagar não processados a liquidar",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-restos-a-pagar-nao-processados-em-liquidacao",
+      "term": "Restos a pagar não processados em liquidação",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-suprimento-de-fundos",
+      "term": "Suprimento de fundos",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-superavit-financeiro",
+      "term": "Superávit financeiro",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-excesso-de-arrecadacao",
+      "term": "Excesso de arrecadação",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-anulacao-de-dotacao",
+      "term": "Anulação de dotação",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-reabertura-de-creditos-especiais-e-extraordinarios",
+      "term": "Reabertura de créditos especiais e extraordinários",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-emenda-parlamentar-individual",
+      "term": "Emenda parlamentar individual",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-emenda-parlamentar-de-bancada",
+      "term": "Emenda parlamentar de bancada",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-emenda-parlamentar-de-comissao",
+      "term": "Emenda parlamentar de comissão",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-emenda-parlamentar-impositiva",
+      "term": "Emenda parlamentar impositiva",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-transferencia-especial-emenda-parlamentar",
+      "term": "Transferência especial (emenda parlamentar)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-transferencia-com-finalidade-definida-emenda-parlamentar",
+      "term": "Transferência com finalidade definida (emenda parlamentar)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-impedimento-tecnico-de-emenda-parlamentar",
+      "term": "Impedimento técnico de emenda parlamentar",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-rreo-relatorio-resumido-da-execucao-orcamentaria",
+      "term": "RREO: Relatório Resumido da Execução Orçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-rgf-relatorio-de-gestao-fiscal",
+      "term": "RGF: Relatório de Gestão Fiscal",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-anexo-de-metas-fiscais",
+      "term": "Anexo de Metas Fiscais",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-anexo-de-riscos-fiscais",
+      "term": "Anexo de Riscos Fiscais",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-limite-prudencial-de-despesa-com-pessoal",
+      "term": "Limite prudencial de despesa com pessoal",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-limite-de-alerta-de-despesa-com-pessoal",
+      "term": "Limite de alerta de despesa com pessoal",
       "subjectId": "orcamento-publico",
       "examBlock": "P3",
       "editorialPriority": "A",

@@ -3,7 +3,7 @@ title: "Câmara 2026 — O que estudar — Divulgação Institucional"
 type: "guia"
 status: "ativo"
 created: 2026-10-02
-updated: 2026-10-03
+updated: 2026-11-05
 ---
 
 # Câmara 2026 — O que estudar — Divulgação Institucional
@@ -11,6 +11,8 @@ updated: 2026-10-03
 Checklist orientado pelo Edital nº 1/2026 da Câmara dos Deputados para o Cargo 1 — Analista Legislativo — Comunicação Social — Divulgação Institucional.
 
 Este documento mede **cobertura do vault**, não domínio do candidato.
+
+**Planejamento conceitual vigente:** [[1 - Planejamento/Camara 2026 - Arquitetura conceitual e plano de artigos|Câmara 2026: trilhas conceituais e implementação por fases]]. O roteiro detalha 13 trilhas, conceitos e pré-requisitos por artigo, distinções entre escolas e autores e execução em fases. O checklist abaixo é um diagnóstico inicial, criado em outubro, e pode estar desatualizado quanto aos artigos já publicados. Em 05/11/2026, a trilha de Teorias da Comunicação possui os artigos **TC-001 a TC-009** no catálogo da Câmara, com publicação técnica confirmada; o estudo e a retenção são registrados separadamente.
 
 Corpus operacional de questões: [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Provas anteriores e padrão Cebraspe]]. Fluxo de treino: [[4 - Projetos/camara-2026/Questoes e Simulados|Questões e simulados - Câmara 2026]].
 

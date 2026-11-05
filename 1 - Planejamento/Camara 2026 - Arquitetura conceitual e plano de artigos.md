@@ -252,9 +252,9 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-TC-004 · F1**: Lasswell: perguntas e análise dos efeitos da comunicação.
 - [x] **CAM-TC-005 · F1**: Shannon e Weaver: informação, ruído e limites do modelo.
 - [x] **CAM-TC-006 · F2**: Jakobson: funções da linguagem e fatores da comunicação.
-- [ ] **CAM-TC-007 · F2**: Modelos lineares, circulares e interacionais: critérios.
-- [ ] **CAM-TC-008 · F2**: Escola de Chicago: comunicação, interação e sociedade.
-- [ ] **CAM-TC-009 · F2**: Pesquisa administrativa e mass communication research.
+- [x] **CAM-TC-007 · F2**: Modelos lineares, circulares e interacionais: critérios.
+- [x] **CAM-TC-008 · F2**: Escola de Chicago: comunicação, interação e sociedade.
+- [x] **CAM-TC-009 · F2**: Pesquisa administrativa e mass communication research.
 - [ ] **CAM-TC-010 · F2**: Lazarsfeld e o fluxo em duas etapas da comunicação.
 - [ ] **CAM-TC-011 · F2**: Agenda-setting: saliência e limites da influência.
 - [ ] **CAM-TC-012 · F2**: Framing: enquadramento e disputa de interpretação.
@@ -441,11 +441,11 @@ Este lote passou no build, na verificação de identidade, no catálogo de maté
 
 ## Lote 3: modelos interacionais, Chicago e pesquisa de massa
 
-Artigos redigidos e incorporados ao hub, índice e catálogo de Comunicação para a Câmara. A criação no repositório não prova publicação ao vivo nem aprendizagem real.
+Artigos completos incorporados ao hub, índice e catálogo de Comunicação para a Câmara. Build, testes de identidade, filtros e publicação no Pages ao vivo confirmados no [workflow 42124594967](https://github.com/leorruas/concursos/actions/runs/42124594967), com resultado **success** em 05/11/2026. Isso valida a publicação editorial, sem implicar estudo real ou retenção.
 
-- [ ] **CAM-TC-007 · publicação pendente**: [[3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao|Modelos lineares, circulares e transacionais da comunicação]] (`art-943fb6a178d205ec`).
-- [ ] **CAM-TC-008 · publicação pendente**: [[3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade|Escola de Chicago: comunicação, interação, cidade e públicos]] (`art-1b7f38ad90c2e546`).
-- [ ] **CAM-TC-009 · publicação pendente**: [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|Mass communication research: pesquisa administrativa e efeitos]] (`art-6ac943e2b817d05f`).
+- [x] **CAM-TC-007 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao|Modelos lineares, circulares e transacionais da comunicação]] (`art-943fb6a178d205ec`).
+- [x] **CAM-TC-008 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade|Escola de Chicago: comunicação, interação, cidade e públicos]] (`art-1b7f38ad90c2e546`).
+- [x] **CAM-TC-009 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|Mass communication research: pesquisa administrativa e efeitos]] (`art-6ac943e2b817d05f`).
 
 Este lote também corrige uma omissão no índice geral: os artigos TC-003 a TC-006 estavam vinculados ao catálogo mas não listados explicitamente em `index.md`. Próximo objeto: **CAM-TC-010, Lazarsfeld e o fluxo em duas etapas**.
 

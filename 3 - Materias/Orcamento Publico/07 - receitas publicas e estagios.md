@@ -5,7 +5,7 @@ title: "Receitas públicas: ingressos e estágios da execução"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 aliases:
   - "Receita orçamentária"
   - "Receita extraorçamentária"
@@ -37,9 +37,18 @@ A **Lei nº 4.320/1964, art. 57**, admite **receita orçamentária arrecadada ai
 
 ### Operações de crédito × antecipação de receita (ARO)
 
-**Operação de crédito comum** é receita **orçamentária de capital**, em regra. **Operação de Crédito por Antecipação de Receita Orçamentária (ARO)** é tratada como **ingresso extraorçamentário** pela Lei nº 4.320/1964, art. 3º, parágrafo único.
+**Operação de crédito** significa que o ente público obtém dinheiro mediante uma dívida a ser paga posteriormente. O tratamento orçamentário depende da **espécie de operação** e da **finalidade do ingresso**:
 
-A semelhança econômica entre os dois empréstimos não permite atribuir a ambos a mesma categoria orçamentária. A ARO supre necessidade temporária de caixa, com regime jurídico próprio.
+- **Operação de crédito comum:** empréstimo ou financiamento que proporciona recursos para financiar despesas públicas, por exemplo, a construção de um laboratório ao longo de mais de um exercício. Em regra, o dinheiro recebido é **receita orçamentária de capital**, na origem *Operações de Crédito*. A obrigação de devolver o valor continua existindo: classificar como receita orçamentária não significa que o empréstimo seja ganho patrimonial.
+- **Operação de Crédito por Antecipação de Receita Orçamentária (ARO):** empréstimo de **curto prazo** para cobrir **insuficiência temporária de caixa dentro do exercício financeiro**, enquanto o ente aguarda receitas que serão arrecadadas. Seu ingresso é **extraorçamentário**: a Lei nº 4.320/1964, art. 3º, parágrafo único, exclui expressamente a ARO das receitas abrangidas pela LOA, e o MCASP a trata como entrada compensatória, que **não representa nova receita orçamentária**.
+
+**Exemplo com datas:** uma prefeitura prevê arrecadar R$ 2 milhões em tributos em setembro, mas precisa realizar pagamentos legalmente autorizados em julho e não dispõe, naquele momento, de caixa suficiente. Se contratar uma ARO de R$ 500 mil para atravessar essa falta temporária de dinheiro, a entrada do empréstimo **não será registrada como receita orçamentária de capital**. Quando os tributos forem efetivamente arrecadados em setembro, a arrecadação será registrada segundo a **natureza orçamentária dos tributos**, separadamente do empréstimo. A prefeitura terá de quitar a ARO no prazo legal. O exemplo pressupõe o cumprimento das condições para contratar a operação.
+
+**Por que a diferença importa?** Na operação comum, o empréstimo financia despesas e integra a execução da receita orçamentária. Na ARO, o ente **antecipa disponibilidade de caixa**, com obrigação de devolver o dinheiro no mesmo exercício. A devolução do principal da ARO constitui, no tratamento do MCASP, **desembolso extraorçamentário**. A autorização para contratar uma ARO pode constar da **Lei Orçamentária Anual (LOA)** (Lei nº 4.320/1964, art. 7º, II), mas **autorizar a operação na LOA não transforma seu ingresso em receita orçamentária**. São questões distintas.
+
+**Regras específicas da ARO (LRF, art. 38):** a contratação só pode ocorrer **a partir do 10º dia do início do exercício**; a operação deve ser liquidada, **com juros e outros encargos, até 10 de dezembro** do mesmo ano; é proibida enquanto houver ARO anterior da mesma natureza não integralmente quitada e **no último ano de mandato** do Presidente, Governador ou Prefeito. A contratação também depende das demais condições legais aplicáveis, inclusive das exigências do art. 32 da LRF.
+
+**Tensões de prova:** a expressão *operação de crédito* não basta para concluir que todo empréstimo público gera receita de capital; a ARO é a exceção clássica. **A falta de previsão na LOA**, por si só, também não caracteriza ingresso extraorçamentário: uma receita orçamentária pode ser arrecadada sem previsão inicial (Lei nº 4.320/1964, art. 57). Para classificar, identifique se o enunciado descreve **financiamento público comum**, **cobertura temporária de caixa por ARO** ou **arrecadação da receita esperada**: são fatos diferentes.
 
 ### Receita efetiva × não efetiva: classificação patrimonial
 

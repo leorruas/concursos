@@ -2299,7 +2299,9 @@
             "P3.4.3"
           ],
           "noteRefs": [
-            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos"
+            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos",
+            "3 - Materias/Contratacoes e Transferencias/01 - modalidades e regimes de transferencias da uniao",
+            "3 - Materias/Contratacoes e Transferencias/02 - convenios contratos de repasse e plano de trabalho"
           ],
           "requires": [
             "up3-4-2"
@@ -2372,7 +2374,8 @@
           "noteRefs": [
             "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
-            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Integridade e Responsabilizacao/01 - funcoes da cgu e respostas de controle"
           ],
           "requires": [],
           "sourceIds": [
@@ -2390,7 +2393,8 @@
           "noteRefs": [
             "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
-            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Integridade e Responsabilizacao/02 - denuncia e protecao ao denunciante"
           ],
           "requires": [
             "up3-5-1"
@@ -2410,7 +2414,8 @@
           "noteRefs": [
             "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
-            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Integridade e Responsabilizacao/02 - denuncia e protecao ao denunciante"
           ],
           "requires": [
             "up3-5-2"

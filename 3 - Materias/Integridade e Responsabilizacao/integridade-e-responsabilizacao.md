@@ -5,7 +5,7 @@ title: "Integridade e responsabilização"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Integridade e responsabilização
@@ -16,13 +16,18 @@ Lei de Acesso à Informação (LAI), Lei Geral de Proteção de Dados Pessoais (
 
 **Prioridade pedagógica:** Intermediária (B), segundo o plano interno, não como classificação oficial de incidência na prova. **Escopo:** 7 unidades.
 
+## Artigos próprios
+
+- [[3 - Materias/Integridade e Responsabilizacao/01 - funcoes da cgu e respostas de controle|01. Funções da CGU e respostas de controle]]: auditoria, ouvidoria, correição, integridade e acesso.
+- [[3 - Materias/Integridade e Responsabilizacao/02 - denuncia e protecao ao denunciante|02. Denúncia e proteção ao denunciante]]: recebimento, identidade, encaminhamento e defesa.
+
 ## Planejamento das unidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
-| 01 | Respostas de controle: integração de ouvidoria, transparência, auditoria e correição; prevenção, correção e sanção. | Referências relacionadas; aprofundar para o recorte |
+| 01 | Respostas de controle: integração de ouvidoria, transparência, auditoria e correição; prevenção, correção e sanção. | Artigo 01 publicado; auditoria normativa complementar pendente |
 | 02 | Informação e serviços: LAI/LGPD, sigilos, participação, qualidade, barreiras e subnotificação. | Referências relacionadas; aprofundar para o recorte |
-| 03 | Denunciante: proteção de identidade, pseudonimização, não retaliação, assédio, contraditório e preservação de prova. | Referências relacionadas; aprofundar para o recorte |
+| 03 | Denunciante: proteção de identidade, pseudonimização, não retaliação, assédio, contraditório e preservação de prova. | Artigo 02 publicado; procedimentos específicos ainda pendentes |
 | 04 | Integridade: programas públicos/privados, maturidade, efetividade, conflitos de interesses, assédio e controles. | Referências relacionadas; aprofundar para o recorte |
 | 05 | Admissibilidade/responsabilidade: indícios, autoria, materialidade, elemento subjetivo, responsabilidade objetiva da pessoa jurídica, prova e defesa. | Referências relacionadas; aprofundar para o recorte |
 | 06 | Instrumentos: PAD, PAR, acordo de leniência, termo de ajustamento de conduta, prescrição, dosimetria, sanção × reparação. | Referências relacionadas; aprofundar para o recorte |

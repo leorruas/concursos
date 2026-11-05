@@ -3,7 +3,7 @@ title: "Contratações e transferências: plano de artigos e auditoria"
 type: "planejamento"
 status: "planejado"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Contratações e transferências: plano de artigos e auditoria
@@ -20,8 +20,8 @@ Preparar o tópico **P3.4** do [[2 - Editais/CGU 2026 - Auditoria|edital CGU 202
 
 | Ordem | Nota prevista em `3 - Materias/Contratacoes e Transferencias/` | Núcleo, fronteiras e possíveis distratores | Recorte / prioridade | Estado |
 | :--- | :--- | :--- | :--- | :--- |
-| 01 | `01 - modalidades e regimes de transferencias da uniao.md` | Transferência constitucional/legal, voluntária, especial, transferência em parceria; repasse × descentralização; recurso da União × responsabilidade pela execução | P3.4.3; **P0** | Planejada |
-| 02 | `02 - convenios contratos de repasse e plano de trabalho.md` | Concedente, convenente, mandatária, plano de trabalho, objeto, metas, contrapartida, condição de celebração e execução; convênio × contrato de repasse | P3.4.1 e 3; **P0** | Planejada |
+| 01 | `01 - modalidades e regimes de transferencias da uniao.md` | Transferência constitucional/legal, voluntária, especial, transferência em parceria; repasse × descentralização; recurso da União × responsabilidade pela execução | P3.4.3; **P0** | Publicada, com regimes especiais pendentes |
+| 02 | `02 - convenios contratos de repasse e plano de trabalho.md` | Concedente, convenente, mandatária, plano de trabalho, objeto, metas, contrapartida, condição de celebração e execução; convênio × contrato de repasse | P3.4.1 e 3; **P0** | Publicada, com detalhes normativos pendentes |
 | 03 | `03 - regime ordinario e simplificado de convenios.md` | Decreto nº 11.531/2023, Portaria Conjunta nº 33/2023 e Portaria Conjunta nº 28/2024; critérios de enquadramento, fases e controles | P3.4.3; **P1** | Planejada; conferir versão consolidada |
 | 04 | `04 - parcerias com organizacoes da sociedade civil.md` | Lei nº 13.019/2014: termo de colaboração, termo de fomento, acordo de cooperação; chamamento, execução, monitoramento e contas | P3.4.3; **P0** | Planejada |
 | 05 | `05 - transferencias especiais e emendas parlamentares.md` | CF art. 166-A, regime de transferências especiais × finalidade definida, rastreabilidade, relatório de gestão, controle e versões normativas | P3.4.3 e 4; **P1** | Planejada; alta volatilidade normativa |
@@ -30,6 +30,8 @@ Preparar o tópico **P3.4** do [[2 - Editais/CGU 2026 - Auditoria|edital CGU 202
 | 08 | `08 - riscos cruzamentos de dados e encaminhamentos em transferencias.md` | Fracionamento, fornecedores e vínculos, pagamentos sem entrega, evidência suficiente, nexo causal, dano × irregularidade × responsabilidade | P3.4.4 e 5; **P1** | Planejada |
 
 **P0 e P1 são prioridades editoriais**, não estimativas de frequência oficial de itens. Antes de criar cada arquivo, conferir se o conteúdo já foi consolidado em [[3 - Materias/Auditoria Governamental/achados-causas-e-indicios-de-fraude|Achados de auditoria]], [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao|Evidências]] ou [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|Execução e restos a pagar]]. Conectar por wikilink, sem duplicar a teoria.
+
+**Lote T1, publicado em 05/11/2026:** artigos 01 e 02 de transferências, com vínculo ao catálogo, hub, índice e plano por unidade. O recorte F10 iniciou sem ser concluído. Permanecem programados artigos 03–08 e a verificação das alterações normativas de 2026.
 
 ## Etapas e entregas
 

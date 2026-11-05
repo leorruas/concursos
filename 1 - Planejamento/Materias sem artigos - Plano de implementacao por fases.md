@@ -3,7 +3,7 @@ title: "Matérias sem artigos próprios: plano de implementação por fases"
 type: "planejamento"
 status: "planejado"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 scope: "multi-edital"
 ---
 
@@ -76,12 +76,14 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 **Reuso obrigatório antes de criar:** Direito Administrativo/07 e 09, Ética Pública 03–06, Auditoria Governamental/integração CGU; separar regimes e sujeitos.
 
-- [ ] **F12 · Funções da CGU e fluxo de respostas de controle**: U01: auditoria × ouvidoria × corregedoria × transparência, prevenção × correção × sanção.
-- [ ] **F13 · Tratamento de denúncias e proteção ao denunciante**: U02–U03: identidade, sigilo, pseudonimização, não retaliação, acolhimento × apuração × contraditório.
+- [x] **F12 · Funções da CGU e fluxo de respostas de controle**: U01: auditoria × ouvidoria × corregedoria × transparência, prevenção × correção × sanção.
+- [x] **F13 · Tratamento de denúncias e proteção ao denunciante**: U02–U03: identidade, sigilo, pseudonimização, não retaliação, acolhimento × apuração × contraditório.
 - [ ] **F14 · Programas de integridade públicos e privados**: U04: riscos, liderança, canais, desenho × implementação × efetividade; evitar duplicar Ética Pública.
 - [ ] **F15 · Admissibilidade, prova e regimes de responsabilidade**: U05: autoria, materialidade, elemento subjetivo, responsabilidade objetiva PJ, defesa e limites de inferência.
 - [ ] **F16 · PAD, PAR, leniência e instrumentos consensuais**: U06: competências, requisitos, efeitos, TAC, prescrição e fronteiras entre processos; conferir cada norma.
 - [ ] **F17 · Sanção, reparação e avaliação de resultados**: U06–U07: dosimetria, sanção × reparação, monitoramento, recorrência × detecção, eficácia das medidas.
+
+**Lote editorial registrado em 05/11/2026:** publicados os artigos 01 e 02 sobre transferências e convênios do plano T1 de Contratações, mais dois artigos de Integridade correspondentes a F12 e F13. F12 e F13 têm núcleo temático publicado, mas detalhes normativos exigem conferência. Em Contratações, F08 a F11 permanecem abertas: as notas 01–02 iniciam F10, porém não encerram regimes especiais, OSC, prestação de contas e encaminhamentos. A contagem de microfases pendentes anterior é um retrato histórico; as duas microfases F12 e F13 passam a constar como atendidas editorialmente. Nenhum estudo individual é inferido desta publicação.
 
 ## Onda 4: Finanças Públicas
 

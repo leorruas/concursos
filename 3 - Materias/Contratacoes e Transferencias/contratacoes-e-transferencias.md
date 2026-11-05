@@ -5,7 +5,7 @@ title: "Contratações e transferências"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Contratações e transferências
@@ -14,13 +14,18 @@ Planejamento e fiscalização de contratações, transferências, parcerias, tes
 
 **Prioridade pedagógica:** Intermediária (B), segundo o plano interno, não como classificação oficial de incidência na prova. **Escopo:** 5 unidades.
 
+## Artigos próprios
+
+- [[3 - Materias/Contratacoes e Transferencias/01 - modalidades e regimes de transferencias da uniao|01. Modalidades e regimes de transferências]]: fundamento do repasse, destinatário e tipos jurídicos.
+- [[3 - Materias/Contratacoes e Transferencias/02 - convenios contratos de repasse e plano de trabalho|02. Convênios, contratos de repasse e plano de trabalho]]: atores, execução e comprovação física/financeira.
+
 ## Planejamento das unidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
 | 01 | Planejamento da contratação: necessidade, estudos, preços, competição e riscos de direcionamento. | Referências relacionadas; aprofundar para o recorte |
 | 02 | Execução: fiscalização, medição, aceite, pagamentos, alterações, reequilíbrio e evidências. | Referências relacionadas; aprofundar para o recorte |
-| 03 | Transferências/parcerias: instrumentos, plano de trabalho, execução, prestação de contas e responsabilidades. | Referências relacionadas; aprofundar para o recorte |
+| 03 | Transferências/parcerias: instrumentos, plano de trabalho, execução, prestação de contas e responsabilidades. | Artigos 01–02 publicados; regimes específicos, execução e contas ainda pendentes |
 | 04 | Testes e irregularidades: fracionamento, fornecedores, vínculos, cruzamento de dados, testes documentais/físicos e seleção por risco. | Referências relacionadas; aprofundar para o recorte |
 | 05 | Encaminhamentos: demonstração de dano, recuperação, responsabilização e recomendações proporcionais. | Referências relacionadas; aprofundar para o recorte |
 

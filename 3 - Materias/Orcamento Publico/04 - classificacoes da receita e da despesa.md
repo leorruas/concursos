@@ -27,6 +27,25 @@ As classificações orçamentárias padronizam os registros e a apresentação d
 
 O **Manual Técnico de Orçamento (MTO)** é a referência da estrutura federal e o **Manual de Contabilidade Aplicada ao Setor Público (MCASP)** organiza procedimentos contábeis orçamentários do setor público. As tabelas de códigos dependem da versão do exercício. A ênfase desta nota é compreender os **critérios de classificação**, antes de memorizar códigos.
 
+## Método: perguntas antes das classificações
+
+O ponto de partida é reconhecer **a pergunta que cada conjunto de classificação responde**. Uma única operação pode receber respostas simultâneas, sem que uma classificação determine a outra.
+
+| Conjunto | Pergunta que responde | Exemplo na prefeitura |
+| :--- | :--- | :--- |
+| **Tratamento do ingresso** | O dinheiro integra a receita do orçamento? | Operação de crédito comum: sim; ARO: ingresso extraorçamentário |
+| **Natureza da receita** | Que operação gerou o ingresso? | IPTU: corrente, impostos; venda de terreno: capital, alienação |
+| **Fonte/destinação** | Quais regras controlam a aplicação do recurso? | A venda do terreno está sujeita às restrições legais de uso |
+| **Resultado primário** | O ingresso conta como receita primária? | IPTU: primária; empréstimo comum: financeira |
+| **Institucional da despesa** | Em qual órgão e unidade a dotação está alocada? | Secretaria de Educação e respectiva unidade orçamentária |
+| **Funcional da despesa** | Em qual área e segmento o gasto se insere? | Educação e Ensino Fundamental |
+| **Programática da despesa** | Qual ação governamental será realizada? | Projeto de ampliação da escola |
+| **Natureza da despesa** | Qual é o grupo, a forma de aplicação e o objeto do gasto? | Investimentos, aplicações diretas, obras e instalações |
+| **Esfera da LOA** | Em qual orçamento se encontra a despesa? | A obra de escola municipal integra o orçamento fiscal |
+| **Dimensões física e financeira** | O que será entregue e quanto foi autorizado? | Seis salas e dotação de R$ 1,5 milhão |
+
+**Como ler:** as linhas são lentes independentes. Dentro de uma lente, como a natureza da despesa, há uma hierarquia própria; *entre* lentes não existe hierarquia. O caso da prefeitura será reutilizado nas seções seguintes, variando uma condição por vez.
+
 ## Receita: categoria econômica e natureza
 
 ### Mapa visual: como classificar uma receita
@@ -141,6 +160,24 @@ Não é correto resolver automaticamente por equivalência:
 
 Essas proposições confundem **três dimensões diferentes**. Juros, financiamento e operações de capital precisam ser identificados pelas regras específicas do indicador. Consulte [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]] para o cálculo e a interpretação dos resultados fiscais.
 
+### Caso progressivo: a escola, a dívida e o resultado fiscal
+
+A prefeitura precisa construir uma escola. Se contrata um **empréstimo comum** para financiar a obra, registra **receita orçamentária de capital**, na origem operações de crédito. Se contrata uma **ARO** para cobrir falta temporária de caixa enquanto aguarda a arrecadação, tem **ingresso extraorçamentário**. O fato de ambos exigirem devolução não permite classificá-los igualmente.
+
+Agora altere a operação: o município **aluga** um imóvel de sua propriedade. O aluguel é **receita corrente patrimonial**; a receita também pode ser denominada **originária** na classificação doutrinária. Se **vende** o imóvel, registra **receita de capital por alienação de bens**. Nesse segundo caso, a natureza da entrada permanece a mesma ainda que o gestor pretenda usá-la indevidamente: a restrição à aplicação em despesa corrente, com a exceção legal de previdência, é matéria do **art. 44 da LRF**, observada na destinação dos recursos.
+
+Por fim, uma mesma receita pode ser **de capital e primária** (alienação de bem, em regra) ou **de capital e financeira** (operação de crédito comum). A receita de juros de aplicação financeira costuma ser **corrente e financeira**, enquanto o IPTU é **corrente e primária**. As duas duplas têm critérios próprios: corrente/capital é categoria econômica; primária/financeira diz respeito ao resultado fiscal.
+
+| Ingresso | Tratamento/natureza | Resultado primário, em regra |
+| :--- | :--- | :--- |
+| IPTU | Receita orçamentária corrente, impostos | Primária |
+| Aluguel de prédio público | Receita orçamentária corrente, patrimonial | Primária |
+| Venda de terreno | Receita orçamentária de capital, alienação de bens | Primária |
+| Empréstimo comum | Receita orçamentária de capital, operação de crédito | Financeira |
+| ARO para insuficiência temporária de caixa | Ingresso extraorçamentário | Não é receita orçamentária primária |
+
+Esse quadro é um **contraste entre critérios**, e não autorização para usar livremente os recursos. Para cada ingresso, conferir a fonte/destinação e as restrições legais efetivas.
+
 ## Despesa: perguntas qualitativas e quantitativas
 
 ### Mapa visual: cada classificação da despesa e suas opções
@@ -254,6 +291,14 @@ Há três tipos clássicos de ação:
 
 **Projeto não determina automaticamente GND Investimentos.** Tipo de ação e natureza do gasto são dimensões separadas. Também não se deve transformar “subfunção” em “programa”: uma indica área de atuação, o outro organiza a política e sua estratégia de entrega.
 
+### Caso progressivo: ação, GND e pagamento da dívida
+
+A prefeitura **constrói seis novas salas**: na dimensão programática, trata-se de um **projeto**; na natureza da despesa, a obra integra o **GND 4: Investimentos**. Quando mantém **aulas e serviços escolares regulares**, a ação pode ser uma **atividade**. Já o **pagamento do principal de uma dívida** pode figurar como **operação especial**, enquanto a natureza do gasto é **despesa de capital, GND 6: Amortização da Dívida**. O nome da ação não determina seu GND: um mesmo projeto pode executar gastos de grupos diferentes.
+
+A prefeitura paga uma parcela bancária que contém **R$ 100 mil de principal e R$ 20 mil de juros**. O principal é **GND 6, despesa de capital**; os juros são **GND 2: Juros e Encargos da Dívida, despesa corrente**. A classificação de receita de capital atribuída ao empréstimo na contratação não se transfere para os juros do pagamento.
+
+A distinção entre **projeto, atividade e operação especial** responde à natureza e à finalidade da **ação orçamentária**. A distinção entre **Investimentos, Inversões Financeiras e Amortização da Dívida** responde à **natureza econômica da despesa**.
+
 ### Natureza da despesa: categoria, GND, modalidade e elemento
 
 A natureza da despesa responde **qual é o tipo e o objeto do gasto**. A classificação inclui:
@@ -282,6 +327,14 @@ A natureza da despesa responde **qual é o tipo e o objeto do gasto**. A classif
 
 A **despesa com serviço corrente de limpeza** pode ter classificação por função Educação e, ao mesmo tempo, GND **Outras Despesas Correntes**, com elemento de serviço aplicável. Sua função não modifica a natureza econômica.
 
+### Fronteiras progressivas: obra, imóvel e modalidade de aplicação
+
+Na escola, **manutenção rotineira** (pintura simples, troca de lâmpadas, reparos habituais) é, em regra, **despesa corrente**, em Outras Despesas Correntes. A **ampliação com novas salas** é **despesa de capital**, em Investimentos. O fato de os dois serviços ocorrerem no mesmo imóvel não determina uma classificação única. Intervenções estruturais e obras devem ser examinadas conforme seu objeto efetivo.
+
+Se a prefeitura compra **terreno necessário à execução da obra**, a aquisição integra **Investimentos (GND 4)**. Se compra **prédio existente e já em utilização**, sem vínculo com execução de obras, a aquisição se enquadra em **Inversões Financeiras (GND 5)**, observadas as condições normativas. A compra de **computadores novos** normalmente é Investimentos: o critério não é simplesmente comprar algo pronto.
+
+Se o município **contrata e paga diretamente a construtora**, a modalidade é **Aplicações Diretas (90)**, mesmo que a obra seja fisicamente executada por empresa privada. Não confundir **contratação de serviço** com **repasse de recursos para outra entidade aplicá-los**. Na mesma obra, o GND pode ser Investimentos e o **elemento** pode ser Obras e Instalações. Na compra de computadores, o GND continua Investimentos, mas o elemento passa a Equipamentos e Material Permanente.
+
 ### Transferência: despesa de quem envia × receita de quem recebe
 
 Considere duas perspectivas da **mesma transferência hipotética**: a União envia recursos a um município para custear atendimento em saúde, e o município recebe esse dinheiro para executar a ação. **Na União**, o gasto precisa ser examinado como **despesa**: a modalidade de aplicação pode indicar *Transferências a Municípios*. **No município**, o ingresso é examinado como **receita orçamentária**: quando destinado ao financiamento de despesas correntes, corresponde a transferência corrente, observadas as regras de classificação.
@@ -295,6 +348,12 @@ Se os recursos recebidos forem destinados **à construção de um equipamento p�
 **Meta física** indica quantidade de entregas programadas. **Dotação financeira** identifica valor autorizado segundo a programação. Se foram previstos 500 atendimentos e entregues 350, o resultado deve ser examinado com dados físicos e financeiros, além do contexto de implementação.
 
 A dotação não comprova empenho, pagamento nem resultado da política. O tema se relaciona a [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|monitoramento e avaliação]], mas a execução da despesa não substitui avaliação de impacto.
+
+### Ponte para os estágios da execução
+
+Se o orçamento autoriza **R$ 1,5 milhão** para construir **seis salas**, a **dotação** responde *quanto se pode gastar* e a **meta física** responde *o que se pretende entregar*. Se quatro salas forem concluídas, a entrega física é de **4/6**, ainda que a despesa tenha tido execução financeira integral. A simples existência da dotação **não comprova** contratação, empenho, liquidação ou pagamento.
+
+Os estágios **empenho, liquidação e pagamento** têm procedimento próprio no [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|artigo 08: despesas públicas e estágios]]. O estudo detalhado desses estágios deve ficar naquele artigo, para não confundir classificação da despesa com execução da despesa.
 
 ## Como a banca pode cobrar
 

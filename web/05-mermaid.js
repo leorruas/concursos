@@ -30,8 +30,8 @@ function obterCssSemanticoMermaid() {
         opcao: ["#ffffff", "#c18a4b", "#1c1917"]
     } : {
         raiz: ["#f59e0b", "#b45309", "#111111"],
-        criterio: ["#332718", "#f59e0b", "#ffffff"],
-        opcao: ["#24211f", "#b68d58", "#ffffff"]
+        criterio: ["#fff2d9", "#f59e0b", "#3d2207"],
+        opcao: ["#fffbeb", "#b68d58", "#1c1917"]
     };
     return Object.entries(cores).map(([classe, valores]) => {
         const [fundo, borda, texto] = valores;

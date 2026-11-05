@@ -120,6 +120,32 @@ Imagine dotação de R$ 130.000, empenhos de R$ 120.000, pagamentos de R$ 110.00
 
 **Execução física** mede entregas realizadas e sua qualidade. **Execução orçamentária** acompanha autorização e estágios da despesa. **Execução financeira** acompanha pagamentos e disponibilidade de recursos. **Custos** medem recursos consumidos atribuídos a objetos. Despesa liquidada não comprova, por si, meta física; produção informada não valida automaticamente o custo apropriado.
 
+## Refinamento: comprovação da despesa e teste físico-financeiro
+
+A **Lei nº 4.320/1964, arts. 62 e 63**, exige **liquidação regular antes do pagamento**. Liquidar é **verificar o direito adquirido pelo credor**, apurando **origem e objeto, importância exata e pessoa a quem pagar**. Para fornecimentos e serviços, a verificação considera **contrato/ajuste, nota de empenho e comprovantes de entrega ou prestação efetiva** (§ 2º). Essa é a **evidência do crédito**, distinta da execução financeira, do custo e da entrega da política pública. Ver [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|estágios da despesa]].
+
+| Registro ou evidência | Que inferência pode sustentar | O que não comprova isoladamente |
+| :--- | :--- | :--- |
+| Contrato e nota de empenho | Objeto, preço contratado e compromisso orçamentário. | Que o fornecedor já entregou. |
+| Nota fiscal/fatura | Cobrança por quantidade e valor declarados. | Recebimento, conformidade e prestação efetiva. |
+| Medição, comprovante de recebimento e ateste **verificáveis** | Quantidade efetivamente recebida/prestada e critérios de aceite, conforme a evidência. | Uso do insumo ou resultado social final. |
+| Liquidação apoiada na documentação | Direito do credor e valor reconhecido para pagamento. | Que o dinheiro foi pago ou o insumo consumido. |
+| Ordem e comprovante de pagamento | Saída financeira para extinguir obrigação. | Que a prestação ocorreu ou que valor pago é o custo do período. |
+| Requisição de almoxarifado e registro de consumo | Material efetivamente utilizado, período e objeto de custo, se rastreáveis. | Quantidade e qualidade dos serviços finais, sem registro operacional. |
+| Registro operacional e validação de qualidade | Serviços realizados e conformes no período. | Custo atribuível sem apropriar recursos diretos e indiretos. |
+
+### Caso integrado: entrega, liquidação, consumo e resultado
+
+**Caso hipotético independente do exemplo anterior:** uma unidade empenhou **R$ 20.000** para **100 caixas de reagentes a R$ 200 cada**. O fornecedor faturou 100 caixas, mas **entregou apenas 70**, conferidas fisicamente; o processo documental deve corrigir a cobrança/registrar a glosa da parte não entregue antes de validar a liquidação correspondente. Assim, há suporte para **liquidação de R$ 14.000**, **não de R$ 20.000**. A unidade pagou **R$ 10.000** do valor liquidado. Os **R$ 4.000 liquidados e não pagos** permanecem obrigação, conforme o regime e a situação; os **R$ 6.000 empenhados e não liquidados** não são automaticamente valor devido ao fornecedor.
+
+No mesmo período, **50 caixas foram consumidas** em exames, representando **R$ 10.000** de material utilizado, e **20 caixas (R$ 4.000) permaneceram em estoque**. Outros recursos efetivamente consumidos, segundo a mesma competência e o mesmo objeto, foram: **R$ 9.000 de equipe**, **R$ 1.000 de depreciação** e **R$ 2.000 de energia atribuída por critério documentado**. O **custo do serviço é R$ 22.000**, não o empenho de R$ 20.000, a liquidação de R$ 14.000 nem o pagamento de R$ 10.000. A apropriação dos R$ 22.000 depende de conciliação com registros de patrimônio, folha, consumo e direcionadores; o **SIC/TG não substitui nem corrige a fonte dos dados**.
+
+O plano previa **80 exames conformes ao protocolo**. Foram **60 exames efetivamente registrados e verificados**, mas apenas **56** cumpriram o padrão mínimo de qualidade. A **produção bruta** é 60, a **produção conforme** é 56 e a **eficácia da meta de exames conformes é 56/80 = 70%**, enquanto a razão produção bruta/meta seria **75%**, inadequada para declarar cumprimento da meta pactuada. O **custo por exame realizado é R$ 22.000/60 = R$ 366,67**; por exame conforme, **R$ 22.000/56 = R$ 392,86**. Ambos são indicadores de custo com **denominadores diferentes**, não medidas de impacto social ou prova isolada de ineficiência.
+
+**Trilha que o auditor precisa reconstruir:** quantidade contratada → quantidade física recebida/atestada → valor efetivamente devido e liquidado → pagamento → materiais **consumidos** → custo total **atribuído ao período e objeto** → número de serviços **comprovados e conformes** → confronto com meta e qualidade. Identificar também **quem registrou cada evidência, quando, qual sistema é origem, divergências, glosas e reconciliações**. Uma inconsistência documental pode exigir exame de irregularidade; uma diferença entre custo e liquidação pode ser **normal em regimes de competência**.
+
+**Dois itens C/E didáticos:** “A liquidação parcial de 70 caixas comprova que as 70 foram consumidas no serviço durante o mesmo mês.” **Errado:** prova do direito do fornecedor e consumo do estoque são eventos distintos. “A meta de 80 exames conformes estará 75% cumprida caso existam 60 exames registrados, dos quais somente 56 atendem ao protocolo.” **Errado:** a meta exige **conformidade**, de modo que o resultado é **70%**, sob os dados do caso.
+
 ## Como a banca pode cobrar
 
 No concurso da **Controladoria-Geral da União (CGU) 2026**, o formato é **Cebraspe, Certo/Errado (C/E)**. Trocas entre empenho e consumo, custo direto e variável, objeto final e centro de responsabilidade, ou custo e efetividade são fontes plausíveis de erro. Os itens abaixo são **didáticos inéditos**, não questões reais nem estatisticamente calibradas.
@@ -153,4 +179,4 @@ Identificar, em ordem: **objeto → consumo → eixo de classificação → mét
 3. [MCASP, 11ª edição, Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1): fundamentos orçamentários e patrimoniais.
 4. [LRF, art. 50, § 3º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): sistema de custos.
 
-**Cobertura editorial parcial de P3.2.5:** fundamentos, objetos, classificações, métodos e caso. **Pendente para a nota 06:** aplicação detalhada do MIC, Sistema de Informações de Custos (SIC), implementação e indicadores físico-financeiros. Publicação não significa aula realizada, domínio ou retenção.
+**Cobertura editorial de P3.2.5.1:** a trilha entrega → liquidação → pagamento → consumo → custos → produção/qualidade está desenvolvida neste artigo; os indicadores e o sistema estão em [[3 - Materias/Contabilidade Publica/06 - mic sic e informacoes gerenciais de custos|MIC/SIC, artigo 06]]. A validação normativa integral e a aprendizagem permanecem pendentes.

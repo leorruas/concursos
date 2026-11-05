@@ -2025,10 +2025,11 @@
           "sourceIds": [
             "mcasp",
             "nbc-tsp-34",
-            "mic-2025"
+            "mic-2025",
+            "lei4320"
           ],
           "coverage": "parcial",
-          "noteRole": "auditoria-p3-2-5-1-parcial-comprovacao-entrega-custo-5-2-e-5-3-substanciais"
+          "noteRole": "auditoria-p3-2-5-1-5-2-5-3-substantivos-caso-documental-entrega-liquidacao-custo-qualidade-sem-validacao-normativa-ou-estudo"
         },
         {
           "id": "up3-2-6",

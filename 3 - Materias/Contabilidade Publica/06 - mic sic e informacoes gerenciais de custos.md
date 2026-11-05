@@ -104,6 +104,8 @@ O MIC, seção 6.1.1.11, relaciona metas, indicadores e uso gerencial. A informa
 
 As comparações devem considerar **critérios de apropriação, período, quantidade, qualidade e complexidade da entrega**. Se uma unidade atende casos mais difíceis, custo unitário maior não comprova ineficiência. Uma mudança na base de mensuração também pode produzir variação sem mudança real da produção.
 
+Para o **teste documental integrado** de P3.2.5.1, consultar [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo#Refinamento: comprovação da despesa e teste físico-financeiro|comprovação, liquidação, consumo, custos e entrega conforme]]. A conciliação físico-financeira precisa verificar a **origem dos dados** e não presumir que valor pago, quantidade recebida e quantidade de serviços prestados sejam iguais.
+
 ## Exemplo comentado: a mesma unidade sob quatro perguntas
 
 Retoma-se o caso **hipotético** do artigo 05: uma unidade realizou **1.000 atendimentos** no mês, com custo total atribuído de **R$ 115.000**, sendo **R$ 105.000 diretos e R$ 10.000 indiretos**. A capacidade operacional estimada era de **1.200 atendimentos**; foram empenhados R$ 120.000 e pagos R$ 110.000.

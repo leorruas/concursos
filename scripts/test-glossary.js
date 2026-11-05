@@ -29,7 +29,7 @@ const ctx = {console,window:{},Intl,Array,Set,String};
 vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(root, 'web/09-glossary.js'), 'utf8'), ctx);
 const termos = JSON.parse(JSON.stringify(published.terms));
-const match = (query, block = '', subject = '') => ctx.filtrarTermosGlossario(termos, query, block, subject);
+const match = (query, block = '', subject = '', article = '') => ctx.filtrarTermosGlossario(termos, query, block, subject, article);
 assert(match('criterio').some(t => t.id === 'glo-criterio-de-auditoria'));
 assert(match('liquidacao').some(t => t.id === 'glo-liquidacao-da-despesa'));
 assert(match('PPA').some(t => t.id === 'glo-ppa'));

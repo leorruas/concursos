@@ -27,7 +27,7 @@
     {
       "subjectId": "contabilidade-publica",
       "label": "Contabilidade Pública",
-      "count": 25,
+      "count": 27,
       "examBlock": "P3",
       "editorialPriority": "A"
     },
@@ -2950,6 +2950,24 @@
       "examBlock": "P3",
       "editorialPriority": "A",
       "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ativo",
+      "term": "Ativo",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-passivo",
+      "term": "Passivo",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
       "status": "planned"
     }
   ],

@@ -12,7 +12,7 @@ updated: 2026-11-05
 
 Planejamento de glossário para **CGU 2026, cargo 1, Auditoria, Cebraspe (Certo/Errado)**. O recorte prioriza conceitos, siglas, etapas, classificações e fronteiras que podem gerar interpretações erradas. As prioridades A/B/C reproduzem a decisão editorial do [[1 - Planejamento/CGU 2026 - Plano de materias|plano de matérias]], **não indicam frequência comprovada de cobrança**. Escopo conferido com [[2 - Editais/CGU 2026 - Auditoria|edital sintetizado no vault]] e [edital no Cebraspe](https://www.cebraspe.org.br/concursos/cgu_26_affc).
 
-**Estado editorial em 05/11/2026:** **315 termos planejados**, incluindo os 200 iniciais e mais 115 conceitos de Orçamento, com **200 definições revisadas** no JSON público: 35 de Auditoria, 140 de Orçamento e 25 de Contabilidade. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
+**Estado editorial em 05/11/2026:** **317 termos planejados**, incluindo os 200 iniciais, 115 conceitos adicionais de Orçamento e dois fundamentos de Contabilidade, com **202 definições revisadas** no JSON público: 35 de Auditoria, 140 de Orçamento e 27 de Contabilidade. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
 
 ## Onde o glossário aparecerá na wiki
 
@@ -185,6 +185,12 @@ A solicitação de ampliar conceitos como **receita primária** revelou uma lacu
 **Fontes de verificação e controle de vigência:** [Manual Técnico de Orçamento 2026, Secretaria de Orçamento Federal, capítulos 3 e 4](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf); [MCASP, 11ª edição, Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1); [Lei nº 4.320/1964](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) e [LRF](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm). Para categorias de 2027, verificar a atualização anual antes de reaproveitar códigos.
 
 A diferença decisiva para o Cebraspe: **corrente/capital** é categoria econômica; **primária/financeira** é classificação segundo impacto na apuração fiscal; **origem/espécie** integra a natureza; **fonte/destinação** descreve regras de uso; **função/programa/GND/elemento** pertencem a dimensões distintas da despesa.
+
+## Ampliação básica: Ativo e Passivo (05/11/2026)
+
+Dois verbetes curtos, **Ativo** e **Passivo**, foram acrescentados ao lado das entradas já existentes **Ativo patrimonial** e **Passivo patrimonial**. Ambos explicam a definição contábil em linguagem inicial, com exemplos de serviço público, diferenças importantes, armadilhas C/E e fontes normativas (MCASP 11 e NBC TSP). O objetivo editorial é permitir uma busca exata pelos termos simples e depois aprofundar as condições de reconhecimento nas notas já existentes. As entradas apontam para [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|Patrimônio público e regimes de reconhecimento]], sem criar novo artigo ou duplicar a explicação longa. O arquivo de entradas é `data/glossario/termos/contabilidade-publica-fundamentos.json`.
+
+A entrada **Ativo** prioriza controle, evento passado e potencial de serviços ou benefício econômico; **Passivo** prioriza obrigação presente, evento passado e saída de recursos na extinção. O total do glossário passa a **202 verbetes revisados de 317 planejados**.
 
 ## Fases de implementação
 

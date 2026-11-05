@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "contabilidade-publica",
+  "entries": [
+    {
+      "id": "glo-ativo",
+      "term": "Ativo",
+      "aliases": [],
+      "definition": "Recurso controlado pela entidade em razão de um evento passado, com capacidade de gerar benefícios econômicos ou oferecer serviços no futuro.",
+      "contrast": "É a definição básica de ativo patrimonial. Controlar um recurso não exige, necessariamente, ser proprietário dele nem obter lucro com seu uso.",
+      "cebraspeTrap": "Afirmar que um bem público só pode ser classificado como ativo se gerar receita, estiver totalmente pago ou pertencer formalmente à entidade.",
+      "example": "Computadores controlados por uma escola pública são ativos porque ajudam a prestar serviços de educação.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte II, elementos das demonstrações contábeis",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Conselho Federal de Contabilidade: NBC TSP, Estrutura Conceitual",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-passivo",
+      "term": "Passivo",
+      "aliases": [],
+      "definition": "Obrigação presente da entidade, decorrente de um evento passado, cuja extinção deverá exigir a transferência de recursos.",
+      "contrast": "É a definição básica de passivo patrimonial. Uma despesa apenas empenhada não demonstra, por si só, que surgiu uma obrigação patrimonial.",
+      "cebraspeTrap": "Afirmar que todo empenho não pago é automaticamente um passivo ou que uma obrigação só existe quando seu pagamento vence.",
+      "example": "Um serviço já prestado e ainda não pago pode criar um passivo, mesmo quando a liquidação administrativa está pendente.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte II, elementos das demonstrações contábeis",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Conselho Federal de Contabilidade: NBC TSP, Estrutura Conceitual",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

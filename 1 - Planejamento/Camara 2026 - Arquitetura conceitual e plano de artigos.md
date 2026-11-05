@@ -248,10 +248,10 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 
 - [x] **CAM-TC-001 · F1**: Comunicação, informação, mensagem e produção de sentido.
 - [x] **CAM-TC-002 · F1**: Teoria, modelo, escola, corrente e paradigma da comunicação.
-- [ ] **CAM-TC-003 · F1**: Elementos da situação comunicativa: contexto e interpretação.
-- [ ] **CAM-TC-004 · F1**: Lasswell: perguntas e análise dos efeitos da comunicação.
-- [ ] **CAM-TC-005 · F1**: Shannon e Weaver: informação, ruído e limites do modelo.
-- [ ] **CAM-TC-006 · F2**: Jakobson: funções da linguagem e fatores da comunicação.
+- [x] **CAM-TC-003 · F1**: Elementos da situação comunicativa: contexto e interpretação.
+- [x] **CAM-TC-004 · F1**: Lasswell: perguntas e análise dos efeitos da comunicação.
+- [x] **CAM-TC-005 · F1**: Shannon e Weaver: informação, ruído e limites do modelo.
+- [x] **CAM-TC-006 · F2**: Jakobson: funções da linguagem e fatores da comunicação.
 - [ ] **CAM-TC-007 · F2**: Modelos lineares, circulares e interacionais: critérios.
 - [ ] **CAM-TC-008 · F2**: Escola de Chicago: comunicação, interação e sociedade.
 - [ ] **CAM-TC-009 · F2**: Pesquisa administrativa e mass communication research.
@@ -432,12 +432,12 @@ Os dois primeiros artigos foram gravados no repositório e tiveram o build e o c
 
 Criados como artigos canônicos independentes, com vínculos ao hub, ao índice e à matéria virtual Comunicação da Câmara, sem marcar estudo pessoal:
 
-- [ ] **CAM-TC-003**: [[3 - Materias/Comunicacao/27 - contexto e interpretacao da mensagem|Contexto e interpretação na situação comunicativa]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
-- [ ] **CAM-TC-004**: [[3 - Materias/Comunicacao/28 - lasswell cinco perguntas funcoes e efeitos|Harold Lasswell: cinco perguntas, áreas de análise e funções sociais]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
-- [ ] **CAM-TC-005**: [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|Shannon e Weaver: transmissão, informação, ruído e limites]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
-- [ ] **CAM-TC-006**: [[3 - Materias/Comunicacao/30 - jakobson fatores e funcoes da linguagem|Roman Jakobson: seis fatores e seis funções da linguagem]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
+- [x] **CAM-TC-003**: [[3 - Materias/Comunicacao/27 - contexto e interpretacao da mensagem|Contexto e interpretação na situação comunicativa]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo confirmadas no [workflow 42121480267](https://github.com/leorruas/concursos/actions/runs/42121480267), concluído com sucesso em 05/11/2026.
+- [x] **CAM-TC-004**: [[3 - Materias/Comunicacao/28 - lasswell cinco perguntas funcoes e efeitos|Harold Lasswell: cinco perguntas, áreas de análise e funções sociais]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
+- [x] **CAM-TC-005**: [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|Shannon e Weaver: transmissão, informação, ruído e limites]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
+- [x] **CAM-TC-006**: [[3 - Materias/Comunicacao/30 - jakobson fatores e funcoes da linguagem|Roman Jakobson: seis fatores e seis funções da linguagem]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
 
-A conferência de publicação deste lote deve substituir esses estados após o workflow do Pages. O próximo artigo da trilha é **CAM-TC-007: modelos lineares, circulares e interacionais**, depois Escola de Chicago. 
+Este lote passou no build, na verificação de identidade, no catálogo de matérias, nos testes de links e na conferência do Pages ao vivo no [workflow 42121480267](https://github.com/leorruas/concursos/actions/runs/42121480267). Isto valida a existência editorial e técnica dos artigos, **sem representar estudo ou retenção**. O próximo artigo da trilha é **CAM-TC-007: modelos lineares, circulares e interacionais**, depois Escola de Chicago. 
 
 ## Critérios de publicação e evidência
 

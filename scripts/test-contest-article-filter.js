@@ -35,7 +35,20 @@ assert.ok(dp.length>20,'Dataprev: comunicação possui artigos especializados');
 assert.equal(dp[0].sourcePath,'3 - Materias/Comunicacao/comunicacao.md','hub preservado');
 ctx.concursoSelecionadoId='camara-2026';
 const cam=ctx.obterArtigosDaMateria(comunicacao);
-assert.ok(cam.length>10&&cam.length<dp.length,'Câmara: lista específica diferente');
+const camSubject=catalogo.contests.find(c=>c.concursoId==='camara-2026').subjects.find(s=>s.subjectId==='comunicacao');
+assert.equal(cam.length,1+camSubject.articleSourcePaths.length,'Câmara: hub e todos os artigos do seu catálogo');
+assert.ok(cam.length>10,'Câmara: lista de Comunicação não pode ser reduzida ao hub');
+assert.notDeepEqual(cam.map(x=>x.sourcePath),dp.map(x=>x.sourcePath),'Câmara e Dataprev possuem recortes de artigos distintos');
+for (const caminho of camSubject.articleSourcePaths) {
+  assert.ok(cam.some(x=>x.sourcePath===caminho),'Câmara: artigo vinculado precisa aparecer: '+caminho);
+}
+for (const arquivo of [
+  '31 - modelos lineares circulares e transacionais da comunicacao.md',
+  '32 - escola de chicago comunicacao interacao e sociedade.md',
+  '33 - pesquisa administrativa e mass communication research.md'
+]) {
+  assert.ok(cam.some(x=>x.sourcePath.endsWith('/'+arquivo)),'Câmara: trilha conceitual deve incluir '+arquivo);
+}
 assert.ok(!cam.some(x=>x.sourcePath.endsWith('/21 - teorias do jornalismo e historia da imprensa.md')),'evitar artigos extraedital');
 const inglesSubject=catalogo.contests.find(c=>c.concursoId==='camara-2026').subjects.find(s=>s.subjectId==='ingles');
 const inglesArtigos=ctx.obterArtigosDaMateria('Ingles');

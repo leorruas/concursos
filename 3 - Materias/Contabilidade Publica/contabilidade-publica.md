@@ -28,6 +28,24 @@ Demonstração das Variações Patrimoniais (DVP); Manual de Contabilidade Aplic
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 
+## Como ler a matéria sem misturar as classificações
+
+**Comece por uma pergunta prática e só depois leia a classificação.** Cada artigo agora apresenta um caso inicial, explica os termos necessários e, nas seções seguintes, traz a estrutura normativa, os limites e as possíveis cobranças. Os exemplos são hipóteses didáticas, não relatos de uma instituição real.
+
+Para quem está construindo os fundamentos, uma ordem **conceitual** possível é: **[[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|01, patrimônio e competência]] → [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|03, BP e DVP]] → [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|02, BO e BF]] → [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|04, DFC e conciliações]]**. A numeração editorial dos arquivos permanece, mas o percurso por perguntas pode ser mais claro que decorar as siglas na ordem numérica.
+
+| Etapa de leitura | Pergunta a responder antes dos detalhes |
+| :--- | :--- |
+| **Patrimônio e competência** | O que entrou ou saiu, qual é a contrapartida e o patrimônio líquido mudou? |
+| **BP e DVP** | Estamos observando **saldos numa data** ou **variações durante um período**? Se for BP, em qual dos **quatro quadros**? |
+| **BO e BF** | O valor representa **arrecadação, empenho, pagamento** ou um **lançamento compensatório**? |
+| **DFC e notas** | Houve **entrada ou saída efetiva de caixa**? O que as notas e as conciliações precisam explicar? |
+| **Custos e sistemas** | Que recurso foi **consumido** e para **qual serviço** o custo foi atribuído? Como os dados foram validados? |
+| **Ativos, provisões e estatais** | É uma obrigação certa ou incerta? O bem perdeu valor por qual mecanismo? A entidade segue qual regime? |
+| **Governança e sustentabilidade** | Quem decide, quem executa, quais riscos devem ser controlados e como a atividade será financiada? |
+
+**Regra para os quadros do Balanço Patrimonial:** 1º Principal = ativo/passivo/PL e circulante/não circulante; 2º Financeiros e Permanentes = critérios legais/orçamentários; 3º Compensação = atos potenciais; 4º Superávit/Déficit Financeiro = diferença financeira por fonte. Não usar *circulante*, *financeiro*, *caixa* e *patrimônio líquido* como sinônimos: cada palavra pertence a uma pergunta própria.
+
 ## Artigos disponíveis antes da aula
 
 1. [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|Patrimônio público e regimes de reconhecimento]]: competência patrimonial × art. 35 da Lei nº 4.320/1964; ativo/passivo/PL, VPA/VPD, PCASP e compra de equipamento.

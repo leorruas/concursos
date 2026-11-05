@@ -88,6 +88,8 @@ Para fornecimentos e serviços, o § 2º estabelece, como bases de liquidação,
 
 Uma nota fiscal de R$ 100 mil não prova, por si, que os produtos foram entregues e aceitos. Se o fornecedor entregou metade, a liquidação exige examinar documentos e condições da contratação. A liquidação **não é carimbo mecânico** sobre nota fiscal.
 
+**Recebimento contratual × liquidação:** o **art. 140 da Lei nº 14.133/2021** distingue recebimento **provisório e definitivo**, com procedimentos diferentes para obras/serviços e compras. O **aceite definitivo** comprova o atendimento às exigências contratuais na forma aplicável, mas **não se confunde com o estágio orçamentário da liquidação** (Lei nº 4.320/1964, art. 63). O objeto pode ser rejeitado no todo ou em parte; o recebimento, inclusive definitivo, **não elimina automaticamente a responsabilidade do contratado**. Na auditoria, exigir a cadeia documental apropriada ao contrato, e não presumir que a emissão de fatura ou de ateste genérico substitua todos os controles.
+
 A atuação do fiscal de contrato produz informações relevantes, mas **fiscalizar o contrato** e **liquidar a despesa** cumprem funções distintas. O contrato é tratado em [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]].
 
 O confronto com **custos e produção física** deve ser feito sem converter liquidação em consumo: [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo#Refinamento: comprovação da despesa e teste físico-financeiro|caso integrado de comprovação físico-financeira]]. O exemplo distingue **bens recebidos, direito a receber, valores pagos, materiais utilizados e entregas conformes**.
@@ -158,6 +160,7 @@ Ao ler “**nota fiscal emitida**”, não deduzir “**objeto entregue**”. Ao
 ## Fontes e limites
 
 - [Lei nº 4.320/1964, arts. 35 e 58 a 65](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html).
+- [Lei nº 14.133/2021, art. 140, recebimento do objeto](https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-publicacaooriginal-162591-pl.html).
 - [MCASP 11ª edição, Parte I, despesa orçamentária](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1).
 - [Tesouro Nacional: programação financeira](https://www.gov.br/tesouronacional/pt-br/execucao-orcamentaria-e-financeira/programacao-financeira/cronograma-de-pagamento-dos-orgaos).
 - [[2 - Editais/CGU 2026 - Auditoria|Programa CGU 2026, P3.2.3]].

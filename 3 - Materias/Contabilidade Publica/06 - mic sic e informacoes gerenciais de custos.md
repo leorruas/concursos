@@ -104,6 +104,8 @@ O MIC, seção 6.1.1.11, relaciona metas, indicadores e uso gerencial. A informa
 
 As comparações devem considerar **critérios de apropriação, período, quantidade, qualidade e complexidade da entrega**. Se uma unidade atende casos mais difíceis, custo unitário maior não comprova ineficiência. Uma mudança na base de mensuração também pode produzir variação sem mudança real da produção.
 
+**Precisão normativa (NBC TSP 34, itens 40 a 43 e 54 a 61):** a comparação entre entidades ou unidades vinculadas requer **modelo padronizado**, observadas as especificidades do serviço; para **objeto de custo final**, o item 42 **recomenda** absorção integral, enquanto para **objeto intermediário** a escolha do método é discricionária. A ordem de atribuição é **diretos → indiretos rastreáveis → rateio residual razoável**. **O item 57 manda dispensar rateio arbitrário** que comprometa a qualidade da informação. **O item 58 alcança recurso consumido mesmo sem pagamento pela unidade beneficiária**. A informação física é **relevante, mas não restritiva** (item 61) para iniciar apuração; sem denominador físico fidedigno, **não é possível sustentar o custo unitário daquele objeto**. Os indicadores do MIC, seção 6.1.1.11, não substituem avaliação específica de impacto para afirmar **efetividade**.
+
 Para o **teste documental integrado** de P3.2.5.1, consultar [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo#Refinamento: comprovação da despesa e teste físico-financeiro|comprovação, liquidação, consumo, custos e entrega conforme]]. A conciliação físico-financeira precisa verificar a **origem dos dados** e não presumir que valor pago, quantidade recebida e quantidade de serviços prestados sejam iguais.
 
 ## Exemplo comentado: a mesma unidade sob quatro perguntas
@@ -127,6 +129,8 @@ Na **Controladoria-Geral da União (CGU) 2026**, a banca é **Cebraspe** e os it
 **Item 2 (C/E).** “A responsabilidade pela geração da informação de custos é do profissional da contabilidade, enquanto a integridade dos dados das transações de origem cabe aos respectivos gestores.” **Certo.** É a distinção expressa no item 66 da NBC TSP 34.
 
 **Item 3 (C/E).** “Na metodologia operacional do MIC, avaliar o gerenciamento de custos significa apenas comparar custos unitários de serviços, sem revisar a mensuração e a divulgação.” **Errado.** Comparar custos integra controle e análise de desempenho; avaliar o gerenciamento inclui examinar o funcionamento do sistema.
+
+**Item 4 (C/E).** “A existência de valores para os custos indiretos obriga sua distribuição entre objetos, mesmo quando as bases de rateio são arbitrárias e prejudicam a qualidade da informação.” **Errado.** O item 57 da NBC TSP 34 exige **dispensar** alocação arbitrária que não satisfaça as características qualitativas e restrições da informação.
 
 ## Relações com outros temas
 

@@ -2354,28 +2354,53 @@ body:has(.glossario-pagina:not(.escondido)) .page-masthead{display:none}
     will-change: transform;
 }
 .mermaid-explorador-palco svg { max-width: none; display: block; }
-/* As classes Mermaid são semânticas: a folha do site controla as cores. */
-.mermaid .node.raiz rect,
-.mermaid .node.raiz polygon { fill: var(--accent-blue) !important; stroke: var(--accent-blue-hover) !important; }
-.mermaid .node.raiz .nodeLabel,
-.mermaid .node.raiz .nodeLabel * { color: #090909 !important; fill: #090909 !important; }
-.mermaid .node.criterio rect,
-.mermaid .node.criterio polygon { fill: var(--surface-raised) !important; stroke: var(--accent-blue) !important; }
-.mermaid .node.criterio .nodeLabel,
-.mermaid .node.criterio .nodeLabel * { color: var(--text) !important; fill: var(--text) !important; }
-.mermaid .node.opcao rect,
-.mermaid .node.opcao polygon { fill: var(--surface) !important; stroke: var(--accent-blue-alpha-40) !important; }
-.mermaid .node.opcao .nodeLabel,
-.mermaid .node.opcao .nodeLabel * { color: var(--text) !important; fill: var(--text) !important; }
-.mermaid-explorador-palco .node.raiz rect { fill: var(--accent-blue) !important; }
-.mermaid-explorador-palco .node.criterio rect { fill: var(--surface-raised) !important; }
-.mermaid-explorador-palco .node.opcao rect { fill: var(--surface) !important; }
-.mermaid-explorador-palco .node.raiz .nodeLabel,
-.mermaid-explorador-palco .node.raiz .nodeLabel * { color: #090909 !important; }
-.mermaid-explorador-palco .node.criterio .nodeLabel,
-.mermaid-explorador-palco .node.criterio .nodeLabel *,
-.mermaid-explorador-palco .node.opcao .nodeLabel,
-.mermaid-explorador-palco .node.opcao .nodeLabel * { color: var(--text) !important; }
+/* Paleta semântica: nunca depender das cores fixas de classDef no Markdown.
+   Inclui o SVG clonado no explorador e os textos renderizados via foreignObject. */
+:root {
+    --mermaid-raiz-bg: #f59e0b;
+    --mermaid-raiz-text: #111111;
+    --mermaid-criterio-bg: #292524;
+    --mermaid-criterio-text: #ffffff;
+    --mermaid-opcao-bg: #1c1c1e;
+    --mermaid-opcao-text: #f5f5f7;
+    --mermaid-outline: #f59e0b;
+}
+:root[data-theme="light"] {
+    --mermaid-raiz-bg: #d97706;
+    --mermaid-raiz-text: #111111;
+    --mermaid-criterio-bg: #fff7ed;
+    --mermaid-criterio-text: #431407;
+    --mermaid-opcao-bg: #ffffff;
+    --mermaid-opcao-text: #0f172a;
+    --mermaid-outline: #92400e;
+}
+:is(.mermaid, .mermaid-explorador-palco) .node.raiz :is(rect,polygon,path) {
+    fill: var(--mermaid-raiz-bg) !important;
+    stroke: var(--mermaid-outline) !important;
+}
+:is(.mermaid, .mermaid-explorador-palco) .node.criterio :is(rect,polygon,path) {
+    fill: var(--mermaid-criterio-bg) !important;
+    stroke: var(--mermaid-outline) !important;
+}
+:is(.mermaid, .mermaid-explorador-palco) .node.opcao :is(rect,polygon,path) {
+    fill: var(--mermaid-opcao-bg) !important;
+    stroke: var(--mermaid-outline) !important;
+}
+:is(.mermaid, .mermaid-explorador-palco) .node.raiz :is(.nodeLabel, .nodeLabel *, text, tspan) {
+    color: var(--mermaid-raiz-text) !important;
+    fill: var(--mermaid-raiz-text) !important;
+}
+:is(.mermaid, .mermaid-explorador-palco) .node.criterio :is(.nodeLabel, .nodeLabel *, text, tspan) {
+    color: var(--mermaid-criterio-text) !important;
+    fill: var(--mermaid-criterio-text) !important;
+}
+:is(.mermaid, .mermaid-explorador-palco) .node.opcao :is(.nodeLabel, .nodeLabel *, text, tspan) {
+    color: var(--mermaid-opcao-text) !important;
+    fill: var(--mermaid-opcao-text) !important;
+}
+:is(.mermaid, .mermaid-explorador-palco) .edgePath path {
+    stroke: var(--mermaid-outline) !important;
+}
 @media(max-width:650px) {
     .mermaid-explorador-topo { padding: 10px; }
     .mermaid-explorador-controles { gap: 5px; }

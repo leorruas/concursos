@@ -16,6 +16,20 @@ A Contabilidade Aplicada ao Setor Público (CASP) produz informação sobre **pa
 
 A chave é distinguir **o fato econômico**, **a etapa de execução do orçamento** e **a entrada ou saída de dinheiro**. Esses eventos podem coincidir, mas não são equivalentes.
 
+## Antes das classificações: o que é patrimônio público?
+
+O **patrimônio público** é o conjunto de bens, direitos e obrigações que a contabilidade acompanha em uma entidade pública. **Bem** é, por exemplo, um computador; **direito**, um tributo a receber; **obrigação**, uma dívida com fornecedor. O termo **ativo** reúne os recursos controlados que atendem aos critérios contábeis de reconhecimento, incluindo bens e direitos. O **passivo** reúne obrigações presentes reconhecidas. O **patrimônio líquido (PL)** é o valor residual: **ativo menos passivo**. Patrimônio líquido não é sinônimo de dinheiro em caixa.
+
+Um caso pequeno ajuda a observar a diferença. Uma universidade possui **R$ 40 mil em dinheiro** e recebe **R$ 15 mil em computadores a prazo**, já entregues e reconhecidos, sem outros elementos patrimoniais. O ativo total passa a **R$ 55 mil** (40 de caixa + 15 em computadores), mas há **R$ 15 mil de dívida**: o PL é **R$ 40 mil**, porque 55 − 15 = 40. Ter mais bens não significa automaticamente ter aumentado a riqueza residual.
+
+Se a universidade **paga** essa dívida, o caixa cai para R$ 25 mil e a obrigação chega a zero. Os computadores continuam registrados. O ativo total passa a R$ 40 mil e o PL **continua em R$ 40 mil**. A contabilidade chama esse tipo de mudança na composição, sem mudança imediata do PL, de **fato permutativo**. Se, mais tarde, houver **R$ 1 mil de depreciação reconhecida como VPD**, o valor líquido dos computadores cairá para R$ 14 mil e o PL para R$ 39 mil: nesse novo fato houve **variação quantitativa**.
+
+Agora compare dois acontecimentos **sem depender do pagamento**: (a) um empréstimo traz R$ 100 mil em caixa, mas cria dívida de R$ 100 mil, sem Variação Patrimonial Aumentativa (VPA) pelo principal; (b) uma doação incondicional de equipamentos de R$ 30 mil, sem obrigação de devolução e com reconhecimento contábil atendido, aumenta o ativo e o PL e pode gerar VPA. Em cada caso, pergunte **o que entrou, qual é a contrapartida e se o PL mudou**.
+
+## Quatro perguntas sobre o mesmo fato
+
+Uma mesma compra pode envolver **empenho** (compromisso na execução do orçamento), **entrega** (fato patrimonial de incorporação do ativo e reconhecimento da obrigação) e **pagamento** (saída de caixa). Essas etapas podem ocorrer em datas distintas. As perguntas abaixo são **enfoques de análise**, e não nomes de quatro naturezas de contas do PCASP.
+
 | Enfoque de análise | Pergunta central | Marcos e evidências usuais | O que não permite concluir sozinho |
 | :--- | :--- | :--- | :--- |
 | Orçamentário | Quanto da autorização foi executado? | previsão/arrecadação da receita; dotação/empenho/liquidação/pagamento da despesa | se o caixa mudou pelo mesmo valor ou se houve perda patrimonial |

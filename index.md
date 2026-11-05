@@ -275,6 +275,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao|Modelos lineares, circulares e transacionais da comunicação]]
   - [[3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade|Escola de Chicago: comunicação, interação, cidade e públicos]]
   - [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|Mass communication research: pesquisa administrativa e efeitos]]
+  - [[3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao|Lazarsfeld: fluxo em duas etapas, líderes de opinião e influência pessoal]]
+  - [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|Agenda-setting: saliência dos temas, agendas e limites da influência]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

@@ -449,6 +449,13 @@ Artigos completos incorporados ao hub, índice e catálogo de Comunicação para
 
 Este lote também corrige uma omissão no índice geral: os artigos TC-003 a TC-006 estavam vinculados ao catálogo mas não listados explicitamente em `index.md`. Próximo objeto: **CAM-TC-010, Lazarsfeld e o fluxo em duas etapas**.
 
+## Lote 4a: mediação interpessoal e saliência pública (TC-010 e TC-011)
+
+- [ ] **CAM-TC-010 · validação de publicação pendente**: [[3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao|Lazarsfeld: fluxo em duas etapas, líderes de opinião e influência pessoal]] (`art-c3b719f24a6e058d`). Nota completa vinculada ao catálogo da Câmara; conferir workflow do Pages e seus testes.
+- [ ] **CAM-TC-011 · validação de publicação pendente**: [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|Agenda-setting: saliência dos temas, agendas e limites da influência]] (`art-a6802d9f73c4b15e`). Nota completa vinculada ao catálogo da Câmara; conferir workflow do Pages e seus testes.
+
+A produção editorial não cria progresso de estudo. Após este lote, continuar com enquadramento (TC-012) e seleção da informação (TC-013).
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

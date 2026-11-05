@@ -116,6 +116,9 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
 
     let markdownLimpo = removerFrontmatter(artigo.conteudo);
     markdownLimpo = removerH1Duplicado(markdownLimpo, tituloNavegacao);
+    // Proteger código de conflitos com a sintaxe de comentários do Obsidian.
+    const codigoProtegido = protegerBlocosCodigoMarkdown(markdownLimpo);
+    markdownLimpo = codigoProtegido.markdown;
     
     // 1. Suporte a Highlights com comentário associado: ==texto== %% [comentário]: meu comentário %%
     markdownLimpo = markdownLimpo.replace(/==([^=]+)==\s*%%\s*\[(?:comentário|comentario|nota|obs)\]:?\s*([\s\S]*?)\s*%%/gi, (match, texto, comentario) => {
@@ -135,6 +138,7 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
     // 4. Oculta comentários brutos restantes do Obsidian (%% comentário geral %%) igual ao modo de leitura
     markdownLimpo = markdownLimpo.replace(/%%[\s\S]*?%%/g, '');
 
+    markdownLimpo = restaurarBlocosCodigoMarkdown(markdownLimpo, codigoProtegido.blocos);
     const matematicaProtegida = protegerBlocosMatematicosMarkdown(escaparSeparadoresWikilinksEmTabelas(markdownLimpo));
     marked.setOptions({ gfm: true, breaks: true });
     const htmlRenderizado = marked.parse(matematicaProtegida.markdown);

@@ -3,7 +3,7 @@ title: "Câmara dos Deputados 2026 — Analista Legislativo — Divulgação Ins
 type: "edital"
 status: "ativo"
 created: 2026-10-02
-updated: 2026-10-02
+updated: 2026-11-05
 ---
 
 # Câmara dos Deputados 2026 — Divulgação Institucional
@@ -14,7 +14,7 @@ Fonte: Edital nº 1 — Câmara dos Deputados — Analista Legislativo, de 2 de 
 
 **Cargo 1 — Analista Legislativo — Especialidade: Comunicação Social — Área: Divulgação Institucional.**
 
-Requisito do edital: graduação em Comunicação Social com habilitação em Publicidade e Propaganda ou Propaganda e Marketing, além de registro no respectivo conselho de exercício profissional.
+Requisito após o Edital nº 5, de 15/10/2026: graduação em Comunicação Social com habilitação em Publicidade e Propaganda ou Propaganda e Marketing, além de **registro profissional no Ministério do Trabalho e Emprego (MTE)**. A redação original mencionava conselho de exercício profissional, substituída pela retificação. Conferir sempre a [página oficial de editais e retificações](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades).
 
 Remuneração: **R$ 32.070,88**. Jornada: **40 horas semanais**. Lotação exclusiva em **Brasília/DF**, em unidade administrativa de comunicação institucional.
 

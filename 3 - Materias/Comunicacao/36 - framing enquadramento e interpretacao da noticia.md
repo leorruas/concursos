@@ -93,7 +93,7 @@ A proximidade entre **framing e agenda-setting de atributos** é discutida na li
 
 **Framing × falsidade:** um fato pode ser verdadeiro e estar enquadrado; uma informação falsa pode fazer parte de um enquadramento, mas **não é condição do conceito**. **Framing × opinião explícita:** a escolha de fontes e a organização causal de uma matéria informativa podem contribuir para um enquadramento sem uma frase do tipo “sou favorável”.
 
-**Framing × gatekeeping:** gatekeeping estuda a **passagem, a rejeição ou a seleção de conteúdos** por agentes e regras do sistema. Framing estuda **como o conteúdo apresentado organiza a interpretação**. A edição pode envolver os dois processos: escolher um acontecimento e escolher como ele será narrado.
+**Framing × [[3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao|gatekeeping]]:** gatekeeping estuda a **passagem, a rejeição ou a seleção de conteúdos** por agentes e regras do sistema. Framing estuda **como o conteúdo apresentado organiza a interpretação**. A edição pode envolver os dois processos: escolher um acontecimento e escolher como ele será narrado.
 
 **Framing × função conativa de Jakobson:** solicitar participação pode ser conativo; enquadrar o assunto como direito de cidadania é uma dimensão distinta. Orientação da mensagem ao destinatário e organização interpretativa não são classificações concorrentes no mesmo eixo.
 

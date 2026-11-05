@@ -100,7 +100,7 @@ Assim, a força da teoria depende de **condições empíricas e do desenho de pe
 
 **Agenda-setting × gatekeeping:** gatekeeping investiga **a seleção e a passagem de informações para publicação**; agenda-setting investiga **a saliência de assuntos nos meios e entre os públicos**. A seleção editorial pode contribuir para a agenda de um veículo, mas os mecanismos não são idênticos.
 
-**Agenda-setting × framing:** agenda-setting em seu primeiro nível investiga **quais temas** recebem prioridade; framing investiga **como aspectos selecionados são articulados para orientar interpretações** sobre um problema, suas causas, avaliações ou soluções. O segundo nível do agendamento aproxima os conceitos, mas a fronteira deve ser explicada pelos critérios.
+**Agenda-setting × [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|framing]]:** agenda-setting em seu primeiro nível investiga **quais temas** recebem prioridade; framing investiga **como aspectos selecionados são articulados para orientar interpretações** sobre um problema, suas causas, avaliações ou soluções. O segundo nível do agendamento aproxima os conceitos, mas a fronteira deve ser explicada pelos critérios.
 
 **Agenda-setting × priming:** *priming* investiga como a atenção a certos assuntos pode alterar **os critérios utilizados para avaliar pessoas, políticas ou instituições**. Alguém pode passar a julgar um gestor principalmente pela questão da saúde após intensa cobertura. Isso não é idêntico a apenas considerar saúde importante.
 

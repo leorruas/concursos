@@ -255,10 +255,10 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-TC-007 · F2**: Modelos lineares, circulares e interacionais: critérios.
 - [x] **CAM-TC-008 · F2**: Escola de Chicago: comunicação, interação e sociedade.
 - [x] **CAM-TC-009 · F2**: Pesquisa administrativa e mass communication research.
-- [ ] **CAM-TC-010 · F2**: Lazarsfeld e o fluxo em duas etapas da comunicação.
-- [ ] **CAM-TC-011 · F2**: Agenda-setting: saliência e limites da influência.
-- [ ] **CAM-TC-012 · F2**: Framing: enquadramento e disputa de interpretação.
-- [ ] **CAM-TC-013 · F2**: Gatekeeping: seleção e mediação de informação.
+- [x] **CAM-TC-010 · F2**: Lazarsfeld e o fluxo em duas etapas da comunicação.
+- [x] **CAM-TC-011 · F2**: Agenda-setting: saliência e limites da influência.
+- [x] **CAM-TC-012 · F2**: Framing: enquadramento e disputa de interpretação.
+- [x] **CAM-TC-013 · F2**: Gatekeeping: seleção e mediação de informação.
 - [ ] **CAM-TC-014 · F2**: Teoria crítica e Escola de Frankfurt: indústria cultural.
 - [ ] **CAM-TC-015 · F3**: Estudos culturais: codificação, decodificação e recepção.
 - [ ] **CAM-TC-016 · F3**: McLuhan: meio, mensagem e consequências.
@@ -437,7 +437,7 @@ Criados como artigos canônicos independentes, com vínculos ao hub, ao índice 
 - [x] **CAM-TC-005**: [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|Shannon e Weaver: transmissão, informação, ruído e limites]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
 - [x] **CAM-TC-006**: [[3 - Materias/Comunicacao/30 - jakobson fatores e funcoes da linguagem|Roman Jakobson: seis fatores e seis funções da linguagem]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
 
-Este lote passou no build, na verificação de identidade, no catálogo de matérias, nos testes de links e na conferência do Pages ao vivo no [workflow 42121480267](https://github.com/leorruas/concursos/actions/runs/42121480267). Isto valida a existência editorial e técnica dos artigos, **sem representar estudo ou retenção**. O próximo artigo da trilha é **CAM-TC-007: modelos lineares, circulares e interacionais**, depois Escola de Chicago. 
+Este lote passou no build, na verificação de identidade, no catálogo de matérias, nos testes de links e na conferência do Pages ao vivo no [workflow 42121480267](https://github.com/leorruas/concursos/actions/runs/42121480267). Isto valida a existência editorial e técnica dos artigos, **sem representar estudo ou retenção**. A trilha foi desenvolvida nos lotes 3 e 4. 
 
 ## Lote 3: modelos interacionais, Chicago e pesquisa de massa
 
@@ -447,19 +447,19 @@ Artigos completos incorporados ao hub, índice e catálogo de Comunicação para
 - [x] **CAM-TC-008 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade|Escola de Chicago: comunicação, interação, cidade e públicos]] (`art-1b7f38ad90c2e546`).
 - [x] **CAM-TC-009 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|Mass communication research: pesquisa administrativa e efeitos]] (`art-6ac943e2b817d05f`).
 
-Este lote também corrige uma omissão no índice geral: os artigos TC-003 a TC-006 estavam vinculados ao catálogo mas não listados explicitamente em `index.md`. Próximo objeto: **CAM-TC-010, Lazarsfeld e o fluxo em duas etapas**.
+Este lote também corrige uma omissão no índice geral: os artigos TC-003 a TC-006 estavam vinculados ao catálogo mas não listados explicitamente em `index.md`. A continuidade desse núcleo foi realizada no lote 4a.
 
 ## Lote 4a: mediação interpessoal e saliência pública (TC-010 e TC-011)
 
-- [ ] **CAM-TC-010 · validação de publicação pendente**: [[3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao|Lazarsfeld: fluxo em duas etapas, líderes de opinião e influência pessoal]] (`art-c3b719f24a6e058d`). Nota completa vinculada ao catálogo da Câmara; conferir workflow do Pages e seus testes.
-- [ ] **CAM-TC-011 · validação de publicação pendente**: [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|Agenda-setting: saliência dos temas, agendas e limites da influência]] (`art-a6802d9f73c4b15e`). Nota completa vinculada ao catálogo da Câmara; conferir workflow do Pages e seus testes.
+- [x] **CAM-TC-010 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao|Lazarsfeld: fluxo em duas etapas, líderes de opinião e influência pessoal]] (`art-c3b719f24a6e058d`). Nota publicada no catálogo da Câmara, validada no [workflow 42130087651](https://github.com/leorruas/concursos/actions/runs/42130087651), com resultado **success**.
+- [x] **CAM-TC-011 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|Agenda-setting: saliência dos temas, agendas e limites da influência]] (`art-a6802d9f73c4b15e`). Nota publicada no catálogo da Câmara, validada no [workflow 42130087651](https://github.com/leorruas/concursos/actions/runs/42130087651), com resultado **success**.
 
-A produção editorial não cria progresso de estudo. Após este lote, continuar com enquadramento (TC-012) e seleção da informação (TC-013).
+Os artigos TC-010 e TC-011 tiveram identidade, catálogo, filtros e publicação ao vivo validados. A produção editorial não cria progresso de estudo.
 
 ## Lote 4b: enquadramento e seleção jornalística (TC-012 e TC-013)
 
-- [ ] **CAM-TC-012 · validação de publicação pendente**: [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|Framing: enquadramento, seleção de aspectos e interpretação]] (`art-d825a6f0bc139e47`). Artigo vinculado ao catálogo; conferir GitHub Actions e Pages.
-- [ ] **CAM-TC-013 · validação de publicação pendente**: [[3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao|Gatekeeping: seleção editorial, filtros e circulação de informação]] (`art-4e290c7b68d351af`). Artigo vinculado ao catálogo; conferir GitHub Actions e Pages.
+- [x] **CAM-TC-012 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|Framing: enquadramento, seleção de aspectos e interpretação]] (`art-d825a6f0bc139e47`). Artigo e catálogo publicados, validados no [workflow 42130631110](https://github.com/leorruas/concursos/actions/runs/42130631110), com resultado **success**.
+- [x] **CAM-TC-013 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao|Gatekeeping: seleção editorial, filtros e circulação de informação]] (`art-4e290c7b68d351af`). Artigo e catálogo publicados, validados no [workflow 42130631110](https://github.com/leorruas/concursos/actions/runs/42130631110), com resultado **success**.
 
 Além das notas inéditas, foi refinada a [[3 - Materias/Comunicacao/04 - criterios de noticiabilidade|nota canônica de noticiabilidade]] para separar os valores-notícia do processo geral de gatekeeping e corrigir a limitação à seleção inicial.
 

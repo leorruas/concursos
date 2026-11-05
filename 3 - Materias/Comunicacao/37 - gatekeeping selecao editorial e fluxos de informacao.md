@@ -20,7 +20,7 @@ A teoria ajuda a entender a produção jornalística, mas sua aplicação foi am
 
 **Exemplo:** uma redação recebe 100 sugestões de pauta. Só algumas são selecionadas; outras chegam à apuração, mas não são publicadas; algumas notícias publicadas recebem destaque e outras ficam pouco visíveis. Os filtros são diferentes **por etapa, agente e motivo**. Gatekeeping pergunta **como eles operam**.
 
-Pré-requisitos: [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|mass communication research]], [[3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao|teoria, modelo e paradigma]], [[3 - Materias/Comunicacao/4 - criterios de noticiabilidade|critérios de noticiabilidade]]. A distinção com [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|agenda-setting]] e framing é construída ao final.
+Pré-requisitos: [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|mass communication research]], [[3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao|teoria, modelo e paradigma]], [[3 - Materias/Comunicacao/04 - criterios de noticiabilidade|critérios de noticiabilidade]]. A distinção com [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|agenda-setting]] e [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|framing]] é construída ao final.
 
 ## Origem e evolução: quem estudou o quê?
 
@@ -71,7 +71,7 @@ Esta é uma **estrutura didática** para reconhecer as variáveis do processo, n
 
 **Fronteira importante:** noticiabilidade **não comprova verdade**. Uma alegação surpreendente pode parecer jornalisticamente relevante e exigir confirmação rigorosa; o filtro de verificabilidade é distinto de priorizar assunto de grande impacto.
 
-Relação com [[3 - Materias/Comunicacao/4 - criterios de noticiabilidade|critérios de noticiabilidade]]: critérios de noticiabilidade e seus exemplos são desenvolvidos em nota própria, reaproveitada para mais de um edital.
+Relação com [[3 - Materias/Comunicacao/04 - criterios de noticiabilidade|critérios de noticiabilidade]]: critérios de noticiabilidade e seus exemplos são desenvolvidos em nota própria, reaproveitada para mais de um edital.
 
 ## Seleção inicial e filtros ao longo do trabalho
 
@@ -152,6 +152,6 @@ Para examinar a comunicação pública, identificar onde se selecionam assuntos 
 - [Reese e Ballinger, *The Roots of a Sociology of News: Remembering Mr. Gates and Social Control in the Newsroom* (2001)](https://journalism.utexas.edu/sites/default/files/sites/journalism.utexas.edu/files/attachments/reese/reese-and-ballinger-copy.pdf). Discussão histórica de White (1950) e Breed (1955).
 - [*Shifting Circles: Reconceptualizing Shoemaker and Reese’s Theory of a Hierarchy of Influences on Media Content for a Newer Media Era* (2011)](https://wjmcr.info/2011/02/01/shifting-circles-reconceptualizing-shoemaker-and-reeses-theory-of-a-hierarchy-of-influences-on-media-content-for-a-newer-media-era/).
 - Barzilai-Nahon, Karine. [*Toward a Theory of Network Gatekeeping* (2008), *Journal of the American Society for Information Science and Technology*](https://doi.org/10.1002/asi.20857).
-- [[3 - Materias/Comunicacao/4 - criterios de noticiabilidade|critérios de noticiabilidade]]; [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|agenda-setting]]; [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|Edital da Câmara, Teorias da Comunicação]].
+- [[3 - Materias/Comunicacao/04 - criterios de noticiabilidade|critérios de noticiabilidade]]; [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|agenda-setting]]; [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|Edital da Câmara, Teorias da Comunicação]].
 
 O caso de uma audiência é hipotético. A tabela de seis elementos e a sequência do caso são recursos didáticos, não estruturas literais atribuídas a White.

@@ -18,15 +18,19 @@ Economia do setor público e fundamentos fiscais: bens públicos, externalidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
-| 01 | Economia do setor público: funções alocativa/distributiva/estabilizadora, bens públicos, externalidades, tributação e resultado fiscal. | **Lacuna P3.2.1.1 e cobertura parcial P3.2.1.2**, conforme [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|auditoria de 04/11/2026]]. Criar conteúdo canônico de Economia do Setor Público, sem duplicar Orçamento |
+| 01 | Economia do setor público: funções alocativa/distributiva/estabilizadora, bens públicos, externalidades, tributação e resultado fiscal. | [[3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado|Funções econômicas do Estado, bens públicos e falhas de mercado]] **publicado para P3.2.1.1**; P3.2.1.2 (**tributação e financiamento fiscal**) permanece parcial. Ver [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|auditoria temática]] |
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 
-**Verificação documental:** a [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|matriz de 18 subitens do edital]] identificou ausência de nota desenvolvida para funções do Estado, bens públicos, externalidades e federalismo fiscal. A prioridade é preencher esse núcleo e aprofundar tributação e indicadores fiscais; nenhum status de estudo foi alterado.
+**Verificação documental:** a [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|matriz dos 18 subitens]] identificou inicialmente a lacuna 1.1, atendida editorialmente por [[3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado|Funções econômicas do Estado, bens públicos e falhas de mercado]]. **P3.2.1.2** ainda exige incidência tributária, progressividade/regressividade e necessidades de financiamento; nenhum estudo ou desempenho foi registrado.
 
 ## Fronteiras prioritárias
 
 Função alocativa × distributiva × estabilizadora; bem público × bem provido pelo Estado; resultado fiscal × sustentabilidade. São distinções a desenvolver nos artigos e nos treinos, conforme as fontes aplicáveis. Não são resultados observados de desempenho do estudante.
+
+## Artigos e referências
+
+- [[3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado|Funções econômicas do Estado, bens públicos e falhas de mercado]]: Musgrave, bens públicos, externalidades, monopólios naturais e federalismo fiscal.
 
 ## Referências já disponíveis no vault
 

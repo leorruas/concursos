@@ -117,6 +117,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Direito Administrativo/11 - controle da administracao publica|11 • Controle da Administração Pública]]
 9. [[3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia|Evidências, dados e inteligência artificial]]
 10. [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]]
+   - [[3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado|01 • Funções econômicas do Estado e falhas de mercado]]
 11. [[3 - Materias/Orcamento Publico/orcamento-publico|Orçamento Público]]
    - [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|01 • Orçamento público e ciclo orçamentário]]
    - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02 • PPA, LDO e LOA]]

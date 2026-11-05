@@ -315,6 +315,31 @@
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
       "scope": "Transparência e sigilo na fiscalização das estatais",
       "verifiedAt": "2026-11-04"
+    },
+    "fmi-funcoes-fiscais": {
+      "label": "FMI: Fiscal Policy and Macroeconomic Management, funções econômicas de Musgrave",
+      "url": "https://www.elibrary.imf.org/abstract/book/9781589060944/ch08.xml",
+      "scope": "Alocação, distribuição e estabilização; distinções teóricas na preparação CGU",
+      "verifiedAt": "2026-11-04"
+    },
+    "oecd-federalismo": {
+      "label": "OCDE: Fiscal Federalism 2022, descentralização e equalização",
+      "url": "https://www.oecd.org/en/publications/fiscal-federalism-2022_201c75b6-en/full-report/component-4.html",
+      "relatedUrl": "https://www.oecd.org/en/publications/fiscal-federalism-2022_201c75b6-en/full-report/component-5.html",
+      "scope": "Descentralização, desequilíbrios vertical/horizontal, externalidades e transferências",
+      "verifiedAt": "2026-11-04"
+    },
+    "openstax-bens-publicos": {
+      "label": "OpenStax: Public Goods",
+      "url": "https://openstax.org/books/principles-economics-3e/pages/13-3-public-goods",
+      "scope": "Rivalidade, exclusão, problema de carona e classificação econômica",
+      "verifiedAt": "2026-11-04"
+    },
+    "openstax-monopolios-naturais": {
+      "label": "OpenStax: Regulating Natural Monopolies",
+      "url": "https://openstax.org/books/principles-microeconomics-3e/pages/11-3-regulating-natural-monopolies?message=retired",
+      "scope": "Custos fixos, custo marginal e médio; eficiência e cobertura de custos na regulação",
+      "verifiedAt": "2026-11-04"
     }
   },
   "subjects": [
@@ -1802,14 +1827,19 @@
             "P3.2.1"
           ],
           "noteRefs": [
+            "3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [],
           "sourceIds": [
-            "edital"
+            "edital",
+            "fmi-funcoes-fiscais",
+            "oecd-federalismo",
+            "openstax-bens-publicos",
+            "openstax-monopolios-naturais"
           ],
           "coverage": "parcial",
-          "noteRole": "auditoria-p3-2-1-1-lacuna-funcoes-estado-externalidades-bens-publicos-1-2-parcial-tributacao-financiamento"
+          "noteRole": "p3-2-1-1-funcoes-bens-externalidades-monopolio-federalismo-substantivo-p3-2-1-2-tributacao-financiamento-parcial"
         }
       ],
       "requiresSubjects": []

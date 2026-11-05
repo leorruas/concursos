@@ -18,19 +18,20 @@ Economia do setor público e fundamentos fiscais: bens públicos, externalidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
-| 01 | Economia do setor público: funções alocativa/distributiva/estabilizadora, bens públicos, externalidades, tributação e resultado fiscal. | [[3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado|Funções econômicas do Estado, bens públicos e falhas de mercado]] **publicado para P3.2.1.1**; P3.2.1.2 (**tributação e financiamento fiscal**) permanece parcial. Ver [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|auditoria temática]] |
+| 01 | Economia do setor público: funções alocativa/distributiva/estabilizadora, bens públicos, externalidades, tributação e resultado fiscal. | [[3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado|Artigo 01]] para **P3.2.1.1** e [[3 - Materias/Financas Publicas/02 - tributacao incidencia economica e equidade|Tributação, incidência econômica e equidade]] para **P3.2.1.2**, com [[3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica|política fiscal]] como referência complementar. Cobertura **substantiva, sem validação de aprendizagem** |
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 
-**Verificação documental:** a [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|matriz dos 18 subitens]] identificou inicialmente a lacuna 1.1, atendida editorialmente por [[3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado|Funções econômicas do Estado, bens públicos e falhas de mercado]]. **P3.2.1.2** ainda exige incidência tributária, progressividade/regressividade e necessidades de financiamento; nenhum estudo ou desempenho foi registrado.
+**Verificação documental:** a [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|matriz dos 18 subitens]] identificou inicialmente lacunas em 1.1 e 1.2. O **artigo 01** cobre alocação, falhas de mercado e federalismo, enquanto [[3 - Materias/Financas Publicas/02 - tributacao incidencia economica e equidade|Tributação, incidência econômica e equidade]] desenvolve **incidência, progressividade, equidade, neutralidade e necessidades de financiamento**. Ambos foram publicados editorialmente; **revisão de fontes/casos de prova e estudo real seguem pendentes**.
 
 ## Fronteiras prioritárias
 
-Função alocativa × distributiva × estabilizadora; bem público × bem provido pelo Estado; resultado fiscal × sustentabilidade. São distinções a desenvolver nos artigos e nos treinos, conforme as fontes aplicáveis. Não são resultados observados de desempenho do estudante.
+Função alocativa × distributiva × estabilizadora; bem público econômico × provisão estatal; **incidência legal × econômica, taxa média × marginal, progressividade × neutralidade, resultado primário × nominal e NFSP × emissão de dívida**. São categorias presentes em notas, não resultados observados de desempenho.
 
 ## Artigos e referências
 
 - [[3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado|Funções econômicas do Estado, bens públicos e falhas de mercado]]: Musgrave, bens públicos, externalidades, monopólios naturais e federalismo fiscal.
+- [[3 - Materias/Financas Publicas/02 - tributacao incidencia economica e equidade|Tributação, incidência econômica e equidade]]: repasse e elasticidades, progressividade, neutralidade e ponte para as NFSP.
 
 ## Referências já disponíveis no vault
 

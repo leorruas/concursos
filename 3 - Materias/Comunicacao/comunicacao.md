@@ -25,7 +25,11 @@ Os dois primeiros artigos iniciaram o **piloto da fase F1** do [[1 - Planejament
 - [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|29. Shannon e Weaver]]: fonte, transmissor, canal, receptor, destino, ruído, entropia e níveis de análise.
 - [[3 - Materias/Comunicacao/30 - jakobson fatores e funcoes da linguagem|30. Jakobson]]: seis fatores, seis funções e predominância sem exclusividade.
 
-A sequência TC-001 a TC-006 está disponível como base de estudo. Outras teorias do edital seguem pendentes no plano. A publicação editorial não comprova estudo ou retenção.
+- [[3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao|31. Modelos lineares, circulares e transacionais da comunicação]]: CAM-TC-007.
+- [[3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade|32. Escola de Chicago: comunicação, interação, cidade e públicos]]: CAM-TC-008.
+- [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|33. Mass communication research: pesquisa administrativa e efeitos]]: CAM-TC-009.
+
+A trilha TC-001 a TC-009 progride dos fundamentos da mensagem aos modelos e às tradições de investigação. O próximo núcleo é Lazarsfeld e o fluxo em duas etapas (TC-010); a conclusão editorial não comprova estudo nem retenção. A publicação editorial não comprova estudo ou retenção.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

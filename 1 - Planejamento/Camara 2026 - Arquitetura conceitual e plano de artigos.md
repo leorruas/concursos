@@ -439,6 +439,16 @@ Criados como artigos canônicos independentes, com vínculos ao hub, ao índice 
 
 Este lote passou no build, na verificação de identidade, no catálogo de matérias, nos testes de links e na conferência do Pages ao vivo no [workflow 42121480267](https://github.com/leorruas/concursos/actions/runs/42121480267). Isto valida a existência editorial e técnica dos artigos, **sem representar estudo ou retenção**. O próximo artigo da trilha é **CAM-TC-007: modelos lineares, circulares e interacionais**, depois Escola de Chicago. 
 
+## Lote 3: modelos interacionais, Chicago e pesquisa de massa
+
+Artigos redigidos e incorporados ao hub, índice e catálogo de Comunicação para a Câmara. A criação no repositório não prova publicação ao vivo nem aprendizagem real.
+
+- [ ] **CAM-TC-007 · publicação pendente**: [[3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao|Modelos lineares, circulares e transacionais da comunicação]] (`art-943fb6a178d205ec`).
+- [ ] **CAM-TC-008 · publicação pendente**: [[3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade|Escola de Chicago: comunicação, interação, cidade e públicos]] (`art-1b7f38ad90c2e546`).
+- [ ] **CAM-TC-009 · publicação pendente**: [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|Mass communication research: pesquisa administrativa e efeitos]] (`art-6ac943e2b817d05f`).
+
+Este lote também corrige uma omissão no índice geral: os artigos TC-003 a TC-006 estavam vinculados ao catálogo mas não listados explicitamente em `index.md`. Próximo objeto: **CAM-TC-010, Lazarsfeld e o fluxo em duas etapas**.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

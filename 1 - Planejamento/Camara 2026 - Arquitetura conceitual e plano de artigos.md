@@ -465,6 +465,13 @@ Além das notas inéditas, foi refinada a [[3 - Materias/Comunicacao/04 - criter
 
 Próximo núcleo: **CAM-TC-014, teoria crítica e Escola de Frankfurt**, mantendo a distinção entre tradição, autor e conceito.
 
+## Lote 5: teoria crítica e estudos culturais (TC-014 e TC-015)
+
+- [ ] **CAM-TC-014 · publicação pendente**: [[3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural|Escola de Frankfurt, teoria crítica e indústria cultural]] (`art-7ce2f05b3ad91486`). Artigo completo, vinculado ao catálogo da Câmara; aguardando confirmação de testes e Pages.
+- [ ] **CAM-TC-015 · publicação pendente**: [[3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao|Estudos culturais e Stuart Hall: codificação, decodificação e recepção]] (`art-b39da4815f7e0c26`). Artigo completo, vinculado ao catálogo da Câmara; aguardando confirmação de testes e Pages.
+
+**Conceitos de fronteira:** escola/tradição versus conceito de indústria cultural; padronização versus pseudoindividualização; Benjamin versus Adorno; codificação versus decodificação; posições dominante, negociada e oposicional; diferença textual entre versões de 1973 e 1980 de Hall. Próxima tarefa editorial: **CAM-TC-016, McLuhan**. Nenhuma publicação comprova estudo individual.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

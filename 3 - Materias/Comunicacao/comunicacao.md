@@ -35,7 +35,10 @@ Os dois primeiros artigos iniciaram o **piloto da fase F1** do [[1 - Planejament
 - [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|36. Framing: enquadramento, seleção de aspectos e interpretação]]: CAM-TC-012, estrutura, exemplos e C/E comentados.
 - [[3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao|37. Gatekeeping: seleção editorial, filtros e circulação de informação]]: CAM-TC-013, estrutura, exemplos e C/E comentados.
 
-A trilha TC-001 a TC-013 está vinculada à Câmara: fundamentos, modelos, influência pessoal, agendas, enquadramentos e seleção jornalística. O próximo núcleo é teoria crítica e Escola de Frankfurt (TC-014). O vínculo editorial não registra domínio individual. A publicação editorial não comprova estudo ou retenção.
+- [[3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural|38. Escola de Frankfurt, teoria crítica e indústria cultural]]: CAM-TC-014, conceitos, autores e critérios de classificação.
+- [[3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao|39. Estudos culturais e Stuart Hall: codificação, decodificação e recepção]]: CAM-TC-015, conceitos, autores e critérios de classificação.
+
+A trilha TC-001 a TC-015 inclui agora teoria crítica e estudos culturais, preservando distinções entre condições de produção e interpretação dos públicos. Próximo tema: McLuhan (TC-016). Publicação não equivale a estudo ou domínio individual. A publicação editorial não comprova estudo ou retenção.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

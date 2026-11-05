@@ -279,6 +279,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|Agenda-setting: saliência dos temas, agendas e limites da influência]]
   - [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|Framing: enquadramento, seleção de aspectos e interpretação]]
   - [[3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao|Gatekeeping: seleção editorial, filtros e circulação de informação]]
+  - [[3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural|Escola de Frankfurt, teoria crítica e indústria cultural]]
+  - [[3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao|Estudos culturais e Stuart Hall: codificação, decodificação e recepção]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

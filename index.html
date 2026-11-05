@@ -165,7 +165,25 @@
     <link rel="stylesheet" href="style.css?v=comments-v2">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script type="module">
+        // Versão fixa e módulo ESM: Mermaid 10+ mudou o formato recomendado.
+        import("https://cdn.jsdelivr.net/npm/mermaid@11.15.0/dist/mermaid.esm.min.mjs")
+            .then(({ default: bibliotecaMermaid }) => {
+                window.mermaid = bibliotecaMermaid;
+                if (document.querySelector('#artigo-corpo .mermaid, #artigo-corpo pre > code.language-mermaid')) {
+                    renderizarDiagramasMermaid();
+                }
+            })
+            .catch(erro => {
+                console.error("Não foi possível carregar Mermaid:", erro);
+                document.querySelectorAll('#artigo-corpo pre > code.language-mermaid').forEach(elemento => {
+                    const aviso = document.createElement("p");
+                    aviso.className = "mermaid-erro";
+                    aviso.textContent = "Não foi possível carregar a biblioteca de diagramas.";
+                    elemento.parentElement.before(aviso);
+                });
+            });
+    </script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
 </head>

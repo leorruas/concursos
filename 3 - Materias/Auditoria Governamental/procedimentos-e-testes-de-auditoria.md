@@ -5,7 +5,7 @@ title: "Procedimentos e testes de auditoria"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Procedimentos e testes de auditoria
@@ -30,6 +30,27 @@ No MOT, seção **4.3.4.3**, a **natureza** do procedimento possui dois eixos:
 | **Tipo ou técnica** | Inspeção, observação, indagação, confirmação externa, recálculo, reexecução, análise etc. | **Como** o exame é realizado, independentemente de sua finalidade |
 
 As duas classificações **se combinam**: inspeção documental pode ser usada para testar se autorizações foram realizadas de forma consistente ou para verificar a ocorrência de um pagamento.
+
+### Mapa: finalidade e técnica são classificações diferentes
+
+```mermaid
+flowchart TD
+    P["Procedimentos de auditoria"]:::raiz
+    P --> F["Finalidade: para quê testar?"]:::criterio
+    P --> T["Técnica: como examinar?"]:::criterio
+    F --> C["Teste de controle<br/>Desenho e funcionamento"]:::opcao
+    F --> D["Teste substantivo de detalhes<br/>Operações e registros"]:::opcao
+    F --> A["Procedimento analítico substantivo<br/>Relações e expectativas"]:::opcao
+    T --> I["Inspeção ou observação"]:::opcao
+    T --> E["Indagação ou confirmação externa"]:::opcao
+    T --> R["Recálculo ou reexecução"]:::opcao
+    T --> V["Rastreamento ou vouching"]:::opcao
+    classDef raiz fill:#f59e0b,stroke:#b45309,color:#111111
+    classDef criterio fill:#fff2d9,stroke:#b45309,color:#3d2207
+    classDef opcao fill:#fffbeb,stroke:#b68d58,color:#1c1917
+```
+
+As técnicas ilustradas **não são categorias exclusivas** nem correspondem uma a uma às finalidades: a inspeção de autorizações pode testar um **controle**, enquanto a inspeção de comprovantes pode constituir teste **substantivo de detalhes**. A análise de relações entre dados também pode servir ao planejamento, sem finalidade substantiva. Além da natureza (finalidade e técnica), o programa estabelece a **época** e a **extensão** dos exames, conforme o objetivo do trabalho.
 
 ### Teste de controle: desenho versus efetividade operacional
 

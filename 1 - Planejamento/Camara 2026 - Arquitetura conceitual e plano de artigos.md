@@ -259,8 +259,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-TC-011 · F2**: Agenda-setting: saliência e limites da influência.
 - [x] **CAM-TC-012 · F2**: Framing: enquadramento e disputa de interpretação.
 - [x] **CAM-TC-013 · F2**: Gatekeeping: seleção e mediação de informação.
-- [ ] **CAM-TC-014 · F2**: Teoria crítica e Escola de Frankfurt: indústria cultural.
-- [ ] **CAM-TC-015 · F3**: Estudos culturais: codificação, decodificação e recepção.
+- [x] **CAM-TC-014 · F2**: Teoria crítica e Escola de Frankfurt: indústria cultural.
+- [x] **CAM-TC-015 · F3**: Estudos culturais: codificação, decodificação e recepção.
 - [ ] **CAM-TC-016 · F3**: McLuhan: meio, mensagem e consequências.
 - [ ] **CAM-TC-017 · F3**: Semiótica e produção de significação.
 - [ ] **CAM-TC-018 · F3**: Opinião pública: conceitos e formação social.
@@ -433,9 +433,9 @@ Os dois primeiros artigos foram gravados no repositório e tiveram o build e o c
 Criados como artigos canônicos independentes, com vínculos ao hub, ao índice e à matéria virtual Comunicação da Câmara, sem marcar estudo pessoal:
 
 - [x] **CAM-TC-003**: [[3 - Materias/Comunicacao/27 - contexto e interpretacao da mensagem|Contexto e interpretação na situação comunicativa]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo confirmadas no [workflow 42121480267](https://github.com/leorruas/concursos/actions/runs/42121480267), concluído com sucesso em 05/11/2026.
-- [x] **CAM-TC-004**: [[3 - Materias/Comunicacao/28 - lasswell cinco perguntas funcoes e efeitos|Harold Lasswell: cinco perguntas, áreas de análise e funções sociais]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
-- [x] **CAM-TC-005**: [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|Shannon e Weaver: transmissão, informação, ruído e limites]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
-- [x] **CAM-TC-006**: [[3 - Materias/Comunicacao/30 - jakobson fatores e funcoes da linguagem|Roman Jakobson: seis fatores e seis funções da linguagem]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
+- [x] **CAM-TC-004**: [[3 - Materias/Comunicacao/28 - lasswell cinco perguntas funcoes e efeitos|Harold Lasswell: cinco perguntas, áreas de análise e funções sociais]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo verificadas no [workflow 42121480267](https://github.com/leorruas/concursos/actions/runs/42121480267).
+- [x] **CAM-TC-005**: [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|Shannon e Weaver: transmissão, informação, ruído e limites]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo verificadas no [workflow 42121480267](https://github.com/leorruas/concursos/actions/runs/42121480267).
+- [x] **CAM-TC-006**: [[3 - Materias/Comunicacao/30 - jakobson fatores e funcoes da linguagem|Roman Jakobson: seis fatores e seis funções da linguagem]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo verificadas no [workflow 42121480267](https://github.com/leorruas/concursos/actions/runs/42121480267).
 
 Este lote passou no build, na verificação de identidade, no catálogo de matérias, nos testes de links e na conferência do Pages ao vivo no [workflow 42121480267](https://github.com/leorruas/concursos/actions/runs/42121480267). Isto valida a existência editorial e técnica dos artigos, **sem representar estudo ou retenção**. A trilha foi desenvolvida nos lotes 3 e 4. 
 
@@ -463,12 +463,12 @@ Os artigos TC-010 e TC-011 tiveram identidade, catálogo, filtros e publicação
 
 Além das notas inéditas, foi refinada a [[3 - Materias/Comunicacao/04 - criterios de noticiabilidade|nota canônica de noticiabilidade]] para separar os valores-notícia do processo geral de gatekeeping e corrigir a limitação à seleção inicial.
 
-Próximo núcleo: **CAM-TC-014, teoria crítica e Escola de Frankfurt**, mantendo a distinção entre tradição, autor e conceito.
+O núcleo de teoria crítica e estudos culturais foi realizado no lote 5, mantendo a distinção entre tradição, autor e conceito.
 
 ## Lote 5: teoria crítica e estudos culturais (TC-014 e TC-015)
 
-- [ ] **CAM-TC-014 · publicação pendente**: [[3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural|Escola de Frankfurt, teoria crítica e indústria cultural]] (`art-7ce2f05b3ad91486`). Artigo completo, vinculado ao catálogo da Câmara; aguardando confirmação de testes e Pages.
-- [ ] **CAM-TC-015 · publicação pendente**: [[3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao|Estudos culturais e Stuart Hall: codificação, decodificação e recepção]] (`art-b39da4815f7e0c26`). Artigo completo, vinculado ao catálogo da Câmara; aguardando confirmação de testes e Pages.
+- [x] **CAM-TC-014 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural|Escola de Frankfurt, teoria crítica e indústria cultural]] (`art-7ce2f05b3ad91486`). Artigo, catálogo e publicação no Pages validados no [workflow 42132273340](https://github.com/leorruas/concursos/actions/runs/42132273340), concluído com sucesso em 05/11/2026.
+- [x] **CAM-TC-015 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao|Estudos culturais e Stuart Hall: codificação, decodificação e recepção]] (`art-b39da4815f7e0c26`). Artigo, catálogo e publicação no Pages validados no [workflow 42132273340](https://github.com/leorruas/concursos/actions/runs/42132273340), concluído com sucesso em 05/11/2026.
 
 **Conceitos de fronteira:** escola/tradição versus conceito de indústria cultural; padronização versus pseudoindividualização; Benjamin versus Adorno; codificação versus decodificação; posições dominante, negociada e oposicional; diferença textual entre versões de 1973 e 1980 de Hall. Próxima tarefa editorial: **CAM-TC-016, McLuhan**. Nenhuma publicação comprova estudo individual.
 

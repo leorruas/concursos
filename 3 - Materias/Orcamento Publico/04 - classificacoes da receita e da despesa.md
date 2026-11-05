@@ -51,9 +51,10 @@ flowchart TB
     O --> OE["Extraorçamentária<br/>Ex.: ARO"]
     D --> DO["Originária"]
     D --> DD["Derivada"]
-    classDef raiz fill:#164e82,stroke:#6fb5f2,color:#fff,stroke-width:2px;
-    classDef criterio fill:#283b52,stroke:#64a9e9,color:#fff,stroke-width:1.5px;
-    classDef opcao fill:#e3f2ff,stroke:#2874b9,color:#153650;
+    %% Fallback de alto contraste para Obsidian/GitHub; o site adapta as cores via CSS.
+    classDef raiz fill:#f59e0b,stroke:#92400e,color:#111111,stroke-width:2px;
+    classDef criterio fill:#292524,stroke:#f59e0b,color:#ffffff,stroke-width:1.5px;
+    classDef opcao fill:#fffbeb,stroke:#b45309,color:#1c1917;
     class R raiz;
     class N,F,P,O,D criterio;
     class NC,NK,FV,FL,PP,PF,OO,OE,DO,DD opcao;
@@ -173,9 +174,10 @@ flowchart TB
     X --> Q["Dimensão quantitativa<br/>Quanto será feito e autorizado?"]
     Q --> Q1["Meta física<br/>Quantidade de produto / serviço"]
     Q --> Q2["Dotação financeira<br/>Valor autorizado"]
-    classDef raiz fill:#164e82,stroke:#6fb5f2,color:#fff,stroke-width:2px;
-    classDef criterio fill:#283b52,stroke:#64a9e9,color:#fff,stroke-width:1.5px;
-    classDef opcao fill:#e3f2ff,stroke:#2874b9,color:#153650;
+    %% Fallback de alto contraste para Obsidian/GitHub; o site adapta as cores via CSS.
+    classDef raiz fill:#f59e0b,stroke:#92400e,color:#111111,stroke-width:2px;
+    classDef criterio fill:#292524,stroke:#f59e0b,color:#ffffff,stroke-width:1.5px;
+    classDef opcao fill:#fffbeb,stroke:#b45309,color:#1c1917;
     class X raiz;
     class E,I,FU,PR,NA,FO,Q criterio;
     class E1,E2,E3,I1,I2,FU1,FU2,PR1,PR2,PR3,NA1,NA2,NA3,NA4,FO1,Q1,Q2 opcao;

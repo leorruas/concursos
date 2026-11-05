@@ -12,7 +12,7 @@ updated: 2026-11-05
 
 Planejamento de glossário para **CGU 2026, cargo 1, Auditoria, Cebraspe (Certo/Errado)**. O recorte prioriza conceitos, siglas, etapas, classificações e fronteiras que podem gerar interpretações erradas. As prioridades A/B/C reproduzem a decisão editorial do [[1 - Planejamento/CGU 2026 - Plano de materias|plano de matérias]], **não indicam frequência comprovada de cobrança**. Escopo conferido com [[2 - Editais/CGU 2026 - Auditoria|edital sintetizado no vault]] e [edital no Cebraspe](https://www.cebraspe.org.br/concursos/cgu_26_affc).
 
-**Estado editorial em 05/11/2026:** **288 termos planejados**, incluindo os 200 iniciais, 58 conceitos de classificações e 30 verbetes adicionais de execução e controle, com **173 definições revisadas** no JSON público: 35 de Auditoria, 113 de Orçamento e 25 de Contabilidade. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
+**Estado editorial em 05/11/2026:** **295 termos planejados**, incluindo os 200 iniciais e mais 95 conceitos de Orçamento, com **180 definições revisadas** no JSON público: 35 de Auditoria, 120 de Orçamento e 25 de Contabilidade. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
 
 ## Onde o glossário aparecerá na wiki
 
@@ -20,7 +20,7 @@ A página será independente das notas de estudo e obedecerá à seleção de co
 
 Rota proposta de índice: `#/glossario?concurso=cgu-2026`. Link permanente de entrada: `#/glossario/<termoId>?concurso=cgu-2026`. Estas rotas **estão implementadas** no parser, no histórico e no roteador existentes. Preservar as rotas amigáveis dos artigos `#/artigo/<articleSlug>` e seu contexto de concurso.
 
-O **site terá uma lista compacta**, com campo de pesquisa, índice alfabético, filtros por assunto e por P1/P2/P3, contador de resultados e expansão por item. Só aparecem entradas revisadas, evitando centenas de cartões vazios. Nas telas pequenas: lista de uma coluna, filtros recolhíveis e busca sempre localizável. Usar texto, sem ícones decorativos.
+O **site tem uma lista compacta**, com campo de pesquisa, índice alfabético, filtros combináveis por bloco P1/P2/P3, matéria e **artigo**, contador de resultados e expansão por item. O seletor de artigo lista apenas notas já vinculadas a pelo menos um verbete revisado, com contador por artigo, e se atualiza quando a matéria ou o bloco mudam. A organização pode alternar entre **por termo (A–Z)** e **por artigo**, com agrupamentos identificados pelo título e ligação ao artigo canônico. Só aparecem entradas revisadas, evitando centenas de cartões vazios. Nas telas pequenas: lista de uma coluna, filtros recolhíveis e busca sempre localizável. Usar texto, sem ícones decorativos.
 
 O registro aberto oferecerá termo, sigla por extenso, definição breve, diferença em relação ao vizinho conceitual, pegadinha de julgamento C/E quando pertinente, exemplo e fonte, além de vínculo ao artigo canônico. O glossário é uma ferramenta de **consulta**, não substitui as notas aprofundadas.
 
@@ -198,11 +198,13 @@ A diferença decisiva para o Cebraspe: **corrente/capital** é categoria econôm
 
 **Novo lote de execução e controle (30 definições):** acrescenta receitas efetivas/não efetivas, lançamento e recolhimento, três modalidades de empenho, dotação, nota, ordem de pagamento, restos a pagar a liquidar/em liquidação, suprimento de fundos, fontes de créditos adicionais, reabertura, emendas parlamentares, transferências, RREO, RGF, anexos e limites de pessoal. O catálogo passa a **173/288** e Orçamento a **113**. As definições foram separadas em `data/glossario/termos/orcamento-publico-complementos.json`, preservando os 83 registros do arquivo anterior para facilitar novos lotes. A numeração de fases seguintes permanece como trilha temática original, com totais acumulados recalculados.
 
-**Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (**223** no total).
+**Refinamento por artigo e mais 7 conceitos (05/11/2026):** filtro por artigo, organização agrupada por nota e 7 verbetes identificados nos artigos existentes, sem duplicação: regra de ouro, renúncia de receita, despesa obrigatória de caráter continuado, bloqueio de dotação, empresa estatal dependente, empresa controlada e despesa total com pessoal. Os termos adicionais ficam em `data/glossario/termos/orcamento-publico-fiscal.json`. O total chega a **180/295**, incluindo **120 de Orçamento**. O vínculo usa IDs canônicos de artigos; o agrupamento apresenta cada conceito apenas uma vez, pelo primeiro artigo vinculado, enquanto o filtro considera todos os vínculos. A abertura de um verbete na lista filtrada preserva a seleção, inclusive por meio do link permanente.
 
-**Fase 4:** outras **40 definições** de Governança, Transparência, Evidências/IA e Finanças (**263** no total).
+**Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (**230** no total).
 
-**Fase 5:** **25 definições** de Direito Administrativo, Estado e Democracia, Ética, Administração Pública e Sociedade Brasileira, completando **288** (200 iniciais mais 88 de ampliação).
+**Fase 4:** outras **40 definições** de Governança, Transparência, Evidências/IA e Finanças (**270** no total).
+
+**Fase 5:** **25 definições** de Direito Administrativo, Estado e Democracia, Ética, Administração Pública e Sociedade Brasileira, completando **295** (200 iniciais mais 95 de ampliação).
 
 A ordem é revisável se o estudo revelar lacuna de maior prioridade. O contador na interface mostrará apenas entradas **revisadas e efetivamente publicadas**.
 

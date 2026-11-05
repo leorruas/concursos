@@ -1,17 +1,42 @@
 // Consulta pública: dados revisados gerados pelo build. Nenhum resultado pessoal.
-const glossarioState = { data: null, pending: null, query: '', block: '', subject: '', letter: '', openId: '', connected: false };
+const glossarioState = { data: null, pending: null, query: '', block: '', subject: '', article: '', organization: 'termo', letter: '', openId: '', connected: false };
 function normalizarGlossario(valor) {
     return String(valor || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
 }
-function filtrarTermosGlossario(terms, query = '', block = '', subject = '') {
+function filtrarTermosGlossario(terms, query = '', block = '', subject = '', article = '') {
     const seek = normalizarGlossario(query);
     return (terms || []).filter(term => {
         if (block && !String(term.examBlock || '').split('/').includes(block)) return false;
         if (subject && !(term.subjectIds || []).includes(subject)) return false;
+        if (article && !(term.articleIds || []).includes(article)) return false;
         if (!seek) return true;
         return [term.term, ...(term.aliases || []), term.definition, term.contrast]
             .some(value => normalizarGlossario(value).includes(seek));
     });
+}
+function listarArtigosGlossario(terms, block = '', subject = '') {
+    const articles = new Map();
+    for (const term of filtrarTermosGlossario(terms, '', block, subject)) {
+        for (const article of term.articleLinks || []) {
+            const existing = articles.get(article.articleId);
+            if (existing) existing.count += 1;
+            else articles.set(article.articleId, { ...article, count: 1 });
+        }
+    }
+    return [...articles.values()].sort((a, b) =>
+        a.title.localeCompare(b.title, 'pt-BR', { numeric: true }) || a.articleId.localeCompare(b.articleId));
+}
+function agruparTermosGlossario(terms, selectedArticle = '') {
+    const grouped = new Map();
+    for (const item of terms || []) {
+        const links = item.articleLinks || [];
+        const article = links.find(a => a.articleId === selectedArticle) || links[0];
+        if (!article) continue;
+        if (!grouped.has(article.articleId)) grouped.set(article.articleId, { article, terms: [] });
+        grouped.get(article.articleId).terms.push(item);
+    }
+    return [...grouped.values()].sort((a, b) =>
+        a.article.title.localeCompare(b.article.title, 'pt-BR', { numeric: true }));
 }
 function escaparGlossario(value) {
     return String(value ?? '').replace(/[&<>"']/g, char => ({
@@ -43,7 +68,9 @@ function prepararGlossario() {
     const search = document.getElementById('glossario-busca');
     const block = document.getElementById('glossario-bloco');
     const subject = document.getElementById('glossario-materia');
-    if (!search || !block || !subject) return;
+    const article = document.getElementById('glossario-artigo');
+    const organization = document.getElementById('glossario-organizacao');
+    if (!search || !block || !subject || !article || !organization) return;
     search.addEventListener('input', () => {
         glossarioState.query = search.value;
         glossarioState.letter = '';
@@ -52,11 +79,22 @@ function prepararGlossario() {
     block.addEventListener('change', () => {
         glossarioState.block = block.value;
         glossarioState.letter = '';
+        montarArtigosGlossario(glossarioState.data);
         renderizarGlossario();
     });
     subject.addEventListener('change', () => {
         glossarioState.subject = subject.value;
         glossarioState.letter = '';
+        montarArtigosGlossario(glossarioState.data);
+        renderizarGlossario();
+    });
+    article.addEventListener('change', () => {
+        glossarioState.article = article.value;
+        glossarioState.letter = '';
+        renderizarGlossario();
+    });
+    organization.addEventListener('change', () => {
+        glossarioState.organization = organization.value === 'artigo' ? 'artigo' : 'termo';
         renderizarGlossario();
     });
     glossarioState.connected = true;
@@ -69,6 +107,19 @@ function montarFiltrosGlossario(data) {
         groups.map(group => '<option value="' + escaparGlossario(group.id) + '">' + escaparGlossario(group.label) + '</option>').join('');
     subject.dataset.populated = 'true';
 }
+function montarArtigosGlossario(data) {
+    const select = document.getElementById('glossario-artigo');
+    if (!select || !data) return;
+    const options = listarArtigosGlossario(data.terms, glossarioState.block, glossarioState.subject);
+    if (glossarioState.article && !options.some(item => item.articleId === glossarioState.article)) {
+        glossarioState.article = '';
+    }
+    select.innerHTML = '<option value="">todos os artigos</option>' +
+        options.map(item => '<option value="' + escaparGlossario(item.articleId) + '">' +
+            escaparGlossario(item.title) + ' (' + item.count + ')</option>').join('');
+    select.value = glossarioState.article;
+    select.disabled = options.length === 0;
+}
 function renderizarGlossario() {
     const data = glossarioState.data;
     if (!data) return;
@@ -78,7 +129,7 @@ function renderizarGlossario() {
     const title = document.getElementById('glossario-titulo');
     if (!lista || !status || !letras) return;
     if (title) title.textContent = 'glossário: CGU';
-    const filtered = filtrarTermosGlossario(data.terms, glossarioState.query, glossarioState.block, glossarioState.subject);
+    const filtered = filtrarTermosGlossario(data.terms, glossarioState.query, glossarioState.block, glossarioState.subject, glossarioState.article);
     const initials = [...new Set(filtered.map(x => normalizarGlossario(x.term).charAt(0).toUpperCase()))].sort();
     if (glossarioState.letter && !initials.includes(glossarioState.letter)) glossarioState.letter = '';
     const visible = glossarioState.letter ?
@@ -97,7 +148,7 @@ function renderizarGlossario() {
         return;
     }
     const subjects = new Map((data.subjects || []).map(item => [item.id, item.label]));
-    lista.innerHTML = visible.map(item => {
+    const montarTermo = item => {
         const expanded = glossarioState.openId === item.id;
         const titulo = escaparGlossario(item.term);
         const id = escaparGlossario(item.id);
@@ -121,13 +172,22 @@ function renderizarGlossario() {
             '<span><strong>' + titulo + '</strong><small>' + subjectName + ' · ' + escaparGlossario(item.examBlock || '') + '</small></span>' +
             '<span class="glossario-indicador" aria-hidden="true">' + (expanded ? 'fechar' : 'abrir') + '</span></button>' + detail +
             '</article>';
-    }).join('');
+    };
+    if (glossarioState.organization === 'artigo') {
+        lista.innerHTML = agruparTermosGlossario(visible, glossarioState.article).map(group =>
+            '<section class="glossario-grupo" aria-label="' + escaparGlossario(group.article.title) + '">' +
+            '<h3 class="glossario-grupo-titulo"><a href="' + escaparGlossario(group.article.href) + '">' +
+            escaparGlossario(group.article.title) + '</a><span>' + group.terms.length +
+            ' termo(s)</span></h3>' + group.terms.map(montarTermo).join('') + '</section>').join('');
+    } else {
+        lista.innerHTML = visible.map(montarTermo).join('');
+    }
     lista.querySelectorAll('[data-glossario-term]').forEach(button => button.addEventListener('click', () => {
         const next = glossarioState.openId === button.dataset.glossarioTerm ? '' : button.dataset.glossarioTerm;
-        abrirGlossario(next, true);
+        abrirGlossario(next, true, true);
     }));
 }
-async function abrirGlossario(id = '', atualizarRota = true) {
+async function abrirGlossario(id = '', atualizarRota = true, preservarFiltros = false) {
     const container = document.getElementById('glossario-pagina');
     if (!container) return;
     if (atualizarRota) {
@@ -146,20 +206,27 @@ async function abrirGlossario(id = '', atualizarRota = true) {
     try {
         const data = await carregarGlossario();
         montarFiltrosGlossario(data);
+        montarArtigosGlossario(data);
         glossarioState.openId = data.terms.some(term => term.id === id) ? id : '';
-        if (glossarioState.openId) {
+        const termoVisivel = filtrarTermosGlossario(data.terms, glossarioState.query, glossarioState.block,
+            glossarioState.subject, glossarioState.article).some(term =>
+            term.id === glossarioState.openId && (!glossarioState.letter ||
+                normalizarGlossario(term.term).charAt(0).toUpperCase() === glossarioState.letter));
+        if (glossarioState.openId && !termoVisivel && !preservarFiltros) {
             glossarioState.query = '';
             glossarioState.block = '';
             glossarioState.subject = '';
+            glossarioState.article = '';
             glossarioState.letter = '';
             document.getElementById('glossario-busca').value = '';
             document.getElementById('glossario-bloco').value = '';
             document.getElementById('glossario-materia').value = '';
+            montarArtigosGlossario(data);
         }
         renderizarGlossario();
         if (id && glossarioState.openId) {
             document.getElementById('glossario-item-' + id)?.scrollIntoView({ block: 'start' });
-        } else if (atualizarRota) window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else if (atualizarRota && !preservarFiltros) window.scrollTo({ top: 0, behavior: 'smooth' });
     } catch (error) {
         console.error('Falha no glossário', error);
         if (lista) lista.textContent = 'Não foi possível carregar as definições. Reabra o glossário para tentar novamente.';

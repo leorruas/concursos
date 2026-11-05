@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "orcamento-publico",
+  "entries": [
+    {
+      "id": "glo-regra-de-ouro",
+      "term": "Regra de ouro",
+      "aliases": [
+        "Regra de ouro orçamentária"
+      ],
+      "definition": "Vedação constitucional de operações de crédito em montante superior ao das despesas de capital, ressalvados créditos suplementares ou especiais com finalidade precisa, aprovados pelo Legislativo por maioria absoluta.",
+      "contrast": "Compara operações de crédito e despesas de capital; não é meta de resultado primário nem limite de despesa com pessoal.",
+      "cebraspeTrap": "Afirmar que empréstimos nunca podem superar despesas de capital, omitindo a exceção constitucional de créditos autorizados.",
+      "example": "O ente pretende contratar operações de crédito superiores às despesas de capital e precisa verificar a exceção do art. 167, III.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-a2f47c0d6e184e93"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-renuncia-de-receita",
+      "term": "Renúncia de receita",
+      "aliases": [
+        "Benefício tributário com renúncia"
+      ],
+      "definition": "Concessão ou ampliação de incentivo ou benefício de natureza tributária de que decorra renúncia de receita, sujeita à estimativa de impacto e às condições legais de responsabilidade fiscal.",
+      "contrast": "Benefício tributário que reduz arrecadação deve ser examinado pelo art. 14 da LRF; não equivale a qualquer despesa corrente de incentivo.",
+      "cebraspeTrap": "Afirmar que toda isenção tributária pode ser concedida sem análise de impacto ou demonstração das condições legais.",
+      "example": "Uma nova isenção fiscal proposta pelo ente demanda análise da perda de arrecadação e do atendimento aos requisitos da LRF.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-despesa-obrigatoria-de-carater-continuado",
+      "term": "Despesa obrigatória de caráter continuado",
+      "aliases": [
+        "DOCC"
+      ],
+      "definition": "Despesa corrente derivada de lei, medida provisória ou ato administrativo normativo que fixe para o ente obrigação legal de execução por período superior a dois exercícios.",
+      "contrast": "A duração superior a dois exercícios é necessária, mas um contrato plurianual de obra de capital não se torna automaticamente DOCC.",
+      "cebraspeTrap": "Classificar como despesa continuada qualquer investimento grande cuja construção dure três anos, sem considerar a natureza corrente.",
+      "example": "Lei cria benefício corrente obrigatório por tempo superior a dois exercícios e incidem exigências do art. 17 da LRF.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-bloqueio-de-dotacao",
+      "term": "Bloqueio de dotação",
+      "aliases": [
+        "Bloqueio orçamentário"
+      ],
+      "definition": "Restrição à utilização de dotação orçamentária para adequar a execução a limites ou regras fiscais específicos, conforme o fundamento legal e os atos do exercício.",
+      "contrast": "Bloqueio não é automaticamente anulação da dotação, nem equivale em todos os casos à limitação de empenho por risco às metas fiscais.",
+      "cebraspeTrap": "Afirmar que toda dotação bloqueada desaparece definitivamente do orçamento ou que todo bloqueio é contingenciamento do art. 9º da LRF.",
+      "example": "Uma dotação fica bloqueada para observância de limite de despesa e pode ser desbloqueada conforme reavaliação legal.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-0fb9b88e4d6c4151"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        },
+        {
+          "label": "Lei Complementar nº 200/2023, regime fiscal sustentável",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-empresa-estatal-dependente",
+      "term": "Empresa estatal dependente",
+      "aliases": [
+        "Estatal dependente"
+      ],
+      "definition": "Empresa controlada que recebe recursos financeiros do ente controlador para pagamento de pessoal, custeio em geral ou despesas de capital, ressalvada a hipótese legal de aumento de participação acionária.",
+      "contrast": "Dependência financeira é critério próprio da LRF; prejuízo contábil ou controle da maioria do capital votante, isoladamente, não bastam.",
+      "cebraspeTrap": "Afirmar que toda estatal com déficit ou majoritariamente controlada é necessariamente dependente para fins orçamentários.",
+      "example": "Uma empresa controlada que recebe recursos do Tesouro para custear sua folha pode enquadrar-se como estatal dependente.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-c301f2c741504403"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        },
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-empresa-controlada",
+      "term": "Empresa controlada",
+      "aliases": [
+        "Estatal controlada"
+      ],
+      "definition": "Empresa cuja maioria do capital social com direito a voto pertence, direta ou indiretamente, a um ente da Federação, conforme a definição da LRF.",
+      "contrast": "Controle societário não implica automaticamente dependência financeira, pois o recebimento de recursos tem critérios próprios.",
+      "cebraspeTrap": "Presumir que empresa controlada recebe necessariamente recursos do orçamento fiscal para custeio ou pessoal.",
+      "example": "Um ente detém a maioria das ações votantes de empresa que se mantém com receitas próprias, sem a tornar necessariamente dependente.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-c301f2c741504403"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-despesa-total-com-pessoal",
+      "term": "Despesa total com pessoal",
+      "aliases": [
+        "Despesa com pessoal na LRF"
+      ],
+      "definition": "Agregado fiscal definido na LRF que compreende gastos de pessoal nos vínculos e categorias legais, incluindo remunerações e encargos, apurado por período móvel e observadas exclusões previstas.",
+      "contrast": "Despesa total com pessoal para limites da LRF não deve ser confundida automaticamente com um único grupo de natureza da despesa orçamentária.",
+      "cebraspeTrap": "Afirmar que o limite fiscal se calcula apenas pelos salários pagos no mês ou pela dotação autorizada para o exercício.",
+      "example": "Para verificar o limite fiscal, o ente considera o mês de referência e onze anteriores, conforme critérios legais.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

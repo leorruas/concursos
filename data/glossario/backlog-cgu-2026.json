@@ -20,7 +20,7 @@
     {
       "subjectId": "orcamento-publico",
       "label": "Orçamento Público",
-      "count": 113,
+      "count": 120,
       "examBlock": "P3",
       "editorialPriority": "A"
     },
@@ -2703,6 +2703,69 @@
     {
       "id": "glo-limite-de-alerta-de-despesa-com-pessoal",
       "term": "Limite de alerta de despesa com pessoal",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-regra-de-ouro",
+      "term": "Regra de ouro",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-renuncia-de-receita",
+      "term": "Renúncia de receita",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-despesa-obrigatoria-de-carater-continuado",
+      "term": "Despesa obrigatória de caráter continuado",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-bloqueio-de-dotacao",
+      "term": "Bloqueio de dotação",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-empresa-estatal-dependente",
+      "term": "Empresa estatal dependente",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-empresa-controlada",
+      "term": "Empresa controlada",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-despesa-total-com-pessoal",
+      "term": "Despesa total com pessoal",
       "subjectId": "orcamento-publico",
       "examBlock": "P3",
       "editorialPriority": "A",

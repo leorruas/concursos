@@ -118,9 +118,9 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 **Reuso obrigatório antes de criar:** Administração Pública/02 - governanca publica; Auditoria/05 - governanca riscos controles e tres linhas. U01–U02 preferir refinamento, não duplicação.
 
-- [ ] **F25 · Integridade pública e prevenção institucional**: U03: liderança, canais, riscos, proteção, assédio e responsabilização de funções.
-- [ ] **F26 · Integridade privada e diligência de terceiros**: U04: integridade em fornecedores/parceiros, controles e evidência de implementação.
-- [ ] **F27 · Maturidade, incentivos e efetividade de controles**: U05: monitoramento, baixa ocorrência × baixa detecção, avaliação de programas e efeitos não pretendidos.
+- [x] **F25 · Integridade pública e prevenção institucional**: U03: liderança, canais, riscos, proteção, assédio e responsabilização de funções.
+- [x] **F26 · Integridade privada e diligência de terceiros**: U04: integridade em fornecedores/parceiros, controles e evidência de implementação.
+- [x] **F27 · Maturidade, incentivos e efetividade de controles**: U05: monitoramento, baixa ocorrência × baixa detecção, avaliação de programas e efeitos não pretendidos.
 
 ## Onda 7: Transparência e Ouvidoria
 
@@ -128,8 +128,10 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 **Reuso obrigatório antes de criar:** Administração Pública/03 - transparencia acesso a informacao e protecao de dados; Comunicação/02 e 03; U01, U02 e U05 com reuso/refinamento.
 
-- [ ] **F28 · Ciclo da manifestação de ouvidoria**: U03: acolher × encaminhar × responder × apurar; proteção de identidade, resposta e limites.
-- [ ] **F29 · Participação social, escuta e melhoria dos serviços**: U04: conselhos, consultas, canais, escuta, subnotificação, devolutiva e indicadores.
+- [x] **F28 · Ciclo da manifestação de ouvidoria**: U03: acolher × encaminhar × responder × apurar; proteção de identidade, resposta e limites.
+- [x] **F29 · Participação social, escuta e melhoria dos serviços**: U04: conselhos, consultas, canais, escuta, subnotificação, devolutiva e indicadores.
+
+**Ondas 6 e 7 concluídas editorialmente (05/11/2026):** três artigos próprios para integridade pública, diligência de terceiros e maturidade de controles (F25–F27); dois artigos para ciclo da manifestação e participação de usuários (F28–F29). Governança U01–U02 e Transparência U01–U02/U05 reutilizam artigos canônicos. Conferidos documentos da CGU de 2026 sobre Sitai e MMIP e orientações do SisOuv. Conteúdo publicado não representa validação integral de legislação, domínio individual ou treino com provas reais.
 
 ## Onda 8: Estado e Democracia
 

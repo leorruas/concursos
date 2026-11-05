@@ -5,7 +5,7 @@ title: "Transparência e ouvidoria"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Transparência e ouvidoria
@@ -16,15 +16,22 @@ Lei de Acesso à Informação (LAI) e Lei Geral de Proteção de Dados Pessoais 
 
 **Prioridade pedagógica:** Complementar (C), segundo o plano interno, não como classificação oficial de incidência na prova. **Escopo:** 5 unidades.
 
+## Artigos próprios publicados
+
+- [[3 - Materias/Transparencia e Ouvidoria/01 - ciclo das manifestacoes e resposta ao usuario|01. Ciclo das manifestações e resposta ao usuário]]: desenvolvimento do subitem P2.2.3.
+- [[3 - Materias/Transparencia e Ouvidoria/02 - participacao social escuta e melhoria de servicos|02. Participação social, escuta e melhoria dos serviços]]: desenvolvimento do subitem P2.2.4.
+
+Unidades 01, 02 e 05 reutilizam as notas canônicas de LAI/LGPD e Comunicação Pública. Validação de fontes e prova real ainda pendentes.
+
 ## Planejamento das unidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
-| 01 | Acesso: transparência ativa/passiva, pedidos/recursos, sigilo, informação pessoal, documento preparatório e acesso parcial. | Referências relacionadas; aprofundar para o recorte |
-| 02 | Proteção de dados: LAI × LGPD, necessidade, dados sensíveis, tarjamento, anonimização e reidentificação. | Referências relacionadas; aprofundar para o recorte |
-| 03 | Ouvidoria: acolhimento, encaminhamento, resposta, confidencialidade e proteção contra retaliação. | Referências relacionadas; aprofundar para o recorte |
-| 04 | Participação e melhoria: conselhos, consultas, escuta, subnotificação, Portal da Transparência e atuação orientadora da CGU. | Referências relacionadas; aprofundar para o recorte |
-| 05 | Informação e comunicação: fonte × interpretação, desinformação, liberdade de expressão e correção de erros. | Referências relacionadas; aprofundar para o recorte |
+| 01 | Acesso: transparência ativa/passiva, pedidos/recursos, sigilo, informação pessoal, documento preparatório e acesso parcial. | Reuso de conteúdo canônico; validar cobertura do recorte |
+| 02 | Proteção de dados: LAI × LGPD, necessidade, dados sensíveis, tarjamento, anonimização e reidentificação. | Reuso de conteúdo canônico; validar cobertura do recorte |
+| 03 | Ouvidoria: acolhimento, encaminhamento, resposta, confidencialidade e proteção contra retaliação. | Artigo próprio publicado; cotejo normativo e provas reais pendentes |
+| 04 | Participação e melhoria: conselhos, consultas, escuta, subnotificação, Portal da Transparência e atuação orientadora da CGU. | Artigo próprio publicado; cotejo normativo e provas reais pendentes |
+| 05 | Informação e comunicação: fonte × interpretação, desinformação, liberdade de expressão e correção de erros. | Reuso de conteúdo canônico; validar cobertura do recorte |
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 

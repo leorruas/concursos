@@ -5,7 +5,7 @@ title: "Governança, riscos e integridade"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Governança, riscos e integridade
@@ -14,15 +14,23 @@ Direção, gestão, riscos, controles e efetividade dos mecanismos de integridad
 
 **Prioridade pedagógica:** Complementar (C), segundo o plano interno, não como classificação oficial de incidência na prova. **Escopo:** 5 unidades.
 
+## Artigos próprios publicados
+
+- [[3 - Materias/Governanca Riscos e Integridade/01 - integridade publica prevencao e sitai|01. Integridade pública, prevenção e Sitai]]: desenvolvimento do subitem P2.1.3.
+- [[3 - Materias/Governanca Riscos e Integridade/02 - integridade privada e diligencia de terceiros|02. Integridade privada e diligência de terceiros]]: desenvolvimento do subitem P2.1.4.
+- [[3 - Materias/Governanca Riscos e Integridade/03 - maturidade controles e incentivos|03. Maturidade de controles, incentivos e efetividade]]: desenvolvimento do subitem P2.1.5.
+
+Unidades 01 e 02 reutilizam as notas canônicas de Administração Pública e Auditoria Governamental. Validação de fontes e prova real ainda pendentes.
+
 ## Planejamento das unidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
-| 01 | Governança e responsabilidades: direção, gestão, controle, transparência, prestação de contas. | Referências relacionadas; aprofundar para o recorte |
-| 02 | Riscos e controles: causa, consequência, prevenção, detecção, segregação de funções, risco residual e proporcionalidade. | Referências relacionadas; aprofundar para o recorte |
-| 03 | Integridade pública: liderança, identificação de riscos, orientação, canais, prevenção de assédio e não retaliação. | Referências relacionadas; aprofundar para o recorte |
-| 04 | Integridade privada: diligência de terceiros e registros; existência formal × implementação × efetividade. | Referências relacionadas; aprofundar para o recorte |
-| 05 | Melhoria institucional: incentivos, evidências, denúncias, baixa ocorrência × baixa detecção. | Referências relacionadas; aprofundar para o recorte |
+| 01 | Governança e responsabilidades: direção, gestão, controle, transparência, prestação de contas. | Reuso de conteúdo canônico; validar cobertura do recorte |
+| 02 | Riscos e controles: causa, consequência, prevenção, detecção, segregação de funções, risco residual e proporcionalidade. | Reuso de conteúdo canônico; validar cobertura do recorte |
+| 03 | Integridade pública: liderança, identificação de riscos, orientação, canais, prevenção de assédio e não retaliação. | Artigo próprio publicado; cotejo normativo e provas reais pendentes |
+| 04 | Integridade privada: diligência de terceiros e registros; existência formal × implementação × efetividade. | Artigo próprio publicado; cotejo normativo e provas reais pendentes |
+| 05 | Melhoria institucional: incentivos, evidências, denúncias, baixa ocorrência × baixa detecção. | Artigo próprio publicado; cotejo normativo e provas reais pendentes |
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 

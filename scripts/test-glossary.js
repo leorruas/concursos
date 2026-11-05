@@ -10,10 +10,14 @@ const published = JSON.parse(fs.readFileSync(path.join(root, '_site/glossario-in
 const home = fs.readFileSync(path.join(root, '_site/index.html'), 'utf8');
 assert.equal(published.schemaVersion, 1);
 assert(published.plannedCount >= 200);
-assert(published.publishedCount >= 20);
+assert(published.publishedCount >= 85, 'Fase 2 deve manter 85 definições revisadas');
 assert.equal(published.terms.length, published.publishedCount);
 assert.equal(new Set(published.terms.map(x => x.id)).size, published.publishedCount);
 assert(published.subjects.length >= 3);
+for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',25],['contabilidade-publica',25]]) {
+  assert(published.terms.filter(t => t.subjectIds.includes(subject)).length >= minimo, subject + ': termo faltante');
+}
+assert(published.terms.every(t => t.status === 'reviewed' && t.sources.length > 0 && t.sources.every(s => /^https:\/\//.test(s.url))));
 assert(published.terms.every(t => t.articleLinks.length && t.articleLinks.every(a => a.href.startsWith('#/artigo/'))));
 assert(home.includes('id="glossario-pagina"') && home.includes('web/09-glossary.js'));
 assert(home.includes('id="nav-link-glossario"') && home.includes('id="home-glossario-entry"'));
@@ -28,8 +32,14 @@ const match = (query, block = '', subject = '') => ctx.filtrarTermosGlossario(te
 assert(match('criterio').some(t => t.id === 'glo-criterio-de-auditoria'));
 assert(match('liquidacao').some(t => t.id === 'glo-liquidacao-da-despesa'));
 assert(match('PPA').some(t => t.id === 'glo-ppa'));
-assert(match('', 'P3').length >= 20);
-assert(match('', 'P2').length >= 10);
-assert(match('', '', 'auditoria-governamental').length >= 10);
+assert(match('PAINT').some(t => t.id === 'glo-paint'));
+assert(match('DEA').some(t => t.id === 'glo-despesas-de-exercicios-anteriores'));
+assert(match('SIC').some(t => t.id === 'glo-sistema-de-informacao-de-custos-sic'));
+assert(match('programacao fisica').some(t => t.id === 'glo-programacao-fisica-cumprida'));
+const programacaoFisica = published.terms.find(t => t.id === 'glo-programacao-fisica-cumprida');
+assert(programacaoFisica.articleLinks.some(a => a.articleId === 'art-f6cfe9fbcc764554'), 'programação física vinculada ao artigo onde é explicada');
+assert(match('', 'P3').length >= 50);
+assert(match('', 'P2').length >= 35);
+assert(match('', '', 'auditoria-governamental').length >= 35);
 assert(match('sem termo impossível').length === 0);
-console.log('SUCESSO: glossário possui no mínimo 20 definições e está preparado para novos lotes.');
+console.log('SUCESSO: 85 termos da primeira prioridade publicados; IDs, fontes, filtros, links e expansão progressiva íntegros.');

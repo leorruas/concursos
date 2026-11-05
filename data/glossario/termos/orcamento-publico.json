@@ -130,6 +130,558 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-ciclo-orcamentario",
+      "term": "Ciclo orçamentário",
+      "aliases": [],
+      "definition": "Conjunto de fases da elaboração da proposta, discussão e aprovação legislativa, execução orçamentária e financeira, controle e avaliação do orçamento público.",
+      "contrast": "O ciclo abrange decisões sobre o orçamento; empenho, liquidação e pagamento são estágios de execução da despesa.",
+      "cebraspeTrap": "Descrever as quatro fases como etapas cronologicamente estanques, sem sobreposição entre exercícios.",
+      "example": "Enquanto o orçamento de um ano é executado, a proposta do ano seguinte já pode estar em elaboração.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-f6cfe9fbcc764554"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-principio-da-unidade",
+      "term": "Princípio da unidade",
+      "aliases": [],
+      "definition": "Princípio segundo o qual a programação orçamentária de cada ente deve compor um sistema orçamentário integrado, respeitada a estrutura constitucional de seus orçamentos.",
+      "contrast": "A Lei Orçamentária Anual pode reunir os orçamentos fiscal, da seguridade social e de investimento; isso não viola a unidade.",
+      "cebraspeTrap": "Afirmar que a unidade obriga o ente a possuir um único quadro sem classificações ou peças internas.",
+      "example": "A lei orçamentária federal inclui três orçamentos previstos no art. 165 da Constituição.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-a2f47c0d6e184e93"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-principio-da-universalidade",
+      "term": "Princípio da universalidade",
+      "aliases": [],
+      "definition": "Regra de abrangência segundo a qual as receitas e despesas orçamentárias do ente devem integrar a lei orçamentária conforme as normas constitucionais e legais aplicáveis.",
+      "contrast": "Universalidade trata do que deve constar no orçamento, não de apropriar valores líquidos nem de dispensar especificações.",
+      "cebraspeTrap": "Confundir a inclusão ampla de receitas e despesas com a proibição de classificá-las por órgão ou função.",
+      "example": "A proposta deve identificar receitas e despesas da seguridade e do orçamento fiscal, conforme o regime aplicável.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-a2f47c0d6e184e93"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-principio-da-anualidade",
+      "term": "Princípio da anualidade",
+      "aliases": [],
+      "definition": "Regra que vincula a autorização orçamentária a um exercício financeiro, que coincide com o ano civil no regime da Lei nº 4.320/1964.",
+      "contrast": "Anualidade da LOA não impede planejamento plurianual nem a reabertura legal de certos créditos adicionais.",
+      "cebraspeTrap": "Afirmar que nenhuma ação pública pode durar vários exercícios porque o orçamento é anual.",
+      "example": "Um projeto plurianual possui dotações autorizadas em cada exercício de sua execução.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-a2f47c0d6e184e93"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-principio-da-exclusividade",
+      "term": "Princípio da exclusividade",
+      "aliases": [],
+      "definition": "Regra do art. 165, § 8º, da Constituição: a Lei Orçamentária Anual não deve conter matéria estranha à previsão da receita e à fixação da despesa, ressalvadas exceções expressas.",
+      "contrast": "As exceções abrangem autorização para abertura de créditos suplementares e contratação de operações de crédito, inclusive antecipação de receita, nos termos da lei.",
+      "cebraspeTrap": "Afirmar que a LOA jamais pode autorizar créditos suplementares ou incluir autorização de operação de crédito.",
+      "example": "Uma LOA autoriza suplementações dentro dos limites legais sem modificar a organização de secretarias.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-a2f47c0d6e184e93"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-principio-do-orcamento-bruto",
+      "term": "Princípio do orçamento bruto",
+      "aliases": [],
+      "definition": "Regra segundo a qual todas as receitas e despesas devem constar da lei orçamentária por seus valores totais, sem deduções que ocultem o montante bruto.",
+      "contrast": "Orçamento bruto trata da apresentação integral de valores; universalidade trata da abrangência dos itens incluídos.",
+      "cebraspeTrap": "Registrar apenas o saldo líquido de um repasse, ocultando receita e despesa que deveriam figurar pelos totais.",
+      "example": "Uma transferência de recursos é demonstrada com valor de ingresso e correspondente despesa conforme classificação.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-a2f47c0d6e184e93"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-credito-suplementar",
+      "term": "Crédito suplementar",
+      "aliases": [],
+      "definition": "Crédito adicional que reforça dotação orçamentária específica já existente, quando o valor autorizado não basta para a despesa prevista.",
+      "contrast": "Suplementar aumenta dotação existente; especial cria dotação sem previsão específica anterior.",
+      "cebraspeTrap": "Tratar falta completa de dotação como hipótese de simples reforço suplementar.",
+      "example": "Uma ação já prevista no orçamento exige aumento de valor e recebe crédito suplementar autorizado.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-credito-especial",
+      "term": "Crédito especial",
+      "aliases": [],
+      "definition": "Crédito adicional destinado a despesa para a qual não existe dotação orçamentária específica, observadas autorização legislativa e indicação de recursos cabíveis.",
+      "contrast": "Especial é para dotação inexistente; suplementar reforça dotação já existente; extraordinário responde à urgência excepcional.",
+      "cebraspeTrap": "Afirmar que a mera insuficiência de valor caracteriza crédito especial ou que qualquer urgência dispensa autorização.",
+      "example": "A administração precisa criar dotação para ação não contemplada na Lei Orçamentária Anual.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-credito-extraordinario",
+      "term": "Crédito extraordinário",
+      "aliases": [],
+      "definition": "Crédito adicional destinado a despesas imprevisíveis e urgentes, como guerra, comoção interna ou calamidade pública, sob o regime especial do art. 167, § 3º, da Constituição.",
+      "contrast": "Urgência excepcional deve ser demonstrada; pressa administrativa rotineira não transforma despesa em extraordinária.",
+      "cebraspeTrap": "Considerar extraordinária toda despesa que o gestor queira executar rapidamente no fim do exercício.",
+      "example": "Uma calamidade imprevisível exige providências imediatas não contempladas no orçamento vigente.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-87b69e1d4ac54f20"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 165 a 167",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-programacao-financeira",
+      "term": "Programação financeira",
+      "aliases": [],
+      "definition": "Organização dos fluxos de arrecadação e desembolso e dos limites de execução, considerando disponibilidade de recursos e metas fiscais, conforme o art. 8º da Lei de Responsabilidade Fiscal.",
+      "contrast": "Dotação autorizada não é dinheiro disponível, nem limite de empenho ou pagamento automaticamente liberado.",
+      "cebraspeTrap": "Afirmar que toda despesa fixada na LOA pode ser paga imediatamente, sem programação.",
+      "example": "Após publicar a LOA, o Executivo estabelece programação financeira compatível com entradas previstas.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-0fb9b88e4d6c4151"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-cronograma-de-desembolso",
+      "term": "Cronograma de desembolso",
+      "aliases": [],
+      "definition": "Instrumento de programação financeira que distribui no tempo os pagamentos previstos, permitindo acompanhar limites mensais e disponibilidade de caixa.",
+      "contrast": "Cronograma de pagamentos difere das metas de arrecadação e da autorização orçamentária de empenhar.",
+      "cebraspeTrap": "Confundir previsão de desembolso com liquidação já concluída ou receita efetivamente recebida.",
+      "example": "Um órgão planeja pagamentos por mês para acompanhar o fluxo esperado de caixa.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-0fb9b88e4d6c4151"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-contingenciamento",
+      "term": "Contingenciamento",
+      "aliases": [
+        "Limitação de empenho"
+      ],
+      "definition": "Medida de limitação de empenho e movimentação financeira quando a arrecadação ameaça o cumprimento das metas fiscais, conforme os requisitos e critérios da Lei de Responsabilidade Fiscal.",
+      "contrast": "Limitar execução não equivale automaticamente a anular dotação nem a cancelar o programa orçamentário.",
+      "cebraspeTrap": "Equiparar contingenciamento a cancelamento definitivo de toda a autorização ou aplicá-lo sem considerar despesas ressalvadas.",
+      "example": "Diante de projeção insuficiente de receita, o ente reduz limites de empenho e de movimentação nos termos da LDO.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-0fb9b88e4d6c4151"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-programacao-fisica-cumprida",
+      "term": "Programação física cumprida",
+      "aliases": [],
+      "definition": "Situação em que a entrega efetivamente realizada alcança a meta física prevista ou reprogramada para uma ação, considerando produto, unidade de medida, período e critérios de apuração.",
+      "contrast": "Execução física mede entregas; empenho, liquidação e pagamento medem valores; efetividade mede mudança no problema público.",
+      "cebraspeTrap": "Declarar meta física atendida porque o orçamento foi totalmente pago, embora só parte do produto tenha sido entregue.",
+      "example": "A meta era concluir cinco escolas e cinco foram entregues conforme a especificação; houve cumprimento da meta física.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-f6cfe9fbcc764554"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria de Orçamento Federal: orientador do acompanhamento físico-financeiro",
+          "url": "https://www1.siop.planejamento.gov.br/siopdoc/doku.php/acompanhamento_orcamentario:orientador_acompanhamento_orcamentario"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-previsao-de-receita",
+      "term": "Previsão de receita",
+      "aliases": [],
+      "definition": "Estimativa da receita a arrecadar em determinado exercício, utilizada no planejamento e na elaboração da Lei Orçamentária Anual, antes da execução da receita.",
+      "contrast": "Previsão de receita não é lançamento tributário, recebimento financeiro ou reconhecimento patrimonial por competência.",
+      "cebraspeTrap": "Afirmar que a receita prevista necessariamente será arrecadada na totalidade durante o exercício.",
+      "example": "A LOA estima arrecadação de impostos, mas os valores efetivos só serão conhecidos na execução.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-arrecadacao-da-receita",
+      "term": "Arrecadação da receita",
+      "aliases": [],
+      "definition": "Etapa em que ocorre o recebimento da receita por agentes arrecadadores, distinta de sua posterior transferência à conta de tesouraria quando aplicável.",
+      "contrast": "Arrecadação é recebimento; recolhimento é encaminhamento ao Tesouro, e previsão é estimativa.",
+      "cebraspeTrap": "Afirmar que toda receita exige lançamento prévio e que arrecadação e recolhimento são sempre o mesmo ato.",
+      "example": "Um banco recebe um tributo de contribuinte e depois repassa o valor ao caixa central.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-pagamento-da-despesa",
+      "term": "Pagamento da despesa",
+      "aliases": [],
+      "definition": "Estágio da execução da despesa em que, após a liquidação regular e a ordem de pagamento competente, ocorre a quitação por desembolso autorizado.",
+      "contrast": "Pagamento é posterior à verificação do direito do credor e não demonstra, por si só, resultado social da política.",
+      "cebraspeTrap": "Tratar empenho ou emissão da nota fiscal como se já constituíssem pagamento.",
+      "example": "O fornecedor recebe o valor depois de verificada a entrega e autorizada a ordem de pagamento.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-restos-a-pagar-processados",
+      "term": "Restos a pagar processados",
+      "aliases": [],
+      "definition": "Despesas empenhadas e liquidadas, mas ainda não pagas até 31 de dezembro, que seguem para pagamento posterior segundo regras legais.",
+      "contrast": "Processado significa liquidado, não pago; não processado ainda depende de liquidação.",
+      "cebraspeTrap": "Considerar uma despesa apenas empenhada como resto a pagar processado.",
+      "example": "Equipamentos entregues e liquidados em dezembro são pagos no exercício seguinte.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-6e4e79c7f4bb4aa3"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-restos-a-pagar-nao-processados",
+      "term": "Restos a pagar não processados",
+      "aliases": [],
+      "definition": "Despesas empenhadas e não pagas até o encerramento do exercício cuja liquidação ainda não foi concluída, abrangendo situações a liquidar ou em liquidação.",
+      "contrast": "Não processado é pendência de liquidação; a existência de fato gerador pode diferenciar tratamento patrimonial interno.",
+      "cebraspeTrap": "Afirmar que todo resto não processado significa ausência de entrega ou de obrigação patrimonial.",
+      "example": "Um serviço prestado em dezembro pode estar em liquidação se a verificação administrativa ainda não terminou.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-6e4e79c7f4bb4aa3"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-despesas-de-exercicios-anteriores",
+      "term": "Despesas de exercícios anteriores",
+      "aliases": [
+        "DEA"
+      ],
+      "definition": "Despesas relativas a exercícios encerrados que atendem às hipóteses legais do art. 37 da Lei nº 4.320/1964 e são executadas com dotação específica do orçamento vigente.",
+      "contrast": "São diferentes de restos a pagar mantidos validamente, que se originam de empenho de exercício anterior.",
+      "cebraspeTrap": "Classificar qualquer valor do ano anterior como DEA mesmo quando há resto a pagar válido para pagamento.",
+      "example": "Uma obrigação de serviço antigo reconhecida depois pode exigir dotação atual própria conforme o art. 37.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-6e4e79c7f4bb4aa3"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, normas gerais de direito financeiro",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-meta-fiscal",
+      "term": "Meta fiscal",
+      "aliases": [],
+      "definition": "Parâmetro de resultado ou trajetória definido para orientar e acompanhar a gestão das contas públicas, especialmente nas regras da LDO e da Lei de Responsabilidade Fiscal.",
+      "contrast": "Meta de resultado fiscal difere da meta física de entrega de produtos e da dotação autorizada para despesas.",
+      "cebraspeTrap": "Concluir que realizar 100% de entregas físicas demonstra por si só cumprimento das metas fiscais.",
+      "example": "O governo revisa a execução diante de risco de descumprimento de resultado fiscal previsto na LDO.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

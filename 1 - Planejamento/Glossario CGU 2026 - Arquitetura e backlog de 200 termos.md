@@ -12,7 +12,7 @@ updated: 2026-11-05
 
 Planejamento de glossário para **CGU 2026, cargo 1, Auditoria, Cebraspe (Certo/Errado)**. O recorte prioriza conceitos, siglas, etapas, classificações e fronteiras que podem gerar interpretações erradas. As prioridades A/B/C reproduzem a decisão editorial do [[1 - Planejamento/CGU 2026 - Plano de materias|plano de matérias]], **não indicam frequência comprovada de cobrança**. Escopo conferido com [[2 - Editais/CGU 2026 - Auditoria|edital sintetizado no vault]] e [edital no Cebraspe](https://www.cebraspe.org.br/concursos/cgu_26_affc).
 
-**Estado editorial em 05/11/2026:** 200 termos **planejados** em data/glossario/backlog-cgu-2026.json, dos quais 20 possuem definições revisadas no JSON público. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
+**Estado editorial em 05/11/2026:** 200 termos **planejados** em data/glossario/backlog-cgu-2026.json, dos quais **85 possuem definições revisadas** no JSON público (35 de Auditoria, 25 de Orçamento, 25 de Contabilidade). O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
 
 ## Onde o glossário aparecerá na wiki
 
@@ -174,11 +174,11 @@ O exemplo demonstra a estrutura; ainda exige revisão normativa e editorial. Um 
 
 ## Fases de implementação
 
-**Fase 0 (registrada neste plano):** backlog com 200 termos distribuídos por 15 matérias e 75 caminhos candidatos verificados como arquivos existentes. Nenhuma definição publicada.
+**Fase 0 (concluída):** backlog com 200 termos distribuídos por 15 matérias e 75 caminhos candidatos verificados como arquivos existentes. O backlog continua sendo fila editorial, independente das definições aprovadas.
 
-**Fase 1 (implementada no código):** rota, menu, lista, filtro por bloco/matéria/letra, validador e **20 definições** revisadas: 10 de Auditoria, 5 de Orçamento e 5 de Contabilidade. O build inclui apenas conteúdo revisado, e a publicação depende da validação final do Pages.
+**Fase 1 (concluída e publicada):** rota, menu, lista, filtro por bloco/matéria/letra, validador e 20 definições revisadas: 10 de Auditoria, 5 de Orçamento e 5 de Contabilidade. O build publica apenas conteúdo revisado.
 
-**Fase 2:** escrever outras **65 definições** das três prioridades A (85 no total). Cada definição precisa indicar o limite em relação ao conceito próximo e, quando cabível, uma armadilha C/E.
+**Fase 2 (implementada, sujeita ao fechamento do deploy):** acrescentadas outras **65 definições** de prioridade A: 25 de Auditoria, 20 de Orçamento e 20 de Contabilidade, totalizando **85**. Cada nova entrada contém definição, contraste conceitual, armadilha C/E, exemplo, fonte e vínculo por ID de artigo. Risco inerente/residual apontam para controles internos; programação física cumprida aponta para o artigo introdutório de Orçamento, onde há explicação específica. Os testes do build exigem agora ao menos 85 definições e preservam a expansão futura.
 
 **Fase 3:** mais **50 definições** de Avaliação de Políticas, Contratações e Integridade (135).
 

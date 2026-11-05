@@ -138,6 +138,582 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-fato-gerador",
+      "term": "Fato gerador",
+      "aliases": [],
+      "definition": "Acontecimento econômico ou jurídico que, atendidos os critérios de reconhecimento, origina um ativo, obrigação ou variação patrimonial, independentemente do momento do empenho ou pagamento.",
+      "contrast": "Ocorrência do fato e reconhecimento patrimonial não dependem de liquidação administrativa concluída.",
+      "cebraspeTrap": "Afirmar que serviço já prestado não pode gerar passivo patrimonial enquanto não houver liquidação formal.",
+      "example": "Um serviço recebido em dezembro pode gerar obrigação naquele mês, mesmo se o pagamento ocorrer em janeiro.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-patrimonio-publico",
+      "term": "Patrimônio público",
+      "aliases": [],
+      "definition": "Conjunto de recursos, direitos e obrigações de uma entidade pública que constituem a sua posição patrimonial e podem ser reconhecidos conforme a estrutura contábil aplicável.",
+      "contrast": "A posição patrimonial é distinta da disponibilidade financeira em caixa e da dotação orçamentária autorizada.",
+      "cebraspeTrap": "Confundir a soma das dotações disponíveis na LOA com o valor do patrimônio líquido do ente.",
+      "example": "Equipamentos, créditos a receber e obrigações com fornecedores integram a análise patrimonial.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Lei nº 4.320/1964: contabilidade pública e demonstrações",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-ativo-patrimonial",
+      "term": "Ativo patrimonial",
+      "aliases": [],
+      "definition": "Recurso controlado pela entidade em consequência de evento passado, com potencial de serviços ou benefícios econômicos futuros, reconhecido conforme os requisitos contábeis.",
+      "contrast": "Ativo não exige necessariamente recebimento de caixa ou propriedade jurídica irrestrita do bem.",
+      "cebraspeTrap": "Afirmar que um equipamento só é ativo se gerar receita comercial ou já estiver integralmente pago.",
+      "example": "Um equipamento controlado pela escola oferece potencial de serviço educacional ao longo de sua vida útil.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "CFC: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-passivo-patrimonial",
+      "term": "Passivo patrimonial",
+      "aliases": [],
+      "definition": "Obrigação presente da entidade decorrente de evento passado cuja extinção deverá resultar na saída de recursos com potencial de serviços ou benefícios econômicos.",
+      "contrast": "Passivo patrimonial decorre de obrigação reconhecível, enquanto empenho isolado não prova o fato gerador.",
+      "cebraspeTrap": "Concluir que qualquer valor empenhado sem entrega representa automaticamente passivo patrimonial.",
+      "example": "O serviço prestado e ainda não pago pode originar obrigação patrimonial no exercício de prestação.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "CFC: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-patrimonio-liquido",
+      "term": "Patrimônio líquido",
+      "aliases": [],
+      "definition": "Participação residual nos ativos da entidade depois de deduzidos os passivos reconhecidos, medida na data de apresentação do balanço.",
+      "contrast": "Patrimônio líquido não é sinônimo de saldo em caixa ou superávit financeiro disponível para uso.",
+      "cebraspeTrap": "Tratar variação de caixa como alteração de igual valor no patrimônio líquido.",
+      "example": "A compra de equipamento à vista pode trocar caixa por ativo imobilizado sem mudar imediatamente o patrimônio líquido.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-balanco-patrimonial",
+      "term": "Balanço patrimonial",
+      "aliases": [],
+      "definition": "Demonstração que evidencia, em uma data, ativos, passivos e patrimônio líquido, além dos quadros complementares exigidos no setor público.",
+      "contrast": "Balanço Patrimonial mostra posição em data; a DVP mostra variações patrimoniais ao longo de um período.",
+      "cebraspeTrap": "Equiparar ativo circulante a ativo financeiro ou passivo circulante a passivo financeiro sem examinar os quadros próprios.",
+      "example": "O quadro principal apresenta saldos patrimoniais, enquanto quadro específico apura superávit ou déficit financeiro.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-bf384b8a28aa4753"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Lei nº 4.320/1964: contabilidade pública e demonstrações",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-demonstracao-das-variacoes-patrimoniais",
+      "term": "Demonstração das Variações Patrimoniais",
+      "aliases": [
+        "DVP"
+      ],
+      "definition": "Demonstração contábil que evidencia variações patrimoniais aumentativas e diminutivas ocorridas no período e permite apurar o resultado patrimonial.",
+      "contrast": "DVP examina variações por competência; não se confunde com fluxo de caixa nem resultado orçamentário.",
+      "cebraspeTrap": "Afirmar que despesa empenhada implica automaticamente VPD de igual valor no exercício.",
+      "example": "O consumo de materiais pode gerar variação diminutiva ainda que o pagamento tenha ocorrido antes.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-bf384b8a28aa4753"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Lei nº 4.320/1964: contabilidade pública e demonstrações",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-variacao-patrimonial-diminutiva",
+      "term": "Variação patrimonial diminutiva",
+      "aliases": [
+        "VPD"
+      ],
+      "definition": "Redução dos benefícios econômicos ou do potencial de serviços que diminui o patrimônio líquido no período, excetuadas distribuições a proprietários quando pertinentes.",
+      "contrast": "VPD difere de desembolso e de despesa orçamentária: o uso de um ativo pode gerar VPD sem pagamento atual.",
+      "cebraspeTrap": "Confundir aquisição de equipamento com reconhecimento integral e imediato de VPD em todas as situações.",
+      "example": "A depreciação mensal de equipamento utilizado na prestação do serviço pode gerar VPD.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-bf384b8a28aa4753"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-demonstracao-dos-fluxos-de-caixa",
+      "term": "Demonstração dos Fluxos de Caixa",
+      "aliases": [
+        "DFC"
+      ],
+      "definition": "Demonstração que apresenta recebimentos e pagamentos efetivos de caixa e equivalentes nas atividades operacionais, de investimento e de financiamento.",
+      "contrast": "A DFC registra fluxos de caixa; a inscrição compensatória de restos a pagar no Balanço Financeiro não é entrada real.",
+      "cebraspeTrap": "Tratar depreciação sem desembolso ou inscrição de restos a pagar como movimento efetivo de caixa.",
+      "example": "O pagamento de equipamento aparece como saída de investimento; a depreciação futura não representa nova saída.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-55a3dd4be04d47ce"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "CFC: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-notas-explicativas",
+      "term": "Notas explicativas",
+      "aliases": [],
+      "definition": "Informações complementares que integram as demonstrações contábeis e apresentam critérios, políticas contábeis, julgamentos e detalhamentos relevantes para sua compreensão.",
+      "contrast": "Notas complementam e esclarecem demonstrações, mas não substituem o reconhecimento exigido no balanço ou na DVP.",
+      "cebraspeTrap": "Afirmar que divulgar passivo reconhecível somente em nota dispensa registrá-lo contabilmente.",
+      "example": "A nota descreve bases de mensuração, riscos relevantes e critérios empregados nos saldos patrimoniais.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-55a3dd4be04d47ce"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "CFC: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-conciliacao-contabil",
+      "term": "Conciliação contábil",
+      "aliases": [],
+      "definition": "Procedimento de confronto entre saldos e movimentos registrados em fontes diferentes, para localizar divergências, explicar diferenças temporais e ajustar erros quando cabível.",
+      "contrast": "Conciliação compara e documenta registros; não é apenas confirmar que duas tabelas possuem números iguais.",
+      "cebraspeTrap": "Tratar simples igualdade de totais como prova de integridade sem examinar itens e períodos.",
+      "example": "A equipe confronta extrato bancário, registros contábeis e pagamentos em trânsito e identifica diferença de data.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-55a3dd4be04d47ce"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-provisao-contabil",
+      "term": "Provisão contábil",
+      "aliases": [],
+      "definition": "Passivo de prazo ou valor incerto reconhecido quando existe obrigação presente por evento passado, saída provável de recursos e estimativa confiável do valor.",
+      "contrast": "Provisão reconhecida difere de passivo contingente, que pode exigir apenas divulgação.",
+      "cebraspeTrap": "Reconhecer provisão para qualquer demanda judicial independentemente da probabilidade ou da obrigação presente.",
+      "example": "Uma ação judicial com obrigação presente, perda provável e estimativa confiável pode demandar provisão.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-8f76e4a32cd14b92"
+      ],
+      "sources": [
+        {
+          "label": "CFC: NBC TSP 03, Provisões, Passivos Contingentes e Ativos Contingentes, aplicável em 2026",
+          "url": "https://www.legisweb.com.br/legislacao/?id=330456"
+        },
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-passivo-contingente",
+      "term": "Passivo contingente",
+      "aliases": [],
+      "definition": "Obrigação possível dependente de evento futuro incerto ou obrigação presente que não atende aos critérios de reconhecimento; em regra, não é reconhecida como passivo e é divulgada salvo possibilidade remota.",
+      "contrast": "Passivo contingente não equivale a provisão reconhecida, cuja obrigação presente e probabilidade atendem a requisitos.",
+      "cebraspeTrap": "Registrar como provisão todo processo judicial, mesmo quando a saída é apenas possível e não provável.",
+      "example": "Uma ação com perda possível, mas não provável, pode exigir divulgação em notas sem reconhecimento do passivo.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-8f76e4a32cd14b92"
+      ],
+      "sources": [
+        {
+          "label": "CFC: NBC TSP 03, Provisões, Passivos Contingentes e Ativos Contingentes, aplicável em 2026",
+          "url": "https://www.legisweb.com.br/legislacao/?id=330456"
+        },
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-ativo-contingente",
+      "term": "Ativo contingente",
+      "aliases": [],
+      "definition": "Ativo possível decorrente de evento passado cuja existência depende de acontecimentos futuros incertos fora do controle completo da entidade.",
+      "contrast": "Ativo contingente provável pode ser divulgado; reconhecimento de ativo depende de entrada virtualmente certa e critérios aplicáveis.",
+      "cebraspeTrap": "Registrar como ativo patrimonial um crédito judicial cuja entrada de recursos é somente provável.",
+      "example": "A entidade divulga expectativa provável de receber indenização, mas evita reconhecer ativo enquanto persistir incerteza relevante.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-8f76e4a32cd14b92"
+      ],
+      "sources": [
+        {
+          "label": "CFC: NBC TSP 03, Provisões, Passivos Contingentes e Ativos Contingentes, aplicável em 2026",
+          "url": "https://www.legisweb.com.br/legislacao/?id=330456"
+        },
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-depreciacao",
+      "term": "Depreciação",
+      "aliases": [],
+      "definition": "Alocação sistemática do valor depreciável de um ativo ao longo de sua vida útil, conforme o padrão esperado de consumo de benefícios ou potencial de serviços.",
+      "contrast": "Depreciação é consumo patrimonial por competência, não saída de caixa no mês nem perda excepcional por impairment.",
+      "cebraspeTrap": "Afirmar que só se inicia depreciação quando o ativo começa a gerar receita monetária.",
+      "example": "Um equipamento disponível para uso tem seu valor depreciável distribuído pelos períodos de serviço estimados.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-f58c09bd32d741e6"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "CFC: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-reducao-ao-valor-recuperavel",
+      "term": "Redução ao valor recuperável",
+      "aliases": [],
+      "definition": "Reconhecimento de perda por desvalorização quando o valor contábil de um ativo excede o montante recuperável segundo critérios pertinentes à sua natureza e ao potencial de serviços.",
+      "contrast": "Impairment é perda adicional avaliada conforme recuperabilidade; depreciação é alocação sistemática do valor.",
+      "cebraspeTrap": "Tratar toda perda de valor como depreciação ou usar apenas preço de venda de ativo que não gera caixa.",
+      "example": "Após dano severo a um prédio público, estima-se o potencial de serviço recuperável e a eventual perda contábil.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-f58c09bd32d741e6"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "CFC: Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-custo-direto",
+      "term": "Custo direto",
+      "aliases": [],
+      "definition": "Custo associado ao objeto de custo por relação identificável e mensurável, sem necessidade de critério arbitrário de rateio entre diferentes objetos.",
+      "contrast": "Direto ou indireto depende do objeto analisado, não de ser fixo ou variável.",
+      "cebraspeTrap": "Afirmar que todo custo de pessoal é direto ou que custo direto necessariamente varia com o volume produzido.",
+      "example": "Material consumido exclusivamente em um programa pode ser atribuído diretamente ao seu custo.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-c8d83e57e69447b9"
+      ],
+      "sources": [
+        {
+          "label": "CFC: NBC TSP 34, Custos no Setor Público",
+          "url": "https://www.legisweb.com.br/legislacao/?id=424130"
+        },
+        {
+          "label": "Tesouro Nacional: Manual de Informações do Sistema de Custos do Governo Federal, 2ª edição (2025)",
+          "url": "https://www.tesourotransparente.gov.br/publicacoes/mic-manual-de-informacoes-do-sistema-de-custos-do-governo-federal/2025/26"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-custo-indireto",
+      "term": "Custo indireto",
+      "aliases": [],
+      "definition": "Custo relacionado ao objeto de forma compartilhada ou não identificável diretamente, exigindo método fundamentado de alocação ou rateio.",
+      "contrast": "Custo indireto não é automaticamente fixo; a classificação muda conforme o objeto e a rastreabilidade.",
+      "cebraspeTrap": "Chamar de direto todo gasto que beneficia vários serviços porque há valor conhecido na nota fiscal.",
+      "example": "Energia compartilhada entre setores exige critério de atribuição aos serviços avaliados.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-c8d83e57e69447b9"
+      ],
+      "sources": [
+        {
+          "label": "CFC: NBC TSP 34, Custos no Setor Público",
+          "url": "https://www.legisweb.com.br/legislacao/?id=424130"
+        },
+        {
+          "label": "Tesouro Nacional: Manual de Informações do Sistema de Custos do Governo Federal, 2ª edição (2025)",
+          "url": "https://www.tesourotransparente.gov.br/publicacoes/mic-manual-de-informacoes-do-sistema-de-custos-do-governo-federal/2025/26"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-objeto-de-custo",
+      "term": "Objeto de custo",
+      "aliases": [],
+      "definition": "Bem, serviço, programa, atividade, unidade ou outro elemento cuja mensuração de custo interessa à gestão e orienta a definição do método de apuração.",
+      "contrast": "Objeto de custo é aquilo que se quer medir; centro de responsabilidade identifica quem responde por recursos ou atividades.",
+      "cebraspeTrap": "Considerar que todo órgão é o único objeto possível ou que empenho é necessariamente custo da entrega.",
+      "example": "Uma instituição calcula o custo por atendimento, por curso ofertado ou por unidade de serviço.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-c8d83e57e69447b9"
+      ],
+      "sources": [
+        {
+          "label": "CFC: NBC TSP 34, Custos no Setor Público",
+          "url": "https://www.legisweb.com.br/legislacao/?id=424130"
+        },
+        {
+          "label": "Tesouro Nacional: Manual de Informações do Sistema de Custos do Governo Federal, 2ª edição (2025)",
+          "url": "https://www.tesourotransparente.gov.br/publicacoes/mic-manual-de-informacoes-do-sistema-de-custos-do-governo-federal/2025/26"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-sistema-de-informacao-de-custos-sic",
+      "term": "Sistema de Informação de Custos (SIC)",
+      "aliases": [
+        "SIC"
+      ],
+      "definition": "Componente do sistema de custos que integra e processa dados monetários e físicos, organiza mensurações e fornece informações rastreáveis para gestão e avaliação de serviços públicos.",
+      "contrast": "Sistema de informação é parte da estrutura de custos; não se confunde com o manual metodológico MIC nem com toda a governança de custos.",
+      "cebraspeTrap": "Afirmar que disponibilizar painel com gastos empenhados, sem dados sobre recursos consumidos, basta para medir custos.",
+      "example": "O sistema consolida folha, consumo de materiais e volume de atendimentos para estimar custo unitário do serviço.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-b67f06d5c049426d"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Informações do Sistema de Custos do Governo Federal, 2ª edição (2025)",
+          "url": "https://www.tesourotransparente.gov.br/publicacoes/mic-manual-de-informacoes-do-sistema-de-custos-do-governo-federal/2025/26"
+        },
+        {
+          "label": "CFC: NBC TSP 34, Custos no Setor Público",
+          "url": "https://www.legisweb.com.br/legislacao/?id=424130"
+        },
+        {
+          "label": "Lei de Responsabilidade Fiscal, art. 50, § 3º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

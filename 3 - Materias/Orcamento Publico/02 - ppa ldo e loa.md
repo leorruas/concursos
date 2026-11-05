@@ -5,7 +5,7 @@ title: "PPA, LDO e LOA: sistema constitucional de planejamento e orçamento"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 aliases:
   - "Plano Plurianual"
   - "Lei de Diretrizes Orçamentárias"
@@ -137,7 +137,7 @@ A ideia “a LOA não pode conter absolutamente nenhuma outra autorização” f
 
 ## Iniciativa, apreciação e prazos no plano federal
 
-A **iniciativa dos projetos** cabe ao Executivo. A **apreciação e a aprovação** cabem ao Legislativo, segundo a Constituição. Emendas parlamentares podem modificar a proposta dentro de limites e condições específicos (CF, art. 166), a desenvolver no artigo futuro de emendas e créditos.
+A **iniciativa dos projetos** cabe ao Executivo. A **apreciação e a aprovação** cabem ao Legislativo, segundo a Constituição. Emendas parlamentares podem modificar a proposta dentro de limites e condições específicos (CF, art. 166), já detalhados em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]].
 
 No regime transitório do ADCT, art. 35, § 2º, usado enquanto não sobrevier a disciplina complementar pertinente, os marcos federais usuais de **envio** são:
 
@@ -147,7 +147,7 @@ No regime transitório do ADCT, art. 35, § 2º, usado enquanto não sobrevier a
 | LDO | Até oito meses e meio antes do encerramento do exercício financeiro |
 | LOA | Até quatro meses antes do encerramento do exercício financeiro |
 
-Esses marcos são usualmente apresentados como **31 de agosto do primeiro ano de mandato para o PPA, 15 de abril para a LDO e 31 de agosto para a LOA**. Prazo de envio **não é** prazo de devolução para sanção; distinguir os dois evita uma troca comum em questões de literalidade. Os detalhes sobre devolução e sobre o alcance das regras federais devem ser conferidos no ADCT e no regime normativo aplicável, especialmente quando a questão tratar de estados ou municípios.
+Esses marcos são usualmente apresentados como **31 de agosto do primeiro ano de mandato para o PPA, 15 de abril para a LDO e 31 de agosto para a LOA**. **Envio × devolução:** pelo [ADCT, art. 35, § 2º, I–III](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/constituicao-adct-de-1988_ec-136.html), **PPA e LOA** devem ser devolvidos para sanção **até o encerramento da sessão legislativa**, mas a **LDO** deve ser devolvida **até o encerramento do primeiro período da sessão legislativa**. A tabela apresenta os prazos de **envio**, não os de devolução. Os marcos são federais: não atribuir automaticamente essas datas a outros entes. **Item didático C/E:** “PPA, LDO e LOA têm o mesmo prazo constitucional para devolução à sanção presidencial.” **Errado:** a LDO tem marco próprio.
 
 ## Como pode ser cobrado
 

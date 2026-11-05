@@ -5,7 +5,7 @@ title: "Programação orçamentária, financeira e contingenciamento"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 aliases:
   - "Contingenciamento"
   - "Limitação de empenho"
@@ -107,6 +107,23 @@ Essas palavras podem aparecer de modo amplo em notícias e documentos administra
 | Anulação de dotação para outro crédito | Houve alteração da autorização orçamentária nos termos legais? |
 
 A existência de caixa não dispensa dotação; a existência de dotação não garante caixa; um limite de empenho não substitui a liquidação.
+
+### Refinamento de 2026: bloqueio, cancelamento e prazo de empenho
+
+A **LDO federal de 2026, Lei nº 15.321/2025, art. 71**, determina **bloqueio de dotações discricionárias** quando necessário para respeitar **limites individualizados de despesas primárias da LC nº 200/2023**, a partir dos relatórios de avaliação de receitas e despesas. O § 1º prevê providências para **cancelamento das dotações bloqueadas até o fim do exercício**, **ressalvada reversão de bloqueio baseada em relatório subsequente**. O § 3º trata da incidência proporcional de bloqueios sobre programações do identificador de resultado primário previsto no art. 7º, § 4º, II, “d”, observando **art. 166, § 19, da CF** e saldos **não empenhados por autor**. Fonte: [LDO 2026, art. 71, edição da Câmara](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15321-31-dezembro-2025-798617-publicacaooriginal-177696-pl.html).
+
+O **Decreto nº 12.846/2026, art. 18, II**, determina que Planejamento e Fazenda proponham **bloqueio ou cancelamento** de dotações para adequação aos limites da LC 200, ajustando valores autorizados e cronogramas de pagamento. O mesmo decreto, **art. 16**, estabelece **prazos de empenho apenas para os órgãos e unidades do Poder Executivo federal abrangidos pelos orçamentos fiscal e da seguridade social**:
+
+| Programação em 2026 | Prazo do art. 16 | Condição que muda o gabarito |
+| :--- | :--- | :--- |
+| **Despesa primária discricionária**, excluídas **RP 6 ou RP 7** | **4/12/2026** | MPO pode autorizar empenho posterior, nos termos do § 1º, II. |
+| **Demais despesas**, no âmbito do decreto | **31/12/2026** | Observar os limites e ressalvas legais. |
+
+A dotação não empenhada até o prazo do inciso I **poderá ser anulada**, nas condições do art. 16, § 2º, para **abertura de créditos suplementares** pela fonte **anulação de dotação** do art. 43, § 1º, III, da Lei 4.320. **“Poderá” não significa anulação automática.** A regra é **federal e específica para 2026**; as quantias e os anexos da programação podem ser alterados ao longo do exercício, por isso a análise de caso real exige consultar a versão compilada. Fonte: [Decreto 12.846/2026, compilado](https://www.presidencia.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12846compilado.htm).
+
+**Três hipóteses diferentes:** **contingenciamento do art. 9º da LRF** responde a risco de descumprimento de **meta fiscal**; **bloqueio da LDO 2026/art. 71** busca ajustar dotações ao **limite individualizado de despesa**; **prazo do Decreto 12.846/art. 16** organiza **até quando uma categoria pode ser empenhada**. Bloqueio e contingenciamento podem reduzir capacidade de execução, mas **não são a mesma operação normativa**, e nenhum dos dois garante automaticamente caixa para pagar.
+
+**Item inédito C/E:** “O prazo de 4 de dezembro de 2026 para empenho discricionário alcança, por determinação do Decreto 12.846, todos os municípios e as programações federais classificadas como RP 6 e RP 7, sem exceções.” **Errado.** O decreto tem **alcance federal específico**, exclui **RP 6/RP 7** daquele prazo e admite hipótese de autorização posterior.
 
 ## Como pode ser cobrado
 

@@ -3,7 +3,7 @@ title: "Contabilidade Pública: plano de artigos e recuperação"
 type: "planejamento"
 status: "em-execucao"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Contabilidade Pública: plano de artigos e recuperação
@@ -78,6 +78,8 @@ Não alterar `data/contexto-estudo/` manualmente, não marcar unidades como estu
 **Lote 1 de revisão normativa (05/11/2026):** [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026#Auditoria normativa fina: lote 1 (05/11/2026)|matriz de verificações]]. Foram cotejados pontos dos subitens **5.3, 6.3 e 7.1 a 7.4** com fontes oficiais, sem declarar nenhum subitem integralmente validado. A nota 11 foi refinada quanto à **alternativa de classificação de juros do CPC 03 (R2), item 34A**, com reconciliação de caixa; a nota 10 passou a explicitar **sanção e alcance da Lei 15.177/2025**. Próximo lote: 3.1/3.2 e 2.1/2.2.
 
 **Lote 2 de verificação normativa (05/11/2026):** [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026#Auditoria normativa fina: lote 2 (05/11/2026)|matriz com dispositivos e reparos em 3.1 e 3.2]]. Acrescentadas a exceção do crédito plurianual (art. 36 da Lei 4.320) na nota de RP, a vigência da dedução da RCL em 2026 (art. 2º, IV, a, LRF), a declaração de inconstitucionalidade do **art. 9º, § 3º, da LRF**, as ressalvas de calamidade do art. 65 e o alcance exato dos relatórios semestrais dos municípios menores. No total **8 subitens tiveram pontos cotejados, 10 ainda não; nenhum encerrado como normativamente integral**. Próximo lote: **2.1 e 2.2**.
+
+**Lote 3 de verificação normativa (05/11/2026):** [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026#Auditoria normativa fina: lote 3 (05/11/2026)|matriz de P3.2.2.1 e P3.2.2.2]]. Revisadas a [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|nota 02]] (envio × devolução do ADCT), [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|nota 05]] (emendas 2% individuais × até 1% bancada, bases de RCL distintas, impedimentos técnicos e fontes para créditos) e [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|nota 06]] (LRF art. 9º × LDO 2026 art. 71 × Decreto 12.846 art. 16, com limites temporais e exceções). **Acumulado: pontos em 10/18 subitens, oito sem cotejo direcionado, nenhum integralmente validado**. Próxima rodada: **4.1/4.2, regimes e demonstrações CASP/MCASP**.
 
 ## Auditoria oficial e destino das lacunas
 

@@ -5,7 +5,7 @@ title: "Créditos adicionais e emendas parlamentares"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 aliases:
   - "Créditos suplementares especiais e extraordinários"
   - "Emendas parlamentares impositivas"
@@ -140,6 +140,18 @@ A Constituição proíbe usar recursos dessas modalidades no pagamento de **pess
 Os percentuais constitucionais para emendas, a Lei Complementar nº 210/2024, as normas operacionais de 2026 e decisões judiciais sobre transparência são camadas diferentes. Uma questão que peça somente a regra da **Constituição** pode exigir resposta diferente daquela que pergunte sobre os **limites executáveis do exercício**, que dependem de legislação complementar e condições específicas.
 
 Evitar decorar percentuais sem identificar **a norma, o exercício e o tipo de emenda**.
+
+### Refinamento normativo: percentuais e exceções que alteram o C/E
+
+**Individual × bancada, com denominadores temporais diferentes.** A [Constituição atualizada, art. 166, §§ 9º, 9º-A e 12](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html) estabelece: **emendas individuais = 2% da Receita Corrente Líquida (RCL) do exercício anterior ao encaminhamento do PLOA**, dos quais **1,55% para deputados e 0,45% para senadores**, reservada **metade do percentual total a ações e serviços públicos de saúde**. Para **bancadas estaduais/DF**, há garantia de execução de até **1% da RCL realizada no exercício anterior**. Atenção à diferença entre **ano anterior ao encaminhamento do projeto** e **ano anterior à execução**; as duas fórmulas não são intercambiáveis. As **emendas de comissões** não adquirem automaticamente a mesma garantia constitucional de execução.
+
+**Execução obrigatória × impedimento técnico.** O art. 166, § 13, retira a obrigatoriedade quando há **impedimento de ordem técnica**. A [LC nº 210/2024, art. 10](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/relatorio-de-emendas/emendas-de-bancada-de-comissoes-e-individuais) descreve, entre outros, **projeto de engenharia ou licença ambiental ausente quando necessários**, falta de demonstração da capacidade de **custeio, operação e manutenção** da obra e insuficiência de recursos para concluir uma **etapa útil**. Não equivalem a escolha política arbitrária de não executar; é preciso instruir o impedimento. A [CGU orienta como verificar e acompanhar essas emendas](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/relatorio-de-emendas/emendas-de-bancada-de-comissoes-e-individuais).
+
+**Veto, emenda ou rejeição do PLOA.** O art. 166, **§ 8º**, prevê uso de recursos que ficarem sem despesas correspondentes nesses casos, **mediante créditos especiais ou suplementares, com autorização legislativa prévia e específica**. É uma hipótese constitucional própria; **não presumir que equivale ao excesso de arrecadação** do art. 43 da Lei nº 4.320/1964. Para as fontes do art. 43, continuam relevantes recursos **não comprometidos**, **superávit financeiro do exercício anterior**, **excesso acumulado com tendência e dedução legal de créditos extraordinários**, **anulação de dotações** e **operação de crédito autorizada**.
+
+**Transferência especial ≠ crédito especial.** A [CF, art. 166-A](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html), permite transferência direta sem convênio, mas **não afasta controle**: veda uso em pessoal, encargos e dívida e exige **pelo menos 70% em despesa de capital**, além de requisitos legais de rastreabilidade.
+
+**Itens inéditos C/E:** “O teto constitucional de emendas de bancada e o de emendas individuais utiliza a RCL do mesmo exercício de referência.” **Errado**, por diferença na base temporal dos §§ 9º e 12. “Recursos sem despesas correspondentes em razão de veto à LOA podem ser aplicados mediante crédito suplementar ou especial e autorização legislativa prévia e específica.” **Certo**, conforme § 8º.
 
 ## Como a banca pode cobrar
 

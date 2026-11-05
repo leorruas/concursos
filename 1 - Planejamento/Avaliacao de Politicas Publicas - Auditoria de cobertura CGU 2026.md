@@ -48,11 +48,17 @@ updated: 2026-11-05
 | **7.2** | Integridade de registros/autoria; plágio, fabricação e seleção indevida de evidências | [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa]] (ética e proteção de dados) | **Lacuna.** Criar fronteiras entre fabricação, falsificação, plágio e seleção enviesada de evidências; rastreabilidade. |
 | **7.3** | Auditoria × pesquisa com seres humanos; finalidades, proteções e apreciação ética | [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas|03]] (auditoria × impacto, não regime ético) | **Lacuna.** Validar condições efetivas de apreciação ética aplicáveis, distinguindo pesquisa científica e auditoria. |
 
+## Expansão editorial: unidade 5 (05/11/2026)
+
+Foi criada [[3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica|Identificação causal e avaliação econômica]], vinculada ao hub, índice e catálogo por `articleId`. Desenvolve **5.1** com contrafactual, aleatorização, seleção/confundimento e antes/depois; **5.2** com DiD, RDD, pareamento, hipóteses e ameaças; **5.3** com ACB, ACE, custo de oportunidade, sensibilidade e heterogeneidade, com cálculos hipotéticos e questões C/E inéditas.
+
+**Situação reavaliada da unidade 5:** 5.1, 5.2 e 5.3 passam a possuir **cobertura editorial substantiva preliminar**. A classificação histórica na matriz acima foi preservada como diagnóstico anterior à expansão; o resultado de 7/10/4 também é o *marco inicial*, e não o total atual. A contagem editorial após a expansão é **9 substantivos, 10 parciais e 2 lacunas (7.2 e 7.3)**. Validação metodológica fina, testes externos e aprendizagem permanecem pendentes.
+
 ## Resultado e ordem de implementação
 
 **Triagem:** **21/21 subitens mapeados**; **7 substantivos, 10 parciais e 4 lacunas** (5.2, 5.3, 7.2, 7.3). *Mapeado* não significa coberto; a matéria **não está editorialmente concluída**, nem há auditoria normativa/metodológica fina dos 21 itens. A classificação é provisória e baseada nos artigos inspecionados.
 
-**P0, identificação causal e avaliação econômica:** elaborar artigo especializado para 5.1–5.3. Antes de qualquer questão que exija inferência causal, verificar pressupostos (tendências paralelas, limiar da regressão, sobreposição/ignorabilidade no pareamento), ameaças e interpretação de estimativas. Distinguir economicamente custo-benefício de custo-efetividade.
+**P0, identificação causal e avaliação econômica (artigo criado em 05/11/2026):** realizar validação fina e testar 5.1–5.3 em C/E. Antes de qualquer questão que exija inferência causal, verificar pressupostos (tendências paralelas, limiar da regressão, sobreposição/ignorabilidade no pareamento), ameaças e interpretação de estimativas. Distinguir economicamente custo-benefício de custo-efetividade.
 
 **P1, estratégias qualitativas e mistas:** ampliar 4.1–4.2 em nota própria usando a base já existente de pesquisa, com amostragem intencional, mecanismos e triangulação. Preservar o artigo de Comunicação compartilhado, sem reescrevê-lo para simular cobertura integral da CGU.
 

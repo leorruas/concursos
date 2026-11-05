@@ -12,6 +12,12 @@ updated: 2026-11-04
 
 ## Núcleo do conceito
 
+**Comece por uma obrigação conhecida.** Se uma universidade recebeu computadores de R$ 15 mil e aceitou a entrega, há uma dívida com valor determinado a ser reconhecida conforme os critérios contábeis. Essa é a situação mais simples: existe uma **conta a pagar**. Imagine, agora, que a universidade enfrenta uma ação judicial: não está definido se precisará pagar nem, possivelmente, quanto. O problema deste artigo é **decidir se há passivo a reconhecer, se é preciso apenas divulgar um risco ou se nenhum dos dois é exigido**.
+
+Faça três perguntas **nessa ordem**: houve evento passado que criou uma **obrigação presente**? A saída de recursos é **provável**, segundo a evidência disponível? É possível produzir uma **estimativa confiável**? Quando as condições normativas de reconhecimento são satisfeitas, o passivo de prazo ou valor incerto é uma **provisão**. Quando há somente obrigação possível ou a obrigação presente não reúne os critérios de reconhecimento, pode existir **passivo contingente**, tratado segundo as regras de divulgação. A simples existência de processo judicial **não classifica o caso**: é preciso analisar suas evidências e condições.
+
+Para um **possível direito de receber**, o raciocínio não é simétrico ao de uma dívida: um ativo contingente não se reconhece só porque a entrada de recursos parece provável. Abaixo, as regras específicas de divulgação e reconhecimento serão detalhadas. Preserve desde já a diferença entre **dívida certa**, **provisão reconhecida com incerteza** e **contingência acompanhada/divulgada**.
+
 O reconhecimento de riscos patrimoniais exige responder: **houve evento passado que criou obrigação presente? A saída de recursos é provável? O valor é estimável com confiabilidade?** A resposta define **provisão reconhecida**, **passivo contingente divulgado** ou **nenhum registro nem divulgação exigidos**. Para possíveis entradas, a regra é mais restritiva: um **ativo contingente provável** é divulgado, mas o reconhecimento depende de realização **virtualmente certa**.
 
 **Provisão** é passivo de prazo ou valor incerto. **Passivo contingente** é obrigação possível decorrente de evento passado, dependente de confirmação futura fora do controle integral da entidade, ou obrigação presente sem critérios de reconhecimento. **Ativo contingente** é ativo possível de evento passado, cuja existência será confirmada por evento futuro incerto. A existência de processo judicial não basta para classificar automaticamente o evento.

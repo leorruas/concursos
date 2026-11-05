@@ -40,6 +40,39 @@ Município recebe transferência especial para pavimentação. O dinheiro ingres
 
 Se a obra não é concluída, a auditoria confronta prazo, objeto declarado, evidência física e regras de contas antes de qualificar descumprimento e propor medida. Não se presume automaticamente fraude pela existência de atraso.
 
+## Refinamento normativo: fluxo e exceções da Portaria MGI nº 7.562/2026
+
+A **prestação de contas da transferência especial** tem tratamento normativo próprio: **não é um convênio simplificado**. O ente beneficiado ou órgão executor e o **órgão setorial do Sigpar** exercem papéis diferentes, com prazos e decisões próprios.
+
+| Evento | Regra da Portaria 7.562/2026 | Quem atua |
+| :--- | :--- | :--- |
+| Relatório de gestão anual | **Até 30 de junho** do exercício seguinte ao recebimento e atualização anual até o fim do objeto (art. 3º) | Ente beneficiado |
+| Relatório final | **Até 60 dias** da conclusão do objeto ou do fim do prazo de execução informado, o que ocorrer primeiro (art. 3º, § 1º) | Ente beneficiado ou executor |
+| Guarda documental | **Cinco anos** contados da inserção do relatório final no Transferegov (art. 4º, parágrafo único) | Beneficiário ou executor |
+| Exame do relatório final | **Até 180 dias** desde o envio, prorrogáveis justificadamente por até igual período; suspensão quando solicitada complementação (art. 6º) | Órgão ou entidade setorial do Sigpar |
+| Resultado do exame | **Aprovação**, **aprovação com ressalvas** ou **rejeição** (art. 8º) | Competência decisória exclusiva do órgão setorial |
+| Rejeição com valores a devolver | Notificação para devolução correspondente em **até 30 dias, improrrogáveis**, segundo o art. 8º, § 3º; ausência de devolução pode resultar em impugnação e TCE | Beneficiário ou executor, após decisão setorial |
+
+**Ressalva × rejeição:** o art. 8º, II, prevê aprovação com ressalvas quando há **impropriedade ou falta formal sem dano ao erário**. A rejeição decorre de não comprovação da regular aplicação em hipóteses como inexecução, desvio, despesas impugnadas ou omissão documental que comprometa o julgamento. **Falta formal sem dano ≠ rejeição automática**.
+
+### Regime anterior a 2025: diferença entre envio e análise
+
+Os **arts. 12 a 16** disciplinam o legado das transferências especiais anteriores a 2025. O art. 12 exige **envio do relatório** desses exercícios; já o art. 16 prevê, em certas situações de **valor global abaixo do limite da IN TCU 98/2024**, **dispensa da análise pelos órgãos setoriais**. Isso **não significa dispensa do envio**, e a dispensa da análise não impede atuação quando denúncia ou representação indicar indícios após exame preliminar (art. 16, parágrafo único).
+
+**Fronteira temporal:** o art. 20 prevê aplicação das disposições da portaria às transferências especiais recebidas independentemente do ano, mas há regras específicas de análise de legados. Assim, a expressão “independentemente do ano” não suprime diferenciações expressas.
+
+### Questões comentadas: inéditas C/E
+
+**Item 4.** A dispensa de análise setorial de determinado relatório de transferência especial anterior a 2025, nas hipóteses do art. 16 da Portaria 7.562/2026, significa dispensa automática do envio do relatório de gestão.
+
+**Gabarito: Errado.** O art. 12 impõe o envio; o art. 16 trata de dispensa **da análise**, com ressalvas.
+
+**Item 5.** O prazo de 180 dias previsto na Portaria 7.562/2026 para análise do relatório final pelo órgão setorial do Sigpar é idêntico, quanto ao objeto e marco inicial, ao prazo de 180 dias da fase interna da TCE da Portaria CGU 281/2026.
+
+**Gabarito: Errado.** Coincidem no número de dias, mas têm **objetos, agentes e marcos de contagem diferentes**.
+
+**Fonte primária:** [Portaria MGI nº 7.562/2026, arts. 3º a 9º e 12 a 20](https://www.gov.br/transferegov/pt-br/legislacao/portarias/portaria-mgi-no-7-562-de-14-de-setembro-de-2026).
+
 ## Questões comentadas: inéditas C/E
 
 **Item 1.** A modalidade transferência especial prevista no art. 166-A permite repasse direto sem convênio, mas continua sujeita a regras de aplicação e transparência.

@@ -36,6 +36,37 @@ A [página oficial consolidada da Portaria nº 28/2024](https://www.gov.br/trans
 
 Dois municípios celebram ajustes de obras com valores e datas diferentes. O auditor não deve classificá-los apenas pelo valor nominal lembrado de 2024. Ele consulta teto vigente na celebração, regras de migração quando cabíveis, natureza do objeto, instrumento e alterações posteriores. Se uma portaria deixou de exigir certa etapa para o simplificado, isso não demonstra que a obra foi entregue nem dispensa controle da destinação dos recursos.
 
+## Refinamento normativo de 2026: condições do regime simplificado
+
+A versão consolidada da **Portaria Conjunta MGI/MF/CGU 28/2024**, modificada pela Portaria **46, de 10/07/2026**, define limites e obrigações específicos para convênios e contratos de repasse do **regime simplificado**.
+
+| Condição | Dispositivo | Fronteira cobrada em C/E |
+| :--- | :--- | :--- |
+| Enquadramento | Art. 1º, caput e §§ 2º a 5º: **valor global da celebração** dentro do limite **atualizado** do art. 184-A da Lei 14.133/2021, com condições próprias de repasse | Contrapartidas suplementares ou rendimentos de aplicação não exigem, por si, reenquadramento; atenção ao valor de repasse da União |
+| Mínimo de repasse da União para **obras** | Art. 3º, I: **R$ 400 mil** | É mínimo de repasse no regime, **não o teto** do art. 184-A |
+| Mínimo de repasse da União para **demais objetos** | Art. 3º, II: **R$ 200 mil** | O valor difere do mínimo para obras |
+| Forma de transferência | Art. 4º, VII, após Portaria 46/2026: recursos financeiros **em parcela única** | Redação anterior continha **preferencialmente**; não confundir versões |
+| Vigência do instrumento | Art. 10, IV: **até 36 meses** na redação vigente | Vigência do instrumento não é prazo de relatório; prorrogações previstas no regime devem ser examinadas |
+| Subsidiariedade | Art. 13: aplicação **seletiva** das regras da Portaria 33/2023, com várias exceções expressas | A portaria do regime ordinário não se aplica integralmente |
+
+**Mudança de regime e temporalidade:** os instrumentos celebrados antes da entrada em vigor da Portaria 28/2024 são regidos pelas regras aplicáveis à celebração, observadas as hipóteses especiais de migração da própria portaria. A Portaria 46/2026 atualizou a redação dessas hipóteses. Afirmar que todo convênio anterior passa automaticamente ao simplificado é extrapolação.
+
+**Limite do valor fixo:** os mínimos do art. 3º foram conferidos na página consolidada consultada em 05/11/2026. O **teto** depende do art. 184-A e de atualização nos termos da Lei 14.133; nunca trocar mínimo por teto ou usar valor de 2024 como se fosse parâmetro de 2026 sem conferência.
+
+O **art. 10, XII**, contempla prorrogação de ofício da vigência pelo período exato de atraso causado pelo concedente ou pela mandatária na liberação dos recursos. Assim, a vigência de até **36 meses prevista no art. 10, IV** não deve ser transformada em proibição absoluta de toda prorrogação válida. A forma e os requisitos da prorrogação dependem do dispositivo e do caso.
+
+### Questões comentadas: inéditas C/E, norma vigente
+
+**Item 3.** No regime simplificado da Portaria Conjunta 28/2024, os valores mínimos de repasse da União diferem entre obras e os demais objetos, na redação examinada em novembro de 2026.
+
+**Gabarito: Certo.** O art. 3º prevê R$ 400 mil para obras e R$ 200 mil para os demais objetos.
+
+**Item 4.** O regime simplificado deve aplicar integralmente a Portaria Conjunta 33/2023, pois o art. 13 da Portaria 28/2024 não estabelece exceções.
+
+**Gabarito: Errado.** O art. 13 lista dispositivos excluídos da aplicação subsidiária.
+
+**Fonte primária:** [Portaria Conjunta 28/2024, página consolidada até julho de 2026](https://www.gov.br/transferegov/pt-br/legislacao/portarias/portaria-conjunta-mgi-mf-cgu-no-28-de-21-de-maio-de-2024); [Portaria Conjunta 46/2026](https://www.gov.br/transferegov/pt-br/legislacao/portarias/portaria-conjunta-mgi-mf-cgu-no-46-de-10-de-julho-de-2026).
+
 ## Questões comentadas: inéditas C/E
 
 **Item 1.** A adoção do regime simplificado elimina a obrigação de comprovar cumprimento do objeto, porque a União já validou os requisitos na celebração.

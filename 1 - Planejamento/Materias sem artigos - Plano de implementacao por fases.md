@@ -189,8 +189,10 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 A publicação deve também registrar vínculo de cobertura para as unidades que já tenham teoria canônica suficiente: **Estado e Democracia U04–U05** via Direito Constitucional e Controle; **Governança U01–U02** via Governança Pública e Auditoria; **Transparência U01, U02 e U05** via LAI/LGPD e Comunicação Pública; **Sociedade U03** via Demografia e Mercado de Trabalho; **Finanças U01 (resultado fiscal)** via política fiscal; **Contratações U05** pelos procedimentos e achados de auditoria, sempre avaliando se a cobertura é parcial; **Evidências** deve aproveitar as notas de pesquisa, IA e auditoria. Incluir as referências no catálogo v2 somente após conferir o escopo real.
 
+**Validação dirigida de 05/11/2026, lote 1:** conferidas e refinadas as notas 03, 05 e 07 de Contratações e Transferências contra fontes oficiais (Portaria Conjunta 28/2024 atualizada pela 46/2026; Portaria MGI 7.562/2026; Portaria CGU 281/2026; IN TCU 98/2024). O registro de fontes, correções de escopo e limitações de prova está na [[1 - Planejamento/CGU 2026 - Auditoria normativa e provas-espelho - lote 1|auditoria normativa e corpus, lote 1]]. **É verificação normativa pontual de três notas, não validação integral da CGU nem treino de prova já realizado.**
+
 ## Protocolo de retomada
 
 Para executar qualquer fase: ler `AGENTS.md` → este roteiro → hub correspondente → notas de reuso → fonte do edital/legislação → consultar `data/contexto-estudo/<concurso>/<materia>.json` se a mudança se relacionar a conteúdo já estudado. Publicar o pequeno lote, conferir CI e marcar como concluídas **somente** as microfases efetivamente publicadas; registrar desvios e lacunas com precisão. Na aula, usar `CHAT.md` e o contexto/sessão mais recente como fonte do próximo passo, não as caixas deste plano.
 
-**Controle atualizado (05/11/2026):** 11 ondas e 49 microfases; **31 atendidas editorialmente e 18 pendentes**. As ondas 5 e 8 foram publicadas nesta etapa. Estes números registram produção de conteúdo, sem representar aulas, acertos, retenção ou validação normativa integral.
+**Controle atualizado (05/11/2026):** 11 ondas e 49 microfases, **40 atendidas editorialmente e 9 pendentes**. Este saldo é conferido pelos próprios checkboxes; não representa estudo, proficiência ou validação normativa.

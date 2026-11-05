@@ -71,7 +71,9 @@ async function renderizarDiagramasMermaid() {
             if (geracao !== geracaoMermaidAtual || !diagrama.isConnected) break;
             const erroVisual = document.createElement("p");
             erroVisual.className = "mermaid-erro";
-            erroVisual.textContent = "Não foi possível renderizar este diagrama. O código original permanece disponível abaixo.";
+            const mensagem = erro?.message || String(erro);
+            erroVisual.textContent = "Falha ao renderizar Mermaid: " + mensagem;
+            erroVisual.setAttribute("role", "alert");
             const fonte = document.createElement("pre");
             fonte.className = "mermaid-fonte-erro";
             fonte.textContent = codigo;

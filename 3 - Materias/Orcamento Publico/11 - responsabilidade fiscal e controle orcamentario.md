@@ -48,7 +48,9 @@ Ver [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] para o 
 
 A **Receita Corrente Líquida (RCL)**, definida no art. 2º, IV, da LRF, é referência para diversos **limites e indicadores fiscais**. Seu cálculo se baseia em receitas correntes e **deduções legalmente previstas**, com apuração do período estabelecido pela lei, incluindo os **12 meses de referência**.
 
-**RCL não é sinônimo de receita tributária, receita primária, arrecadação bruta ou saldo de caixa**. A dedução legal de parcelas e a definição da janela de apuração impedem tratar a RCL como valor isolado da arrecadação de determinado mês.
+**RCL não é sinônimo de receita tributária, receita primária, arrecadação bruta ou saldo de caixa**. A dedução legal de parcelas e a janela móvel de **mês de referência mais 11 anteriores** (art. 2º, § 3º) impedem tratar a RCL como arrecadação isolada de um mês.
+
+**Atualização válida a partir de 01/01/2026:** a **LC nº 214/2025 alterou o art. 2º, IV, alínea “a”, da LRF**. Nas deduções da **RCL da União**, a redação vigente inclui expressamente valores entregues a estados e ao Distrito Federal pelo fundo previsto no **art. 159-A da Constituição**, além das demais deduções legais. **Não generalizar a dedução a todas as esferas:** a mesma norma prevê regras próprias para estados, municípios, previdência e outras rubricas. Fonte: [LRF atualizada, art. 2º, IV, a, e § 3º](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html).
 
 Exemplo: se o indicador calculado para um ente for R$ 100 milhões, o limite global legal de despesa com pessoal da União corresponderia a R$ 50 milhões, **mas** a distribuição entre Poderes e órgãos exige análise do art. 20. A conta de limite global não permite concluir que cada órgão pode gastar até metade da RCL.
 
@@ -114,9 +116,9 @@ A diferença de base de cálculo é fonte de distratores: uma questão pode desc
 
 ## Riscos, limitação de empenho e final de mandato
 
-O art. 9º da LRF estabelece limitação de **empenho e movimentação financeira** quando a avaliação bimestral indicar risco às metas fiscais, observados os critérios da LDO. A limitação é diferente de **anulação de dotação**, como explicado em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]].
+O art. 9º da LRF estabelece limitação de **empenho e movimentação financeira** quando a avaliação bimestral indicar risco às metas de resultado primário ou nominal, por ato próprio dos Poderes e do Ministério Público nos **30 dias subsequentes**, segundo critérios da LDO. A medida **não anula automaticamente a dotação**. O art. 9º, **§ 2º**, resguarda obrigações constitucionais e legais (inclusive serviço da dívida), inovação e desenvolvimento científico e tecnológico **custeados por fundo criado para essa finalidade**, e despesas ressalvadas na LDO. O **§ 3º foi declarado inconstitucional pelo STF na ADI 2.238**: não ensinar como vigente a autorização para o Executivo limitar valores dos demais Poderes na hipótese de omissão. Ver [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]].
 
-O **art. 42** impõe exigência própria nos **últimos dois quadrimestres de mandato**: não contrair obrigações sem capacidade de pagamento dentro do mandato ou sem disponibilidade de caixa suficiente para parcelas seguintes. Essa regra não é sinônimo da proibição de empenhar despesas em dezembro nem afirma que todo resto a pagar seja irregular.
+O **art. 42** impõe exigência própria nos **últimos dois quadrimestres de mandato**: não contrair obrigação que não possa ser cumprida integralmente no mandato ou cujas parcelas para o exercício seguinte não tenham caixa suficiente. Não equivale à proibição geral de RP ou de empenhos em dezembro. **A calamidade pública reconhecida pode atrair o art. 65 da LRF**, incluindo a dispensa condicionada do art. 42 na hipótese do **§ 1º, II, em conjunto com § 2º**, sem afastar transparência, controle e fiscalização (art. 65, § 2º, II).
 
 O exame da disponibilidade precisa respeitar **fontes legalmente vinculadas**. Uma conta com dinheiro suficiente em termos agregados pode não ter recursos livres suficientes para obrigação de determinada fonte. Ver [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|restos a pagar e encerramento do exercício]].
 
@@ -139,7 +141,7 @@ Não deduzir que **RREO** significa fiscalização exclusiva de despesa com pess
 
 O **RGF** é emitido pelos titulares dos Poderes e órgãos abrangidos na LRF, art. 54, com conteúdo do art. 55. Compara despesas com pessoal, dívida, garantias e operações de crédito aos **limites legais** e, no período final, detalha **disponibilidade de caixa e restos a pagar**.
 
-O RGF **não equivale a um balanço orçamentário bimestral**, nem sua apresentação substitui o RREO. A periodicidade geral é quadrimestral, e o art. 63 faculta a **municípios com população inferior a 50 mil habitantes** a opção de divulgação **semestral do RGF**, nas condições legais. Essa opção não transforma genericamente o RREO em relatório semestral: há disciplina própria para seus demonstrativos.
+O RGF **não equivale a balanço orçamentário bimestral**, nem substitui o RREO. Pelo **art. 63, II, b e c**, municípios com **menos de 50 mil habitantes** podem optar pela divulgação **semestral do RGF e dos demonstrativos do art. 53**; isso **não torna o RREO inteiro semestral**: a publicação geral do relatório continua disciplinada no art. 52. Os demonstrativos opcionais são apresentados em até **30 dias após o semestre** (art. 63, § 1º). Se excedidos limites de pessoal ou de dívida consolidada, verificar o retorno aos **prazos ordinários de apuração e recondução** (§ 2º).
 
 ### RREO, RGF e Siconfi
 

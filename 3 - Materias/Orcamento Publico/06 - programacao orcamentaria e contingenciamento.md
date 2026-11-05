@@ -76,6 +76,16 @@ O § 1º do art. 9º estabelece que, se a receita prevista for restabelecida, ai
 
 Exemplo: as limitações foram de R$ 6 milhões no órgão A e R$ 12 milhões no B. Uma recomposição parcial decorrente da melhora de receitas deve seguir a proporcionalidade legal. Não significa abertura automática de novos créditos nem liberação integral de todos os limites.
 
+### Vedação de limitação pelo Executivo e calamidade: limites da exceção
+
+O **art. 9º, § 3º, da LRF**, que autorizava o Executivo a limitar valores financeiros dos Poderes Legislativo e Judiciário e do Ministério Público em certas hipóteses de omissão, **foi declarado inconstitucional pelo STF na ADI 2.238**. A literalidade remanescente do parágrafo em textos legais anotados **não permite tratá-lo como regra vigente**. A limitação do caput cabe aos órgãos e Poderes **por atos próprios**, segundo os critérios da LDO.
+
+**Calamidade pública:** o art. 65, II, da LRF dispensa, enquanto perdurar calamidade **formalmente reconhecida nas condições legais**, o atingimento dos resultados fiscais e a limitação de empenho do art. 9º. Há outras hipóteses específicas de dispensa no § 1º, condicionadas ao alcance territorial, aos atos necessários e à finalidade conforme § 2º, **sem eliminar transparência, controle e fiscalização**. Não deduzir de uma emergência comum dispensa automática de metas, de prestação de contas ou de limites em qualquer lugar.
+
+**Item C/E didático:** “Se um Poder não cumprir a limitação no prazo, o art. 9º, § 3º, autoriza atualmente o Poder Executivo a efetivar em seu lugar a limitação financeira.” **Errado.** O STF declarou o dispositivo inconstitucional; o caput atribui a cada Poder/Ministério Público a providência por ato próprio.
+
+**Fonte:** [LRF, arts. 9º e 65, texto atualizado com anotação da ADI 2.238](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html).
+
 ### Despesas não sujeitas à limitação
 
 O § 2º do art. 9º ressalva **obrigações constitucionais e legais**, inclusive despesas com **serviço da dívida**, despesas relativas à **inovação e desenvolvimento científico e tecnológico custeadas por fundo criado para tal finalidade**, além das **ressalvadas pela LDO**.

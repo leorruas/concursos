@@ -58,13 +58,21 @@ No final do ano, um órgão tem: R$ 70 mil empenhados e liquidados, mas não pag
 
 As três quantias não devem ser lançadas como nova **despesa orçamentária empenhada** no exercício seguinte simplesmente porque o pagamento ficou pendente. O exercício orçamentário de origem está vinculado ao empenho original.
 
+### Crédito com vigência plurianual: exceção literal do art. 36
+
+**Regra do art. 36, parágrafo único, da Lei nº 4.320/1964:** empenhos à conta de **créditos com vigência plurianual** que **ainda não foram liquidados** **somente** serão computados como **Restos a Pagar no último ano de vigência do crédito**. Portanto, a máxima “todo empenho não pago em 31 de dezembro vira RP” exige verificar **a vigência do crédito**. **Não confundir** crédito com vigência plurianual com despesa contratual de execução plurianual ou mera existência de previsão no PPA: são critérios diferentes.
+
+**Item C/E didático:** “Empenho não liquidado vinculado a crédito de vigência plurianual deverá ser inscrito em restos a pagar no encerramento de cada um dos anos de vigência.” **Errado.** O art. 36, parágrafo único, prevê seu cômputo apenas no **último** ano de vigência, sob as condições do dispositivo. Para empenhos de créditos comuns, examinar o caput e as condições de inscrição do regime aplicável.
+
+**Fonte:** [Lei 4.320/1964, art. 36, caput e parágrafo único, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html).
+
 ## Inscrição e disponibilidade financeira
 
 Não basta encontrar despesa empenhada sem pagamento para concluir que toda inscrição será regular **independentemente de controles de encerramento**. A inscrição deve observar disponibilidade de caixa, vinculações de fontes, atos normativos pertinentes e limites de responsabilidade fiscal. O **MCASP, seção 4.7.1**, ressalta esse exame.
 
 O art. 42 da **Lei de Responsabilidade Fiscal (LRF)** proíbe ao titular de Poder ou órgão referido no art. 20, **nos últimos dois quadrimestres do mandato**, contrair obrigação de despesa que não possa ser cumprida integralmente no mandato ou que tenha parcela a pagar no exercício seguinte sem **suficiente disponibilidade de caixa**. O parágrafo único determina considerar encargos e despesas compromissadas até o final do exercício.
 
-**Últimos dois quadrimestres do mandato** não são o mesmo que **últimos dois meses do exercício**, nem a vedação é restrita ao período entre uma eleição e a posse. A regra mira obrigações no período final do mandato; não pode ser reduzida à ideia genérica de “proibido deixar restos a pagar em qualquer ano”.
+**Últimos dois quadrimestres do mandato** não são o mesmo que **últimos dois meses do exercício**, nem a vedação é restrita ao período entre eleição e posse. A regra não equivale à proibição geral de todo RP. **Ressalva normativa:** a **LRF, art. 65**, estabelece situações excepcionais de **calamidade pública reconhecida**, com requisitos territoriais, temporais e de finalidade específicos. O **§ 1º, II**, nas condições do **§ 2º**, afasta vedação e sanções do **art. 42** para a resposta à calamidade. **Não aplicar essa dispensa sem o reconhecimento e os requisitos legais**, nem concluí-la como afastamento de transparência/controle (art. 65, § 2º, II).
 
 A disponibilidade de caixa deve ser examinada segundo **fontes e vinculações**. Recurso destinado a finalidade legalmente vinculada não se transforma em cobertura livre para qualquer obrigação, conforme [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|fontes/destinação]] e [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|execução financeira]].
 

@@ -44,6 +44,36 @@ Uma empresa oferece vantagem indevida para obter contrato, com possível partici
 
 **Gabarito: Certo.** As esferas e sujeitos são distintos.
 
+## Refinamento normativo: TAC, prescrição e prazos do PAD/PAR (05/11/2026)
+
+**TAC correcional.** A Portaria Normativa CGU nº 27/2022, arts. 61–63, define infração de menor potencial ofensivo, no regime geral descrito, como a punível com **advertência ou suspensão de até 30 dias**. O art. 63 exige, entre outros requisitos, ausência de penalidade disciplinar vigente, restrição a TAC anterior nos dois anos previstos, com exceção normativa, e ressarcimento ou compromisso de ressarcir eventual dano.
+
+O **Enunciado da Consultoria-Geral da União nº 42/2026**, publicado em 20/07/2026, dispõe que a autoridade responsável **deve celebrar o TAC** quando os requisitos aplicáveis estão cumpridos e há concordância do acusado, antes ou depois da instauração do PAD conforme a forma de proposta. A orientação refere-se aos **ocupantes de cargos efetivos submetidos à Lei nº 8.112/1990**. Por isso, a frase “TAC é sempre livre escolha da Administração, mesmo preenchidos os requisitos” é incompatível com o enunciado. Tampouco o TAC é acordo de leniência com pessoa jurídica.
+
+**Prescrição do PAD: Lei nº 8.112/1990, art. 142.** Para infrações puníveis com demissão, cassação de aposentadoria/disponibilidade ou destituição de cargo em comissão: **cinco anos**; suspensão: **dois anos**; advertência: **180 dias**. A lei fixa início, em regra, na **data em que o fato se tornou conhecido** e prevê disciplina própria de interrupção; quando a infração também configurar crime, o § 2º determina atenção aos prazos da lei penal. **Prazo prescricional ≠ duração de investigação**.
+
+**Prescrição da Lei Anticorrupção: art. 25 da Lei nº 12.846/2013.** A pretensão sancionatória relativa às infrações previstas nessa lei prescreve em **cinco anos contados da ciência da infração** ou, na infração permanente/continuada, da **cessação**. A instauração de processo para apurar a infração interrompe a prescrição no âmbito previsto pelo parágrafo único. Não importar automaticamente os três prazos do PAD para a pessoa jurídica do PAR.
+
+**Prazos de instrução.** No PAD comum da Lei 8.112/1990, art. 152, há até **60 dias** para conclusão dos trabalhos da comissão, admitida prorrogação por igual período nas condições legais. Para a comissão do **PAR**, o Decreto nº 11.129/2022, art. 5º, § 4º, fixa até **180 dias**, com prorrogação motivada. O **art. 6º** concede **30 dias para defesa escrita da pessoa jurídica**, após indiciação/intimação. Esses 30 dias não constituem o prazo da comissão nem prazo prescricional.
+
+### C/E inéditos: fronteiras normativas
+
+**Item 3.** As infrações sujeitas a suspensão na Lei 8.112/1990 prescrevem em 180 dias, pois esse é o prazo das advertências.
+
+**Gabarito: Errado.** Suspensão: dois anos; advertência: 180 dias (art. 142).
+
+**Item 4.** O Enunciado AGU 42/2026 admite TAC para servidor efetivo regido pela Lei 8.112/1990, observados a menor ofensividade, os requisitos específicos e a concordância aplicável, inclusive depois de instaurado o PAD.
+
+**Gabarito: Certo.** A orientação descreve possibilidade de proposta nessa etapa, condicionada a requisitos e concordância.
+
+**Item 5.** O prazo de 30 dias para defesa da pessoa jurídica no PAR corresponde ao prazo prescricional de infrações da Lei 12.846/2013.
+
+**Gabarito: Errado.** São institutos distintos: defesa no Decreto 11.129 e prescrição quinquenal na Lei 12.846.
+
+**Fontes primárias e oficiais:** [Lei 8.112/1990, arts. 142 e 152, Senado Federal](https://legis.senado.gov.br/norma/549988/publicacao/34619938); [Enunciado AGU 42/2026](https://www.gov.br/agu/pt-br/composicao/cgu/cgu/enunciados); [Portaria CGU 27/2022](https://repositorio.cgu.gov.br/bitstream/1/68802/1/Portaria_Normativa_27_2022.pdf); [Decreto 11.129/2022, arts. 5º e 6º](https://repositorio.cgu.gov.br/bitstream/1/68511/1/Decreto_11129_11_07_2022.pdf); [Lei 12.846/2013, art. 25, reproduzida em parecer da AGU](https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/a388dfed-be94-4452-ad34-e499e1c7fd2c/content).
+
+**Limite da auditoria:** cotejo pontual das normas identificadas; casos de interrupção, suspensão e regras intertemporais requerem estudo próprio antes de cálculos complexos de prescrição.
+
 ## Relações com outros temas
 
 - [[3 - Materias/Integridade e Responsabilizacao/04 - admissibilidade prova e regimes de responsabilidade|Admissibilidade e responsabilidade]].

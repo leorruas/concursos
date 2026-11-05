@@ -29,6 +29,39 @@ O **Manual Técnico de Orçamento (MTO)** é a referência da estrutura federal 
 
 ## Receita: categoria econômica e natureza
 
+### Mapa visual: como classificar uma receita
+
+As classificações abaixo respondem a **perguntas diferentes** sobre o mesmo ingresso. As opções de cada ramo são exemplos ou categorias próprias daquele critério, não etapas sucessivas. No site, use **ampliar** para explorar o diagrama.
+
+```mermaid
+flowchart TB
+    R["RECEITA PÚBLICA<br/>Qual critério está sendo perguntado?"]
+    R --> N["Natureza<br/>Qual fato originou o ingresso?"]
+    R --> F["Fonte / destinação<br/>Quais regras regem a aplicação?"]
+    R --> P["Resultado primário<br/>Entra no resultado primário?"]
+    R --> O["Tratamento orçamentário<br/>Integra a receita do orçamento?"]
+    R --> D["Doutrina<br/>Qual a forma de obtenção?"]
+    N --> NC["Corrente<br/>Impostos, contribuições, patrimonial,<br/>serviços, transferências correntes etc."]
+    N --> NK["Capital<br/>Crédito, alienação, amortização<br/>de empréstimos, transferências de capital etc."]
+    F --> FV["Recursos vinculados<br/>Aplicação conforme norma específica"]
+    F --> FL["Recursos não vinculados<br/>Aplicação conforme regras gerais"]
+    P --> PP["Primária"]
+    P --> PF["Financeira / não primária"]
+    O --> OO["Orçamentária"]
+    O --> OE["Extraorçamentária<br/>Ex.: ARO"]
+    D --> DO["Originária"]
+    D --> DD["Derivada"]
+    classDef raiz fill:#164e82,stroke:#6fb5f2,color:#fff,stroke-width:2px;
+    classDef criterio fill:#283b52,stroke:#64a9e9,color:#fff,stroke-width:1.5px;
+    classDef opcao fill:#e3f2ff,stroke:#2874b9,color:#153650;
+    class R raiz;
+    class N,F,P,O,D criterio;
+    class NC,NK,FV,FL,PP,PF,OO,OE,DO,DD opcao;
+```
+
+**Fronteira para a prova:** corrente/capital pertence à **natureza**; primária/financeira pertence ao **resultado fiscal**; orçamentária/extraorçamentária pertence ao **tratamento do ingresso**. A fonte/destinação identifica restrições e possibilidades de aplicação, não a origem econômica. O par originária/derivada é **doutrinário**, não um nível da codificação oficial.
+
+
 A natureza descreve a **origem econômica e legal do ingresso**, em níveis progressivos: categoria, origem, espécie e detalhamentos. A Lei nº 4.320/1964, art. 11, distingue:
 
 | Categoria econômica | Exemplos usuais | Fronteira |
@@ -108,6 +141,48 @@ Não é correto resolver automaticamente por equivalência:
 Essas proposições confundem **três dimensões diferentes**. Juros, financiamento e operações de capital precisam ser identificados pelas regras específicas do indicador. Consulte [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]] para o cálculo e a interpretação dos resultados fiscais.
 
 ## Despesa: perguntas qualitativas e quantitativas
+
+### Mapa visual: cada classificação da despesa e suas opções
+
+Cada ramo caracteriza a **mesma despesa por um ângulo distinto**. Os níveis dentro de cada ramo, quando houver, formam sua hierarquia específica. O quadro reúne opções para reconhecer o critério em enunciados de prova.
+
+```mermaid
+flowchart TB
+    X["DESPESA ORÇAMENTÁRIA<br/>Que pergunta a prova faz?"]
+    X --> E["Esfera<br/>Em qual orçamento da LOA?"]
+    E --> E1["Fiscal"]
+    E --> E2["Seguridade social"]
+    E --> E3["Investimento das estatais"]
+    X --> I["Institucional<br/>Quem é responsável?"]
+    I --> I1["Órgão orçamentário"]
+    I1 --> I2["Unidade orçamentária"]
+    X --> FU["Funcional<br/>Em qual área de governo?"]
+    FU --> FU1["Função<br/>Ex.: Saúde, Educação"]
+    FU1 --> FU2["Subfunção<br/>Ex.: atenção básica"]
+    X --> PR["Programática<br/>O que se pretende realizar?"]
+    PR --> PR1["Programa"]
+    PR1 --> PR2["Ação<br/>Atividade, projeto ou operação especial"]
+    PR2 --> PR3["Subtítulo / localizador"]
+    X --> NA["Natureza<br/>Que tipo de gasto e objeto?"]
+    NA --> NA1["Categoria econômica<br/>Corrente ou capital"]
+    NA1 --> NA2["Grupo de natureza<br/>Pessoal, juros, outras correntes,<br/>investimentos, inversões, amortização"]
+    NA2 --> NA3["Modalidade de aplicação<br/>Direta ou por transferência etc."]
+    NA3 --> NA4["Elemento<br/>Material de consumo, obras etc."]
+    X --> FO["Fonte / destinação<br/>Com quais recursos e regras?"]
+    FO --> FO1["Fonte vinculada ou não vinculada<br/>Conforme classificação aplicável"]
+    X --> Q["Dimensão quantitativa<br/>Quanto será feito e autorizado?"]
+    Q --> Q1["Meta física<br/>Quantidade de produto / serviço"]
+    Q --> Q2["Dotação financeira<br/>Valor autorizado"]
+    classDef raiz fill:#164e82,stroke:#6fb5f2,color:#fff,stroke-width:2px;
+    classDef criterio fill:#283b52,stroke:#64a9e9,color:#fff,stroke-width:1.5px;
+    classDef opcao fill:#e3f2ff,stroke:#2874b9,color:#153650;
+    class X raiz;
+    class E,I,FU,PR,NA,FO,Q criterio;
+    class E1,E2,E3,I1,I2,FU1,FU2,PR1,PR2,PR3,NA1,NA2,NA3,NA4,FO1,Q1,Q2 opcao;
+```
+
+**Atenção:** as categorias dentro de natureza seguem uma sequência; esfera, natureza, função e programa **não** seguem uma sequência entre si. O exemplo de opções não substitui os códigos e desdobramentos vigentes no MTO. A meta física mede o produto previsto ou realizado, enquanto a dotação é expressa em dinheiro.
+
 
 | Dimensão | Pergunta | Componentes |
 | :--- | :--- | :--- |

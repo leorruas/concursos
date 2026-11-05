@@ -72,7 +72,7 @@ flowchart TB
     D --> DD["Derivada"]
     %% Fallback de alto contraste para Obsidian/GitHub; o site adapta as cores via CSS.
     classDef raiz fill:#f59e0b,stroke:#92400e,color:#111111,stroke-width:2px;
-    classDef criterio fill:#292524,stroke:#f59e0b,color:#ffffff,stroke-width:1.5px;
+    classDef criterio fill:#fff2d9,stroke:#b45309,color:#3d2207,stroke-width:1.5px;
     classDef opcao fill:#fffbeb,stroke:#b45309,color:#1c1917;
     class R raiz;
     class N,F,P,O,D criterio;
@@ -213,7 +213,7 @@ flowchart TB
     Q --> Q2["Dotação financeira<br/>Valor autorizado"]
     %% Fallback de alto contraste para Obsidian/GitHub; o site adapta as cores via CSS.
     classDef raiz fill:#f59e0b,stroke:#92400e,color:#111111,stroke-width:2px;
-    classDef criterio fill:#292524,stroke:#f59e0b,color:#ffffff,stroke-width:1.5px;
+    classDef criterio fill:#fff2d9,stroke:#b45309,color:#3d2207,stroke-width:1.5px;
     classDef opcao fill:#fffbeb,stroke:#b45309,color:#1c1917;
     class X raiz;
     class E,I,FU,PR,NA,FO,Q criterio;

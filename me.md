@@ -1,0 +1,415 @@
+---
+title: "Protocolos operacionais de estudo"
+type: "protocolo-operacional"
+status: "ativo"
+leitura: "mandatória — ler antes de qualquer operação no vault"
+created: 2026-04-25
+updated: 2026-11-04
+---
+
+# me
+
+**Banca da preparação:** CGU 2026, especialidade Auditoria: **Cebraspe, itens Certo/Errado (C/E)** em todas as matérias, incluindo Contabilidade e Avaliação de Políticas Públicas. Ler `activeExam` no contexto antes de escolher o formato. As instruções da Dataprev/FGV e a regra de cinco alternativas pertencem à Dataprev. A prova histórica CGU 2022/FGV é apoio de conteúdo; o treino da CGU 2026 segue Cebraspe. Na primeira resposta de cada retomada, indicar brevemente “CGU 2026: Cebraspe, C/E”.
+
+## Fluxo rápido de estudo pelo chat: prioridade operacional
+
+A partir de 03/11/2026, aulas e checkpoints de microtreinos seguem `CHAT.md`. Nesse escopo, a entrada curta e `data/contexto-estudo/<concursoId>.json` substituem a releitura integral recorrente de governança e ledger. As regras completas continuam aplicáveis a manutenção, ingestão legada, notas novas e simulados integrais. Salvar uma sessão em `data/sessoes/<id>.json` no fechamento do bloco; a automação atualiza as métricas derivadas. Corrigir na origem, preservar o legado e consolidar teoria uma vez por assunto. As antigas exigências de editar manualmente todas as superfícies por microtreino ficam substituídas pela projeção automática validada. Ver `data/sessoes/README.md`.
+
+
+> [!IMPORTANT]
+> **LEITURA MANDATÓRIA PARA AGENTES:** Este arquivo define apenas protocolos públicos de estudo, escrita e operação do vault. Para contexto pessoal, consultar exclusivamente o cofre privado autorizado.
+
+---
+
+## Informações pessoais e progresso
+
+O perfil de identidade e o registro de proficiência individual estão preservados somente em `leorruas/concurso-dados:me.md` (privado). Este arquivo público contém protocolos de estudo, edição e governança, sem servir como fonte de histórico pessoal.
+
+## Como trabalho com IA
+
+### Princípios
+
+1. **Co-criação, não automação cega.** Uso IA como parceiro de pensamento, não como máquina de texto. Espero que o agente questione quando algo não faz sentido, identifique lacunas e sinalize quando está inferindo.
+2. **Contexto antes de ação.** Antes de produzir qualquer artefato, o agente deve ler os arquivos relevantes do vault. Nunca preencha lacunas com suposições — pergunte.
+3. **Qualidade sobre quantidade.** Prefiro uma resposta densa e precisa a uma longa e genérica. Corte o fluff.
+4. **Transparência metodológica.** Se o agente estiver interpretando, inferindo ou completando algo sem fonte explícita, deve declarar isso.
+5. **Sem elogios desnecessários.** Não preciso de "ótima pergunta!" ou afirmações motivacionais. Vá direto ao ponto.
+
+### O que espero do agente neste vault
+- Ler este arquivo (`me.md`) e o `index.md` antes de qualquer operação.
+- Respeitar a arquitetura do vault (fontes brutas são imutáveis; sínteses vão para `wiki/`).
+- Usar wikilinks `[[Link]]` para referências internas — nunca caminhos absolutos de sistema.
+- **CRÍTICO:** Atualizar o `index.md` a cada nova página canônica criada. Atualizações significativas de histórico devem ser registradas em `log.md` **somente por mecanismo append-only/atômico ou por uma escrita que tenha lido o arquivo integralmente**. É proibido regravar `log.md` a partir de conteúdo truncado, parcial ou reconstruído. Quando não houver mecanismo seguro disponível, preservar o histórico via commits/auditoria e registrar a pendência em vez de arriscar truncamento.
+- Sinalizar quando identificar contradições, lacunas ou pontos que exigem minha decisão.
+
+### Estilo de interação preferido
+- **Direto e denso.** Resposta em tópicos ou prosa curta — sem padding.
+- **Português pt-BR** sempre, mesmo que eu escreva algo em inglês no prompt (a não ser que eu peça explicitamente em inglês).
+- **Perguntas pontuais.** Se precisar esclarecer algo, faça uma pergunta de cada vez.
+- **Links com referência de linha:** Ao se referenciar a trechos ou arquivos específicos, sempre fornecer o link de sistema com a referência exata da linha (ex: `[nome.md](file:///caminho/para/nome.md#L10-L20)`).
+- **Sem assumir.** Se não tiver certeza de algo sobre mim, meus projetos ou minha intenção — pergunte antes de executar.
+
+---
+
+## Governança e Operação do Vault
+
+### Arquitetura do Sistema
+1.  **Raw Sources (Camada 1)**: Todo o vault (academia, career, daily, talvegue/itens). Tratar como **Fontes Brutas (Imutáveis)**. Nunca modificar sem pedido explícito.
+2.  **The Wiki (Camada 2)**: Diretório `wiki/`. Local de toda síntese transversal e conhecimento consolidado.
+3.  **Governance (Camada 3)**: Este arquivo (`me.md`).
+
+### Regras de Operação Críticas
+- **Acurácia Estrita**: Verificar toda informação nas fontes brutas. Proibido alucinar ou extrapolar. Em caso de lacuna, **pare e pergunte**.
+- **Citações Literais**: Transcrever de forma 100% fiel. Sem refraseamentos. Somente textos literais podem estar entre aspas.
+- **Atribuição**: Informações sintéticas (resumos) nunca devem ser atribuídas como fala direta do autor.
+- **Neutralidade de Conceitos**: Conceitos na `wiki/6 - Conceitos/` devem ser genéricos e reutilizáveis, sem amarras a projetos específicos.
+- **Deduplicação**: Sempre ler o `index.md` para evitar criar páginas sobre temas já existentes.
+- **Eficiência Operacional**: A manutenção do vault é subordinada ao objetivo pedagógico. Atualizações de logs, dashboards, métricas e arquivos derivados não devem consumir esforço desproporcional nem interromper o treino. Sempre que a mesma informação puder ser derivada automaticamente de uma fonte canônica, preferir derivação a duplicação manual.
+- **Proveniência e Fidelidade Epistemológica**: Distinguir sempre: fato oficial/documental, registro histórico real do candidato, dado calculado/derivado, meta pessoal e inferência do agente. Nunca promover inferência, estimativa ou meta pessoal à condição de fato histórico ou oficial.
+
+### Corpus de provas-espelho e exercícios por edital
+
+A entrada de edital exige busca **documentada** por cadernos oficiais e gabaritos definitivos: mesmas funções/cargo para conteúdo, mesma banca e mesmo formato para construção da prova. Separar `data/corpus-provas-espelho.json` (proveniência da prova) de `data/corpus-itens.json` (indexação de itens lidos) e de `data/provas.json` (desempenho real do candidato). Os PDFs podem ser arquivados em `assets/provas-espelho/` com SHA-256, se autorizada a redistribuição. O agente **não pode presumir** que uma prova do Cebraspe seja C/E; verificar edital e caderno. Não usar gabarito preliminar para corrigir treino nem estimar padrão estatístico sem indexação concreta. Ver [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] e [[00 - Desempenho/Provas/CGU 2026 - Corpus de provas-espelho|Corpus CGU]].
+
+### Roteamento por concurso e banca
+
+- **O vault é multi-edital.** A banca, o formato das questões, a composição, a pontuação, o corpus de provas e os registros de desempenho devem seguir o concurso explicitamente citado na conversa.
+- **Até 11/10/2026, a Dataprev continua sendo a prioridade temporal padrão.** Em pedidos genéricos ou ambíguos de estudo ou simulado, assumir Dataprev até a realização da prova. A existência do projeto Câmara não muda automaticamente o foco global antes dessa data.
+- **Se houver referência explícita à Dataprev:** aplicar o protocolo FGV-Dataprev. Nesta reta final, o fluxo padrão é de **simulados integrais**, com teoria apenas como microrevisão derivada da autópsia dos erros. Pedido explícito de explicação teórica continua sendo atendido.
+- **Se houver referência explícita à Câmara dos Deputados:** aplicar o projeto Câmara 2026 e o protocolo Cebraspe-Câmara. Estudo teórico, revisão, questões e simulados da Câmara continuam permitidos e devem seguir o edital, o formato C/E e o corpus próprio da Câmara/Cebraspe.
+- **Separação de banca é obrigatória:** não aplicar o DNA FGV à Câmara nem o DNA Cebraspe à Dataprev. Conteúdo teórico comum pode ser reutilizado; o mecanismo de cobrança deve seguir a prova-alvo.
+- **Português exige calibração conservadora de dificuldade:** não usar bom desempenho em simulados como evidência suficiente de domínio se o bloco estiver resolvível por reconhecimento de regra. Em cada concurso, calibrar Português pelo corpus real da banca e tornar os distratores semanticamente próximos. Para FGV, dar peso alto a coerência, referenciação, valor semântico, tipologia, reescrita e classificações limítrofes, além da gramática normativa; para Cebraspe, preservar o mecanismo próprio de julgamento C/E e não transplantar artificialmente o estilo FGV. O objetivo é reduzir falsos positivos de domínio em Português.
+- **De 12/10/2026 até 13/12/2026, CGU Auditoria é a prioridade temporal padrão pós-Dataprev**, por decisão explícita de 09/10/2026. Pedidos genéricos de estudo nesse período seguem [[2 - Editais/CGU 2026 - Auditoria|edital e checklist CGU]] e [[3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E|estratégia e discursiva CGU]], desde que não indiquem outro concurso. Programa e cobertura ficam no edital; prova objetiva e discursiva, na nota de estratégia; simulados e métricas, nos hubs de desempenho sob `concursoId: cgu-2026`.
+- **Se houver referência explícita à CGU:** aplicar edital CGU 2026, Cargo 1 Auditoria, itens C/E Cebraspe, P1=40, P2=40, P3=90 (+1/-1 nas duas primeiras; +2/-2 na P3), duas discursivas 30/70 pontos. Não confundir com o edital da Câmara e não inferir domínio CGU a partir de desempenho FGV/Dataprev.
+- **Após a CGU:** a Câmara dos Deputados (prova prevista em 17/01/2027) permanece alvo estruturado; manter suas regras, arquivos e métricas separados.
+
+### Workflows Mandatórios
+- **Ingestão**: Ler fontes → Sintetizar na `wiki/` (ou na respectiva pasta da matéria) → Linkar via `[[Wikilinks]]` → Atualizar `index.md` e registrar histórico por mecanismo seguro de log. **Aproveitamento Máximo**: Todo conteúdo processado a partir do inbox deve ser aproveitado ao máximo para criar ou enriquecer as notas de matérias/teoria correspondentes no vault, indo além do mero registro de métricas e diagnósticos nos logs de avanços. **Enriquecimento Imediato de Teoria**: Sempre que uma questão ou simulação do inbox trouxer uma nuance, pegadinha clássica ou critério de classificação específico da banca, o agente deve obrigatoriamente atualizar a nota teórica correspondente (Camada 2) com essa informação (ex: enquadramento de vestibulares, hierarquia de releases, tipos de clipping, etc.), transformando os aprendizados das questões em teoria integrada. **Sincronia do Edital**: Ao ingerir e processar novos tópicos de estudo do inbox, o agente deve verificar de imediato quais itens do edital-alvo foram cobertos e atualizar as superfícies do projeto correspondente. Para Dataprev, usar `4 - Projetos/dataprev-2026/`; para Câmara, usar `4 - Projetos/camara-2026/`; **para CGU não criar projeto próprio**: atualizar o edital/checklist, a estratégia, o corpus e os hubs globais de desempenho/simulados, além dos JSONs/ledger por concurso. Nunca propagar automaticamente uma sessão da Câmara para os painéis da Dataprev, nem o inverso.
+- **Fase de Simulados e Catalogação de Erros (Mandatório)**: Todo simulado ou bateria mista de questões resolvido a partir do inbox deve ser catalogado na pasta dedicada `00 - Desempenho/Simulados/`, atualizando o hub central [[00 - Desempenho/Simulados/00 - Catalogo de simulados|00 - Catalogo de simulados.md]] e gerando/atualizando o arquivo de diagnóstico correspondente (`Simulado-XX.md`). Adicionalmente, o agente **deve atualizar obrigatoriamente os arquivos do projeto correspondente ao concurso-alvo**. As superfícies da Dataprev só recebem sessões Dataprev; as superfícies da Câmara só recebem sessões Câmara. Se o projeto ainda não possuir uma superfície equivalente, registrar a necessidade sem reutilizar um arquivo de outro concurso. A cada erro mapeado, o agente **DEVE OBRIGATORIAMENTE**:
+  1. Identificar a **disciplina e o recorte exato do tema**.
+  2. Declarar a **causa raiz clínica do erro** (pegadinha de banca, armadilha formal, lacuna teórica ou desatenção).
+  3. Explicitar **o que estudar exatamente** para sanar o desvio.
+  4. Apontar o **link direto de estudo no vault com âncora de cabeçalho específica** (`[[Pasta/Nota#Seção ou Cabeçalho Exato|Texto]]`), permitindo que o usuário clique e caia diretamente no parágrafo/seção teórica pertinente.
+  5. **Criação Imediata de Teoria Faltante**: Se o assunto ou matéria cobrada na questão não existir no vault (ex: legislações específicas, teorias organizacionais, matérias básicas novas), o agente **deve criar a nota teórica correspondente de imediato** na respectiva pasta de `3 - Materias/`, indexá-la no `index.md` e utilizá-la como destino da referência cruzada.
+- **Acompanhamento de Desempenho (Avanços)**: Todo diagnóstico de simulados, erros recorrentes e planos de ação deve ser registrado em arquivos separados denominados `Avancos.md` (ou similares, sem acento no nome físico). O ideal é que esses arquivos de progresso sejam **setorizados dentro das respectivas pastas de cada matéria** (ex: `3 - Materias/Logica/Avancos.md`), permitindo revisar facilmente as dificuldades específicas da matéria por meio de exercícios estruturados posteriormente. **A cada nova ingestão de exercícios do inbox, o agente deve obrigatoriamente, sem exceção e de imediato, recalcular e atualizar a tabela de volume diário de exercícios e a tabela de aproveitamento semanal local nesses arquivos de progresso locais, mantendo a tabela, o aproveitamento semanal e os blocos de diagnóstico sempre em ordem cronológica decrescente (datas/semanas mais recentes no topo). Adicionalmente, deve atualizar a tabela de Acompanhamento semanal de saturação e volume, a tabela de Controle de simulados consolidados e o painel de desempenho por disciplina em [[00 Avancos globais|Avanços globais]], além do [[01 Log de saturacao diaria|Log de saturação diária]], refletindo o rendimento atualizado com base em sete regras estritas: (1) a Janela Deslizante de 30 dias (aproveitamento e volume computam todas as resoluções de todas as matérias feitas nos últimos 30 dias, recalculando a média ponderada/aritmética com precisão), (2) a Sinalização de Amostragem (marcar como 'Amostragem sólida' se houver >= 50 questões nos últimos 30 dias, e 'Amostragem insuficiente' com percentual em *itálico* caso o volume seja inferior a 50 Qs), (3) o cálculo da Taxa de Aproveitamento Ponderada (TAP) no [[01 Log de saturacao diaria|Log de saturação diária]] aplicando os pesos de custo cognitivo (Cálculo Mental = 2.0; Raciocínio Lógico = 1.5; Português / Inglês = 1.2; Direito / Comunicação Social / Atualidades / Outros = 1.0), (4) a inclusão ou revisão obrigatória de uma seção de 'Análise de evolução recente' (logo abaixo da tabela de disciplinas em Avanços globais) com a síntese qualitativa e quantitativa do progresso recente do candidato, (5) a manutenção e atualização mandatória da tabela de 'Acompanhamento semanal de saturação e volume' (iniciando em segundas-feiras e terminando em domingos) no painel global consolidado, contendo a discriminação exata e detalhada de todas as questões resolvidas por disciplina no período correspondente, (6) o registro imediato na tabela de 'Controle de simulados consolidados (Consistência)' de todo simulado completo ou bateria mista executada, e (7) a garantia de coerência qualitativa, sendo terminantemente proibido caracterizar quedas ou oscilações evidentes de desempenho como "manutenção de consistência", devendo-se explicitar a fadiga cognitiva ou carga de exatas envolvida. O agente deve garantir precisão matemática absoluta nas somas e correlação exata entre os logs locais, a tabela semanal, o painel diário e o painel global.**
+- **Sistema Operacional de Ingestão Segura (`scripts/ingest-safe.js`)**:
+  - Toda ingestão de novos conteúdos da inbox deve ser executada por `scripts/ingest-safe.js`. `scripts/ingest-vault.js` é o motor interno e não deve ser chamado diretamente em operações normais.
+  - **Modo Padrão**: `--dry-run` (simulação completa sem gravação em disco).
+  - **Modo Efetivo**: `--apply` (requer confirmação explícita do plano de alteração e opera sobre o motor transacional existente).
+  - **Idempotência obrigatória**: `ingest-safe.js` calcula fingerprint do conteúdo e consulta `data/ingestoes-processadas.json`. Evidência já aplicada deve ser bloqueada antes de qualquer nova gravação, mesmo se reaparecer em outro arquivo ou com outro `--type`.
+  - **Comandos canônicos**:
+    - `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --dry-run`
+    - `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --apply`
+    - `node scripts/ingest-safe.js --input "00 inbox/00 ingestão.md" --type simulado --dry-run`
+    - `node scripts/validate-integrity.js`
+  - **Ledger**: `data/ingestoes-processadas.json` é estado operacional canônico. Não apagar nem editar manualmente para contornar bloqueio; falso positivo exige decisão explícita de governança.
+  - **Proteção Rígida de Fontes Brutas**: O motor bloqueia imediatamente qualquer tentativa de escrita em `2 - Editais/`, notas marcadas como "NÃO MEXER" e referências imutáveis.
+  - **Classificação Ambígua**: Interrompe o fluxo e gera relatório de pendências se a categoria da entrada for duvidosa.
+- **Relatórios**: Documentos com dados quantitativos devem declarar o período de coleta/extração no início.
+- **Housekeeping**: Deletar scripts e workflows temporários imediatamente após o uso. Não deletar o arquivo de ingestão (`00 inbox/00 ingestão.md`), apenas limpar o seu conteúdo mantendo o arquivo com o seu título.
+- **Atualização de Progresso do Edital (Dataprev)**: Sempre que houver qualquer atualização no checklist de conteúdos estudados em [[4 - Projetos/dataprev-2026/O que estudar|O que estudar (Checklist)]], o agente deve obrigatoriamente recalcular a quantidade de itens concluídos por matéria (considerando apenas os itens finais/folhas de cada subseção para evitar dupla contagem) e atualizar a tabela correspondente em [[00 Dashboard|Dataprev 2026 (Dashboard)]].
+
+### Diretrizes Temporárias de Reta Final — Dataprev 2026 (Vigência: 01/09/2026 a 11/10/2026)
+> [!IMPORTANT]
+> As regras abaixo possuem vigência estrita até o dia da prova (**11 de outubro de 2026**) e complementam os workflows gerais do vault:
+>
+> 1. **Prioridade Absoluta da Pontuação Ponderada (Peso 2,5 em Comunicação)**:
+>    - Ao avaliar qualquer simulado completo ou bateria mista da Dataprev, o agente deve obrigatoriamente calcular a **Pontuação Ponderada Dataprev (máximo de 115 pontos)** decorrente da estrutura oficial da prova:
+>      $$\text{Nota Ponderada} = \text{Acertos Gerais (Peso 1,0)} + \left(\text{Acertos Comunicação (Peso 2,5)}\right)$$
+>    - **Distinção epistemológica rigorosa**:
+>      - **115 pontos**: pontuação máxima oficial decorrente da estrutura normativa da prova (70 questões: 40 gerais a 1,0 pt + 30 específicas a 2,5 pts).
+>      - **102 pontos**: meta estratégica pessoal do candidato (definida em seu plano de ataque tático).
+>      - **88,7%**: percentual correspondente à referida meta pessoal.
+>      - *Nunca rotular 102/115 como corte, exigência ou régua oficial da Dataprev*.
+> 2. **Taxonomia Clínica Obrigatória de Erros**:
+>    - Todo erro mapeado em simulados ou baterias do inbox deve ser classificado canonicamente pelos seus valores semânticos:
+>      - `conhecimento`: lacuna factual ou teórica de conteúdo não estudado (abreviação de apresentação: `[K]`).
+>      - `confusao_conceitual`: conceito visto, mas com fronteira borrada ou aplicação invertida (abreviação de apresentação: `[C]`).
+>      - `interpretacao`: leitura equivocada do comando ou extrapolação de premissas do texto (abreviação de apresentação: `[I]`).
+>      - `distracao`: lapso de leitura em delimitadores (*apenas, exceto, sempre*), marcação ou cálculo final (abreviação de apresentação: `[D]`).
+>    - As siglas `[K]`, `[C]`, `[I]`, `[D]` são exclusivamente abreviações visuais de apresentação e nunca o dado canônico.
+> 3. **Fase exclusiva de simulados até 11/10/2026**:
+>    - A preparação da Dataprev opera agora, por padrão, em **simulados integrais no padrão FGV**. Não abrir novas frentes de teoria nem sessões isoladas de revisão.
+>    - Toda revisão deve nascer da autópsia do simulado: **erro → diagnóstico → microrevisão pontual → bateria curta apenas se necessária → próximo simulado**.
+>    - Assuntos consolidados ou instáveis só voltam à teoria na medida exata exigida por erros reais do simulado.
+>    - Se houver pedido explícito de explicação teórica, atender ao pedido; esta regra limita o fluxo padrão de preparação, não uma solicitação direta do usuário.
+> 4. **Protocolo Fechado de Simulados Integrais**:
+>    - Cada um dos 5 a 7 simulados completos de 70 questões previstos para a Fase 3 deve obrigatoriamente seguir a cadência: $\text{Simulado} \to \text{Autópsia e Registro de Erros} \to \text{Microrevisão Teórica} \to \text{Bateria de Fixação do Assunto Vulnerável} \to \text{Próximo Simulado}$.
+
+---
+
+## Protocolo FGV-Dataprev — geração de simulados
+
+### Princípio
+
+Distinguir rigorosamente:
+
+- **Bateria dirigida:** adaptativa aos erros e lacunas do candidato.
+- **Simulado:** representativo da distribuição, heterogeneidade e estilo da prova real.
+
+Erros anteriores não devem super-representar um tópico no simulado.
+
+### Corpus de calibração
+
+Prioridade:
+
+1. prova oficial FGV Dataprev 2024 do mesmo cargo;
+2. provas FGV recentes de Comunicação Social;
+3. provas FGV recentes das disciplinas gerais;
+4. conhecimento geral sobre estilo da banca apenas subsidiariamente.
+
+Modelar o mecanismo da questão, nunca copiar seu conteúdo.
+
+### DNA FGV-Dataprev
+
+Preservar diversidade entre:
+
+- reconhecimento factual e terminológico;
+- autor → conceito;
+- classificação e fronteira entre categorias;
+- I, II e III;
+- sequências V/F;
+- correlação/associação;
+- preenchimento de lacunas;
+- interpretação de trecho teórico;
+- aplicação a situação profissional;
+- questão negativa/exceção;
+- interpretação de texto, peça ou figura;
+- cálculo e problema contextualizado.
+
+### Distratores
+
+Priorizar:
+
+1. transposição de conceito verdadeiro para categoria errada;
+2. verdade parcial;
+3. inversão de relação;
+4. conceito vizinho;
+5. erro factual plausível.
+
+Não exigir que toda questão tenha cinco alternativas altamente sofisticadas: reproduzir a heterogeneidade real da FGV.
+
+Evitar padrão recorrente em que a correta seja a alternativa mais moderada, completa ou linguisticamente cuidadosa.
+
+Evitar uso sistemático de absolutos como marcador de alternativa falsa.
+
+### Conhecimentos específicos
+
+Cobrar não apenas aplicação profissional, mas também:
+
+- autores;
+- classificações;
+- terminologia técnica;
+- história da área quando prevista;
+- estruturas internas das teorias;
+- distinções entre categorias próximas.
+
+### Dificuldade
+
+Não maximizar dificuldade.
+
+Reproduzir mistura de questões fáceis, médias e difíceis.
+
+A dificuldade deve decorrer do conhecimento exigido e da proximidade conceitual quando isso corresponder ao modelo FGV.
+
+#### Calibração pós-Simulado 03 — 30/09/2026
+
+O Simulado 03 foi considerado **subcalibrado em Comunicação Social e Atualidades/IA**: houve excesso de itens resolvíveis por eliminação simples, alternativas pouco competitivas e pouca exigência de recuperação factual específica.
+
+A partir do próximo simulado integral:
+
+- **Comunicação Social** deve ficar mais exigente, sobretudo em autores, taxonomias, classificações, história da imprensa/rádio/TV, terminologia técnica e fronteiras entre categorias próximas;
+- pelo menos parte relevante das 30 questões de Comunicação deve exigir **recuperação específica de conteúdo**, e não apenas bom senso profissional ou reconhecimento de uma alternativa obviamente moderada;
+- distratores de Comunicação devem usar mais **transposição conceitual, verdade parcial, troca de autor/categoria, inversão de etapa/finalidade e classificações vizinhas**;
+- **Atualidades/IA** deve cobrar mais repertório factual e institucional recente, com contexto suficiente para a questão ser respondível, mas sem entregar no enunciado a própria distinção que será cobrada;
+- fatos conjunturais devem ser combinados com fundamentos estáveis, exigindo identificar instituições, mecanismos, efeitos plausíveis e limites de inferência;
+- Português, Inglês, Lógica e Legislação devem manter heterogeneidade compatível com a prova, sem aumento artificial de dificuldade apenas para "compensar" o desempenho do candidato;
+- elevar dificuldade significa **aumentar a qualidade e proximidade dos distratores**, não tornar enunciados desnecessariamente longos ou obscuros.
+
+A meta é que o próximo simulado produza um diagnóstico mais discriminante, especialmente na faixa de desempenho acima de 85%, sem deixar de parecer uma prova real da FGV.
+
+### Composição
+
+Simulado completo Dataprev 2026:
+
+- Português: 12
+- Inglês: 12
+- Raciocínio Lógico: 5
+- Atualidades e IA: 6
+- Legislação: 5
+- Comunicação: 30
+
+Aplicar os pesos oficiais somente quando essa composição tiver sido respeitada integralmente.
+
+### Validação prévia
+
+Antes de liberar o simulado, verificar silenciosamente:
+
+1. a distribuição está exatamente correta?
+2. há variedade de formatos?
+3. a dificuldade varia?
+4. Comunicação contém recuperação conceitual específica suficiente?
+5. taxonomias e autores estão efetivamente sendo cobrados?
+6. Lógica não foi artificialmente moldada pelos erros recentes?
+7. Português apresenta variedade compatível com a FGV?
+8. Atualidades parte de fatos/contextos concretos?
+9. os erros anteriores influenciaram distratores sem deformar a prova?
+10. o conjunto parece uma prova única, e não 70 exercícios didáticos?
+
+## Protocolo Cebraspe-Câmara: geração e uso de questões
+
+Este protocolo se aplica ao projeto `camara-2026` e não substitui o protocolo FGV-Dataprev fora desse projeto.
+
+### Estrutura de referência
+
+A prova objetiva da Câmara 2026 usa o Método Cespe em itens **CERTO ou ERRADO**, com **+1 ponto por acerto, -1 ponto por erro e 0 ponto em branco ou com marcação dupla**. O treino deve reproduzir essa estrutura desde o início, inclusive em baterias curtas.
+
+Em simulados e baterias da Câmara, registrar separadamente **acertos, erros, itens em branco e nota líquida**. A métrica principal de desempenho é a nota líquida, e não apenas a taxa bruta de acertos.
+
+### Corpus de calibração
+
+Usar como fonte operacional [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]].
+
+Ordem de prioridade:
+
+1. edital vigente da Câmara 2026 para conteúdo, formato e regras de pontuação;
+2. provas Cebraspe/Cespe em formato C/E e com forte aderência temática a Comunicação Social e Publicidade e Propaganda;
+3. provas anteriores da Câmara para contexto institucional, processo legislativo e recorrências temáticas;
+4. provas Cebraspe recentes de Comunicação em outros formatos apenas para conteúdo, nível e mecanismo de cobrança;
+5. conhecimento geral sobre a banca somente como complemento.
+
+### Questões reais e questões inéditas
+
+Quando houver questão real do corpus que cubra diretamente o tema estudado, ela deve ser priorizada no treino. Identificar sempre **órgão, ano, banca e número do item**. Questão real não deve ser silenciosamente reescrita e apresentada como original.
+
+Questões inéditas devem ser marcadas como inéditas e modelar o mecanismo observado no corpus, sem copiar o conteúdo literal da fonte.
+
+Questões antigas de legislação, regimento ou tecnologia só podem ser usadas como conteúdo atual depois de conferir compatibilidade com o edital e a norma vigente. Se a norma mudou, a questão continua útil para estudar o mecanismo da banca, mas não como fonte factual atual.
+
+### DNA Cebraspe-Câmara
+
+Priorizar:
+
+- comandos comuns seguidos de itens independentes;
+- afirmações em que uma troca de conceito, autor, etapa, finalidade, condição ou escopo altera o julgamento;
+- itens majoritariamente verdadeiros com uma parte material incorreta;
+- comparação entre conceitos vizinhos;
+- aplicação a situações profissionais e institucionais;
+- literalidade de Constituição, leis e regimentos quando o edital exigir texto normativo;
+- autores, escolas e classificações em Comunicação, Publicidade e Ciência Política;
+- integração entre dois objetos do edital no mesmo item quando isso for natural.
+
+Evitar transformar o Cebraspe em prova de múltipla escolha disfarçada. A dificuldade deve vir da precisão do julgamento C/E e da proximidade entre a formulação correta e a incorreta.
+
+### Estratégia de resposta
+
+Nas baterias da Câmara, permitir três respostas do candidato: **C, E ou branco**. O branco é uma decisão possível porque o erro tem penalização simétrica ao acerto. O diagnóstico deve distinguir desconhecimento do conteúdo de erro de julgamento e de decisão de risco.
+
+## Padrões de Escrita e Nomenclatura
+
+### Língua e Tom
+- Todo o vault é em **pt-BR** (exceto termos técnicos como *framework*, *JTBD*).
+- **Capitalização estrita (Sentence case):** Em títulos, cabeçalhos, chamadas em negrito e itens de listas em português, **nunca usar Title Case** (capitalizar todas as palavras). Usar sempre *Sentence case* (apenas a primeira letra da frase/expressão em maiúscula), exceto para nomes próprios, siglas e leis específicas.
+- **Premium e direto.** Sem enrolação. Tom clínico para relatórios técnicos.
+- **Negrito** para termos-chave, não decoração.
+- **Proibição de Emojis (Estrita):** É terminantemente proibido o uso de emojis (sejam decorativos em cabeçalhos/tópicos ou como ícones de status como , , , , etc.). O vault e a interface seguem um design system editorial e suíço sóbrio. Status de questões, tabelas e avisos devem ser expressos textualmente (ex: `Acerto`, `Erro`, `Atenção`, `Insuficiente`).
+- **Explicação de acrônimos:** Sempre explicar ou definir por extenso qualquer sigla ou acrônimo na primeira vez em que for mencionado em um arquivo (ex: declarar *Princípio Fundamental da Contagem (PFC)* antes de usar apenas *PFC*).
+
+### Estrutura de Arquivo Wiki
+```markdown
+---
+title: "Título"
+type: "hub | conceito | projeto | perfil | template | guia"
+status: "ativo | rascunho | arquivado"
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+---
+# Título
+[Abertura curta]
+## Seções...
+---
+**Fontes Brutas:**
+- [[link]]
+```
+
+### Controle de Histórico e Datas (Metadados)
+Para manter o histórico e a rastreabilidade da evolução do vault, todos os arquivos criados ou modificados de forma significativa devem registrar datas de criação e modificação em seu frontmatter (YAML):
+- **`created`**: Data de criação original do arquivo no formato `YYYY-MM-DD`.
+- **`updated`**: Data da última atualização significativa no formato `YYYY-MM-DD`.
+
+Exemplo de Frontmatter obrigatório:
+```yaml
+---
+title: "Título"
+type: "hub | conceito | projeto | perfil | template | guia"
+status: "ativo | rascunho | arquivado"
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+---
+```
+
+### Autonomia e Padrões Emergentes
+- **Reconhecimento de Padrão**: Uma vez que um padrão de formatação ou estrutura for aprovado pelo usuário para um conjunto de arquivos (ex: uma pasta específica), o agente tem **autonomia** para aplicar esse mesmo padrão retroativamente em todos os arquivos similares daquela seção, visando consistência total sem necessidade de aprovação individual por arquivo.
+- **Proatividade em Limpeza**: Se identificar arquivos que fogem do padrão estabelecido (links quebrados, falta de frontmatter, headers inconsistentes), o agente deve propor a correção em lote.
+
+### Padrão para Notas de Ferramentas (`wiki/4 - Tecnologia/ferramentas/`)
+Para garantir a densidade e utilidade das notas técnicas, seguir sempre esta estrutura:
+1.  **# Título** (H1)
+2.  **Link:** `[Texto](URL)` (Logo abaixo do título)
+3.  **## Visão Geral** (O que é e qual o valor principal)
+4.  **## Principais Funcionalidades** (Lista em bullet points das capacidades core)
+5.  **## Links e Referências** (Documentação, GitHub, tutoriais e comandos de instalação)
+
+### Nomenclatura de Arquivos
+- **Wiki (Geral)**: `Título em Title Case.md`. Sem acentos no nome do arquivo.
+- **Wiki (Conceitos - Cat. 6)**: `nome em caixa baixa.md` (Ex: `jtbd.md`).
+- **Projetos**: `nome-do-projeto/` (kebab-case).
+- **Proibido**: Nunca usar `_` (underscore). Preferir hífens ou espaços (na wiki).
+
+### Redação de Projetos Acadêmicos
+- Evitar formulações defensivas do tipo **"não é X, mas Y"** ou **"o objeto principal não é..."**. Elas chamam atenção para o enquadramento errado e enfraquecem a proposição. Preferir afirmações diretas: declarar o objeto, o recorte e a contribuição sem primeiro negar alternativas.
+
+### Templates do Vault
+Utilizar estes modelos como base para garantir consistência:
+- [[wiki/templates/template-conceito|Template de Conceito]]
+- [[wiki/templates/tecnologia|Template de Tecnologia]]
+- [[wiki/templates/template-daily|Template Daily]]
+- [[wiki/templates/Sessao de Estudo|Template de Sessão de Estudo]]
+
+---
+
+## Ingestão de Citações (`talvegue/itens/`)
+
+### Frontmatter Obrigatório
+```yaml
+---
+title: "Título Conceitual"
+author: nome do autor (caixa baixa)
+source: nome da obra
+tags: ["tema-a", "tema-b"] # kebab-case, sem "quote" ou "kindle"
+location: "p. 42" ou "loc. 1234" # Obrigatório para livros/Kindle
+url: "https://..." # Obrigatório para links da internet
+---
+```
+
+### Regras de Conteúdo
+- **Livros e Kindle**: Manter obrigatoriamente a página ou localização original no campo `location`.
+- **Links da Internet**: Trazer o **texto integral** da citação para o corpo da nota e manter o link original no campo `url`.
+
+### Corpo da Citação
+- Usar bloco `>`.
+- Abaixo, incluir referência em itálico: `*Autor. Obra (Local). Edição.*`
+
+---
+
+## Subsistemas Específicos
+
+### Talvegue
+O Talvegue é uma vault autônoma, irmã de `all`.
+- **Acervo vivo**: `../talvegue/`.
+- **Compatibilidade em all**: `all/talvegue/` mantém apenas cópias de itens ainda citados pela wiki geral.
+- **Imutável**: os itens atômicos do Talvegue vivo ficam em `../talvegue/itens/`.
+- **Operacional**: index, log, inbox e bases do Talvegue devem ser mantidos em `../talvegue/`, não em `all/talvegue/`.
+- **Workflow**: Ler `../talvegue/itens/` → Criar sínteses na wiki adequada → Registrar no index/log da vault correspondente.
+
+---

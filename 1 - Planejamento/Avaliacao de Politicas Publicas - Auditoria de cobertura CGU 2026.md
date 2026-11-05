@@ -54,13 +54,19 @@ Foi criada [[3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao cau
 
 **Situação reavaliada da unidade 5:** 5.1, 5.2 e 5.3 passam a possuir **cobertura editorial substantiva preliminar**. A classificação histórica na matriz acima foi preservada como diagnóstico anterior à expansão; o resultado de 7/10/4 também é o *marco inicial*, e não o total atual. A contagem editorial após a expansão é **9 substantivos, 10 parciais e 2 lacunas (7.2 e 7.3)**. Validação metodológica fina, testes externos e aprendizagem permanecem pendentes.
 
+## Expansão editorial: unidade 4 (05/11/2026)
+
+Foi criada [[3 - Materias/Avaliacao de Politicas Publicas/04 - metodos qualitativos e mistos na avaliacao|Métodos qualitativos e mistos na avaliação de políticas públicas]], vinculada ao hub, índice e catálogo por `articleId`. A nota cobre **4.1** com casos, entrevistas, grupos, observação, critérios de seleção e vieses; e **4.2** com mecanismos, rastreamento de processos, triangulação, integração quali/quanti, generalização e limites, com questões inéditas C/E.
+
+**Situação reavaliada da unidade 4:** 4.1 e 4.2 passam a possuir **cobertura editorial substantiva preliminar**, sujeita a auditoria metodológica fina e confronto com provas reais. Preserva-se a matriz histórica como diagnóstico inicial. A contagem editorial corrente passa a **11 substantivos, 8 parciais e 2 lacunas** (7.2 e 7.3), sem inferência sobre estudo ou retenção.
+
 ## Resultado e ordem de implementação
 
 **Triagem:** **21/21 subitens mapeados**; **7 substantivos, 10 parciais e 4 lacunas** (5.2, 5.3, 7.2, 7.3). *Mapeado* não significa coberto; a matéria **não está editorialmente concluída**, nem há auditoria normativa/metodológica fina dos 21 itens. A classificação é provisória e baseada nos artigos inspecionados.
 
 **P0, identificação causal e avaliação econômica (artigo criado em 05/11/2026):** realizar validação fina e testar 5.1–5.3 em C/E. Antes de qualquer questão que exija inferência causal, verificar pressupostos (tendências paralelas, limiar da regressão, sobreposição/ignorabilidade no pareamento), ameaças e interpretação de estimativas. Distinguir economicamente custo-benefício de custo-efetividade.
 
-**P1, estratégias qualitativas e mistas:** ampliar 4.1–4.2 em nota própria usando a base já existente de pesquisa, com amostragem intencional, mecanismos e triangulação. Preservar o artigo de Comunicação compartilhado, sem reescrevê-lo para simular cobertura integral da CGU.
+**P1, estratégias qualitativas e mistas (artigo criado em 05/11/2026):** validar fontes e aplicação de 4.1–4.2 em casos e itens C/E, com atenção a seleção, mecanismos e triangulação. Preservar o artigo de Comunicação compartilhado, sem reescrevê-lo para simular cobertura integral da CGU.
 
 **P1, conclusões e ética:** desenvolver 6.1–6.3 e 7.1–7.3, especialmente resultados nulos, validade externa, recomendações proporcionais, consentimento cabível, integridade de evidência e critérios éticos com fontes oficiais.
 

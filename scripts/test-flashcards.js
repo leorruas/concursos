@@ -10,7 +10,8 @@ const F=ctx.Flashcards, data=JSON.parse(fs.readFileSync(new URL('../data/flashca
 const now=Date.UTC(2026,10,4), options={exam:'cgu-2026',subject:'orcamento-publico',mode:'new',direction:'forward'};
 const uiText=fs.readFileSync(new URL('../web/10-flashcards-ui.js',import.meta.url),'utf8');
 const pageText=fs.readFileSync(new URL('../flashcards.html',import.meta.url),'utf8');
-assert(uiText.includes('raw.githubusercontent.com/leorruas/concursos/main/data/contexto-estudo/flashcards-prioridades.json'));
+assert(!uiText.includes('raw.githubusercontent.com/leorruas/concursos/main/data/contexto-estudo/flashcards-prioridades.json'),'Prioridades pessoais não podem ser consultadas no repositório público');
+assert(uiText.includes('async function syncPriorities()'),'Flashcards mantêm modo de leitura local enquanto não há autenticação');
 assert(!pageText.includes('fc-errors-import'),'Importação manual de prioridades deve desaparecer');
 assert(pageText.includes('id="fc-errors-status"'),'Manter status automático de prioridades');
 assert(!pageText.includes('type="file"')&&!pageText.includes('fc-import-trigger'),'Remover controle de arquivos de toda a interface');

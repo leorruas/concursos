@@ -1,3 +1,40 @@
+// Preserva blocos fenced antes de processar comentários e highlights Obsidian.
+// Mermaid também usa %% como comentário: regex Obsidian não pode tocar o código.
+function protegerBlocosCodigoMarkdown(markdown) {
+    const blocos = [];
+    const linhas = String(markdown || "").split(/\r?\n/);
+    const saida = [];
+    let cerca = null;
+    let bloco = [];
+    for (const linha of linhas) {
+        const marcador = linha.match(/^ {0,3}(`{3,}|~{3,})([^\r\n]*)$/);
+        if (!cerca) {
+            if (marcador) {
+                cerca = { char: marcador[1][0], tamanho: marcador[1].length };
+                bloco = [linha];
+            } else saida.push(linha);
+        } else {
+            bloco.push(linha);
+            if (marcador && marcador[1][0] === cerca.char &&
+                marcador[1].length >= cerca.tamanho && !marcador[2].trim()) {
+                const indice = blocos.length;
+                blocos.push(bloco.join("\n"));
+                saida.push("FENCEDCODETOKEN" + indice + "END");
+                cerca = null;
+                bloco = [];
+            }
+        }
+    }
+    // Uma cerca sem fechamento continua intacta para que o parser possa diagnosticá-la.
+    if (cerca) saida.push(...bloco);
+    return { markdown: saida.join("\n"), blocos };
+}
+
+function restaurarBlocosCodigoMarkdown(markdown, blocos) {
+    return String(markdown || "").replace(/FENCEDCODETOKEN(\d+)END/g,
+        (token, indice) => blocos[Number(indice)] ?? token);
+}
+
 // Em tabelas GFM, "|" de [[nota|rótulo]] precisa ser escapado antes do parser.
 function escaparSeparadoresWikilinksEmTabelas(markdown) {
     let cercaAberta = null;

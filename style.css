@@ -2452,8 +2452,8 @@ body:has(.glossario-pagina:not(.escondido)) .page-masthead{display:none}
    Evitar seletores genéricos de `path`: afetam os conectores e as setas. */
 :root {
     --mc-root: #f59e0b; --mc-root-text: #111111; --mc-root-border: #b45309;
-    --mc-criteria: #332718; --mc-criteria-text: #ffffff; --mc-criteria-border: #f59e0b;
-    --mc-option: #24211f; --mc-option-text: #ffffff; --mc-option-border: #b68d58;
+    --mc-criteria: #fff2d9; --mc-criteria-text: #3d2207; --mc-criteria-border: #f59e0b;
+    --mc-option: #fffbeb; --mc-option-text: #1c1917; --mc-option-border: #b68d58;
     --mc-line: #b6a087;
 }
 :root[data-theme="light"] {

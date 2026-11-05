@@ -29,3 +29,7 @@ As ferramentas atuais permitem editar arquivos e pipelines de repositórios exis
 - [ ] Contextos e sessões migrados, com consolidação no ambiente privado.
 - [ ] Sincronização de prioridades autenticada e sem importação manual.
 - [ ] Registros públicos atuais e histórico tratados sem perda de dados.
+
+## Migração para o cofre privado (05/11/2026)
+
+Repositório privado: `leorruas/concurso-dados` (singular). Antes de alterar a branch pública, foi copiado e verificado por SHA o conjunto de 135 arquivos pessoais: sessões, contexto, projeções, `Avancos.md`, `00 - Desempenho/`, `data/questoes-ledger.json`, erros e resultados e as fontes de configuração. O workflow privado já foi executado com sucesso, incluindo testes da cadeia de estudos. Uma branch de segurança do `concursos` remove 132 arquivos exclusivamente pessoais do HEAD público e impede publicação futura pelo Pages, mantendo o progresso local dos flashcards. As fontes `concursos.json` e `edital-itens.json` públicas foram reduzidas a campos editoriais. A remoção da branch principal ainda não higieniza o histórico Git, forks ou caches. A sincronização remota das prioridades no navegador exige serviço autenticado que mantenha tokens fora do site estático. Consultar issue #11 antes de encerrar o trabalho.

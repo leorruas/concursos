@@ -13,3 +13,14 @@
 "materias/"
 "wiki/"
 _site/
+
+# Registros pessoais somente em leorruas/concurso-dados (privado)
+/data/sessoes/
+/data/contexto-estudo/
+/data/erros-recorrentes.json
+/data/provas.json
+/data/questoes-ledger.json
+/data/ingestoes-processadas.json
+/data/sessoes-saidas.json
+/00 - Desempenho/
+**/Avancos.md

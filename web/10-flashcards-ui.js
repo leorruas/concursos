@@ -2,9 +2,8 @@
     'use strict';
     const F=window.Flashcards, $=id=>document.getElementById('fc-'+id);
     let cards=[], catalog, state=F.empty(), revealed=false, storageOK=true, corrupt=false;
-    // Somente leitura: o perfil existe no GitHub público e não é copiado ao Pages.
-    const PRIORITIES_URL='https://raw.githubusercontent.com/leorruas/concursos/main/data/contexto-estudo/flashcards-prioridades.json';
-    let prioritySync='loading',priorityRequest=null,lastPriorityCheck=0;
+    // O perfil de erros agora é privado; manter somente a última cópia local.
+    let prioritySync='private';
     const status=text=>{$('status').textContent=text;};
     const show=(id,visible)=>{$(id).hidden=!visible;};
     function save(next) {
@@ -26,47 +25,19 @@
         const priorities=profile?.entries.filter(p=>p.examId===$('exam').value&&(!$('subject').value||p.subjectId===$('subject').value))||[];
         const count=new Set(priorities.map(p=>p.cardId)).size;
         const summary=profile ? `${count} cartões ligados aos erros deste recorte · dados de ${profile.cut}.${profile.unmappedCount ? ` ${profile.unmappedCount} lacuna(s) aguardam novos cartões no conjunto.` : ''}` : '';
-        $('errors-status').textContent=prioritySync==='loading' ?
-            (summary ? summary+' Verificando atualizações…' : 'Verificando automaticamente os erros das questões…') :
-            prioritySync==='offline' ?
-            (summary ? summary+' Sem acesso às atualizações agora; usando a última versão salva.' : 'Não foi possível consultar as prioridades no GitHub. As revisões e os novos cartões continuam disponíveis.') :
-            (summary || 'Nenhuma prioridade vinculada no momento.');
+        $('errors-status').textContent=summary
+            ? summary+' Última cópia local. Histórico privado, ainda sem sincronização autenticada.'
+            : 'Histórico das questões privado. Estude novos cartões ou revisões; prioridades remotas indisponíveis nesta página pública.';
         $('stats').replaceChildren(...[['known','Conhecidos'],['learning','Em aprendizagem'],['unknown','Ainda não sei'],['due','Precisam de revisão'],['unseen','Ainda não estudados']].map(([key,label])=>{
             const box=document.createElement('div'), n=document.createElement('strong'), t=document.createElement('span');n.textContent=stats[key];t.textContent=label;box.append(n,t);return box;
         }));
         $('stats').setAttribute('aria-label',`${stats.unknown} conceitos com resposta Não sei; revisões pendentes podem incluir conceitos conhecidos ou em aprendizagem.`);
         show('resume',!!state.session);
     }
-    // A coleção de cartões já chega pelo build do Pages. O foco derivado das questões
-    // chega diretamente do GitHub e é atualizado sem upload ou download manual.
-    async function syncPriorities(force=false) {
-        if(corrupt) return false;
-        if(priorityRequest) return priorityRequest;
-        if(!force && lastPriorityCheck && Date.now()-lastPriorityCheck<60000)return !!state.priorities;
-        prioritySync='loading';
+    // Não buscar raw.githubusercontent.com: o cofre exige autenticação.
+    async function syncPriorities() {
         if(catalog)dashboard();
-        priorityRequest=(async()=>{
-            const controller=new AbortController();
-            const timeout=setTimeout(()=>controller.abort(),10000);
-            try {
-                const response=await fetch(PRIORITIES_URL+'?v='+Date.now(),{cache:'no-store',signal:controller.signal});
-                if(!response.ok)throw Error('Prioridades indisponíveis: '+response.status);
-                const snapshot=await response.json();
-                const next=F.applyPrioritySnapshot(state,snapshot,cards);
-                if(next!==state)save(next);
-                prioritySync='ready';
-                return true;
-            }catch {
-                prioritySync='offline';
-                return !!state.priorities;
-            }finally {
-                clearTimeout(timeout);
-                lastPriorityCheck=Date.now();
-                priorityRequest=null;
-                if(catalog)dashboard();
-            }
-        })();
-        return priorityRequest;
+        return !!state.priorities;
     }
     function home() {document.querySelector('.fc-main').classList.remove('is-studying');show('dashboard',true);show('round',false);show('summary',false);dashboard();}
     function render() {
@@ -128,7 +99,7 @@
             const o=scope();
             if(o.mode==='errors') {
                 await syncPriorities(true);
-                if(!state.priorities){status('Ainda não foi possível consultar os erros das questões. Estude os outros modos e tente novamente.');return;}
+                if(!state.priorities){status('O histórico privado ainda não está sincronizado neste navegador. Os outros modos continuam disponíveis.');return;}
             }else void syncPriorities();
             const base=state.session?F.finish(state):state;
             save(F.start(cards,base,o));render();

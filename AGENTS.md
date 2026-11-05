@@ -1,5 +1,8 @@
 # Instruções para agentes: vault de concursos
 
+**Regra operacional de privacidade (05/11/2026):** `leorruas/concurso-dados` é a fonte **privada** para sessões e respostas, lacunas, ledger, resultados, progresso, contexto, revisões e arquivos `Avancos.md`. `leorruas/concursos` é a fonte **pública** para teoria, artigos, catálogo não pessoal e flashcards de conteúdo. **Nunca recriar dados individuais no repositório público**, em arquivos de diagnóstico, mensagens de commit, exemplos de artigo ou logs de CI. O protocolo abaixo que menciona `data/sessoes/` e `data/contexto-estudo/` refere-se ao cofre privado. Consolidações são executadas pelo workflow do cofre e não pelo Pages. O navegador público preserva revisões locais, mas ainda não possui sincronização autenticada do perfil de erros. Em caso de falha ao acessar o cofre, não gravar no público como alternativa. Esta regra prevalece sobre qualquer orientação anterior de registrar progresso no site público.
+
+
 **Banca da preparação:** CGU 2026, especialidade Auditoria: **Cebraspe, itens Certo/Errado (C/E)** em todas as matérias, incluindo Contabilidade e Avaliação de Políticas Públicas. Ler `activeExam` no contexto antes de escolher o formato. As instruções da Dataprev/FGV e a regra de cinco alternativas pertencem à Dataprev. A prova histórica CGU 2022/FGV é apoio de conteúdo; o treino da CGU 2026 segue Cebraspe. Na primeira resposta de cada retomada, indicar brevemente “CGU 2026: Cebraspe, C/E”.
 
 ## Fluxo rápido de estudo pelo chat: prioridade operacional

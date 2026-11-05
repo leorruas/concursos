@@ -7852,6 +7852,42 @@
         "prompt": "O controle de bloqueio de pagamentos consta no manual, mas não há prova de execução: o risco residual é necessariamente baixo?",
         "answer": "Não. Risco inerente é a exposição sem tratamento; residual é a exposição considerando medidas implementadas. A eficácia não se presume."
       }
+    },
+    {
+      "id": "fonte-destinacao-vs-natureza-receita",
+      "term": "Natureza da receita × fonte/destinação",
+      "definition": "A natureza classifica qual operação gerou o ingresso (categoria, origem e detalhamento). A fonte/destinação identifica regras para financiar despesas e controlar a aplicação dos recursos.",
+      "example": "Uma prefeitura vende um terreno: a natureza é receita de capital, alienação de bens. A utilização do dinheiro obedece às regras de destinação aplicáveis, inclusive à LRF, art. 44.",
+      "confusion": "A origem econômica do dinheiro não define, por si, em quais despesas ele pode ser aplicado. Venda de terreno continua sendo alienação de bens mesmo quando o gestor pretende destiná-la irregularmente.",
+      "topic": "Classificações da receita",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Fonte/destinação de recursos × natureza da receita"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026) e Lei de Responsabilidade Fiscal",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação por natureza, fonte/destinação de recursos; LRF, art. 44"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-05",
+      "revision": 1,
+      "conceptIds": [
+        "fonte-destinacao-vs-natureza-receita"
+      ],
+      "contrast": {
+        "prompt": "Prefeitura vende terreno por R$ 500 mil: a natureza da receita ou a fonte/destinação identifica as restrições para gastar o valor?",
+        "answer": "Natureza: receita de capital por alienação de bens. Fonte/destinação: regras de aplicação, incluindo restrições legais pertinentes."
+      }
     }
   ]
 }

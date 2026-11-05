@@ -2303,7 +2303,10 @@
           "noteRefs": [
             "3 - Materias/Direito Administrativo/08 - licitacoes e contratos",
             "3 - Materias/Contratacoes e Transferencias/01 - modalidades e regimes de transferencias da uniao",
-            "3 - Materias/Contratacoes e Transferencias/02 - convenios contratos de repasse e plano de trabalho"
+            "3 - Materias/Contratacoes e Transferencias/02 - convenios contratos de repasse e plano de trabalho",
+            "3 - Materias/Contratacoes e Transferencias/03 - regime ordinario e simplificado de convenios",
+            "3 - Materias/Contratacoes e Transferencias/04 - parcerias com organizacoes da sociedade civil",
+            "3 - Materias/Contratacoes e Transferencias/05 - transferencias especiais e emendas parlamentares"
           ],
           "requires": [
             "up3-4-2"
@@ -2320,7 +2323,9 @@
             "P3.4.4"
           ],
           "noteRefs": [
-            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos"
+            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos",
+            "3 - Materias/Contratacoes e Transferencias/06 - fiscalizacao da execucao e comprovacao do objeto",
+            "3 - Materias/Contratacoes e Transferencias/08 - riscos cruzamentos e encaminhamentos em transferencias"
           ],
           "requires": [
             "up3-4-3"
@@ -2337,7 +2342,9 @@
             "P3.4.5"
           ],
           "noteRefs": [
-            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos"
+            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos",
+            "3 - Materias/Contratacoes e Transferencias/07 - prestacao de contas e tomada de contas especial",
+            "3 - Materias/Contratacoes e Transferencias/08 - riscos cruzamentos e encaminhamentos em transferencias"
           ],
           "requires": [
             "up3-4-4"
@@ -2479,7 +2486,9 @@
           "noteRefs": [
             "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
-            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Integridade e Responsabilizacao/05 - pad par leniencia e instrumentos consensuais",
+            "3 - Materias/Integridade e Responsabilizacao/06 - sancoes reparacao e efetividade das respostas"
           ],
           "requires": [
             "up3-5-5"
@@ -2499,7 +2508,8 @@
           "noteRefs": [
             "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
-            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Integridade e Responsabilizacao/06 - sancoes reparacao e efetividade das respostas"
           ],
           "requires": [
             "up3-5-6"

@@ -24,6 +24,9 @@ Lei de Acesso à Informação (LAI), Lei Geral de Proteção de Dados Pessoais (
 - [[3 - Materias/Integridade e Responsabilizacao/03 - programas de integridade publicos e privados|03. Programas de integridade]]: desenho, implementação e efetividade.
 - [[3 - Materias/Integridade e Responsabilizacao/04 - admissibilidade prova e regimes de responsabilidade|04. Admissibilidade, prova e responsabilidade]]: autoria, materialidade e pessoa jurídica.
 
+- [[3 - Materias/Integridade e Responsabilizacao/05 - pad par leniencia e instrumentos consensuais|05 • PAD, PAR, leniência e instrumentos consensuais]]: procedimentos, responsabilidades e limites.
+- [[3 - Materias/Integridade e Responsabilizacao/06 - sancoes reparacao e efetividade das respostas|06 • Sanções, reparação e efetividade]]: procedimentos, responsabilidades e limites.
+
 ## Planejamento das unidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
@@ -33,8 +36,8 @@ Lei de Acesso à Informação (LAI), Lei Geral de Proteção de Dados Pessoais (
 | 03 | Denunciante: proteção de identidade, pseudonimização, não retaliação, assédio, contraditório e preservação de prova. | Artigo 02 publicado; procedimentos específicos ainda pendentes |
 | 04 | Integridade: programas públicos/privados, maturidade, efetividade, conflitos de interesses, assédio e controles. | Artigo 03 publicado, aprofundamento de casos e normas pendente |
 | 05 | Admissibilidade/responsabilidade: indícios, autoria, materialidade, elemento subjetivo, responsabilidade objetiva da pessoa jurídica, prova e defesa. | Artigo 04 publicado, procedimentos e casos sancionatórios pendentes |
-| 06 | Instrumentos: PAD, PAR, acordo de leniência, termo de ajustamento de conduta, prescrição, dosimetria, sanção × reparação. | Referências relacionadas; aprofundar para o recorte |
-| 07 | Resultados: recomendações, planos, indicadores, recorrência × detecção e comunicação pública. | Referências relacionadas; aprofundar para o recorte |
+| 06 | Instrumentos: PAD, PAR, acordo de leniência, termo de ajustamento de conduta, prescrição, dosimetria, sanção × reparação. | Artigos 05–06 publicados; requisitos, prescrições e dosimetria exigem cotejo normativo fino |
+| 07 | Resultados: recomendações, planos, indicadores, recorrência × detecção e comunicação pública. | Artigo 06 publicado; treino de aplicação e fontes restantes pendentes |
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 

@@ -22,15 +22,22 @@ Planejamento e fiscalização de contratações, transferências, parcerias, tes
 - [[3 - Materias/Contratacoes e Transferencias/09 - planejamento da contratacao e riscos|09. Planejamento da contratação e riscos]]: ETP, termo de referência, estimativa, competição e direcionamento.
 - [[3 - Materias/Contratacoes e Transferencias/10 - fiscalizacao medicao e recebimento contratual|10. Fiscalização e recebimento]]: art. 117, medição, recebimento e alterações.
 
+- [[3 - Materias/Contratacoes e Transferencias/03 - regime ordinario e simplificado de convenios|03 • Regime ordinário e simplificado de convênios]]: aprofundamento do objeto com fontes e questões C/E.
+- [[3 - Materias/Contratacoes e Transferencias/04 - parcerias com organizacoes da sociedade civil|04 • Parcerias com organizações da sociedade civil]]: aprofundamento do objeto com fontes e questões C/E.
+- [[3 - Materias/Contratacoes e Transferencias/05 - transferencias especiais e emendas parlamentares|05 • Transferências especiais e emendas]]: aprofundamento do objeto com fontes e questões C/E.
+- [[3 - Materias/Contratacoes e Transferencias/06 - fiscalizacao da execucao e comprovacao do objeto|06 • Fiscalização da execução e comprovação]]: aprofundamento do objeto com fontes e questões C/E.
+- [[3 - Materias/Contratacoes e Transferencias/07 - prestacao de contas e tomada de contas especial|07 • Prestação de contas e tomada de contas especial]]: aprofundamento do objeto com fontes e questões C/E.
+- [[3 - Materias/Contratacoes e Transferencias/08 - riscos cruzamentos e encaminhamentos em transferencias|08 • Riscos, cruzamentos e encaminhamentos]]: aprofundamento do objeto com fontes e questões C/E.
+
 ## Planejamento das unidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
 | 01 | Planejamento da contratação: necessidade, estudos, preços, competição e riscos de direcionamento. | Artigo 09 publicado, aprofundamento normativo e treino real pendentes |
 | 02 | Execução: fiscalização, medição, aceite, pagamentos, alterações, reequilíbrio e evidências. | Artigo 10 publicado, detalhes de reequilíbrio ainda a conferir |
-| 03 | Transferências/parcerias: instrumentos, plano de trabalho, execução, prestação de contas e responsabilidades. | Artigos 01–02 publicados; regimes específicos, execução e contas ainda pendentes |
-| 04 | Testes e irregularidades: fracionamento, fornecedores, vínculos, cruzamento de dados, testes documentais/físicos e seleção por risco. | Referências relacionadas; aprofundar para o recorte |
-| 05 | Encaminhamentos: demonstração de dano, recuperação, responsabilização e recomendações proporcionais. | Referências relacionadas; aprofundar para o recorte |
+| 03 | Transferências/parcerias: instrumentos, plano de trabalho, execução, prestação de contas e responsabilidades. | Artigos 01–08 publicados; conferência normativa de detalhes pendente |
+| 04 | Testes e irregularidades: fracionamento, fornecedores, vínculos, cruzamento de dados, testes documentais/físicos e seleção por risco. | Artigos 06 e 08 publicados; calibração com provas reais pendente |
+| 05 | Encaminhamentos: demonstração de dano, recuperação, responsabilização e recomendações proporcionais. | Artigos 07 e 08 publicados; rito e exceções a validar |
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 

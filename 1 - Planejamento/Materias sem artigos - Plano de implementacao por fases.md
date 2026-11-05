@@ -67,8 +67,8 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 - [x] **F08 · Planejamento da contratação e riscos**: U01: estudo técnico, preço, competição, especificação e direcionamento; não repetir teoria geral da Lei 14.133.
 - [x] **F09 · Execução e fiscalização de contratos**: U02: medição, aceite, pagamentos, alterações, reequilíbrio, documentação e responsabilidades.
-- [ ] **F10 · Transferências voluntárias, parcerias e prestação de contas**: U03: instrumentos, plano de trabalho, execução, obrigações e fronteiras legais conforme o regime.
-- [ ] **F11 · Auditoria de contratações e transferências**: U04–U05: testes, indícios, vínculos, fracionamento, dano, recuperação, recomendações e limites inferenciais.
+- [x] **F10 · Transferências voluntárias, parcerias e prestação de contas**: U03: instrumentos, plano de trabalho, execução, obrigações e fronteiras legais conforme o regime.
+- [x] **F11 · Auditoria de contratações e transferências**: U04–U05: testes, indícios, vínculos, fracionamento, dano, recuperação, recomendações e limites inferenciais.
 
 ## Onda 3: Integridade e Responsabilização
 
@@ -80,12 +80,14 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 - [x] **F13 · Tratamento de denúncias e proteção ao denunciante**: U02–U03: identidade, sigilo, pseudonimização, não retaliação, acolhimento × apuração × contraditório.
 - [x] **F14 · Programas de integridade públicos e privados**: U04: riscos, liderança, canais, desenho × implementação × efetividade; evitar duplicar Ética Pública.
 - [x] **F15 · Admissibilidade, prova e regimes de responsabilidade**: U05: autoria, materialidade, elemento subjetivo, responsabilidade objetiva PJ, defesa e limites de inferência.
-- [ ] **F16 · PAD, PAR, leniência e instrumentos consensuais**: U06: competências, requisitos, efeitos, TAC, prescrição e fronteiras entre processos; conferir cada norma.
-- [ ] **F17 · Sanção, reparação e avaliação de resultados**: U06–U07: dosimetria, sanção × reparação, monitoramento, recorrência × detecção, eficácia das medidas.
+- [x] **F16 · PAD, PAR, leniência e instrumentos consensuais**: U06: competências, requisitos, efeitos, TAC, prescrição e fronteiras entre processos; conferir cada norma.
+- [x] **F17 · Sanção, reparação e avaliação de resultados**: U06–U07: dosimetria, sanção × reparação, monitoramento, recorrência × detecção, eficácia das medidas.
 
 **Lote editorial registrado em 05/11/2026:** publicados os artigos 01 e 02 sobre transferências e convênios do plano T1 de Contratações, mais dois artigos de Integridade correspondentes a F12 e F13. F12 e F13 têm núcleo temático publicado, mas detalhes normativos exigem conferência. Em Contratações, F08 a F11 permanecem abertas: as notas 01–02 iniciam F10, porém não encerram regimes especiais, OSC, prestação de contas e encaminhamentos. A contagem de microfases pendentes anterior é um retrato histórico; as duas microfases F12 e F13 passam a constar como atendidas editorialmente. Nenhum estudo individual é inferido desta publicação.
 
 **Segundo lote editorial em 05/11/2026:** publicados planejamento da contratação e riscos (F08), fiscalização e recebimento (F09), programas de integridade (F14) e admissibilidade e regimes de responsabilidade (F15). As quatro microfases passam a ter artigos próprios, mantendo pendências de calibração e verificação jurídica detalhada. Este marco registra produção, sem presumir estudo, domínio ou cobertura de outras fases.
+
+**Terceiro lote editorial, 05/11/2026:** publicados os artigos 03–08 de Contratações e Transferências e 05–06 de Integridade e Responsabilização. As microfases F10, F11, F16 e F17 passam a ter base própria substantiva, junto às F08–F09 e F12–F15 dos lotes anteriores. **As dez microfases F08 a F17 estão editorialmente atendidas**, sujeitas a auditoria normativa linha a linha, conferência de prazos e valores atuais e itens reais Cebraspe. A Portaria Conjunta nº 46/2026 e a Portaria MGI nº 7.562/2026 foram identificadas como referências de vigência relevante, especialmente nos artigos 03 e 05 de transferências. Não registrar essas microfases como estudos concluídos.
 
 ## Onda 4: Finanças Públicas
 

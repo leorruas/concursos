@@ -5,7 +5,7 @@ title: "Depreciação, amortização e redução ao valor recuperável de ativos
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Depreciação, amortização e redução ao valor recuperável de ativos

@@ -19,6 +19,17 @@ for(const c of read('data/concursos.json')) {
 for(const x of read('data/edital-itens.json')) {
   assert(!Object.hasOwn(x,'exposicaoEstudo')&&!Object.hasOwn(x,'dominioMensuravel')&&!Object.hasOwn(x,'coberturaNota'),'Progressão pessoal em edital-itens.json');
 }
+for(const dir of ['data/sessoes','data/contexto-estudo','00 - Desempenho']) {
+  assert(!fs.existsSync(path.join(root,dir)),'Histórico pessoal na origem pública: '+dir);
+  assert(!fs.existsSync(path.join(site,dir)),'Histórico pessoal no Pages: '+dir);
+}
+for(const f of ['data/erros-recorrentes.json','data/provas.json','data/questoes-ledger.json','data/sessoes-saidas.json','data/ingestoes-processadas.json']) {
+  assert(!fs.existsSync(path.join(root,f)),'Arquivo privado ainda no repositório público: '+f);
+}
+const checkNotes=(dir)=>!fs.existsSync(dir)||fs.readdirSync(dir,{withFileTypes:true}).every(e=>e.isDirectory()?checkNotes(path.join(dir,e.name)):e.name!=='Avancos.md');
+assert(checkNotes(path.join(root,'3 - Materias')),'Avanços individuais na fonte pública');
+const publicUI=fs.readFileSync(path.join(site,'web/10-flashcards-ui.js'),'utf8');
+assert(!publicUI.includes('raw.githubusercontent.com/leorruas/concursos/main/data/contexto-estudo'),'Flashcards consultam prioridades públicas');
 const published=fs.readFileSync(path.join(site,'web/02-data-home.js'),'utf8');
 assert(!published.includes('fetch("data/erros-recorrentes.json")'),'Interface pública busca histórico de erros');
 console.log('SUCESSO: Pages sem JSON de desempenho, relatórios pessoais e metas individuais.');

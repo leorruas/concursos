@@ -41,12 +41,6 @@
         "aplicarSomenteComComposicaoOficialCompleta": true,
         "observacao": "Percentual bruto de acertos não substitui a pontuação ponderada quando a distribuição das questões é diferente da oficial."
       }
-    },
-    "metasCandidato": {
-      "metaPontuacao": 102,
-      "metaPercentualPontos": 88.7,
-      "natureza": "meta_pessoal",
-      "sourcePath": "4 - Projetos/dataprev-2026/Estrategia.md"
     }
   },
   {
@@ -99,10 +93,6 @@
           }
         ]
       }
-    },
-    "metasCandidato": {
-      "natureza": "nao_definida",
-      "observacao": "Diagnóstico e metas CGU pendentes; não transferir notas FGV."
     }
   },
   {
@@ -155,10 +145,6 @@
         "notaMinima": 30
       },
       "sourcePath": "2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional.md"
-    },
-    "metasCandidato": {
-      "natureza": "nao_definida",
-      "observacao": "Até 03/10/2026 não há meta pessoal de pontuação registrada para a Câmara 2026."
     }
   }
 ]

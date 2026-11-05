@@ -5,7 +5,7 @@ title: "Planejamento individual de auditoria"
 type: "conceito"
 status: "ativo"
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-05
 ---
 
 # Planejamento individual de auditoria
@@ -37,6 +37,51 @@ O PAINT seleciona **quais trabalhos** a UAIG pretende realizar no exercício. O 
 | **Possível achado** | Qual desvio poderá ser demonstrado, se encontrado? | Pagamento sem comprovação exigida, sujeito à prova |
 
 **Escopo não é critério:** período e unidades delimitam o exame; regras e padrões são referências para julgar conformidade. **Fonte não é procedimento:** o cadastro contém registros; cruzar ou inspecionar registros é o procedimento. **Risco não é achado:** a possibilidade de pagamento indevido motiva o exame, enquanto a ocorrência precisa ser verificada e documentada.
+
+### Mapas: objetivo, critério e procedimento
+
+O **objetivo** define o que o trabalho pretende avaliar; precisa ser formulado para aquela auditoria e pode se desdobrar em questões e subquestões. O **critério** é o padrão contra o qual se compara a situação encontrada. O **procedimento** é o exame escolhido para obter evidências. O objetivo não possui uma lista universal de técnicas: ele orienta a seleção dos critérios e dos procedimentos adequados.
+
+```mermaid
+flowchart TD
+    O["Objetivo do trabalho<br/>Avaliar a regularidade das bolsas"]:::raiz
+    Q["Questão de auditoria<br/>Pagamentos atenderam aos requisitos?"]:::criterio
+    C["Critério: o que deveria ocorrer<br/>Regras de elegibilidade"]:::opcao
+    I["Informações e fontes<br/>Cadastros, processos e pagamentos"]:::opcao
+    P["Procedimento: como examinar<br/>Inspecionar e cruzar registros"]:::criterio
+    E["Evidências obtidas<br/>O que foi encontrado"]:::opcao
+    R["Comparar com o critério<br/>Responder à questão nos limites da prova"]:::raiz
+    O --> Q
+    Q --> C
+    Q --> I
+    I --> P
+    P --> E
+    C --> R
+    E --> R
+    classDef raiz fill:#f59e0b,stroke:#b45309,color:#111111
+    classDef criterio fill:#fff2d9,stroke:#b45309,color:#3d2207
+    classDef opcao fill:#fffbeb,stroke:#b68d58,color:#1c1917
+```
+
+O **escopo** delimita período, unidades e operações examinadas; não substitui o critério. O exemplo descreve uma auditoria hipotética. A conclusão depende das evidências efetivamente obtidas.
+
+#### De onde podem vir os critérios?
+
+```mermaid
+flowchart TD
+    C["Critério de auditoria<br/>Padrão para comparar"]:::raiz
+    C --> N["Lei, decreto ou norma aplicável"]:::criterio
+    C --> R["Regulamento, edital ou contrato"]:::criterio
+    C --> M["Meta, indicador ou padrão justificável"]:::criterio
+    N --> V["Verificar pertinência e aplicação ao caso"]:::opcao
+    R --> V
+    M --> V
+    classDef raiz fill:#f59e0b,stroke:#b45309,color:#111111
+    classDef criterio fill:#fff2d9,stroke:#b45309,color:#3d2207
+    classDef opcao fill:#fffbeb,stroke:#b68d58,color:#1c1917
+```
+
+São **exemplos de fontes possíveis**, não uma classificação oficial, fechada ou de aplicação automática. O critério deve ser pertinente ao objetivo e suficientemente claro, confiável e fundamentado para permitir a comparação. Um critério pode ser estabelecido em norma ou derivar de parâmetro razoável e justificável, conforme o caso (MOT, seção 4.3.3). A matriz de planejamento registra a relação entre questão, critério, fontes e procedimentos.
 
 ### Matriz, programa e supervisão
 

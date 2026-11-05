@@ -51,6 +51,8 @@ Os 11 artigos do roteiro estão **preparados editorialmente, sem estudo registra
 
 A segunda unidade tem como pré-requisito curricular a primeira, mas dúvidas e desempenho podem exigir retorno seletivo a qualquer artigo.
 
+**Auditoria de cobertura (04/11/2026):** o confronto com o item 15.2.4 do edital oficial identificou **cobertura temática substantiva** para P3.2.2 (orçamento e planejamento) e P3.2.3 (execução e responsabilidade fiscal) nas notas deste hub, ainda sujeita a validação de itens, vigência e aprendizagem. Ver [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|matriz dos 18 subitens de P3.2]].
+
 ## Conexões e material já existente
 
 - [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]]: funções econômicas, resultados e dívida, sem duplicar no orçamento.

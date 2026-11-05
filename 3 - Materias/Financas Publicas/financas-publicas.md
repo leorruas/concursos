@@ -18,9 +18,11 @@ Economia do setor público e fundamentos fiscais: bens públicos, externalidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
-| 01 | Economia do setor público: funções alocativa/distributiva/estabilizadora, bens públicos, externalidades, tributação e resultado fiscal. | Referências relacionadas; aprofundar para o recorte |
+| 01 | Economia do setor público: funções alocativa/distributiva/estabilizadora, bens públicos, externalidades, tributação e resultado fiscal. | **Lacuna P3.2.1.1 e cobertura parcial P3.2.1.2**, conforme [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|auditoria de 04/11/2026]]. Criar conteúdo canônico de Economia do Setor Público, sem duplicar Orçamento |
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
+
+**Verificação documental:** a [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|matriz de 18 subitens do edital]] identificou ausência de nota desenvolvida para funções do Estado, bens públicos, externalidades e federalismo fiscal. A prioridade é preencher esse núcleo e aprofundar tributação e indicadores fiscais; nenhum status de estudo foi alterado.
 
 ## Fronteiras prioritárias
 

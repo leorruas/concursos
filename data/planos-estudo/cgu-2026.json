@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "concursoId": "cgu-2026",
   "editalPath": "2 - Editais/CGU 2026 - Auditoria.md",
-  "programSource": "síntese local do item 15; sem afirmar auditoria linha a linha do PDF oficial",
+  "programSource": "Cotejo temático de P3.2 (18 subitens) realizado em 04/11/2026 com a versão HTML oficial do Edital 1/2026, item 15.2.4, Cargo 1. A retificação 2 (15/10/2026) não alterou esse conteúdo. Auditoria normativa fina de cada artigo e estudo real permanecem pendentes. Ver 1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026.md.",
   "blocks": [
     {
       "id": "P1.1",
@@ -77,10 +77,12 @@
   ],
   "sources": {
     "edital": {
-      "label": "Edital CGU: síntese do item 15, conferir PDF e retificações",
+      "label": "Edital CGU 2026, item 15.2.4, Cargo 1, publicação oficial do Cebraspe",
       "ref": "2 - Editais/CGU 2026 - Auditoria#Checklist completo de estudos por bloco",
-      "url": "https://www.cebraspe.org.br/concursos/cgu_26_affc",
-      "scope": "Itens 15.2.2, 15.2.3 e 15.2.4; síntese local não substitui edital"
+      "url": "https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html",
+      "scope": "Cotejo temático de P3.2 contra os 18 subitens oficiais concluído em 04/11/2026; retificação 2/2026 atingiu inscrição/cronograma; cotejo não equivale a validação normativa fina nem estudo",
+      "catalogUrl": "https://www.cebraspe.org.br/concursos/cgu_26_affc",
+      "verifiedAt": "2026-11-04"
     },
     "referencial": {
       "label": "Referencial Técnico: Instrução Normativa SFC nº 3/2017",
@@ -1807,7 +1809,7 @@
             "edital"
           ],
           "coverage": "parcial",
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "noteRole": "auditoria-p3-2-1-1-lacuna-funcoes-estado-externalidades-bens-publicos-1-2-parcial-tributacao-financiamento"
         }
       ],
       "requiresSubjects": []
@@ -1856,7 +1858,7 @@
             "lc210"
           ],
           "coverage": "parcial",
-          "noteRole": "notas-diretas-parciais-e-base-adjacente"
+          "noteRole": "auditoria-p3-2-2-1-e-2-2-substanciais-confirmar-aplicacao-normativa"
         },
         {
           "id": "up3-2-3",
@@ -1883,7 +1885,7 @@
             "mfas2025"
           ],
           "coverage": "parcial",
-          "noteRole": "notas-diretas-do-roteiro-publicadas-sem-validacao-integral-do-edital"
+          "noteRole": "auditoria-p3-2-3-1-e-3-2-substanciais-confirmar-aplicacao-normativa"
         }
       ],
       "requiresSubjects": []
@@ -1953,7 +1955,7 @@
               "unitId": "up3-2-3"
             }
           ],
-          "noteRole": "bp-dvp-dfc-notas-preparadas-precisa-validar-abrangencia-edital"
+          "noteRole": "auditoria-p3-2-4-1-e-4-2-substanciais-validacao-normativa-pendente"
         },
         {
           "id": "up3-2-5",
@@ -1974,7 +1976,7 @@
             "mic-2025"
           ],
           "coverage": "parcial",
-          "noteRole": "fundamentos-mic-sic-indicadores-publicados-conferencia-edital-pendente"
+          "noteRole": "auditoria-p3-2-5-1-parcial-comprovacao-entrega-custo-5-2-e-5-3-substanciais"
         },
         {
           "id": "up3-2-6",
@@ -2005,7 +2007,7 @@
             "cpc36-consolidacao"
           ],
           "coverage": "parcial",
-          "noteRole": "provisoes-ativos-e-demonstracoes-societarias-publicados-cotejo-edital-pendente"
+          "noteRole": "auditoria-p3-2-6-1-e-6-2-substanciais-6-3-parcial-cpc-societario"
         },
         {
           "id": "up3-2-7",
@@ -2027,7 +2029,7 @@
             "lei-12527"
           ],
           "coverage": "parcial",
-          "noteRole": "governanca-estatais-artigo-10-publicado-cotejo-edital-pendente"
+          "noteRole": "auditoria-p3-2-7-1-7-3-7-4-substanciais-7-2-parcial-sustentabilidade-economico-financeira"
         }
       ],
       "requiresSubjects": []

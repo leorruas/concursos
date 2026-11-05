@@ -211,6 +211,8 @@ Foram estudados e aplicados em itens C/E: finalidade e serviços, três linhas, 
 - [ ] 6 Informação societária de estatais: balanço/DRE, notas, depreciação, impairment, provisões, contingências e partes relacionadas.
 - [ ] 7 Governança de estatais: conselhos, controle, finalidade pública, sustentabilidade, carta anual e políticas públicas.
 
+**Mapa editorial verificado em 04/11/2026:** [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|auditoria temática de todos os 18 subitens de P3.2]]. O mapa identifica conteúdo publicado, lacunas e próximos refinamentos; **não altera** estes checkboxes de estudo. Fonte confrontada: edital do Cebraspe, item 15.2.4, Cargo 1. Retificação nº 2 (15/10/2026) não alterou o programa.
+
 ### 3. Políticas públicas e métodos de investigação e avaliação
 - [ ] 1 Problema/desenho/avaliabilidade: teoria da mudança, modelo lógico, hipóteses, população elegível, evidências.
 - [ ] 2 Implementação: coordenação federativa, burocracia de linha de frente, processos, capacidade e riscos.

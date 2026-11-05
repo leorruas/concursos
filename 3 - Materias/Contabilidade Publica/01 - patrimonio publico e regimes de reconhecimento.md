@@ -37,6 +37,8 @@ A chave é distinguir **o fato econômico**, **a etapa de execução do orçamen
 
 Uma operação **permutativa** altera a composição do patrimônio sem, em regra, modificar imediatamente o PL. Na compra de um equipamento recebido e reconhecido como ativo: há entrada do imobilizado e saída de caixa ou constituição de obrigação. A compra não equivale automaticamente a VPD. Uma operação **modificativa** aumenta ou diminui o PL, como o consumo de serviços reconhecido como VPD. A classificação depende do fato efetivo, dos critérios de reconhecimento e de eventuais componentes mistos.
 
+**Contraste para a equação patrimonial:** um empréstimo de R$ 100 mil recebido por uma entidade aumenta simultaneamente o caixa (ativo) e a dívida (passivo), mantendo o patrimônio líquido: é fato permutativo e não gera VPA pelo principal recebido. Uma doação incondicional de equipamentos de R$ 30 mil, devidamente reconhecida sem obrigação correspondente, aumenta o ativo e o patrimônio líquido: fato modificativo aumentativo e VPA, mesmo sem entrada de caixa. Para classificar, procure sempre a contrapartida patrimonial.
+
 A **depreciação** do equipamento poderá provocar VPD em períodos posteriores, pelo consumo de seu potencial de serviços. Portanto, é perigoso inferir que todo valor empenhado em despesa de capital representa redução patrimonial do mesmo valor no ato da compra.
 
 ## Regime orçamentário e regime patrimonial

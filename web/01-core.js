@@ -30,6 +30,7 @@ async function obterListaDeArquivos() {
                 const fileName = pathLower.split("/").pop();
                 
                 if (!item.path.endsWith(".md")) return false;
+                if (item.path.startsWith("00 - Desempenho/") || /\/Avancos\.md$/i.test(item.path)) return false;
                 if (item.path.includes(".obsidian") || item.path.includes(".git") || item.path.includes(".gemini") || item.path.includes(".agent")) return false;
                 if (fileName === "agents.md" || fileName === "index.md" || fileName === "me.md" || fileName === "log.md" || fileName === "gemini.md" || fileName === "readme.md") return false;
                 if (fileName.includes(" 2.md") || item.path.includes(" 2/")) return false; // Ignora duplicatas de sincronização

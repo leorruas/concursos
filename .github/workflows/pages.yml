@@ -80,6 +80,8 @@ jobs:
         run: node scripts/validate-search-governance.js
       - name: Montar artefato estático isolado (_site)
         run: node scripts/build-site.js
+      - name: Auditar dados pessoais fora da publicação
+        run: node scripts/test-public-privacy.js
       - name: Validar publicação dos flashcards
         run: node scripts/validate-flashcards.js --site
       - name: Verificar projetos publicados de concursos

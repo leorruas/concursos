@@ -21,7 +21,8 @@ function normalizar(texto) {
 const manifest = JSON.parse(fs.readFileSync(path.join(siteDir, 'manifest.json'), 'utf8'));
 const searchIndex = JSON.parse(fs.readFileSync(path.join(siteDir, 'search-index.json'), 'utf8'));
 const editalItens = JSON.parse(fs.readFileSync(path.join(siteDir, 'data/edital-itens.json'), 'utf8'));
-const erros = JSON.parse(fs.readFileSync(path.join(siteDir, 'data/erros-recorrentes.json'), 'utf8'));
+// Teste local do algoritmo com histórico disponível apenas no repositório-fonte.
+const erros = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/erros-recorrentes.json'), 'utf8'));
 const benchmarks = JSON.parse(fs.readFileSync(path.join(rootDir, 'scripts/search-benchmarks.json'), 'utf8'));
 const indicePorPath = new Map(searchIndex.map(item => [item.sourcePath, item]));
 

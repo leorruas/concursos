@@ -1,5 +1,16 @@
 # Instruções para agentes: vault de concursos
 
+## Diagramas Mermaid: paleta, contraste e temas (regra obrigatória)
+
+Antes de criar ou alterar um diagrama Mermaid, examinar os tokens de `style.css` e a configuração de `web/05-mermaid.js`. **A cor de destaque do projeto concursos é amarelo/âmbar**, definida por `--accent-blue` (nome legado da variável, que não significa azul). Não copiar a paleta azul do projeto PUC nem inserir hexadecimais azuis nas definições `classDef`, no tema Mermaid ou no CSS deste projeto.
+
+Usar classes semânticas nos diagramas, como `raiz`, `criterio` e `opcao`, e definir os estilos finais no CSS por variáveis específicas para os modos claro e escuro, também no explorador ampliado. O `classDef` do Markdown é apenas fallback para visualização em GitHub ou Obsidian: escolher amarelo/âmbar e neutros com contraste legível, sem depender das variáveis CSS da página.
+
+**Contraste mínimo:** conferir o texto de cada caixa contra seu fundo real, buscando pelo menos 4,5:1 para texto normal e 3:1 para texto grande (WCAG AA). Texto escuro sobre amarelo/âmbar é a primeira opção; em caixas escuras, usar texto claro. Não supor que branco sobre amarelo, nem o texto geral do site sobre um bloco colorido, tenha contraste suficiente. Verificar também bordas, conectores e rótulos de arestas; não confiar apenas na diferença de cor para comunicar categorias.
+
+**Validação antes do commit:** renderizar blocos `mermaid` que passam pelo `marked` no GitHub Pages; testar diagramas no artigo e no modal com zoom, em tema claro e escuro, inclusive após alternar os temas e em tela estreita. Conferir legibilidade do texto dentro dos nós, ausência de azul não intencional e compatibilidade do fallback Markdown com Obsidian. Caso não haja inspeção visual disponível, declarar a validação pendente, sem afirmar que ela ocorreu. Ao copiar recursos da PUC, adaptar as cores e os contratos do repositório concursos antes de publicar.
+
+
 **Regra operacional de privacidade (05/11/2026):** `leorruas/concurso-dados` é a fonte **privada** para sessões e respostas, lacunas, ledger, resultados, progresso, contexto, revisões e arquivos `Avancos.md`. `leorruas/concursos` é a fonte **pública** para teoria, artigos, catálogo não pessoal e flashcards de conteúdo. **Nunca recriar dados individuais no repositório público**, em arquivos de diagnóstico, mensagens de commit, exemplos de artigo ou logs de CI. O protocolo abaixo que menciona `data/sessoes/` e `data/contexto-estudo/` refere-se ao cofre privado. Consolidações são executadas pelo workflow do cofre e não pelo Pages. O navegador público preserva revisões locais, mas ainda não possui sincronização autenticada do perfil de erros. Em caso de falha ao acessar o cofre, não gravar no público como alternativa. Esta regra prevalece sobre qualquer orientação anterior de registrar progresso no site público.
 
 

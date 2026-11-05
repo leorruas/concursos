@@ -87,6 +87,16 @@ Os **arts. 12 a 16** disciplinam o legado das transferências especiais anterior
 
 **Gabarito: Errado.** São regimes e normas distintos.
 
+## Refinamento: saneamento, devolução e TCE
+
+A [Portaria MGI nº 7.562/2026](https://www.gov.br/transferegov/pt-br/legislacao/portarias/portaria-mgi-no-7-562-de-14-de-setembro-de-2026) estabelece duas hipóteses distintas de prazo de até 30 dias.
+
+No **art. 7º, § 2º**, o órgão setorial concede **até 30 dias** para o ente sanar impropriedades ou apresentar justificativas após detectar indícios na análise. No **art. 8º, § 3º**, após decisão de rejeição total ou parcial, o ente dispõe de **até 30 dias improrrogáveis**, contados do recebimento da notificação, para devolver os valores rejeitados corrigidos. A primeira etapa busca esclarecer ou corrigir; a segunda executa consequência de uma decisão.
+
+O **art. 8º, II**, permite aprovação com ressalvas por falha formal sem dano ao erário. O **art. 9º, § 1º**, qualifica a tomada de contas especial como medida excepcional após providências internas de apuração ou afastamento do dano. **Saneamento não é devolução, e ressalva não é TCE automática.**
+
+**Item inédito C/E:** O prazo para justificar impropriedade durante a análise do relatório é o mesmo ato que o prazo improrrogável para devolver recursos depois da rejeição. **Errado:** os pressupostos, finalidades e marcos iniciais são diferentes.
+
 ## Relações com outros temas
 
 - [[3 - Materias/Contratacoes e Transferencias/01 - modalidades e regimes de transferencias da uniao|Regimes de transferências]].

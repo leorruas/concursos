@@ -12,7 +12,7 @@ updated: 2026-11-05
 
 Planejamento de glossário para **CGU 2026, cargo 1, Auditoria, Cebraspe (Certo/Errado)**. O recorte prioriza conceitos, siglas, etapas, classificações e fronteiras que podem gerar interpretações erradas. As prioridades A/B/C reproduzem a decisão editorial do [[1 - Planejamento/CGU 2026 - Plano de materias|plano de matérias]], **não indicam frequência comprovada de cobrança**. Escopo conferido com [[2 - Editais/CGU 2026 - Auditoria|edital sintetizado no vault]] e [edital no Cebraspe](https://www.cebraspe.org.br/concursos/cgu_26_affc).
 
-**Estado atual:** 200 termos **planejados** em data/glossario/backlog-cgu-2026.json. Nenhum termo está definido ou exibido no site por esta mudança. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
+**Estado editorial em 05/11/2026:** 200 termos **planejados** em data/glossario/backlog-cgu-2026.json, dos quais 20 possuem definições revisadas no JSON público. O glossário deve exibir apenas entradas revisadas e validadas no build. As notas citadas são **candidatas de conexão**: a presença do termo, sua formulação e a seção exata deverão ser verificadas antes de converter o vínculo para `articleId`. Nenhuma marca de domínio ou dados pessoais é criada.
 
 ## Onde o glossário aparecerá na wiki
 
@@ -26,7 +26,7 @@ O registro aberto oferecerá termo, sigla por extenso, definição breve, difere
 
 ## Arquitetura de dados e autoria gradual
 
-Este backlog usa JSON separado do conteúdo. Definições revisadas deverão entrar em `data/glossario/termos/<assunto>.json`, com identidade `id` permanente, rótulo, aliases equivalentes, definição, contraste, fontes, `subjectIds`, `contestIds` e `articleIds`. O build validará os registros publicados e produzirá um índice leve `glossario-index.json`; não editar índices derivados manualmente. Uma mesma definição pode pertencer a vários concursos. Usar IDs estáveis dos artigos e resolver o slug público no build, sem copiar caminhos físicos como vínculo definitivo.
+Este backlog usa JSON separado do conteúdo. Definições revisadas já entram em `data/glossario/termos/<assunto>.json`, com identidade `id` permanente, rótulo, aliases equivalentes, definição, contraste, fontes, `subjectIds`, `contestIds` e `articleIds`. O build valida os registros publicados e produz `glossario-index.json`; não editar índices derivados manualmente. Uma mesma definição pode pertencer a vários concursos. Usar IDs estáveis dos artigos e resolver o slug público no build, sem copiar caminhos físicos como vínculo definitivo.
 
 A busca interna do glossário deve ignorar acentos e caixa, localizar siglas e variantes equivalentes, mostrar resultados imediatamente e carregar os detalhes conforme necessário. O índice de busca dos artigos atual (`search-index.json`) continuará independente. Integração opcional à busca global dependerá de benchmarks próprios e preservação da prioridade dos artigos. O navegador não salva dados pessoais de estudo no repositório público.
 
@@ -176,7 +176,7 @@ O exemplo demonstra a estrutura; ainda exige revisão normativa e editorial. Um 
 
 **Fase 0 (registrada neste plano):** backlog com 200 termos distribuídos por 15 matérias e 75 caminhos candidatos verificados como arquivos existentes. Nenhuma definição publicada.
 
-**Fase 1:** montar a rota, menu, lista e filtros, criar validador JSON e publicar **20 definições** revisadas entre Auditoria, Orçamento e Contabilidade. Testar pesquisa, acessibilidade, privacidade e deep links.
+**Fase 1 (implementada no código):** rota, menu, lista, filtro por bloco/matéria/letra, validador e **20 definições** revisadas: 10 de Auditoria, 5 de Orçamento e 5 de Contabilidade. O build inclui apenas conteúdo revisado, e a publicação depende da validação final do Pages.
 
 **Fase 2:** escrever outras **65 definições** das três prioridades A (85 no total). Cada definição precisa indicar o limite em relação ao conceito próximo e, quando cabível, uma armadilha C/E.
 
@@ -192,4 +192,4 @@ A ordem é revisável se o estudo revelar lacuna de maior prioridade. O contador
 
 Validar unicidade e estabilidade de IDs, aliases sem colisões, campos obrigatórios, links canônicos existentes, correspondência a concurso e matéria, fonte legal/manual atualizada, resultados vazios e busca por acento/sigla. Testar regressões no `web/00-route-utils.js`, `web/07-router-init.js`, `web/06*.js` e `scripts/build-site.js`. O glossário não pode alterar ranking global sem benchmarks nem deixar `index.md` ou índice de navegação inconsistentes. Confirmar build, workflow e conteúdo no Pages ao vivo antes de anunciar implementação.
 
-**Arquivos previstos:** backlog deste plano (`data/glossario/backlog-cgu-2026.json`); definições (`data/glossario/termos/*.json`); índice derivado (`_site/glossario-index.json`); página futura (`#/glossario?concurso=cgu-2026`).
+**Arquivos implementados na Fase 1:** backlog (`data/glossario/backlog-cgu-2026.json`); definições (`data/glossario/termos/*.json`); validador (`scripts/glossary-data.js`); índice derivado (`_site/glossario-index.json`); interface (`web/09-glossary.js`); rota (`#/glossario?concurso=cgu-2026`); testes (`scripts/test-glossary.js`).

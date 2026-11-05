@@ -31,6 +31,10 @@
         return "#/artigo/" + encodeURIComponent(articleId) + queryEscopo(concursoId, biblioteca, secao, origem);
     }
 
+    function construirRotaGlossario(termoId = "", concursoId = "cgu-2026") {
+        return "#/glossario" + (termoId ? "/" + encodeURIComponent(termoId) : "") + queryEscopo(concursoId);
+    }
+
     function parsearHashVault(hash) {
         const valor = String(hash || "").trim();
         if (!valor || valor === "#" || valor === "#/") return { tipo: "home", concursoId: "", biblioteca: false };
@@ -51,6 +55,7 @@
             biblioteca: params.biblioteca === "1"
         };
         if (segmentos.length === 0) return { tipo: "home", ...contexto };
+        if (segmentos[0] === "glossario" && segmentos.length <= 2) return { tipo: "glossario", termoId: decodificar(segmentos[1] || ""), ...contexto };
         if (segmentos[0] === "artigo" && segmentos.length === 2) return {tipo:"artigo", articleId:decodificar(segmentos[1]), secao:params.secao||"", origem:params.origem||"", ...contexto};
         if (segmentos[0] === "disciplina") {
             return { tipo: "disciplina", categoria: decodificar(segmentos.slice(1).join("/")), ...contexto };
@@ -76,6 +81,7 @@
     }
     global.resolverArtigoRota = resolverArtigoRota;
     global.construirRotaArtigoId = construirRotaArtigoId;
+    global.construirRotaGlossario = construirRotaGlossario;
     global.construirRotaHome = construirRotaHome;
     global.construirRotaDisciplina = construirRotaDisciplina;
     global.construirRotaArtigo = construirRotaArtigo;

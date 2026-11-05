@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { validarCatalogoMaterias } from './contest-catalog.js';
+import { buildGlossary } from './glossary-data.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -301,6 +302,8 @@ const concursosRegistrados = JSON.parse(fs.readFileSync(path.join(rootDir, 'data
 const catalogoMaterias = resolveCatalog(JSON.parse(fs.readFileSync(path.join(rootDir, 'data/catalogo-materias-por-concurso.json'), 'utf8')), manifesto);
 const auditoriaCatalogo = validarCatalogoMaterias(catalogoMaterias, manifesto, concursosRegistrados);
 console.log('✓ Catálogo por concurso validado: ' + auditoriaCatalogo.materias + ' matérias em ' + auditoriaCatalogo.concursos + ' concursos.');
+const glossarioPublico = buildGlossary(rootDir, manifesto, catalogoMaterias, concursosRegistrados);
+console.log('✓ Glossário validado: ' + glossarioPublico.publishedCount + ' definições revisadas de ' + glossarioPublico.plannedCount + ' planejadas.');
 
 for (const concurso of concursosRegistrados) {
   if (!concurso.dashboardPath) continue;
@@ -411,6 +414,8 @@ console.log('✓ Gerado _site/manifest.json com sucesso.');
 const searchIndexPath = path.join(outDir, 'search-index.json');
 fs.writeFileSync(searchIndexPath, indiceBuscaSerializado, 'utf8');
 console.log('✓ Gerado _site/search-index.json com sucesso.');
+fs.writeFileSync(path.join(outDir, 'glossario-index.json'), JSON.stringify(glossarioPublico));
+console.log('✓ Gerado _site/glossario-index.json sem registros pendentes.');
 
 // A URL dos arquivos visuais muda com seu conteúdo, evitando CSS/JS de outra publicação.
 for (const pagina of ['index.html', 'flashcards.html']) {

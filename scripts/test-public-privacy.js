@@ -5,6 +5,9 @@ import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('..',import.meta.url)),site=path.join(root,'_site');
 const read=(name)=>JSON.parse(fs.readFileSync(path.join(site,name),'utf8'));
 const manifest=read('manifest.json'),search=read('search-index.json');
+const glossary=read('glossario-index.json');
+assert.equal(glossary.publishedCount,glossary.terms.length,'Contador do glossário deve refletir definições publicadas');
+assert(glossary.terms.every(t=>t.status==='reviewed'&&t.articleLinks?.length),'Glossário não publica candidatos sem revisão e vínculo');
 for(const collection of [manifest,search]) {
   assert(!collection.some(x=>x.sourcePath?.startsWith('00 - Desempenho/')),'Relatório de desempenho no Pages');
   assert(!collection.some(x=>(x.sourcePath||'').toLowerCase().endsWith('/avancos.md')),'Avanços individuais no Pages');

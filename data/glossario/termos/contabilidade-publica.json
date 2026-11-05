@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "contabilidade-publica",
+  "entries": [
+    {
+      "id": "glo-regime-orcamentario",
+      "term": "Regime orçamentário",
+      "aliases": [],
+      "definition": "Regra do art. 35 da Lei nº 4.320/1964 que atribui ao exercício receitas arrecadadas e despesas legalmente empenhadas.",
+      "contrast": "Esse critério orçamentário não substitui o reconhecimento patrimonial por competência.",
+      "cebraspeTrap": "Afirmar que toda contabilidade patrimonial deve seguir o momento do caixa.",
+      "example": "Uma despesa empenhada em dezembro integra aquele exercício, ainda que paga em janeiro.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP: 11ª edição",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-regime-de-competencia",
+      "term": "Regime de competência",
+      "aliases": [],
+      "definition": "Regime patrimonial que reconhece efeitos de eventos quando ocorrem, mesmo que recebimento, pagamento ou execução orçamentária sejam posteriores.",
+      "contrast": "Fato gerador patrimonial e estágio de liquidação administrativa podem ter datas diferentes.",
+      "cebraspeTrap": "Exigir pagamento ou empenho como condição universal para reconhecer obrigação patrimonial.",
+      "example": "Serviço consumido em dezembro pode ser reconhecido antes do pagamento em janeiro.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "sources": [
+        {
+          "label": "MCASP: 11ª edição",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-balanco-orcamentario",
+      "term": "Balanço orçamentário",
+      "aliases": [],
+      "definition": "Demonstração que confronta previsão e execução de receitas com dotação e execução de despesas, incluindo quadros de restos a pagar.",
+      "contrast": "Difere do balanço financeiro, centrado em ingressos, dispêndios e saldos financeiros.",
+      "cebraspeTrap": "Equiparar receita prevista à arrecadada ou trocar empenho por pagamento como único critério.",
+      "example": "O quadro apresenta dotação atualizada, empenhos, liquidação e pagamentos.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-420d779b988c4cc8"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP: 11ª edição",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-balanco-financeiro",
+      "term": "Balanço financeiro",
+      "aliases": [],
+      "definition": "Demonstração que reúne ingressos e dispêndios orçamentários e extraorçamentários, transferências financeiras e saldos em espécie.",
+      "contrast": "O resultado financeiro do BF não é automaticamente o superávit financeiro do balanço patrimonial.",
+      "cebraspeTrap": "Tratar inscrição compensatória de restos a pagar como entrada de dinheiro novo.",
+      "example": "O demonstrativo reconcilia saldos de caixa com movimentos financeiros e extraorçamentários.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-420d779b988c4cc8"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP: 11ª edição",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-variacao-patrimonial-aumentativa",
+      "term": "Variação patrimonial aumentativa",
+      "aliases": [],
+      "definition": "Variação que eleva o patrimônio líquido e integra a Demonstração das Variações Patrimoniais, conforme o regime de competência e as regras contábeis aplicáveis.",
+      "contrast": "VPA não equivale necessariamente a receita orçamentária arrecadada.",
+      "cebraspeTrap": "Exigir arrecadação como condição geral para reconhecer uma VPA.",
+      "example": "Um crédito tributário reconhecido conforme o fato gerador pode gerar VPA antes do recebimento.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-bf384b8a28aa4753"
+      ],
+      "sources": [
+        {
+          "label": "MCASP: 11ª edição",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

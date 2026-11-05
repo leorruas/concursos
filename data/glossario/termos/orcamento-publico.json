@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "orcamento-publico",
+  "entries": [
+    {
+      "id": "glo-ppa",
+      "term": "PPA",
+      "aliases": [],
+      "definition": "Plano Plurianual: lei de iniciativa do Executivo que estabelece, regionalizadamente, diretrizes, objetivos e metas para despesas de capital e decorrentes e programas de duração continuada.",
+      "contrast": "Instrumento de médio prazo, distinto das diretrizes anuais da LDO e da autorização anual da LOA.",
+      "cebraspeTrap": "Reduzir o PPA a obras ou fazer sua vigência federal coincidir integralmente com o mandato.",
+      "example": "A expansão de uma rede de atendimento tem metas de médio prazo no PPA.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-c301f2c741504403"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal: art. 165",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-ldo",
+      "term": "LDO",
+      "aliases": [],
+      "definition": "Lei de Diretrizes Orçamentárias: lei anual que estabelece metas e prioridades e orienta a LOA, com funções fiscais também previstas na LRF.",
+      "contrast": "Orientação da elaboração orçamentária não equivale à fixação anual de despesas.",
+      "cebraspeTrap": "Afirmar que cada autarquia edita sua própria LDO, separada do ente federativo.",
+      "example": "A LDO traz metas fiscais para orientar a proposta anual.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-c301f2c741504403"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal: art. 165",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "LRF: LC nº 101/2000",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-loa",
+      "term": "LOA",
+      "aliases": [],
+      "definition": "Lei Orçamentária Anual: lei que estima receitas e fixa despesas para o exercício, nos orçamentos previstos no art. 165 da Constituição.",
+      "contrast": "Autorização e programação não comprovam empenho, liquidação ou pagamento.",
+      "cebraspeTrap": "Confundir dotação prevista na lei com despesa integralmente executada.",
+      "example": "A LOA autoriza recursos para equipamentos, cuja entrega e pagamento virão depois.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-c301f2c741504403"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal: art. 165",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-empenho",
+      "term": "Empenho",
+      "aliases": [],
+      "definition": "Ato de autoridade competente que cria para o Estado obrigação de pagamento, pendente de implemento de condição, conforme a Lei nº 4.320/1964.",
+      "contrast": "Empenho compromete o crédito; liquidação verifica o direito do credor.",
+      "cebraspeTrap": "Afirmar que empenhar exige entrega e pagamento já realizados.",
+      "example": "A universidade empenha a compra antes de receber os equipamentos.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-liquidacao-da-despesa",
+      "term": "Liquidação da despesa",
+      "aliases": [],
+      "definition": "Estágio em que se verifica o direito adquirido pelo credor, com base em títulos e documentos comprobatórios, nos termos do art. 63 da Lei nº 4.320/1964.",
+      "contrast": "Liquidação precede o pagamento e não se confunde com uma nota fiscal isolada.",
+      "cebraspeTrap": "Considerar a simples emissão de fatura como comprovação suficiente de entrega.",
+      "example": "A fiscalização verifica a entrega e os documentos antes de liberar o pagamento.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

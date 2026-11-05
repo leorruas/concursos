@@ -213,6 +213,8 @@ function renderizarPainelConcursoHome() {
 
     container.classList.remove("escondido");
     concursoSelecionadoId = concursoAtivo.id;
+    const acessoGlossario = document.getElementById("home-glossario-entry");
+    if (acessoGlossario) acessoGlossario.classList[concursoAtivo.id === "cgu-2026" ? "remove" : "add"]("escondido");
 
     const dataProva = new Date(concursoAtivo.dataProva);
     const hoje = new Date();
@@ -331,6 +333,7 @@ function abrirDisciplina(categoria, atualizarRota = true) {
     if (campoTextoNav) campoTextoNav.value = "";
     leitorDeArtigo.classList.add("escondido");
     divResultados.classList.add("escondido");
+    document.getElementById("glossario-pagina")?.classList.add("escondido");
     document.getElementById("painel-concurso-home")?.classList.add("escondido");
     document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
     document.getElementById("explorar-disciplinas")?.classList.add("escondido");

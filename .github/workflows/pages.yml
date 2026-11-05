@@ -59,6 +59,8 @@ jobs:
         run: node scripts/test-public-projects.js
       - name: Validar índice de busca publicado
         run: node scripts/validate-search-index.js
+      - name: Testar definições, filtros e rotas do glossário CGU
+        run: node scripts/test-glossary.js
       - name: Testar recall mínimo da busca
         run: node scripts/test-search-index.js
       - name: Testar deep links da busca

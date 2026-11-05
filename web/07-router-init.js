@@ -27,6 +27,10 @@ async function tratarHashNavegacao() {
         return;
     }
 
+    if (rota.tipo === "glossario") {
+        return abrirGlossario(rota.termoId || "", false);
+    }
+
     if (rota.tipo === "disciplina") {
         abrirDisciplina(rota.categoria, false);
         return;
@@ -46,6 +50,7 @@ function voltarParaHome(atualizarRota = true) {
     }
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.add("escondido");
+    document.getElementById("glossario-pagina")?.classList.add("escondido");
     divResultados.classList.add("escondido");
     document.getElementById("painel-concurso-home")?.classList.remove("escondido");
     document.getElementById("orientacoes-iniciais")?.classList.remove("escondido");
@@ -55,6 +60,9 @@ function voltarParaHome(atualizarRota = true) {
 }
 
 window.addEventListener("popstate", () => {
+    tratarHashNavegacao();
+});
+window.addEventListener("hashchange", () => {
     tratarHashNavegacao();
 });
 

@@ -418,3 +418,7 @@ O contrato vigente de continuidade está em [[1 - Planejamento/Continuidade de e
 ## Perfil explícito de banca na retomada: 04/11/2026
 
 `examProfile`, em `study-context.js`, deriva o perfil ativo de `data/concursos.json` e o inclui no resumo do concurso, no índice e em cada contexto de matéria. CGU 2026 exige Cebraspe e C/E: cadastro incoerente, plano de formato divergente ou sessão A–E são rejeitados, inclusive no formato 1 de sessões. Fontes CGU 2022/FGV permanecem históricas e auxiliares, sem alterar o concurso-alvo. `test-study-context.js` valida os bloqueios e preserva Dataprev/FGV.
+
+## Atualização de 05/11/2026: glossário público CGU
+
+A biblioteca ganhou uma camada específica de consulta, independente do índice de artigos. As fontes canônicas são `data/glossario/termos/*.json` (apenas definições revisadas) e `data/glossario/backlog-cgu-2026.json` (planejamento, fora do Pages). `scripts/glossary-data.js` valida unicidade, correspondência ao backlog, concursos, matérias, fontes e identidades de artigos; `scripts/build-site.js` gera apenas `_site/glossario-index.json`. `web/09-glossary.js` carrega os dados sob demanda e apresenta filtro por bloco/matéria/letra e pesquisa textual. As rotas `#/glossario` e `#/glossario/<id>` são resolvidas em `web/00-route-utils.js` e `web/07-router-init.js`. `scripts/test-glossary.js` roda no CI e verifica quantidade, vínculos, buscas, filtros e URLs. A integração com a busca global de artigos continua fora do escopo e depende de benchmark.

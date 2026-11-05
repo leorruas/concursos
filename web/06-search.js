@@ -403,6 +403,7 @@ function selecionarEscopoBusca(global) {
 }
 
 function filtrarArtigos(termoBusca) {
+    document.getElementById("glossario-pagina")?.classList.add("escondido");
     leitorDeDisciplina.classList.add("escondido");
     leitorDeArtigo.classList.add("escondido");
     if (!termoBusca || termoBusca.trim() === "") {

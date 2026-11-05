@@ -2279,3 +2279,41 @@ html body .artigo-corpo h3::before {
 .home-flashcards-copy{display:grid;gap:9px}.home-flashcards-label{font:10px 'IBM Plex Mono',monospace;color:var(--accent-blue);letter-spacing:.08em}.home-flashcards-copy strong{font-size:30px;font-weight:460;line-height:1;letter-spacing:-.05em}.home-flashcards-copy>span:last-child{font-size:13px;color:var(--muted);line-height:1.5}.home-flashcards-action{font-size:13px;color:var(--accent-blue);border:1px solid var(--accent-blue-alpha-40);padding:12px 18px;white-space:nowrap;transition:background .15s}
 .home-flashcards-entry:hover .home-flashcards-action,.home-flashcards-entry:focus-visible .home-flashcards-action{background:var(--accent-blue-alpha-15)}.home-flashcards-entry:focus-visible{outline:2px solid var(--accent-blue);outline-offset:5px}.home-flashcards-entry+.pastas-orientacao:empty{display:none}
 @media(max-width:600px){.home-flashcards-entry{align-items:flex-start;flex-direction:column;gap:18px;padding:22px 0}.home-flashcards-action{font-size:12px;padding:10px 14px}.home-flashcards-copy strong{font-size:28px}}
+
+
+/* Glossário CGU: consulta pública independente, sem ícones decorativos. */
+body:has(.glossario-pagina:not(.escondido)) .page-masthead{display:none}
+.glossario-pagina{padding:82px 0 100px;max-width:950px;margin:0 auto;color:var(--text)}
+.glossario-breadcrumb{display:flex;gap:11px;align-items:center;color:var(--muted);font-size:12px;margin:6px 0 60px}
+.glossario-breadcrumb a{color:var(--muted);text-decoration:none}.glossario-breadcrumb a:hover{color:var(--accent-blue)}
+.glossario-rotulo{font:11px 'IBM Plex Mono',monospace;color:var(--accent-blue);letter-spacing:.06em;text-transform:uppercase}
+.glossario-cabecalho h2{font-size:clamp(40px,7vw,74px);letter-spacing:-.065em;line-height:1;margin:16px 0 15px;font-weight:620}
+.glossario-cabecalho>p:last-child{max-width:670px;color:var(--muted);font-size:15px;line-height:1.65;margin:0 0 45px}
+.glossario-ferramentas{border-top:1px solid color-mix(in srgb,var(--text) 35%,transparent);padding-top:20px}
+#glossario-busca{display:block;width:100%;border:none;border-bottom:1px solid color-mix(in srgb,var(--text) 35%,transparent);border-radius:0;padding:16px 0 19px;background:transparent;color:var(--text);font:clamp(18px,2.8vw,27px) 'Archivo',sans-serif;outline:none}
+#glossario-busca:focus{border-bottom:2px solid var(--accent-blue)}#glossario-busca::placeholder{color:var(--muted)}
+.glossario-filtros{display:flex;gap:24px;flex-wrap:wrap;margin-top:28px}
+.glossario-filtros label{display:flex;flex-direction:column;gap:8px;color:var(--muted);font:11px 'IBM Plex Mono',monospace;text-transform:uppercase}
+.glossario-filtros select{appearance:none;min-width:200px;border:1px solid color-mix(in srgb,var(--text) 28%,transparent);border-radius:0;padding:12px 40px 12px 13px;font:14px 'Archivo',sans-serif;color:var(--text);background:var(--surface);cursor:pointer}
+.glossario-filtros select:focus-visible,.glossario-termo:focus-visible,.glossario-letras button:focus-visible{outline:2px solid var(--accent-blue);outline-offset:3px}
+.glossario-contador{font:12px 'IBM Plex Mono',monospace;color:var(--muted);margin:30px 0 10px}
+.glossario-letras{display:flex;gap:3px;flex-wrap:wrap;border-bottom:1px solid color-mix(in srgb,var(--text) 30%,transparent);padding:0 0 16px}
+.glossario-letras button{background:transparent;border:0;cursor:pointer;color:var(--muted);font:12px 'IBM Plex Mono',monospace;padding:10px 12px}
+.glossario-letras button[aria-pressed=true]{background:var(--accent-blue-alpha-15);color:var(--accent-blue)}
+.glossario-letras button:hover{color:var(--text)}
+.glossario-item{border-bottom:1px solid color-mix(in srgb,var(--text) 20%,transparent);scroll-margin-top:80px}
+.glossario-termo{display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;padding:22px 0;background:transparent;border:0;color:var(--text);text-align:left;font-family:inherit;cursor:pointer}
+.glossario-termo strong{display:block;font-size:clamp(19px,2.5vw,26px);font-weight:530;letter-spacing:-.035em;line-height:1.15}
+.glossario-termo small{display:block;font:11px 'IBM Plex Mono',monospace;color:var(--muted);margin-top:9px}
+.glossario-indicador{font:11px 'IBM Plex Mono',monospace;color:var(--accent-blue)}
+.glossario-termo:hover strong{color:var(--accent-blue)}
+.glossario-detalhe{padding:0 0 30px 0;max-width:780px;color:var(--text);font-size:15px;line-height:1.7}
+.glossario-definicao{font-size:18px;line-height:1.65;margin:0 0 24px}
+.glossario-detalhe dl{display:grid;grid-template-columns:145px 1fr;gap:12px 24px;margin:0 0 28px}
+.glossario-detalhe dt{font:11px 'IBM Plex Mono',monospace;color:var(--muted);text-transform:uppercase;padding-top:6px}
+.glossario-detalhe dd{margin:0;line-height:1.65}
+.glossario-fonte{color:var(--muted);font-size:13px;line-height:1.8;margin:10px 0}
+.glossario-fonte a,.glossario-permalink{color:var(--accent-blue);text-decoration:underline;text-underline-offset:3px}
+.glossario-permalink{font-size:12px;display:inline-block;margin-top:8px}
+.glossario-vazio{padding:55px 0;color:var(--muted);font-size:16px}
+@media(max-width:650px){.glossario-pagina{padding:40px 0 75px}.glossario-breadcrumb{margin-bottom:40px}.glossario-filtros{display:grid;grid-template-columns:1fr 1fr;gap:12px}.glossario-filtros select{width:100%;min-width:0;padding:12px 9px;font-size:12px}.glossario-detalhe dl{display:block}.glossario-detalhe dt{margin-top:18px}.glossario-detalhe dd{margin:6px 0}.glossario-indicador{font-size:10px}.glossario-cabecalho>p:last-child{margin-bottom:28px}}

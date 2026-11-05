@@ -74,6 +74,7 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
         history.pushState({ artigo: artigo.titulo, categoria: artigo.categoria, secao }, "", rotaDestino);
     }
 
+    document.getElementById("glossario-pagina")?.classList.add("escondido");
     document.getElementById("painel-concurso-home")?.classList.add("escondido");
     document.getElementById("orientacoes-iniciais")?.classList.add("escondido");
     document.getElementById("explorar-disciplinas")?.classList.add("escondido");

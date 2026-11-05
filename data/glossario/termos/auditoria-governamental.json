@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "auditoria-governamental",
+  "entries": [
+    {
+      "id": "glo-ciclo-de-auditoria",
+      "term": "Ciclo de auditoria",
+      "aliases": [],
+      "definition": "Em trabalhos de avaliação, sequência de planejamento, execução, comunicação dos resultados e monitoramento. As etapas são funcionais e podem exigir ajustes durante o trabalho.",
+      "contrast": "Planejamento anual da unidade não equivale ao planejamento individual da auditoria.",
+      "cebraspeTrap": "Tratar essa sequência como regra idêntica para consultoria e apuração.",
+      "example": "Uma auditoria planeja testes, examina processos, comunica achados e acompanha as providências.",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-47d19972e3bc4d29"
+      ],
+      "sources": [
+        {
+          "label": "Manual de Orientações Técnicas (CGU)",
+          "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-universo-auditavel",
+      "term": "Universo auditável",
+      "aliases": [],
+      "definition": "Conjunto de processos, programas, funções e outros objetos que podem ser examinados pela auditoria, antes da seleção dos trabalhos do ano.",
+      "contrast": "É mais amplo que os objetos escolhidos para o PAINT.",
+      "cebraspeTrap": "Afirmar que todo objeto auditável necessariamente integra o plano anual.",
+      "example": "A equipe mapeia 40 processos e seleciona cinco para auditoria.",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-47d19972e3bc4d29"
+      ],
+      "sources": [
+        {
+          "label": "Manual de Orientações Técnicas (CGU)",
+          "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-modelo-das-tres-linhas",
+      "term": "Modelo das três linhas",
+      "aliases": [],
+      "definition": "Modelo de papéis em que a gestão executa controles na primeira linha, funções especializadas apoiam e monitoram na segunda, e auditoria interna presta avaliação independente na terceira.",
+      "contrast": "A governança supervisiona; a auditoria não assume a gestão de controles.",
+      "cebraspeTrap": "Atribuir a operação cotidiana dos controles à terceira linha.",
+      "example": "Gestores autorizam despesas, conformidade acompanha riscos e auditoria examina controles.",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-10bfa7268f8340bf"
+      ],
+      "sources": [
+        {
+          "label": "IN SFC nº 3/2017",
+          "url": "https://repositorio.cgu.gov.br/bitstream/1/33409/21/Instrucao_Normativa_CGU_3_2017.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-avaliacao-auditoria",
+      "term": "Avaliação (auditoria)",
+      "aliases": [],
+      "definition": "Serviço de auditoria interna que examina governança, controles, processos ou resultados, com base em critérios e evidências, para emitir avaliação independente.",
+      "contrast": "Avaliação é serviço típico de auditoria interna; apuração possui competência específica.",
+      "cebraspeTrap": "Classificar qualquer investigação de denúncia como avaliação sem examinar sua finalidade.",
+      "example": "A equipe examina a efetividade dos controles de concessão de benefício.",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-10bfa7268f8340bf"
+      ],
+      "sources": [
+        {
+          "label": "IN SFC nº 3/2017",
+          "url": "https://repositorio.cgu.gov.br/bitstream/1/33409/21/Instrucao_Normativa_CGU_3_2017.pdf"
+        },
+        {
+          "label": "Manual de Orientações Técnicas (CGU)",
+          "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-consultoria-auditoria",
+      "term": "Consultoria (auditoria)",
+      "aliases": [],
+      "definition": "Serviço de aconselhamento, assessoria ou facilitação da auditoria interna para agregar valor à gestão, preservada a responsabilidade gerencial pelas decisões.",
+      "contrast": "Na consultoria, o auditor orienta sem decidir ou operar os controles do gestor.",
+      "cebraspeTrap": "Supor que recomendar melhorias transforma a auditoria em responsável por executá-las.",
+      "example": "A auditoria facilita uma oficina de riscos; gestores escolhem e implementam os controles.",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-10bfa7268f8340bf"
+      ],
+      "sources": [
+        {
+          "label": "IN SFC nº 3/2017",
+          "url": "https://repositorio.cgu.gov.br/bitstream/1/33409/21/Instrucao_Normativa_CGU_3_2017.pdf"
+        },
+        {
+          "label": "Manual de Orientações Técnicas (CGU)",
+          "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-criterio-de-auditoria",
+      "term": "Critério de auditoria",
+      "aliases": [],
+      "definition": "Parâmetro normativo, técnico ou operacional que define o que deveria ocorrer e serve de base para comparar a situação encontrada.",
+      "contrast": "Critério é o padrão esperado; condição é o fato observado.",
+      "cebraspeTrap": "Tratar uma irregularidade encontrada como se fosse o critério utilizado.",
+      "example": "Uma norma exige autorização prévia para conceder bolsas.",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-247a95edc82e4ef3"
+      ],
+      "sources": [
+        {
+          "label": "Manual de Orientações Técnicas (CGU)",
+          "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-condicao-do-achado",
+      "term": "Condição do achado",
+      "aliases": [],
+      "definition": "Situação efetivamente constatada pelos procedimentos de auditoria, descrita dentro dos limites das evidências obtidas.",
+      "contrast": "Condição é o estado verificado; causa procura explicar a divergência.",
+      "cebraspeTrap": "Confundir ausência de documento em um sistema com prova de que o ato nunca ocorreu.",
+      "example": "Quatro processos examinados não exibem autorização no sistema consultado.",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-247a95edc82e4ef3"
+      ],
+      "sources": [
+        {
+          "label": "Manual de Orientações Técnicas (CGU)",
+          "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-causa-do-achado",
+      "term": "Causa do achado",
+      "aliases": [],
+      "definition": "Fator que explica ou contribui para a diferença entre a condição identificada e o critério, sujeito à análise das evidências.",
+      "contrast": "Causa difere da condição e do efeito; causa raiz nem sempre pode ser demonstrada.",
+      "cebraspeTrap": "Presumir dolo ou negligência apenas pela existência de uma falha.",
+      "example": "Problemas de arquivamento podem explicar documentos ausentes, após verificação.",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-247a95edc82e4ef3"
+      ],
+      "sources": [
+        {
+          "label": "Manual de Orientações Técnicas (CGU)",
+          "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-suficiencia-da-evidencia",
+      "term": "Suficiência da evidência",
+      "aliases": [],
+      "definition": "Atributo relativo à quantidade e à extensão de evidências necessárias para sustentar uma conclusão, considerando riscos e objetivo do trabalho.",
+      "contrast": "Suficiência diz respeito à quantidade; adequação, à qualidade.",
+      "cebraspeTrap": "Afirmar que grande volume de dados ruins torna a evidência suficiente.",
+      "example": "Uma amostra estreita pode não sustentar uma conclusão sobre toda a população.",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-2ac819ec38f94031"
+      ],
+      "sources": [
+        {
+          "label": "IN SFC nº 3/2017",
+          "url": "https://repositorio.cgu.gov.br/bitstream/1/33409/21/Instrucao_Normativa_CGU_3_2017.pdf"
+        },
+        {
+          "label": "Manual de Orientações Técnicas (CGU)",
+          "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-adequacao-da-evidencia",
+      "term": "Adequação da evidência",
+      "aliases": [],
+      "definition": "Qualidade das evidências em atributos como confiabilidade, fidedignidade, relevância e utilidade para apoiar achados e conclusões.",
+      "contrast": "Adequação é qualitativa; suficiência refere-se à quantidade.",
+      "cebraspeTrap": "Supor que multiplicar documentos compensa baixa confiabilidade ou irrelevância.",
+      "example": "Registros independentes, verificáveis e pertinentes tendem a sustentar melhor um achado.",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-2ac819ec38f94031"
+      ],
+      "sources": [
+        {
+          "label": "IN SFC nº 3/2017",
+          "url": "https://repositorio.cgu.gov.br/bitstream/1/33409/21/Instrucao_Normativa_CGU_3_2017.pdf"
+        },
+        {
+          "label": "Manual de Orientações Técnicas (CGU)",
+          "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

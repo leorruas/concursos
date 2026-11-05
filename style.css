@@ -2406,3 +2406,7 @@ body:has(.glossario-pagina:not(.escondido)) .page-masthead{display:none}
     .mermaid-explorador-controles { gap: 5px; }
     .mermaid-explorador-controles button { padding: 8px; }
 }
+
+/* Falhas de carregamento não devem ocultar conteúdo de estudo. */
+.mermaid-erro { color: var(--text); border-left: 3px solid var(--accent-blue); padding: 12px 16px; background: var(--surface-raised); font-size: 14px; }
+.mermaid-fonte-erro { max-height: 340px; overflow: auto; white-space: pre; color: var(--text); background: var(--surface); padding: 14px; font-size: 12px; }

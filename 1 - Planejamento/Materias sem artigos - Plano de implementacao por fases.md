@@ -137,13 +137,15 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 **Reuso obrigatório antes de criar:** Direito Constitucional/01 e 05; Direito Administrativo/11; U04–U05 principalmente por link/refinamento.
 
-- [ ] **F30 · Estado, governo, poder e legitimidade**: U01: Estado × governo × administração, autoridade, interesse público e conflito distributivo.
-- [ ] **F31 · Democracia, representação e accountability**: U02: democracia representativa/participativa, separação de poderes e controles recíprocos.
-- [ ] **F32 · Federalismo e capacidade estatal**: U03: autonomia, coordenação, burocracia, discricionariedade e implementação de direitos.
-- [ ] **F33 · Corrupção, clientelismo, patronagem e captura**: U06: corrupção × falha × conflito de interesses × nepotismo; tipologias e limites.
-- [ ] **F34 · Problemas principal-agente e ação coletiva**: U07: informação assimétrica, incentivos, redes, captura institucional e riscos de causalidade simplista.
-- [ ] **F35 · Prevenção, detecção e consequências da corrupção**: U08: mecanismos, responsabilização, reparação, trade-offs e efeitos não pretendidos.
-- [ ] **F36 · Estado, regulação e modelos de desenvolvimento**: U09: estatais, mercado, financiamento, concorrência e finalidade pública.
+- [x] **F30 · Estado, governo, poder e legitimidade**: U01: Estado × governo × administração, autoridade, interesse público e conflito distributivo.
+- [x] **F31 · Democracia, representação e accountability**: U02: democracia representativa/participativa, separação de poderes e controles recíprocos.
+- [x] **F32 · Federalismo e capacidade estatal**: U03: autonomia, coordenação, burocracia, discricionariedade e implementação de direitos.
+- [x] **F33 · Corrupção, clientelismo, patronagem e captura**: U06: corrupção × falha × conflito de interesses × nepotismo; tipologias e limites.
+- [x] **F34 · Problemas principal-agente e ação coletiva**: U07: informação assimétrica, incentivos, redes, captura institucional e riscos de causalidade simplista.
+- [x] **F35 · Prevenção, detecção e consequências da corrupção**: U08: mecanismos, responsabilização, reparação, trade-offs e efeitos não pretendidos.
+- [x] **F36 · Estado, regulação e modelos de desenvolvimento**: U09: estatais, mercado, financiamento, concorrência e finalidade pública.
+
+**Onda 8 concluída editorialmente (05/11/2026):** sete artigos próprios para U01, U02, U03 e U06–U09. U04–U05 reutilizam Direito Constitucional e Controle da Administração Pública. O conjunto ainda requer cotejo de fonte, validação com provas reais e revisão da cobertura normativa; não registra estudo individual.
 
 ## Onda 9: Sociedade Brasileira
 

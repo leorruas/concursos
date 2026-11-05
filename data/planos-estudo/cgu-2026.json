@@ -840,7 +840,8 @@
           "noteRefs": [
             "3 - Materias/Direito Constitucional/01 - principios fundamentais",
             "3 - Materias/Direito Constitucional/05 - direitos politicos",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade"
           ],
           "requires": [],
           "sourceIds": [
@@ -857,7 +858,8 @@
           "noteRefs": [
             "3 - Materias/Direito Constitucional/01 - principios fundamentais",
             "3 - Materias/Direito Constitucional/05 - direitos politicos",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Estado e Democracia/02 - democracia representacao e accountability"
           ],
           "requires": [
             "up1-1-1"
@@ -876,7 +878,8 @@
           "noteRefs": [
             "3 - Materias/Direito Constitucional/01 - principios fundamentais",
             "3 - Materias/Direito Constitucional/05 - direitos politicos",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais"
           ],
           "requires": [
             "up1-1-2"
@@ -933,7 +936,8 @@
           "noteRefs": [
             "3 - Materias/Direito Constitucional/01 - principios fundamentais",
             "3 - Materias/Direito Constitucional/05 - direitos politicos",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Estado e Democracia/06 - corrupcao clientelismo patronagem e captura"
           ],
           "requires": [
             "up1-1-5"
@@ -952,7 +956,8 @@
           "noteRefs": [
             "3 - Materias/Direito Constitucional/01 - principios fundamentais",
             "3 - Materias/Direito Constitucional/05 - direitos politicos",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Estado e Democracia/07 - principal agente acao coletiva e captura"
           ],
           "requires": [
             "up1-1-6"
@@ -971,7 +976,8 @@
           "noteRefs": [
             "3 - Materias/Direito Constitucional/01 - principios fundamentais",
             "3 - Materias/Direito Constitucional/05 - direitos politicos",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Estado e Democracia/08 - consequencias prevencao e respostas a corrupcao"
           ],
           "requires": [
             "up1-1-7"
@@ -990,7 +996,8 @@
           "noteRefs": [
             "3 - Materias/Direito Constitucional/01 - principios fundamentais",
             "3 - Materias/Direito Constitucional/05 - direitos politicos",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Estado e Democracia/09 - estado regulacao e modelos de desenvolvimento"
           ],
           "requires": [
             "up1-1-8"

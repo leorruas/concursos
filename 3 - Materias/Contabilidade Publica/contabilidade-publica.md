@@ -24,7 +24,7 @@ Demonstração das Variações Patrimoniais (DVP); Manual de Contabilidade Aplic
 | 02 | Informação contábil: execução orçamentária × financeira × patrimônio; balanços e DVP; conciliações. | [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|BO/BF]], [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|BP/DVP]] e [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|DFC/notas]] publicados; validar cobertura integral com edital |
 | 03 | Custos e execução: análise físico-financeira, eficiência e indicadores; **MCASP 11ª edição** e **Manual de Informações do Sistema de Custos (MIC)**. | [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo|Artigo 05]] (fundamentos) e [[3 - Materias/Contabilidade Publica/06 - mic sic e informacoes gerenciais de custos|artigo 06]] (sistemas, processos e indicadores) publicados; confronto integral com o edital pendente |
 | 04 | Informação societária de estatais: balanço/DRE, notas, depreciação, impairment, provisões, contingências e partes relacionadas. | [[3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes|07, provisões]], [[3 - Materias/Contabilidade Publica/08 - depreciacao reducao ao valor recuperavel e ativos|08, depreciação e impairment]] e [[3 - Materias/Contabilidade Publica/09 - demonstracoes societarias das estatais|09, demonstrações e partes relacionadas]] publicados. F06 atendida editorialmente; validar integralidade com o edital |
-| 05 | Governança de estatais: conselhos, controle, finalidade pública, sustentabilidade, carta anual e políticas públicas. | Base adjacente; nota específica pendente |
+| 05 | Governança de estatais: conselhos, controle, finalidade pública, sustentabilidade, carta anual e políticas públicas. | [[3 - Materias/Contabilidade Publica/10 - governanca transparencia e finalidade publica das estatais|Artigo 10]] publicado: cartas, controles, conselho, Lei 15.177/2025 e missão pública; validar o edital |
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 
@@ -40,8 +40,9 @@ O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da 
 7. [[3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes|Provisões, passivos contingentes e ativos contingentes]]: reconhecimento, mensuração, divulgação e distinções normativas.
 8. [[3 - Materias/Contabilidade Publica/08 - depreciacao reducao ao valor recuperavel e ativos|Depreciação, amortização e redução ao valor recuperável]]: ativos geradores × não geradores, cálculos, reversão e vigência.
 9. [[3 - Materias/Contabilidade Publica/09 - demonstracoes societarias das estatais|Demonstrações societárias das estatais e partes relacionadas]]: DRE × DVP, BP, DRA, DMPL, DFC, CPC 05 e consolidação.
+10. [[3 - Materias/Contabilidade Publica/10 - governanca transparencia e finalidade publica das estatais|Governança, transparência e finalidade pública das estatais]]: cartas, conselhos, auditoria, finalidade pública, controles e alteração de 2025.
 
-**Cobertura:** nove artigos nos lotes C1–C5. F06 dispõe de três notas (07 a 09), concluída como microfase editorial; o cotejo integral com edital oficial continua pendente. Nenhum artigo representa aula ou unidade concluída.
+**Cobertura:** dez artigos em C1–C5 e microfases F01–F07 atendidas editorialmente. A conferência integral dos itens do edital e retificações ainda está pendente. Publicação não é estudo, domínio ou retenção.
 
 ## Plano editorial de aprofundamento
 

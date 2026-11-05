@@ -3,8 +3,8 @@ const STOPWORDS_BUSCA = new Set([
     "essa", "esse", "esta", "este", "eu", "exemplo", "exemplos", "explica", "explicar", "faz", "foi",
     "na", "nas", "no", "nos", "o", "os", "ou", "para", "pela", "pelas", "pelo", "pelos", "por",
     "qual", "quais", "que", "se", "ser", "sobre", "tem", "uma", "um", "vs", "versus", "diferenca",
-    "diferencas", "conceito", "conceitos", "quem", "quando", "onde", "porque", "pra", "significa",
-    "significado", "definicao", "definir", "explicacao", "funciona", "funcionar", "relacao", "relacoes"
+    "diferencas", "conceito", "conceitos", "quem", "quando", "onde", "pra", "significa",
+    "significado", "definicao", "definir", "funciona", "funcionar", "relacao", "relacoes"
 ]);
 
 const GRUPOS_ALIASES_BUSCA = (

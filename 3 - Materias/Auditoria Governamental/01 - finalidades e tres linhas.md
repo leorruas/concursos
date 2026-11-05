@@ -5,7 +5,7 @@ title: "Finalidades e modalidades de auditoria governamental"
 type: "conceito"
 status: "ativo"
 created: 2026-10-30
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Finalidades e modalidades de auditoria governamental
@@ -76,6 +76,9 @@ Esses são exemplos de mecanismos possíveis; não representam frequência medid
 
 ## Relações com outros temas
 
+- [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle|Modelo das três linhas e sistema de controle]]: estrutura operacional, atribuições e distinções institucionais.
+- [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo|Independência e objetividade]]: impedimentos e salvaguardas na atuação do auditor.
+- [[3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria|Sigilo e transparência em auditoria]]: acesso à informação e proteção de documentos.
 - [[3 - Materias/Administracao Publica/02 - governanca publica#Governança × gestão|Governança versus gestão]]: direção e execução são responsabilidades distintas.
 - [[3 - Materias/Direito Administrativo/11 - controle da administracao publica#Controle interno × externo|Controle interno e externo]]: classificações institucionais diferentes das três linhas.
 - [[3 - Materias/Auditoria Governamental/auditoria-governamental|Ciclo e técnicas de auditoria]]: etapas e instrumentos que serão estudados nas próximas notas.
@@ -144,61 +147,3 @@ A explicação das modalidades e sua articulação com as três linhas foi conso
 - [CGU, Normas de Auditoria Interna: IN SFC nº 3/2017 e IN SFC nº 8/2017](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna).
 - [CGU, Perguntas frequentes: avaliação, consultoria e apuração](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/uaig/perguntas-frequentes).
 - [CGU, Sistema de Controle Interno: modelo das três linhas](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/sistema-de-controle-interno).
-
-## Referências históricas das seções transferidas
-
-## Refinamento: duas classificações que se cruzam
-
-Explicação aprofundada e casos transferidos para a nota específica. Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-### Um exemplo para entender o problema
-
-Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-### De onde veio e por que aparece na CGU?
-
-Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-### Interna em relação a qual estrutura? IFMG, CGU e TCU
-
-Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-### Em que ponto entram avaliação, consultoria e apuração?
-
-Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-### Ponto de prova do Cebraspe
-
-Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-## Modelo das três linhas
-
-Explicação aprofundada e casos transferidos para a nota específica. Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-### Primeira linha: gestão operacional
-
-Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-### Segunda linha: funções especializadas de gestão
-
-Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-### Terceira linha: auditoria interna
-
-Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-### Aplicação: concessão de benefícios e fronteiras entre linhas
-
-Consulte [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle]].
-
-## Independência, objetividade e responsabilidade
-
-Explicação aprofundada e casos transferidos para a nota específica. Consulte [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo]].
-
-### Refinamento: o prazo de 24 meses e as ameaças à objetividade (IN SFC nº 3/2017)
-
-Consulte [[3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo]].
-
-### Nova conexão: Lei de Acesso à Informação, resultados de auditoria e controle social
-
-Explicação aprofundada e casos transferidos para a nota específica. Consulte [[3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria]].

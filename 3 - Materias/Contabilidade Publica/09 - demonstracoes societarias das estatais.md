@@ -5,7 +5,7 @@ title: "Demonstrações societárias das estatais e partes relacionadas"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Demonstrações societárias das estatais e partes relacionadas

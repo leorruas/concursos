@@ -27,7 +27,7 @@ A auditoria de recursos transferidos deve transformar **riscos** em perguntas ex
 
 **Teste de desenho × teste de execução:** edital pode restringir competição; execução pode apresentar pagamento sem entrega. Ambos demandam critérios diferentes. **Triangulação:** confirmar uma evidência com fontes suficientemente independentes. Planilhas copiadas da mesma base não produzem confirmação independente só por aparecerem em três relatórios.
 
-### Dano, causa e responsabilidade
+### Dano, nexo e responsabilidade
 
 Um achado pode demonstrar entrega parcial e indicar risco de prejuízo. Para quantificar dano, recuperar preço, quantidade efetivamente entregue e pagamentos. Para vincular pessoa, examinar dever, ação ou omissão, nexo e regime jurídico. A **apuração de fraude** exige evidências pertinentes à hipótese de conduta intencional, não mera presença de indicador atípico.
 

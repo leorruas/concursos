@@ -1,0 +1,27 @@
+name: Preparar prévia do histórico filtrado
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/preparar-historico-limpo.sh"
+      - "scripts/auditar-campos-historicos.py"
+      - ".github/workflows/preparar-historico-limpo.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: preparar-historico-limpo
+  cancel-in-progress: false
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar filtro de histórico
+        run: python3 -m pip install --disable-pip-version-check git-filter-repo==2.47.0
+      - name: Filtrar, validar e criar apenas branch de prévia
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXPECTED_SHA: ${{ github.sha }}
+        run: bash scripts/preparar-historico-limpo.sh

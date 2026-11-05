@@ -18,6 +18,14 @@ A compra e o pagamento de equipamento são eventos orçamentários e financeiros
 
 **Versões para o exercício de 2026:** **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição**, e **Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP) 07, 08, 09 e 10**, nas redações aplicáveis a 2026. A **NBC TSP 37, Ativo Imobilizado**, publicada em março de 2026, **substitui a NBC TSP 07 a partir de 01/01/2027**. As revisões **NBC TSP 08 (R1), 09 (R1) e 10 (R1)** também foram publicadas em 2026 para aplicação, em regra, aos exercícios iniciados em **2027**, ressalvadas normas nacionais com prazos específicos. **Publicação da norma não é sinônimo de aplicação antecipada ao exercício.**
 
+## Comece pelo computador: custo, depreciação e valor líquido
+
+Imagine que uma universidade receba computadores adquiridos por **R$ 15 mil**, reconhecidos como ativo. É importante separar três números: **custo registrado** (R$ 15 mil), **depreciação acumulada** (soma da parcela do potencial de serviços já apropriada) e **valor contábil líquido** (custo menos depreciação acumulada e eventuais perdas reconhecidas). Se, em uma hipótese didática, a depreciação acumulada for **R$ 1 mil**, o valor líquido será **R$ 14 mil**. O custo original não precisa ser apagado para que o valor líquido diminua.
+
+O pagamento ao fornecedor apenas reduz o caixa e a dívida já registrada, nas condições do caso. O **início da depreciação** depende de o bem estar **disponível para uso** nas condições pretendidas, não da data em que é pago ou necessariamente da primeira vez em que alguém o utiliza. A depreciação é uma **alocação contábil sistemática** do valor depreciável ao longo da vida útil ou do consumo previsto; não representa uma medição automática do desgaste físico a cada dia. O encargo normalmente gera **Variação Patrimonial Diminutiva (VPD)**, ressalvados casos em que integra o custo de outro ativo.
+
+Antes de entrar nas normas e métodos, diferencie a **causa** de cada ajuste: a **depreciação** apropria o consumo esperado de bens tangíveis; a **amortização** faz função semelhante para intangíveis de vida útil definida; a **exaustão** acompanha recursos naturais exauríveis; a **redução ao valor recuperável** (*impairment*) responde a perda de recuperabilidade identificada por teste específico. Uma queda de preço de mercado não é, por si, sinônimo de depreciação.
+
 ## Imobilizado × intangível × patrimônio cultural
 
 **Imobilizado** é ativo **tangível** destinado à produção/prestação de serviços, administração ou outras finalidades admitidas, utilizado por mais de um período (NBC TSP 07). Pode gerar **retorno financeiro** ou oferecer **potencial de serviços**. O reconhecimento exige atendimento aos critérios de benefícios/potencial de serviços e mensuração confiável. Equipamentos de laboratório e edifícios públicos são exemplos.

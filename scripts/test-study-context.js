@@ -48,7 +48,8 @@ try{
   const another=make('outra-materia','2026-11-04','19:00:00');another.subjectId='contabilidade-publica';another.unitId='fundamentos';another.questions[0].discipline='Contabilidade Pública';another.questions[0].conceptId='oticas-contabeis';another.questions[0].correctAnswer='E';another.questions[0].errorType=null;another.questions[0].theoryRefs=[];another.learning.next={unitId:'fundamentos',stage:'fronteiras',objective:'Contrastar os três enfoques.',noteRef:null,sourceIds:['mcasp']};save(another);sync();
   const expectedResumeSubject=Date.parse(latestCguSession.startedAt)>Date.parse(another.startedAt) ? latestCguSession.subjectId : 'contabilidade-publica';
   assert.equal(read('data/contexto-estudo/indice.json').contests.find(c=>c.concursoId==='cgu-2026').resume.subjectId,expectedResumeSubject,'Retomada deve priorizar a sessão de data/hora mais recente');
-  assert.equal(ctx('auditoria-governamental').latestSession.id,s.id,'Trocar matéria não apaga o checkpoint');
+  const ultimaAuditoriaEsperada=Date.parse(a.latestSession?.startedAt||0)>Date.parse(s.startedAt)?a.latestSession.id:s.id;
+  assert.equal(ctx('auditoria-governamental').latestSession.id,ultimaAuditoriaEsperada,'Trocar matéria não apaga o checkpoint mais recente');
   assert.equal(ctx('contabilidade-publica').results.aprendizagem.correct,originalContabilidadeAcertos+1,'Matéria sem Avancos deve preservar a base e incorporar o item da fixture');
   const retrieval=(suffix,date,confidence='secure')=>{const r=make(suffix,date,'20:00:00');r.trainingMode='revisao';r.questions[0].userAnswer='C';r.questions[0].errorType=null;r.questions[0].confidence=confidence;r.questions[0].retrievalOf=[target];return r;};
   const uncertain=retrieval('duvida','2026-11-04','insecure');save(uncertain);sync();

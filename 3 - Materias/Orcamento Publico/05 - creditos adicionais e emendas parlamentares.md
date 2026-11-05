@@ -1,7 +1,7 @@
 ---
 articleId: art-87b69e1d4ac54f20
 articleAliases: ["3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md"]
-title: "Créditos adicionais e emendas parlamentares"
+title: "Créditos adicionais: espécies, abertura e fontes"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
@@ -13,7 +13,7 @@ aliases:
   - "Orçamento impositivo"
 ---
 
-# Créditos adicionais e emendas parlamentares
+# Créditos adicionais: espécies, abertura e fontes
 
 ## Problema de entrada
 
@@ -31,9 +31,15 @@ A Lei nº 4.320/1964, art. 40, define **créditos adicionais** como autorizaçõ
 
 Considere um caso hipotético. A LOA não contém **dotação específica** para um laboratório. Para incluir essa despesa durante o exercício, o Executivo encaminha um **projeto de lei de crédito especial**: a espécie de crédito depende da ausência da dotação, ainda que a obra já esteja prevista no PPA. Enquanto o Congresso analisa esse projeto, um parlamentar propõe uma **emenda** para modificar o valor ou a programação. Nesse cenário, o **crédito especial** é a autorização que se pretende criar; a **emenda parlamentar** é a proposta de alterar o projeto em tramitação.
 
-Uma emenda pode aumentar, reduzir ou modificar uma programação conforme as regras aplicáveis, mas **não basta ao deputado escolher um valor livremente**. Há requisitos de compatibilidade, indicação de recursos em hipóteses constitucionais e restrições a dotações que podem ser anuladas. O detalhamento está na seção “Emendas aos projetos orçamentários: critérios”. A iniciativa do Executivo e o poder parlamentar de emenda são papéis diferentes.
+Uma emenda pode aumentar, reduzir ou modificar uma programação conforme as regras aplicáveis, mas **não basta ao deputado escolher um valor livremente**. Há requisitos de compatibilidade, indicação de recursos em hipóteses constitucionais e restrições a dotações que podem ser anuladas. O detalhamento está em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção “Emendas aos projetos orçamentários: critérios”. A iniciativa do Executivo e o poder parlamentar de emenda são papéis diferentes.
 
 **Reconhecimento rápido:** dotação existente e insuficiente → crédito **suplementar**; dotação específica ausente → **especial**; despesa imprevisível e urgente sob as condições constitucionais → **extraordinário**. Emenda parlamentar não é uma quarta espécie de crédito adicional. A autorização de créditos **suplementares** na própria LOA é exceção ao princípio da exclusividade; essa exceção não se estende automaticamente à autorização de créditos especiais.
+
+## Perguntas que orientam a classificação
+
+O estudo dos créditos adicionais responde a quatro perguntas sucessivas. **Qual problema existe na dotação?** A insuficiência de valor remete ao crédito suplementar; a ausência de dotação específica, ao especial; a despesa imprevisível e urgente, quando preenchidas as condições constitucionais, ao extraordinário. **Quem autoriza e quem abre?** A resposta depende da espécie e do regime constitucional aplicável. **De onde vêm os recursos?** Para suplementares e especiais, examinar o art. 43 da Lei nº 4.320/1964. **Até quando vale a autorização?** Verificar exercício financeiro e a exceção de reabertura do art. 167, § 2º.
+
+Essas perguntas são independentes: identificar uma fonte disponível não define a espécie de crédito, e abrir um crédito não comprova disponibilidade de caixa ou pagamento.
 
 ## Suplementar, especial e extraordinário
 
@@ -96,74 +102,41 @@ Os créditos adicionais se vinculam, em regra, ao exercício financeiro. Pela Co
 
 ## Emendas aos projetos orçamentários: critérios
 
-A Constituição, art. 166, prevê a apreciação pelo Congresso dos projetos relativos a **PPA, LDO, LOA e créditos adicionais**, segundo o regimento comum. O **Poder Executivo** possui iniciativa dos projetos de leis orçamentárias; o **Legislativo** pode apreciar e emendar os textos. Iniciativa e alteração legislativa são competências distintas.
+Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Emendas aos projetos orçamentários: critérios**.
 
 ### Emendas à LOA: compatibilidade e recursos
 
-O art. 166, § 3º, exige que emendas ao projeto de LOA e aos que o modifiquem sejam **compatíveis com PPA e LDO**. Quando houver indicação dos recursos nos termos do inciso II, eles devem resultar de **anulação de despesas**, não podendo incidir sobre dotações de **pessoal e encargos**, **serviço da dívida** ou **transferências tributárias constitucionais** aos entes federados.
-
-O inciso III prevê ainda hipóteses relativas à **correção de erros ou omissões** e a **dispositivos do texto do projeto**. Portanto, a exigência de anulação não pode ser generalizada a toda emenda sem considerar as alternativas constitucionais.
-
-**Emendas à LDO** não podem ser aprovadas quando incompatíveis com o **PPA** (art. 166, § 4º). Os critérios não se confundem com as quatro fontes do art. 43 da Lei nº 4.320/1964, que tratam de **créditos adicionais**.
+Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Emendas à LOA: compatibilidade e recursos**.
 
 ## Emendas parlamentares: individuais, bancadas e comissões
 
-| Modalidade | Quem propõe e qual o foco | Fronteira necessária |
-| :--- | :--- | :--- |
-| **Individual** | Parlamentar individualmente | Parte do regime constitucional de execução obrigatória, sujeito a condições |
-| **Bancada estadual** | Bancada de um estado ou do DF | A Lei Complementar nº 210/2024 impõe parâmetros de projetos e ações estruturantes |
-| **Comissão** | Comissões parlamentares | Não presumir automaticamente o mesmo regime constitucional das emendas individuais |
-
-A **Lei Complementar nº 210/2024** regula a proposição e a execução das emendas no orçamento da União. Para a execução de 2026 há também procedimentos específicos, inclusive normas alteradas em setembro de 2026. Os valores e limites do exercício devem ser conferidos no momento do estudo.
+Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Emendas parlamentares: individuais, bancadas e comissões**.
 
 ### Emendas impositivas: obrigatoriedade condicionada
 
-A Constituição, art. 166, §§ 9º a 13, estabelece percentuais e regras para emendas individuais e de bancada, inclusive garantias de execução orçamentária e financeira, observadas as normas. Na disciplina constitucional, **metade do percentual das emendas individuais** é reservada a ações e serviços públicos de saúde.
-
-**Impedimentos de ordem técnica**, previstos no art. 166, § 13, afastam a execução obrigatória nas hipóteses pertinentes. A execução também precisa observar critérios **equitativos**, procedimentos legais, transparência e rastreabilidade.
-
-Isso produz três separações:
-- **Programação aprovada** não significa empenho ou pagamento realizado.
-- **Obrigatoriedade de execução** não elimina impedimento técnico legalmente fundamentado.
-- **Ausência de convênio** não implica ausência de fiscalização do destino dos recursos.
+Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Emendas impositivas: obrigatoriedade condicionada**.
 
 ### Transferência especial × finalidade definida
 
-O art. 166-A prevê que emendas individuais impositivas possam alocar recursos a estados, DF e municípios mediante **transferência especial** ou **transferência com finalidade definida**.
-
-A transferência **especial** ocorre diretamente ao ente beneficiado, **independentemente de convênio**, com condições constitucionais de aplicação; pelo menos **70%** devem ser aplicados em despesas de **capital**. A transferência **com finalidade definida** vincula os recursos à programação da emenda e às áreas de competência constitucional da União.
-
-A Constituição proíbe usar recursos dessas modalidades no pagamento de **pessoal e encargos sociais** e de **serviço da dívida**. As regras adicionais de transparência, acompanhamento e controle continuam aplicáveis. A palavra “especial” aqui se refere a uma **modalidade de transferência**, não a crédito adicional **especial**.
+Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Transferência especial × finalidade definida**.
 
 ### Regras atuais e limites da memorização
 
-Os percentuais constitucionais para emendas, a Lei Complementar nº 210/2024, as normas operacionais de 2026 e decisões judiciais sobre transparência são camadas diferentes. Uma questão que peça somente a regra da **Constituição** pode exigir resposta diferente daquela que pergunte sobre os **limites executáveis do exercício**, que dependem de legislação complementar e condições específicas.
-
-Evitar decorar percentuais sem identificar **a norma, o exercício e o tipo de emenda**.
+Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Regras atuais e limites da memorização**.
 
 ### Refinamento normativo: percentuais e exceções que alteram o C/E
 
-**Individual × bancada, com denominadores temporais diferentes.** A [Constituição atualizada, art. 166, §§ 9º, 9º-A e 12](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html) estabelece: **emendas individuais = 2% da Receita Corrente Líquida (RCL) do exercício anterior ao encaminhamento do PLOA**, dos quais **1,55% para deputados e 0,45% para senadores**, reservada **metade do percentual total a ações e serviços públicos de saúde**. Para **bancadas estaduais/DF**, há garantia de execução de até **1% da RCL realizada no exercício anterior**. Atenção à diferença entre **ano anterior ao encaminhamento do projeto** e **ano anterior à execução**; as duas fórmulas não são intercambiáveis. As **emendas de comissões** não adquirem automaticamente a mesma garantia constitucional de execução.
-
-**Execução obrigatória × impedimento técnico.** O art. 166, § 13, retira a obrigatoriedade quando há **impedimento de ordem técnica**. A [LC nº 210/2024, art. 10](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/relatorio-de-emendas/emendas-de-bancada-de-comissoes-e-individuais) descreve, entre outros, **projeto de engenharia ou licença ambiental ausente quando necessários**, falta de demonstração da capacidade de **custeio, operação e manutenção** da obra e insuficiência de recursos para concluir uma **etapa útil**. Não equivalem a escolha política arbitrária de não executar; é preciso instruir o impedimento. A [CGU orienta como verificar e acompanhar essas emendas](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/relatorio-de-emendas/emendas-de-bancada-de-comissoes-e-individuais).
-
-**Veto, emenda ou rejeição do PLOA.** O art. 166, **§ 8º**, prevê uso de recursos que ficarem sem despesas correspondentes nesses casos, **mediante créditos especiais ou suplementares, com autorização legislativa prévia e específica**. É uma hipótese constitucional própria; **não presumir que equivale ao excesso de arrecadação** do art. 43 da Lei nº 4.320/1964. Para as fontes do art. 43, continuam relevantes recursos **não comprometidos**, **superávit financeiro do exercício anterior**, **excesso acumulado com tendência e dedução legal de créditos extraordinários**, **anulação de dotações** e **operação de crédito autorizada**.
-
-**Transferência especial ≠ crédito especial.** A [CF, art. 166-A](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html), permite transferência direta sem convênio, mas **não afasta controle**: veda uso em pessoal, encargos e dívida e exige **pelo menos 70% em despesa de capital**, além de requisitos legais de rastreabilidade.
-
-**Itens inéditos C/E:** “O teto constitucional de emendas de bancada e o de emendas individuais utiliza a RCL do mesmo exercício de referência.” **Errado**, por diferença na base temporal dos §§ 9º e 12. “Recursos sem despesas correspondentes em razão de veto à LOA podem ser aplicados mediante crédito suplementar ou especial e autorização legislativa prévia e específica.” **Certo**, conforme § 8º.
+Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Refinamento normativo: percentuais e exceções que alteram o C/E**.
 
 ## Como a banca pode cobrar
 
-Os melhores mecanismos são: **inverter suplementar e especial**, tratar pressa administrativa como urgência extraordinária, confundir **superávit financeiro e excesso de arrecadação**, tratar fontes de crédito adicional como fontes de emenda parlamentar, generalizar a impositividade a toda emenda e concluir que transferência especial está fora de controle.
+As principais inversões envolvem **suplementar × especial**, tratar pressa administrativa como urgência imprevisível, confundir **superávit financeiro do exercício anterior × excesso de arrecadação do exercício corrente**, supor que anulação de dotação produz caixa e estender a reabertura constitucional aos créditos suplementares. A escolha da espécie, a fonte de recurso, a autorização e a efetiva execução devem ser examinadas separadamente.
 
-A mecânica aqui apresentada é preparação didática C/E, não incidência estatisticamente demonstrada em provas reais da Cebraspe.
+A mecânica aqui apresentada é preparação didática C/E, sem estimativa estatística de incidência da Cebraspe.
 
 ## Exemplos comentados
 
 Uma ação foi esquecida na LOA, mas seu objeto era previsível e pode esperar o procedimento regular. A solução a avaliar é crédito **especial**, e não extraordinário. A ausência de dotação é o problema; a imprevisibilidade e a urgência constitucionais não foram demonstradas.
-
-Uma emenda individual destina recursos para equipamento de saúde. Durante a execução, descobre-se ausência de requisito técnico essencial. A programação pode integrar o regime de execução obrigatória, mas o problema deve ser analisado como possível **impedimento técnico** nos termos das normas. Nem a aprovação na LOA, nem a falta de convênio bastam para concluir pagamento e entrega.
 
 ## Questões comentadas: treino didático C/E
 
@@ -171,18 +144,17 @@ Uma emenda individual destina recursos para equipamento de saúde. Durante a exe
 
 **Item 2.** O superávit financeiro apurado no balanço patrimonial do exercício anterior pode ser fonte para abertura de crédito suplementar ou especial, desde que atendidas as condições legais. **Gabarito: Certo.** É fonte do art. 43. Não é sinônimo de superávit primário.
 
-**Item 3.** A transferência especial decorrente de emenda individual, por dispensar convênio, também fica dispensada de controle sobre aplicação dos recursos. **Gabarito: Errado.** A dispensa de convênio é constitucional; a conclusão de dispensa de controle não decorre dela.
-
-Esses itens são inéditos e didáticos, não resultados de treino e não questões oficiais.
+Esses itens são inéditos e didáticos, não resultados de treino nem questões oficiais.
 
 ## Heurísticas
 
-**Faltou valor em dotação existente:** suplementar. **Faltou dotação específica:** especial. **Despesa imprevisível e urgente:** investigar extraordinário. **Alteração proposta por parlamentar:** examinar art. 166 e LC 210/2024. **Reabertura após o ano:** investigar se é especial ou extraordinário autorizado nos últimos quatro meses.
+**Faltou valor em dotação existente:** suplementar. **Faltou dotação específica:** especial. **Despesa imprevisível e urgente:** verificar os requisitos do extraordinário. **Fonte de financiamento:** aplicar critérios do art. 43 aos suplementares e especiais. **Reabertura após o exercício:** examinar se o crédito especial ou extraordinário foi autorizado nos últimos quatro meses, observados os saldos.
 
-Para qualquer questão, separar **autorização, abertura, fonte de recurso, dotação, caixa, empenho e pagamento**. Uma expressão não substitui as demais.
+Uma questão que mencione **emenda parlamentar, impositividade ou transferência especial** deve ser analisada pelo percurso de [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]]. Em todos os casos, separar autorização, abertura, dotação, caixa, empenho e pagamento.
 
 ## Relações e fontes
 
+- [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]]: critérios, modalidades e execução de emendas ao orçamento.
 - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios orçamentários]]: exclusividade, anualidade, regra de ouro.
 - [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Classificações da receita e despesa]]: grupo, elemento, fonte e programação a reforçar.
 - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]: compatibilidade de emendas.

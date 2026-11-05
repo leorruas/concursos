@@ -33,6 +33,8 @@ Preparar o tópico **P3.4** do [[2 - Editais/CGU 2026 - Auditoria|edital CGU 202
 
 **Lote T1, publicado em 05/11/2026:** artigos 01 e 02 de transferências, com vínculo ao catálogo, hub, índice e plano por unidade. O recorte F10 iniciou sem ser concluído. Permanecem programados artigos 03–08 e a verificação das alterações normativas de 2026.
 
+**Lote complementar de contratação (05/11/2026):** criadas notas 09 (planejamento da contratação) e 10 (fiscalização contratual), para F08–F09. São separadas dos artigos 01–08 de repasses, preservando a arquitetura canônica e evitando reescrever toda a Lei 14.133/2021.
+
 ## Etapas e entregas
 
 **Lote T1: mapa de regimes e convênios (01 e 02).** Começar por um diagrama conceitual de **quem transfere, quem recebe, quem executa, qual instrumento rege a relação e quem presta contas**. Desenvolver um exemplo de município que recebe recurso da União para realizar uma obra. Distinguir convênio de contrato de repasse e não tratar todo recurso recebido por município como transferência voluntária. Conferir Decreto nº 11.531/2023 e legislação aplicável ao instrumento.

@@ -65,8 +65,8 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 **Reuso obrigatório antes de criar:** Direito Administrativo/08 - licitacoes e contratos; Auditoria Governamental/procedimentos-e-testes-de-auditoria; legislação de transferências a confirmar.
 
-- [ ] **F08 · Planejamento da contratação e riscos**: U01: estudo técnico, preço, competição, especificação e direcionamento; não repetir teoria geral da Lei 14.133.
-- [ ] **F09 · Execução e fiscalização de contratos**: U02: medição, aceite, pagamentos, alterações, reequilíbrio, documentação e responsabilidades.
+- [x] **F08 · Planejamento da contratação e riscos**: U01: estudo técnico, preço, competição, especificação e direcionamento; não repetir teoria geral da Lei 14.133.
+- [x] **F09 · Execução e fiscalização de contratos**: U02: medição, aceite, pagamentos, alterações, reequilíbrio, documentação e responsabilidades.
 - [ ] **F10 · Transferências voluntárias, parcerias e prestação de contas**: U03: instrumentos, plano de trabalho, execução, obrigações e fronteiras legais conforme o regime.
 - [ ] **F11 · Auditoria de contratações e transferências**: U04–U05: testes, indícios, vínculos, fracionamento, dano, recuperação, recomendações e limites inferenciais.
 
@@ -78,12 +78,14 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 - [x] **F12 · Funções da CGU e fluxo de respostas de controle**: U01: auditoria × ouvidoria × corregedoria × transparência, prevenção × correção × sanção.
 - [x] **F13 · Tratamento de denúncias e proteção ao denunciante**: U02–U03: identidade, sigilo, pseudonimização, não retaliação, acolhimento × apuração × contraditório.
-- [ ] **F14 · Programas de integridade públicos e privados**: U04: riscos, liderança, canais, desenho × implementação × efetividade; evitar duplicar Ética Pública.
-- [ ] **F15 · Admissibilidade, prova e regimes de responsabilidade**: U05: autoria, materialidade, elemento subjetivo, responsabilidade objetiva PJ, defesa e limites de inferência.
+- [x] **F14 · Programas de integridade públicos e privados**: U04: riscos, liderança, canais, desenho × implementação × efetividade; evitar duplicar Ética Pública.
+- [x] **F15 · Admissibilidade, prova e regimes de responsabilidade**: U05: autoria, materialidade, elemento subjetivo, responsabilidade objetiva PJ, defesa e limites de inferência.
 - [ ] **F16 · PAD, PAR, leniência e instrumentos consensuais**: U06: competências, requisitos, efeitos, TAC, prescrição e fronteiras entre processos; conferir cada norma.
 - [ ] **F17 · Sanção, reparação e avaliação de resultados**: U06–U07: dosimetria, sanção × reparação, monitoramento, recorrência × detecção, eficácia das medidas.
 
 **Lote editorial registrado em 05/11/2026:** publicados os artigos 01 e 02 sobre transferências e convênios do plano T1 de Contratações, mais dois artigos de Integridade correspondentes a F12 e F13. F12 e F13 têm núcleo temático publicado, mas detalhes normativos exigem conferência. Em Contratações, F08 a F11 permanecem abertas: as notas 01–02 iniciam F10, porém não encerram regimes especiais, OSC, prestação de contas e encaminhamentos. A contagem de microfases pendentes anterior é um retrato histórico; as duas microfases F12 e F13 passam a constar como atendidas editorialmente. Nenhum estudo individual é inferido desta publicação.
+
+**Segundo lote editorial em 05/11/2026:** publicados planejamento da contratação e riscos (F08), fiscalização e recebimento (F09), programas de integridade (F14) e admissibilidade e regimes de responsabilidade (F15). As quatro microfases passam a ter artigos próprios, mantendo pendências de calibração e verificação jurídica detalhada. Este marco registra produção, sem presumir estudo, domínio ou cobertura de outras fases.
 
 ## Onda 4: Finanças Públicas
 

@@ -2267,7 +2267,8 @@
             "P3.4.1"
           ],
           "noteRefs": [
-            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos"
+            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos",
+            "3 - Materias/Contratacoes e Transferencias/09 - planejamento da contratacao e riscos"
           ],
           "requires": [],
           "sourceIds": [
@@ -2282,7 +2283,8 @@
             "P3.4.2"
           ],
           "noteRefs": [
-            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos"
+            "3 - Materias/Direito Administrativo/08 - licitacoes e contratos",
+            "3 - Materias/Contratacoes e Transferencias/10 - fiscalizacao medicao e recebimento contratual"
           ],
           "requires": [
             "up3-4-1"
@@ -2435,7 +2437,8 @@
           "noteRefs": [
             "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
-            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Integridade e Responsabilizacao/03 - programas de integridade publicos e privados"
           ],
           "requires": [
             "up3-5-3"
@@ -2455,7 +2458,8 @@
           "noteRefs": [
             "3 - Materias/Direito Administrativo/07 - improbidade administrativa",
             "3 - Materias/Direito Administrativo/09 - processo administrativo federal",
-            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados"
+            "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados",
+            "3 - Materias/Integridade e Responsabilizacao/04 - admissibilidade prova e regimes de responsabilidade"
           ],
           "requires": [
             "up3-5-4"

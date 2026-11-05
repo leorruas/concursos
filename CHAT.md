@@ -1,5 +1,8 @@
 # Estudo pelo chat
 
+**Privacidade: protocolo vigente desde 05/11/2026.** As sessões, respostas individuais, `data/contexto-estudo/`, `data/questoes-ledger.json`, erros, simulados e desempenho pertencem a `leorruas/concurso-dados` (repositório privado). Consultar e atualizar ali os arquivos de contexto e salvar novas sessões exclusivamente no cofre privado. O workflow do cofre recalcula os indicadores, sem publicar respostas na biblioteca. O repositório `leorruas/concursos` mantém somente notas de conteúdo, catálogo editorial e flashcards públicos. Se o repositório privado não estiver acessível, suspender o registro e comunicar a limitação. A leitura de arquivos privados pelo conector GitHub exige permissão explícita.
+
+
 **Banca da preparação:** CGU 2026, especialidade Auditoria: **Cebraspe, itens Certo/Errado (C/E)** em todas as matérias, incluindo Contabilidade e Avaliação de Políticas Públicas. Ler `activeExam` no contexto antes de escolher o formato. As instruções da Dataprev/FGV e a regra de cinco alternativas pertencem à Dataprev. A prova histórica CGU 2022/FGV é apoio de conteúdo; o treino da CGU 2026 segue Cebraspe. Na primeira resposta de cada retomada, indicar brevemente “CGU 2026: Cebraspe, C/E”.
 
 Protocolo cotidiano único. Para aulas, revisões e baterias, esta entrada substitui a releitura integral de governança e histórico. Manutenção, notas novas e simulados integrais seguem `AGENTS.md` e os contratos.

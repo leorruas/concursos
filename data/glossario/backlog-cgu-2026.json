@@ -1,0 +1,1921 @@
+{
+  "schemaVersion": 1,
+  "kind": "glossary-planning-backlog",
+  "created": "2026-11-05",
+  "scope": {
+    "contestId": "cgu-2026",
+    "specialty": "Auditoria",
+    "examiner": "Cebraspe",
+    "itemType": "C/E"
+  },
+  "warning": "Termos planejados, sem definição validada. articleCandidate é caminho sugerido, nunca vínculo publicado.",
+  "groups": [
+    {
+      "subjectId": "auditoria-governamental",
+      "label": "Auditoria Governamental",
+      "count": 35,
+      "examBlock": "P2/P3",
+      "editorialPriority": "A"
+    },
+    {
+      "subjectId": "orcamento-publico",
+      "label": "Orçamento Público",
+      "count": 25,
+      "examBlock": "P3",
+      "editorialPriority": "A"
+    },
+    {
+      "subjectId": "contabilidade-publica",
+      "label": "Contabilidade Pública",
+      "count": 25,
+      "examBlock": "P3",
+      "editorialPriority": "A"
+    },
+    {
+      "subjectId": "governanca-riscos-integridade",
+      "label": "Governança, Riscos e Integridade",
+      "count": 14,
+      "examBlock": "P2",
+      "editorialPriority": "C"
+    },
+    {
+      "subjectId": "politicas-publicas",
+      "label": "Avaliação de Políticas Públicas",
+      "count": 18,
+      "examBlock": "P3",
+      "editorialPriority": "B"
+    },
+    {
+      "subjectId": "contratacoes-transferencias",
+      "label": "Contratações e Transferências",
+      "count": 18,
+      "examBlock": "P3",
+      "editorialPriority": "B"
+    },
+    {
+      "subjectId": "integridade-responsabilizacao",
+      "label": "Integridade e Responsabilização",
+      "count": 14,
+      "examBlock": "P3",
+      "editorialPriority": "B"
+    },
+    {
+      "subjectId": "transparencia-ouvidoria",
+      "label": "Transparência e Ouvidoria",
+      "count": 9,
+      "examBlock": "P2",
+      "editorialPriority": "C"
+    },
+    {
+      "subjectId": "evidencias-dados-ia",
+      "label": "Evidências, Dados e IA",
+      "count": 10,
+      "examBlock": "P2",
+      "editorialPriority": "C"
+    },
+    {
+      "subjectId": "financas-publicas",
+      "label": "Finanças Públicas",
+      "count": 7,
+      "examBlock": "P3",
+      "editorialPriority": "B"
+    },
+    {
+      "subjectId": "direito-administrativo",
+      "label": "Direito Administrativo",
+      "count": 7,
+      "examBlock": "P2",
+      "editorialPriority": "C"
+    },
+    {
+      "subjectId": "estado-democracia",
+      "label": "Estado e Democracia",
+      "count": 5,
+      "examBlock": "P1",
+      "editorialPriority": "C"
+    },
+    {
+      "subjectId": "etica-publica",
+      "label": "Ética Pública",
+      "count": 5,
+      "examBlock": "P1",
+      "editorialPriority": "C"
+    },
+    {
+      "subjectId": "administracao-publica",
+      "label": "Administração Pública",
+      "count": 4,
+      "examBlock": "P1",
+      "editorialPriority": "C"
+    },
+    {
+      "subjectId": "sociedade-brasileira",
+      "label": "Sociedade Brasileira",
+      "count": 4,
+      "examBlock": "P1",
+      "editorialPriority": "C"
+    }
+  ],
+  "terms": [
+    {
+      "id": "glo-ciclo-de-auditoria",
+      "term": "Ciclo de auditoria",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-universo-auditavel",
+      "term": "Universo auditável",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-unidade-auditavel",
+      "term": "Unidade auditável",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-matriz-de-riscos",
+      "term": "Matriz de riscos",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-risco-inerente",
+      "term": "Risco inerente",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-risco-residual",
+      "term": "Risco residual",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-risco-de-auditoria",
+      "term": "Risco de auditoria",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/planejamento-baseado-em-riscos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-controles-internos",
+      "term": "Controles internos",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-modelo-das-tres-linhas",
+      "term": "Modelo das três linhas",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/05 - governanca riscos controles e tres linhas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-avaliacao-auditoria",
+      "term": "Avaliação (auditoria)",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-consultoria-auditoria",
+      "term": "Consultoria (auditoria)",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-apuracao-auditoria",
+      "term": "Apuração (auditoria)",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-independencia-funcional",
+      "term": "Independência funcional",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-objetividade",
+      "term": "Objetividade",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/03 - independencia objetividade e sigilo.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ceticismo-profissional",
+      "term": "Ceticismo profissional",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-zelo-profissional",
+      "term": "Zelo profissional",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-proficiencia",
+      "term": "Proficiência",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-sigilo-profissional",
+      "term": "Sigilo profissional",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/sigilo-e-transparencia-em-auditoria.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-paint",
+      "term": "PAINT",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-raint",
+      "term": "RAINT",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-matriz-de-planejamento",
+      "term": "Matriz de planejamento",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-programa-de-trabalho",
+      "term": "Programa de trabalho",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/planejamento-individual-de-auditoria.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-criterio-de-auditoria",
+      "term": "Critério de auditoria",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/achados-causas-e-indicios-de-fraude.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-condicao-do-achado",
+      "term": "Condição do achado",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/achados-causas-e-indicios-de-fraude.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-causa-do-achado",
+      "term": "Causa do achado",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/achados-causas-e-indicios-de-fraude.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-efeito-do-achado",
+      "term": "Efeito do achado",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/achados-causas-e-indicios-de-fraude.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-suficiencia-da-evidencia",
+      "term": "Suficiência da evidência",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-adequacao-da-evidencia",
+      "term": "Adequação da evidência",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-papeis-de-trabalho",
+      "term": "Papéis de trabalho",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/evidencias-e-documentacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-teste-de-controles",
+      "term": "Teste de controles",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-teste-substantivo",
+      "term": "Teste substantivo",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/procedimentos-e-testes-de-auditoria.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-amostragem-estatistica",
+      "term": "Amostragem estatística",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/amostragem-e-generalizacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-amostragem-nao-estatistica",
+      "term": "Amostragem não estatística",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/amostragem-e-generalizacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-recomendacao-de-auditoria",
+      "term": "Recomendação de auditoria",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/monitoramento-de-recomendacoes-e-beneficios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-monitoramento-de-recomendacoes",
+      "term": "Monitoramento de recomendações",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/monitoramento-de-recomendacoes-e-beneficios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ciclo-orcamentario",
+      "term": "Ciclo orçamentário",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ppa",
+      "term": "PPA",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ldo",
+      "term": "LDO",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-loa",
+      "term": "LOA",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-principio-da-unidade",
+      "term": "Princípio da unidade",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-principio-da-universalidade",
+      "term": "Princípio da universalidade",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-principio-da-anualidade",
+      "term": "Princípio da anualidade",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-principio-da-exclusividade",
+      "term": "Princípio da exclusividade",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-principio-do-orcamento-bruto",
+      "term": "Princípio do orçamento bruto",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-credito-suplementar",
+      "term": "Crédito suplementar",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-credito-especial",
+      "term": "Crédito especial",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-credito-extraordinario",
+      "term": "Crédito extraordinário",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-programacao-financeira",
+      "term": "Programação financeira",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-cronograma-de-desembolso",
+      "term": "Cronograma de desembolso",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-contingenciamento",
+      "term": "Contingenciamento",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-programacao-fisica-cumprida",
+      "term": "Programação física cumprida",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-previsao-de-receita",
+      "term": "Previsão de receita",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-arrecadacao-da-receita",
+      "term": "Arrecadação da receita",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-empenho",
+      "term": "Empenho",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-liquidacao-da-despesa",
+      "term": "Liquidação da despesa",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-pagamento-da-despesa",
+      "term": "Pagamento da despesa",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-restos-a-pagar-processados",
+      "term": "Restos a pagar processados",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-restos-a-pagar-nao-processados",
+      "term": "Restos a pagar não processados",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-despesas-de-exercicios-anteriores",
+      "term": "Despesas de exercícios anteriores",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-meta-fiscal",
+      "term": "Meta fiscal",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-regime-orcamentario",
+      "term": "Regime orçamentário",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-regime-de-competencia",
+      "term": "Regime de competência",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fato-gerador",
+      "term": "Fato gerador",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-patrimonio-publico",
+      "term": "Patrimônio público",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ativo-patrimonial",
+      "term": "Ativo patrimonial",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-passivo-patrimonial",
+      "term": "Passivo patrimonial",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-patrimonio-liquido",
+      "term": "Patrimônio líquido",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-balanco-orcamentario",
+      "term": "Balanço orçamentário",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-balanco-financeiro",
+      "term": "Balanço financeiro",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-balanco-patrimonial",
+      "term": "Balanço patrimonial",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-demonstracao-das-variacoes-patrimoniais",
+      "term": "Demonstração das Variações Patrimoniais",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-variacao-patrimonial-aumentativa",
+      "term": "Variação patrimonial aumentativa",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-variacao-patrimonial-diminutiva",
+      "term": "Variação patrimonial diminutiva",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-demonstracao-dos-fluxos-de-caixa",
+      "term": "Demonstração dos Fluxos de Caixa",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-notas-explicativas",
+      "term": "Notas explicativas",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-conciliacao-contabil",
+      "term": "Conciliação contábil",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-provisao-contabil",
+      "term": "Provisão contábil",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-passivo-contingente",
+      "term": "Passivo contingente",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ativo-contingente",
+      "term": "Ativo contingente",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/07 - provisoes e passivos e ativos contingentes.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-depreciacao",
+      "term": "Depreciação",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/08 - depreciacao reducao ao valor recuperavel e ativos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-reducao-ao-valor-recuperavel",
+      "term": "Redução ao valor recuperável",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/08 - depreciacao reducao ao valor recuperavel e ativos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-custo-direto",
+      "term": "Custo direto",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-custo-indireto",
+      "term": "Custo indireto",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-objeto-de-custo",
+      "term": "Objeto de custo",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-sistema-de-informacao-de-custos-sic",
+      "term": "Sistema de Informação de Custos (SIC)",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/06 - mic sic e informacoes gerenciais de custos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-tolerancia-ao-risco",
+      "term": "Tolerância ao risco",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/03 - maturidade controles e incentivos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-risco-de-integridade",
+      "term": "Risco de integridade",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/03 - maturidade controles e incentivos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ambiente-de-controle",
+      "term": "Ambiente de controle",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/03 - maturidade controles e incentivos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-segregacao-de-funcoes",
+      "term": "Segregação de funções",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/03 - maturidade controles e incentivos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-controle-preventivo",
+      "term": "Controle preventivo",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/03 - maturidade controles e incentivos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-controle-detectivo",
+      "term": "Controle detectivo",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/03 - maturidade controles e incentivos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-maturidade-de-controles",
+      "term": "Maturidade de controles",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/03 - maturidade controles e incentivos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-integridade-publica",
+      "term": "Integridade pública",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/01 - integridade publica prevencao e sitai.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-sitai",
+      "term": "SITAI",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/01 - integridade publica prevencao e sitai.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-programa-de-integridade",
+      "term": "Programa de integridade",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/01 - integridade publica prevencao e sitai.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-diligencia-de-terceiros",
+      "term": "Diligência de terceiros",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/02 - integridade privada e diligencia de terceiros.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-gestao-de-terceiros",
+      "term": "Gestão de terceiros",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/02 - integridade privada e diligencia de terceiros.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-integridade-privada",
+      "term": "Integridade privada",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/02 - integridade privada e diligencia de terceiros.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-canal-de-denuncias",
+      "term": "Canal de denúncias",
+      "subjectId": "governanca-riscos-integridade",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Governanca Riscos e Integridade/02 - integridade privada e diligencia de terceiros.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-teoria-da-mudanca",
+      "term": "Teoria da mudança",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-modelo-logico",
+      "term": "Modelo lógico",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-insumo",
+      "term": "Insumo",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-atividade",
+      "term": "Atividade",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-produto",
+      "term": "Produto",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-resultado",
+      "term": "Resultado",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-impacto",
+      "term": "Impacto",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-indicador-de-resultado",
+      "term": "Indicador de resultado",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-linha-de-base",
+      "term": "Linha de base",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-contrafactual",
+      "term": "Contrafactual",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-vies-de-selecao",
+      "term": "Viés de seleção",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-grupo-de-controle",
+      "term": "Grupo de controle",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-diferencas-em-diferencas",
+      "term": "Diferenças em diferenças",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-regressao-descontinua",
+      "term": "Regressão descontínua",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-experimento-aleatorizado",
+      "term": "Experimento aleatorizado",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-validade-interna",
+      "term": "Validade interna",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-validade-externa",
+      "term": "Validade externa",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-analise-de-custo-efetividade",
+      "term": "Análise de custo-efetividade",
+      "subjectId": "politicas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-estudo-tecnico-preliminar-etp",
+      "term": "Estudo Técnico Preliminar (ETP)",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/09 - planejamento da contratacao e riscos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-termo-de-referencia-tr",
+      "term": "Termo de Referência (TR)",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/09 - planejamento da contratacao e riscos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-matriz-de-riscos-contratual",
+      "term": "Matriz de riscos contratual",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/09 - planejamento da contratacao e riscos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-dispensa-de-licitacao",
+      "term": "Dispensa de licitação",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-inexigibilidade-de-licitacao",
+      "term": "Inexigibilidade de licitação",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-contrato-administrativo",
+      "term": "Contrato administrativo",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fiscalizacao-tecnica",
+      "term": "Fiscalização técnica",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/10 - fiscalizacao medicao e recebimento contratual.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-fiscalizacao-administrativa",
+      "term": "Fiscalização administrativa",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/10 - fiscalizacao medicao e recebimento contratual.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-medicao-contratual",
+      "term": "Medição contratual",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/10 - fiscalizacao medicao e recebimento contratual.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-recebimento-provisorio",
+      "term": "Recebimento provisório",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/10 - fiscalizacao medicao e recebimento contratual.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-recebimento-definitivo",
+      "term": "Recebimento definitivo",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/10 - fiscalizacao medicao e recebimento contratual.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-convenio",
+      "term": "Convênio",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/02 - convenios contratos de repasse e plano de trabalho.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-contrato-de-repasse",
+      "term": "Contrato de repasse",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/02 - convenios contratos de repasse e plano de trabalho.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-plano-de-trabalho",
+      "term": "Plano de trabalho",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/02 - convenios contratos de repasse e plano de trabalho.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-transferencia-especial",
+      "term": "Transferência especial",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/05 - transferencias especiais e emendas parlamentares.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-prestacao-de-contas",
+      "term": "Prestação de contas",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/07 - prestacao de contas e tomada de contas especial.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-tomada-de-contas-especial-tce",
+      "term": "Tomada de contas especial (TCE)",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/07 - prestacao de contas e tomada de contas especial.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-marco-regulatorio-das-osc-mrosc",
+      "term": "Marco Regulatório das OSC (MROSC)",
+      "subjectId": "contratacoes-transferencias",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Contratacoes e Transferencias/04 - parcerias com organizacoes da sociedade civil.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-processo-administrativo-disciplinar-pad",
+      "term": "Processo Administrativo Disciplinar (PAD)",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/05 - pad par leniencia e instrumentos consensuais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-processo-administrativo-de-responsabilizacao-par",
+      "term": "Processo Administrativo de Responsabilização (PAR)",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/05 - pad par leniencia e instrumentos consensuais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-termo-de-ajustamento-de-conduta-tac",
+      "term": "Termo de Ajustamento de Conduta (TAC)",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/05 - pad par leniencia e instrumentos consensuais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-acordo-de-leniencia",
+      "term": "Acordo de leniência",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/05 - pad par leniencia e instrumentos consensuais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-responsabilidade-subjetiva",
+      "term": "Responsabilidade subjetiva",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/04 - admissibilidade prova e regimes de responsabilidade.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-responsabilidade-objetiva",
+      "term": "Responsabilidade objetiva",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/04 - admissibilidade prova e regimes de responsabilidade.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-juizo-de-admissibilidade",
+      "term": "Juízo de admissibilidade",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/04 - admissibilidade prova e regimes de responsabilidade.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-lei-anticorrupcao-lei-n-12-846-2013",
+      "term": "Lei Anticorrupção (Lei nº 12.846/2013)",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/03 - programas de integridade publicos e privados.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-improbidade-administrativa",
+      "term": "Improbidade administrativa",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Direito Administrativo/07 - improbidade administrativa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-dolo-especifico",
+      "term": "Dolo específico",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Direito Administrativo/07 - improbidade administrativa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-acordo-de-nao-persecucao-civil",
+      "term": "Acordo de não persecução civil",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Direito Administrativo/07 - improbidade administrativa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-dano-ao-erario",
+      "term": "Dano ao erário",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/06 - sancoes reparacao e efetividade das respostas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-nexo-causal",
+      "term": "Nexo causal",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/06 - sancoes reparacao e efetividade das respostas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-processo-sancionador",
+      "term": "Processo sancionador",
+      "subjectId": "integridade-responsabilizacao",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/06 - sancoes reparacao e efetividade das respostas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-lei-de-acesso-a-informacao-lai",
+      "term": "Lei de Acesso à Informação (LAI)",
+      "subjectId": "transparencia-ouvidoria",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-transparencia-ativa",
+      "term": "Transparência ativa",
+      "subjectId": "transparencia-ouvidoria",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-transparencia-passiva",
+      "term": "Transparência passiva",
+      "subjectId": "transparencia-ouvidoria",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-classificacao-de-sigilo",
+      "term": "Classificação de sigilo",
+      "subjectId": "transparencia-ouvidoria",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-dado-pessoal",
+      "term": "Dado pessoal",
+      "subjectId": "transparencia-ouvidoria",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-dado-pessoal-sensivel",
+      "term": "Dado pessoal sensível",
+      "subjectId": "transparencia-ouvidoria",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ouvidoria-publica",
+      "term": "Ouvidoria pública",
+      "subjectId": "transparencia-ouvidoria",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Transparencia e Ouvidoria/01 - ciclo das manifestacoes e resposta ao usuario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-manifestacao-de-ouvidoria",
+      "term": "Manifestação de ouvidoria",
+      "subjectId": "transparencia-ouvidoria",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Transparencia e Ouvidoria/01 - ciclo das manifestacoes e resposta ao usuario.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-protecao-ao-denunciante",
+      "term": "Proteção ao denunciante",
+      "subjectId": "transparencia-ouvidoria",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Integridade e Responsabilizacao/02 - denuncia e protecao ao denunciante.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-confiabilidade-dos-dados",
+      "term": "Confiabilidade dos dados",
+      "subjectId": "evidencias-dados-ia",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Evidencias Dados e IA/01 - perguntas fontes e qualidade da evidencia.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-rastreabilidade-da-evidencia",
+      "term": "Rastreabilidade da evidência",
+      "subjectId": "evidencias-dados-ia",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Evidencias Dados e IA/01 - perguntas fontes e qualidade da evidencia.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-qualidade-dos-dados",
+      "term": "Qualidade dos dados",
+      "subjectId": "evidencias-dados-ia",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Evidencias Dados e IA/02 - indicadores denominadores e subnotificacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-subnotificacao",
+      "term": "Subnotificação",
+      "subjectId": "evidencias-dados-ia",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Evidencias Dados e IA/02 - indicadores denominadores e subnotificacao.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-falso-positivo",
+      "term": "Falso positivo",
+      "subjectId": "evidencias-dados-ia",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Evidencias Dados e IA/03 - inferencias falacias e falsos positivos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-falso-negativo",
+      "term": "Falso negativo",
+      "subjectId": "evidencias-dados-ia",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Evidencias Dados e IA/03 - inferencias falacias e falsos positivos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-inferencia-causal",
+      "term": "Inferência causal",
+      "subjectId": "evidencias-dados-ia",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Evidencias Dados e IA/03 - inferencias falacias e falsos positivos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-vies-algoritmico",
+      "term": "Viés algorítmico",
+      "subjectId": "evidencias-dados-ia",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Evidencias Dados e IA/05 - ia responsavel e validacao de decisoes publicas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-validacao-independente",
+      "term": "Validação independente",
+      "subjectId": "evidencias-dados-ia",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Evidencias Dados e IA/05 - ia responsavel e validacao de decisoes publicas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-explicabilidade",
+      "term": "Explicabilidade",
+      "subjectId": "evidencias-dados-ia",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Evidencias Dados e IA/05 - ia responsavel e validacao de decisoes publicas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-funcao-alocativa",
+      "term": "Função alocativa",
+      "subjectId": "financas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-funcao-distributiva",
+      "term": "Função distributiva",
+      "subjectId": "financas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-funcao-estabilizadora",
+      "term": "Função estabilizadora",
+      "subjectId": "financas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-externalidade",
+      "term": "Externalidade",
+      "subjectId": "financas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-bem-publico",
+      "term": "Bem público",
+      "subjectId": "financas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-incidencia-tributaria",
+      "term": "Incidência tributária",
+      "subjectId": "financas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Financas Publicas/02 - tributacao incidencia economica e equidade.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-progressividade-tributaria",
+      "term": "Progressividade tributária",
+      "subjectId": "financas-publicas",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Financas Publicas/02 - tributacao incidencia economica e equidade.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ato-vinculado",
+      "term": "Ato vinculado",
+      "subjectId": "direito-administrativo",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ato-discricionario",
+      "term": "Ato discricionário",
+      "subjectId": "direito-administrativo",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/03 - atos administrativos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-poder-hierarquico",
+      "term": "Poder hierárquico",
+      "subjectId": "direito-administrativo",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/04 - poderes administrativos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-poder-disciplinar",
+      "term": "Poder disciplinar",
+      "subjectId": "direito-administrativo",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/04 - poderes administrativos.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-controle-interno",
+      "term": "Controle interno",
+      "subjectId": "direito-administrativo",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/11 - controle da administracao publica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-controle-externo",
+      "term": "Controle externo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/11 - controle da administracao publica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-responsabilidade-civil-do-estado",
+      "term": "Responsabilidade civil do Estado",
+      "subjectId": "direito-administrativo",
+      "examBlock": "P2",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-accountability-horizontal",
+      "term": "Accountability horizontal",
+      "subjectId": "estado-democracia",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Estado e Democracia/02 - democracia representacao e accountability.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-accountability-vertical",
+      "term": "Accountability vertical",
+      "subjectId": "estado-democracia",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Estado e Democracia/02 - democracia representacao e accountability.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-problema-principal-agente",
+      "term": "Problema principal-agente",
+      "subjectId": "estado-democracia",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Estado e Democracia/07 - principal agente acao coletiva e captura.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-captura-regulatoria",
+      "term": "Captura regulatória",
+      "subjectId": "estado-democracia",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Estado e Democracia/07 - principal agente acao coletiva e captura.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-clientelismo",
+      "term": "Clientelismo",
+      "subjectId": "estado-democracia",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Estado e Democracia/06 - corrupcao clientelismo patronagem e captura.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-moralidade-administrativa",
+      "term": "Moralidade administrativa",
+      "subjectId": "etica-publica",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Etica Publica/01 - etica moralidade e interesse publico.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-conflito-de-interesses",
+      "term": "Conflito de interesses",
+      "subjectId": "etica-publica",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Etica Publica/03 - conflito de interesses lei 12813.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-impedimento",
+      "term": "Impedimento",
+      "subjectId": "etica-publica",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Etica Publica/04 - impedimento e suspeicao processo administrativo.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-suspeicao",
+      "term": "Suspeição",
+      "subjectId": "etica-publica",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Etica Publica/04 - impedimento e suspeicao processo administrativo.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-dever-de-lealdade-institucional",
+      "term": "Dever de lealdade institucional",
+      "subjectId": "etica-publica",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Etica Publica/02 - deveres e conduta profissional.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-modelo-patrimonialista",
+      "term": "Modelo patrimonialista",
+      "subjectId": "administracao-publica",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-modelo-burocratico",
+      "term": "Modelo burocrático",
+      "subjectId": "administracao-publica",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-modelo-gerencial",
+      "term": "Modelo gerencial",
+      "subjectId": "administracao-publica",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-governanca-publica",
+      "term": "Governança pública",
+      "subjectId": "administracao-publica",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-mobilidade-social",
+      "term": "Mobilidade social",
+      "subjectId": "sociedade-brasileira",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Sociedade Brasileira/01 - instituicoes estratificacao e mobilidade social.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-interseccionalidade",
+      "term": "Interseccionalidade",
+      "subjectId": "sociedade-brasileira",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Sociedade Brasileira/04 - diversidade interseccionalidade e acesso efetivo.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-desigualdade-estrutural",
+      "term": "Desigualdade estrutural",
+      "subjectId": "sociedade-brasileira",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Sociedade Brasileira/05 - pobreza desigualdade desenvolvimento e indicadores.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-vulnerabilidade-social",
+      "term": "Vulnerabilidade social",
+      "subjectId": "sociedade-brasileira",
+      "examBlock": "P1",
+      "editorialPriority": "C",
+      "articleCandidate": "3 - Materias/Sociedade Brasileira/05 - pobreza desigualdade desenvolvimento e indicadores.md",
+      "status": "planned"
+    }
+  ]
+}

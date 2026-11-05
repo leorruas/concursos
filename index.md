@@ -5,6 +5,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 > **Leitura obrigatória para agentes:** ler `[[me]]` antes de qualquer operação. Diretrizes de governança e regras estão lá.
 
 ## 1 - Planejamento
+- [[1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos|Glossário CGU: arquitetura e 200 termos planejados]]
 - [[1 - Planejamento/Flashcards - Sessoes continuas e ampliacao|Flashcards: sessões contínuas e ampliação por matéria]]
 - [[1 - Planejamento/Continuidade de estudo por materia|Continuidade de estudo por matéria]]
 - [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano das 15 matérias]]

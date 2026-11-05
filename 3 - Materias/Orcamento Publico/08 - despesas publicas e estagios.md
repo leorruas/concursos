@@ -90,6 +90,8 @@ Uma nota fiscal de R$ 100 mil não prova, por si, que os produtos foram entregue
 
 A atuação do fiscal de contrato produz informações relevantes, mas **fiscalizar o contrato** e **liquidar a despesa** cumprem funções distintas. O contrato é tratado em [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]].
 
+O confronto com **custos e produção física** deve ser feito sem converter liquidação em consumo: [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo#Refinamento: comprovação da despesa e teste físico-financeiro|caso integrado de comprovação físico-financeira]]. O exemplo distingue **bens recebidos, direito a receber, valores pagos, materiais utilizados e entregas conformes**.
+
 ### Liquidação × pagamento
 
 Liquidar significa verificar o direito de receber. **Pagar** é realizar o desembolso mediante ordem competente. Uma despesa liquidada pode permanecer **pendente de pagamento**, conforme programação financeira ou situação do credor. A ausência de pagamento não apaga automaticamente o fato de que houve liquidação regular.

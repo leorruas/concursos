@@ -19,7 +19,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -79,27 +79,12 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
+      # O artefato github-pages só pode ser implantado uma vez por execução.
+      # Repetir deploy-pages na mesma execução cria ambiguidade de artefato.
       - id: deployment
-        name: Publicar no Pages — tentativa 1
-        continue-on-error: true
+        name: Publicar no Pages
         uses: actions/deploy-pages@v4
-      - name: Aguardar antes de retry do Pages
-        if: steps.deployment.outcome == 'failure'
-        run: sleep 15
-      - id: deployment_retry
-        name: Publicar no Pages — tentativa 2
-        if: steps.deployment.outcome == 'failure'
-        continue-on-error: true
-        uses: actions/deploy-pages@v4
-      # Falha nos testes já reprova o job; conferir deploy apenas se foi tentado.
-      - name: Validar publicação no Pages
-        if: always() && (steps.deployment.outcome == 'success' || steps.deployment.outcome == 'failure')
-        run: |
-          if [ "${{ steps.deployment.outcome }}" != "success" ] && [ "${{ steps.deployment_retry.outcome }}" != "success" ]; then
-            echo "Falha nas duas tentativas de deploy do GitHub Pages."
-            exit 1
-          fi
       - name: Confirmar catálogo publicado no Pages
         env:
-          PAGE_URL: ${{ steps.deployment_retry.outputs.page_url || steps.deployment.outputs.page_url }}
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: node scripts/verify-live-pages.js "$PAGE_URL"

@@ -37,6 +37,11 @@ for(const f of privateProjectPaths){
   assert(!fs.existsSync(path.join(root,f)),'Projeto individual no repositório público: '+f);
   assert(!fs.existsSync(path.join(site,f)),'Projeto individual publicado no site: '+f);
 }
+const publicProtocol=fs.readFileSync(path.join(root,'me.md'),'utf8');
+assert(!publicProtocol.includes('type: "perfil-pessoal"'),'Perfil pessoal ainda no arquivo público');
+assert(!publicProtocol.includes('## Quem sou'),'Seção de identidade no arquivo público');
+assert(!publicProtocol.includes('## Perfil de Raciocínio Lógico (IA)'),'Proficiência individual no arquivo público');
+assert(!publicProtocol.includes('## Contexto Pessoal para IA'),'Contexto pessoal no arquivo público');
 const checkNotes=(dir)=>!fs.existsSync(dir)||fs.readdirSync(dir,{withFileTypes:true}).every(e=>e.isDirectory()?checkNotes(path.join(dir,e.name)):e.name!=='Avancos.md');
 assert(checkNotes(path.join(root,'3 - Materias')),'Avanços individuais na fonte pública');
 const publicUI=fs.readFileSync(path.join(site,'web/10-flashcards-ui.js'),'utf8');

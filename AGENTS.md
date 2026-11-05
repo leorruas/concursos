@@ -3,6 +3,8 @@
 **Regra operacional de privacidade (05/11/2026):** `leorruas/concurso-dados` é a fonte **privada** para sessões e respostas, lacunas, ledger, resultados, progresso, contexto, revisões e arquivos `Avancos.md`. `leorruas/concursos` é a fonte **pública** para teoria, artigos, catálogo não pessoal e flashcards de conteúdo. **Nunca recriar dados individuais no repositório público**, em arquivos de diagnóstico, mensagens de commit, exemplos de artigo ou logs de CI. O protocolo abaixo que menciona `data/sessoes/` e `data/contexto-estudo/` refere-se ao cofre privado. Consolidações são executadas pelo workflow do cofre e não pelo Pages. O navegador público preserva revisões locais, mas ainda não possui sincronização autenticada do perfil de erros. Em caso de falha ao acessar o cofre, não gravar no público como alternativa. Esta regra prevalece sobre qualquer orientação anterior de registrar progresso no site público.
 
 
+**Perfil pessoal:** o `me.md` público foi reduzido a protocolos de estudo. Seu conteúdo original, incluindo identidade e proficiência individual, foi preservado e conferido por SHA em `leorruas/concurso-dados:me.md`. Agentes que necessitem desse contexto devem ler a cópia privada e manter esses dados fora da publicação.
+
 ## Mapa operacional entre repositórios (regra prioritária)
 
 Antes de usar caminhos como `data/sessoes/` ou `00 - Desempenho/`, identificar a qual repositório pertencem. Para agentes, o formato `leorruas/<repositorio>:<caminho>` elimina ambiguidades. O cofre possui [instruções próprias](https://github.com/leorruas/concurso-dados/blob/main/AGENTS.md); lê-las sempre que a tarefa envolver histórico individual.
@@ -37,7 +39,7 @@ Notas canônicas em `3 - Materias/`, exceto Avancos.md, possuem `articleId: art-
 
 ## Leitura para manutenção e hierarquia das instruções
 
-`AGENTS.md` na raiz é o único arquivo de instruções para agentes deste repositório. Para manutenção e operações fora do fluxo rápido, ler também `me.md` (perfil e padrões), `index.md` (catálogo) e os contratos pertinentes. Para estudo cotidiano, prevalece a entrada curta em `CHAT.md`, conforme a seção anterior. Regras de concurso e contratos específicos complementam este arquivo; não criar outro `AGENTS.md` para duplicá-las.
+`AGENTS.md` na raiz é o único arquivo de instruções para agentes deste repositório. Para manutenção e operações fora do fluxo rápido, ler também `me.md` (protocolos públicos de estudo; perfil individual no cofre privado), `index.md` (catálogo) e os contratos pertinentes. Para estudo cotidiano, prevalece a entrada curta em `CHAT.md`, conforme a seção anterior. Regras de concurso e contratos específicos complementam este arquivo; não criar outro `AGENTS.md` para duplicá-las.
 
 ## Roteamento obrigatório por concurso
 

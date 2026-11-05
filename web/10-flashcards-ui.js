@@ -99,35 +99,59 @@
         const response=await fetch('data/flashcards.json',{cache:'no-cache'});
         if(!response.ok)throw Error('Coleção indisponível.');
         catalog=await response.json();cards=catalog.cards.filter(c=>c.status==='validated');
-        // Projeção pública: só termos revisados do glossário, já deduplicados pelo build.
-        // Não mesclar parcialmente caso falhe: uma sessão salva pode conter IDs derivados.
-        const glossaryResponse=await fetch('data/glossario-flashcards.json',{cache:'no-cache'});
-        if(!glossaryResponse.ok)throw Error('Cartões do glossário indisponíveis. Recarregue a página.');
-        const glossary=await glossaryResponse.json();
-        if(glossary.schemaVersion!==1||!Array.isArray(glossary.cards)||!Array.isArray(glossary.links)||
-            glossary.generatedCount!==glossary.cards.length||glossary.linkedCount!==glossary.links.length)
-            throw Error('Projeção de cartões do glossário inválida.');
-        const byId=new Map(cards.map(c=>[c.id,c]));
-        for(const link of glossary.links) {
-            const card=byId.get(link.cardId);
-            if(!card)throw Error('Vínculo de glossário sem cartão: '+link.cardId);
-            if(!card.glossaryIds)card.glossaryIds=[];
-            if(!card.glossaryIds.includes(link.glossaryId))card.glossaryIds.push(link.glossaryId);
+        // O glossário é uma fonte complementar: erro de rede ou publicação não bloqueia o baralho original.
+        // Se houver revisões de IDs derivados, impedir a validação parcial que as descartaria.
+        let glossaryUnavailable=false;
+        try {
+            const glossaryResponse=await fetch('data/glossario-flashcards.json',{cache:'no-cache'});
+            if(!glossaryResponse.ok)throw Error('HTTP '+glossaryResponse.status);
+            const glossary=await glossaryResponse.json();
+            if(glossary.schemaVersion!==1||!Array.isArray(glossary.cards)||!Array.isArray(glossary.links)||
+                glossary.generatedCount!==glossary.cards.length||glossary.linkedCount!==glossary.links.length)
+                throw Error('Projeção inválida');
+            const byId=new Map(cards.map(c=>[c.id,c]));
+            for(const link of glossary.links) {
+                const card=byId.get(link.cardId);
+                if(!card)throw Error('Vínculo de glossário sem cartão: '+link.cardId);
+                if(!card.glossaryIds)card.glossaryIds=[];
+                if(!card.glossaryIds.includes(link.glossaryId))card.glossaryIds.push(link.glossaryId);
+            }
+            for(const card of glossary.cards) {
+                if(card.status!=='validated'||byId.has(card.id)||!card.glossaryId)
+                    throw Error('Cartão derivado inválido: '+card.id);
+                byId.set(card.id,card);cards.push(card);
+            }
+        } catch(error) {
+            glossaryUnavailable=true;
+            cards=catalog.cards.filter(c=>c.status==='validated');
+            console.warn('Falha ao carregar flashcards derivados do glossário:',error.message);
         }
-        for(const card of glossary.cards){
-            if(card.status!=='validated'||byId.has(card.id)||!card.glossaryId)
-                throw Error('Cartão derivado inválido: '+card.id);
-            byId.set(card.id,card);cards.push(card);
+        let raw,glossaryHistoryBlocked=false;
+        try {
+            raw=localStorage.getItem(F.KEY);
+            if(raw) {
+                const persisted=JSON.parse(raw);
+                if(glossaryUnavailable&&F.hasGlossaryReferences(persisted)) {
+                    glossaryHistoryBlocked=true;
+                    throw Error('Revisões do glossário precisam da coleção completa.');
+                }
+                state=F.validateState(persisted,cards);
+            }
+        } catch {
+            status(glossaryHistoryBlocked
+                ? 'O glossário está temporariamente indisponível. Seu progresso com esses cartões permanece salvo. Não foi alterado; exporte uma cópia e tente novamente.'
+                : 'Não foi possível ler o progresso salvo. Nenhum dado foi sobrescrito. Exporte uma cópia antes de iniciar uma nova rodada.');
+            storageOK=false;corrupt=true;
         }
-        let raw;try{raw=localStorage.getItem(F.KEY);if(raw)state=F.validateState(JSON.parse(raw),cards);}
-        catch{status('Não foi possível ler o progresso salvo. Nenhum dado foi sobrescrito. Exporte uma cópia antes de iniciar uma nova rodada.');storageOK=false;corrupt=true;}
         if(priorityEndpoint)$('priority-login').href=P.loginUrl(priorityEndpoint);
         options($('exam'),catalog.exams.map(e=>[e.id,e.title+' · '+e.board]));
         const examFromURL=new URLSearchParams(location.search).get('concurso');
         if(catalog.exams.some(e=>e.id===examFromURL))$('exam').value=examFromURL;
         subjects();home();
         void syncPriorities(true);
-        if(storageOK)status(`${cards.length} conceitos · ${glossary.generatedCount} vindos do glossário revisado · progresso neste dispositivo`);
+        if(storageOK)status(glossaryUnavailable
+            ? `${cards.length} cartões disponíveis. Glossário temporariamente indisponível; a coleção principal continua acessível.`
+            : `${cards.length} conceitos · glossário integrado · progresso neste dispositivo`);
         $('export').disabled=false;
         $('form').addEventListener('submit',async e=>{
             e.preventDefault();

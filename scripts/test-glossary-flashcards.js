@@ -57,6 +57,17 @@ const loaded=F.validateState(JSON.parse(JSON.stringify(old)),all);
 assert.equal(loaded.reviews['ppa:forward'].grade,'good','Revisão do cartão existente foi preservada');
 assert.equal(loaded.reviews['glossary-glo-balanco-orcamentario:forward'].grade,'good',
     'Revisão de cartão derivado preservada entre carregamentos');
+assert(F.hasGlossaryReferences(old),'Perfil com revisão de cartão derivado precisa da projeção completa');
+assert(!F.hasGlossaryReferences(F.empty()),'Perfil novo pode abrir os cartões originais sem o glossário');
+const onlyBase=F.empty();
+onlyBase.reviews['ppa:forward']=review;
+assert(!F.hasGlossaryReferences(onlyBase),'Revisões da coleção original não dependem do glossário');
+assert.equal(F.validateState(JSON.parse(JSON.stringify(onlyBase)),base.cards).reviews['ppa:forward'].grade,'good',
+    'Carregamento de contingência deve preservar revisões dos cartões originais');
+assert(F.hasGlossaryReferences({session:{queue:[{id:'glossary-glo-balanco-orcamentario'}]}}),
+    'Sessão com cartão derivado não pode ser truncada em uma publicação parcial');
+assert(F.hasGlossaryReferences({priorities:{entries:[{cardId:'glossary-glo-balanco-orcamentario'}]}}),
+    'Prioridade de cartão derivado também exige coleção completa');
 assert.equal(F.stats(all,F.empty(),timestamp).unseen,base.cards.length+published.generatedCount);
 assert(F.select(published.cards,F.empty(),{exam:'cgu-2026',subject:'contabilidade-publica',mode:'new',direction:'forward'},timestamp,()=>.5)
     .some(x=>derived.has(x.id)),'Novos cartões precisam estar elegíveis na seleção normal da matéria');
@@ -65,6 +76,11 @@ const html=fs.readFileSync(path.join(root,'_site/flashcards.html'),'utf8');
 const ui=fs.readFileSync(path.join(root,'_site/web/10-flashcards-ui.js'),'utf8');
 assert(html.includes('id="fc-glossary"')&&ui.includes("fetch('data/glossario-flashcards.json'"),
     'Interface deve carregar cartões derivados e abrir sua entrada do glossário');
+assert(ui.includes('glossaryUnavailable=true')&&ui.includes('F.hasGlossaryReferences(persisted)'),
+    'A falta da projeção deve permitir cartões originais sem apagar revisões de cartões derivados');
+const verifier=fs.readFileSync(path.join(root,'scripts/verify-live-pages.js'),'utf8');
+assert(verifier.includes("'data/glossario-flashcards.json'"),
+    'Verificação pós-publicação precisa exigir o arquivo que a página de flashcards consome');
 assert(!fs.existsSync(path.join(root,'_site/data/glossario/flashcard-equivalencias.json')),
     'Equivalências editoriais não devem ser exportadas como dado independente');
 console.log('SUCESSO: glossário alimenta '+published.generatedCount+' cartões, vincula '+published.linkedCount+

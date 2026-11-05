@@ -200,5 +200,20 @@
         }
         return next;
     }
-    root.Flashcards={DAY,KEY,empty,reviewKey,validateState,schedule,select,stats,start,refill,rate,finish,nextReview,validatePriorities,applyPrioritySnapshot,studyPriority};
+    // Sem a projeção do glossário, nunca validar/salvar um perfil que faça referência a seus IDs.
+    // Isso impediria que o validor descartasse silenciosamente avaliações de cartões não carregados.
+    function hasGlossaryReferences(value) {
+        if(!value||typeof value!=='object')return false;
+        const derived=id=>typeof id==='string'&&id.startsWith('glossary-glo-');
+        const some=(list,extract)=>Array.isArray(list)&&list.some(item=>derived(extract(item)));
+        const session=value.session;
+        return Object.keys(value.reviews||{}).some(derived)||
+            some(session?.queue,item=>item?.id)||
+            some(session?.seen,id=>id)||
+            some(session?.recent,id=>id)||
+            some(session?.retries,item=>item?.id)||
+            some(session?.retried,id=>id)||
+            some(value.priorities?.entries,item=>item?.cardId);
+    }
+    root.Flashcards={DAY,KEY,empty,reviewKey,validateState,schedule,select,stats,start,refill,rate,finish,nextReview,validatePriorities,applyPrioritySnapshot,studyPriority,hasGlossaryReferences};
 })(typeof window !== 'undefined' ? window : globalThis);

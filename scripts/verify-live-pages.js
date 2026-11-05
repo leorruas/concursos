@@ -74,7 +74,7 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
       if (JSON.stringify(catalogoAoVivo) !== JSON.stringify(esperadoCatalogo)) {
         throw new Error('Catálogo de matérias ao vivo diverge do catálogo construído');
       }
-      for (const recurso of ['data/flashcards.json', 'flashcards.html', 'web/09-flashcards-engine.js', 'web/10-flashcards-ui.js']) {
+      for (const recurso of ['data/flashcards.json', 'data/glossario-flashcards.json', 'flashcards.html', 'web/09-flashcards-engine.js', 'web/10-flashcards-ui.js']) {
         const res = await fetch(new URL(recurso + '?' + cacheBuster, baseUrl), {
           headers: { 'cache-control': 'no-cache' }, signal: AbortSignal.timeout(8000)
         });

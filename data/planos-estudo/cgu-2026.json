@@ -269,7 +269,7 @@
     "lei-13303": {
       "label": "Lei nº 13.303/2016",
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm",
-      "scope": "Arts. 5º, 7º, 8º e 86, demonstrações societárias, auditoria e transparência",
+      "scope": "Lei das Estatais, arts. 1º, 2º, 6º a 10, 13 a 27 e 85 a 90, com atualizações da Lei 15.177/2025",
       "verifiedAt": "2026-11-04"
     },
     "lei-6404": {
@@ -294,6 +294,24 @@
       "label": "CPC 36 (R3), Demonstrações Consolidadas",
       "url": "https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=67",
       "scope": "Controle, grupo e eliminações intragrupo; comparação com CPC 18 (R3)",
+      "verifiedAt": "2026-11-04"
+    },
+    "lei-15177-2025": {
+      "label": "Lei 15.177/2025: reserva de mulheres e divulgação de igualdade",
+      "url": "https://legis.senado.leg.br/norma/41155497/publicacao/41159056",
+      "scope": "Quotas e subquotas art. 2º, implementação gradual art. 3º, inserção do art. 8º X e art. 19-A na Lei 13.303",
+      "verifiedAt": "2026-11-04"
+    },
+    "decreto-8945-2016": {
+      "label": "Decreto 8.945/2016 e alterações, regulamentação das estatais federais",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2016/decreto-8945-27-dezembro-2016-784146-norma-pe.html",
+      "scope": "Detalhamento federal da governança; não aplicar automaticamente a outros entes",
+      "verifiedAt": "2026-11-04"
+    },
+    "lei-12527": {
+      "label": "Lei 12.527/2011, Lei de Acesso à Informação",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+      "scope": "Transparência e sigilo na fiscalização das estatais",
       "verifiedAt": "2026-11-04"
     }
   },
@@ -1995,16 +2013,21 @@
             "P3.2.7"
           ],
           "noteRefs": [
+            "3 - Materias/Contabilidade Publica/10 - governanca transparencia e finalidade publica das estatais",
             "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
           ],
           "requires": [
             "up3-2-6"
           ],
           "sourceIds": [
-            "mcasp"
+            "mcasp",
+            "lei-13303",
+            "lei-15177-2025",
+            "decreto-8945-2016",
+            "lei-12527"
           ],
-          "coverage": "base-adjacente",
-          "noteRole": "base-aproveitavel-a-conferir-no-recorte"
+          "coverage": "parcial",
+          "noteRole": "governanca-estatais-artigo-10-publicado-cotejo-edital-pendente"
         }
       ],
       "requiresSubjects": []

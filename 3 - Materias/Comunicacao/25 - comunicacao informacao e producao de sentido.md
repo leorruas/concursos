@@ -61,7 +61,7 @@ O problema da circulação de sinais será desenvolvido no artigo sobre **Shanno
 
 A relação com **comunicação pública** aparece porque o órgão tem obrigação de informar com precisão e acessibilidade, mas cumprir o dever de publicação não elimina as exigências de compreensão e utilidade do serviço. Há também conexão com [[3 - Materias/Comunicacao/10 - linguagem simples|linguagem simples]], [[3 - Materias/Comunicacao/15 - publicos e stakeholders|públicos e stakeholders]] e [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|planejamento de comunicação]].
 
-O próximo conceito-base é [[3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao.md|teoria, modelo, escola, corrente e paradigma]]: ele explica como diferentes autores escolhem o que observar e como organizar uma explicação.
+O próximo conceito-base é [[3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao|teoria, modelo, escola, corrente e paradigma]]: ele explica como diferentes autores escolhem o que observar e como organizar uma explicação.
 
 ## Tensões e pegadinhas
 

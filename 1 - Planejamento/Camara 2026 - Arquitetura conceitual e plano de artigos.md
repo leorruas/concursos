@@ -246,8 +246,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 
 **Programa:** 14.2.4, Comunicação Social, itens 1.1 a 1.4. **Matéria virtual de destino:** `comunicacao`. **Base a auditar, sem presumir completude:** `3 - Materias/Comunicacao/01 - comunicacao organizacional; 02 - comunicacao publica; 18 - fact checking e desinformacao; 21 - teorias do jornalismo e historia da imprensa; 22 - autores e taxonomias.`
 
-- [ ] **CAM-TC-001 · F1**: Comunicação, informação, mensagem e produção de sentido.
-- [ ] **CAM-TC-002 · F1**: Teoria, modelo, escola, corrente e paradigma da comunicação.
+- [x] **CAM-TC-001 · F1**: Comunicação, informação, mensagem e produção de sentido.
+- [x] **CAM-TC-002 · F1**: Teoria, modelo, escola, corrente e paradigma da comunicação.
 - [ ] **CAM-TC-003 · F1**: Elementos da situação comunicativa: contexto e interpretação.
 - [ ] **CAM-TC-004 · F1**: Lasswell: perguntas e análise dos efeitos da comunicação.
 - [ ] **CAM-TC-005 · F1**: Shannon e Weaver: informação, ruído e limites do modelo.
@@ -426,7 +426,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [[3 - Materias/Comunicacao/25 - comunicacao informacao e producao de sentido|TC-001: Comunicação, informação e produção de sentido]]: nota completa criada; vinculada ao hub, índice e catálogo de Comunicação da Câmara.
 - [[3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao|TC-002: Teoria, modelo, escola, corrente e paradigma]]: nota completa criada; explicação das fronteiras entre cinco categorias e relação com autores.
 
-Os checkboxes `CAM-TC-001` e `CAM-TC-002` permanecem abertos até a validação do build e da publicação ao vivo. A implementação no repositório, a publicação no Pages e o estudo efetivo são estados separados.
+Os dois primeiros artigos foram gravados no repositório e tiveram o build e o catálogo publicado no GitHub Pages confirmados no [workflow 42116643251](https://github.com/leorruas/concursos/actions/runs/42116643251), concluído com sucesso em 05/11/2026. Este fechamento é **editorial e técnico**: não existe evidência de que o aluno já tenha estudado ou retido os conceitos.
 
 ## Critérios de publicação e evidência
 

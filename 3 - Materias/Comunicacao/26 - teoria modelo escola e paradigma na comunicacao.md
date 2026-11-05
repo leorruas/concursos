@@ -16,7 +16,7 @@ updated: 2026-11-05
 
 Esses termos classificam **objetos diferentes**: pressupostos de investigação, tradições intelectuais, propostas explicativas e representações de processos. Uma questão do Cebraspe pode apresentar uma afirmação verdadeira sobre um modelo e atribuí-la a uma escola, ou chamar uma escolha de pesquisa de “lei universal dos efeitos”. Para julgar, é preciso primeiro perguntar **qual tipo de objeto está em discussão**.
 
-Pré-requisito: [[3 - Materias/Comunicacao/25 - comunicacao informacao e producao de sentido.md|Comunicação, informação e produção de sentido]]. Ele separa transmissão, mensagem, interpretação e efeitos. Aqui estudamos o modo como autores escolhem explicar essas dimensões.
+Pré-requisito: [[3 - Materias/Comunicacao/25 - comunicacao informacao e producao de sentido|Comunicação, informação e produção de sentido]]. Ele separa transmissão, mensagem, interpretação e efeitos. Aqui estudamos o modo como autores escolhem explicar essas dimensões.
 
 ## Cinco termos e suas fronteiras
 

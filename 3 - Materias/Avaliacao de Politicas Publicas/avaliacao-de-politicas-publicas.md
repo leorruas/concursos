@@ -19,6 +19,8 @@ Matéria canônica para compreender **por que uma intervenção pública deveria
 - [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas|03. Monitoramento e avaliação de políticas públicas]]: modelo lógico, indicadores, eficácia, eficiência, efetividade, equidade e avaliação ex ante/ex post.
 - [[3 - Materias/Avaliacao de Politicas Publicas/04 - metodos qualitativos e mistos na avaliacao|04. Métodos qualitativos e mistos na avaliação]]: seleção de casos, entrevistas, grupos, observação, processos, triangulação, desenhos mistos e generalização.
 - [[3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica|05. Identificação causal e avaliação econômica]]: contrafactual, aleatorização, diferenças em diferenças, regressão descontínua, pareamento, custo-benefício e custo-efetividade.
+- [[3 - Materias/Avaliacao de Politicas Publicas/06 - conclusoes e recomendacoes de avaliacoes|06. Conclusões e recomendações]]: validade interna/externa, incerteza, resultados nulos, viabilidade e acompanhamento de benefícios.
+- [[3 - Materias/Avaliacao de Politicas Publicas/07 - etica e integridade da pesquisa avaliativa|07. Ética e integridade da pesquisa]]: consentimento, riscos, sigilo, integridade de registros e CEP/CONEP conforme a atividade.
 
 ## Roteiro de aprofundamento
 
@@ -31,8 +33,8 @@ O eixo da **P3, item 3, da CGU 2026** possui sete unidades. A existência de uma
 | 03 | Monitoramento e avaliação: produtos, resultados e impactos; eficácia, eficiência, efetividade, equidade; ex ante e ex post | [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas\|Nota aprofundada]]; erro de atribuição causal registrado para reteste, sem retenção demonstrada |
 | 04 | Pesquisa qualitativa e métodos mistos: casos, entrevistas, grupos, observação, triangulação e generalização | [[3 - Materias/Avaliacao de Politicas Publicas/04 - metodos qualitativos e mistos na avaliacao\|Nota aprofundada]]; validação metodológica fina e treino C/E ainda pendentes |
 | 05 | Inferência causal e avaliação econômica: contrafactual, confundimento, métodos quase experimentais, custo-benefício e custo-efetividade | [[3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica\|Artigo aprofundado]]; auditoria metodológica fina e treino C/E calibrado ainda pendentes |
-| 06 | Conclusões e recomendações: validade, incerteza, heterogeneidade, viabilidade e benefícios | Nota especializada pendente |
-| 07 | Ética e pesquisa: consentimento quando aplicável, segurança, dados e distinções com auditoria | Nota especializada pendente |
+| 06 | Conclusões e recomendações: validade, incerteza, heterogeneidade, viabilidade e benefícios | [[3 - Materias/Avaliacao de Politicas Publicas/06 - conclusoes e recomendacoes de avaliacoes\|Artigo aprofundado]]; validação fina e treino de prova pendentes |
+| 07 | Ética e pesquisa: consentimento quando aplicável, segurança, dados e distinções com auditoria | [[3 - Materias/Avaliacao de Politicas Publicas/07 - etica e integridade da pesquisa avaliativa\|Artigo aprofundado]]; conferência normativa complementar e treino pendentes |
 
 A sequência é editorial. O ponto efetivo de retomada da CGU deve ser consultado no contexto gerado da matéria (`data/contexto-estudo/cgu-2026/politicas-publicas.json`), sem replicar aqui acertos ou erros de sessões individuais.
 

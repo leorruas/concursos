@@ -146,6 +146,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas|03 • Monitoramento e avaliação de políticas públicas]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/04 - metodos qualitativos e mistos na avaliacao|04 • Métodos qualitativos e mistos na avaliação]]
    - [[3 - Materias/Avaliacao de Politicas Publicas/05 - identificacao causal e avaliacao economica|05 • Identificação causal e avaliação econômica]]
+   - [[3 - Materias/Avaliacao de Politicas Publicas/06 - conclusoes e recomendacoes de avaliacoes|06 • Conclusões e recomendações de avaliações]]
+   - [[3 - Materias/Avaliacao de Politicas Publicas/07 - etica e integridade da pesquisa avaliativa|07 • Ética e integridade da pesquisa avaliativa]]
 14. [[3 - Materias/Contratacoes e Transferencias/contratacoes-e-transferencias|Contratações e transferências]]
 15. [[3 - Materias/Integridade e Responsabilizacao/integridade-e-responsabilizacao|Integridade e responsabilização]]
 - [[3 - Materias/Estrategia de Prova/estrategia-de-prova|Estratégia de prova]]

@@ -60,6 +60,14 @@ Foi criada [[3 - Materias/Avaliacao de Politicas Publicas/04 - metodos qualitati
 
 **Situação reavaliada da unidade 4:** 4.1 e 4.2 passam a possuir **cobertura editorial substantiva preliminar**, sujeita a auditoria metodológica fina e confronto com provas reais. Preserva-se a matriz histórica como diagnóstico inicial. A contagem editorial corrente passa a **11 substantivos, 8 parciais e 2 lacunas** (7.2 e 7.3), sem inferência sobre estudo ou retenção.
 
+## Expansão editorial: unidades 6 e 7 (05/11/2026)
+
+Foram criadas [[3 - Materias/Avaliacao de Politicas Publicas/06 - conclusoes e recomendacoes de avaliacoes|Conclusões e recomendações de avaliações]] e [[3 - Materias/Avaliacao de Politicas Publicas/07 - etica e integridade da pesquisa avaliativa|Ética e integridade da pesquisa avaliativa]]. O conjunto aprofunda validade interna/externa, resultados nulos, incerteza, recomendações implementáveis, benefícios, evidência por etapa, consentimento quando cabível, reidentificação, autoria, fabricação/falsificação e distinções entre auditoria e pesquisa científica. Para a unidade 7, houve cotejo direcionado com a **Resolução CNS nº 510/2016**, incluindo exceções específicas de submissão ao CEP/CONEP, sem generalização para toda atividade de controle.
+
+**Diagnóstico corrente da triagem editorial:** **16/21 substantivos, 5/21 parciais e 0 lacunas**. Os subitens reclassificados nesta etapa foram **6.1, 6.2, 7.1, 7.2 e 7.3**; 6.3 já constava substantivo. As classificações históricas anteriores permanecem na matriz para rastreabilidade. "Zero lacunas" significa presença de base canônica substantiva para todos os subitens, **não** validação normativa integral, domínio de provas ou ausência de pontos de melhoria. Permanecem parciais **2.2, 2.3, 3.3 e 3.4**, além de um subitem residual a confirmar no cotejo individual das linhas históricas: a contagem requer revisão cruzada antes de status final (ver nota metodológica abaixo).
+
+**Nota metodológica de contagem:** a triagem original informa sete substantivos, dez parciais e quatro lacunas. As expansões da unidade 5 (+2 substantivos de lacunas, +1 de parcial), unidade 4 (+2 de parciais), unidade 6 (+2 de parciais) e unidade 7 (+2 de lacunas e +1 de parcial) implicam **16 substantivos, 5 parciais, 0 lacunas**. O total de subitens substantivos reclassificados entre parciais/lacunas inclui 5.1, 5.2, 5.3, 4.1, 4.2, 6.1, 6.2, 7.1, 7.2 e 7.3. Revisão metodológica e testes C/E calibrados seguem pendentes.
+
 ## Resultado e ordem de implementação
 
 **Triagem:** **21/21 subitens mapeados**; **7 substantivos, 10 parciais e 4 lacunas** (5.2, 5.3, 7.2, 7.3). *Mapeado* não significa coberto; a matéria **não está editorialmente concluída**, nem há auditoria normativa/metodológica fina dos 21 itens. A classificação é provisória e baseada nos artigos inspecionados.
@@ -68,7 +76,7 @@ Foi criada [[3 - Materias/Avaliacao de Politicas Publicas/04 - metodos qualitati
 
 **P1, estratégias qualitativas e mistas (artigo criado em 05/11/2026):** validar fontes e aplicação de 4.1–4.2 em casos e itens C/E, com atenção a seleção, mecanismos e triangulação. Preservar o artigo de Comunicação compartilhado, sem reescrevê-lo para simular cobertura integral da CGU.
 
-**P1, conclusões e ética:** desenvolver 6.1–6.3 e 7.1–7.3, especialmente resultados nulos, validade externa, recomendações proporcionais, consentimento cabível, integridade de evidência e critérios éticos com fontes oficiais.
+**P1, conclusões e ética (artigos criados em 05/11/2026):** cotejar minuciosamente 6.1–6.3 e 7.1–7.3 com guias ex post, atos aplicáveis e itens C/E, incluindo revisão do escopo ético e proteção de dados.
 
 **P2, refinamentos curtos nas notas existentes:** 2.2–2.3 e 3.3–3.4; acrescentar exemplos com pré-teste versus piloto, etapa × objeto de avaliação, projetos e limites da cooperação.
 

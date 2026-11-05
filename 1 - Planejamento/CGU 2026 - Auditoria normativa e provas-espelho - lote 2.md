@@ -38,6 +38,22 @@ Auditoria dirigida a **P3.5: Integridade e Responsabilização**, banca **Cebras
 - [CGU: Lei Anticorrupção](https://www.gov.br/cgu/pt-br/assuntos/integridade-privada/responsabilizacao-de-entes-privados/lei-anticorrupcao).
 - [Parecer oficial que reproduz o art. 25 da Lei 12.846/2013](https://basedeconhecimento.cgu.gov.br/server/api/core/bitstreams/a388dfed-be94-4452-ad34-e499e1c7fd2c/content).
 
+## Questões reais da Cebraspe conferidas com gabarito definitivo
+
+**Prova-espelho:** Agência Nacional de Mineração, aplicação de 16/02/2025, **Cargo 19: Especialista em Recursos Minerais, Engenharia de Minas (Correcional)**, caderno `038_ANM_019_01`. Foram consultados o [caderno oficial](https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_019_01.PDF) e o [gabarito definitivo do mesmo cargo e caderno](https://cdn.cebraspe.org.br/concursos/anm_24/arquivos/Gab_Definitivo_038_ANM_019_01.PDF). Os itens são da banca e permanecem identificados pelo número, sem reproduzir integralmente enunciados protegidos.
+
+| Item real | Gabarito definitivo | Mecanismo do distrator e utilidade |
+| :--- | :--- | :--- |
+| **55** | **E** | Prazos de prescrição disciplinar corretos, mas **marco inicial** deslocado da ciência do fato para a prática: exemplo de **verdade parcial com erro temporal** |
+| **67** | **E** | Requisitos de leniência apresentados como **alternativas suficientes**, quando há condições cumulativas pertinentes: erro de conectivo lógico e suficiência |
+| **69** | **E** | Sanção apresentada como hipótese que poderia afastar a **reparação integral**: confusão entre sanção e ressarcimento |
+| **70** | **C** | Composição da comissão de apuração de responsabilidade da pessoa jurídica: dois ou mais servidores estáveis, segundo a Lei 12.846/2013, art. 10 |
+| **94** | **E** | Exclusão artificial dos atos lesivos em licitações e contratos do escopo do PAR: **erro de exceção/escopo** |
+| **95** | **C** | Obrigação de optar pelo TAC **quando cumpridos os requisitos** da Portaria CGU 27/2022: comando condicional, compatível com a orientação AGU 42/2026 |
+| **96** | **E** | Transposição dos requisitos de TAC de servidor efetivo para empregado público/servidor não efetivo: **erro de sujeito**, pois o art. 62, parágrafo único, é mais restrito |
+
+**Achado metodológico:** este conjunto efetivamente comprova uso, em prova real, de **marco temporal, conectivo lógico, exceção de escopo e transposição de sujeito**. Ele não comprova frequência estatística na CGU 2026 nem que as perguntas inéditas reproduzam a redação original. A prova histórica foi aplicada em fevereiro de 2025: os itens devem ser reinterpretados à luz das normas cabíveis, e o enunciado AGU 42/2026 é uma orientação posterior, coerente no ponto verificado.
+
 ## Limites e sequência
 
-**Verificados pontos normativos selecionados em 05/11/2026**, com novos itens didáticos C/E, mas **sem identificação e cotejo de novos itens reais com gabaritos definitivos neste lote**. As dúvidas sobre hipóteses específicas de interrupção/suspensão da prescrição e cálculo completo de multa ficam abertas para aprofundamento. A próxima etapa é verificar provas oficiais Cebraspe e as notas de admissibilidade, responsabilização e ouvidoria. Este registro não representa progresso pessoal, questões respondidas ou retenção.
+**Verificados pontos normativos selecionados em 05/11/2026**, com novos itens didáticos C/E, mas **com identificação e cotejo de sete itens reais da ANM/Cebraspe 2025 com gabarito definitivo neste lote**. As dúvidas sobre hipóteses específicas de interrupção/suspensão da prescrição e cálculo completo de multa ficam abertas para aprofundamento. A próxima etapa é verificar outros cadernos Cebraspe e as notas de admissibilidade, responsabilização e ouvidoria. Este registro não representa progresso pessoal, questões respondidas ou retenção.

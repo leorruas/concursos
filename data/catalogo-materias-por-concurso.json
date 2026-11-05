@@ -306,7 +306,14 @@
           "rotulo": "Língua Inglesa",
           "itemEdital": "Módulo I: Língua Inglesa",
           "hubArticleId": "art-12e2ffc0c1fe4c6f",
-          "articleIds": []
+          "articleIds": [
+            "art-3e28afc17d694b50",
+            "art-7c50d39b8e144a62",
+            "art-65c2e48b073d49a1",
+            "art-a85cd7e2014b49f3",
+            "art-e38c9d621fa74b05",
+            "art-f7b460a3c2e14d89"
+          ]
         },
         {
           "subjectId": "logica",
@@ -444,7 +451,14 @@
           "rotulo": "Língua Inglesa",
           "itemEdital": "Conhecimentos básicos: Língua Inglesa",
           "hubArticleId": "art-12e2ffc0c1fe4c6f",
-          "articleIds": []
+          "articleIds": [
+            "art-3e28afc17d694b50",
+            "art-7c50d39b8e144a62",
+            "art-65c2e48b073d49a1",
+            "art-a85cd7e2014b49f3",
+            "art-e38c9d621fa74b05",
+            "art-f7b460a3c2e14d89"
+          ]
         },
         {
           "subjectId": "direito-administrativo",

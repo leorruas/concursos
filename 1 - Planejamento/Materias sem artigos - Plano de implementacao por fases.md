@@ -168,12 +168,14 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 **Reuso obrigatório antes de criar:** Hub atual já ensina conectores, skimming e scanning; extrair/refinar, não reiniciar do zero. Vincular à Dataprev e à Câmara somente no recorte aplicável.
 
-- [ ] **F41 · Leitura instrumental, inferências e tese do texto**: ideia central, intenção comunicativa, informação explícita × inferida, skimming × scanning.
-- [ ] **F42 · Conectores e relações lógico-semânticas**: contraste, concessão, causa, consequência, condição e equivalência contextual; extrair do hub.
-- [ ] **F43 · Referência pronominal e coesão lexical**: antecedente, substituição, elipse, sinonímia e referenciação em textos longos.
-- [ ] **F44 · Tempos verbais, voz passiva e modalização**: valor temporal/aspectual, may/must/should, inferência × obrigação, reescrita.
-- [ ] **F45 · Vocabulário em contexto e falsos cognatos**: tecnologia, dados, administração e comunicação; classes e polissemia.
-- [ ] **F46 · Paráfrase, equivalência semântica e função da palavra**: construções equivalentes, escopo de negação, conectores, função sintática em uso.
+- [x] **F41 · Leitura instrumental, inferências e tese do texto**: ideia central, intenção comunicativa, informação explícita × inferida, skimming × scanning.
+- [x] **F42 · Conectores e relações lógico-semânticas**: contraste, concessão, causa, consequência, condição e equivalência contextual; extrair do hub.
+- [x] **F43 · Referência pronominal e coesão lexical**: antecedente, substituição, elipse, sinonímia e referenciação em textos longos.
+- [x] **F44 · Tempos verbais, voz passiva e modalização**: valor temporal/aspectual, may/must/should, inferência × obrigação, reescrita.
+- [x] **F45 · Vocabulário em contexto e falsos cognatos**: tecnologia, dados, administração e comunicação; classes e polissemia.
+- [x] **F46 · Paráfrase, equivalência semântica e função da palavra**: construções equivalentes, escopo de negação, conectores, função sintática em uso.
+
+**Onda 10 concluída editorialmente (05/11/2026):** F41–F46 passaram a ter notas próprias sobre leitura, conectivos, referenciação, tempos e modalidade, vocabulário e preservação do sentido. O hub foi preservado e as notas vinculadas a Dataprev e Câmara, sem afirmar que todas as estruturas constam de todas as provas. Faltam conferência com itens reais e validação por edital.
 
 ## Onda 11: Cálculo Mental
 
@@ -195,4 +197,4 @@ A publicação deve também registrar vínculo de cobertura para as unidades que
 
 Para executar qualquer fase: ler `AGENTS.md` → este roteiro → hub correspondente → notas de reuso → fonte do edital/legislação → consultar `data/contexto-estudo/<concurso>/<materia>.json` se a mudança se relacionar a conteúdo já estudado. Publicar o pequeno lote, conferir CI e marcar como concluídas **somente** as microfases efetivamente publicadas; registrar desvios e lacunas com precisão. Na aula, usar `CHAT.md` e o contexto/sessão mais recente como fonte do próximo passo, não as caixas deste plano.
 
-**Controle atualizado (05/11/2026):** 11 ondas e 49 microfases, **40 atendidas editorialmente e 9 pendentes**. Este saldo é conferido pelos próprios checkboxes; não representa estudo, proficiência ou validação normativa.
+**Controle atualizado (05/11/2026):** 11 ondas e 49 microfases, **46 atendidas editorialmente e 3 pendentes**. Não representa estudo ou aprendizagem.

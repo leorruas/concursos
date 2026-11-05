@@ -5,7 +5,7 @@ title: "Língua inglesa"
 type: "hub"
 status: "ativo"
 created: 2026-08-31
-updated: 2026-10-10
+updated: 2026-11-05
 ---
 
 # Língua inglesa
@@ -15,6 +15,17 @@ updated: 2026-10-10
 Hub de estudos de Língua Inglesa aplicada a concursos públicos (interpretação de textos técnicos, vocabulário corporativo/institucional, conectivos e gramática instrumental).
 
 ---
+
+## Artigos por unidade
+
+- [[3 - Materias/Ingles/01 - leitura instrumental tese e inferencias|01. Leitura instrumental, tese e inferências]]: microfase F41 e exemplos comentados.
+- [[3 - Materias/Ingles/02 - conectivos e relacoes logico semanticas|02. Conectivos e relações lógico-semânticas]]: microfase F42 e exemplos comentados.
+- [[3 - Materias/Ingles/03 - referencia pronominal e coesao lexical|03. Referência pronominal e coesão lexical]]: microfase F43 e exemplos comentados.
+- [[3 - Materias/Ingles/04 - tempos verbais voz passiva e modalizacao|04. Tempos verbais, voz passiva e modalização]]: microfase F44 e exemplos comentados.
+- [[3 - Materias/Ingles/05 - vocabulario em contexto e falsos cognatos|05. Vocabulário em contexto e falsos cognatos]]: microfase F45 e exemplos comentados.
+- [[3 - Materias/Ingles/06 - parafrase equivalencia semantica e escopo|06. Paráfrase, equivalência semântica e escopo]]: microfase F46 e exemplos comentados.
+
+**Recortes:** Dataprev, FGV (exercícios A–E); Câmara, Cebraspe (C/E, quando pertinente ao conteúdo do programa). As seis notas sistematizam o conteúdo sem substituir o repertório de conectivos e leitura já existente neste hub. O vínculo no catálogo é editorial e não representa retenção ou desempenho.
 
 ## 1. Conectivos e Marcadores Discursivos (*Linking Words*)
 

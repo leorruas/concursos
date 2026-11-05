@@ -25,28 +25,59 @@ function configurarMermaid() {
     });
 }
 
-function renderizarDiagramasMermaid() {
-    if (typeof mermaid === "undefined" || !artigoCorpo) return;
-    configurarMermaid();
-    // O marked converte blocos ```mermaid em <pre><code class="language-mermaid">.
-    // Transformar esses blocos antes de chamar mermaid.run().
-    artigoCorpo.querySelectorAll("pre > code.language-mermaid, pre > code.lang-mermaid").forEach(codigo => {
+let geracaoMermaidAtual = 0;
+let proximoIdMermaid = 0;
+
+async function renderizarDiagramasMermaid() {
+    if (typeof artigoCorpo === "undefined" || !artigoCorpo) return;
+
+    // Converter os blocos gerados pelo marked antes do render.
+    artigoCorpo.querySelectorAll('pre > code[class*="language-mermaid"], pre > code[class*="lang-mermaid"]').forEach(codigo => {
         const pre = codigo.parentElement;
+        if (!pre) return;
         const diagrama = document.createElement("div");
         diagrama.className = "mermaid";
-        diagrama.dataset.mermaidSource = codigo.textContent;
-        diagrama.textContent = codigo.textContent;
+        diagrama.dataset.mermaidSource = codigo.textContent.trim();
+        diagrama.textContent = codigo.textContent.trim();
         pre.replaceWith(diagrama);
     });
-    const diagramas = artigoCorpo.querySelectorAll(".mermaid");
+
+    const diagramas = Array.from(artigoCorpo.querySelectorAll(".mermaid"));
     if (!diagramas.length) return;
-    diagramas.forEach(diagrama => {
-        const codigo = diagrama.dataset.mermaidSource || diagrama.textContent;
+    const geracao = ++geracaoMermaidAtual;
+
+    if (typeof mermaid === "undefined") {
+        console.error("Mermaid indisponível: verifique o carregamento da biblioteca.");
+        diagramas.forEach(diagrama => {
+            diagrama.textContent = "Diagrama indisponível: a biblioteca Mermaid não foi carregada.";
+        });
+        return;
+    }
+
+    configurarMermaid();
+    for (const diagrama of diagramas) {
+        if (geracao !== geracaoMermaidAtual || !diagrama.isConnected) break;
+        const codigo = (diagrama.dataset.mermaidSource || diagrama.textContent).trim();
         diagrama.dataset.mermaidSource = codigo;
-        diagrama.removeAttribute("data-processed");
-        diagrama.textContent = codigo;
-    });
-    mermaid.run({ nodes: diagramas }).then(() => equiparExploradorMermaid(diagramas)).catch(err => console.error("Erro Mermaid:", err));
+        const id = "concursos-mermaid-" + (++proximoIdMermaid);
+        try {
+            const resultado = await mermaid.render(id, codigo);
+            if (geracao !== geracaoMermaidAtual || !diagrama.isConnected) break;
+            diagrama.innerHTML = resultado.svg;
+            resultado.bindFunctions?.(diagrama);
+            equiparExploradorMermaid([diagrama]);
+        } catch (erro) {
+            console.error("Falha no diagrama Mermaid:", erro, codigo);
+            if (geracao !== geracaoMermaidAtual || !diagrama.isConnected) break;
+            const erroVisual = document.createElement("p");
+            erroVisual.className = "mermaid-erro";
+            erroVisual.textContent = "Não foi possível renderizar este diagrama. O código original permanece disponível abaixo.";
+            const fonte = document.createElement("pre");
+            fonte.className = "mermaid-fonte-erro";
+            fonte.textContent = codigo;
+            diagrama.replaceChildren(erroVisual, fonte);
+        }
+    }
 }
 
 

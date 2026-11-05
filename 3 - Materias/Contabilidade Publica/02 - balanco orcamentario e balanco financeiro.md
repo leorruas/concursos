@@ -21,6 +21,28 @@ A Lei nº 4.320/1964 fundamenta o **BO no art. 102** e o **BF no art. 103**. O *
 | BO | O que foi previsto e autorizado, e o que foi arrecadado e executado? | previsão inicial/atualizada, receita realizada, dotação inicial/atualizada, despesa empenhada/liquidada/paga, quadros de RP | supor que despesa empenhada é igual ao valor desembolsado |
 | BF | Como se estruturaram ingressos e dispêndios e quanto dinheiro ficou? | receita/despesa orçamentárias, recebimentos/pagamentos extraorçamentários, transferências, caixa inicial/final | confundir saldo de caixa, resultado do exercício e superávit financeiro do BP |
 
+## Comece pela pergunta de cada balanço
+
+Antes das tabelas, imagine que uma universidade arrecade **R$ 100** em tributos, empenhe **R$ 60** para comprar computadores já entregues, mas pague apenas **R$ 40** até 31 de dezembro. Ficam **R$ 20** de obrigação não paga, inscritos regularmente como **restos a pagar processados** porque a despesa já foi liquidada. Não houve outras operações, saldos anteriores nem depreciação. Use esse caso para acompanhar os dois relatórios.
+
+O **Balanço Orçamentário (BO)** pergunta: **quanto do orçamento foi previsto, autorizado e executado?** Ele compara a receita efetivamente arrecadada com a despesa empenhada no exercício. Nesse caso, o resultado orçamentário simplificado é **R$ 100 − R$ 60 = R$ 40**, mesmo que a universidade só tenha desembolsado R$ 40.
+
+O **Balanço Financeiro (BF)** pergunta: **como ingressos, dispêndios e saldos financeiros se relacionam?** O BF considera a despesa orçamentária de R$ 60 e, para compensar a parcela não paga de R$ 20, registra a inscrição de restos a pagar como **recebimento extraorçamentário compensatório**. Esse nome é uma armadilha: **não entraram R$ 20 adicionais no banco**. É o mecanismo de equilíbrio previsto no art. 103, parágrafo único, da Lei nº 4.320/1964. Os ingressos contábeis do BF chegam a R$ 120 (100 + 20), enquanto a despesa orçamentária de R$ 60 e o caixa final de R$ 60 completam o outro lado. A entrada real foi R$ 100; o pagamento real, R$ 40.
+
+**Vocabulário mínimo na ordem em que aparece:**
+
+| Palavra | O que significa aqui | Cuidado |
+| :--- | :--- | :--- |
+| **Previsão da receita** | Estimativa aprovada no orçamento | Não é dinheiro arrecadado |
+| **Dotação** | Autorização orçamentária para uma despesa | Não prova entrega nem pagamento |
+| **Arrecadação** | Momento de realização da receita orçamentária | Não precisa coincidir com uma nova VPA |
+| **Empenho** | Ato que compromete parcela da dotação, conforme a lei | Não é desembolso |
+| **Liquidação** | Verificação formal do direito do credor, conforme o objeto entregue ou prestado | Pode ocorrer em momento diferente do fato gerador patrimonial |
+| **Pagamento** | Quitação com saída de recursos | Não cria automaticamente VPD |
+| **Restos a pagar** | Despesas empenhadas e não pagas até o encerramento, se atendidos os requisitos legais | Processados: liquidados; não processados: ainda não liquidados |
+
+**Como ler o restante da nota:** primeiro encontre esses mesmos valores no BO; depois veja por que o BF apresenta o ingresso compensatório e como isso se relaciona com o caixa final. Somente depois compare *resultado orçamentário*, *variação de caixa* e *superávit financeiro do BP*: são três cálculos com bases diferentes. O [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|artigo de BP e DVP]] explica a última classificação, e a [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|DFC]] detalha o dinheiro efetivamente movimentado.
+
 ## Estrutura do Balanço Orçamentário
 
 O BO evidencia **receitas** por categoria econômica e origem, com **previsão inicial**, **previsão atualizada**, **receita realizada** e **saldo** (excesso ou insuficiência de arrecadação). Para **despesas**, evidencia, entre outros, **dotação inicial**, **dotação atualizada**, **despesas empenhadas**, **liquidadas**, **pagas** e **saldo da dotação**. Conforme o MCASP 11, Parte V, seção 2, o BO contém três quadros: **Quadro Principal**, **Quadro da Execução dos Restos a Pagar Não Processados** e **Quadro da Execução dos Restos a Pagar Processados**.

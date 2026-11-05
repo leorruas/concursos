@@ -5,7 +5,7 @@ title: "Contabilidade Pública"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Contabilidade Pública

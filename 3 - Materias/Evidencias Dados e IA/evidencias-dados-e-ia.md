@@ -5,7 +5,7 @@ title: "Evidências, dados e inteligência artificial"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Evidências, dados e inteligência artificial
@@ -14,15 +14,23 @@ Perguntas, indicadores, evidências, inferência e uso responsável de inteligê
 
 **Prioridade pedagógica:** Complementar (C), segundo o plano interno, não como classificação oficial de incidência na prova. **Escopo:** 5 unidades.
 
+## Artigos próprios publicados
+
+- [[3 - Materias/Evidencias Dados e IA/01 - perguntas fontes e qualidade da evidencia|01. Perguntas, fontes e qualidade da evidência]]: desenvolvimento específico da unidade 1 em itens C/E.
+- [[3 - Materias/Evidencias Dados e IA/02 - indicadores denominadores e subnotificacao|02. Indicadores, denominadores e subnotificação]]: desenvolvimento específico da unidade 2 em itens C/E.
+- [[3 - Materias/Evidencias Dados e IA/03 - inferencias falacias e falsos positivos|03. Inferências, falácias e falsos positivos]]: desenvolvimento específico da unidade 3 em itens C/E.
+- [[3 - Materias/Evidencias Dados e IA/04 - escuta rastreabilidade e protecao de fontes|04. Escuta, rastreabilidade e proteção de fontes]]: desenvolvimento específico da unidade 4 em itens C/E.
+- [[3 - Materias/Evidencias Dados e IA/05 - ia responsavel e validacao de decisoes publicas|05. IA responsável e validação de decisões públicas]]: desenvolvimento específico da unidade 5 em itens C/E.
+
 ## Planejamento das unidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |
 | :--- | :--- | :--- |
-| 01 | Perguntas e fontes: dado × evidência × interpretação × valor; origem e triangulação. | Referências relacionadas; aprofundar para o recorte |
-| 02 | Indicadores: tabelas, taxas, denominadores, percepção × denúncia × detecção × sanção e subnotificação. | Referências relacionadas; aprofundar para o recorte |
-| 03 | Inferência: associação × causalidade, seleção, falácia ecológica, confirmação, falsos positivos/negativos. | Referências relacionadas; aprofundar para o recorte |
-| 04 | Integridade da evidência: rastreabilidade, escuta sem indução e proteção de entrevistados, participantes e denunciantes. | Referências relacionadas; aprofundar para o recorte |
-| 05 | IA responsável: classificação, síntese, vieses, erro, revisão humana, contestação e direitos. | Referências relacionadas; aprofundar para o recorte |
+| 01 | Perguntas e fontes: dado × evidência × interpretação × valor; origem e triangulação. | Artigo 01 publicado; cotejo fino de fontes e treino real pendentes |
+| 02 | Indicadores: tabelas, taxas, denominadores, percepção × denúncia × detecção × sanção e subnotificação. | Artigo 02 publicado; cotejo fino de fontes e treino real pendentes |
+| 03 | Inferência: associação × causalidade, seleção, falácia ecológica, confirmação, falsos positivos/negativos. | Artigo 03 publicado; cotejo fino de fontes e treino real pendentes |
+| 04 | Integridade da evidência: rastreabilidade, escuta sem indução e proteção de entrevistados, participantes e denunciantes. | Artigo 04 publicado; cotejo fino de fontes e treino real pendentes |
+| 05 | IA responsável: classificação, síntese, vieses, erro, revisão humana, contestação e direitos. | Artigo 05 publicado; cotejo fino de fontes e treino real pendentes |
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 

@@ -104,11 +104,13 @@ Ordem inicial: **CGU P3**, com Contabilidade em primeiro lugar, depois Contrata�
 
 **Reuso obrigatório antes de criar:** Comunicação/17 - pesquisa; Atualidades/01 - inteligência artificial; Auditoria/evidencias-e-documentacao e dados-analise-e-ia-na-auditoria.
 
-- [ ] **F20 · Qualidade de dados, fontes e triangulação**: U01: origem, validade, rastreabilidade, dado × interpretação × evidência; ampliar nota existente quando mais adequado.
-- [ ] **F21 · Indicadores, denominadores e subnotificação**: U02: taxas, proporções, bases de comparação, denúncia × detecção × sanção.
-- [ ] **F22 · Inferência causal e erros de interpretação**: U03: associação × causalidade, seleção, falácia ecológica, viés de confirmação, falsos positivos/negativos.
-- [ ] **F23 · Coleta de evidências e proteção de participantes**: U04: escuta não indutiva, proteção de fontes, documentação e anonimização; articular com evidências de auditoria.
-- [ ] **F24 · IA responsável na decisão e controle público**: U05: apoio à síntese/classificação, alucinações, vieses, revisão humana, contestabilidade e direitos.
+- [x] **F20 · Qualidade de dados, fontes e triangulação**: U01: origem, validade, rastreabilidade, dado × interpretação × evidência; ampliar nota existente quando mais adequado.
+- [x] **F21 · Indicadores, denominadores e subnotificação**: U02: taxas, proporções, bases de comparação, denúncia × detecção × sanção.
+- [x] **F22 · Inferência causal e erros de interpretação**: U03: associação × causalidade, seleção, falácia ecológica, viés de confirmação, falsos positivos/negativos.
+- [x] **F23 · Coleta de evidências e proteção de participantes**: U04: escuta não indutiva, proteção de fontes, documentação e anonimização; articular com evidências de auditoria.
+- [x] **F24 · IA responsável na decisão e controle público**: U05: apoio à síntese/classificação, alucinações, vieses, revisão humana, contestabilidade e direitos.
+
+**Onda 5 publicada editorialmente (05/11/2026):** F20–F24 possuem cinco artigos próprios, vinculados ao catálogo por `articleId`, ao hub e ao plano da CGU. As notas de auditoria, avaliação causal e ética permanecem canônicas para evitar reescrever procedimentos gerais. A nota de IA incorpora o GuIA federal de julho de 2026 como **referência técnica orientadora**, não norma jurídica universal. Todos os cinco núcleos possuem exercícios C/E inéditos; auditoria metodológica integral e confronto com provas reais ainda pendentes. Nenhum estudo ou desempenho foi registrado.
 
 ## Onda 6: Governança, Riscos e Integridade
 

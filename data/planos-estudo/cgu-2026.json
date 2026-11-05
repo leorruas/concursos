@@ -1740,7 +1740,8 @@
           "noteRefs": [
             "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
             "3 - Materias/Atualidades/01 - inteligencia artificial",
-            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao",
+            "3 - Materias/Evidencias Dados e IA/01 - perguntas fontes e qualidade da evidencia"
           ],
           "requires": [],
           "sourceIds": [
@@ -1757,7 +1758,8 @@
           "noteRefs": [
             "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
             "3 - Materias/Atualidades/01 - inteligencia artificial",
-            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao",
+            "3 - Materias/Evidencias Dados e IA/02 - indicadores denominadores e subnotificacao"
           ],
           "requires": [
             "up2-4-1"
@@ -1776,7 +1778,8 @@
           "noteRefs": [
             "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
             "3 - Materias/Atualidades/01 - inteligencia artificial",
-            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao",
+            "3 - Materias/Evidencias Dados e IA/03 - inferencias falacias e falsos positivos"
           ],
           "requires": [
             "up2-4-2"
@@ -1795,7 +1798,8 @@
           "noteRefs": [
             "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
             "3 - Materias/Atualidades/01 - inteligencia artificial",
-            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao",
+            "3 - Materias/Evidencias Dados e IA/04 - escuta rastreabilidade e protecao de fontes"
           ],
           "requires": [
             "up2-4-3"
@@ -1814,7 +1818,8 @@
           "noteRefs": [
             "3 - Materias/Comunicacao/17 - pesquisa em comunicacao",
             "3 - Materias/Atualidades/01 - inteligencia artificial",
-            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao"
+            "3 - Materias/Auditoria Governamental/evidencias-e-documentacao",
+            "3 - Materias/Evidencias Dados e IA/05 - ia responsavel e validacao de decisoes publicas"
           ],
           "requires": [
             "up2-4-4"

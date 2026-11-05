@@ -3,6 +3,19 @@
 **Regra operacional de privacidade (05/11/2026):** `leorruas/concurso-dados` é a fonte **privada** para sessões e respostas, lacunas, ledger, resultados, progresso, contexto, revisões e arquivos `Avancos.md`. `leorruas/concursos` é a fonte **pública** para teoria, artigos, catálogo não pessoal e flashcards de conteúdo. **Nunca recriar dados individuais no repositório público**, em arquivos de diagnóstico, mensagens de commit, exemplos de artigo ou logs de CI. O protocolo abaixo que menciona `data/sessoes/` e `data/contexto-estudo/` refere-se ao cofre privado. Consolidações são executadas pelo workflow do cofre e não pelo Pages. O navegador público preserva revisões locais, mas ainda não possui sincronização autenticada do perfil de erros. Em caso de falha ao acessar o cofre, não gravar no público como alternativa. Esta regra prevalece sobre qualquer orientação anterior de registrar progresso no site público.
 
 
+## Mapa operacional entre repositórios (regra prioritária)
+
+Antes de usar caminhos como `data/sessoes/` ou `00 - Desempenho/`, identificar a qual repositório pertencem. Para agentes, o formato `leorruas/<repositorio>:<caminho>` elimina ambiguidades. O cofre possui [instruções próprias](https://github.com/leorruas/concurso-dados/blob/main/AGENTS.md); lê-las sempre que a tarefa envolver histórico individual.
+
+| Repositório | Documentos e uso |
+| --- | --- |
+| `leorruas/concursos` **público** | `AGENTS.md`, `CHAT.md`, `me.md`, `index.md`, `2 - Editais/**`, `3 - Materias/**` exceto `Avancos.md`, `data/flashcards.json`, `data/catalogo-materias-por-concurso.json`, `data/planos-estudo/cgu-2026.json` (sem tentativas pessoais), `data/corpus-*.json` |
+| `leorruas/concurso-dados` **privado** | `data/sessoes/README.md`, `data/sessoes/<id>.json`, `data/contexto-estudo/indice.json`, `data/contexto-estudo/<concursoId>.json`, `data/contexto-estudo/<concursoId>/<materia>.json`, `data/contexto-estudo/flashcards-prioridades.json`, `data/questoes-ledger.json`, `data/erros-recorrentes.json`, `data/provas.json`, `data/sessoes-saidas.json`, `data/ingestoes-processadas.json`, `00 - Desempenho/**`, `3 - Materias/**/Avancos.md` |
+
+**Ao retomar estudos:** consultar `CHAT.md` neste repositório e ler os contextos no cofre. Usar a biblioteca pública para notas e fontes. **Ao registrar:** gravar apenas a sessão no cofre; a action privada consolida os indicadores derivados. **Ao fechar uma unidade:** textos e cartões sem dados pessoais são editados no repositório público, enquanto checkpoints e resultados ficam no privado. Commits não são atômicos entre repositórios: validar separadamente cada lado; nunca incluir a sessão no público para simular uma transação única. Uma falha de acesso ao cofre impede o registro remoto pessoal.
+
+**Discursivas:** `data/planos-estudo/cgu-2026.json` no público descreve a rotina, e o campo `discursivePractice.attempts` deve permanecer sem dados individuais; textos, tentativas e correções pertencem a `leorruas/concurso-dados:00 - Desempenho/Provas/`. **Flashcards:** `data/flashcards.json` público contém cartões; prioridades de erros e datas individuais ficam no cofre. O navegador ainda não recebe essas prioridades privadas automaticamente. Instruções antigas que sugiram buscar `raw.githubusercontent.com` para obter prioridades pessoais, editar `00 - Desempenho/` público ou gravar resultados no catálogo público estão revogadas.
+
 **Banca da preparação:** CGU 2026, especialidade Auditoria: **Cebraspe, itens Certo/Errado (C/E)** em todas as matérias, incluindo Contabilidade e Avaliação de Políticas Públicas. Ler `activeExam` no contexto antes de escolher o formato. As instruções da Dataprev/FGV e a regra de cinco alternativas pertencem à Dataprev. A prova histórica CGU 2022/FGV é apoio de conteúdo; o treino da CGU 2026 segue Cebraspe. Na primeira resposta de cada retomada, indicar brevemente “CGU 2026: Cebraspe, C/E”.
 
 ## Fluxo rápido de estudo pelo chat: prioridade operacional
@@ -30,7 +43,7 @@ Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, i
 
 - Até **11/10/2026**, pedidos genéricos ou ambíguos continuam vinculados à **Dataprev**, que permanece como prioridade temporal até a prova.
 - Referência explícita à **Dataprev** aciona o protocolo FGV-Dataprev de `me.md`. Nesta reta final, o fluxo padrão é de **simulados integrais**, com teoria apenas como microrevisão derivada de erros, salvo pedido explícito em contrário.
-- De **12/10/2026 a 13/12/2026**, após a Dataprev, o padrão para pedidos genéricos será **CGU 2026, Cargo 1 Auditoria**, conforme decisão de 09/10/2026, com fonte em `2 - Editais/CGU 2026 - Auditoria.md`, estratégia e discursiva em `3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E.md` e acompanhamento em `00 - Desempenho/` (sem pasta de projeto CGU). Usar o edital CGU, Cebraspe C/E, pesos +1/-1 (P1/P2) e +2/-2 (P3), as duas discursivas próprias e ledger de desempenho separado.
+- De **12/10/2026 a 13/12/2026**, após a Dataprev, o padrão para pedidos genéricos será **CGU 2026, Cargo 1 Auditoria**, conforme decisão de 09/10/2026, com fonte em `2 - Editais/CGU 2026 - Auditoria.md`, estratégia e discursiva em `3 - Materias/Estrategia de Prova/Cebraspe - CGU 2026 Auditoria e metodo C E.md` e acompanhamento em `leorruas/concurso-dados:00 - Desempenho/` (sem pasta de projeto CGU). Usar o edital CGU, Cebraspe C/E, pesos +1/-1 (P1/P2) e +2/-2 (P3), as duas discursivas próprias e ledger de desempenho separado.
 - Referência explícita à **CGU** sempre aciona seu projeto, inclusive antes de 11/10. Não transformar nota existente em conhecimento comprovado; `coberturaNota` e `exposicaoEstudo` devem permanecer distintos.
 - Referência explícita à **Câmara dos Deputados** aciona o projeto `4 - Projetos/camara-2026/`, o edital da Câmara e o protocolo **Cebraspe-Câmara** de `me.md`. Estudo teórico, revisão, questões e simulados da Câmara seguem o padrão Cebraspe/Cespe e o formato C/E.
 - Nunca misturar banca ou formato: **FGV para Dataprev; Cebraspe para Câmara e CGU, cada uma com seu edital e pontuação**. Notas teóricas compartilhadas podem ser reutilizadas, mas a mecânica de cobrança, o corpus de calibração e os registros de desempenho pertencem ao concurso-alvo.
@@ -40,7 +53,7 @@ Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, i
 
 Para todo novo edital ou retificação relevante, ler e atualizar [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] na mesma operação: fonte, dados em `data/concursos.json`, comparação com notas, checklist no edital, estratégia/discursiva na matéria, acompanhamento em desempenho e simulados, índice, prioridades, publicação e pendências; não criar automaticamente pastas de projeto.
 
-Projetos em `4 - Projetos/` são **privados por padrão**. Publicar apenas as notas explicitamente autorizadas com `public: true` e `publicCategoria`. **Estratégias de prova e discursivas pertencem a `3 - Materias/Estrategia de Prova/`; programa e checklist a `2 - Editais/`; resultados e simulados a `00 - Desempenho/`.** Não recriar a pasta CGU. `dashboardPath` é opcional; a home não deve mostrar “abrir preparação”. Verificar presença da estratégia no manifesto público e preservação dos dados do concurso, sem confundir commit verde com navegação validada.
+Projetos em `4 - Projetos/` são **privados por padrão**. Publicar apenas as notas explicitamente autorizadas com `public: true` e `publicCategoria`. **Estratégias de prova pertencem a `3 - Materias/Estrategia de Prova/` do público; programa e checklist a `2 - Editais/` do público; resultados, tentativas discursivas e simulados a `00 - Desempenho/` do cofre privado.** Não recriar a pasta CGU. `dashboardPath` é opcional; a home não deve mostrar “abrir preparação”. Verificar presença da estratégia no manifesto público e preservação dos dados do concurso, sem confundir commit verde com navegação validada.
 
 ## Corpus de provas-espelho: etapa obrigatória do novo edital
 
@@ -345,7 +358,7 @@ Para Câmara ou outro concurso, usar as superfícies equivalentes do concurso-al
 
 ### Hub obrigatório de desempenho por edital e prova
 
-Sempre que um **simulado completo** ou outra prova registrada em `data/provas.json` for criada ou corrigida, atualizar na mesma operação o hub público [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]].
+Sempre que um **simulado completo** ou outra prova registrada em `data/provas.json` for criada ou corrigida, atualizar na mesma operação o hub **privado** `leorruas/concurso-dados:00 - Desempenho/Provas/00 - Desempenho por edital e prova.md`, sem replicar resultados no público.
 
 O hub deve:
 - registrar o novo resultado na seção do concurso correto;
@@ -392,7 +405,7 @@ Quando uma operação só estiver correta se vários arquivos permanecerem sincr
 
 ## Regra de publicação de conteúdo público
 
-Sempre que a tarefa criar, mover ou alterar de forma relevante uma página pública em `3 - Materias/` ou `00 - Desempenho/`, o agente deve também ler e aplicar:
+Sempre que a tarefa criar, mover ou alterar de forma relevante uma página pública em `3 - Materias/` (excluindo `Avancos.md`), o agente deve também ler e aplicar:
 
 **[[1 - Planejamento/Contrato de publicacao GitHub Pages|Contrato de publicação — GitHub Pages]]**.
 

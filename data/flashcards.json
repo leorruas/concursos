@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "exams": [
     {
       "id": "cgu-2026",
@@ -1539,7 +1539,7 @@
       "term": "Projeto orçamentário",
       "definition": "Ação delimitada no tempo que contribui para expandir ou aperfeiçoar a atuação governamental.",
       "example": "Construção de uma escola.",
-      "confusion": "Atividade é contínua; tipo de ação não determina sozinho a natureza da despesa.",
+      "confusion": "Projeto é um tipo de ação programática; não exige que todas as despesas estejam no GND 4 (Investimentos).",
       "topic": "Classificações",
       "subjectIds": [
         "orcamento-publico"
@@ -1560,11 +1560,15 @@
         "locator": "MCASP 11ª edição, Parte I; MTO 2026"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-05",
+      "revision": 2,
       "conceptIds": [
         "projeto-acao-vs-gnd-investimento"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Uma ação é projeto e prevê material de consumo. Todas as despesas devem ser GND 4?",
+        "answer": "Não. O GND depende da natureza de cada gasto; projeto é classificação da ação."
+      }
     },
     {
       "id": "atividade",
@@ -1632,10 +1636,10 @@
     },
     {
       "id": "gnd",
-      "term": "Grupo de Natureza de Despesa (GND)",
+      "term": "Grupo de Natureza da Despesa (GND)",
       "definition": "Agrupamento econômico da despesa por características comuns do gasto, como pessoal, juros, investimentos ou amortização da dívida.",
       "example": "Equipamento pode integrar o GND Investimentos.",
-      "confusion": "GND não é elemento de despesa.",
+      "confusion": "GND classifica o gasto por grupo econômico; projeto é tipo de ação e não obriga GND 4 (Investimentos).",
       "topic": "Classificações",
       "subjectIds": [
         "orcamento-publico"
@@ -1656,8 +1660,8 @@
         "locator": "MCASP 11ª edição, Parte I; Lei nº 4.320/1964, art. 12"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "reviewedAt": "2026-11-05",
+      "revision": 3,
       "conceptIds": [
         "gnd-vs-elemento-vs-fonte",
         "projeto-acao-vs-gnd-investimento"

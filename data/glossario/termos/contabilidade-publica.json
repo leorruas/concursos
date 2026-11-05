@@ -198,7 +198,7 @@
       "term": "Ativo patrimonial",
       "aliases": [],
       "definition": "Recurso controlado pela entidade graças a algo que já aconteceu e que pode ajudar a prestar serviços ou trazer benefícios no futuro. É um ativo mesmo sem gerar lucro.",
-      "contrast": "O controle sobre o recurso é importante. A entidade não precisa, em todos os casos, ser a proprietária formal ou receber dinheiro por seu uso.",
+      "contrast": "Ativo patrimonial abrange todo recurso controlado que presta serviços ou traz benefícios. Ativo financeiro, no art. 105 da Lei nº 4.320/1964, identifica dinheiro e valores realizáveis sem autorização orçamentária. A divisão financeiro/permanente difere da divisão circulante/não circulante.",
       "cebraspeTrap": "Afirmar que um equipamento só é ativo se gerar receita comercial ou já estiver integralmente pago.",
       "example": "Um equipamento controlado pela escola oferece potencial de serviço educacional ao longo de sua vida útil.",
       "subjectIds": [
@@ -227,7 +227,7 @@
       "term": "Passivo patrimonial",
       "aliases": [],
       "definition": "Obrigação que a entidade já tem por causa de algo que aconteceu e que exigirá transferir recursos para ser cumprida. Exemplo: valor devido por serviço já recebido.",
-      "contrast": "O empenho, sozinho, não prova que a obrigação patrimonial surgiu. É necessário verificar o fato que deu origem ao dever de pagar.",
+      "contrast": "Passivo patrimonial exige obrigação presente decorrente de fato passado. Passivo financeiro é classificação legal ligada à possibilidade de pagamento sem nova autorização orçamentária e inclui certos empenhos ainda a liquidar, mesmo sem passivo patrimonial correspondente.",
       "cebraspeTrap": "Concluir que qualquer valor empenhado sem entrega representa automaticamente passivo patrimonial.",
       "example": "O serviço prestado e ainda não pago pode originar obrigação patrimonial no exercício de prestação.",
       "subjectIds": [
@@ -281,7 +281,7 @@
       "term": "Balanço patrimonial",
       "aliases": [],
       "definition": "Relatório que apresenta, em uma data específica, os ativos, os passivos e o patrimônio líquido da entidade. É uma fotografia da sua situação patrimonial.",
-      "contrast": "O Balanço Patrimonial mostra saldos em uma data. A Demonstração das Variações Patrimoniais explica aumentos e diminuições ocorridos no período.",
+      "contrast": "O Quadro Principal do Balanço mostra ativos e passivos patrimoniais. O quadro financeiro/permanente segue o art. 105 da Lei nº 4.320/1964 e pode incluir compromissos de empenho sem passivo patrimonial correspondente. Circulante não é sinônimo de financeiro.",
       "cebraspeTrap": "Equiparar ativo circulante a ativo financeiro ou passivo circulante a passivo financeiro sem examinar os quadros próprios.",
       "example": "O quadro principal apresenta saldos patrimoniais, enquanto quadro específico apura superávit ou déficit financeiro.",
       "subjectIds": [

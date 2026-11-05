@@ -7,8 +7,8 @@
       "term": "Ativo",
       "aliases": [],
       "definition": "Recurso que a entidade controla porque algo já aconteceu e que pode ajudá-la a prestar serviços ou trazer benefícios econômicos no futuro.",
-      "contrast": "Ativo pode ser dinheiro, equipamento ou direito a receber. Ele pode prestar serviços públicos sem produzir lucro; ter controle sobre o recurso é mais importante que possuir seu título formal.",
-      "cebraspeTrap": "Afirmar que um bem público só pode ser classificado como ativo se gerar receita, estiver totalmente pago ou pertencer formalmente à entidade.",
+      "contrast": "Ativo é a categoria ampla: dinheiro, direitos a receber e equipamentos controlados pelo órgão. Ativo financeiro é um grupo específico do quadro legal do Balanço Patrimonial, formado por dinheiro e valores realizáveis sem autorização orçamentária; um computador também é ativo, mas não é ativo financeiro.",
+      "cebraspeTrap": "Dizer que todo ativo é financeiro ou que só é ativo o que pode virar dinheiro rapidamente. O computador de uma escola é ativo por seu potencial de serviço.",
       "example": "Uma escola pública controla computadores usados nas aulas: eles são ativos porque ajudam a oferecer educação.",
       "subjectIds": [
         "contabilidade-publica"
@@ -36,8 +36,8 @@
       "term": "Passivo",
       "aliases": [],
       "definition": "Obrigação que a entidade já tem por causa de algo ocorrido e que precisará cumprir transferindo recursos, como dinheiro ou outros bens e serviços.",
-      "contrast": "Passivo é o que a entidade deve cumprir. Um empenho registra compromisso no orçamento; só ele não prova que já existe obrigação patrimonial.",
-      "cebraspeTrap": "Afirmar que todo empenho não pago é automaticamente um passivo ou que uma obrigação só existe quando seu pagamento vence.",
+      "contrast": "Passivo é obrigação presente surgida de fato passado, como um serviço já prestado e não pago. Passivo financeiro é uma categoria legal ligada à execução do orçamento: pode incluir empenho a liquidar mesmo sem passivo patrimonial reconhecido.",
+      "cebraspeTrap": "Afirmar que todo compromisso do passivo financeiro é necessariamente obrigação patrimonial já constituída, ou que qualquer empenho isolado prova passivo patrimonial.",
       "example": "Uma escola recebeu um serviço de manutenção, mas ainda não pagou o fornecedor: a obrigação de pagar pode ser registrada como passivo.",
       "subjectIds": [
         "contabilidade-publica"

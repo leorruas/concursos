@@ -43,6 +43,17 @@ A classificação em **ativo financeiro/permanente** e **passivo financeiro/perm
 - **Passivo financeiro:** obrigações e compromissos exigíveis cujo pagamento independe de autorização orçamentária.
 - **Passivo permanente:** dívidas e demais compromissos que dependem de autorização legislativa para amortização ou resgate.
 
+**Comparação direta: são duas classificações com perguntas diferentes.**
+
+| Conceito | O que pergunta | Exemplo |
+| :--- | :--- | :--- |
+| **Ativo patrimonial** | Que recursos a entidade controla e pode utilizar? | Caixa e computadores de uma escola são ativos. |
+| **Ativo financeiro** | Que dinheiro e créditos podem ser realizados sem autorização orçamentária? | R$ 100 em caixa integra o ativo financeiro; computadores de uso, em regra, não. |
+| **Passivo patrimonial** | Que obrigações presentes já surgiram de eventos ocorridos? | Serviço prestado e ainda não pago pode gerar passivo. |
+| **Passivo financeiro** | Que compromissos podem ser pagos sem nova autorização orçamentária? | Empenho de R$ 30 por serviço ainda não prestado pode integrar o passivo financeiro, sem passivo patrimonial correspondente. |
+
+**Atenção:** a divisão financeiro/permanente do art. 105 da Lei nº 4.320/1964 não equivale à divisão circulante/não circulante do quadro principal. Financeiro não significa simplesmente curto prazo, nem se limita ao saldo bancário.
+
 **Exceção decisiva:** o MCASP, seção 4.2.2, inclui nesse quadro informações da **classe 6** (por exemplo, Crédito Empenhado a Liquidar e Restos a Pagar Não Processados a Liquidar) para calcular passivos financeiros **mesmo sem passivo patrimonial correspondente** no Quadro Principal. Uma questão que equipare os dois quadros integralmente está errada. Da mesma forma, **circulante ≠ financeiro** e **não circulante ≠ permanente**.
 
 ### Quadro de compensação

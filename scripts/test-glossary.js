@@ -9,12 +9,12 @@ const root = fileURLToPath(new URL('..', import.meta.url));
 const published = JSON.parse(fs.readFileSync(path.join(root, '_site/glossario-index.json'), 'utf8'));
 const home = fs.readFileSync(path.join(root, '_site/index.html'), 'utf8');
 assert.equal(published.schemaVersion, 1);
-assert(published.plannedCount >= 325, 'Backlog deve preservar os 200 iniciais e as duas expansões de Orçamento');
-assert(published.publishedCount >= 209, 'Glossário deve preservar as 143 definições anteriores e mais 30 de orçamento');
+assert(published.plannedCount >= 327, 'Backlog deve preservar os 200 iniciais e as duas expansões de Orçamento');
+assert(published.publishedCount >= 211, 'Glossário deve preservar as 143 definições anteriores e mais 30 de orçamento');
 assert.equal(published.terms.length, published.publishedCount);
 assert.equal(new Set(published.terms.map(x => x.id)).size, published.publishedCount);
 assert(published.subjects.length >= 3);
-for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',140],['contabilidade-publica',34]]) {
+for (const [subject, minimo] of [['auditoria-governamental',35],['orcamento-publico',140],['contabilidade-publica',36]]) {
   assert(published.terms.filter(t => t.subjectIds.includes(subject)).length >= minimo, subject + ': termo faltante');
 }
 assert(published.terms.every(t => t.status === 'reviewed' && t.sources.length > 0 && t.sources.every(s => /^https:\/\//.test(s.url))));
@@ -97,6 +97,44 @@ for (const [consulta, id, more] of [
   }
 }
 assert(fs.existsSync(path.join(root, 'data/glossario/termos/contabilidade-publica-fundamentos.json')), 'Arquivo com conceitos básicos não incluído');
+assert(fs.existsSync(path.join(root, 'data/glossario/termos/contabilidade-publica-financeiro.json')),
+  'Os dois conceitos financeiros devem ser publicados em arquivo próprio');
+for(const [term,id,generalId] of [
+  ['ativo financeiro','glo-ativo-financeiro','glo-ativo'],
+  ['passivo financeiro','glo-passivo-financeiro','glo-passivo']
+]) {
+  const exact = match(term,'P3','contabilidade-publica');
+  assert.equal(exact[0]?.id,id, 'Busca exata por '+term+' deve priorizar o conceito legal');
+  const generic = match(term.split(' ')[0],'P3','contabilidade-publica');
+  assert(generic.some(t=>t.id===id) && generic.some(t=>t.id===generalId),
+    'Consulta simples deve trazer o conceito amplo e a classificação financeira: '+term);
+  const newEntry = published.terms.find(t=>t.id===id);
+  assert(newEntry?.articleLinks.some(a=>a.articleId==='art-bf384b8a28aa4753'),
+    'Verbete financeiro sem vínculo com Balanço Patrimonial: '+term);
+  assert(newEntry.definition.length > 45 && newEntry.contrast.length > 80 &&
+    newEntry.cebraspeTrap.length > 40 && newEntry.example.length > 45,
+    'Verbete financeiro exige explicação, contraste, pegadinha e exemplo: '+term);
+  assert(newEntry.sources.some(src=>src.url.includes('lei-4320')) &&
+    newEntry.sources.some(src=>src.url.includes('MCASP')),
+    'Fontes legais e MCASP obrigatórias para classificação financeira: '+term);
+}
+const passivoFinanceiro = published.terms.find(t=>t.id==='glo-passivo-financeiro');
+assert(/sem passivo patrimonial|sem obrigação patrimonial/.test(
+  passivoFinanceiro.contrast+' '+passivoFinanceiro.example),
+  'Explicação deve cobrir passivo financeiro sem passivo patrimonial associado');
+for(const termId of ['glo-ativo','glo-passivo','glo-ativo-patrimonial','glo-passivo-patrimonial']) {
+  const entry=published.terms.find(t=>t.id===termId);
+  assert(entry && /financeir/.test(entry.contrast),
+    'Verbetes gerais precisam explicar a diferença para a classificação financeira: '+termId);
+}
+const bpNote = fs.readFileSync(path.join(root,
+  '3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md'),'utf8');
+assert(bpNote.includes('Comparação direta') &&
+  bpNote.includes('**Ativo financeiro**') &&
+  bpNote.includes('**Passivo financeiro**') &&
+  bpNote.includes('sem passivo patrimonial'),
+  'Nota canônica deve destacar a fronteira entre os quatro conceitos');
+
 const novosFatos = [
   'fato-contabil',
   'fato-permutativo',
@@ -235,7 +273,7 @@ assert(match('sem termo impossível').length === 0);
 // Revisão editorial de linguagem: definições curtas, com contraste e exemplo próprio.
 // Os testes mecânicos preservam limites e conceitos essenciais; a compreensão
 // final ainda exige leitura humana, conforme o roteiro editorial.
-assert.equal(published.publishedCount, 209);
+assert.equal(published.publishedCount, 211);
 assert(published.terms.every(t => t.definition.length <= 320),
   'Definições devem ser curtas; detalhes técnicos ficam em contraste, exemplo e artigo');
 for(const [id, fragments] of [
@@ -263,4 +301,4 @@ assert(plannedText.includes('**202/202 verbetes anteriores**') &&
        plannedText.includes('**166 definições ou contrastes**') &&
        plannedText.includes('Última etapa do roadmap: PCASP'),
        'Plano deve registrar revisão de todas as matérias sem antecipar o PCASP');
-console.log('SUCESSO: revisão lexical de 202/202 verbetes anteriores, com 209 publicados; análise final de pegadinhas pendente.');
+console.log('SUCESSO: 211 verbetes, distinção financeiro/patrimonial, links e glossário testados; PCASP segue planejado.');

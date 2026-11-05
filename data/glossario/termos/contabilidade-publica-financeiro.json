@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "contabilidade-publica",
+  "entries": [
+    {
+      "id": "glo-ativo-financeiro",
+      "term": "Ativo Financeiro",
+      "aliases": [
+        "Ativo financeiro da Lei 4.320"
+      ],
+      "definition": "Dinheiro e direitos que o governo pode realizar sem precisar de autorização orçamentária para isso. Essa é a classificação legal do art. 105 da Lei nº 4.320/1964.",
+      "contrast": "Ativo é todo recurso controlado que pode oferecer serviços ou benefícios, como caixa e equipamentos. Ativo financeiro é um recorte usado no quadro legal do Balanço Patrimonial; não é sinônimo de todo ativo nem de ativo circulante.",
+      "cebraspeTrap": "Dizer que todo ativo de curto prazo é financeiro, que ativo financeiro é apenas dinheiro em caixa ou que os equipamentos da escola são automaticamente ativos financeiros.",
+      "example": "O município tem R$ 100 em caixa e um computador usado na escola. Ambos são ativos, mas o caixa integra o ativo financeiro; o computador, em regra, o permanente do quadro legal.",
+      "articleIds": [
+        "art-bf384b8a28aa4753",
+        "art-85b3a61ad09e44c1"
+      ],
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, art. 105, §§ 1º a 4º, texto atualizado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+        },
+        {
+          "label": "MCASP, 11ª edição, Parte V, §§ 4.2.2 e 4.5.2, Tesouro Nacional",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-passivo-financeiro",
+      "term": "Passivo Financeiro",
+      "aliases": [
+        "Passivo financeiro da Lei 4.320"
+      ],
+      "definition": "Dívidas e compromissos que podem ser pagos sem nova autorização orçamentária. É uma classificação legal usada no quadro financeiro/permanente do Balanço Patrimonial.",
+      "contrast": "Passivo patrimonial é obrigação presente decorrente de um fato passado. Passivo financeiro segue a regra orçamentária do art. 105 e pode incluir empenhos a liquidar sem obrigação patrimonial já reconhecida.",
+      "cebraspeTrap": "Afirmar que passivo financeiro é igual a passivo circulante ou que todo valor do passivo financeiro também precisa ser passivo patrimonial no quadro principal do Balanço.",
+      "example": "A escola empenhou R$ 30 por serviço ainda não prestado. O empenho a liquidar pode integrar o passivo financeiro no quadro legal, sem criar, por si, passivo patrimonial.",
+      "articleIds": [
+        "art-bf384b8a28aa4753",
+        "art-85b3a61ad09e44c1"
+      ],
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, art. 105, §§ 1º a 4º, texto atualizado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+        },
+        {
+          "label": "MCASP, 11ª edição, Parte V, §§ 4.2.2 e 4.5.2, Tesouro Nacional",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

@@ -27,7 +27,7 @@
     {
       "subjectId": "contabilidade-publica",
       "label": "Contabilidade Pública",
-      "count": 35,
+      "count": 37,
       "examBlock": "P3",
       "editorialPriority": "A"
     },
@@ -3031,6 +3031,24 @@
       "examBlock": "P3",
       "editorialPriority": "A",
       "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ativo-financeiro",
+      "term": "Ativo Financeiro",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-passivo-financeiro",
+      "term": "Passivo Financeiro",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md",
       "status": "planned"
     },
     {

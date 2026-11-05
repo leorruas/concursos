@@ -26,6 +26,17 @@ for(const dir of ['data/sessoes','data/contexto-estudo','00 - Desempenho']) {
 for(const f of ['data/erros-recorrentes.json','data/provas.json','data/questoes-ledger.json','data/sessoes-saidas.json','data/ingestoes-processadas.json']) {
   assert(!fs.existsSync(path.join(root,f)),'Arquivo privado ainda no repositório público: '+f);
 }
+const privateProjectPaths=[
+  '4 - Projetos/dataprev-2026/00 Dashboard.md',
+  '4 - Projetos/dataprev-2026/Log de erros.md',
+  '4 - Projetos/dataprev-2026/Questoes e Simulados.md',
+  '4 - Projetos/dataprev-2026/Cronograma.md',
+  '4 - Projetos/dataprev-2026/O que estudar.md'
+];
+for(const f of privateProjectPaths){
+  assert(!fs.existsSync(path.join(root,f)),'Projeto individual no repositório público: '+f);
+  assert(!fs.existsSync(path.join(site,f)),'Projeto individual publicado no site: '+f);
+}
 const checkNotes=(dir)=>!fs.existsSync(dir)||fs.readdirSync(dir,{withFileTypes:true}).every(e=>e.isDirectory()?checkNotes(path.join(dir,e.name)):e.name!=='Avancos.md');
 assert(checkNotes(path.join(root,'3 - Materias')),'Avanços individuais na fonte pública');
 const publicUI=fs.readFileSync(path.join(site,'web/10-flashcards-ui.js'),'utf8');

@@ -18,6 +18,8 @@ Antes de usar caminhos como `data/sessoes/` ou `00 - Desempenho/`, identificar a
 
 **Banca da preparação:** CGU 2026, especialidade Auditoria: **Cebraspe, itens Certo/Errado (C/E)** em todas as matérias, incluindo Contabilidade e Avaliação de Políticas Públicas. Ler `activeExam` no contexto antes de escolher o formato. As instruções da Dataprev/FGV e a regra de cinco alternativas pertencem à Dataprev. A prova histórica CGU 2022/FGV é apoio de conteúdo; o treino da CGU 2026 segue Cebraspe. Na primeira resposta de cada retomada, indicar brevemente “CGU 2026: Cebraspe, C/E”.
 
+**Projeto Dataprev legado:** os arquivos `00 Dashboard.md`, `Log de erros.md`, `Questoes e Simulados.md`, `Cronograma.md` e `O que estudar.md` que registram resultados ou listas concluídas estão em `leorruas/concurso-dados:4 - Projetos/dataprev-2026/`. Não reconstruir suas métricas no público nem criar links públicos para seus caminhos antigos.
+
 ## Fluxo rápido de estudo pelo chat: prioridade operacional
 
 A partir de 03/11/2026, aulas e checkpoints de microtreinos seguem `CHAT.md`. Nesse escopo, a entrada curta e `data/contexto-estudo/<concursoId>.json` substituem a releitura integral recorrente de governança e ledger. As regras completas continuam aplicáveis a manutenção, ingestão legada, notas novas e simulados integrais. Salvar uma sessão em `data/sessoes/<id>.json` no fechamento do bloco; a automação atualiza as métricas derivadas. Corrigir na origem, preservar o legado e consolidar teoria obrigatoriamente no fechamento de cada unidade, antes da próxima unidade da matéria, conforme CHAT.md. As antigas exigências de editar manualmente todas as superfícies por microtreino ficam substituídas pela projeção automática validada. Ver `data/sessoes/README.md`.
@@ -53,7 +55,7 @@ Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, i
 
 Para todo novo edital ou retificação relevante, ler e atualizar [[1 - Planejamento/Registro de entrada de editais|Registro de entrada de editais]] na mesma operação: fonte, dados em `data/concursos.json`, comparação com notas, checklist no edital, estratégia/discursiva na matéria, acompanhamento em desempenho e simulados, índice, prioridades, publicação e pendências; não criar automaticamente pastas de projeto.
 
-Projetos em `4 - Projetos/` são **privados por padrão**. Publicar apenas as notas explicitamente autorizadas com `public: true` e `publicCategoria`. **Estratégias de prova pertencem a `3 - Materias/Estrategia de Prova/` do público; programa e checklist a `2 - Editais/` do público; resultados, tentativas discursivas e simulados a `00 - Desempenho/` do cofre privado.** Não recriar a pasta CGU. `dashboardPath` é opcional; a home não deve mostrar “abrir preparação”. Verificar presença da estratégia no manifesto público e preservação dos dados do concurso, sem confundir commit verde com navegação validada.
+Os projetos em `4 - Projetos/` ficam **fora do Pages por padrão**, mas seus arquivos continuam públicos se estiverem neste repositório Git. Guardar qualquer registro pessoal, checklist preenchido, resultado ou plano de estudo individual **somente** em `leorruas/concurso-dados`. Publicar no Pages apenas notas editoriais expressamente autorizadas com `public: true` e `publicCategoria`. **Estratégias de prova pertencem a `3 - Materias/Estrategia de Prova/` do público; programa e checklist a `2 - Editais/` do público; resultados, tentativas discursivas e simulados a `00 - Desempenho/` do cofre privado.** Não recriar a pasta CGU. `dashboardPath` é opcional; a home não deve mostrar “abrir preparação”. Verificar presença da estratégia no manifesto público e preservação dos dados do concurso, sem confundir commit verde com navegação validada.
 
 ## Corpus de provas-espelho: etapa obrigatória do novo edital
 
@@ -343,9 +345,9 @@ Para um **simulado integral**, o agente deve atualizar, na mesma operação lóg
 
 1. `00 - Desempenho/Simulados/Simulado-XX.md`, com resultado, respostas, gabarito, erros, dúvidas e diagnóstico;
 2. `00 - Desempenho/Simulados/00 - Catalogo de simulados.md`;
-3. `4 - Projetos/dataprev-2026/Questoes e Simulados.md` (para CGU, usar os hubs comuns de desempenho e simulados, sem projeto próprio);
-4. `4 - Projetos/dataprev-2026/Log de erros.md`, quando houver erros ou acertos com lacuna relevante;
-5. `4 - Projetos/dataprev-2026/00 Dashboard.md` apenas em concursos com painel legado; **CGU não tem dashboard**;
+3. `leorruas/concurso-dados:4 - Projetos/dataprev-2026/Questoes e Simulados.md` (para CGU, usar os hubs comuns de desempenho e simulados, sem projeto próprio);
+4. `leorruas/concurso-dados:4 - Projetos/dataprev-2026/Log de erros.md`, quando houver erros ou acertos com lacuna relevante;
+5. `leorruas/concurso-dados:4 - Projetos/dataprev-2026/00 Dashboard.md` apenas em concursos com painel legado; **CGU não tem dashboard**;
 6. `data/provas.json`, que alimenta o painel estratégico da interface e deve conter `sourcePath`, resultado, comparabilidade e nota calculável quando aplicável;
 7. `00 - Desempenho/00 Avancos globais.md`, recalculando a janela de 30 dias, o acompanhamento semanal e o controle de simulados consolidados;
 8. `00 - Desempenho/01 Log de saturacao diaria.md`, registrando volume, aproveitamento bruto, TAP e diagnóstico de carga;

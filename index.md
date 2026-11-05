@@ -36,11 +36,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[2 - Editais/CGU 2026 - Auditoria|CGU 2026: Auditoria — edital e checklist]]
 
 ## 4 - Projetos
-- [[00 Dashboard|Dataprev 2026 (Dashboard)]]
-  - [[4 - Projetos/dataprev-2026/O que estudar|O que estudar (Checklist)]]
-  - [[4 - Projetos/dataprev-2026/Cronograma|Cronograma]]
-  - [[4 - Projetos/dataprev-2026/Estrategia|Estratégia]]
-  - [[4 - Projetos/dataprev-2026/Log de erros|Log de erros]]
+- Dataprev 2026: os registros individuais, checklists e diagnósticos históricos estão no cofre privado `leorruas/concurso-dados`.
+  - [[4 - Projetos/dataprev-2026/Estrategia|Estratégia editorial da prova]]
 - [[4 - Projetos/camara-2026/O que estudar|Câmara 2026: O que estudar]]
   - [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]]
   - [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]]

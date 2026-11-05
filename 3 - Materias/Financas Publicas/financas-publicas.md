@@ -5,7 +5,7 @@ title: "Finanças Públicas"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Finanças Públicas
@@ -22,11 +22,21 @@ Economia do setor público e fundamentos fiscais: bens públicos, externalidades
 
 O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da CGU 2026]] e o catálogo em `data/planos-estudo/cgu-2026.json`. A situação editorial descreve apenas a existência de notas relacionadas; **não indica que a unidade já foi estudada nem validada em treino**.
 
-**Verificação documental:** a [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|matriz dos 18 subitens]] identificou inicialmente lacunas em 1.1 e 1.2. O **artigo 01** cobre alocação, falhas de mercado e federalismo, enquanto [[3 - Materias/Financas Publicas/02 - tributacao incidencia economica e equidade|Tributação, incidência econômica e equidade]] desenvolve **incidência, progressividade, equidade, neutralidade e necessidades de financiamento**. Ambos foram publicados editorialmente; **revisão de fontes/casos de prova e estudo real seguem pendentes**.
+**Verificação documental:** a [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|matriz dos 18 subitens]] identificou inicialmente lacunas em 1.1 e 1.2. Os artigos **01, 03, 04 e 05** cobrem alocação, falhas de mercado e federalismo; os artigos **02, 06 e 07** desenvolvem tributação e resultados fiscais, enquanto [[3 - Materias/Financas Publicas/02 - tributacao incidencia economica e equidade|Tributação, incidência econômica e equidade]] desenvolve **incidência, progressividade, equidade, neutralidade e necessidades de financiamento**. Os sete artigos foram publicados editorialmente; **revisão de fontes/casos de prova e estudo real seguem pendentes**.
 
 ## Fronteiras prioritárias
 
 Função alocativa × distributiva × estabilizadora; bem público econômico × provisão estatal; **incidência legal × econômica, taxa média × marginal, progressividade × neutralidade, resultado primário × nominal e NFSP × emissão de dívida**. São categorias presentes em notas, não resultados observados de desempenho.
+
+## Divisão editorial da unidade P3.2.1
+
+Os dois artigos originais continuam como pontos de entrada: **01** apresenta Musgrave e a eficiência econômica; **02** apresenta bases, incidência legal/econômica e elasticidades. Cinco notas específicas preservam os demais desenvolvimentos, sem duplicar os conceitos de Orçamento Público e Contabilidade Pública. A unidade do edital e o estado de aprendizagem permanecem inalterados.
+
+- [[3 - Materias/Financas Publicas/03 - bens publicos clube e recursos comuns|03. Bens públicos, bens de clube e recursos comuns]]
+- [[3 - Materias/Financas Publicas/04 - externalidades e monopolios naturais|04. Externalidades, monopólios naturais e regulação]]
+- [[3 - Materias/Financas Publicas/05 - federalismo fiscal e transferencias|05. Federalismo fiscal e transferências]]
+- [[3 - Materias/Financas Publicas/06 - progressividade equidade e neutralidade tributaria|06. Progressividade, equidade e neutralidade]]
+- [[3 - Materias/Financas Publicas/07 - resultados fiscais nfsp e divida|07. Resultados fiscais, NFSP e dívida]]
 
 ## Artigos e referências
 

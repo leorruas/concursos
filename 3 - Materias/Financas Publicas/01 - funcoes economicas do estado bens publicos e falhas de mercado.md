@@ -5,7 +5,7 @@ title: "Funções econômicas do Estado, bens públicos e falhas de mercado"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Funções econômicas do Estado, bens públicos e falhas de mercado
@@ -54,79 +54,9 @@ Pergunta **como suavizar oscilações de produto, emprego e inflação**. **Esta
 
 **Corte de gasto não prova eficiência:** considerar resultados, qualidade e custo de oportunidade. Ver [[3 - Materias/Contabilidade Publica/05 - custos publicos fundamentos e objetos de custo|custos públicos]].
 
-## Bens privados, públicos, de clube e recursos comuns
+## Desenvolvimento por conceito
 
-A classificação econômica depende de **duas propriedades independentes**:
-
-- **Rivalidade:** o consumo de uma pessoa reduz a quantidade ou qualidade disponível para outra. Rivalidade pode aparecer quando ocorre **congestionamento**.
-- **Exclusão:** é possível impedir o acesso de quem não satisfaz uma condição, por exemplo pagamento. Não exclusão significa exclusão impossível ou excessivamente custosa, não apenas gratuidade deliberada.
-
-| Tipo de bem | Rival? | Excludível? | Exemplo e limite |
-| :--- | :---: | :---: | :--- |
-| **Privado** | Sim | Sim | Medicamento individualizado ou refeição. Pode ser distribuído gratuitamente pelo governo e continuar privado na classificação econômica. |
-| **Público puro** | Não | Não | Defesa nacional coletiva, sinal de alerta amplo sem controle de acesso. Financiamento tributário pode enfrentar o problema do carona. |
-| **Bem de clube / pedagiado** | Em regra não, até congestionamento | Sim | Rodovia pedagiada sem congestionamento, conteúdo de acesso condicionado, rede compartilhada. |
-| **Recurso comum** | Sim | Não ou exclusão difícil | Estoque de peixes de pesca aberta, aquífero de acesso amplo; risco de sobreuso. |
-
-**Bem público na economia ≠ bem público no direito.** Um computador tombado no patrimônio de uma universidade é **bem público em sentido jurídico-patrimonial**, mas seu uso por uma pessoa pode impedir o uso por outra: rivalidade permanece. Serviço de saúde gratuito pode ter vagas disputadas e ser excludível por capacidade ou critérios institucionais; gratuidade e gestão estatal não o convertem automaticamente em **bem público puro**.
-
-**Não rivalidade não significa custo de produzir zero.** Um sistema nacional de alertas pode demandar investimento elevado, embora a recepção de mais um alerta tenha custo marginal baixo. **Não exclusão não significa que ninguém pague**: é possível financiar coletivamente um benefício do qual não se consegue excluir usuários.
-
-### Carona versus tragédia dos comuns
-
-**Carona (*free rider*)** tende a provocar **subfinanciamento/suboferta de bem público**: uma pessoa espera aproveitar o benefício mesmo sem contribuir. **Tragédia dos comuns** tende ao **uso excessivo de recurso rival e de acesso aberto**, quando cada usuário não internaliza o custo de reduzir o recurso para os demais.
-
-Uma campanha de iluminação pública sem cobrança direta por beneficiário pode sofrer problema de carona; a exploração de pesca sem regras pode sofrer sobreuso. **A direção da distorção muda**: suboferta de provisão coletiva versus sobreexploração de estoque compartilhado.
-
-## Externalidades: privado versus social
-
-**Externalidade** é efeito de produção ou consumo sobre **terceiro**, não plenamente incorporado pelo preço. Pode ser **positiva/negativa** e de **produção/consumo**: classificações independentes.
-
-| Tipo | Exemplo | Distorção usual |
-| :--- | :--- | :--- |
-| Negativa de produção | Fábrica polui rio. | Produção excessiva socialmente. |
-| Negativa de consumo | Ruído prejudica vizinhos. | Consumo excessivo. |
-| Positiva de produção | Pesquisa gera conhecimento difundido. | Investimento insuficiente. |
-| Positiva de consumo | Vacina reduz transmissão. | Consumo insuficiente. |
-
-Com dano externo, **custo marginal social (CMS) = custo marginal privado (CMP) + dano marginal externo**. Com benefício externo, **benefício marginal social (BMS) supera o benefício marginal privado**. A quantidade eficiente também depende da curva de benefícios/custos.
-
-**Pigou:** tributo corretivo para dano ou subsídio para benefício externo, idealmente calibrado à **externalidade marginal na quantidade eficiente**. **Padrões** controlam quantidade/comportamento; **licenças negociáveis** podem dar preço à emissão sob teto e fiscalização.
-
-**Coase:** negociação entre afetados pode conduzir a alocação eficiente **se direitos forem bem definidos e custos de transação forem desprezíveis**, com informação e coordenação viáveis. Distribuição dos ganhos pode depender de quem detém os direitos inicialmente. Não significa que externalidades se resolvam sempre sem instituições. **Pigou corrige incentivo de preço; Coase enfatiza negociação sob condições restritas.**
-
-**Exemplo:** custo adicional privado de produção **R$ 30** e dano externo marginal **R$ 12** tornam o CMS **R$ 42**. Tributo de R$ 12 pode alinhar os custos na hipótese, mas sem a curva de benefícios não se deduz a quantidade ótima nem se pode assumir eficácia de fiscalização.
-
-## Monopólio natural: escala, custo médio e regulação
-
-O **monopólio natural** se caracteriza quando, para a demanda relevante, **uma só empresa pode atender o mercado a custo total inferior ao de duas ou mais empresas**, frequentemente por elevados custos fixos e economias de escala. Exemplos usuais são redes locais de distribuição de água e certas infraestruturas de eletricidade, **não necessariamente toda a cadeia produtiva**.
-
-**Monopólio natural ≠ monopólio legal:** o primeiro tem **razão econômica de custos**; o segundo pode decorrer de exclusividade estabelecida por direito. **Monopólio natural ≠ qualquer empresa estatal:** a propriedade pública não define a estrutura de mercado.
-
-Se os custos totais forem hipoteticamente **CT(q) = 200 + 2q**, em unidades monetárias, então o **custo marginal (CMg) é 2** e o **custo médio (CMe) é 200/q + 2**, decrescente com a produção na faixa considerada. Em **100 unidades, CMe = 4**; em **200 unidades, CMe = 3**. Dividir o atendimento entre dois fornecedores que reproduzam custos fixos pode elevar o custo total. Esse modelo simplificado **não prova** que o monopólio natural persista com qualquer volume de demanda ou qualquer tecnologia.
-
-**Regulação a preço igual ao custo marginal** pode favorecer eficiência alocativa de curto prazo, mas, com custos médios acima dos marginais, **a receita pode não cobrir o custo total**, exigindo financiamento complementar ou desenho tarifário diferente. **Tarifa ao custo médio** tende a recuperar custos mas pode restringir o consumo abaixo da quantidade eficiente; **preço-teto (price cap)** pode induzir redução de custos, porém exige atenção à qualidade e à definição do teto. **Regulação por custo do serviço (cost-plus)** facilita recuperação de custos, mas pode enfraquecer incentivo à eficiência. A escolha envolve **eficiência, continuidade, investimento, qualidade e distribuição de tarifas**.
-
-**Pegadinha estrutural:** rede de água pode ser **monopólio natural na oferta**, mas **a água consumida por uma residência é rival**. Não confundir falha de concorrência com bem público puro. A empresa que presta serviço pode ser estatal, privada ou concessionária, sem que a natureza econômica dos custos seja definida pela titularidade.
-
-## Federalismo fiscal: responsabilidades, recursos e desigualdades
-
-**Federalismo fiscal** examina **quem decide, presta serviços, tributa e recebe transferências**. A Constituição brasileira estabelece competências e repartição tributária (arts. **23, 30 e 145 a 162**). **Competência de prestação, competência tributária e direito a transferências não são equivalentes**.
-
-**Desequilíbrio vertical** é o descompasso de receitas e responsabilidades **entre níveis** de governo. **Desequilíbrio horizontal** é diferença de capacidade fiscal e necessidades de despesa **entre entes do mesmo nível**. **Equalização fiscal** pode reduzir a segunda por recursos **verticais**, sem exigir transferência direta horizontal.
-
-| Distinção | Interpretação |
-| :--- | :--- |
-| **Vertical** | Atribuições de despesas e arrecadação entre União, estados e municípios. |
-| **Horizontal** | Diferenças de capacidade/custos entre municípios ou estados. |
-| **Equalização** | Reduzir desigualdades de capacidade de prestar serviços; pode receber financiamento central. |
-| **Vinculada × obrigatória** | Destinação dos recursos é dimensão diferente da fonte de obrigação legal do repasse. |
-
-**Descentralização** pode melhorar aderência a preferências locais; **economia de escala**, externalidades interjurisdicionais e desigualdade fiscal podem demandar coordenação. Serviços amplos de estabilização e redistribuição podem exigir ação central, sem tornar toda política social competência exclusiva nacional.
-
-**Exemplo:** vacinação municipal beneficia cidades vizinhas; isoladamente um município pode oferecer menos que o socialmente desejável. Convênios, transferências ou consórcios podem internalizar o benefício. **Consórcios podem reduzir custo fixo, mas escala grande pode criar custos de coordenação**; não existe dimensão territorial ótima universal.
-
-A OCDE diferencia equalização por **receita potencial**, **necessidade/custo de gasto** ou ambos. Transferências mal desenhadas podem enfraquecer incentivo à arrecadação própria e à responsabilização por resultados. Relacionar a [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|classificação de transferências]].
+Os trechos completos antes reunidos aqui agora estão nas notas [[3 - Materias/Financas Publicas/03 - bens publicos clube e recursos comuns|03: bens públicos, bens de clube e recursos comuns]], [[3 - Materias/Financas Publicas/04 - externalidades e monopolios naturais|04: externalidades, monopólios naturais e regulação]] e [[3 - Materias/Financas Publicas/05 - federalismo fiscal e transferencias|05: federalismo fiscal e transferências]]. Esta nota continua com a classificação de Musgrave, eficiência, caso integrado e itens C/E. A divisão não altera conteúdo aprendido nem presume validação por prova real.
 
 ## Exemplo comentado: um rio entre municípios
 

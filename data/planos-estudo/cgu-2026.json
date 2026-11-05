@@ -1875,7 +1875,12 @@
           "noteRefs": [
             "3 - Materias/Financas Publicas/01 - funcoes economicas do estado bens publicos e falhas de mercado",
             "3 - Materias/Financas Publicas/02 - tributacao incidencia economica e equidade",
-            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica"
+            "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica",
+            "3 - Materias/Financas Publicas/03 - bens publicos clube e recursos comuns",
+            "3 - Materias/Financas Publicas/04 - externalidades e monopolios naturais",
+            "3 - Materias/Financas Publicas/05 - federalismo fiscal e transferencias",
+            "3 - Materias/Financas Publicas/06 - progressividade equidade e neutralidade tributaria",
+            "3 - Materias/Financas Publicas/07 - resultados fiscais nfsp e divida"
           ],
           "requires": [],
           "sourceIds": [
@@ -1889,7 +1894,7 @@
             "bcb-metodologia-nfsp"
           ],
           "coverage": "parcial",
-          "noteRole": "p3-2-1-1-e-1-2-substantivos-notas-01-e-02-financas-validacao-normativa-e-treino-pendentes"
+          "noteRole": "p3-2-1-1-e-1-2-sete-notas-editoriais-originais-e-desdobramentos-sem-validacao-de-estudo"
         }
       ],
       "requiresSubjects": []

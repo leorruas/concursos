@@ -12,6 +12,12 @@ updated: 2026-11-05
 
 ## Núcleo do conceito
 
+**Comece pelo conflito entre lucro e dinheiro disponível.** Imagine uma estatal que prestou serviços e reconheceu **R$ 100 mil em receitas**, mas só recebeu **R$ 60 mil em caixa** até a data de análise. Se os custos e despesas reconhecidos forem R$ 70 mil, o resultado contábil simplificado será **lucro de R$ 30 mil**, embora ainda exista parte da receita a receber. O lucro, portanto, não responde sozinho se há dinheiro suficiente para pagar fornecedores, manter equipamentos e realizar investimentos. Para analisar caixa, é preciso conhecer também os pagamentos, os saldos anteriores e as demais entradas.
+
+Esse é o motivo de estudar **quatro perguntas diferentes**: **resultado** (a empresa teve lucro ou prejuízo no período?), **liquidez** (consegue cumprir obrigações nos prazos pertinentes?), **solvência** (consegue sustentar suas obrigações, inclusive no horizonte mais longo?) e **capacidade de investimento** (como financiará renovação, expansão e continuidade do serviço?). Uma entrada de empréstimo pode melhorar momentaneamente o caixa, mas também cria dívida. Uma tarifa abaixo do custo pode atender a uma finalidade pública, mas requer compreender quem financia a diferença e quais são os limites legais.
+
+A ordem de leitura é **identificar a missão e as obrigações**, examinar demonstrações e fluxos, reconhecer dívidas e fontes de financiamento, e então avaliar se o serviço se sustenta ao longo do tempo. Nenhum indicador isolado substitui essa análise. Os detalhes normativos e as exceções aparecem nas seções seguintes.
+
 **Sustentabilidade econômico-financeira** de uma empresa estatal é sua capacidade de **manter serviços e obrigações ao longo do tempo, financiar operações, renovar ativos, investir e enfrentar riscos**, dentro da finalidade pública e das restrições legais e institucionais. É análise **dinâmica**, não resultado de um ano ou um índice isolado. A necessidade de apoio do controlador, a forma de remuneração do serviço e a viabilidade dos investimentos precisam ser identificadas.
 
 Uma estatal pode **apurar lucro e enfrentar insuficiência de caixa** para investir e pagar dívidas; pode registrar prejuízo devido a investimentos, depreciação ou obrigações públicas sem que, isoladamente, isso prove ineficiência; e pode ter **boa liquidez temporária sustentada por endividamento**, sem sustentabilidade duradoura. A avaliação deve combinar **resultado societário, caixa, dívida, investimentos, qualidade do serviço e obrigação pública explicitada**.

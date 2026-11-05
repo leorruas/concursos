@@ -428,6 +428,17 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 
 Os dois primeiros artigos foram gravados no repositório e tiveram o build e o catálogo publicado no GitHub Pages confirmados no [workflow 42116643251](https://github.com/leorruas/concursos/actions/runs/42116643251), concluído com sucesso em 05/11/2026. Este fechamento é **editorial e técnico**: não existe evidência de que o aluno já tenha estudado ou retido os conceitos.
 
+## Lote 2: contexto e modelos clássicos, TC-003 a TC-006
+
+Criados como artigos canônicos independentes, com vínculos ao hub, ao índice e à matéria virtual Comunicação da Câmara, sem marcar estudo pessoal:
+
+- [ ] **CAM-TC-003**: [[3 - Materias/Comunicacao/27 - contexto e interpretacao da mensagem|Contexto e interpretação na situação comunicativa]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
+- [ ] **CAM-TC-004**: [[3 - Materias/Comunicacao/28 - lasswell cinco perguntas funcoes e efeitos|Harold Lasswell: cinco perguntas, áreas de análise e funções sociais]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
+- [ ] **CAM-TC-005**: [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|Shannon e Weaver: transmissão, informação, ruído e limites]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
+- [ ] **CAM-TC-006**: [[3 - Materias/Comunicacao/30 - jakobson fatores e funcoes da linguagem|Roman Jakobson: seis fatores e seis funções da linguagem]], artigo redigido e incorporado no catálogo; validação técnica e publicação ao vivo pendentes.
+
+A conferência de publicação deste lote deve substituir esses estados após o workflow do Pages. O próximo artigo da trilha é **CAM-TC-007: modelos lineares, circulares e interacionais**, depois Escola de Chicago. 
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

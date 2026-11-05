@@ -18,7 +18,14 @@ updated: 2026-11-05
 - [[3 - Materias/Comunicacao/25 - comunicacao informacao e producao de sentido|25. Comunicação, informação e produção de sentido]]: mensagem, código, canal, contexto, interpretação e efeitos.
 - [[3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao|26. Teoria, modelo, escola, corrente e paradigma]]: critérios, relações e limites de cinco objetos de classificação distintos.
 
-Estes dois artigos formam o **piloto da fase F1** do [[1 - Planejamento/Camara 2026 - Arquitetura conceitual e plano de artigos|planejamento conceitual]]. Eles preparam os estudos dos autores e não representam cobertura integral de Teorias da Comunicação.
+Os dois primeiros artigos iniciaram o **piloto da fase F1** do [[1 - Planejamento/Camara 2026 - Arquitetura conceitual e plano de artigos|planejamento conceitual]]. Eles preparam os estudos dos autores e não representam cobertura integral de Teorias da Comunicação.
+
+- [[3 - Materias/Comunicacao/27 - contexto e interpretacao da mensagem|27. Contexto e interpretação da mensagem]]: cotexto, situação, repertório, pressupostos e inferências.
+- [[3 - Materias/Comunicacao/28 - lasswell cinco perguntas funcoes e efeitos|28. Lasswell]]: cinco perguntas, áreas de análise e três funções sociais.
+- [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|29. Shannon e Weaver]]: fonte, transmissor, canal, receptor, destino, ruído, entropia e níveis de análise.
+- [[3 - Materias/Comunicacao/30 - jakobson fatores e funcoes da linguagem|30. Jakobson]]: seis fatores, seis funções e predominância sem exclusividade.
+
+A sequência TC-001 a TC-006 está disponível como base de estudo. Outras teorias do edital seguem pendentes no plano. A publicação editorial não comprova estudo ou retenção.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

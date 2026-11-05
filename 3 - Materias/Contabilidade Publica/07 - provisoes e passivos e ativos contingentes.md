@@ -129,6 +129,8 @@ No caso A, se houver seguro cuja indenização de R$ 200 mil seja virtualmente c
 
 Os **itens e o alcance não são idênticos**. A Lei nº 13.303/2016, art. 7º, remete a regras societárias de escrituração e demonstrações das empresas abrangidas. No caso das entidades do setor público, conferir a NBC TSP aplicável e o MCASP. A versão **NBC TSP 03 (R1)** tem aplicação a exercícios iniciados em **2027**, ressalvadas regras nacionais específicas.
 
+**Aplicação societária integrada:** a distinção entre a NBC TSP 03 e o CPC 25 pode ser observada no [[3 - Materias/Contabilidade Publica/09 - demonstracoes societarias das estatais#Refinamento: caso societário integrado de depreciação, impairment, provisões e partes relacionadas|caso societário integrado CPC 27, CPC 01, CPC 25 e CPC 05]]. Para uma estatal sob o regime societário do exemplo, a **saída provável, estimável e relacionada a obrigação presente** leva a provisão reconhecida; a **obrigação apenas possível** permanece como passivo contingente divulgado, sem entrada automática na DRE ou no BP. O caso também relaciona o processo judicial às notas e evita confundir provisão com perda por recuperabilidade de ativo.
+
 ## Como a banca pode cobrar
 
 Para a **Controladoria-Geral da União (CGU) 2026**, a banca é **Cebraspe**, em formato **Certo/Errado (C/E)**. Os itens são **inéditos didáticos**, sem alegação de calibração por prova real.
@@ -162,4 +164,4 @@ Identificar **entidade e norma → evento passado → obrigação presente ou po
 3. [MCASP, 11ª edição, Secretaria do Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1): registros patrimoniais e classificação.
 4. [CPC 25, Pronunciamento Técnico](https://www.cpc.org.br/CPC/Documentos-Emitidos/Pronunciamentos/Pronunciamento?Id=56) e [Lei nº 13.303/2016, art. 7º](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm): contraste com demonstrações societárias.
 
-**Cobertura documental parcial de P3.2.6:** provisões, contingências, mensuração, reconhecimento e divulgação. Pendentes: notas **08 (depreciação e impairment)** e **09 (demonstrações societárias)**, além de conferência do PDF oficial do edital e retificações. Publicação não registra aula, acertos, domínio ou retenção.
+**Cobertura editorial:** provisões, contingências, mensuração, reconhecimento e divulgação, com **aplicação societária** em [[3 - Materias/Contabilidade Publica/09 - demonstracoes societarias das estatais#Refinamento: caso societário integrado de depreciação, impairment, provisões e partes relacionadas|caso societário integrado CPC 27, CPC 01, CPC 25 e CPC 05]]. Os artigos 08 e 09 também estão publicados; a auditoria temática de P3.2.6 registrou cobertura substantiva, mas **validação normativa fina e estudo real continuam pendentes**.

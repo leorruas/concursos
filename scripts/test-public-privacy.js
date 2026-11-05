@@ -44,6 +44,12 @@ assert(!publicProtocol.includes('## Perfil de Raciocínio Lógico (IA)'),'Profic
 assert(!publicProtocol.includes('## Contexto Pessoal para IA'),'Contexto pessoal no arquivo público');
 const checkNotes=(dir)=>!fs.existsSync(dir)||fs.readdirSync(dir,{withFileTypes:true}).every(e=>e.isDirectory()?checkNotes(path.join(dir,e.name)):e.name!=='Avancos.md');
 assert(checkNotes(path.join(root,'3 - Materias')),'Avanços individuais na fonte pública');
+const homeHtml=fs.readFileSync(path.join(site,'index.html'),'utf8');
+const cloudflareCards='https://concurso-estudo.leoruas.workers.dev/flashcards.html';
+assert.equal(homeHtml.split('href="'+cloudflareCards+'"').length-1,2,'Menu e chamada principal devem abrir flashcards na Cloudflare');
+assert(!homeHtml.includes('href="flashcards.html"'),'A home não pode levar à versão local sem autenticação');
+const publicFlashcardsHtml=fs.readFileSync(path.join(site,'flashcards.html'),'utf8');
+assert(!publicFlashcardsHtml.includes('os dados de erros registrados no GitHub não são privados'),'Página não pode informar incorretamente que o histórico pessoal é público');
 const publicUI=fs.readFileSync(path.join(site,'web/10-flashcards-ui.js'),'utf8');
 assert(!publicUI.includes('raw.githubusercontent.com/leorruas/concursos/main/data/contexto-estudo'),'Flashcards consultam prioridades públicas');
 const published=fs.readFileSync(path.join(site,'web/02-data-home.js'),'utf8');

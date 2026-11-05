@@ -41,6 +41,8 @@ function isArquivoPublico(relPath) {
   const fileName = path.basename(normPath).toLowerCase();
 
   if (!normPath.endsWith('.md')) return false;
+  // Relatórios individuais e avanços de matéria nunca integram o Pages público.
+  if (normPath.startsWith('00 - Desempenho/') || /\/Avancos\.md$/i.test(normPath)) return false;
   if (isRascunhoParcialSimulado(normPath)) return false;
 
   if (
@@ -85,10 +87,7 @@ function isArquivoPublico(relPath) {
     return false;
   }
 
-  if (
-    normPath.startsWith('3 - Materias/') ||
-    normPath.startsWith('00 - Desempenho/')
-  ) {
+  if (normPath.startsWith('3 - Materias/')) {
     return true;
   }
 
@@ -361,8 +360,6 @@ const JSONS_PUBLICOS_AUTORIZADOS = [
   'flashcards.json',
   'concursos.json',
   'edital-itens.json',
-  'erros-recorrentes.json',
-  'provas.json',
   'catalogo-materias-por-concurso.json'
 ];
 
@@ -374,7 +371,21 @@ for (const nomeJson of JSONS_PUBLICOS_AUTORIZADOS) {
   const dest = path.join(dataDest, nomeJson);
   if (fs.existsSync(src)) {
     if(nomeJson === 'catalogo-materias-por-concurso.json') fs.writeFileSync(dest, JSON.stringify(catalogoMaterias, null, 2)+'\n');
-    else fs.copyFileSync(src, dest);
+    else if(nomeJson === 'concursos.json') {
+      const entrada = JSON.parse(fs.readFileSync(src, 'utf8'));
+      const publico = entrada.map(c => Object.fromEntries(
+        ['id','nome','banca','cargo','dataProva','status','sourcePath','fonteOficial','estruturaProva']
+          .filter(k => Object.hasOwn(c,k)).map(k => [k,c[k]])
+      ));
+      fs.writeFileSync(dest,JSON.stringify(publico,null,2)+'\n');
+    } else if(nomeJson === 'edital-itens.json') {
+      const entrada = JSON.parse(fs.readFileSync(src,'utf8'));
+      const publico = entrada.map(item => Object.fromEntries(
+        ['id','concursoId','codigo','disciplina','descricao','sourcePath','notaPath']
+          .filter(k => Object.hasOwn(item,k)).map(k => [k,item[k]])
+      ));
+      fs.writeFileSync(dest,JSON.stringify(publico,null,2)+'\n');
+    } else fs.copyFileSync(src, dest);
     console.log(`✓ Copiado JSON autorizado (allowlist): data/${nomeJson}`);
   } else {
     console.warn(`! AVISO: JSON autorizado não encontrado na origem: data/${nomeJson}`);

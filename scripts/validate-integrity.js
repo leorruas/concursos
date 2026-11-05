@@ -246,6 +246,10 @@ if (process.argv.includes('--audit-site')) {
           entryRel.startsWith('00 inbox/') ||
           entryRel.startsWith('1 - Planejamento/') ||
           entryRel.startsWith('2 - Editais/') ||
+          entryRel.startsWith('00 - Desempenho/') ||
+          /\/Avancos\.md$/i.test(entryRel) ||
+          entryRel === 'data/erros-recorrentes.json' ||
+          entryRel === 'data/provas.json' ||
           (entryRel.startsWith('4 - Projetos/') &&
             !(/^public:\s*true\s*$/m.test(fs.readFileSync(fullPath, 'utf8'))))
         ) {
@@ -268,8 +272,6 @@ if (process.argv.includes('--audit-site')) {
       'flashcards.json',
       'concursos.json',
       'edital-itens.json',
-      'erros-recorrentes.json',
-      'provas.json',
       'catalogo-materias-por-concurso.json'
     ]);
     const arquivosEmSiteData = fs.readdirSync(siteDataDir);

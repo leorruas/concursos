@@ -5,7 +5,7 @@ title: "Custos públicos: fundamentos e objetos de custo"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Custos públicos: fundamentos e objetos de custo

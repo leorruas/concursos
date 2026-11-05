@@ -109,6 +109,13 @@ async function carregarGlossario() {
     }
     return glossarioState.pending;
 }
+function atualizarBotaoTopoGlossario() {
+    const button = document.getElementById('glossario-voltar-topo');
+    const page = document.getElementById('glossario-pagina');
+    if (!button || !page) return;
+    const show = !page.classList.contains('escondido') && window.scrollY > 500;
+    button.classList.toggle('escondido', !show);
+}
 function prepararGlossario() {
     if (glossarioState.connected) return;
     const search = document.getElementById('glossario-busca');
@@ -116,7 +123,8 @@ function prepararGlossario() {
     const subject = document.getElementById('glossario-materia');
     const article = document.getElementById('glossario-artigo');
     const organization = document.getElementById('glossario-organizacao');
-    if (!search || !block || !subject || !article || !organization) return;
+    const topButton = document.getElementById('glossario-voltar-topo');
+    if (!search || !block || !subject || !article || !organization || !topButton) return;
     search.addEventListener('input', () => {
         glossarioState.query = search.value;
         glossarioState.letter = '';
@@ -143,6 +151,14 @@ function prepararGlossario() {
         glossarioState.organization = organization.value === 'artigo' ? 'artigo' : 'termo';
         renderizarGlossario();
     });
+    topButton.addEventListener('click', () => {
+        document.getElementById('glossario-pagina')?.scrollIntoView({
+            behavior: window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+            block: 'start'
+        });
+    });
+    window.addEventListener('scroll', atualizarBotaoTopoGlossario, { passive: true });
+    atualizarBotaoTopoGlossario();
     glossarioState.connected = true;
 }
 function montarFiltrosGlossario(data) {
@@ -247,6 +263,7 @@ async function abrirGlossario(id = '', atualizarRota = true, preservarFiltros = 
     container.classList.remove('escondido');
     if (typeof atualizarDestinoIndiceTopo === 'function') atualizarDestinoIndiceTopo('');
     prepararGlossario();
+    atualizarBotaoTopoGlossario();
     const lista = document.getElementById('glossario-resultados');
     if (lista && !glossarioState.data) lista.textContent = 'Carregando definições...';
     try {

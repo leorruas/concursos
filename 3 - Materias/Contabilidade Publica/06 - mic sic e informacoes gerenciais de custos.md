@@ -5,7 +5,7 @@ title: "Sistema de custos públicos: manual, informações e indicadores"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Sistema de custos públicos: manual, informações e indicadores

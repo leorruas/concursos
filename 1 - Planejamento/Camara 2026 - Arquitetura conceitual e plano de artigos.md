@@ -421,6 +421,13 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [ ] **CAM-DIS-008 · F3**: Justificativa de estratégia, métricas e avaliação.
 - [ ] **CAM-DIS-009 · F3**: Revisão de coerência, coesão e precisão terminológica.
 
+## Piloto implementado no repositório: TC-001 e TC-002
+
+- [[3 - Materias/Comunicacao/25 - comunicacao informacao e producao de sentido|TC-001: Comunicação, informação e produção de sentido]]: nota completa criada; vinculada ao hub, índice e catálogo de Comunicação da Câmara.
+- [[3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao|TC-002: Teoria, modelo, escola, corrente e paradigma]]: nota completa criada; explicação das fronteiras entre cinco categorias e relação com autores.
+
+Os checkboxes `CAM-TC-001` e `CAM-TC-002` permanecem abertos até a validação do build e da publicação ao vivo. A implementação no repositório, a publicação no Pages e o estudo efetivo são estados separados.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

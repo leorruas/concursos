@@ -265,6 +265,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Administracao Geral/04 - gestao de pessoas|04 • Gestão de pessoas]]
   - [[3 - Materias/Administracao Geral/05 - gestao da qualidade|05 • Gestão da qualidade]]
 - [[3 - Materias/Comunicacao/comunicacao|Comunicação social]]
+  - [[3 - Materias/Comunicacao/25 - comunicacao informacao e producao de sentido|Comunicação, informação e produção de sentido]]
+  - [[3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao|Teoria, modelo, escola, corrente e paradigma]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

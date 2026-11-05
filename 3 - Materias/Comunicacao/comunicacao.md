@@ -5,13 +5,20 @@ title: "Comunicação social"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-11-03
+updated: 2026-11-05
 ---
 
 # Comunicação (Concursos)
 
 ## Avanços e Metodologia
 - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
+
+## Fundamentos para Teorias da Comunicação: Câmara 2026
+
+- [[3 - Materias/Comunicacao/25 - comunicacao informacao e producao de sentido|25. Comunicação, informação e produção de sentido]]: mensagem, código, canal, contexto, interpretação e efeitos.
+- [[3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao|26. Teoria, modelo, escola, corrente e paradigma]]: critérios, relações e limites de cinco objetos de classificação distintos.
+
+Estes dois artigos formam o **piloto da fase F1** do [[1 - Planejamento/Camara 2026 - Arquitetura conceitual e plano de artigos|planejamento conceitual]]. Eles preparam os estudos dos autores e não representam cobertura integral de Teorias da Comunicação.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

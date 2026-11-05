@@ -5,7 +5,7 @@ title: "Orçamento Público"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Orçamento Público
@@ -16,8 +16,11 @@ Matéria de planejamento e execução orçamentária, receita, despesa e respons
 
 - [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|01. Orçamento público e ciclo orçamentário]]: autorização × execução × caixa × entrega; quatro momentos do ciclo; controle e avaliação.
 - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02. PPA, LDO e LOA]]: papéis, vigência, iniciativa, três orçamentos, prazos, exclusividade e exceções.
+- [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|02a. Esferas da LOA e estatais]]: pergunta da esfera, controle votante × dependência.
 - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|03. Princípios orçamentários]]: unidade, universalidade, anualidade, exclusividade, não afetação e regra de ouro.
 - [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|04. Classificações de receita e despesa]]: natureza, fonte, esfera, função, subfunção, programa e GND.
+- [[3 - Materias/Orcamento Publico/04a - classificacao da receita|04a. Receita: natureza, fonte e resultado primário]]: quatro classificadores independentes.
+- [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|04b. Despesa: esfera, função, programa e natureza]]: perguntas e hierarquias internas.
 - [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|05. Créditos adicionais e emendas]]: suplementar × especial × extraordinário; fontes, vigência e emendas impositivas.
 - [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|06. Programação e contingenciamento]]: cronograma, limites de empenho, metas e recomposição.
 - [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|07. Receitas públicas]]: orçamentárias × extraorçamentárias; previsão, lançamento, arrecadação e recolhimento.
@@ -26,7 +29,21 @@ Matéria de planejamento e execução orçamentária, receita, despesa e respons
 - [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|10. Conta Única e execução financeira]]: crédito × recurso; provisão/destaque × cota/repasse/sub-repasse.
 - [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|11. Responsabilidade fiscal e controle]]: RCL, limites de pessoal, RREO, RGF, transparência e fiscalização.
 
-Os 11 artigos do roteiro estão **preparados editorialmente, sem estudo registrado**. O roteiro documental foi completado, mas não equivale a cobertura integral comprovada do edital nem a domínio aferido. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
+O roteiro inicial de 11 temas ganhou três notas especializadas para tornar independentes os conjuntos de classificação. A publicação documenta a teoria, mas não comprova aprendizagem, retenção ou cobertura integral do edital; registros individuais pertencem ao cofre privado. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
+
+## Como navegar por perguntas
+
+| Se o enunciado perguntar… | Comece por |
+| :--- | :--- |
+| Em que fase está a política e o que já aconteceu? | [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|01. Ciclo, dotação, caixa e entrega]] |
+| Qual lei planeja, orienta ou autoriza? | [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02. PPA, LDO, LOA]] |
+| Em qual orçamento da LOA entra uma programação? | [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|02a. Esferas e estatais]] |
+| Qual regra impede ou permite um registro ou destinação? | [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|03. Princípios e vedações]] |
+| Que classificador está sendo pedido? | [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|04. Mapa das classificações]] |
+| Que operação gerou a receita, como usá-la ou qual resultado fiscal? | [[3 - Materias/Orcamento Publico/04a - classificacao da receita|04a. Receita]] |
+| Quem gasta, em qual área/ação e de que natureza? | [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|04b. Despesa]] |
+
+**Sequência de leitura:** identifique primeiro a pergunta; depois as categorias daquele conjunto; por fim as fronteiras com os outros conjuntos. Os exemplos transitam entre notas, sem exigir que cada conceito seja decorado isoladamente.
 
 ## Unidade P3.2.2: orçamento e planejamento
 
@@ -38,6 +55,8 @@ Os 11 artigos do roteiro estão **preparados editorialmente, sem estudo registra
 | 04 | [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Classificações da receita e da despesa]]: natureza, institucional, funcional, programática e fontes | Artigo publicado; sem estudo registrado |
 | 05 | [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]]: espécies, fontes, reabertura e limites de execução | Artigo publicado; sem estudo registrado |
 | 06 | [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]]: dotação × limite de empenho × liberação financeira | Artigo publicado; sem estudo registrado |
+
+As notas [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|02a]], [[3 - Materias/Orcamento Publico/04a - classificacao da receita|04a]] e [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|04b]] aprofundam, respectivamente, esferas, receita e despesa sem criar novos subitens no edital.
 
 ## Unidade P3.2.3: execução e responsabilidade fiscal
 

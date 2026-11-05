@@ -5,7 +5,7 @@ title: "Princípios orçamentários e vedações constitucionais"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 aliases:
   - "Princípios orçamentários"
   - "Unidade, universalidade e anualidade"
@@ -23,7 +23,26 @@ Imagine que uma prefeitura apresente apenas os saldos líquidos de arrecadação
 
 O ponto de partida é [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|a lógica dos princípios]] em relação ao [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|ciclo orçamentário]] e às leis [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]. Este texto aprofunda a dimensão normativa, sem transformar a leitura em aprendizagem registrada.
 
+## Mapa dos princípios: qual problema cada regra evita?
+
+Em vez de decorar uma lista única de princípios, identifique o **objeto da regra**. Eles operam sobre aspectos diferentes da mesma lei e podem ser aplicados simultaneamente.
+
+| Pergunta central | Conjunto | Critérios e fronteira |
+| :--- | :--- | :--- |
+| **Como reunir o orçamento e o que deve entrar?** | Unidade e universalidade | Integração dos orçamentos do ente × inclusão de receitas e despesas abrangidas |
+| **A que período pertence a autorização?** | Anualidade | Exercício financeiro, com ressalvas próprias para créditos adicionais |
+| **Como representar receitas e despesas?** | Orçamento bruto e especificação | Valores totais sem deduções × dotações discriminadas em vez de genéricas |
+| **Que conteúdo pode estar na LOA?** | Exclusividade | Previsão de receitas e fixação de despesas, com duas exceções constitucionais |
+| **O dinheiro pode ter destino previamente vinculado?** | Não afetação de impostos | Regra contra vinculação de **impostos**, com ressalvas expressas; não equivale à fonte/destinação |
+| **Quais operações ou deslocamentos estão vedados e em que condições?** | Art. 167, incluindo regra de ouro | Cada inciso tem objeto e exceções próprios; regra de ouro compara crédito com despesa de capital |
+
+**Caso progressivo da mesma prefeitura.** Primeiro, ela registra apenas R$ 7 milhões líquidos, porque abateu uma transferência de R$ 3 milhões de uma receita bruta de R$ 10 milhões: a pergunta é **como registrar valores**, portanto o problema é orçamento bruto. Se registrar R$ 10 milhões, mas ocultar o gasto em uma dotação genérica que cobre indistintamente material, pessoal e serviços, muda a pergunta para **como discriminar despesas**: especificação. Se ambos estiverem corretos, mas o texto da LOA reorganizar secretarias, a questão agora é **qual conteúdo a LOA admite**: exclusividade. Se a prefeitura vincular impostos a despesa específica, passamos ao conjunto **destinação**, sujeito às exceções constitucionais.
+
+Cada alteração muda a regra que deve ser consultada. Nenhuma dessas situações pode ser resolvida apenas dizendo que houve “falta de transparência”.
+
 ## Unidade, universalidade e anualidade
+
+**Perguntas diferentes:** unidade examina integração; universalidade examina abrangência; anualidade examina o período. A mesma LOA pode atender aos três critérios sem que eles se tornem sinônimos.
 
 O art. 2º da **Lei nº 4.320/1964** exige unidade, universalidade e anualidade. A **unidade ou totalidade** orienta a integração do orçamento de cada ente; a **universalidade** diz respeito à inclusão das receitas e despesas devidas; a **anualidade** estabelece a referência a um exercício financeiro.
 
@@ -53,6 +72,8 @@ Uma exceção relevante: a Constituição, art. 167, § 2º, permite reabrir no 
 
 ## Orçamento bruto e especificação
 
+**Fronteira:** orçamento bruto olha para os **valores integrais**, enquanto especificação olha para o **detalhamento da autorização**. A apresentação por valores brutos não dispensa discriminar a despesa.
+
 ### Orçamento bruto: registrar pelos totais
 
 O art. 6º da Lei nº 4.320/1964 exige que receitas e despesas apareçam **pelos totais, sem deduções**. O propósito é revelar a dimensão real de cada fluxo financeiro sujeito ao orçamento.
@@ -68,6 +89,8 @@ O art. 5º da mesma lei impede dotações globais para cobrir indistintamente de
 A existência de **reservas** e hipóteses normativas específicas impede afirmar que qualquer dotação agregada viola automaticamente a especificação. Também é importante distinguir classificação da LOA de detalhamento utilizado na execução. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|natureza, função e elemento de despesa]].
 
 ## Exclusividade e suas duas exceções constitucionais
+
+**Pergunta central:** que assuntos podem constar no texto da LOA? A resposta exige separar proibição geral e exceções expressas do art. 165, § 8º.
 
 O art. 165, § 8º, da Constituição proíbe que a LOA contenha dispositivo estranho à **previsão da receita e fixação da despesa**.
 
@@ -87,6 +110,8 @@ A autorização de crédito **especial** não está incluída, por simples exten
 A exclusividade examina **o conteúdo permitido da lei**; não se confunde com anualidade, que trata do período, nem com especificação, que trata do detalhamento da despesa.
 
 ## Não afetação de impostos e as exceções
+
+**Pergunta central:** a receita de **impostos** pode ser vinculada a órgão, fundo ou despesa? A classificação por fonte/destinação registra o regime aplicável; o princípio define uma restrição constitucional sobre determinadas vinculações.
 
 A Constituição, art. 167, IV, proíbe, como regra, a **vinculação de receita de impostos a órgão, fundo ou despesa**. A palavra **impostos** é decisiva: não se trata de uma proibição genérica de vinculação de todo ingresso, como taxas, contribuições ou preços públicos.
 

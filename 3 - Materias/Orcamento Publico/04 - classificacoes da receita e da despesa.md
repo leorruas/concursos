@@ -46,314 +46,23 @@ O ponto de partida é reconhecer **a pergunta que cada conjunto de classificaç�
 
 **Como ler:** as linhas são lentes independentes. Dentro de uma lente, como a natureza da despesa, há uma hierarquia própria; *entre* lentes não existe hierarquia. O caso da prefeitura será reutilizado nas seções seguintes, variando uma condição por vez.
 
+## Por que são vários conjuntos e não uma única hierarquia?
+
+O ponto de entrada é **escolher a pergunta**. Só depois de escolhida a pergunta faz sentido usar os níveis de uma classificação. Para a receita, identificamos primeiro **se é ingresso orçamentário**, depois **qual operação o gerou**, **quais regras disciplinam o uso dos recursos** e **se conta como receita primária**. Para a despesa, perguntamos **em qual esfera**, **quem responde**, **qual a área**, **qual ação**, **que tipo de gasto**, **com qual fonte** e **que meta/valor**.
+
+**Mesmo caso, três lentes:** a prefeitura toma um empréstimo comum para construir escola. Pela **natureza**, o ingresso é receita de capital, operação de crédito; pelo **resultado fiscal**, é receita financeira; pela **fonte/destinação**, importam as regras que disciplinam sua aplicação. Se a prefeitura contrair uma **antecipação de receita orçamentária (ARO)** para falta temporária de caixa, altera-se **o tratamento do ingresso**: ele é extraorçamentário. Se vender um terreno, a natureza passa a ser alienação de bens e a receita é, em regra, **primária**, mas persiste a necessidade de observar a destinação legal.
+
+Na despesa da escola, a **classificação institucional** aponta a unidade responsável, a **programática** identifica projeto/ação e a **natureza** distingue grupos e objetos de gasto. A mesma ação pode ter mais de um GND. **Dentro** de natureza existem níveis; **entre** institucional, programática e natureza existem critérios paralelos.
+
+Para estudar os níveis sem misturá-los, avance pelas notas especializadas: [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]] e [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]]. Este artigo mantém o **mapa transversal**, os exemplos que cruzam conjuntos e os endereços dos títulos antigos.
+
 ## Receita: categoria econômica e natureza
 
-### Mapa visual: como classificar uma receita
-
-As classificações abaixo respondem a **perguntas diferentes** sobre o mesmo ingresso. As opções de cada ramo são exemplos ou categorias próprias daquele critério, não etapas sucessivas. No site, use **ampliar** para explorar o diagrama.
-
-```mermaid
-flowchart TB
-    R["RECEITA PÚBLICA<br/>Qual critério está sendo perguntado?"]
-    R --> N["Natureza<br/>Qual fato originou o ingresso?"]
-    R --> F["Fonte / destinação<br/>Quais regras regem a aplicação?"]
-    R --> P["Resultado primário<br/>Entra no resultado primário?"]
-    R --> O["Tratamento orçamentário<br/>Integra a receita do orçamento?"]
-    R --> D["Doutrina<br/>Qual a forma de obtenção?"]
-    N --> NC["Corrente<br/>Impostos, contribuições, patrimonial,<br/>serviços, transferências correntes etc."]
-    N --> NK["Capital<br/>Crédito, alienação, amortização<br/>de empréstimos, transferências de capital etc."]
-    F --> FV["Recursos vinculados<br/>Aplicação conforme norma específica"]
-    F --> FL["Recursos não vinculados<br/>Aplicação conforme regras gerais"]
-    P --> PP["Primária"]
-    P --> PF["Financeira / não primária"]
-    O --> OO["Orçamentária"]
-    O --> OE["Extraorçamentária<br/>Ex.: ARO"]
-    D --> DO["Originária"]
-    D --> DD["Derivada"]
-    %% Fallback de alto contraste para Obsidian/GitHub; o site adapta as cores via CSS.
-    classDef raiz fill:#f59e0b,stroke:#92400e,color:#111111,stroke-width:2px;
-    classDef criterio fill:#fff2d9,stroke:#b45309,color:#3d2207,stroke-width:1.5px;
-    classDef opcao fill:#fffbeb,stroke:#b45309,color:#1c1917;
-    class R raiz;
-    class N,F,P,O,D criterio;
-    class NC,NK,FV,FL,PP,PF,OO,OE,DO,DD opcao;
-```
-
-**Fronteira para a prova:** corrente/capital pertence à **natureza**; primária/financeira pertence ao **resultado fiscal**; orçamentária/extraorçamentária pertence ao **tratamento do ingresso**. A fonte/destinação identifica restrições e possibilidades de aplicação, não a origem econômica. O par originária/derivada é **doutrinário**, não um nível da codificação oficial.
-
-
-A natureza descreve a **origem econômica e legal do ingresso**, em níveis progressivos: categoria, origem, espécie e detalhamentos. A Lei nº 4.320/1964, art. 11, distingue:
-
-| Categoria econômica | Exemplos usuais | Fronteira |
-| :--- | :--- | :--- |
-| **Receitas correntes** | Impostos, taxas, contribuições, serviços, receita patrimonial, transferências correntes | Não se confunde com “receita primária” |
-| **Receitas de capital** | Operações de crédito, alienação de bens, amortização de empréstimos concedidos, transferências de capital | Nem toda receita de capital é sinônimo de receita financeira |
-
-As **origens** agrupam ingressos dentro de cada categoria. Receita tributária e de contribuições pode envolver subdivisões específicas nos manuais, que não devem ser confundidas com a classificação doutrinária de **receitas originárias e derivadas**.
-
-### Vocabulário das origens da receita: o que efetivamente entra no caixa?
-
-A palavra **receita** descreve um ingresso **para quem recebe**. Um mesmo pagamento pode ser **despesa de um ente** e **receita de outro**. O nome da origem identifica **de onde veio o dinheiro e a operação que o gerou**, não necessariamente onde será aplicado. A exceção importante são as **transferências**, cuja classificação entre corrente e de capital depende da finalidade das despesas que os recursos se destinam a financiar (Lei nº 4.320/1964, art. 11).
-
-| Origem | O que significa | Exemplo e distinção |
-| :--- | :--- | :--- |
-| **Contribuições** (corrente) | Valores cobrados com fundamento legal específico, como contribuições sociais e de intervenção no domínio econômico | Contribuição previdenciária. Não confundir com **contribuição de melhoria**, tributo classificado com impostos e taxas |
-| **Receita patrimonial** (corrente) | Ganho pela exploração ou remuneração de patrimônio público | Aluguel de prédio público ou dividendos de participação societária. **Alugar** o imóvel é diferente de **vendê-lo** |
-| **Receita de serviços** (corrente) | Valores cobrados pela prestação de serviços remunerados pelo ente público | Tarifa/preço público por serviço prestado. **Preço público** não é automaticamente **taxa tributária** |
-| **Transferência corrente** | Recurso recebido de outra pessoa pública ou privada, **sem contraprestação direta ao transferidor**, destinado a financiar **despesas correntes**, como manutenção e funcionamento | Recurso recebido por município para custear serviços e comprar materiais de consumo em unidades de saúde |
-| **Operação de crédito** (capital) | Entrada obtida porque o poder público **contrai uma dívida**, por empréstimo ou emissão de títulos | Estado toma empréstimo para financiar obra: entra dinheiro, mas nasce obrigação de pagar a dívida. A **antecipação de receita orçamentária (ARO)** segue tratamento **extraorçamentário** próprio |
-| **Alienação de bens** (capital) | Venda ou outra transferência onerosa de bens ou direitos do patrimônio público, convertendo-os em dinheiro | Prefeitura vende imóvel ou veículo de sua propriedade. A receita **não é aluguel**; o art. 44 da LRF restringe seu uso em despesas correntes |
-| **Amortização de empréstimos** (capital) | **Devolução do principal** de empréstimo que o **próprio ente público havia concedido** a alguém | Município havia emprestado R$ 100 mil e recebe R$ 20 mil de principal: isso é receita de capital. **Juros recebidos** são receita corrente na classificação pertinente |
-| **Transferência de capital** | Recurso recebido de outra pessoa pública ou privada, **sem contraprestação direta ao transferidor**, destinado a financiar **despesas de capital**, como investimentos ou inversões financeiras | Município recebe recursos vinculados à construção de um hospital, e não ao custeio regular do hospital |
-
-
-**O que significa “sem contraprestação direta ao transferidor”?** Contraprestação é um bem ou serviço entregue **em troca do pagamento**, diretamente a quem paga. Numa transferência, o recebedor não precisa fornecer um bem ou serviço ao ente que lhe repassou os recursos. Exemplo: a União transfere recursos a um município para construir uma escola destinada à população. A escola não é uma contraprestação prestada à União.
-
-**Atenção à pegadinha:** ausência de contraprestação direta **não significa ausência de obrigações**. O município pode estar obrigado a aplicar o dinheiro na finalidade prevista, executar a obra e prestar contas à União. **Contraprestação direta ao transferidor** e **obrigação de aplicar e comprovar o uso dos recursos** são conceitos diferentes.
-
-Há ainda **receitas agropecuárias** (exploração econômica de atividades vegetais e animais pelo ente), **industriais** (produção ou comercialização industrial pelo ente) e **outras receitas correntes ou de capital** (ingressos que não se enquadram nas demais origens, segundo o classificador vigente).
-
-**Comparação no mesmo hospital:** receber transferência para comprar medicamentos e manter o atendimento é **transferência corrente**; receber transferência destinada à **construção** do hospital é **transferência de capital**. Em ambos os casos, a categoria é analisada sob a perspectiva do **ente recebedor**. O instrumento e a destinação legal devem ser conferidos: não classificar toda transferência entre governos automaticamente como de capital.
-
-**Outro contraste:** se o Estado **toma** empréstimo, registra **operação de crédito**. Se o Estado **emprestou** e recebe de volta o principal, registra **amortização de empréstimos concedidos**. Se vende um imóvel, registra **alienação**; se apenas recebe aluguel do imóvel, registra **receita patrimonial**. São fatos econômicos diferentes, ainda que todos façam entrar dinheiro.
-
-Para distinguir **origem da receita** de **fonte/destinação**, consulte [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Fonte/destinação de recursos × natureza da receita|as regras de vinculação]]. Para distinguir a **operação de crédito comum** da **ARO**, veja [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios#Operações de crédito × antecipação de receita (ARO)|o tratamento extraorçamentário]].
-
-### Originária × derivada
-
-Na doutrina, receitas **originárias** decorrem de exploração do patrimônio ou atividade econômica do Estado; receitas **derivadas** se relacionam ao poder de império, como tributos. A distinção é útil conceitualmente, mas **não substitui o classificador oficial de natureza**.
-
-Exemplo: aluguel de imóvel público é, em regra, **receita corrente patrimonial**, enquanto na classificação doutrinária pode ser **originária**. As duas descrições não disputam a mesma categoria.
-
-### Receita orçamentária × ingresso extraorçamentário
-
-O **ingresso orçamentário** incorpora a execução da receita e é classificado nas rubricas aplicáveis. Uma **entrada extraorçamentária** tende a ser temporária, com obrigação de devolução ou repasse, sem produzir receita orçamentária no mesmo sentido.
-
-**Operações de crédito** contratadas para financiamento público são, em regra, receitas **orçamentárias de capital**. Já a operação de crédito por **antecipação de receita orçamentária (ARO)** é tratada como ingresso **extraorçamentário**, por sua função específica de gestão de caixa. O fato de as duas operações serem empréstimos não as coloca no mesmo tratamento orçamentário.
-
-Os estágios **previsão, lançamento, arrecadação e recolhimento** pertencem a outra dimensão: cronologia de realização da receita. Uma receita não é “corrente” ou “de capital” porque se encontra num desses estágios.
-
-### Exemplo contrastivo: dois empréstimos, duas classificações
-
-Um ente contrata financiamento para **construir um laboratório durante os próximos exercícios**. A entrada oriunda de operação de crédito comum, observadas as normas pertinentes, constitui **receita orçamentária de capital**. Em outro cenário, o ente realiza uma **operação de crédito por antecipação de receita orçamentária (ARO)** para enfrentar insuficiência **temporária de caixa** enquanto aguarda arrecadação: trata-se de **ingresso extraorçamentário** na classificação aplicável.
-
-As duas operações podem envolver captação de dinheiro, mas a distinção para a prova não depende só da palavra *empréstimo*: a **finalidade e a espécie da operação** determinam seu tratamento. Tampouco se deve confundir o ingresso da ARO com a própria receita tributária que futuramente será arrecadada; são fatos distintos, sujeitos às regras específicas da Lei nº 4.320/1964 e da LRF.
-
-## Fonte/destinação de recursos × natureza da receita
-
-A **natureza** responde: *qual fato econômico originou o ingresso?* A **fonte/destinação** responde: *quais são as regras de aplicação desses recursos e em que despesas poderão ser utilizados?*
-
-A fonte/destinação reúne receitas com **normas de aplicação semelhantes** e é empregada tanto na receita quanto na despesa, permitindo verificar o financiamento de ações e suas vinculações. Uma mesma ação pode ser financiada por fontes distintas, quando legalmente permitido.
-
-Exemplo: duas entradas patrimoniais com natureza semelhante podem ter destinações diferentes, a depender das regras aplicáveis. A origem econômica não determina automaticamente o vínculo. Da mesma forma, “fonte de recurso” não equivale a “origem da receita” na estrutura por natureza.
-
-**Atenção:** a vedação constitucional de vincular receitas de **impostos** tem exceções específicas; a existência do classificador de fonte não autoriza inventar uma vinculação. Ver [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|não afetação e suas exceções]].
-
-## Primária × financeira: efeito no resultado primário
-
-O **identificador de resultado primário** distingue receitas que entram no cálculo do resultado primário das que ficam fora dele, conforme a regra fiscal aplicável. É uma classificação **independente** da categoria econômica corrente/capital.
-
-Não é correto resolver automaticamente por equivalência:
-- toda receita corrente seria primária;
-- toda receita de capital seria financeira;
-- toda receita financeira seria ingresso extraorçamentário.
-
-Essas proposições confundem **três dimensões diferentes**. Juros, financiamento e operações de capital precisam ser identificados pelas regras específicas do indicador. Consulte [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]] para o cálculo e a interpretação dos resultados fiscais.
-
-### Caso progressivo: a escola, a dívida e o resultado fiscal
-
-A prefeitura precisa construir uma escola. Se contrata um **empréstimo comum** para financiar a obra, registra **receita orçamentária de capital**, na origem operações de crédito. Se contrata uma **ARO** para cobrir falta temporária de caixa enquanto aguarda a arrecadação, tem **ingresso extraorçamentário**. O fato de ambos exigirem devolução não permite classificá-los igualmente.
-
-Agora altere a operação: o município **aluga** um imóvel de sua propriedade. O aluguel é **receita corrente patrimonial**; a receita também pode ser denominada **originária** na classificação doutrinária. Se **vende** o imóvel, registra **receita de capital por alienação de bens**. Nesse segundo caso, a natureza da entrada permanece a mesma ainda que o gestor pretenda usá-la indevidamente: a restrição à aplicação em despesa corrente, com a exceção legal de previdência, é matéria do **art. 44 da LRF**, observada na destinação dos recursos.
-
-Por fim, uma mesma receita pode ser **de capital e primária** (alienação de bem, em regra) ou **de capital e financeira** (operação de crédito comum). A receita de juros de aplicação financeira costuma ser **corrente e financeira**, enquanto o IPTU é **corrente e primária**. As duas duplas têm critérios próprios: corrente/capital é categoria econômica; primária/financeira diz respeito ao resultado fiscal.
-
-| Ingresso | Tratamento/natureza | Resultado primário, em regra |
-| :--- | :--- | :--- |
-| IPTU | Receita orçamentária corrente, impostos | Primária |
-| Aluguel de prédio público | Receita orçamentária corrente, patrimonial | Primária |
-| Venda de terreno | Receita orçamentária de capital, alienação de bens | Primária |
-| Empréstimo comum | Receita orçamentária de capital, operação de crédito | Financeira |
-| ARO para insuficiência temporária de caixa | Ingresso extraorçamentário | Não é receita orçamentária primária |
-
-Esse quadro é um **contraste entre critérios**, e não autorização para usar livremente os recursos. Para cada ingresso, conferir a fonte/destinação e as restrições legais efetivas.
+**Pergunta:** que operação fez entrar dinheiro, quais normas regulam sua aplicação e como o ingresso afeta o resultado fiscal? A estrutura e seus exemplos progressivos estão em [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]].
 
 ## Despesa: perguntas qualitativas e quantitativas
 
-### Mapa visual: cada classificação da despesa e suas opções
-
-Cada ramo caracteriza a **mesma despesa por um ângulo distinto**. Os níveis dentro de cada ramo, quando houver, formam sua hierarquia específica. O quadro reúne opções para reconhecer o critério em enunciados de prova.
-
-```mermaid
-flowchart TB
-    X["DESPESA ORÇAMENTÁRIA<br/>Que pergunta a prova faz?"]
-    X --> E["Esfera<br/>Em qual orçamento da LOA?"]
-    E --> E1["Fiscal"]
-    E --> E2["Seguridade social"]
-    E --> E3["Investimento das estatais"]
-    X --> I["Institucional<br/>Quem é responsável?"]
-    I --> I1["Órgão orçamentário"]
-    I1 --> I2["Unidade orçamentária"]
-    X --> FU["Funcional<br/>Em qual área de governo?"]
-    FU --> FU1["Função<br/>Ex.: Saúde, Educação"]
-    FU1 --> FU2["Subfunção<br/>Ex.: atenção básica"]
-    X --> PR["Programática<br/>O que se pretende realizar?"]
-    PR --> PR1["Programa"]
-    PR1 --> PR2["Ação<br/>Atividade, projeto ou operação especial"]
-    PR2 --> PR3["Subtítulo / localizador"]
-    X --> NA["Natureza<br/>Que tipo de gasto e objeto?"]
-    NA --> NA1["Categoria econômica<br/>Corrente ou capital"]
-    NA1 --> NA2["Grupo de natureza<br/>Pessoal, juros, outras correntes,<br/>investimentos, inversões, amortização"]
-    NA2 --> NA3["Modalidade de aplicação<br/>Direta ou por transferência etc."]
-    NA3 --> NA4["Elemento<br/>Material de consumo, obras etc."]
-    X --> FO["Fonte / destinação<br/>Com quais recursos e regras?"]
-    FO --> FO1["Fonte vinculada ou não vinculada<br/>Conforme classificação aplicável"]
-    X --> Q["Dimensão quantitativa<br/>Quanto será feito e autorizado?"]
-    Q --> Q1["Meta física<br/>Quantidade de produto / serviço"]
-    Q --> Q2["Dotação financeira<br/>Valor autorizado"]
-    %% Fallback de alto contraste para Obsidian/GitHub; o site adapta as cores via CSS.
-    classDef raiz fill:#f59e0b,stroke:#92400e,color:#111111,stroke-width:2px;
-    classDef criterio fill:#fff2d9,stroke:#b45309,color:#3d2207,stroke-width:1.5px;
-    classDef opcao fill:#fffbeb,stroke:#b45309,color:#1c1917;
-    class X raiz;
-    class E,I,FU,PR,NA,FO,Q criterio;
-    class E1,E2,E3,I1,I2,FU1,FU2,PR1,PR2,PR3,NA1,NA2,NA3,NA4,FO1,Q1,Q2 opcao;
-```
-
-**Atenção:** as categorias dentro de natureza seguem uma sequência; esfera, natureza, função e programa **não** seguem uma sequência entre si. O exemplo de opções não substitui os códigos e desdobramentos vigentes no MTO. A meta física mede o produto previsto ou realizado, enquanto a dotação é expressa em dinheiro.
-
-
-| Dimensão | Pergunta | Componentes |
-| :--- | :--- | :--- |
-| **Esfera** | Em qual orçamento da LOA federal? | Fiscal, seguridade ou investimento das estatais |
-| **Institucional** | Quem é responsável pela programação? | Órgão orçamentário e unidade orçamentária |
-| **Funcional** | Em qual área de atuação governamental? | Função e subfunção |
-| **Programática** | Qual objetivo e ação serão realizados? | Programa, ação e subtítulo |
-| **Natureza** | Que tipo econômico de gasto e objeto? | Categoria econômica, grupo, modalidade de aplicação, elemento |
-| **Fonte/destinação** | Qual recurso financiará a despesa e sob que regras? | Fonte de recursos |
-| **Física e financeira** | Quantos bens ou serviços e qual dotação? | Meta física e valor |
-
-Esses elementos não competem pela mesma posição. O registro da despesa possui várias dimensões ao mesmo tempo.
-
-### Exemplo guiado: um mesmo gasto visto por várias classificações
-
-Considere um **caso hipotético**, sem códigos de programação oficiais: o Ministério da Saúde prevê comprar diretamente seringas descartáveis para uma ação de vacinação. A mesma despesa recebe diferentes classificações, porque cada uma responde a uma pergunta:
-
-| Pergunta | Classificação | Resposta no exemplo |
-| :--- | :--- | :--- |
-| Em qual orçamento da LOA? | **Esfera** | Seguridade social, por se tratar de ação de saúde |
-| Quem responde pela programação? | **Institucional** | Órgão Ministério da Saúde e unidade orçamentária correspondente |
-| Qual a área de governo? | **Funcional** | Saúde (função); subfunção conforme a programação |
-| Qual política e ação? | **Programática** | Programa hipotético de imunização; ação de vacinação |
-| Que despesa será feita? | **Natureza** | Corrente → Outras Despesas Correntes → Aplicações Diretas → Material de Consumo |
-| Que recursos podem financiá-la? | **Fonte/destinação** | A fonte orçamentária e suas regras legais de aplicação |
-| Quanto será entregue e autorizado? | **Dimensões física e financeira** | Quantidade de seringas e valor da dotação |
-
-As sete respostas aparecem **lado a lado**, no registro de uma despesa. Não são sete degraus da mesma hierarquia. Dentro de **natureza**, por outro lado, há níveis ordenados: categoria econômica, grupo, modalidade e elemento. “Ministério” ou “secretaria” é informação institucional; “programa” e “ação” são informação programática.
-
-**Teste de fronteira:** uma universidade federal compra papel e depois constrói um laboratório. Em regra, as duas despesas ficam no **orçamento fiscal**. A compra de papel é corrente; a construção é de capital, no GND Investimentos. A esfera permaneceu igual, enquanto a natureza mudou. Já a construção de uma unidade pública do SUS pode ser despesa de capital no **orçamento da seguridade social**.
-
-### Esfera × natureza da despesa
-
-A **esfera** identifica orçamento **fiscal**, **seguridade social** ou **investimento das estatais**, segundo o art. 165, § 5º, da Constituição. A **categoria econômica**, por sua vez, separa gastos **correntes** e de **capital**.
-
-Uma obra pública em hospital administrado diretamente pela União pode ser despesa **de capital** no **orçamento da seguridade social**. Capital não equivale à esfera de investimento das empresas estatais.
-
-Nas empresas estatais, é preciso distinguir **controle acionário** de **dependência financeira**: ter a maioria do **capital social votante** define uma empresa **controlada** (LRF, art. 2º, II), mas não a torna automaticamente **dependente**. Esta última condição envolve o recebimento de recursos do ente controlador para pagar pessoal, custeio ou despesas de capital, com exceção legal relativa a aumento da participação acionária (LRF, art. 2º, III). Em regra, estatais **dependentes** integram o orçamento **fiscal ou da seguridade**, e os investimentos das **não dependentes**, o orçamento **de investimento**. Veja a [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Empresa controlada × estatal dependente × estatal não dependente|distinção, seus três critérios e o exemplo comparativo]].
-
-### Classificação institucional: órgão × unidade orçamentária
-
-Na União, a classificação institucional é formada por **órgão orçamentário** e **unidade orçamentária (UO)**. O órgão pode agrupar várias unidades; a unidade recebe dotações e responde pelo programa de trabalho no formato orçamentário. A UO não precisa coincidir exatamente com uma repartição administrativa física: fundos e encargos podem ter representação própria.
-
-A pergunta institucional é **“quem?”**, e não “para quê?” ou “em qual área de política pública?”.
-
-**Caso de classificação:** uma **universidade federal** recebe dotação para o **programa hipotético de permanência estudantil**, que inclui uma ação de apoio aos alunos. A universidade ou unidade orçamentária responsável pertence à **classificação institucional**; o programa e a ação, à **programática**. Não é preciso conhecer o código da unidade para acertar a fronteira: primeiro perguntar **quem responde pela programação**, depois **qual objetivo e ação** serão executados.
-
-### Classificação funcional: função × subfunção
-
-A **função** é o nível mais amplo de agregação da despesa por área de governo: Educação, Saúde, Legislativa, Cultura e outras. A **subfunção** indica uma agregação inferior, mais relacionada à natureza da atuação.
-
-A classificação permite **matricialidade**: subfunção combinada com função distinta daquela a que está mais tipicamente associada. Exemplo de estrutura descrita no MTO: uma ação de apoio pré-escolar a dependentes de servidores de órgão legislativo pode combinar função **Legislativa** e subfunção **Educação Infantil**. A subfunção não fica necessariamente vinculada à função de mesmo campo temático.
-
-Esse princípio de combinação possui regras especiais para certas despesas, como as classificadas em Encargos Especiais. Portanto, não presumir liberdade irrestrita de combinação.
-
-### Classificação programática: programa × ação × subtítulo
-
-O **programa** organiza esforços relacionados a objetivos de política pública. A **ação orçamentária** identifica o que será feito. O **subtítulo** contribui para localizar a execução ou os beneficiários.
-
-Há três tipos clássicos de ação:
-
-| Tipo | Característica | Exemplo didático |
-| :--- | :--- | :--- |
-| **Projeto** | Operação delimitada no tempo, geralmente voltada à expansão ou aperfeiçoamento da atuação | Construção de escola |
-| **Atividade** | Ação contínua de manutenção das atividades governamentais | Funcionamento de unidades escolares |
-| **Operação especial** | Despesa da qual não resulta diretamente bem ou serviço típico da ação produtiva estatal | Serviço da dívida, conforme programação |
-
-**Projeto não determina automaticamente GND Investimentos.** Tipo de ação e natureza do gasto são dimensões separadas. Também não se deve transformar “subfunção” em “programa”: uma indica área de atuação, o outro organiza a política e sua estratégia de entrega.
-
-### Caso progressivo: ação, GND e pagamento da dívida
-
-A prefeitura **constrói seis novas salas**: na dimensão programática, trata-se de um **projeto**; na natureza da despesa, a obra integra o **GND 4: Investimentos**. Quando mantém **aulas e serviços escolares regulares**, a ação pode ser uma **atividade**. Já o **pagamento do principal de uma dívida** pode figurar como **operação especial**, enquanto a natureza do gasto é **despesa de capital, GND 6: Amortização da Dívida**. O nome da ação não determina seu GND: um mesmo projeto pode executar gastos de grupos diferentes.
-
-A prefeitura paga uma parcela bancária que contém **R$ 100 mil de principal e R$ 20 mil de juros**. O principal é **GND 6, despesa de capital**; os juros são **GND 2: Juros e Encargos da Dívida, despesa corrente**. A classificação de receita de capital atribuída ao empréstimo na contratação não se transfere para os juros do pagamento.
-
-A distinção entre **projeto, atividade e operação especial** responde à natureza e à finalidade da **ação orçamentária**. A distinção entre **Investimentos, Inversões Financeiras e Amortização da Dívida** responde à **natureza econômica da despesa**.
-
-### Natureza da despesa: categoria, GND, modalidade e elemento
-
-A natureza da despesa responde **qual é o tipo e o objeto do gasto**. A classificação inclui:
-
-| Nível | O que identifica | Exemplo |
-| :--- | :--- | :--- |
-| **Categoria econômica** | Despesa corrente ou de capital | Capital |
-| **Grupo de Natureza de Despesa (GND)** | Grupo econômico: pessoal e encargos, juros e encargos da dívida, outras correntes, investimentos, inversões financeiras ou amortização da dívida | Investimentos |
-| **Modalidade de aplicação** | Se os recursos serão aplicados diretamente ou transferidos e por qual modalidade | Aplicações diretas |
-| **Elemento** | Objeto que se pretende adquirir ou contratar | Equipamentos e material permanente |
-
-**Leitura passo a passo:** a **categoria econômica** separa despesas correntes e de capital; dentro dela, o **Grupo de Natureza de Despesa (GND)** aproxima gastos economicamente semelhantes; a **modalidade de aplicação** indica quem aplicará os recursos ou como serão transferidos; o **elemento** identifica o objeto adquirido ou contratado.
-
-| Categoria econômica | Grupos de Natureza de Despesa (GND) |
-| :--- | :--- |
-| **Correntes** | Pessoal e Encargos Sociais; Juros e Encargos da Dívida; Outras Despesas Correntes |
-| **De capital** | Investimentos; Inversões Financeiras; Amortização da Dívida |
-
-“Corrente” é categoria econômica, e **não quer dizer frequente**. “Capital” também não significa gasto de grande valor. Pagar juros da dívida é despesa corrente; devolver o principal é despesa de capital (Amortização da Dívida). Construir um laboratório ou adquirir equipamento novo pode entrar em **Investimentos**; certas compras de imóveis sem vinculação à execução de obras e certas participações societárias são **Inversões Financeiras**. A classificação exata depende das condições legais: comprar algo pronto **não transforma qualquer bem em inversão financeira**.
-
-**O terceiro nível, modalidade de aplicação, tem outra lógica:** se o ministério compra diretamente as seringas, a modalidade é **Aplicações Diretas**. Se a União transfere recursos para um município executar a despesa, a modalidade pode ser **Transferências a Municípios**, segundo o instrumento aplicável. Isso não equivale a dizer que “aplicação direta é investimento”: os grupos e a modalidade respondem a perguntas independentes.
-
-**O quarto nível, elemento, dá nome orçamentário ao objeto:** seringas e papel podem ser **Material de Consumo**; computadores e equipamentos duradouros, **Equipamentos e Material Permanente**. “Seringa” é o bem concreto; “Material de Consumo” é o elemento no classificador. **GND ≠ elemento; modalidade ≠ elemento; modalidade de aplicação ≠ modalidade de licitação.**
-
-**GND não é elemento.** O GND **investimentos** agrupa gastos de capital; “equipamentos e material permanente” especifica um **elemento**. Modalidade de **aplicação** não é modalidade de **licitação**.
-
-A **despesa com serviço corrente de limpeza** pode ter classificação por função Educação e, ao mesmo tempo, GND **Outras Despesas Correntes**, com elemento de serviço aplicável. Sua função não modifica a natureza econômica.
-
-### Fronteiras progressivas: obra, imóvel e modalidade de aplicação
-
-Na escola, **manutenção rotineira** (pintura simples, troca de lâmpadas, reparos habituais) é, em regra, **despesa corrente**, em Outras Despesas Correntes. A **ampliação com novas salas** é **despesa de capital**, em Investimentos. O fato de os dois serviços ocorrerem no mesmo imóvel não determina uma classificação única. Intervenções estruturais e obras devem ser examinadas conforme seu objeto efetivo.
-
-Se a prefeitura compra **terreno necessário à execução da obra**, a aquisição integra **Investimentos (GND 4)**. Se compra **prédio existente e já em utilização**, sem vínculo com execução de obras, a aquisição se enquadra em **Inversões Financeiras (GND 5)**, observadas as condições normativas. A compra de **computadores novos** normalmente é Investimentos: o critério não é simplesmente comprar algo pronto.
-
-Se o município **contrata e paga diretamente a construtora**, a modalidade é **Aplicações Diretas (90)**, mesmo que a obra seja fisicamente executada por empresa privada. Não confundir **contratação de serviço** com **repasse de recursos para outra entidade aplicá-los**. Na mesma obra, o GND pode ser Investimentos e o **elemento** pode ser Obras e Instalações. Na compra de computadores, o GND continua Investimentos, mas o elemento passa a Equipamentos e Material Permanente.
-
-### Transferência: despesa de quem envia × receita de quem recebe
-
-Considere duas perspectivas da **mesma transferência hipotética**: a União envia recursos a um município para custear atendimento em saúde, e o município recebe esse dinheiro para executar a ação. **Na União**, o gasto precisa ser examinado como **despesa**: a modalidade de aplicação pode indicar *Transferências a Municípios*. **No município**, o ingresso é examinado como **receita orçamentária**: quando destinado ao financiamento de despesas correntes, corresponde a transferência corrente, observadas as regras de classificação.
-
-Se os recursos recebidos forem destinados **à construção de um equipamento público**, pode haver, no orçamento municipal, **receita de transferência de capital**. Isso não transforma “Transferências a Municípios” em categoria econômica de receita: a modalidade responde **como o ente que paga aplica os recursos**, enquanto a natureza da receita responde **qual ingresso o ente recebedor registra**. Em casos concretos, é preciso verificar instrumento, finalidade e classificadores do exercício. A classificação da receita recebida **não decorre automaticamente do nome da modalidade** na despesa de quem transfere.
-
-**Regra de prova:** antes de classificar, identifique **quem é o ente** e se a questão observa a **despesa de quem transfere** ou a **receita de quem recebe**. Essa troca de ponto de vista permite um distrator com nomes tecnicamente verdadeiros, mas usados na categoria errada.
-
-### Dimensões física e financeira da programação
-
-**Meta física** indica quantidade de entregas programadas. **Dotação financeira** identifica valor autorizado segundo a programação. Se foram previstos 500 atendimentos e entregues 350, o resultado deve ser examinado com dados físicos e financeiros, além do contexto de implementação.
-
-A dotação não comprova empenho, pagamento nem resultado da política. O tema se relaciona a [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|monitoramento e avaliação]], mas a execução da despesa não substitui avaliação de impacto.
-
-### Ponte para os estágios da execução
-
-Se o orçamento autoriza **R$ 1,5 milhão** para construir **seis salas**, a **dotação** responde *quanto se pode gastar* e a **meta física** responde *o que se pretende entregar*. Se quatro salas forem concluídas, a entrega física é de **4/6**, ainda que a despesa tenha tido execução financeira integral. A simples existência da dotação **não comprova** contratação, empenho, liquidação ou pagamento.
-
-Os estágios **empenho, liquidação e pagamento** têm procedimento próprio no [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|artigo 08: despesas públicas e estágios]]. O estudo detalhado desses estágios deve ficar naquele artigo, para não confundir classificação da despesa com execução da despesa.
+**Pergunta:** quem gasta, em que área e ação, com qual natureza, fonte, dotação e meta física? A hierarquia interna de cada critério e seus contrastes estão em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]].
 
 ## Como a banca pode cobrar
 
@@ -403,6 +112,10 @@ Na receita, **origem** é natureza; **aplicação permitida** é fonte; **efeito
 
 ## Relações e fontes
 
+- [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]]: operação de crédito comum × ARO, corrente × capital, originária × derivada, natureza × destinação e primária × financeira.
+- [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]]: esfera, órgão/unidade, função/subfunção, programa/ação, GND/modalidade/elemento e meta física.
+
+
 - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios orçamentários]]: discriminação e orçamento bruto.
 - [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]]: dotação, natureza e fontes para suplementação.
 - [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]: diferença entre classificação orçamentária e registro patrimonial.
@@ -410,3 +123,87 @@ Na receita, **origem** é natureza; **aplicação permitida** é fonte; **efeito
 Fontes: [LRF, art. 2º, II e III](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm), [Manual Técnico do Orçamento de Investimento 2026, item 5.1](https://www.gov.br/gestao/pt-br/assuntos/estatais/orcamento/MTOI_2026.pdf), [MTO, edição 2026, Secretaria de Orçamento Federal](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026), [MTO, estrutura funcional/programática e matricialidade](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4), [MCASP, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1), [Lei nº 4.320/1964, arts. 11 e 12](https://legis.senado.leg.br/norma/546169/publicacao/34620275), [Lei de Responsabilidade Fiscal, art. 44](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm).
 
 **Limite editorial:** a estrutura conceitual é reutilizável, mas códigos de natureza, fonte e elemento exigem a versão vigente do exercício. Estágios de receita e despesa terão artigos próprios. Publicar não significa estudar.
+
+## Títulos preservados para links antigos
+
+As seções a seguir são encaminhamentos de compatibilidade. O conteúdo completo foi movido para as notas especializadas, preservando as âncoras históricas deste artigo.
+
+### Mapa visual: como classificar uma receita
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]], preservando este título para links anteriores.
+
+### Vocabulário das origens da receita: o que efetivamente entra no caixa?
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]], preservando este título para links anteriores.
+
+### Originária × derivada
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]], preservando este título para links anteriores.
+
+### Receita orçamentária × ingresso extraorçamentário
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]], preservando este título para links anteriores.
+
+### Exemplo contrastivo: dois empréstimos, duas classificações
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]], preservando este título para links anteriores.
+
+## Fonte/destinação de recursos × natureza da receita
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]], preservando este título para links anteriores.
+
+## Primária × financeira: efeito no resultado primário
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]], preservando este título para links anteriores.
+
+### Caso progressivo: a escola, a dívida e o resultado fiscal
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]], preservando este título para links anteriores.
+
+### Mapa visual: cada classificação da despesa e suas opções
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Exemplo guiado: um mesmo gasto visto por várias classificações
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Esfera × natureza da despesa
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Classificação institucional: órgão × unidade orçamentária
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Classificação funcional: função × subfunção
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Classificação programática: programa × ação × subtítulo
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Caso progressivo: ação, GND e pagamento da dívida
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Natureza da despesa: categoria, GND, modalidade e elemento
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Fronteiras progressivas: obra, imóvel e modalidade de aplicação
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Transferência: despesa de quem envia × receita de quem recebe
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Dimensões física e financeira da programação
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.
+
+### Ponte para os estágios da execução
+
+O desenvolvimento desta seção foi reorganizado em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]], preservando este título para links anteriores.

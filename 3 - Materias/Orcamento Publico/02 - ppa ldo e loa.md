@@ -26,7 +26,23 @@ Imagine uma política de expansão da rede de atendimento à saúde. O **PPA** e
 
 O artigo introdutório [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|Orçamento público e ciclo orçamentário]] distingue autorização, execução, pagamentos e resultados. Esta nota aprofunda o recorte **P3.2.2** do programa local da CGU, com conhecimento reutilizável para outros editais.
 
+## Três leis, três perguntas e uma mesma política
+
+Imagine que o governo pretende construir escolas ao longo de quatro anos. Antes de decorar siglas, separe as perguntas:
+
+| Instrumento | Pergunta que responde | Estrutura decisiva |
+| :--- | :--- | :--- |
+| **Plano Plurianual (PPA)** | Quais diretrizes, objetivos e metas orientarão a atuação em médio prazo? | Planejamento regionalizado; despesas de capital e delas decorrentes; programas continuados |
+| **Lei de Diretrizes Orçamentárias (LDO)** | Quais prioridades e regras fiscais orientarão o orçamento do ano seguinte? | Metas e prioridades; política fiscal; anexos e critérios previstos na LRF |
+| **Lei Orçamentária Anual (LOA)** | Quais receitas serão previstas e quais despesas serão autorizadas para este exercício? | Previsão de receitas, fixação de despesas e dotações |
+
+**Caso que evolui:** no PPA, o governo define o objetivo de ampliar a rede escolar em regiões com demanda. Na LDO, estabelece prioridades e orientações fiscais para o próximo exercício. Na LOA, uma ação recebe dotação de R$ 2 milhões. Se a obra ainda não começou, os três documentos podem estar corretos: **planejar, orientar e autorizar são atos diferentes de executar**. Se a obra foi prevista no PPA, mas não recebeu dotação na LOA, a previsão de médio prazo **não cria por si só autorização de despesa naquele exercício**.
+
+Há ainda uma pergunta diferente dentro da LOA: **em qual dos seus três orçamentos a programação está?** Esse é o conjunto das **esferas orçamentárias**, detalhado em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|Esferas da LOA e estatais]], sem confundi-lo com PPA/LDO/LOA nem com a natureza corrente/capital.
+
 ## PPA: Plano Plurianual
+
+**Pergunta central:** o que o governo pretende orientar em médio prazo e em quais regiões? A duração de quatro exercícios e a transição entre mandatos respondem à pergunta sobre vigência, e não sobre dotação anual.
 
 O art. 165, § 1º, determina que o PPA estabeleça, **de forma regionalizada**, diretrizes, objetivos e metas da administração pública federal para as **despesas de capital e outras delas decorrentes**, bem como para as despesas relativas aos **programas de duração continuada**.
 
@@ -41,6 +57,8 @@ Exemplo: o PPA **2024 a 2027** cobre os três últimos exercícios do mandato pr
 A Constituição, art. 167, § 1º, estabelece que investimento cuja execução ultrapasse um exercício financeiro não pode ser iniciado sem prévia inclusão no PPA **ou sem lei que autorize sua inclusão**, sob pena de crime de responsabilidade. O distrator típico omite a alternativa legal e transforma inclusão direta no PPA em única possibilidade.
 
 ## LDO: Lei de Diretrizes Orçamentárias
+
+**Pergunta central:** que prioridades e critérios fiscais orientam a preparação e a execução do orçamento anual? O anexo de riscos identifica possibilidades de impacto nas contas; o anexo de metas trata dos resultados e parâmetros visados.
 
 A **LDO** é aprovada anualmente e articula o planejamento de médio prazo à elaboração do orçamento do exercício seguinte. Conforme o art. 165, § 2º, da Constituição, ela compreende **metas e prioridades** da administração pública federal, estabelece **diretrizes de política fiscal e respectivas metas em consonância com trajetória sustentável da dívida pública**, orienta a elaboração da LOA, dispõe sobre alterações na legislação tributária e estabelece a política de aplicação das agências financeiras oficiais de fomento.
 
@@ -66,6 +84,8 @@ O papel da LDO é normativo e orientador. Ela **não substitui** a LOA na fixaç
 
 ## LOA: Lei Orçamentária Anual
 
+**Pergunta central:** para o exercício financeiro, quanto se espera arrecadar e quais despesas estão autorizadas? A esfera orçamentária é um segundo conjunto de classificação, desenvolvido na nota própria.
+
 A **LOA**, para um exercício financeiro, **prevê receitas e fixa despesas**. A formulação é importante: receitas são estimadas e podem variar, enquanto dotações representam autorizações para a despesa, sujeitas às condições legais e financeiras. Não se deve afirmar que toda receita prevista será arrecadada ou que toda despesa fixada será necessariamente paga.
 
 ### Do projeto de orçamento à lei: onde entra a dotação?
@@ -80,43 +100,15 @@ Se a arrecadação ficar abaixo do previsto, a execução poderá ser ajustada c
 
 ### Três orçamentos em uma lei
 
-Conforme o art. 165, § 5º, a LOA compreende:
-
-| Parte da LOA | Conteúdo constitucional |
-| :--- | :--- |
-| **Orçamento fiscal** | Poderes da União, fundos, órgãos e entidades da administração direta e indireta, inclusive fundações instituídas e mantidas pelo poder público |
-| **Orçamento de investimento** | Empresas em que a União, direta ou indiretamente, possua a **maioria do capital social com direito a voto** |
-| **Orçamento da seguridade social** | Entidades e órgãos vinculados à seguridade, da administração direta ou indireta, e fundos e fundações instituídos e mantidos pelo poder público |
+A LOA contém os orçamentos fiscal, da seguridade social e de investimento das estatais (CF, art. 165, § 5º). **Esta pergunta é sobre a esfera da programação**, não sobre o PPA, a LDO ou a categoria econômica da despesa. Compare critérios e exemplos em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes#Três orçamentos em uma lei|Esferas da LOA e estatais]].
 
 ### Entendendo as três esferas orçamentárias na prática
 
-No orçamento federal, os três componentes da LOA têm **recortes diferentes**:
-
-- **Orçamento fiscal:** reúne a programação dos Poderes, órgãos, fundos e entidades públicas em geral, ressalvada a programação classificada na seguridade social. Exemplos: funcionamento de ministérios, manutenção de uma escola federal ou construção de uma estrada pela administração pública. **Pode haver despesas de investimento no orçamento fiscal.**
-- **Orçamento da seguridade social:** reúne a programação vinculada a **saúde, previdência social e assistência social** (CF, arts. 194 e 195, § 2º). Exemplos: atendimento financiado pelo SUS, benefícios previdenciários pagos pelo INSS e Benefício de Prestação Continuada (BPC). **Pode haver despesas de investimento na seguridade**, como obras de infraestrutura de saúde.
-- **Orçamento de investimento das empresas estatais:** contempla investimentos de empresas em que a União possua, direta ou indiretamente, **mais da metade do capital votante**, considerando as regras de classificação das estatais. Exemplo: aquisição de equipamentos para ampliar a produção de uma empresa estatal **não dependente**. Esse orçamento não corresponde a todas as despesas operacionais da empresa.
+A comparação entre escola, unidade de saúde e empresa estatal foi desenvolvida em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes#Entendendo as três esferas orçamentárias na prática|três esferas na prática]].
 
 #### Empresa controlada × estatal dependente × estatal não dependente
 
-São **duas perguntas independentes**: **quem controla o capital com direito a voto?** e **para que a empresa recebe recursos do ente controlador?** A Lei Complementar nº 101/2000, **Lei de Responsabilidade Fiscal (LRF)**, art. 2º, separa esses conceitos:
-
-| Conceito | Critério jurídico | Consequência para a LOA federal |
-| :--- | :--- | :--- |
-| **Empresa controlada** (art. 2º, II) | União ou outro ente federativo detém, direta ou indiretamente, a **maioria do capital social com direito a voto** | Define controle societário, **sem dizer se a empresa é dependente** |
-| **Empresa estatal dependente** (art. 2º, III) | Empresa controlada que **recebe recursos do ente controlador** para pagar **pessoal, custeio em geral ou despesas de capital**, ressalvada, nas despesas de capital, a hipótese de **aumento da participação acionária** | Sua programação integra, **em regra**, os orçamentos **fiscal ou da seguridade social**, conforme a área |
-| **Empresa estatal não dependente** | Empresa controlada que **não se enquadra na definição de dependência** do art. 2º, III | Seus **investimentos** integram, em regra, o **orçamento de investimento das estatais** |
-
-**Atenção aos três usos da palavra “capital”:** **capital social com direito a voto** define quem **controla** a sociedade; **despesas de capital** dizem respeito ao tipo de gasto (como investimentos); e **aumento de participação acionária** é uma hipótese de aporte expressamente **excluída do critério de dependência**, quando relacionada à despesa de capital. Uma empresa não se torna dependente pelo simples fato de ter 51%, 80% ou 100% das ações votantes em mãos públicas.
-
-**Exemplo comparativo:** duas empresas têm **80% do capital votante controlado pela União**. A empresa A recebe transferência da União para pagar salários: **controlada e dependente**. A empresa B paga pessoal e custeio com receitas de sua atividade e recebe apenas aporte destinado ao aumento de participação acionária: **controlada e não dependente**, considerando esses fatos. Não se exige que uma estatal não dependente seja lucrativa em todos os exercícios nem que nunca tenha recebido qualquer recurso público: importa a **natureza do recurso e sua destinação legal**.
-
-**Fronteira de prova (CGU, Cebraspe C/E):** “maioria do capital votante” é o critério de **controle**, não o critério de **dependência**. Na LOA, a classificação por esfera deve considerar também o regime orçamentário da empresa. A legislação pode prever situações de transição entre regimes, que exigem consulta às regras do exercício. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Esfera × natureza da despesa|classificação por esfera]] e [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario#Planejamento fiscal: PPA, LDO, LOA e LRF|abrangência da LRF]].
-
-**Mesmo tipo de gasto, esferas distintas:** construir uma escola pela administração pública pertence ao **fiscal**; construir uma unidade de saúde com programação da seguridade pertence à **seguridade**; ampliar instalações produtivas de estatal não dependente pertence ao **investimento**. As três despesas podem ser investimentos no sentido da **natureza da despesa**, mas são classificadas em esferas orçamentárias diferentes.
-
-O Manual Técnico do Orçamento (MTO) distingue as esferas **F (fiscal, código 10)**, **S (seguridade, código 20)** e **I (investimento, código 30)**. “Investimento” pode significar tanto **categoria de despesa** quanto **orçamento institucional de estatais**: a banca pode explorar essa dupla acepção.
-
-Não interpretar o “orçamento de investimento” como o conjunto de todas as despesas de investimento de toda a administração. O critério constitucional aqui é **institucional**, relativo às empresas em que a União detém o controle votante. Da mesma forma, a LOA possui **três orçamentos**, e isso não significa três leis orçamentárias anuais independentes.
+A maioria do capital **votante** responde à pergunta do controle; os aportes e suas finalidades ajudam a verificar dependência conforme a Lei de Responsabilidade Fiscal. A distinção e os casos estão em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes#Empresa controlada × estatal dependente × estatal não dependente|controle societário e dependência]].
 
 ### Princípio da exclusividade na LOA
 
@@ -187,23 +179,7 @@ Em ambos os cenários, **dotação é autorização**. Ela precisa ser distingui
 
 ### Caso real: Correios, serviço universal e risco de dependência (2024 a 2026)
 
-A **Empresa Brasileira de Correios e Telégrafos (ECT)** é uma **empresa pública federal controlada integralmente pela União**. No **Relatório Agregado das Empresas Estatais Federais 2025 (ano-base 2024)**, o Ministério da Gestão a classificou como **não dependente**. Em **2 de junho de 2026**, o Tribunal de Contas da União (TCU) também descreveu a ECT como empresa estatal independente, mas alertou para dificuldades financeiras e **risco de passar a depender de aportes do Tesouro**.
-
-O caso envolve a obrigação de **universalização postal**: atender também localidades e grupos cujo serviço pode ser deficitário. A manutenção do serviço universal é financiada, entre outras fontes, por **subsídio cruzado**, quando receitas de atividades concorrenciais ou mais rentáveis ajudam a cobrir os custos de atividades deficitárias **dentro da própria empresa**. Em fiscalização de 2026, o TCU apontou desequilíbrio econômico-financeiro e recomendou avaliar mecanismos mais estáveis de financiamento da política.
-
-**O que separar no caso:**
-
-- **Controle societário:** os Correios pertencem à União, o que **não define** sua dependência financeira.
-- **Subsídio cruzado:** uma atividade financia outra com receitas da própria empresa; **não é, por si, transferência do orçamento da União**.
-- **Prejuízo e dificuldades de liquidez:** podem levar à busca de financiamento, mas **não enquadram automaticamente** a empresa como dependente.
-- **Empréstimo com garantia da União:** a garantia cria exposição a risco fiscal, mas **não é, por si, aporte orçamentário para pessoal ou custeio**.
-- **Transferência do controlador para pagar pessoal, custeio ou despesas de capital:** pode preencher os requisitos de **empresa estatal dependente** do art. 2º, III, da LRF, observada a exceção referente ao aumento de participação acionária e as regras aplicáveis.
-
-**Inferência condicionada, não fato ocorrido:** caso os Correios passassem a receber aportes do Tesouro para sustentar despesas correntes nas condições da LRF, seria necessário examinar seu enquadramento como estatal dependente. O TCU **apontou risco de mudança**, não declarou que ela já havia acontecido em junho de 2026. A situação deve ser verificada novamente se a questão exigir a classificação em data posterior.
-
-**Conexão com avaliação de políticas públicas:** a universalização postal pode atender a uma finalidade social enquanto o modelo de financiamento perde sustentabilidade. Avaliar **cobertura/equidade**, **eficiência operacional**, **custo de universalização** e **risco fiscal** requer indicadores diferentes. A existência de prejuízo não prova, isoladamente, má gestão ou inefetividade social.
-
-**Fontes do caso (com data):** [Ministério da Gestão, relatório agregado 2025, p. 35, ano-base 2024](https://www.gov.br/gestao/pt-br/assuntos/estatais/copy_of_transparencia/RelatrioEstataisFINAL2808WEB.pdf); [TCU, acompanhamento da reestruturação, 02/06/2026](https://portal.tcu.gov.br/imprensa/noticias/tribunal-de-contas-da-uniao-analisa-reestruturacao-dos-correios); [TCU, auditoria sobre universalização, 22/07/2026](https://portal.tcu.gov.br/imprensa/noticias/tcu-propoe-medidas-para-garantir-sustentabilidade-dos-servicos-postais); [TCU, sumário da política postal, 21/10/2026](https://portal.tcu.gov.br/imprensa/noticias/sumario-executivo-traz-analise-sobre-universalizacao-dos-servicos-postais).
+O caso documentado e suas fontes foram agrupados com o critério de dependência em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes#Caso real: Correios, serviço universal e risco de dependência (2024 a 2026)|Esferas da LOA e estatais]]. Esta seção permanece para manter os links existentes.
 
 ## Questões comentadas: treino didático C/E
 

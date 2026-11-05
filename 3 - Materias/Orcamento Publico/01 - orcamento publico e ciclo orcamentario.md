@@ -5,7 +5,7 @@ title: "Orçamento público e ciclo orçamentário"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 aliases:
   - "Ciclo orçamentário"
   - "Orçamento público: introdução"
@@ -19,6 +19,22 @@ aliases:
 Uma política de ampliação de escolas pode estar prevista no planejamento de médio prazo, aparecer como prioridade para o ano seguinte e receber dotação na lei orçamentária. Mesmo assim, uma escola ainda não foi construída: entre a intenção, a autorização e a entrega há decisões, disponibilidade de recursos, execução e controle. Esse percurso explica por que **planejamento, orçamento, execução e resultado** são conceitos diferentes.
 
 Este é o ponto de entrada da matéria. O artigo seguinte aprofunda [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]; classificações, créditos adicionais, estágios de receita e despesa e responsabilidade fiscal terão notas próprias. A organização é reutilizável entre editais. Na CGU 2026, este texto atende **parcialmente** ao recorte P3.2.2, em formato **Cebraspe, Certo ou Errado**.
+
+## Três conjuntos de perguntas: momento, autorização e entrega
+
+Antes de classificar um acontecimento, identifique **que tipo de informação** o enunciado pede. A mesma obra pública pode aparecer em três conjuntos, cada um com critérios próprios:
+
+| Conjunto | Pergunta que responde | Categorias ou dados | Erro de fronteira |
+| :--- | :--- | :--- | :--- |
+| **Ciclo orçamentário** | Em que momento do processo estamos? | Elaboração, discussão/aprovação, execução, controle/avaliação | Tratar empenho como fase autônoma do ciclo |
+| **Autorização e execução de recursos** | O valor é autorização, compromisso ou pagamento? | Dotação, limite de empenho, empenho, disponibilidade financeira, liquidação e pagamento | Usar dotação como sinônimo de dinheiro em caixa |
+| **Realização física e resultado** | O que foi efetivamente entregue e que mudança ocorreu? | Meta física, entrega realizada, resultados e impactos avaliados | Inferir aprendizagem maior porque a escola foi construída |
+
+Os conjuntos são relacionados, mas **não formam uma classificação única**. Dentro do ciclo há momentos; dentro da execução há atos e situações financeiras; na avaliação há indicadores de produção e resultados.
+
+**Mesmo caso, uma condição por vez.** A prefeitura planeja cinco escolas: isso descreve uma intenção de política. O Legislativo aprova uma dotação de R$ 10 milhões: agora há **autorização orçamentária**, embora nenhuma escola tenha sido construída. O órgão empenha R$ 8 milhões: há comprometimento de crédito, mas o empenho ainda não comprova entrega. Três escolas são concluídas: a realização física é **3/5 da meta inicial**, independentemente do valor pago. Se a avaliação perguntar se aumentou a aprendizagem, são necessárias evidências adicionais sobre esse efeito.
+
+**Regra de escolha:** primeiro nomeie a pergunta do enunciado. Depois procure a categoria pertinente. O ato de pagar não muda a fase em que a LOA foi aprovada; a entrega física não equivale ao efeito social.
 
 ## Núcleo do conceito
 
@@ -35,40 +51,9 @@ O **orçamento público** é instrumento jurídico de autorização e controle, 
 
 Um valor **fixado na LOA** é uma dotação autorizada, não prova de pagamento, entrega ou impacto. Um valor **pago** também não basta para concluir que a política alcançou sua finalidade. Essa diferença interessa tanto à gestão orçamentária quanto à [[3 - Materias/Auditoria Governamental/auditoria-governamental|auditoria governamental]] e à [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|avaliação de políticas públicas]].
 
-## Dotação orçamentária: autorização e limite de gasto
-
-**Crédito orçamentário** é a autorização legal para realizar despesa; **dotação orçamentária** é o **valor consignado a uma despesa ou programação específica** na Lei Orçamentária Anual (LOA) ou em créditos adicionais. Os termos são próximos e frequentemente aparecem juntos: o crédito expressa a autorização e a dotação indica seu montante. O crédito precisa estar disponível para ser empenhado, observadas as regras aplicáveis. **Disponibilidade orçamentária** designa, conforme o contexto, o saldo de crédito/dotação ainda não comprometido, que também pode estar sujeito a limites; **disponibilidade financeira** refere-se aos recursos para pagar. A expressão informal *“crédito em caixa”* mistura esses dois planos: prefira **crédito orçamentário** e **disponibilidade de caixa**. Detalhe: [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira#Execução orçamentária × execução financeira|crédito × recurso financeiro]].
-
-**Exemplo:** a LOA prevê uma **dotação de 2 milhões de reais** para reforma de escolas. O órgão tem autorização orçamentária nesse montante, mas pode receber um **limite de empenho** inferior, conforme a programação e as restrições vigentes. Ainda é preciso contratar regularmente, empenhar, comprovar a execução para liquidar e observar a disponibilidade financeira para pagar. Se 1,5 milhão de reais tiver sido empenhado e 800 mil reais pago, nenhum desses valores poderá ser identificado automaticamente como o total da dotação.
-
-As distinções que precisam permanecer separadas são:
-
-- **Dotação:** valor **autorizado** para despesa.
-- **Limite de empenho:** parcela que a programação permite **comprometer** naquele momento.
-- **Empenho:** ato que **compromete o crédito orçamentário**, nas condições legais.
-- **Disponibilidade financeira ou caixa:** recursos financeiros disponíveis, observadas fontes e vinculações.
-- **Pagamento:** efetiva saída de recursos para quitar obrigação regularmente liquidada e ordenada.
-- **Entrega e resultado:** o que foi produzido e a mudança observada na realidade; exigem evidências próprias.
-
-**Pegadinha de Certo/Errado:** “A existência de dotação suficiente na LOA assegura, por si só, a disponibilidade de recursos financeiros para pagar a despesa.” **Errado.** A dotação permite a despesa nos limites legais, mas não assegura imediatamente caixa, pagamento ou entrega.
-
-**Caso inverso:** uma universidade federal possui [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira#Execução orçamentária × execução financeira|disponibilidade financeira]] suficiente para a construção de um laboratório, mas não possui crédito orçamentário para essa obra. A existência de caixa **não substitui** a autorização para a despesa: a unidade precisará verificar a [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|abertura de crédito adicional]] ou outra solução legal cabível antes de assumir os compromissos. Também não se deve confundir essa autorização com o cumprimento das regras de investimento plurianual.
-
-A diferença entre **dotação e créditos adicionais** será aprofundada em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]]. **Limitação de empenho e cronograma financeiro** serão tratados em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]]. A base é a Lei nº 4.320/1964, especialmente arts. 2º, 40 a 43 e 58 a 65, e a LRF, arts. 8º e 9º.
-
-## O que significa programação física cumprida
-
-**Programação física** é a previsão de quanto uma ação deverá produzir ou entregar em determinado período. Ela associa um **produto**, uma **unidade de medida** e uma **meta física**. Por exemplo: produto **escola construída**, unidade de medida **unidade**, meta **cinco escolas no exercício**. O termo *física* também abrange serviços: atendimentos realizados, pessoas capacitadas ou famílias beneficiadas, conforme o produto definido.
-
-Dizer que a **programação física foi cumprida** significa que o realizado alcançou a meta de entrega considerada, observados o período, a especificação do produto e os critérios de apuração. Se estavam previstas cinco escolas concluídas e as cinco foram efetivamente entregues conforme a especificação, a meta física foi cumprida. Se apenas três foram entregues, a execução física corresponde a 60% dessa meta, ainda que todo o dinheiro previsto já tenha sido pago. **Obra contratada não equivale a escola entregue.** Se a unidade de medida adotada for percentual de execução da obra, a comparação deverá usar esse percentual, e não o número de escolas concluídas.
-
-**Exemplo didático:** uma ação prevê cinco escolas e 10 milhões de reais. As cinco são entregues conforme a especificação, com gasto de 9 milhões de reais: houve cumprimento da meta física com gasto inferior ao previsto. Se fossem entregues apenas três, com gasto de 10 milhões de reais, executar todo o valor não significaria cumprir a programação física. Para comparar percentuais financeiros, indicar sempre o estágio medido: empenhado, liquidado ou pago.
-
-A distinção para prova é: **meta física mede entrega; execução financeira mede valores; efetividade exige examinar a mudança produzida na realidade**. Entregar as cinco escolas não demonstra, isoladamente, redução da evasão ou melhora da aprendizagem. Também não basta observar gasto menor para concluir automaticamente pela eficiência: é preciso comparar produtos, qualidade, custos e condições de execução.
-
-**Cuidado com a base de comparação:** meta inicial e meta reprogramada podem ser diferentes. Ao informar que a programação foi cumprida, explicitar qual meta e qual período foram usados. No acompanhamento federal pelo Sistema Integrado de Planejamento e Orçamento (SIOP), a apuração do realizado físico segue os critérios do produto e da unidade de medida; o orientador da Secretaria de Orçamento Federal (SOF), item 4.3, também estabelece sua relação com a liquidação financeira. Essa regra de registro não torna liquidação, pagamento e entrega conceitos equivalentes.
-
 ## Estrutura do ciclo orçamentário
+
+**Pergunta central:** em qual momento do processo orçamentário o fato aconteceu? Elaboração, deliberação, execução e controle são momentos do **ciclo**; empenho, liquidação e pagamento são atos **dentro da execução**.
 
 A apresentação didática mais comum separa o ciclo em quatro momentos. **É uma classificação analítica**, não um calendário em que uma fase só começa depois que todas as demais terminaram: planejamento de um exercício pode ocorrer enquanto outro orçamento está em execução e um terceiro passa por controle.
 
@@ -95,6 +80,43 @@ A despesa executada tem estágios próprios, em especial **empenho, liquidação
 Durante e após a execução, a gestão, os órgãos de controle e o Legislativo examinam legalidade, regularidade, resultados e prestação de contas, segundo suas competências. O controle não é uma etapa exclusivamente posterior: pode ser **prévio, concomitante ou posterior**, conforme o objeto e o instrumento.
 
 Uma despesa conforme a lei pode ainda exigir investigação sobre economicidade e efetividade. Por outro lado, constatar que uma meta de política pública não foi alcançada não demonstra, por si só, ilegalidade da despesa.
+
+## Dotação orçamentária: autorização e limite de gasto
+
+**Pergunta central:** que autorização ou situação de execução este valor representa? Dotação responde quanto foi autorizado, caixa responde com quais recursos se pode pagar e entrega responde o que foi produzido.
+
+**Crédito orçamentário** é a autorização legal para realizar despesa; **dotação orçamentária** é o **valor consignado a uma despesa ou programação específica** na Lei Orçamentária Anual (LOA) ou em créditos adicionais. Os termos são próximos e frequentemente aparecem juntos: o crédito expressa a autorização e a dotação indica seu montante. O crédito precisa estar disponível para ser empenhado, observadas as regras aplicáveis. **Disponibilidade orçamentária** designa, conforme o contexto, o saldo de crédito/dotação ainda não comprometido, que também pode estar sujeito a limites; **disponibilidade financeira** refere-se aos recursos para pagar. A expressão informal *“crédito em caixa”* mistura esses dois planos: prefira **crédito orçamentário** e **disponibilidade de caixa**. Detalhe: [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira#Execução orçamentária × execução financeira|crédito × recurso financeiro]].
+
+**Exemplo:** a LOA prevê uma **dotação de 2 milhões de reais** para reforma de escolas. O órgão tem autorização orçamentária nesse montante, mas pode receber um **limite de empenho** inferior, conforme a programação e as restrições vigentes. Ainda é preciso contratar regularmente, empenhar, comprovar a execução para liquidar e observar a disponibilidade financeira para pagar. Se 1,5 milhão de reais tiver sido empenhado e 800 mil reais pago, nenhum desses valores poderá ser identificado automaticamente como o total da dotação.
+
+As distinções que precisam permanecer separadas são:
+
+- **Dotação:** valor **autorizado** para despesa.
+- **Limite de empenho:** parcela que a programação permite **comprometer** naquele momento.
+- **Empenho:** ato que **compromete o crédito orçamentário**, nas condições legais.
+- **Disponibilidade financeira ou caixa:** recursos financeiros disponíveis, observadas fontes e vinculações.
+- **Pagamento:** efetiva saída de recursos para quitar obrigação regularmente liquidada e ordenada.
+- **Entrega e resultado:** o que foi produzido e a mudança observada na realidade; exigem evidências próprias.
+
+**Pegadinha de Certo/Errado:** “A existência de dotação suficiente na LOA assegura, por si só, a disponibilidade de recursos financeiros para pagar a despesa.” **Errado.** A dotação permite a despesa nos limites legais, mas não assegura imediatamente caixa, pagamento ou entrega.
+
+**Caso inverso:** uma universidade federal possui [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira#Execução orçamentária × execução financeira|disponibilidade financeira]] suficiente para a construção de um laboratório, mas não possui crédito orçamentário para essa obra. A existência de caixa **não substitui** a autorização para a despesa: a unidade precisará verificar a [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|abertura de crédito adicional]] ou outra solução legal cabível antes de assumir os compromissos. Também não se deve confundir essa autorização com o cumprimento das regras de investimento plurianual.
+
+A diferença entre **dotação e créditos adicionais** será aprofundada em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]]. **Limitação de empenho e cronograma financeiro** serão tratados em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]]. A base é a Lei nº 4.320/1964, especialmente arts. 2º, 40 a 43 e 58 a 65, e a LRF, arts. 8º e 9º.
+
+## O que significa programação física cumprida
+
+**Pergunta central:** a ação entregou o produto na quantidade, no período e na medida previstos? Esta é uma pergunta de **execução física**, distinta de quanto foi empenhado ou pago e de qual efeito social surgiu.
+
+**Programação física** é a previsão de quanto uma ação deverá produzir ou entregar em determinado período. Ela associa um **produto**, uma **unidade de medida** e uma **meta física**. Por exemplo: produto **escola construída**, unidade de medida **unidade**, meta **cinco escolas no exercício**. O termo *física* também abrange serviços: atendimentos realizados, pessoas capacitadas ou famílias beneficiadas, conforme o produto definido.
+
+Dizer que a **programação física foi cumprida** significa que o realizado alcançou a meta de entrega considerada, observados o período, a especificação do produto e os critérios de apuração. Se estavam previstas cinco escolas concluídas e as cinco foram efetivamente entregues conforme a especificação, a meta física foi cumprida. Se apenas três foram entregues, a execução física corresponde a 60% dessa meta, ainda que todo o dinheiro previsto já tenha sido pago. **Obra contratada não equivale a escola entregue.** Se a unidade de medida adotada for percentual de execução da obra, a comparação deverá usar esse percentual, e não o número de escolas concluídas.
+
+**Exemplo didático:** uma ação prevê cinco escolas e 10 milhões de reais. As cinco são entregues conforme a especificação, com gasto de 9 milhões de reais: houve cumprimento da meta física com gasto inferior ao previsto. Se fossem entregues apenas três, com gasto de 10 milhões de reais, executar todo o valor não significaria cumprir a programação física. Para comparar percentuais financeiros, indicar sempre o estágio medido: empenhado, liquidado ou pago.
+
+A distinção para prova é: **meta física mede entrega; execução financeira mede valores; efetividade exige examinar a mudança produzida na realidade**. Entregar as cinco escolas não demonstra, isoladamente, redução da evasão ou melhora da aprendizagem. Também não basta observar gasto menor para concluir automaticamente pela eficiência: é preciso comparar produtos, qualidade, custos e condições de execução.
+
+**Cuidado com a base de comparação:** meta inicial e meta reprogramada podem ser diferentes. Ao informar que a programação foi cumprida, explicitar qual meta e qual período foram usados. No acompanhamento federal pelo Sistema Integrado de Planejamento e Orçamento (SIOP), a apuração do realizado físico segue os critérios do produto e da unidade de medida; o orientador da Secretaria de Orçamento Federal (SOF), item 4.3, também estabelece sua relação com a liquidação financeira. Essa regra de registro não torna liquidação, pagamento e entrega conceitos equivalentes.
 
 ## Fronteiras fundamentais para recuperar em prova
 

@@ -24,17 +24,38 @@ A Lei nº 4.320/1964 (arts. 104 e 105) e o **Manual de Contabilidade Aplicada ao
 | BF | Quais ingressos/dispêndios e saldos financeiros? | ingresso compensatório de RP não é caixa recebido |
 | DFC | Quais fluxos efetivos de caixa ocorreram? | depreciação não é saída atual de caixa |
 
+## Como começar: balanço, demonstração e quadro
+
+Um **balanço** é uma demonstração contábil organizada para responder a uma pergunta. O **Balanço Patrimonial (BP)** responde **qual é a situação patrimonial em uma data**, como 31 de dezembro; a **Demonstração das Variações Patrimoniais (DVP)** responde **que aumentos e diminuições do patrimônio líquido ocorreram durante um período**. Pense no BP como um retrato e na DVP como a explicação de parte das mudanças entre dois retratos. Ambos usam dados contábeis, mas não medem o mesmo resultado.
+
+Dentro do BP, **quadro** significa uma seção do relatório, com critérios e finalidade próprios. Não significa uma nova demonstração independente. Para não misturar classificações, siga a ordem:
+
+| Ordem | Nome do quadro | Pergunta própria | Critério principal |
+| :--- | :--- | :--- | :--- |
+| **1º** | Principal | Quais ativos, passivos e patrimônio líquido existem na data? | Reconhecimento patrimonial; **circulante/não circulante** |
+| **2º** | Ativos e Passivos Financeiros e Permanentes | Como bens, direitos e compromissos se enquadram nos critérios legais? | **Financeiro/permanente**, com informações patrimoniais e de execução orçamentária |
+| **3º** | Contas de Compensação | Que atos potenciais ainda a executar precisam ser acompanhados? | Controles de efeitos futuros possíveis |
+| **4º** | Superávit ou Déficit Financeiro | Qual é a diferença entre ativo e passivo financeiros, discriminada por fonte? | Utiliza valores do **2º quadro** |
+
+**Ponto de orientação:** a divisão *circulante/não circulante* pertence ao **1º quadro**. A divisão *financeiro/permanente* pertence ao **2º quadro**. O **3º** não é o “quadro financeiro”: é o de compensação. A expressão genérica “quadro complementar” pode esconder qual deles está sendo examinado; use sempre o nome e a posição.
+
 ## Estrutura do BP: quatro quadros com critérios diferentes
 
 Conforme o MCASP 11, Parte V, seção 4.1, o Balanço Patrimonial compreende **(1) Quadro Principal, (2) Quadro dos Ativos e Passivos Financeiros e Permanentes, (3) Quadro das Contas de Compensação e (4) Quadro do Superávit ou Déficit Financeiro**.
 
 ### Quadro Principal: ativo, passivo e PL
 
+**Primeira leitura, antes de classificar:** uma universidade possui R$ 100 mil no banco e um prédio em uso. Esses elementos são ativos. Se uma empresa já prestou um serviço e a universidade deve pagá-lo, existe uma obrigação patrimonial a avaliar como passivo. O patrimônio líquido é a diferença residual: **ativo − passivo**. A classificação em circulante ou não circulante só ocorre **depois** de identificar o ativo ou o passivo; por isso ela não é uma regra de classificação do segundo quadro.
+
 A igualdade é **Ativo = Passivo + PL**. Ativo é recurso presentemente controlado, decorrente de evento passado, com benefício econômico ou potencial de serviços. Assim, um equipamento usado em serviço gratuito pode constituir ativo público. Passivo é uma obrigação presente conforme os critérios de reconhecimento. O PL representa o valor residual dos ativos após deduzir os passivos.
 
 O quadro distingue **circulante** e **não circulante**, conforme ciclo operacional, prazo de realização/exigibilidade e demais condições normativas. Caixa normalmente é circulante, ressalvadas restrições específicas; bens usados por vários anos tendem a integrar o não circulante. Classificar não é apenas olhar o nome da conta: duração do ciclo, prazo e restrições importam.
 
 ### Quadro financeiro e permanente: art. 105 da Lei nº 4.320/1964
+
+**Segunda leitura, mudando a pergunta:** a mesma universidade tem R$ 100 mil em conta bancária e empenhou R$ 30 mil por um serviço **ainda não prestado**. Suponha que, ao encerrar o exercício, esse compromisso tenha sido regularmente inscrito em **restos a pagar não processados a liquidar** (despesa empenhada cujo objeto ainda não foi entregue ou prestado). Pelo critério patrimonial do **1º quadro**, o empenho isolado ainda não cria passivo desse serviço. No **2º quadro**, o compromisso pode integrar o **passivo financeiro**. O que mudou foi o critério de classificação, não o fato ocorrido.
+
+Se o serviço tivesse sido **prestado e consumido** antes do encerramento, haveria também fato gerador de Variação Patrimonial Diminutiva (VPD) e obrigação patrimonial, mesmo que a liquidação administrativa estivesse pendente. O nome da etapa orçamentária não substitui a análise da entrega ou do consumo. Esse contraste é o motivo de o passivo financeiro do 2º quadro **não poder ser copiado mecanicamente** do passivo do 1º.
 
 A classificação em **ativo financeiro/permanente** e **passivo financeiro/permanente** atende a critérios legais e orçamentários, **distintos** do prazo que define circulante e não circulante.
 
@@ -58,9 +79,13 @@ A classificação em **ativo financeiro/permanente** e **passivo financeiro/perm
 
 ### Quadro de compensação
 
+**Terceira leitura, sem inventar um ativo:** imagine uma garantia bancária apresentada pelo fornecedor para assegurar a execução do contrato. A universidade precisa acompanhar seu valor e sua validade. A simples apresentação da garantia **não significa entrada de caixa**, nem reconhecimento automático desse valor como ativo no 1º quadro. Enquanto se tratar de ato potencial a executar, o acompanhamento pode aparecer no **3º quadro**.
+
 Evidencia **atos potenciais ativos e passivos a executar** que podem alterar futuramente o patrimônio, como obrigações e garantias contratuais ainda potenciais. O registro de controle **não é reconhecimento automático de ativo/passivo patrimonial**. Atos já executados não pertencem ao grupo de potenciais a executar.
 
 ### Quadro do superávit ou déficit financeiro
+
+**Quarta leitura, retomando o segundo quadro:** nas condições simplificadas do exemplo, o ativo financeiro é R$ 100 mil (caixa) e o passivo financeiro é R$ 30 mil (restos a pagar regularmente inscritos). A diferença é **R$ 70 mil**, positiva. O **4º quadro** apresenta essa apuração por fonte/destinação: valor positivo indica superávit financeiro; negativo, déficit. O resultado de R$ 70 mil **não é automaticamente dinheiro livre** para qualquer despesa, pois pode haver vinculação de recursos. Tampouco é o patrimônio líquido do 1º quadro.
 
 O **superávit financeiro** corresponde, em sua forma básica, à **diferença positiva entre ativo financeiro e passivo financeiro**, discriminada por **fonte/destinação de recursos**. O MCASP utiliza o mecanismo de Disponibilidade por Destinação de Recursos (DDR) e admite fontes superavitárias e deficitárias no mesmo ente. O superávit financeiro de exercício anterior é uma das fontes de créditos adicionais segundo o **art. 43 da Lei nº 4.320/1964**, respeitados ajustes e restrições legais.
 
@@ -77,6 +102,8 @@ Quando **o serviço tiver sido prestado** e ainda não houver liquidação forma
 **Item C/E:** “O quadro financeiro do BP não pode incluir compromissos derivados de contas de execução orçamentária que não correspondam a passivos reconhecidos no quadro principal.” **Errado.** O MCASP inclui essas contas da **classe 6** no quadro financeiro/permanente.
 
 ## Estrutura da DVP: VPA e VPD
+
+**Volte ao mesmo caso, agora observando o tempo.** Se o serviço de R$ 30 mil for efetivamente prestado e consumido somente em janeiro do ano seguinte, a VPD desse serviço pertence a esse ano seguinte, conforme a competência patrimonial, ainda que o empenho tenha ocorrido no ano anterior. Quando a obrigação for paga, caixa e passivo diminuem juntos; o pagamento não produz **outra** VPD. Logo, a DVP explica a variação quantitativa ocorrida **no período**, enquanto o BP mostra os saldos **na data**.
 
 A DVP registra **variações patrimoniais quantitativas**, isto é, que alteram o PL, e calcula:
 

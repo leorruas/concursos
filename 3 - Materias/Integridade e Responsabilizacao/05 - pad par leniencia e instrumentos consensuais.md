@@ -80,6 +80,12 @@ O **Enunciado da Consultoria-Geral da União nº 42/2026**, publicado em 20/07/2
 - [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo]].
 - [[3 - Materias/Contratacoes e Transferencias/07 - prestacao de contas e tomada de contas especial|TCE e dano]].
 
+## Calibração com prova real da Cebraspe
+
+A prova da **ANM 2025, Cargo 19, Correcional, caderno 038_ANM_019_01** apresentou fronteiras próximas: **item 55 (E)** combinou prazos corretos de prescrição com marco inicial errado; **item 67 (E)** tratou requisitos de leniência como alternativas; **item 95 (C)** examinou a obrigação de optar pelo TAC diante dos requisitos; **item 96 (E)** transportou a regra de suspensão de até 30 dias para empregados públicos e servidores não efetivos. O último item destaca a ressalva do **art. 62, parágrafo único, da Portaria CGU 27/2022**, cuja hipótese de TAC para esses sujeitos é mais restrita, relacionada à **advertência**.
+
+Fontes: [caderno oficial](https://cdn.cebraspe.org.br/concursos/ANM_24/arquivos/038_ANM_019_01.PDF), [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/anm_24/arquivos/Gab_Definitivo_038_ANM_019_01.PDF) e [[1 - Planejamento/CGU 2026 - Auditoria normativa e provas-espelho - lote 2|matriz de análise dos itens]]. O exame comprova **mecanismos reais de distração**, sem medir incidência na prova da CGU.
+
 ## Tensões e pegadinhas
 
 **PAD ≠ PAR.** **Leniência ≠ TAC.** **Benefício negocial ≠ eliminação geral do dever de reparação.** **Pessoa jurídica objetiva ≠ pessoa física objetiva.**

@@ -917,7 +917,8 @@
           "noteRefs": [
             "3 - Materias/Direito Constitucional/01 - principios fundamentais",
             "3 - Materias/Direito Constitucional/05 - direitos politicos",
-            "3 - Materias/Direito Administrativo/11 - controle da administracao publica"
+            "3 - Materias/Direito Administrativo/11 - controle da administracao publica",
+            "3 - Materias/Administracao Publica/02 - governanca publica"
           ],
           "requires": [
             "up1-1-4"

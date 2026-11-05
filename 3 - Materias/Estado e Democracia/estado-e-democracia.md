@@ -24,7 +24,13 @@ Estado, representação, federalismo, poder público, corrupção e formas de de
 - [[3 - Materias/Estado e Democracia/08 - consequencias prevencao e respostas a corrupcao|08. Consequências, prevenção e respostas à corrupção]]: unidade P1.1.8.
 - [[3 - Materias/Estado e Democracia/09 - estado regulacao e modelos de desenvolvimento|09. Estado, regulação e modelos de desenvolvimento]]: unidade P1.1.9.
 
-As unidades 04 e 05 reutilizam conceitos canônicos de Direito Constitucional e Controle da Administração Pública, sem duplicação.
+As unidades 04 e 05 reutilizam conceitos canônicos de [[3 - Materias/Direito Constitucional/01 - principios fundamentais|Direito Constitucional]], [[3 - Materias/Direito Constitucional/05 - direitos politicos|Direitos políticos]], [[3 - Materias/Direito Administrativo/11 - controle da administracao publica|Controle da Administração]] e [[3 - Materias/Administracao Publica/02 - governanca publica|Governança pública]], sem duplicação.
+
+**Refinamento da unidade 05:** valor público depende de resultados socialmente relevantes e de direitos efetivamente atendidos. Reduzir custo médio por atendimento pode indicar eficiência relativa ao indicador utilizado, mas não comprova, isoladamente, acesso equitativo, confiança institucional ou respeito às garantias dos usuários. Controle interno, externo e social têm competências distintas e podem se complementar.
+
+**Item C/E inédito.** A queda no custo médio de um serviço demonstra necessariamente maior equidade no acesso e respeito integral aos direitos dos usuários.
+
+**Gabarito: Errado.** Eficiência, equidade e garantias exigem evidências e critérios próprios.
 
 ## Planejamento das unidades
 

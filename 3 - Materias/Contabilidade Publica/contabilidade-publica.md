@@ -42,7 +42,7 @@ O planejamento segue [[2 - Editais/CGU 2026 - Auditoria|o edital e checklist da 
 9. [[3 - Materias/Contabilidade Publica/09 - demonstracoes societarias das estatais|Demonstrações societárias das estatais e partes relacionadas]]: DRE × DVP, BP, DRA, DMPL, DFC, CPC 05 e consolidação.
 10. [[3 - Materias/Contabilidade Publica/10 - governanca transparencia e finalidade publica das estatais|Governança, transparência e finalidade pública das estatais]]: cartas, conselhos, auditoria, finalidade pública, controles e alteração de 2025.
 
-**Cobertura:** dez artigos em C1–C5 e microfases F01–F07 atendidas editorialmente. A conferência integral dos itens do edital e retificações ainda está pendente. Publicação não é estudo, domínio ou retenção.
+**Cobertura:** dez artigos em C1–C5 e F01–F07 atendidas editorialmente. A [[1 - Planejamento/Contabilidade Publica - Auditoria de cobertura CGU 2026|auditoria temática do edital de 04/11/2026]] localizou **nove subitens com conteúdo substantivo e três parciais** nos temas **P3.2.4 a P3.2.7**: comprovação físico-financeira (5.1), aplicação dos CPCs às estatais (6.3) e sustentabilidade econômico-financeira (7.2). A validação normativa fina e o estudo permanecem pendentes.
 
 ## Plano editorial de aprofundamento
 

@@ -76,6 +76,14 @@ A **TCE é medida excepcional** e, em regra, requer medidas administrativas inte
 
 **Gabarito: Certo.** São elementos centrais descritos pela CGU.
 
+## Refinamento de fases: Portaria CGU 281/2026
+
+O **art. 19** define a fase interna da tomada de contas especial (TCE) entre o **ato de instauração** e a **autuação no TCU**. O **art. 20** define a fase externa da autuação no TCU até o julgamento. O **art. 22** estabelece **180 dias** para conclusão da fase interna de rito ordinário, com **até 90 dias** para instauração e envio ao controle interno. Não se deve confundir esses prazos com as medidas prévias de ressarcimento nem com os **180 dias** para análise de relatório final de transferência especial do art. 6º da Portaria MGI 7.562/2026.
+
+**Questão inédita C/E:** A fase externa começa com a instauração da TCE no órgão de origem. **Errado:** começa com a autuação no TCU.
+
+Fonte: [CGU, Portaria Normativa 281/2026](https://basedeconhecimento.cgu.gov.br/handle/1/23225).
+
 ## Relações com outros temas
 
 - [[3 - Materias/Contratacoes e Transferencias/06 - fiscalizacao da execucao e comprovacao do objeto|Comprovação do objeto]].

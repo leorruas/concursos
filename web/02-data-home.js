@@ -32,15 +32,15 @@ function ordenarArtigosDaMateria(a, b) {
 
 async function carregarCamadaEstrategica() {
     try {
-        const [resConc, resEdital, resErros, resCatalogo] = await Promise.all([
+        const [resConc, resEdital, resCatalogo] = await Promise.all([
             fetch("data/concursos.json"),
             fetch("data/edital-itens.json"),
-            fetch("data/erros-recorrentes.json"),
             fetch("data/catalogo-materias-por-concurso.json")
         ]);
         if (resConc.ok) dadosConcursosEstrategicos = await resConc.json();
         if (resEdital.ok) dadosEditalEstrategico = await resEdital.json();
-        if (resErros.ok) dadosErrosEstrategicos = await resErros.json();
+        // O ranking público não usa históricos pessoais de erros.
+        dadosErrosEstrategicos = [];
         if (resCatalogo.ok) {
             const catalogo = await resCatalogo.json();
             if (catalogo?.schemaVersion === 1 && Array.isArray(catalogo.contests)) {

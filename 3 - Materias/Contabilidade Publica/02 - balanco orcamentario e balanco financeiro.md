@@ -21,6 +21,29 @@ A Lei nº 4.320/1964 fundamenta o **BO no art. 102** e o **BF no art. 103**. O *
 | BO | O que foi previsto e autorizado, e o que foi arrecadado e executado? | previsão inicial/atualizada, receita realizada, dotação inicial/atualizada, despesa empenhada/liquidada/paga, quadros de RP | supor que despesa empenhada é igual ao valor desembolsado |
 | BF | Como se estruturaram ingressos e dispêndios e quanto dinheiro ficou? | receita/despesa orçamentárias, recebimentos/pagamentos extraorçamentários, transferências, caixa inicial/final | confundir saldo de caixa, resultado do exercício e superávit financeiro do BP |
 
+## Mapa visual: quais quadros pertencem ao BO e ao BF?
+
+O **Balanço Orçamentário (BO)** possui **três quadros**, e todos pertencem ao próprio BO. O **Balanço Financeiro (BF)** é outra demonstração, estruturada em ingressos, dispêndios e saldos financeiros. Ele **não recebe parte dos quadros do BO**.
+
+```mermaid
+flowchart TB
+    R["Demonstrações do artigo 02"]:::raiz
+    BO["Balanço Orçamentário (BO)"]:::criterio
+    BF["Balanço Financeiro (BF)"]:::criterio
+    R --> BO
+    R --> BF
+    BO --> BO1["1. Quadro Principal<br/>Receitas e despesas do exercício"]:::opcao
+    BO --> BO2["2. Execução dos Restos a Pagar<br/>Não Processados"]:::opcao
+    BO --> BO3["3. Execução dos Restos a Pagar<br/>Processados"]:::opcao
+    BF --> BF1["Ingressos orçamentários e extraorçamentários<br/>Transferências e saldo inicial"]:::opcao
+    BF --> BF2["Dispêndios orçamentários e extraorçamentários<br/>Transferências e saldo final"]:::opcao
+    classDef raiz fill:#f59e0b,color:#111111,stroke:#b45309,stroke-width:1.5px
+    classDef criterio fill:#fff2d9,color:#3d2207,stroke:#b45309,stroke-width:1.5px
+    classDef opcao fill:#fffbeb,color:#1c1917,stroke:#b68d58,stroke-width:1.5px
+```
+
+**Uma terceira estrutura, em outro artigo:** os **quatro quadros** são do **[[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais#Estrutura do BP: quatro quadros com critérios diferentes|Balanço Patrimonial (BP)]]**: Principal; Ativos e Passivos Financeiros e Permanentes; Contas de Compensação; e Superávit ou Déficit Financeiro. Eles **não se dividem entre BO e BF**. A Demonstração das Variações Patrimoniais (DVP) também é uma demonstração distinta.
+
 ## Comece pela pergunta de cada balanço
 
 Antes das tabelas, imagine que uma universidade arrecade **R$ 100** em tributos, empenhe **R$ 60** para comprar computadores já entregues, mas pague apenas **R$ 40** até 31 de dezembro. Ficam **R$ 20** de obrigação não paga, inscritos regularmente como **restos a pagar processados** porque a despesa já foi liquidada. Não houve outras operações, saldos anteriores nem depreciação. Use esse caso para acompanhar os dois relatórios.

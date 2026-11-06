@@ -351,6 +351,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos|Pesquisa de mídia: audiência, alcance e métodos de medição]]
   - [[3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao|Métricas digitais: impressões, alcance, cliques, conversões e interpretação]]
   - [[3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade|Indicadores de publicidade: eficácia, eficiência, efetividade e causalidade]]
+  - [[3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual|Marca: conceito, elementos e identidade visual]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

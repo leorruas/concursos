@@ -10,8 +10,8 @@
         "Audin",
         "Auditoria Interna Singular"
       ],
-      "definition": "É a atividade que examina processos, riscos e controles de uma organização e também pode orientar melhorias, preservando independência e objetividade. A sigla AUDIN costuma indicar uma unidade de auditoria interna em órgãos ou entidades públicas. Seu trabalho ajuda a gestão, mas não substitui as decisões e tarefas dos gestores.",
-      "contrast": "A auditoria interna presta serviços de avaliação, que examinam fatos e sustentam conclusões, e consultoria, que oferece orientação. A Unidade de Auditoria Interna Governamental (UAIG) é a estrutura que executa essas atividades no âmbito previsto pelas normas. A AUDIN não é automaticamente o órgão central do Sistema de Controle Interno, e a gestão continua responsável pelos controles cotidianos.",
+      "definition": "É a atividade que examina processos, riscos e controles de uma organização e também pode orientar melhorias, preservando independência e objetividade. A sigla AUDIN costuma indicar uma unidade de auditoria interna em órgãos ou entidades públicas.",
+      "contrast": "A auditoria interna presta serviços de avaliação, que examinam fatos e sustentam conclusões, e consultoria, que oferece orientação. A Unidade de Auditoria Interna Governamental (UAIG) é a estrutura que executa essas atividades no âmbito previsto pelas normas. A AUDIN não é automaticamente o órgão central do Sistema de Controle Interno, e a gestão continua responsável pelos controles cotidianos. Detalhe: Seu trabalho ajuda a gestão, mas não substitui as decisões e tarefas dos gestores.",
       "cebraspeTrap": "A banca pode chamar a AUDIN de responsável pela aprovação diária dos processos ou afirmar que toda unidade de auditoria ocupa a posição de órgão central de controle.",
       "example": "A auditoria interna de uma autarquia verifica se as regras para conceder bolsas são cumpridas e recomenda melhorias. Quem aprova bolsas e corrige o sistema é a gestão do programa.",
       "articleIds": [
@@ -39,8 +39,8 @@
         "UAIG",
         "Unidade de Auditoria Interna Governamental"
       ],
-      "definition": "É a unidade que realiza serviços de auditoria interna governamental, como avaliações e consultorias, para ajudar um órgão ou entidade a melhorar seus processos, riscos e controles. A Unidade de Auditoria Interna Governamental (UAIG) deve exercer suas atividades com independência e objetividade, dentro de suas competências.",
-      "contrast": "UAIG é quem faz a auditoria. Unidade auditável é aquilo que pode ser examinado: um processo, setor ou programa. Pelo modelo das três linhas, a auditoria interna atua na terceira linha, enquanto a gestão opera os controles. A UAIG pode recomendar melhorias e acompanhá-las, mas não assume as decisões do setor auditado.",
+      "definition": "É a unidade que realiza serviços de auditoria interna governamental, como avaliações e consultorias, para ajudar um órgão ou entidade a melhorar seus processos, riscos e controles.",
+      "contrast": "UAIG é quem faz a auditoria. Unidade auditável é aquilo que pode ser examinado: um processo, setor ou programa. Pelo modelo das três linhas, a auditoria interna atua na terceira linha, enquanto a gestão opera os controles. A UAIG pode recomendar melhorias e acompanhá-las, mas não assume as decisões do setor auditado. Detalhe: A Unidade de Auditoria Interna Governamental (UAIG) deve exercer suas atividades com independência e objetividade, dentro de suas competências.",
       "cebraspeTrap": "A banca pode trocar a unidade que audita pelo processo auditado ou dar à UAIG a tarefa de operar os controles que deveria examinar.",
       "example": "A UAIG de uma fundação examina os controles da área de compras. A equipe de auditoria testa registros e relata falhas; a área de compras corrige o processo e continua responsável por ele.",
       "articleIds": [

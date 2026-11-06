@@ -301,6 +301,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca|Comunicação integrada: modalidades, articulação e governança]]
   - [[3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade|Fluxos da comunicação: direção e transversalidade]]
   - [[3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao|Redes formais e informais: grapevine e informação]]
+  - [[3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais|Mapeamento, segmentação e priorização de públicos institucionais]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

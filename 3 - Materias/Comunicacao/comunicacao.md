@@ -67,6 +67,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca|57. Comunicação integrada: modalidades e governança]]: CAM-CO-011, composto de Kunsch, finalidade, integração, meios e C/E.
 - [[3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade|58. Fluxos: direção, hierarquia e transversalidade]]: CAM-CO-012, Curvello, quatro fluxos, Fayol e diferenças entre direção, rede e canal.
 - [[3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao|59. Redes formais, informais e grapevine]]: CAM-CO-013, vínculos organizacionais e padrões de difusão de Keith Davis.
+- [[3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais|60. Mapeamento, segmentação e priorização de públicos]]: CAM-CO-014, Freeman, Grunig, Mitchell, Fábio França, Mendelow e inclusão.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

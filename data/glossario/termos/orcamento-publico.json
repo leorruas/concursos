@@ -5,7 +5,9 @@
     {
       "id": "glo-ppa",
       "term": "PPA",
-      "aliases": [],
+      "aliases": [
+        "Plano Plurianual"
+      ],
       "definition": "Plano Plurianual: lei que organiza os objetivos e as metas de médio prazo do governo, com atenção às despesas de capital, às que delas decorrem e aos programas continuados. A proposta é do Poder Executivo.",
       "contrast": "O PPA orienta vários anos de planejamento. A LDO estabelece prioridades para o orçamento seguinte; a LOA autoriza receitas e despesas de um ano.",
       "cebraspeTrap": "Reduzir o PPA a obras ou fazer sua vigência federal coincidir integralmente com o mandato.",
@@ -30,7 +32,9 @@
     {
       "id": "glo-ldo",
       "term": "LDO",
-      "aliases": [],
+      "aliases": [
+        "Lei de Diretrizes Orçamentárias"
+      ],
       "definition": "Lei de Diretrizes Orçamentárias: lei anual que define prioridades e metas para o ano seguinte e orienta a preparação da Lei Orçamentária Anual, inclusive em matéria fiscal.",
       "contrast": "A LDO faz a ligação entre o planejamento do PPA e o orçamento anual da LOA. Ela não substitui a autorização detalhada de despesas da LOA.",
       "cebraspeTrap": "Afirmar que cada autarquia edita sua própria LDO, separada do ente federativo.",
@@ -59,7 +63,9 @@
     {
       "id": "glo-loa",
       "term": "LOA",
-      "aliases": [],
+      "aliases": [
+        "Lei Orçamentária Anual"
+      ],
       "definition": "Lei Orçamentária Anual: lei que estima quanto o governo espera arrecadar e autoriza despesas para o ano, nos três orçamentos previstos na Constituição.",
       "contrast": "A LOA autoriza valores para um exercício. O PPA organiza objetivos de vários anos, e a LDO orienta a elaboração e a execução do orçamento.",
       "cebraspeTrap": "Confundir dotação prevista na lei com despesa integralmente executada.",
@@ -575,7 +581,9 @@
     {
       "id": "glo-restos-a-pagar-processados",
       "term": "Restos a pagar processados",
-      "aliases": [],
+      "aliases": [
+        "RPP"
+      ],
       "definition": "Despesas que foram empenhadas e liquidadas até 31 de dezembro, mas que ainda não foram pagas e seguem para pagamento no exercício seguinte.",
       "contrast": "Nos processados, o direito do credor já passou pela liquidação. Nos não processados, essa etapa ainda não terminou.",
       "cebraspeTrap": "Considerar uma despesa apenas empenhada como resto a pagar processado.",
@@ -604,7 +612,9 @@
     {
       "id": "glo-restos-a-pagar-nao-processados",
       "term": "Restos a pagar não processados",
-      "aliases": [],
+      "aliases": [
+        "RPNP"
+      ],
       "definition": "Despesas empenhadas e ainda não pagas em 31 de dezembro cuja liquidação não foi concluída, desde que atendam às condições de inscrição.",
       "contrast": "Não processados podem estar 'a liquidar', quando ainda não houve fato gerador, ou 'em liquidação', quando o fato ocorreu e a conferência formal está pendente.",
       "cebraspeTrap": "Afirmar que todo resto não processado significa ausência de entrega ou de obrigação patrimonial.",

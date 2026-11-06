@@ -59,7 +59,9 @@
     {
       "id": "glo-balanco-orcamentario",
       "term": "Balanço orçamentário",
-      "aliases": [],
+      "aliases": [
+        "BO"
+      ],
       "definition": "Relatório que mostra o que o governo previa arrecadar e gastar e compara essas previsões com o que executou durante o exercício. Inclui informações de restos a pagar.",
       "contrast": "O Balanço Orçamentário compara planejamento e execução. O Balanço Financeiro acompanha entradas e saídas financeiras.",
       "cebraspeTrap": "Equiparar receita prevista à arrecadada ou trocar empenho por pagamento como único critério.",
@@ -88,7 +90,9 @@
     {
       "id": "glo-balanco-financeiro",
       "term": "Balanço financeiro",
-      "aliases": [],
+      "aliases": [
+        "BF"
+      ],
       "definition": "Relatório que organiza o dinheiro e outros recursos financeiros que entraram e saíram no período e apresenta os saldos inicial e final, incluindo operações orçamentárias e extraorçamentárias.",
       "contrast": "O saldo do Balanço Financeiro não é automaticamente o superávit financeiro disponível para abrir um crédito adicional.",
       "cebraspeTrap": "Tratar inscrição compensatória de restos a pagar como entrada de dinheiro novo.",
@@ -117,7 +121,9 @@
     {
       "id": "glo-variacao-patrimonial-aumentativa",
       "term": "Variação patrimonial aumentativa",
-      "aliases": [],
+      "aliases": [
+        "VPA"
+      ],
       "definition": "Aumento do patrimônio líquido da entidade causado por um fato do período. Recebe a sigla VPA e pode surgir antes da entrada do dinheiro.",
       "contrast": "Uma VPA aumenta o patrimônio líquido. Receber um valor que já estava registrado como direito a receber não cria, por si, outra VPA.",
       "cebraspeTrap": "Exigir arrecadação como condição geral para reconhecer uma VPA.",
@@ -254,7 +260,9 @@
     {
       "id": "glo-patrimonio-liquido",
       "term": "Patrimônio líquido",
-      "aliases": [],
+      "aliases": [
+        "PL"
+      ],
       "definition": "Diferença entre o valor dos ativos e o valor dos passivos da entidade em uma data. Em termos simples: o que ela controla, menos o que deve. Fórmula: ativo menos passivo.",
       "contrast": "Patrimônio líquido não é dinheiro disponível para gastar. Uma troca de caixa por equipamento pode manter esse valor igual.",
       "cebraspeTrap": "Tratar variação de caixa como alteração de igual valor no patrimônio líquido.",
@@ -312,7 +320,9 @@
     {
       "id": "glo-balanco-patrimonial",
       "term": "Balanço patrimonial",
-      "aliases": [],
+      "aliases": [
+        "BP"
+      ],
       "definition": "Relatório que apresenta, em uma data específica, os ativos, os passivos e o patrimônio líquido da entidade. É uma fotografia da sua situação patrimonial.",
       "contrast": "O Quadro Principal do Balanço mostra ativos e passivos patrimoniais. O quadro financeiro/permanente segue o art. 105 da Lei nº 4.320/1964 e pode incluir compromissos de empenho sem passivo patrimonial correspondente. Circulante não é sinônimo de financeiro.",
       "cebraspeTrap": "Equiparar ativo circulante a ativo financeiro ou passivo circulante a passivo financeiro sem examinar os quadros próprios.",

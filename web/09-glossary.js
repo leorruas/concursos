@@ -210,11 +210,15 @@ function renderizarGlossario() {
             '<a href="' + escaparGlossario(a.href) + '">' + escaparGlossario(a.title) + '</a>').join(' · ');
         const sources = (item.sources || []).map(source =>
             '<a href="' + escaparGlossario(source.url) + '" target="_blank" rel="noopener noreferrer">' + escaparGlossario(source.label) + '</a>').join(' · ');
+        const aliases = (item.aliases || []).filter(Boolean);
+        const aliasesHtml = aliases.length ? '<p class="glossario-fonte">Siglas e nomes equivalentes: ' +
+            aliases.map(escaparGlossario).join(' · ') + '</p>' : '';
         const detail = expanded ? '<div class="glossario-detalhe" id="glossario-detalhe-' + id + '">' +
             '<p class="glossario-definicao">' + escaparGlossario(item.definition) + '</p>' +
             '<dl><dt>Diferença importante</dt><dd>' + escaparGlossario(item.contrast) + '</dd>' +
             '<dt>Armadilha Cebraspe</dt><dd>' + escaparGlossario(item.cebraspeTrap) + '</dd>' +
             '<dt>Exemplo</dt><dd>' + escaparGlossario(item.example) + '</dd></dl>' +
+            aliasesHtml +
             '<p class="glossario-fonte">Aprofundar: ' + articleLinks + '</p>' +
             '<p class="glossario-fonte">Fontes: ' + sources + '</p>' +
             '<a class="glossario-permalink" href="' + escaparGlossario(glossarioRotaTermo(item.id)) + '">link permanente desta definição</a>' +

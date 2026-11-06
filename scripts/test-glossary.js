@@ -179,6 +179,33 @@ for (const [id, fragment] of [
 }
 
 assert(match('programacao fisica').some(t => t.id === 'glo-programacao-fisica-cumprida'));
+const siglasEsperadas = [
+  ['BO', 'glo-balanco-orcamentario'],
+  ['BF', 'glo-balanco-financeiro'],
+  ['BP', 'glo-balanco-patrimonial'],
+  ['VPA', 'glo-variacao-patrimonial-aumentativa'],
+  ['VPD', 'glo-variacao-patrimonial-diminutiva'],
+  ['PL', 'glo-patrimonio-liquido'],
+  ['DVP', 'glo-demonstracao-das-variacoes-patrimoniais'],
+  ['DFC', 'glo-demonstracao-dos-fluxos-de-caixa'],
+  ['PPA', 'glo-ppa'],
+  ['LDO', 'glo-ldo'],
+  ['LOA', 'glo-loa'],
+  ['RPP', 'glo-restos-a-pagar-processados'],
+  ['RPNP', 'glo-restos-a-pagar-nao-processados'],
+  ['DEA', 'glo-despesas-de-exercicios-anteriores'],
+  ['PAINT', 'glo-paint'],
+  ['RAINT', 'glo-raint'],
+  ['PCASP', 'glo-plano-de-contas-aplicado-ao-setor-publico-pcasp']
+];
+for (const [sigla, id] of siglasEsperadas) {
+  const entry = published.terms.find(term => term.id === id);
+  assert(entry && (entry.term === sigla || entry.aliases.includes(sigla)),
+    'Sigla ausente no verbete correspondente: ' + sigla);
+  assert.equal(match(sigla)[0]?.id, id, 'Busca deve priorizar a sigla: ' + sigla);
+}
+assert(glossaryUI.includes('Siglas e nomes equivalentes:'),
+  'Detalhe do glossário deve mostrar siglas e nomes equivalentes');
 // A consulta deve tolerar flexão nominal, acentos, plurais e várias palavras.
 const primarios = [
   'glo-receita-primaria',

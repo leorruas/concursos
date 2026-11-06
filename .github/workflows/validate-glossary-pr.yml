@@ -5,6 +5,7 @@ on:
       - 'data/glossario/**'
       - 'scripts/glossary-*.js'
       - 'scripts/test-glossary*.js'
+      - 'scripts/test-glossary-browser.cjs'
       - 'scripts/build-site.js'
       - '.github/workflows/validate-glossary-pr.yml'
       - '3 - Materias/**'
@@ -29,3 +30,18 @@ jobs:
         run: node scripts/test-glossary-flashcards.js
       - name: Verificar dados pessoais fora do site
         run: node scripts/test-public-privacy.js
+      - name: Instalar navegador de teste
+        run: |
+          npm install --no-save --ignore-scripts --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Testar interface e gerar evidências em duas larguras
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory _site >/tmp/glossario-http.log 2>&1 &
+          node scripts/test-glossary-browser.cjs
+      - name: Anexar capturas do glossário
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: capturas-glossario
+          path: glossary-visual-evidence/
+          if-no-files-found: ignore

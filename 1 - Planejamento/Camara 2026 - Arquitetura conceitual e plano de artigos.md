@@ -286,8 +286,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-009 · F2**: Resposta à crise: etapas, canais e avaliação.
 - [x] **CAM-CO-010 · F2**: Comunicação organizacional: dimensões e escopo.
 - [x] **CAM-CO-011 · F2**: Comunicação integrada: institucional, mercadológica, interna e administrativa.
-- [ ] **CAM-CO-012 · F2**: Fluxos ascendentes, descendentes, horizontais e transversais.
-- [ ] **CAM-CO-013 · F2**: Comunicação formal, informal e redes de interação.
+- [x] **CAM-CO-012 · F2**: Fluxos ascendentes, descendentes, horizontais e transversais.
+- [x] **CAM-CO-013 · F2**: Comunicação formal, informal e redes de interação.
 - [ ] **CAM-CO-014 · F2**: Mapeamento e segmentação de públicos institucionais.
 - [ ] **CAM-CO-015 · F2**: Planejamento estratégico de comunicação e diagnóstico.
 - [ ] **CAM-CO-016 · F3**: Objetivos, indicadores e avaliação de comunicação.
@@ -592,14 +592,14 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 ## Lote 18: fluxos e redes da comunicação (CO-012 e CO-013)
 
-- [ ] **CAM-CO-012 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade|Fluxos da comunicação: direção, hierarquia e transversalidade]] (`art-8742dc93b5e1a06f`). Artigo específico para aprofundar **Curvello**, quatro fluxos, os limites de diagonal/transversal/circular em outras fontes, a passarela de Fayol, a distinção entre direção, rede, meio e modalidade, casos progressivos e três C/E.
-- [ ] **CAM-CO-013 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao|Redes formais, informais e grapevine]] (`art-c49f86d2107ae35b`). Artigo específico para diferenciar redes e fluxos, os **quatro padrões de Keith Davis**, circulação de informação correta e não verificada, relações com organograma, casos progressivos e três C/E.
+- [x] **CAM-CO-012 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade|Fluxos da comunicação: direção, hierarquia e transversalidade]] (`art-8742dc93b5e1a06f`). Artigo específico para aprofundar **Curvello**, quatro fluxos, os limites de diagonal/transversal/circular em outras fontes, a passarela de Fayol, a distinção entre direção, rede, meio e modalidade, casos progressivos e três C/E.
+- [x] **CAM-CO-013 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao|Redes formais, informais e grapevine]] (`art-c49f86d2107ae35b`). Artigo específico para diferenciar redes e fluxos, os **quatro padrões de Keith Davis**, circulação de informação correta e não verificada, relações com organograma, casos progressivos e três C/E.
 
 **Auditoria e preservação:** a nota [[3 - Materias/Comunicacao/09 - comunicacao interna|Comunicação Interna]] (`art-806546892285426f`) já desenvolvia os quatro fluxos de Curvello, juntamente com conteúdo FGV, e as notas [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação Organizacional]], [[3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch|56]] e [[3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca|57]] trazem outros eixos de classificação. Os arquivos preexistentes permaneceram **integralmente inalterados**. Os novos artigos abordam perguntas autônomas e são vinculados somente a `camara-2026/comunicacao`. CGU, Dataprev e progresso pessoal permanecem preservados.
 
 **Critério de fontes:** Curvello apresenta quatro fluxos, enquanto outras referências variam a terminologia de diagonal, transversal e circular. Davis (1969) classifica padrões de grapevine, e não os quatro fluxos de Curvello. Tabelas e itens C/E são didáticos.
 
-**Publicação pendente:** validar build, identidade, links, catálogo, busca, privacidade e manifesto no Pages ao vivo. Só depois assinalar CO-012 e CO-013. Próximo candidato: **CAM-CO-014**, públicos e segmentação, após auditoria de [[3 - Materias/Comunicacao/15 - publicos e stakeholders|Públicos e stakeholders]].
+**Publicação confirmada:** o [workflow 42205138022](https://github.com/leorruas/concursos/actions/runs/42205138022) terminou com **success**, incluindo validação de build, identidade, links, privacidade, busca e catálogo/manifesto no GitHub Pages ao vivo. Os dois itens estão concluídos editorialmente, sem registrar estudo ou retenção individual. Próximo candidato: **CAM-CO-014**, mapeamento e segmentação de públicos, com auditoria da nota de Públicos e stakeholders.
 
 ## Critérios de publicação e evidência
 

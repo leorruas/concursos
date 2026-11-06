@@ -8,10 +8,10 @@
       "aliases": [
         "Plano Plurianual"
       ],
-      "definition": "Plano Plurianual: lei que organiza os objetivos e as metas de médio prazo do governo, com atenção às despesas de capital, às que delas decorrem e aos programas continuados. A proposta é do Poder Executivo.",
-      "contrast": "O PPA orienta vários anos de planejamento. A LDO estabelece prioridades para o orçamento seguinte; a LOA autoriza receitas e despesas de um ano.",
-      "cebraspeTrap": "Reduzir o PPA a obras ou fazer sua vigência federal coincidir integralmente com o mandato.",
-      "example": "A expansão de uma rede de atendimento tem metas de médio prazo no PPA.",
+      "definition": "É a lei que organiza o planejamento do governo para quatro anos. O Plano Plurianual (PPA) define diretrizes, objetivos e metas para programas de duração continuada e para investimentos e despesas que deles decorrem. Serve para ligar as decisões de médio prazo aos orçamentos anuais. Na União, o projeto é enviado pelo Poder Executivo.",
+      "contrast": "O PPA define a direção para vários anos; a Lei de Diretrizes Orçamentárias (LDO) seleciona prioridades e orienta o orçamento do ano seguinte; a Lei Orçamentária Anual (LOA) estima receitas e autoriza despesas daquele ano. No plano federal, a vigência do PPA começa no segundo ano do mandato presidencial e termina no primeiro ano do mandato seguinte. Assim, a troca de presidente não encerra automaticamente o plano vigente. O PPA também inclui programas continuados, não apenas obras.",
+      "cebraspeTrap": "A banca pode dizer que o PPA federal começa no primeiro ano do mandato ou que contém apenas obras. O ponto decisivo é seu ciclo de quatro anos deslocado em relação ao mandato presidencial e a inclusão de programas continuados.",
+      "example": "O governo planeja ampliar o atendimento de saúde durante quatro anos: define no PPA metas como novas unidades e atendimento ampliado. A LDO do próximo ano indica prioridades; a LOA autoriza valores para executar parte do plano. Na União, um presidente eleito em 2026 executará em 2027 o último ano do PPA anterior, antes do novo PPA vigorar em 2028.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -35,10 +35,10 @@
       "aliases": [
         "Lei de Diretrizes Orçamentárias"
       ],
-      "definition": "Lei de Diretrizes Orçamentárias: lei anual que define prioridades e metas para o ano seguinte e orienta a preparação da Lei Orçamentária Anual, inclusive em matéria fiscal.",
-      "contrast": "A LDO faz a ligação entre o planejamento do PPA e o orçamento anual da LOA. Ela não substitui a autorização detalhada de despesas da LOA.",
-      "cebraspeTrap": "Afirmar que cada autarquia edita sua própria LDO, separada do ente federativo.",
-      "example": "A LDO traz metas fiscais para orientar a proposta anual.",
+      "definition": "É a lei que faz a ligação entre o planejamento de vários anos e o orçamento de cada ano. A Lei de Diretrizes Orçamentárias (LDO) indica prioridades e metas, orienta a elaboração da Lei Orçamentária Anual (LOA) e traz regras e informações fiscais exigidas pela Constituição e pela Lei de Responsabilidade Fiscal.",
+      "contrast": "O Plano Plurianual (PPA) trata de objetivos de médio prazo; a LDO escolhe orientações e prioridades para o exercício seguinte; a LOA estima receitas e autoriza despesas. A LDO pode trazer Anexo de Metas Fiscais e Anexo de Riscos Fiscais, conforme a lei. Ela não substitui a dotação da LOA nem é uma lei separada para cada autarquia: integra o planejamento do ente federativo.",
+      "cebraspeTrap": "Confundir prioridade da LDO com autorização de gasto da LOA, ou afirmar que cada órgão edita sua própria LDO independente da lei do ente, troca a função dos instrumentos.",
+      "example": "O PPA prevê ampliar a rede de escolas por vários anos. A LDO define como prioridade do próximo exercício a melhoria de escolas existentes e indica metas fiscais. A LOA traz a verba autorizada para as ações. Nenhuma dessas leis, isoladamente, comprova que obras foram pagas ou concluídas.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -66,10 +66,10 @@
       "aliases": [
         "Lei Orçamentária Anual"
       ],
-      "definition": "Lei Orçamentária Anual: lei que estima quanto o governo espera arrecadar e autoriza despesas para o ano, nos três orçamentos previstos na Constituição.",
-      "contrast": "A LOA autoriza valores para um exercício. O PPA organiza objetivos de vários anos, e a LDO orienta a elaboração e a execução do orçamento.",
-      "cebraspeTrap": "Confundir dotação prevista na lei com despesa integralmente executada.",
-      "example": "A LOA autoriza recursos para equipamentos, cuja entrega e pagamento virão depois.",
+      "definition": "É a lei que mostra quanto o governo espera arrecadar e autoriza quanto poderá gastar em um exercício financeiro. A Lei Orçamentária Anual (LOA) reúne três partes previstas na Constituição: orçamento fiscal, orçamento da seguridade social e orçamento de investimento das empresas estatais abrangidas.",
+      "contrast": "A LOA vale para um exercício, mas pode financiar uma parte de projetos que duram vários anos. O Plano Plurianual (PPA) define objetivos de médio prazo; a Lei de Diretrizes Orçamentárias (LDO) estabelece orientações e prioridades. Ter uma despesa autorizada na LOA, chamada dotação, não significa que já houve empenho, entrega ou pagamento. A Constituição permite que a LOA contenha autorização para créditos suplementares e operações de crédito, apesar do princípio da exclusividade.",
+      "cebraspeTrap": "A banca pode dizer que tudo que foi autorizado na LOA já saiu do caixa ou que a LOA contém somente o orçamento fiscal. É preciso distinguir autorização, execução e as três esferas da lei.",
+      "example": "A LOA autoriza R$ 500 mil para compra de computadores. Enquanto não houver empenho, há apenas autorização para gastar; quando o órgão empenha R$ 100 mil, compromete essa parcela. O pagamento só acontece depois das etapas exigidas. O projeto de informatização pode estar no PPA e ser priorizado na LDO.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -144,10 +144,10 @@
       "id": "glo-ciclo-orcamentario",
       "term": "Ciclo orçamentário",
       "aliases": [],
-      "definition": "Conjunto de etapas pelas quais passa o orçamento público: preparar a proposta, discutir e aprovar a lei, executar receitas e despesas e controlar e avaliar os resultados.",
-      "contrast": "Elaborar, aprovar, executar e avaliar são etapas relacionadas, mas o controle pode ocorrer durante a execução e continuar depois dela.",
-      "cebraspeTrap": "Descrever as quatro fases como etapas cronologicamente estanques, sem sobreposição entre exercícios.",
-      "example": "Enquanto o orçamento de um ano é executado, a proposta do ano seguinte já pode estar em elaboração.",
+      "definition": "É o conjunto de etapas pelas quais o orçamento público passa: o governo prepara a proposta; o Legislativo discute e aprova; a administração arrecada receitas e executa despesas; e os órgãos competentes acompanham, controlam e avaliam os resultados. Essas etapas se relacionam e podem ocorrer ao mesmo tempo para exercícios diferentes.",
+      "contrast": "Planejar não é executar: a proposta e a lei autorizam ações, mas não comprovam gasto ou entrega. Controlar também não é atividade exclusiva do fim do ano: há fiscalização antes, durante e depois da execução. Enquanto um orçamento está sendo executado, outro pode estar sendo elaborado. O ciclo orçamentário é o processo inteiro; empenho, liquidação e pagamento são etapas da execução de uma despesa específica.",
+      "cebraspeTrap": "Descrever as fases como uma fila sem sobreposição ou dizer que só existe fiscalização depois do pagamento ignora o funcionamento do ciclo.",
+      "example": "Em 2026, um município executa o orçamento de 2026, analisa seus resultados e ao mesmo tempo prepara a proposta para 2027. Um fiscal pode conferir uma despesa ainda durante 2026. Portanto, os ciclos de anos diferentes se sobrepõem.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -173,10 +173,10 @@
       "id": "glo-principio-da-unidade",
       "term": "Princípio da unidade",
       "aliases": [],
-      "definition": "Princípio que exige que as receitas e despesas de cada ente componham um orçamento organizado como um conjunto coerente, respeitando a divisão constitucional em orçamentos fiscal, da seguridade e de investimento.",
-      "contrast": "A unidade busca integração e visão conjunta. A Constituição admite três orçamentos na LOA, sem contrariar essa ideia.",
-      "cebraspeTrap": "Afirmar que a unidade obriga o ente a possuir um único quadro sem classificações ou peças internas.",
-      "example": "A lei orçamentária federal inclui três orçamentos previstos no art. 165 da Constituição.",
+      "definition": "É o princípio de que o orçamento de cada governo deve formar um conjunto organizado e coerente, permitindo enxergar suas receitas e despesas. A Constituição prevê que a Lei Orçamentária Anual (LOA) reúna os orçamentos fiscal, da seguridade social e de investimento das estatais abrangidas, sem perder essa visão integrada.",
+      "contrast": "Unidade trata da organização do orçamento como um conjunto. Universalidade trata de incluir as receitas e despesas exigidas. Orçamento bruto trata de mostrar os valores totais, sem descontar receitas de despesas. A existência de três orçamentos na LOA não significa violar a unidade, nem proíbe dividir a informação por órgão, programa ou função.",
+      "cebraspeTrap": "A palavra unidade não exige uma tabela única sem divisões. A banca pode afirmar que a Constituição viola o princípio por prever três orçamentos.",
+      "example": "A LOA da União apresenta partes para gastos fiscais, seguridade social e investimentos de estatais abrangidas. Embora sejam três orçamentos, todos integram a lei orçamentária anual do ente. Isso permite identificar o conjunto e também analisar cada parte.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -202,10 +202,10 @@
       "id": "glo-principio-da-universalidade",
       "term": "Princípio da universalidade",
       "aliases": [],
-      "definition": "Regra que exige incluir no orçamento as receitas e despesas orçamentárias abrangidas pelas normas aplicáveis, para permitir que o Legislativo e a sociedade conheçam o conjunto.",
-      "contrast": "Universalidade trata de quais receitas e despesas entram na lei. Unidade trata de como o conjunto é organizado; orçamento bruto exige valores integrais.",
-      "cebraspeTrap": "Confundir a inclusão ampla de receitas e despesas com a proibição de classificá-las por órgão ou função.",
-      "example": "A proposta deve identificar receitas e despesas da seguridade e do orçamento fiscal, conforme o regime aplicável.",
+      "definition": "É a regra de incluir na lei orçamentária todas as receitas e despesas que, pelas normas aplicáveis, devem integrar o orçamento. Isso permite ao Legislativo e à sociedade conhecerem o conjunto das atividades financeiras do governo.",
+      "contrast": "Universalidade responde o que deve aparecer no orçamento; unidade responde como organizar o conjunto; orçamento bruto exige valores integrais. Nem todo movimento de dinheiro é receita orçamentária: uma caução recebida para devolver, por exemplo, é ingresso extraorçamentário e não vira receita da LOA só porque passou pela conta do governo. Também é permitido classificar os valores por órgãos e finalidades sem violar a universalidade.",
+      "cebraspeTrap": "A banca pode tratar qualquer entrada de caixa como receita orçamentária obrigatória da LOA ou confundir a exigência de inclusão com a proibição de separar despesas por áreas.",
+      "example": "O governo estima impostos e autoriza despesas em saúde e educação na LOA, respeitando os orçamentos que devem integrar a lei. Quando recebe caução de um fornecedor, esse dinheiro de terceiro não vira receita orçamentária simplesmente por ter entrado no banco.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -231,10 +231,10 @@
       "id": "glo-principio-da-anualidade",
       "term": "Princípio da anualidade",
       "aliases": [],
-      "definition": "Regra segundo a qual o orçamento autoriza receitas e despesas para um exercício financeiro, que em regra vai de 1º de janeiro a 31 de dezembro.",
-      "contrast": "O PPA dura vários anos, mas a LOA é anual. Existem regras específicas para créditos especiais e extraordinários reabertos no exercício seguinte.",
-      "cebraspeTrap": "Afirmar que nenhuma ação pública pode durar vários exercícios porque o orçamento é anual.",
-      "example": "Um projeto plurianual possui dotações autorizadas em cada exercício de sua execução.",
+      "definition": "É o princípio de que o orçamento autoriza receitas e despesas para um exercício financeiro. No Brasil, o exercício vai de 1º de janeiro a 31 de dezembro. A Lei Orçamentária Anual (LOA) precisa ser aprovada para esse período, mesmo quando o governo executa projetos que duram mais de um ano.",
+      "contrast": "A anualidade da LOA não obriga que todas as obras e programas terminem em dezembro: o Plano Plurianual (PPA) orienta ações de duração maior e cada ano tem sua autorização orçamentária. A Constituição também permite reabrir, no exercício seguinte, saldos de créditos especiais e extraordinários autorizados nos últimos quatro meses do ano, conforme os requisitos legais.",
+      "cebraspeTrap": "Anualidade não quer dizer que toda política pública deva acabar no mesmo ano. Também não torna impossível a reabertura constitucional de certos créditos.",
+      "example": "Uma obra pública durará três anos. O PPA pode prever o projeto, mas a LOA de cada ano autoriza as despesas daquele exercício. Um crédito extraordinário autorizado em novembro pode ter saldo reaberto no ano seguinte, se cumpridas as condições constitucionais.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -260,10 +260,10 @@
       "id": "glo-principio-da-exclusividade",
       "term": "Princípio da exclusividade",
       "aliases": [],
-      "definition": "Regra que limita o conteúdo da Lei Orçamentária Anual à previsão de receitas e à fixação de despesas. A Constituição admite exceções para autorizar créditos suplementares e operações de crédito, inclusive ARO.",
-      "contrast": "A exclusividade impede incluir assuntos estranhos ao orçamento. As exceções expressas do art. 165, § 8º, devem ser lembradas na prova.",
-      "cebraspeTrap": "Afirmar que a LOA jamais pode autorizar créditos suplementares ou incluir autorização de operação de crédito.",
-      "example": "Uma LOA autoriza suplementações dentro dos limites legais sem modificar a organização de secretarias.",
+      "definition": "É a regra de que a Lei Orçamentária Anual (LOA) deve tratar da previsão de receitas e da autorização de despesas, sem inserir assuntos que não pertencem ao orçamento. A Constituição, art. 165, § 8º, permite exceções expressas: autorizar créditos suplementares e operações de crédito, inclusive antecipação de receita orçamentária.",
+      "contrast": "Crédito suplementar reforça uma dotação que já existe; operação de crédito é, em geral, empréstimo ou outra forma de financiamento que cria obrigação de devolver. Essas autorizações podem constar na LOA sem violar a exclusividade. Alterar a estrutura de uma secretaria ou criar regra administrativa sem relação com orçamento não passa a ser permitido só por constar do projeto de LOA.",
+      "cebraspeTrap": "Dizer que a LOA nunca pode autorizar crédito suplementar ou empréstimo ignora as duas exceções expressas. Também é erro tratar a exceção como permissão para qualquer assunto.",
+      "example": "A lei orçamentária autoriza despesas com educação e pode permitir ao Executivo abrir créditos suplementares até certo limite. Isso é uma exceção prevista na Constituição. Inserir na mesma lei uma mudança geral na carreira dos servidores, sem relação com previsão de receita ou fixação de despesa, contraria a finalidade desse princípio.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -285,10 +285,10 @@
       "id": "glo-principio-do-orcamento-bruto",
       "term": "Princípio do orçamento bruto",
       "aliases": [],
-      "definition": "Regra que exige apresentar na lei orçamentária receitas e despesas pelos seus valores totais, sem descontar uma da outra para esconder parte dos montantes.",
-      "contrast": "Orçamento bruto trata de não mostrar valores líquidos no lugar dos valores totais. Universalidade determina quais receitas e despesas devem constar da lei.",
-      "cebraspeTrap": "Registrar apenas o saldo líquido de um repasse, ocultando receita e despesa que deveriam figurar pelos totais.",
-      "example": "Uma transferência de recursos é demonstrada com valor de ingresso e correspondente despesa conforme classificação.",
+      "definition": "É a regra de mostrar na lei orçamentária receitas e despesas pelos seus valores totais, sem descontar uma da outra para apresentar somente a diferença. A Lei nº 4.320/1964, art. 6º, exige essa apresentação pelos valores brutos, respeitadas as classificações aplicáveis.",
+      "contrast": "O princípio do orçamento bruto fala sobre como apresentar valores: inteiros, antes de compensações indevidas. O princípio da universalidade fala sobre quais receitas e despesas devem entrar; a unidade, sobre a organização do conjunto. Receber R$ 100 e gastar R$ 40 não permite informar apenas R$ 60, quando os R$ 100 e R$ 40 devem aparecer separadamente.",
+      "cebraspeTrap": "A banca pode substituir receita e despesa integrais por um saldo líquido e dizer que isso cumpre o orçamento bruto. É precisamente o tipo de compensação que o princípio evita.",
+      "example": "Uma unidade prevê receita de R$ 100 mil e despesa de R$ 30 mil relacionada à atividade. A lei deve apresentar R$ 100 mil de receita e R$ 30 mil de despesa, conforme as regras, e não somente R$ 70 mil como se fosse receita líquida.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -310,10 +310,10 @@
       "id": "glo-credito-suplementar",
       "term": "Crédito suplementar",
       "aliases": [],
-      "definition": "Autorização adicional para aumentar o valor de uma despesa que já possui dotação no orçamento, quando o dinheiro autorizado para ela é insuficiente.",
-      "contrast": "Suplementar reforça uma dotação existente. Especial cria dotação para despesa que ainda não tinha uma; extraordinário atende urgência e imprevisibilidade.",
-      "cebraspeTrap": "Tratar falta completa de dotação como hipótese de simples reforço suplementar.",
-      "example": "Uma ação já prevista no orçamento exige aumento de valor e recebe crédito suplementar autorizado.",
+      "definition": "É uma autorização adicional para aumentar o valor de uma despesa que já tem dotação na Lei Orçamentária Anual (LOA), mas precisa de mais recursos. Crédito suplementar reforça uma programação existente e deve seguir as regras de autorização e abertura previstas na Constituição e na Lei nº 4.320/1964.",
+      "contrast": "Suplementar reforça dotação já existente; especial cria dotação para uma despesa que não tinha previsão específica; extraordinário atende despesas urgentes e imprevisíveis. Para abrir crédito suplementar é preciso observar autorização legislativa e indicação de recursos disponíveis nos termos legais. A própria LOA pode autorizar créditos suplementares, dentro dos limites que fixar. Crédito adicional aumenta autorização, não dinheiro no banco.",
+      "cebraspeTrap": "Falta de dinheiro dentro de uma dotação existente indica reforço, não criação de nova categoria de gasto. Também não basta haver necessidade para abrir crédito sem observar autorização e recursos.",
+      "example": "A LOA prevê R$ 100 mil para materiais de uma escola. Mais tarde são necessários R$ 30 mil adicionais para a mesma programação. Se as condições legais forem cumpridas, abre-se crédito suplementar de R$ 30 mil e a dotação passa a R$ 130 mil. Se o gasto nem tivesse dotação, a hipótese seria de crédito especial.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -339,10 +339,10 @@
       "id": "glo-credito-especial",
       "term": "Crédito especial",
       "aliases": [],
-      "definition": "Autorização adicional para realizar despesa que ainda não possui dotação específica na lei orçamentária, com autorização legislativa e indicação de recursos nos termos legais.",
-      "contrast": "Especial cria uma dotação nova. Suplementar reforça dotação já existente; extraordinário segue regime próprio para situações imprevisíveis e urgentes.",
-      "cebraspeTrap": "Afirmar que a mera insuficiência de valor caracteriza crédito especial ou que qualquer urgência dispensa autorização.",
-      "example": "A administração precisa criar dotação para ação não contemplada na Lei Orçamentária Anual.",
+      "definition": "É uma autorização para realizar despesa que não tinha dotação específica na Lei Orçamentária Anual (LOA). O crédito especial cria a autorização que faltava para aquela programação, respeitando as exigências legais de aprovação e indicação de recursos.",
+      "contrast": "Suplementar aumenta o valor de dotação já existente. Especial abre dotação onde não havia uma. Extraordinário trata despesas urgentes e imprevisíveis, com regras próprias. O crédito especial costuma exigir autorização legislativa e abertura pelo Executivo, com indicação de recursos disponíveis. Se for autorizado nos últimos quatro meses do ano, seu saldo pode ser reaberto no ano seguinte, conforme a Constituição.",
+      "cebraspeTrap": "Uma dotação insuficiente não é ausência de dotação. A banca pode usar esses casos como se ambos exigissem crédito especial.",
+      "example": "A prefeitura precisa criar uma ação de atendimento que não tinha dotação na LOA. Abre crédito especial, após cumprir os requisitos legais, para autorizar aquela despesa. Se a ação já existisse e precisasse apenas de mais verba, o caso seria suplementar.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -368,10 +368,10 @@
       "id": "glo-credito-extraordinario",
       "term": "Crédito extraordinário",
       "aliases": [],
-      "definition": "Autorização adicional para enfrentar despesa ao mesmo tempo imprevisível e urgente, como nas hipóteses constitucionais de guerra, comoção interna ou calamidade pública.",
-      "contrast": "A urgência por si só não basta: a Constituição exige imprevisibilidade e urgência. O crédito extraordinário segue forma de abertura diferente dos especiais e suplementares.",
-      "cebraspeTrap": "Considerar extraordinária toda despesa que o gestor queira executar rapidamente no fim do exercício.",
-      "example": "Uma calamidade imprevisível exige providências imediatas não contempladas no orçamento vigente.",
+      "definition": "É uma autorização adicional para cobrir despesas que surgem de situações ao mesmo tempo urgentes e imprevisíveis, como guerra, comoção interna ou calamidade pública. A Constituição, art. 167, § 3º, estabelece essa condição para créditos extraordinários, com abertura por procedimento próprio.",
+      "contrast": "Suplementar reforça dotação existente; especial cria dotação que faltava; extraordinário depende da urgência e da imprevisibilidade do gasto. Pressa administrativa ou demora em planejar não tornam, por si, uma despesa extraordinária. O procedimento de abertura varia conforme o ente e as regras constitucionais. Se o crédito extraordinário for autorizado nos últimos quatro meses do exercício, o saldo pode ser reaberto no seguinte, dentro das condições legais.",
+      "cebraspeTrap": "A banca pode apresentar uma despesa urgente, mas previsível, como extraordinária. A regra exige as duas características juntas e não dispensa os controles legais.",
+      "example": "Uma enchente grave e imprevisível destrói pontes e exige socorro imediato. O governo pode avaliar crédito extraordinário para despesas urgentes. Já uma compra rotineira que foi esquecida no planejamento não vira extraordinária apenas porque o ano está terminando.",
       "subjectIds": [
         "orcamento-publico"
       ],

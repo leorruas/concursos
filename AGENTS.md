@@ -213,6 +213,10 @@ Para qualquer tarefa em `3 - Materias/Atualidades/`, aplicar também a seção *
 
 Esse formato melhora a interação, mas **não substitui** auditoria da qualidade, fonte, gabarito, classificação de erro e registro no ledger. Fallback: se o cliente não renderizar controles, aceitar sequências compactas digitadas. Evitar decoração, ícones e botões inertes. Os rótulos da banca e o contrato de pontuação prevalecem.
 
+### Correção de questões: enunciado e explicação juntos
+
+**Regra solicitada em 06/11/2026:** toda correção de questão ou bateria deve apresentar o **enunciado integral** da questão imediatamente antes de sua correção, inclusive quando os enunciados foram enviados ou resolvidos na própria conversa. Abaixo dele, informar a resposta registrada, o gabarito, a confiança quando declarada e explicar o trecho decisivo, a verdade parcial ou pegadinha e os cálculos pertinentes. Quando o estudante também explicar o raciocínio oralmente, registrar em poucas palavras o que ele entendeu e separar **erro de conhecimento, confusão conceitual, interpretação de comando/negação ou distração**. Não obrigar o estudante a voltar à mensagem da bateria para recuperar o contexto. Quadros-resumo são complementares e não substituem a correção sob cada enunciado.
+
 ### Questões: declaração prévia de modalidade e evidência de calibração
 
 O estudante deve ser informado **antes do enunciado**, sempre que o treino tiver finalidade diferente:

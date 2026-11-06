@@ -310,6 +310,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens|Produção colaborativa e governança de postagens oficiais]]
   - [[3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes|Plataformas digitais: públicos, linguagens e proporções de imagem]]
   - [[3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives|Formatos editoriais: cards, carrosséis, vídeos, stories e lives]]
+  - [[3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao|Capa, legenda, marcação, palavras-chave e chamada para ação]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

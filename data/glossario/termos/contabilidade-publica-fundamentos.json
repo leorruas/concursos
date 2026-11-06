@@ -6,10 +6,10 @@
       "id": "glo-ativo",
       "term": "Ativo",
       "aliases": [],
-      "definition": "Recurso que a entidade controla porque algo já aconteceu e que pode ajudá-la a prestar serviços ou trazer benefícios econômicos no futuro.",
-      "contrast": "Ativo é a categoria ampla: dinheiro, direitos a receber e equipamentos controlados pelo órgão. Ativo financeiro é um grupo específico do quadro legal do Balanço Patrimonial, formado por dinheiro e valores realizáveis sem autorização orçamentária; um computador também é ativo, mas não é ativo financeiro.",
-      "cebraspeTrap": "Dizer que todo ativo é financeiro ou que só é ativo o que pode virar dinheiro rapidamente. O computador de uma escola é ativo por seu potencial de serviço.",
-      "example": "Uma escola pública controla computadores usados nas aulas: eles são ativos porque ajudam a oferecer educação.",
+      "definition": "Na contabilidade patrimonial do setor público, ativo é um recurso atualmente controlado pela entidade em consequência de evento passado, com potencial de prestar serviços ou gerar benefícios econômicos. Pode ser dinheiro, um direito exigível ou um bem utilizado no atendimento público; a titularidade formal e a intenção de comprar não bastam, isoladamente, para determinar o reconhecimento.",
+      "contrast": "A pergunta patrimonial é se existe recurso controlado e com potencial de serviço ou benefício. Caixa, créditos a receber e equipamentos podem integrar o ativo do Quadro Principal do Balanço Patrimonial (BP). Outra pergunta é se sua realização independe de autorização orçamentária: no quadro legal do BP, isso separa ativo financeiro (F) de permanente (P). 'Ativo circulante' usa critério de prazo/ciclo, diferente de F/P. Uma dotação orçamentária não é um ativo.",
+      "cebraspeTrap": "São erros considerar que ativo exige lucro ou conversão imediata em dinheiro, que toda receita prevista já é crédito patrimonial, ou que todo ativo circulante corresponde ao ativo financeiro do art. 105 da Lei nº 4.320/1964.",
+      "example": "O ente dispõe de R$ 600 em banco, controla um veículo de ambulância de R$ 80 mil e reconhece R$ 400 de imposto a receber. Os três são ativos patrimoniais por motivos diferentes: caixa, potencial de serviço e direito exigível. No quadro F/P, o banco é financeiro, o veículo em regra permanente e o crédito tributário antes de arrecadado pode ter atributo P; a mera previsão de arrecadar outros R$ 300 no orçamento não cria automaticamente um novo ativo.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -35,10 +35,10 @@
       "id": "glo-passivo",
       "term": "Passivo",
       "aliases": [],
-      "definition": "Obrigação que a entidade já tem por causa de algo ocorrido e que precisará cumprir transferindo recursos, como dinheiro ou outros bens e serviços.",
-      "contrast": "Passivo é obrigação presente surgida de fato passado, como um serviço já prestado e não pago. Passivo financeiro é uma categoria legal ligada à execução do orçamento: pode incluir empenho a liquidar mesmo sem passivo patrimonial reconhecido.",
-      "cebraspeTrap": "Afirmar que todo compromisso do passivo financeiro é necessariamente obrigação patrimonial já constituída, ou que qualquer empenho isolado prova passivo patrimonial.",
-      "example": "Uma escola recebeu um serviço de manutenção, mas ainda não pagou o fornecedor: a obrigação de pagar pode ser registrada como passivo.",
+      "definition": "Na contabilidade patrimonial do setor público, passivo é uma obrigação presente de transferir recursos que resulta de evento passado e cuja liquidação a entidade tem pouca ou nenhuma possibilidade prática de evitar. Pode envolver dinheiro, bens ou serviços; sua existência depende dos critérios patrimoniais, e não apenas do registro orçamentário.",
+      "contrast": "O passivo aparece no Quadro Principal do Balanço Patrimonial (BP). O passivo financeiro do quadro legal financeiro/permanente responde a outra pergunta: a obrigação ou compromisso pode ser pago sem nova autorização orçamentária? Um empenho por serviço futuro pode constar do passivo financeiro sem constituir, por si, passivo patrimonial. Serviço já prestado pode gerar obrigação patrimonial antes da liquidação formal; caução restituível gera obrigação patrimonial sem ser despesa orçamentária do ente.",
+      "cebraspeTrap": "Não equiparar passivo patrimonial a empenho, liquidação, dívida de longo prazo nem passivo financeiro. A ocorrência do serviço e o dever presente podem preceder a liquidação da despesa.",
+      "example": "A prefeitura empenha R$ 2 mil para reparo ainda não executado: o empenho acompanha a execução orçamentária, mas não comprova sozinho obrigação patrimonial. Após a execução do serviço, reconhece-se o passivo patrimonial correspondente, mesmo que a liquidação administrativa ocorra depois. Um depósito-caução de R$ 500 recebido de um fornecedor representa dinheiro de terceiro a devolver, com passivo próprio, e não receita patrimonial ganha pelo ente.",
       "subjectIds": [
         "contabilidade-publica"
       ],

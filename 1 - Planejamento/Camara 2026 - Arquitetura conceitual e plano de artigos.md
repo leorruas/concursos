@@ -520,6 +520,17 @@ Próxima tarefa: **CAM-TC-024, comparação de teorias por pergunta e unidade de
 
 **Próxima frente editorial:** auditar para reuso as notas [[3 - Materias/Comunicacao/09 - comunicacao interna|Comunicação interna]] e [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]] antes de iniciar CAM-CO-001 a CAM-CO-004, sem reescrever conteúdo de outros concursos.
 
+## Lote 11: comunicação interna e canais (CO-001 e CO-002)
+
+- [ ] **CAM-CO-001 · reuso e expansão, validação pendente**: [[3 - Materias/Comunicacao/09 - comunicacao interna|Comunicação interna]] (`art-806546892285426f`). Preservados título, ID, aliases e integralidade do material anterior, inclusive o recorte FGV, com expansão própria sobre finalidade, públicos, resultados, diagnóstico, relação com Kunsch e itens C/E inéditos. Já estava vinculado ao catálogo da Câmara.
+- [ ] **CAM-CO-002 · novo artigo, publicação pendente**: [[3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos|Canais de comunicação interna: intranet, mural, newsletter e eventos]] (`art-73d4a195e86c02bf`). Construção de critérios e funções de cada canal, incerteza e equivocidade em Daft e Lengel, exemplos progressivos, limites de interpretação e itens C/E.
+
+**Proteção dos materiais anteriores:** o conteúdo de Comunicação Interna e seus apontamentos da FGV permanecem intactos; a expansão foi aditiva. Os registros do catálogo da CGU e Dataprev não são modificados. Não registrar como material já estudado.
+
+**Pendente:** workflow de publicação, testes e confirmação do manifesto do Pages; só depois marcar as caixas.
+
+Próximos candidatos: **CAM-CO-003 endomarketing** e **CAM-CO-004 cultura e clima**. Devem ser tratados em notas próprias, com vínculo aos conceitos existentes sem substituí-los.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

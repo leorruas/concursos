@@ -289,6 +289,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia|Plataformização: infraestrutura, dados e governança]]
   - [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|Integridade da informação: ecossistema, direitos e governança]]
   - [[3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos|Comparação das teorias da comunicação: perguntas, unidades de análise e efeitos]]
+  - [[3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos|Canais de comunicação interna: intranet, mural, newsletter e eventos]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

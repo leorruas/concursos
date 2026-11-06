@@ -52,6 +52,11 @@ Os dois primeiros artigos iniciaram o **piloto da fase F1** do [[1 - Planejament
 
 A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluindo a comparação entre teorias. Isso não equivale a estudo, retenção nem à auditoria final de cobertura. Próxima frente editorial: comunicação interna, endomarketing, cultura e clima, com auditoria das notas existentes. Conclusão editorial não significa domínio individual. A publicação editorial não comprova estudo ou retenção.
 
+## Fundamentos de Comunicação Organizacional: Câmara 2026
+
+- [[3 - Materias/Comunicacao/09 - comunicacao interna|09. Comunicação interna: finalidade, públicos e resultados]]: CAM-CO-001, **reuso e expansão** da nota existente; conteúdo FGV anterior preservado.
+- [[3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos|48. Canais de comunicação interna]]: CAM-CO-002, escolha de intranet, mural, newsletter e eventos por finalidade, público e condições de acesso.
+
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]
   - [[3 - Materias/Comunicacao/22.1 - ehling white e grunig quatro teorias do gerenciamento de rp|🆕 22.1 • Quatro teorias do gerenciamento de RP — Ehling, White e Grunig]]

@@ -277,6 +277,39 @@
       "status": "reviewed"
     },
     {
+      "id": "glo-ajuste-direto-no-patrimonio-liquido",
+      "term": "Ajuste direto no patrimônio líquido",
+      "aliases": [
+        "Ajuste patrimonial",
+        "Ajuste registrado diretamente no PL"
+      ],
+      "definition": "Registro contábil que, quando a norma aplicável determina, altera diretamente uma conta do patrimônio líquido (PL), sem integrar as variações patrimoniais aumentativas (VPA) ou diminutivas (VPD) do exercício atual. A expressão 'ajuste patrimonial' é genérica e não identifica, sozinha, uma categoria contábil específica.",
+      "contrast": "O resultado patrimonial do período é VPA menos VPD. A variação total do PL também pode incluir ajustes registrados diretamente nele e outros movimentos específicos. Por isso, crescimento do PL não é necessariamente igual ao resultado patrimonial.",
+      "cebraspeTrap": "Somar ao resultado patrimonial um ajuste informado como registrado diretamente no PL. A natureza do ajuste e a norma aplicável devem ser examinadas; nem toda alteração do PL passa pela DVP.",
+      "example": "PL inicial de R$ 40 mil, VPA de R$ 12 mil, VPD de R$ 5 mil e ajuste positivo de R$ 8 mil lançado diretamente no PL: o resultado patrimonial é R$ 7 mil (12 − 5), mas o PL final é R$ 55 mil (40 + 7 + 8). Uma correção de erro de período anterior, quando a norma exige ajuste direto, é exemplo possível.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-85b3a61ad09e44c1",
+        "art-bf384b8a28aa4753"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte V, Demonstração das Variações Patrimoniais e Balanço Patrimonial",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        },
+        {
+          "label": "Conselho Federal de Contabilidade: NBC TSP, normas de apresentação e políticas contábeis",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "glo-balanco-patrimonial",
       "term": "Balanço patrimonial",
       "aliases": [],

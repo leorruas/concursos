@@ -131,6 +131,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao|121. Gestão de equipes publicitárias: papéis, trabalho e avaliação]]: CAM-DI-043, RACI, estruturas, fluxo, liderança, desempenho e C/E.
 - [[3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao|122. Código Brasileiro de Autorregulamentação Publicitária: princípios e aplicação]]: CAM-DI-044, CONAR, artigos, anexos, sanções e C/E.
 - [[3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade|123. Lei nº 12.232/2010: objeto, agências e contratação de publicidade]]: CAM-DI-045, arts. 1º a 4º, 20-A e 20-B, CENP, atividades e C/E.
+- [[3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao|124. Lei nº 12.232/2010: procedimento, julgamento, execução e fiscalização]]: CAM-DI-046, quatro invólucros, subcomissão, orçamento, incentivos, transparência e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

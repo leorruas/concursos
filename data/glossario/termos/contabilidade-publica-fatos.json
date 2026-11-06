@@ -6,10 +6,10 @@
       "id": "glo-fato-contabil",
       "term": "Fato contábil",
       "aliases": [],
-      "definition": "Acontecimento que muda o patrimônio de uma entidade: muda seus bens, seus direitos, suas obrigações ou seu patrimônio líquido.",
-      "contrast": "Fato contábil altera o patrimônio. Um ato que apenas autoriza algo, como a previsão de uma compra, pode não produzir mudança patrimonial imediata.",
-      "cebraspeTrap": "Afirmar que uma autorização orçamentária, sem entrega ou outro fato econômico, prova por si só que um ativo ou passivo mudou.",
-      "example": "A escola compra e recebe um equipamento: passa a controlar um bem e precisa registrar a mudança.",
+      "definition": "É um acontecimento que muda algum elemento do patrimônio do governo: dinheiro, bens, valores a receber, dívidas ou patrimônio líquido. Pode mudar apenas a composição desses valores ou aumentar ou diminuir o total do patrimônio líquido. É registrado nas contas patrimoniais quando atende aos critérios contábeis.",
+      "contrast": "Uma decisão de comprar equipamentos, sem entrega ou outro efeito sobre o patrimônio, é um ato que pode precisar de registro de controle, mas não prova sozinho que surgiu um bem ou dívida patrimonial. Fato permutativo troca valores sem mudar o patrimônio líquido; modificativo aumenta ou diminui esse total; misto combina troca e aumento ou redução.",
+      "cebraspeTrap": "A banca pode afirmar que toda autorização orçamentária já altera os ativos. Para classificar, é preciso identificar qual bem, direito ou obrigação realmente mudou e se o patrimônio líquido aumentou, diminuiu ou ficou igual.",
+      "example": "A escola paga R$ 1 mil por computador recebido: sai dinheiro e entra equipamento, sem mudar o patrimônio líquido se os valores forem iguais. Quando consome energia elétrica, registra um gasto que reduz o patrimônio líquido. Autorizar a compra do computador, antes de qualquer fato patrimonial, é diferente de recebê-lo.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -35,10 +35,10 @@
       "id": "glo-fato-permutativo",
       "term": "Fato permutativo",
       "aliases": [],
-      "definition": "Fato contábil que troca elementos do patrimônio sem alterar o valor total do patrimônio líquido. Muda o que a entidade tem ou deve, mas não sua riqueza líquida.",
-      "contrast": "Uma troca entre dinheiro e equipamento é permutativa quando os dois têm o mesmo valor. É diferente do fato modificativo, que aumenta ou diminui o patrimônio líquido.",
-      "cebraspeTrap": "Afirmar que qualquer saída de dinheiro reduz o patrimônio líquido, mesmo quando ela apenas substitui dinheiro por outro ativo.",
-      "example": "A escola paga R$ 1.000 por um computador de R$ 1.000: diminui o caixa e aumenta o valor dos equipamentos, sem mudar o patrimônio líquido.",
+      "definition": "É um fato contábil que troca um bem, direito ou dívida por outro, sem aumentar nem diminuir o patrimônio líquido. O governo pode ficar com menos dinheiro e mais equipamentos, ou pagar uma dívida já registrada: muda a composição do patrimônio, mas o total líquido fica igual.",
+      "contrast": "O fato modificativo muda o patrimônio líquido, como o consumo de energia. O misto une uma troca e um ganho ou perda. Não basta haver pagamento para existir diminuição patrimonial: se o pagamento quita dívida já reconhecida, caixa e passivo caem juntos e o patrimônio líquido pode permanecer igual.",
+      "cebraspeTrap": "Uma saída de dinheiro não significa, por si, perda patrimonial. A classificação depende do efeito sobre o patrimônio líquido, não do número de contas movimentadas.",
+      "example": "A prefeitura usa R$ 1 mil do banco para comprar computador registrado por R$ 1 mil: o caixa cai R$ 1 mil e o equipamento aumenta R$ 1 mil. Se paga R$ 500 de dívida já registrada, diminuem caixa e obrigação no mesmo valor. Nos dois casos, o patrimônio líquido não muda por esses fatos isolados.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -64,10 +64,10 @@
       "id": "glo-fato-modificativo",
       "term": "Fato modificativo",
       "aliases": [],
-      "definition": "Fato contábil que aumenta ou diminui o patrimônio líquido. Pode ser aumentativo, quando a entidade ganha patrimônio, ou diminutivo, quando perde.",
-      "contrast": "Ao contrário do fato permutativo, o modificativo altera a situação líquida. Nem todo recebimento ou pagamento de dinheiro é modificativo.",
-      "cebraspeTrap": "Classificar como modificativo o pagamento de uma dívida já reconhecida, mesmo que caixa e obrigação diminuam no mesmo valor.",
-      "example": "O consumo de um serviço gera despesa patrimonial e reduz o patrimônio líquido, ainda que o governo pague depois.",
+      "definition": "É um fato que aumenta ou diminui o patrimônio líquido do governo. Se aumentar, é modificativo aumentativo; se diminuir, é modificativo diminutivo. Ocorre, por exemplo, quando o governo ganha um direito que aumenta seu patrimônio ou consome um serviço.",
+      "contrast": "O fato permutativo apenas troca itens, sem mudar o total líquido. O fato misto combina troca de itens com ganho ou perda. Receber um imposto que já tinha sido registrado como direito a receber é geralmente uma troca entre crédito e caixa; o aumento patrimonial pode ter sido registrado antes. Pagar dívida já reconhecida também não cria automaticamente uma nova perda.",
+      "cebraspeTrap": "A banca pode confundir recebimento com aumento e pagamento com diminuição. O critério é se o patrimônio líquido mudou naquele fato.",
+      "example": "Um serviço de R$ 700 prestado à prefeitura e ainda não pago pode gerar obrigação e diminuir o patrimônio líquido em R$ 700: fato modificativo diminutivo, conforme as condições de reconhecimento. O recebimento de um direito a imposto já reconhecido troca valores do ativo e não repete o ganho.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -93,10 +93,10 @@
       "id": "glo-fato-modificativo-aumentativo",
       "term": "Fato modificativo aumentativo",
       "aliases": [],
-      "definition": "Fato contábil que aumenta o patrimônio líquido, porque nasce um direito ou aumenta um recurso sem surgir obrigação de igual valor, conforme as regras de reconhecimento.",
-      "contrast": "Aumentativo eleva o patrimônio líquido. Permutativo pode elevar o caixa sem mudar o patrimônio líquido, como ao receber crédito já registrado.",
-      "cebraspeTrap": "Afirmar que todo depósito na conta do governo é aumento patrimonial, mesmo quando o depósito paga uma dívida que já estava registrada a receber.",
-      "example": "O direito a receber um imposto, quando reconhecido, pode aumentar o ativo e o patrimônio líquido antes da arrecadação.",
+      "definition": "É um acontecimento que aumenta o patrimônio líquido porque o governo ganha um recurso ou direito sem assumir uma obrigação equivalente. O valor é reconhecido quando as condições contábeis são atendidas, mesmo que o dinheiro entre depois.",
+      "contrast": "No fato permutativo, receber dinheiro em troca de um crédito já registrado não muda o patrimônio líquido. Tomar empréstimo também traz dinheiro, mas cria obrigação de devolver, sem ganho patrimonial pelo simples depósito. O fato modificativo diminutivo faz o contrário: reduz o patrimônio líquido.",
+      "cebraspeTrap": "Uma conta bancária maior não comprova ganho patrimonial: pode ser pagamento de crédito já reconhecido, empréstimo ou dinheiro de terceiros a devolver.",
+      "example": "O município reconhece R$ 1 mil de imposto que já tem direito de cobrar e, conforme a regra aplicável, aumenta o patrimônio líquido em R$ 1 mil. Quando o contribuinte paga, a prefeitura troca o crédito por dinheiro no banco. O recebimento não produz um segundo fato aumentativo pelo mesmo imposto.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -122,10 +122,10 @@
       "id": "glo-fato-modificativo-diminutivo",
       "term": "Fato modificativo diminutivo",
       "aliases": [],
-      "definition": "Fato contábil que diminui o patrimônio líquido, como o consumo de um serviço ou o desgaste reconhecido de um equipamento.",
-      "contrast": "Diminutivo reduz o patrimônio líquido. A simples compra de equipamento não é necessariamente perda, pois pode trocar caixa por outro ativo.",
-      "cebraspeTrap": "Considerar toda despesa orçamentária ou saída de caixa como redução imediata do patrimônio líquido.",
-      "example": "A escola consome energia elétrica no mês: o serviço utilizado gera uma diminuição patrimonial, mesmo antes do pagamento.",
+      "definition": "É um acontecimento que diminui o patrimônio líquido, como o uso de um serviço ou o desgaste de um bem. A perda pode ser registrada mesmo que o dinheiro seja pago em outro momento.",
+      "contrast": "Pagar uma dívida que já estava reconhecida normalmente troca uma obrigação por caixa, sem gerar nova diminuição. Comprar equipamento por valor equivalente pode trocar dinheiro por ativo e não produzir perda imediata. O fato modificativo aumentativo aumenta o patrimônio líquido; o misto inclui troca e alteração do valor líquido.",
+      "cebraspeTrap": "Confundir a data do pagamento ou do empenho com o momento em que o serviço foi consumido leva a classificar incorretamente o fato.",
+      "example": "A escola usa R$ 900 de energia elétrica em dezembro e paga a conta em janeiro. O consumo de dezembro pode gerar diminuição patrimonial e obrigação. O pagamento de janeiro baixa a dívida e o caixa, sem repetir o gasto.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -154,10 +154,10 @@
         "Fato contábil misto",
         "Fato composto"
       ],
-      "definition": "Fato contábil que reúne, na mesma operação, uma troca de elementos do patrimônio e um aumento ou uma diminuição do patrimônio líquido.",
-      "contrast": "É a combinação de fato permutativo e modificativo. Uma operação que altera várias contas, mas não muda o patrimônio líquido, ainda é apenas permutativa.",
-      "cebraspeTrap": "Dizer que pagar uma dívida principal com juros é puramente permutativo, ignorando que os juros consumidos diminuem o patrimônio líquido.",
-      "example": "O órgão quita uma dívida de R$ 1.000 com R$ 100 de juros ainda não reconhecidos: baixa a dívida e o caixa, e reconhece perda patrimonial de R$ 100.",
+      "definition": "É um acontecimento que, ao mesmo tempo, troca elementos do patrimônio e aumenta ou diminui o patrimônio líquido. Para reconhecê-lo, é preciso identificar a parte que apenas troca valores e a parte que representa ganho ou perda.",
+      "contrast": "Uma operação que movimenta várias contas pode continuar sendo apenas permutativa, se o patrimônio líquido ficar igual. Fato misto exige também mudança no valor líquido. Juros ainda não reconhecidos em uma dívida paga junto com o principal podem gerar perda patrimonial, enquanto a quitação do principal apenas troca caixa por redução da dívida.",
+      "cebraspeTrap": "Pagar principal com juros ainda não reconhecidos não é necessariamente fato só permutativo. É preciso separar a quitação da dívida do efeito dos juros.",
+      "example": "O órgão deve R$ 1 mil de principal já registrado e paga R$ 1.100: R$ 1 mil quitam a dívida e R$ 100 são juros ainda não reconhecidos. A primeira parte reduz caixa e passivo igualmente; os R$ 100 adicionais diminuem o patrimônio líquido. Há troca e perda no mesmo fato.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -183,10 +183,10 @@
       "id": "glo-ato-administrativo-sem-efeito-patrimonial-imediato",
       "term": "Ato administrativo sem efeito patrimonial imediato",
       "aliases": [],
-      "definition": "Decisão ou providência da administração que ainda não muda bens, direitos, obrigações ou patrimônio líquido, embora possa exigir acompanhamento e registro de controle.",
-      "contrast": "Um ato administrativo pode preceder um fato contábil. A assinatura de autorização não prova que houve entrega, prestação de serviço ou obrigação patrimonial já reconhecível.",
-      "cebraspeTrap": "Afirmar que autorizar uma compra altera automaticamente o patrimônio líquido ou que fatos e atos administrativos têm sempre o mesmo efeito contábil.",
-      "example": "Uma escola autoriza a futura compra de cadeiras; antes de receber os bens, a autorização por si só não aumenta seus ativos.",
+      "definition": "É uma decisão ou providência do governo que, naquele momento, ainda não muda seus bens, direitos, dívidas ou patrimônio líquido. Pode exigir acompanhamento nas contas de controle, mas isso não significa que o bem já foi recebido ou que o serviço já foi prestado.",
+      "contrast": "Um ato pode anteceder um fato contábil. Autorizar uma compra ou aprovar dotação, valor reservado no orçamento, não cria automaticamente equipamento no patrimônio. Quando o bem é entregue e controlado, pode surgir um ativo; quando o serviço é prestado, pode surgir obrigação. O empenho é um compromisso orçamentário que também pode ter efeitos no quadro legal financeiro, sem provar sozinho o passivo patrimonial.",
+      "cebraspeTrap": "A banca pode confundir autorização, empenho, recebimento e pagamento como se fossem o mesmo fato. Eles têm momentos e efeitos contábeis diferentes.",
+      "example": "Uma escola aprova a compra de 20 cadeiras. Enquanto não recebe os bens, não pode registrar as 20 cadeiras como equipamento que já controla apenas pela autorização. Depois da entrega, examina e registra o bem e a obrigação de pagar, conforme o caso.",
       "subjectIds": [
         "contabilidade-publica"
       ],

@@ -279,7 +279,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-002 · F1**: Canais internos: intranet, mural, newsletter e eventos.
 - [x] **CAM-CO-003 · F1**: Endomarketing: engajamento e fronteira com comunicação interna.
 - [x] **CAM-CO-004 · F1**: Cultura organizacional e clima: conceitos distintos.
-- [ ] **CAM-CO-005 · F2**: Gestão do clima por comunicação: alcance e limites.
+- [x] **CAM-CO-005 · F2**: Gestão do clima por comunicação: alcance e limites.
 - [ ] **CAM-CO-006 · F2**: Comunicação institucional: objeto, função e públicos.
 - [ ] **CAM-CO-007 · F2**: Identidade, imagem e reputação: diferenças e relações.
 - [ ] **CAM-CO-008 · F2**: Riscos, prevenção e diagnóstico de crise de comunicação.
@@ -546,11 +546,19 @@ Próximo candidato: **CAM-CO-005, gestão do clima por comunicação**, com audi
 
 ## Lote 13: gestão do clima pela comunicação (CO-005)
 
-- [ ] **CAM-CO-005 · artigo criado; publicação pendente**: [[3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao|Gestão do clima pela comunicação: alcance e limites]] (`art-9f3c27d018b5e64a`). Artigo novo para pergunta aplicada própria: intervenção sobre práticas e percepções; Schneider e clima focalizado; quatro dimensões de justiça de Colquitt; voz e silêncio em Morrison; segurança psicológica em Edmondson; limites causais, progressão de casos e três itens C/E. Os artigos 01, 09, 49 e 50 permanecem intactos e disponíveis para estudo de outros concursos.
+- [x] **CAM-CO-005 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao|Gestão do clima pela comunicação: alcance e limites]] (`art-9f3c27d018b5e64a`). Artigo novo para pergunta aplicada própria: intervenção sobre práticas e percepções; Schneider e clima focalizado; quatro dimensões de justiça de Colquitt; voz e silêncio em Morrison; segurança psicológica em Edmondson; limites causais, progressão de casos e três itens C/E. Os artigos 01, 09, 49 e 50 permanecem intactos e disponíveis para estudo de outros concursos.
 
 **Proteção multi-edital:** o catálogo da Câmara recebeu somente o ID do artigo novo, mantendo-se idênticos os catálogos da CGU e da Dataprev. Não declarar estudo ou retenção a partir da publicação.
 
-**Validação pendente:** confirmar workflow, identidade, busca, catálogo e publicação do Pages com manifesto ao vivo para assinalar o item. Próximas unidades: CAM-CO-006 comunicação institucional e CAM-CO-007 identidade, imagem e reputação; auditar previamente as notas canônicas.
+**Publicação confirmada:** o [workflow 42192548321](https://github.com/leorruas/concursos/actions/runs/42192548321) terminou com sucesso e verificou o manifesto do Pages ao vivo, incluindo identidade, busca e catálogo. A validação é técnica e editorial, não de estudo.
+
+## Lote 14: comunicação institucional (CO-006)
+
+- [ ] **CAM-CO-006 · artigo criado, publicação pendente**: [[3 - Materias/Comunicacao/52 - comunicacao institucional finalidade funcoes e publicos|Comunicação institucional: finalidade, funções, públicos e limites]] (`art-651fd293b70c4e8a`). Novo artigo para pergunta conceitual autônoma: composto de Kunsch, atividades institucionais, Relações Públicas, públicos em Freeman e Grunig, fronteiras com comunicação pública e governamental, exemplo progressivo e itens C/E.
+
+**Proteção multi-edital:** notas canônicas 01, 02, 15 e 19 foram auditadas e permaneceram intactas, assim como os catálogos da CGU e Dataprev. O novo artigo é associado ao catálogo da Câmara. Criação de artigo não equivale a progresso pessoal de estudo.
+
+**Validação pendente:** testes e confirmação do manifesto ao vivo antes de concluir CAM-CO-006. Próxima unidade CAM-CO-007: identidade, imagem e reputação, com auditoria e reuso prévios.
 
 ## Critérios de publicação e evidência
 

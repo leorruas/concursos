@@ -264,7 +264,7 @@
         "OP"
       ],
       "definition": "É a autorização formal para que a tesouraria pague uma despesa cujo direito do credor já foi conferido na liquidação. Fica entre a conferência da despesa e a transferência efetiva do dinheiro, conforme as regras da Lei nº 4.320/1964.",
-      "contrast": "Empenho reserva formalmente parte da verba; liquidação verifica quem deve receber e quanto; ordem de pagamento autoriza a tesouraria a pagar; pagamento é a saída efetiva do dinheiro. A assinatura da ordem não demonstra que a conta do fornecedor já recebeu o valor.",
+      "contrast": "Empenho compromete a verba; liquidação verifica o direito do credor; ordem de pagamento é o despacho da autoridade competente determinando que a despesa seja paga; pagamento é a saída efetiva de dinheiro. Pelo art. 64 da Lei nº 4.320/1964, a ordem só pode ser emitida em documentos processados pelos serviços de contabilidade. A assinatura da ordem não prova transferência ao credor.",
       "cebraspeTrap": "Uma ordem assinada não é comprovante de transferência. A banca pode antecipar o pagamento para a etapa da autorização.",
       "example": "A prefeitura confere a entrega de cadeiras e liquida R$ 4 mil. A autoridade competente emite ordem de pagamento. Só quando a transferência é realizada os R$ 4 mil são efetivamente pagos ao fornecedor.",
       "subjectIds": [

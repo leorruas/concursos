@@ -17,6 +17,9 @@ function sincronizarContextoDaRota(rota) {
 
 async function tratarHashNavegacao() {
     const rota = parsearHashVault(window.location.hash);
+    if (typeof definirBuscaNavbarComoGlossario === 'function') {
+        definirBuscaNavbarComoGlossario(rota.tipo === 'glossario');
+    }
     if (sincronizarContextoDaRota(rota)) {
         renderizarPainelConcursoHome();
         renderizarPastas();
@@ -111,6 +114,10 @@ if (campoTexto) {
 
 if (campoTextoNav) {
     campoTextoNav.addEventListener("input", (e) => {
+        if (parsearHashVault(window.location.hash).tipo === 'glossario') {
+            pesquisarGlossarioPelaNavbar(e.target.value);
+            return;
+        }
         if (campoTexto) campoTexto.value = e.target.value;
         filtrarArtigos(e.target.value);
     });

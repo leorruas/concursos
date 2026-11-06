@@ -30,6 +30,9 @@ const glossaryUI = fs.readFileSync(path.join(root, 'web/09-glossary.js'), 'utf8'
 const style = fs.readFileSync(path.join(root, 'style.css'), 'utf8');
 assert(glossaryUI.includes('class="glossario-artigo-grupo"') &&
   glossaryUI.includes('class="glossario-artigo-titulo"'), 'Agrupamento por artigo deve usar classes próprias');
+assert(glossaryUI.includes('function pesquisarGlossarioPelaNavbar') &&
+  glossaryUI.includes("'buscar no glossário...'"),
+  'Busca da barra deve atuar como busca do glossário na rota correspondente');
 assert(!glossaryUI.includes('class="glossario-grupo"'), 'Classe de grade dos artigos não pode ser reutilizada no glossário');
 assert(style.includes('.glossario-artigo-grupo{display:block;'), 'Grupos do glossário devem empilhar título e verbetes');
 assert(style.includes('.glossario-voltar-topo{position:fixed;'),
@@ -129,9 +132,10 @@ for(const termId of ['glo-ativo','glo-passivo','glo-ativo-patrimonial','glo-pass
 }
 const bpNote = fs.readFileSync(path.join(root,
   '3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md'),'utf8');
-assert(bpNote.includes('Comparação direta') &&
+assert(bpNote.includes('**Ativo patrimonial**') &&
   bpNote.includes('**Ativo financeiro**') &&
-  bpNote.includes('**Passivo financeiro**') &&
+  bpNote.includes('**Passivo patrimonial**') &&
+  bpNote.includes('**Passivo financeiro (legal)**') &&
   bpNote.includes('sem passivo patrimonial'),
   'Nota canônica deve destacar a fronteira entre os quatro conceitos');
 

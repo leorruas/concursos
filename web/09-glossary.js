@@ -92,6 +92,20 @@ function escaparGlossario(value) {
 function glossarioRotaTermo(id = '') {
     return construirRotaGlossario(id, 'cgu-2026');
 }
+function definirBuscaNavbarComoGlossario(ativa) {
+    const buscaNavbar = document.getElementById('nav-search-input');
+    if (!buscaNavbar) return;
+    buscaNavbar.placeholder = ativa ? 'buscar no glossário...' : 'pesquisar...';
+    buscaNavbar.setAttribute('aria-label', ativa ? 'Pesquisar termos do glossário' : 'Pesquisar nas matérias');
+    buscaNavbar.value = ativa ? glossarioState.query : '';
+}
+function pesquisarGlossarioPelaNavbar(consulta) {
+    glossarioState.query = String(consulta || '');
+    glossarioState.letter = '';
+    const buscaLocal = document.getElementById('glossario-busca');
+    if (buscaLocal) buscaLocal.value = glossarioState.query;
+    renderizarGlossario();
+}
 async function carregarGlossario() {
     if (glossarioState.data) return glossarioState.data;
     if (!glossarioState.pending) {
@@ -121,6 +135,8 @@ function prepararGlossario() {
     search.addEventListener('input', () => {
         glossarioState.query = search.value;
         glossarioState.letter = '';
+        const buscaNavbar = document.getElementById('nav-search-input');
+        if (buscaNavbar) buscaNavbar.value = search.value;
         renderizarGlossario();
     });
     block.addEventListener('change', () => {

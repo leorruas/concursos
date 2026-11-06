@@ -14,6 +14,12 @@ Estado, representação, federalismo, poder público, corrupção e formas de de
 
 **Prioridade pedagógica:** Complementar (C), segundo o plano interno, não como classificação oficial de incidência na prova. **Escopo:** 9 unidades.
 
+## Extensão para Câmara 2026: Ciência Política
+
+A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições, regimes, representação, sistema eleitoral, partidos e política internacional no mesmo hub. Esse conjunto é editorialmente independente das unidades P1.1 da CGU: reuso de conceitos não significa ter concluído o estudo ou os exercícios de outro edital.
+
+- [[3 - Materias/Estado e Democracia/10 - ciencia politica objeto metodo e limites|10. Ciência Política: objeto, método e limites]]: CAM-CP-001. Disciplina, abordagens, pesquisa empírica e normativa, inferência causal, autores e 10 itens C/E. A próxima unidade é CAM-CP-002: poder, autoridade, legitimidade e dominação.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

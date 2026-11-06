@@ -20,7 +20,7 @@ Fonte controlada de expansões: `data/dicionario-siglas-editorial.json`. Comando
 
 ## Ordem de trabalho e critérios de fechamento
 
-1. **Piloto, artigos introdutórios:** Contabilidade Pública (01) e Orçamento Público (01), após analisar a cadeia de primeiras ocorrências. Status: correções iniciais aplicadas em 06/11/2026. Auditoria Governamental (02) verificada como referência inicial, mas não equivale a revisão da disciplina inteira.
+1. **Piloto, artigos introdutórios:** Contabilidade Pública (01) e Orçamento Público (01), após analisar a cadeia de primeiras ocorrências. Status: correções iniciais aplicadas em 06/11/2026. Também revisados os artigos 02 de Contabilidade e 01 de Auditoria; Auditoria Governamental (02) verificada como referência inicial. Isso ainda não equivale a revisão das disciplinas inteiras.
 2. **Lote A, prioridade para CGU:** demais artigos de Contabilidade Pública, Orçamento Público e Auditoria Governamental. Revisar preferencialmente de um a três artigos por alteração, com comparação do conteúdo antes/depois.
 3. **Lote B:** demais matérias do percurso CGU, começando pelos artigos com maior concentração de alertas.
 4. **Lote C:** demais artigos do vault e revisão contextual das siglas ambíguas, incluindo títulos e Mermaid.
@@ -30,4 +30,4 @@ Uma nota é considerada revisada quando o primeiro uso em prosa de cada sigla re
 
 ## Pendências explícitas
 
-O inventário completo é dinâmico. O dicionário inicial cobre termos recorrentes e precisa ser ampliado. A revisão das 48 notas das três matérias prioritárias, demais disciplinas e auditoria de diagramas ainda deve ser executada em lotes. Não interpretar a instalação do validador como revisão concluída de todos os artigos.
+Primeira execução no Pages em 06/11/2026: **288 notas varridas, 32 siglas mapeadas e 208 alertas preliminares**. Há falsos positivos previsíveis, por exemplo `PL` como partido político em Atualidades e `NBC TSP` como sigla composta. A interpretação deve ser contextual antes de editar. O inventário completo é dinâmico. O dicionário inicial cobre termos recorrentes e precisa ser ampliado. A revisão das 48 notas das três matérias prioritárias, demais disciplinas e auditoria de diagramas ainda deve ser executada em lotes. Não interpretar a instalação do validador como revisão concluída de todos os artigos.

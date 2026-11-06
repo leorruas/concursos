@@ -3068,6 +3068,15 @@
       "editorialPriority": "A",
       "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
       "status": "planned"
+    },
+    {
+      "id": "glo-recebimento-extraorcamentario-compensatorio",
+      "term": "Recebimento extraorçamentário compensatório",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro.md",
+      "status": "planned"
     }
   ],
   "description": " Classificações adicionais de Orçamento Público ampliadas após a versão inicial de 200 termos."

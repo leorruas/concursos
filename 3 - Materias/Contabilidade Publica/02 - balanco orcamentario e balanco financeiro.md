@@ -5,7 +5,7 @@ title: "Balanço Orçamentário e Balanço Financeiro"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Balanço Orçamentário e Balanço Financeiro
@@ -27,7 +27,11 @@ Antes das tabelas, imagine que uma universidade arrecade **R$ 100** em tributos,
 
 O **Balanço Orçamentário (BO)** pergunta: **quanto do orçamento foi previsto, autorizado e executado?** Ele compara a receita efetivamente arrecadada com a despesa empenhada no exercício. Nesse caso, o resultado orçamentário simplificado é **R$ 100 − R$ 60 = R$ 40**, mesmo que a universidade só tenha desembolsado R$ 40.
 
-O **Balanço Financeiro (BF)** pergunta: **como ingressos, dispêndios e saldos financeiros se relacionam?** O BF considera a despesa orçamentária de R$ 60 e, para compensar a parcela não paga de R$ 20, registra a inscrição de restos a pagar como **recebimento extraorçamentário compensatório**. Esse nome é uma armadilha: **não entraram R$ 20 adicionais no banco**. É o mecanismo de equilíbrio previsto no art. 103, parágrafo único, da Lei nº 4.320/1964. Os ingressos contábeis do BF chegam a R$ 120 (100 + 20), enquanto a despesa orçamentária de R$ 60 e o caixa final de R$ 60 completam o outro lado. A entrada real foi R$ 100; o pagamento real, R$ 40.
+O **Balanço Financeiro (BF)** pergunta: **como ingressos, dispêndios e saldos financeiros se relacionam?** O BF considera a **despesa orçamentária empenhada de R$ 60**, mesmo que apenas **R$ 40 tenham sido pagos**. Os **R$ 20 empenhados e não pagos**, inscritos regularmente em **restos a pagar (RP)** no fim do exercício, aparecem no BF como **recebimento extraorçamentário compensatório**. Isso significa um **registro de compensação no demonstrativo**, e não dinheiro que entrou na conta bancária. Neste exemplo, os R$ 20 já foram **liquidados**, portanto são **restos a pagar processados**. A regra do art. 103, parágrafo único, da Lei nº 4.320/1964 também alcança a inscrição regular de **restos a pagar não processados**, ainda pendentes de liquidação: **o critério é ter sido empenhado e não pago, observadas as condições de inscrição**, e não obrigatoriamente ter sido liquidado.
+
+**Por que o BF usa esse registro?** Como os R$ 60 inteiros aparecem entre as despesas orçamentárias, mas somente R$ 40 saíram do caixa, o demonstrativo registra **R$ 20 como ingresso compensatório** para neutralizar a parte sem desembolso. Assim, o BF fecha com **R$ 120 nos ingressos** (R$ 100 arrecadados + R$ 20 compensatórios) e **R$ 120 nos dispêndios e saldo final** (R$ 60 de despesa orçamentária + R$ 60 de caixa remanescente). **A entrada real foi R$ 100 e a saída real, R$ 40.** Quando os RP forem pagos em exercício seguinte, o pagamento será apresentado entre os **pagamentos extraorçamentários** daquele exercício, sem representar novo empenho da mesma despesa.
+
+**Fronteira importante:** *recebimento extraorçamentário* é uma categoria mais ampla. Alguns recebimentos representam **entrada efetiva de dinheiro**, como depósitos de terceiros sujeitos a devolução. O *recebimento extraorçamentário compensatório da inscrição de RP* é um **lançamento sem entrada de caixa**. Portanto, a palavra “recebimento” no BF não prova, por si só, que houve dinheiro novo.
 
 **Vocabulário mínimo na ordem em que aparece:**
 

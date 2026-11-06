@@ -490,6 +490,15 @@ Notas, hub, índice e catálogo são sincronizados em uma única operação lóg
 
 Próximo núcleo: **CAM-TC-020, midiatização**.
 
+## Lote 8: midiatização e plataformização (TC-020 e TC-021)
+
+- [ ] **CAM-TC-020 · artigo criado; publicação por validar**: [[3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas|Midiatização: Hjarvard, Krotz e Hepp]] (`art-42edbd08bca563f1`). Apresenta construção do conceito, abordagens institucionais e históricas, midiatização profunda, cinco tendências, fronteiras e itens C/E inéditos.
+- [ ] **CAM-TC-021 · artigo criado; publicação por validar**: [[3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia|Plataformização: infraestrutura, mercados, governança, dados e práticas]] (`art-1fc842a6b30d59e7`). Distingue a definição de 2019 das quatro categorias de lógica das mídias sociais de 2013, os estudos de 2018 e as relações com a midiatização.
+
+**Estado:** notas completas, hub, índice e catálogo integrados na mesma transação. **Pendente:** workflow e verificação do catálogo ao vivo; não marcar as caixas até o resultado. A criação editorial não constitui registro de estudo ou retenção.
+
+Próximo núcleo: **CAM-TC-022, desinformação; CAM-TC-023, integridade da informação**.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

@@ -44,7 +44,10 @@ Os dois primeiros artigos iniciaram o **piloto da fase F1** do [[1 - Planejament
 - [[3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica|42. Opinião pública: formação social, esfera pública e sondagens]]: CAM-TC-018, conceitos, autores, sondagens, casos e itens C/E.
 - [[3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao|43. Espiral do silêncio: Noelle-Neumann e clima de opinião]]: CAM-TC-019, mecanismo, condições, críticas e itens C/E.
 
-A trilha TC-001 a TC-019 inclui transformações dos meios e teorias do signo e da significação. Próxima unidade: midiatização, plataformização e integridade da informação. Conclusão editorial não significa domínio individual. A publicação editorial não comprova estudo ou retenção.
+- [[3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas|44. Midiatização: Hjarvard, Krotz e Hepp]]: CAM-TC-020, teorias institucionais e históricas, midiatização profunda, exemplos e C/E.
+- [[3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia|45. Plataformização: infraestruturas, governança e práticas]]: CAM-TC-021, plataformas, dados, mercados, governança, práticas e C/E.
+
+A trilha TC-001 a TC-021 inclui transformações dos meios e teorias do signo e da significação. Próxima unidade: desinformação, integridade da informação e comparação entre teorias. Conclusão editorial não significa domínio individual. A publicação editorial não comprova estudo ou retenção.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

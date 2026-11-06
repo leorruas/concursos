@@ -285,6 +285,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao|Semiótica: Saussure, Peirce, Barthes e produção de significação]]
   - [[3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica|Opinião pública: formação social, esfera pública e sondagens]]
   - [[3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao|Espiral do silêncio: Noelle-Neumann e clima de opinião]]
+  - [[3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas|Midiatização: Hjarvard, Krotz e Hepp]]
+  - [[3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia|Plataformização: infraestrutura, dados e governança]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

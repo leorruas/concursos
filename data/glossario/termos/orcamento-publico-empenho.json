@@ -378,7 +378,7 @@
       "aliases": [],
       "definition": "É o registro feito no encerramento do exercício para acompanhar uma despesa que foi empenhada, mas continua sem pagamento. A despesa pode ser inscrita como resto a pagar processado, se já foi liquidada, ou não processado, se a liquidação ainda não terminou, desde que atenda às condições legais.",
       "contrast": "A inscrição não é automática para qualquer saldo empenhado: há regras para manter compromissos no exercício seguinte. Inscrever não significa pagar e não cria nova despesa do orçamento seguinte. No Balanço Financeiro, a inscrição aparece como recebimento extraorçamentário de compensação, sem entrada de dinheiro. O pagamento futuro será saída extraorçamentária; o empenho pertence ao orçamento do ano original.",
-      "cebraspeTrap": "Confundir inscrição com pagamento ou nova receita em dinheiro é erro. Também é preciso verificar se o saldo empenhado atende às condições para permanecer como resto a pagar, inclusive regras próprias de créditos plurianuais.",
+      "cebraspeTrap": "Inscrição não é pagamento nem receita nova em dinheiro. Há exceção importante no art. 36, parágrafo único, da Lei nº 4.320/1964: empenhos de créditos com vigência plurianual ainda não liquidados só são computados como restos a pagar no último ano de vigência do crédito.",
       "example": "Em dezembro, um órgão tem R$ 6 mil empenhados, dos quais R$ 4 mil já liquidados, e não pagou nenhum deles. Se atendidas as exigências de inscrição, R$ 4 mil podem ser restos a pagar processados e R$ 2 mil não processados. Os R$ 6 mil não entram no banco apenas porque foram inscritos.",
       "subjectIds": [
         "orcamento-publico"

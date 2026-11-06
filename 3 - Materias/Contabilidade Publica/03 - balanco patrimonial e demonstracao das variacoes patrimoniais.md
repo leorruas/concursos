@@ -52,7 +52,7 @@ flowchart TB
     BP --> Q2["2. Ativos e Passivos Financeiros e Permanentes<br/>Critério legal e orçamentário"]:::opcao
     BP --> Q3["3. Contas de Compensação<br/>Atos potenciais a executar"]:::opcao
     BP --> Q4["4. Superávit ou Déficit Financeiro<br/>Diferença financeira por fonte"]:::opcao
-    Q2 -. "fornece os valores financeiros" .-> Q4
+    Q2 -. fornece os valores financeiros .-> Q4
     classDef raiz fill:#f59e0b,color:#111111,stroke:#b45309,stroke-width:1.5px
     classDef criterio fill:#fff2d9,color:#3d2207,stroke:#b45309,stroke-width:1.5px
     classDef opcao fill:#fffbeb,color:#1c1917,stroke:#b68d58,stroke-width:1.5px

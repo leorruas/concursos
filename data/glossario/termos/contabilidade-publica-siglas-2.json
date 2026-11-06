@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "contabilidade-publica",
+  "entries": [{
+    "id": "glo-normas-brasileiras-contabilidade-setor-publico-nbc-tsp",
+    "term": "Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP)",
+    "aliases": ["NBC TSP", "Normas Brasileiras de Contabilidade Aplicadas ao Setor Público", "NBCs TSP"],
+    "definition": "Conjunto de normas do Conselho Federal de Contabilidade que orienta a contabilidade aplicada ao setor público, incluindo estrutura conceitual e normas técnicas específicas.",
+    "contrast": "As NBC TSP são normas contábeis; o MCASP é manual técnico nacional de procedimentos e demonstrações. A vigência deve ser conferida norma a norma, pois publicação e início de aplicação podem não coincidir.",
+    "cebraspeTrap": "Tratar qualquer NBC TSP publicada como automaticamente aplicável ao exercício em curso ou confundir norma contábil do setor público com regra orçamentária de empenho e pagamento.",
+    "example": "Para examinar o reconhecimento de provisão, consulta-se a NBC TSP específica e sua vigência, em conjunto com o MCASP aplicável.",
+    "articleIds": ["art-85b3a61ad09e44c1"],
+    "subjectIds": ["contabilidade-publica"],
+    "contestIds": ["cgu-2026"],
+    "sources": [{"label":"CFC: NBC TSP do Setor Público","url":"https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"}],
+    "status": "reviewed"
+  }]
+}

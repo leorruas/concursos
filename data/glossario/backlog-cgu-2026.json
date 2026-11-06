@@ -3131,6 +3131,51 @@
       "editorialPriority": "A",
       "articleCandidate": "3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro.md",
       "status": "planned"
+    },
+    {
+      "id": "glo-sistema-integrado-administracao-financeira-governo-federal-siafi",
+      "term": "Sistema Integrado de Administração Financeira do Governo Federal (SIAFI)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-manual-tecnico-orcamento-mto",
+      "term": "Manual Técnico de Orçamento (MTO)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-codigo-tributario-nacional-ctn",
+      "term": "Código Tributário Nacional (CTN)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "B",
+      "articleCandidate": "3 - Materias/Orcamento Publico/03 - receita publica e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-sistema-controle-interno-sci",
+      "term": "Sistema de Controle Interno (SCI)",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-normas-brasileiras-contabilidade-setor-publico-nbc-tsp",
+      "term": "Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP)",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
     }
   ],
   "description": " Classificações adicionais de Orçamento Público ampliadas após a versão inicial de 200 termos."

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "orcamento-publico",
+  "entries": [
+    {
+      "id": "glo-sistema-integrado-administracao-financeira-governo-federal-siafi",
+      "term": "Sistema Integrado de Administração Financeira do Governo Federal (SIAFI)",
+      "aliases": ["SIAFI", "Sistema Integrado de Administração Financeira"],
+      "definition": "Sistema federal que registra, acompanha e controla a execução orçamentária, financeira, patrimonial e contábil da União.",
+      "contrast": "O SIAFI é um sistema de registro e controle. Não se confunde com a STN, órgão que o administra, nem com a Conta Única, instrumento de centralização das disponibilidades financeiras federais.",
+      "cebraspeTrap": "Tratar o SIAFI como conta bancária da União ou concluir que seu registro dispensa os requisitos legais de empenho, liquidação e pagamento.",
+      "example": "O empenho e a ordem bancária são registrados no SIAFI; o sistema evidencia a execução, mas a liquidação continua exigindo a verificação do direito do credor.",
+      "articleIds": ["art-743d234d819842d1"],
+      "subjectIds": ["orcamento-publico"],
+      "contestIds": ["cgu-2026"],
+      "sources": [{"label":"Tesouro Nacional: SIAFI","url":"https://www.gov.br/tesouronacional/pt-br/siafi"}],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-manual-tecnico-orcamento-mto",
+      "term": "Manual Técnico de Orçamento (MTO)",
+      "aliases": ["MTO", "Manual Técnico de Orçamento"],
+      "definition": "Manual federal que orienta a elaboração da proposta orçamentária e a aplicação das classificações, conceitos e procedimentos do orçamento da União.",
+      "contrast": "O MTO orienta a técnica orçamentária federal; o MCASP disciplina a padronização da contabilidade aplicada ao setor público. Não são manuais intercambiáveis.",
+      "cebraspeTrap": "Usar o MTO para afirmar que uma classificação orçamentária, por si só, define o reconhecimento patrimonial de ativo, passivo, VPA ou VPD.",
+      "example": "Ao classificar uma despesa por função, programa e natureza, o analista consulta o MTO da edição aplicável ao exercício.",
+      "articleIds": ["art-d8b1c5e6037249fa"],
+      "subjectIds": ["orcamento-publico"],
+      "contestIds": ["cgu-2026"],
+      "sources": [{"label":"SIOP: Manual Técnico de Orçamento 2026","url":"https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026"}],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-codigo-tributario-nacional-ctn",
+      "term": "Código Tributário Nacional (CTN)",
+      "aliases": ["CTN", "Lei nº 5.172/1966"],
+      "definition": "Lei nº 5.172/1966 que estabelece normas gerais de direito tributário aplicáveis à União, aos estados, ao Distrito Federal e aos municípios.",
+      "contrast": "O CTN disciplina, entre outros temas, a constituição do crédito tributário. Lançamento tributário não equivale à arrecadação da receita orçamentária, que é o efetivo recebimento do valor.",
+      "cebraspeTrap": "Confundir lançamento do crédito tributário com ingresso de caixa ou afirmar que todo estágio da receita orçamentária é regulado exclusivamente pelo CTN.",
+      "example": "A autoridade constitui o crédito por lançamento; o dinheiro só integra a arrecadação quando o contribuinte efetivamente paga.",
+      "articleIds": ["art-4677cfa327ce43bb"],
+      "subjectIds": ["orcamento-publico"],
+      "contestIds": ["cgu-2026"],
+      "sources": [{"label":"Código Tributário Nacional, texto compilado","url":"https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"}],
+      "status": "reviewed"
+    }
+  ]
+}

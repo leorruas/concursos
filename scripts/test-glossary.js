@@ -214,7 +214,12 @@ const siglasEsperadas = [
   ['MOT', 'glo-manual-de-orientacoes-tecnicas-mot'],
   ['CASP', 'glo-contabilidade-aplicada-ao-setor-publico-casp'],
   ['MCASP', 'glo-manual-de-contabilidade-aplicada-ao-setor-publico-mcasp'],
-  ['LRF', 'glo-lei-de-responsabilidade-fiscal-lrf']
+  ['LRF', 'glo-lei-de-responsabilidade-fiscal-lrf'],
+  ['SIAFI', 'glo-sistema-integrado-administracao-financeira-governo-federal-siafi'],
+  ['MTO', 'glo-manual-tecnico-orcamento-mto'],
+  ['CTN', 'glo-codigo-tributario-nacional-ctn'],
+  ['SCI', 'glo-sistema-controle-interno-sci'],
+  ['NBC TSP', 'glo-normas-brasileiras-contabilidade-setor-publico-nbc-tsp']
 ];
 for (const [sigla, id] of siglasEsperadas) {
   const entry = published.terms.find(term => term.id === id);

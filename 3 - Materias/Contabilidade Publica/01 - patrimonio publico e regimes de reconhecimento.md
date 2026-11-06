@@ -22,13 +22,13 @@ O **patrimônio público** é o conjunto de bens, direitos e obrigações que a 
 
 Um caso pequeno ajuda a observar a diferença. Uma universidade possui **R$ 40 mil em dinheiro** e recebe **R$ 15 mil em computadores a prazo**, já entregues e reconhecidos, sem outros elementos patrimoniais. O ativo total passa a **R$ 55 mil** (40 de caixa + 15 em computadores), mas há **R$ 15 mil de dívida**: o PL é **R$ 40 mil**, porque 55 − 15 = 40. Ter mais bens não significa automaticamente ter aumentado a riqueza residual.
 
-Se a universidade **paga** essa dívida, o caixa cai para R$ 25 mil e a obrigação chega a zero. Os computadores continuam registrados. O ativo total passa a R$ 40 mil e o PL **continua em R$ 40 mil**. A contabilidade chama esse tipo de mudança na composição, sem mudança imediata do PL, de **fato permutativo**. Se, mais tarde, houver **R$ 1 mil de depreciação reconhecida como VPD**, o valor líquido dos computadores cairá para R$ 14 mil e o PL para R$ 39 mil: nesse novo fato houve **variação quantitativa**.
+Se a universidade **paga** essa dívida, o caixa cai para R$ 25 mil e a obrigação chega a zero. Os computadores continuam registrados. O ativo total passa a R$ 40 mil e o PL **continua em R$ 40 mil**. A contabilidade chama esse tipo de mudança na composição, sem mudança imediata do PL, de **fato permutativo**. Se, mais tarde, houver **R$ 1 mil de depreciação reconhecida como Variação Patrimonial Diminutiva (VPD)**, o valor líquido dos computadores cairá para R$ 14 mil e o PL para R$ 39 mil: nesse novo fato houve **variação quantitativa**.
 
 Agora compare dois acontecimentos **sem depender do pagamento**: (a) um empréstimo traz R$ 100 mil em caixa, mas cria dívida de R$ 100 mil, sem Variação Patrimonial Aumentativa (VPA) pelo principal; (b) uma doação incondicional de equipamentos de R$ 30 mil, sem obrigação de devolução e com reconhecimento contábil atendido, aumenta o ativo e o PL e pode gerar VPA. Em cada caso, pergunte **o que entrou, qual é a contrapartida e se o PL mudou**.
 
 ## Quatro perguntas sobre o mesmo fato
 
-Uma mesma compra pode envolver **empenho** (compromisso na execução do orçamento), **entrega** (fato patrimonial de incorporação do ativo e reconhecimento da obrigação) e **pagamento** (saída de caixa). Essas etapas podem ocorrer em datas distintas. As perguntas abaixo são **enfoques de análise**, e não nomes de quatro naturezas de contas do PCASP.
+Uma mesma compra pode envolver **empenho** (compromisso na execução do orçamento), **entrega** (fato patrimonial de incorporação do ativo e reconhecimento da obrigação) e **pagamento** (saída de caixa). Essas etapas podem ocorrer em datas distintas. As perguntas abaixo são **enfoques de análise**, e não nomes de quatro naturezas de contas do Plano de Contas Aplicado ao Setor Público (PCASP).
 
 | Enfoque de análise | Pergunta central | Marcos e evidências usuais | O que não permite concluir sozinho |
 | :--- | :--- | :--- | :--- |
@@ -75,7 +75,7 @@ A **depreciação** do equipamento poderá provocar VPD em períodos posteriores
 
 | Evento | Execução orçamentária | Reconhecimento patrimonial | Movimento de caixa |
 | :--- | :--- | :--- | :--- |
-| Previsão de receita na LOA | previsão, sem arrecadação | previsão por si só não gera VPA | não |
+| Previsão de receita na Lei Orçamentária Anual (LOA) | previsão, sem arrecadação | previsão por si só não gera VPA | não |
 | Fato gerador que cria direito tributário mensurável | pode anteceder arrecadação | reconhecer ativo e VPA quando satisfeitos os critérios aplicáveis | não necessariamente |
 | Arrecadação de receita orçamentária | receita realizada | pode quitar crédito anteriormente reconhecido; não implica VPA nova | sim |
 | Empenho para comprar equipamento | compromisso orçamentário | empenho isolado não prova recebimento de ativo ou reconhecimento de passivo | não |
@@ -97,7 +97,7 @@ O [Tesouro publicou PCASP Federação e Estendido 2026](https://www.gov.br/tesou
 
 ### Refinamento: fato gerador antes da liquidação
 
-O [MCASP 11, Parte I, §§ 3.4 e 4.7.4.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), distingue **competência patrimonial** da conclusão administrativa do estágio de **liquidação**. Um serviço de **R$ 50 efetivamente prestado e consumido em dezembro** pode produzir **VPD e obrigação de R$ 50**, mesmo se a liquidação ainda estiver pendente: com empenho e requisitos de inscrição atendidos, trata-se de **restos a pagar não processados em liquidação**. Se **não ocorreu a prestação do serviço** nem outro fato gerador, empenho isolado **não exige VPD nem passivo patrimonial**; a inscrição, quando válida, será de **RPNP a liquidar**.
+O [MCASP 11, Parte I, §§ 3.4 e 4.7.4.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), distingue **competência patrimonial** da conclusão administrativa do estágio de **liquidação**. Um serviço de **R$ 50 efetivamente prestado e consumido em dezembro** pode produzir **VPD e obrigação de R$ 50**, mesmo se a liquidação ainda estiver pendente: com empenho e requisitos de inscrição atendidos, trata-se de **restos a pagar não processados em liquidação**. Se **não ocorreu a prestação do serviço** nem outro fato gerador, empenho isolado **não exige VPD nem passivo patrimonial**; a inscrição, quando válida, será de **restos a pagar não processados (RPNP) a liquidar**.
 
 **Fronteira:** “não liquidado” não significa necessariamente “sem obrigação patrimonial”, e “empenhado” não demonstra entrega. O [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes#Novo exemplo: competência, RPNP e cinco demonstrações|caso alternativo das cinco demonstrações]] apresenta o impacto conjunto de competência tributária, serviço prestado e ausência de caixa.
 
@@ -120,7 +120,7 @@ No exercício seguinte, pagar os R$ 20 inscritos em RPP reduz **caixa e passivo*
 
 ## Como a banca pode cobrar
 
-No formato **Cebraspe (C/E)** da CGU 2026, a troca de um enfoque por outro produz afirmativas com aparência de verdade. Os distratores mais produtivos aqui são: transferir o art. 35 para o regime patrimonial; dizer que todo empenho constitui VPD; igualar resultado orçamentário ao financeiro; tratar aquisição de bem como consumo; e supor que uma arrecadação sempre cria VPA no mesmo momento.
+No formato **Cebraspe (C/E)** da Controladoria-Geral da União (CGU) 2026, a troca de um enfoque por outro produz afirmativas com aparência de verdade. Os distratores mais produtivos aqui são: transferir o art. 35 para o regime patrimonial; dizer que todo empenho constitui VPD; igualar resultado orçamentário ao financeiro; tratar aquisição de bem como consumo; e supor que uma arrecadação sempre cria VPA no mesmo momento.
 
 **Treino didático inédito 1 (C/E).** “O regime de competência exige que a entidade pública reconheça uma VPD apenas quando a despesa correspondente houver sido empenhada e liquidada.” **Errado.** O reconhecimento patrimonial é determinado pelo evento econômico, não pela sequência orçamentária; empenho e liquidação administrativa podem não coincidir com o fato gerador.
 

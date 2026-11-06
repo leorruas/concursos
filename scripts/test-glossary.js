@@ -352,11 +352,10 @@ assert(match('sem termo impossível').length === 0);
 // Os testes mecânicos preservam limites e conceitos essenciais; a compreensão
 // final ainda exige leitura humana, conforme o roteiro editorial.
 assert(published.publishedCount >= 213, 'Glossário deve manter o novo verbete e todos os anteriores');
-// Um limite rígido de 320 caracteres invalidava 39 definições revisadas, sem
-// identificar um erro real de conteúdo. A definição deve ser curta e legível;
-// detalhes complementares ficam em contraste, pegadinha e exemplo.
-assert(published.terms.every(t => t.definition.trim().length <= 500),
-  'Definição excessivamente longa: rever legibilidade sem remover condições legais');
+// O glossário apresenta primeiro a explicação curta. Informações adicionais
+// permanecem nos campos de contraste, exemplo e pegadinha sem perda de conteúdo.
+assert(published.terms.every(t => t.definition.trim().length <= 320),
+  'Definição extensa: mover detalhes para os campos complementares sem perder precisão');
 assert(published.terms.every(t =>
   ['definition','contrast','cebraspeTrap','example'].every(key => t[key]?.trim().length >= 30)),
   'O glossário deve manter definição, contraste, pegadinha e exemplo');

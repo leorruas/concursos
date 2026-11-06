@@ -35,10 +35,10 @@
       "aliases": [
         "Benefício tributário com renúncia"
       ],
-      "definition": "É quando o governo concede um benefício tributário que reduz o valor que arrecadaria, como uma isenção de imposto ou uma redução especial de tributo. A Lei de Responsabilidade Fiscal (LRF), art. 14, exige cuidados com o impacto nas contas públicas e condições específicas para criar ou ampliar esses benefícios.",
-      "contrast": "Renúncia de receita reduz uma cobrança que o governo faria; despesa pública é um gasto autorizado para pagar algo. O benefício não vira pagamento a um contribuinte só porque tem impacto financeiro. A legislação distingue benefícios gerais de incentivos concedidos de modo diferenciado e prevê requisitos e exceções que devem ser examinados caso a caso. O impacto precisa ser estimado, e as condições legais de compatibilidade ou compensação não são escolhas livres do gestor.",
-      "cebraspeTrap": "A banca pode confundir redução de arrecadação com despesa paga ou dizer que toda isenção dispensa análise de impacto. É necessário verificar o alcance do benefício, as exceções e os requisitos legais vigentes.",
-      "example": "Um município pretende reduzir o imposto de um grupo específico de empresas. Antes de aprovar o incentivo, precisa estimar quanto deixará de arrecadar e verificar as condições legais para que a medida seja válida. O benefício não significa que a prefeitura transferiu dinheiro às empresas: ela deixou de cobrar parte do tributo.",
+      "definition": "É quando o governo concede, amplia ou prorroga benefício tributário que reduz o que arrecadaria, como uma isenção específica. A Lei de Responsabilidade Fiscal (LRF), art. 14, exige estimar o impacto no ano em que o benefício começa e nos dois seguintes, além de atender às condições legais.",
+      "contrast": "Pela redação válida desde 2026, o art. 14 exige compatibilidade com a LDO e pelo menos uma condição: demonstrar que a perda já entrou na previsão da LOA sem afetar metas fiscais, ou adotar compensação com aumento de receita. Se depender de compensação, a medida precisa ser implementada antes de o benefício entrar em vigor. O art. 14 tem exceções expressas. Para proposta que beneficie pessoa jurídica, o art. 14-A ainda exige informações sobre beneficiários, prazo, metas e avaliação, observadas suas exceções.",
+      "cebraspeTrap": "A LC nº 224/2025 incluiu expressamente a prorrogação no art. 14 a partir de 2026. É falso exigir sempre compensação tributária: há a alternativa da previsão na LOA sem comprometer metas. Também é falso dizer que qualquer benefício para pessoa jurídica pode durar indefinidamente: o art. 14-A traz prazo e exceção para investimentos de longo prazo.",
+      "example": "Um município propõe isenção especial de imposto para empresas. Precisa estimar o impacto do ano inicial e dos dois seguintes e cumprir uma das condições do art. 14. Pela regra do art. 14-A, deve apresentar também, entre outros elementos, metas mensuráveis e prazo de vigência, normalmente de até cinco anos, salvo hipótese legal de extensão.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -49,6 +49,10 @@
         "art-91ab320cdfb64b8a"
       ],
       "sources": [
+        {
+          "label": "Câmara dos Deputados: texto atualizado da LC 101/2000, arts. 14 e 14-A, alterações da LC 224/2025",
+          "url": "https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html"
+        },
         {
           "label": "Lei Complementar nº 101/2000, Lei de Responsabilidade Fiscal",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
@@ -62,10 +66,10 @@
       "aliases": [
         "DOCC"
       ],
-      "definition": "É um gasto corrente que o governo fica obrigado a manter por mais de dois exercícios porque uma lei, medida provisória ou ato normativo determina isso. Gasto corrente é, por exemplo, despesa com manutenção, pessoal ou benefícios, e não investimento na compra de um prédio.",
-      "contrast": "A duração, sozinha, não basta: a despesa deve ser corrente, obrigatória e prevista para período superior a dois exercícios. Uma obra de construção que leva três anos continua sendo despesa de capital e não vira despesa obrigatória continuada apenas pela duração. Um gasto eventual de manutenção também não se enquadra automaticamente. É preciso examinar o impacto e as medidas exigidas pela LRF, com as exceções previstas na própria lei. Detalhe: A Lei de Responsabilidade Fiscal (LRF), art. 17, estabelece requisitos para criar ou aumentar essa obrigação.",
-      "cebraspeTrap": "O distrator típico troca 'gasto corrente obrigatório' por 'qualquer gasto que dura mais de dois anos'. Também é errado tratar previsão plurianual de investimento como prova de obrigação continuada.",
-      "example": "Uma lei cria pagamento mensal obrigatório a beneficiários por quatro anos. Como se trata de despesa corrente obrigatória por mais de dois exercícios, é necessário verificar os requisitos de criação da despesa continuada. Já a construção de uma escola ao longo de quatro anos é investimento; não se enquadra nessa categoria apenas porque demora.",
+      "definition": "É uma despesa corrente que lei, medida provisória ou ato administrativo normativo obriga o governo a executar por mais de dois exercícios. A classificação depende de ser gasto corrente e obrigação legal, não só de durar vários anos.",
+      "contrast": "O art. 17 da LRF exige, para criação ou aumento da obrigação, estimativa de impacto, indicação da origem dos recursos, proteção das metas fiscais e compensação dos efeitos futuros por receita permanente maior ou despesa permanente menor, nas condições legais. A prorrogação de despesa criada por prazo determinado conta como aumento. O § 6º excepciona do § 1º a despesa com serviço da dívida e a revisão geral de remuneração prevista no art. 37, X, da Constituição; a exceção não transforma investimentos longos em despesa continuada.",
+      "cebraspeTrap": "A banca pode dizer que toda obra de três anos é despesa obrigatória continuada ou que prorrogar obrigação temporária não representa aumento. Também pode aplicar a exceção do art. 17, § 6º, a todos os requisitos da lei, quando ela se refere expressamente ao § 1º.",
+      "example": "Uma lei cria benefício mensal obrigatório por quatro anos: é necessário verificar os requisitos do art. 17. Quando o governo prorroga esse benefício por mais dois anos, a prorrogação é considerada aumento de despesa. Já uma construção de quatro anos é investimento e não se enquadra apenas pela duração.",
       "subjectIds": [
         "orcamento-publico"
       ],

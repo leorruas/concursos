@@ -570,6 +570,15 @@ Próximo candidato: **CAM-CO-005, gestão do clima por comunicação**, com audi
 
 Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise comunicacional; auditar [[3 - Materias/Comunicacao/07 - gestao de crises|Gestão de crises]] antes de decidir reuso ou ampliação.
 
+## Lote 16: riscos, prevenção, diagnóstico e resposta a crises (CO-008 e CO-009)
+
+- [ ] **CAM-CO-008 · artigo criado; publicação pendente**: [[3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao|Riscos, prevenção e diagnóstico de crises]] (`art-482d6ef913a0c75b`). **Decisão: artigo novo** porque a pergunta autônoma envolve vulnerabilidade, risco, issue, incidente, emergência e crise, varredura e monitoramento, identificação de públicos, três grupos da SCCT em Coombs e fases temporais de Fink; exemplos progressivos e três itens C/E.
+- [ ] **CAM-CO-009 · artigo criado; publicação pendente**: [[3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao|Resposta à crise: fases, estratégias, canais e avaliação]] (`art-e31c94bd720a5f86`). **Decisão: artigo novo** para aprofundar informação instrutiva e de adaptação, posturas da SCCT, ciclos de Fink e CERC, canais, público interno, porta-voz, avaliação e obrigações específicas, com três itens C/E.
+
+**Reuso e proteção multi-edital:** a nota [[3 - Materias/Comunicacao/07 - gestao de crises|Gestão de crises]] (`art-50f1296bdde542f0`) já explica o ciclo básico, Mário Rosa, assessoria, porta-voz e o recorte FGV. Seu conteúdo, ID e aliases foram **preservados integralmente**. Os artigos aprofundam perguntas próprias; somente o catálogo Câmara recebe os dois novos IDs. Catálogos CGU e Dataprev e registros pessoais não foram alterados.
+
+**Validação pendente:** executar testes e confirmar build, identidade, busca, privacidade, manifesto e catálogo publicados no GitHub Pages antes de assinalar os itens. Próxima unidade: **CAM-CO-010**, comunicação organizacional: dimensões e escopo, com auditoria de notas existentes.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

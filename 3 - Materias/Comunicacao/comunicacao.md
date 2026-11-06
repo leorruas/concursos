@@ -61,6 +61,8 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao|51. Gestão do clima pela comunicação: alcance e limites]]: CAM-CO-005, percepção de justiça, voz, segurança psicológica, avaliação e itens C/E.
 - [[3 - Materias/Comunicacao/52 - comunicacao institucional finalidade funcoes e publicos|52. Comunicação institucional: finalidade, funções e públicos]]: CAM-CO-006, Kunsch, Relações Públicas, públicos e C/E.
 - [[3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras|53. Identidade, imagem e reputação organizacional]]: CAM-CO-007, Albert/Whetten, Brown e coautores, Hatch/Schultz, Fombrun, RQ e itens C/E.
+- [[3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao|54. Riscos, prevenção e diagnóstico de crises]]: CAM-CO-008, issues management, Fink e Coombs.
+- [[3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao|55. Resposta a crises: estratégias, canais e avaliação]]: CAM-CO-009, SCCT, CERC, públicos e itens C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

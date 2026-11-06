@@ -19,7 +19,8 @@ Estado, representação, federalismo, poder público, corrupção e formas de de
 A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições, regimes, representação, sistema eleitoral, partidos e política internacional no mesmo hub. Esse conjunto é editorialmente independente das unidades P1.1 da CGU: reuso de conceitos não significa ter concluído o estudo ou os exercícios de outro edital.
 
 - [[3 - Materias/Estado e Democracia/10 - ciencia politica objeto metodo e limites|10. Ciência Política: objeto, método e limites]]: CAM-CP-001, objeto, método, inferência e C/E.
-- [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|11. Poder, autoridade, legitimidade e dominação]]: CAM-CP-002. Weber, Dahl, Bachrach e Baratz, Lukes, Foucault, Arendt, Habermas, Gramsci e dez itens C/E. Próxima unidade: CAM-CP-003, teoria política.
+- [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|11. Poder, autoridade, legitimidade e dominação]]: CAM-CP-002, autores e conceitos de poder.
+- [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|12. Teoria política: correntes e perguntas centrais]]: CAM-CP-003, tradição clássica, contratualistas, liberalismos, socialismo, justiça, democracia, feminismos e pensamento decolonial. Dez itens C/E. Próxima unidade: CAM-CP-004, Estado e sociedade.
 
 ## Artigos próprios publicados
 

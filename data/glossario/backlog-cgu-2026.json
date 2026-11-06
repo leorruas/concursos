@@ -27,7 +27,7 @@
     {
       "subjectId": "contabilidade-publica",
       "label": "Contabilidade Pública",
-      "count": 37,
+      "count": 38,
       "examBlock": "P3",
       "editorialPriority": "A"
     },
@@ -714,6 +714,15 @@
     {
       "id": "glo-patrimonio-liquido",
       "term": "Patrimônio líquido",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-ajuste-direto-no-patrimonio-liquido",
+      "term": "Ajuste direto no patrimônio líquido",
       "subjectId": "contabilidade-publica",
       "examBlock": "P3",
       "editorialPriority": "A",

@@ -68,7 +68,18 @@ Conforme o MCASP 11, Parte V, seção 4.1, o Balanço Patrimonial compreende **(
 
 A igualdade é **Ativo = Passivo + PL**. Ativo é recurso presentemente controlado, decorrente de evento passado, com benefício econômico ou potencial de serviços. Assim, um equipamento usado em serviço gratuito pode constituir ativo público. Passivo é uma obrigação presente conforme os critérios de reconhecimento. O PL representa o valor residual dos ativos após deduzir os passivos.
 
-O quadro distingue **circulante** e **não circulante**, conforme ciclo operacional, prazo de realização/exigibilidade e demais condições normativas. Caixa normalmente é circulante, ressalvadas restrições específicas; bens usados por vários anos tendem a integrar o não circulante. Classificar não é apenas olhar o nome da conta: duração do ciclo, prazo e restrições importam.
+**O que significam circulante e não circulante?** São classificações dos **ativos e passivos no Quadro Principal do Balanço Patrimonial**. Em termos simples, distinguem recursos cuja realização ou consumo é esperado no curto prazo e obrigações que devem ser liquidadas no curto prazo daqueles que permanecem ou vencem em prazo maior. O critério usual de referência é **até 12 meses após a data do balanço**, mas o **ciclo operacional normal** e outras condições previstas nas normas também precisam ser considerados.
+
+| Classificação | Significado | Exemplo numa universidade |
+| :--- | :--- | :--- |
+| **Ativo circulante** | Dinheiro disponível ou recursos que se espera realizar, vender ou consumir no ciclo operacional normal ou, conforme a hipótese normativa, em até 12 meses | Dinheiro em conta; crédito com recebimento previsto para daqui a seis meses |
+| **Ativo não circulante** | Ativos que não atendem aos critérios de circulante, como bens de uso duradouro e créditos de prazo mais longo | Prédio da universidade e computadores usados por vários anos |
+| **Passivo circulante** | Obrigações cuja liquidação é esperada no ciclo operacional normal ou exigível em até 12 meses, entre outros critérios | Valor devido a um fornecedor com vencimento no mês seguinte |
+| **Passivo não circulante** | Obrigações que não atendem aos critérios do circulante, normalmente com liquidação prevista para além de 12 meses e direito de diferir o pagamento nas condições aplicáveis | Parcela de financiamento cujo vencimento é daqui a quatro anos |
+
+**Voltando ao exemplo:** os R$ 100 mil depositados no banco são, normalmente, **ativo circulante**. O prédio utilizado pela universidade é **ativo não circulante** (imobilizado). Uma obrigação já reconhecida por serviço prestado, com pagamento previsto para o mês seguinte, é **passivo circulante**. Um mesmo financiamento pode ter parcelas circulantes e não circulantes, conforme os vencimentos e as condições contratuais.
+
+**Pegadinha:** o prazo de 12 meses é uma referência importante, mas **não é o único critério**. Dinheiro com restrição de uso que impeça sua utilização para liquidar passivo por pelo menos 12 meses pode ter classificação diferente; o ciclo operacional e o direito de adiar a liquidação também importam. Além disso, **circulante/não circulante** é uma divisão do **1º quadro do BP**, enquanto **financeiro/permanente**, no **2º quadro**, segue a Lei nº 4.320/1964 e critérios de autorização orçamentária. **Um computador é ativo não circulante e, em regra, ativo permanente no quadro legal, mas as expressões não são sinônimas.**
 
 ### Quadro financeiro e permanente: art. 105 da Lei nº 4.320/1964
 

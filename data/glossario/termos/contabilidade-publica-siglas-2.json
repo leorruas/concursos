@@ -1,18 +1,35 @@
 {
   "schemaVersion": 1,
   "subjectId": "contabilidade-publica",
-  "entries": [{
-    "id": "glo-normas-brasileiras-contabilidade-setor-publico-nbc-tsp",
-    "term": "Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP)",
-    "aliases": ["NBC TSP", "Normas Brasileiras de Contabilidade Aplicadas ao Setor Público", "NBCs TSP"],
-    "definition": "Conjunto de normas do Conselho Federal de Contabilidade que orienta a contabilidade aplicada ao setor público, incluindo estrutura conceitual e normas técnicas específicas.",
-    "contrast": "As NBC TSP são normas contábeis; o MCASP é manual técnico nacional de procedimentos e demonstrações. A vigência deve ser conferida norma a norma, pois publicação e início de aplicação podem não coincidir.",
-    "cebraspeTrap": "Tratar qualquer NBC TSP publicada como automaticamente aplicável ao exercício em curso ou confundir norma contábil do setor público com regra orçamentária de empenho e pagamento.",
-    "example": "Para examinar o reconhecimento de provisão, consulta-se a NBC TSP específica e sua vigência, em conjunto com o MCASP aplicável.",
-    "articleIds": ["art-85b3a61ad09e44c1"],
-    "subjectIds": ["contabilidade-publica"],
-    "contestIds": ["cgu-2026"],
-    "sources": [{"label":"CFC: NBC TSP do Setor Público","url":"https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"}],
-    "status": "reviewed"
-  }]
+  "entries": [
+    {
+      "id": "glo-normas-brasileiras-contabilidade-setor-publico-nbc-tsp",
+      "term": "Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP)",
+      "aliases": [
+        "NBC TSP",
+        "Normas Brasileiras de Contabilidade Aplicadas ao Setor Público",
+        "NBCs TSP"
+      ],
+      "definition": "São normas editadas pelo Conselho Federal de Contabilidade (CFC) para orientar como órgãos e entidades públicas devem reconhecer, medir e apresentar informações contábeis. As Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP) incluem uma estrutura conceitual e normas para assuntos específicos.",
+      "contrast": "NBC TSP são normas de contabilidade. O Manual de Contabilidade Aplicada ao Setor Público (MCASP) organiza orientações e procedimentos nacionais; o Plano de Contas Aplicado ao Setor Público (PCASP) organiza as contas usadas nos registros. A data de publicação de uma norma não é necessariamente sua data de início de aplicação: é preciso observar a vigência.",
+      "cebraspeTrap": "A banca pode aplicar norma de ano posterior ao caso ou confundir uma regra de reconhecimento patrimonial com a etapa do empenho orçamentário.",
+      "example": "Para avaliar uma obrigação judicial, a equipe consulta as regras contábeis de provisões e contingências aplicáveis ao período e as orientações do MCASP. Em seguida, usa as contas correspondentes do PCASP para registrar o que for necessário.",
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "CFC: NBC TSP do Setor Público",
+          "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
 }

@@ -122,6 +122,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade|112. Design gráfico: hierarquia, composição e legibilidade]]: CAM-DI-034, Gestalt, grid, tipografia, contraste WCAG e C/E.
 - [[3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais|113. Produção gráfica: pré-impressão, formatos e materiais]]: CAM-DI-035, imposição, trapping, PDF/X, resolução, processos, papel, acabamentos e C/E.
 - [[3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos|114. Produção digital: responsividade, acessibilidade e formatos]]: CAM-DI-036, WCAG, reflow, HTML semântico, mídia responsiva, formatos e C/E.
+- [[3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais|115. Produção para rádio, televisão e redes sociais]]: CAM-DI-037, roteiro, captação, áudio, edição, adaptação de formatos e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

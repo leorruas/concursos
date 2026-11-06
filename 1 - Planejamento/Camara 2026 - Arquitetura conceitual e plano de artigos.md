@@ -290,7 +290,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-013 · F2**: Comunicação formal, informal e redes de interação.
 - [x] **CAM-CO-014 · F2**: Mapeamento e segmentação de públicos institucionais.
 - [x] **CAM-CO-015 · F2**: Planejamento estratégico de comunicação e diagnóstico.
-- [ ] **CAM-CO-016 · F3**: Objetivos, indicadores e avaliação de comunicação.
+- [x] **CAM-CO-016 · F3**: Objetivos, indicadores e avaliação de comunicação.
 - [ ] **CAM-CO-017 · F3**: Plano de comunicação: estrutura, ações, orçamento e execução.
 - [ ] **CAM-CO-018 · F3**: Gestão de projetos de comunicação: papéis e controle.
 - [ ] **CAM-CO-019 · F3**: Planejamento editorial para redes oficiais.
@@ -621,13 +621,13 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 ## Lote 21: objetivos, indicadores e avaliação de comunicação (CO-016)
 
-- [ ] **CAM-CO-016 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec|Objetivos, indicadores e avaliação de comunicação: AMEC e resultados]] (`art-6bd29c1e87f043a5`). **Decisão: artigo novo por estrutura própria de avaliação**. A nota canônica [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16. Planejamento]] define objetivos, indicadores, KPI, eficiência, eficácia e efetividade; [[3 - Materias/Comunicacao/06 - comunicacao digital|06. Comunicação digital]] desenvolve métricas digitais; [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|17. Pesquisa]] trata desenho metodológico. A unidade 62 aprofunda **a taxonomia AMEC em seis níveis** (inputs, activities, outputs, out-takes, outcomes, impact), diferenças entre métrica, indicador, KPI, linha de base, benchmark, meta e resultado; a sobreposição entre out-takes e outcomes de curto prazo; **Barcelona Principles 4.0 (2025)**, medição inadequada por AVEs, limites da causalidade, contribuição pública e três itens C/E.
+- [x] **CAM-CO-016 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec|Objetivos, indicadores e avaliação de comunicação: AMEC e resultados]] (`art-6bd29c1e87f043a5`). **Decisão: artigo novo por estrutura própria de avaliação**. A nota canônica [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16. Planejamento]] define objetivos, indicadores, KPI, eficiência, eficácia e efetividade; [[3 - Materias/Comunicacao/06 - comunicacao digital|06. Comunicação digital]] desenvolve métricas digitais; [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|17. Pesquisa]] trata desenho metodológico. A unidade 62 aprofunda **a taxonomia AMEC em seis níveis** (inputs, activities, outputs, out-takes, outcomes, impact), diferenças entre métrica, indicador, KPI, linha de base, benchmark, meta e resultado; a sobreposição entre out-takes e outcomes de curto prazo; **Barcelona Principles 4.0 (2025)**, medição inadequada por AVEs, limites da causalidade, contribuição pública e três itens C/E.
 
 **Critério de fontes:** AMEC, taxonomia desenvolvida por Jim Macnamara, *Integrated Evaluation Framework* e *Barcelona Principles 4.0* (2025); diretrizes CPRA/PRIA para diferenças entre modelos. A nota explicita que não há correspondência obrigatória dos seis níveis com eficiência, eficácia e efetividade, e que os princípios profissionais não são normas jurídicas brasileiras.
 
 **Proteção multi-edital:** [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16]], [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|17]], [[3 - Materias/Comunicacao/06 - comunicacao digital|06]] e [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|61]] foram auditadas e **não editadas**, preservando conteúdos FGV, IDs e relações com CGU e Dataprev. O novo ID foi adicionado apenas a `camara-2026/comunicacao`. Retenção individual não é aferida pela publicação.
 
-**Validação pendente:** testes de identidade, links, catálogo v2, privacidade, busca, build e presença da nota no Pages ao vivo. A caixa CO-016 só será marcada após sucesso. Próxima unidade: **CAM-CO-017**, plano de comunicação, estrutura, ações, orçamento e execução, com auditoria de notas anteriores.
+**Publicação confirmada:** o [workflow 42216915939](https://github.com/leorruas/concursos/actions/runs/42216915939) terminou com **success**, incluindo identidade, links, catálogo v2, busca, privacidade, build e confirmação no GitHub Pages. A unidade está concluída editorialmente, sem inferir estudo ou retenção pessoal. Próxima unidade: **CAM-CO-017**, plano de comunicação: estrutura, ações, orçamento e execução.
 
 ## Critérios de publicação e evidência
 

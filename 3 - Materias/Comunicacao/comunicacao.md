@@ -46,8 +46,10 @@ Os dois primeiros artigos iniciaram o **piloto da fase F1** do [[1 - Planejament
 
 - [[3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas|44. Midiatização: Hjarvard, Krotz e Hepp]]: CAM-TC-020, teorias institucionais e históricas, midiatização profunda, exemplos e C/E.
 - [[3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia|45. Plataformização: infraestruturas, governança e práticas]]: CAM-TC-021, plataformas, dados, mercados, governança, práticas e C/E.
+- [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|18. Fact-checking e desinformação]]: CAM-TC-022, **reuso e expansão** da nota existente, mantendo o conteúdo anterior e acrescentando casos e C/E.
+- [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|46. Integridade da informação: ecossistema, direitos e governança]]: CAM-TC-023, três dimensões da OCDE, cinco princípios ONU, UNESCO, aplicação institucional e C/E.
 
-A trilha TC-001 a TC-021 inclui transformações dos meios e teorias do signo e da significação. Próxima unidade: desinformação, integridade da informação e comparação entre teorias. Conclusão editorial não significa domínio individual. A publicação editorial não comprova estudo ou retenção.
+A trilha TC-001 a TC-023 inclui transformações dos meios e teorias do signo e da significação. Próxima unidade: comparação entre teorias da comunicação (CAM-TC-024). Conclusão editorial não significa domínio individual. A publicação editorial não comprova estudo ou retenção.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

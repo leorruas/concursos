@@ -129,6 +129,45 @@ Em prova, procure primeiro a palavra que define o eixo: **falso ou genuíno? hou
 
 Nas sete formas, use a operação realizada sobre o conteúdo: **conexão** erra a relação entre chamada e conteúdo; **contexto** desloca material genuíno; **impostor** imita fonte; **manipulado** altera; **fabricado** inventa.
 
+
+## Expansão para Cebraspe: fronteiras e casos de desordem informacional
+
+Esta expansão preserva as definições e a análise de prova FGV já consolidadas na nota. Para a Câmara dos Deputados, o estudo dos mesmos conceitos é aplicado a **itens de julgamento Certo/Errado**, com atenção a mudanças de intenção, contexto e evidência. A matriz de Wardle e Derakhshan (2017) continua sendo **uma classificação de desordem informacional**, e não a taxonomia de políticas de **integridade da informação** da OCDE (2024) ou dos princípios da ONU (2024).
+
+### Um caso que muda uma variável por vez
+
+**Situação inicial:** um comunicado verdadeiro, publicado por um órgão público, informa que inscrições terminam em 30 de novembro. Uma pessoa repassa o comunicado sem alterar a data ou o contexto. O fato descrito e a circulação, por si, **não configuram** desordem informacional.
+
+**Caso 1, muda-se a exatidão:** alguém compartilha por engano uma versão antiga do calendário e afirma que o prazo termina em 15 de novembro, sem saber que a informação está desatualizada. Se a informação é falsa e falta intenção deliberada de dano, a análise se aproxima de **misinformation**.
+
+**Caso 2, muda-se a intenção:** uma pessoa sabe que o prazo é 30 de novembro, mas cria deliberadamente uma versão falsa indicando 15 de novembro para prejudicar interessados. O elemento novo é **falsidade deliberada com intenção de dano**, compatível com **disinformation**.
+
+**Caso 3, muda-se a veracidade do conteúdo:** uma pessoa divulga deliberadamente dados pessoais autênticos de interessados, obtidos de fonte privada, para expô-los e intimidá-los. A informação é genuína, mas o uso pretende causar dano: aproxima-se de **malinformation**. **Não confundir isso com divulgação legítima e proporcional de informação de interesse público**: o contexto e a finalidade importam.
+
+**Caso 4, muda-se a relação com o contexto:** uma pessoa apresenta um aviso genuíno de 2024 como se fosse a orientação vigente para 2026. O mecanismo de construção do conteúdo é o **falso contexto**, mesmo que a imagem original não tenha sido adulterada. **Tipo de desordem** (intenção/falsidade) e **forma de construção** (falso contexto) são perguntas de eixos diferentes.
+
+**Caso de fronteira:** um vídeo claramente identificado como sátira é compreendido como humor pelo público. Não basta o formato humorístico para afirmar que houve engano. Se o vídeo for recortado e compartilhado sem identificação, pessoas podem interpretá-lo como verdadeiro. A análise exige reconstruir **agente, mensagem, intérprete e etapas da circulação**, sem inventar intenções.
+
+### Cebraspe: itens inéditos comentados
+
+**Item C/E 1:** “A utilização deliberada de material genuíno para causar dano pode integrar a categoria malinformation, mesmo que o conteúdo divulgado não seja falso.”
+
+**Gabarito: Certo.** O eixo distintivo é o uso danoso de informação verdadeira. O erro provável é pressupor que toda desordem informacional contenha falsidade factual. **Mecanismo:** fronteira entre verdade e intenção de dano.
+
+**Item C/E 2:** “Na tipologia de Wardle, falsa conexão e falso contexto são categorias equivalentes, pois ambas exigem que a informação genuína seja apresentada em data ou situação diferente da original.”
+
+**Gabarito: Errado.** **Falsa conexão** descreve descompasso entre chamada, imagem, legenda e conteúdo; **falso contexto** reposiciona material genuíno em situação contextual enganosa. As formas podem coexistir, mas não têm o mesmo critério. **Mecanismo:** transposição de definição próxima.
+
+**Item C/E 3:** “Se a primeira pessoa que publica um conteúdo não pretende causar dano, nenhuma redistribuição posterior desse conteúdo pode caracterizar desinformação deliberada.”
+
+**Gabarito: Errado.** Agentes e intenções podem variar entre **criação, produção e distribuição**; o agente posterior pode saber da falsidade e atuar para causar dano. A intenção do primeiro emissor não se transfere automaticamente a todos os demais. **Mecanismo:** inversão da relação entre fases e agentes.
+
+### Relação com integridade da informação
+
+A checagem e a classificação de episódios problemáticos servem ao diagnóstico, mas fortalecer a **integridade da informação** envolve também **pluralidade de fontes, transparência sobre distribuição, resiliência social, governança e proteção à liberdade de expressão**. [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|Integridade da informação: ecossistema, direitos e governança]]. Essa relação amplia o uso da nota sem substituir o conteúdo FGV anterior nem suas categorias.
+
+**Fontes complementares desta expansão:** [Conselho da Europa, Wardle e Derakhshan (2017)](https://edoc.coe.int/en/media/7495-information-disorder-toward-an-interdisciplinary-framework-for-research-and-policy-making.html); [OCDE, *Facts not Fakes* (2024)](https://www.oecd.org/en/publications/facts-not-fakes-tackling-disinformation-strengthening-information-integrity_d909ff7a-en.html). Os exemplos são hipotéticos e os itens são inéditos.
+
 ## Referências de verificação
 
 - WARDLE, Claire; DERAKHSHAN, Hossein. *Information Disorder: Toward an interdisciplinary framework for research and policy making*. Council of Europe, 2017.

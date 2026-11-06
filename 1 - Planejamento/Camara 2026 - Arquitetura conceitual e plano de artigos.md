@@ -261,8 +261,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-TC-013 · F2**: Gatekeeping: seleção e mediação de informação.
 - [x] **CAM-TC-014 · F2**: Teoria crítica e Escola de Frankfurt: indústria cultural.
 - [x] **CAM-TC-015 · F3**: Estudos culturais: codificação, decodificação e recepção.
-- [ ] **CAM-TC-016 · F3**: McLuhan: meio, mensagem e consequências.
-- [ ] **CAM-TC-017 · F3**: Semiótica e produção de significação.
+- [x] **CAM-TC-016 · F3**: McLuhan: meio, mensagem e consequências.
+- [x] **CAM-TC-017 · F3**: Semiótica e produção de significação.
 - [ ] **CAM-TC-018 · F3**: Opinião pública: conceitos e formação social.
 - [ ] **CAM-TC-019 · F3**: Espiral do silêncio: pressupostos e condições.
 - [ ] **CAM-TC-020 · F3**: Midiatização: conceito e mudança das práticas sociais.
@@ -474,8 +474,8 @@ O núcleo de teoria crítica e estudos culturais foi realizado no lote 5, manten
 
 ## Lote 6: McLuhan e semiótica (TC-016 e TC-017)
 
-- [ ] **CAM-TC-016 · validação de publicação pendente**: [[3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios|Marshall McLuhan: o meio é a mensagem, extensões e ecologia dos meios]] (`art-0cd74f8a2be93651`). Nota criada e indexada no catálogo da Câmara, aguardando confirmação do workflow de testes e Pages.
-- [ ] **CAM-TC-017 · validação de publicação pendente**: [[3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao|Semiótica: Saussure, Peirce, Barthes e produção de significação]] (`art-5f913bd7a4c2680e`). Nota criada e indexada no catálogo da Câmara, aguardando confirmação do workflow de testes e Pages.
+- [x] **CAM-TC-016 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios|Marshall McLuhan: o meio é a mensagem, extensões e ecologia dos meios]] (`art-0cd74f8a2be93651`). Nota completa, vinculada ao catálogo da Câmara, com validação técnica e publicação confirmadas no [workflow 42135907709](https://github.com/leorruas/concursos/actions/runs/42135907709), concluído com sucesso.
+- [x] **CAM-TC-017 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao|Semiótica: Saussure, Peirce, Barthes e produção de significação]] (`art-5f913bd7a4c2680e`). Nota completa, vinculada ao catálogo da Câmara, com validação técnica e publicação confirmadas no [workflow 42135907709](https://github.com/leorruas/concursos/actions/runs/42135907709), concluído com sucesso.
 
 **Distinções de prova:** em McLuhan, meio × conteúdo × efeitos; quente/frio × resolução digital contemporânea; tétrade de 1988 × formulações de 1964. Em semiótica, significante/significado × objeto/interpretante; ícone/índice/símbolo × outros eixos classificatórios de Peirce; denotação/conotação/mito em Barthes. Não misturar autores ou níveis de classificação. Nenhum artigo publicado registra estudo individual.
 

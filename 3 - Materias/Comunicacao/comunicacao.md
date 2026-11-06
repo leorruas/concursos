@@ -105,6 +105,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|95. Marketing: troca, valor, necessidades e públicos]]: CAM-DI-017, AMA, necessidades/desejos/demanda, orientações de marketing e C/E.
 - [[3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes|96. Planejamento de marketing: diagnóstico, objetivos e decisões]]: CAM-DI-018, SWOT, PESTEL, Porter, Ansoff, BCG e C/E.
 - [[3 - Materias/Comunicacao/97 - marketing institucional no setor publico valor legitimidade e limites|97. Marketing institucional no setor público: valor, legitimidade e limites]]: CAM-DI-019, comunicação pública, política da Câmara, Moore e C/E.
+- [[3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna|98. Endomarketing, marketing interno e comunicação interna]]: CAM-DI-020, Berry, Grönroos, Rafiq/Ahmed, Bekin e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

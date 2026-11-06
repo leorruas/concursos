@@ -365,6 +365,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras|Ética da comunicação e da publicidade: princípios, regimes e fronteiras]]
   - [[3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao|Gestão de equipes publicitárias: papéis, trabalho e avaliação]]
   - [[3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao|Código Brasileiro de Autorregulamentação Publicitária: princípios e aplicação]]
+  - [[3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade|Lei nº 12.232/2010: objeto, agências e contratação de publicidade]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

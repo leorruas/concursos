@@ -56,10 +56,10 @@
       "id": "glo-dispensa-de-emissao-da-nota-de-empenho",
       "term": "Dispensa de emissão da nota de empenho",
       "aliases": [],
-      "definition": "Exceção legal que permite deixar de emitir o documento chamado nota de empenho em casos especiais previstos nas normas, sem eliminar o empenho da despesa.",
-      "contrast": "Nota de empenho é o documento; empenho é o ato que compromete crédito orçamentário. A lei pode dispensar a nota, mas mantém a exigência do empenho.",
-      "cebraspeTrap": "Transformar a dispensa de emissão de documento em dispensa geral do próprio empenho.",
-      "example": "Uma hipótese legal específica admite não emitir a nota, mas a execução continua exigindo empenho regular.",
+      "definition": "É a possibilidade de deixar de emitir a nota de empenho, documento usado para registrar uma despesa comprometida no orçamento, somente em casos especiais previstos na legislação. O empenho, que é o compromisso formal da despesa, continua obrigatório. Essa diferença aparece nos arts. 60 e 61 da Lei nº 4.320/1964.",
+      "contrast": "Empenho é o ato de comprometer parte da verba autorizada; nota de empenho é o documento que informa, entre outros dados, o valor e quem receberá. Dispensar a emissão do documento não significa autorizar despesa sem empenho. A dispensa também não equivale à liquidação, que confere se o credor tem direito ao pagamento, nem ao pagamento, que transfere o dinheiro.",
+      "cebraspeTrap": "A expressão 'dispensa da nota de empenho' não permite concluir 'dispensa de empenho'. A banca pode trocar o documento pelo ato e tornar falsa uma frase quase correta.",
+      "example": "Um órgão tem uma despesa enquadrada em hipótese legal de dispensa da nota. Ele ainda precisa registrar o empenho de R$ 2 mil. A ausência da nota, quando permitida, não demonstra que o serviço foi prestado, conferido ou pago.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -81,10 +81,10 @@
       "id": "glo-reforco-de-empenho",
       "term": "Reforço de empenho",
       "aliases": [],
-      "definition": "Aumento do valor de um empenho já registrado quando a despesa precisa de mais recursos do que o valor inicialmente comprometido.",
-      "contrast": "Reforçar empenho aumenta o compromisso existente. Crédito suplementar aumenta a dotação autorizada; são procedimentos diferentes.",
-      "cebraspeTrap": "Afirmar que reforçar um empenho equivale, por si só, a criar nova dotação ou abrir crédito adicional.",
-      "example": "Empenho estimativo de energia elétrica é reforçado quando o consumo efetivo supera a projeção inicial.",
+      "definition": "É o aumento do valor de uma despesa que já foi empenhada quando se descobre que o compromisso precisará de mais dinheiro. O reforço usa verba autorizada ainda disponível para aquele gasto e aumenta o valor do empenho existente.",
+      "contrast": "Reforçar empenho aumenta um compromisso já registrado; abrir crédito suplementar aumenta a dotação, que é o limite autorizado no orçamento. Um reforço não cria, por si, nova dotação. Se não existir saldo disponível suficiente, primeiro é necessário resolver a falta de autorização, conforme as regras aplicáveis. Reforçar não prova que o serviço já foi prestado ou pago.",
+      "cebraspeTrap": "Aumentar empenho e aumentar dotação são atos diferentes. O reforço não substitui uma autorização orçamentária que esteja faltando.",
+      "example": "A prefeitura empenha R$ 10 mil por estimativa para energia elétrica. O consumo previsto aumenta e a despesa deverá chegar a R$ 12 mil. Havendo saldo de dotação e condições para isso, ela reforça o empenho em R$ 2 mil; não significa que já pagou os R$ 12 mil.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -110,10 +110,10 @@
       "id": "glo-anulacao-de-empenho",
       "term": "Anulação de empenho",
       "aliases": [],
-      "definition": "Cancelamento total ou parcial de um empenho quando isso é permitido, devolvendo à programação o valor do compromisso que deixou de existir.",
-      "contrast": "Anular empenho desfaz um compromisso no orçamento. Se o fornecedor já tem direito comprovado ao pagamento, apagar o empenho não elimina essa obrigação.",
-      "cebraspeTrap": "Afirmar que anular contabilmente empenho de serviço prestado elimina automaticamente a obrigação perante o fornecedor.",
-      "example": "Uma compra não realizada pode ter saldo de empenho anulado; serviço já entregue exige exame da obrigação.",
+      "definition": "É o cancelamento de todo ou parte de um empenho quando o compromisso deixa de existir ou precisa ser reduzido, dentro das regras aplicáveis. O valor anulado deixa de ficar comprometido por aquele empenho e pode voltar ao saldo da dotação.",
+      "contrast": "Anular empenho muda o registro do compromisso no orçamento. Anular dotação reduz a própria autorização para gastar, que é outra operação. Se um serviço já foi prestado e existe dívida com o fornecedor, cancelar o empenho não elimina automaticamente essa dívida. Também não equivale a receber dinheiro em caixa.",
+      "cebraspeTrap": "O cancelamento de um registro orçamentário não apaga, por si, o direito de quem já entregou bens ou prestou serviços.",
+      "example": "Um órgão empenhou R$ 8 mil para comprar oito mesas, mas a compra de duas é cancelada antes da entrega. Se o contrato e as regras permitirem, pode anular R$ 2 mil do empenho. Se as mesas já tivessem sido entregues e houvesse obrigação de pagar, a situação precisaria ser examinada antes da anulação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -168,10 +168,10 @@
       "id": "glo-limite-de-empenho",
       "term": "Limite de empenho",
       "aliases": [],
-      "definition": "Valor máximo que um órgão pode comprometer em novos empenhos durante determinado período, conforme regras e restrições da execução.",
-      "contrast": "A dotação é a autorização total existente; o limite de empenho pode liberar apenas parte dela. Ter limite não significa que o órgão já empenhou o dinheiro.",
-      "cebraspeTrap": "Considerar que um órgão com dotação de R$ 10 milhões pode empenhá-la integralmente apesar de limite vigente de R$ 6 milhões.",
-      "example": "O órgão recebe dotação de R$ 10 milhões, mas decreto de programação limita novos empenhos a R$ 6 milhões.",
+      "definition": "É o teto de valor que o órgão pode comprometer em novos empenhos em determinado período. Mesmo que a lei do orçamento autorize um gasto maior, a programação financeira e os limites de execução podem restringir quanto pode ser empenhado naquele momento.",
+      "contrast": "Dotação é o valor autorizado no orçamento. Saldo de dotação é a parte ainda não comprometida. Limite de empenho é quanto o órgão está autorizado a comprometer naquele período, considerando as restrições em vigor. Limite de pagamento, por sua vez, controla quanto dinheiro poderá sair do caixa. Ter limite disponível não significa ter feito empenho nem recebido o produto.",
+      "cebraspeTrap": "A verba prevista na lei orçamentária não está necessariamente toda liberada para novos empenhos. A banca pode confundir autorização total com limite de execução.",
+      "example": "Um ministério tem dotação de R$ 10 milhões para uma ação, mas o limite vigente permite empenhar apenas R$ 6 milhões. O restante da dotação continua autorizado no orçamento, porém não pode ser empenhado enquanto a restrição permanecer, salvo alteração válida do limite.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -193,10 +193,10 @@
       "id": "glo-limite-de-pagamento",
       "term": "Limite de pagamento",
       "aliases": [],
-      "definition": "Valor máximo de pagamentos que um órgão está autorizado a fazer em determinado período, considerando o caixa e as regras financeiras.",
-      "contrast": "Limite de pagamento controla a saída de dinheiro. Limite de empenho controla novos compromissos no orçamento; liquidação verifica o direito do credor.",
-      "cebraspeTrap": "Deduzir que valor já liquidado foi automaticamente pago ou que limite financeiro é nova dotação.",
-      "example": "Um órgão liquidou R$ 700 mil, mas o limite de pagamentos liberado no período é de R$ 500 mil.",
+      "definition": "É o valor máximo que um órgão pode efetivamente pagar em um período, de acordo com a programação financeira e as regras de execução. Controla a saída de dinheiro do governo e pode ser menor que o total das despesas já empenhadas ou liquidadas.",
+      "contrast": "Limite de empenho controla novos compromissos; limite de pagamento controla as transferências de dinheiro. Liquidação significa que o direito do credor foi conferido, mas não garante pagamento imediato. Dotação autoriza gasto no orçamento e não equivale a dinheiro liberado no banco. Uma obrigação pode estar liquidada e continuar pendente de pagamento.",
+      "cebraspeTrap": "Despesa liquidada não é necessariamente paga. O limite financeiro não aumenta ou diminui, por si só, a dotação orçamentária.",
+      "example": "Um órgão liquidou R$ 700 mil em serviços, mas só tem limite de pagamento de R$ 500 mil para o período. Mesmo com o direito dos fornecedores já conferido, não pode concluir todos os pagamentos dentro daquele limite sem uma mudança válida na programação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -297,10 +297,10 @@
       "id": "glo-ateste-de-recebimento",
       "term": "Ateste de recebimento",
       "aliases": [],
-      "definition": "Confirmação registrada pelo servidor responsável de que um bem foi entregue ou um serviço foi prestado, usada para comprovar a execução contratual.",
-      "contrast": "Atestar a entrega é uma prova importante, mas a liquidação pode exigir outras conferências de valor, contrato e credor antes de autorizar o pagamento.",
-      "cebraspeTrap": "Afirmar que assinatura genérica em nota fiscal substitui análise de contrato, valor e credor na liquidação.",
-      "example": "Fiscal certifica que o objeto foi recebido e a contabilidade confere os demais elementos para liquidar.",
+      "definition": "É a confirmação feita pelo servidor responsável de que determinado bem foi entregue ou um serviço foi prestado. Esse registro ajuda a demonstrar que o fornecedor cumpriu o contrato e serve de apoio à liquidação, que é a conferência do direito ao pagamento.",
+      "contrast": "Atestar a entrega não é igual a liquidar toda a despesa: ainda podem ser necessárias conferências de quantidade, qualidade, valor, contrato, documentos e identificação de quem deve receber. Também não significa pagamento. Uma entrega pode ser recebida provisoriamente para exame e só depois receber aceitação definitiva, conforme as regras do contrato.",
+      "cebraspeTrap": "Uma assinatura genérica na nota fiscal não substitui todas as conferências exigidas para comprovar o direito do fornecedor.",
+      "example": "Uma escola recebeu dez computadores. O fiscal confirma a entrega, mas a equipe ainda precisa comparar os modelos com o contrato e conferir o valor da nota fiscal. O ateste é uma prova importante; a liquidação completa depende da verificação dos elementos necessários.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -326,10 +326,10 @@
       "id": "glo-recebimento-provisorio-do-objeto",
       "term": "Recebimento provisório do objeto",
       "aliases": [],
-      "definition": "Aceitação inicial de um bem, obra ou serviço para permitir conferir depois se tudo foi entregue conforme o contrato, observadas as regras da Lei nº 14.133/2021.",
-      "contrast": "Provisório é uma etapa anterior à verificação final. Não prova, por si só, o recebimento definitivo nem substitui a liquidação da despesa.",
-      "cebraspeTrap": "Confundir entrega física inicial com recebimento definitivo e direito automaticamente comprovado ao pagamento.",
-      "example": "Equipamentos chegam ao almoxarifado e são recebidos provisoriamente até verificação de suas especificações.",
+      "definition": "É a aceitação inicial de um bem, obra ou serviço contratado, feita para permitir que o governo confira se aquilo que chegou está de acordo com o contrato. É uma etapa prevista nas regras de recebimento da Lei nº 14.133/2021, conforme o tipo de contratação.",
+      "contrast": "Provisório não significa aceitação final. Após a entrega inicial, o órgão pode precisar testar equipamentos, medir serviços ou verificar a qualidade para decidir pelo recebimento definitivo. Receber provisoriamente também não é o mesmo que liquidar a despesa ou pagar o fornecedor. As regras e responsáveis variam conforme o objeto contratado.",
+      "cebraspeTrap": "A banca pode transformar a chegada física dos bens em recebimento definitivo ou pagamento automático. Cada etapa exige seu próprio requisito.",
+      "example": "Uma escola recebe vinte computadores e registra a chegada para iniciar a conferência. Antes de aceitá-los definitivamente, verifica memória, funcionamento e quantidade. A entrega inicial não prova, sozinha, que os vinte atendem ao contrato.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -351,10 +351,10 @@
       "id": "glo-recebimento-definitivo-do-objeto",
       "term": "Recebimento definitivo do objeto",
       "aliases": [],
-      "definition": "Confirmação formal de que o objeto contratado atende às exigências depois das verificações aplicáveis, nos termos do art. 140 da Lei nº 14.133/2021.",
-      "contrast": "O recebimento definitivo comprova a conformidade verificada, mas não é sinônimo de pagamento e não elimina toda responsabilidade legal do contratado.",
-      "cebraspeTrap": "Afirmar que o aceite definitivo exonera integralmente o fornecedor de responsabilidade por defeitos ou comprova transferência financeira.",
-      "example": "Depois de testar equipamentos, a comissão registra recebimento definitivo e o processo segue para liquidação.",
+      "definition": "É a confirmação formal de que um bem, obra ou serviço foi examinado e atende às condições do contrato, depois das verificações necessárias. A Lei nº 14.133/2021, art. 140, trata do recebimento conforme o tipo de objeto e o procedimento aplicável.",
+      "contrast": "No recebimento provisório, o órgão aceita inicialmente para conferir. No definitivo, registra o resultado da verificação de conformidade. Mesmo a aceitação definitiva não é sinônimo de pagamento: a despesa segue as regras de liquidação e ordem de pagamento. Também não elimina, por si, toda responsabilidade do contratado por defeitos ou falhas previstos em lei.",
+      "cebraspeTrap": "Recebimento definitivo comprova a conformidade verificada, não que houve pagamento nem que desapareceu toda responsabilidade legal do fornecedor.",
+      "example": "Depois de testar vinte computadores entregues à escola e confirmar que correspondem ao contrato, o responsável registra o recebimento definitivo. O processo ainda precisa cumprir as etapas financeiras necessárias antes da transferência ao fornecedor.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -409,10 +409,10 @@
       "id": "glo-cancelamento-de-restos-a-pagar",
       "term": "Cancelamento de restos a pagar",
       "aliases": [],
-      "definition": "Baixa de valor inscrito como restos a pagar nas situações permitidas, depois de verificar a execução e eventual direito do credor.",
-      "contrast": "Cancelar o registro não significa que entrou dinheiro novo no caixa. Também não elimina automaticamente um direito já comprovado do fornecedor.",
-      "cebraspeTrap": "Afirmar que todo RP cancelado se converte automaticamente em receita orçamentária arrecadada ou extingue obrigação já comprovada.",
-      "example": "RP não processado sem entrega é cancelado conforme regras, mas eventual direito do fornecedor deve ser examinado.",
+      "definition": "É a retirada de uma despesa da lista de restos a pagar, que reúne compromissos empenhados em anos anteriores e ainda não pagos. O cancelamento deve seguir as regras aplicáveis e exige verificar se o serviço foi realizado e se o fornecedor já tem direito de receber.",
+      "contrast": "Cancelar um resto a pagar não significa receber dinheiro novo: o valor pode deixar de representar compromisso no registro, mas não vira depósito bancário. Se já existe obrigação patrimonial por bem entregue ou serviço prestado, o cancelamento do registro não apaga automaticamente esse direito. A inscrição e o pagamento de restos a pagar também são etapas diferentes.",
+      "cebraspeTrap": "Restos a pagar cancelados não se transformam automaticamente em receita orçamentária, nem o cancelamento extingue por si uma dívida válida.",
+      "example": "Uma compra de R$ 5 mil foi empenhada no ano anterior, mas não ocorreu, e o saldo foi inscrito como resto a pagar não processado. Se as regras permitirem, o registro pode ser cancelado. Se o fornecedor tivesse entregado os bens e tivesse direito ao pagamento, a situação exigiria outra análise.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -467,10 +467,10 @@
       "id": "glo-disponibilidade-de-caixa",
       "term": "Disponibilidade de caixa",
       "aliases": [],
-      "definition": "Dinheiro e recursos financeiros efetivamente disponíveis para pagar obrigações, considerados os compromissos existentes e as restrições de uso dos recursos.",
-      "contrast": "Ter dotação no orçamento ou saldo bancário não significa que todo o valor está livre para pagar qualquer obrigação. Há recursos vinculados a finalidades próprias.",
-      "cebraspeTrap": "Compensar obrigação de fonte vinculada com caixa de outra destinação ou equiparar autorização orçamentária a recurso financeiro.",
-      "example": "Ao encerrar mandato, gestor considera encargos e despesas compromissadas antes de aferir a suficiência do caixa.",
+      "definition": "É o dinheiro e os recursos financeiros que o governo tem para cumprir suas obrigações, considerados os valores já comprometidos e as regras que limitam o uso de cada fonte de recursos. Ajuda a avaliar se há condições de pagar as despesas assumidas.",
+      "contrast": "Saldo bancário é quanto aparece na conta; disponibilidade para determinada despesa depende também de compromissos e vinculações. Dotação é autorização para gastar, mesmo que o dinheiro ainda não esteja disponível. Dinheiro destinado por lei à saúde ou à educação não pode ser tratado como livre para qualquer gasto. A apuração de disponibilidade deve respeitar os critérios da norma e o período analisado.",
+      "cebraspeTrap": "Ter caixa ou dotação não significa poder pagar qualquer compromisso. Misturar dinheiro vinculado a finalidades diferentes pode esconder falta de recursos para uma obrigação.",
+      "example": "A prefeitura tem R$ 100 mil no banco. Desse total, R$ 40 mil pertencem a uma fonte vinculada a uma finalidade específica, e há obrigações a pagar. Não se pode concluir que os R$ 100 mil estão livres para contratar qualquer serviço apenas olhando o extrato.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -496,10 +496,10 @@
       "id": "glo-desembolso-extraorcamentario",
       "term": "Desembolso extraorçamentário",
       "aliases": [],
-      "definition": "Saída de dinheiro que não corresponde a novo empenho da despesa no orçamento do ano atual, como pagar restos a pagar de ano anterior.",
-      "contrast": "O pagamento de restos a pagar é saída financeira atual, mas o compromisso orçamentário foi registrado no ano anterior.",
-      "cebraspeTrap": "Afirmar que o pagamento de RP no exercício seguinte é novo empenho do orçamento vigente.",
-      "example": "Tesouraria paga em fevereiro resto a pagar regularmente inscrito no exercício anterior.",
+      "definition": "É uma saída de dinheiro que não corresponde a uma nova despesa empenhada no orçamento daquele ano. Um exemplo é o pagamento de restos a pagar: a despesa foi empenhada no ano anterior e o dinheiro é transferido no ano atual.",
+      "contrast": "Uma despesa orçamentária do ano pertence ao exercício em que é empenhada. O pagamento de resto a pagar regularmente inscrito no exercício seguinte não precisa ser empenhado novamente por causa da mudança de ano. A devolução de caução recebida de terceiro também pode ser saída extraorçamentária, pois devolve dinheiro que não era receita ganha pelo governo.",
+      "cebraspeTrap": "A data da transferência bancária não muda o exercício em que a despesa foi empenhada. Pagamento de restos a pagar não é novo empenho.",
+      "example": "Um hospital público empenha R$ 8 mil por um serviço em dezembro, inscreve o valor regularmente em restos a pagar e paga em fevereiro. Em fevereiro há saída efetiva de caixa, mas não uma nova despesa orçamentária de R$ 8 mil pelo mesmo serviço.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -525,10 +525,10 @@
       "id": "glo-regime-orcamentario-da-despesa",
       "term": "Regime orçamentário da despesa",
       "aliases": [],
-      "definition": "Regra que considera a despesa como pertencente ao ano em que foi legalmente empenhada, conforme o art. 35 da Lei nº 4.320/1964.",
-      "contrast": "Para o orçamento, vale o ano do empenho. Para o patrimônio, o registro da obrigação ou do consumo depende do fato gerador, que pode ocorrer em outro ano.",
-      "cebraspeTrap": "Afirmar que a despesa pertence ao exercício em que foi paga ou que o empenho determina automaticamente toda variação patrimonial.",
-      "example": "Em dezembro há empenho e o fornecedor entrega em janeiro: a execução orçamentária e a patrimonial exigem registros distintos.",
+      "definition": "É a regra que define a qual ano pertence uma despesa no orçamento: ela conta no exercício em que foi legalmente empenhada, conforme o art. 35 da Lei nº 4.320/1964. Empenhar significa registrar formalmente um compromisso usando parte da verba autorizada.",
+      "contrast": "A despesa pode ser empenhada em dezembro, liquidada e paga em janeiro. Para o orçamento, o empenho identifica o exercício de origem. Para a contabilidade patrimonial, o consumo do serviço ou o surgimento da dívida depende do fato que ocorreu, mesmo que seja em outro período. Portanto, gasto orçamentário e redução patrimonial não são necessariamente registrados na mesma data.",
+      "cebraspeTrap": "Dizer que a despesa orçamentária pertence ao ano do pagamento ou que empenho significa consumo imediato do serviço mistura critérios diferentes.",
+      "example": "Uma escola empenha R$ 3 mil em dezembro para um serviço a ser prestado em janeiro. A despesa orçamentária pertence a dezembro; o consumo e a obrigação pelo serviço serão examinados em janeiro, quando ele ocorrer. Pagar em fevereiro não transfere o empenho original para fevereiro.",
       "subjectIds": [
         "orcamento-publico"
       ],

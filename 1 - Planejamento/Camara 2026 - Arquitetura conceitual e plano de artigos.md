@@ -590,6 +590,17 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 **Publicação confirmada:** o [workflow 42202532228](https://github.com/leorruas/concursos/actions/runs/42202532228) terminou com **success** e confirmou build, links, identidade, privacidade, busca, catálogo e manifesto no Pages ao vivo. Os itens estão concluídos editorialmente, sem pressupor estudo ou retenção pessoal. Próximas unidades: CAM-CO-012 (fluxos) e CAM-CO-013 (redes formal e informal).
 
+## Lote 18: fluxos e redes da comunicação (CO-012 e CO-013)
+
+- [ ] **CAM-CO-012 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade|Fluxos da comunicação: direção, hierarquia e transversalidade]] (`art-8742dc93b5e1a06f`). Artigo específico para aprofundar **Curvello**, quatro fluxos, os limites de diagonal/transversal/circular em outras fontes, a passarela de Fayol, a distinção entre direção, rede, meio e modalidade, casos progressivos e três C/E.
+- [ ] **CAM-CO-013 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao|Redes formais, informais e grapevine]] (`art-c49f86d2107ae35b`). Artigo específico para diferenciar redes e fluxos, os **quatro padrões de Keith Davis**, circulação de informação correta e não verificada, relações com organograma, casos progressivos e três C/E.
+
+**Auditoria e preservação:** a nota [[3 - Materias/Comunicacao/09 - comunicacao interna|Comunicação Interna]] (`art-806546892285426f`) já desenvolvia os quatro fluxos de Curvello, juntamente com conteúdo FGV, e as notas [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação Organizacional]], [[3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch|56]] e [[3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca|57]] trazem outros eixos de classificação. Os arquivos preexistentes permaneceram **integralmente inalterados**. Os novos artigos abordam perguntas autônomas e são vinculados somente a `camara-2026/comunicacao`. CGU, Dataprev e progresso pessoal permanecem preservados.
+
+**Critério de fontes:** Curvello apresenta quatro fluxos, enquanto outras referências variam a terminologia de diagonal, transversal e circular. Davis (1969) classifica padrões de grapevine, e não os quatro fluxos de Curvello. Tabelas e itens C/E são didáticos.
+
+**Publicação pendente:** validar build, identidade, links, catálogo, busca, privacidade e manifesto no Pages ao vivo. Só depois assinalar CO-012 e CO-013. Próximo candidato: **CAM-CO-014**, públicos e segmentação, após auditoria de [[3 - Materias/Comunicacao/15 - publicos e stakeholders|Públicos e stakeholders]].
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

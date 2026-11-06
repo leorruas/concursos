@@ -62,10 +62,10 @@
       "aliases": [
         "BO"
       ],
-      "definition": "Relatório que mostra o que o governo previa arrecadar e gastar e compara essas previsões com o que executou durante o exercício. Inclui informações de restos a pagar.",
-      "contrast": "O Balanço Orçamentário compara planejamento e execução. O Balanço Financeiro acompanha entradas e saídas financeiras.",
-      "cebraspeTrap": "Equiparar receita prevista à arrecadada ou trocar empenho por pagamento como único critério.",
-      "example": "O quadro apresenta dotação atualizada, empenhos, liquidação e pagamentos.",
+      "definition": "Demonstração contábil que confronta previsão e execução de receitas e despesas orçamentárias no exercício, conforme o art. 102 da Lei nº 4.320/1964 e o Manual de Contabilidade Aplicada ao Setor Público (MCASP). Apresenta, entre outros dados, previsão inicial e atualizada e receitas realizadas; dotação inicial e atualizada e despesas empenhadas, liquidadas e pagas, além dos quadros de execução dos restos a pagar.",
+      "contrast": "O Balanço Orçamentário (BO) pergunta quanto foi previsto/autorizado e quanto se realizou na execução orçamentária. Não apresenta, por si, o caixa disponível do Balanço Financeiro (BF), a situação de ativos/passivos do Balanço Patrimonial (BP) ou o resultado patrimonial da Demonstração das Variações Patrimoniais (DVP). Dotação autoriza gasto; empenho registra despesa orçamentária do exercício; liquidação verifica o direito do credor; pagamento movimenta caixa. Receita prevista não é arrecadação efetiva.",
+      "cebraspeTrap": "Trocar despesa empenhada por paga na apuração da execução orçamentária do exercício, chamar previsão de receita realizada ou calcular disponibilidade financeira a partir apenas da diferença entre receita arrecadada e dotação.",
+      "example": "O município prevê R$ 100 mil de receitas e arrecada R$ 90 mil. Tem dotação atualizada de R$ 80 mil, empenha R$ 70 mil, liquida R$ 60 mil e paga R$ 50 mil. O BO permite comparar os R$ 90 mil arrecadados com a previsão e acompanhar os três estágios da despesa; os R$ 20 mil empenhados e não pagos não são automaticamente saldo livre de caixa. Para analisar o estoque patrimonial ou disponibilidade financeira é necessário consultar outras informações.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -93,10 +93,10 @@
       "aliases": [
         "BF"
       ],
-      "definition": "Relatório que organiza o dinheiro e outros recursos financeiros que entraram e saíram no período e apresenta os saldos inicial e final, incluindo operações orçamentárias e extraorçamentárias.",
-      "contrast": "O saldo do Balanço Financeiro não é automaticamente o superávit financeiro disponível para abrir um crédito adicional.",
-      "cebraspeTrap": "Tratar inscrição compensatória de restos a pagar como entrada de dinheiro novo.",
-      "example": "O demonstrativo reconcilia saldos de caixa com movimentos financeiros e extraorçamentários.",
+      "definition": "Demonstração que evidencia receitas e despesas orçamentárias, recebimentos e pagamentos extraorçamentários, conjugados aos saldos financeiros inicial e final do exercício, conforme o art. 103 da Lei nº 4.320/1964. O Balanço Financeiro (BF) permite acompanhar a movimentação financeira e a passagem dos saldos entre exercícios, incluindo registro compensatório da inscrição de restos a pagar.",
+      "contrast": "No BF, entrada extraorçamentária pode ser dinheiro recebido de terceiro, como caução, ou lançamento de natureza compensatória, como a inscrição de restos a pagar do exercício: a segunda não é ingresso novo de caixa. Balanço Orçamentário (BO) acompanha previsão/dotação e execução; Balanço Patrimonial (BP) mostra estoques patrimoniais e quadro de ativo/passivo financeiro e permanente. O superávit financeiro para créditos adicionais depende de apuração específica, inclusive obrigações e regras por fonte/destinação, e não corresponde necessariamente ao saldo final do BF.",
+      "cebraspeTrap": "Considerar a inscrição de restos a pagar como arrecadação, tratar todo recebimento extraorçamentário como entrada real de numerário ou confundir saldo final de caixa do BF com superávit financeiro utilizável sem ajustes.",
+      "example": "Saldo inicial de caixa: R$ 10 mil. Receitas arrecadadas: R$ 100 mil; despesas empenhadas: R$ 60 mil, das quais R$ 40 mil pagas; inscrição de R$ 20 mil em restos a pagar. Desconsideradas outras operações, o BF registra a despesa orçamentária de R$ 60 mil e o recebimento extraorçamentário compensatório de R$ 20 mil. O saldo final é R$ 70 mil (10 + 100 − 40), não R$ 90 mil: os R$ 20 mil compensatórios não são dinheiro recebido.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -156,10 +156,10 @@
       "aliases": [
         "VPA"
       ],
-      "definition": "Aumento do patrimônio líquido da entidade causado por um fato do período. Recebe a sigla VPA e pode surgir antes da entrada do dinheiro.",
-      "contrast": "Uma VPA aumenta o patrimônio líquido. Receber um valor que já estava registrado como direito a receber não cria, por si, outra VPA.",
-      "cebraspeTrap": "Exigir arrecadação como condição geral para reconhecer uma VPA.",
-      "example": "Um crédito tributário reconhecido conforme o fato gerador pode gerar VPA antes do recebimento.",
+      "definition": "Variação Patrimonial Aumentativa (VPA) é o aumento reconhecido do patrimônio líquido decorrente de fato do período, excetuados aportes de proprietários e outros movimentos que a norma determine apresentar diretamente no patrimônio líquido. Na contabilidade pública, pode surgir com direito a receber, transferência ou outro fato reconhecível, independentemente de arrecadação; integra a Demonstração das Variações Patrimoniais (DVP).",
+      "contrast": "Receita orçamentária segue arrecadação; VPA segue critérios patrimoniais de reconhecimento. O recebimento de empréstimo eleva caixa e passivo no mesmo valor, sem VPA. Arrecadar crédito tributário com VPA já reconhecida troca o direito por caixa, sem VPA duplicada. Nem todo aumento de caixa aumenta patrimônio líquido; nem todo aumento patrimonial requer entrada imediata de dinheiro.",
+      "cebraspeTrap": "Julgar que arrecadar qualquer receita gera VPA no mesmo momento ou classificar operação de crédito como VPA pela entrada de dinheiro.",
+      "example": "Após reconhecer fato tributário que origina crédito de R$ 1.500, a prefeitura registra ativo e, quando cabível, VPA de R$ 1.500. Dois meses depois recebe os R$ 1.500: registra arrecadação orçamentária e troca crédito por caixa, sem reconhecer novamente a mesma VPA. Já uma operação de crédito de R$ 1.500 recebida aumenta simultaneamente caixa e obrigação de empréstimo e não representa VPA por esse simples ingresso.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -355,10 +355,10 @@
       "aliases": [
         "BP"
       ],
-      "definition": "Relatório que apresenta, em uma data específica, os ativos, os passivos e o patrimônio líquido da entidade. É uma fotografia da sua situação patrimonial.",
-      "contrast": "O Quadro Principal do Balanço mostra ativos e passivos patrimoniais. O quadro financeiro/permanente segue o art. 105 da Lei nº 4.320/1964 e pode incluir compromissos de empenho sem passivo patrimonial correspondente. Circulante não é sinônimo de financeiro.",
-      "cebraspeTrap": "Equiparar ativo circulante a ativo financeiro ou passivo circulante a passivo financeiro sem examinar os quadros próprios.",
-      "example": "O quadro principal apresenta saldos patrimoniais, enquanto quadro específico apura superávit ou déficit financeiro.",
+      "definition": "Demonstração da posição patrimonial em uma data: apresenta ativos, passivos e patrimônio líquido no Quadro Principal e inclui quadros complementares exigidos pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), como ativos e passivos financeiros e permanentes e superávit/déficit financeiro. O Balanço Patrimonial (BP) combina informação patrimonial e o recorte legal do art. 105 da Lei nº 4.320/1964.",
+      "contrast": "No Quadro Principal, circulante/não circulante organiza ativos e passivos patrimoniais segundo os critérios contábeis. No quadro financeiro/permanente, os atributos F/P atendem à classificação legal por exigência de autorização orçamentária, podendo o passivo financeiro incluir empenhos a liquidar sem passivo patrimonial ainda reconhecido. O quadro do superávit/déficit financeiro não é resultado patrimonial da DVP nem saldo do BF; depende de ativo financeiro menos passivo financeiro, com detalhamento por fonte/destinação.",
+      "cebraspeTrap": "Concluir que todo ativo circulante é F, que todo passivo financeiro também é passivo patrimonial, ou que resultado patrimonial positivo equivale a superávit financeiro.",
+      "example": "O município mantém R$ 5 mil em caixa, R$ 2 mil de crédito tributário ainda não arrecadado e computador de R$ 4 mil. No Quadro Principal, os três são ativos; no quadro legal, caixa é F e crédito tributário e computador podem ser P conforme suas características. Se houver empenho de R$ 1 mil por serviço ainda não prestado, o compromisso pode integrar passivo financeiro do quadro legal sem representar, só por isso, passivo patrimonial no Quadro Principal.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -386,10 +386,10 @@
       "aliases": [
         "DVP"
       ],
-      "definition": "Relatório que mostra quanto o patrimônio líquido da entidade aumentou ou diminuiu durante o período e por quais fatos. É chamado de DVP.",
-      "contrast": "A DVP explica mudanças no patrimônio líquido, como consumo de serviços e reconhecimento de direitos. A DFC mostra dinheiro que entrou e saiu; o orçamento mostra receitas e despesas executadas.",
-      "cebraspeTrap": "Afirmar que despesa empenhada implica automaticamente VPD de igual valor no exercício.",
-      "example": "O órgão usa materiais que já estavam no estoque: a DVP registra o consumo, mesmo sem novo pagamento.",
+      "definition": "Demonstração que evidencia as variações patrimoniais aumentativas (VPA) e diminutivas (VPD) reconhecidas no período e apura o resultado patrimonial, conforme o art. 104 da Lei nº 4.320/1964 e o Manual de Contabilidade Aplicada ao Setor Público (MCASP). A Demonstração das Variações Patrimoniais (DVP) mostra efeitos da execução orçamentária ou independentes dela sobre o patrimônio.",
+      "contrast": "A DVP responde quais fatos afetaram o resultado patrimonial por competência, não quanto foi empenhado ou pago. O Balanço Orçamentário (BO) trata de execução; o Balanço Financeiro (BF) de movimentos e saldos financeiros; o Balanço Patrimonial (BP) da posição numa data. Receber imposto cujo crédito e VPA já foram reconhecidos pode trocar direito por caixa sem nova VPA; comprar bem por preço equivalente pode trocar caixa por equipamento sem VPD imediata. Ajustes diretos no patrimônio líquido também não integram automaticamente o resultado da DVP.",
+      "cebraspeTrap": "Afirmar que pagamento equivale sempre a VPD, que arrecadação equivale sempre a VPA, ou que toda alteração do patrimônio líquido do exercício passa pelo resultado da DVP.",
+      "example": "No exercício, a prefeitura reconhece R$ 10 mil de VPA tributária e R$ 4 mil de VPD por serviços consumidos: o resultado patrimonial é R$ 6 mil, mesmo se parte do imposto ainda não foi arrecadada e dos serviços ainda não foi paga. A arrecadação posterior do crédito e o pagamento posterior do passivo não repetem VPA e VPD pelos mesmos fatos.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -417,10 +417,10 @@
       "aliases": [
         "VPD"
       ],
-      "definition": "Diminuição do patrimônio líquido causada por um fato do período, como o consumo de serviços ou o desgaste de um equipamento. Recebe a sigla VPD.",
-      "contrast": "Uma VPD reduz o patrimônio líquido. Pagar uma dívida já reconhecida pode diminuir caixa e passivo sem gerar uma nova VPD.",
-      "cebraspeTrap": "Confundir aquisição de equipamento com reconhecimento integral e imediato de VPD em todas as situações.",
-      "example": "A depreciação mensal de equipamento utilizado na prestação do serviço pode gerar VPD.",
+      "definition": "Variação Patrimonial Diminutiva (VPD) é diminuição reconhecida do patrimônio líquido decorrente de consumo de serviços, benefícios transferidos, desgaste de ativos ou outros fatos do período, ressalvados movimentos que a norma deva registrar diretamente no patrimônio líquido. Integra a Demonstração das Variações Patrimoniais (DVP) por competência, não pelo simples empenho ou pagamento.",
+      "contrast": "Despesa orçamentária pertence ao exercício do empenho (art. 35 da Lei nº 4.320/1964), mas VPD depende de fato patrimonial. Adquirir equipamento pode aumentar ativo sem VPD imediata; pagar dívida reconhecida diminui caixa e passivo, sem VPD repetida. Depreciação de equipamento é VPD sem saída de caixa no momento do registro. A classificação não se decide pela existência de dotação, empenho ou liquidação isoladamente.",
+      "cebraspeTrap": "Dizer que toda despesa empenhada ou paga vira VPD no mesmo valor, ou que VPD exige desembolso no período.",
+      "example": "Em dezembro, o órgão consome R$ 900 em serviço de energia e reconhece VPD e obrigação, mesmo pagando em janeiro. Se comprar equipamento de R$ 900 com caixa e o bem for reconhecido como ativo, troca-se caixa por equipamento e não há VPD integral de R$ 900 pela mera compra. A depreciação nos períodos de uso produz VPD posterior.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -444,10 +444,10 @@
       "aliases": [
         "DFC"
       ],
-      "definition": "Relatório que mostra o dinheiro que realmente entrou e saiu do caixa da entidade durante um período. A sigla é DFC; os movimentos são separados em atividades operacionais, de investimento e de financiamento.",
-      "contrast": "A DFC registra recebimentos e pagamentos efetivos. Depreciação e inscrição de restos a pagar, sozinhas, não são entrada nem saída de dinheiro.",
-      "cebraspeTrap": "Tratar depreciação sem desembolso ou inscrição de restos a pagar como movimento efetivo de caixa.",
-      "example": "A universidade paga R$ 5 mil por um equipamento: a DFC mostra a saída de caixa; o desgaste futuro do bem não gera outra saída.",
+      "definition": "Demonstração dos Fluxos de Caixa (DFC) evidencia entradas e saídas efetivas de caixa e equivalentes em um período, classificadas por atividades operacionais, de investimento e de financiamento, conforme o Manual de Contabilidade Aplicada ao Setor Público (MCASP). Serve para analisar geração e utilização de caixa, distinguindo fluxos efetivos de fatos reconhecidos por competência sem movimentação financeira.",
+      "contrast": "A DFC não mede, por si, VPA/VPD da Demonstração das Variações Patrimoniais (DVP), nem substitui previsão e estágios da despesa do Balanço Orçamentário (BO). Depreciação, reconhecimento de imposto a receber e inscrição de restos a pagar sem pagamento não representam, isoladamente, fluxo de caixa. O recebimento do imposto e o pagamento de fornecedor geram fluxos quando ocorrem; classificar um fluxo exige examinar sua natureza, não apenas seu valor.",
+      "cebraspeTrap": "Confundir fato patrimonial sem caixa com recebimento/pagamento efetivo, ou concluir que fluxo de investimento equivale necessariamente a despesa patrimonial diminutiva.",
+      "example": "Uma unidade recebe R$ 8 mil de imposto que já figurava como crédito patrimonial: há entrada efetiva de caixa na DFC, embora a VPA possa ser anterior. Ela compra à vista um equipamento de R$ 3 mil: há saída de caixa classificada conforme atividade aplicável, mesmo que a aquisição não gere VPD de R$ 3 mil no mesmo instante. A depreciação posterior não causa novo fluxo de caixa.",
       "subjectIds": [
         "contabilidade-publica"
       ],

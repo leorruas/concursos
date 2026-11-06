@@ -35,6 +35,19 @@ const assert = require('node:assert/strict');
       results: document.getElementById('glossario-resultados').getBoundingClientRect().right - window.innerWidth
     }));
     assert.ok(overflow.page <= 3 && overflow.results <= 3, 'Conteúdo horizontalmente cortado: ' + JSON.stringify(overflow));
+
+    if (width <= 650) {
+      const floating = await page.locator('#glossario-voltar-topo').evaluate(node => {
+        const style = getComputedStyle(node);
+        const results = document.getElementById('glossario-resultados').getBoundingClientRect();
+        const button = node.getBoundingClientRect();
+        return { position: style.position, resultsBottom: results.bottom, buttonTop: button.top };
+      });
+      assert.equal(floating.position, 'static', 'Botão móvel não deve cobrir definições');
+      assert.ok(floating.buttonTop >= floating.resultsBottom,
+        'Botão de retorno deve ficar após a lista no fluxo do documento');
+    }
+
     await page.screenshot({ path: path.join(output, 'glossario-' + width + '-detalhe.png') });
     await page.locator('#glossario-busca').fill('');
     await page.locator('#glossario-materia').selectOption('contabilidade-publica');

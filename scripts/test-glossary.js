@@ -122,7 +122,7 @@ for(const [term,id,generalId] of [
     'Fontes legais e MCASP obrigatórias para classificação financeira: '+term);
 }
 const passivoFinanceiro = published.terms.find(t=>t.id==='glo-passivo-financeiro');
-assert(/sem passivo patrimonial|sem obrigação patrimonial/.test(
+assert(/sem (?:uma )?(?:dívida|obrigação|passivo) patrimonial|ainda não representa uma dívida patrimonial/.test(
   passivoFinanceiro.contrast+' '+passivoFinanceiro.example),
   'Explicação deve cobrir passivo financeiro sem passivo patrimonial associado');
 for(const termId of ['glo-ativo','glo-passivo','glo-ativo-patrimonial','glo-passivo-patrimonial']) {
@@ -173,13 +173,13 @@ assert(match('PCASP').some(t => t.id === pcasp.id), 'Busca deve encontrar PCASP 
 const reviewPlan = fs.readFileSync(path.join(root, '1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos.md'), 'utf8');
 assert(reviewPlan.includes('Plano de revisão de linguagem de todo o glossário') &&
     reviewPlan.includes('Última etapa do roadmap: PCASP'), 'Plano de simplificação integral e PCASP devem ficar documentados');
-for (const [id, fragment] of [
-  ['glo-regime-de-competencia', 'mesmo que o dinheiro'],
-  ['glo-risco-inerente', 'antes de levar em conta os controles'],
-  ['glo-regra-de-ouro', 'governo de contratar operações de crédito']
+for (const [id, conceptPattern] of [
+  ['glo-regime-de-competencia', /dinheiro.{0,45}(?:depois|mais tarde)/],
+  ['glo-risco-inerente', /antes de considerar.{0,30}controles/],
+  ['glo-regra-de-ouro', /operações de crédito.{0,85}despesas de capital/]
 ]) {
-  assert(published.terms.find(t => t.id === id)?.definition.includes(fragment),
-     'Primeira revisão de linguagem não aplicada: ' + id);
+  assert(conceptPattern.test(published.terms.find(t => t.id === id)?.definition || ''),
+    'Definição perdeu a distinção conceitual exigida: ' + id);
 }
 
 assert(match('programacao fisica').some(t => t.id === 'glo-programacao-fisica-cumprida'));

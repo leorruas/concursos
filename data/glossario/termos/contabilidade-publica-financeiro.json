@@ -65,6 +65,70 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-ativo-permanente",
+      "term": "Ativo Permanente",
+      "aliases": [
+        "Ativo permanente da Lei 4.320",
+        "Ativo não financeiro no quadro legal do BP"
+      ],
+      "definition": "Categoria legal do 2º quadro do Balanço Patrimonial: abrange bens, créditos e valores cuja mobilização ou alienação depende de autorização legislativa, conforme o art. 105, § 2º, da Lei nº 4.320/1964. No PCASP, identifica-se pelo atributo Permanente (P).",
+      "contrast": "É diferente de ativo patrimonial, que abrange todos os recursos controlados pela entidade, e de ativo não circulante, cujo critério envolve ciclo operacional, uso e prazo. Financeiro/permanente no 2º quadro do BP é outro eixo de classificação: nem todo crédito a receber é ativo financeiro. O atributo P não significa que o bem seja necessariamente de longo prazo ou que cada operação exija uma lei individual específica.",
+      "cebraspeTrap": "Confundir ativo permanente com ativo não circulante; afirmar que qualquer crédito a receber já é ativo financeiro; ou inferir que todo bem permanente exige aprovação individual do Congresso para cada movimentação.",
+      "example": "Uma universidade registra computadores utilizados nas aulas: são ativo não circulante no Quadro Principal e, em regra, ativo permanente (P) no quadro legal. Um crédito tributário a receber reconhecido antes da arrecadação também pode ter atributo P; quando é arrecadado, o dinheiro em caixa possui atributo F.",
+      "articleIds": [
+        "art-bf384b8a28aa4753"
+      ],
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, art. 105, §§ 2º e 4º (texto atualizado da Câmara)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+        },
+        {
+          "label": "MCASP, 11ª edição, Parte IV, § 3.3.2.1, e Parte V, Quadro dos Ativos e Passivos Financeiros e Permanentes (STN)",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-passivo-permanente",
+      "term": "Passivo Permanente",
+      "aliases": [
+        "Passivo permanente da Lei 4.320",
+        "Passivo não financeiro no quadro legal do BP"
+      ],
+      "definition": "Categoria legal do 2º quadro do Balanço Patrimonial: compreende dívidas fundadas e outras obrigações cuja amortização ou resgate depende de autorização legislativa, conforme o art. 105, § 4º, da Lei nº 4.320/1964. No PCASP, as parcelas que ainda dependem de execução orçamentária costumam ter atributo Permanente (P).",
+      "contrast": "Não é sinônimo de passivo não circulante nem de todo passivo patrimonial. A classificação P/F não depende simplesmente do prazo de vencimento: após o empenho de uma parcela de dívida que exige autorização orçamentária, essa parcela passa do atributo P ao Financeiro (F), enquanto o saldo ainda não empenhado pode permanecer P. Passivos extraorçamentários, como cauções, podem ser financeiros sem empenho.",
+      "cebraspeTrap": "Concluir que toda dívida de longo prazo é integralmente passivo permanente, inclusive a parcela já empenhada; afirmar que a classificação muda somente na liquidação ou no pagamento; ou equiparar permanente a não circulante.",
+      "example": "Um ente tem R$ 100 mil de principal de empréstimo registrado com atributo P. Se empenha R$ 20 mil para amortização e ainda não paga, essa parcela passa a atributo F; os outros R$ 80 mil permanecem P no exemplo, desde que não haja outros fatos ou reclassificações. A dívida patrimonial continua existindo até seu pagamento ou outra forma de extinção.",
+      "articleIds": [
+        "art-bf384b8a28aa4753"
+      ],
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, art. 105, §§ 2º e 4º (texto atualizado da Câmara)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+        },
+        {
+          "label": "MCASP, 11ª edição, Parte IV, § 3.3.2.1, e Parte V, Quadro dos Ativos e Passivos Financeiros e Permanentes (STN)",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

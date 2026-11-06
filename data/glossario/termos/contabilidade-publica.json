@@ -125,10 +125,10 @@
         "Inscrição compensatória de restos a pagar",
         "Ingresso extraorçamentário compensatório"
       ],
-      "definition": "Registro da inscrição de restos a pagar do exercício como recebimento extraorçamentário no Balanço Financeiro, para compensar a parcela de despesa orçamentária empenhada que ainda não foi paga. É uma compensação contábil, sem entrada real de dinheiro.",
-      "contrast": "Restos a pagar podem ser processados (liquidados) ou não processados (ainda não liquidados); a compensação alcança a inscrição regular de ambos. Outros recebimentos extraorçamentários, como depósitos de terceiros, podem representar entrada efetiva de caixa.",
-      "cebraspeTrap": "Afirmar que todo recebimento extraorçamentário aumenta o caixa ou que a inscrição compensatória no BF exige que os restos a pagar já tenham sido liquidados.",
-      "example": "O órgão arrecadou R$ 100, empenhou R$ 60, pagou R$ 40 e inscreveu R$ 20 em restos a pagar. No BF, os R$ 20 aparecem como recebimento compensatório, mas a entrada real foi só R$ 100 e o caixa final é R$ 60.",
+      "definition": "É um registro usado no Balanço Financeiro (BF) para equilibrar as contas quando o governo empenhou uma despesa, mas não a pagou até o fim do ano. Essa despesa pendente é inscrita em restos a pagar. A inscrição aparece como recebimento extraorçamentário de compensação, mas nenhum dinheiro entra por causa desse registro. A regra está no art. 103, parágrafo único, da Lei nº 4.320/1964.",
+      "contrast": "Recebimento extraorçamentário pode significar dinheiro que entrou de verdade, como uma caução (garantia recebida para devolver depois), ou um lançamento apenas contábil, como a inscrição de restos a pagar. Os restos a pagar podem ser processados, quando a entrega já foi conferida, ou não processados, quando ainda não houve liquidação. O lançamento compensatório da inscrição não se limita aos processados.",
+      "cebraspeTrap": "O nome 'recebimento' pode levar à conclusão errada de que entrou dinheiro. A inscrição de restos a pagar é compensação, mesmo quando a despesa ainda não foi liquidada.",
+      "example": "A prefeitura começa sem saldo, arrecada R$ 100, empenha R$ 60 e paga R$ 40. Os R$ 20 restantes ficam inscritos em restos a pagar. No BF, aparecem R$ 60 de despesa orçamentária e R$ 20 de recebimento compensatório, além dos R$ 100 arrecadados. O dinheiro final é R$ 60 (100 − 40), porque os R$ 20 de compensação não foram depositados.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -206,10 +206,10 @@
       "id": "glo-patrimonio-publico",
       "term": "Patrimônio público",
       "aliases": [],
-      "definition": "Conjunto de recursos controlados pela entidade pública, direitos a receber e obrigações a cumprir. Ajuda a entender o que a entidade tem, o que tem a receber e o que deve.",
-      "contrast": "Patrimônio inclui bens e obrigações. Não é apenas o saldo no banco e não se confunde com a autorização para gastar no orçamento.",
-      "cebraspeTrap": "Confundir a soma das dotações disponíveis na LOA com o valor do patrimônio líquido do ente.",
-      "example": "Equipamentos, créditos a receber e obrigações com fornecedores integram a análise patrimonial.",
+      "definition": "É o conjunto de bens, direitos e obrigações relacionados a uma entidade pública. Inclui dinheiro, prédios, equipamentos, tributos que o governo tem direito de receber e contas ou dívidas que precisa pagar. É o que a contabilidade patrimonial acompanha para mostrar a situação do governo.",
+      "contrast": "Patrimônio público não é apenas o dinheiro no banco. Uma verba autorizada no orçamento, chamada dotação, permite realizar despesas, mas não é automaticamente um bem ou crédito patrimonial. Ativo é o que a entidade controla e tem valor ou capacidade de prestar serviços; passivo é o que ela deve; patrimônio líquido é a diferença entre esses dois conjuntos.",
+      "cebraspeTrap": "Somar valores autorizados no orçamento não permite descobrir o patrimônio líquido. Para isso, é necessário examinar bens, direitos e obrigações já existentes.",
+      "example": "Uma escola pública tem computadores de R$ 15 mil, saldo bancário de R$ 3 mil e R$ 4 mil a pagar a fornecedores por serviços recebidos. Os computadores e o saldo são ativos, a dívida é passivo e a diferença ajuda a calcular o patrimônio líquido. Autorizar nova compra de computadores não significa que a escola já os recebeu.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -295,10 +295,10 @@
       "aliases": [
         "PL"
       ],
-      "definition": "Diferença entre o valor dos ativos e o valor dos passivos da entidade em uma data. Em termos simples: o que ela controla, menos o que deve. Fórmula: ativo menos passivo.",
-      "contrast": "Patrimônio líquido não é dinheiro disponível para gastar. Uma troca de caixa por equipamento pode manter esse valor igual.",
-      "cebraspeTrap": "Tratar variação de caixa como alteração de igual valor no patrimônio líquido.",
-      "example": "A compra de equipamento à vista pode trocar caixa por ativo imobilizado sem mudar imediatamente o patrimônio líquido.",
+      "definition": "É a diferença entre tudo que o governo possui ou tem direito de receber (ativos) e tudo que deve (passivos), em uma data. Aparece no quadro principal do Balanço Patrimonial (BP). A conta básica é: patrimônio líquido = ativos − passivos. Mostra a posição patrimonial, não o dinheiro disponível para gastar.",
+      "contrast": "Um saldo positivo de patrimônio líquido não quer dizer que há esse valor no banco: parte dos ativos pode ser prédio, veículo ou imposto a receber. Comprar equipamento por valor equivalente pode apenas trocar dinheiro por um bem, sem alterar o patrimônio líquido. O resultado patrimonial do período, apresentado na Demonstração das Variações Patrimoniais (DVP), ajuda a explicar mudanças, mas ajustes lançados diretamente no patrimônio líquido também podem alterá-lo.",
+      "cebraspeTrap": "Não confundir patrimônio líquido com saldo de caixa, sobra do orçamento ou superávit financeiro. Um pagamento ou uma compra pode alterar o caixa sem mudar o patrimônio líquido.",
+      "example": "A prefeitura tem R$ 50 mil em dinheiro e equipamentos e deve R$ 20 mil: o patrimônio líquido é R$ 30 mil. Se usar R$ 5 mil do banco para comprar um computador de mesmo valor, o dinheiro cai, mas os equipamentos aumentam em R$ 5 mil; o patrimônio líquido continua R$ 30 mil. Se consumir R$ 2 mil de serviço sem compensação, poderá cair para R$ 28 mil.",
       "subjectIds": [
         "contabilidade-publica"
       ],

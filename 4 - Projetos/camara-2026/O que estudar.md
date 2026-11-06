@@ -56,10 +56,10 @@ Também surge um bloco amplo de **Tecnologia da Informação e Dados**, sem Raci
 
 | Objeto | Cobertura | Destino |
 | :--- | :--- | :--- |
-| Teorias da Comunicação — escolas, paradigmas, correntes, modelos, pensadores | **NOVO** | criar nota canônica própria |
-| Comunicação e opinião pública | **NOVO/EXPANDIR** | ligar Teorias da Comunicação + Comunicação Pública |
-| Midiatização e plataformização | **NOVO** | criar/expandir teoria de comunicação digital |
-| Desinformação e integridade da informação | **REVISAR/EXPANDIR** | [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|Fact-checking e desinformação]] |
+| Teorias da Comunicação: escolas, paradigmas, correntes, modelos e autores | **NOTAS REDIGIDAS / REVISÃO PENDENTE** | [[3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos|Comparação das teorias]] e [[3 - Materias/Comunicacao/comunicacao|hub de Comunicação]]: CAM-TC-001 a TC-024; estudo e retenção não comprovados |
+| Comunicação e opinião pública | **NOTAS REDIGIDAS / REVISÃO PENDENTE** | [[3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica|Opinião pública]] e [[3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao|Espiral do silêncio]] |
+| Midiatização e plataformização | **NOTAS REDIGIDAS / REVISÃO PENDENTE** | [[3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas|Midiatização]] e [[3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia|Plataformização]] |
+| Desinformação e integridade da informação | **NOTAS REDIGIDAS / REVISÃO PENDENTE** | [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|Desinformação, nota reutilizada]] e [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|Integridade da informação]] |
 | Comunicação interna, endomarketing, cultura e clima | **REVISAR** | [[3 - Materias/Comunicacao/09 - comunicacao interna|Comunicação interna]] |
 | Comunicação institucional, imagem, identidade e reputação | **REVISAR** | [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]] + [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional e branding]] |
 | Crises | **REVISAR** | [[3 - Materias/Comunicacao/07 - gestao de crises|Gestão de crises]] |

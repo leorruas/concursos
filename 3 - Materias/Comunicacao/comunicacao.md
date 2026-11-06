@@ -48,8 +48,9 @@ Os dois primeiros artigos iniciaram o **piloto da fase F1** do [[1 - Planejament
 - [[3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia|45. Plataformização: infraestruturas, governança e práticas]]: CAM-TC-021, plataformas, dados, mercados, governança, práticas e C/E.
 - [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|18. Fact-checking e desinformação]]: CAM-TC-022, **reuso e expansão** da nota existente, mantendo o conteúdo anterior e acrescentando casos e C/E.
 - [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|46. Integridade da informação: ecossistema, direitos e governança]]: CAM-TC-023, três dimensões da OCDE, cinco princípios ONU, UNESCO, aplicação institucional e C/E.
+- [[3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos|47. Comparação das teorias da comunicação]]: CAM-TC-024, matrizes de perguntas, unidades de análise, mecanismos, limites, casos e itens C/E.
 
-A trilha TC-001 a TC-023 inclui transformações dos meios e teorias do signo e da significação. Próxima unidade: comparação entre teorias da comunicação (CAM-TC-024). Conclusão editorial não significa domínio individual. A publicação editorial não comprova estudo ou retenção.
+A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluindo a comparação entre teorias. Isso não equivale a estudo, retenção nem à auditoria final de cobertura. Próxima frente editorial: comunicação interna, endomarketing, cultura e clima, com auditoria das notas existentes. Conclusão editorial não significa domínio individual. A publicação editorial não comprova estudo ou retenção.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

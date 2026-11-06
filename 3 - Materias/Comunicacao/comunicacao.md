@@ -38,7 +38,10 @@ Os dois primeiros artigos iniciaram o **piloto da fase F1** do [[1 - Planejament
 - [[3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural|38. Escola de Frankfurt, teoria crítica e indústria cultural]]: CAM-TC-014, conceitos, autores e critérios de classificação.
 - [[3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao|39. Estudos culturais e Stuart Hall: codificação, decodificação e recepção]]: CAM-TC-015, conceitos, autores e critérios de classificação.
 
-A trilha TC-001 a TC-015 inclui agora teoria crítica e estudos culturais, preservando distinções entre condições de produção e interpretação dos públicos. Próximo tema: McLuhan (TC-016). Publicação não equivale a estudo ou domínio individual. A publicação editorial não comprova estudo ou retenção.
+- [[3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios|40. Marshall McLuhan: o meio é a mensagem, extensões e ecologia dos meios]]: CAM-TC-016, autores, conceitos, fronteiras e itens C/E.
+- [[3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao|41. Semiótica: Saussure, Peirce, Barthes e produção de significação]]: CAM-TC-017, autores, conceitos, fronteiras e itens C/E.
+
+A trilha TC-001 a TC-017 inclui transformações dos meios e teorias do signo e da significação. Próxima unidade: opinião pública, espiral do silêncio, midiatização e plataformização. Conclusão editorial não significa domínio individual. A publicação editorial não comprova estudo ou retenção.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

@@ -472,6 +472,15 @@ O núcleo de teoria crítica e estudos culturais foi realizado no lote 5, manten
 
 **Conceitos de fronteira:** escola/tradição versus conceito de indústria cultural; padronização versus pseudoindividualização; Benjamin versus Adorno; codificação versus decodificação; posições dominante, negociada e oposicional; diferença textual entre versões de 1973 e 1980 de Hall. Próxima tarefa editorial: **CAM-TC-016, McLuhan**. Nenhuma publicação comprova estudo individual.
 
+## Lote 6: McLuhan e semiótica (TC-016 e TC-017)
+
+- [ ] **CAM-TC-016 · validação de publicação pendente**: [[3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios|Marshall McLuhan: o meio é a mensagem, extensões e ecologia dos meios]] (`art-0cd74f8a2be93651`). Nota criada e indexada no catálogo da Câmara, aguardando confirmação do workflow de testes e Pages.
+- [ ] **CAM-TC-017 · validação de publicação pendente**: [[3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao|Semiótica: Saussure, Peirce, Barthes e produção de significação]] (`art-5f913bd7a4c2680e`). Nota criada e indexada no catálogo da Câmara, aguardando confirmação do workflow de testes e Pages.
+
+**Distinções de prova:** em McLuhan, meio × conteúdo × efeitos; quente/frio × resolução digital contemporânea; tétrade de 1988 × formulações de 1964. Em semiótica, significante/significado × objeto/interpretante; ícone/índice/símbolo × outros eixos classificatórios de Peirce; denotação/conotação/mito em Barthes. Não misturar autores ou níveis de classificação. Nenhum artigo publicado registra estudo individual.
+
+Próximo núcleo: **CAM-TC-018, opinião pública**.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

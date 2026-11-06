@@ -473,10 +473,10 @@
       "id": "glo-notas-explicativas",
       "term": "Notas explicativas",
       "aliases": [],
-      "definition": "Textos que acompanham as demonstrações contábeis para explicar números, métodos de cálculo, escolhas contábeis e riscos importantes.",
-      "contrast": "As notas ajudam a entender os valores dos relatórios. Uma obrigação que deve constar do balanço também precisa ser registrada nele; explicá-la em nota não substitui esse registro.",
-      "cebraspeTrap": "Afirmar que divulgar passivo reconhecível somente em nota dispensa registrá-lo contabilmente.",
-      "example": "O balanço mostra uma dívida e a nota informa quando vence, como foi calculada e quais riscos a envolvem.",
+      "definition": "São textos que acompanham os relatórios contábeis para explicar o que os números significam. Mostram critérios usados nos cálculos, dívidas, riscos, incertezas e outras informações necessárias para entender o Balanço Patrimonial e as demais demonstrações.",
+      "contrast": "As notas ajudam a interpretar os relatórios, mas não substituem os registros obrigatórios. Uma provisão que atende aos critérios precisa aparecer como passivo; a nota explica sua origem e incertezas. Já uma perda judicial apenas possível pode aparecer como passivo contingente nas notas, sem valor lançado como dívida no quadro principal. Um risco remoto, em regra, não precisa de divulgação.",
+      "cebraspeTrap": "Informar uma dívida apenas no texto da nota não dispensa registrá-la no balanço quando os critérios de reconhecimento estão presentes.",
+      "example": "O balanço mostra provisão de R$ 80 mil por ação judicial: a nota explica por que o órgão acredita que terá de pagar e qual a incerteza sobre o valor. Outra ação, com perda apenas possível, pode ser explicada nas notas sem aumentar o passivo registrado.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -527,10 +527,10 @@
       "id": "glo-provisao-contabil",
       "term": "Provisão contábil",
       "aliases": [],
-      "definition": "Obrigação presente que a entidade deve registrar embora ainda não saiba exatamente quando pagará ou qual será o valor. Exige saída provável de recursos e estimativa confiável.",
-      "contrast": "Provisão é passivo reconhecido. Uma perda apenas possível em processo judicial, sem atender aos critérios, costuma ser passivo contingente.",
-      "cebraspeTrap": "Reconhecer provisão para qualquer demanda judicial independentemente da probabilidade ou da obrigação presente.",
-      "example": "Uma ação judicial com obrigação presente, perda provável e estimativa confiável pode demandar provisão.",
+      "definition": "É uma dívida ou outra obrigação que o governo já tem, mas cujo valor exato ou data de pagamento ainda são incertos. Para registrar uma provisão no Balanço Patrimonial, precisa existir obrigação atual por um fato passado, ser provável a saída de recursos e haver uma estimativa confiável do valor. As regras são tratadas na norma de provisões e contingências do setor público.",
+      "contrast": "Provisão é passivo registrado, mesmo que o pagamento ainda não tenha data certa. Passivo contingente é uma obrigação apenas possível, ou uma obrigação atual que não atende aos critérios de registro, por exemplo, porque a saída de recursos não é provável ou não há estimativa confiável. Uma dívida comum com valor e vencimento conhecidos não recebe o nome de provisão só por estar sem pagamento. Nem todo processo judicial exige uma provisão.",
+      "cebraspeTrap": "A banca pode confundir 'processo em andamento' com provisão obrigatória. O critério é a combinação entre obrigação atual, probabilidade de saída de recursos e estimativa confiável, não a simples existência da ação.",
+      "example": "Uma prefeitura é processada por acidente. Se os fatos já criaram uma obrigação, os assessores consideram provável a perda e o valor pode ser estimado em R$ 80 mil com confiança, o governo registra uma provisão. Se a perda é apenas possível, normalmente informa o risco em nota explicativa, sem registrar os R$ 80 mil como passivo. Se a chance de perda é remota, em regra nem a divulgação é exigida.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -556,10 +556,10 @@
       "id": "glo-passivo-contingente",
       "term": "Passivo contingente",
       "aliases": [],
-      "definition": "Obrigação que ainda é possível ou que não atende aos requisitos para ser registrada como passivo. Em regra, é informada em notas quando o risco não é remoto.",
-      "contrast": "Uma perda provável, com obrigação presente e valor estimável, pode exigir provisão. Uma perda apenas possível costuma ficar em divulgação, não no passivo reconhecido.",
-      "cebraspeTrap": "Registrar como provisão todo processo judicial, mesmo quando a saída é apenas possível e não provável.",
-      "example": "Uma ação com perda possível, mas não provável, pode exigir divulgação em notas sem reconhecimento do passivo.",
+      "definition": "É uma possível obrigação do governo que depende de um acontecimento futuro incerto para ser confirmada. Também pode ser uma obrigação já existente que ainda não pode entrar como dívida no Balanço Patrimonial porque não é provável que exija pagamento ou porque não é possível estimar o valor de forma confiável. Em geral, é explicada nas notas das demonstrações quando a chance de saída de recursos não é remota.",
+      "contrast": "Se já existe obrigação atual, a saída de recursos é provável e o valor pode ser calculado de modo confiável, o caso pode exigir provisão, que entra no passivo. Uma perda apenas possível costuma ser divulgada como passivo contingente, sem aumentar o passivo registrado. Quando a possibilidade de saída é remota, normalmente não se exige nem divulgação. A análise muda se surgirem novas provas ou decisões.",
+      "cebraspeTrap": "Divulgar um risco nas notas não significa que a entidade já reconheceu aquela dívida no balanço. Também é errado achar que todo caso judicial deve ser registrado pelo valor pedido.",
+      "example": "Um órgão enfrenta ação de R$ 100 mil. Seus pareceres indicam perda possível, mas ainda não provável: o caso é divulgado como passivo contingente, sem registrar uma dívida de R$ 100 mil. Se uma nova decisão torna provável a perda e permite estimar o valor, deve ser reavaliado para possível reconhecimento de provisão.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -585,10 +585,10 @@
       "id": "glo-ativo-contingente",
       "term": "Ativo contingente",
       "aliases": [],
-      "definition": "Possível direito ou benefício para a entidade que depende de acontecimento futuro incerto. Enquanto a entrada de recursos não for praticamente certa, não se reconhece um ativo correspondente.",
-      "contrast": "Uma chance provável de ganhar indenização pode ser divulgada, mas não significa que a entidade já possa registrar o valor como ativo.",
-      "cebraspeTrap": "Registrar como ativo patrimonial um crédito judicial cuja entrada de recursos é somente provável.",
-      "example": "A entidade divulga expectativa provável de receber indenização, mas evita reconhecer ativo enquanto persistir incerteza relevante.",
+      "definition": "É um possível direito de receber dinheiro ou outro benefício, ainda dependente de um acontecimento futuro incerto que o governo não controla totalmente. Por essa incerteza, não é registrado como ativo no Balanço Patrimonial enquanto o ganho não for praticamente certo. Quando a entrada de benefícios for provável, pode ser informado em notas, conforme a norma aplicável.",
+      "contrast": "Um crédito tributário já reconhecido é um direito que atende aos critérios de ativo; uma indenização judicial que o órgão apenas espera ganhar pode continuar sendo ativo contingente. Para registrar o ganho como ativo, a entrada deve se tornar praticamente certa e o direito atender aos critérios de reconhecimento. Para obrigações, o critério de provisão usa saída provável: não se deve aplicar essa mesma palavra como condição suficiente para registrar ativo contingente.",
+      "cebraspeTrap": "A palavra 'provável' muda o tratamento: uma perda provável com obrigação atual e valor estimável pode exigir provisão; um ganho apenas provável não basta para registrar ativo contingente como ativo.",
+      "example": "A prefeitura pede indenização de R$ 40 mil e seus advogados consideram provável a vitória, mas o resultado ainda é incerto: o valor pode ser divulgado, mas não entra como ativo apenas por essa expectativa. Quando o recebimento se torna praticamente certo e os demais requisitos são atendidos, deixa de ser tratado como contingente e pode ser reconhecido.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -614,10 +614,10 @@
       "id": "glo-depreciacao",
       "term": "Depreciação",
       "aliases": [],
-      "definition": "Registro do consumo gradual do valor de um equipamento ou outro bem depreciável durante o tempo em que é usado para prestar serviços.",
-      "contrast": "Depreciação reduz o valor contábil com o uso e o tempo; não representa pagamento mensal ao fornecedor nem a perda súbita por dano.",
-      "cebraspeTrap": "Afirmar que só se inicia depreciação quando o ativo começa a gerar receita monetária.",
-      "example": "Um equipamento disponível para uso tem seu valor depreciável distribuído pelos períodos de serviço estimados.",
+      "definition": "É o registro da perda gradual do valor contábil de um bem que se desgasta ou perde utilidade com o tempo, como um veículo usado pela prefeitura. Essa perda é distribuída ao longo da vida útil estimada do bem, desde que esteja disponível para uso, conforme as regras contábeis aplicáveis.",
+      "contrast": "Depreciação representa consumo de um bem ao longo do tempo, sem que o governo pague novamente por ele a cada mês. Redução ao valor recuperável é outra perda: acontece quando uma avaliação mostra que o bem perdeu valor além do esperado, por exemplo, após um dano grave. Terrenos, em regra, não são depreciados. A depreciação pode gerar variação patrimonial diminutiva (VPD) na Demonstração das Variações Patrimoniais, sem saída de dinheiro.",
+      "cebraspeTrap": "Nem todo bem é depreciável e a depreciação não exige recebimento de receita ou novo pagamento. Dano inesperado não deve ser automaticamente tratado como desgaste normal.",
+      "example": "Um veículo de R$ 60 mil, sem valor residual e com vida útil estimada de cinco anos, pode ter depreciação de R$ 12 mil por ano pelo método linear, se estiver disponível para uso e esse método for adequado. A prefeitura não paga R$ 12 mil por ano ao vendedor; registra o desgaste. Se o veículo sofrer acidente grave, pode ser necessária avaliação adicional de perda.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -643,10 +643,10 @@
       "id": "glo-reducao-ao-valor-recuperavel",
       "term": "Redução ao valor recuperável",
       "aliases": [],
-      "definition": "Perda registrada quando um bem passa a valer, para os critérios contábeis aplicáveis, menos do que o valor pelo qual está registrado. Também é chamada de impairment.",
-      "contrast": "Depreciação distribui o consumo normal de um bem ao longo do tempo. Redução ao valor recuperável trata de perda identificada por avaliação específica.",
-      "cebraspeTrap": "Tratar toda perda de valor como depreciação ou usar apenas preço de venda de ativo que não gera caixa.",
-      "example": "Após dano severo a um prédio público, estima-se o potencial de serviço recuperável e a eventual perda contábil.",
+      "definition": "É a perda que o governo registra quando o valor de um bem nos livros contábeis fica maior do que o valor que ele ainda consegue oferecer, segundo a forma de avaliação exigida para aquele tipo de ativo. Também se chama perda por redução ao valor recuperável, ou impairment.",
+      "contrast": "Depreciação distribui o desgaste esperado ao longo dos anos. A redução ao valor recuperável trata uma perda constatada por avaliação, como um dano ou queda relevante na capacidade de prestar serviços. Para uma escola, não basta perguntar por quanto o prédio seria vendido: seu potencial de oferecer aulas também importa. O cálculo segue regras diferentes conforme o ativo gera ou não gera caixa.",
+      "cebraspeTrap": "A banca pode apresentar perda súbita como se fosse apenas depreciação ou usar o preço de venda como único critério para um bem que presta serviço sem gerar dinheiro.",
+      "example": "Um prédio público está registrado por R$ 500 mil e sofre um dano que reduz sua capacidade de uso. A avaliação adequada conclui que seu valor recuperável é R$ 380 mil: pode ser necessário reconhecer perda de R$ 120 mil. Isso é diferente da depreciação normal pelo tempo de uso, e não exige que o prédio seja vendido.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -672,10 +672,10 @@
       "id": "glo-custo-direto",
       "term": "Custo direto",
       "aliases": [],
-      "definition": "Gasto que pode ser relacionado diretamente a um serviço, produto ou atividade cujo custo se deseja calcular, sem precisar repartir o valor com outros objetos de custo.",
-      "contrast": "Um custo é direto em relação ao objeto analisado. Isso não diz, por si só, se ele é fixo ou variável.",
-      "cebraspeTrap": "Afirmar que todo custo de pessoal é direto ou que custo direto necessariamente varia com o volume produzido.",
-      "example": "Material consumido exclusivamente em um programa pode ser atribuído diretamente ao seu custo.",
+      "definition": "É um custo que pode ser ligado a um serviço, produto ou atividade específica sem precisar dividir o valor por estimativas. Para decidir se ele é direto, primeiro é preciso dizer de qual serviço ou atividade se quer calcular o custo: esse é o objeto de custo.",
+      "contrast": "Custo direto e indireto dependem do que está sendo medido. O salário de uma pessoa que trabalha apenas em um programa pode ser atribuído diretamente àquele programa; o salário de quem atende vários programas pode exigir divisão. Direto não significa custo variável: um gasto pode ser fixo e, ainda assim, direto para o objeto escolhido. Valor conhecido na nota fiscal não basta para torná-lo direto.",
+      "cebraspeTrap": "Uma conta com valor exato pode ser custo indireto se atender vários serviços. A classificação depende da ligação com o objeto de custo, não de o gasto ser fixo, variável, alto ou baixo.",
+      "example": "Uma escola oferece curso A e curso B. O material de R$ 500 comprado e usado apenas no curso A é custo direto desse curso. Se a escola mede o custo da instituição inteira, outros gastos podem ser diretos para a escola, mas indiretos quando o objeto é cada curso.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -701,10 +701,10 @@
       "id": "glo-custo-indireto",
       "term": "Custo indireto",
       "aliases": [],
-      "definition": "Gasto compartilhado entre serviços, produtos ou atividades, que precisa ser distribuído por um critério de rateio ou outro método adequado.",
-      "contrast": "O mesmo gasto pode ser direto para um setor inteiro e indireto para cada atendimento daquele setor. Depende do que se quer medir.",
-      "cebraspeTrap": "Chamar de direto todo gasto que beneficia vários serviços porque há valor conhecido na nota fiscal.",
-      "example": "Energia compartilhada entre setores exige critério de atribuição aos serviços avaliados.",
+      "definition": "É um custo que ajuda a realizar mais de um serviço, produto ou atividade e que precisa ser distribuído entre eles por uma regra de cálculo. Essa divisão é chamada de rateio. O critério deve ter relação com o uso do recurso, como área ocupada ou tempo de atendimento, quando isso fizer sentido.",
+      "contrast": "O mesmo gasto pode ser direto para um prédio inteiro e indireto para cada atividade dentro dele. Custo indireto não é custo desconhecido: a conta de energia pode ter valor certo, mas não dizer quanto pertence a cada serviço. Também não significa necessariamente custo fixo; direto/indireto e fixo/variável respondem a perguntas diferentes.",
+      "cebraspeTrap": "Saber o valor total de uma despesa não prova que ele pertence diretamente a cada serviço. O custo pode ser indireto quando o objeto de análise muda.",
+      "example": "Uma unidade de saúde paga R$ 3 mil de energia e atende vacinação e consultas no mesmo prédio. Para medir o custo total da unidade, a energia pode ser identificada diretamente. Para calcular o custo de cada serviço, será preciso repartir os R$ 3 mil por um critério justificado, se não houver medição individual.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -730,10 +730,10 @@
       "id": "glo-objeto-de-custo",
       "term": "Objeto de custo",
       "aliases": [],
-      "definition": "Aquilo cujo custo a gestão quer conhecer, como um atendimento, curso, serviço, programa ou unidade pública.",
-      "contrast": "Objeto de custo é o que será medido. Centro de responsabilidade indica quem administra recursos ou atividades, que é outra pergunta.",
-      "cebraspeTrap": "Considerar que todo órgão é o único objeto possível ou que empenho é necessariamente custo da entrega.",
-      "example": "Uma instituição calcula o custo por atendimento, por curso ofertado ou por unidade de serviço.",
+      "definition": "É aquilo cujo custo o governo quer descobrir. Pode ser uma consulta médica, um aluno atendido, um curso, um programa, uma escola ou toda uma unidade. A escolha do objeto define quais gastos devem entrar na conta e quais precisarão ser divididos.",
+      "contrast": "Objeto de custo responde 'quanto custa isto?'. Centro de responsabilidade é a unidade ou equipe que administra recursos e responde por decisões; nem sempre é o mesmo objeto. O mesmo gasto pode ser direto ao medir a unidade inteira e indireto ao medir cada serviço. Valor empenhado no orçamento não representa automaticamente recurso consumido pelo objeto.",
+      "cebraspeTrap": "Não existe um único objeto obrigatório: a escolha depende da pergunta de gestão. Também é erro usar somente despesas empenhadas como custo final de um atendimento.",
+      "example": "Uma prefeitura quer saber quanto custa vacinar uma pessoa. O objeto é cada vacinação; entram materiais usados e outros recursos relacionados ao serviço. Se a pergunta mudar para 'quanto custa manter o posto de saúde?', o objeto passa a ser o posto e a forma de distribuir os gastos pode mudar.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -761,10 +761,10 @@
       "aliases": [
         "SIC"
       ],
-      "definition": "Sistema que reúne dados de gastos e de serviços prestados para ajudar a calcular quanto custam as atividades de um órgão público. A sigla é SIC.",
-      "contrast": "O SIC fornece informações para calcular e analisar custos. Um painel só de despesas empenhadas não mostra, necessariamente, quanto recurso foi consumido para cada serviço.",
-      "cebraspeTrap": "Afirmar que disponibilizar painel com gastos empenhados, sem dados sobre recursos consumidos, basta para medir custos.",
-      "example": "O sistema cruza salários, materiais consumidos e número de atendimentos para estimar quanto custa cada atendimento.",
+      "definition": "É um sistema que reúne informações sobre recursos usados e serviços prestados pelo governo para ajudar a calcular quanto cada atividade custa. O Sistema de Informação de Custos (SIC) apoia decisões como comparar o custo de atendimentos, cursos ou unidades públicas.",
+      "contrast": "O sistema de custos não se limita à lista de despesas empenhadas no orçamento. Uma compra empenhada pode ficar em estoque e só virar custo quando o material for usado, conforme a regra aplicável. O SIC precisa relacionar recursos consumidos aos objetos de custo, isto é, aos serviços ou atividades que se deseja medir. Comparar unidades exige considerar diferenças de volume e tipo de atendimento.",
+      "cebraspeTrap": "O valor pago por materiais não é automaticamente igual ao custo dos serviços realizados naquele mês. Medir custo exige relacionar consumo e atividade, não apenas somar notas e empenhos.",
+      "example": "Uma unidade compra 1.000 doses de material, mas usa 600 no mês. Um painel de empenhos pode mostrar a compra inteira; para analisar o custo das vacinações do mês, o SIC precisa considerar o que foi efetivamente consumido e os demais recursos empregados, conforme os critérios do sistema.",
       "subjectIds": [
         "contabilidade-publica"
       ],

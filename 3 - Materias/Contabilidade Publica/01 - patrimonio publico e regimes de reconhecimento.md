@@ -45,7 +45,7 @@ Uma mesma compra pode envolver **empenho** (compromisso na execução do orçame
 
 **Passivo:** obrigação presente, decorrente de evento passado, que implica transferência de recursos da entidade; é necessário avaliar os critérios de reconhecimento da obrigação. **Patrimônio líquido (PL)** representa a participação residual nos ativos depois da dedução dos passivos. Na igualdade contábil: **ativo = passivo + patrimônio líquido**. A igualdade é estrutural e não diz, por si, se houve superávit financeiro ou orçamentário.
 
-**Distinção para a prova: ativo e passivo patrimoniais descrevem recursos controlados e obrigações presentes. Já ativo financeiro e passivo financeiro, na Lei nº 4.320/1964 (art. 105), são categorias usadas para verificar quais valores podem ser realizados e quais compromissos podem ser pagos sem nova autorização orçamentária.** Um computador usado na escola é ativo patrimonial, mas não é ativo financeiro. Um empenho a liquidar, por sua vez, pode integrar o passivo financeiro sem constituir passivo patrimonial. O [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|artigo de Balanço Patrimonial]] traz o quadro comparativo.
+**Distinção para a prova: ativo e passivo patrimoniais descrevem recursos controlados e obrigações presentes. Já ativo financeiro e passivo financeiro, na Lei nº 4.320/1964 (art. 105), são categorias usadas para verificar quais valores podem ser realizados e quais compromissos podem ser pagos sem nova autorização orçamentária.** Um computador usado na escola é ativo patrimonial, mas não é ativo financeiro. As categorias **ativo patrimonial** e **ativo financeiro** não são sempre excludentes: dinheiro em caixa é um exemplo de recurso que pode integrar ambos. Comprar e pagar um computador não o transforma, por isso, em ativo financeiro. Um empenho a liquidar, por sua vez, pode integrar o passivo financeiro sem constituir passivo patrimonial. O [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais|artigo de Balanço Patrimonial]] traz o quadro comparativo.
 
 **Variação Patrimonial Aumentativa (VPA)** e **Variação Patrimonial Diminutiva (VPD)** exprimem, em linhas gerais, aumentos e reduções do patrimônio líquido decorrentes de eventos do período, ressalvadas transações específicas registradas diretamente no PL conforme norma aplicável. O **resultado patrimonial** decorre do confronto entre VPA e VPD e é evidenciado na Demonstração das Variações Patrimoniais (DVP).
 
@@ -53,11 +53,37 @@ Uma mesma compra pode envolver **empenho** (compromisso na execução do orçame
 
 **O que é um ajuste direto no patrimônio líquido?** É um registro que altera diretamente o saldo do PL quando as normas contábeis assim determinam, sem integrar a VPA ou VPD do exercício atual. A expressão informal **“ajuste patrimonial”** é ampla: para julgar a questão, identifique **onde o valor foi registrado**. Por exemplo, com PL inicial de **R$ 40 mil**, VPA de **R$ 12 mil**, VPD de **R$ 5 mil** e um ajuste positivo de **R$ 8 mil lançado diretamente no PL**, temos **resultado patrimonial de R$ 7 mil (12 − 5)** e **PL final de R$ 55 mil (40 + 7 + 8)**. Certas correções de erros de exercícios anteriores, conforme a norma aplicável, podem exigir ajuste direto. Não transformar automaticamente todo ajuste do PL em VPA ou VPD.
 
+**Se o ajuste for negativo, a lógica é a mesma:** suponha PL inicial de R$ 50 mil, VPA de R$ 18 mil, VPD de R$ 7 mil e ajuste negativo de R$ 6 mil lançado diretamente no PL. O **resultado patrimonial é +R$ 11 mil** (18 − 7), enquanto a **variação total do PL é +R$ 5 mil** (11 − 6) e o **PL final é R$ 55 mil**. Para resolver, faça duas contas separadas: **resultado do período = VPA − VPD**; **PL final = PL inicial + resultado do período + ajustes diretamente no PL e outros movimentos aplicáveis**. O fato de o PL ter aumentado R$ 5 mil não transforma esse valor no resultado patrimonial.
+
 Uma operação **permutativa** altera a composição do patrimônio sem, em regra, modificar imediatamente o PL. Na compra de um equipamento recebido e reconhecido como ativo: há entrada do imobilizado e saída de caixa ou constituição de obrigação. A compra não equivale automaticamente a VPD. Uma operação **modificativa** aumenta ou diminui o PL, como o consumo de serviços reconhecido como VPD. A classificação depende do fato efetivo, dos critérios de reconhecimento e de eventuais componentes mistos.
 
 **Contraste para a equação patrimonial:** um empréstimo de R$ 100 mil recebido por uma entidade aumenta simultaneamente o caixa (ativo) e a dívida (passivo), mantendo o patrimônio líquido: é fato permutativo e não gera VPA pelo principal recebido. Uma doação incondicional de equipamentos de R$ 30 mil, devidamente reconhecida sem obrigação correspondente, aumenta o ativo e o patrimônio líquido: fato modificativo aumentativo e VPA, mesmo sem entrada de caixa. Para classificar, procure sempre a contrapartida patrimonial.
 
 A **depreciação** do equipamento poderá provocar VPD em períodos posteriores, pelo consumo de seu potencial de serviços. Portanto, é perigoso inferir que todo valor empenhado em despesa de capital representa redução patrimonial do mesmo valor no ato da compra.
+
+**Compra, pagamento e depreciação são fatos diferentes:** um equipamento de R$ 40 mil é recebido e reconhecido como ativo. Se o fornecedor receber R$ 30 mil, permanecem R$ 10 mil de obrigação. Se houver R$ 4 mil de depreciação reconhecida como VPD no período, o valor contábil líquido do equipamento será R$ 36 mil, considerada somente essa depreciação. A **VPD desse exemplo é R$ 4 mil**, e não R$ 40 mil ou R$ 44 mil: a incorporação cria um ativo; o pagamento reduz caixa e passivo; a depreciação reconhece consumo do potencial de serviços. Os três valores não são parcelas de uma mesma VPD.
+
+### Refinamento: operações sucessivas e contrapartidas diferentes
+
+Para resolver uma questão com dois ou três acontecimentos, **não calcule o patrimônio líquido a partir da dívida**. Primeiro mantenha três colunas separadas, com **ativo, passivo e patrimônio líquido (PL)**; depois atualize **um fato por vez**.
+
+| Etapa hipotética | Ativo (R$ mil) | Passivo (R$ mil) | PL = Ativo − Passivo (R$ mil) |
+| :--- | ---: | ---: | ---: |
+| Situação inicial | 200 | 75 | 125 |
+| Empréstimo recebido de 30, com dívida reconhecida | 230 | 105 | 125 |
+| Serviço de 12 efetivamente consumido, a pagar | 230 | 117 | 113 |
+
+O **empréstimo** aumenta simultaneamente caixa e dívida: não cria VPA pelo principal. O **serviço já consumido e não pago** cria obrigação e VPD: não movimenta caixa naquele momento, mas diminui o PL. Para evitar erros, confira sempre que **ativo = passivo + PL** após cada linha.
+
+Agora compare com dois fatos que **aumentam o ativo**, mas têm contrapartidas diferentes:
+
+| Evento hipotético | Efeito no ativo | Efeito no passivo | Efeito no PL e no resultado |
+| :--- | ---: | ---: | --- |
+| Doação incondicional de equipamentos de R$ 40 mil, reconhecida sem obrigação | +40 mil | 0 | +40 mil de PL e VPA |
+| Empréstimo recebido de R$ 20 mil, com dívida reconhecida | +20 mil | +20 mil | 0 |
+| **Efeito conjunto** | **+60 mil** | **+20 mil** | **+40 mil** |
+
+A verdade parcial que costuma confundir: **“o ativo aumentou R$ 60 mil” está certo**, mas não permite concluir que a **VPA ou o PL aumentaram R$ 60 mil**. Procure a contrapartida: **uma obrigação correspondente neutraliza o aumento do PL**; um bem recebido sem obrigação pode gerar VPA, quando os critérios aplicáveis forem atendidos.
 
 ## Regime orçamentário e regime patrimonial
 
@@ -69,7 +95,11 @@ A **depreciação** do equipamento poderá provocar VPD em períodos posteriores
 
 **Um mesmo serviço em três momentos:** suponha um serviço prestado e consumido em **dezembro de 2026**, legalmente **empenhado em dezembro** e **pago em janeiro de 2027**. Na **competência patrimonial**, VPD e obrigação podem surgir em dezembro de 2026; na **execução orçamentária**, a despesa pertence a 2026 pelo empenho; no **caixa**, o dinheiro só sai em janeiro de 2027, quando ocorre o pagamento de restos a pagar. O registro patrimonial pressupõe que os critérios de reconhecimento da obrigação foram atendidos.
 
+**Quando só parte do serviço foi prestada:** considere um contrato de manutenção empenhado por R$ 80 mil, mas com apenas **25% efetivamente prestado e consumido** no exercício, com remuneração proporcional e sem outro fato gerador. O **empenho é R$ 80 mil**, enquanto a **VPD pelos serviços consumidos é R$ 20 mil** (80 mil × 25%). Os R$ 60 mil restantes não se transformam em VPD apenas por estarem empenhados. Se a liquidação administrativa estiver pendente, isso **não impede por si só** a VPD da parte já consumida; se o serviço ainda não ocorreu, o empenho isolado não constitui VPD. A questão deve fornecer os fatos geradores e as condições necessárias, pois nem toda ausência de liquidação permite a mesma conclusão.
+
 **Contraste pela receita:** se o fato gerador de uma receita tributária reconhecível ocorre em dezembro de 2026, mas a **arrecadação** só acontece em janeiro de 2027, o direito e a VPA podem pertencer patrimonialmente a **2026**, enquanto a **receita orçamentária realizada** e a entrada de caixa pertencem a **2027**. Os períodos podem ser diferentes porque cada perspectiva responde a uma pergunta distinta.
+
+**Recebimento parcial de tributo:** suponha que, atendidos os critérios contábeis, a entidade **já reconheceu** um direito tributário de R$ 120 mil e a correspondente VPA em 2026. Se arrecadou R$ 45 mil desse crédito até dezembro, haverá **VPA de R$ 120 mil**, **receita orçamentária arrecadada de R$ 45 mil**, **entrada de caixa de R$ 45 mil** e **R$ 75 mil ainda a receber**. A frase “reconheceu o direito e a VPA” é decisiva: um direito apenas alegado ou ainda sem critérios de reconhecimento satisfeitos não autoriza concluir automaticamente que surgiu VPA. Não reduzir uma VPA já reconhecida ao montante efetivamente arrecadado.
 
 **Fronteira para a prova:** *caixa* pergunta **quando o dinheiro se moveu**; *competência patrimonial* pergunta **quando o fato econômico gerou efeito sobre ativos, passivos ou resultado**; *regime orçamentário* pergunta **a qual exercício pertencem a receita arrecadada e a despesa empenhada**. O **MCASP, Parte I, seção 3.4**, reforça que o reconhecimento dos fatos patrimoniais não depende de a receita ter sido arrecadada ou a despesa ter sido empenhada.
 

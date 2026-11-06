@@ -176,7 +176,7 @@ assert(reviewPlan.includes('Plano de revisão de linguagem de todo o glossário'
 for (const [id, conceptPattern] of [
   ['glo-regime-de-competencia', /dinheiro.{0,45}(?:depois|mais tarde)/],
   ['glo-risco-inerente', /antes de considerar.{0,30}controles/],
-  ['glo-regra-de-ouro', /operações de crédito.{0,85}despesas de capital/]
+  ['glo-regra-de-ouro', /despesas de capital[\s\S]*operações de crédito/]
 ]) {
   assert(conceptPattern.test(published.terms.find(t => t.id === id)?.definition || ''),
     'Definição perdeu a distinção conceitual exigida: ' + id);

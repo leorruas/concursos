@@ -292,7 +292,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-015 · F2**: Planejamento estratégico de comunicação e diagnóstico.
 - [x] **CAM-CO-016 · F3**: Objetivos, indicadores e avaliação de comunicação.
 - [x] **CAM-CO-017 · F3**: Plano de comunicação: estrutura, ações, orçamento e execução.
-- [ ] **CAM-CO-018 · F3**: Gestão de projetos de comunicação: papéis e controle.
+- [x] **CAM-CO-018 · F3**: Gestão de projetos de comunicação: papéis e controle.
 - [ ] **CAM-CO-019 · F3**: Planejamento editorial para redes oficiais.
 - [ ] **CAM-CO-020 · F3**: Produção colaborativa e governança de postagens.
 - [ ] **CAM-CO-021 · F3**: Plataformas digitais: públicos, linguagens e formatos 4:5, 3:4, 9:16.
@@ -641,13 +641,13 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 ## Lote 23: governança e controle de projetos (CO-018)
 
-- [ ] **CAM-CO-018 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle|Gestão de projetos de comunicação: papéis, riscos, mudanças e controle]] (`art-6c72b9e450a813df`). **Decisão: artigo autônomo de governança**, que complementa [[3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao|63. Plano operacional]], [[3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec|62. Indicadores e AMEC]] e [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|61. Diagnóstico]]. Trata **RACI: execução versus accountable/aprovação, consulta versus informação**; patrocinador, gerente e competência institucional; risco versus issue; probabilidade × impacto; respostas às ameaças e oportunidades; controle de linhas de base; solicitação versus aprovação de mudança; QA/QC, verificação, validação e aceite; escalonamento e comunicação de projeto; abordagens preditivas/adaptativas; transição e encerramento. Inclui caso progressivo e três C/E inéditos.
+- [x] **CAM-CO-018 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle|Gestão de projetos de comunicação: papéis, riscos, mudanças e controle]] (`art-6c72b9e450a813df`). **Decisão: artigo autônomo de governança**, que complementa [[3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao|63. Plano operacional]], [[3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec|62. Indicadores e AMEC]] e [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|61. Diagnóstico]]. Trata **RACI: execução versus accountable/aprovação, consulta versus informação**; patrocinador, gerente e competência institucional; risco versus issue; probabilidade × impacto; respostas às ameaças e oportunidades; controle de linhas de base; solicitação versus aprovação de mudança; QA/QC, verificação, validação e aceite; escalonamento e comunicação de projeto; abordagens preditivas/adaptativas; transição e encerramento. Inclui caso progressivo e três C/E inéditos.
 
 **Fontes e limites:** Ministério dos Transportes e IPHAN (RACI no governo), PMI (RACI, riscos, issues, mudanças, QA/QC, encerramento), ANAC e metodologia de gestão de projetos da CGU (exemplos institucionais). O artigo ressalva que **procedimentos e autoridades de outros órgãos não se aplicam automaticamente à Câmara**. Matrizes e quadros são didáticos, não regimentos da Câmara.
 
 **Proteção multi-edital:** os artigos 16, 61, 62 e 63 foram auditados e não alterados; seus IDs, conteúdo FGV e vínculos CGU e Dataprev permanecem preservados. Apenas `camara-2026/comunicacao` recebe o novo `articleId`. Não registrar aprendizagem ou retenção por publicação.
 
-**Validação pendente:** testes de identidade, catálogo v2, navegação, busca, privacidade, build e confirmação do Pages ao vivo. Marcar CO-018 somente depois. Próxima unidade: **CAM-CO-019**, planejamento editorial para redes oficiais, após auditar comunicação digital e calendários.
+**Publicação confirmada:** o [workflow 42220629827](https://github.com/leorruas/concursos/actions/runs/42220629827) terminou com **success**, incluindo identidade, catálogo v2, navegação, busca, privacidade, build e confirmação do catálogo publicado no Pages ao vivo. Conclusão editorial, sem inferir estudo nem retenção pessoal. Próxima unidade: **CAM-CO-019**, planejamento editorial para redes oficiais.
 
 ## Critérios de publicação e evidência
 

@@ -343,6 +343,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna|Endomarketing, marketing interno e comunicação interna]]
   - [[3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao|Segmentação de mercado: B2B, atratividade e decisões]]
   - [[3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao|Marketing digital: canais, jornadas e integração]]
+  - [[3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias|Comportamento do consumidor: decisão e influências]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

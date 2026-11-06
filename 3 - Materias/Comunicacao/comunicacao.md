@@ -88,6 +88,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|78. Publicidade institucional e promoção pessoal]]: CAM-CO-032, art. 37, § 1º, impessoalidade, finalidade, pluralismo e questões C/E.
 - [[3 - Materias/Comunicacao/79 - publicidade e propaganda conceitos funcoes e limites|79. Publicidade e propaganda: conceitos, funções e limites]]: CAM-DI-001, modalidades, persuasão, publicidade institucional, ética, normas e C/E.
 - [[3 - Materias/Comunicacao/80 - teorias da publicidade e persuasao|80. Teorias da publicidade e persuasão]]: CAM-DI-002, AIDA, Lavidge/Steiner, McGuire, Petty/Cacioppo, Ajzen e C/E.
+- [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|81. Modalidades de publicidade: institucional, mercadológica, utilidade pública e legal]]: CAM-DI-003, definição, finalidade, regime do Executivo e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

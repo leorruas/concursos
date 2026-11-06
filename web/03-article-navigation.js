@@ -139,30 +139,15 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
     markdownLimpo = markdownLimpo.replace(/%%[\s\S]*?%%/g, '');
 
     markdownLimpo = restaurarBlocosCodigoMarkdown(markdownLimpo, codigoProtegido.blocos);
-    const matematicaProtegida = protegerBlocosMatematicosMarkdown(escaparSeparadoresWikilinksEmTabelas(markdownLimpo));
+    // Valores monetários e expressões são tratados como texto Markdown comum.
+    // O renderizador matemático confundia cifras em reais com delimitadores de fórmulas.
     marked.setOptions({ gfm: true, breaks: true });
-    const htmlRenderizado = marked.parse(matematicaProtegida.markdown);
-    artigoCorpo.innerHTML = restaurarBlocosMatematicosHtml(
-        htmlRenderizado,
-        matematicaProtegida.blocos
-    );
+    artigoCorpo.innerHTML = marked.parse(escaparSeparadoresWikilinksEmTabelas(markdownLimpo));
 
     processarCalloutsObsidian();
     processarComentariosObsidian();
     processarWikilinks(artigoCorpo);
     processarBlocosCopiaveis(artigoCorpo);
-
-    if (typeof renderMathInElement !== "undefined") {
-        renderMathInElement(artigoCorpo, {
-            delimiters: [
-                { left: "$$", right: "$$", display: true },
-                { left: "$", right: "$", display: false },
-                { left: "\\(", right: "\\)", display: false },
-                { left: "\\[", right: "\\]", display: true }
-            ],
-            throwOnError: false
-        });
-    }
 
     renderizarContextoConcursoArtigo(artigo);
 

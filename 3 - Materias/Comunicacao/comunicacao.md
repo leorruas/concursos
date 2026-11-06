@@ -69,6 +69,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao|59. Redes formais, informais e grapevine]]: CAM-CO-013, vínculos organizacionais e padrões de difusão de Keith Davis.
 - [[3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais|60. Mapeamento, segmentação e priorização de públicos]]: CAM-CO-014, Freeman, Grunig, Mitchell, Fábio França, Mendelow e inclusão.
 - [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|61. Planejamento estratégico e diagnóstico]]: CAM-CO-015, Kunsch, RACE de Marston, Gregory, auditoria, PESTEL, SWOT e itens C/E.
+- [[3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec|62. Objetivos, indicadores e avaliação: AMEC]]: CAM-CO-016, seis níveis da AMEC, Barcelona 4.0, linha de base, metas, causalidade e itens C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

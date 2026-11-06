@@ -308,6 +308,21 @@ assert(fs.existsSync(path.join(root,'data/glossario/termos/orcamento-publico-emp
 const empenho = published.terms.find(t => t.id === 'glo-empenho');
 assert(empenho && empenho.definition.includes('pendente ou não de implemento de condição'),'Empenho: redação legal do art. 58 foi alterada');
 assert(empenho.articleLinks.some(a => a.articleId === 'art-67167e9c18284c4c'));
+
+const exigirTrecho = (id, regex, descricao) => {
+  const termo = published.terms.find(t => t.id === id);
+  assert(termo && regex.test([termo.definition, termo.contrast, termo.example, termo.cebraspeTrap].join(' ')),
+    'Verificação normativa de '+id+': '+descricao);
+};
+// Alterações de 2026: evitar retornar à redação antiga da LRF.
+exigirTrecho('glo-renuncia-de-receita', /prorroga|prorrogação/i, 'prorrogação abrangida');
+exigirTrecho('glo-renuncia-de-receita', /art\. 14-A/, 'requisitos para pessoa jurídica');
+exigirTrecho('glo-renuncia-de-receita', /dois seguintes|2 \(dois\) exercícios/i, 'impacto em três exercícios');
+exigirTrecho('glo-despesa-obrigatoria-de-carater-continuado', /prorrogação/, 'prorrogação de despesa com prazo determinado');
+exigirTrecho('glo-despesa-obrigatoria-de-carater-continuado', /§ 6º/, 'exceção específica do art. 17');
+exigirTrecho('glo-transferencia-especial-emenda-parlamentar', /70%/, 'mínimo de despesas de capital');
+exigirTrecho('glo-transferencia-especial-emenda-parlamentar', /categoria da despesa/, 'categoria definida na indicação');
+
 for (const [query, id] of [
  ['empenho prévio','glo-empenho-previo'],
  ['reforço de empenho','glo-reforco-de-empenho'],

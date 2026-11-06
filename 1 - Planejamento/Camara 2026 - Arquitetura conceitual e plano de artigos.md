@@ -611,6 +611,14 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 **Publicação confirmada:** o [workflow 42209904533](https://github.com/leorruas/concursos/actions/runs/42209904533) terminou com **success**, incluindo testes e verificação do manifesto e catálogo no Pages ao vivo. CAM-CO-014 está concluído editorialmente, sem estudo individual presumido. Próxima unidade: **CAM-CO-015**, planejamento estratégico e diagnóstico, com auditoria das notas existentes de planejamento e pesquisa.
 
+## Lote 20: planejamento estratégico e diagnóstico (CO-015)
+
+- [ ] **CAM-CO-015 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|Planejamento estratégico de comunicação e diagnóstico organizacional]] (`art-80ac39e176d5b24f`). **Decisão: nova nota de desenvolvimento autônomo**. A nota canônica [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16. Planejamento de comunicação]] apresenta o ciclo geral de diagnóstico, objetivos, estratégia, táticas, indicadores e avaliação; [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|17. Pesquisa em comunicação]] aprofunda métodos, amostragem e Mattar. O artigo 61 desenvolve **diagnóstico estratégico e formulação de estratégia**: três macroetapas de Kunsch (2003), RACE de Marston (1963), Gregory e pesquisa formativa, auditoria de comunicação, PESTEL, SWOT/FOFA, causas e sintomas, casos progressivos e três itens C/E. OASIS britânico é comparação profissional, não norma brasileira.
+
+**Proteção multi-edital:** arquivos 16 e 17, IDs, aliases, questões FGV, fontes e vínculos CGU/Dataprev foram **mantidos integralmente sem edição**. Só o catálogo Câmara recebe o novo ID. CAM-CO-016 segue pendente para indicadores e avaliação; CAM-CO-017 para plano, orçamento e execução. Publicação editorial não comprova aprendizagem ou retenção.
+
+**Validação pendente:** confirmar testes, build, identidade, catálogo v2, privacidade, busca e manifesto no Pages ao vivo antes de marcar CO-015. Próxima unidade: **CAM-CO-016**, após auditoria das categorias e indicadores já tratados na nota-base.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

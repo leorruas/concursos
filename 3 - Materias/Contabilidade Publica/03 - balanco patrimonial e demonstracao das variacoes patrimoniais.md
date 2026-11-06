@@ -20,9 +20,9 @@ A Lei nº 4.320/1964 (arts. 104 e 105) e o **Manual de Contabilidade Aplicada ao
 | :--- | :--- | :--- |
 | BP | Qual a situação patrimonial na data? | saldo de ativos não é dinheiro de livre utilização |
 | DVP | Quais fatos modificaram quantitativamente o PL? | VPA/VPD não equivalem a arrecadação/empenho |
-| BO | Qual receita arrecadada e qual despesa empenhada? | resultado orçamentário não é resultado patrimonial |
-| BF | Quais ingressos/dispêndios e saldos financeiros? | ingresso compensatório de RP não é caixa recebido |
-| DFC | Quais fluxos efetivos de caixa ocorreram? | depreciação não é saída atual de caixa |
+| Balanço Orçamentário (BO) | Qual receita arrecadada e qual despesa empenhada? | resultado orçamentário não é resultado patrimonial |
+| Balanço Financeiro (BF) | Quais ingressos/dispêndios e saldos financeiros? | ingresso compensatório de RP não é caixa recebido |
+| Demonstração dos Fluxos de Caixa (DFC) | Quais fluxos efetivos de caixa ocorreram? | depreciação não é saída atual de caixa |
 
 ## Como começar: balanço, demonstração e quadro
 
@@ -93,7 +93,7 @@ Exemplo: ativo financeiro de R$ 200 e passivo financeiro de R$ 160 indicam difer
 
 ### Refinamento: passivo financeiro e classe 6
 
-O [MCASP 11, Parte V, § 4.2.2, e Parte IV, § 3.5.3.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), inclui contas orçamentárias da **classe 6**, como **crédito empenhado a liquidar** e **RPNP a liquidar**, na apuração do quadro de **Ativos e Passivos Financeiros e Permanentes**, inclusive quando **não existe passivo patrimonial do mesmo valor no Quadro Principal**. O passivo financeiro não é mera soma dos passivos circulantes.
+O [MCASP 11, Parte V, § 4.2.2, e Parte IV, § 3.5.3.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), inclui contas orçamentárias da **classe 6**, como **crédito empenhado a liquidar** e **restos a pagar não processados (RPNP) a liquidar**, na apuração do quadro de **Ativos e Passivos Financeiros e Permanentes**, inclusive quando **não existe passivo patrimonial do mesmo valor no Quadro Principal**. O passivo financeiro não é mera soma dos passivos circulantes.
 
 **Caso independente:** a entidade dispõe de **R$ 100 em caixa**, sem outras restrições ou obrigações, e possui **empenho regular de R$ 30 por serviço ainda não prestado**, com inscrição válida como **RPNP a liquidar**. O Quadro Principal **não reconhece passivo patrimonial de R$ 30 só por esse empenho**; entretanto, o quadro financeiro/permanente inclui **R$ 30 de compromisso orçamentário em passivo financeiro**. Nas hipóteses indicadas, **ativo financeiro 100 − passivo financeiro 30 = superávit financeiro 70**, a ser detalhado por fonte/destinação antes de eventual utilização.
 
@@ -163,7 +163,7 @@ Os itens são **exercícios novos**, não questões oficiais do Cebraspe.
 ## Relações, tensões e heurísticas
 
 - [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|Patrimônio e regimes]]: competência e fato permutativo.
-- [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|BO e BF]]: empenho, pagamento e compensação de RPP.
+- [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|BO e BF]]: empenho, pagamento e compensação de restos a pagar processados (RPP).
 - [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes|DFC, notas e conciliações]]: relaciona os resultados de R$ 40, R$ 60 e R$ 94.
 - [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]]: superávit financeiro anterior e restrições legais.
 - [[3 - Materias/Auditoria Governamental/evidencias-e-documentacao|Evidências]]: comprovação física de ativos.

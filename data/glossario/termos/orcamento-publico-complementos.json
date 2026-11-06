@@ -713,10 +713,10 @@
         "RREO",
         "Relatório Resumido da Execução Orçamentária"
       ],
-      "definition": "Relatório que mostra como o orçamento está sendo executado, com informações de receitas e despesas. É publicado a cada bimestre, até 30 dias após o encerramento.",
-      "contrast": "O RREO acompanha a execução bimestral. O RGF informa limites da gestão fiscal e, em regra, é divulgado a cada quadrimestre.",
-      "cebraspeTrap": "Confundir a periodicidade bimestral do RREO com a regra quadrimestral do RGF.",
-      "example": "Depois de cada bimestre, o ente apresenta o demonstrativo de execução do orçamento.",
+      "definition": "É um relatório que permite acompanhar, a cada dois meses, quanto o governo previa arrecadar e gastar e quanto realmente executou do orçamento. O Relatório Resumido da Execução Orçamentária (RREO) reúne informações de todos os Poderes e do Ministério Público e deve ser publicado até 30 dias depois do fim de cada bimestre, conforme o art. 52 da Lei de Responsabilidade Fiscal (LRF).",
+      "contrast": "O RREO trata principalmente da execução de receitas e despesas do orçamento e inclui demonstrativos exigidos pela LRF. O Relatório de Gestão Fiscal (RGF) acompanha limites e responsabilidades fiscais, como gastos com pessoal e dívida. O RREO é bimestral; o RGF é, em regra, quadrimestral. O RREO não é um balanço anual nem uma simples lista de pagamentos: também considera previsão, dotações e despesas empenhadas e liquidadas.",
+      "cebraspeTrap": "Trocar a periodicidade de RREO e RGF, restringir o RREO apenas ao Executivo ou dizer que ele registra somente despesas pagas são erros de classificação.",
+      "example": "Depois de março e abril, o governo encerra o segundo bimestre e tem até 30 dias para publicar o RREO correspondente. O relatório mostra, por exemplo, receitas previstas e arrecadadas e despesas empenhadas e liquidadas. Não é necessário esperar o fim do ano para divulgar essas informações.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -741,10 +741,10 @@
         "RGF",
         "Relatório de Gestão Fiscal"
       ],
-      "definition": "Relatório com dados usados para verificar limites e responsabilidades fiscais, como gasto com pessoal e dívida. Em regra, é publicado a cada quadrimestre.",
-      "contrast": "O RGF acompanha limites e obrigações fiscais. O RREO apresenta a execução do orçamento a cada bimestre. Há regra especial para municípios pequenos.",
-      "cebraspeTrap": "Afirmar que todo município publica RGF necessariamente de dois em dois meses.",
-      "example": "Um órgão apresenta seus limites de pessoal e situação de caixa em relatório de gestão fiscal.",
+      "definition": "É o relatório usado para mostrar se o governo e os órgãos sujeitos à Lei de Responsabilidade Fiscal estão cumprindo limites e regras fiscais. O Relatório de Gestão Fiscal (RGF) traz informações como despesa com pessoal, dívida e outras exigências legais. Em regra, é emitido ao fim de cada quadrimestre e publicado até 30 dias depois, conforme os arts. 54 e 55 da LRF.",
+      "contrast": "O Relatório Resumido da Execução Orçamentária (RREO) acompanha receitas e despesas do orçamento e é bimestral. O RGF mostra limites fiscais e é, em regra, quadrimestral. Há regras específicas para determinados municípios, portanto a periodicidade normal não deve ser tratada como absoluta. Um órgão estar dentro do limite de pessoal não dispensa a apresentação das demais informações exigidas.",
+      "cebraspeTrap": "A banca pode trocar os prazos dos dois relatórios ou afirmar que o RGF serve apenas para listar pagamentos. Também é perigoso ignorar as regras especiais previstas na LRF.",
+      "example": "Em maio, um órgão verifica o quadrimestre de janeiro a abril e prepara o RGF para mostrar, entre outros itens, a despesa com pessoal conforme o cálculo legal. Esse relatório não se confunde com o RREO de março e abril, que acompanha a execução bimestral do orçamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -768,10 +768,10 @@
       "aliases": [
         "AMF"
       ],
-      "definition": "Parte da Lei de Diretrizes Orçamentárias que mostra resultados e metas fiscais previstos, junto com os demonstrativos exigidos pela LRF.",
-      "contrast": "Metas fiscais mostram os resultados que se pretende alcançar. O Anexo de Riscos Fiscais apresenta acontecimentos incertos que podem afetar as contas.",
-      "cebraspeTrap": "Tratar o anexo de metas como uma relação de despesas já pagas no exercício.",
-      "example": "A LDO estabelece metas anuais de resultado para orientar orçamento e execução.",
+      "definition": "É uma parte da Lei de Diretrizes Orçamentárias (LDO) que apresenta os objetivos e números usados para acompanhar as contas públicas. O Anexo de Metas Fiscais traz metas de receitas, despesas, resultados fiscais e dívida, além de avaliações e demonstrativos previstos na Lei de Responsabilidade Fiscal (LRF), art. 4º.",
+      "contrast": "Metas fiscais são resultados que o governo pretende alcançar e acompanhar. Riscos fiscais são acontecimentos incertos que podem atrapalhar essas contas, tratados em outro anexo. A LDO orienta a preparação do orçamento anual; a Lei Orçamentária Anual (LOA) autoriza receitas e despesas para execução. Uma meta definida na LDO não equivale a dinheiro disponível nem garante que será atingida.",
+      "cebraspeTrap": "Confundir objetivo planejado com resultado já alcançado ou trocar o Anexo de Metas Fiscais pelo Anexo de Riscos Fiscais.",
+      "example": "Ao preparar a LDO, o governo fixa uma meta de resultado primário e apresenta projeções e informações exigidas para acompanhá-la. O anexo permite depois comparar o resultado alcançado com o objetivo planejado. Uma possível condenação judicial de valor elevado é exemplo de risco fiscal, não de meta.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -795,10 +795,10 @@
       "aliases": [
         "ARF"
       ],
-      "definition": "Parte da Lei de Diretrizes Orçamentárias que apresenta riscos capazes de prejudicar as contas públicas, como decisões judiciais, e o que o governo pretende fazer se ocorrerem.",
-      "contrast": "Riscos fiscais são situações que podem acontecer. Metas fiscais são resultados que o governo pretende atingir.",
-      "cebraspeTrap": "Tratar toda contingência identificada no anexo como dívida já liquidada e paga.",
-      "example": "A LDO apresenta riscos associados a ações judiciais e medidas fiscais possíveis.",
+      "definition": "É uma parte da Lei de Diretrizes Orçamentárias (LDO) que mostra acontecimentos incertos capazes de prejudicar as contas do governo e as providências previstas caso se confirmem. O Anexo de Riscos Fiscais é exigido pela Lei de Responsabilidade Fiscal (LRF), art. 4º, e inclui a avaliação de passivos contingentes e outros riscos relevantes.",
+      "contrast": "Risco fiscal é uma possibilidade que precisa ser acompanhada, como uma ação judicial que pode exigir pagamento. Meta fiscal é um resultado que o governo quer alcançar, como determinado saldo das contas, e aparece no Anexo de Metas Fiscais. Apresentar uma ação como risco não significa que a dívida já foi reconhecida como passivo no Balanço Patrimonial: esse reconhecimento segue critérios contábeis próprios.",
+      "cebraspeTrap": "A banca pode confundir divulgação de risco com pagamento efetivo ou reconhecimento obrigatório de provisão. Também é incorreto colocar uma meta de arrecadação no lugar do risco.",
+      "example": "Um estado responde a processo judicial que pode resultar em pagamento de R$ 20 milhões, mas a decisão ainda é incerta. O governo avalia o risco e descreve possíveis medidas no anexo, sem concluir automaticamente que já existe uma dívida patrimonial registrada nesse valor.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -820,10 +820,10 @@
       "id": "glo-limite-prudencial-de-despesa-com-pessoal",
       "term": "Limite prudencial de despesa com pessoal",
       "aliases": [],
-      "definition": "Faixa de atenção que começa quando o gasto com pessoal ultrapassa 95% do limite legal próprio do Poder ou órgão, provocando restrições previstas na LRF.",
-      "contrast": "Os 95% incidem sobre o limite próprio, e não sobre toda a Receita Corrente Líquida. O patamar de alerta ocorre a 90% do limite.",
-      "cebraspeTrap": "Calcular o prudencial como 95% da RCL quando o órgão possui limite próprio de 6% da RCL.",
-      "example": "Se o limite próprio é 6% da RCL, o patamar prudencial é de 5,7% da RCL.",
+      "definition": "É uma faixa de atenção prevista na Lei de Responsabilidade Fiscal: quando a despesa total com pessoal de um Poder ou órgão ultrapassa 95% do limite legal que se aplica a ele, começam restrições para evitar o excesso. Entre elas estão proibições e condições para aumentar gastos com pessoal, conforme o art. 22 da LRF.",
+      "contrast": "O limite de alerta corresponde a 90% do limite máximo e serve para o Tribunal de Contas avisar o responsável. O prudencial é de 95% do limite máximo e aciona restrições legais. O limite máximo é 100% do teto definido para aquele Poder ou órgão. São percentuais do limite legal, não percentuais da receita corrente líquida usados diretamente como novos tetos autônomos.",
+      "cebraspeTrap": "A banca pode trocar 90% e 95% ou interpretar 95% como porcentagem direta da receita, em vez de percentual do limite de pessoal do órgão.",
+      "example": "Se o limite máximo de um órgão for R$ 100 milhões no cálculo aplicável, o patamar de alerta será R$ 90 milhões e o prudencial será R$ 95 milhões. Ao ultrapassar R$ 95 milhões, incidem as restrições previstas na LRF. Os R$ 95 milhões não significam 95% de toda a receita do governo.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -845,10 +845,10 @@
       "id": "glo-limite-de-alerta-de-despesa-com-pessoal",
       "term": "Limite de alerta de despesa com pessoal",
       "aliases": [],
-      "definition": "Patamar de 90% do limite legal próprio de despesa com pessoal a partir do qual o tribunal de contas deve alertar a autoridade nos termos da LRF.",
-      "contrast": "O alerta de 90% é diferente das restrições do limite prudencial de 95% e do teto de 100%, todos calculados sobre o limite legal próprio.",
-      "cebraspeTrap": "Atribuir ao alerta de 90% todas as vedações previstas para ultrapassagem do limite prudencial.",
-      "example": "O órgão atinge 90% do próprio limite e a situação demanda alerta do tribunal de contas.",
+      "definition": "É o patamar em que o Tribunal de Contas deve alertar um Poder ou órgão sobre o risco de ultrapassar seu limite de despesa com pessoal. A Lei de Responsabilidade Fiscal (LRF), art. 59, prevê o alerta quando a despesa total com pessoal ultrapassa 90% do limite aplicável.",
+      "contrast": "O alerta chama a atenção para o risco, mas não é o mesmo que o limite prudencial, que começa quando a despesa ultrapassa 95% do limite e produz restrições previstas na LRF. O limite máximo é o teto de referência completo. Para fazer a conta, primeiro se identifica o limite legal próprio do Poder ou órgão e depois se aplica o percentual de 90%.",
+      "cebraspeTrap": "Alerta de 90% e prudencial de 95% têm consequências diferentes. O primeiro não deve ser apresentado como se já impusesse todas as restrições do segundo.",
+      "example": "Uma instituição tem limite de pessoal de R$ 100 milhões. Se o gasto calculado ultrapassar R$ 90 milhões, entra na faixa de alerta. Ao ultrapassar R$ 95 milhões, chega à faixa prudencial. Esses valores ilustram percentuais do teto, não uma nova autorização de gasto.",
       "subjectIds": [
         "orcamento-publico"
       ],

@@ -18,7 +18,7 @@ aliases:
 
 Uma política de ampliação de escolas pode estar prevista no planejamento de médio prazo, aparecer como prioridade para o ano seguinte e receber dotação na lei orçamentária. Mesmo assim, uma escola ainda não foi construída: entre a intenção, a autorização e a entrega há decisões, disponibilidade de recursos, execução e controle. Esse percurso explica por que **planejamento, orçamento, execução e resultado** são conceitos diferentes.
 
-Este é o ponto de entrada da matéria. O artigo seguinte aprofunda [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]; classificações, créditos adicionais, estágios de receita e despesa e responsabilidade fiscal terão notas próprias. A organização é reutilizável entre editais. Na CGU 2026, este texto atende **parcialmente** ao recorte P3.2.2, em formato **Cebraspe, Certo ou Errado**.
+Este é o ponto de entrada da matéria. O artigo seguinte aprofunda o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA): [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]; classificações, créditos adicionais, estágios de receita e despesa e responsabilidade fiscal terão notas próprias. A organização é reutilizável entre editais. Na Controladoria-Geral da União (CGU) 2026, este texto atende **parcialmente** ao recorte P3.2.2, em formato **Cebraspe, Certo ou Errado**.
 
 ## Três conjuntos de perguntas: momento, autorização e entrega
 
@@ -102,7 +102,7 @@ As distinções que precisam permanecer separadas são:
 
 **Caso inverso:** uma universidade federal possui [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira#Execução orçamentária × execução financeira|disponibilidade financeira]] suficiente para a construção de um laboratório, mas não possui crédito orçamentário para essa obra. A existência de caixa **não substitui** a autorização para a despesa: a unidade precisará verificar a [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|abertura de crédito adicional]] ou outra solução legal cabível antes de assumir os compromissos. Também não se deve confundir essa autorização com o cumprimento das regras de investimento plurianual.
 
-A diferença entre **dotação e créditos adicionais** será aprofundada em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]]. **Limitação de empenho e cronograma financeiro** serão tratados em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]]. A base é a Lei nº 4.320/1964, especialmente arts. 2º, 40 a 43 e 58 a 65, e a LRF, arts. 8º e 9º.
+A diferença entre **dotação e créditos adicionais** será aprofundada em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]]. **Limitação de empenho e cronograma financeiro** serão tratados em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]]. A base é a Lei nº 4.320/1964, especialmente arts. 2º, 40 a 43 e 58 a 65, e a Lei de Responsabilidade Fiscal (LRF), arts. 8º e 9º.
 
 ## O que significa programação física cumprida
 

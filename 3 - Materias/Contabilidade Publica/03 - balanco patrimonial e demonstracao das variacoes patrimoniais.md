@@ -43,24 +43,42 @@ Dentro do BP, **quadro** significa uma seção do relatório, com critérios e f
 
 **Como eles se relacionam?** O **4º quadro utiliza os componentes financeiros identificados no 2º**. Por exemplo, R$ 100 de ativo financeiro menos R$ 30 de passivo financeiro resultam, em cálculo básico e sem outros ajustes, em R$ 70 de superávit financeiro, cuja distribuição por fonte precisa ser verificada. O **3º quadro não entra nessa subtração**: acompanha situações potenciais que não representam, por si, ativos ou passivos reconhecidos no Quadro Principal. Para questões de prova, identifique sempre o **nome e a finalidade do quadro**, em vez de interpretar “complementar” como uma categoria própria.
 
-**Mapa dos quatro quadros:** todos pertencem ao **Balanço Patrimonial (BP)**. A **Demonstração das Variações Patrimoniais (DVP)** é outra demonstração, que apresenta os efeitos sobre o resultado patrimonial durante o período.
+### Refinamento: onde cada conceito entra?
+
+Existem **três níveis diferentes**: **demonstração contábil** (o relatório inteiro), **quadro** (uma parte de determinada demonstração) e **classificação ou conta** (a maneira de organizar valores dentro dela). O **Balanço Orçamentário (BO)**, o **Balanço Financeiro (BF)** e o **Balanço Patrimonial (BP)** estão no **mesmo nível**: são relatórios distintos. **Somente o BP se desdobra nos quatro quadros patrimoniais mostrados abaixo.**
 
 ```mermaid
 flowchart TB
-    R["Demonstrações patrimoniais"]:::raiz
-    BP["Balanço Patrimonial (BP)<br/>Saldos em uma data"]:::criterio
-    DVP["Demonstração das Variações Patrimoniais (DVP)<br/>VPA e VPD do período"]:::criterio
-    R --> BP
-    R --> DVP
-    BP --> Q1["1. Quadro Principal<br/>Ativo, passivo e patrimônio líquido"]:::opcao
-    BP --> Q2["2. Ativos e Passivos Financeiros e Permanentes<br/>Critério legal e orçamentário"]:::opcao
-    BP --> Q3["3. Contas de Compensação<br/>Atos potenciais a executar"]:::opcao
-    BP --> Q4["4. Superávit ou Déficit Financeiro<br/>Diferença financeira por fonte"]:::opcao
-    Q2 -. fornece os valores financeiros .-> Q4
+    R["Demonstrações contábeis<br/>relatórios diferentes"]:::raiz
+    R --> BO["Balanço Orçamentário<br/>BO"]:::criterio
+    R --> BF["Balanço Financeiro<br/>BF"]:::criterio
+    R --> BP["Balanço Patrimonial<br/>BP"]:::criterio
+    R --> DVP["Demonstração das Variações<br/>Patrimoniais: DVP"]:::criterio
+    R --> DFC["Demonstração dos Fluxos<br/>de Caixa: DFC"]:::criterio
+    BO --> O["Previsão, dotação e execução<br/>arrecadação, empenho, liquidação e pagamento"]:::opcao
+    BF --> F["Ingressos e dispêndios<br/>saldo de caixa inicial e final"]:::opcao
+    BP --> Q1["1º quadro: Principal"]:::criterio
+    BP --> Q2["2º quadro: Financeiro e Permanente"]:::criterio
+    BP --> Q3["3º quadro: Contas de Compensação"]:::criterio
+    BP --> Q4["4º quadro: Superávit ou Déficit Financeiro"]:::criterio
+    Q1 --> P1["Ativo e passivo patrimoniais<br/>circulante / não circulante e patrimônio líquido"]:::opcao
+    Q2 --> P2["Ativo financeiro e permanente<br/>passivo financeiro e permanente"]:::opcao
+    Q3 --> P3["Atos potenciais a executar<br/>como certas garantias"]:::opcao
+    Q4 --> P4["Ativo financeiro menos passivo financeiro<br/>apurado por fonte de recursos"]:::opcao
+    Q2 -. dados financeiros .-> Q4
+    DVP --> V["Variação Patrimonial Aumentativa (VPA)<br/>e Diminutiva (VPD)"]:::opcao
+    DFC --> C["Recebimentos e pagamentos<br/>efetivos de caixa"]:::opcao
     classDef raiz fill:#f59e0b,color:#111111,stroke:#b45309,stroke-width:1.5px
     classDef criterio fill:#fff2d9,color:#3d2207,stroke:#b45309,stroke-width:1.5px
     classDef opcao fill:#fffbeb,color:#1c1917,stroke:#b68d58,stroke-width:1.5px
 ```
+
+**Por que o termo “financeiro” aparece em dois lugares?** No **BF**, “financeiro” se refere à demonstração de **ingressos, dispêndios e saldos**. No **2º quadro do BP**, “financeiro” identifica uma **classificação legal de ativos e passivos** segundo o art. 105 da Lei nº 4.320/1964. São perguntas diferentes. O **4º quadro do BP** usa os componentes financeiros do 2º para apurar superávit ou déficit por fonte de recursos.
+
+**A mesma realidade pode aparecer em mais de um quadro:** R$ 100 mil no banco são **ativo patrimonial circulante** no **1º quadro** e **ativo financeiro** no **2º**. Computadores utilizados por vários anos são **ativo patrimonial não circulante** no **1º** e, em regra, **ativo permanente** no **2º**. Já um **empenho por serviço ainda não prestado**, quando regularmente inscrito em restos a pagar não processados, **pode integrar o passivo financeiro do 2º quadro sem criar passivo patrimonial no 1º**. Os quadros não são quatro grupos de dinheiro nem etapas sucessivas: são formas diferentes de apresentar e controlar informações.
+
+**Heurística de leitura:** quando encontrar uma expressão desconhecida, identifique primeiro **a demonstração**; depois, **o quadro**; por último, **qual critério de classificação está sendo usado**. Isso evita equiparar ativo circulante a ativo financeiro ou confundir o BF com o quadro financeiro do BP.
+
 
 ## Estrutura do BP: quatro quadros com critérios diferentes
 

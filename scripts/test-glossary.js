@@ -375,11 +375,11 @@ exigirConceito('glo-balanco-patrimonial', [/Balanço Patrimonial/, /ativos/, /pa
 exigirConceito('glo-patrimonio-liquido', [/diferença/i, /ativos/, /passivos/]);
 exigirConceito('glo-receita-primaria', [/receita/, /resultado primário/, /empréstim/]);
 exigirConceito('glo-grupo-de-natureza-da-despesa-gnd', [/seis grupos/, /Amortização da Dívida/]);
-exigirConceito('glo-empenho', [/pendente ou não de implemento de condição/, /liquidação/, /pagamento/]);
+exigirConceito('glo-empenho', [/pendente ou não de implemento de condição/, /liquidação/i, /pagamento/]);
 exigirConceito('glo-credito-extraordinario', [/urgente|urgência/, /imprevisível|imprevisibilidade/]);
 exigirConceito('glo-superavit-financeiro', [/exercício anterior/, /ativo financeiro/, /passivo financeiro/]);
 exigirConceito('glo-fonte-destinacao-de-recursos', [/regras/, /receita/, /vinculad/]);
-exigirConceito('glo-teste-de-controles', [/controle/, /funciona/, /teste substantivo/]);
+exigirConceito('glo-teste-de-controles', [/controle/, /funciona/, /teste substantivo/i]);
 exigirConceito('glo-despesa-primaria', [/resultado primário/, /capital/, /corrente/]);
 const plannedText = fs.readFileSync(path.join(root,
   '1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos.md'), 'utf8');

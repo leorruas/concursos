@@ -6,10 +6,10 @@
       "id": "glo-receita-efetiva",
       "term": "Receita efetiva",
       "aliases": [],
-      "definition": "Receita orçamentária que, ao ser reconhecida no patrimônio, aumenta o patrimônio líquido da entidade. É o caso de muitos tributos quando surge o direito de recebê-los.",
-      "contrast": "Efetiva indica aumento do patrimônio líquido. Corrente ou de capital indica o tipo da receita no orçamento; uma classificação não substitui a outra.",
-      "cebraspeTrap": "Afirmar que toda receita corrente é efetiva ou que receita de capital nunca pode aumentar o patrimônio líquido.",
-      "example": "Uma receita tributária reconhecida segundo as regras patrimoniais pode aumentar o patrimônio líquido do ente.",
+      "definition": "É uma receita do orçamento que aumenta o patrimônio líquido do governo quando acontece o fato que deve ser reconhecido na contabilidade. Isso significa que o governo ficou com mais patrimônio, e não apenas trocou um tipo de bem ou direito por outro.",
+      "contrast": "Efetiva ou não efetiva indica o efeito sobre o patrimônio líquido. Corrente ou de capital indica o tipo de receita no orçamento, o que responde a outra pergunta. Um imposto pode aumentar o patrimônio quando surge o direito de recebê-lo; a entrada posterior no banco só troca o valor a receber por caixa. Um empréstimo recebido cria dinheiro e dívida ao mesmo tempo, por isso normalmente é receita orçamentária não efetiva.",
+      "cebraspeTrap": "Não confundir receita orçamentária arrecadada com aumento patrimonial no mesmo momento. Classificar como corrente não determina, sozinho, se a receita é efetiva.",
+      "example": "A prefeitura registra R$ 1 mil de imposto devido e, conforme os critérios de reconhecimento, esse fato aumenta seu patrimônio líquido em R$ 1 mil. Quando o contribuinte paga, o valor deixa de estar como crédito a receber e passa ao banco: não há um segundo ganho patrimonial pelo mesmo imposto.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -31,10 +31,10 @@
       "id": "glo-receita-nao-efetiva",
       "term": "Receita não efetiva",
       "aliases": [],
-      "definition": "Receita orçamentária que, no evento analisado, não aumenta o patrimônio líquido, porque o ingresso vem acompanhado de uma obrigação ou de outra troca patrimonial.",
-      "contrast": "Um empréstimo comum recebido aumenta o caixa e a dívida ao mesmo tempo. É receita orçamentária de capital não efetiva, e não ingresso extraorçamentário.",
-      "cebraspeTrap": "Concluir que entrada de operação de crédito comum não é receita orçamentária porque não aumenta o patrimônio líquido.",
-      "example": "Um empréstimo recebido eleva caixa e passivo simultaneamente, sendo receita orçamentária de capital não efetiva.",
+      "definition": "É uma receita registrada no orçamento cujo recebimento, na operação analisada, não aumenta o patrimônio líquido do governo. Isso acontece quando o dinheiro entra acompanhado de uma dívida ou quando apenas se troca um direito ou bem por dinheiro.",
+      "contrast": "Receita orçamentária não efetiva continua sendo receita do orçamento: o nome não significa que o dinheiro deixou de entrar. Um empréstimo recebido, por exemplo, eleva o caixa e a dívida. Receita efetiva, por outro lado, corresponde a fato que aumenta o patrimônio líquido. A classificação efetiva/não efetiva não é igual à divisão entre receitas correntes e de capital.",
+      "cebraspeTrap": "A banca pode afirmar que empréstimo não é receita orçamentária porque cria dívida. Ele pode ser receita orçamentária não efetiva: o efeito patrimonial é outra classificação.",
+      "example": "O município toma empréstimo de R$ 50 mil: entram R$ 50 mil no banco, mas surge obrigação de devolver R$ 50 mil. É receita orçamentária de capital não efetiva. O governo tem mais dinheiro e também mais dívida, de modo que não ficou R$ 50 mil mais rico por causa desse recebimento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -56,10 +56,10 @@
       "id": "glo-lancamento-da-receita",
       "term": "Lançamento da receita",
       "aliases": [],
-      "definition": "Etapa em que a administração identifica um crédito a receber, verifica a origem, calcula o valor e identifica quem deve pagar, quando a lei prevê lançamento.",
-      "contrast": "Lançar não significa receber dinheiro. Nem toda receita passa por lançamento; para tributos, o CTN define como o crédito é constituído.",
-      "cebraspeTrap": "Afirmar que toda receita orçamentária exige lançamento ou que crédito lançado já foi recebido pelo Tesouro.",
-      "example": "O órgão lança crédito tributário em março e o contribuinte somente paga em maio.",
+      "definition": "É uma etapa usada para identificar e formalizar um valor que alguém deve pagar ao governo, quando a lei exige esse procedimento. No caso de tributos, o lançamento verifica o fato previsto em lei, calcula o valor devido e identifica o contribuinte; o Código Tributário Nacional, art. 142, trata da constituição do crédito tributário.",
+      "contrast": "Prever receita é estimar quanto entrará no orçamento; lançar é identificar e constituir uma cobrança nos casos previstos; arrecadar é receber o pagamento; recolher é transferir o valor arrecadado ao caixa do Tesouro, quando há agente arrecadador. Nem toda receita precisa de lançamento: uma doação recebida, por exemplo, não segue necessariamente a mesma etapa de um imposto lançado.",
+      "cebraspeTrap": "Crédito tributário lançado não é dinheiro já recebido. Também não se deve dizer que todas as receitas passam obrigatoriamente por lançamento.",
+      "example": "Em março, o município lança R$ 800 de imposto devido por um contribuinte. Ele ainda não pagou: há cobrança, mas não arrecadação. Em maio, paga os R$ 800 no banco autorizado: ocorre arrecadação e, conforme o procedimento, o valor é recolhido ao Tesouro.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -85,10 +85,10 @@
       "id": "glo-recolhimento-da-receita",
       "term": "Recolhimento da receita",
       "aliases": [],
-      "definition": "Etapa em que os valores já recebidos por bancos ou outros agentes arrecadadores são transferidos à tesouraria pública, quando a etapa é aplicável.",
-      "contrast": "Arrecadação é o recebimento pelo agente autorizado. Recolhimento é a entrega desses valores ao caixa do Tesouro; os dois podem ocorrer quase ao mesmo tempo.",
-      "cebraspeTrap": "Tratar previsão e arrecadação como sinônimos de recolhimento ou exigir intervalo temporal entre atos.",
-      "example": "Banco recebe tributo e transfere o valor ao caixa do Tesouro: a transferência caracteriza o recolhimento.",
+      "definition": "É a etapa em que o dinheiro que já foi recebido por um banco ou outro agente arrecadador é transferido ao caixa do Tesouro público. A etapa ocorre quando existe esse caminho de arrecadação e faz parte do controle de onde os valores públicos estão.",
+      "contrast": "Arrecadação é quando o contribuinte ou pagador entrega o dinheiro ao agente autorizado. Recolhimento é quando esse agente encaminha o valor ao Tesouro. Previsão é apenas estimativa, e lançamento é a identificação formal de uma cobrança nos casos previstos. Arrecadação e recolhimento podem ocorrer com intervalo muito pequeno ou praticamente no mesmo momento.",
+      "cebraspeTrap": "Lançar, arrecadar e recolher são ações diferentes. O fato de ocorrerem rapidamente não autoriza trocar seus significados.",
+      "example": "Uma pessoa paga R$ 300 de tributo em um banco autorizado na segunda-feira: o banco arrecada. Quando ele transfere os R$ 300 para a conta do Tesouro, ocorre o recolhimento. O fato de o imposto já ter sido lançado antes não quer dizer que houve arrecadação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -352,10 +352,10 @@
       "aliases": [
         "Regime de adiantamento"
       ],
-      "definition": "Adiantamento excepcional de dinheiro a servidor para pequenas despesas ou situações que não permitem seguir o processo comum, com empenho prévio e prestação de contas.",
-      "contrast": "O adiantamento facilita despesas específicas, mas exige empenho e prestação de contas. Não é dispensa geral do controle da despesa pública.",
-      "cebraspeTrap": "Admitir adiantamento a servidor em alcance ou responsável por dois adiantamentos, contrariando o art. 69.",
-      "example": "Servidor recebe numerário para pequena despesa urgente, realiza a compra e presta contas dos comprovantes.",
+      "definition": "É uma forma excepcional de adiantar dinheiro a um servidor para pagar pequenas despesas ou situações em que não seja possível seguir o processo normal, respeitando as condições legais. A despesa exige empenho prévio e o servidor precisa prestar contas, mostrando o que comprou e os comprovantes.",
+      "contrast": "Suprimento de fundos não é autorização para gastar sem controle nem benefício pessoal do servidor. A lei prevê situações e impedimentos: o art. 69 da Lei nº 4.320/1964 veda o adiantamento, entre outros casos, a servidor que não prestou contas no prazo e a quem já responde por dois adiantamentos. O adiantamento não dispensa o empenho e a prestação de contas.",
+      "cebraspeTrap": "A banca pode confundir adiantamento com dispensa geral do empenho ou ignorar impedimentos legais para servidores que já precisam prestar contas.",
+      "example": "Uma unidade precisa comprar material barato para resolver problema urgente e não consegue usar o processo comum a tempo. Um servidor habilitado recebe adiantamento autorizado e empenhado, realiza a compra permitida e apresenta notas e prestação de contas. Não pode tratar o dinheiro como pagamento livre para despesas pessoais.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -445,10 +445,10 @@
       "aliases": [
         "Cancelamento de dotação"
       ],
-      "definition": "Redução ou cancelamento de valor autorizado para uma despesa do orçamento, que pode servir de recurso para reforçar ou criar outra dotação nas hipóteses legais.",
-      "contrast": "Anular dotação muda a autorização para gastar. Não cria dinheiro novo em caixa e não é o mesmo que contingenciar a execução.",
-      "cebraspeTrap": "Afirmar que a anulação de crédito gera receita financeira nova ou equivale ao pagamento da despesa cancelada.",
-      "example": "O órgão reduz dotação não comprometida para reforçar outra programação mediante crédito adicional.",
+      "definition": "É a redução ou retirada de parte do valor que o orçamento autorizou para determinada despesa. Quando a lei permite, esse valor pode ser usado como origem de recursos para abrir ou reforçar outra autorização de gasto, por meio de crédito adicional.",
+      "contrast": "Anular dotação mexe na autorização para gastar, não no dinheiro depositado em banco. Anular empenho cancela um compromisso de despesa já registrado, o que é outra operação. Bloquear dotação restringe seu uso temporariamente sem necessariamente retirar a autorização. A anulação usada para abrir crédito adicional deve seguir as condições legais.",
+      "cebraspeTrap": "Cancelar autorização orçamentária não é arrecadar receita nem receber dinheiro. A banca pode confundir anulação de dotação, bloqueio e anulação de empenho.",
+      "example": "O município tem R$ 100 mil autorizados para uma compra que não será feita e anula R$ 20 mil da dotação, conforme a lei. Pode usar esse cancelamento como fonte para reforçar outra programação por crédito adicional, quando permitido. O banco do município não recebe R$ 20 mil novos por isso.",
       "subjectIds": [
         "orcamento-publico"
       ],

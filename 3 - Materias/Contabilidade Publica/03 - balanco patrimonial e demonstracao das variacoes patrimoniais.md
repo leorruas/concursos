@@ -116,6 +116,18 @@ A classificação em **ativo financeiro/permanente** e **passivo financeiro/perm
 - **Passivo financeiro:** obrigações e compromissos exigíveis cujo pagamento independe de autorização orçamentária.
 - **Passivo permanente:** dívidas e demais compromissos que dependem de autorização legislativa para amortização ou resgate.
 
+
+### Comparação direta entre os quatro conceitos
+
+| Classificação | Critério |
+| :--- | :--- |
+| **Ativo patrimonial** | Recursos controlados e reconhecidos por competência. |
+| **Passivo patrimonial** | Obrigações presentes reconhecidas por competência. |
+| **Ativo financeiro** | Disponibilidades, créditos e valores realizáveis independentemente de autorização orçamentária. |
+| **Passivo financeiro** | Obrigações e compromissos considerados segundo critérios legais e do MCASP, inclusive situações sem passivo patrimonial correspondente no quadro principal. |
+
+A classificação financeira não equivale à divisão circulante/não circulante. Valores do passivo financeiro podem incluir restos a pagar não processados a liquidar, mesmo sem passivo patrimonial correspondente.
+
 **O que é autorização orçamentária e quem a concede?** É a **permissão jurídica para executar uma despesa pública**, com valor e finalidade definidos na programação orçamentária. O **crédito orçamentário** expressa essa autorização; a **dotação** indica o valor atribuído à despesa ou programação na Lei Orçamentária Anual (LOA) ou em créditos adicionais. **Ter caixa não equivale a ter dotação**, e dotação não é dinheiro já pago.
 
 **Quem participa, na União?** O **Poder Executivo elabora e encaminha o Projeto de Lei Orçamentária Anual (PLOA)**; o **Congresso Nacional discute e aprova o projeto**; e ocorre a **sanção presidencial**, com as regras constitucionais aplicáveis. A **LOA aprovada** estabelece as autorizações de despesas. Na execução, o **Poder Executivo e as unidades orçamentárias e administrativas**, dentro das respectivas competências, empenham despesas e realizam os demais atos legais; **não é necessário pedir uma nova aprovação ao Congresso para cada empenho**. Autarquias federais, como o IFMG, integram o orçamento da União: **não aprovam uma LOA própria**.

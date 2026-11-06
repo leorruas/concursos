@@ -8,10 +8,10 @@
       "aliases": [
         "Regra de ouro orçamentária"
       ],
-      "definition": "Regra constitucional que, em geral, impede o governo de contratar operações de crédito em valor maior que suas despesas de capital. Há exceção para créditos suplementares ou especiais de finalidade precisa aprovados por maioria absoluta do Legislativo.",
-      "contrast": "A comparação é entre empréstimos e despesas de capital, não entre receita e despesa primárias. A exceção constitucional precisa ser examinada.",
-      "cebraspeTrap": "Afirmar que empréstimos nunca podem superar despesas de capital, omitindo a exceção constitucional de créditos autorizados.",
-      "example": "O ente pretende contratar operações de crédito superiores às despesas de capital e precisa verificar a exceção do art. 167, III.",
+      "definition": "É a regra da Constituição que limita o quanto o governo pode tomar emprestado em relação às despesas de capital, como investimentos e amortização da dívida. Em geral, as operações de crédito realizadas no exercício não podem superar o total dessas despesas. O objetivo é conter o endividamento que não encontra contrapartida no orçamento de capital. A regra está no art. 167, III, da Constituição.",
+      "contrast": "Operação de crédito é, por exemplo, empréstimo contratado pelo governo. Despesa de capital inclui investimento, inversão financeira e amortização da dívida, e não é sinônimo de gasto com pessoal ou manutenção. A comparação é feita entre os totais das operações de crédito e das despesas de capital, e não exige que cada empréstimo financie individualmente um investimento. Existe exceção para créditos suplementares ou especiais de finalidade precisa, aprovados pelo Legislativo por maioria absoluta.",
+      "cebraspeTrap": "É errado afirmar que nenhum empréstimo pode pagar uma despesa corrente ou que o limite proíbe qualquer valor acima das despesas de capital sem exceções. A regra compara montantes e prevê autorização excepcional com requisitos próprios.",
+      "example": "Um governo realiza R$ 80 milhões em operações de crédito e R$ 100 milhões em despesas de capital: não ultrapassa o limite nesse exemplo. Se realizar R$ 120 milhões em empréstimos e tiver apenas R$ 100 milhões em despesas de capital, terá de examinar a exceção constitucional para os R$ 20 milhões excedentes. A autorização excepcional depende de crédito suplementar ou especial com finalidade precisa e aprovação por maioria absoluta.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -35,10 +35,10 @@
       "aliases": [
         "Benefício tributário com renúncia"
       ],
-      "definition": "Benefício tributário concedido pelo governo que reduz a arrecadação esperada, como determinada isenção. Sua criação ou ampliação exige avaliar o impacto e cumprir as condições do art. 14 da LRF.",
-      "contrast": "Renunciar a uma receita significa abrir mão de cobrança tributária em condições previstas. Não é uma despesa paga a alguém.",
-      "cebraspeTrap": "Afirmar que toda isenção tributária pode ser concedida sem análise de impacto ou demonstração das condições legais.",
-      "example": "Uma nova isenção fiscal proposta pelo ente demanda análise da perda de arrecadação e do atendimento aos requisitos da LRF.",
+      "definition": "É quando o governo concede um benefício tributário que reduz o valor que arrecadaria, como uma isenção de imposto ou uma redução especial de tributo. A Lei de Responsabilidade Fiscal (LRF), art. 14, exige cuidados com o impacto nas contas públicas e condições específicas para criar ou ampliar esses benefícios.",
+      "contrast": "Renúncia de receita reduz uma cobrança que o governo faria; despesa pública é um gasto autorizado para pagar algo. O benefício não vira pagamento a um contribuinte só porque tem impacto financeiro. A legislação distingue benefícios gerais de incentivos concedidos de modo diferenciado e prevê requisitos e exceções que devem ser examinados caso a caso. O impacto precisa ser estimado, e as condições legais de compatibilidade ou compensação não são escolhas livres do gestor.",
+      "cebraspeTrap": "A banca pode confundir redução de arrecadação com despesa paga ou dizer que toda isenção dispensa análise de impacto. É necessário verificar o alcance do benefício, as exceções e os requisitos legais vigentes.",
+      "example": "Um município pretende reduzir o imposto de um grupo específico de empresas. Antes de aprovar o incentivo, precisa estimar quanto deixará de arrecadar e verificar as condições legais para que a medida seja válida. O benefício não significa que a prefeitura transferiu dinheiro às empresas: ela deixou de cobrar parte do tributo.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -62,10 +62,10 @@
       "aliases": [
         "DOCC"
       ],
-      "definition": "Gasto corrente que a administração fica obrigada a realizar por mais de dois exercícios, por força de lei, medida provisória ou ato administrativo normativo. A sigla é DOCC.",
-      "contrast": "Uma obra que dura três anos pode ser despesa de capital e não ser DOCC. É preciso verificar tanto a natureza corrente quanto a obrigação duradoura.",
-      "cebraspeTrap": "Classificar como despesa continuada qualquer investimento grande cuja construção dure três anos, sem considerar a natureza corrente.",
-      "example": "Lei cria benefício corrente obrigatório por tempo superior a dois exercícios e incidem exigências do art. 17 da LRF.",
+      "definition": "É um gasto corrente que o governo fica obrigado a manter por mais de dois exercícios porque uma lei, medida provisória ou ato normativo determina isso. Gasto corrente é, por exemplo, despesa com manutenção, pessoal ou benefícios, e não investimento na compra de um prédio. A Lei de Responsabilidade Fiscal (LRF), art. 17, estabelece requisitos para criar ou aumentar essa obrigação.",
+      "contrast": "A duração, sozinha, não basta: a despesa deve ser corrente, obrigatória e prevista para período superior a dois exercícios. Uma obra de construção que leva três anos continua sendo despesa de capital e não vira despesa obrigatória continuada apenas pela duração. Um gasto eventual de manutenção também não se enquadra automaticamente. É preciso examinar o impacto e as medidas exigidas pela LRF, com as exceções previstas na própria lei.",
+      "cebraspeTrap": "O distrator típico troca 'gasto corrente obrigatório' por 'qualquer gasto que dura mais de dois anos'. Também é errado tratar previsão plurianual de investimento como prova de obrigação continuada.",
+      "example": "Uma lei cria pagamento mensal obrigatório a beneficiários por quatro anos. Como se trata de despesa corrente obrigatória por mais de dois exercícios, é necessário verificar os requisitos de criação da despesa continuada. Já a construção de uma escola ao longo de quatro anos é investimento; não se enquadra nessa categoria apenas porque demora.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -89,10 +89,10 @@
       "aliases": [
         "Bloqueio orçamentário"
       ],
-      "definition": "Restrição que impede o uso de parte de um valor autorizado no orçamento enquanto determinada regra ou limite fiscal exigir isso.",
-      "contrast": "Bloquear uma dotação não é apagar definitivamente o valor do orçamento. Também não é necessariamente o contingenciamento usado para cumprir metas fiscais.",
-      "cebraspeTrap": "Afirmar que toda dotação bloqueada desaparece definitivamente do orçamento ou que todo bloqueio é contingenciamento do art. 9º da LRF.",
-      "example": "Uma dotação fica bloqueada para observância de limite de despesa e pode ser desbloqueada conforme reavaliação legal.",
+      "definition": "É a restrição que impede o governo de usar, naquele momento, parte da verba autorizada no orçamento. A dotação continua existindo, mas seu uso fica limitado enquanto a condição que motivou o bloqueio permanecer.",
+      "contrast": "Bloquear verba não é apagar sua autorização nem gastar o dinheiro. Contingenciamento, também chamado limitação de empenho e movimentação financeira em certas situações, é medida ligada ao cumprimento de metas fiscais, como a prevista no art. 9º da Lei de Responsabilidade Fiscal. Outros bloqueios podem resultar de regras ou limites diferentes. Para saber qual medida foi adotada, é preciso identificar seu motivo legal e o efeito sobre empenhos e pagamentos.",
+      "cebraspeTrap": "Dotação bloqueada não é sinônimo de dotação anulada. A banca também pode chamar qualquer bloqueio de contingenciamento do art. 9º, mesmo que a causa legal seja diferente.",
+      "example": "Um órgão tem R$ 5 milhões autorizados para um projeto, mas R$ 1 milhão fica bloqueado por uma restrição fiscal aplicável. O valor continua na programação, porém não pode ser usado enquanto estiver bloqueado. Se a restrição for retirada conforme a lei, poderá voltar a ser utilizado, respeitados os demais limites.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -120,10 +120,10 @@
       "aliases": [
         "Estatal dependente"
       ],
-      "definition": "Empresa controlada pelo governo que recebe dinheiro do ente controlador para pagar pessoal, custeio ou despesas de capital, com a exceção legal de aumento de participação acionária.",
-      "contrast": "Uma estatal pode ser controlada sem ser dependente. É preciso verificar para que recebe recursos do controlador, conforme a LRF.",
-      "cebraspeTrap": "Afirmar que toda estatal com déficit ou majoritariamente controlada é necessariamente dependente para fins orçamentários.",
-      "example": "Uma empresa controlada que recebe recursos do Tesouro para custear sua folha pode enquadrar-se como estatal dependente.",
+      "definition": "É uma empresa controlada pelo governo que recebe dinheiro do ente controlador para pagar despesas de pessoal, funcionamento ou despesas de capital, com a exceção legal dos recursos destinados a aumento de participação acionária. O conceito consta da Lei de Responsabilidade Fiscal (LRF), art. 2º, III, e interfere na forma de incluir suas contas no orçamento e nos limites fiscais.",
+      "contrast": "Ser controlada significa que o governo possui a maioria dos votos na empresa; isso, por si só, não a torna dependente. Dependência exige examinar o recebimento de recursos do controlador e para que são usados. Uma empresa pública pode vender serviços e pagar suas próprias despesas sem precisar desse apoio; outra pode receber dinheiro do Tesouro para cobrir a folha de pessoal.",
+      "cebraspeTrap": "A banca pode dizer que toda empresa controlada ou deficitária é dependente. O critério legal envolve os recursos que a empresa recebe do controlador e a finalidade desses recursos.",
+      "example": "O estado controla duas empresas. A primeira paga salários e manutenção com as receitas dos próprios serviços e não recebe os recursos indicados pela lei: não é dependente só por ter controlador estatal. A segunda recebe repasses do estado para pagar salários: pode ser classificada como estatal dependente.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -151,10 +151,10 @@
       "aliases": [
         "Estatal controlada"
       ],
-      "definition": "Empresa em que um ente público possui, diretamente ou por outras empresas, a maioria das ações ou quotas com direito a voto.",
-      "contrast": "Controlar a empresa significa ter a maioria do poder de voto. Isso não prova que ela depende do Tesouro para se manter.",
-      "cebraspeTrap": "Presumir que empresa controlada recebe necessariamente recursos do orçamento fiscal para custeio ou pessoal.",
-      "example": "Um ente detém a maioria das ações votantes de empresa que se mantém com receitas próprias, sem a tornar necessariamente dependente.",
+      "definition": "É uma empresa em que o governo possui, diretamente ou por meio de outras empresas, a maioria das ações ou quotas com direito a voto. Isso dá ao governo o poder de decidir nas votações da empresa. A Lei de Responsabilidade Fiscal (LRF), art. 2º, II, usa esse critério.",
+      "contrast": "A maioria do capital total não é necessariamente a maioria dos votos, quando existem participações com direitos diferentes. Empresa controlada não é automaticamente estatal dependente: a dependência exige verificar se recebe determinados recursos do controlador para pagar suas despesas. Controlar uma empresa e financiar sua operação são questões diferentes.",
+      "cebraspeTrap": "Controle não equivale a dependência financeira. Também é importante conferir os direitos de voto das participações, e não apenas o percentual de capital informado.",
+      "example": "Um estado possui 60% das ações com direito a voto de uma empresa. Ela é controlada, mesmo que consiga pagar as próprias contas com receitas dos serviços prestados. Se o estado também passar a transferir recursos para cobrir salários, será preciso avaliar sua classificação como dependente.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -178,10 +178,10 @@
       "aliases": [
         "Despesa com pessoal na LRF"
       ],
-      "definition": "Valor das despesas com pessoal calculado segundo os critérios da LRF, incluindo remunerações e encargos previstos na lei. Para os limites fiscais, considera o mês de referência e os onze anteriores, com as exclusões legais.",
-      "contrast": "É uma medida para verificar limites de pessoal da LRF; não corresponde necessariamente ao total de uma única categoria do orçamento ou apenas à folha do mês.",
-      "cebraspeTrap": "Afirmar que o limite fiscal se calcula apenas pelos salários pagos no mês ou pela dotação autorizada para o exercício.",
-      "example": "Para verificar o limite fiscal, o ente considera o mês de referência e onze anteriores, conforme critérios legais.",
+      "definition": "É a soma dos gastos com pessoal que entram no cálculo dos limites da Lei de Responsabilidade Fiscal (LRF), como remunerações, benefícios e encargos incluídos pela lei. Para verificar os limites, considera-se o mês de referência e os onze meses anteriores, com os ajustes e exclusões previstos na legislação.",
+      "contrast": "Essa medida não é apenas o valor pago na folha de um mês nem a dotação aprovada para pessoal no orçamento. É um cálculo legal feito em período de doze meses e sujeito a regras sobre quais despesas entram e quais não entram. Também precisa ser comparada com a Receita Corrente Líquida (RCL), medida usada como base para diversos limites fiscais.",
+      "cebraspeTrap": "Confundir despesa total com pessoal com folha mensal, dotação de pessoal ou gasto bruto sem exclusões legais pode levar à conclusão errada sobre o limite.",
+      "example": "Em dezembro, um município verifica seu limite de pessoal. Deve olhar a despesa total com pessoal do mês e dos onze meses anteriores, conforme a LRF, e a base de comparação prevista. Usar somente os salários pagos em dezembro ou a previsão anual da folha não produz o indicador exigido.",
       "subjectIds": [
         "orcamento-publico"
       ],

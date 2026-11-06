@@ -5,15 +5,30 @@
     {
       "id": "glo-lei-de-responsabilidade-fiscal-lrf",
       "term": "Lei de Responsabilidade Fiscal (LRF)",
-      "aliases": ["LRF", "Lei de Responsabilidade Fiscal", "Lei Complementar nº 101/2000"],
-      "definition": "Lei Complementar nº 101/2000 que estabelece normas de finanças públicas voltadas à responsabilidade na gestão fiscal, com regras de planejamento, transparência, controle e limites fiscais.",
-      "contrast": "A LRF não substitui a Constituição nem a Lei nº 4.320/1964. Ela fixa regras fiscais complementares, como metas, relatórios, limites de pessoal e condições para certas operações e despesas.",
-      "cebraspeTrap": "Reduzir a LRF a uma lei sobre despesa com pessoal ou afirmar que ela torna dispensável a LDO e a LOA.",
-      "example": "A LDO traz anexos fiscais exigidos pela LRF, e o ente divulga RREO e RGF nos prazos legais para permitir acompanhamento de metas e limites.",
-      "articleIds": ["art-91ab320cdfb64b8a"],
-      "subjectIds": ["orcamento-publico"],
-      "contestIds": ["cgu-2026"],
-      "sources": [{"label":"Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), texto atualizado","url":"https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"}],
+      "aliases": [
+        "LRF",
+        "Lei de Responsabilidade Fiscal",
+        "Lei Complementar nº 101/2000"
+      ],
+      "definition": "É a Lei Complementar nº 101/2000, conhecida como Lei de Responsabilidade Fiscal (LRF). Estabelece regras para planejar, executar, acompanhar e divulgar as contas públicas, incluindo limites de gastos e dívida e condições para criar determinadas despesas e conceder benefícios tributários.",
+      "contrast": "A LRF complementa outras regras de finanças públicas, como a Constituição e a Lei nº 4.320/1964. Ela trata de metas fiscais, limites de pessoal, relatórios e transparência, entre outros assuntos. A Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA) continuam existindo e devem observar as normas aplicáveis.",
+      "cebraspeTrap": "A banca pode reduzir a LRF a limites de salário ou afirmar que ela substitui LDO, LOA e Constituição. Seu alcance é maior, mas depende de convivência com as demais normas.",
+      "example": "Um município quer criar benefício tributário e aumentar uma despesa continuada. Precisa verificar o impacto e os requisitos da LRF, além de planejar e executar as ações nos instrumentos orçamentários correspondentes.",
+      "articleIds": [
+        "art-91ab320cdfb64b8a"
+      ],
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), texto atualizado",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
       "status": "reviewed"
     }
   ]

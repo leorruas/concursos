@@ -6,10 +6,10 @@
       "id": "glo-regime-orcamentario",
       "term": "Regime orçamentário",
       "aliases": [],
-      "definition": "Regra que define o ano em que uma receita ou despesa entra no orçamento: receita no ano da arrecadação e despesa no ano do empenho, conforme o art. 35 da Lei nº 4.320/1964.",
-      "contrast": "Essa é uma regra sobre execução do orçamento. O registro no patrimônio segue o momento em que o fato realmente acontece.",
-      "cebraspeTrap": "Afirmar que toda contabilidade patrimonial deve seguir o momento do caixa.",
-      "example": "Uma despesa empenhada em dezembro integra aquele exercício, ainda que paga em janeiro.",
+      "definition": "É a regra que diz em qual ano uma receita ou despesa entra nas contas do orçamento. Pela Lei nº 4.320/1964, art. 35, a receita conta no ano em que o dinheiro é arrecadado; a despesa conta no ano em que é empenhada, ou seja, quando o governo registra formalmente o compromisso no orçamento.",
+      "contrast": "Essa regra organiza o orçamento, mas não determina sozinha quando um direito ou dívida aparece no patrimônio. Um imposto pode virar direito a receber antes de o dinheiro entrar. Um serviço pode ser empenhado num ano e só ser prestado no seguinte. A liquidação é a conferência de que o fornecedor cumpriu o combinado; o pagamento é a saída de dinheiro.",
+      "cebraspeTrap": "Uma despesa empenhada não é necessariamente um serviço já consumido. Também é incorreto usar a data do recebimento do dinheiro para registrar todo efeito patrimonial.",
+      "example": "O governo empenha R$ 4 mil em dezembro por manutenção que ocorrerá em janeiro. A despesa entra no orçamento de dezembro, mas o consumo do serviço pertence a janeiro. Um imposto reconhecido a receber em dezembro e pago em janeiro conta como receita orçamentária de janeiro.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -35,10 +35,10 @@
       "id": "glo-regime-de-competencia",
       "term": "Regime de competência",
       "aliases": [],
-      "definition": "Regra de registrar o efeito de um fato no período em que ele acontece, mesmo que o dinheiro só seja recebido ou pago depois. É aplicada aos registros patrimoniais.",
-      "contrast": "O serviço prestado pode gerar uma obrigação antes de o órgão concluir a liquidação da despesa ou realizar o pagamento.",
-      "cebraspeTrap": "Exigir pagamento ou empenho como condição universal para reconhecer obrigação patrimonial.",
-      "example": "Serviço consumido em dezembro pode ser reconhecido antes do pagamento em janeiro.",
+      "definition": "É a regra de registrar direitos, obrigações e mudanças no patrimônio quando o fato acontece, ainda que o dinheiro seja recebido ou pago depois. Na contabilidade pública, ajuda a mostrar o que o governo ganhou, consumiu ou passou a dever em cada período.",
+      "contrast": "O orçamento tem outro critério: receita no ano da arrecadação e despesa no ano do empenho. Pela competência, o governo pode reconhecer um imposto a receber antes da arrecadação e uma conta por serviço consumido antes de pagá-la. Uma variação patrimonial aumentativa (VPA) indica aumento no patrimônio líquido; uma diminutiva (VPD) indica diminuição.",
+      "cebraspeTrap": "A data do pagamento não determina, por si, quando houve consumo ou quando nasceu a dívida. A liquidação formal também não substitui a ocorrência do fato.",
+      "example": "A universidade usa energia em dezembro, recebe a conta em janeiro e paga em fevereiro. O custo do serviço consumido e a obrigação correspondente pertencem a dezembro, se atendidas as condições de registro. O dinheiro só sai em fevereiro.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -62,10 +62,10 @@
       "aliases": [
         "BO"
       ],
-      "definition": "Relatório que mostra o que o governo previa arrecadar e gastar e compara essas previsões com o que executou durante o exercício. Inclui informações de restos a pagar.",
-      "contrast": "O Balanço Orçamentário compara planejamento e execução. O Balanço Financeiro acompanha entradas e saídas financeiras.",
-      "cebraspeTrap": "Equiparar receita prevista à arrecadada ou trocar empenho por pagamento como único critério.",
-      "example": "O quadro apresenta dotação atualizada, empenhos, liquidação e pagamentos.",
+      "definition": "É o relatório que compara o orçamento planejado com o que o governo realmente arrecadou e gastou ao longo do ano. Mostra a receita prevista e arrecadada; a verba autorizada para gastar, chamada dotação; e as despesas empenhadas, liquidadas e pagas.",
+      "contrast": "O Balanço Orçamentário (BO) mostra a execução do orçamento. O Balanço Financeiro (BF) acompanha entradas e saídas financeiras; o Balanço Patrimonial (BP) mostra bens, direitos e obrigações; a Demonstração das Variações Patrimoniais (DVP) mostra aumentos e diminuições do patrimônio. Empenhar é registrar o compromisso no orçamento; liquidar é conferir a entrega; pagar é transferir dinheiro. São momentos diferentes. Também traz informações sobre restos a pagar, despesas de outros exercícios ainda pendentes de pagamento.",
+      "cebraspeTrap": "Receita prevista não equivale a dinheiro arrecadado. Despesa empenhada não equivale a despesa paga. O BO também não mostra, sozinho, quanto caixa está livre.",
+      "example": "A cidade prevê arrecadar R$ 100 mil, mas recebe R$ 90 mil. Tem R$ 80 mil autorizados para gastar, empenha R$ 70 mil, confere a entrega de R$ 60 mil e paga R$ 50 mil. O BO mostra essas diferenças. Os R$ 20 mil empenhados e não pagos não representam, por si, dinheiro disponível para novos gastos.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -93,10 +93,10 @@
       "aliases": [
         "BF"
       ],
-      "definition": "Relatório que organiza o dinheiro e outros recursos financeiros que entraram e saíram no período e apresenta os saldos inicial e final, incluindo operações orçamentárias e extraorçamentárias.",
-      "contrast": "O saldo do Balanço Financeiro não é automaticamente o superávit financeiro disponível para abrir um crédito adicional.",
-      "cebraspeTrap": "Tratar inscrição compensatória de restos a pagar como entrada de dinheiro novo.",
-      "example": "O demonstrativo reconcilia saldos de caixa com movimentos financeiros e extraorçamentários.",
+      "definition": "É o relatório que mostra as entradas e saídas financeiras do governo durante o ano e os saldos que havia no começo e no fim. O Balanço Financeiro (BF) reúne movimentos ligados ao orçamento e outros movimentos, como dinheiro recebido de terceiros para devolução.",
+      "contrast": "Uma caução recebida, valor dado como garantia, pode aumentar o dinheiro em caixa. Já a inscrição de restos a pagar, despesa empenhada que ficou sem pagamento até o fim do ano, aparece como entrada de compensação no BF, mas não traz dinheiro novo. O Balanço Orçamentário (BO) compara previsão e execução; o Balanço Patrimonial (BP) mostra bens, direitos e dívidas. Saldo de caixa do BF não é automaticamente superávit financeiro disponível para abrir novos créditos. Também inclui registros de compensação que não são entrada real de dinheiro.",
+      "cebraspeTrap": "Uma entrada registrada no BF nem sempre é depósito de dinheiro: a inscrição de restos a pagar é compensação. O saldo final não é, por si, valor livre para gastar.",
+      "example": "O governo começa o ano com R$ 10 mil no banco, arrecada R$ 100 mil e paga R$ 40 mil. Empenhou R$ 60 mil, de modo que R$ 20 mil ficam a pagar. No BF, os R$ 20 mil aparecem como registro compensatório, sem novo depósito. Sem outras operações, o saldo final no banco é R$ 70 mil (10 + 100 − 40).",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -125,10 +125,10 @@
         "Inscrição compensatória de restos a pagar",
         "Ingresso extraorçamentário compensatório"
       ],
-      "definition": "Registro da inscrição de restos a pagar do exercício como recebimento extraorçamentário no Balanço Financeiro, para compensar a parcela de despesa orçamentária empenhada que ainda não foi paga. É uma compensação contábil, sem entrada real de dinheiro.",
-      "contrast": "Restos a pagar podem ser processados (liquidados) ou não processados (ainda não liquidados); a compensação alcança a inscrição regular de ambos. Outros recebimentos extraorçamentários, como depósitos de terceiros, podem representar entrada efetiva de caixa.",
-      "cebraspeTrap": "Afirmar que todo recebimento extraorçamentário aumenta o caixa ou que a inscrição compensatória no BF exige que os restos a pagar já tenham sido liquidados.",
-      "example": "O órgão arrecadou R$ 100, empenhou R$ 60, pagou R$ 40 e inscreveu R$ 20 em restos a pagar. No BF, os R$ 20 aparecem como recebimento compensatório, mas a entrada real foi só R$ 100 e o caixa final é R$ 60.",
+      "definition": "É um registro usado no Balanço Financeiro (BF) para equilibrar as contas quando o governo empenhou uma despesa, mas não a pagou até o fim do ano. Essa despesa pendente é inscrita em restos a pagar. A inscrição aparece como recebimento extraorçamentário de compensação, mas nenhum dinheiro entra por causa desse registro.",
+      "contrast": "Recebimento extraorçamentário pode significar dinheiro que entrou de verdade, como uma caução (garantia recebida para devolver depois), ou um lançamento apenas contábil, como a inscrição de restos a pagar. Os restos a pagar podem ser processados, quando a entrega já foi conferida, ou não processados, quando ainda não houve liquidação. O lançamento compensatório da inscrição não se limita aos processados. A regra está no art. 103, parágrafo único, da Lei nº 4.320/1964.",
+      "cebraspeTrap": "O nome 'recebimento' pode levar à conclusão errada de que entrou dinheiro. A inscrição de restos a pagar é compensação, mesmo quando a despesa ainda não foi liquidada.",
+      "example": "A prefeitura começa sem saldo, arrecada R$ 100, empenha R$ 60 e paga R$ 40. Os R$ 20 restantes ficam inscritos em restos a pagar. No BF, aparecem R$ 60 de despesa orçamentária e R$ 20 de recebimento compensatório, além dos R$ 100 arrecadados. O dinheiro final é R$ 60 (100 − 40), porque os R$ 20 de compensação não foram depositados.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -156,10 +156,10 @@
       "aliases": [
         "VPA"
       ],
-      "definition": "Aumento do patrimônio líquido da entidade causado por um fato do período. Recebe a sigla VPA e pode surgir antes da entrada do dinheiro.",
-      "contrast": "Uma VPA aumenta o patrimônio líquido. Receber um valor que já estava registrado como direito a receber não cria, por si, outra VPA.",
-      "cebraspeTrap": "Exigir arrecadação como condição geral para reconhecer uma VPA.",
-      "example": "Um crédito tributário reconhecido conforme o fato gerador pode gerar VPA antes do recebimento.",
+      "definition": "É um aumento do patrimônio líquido do governo causado por um fato que deve ser registrado naquele período. A Variação Patrimonial Aumentativa (VPA) aparece na Demonstração das Variações Patrimoniais (DVP). Pode surgir antes de o dinheiro entrar no banco, como quando nasce um direito de receber imposto.",
+      "contrast": "Receita do orçamento é contada na arrecadação; VPA segue o momento em que surge o efeito no patrimônio. Um empréstimo recebido aumenta o dinheiro em banco, mas também cria dívida: só por isso não gera VPA. Receber um imposto que já estava registrado como direito apenas troca o valor a receber por dinheiro e não cria outra VPA.",
+      "cebraspeTrap": "Receber dinheiro não basta para existir VPA. É preciso verificar se houve aumento real do patrimônio líquido, e não só troca entre contas.",
+      "example": "O governo registra R$ 1.500 de imposto que tem direito de receber. Se esse registro gera VPA, o aumento patrimonial surge naquele momento. Dois meses depois, o contribuinte paga: o dinheiro entra no banco, mas não se registra a mesma VPA de novo. Se o banco emprestar R$ 1.500 ao governo, há entrada de dinheiro e dívida do mesmo valor, sem VPA por esse simples depósito.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -181,10 +181,10 @@
       "id": "glo-fato-gerador",
       "term": "Fato gerador",
       "aliases": [],
-      "definition": "Acontecimento que faz surgir um direito, uma obrigação ou outro efeito patrimonial que deva ser registrado. O registro depende do fato ocorrido e das regras contábeis, não apenas do pagamento.",
-      "contrast": "Empenhar uma despesa é assumir compromisso no orçamento; o fato gerador pode ocorrer em outro momento, como quando o serviço é prestado.",
-      "cebraspeTrap": "Afirmar que serviço já prestado não pode gerar passivo patrimonial enquanto não houver liquidação formal.",
-      "example": "Um serviço recebido em dezembro pode gerar obrigação naquele mês, mesmo se o pagamento ocorrer em janeiro.",
+      "definition": "É o acontecimento que faz surgir um direito, uma obrigação ou outro efeito no patrimônio, quando a regra aplicável exige o registro. Pode ser o fato que cria o direito de cobrar um imposto ou a prestação de um serviço que o governo terá de pagar.",
+      "contrast": "Empenho é o registro formal de uma despesa no orçamento; liquidação é a conferência de que o fornecedor cumpriu o combinado; pagamento é a saída de dinheiro. Esses três momentos podem ser diferentes do fato que cria o direito ou a dívida. Um imposto pode gerar direito a receber antes da arrecadação. Um serviço prestado pode gerar dívida antes da liquidação administrativa.",
+      "cebraspeTrap": "Empenhar não prova que o serviço aconteceu. Arrecadar também não é o único momento possível para reconhecer um aumento do patrimônio.",
+      "example": "A prefeitura registra R$ 700 de imposto devido por um contribuinte quando existem as condições para reconhecer a cobrança. Ela tem um direito a receber, mesmo sem dinheiro no banco. Separadamente, empenha R$ 700 para um conserto futuro: a despesa foi comprometida no orçamento, mas a dívida pelo serviço surge quando ele é prestado.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -206,10 +206,10 @@
       "id": "glo-patrimonio-publico",
       "term": "Patrimônio público",
       "aliases": [],
-      "definition": "Conjunto de recursos controlados pela entidade pública, direitos a receber e obrigações a cumprir. Ajuda a entender o que a entidade tem, o que tem a receber e o que deve.",
-      "contrast": "Patrimônio inclui bens e obrigações. Não é apenas o saldo no banco e não se confunde com a autorização para gastar no orçamento.",
-      "cebraspeTrap": "Confundir a soma das dotações disponíveis na LOA com o valor do patrimônio líquido do ente.",
-      "example": "Equipamentos, créditos a receber e obrigações com fornecedores integram a análise patrimonial.",
+      "definition": "É o conjunto de bens, direitos e obrigações relacionados a uma entidade pública. Inclui dinheiro, prédios, equipamentos, tributos que o governo tem direito de receber e contas ou dívidas que precisa pagar. É o que a contabilidade patrimonial acompanha para mostrar a situação do governo.",
+      "contrast": "Patrimônio público não é apenas o dinheiro no banco. Uma verba autorizada no orçamento, chamada dotação, permite realizar despesas, mas não é automaticamente um bem ou crédito patrimonial. Ativo é o que a entidade controla e tem valor ou capacidade de prestar serviços; passivo é o que ela deve; patrimônio líquido é a diferença entre esses dois conjuntos.",
+      "cebraspeTrap": "Somar valores autorizados no orçamento não permite descobrir o patrimônio líquido. Para isso, é necessário examinar bens, direitos e obrigações já existentes.",
+      "example": "Uma escola pública tem computadores de R$ 15 mil, saldo bancário de R$ 3 mil e R$ 4 mil a pagar a fornecedores por serviços recebidos. Os computadores e o saldo são ativos, a dívida é passivo e a diferença ajuda a calcular o patrimônio líquido. Autorizar nova compra de computadores não significa que a escola já os recebeu.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -235,10 +235,10 @@
       "id": "glo-ativo-patrimonial",
       "term": "Ativo patrimonial",
       "aliases": [],
-      "definition": "Recurso controlado pela entidade graças a algo que já aconteceu e que pode ajudar a prestar serviços ou trazer benefícios no futuro. É um ativo mesmo sem gerar lucro.",
-      "contrast": "Ativo patrimonial abrange todo recurso controlado que presta serviços ou traz benefícios. Ativo financeiro, no art. 105 da Lei nº 4.320/1964, identifica dinheiro e valores realizáveis sem autorização orçamentária. A divisão financeiro/permanente difere da divisão circulante/não circulante.",
-      "cebraspeTrap": "Afirmar que um equipamento só é ativo se gerar receita comercial ou já estiver integralmente pago.",
-      "example": "Um equipamento controlado pela escola oferece potencial de serviço educacional ao longo de sua vida útil.",
+      "definition": "É dinheiro, bem ou direito que o governo já controla e que tem valor ou ajuda a prestar serviços. Aparece no quadro principal do Balanço Patrimonial (BP). Pode ser uma conta bancária, um prédio escolar ou um imposto que o governo já tem direito de receber.",
+      "contrast": "É diferente de uma verba apenas autorizada no orçamento: autorização para comprar não significa possuir o bem. No quadro financeiro e permanente do BP, dinheiro em banco costuma ser financeiro (F), enquanto equipamentos e impostos ainda não arrecadados costumam ser permanentes (P). O prazo de recebimento, sozinho, não decide a classificação F/P.",
+      "cebraspeTrap": "Receita prevista no orçamento não é automaticamente ativo patrimonial. Crédito que será recebido logo também não vira F apenas pelo prazo.",
+      "example": "A prefeitura tem R$ 300 no banco e R$ 900 de imposto já reconhecido a receber. Ambos são ativos patrimoniais. No quadro financeiro e permanente, o banco é F e o imposto ainda não pago pode ser P. Quando o contribuinte paga, diminui o direito a receber e aumenta o dinheiro no banco.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -264,10 +264,10 @@
       "id": "glo-passivo-patrimonial",
       "term": "Passivo patrimonial",
       "aliases": [],
-      "definition": "Obrigação que a entidade já tem por causa de algo que aconteceu e que exigirá transferir recursos para ser cumprida. Exemplo: valor devido por serviço já recebido.",
-      "contrast": "Passivo patrimonial exige obrigação presente decorrente de fato passado. Passivo financeiro é classificação legal ligada à possibilidade de pagamento sem nova autorização orçamentária e inclui certos empenhos ainda a liquidar, mesmo sem passivo patrimonial correspondente.",
-      "cebraspeTrap": "Concluir que qualquer valor empenhado sem entrega representa automaticamente passivo patrimonial.",
-      "example": "O serviço prestado e ainda não pago pode originar obrigação patrimonial no exercício de prestação.",
+      "definition": "É uma dívida ou outra obrigação que o governo já tem porque algo aconteceu, como um serviço que foi prestado e ainda precisa ser pago. Aparece no quadro principal do Balanço Patrimonial (BP). O serviço pode criar a obrigação antes de a administração terminar a conferência formal da despesa.",
+      "contrast": "Empenho é o compromisso registrado no orçamento. Ele pode ocorrer antes da prestação do serviço e, sozinho, não prova que existe dívida patrimonial. Depois da entrega, pode surgir a obrigação, mesmo que a liquidação, conferência administrativa, venha depois. No quadro financeiro e permanente do BP, alguns empenhos ainda sem serviço prestado podem entrar no passivo financeiro. Uma caução restituível também cria obrigação de devolver dinheiro, mas não é uma despesa comum do orçamento.",
+      "cebraspeTrap": "Dizer que toda dívida patrimonial só nasce quando se conclui a liquidação confunde uma conferência administrativa com o fato que criou a obrigação.",
+      "example": "A prefeitura empenha R$ 5 mil para manutenção em 20 de dezembro. O serviço é feito no dia 28, mas a conferência formal ocorre em janeiro. A obrigação patrimonial surge com o serviço realizado, quando preenchidas as condições contábeis. Se o prestador não tivesse feito o serviço, o empenho sozinho não criaria essa dívida.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -295,10 +295,10 @@
       "aliases": [
         "PL"
       ],
-      "definition": "Diferença entre o valor dos ativos e o valor dos passivos da entidade em uma data. Em termos simples: o que ela controla, menos o que deve. Fórmula: ativo menos passivo.",
-      "contrast": "Patrimônio líquido não é dinheiro disponível para gastar. Uma troca de caixa por equipamento pode manter esse valor igual.",
-      "cebraspeTrap": "Tratar variação de caixa como alteração de igual valor no patrimônio líquido.",
-      "example": "A compra de equipamento à vista pode trocar caixa por ativo imobilizado sem mudar imediatamente o patrimônio líquido.",
+      "definition": "É a diferença entre tudo que o governo possui ou tem direito de receber (ativos) e tudo que deve (passivos), em uma data. Aparece no quadro principal do Balanço Patrimonial (BP). A conta básica é: patrimônio líquido = ativos − passivos. Mostra a posição patrimonial, não o dinheiro disponível para gastar.",
+      "contrast": "Um saldo positivo de patrimônio líquido não quer dizer que há esse valor no banco: parte dos ativos pode ser prédio, veículo ou imposto a receber. Comprar equipamento por valor equivalente pode apenas trocar dinheiro por um bem, sem alterar o patrimônio líquido. O resultado patrimonial do período, apresentado na Demonstração das Variações Patrimoniais (DVP), ajuda a explicar mudanças, mas ajustes lançados diretamente no patrimônio líquido também podem alterá-lo.",
+      "cebraspeTrap": "Não confundir patrimônio líquido com saldo de caixa, sobra do orçamento ou superávit financeiro. Um pagamento ou uma compra pode alterar o caixa sem mudar o patrimônio líquido.",
+      "example": "A prefeitura tem R$ 50 mil em dinheiro e equipamentos e deve R$ 20 mil: o patrimônio líquido é R$ 30 mil. Se usar R$ 5 mil do banco para comprar um computador de mesmo valor, o dinheiro cai, mas os equipamentos aumentam em R$ 5 mil; o patrimônio líquido continua R$ 30 mil. Se consumir R$ 2 mil de serviço sem compensação, poderá cair para R$ 28 mil.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -323,10 +323,10 @@
         "Ajuste patrimonial",
         "Ajuste registrado diretamente no PL"
       ],
-      "definition": "Registro contábil que, quando a norma aplicável determina, altera diretamente uma conta do patrimônio líquido (PL), sem integrar as variações patrimoniais aumentativas (VPA) ou diminutivas (VPD) do exercício atual. A expressão 'ajuste patrimonial' é genérica e não identifica, sozinha, uma categoria contábil específica.",
-      "contrast": "O resultado patrimonial do período é VPA menos VPD. A variação total do PL também pode incluir ajustes registrados diretamente nele e outros movimentos específicos. Por isso, crescimento do PL não é necessariamente igual ao resultado patrimonial.",
-      "cebraspeTrap": "Somar ao resultado patrimonial um ajuste informado como registrado diretamente no PL. A natureza do ajuste e a norma aplicável devem ser examinadas; nem toda alteração do PL passa pela DVP.",
-      "example": "PL inicial de R$ 40 mil, VPA de R$ 12 mil, VPD de R$ 5 mil e ajuste positivo de R$ 8 mil lançado diretamente no PL: o resultado patrimonial é R$ 7 mil (12 − 5), mas o PL final é R$ 55 mil (40 + 7 + 8). Uma correção de erro de período anterior, quando a norma exige ajuste direto, é exemplo possível.",
+      "definition": "É um registro contábil que aumenta ou diminui diretamente o patrimônio líquido do governo quando a norma aplicável manda fazer isso, sem passar pelo resultado patrimonial do ano. Patrimônio líquido é a diferença entre o que o governo tem e o que deve.",
+      "contrast": "A Demonstração das Variações Patrimoniais (DVP) mostra variações patrimoniais aumentativas (VPA) e diminutivas (VPD) que formam o resultado do período. Um ajuste lançado diretamente no patrimônio líquido não entra automaticamente nesse resultado. Correções de erros de períodos anteriores podem exigir esse tratamento, dependendo da norma. Por isso, a mudança total do patrimônio líquido pode ser diferente do resultado mostrado na DVP.",
+      "cebraspeTrap": "A banca pode somar um ajuste direto no patrimônio líquido ao resultado patrimonial. Primeiro é preciso ver onde a norma manda registrar o ajuste.",
+      "example": "O governo começa com patrimônio líquido de R$ 40 mil. Durante o ano reconhece R$ 12 mil de aumentos patrimoniais e R$ 5 mil de diminuições: o resultado é R$ 7 mil. Se também registrar ajuste direto positivo de R$ 8 mil, o patrimônio líquido termina em R$ 55 mil. O resultado do período continua sendo R$ 7 mil, não R$ 15 mil.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -355,10 +355,10 @@
       "aliases": [
         "BP"
       ],
-      "definition": "Relatório que apresenta, em uma data específica, os ativos, os passivos e o patrimônio líquido da entidade. É uma fotografia da sua situação patrimonial.",
-      "contrast": "O Quadro Principal do Balanço mostra ativos e passivos patrimoniais. O quadro financeiro/permanente segue o art. 105 da Lei nº 4.320/1964 e pode incluir compromissos de empenho sem passivo patrimonial correspondente. Circulante não é sinônimo de financeiro.",
-      "cebraspeTrap": "Equiparar ativo circulante a ativo financeiro ou passivo circulante a passivo financeiro sem examinar os quadros próprios.",
-      "example": "O quadro principal apresenta saldos patrimoniais, enquanto quadro específico apura superávit ou déficit financeiro.",
+      "definition": "É o relatório que mostra o que o governo tem, o que tem direito de receber e o que deve em determinada data. O Balanço Patrimonial (BP) apresenta no quadro principal os ativos, passivos e patrimônio líquido, que é a diferença entre ativos e passivos.",
+      "contrast": "O quadro principal responde quais bens, direitos e obrigações existem. O quadro financeiro e permanente faz outra pergunta: o recurso pode ser recebido ou a dívida paga sem nova autorização orçamentária? Por isso, caixa é financeiro (F), enquanto um imposto ainda a receber pode ser permanente (P). Um empenho de serviço ainda não prestado pode aparecer no passivo financeiro do quadro legal sem já ser uma dívida patrimonial pelo serviço. Resultado patrimonial e superávit financeiro são medidas diferentes.",
+      "cebraspeTrap": "Ativo que vence logo não é automaticamente financeiro. Passivo financeiro também não corresponde necessariamente à mesma dívida registrada no quadro principal. Traz ainda quadros que separam ativos e passivos financeiros e permanentes e ajudam a apurar superávit ou déficit financeiro.",
+      "example": "A cidade tem R$ 5 mil em banco, R$ 2 mil de imposto lançado mas não recebido e um computador de R$ 4 mil. Os três aparecem como ativos no quadro principal. No quadro legal, o banco é F, e o imposto a receber e o computador podem ser P. Se empenhar R$ 1 mil por um serviço futuro, esse compromisso pode entrar no passivo financeiro mesmo antes da prestação.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -386,10 +386,10 @@
       "aliases": [
         "DVP"
       ],
-      "definition": "Relatório que mostra quanto o patrimônio líquido da entidade aumentou ou diminuiu durante o período e por quais fatos. É chamado de DVP.",
-      "contrast": "A DVP explica mudanças no patrimônio líquido, como consumo de serviços e reconhecimento de direitos. A DFC mostra dinheiro que entrou e saiu; o orçamento mostra receitas e despesas executadas.",
-      "cebraspeTrap": "Afirmar que despesa empenhada implica automaticamente VPD de igual valor no exercício.",
-      "example": "O órgão usa materiais que já estavam no estoque: a DVP registra o consumo, mesmo sem novo pagamento.",
+      "definition": "É o relatório que mostra o que aumentou e o que diminuiu o patrimônio do governo durante um período. A Demonstração das Variações Patrimoniais (DVP) reúne variações patrimoniais aumentativas (VPA), como certos direitos a receber reconhecidos, e diminutivas (VPD), como serviços consumidos.",
+      "contrast": "A DVP mostra o efeito dos fatos no patrimônio, mesmo que ainda não exista pagamento ou recebimento. O Balanço Orçamentário (BO) registra a execução do orçamento; o Balanço Financeiro (BF) acompanha movimentações e saldos; o Balanço Patrimonial (BP) mostra a posição numa data. Receber um imposto que já foi registrado como direito não gera novamente a mesma VPA; comprar um computador por valor equivalente também não gera automaticamente VPD pela compra. A diferença entre VPA e VPD é o resultado patrimonial.",
+      "cebraspeTrap": "Nem toda entrada de dinheiro é VPA e nem toda saída é VPD. A banca pode confundir arrecadação e pagamento com aumento e redução imediatos do patrimônio.",
+      "example": "A prefeitura reconhece R$ 10 mil de VPA por impostos e R$ 4 mil de VPD por serviços usados. O resultado patrimonial é positivo em R$ 6 mil, mesmo que parte do imposto não tenha sido recebida e parte do serviço ainda não tenha sido paga. Os pagamentos posteriores não repetem esses mesmos ganhos e gastos patrimoniais.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -417,10 +417,10 @@
       "aliases": [
         "VPD"
       ],
-      "definition": "Diminuição do patrimônio líquido causada por um fato do período, como o consumo de serviços ou o desgaste de um equipamento. Recebe a sigla VPD.",
-      "contrast": "Uma VPD reduz o patrimônio líquido. Pagar uma dívida já reconhecida pode diminuir caixa e passivo sem gerar uma nova VPD.",
-      "cebraspeTrap": "Confundir aquisição de equipamento com reconhecimento integral e imediato de VPD em todas as situações.",
-      "example": "A depreciação mensal de equipamento utilizado na prestação do serviço pode gerar VPD.",
+      "definition": "É uma diminuição do patrimônio líquido do governo causada por consumo de serviços, desgaste de bens ou outro fato reconhecido no período. A Variação Patrimonial Diminutiva (VPD) aparece na Demonstração das Variações Patrimoniais (DVP), mesmo que não haja pagamento no mesmo momento.",
+      "contrast": "Uma despesa empenhada, comprometida no orçamento, ainda não prova que houve VPD. Comprar um computador pode apenas trocar dinheiro por um bem; pagar uma dívida que já estava registrada diminui caixa e obrigação, sem registrar o mesmo gasto patrimonial de novo. A depreciação, perda gradual do valor contábil de um equipamento pelo uso, pode gerar VPD sem saída de dinheiro naquele mês.",
+      "cebraspeTrap": "Não confundir empenho ou pagamento com consumo. Um pagamento pode não gerar nova VPD, e uma VPD pode ocorrer sem pagamento.",
+      "example": "Em dezembro, a escola usa R$ 900 de energia e registra o consumo, mesmo pagando em janeiro. Se comprar um computador de R$ 900 à vista, passa a ter o bem no lugar do dinheiro: não precisa registrar VPD integral pela simples compra. A perda de valor do computador ao longo do tempo poderá gerar VPD posterior.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -444,10 +444,10 @@
       "aliases": [
         "DFC"
       ],
-      "definition": "Relatório que mostra o dinheiro que realmente entrou e saiu do caixa da entidade durante um período. A sigla é DFC; os movimentos são separados em atividades operacionais, de investimento e de financiamento.",
-      "contrast": "A DFC registra recebimentos e pagamentos efetivos. Depreciação e inscrição de restos a pagar, sozinhas, não são entrada nem saída de dinheiro.",
-      "cebraspeTrap": "Tratar depreciação sem desembolso ou inscrição de restos a pagar como movimento efetivo de caixa.",
-      "example": "A universidade paga R$ 5 mil por um equipamento: a DFC mostra a saída de caixa; o desgaste futuro do bem não gera outra saída.",
+      "definition": "É o relatório que mostra quanto dinheiro realmente entrou e saiu do caixa do governo ao longo de um período. A Demonstração dos Fluxos de Caixa (DFC) separa os movimentos em atividades de operação, investimento e financiamento para mostrar de onde veio o dinheiro e como foi usado.",
+      "contrast": "A DFC acompanha dinheiro de fato recebido ou pago. Uma depreciação, perda gradual do valor de equipamento, não movimenta caixa. Reconhecer imposto a receber também não põe dinheiro no banco; isso acontece na arrecadação. A Demonstração das Variações Patrimoniais (DVP) pode registrar aumento ou diminuição patrimonial sem dinheiro circulando. O Balanço Orçamentário (BO) trata das etapas do orçamento.",
+      "cebraspeTrap": "Registrar uma dívida ou depreciação não significa entrada ou saída efetiva de caixa. A DFC acompanha o movimento financeiro, não cada mudança do patrimônio.",
+      "example": "A prefeitura recebe R$ 8 mil de imposto que já tinha registrado como direito: a DFC mostra entrada de caixa, mesmo que o aumento patrimonial tenha ocorrido antes. Compra um computador à vista por R$ 3 mil: há saída de caixa. Quando o computador perde valor pelo uso, essa perda contábil não provoca outra saída de dinheiro.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -473,10 +473,10 @@
       "id": "glo-notas-explicativas",
       "term": "Notas explicativas",
       "aliases": [],
-      "definition": "Textos que acompanham as demonstrações contábeis para explicar números, métodos de cálculo, escolhas contábeis e riscos importantes.",
-      "contrast": "As notas ajudam a entender os valores dos relatórios. Uma obrigação que deve constar do balanço também precisa ser registrada nele; explicá-la em nota não substitui esse registro.",
-      "cebraspeTrap": "Afirmar que divulgar passivo reconhecível somente em nota dispensa registrá-lo contabilmente.",
-      "example": "O balanço mostra uma dívida e a nota informa quando vence, como foi calculada e quais riscos a envolvem.",
+      "definition": "São textos que acompanham os relatórios contábeis para explicar o que os números significam. Mostram critérios usados nos cálculos, dívidas, riscos, incertezas e outras informações necessárias para entender o Balanço Patrimonial e as demais demonstrações.",
+      "contrast": "As notas ajudam a interpretar os relatórios, mas não substituem os registros obrigatórios. Uma provisão que atende aos critérios precisa aparecer como passivo; a nota explica sua origem e incertezas. Já uma perda judicial apenas possível pode aparecer como passivo contingente nas notas, sem valor lançado como dívida no quadro principal. Um risco remoto, em regra, não precisa de divulgação.",
+      "cebraspeTrap": "Informar uma dívida apenas no texto da nota não dispensa registrá-la no balanço quando os critérios de reconhecimento estão presentes.",
+      "example": "O balanço mostra provisão de R$ 80 mil por ação judicial: a nota explica por que o órgão acredita que terá de pagar e qual a incerteza sobre o valor. Outra ação, com perda apenas possível, pode ser explicada nas notas sem aumentar o passivo registrado.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -502,10 +502,10 @@
       "id": "glo-conciliacao-contabil",
       "term": "Conciliação contábil",
       "aliases": [],
-      "definition": "Conferência entre registros de fontes diferentes para descobrir se os valores e movimentos combinam e explicar diferenças encontradas.",
-      "contrast": "Conciliação exige verificar cada movimento, sua data e a documentação. Dois totais iguais podem esconder lançamentos errados.",
-      "cebraspeTrap": "Tratar simples igualdade de totais como prova de integridade sem examinar itens e períodos.",
-      "example": "O extrato bancário mostra um pagamento de R$ 500 no dia 31, mas o sistema o registrou em 1º de janeiro: a conciliação identifica a diferença de data.",
+      "definition": "É a conferência feita para verificar se registros de fontes diferentes mostram as mesmas operações e valores. Quando aparecem diferenças, a equipe investiga a origem e corrige o que for necessário. É comum comparar lançamentos contábeis com extratos bancários e outros documentos.",
+      "contrast": "Conciliar não significa apenas comparar os totais finais. É preciso examinar valores, datas, documentos e operações individuais. Duas listas podem ter o mesmo total e, ainda assim, conter pagamentos lançados na data errada ou valores trocados. A conciliação ajuda a encontrar diferenças; não substitui a análise dos fatos e documentos.",
+      "cebraspeTrap": "Totais iguais não provam registros corretos. Uma conciliação precisa verificar os movimentos que formaram esses totais.",
+      "example": "O extrato bancário mostra pagamento de R$ 500 em 31 de dezembro, mas a contabilidade registrou em 1º de janeiro. Mesmo que o saldo total pareça certo depois, a conciliação identifica a diferença de data, importante para saber a qual período o movimento pertence.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -527,10 +527,10 @@
       "id": "glo-provisao-contabil",
       "term": "Provisão contábil",
       "aliases": [],
-      "definition": "Obrigação presente que a entidade deve registrar embora ainda não saiba exatamente quando pagará ou qual será o valor. Exige saída provável de recursos e estimativa confiável.",
-      "contrast": "Provisão é passivo reconhecido. Uma perda apenas possível em processo judicial, sem atender aos critérios, costuma ser passivo contingente.",
-      "cebraspeTrap": "Reconhecer provisão para qualquer demanda judicial independentemente da probabilidade ou da obrigação presente.",
-      "example": "Uma ação judicial com obrigação presente, perda provável e estimativa confiável pode demandar provisão.",
+      "definition": "É uma dívida ou outra obrigação que o governo já tem, mas cujo valor exato ou data de pagamento ainda são incertos. Para registrar uma provisão no Balanço Patrimonial, precisa existir obrigação atual por um fato passado, ser provável a saída de recursos e haver uma estimativa confiável do valor.",
+      "contrast": "Provisão é passivo registrado, mesmo que o pagamento ainda não tenha data certa. Passivo contingente é uma obrigação apenas possível, ou uma obrigação atual que não atende aos critérios de registro, por exemplo, porque a saída de recursos não é provável ou não há estimativa confiável. Uma dívida comum com valor e vencimento conhecidos não recebe o nome de provisão só por estar sem pagamento. Nem todo processo judicial exige uma provisão.",
+      "cebraspeTrap": "A banca pode confundir 'processo em andamento' com provisão obrigatória. O critério é a combinação entre obrigação atual, probabilidade de saída de recursos e estimativa confiável, não a simples existência da ação. Atenção à data: a NBC TSP 03 original é a referência para exercícios iniciados em 2026; a NBC TSP 03 (R1), publicada em março de 2026, passa a ser aplicada aos exercícios iniciados em 1º de janeiro de 2027, salvo prazo nacional específico. As regras são tratadas na norma de provisões e contingências do setor público.",
+      "example": "Uma prefeitura é processada por acidente. Se os fatos já criaram uma obrigação, os assessores consideram provável a perda e o valor pode ser estimado em R$ 80 mil com confiança, o governo registra uma provisão. Se a perda é apenas possível, normalmente informa o risco em nota explicativa, sem registrar os R$ 80 mil como passivo. Se a chance de perda é remota, em regra nem a divulgação é exigida.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -542,8 +542,12 @@
       ],
       "sources": [
         {
-          "label": "CFC: NBC TSP 03, Provisões, Passivos Contingentes e Ativos Contingentes, aplicável em 2026",
+          "label": "CFC: NBC TSP 03, edição original, aplicável aos exercícios de 2026",
           "url": "https://www.legisweb.com.br/legislacao/?id=330456"
+        },
+        {
+          "label": "CFC: NBC TSP 03 (R1), publicada em 17/03/2026, aplicação a partir de 01/01/2027 (salvo prazo nacional específico)",
+          "url": "https://www.legisweb.com.br/legislacao/?id=492475"
         },
         {
           "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
@@ -556,10 +560,10 @@
       "id": "glo-passivo-contingente",
       "term": "Passivo contingente",
       "aliases": [],
-      "definition": "Obrigação que ainda é possível ou que não atende aos requisitos para ser registrada como passivo. Em regra, é informada em notas quando o risco não é remoto.",
-      "contrast": "Uma perda provável, com obrigação presente e valor estimável, pode exigir provisão. Uma perda apenas possível costuma ficar em divulgação, não no passivo reconhecido.",
-      "cebraspeTrap": "Registrar como provisão todo processo judicial, mesmo quando a saída é apenas possível e não provável.",
-      "example": "Uma ação com perda possível, mas não provável, pode exigir divulgação em notas sem reconhecimento do passivo.",
+      "definition": "É uma possível obrigação do governo que depende de um acontecimento futuro incerto para ser confirmada. Também pode ser uma obrigação já existente que ainda não pode entrar como dívida no Balanço Patrimonial porque não é provável que exija pagamento ou porque não é possível estimar o valor de forma confiável.",
+      "contrast": "Se já existe obrigação atual, a saída de recursos é provável e o valor pode ser calculado de modo confiável, o caso pode exigir provisão, que entra no passivo. Uma perda apenas possível costuma ser divulgada como passivo contingente, sem aumentar o passivo registrado. Quando a possibilidade de saída é remota, normalmente não se exige nem divulgação. A análise muda se surgirem novas provas ou decisões.",
+      "cebraspeTrap": "Divulgar um risco nas notas não significa que a entidade já reconheceu aquela dívida no balanço. Também é errado achar que todo caso judicial deve ser registrado pelo valor pedido. Atenção à data: a NBC TSP 03 original é a referência para exercícios iniciados em 2026; a NBC TSP 03 (R1), publicada em março de 2026, passa a ser aplicada aos exercícios iniciados em 1º de janeiro de 2027, salvo prazo nacional específico. Em geral, é explicada nas notas das demonstrações quando a chance de saída de recursos não é remota.",
+      "example": "Um órgão enfrenta ação de R$ 100 mil. Seus pareceres indicam perda possível, mas ainda não provável: o caso é divulgado como passivo contingente, sem registrar uma dívida de R$ 100 mil. Se uma nova decisão torna provável a perda e permite estimar o valor, deve ser reavaliado para possível reconhecimento de provisão.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -571,8 +575,12 @@
       ],
       "sources": [
         {
-          "label": "CFC: NBC TSP 03, Provisões, Passivos Contingentes e Ativos Contingentes, aplicável em 2026",
+          "label": "CFC: NBC TSP 03, edição original, aplicável aos exercícios de 2026",
           "url": "https://www.legisweb.com.br/legislacao/?id=330456"
+        },
+        {
+          "label": "CFC: NBC TSP 03 (R1), publicada em 17/03/2026, aplicação a partir de 01/01/2027 (salvo prazo nacional específico)",
+          "url": "https://www.legisweb.com.br/legislacao/?id=492475"
         },
         {
           "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
@@ -585,10 +593,10 @@
       "id": "glo-ativo-contingente",
       "term": "Ativo contingente",
       "aliases": [],
-      "definition": "Possível direito ou benefício para a entidade que depende de acontecimento futuro incerto. Enquanto a entrada de recursos não for praticamente certa, não se reconhece um ativo correspondente.",
-      "contrast": "Uma chance provável de ganhar indenização pode ser divulgada, mas não significa que a entidade já possa registrar o valor como ativo.",
-      "cebraspeTrap": "Registrar como ativo patrimonial um crédito judicial cuja entrada de recursos é somente provável.",
-      "example": "A entidade divulga expectativa provável de receber indenização, mas evita reconhecer ativo enquanto persistir incerteza relevante.",
+      "definition": "É um possível direito de receber dinheiro ou outro benefício, ainda dependente de um acontecimento futuro incerto que o governo não controla totalmente. Por essa incerteza, não é registrado como ativo no Balanço Patrimonial enquanto o ganho não for praticamente certo.",
+      "contrast": "Um crédito tributário já reconhecido é um direito que atende aos critérios de ativo; uma indenização judicial que o órgão apenas espera ganhar pode continuar sendo ativo contingente. Para registrar o ganho como ativo, a entrada deve se tornar praticamente certa e o direito atender aos critérios de reconhecimento. Para obrigações, o critério de provisão usa saída provável: não se deve aplicar essa mesma palavra como condição suficiente para registrar ativo contingente.",
+      "cebraspeTrap": "A palavra 'provável' muda o tratamento: uma perda provável com obrigação atual e valor estimável pode exigir provisão; um ganho apenas provável não basta para registrar ativo contingente como ativo. Atenção à data: a NBC TSP 03 original é a referência para exercícios iniciados em 2026; a NBC TSP 03 (R1), publicada em março de 2026, passa a ser aplicada aos exercícios iniciados em 1º de janeiro de 2027, salvo prazo nacional específico. Quando a entrada de benefícios for provável, pode ser informado em notas, conforme a norma aplicável.",
+      "example": "A prefeitura pede indenização de R$ 40 mil e seus advogados consideram provável a vitória, mas o resultado ainda é incerto: o valor pode ser divulgado, mas não entra como ativo apenas por essa expectativa. Quando o recebimento se torna praticamente certo e os demais requisitos são atendidos, deixa de ser tratado como contingente e pode ser reconhecido.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -600,8 +608,12 @@
       ],
       "sources": [
         {
-          "label": "CFC: NBC TSP 03, Provisões, Passivos Contingentes e Ativos Contingentes, aplicável em 2026",
+          "label": "CFC: NBC TSP 03, edição original, aplicável aos exercícios de 2026",
           "url": "https://www.legisweb.com.br/legislacao/?id=330456"
+        },
+        {
+          "label": "CFC: NBC TSP 03 (R1), publicada em 17/03/2026, aplicação a partir de 01/01/2027 (salvo prazo nacional específico)",
+          "url": "https://www.legisweb.com.br/legislacao/?id=492475"
         },
         {
           "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
@@ -614,10 +626,10 @@
       "id": "glo-depreciacao",
       "term": "Depreciação",
       "aliases": [],
-      "definition": "Registro do consumo gradual do valor de um equipamento ou outro bem depreciável durante o tempo em que é usado para prestar serviços.",
-      "contrast": "Depreciação reduz o valor contábil com o uso e o tempo; não representa pagamento mensal ao fornecedor nem a perda súbita por dano.",
-      "cebraspeTrap": "Afirmar que só se inicia depreciação quando o ativo começa a gerar receita monetária.",
-      "example": "Um equipamento disponível para uso tem seu valor depreciável distribuído pelos períodos de serviço estimados.",
+      "definition": "É o registro da perda gradual do valor contábil de um bem que se desgasta ou perde utilidade com o tempo, como um veículo usado pela prefeitura. Essa perda é distribuída ao longo da vida útil estimada do bem, desde que esteja disponível para uso, conforme as regras contábeis aplicáveis.",
+      "contrast": "Depreciação representa consumo de um bem ao longo do tempo, sem que o governo pague novamente por ele a cada mês. Redução ao valor recuperável é outra perda: acontece quando uma avaliação mostra que o bem perdeu valor além do esperado, por exemplo, após um dano grave. Terrenos, em regra, não são depreciados. A depreciação pode gerar variação patrimonial diminutiva (VPD) na Demonstração das Variações Patrimoniais, sem saída de dinheiro.",
+      "cebraspeTrap": "Nem todo bem é depreciável e a depreciação não exige recebimento de receita ou novo pagamento. Dano inesperado não deve ser automaticamente tratado como desgaste normal.",
+      "example": "Um veículo de R$ 60 mil, sem valor residual e com vida útil estimada de cinco anos, pode ter depreciação de R$ 12 mil por ano pelo método linear, se estiver disponível para uso e esse método for adequado. A prefeitura não paga R$ 12 mil por ano ao vendedor; registra o desgaste. Se o veículo sofrer acidente grave, pode ser necessária avaliação adicional de perda.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -643,10 +655,10 @@
       "id": "glo-reducao-ao-valor-recuperavel",
       "term": "Redução ao valor recuperável",
       "aliases": [],
-      "definition": "Perda registrada quando um bem passa a valer, para os critérios contábeis aplicáveis, menos do que o valor pelo qual está registrado. Também é chamada de impairment.",
-      "contrast": "Depreciação distribui o consumo normal de um bem ao longo do tempo. Redução ao valor recuperável trata de perda identificada por avaliação específica.",
-      "cebraspeTrap": "Tratar toda perda de valor como depreciação ou usar apenas preço de venda de ativo que não gera caixa.",
-      "example": "Após dano severo a um prédio público, estima-se o potencial de serviço recuperável e a eventual perda contábil.",
+      "definition": "É a perda que o governo registra quando o valor de um bem nos livros contábeis fica maior do que o valor que ele ainda consegue oferecer, segundo a forma de avaliação exigida para aquele tipo de ativo. Também se chama perda por redução ao valor recuperável, ou impairment.",
+      "contrast": "Depreciação distribui o desgaste esperado ao longo dos anos. A redução ao valor recuperável trata uma perda constatada por avaliação, como um dano ou queda relevante na capacidade de prestar serviços. Para uma escola, não basta perguntar por quanto o prédio seria vendido: seu potencial de oferecer aulas também importa. O cálculo segue regras diferentes conforme o ativo gera ou não gera caixa.",
+      "cebraspeTrap": "A banca pode apresentar perda súbita como se fosse apenas depreciação ou usar o preço de venda como único critério para um bem que presta serviço sem gerar dinheiro.",
+      "example": "Um prédio público está registrado por R$ 500 mil e sofre um dano que reduz sua capacidade de uso. A avaliação adequada conclui que seu valor recuperável é R$ 380 mil: pode ser necessário reconhecer perda de R$ 120 mil. Isso é diferente da depreciação normal pelo tempo de uso, e não exige que o prédio seja vendido.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -672,10 +684,10 @@
       "id": "glo-custo-direto",
       "term": "Custo direto",
       "aliases": [],
-      "definition": "Gasto que pode ser relacionado diretamente a um serviço, produto ou atividade cujo custo se deseja calcular, sem precisar repartir o valor com outros objetos de custo.",
-      "contrast": "Um custo é direto em relação ao objeto analisado. Isso não diz, por si só, se ele é fixo ou variável.",
-      "cebraspeTrap": "Afirmar que todo custo de pessoal é direto ou que custo direto necessariamente varia com o volume produzido.",
-      "example": "Material consumido exclusivamente em um programa pode ser atribuído diretamente ao seu custo.",
+      "definition": "É um custo que pode ser ligado a um serviço, produto ou atividade específica sem precisar dividir o valor por estimativas. Para decidir se ele é direto, primeiro é preciso dizer de qual serviço ou atividade se quer calcular o custo: esse é o objeto de custo.",
+      "contrast": "Custo direto e indireto dependem do que está sendo medido. O salário de uma pessoa que trabalha apenas em um programa pode ser atribuído diretamente àquele programa; o salário de quem atende vários programas pode exigir divisão. Direto não significa custo variável: um gasto pode ser fixo e, ainda assim, direto para o objeto escolhido. Valor conhecido na nota fiscal não basta para torná-lo direto.",
+      "cebraspeTrap": "Uma conta com valor exato pode ser custo indireto se atender vários serviços. A classificação depende da ligação com o objeto de custo, não de o gasto ser fixo, variável, alto ou baixo.",
+      "example": "Uma escola oferece curso A e curso B. O material de R$ 500 comprado e usado apenas no curso A é custo direto desse curso. Se a escola mede o custo da instituição inteira, outros gastos podem ser diretos para a escola, mas indiretos quando o objeto é cada curso.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -701,10 +713,10 @@
       "id": "glo-custo-indireto",
       "term": "Custo indireto",
       "aliases": [],
-      "definition": "Gasto compartilhado entre serviços, produtos ou atividades, que precisa ser distribuído por um critério de rateio ou outro método adequado.",
-      "contrast": "O mesmo gasto pode ser direto para um setor inteiro e indireto para cada atendimento daquele setor. Depende do que se quer medir.",
-      "cebraspeTrap": "Chamar de direto todo gasto que beneficia vários serviços porque há valor conhecido na nota fiscal.",
-      "example": "Energia compartilhada entre setores exige critério de atribuição aos serviços avaliados.",
+      "definition": "É um custo que ajuda a realizar mais de um serviço, produto ou atividade e que precisa ser distribuído entre eles por uma regra de cálculo. Essa divisão é chamada de rateio. O critério deve ter relação com o uso do recurso, como área ocupada ou tempo de atendimento, quando isso fizer sentido.",
+      "contrast": "O mesmo gasto pode ser direto para um prédio inteiro e indireto para cada atividade dentro dele. Custo indireto não é custo desconhecido: a conta de energia pode ter valor certo, mas não dizer quanto pertence a cada serviço. Também não significa necessariamente custo fixo; direto/indireto e fixo/variável respondem a perguntas diferentes.",
+      "cebraspeTrap": "Saber o valor total de uma despesa não prova que ele pertence diretamente a cada serviço. O custo pode ser indireto quando o objeto de análise muda.",
+      "example": "Uma unidade de saúde paga R$ 3 mil de energia e atende vacinação e consultas no mesmo prédio. Para medir o custo total da unidade, a energia pode ser identificada diretamente. Para calcular o custo de cada serviço, será preciso repartir os R$ 3 mil por um critério justificado, se não houver medição individual.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -730,10 +742,10 @@
       "id": "glo-objeto-de-custo",
       "term": "Objeto de custo",
       "aliases": [],
-      "definition": "Aquilo cujo custo a gestão quer conhecer, como um atendimento, curso, serviço, programa ou unidade pública.",
-      "contrast": "Objeto de custo é o que será medido. Centro de responsabilidade indica quem administra recursos ou atividades, que é outra pergunta.",
-      "cebraspeTrap": "Considerar que todo órgão é o único objeto possível ou que empenho é necessariamente custo da entrega.",
-      "example": "Uma instituição calcula o custo por atendimento, por curso ofertado ou por unidade de serviço.",
+      "definition": "É aquilo cujo custo o governo quer descobrir. Pode ser uma consulta médica, um aluno atendido, um curso, um programa, uma escola ou toda uma unidade. A escolha do objeto define quais gastos devem entrar na conta e quais precisarão ser divididos.",
+      "contrast": "Objeto de custo responde 'quanto custa isto?'. Centro de responsabilidade é a unidade ou equipe que administra recursos e responde por decisões; nem sempre é o mesmo objeto. O mesmo gasto pode ser direto ao medir a unidade inteira e indireto ao medir cada serviço. Valor empenhado no orçamento não representa automaticamente recurso consumido pelo objeto.",
+      "cebraspeTrap": "Não existe um único objeto obrigatório: a escolha depende da pergunta de gestão. Também é erro usar somente despesas empenhadas como custo final de um atendimento.",
+      "example": "Uma prefeitura quer saber quanto custa vacinar uma pessoa. O objeto é cada vacinação; entram materiais usados e outros recursos relacionados ao serviço. Se a pergunta mudar para 'quanto custa manter o posto de saúde?', o objeto passa a ser o posto e a forma de distribuir os gastos pode mudar.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -761,10 +773,10 @@
       "aliases": [
         "SIC"
       ],
-      "definition": "Sistema que reúne dados de gastos e de serviços prestados para ajudar a calcular quanto custam as atividades de um órgão público. A sigla é SIC.",
-      "contrast": "O SIC fornece informações para calcular e analisar custos. Um painel só de despesas empenhadas não mostra, necessariamente, quanto recurso foi consumido para cada serviço.",
-      "cebraspeTrap": "Afirmar que disponibilizar painel com gastos empenhados, sem dados sobre recursos consumidos, basta para medir custos.",
-      "example": "O sistema cruza salários, materiais consumidos e número de atendimentos para estimar quanto custa cada atendimento.",
+      "definition": "É um sistema que reúne informações sobre recursos usados e serviços prestados pelo governo para ajudar a calcular quanto cada atividade custa. O Sistema de Informação de Custos (SIC) apoia decisões como comparar o custo de atendimentos, cursos ou unidades públicas.",
+      "contrast": "O sistema de custos não se limita à lista de despesas empenhadas no orçamento. Uma compra empenhada pode ficar em estoque e só virar custo quando o material for usado, conforme a regra aplicável. O SIC precisa relacionar recursos consumidos aos objetos de custo, isto é, aos serviços ou atividades que se deseja medir. Comparar unidades exige considerar diferenças de volume e tipo de atendimento.",
+      "cebraspeTrap": "O valor pago por materiais não é automaticamente igual ao custo dos serviços realizados naquele mês. Medir custo exige relacionar consumo e atividade, não apenas somar notas e empenhos.",
+      "example": "Uma unidade compra 1.000 doses de material, mas usa 600 no mês. Um painel de empenhos pode mostrar a compra inteira; para analisar o custo das vacinações do mês, o SIC precisa considerar o que foi efetivamente consumido e os demais recursos empregados, conforme os critérios do sistema.",
       "subjectIds": [
         "contabilidade-publica"
       ],

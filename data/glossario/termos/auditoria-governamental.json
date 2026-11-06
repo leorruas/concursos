@@ -6,10 +6,10 @@
       "id": "glo-ciclo-de-auditoria",
       "term": "Ciclo de auditoria",
       "aliases": [],
-      "definition": "Etapas de um trabalho de avaliação: planejar o exame, realizar os testes, comunicar os resultados e acompanhar as providências. A equipe pode voltar a etapas anteriores quando surgirem novas informações.",
-      "contrast": "O plano anual escolhe quais auditorias serão feitas. O planejamento de um trabalho detalha o que será examinado naquela auditoria.",
-      "cebraspeTrap": "Tratar essa sequência como regra idêntica para consultoria e apuração.",
-      "example": "Uma auditoria planeja testes, examina processos, comunica achados e acompanha as providências.",
+      "definition": "É a sequência de trabalho usada em uma auditoria de avaliação. A equipe prepara o que vai examinar, reúne e analisa provas, comunica o que encontrou e acompanha as providências adotadas. Quando aparece informação nova, pode ser necessário voltar a uma etapa anterior.",
+      "contrast": "O Plano Anual de Auditoria Interna (PAINT) escolhe quais trabalhos a unidade pretende realizar durante o ano. Já o planejamento de uma auditoria define as perguntas e os testes daquele trabalho. O monitoramento verifica as medidas adotadas após as recomendações. Trabalhos de consultoria e de apuração podem seguir caminhos diferentes, de acordo com sua finalidade e com as normas.",
+      "cebraspeTrap": "A banca pode apresentar planejamento, testes, relatório e monitoramento como etapas totalmente isoladas ou aplicar a mesma sequência, sem adaptações, a qualquer consultoria ou apuração.",
+      "example": "A equipe decide examinar pagamentos de bolsas. Primeiro define quais regras serão verificadas. Depois analisa processos e comprovantes, relata falhas e recomenda medidas. Meses depois, verifica se a gestão corrigiu os problemas. Se surgirem documentos novos durante os testes, pode ajustar o planejamento.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -31,10 +31,10 @@
       "id": "glo-universo-auditavel",
       "term": "Universo auditável",
       "aliases": [],
-      "definition": "Conjunto de atividades, processos, programas e unidades que a auditoria poderia examinar. É a lista de possibilidades antes de escolher os trabalhos.",
-      "contrast": "O universo auditável inclui mais objetos do que aqueles escolhidos para o Plano Anual de Auditoria Interna (PAINT).",
-      "cebraspeTrap": "Afirmar que todo objeto auditável necessariamente integra o plano anual.",
-      "example": "A equipe mapeia 40 processos e seleciona cinco para auditoria.",
+      "definition": "É o conjunto de assuntos que uma unidade de auditoria poderia examinar, como programas, contratos, sistemas, processos e setores. Funciona como um mapa das possibilidades antes de escolher quais trabalhos serão feitos.",
+      "contrast": "Universo auditável contém os objetos que podem ser examinados. O Plano Anual de Auditoria Interna (PAINT) registra os trabalhos selecionados para determinado ano, considerando riscos, prioridades e recursos disponíveis. Uma unidade auditável é um dos possíveis objetos, enquanto a unidade de auditoria é a equipe que realiza o exame.",
+      "cebraspeTrap": "Estar no universo auditável não obriga que o objeto seja auditado naquele ano. Confundir a lista de possibilidades com a seleção anual é uma troca de conceitos.",
+      "example": "Uma instituição identifica 40 processos que poderiam ser auditados, como compras, bolsas e folha de pagamento. Depois de analisar riscos e capacidade da equipe, inclui cinco trabalhos no PAINT. Os outros 35 continuam fazendo parte do universo auditável.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -56,10 +56,10 @@
       "id": "glo-modelo-das-tres-linhas",
       "term": "Modelo das três linhas",
       "aliases": [],
-      "definition": "Forma de distribuir responsabilidades: a primeira linha é a gestão que executa e controla atividades; a segunda ajuda a acompanhar riscos e conformidade; a terceira é a auditoria interna, que avalia de modo independente.",
-      "contrast": "A gestão responde por implantar e operar os controles. A auditoria interna examina como eles funcionam e não passa a administrá-los.",
-      "cebraspeTrap": "Atribuir a operação cotidiana dos controles à terceira linha.",
-      "example": "Gestores autorizam despesas, conformidade acompanha riscos e auditoria examina controles.",
+      "definition": "É um modelo que ajuda a separar quem administra riscos e controles de quem oferece avaliação independente. Na primeira linha estão os gestores e equipes que executam atividades e cuidam dos controles. Na segunda estão funções especializadas que apoiam e acompanham a gestão de riscos e a conformidade.",
+      "contrast": "As duas primeiras linhas fazem parte das responsabilidades da gestão, ainda que tenham funções diferentes. A terceira linha examina e recomenda, preservando independência em relação às atividades avaliadas. A auditoria pode prestar consultoria, mas não deve assumir decisões nem operar os controles em lugar dos gestores. Órgãos de governança e instâncias externas também têm papéis próprios no modelo. Na terceira está a auditoria interna, que oferece avaliação independente.",
+      "cebraspeTrap": "A banca pode entregar à terceira linha a tarefa de aprovar pagamentos, implantar controles ou administrar riscos. Essas são responsabilidades da gestão.",
+      "example": "Na concessão de benefícios, a área responsável confere documentos e autoriza pagamentos: primeira linha. Uma equipe de gestão de riscos orienta e acompanha os controles: segunda. A auditoria interna testa se as conferências funcionam e informa falhas: terceira.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -81,10 +81,10 @@
       "id": "glo-avaliacao-auditoria",
       "term": "Avaliação (auditoria)",
       "aliases": [],
-      "definition": "Trabalho em que a auditoria interna examina processos, resultados ou controles e apresenta uma conclusão independente, apoiada em critérios e provas.",
-      "contrast": "Avaliar significa verificar e concluir. Consultoria oferece orientação; apuração busca esclarecer possível irregularidade quando existe competência legal.",
-      "cebraspeTrap": "Classificar qualquer investigação de denúncia como avaliação sem examinar sua finalidade.",
-      "example": "A equipe examina a efetividade dos controles de concessão de benefício.",
+      "definition": "É um serviço em que a auditoria examina uma atividade, reúne provas e apresenta uma conclusão independente sobre como ela funciona. Pode avaliar controles, riscos, resultados ou o cumprimento de regras, conforme o objetivo do trabalho.",
+      "contrast": "Na avaliação, a equipe verifica informações para sustentar uma conclusão. Na consultoria, oferece orientação ou apoio sem decidir pela gestão. A apuração busca esclarecer possíveis irregularidades e depende de competência própria. O fato de uma avaliação apontar falhas não transforma automaticamente o trabalho em investigação de fraude.",
+      "cebraspeTrap": "Uma avaliação pode identificar irregularidades, mas sua finalidade não se torna automaticamente apuração. Para classificar o trabalho, observe o objetivo e a responsabilidade da equipe.",
+      "example": "A auditoria examina uma amostra de concessões de bolsas, compara os casos às regras de elegibilidade e conclui se os controles são adequados. A gestão continua responsável por corrigir o procedimento.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -110,10 +110,10 @@
       "id": "glo-consultoria-auditoria",
       "term": "Consultoria (auditoria)",
       "aliases": [],
-      "definition": "Trabalho em que a auditoria interna orienta gestores, oferece aconselhamento ou facilita discussões para melhorar a gestão, sem tomar as decisões por eles.",
-      "contrast": "O auditor pode recomendar caminhos e apoiar uma oficina. Os gestores continuam responsáveis por decidir e executar as mudanças.",
-      "cebraspeTrap": "Supor que recomendar melhorias transforma a auditoria em responsável por executá-las.",
-      "example": "A auditoria facilita uma oficina de riscos; gestores escolhem e implementam os controles.",
+      "definition": "É um serviço em que a auditoria interna oferece orientação, aconselhamento ou ajuda a organizar discussões para melhorar processos, riscos e controles. A gestão continua responsável por escolher e executar as medidas.",
+      "contrast": "Na avaliação, a auditoria reúne provas e apresenta uma conclusão independente sobre o objeto examinado. Na consultoria, pode facilitar oficinas e discutir alternativas, sem assumir o papel de gestor. Recomendar um controle não significa operá-lo. A atuação também deve preservar a objetividade da auditoria em futuras avaliações.",
+      "cebraspeTrap": "Uma oficina conduzida pela auditoria não autoriza que seus auditores passem a aprovar compras ou decidir quais riscos a gestão aceitará.",
+      "example": "Uma secretaria quer melhorar a análise de riscos em compras. A auditoria ajuda a conduzir uma oficina e apresenta métodos para identificar problemas. Os gestores escolhem as regras de aprovação e ficam responsáveis por aplicá-las.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -139,10 +139,10 @@
       "id": "glo-criterio-de-auditoria",
       "term": "Critério de auditoria",
       "aliases": [],
-      "definition": "Regra, meta, contrato ou outro padrão que indica como algo deveria funcionar. O auditor usa esse padrão para comparar com o que encontrou.",
-      "contrast": "Critério é o esperado; condição é o que ocorreu de fato. A diferença entre os dois pode formar um achado de auditoria.",
-      "cebraspeTrap": "Tratar uma irregularidade encontrada como se fosse o critério utilizado.",
-      "example": "Uma norma exige autorização prévia para conceder bolsas.",
+      "definition": "É a regra ou o padrão usado pelo auditor para saber como uma atividade deveria funcionar. Pode vir de lei, contrato, regulamento, meta ou outra referência adequada ao objetivo do exame.",
+      "contrast": "Critério descreve o esperado. Condição descreve o que foi encontrado. Causa procura explicar por que existe diferença. Efeito mostra a consequência ou o risco gerado pela diferença. Um achado pode reunir esses elementos, mas o critério não é a falha observada.",
+      "cebraspeTrap": "A banca pode chamar a irregularidade encontrada de critério. Critério é a referência usada para julgar a situação, não a própria situação.",
+      "example": "Uma norma exige autorização antes de conceder uma bolsa: esse é o critério. Ao examinar os processos, a equipe encontra quatro pagamentos sem autorização registrada: essa é a condição, que ainda precisa ser investigada e sustentada por provas.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -164,10 +164,10 @@
       "id": "glo-condicao-do-achado",
       "term": "Condição do achado",
       "aliases": [],
-      "definition": "O que o auditor encontrou de fato durante a verificação. É a situação observada, descrita com base nas provas obtidas.",
-      "contrast": "Condição é o que aconteceu ou foi encontrado. Critério é o que deveria acontecer; causa tenta explicar a diferença.",
-      "cebraspeTrap": "Confundir ausência de documento em um sistema com prova de que o ato nunca ocorreu.",
-      "example": "Quatro processos examinados não exibem autorização no sistema consultado.",
+      "definition": "É a situação que o auditor realmente encontrou ao examinar documentos, sistemas, pessoas ou operações. Precisa ser descrita com clareza e apoiada nas provas disponíveis.",
+      "contrast": "Condição é o que foi observado. Critério é o que a regra exigia. Causa é a explicação investigada para a diferença, e efeito é a consequência ou o risco. A ausência de documento em um sistema prova que ele não estava naquele local consultado; sozinha, não prova que nunca existiu.",
+      "cebraspeTrap": "É possível demonstrar ausência de registro na fonte examinada sem demonstrar ausência absoluta do ato. A banca pode transformar uma observação limitada em certeza que as provas não sustentam.",
+      "example": "A regra exige registro de aprovação antes de pagar. O auditor consulta vinte pagamentos e não encontra o registro em quatro deles na base examinada. Essa é a condição documentada. Antes de afirmar que não houve aprovação, precisa conferir outras fontes pertinentes.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -189,10 +189,10 @@
       "id": "glo-causa-do-achado",
       "term": "Causa do achado",
       "aliases": [],
-      "definition": "Motivo que ajuda a explicar por que a situação encontrada na auditoria ficou diferente do que deveria ocorrer. A causa precisa ser investigada e sustentada por provas.",
-      "contrast": "Causa é a explicação da falha; condição é a falha observada; efeito é sua consequência. Nem sempre é possível descobrir a causa principal.",
-      "cebraspeTrap": "Presumir dolo ou negligência apenas pela existência de uma falha.",
-      "example": "Problemas de arquivamento podem explicar documentos ausentes, após verificação.",
+      "definition": "É o motivo que explica, quando pode ser demonstrado, por que o que aconteceu ficou diferente da regra ou do resultado esperado. Identificar a causa ajuda a propor medidas que tratem a origem do problema.",
+      "contrast": "Condição é a falha encontrada; causa é por que ela aconteceu; efeito é o prejuízo ou risco que produziu; critério é o padrão esperado. A equipe não deve chamar uma hipótese de causa comprovada sem investigá-la. Pode haver várias causas, e nem sempre será possível identificar uma causa principal.",
+      "cebraspeTrap": "Ausência de documento não demonstra, por si só, fraude, descuido ou má-fé. Atribuir uma causa sem prova é uma conclusão além do achado.",
+      "example": "O auditor encontra processos sem aprovação registrada. Isso é a condição. Após entrevistas e exame do sistema, identifica que uma mudança retirou a etapa obrigatória do fluxo: essa pode ser a causa, desde que sustentada pelas evidências.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -214,10 +214,10 @@
       "id": "glo-suficiencia-da-evidencia",
       "term": "Suficiência da evidência",
       "aliases": [],
-      "definition": "Quantidade de provas necessária para que o auditor sustente uma conclusão de modo confiável, considerando o risco e o objetivo do trabalho.",
-      "contrast": "Suficiência trata da quantidade de evidência. Adequação trata da qualidade: se a prova é confiável e pertinente.",
-      "cebraspeTrap": "Afirmar que grande volume de dados ruins torna a evidência suficiente.",
-      "example": "Uma amostra estreita pode não sustentar uma conclusão sobre toda a população.",
+      "definition": "É a quantidade de provas necessária para sustentar a conclusão de uma auditoria. Quanto maior o risco ou mais importante a afirmação, maior pode ser a necessidade de reunir evidências, conforme o trabalho.",
+      "contrast": "Suficiência trata de quanto foi examinado. Adequação trata da qualidade das provas: elas precisam ser relevantes e confiáveis. Muitos documentos repetidos, incompletos ou sem relação com a pergunta não compensam a falta de provas adequadas. Também não existe um número único de documentos que sirva para toda auditoria.",
+      "cebraspeTrap": "A banca pode trocar quantidade por qualidade: uma pilha de documentos ruins não se torna suficiente apenas porque é grande.",
+      "example": "Uma equipe examina só dois pagamentos entre milhares e encontra um erro. Esses dois casos comprovam o que ocorreu neles, mas podem não bastar para concluir que metade de todos os pagamentos tem erro.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -243,10 +243,10 @@
       "id": "glo-adequacao-da-evidencia",
       "term": "Adequação da evidência",
       "aliases": [],
-      "definition": "Qualidade das provas usadas na auditoria: elas precisam ser confiáveis e ter relação com o que se quer demonstrar.",
-      "contrast": "Adequação examina a qualidade. Suficiência examina se a quantidade de provas basta para sustentar a conclusão.",
-      "cebraspeTrap": "Supor que multiplicar documentos compensa baixa confiabilidade ou irrelevância.",
-      "example": "Registros independentes, verificáveis e pertinentes tendem a sustentar melhor um achado.",
+      "definition": "É a qualidade da prova usada pelo auditor. Uma evidência adequada precisa ajudar a responder à pergunta da auditoria e ser confiável o suficiente para sustentar a conclusão.",
+      "contrast": "Adequação envolve relevância e confiabilidade; suficiência trata da quantidade necessária. Um registro confirmado por fonte independente pode ser mais confiável do que uma afirmação sem documento, conforme o contexto. Uma prova pode ser verdadeira e ainda assim não servir para demonstrar aquele ponto específico.",
+      "cebraspeTrap": "Ter muitas provas não elimina o problema de elas serem irrelevantes ou pouco confiáveis. Também não basta que a informação pareça oficial: é preciso verificar sua relação com a questão examinada.",
+      "example": "Para confirmar se um fornecedor recebeu, o auditor usa dados bancários verificáveis. Uma mensagem informal dizendo que o pagamento foi feito pode ajudar a investigar, mas não tem necessariamente a mesma força para comprovar a transferência.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -272,10 +272,10 @@
       "id": "glo-unidade-auditavel",
       "term": "Unidade auditável",
       "aliases": [],
-      "definition": "Parte do universo de auditoria escolhida como possível objeto de exame, como um programa, setor ou processo do órgão.",
-      "contrast": "Unidade auditável é aquilo que pode ser examinado. Unidade de Auditoria Interna é a equipe responsável por examinar.",
-      "cebraspeTrap": "Confundir a entidade responsável por auditar com o processo ou unidade que será auditado.",
-      "example": "A concessão de bolsas de uma secretaria pode ser objeto auditável, enquanto a auditoria interna é a equipe examinadora.",
+      "definition": "É um processo, programa, setor ou atividade que pode ser escolhido para exame pela auditoria. É aquilo que será observado, e não a equipe que fará o trabalho.",
+      "contrast": "Unidade auditável é um objeto possível do universo auditável, a lista de assuntos que a auditoria pode examinar. Unidade de Auditoria Interna Governamental (UAIG) é a equipe ou estrutura responsável por realizar auditorias. Um mesmo órgão pode ter várias unidades auditáveis, como compras, folha e concessão de bolsas.",
+      "cebraspeTrap": "A banca pode usar 'unidade auditável' para designar quem audita. O termo se refere ao objeto que pode ser examinado.",
+      "example": "A concessão de bolsas é uma unidade auditável. A equipe de auditoria interna examina as regras e os pagamentos desse processo. O setor que concede as bolsas mantém a responsabilidade de operá-lo.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -301,10 +301,10 @@
       "id": "glo-matriz-de-riscos",
       "term": "Matriz de riscos",
       "aliases": [],
-      "definition": "Tabela ou mapa que registra problemas que podem acontecer, sua chance e seu impacto e, conforme o método, controles e responsáveis. Ajuda a definir prioridades.",
-      "contrast": "Matriz de riscos descreve riscos da gestão. Matriz de planejamento organiza perguntas, critérios e testes de uma auditoria específica.",
-      "cebraspeTrap": "Tratar pontuação de uma matriz como prova automática de risco residual baixo ou como ordem obrigatória de auditoria.",
-      "example": "Uma matriz registra risco de pagamento duplicado, impacto estimado, probabilidade e controles existentes.",
+      "definition": "É uma tabela ou mapa que ajuda a organizar o que pode dar errado em uma atividade e qual seria a gravidade. Em geral, registra riscos, sua chance de ocorrer, possíveis impactos e, conforme o método, controles e responsáveis.",
+      "contrast": "Matriz de riscos ajuda a gestão ou a auditoria a identificar e priorizar riscos. Matriz de planejamento de auditoria organiza perguntas, critérios e testes de um trabalho específico. Uma pontuação de risco não comprova sozinha que um controle funciona: é necessário examinar como a pontuação foi calculada e o que ocorre na prática.",
+      "cebraspeTrap": "A banca pode apresentar a nota da matriz como prova definitiva de risco baixo ou confundir a matriz de riscos com o roteiro de testes da auditoria.",
+      "example": "Uma secretaria registra o risco de pagar a mesma bolsa duas vezes, avalia a chance e o impacto e identifica um bloqueio automático como controle. A auditoria pode depois verificar se esse bloqueio realmente funciona.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -330,10 +330,10 @@
       "id": "glo-risco-inerente",
       "term": "Risco inerente",
       "aliases": [],
-      "definition": "Chance de ocorrer um problema que prejudique um objetivo, avaliada antes de levar em conta os controles usados para evitá-lo ou reduzi-lo.",
-      "contrast": "Risco inerente é medido antes dos controles. Risco residual é o risco que continua existindo depois de considerar os controles em funcionamento.",
-      "cebraspeTrap": "Considerar que um controle previsto em regulamento já reduz o risco inerente por definição.",
-      "example": "O risco de pagar duas vezes um benefício é avaliado antes de considerar o bloqueio automático do sistema.",
+      "definition": "É o risco de algo prejudicar um objetivo antes de considerar o efeito dos controles adotados para reduzi-lo. A análise ajuda a entender a exposição inicial de uma atividade.",
+      "contrast": "Risco inerente é avaliado sem descontar o efeito dos controles. Risco residual é o que permanece depois de considerar os controles e as medidas que estão em funcionamento. A existência de uma regra escrita não diminui automaticamente o risco inerente nem prova que o risco residual é baixo.",
+      "cebraspeTrap": "A banca pode incluir um controle na definição de risco inerente. Esse efeito pertence à análise do risco residual.",
+      "example": "Antes de analisar as travas do sistema, a equipe considera o risco de pagar um benefício duas vezes. Essa é a avaliação do risco inerente. Depois, examina se o bloqueio de duplicidades está funcionando para estimar o risco residual.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -355,10 +355,10 @@
       "id": "glo-risco-residual",
       "term": "Risco residual",
       "aliases": [],
-      "definition": "Chance de um problema continuar acontecendo mesmo depois de considerar os controles e outras medidas que a gestão realmente colocou em prática.",
-      "contrast": "Residual não significa risco pequeno: controles ausentes, fracos ou mal executados podem deixar o risco alto.",
-      "cebraspeTrap": "Afirmar que todo risco residual é menor que o inerente ou baixo mesmo quando os controles falham.",
-      "example": "Um bloqueio de duplicidades que não opera adequadamente deixa exposição residual ainda elevada.",
+      "definition": "É o risco que continua existindo depois de considerar os controles e outras medidas usadas pela gestão. Os controles podem reduzir o risco, mas não garantem que ele desapareça.",
+      "contrast": "Risco inerente é examinado antes de considerar os controles. O residual considera os controles e sua efetividade. Se um bloqueio automático está previsto, mas não funciona, o risco residual pode continuar alto. Ele não é necessariamente pequeno nem igual a zero.",
+      "cebraspeTrap": "A simples presença de um controle não significa risco residual baixo. A banca pode confundir o controle desenhado com o controle funcionando.",
+      "example": "Um sistema deveria impedir pagamentos duplicados, mas a trava falha em vários casos. Apesar de o controle existir no papel, ainda há risco alto de pagar duas vezes; esse é o risco residual que a gestão precisa enfrentar.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -380,10 +380,10 @@
       "id": "glo-risco-de-auditoria",
       "term": "Risco de auditoria",
       "aliases": [],
-      "definition": "Possibilidade de o auditor chegar a uma conclusão errada sobre o que examinou, por falhas na análise, nas provas, no alcance do trabalho ou no julgamento.",
-      "contrast": "O risco da gestão é um problema acontecer no serviço público. O risco de auditoria é o auditor avaliar esse problema de forma errada.",
-      "cebraspeTrap": "Confundir risco de pagamento indevido pelo gestor com risco de o auditor concluir erroneamente que não houve falha.",
-      "example": "Selecionar somente registros fáceis de obter pode deixar uma conclusão de auditoria indevidamente otimista.",
+      "definition": "É a possibilidade de a equipe de auditoria chegar a uma conclusão incorreta sobre o assunto examinado. Isso pode acontecer por provas insuficientes, testes mal escolhidos, análise inadequada ou limitações do trabalho.",
+      "contrast": "Risco da gestão é, por exemplo, fazer pagamento indevido. Risco de auditoria é o auditor concluir erroneamente que os pagamentos estão corretos. Reunir evidências suficientes e adequadas e planejar bons testes ajuda a reduzir esse risco, mas não garante certeza absoluta.",
+      "cebraspeTrap": "O objeto do risco muda: um é o problema no processo público; o outro é o erro na conclusão da auditoria. A banca pode usar uma definição verdadeira na categoria errada.",
+      "example": "Um órgão tem pagamentos duplicados. A auditoria examina apenas os processos mais simples e conclui que não há problemas. A possibilidade de essa conclusão estar errada é risco de auditoria; a possibilidade de pagar duas vezes é risco da gestão.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -405,10 +405,10 @@
       "id": "glo-controles-internos",
       "term": "Controles internos",
       "aliases": [],
-      "definition": "Regras, conferências e procedimentos usados pela gestão para reduzir erros, evitar irregularidades e ajudar a atingir seus objetivos, sem garantir segurança total.",
-      "contrast": "A gestão implanta e opera os controles; a auditoria verifica se eles são adequados e funcionam. Controle previsto não é controle executado.",
-      "cebraspeTrap": "Atribuir à auditoria interna a implantação cotidiana dos controles ou exigir segurança absoluta.",
-      "example": "Uma dupla autorização para despesas é controle; o auditor examina se a autorização ocorreu na prática.",
+      "definition": "São regras, verificações e procedimentos que os gestores usam para reduzir erros, evitar irregularidades e aumentar a chance de cumprir os objetivos do órgão. Podem incluir autorizações, conferências, separação de tarefas e controles em sistemas.",
+      "contrast": "Os controles internos da gestão são criados e executados pelos responsáveis pelas atividades. A auditoria interna avalia se eles são adequados e funcionam, mas não deve passar a operá-los. Controles oferecem segurança razoável, não garantia de que nunca haverá falha. O Sistema de Controle Interno é uma estrutura institucional de controle e não sinônimo de cada conferência usada pela gestão.",
+      "cebraspeTrap": "A banca pode colocar a auditoria como responsável por aprovar diariamente os pagamentos ou afirmar que um controle bem desenhado elimina qualquer risco.",
+      "example": "Para pagar uma compra, o sistema exige que uma pessoa registre a despesa e outra autorize. Isso é controle interno da gestão. A auditoria examina se a segunda aprovação realmente aconteceu antes dos pagamentos.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -434,10 +434,10 @@
       "id": "glo-apuracao-auditoria",
       "term": "Apuração (auditoria)",
       "aliases": [],
-      "definition": "Trabalho para esclarecer fatos que podem ser irregulares, reunindo provas e identificando responsabilidades dentro das competências legais do órgão responsável.",
-      "contrast": "Avaliação e consultoria são trabalhos típicos da auditoria interna. A função de apurar irregularidades depende da competência prevista nas normas, e não cabe automaticamente a qualquer unidade.",
-      "cebraspeTrap": "Supor que toda unidade de auditoria interna pode investigar fraude só porque executa avaliações.",
-      "example": "Uma denúncia fundamentada exige identificar a autoridade competente para apurar os fatos e reunir evidências.",
+      "definition": "É um trabalho voltado a esclarecer fatos que podem representar irregularidades. Envolve reunir informações e provas para saber o que ocorreu e, quando a competência legal permitir, identificar possíveis responsabilidades.",
+      "contrast": "Avaliação examina processos, resultados ou controles para chegar a uma conclusão independente. Consultoria orienta a gestão. Apuração procura esclarecer possível irregularidade, mas não é atribuição automática de qualquer auditor: é preciso verificar as competências e o procedimento aplicável. Identificar indício de fraude não equivale a comprovar culpa.",
+      "cebraspeTrap": "A banca pode dizer que qualquer auditoria interna pode investigar e punir responsáveis ou tratar denúncia como prova. Competência, procedimento e evidência precisam ser separados.",
+      "example": "Uma denúncia afirma que alguns pagamentos foram desviados. A unidade verifica quem tem competência para apurar, reúne documentos e compara os registros. A simples denúncia inicia uma hipótese, não uma conclusão de que houve fraude.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -463,10 +463,10 @@
       "id": "glo-independencia-funcional",
       "term": "Independência funcional",
       "aliases": [],
-      "definition": "Condição que permite à auditoria escolher o que precisa examinar, executar testes e comunicar conclusões técnicas sem interferências indevidas.",
-      "contrast": "Independência protege a atuação da unidade. Objetividade é a imparcialidade exigida de cada auditor; uma unidade independente pode ter auditor com conflito de interesse.",
-      "cebraspeTrap": "Confundir revisão ou supervisão técnica regular com interferência indevida no trabalho.",
-      "example": "Uma autoridade tenta excluir transações sensíveis do exame sem justificativa técnica: há ameaça à independência.",
+      "definition": "É a condição institucional que permite à auditoria planejar, examinar informações e apresentar conclusões técnicas sem pressão ou interferência indevida de quem é avaliado. Ajuda a preservar a confiança no trabalho.",
+      "contrast": "Independência protege o espaço de atuação da unidade. Objetividade é a imparcialidade exigida de cada auditor. Uma equipe pode ter autonomia formal e, mesmo assim, um integrante apresentar conflito de interesse. Supervisão técnica e revisão de qualidade não são, por si, interferência indevida.",
+      "cebraspeTrap": "É incorreto supor que qualquer revisão de relatório viola a independência ou que autonomia institucional elimina conflitos individuais.",
+      "example": "Um dirigente tenta proibir, sem justificativa legal, o exame de pagamentos feitos por sua própria área. Isso ameaça a independência da auditoria. Já revisar tecnicamente se os testes foram bem documentados faz parte do controle de qualidade.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -488,10 +488,10 @@
       "id": "glo-objetividade",
       "term": "Objetividade",
       "aliases": [],
-      "definition": "Dever de o auditor analisar provas e chegar a conclusões com imparcialidade, reconhecendo situações em que seus interesses possam influenciar o julgamento.",
-      "contrast": "Objetividade é uma atitude individual. Independência funcional é a proteção institucional da auditoria contra interferências indevidas.",
-      "cebraspeTrap": "Afirmar que a autonomia formal da unidade elimina automaticamente impedimentos individuais.",
-      "example": "Um auditor que geriu diretamente a atividade examinada deve ter sua objetividade e salvaguardas avaliadas.",
+      "definition": "É o dever de cada auditor analisar informações com imparcialidade e chegar a conclusões guiadas pelas provas, sem favorecer interesses próprios ou de terceiros.",
+      "contrast": "Objetividade é a forma de julgar e agir do profissional. Independência funcional é a proteção institucional contra interferências. Um auditor que participou diretamente da decisão agora examinada pode ter sua objetividade ameaçada, mesmo quando a unidade de auditoria é independente. É necessário avaliar o impedimento e as medidas de proteção adequadas.",
+      "cebraspeTrap": "Autonomia da auditoria não torna cada auditor automaticamente imparcial em todos os trabalhos. O vínculo pessoal com o objeto também importa.",
+      "example": "Uma servidora ajudou a definir os pagamentos de determinado programa e depois foi designada para auditá-los. A equipe precisa avaliar o conflito antes de ela examinar decisões das quais participou.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -513,10 +513,10 @@
       "id": "glo-ceticismo-profissional",
       "term": "Ceticismo profissional",
       "aliases": [],
-      "definition": "Hábito de verificar informações e questionar explicações antes de aceitar uma conclusão, incluindo procurar fatos que contrariem a hipótese inicial.",
-      "contrast": "Ter ceticismo significa examinar criticamente as provas. Não autoriza presumir fraude nem ignorar evidências favoráveis à gestão.",
-      "cebraspeTrap": "Considerar que desconfiar de todo gestor dispensa examinar informações que inocentam a unidade.",
-      "example": "Um auditor confronta registros financeiros com explicações e procura evidência também para hipóteses alternativas.",
+      "definition": "É a postura de examinar criticamente explicações, documentos e dados antes de aceitar uma conclusão. O auditor procura provas que confirmem ou contrariem suas hipóteses e considera outras explicações possíveis.",
+      "contrast": "Ser cético não é presumir que toda pessoa agiu de má-fé. Também não é aceitar qualquer resposta sem verificação. A objetividade exige considerar evidências favoráveis e desfavoráveis à hipótese. Quando uma informação parece contraditória, o auditor investiga em vez de escolher apenas o dado que confirma sua suspeita.",
+      "cebraspeTrap": "A banca pode tratar desconfiança permanente como prova de ceticismo. O requisito é verificar as evidências de forma crítica, inclusive as que enfraquecem a suspeita inicial.",
+      "example": "O sistema aponta um pagamento aparentemente duplicado. O auditor compara datas, beneficiários e documentos e descobre que parte dos registros era apenas correção de lançamento. Só conclui sobre duplicidade real depois de verificar as operações.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -542,10 +542,10 @@
       "id": "glo-zelo-profissional",
       "term": "Zelo profissional",
       "aliases": [],
-      "definition": "Cuidado e atenção que o auditor deve ter ao planejar, examinar provas e concluir, levando em conta os riscos e a dificuldade do trabalho.",
-      "contrast": "Zelo é agir com cuidado e diligência. Proficiência é ter os conhecimentos e habilidades necessários. Nenhum dos dois garante encontrar toda fraude.",
-      "cebraspeTrap": "Exigir que o zelo profissional garanta identificação de todas as fraudes ou elimine todo risco de auditoria.",
-      "example": "O auditor aprofunda testes ao encontrar contradições relevantes e documenta por que alterou o alcance.",
+      "definition": "É o cuidado que o auditor deve aplicar ao preparar o trabalho, escolher testes, examinar provas e escrever conclusões. Envolve atenção à importância do assunto, aos riscos e às limitações do que foi possível verificar.",
+      "contrast": "Zelo é agir com cuidado e diligência. Proficiência é ter conhecimento e habilidades para executar o trabalho. Zelo não garante descobrir todas as fraudes nem eliminar qualquer possibilidade de erro. Diante de uma contradição importante, o auditor pode precisar ampliar testes e registrar por que o fez.",
+      "cebraspeTrap": "A banca pode definir zelo como garantia de encontrar todo erro ou fraude. O dever é aplicar cuidado profissional adequado, não prometer certeza absoluta.",
+      "example": "Durante uma auditoria de pagamentos, aparecem valores que não batem com os contratos. A equipe não ignora a diferença: verifica novas fontes, registra os testes e ajusta o alcance quando necessário.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -567,10 +567,10 @@
       "id": "glo-proficiencia",
       "term": "Proficiência",
       "aliases": [],
-      "definition": "Conhecimentos e habilidades necessários para fazer uma auditoria corretamente. A unidade deve reunir as competências exigidas pelo conjunto de trabalhos.",
-      "contrast": "Proficiência pode ser avaliada também na equipe. Isso não permite que alguém use uma técnica que desconhece sem apoio ou supervisão adequados.",
-      "cebraspeTrap": "Admitir que um auditor sem formação no método possa executá-lo sem apoio porque a equipe é qualificada.",
-      "example": "Para examinar um sistema complexo, a unidade reúne conhecimentos técnicos e, quando necessário, apoio especializado.",
+      "definition": "É o conjunto de conhecimentos e habilidades necessários para realizar uma auditoria com qualidade. A unidade precisa reunir pessoas preparadas para os assuntos e métodos envolvidos em seus trabalhos.",
+      "contrast": "Proficiência diz respeito à capacidade técnica; zelo diz respeito ao cuidado na execução. Uma equipe pode reunir diferentes especialidades, mas isso não autoriza um auditor a usar técnica que não domina sem apoio, capacitação ou supervisão adequados. A necessidade de especialista depende da dificuldade do objeto.",
+      "cebraspeTrap": "A banca pode dizer que basta haver uma pessoa qualificada na unidade para qualquer integrante executar sozinho um método desconhecido.",
+      "example": "Para auditar um sistema de pagamentos, a equipe tem profissionais de auditoria e procura apoio técnico em análise de dados ou segurança da informação quando necessário.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -596,10 +596,10 @@
       "id": "glo-sigilo-profissional",
       "term": "Sigilo profissional",
       "aliases": [],
-      "definition": "Dever de proteger e usar corretamente informações obtidas durante a auditoria, compartilhando-as apenas pelos canais e limites previstos nas normas.",
-      "contrast": "Proteger dados pessoais não impede comunicar problemas importantes à autoridade competente. É preciso separar o conteúdo institucional da informação protegida.",
-      "cebraspeTrap": "Achar que documento fora do escopo perdeu proteção ou que todo achado deve ser publicado com dados pessoais.",
-      "example": "A equipe comunica a falha relevante à autoridade competente e protege os dados individuais na versão pública.",
+      "definition": "É o dever de proteger as informações obtidas na auditoria e compartilhá-las apenas nas situações e pelos canais permitidos. Isso inclui dados pessoais, documentos protegidos e informações que possam causar danos se divulgadas indevidamente.",
+      "contrast": "Sigilo não impede que o auditor comunique problemas às autoridades competentes. Significa usar a informação de forma correta, distinguindo o que deve constar de um relatório institucional do que precisa de proteção. Um documento não perde sigilo automaticamente por estar fora do foco principal do trabalho.",
+      "cebraspeTrap": "A banca pode dizer que sigilo proíbe toda comunicação de achados ou que é obrigatório divulgar dados pessoais para tornar o relatório transparente.",
+      "example": "A auditoria identifica falha em cadastro com informações de beneficiários. Comunica a falha e as providências necessárias, mas evita divulgar nomes e dados sensíveis na versão pública quando não houver base legal para isso.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -627,10 +627,10 @@
       "aliases": [
         "Plano Anual de Auditoria Interna"
       ],
-      "definition": "Plano Anual de Auditoria Interna: documento que indica quais trabalhos e atividades a unidade pretende realizar durante o ano, considerando riscos e recursos disponíveis.",
-      "contrast": "O PAINT organiza o ano da unidade. O programa de trabalho descreve os testes de uma auditoria específica. A sigla RAINT refere-se ao relatório das atividades realizadas.",
-      "cebraspeTrap": "Tratar todos os objetos de risco alto como trabalhos de inclusão automática, independentemente da capacidade da unidade.",
-      "example": "A unidade reserva horas para avaliações, consultorias, monitoramento, capacitação e demandas extraordinárias.",
+      "definition": "É o documento que organiza os trabalhos e outras atividades de uma unidade de auditoria interna ao longo de um ano. O Plano Anual de Auditoria Interna (PAINT) considera riscos, prioridades, capacidade da equipe e recursos disponíveis.",
+      "contrast": "PAINT mostra o que a unidade pretende fazer no ano. O programa de trabalho descreve os testes de uma auditoria específica. O Relatório Anual de Atividades de Auditoria Interna (RAINT) apresenta o que foi efetivamente realizado. Ter um objeto de risco alto não significa inclusão automática no plano, pois é necessário escolher prioridades e considerar recursos.",
+      "cebraspeTrap": "O PAINT não é relatório do trabalho já concluído nem lista obrigatória de todos os objetos de risco elevado.",
+      "example": "A auditoria mapeia vários processos de alto risco, mas dispõe de equipe para cinco trabalhos. Inclui as prioridades no PAINT e reserva tempo para monitoramento de recomendações e outras atividades previstas.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -642,8 +642,8 @@
       ],
       "sources": [
         {
-          "label": "CGU: IN SFC nº 5/2021, PAINT e RAINT",
-          "url": "https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_5%2C_de_27_de_agosto_de_20218"
+          "label": "CGU: IN SFC nº 5/2021, PAINT e RAINT (texto oficial)",
+          "url": "https://repositorio.cgu.gov.br/xmlui/bitstream/handle/1/66718/IN_5_2021.pdf?isAllowed=y&sequence=4"
         }
       ],
       "status": "reviewed"
@@ -654,10 +654,10 @@
       "aliases": [
         "Relatório Anual de Atividades de Auditoria Interna"
       ],
-      "definition": "Relatório Anual de Atividades de Auditoria Interna: documento que conta quais trabalhos a unidade realizou no ano, seus resultados e as diferenças em relação ao plano.",
-      "contrast": "RAINT descreve o que foi feito e os resultados. PAINT é o plano do que se pretende fazer. Relatório de auditoria trata de um trabalho específico.",
-      "cebraspeTrap": "Trocar RAINT pelo plano de atividades futuras ou pelo relatório final de cada auditoria.",
-      "example": "Ao fim do exercício, a unidade compara trabalhos previstos e realizados e registra fatores que impediram a execução.",
+      "definition": "É o documento que apresenta os trabalhos e atividades realizados pela auditoria interna durante o ano e permite comparar o realizado com o planejado. O Relatório Anual de Atividades de Auditoria Interna (RAINT) também explica diferenças relevantes entre plano e execução.",
+      "contrast": "PAINT registra as atividades previstas; RAINT informa as executadas. O relatório de auditoria descreve resultados de um trabalho específico, enquanto o RAINT apresenta a visão do conjunto anual. Se uma auditoria planejada não foi realizada, o RAINT pode explicar a razão, em vez de tratá-la como concluída.",
+      "cebraspeTrap": "A banca pode inverter as siglas e chamar RAINT de plano futuro ou PAINT de relatório do que já aconteceu.",
+      "example": "O PAINT previa seis avaliações e duas consultorias. No fim do ano, o RAINT registra cinco avaliações concluídas, as consultorias realizadas e o motivo de uma avaliação ter sido adiada.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -669,8 +669,8 @@
       ],
       "sources": [
         {
-          "label": "CGU: IN SFC nº 5/2021, PAINT e RAINT",
-          "url": "https://wiki.cgu.gov.br/index.php/Instru%C3%A7%C3%A3o_Normativa_n%C2%BA_5%2C_de_27_de_agosto_de_20218"
+          "label": "CGU: IN SFC nº 5/2021, PAINT e RAINT (texto oficial)",
+          "url": "https://repositorio.cgu.gov.br/xmlui/bitstream/handle/1/66718/IN_5_2021.pdf?isAllowed=y&sequence=4"
         }
       ],
       "status": "reviewed"
@@ -679,10 +679,10 @@
       "id": "glo-matriz-de-planejamento",
       "term": "Matriz de planejamento",
       "aliases": [],
-      "definition": "Tabela usada antes dos testes para organizar o que a auditoria quer descobrir, as regras de comparação, as fontes de informação e os procedimentos previstos.",
-      "contrast": "A matriz de planejamento organiza perguntas e testes. A matriz de achados reúne os resultados verificados após a coleta de evidências.",
-      "cebraspeTrap": "Tratar um possível achado previsto na matriz como irregularidade já comprovada.",
-      "example": "A questão sobre bolsas irregulares é ligada ao critério de elegibilidade e às bases de dados a examinar.",
+      "definition": "É uma tabela preparada para organizar uma auditoria antes de executar os testes. Reúne perguntas que a equipe quer responder, critérios de comparação, informações necessárias, fontes e procedimentos previstos.",
+      "contrast": "Matriz de planejamento organiza o exame que será feito. Matriz de riscos registra o que pode dar errado e sua importância. Matriz de achados reúne as situações encontradas, com provas e análises. Uma hipótese escrita no planejamento não é uma irregularidade já demonstrada.",
+      "cebraspeTrap": "A banca pode chamar uma suspeita colocada na matriz de planejamento de achado confirmado. O teste ainda precisa ser realizado.",
+      "example": "A equipe quer saber se as bolsas foram concedidas a pessoas elegíveis. Na matriz, registra a pergunta, a regra de elegibilidade, o cadastro que será consultado e os testes previstos.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -704,10 +704,10 @@
       "id": "glo-programa-de-trabalho",
       "term": "Programa de trabalho",
       "aliases": [],
-      "definition": "Roteiro que especifica quais testes o auditor fará, em quais registros, com que alcance e quem ficará responsável por cada procedimento.",
-      "contrast": "O programa de trabalho detalha como executar uma auditoria. O PAINT seleciona e programa trabalhos ao longo do ano.",
-      "cebraspeTrap": "Confundir programa de trabalho com PAINT ou com a ordem interna que formaliza a auditoria.",
-      "example": "A equipe define quais pagamentos amostrar, como confrontar registros e quem executará os testes.",
+      "definition": "É o roteiro dos procedimentos que serão executados em uma auditoria específica. Indica quais registros examinar, como fazer os testes, qual período ou quantidade será analisada e quem ficará responsável pelas tarefas.",
+      "contrast": "O PAINT organiza os trabalhos da unidade ao longo de todo o ano. O programa de trabalho detalha como realizar um desses trabalhos. A matriz de planejamento ajuda a ligar perguntas e critérios aos procedimentos. Uma programação anual não substitui a descrição dos testes concretos.",
+      "cebraspeTrap": "A banca pode confundir o plano anual da unidade com o roteiro técnico de uma auditoria específica.",
+      "example": "Para examinar pagamentos, o programa prevê selecionar registros de janeiro a junho, comparar valores com contratos e verificar autorizações anteriores, definindo responsáveis e documentação dos resultados.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -733,10 +733,10 @@
       "id": "glo-efeito-do-achado",
       "term": "Efeito do achado",
       "aliases": [],
-      "definition": "Consequência já ocorrida ou que pode ocorrer por causa de um problema encontrado na auditoria, descrita conforme as provas disponíveis.",
-      "contrast": "Um risco de prejuízo é efeito possível. Para afirmar que já houve perda de dinheiro, o auditor precisa demonstrar o prejuízo.",
-      "cebraspeTrap": "Atribuir prejuízo já consumado quando a auditoria apenas demonstrou possibilidade de pagamento indevido.",
-      "example": "Uma autorização ausente pode elevar o risco de concessão irregular sem provar desembolso indevido.",
+      "definition": "É a consequência de uma diferença encontrada na auditoria, ou o problema que pode ocorrer por causa dela. O efeito pode ser um prejuízo já demonstrado ou um risco ainda não concretizado.",
+      "contrast": "Condição é o que foi encontrado; causa explica a diferença; efeito mostra sua consequência; critério é a regra esperada. Dizer que existe risco de pagamento indevido não significa provar que o dinheiro já foi perdido. O relatório precisa distinguir efeito real de efeito possível.",
+      "cebraspeTrap": "A banca pode apresentar risco potencial como dano efetivamente comprovado. A conclusão deve ficar dentro do que as provas sustentam.",
+      "example": "A equipe descobre que pagamentos não passaram pela dupla aprovação exigida. Isso aumenta o risco de pagamentos indevidos. Para afirmar que houve prejuízo de R$ 20 mil, ainda precisa localizar pagamentos errados e demonstrar esse valor.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -758,10 +758,10 @@
       "id": "glo-papeis-de-trabalho",
       "term": "Papéis de trabalho",
       "aliases": [],
-      "definition": "Registros que permitem entender como a auditoria foi feita: quais documentos foram examinados, quais testes foram aplicados e por que a equipe chegou a cada conclusão.",
-      "contrast": "Guardar apenas o relatório final não basta. Os papéis de trabalho precisam permitir reconstituir os testes e verificar as provas.",
-      "cebraspeTrap": "Afirmar que uma planilha sem origem, critérios ou registro do teste já documenta integralmente a auditoria.",
-      "example": "A equipe guarda população examinada, método de seleção, resultados, tratamento de exceções e revisão.",
+      "definition": "São os registros que mostram como uma auditoria foi feita e quais provas sustentam suas conclusões. Podem incluir planilhas, documentos, resultados de testes, explicações de escolhas e registros de revisão.",
+      "contrast": "O relatório final comunica conclusões, mas não substitui os papéis de trabalho. A documentação precisa permitir que outra pessoa com conhecimento adequado entenda o caminho percorrido, as fontes, o método e os resultados. Guardar uma planilha sem informar origem ou critério de seleção não basta.",
+      "cebraspeTrap": "Uma tabela com números soltos não comprova que os testes foram planejados, executados e revisados corretamente.",
+      "example": "Ao examinar 60 pagamentos, a equipe registra como escolheu a amostra, quais documentos consultou, quais diferenças encontrou e como resolveu cada exceção. Esses registros permitem revisar a conclusão depois.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -787,10 +787,10 @@
       "id": "glo-teste-de-controles",
       "term": "Teste de controles",
       "aliases": [],
-      "definition": "Exame para verificar se uma regra ou conferência destinada a prevenir erros foi bem planejada e funcionou de verdade durante o período analisado.",
-      "contrast": "O teste de controles avalia como o controle funciona. O teste substantivo procura verificar diretamente se operações, valores ou saldos estão corretos.",
-      "cebraspeTrap": "Classificar toda inspeção documental como teste substantivo, mesmo quando verifica execução de controle.",
-      "example": "O auditor examina logs para verificar se a segunda aprovação exigida ocorreu antes dos pagamentos.",
+      "definition": "É o exame que verifica se uma regra ou procedimento usado para evitar erros funciona de verdade. A auditoria pode verificar se o controle foi bem definido e se foi aplicado nas operações examinadas.",
+      "contrast": "Teste de controles pergunta 'o mecanismo de prevenção ou detecção funcionou?'. Teste substantivo pergunta 'o valor, saldo ou operação está correto?'. Os dois podem usar contratos, documentos e sistemas; a diferença é a pergunta do teste. Encontrar uma regra escrita não prova que ela foi cumprida.",
+      "cebraspeTrap": "O uso de documento ou sistema não torna um teste automaticamente substantivo. O objetivo é que define o tipo de teste.",
+      "example": "O sistema exige duas aprovações antes de pagar. O auditor examina registros de acesso e horários para saber se a segunda aprovação ocorreu nos pagamentos selecionados. Ele está testando o controle.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -812,10 +812,10 @@
       "id": "glo-teste-substantivo",
       "term": "Teste substantivo",
       "aliases": [],
-      "definition": "Exame direto de operações, valores ou saldos para verificar possíveis erros, usando documentos, cálculos, comparações ou análise de dados.",
-      "contrast": "Pode usar os mesmos tipos de documentos de um teste de controle. A diferença é o objetivo: testar o resultado ou testar o controle que deveria preveni-lo.",
-      "cebraspeTrap": "Chamar teste de controle todo exame que use um sistema informatizado ou um documento.",
-      "example": "Comparar valores pagos com contratações e documentos comprobatórios examina a correção das operações.",
+      "definition": "É o exame direto de operações, valores ou saldos para verificar se estão corretos. Pode envolver conferir documentos, refazer contas, comparar dados ou buscar provas externas.",
+      "contrast": "Teste substantivo verifica diretamente o resultado registrado; teste de controles verifica se o procedimento que deveria evitar erros funcionou. É possível consultar os mesmos documentos nos dois tipos de teste, mas com perguntas diferentes. Confirmar que houve duas autorizações testa o controle; conferir se o valor pago corresponde ao contrato testa a operação.",
+      "cebraspeTrap": "A banca pode classificar todo exame de documento eletrônico como teste de controles. O tipo depende do que se quer demonstrar.",
+      "example": "O auditor seleciona pagamentos e confere se os valores transferidos coincidem com os contratos e os serviços comprovados. Esse é um teste substantivo, porque examina diretamente a correção dos pagamentos.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -837,10 +837,10 @@
       "id": "glo-amostragem-estatistica",
       "term": "Amostragem estatística",
       "aliases": [],
-      "definition": "Escolha de parte dos registros com método probabilístico que permite estimar resultados do conjunto maior e medir a incerteza da estimativa.",
-      "contrast": "Uma seleção aleatória isolada não basta: é preciso definir a população e usar método de cálculo adequado para fazer inferências estatísticas.",
-      "cebraspeTrap": "Generalizar percentual de erros da amostra para o universo sem considerar desenho e erro amostral.",
-      "example": "Uma amostra probabilística de pagamentos é analisada com estimativa e margem de incerteza coerentes.",
+      "definition": "É a escolha de parte dos registros para uma auditoria usando um método de seleção probabilístico e uma forma adequada de avaliar os resultados para o conjunto maior. Permite fazer estimativas e indicar a incerteza dessas estimativas.",
+      "contrast": "Amostragem estatística exige mais do que selecionar alguns itens ao acaso: a população precisa estar definida e o método deve permitir calcular o erro de amostragem. Amostragem não estatística usa julgamento ou outros critérios sem sustentar inferência estatística para toda a população. Encontrar uma porcentagem na amostra não garante que seja a mesma porcentagem no universo.",
+      "cebraspeTrap": "A banca pode apresentar seleção casual de poucos casos como prova de uma taxa exata de erro na população. A inferência depende do método.",
+      "example": "Uma equipe sorteia pagamentos conforme um plano probabilístico e usa método adequado para estimar a proporção de falhas em todos os pagamentos, informando a incerteza. A conclusão não pode ignorar o desenho da amostra.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -862,10 +862,10 @@
       "id": "glo-amostragem-nao-estatistica",
       "term": "Amostragem não estatística",
       "aliases": [],
-      "definition": "Escolha de registros por julgamento do auditor ou pelo risco, sem método probabilístico que permita estimar com precisão o resultado de todos os registros.",
-      "contrast": "Pode revelar erros nos itens examinados, mas não autoriza afirmar uma taxa de erro estatística para toda a população.",
-      "cebraspeTrap": "Afirmar que identificar 12 falhas em 60 itens escolhidos por suspeita prova taxa de 20% na população.",
-      "example": "O auditor seleciona pagamentos incomuns para testar hipóteses de fraude, sem generalizar a taxa encontrada.",
+      "definition": "É a escolha de registros para exame usando julgamento profissional, critérios de risco ou outras regras que não permitem calcular estatisticamente o erro da estimativa para toda a população.",
+      "contrast": "Amostragem não estatística pode ser útil para investigar casos relevantes, mas o resultado encontrado nesses casos não determina uma taxa de erro do conjunto inteiro. Na estatística, a seleção e a avaliação seguem método que permite estimar resultados da população e sua incerteza. A escolha de casos suspeitos tende a concentrar situações diferentes da média.",
+      "cebraspeTrap": "A banca pode usar a fração de erros entre itens selecionados por julgamento como se fosse estimativa estatística do universo.",
+      "example": "O auditor escolhe 60 pagamentos com sinais de risco e encontra 12 falhas. Pode descrever essas 12 falhas, mas não concluir que exatamente 20% de todos os pagamentos estão errados, porque os 60 foram escolhidos por suspeita.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -887,10 +887,10 @@
       "id": "glo-recomendacao-de-auditoria",
       "term": "Recomendação de auditoria",
       "aliases": [],
-      "definition": "Proposta feita pela auditoria para corrigir um problema encontrado ou melhorar os controles, com fundamento nas provas e na análise das causas.",
-      "contrast": "Recomendar é indicar providências. A gestão decide e executa a medida; a recomendação não é um dos quatro componentes do achado: critério, condição, causa e efeito.",
-      "cebraspeTrap": "Tratar a própria auditoria como responsável por implementar o controle recomendado.",
-      "example": "A equipe recomenda aperfeiçoar validações de elegibilidade; a unidade auditada decide e executa a ação.",
+      "definition": "É uma proposta da auditoria para corrigir uma falha ou melhorar controles, baseada no que foi examinado. Deve ajudar a gestão a enfrentar a causa do problema ou reduzir seus efeitos e riscos.",
+      "contrast": "Critério, condição, causa e efeito ajudam a construir e explicar um achado. Recomendação é a providência proposta depois da análise, não um desses quatro elementos. A auditoria recomenda e acompanha, enquanto os gestores continuam responsáveis por decidir e executar o que cabe a eles.",
+      "cebraspeTrap": "A banca pode dizer que a auditoria deve operar o controle que recomendou ou que recomendação é sinônimo de causa do achado.",
+      "example": "A auditoria encontra pagamentos sem conferência e verifica que o sistema não exige a segunda aprovação. Recomenda criar verificação adequada antes do pagamento. A área gestora decide e implanta a medida, e a auditoria acompanha o resultado.",
       "subjectIds": [
         "auditoria-governamental"
       ],
@@ -912,10 +912,10 @@
       "id": "glo-monitoramento-de-recomendacoes",
       "term": "Monitoramento de recomendações",
       "aliases": [],
-      "definition": "Acompanhamento feito pela auditoria para verificar se a gestão adotou as providências recomendadas e se elas resolveram ou reduziram o problema.",
-      "contrast": "Uma resposta dizendo que a medida foi criada não prova que ela funciona. O monitoramento pode precisar testar seu efeito real.",
-      "cebraspeTrap": "Encerrar acompanhamento como totalmente atendido apenas com relato de instalação de controle não testado.",
-      "example": "Depois de criado um bloqueio de pagamentos, a auditoria verifica se ele funciona nas operações reais.",
+      "definition": "É o acompanhamento feito pela auditoria para verificar se a gestão adotou as providências propostas e se elas resolveram ou reduziram o problema identificado. Pode exigir novos documentos e testes.",
+      "contrast": "A gestão executa as mudanças; a auditoria verifica as evidências de atendimento e seus resultados. Um memorando dizendo que o controle foi criado não comprova que ele funciona. Monitoramento ocorre depois das recomendações e pode levar a ajustes ou novas providências, conforme a análise.",
+      "cebraspeTrap": "Considerar recomendação atendida só porque a gestão declarou que fez a mudança pode confundir providência comunicada com controle efetivo.",
+      "example": "Após recomendar um bloqueio contra pagamentos duplicados, a auditoria volta a examinar operações reais. Se o sistema continuar permitindo duplicidades, o problema ainda não foi resolvido apenas porque a instalação foi anunciada.",
       "subjectIds": [
         "auditoria-governamental"
       ],

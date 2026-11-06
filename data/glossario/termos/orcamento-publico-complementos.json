@@ -6,10 +6,10 @@
       "id": "glo-receita-efetiva",
       "term": "Receita efetiva",
       "aliases": [],
-      "definition": "Receita orçamentária que, ao ser reconhecida no patrimônio, aumenta o patrimônio líquido da entidade. É o caso de muitos tributos quando surge o direito de recebê-los.",
-      "contrast": "Efetiva indica aumento do patrimônio líquido. Corrente ou de capital indica o tipo da receita no orçamento; uma classificação não substitui a outra.",
-      "cebraspeTrap": "Afirmar que toda receita corrente é efetiva ou que receita de capital nunca pode aumentar o patrimônio líquido.",
-      "example": "Uma receita tributária reconhecida segundo as regras patrimoniais pode aumentar o patrimônio líquido do ente.",
+      "definition": "É uma receita do orçamento que aumenta o patrimônio líquido do governo quando acontece o fato que deve ser reconhecido na contabilidade. Isso significa que o governo ficou com mais patrimônio, e não apenas trocou um tipo de bem ou direito por outro.",
+      "contrast": "Efetiva ou não efetiva indica o efeito sobre o patrimônio líquido. Corrente ou de capital indica o tipo de receita no orçamento, o que responde a outra pergunta. Um imposto pode aumentar o patrimônio quando surge o direito de recebê-lo; a entrada posterior no banco só troca o valor a receber por caixa. Um empréstimo recebido cria dinheiro e dívida ao mesmo tempo, por isso normalmente é receita orçamentária não efetiva.",
+      "cebraspeTrap": "Não confundir receita orçamentária arrecadada com aumento patrimonial no mesmo momento. Classificar como corrente não determina, sozinho, se a receita é efetiva.",
+      "example": "A prefeitura registra R$ 1 mil de imposto devido e, conforme os critérios de reconhecimento, esse fato aumenta seu patrimônio líquido em R$ 1 mil. Quando o contribuinte paga, o valor deixa de estar como crédito a receber e passa ao banco: não há um segundo ganho patrimonial pelo mesmo imposto.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -31,10 +31,10 @@
       "id": "glo-receita-nao-efetiva",
       "term": "Receita não efetiva",
       "aliases": [],
-      "definition": "Receita orçamentária que, no evento analisado, não aumenta o patrimônio líquido, porque o ingresso vem acompanhado de uma obrigação ou de outra troca patrimonial.",
-      "contrast": "Um empréstimo comum recebido aumenta o caixa e a dívida ao mesmo tempo. É receita orçamentária de capital não efetiva, e não ingresso extraorçamentário.",
-      "cebraspeTrap": "Concluir que entrada de operação de crédito comum não é receita orçamentária porque não aumenta o patrimônio líquido.",
-      "example": "Um empréstimo recebido eleva caixa e passivo simultaneamente, sendo receita orçamentária de capital não efetiva.",
+      "definition": "É uma receita registrada no orçamento cujo recebimento, na operação analisada, não aumenta o patrimônio líquido do governo. Isso acontece quando o dinheiro entra acompanhado de uma dívida ou quando apenas se troca um direito ou bem por dinheiro.",
+      "contrast": "Receita orçamentária não efetiva continua sendo receita do orçamento: o nome não significa que o dinheiro deixou de entrar. Um empréstimo recebido, por exemplo, eleva o caixa e a dívida. Receita efetiva, por outro lado, corresponde a fato que aumenta o patrimônio líquido. A classificação efetiva/não efetiva não é igual à divisão entre receitas correntes e de capital.",
+      "cebraspeTrap": "A banca pode afirmar que empréstimo não é receita orçamentária porque cria dívida. Ele pode ser receita orçamentária não efetiva: o efeito patrimonial é outra classificação.",
+      "example": "O município toma empréstimo de R$ 50 mil: entram R$ 50 mil no banco, mas surge obrigação de devolver R$ 50 mil. É receita orçamentária de capital não efetiva. O governo tem mais dinheiro e também mais dívida, de modo que não ficou R$ 50 mil mais rico por causa desse recebimento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -56,10 +56,10 @@
       "id": "glo-lancamento-da-receita",
       "term": "Lançamento da receita",
       "aliases": [],
-      "definition": "Etapa em que a administração identifica um crédito a receber, verifica a origem, calcula o valor e identifica quem deve pagar, quando a lei prevê lançamento.",
-      "contrast": "Lançar não significa receber dinheiro. Nem toda receita passa por lançamento; para tributos, o CTN define como o crédito é constituído.",
-      "cebraspeTrap": "Afirmar que toda receita orçamentária exige lançamento ou que crédito lançado já foi recebido pelo Tesouro.",
-      "example": "O órgão lança crédito tributário em março e o contribuinte somente paga em maio.",
+      "definition": "É uma etapa usada para identificar e formalizar um valor que alguém deve pagar ao governo, quando a lei exige esse procedimento.",
+      "contrast": "Prever receita é estimar quanto entrará no orçamento; lançar é identificar e constituir uma cobrança nos casos previstos; arrecadar é receber o pagamento; recolher é transferir o valor arrecadado ao caixa do Tesouro, quando há agente arrecadador. Nem toda receita precisa de lançamento: uma doação recebida, por exemplo, não segue necessariamente a mesma etapa de um imposto lançado. No caso de tributos, o lançamento verifica o fato previsto em lei, calcula o valor devido e identifica o contribuinte; o Código Tributário Nacional, art. 142, trata da constituição do crédito tributário.",
+      "cebraspeTrap": "Crédito tributário lançado não é dinheiro já recebido. Também não se deve dizer que todas as receitas passam obrigatoriamente por lançamento.",
+      "example": "Em março, o município lança R$ 800 de imposto devido por um contribuinte. Ele ainda não pagou: há cobrança, mas não arrecadação. Em maio, paga os R$ 800 no banco autorizado: ocorre arrecadação e, conforme o procedimento, o valor é recolhido ao Tesouro.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -85,10 +85,10 @@
       "id": "glo-recolhimento-da-receita",
       "term": "Recolhimento da receita",
       "aliases": [],
-      "definition": "Etapa em que os valores já recebidos por bancos ou outros agentes arrecadadores são transferidos à tesouraria pública, quando a etapa é aplicável.",
-      "contrast": "Arrecadação é o recebimento pelo agente autorizado. Recolhimento é a entrega desses valores ao caixa do Tesouro; os dois podem ocorrer quase ao mesmo tempo.",
-      "cebraspeTrap": "Tratar previsão e arrecadação como sinônimos de recolhimento ou exigir intervalo temporal entre atos.",
-      "example": "Banco recebe tributo e transfere o valor ao caixa do Tesouro: a transferência caracteriza o recolhimento.",
+      "definition": "É a etapa em que o dinheiro que já foi recebido por um banco ou outro agente arrecadador é transferido ao caixa do Tesouro público. A etapa ocorre quando existe esse caminho de arrecadação e faz parte do controle de onde os valores públicos estão.",
+      "contrast": "Arrecadação é quando o contribuinte ou pagador entrega o dinheiro ao agente autorizado. Recolhimento é quando esse agente encaminha o valor ao Tesouro. Previsão é apenas estimativa, e lançamento é a identificação formal de uma cobrança nos casos previstos. Arrecadação e recolhimento podem ocorrer com intervalo muito pequeno ou praticamente no mesmo momento.",
+      "cebraspeTrap": "Lançar, arrecadar e recolher são ações diferentes. O fato de ocorrerem rapidamente não autoriza trocar seus significados.",
+      "example": "Uma pessoa paga R$ 300 de tributo em um banco autorizado na segunda-feira: o banco arrecada. Quando ele transfere os R$ 300 para a conta do Tesouro, ocorre o recolhimento. O fato de o imposto já ter sido lançado antes não quer dizer que houve arrecadação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -114,10 +114,10 @@
       "id": "glo-dotacao-orcamentaria",
       "term": "Dotação orçamentária",
       "aliases": [],
-      "definition": "Valor autorizado no orçamento para uma despesa ou programação. É o limite legal inicial que pode ser alterado por créditos adicionais e outras mudanças previstas.",
-      "contrast": "Dotação autoriza gastar até certo valor, mas empenhar compromete uma parte dela. Ter dotação não significa ter dinheiro em caixa para pagar imediatamente.",
-      "cebraspeTrap": "Concluir que dotação autorizada significa dinheiro já transferido ao fornecedor ou disponível para pagamento imediato.",
-      "example": "A lei reserva recursos a um laboratório, mas nenhuma compra foi ainda empenhada.",
+      "definition": "É a quantia que o orçamento autoriza o governo a gastar em determinada atividade ou finalidade. A dotação indica um limite de despesa, não um depósito de dinheiro. Seu valor pode mudar durante o ano por créditos adicionais e outras alterações permitidas.",
+      "contrast": "Dotação é autorização. Saldo de dotação é a parte ainda não comprometida. Empenho registra o compromisso de usar parte dessa autorização; liquidação confere o direito do fornecedor; pagamento transfere o dinheiro. Ter dotação não garante caixa disponível nem dispensa limites de empenho ou regras de fonte/destinação.",
+      "cebraspeTrap": "A banca pode confundir autorização orçamentária com dinheiro disponível ou gasto realizado. A dotação, por si só, não prova nenhum desses fatos.",
+      "example": "A lei autoriza R$ 100 mil para equipamentos. O órgão empenha R$ 40 mil em computadores: restam R$ 60 mil de saldo de dotação, se não houve outras alterações. Isso não significa que os computadores já chegaram ou que há R$ 60 mil livres no banco.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -143,10 +143,10 @@
       "id": "glo-empenho-ordinario",
       "term": "Empenho ordinário",
       "aliases": [],
-      "definition": "Tipo de empenho usado, em regra, quando o valor da despesa já é conhecido e o pagamento será feito de uma vez.",
-      "contrast": "Empenho ordinário tem valor conhecido e pagamento único. Global admite parcelas com total conhecido; por estimativa é usado quando o total não pode ser determinado antes.",
-      "cebraspeTrap": "Classificar contrato de execução parcelada de valor conhecido como estimativo apenas pela existência de parcelas.",
-      "example": "Compra pontual de móveis por valor conhecido e pagamento único pode utilizar empenho ordinário.",
+      "definition": "É o tipo de empenho usado quando o valor da despesa já é conhecido e o pagamento será feito de uma só vez. Empenho significa registrar o compromisso da despesa no orçamento; a modalidade ordinária indica como se conhece o valor e como será feito o pagamento.",
+      "contrast": "No empenho global, o valor total também é conhecido, mas o pagamento ocorre em parcelas. No empenho por estimativa, ainda não se conhece com segurança o valor total da despesa. O fato de o contrato ter valor conhecido não basta para ser ordinário se o pagamento for parcelado. Empenhar não significa pagar.",
+      "cebraspeTrap": "Valor conhecido não separa sozinho ordinário de global: é preciso observar se o pagamento será único ou parcelado.",
+      "example": "Uma escola compra dez mesas por R$ 5 mil, com entrega e pagamento único previstos. O gasto pode ser empenhado de forma ordinária. Se o mesmo valor fosse pago em parcelas ao longo da execução, a situação poderia exigir empenho global.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -172,10 +172,10 @@
       "id": "glo-empenho-global",
       "term": "Empenho global",
       "aliases": [],
-      "definition": "Tipo de empenho usado, em geral, quando a despesa tem valor total conhecido, mas será executada ou paga em parcelas.",
-      "contrast": "Global tem total conhecido, com execução parcelada. Por estimativa é usado quando o valor final ainda não pode ser determinado.",
-      "cebraspeTrap": "Dizer que qualquer pagamento mensal exige empenho estimativo mesmo quando o valor global do compromisso é conhecido.",
-      "example": "Um contrato com valor anual fixo e execução mensal pode ser empenhado globalmente.",
+      "definition": "É o tipo de empenho usado para uma despesa cujo valor total já é conhecido, mas que será paga em parcelas. O governo registra o compromisso total no orçamento e paga cada parte quando cumprir as etapas necessárias.",
+      "contrast": "No empenho ordinário, o valor é conhecido e o pagamento ocorre de uma só vez. No empenho por estimativa, não se conhece antecipadamente o valor total, como pode acontecer com consumo variável. Ter pagamentos mensais não torna o empenho estimativo se o total contratado já é determinado.",
+      "cebraspeTrap": "A banca pode chamar de estimativo qualquer contrato mensal. A diferença é se o total da despesa é conhecido, e não apenas a frequência dos pagamentos.",
+      "example": "Um órgão contrata serviço de valor total fixo de R$ 24 mil, a pagar em doze parcelas de R$ 2 mil. Como o total é conhecido e o pagamento é parcelado, o empenho pode ser global. Cada parcela ainda exige conferência do direito ao pagamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -201,10 +201,10 @@
       "id": "glo-empenho-por-estimativa",
       "term": "Empenho por estimativa",
       "aliases": [],
-      "definition": "Tipo de empenho usado quando ainda não se sabe o valor total da despesa, como em contas de energia cujo consumo varia.",
-      "contrast": "Por estimativa depende de valor total desconhecido. Ter parcelas mensais, por si só, não transforma um contrato de preço total definido em empenho estimativo.",
-      "cebraspeTrap": "Tratar todo contrato de serviço mensal como estimativo, embora exista valor contratual total determinado.",
-      "example": "A conta de eletricidade de consumo variável ao longo do ano pode ser empenhada por estimativa.",
+      "definition": "É o tipo de empenho usado quando não se pode saber antecipadamente quanto será o gasto total. O governo registra uma previsão e, depois, acompanha o valor realmente devido. A conta de energia de consumo variável é um exemplo comum.",
+      "contrast": "No empenho ordinário, o valor é conhecido e o pagamento é único. No global, o total é conhecido, mas o pagamento é parcelado. No empenho por estimativa, o total ainda é incerto. Se a previsão ficar pequena, o empenho pode precisar de reforço, desde que exista autorização e sejam atendidas as regras.",
+      "cebraspeTrap": "Uma despesa paga em várias parcelas não é automaticamente por estimativa. O critério principal é não poder determinar antes o total do gasto.",
+      "example": "A prefeitura prevê gastar R$ 15 mil com eletricidade no período, mas o consumo pode variar. Faz empenho por estimativa. Se as contas somarem R$ 17 mil, será necessário verificar a possibilidade de reforçar o empenho antes de executar despesa além do valor comprometido.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -232,10 +232,10 @@
       "aliases": [
         "NE"
       ],
-      "definition": "Documento que registra um empenho e informações como credor, valor, objeto e dotação utilizada para a despesa.",
-      "contrast": "Empenho é o ato que compromete o crédito do orçamento. Nota de empenho é o documento que o formaliza, e não prova que o bem foi entregue.",
-      "cebraspeTrap": "Afirmar que a emissão do documento prova a entrega do bem ou a liquidação da despesa.",
-      "example": "A unidade registra nota de empenho para aquisição, mas o fornecedor ainda não entregou os equipamentos.",
+      "definition": "É o documento que registra o empenho de uma despesa, informando dados como valor, finalidade, fornecedor e verba do orçamento utilizada. O empenho é o ato que compromete a verba; a nota é o registro documental desse ato.",
+      "contrast": "Nota de empenho não é nota fiscal: a primeira documenta o compromisso orçamentário; a segunda pode documentar uma venda ou serviço. Emitir a nota de empenho não comprova a entrega, a liquidação nem o pagamento. Em casos especiais previstos na Lei nº 4.320/1964, pode haver dispensa de emissão da nota, sem dispensa do empenho.",
+      "cebraspeTrap": "Confundir documento de empenho com comprovante de entrega ou de pagamento torna a classificação errada. Também não se deve confundir dispensa da nota com dispensa do empenho.",
+      "example": "Uma escola emite nota de empenho de R$ 6 mil para comprar armários. O documento informa o compromisso, mas os armários podem chegar apenas no mês seguinte. Depois, o órgão precisará conferir a entrega antes de pagar.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -263,10 +263,10 @@
       "aliases": [
         "OP"
       ],
-      "definition": "Autorização dada por autoridade competente para que uma despesa já liquidada seja paga pela tesouraria.",
-      "contrast": "A ordem autoriza o desembolso após a verificação do direito do credor. Só o pagamento efetivo comprova que o dinheiro saiu.",
-      "cebraspeTrap": "Equiparar assinatura da ordem de pagamento ao comprovante de transferência financeira já realizada.",
-      "example": "Depois de verificar bens e credor, a autoridade emite a ordem para a tesouraria processar o pagamento.",
+      "definition": "É a autorização formal para que a tesouraria pague uma despesa cujo direito do credor já foi conferido na liquidação. Fica entre a conferência da despesa e a transferência efetiva do dinheiro, conforme as regras da Lei nº 4.320/1964.",
+      "contrast": "Empenho compromete a verba; liquidação verifica o direito do credor; ordem de pagamento é o despacho da autoridade competente determinando que a despesa seja paga; pagamento é a saída efetiva de dinheiro. Pelo art. 64 da Lei nº 4.320/1964, a ordem só pode ser emitida em documentos processados pelos serviços de contabilidade. A assinatura da ordem não prova transferência ao credor.",
+      "cebraspeTrap": "Uma ordem assinada não é comprovante de transferência. A banca pode antecipar o pagamento para a etapa da autorização.",
+      "example": "A prefeitura confere a entrega de cadeiras e liquida R$ 4 mil. A autoridade competente emite ordem de pagamento. Só quando a transferência é realizada os R$ 4 mil são efetivamente pagos ao fornecedor.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -290,10 +290,10 @@
       "aliases": [
         "RPNP a liquidar"
       ],
-      "definition": "Despesa empenhada e não paga até o fim do ano, cujo bem ainda não foi entregue ou serviço ainda não foi prestado, de forma que o fato gerador patrimonial não ocorreu.",
-      "contrast": "'A liquidar' indica fato gerador ainda não ocorrido. 'Em liquidação' indica que o fato ocorreu, mas a conferência formal do direito do credor não terminou.",
-      "cebraspeTrap": "Afirmar que todo resto a pagar não processado indica serviço já prestado e pendência meramente documental.",
-      "example": "Empenho de serviço que não foi prestado até 31 de dezembro pode permanecer a liquidar se a inscrição for válida.",
+      "definition": "São despesas que o governo empenhou e não pagou até o fim do ano e para as quais a entrega do bem ou a prestação do serviço ainda não aconteceu, de acordo com a situação registrada. Podem permanecer como restos a pagar não processados a liquidar se a inscrição atender às condições legais.",
+      "contrast": "A liquidar indica que ainda falta acontecer o fato que gera a obrigação patrimonial, como a entrega. Em liquidação indica que o bem ou serviço já foi entregue, mas ainda falta terminar a conferência formal. Processado significa que a liquidação foi concluída. A inscrição regular não faz surgir uma dívida patrimonial pelo serviço que ainda não foi prestado.",
+      "cebraspeTrap": "Nem todo resto a pagar não processado está na mesma situação: a liquidar significa que ainda não ocorreu o fato que produziria a obrigação, diferentemente de em liquidação.",
+      "example": "Em dezembro, a universidade empenhou R$ 3 mil por manutenção agendada para janeiro. Como o serviço ainda não ocorreu, a despesa está a liquidar. Se o empenho atender às condições de inscrição, poderá constar entre os restos a pagar não processados a liquidar.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -321,10 +321,10 @@
       "aliases": [
         "RPNP em liquidação"
       ],
-      "definition": "Despesa empenhada e não paga até o fim do ano cujo serviço ou entrega já aconteceu, mas a administração ainda não concluiu a liquidação formal.",
-      "contrast": "'Em liquidação' continua entre os restos não processados, embora possa haver obrigação patrimonial. Processado exige liquidação formal concluída.",
-      "cebraspeTrap": "Classificar como resto processado um serviço executado que ainda não teve direito do credor formalmente liquidado.",
-      "example": "Serviço realizado em dezembro e atestado apenas em janeiro pode exigir registro em liquidação.",
+      "definition": "São despesas empenhadas e não pagas até o fim do ano para as quais a entrega ou o serviço já aconteceu, mas a conferência formal chamada liquidação ainda não terminou. Mesmo com o fato ocorrido, continuam não processadas até que essa conferência seja concluída.",
+      "contrast": "A liquidar aponta para fato ainda não ocorrido. Em liquidação indica fato ocorrido e verificação pendente. Processado exige liquidação concluída até o encerramento do exercício. Um serviço prestado pode gerar obrigação patrimonial antes da liquidação, mas isso não transforma automaticamente o resto a pagar em processado.",
+      "cebraspeTrap": "Serviço executado não é sinônimo de resto a pagar processado: a diferença é se a liquidação formal terminou.",
+      "example": "A escola recebeu dez mesas em dezembro e tem empenho de R$ 5 mil. O órgão ainda verifica a quantidade e a qualidade em janeiro. No encerramento do ano, se atendidas as condições de inscrição, os R$ 5 mil podem ficar como restos a pagar não processados em liquidação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -352,10 +352,10 @@
       "aliases": [
         "Regime de adiantamento"
       ],
-      "definition": "Adiantamento excepcional de dinheiro a servidor para pequenas despesas ou situações que não permitem seguir o processo comum, com empenho prévio e prestação de contas.",
-      "contrast": "O adiantamento facilita despesas específicas, mas exige empenho e prestação de contas. Não é dispensa geral do controle da despesa pública.",
-      "cebraspeTrap": "Admitir adiantamento a servidor em alcance ou responsável por dois adiantamentos, contrariando o art. 69.",
-      "example": "Servidor recebe numerário para pequena despesa urgente, realiza a compra e presta contas dos comprovantes.",
+      "definition": "É uma forma excepcional de adiantar dinheiro a um servidor para pagar pequenas despesas ou situações em que não seja possível seguir o processo normal, respeitando as condições legais. A despesa exige empenho prévio e o servidor precisa prestar contas, mostrando o que comprou e os comprovantes.",
+      "contrast": "Suprimento de fundos não é autorização para gastar sem controle nem benefício pessoal do servidor. A lei prevê situações e impedimentos: o art. 69 da Lei nº 4.320/1964 veda o adiantamento, entre outros casos, a servidor que não prestou contas no prazo e a quem já responde por dois adiantamentos. O adiantamento não dispensa o empenho e a prestação de contas.",
+      "cebraspeTrap": "A banca pode confundir adiantamento com dispensa geral do empenho ou ignorar impedimentos legais para servidores que já precisam prestar contas.",
+      "example": "Uma unidade precisa comprar material barato para resolver problema urgente e não consegue usar o processo comum a tempo. Um servidor habilitado recebe adiantamento autorizado e empenhado, realiza a compra permitida e apresenta notas e prestação de contas. Não pode tratar o dinheiro como pagamento livre para despesas pessoais.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -385,10 +385,10 @@
       "id": "glo-superavit-financeiro",
       "term": "Superávit financeiro",
       "aliases": [],
-      "definition": "Saldo positivo encontrado ao comparar ativo financeiro e passivo financeiro no balanço patrimonial do ano anterior, com os ajustes exigidos pela Lei nº 4.320/1964.",
-      "contrast": "Superávit financeiro é um saldo apurado no ano anterior e pode financiar certos créditos adicionais. Excesso de arrecadação é receita além da previsão no ano atual.",
-      "cebraspeTrap": "Tratar superávit primário do ano corrente como comprovação automática de superávit financeiro disponível para crédito.",
-      "example": "O balanço do exercício anterior indica saldo financeiro positivo ajustado, que pode servir de recurso para crédito.",
+      "definition": "É o resultado positivo da diferença entre o ativo financeiro e o passivo financeiro apurados no Balanço Patrimonial do exercício anterior, observados os ajustes exigidos pela Lei nº 4.320/1964. Pode servir de recurso para abrir certos créditos adicionais no orçamento.",
+      "contrast": "Ativo financeiro inclui caixa e valores realizáveis sem nova autorização orçamentária; passivo financeiro reúne obrigações e compromissos pagáveis sem essa nova autorização. Ter saldo bancário positivo não significa ter superávit financeiro utilizável: é preciso descontar as obrigações e considerar os ajustes legais e a destinação do dinheiro. Excesso de arrecadação usa a receita do próprio exercício e sua tendência, sendo outro tipo de recurso para créditos adicionais. O cálculo precisa respeitar as fontes de recursos e os compromissos existentes.",
+      "cebraspeTrap": "Superávit financeiro não equivale a caixa final, superávit primário, sobra de dotação ou arrecadação acima da previsão. A banca pode substituir uma dessas medidas por outra.",
+      "example": "No balanço do ano anterior, uma fonte apresenta R$ 100 mil de ativo financeiro e R$ 70 mil de passivo financeiro. A diferença inicial é R$ 30 mil. Esse valor só poderá fundamentar crédito adicional depois de examinar os ajustes legais, a fonte/destinação e outros valores que a regra exigir; não se pode tratá-lo automaticamente como verba livre para qualquer gasto.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -414,10 +414,10 @@
       "id": "glo-excesso-de-arrecadacao",
       "term": "Excesso de arrecadação",
       "aliases": [],
-      "definition": "Valor arrecadado acima do previsto para o período, quando a tendência do exercício e os ajustes legais confirmam que existe excesso utilizável para créditos adicionais.",
-      "contrast": "Excesso de arrecadação considera receitas do exercício atual e sua tendência. Superávit financeiro é apurado no balanço do exercício anterior.",
-      "cebraspeTrap": "Concluir que arrecadação maior em um único mês prova excesso anual livre para abrir crédito.",
-      "example": "A receita efetiva acumulada ultrapassa a previsão e a tendência do exercício confirma excesso na forma legal.",
+      "definition": "É a arrecadação de receitas acima do que se esperava, considerada junto com a tendência para o restante do exercício e os ajustes legais. Quando os requisitos são atendidos, pode servir de recurso para abrir créditos adicionais no orçamento.",
+      "contrast": "Excesso de arrecadação olha para a execução das receitas do ano em curso, comparando o que foi previsto e o que efetivamente entrou, com análise da tendência. Superávit financeiro é calculado com dados do Balanço Patrimonial do exercício anterior, a partir de ativos e passivos financeiros. Receber muito em um único mês não prova, sozinho, excesso utilizável para o ano.",
+      "cebraspeTrap": "Resultado positivo de um mês não é automaticamente excesso de arrecadação anual. Também não se pode confundir essa fonte de crédito adicional com superávit financeiro do ano anterior.",
+      "example": "O município previa arrecadar R$ 12 milhões no ano. Até setembro, a arrecadação superou a previsão para o período, mas é necessário avaliar o restante do ano e os ajustes legais antes de dizer qual valor pode financiar um crédito adicional. Uma entrada excepcional em setembro pode não se repetir.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -445,10 +445,10 @@
       "aliases": [
         "Cancelamento de dotação"
       ],
-      "definition": "Redução ou cancelamento de valor autorizado para uma despesa do orçamento, que pode servir de recurso para reforçar ou criar outra dotação nas hipóteses legais.",
-      "contrast": "Anular dotação muda a autorização para gastar. Não cria dinheiro novo em caixa e não é o mesmo que contingenciar a execução.",
-      "cebraspeTrap": "Afirmar que a anulação de crédito gera receita financeira nova ou equivale ao pagamento da despesa cancelada.",
-      "example": "O órgão reduz dotação não comprometida para reforçar outra programação mediante crédito adicional.",
+      "definition": "É a redução ou retirada de parte do valor que o orçamento autorizou para determinada despesa. Quando a lei permite, esse valor pode ser usado como origem de recursos para abrir ou reforçar outra autorização de gasto, por meio de crédito adicional.",
+      "contrast": "Anular dotação mexe na autorização para gastar, não no dinheiro depositado em banco. Anular empenho cancela um compromisso de despesa já registrado, o que é outra operação. Bloquear dotação restringe seu uso temporariamente sem necessariamente retirar a autorização. A anulação usada para abrir crédito adicional deve seguir as condições legais.",
+      "cebraspeTrap": "Cancelar autorização orçamentária não é arrecadar receita nem receber dinheiro. A banca pode confundir anulação de dotação, bloqueio e anulação de empenho.",
+      "example": "O município tem R$ 100 mil autorizados para uma compra que não será feita e anula R$ 20 mil da dotação, conforme a lei. Pode usar esse cancelamento como fonte para reforçar outra programação por crédito adicional, quando permitido. O banco do município não recebe R$ 20 mil novos por isso.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -470,10 +470,10 @@
       "id": "glo-reabertura-de-creditos-especiais-e-extraordinarios",
       "term": "Reabertura de créditos especiais e extraordinários",
       "aliases": [],
-      "definition": "Possibilidade de usar no ano seguinte o saldo de créditos especiais e extraordinários autorizados nos últimos quatro meses do ano anterior, conforme a Constituição.",
-      "contrast": "A regra de reabertura não vale para créditos suplementares. Reabrir permite usar apenas o saldo remanescente, não todo o crédito original.",
-      "cebraspeTrap": "Afirmar que todo crédito adicional pode ser reaberto independentemente da data de autorização.",
-      "example": "Crédito especial autorizado em novembro pode ser reaberto no exercício seguinte apenas até seu saldo.",
+      "definition": "É a possibilidade de aproveitar no orçamento do ano seguinte a parte ainda não utilizada de certos créditos adicionais. Pela Constituição, art. 167, § 2º, isso vale para créditos especiais e extraordinários quando o ato que os autorizou foi promulgado nos últimos quatro meses do exercício.",
+      "contrast": "Crédito suplementar reforça uma despesa que já tinha dotação; especial cria autorização para despesa sem dotação própria; extraordinário atende despesas urgentes e imprevisíveis. A exceção para passar ao ano seguinte alcança especiais e extraordinários, não suplementares. Também não basta que o crédito exista em dezembro: o ato de autorização precisa atender ao período exigido. Reabrir não significa receber dinheiro novo. A reabertura fica limitada ao saldo que sobrou.",
+      "cebraspeTrap": "A banca pode trocar 'especiais e extraordinários' por 'todos os créditos adicionais', ou dizer que basta ter saldo em 31 de dezembro sem examinar a data de autorização.",
+      "example": "Um crédito especial de R$ 500 mil é autorizado em outubro. Até dezembro, foram usados R$ 320 mil. Se os demais requisitos forem atendidos, o saldo de R$ 180 mil poderá ser reaberto no orçamento do ano seguinte. Se fosse apenas um crédito suplementar, essa regra constitucional de reabertura não se aplicaria.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -499,10 +499,10 @@
       "id": "glo-emenda-parlamentar-individual",
       "term": "Emenda parlamentar individual",
       "aliases": [],
-      "definition": "Proposta apresentada por um deputado ou senador para alterar o orçamento, destinando recursos a determinada ação, respeitados os requisitos legais.",
-      "contrast": "Individual identifica quem apresentou a emenda. Emendas de bancada são coletivas; a execução obrigatória tem limites e impedimentos técnicos previstos em lei.",
-      "cebraspeTrap": "Presumir que toda emenda aprovada precisa ser paga integralmente sem verificar requisitos de execução.",
-      "example": "Uma deputada propõe dotação individual para unidade de saúde, com execução sujeita às condições legais.",
+      "definition": "É uma proposta de alteração do orçamento apresentada por um deputado ou senador individualmente. Pode direcionar recursos a ações e projetos dentro das regras constitucionais e legais. Algumas emendas individuais têm execução obrigatória, sujeita a limites e impedimentos previstos na Constituição.",
+      "contrast": "Emenda individual é apresentada por um parlamentar. Emenda de bancada é apresentada coletivamente por representantes de um estado ou do Distrito Federal; emenda de comissão vem de uma comissão legislativa. A autoria não indica, sozinha, a forma de pagamento: emendas individuais podem ser executadas por diferentes mecanismos, incluindo transferência especial ou com finalidade definida, conforme os requisitos. Apresentação não equivale a empenho ou dinheiro transferido.",
+      "cebraspeTrap": "Confundir quem propôs a emenda com sua forma de transferência ou presumir que toda emenda apresentada será paga imediatamente.",
+      "example": "Uma deputada propõe destinar R$ 500 mil a equipamentos de saúde de um município. Isso é emenda individual. A proposta precisará cumprir as etapas de aprovação e execução; a simples apresentação não coloca R$ 500 mil na conta municipal.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -528,10 +528,10 @@
       "id": "glo-emenda-parlamentar-de-bancada",
       "term": "Emenda parlamentar de bancada",
       "aliases": [],
-      "definition": "Proposta de alteração do orçamento apresentada coletivamente por uma bancada estadual ou do Distrito Federal, conforme as regras aplicáveis.",
-      "contrast": "Bancada é autoria coletiva ligada a uma unidade da Federação. Emenda de comissão segue regras próprias e não é a mesma categoria.",
-      "cebraspeTrap": "Transferir para emenda de bancada o mesmo percentual e a mesma regra temporal de emenda individual sem examinar a Constituição.",
-      "example": "Bancada de um estado propõe uma ação estruturante de atendimento regional.",
+      "definition": "É uma proposta de alteração do orçamento apresentada de forma coletiva pela bancada de parlamentares que representa um estado ou o Distrito Federal, seguindo regras de apresentação e aprovação. Pode destinar recursos a ações consideradas prioritárias pela bancada.",
+      "contrast": "A bancada atua coletivamente, ao contrário de uma emenda individual de um deputado ou senador. Emenda de comissão tem origem em um colegiado legislativo, que pode reunir parlamentares de diferentes estados. A Constituição prevê regras próprias para emendas de bancada estadual, inclusive hipóteses de execução obrigatória. Ser de bancada não significa que o dinheiro já foi pago ou que qualquer proposta possa ser executada sem restrições.",
+      "cebraspeTrap": "A banca pode confundir emenda assinada por vários parlamentares com emenda de bancada formal: é necessário identificar a origem e as regras institucionais da proposta.",
+      "example": "Parlamentares de um estado se organizam para propor recursos a um hospital regional. A proposta é de bancada porque a autoria é coletiva e ligada à representação daquele estado, mesmo que um só parlamentar coordene sua elaboração.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -557,10 +557,10 @@
       "id": "glo-emenda-parlamentar-de-comissao",
       "term": "Emenda parlamentar de comissão",
       "aliases": [],
-      "definition": "Proposta de alteração do orçamento apresentada por uma comissão do Legislativo, dentro das regras regimentais e legais.",
-      "contrast": "Emenda de comissão não recebe automaticamente a mesma garantia constitucional de execução das emendas individuais e de bancada.",
-      "cebraspeTrap": "Afirmar que qualquer emenda de comissão é constitucionalmente impositiva nos mesmos termos das individuais.",
-      "example": "Comissão apresenta programação para projeto de interesse setorial, observadas as exigências de execução.",
+      "definition": "É uma proposta de mudança no orçamento apresentada por uma comissão da Câmara ou do Senado, conforme suas atribuições e regras internas. A comissão é um grupo de parlamentares que trata de determinados assuntos, como saúde ou educação.",
+      "contrast": "Emenda de comissão se identifica pelo órgão colegiado que a apresenta; emenda individual vem de um parlamentar, e emenda de bancada vem da representação coletiva de um estado ou do Distrito Federal. As condições de aprovação, execução e eventual obrigatoriedade dependem das normas aplicáveis. O fato de a comissão aprovar uma proposta não significa pagamento automático.",
+      "cebraspeTrap": "Não classificar a emenda pelo tema tratado ou pelo número de assinaturas. O que identifica a categoria é a autoria institucional.",
+      "example": "Uma comissão temática propõe destinar recursos a um programa nacional ligado à sua área de atuação. Mesmo que os integrantes venham de estados diferentes, a emenda é de comissão, e não de bancada estadual.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -586,10 +586,10 @@
       "id": "glo-emenda-parlamentar-impositiva",
       "term": "Emenda parlamentar impositiva",
       "aliases": [],
-      "definition": "Programação criada por emenda individual ou de bancada que tem garantia constitucional de execução orçamentária e financeira, sujeita a condições e exceções legais.",
-      "contrast": "Impositiva exige execução nas condições legais, mas não significa pagamento imediato nem dispensa projeto, requisitos técnicos ou prestação de contas.",
-      "cebraspeTrap": "Afirmar que a impositividade permite executar gasto sem projeto necessário, controle ou transparência.",
-      "example": "Uma emenda individual deve observar critérios técnicos de viabilidade e prestação de contas antes da execução.",
+      "definition": "É uma programação do orçamento criada por emenda parlamentar cuja execução orçamentária e financeira é obrigatória dentro das condições previstas na Constituição.",
+      "contrast": "Impositiva se refere ao dever de executar a programação dentro das regras legais; individual, de bancada e de comissão indicam quem apresentou a emenda. Uma programação pode ter impedimento técnico, como projeto sem documento indispensável, e existem procedimentos constitucionais para tratar essas situações. Empenhar, liquidar e pagar continuam sendo etapas diferentes, mesmo em despesa de execução obrigatória. A regra alcança modalidades específicas, como emendas individuais e de bancada estadual, mas a obrigação não significa pagamento imediato em qualquer situação.",
+      "cebraspeTrap": "Impositiva não quer dizer execução sem qualquer condição ou pagamento automático. Também não se deve concluir que toda emenda de qualquer autor tem exatamente o mesmo regime.",
+      "example": "Uma emenda individual é aprovada com programação de R$ 300 mil para equipamento de saúde. A execução deve observar as regras de obrigatoriedade, porém um impedimento técnico comprovado pode exigir providências antes de seguir. Aprovar a emenda não significa que o equipamento já foi comprado.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -619,10 +619,10 @@
       "id": "glo-transferencia-especial-emenda-parlamentar",
       "term": "Transferência especial (emenda parlamentar)",
       "aliases": [],
-      "definition": "Forma de repassar recursos de emenda individual diretamente a estado ou município, sem convênio, conforme o art. 166-A da Constituição.",
-      "contrast": "A transferência especial dispensa convênio, mas mantém exigências de aplicação e controle. Ao menos 70% dos recursos devem financiar despesas de capital.",
-      "cebraspeTrap": "Afirmar que ausência de convênio dispensa rastreabilidade ou permite destinar recursos a pessoal e serviço da dívida.",
-      "example": "Município recebe transferência especial, aplica ao menos 70% em despesas de capital e presta as informações exigidas.",
+      "definition": "É uma forma de enviar dinheiro de emenda parlamentar individual diretamente da União a um estado, ao Distrito Federal ou a um município, sem precisar firmar convênio para fazer a transferência. A Constituição, art. 166-A, chama esse mecanismo de transferência especial.",
+      "contrast": "A transferência dispensa convênio para o repasse, mas o recurso continua sujeito a regras. Pelo menos 70% devem financiar despesas de capital; é proibido pagar pessoal, encargos sociais ou serviço da dívida. A indicação da emenda já define a categoria da despesa, que deve ser respeitada pelo beneficiário. A aplicação deve atender a ações de competência do Executivo local. Na transferência com finalidade definida, o dinheiro permanece ligado à programação da emenda e às áreas de competência da União. O valor passa a pertencer ao beneficiário quando a transferência financeira ocorre.",
+      "cebraspeTrap": "Dispensar convênio não é permitir qualquer gasto. Os 70% mínimos de capital são exigência da transferência especial. A prefeitura não pode mudar livremente a categoria de despesa definida na indicação da emenda.",
+      "example": "Uma emenda individual destina R$ 1 milhão por transferência especial a um município. Não é preciso convênio para o repasse, mas ao menos R$ 700 mil devem ser aplicados em despesas de capital, respeitando as demais condições. Usar o valor para pagar a folha de servidores ou encargos da dívida contraria as proibições constitucionais.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -633,6 +633,10 @@
         "art-715e2d16a93446cb"
       ],
       "sources": [
+        {
+          "label": "Transferegov/MGI: categoria da despesa e mínimo de 70% nas transferências especiais",
+          "url": "https://www.gov.br/transferegov/pt-br/comunicados/comunicados-gerais/2024/comunicado-16-2024-2013-transferencia-especial-observancia-do-percentual-previsto-no-art-166-a-ss-5o-da-cf"
+        },
         {
           "label": "Constituição Federal, arts. 165 a 167 e 166-A",
           "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
@@ -648,10 +652,10 @@
       "id": "glo-transferencia-com-finalidade-definida-emenda-parlamentar",
       "term": "Transferência com finalidade definida (emenda parlamentar)",
       "aliases": [],
-      "definition": "Repasse de recursos de emenda parlamentar para executar a finalidade específica indicada na programação, respeitando as regras e instrumentos aplicáveis.",
-      "contrast": "Na finalidade definida, o uso fica vinculado à programação da emenda. A transferência especial segue modalidade constitucional distinta.",
-      "cebraspeTrap": "Equiparar transferência com finalidade definida à transferência especial e presumir ausência de instrumentos e controles.",
-      "example": "Uma emenda determina financiamento de ação específica de saúde, com aplicação vinculada ao objeto previsto.",
+      "definition": "É uma forma de repassar recursos de emenda individual em que o dinheiro deve ser usado na programação indicada pela própria emenda. A Constituição, art. 166-A, determina que a aplicação respeite as áreas de competência constitucional da União.",
+      "contrast": "Na transferência com finalidade definida, o recurso fica vinculado ao objetivo previsto na emenda. Na transferência especial, o dinheiro é enviado diretamente ao governo beneficiário sem convênio para o repasse e segue regras próprias, inclusive o mínimo de 70% para despesas de capital. As duas modalidades não se confundem com a autoria da emenda, pois ambas aparecem no art. 166-A para emendas individuais. A execução segue as exigências legais do instrumento aplicável.",
+      "cebraspeTrap": "A banca pode atribuir à transferência com finalidade definida a liberdade de aplicação própria de outra modalidade, ou aplicar a todas as modalidades o mínimo de 70% de capital exigido para a especial.",
+      "example": "Uma emenda individual prevê recursos para uma ação de saúde especificada na programação federal. Na modalidade com finalidade definida, o beneficiário precisa usar o valor naquela finalidade. O fato de receber a transferência não permite deslocá-la livremente para outra obra.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -677,10 +681,10 @@
       "id": "glo-impedimento-tecnico-de-emenda-parlamentar",
       "term": "Impedimento técnico de emenda parlamentar",
       "aliases": [],
-      "definition": "Problema técnico ou legal comprovado que impede a execução de uma emenda obrigatória, como ausência de documento indispensável ao projeto.",
-      "contrast": "Impedimento técnico precisa ser justificado e documentado. Uma simples preferência política por não executar a emenda não basta.",
-      "cebraspeTrap": "Tratar conveniência orçamentária genérica como prova suficiente de impedimento técnico sem documentação.",
-      "example": "Projeto de engenharia indispensável não apresentado pode impedir, justificadamente, a execução de determinada obra.",
+      "definition": "É um problema comprovado que impede executar determinada programação de emenda parlamentar dentro das exigências legais, como a falta de projeto necessário, documentação indispensável ou impossibilidade de realizar o objeto indicado. O impedimento deve ser identificado e tratado pelos procedimentos aplicáveis.",
+      "contrast": "Um impedimento técnico precisa ter fundamento verificável; não é a simples preferência do gestor por outra despesa. A execução obrigatória de certas emendas está sujeita a impedimentos dessa natureza. Isso não torna a emenda automaticamente anulada, nem transforma qualquer atraso em impedimento técnico definitivo. É preciso observar os prazos e mecanismos de solução previstos nas regras vigentes.",
+      "cebraspeTrap": "A banca pode apresentar falta de vontade política como impedimento técnico ou afirmar que a execução obrigatória ignora problemas objetivos de viabilidade.",
+      "example": "Uma emenda prevê construir uma unidade de saúde, mas o projeto técnico exigido não foi apresentado. O órgão registra o problema pelos canais aplicáveis e avalia a possibilidade de correção. O impedimento não significa que o gestor pode usar o dinheiro imediatamente em finalidade diferente.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -713,10 +717,10 @@
         "RREO",
         "Relatório Resumido da Execução Orçamentária"
       ],
-      "definition": "Relatório que mostra como o orçamento está sendo executado, com informações de receitas e despesas. É publicado a cada bimestre, até 30 dias após o encerramento.",
-      "contrast": "O RREO acompanha a execução bimestral. O RGF informa limites da gestão fiscal e, em regra, é divulgado a cada quadrimestre.",
-      "cebraspeTrap": "Confundir a periodicidade bimestral do RREO com a regra quadrimestral do RGF.",
-      "example": "Depois de cada bimestre, o ente apresenta o demonstrativo de execução do orçamento.",
+      "definition": "É um relatório que permite acompanhar, a cada dois meses, quanto o governo previa arrecadar e gastar e quanto realmente executou do orçamento.",
+      "contrast": "O RREO trata principalmente da execução de receitas e despesas do orçamento e inclui demonstrativos exigidos pela LRF. O Relatório de Gestão Fiscal (RGF) acompanha limites e responsabilidades fiscais, como gastos com pessoal e dívida. O RREO é bimestral; o RGF é, em regra, quadrimestral. O RREO não é um balanço anual nem uma simples lista de pagamentos: também considera previsão, dotações e despesas empenhadas e liquidadas.",
+      "cebraspeTrap": "Trocar a periodicidade de RREO e RGF, restringir o RREO apenas ao Executivo ou dizer que ele registra somente despesas pagas são erros de classificação. O Relatório Resumido da Execução Orçamentária (RREO) reúne informações de todos os Poderes e do Ministério Público e deve ser publicado até 30 dias depois do fim de cada bimestre, conforme o art. 52 da Lei de Responsabilidade Fiscal (LRF).",
+      "example": "Depois de março e abril, o governo encerra o segundo bimestre e tem até 30 dias para publicar o RREO correspondente. O relatório mostra, por exemplo, receitas previstas e arrecadadas e despesas empenhadas e liquidadas. Não é necessário esperar o fim do ano para divulgar essas informações.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -741,10 +745,10 @@
         "RGF",
         "Relatório de Gestão Fiscal"
       ],
-      "definition": "Relatório com dados usados para verificar limites e responsabilidades fiscais, como gasto com pessoal e dívida. Em regra, é publicado a cada quadrimestre.",
-      "contrast": "O RGF acompanha limites e obrigações fiscais. O RREO apresenta a execução do orçamento a cada bimestre. Há regra especial para municípios pequenos.",
-      "cebraspeTrap": "Afirmar que todo município publica RGF necessariamente de dois em dois meses.",
-      "example": "Um órgão apresenta seus limites de pessoal e situação de caixa em relatório de gestão fiscal.",
+      "definition": "É o relatório usado para mostrar se o governo e os órgãos sujeitos à Lei de Responsabilidade Fiscal estão cumprindo limites e regras fiscais. O Relatório de Gestão Fiscal (RGF) traz informações como despesa com pessoal, dívida e outras exigências legais.",
+      "contrast": "O Relatório Resumido da Execução Orçamentária (RREO) acompanha receitas e despesas do orçamento e é bimestral. O RGF mostra limites fiscais e é, em regra, quadrimestral. Há regras específicas para determinados municípios, portanto a periodicidade normal não deve ser tratada como absoluta. Um órgão estar dentro do limite de pessoal não dispensa a apresentação das demais informações exigidas. Em regra, é emitido ao fim de cada quadrimestre e publicado até 30 dias depois, conforme os arts. 54 e 55 da LRF.",
+      "cebraspeTrap": "A banca pode trocar os prazos dos dois relatórios ou afirmar que o RGF serve apenas para listar pagamentos. Também é perigoso ignorar as regras especiais previstas na LRF.",
+      "example": "Em maio, um órgão verifica o quadrimestre de janeiro a abril e prepara o RGF para mostrar, entre outros itens, a despesa com pessoal conforme o cálculo legal. Esse relatório não se confunde com o RREO de março e abril, que acompanha a execução bimestral do orçamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -768,10 +772,10 @@
       "aliases": [
         "AMF"
       ],
-      "definition": "Parte da Lei de Diretrizes Orçamentárias que mostra resultados e metas fiscais previstos, junto com os demonstrativos exigidos pela LRF.",
-      "contrast": "Metas fiscais mostram os resultados que se pretende alcançar. O Anexo de Riscos Fiscais apresenta acontecimentos incertos que podem afetar as contas.",
-      "cebraspeTrap": "Tratar o anexo de metas como uma relação de despesas já pagas no exercício.",
-      "example": "A LDO estabelece metas anuais de resultado para orientar orçamento e execução.",
+      "definition": "É uma parte da Lei de Diretrizes Orçamentárias (LDO) que apresenta os objetivos e números usados para acompanhar as contas públicas. O Anexo de Metas Fiscais traz metas de receitas, despesas, resultados fiscais e dívida, além de avaliações e demonstrativos previstos na Lei de Responsabilidade Fiscal (LRF), art. 4º.",
+      "contrast": "Metas fiscais são resultados que o governo pretende alcançar e acompanhar. Riscos fiscais são acontecimentos incertos que podem atrapalhar essas contas, tratados em outro anexo. A LDO orienta a preparação do orçamento anual; a Lei Orçamentária Anual (LOA) autoriza receitas e despesas para execução. Uma meta definida na LDO não equivale a dinheiro disponível nem garante que será atingida.",
+      "cebraspeTrap": "Confundir objetivo planejado com resultado já alcançado ou trocar o Anexo de Metas Fiscais pelo Anexo de Riscos Fiscais.",
+      "example": "Ao preparar a LDO, o governo fixa uma meta de resultado primário e apresenta projeções e informações exigidas para acompanhá-la. O anexo permite depois comparar o resultado alcançado com o objetivo planejado. Uma possível condenação judicial de valor elevado é exemplo de risco fiscal, não de meta.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -795,10 +799,10 @@
       "aliases": [
         "ARF"
       ],
-      "definition": "Parte da Lei de Diretrizes Orçamentárias que apresenta riscos capazes de prejudicar as contas públicas, como decisões judiciais, e o que o governo pretende fazer se ocorrerem.",
-      "contrast": "Riscos fiscais são situações que podem acontecer. Metas fiscais são resultados que o governo pretende atingir.",
-      "cebraspeTrap": "Tratar toda contingência identificada no anexo como dívida já liquidada e paga.",
-      "example": "A LDO apresenta riscos associados a ações judiciais e medidas fiscais possíveis.",
+      "definition": "É uma parte da Lei de Diretrizes Orçamentárias (LDO) que mostra acontecimentos incertos capazes de prejudicar as contas do governo e as providências previstas caso se confirmem.",
+      "contrast": "Risco fiscal é uma possibilidade que precisa ser acompanhada, como uma ação judicial que pode exigir pagamento. Meta fiscal é um resultado que o governo quer alcançar, como determinado saldo das contas, e aparece no Anexo de Metas Fiscais. Apresentar uma ação como risco não significa que a dívida já foi reconhecida como passivo no Balanço Patrimonial: esse reconhecimento segue critérios contábeis próprios. O Anexo de Riscos Fiscais é exigido pela Lei de Responsabilidade Fiscal (LRF), art. 4º, e inclui a avaliação de passivos contingentes e outros riscos relevantes.",
+      "cebraspeTrap": "A banca pode confundir divulgação de risco com pagamento efetivo ou reconhecimento obrigatório de provisão. Também é incorreto colocar uma meta de arrecadação no lugar do risco.",
+      "example": "Um estado responde a processo judicial que pode resultar em pagamento de R$ 20 milhões, mas a decisão ainda é incerta. O governo avalia o risco e descreve possíveis medidas no anexo, sem concluir automaticamente que já existe uma dívida patrimonial registrada nesse valor.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -820,10 +824,10 @@
       "id": "glo-limite-prudencial-de-despesa-com-pessoal",
       "term": "Limite prudencial de despesa com pessoal",
       "aliases": [],
-      "definition": "Faixa de atenção que começa quando o gasto com pessoal ultrapassa 95% do limite legal próprio do Poder ou órgão, provocando restrições previstas na LRF.",
-      "contrast": "Os 95% incidem sobre o limite próprio, e não sobre toda a Receita Corrente Líquida. O patamar de alerta ocorre a 90% do limite.",
-      "cebraspeTrap": "Calcular o prudencial como 95% da RCL quando o órgão possui limite próprio de 6% da RCL.",
-      "example": "Se o limite próprio é 6% da RCL, o patamar prudencial é de 5,7% da RCL.",
+      "definition": "É uma faixa de atenção prevista na Lei de Responsabilidade Fiscal: quando a despesa total com pessoal de um Poder ou órgão ultrapassa 95% do limite legal que se aplica a ele, começam restrições para evitar o excesso. Entre elas estão proibições e condições para aumentar gastos com pessoal, conforme o art. 22 da LRF.",
+      "contrast": "O limite de alerta corresponde a 90% do limite máximo e serve para o Tribunal de Contas avisar o responsável. O prudencial é de 95% do limite máximo e aciona restrições legais. O limite máximo é 100% do teto definido para aquele Poder ou órgão. São percentuais do limite legal, não percentuais da receita corrente líquida usados diretamente como novos tetos autônomos.",
+      "cebraspeTrap": "A banca pode trocar 90% e 95% ou interpretar 95% como porcentagem direta da receita, em vez de percentual do limite de pessoal do órgão.",
+      "example": "Se o limite máximo de um órgão for R$ 100 milhões no cálculo aplicável, o patamar de alerta será R$ 90 milhões e o prudencial será R$ 95 milhões. Ao ultrapassar R$ 95 milhões, incidem as restrições previstas na LRF. Os R$ 95 milhões não significam 95% de toda a receita do governo.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -845,10 +849,10 @@
       "id": "glo-limite-de-alerta-de-despesa-com-pessoal",
       "term": "Limite de alerta de despesa com pessoal",
       "aliases": [],
-      "definition": "Patamar de 90% do limite legal próprio de despesa com pessoal a partir do qual o tribunal de contas deve alertar a autoridade nos termos da LRF.",
-      "contrast": "O alerta de 90% é diferente das restrições do limite prudencial de 95% e do teto de 100%, todos calculados sobre o limite legal próprio.",
-      "cebraspeTrap": "Atribuir ao alerta de 90% todas as vedações previstas para ultrapassagem do limite prudencial.",
-      "example": "O órgão atinge 90% do próprio limite e a situação demanda alerta do tribunal de contas.",
+      "definition": "É o patamar em que o Tribunal de Contas deve alertar um Poder ou órgão sobre o risco de ultrapassar seu limite de despesa com pessoal. A Lei de Responsabilidade Fiscal (LRF), art. 59, prevê o alerta quando a despesa total com pessoal ultrapassa 90% do limite aplicável.",
+      "contrast": "O alerta chama a atenção para o risco, mas não é o mesmo que o limite prudencial, que começa quando a despesa ultrapassa 95% do limite e produz restrições previstas na LRF. O limite máximo é o teto de referência completo. Para fazer a conta, primeiro se identifica o limite legal próprio do Poder ou órgão e depois se aplica o percentual de 90%.",
+      "cebraspeTrap": "Alerta de 90% e prudencial de 95% têm consequências diferentes. O primeiro não deve ser apresentado como se já impusesse todas as restrições do segundo.",
+      "example": "Uma instituição tem limite de pessoal de R$ 100 milhões. Se o gasto calculado ultrapassar R$ 90 milhões, entra na faixa de alerta. Ao ultrapassar R$ 95 milhões, chega à faixa prudencial. Esses valores ilustram percentuais do teto, não uma nova autorização de gasto.",
       "subjectIds": [
         "orcamento-publico"
       ],

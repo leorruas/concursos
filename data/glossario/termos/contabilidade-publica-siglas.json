@@ -5,29 +5,57 @@
     {
       "id": "glo-contabilidade-aplicada-ao-setor-publico-casp",
       "term": "Contabilidade Aplicada ao Setor Público (CASP)",
-      "aliases": ["CASP", "Contabilidade Aplicada ao Setor Público"],
-      "definition": "Ramo da contabilidade que registra, controla e evidencia os fatos que afetam o patrimônio público, a execução orçamentária, os fluxos financeiros e os controles da entidade pública.",
-      "contrast": "A CASP não se reduz ao orçamento nem ao caixa. A execução orçamentária acompanha autorizações e estágios; a contabilidade patrimonial reconhece os efeitos dos fatos no patrimônio segundo suas regras próprias.",
-      "cebraspeTrap": "Afirmar que a CASP registra apenas receitas arrecadadas e despesas pagas, ignorando patrimônio e registros por competência.",
-      "example": "Um serviço prestado e ainda não pago pode afetar o passivo e a variação patrimonial, embora o desembolso ocorra em outro momento.",
-      "articleIds": ["art-85b3a61ad09e44c1"],
-      "subjectIds": ["contabilidade-publica"],
-      "contestIds": ["cgu-2026"],
-      "sources": [{"label":"Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição","url":"https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"}],
+      "aliases": [
+        "CASP",
+        "Contabilidade Aplicada ao Setor Público"
+      ],
+      "definition": "É a contabilidade usada para registrar e explicar o que acontece com os bens, os direitos, as dívidas, as receitas e as despesas dos órgãos públicos. A Contabilidade Aplicada ao Setor Público (CASP) também acompanha a execução do orçamento e as mudanças no patrimônio, mesmo quando não há pagamento imediato.",
+      "contrast": "O orçamento mostra quanto o governo foi autorizado a arrecadar e gastar e em quais etapas está a execução. A contabilidade patrimonial registra, conforme suas regras, quando surgem direitos, obrigações e aumentos ou diminuições do patrimônio. Um serviço pode gerar dívida antes de ser pago, e uma compra de equipamento pode trocar dinheiro por bem sem gerar perda patrimonial no mesmo valor.",
+      "cebraspeTrap": "Reduzir a CASP à arrecadação e ao pagamento ignora a contabilidade patrimonial e os fatos reconhecidos antes do movimento de dinheiro.",
+      "example": "Uma escola recebe serviço de manutenção em dezembro e paga em janeiro. A CASP pode registrar a obrigação e o consumo do serviço em dezembro, mesmo que a saída do dinheiro ocorra depois. O empenho continua obedecendo às regras do orçamento.",
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
       "status": "reviewed"
     },
     {
       "id": "glo-manual-de-contabilidade-aplicada-ao-setor-publico-mcasp",
       "term": "Manual de Contabilidade Aplicada ao Setor Público (MCASP)",
-      "aliases": ["MCASP", "Manual de Contabilidade Aplicada ao Setor Público"],
-      "definition": "Manual da Secretaria do Tesouro Nacional que orienta procedimentos, plano de contas e demonstrações da contabilidade aplicada ao setor público, buscando padronização entre os entes.",
-      "contrast": "O MCASP é uma referência técnica para aplicar a CASP; não é o Plano de Contas Aplicado ao Setor Público (PCASP). O PCASP é a relação padronizada de contas que o manual explica e disciplina em sua parte própria.",
-      "cebraspeTrap": "Tratar MCASP e PCASP como sinônimos ou usar edição de exercício posterior sem observar sua vigência.",
-      "example": "Para definir a apresentação do Balanço Patrimonial e da DVP, o contador consulta o MCASP; para registrar em contas padronizadas, utiliza o PCASP correspondente ao exercício.",
-      "articleIds": ["art-85b3a61ad09e44c1"],
-      "subjectIds": ["contabilidade-publica"],
-      "contestIds": ["cgu-2026"],
-      "sources": [{"label":"Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição","url":"https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"}],
+      "aliases": [
+        "MCASP",
+        "Manual de Contabilidade Aplicada ao Setor Público"
+      ],
+      "definition": "É o manual da Secretaria do Tesouro Nacional (STN) que orienta como registrar e apresentar informações da contabilidade pública de forma padronizada. O Manual de Contabilidade Aplicada ao Setor Público (MCASP) trata de procedimentos, contas e demonstrações, observando a edição aplicável ao exercício.",
+      "contrast": "MCASP é o manual de orientações técnicas. Plano de Contas Aplicado ao Setor Público (PCASP) é a lista organizada de contas usada nos registros. As Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP) estabelecem regras contábeis que também precisam ser observadas. Não se deve usar automaticamente uma edição futura do manual para julgar um exercício anterior.",
+      "cebraspeTrap": "MCASP não é sinônimo de PCASP nem substitui as normas contábeis. A edição e o período de aplicação podem mudar a resposta de uma questão.",
+      "example": "Para preparar o Balanço Patrimonial de um ano, a equipe consulta a edição do MCASP aplicável. Para lançar caixa, dívidas e outras contas, utiliza o PCASP correspondente. Manual, plano de contas e demonstração cumprem funções diferentes.",
+      "articleIds": [
+        "art-85b3a61ad09e44c1"
+      ],
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
       "status": "reviewed"
     }
   ]

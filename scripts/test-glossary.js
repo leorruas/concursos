@@ -100,6 +100,21 @@ for (const [consulta, id, more] of [
   }
 }
 assert(fs.existsSync(path.join(root, 'data/glossario/termos/contabilidade-publica-fundamentos.json')), 'Arquivo com conceitos básicos não incluído');
+
+// A main incorporou um terceiro fundamento durante a revisão desta PR.
+// Preservar seu artigo, fonte e exceção de ciclo maior que doze meses.
+const cicloOperacional = published.terms.find(t => t.id === 'glo-ciclo-operacional-normal');
+assert(cicloOperacional?.articleIds.includes('art-bf384b8a28aa4753'),
+  'Conciliação removeu o vínculo do ciclo operacional com o Balanço Patrimonial');
+assert(/doze meses/.test(cicloOperacional.definition + cicloOperacional.contrast) &&
+       /mais de doze meses|dezoito meses/.test(cicloOperacional.contrast + cicloOperacional.example) &&
+       /circulante/.test(cicloOperacional.definition),
+  'Ciclo operacional deve explicar a exceção ao critério de doze meses');
+assert(cicloOperacional.sources.some(source => /^https:\/\//.test(source.url)),
+  'Ciclo operacional novo sem fonte técnica verificável');
+assert(match('ciclo operacional normal').some(t => t.id === cicloOperacional.id),
+  'Busca não encontra o novo conceito incorporado da main');
+
 assert(fs.existsSync(path.join(root, 'data/glossario/termos/contabilidade-publica-financeiro.json')),
   'Os dois conceitos financeiros devem ser publicados em arquivo próprio');
 for(const [term,id,generalId] of [
@@ -122,7 +137,7 @@ for(const [term,id,generalId] of [
     'Fontes legais e MCASP obrigatórias para classificação financeira: '+term);
 }
 const passivoFinanceiro = published.terms.find(t=>t.id==='glo-passivo-financeiro');
-assert(/sem passivo patrimonial|sem obrigação patrimonial/.test(
+assert(/sem (?:uma )?(?:dívida|obrigação|passivo) patrimonial|ainda não representa uma dívida patrimonial/.test(
   passivoFinanceiro.contrast+' '+passivoFinanceiro.example),
   'Explicação deve cobrir passivo financeiro sem passivo patrimonial associado');
 for(const termId of ['glo-ativo','glo-passivo','glo-ativo-patrimonial','glo-passivo-patrimonial']) {
@@ -164,7 +179,7 @@ assert(pcasp && pcasp.status === 'planned', 'Backlog deve preservar a proposta o
 const pcaspPublished = published.terms.find(t => t.id === pcasp.id);
 assert(pcaspPublished?.status === 'reviewed', 'PCASP deve ser publicado somente após revisão');
 assert(pcaspPublished.aliases.includes('PCASP'), 'Sigla PCASP deve ser pesquisável');
-assert(/três naturezas/.test(pcaspPublished.contrast) && /classes 1 a 4/.test(pcaspPublished.contrast) &&
+assert(/três naturezas/.test(pcaspPublished.contrast) && /classes 1 e 2/.test(pcaspPublished.contrast) && /classes 3 e 4/.test(pcaspPublished.contrast) &&
   /classes 5 e 6/.test(pcaspPublished.contrast) && /7 e 8/.test(pcaspPublished.contrast),
   'PCASP deve explicar as três naturezas e as oito classes');
 assert(/quarta natureza/.test(pcaspPublished.contrast) && /classes 5 e 6/.test(pcaspPublished.cebraspeTrap),
@@ -173,13 +188,13 @@ assert(match('PCASP').some(t => t.id === pcasp.id), 'Busca deve encontrar PCASP 
 const reviewPlan = fs.readFileSync(path.join(root, '1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos.md'), 'utf8');
 assert(reviewPlan.includes('Plano de revisão de linguagem de todo o glossário') &&
     reviewPlan.includes('Última etapa do roadmap: PCASP'), 'Plano de simplificação integral e PCASP devem ficar documentados');
-for (const [id, fragment] of [
-  ['glo-regime-de-competencia', 'mesmo que o dinheiro'],
-  ['glo-risco-inerente', 'antes de levar em conta os controles'],
-  ['glo-regra-de-ouro', 'governo de contratar operações de crédito']
+for (const [id, conceptPattern] of [
+  ['glo-regime-de-competencia', /dinheiro.{0,45}(?:depois|mais tarde)/],
+  ['glo-risco-inerente', /antes de considerar.{0,30}controles/],
+  ['glo-regra-de-ouro', /despesas de capital[\s\S]*operações de crédito/]
 ]) {
-  assert(published.terms.find(t => t.id === id)?.definition.includes(fragment),
-     'Primeira revisão de linguagem não aplicada: ' + id);
+  assert(conceptPattern.test(published.terms.find(t => t.id === id)?.definition || ''),
+    'Definição perdeu a distinção conceitual exigida: ' + id);
 }
 
 assert(match('programacao fisica').some(t => t.id === 'glo-programacao-fisica-cumprida'));
@@ -293,6 +308,27 @@ assert(fs.existsSync(path.join(root,'data/glossario/termos/orcamento-publico-emp
 const empenho = published.terms.find(t => t.id === 'glo-empenho');
 assert(empenho && empenho.definition.includes('pendente ou não de implemento de condição'),'Empenho: redação legal do art. 58 foi alterada');
 assert(empenho.articleLinks.some(a => a.articleId === 'art-67167e9c18284c4c'));
+
+const exigirTrecho = (id, regex, descricao) => {
+  const termo = published.terms.find(t => t.id === id);
+  assert(termo && regex.test([termo.definition, termo.contrast, termo.example, termo.cebraspeTrap].join(' ')),
+    'Verificação normativa de '+id+': '+descricao);
+};
+// Alterações de 2026: evitar retornar à redação antiga da LRF.
+exigirTrecho('glo-renuncia-de-receita', /prorroga|prorrogação/i, 'prorrogação abrangida');
+exigirTrecho('glo-renuncia-de-receita', /art\. 14-A/, 'requisitos para pessoa jurídica');
+exigirTrecho('glo-renuncia-de-receita', /dois seguintes|2 \(dois\) exercícios/i, 'impacto em três exercícios');
+exigirTrecho('glo-despesa-obrigatoria-de-carater-continuado', /prorrogação/, 'prorrogação de despesa com prazo determinado');
+exigirTrecho('glo-despesa-obrigatoria-de-carater-continuado', /§ 6º/, 'exceção específica do art. 17');
+exigirTrecho('glo-transferencia-especial-emenda-parlamentar', /70%/, 'mínimo de despesas de capital');
+exigirTrecho('glo-transferencia-especial-emenda-parlamentar', /categoria da despesa/, 'categoria definida na indicação');
+
+exigirTrecho('glo-inscricao-em-restos-a-pagar', /último ano de vigência/, 'regra de créditos plurianuais');
+exigirTrecho('glo-restos-a-pagar-nao-processados', /não liquidad|liquidação ainda não/, 'diferença entre restos processados e não processados');
+exigirTrecho('glo-liquidacao-da-despesa', /contrato ou ajuste/, 'documentação do art. 63');
+exigirTrecho('glo-ordem-de-pagamento', /autoridade competente/, 'despacho da autoridade do art. 64');
+
+
 for (const [query, id] of [
  ['empenho prévio','glo-empenho-previo'],
  ['reforço de empenho','glo-reforco-de-empenho'],
@@ -337,27 +373,34 @@ assert(match('sem termo impossível').length === 0);
 // Os testes mecânicos preservam limites e conceitos essenciais; a compreensão
 // final ainda exige leitura humana, conforme o roteiro editorial.
 assert(published.publishedCount >= 213, 'Glossário deve manter o novo verbete e todos os anteriores');
-assert(published.terms.every(t => t.definition.length <= 320),
-  'Definições devem ser curtas; detalhes técnicos ficam em contraste, exemplo e artigo');
-for(const [id, fragments] of [
-  ['glo-paint',['Plano Anual de Auditoria Interna','trabalhos']],
-  ['glo-modelo-das-tres-linhas',['primeira linha','segunda','terceira']],
-  ['glo-balanco-patrimonial',['Relatório','ativos','passivos']],
-  ['glo-patrimonio-liquido',['Diferença','ativos','passivos']],
-  ['glo-receita-primaria',['Entrada','resultado primário']],
-  ['glo-grupo-de-natureza-da-despesa-gnd',['seis grupos','amortização']],
-  ['glo-empenho',['pendente ou não de implemento de condição']],
-  ['glo-credito-extraordinario',['imprevisível','urgente']],
-  ['glo-superavit-financeiro',['ano anterior']],
-  ['glo-fonte-destinacao-de-recursos',['regras','receita']],
-  ['glo-teste-de-controles',['Exame','funcionou']],
-  ['glo-despesa-primaria',['resultado primário']]
-]) {
-  const term = published.terms.find(t => t.id === id);
-  assert(term, 'Termo de revisão ausente: '+id);
-  for(const part of fragments) assert(term.definition.includes(part),
-    'Simplificação alterou a distinção central de '+id+': '+part);
-}
+// O glossário apresenta primeiro a explicação curta. Informações adicionais
+// permanecem nos campos de contraste, exemplo e pegadinha sem perda de conteúdo.
+assert(published.terms.every(t => t.definition.trim().length <= 320),
+  'Definição extensa: mover detalhes para os campos complementares sem perder precisão');
+assert(published.terms.every(t =>
+  ['definition','contrast','cebraspeTrap','example'].every(key => t[key]?.trim().length >= 30)),
+  'O glossário deve manter definição, contraste, pegadinha e exemplo');
+
+const exigirConceito = (id, padroes) => {
+  const termo = published.terms.find(t => t.id === id);
+  assert(termo, 'Termo essencial ausente: ' + id);
+  const conceito = [termo.definition, termo.contrast, termo.example].join(' ');
+  for(const padrao of padroes) {
+    assert(padrao.test(conceito), 'Distinção conceitual ausente em '+id+': '+padrao);
+  }
+};
+exigirConceito('glo-paint', [/Plano Anual de Auditoria Interna/, /trabalhos/]);
+exigirConceito('glo-modelo-das-tres-linhas', [/primeira linha/, /segunda/, /terceira/, /gestão/, /auditoria/]);
+exigirConceito('glo-balanco-patrimonial', [/Balanço Patrimonial/, /ativos/, /passivos/, /patrimônio líquido/]);
+exigirConceito('glo-patrimonio-liquido', [/diferença/i, /ativos/, /passivos/]);
+exigirConceito('glo-receita-primaria', [/receita/, /resultado primário/, /empréstim/]);
+exigirConceito('glo-grupo-de-natureza-da-despesa-gnd', [/seis grupos/, /Amortização da Dívida/]);
+exigirConceito('glo-empenho', [/pendente ou não de implemento de condição/, /liquidação/i, /pagamento/]);
+exigirConceito('glo-credito-extraordinario', [/urgente|urgência/, /imprevisível|imprevisibilidade/]);
+exigirConceito('glo-superavit-financeiro', [/exercício anterior/, /ativo financeiro/, /passivo financeiro/]);
+exigirConceito('glo-fonte-destinacao-de-recursos', [/regras/, /receita/, /vinculad/]);
+exigirConceito('glo-teste-de-controles', [/controle/, /funciona/, /teste substantivo/i]);
+exigirConceito('glo-despesa-primaria', [/resultado primário/, /capital/, /corrente/]);
 const plannedText = fs.readFileSync(path.join(root,
   '1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos.md'), 'utf8');
 assert(plannedText.includes('**202/202 verbetes anteriores**') &&

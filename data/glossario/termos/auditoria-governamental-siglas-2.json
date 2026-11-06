@@ -1,18 +1,34 @@
 {
   "schemaVersion": 1,
   "subjectId": "auditoria-governamental",
-  "entries": [{
-    "id": "glo-sistema-controle-interno-sci",
-    "term": "Sistema de Controle Interno (SCI)",
-    "aliases": ["SCI", "Sistema de Controle Interno do Poder Executivo Federal"],
-    "definition": "Conjunto institucional de órgãos e unidades que atua nas finalidades constitucionais e legais de controle interno, como avaliar programas e orçamentos, apoiar o controle externo e acompanhar a gestão pública.",
-    "contrast": "O SCI não é sinônimo dos controles internos da gestão: estes são desenhados e operados pelos gestores. Também não se confunde com o controle externo, exercido pelo Legislativo com auxílio dos tribunais de contas.",
-    "cebraspeTrap": "Afirmar que a auditoria interna executa os controles da gestão ou que o SCI se limita ao Poder Executivo em todos os entes e Poderes.",
-    "example": "Uma UAIG avalia controles de compras; a área de compras mantém a responsabilidade de desenhar e operar esses controles, enquanto o SCI exerce suas atribuições institucionais.",
-    "articleIds": ["art-497828bde2144eed"],
-    "subjectIds": ["auditoria-governamental"],
-    "contestIds": ["cgu-2026"],
-    "sources": [{"label":"CGU: Sistema de Controle Interno","url":"https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/sistema-de-controle-interno"}],
-    "status": "reviewed"
-  }]
+  "entries": [
+    {
+      "id": "glo-sistema-controle-interno-sci",
+      "term": "Sistema de Controle Interno (SCI)",
+      "aliases": [
+        "SCI",
+        "Sistema de Controle Interno do Poder Executivo Federal"
+      ],
+      "definition": "É o conjunto de órgãos e unidades que exercem funções institucionais de controle interno previstas na Constituição e na legislação. O Sistema de Controle Interno (SCI) ajuda a acompanhar a atuação do poder público, avaliar resultados e apoiar o controle externo, conforme as competências de cada estrutura.",
+      "contrast": "SCI é uma estrutura institucional. Controles internos da gestão são as verificações e regras usadas no dia a dia, como autorização de pagamentos e conferência de documentos. A auditoria interna pode avaliar esses controles, sem passar a operá-los. Controle externo é exercido pelo Poder Legislativo com auxílio dos tribunais de contas, conforme o âmbito constitucional.",
+      "cebraspeTrap": "A banca pode tratar SCI como sinônimo de controle interno de cada setor ou dizer que o controle externo é exercido pela mesma equipe que faz as autorizações administrativas.",
+      "example": "Uma área de compras exige duas aprovações antes de pagar: isso é controle interno da gestão. Uma auditoria examina se a exigência funciona. O SCI reúne órgãos e unidades com competências próprias de controle institucional, não sendo uma simples lista de aprovações de compras.",
+      "articleIds": [
+        "art-497828bde2144eed"
+      ],
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "CGU: Sistema de Controle Interno",
+          "url": "https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/sistema-de-controle-interno"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
 }

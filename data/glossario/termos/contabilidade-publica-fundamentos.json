@@ -6,10 +6,10 @@
       "id": "glo-ativo",
       "term": "Ativo",
       "aliases": [],
-      "definition": "Recurso que a entidade controla porque algo já aconteceu e que pode ajudá-la a prestar serviços ou trazer benefícios econômicos no futuro.",
-      "contrast": "Ativo é a categoria ampla: dinheiro, direitos a receber e equipamentos controlados pelo órgão. Ativo financeiro é um grupo específico do quadro legal do Balanço Patrimonial, formado por dinheiro e valores realizáveis sem autorização orçamentária; um computador também é ativo, mas não é ativo financeiro.",
-      "cebraspeTrap": "Dizer que todo ativo é financeiro ou que só é ativo o que pode virar dinheiro rapidamente. O computador de uma escola é ativo por seu potencial de serviço.",
-      "example": "Uma escola pública controla computadores usados nas aulas: eles são ativos porque ajudam a oferecer educação.",
+      "definition": "É algo que o governo controla e que pode ser usado para prestar serviços ou trazer benefícios. Pode ser dinheiro em banco, um imposto que ele tem direito de receber, um computador ou um prédio de escola.",
+      "contrast": "No Balanço Patrimonial (BP), o quadro principal mostra os ativos. Outro quadro separa os financeiros (F), como dinheiro em banco, dos permanentes (P), como equipamentos e, em regra, impostos ainda a receber. 'Ativo circulante' fala principalmente sobre prazo e uso; não é sinônimo de ativo financeiro. Uma dotação, valor autorizado no orçamento para gastar, não é um bem nem um direito a receber. Para ser considerado ativo, esse recurso precisa existir e estar sob controle do governo; querer comprar algo no futuro não basta.",
+      "cebraspeTrap": "Não é preciso que um ativo dê lucro ou possa ser vendido rapidamente. O prazo de recebimento de um imposto também não basta para classificá-lo como ativo financeiro.",
+      "example": "O município tem R$ 600 no banco, uma ambulância de R$ 80 mil e R$ 400 de imposto já reconhecido e ainda não recebido. São três ativos: dinheiro, bem que presta serviço e direito de receber. Se a prefeitura apenas planeja comprar outra ambulância, essa intenção ainda não cria um ativo.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -35,10 +35,10 @@
       "id": "glo-passivo",
       "term": "Passivo",
       "aliases": [],
-      "definition": "Obrigação que a entidade já tem por causa de algo ocorrido e que precisará cumprir transferindo recursos, como dinheiro ou outros bens e serviços.",
-      "contrast": "Passivo é obrigação presente surgida de fato passado, como um serviço já prestado e não pago. Passivo financeiro é uma categoria legal ligada à execução do orçamento: pode incluir empenho a liquidar mesmo sem passivo patrimonial reconhecido.",
-      "cebraspeTrap": "Afirmar que todo compromisso do passivo financeiro é necessariamente obrigação patrimonial já constituída, ou que qualquer empenho isolado prova passivo patrimonial.",
-      "example": "Uma escola recebeu um serviço de manutenção, mas ainda não pagou o fornecedor: a obrigação de pagar pode ser registrada como passivo.",
+      "definition": "É uma obrigação que o governo já tem porque algo aconteceu e que terá de cumprir, geralmente pagando dinheiro, entregando bens ou prestando algum serviço. Um serviço de manutenção já feito e ainda não pago pode criar um passivo. Planejar contratar um serviço, por si só, não cria essa obrigação patrimonial.",
+      "contrast": "No quadro principal do Balanço Patrimonial (BP) aparecem obrigações que já existem. No quadro financeiro e permanente, a pergunta é outra: a dívida pode ser paga sem nova autorização do orçamento? Por isso, um empenho (compromisso formal de despesa) por serviço futuro pode entrar no passivo financeiro, mas ainda não criar passivo patrimonial. Depois que o serviço é prestado, a obrigação patrimonial pode surgir antes da liquidação, que é a conferência formal da entrega.",
+      "cebraspeTrap": "Ter uma despesa empenhada não significa que o serviço já foi prestado. O passivo financeiro do quadro legal e o passivo patrimonial do quadro principal usam critérios diferentes.",
+      "example": "A prefeitura empenha R$ 2 mil para um conserto. Enquanto ninguém fez o serviço, o empenho sozinho não prova que ela já deve pelo conserto no sentido patrimonial. Após o reparo, passa a dever ao prestador. Se receber R$ 500 de caução, dinheiro dado como garantia, também terá obrigação de devolver esse valor; a caução não é dinheiro ganho.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -66,10 +66,10 @@
       "aliases": [
         "Ciclo operacional da entidade"
       ],
-      "definition": "Período em que a entidade transforma insumos e recursos em produtos ou serviços no curso normal das atividades. Ajuda a classificar ativos e passivos como circulantes ou não circulantes no Quadro Principal do Balanço Patrimonial. Se não for claramente identificável, presume-se duração de 12 meses.",
-      "contrast": "Ativos destinados a ser consumidos, vendidos ou realizados no ciclo operacional normal podem ser circulantes mesmo quando esse ciclo ultrapassa 12 meses. O mesmo critério se aplica a obrigações exigíveis no ciclo normal. Por isso, o prazo de 12 meses é um critério alternativo ou presunção, e não um limite absoluto. Ciclo operacional não é o exercício financeiro (ano civil), nem se confunde com a classificação legal financeiro/permanente do segundo quadro do BP. Bens de uso duradouro, como prédios, em regra ficam no ativo não circulante.",
-      "cebraspeTrap": "Afirmar que todo ativo ou passivo realizado ou exigido depois de 12 meses é necessariamente não circulante, mesmo que faça parte de um ciclo operacional normal identificável mais longo; ou confundir o ciclo com o exercício financeiro.",
-      "example": "Um hospital público compra medicamentos para utilizá-los nos atendimentos durante os próximos oito meses: o estoque é ativo circulante. Se outra entidade tiver um ciclo operacional normal identificável de 18 meses, os materiais destinados a ser consumidos nesse ciclo podem ser circulantes mesmo após 12 meses. O prédio utilizado na prestação contínua do serviço não vira circulante por fazer parte das atividades.",
+      "definition": "É o tempo que uma entidade normalmente leva para transformar recursos e materiais em produtos ou serviços no funcionamento de suas atividades. Esse período ajuda a decidir se certos bens, direitos e dívidas entram como circulantes no Balanço Patrimonial.",
+      "contrast": "Um item usado ou realizado durante o ciclo normal pode ser circulante mesmo quando esse ciclo dura mais de doze meses. O mesmo vale para obrigações a pagar no ciclo. Por isso, os doze meses não são uma regra absoluta quando o ciclo é identificável. O ciclo operacional também não é o exercício financeiro, que vai de janeiro a dezembro, nem a classificação legal entre financeiro e permanente. Se o ciclo não puder ser claramente identificado, presume-se que dure doze meses.",
+      "cebraspeTrap": "A banca pode classificar como não circulante qualquer item realizado após doze meses, ignorando um ciclo operacional normal identificável e mais longo. Também pode confundir esse ciclo com o exercício financeiro.",
+      "example": "Uma unidade pública consome medicamentos ao longo de oito meses de atendimento: esse estoque pode ser circulante. Se outra entidade tem ciclo operacional claramente identificado de dezoito meses, materiais que serão consumidos nesse ciclo também podem ser circulantes mesmo após doze meses. O prédio usado no atendimento, em regra, continua não circulante.",
       "subjectIds": [
         "contabilidade-publica"
       ],

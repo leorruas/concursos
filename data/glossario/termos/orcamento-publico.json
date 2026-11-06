@@ -8,10 +8,10 @@
       "aliases": [
         "Plano Plurianual"
       ],
-      "definition": "Plano Plurianual: lei que organiza os objetivos e as metas de médio prazo do governo, com atenção às despesas de capital, às que delas decorrem e aos programas continuados. A proposta é do Poder Executivo.",
-      "contrast": "O PPA orienta vários anos de planejamento. A LDO estabelece prioridades para o orçamento seguinte; a LOA autoriza receitas e despesas de um ano.",
-      "cebraspeTrap": "Reduzir o PPA a obras ou fazer sua vigência federal coincidir integralmente com o mandato.",
-      "example": "A expansão de uma rede de atendimento tem metas de médio prazo no PPA.",
+      "definition": "É a lei que organiza o planejamento do governo para quatro anos. O Plano Plurianual (PPA) define diretrizes, objetivos e metas para programas de duração continuada e para investimentos e despesas que deles decorrem. Serve para ligar as decisões de médio prazo aos orçamentos anuais.",
+      "contrast": "O PPA define a direção para vários anos; a Lei de Diretrizes Orçamentárias (LDO) seleciona prioridades e orienta o orçamento do ano seguinte; a Lei Orçamentária Anual (LOA) estima receitas e autoriza despesas daquele ano. No plano federal, a vigência do PPA começa no segundo ano do mandato presidencial e termina no primeiro ano do mandato seguinte. Assim, a troca de presidente não encerra automaticamente o plano vigente. O PPA também inclui programas continuados, não apenas obras. Na União, o projeto é enviado pelo Poder Executivo.",
+      "cebraspeTrap": "A banca pode dizer que o PPA federal começa no primeiro ano do mandato ou que contém apenas obras. O ponto decisivo é seu ciclo de quatro anos deslocado em relação ao mandato presidencial e a inclusão de programas continuados.",
+      "example": "O governo planeja ampliar o atendimento de saúde durante quatro anos: define no PPA metas como novas unidades e atendimento ampliado. A LDO do próximo ano indica prioridades; a LOA autoriza valores para executar parte do plano. Na União, um presidente eleito em 2026 executará em 2027 o último ano do PPA anterior, antes do novo PPA vigorar em 2028.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -35,10 +35,10 @@
       "aliases": [
         "Lei de Diretrizes Orçamentárias"
       ],
-      "definition": "Lei de Diretrizes Orçamentárias: lei anual que define prioridades e metas para o ano seguinte e orienta a preparação da Lei Orçamentária Anual, inclusive em matéria fiscal.",
-      "contrast": "A LDO faz a ligação entre o planejamento do PPA e o orçamento anual da LOA. Ela não substitui a autorização detalhada de despesas da LOA.",
-      "cebraspeTrap": "Afirmar que cada autarquia edita sua própria LDO, separada do ente federativo.",
-      "example": "A LDO traz metas fiscais para orientar a proposta anual.",
+      "definition": "É a lei que faz a ligação entre o planejamento de vários anos e o orçamento de cada ano. A Lei de Diretrizes Orçamentárias (LDO) indica prioridades e metas, orienta a elaboração da Lei Orçamentária Anual (LOA) e traz regras e informações fiscais exigidas pela Constituição e pela Lei de Responsabilidade Fiscal.",
+      "contrast": "O Plano Plurianual (PPA) trata de objetivos de médio prazo; a LDO escolhe orientações e prioridades para o exercício seguinte; a LOA estima receitas e autoriza despesas. A LDO pode trazer Anexo de Metas Fiscais e Anexo de Riscos Fiscais, conforme a lei. Ela não substitui a dotação da LOA nem é uma lei separada para cada autarquia: integra o planejamento do ente federativo.",
+      "cebraspeTrap": "Confundir prioridade da LDO com autorização de gasto da LOA, ou afirmar que cada órgão edita sua própria LDO independente da lei do ente, troca a função dos instrumentos.",
+      "example": "O PPA prevê ampliar a rede de escolas por vários anos. A LDO define como prioridade do próximo exercício a melhoria de escolas existentes e indica metas fiscais. A LOA traz a verba autorizada para as ações. Nenhuma dessas leis, isoladamente, comprova que obras foram pagas ou concluídas.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -66,10 +66,10 @@
       "aliases": [
         "Lei Orçamentária Anual"
       ],
-      "definition": "Lei Orçamentária Anual: lei que estima quanto o governo espera arrecadar e autoriza despesas para o ano, nos três orçamentos previstos na Constituição.",
-      "contrast": "A LOA autoriza valores para um exercício. O PPA organiza objetivos de vários anos, e a LDO orienta a elaboração e a execução do orçamento.",
-      "cebraspeTrap": "Confundir dotação prevista na lei com despesa integralmente executada.",
-      "example": "A LOA autoriza recursos para equipamentos, cuja entrega e pagamento virão depois.",
+      "definition": "É a lei que mostra quanto o governo espera arrecadar e autoriza quanto poderá gastar em um exercício financeiro. A Lei Orçamentária Anual (LOA) reúne três partes previstas na Constituição: orçamento fiscal, orçamento da seguridade social e orçamento de investimento das empresas estatais abrangidas.",
+      "contrast": "A LOA vale para um exercício, mas pode financiar uma parte de projetos que duram vários anos. O Plano Plurianual (PPA) define objetivos de médio prazo; a Lei de Diretrizes Orçamentárias (LDO) estabelece orientações e prioridades. Ter uma despesa autorizada na LOA, chamada dotação, não significa que já houve empenho, entrega ou pagamento. A Constituição permite que a LOA contenha autorização para créditos suplementares e operações de crédito, apesar do princípio da exclusividade.",
+      "cebraspeTrap": "A banca pode dizer que tudo que foi autorizado na LOA já saiu do caixa ou que a LOA contém somente o orçamento fiscal. É preciso distinguir autorização, execução e as três esferas da lei.",
+      "example": "A LOA autoriza R$ 500 mil para compra de computadores. Enquanto não houver empenho, há apenas autorização para gastar; quando o órgão empenha R$ 100 mil, compromete essa parcela. O pagamento só acontece depois das etapas exigidas. O projeto de informatização pode estar no PPA e ser priorizado na LDO.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -94,10 +94,10 @@
         "Empenho da despesa",
         "Empenho orçamentário"
       ],
-      "definition": "Ato da autoridade competente que compromete parte do orçamento para uma despesa e cria obrigação de pagamento para o Estado. Pelo art. 58 da Lei nº 4.320/1964, essa obrigação é 'pendente ou não de implemento de condição'.",
-      "contrast": "Empenho registra o compromisso no orçamento. Liquidação verifica o direito do credor, e pagamento entrega o dinheiro; uma etapa não comprova que as demais já ocorreram.",
-      "cebraspeTrap": "Omitir a expressão legal 'ou não' ao dizer que a obrigação criada pelo empenho depende sempre de condição; ou presumir que já houve entrega e pagamento.",
-      "example": "Uma universidade empenha equipamentos antes da entrega; em outra obrigação, a condição para o pagamento pode já estar implementada, sem confundir o empenho com a liquidação.",
+      "definition": "É o ato pelo qual o governo separa formalmente uma parte da verba autorizada no orçamento para determinada despesa. Segundo o art. 58 da Lei nº 4.320/1964, cria para o Estado obrigação de pagamento 'pendente ou não de implemento de condição'.",
+      "contrast": "Dotação é o valor autorizado para gastar; empenho compromete parte dele. Liquidação é a conferência de que o credor tem direito a receber; pagamento é a transferência do dinheiro. O empenho por uma entrega futura não prova, sozinho, que já exista uma dívida patrimonial pelo serviço: ela depende do fato ocorrido. Se a despesa foi empenhada e não paga até o fim do ano, pode ser inscrita em restos a pagar, observadas as regras. O pagamento pode depender de uma condição, como a entrega do produto, mas a lei também abrange obrigações sem essa condição pendente.",
+      "cebraspeTrap": "A definição legal diz 'pendente ou não de implemento de condição': nem todo empenho depende de entrega futura. Também não se pode confundir o compromisso no orçamento com o pagamento já realizado. O empenho faz parte da execução da despesa orçamentária.",
+      "example": "Uma universidade tem R$ 50 mil autorizados para comprar computadores e empenha R$ 12 mil para um pedido. Restam R$ 38 mil de dotação, se não houve outros compromissos. Enquanto os computadores não chegam, há empenho, mas não houve entrega. Depois de recebê-los, o órgão confere a documentação para liquidar; só então segue para pagamento regular.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -119,10 +119,10 @@
       "id": "glo-liquidacao-da-despesa",
       "term": "Liquidação da despesa",
       "aliases": [],
-      "definition": "Etapa em que a administração confere se o fornecedor ou outro credor tem direito ao pagamento, verificando o que foi entregue e os documentos exigidos, conforme o art. 63 da Lei nº 4.320/1964.",
-      "contrast": "A liquidação verifica o direito de receber. O empenho registra o compromisso antes, enquanto o pagamento transfere os recursos depois da autorização pertinente.",
-      "cebraspeTrap": "Considerar a simples emissão de fatura como comprovação suficiente de entrega.",
-      "example": "A fiscalização verifica a entrega e os documentos antes de liberar o pagamento.",
+      "definition": "É a etapa em que o governo confere se a pessoa ou empresa tem direito a receber. Pela Lei nº 4.320/1964, art. 63, essa conferência examina a origem da despesa, o valor devido, quem deve receber e os documentos que comprovam a entrega do bem ou a prestação do serviço, conforme o caso.",
+      "contrast": "O empenho registra o compromisso no orçamento; a liquidação verifica o direito de quem deve receber; o pagamento transfere o dinheiro depois da ordem competente. Em fornecimentos e serviços, a Lei nº 4.320/1964, art. 63, § 2º, manda conferir o contrato ou ajuste, a nota de empenho e os comprovantes da entrega ou serviço. Receber apenas a nota fiscal não substitui essa conferência. A obrigação patrimonial pode surgir quando o serviço é prestado, antes da liquidação administrativa.",
+      "cebraspeTrap": "A banca pode dizer que a nota fiscal, sozinha, comprova o direito ao pagamento ou que liquidar significa pagar. A liquidação exige verificar o direito do credor, inclusive valor, destinatário e prestação.",
+      "example": "A escola empenha R$ 4 mil por cadeiras. Quando elas chegam, o responsável conta as unidades, verifica se correspondem ao contrato e confere a nota e o fornecedor. Concluída a liquidação, os R$ 4 mil ficam liquidados a pagar. A empresa ainda não recebeu o dinheiro até que o pagamento seja feito.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -144,10 +144,10 @@
       "id": "glo-ciclo-orcamentario",
       "term": "Ciclo orçamentário",
       "aliases": [],
-      "definition": "Conjunto de etapas pelas quais passa o orçamento público: preparar a proposta, discutir e aprovar a lei, executar receitas e despesas e controlar e avaliar os resultados.",
-      "contrast": "Elaborar, aprovar, executar e avaliar são etapas relacionadas, mas o controle pode ocorrer durante a execução e continuar depois dela.",
-      "cebraspeTrap": "Descrever as quatro fases como etapas cronologicamente estanques, sem sobreposição entre exercícios.",
-      "example": "Enquanto o orçamento de um ano é executado, a proposta do ano seguinte já pode estar em elaboração.",
+      "definition": "É o conjunto de etapas pelas quais o orçamento público passa: o governo prepara a proposta; o Legislativo discute e aprova; a administração arrecada receitas e executa despesas; e os órgãos competentes acompanham, controlam e avaliam os resultados.",
+      "contrast": "Planejar não é executar: a proposta e a lei autorizam ações, mas não comprovam gasto ou entrega. Controlar também não é atividade exclusiva do fim do ano: há fiscalização antes, durante e depois da execução. Enquanto um orçamento está sendo executado, outro pode estar sendo elaborado. O ciclo orçamentário é o processo inteiro; empenho, liquidação e pagamento são etapas da execução de uma despesa específica. Essas etapas se relacionam e podem ocorrer ao mesmo tempo para exercícios diferentes.",
+      "cebraspeTrap": "Descrever as fases como uma fila sem sobreposição ou dizer que só existe fiscalização depois do pagamento ignora o funcionamento do ciclo.",
+      "example": "Em 2026, um município executa o orçamento de 2026, analisa seus resultados e ao mesmo tempo prepara a proposta para 2027. Um fiscal pode conferir uma despesa ainda durante 2026. Portanto, os ciclos de anos diferentes se sobrepõem.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -173,10 +173,10 @@
       "id": "glo-principio-da-unidade",
       "term": "Princípio da unidade",
       "aliases": [],
-      "definition": "Princípio que exige que as receitas e despesas de cada ente componham um orçamento organizado como um conjunto coerente, respeitando a divisão constitucional em orçamentos fiscal, da seguridade e de investimento.",
-      "contrast": "A unidade busca integração e visão conjunta. A Constituição admite três orçamentos na LOA, sem contrariar essa ideia.",
-      "cebraspeTrap": "Afirmar que a unidade obriga o ente a possuir um único quadro sem classificações ou peças internas.",
-      "example": "A lei orçamentária federal inclui três orçamentos previstos no art. 165 da Constituição.",
+      "definition": "É o princípio de que o orçamento de cada governo deve formar um conjunto organizado e coerente, permitindo enxergar suas receitas e despesas.",
+      "contrast": "Unidade trata da organização do orçamento como um conjunto. Universalidade trata de incluir as receitas e despesas exigidas. Orçamento bruto trata de mostrar os valores totais, sem descontar receitas de despesas. A existência de três orçamentos na LOA não significa violar a unidade, nem proíbe dividir a informação por órgão, programa ou função. A Constituição prevê que a Lei Orçamentária Anual (LOA) reúna os orçamentos fiscal, da seguridade social e de investimento das estatais abrangidas, sem perder essa visão integrada.",
+      "cebraspeTrap": "A palavra unidade não exige uma tabela única sem divisões. A banca pode afirmar que a Constituição viola o princípio por prever três orçamentos.",
+      "example": "A LOA da União apresenta partes para gastos fiscais, seguridade social e investimentos de estatais abrangidas. Embora sejam três orçamentos, todos integram a lei orçamentária anual do ente. Isso permite identificar o conjunto e também analisar cada parte.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -202,10 +202,10 @@
       "id": "glo-principio-da-universalidade",
       "term": "Princípio da universalidade",
       "aliases": [],
-      "definition": "Regra que exige incluir no orçamento as receitas e despesas orçamentárias abrangidas pelas normas aplicáveis, para permitir que o Legislativo e a sociedade conheçam o conjunto.",
-      "contrast": "Universalidade trata de quais receitas e despesas entram na lei. Unidade trata de como o conjunto é organizado; orçamento bruto exige valores integrais.",
-      "cebraspeTrap": "Confundir a inclusão ampla de receitas e despesas com a proibição de classificá-las por órgão ou função.",
-      "example": "A proposta deve identificar receitas e despesas da seguridade e do orçamento fiscal, conforme o regime aplicável.",
+      "definition": "É a regra de incluir na lei orçamentária todas as receitas e despesas que, pelas normas aplicáveis, devem integrar o orçamento. Isso permite ao Legislativo e à sociedade conhecerem o conjunto das atividades financeiras do governo.",
+      "contrast": "Universalidade responde o que deve aparecer no orçamento; unidade responde como organizar o conjunto; orçamento bruto exige valores integrais. Nem todo movimento de dinheiro é receita orçamentária: uma caução recebida para devolver, por exemplo, é ingresso extraorçamentário e não vira receita da LOA só porque passou pela conta do governo. Também é permitido classificar os valores por órgãos e finalidades sem violar a universalidade.",
+      "cebraspeTrap": "A banca pode tratar qualquer entrada de caixa como receita orçamentária obrigatória da LOA ou confundir a exigência de inclusão com a proibição de separar despesas por áreas.",
+      "example": "O governo estima impostos e autoriza despesas em saúde e educação na LOA, respeitando os orçamentos que devem integrar a lei. Quando recebe caução de um fornecedor, esse dinheiro de terceiro não vira receita orçamentária simplesmente por ter entrado no banco.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -231,10 +231,10 @@
       "id": "glo-principio-da-anualidade",
       "term": "Princípio da anualidade",
       "aliases": [],
-      "definition": "Regra segundo a qual o orçamento autoriza receitas e despesas para um exercício financeiro, que em regra vai de 1º de janeiro a 31 de dezembro.",
-      "contrast": "O PPA dura vários anos, mas a LOA é anual. Existem regras específicas para créditos especiais e extraordinários reabertos no exercício seguinte.",
-      "cebraspeTrap": "Afirmar que nenhuma ação pública pode durar vários exercícios porque o orçamento é anual.",
-      "example": "Um projeto plurianual possui dotações autorizadas em cada exercício de sua execução.",
+      "definition": "É o princípio de que o orçamento autoriza receitas e despesas para um exercício financeiro. No Brasil, o exercício vai de 1º de janeiro a 31 de dezembro. A Lei Orçamentária Anual (LOA) precisa ser aprovada para esse período, mesmo quando o governo executa projetos que duram mais de um ano.",
+      "contrast": "A anualidade da LOA não obriga que todas as obras e programas terminem em dezembro: o Plano Plurianual (PPA) orienta ações de duração maior e cada ano tem sua autorização orçamentária. A Constituição também permite reabrir, no exercício seguinte, saldos de créditos especiais e extraordinários autorizados nos últimos quatro meses do ano, conforme os requisitos legais.",
+      "cebraspeTrap": "Anualidade não quer dizer que toda política pública deva acabar no mesmo ano. Também não torna impossível a reabertura constitucional de certos créditos.",
+      "example": "Uma obra pública durará três anos. O PPA pode prever o projeto, mas a LOA de cada ano autoriza as despesas daquele exercício. Um crédito extraordinário autorizado em novembro pode ter saldo reaberto no ano seguinte, se cumpridas as condições constitucionais.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -260,10 +260,10 @@
       "id": "glo-principio-da-exclusividade",
       "term": "Princípio da exclusividade",
       "aliases": [],
-      "definition": "Regra que limita o conteúdo da Lei Orçamentária Anual à previsão de receitas e à fixação de despesas. A Constituição admite exceções para autorizar créditos suplementares e operações de crédito, inclusive ARO.",
-      "contrast": "A exclusividade impede incluir assuntos estranhos ao orçamento. As exceções expressas do art. 165, § 8º, devem ser lembradas na prova.",
-      "cebraspeTrap": "Afirmar que a LOA jamais pode autorizar créditos suplementares ou incluir autorização de operação de crédito.",
-      "example": "Uma LOA autoriza suplementações dentro dos limites legais sem modificar a organização de secretarias.",
+      "definition": "É a regra de que a Lei Orçamentária Anual (LOA) deve tratar da previsão de receitas e da autorização de despesas, sem inserir assuntos que não pertencem ao orçamento.",
+      "contrast": "Crédito suplementar reforça uma dotação que já existe; operação de crédito é, em geral, empréstimo ou outra forma de financiamento que cria obrigação de devolver. Essas autorizações podem constar na LOA sem violar a exclusividade. Alterar a estrutura de uma secretaria ou criar regra administrativa sem relação com orçamento não passa a ser permitido só por constar do projeto de LOA. A Constituição, art. 165, § 8º, permite exceções expressas: autorizar créditos suplementares e operações de crédito, inclusive antecipação de receita orçamentária.",
+      "cebraspeTrap": "Dizer que a LOA nunca pode autorizar crédito suplementar ou empréstimo ignora as duas exceções expressas. Também é erro tratar a exceção como permissão para qualquer assunto.",
+      "example": "A lei orçamentária autoriza despesas com educação e pode permitir ao Executivo abrir créditos suplementares até certo limite. Isso é uma exceção prevista na Constituição. Inserir na mesma lei uma mudança geral na carreira dos servidores, sem relação com previsão de receita ou fixação de despesa, contraria a finalidade desse princípio.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -285,10 +285,10 @@
       "id": "glo-principio-do-orcamento-bruto",
       "term": "Princípio do orçamento bruto",
       "aliases": [],
-      "definition": "Regra que exige apresentar na lei orçamentária receitas e despesas pelos seus valores totais, sem descontar uma da outra para esconder parte dos montantes.",
-      "contrast": "Orçamento bruto trata de não mostrar valores líquidos no lugar dos valores totais. Universalidade determina quais receitas e despesas devem constar da lei.",
-      "cebraspeTrap": "Registrar apenas o saldo líquido de um repasse, ocultando receita e despesa que deveriam figurar pelos totais.",
-      "example": "Uma transferência de recursos é demonstrada com valor de ingresso e correspondente despesa conforme classificação.",
+      "definition": "É a regra de mostrar na lei orçamentária receitas e despesas pelos seus valores totais, sem descontar uma da outra para apresentar somente a diferença. A Lei nº 4.320/1964, art. 6º, exige essa apresentação pelos valores brutos, respeitadas as classificações aplicáveis.",
+      "contrast": "O princípio do orçamento bruto fala sobre como apresentar valores: inteiros, antes de compensações indevidas. O princípio da universalidade fala sobre quais receitas e despesas devem entrar; a unidade, sobre a organização do conjunto. Receber R$ 100 e gastar R$ 40 não permite informar apenas R$ 60, quando os R$ 100 e R$ 40 devem aparecer separadamente.",
+      "cebraspeTrap": "A banca pode substituir receita e despesa integrais por um saldo líquido e dizer que isso cumpre o orçamento bruto. É precisamente o tipo de compensação que o princípio evita.",
+      "example": "Uma unidade prevê receita de R$ 100 mil e despesa de R$ 30 mil relacionada à atividade. A lei deve apresentar R$ 100 mil de receita e R$ 30 mil de despesa, conforme as regras, e não somente R$ 70 mil como se fosse receita líquida.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -310,10 +310,10 @@
       "id": "glo-credito-suplementar",
       "term": "Crédito suplementar",
       "aliases": [],
-      "definition": "Autorização adicional para aumentar o valor de uma despesa que já possui dotação no orçamento, quando o dinheiro autorizado para ela é insuficiente.",
-      "contrast": "Suplementar reforça uma dotação existente. Especial cria dotação para despesa que ainda não tinha uma; extraordinário atende urgência e imprevisibilidade.",
-      "cebraspeTrap": "Tratar falta completa de dotação como hipótese de simples reforço suplementar.",
-      "example": "Uma ação já prevista no orçamento exige aumento de valor e recebe crédito suplementar autorizado.",
+      "definition": "É uma autorização adicional para aumentar o valor de uma despesa que já tem dotação na Lei Orçamentária Anual (LOA), mas precisa de mais recursos. Crédito suplementar reforça uma programação existente e deve seguir as regras de autorização e abertura previstas na Constituição e na Lei nº 4.320/1964.",
+      "contrast": "Suplementar reforça dotação já existente; especial cria dotação para uma despesa que não tinha previsão específica; extraordinário atende despesas urgentes e imprevisíveis. Para abrir crédito suplementar é preciso observar autorização legislativa e indicação de recursos disponíveis nos termos legais. A própria LOA pode autorizar créditos suplementares, dentro dos limites que fixar. Crédito adicional aumenta autorização, não dinheiro no banco.",
+      "cebraspeTrap": "Falta de dinheiro dentro de uma dotação existente indica reforço, não criação de nova categoria de gasto. Também não basta haver necessidade para abrir crédito sem observar autorização e recursos.",
+      "example": "A LOA prevê R$ 100 mil para materiais de uma escola. Mais tarde são necessários R$ 30 mil adicionais para a mesma programação. Se as condições legais forem cumpridas, abre-se crédito suplementar de R$ 30 mil e a dotação passa a R$ 130 mil. Se o gasto nem tivesse dotação, a hipótese seria de crédito especial.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -339,10 +339,10 @@
       "id": "glo-credito-especial",
       "term": "Crédito especial",
       "aliases": [],
-      "definition": "Autorização adicional para realizar despesa que ainda não possui dotação específica na lei orçamentária, com autorização legislativa e indicação de recursos nos termos legais.",
-      "contrast": "Especial cria uma dotação nova. Suplementar reforça dotação já existente; extraordinário segue regime próprio para situações imprevisíveis e urgentes.",
-      "cebraspeTrap": "Afirmar que a mera insuficiência de valor caracteriza crédito especial ou que qualquer urgência dispensa autorização.",
-      "example": "A administração precisa criar dotação para ação não contemplada na Lei Orçamentária Anual.",
+      "definition": "É uma autorização para realizar despesa que não tinha dotação específica na Lei Orçamentária Anual (LOA). O crédito especial cria a autorização que faltava para aquela programação, respeitando as exigências legais de aprovação e indicação de recursos.",
+      "contrast": "Suplementar aumenta o valor de dotação já existente. Especial abre dotação onde não havia uma. Extraordinário trata despesas urgentes e imprevisíveis, com regras próprias. O crédito especial costuma exigir autorização legislativa e abertura pelo Executivo, com indicação de recursos disponíveis. Se for autorizado nos últimos quatro meses do ano, seu saldo pode ser reaberto no ano seguinte, conforme a Constituição.",
+      "cebraspeTrap": "Uma dotação insuficiente não é ausência de dotação. A banca pode usar esses casos como se ambos exigissem crédito especial.",
+      "example": "A prefeitura precisa criar uma ação de atendimento que não tinha dotação na LOA. Abre crédito especial, após cumprir os requisitos legais, para autorizar aquela despesa. Se a ação já existisse e precisasse apenas de mais verba, o caso seria suplementar.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -368,10 +368,10 @@
       "id": "glo-credito-extraordinario",
       "term": "Crédito extraordinário",
       "aliases": [],
-      "definition": "Autorização adicional para enfrentar despesa ao mesmo tempo imprevisível e urgente, como nas hipóteses constitucionais de guerra, comoção interna ou calamidade pública.",
-      "contrast": "A urgência por si só não basta: a Constituição exige imprevisibilidade e urgência. O crédito extraordinário segue forma de abertura diferente dos especiais e suplementares.",
-      "cebraspeTrap": "Considerar extraordinária toda despesa que o gestor queira executar rapidamente no fim do exercício.",
-      "example": "Uma calamidade imprevisível exige providências imediatas não contempladas no orçamento vigente.",
+      "definition": "É uma autorização adicional para cobrir despesas que surgem de situações ao mesmo tempo urgentes e imprevisíveis, como guerra, comoção interna ou calamidade pública. A Constituição, art. 167, § 3º, estabelece essa condição para créditos extraordinários, com abertura por procedimento próprio.",
+      "contrast": "Suplementar reforça dotação existente; especial cria dotação que faltava; extraordinário depende da urgência e da imprevisibilidade do gasto. Pressa administrativa ou demora em planejar não tornam, por si, uma despesa extraordinária. O procedimento de abertura varia conforme o ente e as regras constitucionais. Se o crédito extraordinário for autorizado nos últimos quatro meses do exercício, o saldo pode ser reaberto no seguinte, dentro das condições legais.",
+      "cebraspeTrap": "A banca pode apresentar uma despesa urgente, mas previsível, como extraordinária. A regra exige as duas características juntas e não dispensa os controles legais.",
+      "example": "Uma enchente grave e imprevisível destrói pontes e exige socorro imediato. O governo pode avaliar crédito extraordinário para despesas urgentes. Já uma compra rotineira que foi esquecida no planejamento não vira extraordinária apenas porque o ano está terminando.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -397,10 +397,10 @@
       "id": "glo-programacao-financeira",
       "term": "Programação financeira",
       "aliases": [],
-      "definition": "Organização de quando o governo espera receber recursos e realizar pagamentos, considerando caixa disponível, prioridades e metas fiscais.",
-      "contrast": "A LOA autoriza gastar, mas a programação financeira organiza o ritmo da execução e dos pagamentos conforme os recursos disponíveis.",
-      "cebraspeTrap": "Afirmar que toda despesa fixada na LOA pode ser paga imediatamente, sem programação.",
-      "example": "Após publicar a LOA, o Executivo estabelece programação financeira compatível com entradas previstas.",
+      "definition": "É o planejamento de como o governo vai administrar o dinheiro durante o ano: quanto espera receber, quanto poderá pagar e em que momentos. Depois da publicação do orçamento, o Executivo organiza esse ritmo para evitar assumir pagamentos incompatíveis com a entrada de recursos.",
+      "contrast": "A Lei Orçamentária Anual (LOA) autoriza despesas, mas a autorização não significa dinheiro disponível no banco. Programação financeira organiza o caixa e os limites de execução. O cronograma de desembolso detalha os pagamentos previstos ao longo do tempo; a dotação mostra o valor autorizado para cada despesa. Se a receita esperada cair, podem ser necessários ajustes e limites, sem que isso anule automaticamente a dotação.",
+      "cebraspeTrap": "A banca pode trocar autorização orçamentária por disponibilidade imediata de dinheiro. Ter dotação não dispensa programação financeira nem garante pagamento integral no início do exercício.",
+      "example": "A prefeitura tem autorização para gastar R$ 1 milhão em manutenção durante o ano, mas espera receber a maior parte dos recursos só no segundo semestre. A programação financeira distribui os pagamentos conforme as entradas previstas; não permite supor que R$ 1 milhão poderá ser pago em janeiro.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -422,10 +422,10 @@
       "id": "glo-cronograma-de-desembolso",
       "term": "Cronograma de desembolso",
       "aliases": [],
-      "definition": "Planejamento que distribui os pagamentos previstos pelos meses ou outros períodos do exercício, para compatibilizá-los com a entrada de dinheiro.",
-      "contrast": "Cronograma de desembolso define quando se pretende pagar. Não é a dotação da despesa nem comprova que um pagamento ocorreu.",
-      "cebraspeTrap": "Confundir previsão de desembolso com liquidação já concluída ou receita efetivamente recebida.",
-      "example": "Um órgão planeja pagamentos por mês para acompanhar o fluxo esperado de caixa.",
+      "definition": "É um calendário que distribui os pagamentos que o governo pretende fazer ao longo do ano. Serve para organizar a saída de dinheiro conforme o que se espera arrecadar e os compromissos que precisarão ser pagos.",
+      "contrast": "O cronograma é uma parte da organização financeira: mostra quando os pagamentos estão previstos. A dotação diz quanto foi autorizado no orçamento; o empenho registra o compromisso; a liquidação confere o direito do fornecedor; o pagamento é a transferência real. Colocar R$ 50 mil no cronograma de março não prova que essa quantia tenha sido paga.",
+      "cebraspeTrap": "Cronograma de desembolso não é comprovante de pagamento, nem substitui empenho e liquidação. A confusão costuma estar entre data planejada e despesa efetivamente paga.",
+      "example": "Uma secretaria prevê pagar R$ 30 mil em abril, R$ 40 mil em maio e R$ 50 mil em junho. O cronograma ajuda a reservar recursos para esses períodos. Se uma entrega atrasar, a liquidação e o pagamento podem ocorrer em data diferente do planejamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -449,10 +449,10 @@
       "aliases": [
         "Limitação de empenho"
       ],
-      "definition": "Restrição temporária a empenhos e à movimentação financeira quando a arrecadação estimada pode não ser suficiente para cumprir as metas fiscais, nos termos do art. 9º da LRF.",
-      "contrast": "Contingenciar limita a execução para proteger metas fiscais. Anular dotação retira autorização orçamentária; bloqueio pode ter outros fundamentos legais.",
-      "cebraspeTrap": "Equiparar contingenciamento a cancelamento definitivo de toda a autorização ou aplicá-lo sem considerar despesas ressalvadas.",
-      "example": "Diante de projeção insuficiente de receita, o ente reduz limites de empenho e de movimentação nos termos da LDO.",
+      "definition": "É a redução temporária dos limites para assumir novas despesas e movimentar dinheiro quando a arrecadação prevista ameaça o cumprimento das metas fiscais. A Lei de Responsabilidade Fiscal (LRF), art. 9º, prevê a limitação de empenho e movimentação financeira, observadas as condições e exceções legais.",
+      "contrast": "Contingenciar limita a execução, mas não cancela automaticamente a dotação da Lei Orçamentária Anual. Anular dotação é retirar uma autorização de gasto; bloqueio pode ter fundamento diferente, como outra regra de limite. Nem toda despesa pode ser limitada livremente: a LRF e a LDO estabelecem ressalvas. A liberação pode ser restabelecida se a arrecadação melhorar, conforme a regra aplicável.",
+      "cebraspeTrap": "Contingenciamento não é corte definitivo de toda despesa nem cancelamento da lei orçamentária. Também é incorreto aplicar a restrição a gastos legalmente protegidos sem examinar as exceções.",
+      "example": "Um governo esperava arrecadar R$ 100 milhões, mas as projeções mostram que poderá receber menos e comprometer a meta fiscal. Ele reduz temporariamente os limites de empenho de determinadas despesas. As dotações continuam no orçamento, embora parte não possa ser executada naquele momento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -474,10 +474,10 @@
       "id": "glo-programacao-fisica-cumprida",
       "term": "Programação física cumprida",
       "aliases": [],
-      "definition": "Situação em que a ação do orçamento entregou a quantidade de bens ou serviços prevista como meta física para o período, ou a meta formalmente reprogramada.",
-      "contrast": "A meta física mede entregas, como número de atendimentos. A execução financeira mede valores; gastar toda a verba não comprova, sozinho, que a meta física foi cumprida.",
-      "cebraspeTrap": "Declarar meta física atendida porque o orçamento foi totalmente pago, embora só parte do produto tenha sido entregue.",
-      "example": "A meta era concluir cinco escolas e cinco foram entregues conforme a especificação; houve cumprimento da meta física.",
+      "definition": "Significa que a ação do orçamento entregou a quantidade de produtos ou serviços estabelecida como meta física para o período, ou uma nova meta que tenha sido formalmente aprovada. Meta física mede aquilo que foi entregue, como consultas realizadas, escolas construídas ou pessoas atendidas.",
+      "contrast": "Execução financeira mostra quanto foi empenhado ou pago; execução física mostra os resultados concretos entregues. Gastar 100% da verba não comprova que 100% da meta física foi atingida. O contrário também é possível: uma meta pode ser cumprida com gasto menor que o previsto. É preciso comparar a entrega realizada com a meta válida para o período, mantendo a unidade de medida correta.",
+      "cebraspeTrap": "A palavra 'cumprida' se refere à quantidade entregue, não à verba consumida. A banca pode apresentar 100% de execução financeira como prova de 100% de execução física.",
+      "example": "Uma ação tinha meta de entregar dez salas de aula. O governo pagou todo o orçamento previsto, mas concluiu apenas oito salas: a execução financeira pode estar completa, porém a meta física não foi cumprida. Se dez salas forem entregues dentro dos critérios, a meta física é atingida, mesmo que ainda existam pagamentos pendentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -499,10 +499,10 @@
       "id": "glo-previsao-de-receita",
       "term": "Previsão de receita",
       "aliases": [],
-      "definition": "Valor que o governo estima arrecadar durante o ano e inclui no planejamento orçamentário antes de receber o dinheiro.",
-      "contrast": "Previsão é estimativa. Arrecadação é o recebimento efetivo; um valor previsto pode não ser integralmente arrecadado.",
-      "cebraspeTrap": "Afirmar que a receita prevista necessariamente será arrecadada na totalidade durante o exercício.",
-      "example": "A LOA estima arrecadação de impostos, mas os valores efetivos só serão conhecidos na execução.",
+      "definition": "É a estimativa de quanto dinheiro o governo espera arrecadar durante o exercício. Esse valor aparece no planejamento e na Lei Orçamentária Anual (LOA), antes de os contribuintes ou outras fontes efetivamente pagarem.",
+      "contrast": "Previsão é um cálculo antecipado. Lançamento, quando previsto em lei, identifica e constitui um valor a cobrar; arrecadação é o recebimento; recolhimento é a transferência do valor recebido ao Tesouro, quando essa etapa existe. Uma receita não precisa ter sido prevista inicialmente para ser orçamentária se cumprir os critérios legais.",
+      "cebraspeTrap": "Prever não é lançar nem arrecadar. A banca pode afirmar que o valor previsto será necessariamente recebido ou que toda receita sem previsão inicial é extraorçamentária.",
+      "example": "A prefeitura estima arrecadar R$ 2 milhões de IPTU. Ao fim do ano, os contribuintes pagam R$ 1,7 milhão. A previsão era R$ 2 milhões, mas a receita realizada foi R$ 1,7 milhão; a diferença não representa, por si, dinheiro disponível ou crédito já reconhecido contra cada contribuinte.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -528,10 +528,10 @@
       "id": "glo-arrecadacao-da-receita",
       "term": "Arrecadação da receita",
       "aliases": [],
-      "definition": "Momento em que um agente autorizado recebe a receita pública, como quando o contribuinte paga um tributo.",
-      "contrast": "Arrecadar é receber a receita. Recolher é transferir os valores arrecadados para a tesouraria quando essa etapa é aplicável.",
-      "cebraspeTrap": "Afirmar que toda receita exige lançamento prévio e que arrecadação e recolhimento são sempre o mesmo ato.",
-      "example": "Um banco recebe um tributo de contribuinte e depois repassa o valor ao caixa central.",
+      "definition": "É o momento em que a receita pública é recebida por um agente autorizado, como um banco que recebe o pagamento de um imposto. Para o orçamento, a receita pertence ao exercício em que foi arrecadada, conforme o art. 35 da Lei nº 4.320/1964.",
+      "contrast": "A previsão estima quanto pode entrar; o lançamento identifica formalmente a cobrança nos casos previstos; a arrecadação ocorre com o recebimento; o recolhimento acontece quando o agente arrecadador transfere o dinheiro ao Tesouro. Um imposto pode ter gerado direito a receber e aumento patrimonial antes da arrecadação. Quando o contribuinte paga um crédito já reconhecido, o recebimento não cria necessariamente um segundo aumento patrimonial.",
+      "cebraspeTrap": "Lançamento e arrecadação não são a mesma etapa. Também é falso que arrecadar um crédito já reconhecido sempre cria novo ganho patrimonial.",
+      "example": "O município lança R$ 600 de imposto em abril, e a pessoa paga no banco em junho. Em abril existia cobrança, mas não arrecadação. Em junho o banco recebe os R$ 600: ocorre arrecadação orçamentária. Depois, o banco pode recolher esse valor à conta do Tesouro.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -557,10 +557,10 @@
       "id": "glo-pagamento-da-despesa",
       "term": "Pagamento da despesa",
       "aliases": [],
-      "definition": "Etapa em que a administração efetivamente paga o credor, depois da liquidação regular e da ordem de pagamento da autoridade competente.",
-      "contrast": "Empenhar reserva crédito e formaliza o compromisso; liquidar verifica o direito do credor; pagar transfere os recursos.",
-      "cebraspeTrap": "Tratar empenho ou emissão da nota fiscal como se já constituíssem pagamento.",
-      "example": "O fornecedor recebe o valor depois de verificada a entrega e autorizada a ordem de pagamento.",
+      "definition": "É quando o governo entrega o dinheiro ao credor para quitar uma despesa. Na execução orçamentária, o pagamento regular ocorre depois do empenho, da liquidação e da ordem de pagamento da autoridade competente, conforme a Lei nº 4.320/1964.",
+      "contrast": "Empenho compromete a verba; liquidação confere o direito de receber; pagamento é a saída de dinheiro. A despesa pode estar empenhada e liquidada, mas ainda sem pagamento. Se o ano terminar nessa situação, o valor pode ser inscrito em restos a pagar processados. Pagar restos a pagar no exercício seguinte é saída extraorçamentária nesse exercício, e não novo empenho pelo mesmo gasto.",
+      "cebraspeTrap": "Liquidação concluída não prova que houve transferência bancária. Também é errado tratar o pagamento de restos a pagar como nova despesa empenhada no orçamento do ano seguinte.",
+      "example": "A prefeitura empenha R$ 3 mil por manutenção, recebe e confere o serviço e autoriza o pagamento. Quando transfere os R$ 3 mil ao fornecedor, ocorre o pagamento. Se a transferência só for feita em janeiro, após inscrição regular em restos a pagar de dezembro, a despesa continua sendo do orçamento anterior.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -584,10 +584,10 @@
       "aliases": [
         "RPP"
       ],
-      "definition": "Despesas que foram empenhadas e liquidadas até 31 de dezembro, mas que ainda não foram pagas e seguem para pagamento no exercício seguinte.",
-      "contrast": "Nos processados, o direito do credor já passou pela liquidação. Nos não processados, essa etapa ainda não terminou.",
-      "cebraspeTrap": "Considerar uma despesa apenas empenhada como resto a pagar processado.",
-      "example": "Equipamentos entregues e liquidados em dezembro são pagos no exercício seguinte.",
+      "definition": "São despesas que o governo empenhou e liquidou até o fim do exercício, mas não pagou. Como a entrega ou o direito do credor já passou pela conferência formal, esses valores podem ser inscritos em restos a pagar processados e pagos depois, conforme as regras aplicáveis.",
+      "contrast": "Restos a pagar não processados também foram empenhados e não pagos, mas não tiveram a liquidação concluída. Ter o serviço realizado não basta para classificar como processado se a conferência formal ainda não terminou. No Balanço Financeiro, a inscrição de restos a pagar gera registro compensatório sem entrada real de dinheiro; o pagamento futuro é saída extraorçamentária.",
+      "cebraspeTrap": "O critério é a liquidação concluída até o encerramento do ano, e não apenas a entrega do bem, a emissão da nota ou o vencimento da dívida.",
+      "example": "O município empenha R$ 6 mil para conserto de veículos em novembro. O serviço é prestado, conferido e liquidado em dezembro, mas não há pagamento até 31 de dezembro. Se o valor for inscrito regularmente, será resto a pagar processado. Quando pago em janeiro, não precisa de novo empenho por causa da mudança de ano.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -615,10 +615,10 @@
       "aliases": [
         "RPNP"
       ],
-      "definition": "Despesas empenhadas e ainda não pagas em 31 de dezembro cuja liquidação não foi concluída, desde que atendam às condições de inscrição.",
-      "contrast": "Não processados podem estar 'a liquidar', quando ainda não houve fato gerador, ou 'em liquidação', quando o fato ocorreu e a conferência formal está pendente.",
-      "cebraspeTrap": "Afirmar que todo resto não processado significa ausência de entrega ou de obrigação patrimonial.",
-      "example": "Um serviço prestado em dezembro pode estar em liquidação se a verificação administrativa ainda não terminou.",
+      "definition": "São despesas empenhadas que ficaram sem pagamento até o fim do ano e cuja liquidação ainda não foi concluída. A inscrição depende das condições legais; não basta haver saldo empenhado.",
+      "contrast": "Nos restos a pagar processados, a liquidação já foi concluída. Nos não processados, ainda não. Isso não significa que toda entrega esteja pendente: um serviço já prestado pode estar em liquidação e ter gerado uma obrigação patrimonial, embora o órgão ainda confira os documentos. O pagamento no exercício seguinte, depois de atendidas as etapas necessárias, não é novo empenho do orçamento atual. Podem estar a liquidar, quando o bem ou serviço ainda não foi entregue, ou em liquidação, quando o fato já ocorreu, mas falta terminar a conferência.",
+      "cebraspeTrap": "Não processado significa que a liquidação ainda não terminou, inclusive quando o serviço foi prestado e está em conferência. Em créditos de vigência plurianual, o art. 36, parágrafo único, da Lei nº 4.320/1964 determina que empenhos não liquidados só sejam computados como restos a pagar no último ano da vigência.",
+      "example": "Uma prefeitura empenha dois serviços de R$ 2 mil. O primeiro será prestado apenas em janeiro: em dezembro, está a liquidar. O segundo foi realizado em dezembro, mas ainda falta a conferência formal: está em liquidação. Se inscritos regularmente, ambos são restos a pagar não processados, por motivos diferentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -646,10 +646,10 @@
       "aliases": [
         "DEA"
       ],
-      "definition": "Despesas de anos já encerrados que, nas hipóteses do art. 37 da Lei nº 4.320/1964, podem ser reconhecidas e pagas com dotação específica do orçamento atual.",
-      "contrast": "DEA exige enquadramento legal próprio e dotação do exercício atual. Restos a pagar são despesas já empenhadas e inscritas no exercício anterior.",
-      "cebraspeTrap": "Classificar qualquer valor do ano anterior como DEA mesmo quando há resto a pagar válido para pagamento.",
-      "example": "Uma obrigação de serviço antigo reconhecida depois pode exigir dotação atual própria conforme o art. 37.",
+      "definition": "São despesas relacionadas a anos já encerrados que, em situações previstas na lei, precisam ser pagas com dotação específica do orçamento atual.",
+      "contrast": "Despesas de exercícios anteriores (DEA) e restos a pagar não são a mesma coisa. Restos a pagar resultam de empenhos anteriores regularmente inscritos e ainda não pagos; DEA exigem enquadramento legal próprio e autorização no orçamento atual. Nem toda conta antiga vira DEA e nem todo resto a pagar deve ser empenhado novamente. O reconhecimento de uma dívida patrimonial também não dispensa identificar o caminho orçamentário válido para pagá-la.",
+      "cebraspeTrap": "A banca pode usar a simples expressão 'ano anterior' para induzir DEA. O critério é a situação legal da despesa e a existência, ou não, de resto a pagar válido. A Lei nº 4.320/1964, art. 37, trata, entre outros casos, de despesas de exercícios encerrados que não foram processadas na época própria, restos a pagar com prescrição interrompida e compromissos reconhecidos depois do encerramento do exercício.",
+      "example": "Um órgão descobre em março uma obrigação de serviço prestado no ano anterior que não foi tratada na época própria. Deve verificar se o caso se enquadra no art. 37 e se existe dotação adequada para despesa de exercício anterior. Se o valor já é resto a pagar validamente inscrito, seu pagamento segue esse registro, sem classificá-lo automaticamente como DEA.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -675,10 +675,10 @@
       "id": "glo-meta-fiscal",
       "term": "Meta fiscal",
       "aliases": [],
-      "definition": "Resultado ou limite que o governo estabelece para acompanhar a situação de suas contas, como uma meta de resultado primário, nos instrumentos de planejamento fiscal.",
-      "contrast": "Meta fiscal indica um objetivo para as contas públicas. Meta física indica quantidade de bens ou serviços a entregar.",
-      "cebraspeTrap": "Concluir que realizar 100% de entregas físicas demonstra por si só cumprimento das metas fiscais.",
-      "example": "O governo revisa a execução diante de risco de descumprimento de resultado fiscal previsto na LDO.",
+      "definition": "É um objetivo numérico que o governo estabelece para acompanhar suas contas, como uma meta para o resultado primário. Ajuda a orientar decisões sobre arrecadação, despesas, dívida e limites de execução, conforme as regras de planejamento fiscal.",
+      "contrast": "Meta fiscal diz respeito ao resultado das contas públicas. Meta física indica a quantidade de bens e serviços que uma ação deve entregar, como 500 consultas. A meta fiscal aparece nos instrumentos de planejamento, especialmente no Anexo de Metas Fiscais da Lei de Diretrizes Orçamentárias (LDO). Atingir uma entrega física não comprova automaticamente que o governo cumpriu a meta fiscal, nem o contrário.",
+      "cebraspeTrap": "Meta fiscal e meta física medem coisas diferentes. A banca pode usar a entrega de obras como prova de que a meta de resultado das contas foi atingida.",
+      "example": "O governo prevê alcançar resultado primário positivo de R$ 10 milhões. Durante o ano, acompanha receitas e despesas relevantes para essa conta e pode adotar medidas de execução previstas em lei. Mesmo que construa todas as escolas planejadas, ainda precisa verificar separadamente o resultado fiscal.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -700,10 +700,10 @@
       "id": "glo-receita-primaria",
       "term": "Receita primária",
       "aliases": [],
-      "definition": "Entrada de recursos considerada no cálculo do resultado primário do governo, como a maior parte dos tributos, contribuições e transferências, segundo as regras fiscais.",
-      "contrast": "Primária indica participação no resultado primário. Corrente ou de capital indica a natureza da receita; são classificações diferentes.",
-      "cebraspeTrap": "Afirmar que receita primária é sinônimo de receita corrente ou que toda receita de capital fica fora da apuração.",
-      "example": "A União recebe tributos que entram no cálculo do resultado primário do exercício.",
+      "definition": "É uma receita que entra no cálculo do resultado primário do governo, de acordo com as regras fiscais. Em geral, tributos e várias transferências são receitas primárias; operações de crédito, como empréstimos comuns, não entram nesse cálculo.",
+      "contrast": "Primária e financeira dizem se a receita participa ou não do resultado primário. Corrente e de capital dizem qual é o tipo de receita no orçamento. Assim, uma receita de capital pode ser primária, dependendo da sua natureza; e uma receita corrente pode ser financeira, como certas receitas de juros. Receita primária não significa dinheiro disponível para qualquer finalidade.",
+      "cebraspeTrap": "Não equiparar receita primária a receita corrente nem classificar todo empréstimo como receita primária por ser dinheiro recebido.",
+      "example": "O governo arrecada R$ 100 mil de impostos e recebe R$ 50 mil de empréstimo. Os impostos normalmente entram como receita primária. O empréstimo cria dívida e é receita financeira para a apuração primária, embora seja uma receita orçamentária de capital na classificação econômica.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -725,10 +725,10 @@
       "id": "glo-receita-financeira",
       "term": "Receita financeira",
       "aliases": [],
-      "definition": "Entrada classificada fora do cálculo do resultado primário, como operações de crédito e certas receitas financeiras, conforme o classificador fiscal.",
-      "contrast": "Uma receita financeira pode ser receita orçamentária. A classificação primária/financeira é diferente da divisão corrente/capital.",
-      "cebraspeTrap": "Classificar toda receita patrimonial como primária ou toda receita financeira como extraorçamentária.",
-      "example": "Juros de aplicação financeira podem ser receita corrente patrimonial e, simultaneamente, receita financeira para o resultado primário.",
+      "definition": "É uma receita que, pela metodologia fiscal, fica fora do cálculo do resultado primário. Pode incluir dinheiro de operações de crédito e determinadas receitas de aplicações financeiras. O nome financeira, nesse contexto, indica como a receita é tratada no indicador fiscal.",
+      "contrast": "Receita financeira não é sinônimo de ingresso extraorçamentário: um empréstimo comum pode ser receita orçamentária de capital e, ao mesmo tempo, receita financeira para o resultado primário. Algumas receitas de juros podem ser receitas correntes patrimoniais e também financeiras no cálculo fiscal. A classificação corrente/de capital trata do tipo econômico; primária/financeira trata da apuração fiscal.",
+      "cebraspeTrap": "A banca pode tratar toda receita financeira como extraorçamentária ou afirmar que toda receita corrente é primária. As classificações respondem a perguntas diferentes.",
+      "example": "Um órgão recebe R$ 2 mil de juros de aplicação financeira. Esse valor pode ser receita corrente patrimonial e, conforme a metodologia aplicável, receita financeira para o cálculo primário. A classificação depende de regras fiscais e não do simples fato de ter entrado na conta bancária.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -750,10 +750,10 @@
       "id": "glo-resultado-primario",
       "term": "Resultado primário",
       "aliases": [],
-      "definition": "Diferença entre receitas primárias e despesas primárias de um período. Ajuda a avaliar as contas públicas antes dos itens financeiros excluídos pela metodologia.",
-      "contrast": "Resultado primário não é o mesmo que saldo de caixa, resultado orçamentário ou resultado nominal; cada indicador considera itens distintos.",
-      "cebraspeTrap": "Tomar a diferença entre toda receita arrecadada e toda despesa paga como definição universal de resultado primário.",
-      "example": "Receitas primárias de 110 e despesas primárias de 100 produzem superávit primário de 10 no exemplo simplificado.",
+      "definition": "É a diferença entre receitas primárias e despesas primárias de um período, calculadas segundo a metodologia fiscal aplicável. Ajuda a acompanhar se as receitas consideradas nesse indicador são suficientes para cobrir os gastos primários.",
+      "contrast": "Resultado primário não é todo dinheiro que sobrou no banco, nem o resultado patrimonial da contabilidade. O resultado nominal considera outros efeitos, inclusive encargos financeiros, conforme sua metodologia. Receber um empréstimo comum não transforma automaticamente o resultado primário em superávit, porque esse ingresso não é receita primária. Se a diferença for positiva, há superávit primário; se for negativa, déficit primário.",
+      "cebraspeTrap": "Somar todas as entradas de caixa, inclusive empréstimos, e subtrair todos os pagamentos não é uma definição segura de resultado primário.",
+      "example": "Em um cálculo simplificado, o governo tem R$ 110 milhões de receitas primárias e R$ 100 milhões de despesas primárias. O resultado é superávit primário de R$ 10 milhões. Se receber mais R$ 20 milhões de empréstimo comum, o resultado primário continua R$ 10 milhões nesse exemplo, porque o empréstimo não é receita primária.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -781,10 +781,10 @@
       "aliases": [
         "Receitas correntes"
       ],
-      "definition": "Receita orçamentária recebida de fontes como tributos, contribuições, serviços, exploração de patrimônio e transferências correntes, segundo a classificação legal.",
-      "contrast": "Corrente ou de capital identifica a categoria econômica da receita. Isso, por si só, não determina se ela é primária ou financeira.",
-      "cebraspeTrap": "Definir receita corrente como toda receita de arrecadação mensal ou equipará-la a receita primária.",
-      "example": "O aluguel de um imóvel público é receita corrente patrimonial.",
+      "definition": "É uma categoria de receita do orçamento que reúne entradas como tributos, contribuições, serviços, exploração de bens públicos e transferências destinadas a despesas correntes, segundo a classificação legal. O nome 'corrente' descreve a categoria econômica da receita, e não a frequência com que o dinheiro chega.",
+      "contrast": "Receita corrente se diferencia da receita de capital, que inclui operações de crédito comuns, venda de bens, amortização de empréstimos concedidos e transferências de capital. Receita corrente não é sinônimo de receita primária: por exemplo, juros de aplicações podem ser correntes e receber tratamento financeiro no cálculo fiscal. A classificação também não indica, sozinha, se o valor está livre para uso.",
+      "cebraspeTrap": "Corrente não quer dizer mensal ou recorrente, e receita corrente não é automaticamente receita primária. Vender um imóvel não vira receita corrente só porque o governo costuma negociar bens.",
+      "example": "O aluguel mensal de imóvel público é receita corrente de origem patrimonial. A venda do mesmo imóvel é receita de capital por alienação de bens. A frequência do recebimento não determina a categoria: o importante é a natureza da operação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -816,10 +816,10 @@
       "aliases": [
         "Receitas de capital"
       ],
-      "definition": "Receita orçamentária de operações como empréstimos contratados, venda de bens e recebimento de transferências de capital, segundo a classificação legal.",
-      "contrast": "Receita de capital é uma categoria econômica. A venda de um imóvel, por exemplo, não se confunde com o empréstimo que cria dívida para o ente.",
-      "cebraspeTrap": "Afirmar que toda receita de capital vem de dívida ou representa ingresso extraorçamentário.",
-      "example": "A venda de um veículo público é receita de capital por alienação de bens.",
+      "definition": "É a categoria de receita do orçamento que reúne entradas como empréstimos comuns contratados, venda de bens públicos, devolução do principal de empréstimos concedidos e transferências destinadas a despesas de capital. A categoria depende da natureza da operação.",
+      "contrast": "Uma receita de capital não vem necessariamente de dívida: vender um veículo público é outro exemplo. Operação de crédito comum gera obrigação de devolver; venda de bem troca patrimônio por dinheiro; transferência de capital segue regras de aplicação. Receita de capital também não significa automaticamente receita financeira para o resultado primário: são classificações diferentes.",
+      "cebraspeTrap": "Dizer que toda receita de capital é empréstimo, ou que toda receita de capital fica fora do resultado primário, mistura classificações.",
+      "example": "O município recebe R$ 50 mil ao vender veículo de sua frota e R$ 100 mil ao contratar empréstimo. As duas entradas podem ser receitas de capital, mas a primeira é alienação de bens e a segunda é operação de crédito, com obrigação de pagar de volta.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -849,10 +849,10 @@
       "id": "glo-receita-orcamentaria",
       "term": "Receita orçamentária",
       "aliases": [],
-      "definition": "Entrada de recursos que faz parte da receita do orçamento, inclusive quando não havia previsão inicial na lei, segundo os critérios legais.",
-      "contrast": "Receita orçamentária integra a execução do orçamento. Ingresso extraorçamentário costuma representar valor temporário a devolver ou repassar.",
-      "cebraspeTrap": "Afirmar que uma doação não prevista na Lei Orçamentária Anual necessariamente será extraorçamentária.",
-      "example": "Doação em dinheiro recebida pelo ente pode ser registrada como receita orçamentária não prevista.",
+      "definition": "É o dinheiro recebido que integra a execução da receita do orçamento, conforme as regras legais. Pode vir de impostos, serviços, empréstimos comuns, venda de bens ou outras fontes. Uma entrada pode ser orçamentária mesmo que não estivesse prevista inicialmente na Lei Orçamentária Anual (LOA).",
+      "contrast": "Ingresso extraorçamentário é, em geral, dinheiro temporário de terceiros que o governo terá de devolver ou repassar, como caução. Receita orçamentária não significa sempre ganho patrimonial: um empréstimo comum é receita orçamentária de capital, mas cria dívida equivalente. Previsão é uma estimativa; arrecadação é a entrada efetiva.",
+      "cebraspeTrap": "A falta de previsão inicial não transforma uma receita em extraorçamentária. Também não é verdade que toda receita orçamentária aumenta o patrimônio líquido.",
+      "example": "Uma prefeitura recebe doação em dinheiro que não constava da previsão inicial e, atendidas as regras, registra receita orçamentária. Quando recebe R$ 2 mil de caução de fornecedor para devolver mais tarde, o valor é ingresso extraorçamentário, não receita livre do orçamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -884,10 +884,10 @@
       "aliases": [
         "Receita extraorçamentária"
       ],
-      "definition": "Dinheiro que entra no caixa público sem ser receita orçamentária, em geral porque o ente deverá devolver o valor ou repassá-lo a alguém.",
-      "contrast": "Um depósito de garantia entra no caixa, mas gera obrigação de devolução. Ele não é automaticamente uma receita para financiar gastos do orçamento.",
-      "cebraspeTrap": "Tratar uma caução recebida de contratado como receita disponível para financiar livremente despesas públicas.",
-      "example": "A caução contratual recebida e sujeita à restituição constitui, em regra, ingresso extraorçamentário.",
+      "definition": "É uma entrada de dinheiro no caixa público que não corresponde a receita do orçamento daquele exercício. Em muitos casos, o governo recebe valores de outras pessoas e precisa devolvê-los ou repassá-los, como depósitos de garantia. Há também operações específicas com tratamento extraorçamentário previsto em lei.",
+      "contrast": "Receita orçamentária entra na execução do orçamento mesmo quando não foi prevista inicialmente, se atender aos critérios legais. Uma caução aumenta o dinheiro no banco, mas cria obrigação de devolver. A Antecipação de Receita Orçamentária (ARO) é operação de crédito de curto prazo com tratamento extraorçamentário próprio, diferente do empréstimo comum classificado como receita de capital.",
+      "cebraspeTrap": "Entrar dinheiro no banco não é o mesmo que arrecadar receita orçamentária. O teste é identificar se o valor pertence ao governo como receita ou representa obrigação de devolução ou operação com tratamento especial.",
+      "example": "Uma empresa deposita R$ 5 mil de garantia contratual na conta da prefeitura. O caixa aumenta, mas a prefeitura deverá devolver o valor conforme as condições do contrato. Por isso, não pode tratar esses R$ 5 mil como receita ganha para financiar livremente outras despesas.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -913,10 +913,10 @@
       "id": "glo-receita-originaria",
       "term": "Receita originária",
       "aliases": [],
-      "definition": "Receita que o Estado obtém ao explorar seus bens ou oferecer atividades remuneradas, sem exigir o valor por poder de tributar.",
-      "contrast": "Aluguel de imóvel público é exemplo de receita originária. Impostos são derivados porque decorrem de cobrança obrigatória.",
-      "cebraspeTrap": "Equiparar receita originária a receita de capital ou exigir sua arrecadação mediante poder de império.",
-      "example": "O aluguel cobrado por imóvel do Estado é receita patrimonial corrente e, sob ótica doutrinária, originária.",
+      "definition": "É o dinheiro que o Estado obtém ao explorar seus próprios bens ou oferecer atividades remuneradas, sem cobrar com base no poder de impor tributos. Essa é uma classificação da doutrina, usada para explicar de onde vem a receita.",
+      "contrast": "Aluguel de prédio público e preços cobrados por atividades remuneradas são exemplos de receitas originárias, conforme o caso. Impostos são receitas derivadas porque a cobrança decorre de obrigação imposta por lei. Originária/derivada não é a mesma classificação que corrente/de capital: aluguel é receita corrente patrimonial, mas o nome originária descreve outra característica.",
+      "cebraspeTrap": "Não confundir originária com receita de capital, nem imaginar que todo dinheiro recebido pelo Estado é derivado porque foi pago a um órgão público.",
+      "example": "Uma universidade pública recebe aluguel pelo uso permitido de um espaço que administra. O valor pode ser receita originária porque vem da exploração de bem, e receita corrente patrimonial pela classificação econômica. Já cobrar imposto de um contribuinte é receita derivada.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -938,10 +938,10 @@
       "id": "glo-receita-derivada",
       "term": "Receita derivada",
       "aliases": [],
-      "definition": "Receita exigida pelo Estado com base em seu poder de impor obrigações previstas em lei, como a cobrança de impostos e certas contribuições.",
-      "contrast": "A receita derivada decorre do poder de exigir pagamento. A originária costuma vir da exploração de bens ou atividades do Estado.",
-      "cebraspeTrap": "Classificar aluguel de bem público como receita derivada apenas porque é recebido pela administração.",
-      "example": "A cobrança de imposto por obrigação legal é exemplo de receita derivada na classificação doutrinária.",
+      "definition": "É uma receita que o Estado exige de pessoas ou empresas por força de lei, usando seu poder de estabelecer obrigações, como ocorre na cobrança de impostos. Originária e derivada são categorias doutrinárias sobre a forma de obtenção da receita.",
+      "contrast": "Na receita originária, o Estado recebe pela exploração de bens ou atividades, como o aluguel de imóvel. Na derivada, existe obrigação de pagar estabelecida por lei. Imposto é exemplo clássico de derivada. A classificação não indica, sozinha, se a receita é corrente, de capital, primária ou financeira.",
+      "cebraspeTrap": "Ter o Estado como destinatário não torna a receita derivada: é preciso examinar se há cobrança obrigatória pelo poder de tributar ou remuneração por bem ou atividade.",
+      "example": "Uma pessoa paga R$ 800 de imposto predial porque a lei estabelece essa cobrança. Esse ingresso é derivado. Se a mesma pessoa aluga legalmente um espaço do governo e paga aluguel, a receita pode ser originária.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -965,10 +965,10 @@
       "aliases": [
         "Classificação por natureza da receita"
       ],
-      "definition": "Código que explica de onde veio uma receita do orçamento. Ele a organiza por categoria econômica, origem, espécie e demais detalhamentos oficiais.",
-      "contrast": "Natureza responde de onde veio a receita; fonte/destinação indica as regras para usar o recurso. Uma receita pode ter as duas classificações.",
-      "cebraspeTrap": "Afirmar que o código de natureza, por si só, define onde o recurso poderá ser gasto.",
-      "example": "O imposto recebido é classificado por categoria, origem e espécie da receita.",
+      "definition": "É um código usado no orçamento para identificar que tipo de receita o governo recebeu. O código separa a receita por categoria econômica, origem, espécie e outros detalhes da classificação oficial. Ajuda a organizar a arrecadação e comparar valores semelhantes.",
+      "contrast": "Natureza da receita responde 'de que operação veio esse dinheiro?', como imposto, aluguel ou empréstimo. Fonte/destinação de recursos responde 'quais regras controlam o uso dele?'. Uma receita pode ter uma natureza e uma fonte ao mesmo tempo. O código de natureza não determina, sozinho, se o dinheiro é livre ou vinculado.",
+      "cebraspeTrap": "A banca pode confundir origem do ingresso com a fonte que limita sua aplicação. Saber o tipo de receita não basta para decidir onde ela pode ser gasta.",
+      "example": "A prefeitura arrecada imposto e recebe aluguel de imóvel. Ambos podem ser receitas correntes, mas têm origens diferentes na natureza: impostos de um lado e receita patrimonial de outro. Parte desses valores pode ter regras próprias de destinação que serão mostradas em outra classificação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -994,10 +994,10 @@
       "id": "glo-origem-da-receita-orcamentaria",
       "term": "Origem da receita orçamentária",
       "aliases": [],
-      "definition": "Parte da classificação por natureza que reúne receitas de um mesmo tipo dentro da categoria corrente ou de capital, como tributos ou serviços.",
-      "contrast": "Origem é um nível abaixo da categoria econômica. Espécie é um nível mais detalhado dentro da origem.",
-      "cebraspeTrap": "Chamar de origem uma fonte vinculada à saúde ou confundir origem com a etapa da arrecadação.",
-      "example": "Receita patrimonial é origem dentro da categoria receitas correntes.",
+      "definition": "É um nível da classificação da receita que agrupa entradas de um mesmo tipo dentro das categorias correntes e de capital. Dentro das receitas correntes, por exemplo, existem origens ligadas a impostos, contribuições, patrimônio e serviços.",
+      "contrast": "Categoria econômica é a divisão mais ampla entre receita corrente e de capital. Origem é um grupo dentro dessa categoria. Espécie detalha melhor o tipo de cobrança ou operação. Fonte/destinação é outra classificação, usada para mostrar regras de uso do dinheiro; não é o mesmo que origem.",
+      "cebraspeTrap": "Confundir origem com categoria econômica ou com fonte vinculada leva a classificar receitas por sua finalidade em vez do fato que as gerou.",
+      "example": "O aluguel de um prédio público entra na categoria receitas correntes, origem receita patrimonial. Um imposto entra na categoria receitas correntes, na origem de impostos, taxas e contribuições de melhoria. Os dois valores são correntes, mas não têm a mesma origem.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1023,10 +1023,10 @@
       "id": "glo-especie-da-receita",
       "term": "Espécie da receita",
       "aliases": [],
-      "definition": "Parte da classificação por natureza que detalha o tipo de receita dentro de sua origem, permitindo identificar melhor o que gerou a entrada.",
-      "contrast": "Origem agrupa receitas parecidas; espécie distingue tipos mais específicos. Não confundir essa divisão com fonte/destinação de recursos.",
-      "cebraspeTrap": "Tratar imposto como categoria econômica e receitas correntes como espécie.",
-      "example": "Dentro de impostos, taxas e contribuições de melhoria, a espécie impostos detalha a receita.",
+      "definition": "É um nível da classificação por natureza que mostra mais especificamente qual receita foi obtida dentro de uma origem. Depois de identificar a categoria econômica e a origem, a espécie ajuda a distinguir tipos como imposto, taxa ou contribuição de melhoria.",
+      "contrast": "Categoria econômica separa receitas correntes e de capital; origem reúne grupos próximos; espécie indica tipos mais específicos dentro da origem. Espécie não é a fonte/destinação que controla o uso do dinheiro. Imposto, taxa e contribuição de melhoria podem compartilhar uma origem, mas representam espécies diferentes.",
+      "cebraspeTrap": "A banca pode chamar 'receitas correntes' de espécie ou dizer que imposto, taxa e contribuição de melhoria são a mesma espécie porque estão na mesma origem.",
+      "example": "Na origem de impostos, taxas e contribuições de melhoria, a entrada por imposto de renda é identificada na espécie de impostos; uma taxa cobrada por atividade estatal pertence à espécie de taxas, observados os códigos oficiais.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1055,10 +1055,10 @@
         "Fonte de recursos",
         "Destinação de recursos"
       ],
-      "definition": "Código que indica quais regras devem ser respeitadas ao usar uma receita pública e para quais despesas ela pode financiar recursos.",
-      "contrast": "Natureza da receita explica de onde vem o dinheiro; fonte/destinação explica quais vinculações ou regras condicionam seu uso.",
-      "cebraspeTrap": "Concluir que duas receitas patrimoniais necessariamente financiam as mesmas despesas por terem natureza semelhante.",
-      "example": "Uma fonte vinculada pode financiar ações específicas ainda que a natureza econômica da receita seja comum.",
+      "definition": "É a identificação usada no orçamento e na contabilidade para mostrar quais regras controlam o uso de determinado dinheiro público. A fonte ou destinação indica se o recurso está ligado a uma finalidade específica ou pode financiar despesas dentro de regras mais gerais.",
+      "contrast": "Natureza da receita responde que tipo de receita foi arrecadada, como imposto ou operação de crédito. Fonte/destinação responde onde esse dinheiro pode ser usado. Dotação é o valor autorizado no orçamento para determinada despesa; disponibilidade de caixa mostra os recursos financeiros para pagar. O atributo financeiro (F) ou permanente (P) do Balanço Patrimonial usa ainda outro critério: por exemplo, dinheiro vinculado à saúde continua sendo caixa F, mas não fica livre para qualquer finalidade. Ajuda a acompanhar a arrecadação e o gasto respeitando as vinculações.",
+      "cebraspeTrap": "Confundir fonte com tipo de receita, dotação ou atributo F/P leva a usar dinheiro vinculado fora da finalidade permitida. Duas receitas da mesma natureza podem ter regras de destinação diferentes.",
+      "example": "Um município tem R$ 100 mil em banco, dos quais R$ 40 mil são recursos vinculados a uma finalidade legal específica. Os R$ 100 mil são dinheiro em caixa, mas a identificação da fonte impede tratar os R$ 40 mil como livres para qualquer despesa. Ter dotação de R$ 70 mil para uma ação também não prova que existe dinheiro disponível dessa fonte.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1086,10 +1086,10 @@
       "aliases": [
         "Receita tributária (origem)"
       ],
-      "definition": "Grupo de receitas correntes que reúne o que o governo arrecada com impostos, taxas e contribuições de melhoria. Na classificação por natureza, esses tributos têm espécies próprias.",
-      "contrast": "Imposto, taxa e contribuição de melhoria são tributos diferentes, embora apareçam juntos na mesma origem de receita.",
-      "cebraspeTrap": "Equiparar contribuição de melhoria a contribuição previdenciária apenas pela palavra contribuição.",
-      "example": "Imposto sobre a renda e taxa por exercício do poder de polícia têm espécies distintas nessa origem.",
+      "definition": "É uma origem de receitas correntes que reúne três tipos de tributo: impostos, taxas e contribuições de melhoria. Os três são cobrados conforme a lei, mas têm motivos diferentes.",
+      "contrast": "As três categorias pertencem a uma mesma origem na classificação da receita, mas são espécies diferentes. Contribuição de melhoria não é contribuição previdenciária: esta aparece na origem de receitas de contribuições. Receitas de serviços, como certos preços públicos, também não se confundem automaticamente com taxas, que são tributos.",
+      "cebraspeTrap": "A palavra 'contribuição' não faz contribuição de melhoria pertencer à mesma origem das contribuições previdenciárias. Também não é correto chamar qualquer preço cobrado por serviço de taxa. Imposto não depende de serviço específico prestado ao contribuinte; taxa está ligada a atividade estatal específica prevista em lei; contribuição de melhoria pode ser cobrada em razão da valorização de imóvel causada por obra pública, nos limites legais.",
+      "example": "O município recebe IPTU de um imóvel, taxa legal pela atividade de fiscalização e contribuição de melhoria relacionada à valorização por obra pública, se atendidos os requisitos legais. Os três ingressos pertencem à origem de impostos, taxas e contribuições de melhoria, com espécies diferentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1115,10 +1115,10 @@
       "id": "glo-receita-de-contribuicoes",
       "term": "Receita de contribuições",
       "aliases": [],
-      "definition": "Grupo de receitas correntes formado por contribuições previstas em lei, como contribuições sociais e de intervenção no domínio econômico, nos casos classificados nessa origem.",
-      "contrast": "Contribuições são origem própria na classificação por natureza. Não se confundem com impostos, taxas e contribuições de melhoria.",
-      "cebraspeTrap": "Colocar a contribuição previdenciária na mesma espécie da contribuição de melhoria.",
-      "example": "A arrecadação de contribuição previdenciária social integra a origem receita de contribuições.",
+      "definition": "É uma origem de receitas correntes que reúne contribuições previstas em lei, como contribuições sociais e outras espécies que o classificador orçamentário coloca nesse grupo. A classificação identifica o tipo de receita arrecadada pelo governo.",
+      "contrast": "Contribuição previdenciária pode integrar a origem receitas de contribuições. Já a contribuição de melhoria, ligada à valorização de imóvel por obra pública, aparece na origem de impostos, taxas e contribuições de melhoria. O nome contribuição não basta para classificar o ingresso: é necessário observar sua natureza legal.",
+      "cebraspeTrap": "A banca pode reunir todos os tributos que têm 'contribuição' no nome em uma origem única. A contribuição de melhoria pertence a grupo diferente.",
+      "example": "O governo arrecada contribuição social previdenciária e registra a receita na origem de contribuições. Se um município cobrar contribuição de melhoria após obra que valorizou imóveis, essa outra cobrança integra a origem de impostos, taxas e contribuições de melhoria.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1144,10 +1144,10 @@
       "id": "glo-receita-patrimonial",
       "term": "Receita patrimonial",
       "aliases": [],
-      "definition": "Dinheiro obtido com o patrimônio do ente público, como aluguel de imóveis públicos, dividendos e algumas remunerações financeiras.",
-      "contrast": "Receita patrimonial é origem de receita corrente. Isso não significa que todo valor recebido nela seja primário, pois o indicador fiscal segue outra classificação.",
-      "cebraspeTrap": "Considerar que toda receita patrimonial é primária ou que alienar imóvel é receita patrimonial corrente.",
-      "example": "O governo recebe aluguel de um edifício e registra ingresso de receita corrente patrimonial.",
+      "definition": "É receita corrente que o governo obtém ao usar ou explorar seu patrimônio, como alugar um imóvel público, receber dividendos ou obter determinados rendimentos financeiros. A classificação descreve a origem do dinheiro.",
+      "contrast": "Alugar um imóvel público gera, em regra, receita patrimonial corrente; vender o imóvel gera receita de capital por alienação de bens. Receita patrimonial também não é necessariamente receita primária: rendimentos de aplicações podem ter tratamento financeiro no resultado primário. 'Patrimonial' nesse nome indica origem da receita, não toda variação patrimonial aumentativa da contabilidade.",
+      "cebraspeTrap": "Confundir venda com exploração do bem ou classificar toda receita patrimonial como primária troca a origem orçamentária pelo indicador fiscal.",
+      "example": "A prefeitura recebe R$ 3 mil de aluguel mensal de um prédio: receita corrente patrimonial. Depois vende outro imóvel por R$ 200 mil: a entrada da venda é receita de capital por alienação, não aluguel patrimonial.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1173,10 +1173,10 @@
       "id": "glo-receita-agropecuaria",
       "term": "Receita agropecuária",
       "aliases": [],
-      "definition": "Receita corrente que a entidade pública obtém com atividades de produção vegetal ou animal, conforme o classificador orçamentário.",
-      "contrast": "Essa origem identifica a atividade agropecuária exercida pelo ente. Não é transferência rural recebida de outro governo apenas por ter essa finalidade.",
-      "cebraspeTrap": "Classificar imposto cobrado de produtor rural como receita agropecuária apenas pelo setor econômico do contribuinte.",
-      "example": "Venda de produção agrícola própria de estabelecimento público pode originar receita agropecuária.",
+      "definition": "É receita corrente obtida quando uma entidade pública realiza atividade de produção agrícola ou pecuária e recebe dinheiro pela produção, segundo as regras do classificador de receitas. O nome se refere à atividade que gerou a entrada.",
+      "contrast": "A receita agropecuária decorre de produção vegetal ou animal da própria entidade pública, quando enquadrada nessa origem. Um imposto pago por produtor rural é receita tributária: a profissão ou setor econômico do contribuinte não muda a origem do imposto. Um repasse para apoiar agricultura também pode ser transferência, não receita agropecuária.",
+      "cebraspeTrap": "A banca pode classificar receita pelo setor econômico de quem paga, e não pelo fato que fez o governo recebê-la.",
+      "example": "Uma instituição pública vende parte da produção de sua fazenda experimental e recebe R$ 8 mil, em operação classificada como agropecuária. Já o imposto pago por uma empresa agrícola continua sendo imposto, mesmo que o contribuinte trabalhe no campo.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1202,10 +1202,10 @@
       "id": "glo-receita-industrial",
       "term": "Receita industrial",
       "aliases": [],
-      "definition": "Receita corrente recebida pela atividade industrial realizada pela entidade pública, como produzir e vender bens classificados nessa origem.",
-      "contrast": "A origem industrial depende do tipo de atividade que gera a receita; vender um bem usado do patrimônio pode ser alienação de bens, de capital.",
-      "cebraspeTrap": "Classificar tributo pago por empresa industrial como receita industrial do ente arrecadador.",
-      "example": "Venda de bens resultantes de produção industrial própria pode ser receita industrial.",
+      "definition": "É receita corrente recebida quando uma entidade pública desenvolve atividade industrial e vende os bens resultantes dessa produção, conforme o classificador oficial. O critério é a atividade que deu origem ao valor recebido.",
+      "contrast": "Vender produção industrial própria pode gerar receita industrial. Vender um equipamento usado do patrimônio público é, em regra, alienação de bens, receita de capital. Cobrar imposto de empresa que fabrica produtos é receita tributária, e não industrial do governo.",
+      "cebraspeTrap": "Receita industrial não é todo dinheiro pago por uma indústria. A classificação depende do que o governo fez para receber.",
+      "example": "Uma unidade pública autorizada a produzir determinado bem recebe pela venda da produção: pode registrar receita industrial. Se a mesma unidade vender uma máquina antiga de sua propriedade, a entrada pode ser alienação de bens, pois não resulta da produção industrial vendida.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1231,10 +1231,10 @@
       "id": "glo-receita-de-servicos",
       "term": "Receita de serviços",
       "aliases": [],
-      "definition": "Dinheiro recebido pelo ente público pela prestação remunerada de serviços enquadrados nessa origem da receita corrente.",
-      "contrast": "Receita de serviços decorre de serviço prestado mediante pagamento. Transferência recebida sem contraprestação direta segue outra origem.",
-      "cebraspeTrap": "Afirmar que qualquer cobrança por serviço público constitui taxa, e não receita de serviços.",
-      "example": "Cobrança de preço público por serviço remunerado pode gerar receita corrente de serviços.",
+      "definition": "É receita corrente recebida pela prestação remunerada de serviços do governo ou de entidade pública, quando a operação se enquadra nessa origem. O valor decorre do serviço oferecido e de sua forma de cobrança.",
+      "contrast": "Receita de serviços não é a mesma coisa que taxa: taxa é tributo cobrado nas hipóteses previstas em lei, enquanto certos serviços remunerados por preço público podem gerar receita de serviços. Transferência corrente é dinheiro recebido sem a prestação direta de serviço em troca. A classificação deve olhar a natureza legal da cobrança, não apenas a palavra 'serviço'.",
+      "cebraspeTrap": "Cobrança por atividade pública nem sempre é taxa, e receita de serviços não se confunde com transferência recebida sem prestação direta.",
+      "example": "Uma instituição pública cobra preço permitido por serviço específico que oferece. A entrada pode ser receita corrente de serviços. Já uma taxa de fiscalização criada por lei não vira receita de serviços apenas porque há atuação administrativa envolvida.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1262,10 +1262,10 @@
       "aliases": [
         "Transferências correntes"
       ],
-      "definition": "Recurso recebido de outra pessoa ou entidade, pública ou privada, sem contraprestação direta, destinado a financiar despesas correntes.",
-      "contrast": "Transferência corrente se destina a gastos correntes. Transferência de capital se destina a despesas de capital, conforme a classificação.",
-      "cebraspeTrap": "Classificar como transferência de capital todo repasse intergovernamental apenas porque o valor é elevado.",
-      "example": "Recursos recebidos para manutenção de atendimento em saúde podem ser transferência corrente.",
+      "definition": "É dinheiro que o governo recebe de outra entidade, pessoa ou governo sem entregar diretamente um bem ou serviço em troca e que, pelas regras da operação, se destina a despesas correntes, como manter serviços em funcionamento.",
+      "contrast": "Transferência corrente e de capital são classificadas conforme a natureza e finalidade do recurso. Transferência destinada a construir um hospital pode ser de capital; recurso para manter atendimentos pode ser corrente. A identidade de quem envia não define sozinha a categoria: um mesmo ente pode fazer transferências com finalidades diferentes.",
+      "cebraspeTrap": "Não classificar como capital toda transferência de valor alto nem como corrente toda transferência recebida de outro governo.",
+      "example": "Um estado envia recursos a um município para financiar despesas de funcionamento de serviço de saúde, observadas as regras do repasse. Essa entrada pode ser transferência corrente. Se o repasse se destinar à construção de um prédio, pode ser transferência de capital.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1293,10 +1293,10 @@
       "aliases": [
         "Transferências de capital"
       ],
-      "definition": "Recurso recebido de outra pessoa ou entidade, pública ou privada, sem contraprestação direta, destinado a financiar despesas de capital.",
-      "contrast": "Sua finalidade é financiar despesas de capital. O simples recebimento de dinheiro de outro ente não basta para classificá-lo como capital.",
-      "cebraspeTrap": "Concluir que o simples fato de a União transferir ao município basta para classificar a receita como capital.",
-      "example": "Repasse destinado à construção de hospital pode ser receita de transferência de capital para o município.",
+      "definition": "É dinheiro recebido sem prestação direta de serviço em troca e destinado, conforme as regras da transferência, a financiar despesas de capital, como construir instalações ou realizar investimentos.",
+      "contrast": "A transferência de capital se diferencia da corrente pelo tipo de aplicação previsto. Uma transferência para manter a equipe ou os serviços tende a ser corrente; uma para construir um prédio pode ser de capital. O fato de o recurso vir da União ou ter valor elevado não basta para classificá-lo. Também é diferente da operação de crédito, que cria obrigação de devolver empréstimo.",
+      "cebraspeTrap": "Transferência de capital não é sinônimo de empréstimo, nem depende apenas do valor recebido ou do governo remetente.",
+      "example": "A União transfere R$ 500 mil a um município para construir uma unidade de atendimento, conforme as condições do repasse. Essa entrada pode ser transferência de capital. Se o mesmo valor fosse empréstimo a ser devolvido, seria operação de crédito, não transferência sem contraprestação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1324,10 +1324,10 @@
       "aliases": [
         "Operações de crédito"
       ],
-      "definition": "Forma de obter recursos criando obrigação de pagar uma dívida, como empréstimo ou emissão de títulos. Em regra, sua entrada é receita de capital.",
-      "contrast": "Operação de crédito normalmente cria dívida e receita orçamentária de capital. A Antecipação de Receita Orçamentária (ARO) tem tratamento extraorçamentário próprio.",
-      "cebraspeTrap": "Classificar a antecipação de receita orçamentária como receita de capital ordinária sem verificar seu regime extraorçamentário.",
-      "example": "Um ente toma empréstimo para financiar obra e registra receita de capital por operação de crédito.",
+      "definition": "É uma operação pela qual o governo obtém recursos assumindo uma obrigação de pagar depois, como um empréstimo ou emissão de títulos. Em regra, o dinheiro recebido por empréstimo comum entra como receita orçamentária de capital.",
+      "contrast": "Receber empréstimo comum aumenta o caixa e a dívida ao mesmo tempo: a receita orçamentária é, em regra, não efetiva no patrimônio. Antecipação de Receita Orçamentária (ARO) é uma forma de crédito de curto prazo para falta temporária de caixa, mas tem tratamento extraorçamentário próprio. Receita de alienação de bens também é de capital, porém decorre de venda de bem, sem ser empréstimo.",
+      "cebraspeTrap": "Nem toda entrada de dinheiro obtido por crédito é receita orçamentária comum: a ARO possui exceção própria. Também é incorreto tratar empréstimo recebido como aumento patrimonial líquido automático.",
+      "example": "A prefeitura toma empréstimo de R$ 2 milhões para financiar obra: registra entrada de receita de capital e obrigação de pagar o empréstimo. Se usa uma ARO para cobrir falta temporária de caixa, precisa seguir o regime específico dessa operação, inclusive seu tratamento extraorçamentário.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1357,10 +1357,10 @@
       "id": "glo-alienacao-de-bens",
       "term": "Alienação de bens",
       "aliases": [],
-      "definition": "Receita de capital obtida pela venda de bens ou direitos do patrimônio público, quando a operação segue os requisitos legais.",
-      "contrast": "Vender um imóvel público pode gerar alienação de bens. Alugar o mesmo imóvel gera receita patrimonial corrente.",
-      "cebraspeTrap": "Afirmar que vender imóvel público e receber aluguel do mesmo imóvel são a mesma origem.",
-      "example": "A venda de veículo da prefeitura é receita de capital por alienação de bens.",
+      "definition": "É a receita de capital obtida quando o governo vende bens ou direitos que integram seu patrimônio, observadas as condições legais para realizar a venda. Envolve, por exemplo, a venda de veículo ou imóvel público.",
+      "contrast": "Vender imóvel público é diferente de alugá-lo: a venda gera, em regra, receita de capital por alienação; o aluguel é receita corrente patrimonial. A venda troca um bem ou direito por dinheiro e, por si só, não significa necessariamente aumento do patrimônio líquido. Há regras legais sobre a destinação de recursos de alienação que precisam ser observadas.",
+      "cebraspeTrap": "Alienação não é exploração continuada do bem. Também não é correto concluir que toda venda representa ganho patrimonial igual ao valor total recebido.",
+      "example": "O município vende veículo usado por R$ 25 mil. A entrada é receita de capital por alienação de bens. Se em vez disso alugar um imóvel por R$ 2 mil mensais, os aluguéis são receitas correntes patrimoniais.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1392,10 +1392,10 @@
       "aliases": [
         "Amortização de empréstimos (receita)"
       ],
-      "definition": "Receita de capital que surge quando alguém devolve o valor principal de um empréstimo que o próprio ente público havia concedido.",
-      "contrast": "Aqui o ente recebe de volta o principal que emprestou. Na amortização da dívida como despesa, é o ente que paga o principal de sua própria dívida.",
-      "cebraspeTrap": "Tratar juros de empréstimo concedido como amortização do principal recebido.",
-      "example": "Um município empresta recursos e recebe parcelas de devolução do valor principal.",
+      "definition": "É receita de capital recebida quando alguém devolve ao governo parte do valor principal de um empréstimo que o próprio governo havia concedido. Principal é o dinheiro originalmente emprestado, sem os juros.",
+      "contrast": "Aqui o governo é credor: recebe de volta o principal. Na amortização da dívida como despesa, o governo é devedor e paga o principal que tomou emprestado. Juros recebidos pelo empréstimo não são o mesmo que devolução do principal e podem ter classificação de receita diferente.",
+      "cebraspeTrap": "A banca pode inverter quem emprestou e quem deve: receber principal de empréstimo concedido é receita de capital; pagar principal da própria dívida é despesa de capital.",
+      "example": "O município empresta R$ 100 mil a uma entidade nas condições legais. Quando recebe R$ 20 mil de devolução do principal, registra receita de capital por amortização de empréstimo concedido. Se receber R$ 1 mil de juros, esse valor não é amortização do principal.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1424,10 +1424,10 @@
         "ARO",
         "Operação de crédito por antecipação de receita"
       ],
-      "definition": "Empréstimo de curto prazo para cobrir falta temporária de caixa enquanto o governo ainda espera arrecadar receitas. A entrada da ARO é extraorçamentária, com limites legais próprios.",
-      "contrast": "ARO antecipa recursos temporariamente e possui tratamento extraorçamentário. Empréstimos comuns podem integrar a receita orçamentária de capital.",
-      "cebraspeTrap": "Classificar toda entrada de empréstimo como receita de capital, ignorando a exceção da ARO.",
-      "example": "O município antecipa temporariamente recursos de receitas esperadas e deve observar as condições legais para quitar a operação.",
+      "definition": "É um empréstimo de curto prazo usado pelo governo para cobrir falta temporária de dinheiro enquanto espera arrecadar receitas. A Antecipação de Receita Orçamentária (ARO) tem regras específicas na Lei de Responsabilidade Fiscal e sua entrada recebe tratamento extraorçamentário.",
+      "contrast": "O empréstimo comum geralmente gera receita orçamentária de capital. A ARO atende necessidade temporária de caixa e é tratada como ingresso extraorçamentário, com exigências e restrições legais próprias. Antecipar dinheiro não aumenta a arrecadação tributária real: o governo terá de devolver o valor recebido. A ARO não deve ser confundida com excesso de arrecadação nem com abertura de crédito adicional.",
+      "cebraspeTrap": "Tratar ARO como receita orçamentária de capital igual a qualquer empréstimo ignora a exceção do regime extraorçamentário. Também é incorreto chamar crédito bancário de aumento de arrecadação.",
+      "example": "Um município espera receber impostos nos próximos meses, mas precisa cobrir falta temporária de caixa. Contrata ARO nas condições legais e recebe R$ 100 mil, que deverá devolver conforme as regras. Esses R$ 100 mil não são impostos já arrecadados nem receita de capital de um empréstimo comum.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1459,10 +1459,10 @@
       "aliases": [
         "Receita intra-orçamentária"
       ],
-      "definition": "Receita que decorre de operação entre órgãos ou entidades pertencentes aos orçamentos fiscal e da seguridade social do mesmo ente, identificada para evitar contagem em dobro.",
-      "contrast": "Intraorçamentária indica operação interna aos orçamentos do mesmo ente. Não é o mesmo que transferência recebida de outro ente federativo.",
-      "cebraspeTrap": "Excluir qualquer receita intraorçamentária do orçamento como se fosse entrada extraorçamentária.",
-      "example": "Contribuição paga de um órgão a entidade do mesmo ente, quando ambos estão no orçamento fiscal e da seguridade, recebe identificação intraorçamentária.",
+      "definition": "É a receita de uma operação entre órgãos ou entidades que fazem parte dos orçamentos fiscal e da seguridade social do mesmo governo, conforme a classificação aplicável. Ela é identificada separadamente para que as contas consolidadas não contem a mesma movimentação duas vezes.",
+      "contrast": "Intraorçamentária não significa entrada extraorçamentária. A receita participa do orçamento, mas recebe identificação própria porque a outra parte também integra os orçamentos do mesmo ente. Uma transferência recebida de outro governo não se torna intraorçamentária apenas por ser pública. A identificação evita duplicidade ao consolidar os números.",
+      "cebraspeTrap": "Intraorçamentária não é sinônimo de extraorçamentária nem de qualquer transferência entre governos. O critério envolve órgãos ou entidades dos orçamentos do mesmo ente.",
+      "example": "Um órgão federal paga contribuição a uma entidade federal que também integra os orçamentos fiscal e da seguridade da União. Conforme a operação, a entidade recebedora registra receita intraorçamentária. Já recurso transferido por um estado a um município envolve entes diferentes e não é intraorçamentário só por isso.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1490,10 +1490,10 @@
       "aliases": [
         "Esfera orçamentária"
       ],
-      "definition": "Código que mostra em qual parte da LOA está uma programação: orçamento fiscal, orçamento da seguridade social ou orçamento de investimento das estatais abrangidas.",
-      "contrast": "A esfera indica qual orçamento contém a ação. A classificação institucional indica o órgão e a unidade responsáveis pela dotação.",
-      "cebraspeTrap": "Afirmar que toda despesa classificada como investimento econômico pertence ao orçamento de investimento das estatais.",
-      "example": "Construção de unidade do SUS pode ser despesa de capital no orçamento da seguridade social.",
+      "definition": "É o código que indica em qual dos três orçamentos da Lei Orçamentária Anual (LOA) uma receita ou despesa está registrada: fiscal, seguridade social ou investimento das empresas estatais abrangidas. A esfera identifica a parte do orçamento, e não o tipo de bem que será comprado.",
+      "contrast": "Orçamento fiscal abrange órgãos e entidades sujeitos a essa parte da LOA; seguridade social reúne ações ligadas a saúde, previdência e assistência social, conforme a Constituição; investimento das estatais alcança as empresas previstas no art. 165, § 5º. Classificação por esfera não se confunde com grupo de natureza da despesa: comprar equipamento é investimento no sentido econômico, mas não significa entrar automaticamente no orçamento de investimento das estatais.",
+      "cebraspeTrap": "A palavra 'investimento' pode indicar um grupo de despesa ou um dos três orçamentos da LOA. É preciso identificar de qual classificação a questão está falando.",
+      "example": "Um hospital público compra aparelhos para atendimento do SUS. O equipamento pode ser despesa de capital dentro do orçamento da seguridade social. Seu gasto não passa para o orçamento de investimento das estatais apenas porque comprou um bem durável.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1519,10 +1519,10 @@
       "id": "glo-classificacao-institucional",
       "term": "Classificação institucional",
       "aliases": [],
-      "definition": "Classificação da despesa que identifica a estrutura responsável pelos recursos: órgão orçamentário e unidade orçamentária.",
-      "contrast": "Institucional responde 'quem tem a dotação?'. Funcional responde 'em qual área o governo atua?'. Programática responde 'para qual objetivo ou entrega?'.",
-      "cebraspeTrap": "Identificar programa de assistência estudantil como se fosse o órgão responsável pela despesa.",
-      "example": "O Ministério da Educação e a unidade orçamentária de uma universidade situam a responsabilidade institucional.",
+      "definition": "É a forma de identificar quem recebe a autorização para gastar no orçamento. A classificação institucional indica o órgão orçamentário e a unidade orçamentária à qual foi atribuída a verba, chamada dotação.",
+      "contrast": "Institucional responde 'quem tem a dotação?'. Funcional responde 'em qual área de atuação está o gasto?', como saúde ou educação. Programática responde 'para qual objetivo ou ação?'. A natureza da despesa informa 'que tipo de gasto?', como pessoal, material ou equipamento. O nome de um programa não identifica, por si só, o órgão responsável.",
+      "cebraspeTrap": "A banca pode apresentar o nome da política ou da área de atuação como se fosse a unidade que recebeu o crédito orçamentário.",
+      "example": "Uma universidade recebe dotação para prestar assistência estudantil. A classificação institucional aponta a estrutura orçamentária responsável; a programática indica o programa e a ação; a natureza da despesa mostra se o gasto é bolsa, material ou outro objeto, conforme o classificador.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1544,10 +1544,10 @@
       "id": "glo-orgao-orcamentario",
       "term": "Órgão orçamentário",
       "aliases": [],
-      "definition": "Grupo de unidades orçamentárias reunidas na estrutura do orçamento, como um ministério ou outra parte da administração.",
-      "contrast": "O órgão orçamentário reúne unidades. É à unidade orçamentária que a lei atribui dotações próprias.",
-      "cebraspeTrap": "Chamar a função Educação de órgão ou supor que órgão e unidade orçamentária são sempre idênticos.",
-      "example": "O órgão orçamentário Ministério da Educação agrega diferentes unidades com programação própria.",
+      "definition": "É um agrupamento de unidades orçamentárias usado para organizar a distribuição de recursos na lei do orçamento. Pode corresponder, por exemplo, a um ministério, conforme a estrutura de cada ente público.",
+      "contrast": "Órgão orçamentário reúne unidades. Unidade orçamentária recebe dotação específica na lei. A função orçamentária indica a área de atuação, como Educação, e não representa um ministério ou outra estrutura administrativa. Um órgão orçamentário pode reunir várias unidades com programações diferentes.",
+      "cebraspeTrap": "Não tratar 'Educação' como órgão apenas por ser uma função do orçamento. Também não é obrigatório que órgão e unidade orçamentária tenham o mesmo alcance.",
+      "example": "No orçamento federal, um ministério pode aparecer como órgão orçamentário e reunir dotações de universidades ou outras unidades vinculadas. O programa de apoio aos estudantes pode existir dentro dessa estrutura, mas não é, por isso, outro órgão orçamentário.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1571,10 +1571,10 @@
       "aliases": [
         "UO"
       ],
-      "definition": "Parte da estrutura do orçamento que recebe dotações específicas para realizar despesas. Não precisa corresponder a um prédio ou setor físico.",
-      "contrast": "A unidade orçamentária recebe a dotação. O órgão orçamentário agrega unidades para organizar a programação.",
-      "cebraspeTrap": "Exigir que toda unidade orçamentária corresponda a uma única unidade física de atendimento.",
-      "example": "Uma universidade ou fundo previsto na programação recebe dotação individualizada como unidade orçamentária.",
+      "definition": "É a parte da estrutura do orçamento para a qual a lei autoriza valores específicos de despesa. Essa autorização se chama dotação. Uma unidade orçamentária pode ser um órgão, um fundo ou outra estrutura prevista nas regras e não precisa corresponder a um único prédio.",
+      "contrast": "O órgão orçamentário reúne unidades, enquanto a unidade é o nível que recebe a dotação individualizada. Uma unidade administrativa que trabalha fisicamente em um edifício não é necessariamente unidade orçamentária. A função mostra a área da despesa e o programa mostra a finalidade, não a unidade responsável.",
+      "cebraspeTrap": "A palavra 'unidade' não significa obrigatoriamente prédio, campus ou setor físico. O critério é a identificação e a dotação na estrutura do orçamento.",
+      "example": "Uma universidade federal pode aparecer como unidade orçamentária com valores próprios para ensino, manutenção e assistência estudantil. Seus diversos campi não precisam ser, cada um, unidades orçamentárias independentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1596,10 +1596,10 @@
       "id": "glo-classificacao-funcional",
       "term": "Classificação funcional",
       "aliases": [],
-      "definition": "Classificação que mostra a área de atuação de uma despesa, combinando função e subfunção, como saúde e atenção básica.",
-      "contrast": "A função e a subfunção mostram o tipo de atuação. O programa e a ação ajudam a explicar objetivos e entregas do gasto.",
-      "cebraspeTrap": "Afirmar que toda ação da mesma subfunção precisa pertencer obrigatoriamente à mesma função.",
-      "example": "Uma ação pode ter função Legislativa e subfunção ligada à educação infantil, conforme regras de matricialidade.",
+      "definition": "É a forma de indicar em qual área de atuação pública uma despesa se enquadra. Combina dois códigos: função, que aponta uma área ampla, como saúde, e subfunção, que detalha o tipo de atuação, como atenção básica.",
+      "contrast": "Função e subfunção ajudam a entender a área do gasto. A classificação institucional indica quem executa; a programática mostra objetivos e ações; a natureza da despesa informa o que se paga ou compra. As regras permitem combinar uma subfunção com funções diferentes daquelas a que ela costuma estar associada, prática conhecida como matricialidade.",
+      "cebraspeTrap": "A banca pode afirmar que cada subfunção só pode aparecer sob uma única função ou que a classificação funcional identifica qual fornecedor receberá.",
+      "example": "Um órgão de saúde registra determinada ação com função Saúde e subfunção Atenção Básica. Em outra situação prevista pela classificação, uma subfunção pode ser combinada com função diferente; não é o nome do órgão que decide, sozinho, a função.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1623,10 +1623,10 @@
       "aliases": [
         "Função de governo"
       ],
-      "definition": "Parte da classificação funcional que indica a grande área em que o governo atua, como educação, saúde ou segurança pública.",
-      "contrast": "Função é a categoria mais ampla. Subfunção detalha o tipo de atuação e pode ser combinada com funções diferentes conforme as regras.",
-      "cebraspeTrap": "Concluir que a compra de material de consumo pela universidade determina a função somente pelo objeto comprado.",
-      "example": "Educação, Saúde e Legislativa são exemplos de funções na classificação funcional.",
+      "definition": "É a categoria mais ampla da classificação funcional das despesas. Mostra em qual grande área de atuação pública o gasto foi enquadrado, como Saúde, Educação, Administração ou Segurança Pública.",
+      "contrast": "A função indica a área geral. A subfunção detalha melhor o tipo de atuação. Programa e ação descrevem a finalidade da política e a entrega prevista. O tipo de material comprado não determina sozinho a função: computadores podem servir à educação, à saúde ou a outra área.",
+      "cebraspeTrap": "Função não é o elemento da despesa nem o nome do item comprado. A banca pode trocar o objeto da compra pela área da ação.",
+      "example": "Uma secretaria de saúde compra computadores para organizar atendimentos: o material comprado é equipamento, mas a função orçamentária pode ser Saúde, conforme a ação. Não se escolhe função 'Tecnologia' apenas pelo produto adquirido.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1648,10 +1648,10 @@
       "id": "glo-subfuncao-orcamentaria",
       "term": "Subfunção orçamentária",
       "aliases": [],
-      "definition": "Parte da classificação funcional que detalha o tipo de atividade do governo dentro da atuação pública. Pode aparecer combinada a diferentes funções.",
-      "contrast": "A subfunção detalha a área do gasto. Ela não precisa ser usada apenas com a função que parece mais próxima de seu nome.",
-      "cebraspeTrap": "Considerar inválida toda combinação de subfunção de educação com função de outra área de governo.",
-      "example": "Apoio à educação infantil em órgão legislativo pode combinar subfunção de educação infantil com função Legislativa.",
+      "definition": "É a parte da classificação funcional que detalha o tipo de atuação do governo dentro de uma área mais ampla. Ela se combina com uma função para indicar com mais precisão a finalidade funcional da despesa.",
+      "contrast": "Função identifica a grande área, e subfunção especifica a atuação. A combinação não é sempre fixa: a chamada matricialidade permite usar subfunções com funções diferentes, segundo as regras. Subfunção também não é programa orçamentário; programa reúne ações para alcançar objetivos definidos.",
+      "cebraspeTrap": "É errado afirmar que uma subfunção jamais pode ser usada com outra função. A relação entre as duas categorias admite combinações.",
+      "example": "Atenção Básica é uma subfunção normalmente associada à saúde. A classificação deve ser analisada com a função e a ação concretas, porque uma subfunção não fica obrigatoriamente presa à função que parece mais próxima de seu nome.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1673,10 +1673,10 @@
       "id": "glo-classificacao-programatica",
       "term": "Classificação programática",
       "aliases": [],
-      "definition": "Forma de organizar a despesa por programas, ações e subtítulos, ligando os recursos às finalidades e entregas previstas.",
-      "contrast": "A classificação programática ajuda a entender para quê e onde o governo age. A institucional identifica quem tem a dotação; a funcional identifica a área de atuação.",
-      "cebraspeTrap": "Tratar subfunção como sinônimo de programa e elemento da despesa como ação orçamentária.",
-      "example": "Um programa de permanência estudantil contém ação de assistência ao estudante e subtítulo territorial.",
+      "definition": "É a organização do orçamento por programas e ações para mostrar quais objetivos o governo pretende alcançar e quais atividades ou entregas serão financiadas. Pode incluir subtítulos que indicam a localização da ação.",
+      "contrast": "A classificação programática responde 'para quê?'. A institucional responde 'quem recebeu a verba?'; a funcional, 'em qual área?'; a natureza da despesa, 'que tipo de gasto?'. Programa reúne ações relacionadas a um objetivo. Ação é o trabalho ou operação prevista. Subtítulo indica um detalhamento de localização, conforme a programação.",
+      "cebraspeTrap": "Não confundir programa com órgão, nem ação com elemento de despesa. Uma classificação informa a finalidade e a outra informa o objeto comprado ou pago.",
+      "example": "Uma universidade participa de um programa voltado à permanência estudantil, com ação para oferecer assistência aos estudantes. O nome da universidade indica a estrutura responsável; o programa e a ação mostram o objetivo e a entrega; a natureza do gasto identifica o que será pago.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1698,10 +1698,10 @@
       "id": "glo-programa-orcamentario",
       "term": "Programa orçamentário",
       "aliases": [],
-      "definition": "Conjunto organizado de ações do governo relacionadas a objetivos e resultados de uma política pública, conforme a estrutura do orçamento.",
-      "contrast": "Programa reúne ações com finalidade comum. Ação é a atividade, projeto ou operação especial programada dentro dele.",
-      "cebraspeTrap": "Chamar uma unidade orçamentária de programa ou dizer que todo programa equivale a uma única ação.",
-      "example": "Um programa de qualificação profissional pode reunir ações de formação e apoio a estudantes.",
+      "definition": "É um conjunto organizado de ações que contribuem para objetivos de uma política pública. Ajuda a ligar os valores do orçamento aos resultados que o governo pretende alcançar.",
+      "contrast": "Programa reúne ações relacionadas. Ação identifica o trabalho, projeto ou operação financiada dentro da programação. Órgão e unidade orçamentária indicam quem recebeu a autorização para gastar. Um programa pode ter diversas ações e envolver mais de uma estrutura; não é automaticamente sinônimo de uma unidade ou de uma despesa isolada.",
+      "cebraspeTrap": "A banca pode apresentar uma única compra ou o nome de um ministério como se isso definisse, por si, um programa orçamentário.",
+      "example": "Um programa de melhoria da educação pode reunir ações para formação de professores e apoio ao funcionamento das escolas. Comprar material é um gasto realizado dentro de determinada ação, e não um programa inteiro.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1723,10 +1723,10 @@
       "id": "glo-acao-orcamentaria",
       "term": "Ação orçamentária",
       "aliases": [],
-      "definition": "Parte do orçamento que especifica uma operação planejada para alcançar um objetivo do programa. Pode ser projeto, atividade ou operação especial.",
-      "contrast": "Projeto tem duração limitada; atividade é contínua; operação especial não gera o produto típico das ações de manutenção ou expansão.",
-      "cebraspeTrap": "Afirmar que toda ação do tipo projeto pertence necessariamente ao GND Investimentos.",
-      "example": "A ação de funcionamento da rede escolar organiza entrega continuada de serviços públicos.",
+      "definition": "É uma parte do programa orçamentário que descreve o que o governo pretende realizar ou financiar. Pode ser projeto, atividade ou operação especial. A ação é usada para organizar recursos e, quando cabível, acompanhar produtos e metas de entrega.",
+      "contrast": "Projeto tem duração limitada e busca expansão ou aperfeiçoamento da atuação pública. Atividade tem execução contínua e mantém serviços. Operação especial reúne despesas que não produzem diretamente bens ou serviços típicos dessas ações. Ação é classificação programática; natureza da despesa indica o tipo de gasto, como material ou equipamento. Uma ação do tipo projeto não significa automaticamente despesa do grupo Investimentos.",
+      "cebraspeTrap": "O nome 'projeto' não transforma todos os seus gastos em despesas de capital. É preciso separar o tipo de ação do tipo econômico de despesa.",
+      "example": "Um programa educacional pode ter ação de construção de escola, classificada como projeto, e outra de funcionamento das escolas, classificada como atividade. Dentro de cada ação há despesas com naturezas específicas.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1750,10 +1750,10 @@
       "aliases": [
         "Projeto orçamentário"
       ],
-      "definition": "Ação do orçamento com começo e fim definidos, que gera resultado voltado a ampliar ou melhorar a atuação do governo, como construir uma escola.",
-      "contrast": "Projeto tem duração limitada. Atividade é contínua e permanente, como manter o funcionamento de uma escola.",
-      "cebraspeTrap": "Classificar todo projeto como despesa de capital sem examinar os elementos de despesa que financiarão a ação.",
-      "example": "Construir escola pública é exemplo típico de projeto orçamentário com início e conclusão previstos.",
+      "definition": "É uma ação orçamentária com começo e fim previstos que contribui para expandir ou melhorar a atuação do governo. Construir uma escola ou implantar uma estrutura de atendimento pode ser exemplo de projeto.",
+      "contrast": "Projeto é uma categoria de ação, definida por duração limitada e finalidade de expansão ou aperfeiçoamento. Atividade mantém serviços de forma contínua. O grupo de natureza da despesa (GND) Investimentos é outra classificação: um projeto pode envolver mais de um tipo de gasto e não se define apenas pelo grupo econômico.",
+      "cebraspeTrap": "A banca pode trocar projeto orçamentário por investimento como se fossem o mesmo código. Projeto descreve a forma da ação; GND descreve a natureza do gasto.",
+      "example": "Uma prefeitura prevê construir uma escola em dois anos. A construção pode integrar ação do tipo projeto porque tem término previsto e amplia o atendimento. O funcionamento da escola depois da entrega costuma ser outra ação, do tipo atividade.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1777,10 +1777,10 @@
       "aliases": [
         "Atividade orçamentária"
       ],
-      "definition": "Ação do orçamento realizada de modo contínuo para manter serviços e funções do governo, como o funcionamento regular de uma escola.",
-      "contrast": "Atividade mantém serviços ao longo do tempo; projeto tem duração limitada e busca expansão ou aperfeiçoamento.",
-      "cebraspeTrap": "Concluir que qualquer despesa corrente é necessariamente ação do tipo atividade.",
-      "example": "Manutenção do funcionamento de escolas pode ser ação do tipo atividade.",
+      "definition": "É uma ação orçamentária realizada de forma contínua e permanente para manter a atuação do governo, como oferecer atendimento regular em uma escola ou unidade de saúde.",
+      "contrast": "Atividade mantém serviços e funções ao longo do tempo. Projeto tem duração limitada e busca expandir ou aperfeiçoar a atuação. Operação especial atende a despesas que não geram diretamente os produtos habituais dessas ações. Atividade não é sinônimo de despesa corrente: tipo de ação e natureza do gasto são classificações diferentes.",
+      "cebraspeTrap": "Uma despesa corrente não precisa pertencer obrigatoriamente a ação do tipo atividade. A categoria econômica não determina sozinha o tipo de ação.",
+      "example": "Manter o funcionamento de escolas é exemplo de ação do tipo atividade. Construir uma escola adicional é exemplo de projeto. Uma compra específica dentro da atividade ainda precisa ser classificada por natureza da despesa.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1804,10 +1804,10 @@
       "aliases": [
         "Operação especial"
       ],
-      "definition": "Ação que registra despesas que não produzem diretamente um bem ou serviço típico das atividades e projetos e não mantêm nem ampliam diretamente a ação governamental.",
-      "contrast": "Operação especial tem finalidade diferente de projeto e atividade. O pagamento do principal da dívida, por exemplo, não constrói uma entrega direta ao cidadão.",
-      "cebraspeTrap": "Confundir operação especial com despesa urgente decorrente de calamidade pública.",
-      "example": "Serviço da dívida pode ser programado como operação especial na estrutura federal.",
+      "definition": "É uma ação orçamentária usada para despesas que não geram diretamente um bem ou serviço oferecido à população e não representam, por si, a manutenção, expansão ou melhoria de uma atividade do governo. O pagamento de determinadas obrigações pode ser registrado nessa categoria.",
+      "contrast": "Operação especial é tipo de ação programática. Não significa crédito extraordinário, que é autorização para despesa urgente e imprevisível. Projeto e atividade estão ligados à produção, expansão ou manutenção de serviços; operação especial tem outra finalidade na programação. Pagar o principal de uma dívida é exemplo possível de operação especial e também despesa de capital no grupo Amortização da Dívida.",
+      "cebraspeTrap": "A palavra 'especial' não transforma essa ação em crédito extraordinário. São categorias diferentes: uma classifica a ação; a outra autoriza gastos excepcionais.",
+      "example": "O governo prevê pagar parcelas do principal de empréstimo público. A programação pode usar operação especial porque quitar a dívida não produz diretamente uma escola ou consulta. Isso não significa que o pagamento seja urgente ou imprevisível.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1831,10 +1831,10 @@
       "aliases": [
         "Localizador do gasto"
       ],
-      "definition": "Detalhamento de uma ação orçamentária que informa onde o gasto acontecerá ou qual território será atendido.",
-      "contrast": "Ação indica o que será feito. Subtítulo identifica a localização da execução ou dos beneficiários.",
-      "cebraspeTrap": "Interpretar subtítulo como espécie da receita ou como categoria econômica da despesa.",
-      "example": "Uma ação de construção de unidades recebe subtítulo para identificar a localidade atendida.",
+      "definition": "É um detalhe da ação orçamentária que indica onde ela será realizada ou qual território receberá seus resultados. Ajuda a localizar o gasto previsto no orçamento.",
+      "contrast": "A ação diz o que será feito; o subtítulo ajuda a identificar onde. Programa reúne ações para atingir objetivos maiores. Subtítulo não é grupo de natureza da despesa, elemento de gasto nem espécie de receita. A localização prevista também não comprova, sozinha, que o serviço já foi entregue naquele lugar.",
+      "cebraspeTrap": "Não confundir localização da ação com tipo de material comprado ou com o nome da categoria econômica da despesa.",
+      "example": "Um programa prevê construir unidades de atendimento. A ação indica a construção das unidades e os subtítulos podem identificar municípios ou regiões atendidos, conforme a forma de detalhamento adotada.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1858,10 +1858,10 @@
       "aliases": [
         "Classificação por natureza da despesa"
       ],
-      "definition": "Código que mostra o tipo econômico do gasto público: categoria corrente ou de capital, grupo de natureza da despesa, modalidade de aplicação, elemento e outros detalhamentos previstos.",
-      "contrast": "Natureza informa que tipo de gasto será feito. Classificação institucional indica quem tem a dotação; funcional indica a área de atuação.",
-      "cebraspeTrap": "Tomar o GND Investimentos como prova de que a função é Educação ou de que a esfera é orçamento das estatais.",
-      "example": "Em uma compra direta de equipamentos, natureza identifica capital, investimentos, aplicação direta e elemento pertinente.",
+      "definition": "É o código que identifica que tipo de gasto o governo pretende realizar. A natureza da despesa organiza informações como categoria econômica (corrente ou de capital), grupo de natureza da despesa, modalidade de aplicação e elemento de despesa.",
+      "contrast": "Natureza responde 'o que será gasto e de que maneira?', enquanto a classificação institucional indica quem recebeu a dotação, a funcional indica a área da política e a programática indica o objetivo da ação. Dentro da natureza, o grupo reúne grandes tipos de gasto; a modalidade indica como os recursos serão aplicados; o elemento especifica o objeto, como material ou serviço.",
+      "cebraspeTrap": "A classificação como Investimentos não informa, por si só, a função ou a esfera do orçamento. Também não se deve confundir elemento, grupo e modalidade.",
+      "example": "Um órgão compra computadores para uma escola. A função pode ser Educação; a ação trata da política educacional; a natureza da despesa pode indicar despesa de capital, grupo Investimentos, modalidade de aplicação direta e elemento Equipamentos e Material Permanente, conforme o enquadramento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1893,10 +1893,10 @@
       "aliases": [
         "Despesas correntes"
       ],
-      "definition": "Gasto do orçamento que, em regra, serve à manutenção e ao funcionamento dos serviços públicos e não forma nem compra diretamente um bem de capital, como pessoal e juros.",
-      "contrast": "Corrente é categoria econômica. Despesa de capital abrange investimentos, inversões financeiras e amortização da dívida segundo a classificação.",
-      "cebraspeTrap": "Afirmar que toda despesa corrente se repete mensalmente ou que juros de dívida são despesa de capital.",
-      "example": "Pagamento de juros da dívida e serviços de limpeza são, em regra, despesas correntes, em grupos distintos.",
+      "definition": "É uma das duas grandes categorias econômicas da despesa pública. Reúne, em geral, gastos com manutenção e funcionamento dos serviços, como pessoal, material de consumo, serviços e juros da dívida, conforme a classificação orçamentária.",
+      "contrast": "A despesa corrente se divide em grupos como Pessoal e Encargos Sociais, Juros e Encargos da Dívida e Outras Despesas Correntes. A despesa de capital inclui Investimentos, Inversões Financeiras e Amortização da Dívida. Corrente não significa que o pagamento ocorra todo mês: uma despesa pontual com material de consumo também pode ser corrente.",
+      "cebraspeTrap": "A banca pode afirmar que toda despesa corrente é mensal ou que juros de dívida são despesas de capital por estarem ligados a financiamento.",
+      "example": "Uma escola compra papel para uso nas aulas e contrata limpeza. Esses gastos podem ser outras despesas correntes. A compra de computadores permanentes, em regra, é despesa de capital. Já os juros de empréstimo público são despesa corrente, embora estejam relacionados a dívida.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1928,10 +1928,10 @@
       "aliases": [
         "Despesas de capital"
       ],
-      "definition": "Gasto do orçamento classificado em investimentos, inversões financeiras ou amortização da dívida, como executar obras ou pagar o principal de uma dívida.",
-      "contrast": "Despesa de capital é categoria econômica. Nem toda despesa de capital cria um novo bem: amortizar dívida também é gasto de capital.",
-      "cebraspeTrap": "Classificar aquisição de qualquer material caro como despesa de capital sem analisar o objeto e sua natureza.",
-      "example": "Construir laboratório ou pagar o principal de dívida integram despesa de capital em grupos diferentes.",
+      "definition": "É uma das duas categorias econômicas da despesa pública. Inclui gastos classificados como Investimentos, Inversões Financeiras e Amortização da Dívida. Pode envolver construir obras, comprar certos bens ou devolver o principal de uma dívida.",
+      "contrast": "Despesa de capital não significa necessariamente criar novo patrimônio: pagar o principal de empréstimo é despesa de capital e reduz uma dívida existente. Despesa corrente inclui, entre outros, salários, material de consumo e juros da dívida. A palavra 'capital' também não determina se o gasto entra no orçamento fiscal ou no orçamento de investimento das estatais.",
+      "cebraspeTrap": "Nem toda despesa de capital gera bem novo. A distinção entre juros e principal da dívida é um caso frequente de troca entre categorias.",
+      "example": "A prefeitura constrói uma escola e compra equipamentos permanentes, gastos que podem integrar Investimentos. Quando devolve o principal de um empréstimo, registra Amortização da Dívida, também despesa de capital. Os juros do mesmo empréstimo pertencem à categoria corrente.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1963,10 +1963,10 @@
       "aliases": [
         "GND"
       ],
-      "definition": "Parte do código da despesa que reúne gastos com características econômicas parecidas. Os seis grupos são pessoal e encargos, juros e encargos da dívida, outras despesas correntes, investimentos, inversões financeiras e amortização da dívida.",
-      "contrast": "GND indica o grande tipo de gasto dentro da categoria econômica. Elemento detalha o objeto comprado ou pago; modalidade mostra como os recursos serão aplicados.",
-      "cebraspeTrap": "Apontar Equipamentos e Material Permanente como GND, quando corresponde a elemento de despesa.",
-      "example": "O GND Investimentos pode conter elementos diferentes, como obras e equipamentos permanentes.",
+      "definition": "É um nível do código de despesas que reúne gastos parecidos pela sua natureza econômica. O Grupo de Natureza da Despesa (GND) tem seis grupos: Pessoal e Encargos Sociais; Juros e Encargos da Dívida; Outras Despesas Correntes; Investimentos; Inversões Financeiras; e Amortização da Dívida.",
+      "contrast": "Os três primeiros GND pertencem às despesas correntes e os três últimos às de capital. Grupo é uma categoria ampla; o elemento detalha o objeto comprado ou pago, como equipamentos ou serviços; a modalidade mostra se o órgão aplica diretamente os recursos ou os transfere para aplicação. 'Equipamentos e Material Permanente' é exemplo de elemento, não de GND.",
+      "cebraspeTrap": "A banca pode trocar o nome de um elemento, como Equipamentos e Material Permanente, pelo nome de um grupo. Também pode colocar juros e amortização no mesmo GND.",
+      "example": "Um órgão constrói laboratório e compra computadores: os gastos podem integrar o grupo Investimentos, usando elementos diferentes conforme a compra. Já o pagamento de juros de financiamento pertence ao grupo Juros e Encargos da Dívida, não ao de amortização.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1992,10 +1992,10 @@
       "id": "glo-modalidade-de-aplicacao",
       "term": "Modalidade de aplicação",
       "aliases": [],
-      "definition": "Parte do código da despesa que mostra se os recursos serão gastos diretamente pela unidade ou transferidos para outra instituição aplicá-los.",
-      "contrast": "A modalidade informa como o dinheiro será aplicado. O elemento de despesa indica o objeto do gasto, como material ou serviço.",
-      "cebraspeTrap": "Afirmar que aplicação direta é necessariamente investimento e que transferência a município descreve a origem da receita do município.",
-      "example": "Na compra de seringas pelo próprio ministério, a modalidade pode indicar aplicações diretas.",
+      "definition": "É uma parte do código da despesa que indica como o dinheiro será usado: diretamente pelo órgão responsável ou por transferência a outra entidade para que ela realize a aplicação, conforme as regras do orçamento.",
+      "contrast": "Modalidade responde como os recursos serão aplicados, não qual produto será comprado. Elemento da despesa identifica o objeto do gasto, como material, obra ou serviço. GND reúne os gastos por natureza econômica. Aplicação direta não significa automaticamente investimento: um órgão pode comprar papel ou equipamento diretamente, com naturezas diferentes.",
+      "cebraspeTrap": "A banca pode confundir modalidade com elemento ou classificar toda aplicação direta como despesa de capital.",
+      "example": "Um ministério compra por conta própria material para escritório: a modalidade pode ser aplicação direta. Se transferir recursos para outro ente realizar a ação, usa a modalidade adequada à transferência. O material comprado e o destinatário da transferência são informações distintas.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2021,10 +2021,10 @@
       "id": "glo-elemento-de-despesa",
       "term": "Elemento de despesa",
       "aliases": [],
-      "definition": "Parte do código da despesa que identifica o que será pago ou adquirido, como material de consumo, obras, equipamentos ou serviços.",
-      "contrast": "Elemento descreve o objeto do gasto. GND agrupa despesas de natureza econômica semelhante; modalidade indica a forma de aplicação.",
-      "cebraspeTrap": "Tratar material de consumo como categoria econômica ou elemento como modalidade de licitação.",
-      "example": "Aquisição de papel pode usar elemento Material de Consumo dentro do grupo Outras Despesas Correntes.",
+      "definition": "É a parte da natureza da despesa que indica o objeto do gasto, isto é, o que será adquirido ou pago. Pode identificar material de consumo, obras, serviços, equipamentos, vencimentos e outros objetos previstos no classificador.",
+      "contrast": "Elemento especifica o gasto. Grupo de natureza da despesa (GND) reúne grandes tipos econômicos; modalidade de aplicação informa como o dinheiro será utilizado; função mostra a área de atuação. Saber o elemento não determina, por si, o órgão responsável ou o programa financiado.",
+      "cebraspeTrap": "Material de Consumo e Equipamentos e Material Permanente são elementos, não categorias econômicas nem modalidades de licitação.",
+      "example": "A prefeitura compra papel para o atendimento ao público: pode usar o elemento Material de Consumo dentro de Outras Despesas Correntes. A compra de computadores permanentes pode usar Equipamentos e Material Permanente dentro de Investimentos.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2050,10 +2050,10 @@
       "id": "glo-pessoal-e-encargos-sociais-gnd",
       "term": "Pessoal e Encargos Sociais (GND)",
       "aliases": [],
-      "definition": "Grupo de despesa corrente que reúne pagamentos de pessoal e encargos sociais devidos nas situações previstas pelo classificador orçamentário.",
-      "contrast": "É o GND de pessoal. O conceito de 'despesa total com pessoal' para os limites da LRF segue regras fiscais próprias e pode não ter o mesmo valor.",
-      "cebraspeTrap": "Afirmar que qualquer despesa ligada a servidores deve integrar o mesmo GND sem verificar o classificador.",
-      "example": "Vencimentos e vantagens fixas de pessoal civil podem compor este grupo de despesa.",
+      "definition": "É o grupo de despesa corrente usado para registrar gastos com pessoal e encargos sociais abrangidos pelas regras do orçamento, como determinados vencimentos e obrigações ligadas à folha. O nome é um dos seis Grupos de Natureza da Despesa (GND).",
+      "contrast": "O GND identifica um grupo da classificação orçamentária. A Despesa Total com Pessoal da Lei de Responsabilidade Fiscal é outro cálculo, feito com regras, ajustes e exclusões próprios para verificar limites. Por isso, o valor registrado no GND não precisa ser idêntico ao indicador fiscal. Nem todo gasto que beneficia um servidor entra automaticamente nesse grupo.",
+      "cebraspeTrap": "A banca pode equiparar o GND de pessoal ao valor usado nos limites da LRF. As regras de apuração não são necessariamente iguais.",
+      "example": "Um órgão paga vencimentos de servidores e os encargos previstos no classificador: esses valores podem integrar o GND Pessoal e Encargos Sociais. Para verificar o limite fiscal, ainda será preciso calcular a despesa total com pessoal conforme a LRF.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2079,10 +2079,10 @@
       "id": "glo-juros-e-encargos-da-divida-gnd",
       "term": "Juros e Encargos da Dívida (GND)",
       "aliases": [],
-      "definition": "Grupo de despesa corrente usado para pagar juros e outros encargos de dívidas públicas, conforme a classificação.",
-      "contrast": "Juros são o custo da dívida e integram despesa corrente. Pagar o principal da dívida entra no GND Amortização da Dívida, de capital.",
-      "cebraspeTrap": "Classificar pagamento de juros como amortização do principal ou como GND Investimentos.",
-      "example": "Em parcela de financiamento, os juros e o principal são tratados em grupos econômicos diferentes.",
+      "definition": "É o grupo de despesa corrente usado para pagar juros e outros encargos ligados à dívida pública, conforme o classificador orçamentário. Juros representam o custo de usar dinheiro emprestado, diferente da devolução do valor originalmente tomado.",
+      "contrast": "O principal da dívida é o montante emprestado que ainda precisa ser devolvido; sua amortização pertence a grupo de despesa de capital. Juros e encargos integram grupo de despesa corrente. A mesma parcela de financiamento pode exigir separar juros de amortização, mesmo que o governo faça um pagamento único.",
+      "cebraspeTrap": "É erro classificar todo pagamento de financiamento como amortização ou todo gasto relacionado à dívida como capital. Os juros têm grupo próprio de despesa corrente.",
+      "example": "O governo paga parcela de empréstimo de R$ 12 mil: R$ 10 mil são devolução do principal e R$ 2 mil são juros. Os R$ 2 mil entram em Juros e Encargos da Dívida; os R$ 10 mil em Amortização da Dívida, conforme os registros aplicáveis.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2108,10 +2108,10 @@
       "id": "glo-outras-despesas-correntes-gnd",
       "term": "Outras Despesas Correntes (GND)",
       "aliases": [],
-      "definition": "Grupo que reúne despesas correntes fora dos grupos de pessoal e encargos sociais e de juros e encargos da dívida.",
-      "contrast": "É uma categoria residual entre os três grupos de despesa corrente. Equipamentos e obras, em regra, pertencem a grupos de capital conforme sua natureza.",
-      "cebraspeTrap": "Supor que todo gasto com material de consumo pertence ao GND Investimentos porque envolve compra de bens.",
-      "example": "Material de escritório para funcionamento de órgão pode ser despesa corrente deste grupo.",
+      "definition": "É o grupo de despesa corrente que reúne gastos que não pertencem aos grupos de Pessoal e Encargos Sociais nem de Juros e Encargos da Dívida. Pode incluir compras de material de consumo e serviços usados no funcionamento dos órgãos, conforme o classificador.",
+      "contrast": "Outras Despesas Correntes é um grupo, não uma categoria para tudo que não se conhece. Um equipamento permanente ou uma obra pode pertencer a Investimentos, grupo de capital. O fato de comprar um objeto físico não torna a despesa de capital: papel, combustível e outros materiais de consumo podem ser correntes.",
+      "cebraspeTrap": "Comprar bem não significa automaticamente fazer investimento. O objeto e seu enquadramento no classificador determinam o grupo.",
+      "example": "Uma escola compra papel e contrata serviço de limpeza para funcionar. Essas despesas podem integrar Outras Despesas Correntes. Se comprar computadores permanentes, a classificação pode ser Investimentos, embora ambos envolvam compras feitas pela escola.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2139,10 +2139,10 @@
       "aliases": [
         "GND Investimentos"
       ],
-      "definition": "Grupo de despesa de capital que inclui execução de obras e aquisição de certos bens e instalações, como equipamentos permanentes, segundo a classificação legal.",
-      "contrast": "Investimentos podem formar ou ampliar bens. Inversões financeiras incluem, entre outros casos, imóveis adquiridos sem vínculo com a execução de obras.",
-      "cebraspeTrap": "Afirmar que compra de qualquer imóvel já pronto será necessariamente investimento sem avaliar a finalidade da aquisição.",
-      "example": "Construir laboratório e adquirir equipamentos permanentes podem integrar o GND Investimentos.",
+      "definition": "É o grupo de despesa de capital que inclui, entre outros gastos previstos na classificação, o planejamento e a execução de obras e a compra de equipamentos e instalações que contribuem para criar ou ampliar bens e serviços públicos.",
+      "contrast": "Investimentos é um GND, isto é, um grupo econômico da despesa. Inversões Financeiras é outro grupo de capital e pode incluir a compra de imóvel já existente quando não vinculada à execução de obra. Amortização da Dívida paga principal de empréstimo. Nem toda ação orçamentária do tipo projeto usa somente Investimentos, e o GND Investimentos não significa automaticamente orçamento de investimento das estatais.",
+      "cebraspeTrap": "A banca pode tratar toda compra de imóvel ou qualquer projeto como investimento sem considerar a natureza exata da operação.",
+      "example": "Uma prefeitura constrói laboratório e compra equipamentos permanentes para ele: os gastos podem entrar em Investimentos. Se comprar imóvel já pronto sem ligação com execução de obra, é necessário avaliar o enquadramento em Inversões Financeiras.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2174,10 +2174,10 @@
       "aliases": [
         "GND Inversões Financeiras"
       ],
-      "definition": "Grupo de despesa de capital que inclui, por exemplo, comprar imóvel sem relação direta com obra e adquirir certos bens de capital já em uso ou participações previstas nas regras.",
-      "contrast": "Inversões financeiras e investimentos são grupos diferentes de despesa de capital. A condição do bem e a finalidade da compra ajudam a separar os casos.",
-      "cebraspeTrap": "Tratar toda aquisição de bem durável como investimento e excluir a possibilidade de inversão financeira para imóvel já existente.",
-      "example": "Comprar imóvel já existente não vinculado à execução de obra pode ser inversão financeira.",
+      "definition": "É um grupo de despesa de capital que reúne operações como a aquisição de imóveis ou outros bens nas situações previstas pela classificação legal, além de determinadas participações financeiras. Um exemplo comum é comprar imóvel já existente sem relação com execução de obra.",
+      "contrast": "Investimentos podem incluir construir um imóvel e comprar equipamentos permanentes; Inversões Financeiras podem incluir comprar imóvel já pronto, conforme a finalidade e as regras. Amortização da Dívida é o grupo usado para devolver o principal de empréstimo. O simples fato de um bem durar muitos anos não resolve a diferença: é necessário examinar a operação concreta.",
+      "cebraspeTrap": "Comprar imóvel pronto não deve ser automaticamente classificado como Investimentos apenas porque se trata de bem durável.",
+      "example": "Um município constrói prédio novo para escola: o gasto pode ser Investimentos. Se compra prédio já existente, sem vinculá-lo à execução de obra, a compra pode ser Inversões Financeiras. Ambos são despesas de capital, mas pertencem a grupos distintos.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2209,10 +2209,10 @@
       "aliases": [
         "GND Amortização da Dívida"
       ],
-      "definition": "Grupo de despesa de capital que registra o pagamento ou refinanciamento do valor principal de dívidas públicas, com os ajustes previstos no classificador.",
-      "contrast": "Amortização paga o principal da dívida. Juros e encargos da dívida são outro GND, de despesa corrente.",
-      "cebraspeTrap": "Confundir juros de dívida com amortização do principal ou tratar esse pagamento como despesa corrente.",
-      "example": "Em parcela de empréstimo devido pela União, a devolução do principal integra Amortização da Dívida.",
+      "definition": "É o grupo de despesa de capital usado para devolver o valor principal de dívidas do governo, incluindo as operações previstas no classificador. Principal é o dinheiro originalmente emprestado que precisa ser pago de volta, sem os juros.",
+      "contrast": "Pagar o principal da própria dívida é despesa de capital em Amortização da Dívida. Pagar juros é despesa corrente em Juros e Encargos da Dívida. Receber de volta o principal de empréstimo que o governo havia concedido é outra operação: receita de capital por amortização de empréstimos concedidos.",
+      "cebraspeTrap": "A banca pode inverter receita e despesa quando aparece a palavra 'amortização'. É preciso identificar quem deve e quem recebe o principal.",
+      "example": "O município paga R$ 30 mil de um financiamento: R$ 25 mil devolvem principal e R$ 5 mil são juros. Os R$ 25 mil pertencem a Amortização da Dívida, e os R$ 5 mil a Juros e Encargos da Dívida, conforme a natureza de cada parte.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2240,10 +2240,10 @@
       "aliases": [
         "Aplicação direta"
       ],
-      "definition": "Modalidade de aplicação em que o próprio órgão ou entidade responsável usa os recursos para executar a despesa, sem transferi-los a outro ente para aplicar.",
-      "contrast": "Na aplicação direta, quem executa o gasto é a própria unidade responsável. Uma transferência para outra entidade aplicar segue modalidade própria.",
-      "cebraspeTrap": "Afirmar que aplicações diretas só podem financiar equipamentos ou obras de investimentos.",
-      "example": "Um ministério compra diretamente material de consumo destinado à sua operação.",
+      "definition": "É a modalidade de aplicação em que o órgão ou entidade responsável utiliza diretamente a verba do orçamento para realizar a despesa, em vez de transferi-la a outra instituição para executar o gasto.",
+      "contrast": "Aplicação direta indica como o recurso é executado, não qual bem será comprado. Um órgão pode comprar material de consumo diretamente, despesa corrente, ou equipamento permanente, despesa de capital. Transferência a outro ente para ele aplicar o recurso exige modalidade própria; não é aplicação direta do órgão que transferiu.",
+      "cebraspeTrap": "Aplicação direta não é sinônimo de investimento. A modalidade e o grupo econômico da despesa são classificações diferentes.",
+      "example": "Uma universidade compra diretamente R$ 5 mil em material de laboratório: a modalidade pode ser aplicação direta. Se o ministério transfere recursos a outro ente para executar projeto, a modalidade será a correspondente à transferência, conforme o classificador.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2269,10 +2269,10 @@
       "id": "glo-meta-fisica",
       "term": "Meta física",
       "aliases": [],
-      "definition": "Quantidade de bens ou serviços que uma ação orçamentária pretende entregar em um período, como número de consultas ou de escolas atendidas.",
-      "contrast": "Meta física mede a entrega planejada em unidades concretas. Meta financeira mede o valor previsto para executar a ação.",
-      "cebraspeTrap": "Afirmar que meta física foi cumprida porque a despesa atingiu todo o limite de empenho autorizado.",
-      "example": "Uma ação prevê realizar 500 atendimentos no exercício, enquanto o orçamento estabelece o valor necessário.",
+      "definition": "É a quantidade de bens ou serviços que o governo pretende entregar com uma ação do orçamento. A meta pode ser medida em consultas realizadas, estudantes atendidos, escolas construídas ou outra unidade adequada ao produto previsto.",
+      "contrast": "Meta física mede quantidade entregue; previsão financeira mostra quanto se pretende gastar. Uma ação pode gastar toda a verba e entregar menos do que a meta, ou cumprir a meta com gasto inferior ao previsto. 'Programação física cumprida' significa que a meta válida foi alcançada, e não apenas que todo o dinheiro foi empenhado.",
+      "cebraspeTrap": "Despesa totalmente empenhada ou paga não comprova cumprimento da meta física. O indicador é a quantidade de entregas.",
+      "example": "Uma ação prevê realizar 500 consultas com orçamento de R$ 100 mil. Se forem realizadas 400 consultas, atingiu 80% da meta física, ainda que os R$ 100 mil tenham sido pagos. A execução financeira e a física precisam ser avaliadas separadamente.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2296,10 +2296,10 @@
       "aliases": [
         "RP da despesa"
       ],
-      "definition": "Código da programação da despesa que mostra como ela entra, ou deixa de entrar, no cálculo do resultado primário federal, segundo as regras fiscais.",
-      "contrast": "O identificador de resultado primário trata do efeito fiscal da despesa. GND informa o tipo econômico do gasto; são classificações diferentes.",
-      "cebraspeTrap": "Dizer que toda despesa corrente afeta o resultado primário e toda despesa de capital fica excluída.",
-      "example": "Juros e obras podem pertencer a categorias econômicas diferentes e ter efeitos fiscais definidos por indicador próprio.",
+      "definition": "É um código usado na programação orçamentária federal para indicar como determinada despesa entra no cálculo do resultado primário. Esse resultado compara receitas e despesas primárias, seguindo a metodologia fiscal. O identificador permite distinguir despesas que afetam ou não esse cálculo.",
+      "contrast": "O identificador de resultado primário trata do efeito fiscal; o Grupo de Natureza da Despesa (GND) informa o tipo econômico do gasto, como pessoal ou investimentos. Uma obra pode ser despesa de capital e também primária; juros da dívida podem ser despesa corrente e financeira. Corrente ou capital não determina, sozinho, como o gasto entra no resultado primário.",
+      "cebraspeTrap": "Dizer que toda despesa corrente é primária ou que toda despesa de capital é financeira confunde o tipo econômico do gasto com seu tratamento fiscal.",
+      "example": "Uma obra pública pode estar no GND Investimentos e ser classificada como despesa primária. O pagamento de juros pode estar no GND Juros e Encargos da Dívida e ter natureza financeira para o resultado primário. São códigos usados para responder perguntas diferentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2321,10 +2321,10 @@
       "id": "glo-despesa-primaria",
       "term": "Despesa primária",
       "aliases": [],
-      "definition": "Gasto que entra no cálculo do resultado primário do governo conforme a metodologia fiscal, independentemente de estar classificado como corrente ou de capital.",
-      "contrast": "Primária indica participação no resultado primário. Corrente e capital indicam a categoria econômica da despesa, sem equivalência automática.",
-      "cebraspeTrap": "Afirmar que só despesas correntes afetam o resultado primário e que construção de obras nunca pode entrar no cálculo.",
-      "example": "Custeio de serviços ou investimento público podem ser despesas primárias, segundo o indicador aplicável.",
+      "definition": "É um gasto que entra no cálculo do resultado primário do governo conforme as regras fiscais. Nesse cálculo, o governo compara receitas e despesas primárias para acompanhar suas metas. Despesas com serviços públicos e certas obras podem ser primárias, dependendo da classificação aplicável.",
+      "contrast": "Primária não significa corrente. Uma despesa de capital com investimento pode ser primária; uma despesa corrente com juros da dívida pode ser financeira, ficando fora do resultado primário. Corrente/capital informa o tipo econômico do gasto; primária/financeira informa como ele afeta o indicador fiscal.",
+      "cebraspeTrap": "É incorreto afirmar que apenas despesas correntes entram no resultado primário. A categoria econômica não resolve sozinha a classificação fiscal.",
+      "example": "O governo paga serviços de limpeza de uma escola e executa investimento em obra. Ambos podem ser despesas primárias. Já pagar juros de empréstimo é, em regra, despesa financeira para essa apuração, embora seja despesa corrente no orçamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2346,10 +2346,10 @@
       "id": "glo-despesa-financeira",
       "term": "Despesa financeira",
       "aliases": [],
-      "definition": "Gasto classificado fora do cálculo do resultado primário, como juros ou amortização da dívida nas hipóteses previstas na metodologia fiscal.",
-      "contrast": "Financeira é uma classificação para o resultado primário. Uma despesa financeira pode integrar o orçamento e ser corrente ou de capital.",
-      "cebraspeTrap": "Tratar despesa financeira como qualquer gasto pago em caixa, mesmo quando o classificador a identifica como primária.",
-      "example": "Pagamento de juros da dívida pode ser despesa financeira e também despesa corrente pela categoria econômica.",
+      "definition": "É uma despesa que, de acordo com a metodologia fiscal, não entra no cálculo do resultado primário. Pode incluir juros e amortização da dívida, conforme a classificação aplicável. A palavra financeira indica seu tratamento no resultado fiscal, não apenas que houve pagamento em dinheiro.",
+      "contrast": "Uma despesa financeira pode estar no orçamento: juros são despesa corrente; amortização do principal é despesa de capital. Despesa primária é aquela que entra no resultado primário. Pagar em dinheiro não torna automaticamente uma despesa financeira: o governo também paga em caixa por serviços e obras que podem ser primários.",
+      "cebraspeTrap": "Financeira não é sinônimo de qualquer gasto com transferência bancária. É necessário examinar o indicador fiscal e a natureza do gasto separadamente.",
+      "example": "Uma parcela de empréstimo do governo inclui R$ 4 mil de juros e R$ 20 mil de principal. Ambos podem ser tratados como despesas financeiras na apuração do resultado primário, embora os juros sejam corrente e o principal seja capital na classificação econômica.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2373,10 +2373,10 @@
       "aliases": [
         "RCL"
       ],
-      "definition": "Valor fiscal calculado a partir das receitas correntes do ente, depois de subtrair as deduções exigidas pela LRF. Em geral, considera o mês de referência e os onze anteriores.",
-      "contrast": "A RCL serve de base para limites fiscais, como pessoal e dívida. Não equivale à receita corrente bruta nem ao dinheiro livre em caixa.",
-      "cebraspeTrap": "Confundir RCL com toda receita corrente recebida em um mês ou subtrair as mesmas deduções para entes com regras distintas.",
-      "example": "Para examinar limite de pessoal, calcula-se a RCL conforme período móvel de doze meses e deduções legais do ente.",
+      "definition": "É um valor usado como referência para limites fiscais, como os de pessoal e dívida. A Receita Corrente Líquida (RCL) parte das receitas correntes arrecadadas e desconta os valores que a Lei de Responsabilidade Fiscal (LRF) manda excluir. Em geral, usa uma janela de doze meses: o mês de referência e os onze anteriores.",
+      "contrast": "RCL não é toda receita corrente bruta nem o saldo de dinheiro livre no banco. As deduções variam conforme o ente e as regras legais. A despesa total com pessoal é comparada com a RCL para verificar limites, mas não é calculada simplesmente a partir da folha de um mês. Também não se deve confundir a RCL com resultado primário ou superávit financeiro.",
+      "cebraspeTrap": "A banca pode tratar RCL como receita corrente bruta, dinheiro disponível ou receita de um único mês. O cálculo legal usa período móvel e deduções específicas.",
+      "example": "Um estado calcula suas receitas correntes arrecadadas de janeiro a dezembro e subtrai as deduções previstas para ele na LRF. O resultado é usado para verificar os limites fiscais cabíveis. Somar apenas a arrecadação de dezembro ou ignorar deduções não produz a RCL correta.",
       "subjectIds": [
         "orcamento-publico"
       ],

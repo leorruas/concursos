@@ -32,6 +32,12 @@ As unidades 04 e 05 reutilizam conceitos canônicos de [[3 - Materias/Direito Co
 
 **Gabarito: Errado.** Eficiência, equidade e garantias exigem evidências e critérios próprios.
 
+## Expansão para a Câmara dos Deputados 2026
+
+O programa de **Ciência Política da Câmara** inclui um bloco próprio de 22 unidades (CAM-CP-001 a CAM-CP-022). Os artigos da CGU neste hub continuam disponíveis como pré-requisitos, mas a nova sequência será registrada de forma diferenciada e relacionada ao catálogo `camara-2026`.
+
+- [[3 - Materias/Estado e Democracia/10 - ciencia politica objeto metodos e limites|10. Ciência Política: objeto, métodos e limites]]: **CAM-CP-001**. Examina a disciplina como investigação, `politics`/`polity`/`policy`, métodos qualitativos e quantitativos, abordagens normativa/empírica/interpretativa, autores, validade, falácias e causalidade. Dez itens Cebraspe C/E.
+
 ## Planejamento das unidades
 
 | Ordem | Conteúdo e distinções a estudar | Situação editorial |

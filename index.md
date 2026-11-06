@@ -360,6 +360,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais|Produção para rádio, televisão e redes sociais: roteiro, captação, edição e entrega]]
   - [[3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao|Projeto gráfico: conceito, sistema e execução]]
   - [[3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao|Projeto audiovisual: planejamento, execução e publicação]]
+  - [[3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade|Produção editorial: objetivos, públicos, linha e identidade]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

@@ -282,8 +282,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-005 · F2**: Gestão do clima por comunicação: alcance e limites.
 - [x] **CAM-CO-006 · F2**: Comunicação institucional: objeto, função e públicos.
 - [x] **CAM-CO-007 · F2**: Identidade, imagem e reputação: diferenças e relações.
-- [ ] **CAM-CO-008 · F2**: Riscos, prevenção e diagnóstico de crise de comunicação.
-- [ ] **CAM-CO-009 · F2**: Resposta à crise: etapas, canais e avaliação.
+- [x] **CAM-CO-008 · F2**: Riscos, prevenção e diagnóstico de crise de comunicação.
+- [x] **CAM-CO-009 · F2**: Resposta à crise: etapas, canais e avaliação.
 - [ ] **CAM-CO-010 · F2**: Comunicação organizacional: dimensões e escopo.
 - [ ] **CAM-CO-011 · F2**: Comunicação integrada: institucional, mercadológica, interna e administrativa.
 - [ ] **CAM-CO-012 · F2**: Fluxos ascendentes, descendentes, horizontais e transversais.
@@ -572,12 +572,12 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 ## Lote 16: riscos, prevenção, diagnóstico e resposta a crises (CO-008 e CO-009)
 
-- [ ] **CAM-CO-008 · artigo criado; publicação pendente**: [[3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao|Riscos, prevenção e diagnóstico de crises]] (`art-482d6ef913a0c75b`). **Decisão: artigo novo** porque a pergunta autônoma envolve vulnerabilidade, risco, issue, incidente, emergência e crise, varredura e monitoramento, identificação de públicos, três grupos da SCCT em Coombs e fases temporais de Fink; exemplos progressivos e três itens C/E.
-- [ ] **CAM-CO-009 · artigo criado; publicação pendente**: [[3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao|Resposta à crise: fases, estratégias, canais e avaliação]] (`art-e31c94bd720a5f86`). **Decisão: artigo novo** para aprofundar informação instrutiva e de adaptação, posturas da SCCT, ciclos de Fink e CERC, canais, público interno, porta-voz, avaliação e obrigações específicas, com três itens C/E.
+- [x] **CAM-CO-008 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao|Riscos, prevenção e diagnóstico de crises]] (`art-482d6ef913a0c75b`). **Decisão: artigo novo** porque a pergunta autônoma envolve vulnerabilidade, risco, issue, incidente, emergência e crise, varredura e monitoramento, identificação de públicos, três grupos da SCCT em Coombs e fases temporais de Fink; exemplos progressivos e três itens C/E.
+- [x] **CAM-CO-009 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao|Resposta à crise: fases, estratégias, canais e avaliação]] (`art-e31c94bd720a5f86`). **Decisão: artigo novo** para aprofundar informação instrutiva e de adaptação, posturas da SCCT, ciclos de Fink e CERC, canais, público interno, porta-voz, avaliação e obrigações específicas, com três itens C/E.
 
 **Reuso e proteção multi-edital:** a nota [[3 - Materias/Comunicacao/07 - gestao de crises|Gestão de crises]] (`art-50f1296bdde542f0`) já explica o ciclo básico, Mário Rosa, assessoria, porta-voz e o recorte FGV. Seu conteúdo, ID e aliases foram **preservados integralmente**. Os artigos aprofundam perguntas próprias; somente o catálogo Câmara recebe os dois novos IDs. Catálogos CGU e Dataprev e registros pessoais não foram alterados.
 
-**Validação pendente:** executar testes e confirmar build, identidade, busca, privacidade, manifesto e catálogo publicados no GitHub Pages antes de assinalar os itens. Próxima unidade: **CAM-CO-010**, comunicação organizacional: dimensões e escopo, com auditoria de notas existentes.
+**Publicação confirmada:** o [workflow 42200965365](https://github.com/leorruas/concursos/actions/runs/42200965365) terminou com **success**, incluindo build, testes, privacidade, busca e confirmação do manifesto e catálogo no Pages ao vivo. Os itens estão editorialmente concluídos. Próxima unidade **CAM-CO-010**, dimensões e escopo da comunicação organizacional, com auditoria das notas compartilhadas. Publicação não equivale a estudo nem retenção.
 
 ## Critérios de publicação e evidência
 

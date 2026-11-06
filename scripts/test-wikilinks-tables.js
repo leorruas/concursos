@@ -30,7 +30,8 @@ check('ignora conteúdo de código cercado por ~~~', tratado.includes('| [[nota|
 check('volta a proteger depois de bloco de código', tratado.includes('| [[nota\\|Link real]] |'));
 const blocoCrases = [String.fromCharCode(96).repeat(3) + 'md', '| [[nota|Exemplo literal]] |', String.fromCharCode(96).repeat(3), '| [[nota|Link real]] |'].join('\n');
 check('ignora conteúdo de código cercado por crases', escapar(blocoCrases).includes('| [[nota|Exemplo literal]] |'));
-check('ordem do renderizador protege antes de marked.parse', navegacao.includes('protegerBlocosMatematicosMarkdown(escaparSeparadoresWikilinksEmTabelas(markdownLimpo))'));
+check('wikilinks são protegidos antes de marked.parse', navegacao.includes('marked.parse(escaparSeparadoresWikilinksEmTabelas(markdownLimpo))'));
+check('leitor não interpreta cifras como fórmulas', !navegacao.includes('renderMathInElement('));
 const hub = fs.readFileSync(path.join(root, '3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas.md'), 'utf8');
 check('tabela do hub corrigida na fonte', escapar(hub) === hub);
 check('os links das unidades 01, 02 e 03 continuam no hub', ['01 - teoria da mudanca', '02 - implementacao de politicas publicas', '03 - monitoramento e avaliacao de politicas publicas'].every(nome => hub.includes(nome)));

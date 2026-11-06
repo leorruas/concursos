@@ -98,6 +98,8 @@ A classificação em **ativo financeiro/permanente** e **passivo financeiro/perm
 - **Passivo financeiro:** obrigações e compromissos exigíveis cujo pagamento independe de autorização orçamentária.
 - **Passivo permanente:** dívidas e demais compromissos que dependem de autorização legislativa para amortização ou resgate.
 
+**Autorização orçamentária × autorização legislativa (art. 105):** a lei usa expressões diferentes, que devem ser preservadas. No **ativo financeiro**, os créditos e valores podem ser **realizados** (por exemplo, recebidos ou convertidos em dinheiro) independentemente de autorização orçamentária; o numerário já integra essa categoria. Isso **não significa que o dinheiro possa ser gasto sem dotação orçamentária**: a realização do ativo e a execução de uma despesa são atos diferentes. No **ativo permanente**, a lei trata da **autorização legislativa** necessária para mobilizar ou alienar os bens, créditos e valores abrangidos por essa categoria. Para os passivos, o art. 105 também diferencia pagamento sem nova autorização orçamentária e amortização ou resgate dependentes de autorização legislativa. O orçamento é aprovado pelo Legislativo, mas **os termos não são intercambiáveis**. Exemplo: a universidade tem R$ 100 mil no banco, classificados como ativo financeiro, mesmo que não tenha dotação para comprar computadores. A compra ainda dependerá de autorização orçamentária adequada; já a alienação de determinado bem público pode depender da autorização legislativa e dos demais requisitos legais aplicáveis.
+
 **Comparação direta: são duas classificações com perguntas diferentes.**
 
 | Conceito | O que pergunta | Exemplo |

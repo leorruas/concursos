@@ -59,6 +59,37 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-ciclo-operacional-normal",
+      "term": "Ciclo operacional normal",
+      "aliases": [
+        "Ciclo operacional da entidade"
+      ],
+      "definition": "É o tempo que uma entidade normalmente leva para transformar recursos e materiais em produtos ou serviços no funcionamento de suas atividades. Esse período ajuda a decidir se certos bens, direitos e dívidas entram como circulantes no Balanço Patrimonial. Se o ciclo não puder ser claramente identificado, presume-se que dure doze meses.",
+      "contrast": "Um item usado ou realizado durante o ciclo normal pode ser circulante mesmo quando esse ciclo dura mais de doze meses. O mesmo vale para obrigações a pagar no ciclo. Por isso, os doze meses não são uma regra absoluta quando o ciclo é identificável. O ciclo operacional também não é o exercício financeiro, que vai de janeiro a dezembro, nem a classificação legal entre financeiro e permanente.",
+      "cebraspeTrap": "A banca pode classificar como não circulante qualquer item realizado após doze meses, ignorando um ciclo operacional normal identificável e mais longo. Também pode confundir esse ciclo com o exercício financeiro.",
+      "example": "Uma unidade pública consome medicamentos ao longo de oito meses de atendimento: esse estoque pode ser circulante. Se outra entidade tem ciclo operacional claramente identificado de dezoito meses, materiais que serão consumidos nesse ciclo também podem ser circulantes mesmo após doze meses. O prédio usado no atendimento, em regra, continua não circulante.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-bf384b8a28aa4753"
+      ],
+      "sources": [
+        {
+          "label": "NBC TSP 11, itens 76 a 81: ciclo operacional e classificação dos ativos e passivos (aplicável ao exercício de 2026)",
+          "url": "https://www.fazenda.mg.gov.br/governo/contadoria_geral/legislacao/tipolegisl/nbctsp11.pdf"
+        },
+        {
+          "label": "MCASP, 11ª edição, Parte V: Balanço Patrimonial, Quadro Principal (STN)",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

@@ -296,7 +296,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-019 · F3**: Planejamento editorial para redes oficiais.
 - [ ] **CAM-CO-020 · F3**: Produção colaborativa e governança de postagens.
 - [ ] **CAM-CO-021 · F3**: Plataformas digitais: públicos, linguagens e formatos 4:5, 3:4, 9:16.
-- [ ] **CAM-CO-022 · F3**: Cards, carrosséis, vídeos, stories e lives: critérios de formato.
+- [x] **CAM-CO-022 · F3**: Cards, carrosséis, vídeos, stories e lives: critérios de formato.
 - [ ] **CAM-CO-023 · F3**: Capa, legenda, marcação, palavra-chave e chamada para ação.
 - [ ] **CAM-CO-024 · F3**: Transparência pública aplicada à comunicação.
 - [ ] **CAM-CO-025 · F3**: Comunicação pública, governamental e político-partidária.
@@ -669,7 +669,7 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 ## Lote 27: seleção e linguagem dos formatos de publicação (CO-022)
 
-- [ ] **CAM-CO-022 · artigo redigido, publicação em validação**: [[3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives|Formatos editoriais: cards, carrosséis, vídeos, stories e lives]] (`art-5c4d7e9b1a8260f3`). Decisão: artigo próprio para distinguir formato de canal, estratégia, proporção e ato de publicar; explicar a estrutura informacional, os casos de uso e limites de **card, carrossel, vídeo gravado, story e live**, a diferença entre transmissão e participação formal, acessibilidade conforme W3C e três itens Cebraspe C/E. Fontes práticas do GDS não são normas da Câmara. Notas compartilhadas 06, 12 e as unidades 65 a 67 preservadas. Artigo vinculado somente a `camara-2026/comunicacao`. **Pendente:** testes e confirmação da publicação ao vivo. Próxima unidade: **CAM-CO-023**, capa, legenda, marcação, palavras-chave e chamada para ação.
+- [ ] **CAM-CO-022 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives|Formatos editoriais: cards, carrosséis, vídeos, stories e lives]] (`art-5c4d7e9b1a8260f3`). Decisão: artigo próprio para distinguir formato de canal, estratégia, proporção e ato de publicar; explicar a estrutura informacional, os casos de uso e limites de **card, carrossel, vídeo gravado, story e live**, a diferença entre transmissão e participação formal, acessibilidade conforme W3C e três itens Cebraspe C/E. Fontes práticas do GDS não são normas da Câmara. Notas compartilhadas 06, 12 e as unidades 65 a 67 preservadas. Artigo vinculado somente a `camara-2026/comunicacao`. **Publicação verificada no workflow 42234914028, concluído com sucesso em 06/11/2026.** Próxima unidade: **CAM-CO-023**, capa, legenda, marcação, palavras-chave e chamada para ação.
 
 ## Lote 28: componentes da publicação (CO-023)
 

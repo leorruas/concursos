@@ -12,7 +12,7 @@ updated: 2026-10-30
 
 ## Núcleo do conceito
 
-Esta nota aprofunda a **unidade 03** de Auditoria Governamental, com base na **Instrução Normativa Conjunta MP/CGU nº 1/2016** (especialmente arts. 2º, 7º, 11, 12, 13, 16, 19 e 20) e no **Modelo das Três Linhas**, difundido pelo Instituto dos Auditores Internos (IIA). A [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|nota 01]] apresenta os serviços de auditoria, e [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle|Modelo das três linhas]] distingue os papéis institucionais. Esta nota examina riscos, controles e suas responsabilidades.
+Esta nota aprofunda a **unidade 03** de Auditoria Governamental, com base na **Instrução Normativa Conjunta nº 1/2016 do Ministério do Planejamento, Orçamento e Gestão (MP) e da Controladoria-Geral da União (CGU)** (especialmente arts. 2º, 7º, 11, 12, 13, 16, 19 e 20) e no **Modelo das Três Linhas**, difundido pelo Instituto dos Auditores Internos (IIA). A [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas|nota 01]] apresenta os serviços de auditoria, e [[3 - Materias/Auditoria Governamental/modelo-das-tres-linhas-e-controle|Modelo das três linhas]] distingue os papéis institucionais. Esta nota examina riscos, controles e suas responsabilidades.
 
 **Governança**: avaliar, direcionar e monitorar a gestão em função dos objetivos organizacionais. **Gestão**: planejar, executar, monitorar atividades e utilizar recursos para alcançar os objetivos, administrando riscos e controles. A existência de supervisão em uma atividade operacional não transforma automaticamente essa atividade em governança.
 
@@ -96,7 +96,7 @@ Os principais mecanismos de distração são **transposição de componentes** (
 
 ## Diagnóstico e próximo aprofundamento
 
-Treino inédito da **unidade 03** em 30/10/2026: **2/3 aprendizagem**, **4/5 para valer**, **6/8 itens válidos**, além de **uma questão anulada e substituída**, não contabilizada. Erros nas fronteiras **resposta a risco × atividade de controle** e **inerente × residual**. Resultado insuficiente para inferir prontidão em prova; revisar essas distinções em situações novas. Próxima unidade: **planejamento da UAIG baseado em riscos**, com universo auditável e critérios de priorização.
+Treino inédito da **unidade 03** em 30/10/2026: **2/3 aprendizagem**, **4/5 para valer**, **6/8 itens válidos**, além de **uma questão anulada e substituída**, não contabilizada. Erros nas fronteiras **resposta a risco × atividade de controle** e **inerente × residual**. Resultado insuficiente para inferir prontidão em prova; revisar essas distinções em situações novas. Próxima unidade: **planejamento da Unidade de Auditoria Interna Governamental (UAIG) baseado em riscos**, com universo auditável e critérios de priorização.
 
 ## Fontes primárias
 

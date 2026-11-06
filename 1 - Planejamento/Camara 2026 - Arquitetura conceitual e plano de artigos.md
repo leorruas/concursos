@@ -3,7 +3,7 @@ title: "Câmara dos Deputados 2026: arquitetura conceitual e plano integral de a
 type: "planejamento"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 concursoId: "camara-2026"
 ---
 
@@ -794,6 +794,10 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 ## Lote 58: segmentação de mercado, B2B, atratividade e decisões (DI-021)
 
 - [ ] **CAM-DI-021 · artigo redigido e integrado, publicação em validação**: [[3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao|Segmentação de mercado: B2B, atratividade e decisões]] (`art-b7e30f4c9a261d85`). Expansão complementar ao **CAM-DI-007 (nota 85)**, sem repetir quatro bases clássicas, STP e ADAMS. Aprofunda **mercados consumidores versus organizacionais, segmentação firmográfica, tecnológica, por situação de compra e necessidade, papéis do centro de compras, recompra direta/modificada/nova tarefa, pesquisa a priori/a posteriori, cluster, RFM, atratividade e capacidade de atender segmentos**. Separa segmentação de oferta e de publicidade, com limites de transposição para comunicação pública, sete casos e quatro itens Cebraspe C/E. Fonte prioritária OpenStax e legislação da Câmara. Catálogo exclusivo da Câmara, hub e índice integrados; nota 85 preservada. **Pendente:** confirmar testes, build e publicação no Pages. Próxima unidade: **CAM-DI-022**, marketing digital: canais, jornadas e integração.
+
+## Lote 59: marketing digital, canais, jornadas e integração (DI-022)
+
+- [ ] **CAM-DI-022 · artigo redigido e integrado, publicação em validação**: [[3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao|Marketing digital: canais, jornadas e integração]] (`art-c2d947e6a15083bf`). Desenvolve **marketing digital, pontos de contato, jornadas, funil, conversão, mídia paga/própria/conquistada, SEO/SEA/SEM, marketing de conteúdo, multicanal/cross-channel/omnicanal, personalização, automação e integração**. Diferencia jornada, fluxo, funil e blueprint, com caso progressivo, três itens inéditos Cebraspe C/E e limites de comunicação pública, LGPD e acessibilidade. Preserva as notas 85, 89, 90, 94, 95, 96 e 99, sem repetir conceitos já desenvolvidos. Catálogo exclusivo da Câmara, hub e índice integrados. **Pendente:** confirmar testes, build e publicação no Pages. Próxima unidade: **CAM-DI-023**, comportamento do consumidor: decisão e influências.
 
 ## Critérios de publicação e evidência
 

@@ -160,6 +160,23 @@ A coincidência de palavras é um dos melhores pontos de discriminação conceit
 
 Exemplo curto: o ente recebe **R$ 50 de depósito de terceiros**, sujeito a devolução. A operação pode aumentar o caixa, mas também cria obrigação de igual valor. É **entrada extraorçamentária**, não receita orçamentária nem VPA por si só. A mera presença de R$ 50 no caixa não constitui ganho de R$ 50 de patrimônio líquido nem justifica afirmar que há superávit financeiro de R$ 50.
 
+### Refinamento: o que o balanço financeiro não resolve sozinho
+
+Considere duas situações independentes, ambas com saldos iniciais nulos, arrecadação de R$ 100, empenho e liquidação de R$ 60 e pagamento de R$ 40. A parcela não paga, R$ 20, foi regularmente inscrita em **restos a pagar processados (RPP)**. A diferença está no objeto adquirido: **equipamento incorporado ao ativo** ou **serviço integralmente consumido**. Sem depreciação, ajustes ou outros fatos:
+
+| Medida (R$) | Equipamento recebido | Serviço consumido |
+| :--- | ---: | ---: |
+| Balanço Orçamentário: arrecadação menos empenho | 40 | 40 |
+| Balanço Financeiro: caixa final (100 − 40 pagos) | 60 | 60 |
+| BF: recebimento extraorçamentário compensatório de RPP | 20 | 20 |
+| BP, 2º quadro: passivo financeiro não pago | 20 | 20 |
+| BP, 4º quadro: superávit financeiro (60 − 20) | 40 | 40 |
+| Patrimônio líquido e resultado patrimonial do caso | 100 | 40 |
+
+O registro compensatório no BF **não altera o caixa**. Os R$ 20 **continuam devidos**, mesmo após a liquidação administrativa; a dívida integra o passivo patrimonial quando o bem ou serviço já foi recebido e os critérios de reconhecimento foram satisfeitos. O pagamento posterior reduz caixa e obrigação. A diferença entre os patrimônios líquidos decorre de um fato: **equipamento reconhecido permanece como ativo**, enquanto **serviço consumido gera VPD**. A igualdade numérica ocasional entre resultado orçamentário e superávit financeiro não é identidade conceitual.
+
+A **fonte/destinação** exibida no BF também serve para acompanhar a vinculação e a aplicação dos recursos. Na passagem ao 4º quadro do BP, diferenças financeiras devem ser apuradas **por fonte**, sem concluir que saldo positivo em uma origem possa ser gasto livremente em outra. Veja [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais#Quadro do superávit ou déficit financeiro|superávit por fonte no artigo 03]].
+
 ## Como a banca pode cobrar
 
 **Treino didático inédito 1 (C/E).** “Ao apurar o resultado orçamentário, a receita arrecadada deve ser confrontada com a despesa paga, pois o art. 35 da Lei nº 4.320/1964 adota o pagamento para vincular despesas ao exercício.” **Errado.** O marco orçamentário é o **empenho**, não o pagamento. A troca de uma coluna do BO por outra altera a resposta.

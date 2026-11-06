@@ -318,6 +318,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos|Inteligência artificial na comunicação: processos e riscos éticos]]
   - [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|Linguagem simples: técnicas, compreensão, testes e limites]]
   - [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|Manual de Linguagem Simples: Patricia Roedel, etapas e avaliação]]
+  - [[3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao|Usabilidade: métodos, técnicas e avaliação]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

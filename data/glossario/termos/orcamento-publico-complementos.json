@@ -620,8 +620,8 @@
       "term": "Transferência especial (emenda parlamentar)",
       "aliases": [],
       "definition": "É uma forma de enviar dinheiro de emenda parlamentar individual diretamente da União a um estado, ao Distrito Federal ou a um município, sem precisar firmar convênio para fazer a transferência. A Constituição, art. 166-A, chama esse mecanismo de transferência especial.",
-      "contrast": "Transferência especial não é sinônimo de dinheiro sem regras: os recursos devem financiar ações de competência do governo beneficiado. Pelo menos 70% dessas transferências devem ser destinados a despesas de capital, como investimentos, e não podem pagar despesas com pessoal e encargos sociais nem encargos da dívida. Já na transferência com finalidade definida, o dinheiro está ligado à programação da emenda e às áreas de competência constitucional da União. Detalhe: O recurso passa a pertencer ao beneficiário quando ocorre a transferência financeira.",
-      "cebraspeTrap": "A ausência de convênio não torna o dinheiro livre para qualquer gasto. A exigência de pelo menos 70% em despesas de capital pertence à transferência especial, não a toda transferência pública.",
+      "contrast": "A transferência dispensa convênio para o repasse, mas o recurso continua sujeito a regras. Pelo menos 70% devem financiar despesas de capital; é proibido pagar pessoal, encargos sociais ou serviço da dívida. A indicação da emenda já define a categoria da despesa, que deve ser respeitada pelo beneficiário. A aplicação deve atender a ações de competência do Executivo local. Na transferência com finalidade definida, o dinheiro permanece ligado à programação da emenda e às áreas de competência da União. O valor passa a pertencer ao beneficiário quando a transferência financeira ocorre.",
+      "cebraspeTrap": "Dispensar convênio não é permitir qualquer gasto. Os 70% mínimos de capital são exigência da transferência especial. A prefeitura não pode mudar livremente a categoria de despesa definida na indicação da emenda.",
       "example": "Uma emenda individual destina R$ 1 milhão por transferência especial a um município. Não é preciso convênio para o repasse, mas ao menos R$ 700 mil devem ser aplicados em despesas de capital, respeitando as demais condições. Usar o valor para pagar a folha de servidores ou encargos da dívida contraria as proibições constitucionais.",
       "subjectIds": [
         "orcamento-publico"
@@ -633,6 +633,10 @@
         "art-715e2d16a93446cb"
       ],
       "sources": [
+        {
+          "label": "Transferegov/MGI: categoria da despesa e mínimo de 70% nas transferências especiais",
+          "url": "https://www.gov.br/transferegov/pt-br/comunicados/comunicados-gerais/2024/comunicado-16-2024-2013-transferencia-especial-observancia-do-percentual-previsto-no-art-166-a-ss-5o-da-cf"
+        },
         {
           "label": "Constituição Federal, arts. 165 a 167 e 166-A",
           "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"

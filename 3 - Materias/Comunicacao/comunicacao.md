@@ -99,6 +99,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|89. Tipos de mídia, veículos e plataformas]]: CAM-DI-011, comparação entre meios, decisões de distribuição e C/E.
 - [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|90. Plano de mídia: alcance, frequência, cobertura e investimento]]: CAM-DI-012, cálculos de GRP, TRP, CPM, CPC, alcance líquido, deduplicação e C/E.
 - [[3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias|91. Cronograma de campanha: sequência e dependências]]: CAM-DI-013, precedências, caminho crítico, Gantt, PERT e itens C/E.
+- [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|92. Produção de campanha: fluxo, aprovação e controle]]: CAM-DI-014, etapas técnicas, controle de versões, checagem, direitos, acessibilidade e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

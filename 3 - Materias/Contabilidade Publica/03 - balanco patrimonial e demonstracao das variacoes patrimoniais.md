@@ -14,7 +14,7 @@ updated: 2026-11-06
 
 O **Balanço Patrimonial (BP)** evidencia a posição de ativos, passivos e patrimônio líquido (PL) **em determinada data**. A **Demonstração das Variações Patrimoniais (DVP)** evidencia variações patrimoniais aumentativas (VPA) e diminutivas (VPD) **durante o período**, apurando o resultado patrimonial. A fronteira inicial é **estoque de saldos (BP) × fluxo de variações patrimoniais (DVP)**.
 
-A Lei nº 4.320/1964 (arts. 104 e 105) e o **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição, Parte V, capítulos 4 e 5** são as referências. O Quadro Principal do BP utiliza classes **1 (ativo)** e **2 (passivo e PL)** do Plano de Contas Aplicado ao Setor Público (PCASP). A DVP utiliza classes **3 (VPD)** e **4 (VPA)**.
+A Lei nº 4.320/1964 (arts. 104 e 105) e o **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição, Parte V, capítulos 4 e 5** são as referências. O Quadro Principal do BP utiliza classes **1 (ativo)** e **2 (passivo e patrimônio líquido)** do Plano de Contas Aplicado ao Setor Público (PCASP). A DVP utiliza classes **3 (VPD)** e **4 (VPA)**. **Classes** são grandes grupos de contas contábeis, não etapas de execução. Para compreender a organização das **oito classes** (1 a 4 patrimoniais, 5 e 6 orçamentárias, 7 e 8 de controle), consulte [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento#Como o PCASP ajuda a separar os registros|a explicação do PCASP no artigo 01]].
 
 | Demonstrativo | Pergunta | Não confundir |
 | :--- | :--- | :--- |

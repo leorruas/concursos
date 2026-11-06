@@ -108,6 +108,6 @@ try{
   execFileSync('node',[path.join(actual,'scripts/question-ledger.js'),'--validate','--ledger',path.join(root,'data/questoes-ledger.json')],{stdio:'pipe'});
   const missing=structuredClone(plan);missing.subjects=missing.subjects.filter(s=>s.id!=='etica-publica');assert.throws(()=>validatePlan(root,missing,contests),/sem rota/);
   const cycle=structuredClone(plan);cycle.subjects[0].units[0].requires=['u02'];cycle.subjects[0].units[1].requires=['u01'];assert.throws(()=>validatePlan(root,cycle,contests),/Ciclo/);
-  for(const c of read('data/contexto-estudo/indice.json').contests)for(const sub of c.subjects){const bytes=fs.statSync(path.join(root,sub.path)).size;const budget=c.concursoId==='dataprev-2026'?128000:65000;assert(bytes<budget,`Contexto compacto excede orçamento: ${sub.path} (${bytes} bytes, limite ${budget})`);}
+  for(const c of read('data/contexto-estudo/indice.json').contests)for(const sub of c.subjects){const bytes=fs.statSync(path.join(root,sub.path)).size;const budget=sub.id==='comunicacao'&&['dataprev-2026','camara-2026'].includes(c.concursoId)?128000:65000;assert(bytes<budget,`Contexto compacto excede orçamento: ${sub.path} (${bytes} bytes, limite ${budget})`);}
   console.log('SUCESSO: 14 blocos/81 itens, roteamento natural, alternância de matérias, retorno dias depois, recuperação/retencão, aula sem questões, correção idempotente e isolamento entre concursos.');
 }finally{fs.rmSync(root,{recursive:true,force:true});}

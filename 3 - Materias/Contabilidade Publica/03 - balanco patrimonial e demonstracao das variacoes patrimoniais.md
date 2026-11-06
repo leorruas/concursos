@@ -5,7 +5,7 @@ title: "Balanço Patrimonial e Demonstração das Variações Patrimoniais"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Balanço Patrimonial e Demonstração das Variações Patrimoniais
@@ -38,6 +38,25 @@ Dentro do BP, **quadro** significa uma seção do relatório, com critérios e f
 | **4º** | Superávit ou Déficit Financeiro | Qual é a diferença entre ativo e passivo financeiros, discriminada por fonte? | Utiliza valores do **2º quadro** |
 
 **Ponto de orientação:** a divisão *circulante/não circulante* pertence ao **1º quadro**. A divisão *financeiro/permanente* pertence ao **2º quadro**. O **3º** não é o “quadro financeiro”: é o de compensação. A expressão genérica “quadro complementar” pode esconder qual deles está sendo examinado; use sempre o nome e a posição.
+
+**Mapa dos quatro quadros:** todos pertencem ao **Balanço Patrimonial (BP)**. A **Demonstração das Variações Patrimoniais (DVP)** é outra demonstração, que apresenta os efeitos sobre o resultado patrimonial durante o período.
+
+```mermaid
+flowchart TB
+    R["Demonstrações patrimoniais"]:::raiz
+    BP["Balanço Patrimonial (BP)<br/>Saldos em uma data"]:::criterio
+    DVP["Demonstração das Variações Patrimoniais (DVP)<br/>VPA e VPD do período"]:::criterio
+    R --> BP
+    R --> DVP
+    BP --> Q1["1. Quadro Principal<br/>Ativo, passivo e patrimônio líquido"]:::opcao
+    BP --> Q2["2. Ativos e Passivos Financeiros e Permanentes<br/>Critério legal e orçamentário"]:::opcao
+    BP --> Q3["3. Contas de Compensação<br/>Atos potenciais a executar"]:::opcao
+    BP --> Q4["4. Superávit ou Déficit Financeiro<br/>Diferença financeira por fonte"]:::opcao
+    Q2 -. "fornece os valores financeiros" .-> Q4
+    classDef raiz fill:#f59e0b,color:#111111,stroke:#b45309,stroke-width:1.5px
+    classDef criterio fill:#fff2d9,color:#3d2207,stroke:#b45309,stroke-width:1.5px
+    classDef opcao fill:#fffbeb,color:#1c1917,stroke:#b68d58,stroke-width:1.5px
+```
 
 ## Estrutura do BP: quatro quadros com critérios diferentes
 

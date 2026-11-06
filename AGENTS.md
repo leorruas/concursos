@@ -50,6 +50,25 @@ A partir de 03/11/2026, aulas e checkpoints de microtreinos seguem `CHAT.md`. Ne
 
 O fluxo cotidiano descrito em `CHAT.md` usa os contextos gerados em `data/contexto-estudo/<concurso>/<materia>.json` e sessões de formato 2. Essa regra prevalece sobre exigências anteriores de reabrir ledger, editar hub, avanços e notas a cada microtreino. O checkpoint único preserva respostas, exposição, fronteiras, dúvidas, destinos editoriais e próximo passo; a consolidação automática projeta os demais arquivos. Hubs e notas organizam conhecimento, sem manter manualmente uma segunda progressão. Para matérias sem notas ou Avancos.md, aceitar fonte normativa e localizador no checkpoint; registrar a lacuna editorial para o fechamento obrigatório da unidade. Conhecimento documentado, exposição, aprendizagem observada, desempenho competitivo e retenção são eixos distintos por concurso. Fechamento didático não comprova retenção; recuperação imediata permite avançar mantendo revisão pendente. O catálogo inicial da CGU reaproveita unidades existentes e mapeia o checklist sem criar aulas ou resultados fictícios. Contrato e auditoria em [[1 - Planejamento/Continuidade de estudo por materia|Continuidade por matéria]].
 
+## Linguagem simples: regra obrigatória para glossário e notas de estudo
+
+**Aplicar antes de publicar ou revisar verbetes, flashcards derivados do glossário e explicações introdutórias dos artigos.** O glossário é a primeira porta de entrada para quem ainda não conhece o conceito: precisa permitir que a pessoa **entenda de fato o significado sem ter de abrir outra nota**. Exatidão técnica permanece obrigatória, mas a linguagem técnica deve ser explicada, e não usada como ponto de partida.
+
+**Ordem editorial dos campos do glossário:**
+- `definition`: começar com **“o que é, em palavras comuns”** e para que serve, preferindo uma ou duas frases diretas. Explicar siglas e termos inevitáveis. Colocar artigo de lei, nomenclatura de quadro, atributo técnico e exceções **depois da definição compreensível**, quando necessários.
+- `example`: apresentar um **caso concreto, pequeno e observável**, que deixe claro o objeto e o que acontece; usar números simples quando ajudam. O exemplo não pode exigir que a pessoa já saiba o conceito.
+- `contrast`: explicar **a diferença para o conceito vizinho** em linguagem comum, mostrando o critério que muda a classificação; só então acrescentar terminologia formal de prova.
+- `cebraspeTrap`: indicar a **confusão real que a banca explora**, com o motivo, evitando inventar proibições ou simplificações falsas.
+- `aliases` e `sources`: preservar termos que as provas e as normas usam e manter fontes verificáveis. Linguagem simples não autoriza alterar o alcance legal.
+
+**Teste de leitura obrigatório:** antes de salvar, ler somente `definition` e `example` como alguém que nunca estudou a matéria. Se aparecerem expressões como “mobilização ou alienação”, “atributo P”, “passivo patrimonial”, “reconhecimento por competência”, “efetivação” ou siglas sem explicação, perguntar se a pessoa entenderia o texto **sem consultar outra definição**. Substituir por explicação comum ou explicar imediatamente. Manter a palavra técnica entre parênteses quando ela for importante para a prova.
+
+**Exemplo de padrão:** “Ativo permanente é um bem ou valor do governo que, pelas regras do orçamento, não pode ser simplesmente transformado em dinheiro disponível para gastar. Os computadores de uma escola pública são um exemplo.” Depois, na diferença e no detalhamento, explicar o critério da Lei nº 4.320/1964 e distinguir de ativo não circulante. Evitar começar por “categoria legal do segundo quadro” ou “cuja mobilização ou alienação depende de autorização legislativa”.
+
+**Flashcards:** os cartões gerados do glossário herdam `definition`, `example` e `cebraspeTrap`; portanto, corrigir **na fonte do glossário**, não somente no texto de um cartão derivado. Cartões precisam ter frente clara, resposta compreensível, um exemplo e uma confusão útil; verificar limites de campos e executar as validações existentes. Não afrouxar o validador para esconder deficiência editorial.
+
+**Alcance:** aplicar a todos os concursos e matérias, especialmente a contabilidade, direito, orçamento e administração, mantendo a linguagem técnica **como segunda camada** necessária para acertar a prova. Na dúvida, primeiro uma explicação simples, depois o nome técnico, a regra e a exceção. A nota completa pode ser mais aprofundada que o verbete, mas seu começo também deve permitir compreender o assunto.
+
 ## Protocolo de aprendizagem conceitual e arquitetura de artigos (Câmara e demais concursos)
 
 **Regra editorial prioritária aprovada em 05/11/2026.** O aluno aprende por construção de conceitos, definição do objeto, estrutura interna e relações progressivas. Evitar panoramas corridos como substituto de teoria, mesmo quando há prazo curto. É preferível dividir um tema em muitos artigos autônomos a criar uma única nota que enumere tópicos sem explicar o funcionamento deles. A granularidade depende da pergunta conceitual e não de limite artificial de extensão.

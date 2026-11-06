@@ -781,10 +781,10 @@
       "aliases": [
         "Receitas correntes"
       ],
-      "definition": "Receita orçamentária recebida de fontes como tributos, contribuições, serviços, exploração de patrimônio e transferências correntes, segundo a classificação legal.",
-      "contrast": "Corrente ou de capital identifica a categoria econômica da receita. Isso, por si só, não determina se ela é primária ou financeira.",
-      "cebraspeTrap": "Definir receita corrente como toda receita de arrecadação mensal ou equipará-la a receita primária.",
-      "example": "O aluguel de um imóvel público é receita corrente patrimonial.",
+      "definition": "É uma categoria de receita do orçamento que reúne entradas como tributos, contribuições, serviços, exploração de bens públicos e transferências destinadas a despesas correntes, segundo a classificação legal. O nome 'corrente' descreve a categoria econômica da receita, e não a frequência com que o dinheiro chega.",
+      "contrast": "Receita corrente se diferencia da receita de capital, que inclui operações de crédito comuns, venda de bens, amortização de empréstimos concedidos e transferências de capital. Receita corrente não é sinônimo de receita primária: por exemplo, juros de aplicações podem ser correntes e receber tratamento financeiro no cálculo fiscal. A classificação também não indica, sozinha, se o valor está livre para uso.",
+      "cebraspeTrap": "Corrente não quer dizer mensal ou recorrente, e receita corrente não é automaticamente receita primária. Vender um imóvel não vira receita corrente só porque o governo costuma negociar bens.",
+      "example": "O aluguel mensal de imóvel público é receita corrente de origem patrimonial. A venda do mesmo imóvel é receita de capital por alienação de bens. A frequência do recebimento não determina a categoria: o importante é a natureza da operação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -816,10 +816,10 @@
       "aliases": [
         "Receitas de capital"
       ],
-      "definition": "Receita orçamentária de operações como empréstimos contratados, venda de bens e recebimento de transferências de capital, segundo a classificação legal.",
-      "contrast": "Receita de capital é uma categoria econômica. A venda de um imóvel, por exemplo, não se confunde com o empréstimo que cria dívida para o ente.",
-      "cebraspeTrap": "Afirmar que toda receita de capital vem de dívida ou representa ingresso extraorçamentário.",
-      "example": "A venda de um veículo público é receita de capital por alienação de bens.",
+      "definition": "É a categoria de receita do orçamento que reúne entradas como empréstimos comuns contratados, venda de bens públicos, devolução do principal de empréstimos concedidos e transferências destinadas a despesas de capital. A categoria depende da natureza da operação.",
+      "contrast": "Uma receita de capital não vem necessariamente de dívida: vender um veículo público é outro exemplo. Operação de crédito comum gera obrigação de devolver; venda de bem troca patrimônio por dinheiro; transferência de capital segue regras de aplicação. Receita de capital também não significa automaticamente receita financeira para o resultado primário: são classificações diferentes.",
+      "cebraspeTrap": "Dizer que toda receita de capital é empréstimo, ou que toda receita de capital fica fora do resultado primário, mistura classificações.",
+      "example": "O município recebe R$ 50 mil ao vender veículo de sua frota e R$ 100 mil ao contratar empréstimo. As duas entradas podem ser receitas de capital, mas a primeira é alienação de bens e a segunda é operação de crédito, com obrigação de pagar de volta.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -849,10 +849,10 @@
       "id": "glo-receita-orcamentaria",
       "term": "Receita orçamentária",
       "aliases": [],
-      "definition": "Entrada de recursos que faz parte da receita do orçamento, inclusive quando não havia previsão inicial na lei, segundo os critérios legais.",
-      "contrast": "Receita orçamentária integra a execução do orçamento. Ingresso extraorçamentário costuma representar valor temporário a devolver ou repassar.",
-      "cebraspeTrap": "Afirmar que uma doação não prevista na Lei Orçamentária Anual necessariamente será extraorçamentária.",
-      "example": "Doação em dinheiro recebida pelo ente pode ser registrada como receita orçamentária não prevista.",
+      "definition": "É o dinheiro recebido que integra a execução da receita do orçamento, conforme as regras legais. Pode vir de impostos, serviços, empréstimos comuns, venda de bens ou outras fontes. Uma entrada pode ser orçamentária mesmo que não estivesse prevista inicialmente na Lei Orçamentária Anual (LOA).",
+      "contrast": "Ingresso extraorçamentário é, em geral, dinheiro temporário de terceiros que o governo terá de devolver ou repassar, como caução. Receita orçamentária não significa sempre ganho patrimonial: um empréstimo comum é receita orçamentária de capital, mas cria dívida equivalente. Previsão é uma estimativa; arrecadação é a entrada efetiva.",
+      "cebraspeTrap": "A falta de previsão inicial não transforma uma receita em extraorçamentária. Também não é verdade que toda receita orçamentária aumenta o patrimônio líquido.",
+      "example": "Uma prefeitura recebe doação em dinheiro que não constava da previsão inicial e, atendidas as regras, registra receita orçamentária. Quando recebe R$ 2 mil de caução de fornecedor para devolver mais tarde, o valor é ingresso extraorçamentário, não receita livre do orçamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -884,10 +884,10 @@
       "aliases": [
         "Receita extraorçamentária"
       ],
-      "definition": "Dinheiro que entra no caixa público sem ser receita orçamentária, em geral porque o ente deverá devolver o valor ou repassá-lo a alguém.",
-      "contrast": "Um depósito de garantia entra no caixa, mas gera obrigação de devolução. Ele não é automaticamente uma receita para financiar gastos do orçamento.",
-      "cebraspeTrap": "Tratar uma caução recebida de contratado como receita disponível para financiar livremente despesas públicas.",
-      "example": "A caução contratual recebida e sujeita à restituição constitui, em regra, ingresso extraorçamentário.",
+      "definition": "É uma entrada de dinheiro no caixa público que não corresponde a receita do orçamento daquele exercício. Em muitos casos, o governo recebe valores de outras pessoas e precisa devolvê-los ou repassá-los, como depósitos de garantia. Há também operações específicas com tratamento extraorçamentário previsto em lei.",
+      "contrast": "Receita orçamentária entra na execução do orçamento mesmo quando não foi prevista inicialmente, se atender aos critérios legais. Uma caução aumenta o dinheiro no banco, mas cria obrigação de devolver. A Antecipação de Receita Orçamentária (ARO) é operação de crédito de curto prazo com tratamento extraorçamentário próprio, diferente do empréstimo comum classificado como receita de capital.",
+      "cebraspeTrap": "Entrar dinheiro no banco não é o mesmo que arrecadar receita orçamentária. O teste é identificar se o valor pertence ao governo como receita ou representa obrigação de devolução ou operação com tratamento especial.",
+      "example": "Uma empresa deposita R$ 5 mil de garantia contratual na conta da prefeitura. O caixa aumenta, mas a prefeitura deverá devolver o valor conforme as condições do contrato. Por isso, não pode tratar esses R$ 5 mil como receita ganha para financiar livremente outras despesas.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -913,10 +913,10 @@
       "id": "glo-receita-originaria",
       "term": "Receita originária",
       "aliases": [],
-      "definition": "Receita que o Estado obtém ao explorar seus bens ou oferecer atividades remuneradas, sem exigir o valor por poder de tributar.",
-      "contrast": "Aluguel de imóvel público é exemplo de receita originária. Impostos são derivados porque decorrem de cobrança obrigatória.",
-      "cebraspeTrap": "Equiparar receita originária a receita de capital ou exigir sua arrecadação mediante poder de império.",
-      "example": "O aluguel cobrado por imóvel do Estado é receita patrimonial corrente e, sob ótica doutrinária, originária.",
+      "definition": "É o dinheiro que o Estado obtém ao explorar seus próprios bens ou oferecer atividades remuneradas, sem cobrar com base no poder de impor tributos. Essa é uma classificação da doutrina, usada para explicar de onde vem a receita.",
+      "contrast": "Aluguel de prédio público e preços cobrados por atividades remuneradas são exemplos de receitas originárias, conforme o caso. Impostos são receitas derivadas porque a cobrança decorre de obrigação imposta por lei. Originária/derivada não é a mesma classificação que corrente/de capital: aluguel é receita corrente patrimonial, mas o nome originária descreve outra característica.",
+      "cebraspeTrap": "Não confundir originária com receita de capital, nem imaginar que todo dinheiro recebido pelo Estado é derivado porque foi pago a um órgão público.",
+      "example": "Uma universidade pública recebe aluguel pelo uso permitido de um espaço que administra. O valor pode ser receita originária porque vem da exploração de bem, e receita corrente patrimonial pela classificação econômica. Já cobrar imposto de um contribuinte é receita derivada.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -938,10 +938,10 @@
       "id": "glo-receita-derivada",
       "term": "Receita derivada",
       "aliases": [],
-      "definition": "Receita exigida pelo Estado com base em seu poder de impor obrigações previstas em lei, como a cobrança de impostos e certas contribuições.",
-      "contrast": "A receita derivada decorre do poder de exigir pagamento. A originária costuma vir da exploração de bens ou atividades do Estado.",
-      "cebraspeTrap": "Classificar aluguel de bem público como receita derivada apenas porque é recebido pela administração.",
-      "example": "A cobrança de imposto por obrigação legal é exemplo de receita derivada na classificação doutrinária.",
+      "definition": "É uma receita que o Estado exige de pessoas ou empresas por força de lei, usando seu poder de estabelecer obrigações, como ocorre na cobrança de impostos. Originária e derivada são categorias doutrinárias sobre a forma de obtenção da receita.",
+      "contrast": "Na receita originária, o Estado recebe pela exploração de bens ou atividades, como o aluguel de imóvel. Na derivada, existe obrigação de pagar estabelecida por lei. Imposto é exemplo clássico de derivada. A classificação não indica, sozinha, se a receita é corrente, de capital, primária ou financeira.",
+      "cebraspeTrap": "Ter o Estado como destinatário não torna a receita derivada: é preciso examinar se há cobrança obrigatória pelo poder de tributar ou remuneração por bem ou atividade.",
+      "example": "Uma pessoa paga R$ 800 de imposto predial porque a lei estabelece essa cobrança. Esse ingresso é derivado. Se a mesma pessoa aluga legalmente um espaço do governo e paga aluguel, a receita pode ser originária.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -965,10 +965,10 @@
       "aliases": [
         "Classificação por natureza da receita"
       ],
-      "definition": "Código que explica de onde veio uma receita do orçamento. Ele a organiza por categoria econômica, origem, espécie e demais detalhamentos oficiais.",
-      "contrast": "Natureza responde de onde veio a receita; fonte/destinação indica as regras para usar o recurso. Uma receita pode ter as duas classificações.",
-      "cebraspeTrap": "Afirmar que o código de natureza, por si só, define onde o recurso poderá ser gasto.",
-      "example": "O imposto recebido é classificado por categoria, origem e espécie da receita.",
+      "definition": "É um código usado no orçamento para identificar que tipo de receita o governo recebeu. O código separa a receita por categoria econômica, origem, espécie e outros detalhes da classificação oficial. Ajuda a organizar a arrecadação e comparar valores semelhantes.",
+      "contrast": "Natureza da receita responde 'de que operação veio esse dinheiro?', como imposto, aluguel ou empréstimo. Fonte/destinação de recursos responde 'quais regras controlam o uso dele?'. Uma receita pode ter uma natureza e uma fonte ao mesmo tempo. O código de natureza não determina, sozinho, se o dinheiro é livre ou vinculado.",
+      "cebraspeTrap": "A banca pode confundir origem do ingresso com a fonte que limita sua aplicação. Saber o tipo de receita não basta para decidir onde ela pode ser gasta.",
+      "example": "A prefeitura arrecada imposto e recebe aluguel de imóvel. Ambos podem ser receitas correntes, mas têm origens diferentes na natureza: impostos de um lado e receita patrimonial de outro. Parte desses valores pode ter regras próprias de destinação que serão mostradas em outra classificação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -994,10 +994,10 @@
       "id": "glo-origem-da-receita-orcamentaria",
       "term": "Origem da receita orçamentária",
       "aliases": [],
-      "definition": "Parte da classificação por natureza que reúne receitas de um mesmo tipo dentro da categoria corrente ou de capital, como tributos ou serviços.",
-      "contrast": "Origem é um nível abaixo da categoria econômica. Espécie é um nível mais detalhado dentro da origem.",
-      "cebraspeTrap": "Chamar de origem uma fonte vinculada à saúde ou confundir origem com a etapa da arrecadação.",
-      "example": "Receita patrimonial é origem dentro da categoria receitas correntes.",
+      "definition": "É um nível da classificação da receita que agrupa entradas de um mesmo tipo dentro das categorias correntes e de capital. Dentro das receitas correntes, por exemplo, existem origens ligadas a impostos, contribuições, patrimônio e serviços.",
+      "contrast": "Categoria econômica é a divisão mais ampla entre receita corrente e de capital. Origem é um grupo dentro dessa categoria. Espécie detalha melhor o tipo de cobrança ou operação. Fonte/destinação é outra classificação, usada para mostrar regras de uso do dinheiro; não é o mesmo que origem.",
+      "cebraspeTrap": "Confundir origem com categoria econômica ou com fonte vinculada leva a classificar receitas por sua finalidade em vez do fato que as gerou.",
+      "example": "O aluguel de um prédio público entra na categoria receitas correntes, origem receita patrimonial. Um imposto entra na categoria receitas correntes, na origem de impostos, taxas e contribuições de melhoria. Os dois valores são correntes, mas não têm a mesma origem.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1023,10 +1023,10 @@
       "id": "glo-especie-da-receita",
       "term": "Espécie da receita",
       "aliases": [],
-      "definition": "Parte da classificação por natureza que detalha o tipo de receita dentro de sua origem, permitindo identificar melhor o que gerou a entrada.",
-      "contrast": "Origem agrupa receitas parecidas; espécie distingue tipos mais específicos. Não confundir essa divisão com fonte/destinação de recursos.",
-      "cebraspeTrap": "Tratar imposto como categoria econômica e receitas correntes como espécie.",
-      "example": "Dentro de impostos, taxas e contribuições de melhoria, a espécie impostos detalha a receita.",
+      "definition": "É um nível da classificação por natureza que mostra mais especificamente qual receita foi obtida dentro de uma origem. Depois de identificar a categoria econômica e a origem, a espécie ajuda a distinguir tipos como imposto, taxa ou contribuição de melhoria.",
+      "contrast": "Categoria econômica separa receitas correntes e de capital; origem reúne grupos próximos; espécie indica tipos mais específicos dentro da origem. Espécie não é a fonte/destinação que controla o uso do dinheiro. Imposto, taxa e contribuição de melhoria podem compartilhar uma origem, mas representam espécies diferentes.",
+      "cebraspeTrap": "A banca pode chamar 'receitas correntes' de espécie ou dizer que imposto, taxa e contribuição de melhoria são a mesma espécie porque estão na mesma origem.",
+      "example": "Na origem de impostos, taxas e contribuições de melhoria, a entrada por imposto de renda é identificada na espécie de impostos; uma taxa cobrada por atividade estatal pertence à espécie de taxas, observados os códigos oficiais.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1459,10 +1459,10 @@
       "aliases": [
         "Receita intra-orçamentária"
       ],
-      "definition": "Receita que decorre de operação entre órgãos ou entidades pertencentes aos orçamentos fiscal e da seguridade social do mesmo ente, identificada para evitar contagem em dobro.",
-      "contrast": "Intraorçamentária indica operação interna aos orçamentos do mesmo ente. Não é o mesmo que transferência recebida de outro ente federativo.",
-      "cebraspeTrap": "Excluir qualquer receita intraorçamentária do orçamento como se fosse entrada extraorçamentária.",
-      "example": "Contribuição paga de um órgão a entidade do mesmo ente, quando ambos estão no orçamento fiscal e da seguridade, recebe identificação intraorçamentária.",
+      "definition": "É a receita de uma operação entre órgãos ou entidades que fazem parte dos orçamentos fiscal e da seguridade social do mesmo governo, conforme a classificação aplicável. Ela é identificada separadamente para que as contas consolidadas não contem a mesma movimentação duas vezes.",
+      "contrast": "Intraorçamentária não significa entrada extraorçamentária. A receita participa do orçamento, mas recebe identificação própria porque a outra parte também integra os orçamentos do mesmo ente. Uma transferência recebida de outro governo não se torna intraorçamentária apenas por ser pública. A identificação evita duplicidade ao consolidar os números.",
+      "cebraspeTrap": "Intraorçamentária não é sinônimo de extraorçamentária nem de qualquer transferência entre governos. O critério envolve órgãos ou entidades dos orçamentos do mesmo ente.",
+      "example": "Um órgão federal paga contribuição a uma entidade federal que também integra os orçamentos fiscal e da seguridade da União. Conforme a operação, a entidade recebedora registra receita intraorçamentária. Já recurso transferido por um estado a um município envolve entes diferentes e não é intraorçamentário só por isso.",
       "subjectIds": [
         "orcamento-publico"
       ],

@@ -14,7 +14,7 @@ updated: 2026-11-05
 
 A **Demonstração dos Fluxos de Caixa (DFC)** apresenta **entradas e saídas efetivas de caixa e equivalentes**, separadas em atividades **operacionais, de investimento e de financiamento**. Diferencia-se do **Balanço Financeiro (BF)**, que inclui mecanismos orçamentários e lançamentos compensatórios, e da **Demonstração das Variações Patrimoniais (DVP)**, que reconhece variações pelo regime patrimonial, inclusive fatos sem pagamento.
 
-**Caixa:** numerário e depósitos disponíveis. **Equivalentes de caixa:** aplicações de curto prazo, alta liquidez, prontamente conversíveis em quantia conhecida e com risco insignificante de mudança de valor. Aplicação de prazo curto **não se torna equivalente apenas pelo vencimento**: liquidez, conversibilidade e risco são requisitos. O MCASP cita como exemplo habitual vencimento de até três meses **a partir da aquisição**, junto dos demais critérios.
+**Caixa:** numerário e depósitos disponíveis. **Equivalentes de caixa:** aplicações de curto prazo, alta liquidez, prontamente conversíveis em quantia conhecida e com risco insignificante de mudança de valor. Aplicação de prazo curto **não se torna equivalente apenas pelo vencimento**: liquidez, conversibilidade e risco são requisitos. O Manual de Contabilidade Aplicada ao Setor Público (MCASP) cita como exemplo habitual vencimento de até três meses **a partir da aquisição**, junto dos demais critérios.
 
 ## Antes das categorias: o que é fluxo de caixa?
 
@@ -57,10 +57,10 @@ A DFC apresenta exclusivamente **fluxos de caixa efetivos**. Inscrever R$ 20 de 
 | Evento | BF | DFC |
 | :--- | :--- | :--- |
 | Tributo R$ 100 arrecadado | Receita orçamentária realizada | Ingresso operacional de R$ 100 |
-| Compra de equipamento R$ 60, pagamento R$ 40 | Despesa orçamentária R$ 60 e inscrição compensatória de RPP R$ 20 | **Saída de investimento R$ 40**, não R$ 60 |
+| Compra de equipamento R$ 60, pagamento R$ 40 | Despesa orçamentária R$ 60 e inscrição compensatória de restos a pagar processados (RPP) de R$ 20 | **Saída de investimento R$ 40**, não R$ 60 |
 | Inscrição de RPP R$ 20 | Recebimento extraorçamentário compensatório | Nenhum fluxo apenas pela inscrição |
 | Depreciação R$ 6 | Não é pagamento | Nenhum fluxo pelo reconhecimento |
-| Depósito restituível de terceiro efetivamente recebido | Ingresso extraorçamentário segundo regime da operação | Pode gerar ingresso real, sem VPA automática |
+| Depósito restituível de terceiro efetivamente recebido | Ingresso extraorçamentário segundo regime da operação | Pode gerar ingresso real, sem Variação Patrimonial Aumentativa (VPA) automática |
 
 **O saldo final de caixa no BF e na DFC pode coincidir**, embora a demonstração de entradas/saídas e os critérios de apresentação sejam diferentes.
 
@@ -89,7 +89,7 @@ Comprovar **pagamento de R$ 40** por extrato não comprova isoladamente **entreg
 
 ## Exemplo comentado: um exercício, resultados diferentes
 
-A entidade inicia 2026 com caixa, ativo, passivo e PL iguais a zero. **Reconhece e arrecada tributos de R$ 100**, empenha e liquida equipamento recebido de **R$ 60**, paga **R$ 40**, inscreve **R$ 20 em RPP** e reconhece **depreciação de R$ 6**, sem outros eventos. A inclusão da depreciação é uma **extensão declarada** do exemplo dos artigos 01 e 02.
+A entidade inicia 2026 com caixa, ativo, passivo e patrimônio líquido (PL) iguais a zero. **Reconhece e arrecada tributos de R$ 100**, empenha e liquida equipamento recebido de **R$ 60**, paga **R$ 40**, inscreve **R$ 20 em RPP** e reconhece **depreciação de R$ 6**, sem outros eventos. A inclusão da depreciação é uma **extensão declarada** do exemplo dos artigos 01 e 02.
 
 **DFC simplificada (método direto):**
 

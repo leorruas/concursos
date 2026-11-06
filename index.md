@@ -336,6 +336,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|Produção de campanha: fluxo, aprovação e controle]]
   - [[3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio|Redação publicitária: textos, formatos e adequação ao meio]]
   - [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|Monitoramento, dados e avaliação de campanhas]]
+  - [[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|Marketing: troca, valor, necessidades e públicos]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

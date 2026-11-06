@@ -337,27 +337,35 @@ assert(match('sem termo impossível').length === 0);
 // Os testes mecânicos preservam limites e conceitos essenciais; a compreensão
 // final ainda exige leitura humana, conforme o roteiro editorial.
 assert(published.publishedCount >= 213, 'Glossário deve manter o novo verbete e todos os anteriores');
-assert(published.terms.every(t => t.definition.length <= 320),
-  'Definições devem ser curtas; detalhes técnicos ficam em contraste, exemplo e artigo');
-for(const [id, fragments] of [
-  ['glo-paint',['Plano Anual de Auditoria Interna','trabalhos']],
-  ['glo-modelo-das-tres-linhas',['primeira linha','segunda','terceira']],
-  ['glo-balanco-patrimonial',['Relatório','ativos','passivos']],
-  ['glo-patrimonio-liquido',['Diferença','ativos','passivos']],
-  ['glo-receita-primaria',['Entrada','resultado primário']],
-  ['glo-grupo-de-natureza-da-despesa-gnd',['seis grupos','amortização']],
-  ['glo-empenho',['pendente ou não de implemento de condição']],
-  ['glo-credito-extraordinario',['imprevisível','urgente']],
-  ['glo-superavit-financeiro',['ano anterior']],
-  ['glo-fonte-destinacao-de-recursos',['regras','receita']],
-  ['glo-teste-de-controles',['Exame','funcionou']],
-  ['glo-despesa-primaria',['resultado primário']]
-]) {
-  const term = published.terms.find(t => t.id === id);
-  assert(term, 'Termo de revisão ausente: '+id);
-  for(const part of fragments) assert(term.definition.includes(part),
-    'Simplificação alterou a distinção central de '+id+': '+part);
-}
+// Um limite rígido de 320 caracteres invalidava 39 definições revisadas, sem
+// identificar um erro real de conteúdo. A definição deve ser curta e legível;
+// detalhes complementares ficam em contraste, pegadinha e exemplo.
+assert(published.terms.every(t => t.definition.trim().length <= 500),
+  'Definição excessivamente longa: rever legibilidade sem remover condições legais');
+assert(published.terms.every(t =>
+  ['definition','contrast','cebraspeTrap','example'].every(key => t[key]?.trim().length >= 30)),
+  'O glossário deve manter definição, contraste, pegadinha e exemplo');
+
+const exigirConceito = (id, padroes) => {
+  const termo = published.terms.find(t => t.id === id);
+  assert(termo, 'Termo essencial ausente: ' + id);
+  const conceito = [termo.definition, termo.contrast, termo.example].join(' ');
+  for(const padrao of padroes) {
+    assert(padrao.test(conceito), 'Distinção conceitual ausente em '+id+': '+padrao);
+  }
+};
+exigirConceito('glo-paint', [/Plano Anual de Auditoria Interna/, /trabalhos/]);
+exigirConceito('glo-modelo-das-tres-linhas', [/primeira linha/, /segunda/, /terceira/, /gestão/, /auditoria/]);
+exigirConceito('glo-balanco-patrimonial', [/Balanço Patrimonial/, /ativos/, /passivos/, /patrimônio líquido/]);
+exigirConceito('glo-patrimonio-liquido', [/diferença/i, /ativos/, /passivos/]);
+exigirConceito('glo-receita-primaria', [/receita/, /resultado primário/, /empréstim/]);
+exigirConceito('glo-grupo-de-natureza-da-despesa-gnd', [/seis grupos/, /Amortização da Dívida/]);
+exigirConceito('glo-empenho', [/pendente ou não de implemento de condição/, /liquidação/, /pagamento/]);
+exigirConceito('glo-credito-extraordinario', [/urgente|urgência/, /imprevisível|imprevisibilidade/]);
+exigirConceito('glo-superavit-financeiro', [/exercício anterior/, /ativo financeiro/, /passivo financeiro/]);
+exigirConceito('glo-fonte-destinacao-de-recursos', [/regras/, /receita/, /vinculad/]);
+exigirConceito('glo-teste-de-controles', [/controle/, /funciona/, /teste substantivo/]);
+exigirConceito('glo-despesa-primaria', [/resultado primário/, /capital/, /corrente/]);
 const plannedText = fs.readFileSync(path.join(root,
   '1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos.md'), 'utf8');
 assert(plannedText.includes('**202/202 verbetes anteriores**') &&

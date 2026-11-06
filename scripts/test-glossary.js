@@ -179,7 +179,7 @@ assert(pcasp && pcasp.status === 'planned', 'Backlog deve preservar a proposta o
 const pcaspPublished = published.terms.find(t => t.id === pcasp.id);
 assert(pcaspPublished?.status === 'reviewed', 'PCASP deve ser publicado somente após revisão');
 assert(pcaspPublished.aliases.includes('PCASP'), 'Sigla PCASP deve ser pesquisável');
-assert(/três naturezas/.test(pcaspPublished.contrast) && /classes 1 a 4/.test(pcaspPublished.contrast) &&
+assert(/três naturezas/.test(pcaspPublished.contrast) && /classes 1 e 2/.test(pcaspPublished.contrast) && /classes 3 e 4/.test(pcaspPublished.contrast) &&
   /classes 5 e 6/.test(pcaspPublished.contrast) && /7 e 8/.test(pcaspPublished.contrast),
   'PCASP deve explicar as três naturezas e as oito classes');
 assert(/quarta natureza/.test(pcaspPublished.contrast) && /classes 5 e 6/.test(pcaspPublished.cebraspeTrap),

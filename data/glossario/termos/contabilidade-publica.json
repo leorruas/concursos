@@ -323,10 +323,10 @@
         "Ajuste patrimonial",
         "Ajuste registrado diretamente no PL"
       ],
-      "definition": "Registro contábil que, quando a norma aplicável determina, altera diretamente uma conta do patrimônio líquido (PL), sem integrar as variações patrimoniais aumentativas (VPA) ou diminutivas (VPD) do exercício atual. A expressão 'ajuste patrimonial' é genérica e não identifica, sozinha, uma categoria contábil específica.",
-      "contrast": "O resultado patrimonial do período é VPA menos VPD. A variação total do PL também pode incluir ajustes registrados diretamente nele e outros movimentos específicos. Por isso, crescimento do PL não é necessariamente igual ao resultado patrimonial.",
-      "cebraspeTrap": "Somar ao resultado patrimonial um ajuste informado como registrado diretamente no PL. A natureza do ajuste e a norma aplicável devem ser examinadas; nem toda alteração do PL passa pela DVP.",
-      "example": "PL inicial de R$ 40 mil, VPA de R$ 12 mil, VPD de R$ 5 mil e ajuste positivo de R$ 8 mil lançado diretamente no PL: o resultado patrimonial é R$ 7 mil (12 − 5), mas o PL final é R$ 55 mil (40 + 7 + 8). Uma correção de erro de período anterior, quando a norma exige ajuste direto, é exemplo possível.",
+      "definition": "É um registro contábil que aumenta ou diminui diretamente o patrimônio líquido do governo quando a norma aplicável manda fazer isso, sem passar pelo resultado patrimonial do ano. Patrimônio líquido é a diferença entre o que o governo tem e o que deve.",
+      "contrast": "A Demonstração das Variações Patrimoniais (DVP) mostra variações patrimoniais aumentativas (VPA) e diminutivas (VPD) que formam o resultado do período. Um ajuste lançado diretamente no patrimônio líquido não entra automaticamente nesse resultado. Correções de erros de períodos anteriores podem exigir esse tratamento, dependendo da norma. Por isso, a mudança total do patrimônio líquido pode ser diferente do resultado mostrado na DVP.",
+      "cebraspeTrap": "A banca pode somar um ajuste direto no patrimônio líquido ao resultado patrimonial. Primeiro é preciso ver onde a norma manda registrar o ajuste.",
+      "example": "O governo começa com patrimônio líquido de R$ 40 mil. Durante o ano reconhece R$ 12 mil de aumentos patrimoniais e R$ 5 mil de diminuições: o resultado é R$ 7 mil. Se também registrar ajuste direto positivo de R$ 8 mil, o patrimônio líquido termina em R$ 55 mil. O resultado do período continua sendo R$ 7 mil, não R$ 15 mil.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -502,10 +502,10 @@
       "id": "glo-conciliacao-contabil",
       "term": "Conciliação contábil",
       "aliases": [],
-      "definition": "Conferência entre registros de fontes diferentes para descobrir se os valores e movimentos combinam e explicar diferenças encontradas.",
-      "contrast": "Conciliação exige verificar cada movimento, sua data e a documentação. Dois totais iguais podem esconder lançamentos errados.",
-      "cebraspeTrap": "Tratar simples igualdade de totais como prova de integridade sem examinar itens e períodos.",
-      "example": "O extrato bancário mostra um pagamento de R$ 500 no dia 31, mas o sistema o registrou em 1º de janeiro: a conciliação identifica a diferença de data.",
+      "definition": "É a conferência feita para verificar se registros de fontes diferentes mostram as mesmas operações e valores. Quando aparecem diferenças, a equipe investiga a origem e corrige o que for necessário. É comum comparar lançamentos contábeis com extratos bancários e outros documentos.",
+      "contrast": "Conciliar não significa apenas comparar os totais finais. É preciso examinar valores, datas, documentos e operações individuais. Duas listas podem ter o mesmo total e, ainda assim, conter pagamentos lançados na data errada ou valores trocados. A conciliação ajuda a encontrar diferenças; não substitui a análise dos fatos e documentos.",
+      "cebraspeTrap": "Totais iguais não provam registros corretos. Uma conciliação precisa verificar os movimentos que formaram esses totais.",
+      "example": "O extrato bancário mostra pagamento de R$ 500 em 31 de dezembro, mas a contabilidade registrou em 1º de janeiro. Mesmo que o saldo total pareça certo depois, a conciliação identifica a diferença de data, importante para saber a qual período o movimento pertence.",
       "subjectIds": [
         "contabilidade-publica"
       ],

@@ -33,7 +33,7 @@ jobs:
       - name: Instalar navegador de teste
         run: |
           npm install --no-save --ignore-scripts --package-lock=false playwright@1.56.1
-          npx playwright install --with-deps chromium
+          npx playwright install chromium
       - name: Testar interface e gerar evidências em duas larguras
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 --directory _site >/tmp/glossario-http.log 2>&1 &

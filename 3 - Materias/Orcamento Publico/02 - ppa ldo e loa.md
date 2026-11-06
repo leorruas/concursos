@@ -24,7 +24,7 @@ A Constituição Federal, art. 165, estabelece três leis de iniciativa do **Pod
 
 Imagine uma política de expansão da rede de atendimento à saúde. O **PPA** estrutura objetivos e metas de médio prazo; a **LDO** define prioridades e diretrizes para a preparação do orçamento de cada exercício; a **LOA** estima receitas e fixa despesas para ações naquele ano. A execução e o controle são passos posteriores e transversais. A relação serve para lembrar os instrumentos, mas o conteúdo jurídico de cada um vai além desse resumo.
 
-O artigo introdutório [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|Orçamento público e ciclo orçamentário]] distingue autorização, execução, pagamentos e resultados. Esta nota aprofunda o recorte **P3.2.2** do programa local da CGU, com conhecimento reutilizável para outros editais.
+O artigo introdutório [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|Orçamento público e ciclo orçamentário]] distingue autorização, execução, pagamentos e resultados. Esta nota aprofunda o recorte **P3.2.2** do programa local da Controladoria-Geral da União (CGU), com conhecimento reutilizável para outros editais.
 
 ## Três leis, três perguntas e uma mesma política
 
@@ -33,7 +33,7 @@ Imagine que o governo pretende construir escolas ao longo de quatro anos. Antes 
 | Instrumento | Pergunta que responde | Estrutura decisiva |
 | :--- | :--- | :--- |
 | **Plano Plurianual (PPA)** | Quais diretrizes, objetivos e metas orientarão a atuação em médio prazo? | Planejamento regionalizado; despesas de capital e delas decorrentes; programas continuados |
-| **Lei de Diretrizes Orçamentárias (LDO)** | Quais prioridades e regras fiscais orientarão o orçamento do ano seguinte? | Metas e prioridades; política fiscal; anexos e critérios previstos na LRF |
+| **Lei de Diretrizes Orçamentárias (LDO)** | Quais prioridades e regras fiscais orientarão o orçamento do ano seguinte? | Metas e prioridades; política fiscal; anexos e critérios previstos na Lei de Responsabilidade Fiscal (LRF) |
 | **Lei Orçamentária Anual (LOA)** | Quais receitas serão previstas e quais despesas serão autorizadas para este exercício? | Previsão de receitas, fixação de despesas e dotações |
 
 **Caso que evolui:** no PPA, o governo define o objetivo de ampliar a rede escolar em regiões com demanda. Na LDO, estabelece prioridades e orientações fiscais para o próximo exercício. Na LOA, uma ação recebe dotação de R$ 2 milhões. Se a obra ainda não começou, os três documentos podem estar corretos: **planejar, orientar e autorizar são atos diferentes de executar**. Se a obra foi prevista no PPA, mas não recebeu dotação na LOA, a previsão de médio prazo **não cria por si só autorização de despesa naquele exercício**.

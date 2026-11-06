@@ -267,8 +267,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-TC-019 · F3**: Espiral do silêncio: pressupostos e condições.
 - [x] **CAM-TC-020 · F3**: Midiatização: conceito e mudança das práticas sociais.
 - [x] **CAM-TC-021 · F3**: Plataformização: infraestrutura, regras e mediação.
-- [ ] **CAM-TC-022 · F3**: Desinformação, informação incorreta e informação maliciosa.
-- [ ] **CAM-TC-023 · F3**: Integridade da informação: mecanismos e limites.
+- [x] **CAM-TC-022 · F3**: Desinformação, informação incorreta e informação maliciosa.
+- [x] **CAM-TC-023 · F3**: Integridade da informação: mecanismos e limites.
 - [ ] **CAM-TC-024 · F3**: Comparação de teorias: pergunta, unidade de análise e efeito.
 
 ### CO: Comunicação Organizacional, Pública e Digital (32 candidatos)
@@ -501,12 +501,12 @@ Próximo núcleo: **CAM-TC-022, desinformação; CAM-TC-023, integridade da info
 
 ## Lote 9: reuso de desinformação e integridade da informação (TC-022 e TC-023)
 
-- [ ] **CAM-TC-022 · reuso e expansão; publicação por validar**: [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|Fact-checking e desinformação]] (`art-f1483b1fa6d042c2`). O artigo existente já contém três tipos de desordem informacional, sete formas, agente/mensagem/intérprete, fases e checagem. **Preservou-se integralmente o conteúdo anterior**, inclusive o recorte FGV, acrescentando casos progressivos e três itens C/E para a Câmara. **Decisão editorial: refinar existente**, sem criar segunda nota nem outro `articleId`.
-- [ ] **CAM-TC-023 · novo artigo; publicação por validar**: [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|Integridade da informação: ecossistema, direitos e governança]] (`art-704e9cd41f60a2b8`). Diferencia a integridade do ecossistema da checagem de afirmações, aplica três dimensões da OCDE (2024), cinco princípios da ONU (2024) e os princípios distintos da UNESCO (2023), com limites, casos e C/E. **Decisão editorial: novo**, por responder a pergunta própria.
+- [x] **CAM-TC-022 · reuso e expansão; publicação verificada**: [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|Fact-checking e desinformação]] (`art-f1483b1fa6d042c2`). O artigo existente já contém três tipos de desordem informacional, sete formas, agente/mensagem/intérprete, fases e checagem. **Preservou-se integralmente o conteúdo anterior**, inclusive o recorte FGV, acrescentando casos progressivos e três itens C/E para a Câmara. **Decisão editorial: refinar existente**, sem criar segunda nota nem outro `articleId`.
+- [x] **CAM-TC-023 · novo artigo e publicação verificados**: [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|Integridade da informação: ecossistema, direitos e governança]] (`art-704e9cd41f60a2b8`). Diferencia a integridade do ecossistema da checagem de afirmações, aplica três dimensões da OCDE (2024), cinco princípios da ONU (2024) e os princípios distintos da UNESCO (2023), com limites, casos e C/E. **Decisão editorial: novo**, por responder a pergunta própria.
 
 **Proteção multi-edital:** a nota reutilizada preserva título, caminho, identificador, aliases e conteúdo prévio. O catálogo da Câmara já incluía seu ID; apenas o novo artigo de integridade é acrescentado. Catálogos, vínculos e notas da CGU e da Dataprev não são alterados. Não registrar produção editorial como estudo ou retenção.
 
-**Validação pendente:** conferência final de build, busca, privacidade, workflow de publicação e manifesto do GitHub Pages ao vivo. Só marcar os itens concluídos depois disso.
+**Publicação confirmada:** os testes de identidade, catálogo, busca, privacidade e build passaram, e o Pages confirmou o manifesto ao vivo no [workflow 42139642716](https://github.com/leorruas/concursos/actions/runs/42139642716), concluído com sucesso. O status é editorial e técnico, não de estudo ou retenção.
 
 Próxima tarefa: **CAM-TC-024, comparação de teorias por pergunta e unidade de análise**.
 

@@ -124,6 +124,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos|114. Produção digital: responsividade, acessibilidade e formatos]]: CAM-DI-036, WCAG, reflow, HTML semântico, mídia responsiva, formatos e C/E.
 - [[3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais|115. Produção para rádio, televisão e redes sociais]]: CAM-DI-037, roteiro, captação, áudio, edição, adaptação de formatos e C/E.
 - [[3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao|116. Projeto gráfico: conceito, sistema e execução]]: CAM-DI-038, brief, conceito, grid, estilos, navegação editorial, prototipação, saída e C/E.
+- [[3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao|117. Projeto audiovisual: planejamento, execução e publicação]]: CAM-DI-039, etapas, produção, gestão de riscos, versões, aceite e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

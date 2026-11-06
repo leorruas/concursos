@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "auditoria-governamental",
+  "entries": [
+    {
+      "id": "glo-auditoria-interna-audin",
+      "term": "Auditoria Interna (AUDIN)",
+      "aliases": ["AUDIN", "Audin", "Auditoria Interna Singular"],
+      "definition": "Função independente que presta serviços de avaliação e consultoria para melhorar governança, riscos e controles. No Poder Executivo Federal, Audin também pode designar as unidades de auditoria interna singulares de órgãos e entidades.",
+      "contrast": "A AUDIN não administra os controles nem substitui a gestão. A Unidade de Auditoria Interna Governamental (UAIG) é a unidade que operacionaliza a atividade no órgão ou entidade e pode assumir diferentes configurações institucionais.",
+      "cebraspeTrap": "Afirmar que a auditoria interna executa controles da gestão ou que toda Audin é órgão central do Sistema de Controle Interno.",
+      "example": "A Audin de uma autarquia avalia os controles de concessão de benefícios e recomenda melhorias; os gestores decidem e implantam as medidas.",
+      "articleIds": ["art-10bfa7268f8340bf", "art-47d19972e3bc4d29"],
+      "subjectIds": ["auditoria-governamental"],
+      "contestIds": ["cgu-2026"],
+      "sources": [{"label":"CGU: Normas de Auditoria Interna","url":"https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna"}],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-unidade-de-auditoria-interna-governamental-uaig",
+      "term": "Unidade de Auditoria Interna Governamental (UAIG)",
+      "aliases": ["UAIG", "Unidade de Auditoria Interna Governamental"],
+      "definition": "Unidade responsável por prestar, com independência e objetividade, serviços de avaliação e consultoria para adicionar valor e melhorar as operações de um órgão ou entidade pública federal.",
+      "contrast": "A UAIG presta serviços de auditoria e integra a terceira linha. A unidade auditada é o órgão, processo ou objeto sobre o qual o trabalho incide; ela não se confunde com quem realiza o exame.",
+      "cebraspeTrap": "Trocar a UAIG pela unidade auditada ou afirmar que ela executa diretamente os controles avaliados.",
+      "example": "A UAIG examina os controles de compras de uma fundação; a área de compras continua responsável por operar esses controles.",
+      "articleIds": ["art-10bfa7268f8340bf", "art-47d19972e3bc4d29"],
+      "subjectIds": ["auditoria-governamental"],
+      "contestIds": ["cgu-2026"],
+      "sources": [{"label":"CGU: Manual de Orientações Técnicas da Atividade de Auditoria Interna Governamental","url":"https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"}],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-manual-de-orientacoes-tecnicas-mot",
+      "term": "Manual de Orientações Técnicas (MOT)",
+      "aliases": ["MOT", "Manual de Orientações Técnicas"],
+      "definition": "Manual da Controladoria-Geral da União que orienta tecnicamente a operacionalização da atividade de auditoria interna governamental no Poder Executivo Federal.",
+      "contrast": "O MOT orienta a aplicação prática do Referencial Técnico da auditoria interna governamental. Não substitui as normas que estabelecem competências, deveres e requisitos da atividade.",
+      "cebraspeTrap": "Tratar o MOT como norma que transfere para a auditoria a responsabilidade gerencial pelos controles ou como substituto integral do Referencial Técnico.",
+      "example": "Ao planejar um trabalho, a equipe consulta o MOT para organizar entendimento da unidade, riscos, procedimentos e comunicação dos resultados.",
+      "articleIds": ["art-47d19972e3bc4d29"],
+      "subjectIds": ["auditoria-governamental"],
+      "contestIds": ["cgu-2026"],
+      "sources": [{"label":"CGU: Normas de Auditoria Interna","url":"https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna"}],
+      "status": "reviewed"
+    }
+  ]
+}

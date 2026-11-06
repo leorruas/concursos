@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "orcamento-publico",
+  "entries": [
+    {
+      "id": "glo-lei-de-responsabilidade-fiscal-lrf",
+      "term": "Lei de Responsabilidade Fiscal (LRF)",
+      "aliases": ["LRF", "Lei de Responsabilidade Fiscal", "Lei Complementar nº 101/2000"],
+      "definition": "Lei Complementar nº 101/2000 que estabelece normas de finanças públicas voltadas à responsabilidade na gestão fiscal, com regras de planejamento, transparência, controle e limites fiscais.",
+      "contrast": "A LRF não substitui a Constituição nem a Lei nº 4.320/1964. Ela fixa regras fiscais complementares, como metas, relatórios, limites de pessoal e condições para certas operações e despesas.",
+      "cebraspeTrap": "Reduzir a LRF a uma lei sobre despesa com pessoal ou afirmar que ela torna dispensável a LDO e a LOA.",
+      "example": "A LDO traz anexos fiscais exigidos pela LRF, e o ente divulga RREO e RGF nos prazos legais para permitir acompanhamento de metas e limites.",
+      "articleIds": ["art-91ab320cdfb64b8a"],
+      "subjectIds": ["orcamento-publico"],
+      "contestIds": ["cgu-2026"],
+      "sources": [{"label":"Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), texto atualizado","url":"https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"}],
+      "status": "reviewed"
+    }
+  ]
+}

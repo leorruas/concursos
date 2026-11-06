@@ -3070,6 +3070,60 @@
       "status": "planned"
     },
     {
+      "id": "glo-auditoria-interna-audin",
+      "term": "Auditoria Interna (AUDIN)",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-unidade-de-auditoria-interna-governamental-uaig",
+      "term": "Unidade de Auditoria Interna Governamental (UAIG)",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-manual-de-orientacoes-tecnicas-mot",
+      "term": "Manual de Orientações Técnicas (MOT)",
+      "subjectId": "auditoria-governamental",
+      "examBlock": "P2/P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Auditoria Governamental/02 - ciclo de auditoria.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-contabilidade-aplicada-ao-setor-publico-casp",
+      "term": "Contabilidade Aplicada ao Setor Público (CASP)",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-manual-de-contabilidade-aplicada-ao-setor-publico-mcasp",
+      "term": "Manual de Contabilidade Aplicada ao Setor Público (MCASP)",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-lei-de-responsabilidade-fiscal-lrf",
+      "term": "Lei de Responsabilidade Fiscal (LRF)",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "status": "planned"
+    },
+    {
       "id": "glo-recebimento-extraorcamentario-compensatorio",
       "term": "Recebimento extraorçamentário compensatório",
       "subjectId": "contabilidade-publica",

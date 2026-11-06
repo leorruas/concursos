@@ -208,7 +208,13 @@ const siglasEsperadas = [
   ['SIC', 'glo-sistema-de-informacao-de-custos-sic'],
   ['UO', 'glo-unidade-orcamentaria'],
   ['NE', 'glo-nota-de-empenho'],
-  ['OP', 'glo-ordem-de-pagamento']
+  ['OP', 'glo-ordem-de-pagamento'],
+  ['AUDIN', 'glo-auditoria-interna-audin'],
+  ['UAIG', 'glo-unidade-de-auditoria-interna-governamental-uaig'],
+  ['MOT', 'glo-manual-de-orientacoes-tecnicas-mot'],
+  ['CASP', 'glo-contabilidade-aplicada-ao-setor-publico-casp'],
+  ['MCASP', 'glo-manual-de-contabilidade-aplicada-ao-setor-publico-mcasp'],
+  ['LRF', 'glo-lei-de-responsabilidade-fiscal-lrf']
 ];
 for (const [sigla, id] of siglasEsperadas) {
   const entry = published.terms.find(term => term.id === id);

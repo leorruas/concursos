@@ -281,7 +281,7 @@ assert(match('sem termo impossível').length === 0);
 // Revisão editorial de linguagem: definições curtas, com contraste e exemplo próprio.
 // Os testes mecânicos preservam limites e conceitos essenciais; a compreensão
 // final ainda exige leitura humana, conforme o roteiro editorial.
-assert.equal(published.publishedCount, 212);
+assert(published.publishedCount >= 213, 'Glossário deve manter o novo verbete e todos os anteriores');
 assert(published.terms.every(t => t.definition.length <= 320),
   'Definições devem ser curtas; detalhes técnicos ficam em contraste, exemplo e artigo');
 for(const [id, fragments] of [
@@ -309,4 +309,4 @@ assert(plannedText.includes('**202/202 verbetes anteriores**') &&
        plannedText.includes('**166 definições ou contrastes**') &&
        plannedText.includes('Última etapa do roadmap: PCASP'),
        'Plano deve registrar revisão de todas as matérias e a etapa final do PCASP');
-console.log('SUCESSO: 212 verbetes, distinção financeiro/patrimonial, PCASP, links e glossário testados.');
+console.log('SUCESSO: '+published.publishedCount+' verbetes, distinção financeiro/patrimonial, PCASP, links e glossário testados.');

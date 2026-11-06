@@ -291,7 +291,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-014 · F2**: Mapeamento e segmentação de públicos institucionais.
 - [x] **CAM-CO-015 · F2**: Planejamento estratégico de comunicação e diagnóstico.
 - [x] **CAM-CO-016 · F3**: Objetivos, indicadores e avaliação de comunicação.
-- [ ] **CAM-CO-017 · F3**: Plano de comunicação: estrutura, ações, orçamento e execução.
+- [x] **CAM-CO-017 · F3**: Plano de comunicação: estrutura, ações, orçamento e execução.
 - [ ] **CAM-CO-018 · F3**: Gestão de projetos de comunicação: papéis e controle.
 - [ ] **CAM-CO-019 · F3**: Planejamento editorial para redes oficiais.
 - [ ] **CAM-CO-020 · F3**: Produção colaborativa e governança de postagens.
@@ -631,13 +631,13 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 ## Lote 22: estrutura e execução do plano de comunicação (CO-017)
 
-- [ ] **CAM-CO-017 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao|Plano de comunicação: estrutura, ações, cronograma, orçamento e execução]] (`art-3d6f82b40e9715ac`). **Decisão: nota autônoma para operacionalização**. As notas [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16. Planejamento]], [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|20. Campanhas]], [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|61. Diagnóstico]] e [[3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec|62. Indicadores]] apresentam pré-requisitos, mas não aprofundam a distinção entre **plano, programa, projeto, operação, entregas, pacote de trabalho e atividade**, nem a estrutura operacional, EAP/WBS e cronograma, orçamento, dependências, 5W2H, condições institucionais de execução e aceite de produtos. A nota 63 aborda essas fronteiras com MGI, PMI, Kunsch, casos progressivos e três itens C/E.
+- [x] **CAM-CO-017 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao|Plano de comunicação: estrutura, ações, cronograma, orçamento e execução]] (`art-3d6f82b40e9715ac`). **Decisão: nota autônoma para operacionalização**. As notas [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16. Planejamento]], [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|20. Campanhas]], [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|61. Diagnóstico]] e [[3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec|62. Indicadores]] apresentam pré-requisitos, mas não aprofundam a distinção entre **plano, programa, projeto, operação, entregas, pacote de trabalho e atividade**, nem a estrutura operacional, EAP/WBS e cronograma, orçamento, dependências, 5W2H, condições institucionais de execução e aceite de produtos. A nota 63 aborda essas fronteiras com MGI, PMI, Kunsch, casos progressivos e três itens C/E.
 
 **Fontes verificadas:** *Modelo de plano de comunicação* e *Jornada do PEN* do MGI, *Guia Prático de Planejamento Estratégico Institucional* do MGI, definição e relação projeto/programa do PMI e artigo do PMI sobre EAP/WBS orientada a entregas. Os exemplos de gestão são referência técnica **não obrigatória** para a Câmara; previsão de orçamento não constitui autorização de despesa pública. A discussão avançada de **papéis, controle e gestão de mudanças** ficará em CAM-CO-018.
 
 **Proteção multi-edital:** 16, 20, 61 e 62 foram auditadas e **não editadas**. IDs, textos FGV e vínculos editoriais de CGU e Dataprev permaneceram intactos. O novo articleId foi vinculado apenas a `camara-2026/comunicacao`. A marcação é editorial e não presume aprendizagem individual.
 
-**Validação pendente:** confirmar testes de identidade, catálogo v2, busca, links, privacidade, build e manifesto no GitHub Pages ao vivo. Marcar CO-017 somente após sucesso. Próxima unidade: **CAM-CO-018**, gestão de projetos de comunicação: papéis e controle.
+**Publicação confirmada:** o [workflow 42218529769](https://github.com/leorruas/concursos/actions/runs/42218529769) terminou com **success**, incluindo testes de identidade, navegação, catálogo v2, busca, privacidade, build e confirmação do catálogo e manifesto no Pages ao vivo. A conclusão é editorial, sem inferência de estudo ou retenção. Próxima unidade: **CAM-CO-018**, gestão de projetos de comunicação, papéis e controle.
 
 ## Critérios de publicação e evidência
 

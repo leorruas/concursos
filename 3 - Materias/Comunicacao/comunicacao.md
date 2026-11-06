@@ -56,6 +56,8 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 
 - [[3 - Materias/Comunicacao/09 - comunicacao interna|09. Comunicação interna: finalidade, públicos e resultados]]: CAM-CO-001, **reuso e expansão** da nota existente; conteúdo FGV anterior preservado.
 - [[3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos|48. Canais de comunicação interna]]: CAM-CO-002, escolha de intranet, mural, newsletter e eventos por finalidade, público e condições de acesso.
+- [[3 - Materias/Comunicacao/49 - endomarketing fundamentos objetivos e fronteiras|49. Endomarketing: fundamentos e fronteiras]]: CAM-CO-003, Bekin, finalidade e limites em relação à comunicação interna.
+- [[3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras|50. Cultura e clima: Schein e Schneider]]: CAM-CO-004, três níveis culturais, percepções coletivas, métodos e limites.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

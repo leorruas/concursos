@@ -275,8 +275,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 
 **Programa:** 14.2.4, Comunicação Social, itens 2 a 11. **Matéria virtual de destino:** `comunicacao`. **Base a auditar, sem presumir completude:** `3 - Materias/Comunicacao/01, 02, 03, 06, 07, 09, 10, 11, 15, 16, 17, 18, 19, 22 e referências Kunsch.`
 
-- [ ] **CAM-CO-001 · F1**: Comunicação interna: finalidade, sujeitos e resultados.
-- [ ] **CAM-CO-002 · F1**: Canais internos: intranet, mural, newsletter e eventos.
+- [x] **CAM-CO-001 · F1**: Comunicação interna: finalidade, sujeitos e resultados.
+- [x] **CAM-CO-002 · F1**: Canais internos: intranet, mural, newsletter e eventos.
 - [ ] **CAM-CO-003 · F1**: Endomarketing: engajamento e fronteira com comunicação interna.
 - [ ] **CAM-CO-004 · F1**: Cultura organizacional e clima: conceitos distintos.
 - [ ] **CAM-CO-005 · F2**: Gestão do clima por comunicação: alcance e limites.
@@ -522,14 +522,27 @@ Próxima tarefa: **CAM-TC-024, comparação de teorias por pergunta e unidade de
 
 ## Lote 11: comunicação interna e canais (CO-001 e CO-002)
 
-- [ ] **CAM-CO-001 · reuso e expansão, validação pendente**: [[3 - Materias/Comunicacao/09 - comunicacao interna|Comunicação interna]] (`art-806546892285426f`). Preservados título, ID, aliases e integralidade do material anterior, inclusive o recorte FGV, com expansão própria sobre finalidade, públicos, resultados, diagnóstico, relação com Kunsch e itens C/E inéditos. Já estava vinculado ao catálogo da Câmara.
-- [ ] **CAM-CO-002 · novo artigo, publicação pendente**: [[3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos|Canais de comunicação interna: intranet, mural, newsletter e eventos]] (`art-73d4a195e86c02bf`). Construção de critérios e funções de cada canal, incerteza e equivocidade em Daft e Lengel, exemplos progressivos, limites de interpretação e itens C/E.
+- [x] **CAM-CO-001 · reuso e expansão, publicação verificada**: [[3 - Materias/Comunicacao/09 - comunicacao interna|Comunicação interna]] (`art-806546892285426f`). Preservados título, ID, aliases e integralidade do material anterior, inclusive o recorte FGV, com expansão própria sobre finalidade, públicos, resultados, diagnóstico, relação com Kunsch e itens C/E inéditos. Já estava vinculado ao catálogo da Câmara.
+- [x] **CAM-CO-002 · novo artigo, publicação verificada**: [[3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos|Canais de comunicação interna: intranet, mural, newsletter e eventos]] (`art-73d4a195e86c02bf`). Construção de critérios e funções de cada canal, incerteza e equivocidade em Daft e Lengel, exemplos progressivos, limites de interpretação e itens C/E.
 
 **Proteção dos materiais anteriores:** o conteúdo de Comunicação Interna e seus apontamentos da FGV permanecem intactos; a expansão foi aditiva. Os registros do catálogo da CGU e Dataprev não são modificados. Não registrar como material já estudado.
 
-**Pendente:** workflow de publicação, testes e confirmação do manifesto do Pages; só depois marcar as caixas.
+**Validação do lote 11:** o workflow 42144818116 confirmou build, busca, privacidade, catálogo e Pages ao vivo. O registro editorial não comprova estudo.
 
 Próximos candidatos: **CAM-CO-003 endomarketing** e **CAM-CO-004 cultura e clima**. Devem ser tratados em notas próprias, com vínculo aos conceitos existentes sem substituí-los.
+
+## Lote 12: endomarketing, cultura e clima (CO-003 e CO-004)
+
+- [ ] **CAM-CO-003 · artigo criado e publicação pendente**: [[3 - Materias/Comunicacao/49 - endomarketing fundamentos objetivos e fronteiras|Endomarketing: objetivos e fronteiras com comunicação interna]] (`art-2d58e6cb9a473f01`). Desenvolve Bekin, relação com Kunsch, competências CHA, engajamento, condições de gestão, exemplos progressivos e itens C/E. Não substitui notas existentes da FGV ou da CGU.
+- [ ] **CAM-CO-004 · artigo criado e publicação pendente**: [[3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras|Cultura e clima organizacional: Schein e Schneider]] (`art-b0ad4f6e375a912c`). Estuda estrutura de Schein, diferenças entre clima psicológico e de unidade, métodos e limites causais, casos e C/E. Preservados os resumos das notas antigas.
+
+**CAM-CO-001 e CAM-CO-002 · publicação confirmada:** a expansão da nota de Comunicação Interna e o artigo de canais foram publicados no [workflow 42144818116](https://github.com/leorruas/concursos/actions/runs/42144818116), concluído com sucesso, inclusive a confirmação do catálogo ao vivo.
+
+**Proteção multi-edital:** os conteúdos anteriores das notas 01 e 09, inclusive o recorte FGV, estão preservados. O catálogo da CGU e o da Dataprev permanecem inalterados. Não confundir status editorial com estudo e retenção.
+
+**Pendente:** validar identidade, catálogo, busca, privacidade, build e publicação ao vivo dos artigos CO-003/004 antes de concluir suas caixas.
+
+Próximo candidato: **CAM-CO-005, gestão do clima por comunicação**, com auditoria do material já publicado.
 
 ## Critérios de publicação e evidência
 

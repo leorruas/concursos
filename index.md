@@ -95,6 +95,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Estado e Democracia/09 - estado regulacao e modelos de desenvolvimento|09 • Estado, regulação e modelos de desenvolvimento]]
    - [[3 - Materias/Estado e Democracia/10 - ciencia politica objeto metodo e limites|10 • Ciência Política: objeto, método e limites]]
    - [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|11 • Poder, autoridade, legitimidade e dominação]]
+   - [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|12 • Teoria política: correntes e perguntas centrais]]
 3. [[3 - Materias/Sociedade Brasileira/sociedade-brasileira|Sociedade brasileira]]
    - [[3 - Materias/Sociedade Brasileira/01 - instituicoes estratificacao e mobilidade social|01 • Instituições, estratificação e mobilidade social]]
    - [[3 - Materias/Sociedade Brasileira/02 - formacao social cidadania e hierarquias|02 • Formação social brasileira, cidadania e hierarquias]]

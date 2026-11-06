@@ -117,6 +117,8 @@ A igualdade é **Ativo = Passivo + PL**. Ativo é recurso presentemente controla
 
 **Pegadinha:** o prazo de 12 meses é uma referência importante, mas **não é o único critério**. Dinheiro com restrição de uso que impeça sua utilização para liquidar passivo por pelo menos 12 meses pode ter classificação diferente; o ciclo operacional e o direito de adiar a liquidação também importam. Além disso, **circulante/não circulante** é uma divisão do **1º quadro do BP**, enquanto **financeiro/permanente**, no **2º quadro**, segue a Lei nº 4.320/1964 e critérios de autorização orçamentária. **Um computador é ativo não circulante e, em regra, ativo permanente no quadro legal, mas as expressões não são sinônimas.**
 
+**Teste de duas etapas:** uma obrigação já reconhecida não é automaticamente circulante. Imagine um compromisso que vence em 15 meses: se estiver inserido no ciclo operacional normal identificável da entidade, poderá atender ao critério de passivo circulante; se estiver fora desse ciclo e não satisfizer os demais critérios, poderá ser não circulante. O elemento primeiro é reconhecido como passivo patrimonial; só depois é classificado no **1º quadro**. No **2º quadro**, financeiro/permanente segue critério legal diferente, ligado ao orçamento, e não ao prazo de 12 meses.
+
 ### Quadro financeiro e permanente: art. 105 da Lei nº 4.320/1964
 
 **Segunda leitura, mudando a pergunta:** a mesma universidade tem R$ 100 mil em conta bancária e empenhou R$ 30 mil por um serviço **ainda não prestado**. Suponha que, ao encerrar o exercício, esse compromisso tenha sido regularmente inscrito em **restos a pagar não processados a liquidar** (despesa empenhada cujo objeto ainda não foi entregue ou prestado). Pelo critério patrimonial do **1º quadro**, o empenho isolado ainda não cria passivo desse serviço. No **2º quadro**, o compromisso pode integrar o **passivo financeiro**. O que mudou foi o critério de classificação, não o fato ocorrido.
@@ -180,6 +182,8 @@ A classificação financeira não equivale à divisão circulante/não circulant
 **Terceira leitura, sem inventar um ativo:** imagine uma garantia bancária apresentada pelo fornecedor para assegurar a execução do contrato. A universidade precisa acompanhar seu valor e sua validade. A simples apresentação da garantia **não significa entrada de caixa**, nem reconhecimento automático desse valor como ativo no 1º quadro. Enquanto se tratar de ato potencial a executar, o acompanhamento pode aparecer no **3º quadro**.
 
 Evidencia **atos potenciais ativos e passivos a executar** que podem alterar futuramente o patrimônio, como obrigações e garantias contratuais ainda potenciais. O registro de controle **não é reconhecimento automático de ativo/passivo patrimonial**. Atos já executados não pertencem ao grupo de potenciais a executar.
+
+**Acompanhamento temporal da garantia:** enquanto existir uma garantia contratual de R$ 50 mil ainda sujeita a execução, ela pode figurar como **ato potencial a executar** no terceiro quadro. Se o contrato terminar e as obrigações correspondentes forem integralmente cumpridas, aquele ato deixa de ser apresentado entre os potenciais **a executar**. A entidade pode conservar seus registros históricos e controles pertinentes, mas o ato cumprido já não representa compromisso potencial pendente. Assim, **ter existido um contrato** não autoriza tratá-lo como **ainda a executar**.
 
 ### Quadro do superávit ou déficit financeiro
 

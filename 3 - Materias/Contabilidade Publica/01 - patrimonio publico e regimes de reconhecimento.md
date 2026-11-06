@@ -5,7 +5,7 @@ title: "Patrimônio público e regimes de reconhecimento"
 type: "artigo"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Patrimônio público e regimes de reconhecimento
@@ -59,9 +59,17 @@ A **depreciação** do equipamento poderá provocar VPD em períodos posteriores
 
 ## Regime orçamentário e regime patrimonial
 
-O **art. 35 da Lei nº 4.320/1964** vincula ao exercício financeiro as **receitas nele arrecadadas** e as **despesas nele legalmente empenhadas**. Essa regra organiza o exercício **orçamentário**, e não impõe regime de caixa à contabilidade patrimonial. A expressão informal “regime misto” pode ajudar a recordar arrecadação e empenho, mas não deve ser usada para negar o regime de competência patrimonial.
+**O que é um regime de reconhecimento?** É o critério que determina **em qual período** um acontecimento deve ser registrado. Para compreender a contabilidade pública, convém distinguir três ideias:
 
-No **regime de competência patrimonial**, os efeitos dos eventos são reconhecidos quando ocorrem, ainda que recebimentos, pagamentos e atos orçamentários aconteçam em outros momentos. O MCASP, Parte I, seção 3.4, afirma que o reconhecimento dos fatos patrimoniais não depende de a receita ter sido arrecadada ou a despesa ter sido empenhada.
+- **Regime de caixa:** considera o **recebimento ou pagamento efetivo de dinheiro**. Exemplo: se um serviço foi prestado em dezembro e pago em janeiro, a **saída de caixa ocorre em janeiro**. Esse critério descreve o movimento financeiro e, sozinho, **não determina** quando a despesa orçamentária deve ser reconhecida.
+- **Regime de competência patrimonial:** reconhece os **efeitos dos fatos econômicos quando ocorrem**, desde que atendidos os critérios contábeis, **independentemente do pagamento ou recebimento**. Se um serviço foi efetivamente prestado e consumido em dezembro, a entidade pode reconhecer a **Variação Patrimonial Diminutiva (VPD)** e a obrigação em dezembro, ainda que pague em janeiro. Um direito a receber e uma **Variação Patrimonial Aumentativa (VPA)** também podem surgir antes de o dinheiro entrar.
+- **Regime orçamentário:** aplica os marcos legais da **execução da receita e da despesa**. O **art. 35 da Lei nº 4.320/1964** atribui ao exercício as **receitas nele arrecadadas** e as **despesas nele legalmente empenhadas**. Por isso é frequentemente descrito, de forma didática, como **regime misto**: arrecadação na receita e empenho na despesa. Esse rótulo **não transforma o reconhecimento patrimonial em regime de caixa**.
+
+**Um mesmo serviço em três momentos:** suponha um serviço prestado e consumido em **dezembro de 2026**, legalmente **empenhado em dezembro** e **pago em janeiro de 2027**. Na **competência patrimonial**, VPD e obrigação podem surgir em dezembro de 2026; na **execução orçamentária**, a despesa pertence a 2026 pelo empenho; no **caixa**, o dinheiro só sai em janeiro de 2027, quando ocorre o pagamento de restos a pagar. O registro patrimonial pressupõe que os critérios de reconhecimento da obrigação foram atendidos.
+
+**Contraste pela receita:** se o fato gerador de uma receita tributária reconhecível ocorre em dezembro de 2026, mas a **arrecadação** só acontece em janeiro de 2027, o direito e a VPA podem pertencer patrimonialmente a **2026**, enquanto a **receita orçamentária realizada** e a entrada de caixa pertencem a **2027**. Os períodos podem ser diferentes porque cada perspectiva responde a uma pergunta distinta.
+
+**Fronteira para a prova:** *caixa* pergunta **quando o dinheiro se moveu**; *competência patrimonial* pergunta **quando o fato econômico gerou efeito sobre ativos, passivos ou resultado**; *regime orçamentário* pergunta **a qual exercício pertencem a receita arrecadada e a despesa empenhada**. O **MCASP, Parte I, seção 3.4**, reforça que o reconhecimento dos fatos patrimoniais não depende de a receita ter sido arrecadada ou a despesa ter sido empenhada.
 
 | Evento | Execução orçamentária | Reconhecimento patrimonial | Movimento de caixa |
 | :--- | :--- | :--- | :--- |

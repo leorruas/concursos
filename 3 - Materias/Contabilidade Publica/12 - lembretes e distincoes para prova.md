@@ -17,7 +17,7 @@ updated: 2026-11-06
 ## Anotações iniciais
 
 - passivo financeiro está associado ao compromisso.
-  - ==**Precisão:** o passivo financeiro do quadro legal do Balanço Patrimonial pode incluir compromissos **empenhados e não pagos**, mesmo quando o serviço ainda não foi prestado e não há passivo patrimonial correspondente. Também pode incluir certas obrigações extraorçamentárias. A palavra *compromisso* sozinha não basta: verifique a natureza da obrigação, o empenho e a regra aplicável.==
+  - ==**Precisão:** o passivo financeiro do 2º quadro do Balanço Patrimonial segue critérios legais e registros de execução orçamentária. Pode incluir compromissos **empenhados e ainda não pagos**, mesmo sem serviço prestado e sem passivo patrimonial correspondente, além de certas obrigações extraorçamentárias. **Empenho é uma etapa orçamentária; não é sinônimo de passivo patrimonial nem de VPD.** A palavra *compromisso* sozinha não basta: verifique a natureza e a regra aplicável.==
 - orçamento está associado à arrecadação e não ao direito de recebimento de tributos, como o VPA
   - ==**Precisão:** para a **receita orçamentária realizada**, vale a arrecadação do exercício (art. 35 da Lei nº 4.320/1964). O direito tributário reconhecido pode gerar **ativo e VPA antes da arrecadação**. Previsão na Lei Orçamentária Anual (LOA), VPA reconhecida e receita arrecadada são três informações diferentes. O orçamento também acompanha autorizações, empenhos, liquidações e pagamentos da despesa.==
 - resultado orçamentário = arrecadação - empenho (que já é um passivo financeiro né?)
@@ -31,6 +31,13 @@ updated: 2026-11-06
 - ==**Restos a pagar:** **processados** são despesas liquidadas e não pagas; **não processados a liquidar** ainda não tiveram o fato gerador da prestação ou entrega, na hipótese considerada; **não processados em liquidação** têm fato gerador ocorrido, mas liquidação administrativa pendente. A classificação exige examinar o fato efetivo, não apenas a data do pagamento.==
 - ==**Quatro quadros do BP:** 1º, **Principal**, reconhece ativo, passivo e patrimônio líquido e classifica circulante/não circulante; 2º, **Financeiros e Permanentes**, usa os critérios legais; 3º, **Contas de Compensação**, acompanha atos potenciais a executar; 4º, **Superávit ou Déficit Financeiro**, apura a diferença financeira **por fonte/destinação**.==
 - ==**Superávit financeiro:** em cálculo básico, **ativo financeiro − passivo financeiro**, considerado por fonte/destinação e respeitadas as regras legais. Ele pode ser menor que o caixa, porque existem compromissos financeiros não pagos. Um saldo positivo em uma fonte não está automaticamente livre para despesas de outra.==
+
+## Casos rápidos para conferir a categoria
+
+- ==**Empréstimo de R$ 50 mil recebido:** se for operação de crédito orçamentária, há **receita orçamentária arrecadada de R$ 50 mil** e entrada real de caixa de R$ 50 mil. Ao mesmo tempo, nasce uma dívida de R$ 50 mil; **não há VPA de R$ 50 mil pelo principal emprestado**. O PL não aumenta por esse fato isolado.==
+- ==**Tributo de R$ 90 mil reconhecido, mas apenas R$ 35 mil arrecadados:** **VPA de R$ 90 mil**, **receita orçamentária realizada de R$ 35 mil** e **crédito ainda a receber de R$ 55 mil**, se o reconhecimento inicial já atendeu aos critérios contábeis. Previsão de receita, reconhecimento da VPA e arrecadação são acontecimentos diferentes.==
+- ==**Manutenção empenhada por R$ 70 mil, com R$ 30 mil efetivamente prestados e nenhum pagamento:** havendo inscrição regular de todo o valor em restos a pagar não processados, o **Balanço Financeiro pode registrar R$ 70 mil de ingresso compensatório**, mas a **VPD do serviço consumido é R$ 30 mil**. A divisão é **R$ 30 mil em liquidação** e **R$ 40 mil a liquidar**, nas condições descritas. Não transformar o valor do registro compensatório em VPD total.==
+- ==**Caixa de R$ 60 mil e restos a pagar processados de R$ 20 mil:** o dinheiro no banco continua em R$ 60 mil, mas, se esses forem os únicos componentes financeiros da mesma fonte, o **superávit financeiro é R$ 40 mil**. Liquidação administrativa e inscrição em restos a pagar não extinguem a dívida: isso acontece quando ela for paga ou extinta por outra causa válida.==
 
 ## Onde conferir a teoria
 

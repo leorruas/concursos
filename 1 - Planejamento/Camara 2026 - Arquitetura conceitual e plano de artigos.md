@@ -265,8 +265,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-TC-017 · F3**: Semiótica e produção de significação.
 - [x] **CAM-TC-018 · F3**: Opinião pública: conceitos e formação social.
 - [x] **CAM-TC-019 · F3**: Espiral do silêncio: pressupostos e condições.
-- [ ] **CAM-TC-020 · F3**: Midiatização: conceito e mudança das práticas sociais.
-- [ ] **CAM-TC-021 · F3**: Plataformização: infraestrutura, regras e mediação.
+- [x] **CAM-TC-020 · F3**: Midiatização: conceito e mudança das práticas sociais.
+- [x] **CAM-TC-021 · F3**: Plataformização: infraestrutura, regras e mediação.
 - [ ] **CAM-TC-022 · F3**: Desinformação, informação incorreta e informação maliciosa.
 - [ ] **CAM-TC-023 · F3**: Integridade da informação: mecanismos e limites.
 - [ ] **CAM-TC-024 · F3**: Comparação de teorias: pergunta, unidade de análise e efeito.
@@ -492,10 +492,10 @@ Próximo núcleo: **CAM-TC-020, midiatização**.
 
 ## Lote 8: midiatização e plataformização (TC-020 e TC-021)
 
-- [ ] **CAM-TC-020 · artigo criado; publicação por validar**: [[3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas|Midiatização: Hjarvard, Krotz e Hepp]] (`art-42edbd08bca563f1`). Apresenta construção do conceito, abordagens institucionais e históricas, midiatização profunda, cinco tendências, fronteiras e itens C/E inéditos.
-- [ ] **CAM-TC-021 · artigo criado; publicação por validar**: [[3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia|Plataformização: infraestrutura, mercados, governança, dados e práticas]] (`art-1fc842a6b30d59e7`). Distingue a definição de 2019 das quatro categorias de lógica das mídias sociais de 2013, os estudos de 2018 e as relações com a midiatização.
+- [x] **CAM-TC-020 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas|Midiatização: Hjarvard, Krotz e Hepp]] (`art-42edbd08bca563f1`). Apresenta construção do conceito, abordagens institucionais e históricas, midiatização profunda, cinco tendências, fronteiras e itens C/E inéditos.
+- [x] **CAM-TC-021 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia|Plataformização: infraestrutura, mercados, governança, dados e práticas]] (`art-1fc842a6b30d59e7`). Distingue a definição de 2019 das quatro categorias de lógica das mídias sociais de 2013, os estudos de 2018 e as relações com a midiatização.
 
-**Estado:** notas completas, hub, índice e catálogo integrados na mesma transação. **Pendente:** workflow e verificação do catálogo ao vivo; não marcar as caixas até o resultado. A criação editorial não constitui registro de estudo ou retenção.
+**Validação concluída:** notas, hub, índice e catálogo integrados em um commit; testes de identidade, catálogo, busca, integridade, build, publicação e presença no manifesto ao vivo confirmados pelo [workflow 42137736648](https://github.com/leorruas/concursos/actions/runs/42137736648) com resultado **success**. O fechamento é editorial e técnico, não registro de estudo ou retenção.
 
 Próximo núcleo: **CAM-TC-022, desinformação; CAM-TC-023, integridade da informação**.
 

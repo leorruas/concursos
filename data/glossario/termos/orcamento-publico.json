@@ -397,10 +397,10 @@
       "id": "glo-programacao-financeira",
       "term": "Programação financeira",
       "aliases": [],
-      "definition": "Organização de quando o governo espera receber recursos e realizar pagamentos, considerando caixa disponível, prioridades e metas fiscais.",
-      "contrast": "A LOA autoriza gastar, mas a programação financeira organiza o ritmo da execução e dos pagamentos conforme os recursos disponíveis.",
-      "cebraspeTrap": "Afirmar que toda despesa fixada na LOA pode ser paga imediatamente, sem programação.",
-      "example": "Após publicar a LOA, o Executivo estabelece programação financeira compatível com entradas previstas.",
+      "definition": "É o planejamento de como o governo vai administrar o dinheiro durante o ano: quanto espera receber, quanto poderá pagar e em que momentos. Depois da publicação do orçamento, o Executivo organiza esse ritmo para evitar assumir pagamentos incompatíveis com a entrada de recursos.",
+      "contrast": "A Lei Orçamentária Anual (LOA) autoriza despesas, mas a autorização não significa dinheiro disponível no banco. Programação financeira organiza o caixa e os limites de execução. O cronograma de desembolso detalha os pagamentos previstos ao longo do tempo; a dotação mostra o valor autorizado para cada despesa. Se a receita esperada cair, podem ser necessários ajustes e limites, sem que isso anule automaticamente a dotação.",
+      "cebraspeTrap": "A banca pode trocar autorização orçamentária por disponibilidade imediata de dinheiro. Ter dotação não dispensa programação financeira nem garante pagamento integral no início do exercício.",
+      "example": "A prefeitura tem autorização para gastar R$ 1 milhão em manutenção durante o ano, mas espera receber a maior parte dos recursos só no segundo semestre. A programação financeira distribui os pagamentos conforme as entradas previstas; não permite supor que R$ 1 milhão poderá ser pago em janeiro.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -422,10 +422,10 @@
       "id": "glo-cronograma-de-desembolso",
       "term": "Cronograma de desembolso",
       "aliases": [],
-      "definition": "Planejamento que distribui os pagamentos previstos pelos meses ou outros períodos do exercício, para compatibilizá-los com a entrada de dinheiro.",
-      "contrast": "Cronograma de desembolso define quando se pretende pagar. Não é a dotação da despesa nem comprova que um pagamento ocorreu.",
-      "cebraspeTrap": "Confundir previsão de desembolso com liquidação já concluída ou receita efetivamente recebida.",
-      "example": "Um órgão planeja pagamentos por mês para acompanhar o fluxo esperado de caixa.",
+      "definition": "É um calendário que distribui os pagamentos que o governo pretende fazer ao longo do ano. Serve para organizar a saída de dinheiro conforme o que se espera arrecadar e os compromissos que precisarão ser pagos.",
+      "contrast": "O cronograma é uma parte da organização financeira: mostra quando os pagamentos estão previstos. A dotação diz quanto foi autorizado no orçamento; o empenho registra o compromisso; a liquidação confere o direito do fornecedor; o pagamento é a transferência real. Colocar R$ 50 mil no cronograma de março não prova que essa quantia tenha sido paga.",
+      "cebraspeTrap": "Cronograma de desembolso não é comprovante de pagamento, nem substitui empenho e liquidação. A confusão costuma estar entre data planejada e despesa efetivamente paga.",
+      "example": "Uma secretaria prevê pagar R$ 30 mil em abril, R$ 40 mil em maio e R$ 50 mil em junho. O cronograma ajuda a reservar recursos para esses períodos. Se uma entrega atrasar, a liquidação e o pagamento podem ocorrer em data diferente do planejamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -449,10 +449,10 @@
       "aliases": [
         "Limitação de empenho"
       ],
-      "definition": "Restrição temporária a empenhos e à movimentação financeira quando a arrecadação estimada pode não ser suficiente para cumprir as metas fiscais, nos termos do art. 9º da LRF.",
-      "contrast": "Contingenciar limita a execução para proteger metas fiscais. Anular dotação retira autorização orçamentária; bloqueio pode ter outros fundamentos legais.",
-      "cebraspeTrap": "Equiparar contingenciamento a cancelamento definitivo de toda a autorização ou aplicá-lo sem considerar despesas ressalvadas.",
-      "example": "Diante de projeção insuficiente de receita, o ente reduz limites de empenho e de movimentação nos termos da LDO.",
+      "definition": "É a redução temporária dos limites para assumir novas despesas e movimentar dinheiro quando a arrecadação prevista ameaça o cumprimento das metas fiscais. A Lei de Responsabilidade Fiscal (LRF), art. 9º, prevê a limitação de empenho e movimentação financeira, observadas as condições e exceções legais.",
+      "contrast": "Contingenciar limita a execução, mas não cancela automaticamente a dotação da Lei Orçamentária Anual. Anular dotação é retirar uma autorização de gasto; bloqueio pode ter fundamento diferente, como outra regra de limite. Nem toda despesa pode ser limitada livremente: a LRF e a LDO estabelecem ressalvas. A liberação pode ser restabelecida se a arrecadação melhorar, conforme a regra aplicável.",
+      "cebraspeTrap": "Contingenciamento não é corte definitivo de toda despesa nem cancelamento da lei orçamentária. Também é incorreto aplicar a restrição a gastos legalmente protegidos sem examinar as exceções.",
+      "example": "Um governo esperava arrecadar R$ 100 milhões, mas as projeções mostram que poderá receber menos e comprometer a meta fiscal. Ele reduz temporariamente os limites de empenho de determinadas despesas. As dotações continuam no orçamento, embora parte não possa ser executada naquele momento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -474,10 +474,10 @@
       "id": "glo-programacao-fisica-cumprida",
       "term": "Programação física cumprida",
       "aliases": [],
-      "definition": "Situação em que a ação do orçamento entregou a quantidade de bens ou serviços prevista como meta física para o período, ou a meta formalmente reprogramada.",
-      "contrast": "A meta física mede entregas, como número de atendimentos. A execução financeira mede valores; gastar toda a verba não comprova, sozinho, que a meta física foi cumprida.",
-      "cebraspeTrap": "Declarar meta física atendida porque o orçamento foi totalmente pago, embora só parte do produto tenha sido entregue.",
-      "example": "A meta era concluir cinco escolas e cinco foram entregues conforme a especificação; houve cumprimento da meta física.",
+      "definition": "Significa que a ação do orçamento entregou a quantidade de produtos ou serviços estabelecida como meta física para o período, ou uma nova meta que tenha sido formalmente aprovada. Meta física mede aquilo que foi entregue, como consultas realizadas, escolas construídas ou pessoas atendidas.",
+      "contrast": "Execução financeira mostra quanto foi empenhado ou pago; execução física mostra os resultados concretos entregues. Gastar 100% da verba não comprova que 100% da meta física foi atingida. O contrário também é possível: uma meta pode ser cumprida com gasto menor que o previsto. É preciso comparar a entrega realizada com a meta válida para o período, mantendo a unidade de medida correta.",
+      "cebraspeTrap": "A palavra 'cumprida' se refere à quantidade entregue, não à verba consumida. A banca pode apresentar 100% de execução financeira como prova de 100% de execução física.",
+      "example": "Uma ação tinha meta de entregar dez salas de aula. O governo pagou todo o orçamento previsto, mas concluiu apenas oito salas: a execução financeira pode estar completa, porém a meta física não foi cumprida. Se dez salas forem entregues dentro dos critérios, a meta física é atingida, mesmo que ainda existam pagamentos pendentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -499,10 +499,10 @@
       "id": "glo-previsao-de-receita",
       "term": "Previsão de receita",
       "aliases": [],
-      "definition": "Valor que o governo estima arrecadar durante o ano e inclui no planejamento orçamentário antes de receber o dinheiro.",
-      "contrast": "Previsão é estimativa. Arrecadação é o recebimento efetivo; um valor previsto pode não ser integralmente arrecadado.",
-      "cebraspeTrap": "Afirmar que a receita prevista necessariamente será arrecadada na totalidade durante o exercício.",
-      "example": "A LOA estima arrecadação de impostos, mas os valores efetivos só serão conhecidos na execução.",
+      "definition": "É a estimativa de quanto dinheiro o governo espera arrecadar durante o exercício. Esse valor aparece no planejamento e na Lei Orçamentária Anual (LOA), antes de os contribuintes ou outras fontes efetivamente pagarem.",
+      "contrast": "Previsão é um cálculo antecipado. Lançamento, quando previsto em lei, identifica e constitui um valor a cobrar; arrecadação é o recebimento; recolhimento é a transferência do valor recebido ao Tesouro, quando essa etapa existe. Uma receita não precisa ter sido prevista inicialmente para ser orçamentária se cumprir os critérios legais.",
+      "cebraspeTrap": "Prever não é lançar nem arrecadar. A banca pode afirmar que o valor previsto será necessariamente recebido ou que toda receita sem previsão inicial é extraorçamentária.",
+      "example": "A prefeitura estima arrecadar R$ 2 milhões de IPTU. Ao fim do ano, os contribuintes pagam R$ 1,7 milhão. A previsão era R$ 2 milhões, mas a receita realizada foi R$ 1,7 milhão; a diferença não representa, por si, dinheiro disponível ou crédito já reconhecido contra cada contribuinte.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -528,10 +528,10 @@
       "id": "glo-arrecadacao-da-receita",
       "term": "Arrecadação da receita",
       "aliases": [],
-      "definition": "Momento em que um agente autorizado recebe a receita pública, como quando o contribuinte paga um tributo.",
-      "contrast": "Arrecadar é receber a receita. Recolher é transferir os valores arrecadados para a tesouraria quando essa etapa é aplicável.",
-      "cebraspeTrap": "Afirmar que toda receita exige lançamento prévio e que arrecadação e recolhimento são sempre o mesmo ato.",
-      "example": "Um banco recebe um tributo de contribuinte e depois repassa o valor ao caixa central.",
+      "definition": "É o momento em que a receita pública é recebida por um agente autorizado, como um banco que recebe o pagamento de um imposto. Para o orçamento, a receita pertence ao exercício em que foi arrecadada, conforme o art. 35 da Lei nº 4.320/1964.",
+      "contrast": "A previsão estima quanto pode entrar; o lançamento identifica formalmente a cobrança nos casos previstos; a arrecadação ocorre com o recebimento; o recolhimento acontece quando o agente arrecadador transfere o dinheiro ao Tesouro. Um imposto pode ter gerado direito a receber e aumento patrimonial antes da arrecadação. Quando o contribuinte paga um crédito já reconhecido, o recebimento não cria necessariamente um segundo aumento patrimonial.",
+      "cebraspeTrap": "Lançamento e arrecadação não são a mesma etapa. Também é falso que arrecadar um crédito já reconhecido sempre cria novo ganho patrimonial.",
+      "example": "O município lança R$ 600 de imposto em abril, e a pessoa paga no banco em junho. Em abril existia cobrança, mas não arrecadação. Em junho o banco recebe os R$ 600: ocorre arrecadação orçamentária. Depois, o banco pode recolher esse valor à conta do Tesouro.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -646,10 +646,10 @@
       "aliases": [
         "DEA"
       ],
-      "definition": "Despesas de anos já encerrados que, nas hipóteses do art. 37 da Lei nº 4.320/1964, podem ser reconhecidas e pagas com dotação específica do orçamento atual.",
-      "contrast": "DEA exige enquadramento legal próprio e dotação do exercício atual. Restos a pagar são despesas já empenhadas e inscritas no exercício anterior.",
-      "cebraspeTrap": "Classificar qualquer valor do ano anterior como DEA mesmo quando há resto a pagar válido para pagamento.",
-      "example": "Uma obrigação de serviço antigo reconhecida depois pode exigir dotação atual própria conforme o art. 37.",
+      "definition": "São despesas relacionadas a anos já encerrados que, em situações previstas na lei, precisam ser pagas com dotação específica do orçamento atual. A Lei nº 4.320/1964, art. 37, trata, entre outros casos, de despesas de exercícios encerrados que não foram processadas na época própria, restos a pagar com prescrição interrompida e compromissos reconhecidos depois do encerramento do exercício.",
+      "contrast": "Despesas de exercícios anteriores (DEA) e restos a pagar não são a mesma coisa. Restos a pagar resultam de empenhos anteriores regularmente inscritos e ainda não pagos; DEA exigem enquadramento legal próprio e autorização no orçamento atual. Nem toda conta antiga vira DEA e nem todo resto a pagar deve ser empenhado novamente. O reconhecimento de uma dívida patrimonial também não dispensa identificar o caminho orçamentário válido para pagá-la.",
+      "cebraspeTrap": "A banca pode usar a simples expressão 'ano anterior' para induzir DEA. O critério é a situação legal da despesa e a existência, ou não, de resto a pagar válido.",
+      "example": "Um órgão descobre em março uma obrigação de serviço prestado no ano anterior que não foi tratada na época própria. Deve verificar se o caso se enquadra no art. 37 e se existe dotação adequada para despesa de exercício anterior. Se o valor já é resto a pagar validamente inscrito, seu pagamento segue esse registro, sem classificá-lo automaticamente como DEA.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -675,10 +675,10 @@
       "id": "glo-meta-fiscal",
       "term": "Meta fiscal",
       "aliases": [],
-      "definition": "Resultado ou limite que o governo estabelece para acompanhar a situação de suas contas, como uma meta de resultado primário, nos instrumentos de planejamento fiscal.",
-      "contrast": "Meta fiscal indica um objetivo para as contas públicas. Meta física indica quantidade de bens ou serviços a entregar.",
-      "cebraspeTrap": "Concluir que realizar 100% de entregas físicas demonstra por si só cumprimento das metas fiscais.",
-      "example": "O governo revisa a execução diante de risco de descumprimento de resultado fiscal previsto na LDO.",
+      "definition": "É um objetivo numérico que o governo estabelece para acompanhar suas contas, como uma meta para o resultado primário. Ajuda a orientar decisões sobre arrecadação, despesas, dívida e limites de execução, conforme as regras de planejamento fiscal.",
+      "contrast": "Meta fiscal diz respeito ao resultado das contas públicas. Meta física indica a quantidade de bens e serviços que uma ação deve entregar, como 500 consultas. A meta fiscal aparece nos instrumentos de planejamento, especialmente no Anexo de Metas Fiscais da Lei de Diretrizes Orçamentárias (LDO). Atingir uma entrega física não comprova automaticamente que o governo cumpriu a meta fiscal, nem o contrário.",
+      "cebraspeTrap": "Meta fiscal e meta física medem coisas diferentes. A banca pode usar a entrega de obras como prova de que a meta de resultado das contas foi atingida.",
+      "example": "O governo prevê alcançar resultado primário positivo de R$ 10 milhões. Durante o ano, acompanha receitas e despesas relevantes para essa conta e pode adotar medidas de execução previstas em lei. Mesmo que construa todas as escolas planejadas, ainda precisa verificar separadamente o resultado fiscal.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -700,10 +700,10 @@
       "id": "glo-receita-primaria",
       "term": "Receita primária",
       "aliases": [],
-      "definition": "Entrada de recursos considerada no cálculo do resultado primário do governo, como a maior parte dos tributos, contribuições e transferências, segundo as regras fiscais.",
-      "contrast": "Primária indica participação no resultado primário. Corrente ou de capital indica a natureza da receita; são classificações diferentes.",
-      "cebraspeTrap": "Afirmar que receita primária é sinônimo de receita corrente ou que toda receita de capital fica fora da apuração.",
-      "example": "A União recebe tributos que entram no cálculo do resultado primário do exercício.",
+      "definition": "É uma receita que entra no cálculo do resultado primário do governo, de acordo com as regras fiscais. Em geral, tributos e várias transferências são receitas primárias; operações de crédito, como empréstimos comuns, não entram nesse cálculo.",
+      "contrast": "Primária e financeira dizem se a receita participa ou não do resultado primário. Corrente e de capital dizem qual é o tipo de receita no orçamento. Assim, uma receita de capital pode ser primária, dependendo da sua natureza; e uma receita corrente pode ser financeira, como certas receitas de juros. Receita primária não significa dinheiro disponível para qualquer finalidade.",
+      "cebraspeTrap": "Não equiparar receita primária a receita corrente nem classificar todo empréstimo como receita primária por ser dinheiro recebido.",
+      "example": "O governo arrecada R$ 100 mil de impostos e recebe R$ 50 mil de empréstimo. Os impostos normalmente entram como receita primária. O empréstimo cria dívida e é receita financeira para a apuração primária, embora seja uma receita orçamentária de capital na classificação econômica.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -725,10 +725,10 @@
       "id": "glo-receita-financeira",
       "term": "Receita financeira",
       "aliases": [],
-      "definition": "Entrada classificada fora do cálculo do resultado primário, como operações de crédito e certas receitas financeiras, conforme o classificador fiscal.",
-      "contrast": "Uma receita financeira pode ser receita orçamentária. A classificação primária/financeira é diferente da divisão corrente/capital.",
-      "cebraspeTrap": "Classificar toda receita patrimonial como primária ou toda receita financeira como extraorçamentária.",
-      "example": "Juros de aplicação financeira podem ser receita corrente patrimonial e, simultaneamente, receita financeira para o resultado primário.",
+      "definition": "É uma receita que, pela metodologia fiscal, fica fora do cálculo do resultado primário. Pode incluir dinheiro de operações de crédito e determinadas receitas de aplicações financeiras. O nome financeira, nesse contexto, indica como a receita é tratada no indicador fiscal.",
+      "contrast": "Receita financeira não é sinônimo de ingresso extraorçamentário: um empréstimo comum pode ser receita orçamentária de capital e, ao mesmo tempo, receita financeira para o resultado primário. Algumas receitas de juros podem ser receitas correntes patrimoniais e também financeiras no cálculo fiscal. A classificação corrente/de capital trata do tipo econômico; primária/financeira trata da apuração fiscal.",
+      "cebraspeTrap": "A banca pode tratar toda receita financeira como extraorçamentária ou afirmar que toda receita corrente é primária. As classificações respondem a perguntas diferentes.",
+      "example": "Um órgão recebe R$ 2 mil de juros de aplicação financeira. Esse valor pode ser receita corrente patrimonial e, conforme a metodologia aplicável, receita financeira para o cálculo primário. A classificação depende de regras fiscais e não do simples fato de ter entrado na conta bancária.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -750,10 +750,10 @@
       "id": "glo-resultado-primario",
       "term": "Resultado primário",
       "aliases": [],
-      "definition": "Diferença entre receitas primárias e despesas primárias de um período. Ajuda a avaliar as contas públicas antes dos itens financeiros excluídos pela metodologia.",
-      "contrast": "Resultado primário não é o mesmo que saldo de caixa, resultado orçamentário ou resultado nominal; cada indicador considera itens distintos.",
-      "cebraspeTrap": "Tomar a diferença entre toda receita arrecadada e toda despesa paga como definição universal de resultado primário.",
-      "example": "Receitas primárias de 110 e despesas primárias de 100 produzem superávit primário de 10 no exemplo simplificado.",
+      "definition": "É a diferença entre receitas primárias e despesas primárias de um período, calculadas segundo a metodologia fiscal aplicável. Ajuda a acompanhar se as receitas consideradas nesse indicador são suficientes para cobrir os gastos primários. Se a diferença for positiva, há superávit primário; se for negativa, déficit primário.",
+      "contrast": "Resultado primário não é todo dinheiro que sobrou no banco, nem o resultado patrimonial da contabilidade. O resultado nominal considera outros efeitos, inclusive encargos financeiros, conforme sua metodologia. Receber um empréstimo comum não transforma automaticamente o resultado primário em superávit, porque esse ingresso não é receita primária.",
+      "cebraspeTrap": "Somar todas as entradas de caixa, inclusive empréstimos, e subtrair todos os pagamentos não é uma definição segura de resultado primário.",
+      "example": "Em um cálculo simplificado, o governo tem R$ 110 milhões de receitas primárias e R$ 100 milhões de despesas primárias. O resultado é superávit primário de R$ 10 milhões. Se receber mais R$ 20 milhões de empréstimo comum, o resultado primário continua R$ 10 milhões nesse exemplo, porque o empréstimo não é receita primária.",
       "subjectIds": [
         "orcamento-publico"
       ],

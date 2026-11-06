@@ -196,11 +196,24 @@ const siglasEsperadas = [
   ['DEA', 'glo-despesas-de-exercicios-anteriores'],
   ['PAINT', 'glo-paint'],
   ['RAINT', 'glo-raint'],
-  ['PCASP', 'glo-plano-de-contas-aplicado-ao-setor-publico-pcasp']
+  ['PCASP', 'glo-plano-de-contas-aplicado-ao-setor-publico-pcasp'],
+  ['AMF', 'glo-anexo-de-metas-fiscais'],
+  ['ARF', 'glo-anexo-de-riscos-fiscais'],
+  ['ARO', 'glo-antecipacao-de-receita-orcamentaria-aro'],
+  ['DOCC', 'glo-despesa-obrigatoria-de-carater-continuado'],
+  ['GND', 'glo-grupo-de-natureza-da-despesa-gnd'],
+  ['RCL', 'glo-receita-corrente-liquida-rcl'],
+  ['RGF', 'glo-rgf-relatorio-de-gestao-fiscal'],
+  ['RREO', 'glo-rreo-relatorio-resumido-da-execucao-orcamentaria'],
+  ['SIC', 'glo-sistema-de-informacao-de-custos-sic'],
+  ['UO', 'glo-unidade-orcamentaria'],
+  ['NE', 'glo-nota-de-empenho'],
+  ['OP', 'glo-ordem-de-pagamento']
 ];
 for (const [sigla, id] of siglasEsperadas) {
   const entry = published.terms.find(term => term.id === id);
-  assert(entry && (entry.term === sigla || entry.aliases.includes(sigla)),
+  assert(entry && (entry.term === sigla || entry.aliases.includes(sigla) ||
+    new RegExp('(^|\\W)' + sigla + '($|\\W)').test(entry.term)),
     'Sigla ausente no verbete correspondente: ' + sigla);
   assert.equal(match(sigla)[0]?.id, id, 'Busca deve priorizar a sigla: ' + sigla);
 }

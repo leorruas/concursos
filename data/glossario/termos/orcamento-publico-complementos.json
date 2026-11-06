@@ -229,7 +229,9 @@
     {
       "id": "glo-nota-de-empenho",
       "term": "Nota de empenho",
-      "aliases": [],
+      "aliases": [
+        "NE"
+      ],
       "definition": "Documento que registra um empenho e informações como credor, valor, objeto e dotação utilizada para a despesa.",
       "contrast": "Empenho é o ato que compromete o crédito do orçamento. Nota de empenho é o documento que o formaliza, e não prova que o bem foi entregue.",
       "cebraspeTrap": "Afirmar que a emissão do documento prova a entrega do bem ou a liquidação da despesa.",
@@ -258,7 +260,9 @@
     {
       "id": "glo-ordem-de-pagamento",
       "term": "Ordem de pagamento",
-      "aliases": [],
+      "aliases": [
+        "OP"
+      ],
       "definition": "Autorização dada por autoridade competente para que uma despesa já liquidada seja paga pela tesouraria.",
       "contrast": "A ordem autoriza o desembolso após a verificação do direito do credor. Só o pagamento efetivo comprova que o dinheiro saiu.",
       "cebraspeTrap": "Equiparar assinatura da ordem de pagamento ao comprovante de transferência financeira já realizada.",

@@ -1569,7 +1569,7 @@
       "id": "glo-unidade-orcamentaria",
       "term": "Unidade orçamentária",
       "aliases": [
-        "UO (unidade orçamentária)"
+        "UO"
       ],
       "definition": "Parte da estrutura do orçamento que recebe dotações específicas para realizar despesas. Não precisa corresponder a um prédio ou setor físico.",
       "contrast": "A unidade orçamentária recebe a dotação. O órgão orçamentário agrega unidades para organizar a programação.",

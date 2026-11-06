@@ -8,10 +8,10 @@
       "aliases": [
         "Ativo financeiro da Lei 4.320"
       ],
-      "definition": "Dinheiro e direitos que o governo pode realizar sem precisar de autorização orçamentária para isso. Essa é a classificação legal do art. 105 da Lei nº 4.320/1964.",
-      "contrast": "Ativo é todo recurso controlado que pode oferecer serviços ou benefícios, como caixa e equipamentos. Ativo financeiro é um recorte usado no quadro legal do Balanço Patrimonial; não é sinônimo de todo ativo nem de ativo circulante.",
-      "cebraspeTrap": "Dizer que todo ativo de curto prazo é financeiro, que ativo financeiro é apenas dinheiro em caixa ou que os equipamentos da escola são automaticamente ativos financeiros.",
-      "example": "O município tem R$ 100 em caixa e um computador usado na escola. Ambos são ativos, mas o caixa integra o ativo financeiro; o computador, em regra, o permanente do quadro legal.",
+      "definition": "É o dinheiro que o governo tem disponível e outros valores que pode receber ou utilizar sem precisar de uma nova autorização no orçamento. Na contabilidade pública, essa é uma classificação prevista na Lei nº 4.320/1964.",
+      "contrast": "Pense em duas coisas que uma escola pública possui: dinheiro no banco e computadores. Ambas são ativos, isto é, recursos da escola. O dinheiro entra no ativo financeiro; os computadores, em regra, no ativo permanente. Ativo financeiro não significa simplesmente tudo que será usado em pouco tempo, nem se limita ao dinheiro já depositado.",
+      "cebraspeTrap": "Confundir ativo financeiro com qualquer ativo de curto prazo, considerar que ele inclui todos os bens da instituição ou limitar a categoria ao dinheiro que já está no caixa.",
+      "example": "Uma prefeitura tem R$ 100 na conta bancária e computadores nas escolas. Os R$ 100 são ativo financeiro; os computadores são, em regra, ativo permanente. Ambos continuam sendo recursos do município.",
       "articleIds": [
         "art-bf384b8a28aa4753",
         "art-85b3a61ad09e44c1"
@@ -40,10 +40,10 @@
       "aliases": [
         "Passivo financeiro da Lei 4.320"
       ],
-      "definition": "Dívidas e compromissos que podem ser pagos sem nova autorização orçamentária. É uma classificação legal usada no quadro financeiro/permanente do Balanço Patrimonial.",
-      "contrast": "Passivo patrimonial é obrigação presente decorrente de um fato passado. Passivo financeiro segue a regra orçamentária do art. 105 e pode incluir empenhos a liquidar sem obrigação patrimonial já reconhecida.",
-      "cebraspeTrap": "Afirmar que passivo financeiro é igual a passivo circulante ou que todo valor do passivo financeiro também precisa ser passivo patrimonial no quadro principal do Balanço.",
-      "example": "A escola empenhou R$ 30 por serviço ainda não prestado. O empenho a liquidar pode integrar o passivo financeiro no quadro legal, sem criar, por si, passivo patrimonial.",
+      "definition": "São dívidas e compromissos do governo que já podem ser pagos com a autorização orçamentária existente, sem precisar de uma nova autorização para aquela despesa. Essa classificação também considera situações de despesas já empenhadas previstas no MCASP.",
+      "contrast": "Passivo patrimonial é uma obrigação que a contabilidade já reconhece. Passivo financeiro segue outro critério, ligado ao orçamento e à exigibilidade. Uma despesa empenhada por serviço ainda não prestado pode entrar no passivo financeiro mesmo sem passivo patrimonial reconhecido. Passivo financeiro também não é sinônimo de dívida de curto prazo.",
+      "cebraspeTrap": "Afirmar que passivo financeiro é toda dívida que vence logo, ou que só pode existir quando a obrigação já tiver sido reconhecida como passivo patrimonial.",
+      "example": "Uma escola reserva R$ 30 no orçamento para pagar um serviço, mas o serviço ainda não foi prestado. Esse empenho a liquidar pode entrar no passivo financeiro, embora ainda não exista a mesma obrigação no passivo patrimonial.",
       "articleIds": [
         "art-bf384b8a28aa4753",
         "art-85b3a61ad09e44c1"
@@ -73,10 +73,10 @@
         "Ativo permanente da Lei 4.320",
         "Ativo não financeiro no quadro legal do BP"
       ],
-      "definition": "Categoria legal do 2º quadro do Balanço Patrimonial: abrange bens, créditos e valores cuja mobilização ou alienação depende de autorização legislativa, conforme o art. 105, § 2º, da Lei nº 4.320/1964. No PCASP, identifica-se pelo atributo Permanente (P).",
-      "contrast": "É diferente de ativo patrimonial, que abrange todos os recursos controlados pela entidade, e de ativo não circulante, cujo critério envolve ciclo operacional, uso e prazo. Financeiro/permanente no 2º quadro do BP é outro eixo de classificação: nem todo crédito a receber é ativo financeiro. O atributo P não significa que o bem seja necessariamente de longo prazo ou que cada operação exija uma lei individual específica.",
-      "cebraspeTrap": "Confundir ativo permanente com ativo não circulante; afirmar que qualquer crédito a receber já é ativo financeiro; ou inferir que todo bem permanente exige aprovação individual do Congresso para cada movimentação.",
-      "example": "Uma universidade registra computadores utilizados nas aulas: são ativo não circulante no Quadro Principal e, em regra, ativo permanente (P) no quadro legal. Um crédito tributário a receber reconhecido antes da arrecadação também pode ter atributo P; quando é arrecadado, o dinheiro em caixa possui atributo F.",
+      "definition": "São bens e valores que pertencem ao governo e que, pelas regras do orçamento, não podem ser simplesmente transformados em dinheiro disponível para gastar. Computadores, equipamentos e certos valores que o governo tem a receber são exemplos possíveis. Na Lei nº 4.320/1964, essa categoria depende das regras de autorização para usar ou vender esses recursos.",
+      "contrast": "Ativo é tudo que o órgão controla e que pode trazer benefícios ou prestar serviços. Ativo permanente é uma classificação especial do orçamento: olha para a autorização necessária para utilizar ou vender certos bens e valores. Ativo não circulante é outra classificação, ligada ao prazo ou à forma de uso. Assim, permanente não significa apenas 'que dura muito'. Na contabilidade, o grupo pode aparecer com a letra P.",
+      "cebraspeTrap": "Pensar que permanente significa apenas bem durável, confundir com ativo não circulante ou afirmar que todo valor a receber já é ativo financeiro. A letra P não significa que cada movimentação exige uma lei específica.",
+      "example": "Uma universidade pública usa computadores nas aulas. Eles são recursos da universidade, mas não são dinheiro disponível para pagar despesas. Por isso, em regra, são classificados como ativo permanente no quadro legal. Já o dinheiro da conta bancária costuma ser ativo financeiro.",
       "articleIds": [
         "art-bf384b8a28aa4753"
       ],
@@ -105,10 +105,10 @@
         "Passivo permanente da Lei 4.320",
         "Passivo não financeiro no quadro legal do BP"
       ],
-      "definition": "Categoria legal do 2º quadro do Balanço Patrimonial: compreende dívidas fundadas e outras obrigações cuja amortização ou resgate depende de autorização legislativa, conforme o art. 105, § 4º, da Lei nº 4.320/1964. No PCASP, as parcelas que ainda dependem de execução orçamentária costumam ter atributo Permanente (P).",
-      "contrast": "Não é sinônimo de passivo não circulante nem de todo passivo patrimonial. A classificação P/F não depende simplesmente do prazo de vencimento: após o empenho de uma parcela de dívida que exige autorização orçamentária, essa parcela passa do atributo P ao Financeiro (F), enquanto o saldo ainda não empenhado pode permanecer P. Passivos extraorçamentários, como cauções, podem ser financeiros sem empenho.",
-      "cebraspeTrap": "Concluir que toda dívida de longo prazo é integralmente passivo permanente, inclusive a parcela já empenhada; afirmar que a classificação muda somente na liquidação ou no pagamento; ou equiparar permanente a não circulante.",
-      "example": "Um ente tem R$ 100 mil de principal de empréstimo registrado com atributo P. Se empenha R$ 20 mil para amortização e ainda não paga, essa parcela passa a atributo F; os outros R$ 80 mil permanecem P no exemplo, desde que não haja outros fatos ou reclassificações. A dívida patrimonial continua existindo até seu pagamento ou outra forma de extinção.",
+      "definition": "São dívidas e compromissos do governo cujo pagamento ainda depende de autorização pelo orçamento. Em uma dívida de longo prazo, por exemplo, a parte que ainda não recebeu autorização para ser paga pode continuar nessa categoria.",
+      "contrast": "Passivo permanente não significa simplesmente dívida que demora a vencer. O critério importante é se o pagamento ainda depende de autorização orçamentária. Quando uma parcela é empenhada, ela pode passar à classificação financeira, mesmo que a dívida total continue registrada como obrigação do governo. A contabilidade usa a letra P para identificar o atributo permanente.",
+      "cebraspeTrap": "Tratar toda dívida longa como passivo permanente, inclusive parcelas já empenhadas; dizer que a mudança ocorre apenas no pagamento; ou confundir permanente com passivo não circulante.",
+      "example": "Um município deve R$ 100 mil de um empréstimo. Se R$ 20 mil são empenhados para pagamento, essa parte passa, em regra, à classificação financeira. Os R$ 80 mil restantes continuam na permanente, se ainda dependem de autorização e não houve outros fatos.",
       "articleIds": [
         "art-bf384b8a28aa4753"
       ],

@@ -323,6 +323,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/79 - publicidade e propaganda conceitos funcoes e limites|Publicidade e propaganda: conceitos, funções e limites]]
   - [[3 - Materias/Comunicacao/80 - teorias da publicidade e persuasao|Teorias da publicidade e persuasão]]
   - [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|Publicidade institucional, mercadológica, de utilidade pública e legal]]
+  - [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|Briefing publicitário: problema, contexto, informações e critérios de qualidade]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

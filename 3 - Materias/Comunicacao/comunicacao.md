@@ -63,6 +63,8 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras|53. Identidade, imagem e reputação organizacional]]: CAM-CO-007, Albert/Whetten, Brown e coautores, Hatch/Schultz, Fombrun, RQ e itens C/E.
 - [[3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao|54. Riscos, prevenção e diagnóstico de crises]]: CAM-CO-008, issues management, Fink e Coombs.
 - [[3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao|55. Resposta a crises: estratégias, canais e avaliação]]: CAM-CO-009, SCCT, CERC, públicos e itens C/E.
+- [[3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch|56. Comunicação organizacional: escopo e dimensões de Kunsch]]: CAM-CO-010, quatro dimensões (2014), três (2012), categorias vizinhas e C/E.
+- [[3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca|57. Comunicação integrada: modalidades e governança]]: CAM-CO-011, composto de Kunsch, finalidade, integração, meios e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

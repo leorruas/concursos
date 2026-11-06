@@ -297,6 +297,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras|Identidade, imagem e reputação organizacional: autores e fronteiras]]
   - [[3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao|Riscos, prevenção e diagnóstico de crises de comunicação]]
   - [[3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao|Resposta a crises: etapas, estratégias, canais e avaliação]]
+  - [[3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch|Comunicação organizacional: escopo e dimensões de Kunsch]]
+  - [[3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca|Comunicação integrada: modalidades, articulação e governança]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

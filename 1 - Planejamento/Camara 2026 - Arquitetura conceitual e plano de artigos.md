@@ -269,7 +269,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-TC-021 · F3**: Plataformização: infraestrutura, regras e mediação.
 - [x] **CAM-TC-022 · F3**: Desinformação, informação incorreta e informação maliciosa.
 - [x] **CAM-TC-023 · F3**: Integridade da informação: mecanismos e limites.
-- [ ] **CAM-TC-024 · F3**: Comparação de teorias: pergunta, unidade de análise e efeito.
+- [x] **CAM-TC-024 · F3**: Comparação de teorias: pergunta, unidade de análise e efeito.
 
 ### CO: Comunicação Organizacional, Pública e Digital (32 candidatos)
 
@@ -512,11 +512,11 @@ Próxima tarefa: **CAM-TC-024, comparação de teorias por pergunta e unidade de
 
 ## Lote 10: síntese comparativa e fechamento editorial da trilha TC
 
-- [ ] **CAM-TC-024 · artigo criado; publicação a validar**: [[3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos|Comparação das teorias da comunicação: perguntas, unidades de análise e efeitos]] (`art-cf270947be50a816`). Nota autônoma de integração, com perguntas, unidades, mecanismos, quatro mapas de classificação, fronteiras entre abordagens, casos progressivos e itens inéditos C/E. **Decisão: novo**, mantendo os aprofundamentos e as fontes nos artigos canônicos já existentes.
+- [x] **CAM-TC-024 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos|Comparação das teorias da comunicação: perguntas, unidades de análise e efeitos]] (`art-cf270947be50a816`). Nota autônoma de integração, com perguntas, unidades, mecanismos, quatro mapas de classificação, fronteiras entre abordagens, casos progressivos e itens inéditos C/E. **Decisão: novo**, mantendo os aprofundamentos e as fontes nos artigos canônicos já existentes.
 
 **Fechamento editorial:** os 24 candidatos TC passam a ter artigos completos ou vínculo de reuso, sem presumir progresso pessoal. Permanecem pendentes a auditoria F4 de fontes e aderência integral ao edital, aplicação de questões reais e avaliação de retenção. Catálogos e notas da CGU e Dataprev permanecem preservados.
 
-**Validação de publicação pendente:** confirmar workflow, build, privacidade, busca e catálogo ao vivo antes de assinalar a conclusão deste item.
+**Publicação confirmada:** o [workflow 42143154319](https://github.com/leorruas/concursos/actions/runs/42143154319) terminou com resultado **success**, incluindo build, verificação de identidade, catálogo, busca, auditoria de privacidade e conferência do manifesto ao vivo no GitHub Pages. Esse resultado não comprova estudo, recuperação nem retenção.
 
 **Próxima frente editorial:** auditar para reuso as notas [[3 - Materias/Comunicacao/09 - comunicacao interna|Comunicação interna]] e [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]] antes de iniciar CAM-CO-001 a CAM-CO-004, sem reescrever conteúdo de outros concursos.
 

@@ -114,10 +114,10 @@
       "id": "glo-dotacao-orcamentaria",
       "term": "Dotação orçamentária",
       "aliases": [],
-      "definition": "Valor autorizado no orçamento para uma despesa ou programação. É o limite legal inicial que pode ser alterado por créditos adicionais e outras mudanças previstas.",
-      "contrast": "Dotação autoriza gastar até certo valor, mas empenhar compromete uma parte dela. Ter dotação não significa ter dinheiro em caixa para pagar imediatamente.",
-      "cebraspeTrap": "Concluir que dotação autorizada significa dinheiro já transferido ao fornecedor ou disponível para pagamento imediato.",
-      "example": "A lei reserva recursos a um laboratório, mas nenhuma compra foi ainda empenhada.",
+      "definition": "É a quantia que o orçamento autoriza o governo a gastar em determinada atividade ou finalidade. A dotação indica um limite de despesa, não um depósito de dinheiro. Seu valor pode mudar durante o ano por créditos adicionais e outras alterações permitidas.",
+      "contrast": "Dotação é autorização. Saldo de dotação é a parte ainda não comprometida. Empenho registra o compromisso de usar parte dessa autorização; liquidação confere o direito do fornecedor; pagamento transfere o dinheiro. Ter dotação não garante caixa disponível nem dispensa limites de empenho ou regras de fonte/destinação.",
+      "cebraspeTrap": "A banca pode confundir autorização orçamentária com dinheiro disponível ou gasto realizado. A dotação, por si só, não prova nenhum desses fatos.",
+      "example": "A lei autoriza R$ 100 mil para equipamentos. O órgão empenha R$ 40 mil em computadores: restam R$ 60 mil de saldo de dotação, se não houve outras alterações. Isso não significa que os computadores já chegaram ou que há R$ 60 mil livres no banco.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -143,10 +143,10 @@
       "id": "glo-empenho-ordinario",
       "term": "Empenho ordinário",
       "aliases": [],
-      "definition": "Tipo de empenho usado, em regra, quando o valor da despesa já é conhecido e o pagamento será feito de uma vez.",
-      "contrast": "Empenho ordinário tem valor conhecido e pagamento único. Global admite parcelas com total conhecido; por estimativa é usado quando o total não pode ser determinado antes.",
-      "cebraspeTrap": "Classificar contrato de execução parcelada de valor conhecido como estimativo apenas pela existência de parcelas.",
-      "example": "Compra pontual de móveis por valor conhecido e pagamento único pode utilizar empenho ordinário.",
+      "definition": "É o tipo de empenho usado quando o valor da despesa já é conhecido e o pagamento será feito de uma só vez. Empenho significa registrar o compromisso da despesa no orçamento; a modalidade ordinária indica como se conhece o valor e como será feito o pagamento.",
+      "contrast": "No empenho global, o valor total também é conhecido, mas o pagamento ocorre em parcelas. No empenho por estimativa, ainda não se conhece com segurança o valor total da despesa. O fato de o contrato ter valor conhecido não basta para ser ordinário se o pagamento for parcelado. Empenhar não significa pagar.",
+      "cebraspeTrap": "Valor conhecido não separa sozinho ordinário de global: é preciso observar se o pagamento será único ou parcelado.",
+      "example": "Uma escola compra dez mesas por R$ 5 mil, com entrega e pagamento único previstos. O gasto pode ser empenhado de forma ordinária. Se o mesmo valor fosse pago em parcelas ao longo da execução, a situação poderia exigir empenho global.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -172,10 +172,10 @@
       "id": "glo-empenho-global",
       "term": "Empenho global",
       "aliases": [],
-      "definition": "Tipo de empenho usado, em geral, quando a despesa tem valor total conhecido, mas será executada ou paga em parcelas.",
-      "contrast": "Global tem total conhecido, com execução parcelada. Por estimativa é usado quando o valor final ainda não pode ser determinado.",
-      "cebraspeTrap": "Dizer que qualquer pagamento mensal exige empenho estimativo mesmo quando o valor global do compromisso é conhecido.",
-      "example": "Um contrato com valor anual fixo e execução mensal pode ser empenhado globalmente.",
+      "definition": "É o tipo de empenho usado para uma despesa cujo valor total já é conhecido, mas que será paga em parcelas. O governo registra o compromisso total no orçamento e paga cada parte quando cumprir as etapas necessárias.",
+      "contrast": "No empenho ordinário, o valor é conhecido e o pagamento ocorre de uma só vez. No empenho por estimativa, não se conhece antecipadamente o valor total, como pode acontecer com consumo variável. Ter pagamentos mensais não torna o empenho estimativo se o total contratado já é determinado.",
+      "cebraspeTrap": "A banca pode chamar de estimativo qualquer contrato mensal. A diferença é se o total da despesa é conhecido, e não apenas a frequência dos pagamentos.",
+      "example": "Um órgão contrata serviço de valor total fixo de R$ 24 mil, a pagar em doze parcelas de R$ 2 mil. Como o total é conhecido e o pagamento é parcelado, o empenho pode ser global. Cada parcela ainda exige conferência do direito ao pagamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -201,10 +201,10 @@
       "id": "glo-empenho-por-estimativa",
       "term": "Empenho por estimativa",
       "aliases": [],
-      "definition": "Tipo de empenho usado quando ainda não se sabe o valor total da despesa, como em contas de energia cujo consumo varia.",
-      "contrast": "Por estimativa depende de valor total desconhecido. Ter parcelas mensais, por si só, não transforma um contrato de preço total definido em empenho estimativo.",
-      "cebraspeTrap": "Tratar todo contrato de serviço mensal como estimativo, embora exista valor contratual total determinado.",
-      "example": "A conta de eletricidade de consumo variável ao longo do ano pode ser empenhada por estimativa.",
+      "definition": "É o tipo de empenho usado quando não se pode saber antecipadamente quanto será o gasto total. O governo registra uma previsão e, depois, acompanha o valor realmente devido. A conta de energia de consumo variável é um exemplo comum.",
+      "contrast": "No empenho ordinário, o valor é conhecido e o pagamento é único. No global, o total é conhecido, mas o pagamento é parcelado. No empenho por estimativa, o total ainda é incerto. Se a previsão ficar pequena, o empenho pode precisar de reforço, desde que exista autorização e sejam atendidas as regras.",
+      "cebraspeTrap": "Uma despesa paga em várias parcelas não é automaticamente por estimativa. O critério principal é não poder determinar antes o total do gasto.",
+      "example": "A prefeitura prevê gastar R$ 15 mil com eletricidade no período, mas o consumo pode variar. Faz empenho por estimativa. Se as contas somarem R$ 17 mil, será necessário verificar a possibilidade de reforçar o empenho antes de executar despesa além do valor comprometido.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -232,10 +232,10 @@
       "aliases": [
         "NE"
       ],
-      "definition": "Documento que registra um empenho e informações como credor, valor, objeto e dotação utilizada para a despesa.",
-      "contrast": "Empenho é o ato que compromete o crédito do orçamento. Nota de empenho é o documento que o formaliza, e não prova que o bem foi entregue.",
-      "cebraspeTrap": "Afirmar que a emissão do documento prova a entrega do bem ou a liquidação da despesa.",
-      "example": "A unidade registra nota de empenho para aquisição, mas o fornecedor ainda não entregou os equipamentos.",
+      "definition": "É o documento que registra o empenho de uma despesa, informando dados como valor, finalidade, fornecedor e verba do orçamento utilizada. O empenho é o ato que compromete a verba; a nota é o registro documental desse ato.",
+      "contrast": "Nota de empenho não é nota fiscal: a primeira documenta o compromisso orçamentário; a segunda pode documentar uma venda ou serviço. Emitir a nota de empenho não comprova a entrega, a liquidação nem o pagamento. Em casos especiais previstos na Lei nº 4.320/1964, pode haver dispensa de emissão da nota, sem dispensa do empenho.",
+      "cebraspeTrap": "Confundir documento de empenho com comprovante de entrega ou de pagamento torna a classificação errada. Também não se deve confundir dispensa da nota com dispensa do empenho.",
+      "example": "Uma escola emite nota de empenho de R$ 6 mil para comprar armários. O documento informa o compromisso, mas os armários podem chegar apenas no mês seguinte. Depois, o órgão precisará conferir a entrega antes de pagar.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -263,10 +263,10 @@
       "aliases": [
         "OP"
       ],
-      "definition": "Autorização dada por autoridade competente para que uma despesa já liquidada seja paga pela tesouraria.",
-      "contrast": "A ordem autoriza o desembolso após a verificação do direito do credor. Só o pagamento efetivo comprova que o dinheiro saiu.",
-      "cebraspeTrap": "Equiparar assinatura da ordem de pagamento ao comprovante de transferência financeira já realizada.",
-      "example": "Depois de verificar bens e credor, a autoridade emite a ordem para a tesouraria processar o pagamento.",
+      "definition": "É a autorização formal para que a tesouraria pague uma despesa cujo direito do credor já foi conferido na liquidação. Fica entre a conferência da despesa e a transferência efetiva do dinheiro, conforme as regras da Lei nº 4.320/1964.",
+      "contrast": "Empenho reserva formalmente parte da verba; liquidação verifica quem deve receber e quanto; ordem de pagamento autoriza a tesouraria a pagar; pagamento é a saída efetiva do dinheiro. A assinatura da ordem não demonstra que a conta do fornecedor já recebeu o valor.",
+      "cebraspeTrap": "Uma ordem assinada não é comprovante de transferência. A banca pode antecipar o pagamento para a etapa da autorização.",
+      "example": "A prefeitura confere a entrega de cadeiras e liquida R$ 4 mil. A autoridade competente emite ordem de pagamento. Só quando a transferência é realizada os R$ 4 mil são efetivamente pagos ao fornecedor.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -290,10 +290,10 @@
       "aliases": [
         "RPNP a liquidar"
       ],
-      "definition": "Despesa empenhada e não paga até o fim do ano, cujo bem ainda não foi entregue ou serviço ainda não foi prestado, de forma que o fato gerador patrimonial não ocorreu.",
-      "contrast": "'A liquidar' indica fato gerador ainda não ocorrido. 'Em liquidação' indica que o fato ocorreu, mas a conferência formal do direito do credor não terminou.",
-      "cebraspeTrap": "Afirmar que todo resto a pagar não processado indica serviço já prestado e pendência meramente documental.",
-      "example": "Empenho de serviço que não foi prestado até 31 de dezembro pode permanecer a liquidar se a inscrição for válida.",
+      "definition": "São despesas que o governo empenhou e não pagou até o fim do ano e para as quais a entrega do bem ou a prestação do serviço ainda não aconteceu, de acordo com a situação registrada. Podem permanecer como restos a pagar não processados a liquidar se a inscrição atender às condições legais.",
+      "contrast": "A liquidar indica que ainda falta acontecer o fato que gera a obrigação patrimonial, como a entrega. Em liquidação indica que o bem ou serviço já foi entregue, mas ainda falta terminar a conferência formal. Processado significa que a liquidação foi concluída. A inscrição regular não faz surgir uma dívida patrimonial pelo serviço que ainda não foi prestado.",
+      "cebraspeTrap": "Nem todo resto a pagar não processado está na mesma situação: a liquidar significa que ainda não ocorreu o fato que produziria a obrigação, diferentemente de em liquidação.",
+      "example": "Em dezembro, a universidade empenhou R$ 3 mil por manutenção agendada para janeiro. Como o serviço ainda não ocorreu, a despesa está a liquidar. Se o empenho atender às condições de inscrição, poderá constar entre os restos a pagar não processados a liquidar.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -321,10 +321,10 @@
       "aliases": [
         "RPNP em liquidação"
       ],
-      "definition": "Despesa empenhada e não paga até o fim do ano cujo serviço ou entrega já aconteceu, mas a administração ainda não concluiu a liquidação formal.",
-      "contrast": "'Em liquidação' continua entre os restos não processados, embora possa haver obrigação patrimonial. Processado exige liquidação formal concluída.",
-      "cebraspeTrap": "Classificar como resto processado um serviço executado que ainda não teve direito do credor formalmente liquidado.",
-      "example": "Serviço realizado em dezembro e atestado apenas em janeiro pode exigir registro em liquidação.",
+      "definition": "São despesas empenhadas e não pagas até o fim do ano para as quais a entrega ou o serviço já aconteceu, mas a conferência formal chamada liquidação ainda não terminou. Mesmo com o fato ocorrido, continuam não processadas até que essa conferência seja concluída.",
+      "contrast": "A liquidar aponta para fato ainda não ocorrido. Em liquidação indica fato ocorrido e verificação pendente. Processado exige liquidação concluída até o encerramento do exercício. Um serviço prestado pode gerar obrigação patrimonial antes da liquidação, mas isso não transforma automaticamente o resto a pagar em processado.",
+      "cebraspeTrap": "Serviço executado não é sinônimo de resto a pagar processado: a diferença é se a liquidação formal terminou.",
+      "example": "A escola recebeu dez mesas em dezembro e tem empenho de R$ 5 mil. O órgão ainda verifica a quantidade e a qualidade em janeiro. No encerramento do ano, se atendidas as condições de inscrição, os R$ 5 mil podem ficar como restos a pagar não processados em liquidação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -385,10 +385,10 @@
       "id": "glo-superavit-financeiro",
       "term": "Superávit financeiro",
       "aliases": [],
-      "definition": "Saldo positivo encontrado ao comparar ativo financeiro e passivo financeiro no balanço patrimonial do ano anterior, com os ajustes exigidos pela Lei nº 4.320/1964.",
-      "contrast": "Superávit financeiro é um saldo apurado no ano anterior e pode financiar certos créditos adicionais. Excesso de arrecadação é receita além da previsão no ano atual.",
-      "cebraspeTrap": "Tratar superávit primário do ano corrente como comprovação automática de superávit financeiro disponível para crédito.",
-      "example": "O balanço do exercício anterior indica saldo financeiro positivo ajustado, que pode servir de recurso para crédito.",
+      "definition": "É o resultado positivo da diferença entre o ativo financeiro e o passivo financeiro apurados no Balanço Patrimonial do exercício anterior, observados os ajustes exigidos pela Lei nº 4.320/1964. Pode servir de recurso para abrir certos créditos adicionais no orçamento. O cálculo precisa respeitar as fontes de recursos e os compromissos existentes.",
+      "contrast": "Ativo financeiro inclui caixa e valores realizáveis sem nova autorização orçamentária; passivo financeiro reúne obrigações e compromissos pagáveis sem essa nova autorização. Ter saldo bancário positivo não significa ter superávit financeiro utilizável: é preciso descontar as obrigações e considerar os ajustes legais e a destinação do dinheiro. Excesso de arrecadação usa a receita do próprio exercício e sua tendência, sendo outro tipo de recurso para créditos adicionais.",
+      "cebraspeTrap": "Superávit financeiro não equivale a caixa final, superávit primário, sobra de dotação ou arrecadação acima da previsão. A banca pode substituir uma dessas medidas por outra.",
+      "example": "No balanço do ano anterior, uma fonte apresenta R$ 100 mil de ativo financeiro e R$ 70 mil de passivo financeiro. A diferença inicial é R$ 30 mil. Esse valor só poderá fundamentar crédito adicional depois de examinar os ajustes legais, a fonte/destinação e outros valores que a regra exigir; não se pode tratá-lo automaticamente como verba livre para qualquer gasto.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -414,10 +414,10 @@
       "id": "glo-excesso-de-arrecadacao",
       "term": "Excesso de arrecadação",
       "aliases": [],
-      "definition": "Valor arrecadado acima do previsto para o período, quando a tendência do exercício e os ajustes legais confirmam que existe excesso utilizável para créditos adicionais.",
-      "contrast": "Excesso de arrecadação considera receitas do exercício atual e sua tendência. Superávit financeiro é apurado no balanço do exercício anterior.",
-      "cebraspeTrap": "Concluir que arrecadação maior em um único mês prova excesso anual livre para abrir crédito.",
-      "example": "A receita efetiva acumulada ultrapassa a previsão e a tendência do exercício confirma excesso na forma legal.",
+      "definition": "É a arrecadação de receitas acima do que se esperava, considerada junto com a tendência para o restante do exercício e os ajustes legais. Quando os requisitos são atendidos, pode servir de recurso para abrir créditos adicionais no orçamento.",
+      "contrast": "Excesso de arrecadação olha para a execução das receitas do ano em curso, comparando o que foi previsto e o que efetivamente entrou, com análise da tendência. Superávit financeiro é calculado com dados do Balanço Patrimonial do exercício anterior, a partir de ativos e passivos financeiros. Receber muito em um único mês não prova, sozinho, excesso utilizável para o ano.",
+      "cebraspeTrap": "Resultado positivo de um mês não é automaticamente excesso de arrecadação anual. Também não se pode confundir essa fonte de crédito adicional com superávit financeiro do ano anterior.",
+      "example": "O município previa arrecadar R$ 12 milhões no ano. Até setembro, a arrecadação superou a previsão para o período, mas é necessário avaliar o restante do ano e os ajustes legais antes de dizer qual valor pode financiar um crédito adicional. Uma entrada excepcional em setembro pode não se repetir.",
       "subjectIds": [
         "orcamento-publico"
       ],

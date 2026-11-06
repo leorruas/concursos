@@ -1086,10 +1086,10 @@
       "aliases": [
         "Receita tributária (origem)"
       ],
-      "definition": "Grupo de receitas correntes que reúne o que o governo arrecada com impostos, taxas e contribuições de melhoria. Na classificação por natureza, esses tributos têm espécies próprias.",
-      "contrast": "Imposto, taxa e contribuição de melhoria são tributos diferentes, embora apareçam juntos na mesma origem de receita.",
-      "cebraspeTrap": "Equiparar contribuição de melhoria a contribuição previdenciária apenas pela palavra contribuição.",
-      "example": "Imposto sobre a renda e taxa por exercício do poder de polícia têm espécies distintas nessa origem.",
+      "definition": "É uma origem de receitas correntes que reúne três tipos de tributo: impostos, taxas e contribuições de melhoria. Os três são cobrados conforme a lei, mas têm motivos diferentes. Imposto não depende de serviço específico prestado ao contribuinte; taxa está ligada a atividade estatal específica prevista em lei; contribuição de melhoria pode ser cobrada em razão da valorização de imóvel causada por obra pública, nos limites legais.",
+      "contrast": "As três categorias pertencem a uma mesma origem na classificação da receita, mas são espécies diferentes. Contribuição de melhoria não é contribuição previdenciária: esta aparece na origem de receitas de contribuições. Receitas de serviços, como certos preços públicos, também não se confundem automaticamente com taxas, que são tributos.",
+      "cebraspeTrap": "A palavra 'contribuição' não faz contribuição de melhoria pertencer à mesma origem das contribuições previdenciárias. Também não é correto chamar qualquer preço cobrado por serviço de taxa.",
+      "example": "O município recebe IPTU de um imóvel, taxa legal pela atividade de fiscalização e contribuição de melhoria relacionada à valorização por obra pública, se atendidos os requisitos legais. Os três ingressos pertencem à origem de impostos, taxas e contribuições de melhoria, com espécies diferentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1115,10 +1115,10 @@
       "id": "glo-receita-de-contribuicoes",
       "term": "Receita de contribuições",
       "aliases": [],
-      "definition": "Grupo de receitas correntes formado por contribuições previstas em lei, como contribuições sociais e de intervenção no domínio econômico, nos casos classificados nessa origem.",
-      "contrast": "Contribuições são origem própria na classificação por natureza. Não se confundem com impostos, taxas e contribuições de melhoria.",
-      "cebraspeTrap": "Colocar a contribuição previdenciária na mesma espécie da contribuição de melhoria.",
-      "example": "A arrecadação de contribuição previdenciária social integra a origem receita de contribuições.",
+      "definition": "É uma origem de receitas correntes que reúne contribuições previstas em lei, como contribuições sociais e outras espécies que o classificador orçamentário coloca nesse grupo. A classificação identifica o tipo de receita arrecadada pelo governo.",
+      "contrast": "Contribuição previdenciária pode integrar a origem receitas de contribuições. Já a contribuição de melhoria, ligada à valorização de imóvel por obra pública, aparece na origem de impostos, taxas e contribuições de melhoria. O nome contribuição não basta para classificar o ingresso: é necessário observar sua natureza legal.",
+      "cebraspeTrap": "A banca pode reunir todos os tributos que têm 'contribuição' no nome em uma origem única. A contribuição de melhoria pertence a grupo diferente.",
+      "example": "O governo arrecada contribuição social previdenciária e registra a receita na origem de contribuições. Se um município cobrar contribuição de melhoria após obra que valorizou imóveis, essa outra cobrança integra a origem de impostos, taxas e contribuições de melhoria.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1144,10 +1144,10 @@
       "id": "glo-receita-patrimonial",
       "term": "Receita patrimonial",
       "aliases": [],
-      "definition": "Dinheiro obtido com o patrimônio do ente público, como aluguel de imóveis públicos, dividendos e algumas remunerações financeiras.",
-      "contrast": "Receita patrimonial é origem de receita corrente. Isso não significa que todo valor recebido nela seja primário, pois o indicador fiscal segue outra classificação.",
-      "cebraspeTrap": "Considerar que toda receita patrimonial é primária ou que alienar imóvel é receita patrimonial corrente.",
-      "example": "O governo recebe aluguel de um edifício e registra ingresso de receita corrente patrimonial.",
+      "definition": "É receita corrente que o governo obtém ao usar ou explorar seu patrimônio, como alugar um imóvel público, receber dividendos ou obter determinados rendimentos financeiros. A classificação descreve a origem do dinheiro.",
+      "contrast": "Alugar um imóvel público gera, em regra, receita patrimonial corrente; vender o imóvel gera receita de capital por alienação de bens. Receita patrimonial também não é necessariamente receita primária: rendimentos de aplicações podem ter tratamento financeiro no resultado primário. 'Patrimonial' nesse nome indica origem da receita, não toda variação patrimonial aumentativa da contabilidade.",
+      "cebraspeTrap": "Confundir venda com exploração do bem ou classificar toda receita patrimonial como primária troca a origem orçamentária pelo indicador fiscal.",
+      "example": "A prefeitura recebe R$ 3 mil de aluguel mensal de um prédio: receita corrente patrimonial. Depois vende outro imóvel por R$ 200 mil: a entrada da venda é receita de capital por alienação, não aluguel patrimonial.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1173,10 +1173,10 @@
       "id": "glo-receita-agropecuaria",
       "term": "Receita agropecuária",
       "aliases": [],
-      "definition": "Receita corrente que a entidade pública obtém com atividades de produção vegetal ou animal, conforme o classificador orçamentário.",
-      "contrast": "Essa origem identifica a atividade agropecuária exercida pelo ente. Não é transferência rural recebida de outro governo apenas por ter essa finalidade.",
-      "cebraspeTrap": "Classificar imposto cobrado de produtor rural como receita agropecuária apenas pelo setor econômico do contribuinte.",
-      "example": "Venda de produção agrícola própria de estabelecimento público pode originar receita agropecuária.",
+      "definition": "É receita corrente obtida quando uma entidade pública realiza atividade de produção agrícola ou pecuária e recebe dinheiro pela produção, segundo as regras do classificador de receitas. O nome se refere à atividade que gerou a entrada.",
+      "contrast": "A receita agropecuária decorre de produção vegetal ou animal da própria entidade pública, quando enquadrada nessa origem. Um imposto pago por produtor rural é receita tributária: a profissão ou setor econômico do contribuinte não muda a origem do imposto. Um repasse para apoiar agricultura também pode ser transferência, não receita agropecuária.",
+      "cebraspeTrap": "A banca pode classificar receita pelo setor econômico de quem paga, e não pelo fato que fez o governo recebê-la.",
+      "example": "Uma instituição pública vende parte da produção de sua fazenda experimental e recebe R$ 8 mil, em operação classificada como agropecuária. Já o imposto pago por uma empresa agrícola continua sendo imposto, mesmo que o contribuinte trabalhe no campo.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1202,10 +1202,10 @@
       "id": "glo-receita-industrial",
       "term": "Receita industrial",
       "aliases": [],
-      "definition": "Receita corrente recebida pela atividade industrial realizada pela entidade pública, como produzir e vender bens classificados nessa origem.",
-      "contrast": "A origem industrial depende do tipo de atividade que gera a receita; vender um bem usado do patrimônio pode ser alienação de bens, de capital.",
-      "cebraspeTrap": "Classificar tributo pago por empresa industrial como receita industrial do ente arrecadador.",
-      "example": "Venda de bens resultantes de produção industrial própria pode ser receita industrial.",
+      "definition": "É receita corrente recebida quando uma entidade pública desenvolve atividade industrial e vende os bens resultantes dessa produção, conforme o classificador oficial. O critério é a atividade que deu origem ao valor recebido.",
+      "contrast": "Vender produção industrial própria pode gerar receita industrial. Vender um equipamento usado do patrimônio público é, em regra, alienação de bens, receita de capital. Cobrar imposto de empresa que fabrica produtos é receita tributária, e não industrial do governo.",
+      "cebraspeTrap": "Receita industrial não é todo dinheiro pago por uma indústria. A classificação depende do que o governo fez para receber.",
+      "example": "Uma unidade pública autorizada a produzir determinado bem recebe pela venda da produção: pode registrar receita industrial. Se a mesma unidade vender uma máquina antiga de sua propriedade, a entrada pode ser alienação de bens, pois não resulta da produção industrial vendida.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1231,10 +1231,10 @@
       "id": "glo-receita-de-servicos",
       "term": "Receita de serviços",
       "aliases": [],
-      "definition": "Dinheiro recebido pelo ente público pela prestação remunerada de serviços enquadrados nessa origem da receita corrente.",
-      "contrast": "Receita de serviços decorre de serviço prestado mediante pagamento. Transferência recebida sem contraprestação direta segue outra origem.",
-      "cebraspeTrap": "Afirmar que qualquer cobrança por serviço público constitui taxa, e não receita de serviços.",
-      "example": "Cobrança de preço público por serviço remunerado pode gerar receita corrente de serviços.",
+      "definition": "É receita corrente recebida pela prestação remunerada de serviços do governo ou de entidade pública, quando a operação se enquadra nessa origem. O valor decorre do serviço oferecido e de sua forma de cobrança.",
+      "contrast": "Receita de serviços não é a mesma coisa que taxa: taxa é tributo cobrado nas hipóteses previstas em lei, enquanto certos serviços remunerados por preço público podem gerar receita de serviços. Transferência corrente é dinheiro recebido sem a prestação direta de serviço em troca. A classificação deve olhar a natureza legal da cobrança, não apenas a palavra 'serviço'.",
+      "cebraspeTrap": "Cobrança por atividade pública nem sempre é taxa, e receita de serviços não se confunde com transferência recebida sem prestação direta.",
+      "example": "Uma instituição pública cobra preço permitido por serviço específico que oferece. A entrada pode ser receita corrente de serviços. Já uma taxa de fiscalização criada por lei não vira receita de serviços apenas porque há atuação administrativa envolvida.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1262,10 +1262,10 @@
       "aliases": [
         "Transferências correntes"
       ],
-      "definition": "Recurso recebido de outra pessoa ou entidade, pública ou privada, sem contraprestação direta, destinado a financiar despesas correntes.",
-      "contrast": "Transferência corrente se destina a gastos correntes. Transferência de capital se destina a despesas de capital, conforme a classificação.",
-      "cebraspeTrap": "Classificar como transferência de capital todo repasse intergovernamental apenas porque o valor é elevado.",
-      "example": "Recursos recebidos para manutenção de atendimento em saúde podem ser transferência corrente.",
+      "definition": "É dinheiro que o governo recebe de outra entidade, pessoa ou governo sem entregar diretamente um bem ou serviço em troca e que, pelas regras da operação, se destina a despesas correntes, como manter serviços em funcionamento.",
+      "contrast": "Transferência corrente e de capital são classificadas conforme a natureza e finalidade do recurso. Transferência destinada a construir um hospital pode ser de capital; recurso para manter atendimentos pode ser corrente. A identidade de quem envia não define sozinha a categoria: um mesmo ente pode fazer transferências com finalidades diferentes.",
+      "cebraspeTrap": "Não classificar como capital toda transferência de valor alto nem como corrente toda transferência recebida de outro governo.",
+      "example": "Um estado envia recursos a um município para financiar despesas de funcionamento de serviço de saúde, observadas as regras do repasse. Essa entrada pode ser transferência corrente. Se o repasse se destinar à construção de um prédio, pode ser transferência de capital.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1293,10 +1293,10 @@
       "aliases": [
         "Transferências de capital"
       ],
-      "definition": "Recurso recebido de outra pessoa ou entidade, pública ou privada, sem contraprestação direta, destinado a financiar despesas de capital.",
-      "contrast": "Sua finalidade é financiar despesas de capital. O simples recebimento de dinheiro de outro ente não basta para classificá-lo como capital.",
-      "cebraspeTrap": "Concluir que o simples fato de a União transferir ao município basta para classificar a receita como capital.",
-      "example": "Repasse destinado à construção de hospital pode ser receita de transferência de capital para o município.",
+      "definition": "É dinheiro recebido sem prestação direta de serviço em troca e destinado, conforme as regras da transferência, a financiar despesas de capital, como construir instalações ou realizar investimentos.",
+      "contrast": "A transferência de capital se diferencia da corrente pelo tipo de aplicação previsto. Uma transferência para manter a equipe ou os serviços tende a ser corrente; uma para construir um prédio pode ser de capital. O fato de o recurso vir da União ou ter valor elevado não basta para classificá-lo. Também é diferente da operação de crédito, que cria obrigação de devolver empréstimo.",
+      "cebraspeTrap": "Transferência de capital não é sinônimo de empréstimo, nem depende apenas do valor recebido ou do governo remetente.",
+      "example": "A União transfere R$ 500 mil a um município para construir uma unidade de atendimento, conforme as condições do repasse. Essa entrada pode ser transferência de capital. Se o mesmo valor fosse empréstimo a ser devolvido, seria operação de crédito, não transferência sem contraprestação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1324,10 +1324,10 @@
       "aliases": [
         "Operações de crédito"
       ],
-      "definition": "Forma de obter recursos criando obrigação de pagar uma dívida, como empréstimo ou emissão de títulos. Em regra, sua entrada é receita de capital.",
-      "contrast": "Operação de crédito normalmente cria dívida e receita orçamentária de capital. A Antecipação de Receita Orçamentária (ARO) tem tratamento extraorçamentário próprio.",
-      "cebraspeTrap": "Classificar a antecipação de receita orçamentária como receita de capital ordinária sem verificar seu regime extraorçamentário.",
-      "example": "Um ente toma empréstimo para financiar obra e registra receita de capital por operação de crédito.",
+      "definition": "É uma operação pela qual o governo obtém recursos assumindo uma obrigação de pagar depois, como um empréstimo ou emissão de títulos. Em regra, o dinheiro recebido por empréstimo comum entra como receita orçamentária de capital.",
+      "contrast": "Receber empréstimo comum aumenta o caixa e a dívida ao mesmo tempo: a receita orçamentária é, em regra, não efetiva no patrimônio. Antecipação de Receita Orçamentária (ARO) é uma forma de crédito de curto prazo para falta temporária de caixa, mas tem tratamento extraorçamentário próprio. Receita de alienação de bens também é de capital, porém decorre de venda de bem, sem ser empréstimo.",
+      "cebraspeTrap": "Nem toda entrada de dinheiro obtido por crédito é receita orçamentária comum: a ARO possui exceção própria. Também é incorreto tratar empréstimo recebido como aumento patrimonial líquido automático.",
+      "example": "A prefeitura toma empréstimo de R$ 2 milhões para financiar obra: registra entrada de receita de capital e obrigação de pagar o empréstimo. Se usa uma ARO para cobrir falta temporária de caixa, precisa seguir o regime específico dessa operação, inclusive seu tratamento extraorçamentário.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1357,10 +1357,10 @@
       "id": "glo-alienacao-de-bens",
       "term": "Alienação de bens",
       "aliases": [],
-      "definition": "Receita de capital obtida pela venda de bens ou direitos do patrimônio público, quando a operação segue os requisitos legais.",
-      "contrast": "Vender um imóvel público pode gerar alienação de bens. Alugar o mesmo imóvel gera receita patrimonial corrente.",
-      "cebraspeTrap": "Afirmar que vender imóvel público e receber aluguel do mesmo imóvel são a mesma origem.",
-      "example": "A venda de veículo da prefeitura é receita de capital por alienação de bens.",
+      "definition": "É a receita de capital obtida quando o governo vende bens ou direitos que integram seu patrimônio, observadas as condições legais para realizar a venda. Envolve, por exemplo, a venda de veículo ou imóvel público.",
+      "contrast": "Vender imóvel público é diferente de alugá-lo: a venda gera, em regra, receita de capital por alienação; o aluguel é receita corrente patrimonial. A venda troca um bem ou direito por dinheiro e, por si só, não significa necessariamente aumento do patrimônio líquido. Há regras legais sobre a destinação de recursos de alienação que precisam ser observadas.",
+      "cebraspeTrap": "Alienação não é exploração continuada do bem. Também não é correto concluir que toda venda representa ganho patrimonial igual ao valor total recebido.",
+      "example": "O município vende veículo usado por R$ 25 mil. A entrada é receita de capital por alienação de bens. Se em vez disso alugar um imóvel por R$ 2 mil mensais, os aluguéis são receitas correntes patrimoniais.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1392,10 +1392,10 @@
       "aliases": [
         "Amortização de empréstimos (receita)"
       ],
-      "definition": "Receita de capital que surge quando alguém devolve o valor principal de um empréstimo que o próprio ente público havia concedido.",
-      "contrast": "Aqui o ente recebe de volta o principal que emprestou. Na amortização da dívida como despesa, é o ente que paga o principal de sua própria dívida.",
-      "cebraspeTrap": "Tratar juros de empréstimo concedido como amortização do principal recebido.",
-      "example": "Um município empresta recursos e recebe parcelas de devolução do valor principal.",
+      "definition": "É receita de capital recebida quando alguém devolve ao governo parte do valor principal de um empréstimo que o próprio governo havia concedido. Principal é o dinheiro originalmente emprestado, sem os juros.",
+      "contrast": "Aqui o governo é credor: recebe de volta o principal. Na amortização da dívida como despesa, o governo é devedor e paga o principal que tomou emprestado. Juros recebidos pelo empréstimo não são o mesmo que devolução do principal e podem ter classificação de receita diferente.",
+      "cebraspeTrap": "A banca pode inverter quem emprestou e quem deve: receber principal de empréstimo concedido é receita de capital; pagar principal da própria dívida é despesa de capital.",
+      "example": "O município empresta R$ 100 mil a uma entidade nas condições legais. Quando recebe R$ 20 mil de devolução do principal, registra receita de capital por amortização de empréstimo concedido. Se receber R$ 1 mil de juros, esse valor não é amortização do principal.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1424,10 +1424,10 @@
         "ARO",
         "Operação de crédito por antecipação de receita"
       ],
-      "definition": "Empréstimo de curto prazo para cobrir falta temporária de caixa enquanto o governo ainda espera arrecadar receitas. A entrada da ARO é extraorçamentária, com limites legais próprios.",
-      "contrast": "ARO antecipa recursos temporariamente e possui tratamento extraorçamentário. Empréstimos comuns podem integrar a receita orçamentária de capital.",
-      "cebraspeTrap": "Classificar toda entrada de empréstimo como receita de capital, ignorando a exceção da ARO.",
-      "example": "O município antecipa temporariamente recursos de receitas esperadas e deve observar as condições legais para quitar a operação.",
+      "definition": "É um empréstimo de curto prazo usado pelo governo para cobrir falta temporária de dinheiro enquanto espera arrecadar receitas. A Antecipação de Receita Orçamentária (ARO) tem regras específicas na Lei de Responsabilidade Fiscal e sua entrada recebe tratamento extraorçamentário.",
+      "contrast": "O empréstimo comum geralmente gera receita orçamentária de capital. A ARO atende necessidade temporária de caixa e é tratada como ingresso extraorçamentário, com exigências e restrições legais próprias. Antecipar dinheiro não aumenta a arrecadação tributária real: o governo terá de devolver o valor recebido. A ARO não deve ser confundida com excesso de arrecadação nem com abertura de crédito adicional.",
+      "cebraspeTrap": "Tratar ARO como receita orçamentária de capital igual a qualquer empréstimo ignora a exceção do regime extraorçamentário. Também é incorreto chamar crédito bancário de aumento de arrecadação.",
+      "example": "Um município espera receber impostos nos próximos meses, mas precisa cobrir falta temporária de caixa. Contrata ARO nas condições legais e recebe R$ 100 mil, que deverá devolver conforme as regras. Esses R$ 100 mil não são impostos já arrecadados nem receita de capital de um empréstimo comum.",
       "subjectIds": [
         "orcamento-publico"
       ],

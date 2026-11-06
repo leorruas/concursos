@@ -281,7 +281,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-004 · F1**: Cultura organizacional e clima: conceitos distintos.
 - [x] **CAM-CO-005 · F2**: Gestão do clima por comunicação: alcance e limites.
 - [x] **CAM-CO-006 · F2**: Comunicação institucional: objeto, função e públicos.
-- [ ] **CAM-CO-007 · F2**: Identidade, imagem e reputação: diferenças e relações.
+- [x] **CAM-CO-007 · F2**: Identidade, imagem e reputação: diferenças e relações.
 - [ ] **CAM-CO-008 · F2**: Riscos, prevenção e diagnóstico de crise de comunicação.
 - [ ] **CAM-CO-009 · F2**: Resposta à crise: etapas, canais e avaliação.
 - [ ] **CAM-CO-010 · F2**: Comunicação organizacional: dimensões e escopo.
@@ -562,11 +562,11 @@ Próximo candidato: **CAM-CO-005, gestão do clima por comunicação**, com audi
 
 ## Lote 15: identidade, imagem e reputação (CO-007)
 
-- [ ] **CAM-CO-007 · artigo criado; publicação pendente**: [[3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras|Identidade, imagem e reputação organizacional: autores e fronteiras]] (`art-621d9e4a87c305bf`). **Decisão: artigo próprio de integração e aprofundamento**, porque o problema central da unidade é separar *quem avalia* e *que objeto é avaliado*: identidade em Albert e Whetten; quatro perspectivas em Brown, Dacin, Pratt e Whetten; processos entre cultura, identidade e imagem em Hatch e Schultz; reputação em Fombrun, incluindo RQ como instrumento específico. Tabelas de fronteiras, caso progressivo e três itens C/E inéditos. Os conteúdos anteriores de Comunicação Organizacional, Marketing Institucional, Públicos, Comunicação Institucional e Crises foram auditados e mantidos integralmente.
+- [x] **CAM-CO-007 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras|Identidade, imagem e reputação organizacional: autores e fronteiras]] (`art-621d9e4a87c305bf`). **Decisão: artigo próprio de integração e aprofundamento**, porque o problema central da unidade é separar *quem avalia* e *que objeto é avaliado*: identidade em Albert e Whetten; quatro perspectivas em Brown, Dacin, Pratt e Whetten; processos entre cultura, identidade e imagem em Hatch e Schultz; reputação em Fombrun, incluindo RQ como instrumento específico. Tabelas de fronteiras, caso progressivo e três itens C/E inéditos. Os conteúdos anteriores de Comunicação Organizacional, Marketing Institucional, Públicos, Comunicação Institucional e Crises foram auditados e mantidos integralmente.
 
 **Proteção multi-edital:** os arquivos antigos e os vínculos da CGU e Dataprev permanecem inalterados. O catálogo Câmara recebe somente o novo ID. Não registrar como estudo, revisão pessoal ou retenção.
 
-**Validação pendente:** confirmar identidade, links, busca, privacidade, build e manifesto no GitHub Pages ao vivo para marcar o item.
+**Publicação confirmada:** o [workflow 42197613612](https://github.com/leorruas/concursos/actions/runs/42197613612) terminou com **success**, incluindo identidade, links, busca, privacidade, build e manifesto do catálogo no GitHub Pages ao vivo. A conclusão é editorial, sem estudo ou retenção presumidos.
 
 Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise comunicacional; auditar [[3 - Materias/Comunicacao/07 - gestao de crises|Gestão de crises]] antes de decidir reuso ou ampliação.
 

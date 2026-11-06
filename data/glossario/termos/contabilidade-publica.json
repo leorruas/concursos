@@ -6,10 +6,10 @@
       "id": "glo-regime-orcamentario",
       "term": "Regime orçamentário",
       "aliases": [],
-      "definition": "Regra que define o ano em que uma receita ou despesa entra no orçamento: receita no ano da arrecadação e despesa no ano do empenho, conforme o art. 35 da Lei nº 4.320/1964.",
-      "contrast": "Essa é uma regra sobre execução do orçamento. O registro no patrimônio segue o momento em que o fato realmente acontece.",
-      "cebraspeTrap": "Afirmar que toda contabilidade patrimonial deve seguir o momento do caixa.",
-      "example": "Uma despesa empenhada em dezembro integra aquele exercício, ainda que paga em janeiro.",
+      "definition": "Critério do art. 35 da Lei nº 4.320/1964 para atribuir receitas e despesas ao exercício financeiro no orçamento: pertencem ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas. Responde a que exercício pertence a execução orçamentária, não ao momento de reconhecimento patrimonial.",
+      "contrast": "A receita tributária pode gerar crédito e variação patrimonial aumentativa antes da arrecadação, mas sua receita orçamentária é reconhecida na arrecadação. A despesa pode estar empenhada em dezembro sem que o serviço tenha sido prestado; nesse caso não há, apenas pelo empenho, VPD ou passivo patrimonial da prestação. A liquidação verifica a entrega e o pagamento movimenta caixa, cada etapa com finalidade própria.",
+      "cebraspeTrap": "É incorreto projetar o art. 35 como regime de caixa para toda a contabilidade patrimonial ou concluir que o empenho determina sempre o período da VPD.",
+      "example": "A administração empenha R$ 4 mil em dezembro por serviço a prestar em janeiro: a despesa orçamentária pertence a dezembro, mas o efeito patrimonial ligado ao consumo do serviço surge quando ele for prestado, observadas as regras de reconhecimento. Um imposto reconhecido a receber em dezembro e arrecadado em janeiro entra como receita orçamentária de janeiro, embora o direito e eventual VPA possam ter surgido antes.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -35,10 +35,10 @@
       "id": "glo-regime-de-competencia",
       "term": "Regime de competência",
       "aliases": [],
-      "definition": "Regra de registrar o efeito de um fato no período em que ele acontece, mesmo que o dinheiro só seja recebido ou pago depois. É aplicada aos registros patrimoniais.",
-      "contrast": "O serviço prestado pode gerar uma obrigação antes de o órgão concluir a liquidação da despesa ou realizar o pagamento.",
-      "cebraspeTrap": "Exigir pagamento ou empenho como condição universal para reconhecer obrigação patrimonial.",
-      "example": "Serviço consumido em dezembro pode ser reconhecido antes do pagamento em janeiro.",
+      "definition": "Critério de reconhecimento patrimonial segundo o qual os efeitos de transações e outros eventos são registrados no período a que dizem respeito, quando atendidos os critérios de reconhecimento, independentemente do recebimento ou pagamento. Na contabilidade pública, orienta ativos, passivos, variações patrimoniais aumentativas (VPA) e diminutivas (VPD).",
+      "contrast": "O regime orçamentário do art. 35 da Lei nº 4.320/1964 atribui receitas ao exercício de arrecadação e despesas ao de empenho. Competência examina quando surge o direito, a obrigação ou o consumo de recursos. Uma receita orçamentária de janeiro pode corresponder a VPA reconhecida em dezembro; uma despesa empenhada em dezembro pode dar origem a VPD apenas com serviço prestado em janeiro.",
+      "cebraspeTrap": "Não trocar competência por pagamento nem por liquidação formal, e não concluir que toda variação de caixa é VPA ou VPD.",
+      "example": "A universidade consome R$ 1.200 de energia elétrica em dezembro, recebe a fatura em janeiro e paga em fevereiro. O consumo e a obrigação patrimonial relativos a dezembro devem ser examinados e reconhecidos nesse período, conforme os critérios aplicáveis. A data do pagamento só determina o fluxo de caixa; a data do empenho rege a execução orçamentária.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -181,10 +181,10 @@
       "id": "glo-fato-gerador",
       "term": "Fato gerador",
       "aliases": [],
-      "definition": "Acontecimento que faz surgir um direito, uma obrigação ou outro efeito patrimonial que deva ser registrado. O registro depende do fato ocorrido e das regras contábeis, não apenas do pagamento.",
-      "contrast": "Empenhar uma despesa é assumir compromisso no orçamento; o fato gerador pode ocorrer em outro momento, como quando o serviço é prestado.",
-      "cebraspeTrap": "Afirmar que serviço já prestado não pode gerar passivo patrimonial enquanto não houver liquidação formal.",
-      "example": "Um serviço recebido em dezembro pode gerar obrigação naquele mês, mesmo se o pagamento ocorrer em janeiro.",
+      "definition": "Evento econômico ou jurídico que, atendidas as condições da norma aplicável, origina um direito, uma obrigação ou uma variação patrimonial. Na contabilidade pública, é essencial distinguir o fato que dá origem ao efeito patrimonial da emissão de empenho, da verificação administrativa na liquidação e do movimento de caixa.",
+      "contrast": "Empenho reserva compromisso no orçamento; liquidação verifica o direito adquirido pelo credor com base em documentos; pagamento extingue a obrigação mediante saída de recursos. Nenhuma dessas etapas substitui automaticamente o exame do fato gerador patrimonial. No tributo, a ocorrência da hipótese legal pode originar crédito e variação patrimonial aumentativa (VPA), conforme reconhecimento; a arrecadação posterior costuma baixar o direito. No serviço, a prestação pode originar passivo e variação patrimonial diminutiva (VPD) antes da liquidação formal.",
+      "cebraspeTrap": "A frase 'houve empenho, logo ocorreu o fato gerador patrimonial' é falsa. Também é incorreto exigir arrecadação para todo reconhecimento de VPA ou exigir liquidação formal para reconhecer serviço efetivamente recebido.",
+      "example": "O município lança crédito de imposto de R$ 700 quando presentes os requisitos de reconhecimento: registra direito e, conforme o caso, VPA antes do depósito. Em outro contrato, empenha R$ 700 por serviço que ainda não aconteceu: existe controle orçamentário, mas não necessariamente passivo patrimonial. Prestado o serviço, surge a obrigação mesmo se a liquidação administrativa ocorrer dias depois.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -235,10 +235,10 @@
       "id": "glo-ativo-patrimonial",
       "term": "Ativo patrimonial",
       "aliases": [],
-      "definition": "Recurso controlado pela entidade graças a algo que já aconteceu e que pode ajudar a prestar serviços ou trazer benefícios no futuro. É um ativo mesmo sem gerar lucro.",
-      "contrast": "Ativo patrimonial abrange todo recurso controlado que presta serviços ou traz benefícios. Ativo financeiro, no art. 105 da Lei nº 4.320/1964, identifica dinheiro e valores realizáveis sem autorização orçamentária. A divisão financeiro/permanente difere da divisão circulante/não circulante.",
-      "cebraspeTrap": "Afirmar que um equipamento só é ativo se gerar receita comercial ou já estiver integralmente pago.",
-      "example": "Um equipamento controlado pela escola oferece potencial de serviço educacional ao longo de sua vida útil.",
+      "definition": "Recurso econômico ou com potencial de serviço que a entidade pública controla no presente em decorrência de evento passado. É registrado no Quadro Principal do Balanço Patrimonial (BP) quando satisfeitos os requisitos contábeis de reconhecimento, mesmo que não gere receita monetária.",
+      "contrast": "Um imóvel utilizado como escola e um crédito tributário reconhecido podem ser ativos patrimoniais, assim como dinheiro em caixa; a previsão de construir a escola ou de arrecadar receitas, por si, não é recurso presente. O atributo financeiro/permanente (F/P) identifica outro recorte no quadro legal do BP, e não substitui circulante/não circulante. Crédito tributário reconhecido antes da arrecadação pode ter atributo P; o caixa recebido tem F.",
+      "cebraspeTrap": "Não deduzir atributo F do simples fato de o crédito ser realizável em curto prazo, nem reconhecer como ativo a dotação para comprar um equipamento ainda não controlado.",
+      "example": "O município reconhece R$ 900 de crédito de imposto pela ocorrência do fato tributário e mantém R$ 300 em conta bancária. No Quadro Principal há créditos a receber e caixa, ambos ativos patrimoniais. O crédito pode estar classificado como P no quadro legal e o caixa como F. Quando recebe os R$ 900, substitui o crédito por caixa; se a VPA já foi reconhecida, não surge outra só pela arrecadação.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -264,10 +264,10 @@
       "id": "glo-passivo-patrimonial",
       "term": "Passivo patrimonial",
       "aliases": [],
-      "definition": "Obrigação que a entidade já tem por causa de algo que aconteceu e que exigirá transferir recursos para ser cumprida. Exemplo: valor devido por serviço já recebido.",
-      "contrast": "Passivo patrimonial exige obrigação presente decorrente de fato passado. Passivo financeiro é classificação legal ligada à possibilidade de pagamento sem nova autorização orçamentária e inclui certos empenhos ainda a liquidar, mesmo sem passivo patrimonial correspondente.",
-      "cebraspeTrap": "Concluir que qualquer valor empenhado sem entrega representa automaticamente passivo patrimonial.",
-      "example": "O serviço prestado e ainda não pago pode originar obrigação patrimonial no exercício de prestação.",
+      "definition": "Obrigação presente de transferir recursos que resulta de evento passado e satisfaz os critérios de reconhecimento da contabilidade patrimonial, apresentada no Quadro Principal do Balanço Patrimonial (BP). O surgimento depende do fato gerador da obrigação, não necessariamente do empenho, da liquidação administrativa ou do pagamento.",
+      "contrast": "A assinatura do empenho para serviço futuro não constitui automaticamente passivo patrimonial; a prestação efetiva do serviço pode constituí-lo antes da liquidação. No quadro legal financeiro/permanente do BP, o compromisso empenhado pode já integrar o passivo financeiro (F), mesmo sem obrigação patrimonial correspondente. Caução restituível cria obrigação extraorçamentária; obrigação futura meramente possível pode exigir análise de contingência em vez de reconhecimento.",
+      "cebraspeTrap": "Dizer que passivo patrimonial nasce sempre na liquidação, que todo empenho já o constitui ou que todos os valores do passivo financeiro legal necessariamente constam como passivos patrimoniais do mesmo montante.",
+      "example": "Em 20 de dezembro, o governo empenha R$ 5 mil por manutenção; em 28 de dezembro o prestador realiza integralmente o serviço; a liquidação formal só ocorre em janeiro. O passivo patrimonial nasce com a prestação do serviço, conforme os critérios de reconhecimento, e o empenho já havia afetado controles orçamentários. Se o serviço não tivesse sido prestado, o empenho isolado não criaria aquele passivo patrimonial.",
       "subjectIds": [
         "contabilidade-publica"
       ],

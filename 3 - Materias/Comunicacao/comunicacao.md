@@ -127,6 +127,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao|117. Projeto audiovisual: planejamento, execução e publicação]]: CAM-DI-039, etapas, produção, gestão de riscos, versões, aceite e C/E.
 - [[3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade|118. Produção editorial: objetivos, públicos, linha e identidade]]: CAM-DI-040, política, projeto e linha editorial, identidade, checagem e C/E.
 - [[3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes|119. Distribuição e avaliação de publicações]]: CAM-DI-041, tiragem, circulação, canais, leitores, avaliação e C/E.
+- [[3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras|120. Ética da comunicação e da publicidade: fronteiras]]: CAM-DI-042, FENAJ, CONAR, CDC, Constituição, Câmara e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

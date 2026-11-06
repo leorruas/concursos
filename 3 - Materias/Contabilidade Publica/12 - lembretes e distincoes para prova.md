@@ -25,6 +25,13 @@ updated: 2026-11-06
 - caixa final recebimento da arrecadação - pagamento
   - ==**Precisão:** essa conta só basta se o **caixa inicial for zero** e **não existirem outras entradas ou saídas**. A regra geral é **caixa inicial + entradas efetivas de caixa − saídas efetivas de caixa**. Entradas e saídas podem ser orçamentárias ou extraorçamentárias. Inscrição compensatória de restos a pagar no Balanço Financeiro **não é dinheiro recebido**.==
 
+## Novos lembretes
+
+- atributo permanente: que não pode ser transformado em dinheiro diponível para gastar - diferente de financeiro
+  - ==**Precisão:** no **2º quadro do Balanço Patrimonial**, o **ativo permanente (atributo P)** corresponde, segundo a Lei nº 4.320/1964, a bens, créditos e valores cuja **mobilização ou alienação depende de autorização legislativa**. Isso não quer dizer que nunca possa virar dinheiro, nem é uma classificação pelo prazo de 12 meses. **Ativo financeiro (atributo F):** é o **dinheiro disponível** (caixa e bancos), além dos **créditos e valores realizáveis independentemente de autorização orçamentária**, conforme o art. 105, § 1º, da Lei nº 4.320/1964. Em termos práticos, indica uma classificação legal de recursos que podem ser realizados sem essa autorização, **não que todo valor já esteja em dinheiro ou possa ser gasto livremente**. Exemplo: R$ 10 mil em conta bancária são ativo financeiro. Um crédito tributário ainda não arrecadado pode ter atributo P mesmo que seu recebimento esteja previsto para breve; após a arrecadação, o dinheiro recebido tem atributo F. **F não elimina as vinculações por fonte/destinação.**==
+- resultado orçamento é o que foi recebido - valor comprometido / não integra o valor que já está em caixa
+  - ==**Precisão:** o **resultado orçamentário simplificado do exercício = receita orçamentária arrecadada no exercício − despesa orçamentária empenhada no exercício**. O que já estava no caixa no início é **saldo inicial**, não uma nova arrecadação do período. O valor empenhado é o compromisso orçamentário, mesmo se ainda não houver pagamento; **não subtraia somente o que foi pago**. Por exemplo: caixa inicial R$ 10 mil, arrecadação R$ 80 mil e empenho R$ 50 mil geram **resultado orçamentário de +R$ 30 mil**, independentemente de o caixa inicial já existir.==
+
 ## Outras distinções para não confundir
 
 - ==**Resultado patrimonial:** **VPA − VPD** na Demonstração das Variações Patrimoniais (DVP). Um empréstimo pode ser receita orçamentária, mas aumenta simultaneamente caixa e dívida, **sem VPA pelo principal**. Uma compra de equipamento pode gerar despesa orçamentária sem VPD pela aquisição.==

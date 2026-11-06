@@ -113,6 +113,12 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao|103. Pesquisa de mercado: desenho, amostragem e interpretação]]: CAM-DI-025, seleção probabilística, precisão, erro total, ponderação, séries temporais e C/E.
 - [[3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites|104. Pesquisa de opinião pública: objeto, perguntas e limites]]: CAM-DI-026, opinião declarada, conhecimento, silêncio, formulação de perguntas, inferência e C/E.
 - [[3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses|105. Pesquisa de imagem e reputação: indicadores, desenho e vieses]]: CAM-DI-027, constructos, RQ, tipos de indicadores, monitoramento, validade e C/E.
+- [[3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos|106. Pesquisa de mídia: audiência, alcance e métodos]]: CAM-DI-028, painéis, dados digitais, rating/share, deduplicação, limites de medição e C/E.
+- [[3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao|107. Métricas digitais: impressões, cliques e conversões]]: CAM-DI-029, sessões, taxas, funis, eventos, atribuição e C/E.
+- [[3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade|108. Indicadores de publicidade: eficácia, eficiência e causalidade]]: CAM-DI-030, retorno, incrementalidade, desenhos causais, impacto e C/E.
+- [[3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual|109. Marca: conceito, elementos e identidade visual]]: CAM-DI-031, elementos de Keller, sistema visual, arquitetura de marcas, acesso e C/E.
+- [[3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca|110. Branding: significados, experiência e valor de marca]]: CAM-DI-032, Aaker, Keller CBBE, Brakus, promessa versus experiência e C/E.
+- [[3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao|111. Gerenciamento de marca: arquitetura, consistência e avaliação]]: CAM-DI-033, governança, portfólio, extensões, auditoria, indicadores e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

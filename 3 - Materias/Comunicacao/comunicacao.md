@@ -120,6 +120,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca|110. Branding: significados, experiência e valor de marca]]: CAM-DI-032, Aaker, Keller CBBE, Brakus, promessa versus experiência e C/E.
 - [[3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao|111. Gerenciamento de marca: arquitetura, consistência e avaliação]]: CAM-DI-033, governança, portfólio, extensões, auditoria, indicadores e C/E.
 - [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade|112. Design gráfico: hierarquia, composição e legibilidade]]: CAM-DI-034, Gestalt, grid, tipografia, contraste WCAG e C/E.
+- [[3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais|113. Produção gráfica: pré-impressão, formatos e materiais]]: CAM-DI-035, imposição, trapping, PDF/X, resolução, processos, papel, acabamentos e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

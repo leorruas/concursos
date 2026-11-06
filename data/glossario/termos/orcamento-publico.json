@@ -120,7 +120,7 @@
       "term": "Liquidação da despesa",
       "aliases": [],
       "definition": "É a etapa em que o governo confere se a pessoa ou empresa tem direito a receber. Pela Lei nº 4.320/1964, art. 63, essa conferência examina a origem da despesa, o valor devido, quem deve receber e os documentos que comprovam a entrega do bem ou a prestação do serviço, conforme o caso.",
-      "contrast": "O empenho vem antes e registra o compromisso no orçamento; a liquidação verifica o direito do credor; o pagamento transfere o dinheiro depois da ordem competente. A entrega de um bem pode criar uma obrigação patrimonial antes de a conferência administrativa terminar. Receber uma nota fiscal, sem checar a execução, não encerra automaticamente a liquidação.",
+      "contrast": "O empenho registra o compromisso no orçamento; a liquidação verifica o direito de quem deve receber; o pagamento transfere o dinheiro depois da ordem competente. Em fornecimentos e serviços, a Lei nº 4.320/1964, art. 63, § 2º, manda conferir o contrato ou ajuste, a nota de empenho e os comprovantes da entrega ou serviço. Receber apenas a nota fiscal não substitui essa conferência. A obrigação patrimonial pode surgir quando o serviço é prestado, antes da liquidação administrativa.",
       "cebraspeTrap": "A banca pode dizer que a nota fiscal, sozinha, comprova o direito ao pagamento ou que liquidar significa pagar. A liquidação exige verificar o direito do credor, inclusive valor, destinatário e prestação.",
       "example": "A escola empenha R$ 4 mil por cadeiras. Quando elas chegam, o responsável conta as unidades, verifica se correspondem ao contrato e confere a nota e o fornecedor. Concluída a liquidação, os R$ 4 mil ficam liquidados a pagar. A empresa ainda não recebeu o dinheiro até que o pagamento seja feito.",
       "subjectIds": [
@@ -617,7 +617,7 @@
       ],
       "definition": "São despesas empenhadas que ficaram sem pagamento até o fim do ano e cuja liquidação ainda não foi concluída. A inscrição depende das condições legais; não basta haver saldo empenhado.",
       "contrast": "Nos restos a pagar processados, a liquidação já foi concluída. Nos não processados, ainda não. Isso não significa que toda entrega esteja pendente: um serviço já prestado pode estar em liquidação e ter gerado uma obrigação patrimonial, embora o órgão ainda confira os documentos. O pagamento no exercício seguinte, depois de atendidas as etapas necessárias, não é novo empenho do orçamento atual. Detalhe: Podem estar a liquidar, quando o bem ou serviço ainda não foi entregue, ou em liquidação, quando o fato já ocorreu, mas falta terminar a conferência.",
-      "cebraspeTrap": "É incorreto concluir que 'não processado' significa sempre 'serviço não prestado'. A diferença decisiva para processado é a conclusão da liquidação.",
+      "cebraspeTrap": "Não processado significa que a liquidação ainda não terminou, inclusive quando o serviço foi prestado e está em conferência. Em créditos de vigência plurianual, o art. 36, parágrafo único, da Lei nº 4.320/1964 determina que empenhos não liquidados só sejam computados como restos a pagar no último ano da vigência.",
       "example": "Uma prefeitura empenha dois serviços de R$ 2 mil. O primeiro será prestado apenas em janeiro: em dezembro, está a liquidar. O segundo foi realizado em dezembro, mas ainda falta a conferência formal: está em liquidação. Se inscritos regularmente, ambos são restos a pagar não processados, por motivos diferentes.",
       "subjectIds": [
         "orcamento-publico"

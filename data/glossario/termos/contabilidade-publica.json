@@ -6,10 +6,10 @@
       "id": "glo-regime-orcamentario",
       "term": "Regime orçamentário",
       "aliases": [],
-      "definition": "Critério do art. 35 da Lei nº 4.320/1964 para atribuir receitas e despesas ao exercício financeiro no orçamento: pertencem ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas. Responde a que exercício pertence a execução orçamentária, não ao momento de reconhecimento patrimonial.",
-      "contrast": "A receita tributária pode gerar crédito e variação patrimonial aumentativa antes da arrecadação, mas sua receita orçamentária é reconhecida na arrecadação. A despesa pode estar empenhada em dezembro sem que o serviço tenha sido prestado; nesse caso não há, apenas pelo empenho, VPD ou passivo patrimonial da prestação. A liquidação verifica a entrega e o pagamento movimenta caixa, cada etapa com finalidade própria.",
-      "cebraspeTrap": "É incorreto projetar o art. 35 como regime de caixa para toda a contabilidade patrimonial ou concluir que o empenho determina sempre o período da VPD.",
-      "example": "A administração empenha R$ 4 mil em dezembro por serviço a prestar em janeiro: a despesa orçamentária pertence a dezembro, mas o efeito patrimonial ligado ao consumo do serviço surge quando ele for prestado, observadas as regras de reconhecimento. Um imposto reconhecido a receber em dezembro e arrecadado em janeiro entra como receita orçamentária de janeiro, embora o direito e eventual VPA possam ter surgido antes.",
+      "definition": "É a regra que diz em qual ano uma receita ou despesa entra nas contas do orçamento. Pela Lei nº 4.320/1964, art. 35, a receita conta no ano em que o dinheiro é arrecadado; a despesa conta no ano em que é empenhada, ou seja, quando o governo registra formalmente o compromisso no orçamento.",
+      "contrast": "Essa regra organiza o orçamento, mas não determina sozinha quando um direito ou dívida aparece no patrimônio. Um imposto pode virar direito a receber antes de o dinheiro entrar. Um serviço pode ser empenhado num ano e só ser prestado no seguinte. A liquidação é a conferência de que o fornecedor cumpriu o combinado; o pagamento é a saída de dinheiro.",
+      "cebraspeTrap": "Uma despesa empenhada não é necessariamente um serviço já consumido. Também é incorreto usar a data do recebimento do dinheiro para registrar todo efeito patrimonial.",
+      "example": "O governo empenha R$ 4 mil em dezembro por manutenção que ocorrerá em janeiro. A despesa entra no orçamento de dezembro, mas o consumo do serviço pertence a janeiro. Um imposto reconhecido a receber em dezembro e pago em janeiro conta como receita orçamentária de janeiro.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -35,10 +35,10 @@
       "id": "glo-regime-de-competencia",
       "term": "Regime de competência",
       "aliases": [],
-      "definition": "Critério de reconhecimento patrimonial segundo o qual os efeitos de transações e outros eventos são registrados no período a que dizem respeito, quando atendidos os critérios de reconhecimento, independentemente do recebimento ou pagamento. Na contabilidade pública, orienta ativos, passivos, variações patrimoniais aumentativas (VPA) e diminutivas (VPD).",
-      "contrast": "O regime orçamentário do art. 35 da Lei nº 4.320/1964 atribui receitas ao exercício de arrecadação e despesas ao de empenho. Competência examina quando surge o direito, a obrigação ou o consumo de recursos. Uma receita orçamentária de janeiro pode corresponder a VPA reconhecida em dezembro; uma despesa empenhada em dezembro pode dar origem a VPD apenas com serviço prestado em janeiro.",
-      "cebraspeTrap": "Não trocar competência por pagamento nem por liquidação formal, e não concluir que toda variação de caixa é VPA ou VPD.",
-      "example": "A universidade consome R$ 1.200 de energia elétrica em dezembro, recebe a fatura em janeiro e paga em fevereiro. O consumo e a obrigação patrimonial relativos a dezembro devem ser examinados e reconhecidos nesse período, conforme os critérios aplicáveis. A data do pagamento só determina o fluxo de caixa; a data do empenho rege a execução orçamentária.",
+      "definition": "É a regra de registrar direitos, obrigações e mudanças no patrimônio quando o fato acontece, ainda que o dinheiro seja recebido ou pago depois. Na contabilidade pública, ajuda a mostrar o que o governo ganhou, consumiu ou passou a dever em cada período.",
+      "contrast": "O orçamento tem outro critério: receita no ano da arrecadação e despesa no ano do empenho. Pela competência, o governo pode reconhecer um imposto a receber antes da arrecadação e uma conta por serviço consumido antes de pagá-la. Uma variação patrimonial aumentativa (VPA) indica aumento no patrimônio líquido; uma diminutiva (VPD) indica diminuição.",
+      "cebraspeTrap": "A data do pagamento não determina, por si, quando houve consumo ou quando nasceu a dívida. A liquidação formal também não substitui a ocorrência do fato.",
+      "example": "A universidade usa energia em dezembro, recebe a conta em janeiro e paga em fevereiro. O custo do serviço consumido e a obrigação correspondente pertencem a dezembro, se atendidas as condições de registro. O dinheiro só sai em fevereiro.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -62,10 +62,10 @@
       "aliases": [
         "BO"
       ],
-      "definition": "Demonstração contábil que confronta previsão e execução de receitas e despesas orçamentárias no exercício, conforme o art. 102 da Lei nº 4.320/1964 e o Manual de Contabilidade Aplicada ao Setor Público (MCASP). Apresenta, entre outros dados, previsão inicial e atualizada e receitas realizadas; dotação inicial e atualizada e despesas empenhadas, liquidadas e pagas, além dos quadros de execução dos restos a pagar.",
-      "contrast": "O Balanço Orçamentário (BO) pergunta quanto foi previsto/autorizado e quanto se realizou na execução orçamentária. Não apresenta, por si, o caixa disponível do Balanço Financeiro (BF), a situação de ativos/passivos do Balanço Patrimonial (BP) ou o resultado patrimonial da Demonstração das Variações Patrimoniais (DVP). Dotação autoriza gasto; empenho registra despesa orçamentária do exercício; liquidação verifica o direito do credor; pagamento movimenta caixa. Receita prevista não é arrecadação efetiva.",
-      "cebraspeTrap": "Trocar despesa empenhada por paga na apuração da execução orçamentária do exercício, chamar previsão de receita realizada ou calcular disponibilidade financeira a partir apenas da diferença entre receita arrecadada e dotação.",
-      "example": "O município prevê R$ 100 mil de receitas e arrecada R$ 90 mil. Tem dotação atualizada de R$ 80 mil, empenha R$ 70 mil, liquida R$ 60 mil e paga R$ 50 mil. O BO permite comparar os R$ 90 mil arrecadados com a previsão e acompanhar os três estágios da despesa; os R$ 20 mil empenhados e não pagos não são automaticamente saldo livre de caixa. Para analisar o estoque patrimonial ou disponibilidade financeira é necessário consultar outras informações.",
+      "definition": "É o relatório que compara o orçamento planejado com o que o governo realmente arrecadou e gastou ao longo do ano. Mostra a receita prevista e arrecadada; a verba autorizada para gastar, chamada dotação; e as despesas empenhadas, liquidadas e pagas. Também traz informações sobre restos a pagar, despesas de outros exercícios ainda pendentes de pagamento.",
+      "contrast": "O Balanço Orçamentário (BO) mostra a execução do orçamento. O Balanço Financeiro (BF) acompanha entradas e saídas financeiras; o Balanço Patrimonial (BP) mostra bens, direitos e obrigações; a Demonstração das Variações Patrimoniais (DVP) mostra aumentos e diminuições do patrimônio. Empenhar é registrar o compromisso no orçamento; liquidar é conferir a entrega; pagar é transferir dinheiro. São momentos diferentes.",
+      "cebraspeTrap": "Receita prevista não equivale a dinheiro arrecadado. Despesa empenhada não equivale a despesa paga. O BO também não mostra, sozinho, quanto caixa está livre.",
+      "example": "A cidade prevê arrecadar R$ 100 mil, mas recebe R$ 90 mil. Tem R$ 80 mil autorizados para gastar, empenha R$ 70 mil, confere a entrega de R$ 60 mil e paga R$ 50 mil. O BO mostra essas diferenças. Os R$ 20 mil empenhados e não pagos não representam, por si, dinheiro disponível para novos gastos.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -93,10 +93,10 @@
       "aliases": [
         "BF"
       ],
-      "definition": "Demonstração que evidencia receitas e despesas orçamentárias, recebimentos e pagamentos extraorçamentários, conjugados aos saldos financeiros inicial e final do exercício, conforme o art. 103 da Lei nº 4.320/1964. O Balanço Financeiro (BF) permite acompanhar a movimentação financeira e a passagem dos saldos entre exercícios, incluindo registro compensatório da inscrição de restos a pagar.",
-      "contrast": "No BF, entrada extraorçamentária pode ser dinheiro recebido de terceiro, como caução, ou lançamento de natureza compensatória, como a inscrição de restos a pagar do exercício: a segunda não é ingresso novo de caixa. Balanço Orçamentário (BO) acompanha previsão/dotação e execução; Balanço Patrimonial (BP) mostra estoques patrimoniais e quadro de ativo/passivo financeiro e permanente. O superávit financeiro para créditos adicionais depende de apuração específica, inclusive obrigações e regras por fonte/destinação, e não corresponde necessariamente ao saldo final do BF.",
-      "cebraspeTrap": "Considerar a inscrição de restos a pagar como arrecadação, tratar todo recebimento extraorçamentário como entrada real de numerário ou confundir saldo final de caixa do BF com superávit financeiro utilizável sem ajustes.",
-      "example": "Saldo inicial de caixa: R$ 10 mil. Receitas arrecadadas: R$ 100 mil; despesas empenhadas: R$ 60 mil, das quais R$ 40 mil pagas; inscrição de R$ 20 mil em restos a pagar. Desconsideradas outras operações, o BF registra a despesa orçamentária de R$ 60 mil e o recebimento extraorçamentário compensatório de R$ 20 mil. O saldo final é R$ 70 mil (10 + 100 − 40), não R$ 90 mil: os R$ 20 mil compensatórios não são dinheiro recebido.",
+      "definition": "É o relatório que mostra as entradas e saídas financeiras do governo durante o ano e os saldos que havia no começo e no fim. O Balanço Financeiro (BF) reúne movimentos ligados ao orçamento e outros movimentos, como dinheiro recebido de terceiros para devolução. Também inclui registros de compensação que não são entrada real de dinheiro.",
+      "contrast": "Uma caução recebida, valor dado como garantia, pode aumentar o dinheiro em caixa. Já a inscrição de restos a pagar, despesa empenhada que ficou sem pagamento até o fim do ano, aparece como entrada de compensação no BF, mas não traz dinheiro novo. O Balanço Orçamentário (BO) compara previsão e execução; o Balanço Patrimonial (BP) mostra bens, direitos e dívidas. Saldo de caixa do BF não é automaticamente superávit financeiro disponível para abrir novos créditos.",
+      "cebraspeTrap": "Uma entrada registrada no BF nem sempre é depósito de dinheiro: a inscrição de restos a pagar é compensação. O saldo final não é, por si, valor livre para gastar.",
+      "example": "O governo começa o ano com R$ 10 mil no banco, arrecada R$ 100 mil e paga R$ 40 mil. Empenhou R$ 60 mil, de modo que R$ 20 mil ficam a pagar. No BF, os R$ 20 mil aparecem como registro compensatório, sem novo depósito. Sem outras operações, o saldo final no banco é R$ 70 mil (10 + 100 − 40).",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -156,10 +156,10 @@
       "aliases": [
         "VPA"
       ],
-      "definition": "Variação Patrimonial Aumentativa (VPA) é o aumento reconhecido do patrimônio líquido decorrente de fato do período, excetuados aportes de proprietários e outros movimentos que a norma determine apresentar diretamente no patrimônio líquido. Na contabilidade pública, pode surgir com direito a receber, transferência ou outro fato reconhecível, independentemente de arrecadação; integra a Demonstração das Variações Patrimoniais (DVP).",
-      "contrast": "Receita orçamentária segue arrecadação; VPA segue critérios patrimoniais de reconhecimento. O recebimento de empréstimo eleva caixa e passivo no mesmo valor, sem VPA. Arrecadar crédito tributário com VPA já reconhecida troca o direito por caixa, sem VPA duplicada. Nem todo aumento de caixa aumenta patrimônio líquido; nem todo aumento patrimonial requer entrada imediata de dinheiro.",
-      "cebraspeTrap": "Julgar que arrecadar qualquer receita gera VPA no mesmo momento ou classificar operação de crédito como VPA pela entrada de dinheiro.",
-      "example": "Após reconhecer fato tributário que origina crédito de R$ 1.500, a prefeitura registra ativo e, quando cabível, VPA de R$ 1.500. Dois meses depois recebe os R$ 1.500: registra arrecadação orçamentária e troca crédito por caixa, sem reconhecer novamente a mesma VPA. Já uma operação de crédito de R$ 1.500 recebida aumenta simultaneamente caixa e obrigação de empréstimo e não representa VPA por esse simples ingresso.",
+      "definition": "É um aumento do patrimônio líquido do governo causado por um fato que deve ser registrado naquele período. A Variação Patrimonial Aumentativa (VPA) aparece na Demonstração das Variações Patrimoniais (DVP). Pode surgir antes de o dinheiro entrar no banco, como quando nasce um direito de receber imposto.",
+      "contrast": "Receita do orçamento é contada na arrecadação; VPA segue o momento em que surge o efeito no patrimônio. Um empréstimo recebido aumenta o dinheiro em banco, mas também cria dívida: só por isso não gera VPA. Receber um imposto que já estava registrado como direito apenas troca o valor a receber por dinheiro e não cria outra VPA.",
+      "cebraspeTrap": "Receber dinheiro não basta para existir VPA. É preciso verificar se houve aumento real do patrimônio líquido, e não só troca entre contas.",
+      "example": "O governo registra R$ 1.500 de imposto que tem direito de receber. Se esse registro gera VPA, o aumento patrimonial surge naquele momento. Dois meses depois, o contribuinte paga: o dinheiro entra no banco, mas não se registra a mesma VPA de novo. Se o banco emprestar R$ 1.500 ao governo, há entrada de dinheiro e dívida do mesmo valor, sem VPA por esse simples depósito.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -181,10 +181,10 @@
       "id": "glo-fato-gerador",
       "term": "Fato gerador",
       "aliases": [],
-      "definition": "Evento econômico ou jurídico que, atendidas as condições da norma aplicável, origina um direito, uma obrigação ou uma variação patrimonial. Na contabilidade pública, é essencial distinguir o fato que dá origem ao efeito patrimonial da emissão de empenho, da verificação administrativa na liquidação e do movimento de caixa.",
-      "contrast": "Empenho reserva compromisso no orçamento; liquidação verifica o direito adquirido pelo credor com base em documentos; pagamento extingue a obrigação mediante saída de recursos. Nenhuma dessas etapas substitui automaticamente o exame do fato gerador patrimonial. No tributo, a ocorrência da hipótese legal pode originar crédito e variação patrimonial aumentativa (VPA), conforme reconhecimento; a arrecadação posterior costuma baixar o direito. No serviço, a prestação pode originar passivo e variação patrimonial diminutiva (VPD) antes da liquidação formal.",
-      "cebraspeTrap": "A frase 'houve empenho, logo ocorreu o fato gerador patrimonial' é falsa. Também é incorreto exigir arrecadação para todo reconhecimento de VPA ou exigir liquidação formal para reconhecer serviço efetivamente recebido.",
-      "example": "O município lança crédito de imposto de R$ 700 quando presentes os requisitos de reconhecimento: registra direito e, conforme o caso, VPA antes do depósito. Em outro contrato, empenha R$ 700 por serviço que ainda não aconteceu: existe controle orçamentário, mas não necessariamente passivo patrimonial. Prestado o serviço, surge a obrigação mesmo se a liquidação administrativa ocorrer dias depois.",
+      "definition": "É o acontecimento que faz surgir um direito, uma obrigação ou outro efeito no patrimônio, quando a regra aplicável exige o registro. Pode ser o fato que cria o direito de cobrar um imposto ou a prestação de um serviço que o governo terá de pagar.",
+      "contrast": "Empenho é o registro formal de uma despesa no orçamento; liquidação é a conferência de que o fornecedor cumpriu o combinado; pagamento é a saída de dinheiro. Esses três momentos podem ser diferentes do fato que cria o direito ou a dívida. Um imposto pode gerar direito a receber antes da arrecadação. Um serviço prestado pode gerar dívida antes da liquidação administrativa.",
+      "cebraspeTrap": "Empenhar não prova que o serviço aconteceu. Arrecadar também não é o único momento possível para reconhecer um aumento do patrimônio.",
+      "example": "A prefeitura registra R$ 700 de imposto devido por um contribuinte quando existem as condições para reconhecer a cobrança. Ela tem um direito a receber, mesmo sem dinheiro no banco. Separadamente, empenha R$ 700 para um conserto futuro: a despesa foi comprometida no orçamento, mas a dívida pelo serviço surge quando ele é prestado.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -235,10 +235,10 @@
       "id": "glo-ativo-patrimonial",
       "term": "Ativo patrimonial",
       "aliases": [],
-      "definition": "Recurso econômico ou com potencial de serviço que a entidade pública controla no presente em decorrência de evento passado. É registrado no Quadro Principal do Balanço Patrimonial (BP) quando satisfeitos os requisitos contábeis de reconhecimento, mesmo que não gere receita monetária.",
-      "contrast": "Um imóvel utilizado como escola e um crédito tributário reconhecido podem ser ativos patrimoniais, assim como dinheiro em caixa; a previsão de construir a escola ou de arrecadar receitas, por si, não é recurso presente. O atributo financeiro/permanente (F/P) identifica outro recorte no quadro legal do BP, e não substitui circulante/não circulante. Crédito tributário reconhecido antes da arrecadação pode ter atributo P; o caixa recebido tem F.",
-      "cebraspeTrap": "Não deduzir atributo F do simples fato de o crédito ser realizável em curto prazo, nem reconhecer como ativo a dotação para comprar um equipamento ainda não controlado.",
-      "example": "O município reconhece R$ 900 de crédito de imposto pela ocorrência do fato tributário e mantém R$ 300 em conta bancária. No Quadro Principal há créditos a receber e caixa, ambos ativos patrimoniais. O crédito pode estar classificado como P no quadro legal e o caixa como F. Quando recebe os R$ 900, substitui o crédito por caixa; se a VPA já foi reconhecida, não surge outra só pela arrecadação.",
+      "definition": "É dinheiro, bem ou direito que o governo já controla e que tem valor ou ajuda a prestar serviços. Aparece no quadro principal do Balanço Patrimonial (BP). Pode ser uma conta bancária, um prédio escolar ou um imposto que o governo já tem direito de receber.",
+      "contrast": "É diferente de uma verba apenas autorizada no orçamento: autorização para comprar não significa possuir o bem. No quadro financeiro e permanente do BP, dinheiro em banco costuma ser financeiro (F), enquanto equipamentos e impostos ainda não arrecadados costumam ser permanentes (P). O prazo de recebimento, sozinho, não decide a classificação F/P.",
+      "cebraspeTrap": "Receita prevista no orçamento não é automaticamente ativo patrimonial. Crédito que será recebido logo também não vira F apenas pelo prazo.",
+      "example": "A prefeitura tem R$ 300 no banco e R$ 900 de imposto já reconhecido a receber. Ambos são ativos patrimoniais. No quadro financeiro e permanente, o banco é F e o imposto ainda não pago pode ser P. Quando o contribuinte paga, diminui o direito a receber e aumenta o dinheiro no banco.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -264,10 +264,10 @@
       "id": "glo-passivo-patrimonial",
       "term": "Passivo patrimonial",
       "aliases": [],
-      "definition": "Obrigação presente de transferir recursos que resulta de evento passado e satisfaz os critérios de reconhecimento da contabilidade patrimonial, apresentada no Quadro Principal do Balanço Patrimonial (BP). O surgimento depende do fato gerador da obrigação, não necessariamente do empenho, da liquidação administrativa ou do pagamento.",
-      "contrast": "A assinatura do empenho para serviço futuro não constitui automaticamente passivo patrimonial; a prestação efetiva do serviço pode constituí-lo antes da liquidação. No quadro legal financeiro/permanente do BP, o compromisso empenhado pode já integrar o passivo financeiro (F), mesmo sem obrigação patrimonial correspondente. Caução restituível cria obrigação extraorçamentária; obrigação futura meramente possível pode exigir análise de contingência em vez de reconhecimento.",
-      "cebraspeTrap": "Dizer que passivo patrimonial nasce sempre na liquidação, que todo empenho já o constitui ou que todos os valores do passivo financeiro legal necessariamente constam como passivos patrimoniais do mesmo montante.",
-      "example": "Em 20 de dezembro, o governo empenha R$ 5 mil por manutenção; em 28 de dezembro o prestador realiza integralmente o serviço; a liquidação formal só ocorre em janeiro. O passivo patrimonial nasce com a prestação do serviço, conforme os critérios de reconhecimento, e o empenho já havia afetado controles orçamentários. Se o serviço não tivesse sido prestado, o empenho isolado não criaria aquele passivo patrimonial.",
+      "definition": "É uma dívida ou outra obrigação que o governo já tem porque algo aconteceu, como um serviço que foi prestado e ainda precisa ser pago. Aparece no quadro principal do Balanço Patrimonial (BP). O serviço pode criar a obrigação antes de a administração terminar a conferência formal da despesa.",
+      "contrast": "Empenho é o compromisso registrado no orçamento. Ele pode ocorrer antes da prestação do serviço e, sozinho, não prova que existe dívida patrimonial. Depois da entrega, pode surgir a obrigação, mesmo que a liquidação, conferência administrativa, venha depois. No quadro financeiro e permanente do BP, alguns empenhos ainda sem serviço prestado podem entrar no passivo financeiro. Uma caução restituível também cria obrigação de devolver dinheiro, mas não é uma despesa comum do orçamento.",
+      "cebraspeTrap": "Dizer que toda dívida patrimonial só nasce quando se conclui a liquidação confunde uma conferência administrativa com o fato que criou a obrigação.",
+      "example": "A prefeitura empenha R$ 5 mil para manutenção em 20 de dezembro. O serviço é feito no dia 28, mas a conferência formal ocorre em janeiro. A obrigação patrimonial surge com o serviço realizado, quando preenchidas as condições contábeis. Se o prestador não tivesse feito o serviço, o empenho sozinho não criaria essa dívida.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -355,10 +355,10 @@
       "aliases": [
         "BP"
       ],
-      "definition": "Demonstração da posição patrimonial em uma data: apresenta ativos, passivos e patrimônio líquido no Quadro Principal e inclui quadros complementares exigidos pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), como ativos e passivos financeiros e permanentes e superávit/déficit financeiro. O Balanço Patrimonial (BP) combina informação patrimonial e o recorte legal do art. 105 da Lei nº 4.320/1964.",
-      "contrast": "No Quadro Principal, circulante/não circulante organiza ativos e passivos patrimoniais segundo os critérios contábeis. No quadro financeiro/permanente, os atributos F/P atendem à classificação legal por exigência de autorização orçamentária, podendo o passivo financeiro incluir empenhos a liquidar sem passivo patrimonial ainda reconhecido. O quadro do superávit/déficit financeiro não é resultado patrimonial da DVP nem saldo do BF; depende de ativo financeiro menos passivo financeiro, com detalhamento por fonte/destinação.",
-      "cebraspeTrap": "Concluir que todo ativo circulante é F, que todo passivo financeiro também é passivo patrimonial, ou que resultado patrimonial positivo equivale a superávit financeiro.",
-      "example": "O município mantém R$ 5 mil em caixa, R$ 2 mil de crédito tributário ainda não arrecadado e computador de R$ 4 mil. No Quadro Principal, os três são ativos; no quadro legal, caixa é F e crédito tributário e computador podem ser P conforme suas características. Se houver empenho de R$ 1 mil por serviço ainda não prestado, o compromisso pode integrar passivo financeiro do quadro legal sem representar, só por isso, passivo patrimonial no Quadro Principal.",
+      "definition": "É o relatório que mostra o que o governo tem, o que tem direito de receber e o que deve em determinada data. O Balanço Patrimonial (BP) apresenta no quadro principal os ativos, passivos e patrimônio líquido, que é a diferença entre ativos e passivos. Traz ainda quadros que separam ativos e passivos financeiros e permanentes e ajudam a apurar superávit ou déficit financeiro.",
+      "contrast": "O quadro principal responde quais bens, direitos e obrigações existem. O quadro financeiro e permanente faz outra pergunta: o recurso pode ser recebido ou a dívida paga sem nova autorização orçamentária? Por isso, caixa é financeiro (F), enquanto um imposto ainda a receber pode ser permanente (P). Um empenho de serviço ainda não prestado pode aparecer no passivo financeiro do quadro legal sem já ser uma dívida patrimonial pelo serviço. Resultado patrimonial e superávit financeiro são medidas diferentes.",
+      "cebraspeTrap": "Ativo que vence logo não é automaticamente financeiro. Passivo financeiro também não corresponde necessariamente à mesma dívida registrada no quadro principal.",
+      "example": "A cidade tem R$ 5 mil em banco, R$ 2 mil de imposto lançado mas não recebido e um computador de R$ 4 mil. Os três aparecem como ativos no quadro principal. No quadro legal, o banco é F, e o imposto a receber e o computador podem ser P. Se empenhar R$ 1 mil por um serviço futuro, esse compromisso pode entrar no passivo financeiro mesmo antes da prestação.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -386,10 +386,10 @@
       "aliases": [
         "DVP"
       ],
-      "definition": "Demonstração que evidencia as variações patrimoniais aumentativas (VPA) e diminutivas (VPD) reconhecidas no período e apura o resultado patrimonial, conforme o art. 104 da Lei nº 4.320/1964 e o Manual de Contabilidade Aplicada ao Setor Público (MCASP). A Demonstração das Variações Patrimoniais (DVP) mostra efeitos da execução orçamentária ou independentes dela sobre o patrimônio.",
-      "contrast": "A DVP responde quais fatos afetaram o resultado patrimonial por competência, não quanto foi empenhado ou pago. O Balanço Orçamentário (BO) trata de execução; o Balanço Financeiro (BF) de movimentos e saldos financeiros; o Balanço Patrimonial (BP) da posição numa data. Receber imposto cujo crédito e VPA já foram reconhecidos pode trocar direito por caixa sem nova VPA; comprar bem por preço equivalente pode trocar caixa por equipamento sem VPD imediata. Ajustes diretos no patrimônio líquido também não integram automaticamente o resultado da DVP.",
-      "cebraspeTrap": "Afirmar que pagamento equivale sempre a VPD, que arrecadação equivale sempre a VPA, ou que toda alteração do patrimônio líquido do exercício passa pelo resultado da DVP.",
-      "example": "No exercício, a prefeitura reconhece R$ 10 mil de VPA tributária e R$ 4 mil de VPD por serviços consumidos: o resultado patrimonial é R$ 6 mil, mesmo se parte do imposto ainda não foi arrecadada e dos serviços ainda não foi paga. A arrecadação posterior do crédito e o pagamento posterior do passivo não repetem VPA e VPD pelos mesmos fatos.",
+      "definition": "É o relatório que mostra o que aumentou e o que diminuiu o patrimônio do governo durante um período. A Demonstração das Variações Patrimoniais (DVP) reúne variações patrimoniais aumentativas (VPA), como certos direitos a receber reconhecidos, e diminutivas (VPD), como serviços consumidos. A diferença entre VPA e VPD é o resultado patrimonial.",
+      "contrast": "A DVP mostra o efeito dos fatos no patrimônio, mesmo que ainda não exista pagamento ou recebimento. O Balanço Orçamentário (BO) registra a execução do orçamento; o Balanço Financeiro (BF) acompanha movimentações e saldos; o Balanço Patrimonial (BP) mostra a posição numa data. Receber um imposto que já foi registrado como direito não gera novamente a mesma VPA; comprar um computador por valor equivalente também não gera automaticamente VPD pela compra.",
+      "cebraspeTrap": "Nem toda entrada de dinheiro é VPA e nem toda saída é VPD. A banca pode confundir arrecadação e pagamento com aumento e redução imediatos do patrimônio.",
+      "example": "A prefeitura reconhece R$ 10 mil de VPA por impostos e R$ 4 mil de VPD por serviços usados. O resultado patrimonial é positivo em R$ 6 mil, mesmo que parte do imposto não tenha sido recebida e parte do serviço ainda não tenha sido paga. Os pagamentos posteriores não repetem esses mesmos ganhos e gastos patrimoniais.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -417,10 +417,10 @@
       "aliases": [
         "VPD"
       ],
-      "definition": "Variação Patrimonial Diminutiva (VPD) é diminuição reconhecida do patrimônio líquido decorrente de consumo de serviços, benefícios transferidos, desgaste de ativos ou outros fatos do período, ressalvados movimentos que a norma deva registrar diretamente no patrimônio líquido. Integra a Demonstração das Variações Patrimoniais (DVP) por competência, não pelo simples empenho ou pagamento.",
-      "contrast": "Despesa orçamentária pertence ao exercício do empenho (art. 35 da Lei nº 4.320/1964), mas VPD depende de fato patrimonial. Adquirir equipamento pode aumentar ativo sem VPD imediata; pagar dívida reconhecida diminui caixa e passivo, sem VPD repetida. Depreciação de equipamento é VPD sem saída de caixa no momento do registro. A classificação não se decide pela existência de dotação, empenho ou liquidação isoladamente.",
-      "cebraspeTrap": "Dizer que toda despesa empenhada ou paga vira VPD no mesmo valor, ou que VPD exige desembolso no período.",
-      "example": "Em dezembro, o órgão consome R$ 900 em serviço de energia e reconhece VPD e obrigação, mesmo pagando em janeiro. Se comprar equipamento de R$ 900 com caixa e o bem for reconhecido como ativo, troca-se caixa por equipamento e não há VPD integral de R$ 900 pela mera compra. A depreciação nos períodos de uso produz VPD posterior.",
+      "definition": "É uma diminuição do patrimônio líquido do governo causada por consumo de serviços, desgaste de bens ou outro fato reconhecido no período. A Variação Patrimonial Diminutiva (VPD) aparece na Demonstração das Variações Patrimoniais (DVP), mesmo que não haja pagamento no mesmo momento.",
+      "contrast": "Uma despesa empenhada, comprometida no orçamento, ainda não prova que houve VPD. Comprar um computador pode apenas trocar dinheiro por um bem; pagar uma dívida que já estava registrada diminui caixa e obrigação, sem registrar o mesmo gasto patrimonial de novo. A depreciação, perda gradual do valor contábil de um equipamento pelo uso, pode gerar VPD sem saída de dinheiro naquele mês.",
+      "cebraspeTrap": "Não confundir empenho ou pagamento com consumo. Um pagamento pode não gerar nova VPD, e uma VPD pode ocorrer sem pagamento.",
+      "example": "Em dezembro, a escola usa R$ 900 de energia e registra o consumo, mesmo pagando em janeiro. Se comprar um computador de R$ 900 à vista, passa a ter o bem no lugar do dinheiro: não precisa registrar VPD integral pela simples compra. A perda de valor do computador ao longo do tempo poderá gerar VPD posterior.",
       "subjectIds": [
         "contabilidade-publica"
       ],
@@ -444,10 +444,10 @@
       "aliases": [
         "DFC"
       ],
-      "definition": "Demonstração dos Fluxos de Caixa (DFC) evidencia entradas e saídas efetivas de caixa e equivalentes em um período, classificadas por atividades operacionais, de investimento e de financiamento, conforme o Manual de Contabilidade Aplicada ao Setor Público (MCASP). Serve para analisar geração e utilização de caixa, distinguindo fluxos efetivos de fatos reconhecidos por competência sem movimentação financeira.",
-      "contrast": "A DFC não mede, por si, VPA/VPD da Demonstração das Variações Patrimoniais (DVP), nem substitui previsão e estágios da despesa do Balanço Orçamentário (BO). Depreciação, reconhecimento de imposto a receber e inscrição de restos a pagar sem pagamento não representam, isoladamente, fluxo de caixa. O recebimento do imposto e o pagamento de fornecedor geram fluxos quando ocorrem; classificar um fluxo exige examinar sua natureza, não apenas seu valor.",
-      "cebraspeTrap": "Confundir fato patrimonial sem caixa com recebimento/pagamento efetivo, ou concluir que fluxo de investimento equivale necessariamente a despesa patrimonial diminutiva.",
-      "example": "Uma unidade recebe R$ 8 mil de imposto que já figurava como crédito patrimonial: há entrada efetiva de caixa na DFC, embora a VPA possa ser anterior. Ela compra à vista um equipamento de R$ 3 mil: há saída de caixa classificada conforme atividade aplicável, mesmo que a aquisição não gere VPD de R$ 3 mil no mesmo instante. A depreciação posterior não causa novo fluxo de caixa.",
+      "definition": "É o relatório que mostra quanto dinheiro realmente entrou e saiu do caixa do governo ao longo de um período. A Demonstração dos Fluxos de Caixa (DFC) separa os movimentos em atividades de operação, investimento e financiamento para mostrar de onde veio o dinheiro e como foi usado.",
+      "contrast": "A DFC acompanha dinheiro de fato recebido ou pago. Uma depreciação, perda gradual do valor de equipamento, não movimenta caixa. Reconhecer imposto a receber também não põe dinheiro no banco; isso acontece na arrecadação. A Demonstração das Variações Patrimoniais (DVP) pode registrar aumento ou diminuição patrimonial sem dinheiro circulando. O Balanço Orçamentário (BO) trata das etapas do orçamento.",
+      "cebraspeTrap": "Registrar uma dívida ou depreciação não significa entrada ou saída efetiva de caixa. A DFC acompanha o movimento financeiro, não cada mudança do patrimônio.",
+      "example": "A prefeitura recebe R$ 8 mil de imposto que já tinha registrado como direito: a DFC mostra entrada de caixa, mesmo que o aumento patrimonial tenha ocorrido antes. Compra um computador à vista por R$ 3 mil: há saída de caixa. Quando o computador perde valor pelo uso, essa perda contábil não provoca outra saída de dinheiro.",
       "subjectIds": [
         "contabilidade-publica"
       ],

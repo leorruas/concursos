@@ -117,6 +117,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao|107. Métricas digitais: impressões, cliques e conversões]]: CAM-DI-029, sessões, taxas, funis, eventos, atribuição e C/E.
 - [[3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade|108. Indicadores de publicidade: eficácia, eficiência e causalidade]]: CAM-DI-030, retorno, incrementalidade, desenhos causais, impacto e C/E.
 - [[3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual|109. Marca: conceito, elementos e identidade visual]]: CAM-DI-031, elementos de Keller, sistema visual, arquitetura de marcas, acesso e C/E.
+- [[3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca|110. Branding: significados, experiência e valor de marca]]: CAM-DI-032, Aaker, Keller CBBE, Brakus, promessa versus experiência e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

@@ -10,7 +10,7 @@ updated: 2026-11-06
 
 # Lembretes e distinções para a prova
 
-==Este bloco reúne anotações curtas para separar conceitos próximos na hora da prova. As frases originais ficam sem destaque; esclarecimentos e novos lembretes acrescentados pelo assistente ficam marcados com o highlight `==...==` do Obsidian.==
+==Este bloco reúne anotações curtas para separar conceitos próximos na hora da prova. As frases originais ficam sem destaque; esclarecimentos e novos lembretes acrescentados pelo assistente ficam marcados com o destaque do Obsidian.==
 
 ==**Como acrescentar:** envie `#lembrete` seguido da anotação. Novas entradas são adicionadas a este artigo, preservando a autoria visual.==
 

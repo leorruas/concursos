@@ -353,6 +353,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade|Indicadores de publicidade: eficácia, eficiência, efetividade e causalidade]]
   - [[3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual|Marca: conceito, elementos e identidade visual]]
   - [[3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca|Branding: gestão de significados, experiência e valor de marca]]
+  - [[3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao|Gerenciamento de marca: arquitetura, consistência e avaliação]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

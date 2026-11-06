@@ -154,6 +154,24 @@ No [MCASP 11, Parte V, capítulo 3](https://cdn.tesouro.gov.br/sistemas-internos
 
 Se também houve **R$ 70 de receita tributária arrecadada** e nenhum pagamento, o BF apresenta **ingressos de R$ 120 (70 + 50)** e **dispêndios e caixa final de R$ 120 (50 + 70)**. O caixa real é **R$ 70** e o BO apura **resultado +R$ 20 (70 − 50)**. O crédito tributário a receber e a VPD/passivo pelo serviço são tratados pela competência, conforme [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes#Novo exemplo: competência, RPNP e cinco demonstrações|conciliação de cinco demonstrações]].
 
+### Refinamento: inscrição integral de RP e consumo parcial do contrato
+
+Suponha que a entidade empenhe **R$ 70 mil** para manutenção, receba e consuma **R$ 30 mil de serviços**, sem concluir a liquidação administrativa ou efetuar pagamentos até 31 de dezembro. Se todo o empenho remanescente for regularmente inscrito em **restos a pagar não processados (RPNP)**, o **Balanço Financeiro pode apresentar R$ 70 mil como ingresso extraorçamentário compensatório** pela inscrição da despesa ainda não paga. O registro não é receita nova nem entrada de caixa. No controle da execução, a divisão é **RPNP em liquidação: R$ 30 mil**, porque o fato gerador ocorreu; e **RPNP a liquidar: R$ 40 mil**, porque falta a prestação do serviço. A **VPD patrimonial é R$ 30 mil**, correspondente à prestação e ao consumo, não R$ 70 mil. A igualdade dos valores do empenho, da inscrição de RP e do ingresso compensatório **não obriga a reconhecer VPD de igual valor**.
+
+### Refinamento: VPA, arrecadação, empenho e caixa no mesmo exercício
+
+Imagine **VPA tributária reconhecida de R$ 90 mil**, com **R$ 35 mil arrecadados** desse crédito no exercício. A entidade empenha e liquida **R$ 20 mil em serviços integralmente prestados e consumidos** e paga somente **R$ 10 mil**. Sem saldos anteriores, outros fatos ou ajustes, os cálculos são:
+
+| Pergunta | Cálculo | Resultado |
+| :--- | :--- | ---: |
+| Resultado patrimonial | VPA 90 − VPD 20 | **+R$ 70 mil** |
+| Resultado orçamentário simplificado | Receita arrecadada 35 − despesa empenhada 20 | **+R$ 15 mil** |
+| Caixa final | Recebimento 35 − pagamento 10 | **R$ 25 mil** |
+| Crédito tributário ainda a receber | Direito reconhecido 90 − arrecadação 35 | **R$ 55 mil** |
+| Serviço consumido e ainda a pagar | Obrigação 20 − pagamento 10 | **R$ 10 mil** |
+
+A **previsão de receita na LOA** e a **arrecadação efetiva** são estágios diferentes. Para atribuir uma receita orçamentária ao exercício, o art. 35 da Lei nº 4.320/1964 considera a **arrecadação**, não o valor da VPA ou apenas o valor inicialmente previsto. A VPA acompanha o fato patrimonial reconhecível. A despesa orçamentária é ligada ao **empenho**, enquanto o caixa registra o **pagamento**. Por isso, os três números são diferentes sem contradição.
+
 ## Resultado financeiro do BF × superávit financeiro do BP
 
 A coincidência de palavras é um dos melhores pontos de discriminação conceitual. O **resultado financeiro do BF** acompanha a diferença entre os saldos de caixa no início e no fim, conforme os componentes da demonstração. Já o **superávit financeiro apurado no BP**, para fins orçamentários, considera **ativo financeiro menos passivo financeiro**, observados os ajustes legais pertinentes. Assim, ter caixa maior no fim do ano não assegura superávit financeiro livre ou no mesmo valor.

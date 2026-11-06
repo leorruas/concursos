@@ -1,0 +1,31 @@
+name: Validar glossário antes de integrar
+on:
+  pull_request:
+    paths:
+      - 'data/glossario/**'
+      - 'scripts/glossary-*.js'
+      - 'scripts/test-glossary*.js'
+      - 'scripts/build-site.js'
+      - '.github/workflows/validate-glossary-pr.yml'
+      - '3 - Materias/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Verificar catálogo e gerar o site sem publicar
+        run: node scripts/build-site.js
+      - name: Testar integridade, rotas e busca do glossário
+        run: node scripts/test-glossary.js
+      - name: Testar flashcards derivados do glossário
+        run: node scripts/test-glossary-flashcards.js
+      - name: Verificar dados pessoais fora do site
+        run: node scripts/test-public-privacy.js

@@ -283,6 +283,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao|Estudos culturais e Stuart Hall: codificação, decodificação e recepção]]
   - [[3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios|Marshall McLuhan: o meio é a mensagem, extensões e ecologia dos meios]]
   - [[3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao|Semiótica: Saussure, Peirce, Barthes e produção de significação]]
+  - [[3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica|Opinião pública: formação social, esfera pública e sondagens]]
+  - [[3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao|Espiral do silêncio: Noelle-Neumann e clima de opinião]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

@@ -41,7 +41,10 @@ Os dois primeiros artigos iniciaram o **piloto da fase F1** do [[1 - Planejament
 - [[3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios|40. Marshall McLuhan: o meio é a mensagem, extensões e ecologia dos meios]]: CAM-TC-016, autores, conceitos, fronteiras e itens C/E.
 - [[3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao|41. Semiótica: Saussure, Peirce, Barthes e produção de significação]]: CAM-TC-017, autores, conceitos, fronteiras e itens C/E.
 
-A trilha TC-001 a TC-017 inclui transformações dos meios e teorias do signo e da significação. Próxima unidade: opinião pública, espiral do silêncio, midiatização e plataformização. Conclusão editorial não significa domínio individual. A publicação editorial não comprova estudo ou retenção.
+- [[3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica|42. Opinião pública: formação social, esfera pública e sondagens]]: CAM-TC-018, conceitos, autores, sondagens, casos e itens C/E.
+- [[3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao|43. Espiral do silêncio: Noelle-Neumann e clima de opinião]]: CAM-TC-019, mecanismo, condições, críticas e itens C/E.
+
+A trilha TC-001 a TC-019 inclui transformações dos meios e teorias do signo e da significação. Próxima unidade: midiatização, plataformização e integridade da informação. Conclusão editorial não significa domínio individual. A publicação editorial não comprova estudo ou retenção.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

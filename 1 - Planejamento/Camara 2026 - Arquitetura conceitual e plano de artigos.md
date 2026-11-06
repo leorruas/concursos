@@ -481,6 +481,15 @@ O núcleo de teoria crítica e estudos culturais foi realizado no lote 5, manten
 
 Próximo núcleo: **CAM-TC-018, opinião pública**.
 
+## Lote 7: opinião pública e espiral do silêncio (TC-018 e TC-019)
+
+- [ ] **CAM-TC-018 · arquivo criado; publicação por validar**: [[3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica|Opinião pública: formação social, esfera pública e sondagens]] (`art-e738c9f264b150da`). Desenvolve Lippmann, Dewey, Habermas e Bourdieu, separa opinião agregada, deliberação, clima percebido e sondagens; inclui casos e itens C/E inéditos.
+- [ ] **CAM-TC-019 · arquivo criado; publicação por validar**: [[3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao|Espiral do silêncio: Noelle-Neumann, clima de opinião e expressão]] (`art-a4d7e832b9510c6f`). Explica mecanismo, condições, exceções e limites empíricos, com casos e C/E comentados.
+
+Notas, hub, índice e catálogo são sincronizados em uma única operação lógica. **Pendente:** validar workflow do Pages e catálogo ao vivo antes de marcar as caixas concluídas. A publicação editorial não constitui progresso de estudo.
+
+Próximo núcleo: **CAM-TC-020, midiatização**.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

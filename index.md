@@ -322,6 +322,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|Publicidade institucional, promoção pessoal e art. 37, § 1º]]
   - [[3 - Materias/Comunicacao/79 - publicidade e propaganda conceitos funcoes e limites|Publicidade e propaganda: conceitos, funções e limites]]
   - [[3 - Materias/Comunicacao/80 - teorias da publicidade e persuasao|Teorias da publicidade e persuasão]]
+  - [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|Publicidade institucional, mercadológica, de utilidade pública e legal]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

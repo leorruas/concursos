@@ -82,6 +82,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|72. Ato da Mesa nº 218/2025: política de comunicação da Câmara]]: CAM-CO-026, princípios, objetivos, diretrizes, exceções, canais, requisitos, vedações, competências e C/E.
 - [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|73. Manual de Comunicação: procedimentos e linguagem]]: CAM-CO-027, texto e estilo, inclusão, redes, assessoria, IA e C/E.
 - [[3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos|74. IA na comunicação e riscos éticos]]: CAM-CO-028, processos, controle e C/E.
+- [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|75. Linguagem simples: técnicas, compreensão e limites]]: CAM-CO-029, Lei nº 15.263/2025, precisão, estrutura, testes e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

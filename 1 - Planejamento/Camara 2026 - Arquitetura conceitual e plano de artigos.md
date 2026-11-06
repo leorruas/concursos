@@ -277,8 +277,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 
 - [x] **CAM-CO-001 · F1**: Comunicação interna: finalidade, sujeitos e resultados.
 - [x] **CAM-CO-002 · F1**: Canais internos: intranet, mural, newsletter e eventos.
-- [ ] **CAM-CO-003 · F1**: Endomarketing: engajamento e fronteira com comunicação interna.
-- [ ] **CAM-CO-004 · F1**: Cultura organizacional e clima: conceitos distintos.
+- [x] **CAM-CO-003 · F1**: Endomarketing: engajamento e fronteira com comunicação interna.
+- [x] **CAM-CO-004 · F1**: Cultura organizacional e clima: conceitos distintos.
 - [ ] **CAM-CO-005 · F2**: Gestão do clima por comunicação: alcance e limites.
 - [ ] **CAM-CO-006 · F2**: Comunicação institucional: objeto, função e públicos.
 - [ ] **CAM-CO-007 · F2**: Identidade, imagem e reputação: diferenças e relações.
@@ -533,16 +533,24 @@ Próximos candidatos: **CAM-CO-003 endomarketing** e **CAM-CO-004 cultura e clim
 
 ## Lote 12: endomarketing, cultura e clima (CO-003 e CO-004)
 
-- [ ] **CAM-CO-003 · artigo criado e publicação pendente**: [[3 - Materias/Comunicacao/49 - endomarketing fundamentos objetivos e fronteiras|Endomarketing: objetivos e fronteiras com comunicação interna]] (`art-2d58e6cb9a473f01`). Desenvolve Bekin, relação com Kunsch, competências CHA, engajamento, condições de gestão, exemplos progressivos e itens C/E. Não substitui notas existentes da FGV ou da CGU.
-- [ ] **CAM-CO-004 · artigo criado e publicação pendente**: [[3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras|Cultura e clima organizacional: Schein e Schneider]] (`art-b0ad4f6e375a912c`). Estuda estrutura de Schein, diferenças entre clima psicológico e de unidade, métodos e limites causais, casos e C/E. Preservados os resumos das notas antigas.
+- [x] **CAM-CO-003 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/49 - endomarketing fundamentos objetivos e fronteiras|Endomarketing: objetivos e fronteiras com comunicação interna]] (`art-2d58e6cb9a473f01`). Desenvolve Bekin, relação com Kunsch, competências CHA, engajamento, condições de gestão, exemplos progressivos e itens C/E. Não substitui notas existentes da FGV ou da CGU.
+- [x] **CAM-CO-004 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras|Cultura e clima organizacional: Schein e Schneider]] (`art-b0ad4f6e375a912c`). Estuda estrutura de Schein, diferenças entre clima psicológico e de unidade, métodos e limites causais, casos e C/E. Preservados os resumos das notas antigas.
 
 **CAM-CO-001 e CAM-CO-002 · publicação confirmada:** a expansão da nota de Comunicação Interna e o artigo de canais foram publicados no [workflow 42144818116](https://github.com/leorruas/concursos/actions/runs/42144818116), concluído com sucesso, inclusive a confirmação do catálogo ao vivo.
 
 **Proteção multi-edital:** os conteúdos anteriores das notas 01 e 09, inclusive o recorte FGV, estão preservados. O catálogo da CGU e o da Dataprev permanecem inalterados. Não confundir status editorial com estudo e retenção.
 
-**Pendente:** validar identidade, catálogo, busca, privacidade, build e publicação ao vivo dos artigos CO-003/004 antes de concluir suas caixas.
+**Publicação confirmada:** o [workflow 42145802940](https://github.com/leorruas/concursos/actions/runs/42145802940) terminou com sucesso, incluindo identidade, catálogo, busca, privacidade, build e confirmação do manifesto ao vivo no GitHub Pages. Trata-se de conclusão editorial e técnica, sem progresso pessoal presumido.
 
 Próximo candidato: **CAM-CO-005, gestão do clima por comunicação**, com auditoria do material já publicado.
+
+## Lote 13: gestão do clima pela comunicação (CO-005)
+
+- [ ] **CAM-CO-005 · artigo criado; publicação pendente**: [[3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao|Gestão do clima pela comunicação: alcance e limites]] (`art-9f3c27d018b5e64a`). Artigo novo para pergunta aplicada própria: intervenção sobre práticas e percepções; Schneider e clima focalizado; quatro dimensões de justiça de Colquitt; voz e silêncio em Morrison; segurança psicológica em Edmondson; limites causais, progressão de casos e três itens C/E. Os artigos 01, 09, 49 e 50 permanecem intactos e disponíveis para estudo de outros concursos.
+
+**Proteção multi-edital:** o catálogo da Câmara recebeu somente o ID do artigo novo, mantendo-se idênticos os catálogos da CGU e da Dataprev. Não declarar estudo ou retenção a partir da publicação.
+
+**Validação pendente:** confirmar workflow, identidade, busca, catálogo e publicação do Pages com manifesto ao vivo para assinalar o item. Próximas unidades: CAM-CO-006 comunicação institucional e CAM-CO-007 identidade, imagem e reputação; auditar previamente as notas canônicas.
 
 ## Critérios de publicação e evidência
 

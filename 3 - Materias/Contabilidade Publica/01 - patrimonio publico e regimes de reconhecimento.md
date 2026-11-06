@@ -85,6 +85,14 @@ Agora compare com dois fatos que **aumentam o ativo**, mas têm contrapartidas d
 
 A verdade parcial que costuma confundir: **“o ativo aumentou R$ 60 mil” está certo**, mas não permite concluir que a **VPA ou o PL aumentaram R$ 60 mil**. Procure a contrapartida: **uma obrigação correspondente neutraliza o aumento do PL**; um bem recebido sem obrigação pode gerar VPA, quando os critérios aplicáveis forem atendidos.
 
+### Reconhecimento da obrigação e classificação no balanço
+
+Reconhecer uma obrigação e classificá-la são decisões distintas. O serviço prestado e consumido pode gerar passivo patrimonial, mesmo sem pagamento. Depois de reconhecido, o passivo é classificado no Quadro Principal como circulante ou não circulante conforme os critérios normativos de prazo, ciclo operacional e condições de liquidação. Portanto, existir obrigação não torna automaticamente o passivo circulante.
+
+No quadro financeiro/permanente, a análise usa outro critério legal: um compromisso orçamentário regularmente empenhado pode integrar o passivo financeiro mesmo antes de se constituir um passivo patrimonial. Uma despesa de serviço já liquidada, mas não paga, permanece como obrigação registrada e pode ser inscrita em restos a pagar processados. A liquidação verifica o direito do credor; o pagamento é que extingue a dívida pelo desembolso. O [[3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais#Estrutura do BP: quatro quadros com critérios diferentes|artigo 03]] desenvolve as classificações dos quatro quadros.
+
+**Operação de crédito: receita no orçamento, dívida no patrimônio.** Imagine uma entidade sem saldos que arrecada **R$ 50 mil de empréstimo** (operação de crédito orçamentária) e empenha **R$ 30 mil** na compra de equipamento recebido e reconhecido, pagando apenas **R$ 10 mil**. O **resultado orçamentário simplificado é positivo em R$ 20 mil** (50 arrecadados − 30 empenhados). O **resultado patrimonial é zero** nesse exemplo, pois o empréstimo aumenta caixa e dívida em igual valor, enquanto o equipamento entra como ativo e gera obrigação com fornecedor; não houve VPA ou VPD por esses dois fatos. O caixa encerra em R$ 40 mil, o equipamento compõe ativo de R$ 30 mil e o passivo total é R$ 70 mil (R$ 50 mil do empréstimo + R$ 20 mil a pagar ao fornecedor). Assim, o PL continua zero. **Arrecadação orçamentária não é sinônimo de VPA**: a natureza patrimonial da contrapartida decide o resultado.
+
 ## Regime orçamentário e regime patrimonial
 
 **O que é um regime de reconhecimento?** É o critério que determina **em qual período** um acontecimento deve ser registrado. Para compreender a contabilidade pública, convém distinguir três ideias:

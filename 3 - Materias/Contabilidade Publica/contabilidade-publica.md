@@ -60,6 +60,7 @@ Para quem está construindo os fundamentos, uma ordem **conceitual** possível �
 9. [[3 - Materias/Contabilidade Publica/09 - demonstracoes societarias das estatais|Demonstrações societárias das estatais e partes relacionadas]]: DRE × DVP, BP, DRA, DMPL, DFC, CPC 05 e consolidação.
 10. [[3 - Materias/Contabilidade Publica/10 - governanca transparencia e finalidade publica das estatais|Governança, transparência e finalidade pública das estatais]]: cartas, conselhos, auditoria, finalidade pública, controles e alteração de 2025.
 11. [[3 - Materias/Contabilidade Publica/11 - sustentabilidade economico-financeira das estatais|Sustentabilidade econômico-financeira das estatais]]: lucro × caixa × solvência, CAPEX, dívida, fontes do controlador, dependência pela LRF e metas físicas.
+12. [[3 - Materias/Contabilidade Publica/12 - lembretes e distincoes para prova|Lembretes e distinções para a prova]]: bloco de anotações incrementais com exemplos e precisões destacadas; não substitui os artigos teóricos.
 
 **Cobertura:** onze artigos, com dez notas originais de C1–C5 e o [[3 - Materias/Contabilidade Publica/11 - sustentabilidade economico-financeira das estatais|Sustentabilidade econômico-financeira das estatais]], completam **a cobertura substantiva editorial dos 12 subitens P3.2.4 a P3.2.7**, incluindo 5.1, 6.3 e 7.2. Os **18 subitens de P3.2** têm notas com conteúdo substantivo, porém **validação normativa fina, provas-esqueleto e estudo real seguem pendentes**. Nenhum status de aprendizagem foi alterado.
 

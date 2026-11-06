@@ -5,7 +5,7 @@ title: "Comunicação social"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Comunicação (Concursos)
@@ -93,6 +93,25 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|83. Diagnóstico publicitário: evidências e problema de comunicação]]: CAM-DI-005, causas, hipóteses, diagnóstico, avaliação e C/E.
 - [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|84. Objetivos de comunicação e campanha]]: CAM-DI-006, resultados, metas, entrega, indicadores e C/E.
 - [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|85. Público-alvo e segmentação publicitária]]: CAM-DI-007, bases geográfica, demográfica, psicográfica e comportamental, ADAMS e C/E.
+- [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|86. Estratégia, conceito criativo e posicionamento]]: CAM-DI-008, Ries/Trout, Keller, USP, promessa, execução e C/E.
+- [[3 - Materias/Comunicacao/87 - mensagem publicitaria apelos e argumentacao|87. Mensagem publicitária: apelos e argumentação]]: CAM-DI-009, ethos, pathos, logos, provas, falácias e C/E.
+- [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|88. Atendimento em publicidade: responsabilidades e etapas]]: CAM-DI-010, interface agência-anunciante, etapas, competências e C/E.
+- [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|89. Tipos de mídia, veículos e plataformas]]: CAM-DI-011, comparação entre meios, decisões de distribuição e C/E.
+- [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|90. Plano de mídia: alcance, frequência, cobertura e investimento]]: CAM-DI-012, cálculos de GRP, TRP, CPM, CPC, alcance líquido, deduplicação e C/E.
+- [[3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias|91. Cronograma de campanha: sequência e dependências]]: CAM-DI-013, precedências, caminho crítico, Gantt, PERT e itens C/E.
+- [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|92. Produção de campanha: fluxo, aprovação e controle]]: CAM-DI-014, etapas técnicas, controle de versões, checagem, direitos, acessibilidade e C/E.
+- [[3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio|93. Redação publicitária: textos, formatos e adequação ao meio]]: CAM-DI-015, títulos, CTA, slogans, linguagem simples, adaptação e C/E.
+- [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|94. Monitoramento, dados e avaliação de campanhas]]: CAM-DI-016, modelo AMEC, outputs/outcomes/impacto, inferência causal e C/E.
+- [[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|95. Marketing: troca, valor, necessidades e públicos]]: CAM-DI-017, AMA, necessidades/desejos/demanda, orientações de marketing e C/E.
+- [[3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes|96. Planejamento de marketing: diagnóstico, objetivos e decisões]]: CAM-DI-018, SWOT, PESTEL, Porter, Ansoff, BCG e C/E.
+- [[3 - Materias/Comunicacao/97 - marketing institucional no setor publico valor legitimidade e limites|97. Marketing institucional no setor público: valor, legitimidade e limites]]: CAM-DI-019, comunicação pública, política da Câmara, Moore e C/E.
+- [[3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna|98. Endomarketing, marketing interno e comunicação interna]]: CAM-DI-020, Berry, Grönroos, Rafiq/Ahmed, Bekin e C/E.
+- [[3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao|99. Segmentação de mercado: B2B, atratividade e decisões]]: CAM-DI-021, firmografia, centro de compras, RFM, escolha de segmentos e C/E.
+- [[3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao|100. Marketing digital: canais, jornadas e integração]]: CAM-DI-022, mídia paga/própria/conquistada, busca, jornadas, multicanal e omnicanal, limites públicos e C/E.
+- [[3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias|101. Comportamento do consumidor: decisão e influências]]: CAM-DI-023, cinco etapas, quatro tipos de compra, influências e C/E.
+- [[3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos|102. Perguntas de pesquisa: abordagens e métodos mistos]]: CAM-DI-024, formulação de problemas, validade, evidência, desenho misto e C/E.
+- [[3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao|103. Pesquisa de mercado: desenho, amostragem e interpretação]]: CAM-DI-025, seleção probabilística, precisão, erro total, ponderação, séries temporais e C/E.
+- [[3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites|104. Pesquisa de opinião pública: objeto, perguntas e limites]]: CAM-DI-026, opinião declarada, conhecimento, silêncio, formulação de perguntas, inferência e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

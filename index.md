@@ -332,6 +332,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|Atendimento em publicidade: responsabilidades e etapas]]
   - [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|Tipos de mídia, veículos e plataformas]]
   - [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|Plano de mídia: alcance, frequência, cobertura e investimento]]
+  - [[3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias|Cronograma de campanha: sequência e dependências]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

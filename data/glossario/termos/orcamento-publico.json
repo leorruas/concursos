@@ -94,10 +94,10 @@
         "Empenho da despesa",
         "Empenho orçamentário"
       ],
-      "definition": "Ato da autoridade competente que compromete parte do orçamento para uma despesa e cria obrigação de pagamento para o Estado. Pelo art. 58 da Lei nº 4.320/1964, essa obrigação é 'pendente ou não de implemento de condição'.",
-      "contrast": "Empenho registra o compromisso no orçamento. Liquidação verifica o direito do credor, e pagamento entrega o dinheiro; uma etapa não comprova que as demais já ocorreram.",
-      "cebraspeTrap": "Omitir a expressão legal 'ou não' ao dizer que a obrigação criada pelo empenho depende sempre de condição; ou presumir que já houve entrega e pagamento.",
-      "example": "Uma universidade empenha equipamentos antes da entrega; em outra obrigação, a condição para o pagamento pode já estar implementada, sem confundir o empenho com a liquidação.",
+      "definition": "É o ato pelo qual o governo separa formalmente uma parte da verba autorizada no orçamento para determinada despesa. Segundo o art. 58 da Lei nº 4.320/1964, cria para o Estado uma obrigação de pagamento, que pode depender ou não de uma condição, como a entrega do produto. O empenho faz parte da execução da despesa orçamentária.",
+      "contrast": "Dotação é o valor autorizado para gastar; empenho compromete parte dele. Liquidação é a conferência de que o credor tem direito a receber; pagamento é a transferência do dinheiro. O empenho por uma entrega futura não prova, sozinho, que já exista uma dívida patrimonial pelo serviço: ela depende do fato ocorrido. Se a despesa foi empenhada e não paga até o fim do ano, pode ser inscrita em restos a pagar, observadas as regras.",
+      "cebraspeTrap": "A definição legal diz 'pendente ou não de implemento de condição': nem todo empenho depende de entrega futura. Também não se pode confundir o compromisso no orçamento com o pagamento já realizado.",
+      "example": "Uma universidade tem R$ 50 mil autorizados para comprar computadores e empenha R$ 12 mil para um pedido. Restam R$ 38 mil de dotação, se não houve outros compromissos. Enquanto os computadores não chegam, há empenho, mas não houve entrega. Depois de recebê-los, o órgão confere a documentação para liquidar; só então segue para pagamento regular.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -119,10 +119,10 @@
       "id": "glo-liquidacao-da-despesa",
       "term": "Liquidação da despesa",
       "aliases": [],
-      "definition": "Etapa em que a administração confere se o fornecedor ou outro credor tem direito ao pagamento, verificando o que foi entregue e os documentos exigidos, conforme o art. 63 da Lei nº 4.320/1964.",
-      "contrast": "A liquidação verifica o direito de receber. O empenho registra o compromisso antes, enquanto o pagamento transfere os recursos depois da autorização pertinente.",
-      "cebraspeTrap": "Considerar a simples emissão de fatura como comprovação suficiente de entrega.",
-      "example": "A fiscalização verifica a entrega e os documentos antes de liberar o pagamento.",
+      "definition": "É a etapa em que o governo confere se a pessoa ou empresa tem direito a receber. Pela Lei nº 4.320/1964, art. 63, essa conferência examina a origem da despesa, o valor devido, quem deve receber e os documentos que comprovam a entrega do bem ou a prestação do serviço, conforme o caso.",
+      "contrast": "O empenho vem antes e registra o compromisso no orçamento; a liquidação verifica o direito do credor; o pagamento transfere o dinheiro depois da ordem competente. A entrega de um bem pode criar uma obrigação patrimonial antes de a conferência administrativa terminar. Receber uma nota fiscal, sem checar a execução, não encerra automaticamente a liquidação.",
+      "cebraspeTrap": "A banca pode dizer que a nota fiscal, sozinha, comprova o direito ao pagamento ou que liquidar significa pagar. A liquidação exige verificar o direito do credor, inclusive valor, destinatário e prestação.",
+      "example": "A escola empenha R$ 4 mil por cadeiras. Quando elas chegam, o responsável conta as unidades, verifica se correspondem ao contrato e confere a nota e o fornecedor. Concluída a liquidação, os R$ 4 mil ficam liquidados a pagar. A empresa ainda não recebeu o dinheiro até que o pagamento seja feito.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -557,10 +557,10 @@
       "id": "glo-pagamento-da-despesa",
       "term": "Pagamento da despesa",
       "aliases": [],
-      "definition": "Etapa em que a administração efetivamente paga o credor, depois da liquidação regular e da ordem de pagamento da autoridade competente.",
-      "contrast": "Empenhar reserva crédito e formaliza o compromisso; liquidar verifica o direito do credor; pagar transfere os recursos.",
-      "cebraspeTrap": "Tratar empenho ou emissão da nota fiscal como se já constituíssem pagamento.",
-      "example": "O fornecedor recebe o valor depois de verificada a entrega e autorizada a ordem de pagamento.",
+      "definition": "É quando o governo entrega o dinheiro ao credor para quitar uma despesa. Na execução orçamentária, o pagamento regular ocorre depois do empenho, da liquidação e da ordem de pagamento da autoridade competente, conforme a Lei nº 4.320/1964.",
+      "contrast": "Empenho compromete a verba; liquidação confere o direito de receber; pagamento é a saída de dinheiro. A despesa pode estar empenhada e liquidada, mas ainda sem pagamento. Se o ano terminar nessa situação, o valor pode ser inscrito em restos a pagar processados. Pagar restos a pagar no exercício seguinte é saída extraorçamentária nesse exercício, e não novo empenho pelo mesmo gasto.",
+      "cebraspeTrap": "Liquidação concluída não prova que houve transferência bancária. Também é errado tratar o pagamento de restos a pagar como nova despesa empenhada no orçamento do ano seguinte.",
+      "example": "A prefeitura empenha R$ 3 mil por manutenção, recebe e confere o serviço e autoriza o pagamento. Quando transfere os R$ 3 mil ao fornecedor, ocorre o pagamento. Se a transferência só for feita em janeiro, após inscrição regular em restos a pagar de dezembro, a despesa continua sendo do orçamento anterior.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -584,10 +584,10 @@
       "aliases": [
         "RPP"
       ],
-      "definition": "Despesas que foram empenhadas e liquidadas até 31 de dezembro, mas que ainda não foram pagas e seguem para pagamento no exercício seguinte.",
-      "contrast": "Nos processados, o direito do credor já passou pela liquidação. Nos não processados, essa etapa ainda não terminou.",
-      "cebraspeTrap": "Considerar uma despesa apenas empenhada como resto a pagar processado.",
-      "example": "Equipamentos entregues e liquidados em dezembro são pagos no exercício seguinte.",
+      "definition": "São despesas que o governo empenhou e liquidou até o fim do exercício, mas não pagou. Como a entrega ou o direito do credor já passou pela conferência formal, esses valores podem ser inscritos em restos a pagar processados e pagos depois, conforme as regras aplicáveis.",
+      "contrast": "Restos a pagar não processados também foram empenhados e não pagos, mas não tiveram a liquidação concluída. Ter o serviço realizado não basta para classificar como processado se a conferência formal ainda não terminou. No Balanço Financeiro, a inscrição de restos a pagar gera registro compensatório sem entrada real de dinheiro; o pagamento futuro é saída extraorçamentária.",
+      "cebraspeTrap": "O critério é a liquidação concluída até o encerramento do ano, e não apenas a entrega do bem, a emissão da nota ou o vencimento da dívida.",
+      "example": "O município empenha R$ 6 mil para conserto de veículos em novembro. O serviço é prestado, conferido e liquidado em dezembro, mas não há pagamento até 31 de dezembro. Se o valor for inscrito regularmente, será resto a pagar processado. Quando pago em janeiro, não precisa de novo empenho por causa da mudança de ano.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -615,10 +615,10 @@
       "aliases": [
         "RPNP"
       ],
-      "definition": "Despesas empenhadas e ainda não pagas em 31 de dezembro cuja liquidação não foi concluída, desde que atendam às condições de inscrição.",
-      "contrast": "Não processados podem estar 'a liquidar', quando ainda não houve fato gerador, ou 'em liquidação', quando o fato ocorreu e a conferência formal está pendente.",
-      "cebraspeTrap": "Afirmar que todo resto não processado significa ausência de entrega ou de obrigação patrimonial.",
-      "example": "Um serviço prestado em dezembro pode estar em liquidação se a verificação administrativa ainda não terminou.",
+      "definition": "São despesas empenhadas que ficaram sem pagamento até o fim do ano e cuja liquidação ainda não foi concluída. A inscrição depende das condições legais; não basta haver saldo empenhado. Podem estar a liquidar, quando o bem ou serviço ainda não foi entregue, ou em liquidação, quando o fato já ocorreu, mas falta terminar a conferência.",
+      "contrast": "Nos restos a pagar processados, a liquidação já foi concluída. Nos não processados, ainda não. Isso não significa que toda entrega esteja pendente: um serviço já prestado pode estar em liquidação e ter gerado uma obrigação patrimonial, embora o órgão ainda confira os documentos. O pagamento no exercício seguinte, depois de atendidas as etapas necessárias, não é novo empenho do orçamento atual.",
+      "cebraspeTrap": "É incorreto concluir que 'não processado' significa sempre 'serviço não prestado'. A diferença decisiva para processado é a conclusão da liquidação.",
+      "example": "Uma prefeitura empenha dois serviços de R$ 2 mil. O primeiro será prestado apenas em janeiro: em dezembro, está a liquidar. O segundo foi realizado em dezembro, mas ainda falta a conferência formal: está em liquidação. Se inscritos regularmente, ambos são restos a pagar não processados, por motivos diferentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1055,10 +1055,10 @@
         "Fonte de recursos",
         "Destinação de recursos"
       ],
-      "definition": "Código que indica quais regras devem ser respeitadas ao usar uma receita pública e para quais despesas ela pode financiar recursos.",
-      "contrast": "Natureza da receita explica de onde vem o dinheiro; fonte/destinação explica quais vinculações ou regras condicionam seu uso.",
-      "cebraspeTrap": "Concluir que duas receitas patrimoniais necessariamente financiam as mesmas despesas por terem natureza semelhante.",
-      "example": "Uma fonte vinculada pode financiar ações específicas ainda que a natureza econômica da receita seja comum.",
+      "definition": "É a identificação usada no orçamento e na contabilidade para mostrar quais regras controlam o uso de determinado dinheiro público. A fonte ou destinação indica se o recurso está ligado a uma finalidade específica ou pode financiar despesas dentro de regras mais gerais. Ajuda a acompanhar a arrecadação e o gasto respeitando as vinculações.",
+      "contrast": "Natureza da receita responde que tipo de receita foi arrecadada, como imposto ou operação de crédito. Fonte/destinação responde onde esse dinheiro pode ser usado. Dotação é o valor autorizado no orçamento para determinada despesa; disponibilidade de caixa mostra os recursos financeiros para pagar. O atributo financeiro (F) ou permanente (P) do Balanço Patrimonial usa ainda outro critério: por exemplo, dinheiro vinculado à saúde continua sendo caixa F, mas não fica livre para qualquer finalidade.",
+      "cebraspeTrap": "Confundir fonte com tipo de receita, dotação ou atributo F/P leva a usar dinheiro vinculado fora da finalidade permitida. Duas receitas da mesma natureza podem ter regras de destinação diferentes.",
+      "example": "Um município tem R$ 100 mil em banco, dos quais R$ 40 mil são recursos vinculados a uma finalidade legal específica. Os R$ 100 mil são dinheiro em caixa, mas a identificação da fonte impede tratar os R$ 40 mil como livres para qualquer despesa. Ter dotação de R$ 70 mil para uma ação também não prova que existe dinheiro disponível dessa fonte.",
       "subjectIds": [
         "orcamento-publico"
       ],

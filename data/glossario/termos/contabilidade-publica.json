@@ -119,6 +119,38 @@
       "status": "reviewed"
     },
     {
+      "id": "glo-recebimento-extraorcamentario-compensatorio",
+      "term": "Recebimento extraorçamentário compensatório",
+      "aliases": [
+        "Inscrição compensatória de restos a pagar",
+        "Ingresso extraorçamentário compensatório"
+      ],
+      "definition": "Registro da inscrição de restos a pagar do exercício como recebimento extraorçamentário no Balanço Financeiro, para compensar a parcela de despesa orçamentária empenhada que ainda não foi paga. É uma compensação contábil, sem entrada real de dinheiro.",
+      "contrast": "Restos a pagar podem ser processados (liquidados) ou não processados (ainda não liquidados); a compensação alcança a inscrição regular de ambos. Outros recebimentos extraorçamentários, como depósitos de terceiros, podem representar entrada efetiva de caixa.",
+      "cebraspeTrap": "Afirmar que todo recebimento extraorçamentário aumenta o caixa ou que a inscrição compensatória no BF exige que os restos a pagar já tenham sido liquidados.",
+      "example": "O órgão arrecadou R$ 100, empenhou R$ 60, pagou R$ 40 e inscreveu R$ 20 em restos a pagar. No BF, os R$ 20 aparecem como recebimento compensatório, mas a entrada real foi só R$ 100 e o caixa final é R$ 60.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-420d779b988c4cc8"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, art. 103, parágrafo único",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "MCASP 11ª edição, Parte V, capítulo 3",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "glo-variacao-patrimonial-aumentativa",
       "term": "Variação patrimonial aumentativa",
       "aliases": [

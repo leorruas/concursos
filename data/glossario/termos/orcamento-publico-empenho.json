@@ -6,10 +6,10 @@
       "id": "glo-fixacao-da-despesa",
       "term": "Fixação da despesa",
       "aliases": [],
-      "definition": "Etapa em que o orçamento autoriza valores para as despesas do governo. A lei estabelece dotações que poderão ser utilizadas durante a execução.",
-      "contrast": "Fixar a despesa é autorizar o gasto no orçamento. Empenhar é comprometer uma parte da autorização; liquidar e pagar ocorrem depois.",
-      "cebraspeTrap": "Considerar que o montante fixado na LOA já representa obrigação empenhada ou despesa efetivamente paga.",
-      "example": "A LOA reserva R$ 500 mil para equipamentos, mas a unidade ainda não realizou qualquer empenho.",
+      "definition": "É a autorização dada no orçamento para o governo realizar determinadas despesas. A Lei Orçamentária Anual (LOA) estabelece valores chamados dotações, que são limites autorizados para cada finalidade. A fixação faz parte do planejamento e da aprovação do orçamento, antes da execução da despesa.",
+      "contrast": "Fixação autoriza gastar até certo valor, mas não separa dinheiro em conta nem cria dívida com fornecedor. Empenho é o compromisso formal de parte dessa autorização; liquidação é a conferência do direito de quem forneceu; pagamento é a saída de dinheiro. Créditos adicionais podem alterar os valores autorizados durante o ano, conforme as regras legais.",
+      "cebraspeTrap": "Uma dotação aprovada não equivale a gasto realizado, dívida constituída ou caixa disponível. A banca pode apresentar verba fixada como se fosse despesa já empenhada.",
+      "example": "A LOA autoriza R$ 500 mil para equipamentos de escolas. Antes de qualquer contratação, há dotação de R$ 500 mil, mas não há empenho dessa compra. Se a escola empenhar R$ 80 mil, compromete parte da dotação; isso ainda não significa que os equipamentos foram entregues ou pagos.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -31,10 +31,10 @@
       "id": "glo-empenho-previo",
       "term": "Empenho prévio",
       "aliases": [],
-      "definition": "Regra segundo a qual a administração deve empenhar a despesa antes de realizá-la, para comprometer corretamente a autorização do orçamento.",
-      "contrast": "O empenho é obrigatório antes da despesa, conforme o art. 60 da Lei nº 4.320/1964. A dispensa especial de emitir a nota não dispensa o ato de empenhar.",
-      "cebraspeTrap": "Afirmar que é possível realizar despesa sem empenho pelo simples fato de ser dispensada a emissão da nota de empenho.",
-      "example": "Uma compra segue o procedimento de empenho antes do compromisso de execução e da entrega dos bens.",
+      "definition": "É a regra de que o governo deve empenhar uma despesa antes de realizá-la. Empenhar significa registrar formalmente o compromisso e usar parte da verba autorizada no orçamento. A Lei nº 4.320/1964, art. 60, proíbe realizar despesa sem empenho prévio.",
+      "contrast": "O empenho é o ato orçamentário; nota de empenho é o documento que normalmente o registra. Em casos especiais previstos em lei, a emissão da nota pode ser dispensada, mas isso não elimina a necessidade de empenho. Depois do empenho, a liquidação verifica a entrega e o pagamento transfere o dinheiro. A regra não autoriza considerar entregue um bem apenas porque houve empenho.",
+      "cebraspeTrap": "A dispensa da nota de empenho, quando legalmente admitida, não é dispensa do próprio empenho. Também é falso que empenhar prove entrega ou pagamento.",
+      "example": "Um órgão pretende contratar a manutenção de computadores por R$ 5 mil. Antes da realização da despesa, registra o empenho dentro da dotação autorizada. Mesmo que uma hipótese legal permita dispensar o papel chamado nota de empenho, continua sendo necessário o ato de empenhar.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -139,10 +139,10 @@
       "id": "glo-saldo-de-dotacao",
       "term": "Saldo de dotação",
       "aliases": [],
-      "definition": "Parte do valor autorizado para uma despesa que ainda está disponível para ser empenhada, depois de considerar os compromissos e alterações do orçamento.",
-      "contrast": "Saldo de dotação é autorização que ainda pode ser usada. Saldo de empenho é parte do compromisso já registrado que continua pendente.",
-      "cebraspeTrap": "Confundir dotação disponível com dinheiro em caixa ou com despesa liquidada.",
-      "example": "Uma ação tem dotação de R$ 100 mil e R$ 60 mil empenhados, restando R$ 40 mil de saldo antes de outras alterações.",
+      "definition": "É a parte do valor autorizado no orçamento que ainda pode ser comprometida por novos empenhos. A dotação é o limite de despesa para uma finalidade; o saldo leva em conta os empenhos e as alterações orçamentárias já feitos.",
+      "contrast": "Saldo de dotação é autorização para comprometer despesa, não dinheiro em caixa. Saldo de empenho é o valor de um compromisso já registrado que ainda não foi totalmente executado, pago ou anulado, conforme o caso. Mesmo havendo saldo de dotação, o órgão pode estar impedido de empenhar tudo por um limite de empenho; e o caixa pode ter restrições de fonte/destinação.",
+      "cebraspeTrap": "Saldo de dotação não equivale a dinheiro disponível. Limite de empenho e dotação são controles diferentes; a existência de um não elimina o outro.",
+      "example": "A prefeitura tem R$ 100 mil de dotação para manutenção e empenhou R$ 60 mil. Se nada mais mudou, restam R$ 40 mil de saldo de dotação. Isso não prova que existem R$ 40 mil livres no banco nem que a administração poderá empenhar tudo imediatamente.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -218,10 +218,10 @@
       "id": "glo-credito-empenhado-a-liquidar",
       "term": "Crédito empenhado a liquidar",
       "aliases": [],
-      "definition": "Despesa já empenhada cuja liquidação ainda não terminou e cujo fato gerador pode não ter ocorrido, como material ainda não entregue.",
-      "contrast": "'A liquidar' indica que a obrigação patrimonial pode ainda não ter surgido. 'Em liquidação' é a situação em que o fato gerador já ocorreu, mas a verificação formal continua pendente.",
-      "cebraspeTrap": "Afirmar que todo crédito a liquidar corresponde necessariamente a serviço já prestado ou ativo recebido.",
-      "example": "Foi emitido empenho para compra, mas os materiais ainda não foram entregues ao órgão.",
+      "definition": "É uma despesa que já foi empenhada, ou seja, comprometida no orçamento, mas que ainda não passou pela conferência final chamada liquidação. Em geral, indica que a entrega do bem ou serviço ainda não ocorreu; quando o fato que cria a obrigação já ocorreu, a contabilidade pode usar a situação 'em liquidação', conforme as regras do plano de contas.",
+      "contrast": "A liquidar e em liquidação não são a mesma coisa: em liquidação sinaliza que o bem ou serviço foi prestado ou entregue, mas o órgão ainda confere os documentos. Liquidado a pagar indica que a conferência terminou e falta transferir o dinheiro. O empenho a liquidar pode constar do passivo financeiro no quadro legal do Balanço Patrimonial, sem que tenha surgido, apenas por isso, passivo patrimonial pelo serviço.",
+      "cebraspeTrap": "O fato de uma despesa estar empenhada a liquidar não prova que o fornecedor já prestou o serviço, nem que a obrigação patrimonial surgiu pelo empenho.",
+      "example": "A universidade empenha R$ 2 mil para cadeiras que ainda não foram entregues: a despesa está a liquidar. Quando as cadeiras chegam e nasce a obrigação, mas ainda falta conferir o processo, pode passar a em liquidação. Depois da conferência, fica liquidada a pagar, se o pagamento ainda não aconteceu.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -243,10 +243,10 @@
       "id": "glo-credito-empenhado-em-liquidacao",
       "term": "Crédito empenhado em liquidação",
       "aliases": [],
-      "definition": "Despesa já empenhada cujo serviço foi prestado ou bem recebido, criando um fato patrimonial, mas cuja conferência formal para pagamento ainda não acabou.",
-      "contrast": "'Em liquidação' indica fato gerador ocorrido e verificação em andamento. 'Liquidado a pagar' indica que a conferência já terminou, faltando pagar.",
-      "cebraspeTrap": "Classificar o recebimento do material sem ateste final como pagamento ou liquidação orçamentária concluída.",
-      "example": "O equipamento chegou e gerou obrigação patrimonial, mas falta conferir documentação antes de concluir a liquidação.",
+      "definition": "É a situação de uma despesa empenhada em que o bem foi entregue ou o serviço foi prestado, criando um efeito patrimonial, mas a administração ainda não terminou a conferência necessária para liquidar a despesa. Aparece nos registros de execução orçamentária do Plano de Contas Aplicado ao Setor Público (PCASP).",
+      "contrast": "A liquidar costuma indicar que o fato que origina a obrigação ainda não ocorreu. Em liquidação indica que esse fato ocorreu, mas a conferência formal está pendente. Liquidado a pagar significa que a conferência terminou; pagamento significa que o credor recebeu. O reconhecimento do passivo patrimonial pode acontecer antes de a liquidação administrativa ser concluída.",
+      "cebraspeTrap": "Receber o objeto não significa que a liquidação terminou ou que houve pagamento. A situação 'em liquidação' existe justamente para separar o fato ocorrido da conferência ainda pendente.",
+      "example": "A escola encomendou dez mesas por R$ 5 mil e fez o empenho. As mesas chegaram em dezembro, mas a equipe ainda confere a qualidade e os documentos: a despesa está em liquidação, se atendidas as condições do registro. Depois da conferência, passa a liquidada a pagar; quando o dinheiro sai, ocorre pagamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -268,10 +268,10 @@
       "id": "glo-credito-empenhado-liquidado-a-pagar",
       "term": "Crédito empenhado liquidado a pagar",
       "aliases": [],
-      "definition": "Despesa empenhada que já passou pela conferência do direito do credor e está pronta para pagamento, mas o dinheiro ainda não foi transferido.",
-      "contrast": "Liquidado a pagar é obrigação conferida e não paga. Em liquidação é obrigação cujo fato ocorreu, mas a conferência formal ainda está em curso.",
-      "cebraspeTrap": "Tratar liquidação concluída como prova de que o credor já recebeu o dinheiro.",
-      "example": "Os materiais foram conferidos e liquidados, mas o fornecedor ainda aguarda transferência bancária.",
+      "definition": "É a despesa que já foi empenhada e liquidada, mas ainda não foi paga. O governo já conferiu o direito de quem forneceu o bem ou serviço e mantém o valor pendente de transferência.",
+      "contrast": "Em liquidação quer dizer que o fato que deu origem à obrigação ocorreu, mas a conferência administrativa ainda não terminou. Liquidado a pagar quer dizer que ela terminou. Pago quer dizer que o dinheiro já saiu. Se a despesa continuar sem pagamento no encerramento do exercício e for regularmente inscrita, pode virar resto a pagar processado.",
+      "cebraspeTrap": "Liquidação concluída não significa que o fornecedor já recebeu. É possível ter despesa liquidada, direito do credor reconhecido e dinheiro ainda no banco.",
+      "example": "A prefeitura empenha R$ 3 mil por reparo, recebe o serviço e confere os documentos. Os R$ 3 mil ficam liquidados a pagar enquanto a transferência não é feita. Se terminar o ano sem pagamento, a inscrição regular será em restos a pagar processados.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -376,10 +376,10 @@
       "id": "glo-inscricao-em-restos-a-pagar",
       "term": "Inscrição em restos a pagar",
       "aliases": [],
-      "definition": "Registro, ao encerrar o ano, de despesa que foi empenhada mas não paga e poderá seguir para execução ou pagamento no ano seguinte, se atender às condições legais.",
-      "contrast": "Inscrever restos a pagar mantém a despesa do orçamento de origem. O pagamento no ano seguinte não exige novo empenho só porque mudou o exercício.",
-      "cebraspeTrap": "Considerar automática toda inscrição ou ignorar exceção legal relativa a crédito de vigência plurianual ainda não liquidado.",
-      "example": "Em 31 de dezembro, contrato empenhado e não pago tem seu saldo analisado para inscrição nas condições legais.",
+      "definition": "É o registro feito no encerramento do exercício para acompanhar uma despesa que foi empenhada, mas continua sem pagamento. A despesa pode ser inscrita como resto a pagar processado, se já foi liquidada, ou não processado, se a liquidação ainda não terminou, desde que atenda às condições legais.",
+      "contrast": "A inscrição não é automática para qualquer saldo empenhado: há regras para manter compromissos no exercício seguinte. Inscrever não significa pagar e não cria nova despesa do orçamento seguinte. No Balanço Financeiro, a inscrição aparece como recebimento extraorçamentário de compensação, sem entrada de dinheiro. O pagamento futuro será saída extraorçamentária; o empenho pertence ao orçamento do ano original.",
+      "cebraspeTrap": "Confundir inscrição com pagamento ou nova receita em dinheiro é erro. Também é preciso verificar se o saldo empenhado atende às condições para permanecer como resto a pagar, inclusive regras próprias de créditos plurianuais.",
+      "example": "Em dezembro, um órgão tem R$ 6 mil empenhados, dos quais R$ 4 mil já liquidados, e não pagou nenhum deles. Se atendidas as exigências de inscrição, R$ 4 mil podem ser restos a pagar processados e R$ 2 mil não processados. Os R$ 6 mil não entram no banco apenas porque foram inscritos.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -438,10 +438,10 @@
       "id": "glo-pagamento-de-restos-a-pagar",
       "term": "Pagamento de restos a pagar",
       "aliases": [],
-      "definition": "Pagamento, no ano seguinte, de despesa empenhada em ano anterior e registrada como restos a pagar, após cumprir as verificações necessárias.",
-      "contrast": "É desembolso extraorçamentário no ano em que se paga. A despesa orçamentária foi empenhada no exercício de origem.",
-      "cebraspeTrap": "Atribuir ao orçamento do ano do pagamento uma nova despesa empenhada só porque o RP foi pago nesse exercício.",
-      "example": "Serviço empenhado e liquidado em dezembro é pago em janeiro com base em RP processado inscrito.",
+      "definition": "É o pagamento feito no exercício atual de uma despesa que já tinha sido empenhada no exercício anterior e foi inscrita regularmente em restos a pagar. O credor recebe o dinheiro depois de cumpridas as verificações necessárias, sem que a mudança de ano exija novo empenho pela mesma despesa.",
+      "contrast": "O orçamento registra a despesa no ano do empenho. Quando o resto a pagar é quitado no ano seguinte, a saída de dinheiro é extraorçamentária nesse novo exercício. Restos a pagar processados já passaram pela liquidação; os não processados precisam cumprir a liquidação antes do pagamento, conforme as regras. O pagamento diminui caixa e obrigação, sem criar automaticamente uma nova variação patrimonial diminutiva pelo mesmo fato.",
+      "cebraspeTrap": "Pagar em fevereiro não faz a despesa voltar ao orçamento de fevereiro como novo empenho. O ano da despesa orçamentária é o do empenho original.",
+      "example": "Uma universidade empenha e liquida R$ 7 mil em dezembro, mas só transfere o dinheiro ao fornecedor em fevereiro. A despesa pertence ao orçamento do ano anterior; em fevereiro ocorre pagamento de restos a pagar, sem empenhar de novo os R$ 7 mil no orçamento corrente.",
       "subjectIds": [
         "orcamento-publico"
       ],

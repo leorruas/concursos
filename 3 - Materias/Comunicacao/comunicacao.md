@@ -114,6 +114,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites|104. Pesquisa de opinião pública: objeto, perguntas e limites]]: CAM-DI-026, opinião declarada, conhecimento, silêncio, formulação de perguntas, inferência e C/E.
 - [[3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses|105. Pesquisa de imagem e reputação: indicadores, desenho e vieses]]: CAM-DI-027, constructos, RQ, tipos de indicadores, monitoramento, validade e C/E.
 - [[3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos|106. Pesquisa de mídia: audiência, alcance e métodos]]: CAM-DI-028, painéis, dados digitais, rating/share, deduplicação, limites de medição e C/E.
+- [[3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao|107. Métricas digitais: impressões, cliques e conversões]]: CAM-DI-029, sessões, taxas, funis, eventos, atribuição e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

@@ -280,7 +280,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-003 · F1**: Endomarketing: engajamento e fronteira com comunicação interna.
 - [x] **CAM-CO-004 · F1**: Cultura organizacional e clima: conceitos distintos.
 - [x] **CAM-CO-005 · F2**: Gestão do clima por comunicação: alcance e limites.
-- [ ] **CAM-CO-006 · F2**: Comunicação institucional: objeto, função e públicos.
+- [x] **CAM-CO-006 · F2**: Comunicação institucional: objeto, função e públicos.
 - [ ] **CAM-CO-007 · F2**: Identidade, imagem e reputação: diferenças e relações.
 - [ ] **CAM-CO-008 · F2**: Riscos, prevenção e diagnóstico de crise de comunicação.
 - [ ] **CAM-CO-009 · F2**: Resposta à crise: etapas, canais e avaliação.
@@ -554,11 +554,11 @@ Próximo candidato: **CAM-CO-005, gestão do clima por comunicação**, com audi
 
 ## Lote 14: comunicação institucional (CO-006)
 
-- [ ] **CAM-CO-006 · artigo criado, publicação pendente**: [[3 - Materias/Comunicacao/52 - comunicacao institucional finalidade funcoes e publicos|Comunicação institucional: finalidade, funções, públicos e limites]] (`art-651fd293b70c4e8a`). Novo artigo para pergunta conceitual autônoma: composto de Kunsch, atividades institucionais, Relações Públicas, públicos em Freeman e Grunig, fronteiras com comunicação pública e governamental, exemplo progressivo e itens C/E.
+- [x] **CAM-CO-006 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/52 - comunicacao institucional finalidade funcoes e publicos|Comunicação institucional: finalidade, funções, públicos e limites]] (`art-651fd293b70c4e8a`). Novo artigo para pergunta conceitual autônoma: composto de Kunsch, atividades institucionais, Relações Públicas, públicos em Freeman e Grunig, fronteiras com comunicação pública e governamental, exemplo progressivo e itens C/E.
 
 **Proteção multi-edital:** notas canônicas 01, 02, 15 e 19 foram auditadas e permaneceram intactas, assim como os catálogos da CGU e Dataprev. O novo artigo é associado ao catálogo da Câmara. Criação de artigo não equivale a progresso pessoal de estudo.
 
-**Validação pendente:** testes e confirmação do manifesto ao vivo antes de concluir CAM-CO-006. Próxima unidade CAM-CO-007: identidade, imagem e reputação, com auditoria e reuso prévios.
+**Publicação confirmada:** o [workflow 42193381713](https://github.com/leorruas/concursos/actions/runs/42193381713) concluiu com **success**, incluindo build, testes de identidade, catálogo, busca e privacidade, e verificação de manifesto no Pages ao vivo. Próximo candidato CAM-CO-007, identidade, imagem e reputação. A conclusão é editorial, não comprova estudo pessoal.
 
 ## Critérios de publicação e evidência
 

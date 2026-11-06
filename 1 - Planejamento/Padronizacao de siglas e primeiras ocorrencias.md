@@ -28,6 +28,10 @@ Fonte controlada de expansões: `data/dicionario-siglas-editorial.json`. Comando
 
 Uma nota é considerada revisada quando o primeiro uso em prosa de cada sigla relevante foi conferido, as definições têm fonte quando necessário, e links/tabelas/diagramas permanecem íntegros. Registrar correções apenas na teoria pública; **não criar progresso estudantil nem mexer em sessões privadas** por alterações editoriais.
 
+## Continuação em 06/11/2026
+
+Segundo lote aplicado aos artigos 03 e 04 de Contabilidade Pública, 02 e 03 de Orçamento Público, e 05 e planejamento baseado em riscos de Auditoria Governamental. Revisadas primeiras ocorrências de demonstrativos, instrumentos orçamentários, órgão emissor e planejamento de auditoria. Preservados títulos, metadados de identidade e âncoras. Esta passagem ainda não representa revisão exaustiva de todas as siglas, inclusive compostas, nos seis artigos: a conferência contextual segue em andamento e o validador permanece como alerta.
+
 ## Pendências explícitas
 
 Primeira execução no Pages em 06/11/2026: **288 notas varridas, 32 siglas mapeadas e 208 alertas preliminares**. Há falsos positivos previsíveis, por exemplo `PL` como partido político em Atualidades e `NBC TSP` como sigla composta. A interpretação deve ser contextual antes de editar. O inventário completo é dinâmico. O dicionário inicial cobre termos recorrentes e precisa ser ampliado. A revisão das 48 notas das três matérias prioritárias, demais disciplinas e auditoria de diagramas ainda deve ser executada em lotes. Não interpretar a instalação do validador como revisão concluída de todos os artigos.

@@ -77,6 +77,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes|67. Plataformas, linguagens e proporções]]: CAM-CO-021, públicos, adequação de canal, 4:5, 3:4, 9:16, acessibilidade e C/E.
 - [[3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives|68. Formatos editoriais: cards, carrosséis, vídeos, stories e lives]]: CAM-CO-022, critérios de seleção, sequência, temporalidade, acessibilidade e C/E.
 - [[3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao|69. Capa, legenda, marcação, palavras-chave e CTA]]: CAM-CO-023, funções de cada elemento, acessibilidade e itens C/E.
+- [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|70. Transparência pública aplicada à comunicação]]: CAM-CO-024, LAI, divulgação ativa, pedidos de acesso, Ato da Mesa nº 45/2012 e questões C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

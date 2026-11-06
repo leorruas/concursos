@@ -83,6 +83,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|73. Manual de Comunicação: procedimentos e linguagem]]: CAM-CO-027, texto e estilo, inclusão, redes, assessoria, IA e C/E.
 - [[3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos|74. IA na comunicação e riscos éticos]]: CAM-CO-028, processos, controle e C/E.
 - [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|75. Linguagem simples: técnicas, compreensão e limites]]: CAM-CO-029, Lei nº 15.263/2025, precisão, estrutura, testes e C/E.
+- [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|76. Manual de Linguagem Simples: Patricia Roedel]]: CAM-CO-030, planejar, desenvolver e avaliar, instrumentos e questões C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

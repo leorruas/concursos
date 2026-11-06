@@ -528,7 +528,7 @@
       "term": "Provisão contábil",
       "aliases": [],
       "definition": "É uma dívida ou outra obrigação que o governo já tem, mas cujo valor exato ou data de pagamento ainda são incertos. Para registrar uma provisão no Balanço Patrimonial, precisa existir obrigação atual por um fato passado, ser provável a saída de recursos e haver uma estimativa confiável do valor. As regras são tratadas na norma de provisões e contingências do setor público.",
-      "contrast": "Provisão é passivo registrado, mesmo que o pagamento ainda não tenha data certa. Passivo contingente é uma obrigação apenas possível, ou uma obrigação atual que não atende aos critérios de registro, por exemplo, porque a saída de recursos não é provável ou não há estimativa confiável. Uma dívida comum com valor e vencimento conhecidos não recebe o nome de provisão só por estar sem pagamento. Nem todo processo judicial exige uma provisão.",
+      "contrast": "Provisão é passivo registrado, mesmo que o pagamento ainda não tenha data certa. Passivo contingente é uma obrigação apenas possível, ou uma obrigação atual que não atende aos critérios de registro, por exemplo, porque a saída de recursos não é provável ou não há estimativa confiável. Uma dívida comum com valor e vencimento conhecidos não recebe o nome de provisão só por estar sem pagamento. Nem todo processo judicial exige uma provisão. Atenção à data: a NBC TSP 03 original é a referência para exercícios iniciados em 2026; a NBC TSP 03 (R1), publicada em março de 2026, passa a ser aplicada aos exercícios iniciados em 1º de janeiro de 2027, salvo prazo nacional específico.",
       "cebraspeTrap": "A banca pode confundir 'processo em andamento' com provisão obrigatória. O critério é a combinação entre obrigação atual, probabilidade de saída de recursos e estimativa confiável, não a simples existência da ação.",
       "example": "Uma prefeitura é processada por acidente. Se os fatos já criaram uma obrigação, os assessores consideram provável a perda e o valor pode ser estimado em R$ 80 mil com confiança, o governo registra uma provisão. Se a perda é apenas possível, normalmente informa o risco em nota explicativa, sem registrar os R$ 80 mil como passivo. Se a chance de perda é remota, em regra nem a divulgação é exigida.",
       "subjectIds": [
@@ -542,8 +542,12 @@
       ],
       "sources": [
         {
-          "label": "CFC: NBC TSP 03, Provisões, Passivos Contingentes e Ativos Contingentes, aplicável em 2026",
+          "label": "CFC: NBC TSP 03, edição original, aplicável aos exercícios de 2026",
           "url": "https://www.legisweb.com.br/legislacao/?id=330456"
+        },
+        {
+          "label": "CFC: NBC TSP 03 (R1), publicada em 17/03/2026, aplicação a partir de 01/01/2027 (salvo prazo nacional específico)",
+          "url": "https://www.legisweb.com.br/legislacao/?id=492475"
         },
         {
           "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
@@ -557,7 +561,7 @@
       "term": "Passivo contingente",
       "aliases": [],
       "definition": "É uma possível obrigação do governo que depende de um acontecimento futuro incerto para ser confirmada. Também pode ser uma obrigação já existente que ainda não pode entrar como dívida no Balanço Patrimonial porque não é provável que exija pagamento ou porque não é possível estimar o valor de forma confiável. Em geral, é explicada nas notas das demonstrações quando a chance de saída de recursos não é remota.",
-      "contrast": "Se já existe obrigação atual, a saída de recursos é provável e o valor pode ser calculado de modo confiável, o caso pode exigir provisão, que entra no passivo. Uma perda apenas possível costuma ser divulgada como passivo contingente, sem aumentar o passivo registrado. Quando a possibilidade de saída é remota, normalmente não se exige nem divulgação. A análise muda se surgirem novas provas ou decisões.",
+      "contrast": "Se já existe obrigação atual, a saída de recursos é provável e o valor pode ser calculado de modo confiável, o caso pode exigir provisão, que entra no passivo. Uma perda apenas possível costuma ser divulgada como passivo contingente, sem aumentar o passivo registrado. Quando a possibilidade de saída é remota, normalmente não se exige nem divulgação. A análise muda se surgirem novas provas ou decisões. Atenção à data: a NBC TSP 03 original é a referência para exercícios iniciados em 2026; a NBC TSP 03 (R1), publicada em março de 2026, passa a ser aplicada aos exercícios iniciados em 1º de janeiro de 2027, salvo prazo nacional específico.",
       "cebraspeTrap": "Divulgar um risco nas notas não significa que a entidade já reconheceu aquela dívida no balanço. Também é errado achar que todo caso judicial deve ser registrado pelo valor pedido.",
       "example": "Um órgão enfrenta ação de R$ 100 mil. Seus pareceres indicam perda possível, mas ainda não provável: o caso é divulgado como passivo contingente, sem registrar uma dívida de R$ 100 mil. Se uma nova decisão torna provável a perda e permite estimar o valor, deve ser reavaliado para possível reconhecimento de provisão.",
       "subjectIds": [
@@ -571,8 +575,12 @@
       ],
       "sources": [
         {
-          "label": "CFC: NBC TSP 03, Provisões, Passivos Contingentes e Ativos Contingentes, aplicável em 2026",
+          "label": "CFC: NBC TSP 03, edição original, aplicável aos exercícios de 2026",
           "url": "https://www.legisweb.com.br/legislacao/?id=330456"
+        },
+        {
+          "label": "CFC: NBC TSP 03 (R1), publicada em 17/03/2026, aplicação a partir de 01/01/2027 (salvo prazo nacional específico)",
+          "url": "https://www.legisweb.com.br/legislacao/?id=492475"
         },
         {
           "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
@@ -586,7 +594,7 @@
       "term": "Ativo contingente",
       "aliases": [],
       "definition": "É um possível direito de receber dinheiro ou outro benefício, ainda dependente de um acontecimento futuro incerto que o governo não controla totalmente. Por essa incerteza, não é registrado como ativo no Balanço Patrimonial enquanto o ganho não for praticamente certo. Quando a entrada de benefícios for provável, pode ser informado em notas, conforme a norma aplicável.",
-      "contrast": "Um crédito tributário já reconhecido é um direito que atende aos critérios de ativo; uma indenização judicial que o órgão apenas espera ganhar pode continuar sendo ativo contingente. Para registrar o ganho como ativo, a entrada deve se tornar praticamente certa e o direito atender aos critérios de reconhecimento. Para obrigações, o critério de provisão usa saída provável: não se deve aplicar essa mesma palavra como condição suficiente para registrar ativo contingente.",
+      "contrast": "Um crédito tributário já reconhecido é um direito que atende aos critérios de ativo; uma indenização judicial que o órgão apenas espera ganhar pode continuar sendo ativo contingente. Para registrar o ganho como ativo, a entrada deve se tornar praticamente certa e o direito atender aos critérios de reconhecimento. Para obrigações, o critério de provisão usa saída provável: não se deve aplicar essa mesma palavra como condição suficiente para registrar ativo contingente. Atenção à data: a NBC TSP 03 original é a referência para exercícios iniciados em 2026; a NBC TSP 03 (R1), publicada em março de 2026, passa a ser aplicada aos exercícios iniciados em 1º de janeiro de 2027, salvo prazo nacional específico.",
       "cebraspeTrap": "A palavra 'provável' muda o tratamento: uma perda provável com obrigação atual e valor estimável pode exigir provisão; um ganho apenas provável não basta para registrar ativo contingente como ativo.",
       "example": "A prefeitura pede indenização de R$ 40 mil e seus advogados consideram provável a vitória, mas o resultado ainda é incerto: o valor pode ser divulgado, mas não entra como ativo apenas por essa expectativa. Quando o recebimento se torna praticamente certo e os demais requisitos são atendidos, deixa de ser tratado como contingente e pode ser reconhecido.",
       "subjectIds": [
@@ -600,8 +608,12 @@
       ],
       "sources": [
         {
-          "label": "CFC: NBC TSP 03, Provisões, Passivos Contingentes e Ativos Contingentes, aplicável em 2026",
+          "label": "CFC: NBC TSP 03, edição original, aplicável aos exercícios de 2026",
           "url": "https://www.legisweb.com.br/legislacao/?id=330456"
+        },
+        {
+          "label": "CFC: NBC TSP 03 (R1), publicada em 17/03/2026, aplicação a partir de 01/01/2027 (salvo prazo nacional específico)",
+          "url": "https://www.legisweb.com.br/legislacao/?id=492475"
         },
         {
           "label": "Tesouro Nacional: Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",

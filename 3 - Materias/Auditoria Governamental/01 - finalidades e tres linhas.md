@@ -17,13 +17,13 @@ Esta nota distingue os **serviços de avaliação e consultoria** e a **competê
 
 A **auditoria interna governamental** é uma atividade independente e objetiva que contribui para o aperfeiçoamento de governança, gerenciamento de riscos e controles internos. Adota abordagem sistemática e disciplinada para agregar valor à atuação pública.
 
-O Referencial Técnico da Controladoria-Geral da União (CGU), aprovado pela IN SFC nº 3/2017, define **avaliação e consultoria** como serviços típicos da auditoria interna. A **apuração** é competência legal dos órgãos e unidades do Sistema de Controle Interno (SCI), prevista no art. 24, VII, da Lei nº 10.180/2001, e detalhada no capítulo 2 do MOT. Classificar a atuação exige considerar **finalidade do trabalho e competência da unidade**, e não apenas a técnica utilizada. Análise documental, entrevista e exame de controles podem aparecer em mais de uma modalidade.
+O Referencial Técnico da Controladoria-Geral da União (CGU), aprovado pela Instrução Normativa (IN) da Secretaria Federal de Controle Interno (SFC) nº 3/2017, define **avaliação e consultoria** como serviços típicos da auditoria interna. A **apuração** é competência legal dos órgãos e unidades do Sistema de Controle Interno (SCI), prevista no art. 24, VII, da Lei nº 10.180/2001, e detalhada no capítulo 2 do Manual de Orientações Técnicas (MOT). Classificar a atuação exige considerar **finalidade do trabalho e competência da unidade**, e não apenas a técnica utilizada. Análise documental, entrevista e exame de controles podem aparecer em mais de uma modalidade.
 
 A referência técnica é o **Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal**, aprovado pela Instrução Normativa (IN) SFC nº 3/2017, complementado pelo **Manual de Orientações Técnicas (MOT)**, aprovado pela IN SFC nº 8/2017, e pelas orientações práticas aplicáveis.
 
 ## Estrutura interna: três modalidades de serviço
 
-**Precisão terminológica para esta âncora histórica:** a organização em três tópicos serve à comparação didática. **Na classificação técnica do Referencial, os serviços típicos são avaliação e consultoria; apuração é competência adicional do SCI**, com regras próprias. Não pressupor que toda UAIG possa assumir indistintamente os três tipos de trabalho.
+**Precisão terminológica para esta âncora histórica:** a organização em três tópicos serve à comparação didática. **Na classificação técnica do Referencial, os serviços típicos são avaliação e consultoria; apuração é competência adicional do SCI**, com regras próprias. Não pressupor que toda Unidade de Auditoria Interna Governamental (UAIG) possa assumir indistintamente os três tipos de trabalho.
 
 ### Avaliação
 

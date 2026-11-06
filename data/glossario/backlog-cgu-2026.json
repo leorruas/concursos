@@ -3194,6 +3194,15 @@
       "editorialPriority": "A",
       "articleCandidate": "3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento.md",
       "status": "planned"
+    },
+    {
+      "id": "glo-ciclo-operacional-normal",
+      "term": "Ciclo operacional normal",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md",
+      "status": "planned"
     }
   ],
   "description": " Classificações adicionais de Orçamento Público ampliadas após a versão inicial de 200 termos."

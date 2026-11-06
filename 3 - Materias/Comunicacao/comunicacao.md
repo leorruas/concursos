@@ -111,6 +111,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias|101. Comportamento do consumidor: decisão e influências]]: CAM-DI-023, cinco etapas, quatro tipos de compra, influências e C/E.
 - [[3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos|102. Perguntas de pesquisa: abordagens e métodos mistos]]: CAM-DI-024, formulação de problemas, validade, evidência, desenho misto e C/E.
 - [[3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao|103. Pesquisa de mercado: desenho, amostragem e interpretação]]: CAM-DI-025, seleção probabilística, precisão, erro total, ponderação, séries temporais e C/E.
+- [[3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites|104. Pesquisa de opinião pública: objeto, perguntas e limites]]: CAM-DI-026, opinião declarada, conhecimento, silêncio, formulação de perguntas, inferência e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

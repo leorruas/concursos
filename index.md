@@ -93,6 +93,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Estado e Democracia/07 - principal agente acao coletiva e captura|07 • Principal-agente, ação coletiva e captura]]
    - [[3 - Materias/Estado e Democracia/08 - consequencias prevencao e respostas a corrupcao|08 • Consequências, prevenção e respostas à corrupção]]
    - [[3 - Materias/Estado e Democracia/09 - estado regulacao e modelos de desenvolvimento|09 • Estado, regulação e modelos de desenvolvimento]]
+   - [[3 - Materias/Estado e Democracia/10 - ciencia politica objeto metodos e limites|10 • Ciência Política: objeto, métodos e limites]]
 3. [[3 - Materias/Sociedade Brasileira/sociedade-brasileira|Sociedade brasileira]]
    - [[3 - Materias/Sociedade Brasileira/01 - instituicoes estratificacao e mobilidade social|01 • Instituições, estratificação e mobilidade social]]
    - [[3 - Materias/Sociedade Brasileira/02 - formacao social cidadania e hierarquias|02 • Formação social brasileira, cidadania e hierarquias]]

@@ -20,7 +20,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 
 - [[3 - Materias/Estado e Democracia/10 - ciencia politica objeto metodo e limites|10. Ciência Política: objeto, método e limites]]: CAM-CP-001, objeto, método, inferência e C/E.
 - [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|11. Poder, autoridade, legitimidade e dominação]]: CAM-CP-002, autores e conceitos de poder.
-- [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|12. Teoria política: correntes e perguntas centrais]]: CAM-CP-003, tradição clássica, contratualistas, liberalismos, socialismo, justiça, democracia, feminismos e pensamento decolonial. Dez itens C/E. Próxima unidade: CAM-CP-004, Estado e sociedade.
+- [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|12. Teoria política: correntes e perguntas centrais]]: CAM-CP-003, correntes e autores, dez itens C/E.
+- [[3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito|13. Estado e sociedade: origem, funções e conflito]]: CAM-CP-004, sociedade civil, contratualismo versus história, Hegel, Gramsci, Tilly, Skocpol, Mann, Migdal, Evans e dez itens C/E. Próxima unidade: CAM-CP-005, formação dos Estados nacionais.
 
 ## Artigos próprios publicados
 

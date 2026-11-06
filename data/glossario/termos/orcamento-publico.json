@@ -1490,10 +1490,10 @@
       "aliases": [
         "Esfera orçamentária"
       ],
-      "definition": "Código que mostra em qual parte da LOA está uma programação: orçamento fiscal, orçamento da seguridade social ou orçamento de investimento das estatais abrangidas.",
-      "contrast": "A esfera indica qual orçamento contém a ação. A classificação institucional indica o órgão e a unidade responsáveis pela dotação.",
-      "cebraspeTrap": "Afirmar que toda despesa classificada como investimento econômico pertence ao orçamento de investimento das estatais.",
-      "example": "Construção de unidade do SUS pode ser despesa de capital no orçamento da seguridade social.",
+      "definition": "É o código que indica em qual dos três orçamentos da Lei Orçamentária Anual (LOA) uma receita ou despesa está registrada: fiscal, seguridade social ou investimento das empresas estatais abrangidas. A esfera identifica a parte do orçamento, e não o tipo de bem que será comprado.",
+      "contrast": "Orçamento fiscal abrange órgãos e entidades sujeitos a essa parte da LOA; seguridade social reúne ações ligadas a saúde, previdência e assistência social, conforme a Constituição; investimento das estatais alcança as empresas previstas no art. 165, § 5º. Classificação por esfera não se confunde com grupo de natureza da despesa: comprar equipamento é investimento no sentido econômico, mas não significa entrar automaticamente no orçamento de investimento das estatais.",
+      "cebraspeTrap": "A palavra 'investimento' pode indicar um grupo de despesa ou um dos três orçamentos da LOA. É preciso identificar de qual classificação a questão está falando.",
+      "example": "Um hospital público compra aparelhos para atendimento do SUS. O equipamento pode ser despesa de capital dentro do orçamento da seguridade social. Seu gasto não passa para o orçamento de investimento das estatais apenas porque comprou um bem durável.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1519,10 +1519,10 @@
       "id": "glo-classificacao-institucional",
       "term": "Classificação institucional",
       "aliases": [],
-      "definition": "Classificação da despesa que identifica a estrutura responsável pelos recursos: órgão orçamentário e unidade orçamentária.",
-      "contrast": "Institucional responde 'quem tem a dotação?'. Funcional responde 'em qual área o governo atua?'. Programática responde 'para qual objetivo ou entrega?'.",
-      "cebraspeTrap": "Identificar programa de assistência estudantil como se fosse o órgão responsável pela despesa.",
-      "example": "O Ministério da Educação e a unidade orçamentária de uma universidade situam a responsabilidade institucional.",
+      "definition": "É a forma de identificar quem recebe a autorização para gastar no orçamento. A classificação institucional indica o órgão orçamentário e a unidade orçamentária à qual foi atribuída a verba, chamada dotação.",
+      "contrast": "Institucional responde 'quem tem a dotação?'. Funcional responde 'em qual área de atuação está o gasto?', como saúde ou educação. Programática responde 'para qual objetivo ou ação?'. A natureza da despesa informa 'que tipo de gasto?', como pessoal, material ou equipamento. O nome de um programa não identifica, por si só, o órgão responsável.",
+      "cebraspeTrap": "A banca pode apresentar o nome da política ou da área de atuação como se fosse a unidade que recebeu o crédito orçamentário.",
+      "example": "Uma universidade recebe dotação para prestar assistência estudantil. A classificação institucional aponta a estrutura orçamentária responsável; a programática indica o programa e a ação; a natureza da despesa mostra se o gasto é bolsa, material ou outro objeto, conforme o classificador.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1544,10 +1544,10 @@
       "id": "glo-orgao-orcamentario",
       "term": "Órgão orçamentário",
       "aliases": [],
-      "definition": "Grupo de unidades orçamentárias reunidas na estrutura do orçamento, como um ministério ou outra parte da administração.",
-      "contrast": "O órgão orçamentário reúne unidades. É à unidade orçamentária que a lei atribui dotações próprias.",
-      "cebraspeTrap": "Chamar a função Educação de órgão ou supor que órgão e unidade orçamentária são sempre idênticos.",
-      "example": "O órgão orçamentário Ministério da Educação agrega diferentes unidades com programação própria.",
+      "definition": "É um agrupamento de unidades orçamentárias usado para organizar a distribuição de recursos na lei do orçamento. Pode corresponder, por exemplo, a um ministério, conforme a estrutura de cada ente público.",
+      "contrast": "Órgão orçamentário reúne unidades. Unidade orçamentária recebe dotação específica na lei. A função orçamentária indica a área de atuação, como Educação, e não representa um ministério ou outra estrutura administrativa. Um órgão orçamentário pode reunir várias unidades com programações diferentes.",
+      "cebraspeTrap": "Não tratar 'Educação' como órgão apenas por ser uma função do orçamento. Também não é obrigatório que órgão e unidade orçamentária tenham o mesmo alcance.",
+      "example": "No orçamento federal, um ministério pode aparecer como órgão orçamentário e reunir dotações de universidades ou outras unidades vinculadas. O programa de apoio aos estudantes pode existir dentro dessa estrutura, mas não é, por isso, outro órgão orçamentário.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1571,10 +1571,10 @@
       "aliases": [
         "UO"
       ],
-      "definition": "Parte da estrutura do orçamento que recebe dotações específicas para realizar despesas. Não precisa corresponder a um prédio ou setor físico.",
-      "contrast": "A unidade orçamentária recebe a dotação. O órgão orçamentário agrega unidades para organizar a programação.",
-      "cebraspeTrap": "Exigir que toda unidade orçamentária corresponda a uma única unidade física de atendimento.",
-      "example": "Uma universidade ou fundo previsto na programação recebe dotação individualizada como unidade orçamentária.",
+      "definition": "É a parte da estrutura do orçamento para a qual a lei autoriza valores específicos de despesa. Essa autorização se chama dotação. Uma unidade orçamentária pode ser um órgão, um fundo ou outra estrutura prevista nas regras e não precisa corresponder a um único prédio.",
+      "contrast": "O órgão orçamentário reúne unidades, enquanto a unidade é o nível que recebe a dotação individualizada. Uma unidade administrativa que trabalha fisicamente em um edifício não é necessariamente unidade orçamentária. A função mostra a área da despesa e o programa mostra a finalidade, não a unidade responsável.",
+      "cebraspeTrap": "A palavra 'unidade' não significa obrigatoriamente prédio, campus ou setor físico. O critério é a identificação e a dotação na estrutura do orçamento.",
+      "example": "Uma universidade federal pode aparecer como unidade orçamentária com valores próprios para ensino, manutenção e assistência estudantil. Seus diversos campi não precisam ser, cada um, unidades orçamentárias independentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1596,10 +1596,10 @@
       "id": "glo-classificacao-funcional",
       "term": "Classificação funcional",
       "aliases": [],
-      "definition": "Classificação que mostra a área de atuação de uma despesa, combinando função e subfunção, como saúde e atenção básica.",
-      "contrast": "A função e a subfunção mostram o tipo de atuação. O programa e a ação ajudam a explicar objetivos e entregas do gasto.",
-      "cebraspeTrap": "Afirmar que toda ação da mesma subfunção precisa pertencer obrigatoriamente à mesma função.",
-      "example": "Uma ação pode ter função Legislativa e subfunção ligada à educação infantil, conforme regras de matricialidade.",
+      "definition": "É a forma de indicar em qual área de atuação pública uma despesa se enquadra. Combina dois códigos: função, que aponta uma área ampla, como saúde, e subfunção, que detalha o tipo de atuação, como atenção básica.",
+      "contrast": "Função e subfunção ajudam a entender a área do gasto. A classificação institucional indica quem executa; a programática mostra objetivos e ações; a natureza da despesa informa o que se paga ou compra. As regras permitem combinar uma subfunção com funções diferentes daquelas a que ela costuma estar associada, prática conhecida como matricialidade.",
+      "cebraspeTrap": "A banca pode afirmar que cada subfunção só pode aparecer sob uma única função ou que a classificação funcional identifica qual fornecedor receberá.",
+      "example": "Um órgão de saúde registra determinada ação com função Saúde e subfunção Atenção Básica. Em outra situação prevista pela classificação, uma subfunção pode ser combinada com função diferente; não é o nome do órgão que decide, sozinho, a função.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1623,10 +1623,10 @@
       "aliases": [
         "Função de governo"
       ],
-      "definition": "Parte da classificação funcional que indica a grande área em que o governo atua, como educação, saúde ou segurança pública.",
-      "contrast": "Função é a categoria mais ampla. Subfunção detalha o tipo de atuação e pode ser combinada com funções diferentes conforme as regras.",
-      "cebraspeTrap": "Concluir que a compra de material de consumo pela universidade determina a função somente pelo objeto comprado.",
-      "example": "Educação, Saúde e Legislativa são exemplos de funções na classificação funcional.",
+      "definition": "É a categoria mais ampla da classificação funcional das despesas. Mostra em qual grande área de atuação pública o gasto foi enquadrado, como Saúde, Educação, Administração ou Segurança Pública.",
+      "contrast": "A função indica a área geral. A subfunção detalha melhor o tipo de atuação. Programa e ação descrevem a finalidade da política e a entrega prevista. O tipo de material comprado não determina sozinho a função: computadores podem servir à educação, à saúde ou a outra área.",
+      "cebraspeTrap": "Função não é o elemento da despesa nem o nome do item comprado. A banca pode trocar o objeto da compra pela área da ação.",
+      "example": "Uma secretaria de saúde compra computadores para organizar atendimentos: o material comprado é equipamento, mas a função orçamentária pode ser Saúde, conforme a ação. Não se escolhe função 'Tecnologia' apenas pelo produto adquirido.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1648,10 +1648,10 @@
       "id": "glo-subfuncao-orcamentaria",
       "term": "Subfunção orçamentária",
       "aliases": [],
-      "definition": "Parte da classificação funcional que detalha o tipo de atividade do governo dentro da atuação pública. Pode aparecer combinada a diferentes funções.",
-      "contrast": "A subfunção detalha a área do gasto. Ela não precisa ser usada apenas com a função que parece mais próxima de seu nome.",
-      "cebraspeTrap": "Considerar inválida toda combinação de subfunção de educação com função de outra área de governo.",
-      "example": "Apoio à educação infantil em órgão legislativo pode combinar subfunção de educação infantil com função Legislativa.",
+      "definition": "É a parte da classificação funcional que detalha o tipo de atuação do governo dentro de uma área mais ampla. Ela se combina com uma função para indicar com mais precisão a finalidade funcional da despesa.",
+      "contrast": "Função identifica a grande área, e subfunção especifica a atuação. A combinação não é sempre fixa: a chamada matricialidade permite usar subfunções com funções diferentes, segundo as regras. Subfunção também não é programa orçamentário; programa reúne ações para alcançar objetivos definidos.",
+      "cebraspeTrap": "É errado afirmar que uma subfunção jamais pode ser usada com outra função. A relação entre as duas categorias admite combinações.",
+      "example": "Atenção Básica é uma subfunção normalmente associada à saúde. A classificação deve ser analisada com a função e a ação concretas, porque uma subfunção não fica obrigatoriamente presa à função que parece mais próxima de seu nome.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1673,10 +1673,10 @@
       "id": "glo-classificacao-programatica",
       "term": "Classificação programática",
       "aliases": [],
-      "definition": "Forma de organizar a despesa por programas, ações e subtítulos, ligando os recursos às finalidades e entregas previstas.",
-      "contrast": "A classificação programática ajuda a entender para quê e onde o governo age. A institucional identifica quem tem a dotação; a funcional identifica a área de atuação.",
-      "cebraspeTrap": "Tratar subfunção como sinônimo de programa e elemento da despesa como ação orçamentária.",
-      "example": "Um programa de permanência estudantil contém ação de assistência ao estudante e subtítulo territorial.",
+      "definition": "É a organização do orçamento por programas e ações para mostrar quais objetivos o governo pretende alcançar e quais atividades ou entregas serão financiadas. Pode incluir subtítulos que indicam a localização da ação.",
+      "contrast": "A classificação programática responde 'para quê?'. A institucional responde 'quem recebeu a verba?'; a funcional, 'em qual área?'; a natureza da despesa, 'que tipo de gasto?'. Programa reúne ações relacionadas a um objetivo. Ação é o trabalho ou operação prevista. Subtítulo indica um detalhamento de localização, conforme a programação.",
+      "cebraspeTrap": "Não confundir programa com órgão, nem ação com elemento de despesa. Uma classificação informa a finalidade e a outra informa o objeto comprado ou pago.",
+      "example": "Uma universidade participa de um programa voltado à permanência estudantil, com ação para oferecer assistência aos estudantes. O nome da universidade indica a estrutura responsável; o programa e a ação mostram o objetivo e a entrega; a natureza do gasto identifica o que será pago.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1698,10 +1698,10 @@
       "id": "glo-programa-orcamentario",
       "term": "Programa orçamentário",
       "aliases": [],
-      "definition": "Conjunto organizado de ações do governo relacionadas a objetivos e resultados de uma política pública, conforme a estrutura do orçamento.",
-      "contrast": "Programa reúne ações com finalidade comum. Ação é a atividade, projeto ou operação especial programada dentro dele.",
-      "cebraspeTrap": "Chamar uma unidade orçamentária de programa ou dizer que todo programa equivale a uma única ação.",
-      "example": "Um programa de qualificação profissional pode reunir ações de formação e apoio a estudantes.",
+      "definition": "É um conjunto organizado de ações que contribuem para objetivos de uma política pública. Ajuda a ligar os valores do orçamento aos resultados que o governo pretende alcançar.",
+      "contrast": "Programa reúne ações relacionadas. Ação identifica o trabalho, projeto ou operação financiada dentro da programação. Órgão e unidade orçamentária indicam quem recebeu a autorização para gastar. Um programa pode ter diversas ações e envolver mais de uma estrutura; não é automaticamente sinônimo de uma unidade ou de uma despesa isolada.",
+      "cebraspeTrap": "A banca pode apresentar uma única compra ou o nome de um ministério como se isso definisse, por si, um programa orçamentário.",
+      "example": "Um programa de melhoria da educação pode reunir ações para formação de professores e apoio ao funcionamento das escolas. Comprar material é um gasto realizado dentro de determinada ação, e não um programa inteiro.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1723,10 +1723,10 @@
       "id": "glo-acao-orcamentaria",
       "term": "Ação orçamentária",
       "aliases": [],
-      "definition": "Parte do orçamento que especifica uma operação planejada para alcançar um objetivo do programa. Pode ser projeto, atividade ou operação especial.",
-      "contrast": "Projeto tem duração limitada; atividade é contínua; operação especial não gera o produto típico das ações de manutenção ou expansão.",
-      "cebraspeTrap": "Afirmar que toda ação do tipo projeto pertence necessariamente ao GND Investimentos.",
-      "example": "A ação de funcionamento da rede escolar organiza entrega continuada de serviços públicos.",
+      "definition": "É uma parte do programa orçamentário que descreve o que o governo pretende realizar ou financiar. Pode ser projeto, atividade ou operação especial. A ação é usada para organizar recursos e, quando cabível, acompanhar produtos e metas de entrega.",
+      "contrast": "Projeto tem duração limitada e busca expansão ou aperfeiçoamento da atuação pública. Atividade tem execução contínua e mantém serviços. Operação especial reúne despesas que não produzem diretamente bens ou serviços típicos dessas ações. Ação é classificação programática; natureza da despesa indica o tipo de gasto, como material ou equipamento. Uma ação do tipo projeto não significa automaticamente despesa do grupo Investimentos.",
+      "cebraspeTrap": "O nome 'projeto' não transforma todos os seus gastos em despesas de capital. É preciso separar o tipo de ação do tipo econômico de despesa.",
+      "example": "Um programa educacional pode ter ação de construção de escola, classificada como projeto, e outra de funcionamento das escolas, classificada como atividade. Dentro de cada ação há despesas com naturezas específicas.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1750,10 +1750,10 @@
       "aliases": [
         "Projeto orçamentário"
       ],
-      "definition": "Ação do orçamento com começo e fim definidos, que gera resultado voltado a ampliar ou melhorar a atuação do governo, como construir uma escola.",
-      "contrast": "Projeto tem duração limitada. Atividade é contínua e permanente, como manter o funcionamento de uma escola.",
-      "cebraspeTrap": "Classificar todo projeto como despesa de capital sem examinar os elementos de despesa que financiarão a ação.",
-      "example": "Construir escola pública é exemplo típico de projeto orçamentário com início e conclusão previstos.",
+      "definition": "É uma ação orçamentária com começo e fim previstos que contribui para expandir ou melhorar a atuação do governo. Construir uma escola ou implantar uma estrutura de atendimento pode ser exemplo de projeto.",
+      "contrast": "Projeto é uma categoria de ação, definida por duração limitada e finalidade de expansão ou aperfeiçoamento. Atividade mantém serviços de forma contínua. O grupo de natureza da despesa (GND) Investimentos é outra classificação: um projeto pode envolver mais de um tipo de gasto e não se define apenas pelo grupo econômico.",
+      "cebraspeTrap": "A banca pode trocar projeto orçamentário por investimento como se fossem o mesmo código. Projeto descreve a forma da ação; GND descreve a natureza do gasto.",
+      "example": "Uma prefeitura prevê construir uma escola em dois anos. A construção pode integrar ação do tipo projeto porque tem término previsto e amplia o atendimento. O funcionamento da escola depois da entrega costuma ser outra ação, do tipo atividade.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1777,10 +1777,10 @@
       "aliases": [
         "Atividade orçamentária"
       ],
-      "definition": "Ação do orçamento realizada de modo contínuo para manter serviços e funções do governo, como o funcionamento regular de uma escola.",
-      "contrast": "Atividade mantém serviços ao longo do tempo; projeto tem duração limitada e busca expansão ou aperfeiçoamento.",
-      "cebraspeTrap": "Concluir que qualquer despesa corrente é necessariamente ação do tipo atividade.",
-      "example": "Manutenção do funcionamento de escolas pode ser ação do tipo atividade.",
+      "definition": "É uma ação orçamentária realizada de forma contínua e permanente para manter a atuação do governo, como oferecer atendimento regular em uma escola ou unidade de saúde.",
+      "contrast": "Atividade mantém serviços e funções ao longo do tempo. Projeto tem duração limitada e busca expandir ou aperfeiçoar a atuação. Operação especial atende a despesas que não geram diretamente os produtos habituais dessas ações. Atividade não é sinônimo de despesa corrente: tipo de ação e natureza do gasto são classificações diferentes.",
+      "cebraspeTrap": "Uma despesa corrente não precisa pertencer obrigatoriamente a ação do tipo atividade. A categoria econômica não determina sozinha o tipo de ação.",
+      "example": "Manter o funcionamento de escolas é exemplo de ação do tipo atividade. Construir uma escola adicional é exemplo de projeto. Uma compra específica dentro da atividade ainda precisa ser classificada por natureza da despesa.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1804,10 +1804,10 @@
       "aliases": [
         "Operação especial"
       ],
-      "definition": "Ação que registra despesas que não produzem diretamente um bem ou serviço típico das atividades e projetos e não mantêm nem ampliam diretamente a ação governamental.",
-      "contrast": "Operação especial tem finalidade diferente de projeto e atividade. O pagamento do principal da dívida, por exemplo, não constrói uma entrega direta ao cidadão.",
-      "cebraspeTrap": "Confundir operação especial com despesa urgente decorrente de calamidade pública.",
-      "example": "Serviço da dívida pode ser programado como operação especial na estrutura federal.",
+      "definition": "É uma ação orçamentária usada para despesas que não geram diretamente um bem ou serviço oferecido à população e não representam, por si, a manutenção, expansão ou melhoria de uma atividade do governo. O pagamento de determinadas obrigações pode ser registrado nessa categoria.",
+      "contrast": "Operação especial é tipo de ação programática. Não significa crédito extraordinário, que é autorização para despesa urgente e imprevisível. Projeto e atividade estão ligados à produção, expansão ou manutenção de serviços; operação especial tem outra finalidade na programação. Pagar o principal de uma dívida é exemplo possível de operação especial e também despesa de capital no grupo Amortização da Dívida.",
+      "cebraspeTrap": "A palavra 'especial' não transforma essa ação em crédito extraordinário. São categorias diferentes: uma classifica a ação; a outra autoriza gastos excepcionais.",
+      "example": "O governo prevê pagar parcelas do principal de empréstimo público. A programação pode usar operação especial porque quitar a dívida não produz diretamente uma escola ou consulta. Isso não significa que o pagamento seja urgente ou imprevisível.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1831,10 +1831,10 @@
       "aliases": [
         "Localizador do gasto"
       ],
-      "definition": "Detalhamento de uma ação orçamentária que informa onde o gasto acontecerá ou qual território será atendido.",
-      "contrast": "Ação indica o que será feito. Subtítulo identifica a localização da execução ou dos beneficiários.",
-      "cebraspeTrap": "Interpretar subtítulo como espécie da receita ou como categoria econômica da despesa.",
-      "example": "Uma ação de construção de unidades recebe subtítulo para identificar a localidade atendida.",
+      "definition": "É um detalhe da ação orçamentária que indica onde ela será realizada ou qual território receberá seus resultados. Ajuda a localizar o gasto previsto no orçamento.",
+      "contrast": "A ação diz o que será feito; o subtítulo ajuda a identificar onde. Programa reúne ações para atingir objetivos maiores. Subtítulo não é grupo de natureza da despesa, elemento de gasto nem espécie de receita. A localização prevista também não comprova, sozinha, que o serviço já foi entregue naquele lugar.",
+      "cebraspeTrap": "Não confundir localização da ação com tipo de material comprado ou com o nome da categoria econômica da despesa.",
+      "example": "Um programa prevê construir unidades de atendimento. A ação indica a construção das unidades e os subtítulos podem identificar municípios ou regiões atendidos, conforme a forma de detalhamento adotada.",
       "subjectIds": [
         "orcamento-publico"
       ],

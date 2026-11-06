@@ -100,6 +100,21 @@ for (const [consulta, id, more] of [
   }
 }
 assert(fs.existsSync(path.join(root, 'data/glossario/termos/contabilidade-publica-fundamentos.json')), 'Arquivo com conceitos básicos não incluído');
+
+// A main incorporou um terceiro fundamento durante a revisão desta PR.
+// Preservar seu artigo, fonte e exceção de ciclo maior que doze meses.
+const cicloOperacional = published.terms.find(t => t.id === 'glo-ciclo-operacional-normal');
+assert(cicloOperacional?.articleIds.includes('art-bf384b8a28aa4753'),
+  'Conciliação removeu o vínculo do ciclo operacional com o Balanço Patrimonial');
+assert(/doze meses/.test(cicloOperacional.definition + cicloOperacional.contrast) &&
+       /mais de doze meses|dezoito meses/.test(cicloOperacional.contrast + cicloOperacional.example) &&
+       /circulante/.test(cicloOperacional.definition),
+  'Ciclo operacional deve explicar a exceção ao critério de doze meses');
+assert(cicloOperacional.sources.some(source => /^https:\/\//.test(source.url)),
+  'Ciclo operacional novo sem fonte técnica verificável');
+assert(match('ciclo operacional normal').some(t => t.id === cicloOperacional.id),
+  'Busca não encontra o novo conceito incorporado da main');
+
 assert(fs.existsSync(path.join(root, 'data/glossario/termos/contabilidade-publica-financeiro.json')),
   'Os dois conceitos financeiros devem ser publicados em arquivo próprio');
 for(const [term,id,generalId] of [

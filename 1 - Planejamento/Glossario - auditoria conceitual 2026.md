@@ -241,3 +241,19 @@ O inventário relaciona ID, arquivo de origem, artigo(s) associado(s) e links de
 ## Próximas verificações
 
 Revisar o lote inicial com a Lei nº 4.320/1964, art. 105, e o MCASP 11 (Parte I, §§ 3.3 e 4.7; Parte II, § 14.6.1; Parte IV, §§ 3.3.2 e 3.4; Parte V, § 4.5.2), distinguindo reconhecimento patrimonial, execução orçamentária e atributo F/P. Validar operacionalmente o inventário por regeneração após qualquer alteração e testar as famílias de risco antes de marcar novos verbetes como didaticamente aprovados.
+
+
+## Validação técnica e normativa: rodada inicial de 06/11/2026
+
+A revisão textual de 227/227 verbetes foi concluída nos JSON da PR #16, sem alterar a conclusão registrada no inventário: o status legado `reviewed` dos dados significa apenas publicado no catálogo, e **não comprova que um verbete passou por validação normativa e didática**. Nenhum dos 227 recebeu aceite integral por este processo.
+
+Verificações normativas pontuais realizadas nesta rodada:
+
+- **Provisões, passivos e ativos contingentes** (`glo-provisao-contabil`, `glo-passivo-contingente`, `glo-ativo-contingente`): a [lista de NBC TSP do CFC](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/) registra a NBC TSP 03 (R1), publicada no DOU em 17/03/2026. O texto de [vigência da R1](https://www.legisweb.com.br/legislacao/?id=492475) prevê aplicação a exercícios iniciados a partir de 01/01/2027, salvo prazo específico nacional. Os três verbetes receberam alerta explícito de período e duas referências separadas (versão original e R1). A edição original permanece referência para 2026. **Cotejo integral dos critérios e exceções da norma ainda pendente.**
+- **Regra de ouro** (`glo-regra-de-ouro`): confrontada com a [Constituição, art. 167, III](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), que compara operações de crédito e despesas de capital e prevê exceção para créditos suplementares/especiais de finalidade precisa aprovados por maioria absoluta. Cotejo do conceito central concluído; exceções e casos de prova ainda exigem revisão.
+- **Emendas por transferência especial** (`glo-transferencia-especial-emenda-parlamentar`): confrontadas as modalidades do art. 166-A, a transferência sem convênio, o mínimo de 70% para capital e as vedações de pessoal e dívida. Cotejo pontual do conceito central concluído.
+- **Empenho** (`glo-empenho`): preservada no campo `definition` a expressão literal 'pendente ou não de implemento de condição' (Lei nº 4.320/1964, art. 58), com explicação em linguagem simples. A redação legal é requisito de prova, sem exigir que toda a definição fique em linguagem jurídica.
+
+Validação técnica: identificados testes que dependiam de fragmentos de frases antigas; as verificações de conteúdo foram ajustadas para procurar distinções centrais, sem exigir uma redação única. Criado `.github/workflows/validate-glossary-pr.yml` para montar o site **sem deploy** e executar testes do glossário, dos flashcards e de privacidade em PR. Na consulta ao GitHub feita após a criação, ainda **não havia execução nem check publicado** para o commit. Portanto **nenhum teste de CI foi confirmado como aprovado**.
+
+Pendências para liberar a publicação: executar e obter sucesso dos testes, corrigir eventuais falhas, verificar referências e vigência dos outros verbetes, revisar roteiros e exemplos contra fontes oficiais, resolver a divergência da branch em relação à `main`, verificar os vínculos com artigos e flashcards e só então aprovar o merge. Priorizar eventuais conflitos e erros de regressão antes de testes visuais.

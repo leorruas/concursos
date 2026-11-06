@@ -3061,6 +3061,24 @@
       "status": "planned"
     },
     {
+      "id": "glo-ativo-permanente",
+      "term": "Ativo Permanente",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-passivo-permanente",
+      "term": "Passivo Permanente",
+      "subjectId": "contabilidade-publica",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Contabilidade Publica/03 - balanco patrimonial e demonstracao das variacoes patrimoniais.md",
+      "status": "planned"
+    },
+    {
       "id": "glo-plano-de-contas-aplicado-ao-setor-publico-pcasp",
       "term": "Plano de Contas Aplicado ao Setor Público (PCASP)",
       "subjectId": "contabilidade-publica",

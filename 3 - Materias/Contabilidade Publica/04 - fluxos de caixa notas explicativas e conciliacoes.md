@@ -30,7 +30,7 @@ A DFC agrupa os movimentos efetivos em **três atividades**: **operacionais** (r
 
 ## Estrutura interna: três atividades
 
-O [MCASP, 11ª edição, Parte V, capítulo 6, § 6.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), **exige método direto** na DFC padronizada para os entes da Federação, com as principais classes de recebimentos e pagamentos brutos. A **NBC TSP 12** admite método direto ou indireto no fluxo operacional e incentiva o primeiro, mas o **MCASP exige o direto para padronização**. **Vigência:** a [NBC TSP 12 (R1)](https://www.legisweb.com.br/legislacao/?id=492485) foi publicada em 2026, mas sua aplicação geral está prevista para exercícios iniciados em **01/01/2027**, ressalvado normativo nacional com prazo específico. Não antecipar sua aplicação aos dados contábeis de 2026. As versões estão no [CFC](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/).
+O [MCASP, 11ª edição, Parte V, capítulo 6, § 6.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), **exige método direto** na DFC padronizada para os entes da Federação, com as principais classes de recebimentos e pagamentos brutos. A **Norma Brasileira de Contabilidade Técnica do Setor Público (NBC TSP) 12** admite método direto ou indireto no fluxo operacional e incentiva o primeiro, mas o **MCASP exige o direto para padronização**. **Vigência:** a [NBC TSP 12 (R1)](https://www.legisweb.com.br/legislacao/?id=492485) foi publicada em 2026, mas sua aplicação geral está prevista para exercícios iniciados em **01/01/2027**, ressalvado normativo nacional com prazo específico. Não antecipar sua aplicação aos dados contábeis de 2026. As versões estão no [CFC](https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/).
 
 | Fluxo | O que abrange | Exemplos de movimentação efetiva |
 | :--- | :--- | :--- |
@@ -46,7 +46,7 @@ O MCASP prevê **Quadro Principal**, **Quadro de Transferências Recebidas e Con
 
 **Fatos sem caixa não entram na DFC:** aquisição de ativo a prazo ainda não pago, conversão de dívida em capital, depreciação e reconhecimento de receitas a receber sem arrecadação. Transações significativas de investimento/financiamento **sem uso de caixa** devem ser tratadas nas **notas explicativas** pertinentes. A movimentação entre componentes que **já são caixa/equivalentes** tampouco constitui fluxo operacional, de investimento ou de financiamento: ela não altera o valor agregado de caixa da entidade.
 
-Uma obrigação por serviço já prestado pode provocar passivo e VPD sem saída de caixa contemporânea; sua quitação futura é que produz desembolso. Assim, o mesmo evento pode afetar BP, DVP e DFC **em momentos diferentes**.
+Uma obrigação por serviço já prestado pode provocar passivo e VPD sem saída de caixa contemporânea; sua quitação futura é que produz desembolso. Assim, o mesmo evento pode afetar o Balanço Patrimonial (BP), a DVP e a DFC **em momentos diferentes**.
 
 ## BF × DFC: inscrição de restos a pagar não é ingresso real
 
@@ -105,7 +105,7 @@ A entidade inicia 2026 com caixa, ativo, passivo e patrimônio líquido (PL) igu
 
 | Demonstração | Valor | Por quê? |
 | :--- | ---: | :--- |
-| BO: resultado orçamentário | **R$ 40** | arrecadação 100 − empenho 60 |
+| Balanço Orçamentário (BO): resultado orçamentário | **R$ 40** | arrecadação 100 − empenho 60 |
 | BF: saldo final de caixa | **R$ 60** | recebimento 100 − pagamento 40; há compensação de RPP |
 | BP: caixa | **R$ 60** | saldo final |
 | BP: equipamento líquido | **R$ 54** | custo 60 − depreciação 6 |

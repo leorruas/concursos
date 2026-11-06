@@ -1858,10 +1858,10 @@
       "aliases": [
         "Classificação por natureza da despesa"
       ],
-      "definition": "Código que mostra o tipo econômico do gasto público: categoria corrente ou de capital, grupo de natureza da despesa, modalidade de aplicação, elemento e outros detalhamentos previstos.",
-      "contrast": "Natureza informa que tipo de gasto será feito. Classificação institucional indica quem tem a dotação; funcional indica a área de atuação.",
-      "cebraspeTrap": "Tomar o GND Investimentos como prova de que a função é Educação ou de que a esfera é orçamento das estatais.",
-      "example": "Em uma compra direta de equipamentos, natureza identifica capital, investimentos, aplicação direta e elemento pertinente.",
+      "definition": "É o código que identifica que tipo de gasto o governo pretende realizar. A natureza da despesa organiza informações como categoria econômica (corrente ou de capital), grupo de natureza da despesa, modalidade de aplicação e elemento de despesa.",
+      "contrast": "Natureza responde 'o que será gasto e de que maneira?', enquanto a classificação institucional indica quem recebeu a dotação, a funcional indica a área da política e a programática indica o objetivo da ação. Dentro da natureza, o grupo reúne grandes tipos de gasto; a modalidade indica como os recursos serão aplicados; o elemento especifica o objeto, como material ou serviço.",
+      "cebraspeTrap": "A classificação como Investimentos não informa, por si só, a função ou a esfera do orçamento. Também não se deve confundir elemento, grupo e modalidade.",
+      "example": "Um órgão compra computadores para uma escola. A função pode ser Educação; a ação trata da política educacional; a natureza da despesa pode indicar despesa de capital, grupo Investimentos, modalidade de aplicação direta e elemento Equipamentos e Material Permanente, conforme o enquadramento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1893,10 +1893,10 @@
       "aliases": [
         "Despesas correntes"
       ],
-      "definition": "Gasto do orçamento que, em regra, serve à manutenção e ao funcionamento dos serviços públicos e não forma nem compra diretamente um bem de capital, como pessoal e juros.",
-      "contrast": "Corrente é categoria econômica. Despesa de capital abrange investimentos, inversões financeiras e amortização da dívida segundo a classificação.",
-      "cebraspeTrap": "Afirmar que toda despesa corrente se repete mensalmente ou que juros de dívida são despesa de capital.",
-      "example": "Pagamento de juros da dívida e serviços de limpeza são, em regra, despesas correntes, em grupos distintos.",
+      "definition": "É uma das duas grandes categorias econômicas da despesa pública. Reúne, em geral, gastos com manutenção e funcionamento dos serviços, como pessoal, material de consumo, serviços e juros da dívida, conforme a classificação orçamentária.",
+      "contrast": "A despesa corrente se divide em grupos como Pessoal e Encargos Sociais, Juros e Encargos da Dívida e Outras Despesas Correntes. A despesa de capital inclui Investimentos, Inversões Financeiras e Amortização da Dívida. Corrente não significa que o pagamento ocorra todo mês: uma despesa pontual com material de consumo também pode ser corrente.",
+      "cebraspeTrap": "A banca pode afirmar que toda despesa corrente é mensal ou que juros de dívida são despesas de capital por estarem ligados a financiamento.",
+      "example": "Uma escola compra papel para uso nas aulas e contrata limpeza. Esses gastos podem ser outras despesas correntes. A compra de computadores permanentes, em regra, é despesa de capital. Já os juros de empréstimo público são despesa corrente, embora estejam relacionados a dívida.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1928,10 +1928,10 @@
       "aliases": [
         "Despesas de capital"
       ],
-      "definition": "Gasto do orçamento classificado em investimentos, inversões financeiras ou amortização da dívida, como executar obras ou pagar o principal de uma dívida.",
-      "contrast": "Despesa de capital é categoria econômica. Nem toda despesa de capital cria um novo bem: amortizar dívida também é gasto de capital.",
-      "cebraspeTrap": "Classificar aquisição de qualquer material caro como despesa de capital sem analisar o objeto e sua natureza.",
-      "example": "Construir laboratório ou pagar o principal de dívida integram despesa de capital em grupos diferentes.",
+      "definition": "É uma das duas categorias econômicas da despesa pública. Inclui gastos classificados como Investimentos, Inversões Financeiras e Amortização da Dívida. Pode envolver construir obras, comprar certos bens ou devolver o principal de uma dívida.",
+      "contrast": "Despesa de capital não significa necessariamente criar novo patrimônio: pagar o principal de empréstimo é despesa de capital e reduz uma dívida existente. Despesa corrente inclui, entre outros, salários, material de consumo e juros da dívida. A palavra 'capital' também não determina se o gasto entra no orçamento fiscal ou no orçamento de investimento das estatais.",
+      "cebraspeTrap": "Nem toda despesa de capital gera bem novo. A distinção entre juros e principal da dívida é um caso frequente de troca entre categorias.",
+      "example": "A prefeitura constrói uma escola e compra equipamentos permanentes, gastos que podem integrar Investimentos. Quando devolve o principal de um empréstimo, registra Amortização da Dívida, também despesa de capital. Os juros do mesmo empréstimo pertencem à categoria corrente.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1963,10 +1963,10 @@
       "aliases": [
         "GND"
       ],
-      "definition": "Parte do código da despesa que reúne gastos com características econômicas parecidas. Os seis grupos são pessoal e encargos, juros e encargos da dívida, outras despesas correntes, investimentos, inversões financeiras e amortização da dívida.",
-      "contrast": "GND indica o grande tipo de gasto dentro da categoria econômica. Elemento detalha o objeto comprado ou pago; modalidade mostra como os recursos serão aplicados.",
-      "cebraspeTrap": "Apontar Equipamentos e Material Permanente como GND, quando corresponde a elemento de despesa.",
-      "example": "O GND Investimentos pode conter elementos diferentes, como obras e equipamentos permanentes.",
+      "definition": "É um nível do código de despesas que reúne gastos parecidos pela sua natureza econômica. O Grupo de Natureza da Despesa (GND) tem seis grupos: Pessoal e Encargos Sociais; Juros e Encargos da Dívida; Outras Despesas Correntes; Investimentos; Inversões Financeiras; e Amortização da Dívida.",
+      "contrast": "Os três primeiros GND pertencem às despesas correntes e os três últimos às de capital. Grupo é uma categoria ampla; o elemento detalha o objeto comprado ou pago, como equipamentos ou serviços; a modalidade mostra se o órgão aplica diretamente os recursos ou os transfere para aplicação. 'Equipamentos e Material Permanente' é exemplo de elemento, não de GND.",
+      "cebraspeTrap": "A banca pode trocar o nome de um elemento, como Equipamentos e Material Permanente, pelo nome de um grupo. Também pode colocar juros e amortização no mesmo GND.",
+      "example": "Um órgão constrói laboratório e compra computadores: os gastos podem integrar o grupo Investimentos, usando elementos diferentes conforme a compra. Já o pagamento de juros de financiamento pertence ao grupo Juros e Encargos da Dívida, não ao de amortização.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1992,10 +1992,10 @@
       "id": "glo-modalidade-de-aplicacao",
       "term": "Modalidade de aplicação",
       "aliases": [],
-      "definition": "Parte do código da despesa que mostra se os recursos serão gastos diretamente pela unidade ou transferidos para outra instituição aplicá-los.",
-      "contrast": "A modalidade informa como o dinheiro será aplicado. O elemento de despesa indica o objeto do gasto, como material ou serviço.",
-      "cebraspeTrap": "Afirmar que aplicação direta é necessariamente investimento e que transferência a município descreve a origem da receita do município.",
-      "example": "Na compra de seringas pelo próprio ministério, a modalidade pode indicar aplicações diretas.",
+      "definition": "É uma parte do código da despesa que indica como o dinheiro será usado: diretamente pelo órgão responsável ou por transferência a outra entidade para que ela realize a aplicação, conforme as regras do orçamento.",
+      "contrast": "Modalidade responde como os recursos serão aplicados, não qual produto será comprado. Elemento da despesa identifica o objeto do gasto, como material, obra ou serviço. GND reúne os gastos por natureza econômica. Aplicação direta não significa automaticamente investimento: um órgão pode comprar papel ou equipamento diretamente, com naturezas diferentes.",
+      "cebraspeTrap": "A banca pode confundir modalidade com elemento ou classificar toda aplicação direta como despesa de capital.",
+      "example": "Um ministério compra por conta própria material para escritório: a modalidade pode ser aplicação direta. Se transferir recursos para outro ente realizar a ação, usa a modalidade adequada à transferência. O material comprado e o destinatário da transferência são informações distintas.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2021,10 +2021,10 @@
       "id": "glo-elemento-de-despesa",
       "term": "Elemento de despesa",
       "aliases": [],
-      "definition": "Parte do código da despesa que identifica o que será pago ou adquirido, como material de consumo, obras, equipamentos ou serviços.",
-      "contrast": "Elemento descreve o objeto do gasto. GND agrupa despesas de natureza econômica semelhante; modalidade indica a forma de aplicação.",
-      "cebraspeTrap": "Tratar material de consumo como categoria econômica ou elemento como modalidade de licitação.",
-      "example": "Aquisição de papel pode usar elemento Material de Consumo dentro do grupo Outras Despesas Correntes.",
+      "definition": "É a parte da natureza da despesa que indica o objeto do gasto, isto é, o que será adquirido ou pago. Pode identificar material de consumo, obras, serviços, equipamentos, vencimentos e outros objetos previstos no classificador.",
+      "contrast": "Elemento especifica o gasto. Grupo de natureza da despesa (GND) reúne grandes tipos econômicos; modalidade de aplicação informa como o dinheiro será utilizado; função mostra a área de atuação. Saber o elemento não determina, por si, o órgão responsável ou o programa financiado.",
+      "cebraspeTrap": "Material de Consumo e Equipamentos e Material Permanente são elementos, não categorias econômicas nem modalidades de licitação.",
+      "example": "A prefeitura compra papel para o atendimento ao público: pode usar o elemento Material de Consumo dentro de Outras Despesas Correntes. A compra de computadores permanentes pode usar Equipamentos e Material Permanente dentro de Investimentos.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2050,10 +2050,10 @@
       "id": "glo-pessoal-e-encargos-sociais-gnd",
       "term": "Pessoal e Encargos Sociais (GND)",
       "aliases": [],
-      "definition": "Grupo de despesa corrente que reúne pagamentos de pessoal e encargos sociais devidos nas situações previstas pelo classificador orçamentário.",
-      "contrast": "É o GND de pessoal. O conceito de 'despesa total com pessoal' para os limites da LRF segue regras fiscais próprias e pode não ter o mesmo valor.",
-      "cebraspeTrap": "Afirmar que qualquer despesa ligada a servidores deve integrar o mesmo GND sem verificar o classificador.",
-      "example": "Vencimentos e vantagens fixas de pessoal civil podem compor este grupo de despesa.",
+      "definition": "É o grupo de despesa corrente usado para registrar gastos com pessoal e encargos sociais abrangidos pelas regras do orçamento, como determinados vencimentos e obrigações ligadas à folha. O nome é um dos seis Grupos de Natureza da Despesa (GND).",
+      "contrast": "O GND identifica um grupo da classificação orçamentária. A Despesa Total com Pessoal da Lei de Responsabilidade Fiscal é outro cálculo, feito com regras, ajustes e exclusões próprios para verificar limites. Por isso, o valor registrado no GND não precisa ser idêntico ao indicador fiscal. Nem todo gasto que beneficia um servidor entra automaticamente nesse grupo.",
+      "cebraspeTrap": "A banca pode equiparar o GND de pessoal ao valor usado nos limites da LRF. As regras de apuração não são necessariamente iguais.",
+      "example": "Um órgão paga vencimentos de servidores e os encargos previstos no classificador: esses valores podem integrar o GND Pessoal e Encargos Sociais. Para verificar o limite fiscal, ainda será preciso calcular a despesa total com pessoal conforme a LRF.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2079,10 +2079,10 @@
       "id": "glo-juros-e-encargos-da-divida-gnd",
       "term": "Juros e Encargos da Dívida (GND)",
       "aliases": [],
-      "definition": "Grupo de despesa corrente usado para pagar juros e outros encargos de dívidas públicas, conforme a classificação.",
-      "contrast": "Juros são o custo da dívida e integram despesa corrente. Pagar o principal da dívida entra no GND Amortização da Dívida, de capital.",
-      "cebraspeTrap": "Classificar pagamento de juros como amortização do principal ou como GND Investimentos.",
-      "example": "Em parcela de financiamento, os juros e o principal são tratados em grupos econômicos diferentes.",
+      "definition": "É o grupo de despesa corrente usado para pagar juros e outros encargos ligados à dívida pública, conforme o classificador orçamentário. Juros representam o custo de usar dinheiro emprestado, diferente da devolução do valor originalmente tomado.",
+      "contrast": "O principal da dívida é o montante emprestado que ainda precisa ser devolvido; sua amortização pertence a grupo de despesa de capital. Juros e encargos integram grupo de despesa corrente. A mesma parcela de financiamento pode exigir separar juros de amortização, mesmo que o governo faça um pagamento único.",
+      "cebraspeTrap": "É erro classificar todo pagamento de financiamento como amortização ou todo gasto relacionado à dívida como capital. Os juros têm grupo próprio de despesa corrente.",
+      "example": "O governo paga parcela de empréstimo de R$ 12 mil: R$ 10 mil são devolução do principal e R$ 2 mil são juros. Os R$ 2 mil entram em Juros e Encargos da Dívida; os R$ 10 mil em Amortização da Dívida, conforme os registros aplicáveis.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2108,10 +2108,10 @@
       "id": "glo-outras-despesas-correntes-gnd",
       "term": "Outras Despesas Correntes (GND)",
       "aliases": [],
-      "definition": "Grupo que reúne despesas correntes fora dos grupos de pessoal e encargos sociais e de juros e encargos da dívida.",
-      "contrast": "É uma categoria residual entre os três grupos de despesa corrente. Equipamentos e obras, em regra, pertencem a grupos de capital conforme sua natureza.",
-      "cebraspeTrap": "Supor que todo gasto com material de consumo pertence ao GND Investimentos porque envolve compra de bens.",
-      "example": "Material de escritório para funcionamento de órgão pode ser despesa corrente deste grupo.",
+      "definition": "É o grupo de despesa corrente que reúne gastos que não pertencem aos grupos de Pessoal e Encargos Sociais nem de Juros e Encargos da Dívida. Pode incluir compras de material de consumo e serviços usados no funcionamento dos órgãos, conforme o classificador.",
+      "contrast": "Outras Despesas Correntes é um grupo, não uma categoria para tudo que não se conhece. Um equipamento permanente ou uma obra pode pertencer a Investimentos, grupo de capital. O fato de comprar um objeto físico não torna a despesa de capital: papel, combustível e outros materiais de consumo podem ser correntes.",
+      "cebraspeTrap": "Comprar bem não significa automaticamente fazer investimento. O objeto e seu enquadramento no classificador determinam o grupo.",
+      "example": "Uma escola compra papel e contrata serviço de limpeza para funcionar. Essas despesas podem integrar Outras Despesas Correntes. Se comprar computadores permanentes, a classificação pode ser Investimentos, embora ambos envolvam compras feitas pela escola.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2139,10 +2139,10 @@
       "aliases": [
         "GND Investimentos"
       ],
-      "definition": "Grupo de despesa de capital que inclui execução de obras e aquisição de certos bens e instalações, como equipamentos permanentes, segundo a classificação legal.",
-      "contrast": "Investimentos podem formar ou ampliar bens. Inversões financeiras incluem, entre outros casos, imóveis adquiridos sem vínculo com a execução de obras.",
-      "cebraspeTrap": "Afirmar que compra de qualquer imóvel já pronto será necessariamente investimento sem avaliar a finalidade da aquisição.",
-      "example": "Construir laboratório e adquirir equipamentos permanentes podem integrar o GND Investimentos.",
+      "definition": "É o grupo de despesa de capital que inclui, entre outros gastos previstos na classificação, o planejamento e a execução de obras e a compra de equipamentos e instalações que contribuem para criar ou ampliar bens e serviços públicos.",
+      "contrast": "Investimentos é um GND, isto é, um grupo econômico da despesa. Inversões Financeiras é outro grupo de capital e pode incluir a compra de imóvel já existente quando não vinculada à execução de obra. Amortização da Dívida paga principal de empréstimo. Nem toda ação orçamentária do tipo projeto usa somente Investimentos, e o GND Investimentos não significa automaticamente orçamento de investimento das estatais.",
+      "cebraspeTrap": "A banca pode tratar toda compra de imóvel ou qualquer projeto como investimento sem considerar a natureza exata da operação.",
+      "example": "Uma prefeitura constrói laboratório e compra equipamentos permanentes para ele: os gastos podem entrar em Investimentos. Se comprar imóvel já pronto sem ligação com execução de obra, é necessário avaliar o enquadramento em Inversões Financeiras.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2174,10 +2174,10 @@
       "aliases": [
         "GND Inversões Financeiras"
       ],
-      "definition": "Grupo de despesa de capital que inclui, por exemplo, comprar imóvel sem relação direta com obra e adquirir certos bens de capital já em uso ou participações previstas nas regras.",
-      "contrast": "Inversões financeiras e investimentos são grupos diferentes de despesa de capital. A condição do bem e a finalidade da compra ajudam a separar os casos.",
-      "cebraspeTrap": "Tratar toda aquisição de bem durável como investimento e excluir a possibilidade de inversão financeira para imóvel já existente.",
-      "example": "Comprar imóvel já existente não vinculado à execução de obra pode ser inversão financeira.",
+      "definition": "É um grupo de despesa de capital que reúne operações como a aquisição de imóveis ou outros bens nas situações previstas pela classificação legal, além de determinadas participações financeiras. Um exemplo comum é comprar imóvel já existente sem relação com execução de obra.",
+      "contrast": "Investimentos podem incluir construir um imóvel e comprar equipamentos permanentes; Inversões Financeiras podem incluir comprar imóvel já pronto, conforme a finalidade e as regras. Amortização da Dívida é o grupo usado para devolver o principal de empréstimo. O simples fato de um bem durar muitos anos não resolve a diferença: é necessário examinar a operação concreta.",
+      "cebraspeTrap": "Comprar imóvel pronto não deve ser automaticamente classificado como Investimentos apenas porque se trata de bem durável.",
+      "example": "Um município constrói prédio novo para escola: o gasto pode ser Investimentos. Se compra prédio já existente, sem vinculá-lo à execução de obra, a compra pode ser Inversões Financeiras. Ambos são despesas de capital, mas pertencem a grupos distintos.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2209,10 +2209,10 @@
       "aliases": [
         "GND Amortização da Dívida"
       ],
-      "definition": "Grupo de despesa de capital que registra o pagamento ou refinanciamento do valor principal de dívidas públicas, com os ajustes previstos no classificador.",
-      "contrast": "Amortização paga o principal da dívida. Juros e encargos da dívida são outro GND, de despesa corrente.",
-      "cebraspeTrap": "Confundir juros de dívida com amortização do principal ou tratar esse pagamento como despesa corrente.",
-      "example": "Em parcela de empréstimo devido pela União, a devolução do principal integra Amortização da Dívida.",
+      "definition": "É o grupo de despesa de capital usado para devolver o valor principal de dívidas do governo, incluindo as operações previstas no classificador. Principal é o dinheiro originalmente emprestado que precisa ser pago de volta, sem os juros.",
+      "contrast": "Pagar o principal da própria dívida é despesa de capital em Amortização da Dívida. Pagar juros é despesa corrente em Juros e Encargos da Dívida. Receber de volta o principal de empréstimo que o governo havia concedido é outra operação: receita de capital por amortização de empréstimos concedidos.",
+      "cebraspeTrap": "A banca pode inverter receita e despesa quando aparece a palavra 'amortização'. É preciso identificar quem deve e quem recebe o principal.",
+      "example": "O município paga R$ 30 mil de um financiamento: R$ 25 mil devolvem principal e R$ 5 mil são juros. Os R$ 25 mil pertencem a Amortização da Dívida, e os R$ 5 mil a Juros e Encargos da Dívida, conforme a natureza de cada parte.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2240,10 +2240,10 @@
       "aliases": [
         "Aplicação direta"
       ],
-      "definition": "Modalidade de aplicação em que o próprio órgão ou entidade responsável usa os recursos para executar a despesa, sem transferi-los a outro ente para aplicar.",
-      "contrast": "Na aplicação direta, quem executa o gasto é a própria unidade responsável. Uma transferência para outra entidade aplicar segue modalidade própria.",
-      "cebraspeTrap": "Afirmar que aplicações diretas só podem financiar equipamentos ou obras de investimentos.",
-      "example": "Um ministério compra diretamente material de consumo destinado à sua operação.",
+      "definition": "É a modalidade de aplicação em que o órgão ou entidade responsável utiliza diretamente a verba do orçamento para realizar a despesa, em vez de transferi-la a outra instituição para executar o gasto.",
+      "contrast": "Aplicação direta indica como o recurso é executado, não qual bem será comprado. Um órgão pode comprar material de consumo diretamente, despesa corrente, ou equipamento permanente, despesa de capital. Transferência a outro ente para ele aplicar o recurso exige modalidade própria; não é aplicação direta do órgão que transferiu.",
+      "cebraspeTrap": "Aplicação direta não é sinônimo de investimento. A modalidade e o grupo econômico da despesa são classificações diferentes.",
+      "example": "Uma universidade compra diretamente R$ 5 mil em material de laboratório: a modalidade pode ser aplicação direta. Se o ministério transfere recursos a outro ente para executar projeto, a modalidade será a correspondente à transferência, conforme o classificador.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2269,10 +2269,10 @@
       "id": "glo-meta-fisica",
       "term": "Meta física",
       "aliases": [],
-      "definition": "Quantidade de bens ou serviços que uma ação orçamentária pretende entregar em um período, como número de consultas ou de escolas atendidas.",
-      "contrast": "Meta física mede a entrega planejada em unidades concretas. Meta financeira mede o valor previsto para executar a ação.",
-      "cebraspeTrap": "Afirmar que meta física foi cumprida porque a despesa atingiu todo o limite de empenho autorizado.",
-      "example": "Uma ação prevê realizar 500 atendimentos no exercício, enquanto o orçamento estabelece o valor necessário.",
+      "definition": "É a quantidade de bens ou serviços que o governo pretende entregar com uma ação do orçamento. A meta pode ser medida em consultas realizadas, estudantes atendidos, escolas construídas ou outra unidade adequada ao produto previsto.",
+      "contrast": "Meta física mede quantidade entregue; previsão financeira mostra quanto se pretende gastar. Uma ação pode gastar toda a verba e entregar menos do que a meta, ou cumprir a meta com gasto inferior ao previsto. 'Programação física cumprida' significa que a meta válida foi alcançada, e não apenas que todo o dinheiro foi empenhado.",
+      "cebraspeTrap": "Despesa totalmente empenhada ou paga não comprova cumprimento da meta física. O indicador é a quantidade de entregas.",
+      "example": "Uma ação prevê realizar 500 consultas com orçamento de R$ 100 mil. Se forem realizadas 400 consultas, atingiu 80% da meta física, ainda que os R$ 100 mil tenham sido pagos. A execução financeira e a física precisam ser avaliadas separadamente.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2296,10 +2296,10 @@
       "aliases": [
         "RP da despesa"
       ],
-      "definition": "Código da programação da despesa que mostra como ela entra, ou deixa de entrar, no cálculo do resultado primário federal, segundo as regras fiscais.",
-      "contrast": "O identificador de resultado primário trata do efeito fiscal da despesa. GND informa o tipo econômico do gasto; são classificações diferentes.",
-      "cebraspeTrap": "Dizer que toda despesa corrente afeta o resultado primário e toda despesa de capital fica excluída.",
-      "example": "Juros e obras podem pertencer a categorias econômicas diferentes e ter efeitos fiscais definidos por indicador próprio.",
+      "definition": "É um código usado na programação orçamentária federal para indicar como determinada despesa entra no cálculo do resultado primário. Esse resultado compara receitas e despesas primárias, seguindo a metodologia fiscal. O identificador permite distinguir despesas que afetam ou não esse cálculo.",
+      "contrast": "O identificador de resultado primário trata do efeito fiscal; o Grupo de Natureza da Despesa (GND) informa o tipo econômico do gasto, como pessoal ou investimentos. Uma obra pode ser despesa de capital e também primária; juros da dívida podem ser despesa corrente e financeira. Corrente ou capital não determina, sozinho, como o gasto entra no resultado primário.",
+      "cebraspeTrap": "Dizer que toda despesa corrente é primária ou que toda despesa de capital é financeira confunde o tipo econômico do gasto com seu tratamento fiscal.",
+      "example": "Uma obra pública pode estar no GND Investimentos e ser classificada como despesa primária. O pagamento de juros pode estar no GND Juros e Encargos da Dívida e ter natureza financeira para o resultado primário. São códigos usados para responder perguntas diferentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2321,10 +2321,10 @@
       "id": "glo-despesa-primaria",
       "term": "Despesa primária",
       "aliases": [],
-      "definition": "Gasto que entra no cálculo do resultado primário do governo conforme a metodologia fiscal, independentemente de estar classificado como corrente ou de capital.",
-      "contrast": "Primária indica participação no resultado primário. Corrente e capital indicam a categoria econômica da despesa, sem equivalência automática.",
-      "cebraspeTrap": "Afirmar que só despesas correntes afetam o resultado primário e que construção de obras nunca pode entrar no cálculo.",
-      "example": "Custeio de serviços ou investimento público podem ser despesas primárias, segundo o indicador aplicável.",
+      "definition": "É um gasto que entra no cálculo do resultado primário do governo conforme as regras fiscais. Nesse cálculo, o governo compara receitas e despesas primárias para acompanhar suas metas. Despesas com serviços públicos e certas obras podem ser primárias, dependendo da classificação aplicável.",
+      "contrast": "Primária não significa corrente. Uma despesa de capital com investimento pode ser primária; uma despesa corrente com juros da dívida pode ser financeira, ficando fora do resultado primário. Corrente/capital informa o tipo econômico do gasto; primária/financeira informa como ele afeta o indicador fiscal.",
+      "cebraspeTrap": "É incorreto afirmar que apenas despesas correntes entram no resultado primário. A categoria econômica não resolve sozinha a classificação fiscal.",
+      "example": "O governo paga serviços de limpeza de uma escola e executa investimento em obra. Ambos podem ser despesas primárias. Já pagar juros de empréstimo é, em regra, despesa financeira para essa apuração, embora seja despesa corrente no orçamento.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2346,10 +2346,10 @@
       "id": "glo-despesa-financeira",
       "term": "Despesa financeira",
       "aliases": [],
-      "definition": "Gasto classificado fora do cálculo do resultado primário, como juros ou amortização da dívida nas hipóteses previstas na metodologia fiscal.",
-      "contrast": "Financeira é uma classificação para o resultado primário. Uma despesa financeira pode integrar o orçamento e ser corrente ou de capital.",
-      "cebraspeTrap": "Tratar despesa financeira como qualquer gasto pago em caixa, mesmo quando o classificador a identifica como primária.",
-      "example": "Pagamento de juros da dívida pode ser despesa financeira e também despesa corrente pela categoria econômica.",
+      "definition": "É uma despesa que, de acordo com a metodologia fiscal, não entra no cálculo do resultado primário. Pode incluir juros e amortização da dívida, conforme a classificação aplicável. A palavra financeira indica seu tratamento no resultado fiscal, não apenas que houve pagamento em dinheiro.",
+      "contrast": "Uma despesa financeira pode estar no orçamento: juros são despesa corrente; amortização do principal é despesa de capital. Despesa primária é aquela que entra no resultado primário. Pagar em dinheiro não torna automaticamente uma despesa financeira: o governo também paga em caixa por serviços e obras que podem ser primários.",
+      "cebraspeTrap": "Financeira não é sinônimo de qualquer gasto com transferência bancária. É necessário examinar o indicador fiscal e a natureza do gasto separadamente.",
+      "example": "Uma parcela de empréstimo do governo inclui R$ 4 mil de juros e R$ 20 mil de principal. Ambos podem ser tratados como despesas financeiras na apuração do resultado primário, embora os juros sejam corrente e o principal seja capital na classificação econômica.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2373,10 +2373,10 @@
       "aliases": [
         "RCL"
       ],
-      "definition": "Valor fiscal calculado a partir das receitas correntes do ente, depois de subtrair as deduções exigidas pela LRF. Em geral, considera o mês de referência e os onze anteriores.",
-      "contrast": "A RCL serve de base para limites fiscais, como pessoal e dívida. Não equivale à receita corrente bruta nem ao dinheiro livre em caixa.",
-      "cebraspeTrap": "Confundir RCL com toda receita corrente recebida em um mês ou subtrair as mesmas deduções para entes com regras distintas.",
-      "example": "Para examinar limite de pessoal, calcula-se a RCL conforme período móvel de doze meses e deduções legais do ente.",
+      "definition": "É um valor usado como referência para limites fiscais, como os de pessoal e dívida. A Receita Corrente Líquida (RCL) parte das receitas correntes arrecadadas e desconta os valores que a Lei de Responsabilidade Fiscal (LRF) manda excluir. Em geral, usa uma janela de doze meses: o mês de referência e os onze anteriores.",
+      "contrast": "RCL não é toda receita corrente bruta nem o saldo de dinheiro livre no banco. As deduções variam conforme o ente e as regras legais. A despesa total com pessoal é comparada com a RCL para verificar limites, mas não é calculada simplesmente a partir da folha de um mês. Também não se deve confundir a RCL com resultado primário ou superávit financeiro.",
+      "cebraspeTrap": "A banca pode tratar RCL como receita corrente bruta, dinheiro disponível ou receita de um único mês. O cálculo legal usa período móvel e deduções específicas.",
+      "example": "Um estado calcula suas receitas correntes arrecadadas de janeiro a dezembro e subtrai as deduções previstas para ele na LRF. O resultado é usado para verificar os limites fiscais cabíveis. Somar apenas a arrecadação de dezembro ou ignorar deduções não produz a RCL correta.",
       "subjectIds": [
         "orcamento-publico"
       ],

@@ -207,6 +207,11 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
       contestIndex.subjects.push({id:subject.id,name:subject.name,aliases:subject.aliases,path:contextPath,state:context.state,priority:subject.priority.tier});
       context.observationAxes={knowledge:'units[].knowledge: cobertura de notas, sem equivalência de estudo',exposure:'units[].exposure: fonte histórica ou checkpoint explícito',learning:modeResults.aprendizagem||null,competitive:{results:Object.fromEntries(Object.entries(modeResults).filter(([m])=>['para_valer','real','adaptada','simulado'].includes(m))),calibration:'Rótulo e referências não validam equivalência de dificuldade. Conferir corpus antes do treino.',noOfficialScore:true},retention:{retrievedLater:new Set(retentionObservations.filter(o=>o.status==='espacada').map(o=>o.conceptId)).size,immediatelyRecovered:new Set(retentionObservations.filter(o=>o.status==='imediata-ou-mecanica').map(o=>o.conceptId)).size,scope:'observações por conceito; sem domínio integral automático'}};
       // Serialização após todos os eixos e limites, para manter uma projeção única.
+      // A fila completa de lacunas permanece nas páginas de revisão; a entrada de
+      // contexto é deliberadamente compacta para uso cotidiano e para o contrato
+      // de tamanho. Remover só itens visíveis, preservando as prioridades.
+      while(Buffer.byteLength(JSON.stringify(context)+'\n','utf8')>60000 && context.gaps.length>5)
+        context.gaps.pop();
       outputs.set(contextPath,JSON.stringify(context)+'\n');
       const latestTime=latest?Date.parse(latest.startedAt||latest.date):0;
       if(latest&&(!contestIndex.resume||latestTime>=contestIndex.resume.time))contestIndex.resume={subjectId:subject.id,path:contextPath,lastSessionId:latest.id,time:latestTime};

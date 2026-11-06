@@ -37,7 +37,11 @@ Dentro do BP, **quadro** significa uma seção do relatório, com critérios e f
 | **3º** | Contas de Compensação | Que atos potenciais ainda a executar precisam ser acompanhados? | Controles de efeitos futuros possíveis |
 | **4º** | Superávit ou Déficit Financeiro | Qual é a diferença entre ativo e passivo financeiros, discriminada por fonte? | Utiliza valores do **2º quadro** |
 
-**Ponto de orientação:** a divisão *circulante/não circulante* pertence ao **1º quadro**. A divisão *financeiro/permanente* pertence ao **2º quadro**. O **3º** não é o “quadro financeiro”: é o de compensação. A expressão genérica “quadro complementar” pode esconder qual deles está sendo examinado; use sempre o nome e a posição.
+**Ponto de orientação:** a divisão *circulante/não circulante* pertence ao **1º quadro**. A divisão *financeiro/permanente* pertence ao **2º quadro**. O **3º** é o de compensação, destinado a atos potenciais a executar.
+
+**O que significa “quadro complementar”?** Nesta explicação, a expressão é apenas uma forma genérica de falar dos **três quadros que acompanham o Quadro Principal** do Balanço Patrimonial. Ela **não designa um quinto quadro nem um quadro único com esse nome**. Cada um acrescenta um tipo diferente de informação: o **2º** apresenta ativos e passivos pelos critérios legais de *financeiro/permanente*; o **3º** acompanha atos potenciais, como certas garantias contratuais; e o **4º** evidencia o **superávit ou déficit financeiro por fonte/destinação de recursos**.
+
+**Como eles se relacionam?** O **4º quadro utiliza os componentes financeiros identificados no 2º**. Por exemplo, R$ 100 de ativo financeiro menos R$ 30 de passivo financeiro resultam, em cálculo básico e sem outros ajustes, em R$ 70 de superávit financeiro, cuja distribuição por fonte precisa ser verificada. O **3º quadro não entra nessa subtração**: acompanha situações potenciais que não representam, por si, ativos ou passivos reconhecidos no Quadro Principal. Para questões de prova, identifique sempre o **nome e a finalidade do quadro**, em vez de interpretar “complementar” como uma categoria própria.
 
 **Mapa dos quatro quadros:** todos pertencem ao **Balanço Patrimonial (BP)**. A **Demonstração das Variações Patrimoniais (DVP)** é outra demonstração, que apresenta os efeitos sobre o resultado patrimonial durante o período.
 

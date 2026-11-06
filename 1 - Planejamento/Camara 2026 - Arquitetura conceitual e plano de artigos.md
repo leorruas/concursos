@@ -288,7 +288,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-011 · F2**: Comunicação integrada: institucional, mercadológica, interna e administrativa.
 - [x] **CAM-CO-012 · F2**: Fluxos ascendentes, descendentes, horizontais e transversais.
 - [x] **CAM-CO-013 · F2**: Comunicação formal, informal e redes de interação.
-- [ ] **CAM-CO-014 · F2**: Mapeamento e segmentação de públicos institucionais.
+- [x] **CAM-CO-014 · F2**: Mapeamento e segmentação de públicos institucionais.
 - [ ] **CAM-CO-015 · F2**: Planejamento estratégico de comunicação e diagnóstico.
 - [ ] **CAM-CO-016 · F3**: Objetivos, indicadores e avaliação de comunicação.
 - [ ] **CAM-CO-017 · F3**: Plano de comunicação: estrutura, ações, orçamento e execução.
@@ -603,13 +603,13 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 ## Lote 19: mapeamento, segmentação e prioridade de públicos (CO-014)
 
-- [ ] **CAM-CO-014 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais|Mapeamento, segmentação e priorização de públicos institucionais]] (`art-43a9f2d71b0e65c8`). **Decisão: artigo novo por pergunta conceitual distinta**. A nota canônica 15 já define stakeholders de Freeman, públicos de Grunig, público-alvo/audiência e matriz de Mendelow. O artigo 60 desenvolve **método de mapeamento, segmentação e priorização** com sete combinações de poder, legitimidade e urgência de Mitchell/Agle/Wood, **públicos essenciais, não essenciais e redes de interferência de Fábio França**, e abordagem de inclusão e devolutiva da OCDE, com exemplos progressivos e três itens C/E.
+- [x] **CAM-CO-014 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais|Mapeamento, segmentação e priorização de públicos institucionais]] (`art-43a9f2d71b0e65c8`). **Decisão: artigo novo por pergunta conceitual distinta**. A nota canônica 15 já define stakeholders de Freeman, públicos de Grunig, público-alvo/audiência e matriz de Mendelow. O artigo 60 desenvolve **método de mapeamento, segmentação e priorização** com sete combinações de poder, legitimidade e urgência de Mitchell/Agle/Wood, **públicos essenciais, não essenciais e redes de interferência de Fábio França**, e abordagem de inclusão e devolutiva da OCDE, com exemplos progressivos e três itens C/E.
 
 **Auditoria e proteção multi-edital:** [[3 - Materias/Comunicacao/15 - publicos e stakeholders|15. Públicos e stakeholders]] (`art-df1afbd404734be2`), [[3 - Materias/Comunicacao/52 - comunicacao institucional finalidade funcoes e publicos|52. Comunicação institucional]] e [[3 - Materias/Comunicacao/09 - comunicacao interna|09. Comunicação interna]] foram auditados e permanecem integralmente **inalterados**, incluindo trechos FGV. Somente o catálogo da Câmara recebe o artigo 60. Os vínculos de CGU e Dataprev e o progresso individual continuam preservados.
 
 **Fontes e limites:** Freeman (1984), Grunig/Hunt (1984), Mitchell/Agle/Wood (1997), França (2004; aplicações posteriores), Mendelow, OCDE (2022). A matriz de priorização gerencial não substitui direitos dos públicos nem regras específicas da administração pública.
 
-**Validação pendente:** verificar identidade, links, catálogo v2, busca, privacidade, build e presença do manifesto ao vivo no GitHub Pages. Marcar CO-014 somente após sucesso. Próxima unidade: **CAM-CO-015**, planejamento estratégico e diagnóstico, após auditar [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]] e [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa em comunicação]].
+**Publicação confirmada:** o [workflow 42209904533](https://github.com/leorruas/concursos/actions/runs/42209904533) terminou com **success**, incluindo testes e verificação do manifesto e catálogo no Pages ao vivo. CAM-CO-014 está concluído editorialmente, sem estudo individual presumido. Próxima unidade: **CAM-CO-015**, planejamento estratégico e diagnóstico, com auditoria das notas existentes de planejamento e pesquisa.
 
 ## Critérios de publicação e evidência
 

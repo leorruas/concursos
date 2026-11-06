@@ -91,6 +91,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|81. Modalidades de publicidade: institucional, mercadológica, utilidade pública e legal]]: CAM-DI-003, definição, finalidade, regime do Executivo e C/E.
 - [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|82. Briefing publicitário: problema, contexto, informações e qualidade]]: CAM-DI-004, estrutura, hipóteses, objetivos, mandatório, avaliação e C/E.
 - [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|83. Diagnóstico publicitário: evidências e problema de comunicação]]: CAM-DI-005, causas, hipóteses, diagnóstico, avaliação e C/E.
+- [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|84. Objetivos de comunicação e campanha]]: CAM-DI-006, resultados, metas, entrega, indicadores e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

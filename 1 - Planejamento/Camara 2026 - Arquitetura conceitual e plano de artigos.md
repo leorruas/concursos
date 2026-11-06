@@ -263,8 +263,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-TC-015 · F3**: Estudos culturais: codificação, decodificação e recepção.
 - [x] **CAM-TC-016 · F3**: McLuhan: meio, mensagem e consequências.
 - [x] **CAM-TC-017 · F3**: Semiótica e produção de significação.
-- [ ] **CAM-TC-018 · F3**: Opinião pública: conceitos e formação social.
-- [ ] **CAM-TC-019 · F3**: Espiral do silêncio: pressupostos e condições.
+- [x] **CAM-TC-018 · F3**: Opinião pública: conceitos e formação social.
+- [x] **CAM-TC-019 · F3**: Espiral do silêncio: pressupostos e condições.
 - [ ] **CAM-TC-020 · F3**: Midiatização: conceito e mudança das práticas sociais.
 - [ ] **CAM-TC-021 · F3**: Plataformização: infraestrutura, regras e mediação.
 - [ ] **CAM-TC-022 · F3**: Desinformação, informação incorreta e informação maliciosa.
@@ -483,10 +483,10 @@ Próximo núcleo: **CAM-TC-018, opinião pública**.
 
 ## Lote 7: opinião pública e espiral do silêncio (TC-018 e TC-019)
 
-- [ ] **CAM-TC-018 · arquivo criado; publicação por validar**: [[3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica|Opinião pública: formação social, esfera pública e sondagens]] (`art-e738c9f264b150da`). Desenvolve Lippmann, Dewey, Habermas e Bourdieu, separa opinião agregada, deliberação, clima percebido e sondagens; inclui casos e itens C/E inéditos.
-- [ ] **CAM-TC-019 · arquivo criado; publicação por validar**: [[3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao|Espiral do silêncio: Noelle-Neumann, clima de opinião e expressão]] (`art-a4d7e832b9510c6f`). Explica mecanismo, condições, exceções e limites empíricos, com casos e C/E comentados.
+- [x] **CAM-TC-018 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica|Opinião pública: formação social, esfera pública e sondagens]] (`art-e738c9f264b150da`). Desenvolve Lippmann, Dewey, Habermas e Bourdieu, separa opinião agregada, deliberação, clima percebido e sondagens; inclui casos e itens C/E inéditos.
+- [x] **CAM-TC-019 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao|Espiral do silêncio: Noelle-Neumann, clima de opinião e expressão]] (`art-a4d7e832b9510c6f`). Explica mecanismo, condições, exceções e limites empíricos, com casos e C/E comentados.
 
-Notas, hub, índice e catálogo são sincronizados em uma única operação lógica. **Pendente:** validar workflow do Pages e catálogo ao vivo antes de marcar as caixas concluídas. A publicação editorial não constitui progresso de estudo.
+Notas, hub, índice e catálogo são sincronizados em uma única operação lógica. **Validação concluída:** testes de identidade, catálogo, busca, privacidade, build e confirmação do manifesto no Pages realizados pelo [workflow 42136796832](https://github.com/leorruas/concursos/actions/runs/42136796832), com resultado **success**. A publicação editorial não constitui progresso de estudo.
 
 Próximo núcleo: **CAM-TC-020, midiatização**.
 

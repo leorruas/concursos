@@ -8,10 +8,10 @@
       "aliases": [
         "Ativo financeiro da Lei 4.320"
       ],
-      "definition": "Dinheiro e direitos que o governo pode realizar sem precisar de autorização orçamentária para isso. Essa é a classificação legal do art. 105 da Lei nº 4.320/1964.",
-      "contrast": "Ativo é todo recurso controlado que pode oferecer serviços ou benefícios, como caixa e equipamentos. Ativo financeiro é um recorte usado no quadro legal do Balanço Patrimonial; não é sinônimo de todo ativo nem de ativo circulante.",
-      "cebraspeTrap": "Dizer que todo ativo de curto prazo é financeiro, que ativo financeiro é apenas dinheiro em caixa ou que os equipamentos da escola são automaticamente ativos financeiros.",
-      "example": "O município tem R$ 100 em caixa e um computador usado na escola. Ambos são ativos, mas o caixa integra o ativo financeiro; o computador, em regra, o permanente do quadro legal.",
+      "definition": "No quadro dos ativos e passivos financeiros e permanentes do Balanço Patrimonial (BP), compreende disponibilidades e créditos ou valores realizáveis independentemente de autorização orçamentária, conforme o art. 105, § 1º, da Lei nº 4.320/1964. O critério é a disponibilidade para realização sem autorização, não o prazo de recebimento.",
+      "contrast": "O ativo patrimonial aparece no Quadro Principal do BP e inclui recursos com potencial de serviço; ativo financeiro (atributo F no Plano de Contas Aplicado ao Setor Público, PCASP) é uma classificação distinta, usada no quadro legal. Crédito tributário a receber reconhecido antes da arrecadação pode ter atributo permanente (P), ainda que seja de curto prazo. Depois de arrecadado, o valor em caixa possui atributo F. Fonte/destinação de recursos é outro eixo de classificação, não um sinônimo de F/P.",
+      "cebraspeTrap": "É incorreto deduzir que um crédito tributário é ativo financeiro só porque vence no próximo mês, ou que sua arrecadação cria uma nova receita patrimonial aumentativa se o direito e a variação já foram reconhecidos. Também não se pode inferir atributo F da fonte de recursos.",
+      "example": "O município reconhece R$ 1.000 de imposto a receber, ainda não arrecadado: há crédito no ativo patrimonial, que pode estar identificado com atributo P no quadro legal. Quando o contribuinte paga, baixa-se o crédito e reconhece-se R$ 1.000 em caixa (F). O recebimento não produz uma segunda variação patrimonial aumentativa pelo mesmo fato gerador.",
       "articleIds": [
         "art-bf384b8a28aa4753",
         "art-85b3a61ad09e44c1"
@@ -40,10 +40,10 @@
       "aliases": [
         "Passivo financeiro da Lei 4.320"
       ],
-      "definition": "Dívidas e compromissos que podem ser pagos sem nova autorização orçamentária. É uma classificação legal usada no quadro financeiro/permanente do Balanço Patrimonial.",
-      "contrast": "Passivo patrimonial é obrigação presente decorrente de um fato passado. Passivo financeiro segue a regra orçamentária do art. 105 e pode incluir empenhos a liquidar sem obrigação patrimonial já reconhecida.",
-      "cebraspeTrap": "Afirmar que passivo financeiro é igual a passivo circulante ou que todo valor do passivo financeiro também precisa ser passivo patrimonial no quadro principal do Balanço.",
-      "example": "A escola empenhou R$ 30 por serviço ainda não prestado. O empenho a liquidar pode integrar o passivo financeiro no quadro legal, sem criar, por si, passivo patrimonial.",
+      "definition": "No quadro dos ativos e passivos financeiros e permanentes do Balanço Patrimonial (BP), compreende dívidas e compromissos cujo pagamento independe de nova autorização orçamentária, segundo o art. 105, § 3º, da Lei nº 4.320/1964. A classificação abrange compromissos da execução orçamentária e obrigações extraorçamentárias pertinentes.",
+      "contrast": "O passivo patrimonial exige obrigação presente decorrente de fato passado e aparece no Quadro Principal do BP. Já no quadro legal, um empenho a liquidar pode compor o passivo financeiro (F) mesmo antes da prestação do serviço, sem passivo patrimonial correspondente. Após a prestação, reconhece-se a obrigação patrimonial quando preenchidos os critérios, independentemente da liquidação formal. Caução recebida de terceiro pode gerar obrigação extraorçamentária financeira, sem empenho de despesa; passivo financeiro tampouco é sinônimo de passivo circulante.",
+      "cebraspeTrap": "São falsas as equivalências 'passivo financeiro = passivo patrimonial', 'passivo financeiro exige liquidação' e 'toda obrigação financeira decorre de empenho'. A palavra-chave é qual quadro e qual critério se está usando: autorização orçamentária para F/P ou fato gerador para o reconhecimento patrimonial.",
+      "example": "A escola empenha R$ 300 por manutenção futura: há compromisso orçamentário que pode integrar o passivo financeiro, mas a simples emissão do empenho não prova obrigação patrimonial. O fornecedor presta o serviço em dezembro: surge o passivo patrimonial, ainda que a liquidação administrativa só ocorra em janeiro. Se a escola recebe R$ 100 como caução restituível, surge uma obrigação extraorçamentária financeira distinta do empenho.",
       "articleIds": [
         "art-bf384b8a28aa4753",
         "art-85b3a61ad09e44c1"

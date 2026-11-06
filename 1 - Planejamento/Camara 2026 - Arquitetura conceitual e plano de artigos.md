@@ -289,7 +289,7 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-012 · F2**: Fluxos ascendentes, descendentes, horizontais e transversais.
 - [x] **CAM-CO-013 · F2**: Comunicação formal, informal e redes de interação.
 - [x] **CAM-CO-014 · F2**: Mapeamento e segmentação de públicos institucionais.
-- [ ] **CAM-CO-015 · F2**: Planejamento estratégico de comunicação e diagnóstico.
+- [x] **CAM-CO-015 · F2**: Planejamento estratégico de comunicação e diagnóstico.
 - [ ] **CAM-CO-016 · F3**: Objetivos, indicadores e avaliação de comunicação.
 - [ ] **CAM-CO-017 · F3**: Plano de comunicação: estrutura, ações, orçamento e execução.
 - [ ] **CAM-CO-018 · F3**: Gestão de projetos de comunicação: papéis e controle.
@@ -613,11 +613,11 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 ## Lote 20: planejamento estratégico e diagnóstico (CO-015)
 
-- [ ] **CAM-CO-015 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|Planejamento estratégico de comunicação e diagnóstico organizacional]] (`art-80ac39e176d5b24f`). **Decisão: nova nota de desenvolvimento autônomo**. A nota canônica [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16. Planejamento de comunicação]] apresenta o ciclo geral de diagnóstico, objetivos, estratégia, táticas, indicadores e avaliação; [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|17. Pesquisa em comunicação]] aprofunda métodos, amostragem e Mattar. O artigo 61 desenvolve **diagnóstico estratégico e formulação de estratégia**: três macroetapas de Kunsch (2003), RACE de Marston (1963), Gregory e pesquisa formativa, auditoria de comunicação, PESTEL, SWOT/FOFA, causas e sintomas, casos progressivos e três itens C/E. OASIS britânico é comparação profissional, não norma brasileira.
+- [x] **CAM-CO-015 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|Planejamento estratégico de comunicação e diagnóstico organizacional]] (`art-80ac39e176d5b24f`). **Decisão: nova nota de desenvolvimento autônomo**. A nota canônica [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16. Planejamento de comunicação]] apresenta o ciclo geral de diagnóstico, objetivos, estratégia, táticas, indicadores e avaliação; [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|17. Pesquisa em comunicação]] aprofunda métodos, amostragem e Mattar. O artigo 61 desenvolve **diagnóstico estratégico e formulação de estratégia**: três macroetapas de Kunsch (2003), RACE de Marston (1963), Gregory e pesquisa formativa, auditoria de comunicação, PESTEL, SWOT/FOFA, causas e sintomas, casos progressivos e três itens C/E. OASIS britânico é comparação profissional, não norma brasileira.
 
 **Proteção multi-edital:** arquivos 16 e 17, IDs, aliases, questões FGV, fontes e vínculos CGU/Dataprev foram **mantidos integralmente sem edição**. Só o catálogo Câmara recebe o novo ID. CAM-CO-016 segue pendente para indicadores e avaliação; CAM-CO-017 para plano, orçamento e execução. Publicação editorial não comprova aprendizagem ou retenção.
 
-**Validação pendente:** confirmar testes, build, identidade, catálogo v2, privacidade, busca e manifesto no Pages ao vivo antes de marcar CO-015. Próxima unidade: **CAM-CO-016**, após auditoria das categorias e indicadores já tratados na nota-base.
+**Publicação confirmada:** o [workflow 42212714608](https://github.com/leorruas/concursos/actions/runs/42212714608) terminou com **success**, incluindo identidade, links, busca, catálogo, privacidade, build e confirmação do manifesto publicado no Pages. CAM-CO-015 está concluído editorialmente, sem presumir estudo ou retenção pessoal. Próxima unidade: **CAM-CO-016**, objetivos, indicadores e avaliação.
 
 ## Critérios de publicação e evidência
 

@@ -323,6 +323,12 @@ exigirTrecho('glo-despesa-obrigatoria-de-carater-continuado', /§ 6º/, 'exceç�
 exigirTrecho('glo-transferencia-especial-emenda-parlamentar', /70%/, 'mínimo de despesas de capital');
 exigirTrecho('glo-transferencia-especial-emenda-parlamentar', /categoria da despesa/, 'categoria definida na indicação');
 
+exigirTrecho('glo-inscricao-em-restos-a-pagar', /último ano de vigência/, 'regra de créditos plurianuais');
+exigirTrecho('glo-restos-a-pagar-nao-processados', /não liquidad|liquidação ainda não/, 'diferença entre restos processados e não processados');
+exigirTrecho('glo-liquidacao-da-despesa', /contrato ou ajuste/, 'documentação do art. 63');
+exigirTrecho('glo-ordem-de-pagamento', /autoridade competente/, 'despacho da autoridade do art. 64');
+
+
 for (const [query, id] of [
  ['empenho prévio','glo-empenho-previo'],
  ['reforço de empenho','glo-reforco-de-empenho'],

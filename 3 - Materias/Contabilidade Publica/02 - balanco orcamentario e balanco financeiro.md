@@ -14,7 +14,7 @@ updated: 2026-11-05
 
 O **Balanço Orçamentário (BO)** confronta autorização, previsão e execução de receitas e despesas. O **Balanço Financeiro (BF)** articula ingressos e dispêndios orçamentários e extraorçamentários, transferências financeiras e saldos de caixa e equivalentes. Ambos são Demonstrações Contábeis Aplicadas ao Setor Público (DCASP), mas não respondem à mesma pergunta.
 
-A Lei nº 4.320/1964 fundamenta o **BO no art. 102** e o **BF no art. 103**. O **MCASP, 11ª edição, Parte V**, desenvolve a estrutura, os quadros e a interpretação em conformidade com as Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP). A denominação **resultado financeiro do exercício** no BF não autoriza tratá-lo como **superávit financeiro** apurado no Balanço Patrimonial.
+A Lei nº 4.320/1964 fundamenta o **BO no art. 102** e o **BF no art. 103**. O **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição, Parte V**, desenvolve a estrutura, os quadros e a interpretação em conformidade com as Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP). A denominação **resultado financeiro do exercício** no BF não autoriza tratá-lo como **superávit financeiro** apurado no Balanço Patrimonial (BP).
 
 | Demonstração | Pergunta de prova | Elementos de maior utilidade | Erro de inferência |
 | :--- | :--- | :--- | :--- |

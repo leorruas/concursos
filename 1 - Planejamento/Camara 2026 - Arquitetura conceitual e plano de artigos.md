@@ -560,6 +560,16 @@ Próximo candidato: **CAM-CO-005, gestão do clima por comunicação**, com audi
 
 **Publicação confirmada:** o [workflow 42193381713](https://github.com/leorruas/concursos/actions/runs/42193381713) concluiu com **success**, incluindo build, testes de identidade, catálogo, busca e privacidade, e verificação de manifesto no Pages ao vivo. Próximo candidato CAM-CO-007, identidade, imagem e reputação. A conclusão é editorial, não comprova estudo pessoal.
 
+## Lote 15: identidade, imagem e reputação (CO-007)
+
+- [ ] **CAM-CO-007 · artigo criado; publicação pendente**: [[3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras|Identidade, imagem e reputação organizacional: autores e fronteiras]] (`art-621d9e4a87c305bf`). **Decisão: artigo próprio de integração e aprofundamento**, porque o problema central da unidade é separar *quem avalia* e *que objeto é avaliado*: identidade em Albert e Whetten; quatro perspectivas em Brown, Dacin, Pratt e Whetten; processos entre cultura, identidade e imagem em Hatch e Schultz; reputação em Fombrun, incluindo RQ como instrumento específico. Tabelas de fronteiras, caso progressivo e três itens C/E inéditos. Os conteúdos anteriores de Comunicação Organizacional, Marketing Institucional, Públicos, Comunicação Institucional e Crises foram auditados e mantidos integralmente.
+
+**Proteção multi-edital:** os arquivos antigos e os vínculos da CGU e Dataprev permanecem inalterados. O catálogo Câmara recebe somente o novo ID. Não registrar como estudo, revisão pessoal ou retenção.
+
+**Validação pendente:** confirmar identidade, links, busca, privacidade, build e manifesto no GitHub Pages ao vivo para marcar o item.
+
+Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise comunicacional; auditar [[3 - Materias/Comunicacao/07 - gestao de crises|Gestão de crises]] antes de decidir reuso ou ampliação.
+
 ## Critérios de publicação e evidência
 
 Para cada lote: conferir no edital e na fonte primária os limites e a terminologia; decidir reuso/refinamento/novo; escrever e revisar **artigos completos**, não stubs; indicar no planejamento caminhos concretos e IDs; atualizar no mesmo commit o hub, `index.md` e `data/catalogo-materias-por-concurso.json` quando houver artigo novo; validar identidades, aliases, build e a presença no GitHub Pages. Respeitar `1 - Planejamento/Contrato de publicacao GitHub Pages.md`. Só marcar caixa quando o objeto editorial correspondente tiver sido efetivamente satisfeito, com link verificável. Se uma fonte normativa não estiver acessível ou o documento estiver alterado, preservar a pendência específica sem preencher por memória.

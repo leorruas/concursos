@@ -330,6 +330,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|Estratégia, conceito criativo e posicionamento]]
   - [[3 - Materias/Comunicacao/87 - mensagem publicitaria apelos e argumentacao|Mensagem publicitária: apelos e argumentação]]
   - [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|Atendimento em publicidade: responsabilidades e etapas]]
+  - [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|Tipos de mídia, veículos e plataformas]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

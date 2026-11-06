@@ -21,6 +21,18 @@ A Lei nº 4.320/1964 fundamenta o **BO no art. 102** e o **BF no art. 103**. O *
 | BO | O que foi previsto e autorizado, e o que foi arrecadado e executado? | previsão inicial/atualizada, receita realizada, dotação inicial/atualizada, despesa empenhada/liquidada/paga, quadros de RP | supor que despesa empenhada é igual ao valor desembolsado |
 | BF | Como se estruturaram ingressos e dispêndios e quanto dinheiro ficou? | receita/despesa orçamentárias, recebimentos/pagamentos extraorçamentários, transferências, caixa inicial/final | confundir saldo de caixa, resultado do exercício e superávit financeiro do BP |
 
+## Finalidade dos demonstrativos e apresentação conjunta
+
+**Balanço Orçamentário (BO): para que serve?** Compara o orçamento autorizado com sua execução. Mostra receitas previstas e arrecadadas, dotações e despesas empenhadas, liquidadas e pagas. Ajuda a analisar a execução do planejamento e o cumprimento das autorizações. Seu resultado orçamentário não corresponde necessariamente ao dinheiro que sobrou no banco.
+
+**Balanço Financeiro (BF): para que serve?** Organiza ingressos e dispêndios orçamentários e extraorçamentários, transferências e saldos de caixa do início e do fim do exercício. Ajuda a explicar a movimentação financeira e a conciliar o caixa com os registros orçamentários. Não é um extrato bancário: inclui compensações contábeis, como a inscrição de restos a pagar.
+
+**Como ler o exemplo:** o BO mostra R$ 100 arrecadados e R$ 60 empenhados, portanto resultado orçamentário de R$ 40. O BF mostra que foram pagos apenas R$ 40 e restaram R$ 60 de caixa real, embora R$ 20 dessa quantia correspondam a uma obrigação ainda não paga. Por isso, os R$ 20 de restos a pagar aparecem também como recebimento extraorçamentário compensatório, sem que representem dinheiro recebido. O saldo real de caixa e a existência de obrigações são informações diferentes.
+
+**Aparecem sempre juntos?** BO e BF integram o conjunto das Demonstrações Contábeis Aplicadas ao Setor Público (DCASP), normalmente apresentado na prestação de contas anual. São demonstrações independentes: podem ser consultadas e analisadas separadamente e não precisam ficar na mesma página. Também não devem ser confundidas com o **Balanço Patrimonial (BP)**, que permite apurar ativo financeiro menos passivo financeiro, nem com a **Demonstração dos Fluxos de Caixa (DFC)**, que evidencia movimentos efetivos de caixa.
+
+**Heurística:** previsão, dotação e empenho: BO; ingressos, pagamentos, inscrição compensatória de restos a pagar e saldo de caixa: BF; situação patrimonial e superávit financeiro por fonte: BP.
+
 ## Mapa visual: quais quadros pertencem ao BO e ao BF?
 
 O **Balanço Orçamentário (BO)** possui **três quadros**, e todos pertencem ao próprio BO. O **Balanço Financeiro (BF)** é outra demonstração, estruturada em ingressos, dispêndios e saldos financeiros. Ele **não recebe parte dos quadros do BO**.

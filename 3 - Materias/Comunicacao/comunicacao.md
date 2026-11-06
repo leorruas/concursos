@@ -103,6 +103,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio|93. Redação publicitária: textos, formatos e adequação ao meio]]: CAM-DI-015, títulos, CTA, slogans, linguagem simples, adaptação e C/E.
 - [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|94. Monitoramento, dados e avaliação de campanhas]]: CAM-DI-016, modelo AMEC, outputs/outcomes/impacto, inferência causal e C/E.
 - [[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|95. Marketing: troca, valor, necessidades e públicos]]: CAM-DI-017, AMA, necessidades/desejos/demanda, orientações de marketing e C/E.
+- [[3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes|96. Planejamento de marketing: diagnóstico, objetivos e decisões]]: CAM-DI-018, SWOT, PESTEL, Porter, Ansoff, BCG e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

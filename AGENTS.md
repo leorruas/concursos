@@ -64,6 +64,10 @@ O fluxo cotidiano descrito em `CHAT.md` usa os contextos gerados em `data/contex
 
 **Câmara 2026:** seguir [[1 - Planejamento/Camara 2026 - Arquitetura conceitual e plano de artigos|arquitetura completa por 13 trilhas e fases]], mantendo os 11 subjectIds existentes até migração explícita. Cebraspe, C/E, Cargo 1 Divulgação Institucional; prova prevista 17/01/2027. Reaproveitar teoria com CGU/Dataprev apenas quando fonte e conceito coincidirem; os itens, formato, discurso e progresso são específicos. Não simplificar para fichas de uma página ou iniciar baterias sobre termos ainda não construídos.
 
+## Siglas por artigo: regra editorial
+
+Na primeira ocorrência em prosa de cada artigo, apresentar o nome completo seguido da sigla entre parênteses; depois usar a sigla. O artigo deve ser compreensível isoladamente, mesmo quando reutilizado em outro concurso. Conferir também listas, tabelas, questões comentadas, títulos e diagramas: quando a sigla aparecer primeiro em um título ou link de navegação, expandi-la na introdução do texto. Siglas ambíguas precisam ser resolvidas conforme a fonte, nunca por substituição em massa. Explicar também o conceito se a expansão não bastar para o estudo. Ver `1 - Planejamento/Padronizacao de siglas e primeiras ocorrencias.md`, `data/dicionario-siglas-editorial.json` e o verificador não bloqueante `node scripts/audit-acronyms.js`. Alertas são hipóteses de revisão, não autorização para editar sem conferir o significado.
+
 ## Organização pedagógica por perguntas e conjuntos conceituais
 
 Antes de listar tipos, classificações ou siglas, apresentar a **pergunta que o classificador responde**, sua finalidade e o critério de separação. Em seguida, explicar suas categorias internas com um caso concreto que evolui por uma mudança de cada vez. Só então comparar classificadores vizinhos e aplicar itens de prova. Não usar percentuais de acerto isolados como evidência de compreensão; observar aplicação a casos novos e confiança declarada. O chat pode usar questões curtas durante a aula e baterias maiores na revisão, conforme `CHAT.md`.

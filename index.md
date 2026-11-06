@@ -346,6 +346,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias|Comportamento do consumidor: decisão e influências]]
   - [[3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos|Perguntas de pesquisa: abordagens qualitativas, quantitativas e métodos mistos]]
   - [[3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao|Pesquisa de mercado: desenho, amostragem e interpretação]]
+  - [[3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites|Pesquisa de opinião pública: objeto, perguntas e limites da inferência]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

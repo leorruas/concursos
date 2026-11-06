@@ -5,43 +5,88 @@
     {
       "id": "glo-auditoria-interna-audin",
       "term": "Auditoria Interna (AUDIN)",
-      "aliases": ["AUDIN", "Audin", "Auditoria Interna Singular"],
-      "definition": "Função independente que presta serviços de avaliação e consultoria para melhorar governança, riscos e controles. No Poder Executivo Federal, Audin também pode designar as unidades de auditoria interna singulares de órgãos e entidades.",
-      "contrast": "A AUDIN não administra os controles nem substitui a gestão. A Unidade de Auditoria Interna Governamental (UAIG) é a unidade que operacionaliza a atividade no órgão ou entidade e pode assumir diferentes configurações institucionais.",
-      "cebraspeTrap": "Afirmar que a auditoria interna executa controles da gestão ou que toda Audin é órgão central do Sistema de Controle Interno.",
-      "example": "A Audin de uma autarquia avalia os controles de concessão de benefícios e recomenda melhorias; os gestores decidem e implantam as medidas.",
-      "articleIds": ["art-10bfa7268f8340bf", "art-47d19972e3bc4d29"],
-      "subjectIds": ["auditoria-governamental"],
-      "contestIds": ["cgu-2026"],
-      "sources": [{"label":"CGU: Normas de Auditoria Interna","url":"https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna"}],
+      "aliases": [
+        "AUDIN",
+        "Audin",
+        "Auditoria Interna Singular"
+      ],
+      "definition": "É a atividade que examina processos, riscos e controles de uma organização e também pode orientar melhorias, preservando independência e objetividade. A sigla AUDIN costuma indicar uma unidade de auditoria interna em órgãos ou entidades públicas. Seu trabalho ajuda a gestão, mas não substitui as decisões e tarefas dos gestores.",
+      "contrast": "A auditoria interna presta serviços de avaliação, que examinam fatos e sustentam conclusões, e consultoria, que oferece orientação. A Unidade de Auditoria Interna Governamental (UAIG) é a estrutura que executa essas atividades no âmbito previsto pelas normas. A AUDIN não é automaticamente o órgão central do Sistema de Controle Interno, e a gestão continua responsável pelos controles cotidianos.",
+      "cebraspeTrap": "A banca pode chamar a AUDIN de responsável pela aprovação diária dos processos ou afirmar que toda unidade de auditoria ocupa a posição de órgão central de controle.",
+      "example": "A auditoria interna de uma autarquia verifica se as regras para conceder bolsas são cumpridas e recomenda melhorias. Quem aprova bolsas e corrige o sistema é a gestão do programa.",
+      "articleIds": [
+        "art-10bfa7268f8340bf",
+        "art-47d19972e3bc4d29"
+      ],
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "CGU: Normas de Auditoria Interna",
+          "url": "https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna"
+        }
+      ],
       "status": "reviewed"
     },
     {
       "id": "glo-unidade-de-auditoria-interna-governamental-uaig",
       "term": "Unidade de Auditoria Interna Governamental (UAIG)",
-      "aliases": ["UAIG", "Unidade de Auditoria Interna Governamental"],
-      "definition": "Unidade responsável por prestar, com independência e objetividade, serviços de avaliação e consultoria para adicionar valor e melhorar as operações de um órgão ou entidade pública federal.",
-      "contrast": "A UAIG presta serviços de auditoria e integra a terceira linha. A unidade auditada é o órgão, processo ou objeto sobre o qual o trabalho incide; ela não se confunde com quem realiza o exame.",
-      "cebraspeTrap": "Trocar a UAIG pela unidade auditada ou afirmar que ela executa diretamente os controles avaliados.",
-      "example": "A UAIG examina os controles de compras de uma fundação; a área de compras continua responsável por operar esses controles.",
-      "articleIds": ["art-10bfa7268f8340bf", "art-47d19972e3bc4d29"],
-      "subjectIds": ["auditoria-governamental"],
-      "contestIds": ["cgu-2026"],
-      "sources": [{"label":"CGU: Manual de Orientações Técnicas da Atividade de Auditoria Interna Governamental","url":"https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"}],
+      "aliases": [
+        "UAIG",
+        "Unidade de Auditoria Interna Governamental"
+      ],
+      "definition": "É a unidade que realiza serviços de auditoria interna governamental, como avaliações e consultorias, para ajudar um órgão ou entidade a melhorar seus processos, riscos e controles. A Unidade de Auditoria Interna Governamental (UAIG) deve exercer suas atividades com independência e objetividade, dentro de suas competências.",
+      "contrast": "UAIG é quem faz a auditoria. Unidade auditável é aquilo que pode ser examinado: um processo, setor ou programa. Pelo modelo das três linhas, a auditoria interna atua na terceira linha, enquanto a gestão opera os controles. A UAIG pode recomendar melhorias e acompanhá-las, mas não assume as decisões do setor auditado.",
+      "cebraspeTrap": "A banca pode trocar a unidade que audita pelo processo auditado ou dar à UAIG a tarefa de operar os controles que deveria examinar.",
+      "example": "A UAIG de uma fundação examina os controles da área de compras. A equipe de auditoria testa registros e relata falhas; a área de compras corrige o processo e continua responsável por ele.",
+      "articleIds": [
+        "art-10bfa7268f8340bf",
+        "art-47d19972e3bc4d29"
+      ],
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "CGU: Manual de Orientações Técnicas da Atividade de Auditoria Interna Governamental",
+          "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal"
+        }
+      ],
       "status": "reviewed"
     },
     {
       "id": "glo-manual-de-orientacoes-tecnicas-mot",
       "term": "Manual de Orientações Técnicas (MOT)",
-      "aliases": ["MOT", "Manual de Orientações Técnicas"],
-      "definition": "Manual da Controladoria-Geral da União que orienta tecnicamente a operacionalização da atividade de auditoria interna governamental no Poder Executivo Federal.",
-      "contrast": "O MOT orienta a aplicação prática do Referencial Técnico da auditoria interna governamental. Não substitui as normas que estabelecem competências, deveres e requisitos da atividade.",
-      "cebraspeTrap": "Tratar o MOT como norma que transfere para a auditoria a responsabilidade gerencial pelos controles ou como substituto integral do Referencial Técnico.",
-      "example": "Ao planejar um trabalho, a equipe consulta o MOT para organizar entendimento da unidade, riscos, procedimentos e comunicação dos resultados.",
-      "articleIds": ["art-47d19972e3bc4d29"],
-      "subjectIds": ["auditoria-governamental"],
-      "contestIds": ["cgu-2026"],
-      "sources": [{"label":"CGU: Normas de Auditoria Interna","url":"https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna"}],
+      "aliases": [
+        "MOT",
+        "Manual de Orientações Técnicas"
+      ],
+      "definition": "É um manual da Controladoria-Geral da União (CGU) que explica como realizar, na prática, trabalhos de auditoria interna governamental no Poder Executivo federal. O Manual de Orientações Técnicas (MOT) ajuda a equipe a planejar, executar, documentar e comunicar auditorias.",
+      "contrast": "O MOT oferece orientações para aplicar o Referencial Técnico de Auditoria Interna Governamental. Ele não substitui as normas que definem as atribuições da auditoria, nem transfere ao auditor a responsabilidade de administrar controles da gestão. O plano anual da unidade também é diferente do roteiro técnico de cada trabalho.",
+      "cebraspeTrap": "A banca pode tratar o manual como autorização para a auditoria assumir funções de gestão ou como substituto de todas as normas aplicáveis.",
+      "example": "Antes de auditar concessões de bolsas, a equipe consulta o MOT para organizar perguntas, riscos, testes e documentação. Depois, usa as normas e os critérios específicos para verificar cada processo.",
+      "articleIds": [
+        "art-47d19972e3bc4d29"
+      ],
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "CGU: Normas de Auditoria Interna",
+          "url": "https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna"
+        }
+      ],
       "status": "reviewed"
     }
   ]

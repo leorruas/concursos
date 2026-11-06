@@ -307,6 +307,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao|Plano de comunicação: estrutura, ações, cronograma, orçamento e execução]]
   - [[3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle|Gestão de projetos de comunicação: papéis, riscos, mudanças e controle]]
   - [[3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario|Planejamento editorial para redes sociais oficiais: pautas, linhas e calendário]]
+  - [[3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens|Produção colaborativa e governança de postagens oficiais]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

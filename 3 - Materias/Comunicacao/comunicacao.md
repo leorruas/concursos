@@ -5,7 +5,7 @@ title: "Comunicação social"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Comunicação (Concursos)
@@ -107,6 +107,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 - [[3 - Materias/Comunicacao/97 - marketing institucional no setor publico valor legitimidade e limites|97. Marketing institucional no setor público: valor, legitimidade e limites]]: CAM-DI-019, comunicação pública, política da Câmara, Moore e C/E.
 - [[3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna|98. Endomarketing, marketing interno e comunicação interna]]: CAM-DI-020, Berry, Grönroos, Rafiq/Ahmed, Bekin e C/E.
 - [[3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao|99. Segmentação de mercado: B2B, atratividade e decisões]]: CAM-DI-021, firmografia, centro de compras, RFM, escolha de segmentos e C/E.
+- [[3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao|100. Marketing digital: canais, jornadas e integração]]: CAM-DI-022, mídia paga/própria/conquistada, busca, jornadas, multicanal e omnicanal, limites públicos e C/E.
 
 ## Comunicação Organizacional e Pública
 - [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|🆕 22 • Autores e taxonomias de comunicação organizacional e relações públicas]]

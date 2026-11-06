@@ -20,11 +20,11 @@ A chave é distinguir **o fato econômico**, **a etapa de execução do orçamen
 
 O **patrimônio público** é o conjunto de bens, direitos e obrigações que a contabilidade acompanha em uma entidade pública. **Bem** é, por exemplo, um computador; **direito**, um tributo a receber; **obrigação**, uma dívida com fornecedor. O termo **ativo** reúne os recursos controlados que atendem aos critérios contábeis de reconhecimento, incluindo bens e direitos. O **passivo** reúne obrigações presentes reconhecidas. O **patrimônio líquido (PL)** é o valor residual: **ativo menos passivo**. Patrimônio líquido não é sinônimo de dinheiro em caixa.
 
-Um caso pequeno ajuda a observar a diferença. Uma universidade possui **R&#36; 40 mil em dinheiro** e recebe **R&#36; 15 mil em computadores a prazo**, já entregues e reconhecidos, sem outros elementos patrimoniais. O ativo total passa a **R&#36; 55 mil** (40 de caixa + 15 em computadores), mas há **R&#36; 15 mil de dívida**: o PL é **R&#36; 40 mil**, porque 55 − 15 = 40. Ter mais bens não significa automaticamente ter aumentado a riqueza residual.
+Um caso pequeno ajuda a observar a diferença. Uma universidade possui **R$ 40 mil em dinheiro** e recebe **R$ 15 mil em computadores a prazo**, já entregues e reconhecidos, sem outros elementos patrimoniais. O ativo total passa a **R$ 55 mil** (40 de caixa + 15 em computadores), mas há **R$ 15 mil de dívida**: o PL é **R$ 40 mil**, porque 55 − 15 = 40. Ter mais bens não significa automaticamente ter aumentado a riqueza residual.
 
-Se a universidade **paga** essa dívida, o caixa cai para R&#36; 25 mil e a obrigação chega a zero. Os computadores continuam registrados. O ativo total passa a R&#36; 40 mil e o PL **continua em R&#36; 40 mil**. A contabilidade chama esse tipo de mudança na composição, sem mudança imediata do PL, de **fato permutativo**. Se, mais tarde, houver **R&#36; 1 mil de depreciação reconhecida como VPD**, o valor líquido dos computadores cairá para R&#36; 14 mil e o PL para R&#36; 39 mil: nesse novo fato houve **variação quantitativa**.
+Se a universidade **paga** essa dívida, o caixa cai para R$ 25 mil e a obrigação chega a zero. Os computadores continuam registrados. O ativo total passa a R$ 40 mil e o PL **continua em R$ 40 mil**. A contabilidade chama esse tipo de mudança na composição, sem mudança imediata do PL, de **fato permutativo**. Se, mais tarde, houver **R$ 1 mil de depreciação reconhecida como VPD**, o valor líquido dos computadores cairá para R$ 14 mil e o PL para R$ 39 mil: nesse novo fato houve **variação quantitativa**.
 
-Agora compare dois acontecimentos **sem depender do pagamento**: (a) um empréstimo traz R&#36; 100 mil em caixa, mas cria dívida de R&#36; 100 mil, sem Variação Patrimonial Aumentativa (VPA) pelo principal; (b) uma doação incondicional de equipamentos de R&#36; 30 mil, sem obrigação de devolução e com reconhecimento contábil atendido, aumenta o ativo e o PL e pode gerar VPA. Em cada caso, pergunte **o que entrou, qual é a contrapartida e se o PL mudou**.
+Agora compare dois acontecimentos **sem depender do pagamento**: (a) um empréstimo traz R$ 100 mil em caixa, mas cria dívida de R$ 100 mil, sem Variação Patrimonial Aumentativa (VPA) pelo principal; (b) uma doação incondicional de equipamentos de R$ 30 mil, sem obrigação de devolução e com reconhecimento contábil atendido, aumenta o ativo e o PL e pode gerar VPA. Em cada caso, pergunte **o que entrou, qual é a contrapartida e se o PL mudou**.
 
 ## Quatro perguntas sobre o mesmo fato
 
@@ -49,11 +49,11 @@ Uma mesma compra pode envolver **empenho** (compromisso na execução do orçame
 
 **Variação Patrimonial Aumentativa (VPA)** e **Variação Patrimonial Diminutiva (VPD)** exprimem, em linhas gerais, aumentos e reduções do patrimônio líquido decorrentes de eventos do período, ressalvadas transações específicas registradas diretamente no PL conforme norma aplicável. O **resultado patrimonial** decorre do confronto entre VPA e VPD e é evidenciado na Demonstração das Variações Patrimoniais (DVP).
 
-**Patrimônio líquido × resultado do período:** o PL é o saldo residual em uma data; o resultado patrimonial é **VPA − VPD** durante o exercício. Exemplo: PL inicial de R&#36; 40 mil, VPA de R&#36; 12 mil e VPD de R&#36; 5 mil geram resultado positivo de R&#36; 7 mil e, **na ausência de outros movimentos diretamente no PL**, PL final de R&#36; 47 mil. A equivalência entre a variação total do PL e o resultado não vale sem examinar esses outros movimentos. Esta é a ponte entre o **Balanço Patrimonial (BP)** e a **Demonstração das Variações Patrimoniais (DVP)**.
+**Patrimônio líquido × resultado do período:** o PL é o saldo residual em uma data; o resultado patrimonial é **VPA − VPD** durante o exercício. Exemplo: PL inicial de R$ 40 mil, VPA de R$ 12 mil e VPD de R$ 5 mil geram resultado positivo de R$ 7 mil e, **na ausência de outros movimentos diretamente no PL**, PL final de R$ 47 mil. A equivalência entre a variação total do PL e o resultado não vale sem examinar esses outros movimentos. Esta é a ponte entre o **Balanço Patrimonial (BP)** e a **Demonstração das Variações Patrimoniais (DVP)**.
 
 Uma operação **permutativa** altera a composição do patrimônio sem, em regra, modificar imediatamente o PL. Na compra de um equipamento recebido e reconhecido como ativo: há entrada do imobilizado e saída de caixa ou constituição de obrigação. A compra não equivale automaticamente a VPD. Uma operação **modificativa** aumenta ou diminui o PL, como o consumo de serviços reconhecido como VPD. A classificação depende do fato efetivo, dos critérios de reconhecimento e de eventuais componentes mistos.
 
-**Contraste para a equação patrimonial:** um empréstimo de R&#36; 100 mil recebido por uma entidade aumenta simultaneamente o caixa (ativo) e a dívida (passivo), mantendo o patrimônio líquido: é fato permutativo e não gera VPA pelo principal recebido. Uma doação incondicional de equipamentos de R&#36; 30 mil, devidamente reconhecida sem obrigação correspondente, aumenta o ativo e o patrimônio líquido: fato modificativo aumentativo e VPA, mesmo sem entrada de caixa. Para classificar, procure sempre a contrapartida patrimonial.
+**Contraste para a equação patrimonial:** um empréstimo de R$ 100 mil recebido por uma entidade aumenta simultaneamente o caixa (ativo) e a dívida (passivo), mantendo o patrimônio líquido: é fato permutativo e não gera VPA pelo principal recebido. Uma doação incondicional de equipamentos de R$ 30 mil, devidamente reconhecida sem obrigação correspondente, aumenta o ativo e o patrimônio líquido: fato modificativo aumentativo e VPA, mesmo sem entrada de caixa. Para classificar, procure sempre a contrapartida patrimonial.
 
 A **depreciação** do equipamento poderá provocar VPD em períodos posteriores, pelo consumo de seu potencial de serviços. Portanto, é perigoso inferir que todo valor empenhado em despesa de capital representa redução patrimonial do mesmo valor no ato da compra.
 
@@ -79,7 +79,7 @@ As etapas da despesa têm disciplina própria: [[3 - Materias/Orcamento Publico/
 
 **Por onde começar:** uma conta contábil é uma categoria usada para registrar fatos, como caixa, equipamentos ou fornecedores a pagar. O PCASP padroniza essas categorias no setor público. Antes de memorizar as oito classes, pergunte qual aspecto precisa ser registrado: o patrimônio, o orçamento ou uma situação sujeita a controle.
 
-**Caso progressivo:** uma universidade empenha R&#36; 20 mil para comprar computadores ainda não entregues: o empenho integra a informação **orçamentária**, sem provar por si só que o ativo chegou. Quando os computadores são entregues e reconhecidos, surgem **ativo e passivo** de R&#36; 20 mil: informação **patrimonial**. Uma garantia bancária prestada pelo fornecedor pode ser acompanhada na natureza de **controle**, sem significar ingresso de dinheiro ou reconhecimento automático de um ativo. A movimentação efetiva de caixa, quando ocorrer, é um **enfoque financeiro**, não outra natureza do PCASP.
+**Caso progressivo:** uma universidade empenha R$ 20 mil para comprar computadores ainda não entregues: o empenho integra a informação **orçamentária**, sem provar por si só que o ativo chegou. Quando os computadores são entregues e reconhecidos, surgem **ativo e passivo** de R$ 20 mil: informação **patrimonial**. Uma garantia bancária prestada pelo fornecedor pode ser acompanhada na natureza de **controle**, sem significar ingresso de dinheiro ou reconhecimento automático de um ativo. A movimentação efetiva de caixa, quando ocorrer, é um **enfoque financeiro**, não outra natureza do PCASP.
 
 O **PCASP** estrutura as contas por natureza da informação: **patrimonial** (classes 1 a 4: ativo, passivo/PL, VPD e VPA); **orçamentária** (classes 5 e 6: aprovação e execução do planejamento e orçamento); e **controle** (classes 7 e 8: controles devedores e credores). Isso permite registrar o mesmo acontecimento sob aspectos diferentes, sem transformar o número da classe em etapa cronológica.
 
@@ -87,26 +87,26 @@ O [Tesouro publicou PCASP Federação e Estendido 2026](https://www.gov.br/tesou
 
 ### Refinamento: fato gerador antes da liquidação
 
-O [MCASP 11, Parte I, §§ 3.4 e 4.7.4.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), distingue **competência patrimonial** da conclusão administrativa do estágio de **liquidação**. Um serviço de **R&#36; 50 efetivamente prestado e consumido em dezembro** pode produzir **VPD e obrigação de R&#36; 50**, mesmo se a liquidação ainda estiver pendente: com empenho e requisitos de inscrição atendidos, trata-se de **restos a pagar não processados em liquidação**. Se **não ocorreu a prestação do serviço** nem outro fato gerador, empenho isolado **não exige VPD nem passivo patrimonial**; a inscrição, quando válida, será de **RPNP a liquidar**.
+O [MCASP 11, Parte I, §§ 3.4 e 4.7.4.2](https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf), distingue **competência patrimonial** da conclusão administrativa do estágio de **liquidação**. Um serviço de **R$ 50 efetivamente prestado e consumido em dezembro** pode produzir **VPD e obrigação de R$ 50**, mesmo se a liquidação ainda estiver pendente: com empenho e requisitos de inscrição atendidos, trata-se de **restos a pagar não processados em liquidação**. Se **não ocorreu a prestação do serviço** nem outro fato gerador, empenho isolado **não exige VPD nem passivo patrimonial**; a inscrição, quando válida, será de **RPNP a liquidar**.
 
 **Fronteira:** “não liquidado” não significa necessariamente “sem obrigação patrimonial”, e “empenhado” não demonstra entrega. O [[3 - Materias/Contabilidade Publica/04 - fluxos de caixa notas explicativas e conciliacoes#Novo exemplo: competência, RPNP e cinco demonstrações|caso alternativo das cinco demonstrações]] apresenta o impacto conjunto de competência tributária, serviço prestado e ausência de caixa.
 
 ## Exemplo comentado: equipamento entregue em dezembro
 
-**Hipóteses didáticas:** uma entidade inicia o período com caixa e PL iguais a zero. Em 2026, arrecada R&#36; 100 de tributo cujo fato gerador e reconhecimento patrimonial também ocorreram em 2026. Empenha R&#36; 60 na compra de um equipamento, recebe e liquida corretamente o bem ainda em dezembro e paga R&#36; 40 ao fornecedor até 31/12. Os R&#36; 20 restantes são inscritos em **restos a pagar processados (RPP)**. Desconsideram-se depreciação, outras obrigações e eventos.
+**Hipóteses didáticas:** uma entidade inicia o período com caixa e PL iguais a zero. Em 2026, arrecada R$ 100 de tributo cujo fato gerador e reconhecimento patrimonial também ocorreram em 2026. Empenha R$ 60 na compra de um equipamento, recebe e liquida corretamente o bem ainda em dezembro e paga R$ 40 ao fornecedor até 31/12. Os R$ 20 restantes são inscritos em **restos a pagar processados (RPP)**. Desconsideram-se depreciação, outras obrigações e eventos.
 
 | Perspectiva em 31/12/2026 | Resultado e raciocínio |
 | :--- | :--- |
-| Orçamento | receita arrecadada R&#36; 100; despesa empenhada R&#36; 60; **resultado orçamentário de R&#36; 40** |
-| Financeiro | entrada efetiva de R&#36; 100; pagamento efetivo de R&#36; 40; **variação positiva do caixa de R&#36; 60** |
-| Patrimônio: ativos | caixa R&#36; 60 + equipamento R&#36; 60 = **R&#36; 120** |
-| Patrimônio: passivo | fornecedor a pagar = **R&#36; 20** |
-| Patrimônio: PL | R&#36; 120 − R&#36; 20 = **R&#36; 100** |
-| Resultado patrimonial | VPA tributária R&#36; 100; a aquisição do ativo não é VPD de R&#36; 60; **resultado positivo de R&#36; 100**, nas hipóteses indicadas |
+| Orçamento | receita arrecadada R$ 100; despesa empenhada R$ 60; **resultado orçamentário de R$ 40** |
+| Financeiro | entrada efetiva de R$ 100; pagamento efetivo de R$ 40; **variação positiva do caixa de R$ 60** |
+| Patrimônio: ativos | caixa R$ 60 + equipamento R$ 60 = **R$ 120** |
+| Patrimônio: passivo | fornecedor a pagar = **R$ 20** |
+| Patrimônio: PL | R$ 120 − R$ 20 = **R$ 100** |
+| Resultado patrimonial | VPA tributária R$ 100; a aquisição do ativo não é VPD de R$ 60; **resultado positivo de R$ 100**, nas hipóteses indicadas |
 
-No exercício seguinte, pagar os R&#36; 20 inscritos em RPP reduz **caixa e passivo**, sem nova despesa orçamentária do exercício e sem VPD originada pelo mero pagamento. Se o equipamento tiver depreciação reconhecida, a VPD ocorrerá conforme o período e a regra aplicável.
+No exercício seguinte, pagar os R$ 20 inscritos em RPP reduz **caixa e passivo**, sem nova despesa orçamentária do exercício e sem VPD originada pelo mero pagamento. Se o equipamento tiver depreciação reconhecida, a VPD ocorrerá conforme o período e a regra aplicável.
 
-**Contraprova:** se os mesmos R&#36; 60 fossem gastos com um **serviço integralmente prestado e consumido em 2026**, em vez da aquisição de um ativo, haveria VPD de R&#36; 60, e o resultado patrimonial seria R&#36; 40, mantidas as demais hipóteses. O orçamento e a saída de caixa poderiam permanecer idênticos. É o **fato patrimonial** que muda a resposta.
+**Contraprova:** se os mesmos R$ 60 fossem gastos com um **serviço integralmente prestado e consumido em 2026**, em vez da aquisição de um ativo, haveria VPD de R$ 60, e o resultado patrimonial seria R$ 40, mantidas as demais hipóteses. O orçamento e a saída de caixa poderiam permanecer idênticos. É o **fato patrimonial** que muda a resposta.
 
 ## Como a banca pode cobrar
 

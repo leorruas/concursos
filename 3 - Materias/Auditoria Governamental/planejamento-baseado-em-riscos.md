@@ -10,7 +10,7 @@ updated: 2026-11-03
 
 # Planejamento de auditoria baseado em riscos
 
-A **Controladoria-Geral da União (CGU)** orienta a seleção dos objetos auditáveis a partir de riscos, objetivos e condições reais de execução. Aqui o foco é **como priorizar objetos**; a programação anual está em [[3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas|PAINT e RAINT]].
+A **Controladoria-Geral da União (CGU)** orienta a seleção dos objetos auditáveis a partir de riscos, objetivos e condições reais de execução. Aqui o foco é **como priorizar objetos**; a programação anual está em [[3 - Materias/Auditoria Governamental/paint-raint-e-prestacao-de-contas|Plano Anual de Auditoria Interna (PAINT) e Relatório Anual de Atividades de Auditoria Interna (RAINT)]].
 
 ## Núcleo e lógica da seleção
 
@@ -20,7 +20,7 @@ O planejamento anual baseado em riscos começa pelo **entendimento do contexto**
 
 ### Três bases para priorização: ordem preferencial na orientação da CGU
 
-O Manual de Orientações Técnicas (MOT), seção 4.1.4, apresenta três formas de selecionar trabalhos com base em riscos. A *Orientação Prática: Plano de Auditoria Interna Baseado em Riscos* (Portaria SFC/CGU nº 1.055/2020) estabelece, para o planejamento operacional da CGU, **ordem de preferência**, considerada a viabilidade e a confiabilidade das informações.
+O Manual de Orientações Técnicas (MOT), seção 4.1.4, apresenta três formas de selecionar trabalhos com base em riscos. A *Orientação Prática: Plano de Auditoria Interna Baseado em Riscos* (Portaria da Secretaria Federal de Controle Interno (SFC) / CGU nº 1.055/2020) estabelece, para o planejamento operacional da CGU, **ordem de preferência**, considerada a viabilidade e a confiabilidade das informações.
 
 1. **Riscos avaliados pela unidade auditada.** Se o gerenciamento de riscos é suficientemente maduro e confiável, a UAIG pode aproveitar o cadastro produzido pela gestão, associando riscos a objetos auditáveis e priorizando os mais expostos. Não basta aceitar automaticamente a existência do cadastro.
 2. **Riscos identificados e avaliados pela própria UAIG.** Se a gestão não mapeou os riscos ou seu processo é incipiente, a auditoria pode levantar os objetivos, identificar eventos adversos, avaliar sua magnitude (por exemplo, impacto e probabilidade) e associá-los aos objetos para **selecionar trabalhos**, com participação dos gestores. Essa avaliação **não substitui** o gerenciamento de riscos pela administração.

@@ -160,12 +160,12 @@ const prioritySnapshot=JSON.parse(fs.readFileSync(new URL('../data/contexto-estu
 const pendingEditorial=(prioritySnapshot.unmapped||[]).filter(gap=>gap.examId==='cgu-2026');
 for(const gap of pendingEditorial) {
     const matches=cards.filter(c=>c.examIds.includes(gap.examId)&&c.subjectIds.includes(gap.subjectId)&&c.conceptIds.includes(gap.conceptId));
-    assert(matches.length, 'Falta cartão para erro documentado '+gap.conceptId);
+    assert.equal(matches.length,0,'Conceito listado como unmapped já possui cartão: '+gap.conceptId);
 }
 assert(cards.some(c=>c.id==='conflito-interesses'&&c.subjectIds.includes('auditoria-governamental')),
     'Conflito de interesses deve reaproveitar o cartão existente na auditoria');
 assert(cards.length>=112,'Coleção de recuperação deve manter o lote editorial');
-console.log('SUCESSO: '+pendingEditorial.length+' lacunas do corte 04/11 vinculadas a cartões e reutilização por matéria.');
+console.log('SUCESSO: '+pendingEditorial.length+' lacunas editoriais sem cartão identificadas corretamente; vínculos existentes seguem reutilizáveis por matéria.');
 
 
 

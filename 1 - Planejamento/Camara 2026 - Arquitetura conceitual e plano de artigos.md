@@ -284,8 +284,8 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [x] **CAM-CO-007 · F2**: Identidade, imagem e reputação: diferenças e relações.
 - [x] **CAM-CO-008 · F2**: Riscos, prevenção e diagnóstico de crise de comunicação.
 - [x] **CAM-CO-009 · F2**: Resposta à crise: etapas, canais e avaliação.
-- [ ] **CAM-CO-010 · F2**: Comunicação organizacional: dimensões e escopo.
-- [ ] **CAM-CO-011 · F2**: Comunicação integrada: institucional, mercadológica, interna e administrativa.
+- [x] **CAM-CO-010 · F2**: Comunicação organizacional: dimensões e escopo.
+- [x] **CAM-CO-011 · F2**: Comunicação integrada: institucional, mercadológica, interna e administrativa.
 - [ ] **CAM-CO-012 · F2**: Fluxos ascendentes, descendentes, horizontais e transversais.
 - [ ] **CAM-CO-013 · F2**: Comunicação formal, informal e redes de interação.
 - [ ] **CAM-CO-014 · F2**: Mapeamento e segmentação de públicos institucionais.
@@ -581,14 +581,14 @@ Próxima unidade: **CAM-CO-008**, riscos, prevenção e diagnóstico de crise co
 
 ## Lote 17: escopo, dimensões e comunicação integrada (CO-010 e CO-011)
 
-- [ ] **CAM-CO-010 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch|Comunicação organizacional: escopo e dimensões de Kunsch]] (`art-6493b2e7a10dc58f`). **Decisão: nova unidade autônoma.** A nota-base 01 já apresenta o campo e o composto, mas não constrói a pergunta e as fronteiras das dimensões **instrumental, humana, cultural e estratégica (Kunsch, 2014)**. O artigo distingue o recorte de **três dimensões do estudo empírico de 2012**, explica concepção ampla, transmissão e visão constitutiva (CCO, como perspectiva teórica distinta), fronteiras com modalidades, casos e três itens C/E.
-- [ ] **CAM-CO-011 · artigo redigido; publicação pendente**: [[3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca|Comunicação integrada: modalidades, articulação e governança]] (`art-37f0a85c9b214d6e`). **Decisão: nova unidade aplicada própria**, centrada na pergunta de articulação do composto de **Kunsch (2003)**: institucional, mercadológica, interna e administrativa; distinção entre finalidade, canal, fluxo e dimensão; limites da multicanalidade, coordenação de processos e públicos, casos e três itens C/E.
+- [x] **CAM-CO-010 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch|Comunicação organizacional: escopo e dimensões de Kunsch]] (`art-6493b2e7a10dc58f`). **Decisão: nova unidade autônoma.** A nota-base 01 já apresenta o campo e o composto, mas não constrói a pergunta e as fronteiras das dimensões **instrumental, humana, cultural e estratégica (Kunsch, 2014)**. O artigo distingue o recorte de **três dimensões do estudo empírico de 2012**, explica concepção ampla, transmissão e visão constitutiva (CCO, como perspectiva teórica distinta), fronteiras com modalidades, casos e três itens C/E.
+- [x] **CAM-CO-011 · artigo e publicação verificados**: [[3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca|Comunicação integrada: modalidades, articulação e governança]] (`art-37f0a85c9b214d6e`). **Decisão: nova unidade aplicada própria**, centrada na pergunta de articulação do composto de **Kunsch (2003)**: institucional, mercadológica, interna e administrativa; distinção entre finalidade, canal, fluxo e dimensão; limites da multicanalidade, coordenação de processos e públicos, casos e três itens C/E.
 
 **Proteção multi-edital:** [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01. Comunicação organizacional]] (`art-9b4bc5f91bab49ae`) e [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organizacional e relacoes publicas|22. Autores e taxonomias de RP]] foram auditadas e mantidas **integralmente sem edição**. Seus IDs e associações de CGU/Dataprev permanecem. Os dois novos IDs estão vinculados somente a `camara-2026/comunicacao`. Notas não são cópias de conteúdo já consolidado, pois aprofundam perguntas conceituais próprias.
 
 **Fontes primárias e limites:** Kunsch (2003, 2012, 2014 e verbete de 2018); estudo empírico de 2012 tem recorte específico, distinto da reflexão conceitual de 2014. O diálogo com CCO não implica atribuição da teoria a Kunsch.
 
-**Validação pendente:** executar testes de identidade, links, privacidade, busca, catálogo, build e confirmação do Pages ao vivo. Só depois assinalar os dois itens. Próximas unidades CAM-CO-012 (fluxos) e CAM-CO-013 (formal e informal).
+**Publicação confirmada:** o [workflow 42202532228](https://github.com/leorruas/concursos/actions/runs/42202532228) terminou com **success** e confirmou build, links, identidade, privacidade, busca, catálogo e manifesto no Pages ao vivo. Os itens estão concluídos editorialmente, sem pressupor estudo ou retenção pessoal. Próximas unidades: CAM-CO-012 (fluxos) e CAM-CO-013 (redes formal e informal).
 
 ## Critérios de publicação e evidência
 

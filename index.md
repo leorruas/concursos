@@ -362,6 +362,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao|Projeto audiovisual: planejamento, execução e publicação]]
   - [[3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade|Produção editorial: objetivos, públicos, linha e identidade]]
   - [[3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes|Distribuição e avaliação de publicações]]
+  - [[3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras|Ética da comunicação e da publicidade: princípios, regimes e fronteiras]]
   - [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
   - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]

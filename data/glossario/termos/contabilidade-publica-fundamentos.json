@@ -59,6 +59,37 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-ciclo-operacional-normal",
+      "term": "Ciclo operacional normal",
+      "aliases": [
+        "Ciclo operacional da entidade"
+      ],
+      "definition": "Período em que a entidade transforma insumos e outros recursos em produtos ou serviços no curso normal de suas atividades. Na contabilidade pública, o ciclo operacional normal ajuda a classificar ativos e passivos como circulantes ou não circulantes no Quadro Principal do Balanço Patrimonial (BP). Quando esse ciclo não é claramente identificável, presume-se duração de 12 meses.",
+      "contrast": "Ativos destinados a ser consumidos, vendidos ou realizados no ciclo operacional normal podem ser circulantes mesmo quando esse ciclo ultrapassa 12 meses. O mesmo critério se aplica a obrigações exigíveis no ciclo normal. Por isso, o prazo de 12 meses é um critério alternativo ou presunção, e não um limite absoluto. Ciclo operacional não é o exercício financeiro (ano civil), nem se confunde com a classificação legal financeiro/permanente do segundo quadro do BP. Bens de uso duradouro, como prédios, em regra ficam no ativo não circulante.",
+      "cebraspeTrap": "Afirmar que todo ativo ou passivo realizado ou exigido depois de 12 meses é necessariamente não circulante, mesmo que faça parte de um ciclo operacional normal identificável mais longo; ou confundir o ciclo com o exercício financeiro.",
+      "example": "Um hospital público compra medicamentos para utilizá-los nos atendimentos durante os próximos oito meses: o estoque é ativo circulante. Se outra entidade tiver um ciclo operacional normal identificável de 18 meses, os materiais destinados a ser consumidos nesse ciclo podem ser circulantes mesmo após 12 meses. O prédio utilizado na prestação contínua do serviço não vira circulante por fazer parte das atividades.",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-bf384b8a28aa4753"
+      ],
+      "sources": [
+        {
+          "label": "NBC TSP 11, itens 76 a 81: ciclo operacional e classificação dos ativos e passivos (aplicável ao exercício de 2026)",
+          "url": "https://www.fazenda.mg.gov.br/governo/contadoria_geral/legislacao/tipolegisl/nbctsp11.pdf"
+        },
+        {
+          "label": "MCASP, 11ª edição, Parte V: Balanço Patrimonial, Quadro Principal (STN)",
+          "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

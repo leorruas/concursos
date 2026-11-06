@@ -21,7 +21,7 @@ Os **princípios orçamentários** orientam o conteúdo, a apresentação e a ex
 
 Imagine que uma prefeitura apresente apenas os saldos líquidos de arrecadação e transferência, não identifique os órgãos responsáveis pelos gastos e inclua na lei orçamentária um dispositivo para reorganizar secretarias. Os três problemas devem ser examinados por regras diferentes: orçamento bruto, especificação e exclusividade. Dizer apenas que houve “falta de transparência” deixa de identificar a regra decisiva.
 
-O ponto de partida é [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|a lógica dos princípios]] em relação ao [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|ciclo orçamentário]] e às leis [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]. Este texto aprofunda a dimensão normativa, sem transformar a leitura em aprendizagem registrada.
+O ponto de partida é [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|a lógica dos princípios]] em relação ao [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|ciclo orçamentário]] e às leis de planejamento e orçamento: Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA), detalhadas em [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]. Este texto aprofunda a dimensão normativa, sem transformar a leitura em aprendizagem registrada.
 
 ## Mapa dos princípios: qual problema cada regra evita?
 

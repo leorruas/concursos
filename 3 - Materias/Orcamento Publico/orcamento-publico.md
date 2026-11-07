@@ -55,6 +55,8 @@ A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha 
 
 - [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|CAM-ORC-016. Fiscalização orçamentária pelo Congresso e TCU]]: nota canônica refinada com parecer prévio, julgamento de contas, sustação de atos e contratos, art. 72 e controle interno. Última unidade da sequência ORC 008–016, com auditoria pendente de ORC 001–007.
 
+**Auditoria de reuso concluída em 07/11/2026:** as sete unidades conceituais CAM-ORC-001 a 007 estão mapeadas em notas existentes, sem duplicação: **001**, [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|01]]; **002, 003, 005**, [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02]]; **004**, [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02]] e [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|02a]]; **006**, [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|04]], [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|07]] e [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|08]]; **007**, [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|06]] e [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|11]]. A matriz com os 16 vínculos e as pendências F4 encontra-se em [[1 - Planejamento/Camara 2026 - Auditoria de cobertura da trilha de Orcamento|Auditoria da trilha CAM-ORC]]. A contagem editorial foi atualizada para **16/16 unidades**, distinta de número de notas e de progresso pessoal.
+
 ## Como navegar por perguntas
 
 | Se o enunciado perguntar… | Comece por |

@@ -50,6 +50,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 
 - [[3 - Materias/Estado e Democracia/30 - politica internacional contemporanea atores e instituicoes|30. Política internacional contemporânea: atores, instituições e governança]]: CAM-CP-021, teorias das relações internacionais, ONU, organismos econômicos, fóruns e atores transnacionais, com três itens C/E. Próxima unidade: CAM-CP-022.
 
+- [[3 - Materias/Estado e Democracia/31 - sistema internacional soberania cooperacao e conflito|31. Sistema internacional: soberania, cooperação e conflito]]: CAM-CP-022, soberania, anarquia, segurança, cooperação, Carta da ONU e três itens C/E. Encerra a elaboração das 22 unidades de Ciência Política da Câmara, sujeita à auditoria de publicação.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

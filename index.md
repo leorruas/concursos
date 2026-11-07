@@ -101,6 +101,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|15 • Formação histórica do Estado brasileiro]]
    - [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|16 • Regimes políticos: democracia, autoritarismo e hibridismos]]
    - [[3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia|17 • Formas de governo: república e monarquia]]
+   - [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|18 • Sistemas de governo: presidencialismo e parlamentarismo]]
 3. [[3 - Materias/Sociedade Brasileira/sociedade-brasileira|Sociedade brasileira]]
    - [[3 - Materias/Sociedade Brasileira/01 - instituicoes estratificacao e mobilidade social|01 • Instituições, estratificação e mobilidade social]]
    - [[3 - Materias/Sociedade Brasileira/02 - formacao social cidadania e hierarquias|02 • Formação social brasileira, cidadania e hierarquias]]

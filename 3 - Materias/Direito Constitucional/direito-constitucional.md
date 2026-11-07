@@ -48,6 +48,8 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|16. Discussão, votação, quóruns e modalidades de decisão]]: CAM-PL-006, art. 47 da CF e arts. 165–200 do RICD; debate, maioria simples/absoluta/qualificada, simbólica/nominal/secreta, 5%/6%/10% e destaques. **Próxima: CAM-PL-007, sanção e veto.**
 
+- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|17. Sanção, veto, promulgação e publicação]]: CAM-PL-007, CF art. 66, prazos 15 dias úteis/48 horas/30 dias, veto político e jurídico, parcial e total, rejeição por maioria absoluta de cada Casa, promulgação subsidiária e vigência. **Próxima: CAM-PL-008, procedimento ordinário.**
+
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).
 - **Defesa do Estado e das Instituições** (Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública).

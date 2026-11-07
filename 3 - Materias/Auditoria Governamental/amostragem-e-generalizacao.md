@@ -5,7 +5,7 @@ title: "Amostragem de auditoria e limites da generalização"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-07
 ---
 
 # Amostragem de auditoria e limites da generalização
@@ -49,6 +49,10 @@ O MOT indica que, quando o procedimento pretende **generalizar à população**,
 
 **Dirigida ou por julgamento:** escolher, por exemplo, os 60 maiores pagamentos. Adequada para exame de situações críticas, mas sem inferência estatística automática para todos os pagamentos.
 
+**Por que examinar os maiores valores?** O objetivo pode ser **priorizar a exposição financeira**: um erro de percentual semelhante em um contrato de grande valor tende a produzir maior impacto monetário do que em um contrato pequeno. A seleção permite concentrar recursos e tempo em operações materialmente relevantes, conferir documentos de contratos mais vultosos e aprofundar indícios de sobrepreço, pagamentos indevidos ou falhas de controle. **Valor alto não prova irregularidade nem significa, sozinho, maior probabilidade de fraude**: o critério de maior valor prioriza o *impacto potencial*, que pode ser combinado com indícios, histórico e vulnerabilidades.
+
+**Limite dessa escolha:** examinar os 50 contratos mais caros pode permitir afirmar quantos desses **50 contratos** apresentaram problemas e estimar o valor financeiro diretamente constatado nesses casos. Não permite, sem desenho amostral apropriado, estimar a **proporção de contratos irregulares entre todos os contratos**. O subconjunto dos maiores valores é intencionalmente diferente do restante.
+
 **Censo:** examinar todos os elementos de uma população corretamente definida. Reduz a necessidade de estimar características por amostragem **daquela população**, mas não elimina falhas de cadastro, de evidência ou de aplicação dos testes. Censo não é asseguração absoluta.
 
 ## Risco de amostragem: duas direções possíveis
@@ -59,6 +63,10 @@ O **risco de amostragem** é o risco de a conclusão baseada na amostra ser dife
 2. A amostra sugere **população inadequada**, quando a população é adequada.
 
 O risco deve ser administrado conforme o grau de segurança pretendido. **Para o mesmo plano amostral, em geral, ampliar o tamanho da amostra reduz o risco de amostragem**. Isso não elimina outros erros, como falhas no cadastro, omissões na coleta, informação incorreta ou testes mal executados.
+
+**O censo é uma referência para definir o risco amostral, não uma obrigação de examinar tudo.** A definição compara a conclusão da amostra com a que seria alcançada ao examinar a população inteira. Uma amostra pode levar tanto a uma conclusão indevidamente favorável quanto a uma indevidamente desfavorável. O exame universal pode ser inviável ou desnecessário, conforme o objetivo, os recursos e o grau de segurança pretendido.
+
+**Risco amostral × erro não amostral:** o primeiro decorre de a amostra poder produzir conclusão diferente da população; pode diminuir com amostragem probabilística bem planejada e tamanho adequado. O segundo decorre de problemas de cobertura, coleta, aplicação dos procedimentos, interpretação ou qualidade dos dados. Aumentar o número de itens examinados não corrige, por si só, uma base incompleta nem uma técnica aplicada incorretamente.
 
 **Precisão e incerteza:** em método probabilístico, a divulgação da estimativa deve apresentar o risco e a precisão, conforme o plano, inclusive intervalos de confiança quando pertinentes. Intervalos não são certificados de que cada item individual está correto. Exigir um número fixo de elementos “suficientes” para qualquer auditoria ignora finalidade, variação, risco, população e desenho.
 

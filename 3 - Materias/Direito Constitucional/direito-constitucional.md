@@ -40,6 +40,8 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|12. Iniciativa legislativa: legitimados, reservas e limites]]: CAM-PL-002, art. 61 e reservas constitucionais, iniciativa popular, arts. 51/52/96/127/165 e STF Temas 917/682. **Próxima unidade: CAM-PL-003, tramitação e fases.**
 
+- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|13. Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: CAM-PL-003, recebimento, comissões, deliberação conclusiva, recurso, Casa iniciadora/revisora e retorno de emendas. **Próxima unidade: CAM-PL-004, comissões e competências.**
+
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).
 - **Defesa do Estado e das Instituições** (Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública).

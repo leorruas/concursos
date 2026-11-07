@@ -46,6 +46,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 
 - [[3 - Materias/Estado e Democracia/28 - historia do voto no brasil expansao restricoes e direitos|28. História do voto no Brasil: expansão, restrições e direitos]]: CAM-CP-019, cronologia do sufrágio, direitos, limites, marcos de 1881, 1932, 1985 e 1988 e três itens C/E. Próxima unidade: CAM-CP-020, partidos políticos brasileiros.
 
+- [[3 - Materias/Estado e Democracia/29 - historia dos partidos politicos no brasil|29. História dos partidos políticos no Brasil: continuidade e rupturas]]: CAM-CP-020, Império, 1945–1965, Arena/MDB, reforma de 1979, Nova República e três itens C/E. Próxima unidade: CAM-CP-021, política internacional contemporânea.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

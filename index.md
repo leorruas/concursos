@@ -113,6 +113,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|26. Sistemas partidários: competição, fragmentação e institucionalização]]
    - [[3 - Materias/Estado e Democracia/27 - organizacao politica brasileira instituicoes e federalismo|27. Organização política brasileira: instituições, federalismo e coordenação]]
    - [[3 - Materias/Estado e Democracia/28 - historia do voto no brasil expansao restricoes e direitos|28. História do voto no Brasil: expansão, restrições e direitos]]
+   - [[3 - Materias/Estado e Democracia/29 - historia dos partidos politicos no brasil|29. História dos partidos políticos no Brasil: continuidade e rupturas]]
 3. [[3 - Materias/Sociedade Brasileira/sociedade-brasileira|Sociedade brasileira]]
    - [[3 - Materias/Sociedade Brasileira/01 - instituicoes estratificacao e mobilidade social|01 • Instituições, estratificação e mobilidade social]]
    - [[3 - Materias/Sociedade Brasileira/02 - formacao social cidadania e hierarquias|02 • Formação social brasileira, cidadania e hierarquias]]

@@ -13,6 +13,7 @@ const root=fs.mkdtempSync(path.join(os.tmpdir(),'study-context-'));
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const write=(p,x)=>{fs.mkdirSync(path.dirname(path.join(root,p)),{recursive:true});fs.writeFileSync(path.join(root,p),JSON.stringify(x,null,2)+'\n');};
 const ctx=(id,contest='cgu-2026')=>read(`data/contexto-estudo/${contest}/${id}.json`);
+const findGap=(subjectId,questionId)=>{const c=ctx(subjectId);return c.gaps.find(g=>g.questionId===questionId)||c.reviewIndex.pages.flatMap(p=>read(p).gaps).find(g=>g.questionId===questionId);};
 const sync=()=>{const p=prepare(root);if(p.operations.length)aplicarChangeSet(root,p);};
 try{
   for(const p of ['3 - Materias','2 - Editais','data','00 - Desempenho'])fs.cpSync(path.join(actual,p),path.join(root,p),{recursive:true});
@@ -44,7 +45,7 @@ try{
   const make=(suffix,date,time='18:00:00')=>({schemaVersion:2,id:'cgu-2026-context-test-'+suffix,startedAt:date+'T'+time+'-03:00',date,concursoId:'cgu-2026',banca:'Cebraspe',kind:'microtreino',trainingMode:'aprendizagem',status:'concluido',subjectId:'auditoria-governamental',unitId:'u07',diagnosis:'Fixture de teste, nunca publicada.',nextStep:'Reparar finalidade do teste versus técnica.',learning:{stage:'aprendizagem',taughtConcepts:['finalidade dos testes'],boundaries:['técnica versus finalidade'],pending:['treino calibrado'],unitCompleted:false,next:{unitId:'u07',stage:'fronteiras',objective:'Comparar finalidades em um novo caso.',noteRef:'3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar',sourceIds:['mot']}},questions:[{number:1,discipline:'Auditoria Governamental',conceptId:'finalidade-do-teste',topic:'Teste',subtopic:'Finalidade versus técnica',questionType:'comparison',mechanism:'fixture-'+suffix,distractorMechanism:'troca-de-categoria',statement:'Item sintético apenas em diretório temporário.',explanation:'Comentário de teste.',format:'CE',correctAnswer:'C',userAnswer:'E',confidence:'secure',origin:'inedita',destinations:['metrica_apenas'],annulled:false,errorType:'confusao_conceitual',theoryRefs:['3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar'],repetition:{classification:'new',similarTo:[],intentional:false}}]});
   const save=s=>write('data/sessoes/'+s.id+'.json',s);
   const s=make('erro','2026-11-04');save(s);sync();const target=s.id+'-q1';
-  assert.equal(ctx('auditoria-governamental').gaps.find(g=>g.questionId===target).status,'pendente');
+  assert.equal(findGap('auditoria-governamental',target).status,'pendente');
   const another=make('outra-materia','2026-11-04','19:00:00');another.subjectId='contabilidade-publica';another.unitId='fundamentos';another.questions[0].discipline='Contabilidade Pública';another.questions[0].conceptId='oticas-contabeis';another.questions[0].correctAnswer='E';another.questions[0].errorType=null;another.questions[0].theoryRefs=[];another.learning.next={unitId:'fundamentos',stage:'fronteiras',objective:'Contrastar os três enfoques.',noteRef:null,sourceIds:['mcasp']};save(another);sync();
   const expectedResumeSubject=Date.parse(latestCguSession.startedAt)>Date.parse(another.startedAt) ? latestCguSession.subjectId : 'contabilidade-publica';
   assert.equal(read('data/contexto-estudo/indice.json').contests.find(c=>c.concursoId==='cgu-2026').resume.subjectId,expectedResumeSubject,'Retomada deve priorizar a sessão de data/hora mais recente');
@@ -53,13 +54,13 @@ try{
   assert.equal(ctx('contabilidade-publica').results.aprendizagem.correct,originalContabilidadeAcertos+1,'Matéria sem Avancos deve preservar a base e incorporar o item da fixture');
   const retrieval=(suffix,date,confidence='secure')=>{const r=make(suffix,date,'20:00:00');r.trainingMode='revisao';r.questions[0].userAnswer='C';r.questions[0].errorType=null;r.questions[0].confidence=confidence;r.questions[0].retrievalOf=[target];return r;};
   const uncertain=retrieval('duvida','2026-11-04','insecure');save(uncertain);sync();
-  assert.equal(ctx('auditoria-governamental').gaps.find(g=>g.questionId===target).status,'pendente','Acerto inseguro não resolve');
+  assert.equal(findGap('auditoria-governamental',target).status,'pendente','Acerto inseguro não resolve');
   const immediate=retrieval('imediata','2026-11-04');save(immediate);sync();
-  assert.equal(ctx('auditoria-governamental').gaps.find(g=>g.questionId===target).status,'recuperacao-imediata');
+  assert.equal(findGap('auditoria-governamental',target).status,'recuperacao-imediata');
   assert.equal(ctx('auditoria-governamental').observationAxes.retention.retrievedLater,retentionBaseline,'Recuperação imediata não aumenta retenção espaçada já registrada');
   const delayed=retrieval('espacada','2026-11-11');save(delayed);sync();
-  let gap=ctx('auditoria-governamental').gaps.find(g=>g.questionId===target);assert.equal(gap.status,'retencao-observada');assert.equal(gap.dueOn,'2026-11-18');
-  const second=retrieval('espacada-2','2026-11-25');save(second);sync();gap=ctx('auditoria-governamental').gaps.find(g=>g.questionId===target);assert.equal(gap.dueOn,'2026-12-16');
+  let gap=findGap('auditoria-governamental',target);assert.equal(gap.status,'retencao-observada');assert.equal(gap.dueOn,'2026-11-18');
+  const second=retrieval('espacada-2','2026-11-25');save(second);sync();gap=findGap('auditoria-governamental',target);assert.equal(gap.dueOn,'2026-12-16');
   assert.equal(ctx('auditoria-governamental').units.find(u=>u.id==='u07').didacticCompletion,false,'Reteste isolado não conclui unidade');
   // Aula sem questões registra exposição, sem fabricar aprendizagem ou nota.
   const lecture=make('aula','2026-11-26');lecture.subjectId='contabilidade-publica';lecture.unitId='up3-2-4';lecture.kind='aula';lecture.questions=[];lecture.learning.next={unitId:'up3-2-4',stage:'aprendizagem',objective:'Avaliar os enfoques ensinados.',sourceIds:['mcasp']};save(lecture);sync();
@@ -70,13 +71,13 @@ try{
   // Corrigir gabarito na origem recalcula e remove o erro antigo, sem duplicação.
   const beforeCount=read('data/questoes-ledger.json').questions.length;s.questions[0].correctAnswer='E';s.questions[0].errorType=null;save(s);sync();
   assert.equal(read('data/questoes-ledger.json').questions.length,beforeCount);
-  assert(!ctx('auditoria-governamental').gaps.some(g=>g.questionId===target));
+  assert(!Boolean(findGap('auditoria-governamental',target)));
   const before=fs.readFileSync(path.join(root,'data/questoes-ledger.json'),'utf8');
   const bad=make('cruzado','2026-11-27');bad.questions[0].retrievalOf=['dataprev-simulado-07-q1'];save(bad);assert.throws(()=>prepare(root),/mesma matéria/);assert.equal(fs.readFileSync(path.join(root,'data/questoes-ledger.json'),'utf8'),before);fs.unlinkSync(path.join(root,'data/sessoes/'+bad.id+'.json'));
   for(const mutate of [x=>x.subjectId='inexistente',x=>x.unitId='u99',x=>x.questions[0].discipline='Contabilidade Pública',x=>x.learning.next.sourceIds=['fonte-inexistente'],x=>x.learning.unitCompleted=true]){const bad=make('invalido','2026-11-27');mutate(bad);assert.throws(()=>validateSession(bad,bad.id+'.json',root,contests));}
   const norm=make('sem-nota','2026-11-27');norm.subjectId='contabilidade-publica';norm.unitId='fundamentos';norm.questions[0].discipline='Contabilidade Pública';norm.questions[0].theoryRefs=[];norm.questions[0].sourceRefs=[{sourceId:'mcasp',locator:'Parte Geral: objeto e campo de aplicação'}];norm.learning.next={unitId:'fundamentos',stage:'fronteiras',objective:'Reparar o conceito pela fonte.',sourceIds:['mcasp']};save(norm);sync();
   execFileSync('node',[path.join(actual,'scripts/question-ledger.js'),'--validate','--ledger',path.join(root,'data/questoes-ledger.json')],{stdio:'pipe'});
-  const gapComFonte=ctx('contabilidade-publica').gaps.find(g=>g.questionId===norm.id+'-q1');assert.equal(gapComFonte?.sourceRefs?.[0]?.sourceId,'mcasp');
+  const gapComFonte=findGap('contabilidade-publica',norm.id+'-q1');assert.equal(gapComFonte?.sourceRefs?.[0]?.sourceId,'mcasp');
   const bulk=make('fila','2026-11-28');bulk.questions=Array.from({length:32},(_,i)=>({...structuredClone(bulk.questions[0]),number:i+1,conceptId:'conceito-'+(i+1),mechanism:'fixture-fila-'+(i+1)}));save(bulk);sync();
   assert.equal(ctx('auditoria-governamental').gaps.length,20);const pages=ctx('auditoria-governamental').reviewIndex.pages;assert(pages.length>=2);assert(pages.every(p=>read(p).gaps.length<=20));
   const removed=structuredClone(bulk);removed.questions.pop();save(removed);assert.throws(()=>prepare(root),/Questão removida/);save(bulk);

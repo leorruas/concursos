@@ -44,6 +44,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 
 - [[3 - Materias/Estado e Democracia/27 - organizacao politica brasileira instituicoes e federalismo|27. Organização política brasileira: instituições, federalismo e coordenação]]: CAM-CP-018, instituições brasileiras, autonomia, coordenação federativa, competências e três itens C/E. Próxima unidade: CAM-CP-019, história do voto no Brasil.
 
+- [[3 - Materias/Estado e Democracia/28 - historia do voto no brasil expansao restricoes e direitos|28. História do voto no Brasil: expansão, restrições e direitos]]: CAM-CP-019, cronologia do sufrágio, direitos, limites, marcos de 1881, 1932, 1985 e 1988 e três itens C/E. Próxima unidade: CAM-CP-020, partidos políticos brasileiros.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

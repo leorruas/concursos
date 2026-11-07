@@ -32,6 +32,12 @@ Matéria de planejamento e execução orçamentária, receita, despesa e respons
 
 O roteiro inicial de 11 temas ganhou quatro notas especializadas para tornar independentes os conjuntos de classificação e distinguir créditos adicionais de emendas. A publicação documenta a teoria, mas não comprova aprendizagem, retenção ou cobertura integral do edital; registros individuais pertencem ao cofre privado. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
 
+## Extensão para Câmara 2026: Processo Legislativo Orçamentário
+
+A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha lacunas específicas sobre elaboração e apreciação no Congresso. A presença do artigo neste hub não registra estudo ou progresso nos concursos CGU ou Câmara.
+
+- [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|12. Elaboração da proposta orçamentária federal: órgãos, decisões e etapas]]: CAM-ORC-008, UO, órgão setorial, SOF, SIOP, autonomia dos Poderes, iniciativa presidencial e três itens C/E. Próxima unidade: CAM-ORC-009, tramitação no Congresso.
+
 ## Como navegar por perguntas
 
 | Se o enunciado perguntar… | Comece por |

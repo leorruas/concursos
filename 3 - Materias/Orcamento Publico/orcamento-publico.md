@@ -51,6 +51,8 @@ A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha 
 
 - [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|CAM-ORC-014. Empenho, liquidação e pagamento]] e [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|restos a pagar, processados e não processados]]: duas notas canônicas reutilizadas; refinamento de encerramento do exercício, caso da Câmara, MCASP e três questões C/E na nota 09. Próxima unidade: CAM-ORC-015.
 
+- [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|CAM-ORC-015. Programação financeira, limitação e bloqueio]]: nota canônica reutilizada e refinada com arts. 8º e 9º da LRF, LDO 2026 e alcance do decreto federal, caso da Câmara e quatro questões C/E. Próxima unidade: CAM-ORC-016.
+
 ## Como navegar por perguntas
 
 | Se o enunciado perguntar… | Comece por |

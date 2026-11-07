@@ -27,7 +27,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 - [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|16. Regimes políticos: democracia, autoritarismo e hibridismos]]: CAM-CP-007, critérios de classificação de regimes e C/E.
 - [[3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia|17. Formas de governo: república e monarquia]]: CAM-CP-008, formas de governo, autores e doze itens C/E.
 - [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|18. Sistemas de governo: presidencialismo e parlamentarismo]]: CAM-CP-009, sistemas, confiança e doze itens C/E.
-- [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|19. Representação política: mandato, delegação e responsabilização]]: CAM-CP-010, Pitkin, Burke, Manin, Mansbridge, principal-agente, accountability e fidelidade partidária. Doze itens C/E. Próxima unidade: CAM-CP-011, democracia representativa, participativa e deliberativa.
+- [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|19. Representação política: mandato, delegação e responsabilização]]: CAM-CP-010, representação, mandato, responsabilização e doze itens C/E.
+- [[3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa|20. Democracia representativa, participativa e deliberativa]]: CAM-CP-011, Pateman, Arnstein, Fung, IAP2, Habermas, Young, Fishkin, Avritzer, instrumentos constitucionais e doze itens C/E. Próxima unidade: CAM-CP-012, separação de poderes.
 
 ## Artigos próprios publicados
 

@@ -22,7 +22,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 - [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|11. Poder, autoridade, legitimidade e dominação]]: CAM-CP-002, autores e conceitos de poder.
 - [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|12. Teoria política: correntes e perguntas centrais]]: CAM-CP-003, correntes e autores, dez itens C/E.
 - [[3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito|13. Estado e sociedade: origem, funções e conflito]]: CAM-CP-004, Estado e sociedade, funções, autonomia, capacidade e conflito.
-- [[3 - Materias/Estado e Democracia/14 - teorias de formacao dos estados nacionais|14. Teorias de formação dos Estados nacionais]]: CAM-CP-005, coerção e capital, alternativas institucionais, soberania, nacionalismo e dez itens C/E. Próxima unidade: CAM-CP-006, formação histórica do Estado brasileiro.
+- [[3 - Materias/Estado e Democracia/14 - teorias de formacao dos estados nacionais|14. Teorias de formação dos Estados nacionais]]: CAM-CP-005, formação estatal, nacionalismo e dez itens C/E.
+- [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|15. Formação histórica do Estado brasileiro]]: CAM-CP-006, Colônia, Império, República, Vargas, ditadura, Constituição de 1988, autores e dez itens C/E. Próxima unidade: CAM-CP-007, regimes políticos e hibridismos.
 
 ## Artigos próprios publicados
 

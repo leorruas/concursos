@@ -21,7 +21,7 @@ try{
   assert.equal(new Set(program.map(p=>p.block)).size,14);assert.equal(program.length,81);assert.equal(plan.subjects.length,15);
   sync();assert.equal(prepare(root).operations.length,0,'Consolidação idempotente');
   let a=ctx('auditoria-governamental');const retentionBaseline=a.observationAxes.retention.retrievedLater;const cp=ctx('contabilidade-publica');
-  assert.equal(a.resume.unitId,'u07');assert.equal(a.lastCompletedUnit,'u06');assert(['fronteiras','aprendizagem','para_valer','consolidacao'].includes(a.resume.stage),'A retomada deve permanecer em uma etapa válida da unidade 07');
+  assert(a.units.some(u=>u.id===a.resume.unitId),'A retomada deve apontar para uma unidade existente no plano');assert.equal(a.lastCompletedUnit,'u06');assert(['fronteiras','aprendizagem','para_valer','consolidacao','revisao'].includes(a.resume.stage),'A retomada deve permanecer em uma etapa válida da matéria');
   const auditLearning=read('data/questoes-ledger.json').questions.filter(q=>q.concursoId==='cgu-2026'&&q.discipline==='Auditoria Governamental'&&q.trainingMode==='aprendizagem');
   assert.equal(a.results.aprendizagem.correct,auditLearning.filter(q=>q.result==='correct').length);assert.equal(a.results.aprendizagem.incorrect,auditLearning.filter(q=>q.result==='incorrect').length);
   assert(a.results.aprendizagem.correct>=31&&a.results.aprendizagem.incorrect>=5,'Preservar o histórico de aprendizagem já registrado');

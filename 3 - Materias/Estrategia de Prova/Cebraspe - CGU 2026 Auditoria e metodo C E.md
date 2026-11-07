@@ -5,7 +5,7 @@ title: "Cebraspe: CGU 2026, Auditoria e método C/E"
 type: "conceito"
 status: "ativo"
 created: 2026-10-09
-updated: 2026-11-03
+updated: 2026-11-07
 ---
 
 # Cebraspe: CGU 2026, Auditoria e método C/E
@@ -25,6 +25,52 @@ A objetiva ocorre de manhã, em **5 horas**, e a discursiva à tarde, em **3h30*
 A nota final do concurso segue **NFC = NFPO/26 + NFPD/10**, de 0 a 20 pontos. Na escala final, a objetiva vale até 10 e a discursiva até 10; cada etapa pode responder por metade da classificação. A discursiva elimina se o total for menor que 50/100.
 
 **Consequência de estudo:** P3 vale **180/260 pontos na objetiva**, e ainda determina o objeto da situação-problema que vale **70/100 pontos da discursiva**. Priorizar específicos sem negligenciar os mínimos por prova.
+
+## Metas competitivas de treino: objetivos internos, não cortes oficiais
+
+**Referência estratégica definida em 07/11/2026**, ainda sem simulado integral calibrado e sem dados que permitam estimar a nota de classificação. A prova tem mínimos eliminatórios próprios; as faixas abaixo são **alvos de preparação mais ambiciosos**, não percentuais exigidos pelo edital nem previsão de aprovação.
+
+| Prova | Pontuação máxima | Meta de pontos líquidos | Piso eliminatório oficial |
+| :--- | ---: | ---: | ---: |
+| P1: conhecimentos básicos | 40 | **26 a 30** | 8 |
+| P2: conhecimentos complementares | 40 | **26 a 30** | 12 |
+| P3: conhecimentos específicos | 180 | **128 a 140** | 54 |
+| **Objetiva total** | **260** | **180 a 200** | **78**, respeitados os pisos por prova |
+| **Discursiva P4** | **100** | **70**, buscando **80** para uma margem maior | **50** |
+
+**Leitura dos números:** 26 + 26 + 128 = 180; 30 + 30 + 140 = 200. O total é a soma das metas por bloco, mas não corresponde a uma nota de corte conhecida. Na discursiva, treinar separadamente a questão complementar (**30 pontos**) e a situação-problema específica (**70 pontos**). Meta mais forte de desempenho integrado: aproximadamente **200/260 na objetiva e 80/100 na discursiva**, a verificar em ensaios reais.
+
+### Metas de precisão por matéria
+
+Estas porcentagens são **acertos brutos em itens efetivamente respondidos**, em baterias inéditas, sem consulta, de dificuldade próxima à prova. Não são pontuações líquidas, e **não há distribuição oficial fixa de itens por cada uma das 15 matérias**; o edital fixa a composição de P1, P2 e P3. O planejamento local separa Finanças, Orçamento e Contabilidade para fins de estudo, embora componham um bloco temático oficial de P3.
+
+| Matéria do plano | Meta de precisão bruta |
+| :--- | ---: |
+| Estado e democracia | 85% |
+| Sociedade brasileira | 85% |
+| Ética pública | 90% |
+| Administração Pública | 85% |
+| Governança, riscos e integridade | 85% |
+| Transparência e ouvidoria | 90% |
+| Direito Administrativo | 85% |
+| Evidências, dados e inteligência artificial | 85% |
+| Auditoria Governamental | **90%** |
+| Finanças Públicas | 85% |
+| Orçamento Público | **85%** |
+| Contabilidade Pública | **85%** |
+| Políticas Públicas e avaliação | 90% |
+| Contratações e transferências | 85% |
+| Integridade e responsabilização | 90% |
+
+**Não confundir precisão com nota líquida Cebraspe.** Com todos os itens respondidos e pesos iguais, 85% corretos e 15% errados rendem **70% dos pontos líquidos possíveis**, pois cada erro retira o mesmo valor de um acerto. Com 90% corretos e 10% errados, são **80% líquidos**. Se houver itens em branco, calcular separadamente: *pontos líquidos = soma ponderada dos acertos menos soma ponderada dos erros*; branco vale zero. O percentual sobre itens respondidos não expressa, sozinho, a cobertura nem o risco de eliminação. A nota final depende da distribuição por provas e pesos.
+
+### Critério de acompanhamento e progressão
+
+Em assuntos novos e mais difíceis, especialmente Contabilidade e Orçamento, acompanhar **70% → 80% → 85%** como marcos intermediários de precisão, sem transformar uma bateria imediatamente posterior à aula em prova de domínio. Buscar duas ou três baterias com assuntos misturados, itens novos e revisões espaçadas em dias diferentes; comparar segurança declarada, brancos, erros recorrentes, nota líquida por bloco e tempo. **90% em Auditoria** é alvo de médio prazo, a confirmar com transferência para situações novas, não com repetição de itens conhecidos.
+
+Aferir competitividade prioritariamente por **simulado completo, cronometrado, com 170 itens, distribuição P1/P2/P3 e pontuação +1/−1 na P1/P2, +2/−2 na P3**, além de duas respostas discursivas corrigidas segundo requisitos e limites do edital. A discursiva exige avaliação própria de cobertura de quesitos, estrutura e expressão escrita. Os percentuais do período de aprendizagem e a existência de notas no vault não comprovam que a meta foi atingida.
+
+**Risco de alocação:** resultados elevados em Auditoria, Orçamento e Contabilidade não substituem domínio de Contratações, Políticas Públicas, Integridade e demais assuntos específicos da P3. Redistribuir tempo segundo nota líquida, temas ainda não estudados e retenção, preservando sempre os pisos de P1 e P2.
 
 ## Execução da objetiva e da discursiva
 

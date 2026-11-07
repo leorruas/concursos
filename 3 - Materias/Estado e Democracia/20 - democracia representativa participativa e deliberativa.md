@@ -50,7 +50,7 @@ Em *Participation and Democratic Theory* (1970), **Carole Pateman** critica teor
 
 **Efeito educativo:** participar pode desenvolver **capacidade de compreender problemas coletivos, exercer julgamento, adquirir confiança na própria eficácia política e participar novamente**. **Eficácia política** refere-se à percepção de que o indivíduo possui capacidade para participar ou influenciar processos políticos, conforme a dimensão analisada. **Não equivale à taxa de aprovação de todas as suas demandas**.
 
-**Participação além do Estado:** práticas de decisão e autoridade em **locais de trabalho, organizações e outras instituições** podem contribuir para desenvolver disposições e competências políticas. A autora examina **participação no trabalho e democracia industrial**, não apenas votação para cargos nacionais. [Pateman, capítulos II–IV, Cambridge University Press](https://www.cambridge.org/core/books/participation-and-democratic-theory/936F8E9CBB7C25F0B7E5F80FF715B35F).
+**Participação além do Estado:** práticas de decisão e autoridade em **locais de trabalho, organizações e outras instituições** podem contribuir para desenvolver disposições e competências políticas. A autora examina **participação no trabalho e democracia industrial**, não apenas votação para cargos nacionais. [Pateman, capítulos II–IV, Cambridge University Press](https://www.cambridge.org/core/books/abs/participation-and-democratic-theory/sense-of-political-efficacy-and-participation-in-the-workplace/2C149B7C629C780501C988BE4D093420).
 
 **Distinções importantes:**
 - **Socialização passiva:** aprender regras de organização hierárquica não corresponde necessariamente a desenvolver capacidades de participação.

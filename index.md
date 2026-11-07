@@ -105,6 +105,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|19 • Representação política: mandato, delegação e responsabilização]]
    - [[3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa|20 • Democracia representativa, participativa e deliberativa]]
    - [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|21. Separação de Poderes: funções, freios e contrapesos]]
+   - [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|22. Relações Executivo-Legislativo e formação de coalizões]]
 3. [[3 - Materias/Sociedade Brasileira/sociedade-brasileira|Sociedade brasileira]]
    - [[3 - Materias/Sociedade Brasileira/01 - instituicoes estratificacao e mobilidade social|01 • Instituições, estratificação e mobilidade social]]
    - [[3 - Materias/Sociedade Brasileira/02 - formacao social cidadania e hierarquias|02 • Formação social brasileira, cidadania e hierarquias]]

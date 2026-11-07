@@ -5,7 +5,7 @@ title: "Conta Única, programação e execução financeira"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-07
 aliases:
   - "Conta Única do Tesouro Nacional"
   - "Execução financeira"
@@ -142,6 +142,71 @@ A limitação de empenho motivada por risco às metas fiscais, art. 9º da LRF, 
 Pagamentos relativos a **restos a pagar** podem ocorrer em outro exercício financeiro, como saídas **extraorçamentárias** daquele ano, respeitando disponibilidade, fonte, programação e demais requisitos. A execução financeira atual não equivale a nova autorização orçamentária da obrigação anterior.
 
 Uma despesa inscrita pode comprometer o caixa disponível sem gerar novo crédito na LOA seguinte. Ao analisar superávit financeiro e recursos para créditos adicionais, devem-se descontar obrigações e compromissos que consumam disponibilidades. Ver [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|Restos a pagar e DEA]].
+
+## Refinamento para Câmara 2026: duas execuções e uma despesa
+
+**CAM-ORC-013: crédito orçamentário, recurso financeiro e rastreio da despesa.** A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|aprovação da LOA]] cria autorização para executar dotações, mas não produz automaticamente dinheiro disponível para pagamentos. A distinção é apresentada pelo [Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos): **crédito** designa a dotação ou autorização de gasto e sua descentralização, no enfoque **orçamentário**; **recurso** designa o dinheiro ou saldo de disponibilidade bancária, no enfoque **financeiro**.
+
+| Acontecimento | Eixo principal | Que fato autoriza afirmar? | Inferência indevida |
+| :--- | :--- | :--- | :--- |
+| LOA prevê R$ 1 milhão para determinada ação | **Orçamentário** | Há dotação autorizada | Existe R$ 1 milhão disponível na conta da unidade |
+| Uma unidade gestora recebe crédito por provisão ou destaque | **Orçamentário** | Passa a poder executar programação descentralizada, conforme condições | Recebeu automaticamente caixa no mesmo valor |
+| Tesouro libera cota ou unidade recebe repasse/sub-repasse | **Financeiro** | Há movimentação ou disponibilização de recursos financeiros no fluxo aplicável | O credor já comprovou direito ao pagamento |
+| Autoridade empenha R$ 600 mil | **Execução orçamentária** | Houve empenho e comprometimento do crédito | Houve entrega, liquidação ou pagamento |
+| Administração liquida R$ 400 mil | **Execução da despesa e verificação do credor** | Comprovou-se o direito do credor na extensão liquidada | O dinheiro já saiu da Conta Única |
+| Administração paga R$ 350 mil | **Execução financeira** | Houve desembolso de R$ 350 mil | Toda dotação foi executada ou toda meta foi atingida |
+
+**Três perguntas diferentes:** **quanto posso gastar?** corresponde à autorização, à descentralização do crédito e ao limite de empenho; **quanto devo ao credor após cumprir a condição?** depende da liquidação; **quanto posso pagar e paguei?** depende de recursos, programação financeira e ato de pagamento. Essas perguntas se conectam, mas não são respostas substituíveis.
+
+### Provisão, destaque, cota, repasse e sub-repasse
+
+A correspondência didática básica é:
+
+| Circulação de **crédito orçamentário** | Circulação de **recurso financeiro** | Fronteira |
+| :--- | :--- | :--- |
+| **Provisão**: descentralização **interna** de crédito, entre unidades gestoras do mesmo órgão | **Sub-repasse**: movimentação financeira no âmbito interno correspondente | A provisão é crédito, não dinheiro |
+| **Destaque**: descentralização **externa** de crédito, entre órgãos ou entidades distintos | **Repasse**: movimentação financeira entre órgãos ou entidades, inclusive associada ao destaque | Destaque não é novo crédito aprovado pelo Congresso |
+| **Dotação inicial**: autorização consignada na LOA | **Cota**: disponibilização financeira do órgão central aos órgãos setoriais | O fluxo central de recursos não equivale à votação da LOA |
+
+É um **quadro de correspondências usuais**, não uma afirmação de que toda provisão se acompanha imediatamente de sub-repasse no mesmo instante ou montante. A movimentação financeira depende dos procedimentos e da programação. O [Manual SIAFI](https://conteudo.tesouro.gov.br/manuais/modules/mod_pdf_manual/pdf/manual-siafi.pdf) apresenta as três categorias financeiras. A [9ª edição do MCASP](https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pdde/media-pdde/ManualdeContabilidadeAplicadaaoSetorPblico.9Edio2022.STN..pdf/%40%40download/file/ManualdeContabilidadeAplicadaaoSetorPblico.9Edio2022.STN..pdf) distingue descentralização interna e externa de créditos. **Crédito adicional** é outra operação: altera autorização de despesa, conforme sua espécie, e possui nota própria em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]].
+
+### Caso progressivo: a mesma ação em seis atos
+
+**1. Autorização.** A LOA federal consigna **R$ 1.000.000** para ação de comunicação institucional. **Dotação** descreve o limite autorizado, não receita efetivamente arrecadada.
+
+**2. Descentralização orçamentária.** O órgão concede **destaque de R$ 600.000** a uma unidade gestora de órgão distinto para executar parte da programação. A **classificação institucional da UO detentora do crédito na LOA não precisa mudar**, nem nasce nova dotação de R$ 600.000 a somar ao valor original. Somar ambos como se fossem novas autorizações produziria **dupla contagem**.
+
+**3. Liberação financeira.** A unidade recebe **repasse de R$ 400.000**. Nesse momento, dispõe de recurso financeiro no fluxo aplicável, mas pode ainda não ter empenhado ou liquidado a despesa. **Crédito descentralizado R$ 600.000 ≠ repasse financeiro R$ 400.000**. Uma diferença entre esses números não demonstra, por si, atraso ilegal ou desvio.
+
+**4. Empenho.** A autoridade empenha **R$ 350.000** de obrigação contratual. **Empenhar** compromete o crédito e não prova que o serviço foi integralmente prestado.
+
+**5. Liquidação.** A administração verifica entrega e documentação correspondentes a **R$ 300.000**. O direito do credor fica confirmado na extensão liquidada, conforme a [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Lei nº 4.320/1964 e os estágios da despesa]]. Ainda não é sinônimo de pagamento.
+
+**6. Pagamento.** São pagos **R$ 250.000**. O saldo liquidado e não pago, de **R$ 50.000**, não desaparece por ter ocorrido parte do desembolso. A classificação ao encerramento do exercício requer examinar [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|restos a pagar]] e as condições pertinentes. **Valor pago também não comprova, sozinho, alcance ou efeito da campanha**.
+
+**Questão de fronteira:** no mesmo caso, substitua “houve destaque” por “o Congresso aprovou crédito especial”. Agora a operação mudou: a primeira desloca **execução** de crédito já autorizado; a segunda refere-se a **alteração da autorização orçamentária**. O nome da programação e o montante podem ser iguais, mas a natureza jurídico-financeira não é.
+
+### Exercício financeiro e leitura de relatórios
+
+Pela [Lei nº 4.320/1964, art. 35](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html), pertencem ao exercício **as receitas nele arrecadadas e as despesas nele legalmente empenhadas** para fins orçamentários. Isso não é sinônimo de regime patrimonial de competência para todas as variações do patrimônio. A [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|nota de despesas]] distingue o registro orçamentário do reconhecimento patrimonial. Uma despesa empenhada em dezembro e paga em janeiro pode pertencer ao orçamento de dezembro, com inscrição em restos a pagar nas condições legais.
+
+**Relatório de execução orçamentária × demonstrativo de pagamentos:** **empenhado**, **liquidado** e **pago** revelam momentos distintos. Não atribua a uma coluna financeira uma conclusão sobre conclusão física da ação ou eficácia de política pública. Se há execução orçamentária de 80% e financeira de 50%, a divergência **não explica, isoladamente, sua causa**: investigar empenhos, liquidações, programação, vencimentos, restos a pagar e limites.
+
+### Como a Cebraspe explora essa fronteira
+
+**Item 1, inédito C/E.** A descentralização externa de crédito mediante destaque permite que outra unidade gestora execute programação, sem que o instrumento signifique, por si, transferência imediata de recursos financeiros.
+
+**Gabarito: Certo.** O destaque movimenta **crédito**; repasse movimenta **recurso**. A simultaneidade de ambos não é automática.
+
+**Item 2, inédito C/E.** Uma despesa empenhada no exercício de 2026, mas somente paga em 2027, pertence necessariamente ao orçamento de 2027, porque o art. 35 da Lei nº 4.320/1964 usa a data de pagamento para determinar o exercício da despesa.
+
+**Gabarito: Errado.** O art. 35, II, considera a **despesa legalmente empenhada**. Pagamento posterior pode envolver **restos a pagar**. O erro transpõe a data de desembolso para reconhecimento orçamentário.
+
+**Heurística para a Câmara:** **LOA autoriza → provisão/destaque descentralizam crédito → cota/repasse/sub-repasse movimentam recursos → empenho compromete dotação → liquidação verifica credor → pagamento desembolsa caixa**. A sequência é um mapa de funções, **não cronograma rígido de liberação simultânea**.
+
+**Fontes de confirmação:** [Tesouro Nacional, objetivos e conceitos de execução](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos); [Manual SIAFI, programação financeira](https://conteudo.tesouro.gov.br/manuais/modules/mod_pdf_manual/pdf/manual-siafi.pdf); [Lei nº 4.320/1964, arts. 35 e 58 a 65](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html); [Decreto nº 93.872/1986, texto atualizado](https://www2.camara.leg.br/legin/fed/decret/1980-1987/decreto-93872-23-dezembro-1986-444623-normaatualizada-pe.html); [Decreto nº 12.846/2026, programação financeira e descentralizações no exercício](https://www.presidencia.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12846compilado.htm).
+
+**Decisão editorial:** reutilizar e refinar o mesmo artigo canônico, preservando o ID e a navegação da CGU; registrar vínculo separado com a Câmara. A nota não registra estudo, retenção ou domínio.
 
 ## Como pode ser cobrado
 

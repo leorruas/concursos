@@ -47,6 +47,8 @@ A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha 
 
 - [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|CAM-ORC-012. Créditos adicionais: espécies, abertura e fontes]]: artigo canônico reutilizado e refinado com classificação de PLN, distinção entre autorização, abertura e execução e caso real de créditos em 2026. Próxima unidade: CAM-ORC-013.
 
+- [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|CAM-ORC-013. Execução orçamentária versus financeira]]: nota canônica reutilizada e refinada com caso de crédito e recurso, provisão/destaque, cota/repasse/sub-repasse, empenho, liquidação e pagamento. Próxima unidade: CAM-ORC-014.
+
 ## Como navegar por perguntas
 
 | Se o enunciado perguntar… | Comece por |

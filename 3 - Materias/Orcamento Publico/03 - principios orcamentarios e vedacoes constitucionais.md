@@ -136,7 +136,9 @@ O art. 5º da mesma lei impede dotações globais para cobrir indistintamente de
 
 Também é importante distinguir classificação da LOA de detalhamento utilizado na execução. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|natureza, função e elemento de despesa]].
 
-## Exclusividade: o que pode constar na LOA?
+## Exclusividade e suas duas exceções constitucionais
+
+**Exclusividade: o que pode constar na LOA?**
 
 A LOA é uma **lei com assunto delimitado**. Sua tarefa principal é **prever as receitas** (quanto se espera arrecadar) e **fixar as despesas** (quanto se autoriza gastar). A **exclusividade** impede que essa lei seja usada para aprovar regras sem ligação com essas duas tarefas.
 

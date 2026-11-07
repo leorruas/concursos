@@ -816,7 +816,7 @@
       "aliases": [
         "Receitas de capital"
       ],
-      "definition": "É uma categoria econômica da receita do orçamento. Reúne entradas como empréstimos comuns contratados pelo governo, venda de bens públicos, devolução do principal de empréstimos que o próprio governo concedeu e transferências destinadas a despesas de capital. O critério é a natureza da operação, não a frequência com que o dinheiro entra.",
+      "definition": "É a categoria econômica da receita do orçamento que reúne empréstimos comuns contratados, venda de bens públicos, devolução do principal de empréstimos concedidos pelo governo e transferências de capital. A natureza da operação, e não a frequência do ingresso, define sua classificação.",
       "contrast": "Receita corrente inclui, por exemplo, impostos, serviços e aluguéis, mesmo recebidos uma única vez. Receita de capital inclui alienação de bens, mesmo se a venda ocorrer frequentemente. Um empréstimo comum é receita orçamentária de capital; a antecipação de receita orçamentária (ARO) tem tratamento extraorçamentário. Chamar a receita de capital não significa que ela seja sempre financeira no resultado primário, nem que possa ser gasta livremente em qualquer finalidade.",
       "cebraspeTrap": "A banca pode afirmar que receitas correntes precisam ser frequentes ou que toda entrada de empréstimo é receita de capital, sem considerar a ARO. Também pode usar a destinação posterior do dinheiro para tentar alterar a classificação de sua origem.",
       "example": "O município recebe R$ 50 mil ao vender veículo de sua frota e R$ 100 mil ao contratar empréstimo. As duas entradas podem ser receitas de capital, mas a primeira é alienação de bens e a segunda é operação de crédito, com obrigação de pagar de volta.",

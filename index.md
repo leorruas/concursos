@@ -94,6 +94,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Estado e Democracia/08 - consequencias prevencao e respostas a corrupcao|08 • Consequências, prevenção e respostas à corrupção]]
    - [[3 - Materias/Estado e Democracia/09 - estado regulacao e modelos de desenvolvimento|09 • Estado, regulação e modelos de desenvolvimento]]
    - [[3 - Materias/Estado e Democracia/10 - ciencia politica objeto metodo e limites|10 • Ciência Política: objeto, método e limites]]
+   - [[3 - Materias/Estado e Democracia/10 - ciencia politica objeto metodos e limites|10A • Ciência Política: objeto, métodos e limites (abordagens)]]
    - [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|11 • Poder, autoridade, legitimidade e dominação]]
    - [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|12 • Teoria política: correntes e perguntas centrais]]
    - [[3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito|13 • Estado e sociedade: origem, funções e conflito]]

@@ -43,6 +43,8 @@ A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha 
 
 - [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|14. Comissão Mista de Orçamento: composição, comitês e competências]]: CAM-ORC-010, composição, quatro comitês, relatores e inadmissibilidade de emendas conforme atualização de 2025. Próxima unidade: CAM-ORC-011.
 
+- [[3 - Materias/Orcamento Publico/15 - emendas parlamentares deliberacao e rastreabilidade|15. Emendas parlamentares: deliberação, modalidades e rastreabilidade]]: CAM-ORC-011, autoria, tipos de emenda, admissibilidade, deliberação, indicação de beneficiários e rastreabilidade após alterações de 2025. Próxima unidade: CAM-ORC-012.
+
 ## Como navegar por perguntas
 
 | Se o enunciado perguntar… | Comece por |

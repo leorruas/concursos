@@ -5,7 +5,7 @@ title: "Créditos adicionais: espécies, abertura e fontes"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-07
 aliases:
   - "Créditos suplementares especiais e extraordinários"
   - "Emendas parlamentares impositivas"
@@ -127,6 +127,44 @@ Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas 
 ### Refinamento normativo: percentuais e exceções que alteram o C/E
 
 Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Refinamento normativo: percentuais e exceções que alteram o C/E**.
+
+## Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação
+
+**CAM-ORC-012: reaproveitamento da nota canônica.** O [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|processamento legislativo das leis orçamentárias]] inclui projetos de créditos adicionais, mas a tramitação não altera a **espécie jurídica** do crédito. No glossário do Congresso, **crédito orçamentário** é a autorização de despesas, expressa em valores monetários na Lei Orçamentária Anual (LOA), para determinada programação; **crédito adicional** é o instrumento de ajuste dessa autorização quando inexistente ou insuficiente. O adicional **não se confunde** com receita nova, disponibilidade financeira, empenho ou pagamento.
+
+| Situação em uma unidade orçamentária | Instrumento ou providência | Por que os outros não servem automaticamente |
+| :--- | :--- | :--- |
+| LOA autoriza R$ 300 mil para ação existente; são necessários R$ 400 mil | **Crédito suplementar** de R$ 100 mil, com requisitos legais de autorização, abertura e fonte | A ação já tem dotação; **especial** não é a resposta típica |
+| A LOA não contém dotação específica para nova ação previsível | **Crédito especial**, observada autorização legislativa e indicação de recursos | Ausência de dotação **não prova** imprevisibilidade e urgência |
+| Despesa imprevisível e urgente decorrente de calamidade, demonstrados os requisitos constitucionais | **Crédito extraordinário**; na União, medida provisória, conforme CF, art. 167, § 3º | A mera pressa administrativa não satisfaz o requisito |
+| O PLOA ainda está sendo discutido e parlamentar propõe alterar a programação | **Emenda ao projeto orçamentário**, sob regras do art. 166 | Emenda à proposta não equivale à abertura de crédito adicional de LOA já vigente |
+| Dotação já existe e órgão dispõe de limite para empenho, mas falta caixa para pagar | Examinar **programação financeira e execução** | Abrir novo crédito não resolve automaticamente insuficiência de caixa |
+
+**Autorização e abertura são decisões diferentes.** Pela Lei nº 4.320/1964, art. 42, créditos **suplementares e especiais são autorizados por lei e abertos por decreto executivo**. A LOA pode conter autorização para abertura de **suplementares**, conforme CF, art. 165, § 8º; não se deve estender essa exceção aos especiais. Na União, créditos **extraordinários** são abertos por **medida provisória**, nos termos da CF, art. 167, § 3º, e art. 62. O art. 44 da Lei nº 4.320/1964 refere-se a abertura por decreto com imediata comunicação ao Legislativo: reproduzir essa regra geral sem a especificidade constitucional federal dá origem a um distrator.
+
+**Quatro fontes, apenas para a pergunta adequada:** a existência de **superávit financeiro do exercício anterior**, **excesso de arrecadação**, **anulação de dotação** ou **operação de crédito autorizada** deve ser examinada com base no art. 43 para suplementares e especiais. A fonte não transforma crédito suplementar em especial. O art. 43, § 3º, exige que o excesso de arrecadação considere diferenças acumuladas mês a mês e a tendência do exercício; o § 4º manda deduzir a importância dos créditos extraordinários abertos no exercício. **Arrecadação inesperada em um mês não demonstra, isoladamente, excesso disponível para o ano.**
+
+### Caso progressivo: projeto de crédito no Congresso
+
+**Etapa 1:** a LOA tem dotação de R$ 500 mil para uma atividade do Tribunal de Contas da União (TCU). A necessidade sobe para R$ 650 mil. Havendo dotação específica já existente, a espécie de reforço é **suplementar**; ainda é necessário examinar autorização, recursos e forma de abertura.
+
+**Etapa 2:** a mesma unidade quer financiar ação sem dotação específica, mas planejável desde o início do ano. A hipótese é de **especial**, não de extraordinário. É a **ausência de dotação**, e não uma emergência, que orienta a espécie.
+
+**Etapa 3:** o Executivo encaminha um **projeto de lei do Congresso Nacional (PLN)** de crédito especial. O PLN entra na [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|tramitação legislativa orçamentária]], sob exame da [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|CMO]]. **PLN não é a própria abertura do crédito:** há projeto, apreciação e atos posteriores.
+
+**Etapa 4:** para compreender um exemplo real, consulte o [quadro oficial de créditos adicionais do Congresso em 2026](https://www.congressonacional.leg.br/web/cmo/materias/quadro-de-tramitacao/-/quadro/creditos/2026). Em 07/11/2026, o **PLN 35/2026** aparecia identificado como **crédito especial**, inclusive para dotações relacionadas ao TCU e a órgãos da Justiça, enquanto o **PLN 34/2026** aparecia como **crédito suplementar**. O quadro exemplifica a **classificação de proposições reais**, sem provar que foram aprovadas ou executadas.
+
+**Etapa 5:** um crédito especial é autorizado em **outubro**, e sobra parte da autorização ao fim do exercício. O art. 167, § 2º, da CF permite sua **reabertura no exercício seguinte no limite do saldo**. Se o mesmo instrumento fosse **suplementar**, a regra constitucional excepcional de reabertura **não** se aplicaria. Para especiais e extraordinários, importa o **ato de autorização promulgado nos últimos quatro meses**, e não apenas a data do empenho ou da proposta inicial.
+
+**Questão inédita Cebraspe (C/E).** Uma proposição classificada como PLN de crédito especial, ao ser aprovada pelo Congresso, passa necessariamente a corresponder a despesa já empenhada e paga, pois a autorização legislativa substitui as etapas da execução orçamentária e financeira.
+
+**Gabarito: Errado.** A deliberação do projeto e a abertura do crédito dizem respeito à **autorização de despesa**. **Empenho, liquidação e pagamento** são atos próprios de execução, sujeitos a condições e controles. O distrator desloca uma consequência real da aprovação orçamentária para uma fase posterior que não ocorreu automaticamente.
+
+**Heurística adicional para a Câmara:** pergunte em ordem **(1) há dotação específica? (2) ela é suficiente? (3) a despesa é imprevisível e urgente? (4) qual espécie e fonte? (5) quem autoriza e como se abre? (6) trata-se de PLN em tramitação, lei vigente ou despesa executada? (7) existe hipótese de reabertura?** A classificação correta depende dessas respostas, não do nome do órgão beneficiado.
+
+**Fontes verificadas em 07/11/2026:** [Lei nº 4.320/1964, arts. 40 a 46, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html); [CF, art. 167, §§ 2º e 3º, texto e jurisprudência do STF](https://portal.stf.jus.br/Constituicao-Supremo/artigo.asp?abrirArtigo=167&abrirBase=CF); [Glossário de Termos Orçamentários do Congresso](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-orcamentario/-/orcamentario/lista/C); [CMO, tramitação de créditos em 2026](https://www.congressonacional.leg.br/web/cmo/materias/quadro-de-tramitacao/-/quadro/creditos/2026).
+
+**Decisão editorial:** **refinar e reutilizar**, sem gerar arquivo duplicado ou novo articleId. A vinculação ao concurso Câmara não significa leitura, domínio nem atualização do estado da CGU.
 
 ## Como a banca pode cobrar
 

@@ -45,6 +45,8 @@ A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha 
 
 - [[3 - Materias/Orcamento Publico/15 - emendas parlamentares deliberacao e rastreabilidade|15. Emendas parlamentares: deliberação, modalidades e rastreabilidade]]: CAM-ORC-011, autoria, tipos de emenda, admissibilidade, deliberação, indicação de beneficiários e rastreabilidade após alterações de 2025. Próxima unidade: CAM-ORC-012.
 
+- [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|CAM-ORC-012. Créditos adicionais: espécies, abertura e fontes]]: artigo canônico reutilizado e refinado com classificação de PLN, distinção entre autorização, abertura e execução e caso real de créditos em 2026. Próxima unidade: CAM-ORC-013.
+
 ## Como navegar por perguntas
 
 | Se o enunciado perguntar… | Comece por |

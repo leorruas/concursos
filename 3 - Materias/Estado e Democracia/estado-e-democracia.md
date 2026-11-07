@@ -24,7 +24,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 - [[3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito|13. Estado e sociedade: origem, funções e conflito]]: CAM-CP-004, Estado e sociedade, funções, autonomia, capacidade e conflito.
 - [[3 - Materias/Estado e Democracia/14 - teorias de formacao dos estados nacionais|14. Teorias de formação dos Estados nacionais]]: CAM-CP-005, formação estatal, nacionalismo e dez itens C/E.
 - [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|15. Formação histórica do Estado brasileiro]]: CAM-CP-006, formação histórica, períodos, autores e dez itens C/E.
-- [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|16. Regimes políticos: democracia, autoritarismo e hibridismos]]: CAM-CP-007, Schumpeter, Dahl, Linz, Levitsky e Way, Schedler, V-Dem, tipologias autoritárias, retrocesso democrático e doze itens C/E. Próxima unidade: CAM-CP-008, república e monarquia.
+- [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|16. Regimes políticos: democracia, autoritarismo e hibridismos]]: CAM-CP-007, critérios de classificação de regimes e C/E.
+- [[3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia|17. Formas de governo: república e monarquia]]: CAM-CP-008, diferenças conceituais, autores, monarquia eletiva, plebiscito de 1993, arts. 34/60 e 12 itens C/E. Próxima unidade: CAM-CP-009, sistemas de governo.
 
 ## Artigos próprios publicados
 

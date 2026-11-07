@@ -32,6 +32,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 
 - [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|21. Separação de Poderes: funções, freios e contrapesos]]: CAM-CP-012, Locke, Montesquieu, Federalistas, funções típicas e atípicas e doze itens C/E. Próxima unidade: CAM-CP-013, coalizões e relações entre Poderes.
 
+- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|22. Relações Executivo-Legislativo e formação de coalizões]]: CAM-CP-013, Abranches, Figueiredo/Limongi, Tsebelis, poderes de agenda, coalizões e doze itens C/E. Próxima unidade: CAM-CP-014, sistema eleitoral majoritário.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

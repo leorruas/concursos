@@ -98,6 +98,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|12 • Teoria política: correntes e perguntas centrais]]
    - [[3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito|13 • Estado e sociedade: origem, funções e conflito]]
    - [[3 - Materias/Estado e Democracia/14 - teorias de formacao dos estados nacionais|14 • Teorias de formação dos Estados nacionais]]
+   - [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|15 • Formação histórica do Estado brasileiro]]
 3. [[3 - Materias/Sociedade Brasileira/sociedade-brasileira|Sociedade brasileira]]
    - [[3 - Materias/Sociedade Brasileira/01 - instituicoes estratificacao e mobilidade social|01 • Instituições, estratificação e mobilidade social]]
    - [[3 - Materias/Sociedade Brasileira/02 - formacao social cidadania e hierarquias|02 • Formação social brasileira, cidadania e hierarquias]]

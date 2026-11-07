@@ -17,28 +17,68 @@ aliases:
 
 ## Núcleo do conceito
 
-Os **princípios orçamentários** orientam o conteúdo, a apresentação e a execução do orçamento público. Algumas regras constam expressamente da Constituição e da Lei nº 4.320/1964; outras são construções técnicas que explicam esses dispositivos. Em provas, o desafio costuma estar nas **fronteiras entre princípios próximos** e nas **exceções às vedações**.
+A **Lei Orçamentária Anual (LOA)** informa quanto o governo espera arrecadar e quais despesas estão autorizadas para um ano. Uma **dotação orçamentária** é um valor autorizado na LOA para realizar uma despesa determinada. Por exemplo, uma dotação pode reservar R$ 200 mil para comprar equipamentos para escolas.
 
-Imagine que uma prefeitura apresente apenas os saldos líquidos de arrecadação e transferência, não identifique os órgãos responsáveis pelos gastos e inclua na lei orçamentária um dispositivo para reorganizar secretarias. Os três problemas devem ser examinados por regras diferentes: orçamento bruto, especificação e exclusividade. Dizer apenas que houve “falta de transparência” deixa de identificar a regra decisiva.
+Os **princípios orçamentários** ajudam a verificar se essa lei foi elaborada corretamente. Cada princípio responde a uma pergunta diferente. Para acertar uma questão, identifique **qual parte do orçamento está sendo examinada**: o que entrou, os valores registrados, o detalhamento dos gastos, o conteúdo da lei ou o destino do dinheiro.
 
-O ponto de partida é [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|a lógica dos princípios]] em relação ao [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|ciclo orçamentário]] e às leis de planejamento e orçamento: Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA), detalhadas em [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]. Este texto aprofunda a dimensão normativa, sem transformar a leitura em aprendizagem registrada.
+## Qual princípio está sendo cobrado?
 
-## Mapa dos princípios: qual problema cada regra evita?
+Leia primeiro a situação concreta. Depois, associe a pergunta à regra.
 
-Em vez de decorar uma lista única de princípios, identifique o **objeto da regra**. Eles operam sobre aspectos diferentes da mesma lei e podem ser aplicados simultaneamente.
+| O que acontece no orçamento? | Regra que você deve verificar |
+| :--- | :--- |
+| O governo organiza os orçamentos fiscal, da seguridade social e de investimento na mesma LOA. | **Unidade:** os orçamentos do ente compõem um conjunto. |
+| Uma receita ou despesa que deveria constar da LOA fica de fora. | **Universalidade:** o orçamento deve abranger as receitas e despesas orçamentárias exigidas. |
+| A lei autoriza despesas para um exercício financeiro. | **Anualidade:** a autorização se refere ao exercício, em regra de janeiro a dezembro. |
+| Uma receita de R$ 10 milhões aparece como R$ 7 milhões porque foi abatida uma despesa de R$ 3 milhões. | **Orçamento bruto:** mostrar receitas e despesas por seus valores totais, sem deduções indevidas. |
+| Há uma verba única para pagar, indistintamente, pessoal, materiais e serviços, sem o detalhamento legal. | **Especificação:** identificar para que a despesa foi autorizada. |
+| A LOA contém artigo criando uma secretaria, em vez de tratar do orçamento. | **Exclusividade:** limitar os assuntos da LOA ao que a Constituição permite. |
+| A prefeitura determina um destino obrigatório para receita de impostos. | **Não afetação de impostos:** verificar a proibição de vincular impostos e suas exceções constitucionais. |
+| Um empréstimo ou uma despesa ultrapassa limites previstos na Constituição. | **Vedações do art. 167:** identificar qual operação foi proibida e a ressalva aplicável. |
 
-| Pergunta central | Conjunto | Critérios e fronteira |
-| :--- | :--- | :--- |
-| **Como reunir o orçamento e o que deve entrar?** | Unidade e universalidade | Integração dos orçamentos do ente × inclusão de receitas e despesas abrangidas |
-| **A que período pertence a autorização?** | Anualidade | Exercício financeiro, com ressalvas próprias para créditos adicionais |
-| **Como representar receitas e despesas?** | Orçamento bruto e especificação | Valores totais sem deduções × dotações discriminadas em vez de genéricas |
-| **Que conteúdo pode estar na LOA?** | Exclusividade | Previsão de receitas e fixação de despesas, com duas exceções constitucionais |
-| **O dinheiro pode ter destino previamente vinculado?** | Não afetação de impostos | Regra contra vinculação de **impostos**, com ressalvas expressas; não equivale à fonte/destinação |
-| **Quais operações ou deslocamentos estão vedados e em que condições?** | Art. 167, incluindo regra de ouro | Cada inciso tem objeto e exceções próprios; regra de ouro compara crédito com despesa de capital |
+### Quatro situações da mesma prefeitura
 
-**Caso progressivo da mesma prefeitura.** Primeiro, ela registra apenas R$ 7 milhões líquidos, porque abateu uma transferência de R$ 3 milhões de uma receita bruta de R$ 10 milhões: a pergunta é **como registrar valores**, portanto o problema é orçamento bruto. Se registrar R$ 10 milhões, mas ocultar o gasto em uma dotação genérica que cobre indistintamente material, pessoal e serviços, muda a pergunta para **como discriminar despesas**: especificação. Se ambos estiverem corretos, mas o texto da LOA reorganizar secretarias, a questão agora é **qual conteúdo a LOA admite**: exclusividade. Se a prefeitura vincular impostos a despesa específica, passamos ao conjunto **destinação**, sujeito às exceções constitucionais.
+**Orçamento bruto: quanto aparece na lei?** A prefeitura prevê arrecadar **R$ 10 milhões** e gastar **R$ 3 milhões** em uma transferência. Na LOA, registra apenas a diferença, **R$ 7 milhões**. Assim, parte do dinheiro que entra e sai desaparece da apresentação. Os dois valores deveriam ser mostrados separadamente, conforme as regras aplicáveis.
 
-Cada alteração muda a regra que deve ser consultada. Nenhuma dessas situações pode ser resolvida apenas dizendo que houve “falta de transparência”.
+**Especificação: sabemos em que será gasto?** A prefeitura registra os R$ 10 milhões de receita e os R$ 3 milhões de despesa, mas autoriza uma única dotação para pagar, sem distinção, salários, materiais e serviços. Agora os valores aparecem, mas o gasto não está suficientemente identificado. A regra relevante é a especificação, ressalvadas as hipóteses legais de dotação global.
+
+**Exclusividade: a LOA pode tratar desse assunto?** A prefeitura apresenta valores e dotações corretamente, mas acrescenta à LOA um artigo criando uma nova secretaria. Criar um órgão é assunto de organização administrativa, não uma previsão de receita nem uma fixação de despesa. Esse dispositivo esbarra na exclusividade.
+
+**Não afetação: o imposto pode ter esse destino obrigatório?** A prefeitura determina que toda a arrecadação de um imposto seja reservada a uma despesa específica. A questão passa a ser se essa vinculação é permitida pela Constituição. Há uma proibição geral para **impostos**, mas existem exceções, como saúde e educação.
+
+Os quatro problemas são independentes. Uma LOA pode respeitar orçamento bruto e, ainda assim, violar a exclusividade. **Uma regra não substitui a outra.**
+
+### Diagrama: identifique primeiro o problema
+
+```mermaid
+flowchart TB
+    R["Qual é o problema descrito na LOA?"]
+    V["Registrou receita ou despesa só pelo saldo líquido?"]
+    D["A dotação não identifica para que se vai gastar?"]
+    C["A LOA contém regra sobre assunto estranho ao orçamento?"]
+    I["Receita de imposto foi vinculada a um destino?"]
+    VB["Orçamento bruto"]
+    DE["Especificação"]
+    EX["Exclusividade"]
+    NA["Não afetação de impostos: verificar exceções"]
+    R --> V
+    R --> D
+    R --> C
+    R --> I
+    V --> VB
+    D --> DE
+    C --> EX
+    I --> NA
+    %% Fallback de alto contraste para GitHub/Obsidian; no site, cores do tema vêm do CSS.
+    classDef raiz fill:#f59e0b,stroke:#92400e,color:#111111,stroke-width:2px;
+    classDef criterio fill:#fff2d9,stroke:#b45309,color:#3d2207,stroke-width:1.5px;
+    classDef opcao fill:#fffbeb,stroke:#b45309,color:#1c1917;
+    class R raiz;
+    class V,D,C,I criterio;
+    class VB,DE,EX,NA opcao;
+```
+
+**Como usar:** o diagrama ajuda a reconhecer a regra principal do enunciado; depois é necessário conferir as **exceções** e as condições legais em cada seção abaixo.
 
 ## Unidade, universalidade e anualidade
 
@@ -96,26 +136,28 @@ O art. 5º da mesma lei impede dotações globais para cobrir indistintamente de
 
 Também é importante distinguir classificação da LOA de detalhamento utilizado na execução. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|natureza, função e elemento de despesa]].
 
-## Exclusividade e suas duas exceções constitucionais
+## Exclusividade: o que pode constar na LOA?
 
-**Pergunta central:** que assuntos podem constar no texto da LOA? A resposta exige separar proibição geral e exceções expressas do art. 165, § 8º.
+A LOA é uma **lei com assunto delimitado**. Sua tarefa principal é **prever as receitas** (quanto se espera arrecadar) e **fixar as despesas** (quanto se autoriza gastar). A **exclusividade** impede que essa lei seja usada para aprovar regras sem ligação com essas duas tarefas.
 
-O art. 165, § 8º, da Constituição proíbe que a LOA contenha dispositivo estranho à **previsão da receita e fixação da despesa**.
+**Exemplo de conteúdo permitido:** a LOA prevê R$ 12 milhões de arrecadação e fixa R$ 4 milhões para despesas de educação. **Exemplo de conteúdo proibido:** a mesma LOA contém um artigo que cria uma nova secretaria municipal e define as atribuições de seus cargos. A organização administrativa precisa de tratamento legislativo próprio. Estar no mesmo documento do orçamento não transforma essa mudança em matéria orçamentária.
 
-**Créditos suplementares × especiais: o que significam?** A Lei nº 4.320/1964, arts. 40 e 41, chama de **créditos adicionais** as autorizações de despesas não computadas ou insuficientemente dotadas na lei orçamentária. O **crédito suplementar** serve para **reforçar uma dotação específica já existente**, quando seu valor não basta. Exemplo: uma ação tem R$ 300 mil autorizados e precisa de mais R$ 100 mil para a mesma finalidade. O **crédito especial** atende **despesa para a qual não existe dotação orçamentária específica**, como uma nova ação não contemplada na LOA. Portanto, o suplementar **aumenta a autorização de uma dotação existente**; o especial **cria autorização específica para uma despesa não dotada**.
+A Constituição Federal, no **art. 165, § 8º**, permite que a LOA contenha **duas autorizações adicionais**, mesmo que não sejam, por si, a previsão de uma receita ou a fixação de uma despesa:
 
-Ambos exigem, em regra, **autorização legislativa prévia e indicação dos recursos** para abertura (CF, art. 167, V; Lei nº 4.320/1964, arts. 42 e 43). A abertura altera a autorização orçamentária, mas não comprova disponibilidade de caixa, empenho ou pagamento. O regime completo, inclusive o crédito extraordinário, está em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas parlamentares]].
+**Primeira exceção: autorizar a abertura de créditos suplementares.** Crédito suplementar é o reforço de uma dotação **que já existe**. Imagine que a LOA autorize R$ 200 mil para merenda escolar e, durante o ano, esse valor se mostre insuficiente. A própria LOA pode ter autorizado previamente a abertura de créditos suplementares, dentro das condições legais. **Autorizar a abertura não significa que o valor já foi acrescentado**, nem que foi empenhado ou pago.
 
-As exceções expressas à **exclusividade da LOA** são:
+**Segunda exceção: autorizar a contratação de operações de crédito.** Operação de crédito é, por exemplo, um empréstimo tomado pelo governo. A LOA pode conter autorização para contratá-lo, **inclusive por antecipação de receita orçamentária (ARO)**, observadas as normas aplicáveis. Essa autorização **não é a contratação do empréstimo**. E, mesmo admitida a autorização na LOA, o **ingresso de uma ARO continua extraorçamentário**: são perguntas diferentes.
 
-1. **Autorização para abertura de créditos suplementares**.
-2. **Autorização para contratação de operações de crédito**, inclusive antecipação de receita, nos termos da lei.
+**Por que a Constituição fala em crédito suplementar, mas não em crédito especial nessa exceção?** Os nomes são parecidos, mas resolvem problemas distintos:
 
-A autorização de crédito **especial** não está incluída, por simples extensão, na exceção constitucional específica para suplementares. A existência de exceções também não autoriza inserir regras sobre organização de pessoal ou estrutura de órgãos na LOA.
+- **Suplementar:** aumenta uma dotação já existente.
+- **Especial:** cria crédito para uma despesa sem dotação orçamentária específica.
 
-**Comparação que muda o gabarito:** o art. 165, § 8º, excepciona a **autorização para créditos suplementares** na LOA, enquanto a ressalva da **regra de ouro** do art. 167, III, menciona créditos **suplementares ou especiais**, desde que cumpridos seus requisitos. São dois dispositivos com objetos e condições distintos.
+A exceção do art. 165, § 8º, menciona **a autorização para créditos suplementares**, e não uma autorização genérica para créditos especiais. Créditos especiais seguem as regras próprias de autorização legislativa e abertura, explicadas em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]].
 
-A exclusividade examina **o conteúdo permitido da lei**; não se confunde com anualidade, que trata do período, nem com especificação, que trata do detalhamento da despesa.
+**Uma confusão de prova:** o art. 167, III, trata de outro assunto, a **regra de ouro**. Nessa regra aparecem créditos **suplementares ou especiais**, com requisitos próprios. O fato de uma palavra aparecer nas duas normas não permite transportar a exceção de uma para a outra.
+
+**Para decidir em itens C/E:** criar secretaria na LOA viola a exclusividade; autorizar créditos suplementares ou operações de crédito na LOA **pode ser permitido**. O julgamento exige conferir o conteúdo do dispositivo e os requisitos legais, não apenas a presença das palavras “crédito” ou “autorização”. [Constituição Federal, art. 165, § 8º](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=165&abrirBase=CF).
 
 ## Não afetação de impostos e as exceções
 
@@ -156,7 +198,7 @@ Classificar o instrumento de movimentação depende do caso e das normas pertine
 
 ## Como a banca pode cobrar
 
-Questões C/E podem deslocar a definição de **universalidade** para **unidade**; estender a não afetação a **toda receita tributária**; omitir as exceções da exclusividade; afirmar que a LOA não pode conter mais de um orçamento; trocar **regra de ouro** por **resultado primário**.
+Questões C/E podem deslocar a definição de **universalidade** para **unidade**; estender a não afetação a **toda receita tributária**; afirmar que a LOA não pode conter mais de um orçamento; trocar **regra de ouro** por **resultado primário**. Em exclusividade, o distrator mais importante é confundir **autorização para créditos suplementares** (permitida na LOA) com **créditos especiais** (fora dessa exceção específica), ou achar que autorizar um empréstimo significa contratá-lo.
 
 São mecanismos didáticos plausíveis, não estatísticas de incidência já comprovadas em provas reais Cebraspe.
 

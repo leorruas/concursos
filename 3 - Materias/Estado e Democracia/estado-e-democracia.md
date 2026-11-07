@@ -38,6 +38,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 
 - [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|24. Sistema eleitoral proporcional: quocientes, listas e efeitos]]: CAM-CP-015, lista aberta, QE, QP, requisitos 10% e 80/20, sobras abertas, suplência e três itens C/E. Próxima unidade: CAM-CP-016, partidos políticos.
 
+- [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|25. Partidos políticos: origem, funções e organização]]: CAM-CP-016, clivagens, modelos organizacionais, normas brasileiras, cláusula de desempenho e doze itens C/E. Próxima unidade: CAM-CP-017, sistemas partidários.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

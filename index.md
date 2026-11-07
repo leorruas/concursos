@@ -107,6 +107,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|21. Separação de Poderes: funções, freios e contrapesos]]
    - [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|22. Relações Executivo-Legislativo e formação de coalizões]]
    - [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|23. Sistema eleitoral majoritário: funcionamento e efeitos]]
+   - [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|24. Sistema eleitoral proporcional: quocientes, listas e efeitos]]
 3. [[3 - Materias/Sociedade Brasileira/sociedade-brasileira|Sociedade brasileira]]
    - [[3 - Materias/Sociedade Brasileira/01 - instituicoes estratificacao e mobilidade social|01 • Instituições, estratificação e mobilidade social]]
    - [[3 - Materias/Sociedade Brasileira/02 - formacao social cidadania e hierarquias|02 • Formação social brasileira, cidadania e hierarquias]]

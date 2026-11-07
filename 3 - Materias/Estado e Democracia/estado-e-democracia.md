@@ -36,6 +36,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 
 - [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|23. Sistema eleitoral majoritário: funcionamento e efeitos]]: CAM-CP-014, regras de maioria, turnos, Senado, Duverger, Cox, Rae e Lijphart, e doze itens C/E. Próxima unidade: CAM-CP-015, sistema proporcional.
 
+- [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|24. Sistema eleitoral proporcional: quocientes, listas e efeitos]]: CAM-CP-015, lista aberta, QE, QP, requisitos 10% e 80/20, sobras abertas, suplência e três itens C/E. Próxima unidade: CAM-CP-016, partidos políticos.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

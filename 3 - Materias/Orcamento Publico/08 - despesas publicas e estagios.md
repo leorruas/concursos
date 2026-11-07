@@ -122,6 +122,10 @@ A despesa **orçamentária** se refere à autorização e execução de crédito
 
 Isso se conecta a [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]. O art. 35 não autoriza afirmar que toda variação patrimonial diminutiva deve ser reconhecida somente quando houver empenho.
 
+### Aplicação ao concurso Câmara 2026
+
+Para a **CAM-ORC-014**, utilizar este artigo para os estágios de **empenho, liquidação e pagamento** e continuar em [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos#Refinamento para Câmara 2026: da liquidação aos restos a pagar (CAM-ORC-014)|refinamento integrado de restos a pagar]] para classificação de **RP processados, a liquidar e em liquidação**. A transição de exercícios não cria automaticamente uma nova dotação nem transforma pagamento em empenho. O caso numérico e as três novas questões C/E foram incorporados à nota 09, preservando ambos os artigos canônicos.
+
 ## Como pode ser cobrado
 
 As fronteiras centrais de C/E são: **fixação × empenho**, **empenho × liquidação**, **liquidação × pagamento**, **global × estimativo**, **dispensa de nota × dispensa de empenho**, **despesa orçamentária × variação patrimonial**, e **despesa empenhada no ano anterior × saída financeira posterior**.
@@ -169,4 +173,4 @@ Ao ler “**nota fiscal emitida**”, não deduzir “**objeto entregue**”. Ao
 - [Tesouro Nacional: programação financeira](https://www.gov.br/tesouronacional/pt-br/execucao-orcamentaria-e-financeira/programacao-financeira/cronograma-de-pagamento-dos-orgaos).
 - [[2 - Editais/CGU 2026 - Auditoria|Programa CGU 2026, P3.2.3]].
 
-**Pendente:** restos a pagar, despesa de exercícios anteriores, suprimento de fundos e Conta Única. Artigo preparado não comprova que foi estudado.
+**Continuidade já disponível:** [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|restos a pagar, DEA e suprimento de fundos]] e [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|Conta Única e execução financeira]]. Artigo preparado não comprova que foi estudado.

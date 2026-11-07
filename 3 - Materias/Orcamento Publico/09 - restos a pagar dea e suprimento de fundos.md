@@ -5,7 +5,7 @@ title: "Restos a pagar, despesas de exercícios anteriores e suprimento de fundo
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-07
 aliases:
   - "Restos a pagar"
   - "Restos a pagar processados e não processados"
@@ -133,6 +133,66 @@ O servidor que recebe suprimento **não se torna credor livre de prestar contas*
 ### Restituições de suprimento
 
 O MCASP distingue restituições de recursos não utilizados ou indevidamente utilizados: quando recolhidas **no próprio exercício**, em regra, produzem **anulação de despesa**; quando recolhidas **após o encerramento**, são tratadas como **receita orçamentária** sob a classificação pertinente. A temporalidade aqui importa, mas essa regra **não deve ser confundida** com o cancelamento de restos a pagar.
+
+## Refinamento para Câmara 2026: da liquidação aos restos a pagar (CAM-ORC-014)
+
+Esta seção integra os **três estágios da despesa** à classificação feita em **31 de dezembro**. O artigo sobre [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|empenho, liquidação e pagamento]] continua como pré-requisito: aqui a pergunta passa a ser **qual obrigação permanece depois do encerramento do exercício e como classificá-la sem duplicar a dotação?**
+
+**Ponto de corte:** pelo **art. 35, II, da Lei nº 4.320/1964**, a despesa pertence ao exercício em que foi **legalmente empenhada**, não necessariamente ao de pagamento. Pelo **art. 36**, despesas **empenhadas e não pagas até 31/12** podem compor restos a pagar, observadas as condições legais de inscrição e a exceção sobre créditos com vigência plurianual. A **liquidação** determina a distinção entre as espécies: **processados**, quando já liquidada; **não processados**, quando ainda não liquidada. O **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição, seção 4.7**, subdivide os não processados em **a liquidar** e **em liquidação**.
+
+| Situação em 31/12 | O que já ocorreu | Classificação a examinar | Estágio restante |
+| :--- | :--- | :--- | :--- |
+| Empenho de R$ 200 mil; entrega comprovada e liquidação integral; nenhum pagamento | Empenho e liquidação | **R$ 200 mil de RP processados** | Pagamento |
+| Empenho de R$ 150 mil; ainda não houve entrega nem fato gerador reconhecido | Empenho | **R$ 150 mil de RP não processados, a liquidar** | Liquidação e pagamento |
+| Empenho de R$ 100 mil; serviço prestado no exercício, mas conferência formal ainda em andamento | Empenho e fato gerador, sem liquidação formal completa | **R$ 100 mil de RP não processados, em liquidação** | Concluir liquidação e pagar |
+| Serviço de exercício encerrado cujo compromisso só foi reconhecido depois, sem RP válido que o suporte | Obrigação referente ao exercício anterior, em hipótese do art. 37 | **Avaliar DEA**, com dotação própria do orçamento atual | Reconhecimento, empenho no exercício corrente e demais atos cabíveis |
+| Empenho de R$ 100 mil, dos quais R$ 70 mil foram pagos no mesmo exercício | Empenho, liquidação e pagamento parcial | **Examinar os R$ 30 mil remanescentes**, classificados conforme liquidação | Etapas pendentes sobre o saldo |
+
+**Restos a pagar processados não significam que o dinheiro já foi pago.** A palavra **processado** indica que a despesa já passou pela **liquidação**, e não que todos os atos, inclusive o desembolso, foram concluídos. **Restos a pagar não processados não significam ausência de empenho**: ambos os grupos foram empenhados.
+
+### Caso progressivo: uma compra da Câmara dos Deputados
+
+**1. Orçamento autorizado.** A Lei Orçamentária Anual (LOA) prevê R$ 500 mil para equipamento de comunicação da Câmara. A dotação não prova contratação, entrega ou pagamento.
+
+**2. Empenho.** A unidade competente empenha R$ 300 mil em 2026. O ato compromete crédito e, para fins do art. 35, vincula a despesa ao exercício de **2026**.
+
+**3. Entrega parcial e liquidação.** Até 31 de dezembro de 2026, equipamentos de **R$ 180 mil** foram recebidos e devidamente liquidados; os demais **R$ 120 mil** ainda não foram entregues nem liquidados. Nenhum pagamento ocorreu.
+
+**4. Encerramento.** Observados os requisitos legais de inscrição, o valor é repartido em **R$ 180 mil processados** e **R$ 120 mil não processados**. **Total: R$ 300 mil**, sem contar a dotação original de R$ 500 mil outra vez como nova despesa.
+
+**5. Pagamento em 2027.** A Câmara paga R$ 180 mil do RP processado. O pagamento **usa saldo de obrigação orçamentária do exercício anterior**, não deve ser automaticamente interpretado como novo empenho de R$ 180 mil na LOA de 2027.
+
+**6. Uma variável muda.** Suponha que os R$ 120 mil restantes correspondam a bens entregues em dezembro de 2026, mas com verificação administrativa formal pendente. O saldo pode se enquadrar como **não processado em liquidação**, e não como já liquidado, conforme os registros e critérios do MCASP. **Fato gerador × liquidação formal** exige atenção.
+
+**7. Outro contrato.** Surge serviço de 2026 cujo compromisso só é reconhecido em 2027, sem empenho anterior válido e sem inscrição em RP que o suporte. A hipótese precisa ser confrontada com o **art. 37** e a categoria **Despesas de Exercícios Anteriores (DEA)**; não se deve classificar todo gasto antigo automaticamente como RP.
+
+**Fronteira especial:** o art. 36, parágrafo único, da Lei nº 4.320/1964 dispõe que empenhos à conta de **créditos com vigência plurianual**, não liquidados, só serão computados como restos a pagar **no último ano de vigência do crédito**. A regra geral de 31/12 deve ser lida com essa exceção expressa.
+
+### Condição financeira e controle
+
+A inscrição em RP está sujeita às condições de **disponibilidade financeira**, responsabilidade fiscal e procedimentos aplicáveis. O art. 42 da **Lei de Responsabilidade Fiscal (LRF)** contém proibição própria para obrigações de despesa contraídas **nos últimos dois quadrimestres do mandato**, sem cobertura financeira nos termos legais; essa condição **não pode ser reduzida** a “é proibido qualquer resto a pagar em todos os anos”. O MCASP, seção 4.7, distingue o requisito de inscrição e os controles de pagamento, liquidação e cancelamento.
+
+**Cancelamento de RP ≠ extinção automática de toda obrigação material.** É necessário examinar se o crédito ou obrigação subsiste e qual tratamento jurídico e contábil é cabível. Também não transformar todo cancelamento em “receita orçamentária nova” sem distinguir as regras normativas, os registros e o exercício.
+
+### Itens inéditos Cebraspe (C/E)
+
+**1.** Uma despesa empenhada e integralmente liquidada em dezembro, mas não paga até o encerramento do exercício, deve ser examinada como resto a pagar processado, e seu pagamento no exercício seguinte não desloca automaticamente a despesa orçamentária para a LOA desse novo exercício.
+
+**Gabarito: Certo.** A liquidação define **processado**; a despesa pertence ao exercício do empenho (arts. 35 e 36). **Mecanismo:** confundir exercício do empenho com exercício do desembolso.
+
+**2.** Os restos a pagar não processados são despesas que não chegaram a ser empenhadas, embora tenham sido reconhecidas contabilmente como obrigações no exercício anterior.
+
+**Gabarito: Errado.** RP pressupõe **empenho**, e a ausência de **liquidação** caracteriza os não processados. **Mecanismo:** trocar o marco da classificação pelo ato errado.
+
+**3.** Quando o bem foi recebido no exercício anterior, mas a liquidação formal ainda está pendente no encerramento, deve-se classificar a despesa obrigatoriamente como resto a pagar processado, pois o fato gerador dispensa qualquer verificação documental posterior.
+
+**Gabarito: Errado.** O MCASP diferencia **RP não processados em liquidação** de processados, e a entrega material não equivale automaticamente ao cumprimento da liquidação formal. **Mecanismo:** transpor fato gerador para estágio concluído.
+
+**Heurística:** **Empenhou?** Se não há empenho válido, investigar outras categorias, como DEA nos casos legais. **Pagou?** Se ainda não, examinar RP. **Liquidou?** Se sim, processado; se não, não processado, distinguindo **a liquidar × em liquidação**. **Mudou o exercício?** O art. 35 acompanha o empenho, não o pagamento. **Crédito plurianual ou final de mandato?** Examinar, respectivamente, a exceção do art. 36 e a LRF.
+
+**Fontes:** [Lei nº 4.320/1964, arts. 35–37 e 58–65, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html); [MCASP, 11ª edição, Parte I, seção 4.7, Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1); [LRF, arts. 42 e 55](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm).
+
+**Decisão editorial:** esta expansão detalha a integração entre estágios e encerramento do exercício **dentro da nota canônica existente**. A vinculação à Câmara preserva os mesmos articleIds compartilhados com a CGU; não registra domínio, resposta a item ou retenção.
 
 ## Como pode ser cobrado
 

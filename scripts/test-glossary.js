@@ -24,6 +24,8 @@ assert(home.includes('id="nav-link-glossario"') && home.includes('id="home-gloss
 assert(home.includes('id="glossario-artigo"') && home.includes('id="glossario-organizacao"'), 'Filtros por artigo e organização ausentes da interface');
 assert(home.includes('id="glossario-voltar-topo"') && home.includes('class="glossario-voltar-topo"'),
   'Botão voltar ao topo deve estar visível no glossário sem depender da rolagem');
+assert(home.includes('aria-hidden="true">↑</span>'),
+  'Botão voltar ao topo deve usar apenas uma seta, preservando descrição acessível');
 assert(!/id="glossario-voltar-topo"[^>]*escondido/.test(home),
   'Botão não pode iniciar oculto no próprio elemento; sua seção controla a visibilidade');
 const glossaryUI = fs.readFileSync(path.join(root, 'web/09-glossary.js'), 'utf8');
@@ -37,6 +39,8 @@ assert(!glossaryUI.includes('class="glossario-grupo"'), 'Classe de grade dos art
 assert(style.includes('.glossario-artigo-grupo{display:block;'), 'Grupos do glossário devem empilhar título e verbetes');
 assert(style.includes('.glossario-voltar-topo{position:fixed;'),
   'Botão voltar ao topo deve ficar fixo e restrito ao glossário');
+assert(style.includes('@media(max-width:650px){.glossario-voltar-topo{display:grid;'),
+  'Botão voltar ao topo deve permanecer disponível no celular');
 assert(style.includes('.glossario-grupo {\n    display: grid;'), 'Grade dos glossários internos dos artigos deve ser preservada');
 assert.equal(parsearHashVault('#/glossario?concurso=cgu-2026').tipo, 'glossario');
 assert.equal(parsearHashVault('#/glossario/glo-ppa?concurso=cgu-2026').termoId, 'glo-ppa');

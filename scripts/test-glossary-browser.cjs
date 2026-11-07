@@ -43,9 +43,9 @@ const assert = require('node:assert/strict');
         const button = node.getBoundingClientRect();
         return { position: style.position, resultsBottom: results.bottom, buttonTop: button.top };
       });
-      assert.equal(floating.position, 'static', 'Botão móvel não deve cobrir definições');
-      assert.ok(floating.buttonTop >= floating.resultsBottom,
-        'Botão de retorno deve ficar após a lista no fluxo do documento');
+      assert.equal(floating.position, 'fixed', 'Botão móvel deve permanecer disponível durante a rolagem');
+      assert.ok(floating.buttonTop >= 0,
+        'Botão de retorno deve permanecer dentro da área visível');
     }
 
     await page.screenshot({ path: path.join(output, 'glossario-' + width + '-detalhe.png') });

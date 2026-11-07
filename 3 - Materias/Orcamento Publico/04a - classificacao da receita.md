@@ -108,7 +108,7 @@ Na doutrina, receitas **originárias** decorrem, em regra, da exploração do pa
 | Imposto sobre a propriedade predial e territorial urbana (IPTU) | Derivada | Receita corrente de impostos |
 | Venda de imóvel público | Originária, em regra | Receita de capital por alienação de bens |
 
-**Heurística:** *originária* não é sinônimo de *patrimonial*. A expressão **receita originária** pertence à doutrina; a palavra **origem** na classificação por natureza nomeia outro nível de organização das receitas. Os critérios podem descrever o mesmo recebimento sem conflito. Ver também [[3 - Materias/Orcamento Publico/lembretes-e-distincoes-para-prova|Lembretes e distinções para a prova]].
+**Heurística:** *originária* não é sinônimo de *patrimonial*. A expressão **receita originária** pertence à doutrina; a palavra **origem** na classificação por natureza nomeia outro nível de organização das receitas. Os critérios podem descrever o mesmo recebimento sem conflito. Ver também [[3 - Materias/Orcamento Publico/lembretes-orcamento-publico|Lembretes e distinções para a prova]].
 
 ### Receita orçamentária × ingresso extraorçamentário
 

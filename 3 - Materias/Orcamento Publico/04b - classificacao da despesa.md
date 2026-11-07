@@ -160,7 +160,7 @@ A natureza da despesa responde **qual é o tipo e o objeto do gasto**. A classif
 | **Correntes** | Pessoal e Encargos Sociais; Juros e Encargos da Dívida; Outras Despesas Correntes |
 | **De capital** | Investimentos; Inversões Financeiras; Amortização da Dívida |
 
-**Lembrete dos números:** os GNDs **1, 2 e 3** são correntes; **4, 5 e 6** são de capital. O grupo indica **a categoria econômica ampla** do gasto, enquanto o elemento indica **o objeto** que se adquire ou paga. Elemento pode abranger bens, serviços e outros objetos, não se limita a coisas intangíveis. A síntese está em [[3 - Materias/Orcamento Publico/lembretes-e-distincoes-para-prova|Lembretes e distinções para a prova]].
+**Lembrete dos números:** os GNDs **1, 2 e 3** são correntes; **4, 5 e 6** são de capital. O grupo indica **a categoria econômica ampla** do gasto, enquanto o elemento indica **o objeto** que se adquire ou paga. Elemento pode abranger bens, serviços e outros objetos, não se limita a coisas intangíveis. A síntese está em [[3 - Materias/Orcamento Publico/lembretes-orcamento-publico|Lembretes e distinções para a prova]].
 
 “Corrente” é categoria econômica, e **não quer dizer frequente**. “Capital” também não significa gasto de grande valor. Pagar juros da dívida é despesa corrente; devolver o principal é despesa de capital (Amortização da Dívida). Construir um laboratório ou adquirir equipamento novo pode entrar em **Investimentos**; certas compras de imóveis sem vinculação à execução de obras e certas participações societárias são **Inversões Financeiras**. A classificação exata depende das condições legais: comprar algo pronto **não transforma qualquer bem em inversão financeira**.
 

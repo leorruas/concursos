@@ -1,6 +1,6 @@
 ---
 articleId: art-3e62a81df4c74b90
-articleAliases: ["3 - Materias/Orcamento Publico/lembretes-e-distincoes-para-prova.md"]
+articleAliases: ["3 - Materias/Orcamento Publico/lembretes-orcamento-publico.md"]
 title: "Lembretes e distinções para a prova"
 type: "artigo"
 status: "ativo"
@@ -10,7 +10,7 @@ updated: 2026-11-07
 
 # Lembretes e distinções para a prova
 
-==Este artigo reúne anotações curtas da matéria. O texto original do lembrete fica sem destaque; as precisões acrescentadas pelo assistente são marcadas com ==destaque do Obsidian==. Os lembretes complementam a teoria e não indicam desempenho ou conclusão de estudo.==
+==Este artigo reúne anotações curtas da matéria. O texto original do lembrete fica sem destaque; as precisões acrescentadas pelo assistente recebem destaque do Obsidian. Os lembretes complementam a teoria e não indicam desempenho ou conclusão de estudo.==
 
 ==**Como acrescentar:** envie `#lembrete` com a anotação. Preservar a frase original e acrescentar precisões verificáveis abaixo.==
 

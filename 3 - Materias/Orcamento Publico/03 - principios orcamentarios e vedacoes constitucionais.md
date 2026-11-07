@@ -90,6 +90,10 @@ O art. 5º da mesma lei impede dotações globais para cobrir indistintamente de
 
 **A ressalva do art. 20 merece leitura literal:** seus investimentos devem ser discriminados por projetos de obras e outras aplicações; o parágrafo único admite **dotações globais, classificadas como despesas de capital, para programas especiais de trabalho que, por sua natureza, não possam seguir as normas gerais de execução da despesa**. Essa é uma hipótese específica, não autorização geral para misturar pessoal, serviços e materiais numa dotação genérica. A existência de outras reservas e regimes legalmente admitidos exige examinar a norma aplicável; não concluir que toda agregação é proibida.
 
+**A dotação global não dispensa toda informação:** o **art. 22, IV, da Lei nº 4.320/1964** exige que a **proposta orçamentária** especifique os programas especiais custeados por dotações globais, apresentando **metas**, **estimativas dos custos das obras e serviços** e **justificativas econômica, financeira, social e administrativa**. O contraste é este: o art. 5º impõe a **regra geral de discriminação**; o art. 20, parágrafo único, abre uma **exceção para programas especiais**; o art. 22, IV, mantém **exigências de informações na proposta**. [Texto da Lei nº 4.320/1964](https://legis.senado.leg.br/norma/546169/publicacao/34620275).
+
+**Três frases para testar a fronteira:** “toda dotação global é vedada” é falsa diante da exceção legal. “todo programa pode receber dotação global” também é falsa, pois o art. 20 exige condição específica. “a dotação global exclui a indicação de metas e custos na proposta” é falsa diante do art. 22, IV. O **programa especial de trabalho** dessa regra não deve ser confundido automaticamente com a **ação do tipo projeto** da classificação programática ou com o **GND 4, Investimentos**.
+
 Também é importante distinguir classificação da LOA de detalhamento utilizado na execução. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|natureza, função e elemento de despesa]].
 
 ## Exclusividade e suas duas exceções constitucionais

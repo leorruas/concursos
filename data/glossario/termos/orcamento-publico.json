@@ -915,8 +915,8 @@
       "aliases": [],
       "definition": "É a receita obtida quando o Estado explora seus bens ou realiza atividades remuneradas, como alugar um prédio público. Originária é uma categoria doutrinária: uma distinção criada por estudiosos para explicar como o dinheiro é obtido, e não um nível da classificação orçamentária oficial.",
       "contrast": "Na doutrina, receitas originárias resultam da exploração de bens ou de atividades econômicas do Estado; receitas derivadas vêm do poder de impor obrigações, como tributos. No classificador oficial por natureza, o aluguel é receita corrente patrimonial e o IPTU é receita corrente de impostos. Originária e patrimonial descrevem dois critérios diferentes; a venda de imóvel é, em regra, originária na doutrina e receita de capital por alienação no orçamento.",
-      "cebraspeTrap": "Não confundir originária com receita de capital, nem imaginar que todo dinheiro recebido pelo Estado é derivado porque foi pago a um órgão público.",
-      "example": "Uma universidade pública recebe aluguel pelo uso permitido de um espaço que administra. O valor pode ser receita originária porque vem da exploração de bem, e receita corrente patrimonial pela classificação econômica. Já cobrar imposto de um contribuinte é receita derivada.",
+      "cebraspeTrap": "É falso tratar toda cobrança relacionada a atividade estatal como originária. Taxa de fiscalização é tributo e receita derivada, enquanto preço público por estacionamento pode ser originário. 'Originária' não é sinônimo de 'patrimonial' na classificação oficial.",
+      "example": "O Estado aluga um espaço que administra: a receita pode ser originária pela exploração do bem. Um estacionamento municipal pode cobrar preço público, também originário em regra. A taxa pela fiscalização de estabelecimentos, por ser tributo ligado ao poder de polícia, é receita derivada.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -1751,9 +1751,9 @@
         "Projeto orçamentário"
       ],
       "definition": "É uma ação orçamentária com começo e fim previstos que contribui para expandir ou melhorar a atuação do governo. Construir uma escola ou implantar uma estrutura de atendimento pode ser exemplo de projeto.",
-      "contrast": "Projeto é uma categoria de ação, definida por duração limitada e finalidade de expansão ou aperfeiçoamento. Atividade mantém serviços de forma contínua. O grupo de natureza da despesa (GND) Investimentos é outra classificação: um projeto pode envolver mais de um tipo de gasto e não se define apenas pelo grupo econômico.",
-      "cebraspeTrap": "A banca pode trocar projeto orçamentário por investimento como se fossem o mesmo código. Projeto descreve a forma da ação; GND descreve a natureza do gasto.",
-      "example": "Uma ação de modernização de biblioteca, limitada no tempo, pode comprar computadores permanentes pelo GND Investimentos e contratar capacitação pelo GND Outras Despesas Correntes. O nome projeto descreve a ação, sem obrigar todos os seus gastos ao mesmo grupo econômico.",
+      "contrast": "Projeto é um tipo de ação orçamentária: tem duração limitada e busca ampliar ou aperfeiçoar a atuação do governo. Atividade mantém serviços de forma contínua. Investimentos é um Grupo de Natureza da Despesa (GND), ou seja, uma classificação de cada gasto. Um projeto pode pagar serviços correntes e comprar equipamentos de capital; uma atividade também pode comprar equipamentos de capital.",
+      "cebraspeTrap": "Associar automaticamente todo gasto de um projeto ao GND Investimentos é erro de transposição de classificações. Também é falso afirmar que uma atividade só pode conter despesas correntes.",
+      "example": "Um projeto para implantar um posto de saúde pode comprar computadores (GND Investimentos) e contratar treinamento dos servidores (GND Outras Despesas Correntes). A ação continua sendo um projeto. Uma atividade de atendimento continuado também pode comprar equipamentos permanentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2175,9 +2175,9 @@
         "GND Inversões Financeiras"
       ],
       "definition": "É um grupo de despesa de capital que reúne operações como a aquisição de imóveis ou outros bens nas situações previstas pela classificação legal, além de determinadas participações financeiras. Um exemplo comum é comprar imóvel já existente sem relação com execução de obra.",
-      "contrast": "Investimentos podem incluir construir um imóvel e comprar equipamentos permanentes; Inversões Financeiras podem incluir comprar imóvel já pronto, conforme a finalidade e as regras. Amortização da Dívida é o grupo usado para devolver o principal de empréstimo. O simples fato de um bem durar muitos anos não resolve a diferença: é necessário examinar a operação concreta.",
-      "cebraspeTrap": "Comprar imóvel pronto não deve ser automaticamente classificado como Investimentos apenas porque se trata de bem durável.",
-      "example": "Um município constrói prédio novo para escola: o gasto pode ser Investimentos. Se compra prédio já existente, sem vinculá-lo à execução de obra, a compra pode ser Inversões Financeiras. Ambos são despesas de capital, mas pertencem a grupos distintos.",
+      "contrast": "Investimentos (GND 4) podem incluir imóveis necessários à execução de obras, além da construção e compra de equipamentos permanentes. Inversões Financeiras (GND 5) abrangem, entre outras operações, a aquisição de imóveis não vinculada à execução de obras. O bem ser terreno ou prédio pronto não determina sozinho o grupo: examine a finalidade e a operação.",
+      "cebraspeTrap": "É errado afirmar que todo terreno é Investimentos ou que toda compra de imóvel é Inversões Financeiras. Um terreno necessário à execução de obra pode ser Investimentos; sem essa vinculação, a aquisição pode enquadrar-se em Inversões Financeiras.",
+      "example": "O município compra terreno para construir uma escola: a aquisição pode integrar Investimentos. Outro terreno é adquirido sem vínculo com a execução de obras: a aquisição pode integrar Inversões Financeiras, observadas as normas da operação.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -2422,6 +2422,34 @@
         {
           "label": "MTO 2026: classificação por natureza da receita",
           "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-dotacao-global",
+      "term": "Dotação global",
+      "aliases": [
+        "Dotações globais",
+        "Dotação global de programa especial"
+      ],
+      "definition": "É uma autorização orçamentária apresentada de forma agregada para atender a um conjunto de gastos. A Lei nº 4.320/1964 restringe dotações globais indistintas, mas admite essa forma para certos programas especiais de trabalho, classificados entre as despesas de capital.",
+      "contrast": "A especificação exige discriminar os gastos na forma legal (art. 5º). A exceção do art. 20, parágrafo único, só vale para programas especiais cuja natureza impeça seguir as regras gerais de execução. Mesmo nesses casos, o art. 22, IV, exige indicar, na proposta orçamentária, metas, estimativas de custos das obras e serviços e justificativas econômica, financeira, social e administrativa. Não confundir programa especial com ação orçamentária do tipo projeto, nem concluir automaticamente GND Investimentos.",
+      "cebraspeTrap": "Tanto 'toda dotação global é proibida' quanto 'qualquer programa pode ter dotação global' ignoram a condição legal. A exceção não elimina a especificação de metas, custos e justificativas na proposta orçamentária.",
+      "example": "Uma proposta orçamentária prevê um programa especial que, por sua natureza, não pode seguir as regras comuns de execução. Se satisfizer o art. 20, poderá receber dotação global entre despesas de capital, mas a proposta deve detalhar suas metas e estimativas de custos e justificar o programa.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-a2f47c0d6e184e93"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, arts. 5º, 20, parágrafo único, e 22, IV; Senado Federal",
+          "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275"
         }
       ],
       "status": "reviewed"

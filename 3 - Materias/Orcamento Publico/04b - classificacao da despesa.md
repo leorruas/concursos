@@ -136,6 +136,15 @@ Há três tipos clássicos de ação:
 
 **Caso de aplicação: modernização de biblioteca.** Uma ação do tipo **projeto** prevê comprar computadores permanentes e contratar capacitação para a equipe. Os computadores podem ser registrados como **despesa de capital, GND 4: Investimentos, elemento Equipamentos e Material Permanente**; a capacitação contratada pode ser **despesa corrente, GND 3: Outras Despesas Correntes**, com o elemento adequado à contratação. A ação continua sendo **um projeto**: a classificação programática organiza **o que será feito**, enquanto categoria econômica, GND e elemento qualificam **cada gasto**. Essas classificações não se impõem mutuamente.
 
+**Teste cruzado: ação e GND variam independentemente.** A classificação da ação indica **como a atuação governamental se organiza**; a natureza da despesa indica **o que está sendo pago**. Uma mesma ação pode conter dotações em GNDs distintos; um mesmo GND pode aparecer em tipos de ação diferentes.
+
+| Tipo de ação | Exemplo em GND 3: Outras Despesas Correntes | Exemplo em GND 4: Investimentos |
+| :--- | :--- | :--- |
+| **Projeto** | Treinamento contratado para implantar uma unidade de saúde | Equipamentos permanentes adquiridos para a implantação |
+| **Atividade** | Serviço de limpeza necessário ao funcionamento contínuo da unidade | Equipamento permanente comprado para o atendimento regular da unidade |
+
+**Diagnóstico do distrator:** “o gasto integra um projeto, portanto é necessariamente investimento” aplica a classificação da **ação** à classificação do **gasto**. Também seria incorreto dizer que uma **atividade** contém apenas despesas correntes. A palavra *projeto*, sozinha, não autoriza concluir o GND.
+
 ### Caso progressivo: ação, GND e pagamento da dívida
 
 A prefeitura **constrói seis novas salas**: na dimensão programática, trata-se de um **projeto**; na natureza da despesa, a obra integra o **GND 4: Investimentos**. Quando mantém **aulas e serviços escolares regulares**, a ação pode ser uma **atividade**. Já o **pagamento do principal de uma dívida** pode figurar como **operação especial**, enquanto a natureza do gasto é **despesa de capital, GND 6: Amortização da Dívida**. O nome da ação não determina seu GND: um mesmo projeto pode executar gastos de grupos diferentes.
@@ -179,6 +188,8 @@ A **despesa com serviço corrente de limpeza** pode ter classificação por fun�
 Na escola, **manutenção rotineira** (pintura simples, troca de lâmpadas, reparos habituais) é, em regra, **despesa corrente**, em Outras Despesas Correntes. A **ampliação com novas salas** é **despesa de capital**, em Investimentos. O fato de os dois serviços ocorrerem no mesmo imóvel não determina uma classificação única. Intervenções estruturais e obras devem ser examinadas conforme seu objeto efetivo.
 
 Se a prefeitura compra **terreno necessário à execução da obra**, a aquisição integra **Investimentos (GND 4)**. Se compra **prédio existente e já em utilização**, sem vínculo com execução de obras, a aquisição se enquadra em **Inversões Financeiras (GND 5)**, observadas as condições normativas. A compra de **computadores novos** normalmente é Investimentos: o critério não é simplesmente comprar algo pronto.
+
+**O mesmo terreno pode receber grupos diferentes, conforme a finalidade:** se for comprado como parte necessária da **construção de uma escola**, a aquisição pode ser **GND 4, Investimentos**. Se for comprado **sem vínculo à execução de obras**, em operação abrangida pelas regras de aquisição de imóveis, poderá integrar **GND 5, Inversões Financeiras**. A afirmação “terreno nunca é inversão financeira” é tão inadequada quanto “toda compra de imóvel é inversão financeira”. O critério é a operação concreta e sua vinculação com obras, não apenas o nome do bem.
 
 Se o município **contrata e paga diretamente a construtora**, a modalidade é **Aplicações Diretas (90)**, mesmo que a obra seja fisicamente executada por empresa privada. Não confundir **contratação de serviço** com **repasse de recursos para outra entidade aplicá-los**. Na mesma obra, o GND pode ser Investimentos e o **elemento** pode ser Obras e Instalações. Na compra de computadores, o GND continua Investimentos, mas o elemento passa a Equipamentos e Material Permanente.
 

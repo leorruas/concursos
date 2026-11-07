@@ -121,6 +121,8 @@ Na classificação doutrinária tradicional, há **duas categorias básicas: rec
 | Imposto sobre a propriedade predial e territorial urbana (IPTU) | Derivada | Receita corrente de impostos |
 | Venda de imóvel público | Originária, em regra | Receita de capital por alienação de bens |
 
+**Taxa de fiscalização × preço público:** imagine que o município cobre uma **taxa pelo exercício do poder de polícia** ao fiscalizar uma atividade e, separadamente, cobre um **preço público** pela utilização de um estacionamento municipal. Embora ambos envolvam o Estado e possam ser receitas **correntes** na classificação econômica, a taxa é receita **derivada** na doutrina porque é tributo imposto por lei; o preço do estacionamento é, em regra, receita **originária**, pois remunera a exploração de uma atividade ou bem. “Ser cobrado pelo Estado” não basta para classificar um valor como derivado: é preciso identificar **o fundamento jurídico da cobrança**.
+
 **Heurística:** *originária* não é sinônimo de *patrimonial*. A expressão **receita originária** pertence à doutrina; a palavra **origem** na classificação por natureza nomeia outro nível de organização das receitas. Os critérios podem descrever o mesmo recebimento sem conflito. Ver também [[3 - Materias/Orcamento Publico/lembretes-orcamento-publico|Lembretes e distinções para a prova]].
 
 ### Receita orçamentária × ingresso extraorçamentário

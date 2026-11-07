@@ -3212,6 +3212,15 @@
       "editorialPriority": "A",
       "articleCandidate": "3 - Materias/Orcamento Publico/04a - classificacao da receita.md",
       "status": "planned"
+    },
+    {
+      "id": "glo-dotacao-global",
+      "term": "Dotação global",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+      "status": "planned"
     }
   ],
   "description": " Classificações adicionais de Orçamento Público ampliadas após a versão inicial de 200 termos."

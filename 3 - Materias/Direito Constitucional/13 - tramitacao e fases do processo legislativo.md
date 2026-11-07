@@ -127,6 +127,132 @@ A **tramitação de projeto na Câmara**, a **revisão no Senado**, a **sanção
 
 **Exceção de espécie:** proposta de emenda à Constituição aprovada em dois turnos por **três quintos em cada Casa** é promulgada pelas **Mesas da Câmara e do Senado**, sem sanção ou veto. Projetos de decreto legislativo e de resolução também têm disciplina própria. O detalhamento dessas diferenças pertence às unidades CAM-PL-007 e CAM-PL-011 a 015 e à nota [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|constitucional canônica]].
 
+## Refinamento para Câmara 2026: procedimento ordinário, regime e prazos (CAM-PL-008)
+
+**Pergunta de entrada:** um projeto de lei ordinária é apresentado por deputada federal e distribuído a duas comissões de mérito, à Comissão de Finanças e Tributação (CFT), por causa de impacto orçamentário, e à Comissão de Constituição e Justiça e de Cidadania (CCJC). Um parecer jornalístico diz que o projeto tramita no **rito ordinário** e que a comissão dispõe de **quarenta sessões** para deliberar. Outro afirma que o mesmo projeto precisará, por isso, de votação final no Plenário. **As duas afirmações não têm a mesma base:** o regime define prazos e tratamento processual; a **forma de apreciação** depende da espécie e das exceções do art. 24, II, do Regimento.
+
+A unidade **CAM-PL-003** já apresenta **recebimento, comissões, Plenário, revisão e atos posteriores**. Este refinamento **CAM-PL-008** acrescenta aquilo que faltava: **o procedimento-padrão de projetos de lei em tramitação ordinária na Câmara, seu fundamento de enquadramento e os prazos internos das comissões**. Evita-se criar outro artigo com a mesma sequência geral. Os regimes **de prioridade e de urgência** são contrastados aqui para estabelecer fronteiras, mas seu exame especializado fica para **CAM-PL-009 e CAM-PL-010**.
+
+### Três sentidos da palavra «ordinário»
+
+| Expressão | O que significa | Critério de identificação | Erro de prova |
+| :--- | :--- | :--- | :--- |
+| **Lei ordinária (LO)** | Espécie normativa do **art. 59, III, da CF**, em contraste com lei complementar | Espécie e matéria constitucionalmente reservada | Afirmar que toda **lei ordinária** tramita sempre em **regime ordinário** |
+| **Procedimento legislativo ordinário** | Modelo geral de formação de leis: iniciativa, instrução, deliberação, revisão e atos finais, com ressalva de ritos especiais | Função e ordem das etapas | Tratar a descrição didática como prazo único do Regimento |
+| **Regime de tramitação ordinária** | Regime residual do **RICD, art. 151, III**, para projetos fora das hipóteses de urgência e prioridade | Enquadramento regimental de cada proposição | Confundir o regime de **prazo** com a decisão **conclusiva ou plenária** |
+
+**Art. 151, III, do RICD:** têm tramitação ordinária **os projetos não compreendidos nos incisos anteriores**, que tratam de urgência (I) e prioridade (II). É uma **categoria residual**, não sinônimo de todo projeto de lei ordinária. Um projeto de **lei ordinária de iniciativa do Executivo**, por exemplo, pode enquadrar-se em **prioridade pelo art. 151, II, a**, ou em **urgência** quando estiverem atendidos os requisitos constitucionais ou regimentais. Mudar **o autor** ou **o regime validamente atribuído** pode alterar os prazos sem mudar a **espécie normativa**.
+
+**Regime de tramitação × forma de apreciação:** o projeto pode tramitar **ordinariamente e ser apreciado conclusivamente pelas comissões**, ou tramitar ordinariamente e **exigir Plenário** por não se enquadrar no poder conclusivo. A modalidade conclusiva não é a categoria “quarto regime” ao lado de urgência, prioridade e ordinária.
+
+### Mapa operacional do projeto de lei em regime ordinário
+
+**1. Apresentação e recebimento.** O legitimado apresenta o projeto à Mesa. Nos termos dos **arts. 131, 137 e 138 do RICD**, a proposição é identificada, numerada, datada, publicada e despachada para instrução. O exame de **iniciativa** e das condições de recebimento não equivale ao julgamento do mérito. Se houver devolução nas hipóteses do art. 137, § 1º, o § 2º prevê **recurso ao Plenário em cinco sessões**, observada a audiência da CCJC.
+
+**2. Despacho de distribuição.** Pelo **art. 139**, a distribuição às comissões competentes ocorre **em duas sessões depois do recebimento na Mesa**. A Presidência verifica projetos correlatos e possível **apensação**, sem fusão automática. A instrução envolve comissões de **mérito**, a **CFT** para adequação financeira/orçamentária pública quando aplicável e a **CCJC** obrigatoriamente para admissibilidade constitucional e técnica legislativa, ressalvadas hipóteses específicas de comissão especial.
+
+**3. Entrada e encaminhamento nas comissões.** O **art. 139, III e IV**, prevê remessa por intermédio da **Secretaria-Geral da Mesa** e tramitação entre comissões, na ordem de manifestação de mérito e admissibilidade. Nas matérias não urgentes encaminhadas a mais de uma comissão, o processo segue **de uma comissão a outra**, em regra. Essa sequência não pode ser confundida com exame **conjunto e acelerado** próprio das hipóteses de urgência.
+
+**4. Prazo para emendas quando a apreciação for conclusiva.** O **art. 119, § 1º**, abre prazo de **cinco sessões** para apresentação de emendas **nas comissões**, contado da publicação do respectivo **anúncio na Ordem do Dia das Comissões**. A regra citada pressupõe projeto **sujeito à apreciação conclusiva** (art. 119, caput). **Emenda em comissão ≠ etapa idêntica e obrigatória para todo projeto que precise de Plenário**. Uma emenda ao substitutivo segue também as condições próprias do art. 119.
+
+**5. Relatoria e decisão da comissão.** O presidente da comissão designa o relator, que apresenta **relatório e voto**. O colegiado delibera e formaliza o **parecer da comissão**. A diferença foi explicada em [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005]]; o **parecer do relator** não substitui votação do colegiado.
+
+**6. Destino da matéria.** Se o projeto puder receber **apreciação conclusiva**, o encerramento nas comissões se sujeita às condições do **art. 24, II**, e ao recurso do **art. 58**. Se o projeto depender de **Plenário**, a apreciação e a inclusão na Ordem do Dia seguem o RICD. **Art. 151, III, sozinho não determina esse destino.**
+
+**7. Bicameralismo e conclusão constitucional.** Após aprovação na Câmara, o projeto de lei será revisto pelo Senado, se a Câmara for a iniciadora, ou seguirá as etapas próprias se tiver vindo do Senado. Pelo **art. 65 da CF**, se a revisora **emendar**, o texto retorna à iniciadora; se **rejeitar**, será arquivado; se **aprovar sem alterações**, segue à etapa final aplicável. Para lei ordinária, os atos de **sanção/veto, promulgação e publicação** seguem o art. 66 nas hipóteses cabíveis, aprofundadas em [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|CAM-PL-007]].
+
+**Delimitação:** o procedimento acima é um **percurso típico, sujeito a condições**, e não cronograma universal de todo processo legislativo. Quando a proposição passa a tramitar por **prioridade**, **urgência**, rito constitucional especial, ou recebe apensação e emendas, o percurso concreto pode mudar.
+
+### Os prazos do art. 52: por comissão, não para a lei inteira
+
+| Regime da proposição | Prazo de cada comissão | Prazo inicial do relator | Principal contraste |
+| :--- | ---: | ---: | :--- |
+| **Urgência** | **5 sessões**; prazos **comuns** às comissões competentes, observado o procedimento | Regra de metade do prazo, com peculiaridades de contagem e vedação de prorrogação | Regime acelerado, com ressalvas e possibilidade de parecer em Plenário |
+| **Prioridade** | **10 sessões por comissão** | **5 sessões** | Prazos mais curtos, sem equivaler à urgência |
+| **Ordinário** | **40 sessões por comissão** | **20 sessões** | Regime residual, não prazo de aprovação total da lei |
+
+**Art. 52, caput e §§ 1º a 3º:** esses prazos são para **a comissão examinar e decidir**; o relator recebe **metade do prazo concedido à comissão para oferecer parecer**. Para a tramitação ordinária, isso representa **40 sessões por comissão** e **20 sessões inicialmente para o relator**, ressalvadas as regras de prorrogação, substituição e atos posteriores.
+
+**Prorrogação:** o presidente da comissão poderá, **a requerimento fundamentado do relator**, conceder prorrogação **nos limites do art. 52, § 2º**, **exceto em urgência**. Não há prorrogação automática: uma afirmação de que o relator “tem direito incondicional ao dobro do prazo” desconsidera o **requerimento e a decisão do presidente**.
+
+**Atraso do relator:** esgotado seu prazo, o presidente da comissão **avocará a proposição ou designará outro membro**, que, **na tramitação ordinária**, dispõe de prazo **improrrogável de cinco sessões** para relatá-la, conforme **art. 52, § 3º**. Na prioridade, o prazo dessa substituição é **duas sessões**. Não se deve confundir esses **cinco dias/sessões do novo relator** com os **cinco dias de recurso à votação conclusiva** ou os **cinco dias para apresentação de emendas**: objetos e marcos diversos.
+
+**Atraso da comissão:** os **§§ 4º a 6º do art. 52** disciplinam maneiras de evitar paralisação após esgotamento de prazos, incluindo **pedido do autor para inclusão na Ordem do Dia**, mecanismos internos de apreciação e a possibilidade de **o presidente da Câmara encaminhar a proposição à comissão seguinte ou ao Plenário**, conforme o caso e as condições legais. **Prazo esgotado não produz aprovação ou rejeição automática.** Também não dispensa toda a instrução e publicidade indispensáveis à espécie.
+
+**Sessões ≠ dias corridos.** Pelo portal oficial de contagem de prazos da Câmara, apenas uma sessão elegível conta por dia, e **sessões solenes e preparatórias** não contam para esse fim. Assim, **40 sessões** não são automaticamente **40 dias úteis**, nem significam um prazo fixo em calendário que encerra toda a tramitação, sobretudo quando há mais de uma comissão.
+
+### Preferência de pauta não é uma nova espécie de projeto
+
+O **art. 159, § 1º**, dá **preferência** aos projetos em urgência sobre os em prioridade, e a estes sobre os de tramitação ordinária, observados os critérios regimentais de organização e preferência. **Preferência** pode afetar **ordem de discussão ou votação**; não transforma o projeto em espécie normativa diversa.
+
+Uma proposição pode ser **projeto de lei ordinária**, ter **regime ordinário**, estar **sujeita a apreciação conclusiva** e, dentro do colegiado, receber **parecer favorável**. São **quatro atributos que respondem a perguntas independentes**:
+- **Espécie:** qual norma pretende produzir?
+- **Regime:** urgência, prioridade ou ordinária?
+- **Apreciação:** comissões conclusivamente ou Plenário?
+- **Parecer:** qual foi a conclusão técnica e política da comissão?
+
+É possível mudar **um** desses atributos mantendo os outros. Cebraspe pode usar um enunciado longo com três classificações certas e uma errada para induzir resposta incorreta.
+
+### Caso progressivo: um projeto e seis mudanças relevantes
+
+**Cenário 1, o projeto original.** Uma deputada apresenta **projeto de lei ordinária** de matéria de iniciativa parlamentar comum, sem urgência ou prioridade por outro fundamento. O despacho o coloca em **tramitação ordinária** (art. 151, III). Esse regime resulta do **enquadramento residual**, não de uma regra de que todo projeto de lei ordinária recebe o mesmo tratamento.
+
+**Cenário 2, duas comissões de mérito.** O projeto percorre duas comissões na ordem de instrução, antes de CFT e CCJC quando cabíveis. Cada comissão tem **40 sessões** para seu exame ordinário, **não um prazo global de 40 sessões para a conclusão de toda a lei**. O relator tem **20 sessões iniciais**, salvo disciplina pertinente.
+
+**Cenário 3, apreciação conclusiva.** O despacho estabelece apreciação conclusiva, e o projeto não está entre as hipóteses excluídas pelo art. 24, II. Há **cinco sessões para emendas nas comissões**, quando publicado o anúncio previsto no art. 119. A apreciação pode terminar nas comissões, sem votação ordinária no Plenário, **salvo recursos e outras condições**.
+
+**Cenário 4, a mesma lei com outro autor.** Um projeto de conteúdo semelhante é **proposto pelo Poder Executivo**. O art. 151, II, a, prevê **prioridade**, salvo hipótese de urgência; a espécie continua sendo **lei ordinária**, mas o prazo regimental da comissão muda para **10 sessões**, não 40.
+
+**Cenário 5, a relatoria atrasa.** O prazo do relator de matéria em tramitação ordinária expira. O presidente da comissão pode **avocar ou substituir**, atribuindo **cinco sessões improrrogáveis** ao novo relator. Não ocorre **rejeição automática** da matéria por falta de parecer.
+
+**Cenário 6, a revisora emenda.** O projeto é aprovado na iniciadora e recebe **emendas substanciais na Casa revisora**. Conforme **CF, art. 65**, retorna à **iniciadora para apreciação dessas emendas**, embora sua tramitação original tenha sido ordinária. A definição do regime não substitui a regra bicameral.
+
+**Variável final:** a matéria passa a receber **urgência regimental** legitimamente. O procedimento muda: alguns prazos e formalidades poderão ser dispensados, **mas o art. 152, § 1º, preserva publicação/distribuição, pareceres das comissões ou de relator designado e quórum para deliberação**. **Urgência ≠ autorização para votar validamente sem quórum.**
+
+### Itens inéditos no padrão Cebraspe: certo ou errado
+
+**1.** O fato de determinada proposição ser projeto de lei ordinária implica que seu regime de tramitação, na Câmara dos Deputados, será necessariamente ordinário, ainda que o projeto seja de iniciativa do Poder Executivo.
+
+**Gabarito: Errado.** O **art. 151, II, a**, prevê **prioridade** para projetos de iniciativa do Executivo, ressalvada urgência pertinente. **Erro de classificação:** espécie normativa trocada por regime.
+
+**2.** Na tramitação ordinária de proposição, a regra do art. 52 do RICD fixa quarenta sessões para cada comissão examinar e deliberar sobre a matéria, cabendo ao relator, inicialmente, metade desse prazo para oferecer seu parecer.
+
+**Gabarito: Certo.** **40 sessões por comissão; 20 para relator.** O prazo não deve ser deslocado para **todo o processo de formação da lei**.
+
+**3.** Esgotado o prazo de relatoria em regime ordinário, o Regimento estabelece o arquivamento definitivo do projeto, sem possibilidade de avocação ou substituição do relator.
+
+**Gabarito: Errado.** O **art. 52, § 3º**, prevê **avocação ou substituição** e prazo improrrogável de **cinco sessões** para o novo relator. **Distrator:** consequência inventada para atraso.
+
+**4.** Um projeto de lei pode tramitar em regime ordinário e, ao mesmo tempo, sujeitar-se à apreciação conclusiva pelas comissões, se não incidir hipótese de exclusão regimental desse poder.
+
+**Gabarito: Certo.** **Regime de tramitação** e **forma de apreciação** são classificações distintas. **Distrator:** confundir “conclusivo” com regime prioritário ou urgente.
+
+**5.** O prazo de cinco sessões para apresentação de emendas a projeto de apreciação conclusiva nas comissões, previsto no art. 119, substitui o prazo geral de quarenta sessões para exame da matéria por comissão em regime ordinário.
+
+**Gabarito: Errado.** São prazos para **atos diferentes**. O **art. 119** disciplina a apresentação de emendas no contexto indicado; o **art. 52** trata do exame e da decisão das comissões. **Distrator:** verdade parcial com erro de finalidade.
+
+**6.** A inclusão de proposta em regime de urgência pode permitir a dispensa de formalidades regimentais, mas não afasta os requisitos de publicação e distribuição, emissão de parecer por comissão ou relator designado e quórum para deliberação, previstos no art. 152, § 1º.
+
+**Gabarito: Certo.** A urgência tem **limites expressos**, sem eliminar atos básicos. **Distrator provável:** apresentar urgência como dispensa irrestrita.
+
+**7.** No regime ordinário, o prazo de quarenta sessões deve ser contado como prazo único para que a Câmara, o Senado e o presidente da República concluam a formação e a publicação de uma lei.
+
+**Gabarito: Errado.** O **art. 52, III**, trata de **cada comissão da Câmara**, e não do bicameralismo inteiro. **Distrator:** ampliar indevidamente o alcance institucional do prazo.
+
+**8.** Ao se esgotar o prazo de comissão, o art. 52 prevê medidas para dar continuidade à matéria, inclusive hipóteses de encaminhamento para a comissão seguinte ou para o Plenário, sem que o decurso do prazo constitua, por si, aprovação automática do projeto.
+
+**Gabarito: Certo.** **Art. 52, §§ 4º a 6º.** Medidas de continuidade não se confundem com deliberação sobre o mérito.
+
+### Relações, heurística e registro editorial
+
+**Conexões:** [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-001]] diferencia proposição e espécie normativa; [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-002]] esclarece iniciativa parlamentar/Executivo; [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004]] trata dos órgãos; [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005]] apresenta a decisão colegiada; [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|CAM-PL-006]] detalha votação; [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|CAM-PL-007]] explica os atos finais. **CAM-PL-009** aprofundará prioridade e sumário, evitando repetir o mapa geral.
+
+**Heurística:** **lei ordinária = espécie; tramitação ordinária = regime residual; apreciação conclusiva = destino da deliberação; parecer favorável = decisão de comissão**. Para prazos, **ordinário = 40 sessões/comissão, relator 20; prioridade = 10/comissão; urgência = 5 sessões em regra comum às comissões**. Nenhum desses números é, isoladamente, prazo constitucional para o Senado, o presidente da República ou a conclusão integral da lei.
+
+**Fontes oficiais conferidas em 07/11/2026:** [RICD, Resolução nº 17/1989, arts. 24, 52–58, 119, 131–139 e 151–159, texto normativo atualizado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html); [Câmara: Regime de tramitação](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/regime-de-tramitacao); [Câmara: Tramitação das proposições](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/tramitacao-das-proposicoes); [Câmara: Prazos nas comissões (art. 52)](https://educacaoadistancia.camara.leg.br/clique_regimento/card/53); [Câmara: Principais prazos e contagem de sessões](https://www2.camara.leg.br/atividade-legislativa/plenario/contagem-de-prazos/principais-prazos-do-processo-legislativo).
+
+**Decisão editorial CAM-PL-008:** **refinar nota canônica existente**, mantendo o `articleId`, caminho e vínculos da Câmara e de outros concursos; acrescentar regime ordinário e seus prazos como expansão, sem reescrever o mapa geral de CAM-PL-003. Questões inéditas de treino, não provas oficiais nem evidência de estudo ou retenção individual.
+
 ## Caso progressivo: uma mesma proposição em nove situações
 
 **1. Apresentação.** Um deputado protocola projeto de lei ordinária de tema de iniciativa comum. O projeto é **proposição**, não norma em vigor. A legitimidade inicial foi estudada em [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-002]].

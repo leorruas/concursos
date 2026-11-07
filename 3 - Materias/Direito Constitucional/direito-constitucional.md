@@ -50,6 +50,8 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|17. Sanção, veto, promulgação e publicação]]: CAM-PL-007, CF art. 66, prazos 15 dias úteis/48 horas/30 dias, veto político e jurídico, parcial e total, rejeição por maioria absoluta de cada Casa, promulgação subsidiária e vigência. **Próxima: CAM-PL-008, procedimento ordinário.**
 
+- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-008. Procedimento ordinário, regime e prazos]]: refinamento da nota **13** (mesmo `articleId`) com a distinção espécie normativa × procedimento × regime de tramitação, prazos de 40 sessões por comissão/20 do relator, emendas, atrasos e diferenças de prioridade e urgência. **Próxima: CAM-PL-009, abreviado e sumário.**
+
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).
 - **Defesa do Estado e das Instituições** (Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública).

@@ -286,6 +286,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade|08 • Poder judiciário e controle de constitucionalidade]]
   - [[3 - Materias/Direito Constitucional/09 - funcoes essenciais a justica|09 • Funções essenciais à Justiça]]
   - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|🔄 10 • Processo legislativo e poder constituinte]]
+  - [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|11. Proposições legislativas: conceito, tipos e efeitos regimentais]]
   - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|11 • Organização do Estado]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]

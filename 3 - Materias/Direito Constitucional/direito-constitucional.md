@@ -34,6 +34,10 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 - **Processo Legislativo e Teoria da Constituição**:
   - [[10 - processo legislativo e poder constituinte|🔄 10 • Processo legislativo e poder constituinte]]
 
+## Processo Legislativo e Regimentos: Câmara 2026
+
+- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|11. Proposições legislativas: conceito, tipos e efeitos regimentais]]: CAM-PL-001, art. 100 do RICD, tipos de proposições, distinção das espécies normativas do art. 59 da CF e regras regimentais de autoria, retirada e arquivamento. **Próxima unidade: CAM-PL-002, iniciativa.**
+
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).
 - **Defesa do Estado e das Instituições** (Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública).

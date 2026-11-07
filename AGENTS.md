@@ -64,6 +64,16 @@ O fluxo cotidiano descrito em `CHAT.md` usa os contextos gerados em `data/contex
 
 **Câmara 2026:** seguir [[1 - Planejamento/Camara 2026 - Arquitetura conceitual e plano de artigos|arquitetura completa por 13 trilhas e fases]], mantendo os 11 subjectIds existentes até migração explícita. Cebraspe, C/E, Cargo 1 Divulgação Institucional; prova prevista 17/01/2027. Reaproveitar teoria com CGU/Dataprev apenas quando fonte e conceito coincidirem; os itens, formato, discurso e progresso são específicos. Não simplificar para fichas de uma página ou iniciar baterias sobre termos ainda não construídos.
 
+## Lembretes de estudo: protocolo geral para qualquer matéria
+
+O marcador `#lembrete` aciona a nota de **lembretes e distinções para a prova** da matéria corrente, conforme o padrão já usado em [[3 - Materias/Contabilidade Publica/12 - lembretes e distincoes para prova|Contabilidade Pública]]. **Aplicar a todas as matérias e concursos**, sem solicitar o caminho ao estudante.
+
+- Se a nota já existe, acrescentar a anotação por tema. Se não existe, criar `lembretes-e-distincoes-para-prova.md` na pasta da disciplina, sem numeração que conflite com artigos do edital. Criar um `articleId` estável e incluir a nota no hub, no `index.md` e no catálogo do concurso, em commit atômico, seguindo as regras de novas notas.
+- Preservar **literalmente o lembrete do estudante**, sem destaque. Inserir abaixo, quando necessário, uma precisão, explicação, exceção ou contraexemplo do assistente entre marcas `==...==` do Obsidian, por exemplo `==**Precisão:** ...==`. Todo conteúdo acrescentado pelo assistente nessa nota deve ser visualmente distinguível do original. Não editar silenciosamente a frase enviada.
+- Vincular cada conceito à seção teórica canônica. Se a dúvida revelar uma lacuna geral, aprimorar também a nota teórica sem duplicar longos trechos. O glossário deve receber refinamento de verbete existente ou novo termo **somente quando houver autonomia conceitual**, com backlog e validação correspondentes. Evitar duplicatas.
+- A nota de lembretes registra conhecimento geral, **sem dados pessoais de desempenho, respostas, confiança ou histórico de erros**. Esses registros ficam somente no cofre privado. Um `#lembrete` não conta como exercício, evidência de retenção nem fechamento de artigo.
+- Respeitar o gate de integridade do `main` e confirmar publicação. Ao falhar, manter a pendência e não declarar sucesso.
+
 ## Glossário: definições completas e autocontidas (regra editorial obrigatória)
 
 **Critério de publicação:** cada verbete publicado deve ser **suficiente para compreender, reconhecer e aplicar o conceito sem depender de conversa anterior, de outro verbete ou da leitura do artigo inteiro**. “Definição completa” significa **suficiência conceitual verificável, não comprimento de texto**. Evitar resumos que só reformulam o nome, siglas sem explicação, definições que omitem condições, categorias sem fronteiras e exemplos que não ajudam a classificar casos. A existência dos campos JSON e o status `reviewed` não demonstram, por si, qualidade didática.

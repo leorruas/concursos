@@ -5,7 +5,7 @@ title: "Orçamento Público"
 type: "hub"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-07
 ---
 
 # Orçamento Público
@@ -29,6 +29,7 @@ Matéria de planejamento e execução orçamentária, receita, despesa e respons
 - [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|09. Restos a pagar, DEA e suprimento de fundos]]: liquidado × não liquidado, exercício da dotação e adiantamento.
 - [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|10. Conta Única e execução financeira]]: crédito × recurso; provisão/destaque × cota/repasse/sub-repasse.
 - [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|11. Responsabilidade fiscal e controle]]: RCL, limites de pessoal, RREO, RGF, transparência e fiscalização.
+- [[3 - Materias/Orcamento Publico/lembretes-e-distincoes-para-prova|Lembretes e distinções para a prova]]: frases enviadas com `#lembrete` e precisões destacadas; sem vínculo com o desempenho.
 
 O roteiro inicial de 11 temas ganhou quatro notas especializadas para tornar independentes os conjuntos de classificação e distinguir créditos adicionais de emendas. A publicação documenta a teoria, mas não comprova aprendizagem, retenção ou cobertura integral do edital; registros individuais pertencem ao cofre privado. A ordem de retomada real pertence ao contexto da matéria. Ver [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano completo de artigos e recuperação]].
 

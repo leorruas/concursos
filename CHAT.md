@@ -7,6 +7,10 @@
 
 Protocolo cotidiano único. Para aulas, revisões e baterias, esta entrada substitui a releitura integral de governança e histórico. Manutenção, notas novas e simulados integrais seguem `AGENTS.md` e os contratos.
 
+## Lembretes entre matérias
+
+Ao receber `#lembrete`, seguir o protocolo geral do `AGENTS.md`: preservar o texto original sem destaque na nota de lembretes da matéria e registrar precisões do assistente destacadas com `==...==`. Se relevante, refinar o artigo e o glossário. Não confundir lembrete com resposta de questão ou prova de aprendizagem.
+
 ## Encontrar o ponto de retomada
 
 Concurso explícito prevalece. Entre 12/10 e 13/12/2026, o padrão é Controladoria-Geral da União (CGU), Auditoria. As datas e aliases estão em `data/contexto-estudo/indice.json`; consultar o índice só para alias desconhecido, ambiguidade ou troca de concurso.

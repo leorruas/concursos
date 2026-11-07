@@ -913,8 +913,8 @@
       "id": "glo-receita-originaria",
       "term": "Receita originária",
       "aliases": [],
-      "definition": "É o dinheiro que o Estado obtém ao explorar seus próprios bens ou oferecer atividades remuneradas, sem cobrar com base no poder de impor tributos. Essa é uma classificação da doutrina, usada para explicar de onde vem a receita.",
-      "contrast": "Aluguel de prédio público e preços cobrados por atividades remuneradas são exemplos de receitas originárias, conforme o caso. Impostos são receitas derivadas porque a cobrança decorre de obrigação imposta por lei. Originária/derivada não é a mesma classificação que corrente/de capital: aluguel é receita corrente patrimonial, mas o nome originária descreve outra característica.",
+      "definition": "É a receita obtida quando o Estado explora seus bens ou realiza atividades remuneradas, como alugar um prédio público. Originária é uma categoria doutrinária: uma distinção criada por estudiosos para explicar como o dinheiro é obtido, e não um nível da classificação orçamentária oficial.",
+      "contrast": "Na doutrina, receitas originárias resultam da exploração de bens ou de atividades econômicas do Estado; receitas derivadas vêm do poder de impor obrigações, como tributos. No classificador oficial por natureza, o aluguel é receita corrente patrimonial e o IPTU é receita corrente de impostos. Originária e patrimonial descrevem dois critérios diferentes; a venda de imóvel é, em regra, originária na doutrina e receita de capital por alienação no orçamento.",
       "cebraspeTrap": "Não confundir originária com receita de capital, nem imaginar que todo dinheiro recebido pelo Estado é derivado porque foi pago a um órgão público.",
       "example": "Uma universidade pública recebe aluguel pelo uso permitido de um espaço que administra. O valor pode ser receita originária porque vem da exploração de bem, e receita corrente patrimonial pela classificação econômica. Já cobrar imposto de um contribuinte é receita derivada.",
       "subjectIds": [
@@ -1963,8 +1963,8 @@
       "aliases": [
         "GND"
       ],
-      "definition": "É um nível do código de despesas que reúne gastos parecidos pela sua natureza econômica. O Grupo de Natureza da Despesa (GND) tem seis grupos: Pessoal e Encargos Sociais; Juros e Encargos da Dívida; Outras Despesas Correntes; Investimentos; Inversões Financeiras; e Amortização da Dívida.",
-      "contrast": "Os três primeiros GND pertencem às despesas correntes e os três últimos às de capital. Grupo é uma categoria ampla; o elemento detalha o objeto comprado ou pago, como equipamentos ou serviços; a modalidade mostra se o órgão aplica diretamente os recursos ou os transfere para aplicação. 'Equipamentos e Material Permanente' é exemplo de elemento, não de GND.",
+      "definition": "É o nível da classificação por natureza da despesa que reúne gastos pelo seu tipo econômico. O Grupo de Natureza da Despesa (GND) possui seis grupos: 1 Pessoal e Encargos Sociais; 2 Juros e Encargos da Dívida; 3 Outras Despesas Correntes; 4 Investimentos; 5 Inversões Financeiras; 6 Amortização da Dívida.",
+      "contrast": "Os GNDs 1, 2 e 3 pertencem às despesas correntes; 4, 5 e 6 às despesas de capital. Grupo indica o tipo econômico amplo do gasto; elemento de despesa detalha seu objeto, como Material de Consumo ou Equipamentos e Material Permanente. Elemento não significa objeto intangível; modalidade de aplicação indica quem empregará os recursos e não se confunde com grupo nem elemento.",
       "cebraspeTrap": "A banca pode trocar o nome de um elemento, como Equipamentos e Material Permanente, pelo nome de um grupo. Também pode colocar juros e amortização no mesmo GND.",
       "example": "Um órgão constrói laboratório e compra computadores: os gastos podem integrar o grupo Investimentos, usando elementos diferentes conforme a compra. Já o pagamento de juros de financiamento pertence ao grupo Juros e Encargos da Dívida, não ao de amortização.",
       "subjectIds": [
@@ -2390,6 +2390,38 @@
         {
           "label": "Lei de Responsabilidade Fiscal, arts. 2º e 4º",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-doutrina-juridica",
+      "term": "Doutrina jurídica",
+      "aliases": [
+        "Doutrina",
+        "Classificação doutrinária"
+      ],
+      "definition": "É o conjunto de estudos, interpretações e conceitos produzidos por especialistas em Direito para explicar leis e organizar ideias jurídicas. Pode orientar a compreensão e a aplicação de normas, mas uma interpretação de autor não cria, por si só, obrigação legal.",
+      "contrast": "A lei resulta do processo previsto para produzir normas obrigatórias. A doutrina estuda as normas e propõe classificações; seu papel como fonte do Direito recebe interpretações acadêmicas diferentes. No orçamento, 'originária e derivada' é uma divisão doutrinária sobre como o Estado obtém receitas. Já corrente ou capital e origens como impostos e patrimonial pertencem à classificação oficial por natureza.",
+      "cebraspeTrap": "A banca pode misturar a classificação doutrinária de receitas originárias e derivadas com as origens da natureza orçamentária, tratando 'originária' como sinônimo de 'patrimonial'. Também pode apresentar um conceito doutrinário como se fosse obrigação imposta diretamente por lei.",
+      "example": "Ao receber R$ 2 mil de aluguel de prédio público, uma prefeitura obtém uma receita que a doutrina classifica como originária. No código oficial do orçamento, o mesmo recebimento é receita corrente patrimonial. São duas perguntas sobre o mesmo fato.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-f13b65a28d8c4e91"
+      ],
+      "sources": [
+        {
+          "label": "Maria Helena Diniz: Fontes do direito, Enciclopédia Jurídica PUC-SP",
+          "url": "https://enciclopediajuridica.pucsp.br/verbetes/fontes-do-direito/"
+        },
+        {
+          "label": "MTO 2026: classificação por natureza da receita",
+          "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026"
         }
       ],
       "status": "reviewed"

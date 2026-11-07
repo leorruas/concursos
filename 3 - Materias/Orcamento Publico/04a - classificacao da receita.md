@@ -5,7 +5,7 @@ title: "Classificação da receita: natureza, fonte e resultado primário"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-07
 aliases:
   - "Natureza da receita orçamentária"
   - "Receita corrente e de capital"
@@ -98,9 +98,17 @@ Para distinguir **origem da receita** de **fonte/destinação**, consulte [[3 - 
 
 ### Originária × derivada
 
-Na doutrina, receitas **originárias** decorrem de exploração do patrimônio ou atividade econômica do Estado; receitas **derivadas** se relacionam ao poder de império, como tributos. A distinção é útil conceitualmente, mas **não substitui o classificador oficial de natureza**.
+**Doutrina jurídica** é o conjunto de estudos, interpretações e conceitos elaborados por especialistas em Direito para compreender e organizar as normas jurídicas. Uma classificação doutrinária ajuda a explicar um fenômeno; **não tem, por si só, a força de uma lei**. A importância da doutrina para a interpretação do Direito é explicada por [Maria Helena Diniz, *Fontes do direito*](https://enciclopediajuridica.pucsp.br/verbetes/fontes-do-direito/).
 
-Exemplo: aluguel de imóvel público é, em regra, **receita corrente patrimonial**, enquanto na classificação doutrinária pode ser **originária**. As duas descrições não disputam a mesma categoria.
+Na doutrina, receitas **originárias** decorrem, em regra, da exploração do patrimônio ou de atividades econômicas do Estado; receitas **derivadas** decorrem do poder de imposição, como tributos. A distinção pergunta **de que maneira o Estado obtém o dinheiro**. Já a classificação **oficial por natureza** responde **que operação produziu o ingresso** e possui categoria econômica, origem e espécie, entre outros níveis.
+
+| Fato | Classificação doutrinária | Natureza oficial da receita |
+| :--- | :--- | :--- |
+| Aluguel de imóvel público | Originária | Receita corrente patrimonial |
+| Imposto sobre a propriedade predial e territorial urbana (IPTU) | Derivada | Receita corrente de impostos |
+| Venda de imóvel público | Originária, em regra | Receita de capital por alienação de bens |
+
+**Heurística:** *originária* não é sinônimo de *patrimonial*. A expressão **receita originária** pertence à doutrina; a palavra **origem** na classificação por natureza nomeia outro nível de organização das receitas. Os critérios podem descrever o mesmo recebimento sem conflito. Ver também [[3 - Materias/Orcamento Publico/lembretes-e-distincoes-para-prova|Lembretes e distinções para a prova]].
 
 ### Receita orçamentária × ingresso extraorçamentário
 

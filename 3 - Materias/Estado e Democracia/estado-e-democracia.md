@@ -42,6 +42,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 
 - [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|26. Sistemas partidários: competição, fragmentação e institucionalização]]: CAM-CP-017, Sartori, número efetivo de partidos, volatilidade e institucionalização, com três itens C/E. Próxima unidade: CAM-CP-018, instituições brasileiras e federalismo.
 
+- [[3 - Materias/Estado e Democracia/27 - organizacao politica brasileira instituicoes e federalismo|27. Organização política brasileira: instituições, federalismo e coordenação]]: CAM-CP-018, instituições brasileiras, autonomia, coordenação federativa, competências e três itens C/E. Próxima unidade: CAM-CP-019, história do voto no Brasil.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

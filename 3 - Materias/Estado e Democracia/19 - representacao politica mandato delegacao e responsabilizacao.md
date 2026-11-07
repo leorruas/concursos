@@ -104,7 +104,7 @@ Manin propõe uma sequência analítica de formas históricas:
 
 **Cuidado de cronologia:** o termo **parlamentarismo** no primeiro modelo histórico de Manin **não equivale necessariamente ao sistema de governo parlamentarista** estudado na [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|nota 18]]. Um modelo de representação pode ser analisado independentemente do mecanismo constitucional de confiança do gabinete.
 
-**Fonte:** [Manin, *The Principles of Representative Government* (Cambridge)](https://www.cambridge.org/core/books/principles-of-representative-government/4375B5B2C2EC27D9B75C4BE4F2D97506); [Stanford Encyclopedia of Philosophy, discussão dos quatro princípios](https://plato.stanford.edu/entries/political-representation/).
+**Fonte:** [Manin, *The Principles of Representative Government* (Cambridge)](https://www.cambridge.org/core/books/the-principles-of-representative-government/B5F086D557F0A0995D6FEB2730C29EC9); [Stanford Encyclopedia of Philosophy, discussão dos quatro princípios](https://plato.stanford.edu/entries/political-representation/).
 
 ## Jane Mansbridge: quatro modos de relação representativa
 
@@ -337,7 +337,7 @@ A banca pode transformar **representação descritiva em garantia de atuação s
 - Hanna F. Pitkin. *The Concept of Representation* (1967). [Suzanne Dovi, revisão no *Oxford Handbook*](https://academic.oup.com/edited-volume/34715/chapter-abstract/296446585).
 - [Stanford Encyclopedia of Philosophy, *Political Representation*](https://plato.stanford.edu/entries/political-representation/): Burke, delegado/fiduciário, Pitkin, Manin e debates de representação.
 - Edmund Burke. *Speech to the Electors of Bristol* (1774), discutido no verbete da Stanford.
-- Bernard Manin. [*The Principles of Representative Government*](https://www.cambridge.org/core/books/principles-of-representative-government/4375B5B2C2EC27D9B75C4BE4F2D97506) (1997).
+- Bernard Manin. [*The Principles of Representative Government*](https://www.cambridge.org/core/books/the-principles-of-representative-government/B5F086D557F0A0995D6FEB2730C29EC9) (1997).
 - Jane Mansbridge. [*Rethinking Representation*](https://www.cambridge.org/core/journals/american-political-science-review/article/abs/rethinking-representation/608152BA9E3A0D9B0EC01CE4063B9FB3), *American Political Science Review*, 97(4), 2003.
 - Adam Przeworski; Susan C. Stokes; Bernard Manin (orgs.). *Democracy, Accountability, and Representation* (1999): mandato, controle eleitoral e mecanismos informacionais.
 - Guillermo O'Donnell. [*Horizontal Accountability in New Democracies*](https://www.journalofdemocracy.org/articles/horizontal-accountability-in-new-democracies/) (1998).

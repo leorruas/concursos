@@ -175,7 +175,7 @@ No republicanismo contemporâneo, **Philip Pettit** associa liberdade à **não 
 
 **Constituição de 1988, art. 1º:** a **República Federativa do Brasil** constitui-se em **Estado Democrático de Direito**. A redação reúne **forma republicana**, **forma federativa** e fundamento constitucional democrático, que devem ser distinguidos em questões de classificação. O parágrafo único afirma que o poder emana do povo, exercido por representantes eleitos ou diretamente nos termos da Constituição.
 
-**Princípios republicanos e publicidade administrativa:** impessoalidade, moralidade, publicidade e responsabilidade pública podem ser relacionados ao art. 37, caput, mas **não equivalem à regra de escolha do chefe de Estado**. Um ato administrativo formalmente impessoal não demonstra, isoladamente, que o regime político é plenamente democrático. [Constituição de 1988, Câmara dos Deputados, texto atualizado](https://www2.camara.leg.br/legin/legislacao/federal/constituicoes/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+**Princípios republicanos e publicidade administrativa:** impessoalidade, moralidade, publicidade e responsabilidade pública podem ser relacionados ao art. 37, caput, mas **não equivalem à regra de escolha do chefe de Estado**. Um ato administrativo formalmente impessoal não demonstra, isoladamente, que o regime político é plenamente democrático. [Constituição de 1988, Câmara dos Deputados, texto atualizado](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 
 ## Plebiscito de 1993: duas escolhas diferentes
 
@@ -207,7 +207,7 @@ A Constituição de 1988 protege expressamente, no **art. 60, § 4º**, contra e
 
 **Art. 34, VII, “a”:** a **forma republicana, o sistema representativo e o regime democrático** constam dos **princípios constitucionais sensíveis**, cuja observância pode justificar **intervenção federal em estados ou no Distrito Federal, nos termos constitucionais e sob condições estritas**. **Princípio sensível para intervenção ≠ cláusula pétrea expressamente enumerada.**
 
-**Art. 60, § 4º × art. 34, VII:** o primeiro limita o **poder de reforma constitucional**; o segundo disciplina hipótese de **intervenção da União** para assegurar princípios indicados. Ambos protegem elementos constitucionais, mas têm **funções, destinatários e consequências diferentes**. [Art. 34 da Constituição em normas.leg.br](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Aconstituicao%3A1988-10-05%3B1988%21art34); [Art. 60, § 4º, Constituição atualizada](https://www2.camara.leg.br/legin/legislacao/federal/constituicoes/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+**Art. 60, § 4º × art. 34, VII:** o primeiro limita o **poder de reforma constitucional**; o segundo disciplina hipótese de **intervenção da União** para assegurar princípios indicados. Ambos protegem elementos constitucionais, mas têm **funções, destinatários e consequências diferentes**. [Art. 34 da Constituição em normas.leg.br](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Aconstituicao%3A1988-10-05%3B1988%21art34); [Art. 60, § 4º, Constituição atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 
 ## Comparação de cinco modelos institucionais
 

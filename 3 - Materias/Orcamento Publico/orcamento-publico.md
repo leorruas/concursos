@@ -38,6 +38,8 @@ A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha 
 
 - [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|12. Elaboração da proposta orçamentária federal: órgãos, decisões e etapas]]: CAM-ORC-008, UO, órgão setorial, SOF, SIOP, autonomia dos Poderes, iniciativa presidencial e três itens C/E. Próxima unidade: CAM-ORC-009, tramitação no Congresso.
 
+- [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|13. Tramitação legislativa das leis orçamentárias no Congresso Nacional]]: CAM-ORC-009, rito do art. 166, CMO, sessão conjunta, emendas, votação e prazos. Próxima unidade: CAM-ORC-010, competências e comitês da CMO.
+
 ## Como navegar por perguntas
 
 | Se o enunciado perguntar… | Comece por |

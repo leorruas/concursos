@@ -52,6 +52,8 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-008. Procedimento ordinário, regime e prazos]]: refinamento da nota **13** (mesmo `articleId`) com a distinção espécie normativa × procedimento × regime de tramitação, prazos de 40 sessões por comissão/20 do relator, emendas, atrasos e diferenças de prioridade e urgência. **Próxima: CAM-PL-009, abreviado e sumário.**
 
+- [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|18. Procedimentos abreviado e sumário: comissões e urgência constitucional]]: CAM-PL-009, rito abreviado (decisão conclusiva, recurso) × sumário (CF, art. 64, pedido presidencial, 45/45/10), diferenças entre prioridade regimental e urgência constitucional; terminativo no Senado × parecer terminativo na Câmara. **Próxima: CAM-PL-010, sumaríssimo, especial e concentrado.**
+
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).
 - **Defesa do Estado e das Instituições** (Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública).

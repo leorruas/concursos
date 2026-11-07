@@ -40,6 +40,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 
 - [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|25. Partidos políticos: origem, funções e organização]]: CAM-CP-016, clivagens, modelos organizacionais, normas brasileiras, cláusula de desempenho e doze itens C/E. Próxima unidade: CAM-CP-017, sistemas partidários.
 
+- [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|26. Sistemas partidários: competição, fragmentação e institucionalização]]: CAM-CP-017, Sartori, número efetivo de partidos, volatilidade e institucionalização, com três itens C/E. Próxima unidade: CAM-CP-018, instituições brasileiras e federalismo.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

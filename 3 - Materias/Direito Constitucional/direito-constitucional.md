@@ -44,6 +44,8 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|14. Comissões parlamentares: tipos, competências e poderes]]: CAM-PL-004, art. 58 da CF e arts. 22–24 e 33–41 do RICD, comissões permanentes, especiais, CPIs e externas, poderes, composição e limites. **Próxima: CAM-PL-005, pareceres.**
 
+- [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|15. Parecer legislativo: relatório, voto e deliberação das comissões]]: CAM-PL-005, arts. 53–59 e 126–130 do RICD, relatório, voto do relator, parecer do colegiado, votos divergentes, quórum e diferença terminativo/conclusivo. **Próxima: CAM-PL-006, discussão e votação.**
+
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).
 - **Defesa do Estado e das Instituições** (Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública).

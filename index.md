@@ -291,6 +291,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|13. Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]
   - [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|14. Comissões parlamentares: tipos, competências e poderes]]
   - [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|15. Parecer legislativo: relatório, voto e deliberação das comissões]]
+  - [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|16. Discussão, votação, quóruns e modalidades de decisão]]
   - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|11 • Organização do Estado]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]

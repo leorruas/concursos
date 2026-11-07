@@ -46,6 +46,8 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|15. Parecer legislativo: relatório, voto e deliberação das comissões]]: CAM-PL-005, arts. 53–59 e 126–130 do RICD, relatório, voto do relator, parecer do colegiado, votos divergentes, quórum e diferença terminativo/conclusivo. **Próxima: CAM-PL-006, discussão e votação.**
 
+- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|16. Discussão, votação, quóruns e modalidades de decisão]]: CAM-PL-006, art. 47 da CF e arts. 165–200 do RICD; debate, maioria simples/absoluta/qualificada, simbólica/nominal/secreta, 5%/6%/10% e destaques. **Próxima: CAM-PL-007, sanção e veto.**
+
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).
 - **Defesa do Estado e das Instituições** (Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública).

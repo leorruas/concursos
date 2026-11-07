@@ -48,6 +48,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 
 - [[3 - Materias/Estado e Democracia/29 - historia dos partidos politicos no brasil|29. História dos partidos políticos no Brasil: continuidade e rupturas]]: CAM-CP-020, Império, 1945–1965, Arena/MDB, reforma de 1979, Nova República e três itens C/E. Próxima unidade: CAM-CP-021, política internacional contemporânea.
 
+- [[3 - Materias/Estado e Democracia/30 - politica internacional contemporanea atores e instituicoes|30. Política internacional contemporânea: atores, instituições e governança]]: CAM-CP-021, teorias das relações internacionais, ONU, organismos econômicos, fóruns e atores transnacionais, com três itens C/E. Próxima unidade: CAM-CP-022.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

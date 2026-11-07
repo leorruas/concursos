@@ -25,6 +25,19 @@ Ao examinar a natureza, siga sua **estrutura interna** (categoria econômica →
 
 ## Receita: categoria econômica e natureza
 
+### Corrente × capital: natureza econômica, não periodicidade
+
+A primeira divisão **por categoria econômica da receita orçamentária** é **receitas correntes × receitas de capital** (Lei nº 4.320/1964, art. 11). Ela identifica a **natureza do ingresso**, não quantas vezes o dinheiro entra no caixa. Essa classificação também não determina, sozinha, se o recurso é livre para gastar ou se integra o resultado primário.
+
+| Categoria | O que abrange | Exemplo de classificação |
+| :--- | :--- | :--- |
+| **Receita corrente** | Tributos, contribuições, receita patrimonial pela exploração de bens, receitas de serviços e transferências correntes, entre outras | Aluguel de imóvel público: corrente, origem patrimonial; IPTU: corrente, origem impostos |
+| **Receita de capital** | Operações de crédito comuns, alienação de bens, amortização de empréstimos concedidos pelo ente e transferências de capital, entre outras | Venda de imóvel público: capital, origem alienação de bens; empréstimo comum: capital, origem operações de crédito |
+
+**Mude apenas uma condição no mesmo imóvel:** receber **aluguel** pelo prédio gera, em regra, receita **corrente patrimonial**; **vendê-lo** gera receita **de capital por alienação de bens**. O aluguel recebido uma única vez permanece corrente; a venda realizada repetidamente não se transforma em receita corrente por causa da frequência. O critério é o **tipo de operação**.
+
+**Atenção às duas exceções e cruzamentos:** a **antecipação de receita orçamentária (ARO)** é ingresso **extraorçamentário**, mesmo sendo operação de crédito; a classificação **de capital** não significa, por si, que o ingresso seja **financeiro para o resultado primário** nem que todos os gastos pagos com esses recursos sejam despesas de capital. Cada eixo de classificação responde a uma pergunta própria.
+
 ### Mapa visual: como classificar uma receita
 
 As classificações abaixo respondem a **perguntas diferentes** sobre o mesmo ingresso. As opções de cada ramo são exemplos ou categorias próprias daquele critério, não etapas sucessivas. No site, use **ampliar** para explorar o diagrama.
@@ -100,7 +113,7 @@ Para distinguir **origem da receita** de **fonte/destinação**, consulte [[3 - 
 
 **Doutrina jurídica** é o conjunto de estudos, interpretações e conceitos elaborados por especialistas em Direito para compreender e organizar as normas jurídicas. Uma classificação doutrinária ajuda a explicar um fenômeno; **não tem, por si só, a força de uma lei**. A importância da doutrina para a interpretação do Direito é explicada por [Maria Helena Diniz, *Fontes do direito*](https://enciclopediajuridica.pucsp.br/verbetes/fontes-do-direito/).
 
-Na doutrina, receitas **originárias** decorrem, em regra, da exploração do patrimônio ou de atividades econômicas do Estado; receitas **derivadas** decorrem do poder de imposição, como tributos. A distinção pergunta **de que maneira o Estado obtém o dinheiro**. Já a classificação **oficial por natureza** responde **que operação produziu o ingresso** e possui categoria econômica, origem e espécie, entre outros níveis.
+Na classificação doutrinária tradicional, há **duas categorias básicas: receitas originárias e receitas derivadas**. As **originárias** decorrem, em regra, da exploração do patrimônio ou de atividades econômicas do Estado; as **derivadas** decorrem do poder de imposição, como tributos. A distinção pergunta **de que maneira o Estado obtém o dinheiro**. Já a classificação **oficial por natureza** responde **que operação produziu o ingresso** e possui categoria econômica, origem e espécie, entre outros níveis.
 
 | Fato | Classificação doutrinária | Natureza oficial da receita |
 | :--- | :--- | :--- |

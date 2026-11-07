@@ -95,7 +95,7 @@
         "Empenho orçamentário"
       ],
       "definition": "É o ato pelo qual o governo separa formalmente uma parte da verba autorizada no orçamento para determinada despesa. Segundo o art. 58 da Lei nº 4.320/1964, cria para o Estado obrigação de pagamento 'pendente ou não de implemento de condição'.",
-      "contrast": "Dotação é o valor autorizado para gastar; empenho compromete parte dele. Liquidação é a conferência de que o credor tem direito a receber; pagamento é a transferência do dinheiro. O empenho por uma entrega futura não prova, sozinho, que já exista uma dívida patrimonial pelo serviço: ela depende do fato ocorrido. Se a despesa foi empenhada e não paga até o fim do ano, pode ser inscrita em restos a pagar, observadas as regras. O pagamento pode depender de uma condição, como a entrega do produto, mas a lei também abrange obrigações sem essa condição pendente.",
+      "contrast": "A dotação na Lei Orçamentária Anual (LOA) ou em crédito adicional é autorização orçamentária; o empenho compromete parte do crédito já concedido para uma despesa específica, sem criar a autorização. O Plano Plurianual (PPA) planeja, mas não substitui a dotação necessária. A liquidação verifica o direito do credor; o pagamento transfere o dinheiro. Empenho sozinho não comprova que bens ou serviços tenham sido entregues e não implica automaticamente variação patrimonial diminutiva (VPD).",
       "cebraspeTrap": "A definição legal diz 'pendente ou não de implemento de condição': nem todo empenho depende de entrega futura. Também não se pode confundir o compromisso no orçamento com o pagamento já realizado. O empenho faz parte da execução da despesa orçamentária.",
       "example": "Uma universidade tem R$ 50 mil autorizados para comprar computadores e empenha R$ 12 mil para um pedido. Restam R$ 38 mil de dotação, se não houve outros compromissos. Enquanto os computadores não chegam, há empenho, mas não houve entrega. Depois de recebê-los, o órgão confere a documentação para liquidar; só então segue para pagamento regular.",
       "subjectIds": [
@@ -784,7 +784,7 @@
       "definition": "É uma categoria de receita do orçamento que reúne entradas como tributos, contribuições, serviços, exploração de bens públicos e transferências destinadas a despesas correntes, segundo a classificação legal. O nome 'corrente' descreve a categoria econômica da receita, e não a frequência com que o dinheiro chega.",
       "contrast": "Receita corrente se diferencia da receita de capital, que inclui operações de crédito comuns, venda de bens, amortização de empréstimos concedidos e transferências de capital. Receita corrente não é sinônimo de receita primária: por exemplo, juros de aplicações podem ser correntes e receber tratamento financeiro no cálculo fiscal. A classificação também não indica, sozinha, se o valor está livre para uso.",
       "cebraspeTrap": "Corrente não quer dizer mensal ou recorrente, e receita corrente não é automaticamente receita primária. Vender um imóvel não vira receita corrente só porque o governo costuma negociar bens.",
-      "example": "O aluguel mensal de imóvel público é receita corrente de origem patrimonial. A venda do mesmo imóvel é receita de capital por alienação de bens. A frequência do recebimento não determina a categoria: o importante é a natureza da operação.",
+      "example": "Um município recebe aluguel pela única utilização de um prédio durante o ano: ainda assim, a receita é corrente patrimonial. Ao vender esse prédio, recebe receita de capital por alienação de bens. A frequência do ingresso não altera sua categoria econômica.",
       "subjectIds": [
         "orcamento-publico"
       ],
@@ -816,9 +816,9 @@
       "aliases": [
         "Receitas de capital"
       ],
-      "definition": "É a categoria de receita do orçamento que reúne entradas como empréstimos comuns contratados, venda de bens públicos, devolução do principal de empréstimos concedidos e transferências destinadas a despesas de capital. A categoria depende da natureza da operação.",
-      "contrast": "Uma receita de capital não vem necessariamente de dívida: vender um veículo público é outro exemplo. Operação de crédito comum gera obrigação de devolver; venda de bem troca patrimônio por dinheiro; transferência de capital segue regras de aplicação. Receita de capital também não significa automaticamente receita financeira para o resultado primário: são classificações diferentes.",
-      "cebraspeTrap": "Dizer que toda receita de capital é empréstimo, ou que toda receita de capital fica fora do resultado primário, mistura classificações.",
+      "definition": "É uma categoria econômica da receita do orçamento. Reúne entradas como empréstimos comuns contratados pelo governo, venda de bens públicos, devolução do principal de empréstimos que o próprio governo concedeu e transferências destinadas a despesas de capital. O critério é a natureza da operação, não a frequência com que o dinheiro entra.",
+      "contrast": "Receita corrente inclui, por exemplo, impostos, serviços e aluguéis, mesmo recebidos uma única vez. Receita de capital inclui alienação de bens, mesmo se a venda ocorrer frequentemente. Um empréstimo comum é receita orçamentária de capital; a antecipação de receita orçamentária (ARO) tem tratamento extraorçamentário. Chamar a receita de capital não significa que ela seja sempre financeira no resultado primário, nem que possa ser gasta livremente em qualquer finalidade.",
+      "cebraspeTrap": "A banca pode afirmar que receitas correntes precisam ser frequentes ou que toda entrada de empréstimo é receita de capital, sem considerar a ARO. Também pode usar a destinação posterior do dinheiro para tentar alterar a classificação de sua origem.",
       "example": "O município recebe R$ 50 mil ao vender veículo de sua frota e R$ 100 mil ao contratar empréstimo. As duas entradas podem ser receitas de capital, mas a primeira é alienação de bens e a segunda é operação de crédito, com obrigação de pagar de volta.",
       "subjectIds": [
         "orcamento-publico"
@@ -1753,7 +1753,7 @@
       "definition": "É uma ação orçamentária com começo e fim previstos que contribui para expandir ou melhorar a atuação do governo. Construir uma escola ou implantar uma estrutura de atendimento pode ser exemplo de projeto.",
       "contrast": "Projeto é uma categoria de ação, definida por duração limitada e finalidade de expansão ou aperfeiçoamento. Atividade mantém serviços de forma contínua. O grupo de natureza da despesa (GND) Investimentos é outra classificação: um projeto pode envolver mais de um tipo de gasto e não se define apenas pelo grupo econômico.",
       "cebraspeTrap": "A banca pode trocar projeto orçamentário por investimento como se fossem o mesmo código. Projeto descreve a forma da ação; GND descreve a natureza do gasto.",
-      "example": "Uma prefeitura prevê construir uma escola em dois anos. A construção pode integrar ação do tipo projeto porque tem término previsto e amplia o atendimento. O funcionamento da escola depois da entrega costuma ser outra ação, do tipo atividade.",
+      "example": "Uma ação de modernização de biblioteca, limitada no tempo, pode comprar computadores permanentes pelo GND Investimentos e contratar capacitação pelo GND Outras Despesas Correntes. O nome projeto descreve a ação, sem obrigar todos os seus gastos ao mesmo grupo econômico.",
       "subjectIds": [
         "orcamento-publico"
       ],

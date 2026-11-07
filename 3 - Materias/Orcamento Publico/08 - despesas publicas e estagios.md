@@ -5,7 +5,7 @@ title: "Despesas públicas: fixação, empenho, liquidação e pagamento"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-07
 aliases:
   - "Estágios da despesa"
   - "Empenho ordinário global estimativo"
@@ -46,6 +46,8 @@ A distinção entre dotação, limite de empenho e dinheiro em caixa está em [[
 A Lei nº 4.320/1964, art. 58, conceitua **empenho** como ato da autoridade competente que cria para o Estado obrigação de pagamento **pendente ou não de implemento de condição**. A expressão **“ou não”** integra a redação legal atualizada após rejeição de veto: a prova pode suprimi-la para restringir indevidamente o alcance da definição. O art. 59 veda empenhos acima do limite dos créditos concedidos. O art. 60 determina **prévio empenho** para realização da despesa.
 
 O empenho **não é prova de entrega** e tampouco corresponde ao pagamento. A existência de condição a implementar não pode ser presumida em todos os casos; a liquidação verifica documentalmente o direito adquirido pelo credor. Uma compra pode ser empenhada e posteriormente cancelada ou anulada, conforme sua situação e regras pertinentes. A constituição orçamentária do compromisso também não é, automaticamente, o reconhecimento patrimonial final da despesa.
+
+**Fronteira entre planejamento, autorização e execução:** a construção de um laboratório pode estar prevista no **Plano Plurianual (PPA)**, mas a autorização de gastar no exercício depende de uma dotação na **Lei Orçamentária Anual (LOA)** ou de crédito adicional. Se a LOA autoriza **R$ 300 mil** e o órgão empenha **R$ 80 mil**, foram comprometidos R$ 80 mil daquela autorização; isso ainda não prova entrega, liquidação ou pagamento. O **empenho não cria a autorização orçamentária**: usa um crédito já concedido, respeitado o limite do art. 59 da Lei nº 4.320/1964. A liquidação verifica o direito do credor; o pagamento acontece depois, nas condições aplicáveis.
 
 ### Nota de empenho × empenho
 

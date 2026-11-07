@@ -5,7 +5,7 @@ title: "Princípios orçamentários e vedações constitucionais"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-07
 aliases:
   - "Princípios orçamentários"
   - "Unidade, universalidade e anualidade"
@@ -82,11 +82,15 @@ Exemplo: se um ente arrecada R$ 10 milhões e deve transferir R$ 3 milhões a ou
 
 **Orçamento bruto não significa receita livre para gastar.** O registro de um valor integral é diferente da discussão sobre a sua **vinculação legal**.
 
+**Caso para separar os princípios:** a prefeitura prevê arrecadar **R$ 20 milhões**, mas coloca apenas **R$ 18 milhões** no orçamento porque abateu previamente **R$ 2 milhões de despesas de arrecadação**. A falha central é de **orçamento bruto**: a receita e a despesa devem aparecer pelos **valores integrais**, em vez de serem compensadas. A pergunta da especificação é diferente: **as dotações identificam adequadamente a natureza e a finalidade dos gastos?** Registrar R$ 20 milhões de receita não resolve, por si só, um detalhamento inadequado da despesa.
+
 ### Especificação: não criar dotação indiferenciada
 
 O art. 5º da mesma lei impede dotações globais para cobrir indistintamente despesas com pessoal, materiais, serviços e transferências, com a ressalva legal do art. 20 e seu parágrafo único. A identificação da finalidade e da categoria facilita a autorização e a fiscalização.
 
-A existência de **reservas** e hipóteses normativas específicas impede afirmar que qualquer dotação agregada viola automaticamente a especificação. Também é importante distinguir classificação da LOA de detalhamento utilizado na execução. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|natureza, função e elemento de despesa]].
+**A ressalva do art. 20 merece leitura literal:** seus investimentos devem ser discriminados por projetos de obras e outras aplicações; o parágrafo único admite **dotações globais, classificadas como despesas de capital, para programas especiais de trabalho que, por sua natureza, não possam seguir as normas gerais de execução da despesa**. Essa é uma hipótese específica, não autorização geral para misturar pessoal, serviços e materiais numa dotação genérica. A existência de outras reservas e regimes legalmente admitidos exige examinar a norma aplicável; não concluir que toda agregação é proibida.
+
+Também é importante distinguir classificação da LOA de detalhamento utilizado na execução. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|natureza, função e elemento de despesa]].
 
 ## Exclusividade e suas duas exceções constitucionais
 

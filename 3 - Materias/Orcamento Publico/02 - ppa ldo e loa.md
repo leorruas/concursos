@@ -5,7 +5,7 @@ title: "PPA, LDO e LOA: sistema constitucional de planejamento e orçamento"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-07
 aliases:
   - "Plano Plurianual"
   - "Lei de Diretrizes Orçamentárias"
@@ -87,6 +87,8 @@ O papel da LDO é normativo e orientador. Ela **não substitui** a LOA na fixaç
 **Pergunta central:** para o exercício financeiro, quanto se espera arrecadar e quais despesas estão autorizadas? A esfera orçamentária é um segundo conjunto de classificação, desenvolvido na nota própria.
 
 A **LOA**, para um exercício financeiro, **prevê receitas e fixa despesas**. A formulação é importante: receitas são estimadas e podem variar, enquanto dotações representam autorizações para a despesa, sujeitas às condições legais e financeiras. Não se deve afirmar que toda receita prevista será arrecadada ou que toda despesa fixada será necessariamente paga.
+
+**Para não inverter a sequência:** a inclusão de obra no **PPA** é planejamento, **não** autorização suficiente para empenhá-la. A **dotação da LOA ou de crédito adicional** é a autorização orçamentária; o **empenho** compromete parte desse crédito para uma despesa específica, sem comprovar entrega ou pagamento. Esse vínculo é desenvolvido em [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios#Empenho: reserva e obrigação orçamentária|Empenho e obrigação orçamentária]].
 
 ### Do projeto de orçamento à lei: onde entra a dotação?
 

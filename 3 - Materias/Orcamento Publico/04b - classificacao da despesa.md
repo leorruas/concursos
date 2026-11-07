@@ -134,6 +134,8 @@ Há três tipos clássicos de ação:
 
 **Projeto não determina automaticamente GND Investimentos.** Tipo de ação e natureza do gasto são dimensões separadas. Também não se deve transformar “subfunção” em “programa”: uma indica área de atuação, o outro organiza a política e sua estratégia de entrega.
 
+**Caso de aplicação: modernização de biblioteca.** Uma ação do tipo **projeto** prevê comprar computadores permanentes e contratar capacitação para a equipe. Os computadores podem ser registrados como **despesa de capital, GND 4: Investimentos, elemento Equipamentos e Material Permanente**; a capacitação contratada pode ser **despesa corrente, GND 3: Outras Despesas Correntes**, com o elemento adequado à contratação. A ação continua sendo **um projeto**: a classificação programática organiza **o que será feito**, enquanto categoria econômica, GND e elemento qualificam **cada gasto**. Essas classificações não se impõem mutuamente.
+
 ### Caso progressivo: ação, GND e pagamento da dívida
 
 A prefeitura **constrói seis novas salas**: na dimensão programática, trata-se de um **projeto**; na natureza da despesa, a obra integra o **GND 4: Investimentos**. Quando mantém **aulas e serviços escolares regulares**, a ação pode ser uma **atividade**. Já o **pagamento do principal de uma dívida** pode figurar como **operação especial**, enquanto a natureza do gasto é **despesa de capital, GND 6: Amortização da Dívida**. O nome da ação não determina seu GND: um mesmo projeto pode executar gastos de grupos diferentes.
@@ -160,7 +162,7 @@ A natureza da despesa responde **qual é o tipo e o objeto do gasto**. A classif
 | **Correntes** | Pessoal e Encargos Sociais; Juros e Encargos da Dívida; Outras Despesas Correntes |
 | **De capital** | Investimentos; Inversões Financeiras; Amortização da Dívida |
 
-**Lembrete dos números:** os GNDs **1, 2 e 3** são correntes; **4, 5 e 6** são de capital. O grupo indica **a categoria econômica ampla** do gasto, enquanto o elemento indica **o objeto** que se adquire ou paga. Elemento pode abranger bens, serviços e outros objetos, não se limita a coisas intangíveis. A síntese está em [[3 - Materias/Orcamento Publico/lembretes-orcamento-publico|Lembretes e distinções para a prova]].
+**Lembrete dos números:** os GNDs **1, 2 e 3** pertencem às despesas correntes; **4, 5 e 6**, às despesas de capital. A categoria econômica separa **corrente × capital**; o GND reúne **grupos econômicos dentro de cada categoria**, enquanto o elemento indica **o objeto** que se adquire ou paga. Elemento pode abranger bens, serviços e outros objetos, não se limita a coisas intangíveis. A síntese está em [[3 - Materias/Orcamento Publico/lembretes-orcamento-publico|Lembretes e distinções para a prova]].
 
 “Corrente” é categoria econômica, e **não quer dizer frequente**. “Capital” também não significa gasto de grande valor. Pagar juros da dívida é despesa corrente; devolver o principal é despesa de capital (Amortização da Dívida). Construir um laboratório ou adquirir equipamento novo pode entrar em **Investimentos**; certas compras de imóveis sem vinculação à execução de obras e certas participações societárias são **Inversões Financeiras**. A classificação exata depende das condições legais: comprar algo pronto **não transforma qualquer bem em inversão financeira**.
 

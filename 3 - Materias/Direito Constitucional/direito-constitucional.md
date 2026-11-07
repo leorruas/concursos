@@ -56,6 +56,8 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|19. Procedimentos sumaríssimo, especial e concentrado]]: CAM-PL-010, urgência urgentíssima (art. 155), rito especial de PEC/MP/lei delegada e rito concentrado em sessão conjunta, com comissões mistas e votos separados. **Próxima: CAM-PL-011, lei ordinária e complementar.**
 
+- [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|CAM-PL-011. Lei ordinária e complementar]]: expansão da nota **10** com reserva material, quórum, PLP e Plenário, STF Tema 1.352 e exemplos de revisão. **Próxima: CAM-PL-012, lei delegada.**
+
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).
 - **Defesa do Estado e das Instituições** (Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública).

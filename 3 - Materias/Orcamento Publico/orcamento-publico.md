@@ -40,6 +40,8 @@ A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha 
 
 - [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|13. Tramitação legislativa das leis orçamentárias no Congresso Nacional]]: CAM-ORC-009, rito do art. 166, CMO, sessão conjunta, emendas, votação e prazos. Próxima unidade: CAM-ORC-010, competências e comitês da CMO.
 
+- [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|14. Comissão Mista de Orçamento: composição, comitês e competências]]: CAM-ORC-010, composição, quatro comitês, relatores e inadmissibilidade de emendas conforme atualização de 2025. Próxima unidade: CAM-ORC-011.
+
 ## Como navegar por perguntas
 
 | Se o enunciado perguntar… | Comece por |

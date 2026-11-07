@@ -185,6 +185,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|11 • Responsabilidade fiscal e controle]]
    - [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|12. Elaboração da proposta orçamentária federal: órgãos, decisões e etapas]]
    - [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|13. Tramitação legislativa das leis orçamentárias no Congresso Nacional]]
+   - [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|14. Comissão Mista de Orçamento: composição, comitês e competências]]
 12. [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]
    - [[3 - Materias/Contabilidade Publica/01 - patrimonio publico e regimes de reconhecimento|01 • Patrimônio público e regimes de reconhecimento]]
    - [[3 - Materias/Contabilidade Publica/02 - balanco orcamentario e balanco financeiro|02 • Balanço Orçamentário e Balanço Financeiro]]

@@ -53,6 +53,8 @@ A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha 
 
 - [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|CAM-ORC-015. Programação financeira, limitação e bloqueio]]: nota canônica reutilizada e refinada com arts. 8º e 9º da LRF, LDO 2026 e alcance do decreto federal, caso da Câmara e quatro questões C/E. Próxima unidade: CAM-ORC-016.
 
+- [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|CAM-ORC-016. Fiscalização orçamentária pelo Congresso e TCU]]: nota canônica refinada com parecer prévio, julgamento de contas, sustação de atos e contratos, art. 72 e controle interno. Última unidade da sequência ORC 008–016, com auditoria pendente de ORC 001–007.
+
 ## Como navegar por perguntas
 
 | Se o enunciado perguntar… | Comece por |

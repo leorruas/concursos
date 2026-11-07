@@ -30,6 +30,8 @@ A trilha **CAM-CP** aprofunda objeto, métodos, teoria política, instituições
 - [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|19. Representação política: mandato, delegação e responsabilização]]: CAM-CP-010, representação, mandato, responsabilização e doze itens C/E.
 - [[3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa|20. Democracia representativa, participativa e deliberativa]]: CAM-CP-011, Pateman, Arnstein, Fung, IAP2, Habermas, Young, Fishkin, Avritzer, instrumentos constitucionais e doze itens C/E. Próxima unidade: CAM-CP-012, separação de poderes.
 
+- [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|21. Separação de Poderes: funções, freios e contrapesos]]: CAM-CP-012, Locke, Montesquieu, Federalistas, funções típicas e atípicas e doze itens C/E. Próxima unidade: CAM-CP-013, coalizões e relações entre Poderes.
+
 ## Artigos próprios publicados
 
 - [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|01. Estado, governo, administração e legitimidade]]: unidade P1.1.1.

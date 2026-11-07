@@ -42,6 +42,8 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|13. Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: CAM-PL-003, recebimento, comissões, deliberação conclusiva, recurso, Casa iniciadora/revisora e retorno de emendas. **Próxima unidade: CAM-PL-004, comissões e competências.**
 
+- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|14. Comissões parlamentares: tipos, competências e poderes]]: CAM-PL-004, art. 58 da CF e arts. 22–24 e 33–41 do RICD, comissões permanentes, especiais, CPIs e externas, poderes, composição e limites. **Próxima: CAM-PL-005, pareceres.**
+
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).
 - **Defesa do Estado e das Instituições** (Estado de Defesa, Estado de Sítio, Forças Armadas e Segurança Pública).

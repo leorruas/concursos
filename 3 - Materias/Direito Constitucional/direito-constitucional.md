@@ -66,7 +66,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|CAM-PL-015, rito da PEC]]: refinamento **da nota 10 existente**, com CF art. 60 × RICD arts. 201–203: CCJC, comissão especial, emendas, interstícios, dois turnos e retorno do Senado. **CAM-PL-016 refinada na nota 11 existente.**
 
-- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-016, matérias do processo legislativo]]: refinamento da **nota 11 existente**, comparando indicação, requerimentos dos arts. 114–117, parecer e veto, com situações e itens Cebraspe. **Próxima: CAM-PL-017, sujeitos da iniciativa legislativa.**
+- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-016, matérias do processo legislativo]]: refinamento da **nota 11 existente**, comparando indicação, requerimentos dos arts. 114–117, parecer e veto, com situações e itens Cebraspe. **CAM-PL-017 refinada na nota 12 existente.**
+
+- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-017, sujeitos institucionais da iniciativa]]: refinamento da nota 12, comparação entre Presidência, Congresso, tribunais, PGR/MP e cidadãos, iniciativa × Casa iniciadora e reservas. **Próxima: CAM-PL-018, fiscalização contábil, financeira e orçamentária.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

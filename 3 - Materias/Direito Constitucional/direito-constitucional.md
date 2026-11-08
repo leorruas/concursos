@@ -74,7 +74,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|23. Regimento Interno da Câmara: organização, Mesa e órgãos (arts. 1º a 24)]]: CAM-PL-019, sede, sessões, posse, lideranças, Mesa/Presidência/Secretarias, Colégio de Líderes, comunicação e transparência, comissões e art. 24. **CAM-PL-020 refinada na nota 14.**
 
-- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-020, Regimento da Câmara, arts. 25–54]]: expansão da nota canônica **14**, com composição, distribuição, subcomissões, presidência, impedimentos, reuniões, prazos e parecer terminativo. **Próxima: CAM-PL-021, RICD arts. 55–80.**
+- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-020, Regimento da Câmara, arts. 25–54]]: expansão da nota canônica **14**, com composição, distribuição, subcomissões, presidência, impedimentos, reuniões, prazos e parecer terminativo. **CAM-PL-021 concluída na nota 24.**
+
+- [[3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80|24. RICD: decisões das comissões, fiscalização e sessões (arts. 55–80)]]: CAM-PL-021, parecer e recurso de 1/10, fiscalização parlamentar, RAFC/PAFC, tipologia e rito das sessões, publicidade e ata. **Próxima: CAM-PL-022, arts. 81 a 105.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

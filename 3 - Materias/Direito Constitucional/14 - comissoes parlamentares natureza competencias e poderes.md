@@ -5,7 +5,7 @@ title: "Comissões parlamentares: tipos, competências e poderes"
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 aliases:
   - "Comissões permanentes e temporárias da Câmara"
   - "Comissões especiais, de inquérito e externas"
@@ -123,6 +123,142 @@ O **art. 58, § 2º, da Constituição** e o **art. 24 do RICD** atribuem compet
 **Situação F, controle de política.** Comissão permanente acompanha execução de programa federal e convoca Ministro de Estado para prestar informações no âmbito de suas competências. **Fiscalização por comissão permanente é possível**, mesmo sem CPI instalada.
 
 **Situação G, composição partidária.** Bancada da Minoria não obtém vaga pelo cálculo proporcional. O **art. 23** assegura sua participação por ao menos um representante. Trocar **“tanto quanto possível”** por proporcionalidade absoluta ou eliminar a garantia da Minoria distorce a regra.
+
+## Refinamento CAM-PL-020: o funcionamento das comissões nos arts. 25 a 54 do RICD
+
+### O objeto específico desta expansão
+
+A [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|CAM-PL-019]] introduz os arts. 22 a 24 e a distinção entre comissões permanentes e temporárias. A parte inicial desta nota já trata dos tipos de comissão, das comissões especiais, parlamentares de inquérito e externas. Aqui, o foco é outro: **composição, proporcionalidade, eleição de dirigentes, impedimentos, reuniões, quóruns, prazos, distribuição e tipos de parecer** segundo os **arts. 25 a 54**. O nome “comissão” não indica automaticamente o **órgão que decide**, o **tipo de decisão** ou o **prazo aplicável**.
+
+### Composição e instalação: arts. 25 a 28
+
+O número de membros **efetivos** de cada comissão permanente é fixado **por ato da Mesa, ouvido o Colégio de Líderes**, no início dos trabalhos de cada legislatura (**art. 25**). A redação não confere à comissão o poder de fixar livremente sua própria quantidade de vagas. Devem ser considerados a composição da Câmara, o número de comissões e o princípio da representação proporcional.
+
+O **art. 25, § 2º**, estabelece o intervalo de **3,5% a 13% do total de deputados** para o tamanho de cada comissão, **desprezando-se as frações**. É uma regra de tamanho da comissão, distinta dos percentuais eleitorais e dos quóruns para votação de projetos. O § 3º limita o total das vagas às da composição da Câmara, **não computados os membros da Mesa**.
+
+A **Mesa distribui** as vagas entre partidos e blocos, que terão em cada comissão **tantos suplentes quantos seus membros efetivos** (art. 26, caput e § 1º). A representação partidária **é mantida durante a legislatura**: mudanças posteriores de filiação não refazem automaticamente o cálculo (**art. 26, § 4º**).
+
+**Uma comissão permanente por deputado titular é a regra, não uma vedação absoluta de múltipla participação.** O art. **26, § 2º**, contém longa lista de **comissões excepcionadas**, entre elas **Comunicação**, Cultura, Legislação Participativa, Direitos Humanos, Meio Ambiente, Direitos da Mulher e outras previstas na redação vigente. Em questão Cebraspe, “nenhum deputado pode ser titular de mais de uma comissão permanente, sem exceções” é incorreto. O § 3º assegura, **salvo se membro da Mesa**, a todo deputado o direito de integrar **pelo menos uma comissão permanente como titular**, mesmo sem legenda, nas condições regimentais.
+
+**Como distribuir:** o **art. 27** trabalha com **quociente partidário**, relacionado à quantidade de membros do partido ou bloco, ao número de deputados da Câmara e ao tamanho da comissão. Vagas remanescentes seguem a ordem das **maiores frações**. O § 2º disciplina uma etapa específica de **opção por vaga**, inclusive prazo de **48 horas** para partido ou bloco que esteja na hipótese ali prevista, com regras para deputados sem legenda. Não confundir **cálculo de vagas das bancadas** com a escolha dos **nomes individuais** de seus integrantes.
+
+**Nomeação:** definidos os quantitativos, os **líderes** comunicam os nomes de titulares e suplentes à Presidência em **cinco sessões**; decorrido o prazo, o **Presidente da Câmara designa de ofício** (art. 28). A comunicação é ato da liderança, enquanto a designação formal é da Presidência. Uma legenda não pode paralisar indefinidamente a instalação por deixar de informar nomes.
+
+### Subcomissões e turmas: arts. 29 a 31
+
+As comissões permanentes podem organizar **subcomissões permanentes**, **subcomissões especiais** e, sob condições, **turmas**. Sua natureza é **interna e auxiliar**, não equivale às comissões temporárias da Câmara classificadas no art. 33.
+
+| Categoria | Formação | Limite e consequência |
+| :--- | :--- | :--- |
+| **Subcomissão permanente** | Proposta pela **maioria dos integrantes** da comissão, formada dentre seus próprios membros | Até **três em funcionamento simultâneo**, sem poder decisório |
+| **Subcomissão especial** | Proposta por **qualquer membro**, para tarefa ou assunto definido | Até **três simultâneas**, sem poder decisório |
+| **Turmas** | Divisão de comissão permanente que não constitua subcomissões permanentes | **Duas turmas**, excluído o Presidente, **sem poder decisório** |
+
+O **Plenário da comissão** fixa a composição e o escopo das subcomissões (art. 29, § 2º). A **turma** não se transforma em “comissão deliberativa paralela”. Ainda que organize estudos e pareceres, a decisão regimental pertence ao **órgão competente**.
+
+### Comissões permanentes e temporárias: arts. 32 a 38
+
+O **art. 32** distribui as matérias entre comissões permanentes por **campo temático e área de atuação**. O enunciado pode descrever atividade de comunicação, tecnologia, orçamento, cultura ou saúde para perguntar **qual comissão deve examinar a matéria**; a associação exige ler a redação vigente e distinguir **objeto predominante**, **mérito** e **controle de admissibilidade** da CCJC ou da CFT.
+
+Os **arts. 33 a 38** detalham as três espécies já estudadas nesta nota: **especial, CPI e externa**. Há fronteiras relevantes: comissão especial de **PEC/projeto de código** ou de **proposição que demande exame de mérito de mais de quatro comissões** (art. 34); CPI depende de **um terço**, **fato determinado** e **prazo certo** (art. 35); comissão externa é instituída pela **Presidência**, de ofício ou por requerimento de deputado, e depende do **Plenário se acarretar ônus** (art. 38). Uma **subcomissão especial do art. 29** não é a **comissão especial temporária do art. 34**: os nomes semelhantes ocultam órgãos de níveis diferentes.
+
+### Presidência e membros das comissões: arts. 39 a 45
+
+Cada comissão tem **um Presidente e três Vice-Presidentes**, eleitos pelos pares. O mandato vai até a posse dos componentes eleitos no ano subsequente, **vedada a reeleição** (art. 39). O Presidente da Câmara convoca as comissões permanentes para instalação e eleição até **cinco sessões** depois de constituídas. **Membro suplente não pode ser eleito Presidente ou Vice-Presidente da comissão** (art. 39, § 5º).
+
+O **Presidente da comissão** convoca reuniões, organiza a pauta e a distribuição, **designa relatores**, submete questões a voto, proclama resultados, decide questões de ordem do colegiado e **assina o parecer juntamente com o relator** (art. 41). Diferentemente da Presidência da Câmara em sessões do Plenário, o Presidente **da comissão pode relatar e votar nas deliberações do colegiado** (art. 41, § 1º). A regra deve conviver com o **art. 43**: **ninguém pode presidir reunião de comissão quando se debate ou vota matéria de que seja autor ou relator**; ademais, o **autor de uma proposição não pode ser relator da própria proposição**, nem substituto ou parcial.
+
+**Mudança de legenda:** o Presidente ou Vice-Presidente da comissão perde **automaticamente** seu cargo nessa situação (art. 40, § 2º). Havendo vacância, faz-se **nova eleição**, salvo se faltarem menos de **três meses** para terminar o mandato (art. 40, § 1º), hipótese resolvida pela ordem de substituição.
+
+**Ausência e vaga:** o art. **44** permite substituições, em condições regimentais, mediante indicação da liderança e designação. O art. **45, § 1º**, prevê **perda automática da vaga na comissão** por ausência a **cinco reuniões ordinárias consecutivas** ou a **um quarto das reuniões de forma intercalada na sessão legislativa**, salvo motivo de força maior justificado por escrito; a **declaração** é feita pelo Presidente da Câmara mediante comunicação do Presidente da comissão. Quem perde a vaga **não retorna à mesma comissão na mesma sessão legislativa** (§ 2º). A substituição de faltoso não equivale à perda definitiva da vaga.
+
+### Reuniões, publicidade e quóruns: arts. 46 a 51
+
+As reuniões ordinárias ocorrem, em regra, **de terça a quinta-feira a partir das nove horas** (art. 46). Mesmo uma reunião extraordinária **não pode coincidir com a Ordem do Dia de sessão da Câmara ou do Congresso** (§ 1º). **Terças e quartas-feiras** das comissões permanentes são destinadas **exclusivamente à discussão e votação de proposições**, salvo inexistência de matéria pendente (§ 7º). A reunião extraordinária é convocada pela Presidência da comissão, **de ofício ou a requerimento de um terço dos integrantes** (§ 4º).
+
+A pauta é organizada pelo Presidente da comissão e comunicada às lideranças, com distribuição de avulsos com antecedência **mínima de 24 horas** (art. 47). Reuniões são, **como regra, públicas**, podendo ser **reservadas** conforme decisão da comissão e **secretas** nas matérias expressamente previstas no art. 48. **Reservada** e **secreta** não são classificações intercambiáveis.
+
+**Quórum de abertura ≠ quórum de votação.** O art. **50** prevê início dos trabalhos com ao menos **metade dos membros**, mas permite **qualquer número** se não houver deliberação ou se a reunião se destinar a determinadas atividades informativas. Para aferir **abertura**, a presença do deputado **na Casa** conta; para **votação**, exige-se presença no **recinto da comissão** (art. 50, § 2º). Deputado que não integra a comissão pode participar **sem voto** dos trabalhos e debates (§ 3º).
+
+**Reuniões conjuntas (art. 49):** comissões podem estudar proposição em reunião conjunta, por **acordo dos respectivos Presidentes**, com relator único, ou relator-geral e relatores parciais nas condições regimentais. **Reunião conjunta de comissões não significa sessão conjunta do Congresso.**
+
+### Prazos: art. 52 e diferenças entre atraso, recurso e decisão
+
+| Regime ou atividade | Prazo de exame e decisão da comissão | Prazo comum do relator |
+| :--- | :--- | :--- |
+| **Urgência** | **5 sessões** | **Metade**, sem prorrogação prevista no § 2º |
+| **Prioridade** | **10 sessões** | **Metade**, com possibilidade de prorrogação até metade do prazo do art. 52, mediante requerimento fundamentado |
+| **Ordinária** | **40 sessões** | **Metade**: usualmente **20 sessões**, com a prorrogação regimental quando cabível |
+| **Emendas de Plenário** | Mesmo prazo da proposição principal, correndo em conjunto para as comissões | Conforme regime e procedimento pertinente |
+
+Prazos são medidos em **sessões**, não em dias corridos. O **§ 2º** permite que a Presidência, a requerimento fundamentado do relator, conceda **prorrogação de até metade dos prazos do art. 52**, **exceto urgência**. Exaurido o prazo do relator, a Presidência pode **avocar** ou designar substituto: prazo **improrrogável de duas sessões** em prioridade e **cinco sessões** no regime ordinário (§ 3º).
+
+O esgotamento do prazo da comissão **não aprova automaticamente o projeto**. O art. 52, §§ 4º a 6º, disciplina vias para **inclusão na Ordem do Dia**, relatoria oral ou envio à comissão seguinte ou Plenário. Exemplo de fronteira: a comissão pode aprovar inclusão imediata por **requerimento de um terço de seus membros, aprovado por maioria absoluta da composição**, desde que publicada e distribuída a matéria (§ 5º). **Um terço propõe, maioria absoluta aprova**: os dois quóruns exercem funções diferentes.
+
+### Admissibilidade e parecer terminativo: arts. 53 e 54
+
+O **art. 53** distribui a análise dos projetos às **comissões de mérito** e aos órgãos que examinam **requisitos preliminares**. A **Comissão de Finanças e Tributação (CFT)** examina, especialmente, a **adequação financeira e orçamentária**, e a **Comissão de Constituição e Justiça e de Cidadania (CCJC)** examina **constitucionalidade, legalidade, juridicidade, regimentalidade e técnica legislativa**. Quando necessário, a **comissão especial do art. 34, II** concentra os exames previstos para aquela situação, além do mérito.
+
+O **art. 54** chama de **terminativo** o parecer da **CCJC** sobre **constitucionalidade ou juridicidade**, da **CFT** sobre **adequação financeira ou orçamentária** e da comissão especial do art. 34, II, quanto às duas preliminares. **Terminativo não significa que toda manifestação da CCJC ou da CFT encerra todo processo de votação no mérito.** O recorte é a **preliminar** considerada impeditiva ou relevante. O **recurso e a apreciação preliminar pelo Plenário** dos arts. 144–146 têm regime próprio, que não se deve confundir com o **recurso contra apreciação conclusiva da comissão** previsto na Constituição e no Regimento.
+
+**Três conceitos de prova:**
+- **Parecer de mérito:** examina a conveniência do conteúdo da proposta no campo de competência.
+- **Parecer terminativo:** art. 54, examina a **admissibilidade** constitucional/jurídica ou a adequação financeira/orçamentária.
+- **Apreciação conclusiva:** em certos **projetos de lei**, a comissão decide sobre a proposição sem submissão ordinária ao Plenário, ressalvados condições e recurso (CF art. 58, § 2º, I; RICD art. 24, II).
+
+Para composição do **parecer escrito**, votos do relator, ressalvas, votos em separado e distinção entre relator e colegiado, manter a nota [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005]].
+
+### Caso progressivo: nove variações de uma proposição
+
+**A.** Mesa define o número de integrantes da comissão ouvindo Colégio de Líderes. **Competência da Mesa**, art. 25, não decisão discricionária de cada líder.
+
+**B.** Partido troca deputados de legenda no meio da legislatura. Sua quantidade de vagas **não se recalcula automaticamente** por essas mudanças (art. 26, § 4º).
+
+**C.** Deputada pretende ser titular da Comissão de Comunicação e de outra permanente. A proibição de titularidade dupla **tem exceções expressas**, incluindo Comunicação (art. 26, § 2º). Verificar demais condições de sua composição.
+
+**D.** A comissão cria subcomissão especial e lhe entrega a aprovação final de projeto. **Incorreto**: subcomissão **não tem poder decisório** (art. 29).
+
+**E.** O Presidente da comissão assume relatoria de projeto do qual é **autor**. **Vedado** (art. 43, parágrafo único). Ser Presidente e relator em geral pode ser permitido, mas **não autor e relator do mesmo projeto**.
+
+**F.** Deputado deixa de comparecer a **cinco reuniões ordinárias consecutivas** sem justificativa. Enquadra-se em hipótese de **perda do lugar** declarada pelo Presidente da Câmara (art. 45).
+
+**G.** A comissão se reúne com poucos membros para ouvir exposição, sem deliberação. Pode começar com **qualquer número** nas hipóteses do art. 50. Para votar, contam os presentes **no recinto**.
+
+**H.** Projeto sob prioridade recebe prazo de 40 sessões para a comissão, porque esse seria o rito habitual. **Incorreto**: prioridade tem **dez sessões**, enquanto ordinário tem **quarenta** (art. 52).
+
+**I.** CCJC rejeita matéria quanto à constitucionalidade e o enunciado diz que se trata de “mera opinião de mérito sem efeitos de admissibilidade”. **Incorreto**: o parecer pode ter caráter **terminativo** nos termos do art. 54, respeitados os mecanismos regimentais de recurso.
+
+### Dez itens inéditos Cebraspe: Certo ou Errado
+
+**1.** O número de membros efetivos das comissões permanentes é fixado por ato da Mesa, ouvido o Colégio de Líderes, no início dos trabalhos de cada legislatura. **Certo.** RICD art. 25. O Colégio é **ouvido**, a Mesa **fixa**.
+
+**2.** A mudança de filiação partidária de deputados no curso da legislatura determina a redistribuição automática das vagas das comissões permanentes entre as bancadas. **Errado.** RICD art. 26, § 4º: a distribuição **permanece** durante a legislatura, segundo a base regimental.
+
+**3.** Nenhum deputado pode integrar como titular mais de uma comissão permanente, sem qualquer exceção regimental. **Errado.** Art. 26, § 2º: há exceções expressas, entre elas **Comissão de Comunicação**.
+
+**4.** As subcomissões permanentes e especiais podem apreciar definitivamente projetos de lei, desde que a decisão seja referendada pelo Presidente da comissão permanente. **Errado.** Art. 29: são **sem poder decisório**; o referendo inventado não substitui o órgão deliberativo.
+
+**5.** O Presidente de comissão pode funcionar como relator e votar em seu colegiado, mas o autor de proposição não poderá ser designado relator da própria matéria. **Certo.** Arts. 41, § 1º, e 43, parágrafo único. Duas proposições verdadeiras que atuam em **situações diferentes**.
+
+**6.** A perda do lugar por faltas injustificadas inclui a ausência a cinco reuniões ordinárias consecutivas, e o Presidente da Câmara declara a perda após comunicação do Presidente da comissão. **Certo.** Art. 45, § 1º; decisão de declaração e causa regimental são distintas.
+
+**7.** Uma reunião de comissão destinada apenas a atividade informativa poderá, nas hipóteses do art. 50, iniciar-se com qualquer número de membros, embora a votação exija aferição própria dos presentes no recinto. **Certo.** Art. 50, caput e § 2º; **quórum de abertura ≠ quórum para votar**.
+
+**8.** As comissões dispõem de prazos de cinco sessões em urgência, dez em prioridade e quarenta em tramitação ordinária, cabendo ao relator, como regra, metade do prazo do colegiado. **Certo.** Art. 52. Exceções procedimentais devem ser verificadas, mas a estrutura geral é esta.
+
+**9.** O descumprimento do prazo regimental de parecer acarreta aprovação tácita da proposição e dispensa qualquer deliberação posterior. **Errado.** Art. 52, §§ 3º a 6º, dispõe sobre substituição de relator, inclusão em pauta e remessa da matéria, **não aprovação automática**.
+
+**10.** O parecer terminativo de comissão sobre constitucionalidade ou adequação financeira e orçamentária é equivalente ao parecer favorável de mérito que transforma definitivamente o projeto em lei. **Errado.** Art. 54 cuida de **preliminares de admissibilidade**, não de sanção nem de aprovação final de mérito.
+
+### Relações e heurísticas
+
+**25–28: tamanho, distribuição e indicação de membros. 29–31: subcomissões e turmas sem poder decisório. 32–38: campos temáticos e tipos de comissão. 39–45: direção, impedimentos, ausências e vagas. 46–51: reuniões e trabalhos. 52: prazos. 53–54: admissibilidade e parecer terminativo.**
+
+**Mesa fixa vagas; líderes indicam nomes; Presidente da Câmara designa se a liderança silencia. Presidente da comissão designa relatores; comissão delibera.**
+
+**Subcomissão especial ≠ comissão especial. Parecer terminativo ≠ apreciação conclusiva. Quórum de abertura ≠ quórum de votação.**
+
+**Fonte normativa verificada em 08/11/2026:** [RICD, texto atualizado da Câmara, arts. 25 a 54](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html); [31ª edição do RICD, 2026](https://bd.camara.leg.br/bd/items/version/400). Esta expansão é editorial; seus itens C/E são inéditos e não comprovam estudo ou retenção pessoal.
 
 ## Como a Cebraspe cobra
 

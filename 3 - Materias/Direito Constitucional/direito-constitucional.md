@@ -76,7 +76,11 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-020, Regimento da Câmara, arts. 25–54]]: expansão da nota canônica **14**, com composição, distribuição, subcomissões, presidência, impedimentos, reuniões, prazos e parecer terminativo. **CAM-PL-021 concluída na nota 24.**
 
-- [[3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80|24. RICD: decisões das comissões, fiscalização e sessões (arts. 55–80)]]: CAM-PL-021, parecer e recurso de 1/10, fiscalização parlamentar, RAFC/PAFC, tipologia e rito das sessões, publicidade e ata. **Próxima: CAM-PL-022, arts. 81 a 105.**
+- [[3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80|24. RICD: decisões das comissões, fiscalização e sessões (arts. 55–80)]]: CAM-PL-021, parecer e recurso de 1/10, fiscalização parlamentar, RAFC/PAFC, tipologia e rito das sessões, publicidade e ata. **Sessões 81–94 cobertas no complemento da nota 25; CAM-PL-022 do inventário (Deputados) concluída na nota 26.**
+
+- [[3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105|25. RICD: expediente, pauta e proposições (arts. 81 a 105)]]: **complemento editorial das sessões (CAM-PL-021)** e regras de proposições; integra arts. 81–105, sem contar unidade adicional.
+
+- [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|26. RICD: deputados, imunidades e suplência (arts. 226 a 251)]]: **CAM-PL-022 conforme inventário**, mandato, presença, imunidades, licenças, vacância, suplência e divergência do art. 251 com EC 35/2001. **Próxima: CAM-PL-023, RICD arts. 262–273.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

@@ -5,7 +5,7 @@ title: "🔄 Processo legislativo e poder constituinte"
 type: "conceito"
 status: "ativo"
 created: 2026-06-15
-updated: 2026-10-06
+updated: 2026-11-08
 ---
 
 # 🔄 Processo legislativo e poder constituinte
@@ -489,7 +489,7 @@ Ao redigir uma peça de comunicação sobre PEC, localizar **Casa de tramitaçã
 - [Biblioteca da Câmara: Regimento Interno, 31ª edição, atualizado até Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
 - [Câmara dos Deputados: prazos do processo legislativo](https://www2.camara.leg.br/atividade-legislativa/plenario/contagem-de-prazos/principais-prazos-do-processo-legislativo).
 
-**Nota editorial:** este refinamento atende **CAM-PL-015** sem alterar o \`articleId\` canônico da nota, nem criar artigo duplicado. Os dez itens C/E são **inéditos**, não questões de provas reais; a redação e a conferência normativa não demonstram aprendizagem pessoal.
+**Nota editorial:** este refinamento atende **CAM-PL-015** sem alterar o `articleId` canônico da nota, nem criar artigo duplicado. Os dez itens C/E são **inéditos**, não questões de provas reais; a redação e a conferência normativa não demonstram aprendizagem pessoal.
 
 ## Como a banca cobra
 

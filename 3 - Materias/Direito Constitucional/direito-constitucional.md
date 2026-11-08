@@ -62,7 +62,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|21. Medida provisória: pressupostos, prazos, tramitação e efeitos]]: CAM-PL-013, art. 62, vedações, 45/60+60/60 dias, comissão mista, PLV e relações jurídicas. **Concluída na nota 22: CAM-PL-014, decreto legislativo e resoluções.**
 
-- [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|22. Projetos de decreto legislativo e de resolução]]: CAM-PL-014, competência exclusiva do Congresso, resoluções da Câmara/Senado/Congresso, promulgação e ausência de sanção, casos de tratados, créditos e sustação de atos. **Próxima: CAM-PL-015, proposta de emenda à Constituição.**
+- [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|22. Projetos de decreto legislativo e de resolução]]: CAM-PL-014, competência exclusiva do Congresso, resoluções da Câmara/Senado/Congresso, promulgação e ausência de sanção, casos de tratados, créditos e sustação de atos. **CAM-PL-015 refinada na nota 10 existente.**
+
+- [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|CAM-PL-015, rito da PEC]]: refinamento **da nota 10 existente**, com CF art. 60 × RICD arts. 201–203: CCJC, comissão especial, emendas, interstícios, dois turnos e retorno do Senado. **Próxima: CAM-PL-016, indicações, requerimentos, pareceres e vetos como matérias.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

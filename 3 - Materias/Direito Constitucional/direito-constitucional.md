@@ -60,7 +60,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|20. Lei delegada e delegação legislativa]]: CAM-PL-012, autorização por resolução, vedações da CF art. 68, comissão mista e votação sem emendas do projeto delegado. **Concluída na nota 21: CAM-PL-013, medida provisória.**
 
-- [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|21. Medida provisória: pressupostos, prazos, tramitação e efeitos]]: CAM-PL-013, art. 62, vedações, 45/60+60/60 dias, comissão mista, PLV e relações jurídicas. **Próxima: CAM-PL-014, projetos de decreto legislativo e resolução.**
+- [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|21. Medida provisória: pressupostos, prazos, tramitação e efeitos]]: CAM-PL-013, art. 62, vedações, 45/60+60/60 dias, comissão mista, PLV e relações jurídicas. **Concluída na nota 22: CAM-PL-014, decreto legislativo e resoluções.**
+
+- [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|22. Projetos de decreto legislativo e de resolução]]: CAM-PL-014, competência exclusiva do Congresso, resoluções da Câmara/Senado/Congresso, promulgação e ausência de sanção, casos de tratados, créditos e sustação de atos. **Próxima: CAM-PL-015, proposta de emenda à Constituição.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

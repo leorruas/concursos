@@ -68,7 +68,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-016, matérias do processo legislativo]]: refinamento da **nota 11 existente**, comparando indicação, requerimentos dos arts. 114–117, parecer e veto, com situações e itens Cebraspe. **CAM-PL-017 refinada na nota 12 existente.**
 
-- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-017, sujeitos institucionais da iniciativa]]: refinamento da nota 12, comparação entre Presidência, Congresso, tribunais, PGR/MP e cidadãos, iniciativa × Casa iniciadora e reservas. **Próxima: CAM-PL-018, fiscalização contábil, financeira e orçamentária.**
+- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-017, sujeitos institucionais da iniciativa]]: refinamento da nota 12, comparação entre Presidência, Congresso, tribunais, PGR/MP e cidadãos, iniciativa × Casa iniciadora e reservas. **CAM-PL-018 refinada na nota 06 existente.**
+
+- [[3 - Materias/Direito Constitucional/06 - poder legislativo|CAM-PL-018, fiscalização contábil, financeira e orçamentária]]: refinamento da **nota 06**, arts. 70–75, comissão mista do art. 72, controle interno, TCU, sustação e EC 139/2026. **Próxima: CAM-PL-019, Regimento da Câmara, arts. 1º a 24.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

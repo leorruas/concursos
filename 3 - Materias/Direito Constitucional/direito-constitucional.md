@@ -58,7 +58,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|CAM-PL-011. Lei ordinária e complementar]]: expansão da nota **10** com reserva material, quórum, PLP e Plenário, STF Tema 1.352 e exemplos de revisão. **Concluída na nota 20: CAM-PL-012, lei delegada.**
 
-- [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|20. Lei delegada e delegação legislativa]]: CAM-PL-012, autorização por resolução, vedações da CF art. 68, comissão mista e votação sem emendas do projeto delegado. **Próxima: CAM-PL-013, medida provisória.**
+- [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|20. Lei delegada e delegação legislativa]]: CAM-PL-012, autorização por resolução, vedações da CF art. 68, comissão mista e votação sem emendas do projeto delegado. **Concluída na nota 21: CAM-PL-013, medida provisória.**
+
+- [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|21. Medida provisória: pressupostos, prazos, tramitação e efeitos]]: CAM-PL-013, art. 62, vedações, 45/60+60/60 dias, comissão mista, PLV e relações jurídicas. **Próxima: CAM-PL-014, projetos de decreto legislativo e resolução.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

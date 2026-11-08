@@ -70,7 +70,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-017, sujeitos institucionais da iniciativa]]: refinamento da nota 12, comparação entre Presidência, Congresso, tribunais, PGR/MP e cidadãos, iniciativa × Casa iniciadora e reservas. **CAM-PL-018 refinada na nota 06 existente.**
 
-- [[3 - Materias/Direito Constitucional/06 - poder legislativo|CAM-PL-018, fiscalização contábil, financeira e orçamentária]]: refinamento da **nota 06**, arts. 70–75, comissão mista do art. 72, controle interno, TCU, sustação e EC 139/2026. **Próxima: CAM-PL-019, Regimento da Câmara, arts. 1º a 24.**
+- [[3 - Materias/Direito Constitucional/06 - poder legislativo|CAM-PL-018, fiscalização contábil, financeira e orçamentária]]: refinamento da **nota 06**, arts. 70–75, comissão mista do art. 72, controle interno, TCU, sustação e EC 139/2026. **CAM-PL-019 concluída na nota 23.**
+
+- [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|23. Regimento Interno da Câmara: organização, Mesa e órgãos (arts. 1º a 24)]]: CAM-PL-019, sede, sessões, posse, lideranças, Mesa/Presidência/Secretarias, Colégio de Líderes, comunicação e transparência, comissões e art. 24. **Próxima: CAM-PL-020, arts. 25 a 54.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

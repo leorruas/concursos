@@ -295,6 +295,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|17. Sanção, veto, promulgação e publicação]]
   - [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|18. Procedimentos abreviado e sumário: comissões e urgência constitucional]]
   - [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|19. Procedimentos sumaríssimo, especial e concentrado]]
+  - [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|20. Lei delegada e delegação legislativa]]
   - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|11 • Organização do Estado]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]

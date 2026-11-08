@@ -298,6 +298,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|20. Lei delegada e delegação legislativa]]
   - [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|21. Medida provisória: pressupostos, prazos e efeitos]]
   - [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|22. Projetos de decreto legislativo e de resolução]]
+  - [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|23. Regimento da Câmara: organização e órgãos (arts. 1º a 24)]]
   - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|11 • Organização do Estado]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]

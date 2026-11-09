@@ -21,7 +21,7 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]]: referência central para LAI e LGPD.
 
 ## 2. Organização Administrativa
-- [[02 - organizacao administrativa|02 • Organização administrativa (Direta e Indireta, Órgãos e Entidades)]].
+- [[02 - organizacao administrativa|02 • Administração direta e indireta: entidades, vínculos e regime jurídico]] (CAM-DAD-003): autarquias, fundações públicas, empresas públicas e sociedades de economia mista (art. 37, XIX, CF; Lei 13.303/2016; Súmula 556 STF; tutela sem hierarquia).
 - Entidades paraestatais e terceiro setor.
 
 ## 3. Atos Administrativos e Poderes

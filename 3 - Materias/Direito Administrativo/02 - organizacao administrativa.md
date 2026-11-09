@@ -1,122 +1,188 @@
 ---
 articleId: art-86dee064aef44ba4
 articleAliases: ["3 - Materias/Direito Administrativo/02 - organizacao administrativa.md"]
-title: "Organização administrativa"
-type: "conceito"
-status: "ativo"
-created: 2026-06-02
-updated: 2026-09-10
+title: "Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico"
+tags:
+  - direito-administrativo
+  - organizacao-administrativa
+  - administracao-direta
+  - administracao-indireta
+  - autarquias
+  - empresas-estatais
+  - fundacoes-publicas
+  - cebraspe
+  - camara-dos-deputados
 ---
 
-# Organização administrativa
+# Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico
 
-A organização administrativa estuda como o Estado distribui competências e atividades entre **entes, órgãos, entidades e particulares delegatários**. Para prova, três fronteiras resolvem a maior parte das questões: órgão × entidade; desconcentração × descentralização; Administração Direta × Indireta.
+A organização da Administração Pública brasileira estrutura a distribuição das competências estatais entre a **Administração Direta** (os próprios entes federativos federados atuando por seus órgãos despersonalizados) e a **Administração Indireta** (conjunto de pessoas jurídicas instituídas para o desempenho descentralizado de atividades públicas especializadas). Nas provas de nível superior do Cebraspe (especialmente para o cargo de Analista Legislativo da Câmara dos Deputados), esse tema é abordado sob a ótica da **estrita legalidade na criação**, da **natureza da personalidade jurídica**, do **regime jurídico de direito público ou privado** e dos **limites do controle finalístico (*tutela ou supervisão ministerial*)** exercido pelo ente instituidor.
 
-## Órgão × entidade
+Dois pontos de fronteira doutrinária e jurisprudencial concentram a maior incidência de distratores do Cebraspe:
+1. **A ausência de hierarquia ou subordinação entre a Administração Direta e a Indireta:** A relação entre o Ministério supervisor (ou órgão diretivo do Poder) e a entidade descentralizada é exclusivamente de **vinculação e controle finalístico**, sendo vedada a ingerência discricionária em sua autonomia técnica e administrativa, salvo expressa previsão legal.
+2. **As regras de criação e autorização legislativa do art. 37, XIX, da CF/1988:** Somente a autarquia é **criada diretamente por lei específica**; as empresas públicas, as sociedades de economia mista e as fundações públicas têm sua **instituição autorizada por lei específica**, exigindo-se, no caso destas últimas, lei complementar para definir suas áreas de atuação.
 
-A pergunta discriminadora é: **há personalidade jurídica própria?**
+---
 
-```text
-Não → órgão
-Sim → entidade
+## 1. Estrutura Geral da Organização Administrativa
+
+O Estado organiza o desempenho de suas atribuições mediante dois grandes eixos estruturantes:
+
+```mermaid
+graph TD
+    classDef raiz fill:#fff8e7,stroke:#d4a373,stroke-width:2px,color:#2b2b2b;
+    classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:1.5px,color:#2b2b2b;
+    classDef opcao fill:#ffffff,stroke:#d4a373,stroke-width:1px,color:#2b2b2b;
+
+    R["Organização Administrativa Brasileira"]:::raiz --> C1["Administração Direta (Entes Federados)"]:::criterio
+    R --> C2["Administração Indireta (Entidades Descentralizadas)"]:::criterio
+
+    C1 --> O1["União, Estados, DF e Municípios<br/>Atuam mediante ÓRGÃOS DESPERSONALIZADOS<br/>Relação interna: Hierarquia e subordinação"]:::opcao
+    C2 --> O2["Autarquias (Direito Público - Criadas por lei)<br/>Fundações Públicas (Direito Público ou Privado)<br/>Empresas Públicas (Direito Privado - 100% público)<br/>Sociedades de Economia Mista (Direito Privado - S.A.)"]:::opcao
+    
+    C1 -.->|Controle Finalístico / Supervisão / Tutela| C2
 ```
 
-**Órgão** é um centro de competências integrado à estrutura de uma pessoa jurídica. Não possui personalidade jurídica própria. Ministérios, secretarias, departamentos e delegacias são exemplos típicos.
+---
 
-**Entidade** é uma pessoa jurídica. Autarquias, fundações públicas, empresas públicas e sociedades de economia mista são entidades da Administração Indireta.
+## 2. Quadro Comparativo das Entidades da Administração Indireta
 
-A ausência de personalidade do órgão não significa ausência absoluta de capacidade processual em qualquer situação: determinados órgãos podem receber capacidade processual excepcional para defender prerrogativas institucionais. Para a classificação básica de concurso, porém, órgão continua sendo **despersonalizado**.
+A tabela a seguir sistematiza as quatro espécies de entidades que integram a Administração Indireta (Decreto-Lei nº 200/1967 e art. 37, XIX, da CF/1988):
 
-## Desconcentração × descentralização
+| Entidade | Personalidade Jurídica | Forma de Criação (Art. 37, XIX) | Objeto / Finalidade Típica | Regime de Pessoal | Foro Processual (Esfera Federal) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Autarquia** | **Direito Público** | **Criada diretamente por lei específica** (adquire personalidade com a vigência da lei) | Atividades típicas de Estado, fiscalização, poder de polícia, previdência social | Estatutário (Regime Jurídico Único - Lei 8.112/1990) | Justiça Federal (art. 109, I, da CF/1988) |
+| **Fundação Pública (Autárquica)** | **Direito Público** | **Criada por lei específica** (equiparada a autarquia: *autarquia fundacional*) | Atividades sociais, educacionais, científicas e assistenciais sem fins lucrativos | Estatutário (Lei 8.112/1990) | Justiça Federal (art. 109, I, da CF/1988) |
+| **Fundação Pública (Governamental)** | **Direito Privado** | **Instituição autorizada por lei específica** + registro civil dos estatutos (exige LC para área de atuação) | Atividades sociais, de pesquisa e saúde sem fins lucrativos | Emprego Público (CLT) ou estatutário conforme desenho legal | Justiça Comum Estadual (salvo interesse federal específico) |
+| **Empresa Pública** | **Direito Privado** | **Instituição autorizada por lei específica** + registro dos atos constitutivos na Junta Comercial | Exploração de atividade econômica ou prestação de serviço público | Celetista (CLT), mediante concurso público | **Justiça Federal** (art. 109, I, da CF/1988) |
+| **Sociedade de Economia Mista** | **Direito Privado** | **Instituição autorizada por lei específica** + registro comercial | Exploração de atividade econômica ou prestação de serviço público | Celetista (CLT), mediante concurso público | **Justiça Estadual Comum** (Súmulas 517 e 556 do STF) |
 
-### Desconcentração
+---
 
-É a distribuição interna de competências **dentro da mesma pessoa jurídica**. Cria ou organiza órgãos, sem criar nova personalidade jurídica.
+## 3. O Confronto Crítico: Empresa Pública vs. Sociedade de Economia Mista
 
-Exemplo: um ministério distribui competências entre secretarias e departamentos.
+Ambas constituem espécies do gênero **empresas estatais**, submetidas ao regime geral da Lei nº 13.303/2016 (Estatuto das Estatais). O Cebraspe testa reiteradamente as três diferenças fundamentais que as discriminam:
 
-### Descentralização
+1. **Composição do Capital Social:**
+   - **Empresa Pública:** Capital **100% público** (integralmente titularizado pela União, Estados, DF, Municípios ou por outras entidades da administração pública direta ou indireta).
+   - **Sociedade de Economia Mista:** Capital **misto** (composto por recursos públicos e privados), exigindo-se obrigatoriamente que a **maioria das ações com direito a voto** pertença à entidade pública controladora.
+2. **Forma Societária:**
+   - **Empresa Pública:** Pode adotar **qualquer forma jurídica admitida em direito** (Sociedade Anônima, Sociedade Limitada, ou modalidade societária unilinear).
+   - **Sociedade de Economia Mista:** Deve constituir-se **obrigatoriamente sob a forma de Sociedade Anônima (S.A.)**, submetida às regras da Lei nº 6.404/1976.
+3. **Competência Jurisdicional (na Esfera Federal):**
+   - **Empresa Pública Federal (e.g., Caixa Econômica Federal, Correios):** Causas julgadas perante a **Justiça Federal** (art. 109, I, da CF/1988).
+   - **Sociedade de Economia Mista Federal (e.g., Banco do Brasil, Petrobras):** Causas julgadas perante a **Justiça Comum Estadual**, salvo quando a União intervir como assistente ou opoente (Súmula 517 do STF e Súmula 556 do STF).
 
-É a transferência da execução ou titularidade administrativa para **outra pessoa**. Portanto, não significa simplesmente “criar entidade”. Pode ocorrer, entre outras formas, por:
+```mermaid
+graph TD
+    classDef raiz fill:#fff8e7,stroke:#d4a373,stroke-width:2px,color:#2b2b2b;
+    classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:1.5px,color:#2b2b2b;
+    classDef opcao fill:#ffffff,stroke:#d4a373,stroke-width:1px,color:#2b2b2b;
 
-- **outorga/serviço por entidade da Administração Indireta**: uma pessoa jurídica administrativa recebe atribuições definidas pelo ordenamento;
-- **delegação a particular**: a execução do serviço é transferida por instrumentos como concessão ou permissão, sem que o particular passe a integrar a Administração Indireta.
+    R["Empresas Estatais (Lei 13.303/2016)"]:::raiz --> C1["Empresa Pública (EP)"]:::criterio
+    R --> C2["Sociedade de Economia Mista (SEM)"]:::criterio
 
-Heurística:
-
-```text
-mesma pessoa jurídica → desconcentração
-outra pessoa → descentralização
+    C1 --> O1["Capital 100% público<br/>Qualquer forma societária (LTDA, S.A.)<br/>Justiça Federal (se federal)"]:::opcao
+    C2 --> O2["Capital misto (maioria votante pública)<br/>Obrigatoriamente S.A.<br/>Justiça Estadual (mesmo federal - Súm. 556 STF)"]:::opcao
 ```
 
-A criação de ministério é desconcentração. A criação de autarquia é exemplo de descentralização administrativa. A concessão de serviço público a empresa privada também é descentralização, mas **não cria entidade da Administração Indireta**.
+---
 
-## Administração Direta × Indireta
+## 4. O Vínculo entre Administração Direta e Indireta: Tutela vs. Hierarquia
 
-**Administração Direta** corresponde aos entes políticos — União, Estados, Distrito Federal e Municípios — atuando por seus órgãos.
+O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executivo ou os Ministros de Estado exerceriam "poder hierárquico" sobre as entidades da Administração Indireta:
 
-**Administração Indireta** é formada por entidades dotadas de personalidade jurídica própria vinculadas à Administração Direta para desempenhar funções administrativas específicas.
+- **Inexistência de Hierarquia:** Não há relação de subordinação hierárquica entre a Administração Direta e a Indireta. A hierarquia pressupõe desconcentração interna (dentro da mesma pessoa jurídica).
+- **Controle Finalístico (Supervisão Ministerial ou Tutela Administrativa):** O vínculo existente é de mera **vinculação institucional**, voltada a assegurar que a entidade descentralizada atue em consonância com as finalidades para as quais foi criada pela lei (*princípio da especialidade*).
+- **Limites da Tutela:** A supervisão ministerial não autoriza a intervenção discricionária no mérito das decisões técnicas da entidade, dependendo sempre de autorização legal expressa para a prática de atos de controle (princípio da legalidade).
+- **Recurso Hierárquico Impróprio:** Em regra, das decisões finais de uma autarquia ou agência reguladora não cabe recurso para o Ministério supervisor, salvo quando a lei expressamente previr essa via extraordinária (*recurso hierárquico impróprio*).
 
-A palavra correta é **vinculação**, não subordinação hierárquica. Ministério supervisor e autarquia vinculada não mantêm, em regra, a mesma relação hierárquica existente entre órgãos internos de uma pessoa jurídica.
+---
 
-## Entidades da Administração Indireta
+## 5. Questões Comentadas no Estilo Cebraspe
 
-| Entidade | Personalidade predominante | Constituição/criação | Capital/estrutura | Ponto de prova |
-|---|---|---|---|---|
-| **Autarquia** | direito público | criada diretamente por lei específica | patrimônio próprio | exerce atividade administrativa típica sob regime predominantemente público |
-| **Fundação pública** | pode assumir regime público ou privado conforme sua configuração jurídica | a CF prevê autorização por lei específica para instituição de fundação | patrimônio destinado a finalidade de interesse público | não reduzir toda fundação pública a um único regime jurídico |
-| **Empresa pública** | direito privado | instituição autorizada por lei | capital social integralmente público; pode assumir formas societárias admitidas em direito | não exige forma de S.A. |
-| **Sociedade de economia mista** | direito privado | instituição autorizada por lei | maioria das ações com direito a voto sob controle público, com participação privada | deve assumir forma de sociedade anônima |
+### Questão 1
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-O art. 37, XIX, da Constituição é uma pegadinha literal importante: **a autarquia é criada por lei específica; empresa pública, sociedade de economia mista e fundação têm sua instituição autorizada por lei específica**.
+**Item:** As autarquias adquirem personalidade jurídica a partir da inscrição de seus atos constitutivos no registro competente, cabendo à lei específica apenas autorizar a sua posterior instituição pelo Poder Executivo.
 
-## Empresa pública × sociedade de economia mista
+- ( ) Certo
+- ( ) Errado
 
-A distinção não depende de ambas serem “empresas estatais”, pois isso é comum às duas. Os melhores critérios são:
+**Gabarito: Errado**  
+**Comentário:** O art. 37, XIX, da CF/1988 estabelece uma distinção rigorosa: a autarquia **é criada diretamente pela lei específica**, adquirindo personalidade jurídica de direito público no momento da entrada em vigor da lei, sem necessidade de registro civil. As demais entidades (empresas públicas, sociedades de economia mista e fundações de direito privado) é que dependem de lei autorizativa cumulada com o registro no órgão competente.
 
-- **capital**: empresa pública possui capital integralmente público; a sociedade de economia mista admite capital privado, preservado o controle público do capital votante;
-- **forma societária**: empresa pública pode adotar diferentes formas admitidas em direito; sociedade de economia mista é sociedade anônima.
+---
 
-Ambas têm personalidade jurídica de direito privado. Integrar a Administração Indireta não transforma automaticamente uma entidade em pessoa jurídica de direito público.
+### Questão 2
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-## Criação × vinculação × hierarquia
+**Item:** Entre a Presidência da Câmara dos Deputados e uma autarquia federal vinculada inexiste relação de subordinação hierárquica, exercendo o ente central apenas controle finalístico ou tutela administrativa nos estritos limites definidos em lei.
 
-Esses três conceitos aparecem frequentemente transpostos:
+- ( ) Certo
+- ( ) Errado
 
-- a lei **cria** diretamente a autarquia;
-- a lei **autoriza a instituição** das demais entidades do art. 37, XIX;
-- a entidade da Administração Indireta fica **vinculada** ao ente/órgão supervisor para finalidades de controle e supervisão;
-- vinculação **não é hierarquia**.
+**Gabarito: Certo**  
+**Comentário:** A descentralização administrativa rompe o vínculo de hierarquia, que só opera no âmbito interno da mesma pessoa jurídica (desconcentração). A relação entre o ente instituidor/supervisor e a entidade descentralizada é de mera vinculação para fins de controle finalístico e cumprimento do princípio da especialidade.
 
-Logo, um ministro não possui sobre uma autarquia o mesmo poder hierárquico que possui sobre unidades internas do próprio ministério.
+---
 
-## Como a banca pode cobrar
+### Questão 3
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-- chamar ministério ou secretaria de entidade;
-- dizer que toda descentralização cria pessoa da Administração Indireta;
-- dizer que concessão é desconcentração porque o serviço continua sendo público;
-- afirmar que empresa pública e sociedade de economia mista são pessoas jurídicas de direito público;
-- inverter `autarquia criada por lei` e `empresa pública autorizada por lei`;
-- tratar vinculação entre Administração Direta e Indireta como subordinação hierárquica;
-- dizer que empresa pública precisa assumir forma de sociedade anônima, deslocando característica da sociedade de economia mista.
+**Item:** Uma sociedade de economia mista federal que explore atividade econômica em regime de concorrência pode ser constituída sob a forma de sociedade de responsabilidade limitada, desde que a totalidade de suas cotas pertença a entes públicos.
 
-## Relações com outros temas
+- ( ) Certo
+- ( ) Errado
 
-A distinção entre vinculação e hierarquia conecta-se a [[3 - Materias/Direito Administrativo/04 - poderes administrativos|Poderes administrativos]]. As entidades prestadoras de serviço público se conectam a [[3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado|Responsabilidade civil do Estado]]. A delegação por concessão ou permissão deve ser aprofundada na futura nota canônica de Serviços Públicos.
+**Gabarito: Errado**  
+**Comentário:** A sociedade de economia mista **deve obrigatoriamente adotar a forma de Sociedade Anônima (S.A.)**, nos termos do art. 5º, III, do Decreto-Lei nº 200/1967 e da Lei nº 13.303/2016. Ademais, por definição ontológica, a sociedade de economia mista possui capital misto (público e privado), não podendo ter 100% de capital público (hipótese que caracterizaria empresa pública).
 
-## Heurísticas
+---
 
-**Órgão não tem personalidade; entidade tem.**
+### Questão 4
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Desconcentração = dentro da mesma pessoa; descentralização = outra pessoa.**
+**Item:** Compete à Justiça Federal processar e julgar as ações cíveis propostas contra a Caixa Econômica Federal, ao passo que as ações promovidas contra o Banco do Brasil S.A., sociedade de economia mista federal, são de competência da Justiça Comum Estadual.
 
-**Autarquia: criada por lei. EP/SEM/fundação: instituição autorizada por lei.**
+- ( ) Certo
+- ( ) Errado
 
-**Administração Direta ↔ Indireta: pense primeiro em vinculação/supervisão, não em hierarquia.**
+**Gabarito: Certo**  
+**Comentário:** O art. 109, I, da CF/1988 fixa a competência da Justiça Federal para as causas em que a União, entidade autárquica ou **empresa pública federal** (caso da CEF) forem interessadas. As sociedades de economia mista federais (como o Banco do Brasil) não constam do rol taxativo do art. 109, I, sendo suas causas processadas perante a Justiça Estadual, consoante pacificidade da Súmula 556 do STF.
 
-## Fontes
+---
 
-- Constituição Federal, art. 37, XIX e XX.
-- Decreto-Lei nº 200/1967, arts. 4º e 5º.
-- Lei nº 13.303/2016, arts. 2º a 4º.
-- [[11-06-2026|Inbox - 02-06-2026]].
+### Questão 5
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
+
+**Item:** As empresas estatais prestadoras de serviços públicos submetem-se ao regime de responsabilidade civil objetiva previsto no art. 37, § 6º, da Constituição Federal, não gozando, contudo, das prerrogativas processuais da Fazenda Pública, como o prazo em dobro para manifestação em juízo.
+
+- ( ) Certo
+- ( ) Errado
+
+**Gabarito: Certo**  
+**Comentário:** As pessoas jurídicas de direito privado prestadoras de serviços públicos respondem objetivamente pelos danos causados por seus agentes (art. 37, § 6º, da CF/1988). Todavia, por possuírem personalidade de direito privado, não usufruem do regime processual privilegiado da Fazenda Pública (prazos diferenciados do CPC e precatórios), salvo hipóteses excepcionalíssimas de empresas públicas prestadoras de serviço público em regime de monopólio estrito (jurisprudência consolidada dos Correios/ECT no STF).
+
+---
+
+### Questão 6
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
+
+**Item:** O princípio da especialidade impede que uma autarquia exerça competências estranhas às finalidades expressamente delimitadas na lei instituidora, sob pena de nulidade do ato praticado por desvio de finalidade.
+
+- ( ) Certo
+- ( ) Errado
+
+**Gabarito: Certo**  
+**Comentário:** Pelo princípio da especialidade, a entidade descentralizada é criada para um fim determinado e específico. Ela não possui capacidade jurídica genérica e ampla, ficando adstrita aos objetivos fixados na lei instituidora. A prática de ato alheio à sua missão institucional acarreta incompetência e desvio de finalidade.
+
+---
+
+## 6. Relações com Outros Artigos e Síntese de Revisão
+
+- **Pré-requisitos e Vínculos Teóricos:**
+  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|CAM-DAD-001]]: Distinção entre Estado, Governo e o aparelho administrativo técnico.
+  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|CAM-DAD-002]]: Aplicação dos princípios de legalidade estrita, moralidade e eficiência à descentralização.
+  - [[3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao|CAM-DAD-004]]: Aprofundamento dos mecanismos operacionais de desconcentração e descentralização por outorga e delegação.
+  - [[3 - Materias/Direito Administrativo/05 - agentes publicos|CAM-DAD-011]]: Regime jurídico de agentes públicos estatutários de autarquias vs. empregados celetistas de estatais.

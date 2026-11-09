@@ -2479,9 +2479,13 @@
         "locator": "Guia de Análise Ex Post, 2018; Manual de Auditoria Operacional/TCU, 2020, seção 1.3"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Programa cumpriu 95% das metas com custo muito acima do previsto. Isso demonstra eficiência?",
+        "answer": "Não. Alcance das metas evidencia eficácia; eficiência exige avaliar a relação entre resultados e recursos empregados."
+      }
     },
     {
       "id": "eficiencia",
@@ -2578,9 +2582,13 @@
         "locator": "Guia de Análise Ex Post, 2018; Manual de Auditoria Operacional/TCU, 2020, seção 1.3"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 2,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 3,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Programa distribui benefício idêntico a grupos com necessidades muito diferentes. Igualdade de distribuição assegura equidade?",
+        "answer": "Não. Equidade exige considerar condições e necessidades, não somente quantidades iguais."
+      }
     },
     {
       "id": "conflito-interesses",
@@ -2650,9 +2658,13 @@
         "locator": "Lei nº 12.813/2013, arts. 3º e 4º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Documento interno sem repercussão econômica ou financeira é automaticamente informação privilegiada conforme a Lei 12.813?",
+        "answer": "Não. A definição legal exige características específicas; sigilo ou circulação interna isolados não bastam."
+      }
     },
     {
       "id": "transparencia-ativa",
@@ -2714,9 +2726,13 @@
         "locator": "Lei nº 12.527/2011, arts. 3º, 8º e 10; nota de transparência"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Órgão publica contrato no portal e responde pedido de cópia. Qual parte caracteriza transparência passiva?",
+        "answer": "A resposta à solicitação; publicação espontânea corresponde à transparência ativa."
+      }
     },
     {
       "id": "accountability",
@@ -2745,9 +2761,13 @@
         "locator": "Lei nº 12.527/2011, arts. 3º, 8º e 10; nota de transparência"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 2,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 3,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Portal disponibiliza gastos, mas a gestão não explica escolhas nem se sujeita a controle. A publicidade basta para accountability?",
+        "answer": "Não. Accountability envolve prestar contas, justificar condutas e sujeitar-se ao escrutínio e eventual responsabilização."
+      }
     },
     {
       "id": "dado-pessoal",
@@ -2775,9 +2795,13 @@
         "locator": "Lei nº 13.709/2018, art. 5º, I e II"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Número identificador de empregado aparece em cadastro de pessoa jurídica. É dado pessoal?",
+        "answer": "Pode ser, se identificar ou tornar identificável pessoa natural; a presença em cadastro empresarial não afasta essa natureza."
+      }
     },
     {
       "id": "dado-sensivel",
@@ -2805,9 +2829,13 @@
         "locator": "Lei nº 13.709/2018, art. 5º, I e II"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Salário e histórico de compras são sempre dados sensíveis na LGPD porque são privados?",
+        "answer": "Não. A categoria de dados pessoais sensíveis tem hipóteses legais determinadas; confidencialidade não define sozinha sensibilidade."
+      }
     },
     {
       "id": "motivo",
@@ -2835,9 +2863,13 @@
         "locator": "Lei nº 9.784/1999, arts. 50, 53 e 55; nota de atos"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Decisão cita infração e norma jurídica, mas confunde o fato que justificou o ato com o texto que o expôs. Qual é o motivo?",
+        "answer": "Os pressupostos de fato e de direito; a exposição formal deles é motivação."
+      }
     },
     {
       "id": "motivacao",
@@ -2865,9 +2897,13 @@
         "locator": "Lei nº 9.784/1999, arts. 50, 53 e 55; nota de atos"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Ato apresenta justificativa escrita, mas seu objetivo é favorecer amigo. A justificativa é a finalidade do ato?",
+        "answer": "Não. Motivação expõe fundamentos; finalidade refere-se ao interesse público legalmente visado."
+      }
     },
     {
       "id": "anulacao",
@@ -2929,9 +2965,13 @@
         "locator": "Lei nº 9.784/1999, arts. 50, 53 e 55; nota de atos"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Administração identifica ilegalidade insanável em ato. Revogação por conveniência é o fundamento adequado?",
+        "answer": "Não. Ilegalidade demanda análise de anulação; revogação atinge ato válido por conveniência ou oportunidade, observados limites."
+      }
     },
     {
       "id": "convalidacao",
@@ -2959,9 +2999,13 @@
         "locator": "Lei nº 9.784/1999, arts. 50, 53 e 55; nota de atos"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Ato tem defeito sanável e sua correção não lesa interesse público nem terceiro. O que diferencia convalidação de anulação?",
+        "answer": "Convalidação sana vício juridicamente corrigível; anulação retira ato ilegal quando não cabe saneamento, considerados limites legais."
+      }
     },
     {
       "id": "despesa-orcamentaria",
@@ -4007,8 +4051,8 @@
         "locator": "Arts. 13, 14 e 15"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "marco-registros-conexao-vs-aplicacao"
       ],
@@ -4017,7 +4061,11 @@
         "err-sim06-q37-marco-civil",
         "err-sim05-q37-marco-civil-prazos",
         "err-sim04-q37-marco-civil-prazos"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Provedor guarda registros por prazo legal. A guarda autoriza fornecer dados a qualquer interessado?",
+        "answer": "Não. Prazo de guarda e condições de acesso são obrigações distintas; conferir base legal e autorização judicial quando exigida."
+      }
     },
     {
       "id": "dp-duarte-eixos",
@@ -4045,15 +4093,19 @@
         "locator": "Seção: Fronteiras entre os quatro eixos"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "duarte-interacao-ouvidoria-social"
       ],
       "legacyErrorIds": [
         "err-sim06-q42-duarte",
         "err-sim04-q41-duarte"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Instituição abre debate com cidadãos ou pesquisa suas necessidades para ajustar política de comunicação. Qual eixo predomina em cada caso?",
+        "answer": "Debate com diálogo remete à interação; escuta estruturada de opiniões e necessidades para orientar a ação remete à ouvidoria social."
+      }
     },
     {
       "id": "dp-ehling-politica",
@@ -4081,14 +4133,18 @@
         "locator": "Seção: 4. Teoria de conflitos-resoluções → função política"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "ehling-conflitos-funcao-politica"
       ],
       "legacyErrorIds": [
         "err-sim06-q43-ehling"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Relações públicas negocia disputa entre empresa e comunidade. A função é apenas gerenciamento estratégico sem dimensão política?",
+        "answer": "Não. A teoria de conflitos-resoluções destaca a função política, com interesses e controvérsias em conflito."
+      }
     },
     {
       "id": "dp-mattos-populista",
@@ -4116,14 +4172,18 @@
         "locator": "Seção: Fases da televisão brasileira — Sérgio Mattos"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "mattos-populista-1964-1975"
       ],
       "legacyErrorIds": [
         "err-sim06-q65-mattos"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Questão menciona televisão brasileira em 1970 e programas de auditório. Qual fase de Sérgio Mattos?",
+        "answer": "Populista (1964–1975); não confundir com desenvolvimento tecnológico (1975–1985)."
+      }
     },
     {
       "id": "dp-mattos-tecnologico",
@@ -4151,14 +4211,18 @@
         "locator": "Seção: Fases da televisão brasileira — Sérgio Mattos"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "mattos-desenvolvimento-1975-1985"
       ],
       "legacyErrorIds": [
         "err-sim05-q47-tv-mattos"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Questão destaca exportação e profissionalização da produção televisiva em 1980. Qual fase de Mattos?",
+        "answer": "Desenvolvimento tecnológico (1975–1985), posterior à fase populista (1964–1975)."
+      }
     },
     {
       "id": "dp-lage-entrevista",
@@ -4186,14 +4250,18 @@
         "locator": "Seção: 4. As duas classificações podem se cruzar"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "lage-testemunhal-vs-profundidade"
       ],
       "legacyErrorIds": [
         "err-sim07-q52-lage"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Entrevistado descreve acidente que presenciou; em outra entrevista, explora sua trajetória pessoal. Qual a classificação pela finalidade?",
+        "answer": "A primeira tende a testemunhal; a segunda, em profundidade. Duração da conversa não define a categoria."
+      }
     },
     {
       "id": "dp-logica-somente-se",
@@ -4221,14 +4289,18 @@
         "locator": "Seção: Condição suficiente e necessária"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "condicional-somente-se"
       ],
       "legacyErrorIds": [
         "err-sim05-q02-necessaria"
-      ]
+      ],
+      "contrast": {
+        "prompt": "'Receberei diploma somente se concluir o curso' permite concluir que concluir o curso basta para receber diploma?",
+        "answer": "Não. Diploma implica conclusão; conclusão é condição necessária, não necessariamente suficiente."
+      }
     },
     {
       "id": "dp-logica-p-se-q",
@@ -4256,14 +4328,18 @@
         "locator": "Seção: Tradução da linguagem natural"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "condicional-p-se-q"
       ],
       "legacyErrorIds": [
         "err-bat-20260902-se"
-      ]
+      ],
+      "contrast": {
+        "prompt": "'Serei aprovado se obtiver nota mínima' corresponde a aprovado → nota mínima?",
+        "answer": "Não. A estrutura P se Q expressa Q → P: obter nota mínima → aprovação, nos termos da proposição."
+      }
     },
     {
       "id": "dp-logica-contrapositiva",
@@ -4291,15 +4367,19 @@
         "locator": "Seção: A condicional: quatro estruturas que não podem se misturar"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "contrapositiva-reciproca-inversa"
       ],
       "legacyErrorIds": [
         "err-sim02-q35",
         "err-bat-20260904-contrapositiva"
-      ]
+      ],
+      "contrast": {
+        "prompt": "De 'se P então Q', pode-se concluir 'se não P então não Q'?",
+        "answer": "Não. Isso é a inversa. A contrapositiva equivalente é 'se não Q então não P'."
+      }
     },
     {
       "id": "dp-bloco-contagem",
@@ -4327,14 +4407,18 @@
         "locator": "Seção: Elementos que devem ficar juntos: método do bloco"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "contagem-bloco-ordem-interna"
       ],
       "legacyErrorIds": [
         "err-sim04-q28-bloco"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Em quantas ordens distintas quatro pessoas ficam em fila se A e B precisam ficar juntos?",
+        "answer": "Tratar AB como bloco: 3! posições externas × 2! ordens internas = 12, assumindo pessoas distintas."
+      }
     },
     {
       "id": "dp-complemento-contagem",
@@ -4362,14 +4446,18 @@
         "locator": "Seção: Complemento com restrições"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "contagem-complemento-pelo-menos-um"
       ],
       "legacyErrorIds": [
         "err-sim05-q27-complemento"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Selecionar 3 de 8 candidatos, com pelo menos 1 entre 2 especialistas: que contagem evita somar casos?",
+        "answer": "Combinações totais menos escolhas sem especialista: C(8,3) − C(6,3) = 36."
+      }
     },
     {
       "id": "dp-7ps-process-evidencia",
@@ -4397,14 +4485,18 @@
         "locator": "Seção: Refinamento — Process × Physical Evidence"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "7ps-process-vs-physical-evidence"
       ],
       "legacyErrorIds": [
         "err-sim04-q45-7ps"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Aplicativo tem fila de espera longa e tela com aparência descuidada. Qual dimensão dos 7 Ps cada descrição ressalta?",
+        "answer": "Tempo e fluxo do atendimento: Process. Sinais visíveis da interface: Physical Evidence. O objeto pode envolver ambos segundo o aspecto analisado."
+      }
     },
     {
       "id": "dp-crise-dark-site",
@@ -4432,14 +4524,18 @@
         "locator": "Seção: Dark site"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "dark-site-crise"
       ],
       "legacyErrorIds": [
         "err-sim07-q43-dark-site"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Equipe prepara página de informações para eventual incidente. Isso exige retirar o site institucional do ar?",
+        "answer": "Não. Dark site é recurso de contingência que pode ser ativado na crise; sua preparação não impõe indisponibilidade do site principal."
+      }
     },
     {
       "id": "dp-ampulheta-jornalismo",
@@ -4467,14 +4563,18 @@
         "locator": "The top; the turn; the narrative"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "jornalismo-ampulheta"
       ],
       "legacyErrorIds": [
         "err-sim07-q42-ampulheta"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Notícia abre com resumo e depois narra eventos em ordem temporal. É pirâmide invertida pura?",
+        "answer": "Não. A combinação de resumo inicial, transição e relato narrativo caracteriza estrutura de ampulheta."
+      }
     },
     {
       "id": "dp-amostragem-sistematica",
@@ -4502,14 +4602,18 @@
         "locator": "Seção: Fronteiras entre os principais desenhos probabilísticos"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "amostragem-sistematica-conglomerados"
       ],
       "legacyErrorIds": [
         "err-sim07-q57-sistematica"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Pesquisa escolhe cada 10º nome da lista; outra sorteia escolas e pesquisa alunos dessas escolas. Que desenhos são esses?",
+        "answer": "Primeiro, sistemática por intervalo; segundo, conglomerados por grupos naturais."
+      }
     },
     {
       "id": "dp-sujeito-contexto",
@@ -4537,14 +4641,18 @@
         "locator": "Seção: Na 3ª pessoa do plural, o contexto costuma decidir"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "sujeito-plural-oculto-indeterminado"
       ],
       "legacyErrorIds": [
         "err-sim07-q03-sujeito"
-      ]
+      ],
+      "contrast": {
+        "prompt": "'Ana e Bia chegaram. Saíram cedo.' e 'Disseram que houve adiamento.' têm necessariamente o mesmo tipo de sujeito?",
+        "answer": "Não. No primeiro, o referente é recuperável (oculto determinado); no segundo, sem contexto identificador, sujeito indeterminado."
+      }
     },
     {
       "id": "dp-crase-locucoes",
@@ -4572,14 +4680,18 @@
         "locator": "Seção: Locuções femininas"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "crase-locucao-feminina-a-prazo"
       ],
       "legacyErrorIds": [
         "err-sim07-q05-crase"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Qual diferença justifica 'à noite' e 'a prazo'?",
+        "answer": "Locução adverbial feminina consagrada admite crase; 'prazo' é núcleo masculino e não recebe artigo feminino."
+      }
     },
     {
       "id": "dp-voz-passiva-tempo",
@@ -4607,14 +4719,18 @@
         "locator": "Seção: 5. Voz ativa × voz passiva"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "voz-passiva-tempo"
       ],
       "legacyErrorIds": [
         "err-sim07-q12-passiva"
-      ]
+      ],
+      "contrast": {
+        "prompt": "'A equipe concluirá a auditoria' vira 'A auditoria foi concluída pela equipe'. O sentido temporal foi preservado?",
+        "answer": "Não. O futuro deveria ser 'será concluída'; a passiva preserva tempo e modo ao transformar o verbo."
+      }
     },
     {
       "id": "dp-telejornalismo-partes",
@@ -4642,14 +4758,18 @@
         "locator": "Seção: Telejornalismo: cinco elementos estruturais"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "telejornalismo-off-passagem-sonora"
       ],
       "legacyErrorIds": [
         "err-sim05-q49-telejornalismo"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Trecho mostra repórter falando para câmera, seguido de fala da fonte. É off e pé?",
+        "answer": "Não. Repórter visível caracteriza passagem; fala da fonte é sonora. Off é narração sem repórter em cena."
+      }
     },
     {
       "id": "dp-hifen-prefixos",
@@ -4677,14 +4797,18 @@
         "locator": "Seção: Refinamento — teste rápido de hífen"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "hifen-prefixos-regras"
       ],
       "legacyErrorIds": [
         "err-sim04-q11-hifen"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Por que 'anti-inflamatório' tem hífen e 'antirracismo' duplica r?",
+        "answer": "A mesma vogal i no encontro anti + inflamatório exige hífen; diante de r após vogal, em regra une-se e duplica-se a consoante."
+      }
     },
     {
       "id": "dp-que-integrante-relativo",
@@ -4712,14 +4836,18 @@
         "locator": "Seção: `que`: conjunção integrante × pronome relativo"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "que-integrante-relativo"
       ],
       "legacyErrorIds": [
         "err-sim06-q01-que"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Em 'o relatório que li' e 'afirmou que leu', o 'que' tem a mesma função?",
+        "answer": "Não. No primeiro retoma antecedente e é relativo; no segundo introduz oração substantiva e é conjunção integrante."
+      }
     },
     {
       "id": "dp-manual-injuncao",
@@ -4747,14 +4875,18 @@
         "locator": "Seção: Tipo × gênero"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "manual-genero-injuncao-tipo"
       ],
       "legacyErrorIds": [
         "err-sim06-q07-tipo-genero"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Um manual contém instruções e uma apresentação histórica. O gênero deixa de ser manual por conter sequência expositiva?",
+        "answer": "Não. Manual é gênero; injunção e exposição são sequências ou tipos que podem coexistir no gênero."
+      }
     },
     {
       "id": "aud-resposta-controle-componentes",
@@ -4854,14 +4986,18 @@
         "locator": "Seção: Coordenação adversativa × subordinação concessiva"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "adversativa-coordenacao-vs-concessiva-subordinacao"
       ],
       "legacyErrorIds": [
         "err-bat-20260914-adversativa-concessiva"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Trocar 'mas' por 'embora' sem alterar estrutura e flexão mantém automaticamente a correção da frase?",
+        "answer": "Não. Coordenação adversativa e subordinação concessiva exigem construções sintáticas próprias, embora exprimam contraste."
+      }
     },
     {
       "id": "dp-ambiguidade-pronome",
@@ -4889,14 +5025,18 @@
         "locator": "Seção: Refinamento — ambiguidade de referência pronominal"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "referente-pronome-ambiguidade"
       ],
       "legacyErrorIds": [
         "err-sim04-q07-referencia"
-      ]
+      ],
+      "contrast": {
+        "prompt": "'Joana conversou com Carla sobre sua pesquisa'. A pesquisa é necessariamente de Carla por estar mais próxima?",
+        "answer": "Não. 'Sua' pode admitir mais de um referente; contexto ou reescrita explícita é necessário."
+      }
     },
     {
       "id": "dp-meta-faixa-selic",
@@ -4924,14 +5064,18 @@
         "locator": "Seção: Núcleo do conceito"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "meta-inflacao-faixa-selic-nao-automatica"
       ],
       "legacyErrorIds": [
         "err-sim04-q30-metas"
-      ]
+      ],
+      "contrast": {
+        "prompt": "IPCA mensal cai, mas expectativas seguem elevadas. O Copom é obrigado a reduzir Selic?",
+        "answer": "Não. A decisão considera conjunto de informações e riscos; meta central, tolerância e variação mensal não são equivalentes."
+      }
     },
     {
       "id": "dp-discurso-indireto-tempo",
@@ -4959,14 +5103,18 @@
         "locator": "Seção: 6. Discurso direto × indireto"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "discurso-direto-indireto-ajuste-temporal"
       ],
       "legacyErrorIds": [
         "err-sim05-q12-discurso-indireto"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Alguém disse ontem: 'Amanhã viajarei'. No relato feito hoje, pode-se manter 'amanhã' sem verificar a referência temporal?",
+        "answer": "Não necessariamente. Tempo e dêiticos devem ser ajustados segundo o momento e ponto de vista de quem narra."
+      }
     },
     {
       "id": "dp-texto-manchetado",
@@ -4994,14 +5142,18 @@
         "locator": "Seção: Texto manchetado"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "texto-manchetado-frases-curtas"
       ],
       "legacyErrorIds": [
         "err-sim05-q48-manchetado-exceto"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Texto radiojornalístico manchetado se caracteriza por períodos longos e sintaxe rebuscada?",
+        "answer": "Não. Privilegia frases curtas e informativamente completas, em linguagem concisa."
+      }
     },
     {
       "id": "dp-saeb-ideb-pe-de-meia",
@@ -5029,14 +5181,18 @@
         "locator": "Seção: Prioridade para a Dataprev 2026"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "saeb-ideb-pe-de-meia-distincao"
       ],
       "legacyErrorIds": [
         "err-sim06-q30-saeb"
-      ]
+      ],
+      "contrast": {
+        "prompt": "O governo usa prova externa, indicador de fluxo mais aprendizagem e incentivo de permanência. Quais instrumentos correspondem?",
+        "answer": "Saeb: avaliação externa; Ideb: indicador composto com aprendizagem e fluxo; Pé-de-Meia: incentivo financeiro-educacional."
+      }
     },
     {
       "id": "cgu-soberania-representacao",
@@ -5100,11 +5256,15 @@
         "locator": "Arts. 1º, parágrafo único; 2º; 70 e 74"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "separacao-poderes-freios-contrapesos"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Fiscalização de um Poder por outro implica subordinação hierárquica constitucional?",
+        "answer": "Não. Independência e harmonia coexistem com controles recíprocos nos limites das competências."
+      }
     },
     {
       "id": "cgu-controle-interno-externo",
@@ -5132,11 +5292,15 @@
         "locator": "Arts. 70, 71 e 74"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "controle-interno-externo-cf"
-      ]
+      ],
+      "contrast": {
+        "prompt": "O TCU integra hierarquicamente o Congresso e todo controle interno pertence ao Executivo?",
+        "answer": "Não. Controle interno existe em cada Poder; controle externo federal é do Congresso com auxílio do TCU, sem subordinação hierárquica."
+      }
     },
     {
       "id": "cgu-controle-social",
@@ -5164,11 +5328,15 @@
         "locator": "Arts. 70, 71 e 74"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "controle-social-versus-institucional"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Cidadãos acompanham contratos públicos por dados abertos. Passam a exercer o controle externo constitucional do Congresso?",
+        "answer": "Não. Exercem controle social; competência institucional do controle externo e atribuições da auditoria interna são próprias."
+      }
     },
     {
       "id": "cgu-desocupacao-forca",
@@ -5196,11 +5364,15 @@
         "locator": "Glossário e conceitos de força de trabalho e desocupação"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "desocupacao-forca-trabalho"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Há 80 ocupados, 20 desocupados e 30 fora da força de trabalho. A taxa de desocupação é 20/130?",
+        "answer": "Não. A força de trabalho é 100; taxa de desocupação = 20/100 = 20%."
+      }
     },
     {
       "id": "cgu-informalidade-desocupacao",
@@ -5228,11 +5400,15 @@
         "locator": "Glossário e conceitos de força de trabalho e desocupação"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "informalidade-versus-desocupacao"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Pessoa trabalha sem carteira assinada e procura emprego formal. É necessariamente desocupada?",
+        "answer": "Não. Se está ocupada na referência da pesquisa, pode ser trabalhadora informal, não desocupada."
+      }
     },
     {
       "id": "cgu-fecundidade-natalidade",
@@ -5260,11 +5436,15 @@
         "locator": "Indicadores demográficos e projeções"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "fecundidade-total-versus-natalidade"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Fecundidade total cai abaixo da reposição. A população total precisa diminuir no mesmo ano?",
+        "answer": "Não. Fecundidade mede filhos por mulher segundo taxas etárias; natalidade usa nascimentos e população total, e dinâmica populacional tem defasagens."
+      }
     },
     {
       "id": "cgu-envelhecimento-dependencia",
@@ -5292,11 +5472,15 @@
         "locator": "Indicadores demográficos e projeções"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "razao-dependencia-demografica-nao-economica"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Razão de dependência etária elevada prova que todos os idosos estão economicamente inativos?",
+        "answer": "Não. É proxy por faixas etárias; situação econômica individual requer outros dados."
+      }
     },
     {
       "id": "cgu-patrimonialismo",
@@ -5324,11 +5508,15 @@
         "locator": "Seção: Patrimonialismo"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "patrimonialismo-publico-privado"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Órgão tem regulamento impessoal, mas cargos são distribuídos por lealdade familiar. A formalização elimina traços patrimonialistas?",
+        "answer": "Não. A prática pode revelar confusão entre público e privado apesar da existência formal de regras."
+      }
     },
     {
       "id": "cgu-burocracia-gerencial",
@@ -5392,11 +5580,15 @@
         "locator": "Arts. 2º e 5º; mecanismos de governança"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "governanca-avalia-direciona-monitora"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Conselho define diretrizes e acompanha desempenho; diretoria executa processos. Qual dimensão predomina em cada ação?",
+        "answer": "Direção e monitoramento: governança; execução de processos e recursos: gestão."
+      }
     },
     {
       "id": "cgu-governanca-governabilidade",
@@ -5424,11 +5616,15 @@
         "locator": "Arts. 2º e 5º; mecanismos de governança"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "governanca-versus-governabilidade"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Governo tem base política ampla, mas controles fracos. Apoio legislativo demonstra governança adequada?",
+        "answer": "Não. Base e sustentação remetem à governabilidade; mecanismos de direção, monitoramento e responsabilização à governança."
+      }
     },
     {
       "id": "cgu-primario-nominal",
@@ -5456,11 +5652,15 @@
         "locator": "Conceitos de resultado primário, nominal e dívida pública"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "resultado-primario-versus-nominal"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Resultado primário é superávit de 10, e juros nominais líquidos representam despesa de 20. Há superávit nominal?",
+        "answer": "Não. Simplificando outras variáveis, há déficit nominal de 10; primário exclui juros."
+      }
     },
     {
       "id": "cgu-dpf-dbgg",
@@ -5488,11 +5688,15 @@
         "locator": "Conceitos de resultado primário, nominal e dívida pública"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "dpf-versus-dbgg"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Relatório compara DPF do Tesouro e DBGG do Banco Central como se tivessem mesma abrangência. Qual risco?",
+        "answer": "Compara séries com perímetros institucionais distintos; é preciso conferir definições e metodologias."
+      }
     },
     {
       "id": "cgu-divida-bruta-liquida",
@@ -5520,11 +5724,15 @@
         "locator": "Conceitos de resultado primário, nominal e dívida pública"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "divida-bruta-versus-liquida"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Dois entes têm a mesma dívida bruta, mas ativos financeiros elegíveis diferentes. A dívida líquida deve ser igual?",
+        "answer": "Não necessariamente. O conceito líquido desconta ativos pertinentes à metodologia."
+      }
     },
     {
       "id": "cgu-divida-pib",
@@ -5552,11 +5760,15 @@
         "locator": "Conceitos de resultado primário, nominal e dívida pública"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "divida-estoque-versus-pib"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Dívida nominal cresce 2%, mas PIB nominal cresce 5%. A razão dívida/PIB necessariamente sobe?",
+        "answer": "Não. Mantidas as bases comparáveis, o denominador pode crescer mais e reduzir a razão."
+      }
     },
     {
       "id": "cgu-modalidade-criterio",
@@ -5620,11 +5832,15 @@
         "locator": "Arts. 5º, 28, 33, 72, 74 e 75"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "dispensa-versus-inexigibilidade"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Há competição possível, mas uma hipótese legal autoriza contratar diretamente. Trata-se necessariamente de inexigibilidade?",
+        "answer": "Não. Inexigibilidade exige inviabilidade de competição; dispensa segue hipóteses legais mesmo havendo competição em abstrato."
+      }
     },
     {
       "id": "cgu-contratacao-direta-processo",
@@ -5652,11 +5868,15 @@
         "locator": "Arts. 5º, 28, 33, 72, 74 e 75"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "contratacao-direta-instrucao-art72"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Inexigibilidade dispensa licitação. O gestor pode contratar sem justificar preço ou escolha?",
+        "answer": "Não. Contratação direta exige processo instruído e justificativas conforme art. 72 da Lei 14.133."
+      }
     },
     {
       "id": "cgu-segregacao-contratacoes",
@@ -5684,11 +5904,15 @@
         "locator": "Arts. 5º, 28, 33, 72, 74 e 75"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "segregacao-funcoes-licitacoes"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Em unidade pequena, uma pessoa acumula tarefas. Isso comprova irregularidade absoluta sem avaliar riscos e controles?",
+        "answer": "Não. Segregação busca limitar concentração incompatível de funções, conforme riscos e possibilidades organizacionais."
+      }
     },
     {
       "id": "cgu-evidencia-suficiente-adequada",
@@ -5716,11 +5940,15 @@
         "locator": "Seção 5.3, evidência de auditoria"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "evidencia-suficiencia-versus-adequacao"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Mil documentos irrelevantes compensam ausência de prova confiável do pagamento?",
+        "answer": "Não. Suficiência trata quantidade; adequação, qualidade, relevância e confiabilidade."
+      }
     },
     {
       "id": "cgu-evidencia-confiavel-fidedigna",
@@ -5748,11 +5976,15 @@
         "locator": "Seção 5.3, evidência de auditoria"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "evidencia-confiabilidade-versus-fidedignidade"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Relatório veio de fonte externa reputada, mas descreve pagamento errado. A origem garante fidedignidade?",
+        "answer": "Não. Confiabilidade da fonte e representação fiel do fato devem ser examinadas separadamente."
+      }
     },
     {
       "id": "cgu-mudanca-causalidade",
@@ -5780,11 +6012,15 @@
         "locator": "Teoria do programa, inferência causal e avaliação de impacto"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "observacao-versus-atribuicao-causal"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Indicador melhora após programa. A melhora observada demonstra quanto foi causado pela intervenção?",
+        "answer": "Não. Atribuição causal exige estimativa contrafactual e desenho adequado."
+      }
     },
     {
       "id": "cgu-indicador-monitoramento",
@@ -5812,11 +6048,15 @@
         "locator": "Teoria do programa, inferência causal e avaliação de impacto"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "indicador-monitoramento-versus-impacto"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Painel mensal mostra resultados e metas. Só isso transforma monitoramento em avaliação de impacto?",
+        "answer": "Não. Monitoramento acompanha indicadores; avaliação de impacto exige estratégia de inferência causal."
+      }
     },
     {
       "id": "cgu-ia-alucinacao-validacao",
@@ -5844,11 +6084,15 @@
         "locator": "Seção: Funcionamento dos LLMs e Limitações"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "ia-gerativa-fluencia-nao-prova"
-      ]
+      ],
+      "contrast": {
+        "prompt": "IA gera referência normativa plausível sem fonte verificável. A fluência do texto é evidência da norma?",
+        "answer": "Não. É necessário conferir fonte e rastreabilidade; plausibilidade textual não substitui evidência."
+      }
     },
     {
       "id": "cont-receita-efetiva",
@@ -6128,11 +6372,15 @@
         "locator": "Art. 2º, IV e § 3º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "fin-rcl-denominador-fiscal"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Órgão usa arrecadação bruta do mês como base de limites de pessoal. Isso equivale à RCL?",
+        "answer": "Não. A RCL usa receitas correntes, deduções previstas e janela de doze meses segundo a LRF."
+      }
     },
     {
       "id": "fin-alerta-prudencial",
@@ -6196,11 +6444,15 @@
         "locator": "Art. 23: prazo e recondução"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "fin-pessoal-excesso-dois-quadrimestres"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Despesa supera limite prudencial, mas não o máximo. Isso aciona automaticamente o prazo de recondução do art. 23?",
+        "answer": "Não. Os efeitos do prudencial são próprios; recondução pressupõe excesso ao limite máximo, conforme a regra e ressalvas."
+      }
     },
     {
       "id": "fin-rreo-rgf",
@@ -6228,11 +6480,15 @@
         "locator": "Arts. 52 a 55 e 63"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "fin-rreo-bimestral-rgf-quadrimestral"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Gestor confunde RREO quadrimestral e RGF bimestral. Qual a periodicidade geral correta?",
+        "answer": "RREO bimestral; RGF quadrimestral, observadas exceções legais."
+      }
     },
     {
       "id": "fin-lrf-contingenciamento",
@@ -6260,11 +6516,15 @@
         "locator": "Art. 9º: avaliação e limitação"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "fin-limite-empenho-versus-cancelamento"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Limitação temporária de empenho torna a dotação automaticamente anulada?",
+        "answer": "Não. A limitação controla execução; anulação de dotação é ato de alteração orçamentária distinto."
+      }
     },
     {
       "id": "fin-final-mandato-caixa",
@@ -6292,11 +6552,15 @@
         "locator": "Art. 42: disponibilidade de caixa e final de mandato"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "fin-art42-caixa-ultimos-quadrimestres"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Nos últimos dois quadrimestres, gestor assume obrigação com parcela para o ano seguinte sem caixa suficiente. A data do empenho por si só afasta o art. 42?",
+        "answer": "Não. Importam as condições legais da obrigação assumida e a disponibilidade de caixa pertinente."
+      }
     },
     {
       "id": "contr-habilitacao-inversao",
@@ -6360,11 +6624,15 @@
         "locator": "Arts. 17 e 71, IV"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "licitacao-adjudicacao-encerramento"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Alguém diz que a Lei 14.133 enumera adjudicação como oitava fase depois da homologação. É correto?",
+        "answer": "Não. O art. 17 encerra fases com homologação; adjudicação aparece entre providências do art. 71."
+      }
     },
     {
       "id": "contr-prerrogativas-limites",
@@ -6392,11 +6660,15 @@
         "locator": "Art. 104, especialmente §§ 1º e 2º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "contratos-prerrogativas-limitadas"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Administração muda unilateralmente cláusula financeira sem consentimento do contratado porque tem prerrogativas. É válido sem restrições?",
+        "answer": "Não. Prerrogativas dependem de hipótese legal e respeito a direitos e limites contratuais."
+      }
     },
     {
       "id": "contr-acrescimos-25-50",
@@ -6460,11 +6732,15 @@
         "locator": "Art. 124, I e II"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "alteracoes-contratuais-unilateral-vs-acordo"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Mudança de quantitativos e substituição de garantia têm sempre a mesma possibilidade de alteração unilateral?",
+        "answer": "Não. Alterações quantitativas cabem nas hipóteses legais de modificação unilateral; certas mudanças como substituição de garantia dependem de acordo."
+      }
     },
     {
       "id": "contr-equilibrio-alteracao",
@@ -6492,11 +6768,15 @@
         "locator": "Arts. 104, § 2º, e 130"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "reequilibrio-alteracao-unilateral"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Administração amplia unilateralmente obrigações do contratado sem ajuste econômico. Pode ignorar o equilíbrio inicial?",
+        "answer": "Não. Deve recompor o equilíbrio econômico-financeiro inicial quando a alteração muda encargos, nos termos do art. 130."
+      }
     },
     {
       "id": "contr-extincao-formas",
@@ -6524,11 +6804,15 @@
         "locator": "Arts. 137 e 138"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "extincao-contratual-hipoteses"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Administração encerra contrato unilateralmente e dispensa motivação e defesa por ser prerrogativa sua. Correto?",
+        "answer": "Não. A extinção exige fundamento, motivação e garantias legais; há formas unilateral, consensual e judicial/arbitral."
+      }
     },
     {
       "id": "contr-sancoes-proporcao",
@@ -6556,11 +6840,15 @@
         "locator": "Art. 156"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "licitacoes-sancoes-quatro-especies"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Advertência, multa e inidoneidade podem ser escolhidas livremente sem considerar infração e gravidade?",
+        "answer": "Não. Aplicação de sanções segue enquadramento legal, gravidade, circunstâncias, competência e procedimento."
+      }
     },
     {
       "id": "contr-singularidade-art74",
@@ -6588,11 +6876,15 @@
         "locator": "Art. 74, III e V"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "inexigibilidade-nao-singularidade-geral"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Todo serviço técnico do art. 74, III exige prova textual de objeto singular como requisito universal?",
+        "answer": "Não. A hipótese legal envolve inviabilidade de competição e notória especialização, sem singularidade geral como requisito textual."
+      }
     },
     {
       "id": "aud-populacao-cobertura",

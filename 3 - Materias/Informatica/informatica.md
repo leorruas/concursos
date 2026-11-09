@@ -52,6 +52,7 @@ updated: 2026-09-14
 
 ## Análise e Visualização de Dados
 - [[3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica|24 • Dado, informação, variável, atributo, indicador e métrica: hierarquia e distinções operacionais]] (CAM-TI-022)
+- [[3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade|25 • Transformação de dados: limpeza, tratamento de nulos, agregação e dimensões de qualidade]] (CAM-TI-023)
 
 ## Legislação de segurança da informação e governança digital
 

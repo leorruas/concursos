@@ -3,6 +3,16 @@ name: Publicar no GitHub Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      # Documentação operacional e registros internos não entram no _site.
+      # Evitar builds a cada registro de auditoria ou ajuste de agente.
+      - '1 - Planejamento/**'
+      - 'AGENTS.md'
+      - 'CHAT.md'
+      - 'me.md'
+      - 'log.md'
+      - 'index.md'
+      - '.agent/**'
   workflow_dispatch:
 
 permissions:

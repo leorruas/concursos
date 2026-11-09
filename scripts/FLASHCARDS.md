@@ -32,6 +32,12 @@ A configuração inicial de `flashcards.html` é `<meta name="concursos-priority
 
 Testes: `node scripts/test-priority-sync.js`. A conclusão desta etapa significa adaptador testado, **não** sincronização em funcionamento. A implementação de autenticação, hospedagem e integração do servidor está descrita no cofre privado `migration/SINCRONIZACAO-AUTENTICADA.md`.
 
+## Sincronização entre dispositivos: código preparado, implantação D1 pendente (09/11/2026)
+
+O GitHub Pages continua usando `localStorage` sem backend e sem acesso aos dados pessoais. A página servida pelo **Worker autenticado** carrega `web/12-progress-sync.js` e, após login GitHub, consulta `GET /v1/study/progress` e envia revisões via `POST /v1/study/progress`. Isso inclui `grade`, `streak`, `attempts`, `last` e `due` por cartão/direção; o contador de conhecidos deriva desse histórico. Cada navegador preserva a cópia local e estuda offline se a API não responder. Fila temporária e sessão aberta não são sincronizadas.
+
+O backend no cofre `leorruas/concurso-dados/services/study-api/worker.mjs` exige binding Cloudflare D1 `FLASHCARD_DB` e migração SQL antes de ativar. A versão ainda publicada do Worker pode não incluir a rota. **Código no GitHub não prova que login real, banco e sincronização entre aparelhos foram validados.** Não anunciar serviço ativo antes da implantação e dos testes com dois dispositivos. A reconciliação usa última avaliação por timestamp e preserva cartões diferentes, não um log imutável. Consulte `services/study-api/README.md` no repositório privado para a ativação.
+
 ## Persistência e privacidade
 
 **Arquitetura válida desde 05/11/2026:** os dados individuais estão no repositório privado `leorruas/concurso-dados`; a coleção `data/flashcards.json` e os artigos permanecem públicos. A branch principal pública deixou de conter `data/contexto-estudo/`, `data/sessoes/`, `data/questoes-ledger.json`, `data/erros-recorrentes.json`, `data/provas.json`, `00 - Desempenho/` e `Avancos.md`. A consolidação automática das sessões foi deslocada para o workflow privado, validado com testes próprios. O Pages não consulta mais o JSON do perfil pelo `raw.githubusercontent.com`; o motor ainda reconhece uma última cópia válida do perfil no armazenamento local. **Sem backend autenticado, a atualização remota privada das prioridades fica pendente.** Nada de token no JavaScript público nem upload manual. Arquivos removidos do HEAD continuam potencialmente visíveis em commits antigos, PRs e caches do GitHub: pendência própria de higienização histórica.

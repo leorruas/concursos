@@ -37,6 +37,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Concordância**: [[06 - concordancia verbal e nominal|06 • Concordância verbal e nominal]].
 - **Orações e conectivos**: [[07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas]].
 - **Coordenação**: [[3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas|24 • Coordenação: relações sintáticas, polissemia de conectivos e pontuação]] (CAM-LP-013)
+- **Subordinação**: [[3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial|25 • Subordinação substantiva, adjetiva e adverbial: morfossintaxe e efeitos de sentido]] (CAM-LP-014)
 - **Conectores e Relações Lógicas**: [[3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao|20 • Conectores, relações lógicas e sequenciação: operadores argumentativos]] (CAM-LP-009)
 - **Tempo, Modo e Aspecto Verbal**: [[3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto|21 • Tempo, modo e aspecto verbal na construção do texto]] (CAM-LP-010)
 - **Morfologia e Classes de Palavras**: [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|22 • Classes de palavras e suas funções no período: morfossintaxe de nomes, pronomes e conectivos]] (CAM-LP-011)

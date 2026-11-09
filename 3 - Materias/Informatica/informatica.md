@@ -35,7 +35,8 @@ updated: 2026-09-14
 - [[3 - Materias/Informatica/06 - powerpoint 365 organizacao slides mestre animacoes e apresentacao|06 • PowerPoint 365: organização de slides, slide mestre, transições, animações e apresentação]] (CAM-TI-004)
 - Layout e organização
 
-## Internet
+## Internet e Redes de Computadores
+- [[3 - Materias/Informatica/08 - redes internet intranet protocolos e enderecamento ip|08 • Redes de computadores: internet, intranet, extranet, protocolos TCP/IP e endereçamento IPv4 e IPv6]] (CAM-TI-006)
 - Navegadores
 - Pesquisa e uso de buscadores
 - E-mail (uso e funções)

@@ -48,6 +48,7 @@ updated: 2026-09-14
 - [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos|Lei 12.737/2012 — delitos informáticos]]
 
 ## Segurança da Informação
+- [[3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles|12 • Segurança da informação: princípios CIDAN, políticas corporativas e controles de proteção]] (CAM-TI-010)
 - Senhas
 - Phishing
 - Vírus e malware

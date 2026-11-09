@@ -32,7 +32,7 @@ flowchart TD
     AV -->|"Examina binários, scripts e processos em execução"| Sistema["Arquivos e Processos"]:::host
     AS -->|"Remove monitores ocultos e cookies espiões"| Privacidade["Privacidade do Usuário"]:::spy
 
-    FW -.->|"Limite: NÃO examina vírus dentro de arquivos autorizados"| AV
+    FW -.->|"Limite tradicional: filtros de pacotes não examinam vírus em arquivos autorizados (salvo NGFW)"| AV
     AV -.->|"Complemento: absorve e integra funções de"| AS
 ```
 
@@ -46,7 +46,7 @@ O antivírus (atualmente denominado *antimalware*) é o software projetado para 
 1. **Detecção baseada em Assinatura (*Signature-based*)**:
    - Compara o código binário ou o resumo criptográfico (*hash*) do arquivo examinado com uma base de dados centralizada de assinaturas de malwares conhecidos mantida pelo fabricante;
    - *Vantagem*: Extremamente rápida, confiável e praticamente isenta de falsos positivos para pragas catalogadas;
-   - *Limite crítico*: **Totalmente ineficaz contra ameaças de dia zero (*Zero-Day*)** e malwares polimórficos recém-criados, exigindo atualizações diárias ou em tempo real da base de vacinas.
+   - *Limite crítico*: **Severamente limitada contra ameaças de dia zero (*Zero-Day*)** e variantes polimórficas inéditas, uma vez que a assinatura exata ainda não existe no catálogo de vacinas (embora assinaturas genéricas possam identificar famílias correlatas). Exige atualizações diárias ou em tempo real da base do fabricante.
 2. **Detecção Heurística (*Heuristic Analysis*)**:
    - Examina o código-fonte ou binário em busca de **instruções suspeitas**, sequências de comandos perigosos ou estruturas típicas de vírus (ex.: código que tenta modificar o setor de inicialização ou injetar DLLs em processos do sistema), mesmo que o malware nunca tenha sido visto antes;
    - *Vantagem*: Capaz de detectar variações de vírus conhecidos e novas ameaças não catalogadas;

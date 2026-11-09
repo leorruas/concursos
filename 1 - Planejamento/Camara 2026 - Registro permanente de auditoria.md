@@ -391,6 +391,33 @@ Cada ciclo avalia:
 - **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e validados no padrão Cebraspe, rotulados como `*(Inédita: estilo Cebraspe / ...)*`.
 - **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
 
+### 11. Ciclo 11 (Unidades CAM-LP-021 a CAM-LP-023) — Fechamento da Trilha de Língua Portuguesa (Reescrita, Reorganização Sintática e Redação Oficial) — 09/11/2026
+
+#### 11.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-LP-021`, `CAM-LP-022`, `CAM-LP-023` (3 unidades finais de reescrita por substituição lexical, reorganização sintática/equivalência semântica e reescrita entre registros/Redação Oficial, concluindo 23/23 unidades de Língua Portuguesa).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido.md` (`art-d43257f539c036b9` - CAM-LP-021)
+  2. `3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica.md` (`art-ec4233e53951fb59` - CAM-LP-022)
+  3. `3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais.md` (`art-fe3c1497fc8133b8` - CAM-LP-023)
+
+#### 11.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados e Resultados:**
+  - `node scripts/test-priority-sync.js` (Aprovado).
+  - `node scripts/validate-flashcards.js` (Aprovado: 270 flashcards validados).
+  - `node scripts/test-article-identity.js` (Aprovado: identidades estáveis de 459 artigos Markdown verificadas).
+  - `node scripts/test-contest-catalog.js` (Aprovado: catálogo com 3 concursos, 32 matérias e 499 vínculos).
+  - `node scripts/test-public-privacy.js` (Aprovado: zero vazamento de dados privados no bundle público).
+  - `node scripts/build-site.js` (Aprovado: build estático concluído em `_site/`, manifesto com 459 arquivos e índice de busca de 7,03 MB).
+- **Evidências de Integridade:** Zero links quebrados no hub de Português (`portugues.md`), `index.md` e catálogo.
+
+#### 11.3. Auditoria Editorial, Doutrinária e Normativa
+- **Conformidade Doutrinária e Precisão dos Conceitos:**
+  - `CAM-LP-021`: Protocolo de duplo filtro independente (Filtro 1 morfossintático $\times$ Filtro 2 semântico/coerência); quadro de 20 vocábulos eruditos de alto risco (*prescindir de $\times$ imprescindível $\times$ carecer de, olvidar, obstar $\times$ instar, escoimar, dirimir, mitigar, arrefecer $\times$ recrudescer, suscitar, ensejar, corroborar VTD, coadunar-se com, subsumir-se, convalidar, perfunctório, premente*); e impactos sintáticos nas trocas de verbos e conectivos.
+  - `CAM-LP-022`: Transposição de vozes verbais (Ativa $\leftrightarrow$ Passiva Analítica $\leftrightarrow$ Passiva Sintética) com conservação do tempo/modo do auxiliar *ser*; nominalização e conversão de orações desenvolvidas em reduzidas; espelhamento de relações conversas de causa e consequência (*A provoca B $\equiv$ B decorre de A*); mudança de sentido no deslocamento de operadores de foco (*apenas, somente, só*); e paralelismo sintático e semântico.
+  - `CAM-LP-023`: Quatro dimensões da variação linguística e distinção entre oralidade e Linguagem Simples institucional; matriz de conversão Discurso Direto $\rightarrow$ Indireto (recuo verbal, conversão pronominal e dêitica) e discurso indireto livre; e normas da 3ª edição do MRPR (7 atributos, concordância em 3ª pessoa com *Vossa Excelência*, vocativo restrito de *Excelentíssimo Senhor* aos Chefes de Poder, Padrão Ofício unificado e fechos únicos *Respeitosamente,* e *Atenciosamente,*).
+- **Gabaritos das Questões Inéditas:** Todos os 18 itens C/E examinados e validados no padrão Cebraspe, rotulados como `*(Inédita: estilo Cebraspe / ...)*`.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada — Trilha de Língua Portuguesa (23/23) 100% concluída**.
+
 
 
 

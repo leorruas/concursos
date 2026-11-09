@@ -33,6 +33,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Pontuação**: [[03 - pontuacao e virgula|03 • Pontuação e vírgula]].
 - **Pontuação e Efeitos de Sentido**: [[3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido|26 • Pontuação e efeitos na estrutura e no sentido: vírgula, dois-pontos e travessões]] (CAM-LP-015)
 - **Regência**: [[04 - regencia|04 • Regência verbal e nominal]].
+- **Regência Verbal e Nominal (Transitividade e Sentidos)**: [[3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos|28 • Regência verbal e nominal: transitividade, preposições e mudanças de sentido]] (CAM-LP-017)
 - **Ortografia e Convenções da Escrita**: [[3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao|17 • Ortografia e convenções da escrita: Acordo Ortográfico, acentuação gráfica e hifenização]] (CAM-LP-006)
 - **Ortografia**: [[05 - acordo ortografico|05 • Acordo ortográfico]].
 - **Concordância**: [[06 - concordancia verbal e nominal|06 • Concordância verbal e nominal]].

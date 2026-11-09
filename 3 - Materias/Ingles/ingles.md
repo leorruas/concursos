@@ -28,6 +28,7 @@ Hub de estudos de Língua Inglesa aplicada a concursos públicos (interpretaçã
 - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|08. Informações explícitas, inferências e limites da dedução]] (CAM-ING-002): pressuposição, hedging, causalidade vs. correlação e limites da inferência no Cebraspe.
 - [[3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes|09. Coesão referencial e referentes de pronomes]] (CAM-ING-003): anáfora, catáfora, dummy it, singular they, demonstrativos e sentential which no Cebraspe.
 - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|10. Conectivos, relações lógicas e sequenciação discursiva em inglês]] (CAM-ING-004): concessão vs. contraste, regência oracional vs. nominal (although vs. despite), causa, consequência e polissemia no Cebraspe.
+- [[3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles|11. Vocabulário contextual, polissemia e falsos cognatos em inglês]] (CAM-ING-005): terminologia institucional (bill vs. act, floor, table), falsos amigos (actually, compromise, attend, eventually) e estratégias lexicais do Cebraspe.
 
 **Recortes:** Dataprev, FGV (exercícios A–E); Câmara, Cebraspe (C/E, quando pertinente ao conteúdo do programa). As seis notas sistematizam o conteúdo sem substituir o repertório de conectivos e leitura já existente neste hub. O vínculo no catálogo é editorial e não representa retenção ou desempenho.
 

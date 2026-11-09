@@ -278,6 +278,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|08 • Informações explícitas, inferências e limites da dedução]]
   - [[3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes|09 • Coesão referencial e referentes de pronomes]]
   - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|10 • Conectivos, relações lógicas e sequenciação discursiva em inglês]]
+  - [[3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles|11 • Vocabulário contextual, polissemia e falsos cognatos em inglês]]
   - [[3 - Materias/Ingles/Avancos|Avanços e desempenho]]
 - [[3 - Materias/Logica/00 - logica|Raciocínio lógico]]
   - [[3 - Materias/Logica/Avancos|Avanços e desempenho]]

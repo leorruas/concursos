@@ -302,6 +302,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80|24. Regimento da Câmara: comissões, fiscalização e sessões (arts. 55 a 80)]]
   - [[3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105|25. RICD: expediente, pauta e proposições (arts. 81 a 105)]]
   - [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|26. RICD: deputados, imunidades e suplência (arts. 226 a 251)]]
+  - [[3 - Materias/Direito Constitucional/27 - administracao economia interna e policia da camara artigos 262 a 273|27. Administração e polícia da Câmara (arts. 262 a 273)]]
   - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|11 • Organização do Estado]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]

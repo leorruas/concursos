@@ -276,6 +276,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Ingles/06 - parafrase equivalencia semantica e escopo|06 • Paráfrase, equivalência semântica e escopo]]
   - [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|07 • Como localizar assunto, tese e propósito em textos em inglês]]
   - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|08 • Informações explícitas, inferências e limites da dedução]]
+  - [[3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes|09 • Coesão referencial e referentes de pronomes]]
   - [[3 - Materias/Ingles/Avancos|Avanços e desempenho]]
 - [[3 - Materias/Logica/00 - logica|Raciocínio lógico]]
   - [[3 - Materias/Logica/Avancos|Avanços e desempenho]]

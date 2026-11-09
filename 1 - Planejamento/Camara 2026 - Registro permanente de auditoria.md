@@ -262,9 +262,9 @@ Cada ciclo avalia:
   - Além de TC, auditações anteriores constataram que as trilhas **CO (32/32)**, **DI (46/46)**, **CP (22/22)** e **PL (33/33)** também já se encontravam concluídas.
   - Conforme o programa do Edital da Câmara dos Deputados 2026 (itens 14.2.3 — Conhecimentos Básicos), a esteira de matérias prioritárias pendentes recai sobre o bloco de conhecimentos gerais: **Língua Portuguesa (CAM-LP, 23 unidades)**, **Língua Inglesa (CAM-ING, 12 unidades)**, **Direito Administrativo (CAM-DAD, 34 unidades)**, **Administração Pública e Governança (CAM-AP, 15 unidades)** e **Direito Constitucional (CAM-DC, 21 unidades)**.
   - Portanto, a transição para a trilha **Língua Portuguesa (CAM-LP)** respeita estritamente o inventário real de pendências e o programa oficial do certame.
-- **Total de unidades editoriais concluídas e integradas:** **206 de 315 (65,4%)**.
-- **Trilha Língua Portuguesa (LP):** **5 de 23 unidades concluídas** (`CAM-LP-001`, `CAM-LP-002`, `CAM-LP-003`, `CAM-LP-004` e `CAM-LP-005`).
-- **Próximo Lote a executar:** `CAM-LP-006` (Ortografia e convenções da escrita).
+- **Total de unidades editoriais concluídas e integradas:** **211 de 315 (67,0%)**.
+- **Trilha Língua Portuguesa (LP):** **10 de 23 unidades concluídas** (`CAM-LP-001` a `CAM-LP-010`).
+- **Próximo Lote a executar:** `CAM-LP-011` (Classes de palavras e suas funções no período).
 
 ### 7. Ciclo 7 (Unidades CAM-LP-001 a CAM-LP-005) — Bloco Inicial de Língua Portuguesa — 09/11/2026
 
@@ -297,6 +297,38 @@ Cada ciclo avalia:
   - `CAM-LP-005`: Teoria dos gêneros do discurso de Mikhail Bakhtin (conteúdo temático, estilo verbal e construção composicional como elementos indissociáveis do enunciado relativamente estável); classificação em gêneros primários (espontâneos, orais e cotidianos) e secundários (complexos, formais, escritos e institucionais); tríade de Marcuschi (tipo $\times$ gênero $\times$ suporte); funções e estruturas dos gêneros na esfera parlamentar (pareceres CCJC, editais vinculantes, discursos taquigrafados e notícias); intergenericidade/hibridismo funcional; e independência da estabilidade do gênero em face da mera transposição de suporte técnico físico para digital.
 - **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e testados no padrão Cebraspe, rotulados rigorosamente como `*(Inédita: estilo Cebraspe / ...)*`, com justificativas técnicas, linguísticas e normativas profundas e distratores baseados em quebras sutis de escopo e modalidade.
 - **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+
+### 8. Ciclo 8 (Unidades CAM-LP-006 a CAM-LP-010) — Bloco de Convenções da Escrita, Coesão e Sistema Verbal — 09/11/2026
+
+#### 8.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-LP-006`, `CAM-LP-007`, `CAM-LP-008`, `CAM-LP-009`, `CAM-LP-010` (5 unidades sobre ortografia/acentuação, referenciação, coesão lexical/elipse, conectores argumentativos e correlação verbal).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao.md` (`art-f0bd45f90ed9276a` - CAM-LP-006)
+  2. `3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md` (`art-642578f70775bddb` - CAM-LP-007)
+  3. `3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md` (`art-952aa54cbc30eb00` - CAM-LP-008)
+  4. `3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md` (`art-10e06314b6caf790` - CAM-LP-009)
+  5. `3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md` (`art-3c2532290c3996fa` - CAM-LP-010)
+
+#### 8.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados e Resultados:**
+  - `node scripts/test-priority-sync.js` (Aprovado: sincronização opcional e isolada).
+  - `node scripts/validate-flashcards.js` (Aprovado: 270 flashcards validados).
+  - `node scripts/test-article-identity.js` (Aprovado: identidades estáveis de 446 artigos Markdown verificadas).
+  - `node scripts/test-contest-catalog.js` (Aprovado: catálogo com 3 concursos, 32 matérias e 486 vínculos).
+  - `node scripts/test-public-privacy.js` (Aprovado: zero vazamento de dados privados no bundle público).
+  - `node scripts/build-site.js` (Aprovado: build estático concluído em `_site/`, manifesto com 446 arquivos e índice de busca de 6,80 MB).
+- **Evidências de Integridade:** Zero links quebrados no hub de Português (`portugues.md`), `index.md` e catálogo.
+
+#### 8.3. Auditoria Editorial, Doutrinária e Normativa
+- **Conformidade Doutrinária e Precisão dos Conceitos:**
+  - `CAM-LP-006`: Regras gerais e especiais de acentuação gráfica; distinção e aceitação pelo Cebraspe da dupla análise de paroxítonas em ditongo crescente e proparoxítonas eventuais; supressão de acento em ditongos abertos paroxítonos (*ideia, assembleia*); acentos diferenciais obrigatórios (*pôde/pode*, *pôr/por*, *têm/vêm* e derivados oxítonos); hifenização sob o Acordo de 1990 (regra dos opostos, soberania do H, duplicação de R/S, casos de *hífen/hifens*); e parônimos/homônimos da administração pública.
+  - `CAM-LP-007`: Oposição entre referência exofórica (dêixis pessoal, espacial e temporal) e referência endofórica (anáfora retrospectiva e catáfora prospectiva); quadro completo de pronomes demonstrativos (*este/esse/aquele*) no espaço, no tempo e no discurso; anáfora encapsuladora (rotulização conceitual de fatos) e anáfora associativa (*frames* cognitivos); e refutação da regra falsa do "referente mais próximo".
+  - `CAM-LP-008`: Coesão gramatical por elipse (sujeito oculto e zeugma com vírgula vicária) e por substituição vicária (*fazer, o*), com alerta à condenação do MRPR ao uso de *"o mesmo"* como pronome pessoal; coesão lexical por sinonímia contextual, escala hiperonímica $\times$ hiponímica (generalização legítima hipônimo $\rightarrow$ hiperônimo versus extrapolação indevida na especificação hiperônimo $\rightarrow$ hipônimo), nominalização e repetição vocabular funcional.
+  - `CAM-LP-009`: Divisor argumentativo entre coordenação adversativa (*mas* introduz o argumento decisivo mais forte) e subordinação concessiva (*embora* introduz ressalva superada de menor peso persuasivo); correlação obrigatória de modos verbais na permuta indicativo $\leftrightarrow$ subjuntivo; distinção entre causa, consequência e explicação; contraste entre *à medida que* (proporção) e *na medida em que* (causa); e conectivos polissêmicos (*como*, *se*, *pois* posposto conclusivo, *posto que* concessivo).
+  - `CAM-LP-010`: Modos verbais (indicativo, subjuntivo e imperativo) e categorias de aspecto verbal (perfectivo concluso, imperfectivo durativo/habitual e iterativo continuado no pretérito perfeito composto *tem aprovado*); valores do presente (gnômico, histórico, habitual); tríade dos pretéritos do indicativo e equivalência clássica Cebraspe entre mais-que-perfeito simples (*encerrara*) e composto (*tinha/havia encerrado*); futuro do pretérito modalizador de incerteza; e tabela de correlação verbal (*consecutio temporum*).
+- **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e validados no padrão Cebraspe, rotulados como `*(Inédita: estilo Cebraspe / ...)*`, sem absolutismos artificiais.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+
 
 
 

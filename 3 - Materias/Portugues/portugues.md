@@ -24,6 +24,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Tipos e gêneros textuais**: [[09 - tipos e generos textuais|🆕 09 • Tipos e gêneros textuais]].
 - **Coesão e Coerência**: [[08 - coesao textual referenciacao e tempos verbais|08 • Coesão textual: referenciação, conectores e tempos verbais]].
 - **Referência Textual**: [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|18 • Referência textual: anáfora, catáfora, dêixis e cadeias coesivas]] (CAM-LP-007)
+- **Substituição e Coesão Lexical**: [[3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical|19 • Substituição, elipse, repetição e coesão lexical]] (CAM-LP-008)
 - **Semântica**: Sinonímia e antonímia, polissemia e figuras de linguagem.
 
 ## 2. Sintaxe e Gramática

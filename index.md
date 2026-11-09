@@ -251,6 +251,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Portugues/16 - genero textual situacao de uso suporte e finalidade|16 • Gênero textual: situação de uso, suporte, finalidade sociocomunicativa e intergenericidade]]
   - [[3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao|17 • Ortografia e convenções da escrita: Acordo Ortográfico, acentuação gráfica e hifenização]]
   - [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|18 • Referência textual: anáfora, catáfora, dêixis e cadeias coesivas]]
+  - [[3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical|19 • Substituição, elipse, repetição e coesão lexical]]
 - [[3 - Materias/Ingles/ingles|Língua inglesa]]
   - [[3 - Materias/Ingles/01 - leitura instrumental tese e inferencias|01 • Leitura instrumental, tese e inferências]]
   - [[3 - Materias/Ingles/02 - conectivos e relacoes logico semanticas|02 • Conectivos e relações lógico-semânticas]]

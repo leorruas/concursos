@@ -51,7 +51,7 @@ O art. 7º apresenta onze incisos, com subdivisões decisivas nos incisos IV e V
 | :--- | :--- | :--- |
 | **Zelar pelas prerrogativas** do Congresso, Casas e membros | **I** | Proteção das prerrogativas institucionais |
 | **Preservar competência legislativa** frente à atuação normativa dos demais Poderes | **II** | Relação com CF art. 49, XI |
-| **Autorizar saída do País do Presidente e Vice-Presidente da República** | **III** | Competência expressa, relacionada à CF art. 49, III? **Atenção: a própria resolução remete ao art. 49, II**, que corresponde à autorização de ausência por mais de 15 dias |
+| **Autorizar a saída do País do Presidente e Vice-Presidente da República** | **III** | A resolução traz remissão histórica ao **art. 49, II**, mas o fundamento constitucional **correto e vigente** é o **art. 49, III**, combinado com o **art. 83 da CF**, para ausência superior a quinze dias |
 | **Sustar ato normativo do Executivo que exorbite** poder regulamentar ou delegação legislativa | **IV, a** | Deve haver **necessidade cautelar urgente**; não abrange qualquer ato apenas porque é impopular |
 | **Deliberar sobre projeto de lei de crédito adicional solicitado pelo Presidente** | **IV, b** | Exige **manifestação prévia da comissão mista permanente da CF art. 166, § 1º**, isto é, a CMO |
 | **Deliberar sobre projeto que prorrogue prazo de lei** | **IV, c** | A lei deve vencer **no recesso ou nos dez dias úteis seguintes** |
@@ -65,7 +65,7 @@ O art. 7º apresenta onze incisos, com subdivisões decisivas nos incisos IV e V
 | **Representar o Congresso em eventos** | **X** | Por qualquer de seus membros, nos limites institucionais |
 | **Exercer outras atribuições urgentes** | **XI** | Devem ser **inadiáveis até o início do período legislativo seguinte**, sob risco de prejuízo para o País ou suas instituições |
 
-**Nota de literalidade:** a resolução diz no **art. 7º, III**, que a Comissão pode autorizar Presidente e Vice-Presidente da República a **se ausentarem do País**, remetendo à **CF art. 49, II**. A Constituição especifica o requisito de **ausência por mais de quinze dias**. Por isso, não interpretar a resolução como exigência geral de autorização para qualquer viagem internacional de um dia. É necessário conciliar **competência expressa da Comissão** com a **hipótese constitucional que exige autorização**.
+**Nota de literalidade e correção de remissão:** a resolução diz no **art. 7º, III**, que a Comissão pode autorizar Presidente e Vice-Presidente da República a **se ausentarem do País** e remete ao **art. 49, II**, mas esta remissão está desatualizada/incorreta: a competência é do **art. 49, III**, e a exigência temporal consta também do **art. 83 da CF**, para ausência superior a quinze dias. Por isso, não interpretar a resolução como exigência geral de autorização para qualquer viagem internacional de um dia. É necessário conciliar **competência expressa da Comissão** com a **hipótese constitucional que exige autorização**.
 
 ### Quatro condicionantes da banca
 

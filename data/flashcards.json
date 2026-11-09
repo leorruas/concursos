@@ -9416,6 +9416,366 @@
         "prompt": "A receita de maio superou a previsão mensal em R$ 100 mil, mas o acumulado do ano segue abaixo do previsto. Há excesso de arrecadação utilizável de R$ 100 mil automaticamente?",
         "answer": "Não. A apuração considera diferenças acumuladas e tendência do exercício, com ajustes legais. Excesso eventualmente apurado ainda não abre crédito por si só."
       }
+    },
+    {
+      "id": "orc-ref-terreno-obra",
+      "term": "Terreno vinculado à obra × aquisição independente",
+      "definition": "A aquisição de imóvel necessário à execução de obra pode integrar GND Investimentos; adquirir imóvel sem vínculo à execução de obra pode integrar Inversões Financeiras. A finalidade concreta da aquisição muda o grupo.",
+      "example": "O ente compra terreno especificamente para construir uma escola; outro terreno é comprado sem obra vinculada. As aquisições podem ter classificação distinta.",
+      "confusion": "A palavra terreno ou imóvel não determina, sozinha, Inversões Financeiras.",
+      "topic": "Reforço de comentários e justificativas em questões",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "MTO 2026",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Natureza da despesa: GND 4 e 5"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "terreno-vs-inversao-condicao"
+      ],
+      "contrast": {
+        "prompt": "A compra de qualquer terreno é necessariamente GND 5?",
+        "answer": "Não. Terreno necessário à execução de obra pode ser classificado em Investimentos; verificar a vinculação e os critérios do MTO."
+      }
+    },
+    {
+      "id": "orc-ref-liquidacao-parcial",
+      "term": "Liquidação parcial × entrega de parcela",
+      "definition": "A liquidação pode alcançar a parte efetivamente entregue e comprovada de uma contratação, mesmo antes de concluir o contrato inteiro. A verificação do direito do credor deve corresponder à parcela aceita.",
+      "example": "Contrato empenhado em 100 mil teve etapa de 40 mil entregue e comprovada: pode haver liquidação de 40 mil, mas não da parte ainda não prestada.",
+      "confusion": "Entrega total do objeto não é condição para liquidação parcial; entrega e verificação da parcela liquidada são necessárias.",
+      "topic": "Reforço de comentários e justificativas em questões",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Liquidação: verificar o direito do credor"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 63"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "liquidacao-parcial-vs-entrega"
+      ],
+      "contrast": {
+        "prompt": "Pode liquidar 40 mil de serviço entregue sem aguardar os outros 60 mil, ou isso significa liquidar antes da entrega?",
+        "answer": "Pode liquidar a parcela comprovadamente prestada. É indevido liquidar serviço não executado apenas porque há empenho."
+      }
+    },
+    {
+      "id": "orc-ref-corrente-periodicidade",
+      "term": "Receita corrente × frequência do recebimento",
+      "definition": "A categoria econômica de receita corrente resulta da natureza e classificação legal da receita, não de sua ocorrência frequente ou eventual.",
+      "example": "Venda esporádica de imóvel continua alienação de bens, receita de capital; aluguel recorrente pode ser receita patrimonial corrente.",
+      "confusion": "Corrente não significa recebida todo mês, assim como capital não significa recebida uma única vez.",
+      "topic": "Reforço de comentários e justificativas em questões",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Receita: categoria econômica e natureza"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 11"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "receita-corrente-frequencia-nao-criterio"
+      ],
+      "contrast": {
+        "prompt": "Um ente vende imóveis todos os meses. A frequência transforma alienação em receita corrente?",
+        "answer": "Não. Alienação de bens é receita de capital segundo a natureza, independentemente da repetição dos recebimentos."
+      }
+    },
+    {
+      "id": "cont-ref-valor-liquido-vs-pl",
+      "term": "Valor contábil líquido de bem × patrimônio líquido do ente",
+      "definition": "Valor contábil líquido de um ativo é seu valor registrado após ajustes, como depreciação acumulada. Patrimônio líquido da entidade é o total dos ativos menos todos os passivos.",
+      "example": "Máquina de custo 25 mil e depreciação acumulada de 2 mil tem valor contábil líquido 23 mil; isso não informa sozinho o PL da entidade.",
+      "confusion": "Valor do equipamento, depreciação do período e PL total são três medidas distintas.",
+      "topic": "Reforço de comentários e justificativas em questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-85b3a61ad09e44c1",
+        "section": "Estrutura interna: patrimônio, resultado e fatos permutativos"
+      },
+      "source": {
+        "title": "MCASP 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Parte II: imobilizado e depreciação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "valor-contabil-liquido-vs-patrimonio-liquido"
+      ],
+      "contrast": {
+        "prompt": "Equipamento custa 25 mil e tem depreciação acumulada de 2 mil. O PL do ente é necessariamente 23 mil?",
+        "answer": "Não. O valor contábil líquido do bem é 23 mil; PL depende dos demais ativos e passivos. A VPD de depreciação do período depende da variação do acumulado."
+      }
+    },
+    {
+      "id": "cont-ref-atributo-p-prazo",
+      "term": "Atributo permanente × prazo ou frequência",
+      "definition": "A classificação financeira ou permanente usada na ótica legal do balanço depende de critérios de execução orçamentária, não de recebimento anual nem só do vencimento. Circulante e não circulante são classificações diferentes.",
+      "example": "Um crédito tributário a receber em até doze meses pode ter atributo permanente segundo os critérios de registro aplicáveis, embora seja circulante no Quadro Principal.",
+      "confusion": "Curto prazo, anualidade e atributo financeiro/permanente não são equivalentes.",
+      "topic": "Reforço de comentários e justificativas em questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-bf384b8a28aa4753",
+        "section": "Quadro financeiro e permanente: art. 105 da Lei nº 4.320/1964"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "ativo-financeiro-permanente-vs-circulante"
+      ],
+      "contrast": {
+        "prompt": "Um direito vence dentro de um ano; por isso, ele deve ser ativo financeiro no quadro legal?",
+        "answer": "Não. O prazo não decide sozinho o atributo financeiro ou permanente; verificar critério legal e natureza do registro."
+      }
+    },
+    {
+      "id": "cont-ref-deposito-terceiros",
+      "term": "Depósito de terceiros: caixa, passivo e resultado",
+      "definition": "Receber valor de terceiro sujeito à devolução cria caixa e obrigação em igual montante, sem VPA pelo principal e, em regra, sem receita orçamentária.",
+      "example": "Órgão recebe 40 mil de caução devolvível: ativo caixa +40, passivo +40, PL inalterado e ingresso extraorçamentário.",
+      "confusion": "Entrada financeira não é automaticamente receita; devolver obrigação anteriormente reconhecida não é VPD do principal.",
+      "topic": "Reforço de comentários e justificativas em questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-85b3a61ad09e44c1",
+        "section": "Estrutura interna: patrimônio, resultado e fatos permutativos"
+      },
+      "source": {
+        "title": "MCASP 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Partes I e II: ingressos extraorçamentários e fatos permutativos"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "deposito-terceiros-extraorcamentario"
+      ],
+      "contrast": {
+        "prompt": "Depósito caução de 40 mil aumenta caixa: o ente tem VPA de 40 mil e superávit orçamentário?",
+        "answer": "Não. É ingresso extraorçamentário com obrigação de devolução, sem aumento de PL apenas pelo recebimento."
+      }
+    },
+    {
+      "id": "cont-ref-dfc-amortizacao",
+      "term": "DFC: amortização do principal × juros pagos",
+      "definition": "Na DFC do MCASP, amortizar principal de empréstimo corresponde a fluxo de financiamento. Juros pagos, em regra, são classificados operacionalmente segundo a recomendação de padronização aplicável. Reconhecer juros sem pagar ainda não gera fluxo de caixa.",
+      "example": "Entidade paga 10 mil do principal do empréstimo e 2 mil de juros: são saídas de classificação distinta na DFC, conforme orientações do MCASP.",
+      "confusion": "Serviço da dívida agrega parcelas diferentes; não classificar toda saída ligada à dívida automaticamente como financiamento.",
+      "topic": "Reforço de comentários e justificativas em questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-55a3dd4be04d47ce",
+        "section": "Estrutura interna: três atividades"
+      },
+      "source": {
+        "title": "MCASP 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Parte V: DFC, classificação do principal e juros"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "dfc-amortizacao-principal-vs-juros"
+      ],
+      "contrast": {
+        "prompt": "Pagamento de 10 mil do principal e 2 mil de juros integra um só fluxo de financiamento no MCASP?",
+        "answer": "Não. Principal: financiamento; juros pagos: fluxo operacional recomendado pelo MCASP, observadas particularidades normativas."
+      }
+    },
+    {
+      "id": "aud-ref-amostragem-periodicidade",
+      "term": "Amostragem sistemática × periodicidade oculta",
+      "definition": "Amostragem sistemática usa intervalo regular após ponto inicial selecionado, mas a ordem do cadastro pode conter ciclos que distorcem a representatividade mesmo havendo sorteio do início.",
+      "example": "Selecionar cada décimo pagamento em lista organizada por ciclos de dez setores pode favorecer repetidamente certa posição do ciclo.",
+      "confusion": "Início aleatório não elimina o risco de periodicidade ligada ao intervalo selecionado.",
+      "topic": "Reforço de comentários e justificativas em questões",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.1"
+      ],
+      "note": {
+        "articleId": "art-f248acc45b9541df",
+        "section": "Classificação e fronteiras: método probabilístico e não probabilístico"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 4.3.4.7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "amostragem-sistematica-periodicidade"
+      ],
+      "contrast": {
+        "prompt": "Sortear a primeira posição torna automaticamente representativa a amostra de cada 10º registro?",
+        "answer": "Não. É preciso avaliar a organização e periodicidade da população; o intervalo pode coincidir com padrões nos dados."
+      }
+    },
+    {
+      "id": "aud-ref-risco-nao-amostral",
+      "term": "Risco não amostral × risco de amostragem",
+      "definition": "Risco amostral decorre de concluir com base em parte da população; risco não amostral pode decorrer de aplicação incorreta do procedimento, interpretação equivocada ou dados inadequados, mesmo sem falha no sorteio.",
+      "example": "A amostra foi sorteada corretamente, mas o auditor classificou documentos errados por aplicar teste incorretamente: risco não amostral.",
+      "confusion": "A qualidade da seleção probabilística não garante execução correta dos testes.",
+      "topic": "Reforço de comentários e justificativas em questões",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.1"
+      ],
+      "note": {
+        "articleId": "art-f248acc45b9541df",
+        "section": "Risco de amostragem: duas direções possíveis"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 4.3.4.7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "risco-amostral-versus-nao-amostral"
+      ],
+      "contrast": {
+        "prompt": "Se a seleção foi probabilística, todo erro de conclusão do auditor é risco amostral?",
+        "answer": "Não. Erro de execução ou interpretação do procedimento é não amostral, mesmo com seleção aleatória correta."
+      }
+    },
+    {
+      "id": "aud-ref-risco-censo-comparacao",
+      "term": "Risco amostral × comparação hipotética com censo",
+      "definition": "O risco amostral compara a conclusão baseada na amostra com aquela que seria obtida examinando toda a população com o mesmo procedimento corretamente aplicado. Essa comparação define o risco, não recomenda necessariamente realizar um censo.",
+      "example": "Uma amostra sugere falhas graves quando a população total não sustentaria isso; o auditor avalia esse tipo de risco sem ter que examinar cada registro.",
+      "confusion": "Referência à população total na definição não impõe inspeção integral obrigatória.",
+      "topic": "Reforço de comentários e justificativas em questões",
+      "subjectIds": [
+        "auditoria-governamental"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.1"
+      ],
+      "note": {
+        "articleId": "art-f248acc45b9541df",
+        "section": "Risco de amostragem: duas direções possíveis"
+      },
+      "source": {
+        "title": "CGU: Manual de Orientações Técnicas",
+        "url": "https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal",
+        "locator": "MOT, seção 4.3.4.7"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "risco-amostral-falso-desfavoravel"
+      ],
+      "contrast": {
+        "prompt": "A definição de risco amostral compara amostra e população. Isso exige que o auditor faça censo?",
+        "answer": "Não. É comparação conceitual para explicar incerteza da amostra, não prescrição de teste censitário."
+      }
     }
   ]
 }

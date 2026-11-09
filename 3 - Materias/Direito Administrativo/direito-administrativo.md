@@ -15,6 +15,7 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 ---
 
 ## 1. Introdução e Princípios
+- [[12 - estado governo administracao e funcao administrativa|12 • Estado, governo, administração pública e função administrativa]] (CAM-DAD-001): elementos do Estado, governo vs. administração, sentidos subjetivo/orgânico e objetivo/material, e funções típicas e atípicas nos Três Poderes.
 - [[01 - principios e lei de acesso a informacao|01 • Princípios da Administração Pública]].
 - Princípios expressos e implícitos da Administração.
 - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]]: referência central para LAI e LGPD.

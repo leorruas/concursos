@@ -305,6 +305,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Constitucional/27 - administracao economia interna e policia da camara artigos 262 a 273|27. Administração e polícia da Câmara (arts. 262 a 273)]]
   - [[3 - Materias/Direito Constitucional/28 - mapa regimental da camara estrutura e fronteiras do edital|28. Regimento da Câmara: mapa e recortes do edital]]
   - [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|29. Regimento Comum: sessões conjuntas, arts. 1º a 3º]]
+  - [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|30. Regimento Comum: solenidades e matérias até art. 103]]
   - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|11 • Organização do Estado]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]

@@ -275,6 +275,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Informatica/01 - marco civil da internet|01 • Marco Civil da Internet]]
   - [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos|02 • Lei 12.737/2012 — delitos informáticos]]
   - [[3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes|03 • Arquivo, pasta, nuvem e sincronização: conceitos, estruturas e operações]]
+  - [[3 - Materias/Informatica/04 - word 365 estrutura edicao formatacao e controle de alteracoes|04 • Word 365: estrutura, edição, formatação, seções e controle de alterações]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

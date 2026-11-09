@@ -21,6 +21,7 @@ updated: 2026-09-14
 ## Pacote Office
 ### Word
 - Formatação de texto
+- [[3 - Materias/Informatica/04 - word 365 estrutura edicao formatacao e controle de alteracoes|04 • Word 365: estrutura, edição, formatação, seções e controle de alterações]] (CAM-TI-002)
 - Estilos e layout
 
 ### Excel

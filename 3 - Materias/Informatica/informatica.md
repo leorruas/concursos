@@ -52,6 +52,7 @@ updated: 2026-09-14
 - [[3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao|13 • Backup: estratégias, tipos, recuperação e diferença de sincronização em nuvem]] (CAM-TI-011)
 - [[3 - Materias/Informatica/14 - malware virus worm trojan ransomware spyware e rootkit|14 • Malware: vírus, worm, trojan, ransomware, spyware, rootkit e botnets]] (CAM-TI-012)
 - [[3 - Materias/Informatica/15 - antivirus firewall e antispyware atuacao e limites|15 • Antivírus, firewall e antispyware: atuação, técnicas de detecção e limites de proteção]] (CAM-TI-013)
+- [[3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas|16 • Phishing, pharming e engenharia social: técnicas de manipulação, vetores e contramedidas]] (CAM-TI-014)
 - Senhas
 - Phishing
 - Vírus e malware

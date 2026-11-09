@@ -287,6 +287,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao|13 • Backup: estratégias, tipos, recuperação e diferença de sincronização em nuvem]]
   - [[3 - Materias/Informatica/14 - malware virus worm trojan ransomware spyware e rootkit|14 • Malware: vírus, worm, trojan, ransomware, spyware, rootkit e botnets]]
   - [[3 - Materias/Informatica/15 - antivirus firewall e antispyware atuacao e limites|15 • Antivírus, firewall e antispyware: atuação, técnicas de detecção e limites de proteção]]
+  - [[3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas|16 • Phishing, pharming e engenharia social: técnicas de manipulação, vetores e contramedidas]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

@@ -122,7 +122,44 @@ Cada ciclo avalia:
   - *NC-002 (Editorial/Precisão Técnica em CAM-TI-014 - Phishing e Pharming)*: Identificada asserção sobre a capacidade de o HTTPS e certificados digitais impedirem o pharming de passar despercebido sem explicitar as condições técnicas necessárias. **Ação Corretiva**: Seção 4 e Questão 5 aprimoradas para detalhar as 3 premissas técnicas de eficácia da salvaguarda (incompatibilidade de CN/SAN, ausência da chave privada oficial e rejeição de certificados autoassinados por falta de AC raiz confiável no repositório do SO), bem como as exceções de contorno (como a injeção prévia de AC raiz maliciosa local com privilégios de administrador).
 - **Classificação do Ciclo:** **Aprovado após retificação com rigor conceitual**.
 
-### 3. Estado Atual e Próximos Passos
-- **Total de unidades editoriais concluídas e integradas:** **188 de 315 (59,7%)**.
-- **Trilha TI:** **15 de 28 unidades concluídas (restam 13)**.
-- **Próximo Lote a executar:** `CAM-TI-016` (Inteligência artificial: definição e tipos de sistema).
+### 3. Ciclo 4 (Unidades CAM-TI-016 a CAM-TI-021) — 09/11/2026
+
+#### 3.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-TI-016`, `CAM-TI-017`, `CAM-TI-018`, `CAM-TI-019`, `CAM-TI-020`, `CAM-TI-021` (6 unidades, completando o bloco de Inteligência Artificial da trilha de TI).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Informatica/18 - inteligencia artificial definicao tipos de sistemas e aplicacoes publicas.md` (`art-781994cb7bf41c1a` - CAM-TI-016)
+  2. `3 - Materias/Informatica/19 - aprendizagem supervisionada e nao supervisionada algoritmos e metricas.md` (`art-5cb51089c289b098` - CAM-TI-017)
+  3. `3 - Materias/Informatica/20 - aprendizagem por reforco e comparacao de modelos de machine learning.md` (`art-a3fd9f5c3eb6a721` - CAM-TI-018)
+  4. `3 - Materias/Informatica/21 - ia generativa modelos llms difusao usos e limites.md` (`art-fdf8a15d31c83138` - CAM-TI-019)
+  5. `3 - Materias/Informatica/22 - engenharia de prompts estrutura tecnicas e avaliacao.md` (`art-76e0fb652b3f13a9` - CAM-TI-020)
+  6. `3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana.md` (`art-392b1e185fd2729e` - CAM-TI-021)
+
+#### 3.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados:**
+  - `node scripts/test-priority-sync.js` (Sincronização opcional, mesmo domínio, preservação de revisões e offline).
+  - `node scripts/validate-flashcards.js` (233 flashcards estruturais, IDs, metadados de edital e fontes).
+  - `node scripts/test-article-identity.js` (Identidades de 429 artigos Markdown, unicidade de `articleId`, slugs estáveis e aliases).
+  - `node scripts/test-contest-catalog.js` (Catálogo por concurso em 3 concursos, 32 matérias e 469 vínculos validados).
+  - `node scripts/test-public-privacy.js` (Proteção estrita: zero vazamento de dados de sessões, desempenho privado ou metas pessoais no ambiente público).
+  - `node scripts/test-search-index.js`, `test-search-routing.js`, `test-search-ranking.js` (Recall de 100% nas 18 consultas de benchmark, 94% Top-1, 100% Top-3).
+  - `node scripts/build-site.js` (Build estático integral concluído em `_site/`, manifesto com 429 arquivos e índice de busca de 6,48 MB).
+- **Evidências de Integridade:** Zero links quebrados no hub de Informática, `index.md` e catálogo. Identidades canônicas persistentes e resolução estrita de caminhos e categorias.
+
+#### 3.3. Auditoria Editorial, Doutrinária e Normativa
+- **Conformidade Doutrinária e Precisão dos Conceitos:**
+  - `CAM-TI-016`: Distinção hierárquica precisa entre IA (gênero), Machine Learning (aprendizado de dados) e Deep Learning (redes profundas com extração automática de features); taxonomia de Arend Hintze e divisão entre IA Estreita (ANI) e as hipóteses teóricas de AGI/ASI; aplicações institucionais brasileiras (Ulysses na Câmara, Victor no STF, Alice/Sofia no TCU) e alinhamento com a EBIA.
+  - `CAM-TI-017`: Rigor na separação pelo divisor de águas da rotulagem de dados ($x$ rotulado com $y$ $\times$ apenas dados brutos $x$); tarefas de Classificação $\times$ Regressão; análise crítica de métricas (Acurácia, Precisão, Revocação e F1-Score contra o perigo do desbalanceamento de classes); métricas de resíduo (MAE, MSE, RMSE e $R^2$); Agrupamento (K-Means $\times$ DBSCAN) e Redução de Dimensionalidade (PCA).
+  - `CAM-TI-018`: Quebra da premissa de dados independentes e identicamente distribuídos (*i.i.d.*); formalização da tupla $(S, A, P, R, \gamma)$ dos Processos de Decisão de Markov (MDP) com o papel do fator de desconto $\gamma$; dilema exploração $\times$ explotação ($\epsilon$-greedy); e o papel crucial do RLHF no alinhamento de LLMs.
+  - `CAM-TI-019`: Transição da IA discriminativa para a generativa; detalhamento matemático e arquitetural dos Transformers (*Attention Is All You Need*, 2017), autoatenção (*self-attention*) e vetor de codificação posicional; natureza probabilística e autorregressiva dos LLMs e a tese dos papagaios estocásticos (*Stochastic Parrots*); modelos de Difusão $\times$ GANs de Goodfellow; patologia das alucinações e mitigação via arquitetura RAG (*Retrieval-Augmented Generation*).
+  - `CAM-TI-020`: Definição de Engenharia de Prompts sem ajuste de pesos (*frozen weights*) $\times$ *Fine-Tuning*; taxonomia de indução (*Zero-Shot*, *Few-Shot*, *Chain-of-Thought*, *Least-to-Most*, *Tree of Thoughts*); ameaças de segurança (*Prompt Injection* direto/indireto e *Jailbreaking*); métricas de avaliação (ROUGE-L, BLEU e LLM-as-a-Judge); e conformidade pública (vedação a dados pessoais/sigilosos em APIs públicas sob LGPD/LAI).
+  - `CAM-TI-021`: Desconstrução da falácia da neutralidade matemática; taxonomia de vieses (histórico, amostragem e medição por proxy com loops de feedback); distinção estrita entre discriminação direta (*disparate treatment*) e indireta (*disparate impact*); dilema da caixa-preta (*black-box*) e XAI (explicabilidade global e local via SHAP/LIME); arquiteturas de supervisão humana (HITL, HOTL e HOOTL) com alerta ao viés de automação (*automation bias*); e marco legal brasileiro (LGPD art. 6º e art. 20 com análise do veto à exclusividade por pessoa natural, EBIA e PL 2.338/2023 baseado em risco).
+- **Gabaritos das Questões Inéditas:** Todos os 36 itens inéditos C/E examinados e testados no padrão Cebraspe, com justificativas normativas e técnicas consistentes.
+- **Não Conformidades Encontradas e Ações Corretivas:**
+  - *NC-003 (Técnica em CAM-TI-021 - Frontmatter de nota canônica)*: Detectada divergência inicial no formato do frontmatter (`articleAliases` em lista de strings simples em vez do array JSON contendo o caminho canônico `["3 - Materias/..."]`), ocasionando falha na geração do manifesto no `build-site.js`. **Ação Corretiva**: Frontmatter de CAM-TI-021 padronizado imediatamente para `articleAliases: ["3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana.md"]` e `type: "conceito"`. Revalidação com 100% de sucesso em toda a suíte.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+
+### 4. Estado Atual e Próximos Passos
+- **Total de unidades editoriais concluídas e integradas:** **194 de 315 (61,6%)**.
+- **Trilha TI:** **21 de 28 unidades concluídas (restam 7)**.
+- **Próximo Lote a executar:** `CAM-TI-022` (Dado, informação, variável, atributo, indicador e métrica).
+

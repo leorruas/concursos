@@ -294,6 +294,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Informatica/20 - aprendizagem por reforco e comparacao de modelos de machine learning|20 • Aprendizagem por reforço e comparação sistemática de modelos de machine learning]]
   - [[3 - Materias/Informatica/21 - ia generativa modelos llms difusao usos e limites|21 • Inteligência artificial generativa: arquiteturas, modelos de fundação, difusão, aplicações e alucinações]]
   - [[3 - Materias/Informatica/22 - engenharia de prompts estrutura tecnicas e avaliacao|22 • Engenharia de prompts: estrutura de comandos, técnicas avançadas e avaliação de saídas em IA]]
+  - [[3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana|23 • Ética em IA: vieses, discriminação algorítmica, explicabilidade e supervisão humana]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

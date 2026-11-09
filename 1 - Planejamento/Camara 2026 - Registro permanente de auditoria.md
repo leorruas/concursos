@@ -262,8 +262,41 @@ Cada ciclo avalia:
   - Além de TC, auditações anteriores constataram que as trilhas **CO (32/32)**, **DI (46/46)**, **CP (22/22)** e **PL (33/33)** também já se encontravam concluídas.
   - Conforme o programa do Edital da Câmara dos Deputados 2026 (itens 14.2.3 — Conhecimentos Básicos), a esteira de matérias prioritárias pendentes recai sobre o bloco de conhecimentos gerais: **Língua Portuguesa (CAM-LP, 23 unidades)**, **Língua Inglesa (CAM-ING, 12 unidades)**, **Direito Administrativo (CAM-DAD, 34 unidades)**, **Administração Pública e Governança (CAM-AP, 15 unidades)** e **Direito Constitucional (CAM-DC, 21 unidades)**.
   - Portanto, a transição para a trilha **Língua Portuguesa (CAM-LP)** respeita estritamente o inventário real de pendências e o programa oficial do certame.
-- **Total de unidades editoriais concluídas e integradas:** **204 de 315 (64,8%)**.
-- **Trilha Língua Portuguesa (LP):** **3 de 23 unidades concluídas** (`CAM-LP-001`, `CAM-LP-002` e `CAM-LP-003`).
-- **Próximo Lote a executar:** `CAM-LP-004` (Tipologia textual: critérios de distinção).
+- **Total de unidades editoriais concluídas e integradas:** **206 de 315 (65,4%)**.
+- **Trilha Língua Portuguesa (LP):** **5 de 23 unidades concluídas** (`CAM-LP-001`, `CAM-LP-002`, `CAM-LP-003`, `CAM-LP-004` e `CAM-LP-005`).
+- **Próximo Lote a executar:** `CAM-LP-006` (Ortografia e convenções da escrita).
+
+### 7. Ciclo 7 (Unidades CAM-LP-001 a CAM-LP-005) — Bloco Inicial de Língua Portuguesa — 09/11/2026
+
+#### 7.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-LP-001`, `CAM-LP-002`, `CAM-LP-003`, `CAM-LP-004`, `CAM-LP-005` (5 unidades de fundação textual e discursiva da trilha de Língua Portuguesa).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Portugues/12 - texto contexto e producao de sentido.md` (`art-78645a9b4c365a83` - CAM-LP-001)
+  2. `3 - Materias/Portugues/13 - tema tese e progressao tematica.md` (`art-554511538d877686` - CAM-LP-002)
+  3. `3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md` (`art-90192f46b01d2516` - CAM-LP-003)
+  4. `3 - Materias/Portugues/15 - tipologia textual criterios de distincao e sequencias prototipicas.md` (`art-7a7433d13f34cbad` - CAM-LP-004)
+  5. `3 - Materias/Portugues/16 - genero textual situacao de uso suporte e finalidade.md` (`art-61af04b165d9d678` - CAM-LP-005)
+
+#### 7.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados e Resultados:**
+  - `node scripts/test-priority-sync.js` (Aprovado: sync opcional, mesmo domínio, revisões intactas, autenticação e offline).
+  - `node scripts/validate-flashcards.js` (Aprovado: 270 flashcards estruturais validados sem erros de schema ou formato).
+  - `node scripts/test-article-identity.js` (Aprovado: identidades estáveis de 441 artigos Markdown verificadas sem colisões).
+  - `node scripts/test-contest-catalog.js` (Aprovado: catálogo com 3 concursos, 32 matérias e 481 vínculos de artigos).
+  - `node scripts/test-public-privacy.js` (Aprovado: barreira estrita confirmada, sem vazamento de histórico pessoal ou sessões privadas).
+  - `node scripts/test-search-index.js`, `test-search-routing.js`, `test-search-ranking.js` (Aprovado: recall 100%, 94% Top-1, 100% Top-3).
+  - `node scripts/build-site.js` (Aprovado: build estático concluído em `_site/`, manifesto com 441 arquivos e índice de busca de 6,71 MB).
+- **Evidências de Integridade:** Zero links quebrados no hub de Português (`portugues.md`), `index.md` e catálogo. Identidades canônicas persistentes e resoluções estritas de slugs e aliases.
+
+#### 7.3. Auditoria Editorial, Doutrinária e Normativa
+- **Conformidade Doutrinária e Precisão dos Conceitos:**
+  - `CAM-LP-001`: Texto como evento comunicativo situado; os sete fatores de textualidade de Beaugrande & Dressler (coesão e coerência textuais; intencionalidade, aceitabilidade, situacionalidade, informatividade e intertextualidade pragmáticas); atos de fala de Austin e Searle (locucionário, ilocucionário e perlocucionário); máximas conversacionais de Grice; e a tríade de níveis de leitura do Cebraspe (explícito/paráfrase $\times$ inferência fundamentada $\times$ extrapolação indevida).
+  - `CAM-LP-002`: Hierarquia semântica estrita entre assunto (campo abstrato amplo), tema (recorte neutro delimitado) e tese (juízo de valor central sustentado por argumentos); as quatro macrorregras de redução semântica de Teun van Dijk (apagamento, seleção, generalização e construção); a dinâmica oracional de Tema (Dado/Conhecido) e Rema (Novo/Foco); a progressão temática de Bernard Combettes (tema constante, linear, hipertema e contraste); e patologias discursivas (circularidade/tautologia, dispersão e deriva temática).
+  - `CAM-LP-003`: Oposição categórica entre informação explícita e implícita; a teoria da pressuposição de Oswald Ducrot e os ativadores linguísticos formais (verbos de mudança de estado, advérbios aspectuais iterativos como *já* e *ainda*, orações adjetivas explicativas $\times$ restritivas, verbos factivos), com destaque para a resistência ao teste da negação e interrogação; subentendido como inferência pragmática cancelável; e matriz Cebraspe de controle contra distorções do senso comum e confusões de correlação $\times$ causalidade.
+  - `CAM-LP-004`: Distinção categórica entre tipo textual (abstrato, linguístico e finito) e gênero textual (concreto, sociocomunicativo e infinito); a matriz de Jean-Michel Adam e as 5 sequências prototípicas (narrativa, descritiva, dissertativa expositiva, dissertativa argumentativa e injuntiva/prescritiva); o divisor de águas entre exposição (transmissão neutra de conceitos/dados sem tese) e argumentação (defesa de tese com predicados avaliativos e persuasão); e o fenômeno da heterogeneidade tipológica subordinada à dominância global.
+  - `CAM-LP-005`: Teoria dos gêneros do discurso de Mikhail Bakhtin (conteúdo temático, estilo verbal e construção composicional como elementos indissociáveis do enunciado relativamente estável); classificação em gêneros primários (espontâneos, orais e cotidianos) e secundários (complexos, formais, escritos e institucionais); tríade de Marcuschi (tipo $\times$ gênero $\times$ suporte); funções e estruturas dos gêneros na esfera parlamentar (pareceres CCJC, editais vinculantes, discursos taquigrafados e notícias); intergenericidade/hibridismo funcional; e independência da estabilidade do gênero em face da mera transposição de suporte técnico físico para digital.
+- **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e testados no padrão Cebraspe, rotulados rigorosamente como `*(Inédita: estilo Cebraspe / ...)*`, com justificativas técnicas, linguísticas e normativas profundas e distratores baseados em quebras sutis de escopo e modalidade.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+
 
 

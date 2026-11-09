@@ -50,6 +50,9 @@ updated: 2026-09-14
 - [[3 - Materias/Informatica/22 - engenharia de prompts estrutura tecnicas e avaliacao|22 • Engenharia de prompts: estrutura de comandos, técnicas avançadas e avaliação de saídas em IA]] (CAM-TI-020)
 - [[3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana|23 • Ética em IA: vieses, discriminação algorítmica, explicabilidade e supervisão humana]] (CAM-TI-021)
 
+## Análise e Visualização de Dados
+- [[3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica|24 • Dado, informação, variável, atributo, indicador e métrica: hierarquia e distinções operacionais]] (CAM-TI-022)
+
 ## Legislação de segurança da informação e governança digital
 
 - [[3 - Materias/Informatica/01 - marco civil da internet|Marco Civil da Internet]]

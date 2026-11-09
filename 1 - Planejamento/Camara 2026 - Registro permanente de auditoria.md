@@ -244,9 +244,12 @@ Cada ciclo avalia:
       - *Formulação Anterior*: *"O relator da proposta na CCJC apresentou parecer favorável. O Plenário da Câmara, por maioria absoluta, a aprovação final em dois turnos"*.
       - *Formulação Corrigida*: Distinção teórica explícita entre elipse (omissão de termo subentendido pelo contexto sem presença verbal anterior) e zeugma (omissão de termo expresso em oração anterior). Exemplo reescrito: *"A CCJC aprovou a admissibilidade da PEC; a Comissão Especial, o mérito da proposição"*, demonstrando formalmente a recuperação do verbo transitivo direto *"aprovou"*.
     - **Item 2: Sobrestamento de pauta por Medida Provisória (CF, art. 62, § 6º) em CAM-LP-001 (`3 - Materias/Portugues/12 - texto contexto e producao de sentido.md`)**:
-      - *Problema*: Exemplo sugeria que MP com prazo vencido sobrestaria indiscriminadamente toda e qualquer matéria legislativa na Casa.
-      - *Formulação Anterior*: Enunciado genérico de que *"a pauta está repleta de medidas provisórias com prazo de caducidade iminente que trancam a pauta de votações"*.
-      - *Formulação Corrigida*: Fundamentação constitucional e jurisprudencial estrita (CF art. 62, § 6º, MS 27.931/DF e MS 28.850/DF-QO do STF): o sobrestamento atinge projetos de lei ordinária e complementar nas sessões ordinárias, não sobrestando PECs, PDLs, resoluções privativas/exclusivas nem matérias vedadas a MP. Exemplo ajustado explicitando que se tratava de um projeto de lei ordinária em sessão ordinária.
+      - *Problema*: Exemplo inicial sugeria sobrestamento indiscriminado; a primeira correção empregava a expressão "implicatura conversacional necessária", terminologia excessivamente categórica que não discriminava a fronteira entre probabilidade contextual e conclusão indevida.
+      - *Formulação Anterior*: *"o enunciado gera a implicatura conversacional necessária de que a proposição não poderá ser votada enquanto não forem desimpedidas as MPs da pauta"*.
+      - *Formulação Corrigida (Refinamento NC-006)*: Análise reestruturada metodologicamente em **três níveis de significação textual**:
+        1. *Informação explícita (superfície textual)*: o Presidente afirma que o Plenário é soberano e que duas MPs com prazo esgotado aguardam votação prioritária (sem recusar expressamente a votação do projeto).
+        2. *Inferência contextual fundamentada (implicatura provável)*: à luz do art. 62, § 6º, da CF e da jurisprudência do STF (MS 27.931/DF e MS 28.850/DF-QO), é altamente plausível e fundamentado inferir que o projeto de lei ordinária não será apreciado na sessão ordinária enquanto persistir o impedimento.
+        3. *Conclusão indevida / Extrapolação*: afirmar categoricamente que o projeto *sob hipótese alguma será votado naquela semana*, ignorando variáveis fáticas e regimentais não abordadas (votação/revogação prévia das MPs, sessão extraordinária ou perda de eficácia por decurso de prazo). A correção consolida a regra permanente de calibração modal no Cebraspe.
     - **Item 3: Classificação e origem das questões em CAM-LP-001 e CAM-TI-028 (`3 - Materias/Informatica/30 - storytelling...md`)**:
       - *Problema*: Questões inéditas formuladas no padrão da banca estavam rotuladas como "Cebraspe – Adaptada", sem indicação de prova ou ano real.
       - *Formulação Anterior*: `*(Cebraspe – Adaptada / ...)*`.
@@ -259,8 +262,8 @@ Cada ciclo avalia:
   - Além de TC, auditações anteriores constataram que as trilhas **CO (32/32)**, **DI (46/46)**, **CP (22/22)** e **PL (33/33)** também já se encontravam concluídas.
   - Conforme o programa do Edital da Câmara dos Deputados 2026 (itens 14.2.3 — Conhecimentos Básicos), a esteira de matérias prioritárias pendentes recai sobre o bloco de conhecimentos gerais: **Língua Portuguesa (CAM-LP, 23 unidades)**, **Língua Inglesa (CAM-ING, 12 unidades)**, **Direito Administrativo (CAM-DAD, 34 unidades)**, **Administração Pública e Governança (CAM-AP, 15 unidades)** e **Direito Constitucional (CAM-DC, 21 unidades)**.
   - Portanto, a transição para a trilha **Língua Portuguesa (CAM-LP)** respeita estritamente o inventário real de pendências e o programa oficial do certame.
-- **Total de unidades editoriais concluídas e integradas:** **202 de 315 (64,1%)**.
-- **Trilha Língua Portuguesa (LP):** **1 de 23 unidades concluídas**.
-- **Próximo Lote a executar:** `CAM-LP-002` (Tema, tese e progressão temática).
+- **Total de unidades editoriais concluídas e integradas:** **204 de 315 (64,8%)**.
+- **Trilha Língua Portuguesa (LP):** **3 de 23 unidades concluídas** (`CAM-LP-001`, `CAM-LP-002` e `CAM-LP-003`).
+- **Próximo Lote a executar:** `CAM-LP-004` (Tipologia textual: critérios de distinção).
 
 

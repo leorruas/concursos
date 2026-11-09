@@ -72,7 +72,11 @@
                     if(storageOK)status('Progresso sincronizado com sua conta');
                 }else if(storageOK){
                     status(result.status==='unauthorized'
-                        ? 'Progresso salvo neste dispositivo · entre novamente com GitHub para sincronizar'
+                        ? 'Progresso local preservado · sessão GitHub expirada (401)'
+                        : result.status==='forbidden'
+                        ? 'Progresso local preservado · gravação recusada pelo servidor (403)'
+                        : result.httpStatus
+                        ? `Progresso local preservado · erro ${result.httpStatus} ao sincronizar (${result.phase||'requisição'})`
                         : 'Progresso salvo neste dispositivo · sincronização remota indisponível');
                     dashboard();
                 }

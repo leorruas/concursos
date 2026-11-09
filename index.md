@@ -142,7 +142,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Transparencia e Ouvidoria/02 - participacao social escuta e melhoria de servicos|02 • Participação social, escuta e melhoria dos serviços]]
 8. [[3 - Materias/Direito Administrativo/direito-administrativo|Direito Administrativo]]
    - [[3 - Materias/Direito Administrativo/Avancos|Avanços e desempenho]]
-   - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|01 • Princípios administrativos]]
+   - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|01 • Princípios expressos e implícitos da administração pública]]
    - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|02 • Organização administrativa]]
    - [[3 - Materias/Direito Administrativo/03 - atos administrativos|03 • Atos administrativos]]
    - [[3 - Materias/Direito Administrativo/04 - poderes administrativos|04 • Poderes administrativos]]

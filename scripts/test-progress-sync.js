@@ -13,6 +13,7 @@ const item=(id,last,grade='good')=>({id,direction:'forward',last,due:last+864000
 const remote=[item('a',t)],storage=new Map([['a:forward',remote[0]]]);
 const fetcher=async(_,opts)=>{
  if(opts.method==='GET')return {status:200,ok:true,json:async()=>({version:1,reviews:[...storage.values()]})};
+ assert.equal(opts.headers['X-FC-Sync'],'1','A gravação deve exigir cabeçalho próprio');
  const parsed=JSON.parse(opts.body);
  for(const x of parsed.reviews){
   const key=x.id+':'+x.direction;
@@ -29,6 +30,9 @@ assert.equal(outcome.reviews['b:forward'].streak,2,'Cartão adicional de outro d
 assert.equal(storage.size,2);
 const denied=await P.sync(P.endpoint(endpoint),local,cards,async()=>({status:401,ok:false}));
 assert.equal(denied.status,'unauthorized');
+const forbidden=await P.sync(P.endpoint(endpoint),local,cards,async(_url,opts)=>opts.method==='GET'?{status:200,ok:true,json:async()=>({version:1,reviews:[]})}:{status:403,ok:false});
+assert.equal(forbidden.status,'forbidden','403 de POST não significa sessão expirada');
+assert.equal(forbidden.phase,'POST');
 const offline=await P.sync(P.endpoint(endpoint),local,cards,async()=>{throw Error('offline');});
 assert.equal(offline.status,'offline');
 assert.equal(Object.keys(offline.reviews).length,2,'Offline preserva o progresso local');

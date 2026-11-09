@@ -34,7 +34,7 @@
             : prioritySync==='offline'?' Serviço privado indisponível. Usando os dados deste navegador.'
             : ' Cópia local. Sincronização remota ainda não configurada.';
         $('errors-status').textContent=(summary||'Histórico das questões privado.')+detail;
-        show('priority-login',!!priorityEndpoint&&prioritySync==='unauthorized');
+        show('priority-login',!!priorityEndpoint&&(prioritySync==='unauthorized'||progressSync==='unauthorized'));
         $('stats').replaceChildren(...[['known','Conhecidos'],['learning','Em aprendizagem'],['unknown','Ainda não sei'],['due','Precisam de revisão'],['unseen','Ainda não estudados']].map(([key,label])=>{
             const box=document.createElement('div'), n=document.createElement('strong'), t=document.createElement('span');n.textContent=stats[key];t.textContent=label;box.append(n,t);return box;
         }));
@@ -70,7 +70,12 @@
                     if(JSON.stringify(merged)!==JSON.stringify(state.reviews))save({...state,reviews:merged});
                     dashboard();
                     if(storageOK)status('Progresso sincronizado com sua conta');
-                }else if(storageOK){status('Progresso salvo neste dispositivo · sincronização remota indisponível');}
+                }else if(storageOK){
+                    status(result.status==='unauthorized'
+                        ? 'Progresso salvo neste dispositivo · entre novamente com GitHub para sincronizar'
+                        : 'Progresso salvo neste dispositivo · sincronização remota indisponível');
+                    dashboard();
+                }
             }while(progressDirty);
         })();
         try{return await progressRequest;}finally{progressRequest=null;}

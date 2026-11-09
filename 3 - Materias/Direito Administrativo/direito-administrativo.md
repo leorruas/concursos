@@ -27,7 +27,7 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 
 ## 3. Atos Administrativos e Poderes
 - [[14 - ato administrativo conceito e distincao de fato administrativo|14 • Ato administrativo: conceito e distinção de fato administrativo]] (CAM-DAD-005): declaração unilateral de vontade, distinção de fato administrativo e atos materiais, regime do silêncio administrativo e atos de governo.
-- [[03 - atos administrativos|03 • Atos administrativos (Requisitos de validade, extinção e competência)]].
+- [[03 - atos administrativos|03 • Elementos e requisitos de validade do ato administrativo]] (CAM-DAD-006): CO-FI-FO-MO-O, vícios sanáveis e insanáveis, limites da delegação/avocação (NO-RE-EX), Teoria dos Motivos Determinantes e convalidação (art. 55 da Lei 9.784/1999).
 - [[04 - poderes administrativos|04 • Poderes administrativos (Vinculado, discricionário, disciplinar, polícia)]].
 - Atributos do ato administrativo (Presunção de legitimidade, Imperatividade, Autoexecutoriedade, Tipicidade).
 

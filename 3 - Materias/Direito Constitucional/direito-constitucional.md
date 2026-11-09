@@ -92,7 +92,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|31. Regimento Comum: lideranças, comissões mistas e votações (arts. 4º–52)]]: CAM-PL-027, regras gerais da Resolução 1/1970-CN, atualização das lideranças, quóruns, voto separado por Casa, questão de ordem e subsidiariedade. **CAM-PL-028 concluída na nota 32.**
 
-- [[3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990|32. Comissão Representativa do Congresso no recesso (Resolução 3/1990-CN)]]: CAM-PL-028, composição 7+16, competências condicionadas, reunião, votos separados, quóruns e atualização constitucional do calendário. **Próxima: CAM-PL-029, Resolução 1/2002-CN.**
+- [[3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990|32. Comissão Representativa do Congresso no recesso (Resolução 3/1990-CN)]]: CAM-PL-028, composição 7+16, competências condicionadas, reunião, votos separados, quóruns e atualização constitucional do calendário. **CAM-PL-029 concluída na nota 33.**
+
+- [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|33. Medidas provisórias e Resolução nº 1/2002-CN]]: CAM-PL-029, comissão mista 12+12, prazos 45/60+60, rito Câmara–Senado, ADIs 4.029 e 5.127, PLV, sanção e perda de eficácia. **Próxima: CAM-PL-030, Código de Ética.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

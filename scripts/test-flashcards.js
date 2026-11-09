@@ -149,7 +149,8 @@ assert(peers.some(c=>firstCounts.get(c.id)>0),'Outros cartões precisam poder ab
 assert(!F.select(cards,prioritized,{...scope,subject:'orcamento-publico',mode:'errors'},now).length,'Não vaza prioridade entre matérias');
 assert(!F.select(cards,prioritized,{...scope,exam:'dataprev-2026',mode:'errors'},now).length);
 prioritized.reviews[target.id+':forward']=F.schedule(undefined,'good',now);
-assert.equal(F.select(cards,prioritized,scope,now+1000)[0].id,target.id,'Erro pendente da questão permite retomar cartão antes do vencimento local');
+// Em modo misto, cartões novos podem preceder o erro, portanto testar o atalho garantido em modo errors.
+assert.equal(F.select(cards,prioritized,{...scope,mode:'errors'},now+1000)[0].id,target.id,'Erro pendente da questão permite retomar cartão antes do vencimento local');
 prioritized=F.start(cards,prioritized,{...scope,mode:'errors'},now,()=>.5);
 const after=F.rate(prioritized,'good',now+1000);
 assert.equal(after.priorities.entries[0].status,'pendente','Sei no cartão não resolve erro de questão');

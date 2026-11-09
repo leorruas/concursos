@@ -21,19 +21,21 @@ No inventário das ferramentas lógicas fundamentais, destacam-se três contrame
 ```mermaid
 flowchart TD
     classDef rede fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+    classDef ngfw fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#92400e;
     classDef host fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
     classDef spy fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;
 
-    FW["Firewall (Borda / Pessoal)<br>Filtro de Tráfego de Rede<br>(IP, Portas, Protocolos, Estado)"]:::rede
-    AV["Antivírus / Antimalware<br>Inspeção de Arquivos e Memória<br>(Assinatura, Heurística, Comportamento)"]:::host
-    AS["Antispyware<br>Especializado em Software Espião<br>(Keyloggers, Adwares, Rastreamento)"]:::spy
+    FW_TRAD["Firewall Tradicional<br>(Camadas 3 e 4 - Pacotes/Estado)<br>Filtro por IP, Portas e Protocolos"]:::rede
+    NGFW["Firewall de Próxima Geração (NGFW)<br>Inspeção Profunda (DPI) e Módulos Integrados<br>(Análise de conteúdo se TLS for inspecionado)"]:::ngfw
+    AV["Antimalware / Antivírus (Endpoint)<br>Inspeção de Arquivos, Memória e Execução<br>(Assinatura, Heurística e Comportamento)"]:::host
+    AS["Antispyware Especializado<br>Proteção de Privacidade e Rastreamento<br>(Keyloggers, Hijackers e Spywares)"]:::spy
 
-    FW -->|"Bloqueia acessos remotos e portas não autorizadas"| Tráfego["Tráfego de Rede"]:::rede
-    AV -->|"Examina binários, scripts e processos em execução"| Sistema["Arquivos e Processos"]:::host
-    AS -->|"Remove monitores ocultos e cookies espiões"| Privacidade["Privacidade do Usuário"]:::spy
-
-    FW -.->|"Limite tradicional: filtros de pacotes não examinam vírus em arquivos autorizados (salvo NGFW)"| AV
-    AV -.->|"Complemento: absorve e integra funções de"| AS
+    FW_TRAD -->|"Bloqueia portas e fluxos não autorizados sem ler payload"| TráfegoRede["Tráfego de Rede (Camadas 3/4)"]:::rede
+    NGFW -->|"Inspeciona payload na borda quando decifração/módulo ativo"| TráfegoRede
+    NGFW -.->|"Não substitui proteção de dispositivo (pendrives, tráfego cifrado local)"| AV
+    FW_TRAD -.->|"Por si, não realiza análise antimalware de arquivos autorizados"| AV
+    AV -->|"Examina binários locais, memória e processos em execução"| HostFiles["Arquivos e Processos Locais"]:::host
+    AV -.->|"Complementa e absorve funções de"| AS
 ```
 
 ---
@@ -45,8 +47,8 @@ O antivírus (atualmente denominado *antimalware*) é o software projetado para 
 ### 1.1 Métodos fundamentais de detecção
 1. **Detecção baseada em Assinatura (*Signature-based*)**:
    - Compara o código binário ou o resumo criptográfico (*hash*) do arquivo examinado com uma base de dados centralizada de assinaturas de malwares conhecidos mantida pelo fabricante;
-   - *Vantagem*: Extremamente rápida, confiável e praticamente isenta de falsos positivos para pragas catalogadas;
-   - *Limite crítico*: **Severamente limitada contra ameaças de dia zero (*Zero-Day*)** e variantes polimórficas inéditas, uma vez que a assinatura exata ainda não existe no catálogo de vacinas (embora assinaturas genéricas possam identificar famílias correlatas). Exige atualizações diárias ou em tempo real da base do fabricante.
+   - *Vantagem*: Extremamente rápida, confiável e com baixíssima taxa de falsos positivos para pragas catalogadas;
+   - *Limitações operacionais*: A detecção exclusivamente baseada em assinaturas conhecidas apresenta limitações importantes contra ameaças inéditas, especialmente quando não há assinatura correspondente na base local (embora assinaturas genéricas possam identificar variantes de uma mesma família). Por depender do conhecimento prévio da praga, essa técnica é complementada por mecanismos heurísticos, comportamentais e sandboxing para cobrir ameaças de dia zero (*Zero-Day*) e mutações polimórficas. Exige rotina tempestiva de atualização da base de definições.
 2. **Detecção Heurística (*Heuristic Analysis*)**:
    - Examina o código-fonte ou binário em busca de **instruções suspeitas**, sequências de comandos perigosos ou estruturas típicas de vírus (ex.: código que tenta modificar o setor de inicialização ou injetar DLLs em processos do sistema), mesmo que o malware nunca tenha sido visto antes;
    - *Vantagem*: Capaz de detectar variações de vírus conhecidos e novas ameaças não catalogadas;
@@ -194,12 +196,12 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
 ## 7. Heurísticas para a prova da Câmara dos Deputados
 
 1. **Firewall no Cebraspe**:
-   - Falou em *"analisar portas, conexões, IPs, filtrar tráfego, permitir/bloquear pacotes"* $\rightarrow$ **CERTO**.
-   - Falou em *"eliminar vírus de anexo, desinfetar arquivo, bloquear phishing, limpar malware do disco"* $\rightarrow$ **ERRADO**.
+   - Falou em *"analisar portas, conexões, IPs, filtrar tráfego, permitir/bloquear pacotes"* $\rightarrow$ **CERTO** (modelo tradicional de camadas 3 e 4).
+   - Falou em *"eliminar vírus de anexo, desinfetar arquivo, bloquear phishing, limpar malware do disco"* $\rightarrow$ **ERRADO** (competências de antivírus/endpoint, não desempenhadas por firewall tradicional). Se a questão mencionar explicitamente *NGFW* com DPI e módulo antimalware, atentar para a inspeção de tráfego na rede, ressalvando que não substitui a proteção do dispositivo.
 2. **Métodos de Antivírus**:
-   - Assinatura = rápido, sem falsos positivos, **não pega vírus inédito (dia zero)**.
-   - Heurística = analisa código suspeito, **pega vírus novo/variante**, mas **gera falsos positivos**.
-   - Comportamental = vigia o processo em execução (ex.: se tentar encriptar pastas inteiras, bloqueia).
+   - Assinatura = rápido, baixos falsos positivos, **limitado contra código inédito sem assinatura prévia**.
+   - Heurística = analisa código e instruções suspeitas, **detecta novas variantes/mutações**, mas **sujeito a falsos positivos**.
+   - Comportamental = vigia ações do processo em execução (ex.: tentativas anômalas de criptografar múltiplos arquivos em sequência).
 3. **Destino da Ameaça**:
    - Desinfetar = limpa o vírus do arquivo hospedeiro.
    - Quarentena = isola em cofre seguro sem apagar (reversível).

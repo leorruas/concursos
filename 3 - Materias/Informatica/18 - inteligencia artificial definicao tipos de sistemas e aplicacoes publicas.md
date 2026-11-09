@@ -94,7 +94,7 @@ Classificação clássica muito adotada pela literatura técnica e explorada pel
 | :--- | :--- | :--- |
 | **Ponto de partida** | Regras lógicas explícitas, dedutivas e ontologias pré-programadas | Dados empíricos, padrões estatísticos e indução matemática |
 | **Engenharia do conhecimento** | Humano especialista traduz o conhecimento em regras *"SE condição ENTÃO ação"* | O algoritmo ajusta pesos sinápticos e parâmetros ao ser exposto a exemplos |
-| **Explicabilidade / Transparência** | **Totalmente explicável**: trilha de decisão rastreável e auditável passo a passo | **Efeito Caixa-Preta (*Black-Box*)**: decisões complexas em redes profundas difíceis de auditar |
+| **Explicabilidade / Transparência** | **Elevada explicabilidade nativa**: trilha de decisão lógica rastreável e auditável passo a passo | **Efeito Caixa-Preta (*Black-Box*)**: decisões complexas em redes profundas com alta opacidade |
 | **Tolerância a ruído** | Frágil e rígida: falha diante de dados ambíguos ou incompletos | Altamente resiliente a ruídos, variações textuais e dados imperfeitos |
 | **Exemplo no Legislativo** | Tabela rígida de prazos e quóruns regimentais codificada em software | Classificação semântica de discursos e minutas por redes neurais |
 

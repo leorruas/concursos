@@ -244,6 +244,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Portugues/09 - tipos e generos textuais|🆕 09 • Tipos e gêneros textuais]]
   - [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido|🆕 10 • Reescrita, semântica e preservação de sentido]]
   - [[3 - Materias/Portugues/11 - crase|🆕 11 • Crase]]
+  - [[3 - Materias/Portugues/12 - texto contexto e producao de sentido|12 • Texto, contexto e produção de sentido: fatores de textualidade e pragmática]]
 - [[3 - Materias/Ingles/ingles|Língua inglesa]]
   - [[3 - Materias/Ingles/01 - leitura instrumental tese e inferencias|01 • Leitura instrumental, tese e inferências]]
   - [[3 - Materias/Ingles/02 - conectivos e relacoes logico semanticas|02 • Conectivos e relações lógico-semânticas]]

@@ -284,6 +284,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles|14 • Voz ativa, passiva e foco informacional em inglês]]
   - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|15 • Modalização em inglês: possibilidade, obrigação, dedução lógica e gradação de certeza]]
   - [[3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles|16 • Comparativos, quantificadores e delimitadores de escopo em inglês]]
+  - [[3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles|17 • Paráfrase, equivalência semântica e mudança de sentido em inglês]]
   - [[3 - Materias/Ingles/Avancos|Avanços e desempenho]]
 - [[3 - Materias/Logica/00 - logica|Raciocínio lógico]]
   - [[3 - Materias/Logica/Avancos|Avanços e desempenho]]

@@ -31,6 +31,7 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 - [[04 - poderes administrativos|04 • Poderes administrativos (Vinculado, discricionário, disciplinar, polícia)]].
 - [[15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade|15 • Atributos do ato administrativo]] (CAM-DAD-007): PATI (presunção de legitimidade e veracidade, autoexecutoriedade, tipicidade e imperatividade), exigibilidade vs. executoriedade, limites em atos negociais/enunciativos e vedação de autoexecutoriedade na cobrança de multas pecuniárias.
 - [[16 - classificacoes e especies de atos administrativos|16 • Classificações e espécies de atos administrativos]] (CAM-DAD-008): critérios estruturais (vinculados vs. discricionários, gerais vs. individuais, simples, complexos e compostos - SV 3 STF), e espécies do mnemônico NONEP (normativos, ordinatórios, negociais - licença vs. autorização, enunciativos e punitivos).
+- [[17 - anulacao revogacao convalidacao e extincao de atos administrativos|17 • Anulação, revogação, convalidação e extinção de atos administrativos]] (CAM-DAD-009): autotutela (Súmulas 346 e 473 STF e art. 53 da Lei 9.784/1999), anulação (ex tunc e decadência do art. 54) vs. revogação (mérito, ex nunc e atos irrevogáveis), convalidação (art. 55) e formas especiais de extinção (cassação, caducidade, contraposição e renúncia).
 
 ## 4. Agentes Públicos e Responsabilidade
 - [[05 - agentes publicos|05 • Agentes públicos (Definição, classificações e regimes de vínculo)]].

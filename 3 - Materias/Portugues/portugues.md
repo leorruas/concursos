@@ -37,7 +37,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Orações e conectivos**: [[07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas]].
 - **Conectores e Relações Lógicas**: [[3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao|20 • Conectores, relações lógicas e sequenciação: operadores argumentativos]] (CAM-LP-009)
 - **Tempo, Modo e Aspecto Verbal**: [[3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto|21 • Tempo, modo e aspecto verbal na construção do texto]] (CAM-LP-010)
-- **Morfologia**: Classes de palavras (substantivo, verbo, adjetivo, pronome) e flexões.
+- **Morfologia e Classes de Palavras**: [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|22 • Classes de palavras e suas funções no período: morfossintaxe de nomes, pronomes e conectivos]] (CAM-LP-011)
 - **Crase**: [[11 - crase|🆕 11 • Crase]].
 - **Reescrita, semântica e preservação de sentido**: [[10 - reescrita semantica e preservacao de sentido|🆕 10 • Reescrita, semântica e preservação de sentido]].
 

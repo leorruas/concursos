@@ -264,6 +264,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos|29 • Crase: condições de ocorrência, casos facultativos e impedimentos]]
   - [[3 - Materias/Portugues/30 - colocacao dos pronomes atonos proclise mesoclise e enclise|30 • Colocação dos pronomes átonos: próclise, mesóclise, ênclise e locuções verbais]]
   - [[3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade|31 • Significação lexical, polissemia, homonímia, paronímia e ambiguidade]]
+  - [[3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido|32 • Reescrita: substituição lexical, correção gramatical e preservação de sentido]]
 - [[3 - Materias/Ingles/ingles|Língua inglesa]]
   - [[3 - Materias/Ingles/01 - leitura instrumental tese e inferencias|01 • Leitura instrumental, tese e inferências]]
   - [[3 - Materias/Ingles/02 - conectivos e relacoes logico semanticas|02 • Conectivos e relações lógico-semânticas]]

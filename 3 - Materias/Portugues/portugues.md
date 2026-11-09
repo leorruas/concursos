@@ -48,6 +48,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Crase**: [[11 - crase|🆕 11 • Crase]].
 - **Crase (Condições, Facultatividade e Impedimentos)**: [[3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos|29 • Crase: condições de ocorrência, casos facultativos e impedimentos]] (CAM-LP-018)
 - **Reescrita, semântica e preservação de sentido**: [[10 - reescrita semantica e preservacao de sentido|🆕 10 • Reescrita, semântica e preservação de sentido]].
+- **Reescrita e Substituição Lexical**: [[3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido|32 • Reescrita: substituição lexical, correção gramatical e preservação de sentido]] (CAM-LP-021)
 
 ---
 - **Acompanhamento**: [[Avancos|Avanços e desempenho (Português)]]

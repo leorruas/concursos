@@ -301,6 +301,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes|27 • Histograma, gráficos de barras e gráficos de linhas: distinção dos eixos, escalas e aplicações]]
   - [[3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico|28 • Gráfico de dispersão e box plot: relações bivariadas, distribuição, quartis e detecção de outliers]]
   - [[3 - Materias/Informatica/29 - power bi tableau e data studio comparativo e funcoes|29 • Power BI, Tableau e Looker Studio: arquitetura, modelagem, funções DAX e casos de uso no setor público]]
+  - [[3 - Materias/Informatica/30 - storytelling com dados estrutura narrativa contexto e persuasao|30 • Storytelling com dados: estrutura narrativa, contexto, decluttering e eficácia comunicativa]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

@@ -103,7 +103,14 @@ Além do phishing, o Cebraspe exige o conhecimento de táticas de manipulação 
 
 A proteção contra engenharia social exige a convergência de tecnologia e capacitação contínua:
 - **Autenticação Multifator (MFA / 2FA)**: Mesmo que o usuário entregue sua senha em uma página de phishing, o criminoso não consegue acessar o sistema sem a posse do token ou biometria;
-- **Inspeção de Certificados SSL/TLS (HTTPS)**: No ataque de pharming, como o atacante não possui a chave privada do certificado oficial da instituição, o navegador exibirá alertas severos de segurança (*“O certificado de segurança deste site não é confiável”*);
+- **Inspeção de Certificados SSL/TLS (HTTPS) e suas Condições Críticas**:
+  - O protocolo HTTPS associado à validação de certificados digitais atua como a principal barreira contra o redirecionamento invisível do pharming, **desde que cumpridas as seguintes condições técnicas**:
+    1. **Incompatibilidade de Nome de Domínio (CN / SAN)**: O atacante que redireciona o tráfego para seu servidor não possui o certificado oficial do domínio legítimo (`camara.leg.br`). Se apresentar um certificado emitido para outro domínio sob seu controle (ex.: `camara-falsa.com`), o navegador rejeita a conexão e emite alerta de incompatibilidade (*Name Mismatch*);
+    2. **Falta de Confiança na Autoridade Certificadora (Cadeia de Confiança)**: Se o invasor gerar um certificado autoassinado para o domínio legítimo, o navegador bloqueará o acesso alertando que a Autoridade Certificadora (AC) emissora não consta da lista de raízes confiáveis do sistema operacional;
+    3. **Indisponibilidade da Chave Privada Oficial**: A matemática criptográfica do TLS impede que o atacante utilize o certificado legítimo da instituição sem possuir a chave privada correspondente;
+  - *Exceções e cenários em que o HTTPS pode falhar no pharming*:
+    - Se a estação de trabalho estiver previamente comprometida com privilégios de administrador (*root*) e o invasor tiver instalado uma **Autoridade Certificadora Raiz maliciosa** no repositório de certificados do próprio sistema operacional (*Trust Store*), o navegador aceitará o certificado falso sem emitir aviso;
+    - Se o usuário ignorar ativamente os avisos de segurança do navegador (*"Avançar mesmo assim / Risco potencial à frente"*).
 - **Treinamento e Simulações Periódicas**: Campanhas de conscientização com falsos ataques controlados para medir a resiliência dos colaboradores;
 - **Protocolos de Verificação por Segundo Canal**: Regra rígida de que transferências financeiras, envio de relatórios sigilosos ou redefinições de credenciais nunca sejam realizadas com base exclusiva em e-mail ou mensagem de WhatsApp.
 
@@ -167,7 +174,7 @@ A proteção contra engenharia social exige a convergência de tecnologia e capa
 > Caso uma instituição pública seja vítima de um ataque de *pharming* em seu servidor DNS corporativo, a exigência de conexões seguras sob o protocolo HTTPS e o rigor na validação de certificados digitais válidos emitidos por autoridades certificadoras confiáveis perdem totalmente a utilidade prática para alertar os usuários acerca do redirecionamento fraudulento.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: O protocolo HTTPS com certificados digitais válidos é justamente a **principal salvaguarda técnica contra o pharming** no lado do cliente. Como o fraudador não possui o certificado legítimo da entidade oficial (pois não detém a chave privada), o navegador apontará incompatibilidade grave entre o domínio solicitado e o certificado apresentado pelo servidor clonado, alertando o usuário da anomalia.
+- **Fundamentação**: O protocolo HTTPS com certificados digitais válidos emitidos por Autoridades Certificadoras (ACs) confiáveis é justamente a **principal salvaguarda técnica do lado do cliente para impedir que o pharming passe despercebido**. Como o atacante redireciona o tráfego no DNS mas não possui a chave privada do certificado oficial da instituição, o servidor falso apresentará um certificado com nome diferente (*mismatch* de domínio) ou um certificado autoassinado não reconhecido pelas raízes confiáveis do sistema operacional, gerando alertas bloqueantes no navegador. Essa proteção só seria anulada em cenários de comprometimento extremo prévio da própria máquina da vítima (como a injeção forçada de uma AC raiz maliciosa no *Trust Store* do sistema operacional pelo invasor). Portanto, a asserção de que o HTTPS e os certificados *"perdem totalmente a utilidade prática"* é categoricamente incorreta.
 
 ---
 

@@ -81,13 +81,22 @@ O **Firewall** (seja implementado em hardware dedicado na borda da rede ou em so
 4. **Firewall de Próxima Geração (NGFW - *Next-Generation Firewall*)**:
    - Integra em um único equipamento inspeção de pacotes com estado, prevenção de intrusão (IPS), controle de aplicativos e antivírus de borda.
 
-### 2.2 O que o Firewall NÃO faz (Pegadinhas clássicas do Cebraspe!)
+### 2.2 Limites do Firewall: distinção essencial entre modelos tradicionais e NGFW
+
+A compreensão dos limites operacionais do firewall exige distinguir o modelo tradicional (filtragem de pacotes e estado) das arquiteturas modernas unificadas:
+
+1. **Firewalls Tradicionais (Filtragem de Pacotes e Inspeção de Estados - Camadas 3 e 4)**:
+   - Operam examinando apenas cabeçalhos de rede (endereço IP, porta lógica e protocolo de transporte);
+   - **Não inspecionam o interior da carga útil (*payload*) dos pacotes**: se o tráfego web estiver liberado na porta 443 (HTTPS) ou 80 (HTTP) e o usuário fizer o download de um arquivo executável infectado por vírus, o firewall tradicional deixará o arquivo passar normalmente;
+   - **Não removem vírus nem desinfetam arquivos** armazenados no disco;
+   - **Não impedem golpes de engenharia social (phishing)**: se o usuário acessar um site falso autorizado e entregar suas credenciais, o firewall tradicional não intervém.
+2. **Firewalls de Próxima Geração (NGFW - *Next-Generation Firewalls*)**:
+   - Incorporam módulos integrados de **Inspeção Profunda de Pacotes (*Deep Packet Inspection* - DPI)**, antivírus de borda e sistemas de prevenção de intrusão (IPS);
+   - São capazes de inspecionar o fluxo de dados em busca de assinaturas conhecidas de malwares antes que o arquivo chegue à estação do usuário;
+   - *Ressalva crítica para a prova*: Mesmo um NGFW com módulo antivírus atua como barreira de perímetro (em trânsito na rede); ele não substitui a proteção de *endpoint* (antivírus local), pois não analisa arquivos criptografados de ponta a ponta sem interceptação SSL/TLS, pendrives USB locais, mídias externas ou arquivos gerados internamente na máquina.
+
 > [!WARNING]
-> O Cebraspe adora atribuir ao Firewall competências exclusivas do Antivírus:
-> 1. O firewall **NÃO detecta vírus, trojans ou worms dentro de arquivos baixados** por portas e conexões autorizadas. Se o tráfego HTTP/HTTPS estiver liberado na porta 443 e o usuário fizer o download de um `.exe` infectado, o firewall deixará o arquivo passar normalmente;
-> 2. O firewall **NÃO remove malwares** já instalados no computador;
-> 3. O firewall **NÃO desfaz alterações maliciosas** no sistema nem recupera arquivos danificados;
-> 4. O firewall **NÃO impede golpes de engenharia social (phishing)**: se o usuário entrar em um site falso autorizado e entregar sua senha, o firewall não intervém.
+> **Como o Cebraspe formula em prova:** A banca tradicionalmente foca no **conceito canônico de firewall de rede/pessoal como filtro de portas e pacotes**, considerando **ERRADO** afirmar que o firewall tradicional identifica e elimina vírus em downloads ou limpa estações infectadas. Quando a banca quer cobrar recursos de NGFW ou antivírus de borda, o enunciado menciona expressamente a expressão *"Firewall de Próxima Geração (NGFW)"*, *"Inspeção Profunda de Pacotes (DPI)"* ou *"módulo de antivírus integrado"*.
 
 ---
 
@@ -138,7 +147,7 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
 > Um *firewall* pessoal devidamente instalado e ativo em um computador é suficiente para identificar e eliminar vírus e vermes (*worms*) contidos em arquivos recebidos por meio de mensagens de correio eletrônico ou baixados diretamente da internet.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: A pegadinha clássica e mais repetida pelo Cebraspe. O firewall atua na filtragem de tráfego de rede (bloqueando ou liberando conexões com base em portas, IPs e protocolos), sendo **incapaz** de inspecionar o interior dos arquivos baixados para detectar vírus ou de desinfetar arquivos infectados. Essa tarefa pertence exclusivamente ao software antivírus.
+- **Fundamentação**: A formulação retrata a clássica pegadinha do Cebraspe em provas de concurso. Um firewall tradicional (filtragem de pacotes ou inspeção com estado) atua exclusivamente na filtragem de tráfego de rede (bloqueando ou liberando conexões com base em portas, IPs e protocolos), sendo **incapaz** de inspecionar a carga útil dos arquivos baixados por conexões autorizadas para detectar vírus ou de desinfetar arquivos infectados na estação. Embora soluções de Firewall de Próxima Geração (NGFW) possam integrar inspeção profunda de pacotes (DPI) e antivírus de borda, a questão trata do conceito canônico geral de *firewall pessoal*, o qual opera estritamente nas camadas de rede e transporte, não dispensando nem substituindo o software antivírus local no *endpoint*.
 
 ---
 

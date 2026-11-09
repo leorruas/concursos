@@ -360,6 +360,37 @@ Cada ciclo avalia:
 - **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e validados no padrão Cebraspe, rotulados como `*(Inédita: estilo Cebraspe / ...)*`.
 - **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
 
+### 10. Ciclo 10 (Unidades CAM-LP-016 a CAM-LP-020) — Bloco de Concordância, Regência, Crase, Colocação Pronominal e Semântica — 09/11/2026
+
+#### 10.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-LP-016`, `CAM-LP-017`, `CAM-LP-018`, `CAM-LP-019`, `CAM-LP-020` (5 unidades sobre concordância verbal e nominal, regência verbal e nominal, crase, colocação pronominal e significação lexical/ambiguidade).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md` (`art-0655bb314882606f` - CAM-LP-016)
+  2. `3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos.md` (`art-0cb14544830d0b6d` - CAM-LP-017)
+  3. `3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos.md` (`art-3f8cfa8b8d43c2bd` - CAM-LP-018)
+  4. `3 - Materias/Portugues/30 - colocacao dos pronomes atonos proclise mesoclise e enclise.md` (`art-3e69afeada1328e6` - CAM-LP-019)
+  5. `3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md` (`art-569c69df60f66dfd` - CAM-LP-020)
+
+#### 10.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados e Resultados:**
+  - `node scripts/test-priority-sync.js` (Aprovado).
+  - `node scripts/validate-flashcards.js` (Aprovado: 270 flashcards validados).
+  - `node scripts/test-article-identity.js` (Aprovado: identidades estáveis de 456 artigos Markdown verificadas).
+  - `node scripts/test-contest-catalog.js` (Aprovado: catálogo com 3 concursos, 32 matérias e 496 vínculos).
+  - `node scripts/test-public-privacy.js` (Aprovado: zero vazamento de dados privados no bundle público).
+  - `node scripts/build-site.js` (Aprovado: build estático concluído em `_site/`, manifesto com 456 arquivos e índice de busca de 6,98 MB).
+- **Evidências de Integridade:** Zero links quebrados no hub de Português (`portugues.md`), `index.md` e catálogo.
+
+#### 10.3. Auditoria Editorial, Doutrinária e Normativa
+- **Conformidade Doutrinária e Precisão dos Conceitos:**
+  - `CAM-LP-016`: Concordância com sujeito simples distante/posposto e sujeito composto anteposto (plural) $\times$ posposto (plural ou núcleo mais próximo); dupla concordância em expressões partitivas (*a maioria de*), porcentagens e frações; contraste entre *que* (concorda com antecedente) e *quem* (3ª sing. ou antecedente); verbos impessoais (*haver* e *fazer*) e contaminação do auxiliar; passiva sintética $\times$ indeterminação do sujeito $\times$ sujeito oracional; regras do verbo *ser*; e vocábulos de fronteira na concordância nominal (*é proibido/proibida, anexo/em anexo, mesmo, próprio, bastante, meio, só/a sós, quite, haja vista*).
+  - `CAM-LP-017`: Verbos com mudança de sentido conforme a transitividade (*assistir, aspirar, visar, querer, proceder, implicar, agradar, pagar/perdoar*); sintaxe reversível dos bitransitivos (*informar, avisar, cientificar, notificar*) vedando dois objetos indiretos; contraste entre *lembrar/esquecer* (VTD) e *lembrar-se/esquecer-se* (VTI com *de*); migração obrigatória da preposição para antes dos pronomes relativos (*a que, de que, em que, a cujo*) $\times$ elipse facultativa antes da conjunção integrante *que*; vedação ao compartilhamento de complemento por verbos de regências diferentes; e quadro de regência nominal.
+  - `CAM-LP-018`: Condição geral da crase ($a + a$); 9 impedimentos absolutos (palavra masculina, verbo, *a* singular antes de plural, pronomes pessoais/indefinidos/tratamento, *esta/essa/cuja*, palavras repetidas, numeral cardinal e após outras preposições salvo *até*); casos obrigatórios (locuções femininas, horas exatas e paralelismo *de... a... $\times$ da... à...*); 3 casos facultativos (possessivo feminino singular adjetivo, nome próprio feminino sem especificador e após *até*); vocábulos especiais (*casa, terra, distância* e topônimos); e efeitos semânticos/sintáticos da retirada do acento grave.
+  - `CAM-LP-019`: 3 proibições absolutas na colocação pronominal (início de período/após pausa, após futuro e após particípio); 7 grupos de fatores de próclise obrigatória (negativas, advérbios sem vírgula, relativos, indefinidos, demonstrativos, conjunções subordinativas e *em + gerúndio*); casos facultativos (sujeito explícito antes do verbo, coordenadas e infinitivo precedido de preposição ou negação); formação da mesóclise e hierarquia Próclise > Mesóclise; adaptações fonéticas (*lo/la, no/na*); e colocação nas locuções verbais.
+  - `CAM-LP-020`: Denotação $\times$ conotação; fronteira entre polissemia (mesma raiz e sentidos interligados) e homonímia (origens distintas: homônimos perfeitos, homófonos e homógrafos); quadro de 20 pares de parônimos/homófonos da administração pública (*ratificar/retificar, infringir/infligir, deferir/diferir, avocar/evocar, discriminar/descriminar, elidir/ilidir, eminente/iminente, sortir/surtir, vultoso/vultuoso, incipiente/insipiente, ao encontro de/de encontro a*); e 5 mecanismos estruturais de ambiguidade (anfibologia).
+- **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e validados no padrão Cebraspe, rotulados como `*(Inédita: estilo Cebraspe / ...)*`.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+
 
 
 

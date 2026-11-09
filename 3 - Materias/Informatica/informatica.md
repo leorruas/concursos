@@ -50,6 +50,7 @@ updated: 2026-09-14
 ## Segurança da Informação
 - [[3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles|12 • Segurança da informação: princípios CIDAN, políticas corporativas e controles de proteção]] (CAM-TI-010)
 - [[3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao|13 • Backup: estratégias, tipos, recuperação e diferença de sincronização em nuvem]] (CAM-TI-011)
+- [[3 - Materias/Informatica/14 - malware virus worm trojan ransomware spyware e rootkit|14 • Malware: vírus, worm, trojan, ransomware, spyware, rootkit e botnets]] (CAM-TI-012)
 - Senhas
 - Phishing
 - Vírus e malware

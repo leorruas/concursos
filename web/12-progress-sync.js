@@ -19,7 +19,8 @@
   if(!Array.isArray(rows)||rows.length>10000)throw Error('Resposta de progresso inválida');
   const ids=new Set(cards.map(c=>c.id)),out={};
   for(const r of rows){
-   if(!r||!ids.has(r.id)||!['forward','reverse','contrast'].includes(r.direction)||
+   if(r&&typeof r.id==='string'&&!ids.has(r.id))continue; // catálogo antigo: preservar remoto sem impedir o restante
+   if(!r||!['forward','reverse','contrast'].includes(r.direction)||
       !['again','hard','good'].includes(r.grade)||
       ![r.last,r.due,r.streak,r.attempts].every(Number.isSafeInteger))throw Error('Revisão remota inválida');
    const key=r.id+':'+r.direction;

@@ -9206,7 +9206,7 @@
       "term": "Empenho integral × VPD parcial",
       "definition": "Empenho compromete crédito orçamentário; VPD por competência reflete serviço já recebido ou consumido, mesmo se o contrato tiver sido empenhado integralmente.",
       "example": "Contrato de serviço 80 mil empenhado integralmente; somente 25% foi prestado e consumido: VPD de 20 mil, assumida execução uniforme.",
-      "confusion": "Emprenho de todo o contrato não antecipa VPD do serviço futuro.",
+      "confusion": "Empenho de todo o contrato não antecipa VPD do serviço futuro.",
       "topic": "Reforço direcionado: erros e dúvidas",
       "subjectIds": [
         "contabilidade-publica"
@@ -9228,7 +9228,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "vpd-parcela-executada-versus-empenho-total"
       ],

@@ -262,9 +262,9 @@ Cada ciclo avalia:
   - Além de TC, auditações anteriores constataram que as trilhas **CO (32/32)**, **DI (46/46)**, **CP (22/22)** e **PL (33/33)** também já se encontravam concluídas.
   - Conforme o programa do Edital da Câmara dos Deputados 2026 (itens 14.2.3 — Conhecimentos Básicos), a esteira de matérias prioritárias pendentes recai sobre o bloco de conhecimentos gerais: **Língua Portuguesa (CAM-LP, 23 unidades)**, **Língua Inglesa (CAM-ING, 12 unidades)**, **Direito Administrativo (CAM-DAD, 34 unidades)**, **Administração Pública e Governança (CAM-AP, 15 unidades)** e **Direito Constitucional (CAM-DC, 21 unidades)**.
   - Portanto, a transição para a trilha **Língua Portuguesa (CAM-LP)** respeita estritamente o inventário real de pendências e o programa oficial do certame.
-- **Total de unidades editoriais concluídas e integradas:** **211 de 315 (67,0%)**.
-- **Trilha Língua Portuguesa (LP):** **10 de 23 unidades concluídas** (`CAM-LP-001` a `CAM-LP-010`).
-- **Próximo Lote a executar:** `CAM-LP-011` (Classes de palavras e suas funções no período).
+- **Total de unidades editoriais concluídas e integradas:** **216 de 315 (68,6%)**.
+- **Trilha Língua Portuguesa (LP):** **15 de 23 unidades concluídas** (`CAM-LP-001` a `CAM-LP-015`).
+- **Próximo Lote a executar:** `CAM-LP-016` (Concordância verbal e nominal: regras e casos de fronteira).
 
 ### 7. Ciclo 7 (Unidades CAM-LP-001 a CAM-LP-005) — Bloco Inicial de Língua Portuguesa — 09/11/2026
 
@@ -328,6 +328,38 @@ Cada ciclo avalia:
   - `CAM-LP-010`: Modos verbais (indicativo, subjuntivo e imperativo) e categorias de aspecto verbal (perfectivo concluso, imperfectivo durativo/habitual e iterativo continuado no pretérito perfeito composto *tem aprovado*); valores do presente (gnômico, histórico, habitual); tríade dos pretéritos do indicativo e equivalência clássica Cebraspe entre mais-que-perfeito simples (*encerrara*) e composto (*tinha/havia encerrado*); futuro do pretérito modalizador de incerteza; e tabela de correlação verbal (*consecutio temporum*).
 - **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e validados no padrão Cebraspe, rotulados como `*(Inédita: estilo Cebraspe / ...)*`, sem absolutismos artificiais.
 - **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+
+### 9. Ciclo 9 (Unidades CAM-LP-011 a CAM-LP-015) — Bloco de Morfossintaxe, Período Composto e Pontuação — 09/11/2026
+
+#### 9.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-LP-011`, `CAM-LP-012`, `CAM-LP-013`, `CAM-LP-014`, `CAM-LP-015` (5 unidades sobre classes de palavras e morfossintaxe, termos da oração, coordenação, subordinação e pontuação).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo.md` (`art-a64c0b4be746abff` - CAM-LP-011)
+  2. `3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao.md` (`art-26917d1e99d3ceed` - CAM-LP-012)
+  3. `3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas.md` (`art-cd7059fe8508b9d0` - CAM-LP-013)
+  4. `3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md` (`art-33566ad5fe490701` - CAM-LP-014)
+  5. `3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md` (`art-1008794d803c4eff` - CAM-LP-015)
+
+#### 9.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados e Resultados:**
+  - `node scripts/test-priority-sync.js` (Aprovado).
+  - `node scripts/validate-flashcards.js` (Aprovado: 270 flashcards validados).
+  - `node scripts/test-article-identity.js` (Aprovado: identidades estáveis de 451 artigos Markdown verificadas).
+  - `node scripts/test-contest-catalog.js` (Aprovado: catálogo com 3 concursos, 32 matérias e 491 vínculos).
+  - `node scripts/test-public-privacy.js` (Aprovado: zero vazamento de dados privados no bundle público).
+  - `node scripts/build-site.js` (Aprovado: build estático concluído em `_site/`, manifesto com 451 arquivos e índice de busca de 6,89 MB).
+- **Evidências de Integridade:** Zero links quebrados no hub de Português (`portugues.md`), `index.md` e catálogo.
+
+#### 9.3. Auditoria Editorial, Doutrinária e Normativa
+- **Conformidade Doutrinária e Precisão dos Conceitos:**
+  - `CAM-LP-011`: Morfossintaxe de substantivos, adjetivos e advérbios; inversão posicional substantivo-adjetivo e mudança de sentido/classe; variabilidade de *bastante/bastantes*, *meio/meia* e *anexo $\times$ em anexo*; duelo morfossintático da palavra *QUE* (pronome relativo com função sintática $\times$ conjunção integrante sem função sintática $\times$ partícula expletiva); as cinco funções da partícula *SE* (pronome apassivador, índice de indeterminação do sujeito no singular obrigatório, parte integrante do verbo, pronome reflexivo e conjunção); e preposições relacionais $\times$ nocionais.
+  - `CAM-LP-012`: Tipologia do sujeito e recuperabilidade (determinado simples, composto e oculto/elíptico $\times$ indeterminado $\times$ sujeito oracional no singular $\times$ oração sem sujeito com *haver* e *fazer* versus verbo pessoal *existir*); transitividade verbal e pronomes átonos (*o/a* OD $\times$ *lhe* OI); árvore de decisão entre Complemento Nominal (paciente/alvo de substantivo abstrato, adjetivo ou advérbio) e Adjunto Adnominal (agente/possuidor exclusivamente de substantivo); e modalidades de aposto (explicativo com vírgula $\times$ especificativo sem vírgula) e vocativo.
+  - `CAM-LP-013`: Independência sintática e interdependência semântica na coordenação; orações assindéticas e as 5 sindéticas; polissemia de *E* (adversativo e consecutivo) e valor aditivo de *MAS* em *não só... mas também*; distinção entre *nem*, *tampouco* (= também não) e *tão pouco* (= muito pouco); vírgula antes do *E* (facultativa com sujeitos diferentes) e isolamento entre vírgulas das conjunções adversativas e conclusivas deslocadas.
+  - `CAM-LP-014`: As 6 orações subordinadas substantivas e o teste do *ISSO* (com elipse autorizada da preposição antes da conjunção integrante); o duelo semântico e pontuacional das adjetivas restritivas (sem vírgula) $\times$ explicativas (com vírgulas); sintaxe dos pronomes relativos (*cujo* possessivo antecedido de preposição exigida, *onde* para lugar físico $\times$ *aonde*, *quem* para pessoa); pontuação das 9 subordinadas adverbiais (vírgula obrigatória quando antepostas); e desenvolvimento de reduzidas de infinitivo, gerúndio e particípio.
+  - `CAM-LP-015`: As 3 proibições absolutas da vírgula na ordem direta S-V-C (inclusive sujeito posposto ou oracional); vedação à retirada de apenas uma das duas vírgulas de termo intercalado; vírgula facultativa em adjunto adverbial curto deslocado $\times$ obrigatória em longo; permutabilidade entre vírgulas duplas, travessões duplos e parênteses; as 4 funções dos dois-pontos e equivalência com *, pois*; e ponto e vírgula em coordenações com zeugma.
+- **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e validados no padrão Cebraspe, rotulados como `*(Inédita: estilo Cebraspe / ...)*`.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+
 
 
 

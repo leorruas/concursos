@@ -156,69 +156,77 @@ Uma das armadilhas mais letais nas provas de Língua Portuguesa da Câmara é a 
 * **Item Cebraspe**: *Depreende-se do texto que o autor defende a extinção total do instrumento das emendas parlamentares na gestão fiscal brasileira.*
 * **Análise**: O autor critica uma tese específica (*"que democratizaram o orçamento"*) e aponta um efeito negativo (*"interesses paroquiais"*). Ele não propôs, explícita ou implicitamente, a extinção total do instrumento. Trata-se de extrapolação e radicalização de quantificadores. **Gabarito: ERRADO**.
 
-### Caso 2: Coesão Elíptica e Continuidade de Sentido
-* **Cenário**: *"O relator da proposta na CCJC apresentou parecer favorável. O Plenário da Câmara, por maioria absoluta, a aprovação final em dois turnos"*. (Omissão estilística do verbo na segunda oração — zeugma).
-* **Análise Pragmática**: A ausência do verbo na segunda oração não destrói a coerência do período, pois o contexto linguístico permite recuperar a ação de chancelar/confirmar a deliberação. O leitor preenche a elipse por meio da coerência local e global.
+### Caso 2: Coesão Elíptica e Zeugma na Linguagem Institucional
+* **Distinção Teórica**:
+  - **Elipse**: omissão de um termo gramatical facilmente subentendido pelo contexto linguístico ou situacional, sem que tenha sido necessariamente enunciado antes no período (ex.: *"Em plenário, silêncio absoluto"* — omissão do verbo de ligação/existência *"havia"* ou *"fez-se"*).
+  - **Zeugma**: espécie particular de elipse em que o termo omitido já foi expresso formalmente em oração anterior, evitando repetição desnecessária (ex.: *"A comissão técnica aprovou o relatório preliminar; o Plenário, o substitutivo final"* — omissão expressa do verbo *"aprovou"* na segunda oração).
+* **Cenário em Análise**: *"A CCJC aprovou a admissibilidade da PEC; a Comissão Especial, o mérito da proposição"*.
+* **Análise Linguística e Pragmática**: A omissão da forma verbal *"aprovou"* na segunda coordenada configura zeugma legítimo. O leitor recupera a predicação a partir da primeira oração sem qualquer ruptura da coerência textual ou dano à correção gramatical.
 
-### Caso 3: Implicatura por Quebra de Máxima
-* **Cenário**: O Presidente da Casa, ao ser indagado por repórteres se determinada matéria polêmica seria votada naquela semana, declara: *"O Plenário é soberano e a pauta está repleta de medidas provisórias com prazo de caducidade iminente que trancam a pauta de votações"*.
-* **Análise**: O Presidente não respondeu diretamente "sim" ou "não" (quebra aparente da máxima de modo e quantidade). Porém, no contexto normativo da Câmara (onde MPs com prazo vencido sobrestiam as demais deliberações), o enunciado gera a inferência legítima de que a matéria não poderá ser deliberada antes do desimpedimento da pauta.
+### Caso 3: Implicatura Pragmática e o Sobrestamento por Medida Provisória (CF, art. 62, § 6º)
+* **Parâmetro Constitucional e Jurisprudencial**: Conforme o art. 62, § 6º, da Constituição Federal e a jurisprudência consolidada do Supremo Tribunal Federal (notadamente no julgamento do MS 27.931/DF e na Questão de Ordem no MS 28.850/DF), o sobrestamento da pauta por medida provisória não apreciada em até 45 dias da sua publicação **não paralisa indiscriminadamente todas as deliberações legislativas**. O trancamento incide especificamente sobre a deliberação de projetos de lei ordinária e complementar nas sessões ordinárias da Casa em que estiver tramitando, **não sobrestando**:
+  1. Propostas de Emenda à Constituição (PECs), em razão da estatura de poder constituinte derivado reformador;
+  2. Projetos de Decreto Legislativo e de Resolução referentes a matérias de competência exclusiva do Congresso Nacional ou privativa das Casas;
+  3. Matérias constitucionalmente vedadas à edição de medidas provisórias (CF, art. 62, § 1º);
+  4. Sessões extraordinárias legitimamente convocadas.
+* **Cenário**: O Presidente da Casa, ao ser indagado por repórteres se um projeto de lei ordinária prioritário seria votado na sessão ordinária daquela semana, declara: *"O Plenário é soberano, mas há duas medidas provisórias com prazo de 45 dias esgotado aguardando votação prioritária"*.
+* **Análise Pragmática e Jurídica**: O emissor não respondeu explicitamente "não" (aparente quebra da máxima de modo e de quantidade de Grice). Contudo, no contexto normativo do art. 62, § 6º, da CF, uma vez que a matéria pretendida é um projeto de lei ordinária sujeito a sobrestamento na sessão ordinária, o enunciado gera a **implicatura conversacional necessária** de que a proposição não poderá ser votada enquanto não forem desimpedidas as MPs da pauta.
 
 ---
 
-## 7. Questões de Concurso Comentadas (Padrão Cebraspe C/E)
+## 7. Questões de Concurso Comentadas (Estilo Cebraspe C/E)
 
 ### Questão 1
-*(Cebraspe – Adaptada / Câmara dos Deputados)*
-> A coerência textual é uma propriedade que depende exclusivamente da correção gramatical e do emprego de conectivos interparágrafos, de modo que a supressão de termos de coesão sequencial acarreta, de forma mandatória, a perda de sentido do texto.
+*(Inédita: estilo Cebraspe / Conhecimentos Básicos)*
+> A coerência textual é uma propriedade que depende da correção gramatical e do emprego de conectivos interparágrafos, de modo que a supressão de termos de coesão sequencial acarreta, obrigatoriamente, a perda de sentido e a incoerência do texto.
 
 * **Gabarito**: **ERRADO**.
-* **Comentário**: A coerência reside no nível semântico, conceitual e cognitivo do sentido global, e não exclusivamente na superfície morfossintática. É plenamente possível haver enunciados sem conectivos formais explícitos que preservem coerência integral por justaposição lógica de ideias, assim como é possível redigir períodos perfeitamente gramaticais e repletos de conjunções que sejam semanticamente absurdos ou contraditórios.
+* **Comentário**: A coerência localiza-se no nível semântico, conceitual e cognitivo do sentido global, e não exclusivamente na superfície morfossintática. É plenamente possível haver enunciados sem conectivos formais explícitos que preservem coerência integral por justaposição lógica de ideias (orações assindéticas coordenadas ou subordinadas implícitas), assim como é possível redigir períodos perfeitamente gramaticais e repletos de conjunções que sejam semanticamente absurdos ou contraditórios.
 
 ---
 
 ### Questão 2
-*(Cebraspe – Adaptada / Analista Legislativo)*
-> Conforme a teoria da textualidade, a situacionalidade diz respeito à adequação do texto ao contexto espaciotemporal e discursivo em que é veiculado, orientando as escolhas de registro linguístico e de informatividade adequadas aos interlocutores.
+*(Inédita: estilo Cebraspe / Analista Legislativo)*
+> Conforme a teoria da textualidade de Beaugrande e Dressler, a situacionalidade diz respeito à adequação do texto ao contexto espaciotemporal e discursivo em que é veiculado, orientando as escolhas de registro linguístico e de informatividade adequadas aos interlocutores.
 
 * **Gabarito**: **CERTO**.
-* **Comentário**: Definição precisa de situacionalidade segundo Beaugrande e Dressler. A pertinência ao contexto de enunciação determina o nível de formalidade, a extensão das informações e a seleção lexical.
+* **Comentário**: Definição rigorosamente exata do fator pragmático da situacionalidade. A pertinência ao contexto de enunciação determina o nível de formalidade, a extensão das informações e a seleção lexical.
 
 ---
 
 ### Questão 3
-*(Cebraspe – Adaptada / Comunicação Social)*
-> O cotexto linguístico corresponde ao conjunto de frases e parágrafos que circundam determinado vocábulo, atuando decisivamente na seleção do significado pretendido pelo autor e na eliminação de ambiguidades inerentes a termos polissêmicos.
+*(Inédita: estilo Cebraspe / Comunicação Social)*
+> O cotexto linguístico corresponde ao conjunto de elementos verbais (frases e parágrafos) que circundam determinado vocábulo no próprio texto, atuando decisivamente na seleção do significado pretendido pelo autor e na eliminação de ambiguidades inerentes a termos polissêmicos.
 
 * **Gabarito**: **CERTO**.
-* **Comentário**: O cotexto (contexto linguístico verbal estrito) delimita o valor semântico de palavras polissêmicas, permitindo ao leitor identificar com exatidão a acepção selecionada para aquele evento comunicativo específico.
+* **Comentário**: O cotexto (contexto linguístico verbal estrito) delimita o valor semântico de palavras polissêmicas, permitindo ao leitor identificar com exatidão a acepção selecionada para aquele evento comunicativo específico, sem depender exclusivamente de pistas extratextuais.
 
 ---
 
 ### Questão 4
-*(Cebraspe – Adaptada / Língua Portuguesa)*
-> Infere-se legitimamente de um texto qualquer afirmação que se revele condizente com a realidade fática dos fatos sociais do país, ainda que o autor não tenha fornecido premissas textuais ou pistas discursivas que sustentem tal conclusão.
+*(Inédita: estilo Cebraspe / Língua Portuguesa)*
+> Infere-se legitimamente de um texto qualquer proposição que se revele condizente com a realidade fática ou com o senso comum predominante na sociedade, ainda que o autor não tenha fornecido premissas textuais ou pistas discursivas que sustentem tal conclusão.
 
 * **Gabarito**: **ERRADO**.
-* **Comentário**: Uma inferência só é legítima quando decorre necessária ou fortemente das premissas oferecidas no próprio texto. Projetar conhecimento extratextual não respaldado pelas palavras do autor caracteriza extrapolação indevida, um dos erros mais recorrentes em provas de concursos.
+* **Comentário**: Uma inferência só é legítima quando decorre necessária ou fortemente das premissas e marcas linguísticas fornecidas no próprio texto. Projetar conhecimento extratextual não respaldado pelas palavras do autor caracteriza extrapolação indevida, um dos erros mais recorrentes em provas de interpretação.
 
 ---
 
 ### Questão 5
-*(Cebraspe – Adaptada / Redação Oficial)*
-> Em atos oficiais expedidos pelo Poder Legislativo, como resoluções e decretos legislativos, a linguagem assume predominantemente função pragmática de ato ilocucionário diretivo ou declaratório, cuja validade vincula-se às condições institucionais de autoridade e competência formal do emissor.
+*(Inédita: estilo Cebraspe / Redação Oficial)*
+> Em atos oficiais expedidos pelo Poder Legislativo, como resoluções e decretos legislativos, a linguagem assume predominantemente a função pragmática de ato ilocucionário diretivo ou declaratório, cuja validade vincula-se às condições institucionais de autoridade e competência formal do emissor.
 
 * **Gabarito**: **CERTO**.
-* **Comentário**: No quadro dos atos de fala (Austin e Searle), textos legais e normativos não são meras descrições da realidade (atos locucionários neutros), mas constituem ações institucionais que criam, modificam ou extinguem direitos quando praticados pela autoridade com competência regimental e constitucional.
+* **Comentário**: No quadro dos atos de fala (Austin e Searle), textos normativos não são meras descrições da realidade (atos locucionários neutros), mas constituem ações institucionais com força imperativa e performativa que criam, modificam ou extinguem direitos quando praticados pela autoridade com competência regimental e constitucional.
 
 ---
 
 ### Questão 6
-*(Cebraspe – Adaptada / Consultoria Legislativa)*
-> A informatividade de um texto mede o grau de previsibilidade das informações apresentadas; assim, um texto de alta informatividade é aquele que se limita a reiterar lugares-comuns e consensos consolidados da sociedade, assegurando máxima aceitabilidade pelo leitor.
+*(Inédita: estilo Cebraspe / Consultoria Legislativa)*
+> A informatividade de um texto mede o grau de previsibilidade das informações apresentadas; dessa forma, um texto atinge alta informatividade quando se limita a reiterar dados de conhecimento público e consensos consolidados, assegurando imediata aceitabilidade pelo leitor.
 
 * **Gabarito**: **ERRADO**.
-* **Comentário**: O conceito foi invertido. Alta informatividade significa novidade, originalidade e imprevisibilidade dos dados trazidos ao leitor. Textos que apenas reiteram o senso comum e lugares-comuns possuem **baixa informatividade**.
+* **Comentário**: O conceito foi invertido. Alta informatividade significa novidade, originalidade e imprevisibilidade dos dados trazidos ao leitor, gerando maior esforço de processamento cognitivo. Textos que apenas reiteram o senso comum e informações redundantes possuem **baixa informatividade**.
 
 ---
 

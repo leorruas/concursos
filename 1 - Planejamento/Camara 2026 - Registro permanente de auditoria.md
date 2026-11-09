@@ -238,11 +238,29 @@ Cada ciclo avalia:
 - **Gabaritos das Questões Inéditas:** Todos os 18 itens inéditos C/E examinados e testados no padrão Cebraspe, com justificativas técnicas consistentes.
 - **Não Conformidades Encontradas e Ações Corretivas:**
   - *NC-005 (Técnica em CAM-TI-028 - Formatação de frontmatter canônico)*: Inicialmente, `CAM-TI-028` foi salvo com `tags` em lista e `articleAliases` com indentação YAML multilinha, gerando erro de slug no `build-site.js`. **Ação Corretiva**: Frontmatter reestruturado para o formato padrão estrito (`articleAliases: ["3 - Materias/Informatica/30 - storytelling com dados estrutura narrativa contexto e persuasao.md"]`, `type: "conceito"`, `status: "ativo"`), com revalidação imediata e sucesso no build.
+  - *NC-006 (Editorial e Normativa em CAM-LP-001 e CAM-TI-030 - Precisão de exemplos linguísticos, sobrestamento por MP e taxonomia de questões)*:
+    - **Item 1: Exemplo de zeugma e elipse em CAM-LP-001 (`3 - Materias/Portugues/12 - texto contexto e producao de sentido.md`)**:
+      - *Problema*: Exemplo truncado de zeugma sem verbo recuperável expresso anteriormente.
+      - *Formulação Anterior*: *"O relator da proposta na CCJC apresentou parecer favorável. O Plenário da Câmara, por maioria absoluta, a aprovação final em dois turnos"*.
+      - *Formulação Corrigida*: Distinção teórica explícita entre elipse (omissão de termo subentendido pelo contexto sem presença verbal anterior) e zeugma (omissão de termo expresso em oração anterior). Exemplo reescrito: *"A CCJC aprovou a admissibilidade da PEC; a Comissão Especial, o mérito da proposição"*, demonstrando formalmente a recuperação do verbo transitivo direto *"aprovou"*.
+    - **Item 2: Sobrestamento de pauta por Medida Provisória (CF, art. 62, § 6º) em CAM-LP-001 (`3 - Materias/Portugues/12 - texto contexto e producao de sentido.md`)**:
+      - *Problema*: Exemplo sugeria que MP com prazo vencido sobrestaria indiscriminadamente toda e qualquer matéria legislativa na Casa.
+      - *Formulação Anterior*: Enunciado genérico de que *"a pauta está repleta de medidas provisórias com prazo de caducidade iminente que trancam a pauta de votações"*.
+      - *Formulação Corrigida*: Fundamentação constitucional e jurisprudencial estrita (CF art. 62, § 6º, MS 27.931/DF e MS 28.850/DF-QO do STF): o sobrestamento atinge projetos de lei ordinária e complementar nas sessões ordinárias, não sobrestando PECs, PDLs, resoluções privativas/exclusivas nem matérias vedadas a MP. Exemplo ajustado explicitando que se tratava de um projeto de lei ordinária em sessão ordinária.
+    - **Item 3: Classificação e origem das questões em CAM-LP-001 e CAM-TI-028 (`3 - Materias/Informatica/30 - storytelling...md`)**:
+      - *Problema*: Questões inéditas formuladas no padrão da banca estavam rotuladas como "Cebraspe – Adaptada", sem indicação de prova ou ano real.
+      - *Formulação Anterior*: `*(Cebraspe – Adaptada / ...)*`.
+      - *Formulação Corrigida*: Rótulo padronizado para `*(Inédita: estilo Cebraspe / ...)*` em todas as questões criadas, reservando a etiqueta "Adaptada" exclusivamente para itens que possuam prova, órgão, ano e número de item originais comprovadamente verificados.
 - **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
 
-### 6. Estado Atual e Próximos Passos
-- **Total de unidades editoriais concluídas e integradas:** **201 de 315 (63,8%)**.
-- **Trilha TI:** **28 de 28 unidades concluídas (100% CONCLUÍDA)**.
-- **Próxima Trilha a executar:** `CAM-TC` (Teorias da Comunicação e Opinião Pública), iniciando por `CAM-TC-001` (Comunicação pública e comunicação governamental: conceitos e distinções).
+### 6. Justificativa Editorial da Sequência de Trilhas e Estado Atual
+- **Auditoria de Transição e Sequência do Edital:**
+  - O planejamento inicial indicava *Teorias da Comunicação (CAM-TC)* como próxima etapa após TI. Contudo, a auditoria do repositório constatou que a trilha **CAM-TC (24/24 unidades)** já foi integralmente produzida e publicada nos Lotes 1 a 10 (incluindo o artigo piloto inaugural `art-d5d369c071d44fe1`).
+  - Além de TC, auditações anteriores constataram que as trilhas **CO (32/32)**, **DI (46/46)**, **CP (22/22)** e **PL (33/33)** também já se encontravam concluídas.
+  - Conforme o programa do Edital da Câmara dos Deputados 2026 (itens 14.2.3 — Conhecimentos Básicos), a esteira de matérias prioritárias pendentes recai sobre o bloco de conhecimentos gerais: **Língua Portuguesa (CAM-LP, 23 unidades)**, **Língua Inglesa (CAM-ING, 12 unidades)**, **Direito Administrativo (CAM-DAD, 34 unidades)**, **Administração Pública e Governança (CAM-AP, 15 unidades)** e **Direito Constitucional (CAM-DC, 21 unidades)**.
+  - Portanto, a transição para a trilha **Língua Portuguesa (CAM-LP)** respeita estritamente o inventário real de pendências e o programa oficial do certame.
+- **Total de unidades editoriais concluídas e integradas:** **202 de 315 (64,1%)**.
+- **Trilha Língua Portuguesa (LP):** **1 de 23 unidades concluídas**.
+- **Próximo Lote a executar:** `CAM-LP-002` (Tema, tese e progressão temática).
 
 

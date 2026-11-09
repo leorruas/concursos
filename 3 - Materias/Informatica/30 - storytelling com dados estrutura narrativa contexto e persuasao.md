@@ -188,7 +188,7 @@ No setor público e na cobertura de comunicação legislativa, a manipulação v
 ## 9. Questões de Concurso Comentadas (Padrão Cebraspe C/E)
 
 ### Questão 1
-*(Cebraspe – Adaptada / Comunicação e TI)*
+*(Inédita: estilo Cebraspe / Comunicação e TI)*
 > Em projetos de comunicação visual baseados em dados, a análise exploratória e a comunicação explanatória possuem finalidades distintas: a primeira visa à descoberta e à investigação dos dados pelo próprio analista, enquanto a segunda foca em transmitir uma mensagem específica e fundamentada para um público-alvo determinado, de modo a orientar a tomada de decisão.
 
 * **Gabarito**: **CERTO**.
@@ -197,7 +197,7 @@ No setor público e na cobertura de comunicação legislativa, a manipulação v
 ---
 
 ### Questão 2
-*(Cebraspe – Adaptada / Gestão Pública)*
+*(Inédita: estilo Cebraspe / Gestão Pública)*
 > Para garantir a atratividade estética de um relatório analítico, recomenda-se a aplicação irrestrita do lixo gráfico (*chartjunk*), como molduras decorativas tridimensionais, padrões de preenchimento tracejados e uma paleta com cores distintas para cada barra do gráfico, independentemente de sua função analítica.
 
 * **Gabarito**: **ERRADO**.
@@ -206,7 +206,7 @@ No setor público e na cobertura de comunicação legislativa, a manipulação v
 ---
 
 ### Questão 3
-*(Cebraspe – Adaptada / Tecnologia da Informação)*
+*(Inédita: estilo Cebraspe / Tecnologia da Informação)*
 > Os atributos pré-atentivos, tais como cor, tamanho, posição e contraste, são processados pelo córtex visual humano em nível subconsciente antes de qualquer percepção deliberada, sendo utilizados no storytelling para criar hierarquia visual e direcionar a atenção do leitor para os pontos mais críticos da visualização.
 
 * **Gabarito**: **CERTO**.
@@ -215,7 +215,7 @@ No setor público e na cobertura de comunicação legislativa, a manipulação v
 ---
 
 ### Questão 4
-*(Cebraspe – Adaptada / Comunicação Social)*
+*(Inédita: estilo Cebraspe / Comunicação Social)*
 > No contexto do setor público, é plenamente legítimo suprimir o ponto zero do eixo de valores em gráficos de colunas para enfatizar variações percentuais ínfimas entre órgãos orçamentários, não caracterizando distorção visual nem infração ao princípio da fidedignidade da informação pública.
 
 * **Gabarito**: **ERRADO**.
@@ -224,7 +224,7 @@ No setor público e na cobertura de comunicação legislativa, a manipulação v
 ---
 
 ### Questão 5
-*(Cebraspe – Adaptada / Análise de Dados)*
+*(Inédita: estilo Cebraspe / Análise de Dados)*
 > A grande ideia (*big idea*), no planejamento de uma narrativa de dados, consiste em formular um parágrafo descritivo de todas as variáveis do banco de dados, sem emitir posicionamento ou indicar as medidas práticas recomendadas à audiência.
 
 * **Gabarito**: **ERRADO**.
@@ -233,7 +233,7 @@ No setor público e na cobertura de comunicação legislativa, a manipulação v
 ---
 
 ### Questão 6
-*(Cebraspe – Adaptada / Comunicação Institucional)*
+*(Inédita: estilo Cebraspe / Comunicação Institucional)*
 > O arco narrativo clássico, composto por contextualização (status quo), conflito evidenciado pelos dados e resolução (chamada à ação), pode ser empregado estruturalmente em relatórios analíticos da administração pública para conectar diagnósticos empíricos a planos de intervenção institucional.
 
 * **Gabarito**: **CERTO**.

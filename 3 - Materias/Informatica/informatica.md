@@ -39,6 +39,7 @@ updated: 2026-09-14
 - [[3 - Materias/Informatica/08 - redes internet intranet protocolos e enderecamento ip|08 • Redes de computadores: internet, intranet, extranet, protocolos TCP/IP e endereçamento IPv4 e IPv6]] (CAM-TI-006)
 - [[3 - Materias/Informatica/09 - navegacao busca avancada urls e procedimentos de internet|09 • Navegação web, anatomia de URLs, operadores de busca avançada e privacidade no navegador]] (CAM-TI-007)
 - [[3 - Materias/Informatica/10 - correio eletronico webmail cliente local campos e seguranca|10 • Correio eletrônico: webmail, cliente local, campos de cabeçalho, anexos e segurança]] (CAM-TI-008)
+- [[3 - Materias/Informatica/11 - teams e google meet colaboracao reunioes e videoconferencia|11 • Teams e Google Meet: ferramentas de colaboração, videoconferência corporativa, canais e moderação]] (CAM-TI-009)
 - Navegadores e pesquisa avançada
 
 ## Legislação de segurança da informação

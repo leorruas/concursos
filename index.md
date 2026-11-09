@@ -282,6 +282,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Informatica/08 - redes internet intranet protocolos e enderecamento ip|08 • Redes de computadores: internet, intranet, extranet, protocolos TCP/IP e endereçamento IPv4 e IPv6]]
   - [[3 - Materias/Informatica/09 - navegacao busca avancada urls e procedimentos de internet|09 • Navegação web, anatomia de URLs, operadores de busca avançada e privacidade no navegador]]
   - [[3 - Materias/Informatica/10 - correio eletronico webmail cliente local campos e seguranca|10 • Correio eletrônico: webmail, cliente local, campos de cabeçalho, anexos e segurança]]
+  - [[3 - Materias/Informatica/11 - teams e google meet colaboracao reunioes e videoconferencia|11 • Teams e Google Meet: ferramentas de colaboração, videoconferência corporativa, canais e moderação]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

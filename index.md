@@ -156,6 +156,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|12 • Estado, governo, administração e função administrativa]]
    - [[3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao|13 • Centralização, descentralização, concentração e desconcentração]]
    - [[3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo|14 • Ato administrativo: conceito e distinção de fato administrativo]]
+   - [[3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade|15 • Atributos do ato administrativo: presunção, imperatividade, autoexecutoriedade e tipicidade]]
 9. [[3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia|Evidências, dados e inteligência artificial]]
    - [[3 - Materias/Evidencias Dados e IA/01 - perguntas fontes e qualidade da evidencia|01 • Perguntas, fontes e qualidade da evidência]]
    - [[3 - Materias/Evidencias Dados e IA/02 - indicadores denominadores e subnotificacao|02 • Indicadores, denominadores e subnotificação]]

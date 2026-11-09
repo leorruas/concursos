@@ -89,3 +89,38 @@ Cada ciclo avalia:
 - **Total de unidades editoriais concluídas e integradas:** **183 de 315 (58,1%)**.
 - **Trilha TI:** **10 de 28 unidades concluídas (restam 18)**.
 - **Próximo Lote a executar:** `CAM-TI-011` (Backup: estratégias, recuperação e diferença de sincronização).
+
+---
+
+## Ciclo 3 de Auditoria: Unidades CAM-TI-011 a CAM-TI-015 (Lotes 159 a 163)
+
+- **Data da Auditoria:** 09/11/2026.
+- **Escopo auditado (5 unidades concluídas):**
+  1. `CAM-TI-011`: `3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md` (`art-e4f1e43ef81ff76b`).
+  2. `CAM-TI-012`: `3 - Materias/Informatica/14 - malware virus worm trojan ransomware spyware e rootkit.md` (`art-e66153c7ca90b06b`).
+  3. `CAM-TI-013`: `3 - Materias/Informatica/15 - antivirus firewall e antispyware atuacao e limites.md` (`art-54da73b11b7b9fdd`).
+  4. `CAM-TI-014`: `3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md` (`art-2f178d9576d10289`).
+  5. `CAM-TI-015`: `3 - Materias/Informatica/17 - governanca digital e responsabilidade no servico publico.md` (`art-28fc0e46477ff067`).
+
+### 1. Testes e Validação Técnica Executada
+- **Verificação de Identidades e Slugs:** `node scripts/test-article-identity.js` aprovado. 423 arquivos Markdown públicos mapeados com identidade estável, unicidade de `articleId` e derivação consistente de rotas.
+- **Validação do Catálogo do Concurso:** `node scripts/test-contest-catalog.js` aprovado. 3 concursos, 32 matérias e 463 vínculos de artigos verificados. As 5 novas unidades integradas a `informatica` sob o concurso `camara-2026`.
+- **Barreira de Privacidade Absoluta:** `node scripts/test-public-privacy.js` aprovado. Nenhuma informação individual (sessões, logs de erros, relatórios pessoais) foi vazada ou inserida no repositório público.
+- **Índices de Busca e Ranking de Seções:** `node scripts/test-search-index.js`, `test-search-routing.js` e `test-search-ranking.js` aprovados com 100% de recall e ranking superior (17/18 Top 1, 18/18 Top 3).
+- **Integridade do Build Estático:** `node scripts/build-site.js` aprovado com 423 artigos públicos compilados para `_site/`, manifesto e índices gerados com sucesso.
+
+### 2. Avaliação Editorial e Normativa
+- **Precisão Conceitual e Normativa:**
+  - `CAM-TI-011`: Rigor no funcionamento do *Archive Bit* para backup Completo, Incremental e Diferencial, regra 3-2-1, métricas RPO/RTO e desmistificação da equivalência errônea entre sincronização de nuvem e backup;
+  - `CAM-TI-012`: Taxonomia oficial do CERT.br e Cebraspe, diferenciando vírus (hospedeiro + execução humana), worms (autônomos via rede), trojans (disfarce/backdoor), ransomware (cifração e dupla extorsão), spywares (keylogger $\times$ screenlogger), rootkits (ocultação no kernel) e botnets (zumbis/DDoS);
+  - `CAM-TI-013`: Aplicação do princípio da Defesa em Profundidade e delimitação precisa de que o firewall filtra tráfego de rede por portas e IPs, mas não inspeciona arquivos para detectar vírus locais nem impede phishing;
+  - `CAM-TI-014`: Oposição estrita entre phishing (engodo por mensagem/clique) e pharming (envenenamento de DNS com digitação correta da URL), além de técnicas de *spear phishing*, *whaling*, *baiting* e *pretexting*;
+  - `CAM-TI-015`: Fundamentação na Lei do Governo Digital (Lei nº 14.129/2021) e princípios *Digital by Default*, *Once-Only* e Dados Abertos; classificação das assinaturas eletrônicas (Lei nº 14.063/2020: Simples, Avançada e Qualificada com ICP-Brasil); e harmonização entre LAI e LGPD à luz do Tema 483 do STF.
+- **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e conferidos contra fontes primárias e jurisprudência da banca Cebraspe, com justificativas sólidas.
+- **Não Conformidades Encontradas:** Nenhuma não conformidade Crítica, Alta ou Média.
+- **Classificação do Ciclo:** **Aprovado com louvor técnico e editorial**.
+
+### 3. Estado Atual e Próximos Passos
+- **Total de unidades editoriais concluídas e integradas:** **188 de 315 (59,7%)**.
+- **Trilha TI:** **15 de 28 unidades concluídas (restam 13)**.
+- **Próximo Lote a executar:** `CAM-TI-016` (Inteligência artificial: definição e tipos de sistema).

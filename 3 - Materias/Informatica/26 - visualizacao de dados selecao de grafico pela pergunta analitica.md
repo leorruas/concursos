@@ -1,0 +1,197 @@
+---
+articleId: art-a2e4949761ab5a6f
+articleAliases: ["3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica.md"]
+title: "Visualização de dados: seleção de gráficos pela pergunta analítica, variáveis e carga cognitiva"
+type: "conceito"
+status: "ativo"
+created: 2026-11-09
+updated: 2026-11-09
+---
+
+# Visualização de dados: seleção de gráficos pela pergunta analítica, variáveis e carga cognitiva
+
+## 1. Situação concreta e o papel da visualização na comunicação pública
+
+Na atuação de um Analista da Câmara dos Deputados — especialmente na área de Divulgação Institucional e transparência legislativa —, o objetivo central da visualização de dados (*Data Visualization*) não é o mero embelezamento estético de relatórios, mas sim a **comunicação precisa, rápida e intuitiva de evidências analíticas para o cidadão e para os tomadores de decisão**.
+
+Um gráfico mal selecionado distorce fatos, oculta padrões críticos ou impõe uma carga cognitiva desnecessária ao leitor. Em concursos públicos formulados pelo **Cebraspe**, as questões não exigem apenas o domínio de ferramentas (Power BI, Tableau), mas principalmente a **lógica de escolha do tipo de representação visual** em função:
+1. Do tipo das variáveis envolvidas (quantitativas discretas/contínuas $\times$ qualitativas nominais/ordinais).
+2. Da **pergunta analítica** que se deseja responder (comparação, evolução temporal, distribuição, composição ou correlação).
+3. Da minimização da distorção visual (*Lie Factor*) e eliminação do ruído visual (*Chartjunk*).
+
+---
+
+## 2. A taxonomia analítica de Andrew Abela
+
+O método clássico e mais cobrado em provas para seleção de gráficos parte do framework de Andrew Abela (*Extreme Presentation*), que classifica a intenção do analista em quatro categorias fundamentais:
+
+```
+                            QUAL É A SUA PERGUNTA?
+                                      │
+         ┌──────────────────┬─────────┴─────────┬──────────────────┐
+         ▼                  ▼                   ▼                  ▼
+    COMPARAÇÃO          EVOLUÇÃO           COMPOSIÇÃO          RELAÇÃO /
+    ENTRE ITENS         TEMPORAL            DE PARTES         DISTRIBUIÇÃO
+   (Quem é maior?)   (Como mudou?)       (Fatia do todo?)    (Qual o padrão?)
+         │                  │                   │                  │
+   - Barras /         - Linhas            - Barras            - Dispersão (Scatter)
+     Colunas          - Áreas               Empilhadas        - Histograma
+                                          - Treemap           - Box Plot
+                                          - Pizza (restrito)
+```
+
+### 2.1. Comparação entre Itens (*Comparison*)
+- **Objetivo:** Confrontar grandezas entre diferentes categorias discretas em um ponto fixo no tempo (ex.: número de proposições apresentadas por partido político em 2026).
+- **Gráficos recomendados:**
+  - **Gráfico de Barras Horizontais:** Ideal quando os rótulos das categorias forem longos (evita textos inclinados ou truncados) ou houver mais de 7 categorias.
+  - **Gráfico de Colunas Verticais:** Ideal para poucas categorias (até 5 a 7) e rótulos curtos.
+
+### 2.2. Evolução Temporal (*Trend over Time*)
+- **Objetivo:** Mostrar a trajetória, tendência, aceleração ou sazonalidade de uma métrica contínua ao longo de um eixo cronológico ordenado (ex.: execução orçamentária mensal da Câmara ao longo do ano).
+- **Gráficos recomendados:**
+  - **Gráfico de Linhas:** É o padrão absoluto para dados temporais contínuos com muitos períodos. O olho humano conecta intuitivamente os pontos por linhas contínuas para inferir aceleração e declínio.
+  - **Gráfico de Áreas:** Útil para enfatizar o volume total acumulado além da tendência individual.
+
+### 2.3. Composição de um Todo (*Composition*)
+- **Objetivo:** Ilustrar como as partes individuais somam para formar um todo de 100% (ex.: distribuição das cadeiras da Câmara por bancada partidária).
+- **Gráficos recomendados:**
+  - **Barras/Colunas Empilhadas a 100%:** Excelente para comparar composições percentuais entre diferentes grupos.
+  - **Treemap (Mapa em Árvore):** Excepcional para composições hierárquicas com múltiplos níveis (ex.: Gastos da União $\rightarrow$ Órgão $\rightarrow$ Programa $\rightarrow$ Ação).
+  - **Gráfico de Pizza / Rosca (*Pie / Donut Chart*):** Uso **estritamente limitado** a no máximo 3 a 5 categorias com diferenças expressivas de proporção.
+
+### 2.4. Distribuição e Relação (*Distribution & Correlation*)
+- **Objetivo:** Analisar a dispersão de uma variável ou a correlação entre duas variáveis quantitativas (ex.: correlação entre tempo de tramitação e número de emendas recebidas).
+- **Gráficos recomendados:**
+  - **Histograma:** Mostra a distribuição de frequência de uma variável contínua dividida em intervalos (*bins*).
+  - **Box Plot (Diagrama de Caixas):** Exibe mediana, quartis, dispersão e *outliers*.
+  - **Gráfico de Dispersão (*Scatter Plot*):** Cruza duas variáveis numéricas contínuas nos eixos $X$ e $Y$.
+
+---
+
+## 3. Diretrizes de Edward Tufte: integridade e carga cognitiva
+
+O estatístico e pioneiro da visualização Edward Tufte formulou princípios que norteiam as boas práticas de design analítico cobradas pelo Cebraspe:
+
+### 3.1. Razão Dado-Tinta (*Data-Ink Ratio*)
+$$\text{Data-Ink Ratio} = \frac{\text{Tinta dedicada à representação dos dados}}{\text{Tinta total utilizada para imprimir o gráfico}}$$
+- O objetivo do comunicador público deve ser **maximizar** essa razão, aproximando-a de 1,0.
+- Tudo o que não transmite informação deve ser eliminado: linhas de grade pesadas, fundos coloridos, bordas ornamentais desnecessárias e redundâncias visuais.
+
+### 3.2. Eliminação do Lixo Gráfico (*Chartjunk*)
+- **Chartjunk** é qualquer elemento visual que distrai, decora superficialmente ou dificulta a leitura dos dados sem acrescentar informação substantiva:
+  - Efeitos tridimensionais (3D falso) em gráficos de barras ou pizzas.
+  - Texturas pontilhadas ou zebradas que criam efeito de cintilação óptica (*moiré vibration*).
+  - Ícones ilustrativos e desenhos ornamentais sobrepostos aos dados.
+
+### 3.3. O Fator de Distorção (*Lie Factor*)
+$$\text{Lie Factor} = \frac{\text{Tamanho do efeito visual exibido no gráfico}}{\text{Tamanho do efeito real nos dados}}$$
+- Se o $\text{Lie Factor} = 1{,}0$, o gráfico é visualmente honesto.
+- Se $\text{Lie Factor} > 1{,}05$ ou $< 0{,}95$, há **distorção visual**: o gráfico exagera ou minimiza a variação real.
+- **Exemplo clássico de fraude visual em barras:** Iniciar o eixo vertical $Y$ fora do zero (*truncated axis*) para fazer uma variação de 2% parecer uma explosão de 200%.
+
+```
+   EIXO TRUNCADO (DISTORÇÃO)               EIXO COM ZERO (HONESTO)
+ 105 ▲                                   120 ▲
+     │         █                             │
+ 100 │   █     █                         100 │
+     │   █     █                          80 │
+  95 │   █     █                          60 │   █     █
+  90 ┼───┴─────┴────►                     40 │   █     █
+        2025  2026                        20 │   █     █
+     (Variação de 3% parece o dobro!)      0 ┼───┴─────┴────►
+                                                2025  2026
+```
+
+---
+
+## 4. Patologias visuais frequentes e o problema do gráfico de pizza
+
+O **Gráfico de Pizza (*Pie Chart*)** é o gráfico mais abusado na administração pública e o mais criticado na literatura técnica especializada.
+
+### Por que a percepção humana falha no gráfico de pizza?
+1. **Dificuldade perceptiva de ângulos e áreas:** O cérebro humano é biologicamente muito eficiente para comparar comprimentos e posições em uma escala comum alinhada (como barras horizontais), mas é péssimo para julgar ângulos radiais, arcos e áreas bidimensionais.
+2. **O veneno do efeito 3D:** Em uma pizza tridimensional inclinada, a perspectiva faz com que a fatia posicionada na frente pareça substancialmente maior do que uma fatia de mesmo valor posicionada ao fundo, induzindo o leitor a erro de julgamento.
+3. **Múltiplas fatias finas:** Gráficos de pizza com mais de 5 ou 6 categorias tornam-se ilegíveis, exigindo legendas com cores semelhantes que aumentam a carga cognitiva.
+
+> [!TIP]
+> **Substituição Recomendada:** Sempre que houver mais de 3 categorias ou quando as diferenças forem sutis, substitua o gráfico de pizza por um **gráfico de barras horizontais ordenadas** em ordem decrescente de grandeza.
+
+---
+
+## 5. Matriz de decisão rápida: pergunta versus gráfico
+
+| Pergunta Analítica | Variáveis Envolvidas | Gráfico Recomendado | Gráfico a Evitar |
+| :--- | :--- | :--- | :--- |
+| Como uma grandeza contínua variou mês a mês? | 1 Temporal + 1 Numérica Contínua | **Linhas** | Pizza ou Colunas Agrupadas densas |
+| Qual secretaria executou o maior volume financeiro? | 1 Categórica Nominal + 1 Numérica | **Barras Horizontais** (ordenadas) | Pizza de 15 fatias ou Radar |
+| Como se divide o orçamento da União entre ministérios e programas? | Hierarquia (Pai-Filho) + Numérica | **Treemap** | Pizza multinível concêntrica |
+| Existe relação entre a escolaridade dos eleitores e o comparecimento? | 2 Numéricas Contínuas | **Dispersão (*Scatter Plot*)** | Colunas justapostas |
+| Como se distribuem os salários dos servidores e há *outliers*? | 1 Numérica Contínua | **Histograma ou Box Plot** | Linhas temporais |
+| Qual a proporção de votos Sim, Não e Abstenção em uma votação? | 1 Categórica (3 classes) + 1 Contagem | **Barras Empilhadas a 100% ou Pizza simples** | Gráfico 3D inclinado |
+
+---
+
+## 6. Casos concretos e aplicações progressivas
+
+### Caso 1: Divulgação da bancada feminina na Câmara
+- *Cenário:* A Secretaria de Comunicação deseja mostrar a evolução percentual da bancada feminina de 1988 a 2026 (10 legislaturas).
+- *Escolha Errada:* Criar 10 gráficos de pizza separados (um para cada ano), obrigando o cidadão a alternar o olhar entre 10 círculos para tentar perceber o crescimento do ângulo.
+- *Escolha Correta:* Um único **gráfico de linhas** temporal ou um gráfico de barras empilhadas a 100% ao longo dos anos, permitindo percepção visual instantânea da inclinação da curva de crescimento.
+
+### Caso 2: Transparência de emendas parlamentares por estado
+- *Cenário:* Exibição do valor total pago em emendas para as 27 unidades da federação.
+- *Escolha Técnica:* **Gráfico de barras horizontais ordenadas** da maior para a menor UF, com o valor impresso no topo da barra. Como os nomes/siglas das UFs são 27 categorias, barras horizontais permitem rolagem natural vertical e evitam poluição visual.
+
+### Caso 3: Avaliação de tempo de tramitação de medidas provisórias
+- *Cenário:* Uma comissão mista deseja comparar a dispersão do tempo de tramitação de MPs sob diferentes mandatos presidenciais, identificando casos atípicos que trancaram a pauta.
+- *Escolha Técnica:* **Box Plot comparativo** por período de governo. O gráfico revela imediatamente a mediana de tramitação, o intervalo interquartil (50% centrais dos casos) e destaca individualmente como pontos isolados as MPs *outliers*.
+
+---
+
+## 7. Questões inéditas no padrão Cebraspe (C/E)
+
+### Item 1
+> **Assertiva:** Segundo os princípios de integridade gráfica propostos por Edward Tufte, a utilização de efeitos visuais tridimensionais (3D) em gráficos de barras e setores circulares é recomendável para aumentar o impacto estético e facilitar a precisão na leitura quantitativa dos dados.
+>
+> **Gabarito:** **ERRADO**  
+> **Comentário:** Efeitos tridimensionais (3D) em gráficos que representam dados bidimensionais são classificados como *chartjunk* (lixo gráfico) e introduzem distorção visual (*Lie Factor* descalibrado). O ângulo de perspectiva altera a proporção geométrica aparente das barras ou fatias, prejudicando a exatidão da leitura e induzindo o público a erros de julgamento.
+
+### Item 2
+> **Assertiva:** Para representar a evolução temporal de uma despesa pública observada mensalmente ao longo de uma série histórica de dez anos, o gráfico de linhas é preferível ao gráfico de colunas verticais, pois evidencia com maior clareza a continuidade, a inclinação das taxas de variação e a tendência da série.
+>
+> **Gabarito:** **CERTO**  
+> **Comentário:** O gráfico de linhas é o padrão de excelência para séries temporais longas com muitas observações (como 120 meses). O cérebro humano conecta intuitivamente a linha contínua, permitindo identificar acelerações, picos sazonais e reversões de tendência sem a sobrecarga visual que 120 colunas verticais justapostas causariam.
+
+### Item 3
+> **Assertiva:** A razão dado-tinta (*Data-Ink Ratio*) defendida na teoria da visualização de dados preconiza que o designer deve maximizar os elementos ornamentais de contorno, as linhas de grade espessas e as legendas redundantes para enriquecer o contexto visual da informação apresentada.
+>
+> **Gabarito:** **ERRADO**  
+> **Comentário:** A regra da razão dado-tinta preconiza exatamente o oposto: **eliminar ou atenuar tudo o que for tinta não relacionada aos dados** (como grades pesadas, caixas desnecessárias e elementos decorativos), garantindo que a maior parte da "tinta" seja dedicada exclusivamente a transmitir informação pura.
+
+### Item 4
+> **Assertiva:** Em um gráfico de barras que compara grandezas entre diferentes categorias nominais, a supressão do valor zero no eixo de base (*eixo truncado*) é uma técnica legítima para realçar diferenças sutis entre os dados, não configurando distorção visual da informação.
+>
+> **Gabarito:** **ERRADO**  
+> **Comentário:** Em gráficos de barras ou colunas, a altura ou comprimento da barra codifica a magnitude absoluta do dado. Truncar o eixo de base (não iniciar no zero) viola a proporcionalidade geométrica e gera um *Lie Factor* muito superior a 1,0, fazendo com que pequenas variações pareçam discrepâncias gigantescas, o que caracteriza manipulação ou distorção visual ilegítima.
+
+### Item 5
+> **Assertiva:** O gráfico de dispersão (*scatter plot*) é a representação visual indicada quando o objetivo analítico consiste em verificar a existência de correlação, padrão de associação linear ou agrupamentos entre duas variáveis numéricas contínuas.
+>
+> **Gabarito:** **CERTO**  
+> **Comentário:** O gráfico de dispersão plota pares ordenados $(X, Y)$ em um plano cartesiano ortogonal, sendo a ferramenta gráfica por excelência para investigar relações causais aparentes, dispersão, correlação positiva/negativa e presença de outliers bivariados entre duas variáveis quantitativas.
+
+### Item 6
+> **Assertiva:** O Treemap é uma visualização analítica adequada para exibir a composição percentual de dados estruturados hierarquicamente em múltiplos níveis, utilizando retângulos aninhados proporcionais à grandeza das variáveis representadas.
+>
+> **Gabarito:** **CERTO**  
+> **Comentário:** O Treemap (mapa em árvore) divide o espaço retangular total em retângulos menores cujas áreas correspondem ao peso de cada categoria, sendo ideal para representar estruturas pai-filho (ex.: Orçamento $\rightarrow$ Ministério $\rightarrow$ Secretaria $\rightarrow$ Ação).
+
+---
+
+## 8. Referências conceituais
+
+1. **TUFTE, Edward R.** *The Visual Display of Quantitative Information.* 2nd ed. Cheshire: Graphics Press, 2001.
+2. **FEW, Stephen.** *Show Me the Numbers: Designing Tables and Graphs to Enlighten.* 2nd ed. Burlingame: Analytics Press, 2012.
+3. **ABELA, Andrew.** *Advanced Presentations by Design: Creating Communication That Drives Action.* Pfeiffer, 2008.
+4. **CAIRO, Alberto.** *The Functional Art: An introduction to information graphics and visualization.* New Riders, 2012.
+5. **KNAFLIC, Cole Nussbaumer.** *Storytelling com Dados: um guia sobre visualização de dados para profissionais de negócios.* Rio de Janeiro: Alta Books, 2018.

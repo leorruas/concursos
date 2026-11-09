@@ -31,6 +31,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Sintaxe da Oração**: [[02 - sujeito|02 • Sujeito e termos da oração]].
 - **Termos Essenciais, Integrantes e Acessórios**: [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|23 • Termos essenciais, integrantes e acessórios da oração: sintaxe do período simples]] (CAM-LP-012)
 - **Pontuação**: [[03 - pontuacao e virgula|03 • Pontuação e vírgula]].
+- **Pontuação e Efeitos de Sentido**: [[3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido|26 • Pontuação e efeitos na estrutura e no sentido: vírgula, dois-pontos e travessões]] (CAM-LP-015)
 - **Regência**: [[04 - regencia|04 • Regência verbal e nominal]].
 - **Ortografia e Convenções da Escrita**: [[3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao|17 • Ortografia e convenções da escrita: Acordo Ortográfico, acentuação gráfica e hifenização]] (CAM-LP-006)
 - **Ortografia**: [[05 - acordo ortografico|05 • Acordo ortográfico]].

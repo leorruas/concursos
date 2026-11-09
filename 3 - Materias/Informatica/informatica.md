@@ -26,6 +26,7 @@ updated: 2026-09-14
 
 ### Excel
 - Fórmulas básicas
+- [[3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas|05 • Excel 365: células, referências relativas e absolutas, funções e tabelas dinâmicas]] (CAM-TI-003)
 - Tabelas e gráficos
 
 ### PowerPoint

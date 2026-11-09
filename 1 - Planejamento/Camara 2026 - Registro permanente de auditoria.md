@@ -490,6 +490,41 @@ Cada ciclo avalia:
 - **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada — Trilha de Língua Inglesa (12/12) 100% concluída**.
 - **Acompanhamento Global:** **236 de 315 unidades editoriais concluídas (74,9%)**, **79 pendentes**. **Próxima etapa: Trilha de Direito Administrativo (DAD - 34 unidades)**.
 
+---
+
+## Ciclo 14 de Auditoria: Unidades CAM-DAD-001 a CAM-DAD-005 (Lotes 212 a 216) — 09/11/2026
+
+### 14.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-DAD-001`, `CAM-DAD-002`, `CAM-DAD-003`, `CAM-DAD-004`, `CAM-DAD-005` (5 unidades de abertura da Trilha de Direito Administrativo: Estado, governo e administração; princípios expressos e implícitos do regime jurídico-administrativo; administração direta e indireta, entidades e regime de controle; centralização, descentralização, concentração e desconcentração; e ato administrativo, requisitos e distinção de fato administrativo).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md` (`art-0242ff68d8ca9529` - CAM-DAD-001)
+  2. `3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md` (`art-8946971690804376` - CAM-DAD-002)
+  3. `3 - Materias/Direito Administrativo/02 - organizacao administrativa.md` (`art-86dee064aef44ba4` - CAM-DAD-003)
+  4. `3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md` (`art-880b577a5c2ba82d` - CAM-DAD-004)
+  5. `3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md` (`art-e9d0b4352f3e1455` - CAM-DAD-005)
+
+### 14.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados e Resultados:**
+  - `node scripts/test-priority-sync.js` (Aprovado: sincronização opcional, mesmo domínio, revisões intactas, login, 401/403, cache e offline).
+  - `node scripts/validate-flashcards.js` (Aprovado: 270 flashcards, metadados de edital, fontes e seções válidos).
+  - `node scripts/test-public-privacy.js` (Aprovado: ausência rigorosa de dados privados de estudo, logs individuais ou relatórios de sessão no repositório público).
+  - `node scripts/test-article-identity.js` (Aprovado: identidades estáveis de 474 artigos Markdown verificadas, sem colisões de `articleId` ou aliases quebrados).
+  - `node scripts/test-contest-catalog.js` (Aprovado: catálogo com 3 concursos, 32 matérias e 514 vínculos de artigos; privacidade e ordens validadas).
+  - `node scripts/build-site.js` (Aprovado: build estático concluído em `_site/`, manifesto com 474 arquivos compilados e índice de busca de 7,26 MB).
+- **Evidências de Integridade:** Zero links quebrados no hub de Direito Administrativo (`direito-administrativo.md`), `index.md` e catálogo. Diagramas Mermaid com paleta âmbar/creme (`#fff8e7` e `#faedcd`) e contraste WCAG AA validado.
+
+### 14.3. Auditoria Editorial, Doutrinária e Normativa
+- **Conformidade Doutrinária e Precisão dos Conceitos:**
+  - `CAM-DAD-001`: Elementos universais do Estado (povo $\times$ população $\times$ nação; território; e governo soberano com supremacia interna e independência externa); Governo (*policy making*, discricionariedade ampla, comando superior) $\times$ Administração Pública (*execução técnica, estrita legalidade, subordinação e permanência*); sentidos subjetivo/formal/orgânico (*quem faz*) $\times$ objetivo/material/funcional (*o que se faz: serviço público, polícia, fomento, intervenção*); e funções típicas e atípicas nos Três Poderes (gestão administrativa atípica da Câmara dos Deputados).
+  - `CAM-DAD-002`: Dois pilares basilares / supraprincípios (supremacia do interesse público $\times$ indisponibilidade do interesse público); cinco princípios expressos do art. 37 da CF/1988 (LIMPE), detalhando o princípio da juridicidade (art. 2º da Lei 9.784/1999), as quatro vertentes da impessoalidade (finalidade, isonomia, imputação volitiva e vedação de autopromoção do art. 37, § 1º), a moralidade administrativa e a Súmula Vinculante nº 13 (nepotismo sem necessidade de lei formal local), a publicidade e as balizas constitucionais do sigilo, e a eficiência e seus limites perante a legalidade; e princípios implícitos (autotutela com limite do art. 54 da Lei 9.784/1999, proporcionalidade, motivação e continuidade do serviço público).
+  - `CAM-DAD-003`: Distinção entre Administração Direta (entes políticos com órgãos despersonalizados) e Indireta (entidades personalizadas); quadro comparativo das 4 espécies de entidades (autarquias, fundações públicas, empresas públicas e sociedades de economia mista) pelo art. 37, XIX, da CF/1988, finalidade, regime de pessoal e foro processual na esfera federal; confronto Empresa Pública $\times$ Sociedade de Economia Mista (capital 100% público $\times$ capital misto com maioria votante pública; qualquer forma societária $\times$ obrigatoriedade de S.A.; Justiça Federal $\times$ Justiça Estadual conforme Súmula 556 do STF); e tutela administrativa/supervisão ministerial sem hierarquia ou subordinação.
+  - `CAM-DAD-004`: Quatro técnicas fundamentais (centralização $\times$ descentralização $\times$ concentração $\times$ desconcentração); descentralização por outorga/serviços (lei específica, transfere titularidade e execução a entes da Indireta) $\times$ descentralização por delegação/colaboração (contrato ou ato unilateral precário, transfere apenas execução a particulares); Teoria do Órgão (Otto Gierke) e imputação volitiva (validade dos atos de funcionário de fato perante terceiros de boa-fé); personalidade judiciária extraordinária de órgãos de cúpula constitucional (e.g., Mesa da Câmara dos Deputados); e classificação dos órgãos (independentes, autônomos, superiores e subalternos).
+  - `CAM-DAD-005`: Conceito dogmático de ato administrativo (declaração jurídica unilateral sob regime de direito público e sujeita a controle judicial); distinção de fato administrativo (acontecimento material que independe de declaração e não admite anulação ou revogação, e.g., morte de servidor ou desabamento); atos materiais de execução física (fatos da administração voluntários); regime do silêncio administrativo (fato omissivo que não gera presunção de consentimento salvo estrita previsão legal, demandando mandado de segurança para compelir a decisão); e categorias de atos da Administração em geral excluídas do conceito estrito (atos de direito privado, atos puramente materiais e atos políticos/de governo).
+- **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e validados no padrão Cebraspe, rotulados rigorosamente como `*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*`. Distratores calibrados por transposição de conceitos, inversão de competências e suposições fáticas não autorizadas pelo enunciado.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+- **Acompanhamento Global:** **241 de 315 unidades editoriais concluídas (76,5%)**, **74 pendentes**. **Trilha de Direito Administrativo: 5 de 34 unidades concluídas**.
+
+
 
 
 

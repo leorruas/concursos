@@ -46,6 +46,7 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 
 ## 5. Processo Administrativo e Controle
 - [[09 - processo administrativo federal|09 • Processo administrativo federal (Lei nº 9.784/1999)]].
+- [[25 - lei 9784 processo administrativo federal competencia delegacao e avocacao|25 • Lei nº 9.784/1999: processo administrativo federal, competência, delegação e avocação]] (CAM-DAD-018): âmbito de incidência na União e poderes em função atípica administrativa, princípios (impulsão de ofício, formalismo moderado, gratuidade e vedação de retroatividade de nova interpretação), direitos e legitimidade processual (art. 9º), competência irrenunciável, delegação horizontal e vertical (dispensa de hierarquia), vedações absolutas de delegação (NO-RE-EX - atos normativos, recursos e competência exclusiva), autoridade coatora delegada (Súmula 510 STF), avocação hierárquica excepcional e vedações da decisão coordenada (Lei 14.210/2021).
 - Controle da Administração Pública (judicial, legislativo e administrativo).
 - [[07 - improbidade administrativa|07 • Improbidade administrativa]].
 

@@ -166,6 +166,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Direito Administrativo/22 - lei 8112 responsabilidades e penalidades disciplinares|22 • Lei nº 8.112/1990: responsabilidades e penalidades disciplinares]]
    - [[3 - Materias/Direito Administrativo/23 - direito administrativo disciplinar principios e ilicitos funcionais|23 • Direito Administrativo Disciplinar: princípios fundamentais, tipicidade e ilícitos funcionais]]
    - [[3 - Materias/Direito Administrativo/24 - sindicancia processo administrativo disciplinar e seus ritos|24 • Sindicância, processo administrativo disciplinar e seus ritos: ordinário e sumário]]
+   - [[3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao|25 • Lei nº 9.784/1999: processo administrativo federal, competência, delegação e avocação]]
 9. [[3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia|Evidências, dados e inteligência artificial]]
    - [[3 - Materias/Evidencias Dados e IA/01 - perguntas fontes e qualidade da evidencia|01 • Perguntas, fontes e qualidade da evidência]]
    - [[3 - Materias/Evidencias Dados e IA/02 - indicadores denominadores e subnotificacao|02 • Indicadores, denominadores e subnotificação]]

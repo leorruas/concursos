@@ -618,8 +618,8 @@
       "id": "liquidacao",
       "term": "Liquidação da despesa",
       "definition": "Verificação do direito adquirido pelo credor, com base nos títulos e documentos comprobatórios do crédito.",
-      "example": "Conferir entrega, contrato, valor devido e credor antes de pagar.",
-      "confusion": "Uma nota fiscal, sozinha, não comprova que o objeto foi entregue.",
+      "example": "Contrato empenhado em R$ 100 mil tem parcela de R$ 40 mil entregue, aceita e documentada: pode ser liquidada a parcela comprovada.",
+      "confusion": "Nota fiscal, empenho ou entrega futura não demonstram, por si sós, o direito adquirido. Liquidação parcial exige prova da parcela prestada.",
       "topic": "Estágios da despesa",
       "subjectIds": [
         "orcamento-publico"
@@ -641,11 +641,11 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
-        "prompt": "Fornecedor entrega nota fiscal sem prova de entrega contratual. A liquidação está necessariamente demonstrada?",
-        "answer": "Não. É preciso verificar direito adquirido pelo credor e objeto efetivamente prestado ou entregue nos termos aplicáveis."
+        "prompt": "Contrato de R$ 100 mil: serviço de R$ 40 mil já executado e aceito, saldo de R$ 60 mil pendente. É possível liquidar só os R$ 40 mil?",
+        "answer": "Sim. A liquidação verifica o direito do credor sobre a parcela efetivamente entregue e comprovada; os R$ 60 mil ainda não executados não podem ser liquidados."
       }
     },
     {
@@ -1445,7 +1445,7 @@
       "term": "Receitas correntes",
       "definition": "Categoria econômica que inclui tributos, contribuições, receitas patrimoniais, serviços e transferências destinadas a despesas correntes, entre outras.",
       "example": "Arrecadação de imposto e receita de aluguel de imóvel público.",
-      "confusion": "Corrente não é sinônimo de primária.",
+      "confusion": "Corrente é classificação econômica pela natureza da receita, e não sinônimo de arrecadação frequente, mensal ou obrigatoriamente primária.",
       "topic": "Classificações",
       "subjectIds": [
         "orcamento-publico"
@@ -1467,11 +1467,11 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
-        "prompt": "Uma receita é classificada como corrente. É necessariamente primária?",
-        "answer": "Não. Categoria econômica e classificação fiscal primária/financeira respondem a critérios diferentes."
+        "prompt": "Receita de aluguel recebida uma só vez e venda de imóveis repetida mensalmente: a frequência define qual é corrente?",
+        "answer": "Não. Aluguel é receita patrimonial corrente; alienação de imóveis é receita de capital, independentemente da periodicidade."
       }
     },
     {
@@ -6963,7 +6963,7 @@
       "term": "Duas direções do risco de amostragem",
       "definition": "A amostra pode sugerir população adequada quando ela é inadequada ou inadequada quando ela é adequada. Ambas são formas de risco amostral.",
       "example": "Poucos pagamentos selecionados aparentam regularidade apesar de fraude dispersa no conjunto: conclusão falsamente favorável.",
-      "confusion": "Risco amostral não equivale a falha de cadastro ou de procedimento, que são riscos de outra natureza.",
+      "confusion": "Risco amostral deriva da seleção de parte da população, inclusive conclusão indevidamente favorável ou desfavorável. Falha na aplicação do teste é risco não amostral; a referência a censo é comparativa, não obrigatória.",
       "topic": "Risco de amostragem",
       "subjectIds": [
         "auditoria-governamental"
@@ -6985,13 +6985,13 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "revision": 3,
       "conceptIds": [
         "risco-amostragem-duas-direcoes"
       ],
       "contrast": {
-        "prompt": "A amostra sugere controle eficaz quando ele não é, ou sugere ineficácia quando ele é eficaz. São riscos do mesmo efeito?",
-        "answer": "Não. Ambos são riscos de amostragem, mas um favorece confiança indevida e o outro provoca rejeição ou trabalho adicional desnecessário."
+        "prompt": "Amostra sorteada corretamente leva a conclusão desfavorável que exame total não sustentaria; em outro caso, auditor aplica o teste errado. Qual risco em cada caso?",
+        "answer": "Primeiro: risco amostral, que pode levar à rejeição indevida. Segundo: risco não amostral, por falha na execução do procedimento."
       }
     },
     {
@@ -7641,8 +7641,8 @@
       "id": "gnd-inversoes-financeiras",
       "term": "Inversões Financeiras (GND 5)",
       "definition": "Grupo de despesas de capital que inclui certas aquisições de imóveis e participações societárias.",
-      "example": "Adquirir imóvel pronto sem vinculação à execução de obra, conforme as regras.",
-      "confusion": "A compra de qualquer bem pronto não é automaticamente inversão financeira.",
+      "example": "Compra de imóvel pronto sem vinculação à execução de obra pode ser Inversões Financeiras; terreno necessário à construção de unidade pública pode ser Investimentos.",
+      "confusion": "A natureza do bem não determina sozinha o GND. Na aquisição de imóvel, verificar especialmente o vínculo à execução de obra.",
       "topic": "Classificações",
       "subjectIds": [
         "orcamento-publico"
@@ -7663,11 +7663,11 @@
         "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "contrast": {
-        "prompt": "Imóvel adquirido para realizar obra × imóvel pronto sem obra: qual atenção?",
-        "answer": "A vinculação à execução de obra pode levar a Investimentos; outras aquisições podem ser Inversões Financeiras."
+        "prompt": "Terreno adquirido como parte da implantação de escola × imóvel comprado sem obra vinculada: qual critério muda o GND?",
+        "answer": "A vinculação à execução de obra: pode enquadrar a primeira aquisição em Investimentos; a segunda pode integrar Inversões Financeiras, segundo os critérios oficiais."
       },
       "conceptIds": []
     },

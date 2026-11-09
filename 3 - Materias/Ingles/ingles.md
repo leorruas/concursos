@@ -24,6 +24,7 @@ Hub de estudos de Língua Inglesa aplicada a concursos públicos (interpretaçã
 - [[3 - Materias/Ingles/04 - tempos verbais voz passiva e modalizacao|04. Tempos verbais, voz passiva e modalização]]: microfase F44 e exemplos comentados.
 - [[3 - Materias/Ingles/05 - vocabulario em contexto e falsos cognatos|05. Vocabulário em contexto e falsos cognatos]]: microfase F45 e exemplos comentados.
 - [[3 - Materias/Ingles/06 - parafrase equivalencia semantica e escopo|06. Paráfrase, equivalência semântica e escopo]]: microfase F46 e exemplos comentados.
+- [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|07. Como localizar assunto, tese e propósito em textos em inglês]] (CAM-ING-001): estratégias de skimming, topic sentences, propósitos comunicativos e padrões Cebraspe.
 
 **Recortes:** Dataprev, FGV (exercícios A–E); Câmara, Cebraspe (C/E, quando pertinente ao conteúdo do programa). As seis notas sistematizam o conteúdo sem substituir o repertório de conectivos e leitura já existente neste hub. O vínculo no catálogo é editorial e não representa retenção ou desempenho.
 

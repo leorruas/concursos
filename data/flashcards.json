@@ -1767,9 +1767,13 @@
         "locator": "MCASP 11ª edição, Partes II e V"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Um prédio público é usado para prestar serviços sem receita. Pode ser ativo?",
+        "answer": "Sim. Ativo exige recurso controlado resultante de evento passado com potencial de serviços ou benefícios econômicos, não lucro obrigatório."
+      }
     },
     {
       "id": "passivo",
@@ -1797,9 +1801,13 @@
         "locator": "MCASP 11ª edição, Partes II e V"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Órgão planeja contratar serviço no próximo semestre. A intenção, isoladamente, já é passivo?",
+        "answer": "Não. É necessária obrigação presente decorrente de evento passado; intenção futura não basta."
+      }
     },
     {
       "id": "patrimonio-liquido",
@@ -1827,9 +1835,13 @@
         "locator": "MCASP 11ª edição, Partes II e V"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Órgão tem ativos de 150, passivos de 90 e caixa de 15. Patrimônio líquido é 15?",
+        "answer": "Não. Patrimônio líquido é 60 (150 menos 90); caixa é apenas uma parcela do ativo."
+      }
     },
     {
       "id": "vpa",
@@ -1891,9 +1903,13 @@
         "locator": "MCASP 11ª edição, Partes II e V"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Órgão compra e armazena material para uso futuro; meses depois consome parte. Quando surge a VPD associada ao consumo?",
+        "answer": "Em regra, quando o material é consumido; a compra para estoque pode trocar caixa ou obrigação por ativo, sem VPD integral imediata."
+      }
     },
     {
       "id": "competencia",
@@ -1921,9 +1937,13 @@
         "locator": "MCASP 11ª edição, Partes II e V"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Serviço foi prestado em dezembro e pago em janeiro. O fato patrimonial pertence necessariamente a janeiro?",
+        "answer": "Não. No regime patrimonial de competência, reconhecimento acompanha o fato gerador; pagamento é fluxo financeiro. O regime orçamentário tem regra própria."
+      }
     },
     {
       "id": "dvp",
@@ -1951,9 +1971,13 @@
         "locator": "MCASP 11ª edição, Partes II e V"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Um ente teve resultado patrimonial positivo. Isso implica superávit orçamentário ou caixa sobrando?",
+        "answer": "Não. DVP apresenta variações patrimoniais e resultado patrimonial, diferentes dos resultados orçamentário e financeiro."
+      }
     },
     {
       "id": "divida-consolidada",
@@ -2049,9 +2073,13 @@
         "locator": "IN Conjunta MP/CGU nº 1/2016, art. 11 e nota explicativa"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Uma conciliação identifica um pagamento duplicado e a gestão corrige o fluxo para evitar repetição. O controle original passa a ser preventivo?",
+        "answer": "Não. A conciliação detectou fato ocorrido; a providência posterior pode criar ou melhorar um controle preventivo."
+      }
     },
     {
       "id": "desenho-controle",
@@ -2152,9 +2180,13 @@
         "locator": "IN Conjunta MP/CGU nº 1/2016, art. 16"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "A gestão decide exigir dupla aprovação de pagamentos, mas ainda não implantou o fluxo. Há atividade de controle funcionando?",
+        "answer": "Ainda não. Escolher o tratamento é resposta ao risco; implementar e operar a dupla aprovação é atividade de controle."
+      }
     },
     {
       "id": "aceitacao-risco",
@@ -2184,9 +2216,13 @@
         "locator": "IN Conjunta MP/CGU nº 1/2016, art. 16"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Um gestor aceita formalmente risco residual. Isso elimina monitoramento e responsabilidade?",
+        "answer": "Não. Aceitação é decisão de gestão dentro da alçada e dos limites pertinentes; não elimina acompanhamento nem prestação de contas."
+      }
     },
     {
       "id": "monitoramento",
@@ -2452,11 +2488,15 @@
         "locator": "Lei nº 12.813/2013, arts. 3º e 4º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "reviewedAt": "2026-11-09",
+      "revision": 3,
       "conceptIds": [
         "conflito-interesse-sem-ato-ilicito"
-      ]
+      ],
+      "contrast": {
+        "prompt": "O servidor participa de decisão que beneficia empresa de familiar, mas não houve ganho comprovado. Pode existir conflito de interesses?",
+        "answer": "Sim. A situação de confronto capaz de influenciar indevidamente a função pode configurar conflito sem ganho consumado."
+      }
     },
     {
       "id": "informacao-privilegiada",
@@ -4614,11 +4654,15 @@
         "locator": "Art. 16, itens V e VI"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "risco-resposta-versus-atividade-controle"
-      ]
+      ],
+      "contrast": {
+        "prompt": "A entidade aprova o tratamento de um risco, mas não executa a verificação prevista. Qual componente ocorreu e qual falhou?",
+        "answer": "A decisão de resposta ao risco ocorreu; a atividade de controle ainda não foi implementada ou operada como previsto."
+      }
     },
     {
       "id": "aud-paint-alteracao-aprovacao",
@@ -4646,11 +4690,15 @@
         "locator": "Art. 7º, §§ 1º e 2º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "paint-mudanca-significativa-comunicacao"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Mudança significativa no PAINT foi apenas comunicada após execução. A comunicação substitui a aprovação pertinente?",
+        "answer": "Não. Aprovação, comunicação e programa de trabalho individual têm competências e momentos próprios; comunicar não equivale a aprovar."
+      }
     },
     {
       "id": "dp-adversativa-concessiva",
@@ -5736,11 +5784,15 @@
         "locator": "Partes I e II: enfoque orçamentário e patrimonial"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "cont-vpa-direito-vs-arrecadacao"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Tributo constitui direito a receber em dezembro e o dinheiro ingressa em janeiro. VPA e receita orçamentária devem ocorrer sempre juntas?",
+        "answer": "Não. VPA segue reconhecimento patrimonial pertinente; arrecadação determina o reconhecimento da receita orçamentária sob o art. 35."
+      }
     },
     {
       "id": "cont-aquisicao-ativo",
@@ -5768,11 +5820,15 @@
         "locator": "Partes I e II: despesa orçamentária e aquisição de ativo"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "cont-compra-ativo-despesa-vs-vpd"
-      ]
+      ],
+      "contrast": {
+        "prompt": "O ente paga por equipamento de uso prolongado. Toda despesa orçamentária de capital vira VPD imediata?",
+        "answer": "Não. A aquisição pode incorporar um ativo; a VPD decorre do consumo ou perda do potencial de serviços segundo reconhecimento próprio."
+      }
     },
     {
       "id": "cont-liquidacao-caixa",
@@ -5800,11 +5856,15 @@
         "locator": "Arts. 62 a 65: liquidação, ordem e pagamento"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "cont-liquidacao-diferente-desembolso"
-      ]
+      ],
+      "contrast": {
+        "prompt": "A liquidação orçamentária ocorreu hoje e pagamento será no mês seguinte. Liquidação significa saída do caixa?",
+        "answer": "Não. Liquidação verifica direito do credor segundo a execução orçamentária; pagamento é desembolso, com reflexos patrimoniais próprios."
+      }
     },
     {
       "id": "cont-rp-vs-dea",
@@ -5832,11 +5892,15 @@
         "locator": "Arts. 36 e 37: RP e DEA"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "cont-rp-dea-empenho-exercicio"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Obrigação empenhada no ano anterior permanece inscrita em RP; outra despesa pretérita não foi processada à época e exige reconhecimento próprio. Ambas exigem empenho novo?",
+        "answer": "Não. RP decorre de empenho anterior; DEA observa hipóteses e dotação própria no exercício de reconhecimento."
+      }
     },
     {
       "id": "cont-cancelamento-rp",
@@ -5864,11 +5928,15 @@
         "locator": "Parte I: restos a pagar; confrontar art. 38 da Lei 4.320"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "cont-cancelamento-rp-nao-ingresso"
-      ]
+      ],
+      "contrast": {
+        "prompt": "RP foi cancelado. Isso representa automaticamente uma nova arrecadação em dinheiro?",
+        "answer": "Não. Cancelamento de obrigação não é entrada de caixa. Em cobrança literal da Lei 4.320, verificar a redação histórica do art. 38 e a norma invocada."
+      }
     },
     {
       "id": "cont-suprimento-restituicao",
@@ -5896,11 +5964,15 @@
         "locator": "Parte I: suprimento de fundos e restituições"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "cont-suprimento-restituicao-exercicio"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Suprido devolve saldo não usado no mesmo exercício ou no seguinte. O tratamento é necessariamente igual?",
+        "answer": "Não. O exercício de devolução altera o enquadramento orçamentário; conferir regras do suprimento sem confundi-las com RP."
+      }
     },
     {
       "id": "fin-rcl-base",
@@ -6420,11 +6492,15 @@
         "locator": "MOT, seção 4.3.4.7"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "amostragem-cobertura-alvo-base"
-      ]
+      ],
+      "contrast": {
+        "prompt": "O cadastro exclui parte dos beneficiários e o auditor dobra a amostra. Corrigiu o problema?",
+        "answer": "Não. O problema é cobertura da população referenciada; amostra maior na mesma base incompleta não alcança os excluídos."
+      }
     },
     {
       "id": "aud-inferencia-probabilistica",
@@ -6488,11 +6564,15 @@
         "locator": "MOT, seção 4.3.4.7"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "risco-amostragem-duas-direcoes"
-      ]
+      ],
+      "contrast": {
+        "prompt": "A amostra sugere controle eficaz quando ele não é, ou sugere ineficácia quando ele é eficaz. São riscos do mesmo efeito?",
+        "answer": "Não. Ambos são riscos de amostragem, mas um favorece confiança indevida e o outro provoca rejeição ou trabalho adicional desnecessário."
+      }
     },
     {
       "id": "aud-extensao-escopo",
@@ -6520,11 +6600,15 @@
         "locator": "MOT, seções 4.3.2 e 4.3.4.7"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-extensao-vs-escopo"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Auditor testa mais documentos do mesmo conjunto ou inclui outra unidade gestora. Ambas as decisões são mero aumento de extensão?",
+        "answer": "Não. Mais itens dentro do recorte aumentam extensão; incluir objeto fora do recorte altera escopo e exige tratamento no planejamento."
+      }
     },
     {
       "id": "aud-achado-quatro-elementos",
@@ -6552,11 +6636,15 @@
         "locator": "MOT, seção 5.4.2"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "achado-criterio-condicao-causa-efeito"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Auditor descreve critério, condição, causa, efeito e recomendação. A recomendação é quinto elemento constitutivo do achado?",
+        "answer": "Não. A estrutura básica do achado reúne critério, condição, causa e efeito; recomendação é encaminhamento derivado."
+      }
     },
     {
       "id": "aud-causa-raiz-intermediaria",
@@ -6584,11 +6672,15 @@
         "locator": "MOT, seções 5.4.2 e 5.6"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-causa-raiz-nao-fraude"
-      ]
+      ],
+      "contrast": {
+        "prompt": "A falha imediata foi uma conferência omitida; o procedimento de supervisão era inadequado. Qual investigação vai além do sintoma?",
+        "answer": "Examinar a falha sistêmica de supervisão como possível causa raiz, sem inferir dolo ou fraude apenas desse encadeamento."
+      }
     },
     {
       "id": "aud-efeito-potencial-dano",
@@ -6616,11 +6708,15 @@
         "locator": "MOT, seção 5.4.2"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-risco-dano-nao-prova"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Um controle fraco pode gerar pagamentos indevidos, mas nenhum pagamento irregular foi demonstrado. É correto afirmar dano quantificado?",
+        "answer": "Não. Há efeito potencial ou exposição a risco; dano concreto e seu valor exigem evidências específicas."
+      }
     },
     {
       "id": "aud-fraude-indicio-apuracao",
@@ -6648,11 +6744,15 @@
         "locator": "MOT, capítulo 2"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-indicio-fraude-nao-conclusao"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Uma autorização tem assinatura inconsistente. A auditoria já pode afirmar fraude praticada?",
+        "answer": "Não. A inconsistência é indício que requer apuração e encaminhamento pertinente; não comprova, isoladamente, intenção ou autoria."
+      }
     },
     {
       "id": "aud-sa-na",
@@ -6680,11 +6780,15 @@
         "locator": "MOT, seções 5.1.4 e 5.1.5"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-sa-versus-na"
-      ]
+      ],
+      "contrast": {
+        "prompt": "A UAIG pede planilhas para exame e depois comunica falha que requer ação imediata. Qual instrumento corresponde a cada finalidade?",
+        "answer": "Solicitação de Auditoria para obter informações; Nota de Auditoria para comunicar situação que demanda providência em momento oportuno do trabalho."
+      }
     },
     {
       "id": "aud-recomendacao-plano",
@@ -6712,11 +6816,15 @@
         "locator": "MOT, seções 5.5, 5.6 e 7.2"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-recomendacao-versus-plano-acao"
-      ]
+      ],
+      "contrast": {
+        "prompt": "A auditoria recomenda reduzir pagamentos duplicados. Quem define e executa as ações gerenciais corretivas?",
+        "answer": "A gestão elabora e executa seu plano de ação; a auditoria recomenda e monitora, preservando independência."
+      }
     },
     {
       "id": "aud-formal-operacional",
@@ -6744,11 +6852,15 @@
         "locator": "MOT, seção 7.2"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-atendimento-formal-versus-operacional"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Gestão envia norma revisada como prova de atendimento. Isso basta para concluir que o controle funciona?",
+        "answer": "Não necessariamente. A formalização pode comprovar providência documental; a operação efetiva pode exigir testes e outras evidências."
+      }
     },
     {
       "id": "aud-recomendacao-alterada",
@@ -6776,11 +6888,15 @@
         "locator": "MOT, seção 7.2.2"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-recomendacao-cancelada-nao-atendida"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Recomendação foi cancelada por perda de objeto e outra foi executada com resultado comprovado. Devem ser tratadas como atendimentos equivalentes?",
+        "answer": "Não. Cancelamento ou alteração tem fundamento distinto de atendimento; encerrar registros não mede automaticamente efetividade."
+      }
     },
     {
       "id": "aud-beneficio-liquido",
@@ -6808,11 +6924,15 @@
         "locator": "Anexo, item II, alínea c"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-beneficio-bruto-menos-custo-gestao"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Gestão evita gasto de 100 e incorre em custo de implantação de 20; auditoria custou 10 para fiscalizar. Qual custo entra na apuração do benefício líquido da medida?",
+        "answer": "Considera-se o custo de adoção pela gestão, 20, e não o custo do trabalho da auditoria; benefício líquido hipotético de 80, observadas as regras de contabilização."
+      }
     },
     {
       "id": "aud-atendimento-beneficio",
@@ -6840,11 +6960,15 @@
         "locator": "Anexo: requisitos de benefícios"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-atendimento-nao-beneficio-monetario"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Gestão instalou o controle recomendado, mas não há benefício mensurável comprovado. É correto registrar economia estimada livremente?",
+        "answer": "Não. Atendimento formal da recomendação não gera por si só benefício financeiro contabilizável; evidência e critérios próprios são necessários."
+      }
     },
     {
       "id": "aud-risco-aceito-escalonamento",
@@ -6872,11 +6996,15 @@
         "locator": "MOT, seção 7.3"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "aud-risco-aceito-escalonamento"
-      ]
+      ],
+      "contrast": {
+        "prompt": "A gestão aceita risco que a auditoria considera excessivo. A UAIG deve executar controles no lugar da gestão?",
+        "answer": "Não. A UAIG comunica ou escalona conforme competência e normas, mantendo a decisão e execução do tratamento com a gestão."
+      }
     },
     {
       "id": "classificacao-programatica",

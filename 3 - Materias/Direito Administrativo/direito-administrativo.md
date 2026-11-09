@@ -37,8 +37,8 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 ## 4. Agentes Públicos e Responsabilidade
 - [[05 - agentes publicos|05 • Agentes públicos: espécies, cargos, empregos, funções e regimes de vinculação estatal]] (CAM-DAD-011): classificação doutrinária (políticos, administrativos, honoríficos, delegados e credenciados), distinção entre cargos, empregos e funções, comissão vs. confiança (art. 37, V, CF e Tema 1010 STF), temporários (art. 37, IX, CF e Lei 8.745/1993), estabilidade (art. 41) e motivação da dispensa de celetistas de estatais (Tema 1022 STF).
 - [[19 - requisicao cessao e movimentacao de agentes publicos|19 • Requisição, cessão e movimentação de agentes públicos]] (CAM-DAD-012): distinção de coercibilidade (requisição impositiva/irrecusável vs. cessão discricionária/consensual), hipóteses da Justiça Eleitoral (Lei 6.999/82) e Presidência, finalidade do art. 93 da Lei 8.112/90, regime de reembolso salarial (Decreto 10.835/2021) e preservação do tempo de efetivo exercício.
+- [[20 - lei 8112 provimento posse exercicio e vacancia|20 • Lei nº 8.112/1990: provimento, posse, exercício, estágio probatório e vacância]] (CAM-DAD-013): provimento originário (nomeação) e derivados (promoção, readaptação, reversão, reintegração, recondução e aproveitamento - SV 43 STF), prazos da investidura (nomeação -> posse em até 30 dias; posse -> exercício em até 15 dias; sem efeito vs. exoneração de ofício), estágio probatório de 3 anos (fatores de avaliação) e causas taxativas de vacância (art. 33).
 - [[06 - responsabilidade civil do estado|06 • Responsabilidade civil do Estado (Fundamentos, objetiva vs subjetiva, regresso)]].
-- Regime de provimento, vacância e cargos públicos.
 
 ## 5. Processo Administrativo e Controle
 - [[09 - processo administrativo federal|09 • Processo administrativo federal (Lei nº 9.784/1999)]].

@@ -262,9 +262,13 @@
         "locator": "LRF, arts. 8º e 9º; nota de programação"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "LOA prevê 100 e decreto limita empenho a 70. A dotação foi cancelada ou já foi empenhado 70?",
+        "answer": "Nenhum dos dois. O limite restringe quanto se pode empenhar; a dotação autorizada e o empenho efetivo são conceitos distintos."
+      }
     },
     {
       "id": "credito-adicional",
@@ -292,9 +296,13 @@
         "locator": "Lei nº 4.320/1964, arts. 40 e 41; CF, art. 167, § 3º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Foi aberto crédito adicional de 200. Isso prova que 200 foram arrecadados ou pagos?",
+        "answer": "Não. É alteração da autorização orçamentária; disponibilidade de recursos e execução da despesa exigem verificação própria."
+      }
     },
     {
       "id": "suplementar",
@@ -394,9 +402,13 @@
         "locator": "Lei nº 4.320/1964, arts. 40 e 41; CF, art. 167, § 3º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Órgão perdeu prazo de planejamento e precisa contratar rapidamente. Isso por si só autoriza crédito extraordinário?",
+        "answer": "Não. É necessária situação urgente e imprevisível nos termos constitucionais, não mera pressa administrativa."
+      }
     },
     {
       "id": "superavit-financeiro",
@@ -424,9 +436,13 @@
         "locator": "Lei nº 4.320/1964, art. 43, §§ 2º e 3º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "O balanço anterior mostra saldo bancário positivo. Isso por si só define superávit financeiro para créditos adicionais?",
+        "answer": "Não. O cálculo envolve ativo financeiro e passivo financeiro, com ajustes previstos em lei, e não só caixa."
+      }
     },
     {
       "id": "excesso-arrecadacao",
@@ -454,9 +470,13 @@
         "locator": "Lei nº 4.320/1964, art. 43, §§ 2º e 3º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Arrecadação do exercício supera previsão e há saldo financeiro do exercício anterior. São a mesma fonte de crédito?",
+        "answer": "Não. Excesso de arrecadação é apurado no exercício; superávit financeiro decorre do balanço do exercício anterior."
+      }
     },
     {
       "id": "empenho",
@@ -518,9 +538,13 @@
         "locator": "Lei nº 4.320/1964, art. 60; MCASP, Parte I"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Compra única com valor previamente conhecido, paga de uma vez. Empenho ordinário ou global?",
+        "answer": "Ordinário, em regra. Global atende despesa de valor conhecido sujeita a execução parcelada conforme o caso."
+      }
     },
     {
       "id": "global",
@@ -548,9 +572,13 @@
         "locator": "Lei nº 4.320/1964, art. 60; MCASP, Parte I"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Contrato tem total conhecido, mas pagamentos mensais. Deve ser empenho estimativo só por ser mensal?",
+        "answer": "Não. Total definido com execução parcelada aponta para global; estimativo corresponde a montante que não se pode determinar previamente."
+      }
     },
     {
       "id": "estimativo",
@@ -578,9 +606,13 @@
         "locator": "Lei nº 4.320/1964, art. 60; MCASP, Parte I"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Conta de energia mensal tem valor final incerto. O que fundamenta empenho estimativo?",
+        "answer": "A impossibilidade de determinar previamente o montante, não apenas a periodicidade da cobrança."
+      }
     },
     {
       "id": "liquidacao",
@@ -608,9 +640,13 @@
         "locator": "Lei nº 4.320/1964, art. 63"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Fornecedor entrega nota fiscal sem prova de entrega contratual. A liquidação está necessariamente demonstrada?",
+        "answer": "Não. É preciso verificar direito adquirido pelo credor e objeto efetivamente prestado ou entregue nos termos aplicáveis."
+      }
     },
     {
       "id": "pagamento",
@@ -672,9 +708,13 @@
         "locator": "Lei nº 4.320/1964, arts. 51 a 57; MCASP, Parte I"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "A LOA prevê receita tributária de 5 milhões. Há arrecadação ou crédito individual constituído por esse número?",
+        "answer": "Não. Previsão é estimativa orçamentária; lançamento e arrecadação são eventos distintos."
+      }
     },
     {
       "id": "lancamento",
@@ -702,9 +742,13 @@
         "locator": "Lei nº 4.320/1964, arts. 51 a 57; MCASP, Parte I"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Uma receita foi recebida sem lançamento prévio individual. Isso torna a arrecadação impossível?",
+        "answer": "Não. O lançamento não ocorre para toda espécie de receita; arrecadação não equivale à constituição formal de crédito tributário."
+      }
     },
     {
       "id": "arrecadacao",
@@ -766,9 +810,13 @@
         "locator": "Lei nº 4.320/1964, arts. 51 a 57; MCASP, Parte I"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Tributo foi pago na rede arrecadadora e depois transferido à conta do Tesouro. Qual etapa é o recolhimento?",
+        "answer": "A transferência dos valores arrecadados ao Tesouro; arrecadação e recolhimento são etapas conceitualmente distintas."
+      }
     },
     {
       "id": "receita-orcamentaria",
@@ -796,9 +844,13 @@
         "locator": "Lei nº 4.320/1964, arts. 3º e 57; MCASP, Parte I"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Ente obtém empréstimo e ingressam recursos no caixa. É receita orçamentária e também VPA automaticamente?",
+        "answer": "Pode constituir receita orçamentária de capital, mas gera passivo e não implica VPA automática."
+      }
     },
     {
       "id": "ingresso-extra",
@@ -826,9 +878,13 @@
         "locator": "Lei nº 4.320/1964, arts. 3º e 57; MCASP, Parte I"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Órgão recebe caução que deverá restituir. Toda entrada de dinheiro é receita orçamentária?",
+        "answer": "Não. A caução é ingresso extraorçamentário em regra, por gerar obrigação de devolução."
+      }
     },
     {
       "id": "aro",
@@ -892,9 +948,13 @@
         "locator": "Lei nº 4.320/1964, art. 36; MCASP, Parte I, 4.7"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Despesa foi empenhada até 31 de dezembro, mas não paga. Qual condição básica caracteriza restos a pagar?",
+        "answer": "Empenho válido não pago no encerramento; pode ser processado ou não processado conforme liquidação."
+      }
     },
     {
       "id": "rp-processados",
@@ -956,9 +1016,13 @@
         "locator": "Lei nº 4.320/1964, art. 36; MCASP, Parte I, 4.7"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Despesa empenhada em dezembro ainda não foi liquidada. Pode ser RP não processado?",
+        "answer": "Sim, observadas condições legais. Falta liquidação, mas há empenho; sem empenho não se classifica como RP."
+      }
     },
     {
       "id": "dea",
@@ -1020,9 +1084,13 @@
         "locator": "Lei nº 4.320/1964, arts. 68 e 69"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Despesa pequena é urgente e imprevisível. Suprimento dispensa empenho ou prestação de contas?",
+        "answer": "Não. O regime excepcional de adiantamento mantém requisitos legais, empenho e prestação de contas."
+      }
     },
     {
       "id": "desembolso-extra",
@@ -1050,9 +1118,13 @@
         "locator": "MCASP 11ª edição, Parte I, restos a pagar"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Ente paga RP de exercício anterior. Isso é novo empenho orçamentário no ano do pagamento?",
+        "answer": "Não. O pagamento representa desembolso extraorçamentário do exercício corrente; a despesa foi empenhada antes."
+      }
     },
     {
       "id": "programacao-financeira",
@@ -1080,11 +1152,15 @@
         "locator": "LRF, arts. 8º e 13"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "dotacao-vs-disponibilidade-financeira"
-      ]
+      ],
+      "contrast": {
+        "prompt": "A arrecadação está ocorrendo como prevista. Ainda é necessário programar o fluxo financeiro da execução?",
+        "answer": "Sim. Programação financeira organiza disponibilidade e desembolsos ordinariamente; limitação de empenho por frustração é outra medida."
+      }
     },
     {
       "id": "cronograma",
@@ -1112,9 +1188,13 @@
         "locator": "LRF, arts. 8º e 13"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Órgão publica metas de arrecadação bimestrais e calendário mensal de pagamentos. Qual instrumento organiza saídas mensais?",
+        "answer": "O cronograma mensal de desembolso; metas bimestrais de arrecadação dizem respeito à entrada de receitas."
+      }
     },
     {
       "id": "contingenciamento",
@@ -1176,9 +1256,13 @@
         "locator": "Lei nº 4.320/1964, arts. 2º e 34"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "LOA contém orçamentos fiscal, da seguridade e de investimento. Isso viola unidade orçamentária?",
+        "answer": "Não. A unidade constitucional convive com esses três orçamentos integrados na LOA, sem exigir uma única peça indiferenciada."
+      }
     },
     {
       "id": "universalidade",
@@ -1206,11 +1290,15 @@
         "locator": "Lei nº 4.320/1964, arts. 2º e 34"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "universalidade-abrangencia-sem-limite-valor"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Caução temporária ingressou no caixa. Universalidade obriga tratar caução como receita orçamentária?",
+        "answer": "Não. Universalidade alcança receitas e despesas orçamentárias pertinentes, não transforma ingresso extraorçamentário em receita."
+      }
     },
     {
       "id": "anualidade",
@@ -1238,9 +1326,13 @@
         "locator": "Lei nº 4.320/1964, arts. 2º e 34"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "PPA estabelece projeto de quatro anos. A autorização para gastar independe de LOA anual?",
+        "answer": "Não. Planejamento plurianual não afasta a autorização orçamentária em cada exercício."
+      }
     },
     {
       "id": "orcamento-bruto",
@@ -1268,11 +1360,15 @@
         "locator": "Lei nº 4.320/1964, arts. 5º e 6º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "orcamento-bruto-registro-integral"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Receitas de 100 e despesas de 70 são apresentadas somente como saldo líquido de 30. Qual princípio é afetado?",
+        "answer": "Orçamento bruto: receitas e despesas devem constar pelos valores totais, sem deduções indevidas; universalidade trata abrangência."
+      }
     },
     {
       "id": "especificacao",
@@ -1300,9 +1396,13 @@
         "locator": "Lei nº 4.320/1964, arts. 5º e 6º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "LOA registra dotação ampla sem detalhamento suficiente. A crítica central é anualidade ou especificação?",
+        "answer": "Especificação: discriminação da despesa conforme nível exigido; anualidade cuida da vigência temporal."
+      }
     },
     {
       "id": "exclusividade",
@@ -1330,11 +1430,15 @@
         "locator": "Constituição Federal, art. 165, § 8º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "exclusividade-suplementar-vs-especial"
-      ]
+      ],
+      "contrast": {
+        "prompt": "LOA autoriza abrir créditos suplementares e especiais como exceções indistintas. A exceção constitucional abrange ambos?",
+        "answer": "Não. A ressalva expressa inclui autorização para créditos suplementares, não autorização genérica para especiais."
+      }
     },
     {
       "id": "receitas-correntes",
@@ -1362,9 +1466,13 @@
         "locator": "Lei nº 4.320/1964, art. 11"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Uma receita é classificada como corrente. É necessariamente primária?",
+        "answer": "Não. Categoria econômica e classificação fiscal primária/financeira respondem a critérios diferentes."
+      }
     },
     {
       "id": "receitas-capital",
@@ -1428,11 +1536,15 @@
         "locator": "Lei nº 4.320/1964, art. 11; nota de classificações"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "conceptIds": [
         "receita-capital-alienacao-vs-destinacao"
-      ]
+      ],
+      "contrast": {
+        "prompt": "Ente recebe aluguel de imóvel e vende outro imóvel. Ambas as receitas são alienação de bens?",
+        "answer": "Não. Aluguel tende a receita corrente patrimonial; venda de bem corresponde a alienação, receita de capital."
+      }
     },
     {
       "id": "amortizacao-emprestimo",
@@ -1460,9 +1572,13 @@
         "locator": "Lei nº 4.320/1964, art. 11; nota de classificações"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Ente recebe principal de empréstimo que concedeu ou paga principal da própria dívida. Ambos são receita?",
+        "answer": "Não. Recebimento do principal concedido é receita de amortização de empréstimos; pagamento da dívida própria é despesa de amortização."
+      }
     },
     {
       "id": "institucional",
@@ -1630,9 +1746,13 @@
         "locator": "MCASP 11ª edição, Parte I; MTO 2026"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Ação orçamentária paga encargos da dívida sem produto direto à sociedade. É projeto por envolver valor alto?",
+        "answer": "Não. Operação especial não gera produto típico de projeto ou atividade; não significa operação de crédito."
+      }
     },
     {
       "id": "gnd",
@@ -2005,9 +2125,13 @@
         "locator": "LRF, art. 29, I e § 3º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Analista trata o valor total da dívida consolidada como se fosse gasto anual com juros e amortizações. Qual erro cometeu?",
+        "answer": "Confundiu estoque de obrigações com fluxo de serviço da dívida; critérios de consolidação têm regras legais próprias."
+      }
     },
     {
       "id": "controle-preventivo",
@@ -2865,9 +2989,13 @@
         "locator": "Lei nº 4.320/1964, arts. 4º, 35 e 58 a 65; MCASP, Parte I"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Ente paga RP antigo e realiza empenho novo. Ambos representam despesa orçamentária nova neste exercício?",
+        "answer": "Não. O empenho novo integra execução orçamentária atual; o pagamento do RP é desembolso extraorçamentário atual."
+      }
     },
     {
       "id": "consultoria-previa-e-objetividade",
@@ -7104,9 +7232,13 @@
         "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Folha salarial é registrada no GND 1. Isso identifica necessariamente o elemento específico da despesa?",
+        "answer": "Não. GND 1 é agrupamento da natureza; o elemento detalha o objeto do gasto."
+      }
     },
     {
       "id": "gnd-juros-encargos-divida",
@@ -7168,9 +7300,13 @@
         "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
-      "conceptIds": []
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Aquisição de material de consumo pertence ao GND 3. Material de consumo também é um GND?",
+        "answer": "Não. Outras Despesas Correntes é grupo; material de consumo é elemento da despesa."
+      }
     },
     {
       "id": "gnd-investimentos",

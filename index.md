@@ -298,6 +298,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica|24 • Dado, informação, variável, atributo, indicador e métrica: hierarquia e distinções operacionais]]
   - [[3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade|25 • Transformação de dados: limpeza, tratamento de nulos, agregação e dimensões de qualidade]]
   - [[3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica|26 • Visualização de dados: seleção de gráficos pela pergunta analítica, variáveis e carga cognitiva]]
+  - [[3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes|27 • Histograma, gráficos de barras e gráficos de linhas: distinção dos eixos, escalas e aplicações]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

@@ -1,0 +1,169 @@
+---
+articleId: art-719dd4ca3e84b65a
+articleAliases: ["3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md"]
+title: "Histograma, gráficos de barras e gráficos de linhas: distinção dos eixos, escalas e aplicações"
+type: "conceito"
+status: "ativo"
+created: 2026-11-09
+updated: 2026-11-09
+---
+
+# Histograma, gráficos de barras e gráficos de linhas: distinção dos eixos, escalas e aplicações
+
+## 1. Situação concreta e o problema da confusão geométrica
+
+Na análise de dados públicos — como o perfil de idade dos servidores da Câmara dos Deputados, o valor de emendas parlamentares ou a evolução mensal de proposições protocoladas —, gráficos de barras, histogramas e gráficos de linhas compartilham elementos visuais semelhantes (barras retangulares ou traçados cartesianos).
+
+No entanto, no rigor estatístico cobrado pela banca **Cebraspe**, essa semelhança geométrica superficial esconde diferenças fundamentais de **natureza de variáveis**, **definição de eixos**, **continuidade de escalas** e **interpretação matemática**:
+- Tratar um histograma como se fosse um simples gráfico de barras verticais.
+- Inserir espaçamento arbitrário entre as colunas de uma distribuição contínua.
+- Utilizar gráficos de linhas para ligar categorias qualitativas nominais que não possuem ordenamento cronológico ou causal.
+
+Compreender a mecânica interna dessas representações é pré-requisito para responder com segurança a itens de Análise de Informações e Estatística Aplicada.
+
+---
+
+## 2. Histograma versus gráfico de barras: o divisor de águas estatístico
+
+A distinção entre o **Histograma** e o **Gráfico de Barras (Colunas)** é uma das armadilhas clássicas do Cebraspe:
+
+```
+        HISTOGRAMA (VARIÁVEL CONTÍNUA)                GRÁFICO DE BARRAS (CATEGÓRICO)
+    Freq ▲                                       Valor ▲
+         │     ███                                     │   █         █
+         │ █   ███ ███                                 │   █         █         █
+         │ █   ███ ███ █                               │   █    █    █    █    █
+       0 ┼─┴───┴───┴───┴───►                         0 ┼───┴────┴────┴────┴────┴───►
+          10  20  30  40  50                               PT   PL  UNIÃO PP  MDB
+        (Classes contínuas SEM ESPAÇO)                 (Categorias discretas COM ESPAÇO)
+```
+
+### Quadro comparativo dogmático
+
+| Dimensão | Histograma | Gráfico de Barras / Colunas |
+| :--- | :--- | :--- |
+| **Tipo de Variável no Eixo Horizontal ($X$)** | **Quantitativa Contínua** (ou discreta agrupada em classes/intervalos numéricos). | **Qualitativa (Nominal/Ordinal)** ou Quantitativa Discreta isolada. |
+| **Eixo Vertical ($Y$)** | **Frequência** (absoluta, relativa ou densidade de probabilidade). | **Valor da Métrica** (total, média, soma, contagem de ocorrências). |
+| **Espaçamento entre as Barras** | **Sem espaçamento** (as barras são adjacentes/coladas, refletindo a continuidade da reta real). | **Com espaçamento visível** (evidencia a descontinuidade entre categorias distintas). |
+| **Largura das Barras** | **Significativa**: representa a amplitude da classe/intervalo ($h = \Delta x$). | **Arbitrária**: puramente estética; não possui significado matemático. |
+| **Área das Barras** | **Proporcional à frequência**: $\text{Área} = \text{Base} \times \text{Altura}$. | Apenas o **comprimento/altura** representa a grandeza medida. |
+| **Ordem no Eixo $X$** | **Rígida e imutável**: obedece à ordem natural dos números reais ($10 \rightarrow 20 \rightarrow 30$). | **Flexível**: pode ser reordenado por conveniência (alfabética, ordem de grandeza, etc.). |
+
+---
+
+## 3. Anatomia matemática do histograma
+
+### 3.1. Construção de Classes e Intervalos (*Bins*)
+Para construir um histograma a partir de uma amostra de tamanho $n$:
+1. Calcula-se a amplitude total: $R = X_{\max} - X_{\min}$.
+2. Define-se o número de classes $k$ (frequentemente pela Regra de Sturges: $k \approx 1 + 3{,}322 \log_{10}(n)$ ou $k \approx \sqrt{n}$).
+3. Define-se a amplitude de classe: $h = R / k$.
+
+### 3.2. Formas da Distribuição de Frequências no Histograma
+O perfil visual do histograma revela o comportamento probabilístico da população:
+- **Simétrico / Em Forma de Sino (Gaussiano):** A distribuição aproxima-se da Normal ($\text{Média} \approx \text{Mediana} \approx \text{Moda}$).
+- **Assimétrico à Direita (Positiva):** Cauda longa estendendo-se para valores elevados ($\text{Média} > \text{Mediana} > \text{Moda}$), típico de salários, patrimônio e tempo de tramitação.
+- **Assimétrico à Esquerda (Negativa):** Cauda longa para a esquerda ($\text{Moda} > \text{Mediana} > \text{Média}$), comum em idades de aposentadoria de servidores públicos.
+- **Bimodal:** Dois picos nítidos, evidenciando que a amostra pode ser composta por duas populações distintas misturadas (ex.: servidores de nível médio versus consultores de nível superior).
+
+---
+
+## 4. Gráfico de barras: horizontais versus verticais (colunas)
+
+Embora intercambiáveis do ponto de vista matemático, a orientação espacial do gráfico de barras obedece a regras de ergonomia cognitiva:
+
+```
+               QUANDO USAR BARRAS HORIZONTAIS OU VERTICAIS?
+                                     │
+        ┌────────────────────────────┴────────────────────────────┐
+        ▼                                                         ▼
+BARRAS HORIZONTAIS (Y = Categoria, X = Métrica)         COLUNAS VERTICAIS (X = Categoria, Y = Métrica)
+- Rótulos textuais longos (nomes de ministérios, UFs)   - Poucas categorias (até 5 a 7)
+- Muitas categorias (mais de 7 a 10 classes)             - Rótulos curtos (siglas partidárias: PT, PL, PP)
+- Facilita rolagem vertical em relatórios e telas       - Quando as categorias possuem sequência natural
+- Ordenação decrescente obrigatória (ranking)           - Séries cronológicas discretas (anos, trimestres)
+```
+
+> [!WARNING]
+> **A Regra Inegociável do Eixo Zero:** Em qualquer gráfico de barras (horizontal ou vertical), **o eixo quantitativo deve OBRIGATORIAMENTE iniciar no zero**. Como a percepção humana quantifica o valor pela área total ou comprimento da barra, cortar o eixo inicial distorce desonestamente a proporção visual (*Lie Factor*).
+
+---
+
+## 5. Gráfico de linhas: a continuidade temporal e suas fronteiras
+
+### 5.1. A Premissa da Continuidade
+O gráfico de linhas plota pares ordenados $(t_i, y_i)$ e liga os pontos sucessivos por segmentos de reta. Essa ligação pressupõe que:
+1. O eixo horizontal $X$ possui uma **ordem estrita, cronológica e contínua** (tempo: horas, dias, meses, anos).
+2. O fenômeno medido continua a existir nos instantes intermediários entre as observações, ainda que não tenha sido medido a cada segundo.
+
+### 5.2. O Erro Grave de Conectar Categorias Nominais
+Nunca se deve utilizar gráficos de linhas para ligar categorias qualitativas nominais não ordenadas (ex.: ligar a bancada do PT, do PL e do MDB por uma linha contínua). A inclinação da linha sugeriria falsamente que o PL "subiu em relação ao PT" ou que existe um ponto intermediário de transição física entre um partido e outro, o que é conceitualmente absurdo.
+
+### 5.3. Eixos Truncados em Gráficos de Linhas: a exceção à regra
+Diferentemente dos gráficos de barras (que exigem o zero absoluto), **em gráficos de linhas é admissível que o eixo vertical $Y$ não comece no zero**, desde que o objetivo seja evidenciar a volatilidade ou microvariações de uma métrica em torno de um patamar elevado (ex.: variação da taxa Selic de $10{,}25\%$ para $10{,}75\%$ ou batimentos cardíacos de um paciente). O gráfico de linhas não codifica a informação pelo comprimento de uma coluna a partir da base, mas sim pela **posição espacial dos pontos e pela inclinação das retas**.
+
+---
+
+## 6. Casos concretos e aplicações progressivas
+
+### Caso 1: Análise de idade dos parlamentares da 57ª Legislatura
+- *Cenário:* Deseja-se compreender a distribuição etária dos 513 deputados federais empossados.
+- *Aplicação Correta:* **Histograma**. A variável "idade" é quantitativa contínua agrupada em intervalos de classe (ex.: 20 a 30 anos, 30 a 40 anos, etc.). As barras são desenhadas contíguas (coladas) e o eixo vertical exibe a quantidade absoluta de deputados em cada faixa etária.
+
+### Caso 2: Total de emendas parlamentares pagas por bancada partidária
+- *Cenário:* Comparação do montante em reais destinado aos 20 partidos políticos com representação na Câmara.
+- *Aplicação Correta:* **Gráfico de Barras Horizontais** ordenado em ordem decrescente de valor. Como são 20 partidos e os nomes/siglas seriam difíceis de ler na horizontal com colunas verticais estreitas, as barras horizontais garantem legibilidade tipográfica imediata e comparação rápida de comprimentos.
+
+### Caso 3: Execução orçamentária mensal da Câmara dos Deputados
+- *Cenário:* Acompanhamento dos empenhos realizados mês a mês de janeiro a dezembro de 2026.
+- *Aplicação Correta:* **Gráfico de Linhas**. O eixo $X$ representa a escala contínua temporal (meses) e o eixo $Y$ o valor em milhões de reais, permitindo identificar com precisão a sazonalidade e o pico clássico de empenhos no mês de dezembro.
+
+---
+
+## 7. Questões inéditas no padrão Cebraspe (C/E)
+
+### Item 1
+> **Assertiva:** O histograma diferencia-se do gráfico de barras verticais por ser construído com barras adjacentes, sem espaçamento entre elas, visto que representa a distribuição de frequências de uma variável quantitativa contínua agrupada em intervalos de classe.
+>
+> **Gabarito:** **CERTO**  
+> **Comentário:** Definição canônica exata. No histograma, a continuidade da reta real no eixo $X$ exige que as barras sejam justapostas (sem espaço livre entre si). Já no gráfico de barras/colunas, o espaçamento entre as colunas é obrigatório para evidenciar que as categorias analisadas são entidades discretas e separadas.
+
+### Item 2
+> **Assertiva:** Em um histograma cujas classes possuem amplitudes desiguais, a altura de cada retângulo deve ser mantida estritamente igual à frequência absoluta da respectiva classe para assegurar a fidelidade visual dos dados.
+>
+> **Gabarito:** **ERRADO**  
+> **Comentário:** Quando as classes possuem amplitudes desiguais ($h_i$ distintos), manter a altura igual à frequência absoluta distorce a percepção, pois a área da barra ficaria desproporcional. Nesses casos, a altura da barra deve ser ajustada para a **densidade de frequência** ($\text{Densidade} = \text{Frequência} / \text{Amplitude}$), garantindo que a **área do retângulo** continue proporcional à probabilidade/frequência observada.
+
+### Item 3
+> **Assertiva:** Para comparar o volume de recursos alocados entre trinta diferentes órgãos públicos com nomenclaturas extensas, o gráfico de barras verticais (colunas) é preferível ao gráfico de barras horizontais, por permitir melhor aproveitamento do espaço da página.
+>
+> **Gabarito:** **ERRADO**  
+> **Comentário:** Para muitas categorias (30 órgãos) e rótulos extensos, o gráfico de **barras horizontais** é amplamente superior. Colunas verticais obrigariam a inclinar os textos em $45^\circ$ ou $90^\circ$ ou a truncar os nomes, gerando enorme poluição visual e fadiga de leitura.
+
+### Item 4
+> **Assertiva:** A utilização de gráficos de linhas é tecnicamente inadequada quando o eixo horizontal for composto por variáveis qualitativas nominais desprovidas de relação cronológica, lógica ou causal, haja vista que a inclinação do segmento de reta sugere indevidamente uma continuidade inexistente entre as categorias.
+>
+> **Gabarito:** **CERTO**  
+> **Comentário:** Conectar pontos que representam categorias nominais arbitrárias (ex.: partidos políticos, estados ou departamentos) por uma linha contínua induz a uma falsa interpretação de tendência e continuidade, configurando grave erro de visualização.
+
+### Item 5
+> **Assertiva:** A obrigatoriedade de iniciar o eixo quantitativo no valor zero absoluto aplica-se estritamente aos gráficos de barras e colunas, sendo metodologicamente aceitável que gráficos de linhas temporais utilizem eixos truncados para realçar variações sutis em torno de patamares elevados.
+>
+> **Gabarito:** **CERTO**  
+> **Comentário:** No gráfico de barras, o valor é codificado pelo comprimento/área da barra a partir da linha de base (o corte do zero gera o *Lie Factor* fraudulento). No gráfico de linhas, o valor é codificado pela posição do ponto e pela taxa de inclinação da curva; portanto, truncar o eixo vertical em linhas é legítimo para permitir a visualização de pequenas oscilações de alta relevância (como monitoramento de câmbio, inflação ou sinais vitais).
+
+### Item 6
+> **Assertiva:** Em uma distribuição de frequências representada por um histograma assimétrico positivo (à direita), a média aritmética situa-se tipicamente à esquerda da mediana e da moda.
+>
+> **Gabarito:** **ERRADO**  
+> **Comentário:** Na assimetria positiva (à direita), a cauda alonga-se para a direita devido à presença de valores extremos elevados. Esses valores puxam a média aritmética para cima, resultando na ordenação: $\text{Moda} < \text{Mediana} < \text{Média}$. Portanto, a média situa-se **à direita** da mediana e da moda.
+
+---
+
+## 8. Referências conceituais
+
+1. **BUSSAB, Wilton de O.; MORETTIN, Pedro A.** *Estatística Básica.* 9ª ed. São Paulo: Saraiva, 2017.
+2. **TRIOLA, Mario F.** *Introdução à Estatística.* 12ª ed. Rio de Janeiro: LTC, 2017.
+3. **TUFTE, Edward R.** *The Visual Display of Quantitative Information.* Cheshire: Graphics Press, 2001.
+4. **FEW, Stephen.** *Show Me the Numbers: Designing Tables and Graphs to Enlighten.* Analytics Press, 2012.
+5. **CÂMARA DOS DEPUTADOS.** *Diretrizes para Publicação de Dados Abertos e Gráficos da Transparência Legislativa.* Brasília: Cenin, 2024.

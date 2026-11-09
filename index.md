@@ -160,6 +160,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos|16 • Classificações e espécies de atos administrativos]]
    - [[3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos|17 • Anulação, revogação, convalidação e extinção de atos administrativos]]
    - [[3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista|18 • Parecer administrativo: natureza, tipos e responsabilidade do parecerista]]
+   - [[3 - Materias/Direito Administrativo/19 - requisicao cessao e movimentacao de agentes publicos|19 • Requisição, cessão e movimentação de agentes públicos]]
 9. [[3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia|Evidências, dados e inteligência artificial]]
    - [[3 - Materias/Evidencias Dados e IA/01 - perguntas fontes e qualidade da evidencia|01 • Perguntas, fontes e qualidade da evidência]]
    - [[3 - Materias/Evidencias Dados e IA/02 - indicadores denominadores e subnotificacao|02 • Indicadores, denominadores e subnotificação]]

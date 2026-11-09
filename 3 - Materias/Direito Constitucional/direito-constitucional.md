@@ -100,7 +100,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites|35. Comissões Parlamentares de Inquérito (CPI e CPMI)]]: CAM-PL-031, CF art. 58, § 3º, 1/3 das Casas, fato determinado e prazo certo, direito das minorias (MS 24.831), poderes instrutórios judiciais, quebra de sigilo e limites da reserva de jurisdição. **CAM-PL-032 concluída na nota 36.**
 
-- [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|36. Espécies legislativas: comparação sistemática (art. 59 da CF)]]: CAM-PL-032, matriz comparativa das 7 espécies normativas, regimes de iniciativa, quóruns, turnos de votação, sanção e veto, apreciação terminativa e irrepetibilidade. **Próxima: CAM-PL-033, Controle parlamentar e prestação de contas.**
+- [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|36. Espécies legislativas: comparação sistemática (art. 59 da CF)]]: CAM-PL-032, matriz comparativa das 7 espécies normativas, regimes de iniciativa, quóruns, turnos de votação, sanção e veto, apreciação terminativa e irrepetibilidade. **CAM-PL-033 concluída na nota 37.**
+
+- [[3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas|37. Controle parlamentar: fiscalização contábil, financeira, requerimentos e contas]]: CAM-PL-033, instrumentos do controle político (convocações, pedidos de informação por escrito em 30 dias sob pena de crime de responsabilidade, vedação de convocação do Presidente), Proposta de Fiscalização e Controle (PFC), controle externo pelo TCU (contas de governo × contas de gestão), julgamento das contas do Presidente pelo Congresso Nacional (CF art. 49, IX), sustação de atos normativos (art. 49, V) e de contratos (art. 71, §§ 1º e 2º). **Trilha de Processo Legislativo e Regimentos concluída integralmente (33 de 33 unidades).**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

@@ -312,6 +312,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara|34. Código de Ética e Decoro da Câmara]]
   - [[3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites|35. Comissões Parlamentares de Inquérito (CPI e CPMI)]]
   - [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|36. Espécies legislativas: comparação por iniciativa, quórum e efeito]]
+  - [[3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas|37. Controle parlamentar: fiscalização contábil, financeira, requerimentos e contas]]
   - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|11 • Organização do Estado]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]

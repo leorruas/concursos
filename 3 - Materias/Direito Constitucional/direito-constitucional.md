@@ -84,7 +84,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/27 - administracao economia interna e policia da camara artigos 262 a 273|27. Administração, economia interna e polícia da Câmara (RICD arts. 262 a 273)]]: **CAM-PL-023**, serviços, orçamento, controle interno, polícia, Corregedoria e acesso do público. **CAM-PL-024 concluída no mapa da nota 28.**
 
-- [[3 - Materias/Direito Constitucional/28 - mapa regimental da camara estrutura e fronteiras do edital|28. Regimento da Câmara: mapa de órgãos, competências e recortes do edital]]: CAM-PL-024, síntese dos quatro intervalos literais do RICD, órgão × competência × condição e comunicação institucional. **Próxima: CAM-PL-025, Regimento Comum, Título I.**
+- [[3 - Materias/Direito Constitucional/28 - mapa regimental da camara estrutura e fronteiras do edital|28. Regimento da Câmara: mapa de órgãos, competências e recortes do edital]]: CAM-PL-024, síntese dos quatro intervalos literais do RICD, órgão × competência × condição e comunicação institucional. **CAM-PL-025 publicada na nota 29.**
+
+- [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|29. Regimento Comum: Título I, sessões conjuntas (arts. 1º a 3º)]]: **CAM-PL-025**, direção, objetos, solenidades, convocação, local e diferenças para votação bicameral. **Próxima: CAM-PL-026, RCCN Título IV.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

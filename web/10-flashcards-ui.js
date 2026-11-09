@@ -6,7 +6,7 @@
     const P=window.FlashcardsPrioritySync;
     const priorityEndpoint=P.endpointFromMeta(document,location);
     let prioritySync=priorityEndpoint?'checking':'local',priorityRequest=null;
-    const progressEndpoint=window.FlashcardsProgressSync.endpoint(priorityEndpoint);
+    const progressEndpoint=window.FlashcardsProgressSync?.endpoint?.(priorityEndpoint)||null;
     let progressSync=progressEndpoint?'checking':'local',progressRequest=null,progressDirty=false;
     const status=text=>{$('status').textContent=text;};
     const show=(id,visible)=>{$(id).hidden=!visible;};
@@ -69,7 +69,8 @@
                     const merged=window.FlashcardsProgressSync.merge(state.reviews,result.reviews);
                     if(JSON.stringify(merged)!==JSON.stringify(state.reviews))save({...state,reviews:merged});
                     dashboard();
-                }
+                    if(storageOK)status('Progresso sincronizado com sua conta');
+                }else if(storageOK){status('Progresso salvo neste dispositivo · sincronização remota indisponível');}
             }while(progressDirty);
         })();
         try{return await progressRequest;}finally{progressRequest=null;}
@@ -78,7 +79,7 @@
     function render() {
         const s=state.session;
         document.querySelector('.fc-main').classList.add('is-studying');
-        if(storageOK)status(progressEndpoint&&progressSync==='connected'?'Progresso local e sincronizado com sua conta':'Progresso salvo neste dispositivo');
+        if(storageOK)status(progressEndpoint&&progressSync==='connected'&&!progressDirty&&!progressRequest?'Progresso local e sincronizado com sua conta':'Progresso salvo neste dispositivo');
         if(!s || s.position>=s.queue.length) {
             show('dashboard',false);show('round',false);show('summary',true);
             if(s) {
@@ -117,7 +118,7 @@
         $('prompt').focus();
     }
     function reveal() {if(!$('round').hidden&&!revealed){revealed=true;show('answer',true);show('reveal',false);show('instruction',false);document.querySelector('[data-grade="again"]').focus();}}
-    function grade(value) {if(!revealed||$('round').hidden)return;save(F.refill(cards,F.rate(state,value)));if(storageOK)status(progressEndpoint?'Salvo neste dispositivo · sincronização em andamento':'Salvo neste dispositivo');render();void syncProgress();}
+    function grade(value) {if(!revealed||$('round').hidden)return;save(F.refill(cards,F.rate(state,value)));progressDirty=!!progressEndpoint;render();void syncProgress();}
     try {
         const response=await fetch('data/flashcards.json',{cache:'no-cache'});
         if(!response.ok)throw Error('Coleção indisponível.');

@@ -9344,6 +9344,78 @@
         "prompt": "Se o serviço foi consumido em dezembro, a VPD fica automaticamente para janeiro porque a nota foi liquidada em janeiro?",
         "answer": "Não. O consumo do serviço determina o reconhecimento patrimonial, e a liquidação é etapa orçamentária distinta."
       }
+    },
+    {
+      "id": "orc-ref-art35-duas-linhas",
+      "term": "Art. 35: duas linhas temporais independentes",
+      "definition": "Para determinar a qual exercício pertence uma receita orçamentária, observe a data da arrecadação. Para a despesa orçamentária, observe o exercício do empenho. Liquidação, pagamento, lançamento tributário e reconhecimento patrimonial podem ocorrer em outros momentos.",
+      "example": "Tributo lançado em 2026 e arrecadado em 2027 pertence à receita orçamentária de 2027. Serviço empenhado em 2026, prestado e pago em 2027 pertence à despesa orçamentária de 2026, sem antecipar necessariamente a VPD.",
+      "confusion": "A mesma palavra 'competência' pode levar a misturar pertencimento orçamentário do art. 35 com reconhecimento patrimonial de VPA/VPD.",
+      "topic": "Reforço: exercícios orçamentários e patrimoniais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Regime orçamentário × competência patrimonial"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "art. 35"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "receita-exercicio-arrecadacao-vs-lancamento"
+      ],
+      "contrast": {
+        "prompt": "Receita lançada em 2026 e arrecadada em 2027; despesa empenhada em 2026 e paga em 2027. A qual exercício cada uma pertence no art. 35?",
+        "answer": "Receita orçamentária: 2027, pela arrecadação. Despesa orçamentária: 2026, pelo empenho. Reconhecimento patrimonial segue critérios próprios."
+      }
+    },
+    {
+      "id": "orc-ref-excesso-tendencia",
+      "term": "Excesso de arrecadação: apuração e tendência",
+      "definition": "Para verificar excesso de arrecadação como fonte de crédito adicional, compara-se a arrecadação realizada com a prevista de forma acumulada no exercício, considerando a tendência do ano e os ajustes legais aplicáveis. Um mês acima da previsão não basta para concluir que existe recurso disponível.",
+      "example": "Em abril, a arrecadação do mês excede a previsão, mas os meses anteriores ficaram abaixo. O gestor precisa examinar o acumulado e a tendência antes de afirmar excesso utilizável.",
+      "confusion": "Diferença favorável isolada não é o mesmo que excesso de arrecadação apurado nem autoriza automaticamente abertura de crédito.",
+      "topic": "Reforço: fontes e limites de créditos adicionais",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Superávit financeiro × excesso de arrecadação"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "art. 43, § 3º e § 4º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "superavit-financeiro-vs-excesso-arrecadacao-fonte-credito"
+      ],
+      "contrast": {
+        "prompt": "A receita de maio superou a previsão mensal em R$ 100 mil, mas o acumulado do ano segue abaixo do previsto. Há excesso de arrecadação utilizável de R$ 100 mil automaticamente?",
+        "answer": "Não. A apuração considera diferenças acumuladas e tendência do exercício, com ajustes legais. Excesso eventualmente apurado ainda não abre crédito por si só."
+      }
     }
   ]
 }

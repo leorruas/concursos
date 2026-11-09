@@ -60,9 +60,27 @@ O Decreto-Lei nº 200/1967 introduziu diretrizes de reforma administrativa feder
 
 ### Reforma gerencial dos anos 1990
 
-O **Plano Diretor da Reforma do Aparelho do Estado (PDRAE)**, de 1995, é o principal marco brasileiro da reforma gerencial associada a Luiz Carlos Bresser-Pereira e ao Ministério da Administração Federal e Reforma do Estado.
+O **Plano Diretor da Reforma do Aparelho do Estado (PDRAE)**, de 1995, é o principal marco brasileiro da reforma gerencial associada a Luiz Carlos Bresser-Pereira e ao Ministério da Administração Federal e Reforma do Estado (MARE).
 
-O PDRAE procurou deslocar parte do controle de procedimentos para resultados, ampliar autonomia gerencial e diferenciar formas de atuação do Estado conforme a natureza das atividades.
+O PDRAE procurou deslocar parte do controle de procedimentos para resultados, ampliar a autonomia gerencial e diferenciar formas de atuação do Estado em quatro setores: núcleo estratégico, atividades exclusivas, serviços não exclusivos e produção de bens e serviços para o mercado.
+
+### Contratualização de resultados e instrumentos de pactuação
+
+A contratualização de resultados consubstancia o instrumento gerencial por excelência para conferir maior autonomia e cobrar desempenho. Na Administração Pública brasileira, esse mecanismo fundamenta-se expressamente no art. 37, § 8º, da Constituição Federal (acrescentado pela Emenda Constitucional nº 19/1998), que autoriza a ampliação da autonomia gerencial, orçamentária e financeira dos órgãos e entidades da administração direta e indireta mediante a celebração de **contrato de gestão** (ou instrumento de pactuação congênere), que fixe metas de desempenho institucional, prazos, critérios de avaliação e responsabilidades dos dirigentes.
+
+No setor público não estatal (serviços não exclusivos), a contratualização opera por parcerias com o terceiro setor:
+- **Organizações Sociais (OS):** qualificadas pelo Poder Executivo (Lei nº 9.637/1998) para prestar serviços não exclusivos (saúde, cultura, pesquisa, ensino), vinculando-se ao Poder Público por meio de **Contrato de Gestão**, com dotações orçamentárias, cessão de bens e servidores;
+- **Organizações da Sociedade Civil de Interesse Público (OSCIP):** qualificadas nos termos da Lei nº 9.790/1999, que firmam com o Estado o **Termo de Parceria**.
+
+### Agências reguladoras e executivas no modelo gerencial
+
+A redefinição do papel do Estado na década de 1990 — transitando de um Estado predominantemente executor/produtor de bens para um **Estado regulador** — impulsionou a criação das **agências reguladoras** (estruturadas juridicamente sob a forma de autarquias especiais, regidas pela Lei nº 13.848/2019). Suas características centrais incluem independência decisória, mandato fixo e estabilidade de seus dirigentes (vedada a exoneração ad nutum sem justa causa ou processo formal), autonomia financeira e mandato técnico para fiscalizar serviços públicos concedidos, regular mercados com falhas e fixar tarifas.
+
+Paralelamente, a qualificação como **agência executiva** (prevista na Lei nº 9.649/1998) constitui uma qualificação transitória outorgada por decreto a autarquias ou fundações públicas preexistentes que tenham plano estratégico de reestruturação aprovado e celebrem contrato de gestão com o ministério supervisor, obtendo maior flexibilidade gerencial e limites ampliados para licitações e contratações.
+
+### Princípio da eficiência e Emenda Constitucional nº 19/1998
+
+A Emenda Constitucional nº 19/1998 introduziu expressamente a **eficiência** no rol dos princípios constitucionais da Administração Pública (art. 37, caput, da CF/88), consolidando a transição formal em direção ao paradigma gerencial. A eficiência orienta-se pela otimização da relação entre recursos empregados (economicidade) e resultados obtidos (produtividade e tempestividade), associando-se diretamente à avaliação periódica de desempenho (art. 41, § 1º, III, da CF) e à contínua melhoria da prestação de serviços à sociedade, sem descurar da legalidade e da impessoalidade.
 
 > [!WARNING]
 > A banca pode transformar “controle de resultados” em “ausência de controle”. Isso é falso: a lógica gerencial muda o foco e os instrumentos de controle, não elimina accountability.

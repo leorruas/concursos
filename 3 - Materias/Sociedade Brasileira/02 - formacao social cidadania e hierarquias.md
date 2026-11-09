@@ -28,6 +28,18 @@ A formação da sociedade brasileira envolve **colonização, escravidão, estru
 
 Esses autores têm abordagens diferentes e por vezes tensionadas entre si. **Citar um autor não equivale a endossar suas categorias sem crítica**. A tese da "democracia racial" é objeto de debate e crítica: a existência de mistura cultural e populacional não prova ausência de desigualdades raciais ou discriminação.
 
+### Gilberto Freyre e a interpretação do patriarcalismo
+
+Em *Casa-Grande & Senzala* (1933), Gilberto Freyre analisa a formação social brasileira a partir da família patriarcal e do complexo da economia açucareira, destacando a miscigenação e a plasticidade do colonizador português. Embora tenha superado teorias raciais de base biológica vigentes no início do século XX, sua ênfase na integração cultural e nas relações de intimidade doméstica alimentou a representação do Brasil como uma "democracia racial" desprovida de preconceitos severos, perspectiva contestada pelas vertentes sociológicas críticas posteriores.
+
+### Sérgio Buarque de Holanda e o homem cordial
+
+Em *Raízes do Brasil* (1936), Sérgio Buarque de Holanda desenvolve a categoria do **homem cordial** para designar o predomínio dos laços afetivos, familiares e da intimidade (do latim *cordis*) sobre a impessoalidade e as normas formais e abstratas exigidas pelo espaço público moderno. A cordialidade, longe de significar polidez civilizatória ou ausência de agressividade, exprime a recusa e a dificuldade de lidar com a distância social impessoal, gerando o personalismo e a aversão ao formalismo burocrático legal-racional.
+
+### Florestan Fernandes e a crítica do mito da democracia racial
+
+Sob a coordenação de Florestan Fernandes e com os estudos do Projeto UNESCO na década de 1950, a Escola Paulista de Sociologia demonstrou que a abolição jurídica em 1888 não integrou a população negra ao capitalismo moderno. Desprovidos de propriedade e escolaridade, os libertos foram empurrados para a marginalidade social e a dependência ocupacional. Florestan evidenciou que o mito da democracia racial atua como ideologia de mascaramento do preconceito de cor, o qual opera como barreira real à mobilidade social e mecanismo de preservação das assimetrias de classe.
+
 ### Trabalho, propriedade e participação
 
 A estrutura do trabalho e do acesso a ativos mudou da economia escravista para formas assalariadas e informais, com profundas desigualdades regionais e urbanas. **Industrialização e urbanização** não garantem que todas as pessoas tenham moradia, serviços, emprego formal ou participação política no mesmo grau. A análise da cidadania exige examinar raça/cor, gênero, classe, território, deficiência e idade, sem tratar esses recortes como destinos individuais inevitáveis.

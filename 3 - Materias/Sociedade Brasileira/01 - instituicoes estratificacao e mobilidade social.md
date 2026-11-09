@@ -23,12 +23,19 @@ updated: 2026-11-05
 | Karl Marx | Classes sociais relacionadas a posições nas relações de produção e conflito de interesses | Reduzir classe a mera faixa de renda sem relações de produção |
 | Max Weber | Estratificação por classe, status e partido/poder, dimensões analiticamente distintas | Tratar prestígio ou poder político como idênticos à posição econômica |
 | Pierre Bourdieu | Capitais econômico, cultural, social e simbólico, e reprodução de desigualdades | Pressupor que capital cultural equivale a renda disponível |
+| Jessé Souza | Crítica à redução da classe à renda; reprodução de habitus, "ralé estrutural" e capitais moral/cultural | Confundir poder de consumo transitório com ascensão estrutural à classe média |
 | Mobilidade intergeracional | Comparação de posição social entre gerações | Confundir com promoção no mesmo emprego |
 | Mobilidade intrageracional | Mudanças na trajetória de uma pessoa | Confundir com comparação entre pais e filhos |
 
 **Capital social** em Bourdieu se refere a recursos vinculados a redes duráveis de relações; não significa simplesmente simpatia, número de amigos ou participação em rede social digital. **Capital cultural** pode incluir disposições incorporadas, bens culturais e títulos reconhecidos; uma credencial não garante por si só acesso igualitário a posições sociais.
 
+**Crítica de Jessé Souza à estratificação economicista:** Em obras como *A Ralé Brasileira* e *A Classe Média no Espelho*, Jessé Souza critica a categorização estritamente estatística e mercadológica de "nova classe média" baseada unicamente no poder de compra de bens de consumo. Para o autor, a verdadeira reprodução de classes assenta-se na transmissão intergeracional de privilégios culturais e disposições corporais e cognitivas (habitus valorizado pelo mercado e pelo Estado), relegando a "ralé" a trabalhos desqualificados e à privação de pré-condições sociais e morais básicas para a competição meritocrática.
+
 **Mobilidade absoluta × relativa:** a primeira trata da distribuição de posições efetivamente alcançadas, que pode mudar com expansão de empregos e educação; a segunda investiga chances de pessoas de diferentes origens alcançarem posições, separando-as da mudança na estrutura de vagas. Uma sociedade pode aumentar escolarização e continuar reproduzindo desigualdades de acesso às posições mais valorizadas.
+
+### Estrutura de classes e desigualdades contemporâneas no Brasil
+
+A formação da estrutura de classes no Brasil articula a herança da escravidão com a modernização capitalista periférica. Autores contemporâneos ressaltam que o acesso diferencial à educação formal de elite, o patrimônio herdado e os laços de sociabilidade operam como filtros que mantêm os estratos populares afastados dos círculos decisórios e dos postos do núcleo estatal e corporativo, mesmo diante de períodos de expansão de renda monetária mínima.
 
 ## Instituições, discriminação e redes
 

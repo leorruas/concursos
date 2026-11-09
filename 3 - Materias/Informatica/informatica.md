@@ -15,6 +15,7 @@ updated: 2026-09-14
 
 ## Sistemas Operacionais
 - Windows (principais funções)
+- [[3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes|03 • Arquivo, pasta, nuvem e sincronização: conceitos, estruturas e operações]] (CAM-TI-001)
 - Organização de arquivos e pastas
 
 ## Pacote Office

@@ -280,6 +280,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Informatica/06 - powerpoint 365 organizacao slides mestre animacoes e apresentacao|06 • PowerPoint 365: organização de slides, slide mestre, transições, animações e apresentação]]
   - [[3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes|07 • OneDrive: sincronização corporativa, compartilhamento de links e permissões de acesso]]
   - [[3 - Materias/Informatica/08 - redes internet intranet protocolos e enderecamento ip|08 • Redes de computadores: internet, intranet, extranet, protocolos TCP/IP e endereçamento IPv4 e IPv6]]
+  - [[3 - Materias/Informatica/09 - navegacao busca avancada urls e procedimentos de internet|09 • Navegação web, anatomia de URLs, operadores de busca avançada e privacidade no navegador]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

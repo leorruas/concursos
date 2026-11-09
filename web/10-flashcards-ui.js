@@ -6,6 +6,8 @@
     const P=window.FlashcardsPrioritySync;
     const priorityEndpoint=P.endpointFromMeta(document,location);
     let prioritySync=priorityEndpoint?'checking':'local',priorityRequest=null;
+    const progressEndpoint=window.FlashcardsProgressSync.endpoint(priorityEndpoint);
+    let progressSync=progressEndpoint?'checking':'local',progressRequest=null,progressDirty=false;
     const status=text=>{$('status').textContent=text;};
     const show=(id,visible)=>{$(id).hidden=!visible;};
     function save(next) {
@@ -51,11 +53,32 @@
         })();
         try{return await priorityRequest;}finally{priorityRequest=null;}
     }
+    // Sincronização privada sem bloquear o estudo. Cada gravação local é preservada
+    // se o servidor estiver indisponível; grades ocorridos durante a requisição
+    // disparam uma nova conciliação, sem substituir a sessão aberta.
+    async function syncProgress(){
+        if(!progressEndpoint||corrupt||!catalog)return;
+        if(progressRequest){progressDirty=true;return progressRequest;}
+        progressRequest=(async()=>{
+            do{
+                progressDirty=false;
+                const snapshot={...state.reviews};
+                const result=await window.FlashcardsProgressSync.sync(progressEndpoint,snapshot,cards,window.fetch.bind(window));
+                progressSync=result.status;
+                if(result.status==='connected'){
+                    const merged=window.FlashcardsProgressSync.merge(state.reviews,result.reviews);
+                    if(JSON.stringify(merged)!==JSON.stringify(state.reviews))save({...state,reviews:merged});
+                    dashboard();
+                }
+            }while(progressDirty);
+        })();
+        try{return await progressRequest;}finally{progressRequest=null;}
+    }
     function home() {document.querySelector('.fc-main').classList.remove('is-studying');show('dashboard',true);show('round',false);show('summary',false);dashboard();}
     function render() {
         const s=state.session;
         document.querySelector('.fc-main').classList.add('is-studying');
-        if(storageOK)status('Progresso salvo neste dispositivo');
+        if(storageOK)status(progressEndpoint&&progressSync==='connected'?'Progresso local e sincronizado com sua conta':'Progresso salvo neste dispositivo');
         if(!s || s.position>=s.queue.length) {
             show('dashboard',false);show('round',false);show('summary',true);
             if(s) {
@@ -94,7 +117,7 @@
         $('prompt').focus();
     }
     function reveal() {if(!$('round').hidden&&!revealed){revealed=true;show('answer',true);show('reveal',false);show('instruction',false);document.querySelector('[data-grade="again"]').focus();}}
-    function grade(value) {if(!revealed||$('round').hidden)return;save(F.refill(cards,F.rate(state,value)));if(storageOK)status('Salvo neste dispositivo');render();}
+    function grade(value) {if(!revealed||$('round').hidden)return;save(F.refill(cards,F.rate(state,value)));if(storageOK)status(progressEndpoint?'Salvo neste dispositivo · sincronização em andamento':'Salvo neste dispositivo');render();void syncProgress();}
     try {
         const response=await fetch('data/flashcards.json',{cache:'no-cache'});
         if(!response.ok)throw Error('Coleção indisponível.');
@@ -132,7 +155,8 @@
         if(catalog.exams.some(e=>e.id===examFromURL))$('exam').value=examFromURL;
         subjects();home();
         void syncPriorities(true);
-        if(storageOK)status(`${cards.length} conceitos · ${catalog.glossary?.generatedCount || 0} do glossário · progresso neste dispositivo`);
+        void syncProgress();
+        if(storageOK)status(`${cards.length} conceitos · ${catalog.glossary?.generatedCount || 0} do glossário · ${progressEndpoint?'sincronização privada disponível após login':'progresso neste dispositivo'}`);
         $('export').disabled=false;
         $('form').addEventListener('submit',async e=>{
             e.preventDefault();
@@ -147,7 +171,7 @@
             save(F.start(cards,base,o));render();
         });
         document.addEventListener('visibilitychange',()=>{
-            if(document.visibilityState==='visible')void syncPriorities();
+            if(document.visibilityState==='visible'){void syncPriorities();void syncProgress();}
         });
         $('exam').addEventListener('change',subjects);$('subject').addEventListener('change',dashboard);
         $('resume').addEventListener('click',render);

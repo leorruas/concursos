@@ -94,7 +94,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990|32. Comissão Representativa do Congresso no recesso (Resolução 3/1990-CN)]]: CAM-PL-028, composição 7+16, competências condicionadas, reunião, votos separados, quóruns e atualização constitucional do calendário. **CAM-PL-029 concluída na nota 33.**
 
-- [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|33. Medidas provisórias e Resolução nº 1/2002-CN]]: CAM-PL-029, comissão mista 12+12, prazos 45/60+60, rito Câmara–Senado, ADIs 4.029 e 5.127, PLV, sanção e perda de eficácia. **Próxima: CAM-PL-030, Código de Ética.**
+- [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|33. Medidas provisórias e Resolução nº 1/2002-CN]]: CAM-PL-029, comissão mista 12+12, prazos 45/60+60, rito Câmara–Senado, ADIs 4.029 e 5.127, PLV, sanção e perda de eficácia. **CAM-PL-030 concluída na nota 34.**
+
+- [[3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara|34. Código de Ética e Decoro Parlamentar da Câmara]]: CAM-PL-030, Resolução nº 25/2001 e Resolução nº 2/2011, atos atentatórios e incompatíveis, 21 membros, rito disciplinar, ampla defesa, CCJC formal e votação aberta em Plenário. **Próxima: CAM-PL-031, Comissões parlamentares de inquérito.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

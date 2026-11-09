@@ -25,7 +25,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Coesão e Coerência**: [[08 - coesao textual referenciacao e tempos verbais|08 • Coesão textual: referenciação, conectores e tempos verbais]].
 - **Referência Textual**: [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|18 • Referência textual: anáfora, catáfora, dêixis e cadeias coesivas]] (CAM-LP-007)
 - **Substituição e Coesão Lexical**: [[3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical|19 • Substituição, elipse, repetição e coesão lexical]] (CAM-LP-008)
-- **Semântica**: Sinonímia e antonímia, polissemia e figuras de linguagem.
+- **Semântica, Polissemia e Ambiguidade**: [[3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade|31 • Significação lexical, polissemia, homonímia, paronímia e ambiguidade]] (CAM-LP-020)
 
 ## 2. Sintaxe e Gramática
 - **Sintaxe da Oração**: [[02 - sujeito|02 • Sujeito e termos da oração]].

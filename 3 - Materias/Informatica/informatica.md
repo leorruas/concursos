@@ -31,6 +31,7 @@ updated: 2026-09-14
 
 ### PowerPoint
 - Criação de apresentações
+- [[3 - Materias/Informatica/06 - powerpoint 365 organizacao slides mestre animacoes e apresentacao|06 • PowerPoint 365: organização de slides, slide mestre, transições, animações e apresentação]] (CAM-TI-004)
 - Layout e organização
 
 ## Internet

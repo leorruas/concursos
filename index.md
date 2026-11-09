@@ -277,6 +277,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes|03 • Arquivo, pasta, nuvem e sincronização: conceitos, estruturas e operações]]
   - [[3 - Materias/Informatica/04 - word 365 estrutura edicao formatacao e controle de alteracoes|04 • Word 365: estrutura, edição, formatação, seções e controle de alterações]]
   - [[3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas|05 • Excel 365: células, referências relativas e absolutas, funções e tabelas dinâmicas]]
+  - [[3 - Materias/Informatica/06 - powerpoint 365 organizacao slides mestre animacoes e apresentacao|06 • PowerPoint 365: organização de slides, slide mestre, transições, animações e apresentação]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

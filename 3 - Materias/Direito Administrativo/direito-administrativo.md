@@ -22,6 +22,7 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 
 ## 2. Organização Administrativa
 - [[02 - organizacao administrativa|02 • Administração direta e indireta: entidades, vínculos e regime jurídico]] (CAM-DAD-003): autarquias, fundações públicas, empresas públicas e sociedades de economia mista (art. 37, XIX, CF; Lei 13.303/2016; Súmula 556 STF; tutela sem hierarquia).
+- [[13 - centralizacao descentralizacao concentracao e desconcentracao|13 • Centralização, descentralização, concentração e desconcentração]] (CAM-DAD-004): técnicas organizacionais, outorga vs. delegação, teoria do órgão (Otto Gierke), funcionário de fato e personalidade judiciária dos órgãos de cúpula.
 - Entidades paraestatais e terceiro setor.
 
 ## 3. Atos Administrativos e Poderes

@@ -168,6 +168,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Direito Administrativo/24 - sindicancia processo administrativo disciplinar e seus ritos|24 • Sindicância, processo administrativo disciplinar e seus ritos: ordinário e sumário]]
    - [[3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao|25 • Lei nº 9.784/1999: processo administrativo federal, competência, delegação e avocação]]
    - [[3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos|26 • Lei nº 9.784/1999: impedimento, suspeição, motivação dos atos decisórios e recursos administrativos]]
+   - [[3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes|27 • Poder hierárquico e poder disciplinar: prerrogativas, limites, distinções e controle]]
 9. [[3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia|Evidências, dados e inteligência artificial]]
    - [[3 - Materias/Evidencias Dados e IA/01 - perguntas fontes e qualidade da evidencia|01 • Perguntas, fontes e qualidade da evidência]]
    - [[3 - Materias/Evidencias Dados e IA/02 - indicadores denominadores e subnotificacao|02 • Indicadores, denominadores e subnotificação]]

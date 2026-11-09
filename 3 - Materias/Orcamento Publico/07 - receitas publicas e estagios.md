@@ -5,7 +5,7 @@ title: "Receitas públicas: ingressos e estágios da execução"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-09
 aliases:
   - "Receita orçamentária"
   - "Receita extraorçamentária"
@@ -118,6 +118,20 @@ A Lei nº 4.320/1964, art. 35, determina que pertencem ao exercício financeiro 
 O reconhecimento de **Variação Patrimonial Aumentativa (VPA)** observa critérios patrimoniais de competência e pode ocorrer **antes da arrecadação**, quando nasce o direito do ente. Não confundir o registro do crédito tributário a receber com a entrada efetiva de receita orçamentária.
 
 **Caso:** o imposto é lançado em fevereiro e pago em maio. A informação patrimonial sobre o crédito pode existir em fevereiro, enquanto o reconhecimento da realização da receita para fins orçamentários ocorre com a arrecadação em maio.
+
+### Refinamento: imposto lançado em um ano e arrecadado no seguinte
+
+**Exemplo com dois exercícios:** em dezembro de **2026**, a prefeitura realiza o lançamento de R$ 2 mil de IPTU, identificando o contribuinte e o crédito tributário. O contribuinte paga em janeiro de **2027**. A **receita orçamentária pertence a 2027**, pois o art. 35, I, da Lei nº 4.320/1964 adota o **exercício da arrecadação** como critério para a receita. O lançamento de dezembro, mesmo referente a uma obrigação tributária já constituída, não antecipa a arrecadação.
+
+Observe três registros que respondem a perguntas diferentes:
+
+- **Lançamento tributário:** a administração identifica e constitui o crédito tributário, nos termos aplicáveis. O contribuinte **deve** R$ 2 mil; isso ainda não prova que pagou.
+- **Arrecadação:** o contribuinte efetivamente paga ao agente arrecadador. É esse momento que determina **a qual exercício pertence a receita no orçamento**.
+- **Reconhecimento patrimonial:** conforme o fato gerador e as regras de competência, a contabilidade pode reconhecer um **direito a receber** e uma **Variação Patrimonial Aumentativa (VPA)** antes da arrecadação. Não presumir que a VPA ocorra necessariamente na data do lançamento tributário; os critérios de reconhecimento patrimonial são próprios.
+
+**E se o banco receber em janeiro e transferir o valor à tesouraria depois?** O recebimento pelo agente arrecadador é a **arrecadação**; a entrega posterior do dinheiro à tesouraria é o **recolhimento**. Essas duas etapas também não devem ser trocadas.
+
+**Como julgar na Cebraspe:** dizer que o imposto lançado em 2026 e arrecadado em 2027 *pertence orçamentariamente a 2026* é **Errado**, porque o enunciado usou o lançamento no lugar da arrecadação. A relação do art. 35 é: **receitas arrecadadas no exercício; despesas legalmente empenhadas no exercício**. Este critério orçamentário não substitui as regras patrimoniais de competência.
 
 ## Como pode ser cobrado
 

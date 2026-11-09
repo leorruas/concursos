@@ -284,6 +284,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Informatica/10 - correio eletronico webmail cliente local campos e seguranca|10 • Correio eletrônico: webmail, cliente local, campos de cabeçalho, anexos e segurança]]
   - [[3 - Materias/Informatica/11 - teams e google meet colaboracao reunioes e videoconferencia|11 • Teams e Google Meet: ferramentas de colaboração, videoconferência corporativa, canais e moderação]]
   - [[3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles|12 • Segurança da informação: princípios CIDAN, políticas corporativas e controles de proteção]]
+  - [[3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao|13 • Backup: estratégias, tipos, recuperação e diferença de sincronização em nuvem]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

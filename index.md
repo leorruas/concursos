@@ -266,6 +266,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade|31 • Significação lexical, polissemia, homonímia, paronímia e ambiguidade]]
   - [[3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido|32 • Reescrita: substituição lexical, correção gramatical e preservação de sentido]]
   - [[3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica|33 • Reorganização sintática e equivalência semântica: paráfrase, inversões e paralelismo]]
+  - [[3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais|34 • Reescrita entre registros, níveis de formalidade, discurso direto e indireto e Redação Oficial]]
 - [[3 - Materias/Ingles/ingles|Língua inglesa]]
   - [[3 - Materias/Ingles/01 - leitura instrumental tese e inferencias|01 • Leitura instrumental, tese e inferências]]
   - [[3 - Materias/Ingles/02 - conectivos e relacoes logico semanticas|02 • Conectivos e relações lógico-semânticas]]

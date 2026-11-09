@@ -50,6 +50,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Reescrita, semântica e preservação de sentido**: [[10 - reescrita semantica e preservacao de sentido|🆕 10 • Reescrita, semântica e preservação de sentido]].
 - **Reescrita e Substituição Lexical**: [[3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido|32 • Reescrita: substituição lexical, correção gramatical e preservação de sentido]] (CAM-LP-021)
 - **Reorganização Sintática e Equivalência Semântica**: [[3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica|33 • Reorganização sintática e equivalência semântica: paráfrase, inversões e paralelismo]] (CAM-LP-022)
+- **Reescrita entre Registros e Redação Oficial**: [[3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais|34 • Reescrita entre registros, níveis de formalidade, discurso direto e indireto e Redação Oficial]] (CAM-LP-023)
 
 ---
 - **Acompanhamento**: [[Avancos|Avanços e desempenho (Português)]]

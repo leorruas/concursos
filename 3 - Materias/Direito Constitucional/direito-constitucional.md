@@ -82,7 +82,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|26. RICD: deputados, imunidades e suplência (arts. 226 a 251)]]: **CAM-PL-022 conforme inventário**, mandato, presença, imunidades, licenças, vacância, suplência e divergência do art. 251 com EC 35/2001. **CAM-PL-023 concluída na nota 27.**
 
-- [[3 - Materias/Direito Constitucional/27 - administracao economia interna e policia da camara artigos 262 a 273|27. Administração, economia interna e polícia da Câmara (RICD arts. 262 a 273)]]: **CAM-PL-023**, serviços, orçamento, controle interno, polícia, Corregedoria e acesso do público. **Próxima: CAM-PL-024, estrutura e demais tópicos do RICD.**
+- [[3 - Materias/Direito Constitucional/27 - administracao economia interna e policia da camara artigos 262 a 273|27. Administração, economia interna e polícia da Câmara (RICD arts. 262 a 273)]]: **CAM-PL-023**, serviços, orçamento, controle interno, polícia, Corregedoria e acesso do público. **CAM-PL-024 concluída no mapa da nota 28.**
+
+- [[3 - Materias/Direito Constitucional/28 - mapa regimental da camara estrutura e fronteiras do edital|28. Regimento da Câmara: mapa de órgãos, competências e recortes do edital]]: CAM-PL-024, síntese dos quatro intervalos literais do RICD, órgão × competência × condição e comunicação institucional. **Próxima: CAM-PL-025, Regimento Comum, Título I.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

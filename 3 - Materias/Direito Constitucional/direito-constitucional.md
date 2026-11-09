@@ -88,7 +88,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|29. Regimento Comum: Título I, sessões conjuntas (arts. 1º a 3º)]]: **CAM-PL-025**, direção, objetos, solenidades, convocação, local e diferenças para votação bicameral. **CAM-PL-026 concluída na nota 30.**
 
-- [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|30. Regimento Comum: sessões solenes e matérias até o art. 103]]: **CAM-PL-026**, solenidades, revogações de PEC e iniciativa presidencial e procedimento orçamentário vinculado à Resolução nº 1/2006-CN. **Próxima: CAM-PL-027, Resolução nº 1/1970-CN.**
+- [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|30. Regimento Comum: sessões solenes e matérias até o art. 103]]: **CAM-PL-026**, solenidades, revogações de PEC e iniciativa presidencial e procedimento orçamentário vinculado à Resolução nº 1/2006-CN. **CAM-PL-027 concluída na nota 31.**
+
+- [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|31. Regimento Comum: lideranças, comissões mistas e votações (arts. 4º–52)]]: CAM-PL-027, regras gerais da Resolução 1/1970-CN, atualização das lideranças, quóruns, voto separado por Casa, questão de ordem e subsidiariedade. **Próxima: CAM-PL-028, Resolução 3/1990-CN.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

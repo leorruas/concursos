@@ -96,7 +96,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|33. Medidas provisórias e Resolução nº 1/2002-CN]]: CAM-PL-029, comissão mista 12+12, prazos 45/60+60, rito Câmara–Senado, ADIs 4.029 e 5.127, PLV, sanção e perda de eficácia. **CAM-PL-030 concluída na nota 34.**
 
-- [[3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara|34. Código de Ética e Decoro Parlamentar da Câmara]]: CAM-PL-030, Resolução nº 25/2001 e Resolução nº 2/2011, atos atentatórios e incompatíveis, 21 membros, rito disciplinar, ampla defesa, CCJC formal e votação aberta em Plenário. **Próxima: CAM-PL-031, Comissões parlamentares de inquérito.**
+- [[3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara|34. Código de Ética e Decoro Parlamentar da Câmara]]: CAM-PL-030, Resolução nº 25/2001 e Resolução nº 2/2011, atos atentatórios e incompatíveis, 21 membros, rito disciplinar, ampla defesa, CCJC formal e votação aberta em Plenário. **CAM-PL-031 concluída na nota 35.**
+
+- [[3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites|35. Comissões Parlamentares de Inquérito (CPI e CPMI)]]: CAM-PL-031, CF art. 58, § 3º, 1/3 das Casas, fato determinado e prazo certo, direito das minorias (MS 24.831), poderes instrutórios judiciais, quebra de sigilo e limites da reserva de jurisdição. **Próxima: CAM-PL-032, Espécies legislativas.**
 
 ## 4. Tópicos Pendentes (Falta Estudar)
 - **Organização do Estado** (bens da União, Estados e Municípios; repartição de competências; intervenção federal).

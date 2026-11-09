@@ -310,6 +310,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990|32. Comissão Representativa no recesso (Resolução 3/1990-CN)]]
   - [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|33. Medidas provisórias (Resolução 1/2002-CN)]]
   - [[3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara|34. Código de Ética e Decoro da Câmara]]
+  - [[3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites|35. Comissões Parlamentares de Inquérito (CPI e CPMI)]]
   - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|11 • Organização do Estado]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]

@@ -418,6 +418,41 @@ Cada ciclo avalia:
 - **Gabaritos das Questões Inéditas:** Todos os 18 itens C/E examinados e validados no padrão Cebraspe, rotulados como `*(Inédita: estilo Cebraspe / ...)*`.
 - **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada — Trilha de Língua Portuguesa (23/23) 100% concluída**.
 
+---
+
+## Ciclo 12 de Auditoria: Unidades CAM-ING-001 a CAM-ING-005 (Lotes 200 a 204) — 09/11/2026
+
+### 12.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-ING-001`, `CAM-ING-002`, `CAM-ING-003`, `CAM-ING-004`, `CAM-ING-005` (5 unidades de abertura da Trilha de Língua Inglesa: localização de assunto/tese/propósito comunicativo; informações explícitas, inferências e limites da dedução; coesão referencial e antecedentes pronominais; conectivos e sequenciação discursiva; e vocabulário contextual, polissemia e falsos cognatos em ambiente institucional).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles.md` (`art-40cd8bf066b67c5f` - CAM-ING-001)
+  2. `3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md` (`art-fbfeb9a2a7fcf639` - CAM-ING-002)
+  3. `3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md` (`art-014af4c94d2ec2bb` - CAM-ING-003)
+  4. `3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md` (`art-730e432a862d8770` - CAM-ING-004)
+  5. `3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md` (`art-82b46bb07081dff1` - CAM-ING-005)
+
+### 12.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados e Resultados:**
+  - `node scripts/test-priority-sync.js` (Aprovado: sincronização opcional, mesmo domínio, revisões intactas, login, 401/403, cache e offline).
+  - `node scripts/validate-flashcards.js` (Aprovado: 270 flashcards, metadados de edital, fontes e seções válidos).
+  - `node scripts/test-public-privacy.js` (Aprovado: ausência rigorosa de dados privados de estudo, logs individuais ou relatórios de sessão no repositório público).
+  - `node scripts/test-article-identity.js` (Aprovado: identidades estáveis de 464 artigos Markdown verificadas, sem colisões de `articleId` ou aliases quebrados).
+  - `node scripts/test-contest-catalog.js` (Aprovado: catálogo com 3 concursos, 32 matérias e 504 vínculos de artigos; privacidade e ordens validadas).
+  - `node scripts/build-site.js` (Aprovado: build estático concluído em `_site/`, manifesto com 464 arquivos compilados e índice de busca de 7,11 MB).
+- **Evidências de Integridade:** Zero links quebrados no hub de Inglês (`ingles.md`), `index.md` e catálogo. Diagramas Mermaid com paleta âmbar/creme (`#fff8e7` e `#faedcd`) e contraste WCAG AA validado.
+
+### 12.3. Auditoria Editorial, Doutrinária e Linguística
+- **Conformidade Linguística e Precisão dos Conceitos:**
+  - `CAM-ING-001`: Estratégias de *skimming* (varredura global) $\times$ *scanning* (busca pontual por termos-âncora); localização do *topic sentence* e tese central no parágrafo introdutório e conclusivo; verbos de elocução que definem propósitos comunicativos (*to challenge, to advocate, to report, to outline, to scrutinize*); e distratores de escopo do Cebraspe (generalização excessiva $\times$ especificidade restritiva).
+  - `CAM-ING-002`: Protocolo estrito de três camadas: informação explícita $\times$ inferência legítima fundamentada $\times$ extrapolação/suposição indesejada; identificação e calibração de *hedging* (marcadores de moderação epistêmica: *may, might, could, suggest, indicate, likely, tend to*); causalidade real $\times$ mera correlação ou coexistência temporal; e inversão de polaridade em enunciados do Cebraspe.
+  - `CAM-ING-003`: Dinâmica da coesão referencial e superação da falácia da proximidade física; três funções sintáticas de *IT* (anafórico com referente substantivo $\times$ *dummy it / empty subject* impessoal $\times$ *cleft sentence* de foco enfático); emprego de *THEY / THEIR* singular epiceno para indivíduos sem gênero especificado; referência proposicional com *THIS* e *THAT*; *sentential WHICH* precedido de vírgula retomando a proposição anterior inteira; e vedação de *THAT* em relativas explicativas.
+  - `CAM-ING-004`: Restrições sintáticas estritas entre conjunção subordinativa (*clause* com verbo finito: *although, even though, whereas, because, since*) $\times$ locução prepositiva (*noun phrase* ou *-ing*: *despite, in spite of, due to, owing to, in addition to*) $\times$ advérbio conectivo interfrasal (*however, nevertheless, therefore, furthermore*); concessão $\times$ contraste/oposição bilateral; causa $\times$ consequência; e valor condicional negativo de *unless* (*if... not*).
+  - `CAM-ING-005`: Vocabulário técnico do processo legislativo e da gestão pública (*bill* = projeto de lei $\neq$ conta; *act* = lei promulgada $\neq$ ação; *house* = casa legislativa; *floor* = plenário; *table* = apresentar/adiar; *provision* = dispositivo legal; *relief* = tutela jurisdicional; *standing* = legitimidade ativa); e falsos amigos críticos (*actually* = na verdade; *policy* = política pública/diretriz; *compromise* = acordo conciliatório mútuo; *attend* = comparecer; *eventually* = com o tempo/finalmente; *notice* = notificação; *resume* = retomar).
+- **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e validados no padrão Cebraspe, rotulados rigorosamente como `*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*`. Distratores calibrados por mudança de modo, certeza, escopo, causalidade e regência sintática.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+- **Acompanhamento Global:** **229 de 315 unidades editoriais concluídas (72,7%)**, **86 pendentes**. **Trilha de Inglês: 5 de 12 unidades concluídas**.
+
+
 
 
 

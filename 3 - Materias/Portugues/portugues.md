@@ -36,6 +36,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Ortografia e Convenções da Escrita**: [[3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao|17 • Ortografia e convenções da escrita: Acordo Ortográfico, acentuação gráfica e hifenização]] (CAM-LP-006)
 - **Ortografia**: [[05 - acordo ortografico|05 • Acordo ortográfico]].
 - **Concordância**: [[06 - concordancia verbal e nominal|06 • Concordância verbal e nominal]].
+- **Concordância Verbal e Nominal (Regras e Fronteiras)**: [[3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira|27 • Concordância verbal e nominal: regras e casos de fronteira]] (CAM-LP-016)
 - **Orações e conectivos**: [[07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas]].
 - **Coordenação**: [[3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas|24 • Coordenação: relações sintáticas, polissemia de conectivos e pontuação]] (CAM-LP-013)
 - **Subordinação**: [[3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial|25 • Subordinação substantiva, adjetiva e adverbial: morfossintaxe e efeitos de sentido]] (CAM-LP-014)

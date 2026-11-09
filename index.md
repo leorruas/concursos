@@ -259,6 +259,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas|24 • Coordenação: relações sintáticas, polissemia de conectivos e pontuação]]
   - [[3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial|25 • Subordinação substantiva, adjetiva e adverbial: morfossintaxe e efeitos de sentido]]
   - [[3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido|26 • Pontuação e efeitos na estrutura e no sentido: vírgula, dois-pontos e travessões]]
+  - [[3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira|27 • Concordância verbal e nominal: regras e casos de fronteira]]
 - [[3 - Materias/Ingles/ingles|Língua inglesa]]
   - [[3 - Materias/Ingles/01 - leitura instrumental tese e inferencias|01 • Leitura instrumental, tese e inferências]]
   - [[3 - Materias/Ingles/02 - conectivos e relacoes logico semanticas|02 • Conectivos e relações lógico-semânticas]]

@@ -45,6 +45,7 @@ updated: 2026-09-14
 ## Inteligência Artificial
 - [[3 - Materias/Informatica/18 - inteligencia artificial definicao tipos de sistemas e aplicacoes publicas|18 • Inteligência artificial: definição, evolução, taxonomia de sistemas e aplicações no setor público]] (CAM-TI-016)
 - [[3 - Materias/Informatica/19 - aprendizagem supervisionada e nao supervisionada algoritmos e metricas|19 • Aprendizagem supervisionada e não supervisionada: algoritmos, tarefas, dados rotulados e métricas]] (CAM-TI-017)
+- [[3 - Materias/Informatica/20 - aprendizagem por reforco e comparacao de modelos de machine learning|20 • Aprendizagem por reforço e comparação sistemática de modelos de machine learning]] (CAM-TI-018)
 
 ## Legislação de segurança da informação e governança digital
 

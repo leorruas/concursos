@@ -1780,15 +1780,15 @@
         "locator": "MCASP 11ª edição, Parte I; Lei nº 4.320/1964, art. 12"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-05",
-      "revision": 3,
+      "reviewedAt": "2026-11-09",
+      "revision": 4,
       "conceptIds": [
         "gnd-vs-elemento-vs-fonte",
         "projeto-acao-vs-gnd-investimento"
       ],
       "contrast": {
-        "prompt": "Quatro níveis da natureza da despesa, em ordem?",
-        "answer": "Categoria econômica → GND → modalidade de aplicação → elemento."
+        "prompt": "Uma ação de construção registra serviços correntes e compra de equipamento. A ação 'projeto' determina que ambos pertençam ao GND 4?",
+        "answer": "Não. Projeto é tipo de ação programática; o GND de cada gasto resulta de sua natureza, independentemente da denominação da ação."
       }
     },
     {
@@ -7697,11 +7697,11 @@
         "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-09",
+      "revision": 2,
       "contrast": {
-        "prompt": "Aplicação direta e transferência a município pertencem a qual nível?",
-        "answer": "Modalidade de aplicação, terceiro nível da natureza da despesa."
+        "prompt": "Em uma transferência a município destinada à compra de equipamentos, o termo 'município' identifica objeto da despesa ou forma de aplicação?",
+        "answer": "Forma de aplicação dos recursos (modalidade). O objeto adquirido é descrito pelo elemento; o GND descreve o grupo econômico."
       },
       "conceptIds": []
     },
@@ -8610,13 +8610,13 @@
         "section": "Superávit financeiro × excesso de arrecadação"
       },
       "source": {
-        "title": "Referência de estudo",
+        "title": "Lei nº 4.320/1964",
         "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
-        "locator": "Lei nº 4.320/1964, art. 43, §§ 2º e 3º"
+        "locator": "art. 43, caput, § 1º e §§ 2º e 3º"
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "superavit-financeiro-vs-excesso-arrecadacao-fonte-credito"
       ],
@@ -8792,11 +8792,11 @@
       "source": {
         "title": "NBC TSP 34",
         "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/",
-        "locator": "itens 53 a 57"
+        "locator": "Itens 53 a 57: eixos de classificação"
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "variavel-nao-implica-direto"
       ],
@@ -8828,11 +8828,11 @@
       "source": {
         "title": "NBC TSP 34",
         "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/",
-        "locator": "itens 53 a 57"
+        "locator": "Itens 53 a 57: eixos de classificação"
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "variavel-nao-implica-direto"
       ],
@@ -8970,13 +8970,13 @@
         "section": "Restos a pagar: o elo que costuma confundir"
       },
       "source": {
-        "title": "Lei nº 4.320/1964",
-        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
-        "locator": "Arts. 36 e 37: RP e DEA"
+        "title": "MCASP 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Parte III: restos a pagar não processados a liquidar e em liquidação"
       },
       "status": "validated",
       "reviewedAt": "2026-11-09",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "rpnp-ingresso-compensatorio-divisao-a-liquidar-em-liquidacao"
       ],
@@ -9019,6 +9019,330 @@
       "contrast": {
         "prompt": "Todo passivo circulante no Quadro Principal deve ser financeiro no quadro do art. 105?",
         "answer": "Não. Os quadros usam critérios diferentes."
+      }
+    },
+    {
+      "id": "orc-erro-programa-especial-dotacao",
+      "term": "Programa especial: dotação global e informação da proposta",
+      "definition": "A Lei 4.320 admite dotação global para programas especiais de trabalho que, por sua natureza, não possam cumprir as normas gerais de execução; isso não elimina a exigência de informações sobre objetivos, metas e custos na proposta pertinente.",
+      "example": "Um programa especial recebe dotação global por dificuldade de discriminar despesas de execução, mas sua proposta apresenta objetivos, metas e custos.",
+      "confusion": "A exceção de execução não autoriza proposta sem informação; diferenciar art. 20, parágrafo único, e art. 22, IV.",
+      "topic": "Reforço direcionado: erros e dúvidas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Especificação: não criar dotação indiferenciada"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "art. 20, parágrafo único; art. 22, IV"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "dotacao-global-programa-especial-art20"
+      ],
+      "contrast": {
+        "prompt": "Uma dotação global em programa especial elimina a necessidade de informar metas e custos na proposta?",
+        "answer": "Não. A ressalva de execução do art. 20 não elimina a informação do art. 22, IV."
+      }
+    },
+    {
+      "id": "orc-erro-gnd-elemento-caso",
+      "term": "GND Investimentos e seus elementos",
+      "definition": "GND indica grupo econômico; elemento especifica o objeto. Gastos do mesmo GND podem envolver elementos diferentes, e a ação programática é outra classificação.",
+      "example": "Uma obra e a compra de equipamento podem pertencer a GND Investimentos, mas não ao mesmo elemento de despesa.",
+      "confusion": "O fato de dois itens estarem no mesmo GND não apaga a distinção do objeto.",
+      "topic": "Reforço direcionado: erros e dúvidas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I; Lei nº 4.320/1964, art. 12"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "gnd-vs-elemento-despesa"
+      ],
+      "contrast": {
+        "prompt": "Obras e equipamentos classificados em GND 4 têm obrigatoriamente o mesmo elemento?",
+        "answer": "Não. GND é grupo; elemento diferencia o objeto, como obras e instalações versus equipamentos e material permanente."
+      }
+    },
+    {
+      "id": "orc-erro-modalidade-elemento-caso",
+      "term": "Quem aplica × objeto adquirido",
+      "definition": "Modalidade de aplicação registra forma pela qual os recursos são aplicados ou transferidos; elemento registra a natureza do objeto da despesa.",
+      "example": "Órgão transfere recursos a município para comprar equipamentos: transferência a município é modalidade, equipamentos é objeto/elemento.",
+      "confusion": "Modalidade de aplicação não é modalidade de licitação nem nome do material comprado.",
+      "topic": "Reforço direcionado: erros e dúvidas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "source": {
+        "title": "Manual Técnico de Orçamento (MTO 2026)",
+        "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026",
+        "locator": "Classificação da despesa: categoria econômica, GND, modalidade e elemento"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "elemento-despesa-vs-modalidade-aplicacao"
+      ],
+      "contrast": {
+        "prompt": "Se o destino é município e o objeto são computadores, qual informação é modalidade e qual é elemento?",
+        "answer": "Transferência a município descreve modalidade; equipamentos e material permanente descreve elemento."
+      }
+    },
+    {
+      "id": "orc-erro-transferencia-finalidade",
+      "term": "Transferência corrente × de capital segundo destinação",
+      "definition": "A classificação por categoria econômica considera a finalidade da transferência: manutenção/custeio usualmente corrente e investimento de capital, como obra, em regra transferência de capital, observadas as classificações legais.",
+      "example": "Estado transfere dinheiro a município para manter merenda; em outro convênio, financia construção de unidade. A finalidade dos recursos altera a classificação.",
+      "confusion": "Quem transfere e quem recebe são perguntas distintas da finalidade econômica da transferência.",
+      "topic": "Reforço direcionado: erros e dúvidas",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Transferência: despesa de quem envia × receita de quem recebe"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964 e MCASP",
+        "url": "https://legis.senado.leg.br/norma/546169/publicacao/34620275",
+        "locator": "Lei nº 4.320/1964, art. 11; classificação das transferências correntes e de capital; MTO/MCASP, modalidade da despesa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "transferencia-capital-por-finalidade"
+      ],
+      "contrast": {
+        "prompt": "Repasse de recursos a município vira transferência de capital apenas porque vai a outro ente?",
+        "answer": "Não. A finalidade do gasto é decisiva: custeio corrente versus investimento de capital."
+      }
+    },
+    {
+      "id": "cont-erro-vpa-120-45",
+      "term": "VPA reconhecida × receita efetivamente arrecadada",
+      "definition": "Na perspectiva patrimonial, o direito que satisfaz critérios de reconhecimento pode gerar VPA antes do recebimento; no orçamento, a receita pertence ao exercício da arrecadação.",
+      "example": "Direito tributário reconhecido por 120 e recebimento de 45 no exercício: VPA de 120 e receita orçamentária arrecadada de 45, assumidas as condições do caso.",
+      "confusion": "Receita a receber não é caixa, e receber parte do direito não gera segunda VPA.",
+      "topic": "Reforço direcionado: erros e dúvidas",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Regime orçamentário × competência patrimonial"
+      },
+      "source": {
+        "title": "MCASP, 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Partes I e II: enfoque orçamentário e patrimonial"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "vpa-direito-reconhecido-vs-arrecadacao"
+      ],
+      "contrast": {
+        "prompt": "Direito reconhecido de 120, arrecadação de 45: o valor da VPA deve ser 45 só por esse recebimento?",
+        "answer": "Não. No caso, VPA 120 pelo direito reconhecido; arrecadação orçamentária 45; saldo a receber 75, sem outros fatos."
+      }
+    },
+    {
+      "id": "cont-erro-vpd-parcela-contrato",
+      "term": "Empenho integral × VPD parcial",
+      "definition": "Empenho compromete crédito orçamentário; VPD por competência reflete serviço já recebido ou consumido, mesmo se o contrato tiver sido empenhado integralmente.",
+      "example": "Contrato de serviço 80 mil empenhado integralmente; somente 25% foi prestado e consumido: VPD de 20 mil, assumida execução uniforme.",
+      "confusion": "Emprenho de todo o contrato não antecipa VPD do serviço futuro.",
+      "topic": "Reforço direcionado: erros e dúvidas",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-3a7092089cf44cce",
+        "section": "Fronteiras prioritárias"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "vpd-parcela-executada-versus-empenho-total"
+      ],
+      "contrast": {
+        "prompt": "Contrato empenhado em 80 mil, um quarto prestado. O resultado patrimonial já incorpora VPD de 80 mil?",
+        "answer": "Não. Considerando serviço uniforme, VPD de 20 mil pelo consumo ocorrido; empenho e competência são eixos diferentes."
+      }
+    },
+    {
+      "id": "cont-erro-aquisicao-depreciacao",
+      "term": "Equipamento adquirido × depreciação após disponibilidade",
+      "definition": "Aquisição de imobilizado reconhece o bem como ativo; depreciação distribui seu valor depreciável conforme consumo do potencial de serviços a partir da disponibilidade para uso, observadas regras pertinentes.",
+      "example": "Órgão compra aparelho por 60 mil e o coloca em uso depois. A aquisição não representa VPD imediata de 60 mil; a depreciação segue o consumo ao longo da vida útil.",
+      "confusion": "Despesa de capital e VPD são conceitos diferentes; compra não determina momento de depreciação.",
+      "topic": "Reforço direcionado: erros e dúvidas",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-85b3a61ad09e44c1",
+        "section": "Estrutura interna: patrimônio, resultado e fatos permutativos"
+      },
+      "source": {
+        "title": "MCASP 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Parte II: imobilizado e depreciação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "aquisicao-ativo-versus-depreciacao-vpd"
+      ],
+      "contrast": {
+        "prompt": "Equipamento chegou ao almoxarifado ainda indisponível para uso. A compra obriga VPD integral imediata?",
+        "answer": "Não. O ativo permanece registrado; a depreciação inicia, em regra, quando disponível para uso, segundo as regras contábeis."
+      }
+    },
+    {
+      "id": "cont-erro-quadro-atos-potenciais",
+      "term": "Atos potenciais a executar × já executados",
+      "definition": "O quadro de compensação evidencia atos potenciais capazes de afetar o patrimônio; distinguir compromisso ainda a executar de sua execução evita tratar garantia futura como ativo, passivo ou despesa já efetivados.",
+      "example": "Contrato de garantia ainda vigente é potencial; a obrigação efetivamente acionada exige reavaliar seu estágio e reconhecimento patrimonial.",
+      "confusion": "Potencial de produzir efeito não equivale a fato patrimonial já ocorrido nem dispensa avaliar obrigações presentes.",
+      "topic": "Reforço direcionado: erros e dúvidas",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-bf384b8a28aa4753",
+        "section": "Quadro de compensação"
+      },
+      "source": {
+        "title": "MCASP 11ª edição",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Parte V: BP, quadro de compensação"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "compensacao-atos-potenciais-a-executar-versus-executados"
+      ],
+      "contrast": {
+        "prompt": "Garantia ainda não acionada é obrigatoriamente despesa realizada e passivo patrimonial?",
+        "answer": "Não. Ato potencial a executar não significa, isoladamente, obrigação presente reconhecível ou pagamento."
+      }
+    },
+    {
+      "id": "cont-erro-vpd-fato-gerador",
+      "term": "VPD por serviço consumido antes da liquidação",
+      "definition": "No regime patrimonial de competência, serviço já prestado e consumido pode gerar VPD e passivo antes da verificação administrativa de liquidação e antes do pagamento.",
+      "example": "Serviço de limpeza prestado em dezembro e liquidado em janeiro: reconhece-se VPD no período do serviço se preenchidos os critérios.",
+      "confusion": "Não confundir comprovação administrativa posterior com data do fato gerador patrimonial.",
+      "topic": "Reforço direcionado: erros e dúvidas",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-3a7092089cf44cce",
+        "section": "Fronteiras prioritárias"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "vpd-servico-consumido-antes-da-liquidacao"
+      ],
+      "contrast": {
+        "prompt": "Se o serviço foi consumido em dezembro, a VPD fica automaticamente para janeiro porque a nota foi liquidada em janeiro?",
+        "answer": "Não. O consumo do serviço determina o reconhecimento patrimonial, e a liquidação é etapa orçamentária distinta."
       }
     }
   ]

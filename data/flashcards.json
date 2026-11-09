@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-09",
   "exams": [
     {
       "id": "cgu-2026",
@@ -2941,9 +2941,9 @@
     {
       "id": "aud-analitico-substantivo",
       "term": "Procedimento analítico substantivo",
-      "definition": "Comparar valores registrados com expectativas e relações fundamentadas para obter evidência direta sobre a adequação dos valores ou transações.",
-      "example": "Estimar R$ 480 mil para 1.200 bolsas de R$ 400 e investigar a diferença diante dos R$ 495 mil registrados.",
-      "confusion": "Analítico indica relações e expectativas; substantivo indica busca de evidência sobre valores. Uma diferença, sozinha, não comprova fraude.",
+      "definition": "Finalidade: obter evidência substantiva sobre a adequação de valores, saldos ou transações, comparando registros com expectativas fundamentadas em relações plausíveis. Analítico descreve o método; substantivo, a finalidade de testar diretamente a informação auditada.",
+      "example": "Para 1.200 bolsas de R$ 400, a expectativa é R$ 480 mil. O registro de R$ 495 mil gera diferença de R$ 15 mil: avaliar se supera o limite aceitável, conferir confiabilidade dos dados e investigar explicações com evidências adicionais.",
+      "confusion": "Análise de tendências pode apenas orientar o planejamento ou identificar riscos. Torna-se substantiva quando é planejada para produzir evidência sobre valores auditados, com expectativa suficientemente precisa e dados confiáveis. Diferença não é prova automática de erro ou fraude.",
       "topic": "Finalidade dos testes",
       "subjectIds": [
         "auditoria-governamental"
@@ -2964,15 +2964,15 @@
         "locator": "MOT 4.3.4.3 e 4.3.4.5"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "reviewedAt": "2026-11-09",
+      "revision": 3,
       "conceptIds": [
         "procedimento-analitico-substantivo",
         "precisao-confiabilidade-analitico"
       ],
       "contrast": {
-        "prompt": "Análise de tendências para escolher objetos × comparação para sustentar valor pago: o que muda?",
-        "answer": "A finalidade: priorização no planejamento versus procedimento analítico substantivo para obter evidência sobre o valor."
+        "prompt": "Comparar gastos para selecionar objetos de auditoria × comparar total pago com expectativa para sustentar conclusão sobre valores: qual a diferença?",
+        "answer": "A finalidade: no primeiro caso, análise para planejar ou avaliar riscos; no segundo, procedimento analítico substantivo para obter evidência sobre o valor auditado. Diferenças relevantes exigem investigação, não conclusão automática."
       }
     },
     {

@@ -290,6 +290,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas|16 • Phishing, pharming e engenharia social: técnicas de manipulação, vetores e contramedidas]]
   - [[3 - Materias/Informatica/17 - governanca digital e responsabilidade no servico publico|17 • Governança digital, governo eletrônico e responsabilidade no serviço público]]
   - [[3 - Materias/Informatica/18 - inteligencia artificial definicao tipos de sistemas e aplicacoes publicas|18 • Inteligência artificial: definição, evolução, taxonomia de sistemas e aplicações no setor público]]
+  - [[3 - Materias/Informatica/19 - aprendizagem supervisionada e nao supervisionada algoritmos e metricas|19 • Aprendizagem supervisionada e não supervisionada: algoritmos, tarefas, dados rotulados e métricas]]
 - [[3 - Materias/Direito Constitucional/direito-constitucional|Direito constitucional]]
   - [[3 - Materias/Direito Constitucional/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|01 • Princípios fundamentais]]

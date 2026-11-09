@@ -13,9 +13,10 @@ updated: 2026-09-14
 ## Acompanhamento
 - [[3 - Materias/Informatica/Avancos|Avanços e desempenho]]
 
-## Sistemas Operacionais
+## Sistemas Operacionais e Armazenamento em Nuvem
 - Windows (principais funções)
 - [[3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes|03 • Arquivo, pasta, nuvem e sincronização: conceitos, estruturas e operações]] (CAM-TI-001)
+- [[3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes|07 • OneDrive: sincronização corporativa, compartilhamento de links e permissões de acesso]] (CAM-TI-005)
 - Organização de arquivos e pastas
 
 ## Pacote Office

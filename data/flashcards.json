@@ -8373,10 +8373,10 @@
     },
     {
       "id": "aud-risco-inerente",
-      "term": "Risco inerente × risco residual",
-      "definition": "O risco inerente é a exposição antes de considerar medidas de tratamento; o residual é a exposição que permanece ao considerá-las, e pode continuar elevada.",
-      "example": "Antes do bloqueio de pagamentos duplicados, mede-se a exposição inerente; depois de implementado o bloqueio, examina-se o risco que permanece, conferindo também se o controle funciona.",
-      "confusion": "Um controle bem desenhado, registrado em manual ou instalado no sistema não prova que operou de modo eficaz ou que reduziu o risco residual.",
+      "term": "Risco inerente × risco residual × controle preventivo",
+      "definition": "Risco inerente é a exposição antes de considerar medidas de tratamento. Risco residual é a exposição que permanece considerando as medidas implementadas, mesmo que continue elevada. Controle preventivo é uma medida destinada a evitar o evento indesejado ou reduzir sua probabilidade, antes que ocorra; controle detectivo procura identificar falhas ou eventos já ocorridos.",
+      "example": "Um órgão enfrenta o risco de pagar benefícios em duplicidade. Primeiro, avalia a exposição inerente, sem considerar o bloqueio. Depois, instala uma função que impede pagamentos repetidos: esse é um controle preventivo. Para avaliar o risco residual, verifica se a função realmente opera e quais possibilidades de erro permanecem.",
+      "confusion": "O termo correto é controle preventivo, não risco preventivo. A existência ou o desenho do controle não comprova seu funcionamento nem garante redução do risco residual. Risco residual não significa risco baixo.",
       "topic": "Gestão de riscos",
       "subjectIds": [
         "auditoria-governamental",
@@ -8400,7 +8400,7 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "revision": 2,
       "conceptIds": [
         "risco-residual-controle"
       ],

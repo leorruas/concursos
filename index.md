@@ -146,7 +146,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|02 • Administração direta e indireta: entidades e vínculos]]
    - [[3 - Materias/Direito Administrativo/03 - atos administrativos|03 • Elementos e requisitos de validade do ato administrativo]]
    - [[3 - Materias/Direito Administrativo/04 - poderes administrativos|04 • Poderes administrativos]]
-   - [[3 - Materias/Direito Administrativo/05 - agentes publicos|05 • Agentes públicos]]
+   - [[3 - Materias/Direito Administrativo/05 - agentes publicos|05 • Agentes públicos: espécies, cargos, empregos e funções]]
    - [[3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado|06 • Responsabilidade civil do Estado]]
    - [[3 - Materias/Direito Administrativo/07 - improbidade administrativa|07 • Improbidade administrativa]]
    - [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|08 • Licitações e contratos]]

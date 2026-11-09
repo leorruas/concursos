@@ -35,7 +35,7 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 - [[18 - parecer administrativo natureza tipos e responsabilidade do parecerista|18 • Parecer administrativo: natureza, tipos e responsabilidade do parecerista]] (CAM-DAD-010): ato enunciativo, tipologia (facultativo, obrigatório - art. 53 da Lei 14.133/2021 e vinculante - art. 40 da LC 73/1993) e regime de responsabilização por dolo ou erro grosseiro (art. 28 da LINDB, MS 24.631 STF e jurisprudência do TCU).
 
 ## 4. Agentes Públicos e Responsabilidade
-- [[05 - agentes publicos|05 • Agentes públicos (Definição, classificações e regimes de vínculo)]].
+- [[05 - agentes publicos|05 • Agentes públicos: espécies, cargos, empregos, funções e regimes de vinculação estatal]] (CAM-DAD-011): classificação doutrinária (políticos, administrativos, honoríficos, delegados e credenciados), distinção entre cargos, empregos e funções, comissão vs. confiança (art. 37, V, CF e Tema 1010 STF), temporários (art. 37, IX, CF e Lei 8.745/1993), estabilidade (art. 41) e motivação da dispensa de celetistas de estatais (Tema 1022 STF).
 - [[06 - responsabilidade civil do estado|06 • Responsabilidade civil do Estado (Fundamentos, objetiva vs subjetiva, regresso)]].
 - Regime de provimento, vacância e cargos públicos.
 

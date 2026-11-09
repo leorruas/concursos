@@ -1,193 +1,263 @@
 ---
 articleId: art-6b9002df47604ea5
 articleAliases: ["3 - Materias/Direito Administrativo/05 - agentes publicos.md"]
-title: "Agentes públicos"
+title: "Agentes públicos: espécies, cargos, empregos, funções e regimes de vinculação estatal"
 type: "conceito"
 status: "ativo"
 created: 2026-06-04
-updated: 2026-09-10
+updated: 2026-11-09
 ---
 
-# Agentes públicos
+# Agentes públicos: espécies, cargos, empregos, funções e regimes de vinculação estatal
 
-**Agente público** é expressão ampla para a pessoa física que exerce função pública, definitiva ou transitoriamente, com ou sem remuneração. Para prova, é essencial separar **classificações doutrinárias** das **categorias e regras constitucionais de vínculo**.
+A expressão **agente público** constitui a mais ampla categoria jurídica do direito administrativo para designar toda e qualquer pessoa física que exerça, ainda que transitoriamente ou sem remuneração, por eleição, nomeação, designação, contratação ou qualquer outra forma de investidura ou vínculo, mandato, cargo, emprego ou função nas entidades da Administração Pública direta e indireta ou em órgãos dos Poderes do Estado (conceito positivado expressamente no art. 2º da Lei nº 8.429/1992 e no art. 327 do Código Penal).
 
-## Classificação doutrinária: não existe uma única taxonomia
+Para a compreensão dogmática e o enfrentamento de questões do Cebraspe, é indispensável dominar:
+1. As **classificações doutrinárias** consagradas (destacando-se a taxonomia clássica de Hely Lopes Meirelles e a moderna de Maria Sylvia Zanella Di Pietro);
+2. A distinção conceitual precisa entre **cargo público**, **emprego público** e **função pública**;
+3. As espécies de cargos e funções (cargo efetivo, cargo em comissão e função de confiança - art. 37, V, da CF/1988);
+4. O regime dos **servidores temporários** (art. 37, IX, da CF/1988 e Lei nº 8.745/1993);
+5. As regras constitucionais de **acesso por concurso público** e o regime de **estabilidade** (art. 41 da CF/1988), contrastado com a dispensa motivada dos empregados públicos de empresas estatais (Tema 1022 do STF).
 
-A versão anterior desta nota apresentava cinco categorias como “a classificação doutrinária”. Essa estrutura deve ser atribuída especificamente a **Hely Lopes Meirelles**:
+```mermaid
+flowchart TD
+    classDef raiz fill:#fff8e7,stroke:#d4a373,stroke-width:2px,color:#2b2b2b;
+    classDef especie fill:#faedcd,stroke:#d4a373,stroke-width:1.5px,color:#2b2b2b;
+    classDef vinculo fill:#e9edc9,stroke:#ccd5ae,stroke-width:1.5px,color:#2b2b2b;
 
-```text
-Agentes públicos
-├─ agentes políticos
-├─ agentes administrativos
-├─ agentes honoríficos
-├─ agentes delegados
-└─ agentes credenciados
+    A["Gênero: AGENTES PÚBLICOS<br/>(Toda pessoa física exercendo função estatal)"]:::raiz
+
+    A --> B["Agentes Políticos<br/>(Chefes de Poder, Ministros, Parlamentares, Magistrados, MP)"]:::especie
+    A --> C["Agentes Administrativos<br/>(Servidores Estatutários, Empregados Celetistas, Temporários)"]:::especie
+    A --> D["Agentes Honoríficos<br/>(Munus público transitório: Jurados, Mesários)"]:::especie
+    A --> E["Agentes Delegados<br/>(Concessionários, permissionários, tabeliães/registradores)"]:::especie
+    A --> F["Agentes Credenciados<br/>(Representação do Estado em missão específica)"]:::especie
+
+    C --> G["Vínculo Estatutário<br/>(Cargo Efetivo / Cargo em Comissão)"]:::vinculo
+    C --> H["Vínculo Celetista<br/>(Emprego Público CLT: Empresas Públicas e SEM)"]:::vinculo
+    C --> I["Regime Especial<br/>(Contratação Temporária - art. 37, IX, CF)"]:::vinculo
 ```
 
-Outros autores organizam o universo de agentes de maneira diferente. Maria Sylvia Zanella Di Pietro, por exemplo, trabalha com categorias como agentes políticos, servidores públicos, militares e particulares em colaboração com o Poder Público.
+---
 
-> [!IMPORTANT]
-> Em questão que cite um autor, responda pela taxonomia daquele autor. Não transforme uma classificação doutrinária em estrutura legal única.
+## 1. Classificações Doutrinárias de Agentes Públicos
 
-## Hely Lopes Meirelles
+A doutrina não adota uma classificação única e universal. Nas provas do Cebraspe, a taxonomia de **Hely Lopes Meirelles** é a mais cobrada quando se referem às "cinco espécies", ao passo que a formulação de **Maria Sylvia Zanella Di Pietro** é invocada quando se contrapõem "servidores públicos" a "particulares em colaboração".
 
-### Agentes políticos
+### 1.1. Classificação Clássica de Hely Lopes Meirelles
+1. **Agentes Políticos:** componentes dos escalões superiores da Administração e dos Poderes do Estado. Não mantêm vínculo profissional/hierárquico comum, mas vínculo de natureza política e constitucional direta:
+   - *Titulares de mandato eletivo:* Presidente, Governadores, Prefeitos, Senadores, Deputados e Vereadores.
+   - *Auxiliares imediatos do Executivo:* Ministros de Estado e Secretários Estaduais/Municipais.
+   - *Membros de órgãos constitucionais autônomos:* Magistrados, membros do Ministério Público (MP), Conselheiros e Ministros dos Tribunais de Contas.
+2. **Agentes Administrativos:** pessoas físicas que mantêm relação de trabalho profissional e remunerada com a Administração Pública direta, autárquica e fundacional, ou com entidades paraestatais, sujeitas a hierarquia administrativa e regime jurídico funcional:
+   - *Servidores públicos estatutários:* ocupantes de cargos públicos efetivos ou em comissão.
+   - *Empregados públicos:* contratados sob o regime da CLT (empresas públicas e sociedades de economia mista).
+   - *Servidores temporários:* contratados por prazo determinado sob regime jurídico-administrativo especial (art. 37, IX, CF).
+3. **Agentes Honoríficos:** cidadãos convocados, nomeados ou designados para prestar serviços específicos ao Estado em razão de um *munus* público ou dever cívico de colaboração.
+   - Não mantêm vínculo profissional permanente nem recebem, como regra geral, retribuição salarial pública ordinária (ex.: jurados do Tribunal do Júri, mesários eleitorais, membros de comissões de juristas honorários).
+4. **Agentes Delegados:** particulares que recebem da Administração a incumbência da execução de determinado serviço público ou atividade estatal em nome próprio, por sua conta e risco, sob fiscalização permanente do Poder Concedente:
+   - Concessionários e permissionários de serviços públicos (Lei nº 8.987/1995);
+   - Titulares de serviços notariais e de registro (cartorários e tabeliães - art. 236 da CF/1988);
+   - Leiloeiros públicos e tradutores públicos juramentados.
+5. **Agentes Credenciados:** particulares que recebem autorização para representar a Administração Pública em determinado evento, atividade, missão protocolar ou ato internacional específico (ex.: cientista ou diplomata ad hoc credenciado para representar o país em comissão temática no exterior).
 
-Na classificação de Hely, são agentes situados nos escalões de direção governamental e de funções constitucionais relevantes. A extensão exata da categoria varia entre autores, sobretudo quanto a magistrados e membros do Ministério Público.
+### 1.2. Classificação de Maria Sylvia Di Pietro
+Di Pietro agrupa os agentes em quatro grandes grupos:
+- **Agentes políticos;**
+- **Servidores públicos** (divididos em estatutários, empregados públicos e temporários);
+- **Militares** (art. 42 e 142 da CF/1988);
+- **Particulares em colaboração com o Poder Público** (abrangendo os que colaboram por delegação - concessionários; por requisição/dever cívico - jurados/mesários; por voluntariado; e por credenciamento).
 
-**Pegadinha:** se a questão disser apenas “segundo a doutrina”, sem indicar autor, cuidado com alternativas que dependam de uma classificação controvertida. Se indicar Hely, use a estrutura própria dele.
+---
 
-### Agentes administrativos
+## 2. Distinção Estrutural: Cargo Público versus Emprego Público versus Função Pública
 
-Exercem atividade profissional e remunerada na estrutura administrativa, sujeitos a vínculo funcional e hierarquia administrativa. Na classificação de Hely, aqui aparecem servidores estatutários, empregados públicos e temporários.
+Uma das áreas mais férteis para distratores da banca consiste em confundir os conceitos de **cargo**, **emprego** e **função**:
 
-### Agentes honoríficos
+| Categoria | Conceito Dogmático | Regime Jurídico | Natureza do Vínculo | Hipótese de Ocorrência |
+| :--- | :--- | :--- | :--- | :--- |
+| **Cargo Público** | Lugar instituído na organização do serviço público, **criado por lei**, em número determinado e com denominação própria, com conjunto de atribuições e estipêndio pago pelos cofres públicos. | **Estatutário** (disciplinado por estatuto legal, e.g., Lei nº 8.112/1990). | Vínculo de direito público; não há contrato de trabalho; alteração unilateral de regime por lei. | Administração Direta, Autarquias e Fundações Públicas de direito público. |
+| **Emprego Público** | Unidade de atribuições e tarefas desempenhadas por trabalhador sob vínculo contratual regido predominantemente pelo direito do trabalho comum. | **Trabalhista / Celetista** (regido pela CLT - Consolidação das Leis do Trabalho). | Vínculo contratual trabalhista bilateral, com recolhimento obrigatório de FGTS. | Empresas Públicas, Sociedades de Economia Mista e suas subsidiárias (art. 173, § 1º, II, CF). |
+| **Função Pública** | Conjunto de atribuições materiais e responsabilidades conferidas ao agente. Toda posição estatal envolve função, mas **pode existir função sem cargo e sem emprego**. | Estatutário ou especial de direito público. | Vínculo especial de chefia transitória ou contratação emergencial. | 1. **Função de Confiança** (art. 37, V); 2. **Contratação Temporária** (art. 37, IX); 3. Funções transitórias de mesa diretora/comissões. |
 
-Particulares convocados ou designados transitoriamente para colaborar com o Estado em razão de dever cívico, como **jurados e mesários eleitorais**. Não são servidores efetivos nem empregados públicos.
+```mermaid
+flowchart LR
+    classDef raiz fill:#fff8e7,stroke:#d4a373,stroke-width:2px,color:#2b2b2b;
+    classDef cargo fill:#faedcd,stroke:#d4a373,stroke-width:1.5px,color:#2b2b2b;
+    classDef emprego fill:#e9edc9,stroke:#ccd5ae,stroke-width:1.5px,color:#2b2b2b;
 
-### Agentes delegados
+    A["Espécies de Posições Funcionais"]:::raiz
 
-Particulares que recebem delegação para executar atividade ou serviço público em nome próprio, por sua conta e risco, sob fiscalização estatal. Exemplos clássicos: concessionários, permissionários e delegatários de serviços notariais e registrais.
+    A --> B["CARGO PÚBLICO<br/>(Criado por Lei / Estatuto / Efetivo ou Comissão)"]:::cargo
+    A --> C["EMPREGO PÚBLICO<br/>(Regido pela CLT / Empresas Estatais / Concurso)"]:::emprego
+    A --> D["FUNÇÃO PÚBLICA<br/>(Atribuições sem cargo autônomo / Confiança ou Temporário)"]:::cargo
 
-### Agentes credenciados
+    B --> B1["Adquire Estabilidade (art. 41 CF) se for efetivo após 3 anos + estágio probatório"]:::cargo
+    C --> C1["NÃO adquire estabilidade do art. 41 da CF (STF Tema 1022: dispensa motivada)"]:::emprego
+```
 
-Pessoas incumbidas de representar a Administração em atividade ou missão específica, conforme a concepção doutrinária de Hely.
+---
 
-## Cargo público × emprego público × função
+## 3. O Confronto Constitucional: Cargo Efetivo, Cargo em Comissão e Função de Confiança
 
-Essas categorias dizem respeito ao vínculo ou à posição funcional, não à classificação doutrinária anterior.
+O art. 37, inciso V, da Constituição Federal estabelece uma distinção rigorosa de enquadramento funcional:
+> *"As funções de confiança, exercidas **exclusivamente por servidores ocupantes de cargo efetivo**, e os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, destinam-se **apenas às atribuições de direção, chefia e assessoramento**."*
 
-### Cargo público
+### 3.1. Quadro Comparativo: Cargo em Comissão versus Função de Confiança
 
-É unidade de atribuições criada por lei e ocupada sob regime estatutário. O cargo pode ser, entre outras classificações, de provimento efetivo ou em comissão.
-
-### Emprego público
-
-É vínculo regido predominantemente pela CLT. Empresas públicas e sociedades de economia mista utilizam, em regra, empregos públicos, embora a admissão também esteja sujeita à exigência constitucional de concurso, salvo exceções constitucionais.
-
-### Função pública
-
-É o conjunto de atribuições exercidas por uma pessoa. Pode existir função sem cargo autônomo, como ocorre na função de confiança e na contratação temporária fundada no art. 37, IX.
-
-## Cargo efetivo × cargo em comissão × função de confiança
-
-### Cargo efetivo
-
-- ingresso, em regra, por concurso público;
-- vínculo estatutário;
-- pode gerar estabilidade, quando preenchidos os requisitos do art. 41 da Constituição.
-
-A estabilidade exige **três anos de efetivo exercício** para servidor nomeado para cargo de provimento efetivo em virtude de concurso e **avaliação especial de desempenho** por comissão instituída para essa finalidade.
-
-### Cargo em comissão
-
-O art. 37, V, determina que cargos em comissão:
-
-- destinam-se **apenas** a direção, chefia e assessoramento;
-- são de livre nomeação e exoneração;
-- podem ser ocupados por pessoa sem vínculo efetivo, observados os casos, condições e percentuais mínimos destinados a servidores de carreira previstos em lei.
+| Critério | Cargo em Comissão | Função de Confiança |
+| :--- | :--- | :--- |
+| **Destinação material** | **Apenas** direção, chefia e assessoramento. | **Apenas** direção, chefia e assessoramento. |
+| **Quem pode ocupar?** | Servidor de carreira **ou pessoa de fora** (sem vínculo efetivo), respeitados os percentuais mínimos de lei para servidores de carreira. | **Exclusivamente servidor titular de cargo efetivo**. |
+| **Forma de provimento** | Nomeação para cargo em comissão (livre nomeação e livre exoneração - *ad nutum*). | Designação para função de confiança (dispensa *ad nutum*). |
+| **Vínculo previdenciário** | Se não for efetivo: Regime Geral de Previdência Social (RGPS/INSS - art. 40, § 13, CF). | Mantém o Regime Próprio de Previdência Social (RPPS) do cargo efetivo. |
+| **Criação de atribuições burocráticas ordinárias** | **Inconstitucional** (vedada pelo STF - Tema 1010 de Repercussão Geral). | **Inconstitucional** se criada para tarefas operacionais cotidianas. |
 
 > [!WARNING]
-> Livre nomeação não significa liberdade para criar cargo em comissão destinado a atividade técnica, burocrática ou operacional ordinária. A finalidade constitucional continua restrita a direção, chefia e assessoramento.
+> **Tese do STF sobre Cargos em Comissão (Tema 1010):** A criação de cargos em comissão somente se justifica para o exercício de funções de direção, chefia e assessoramento, **sendo inconstitucional a criação de cargos comissionados para atividades técnicas, operacionais, burocráticas ou rotineiras**, que devem ser desempenhadas obrigatoriamente por servidores de cargo efetivo aprovados em concurso público.
 
-### Função de confiança
+---
 
-- também se destina apenas a direção, chefia e assessoramento;
-- é exercida **exclusivamente por servidor ocupante de cargo efetivo**.
+## 4. Servidores Temporários (Art. 37, IX, da CF/1988)
 
-**Pergunta discriminadora:** a pessoa precisa ser ocupante de cargo efetivo?
+A Constituição autoriza que a lei estabeleça os casos de contratação por tempo determinado para atender a **necessidade temporária de excepcional interesse público**:
+- **Regime Jurídico:** trata-se de regime **jurídico-administrativo especial**, e não de relação de emprego regida pela CLT nem de provimento de cargo efetivo estatutário. A competência jurisdicional para dirimir controvérsias decorrentes dessa contratação perante a União é da **Justiça Federal**, e não da Justiça do Trabalho (ADI 3.395/DF do STF).
+- **Pressupostos cumulativos de validade (STF - Tema 612):**
+  1. Previsão em lei formal das hipóteses taxativas de contratação;
+  2. Determinação temporal do contrato (vedada prorrogação indefinida que burle o concurso);
+  3. Caráter temporário da necessidade pública;
+  4. Excepcionalidade do interesse público (calamidade pública, emergência sanitária, recenseamento demográfico, combate a endemias, etc.);
+  5. Indispensabilidade da contratação imediata para a continuidade do serviço.
+- **Processo Seletivo Simplificado:** no plano federal, a Lei nº 8.745/1993 exige a realização de **processo seletivo simplificado sujeito a ampla divulgação** (com análise curricular ou provas), dispensando-se o processo seletivo apenas em hipóteses estritas de calamidade pública formalmente decretada ou emergência militar.
 
-- função de confiança → **sim**;
-- cargo em comissão → **não necessariamente**.
+---
 
-## Servidor temporário: art. 37, IX
+## 5. Concurso Público e Estabilidade (Art. 37, II, e Art. 41 da CF/1988)
 
-A Constituição autoriza contratação por tempo determinado para atender a **necessidade temporária de excepcional interesse público**, nos casos estabelecidos em lei.
+### 5.1. A regra de concurso público
+- A investidura originária em **cargo de provimento efetivo** ou em **emprego público** depende obrigatoriamente de prévia aprovação em concurso público de provas ou de provas e títulos.
+- **Prazo de validade do concurso:** até **dois anos**, prorrogável uma única vez por igual período (art. 37, III, CF).
+- **Direito subjetivo à nomeação:** o candidato aprovado dentro do número de vagas previsto originariamente no edital tem **direito subjetivo à nomeação**, salvo situações excepcionais supervenientes que preencham os requisitos fixados pelo STF no RE 598.099 (superveniência, imprevisibilidade, gravidade e necessidade motivada).
 
-O vínculo é de natureza **jurídico-administrativa especial**, e não um emprego celetista comum nem um cargo efetivo. O STF exige, para a validade da contratação temporária, elementos como previsão legal das hipóteses, prazo predeterminado, necessidade temporária, excepcional interesse público e indispensabilidade da contratação.
+### 5.2. O Regime de Estabilidade Constitucional (Art. 41)
+A estabilidade no serviço público é direito outorgado ao servidor público civil estatutário, desde que preenchidos **dois requisitos cumulativos**:
+1. **Nomeação para cargo de provimento efetivo em virtude de concurso público;**
+2. **Cumprimento de 3 (três) anos de efetivo exercício;**
+3. **Aprovação obrigatória em avaliação especial de desempenho** por comissão constituída para essa finalidade (art. 41, § 4º, CF).
 
-### Processo seletivo simplificado
+O servidor público estável só perderá o cargo nas seguintes hipóteses taxativas:
+1. Em virtude de **sentença judicial transitada em julgado**;
+2. Mediante **processo administrativo disciplinar (PAD)** no qual lhe seja assegurada ampla defesa;
+3. Mediante procedimento de **avaliação periódica de desempenho**, na forma de lei complementar, assegurada ampla defesa;
+4. Para **adequação dos limites de gastos com pessoal** (art. 169 da CF/1988), após exoneração prévia de comissionados e redução de 20% das despesas com cargos em comissão.
 
-A Constituição não escreve que toda contratação temporária deve ocorrer por “processo seletivo simplificado”. No âmbito federal, a **Lei nº 8.745/1993** disciplina esse recrutamento e prevê processo seletivo simplificado, com exceções legais específicas.
+### 5.3. A Situação dos Empregados Públicos de Empresas Estatais
+- Os empregados públicos concursados de empresas públicas e sociedades de economia mista (como Petrobras, Banco do Brasil, Caixa Econômica Federal e Correios) **NÃO gozam da estabilidade do art. 41 da CF/1988** (Súmula 390, II, do TST).
+- **A Tese do STF no Tema 1022 (RE 688.267 - fixada em 2024):** As empresas públicas e sociedades de economia mista, mesmo exploradoras de atividade econômica em regime de concorrência, **têm o dever de motivar formalmente o ato de demissão de seus empregados admitidos por concurso público**. Não se exige a instauração prévia de PAD idêntico ao do servidor estável nem justa causa da CLT estrita, mas é vedada a demissão arbitrária e imotivada, exigindo-se fundamentação com base em critérios objetivos de conveniência técnica, financeira, disciplinar ou operacional.
 
-> [!IMPORTANT]
-> Em prova constitucional: memorize o art. 37, IX. Em prova de regime federal: acrescente as regras da Lei nº 8.745/1993. Não transporte automaticamente a disciplina federal para todos os entes federativos.
+---
 
-## Concurso público
+## Questões Comentadas (Estilo Cebraspe)
 
-O art. 37, II, estabelece como regra que a investidura em **cargo ou emprego público** depende de aprovação prévia em concurso de provas ou de provas e títulos, conforme a natureza e a complexidade da função.
+### Questão 1
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
+Acerca das normas constitucionais incidentes sobre os cargos em comissão e funções de confiança, julgue o item a seguir.
 
-Exceções ou regimes específicos não podem ser ampliados por analogia. Entre as distinções mais cobradas:
+> De acordo com o art. 37, V, da Constituição Federal, as funções de confiança destinam-se exclusivamente às atribuições de direção, chefia e assessoramento, devendo ser exercidas obrigatoriamente por servidores ocupantes de cargo efetivo, ao passo que os cargos em comissão, destinados às mesmas atribuições, podem ser preenchidos por pessoas sem vínculo efetivo com a Administração, observados os percentuais mínimos reservados a servidores de carreira fixados em lei.
 
-- cargo efetivo → concurso;
-- emprego público → concurso;
-- cargo em comissão → livre nomeação e exoneração, dentro da finalidade constitucional;
-- contratação temporária → art. 37, IX e lei específica; não é provimento de cargo efetivo.
+**( ) Certo**  
+**( ) Errado**
 
-## Estabilidade × emprego público
+> **Gabarito: Certo**  
+> **Comentário:** O item sintetiza perfeitamente o texto e a disciplina do art. 37, V, da CF/1988. Tanto as funções de confiança quanto os cargos em comissão possuem a mesma destinação teleológica constitucional restrita (direção, chefia e assessoramento). A diferença crucial e definidora reside no fato de que a função de confiança exige titularidade prévia de cargo efetivo, enquanto o cargo em comissão admite o provimento de profissionais externos à carreira pública, respeitadas as cotas legais mínimas reservadas aos servidores efetivos.
 
-A estabilidade do art. 41 é assegurada ao servidor nomeado para **cargo de provimento efetivo** em virtude de concurso, após o preenchimento dos requisitos constitucionais.
+---
 
-Empregado de empresa pública ou sociedade de economia mista não adquire a estabilidade do art. 41 apenas por ter ingressado mediante concurso. Isso não significa, porém, que sua dispensa seja necessariamente arbitrária ou imotivada: a jurisprudência do STF estabelece requisitos próprios de motivação para a dispensa de empregados concursados de empresas estatais, sem equipará-los ao servidor estável.
+### Questão 2
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
+No que concerne à classificação doutrinária dos agentes públicos e à categoria dos agentes honoríficos, julgue o item subsequente.
 
-> [!TIP]
-> **Concurso não é sinônimo de estabilidade.** O empregado público também entra por concurso, mas seu vínculo permanece celetista.
+> Os jurados que compõem o Conselho de Sentença do Tribunal do Júri e os cidadãos designados para a função de mesários nas mesas receptoras de votos da Justiça Eleitoral enquadram-se na espécie dos agentes delegados, haja vista que a eles é outorgada temporariamente a execução de atividade estatal típica mediante remuneração indenizatória custeada pelos cofres públicos.
 
-## Como a banca cobra
+**( ) Certo**  
+**( ) Errado**
 
-- **Autor × categoria**: apresenta classificação de Hely como se fosse de Di Pietro, ou vice-versa.
-- **Cargo × emprego**: chama empregado de empresa pública de servidor estatutário.
-- **Concurso × estabilidade**: conclui que todo aprovado em concurso adquire estabilidade.
-- **Comissão × confiança**: inverte quem precisa ser servidor efetivo.
-- **Cargo em comissão**: usa livre nomeação para justificar atribuições meramente técnicas ou operacionais.
-- **Temporário × empregado**: trata a contratação do art. 37, IX como contrato celetista comum.
-- **Temporário × concurso**: afirma que a própria Constituição exige sempre processo seletivo simplificado; essa disciplina depende da legislação aplicável.
-- **Agente político**: explora divergências doutrinárias sem indicar o autor.
+> **Gabarito: Errado**  
+> **Comentário:** Jurados e mesários eleitorais classificam-se dogmaticamente como **agentes honoríficos** (e não agentes delegados). Os agentes honoríficos prestam serviços transitórios ao Estado convocados em virtude de dever cívico ou *munus* público, sem manter relação estatutária profissional ou vínculo remuneratório com a Administração. Os agentes delegados, por outro lado, são particulares que recebem a execução de serviços públicos por concessão, permissão ou delegação notarial/registral para explorá-los por sua conta e risco.
 
-## Tensões e pegadinhas
+---
 
-- **Classificação doutrinária ≠ regime jurídico.** Ser “agente administrativo” em Hely não cria um regime jurídico próprio.
-- **Cargo em comissão ≠ função de confiança.** Ambos têm direção/chefia/assessoramento, mas a função é exclusiva de ocupante de cargo efetivo.
-- **Emprego público ≠ cargo público.** Concurso pode existir nos dois.
-- **Temporário ≠ efetivo.** O art. 37, IX cria vínculo especial para necessidade temporária excepcional.
-- **Motivação da dispensa ≠ estabilidade.** Um empregado estatal pode ter proteção contra dispensa sem motivação adequada e ainda não possuir estabilidade do art. 41.
+### Questão 3
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
+Julgue o item que se segue, relativo à jurisprudência do Supremo Tribunal Federal sobre a demissão de empregados de empresas públicas e sociedades de economia mista.
 
-## Exemplos comentados
+> O candidato aprovado em concurso público e contratado sob o regime da CLT por sociedade de economia mista adquire a estabilidade constitucional prevista no art. 41 da Constituição Federal após três anos de efetivo exercício, razão pela qual sua despedida somente pode ocorrer mediante sentença judicial transitada em julgado ou processo administrativo disciplinar formal.
 
-**Mesário eleitoral:** na classificação de Hely, agente honorífico. Não se torna servidor público por prestar temporariamente uma função estatal.
+**( ) Certo**  
+**( ) Errado**
 
-**Empregado concursado de sociedade de economia mista:** empregado público celetista, não servidor estável do art. 41.
+> **Gabarito: Errado**  
+> **Comentário:** A estabilidade assegurada pelo art. 41 da CF/1988 é restrita aos servidores titulares de **cargo de provimento efetivo** da Administração direta, autárquica e fundacional de direito público. Os empregados celetistas de empresas públicas e sociedades de economia mista não gozam dessa garantia constitucional de estabilidade (Súmula 390, II, do TST). Contudo, segundo tese recentemente firmada pelo STF no Tema 1022 (RE 688.267), a despedida do empregado público concursado exige **motivação formal e justificada** em razões objetivas (operacionais, disciplinares ou financeiras), sendo vedada a resilição imotivada arbitrária, sem que isso implique equiparação à estabilidade do art. 41.
 
-**Servidor efetivo designado para função de chefia:** pode exercer função de confiança. Uma pessoa externa sem cargo efetivo não pode ocupar essa função, embora possa, observada a lei, ser nomeada para cargo em comissão.
+---
 
-**Contratação emergencial por prazo determinado:** pode enquadrar-se no art. 37, IX se houver previsão legal e os requisitos constitucionais; não gera automaticamente cargo efetivo ou estabilidade.
+### Questão 4
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
+A respeito da contratação de servidores temporários fundada no art. 37, IX, da CF/1988, julgue o item.
 
-## Heurísticas
+> As contratações temporárias voltadas a atender a necessidade transitória de excepcional interesse público submetem-se ao regime da Consolidação das Leis do Trabalho (CLT), competindo com exclusividade à Justiça do Trabalho processar e julgar as demandas decorrentes do inadimplemento de verbas rescisórias devidas pela União a tais contratados.
 
-- **Se há autor, identifique a taxonomia antes de classificar.**
-- **Cargo efetivo = concurso + estatuto + possibilidade de estabilidade.**
-- **Emprego público = concurso + CLT, sem estabilidade do art. 41.**
-- **Função de confiança = só efetivo.**
-- **Cargo em comissão = pode admitir não efetivo, mas apenas para direção, chefia e assessoramento.**
-- **Temporário = necessidade temporária de excepcional interesse público + lei.**
+**( ) Certo**  
+**( ) Errado**
+
+> **Gabarito: Errado**  
+> **Comentário:** A relação jurídica estabelecida entre o Poder Público e os servidores contratados por tempo determinado com base no art. 37, IX, da CF/1988 e leis específicas (como a Lei nº 8.745/1993) é de natureza **jurídico-administrativa especial**, não se confundindo com o contrato de trabalho celetista. Conforme decisão vinculante proferida pelo STF na ADI 3.395/DF, a competência para processar e julgar causas instauradas entre o Poder Público federal e os servidores temporários é da **Justiça Federal (Justiça Comum)**, e não da Justiça do Trabalho.
+
+---
+
+### Questão 5
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
+Julgue o item a seguir, relativo à criação de cargos em comissão segundo a jurisprudência vinculante do Supremo Tribunal Federal.
+
+> É constitucionalmente legítima a edição de lei que institua cargos de provimento em comissão voltados ao desempenho exclusivo de funções técnicas de suporte de informática e atividades rotineiras de arquivo, desde que a norma estabeleça que cinquenta por cento dessas vagas sejam ocupadas por servidores concursados.
+
+**( ) Certo**  
+**( ) Errado**
+
+> **Gabarito: Errado**  
+> **Comentário:** O STF fixou tese de repercussão geral (Tema 1010) declarando expressamente a **inconstitucionalidade da criação de cargos em comissão para o desempenho de atribuições técnicas, operacionais, burocráticas ou rotineiras**. Os cargos em comissão destinam-se exclusivamente às funções de direção, chefia e assessoramento. A mera previsão de reserva percentual para servidores de carreira não supre a inconstitucionalidade material decorrente da violação à exigência constitucional de concurso público para tarefas permanentes de suporte técnico e administrativo.
+
+---
+
+### Questão 6
+*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
+No que tange aos requisitos constitucionais da estabilidade no serviço público, julgue o item subsequente.
+
+> O transcurso do prazo de três anos de efetivo exercício assegura ao servidor público nomeado para cargo efetivo em virtude de concurso público a aquisição automática da estabilidade, tornando dispensável a homologação de avaliação especial de desempenho caso a comissão competente não tenha sido instalada pela Administração Pública no período.
+
+**( ) Certo**  
+**( ) Errado**
+
+> **Gabarito: Errado**  
+> **Comentário:** Consoante preceitua taxativamente o art. 41, § 4º, da Constituição Federal, *"como condição para a aquisição da estabilidade, é **obrigatória** a avaliação especial de desempenho por comissão instituída para essa finalidade"*. A estabilidade não se adquire de modo automático por mera inércia administrativa ou decurso isolado do prazo temporal de 3 anos; a avaliação formal por comissão especial constitui requisito constitucional de eficácia plena e vinculante.
+
+---
 
 ## Relações com outros temas
 
-- [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Organização administrativa]]: entidades, órgãos e natureza jurídica dos vínculos.
-- [[3 - Materias/Direito Administrativo/04 - poderes administrativos|Poderes administrativos]]: hierarquia e disciplina sobre agentes.
-- [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo federal]]: sanções, contraditório e ampla defesa.
-- [[3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais|Direitos e garantias fundamentais]]: concurso, igualdade e acesso aos cargos públicos.
+- [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Organização administrativa]]: Administração Direta, Autarquias, Fundações, Empresas Públicas e Sociedades de Economia Mista e seus regimes de pessoal.
+- [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos do ato administrativo]]: o agente competente como sujeito de emanação e a Teoria do Órgão.
+- [[3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado|Responsabilidade civil do Estado]]: a atuação do agente público e a ação de regresso por dolo ou culpa (art. 37, § 6º, CF).
+- [[3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais|Direitos e garantias fundamentais]]: concurso público, isonomia de acesso e devido processo legal.
 
-## Fontes
+## Fontes normativas e jurisprudenciais
 
-- Constituição da República Federativa do Brasil de 1988, arts. 37 e 41.
-- Lei nº 8.745/1993, para contratação temporária no âmbito federal.
-- STF, Tema 612: requisitos constitucionais da contratação temporária do art. 37, IX.
-- MEIRELLES, Hely Lopes. *Direito Administrativo Brasileiro*.
-- DI PIETRO, Maria Sylvia Zanella. *Direito Administrativo*.
-
----
-**Fontes Brutas:**
-- [[Avancos|Avanços e desempenho (Direito administrativo)]]
-- [[11-06-2026|Inbox - 09-06-2026]]
+- **Constituição Federal de 1988:** art. 37, incisos I, II, V e IX; art. 41 (estabilidade e perda de cargo); art. 173, § 1º, II (regime trabalhista das estatais).
+- **Lei nº 8.112/1990:** Regime Jurídico Único dos Servidores Públicos Civis da União.
+- **Lei nº 8.745/1993:** Regime de contratação temporária no âmbito da Administração Federal.
+- **Supremo Tribunal Federal:**
+  - **Tema 1010 de Repercussão Geral:** inconstitucionalidade de cargos em comissão para atividades técnicas e operacionais.
+  - **Tema 1022 (RE 688.267):** dever de motivação da dispensa de empregados públicos de empresas estatais admitidos por concurso público.
+  - **Tema 612:** requisitos cumulativos da contratação temporária do art. 37, IX, da CF/1988.
+  - **ADI 3.395/DF:** competência da Justiça Comum (Federal/Estadual) para causas decorrentes do vínculo estatutário e de contratação temporária.
+- **Doutrina:** Hely Lopes Meirelles (*cinco espécies de agentes*); Maria Sylvia Zanella Di Pietro (*particulares em colaboração e servidores públicos*).

@@ -128,6 +128,24 @@ assert.throws(()=>F.applyPrioritySnapshot(assigned,{...profile,entries:[{...prof
 const scope={exam:'cgu-2026',subject:'',mode:'mixed',direction:'forward'};
 assert.equal(F.select(cards,prioritized,scope,now,()=>.5)[0].id,target.id);
 assert.equal(F.select(cards,prioritized,{...scope,mode:'errors'},now).length,1);
+
+// A ordem deve variar entre sessões mesmo com o mesmo catálogo e mesmas prioridades.
+// Erros recorrentes recebem maior probabilidade, sem serem obrigatoriamente o primeiro.
+const peers=cards.filter(c=>c.id!==target.id&&c.examIds.includes('cgu-2026')&&c.subjectIds.includes('auditoria-governamental')).slice(0,3);
+assert.equal(peers.length,3);
+const samplingCards=[target,...peers];
+let rngSeed=12419;
+const seededRandom=()=>((rngSeed=(Math.imul(rngSeed,1664525)+1013904223)>>>0)/4294967296);
+const firstCounts=new Map(samplingCards.map(c=>[c.id,0]));
+for(let i=0;i<1000;i++){
+    const picked=F.select(samplingCards,prioritized,{...scope,subject:'auditoria-governamental'},now,seededRandom);
+    assert.equal(new Set(picked.map(q=>q.id)).size,4,'Sem reposição na janela');
+    firstCounts.set(picked[0].id,firstCounts.get(picked[0].id)+1);
+}
+assert(firstCounts.get(target.id)>400,'Erro recorrente deve ter chance maior de abrir a sessão');
+assert(firstCounts.get(target.id)<950,'Erro recorrente não pode abrir sempre a sessão');
+assert(peers.some(c=>firstCounts.get(c.id)>0),'Outros cartões precisam poder abrir a sessão');
+
 assert(!F.select(cards,prioritized,{...scope,subject:'orcamento-publico',mode:'errors'},now).length,'Não vaza prioridade entre matérias');
 assert(!F.select(cards,prioritized,{...scope,exam:'dataprev-2026',mode:'errors'},now).length);
 prioritized.reviews[target.id+':forward']=F.schedule(undefined,'good',now);

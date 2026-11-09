@@ -452,6 +452,45 @@ Cada ciclo avalia:
 - **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
 - **Acompanhamento Global:** **229 de 315 unidades editoriais concluídas (72,7%)**, **86 pendentes**. **Trilha de Inglês: 5 de 12 unidades concluídas**.
 
+---
+
+## Ciclo 13 de Auditoria: Unidades CAM-ING-006 a CAM-ING-012 (Lotes 205 a 211) — Fechamento da Trilha de Língua Inglesa (12/12) — 09/11/2026
+
+### 13.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-ING-006`, `CAM-ING-007`, `CAM-ING-008`, `CAM-ING-009`, `CAM-ING-010`, `CAM-ING-011`, `CAM-ING-012` (7 unidades finais de Língua Inglesa: estrutura de frases e inversão sintática enfática/condicional; tempos verbais, aspecto e sequência temporal; voz ativa, passiva e foco informacional; modalização, gradação de certeza e hedging; comparativos, quantificadores e delimitadores de escopo; paráfrase e equivalência semântica; e relações intratextuais, intertextualidade e convenções de gêneros contemporâneos no setor público).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md` (`art-0cf9986f93a5a111` - CAM-ING-006)
+  2. `3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md` (`art-b1b8cbf8d0d7bc4a` - CAM-ING-007)
+  3. `3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md` (`art-818a6bdff1647253` - CAM-ING-008)
+  4. `3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md` (`art-c27fc58c042e852e` - CAM-ING-009)
+  5. `3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md` (`art-410108ee89cfadfa` - CAM-ING-010)
+  6. `3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md` (`art-55ba2a49e278525f` - CAM-ING-011)
+  7. `3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md` (`art-21cf11553e25ae48` - CAM-ING-012)
+
+### 13.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados e Resultados:**
+  - `node scripts/test-priority-sync.js` (Aprovado).
+  - `node scripts/validate-flashcards.js` (Aprovado: 270 flashcards validados).
+  - `node scripts/test-article-identity.js` (Aprovado: identidades estáveis de 471 artigos Markdown verificadas sem colisões).
+  - `node scripts/test-contest-catalog.js` (Aprovado: catálogo com 3 concursos, 32 matérias e 511 vínculos de artigos; privacidade e ordens validadas).
+  - `node scripts/test-public-privacy.js` (Aprovado: zero vazamento de dados privados no repositório público).
+  - `node scripts/build-site.js` (Aprovado: build estático concluído em `_site/`, manifesto com 471 arquivos compilados e índice de busca de 7,21 MB).
+- **Evidências de Integridade:** Zero links quebrados no hub de Inglês (`ingles.md`), `index.md` e catálogo. Diagramas Mermaid estritamente aderentes à paleta âmbar/creme (`#fff8e7` e `#faedcd`) e contraste WCAG AA validado.
+
+### 13.3. Auditoria Editorial, Doutrinária e Linguística
+- **Conformidade Linguística e Precisão dos Conceitos:**
+  - `CAM-ING-006`: Ordem canônica S-V-O com modificadores oracionais e nominais complexos; escopo de negação e advérbios semi-negativos (*seldom, rarely, scarcely, barely, little, under no circumstances*); fórmula canônica da inversão enfática (Advérbio Negativo + Auxiliar + Sujeito + Verbo Principal); e orações condicionais sem *if* (*Should*, *Were*, *Had*).
+  - `CAM-ING-007`: Distinção conceitual entre tempo gramatical (*tense*) e aspecto (*aspect*); oposição crítica entre *Simple Past* (tempo fechado e definido) e *Present Perfect* (*present relevance*, período aberto, incompatibilidade com adjuntos pretéritos específicos como *yesterday*); *Past Perfect* como anterioridade relativa no passado; sequência dos tempos (*sequence of tenses*) no discurso indireto com verbo de elocução no passado (*will $\rightarrow$ would*, *can $\rightarrow$ could*); e *Future Perfect*.
+  - `CAM-ING-008`: Funções discursivas da voz passiva (impessoalidade institucional, foco no ato legislativo, omissão deliberada do agente e organização temática *theme/rheme*); matriz de transposição com verbo auxiliar *BE* no tempo e aspecto exatos da ativa (*Present Continuous* passivo com *being* e *Present Perfect* passivo com *been*); passiva de verbos ditransitivos com sujeito-destinatário (*recipient*); e retenção obrigatória de preposição em passivas preposicionadas (*looked into*).
+  - `CAM-ING-009`: Modalidade deôntica (normativa: *must, have to, shall, should, may*) $\times$ epistêmica (probabilidade/certeza: *will, must, may, might, could, cannot*); força imperativa de *shall* em redação de leis e tratados; modais perfeitos (*must have + part.* para dedução lógica pretérita $\times$ *should have + part.* para obrigação descumprida no passado); e técnicas de *hedging* institucional.
+  - `CAM-ING-010`: Graus comparativos e superlativos; equivalências lógicas na comparação de igualdade negativa (*not as... as* $\equiv$ *less... than*); estrutura correlativa proporcional dupla (*The more..., the more... / The more..., the less...*); oposição semântica e de polaridade entre *few* (negativo) $\times$ *a few* (positivo) e *little* (negativo) $\times$ *a little* (positivo); e operadores restritivos (*solely, exclusively, primarily, barring*).
+  - `CAM-ING-011`: Protocolo de duplo filtro independente (Filtro 1 gramatical $\times$ Filtro 2 semântico/pragmático); mecanismos legítimos de paráfrase (substituição lexical com manutenção de regência prepositiva, nominalização, espelhamento de causa e efeito com verbos conversos *lead to* $\leftrightarrow$ *stem from* e transposição de voz verbal com conservação de aspecto); e distratores de escopo quantitativo e modalidade.
+  - `CAM-ING-012`: Relações intratextuais e modelos de progressão temática (linear, tema constante e hipertema); polifonia enunciativa e postura do autor (*authorial stance*) mediada por verbos de atribuição (*reporting verbs* neutros como *state/report*, corroborativos como *demonstrate/prove* e de distanciamento cético como *claim/allege*); e convenções pragmáticas de gêneros do setor público (*press releases*, *oversight reports*, *policy briefs* e mídias sociais institucionais).
+- **Gabaritos das Questões Inéditas:** Todos os 42 itens C/E examinados e validados no padrão Cebraspe, rotulados rigorosamente como `*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*`. Distratores calibrados por alteração sutil de modalidade, certeza, causalidade, escopo quantitativo e regência verbal/nominal.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada — Trilha de Língua Inglesa (12/12) 100% concluída**.
+- **Acompanhamento Global:** **236 de 315 unidades editoriais concluídas (74,9%)**, **79 pendentes**. **Próxima etapa: Trilha de Direito Administrativo (DAD - 34 unidades)**.
+
+
 
 
 

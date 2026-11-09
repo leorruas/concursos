@@ -245,6 +245,8 @@ Esse formato melhora a interação, mas **não substitui** auditoria da qualidad
 
 ### Questões: declaração prévia de modalidade e evidência de calibração
 
+Para selecionar exercícios de Auditoria Governamental, Orçamento Público e Contabilidade Pública da CGU 2026, consultar primeiro a seção **Banco de questões da CGU 2026** em `leorruas/concurso-dados:AGENTS.md`. O mesmo protocolo orienta a escolha de itens para retestes de erros frequentes e o uso de fontes complementares.
+
 O estudante deve ser informado **antes do enunciado**, sempre que o treino tiver finalidade diferente:
 
 **Treino de aprendizagem:** checagem de conceito e raciocínio após a aula, com questões inéditas didáticas. Formato C/E ou alternativas pode ser usado sem que isso implique semelhança comprovada com a prova. Registrar dúvidas e erros para corrigir teoria; não computar esse resultado como benchmark ou domínio do edital.

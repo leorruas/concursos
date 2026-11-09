@@ -163,6 +163,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Direito Administrativo/19 - requisicao cessao e movimentacao de agentes publicos|19 • Requisição, cessão e movimentação de agentes públicos]]
    - [[3 - Materias/Direito Administrativo/20 - lei 8112 provimento posse exercicio e vacancia|20 • Lei nº 8.112/1990: provimento, posse, exercício, estágio probatório e vacância]]
    - [[3 - Materias/Direito Administrativo/21 - lei 8112 direitos vantagens deveres e proibicoes|21 • Lei nº 8.112/1990: direitos, vantagens pecuniárias, deveres funcionais e vedações]]
+   - [[3 - Materias/Direito Administrativo/22 - lei 8112 responsabilidades e penalidades disciplinares|22 • Lei nº 8.112/1990: responsabilidades e penalidades disciplinares]]
 9. [[3 - Materias/Evidencias Dados e IA/evidencias-dados-e-ia|Evidências, dados e inteligência artificial]]
    - [[3 - Materias/Evidencias Dados e IA/01 - perguntas fontes e qualidade da evidencia|01 • Perguntas, fontes e qualidade da evidência]]
    - [[3 - Materias/Evidencias Dados e IA/02 - indicadores denominadores e subnotificacao|02 • Indicadores, denominadores e subnotificação]]

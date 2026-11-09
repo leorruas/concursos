@@ -1,0 +1,225 @@
+---
+articleId: art-fdf8a15d31c83138
+articleAliases: ["3 - Materias/Informatica/21 - ia generativa modelos llms difusao usos e limites.md"]
+title: "Inteligência artificial generativa: arquiteturas, modelos de fundação, difusão, aplicações e alucinações"
+type: "conceito"
+status: "ativo"
+created: 2026-11-09
+updated: 2026-11-09
+---
+
+# Inteligência artificial generativa: arquiteturas, modelos de fundação, difusão, aplicações e alucinações
+
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-TI-019 conforme arquitetura e inventário editorial.**
+
+## Núcleo do conceito: a virada paradigmática da IA discriminativa para a generativa
+
+A **Inteligência Artificial Generativa (GenAI)** representa o salto tecnológico mais disruptivo da ciência da computação contemporânea. Enquanto a IA tradicional é predominantemente **discriminativa ou preditiva** (voltada a classificar amostras, separar grupos ou predizer números a partir de dados existentes, calculando $P(Y|X)$), a IA generativa é projetada para **criar novos artefatos digitais plausíveis e originais** — textos sintéticos, imagens, áudios, códigos-fonte e vídeos — modelando a distribuição de probabilidade conjunta dos próprios dados $P(X)$.
+
+No setor público e particularmente nas atividades de **Divulgação Institucional e Comunicação Social da Câmara dos Deputados**, a IA generativa atua na redação preliminar de sínteses legislativas, sumarização de relatórios orçamentários complexos e apoio à produção multimídia.
+
+Para a banca **Cebraspe**, o domínio do tema exige o entendimento de cinco eixos essenciais:
+1. A arquitetura **Transformer** e o mecanismo de **Autoatenção (*Self-Attention*)**;
+2. Os Grandes Modelos de Linguagem (**LLMs**) e o conceito de **Modelos de Fundação**;
+3. Modelos de difusão e redes adversárias generativas (**GANs**) para conteúdo visual;
+4. As patologias cognitivas dos modelos: **alucinações (*hallucinations*)**, viés estocástico e degradação de contexto;
+5. Estratégias de mitigação e ancoragem em fontes fidedignas (**RAG - *Retrieval-Augmented Generation***).
+
+```mermaid
+flowchart TD
+    classDef raiz fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;
+    classDef arq fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+    classDef uso fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
+    classDef risco fill:#fef2f2,stroke:#b91c1c,stroke-width:2px,color:#991b1b;
+
+    GenAI["Inteligência Artificial Generativa"]:::raiz
+
+    GenAI --> T["Modelos de Linguagem (LLMs)<br>Baseados em Transformers & Atenção<br>(GPT, Claude, LLaMA, Gemini)"]:::arq
+    GenAI --> D["Modelos Visuais / Multimodais<br>Difusão Latente & GANs<br>(Stable Diffusion, Midjourney, DALL-E)"]:::arq
+
+    T --> P["Predição de Próximo Token<br>Modelagem probabilística autorregressiva"]:::uso
+    T --> RAG["Geração Aumentada por Recuperação (RAG)<br>Busca semântica em base legislativa oficial"]:::uso
+
+    GenAI --> R["Riscos e Limitações Estruturais<br>Alucinações / Papagaios Estocásticos<br>Vazamento de dados institucionais e viés"]:::risco
+```
+
+---
+
+## 1. A revolução dos Transformers e o Mecanismo de Autoatenção
+
+Antes de 2017, o processamento de texto em computadores dependia de Redes Neurais Recorrentes (RNNs) e LSTMs, que processavam as palavras estritamente **uma a uma, em ordem sequencial**. Essa abordagem sofria de dois gargalos fatais: esquecia o início de frases longas (*vanishing gradient*) e impedia o processamento em paralelo nas GPUs.
+
+Em 2017, o artigo seminal do Google *"Attention Is All You Need"* (Vaswani et al.) introduziu a arquitetura **Transformer**, sustentada por dois pilares revolucionários:
+
+### 1.1 Processamento Paralelo e Codificação Posicional
+- O Transformer consome a frase inteira de uma só vez (*em paralelo*), em vez de palavra por palavra;
+- Para que o modelo saiba a ordem dos termos, adiciona-se aos vetores de entrada uma **Codificação Posicional (*Positional Encoding*)**, permitindo que a GPU processe bilhões de tokens simultaneamente.
+
+### 1.2 Mecanismo de Autoatenção (*Self-Attention*)
+- A autoatenção permite que o modelo pondere a relevância de **todas as palavras da frase em relação a cada palavra específica**, independentemente da distância física que as separa no texto;
+- *Exemplo clássico*: Na frase *"O animal não atravessou a rua porque **ele** estava cansado"*, o mecanismo de atenção calcula a relação matemática e atribui peso máximo ligando o pronome *"ele"* ao substantivo *"animal"*. Se a frase fosse *"...porque **ela** estava larga"*, a atenção ligaria o pronome à *"rua"*;
+- Matematicamente, a atenção opera comparando vetores de **Query ($Q$)**, **Key ($K$)** e **Value ($V$)**:
+  $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+
+---
+
+## 2. Grandes Modelos de Linguagem (LLMs) e Modelos de Fundação
+
+### 2.1 O que é um LLM?
+Um **LLM (*Large Language Model*)** é uma rede neural com dezenas ou centenas de bilhões de parâmetros, pré-treinada em volumes titânicos de texto da internet para atuar como um **preditor autorregressivo de próximo token**:
+- O modelo **não pensa, não raciocina e não tem consciência**;
+- Ele calcula continuamente uma distribuição de probabilidades condicionais:
+  $$P(w_{t} \mid w_1, w_2, \dots, w_{t-1})$$
+- Por essa razão, a literatura científica (Bender et al., 2021) costuma categorizar os LLMs como **"Papagaios Estocásticos" (*Stochastic Parrots*)**: sistemas que recombinam de forma estatisticamente convincente as correlações fonéticas e sintáticas dos dados em que foram alimentados, sem nenhuma apreensão semântica real ou intencionalidade própria sobre o mundo.
+
+### 2.2 O Conceito de Modelo de Fundação (*Foundation Model*)
+Cunhado pela Universidade de Stanford (Bommasani et al., 2021), designa modelos treinados em bases de dados amplas em escala massiva, geralmente por aprendizagem autossupervisionada, que podem ser adaptados e especializados (*fine-tuned*) para uma multiplicidade impressionante de tarefas a jusante (tradução, sumarização, redação legislativa, análise jurídica, extração de entidades).
+
+---
+
+## 3. Modelos Generativos Visuais: Difusão e GANs
+
+Além do texto, a GenAI revolucionou a criação de mídia digital:
+
+1. **Modelos de Difusão (*Diffusion Models*)**:
+   - Padrão dominante da atualidade (Stable Diffusion, Midjourney, DALL-E);
+   - Funcionamento em duas etapas:
+     1. *Difusão Direta*: Adiciona-se ruído gaussiano a uma imagem de forma gradativa até que ela se torne puro ruído estático aleatório;
+     2. *Difusão Reversa (Desnoising)*: A rede neural é treinada para remover o ruído passo a passo, reconstruindo uma imagem límpida condicionada ao texto digitado no prompt do usuário;
+   - Superaram amplamente as arquiteturas anteriores em fidelidade visual e consistência de detalhes.
+2. **Redes Adversárias Generativas (*Generative Adversarial Networks* - GANs)**:
+   - Introduzidas por Ian Goodfellow em 2014;
+   - Funcionam como um jogo de duas redes neurais que competem entre si:
+     - O **Gerador**: Tenta criar imagens falsas indistinguíveis das reais;
+     - O **Discriminador**: Tenta identificar quais imagens são reais (da base de fotos) e quais foram forjadas pelo gerador;
+   - O treinamento atinge o equilíbrio de Nash quando o gerador produz amostras tão perfeitas que o discriminador não consegue diferenciá-las do mundo real ($P = 0,5$).
+
+---
+
+## 4. Patologias dos LLMs: Alucinações e Limites Estruturais
+
+O Cebraspe exige que o servidor público conheça não apenas a utilidade, mas as **vulnerabilidades críticas** da IA generativa no serviço público:
+
+```mermaid
+flowchart TD
+    classDef risco fill:#fef2f2,stroke:#b91c1c,stroke-width:2px,color:#991b1b;
+    classDef solucoes fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
+
+    R["Patologias dos LLMs"]:::risco
+
+    R --> H["Alucinação (Hallucination)<br>Geração de fatos falsos ou citações inexistentes com alta fluência e tom de certeza"]:::risco
+    R --> J["Janela de Contexto Limitada<br>Perda de informações no meio de textos longos (Lost in the Middle)"]:::risco
+    R --> V["Viés e Toxicidade Histórica<br>Reprodução de preconceitos presentes na internet"]:::risco
+
+    H --> RAG["Mitigação: RAG (Geração Aumentada por Recuperação)<br>Forçar o modelo a responder APENAS com base em documentos anexados"]:::solucoes
+    H --> RH["Supervisão Humana Obrigatória (Human-in-the-Loop)<br>Conferência editorial antes de publicar qualquer ato"]:::solucoes
+```
+
+### 4.1 O Fenômeno da Alucinação (*Hallucination*)
+- **Definição**: Ocorrência em que o modelo de linguagem produz respostas gramaticalmente impecáveis, extremamente coerentes e convincentes, mas que são **factualmente falsas, inexistentes ou inventadas**;
+- *Exemplos dramáticos no setor público*: Inventar precedentes jurídicos do STF que nunca foram julgados, citar artigos inexistentes da Constituição, atribuir votos contrários a parlamentares ou calcular somatórios orçamentários errados mantendo postura de absoluta certeza;
+- *Causa matemática*: Como o modelo busca a sequência estatisticamente provável de palavras e não consulta um repositório determinístico de fatos, ele prioriza a fluência sintática em detrimento da veracidade fática.
+
+### 4.2 Geração Aumentada por Recuperação (RAG - *Retrieval-Augmented Generation*)
+É a principal arquitetura de engenharia para eliminar alucinações em órgãos governamentais:
+1. O usuário faz uma pergunta no chat (ex.: *"Qual o quórum para votar a PEC 45?"*);
+2. O sistema faz uma **busca semântica vetorial** no banco de dados oficial da Câmara (Regimento Interno e Constituição Federal) e recupera os trechos exatos pertinentes;
+3. O sistema monta um prompt dinâmico injetando os trechos oficiais recuperados e instrui o LLM: *"Responda à pergunta do usuário utilizando ESTRITAMENTE as informações dos documentos anexados acima. Se a resposta não estiver no texto, declare que não sabe."*
+
+---
+
+## 5. Casos progressivos de aplicação
+
+### Caso 1: O release jornalístico com citação inventada
+- **Cenário**: Um redator do portal de notícias da Câmara utiliza um modelo de linguagem aberto para agilizar a redação de uma reportagem sobre a aprovação de uma nova lei de proteção ambiental. O texto gerado é primoroso, mas inclui uma declaração textual do relator da matéria elogiando o Ministério da Fazenda. Posteriormente, constata-se que o parlamentar jamais proferiu aquela frase e que o modelo inventou o depoimento.
+- **Análise**: Ocorrência clássica de **Alucinação (*Hallucination*)**. Por ser um previsor estatístico de tokens, o modelo gerou uma frase verossímil que combinava tematicamente com o contexto legislativo, mas que não correspondia à realidade fática. A falha evidencia a necessidade mandatória de **revisão humana (*Human-in-the-Loop*)** antes de qualquer publicação jornalística institucional.
+
+### Caso 2: Resumo de projetos de lei com arquitetura RAG
+- **Cenário**: Para disponibilizar no aplicativo móvel da Câmara um botão que resuma proposições de mais de 200 páginas para os cidadãos, a área de TI recusa conectar o sistema diretamente ao ChatGPT comercial e projeta um pipeline de **RAG**.
+- **Análise**: A decisão técnica é impecável. A arquitetura **RAG** impede que o modelo consulte apenas seu conhecimento parametrizado desatualizado ou alucine dispositivos legais; o sistema recupera os parágrafos reais do PDF da proposição e ancora a geração do resumo exclusivamente nas evidências documentais oficiais da Casa.
+
+### Caso 3: Discriminação versus Geração de Texto
+- **Cenário**: Em uma questão de prova, indaga-se se um sistema que analisa 100.000 mensagens de e-mail e rotula cada uma com a probabilidade de pertencer à categoria `"Fraude"` ou `"Legítimo"` é um exemplo de IA Generativa.
+- **Análise**: A resposta é **NÃO**. Esse sistema é um modelo **Discriminativo / Preditivo** clássico de Aprendizagem Supervisionada ($P(Y|X)$). A IA Generativa modela a distribuição dos dados para produzir novos artefatos inéditos de saída (redigir um novo e-mail completo a partir de instruções).
+
+### Caso 4: O debate sobre direito autoral e imagens parlamentares
+- **Cenário**: A equipe de mídias sociais da Câmara gera ilustrações com ferramentas de Difusão (Midjourney) para campanhas de saúde pública. Cidadãos questionam se as imagens violam direitos autorais de artistas gráficos.
+- **Análise**: O tema envolve a discussão jurídica global sobre o treinamento de modelos de difusão em bilhões de imagens protegidas da internet sem remuneração dos autores originais, reforçando as diretrizes da EBIA e do PL 2.338/2023 quanto à transparência do material utilizado no pré-treinamento e à necessidade de sinalização expressa de que o conteúdo foi gerado por IA.
+
+---
+
+## 6. Questões inéditas comentadas (Padrão Cebraspe)
+
+### Questão 1 (Cebraspe / Inédita)
+> A arquitetura *Transformer*, introduzida no artigo *Attention Is All You Need*, superou a limitação das redes neurais recorrentes tradicionais ao viabilizar o processamento em paralelo dos dados de entrada e introduzir o mecanismo de autoatenção (*self-attention*), o qual calcula a interdependência contextual entre todos os tokens de uma sequência, independentemente da distância física que os separa.
+
+- **Gabarito**: **CERTO**
+- **Fundamentação**: Exposição perfeita e rigorosa da virada arquitetural do Transformer. O fim do processamento estritamente sequencial das RNNs viabilizou o treinamento massivo em GPUs e a autoatenção resolveu o problema de esquecimento contextual em frases longas.
+
+---
+
+### Questão 2 (Cebraspe / Inédita)
+> Os grandes modelos de linguagem (LLMs) operam como sistemas estritamente conceituais de dedução lógica e validação ontológica, sendo imunes a falhas factuais e incapazes de gerar informações falsas, uma vez que sua arquitetura garante a veracidade empírica de todas as premissas geradas.
+
+- **Gabarito**: **ERRADO**
+- **Fundamentação**: Erro conceitual gritante. Os LLMs são modelos **probabilísticos e autorregressivos** de predição do próximo token (*stochastic parrots*). Eles não possuem entendimento factual do mundo nem verificação ontológica nativa, sendo amplamente sujeitos ao fenômeno da **Alucinação (*Hallucination*)**, gerando afirmações inverídicas com aparência de absoluta certeza.
+
+---
+
+### Questão 3 (Cebraspe / Inédita)
+> A técnica de Geração Aumentada por Recuperação (RAG - *Retrieval-Augmented Generation*) consiste na integração de mecanismos de busca semântica em repositórios de dados externos confiáveis ao processo de geração de texto de um modelo de linguagem, atuando como importante contramedida contra o fenômeno das alucinações.
+
+- **Gabarito**: **CERTO**
+- **Fundamentação**: Definição canônica de RAG. Ao fornecer documentos fidedignos recuperados diretamente no contexto imediato do prompt, o modelo é instruído a limitar sua resposta às evidências documentais comprovadas, mitigando invenções e alucinações.
+
+---
+
+### Questão 4 (Cebraspe / Inédita)
+> Diferentemente dos modelos discriminativos, que aprendem a fronteira de decisão matemática para separar dados em categorias predefinidas calculando $P(Y \mid X)$, os modelos generativos buscam modelar a distribuição conjunta dos dados $P(X)$, viabilizando a síntese e a criação de novas instâncias e artefatos de conteúdo.
+
+- **Gabarito**: **CERTO**
+- **Fundamentação**: Distinção estatística formal e precisa entre IA Discriminativa e IA Generativa. Modelos discriminativos buscam a fronteira entre classes; modelos generativos aprendem como os dados são gerados no mundo para sintetizar novas amostras realistas.
+
+---
+
+### Questão 5 (Cebraspe / Inédita)
+> Os modelos de difusão empregados na geração de imagens operam por meio do treinamento simultâneo e antagônico de duas redes neurais denominadas gerador e discriminador, que competem em um jogo de soma zero até atingir o equilíbrio de Nash.
+
+- **Gabarito**: **ERRADO**
+- **Fundamentação**: O enunciado descreve as **Redes Adversárias Generativas (GANs)**, introduzidas por Ian Goodfellow em 2014. Os **Modelos de Difusão** operam por um princípio matemático completamente distinto: a adição progressiva de ruído estático gaussiano aos dados (difusão direta) e o posterior aprendizado da remoção sequencial desse ruído (*denoising* / difusão reversa) para sintetizar imagens nítidas a partir de ruído aleatório.
+
+---
+
+### Questão 6 (Cebraspe / Inédita)
+> A publicação de resumos informativos e matérias jornalísticas elaboradas por sistemas de inteligência artificial generativa no portal da Câmara dos Deputados prescinde de revisão humana prévia caso o modelo utilizado conte com mais de cem bilhões de parâmetros, dada a garantia matemática de ausência de viés algorítmico em redes dessa magnitude.
+
+- **Gabarito**: **ERRADO**
+- **Fundamentação**: O aumento no número de parâmetros **não elimina o viés algorítmico nem impede alucinações**. Pelo contrário, modelos maiores podem gerar alucinações ainda mais sofisticadas e difíceis de detectar à primeira vista. A supervisão humana prévia (*Human-in-the-Loop*) é um imperativo ético, jurídico e de governança pública inegociável na Administração Pública.
+
+---
+
+## 7. Heurísticas para a prova da Câmara dos Deputados
+
+1. **Discriminativo $\times$ Generativo**:
+   - Classificar, prever nota, separar em grupos, detectar se é spam $\rightarrow$ **Discriminativo**.
+   - Criar texto novo, pintar imagem, escrever código, compor áudio $\rightarrow$ **Generativo**.
+2. **Transformers e Autoatenção**:
+   - Processamento **em paralelo** (todas as palavras ao mesmo tempo com codificação posicional).
+   - Mecanismo de **Autoatenção** = conecta o pronome ao seu sujeito real na frase, mesmo distante.
+3. **Alucinações e RAG**:
+   - Alucinação = falar coisa falsa com postura de professor com certeza absoluta.
+   - Solução técnica para governança no serviço público = **RAG** (ancoragem em base oficial própria) + **Revisão Humana (*Human-in-the-Loop*)**.
+4. **Difusão $\times$ GAN**:
+   - Gerador $\times$ Discriminador em duelo/competição $\rightarrow$ **GAN**.
+   - Adicionar ruído e depois limpar ruído (*denoising*) $\rightarrow$ **Modelos de Difusão**.
+
+---
+
+## Fontes consultadas e vigência
+
+- **VASWANI, Ashish et al.**: *Attention Is All You Need* (2017). NeurIPS.
+- **BOMMASANI, Rishi et al.**: *On the Opportunities and Risks of Foundation Models* (2021). Stanford University.
+- **BENDER, Emily M. et al.**: *On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?* (2021). FAccT.
+- **GOODFELLOW, Ian et al.**: *Generative Adversarial Nets* (2014). NeurIPS.
+- **LEWIS, Patrick et al.**: *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* (2020). NeurIPS.
+- **Estratégia Brasileira de Inteligência Artificial (EBIA)**: Portaria MCTI nº 4.617/2021.

@@ -118,11 +118,18 @@
             const variants=ds.map(direction => ({id:card.id,direction,r:state.reviews[reviewKey(card.id,direction)]}));
             const eligible=variants.filter(q => options.mode === 'new' ? !q.r : options.mode === 'due' ? q.r && q.r.due <= now : options.mode === 'errors' ? !!priority : options.mode === 'difficult' ? (q.r && q.r.grade !== 'good') || !!priority : !q.r || q.r.due <= now || (priority?.priority>=200));
             if (!eligible.length) continue;
-            eligible.sort((a,b) => (a.r ? 0 : 1)-(b.r ? 0 : 1) || (a.r?.due||0)-(b.r?.due||0) || random()-.5);
-            const chosen=eligible[0];
-            candidates.push({...chosen, priority:priority?.priority||0, recurrences:priority?.recurrences||0, tie:random()});
+            // Sortear a direção em vez de favorecer sempre a primeira na ordem do catálogo.
+            const chosen=eligible[Math.min(eligible.length-1,Math.floor(random()*eligible.length))];
+            // Sorteio ponderado sem reposição (corrida exponencial): cada cartão compete
+            // por uma posição na janela. Erros têm mais chance, mas não monopolizam o começo.
+            // Não reordenar rigidamente por prioridade, recorrência ou posição no JSON.
+            const weight=1 + (priority?.priority||0)/100*1.25
+                + Math.min(priority?.recurrences||0,5)*0.25
+                + (chosen.r?.due<=now ? 0.8 : 0);
+            const u=Math.max(Number.MIN_VALUE,Math.min(1-Number.EPSILON,random()));
+            candidates.push({...chosen, draw:-Math.log(u)/weight});
         }
-        candidates.sort((a,b) => b.priority-a.priority || b.recurrences-a.recurrences || (a.r ? 0 : 1)-(b.r ? 0 : 1) || (a.r?.due||0)-(b.r?.due||0) || a.tie-b.tie);
+        candidates.sort((a,b)=>a.draw-b.draw);
         return candidates.slice(0,10).map(({id,direction})=>({id,direction}));
     }
     function stats(cards,state,now=Date.now()) {

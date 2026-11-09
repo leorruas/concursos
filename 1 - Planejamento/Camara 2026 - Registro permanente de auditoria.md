@@ -209,8 +209,40 @@ Cada ciclo avalia:
       - *Formulação Corrigida*: `| **Explicabilidade / Transparência** | **Elevada explicabilidade nativa**: trilha de decisão lógica rastreável e auditável passo a passo |`.
 - **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
 
-### 5. Estado Atual e Próximos Passos
-- **Total de unidades editoriais concluídas e integradas:** **198 de 315 (62,9%)**.
-- **Trilha TI:** **25 de 28 unidades concluídas (restam 3 para fechar a trilha)**.
-- **Próximo Lote a executar:** `CAM-TI-026` (Dispersão e box plot: relações, distribuição e resumo estatístico).
+### 5. Ciclo 6 (Unidades CAM-TI-026 a CAM-TI-028) — Encerramento da Trilha de TI (28/28) — 09/11/2026
+
+#### 5.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-TI-026`, `CAM-TI-027`, `CAM-TI-028` (3 unidades, fechamento integral da Trilha de Tecnologia da Informação e Dados).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md` (`art-e3831c8dec419d79` - CAM-TI-026)
+  2. `3 - Materias/Informatica/29 - power bi tableau e data studio comparativo e funcoes.md` (`art-f137aeacb1988047` - CAM-TI-027)
+  3. `3 - Materias/Informatica/30 - storytelling com dados estrutura narrativa contexto e persuasao.md` (`art-2fde27c0e00dc520` - CAM-TI-028)
+
+#### 5.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados e Resultados:**
+  - `node scripts/test-priority-sync.js` (Aprovado: sync opcional, mesmo domínio, revisões intactas, login, 401/403, cache e offline).
+  - `node scripts/validate-flashcards.js` (Aprovado: 270 flashcards estruturais, IDs, metadados de edital e fontes).
+  - `node scripts/test-article-identity.js` (Aprovado: identidades estáveis de 436 artigos Markdown validadas sem duplicidades).
+  - `node scripts/test-contest-catalog.js` (Aprovado: catálogo com 3 concursos, 32 matérias e 476 vínculos de artigos).
+  - `node scripts/test-public-privacy.js` (Aprovado: barreira estrita mantida, sem vazamento de histórico pessoal ou sessões privadas).
+  - `node scripts/test-search-index.js` (Aprovado: recall de 100% nas 18 consultas de benchmark, integridade de âncoras e seções).
+  - `node scripts/build-site.js` (Aprovado: build estático concluído em `_site/`, manifesto com 436 arquivos e índice de busca de 6,61 MB).
+  - **CI e GitHub Pages:** Run `42643715440` (disparado para o commit `6ed81a0`) monitorado via API do GitHub Actions.
+- **Evidências de Integridade:** Zero links quebrados no hub de Informática (`informatica.md`), `index.md` e catálogo. Identidades canônicas persistentes e resoluções estritas de slugs.
+
+#### 5.3. Auditoria Editorial, Doutrinária e Normativa
+- **Conformidade Doutrinária e Precisão dos Conceitos:**
+  - `CAM-TI-026`: Rigor matemático e geométrico no gráfico de dispersão (*scatter plot*) para pares contínuos $(X, Y)$, com reforço dogmático de que correlação não implica causalidade; anatomia do diagrama de caixas (*box plot*) de John Tukey com o resumo dos cinco números (Mínimo, $Q_1$, Mediana $Q_2$, $Q_3$, Máximo) e amplitude interquartil ($	ext{IQR} = Q_3 - Q_1$); regra do limite de hastes ($1{,}5 	imes 	ext{IQR}$) e plotagem individual de outliers; e diagnóstico visual de assimetria.
+  - `CAM-TI-027`: Comparativo estruturado do ecossistema de BI (Power BI, Tableau e Google Looker Studio); camadas de ingestão (Import Mode/VertiPaq colunar $	imes$ DirectQuery/Live Connection $	imes$ Modelos Compostos); modelagem dimensional (Star Schema $	imes$ Snowflake); distinção crucial entre colunas calculadas estáticas e medidas DAX dinâmicas com contexto de filtro e transição de contexto (`CALCULATE`); e cálculos LOD no Tableau (`FIXED`, `INCLUDE`, `EXCLUDE`).
+  - `CAM-TI-028`: Tríade do storytelling com dados segundo Cole Nussbaumer Knaflic (Dados, Visualização e Narrativa); divisor metodológico entre análise exploratória (busca de padrões pelo analista) e comunicação explanatória (comunicação de achado específico para tomada de ação da audiência); preparação de contexto (Quem, O Quê, Teste dos Três Minutos e Grande Ideia / *Big Idea*); redução da carga cognitiva extrínseca pelo *decluttering* (eliminação do *chartjunk* de Tufte via princípios Gestalt); hierarquia visual por atributos pré-atentivos (cor estratégica, tamanho, posição e contraste); arco dramático de três atos (Status Quo $ightarrow$ Conflito/Evidência nos dados $ightarrow$ Resolução/Next Steps); e limites éticos no setor público (rejeição a 3D decorativo, duplo eixo Y desproporcional e vedação ao truncamento do ponto zero em gráficos de barras/colunas).
+- **Gabaritos das Questões Inéditas:** Todos os 18 itens inéditos C/E examinados e testados no padrão Cebraspe, com justificativas técnicas consistentes.
+- **Não Conformidades Encontradas e Ações Corretivas:**
+  - *NC-005 (Técnica em CAM-TI-028 - Formatação de frontmatter canônico)*: Inicialmente, `CAM-TI-028` foi salvo com `tags` em lista e `articleAliases` com indentação YAML multilinha, gerando erro de slug no `build-site.js`. **Ação Corretiva**: Frontmatter reestruturado para o formato padrão estrito (`articleAliases: ["3 - Materias/Informatica/30 - storytelling com dados estrutura narrativa contexto e persuasao.md"]`, `type: "conceito"`, `status: "ativo"`), com revalidação imediata e sucesso no build.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+
+### 6. Estado Atual e Próximos Passos
+- **Total de unidades editoriais concluídas e integradas:** **201 de 315 (63,8%)**.
+- **Trilha TI:** **28 de 28 unidades concluídas (100% CONCLUÍDA)**.
+- **Próxima Trilha a executar:** `CAM-TC` (Teorias da Comunicação e Opinião Pública), iniciando por `CAM-TC-001` (Comunicação pública e comunicação governamental: conceitos e distinções).
+
 

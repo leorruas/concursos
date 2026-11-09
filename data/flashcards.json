@@ -8444,6 +8444,582 @@
         "prompt": "Prefeitura vende terreno por R$ 500 mil: a natureza da receita ou a fonte/destinação identifica as restrições para gastar o valor?",
         "answer": "Natureza: receita de capital por alienação de bens. Fonte/destinação: regras de aplicação, incluindo restrições legais pertinentes."
       }
+    },
+    {
+      "id": "orc-erro-aro-confronto",
+      "term": "ARO × crédito comum: classificação da entrada",
+      "definition": "ARO antecipa receita para cobrir insuficiência temporária de caixa e constitui ingresso extraorçamentário; empréstimo comum é, em regra, receita orçamentária de capital.",
+      "example": "O ente capta 300 mil por ARO e 300 mil por empréstimo de longo prazo: os mesmos ingressos em dinheiro recebem classificações orçamentárias diferentes.",
+      "confusion": "A existência de dívida e entrada de caixa não basta para classificar a ARO como receita de capital.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Operações de crédito × antecipação de receita (ARO)"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 3º, parágrafo único; LRF, art. 38"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "aro-extraorcamentaria-vs-credito-capital"
+      ],
+      "contrast": {
+        "prompt": "Por que duas operações de crédito com entrada de dinheiro podem ter tratamentos diferentes?",
+        "answer": "A função de antecipar temporariamente receita torna a ARO extraorçamentária; o empréstimo comum é, em regra, receita de capital."
+      }
+    },
+    {
+      "id": "orc-erro-estatal-aporte",
+      "term": "Estatal dependente: exceção do aporte acionário",
+      "definition": "A LRF define dependência pelo recebimento de recursos do controlador para pessoal, custeio ou capital, ressalvando aporte para aumento da participação acionária; controle e dependência são critérios diferentes.",
+      "example": "Uma estatal controlada recebe dinheiro exclusivamente para o controlador aumentar sua participação acionária, sem receber para custeio ou pessoal.",
+      "confusion": "Nem toda entrada de recursos do controlador implica dependência; examinar destinação e ressalva legal.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-c301f2c741504403",
+        "section": "Empresa controlada × estatal dependente × estatal não dependente"
+      },
+      "source": {
+        "title": "Lei Complementar 101/2000",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "locator": "art. 2º, II e III"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "estatais-dependentes-esferas"
+      ],
+      "contrast": {
+        "prompt": "Uma estatal com 80% do capital votante público recebe apenas aporte para aumento de participação acionária. Isso basta para classificá-la dependente?",
+        "answer": "Não. Há controle societário, mas o aporte ressalvado não demonstra dependência."
+      }
+    },
+    {
+      "id": "orc-erro-projeto-so-custeio",
+      "term": "Projeto com apenas despesas correntes",
+      "definition": "Projeto é tipo de ação programática de duração limitada; GND classifica a natureza de cada gasto. Um projeto pode executar despesas correntes sem investimento no exercício.",
+      "example": "Projeto de construção de escola tem no ano apenas R$ 80 mil em serviços preliminares classificados em outras despesas correntes.",
+      "confusion": "A palavra projeto não determina o GND 4 Investimentos.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-d8b1c5e6037249fa",
+        "section": "Classificação programática: programa × ação × subtítulo"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Parte I; MTO 2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "projeto-acao-vs-gnd-investimento"
+      ],
+      "contrast": {
+        "prompt": "A ação é projeto e só registra GND 3 em determinado ano. A classificação é contraditória?",
+        "answer": "Não. Ação programática e natureza da despesa respondem a perguntas distintas."
+      }
+    },
+    {
+      "id": "orc-erro-art35-lancamento",
+      "term": "Art. 35: lançamento × exercício da arrecadação",
+      "definition": "No regime orçamentário do art. 35 da Lei 4.320, a receita pertence ao exercício da arrecadação; a despesa, ao exercício do empenho.",
+      "example": "Tributo lançado em dezembro de 2026 e arrecadado em janeiro de 2027 é receita orçamentária de 2027.",
+      "confusion": "Lançamento e reconhecimento patrimonial do direito não são arrecadação orçamentária.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Previsão, lançamento, arrecadação e recolhimento"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 51 a 57; MCASP, Parte I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "receita-exercicio-arrecadacao-vs-lancamento"
+      ],
+      "contrast": {
+        "prompt": "Tributo foi lançado em 2026 e arrecadado em 2027. Qual é o exercício da receita orçamentária?",
+        "answer": "2027, pois o critério do art. 35 para receita é arrecadação."
+      }
+    },
+    {
+      "id": "orc-erro-fonte-credito-ato",
+      "term": "Fonte disponível não abre crédito automaticamente",
+      "definition": "Superávit financeiro e excesso de arrecadação podem servir de fonte para créditos adicionais, respeitados apuração, disponibilidade e atos legais de autorização e abertura.",
+      "example": "Foi apurado superávit financeiro de R$ 200 mil no exercício anterior; a dotação não aumenta sem a abertura adequada de crédito.",
+      "confusion": "Existência de fonte é condição possível, não abertura automática nem autorização de gasto.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-87b69e1d4ac54f20",
+        "section": "Superávit financeiro × excesso de arrecadação"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, art. 43, §§ 2º e 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "superavit-financeiro-vs-excesso-arrecadacao-fonte-credito"
+      ],
+      "contrast": {
+        "prompt": "Excesso de arrecadação apurado acrescenta automaticamente dotação à LOA?",
+        "answer": "Não. Exige abertura de crédito conforme requisitos legais."
+      }
+    },
+    {
+      "id": "orc-erro-exclusividade-materia",
+      "term": "Exclusividade × anualidade na LOA",
+      "definition": "Exclusividade limita as matérias da LOA, ressalvadas autorizações para créditos suplementares e operações de crédito; anualidade trata do exercício de vigência.",
+      "example": "A LOA autoriza operação de crédito e também reorganiza secretarias: a primeira autorização é exceção prevista, a segunda é matéria estranha.",
+      "confusion": "A vigência anual não torna qualquer matéria admissível na LOA.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Exclusividade e suas duas exceções constitucionais"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 8º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "exclusividade-vs-anualidade-assunto-da-loa"
+      ],
+      "contrast": {
+        "prompt": "Se a LOA altera a estrutura de uma secretaria, qual princípio é o foco: exclusividade ou anualidade?",
+        "answer": "Exclusividade: a questão é o conteúdo estranho ao orçamento, não sua vigência."
+      }
+    },
+    {
+      "id": "orc-erro-bruto-especificacao",
+      "term": "Orçamento bruto × especificação em caso composto",
+      "definition": "Orçamento bruto exige receitas e despesas por valores totais; especificação exige o detalhamento previsto para as dotações.",
+      "example": "Receita de 100 e despesa de 70 aparecem apenas como saldo de 30, embora o gasto esteja bem detalhado.",
+      "confusion": "Detalhamento correto não compensa apresentação indevida pelo líquido.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2"
+      ],
+      "note": {
+        "articleId": "art-a2f47c0d6e184e93",
+        "section": "Orçamento bruto e especificação"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Lei nº 4.320/1964, arts. 5º e 6º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "orcamento-bruto-vs-especificacao"
+      ],
+      "contrast": {
+        "prompt": "Uma dotação está detalhada, mas sua receita associada aparece deduzida de despesas. Que princípio pode estar violado?",
+        "answer": "Orçamento bruto. Especificação e apresentação pelos totais são critérios diferentes."
+      }
+    },
+    {
+      "id": "cont-erro-dfc-emprestimo-equipamento",
+      "term": "DFC: empréstimo × compra de equipamento",
+      "definition": "Na DFC, ingresso de empréstimo constitui financiamento; desembolso para adquirir ativo de longo prazo constitui investimento, conforme a natureza de cada fluxo efetivo.",
+      "example": "O órgão recebe empréstimo de 500 mil e paga equipamento de 300 mil: fluxo positivo de financiamento e negativo de investimento.",
+      "confusion": "A destinação do empréstimo não transforma seu recebimento em fluxo de investimento.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-55a3dd4be04d47ce",
+        "section": "Estrutura interna: três atividades"
+      },
+      "source": {
+        "title": "MCASP 11ª edição",
+        "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf",
+        "locator": "Parte V, capítulo 6, § 6.2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "emprestimo-financiamento-e-equipamento-investimento"
+      ],
+      "contrast": {
+        "prompt": "Empréstimo usado para adquirir equipamento: a entrada do dinheiro é investimento na DFC?",
+        "answer": "Não. A entrada é financiamento; o pagamento do equipamento é investimento."
+      }
+    },
+    {
+      "id": "cont-erro-dfc-finalidade",
+      "term": "DFC: atividade-fim não implica fluxo operacional",
+      "definition": "A DFC classifica fluxos pela natureza das operações, não apenas pela importância da atividade para a missão institucional.",
+      "example": "Hospital compra à vista tomógrafo para atender pacientes: pagamento é fluxo de investimento na DFC.",
+      "confusion": "Estar na atividade-fim não transforma compra de imobilizado em fluxo operacional.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-55a3dd4be04d47ce",
+        "section": "Estrutura interna: três atividades"
+      },
+      "source": {
+        "title": "MCASP 11ª edição",
+        "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51045_2434252/MCASP%20-%2011%C2%AA%20Edi%C3%A7%C3%A3o.pdf",
+        "locator": "Parte V, capítulo 6, § 6.2"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "atividade-fim-nao-define-fluxo-operacional"
+      ],
+      "contrast": {
+        "prompt": "A ambulância é essencial ao serviço público. Sua compra paga é operacional na DFC?",
+        "answer": "Não. A aquisição de ativo de longo prazo corresponde a investimento."
+      }
+    },
+    {
+      "id": "cont-erro-custo-variavel-indireto",
+      "term": "Custo variável pode ser indireto",
+      "definition": "Variável indica relação do custo com volume; indireto indica falta de apropriação objetiva diretamente ao objeto. Os eixos são independentes.",
+      "example": "Energia de prédio de atendimentos cresce com número de consultas, mas não é medida por consulta: pode ser variável e indireta.",
+      "confusion": "Custo que aumenta com atividade não é necessariamente rastreável a cada objeto de custo.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.5"
+      ],
+      "note": {
+        "articleId": "art-c8d83e57e69447b9",
+        "section": "Estrutura de classificação: quatro eixos independentes"
+      },
+      "source": {
+        "title": "NBC TSP 34",
+        "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/",
+        "locator": "itens 53 a 57"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "variavel-nao-implica-direto"
+      ],
+      "contrast": {
+        "prompt": "Energia aumenta conforme consultas. É obrigatoriamente custo direto por consulta?",
+        "answer": "Não. Pode ser variável e indireto por consulta."
+      }
+    },
+    {
+      "id": "cont-erro-custo-fixo-direto",
+      "term": "Custo direto pode ser fixo",
+      "definition": "Direto indica atribuição ao objeto; fixo indica comportamento relativamente constante no intervalo relevante, mesmo que produção varie.",
+      "example": "Depreciação mensal de equipamento exclusivo de um laboratório pode ser direta para esse serviço e fixa no período.",
+      "confusion": "Direto não significa variável e fixo não significa indireto.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.5"
+      ],
+      "note": {
+        "articleId": "art-c8d83e57e69447b9",
+        "section": "Estrutura de classificação: quatro eixos independentes"
+      },
+      "source": {
+        "title": "NBC TSP 34",
+        "url": "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-tsp-do-setor-publico/",
+        "locator": "itens 53 a 57"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "variavel-nao-implica-direto"
+      ],
+      "contrast": {
+        "prompt": "Equipamento exclusivo de um serviço tem depreciação mensal constante. Qual combinação é possível?",
+        "answer": "Direto e fixo, pois a associação ao serviço e o comportamento por volume são critérios independentes."
+      }
+    },
+    {
+      "id": "cont-erro-pl-emprestimo-pagamento",
+      "term": "Empréstimo e quitação de principal não mudam PL",
+      "definition": "Receber empréstimo aumenta caixa e passivo no mesmo valor; quitar principal já reconhecido reduz caixa e passivo. Isoladamente, não produzem VPA ou VPD.",
+      "example": "Empréstimo de 100 aumenta ativo e passivo em 100; pagamento de 40 reduz os dois em 40, sem alterar patrimônio líquido.",
+      "confusion": "Entrada de caixa não implica receita patrimonial e pagamento de principal não é automaticamente VPD.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-85b3a61ad09e44c1",
+        "section": "Estrutura interna: patrimônio, resultado e fatos permutativos"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "pagamento-passivo-sem-reducao-patrimonio-liquido"
+      ],
+      "contrast": {
+        "prompt": "Receber 100 emprestados e devolver 40 do principal aumenta o PL em 60?",
+        "answer": "Não. Os dois eventos são permutativos para o PL; juros são tratados separadamente."
+      }
+    },
+    {
+      "id": "cont-erro-ajuste-direto-pl",
+      "term": "Ajuste direto no PL × resultado da DVP",
+      "definition": "Resultado patrimonial da DVP compara VPA e VPD; ajustes reconhecidos diretamente no patrimônio líquido, nas hipóteses normativas, não integram esse resultado.",
+      "example": "VPA de 80, VPD de 50 e ajuste direto positivo no PL de 10 resultam em 30 de resultado patrimonial na DVP.",
+      "confusion": "Nem toda variação no PL passa por VPA/VPD do exercício.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-85b3a61ad09e44c1",
+        "section": "Estrutura interna: patrimônio, resultado e fatos permutativos"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "resultado-vpa-vpd-vs-ajuste-direto-pl"
+      ],
+      "contrast": {
+        "prompt": "VPA 80, VPD 50 e ajuste direto no PL 10. Resultado patrimonial é 40?",
+        "answer": "Não. É 30; ajuste direto não integra resultado do período."
+      }
+    },
+    {
+      "id": "cont-erro-caixa-inicial-bo",
+      "term": "Caixa inicial não entra na receita arrecadada do BO",
+      "definition": "Caixa inicial é estoque anterior; receita arrecadada é fluxo do exercício. Resultado orçamentário não soma saldo inicial às receitas atuais.",
+      "example": "Caixa inicial 70, receitas arrecadadas 120 e despesas empenhadas 100: resultado orçamentário simplificado é superávit 20.",
+      "confusion": "Caixa final, resultado orçamentário e superávit financeiro são indicadores distintos.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-420d779b988c4cc8",
+        "section": "Estrutura do Balanço Orçamentário"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "saldo-caixa-inicial-nao-e-arrecadacao-orcamentaria-do-periodo"
+      ],
+      "contrast": {
+        "prompt": "Com caixa inicial 70, arrecadação 120 e empenho 100, o resultado do BO é superávit 90?",
+        "answer": "Não. É 20; o saldo inicial não é receita do exercício."
+      }
+    },
+    {
+      "id": "cont-erro-rpnp-em-liquidacao",
+      "term": "RPNP em liquidação × a liquidar",
+      "definition": "RPNP a liquidar indica ausência de fato gerador patrimonial; em liquidação indica fato gerador ocorrido sem conclusão da liquidação administrativa, conforme critérios de registro.",
+      "example": "Serviço prestado em dezembro, com conferência administrativa apenas em janeiro, pode gerar passivo patrimonial antes da liquidação.",
+      "confusion": "Ausência de liquidação não implica, por si, ausência da obrigação patrimonial.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-420d779b988c4cc8",
+        "section": "Restos a pagar: o elo que costuma confundir"
+      },
+      "source": {
+        "title": "Lei nº 4.320/1964",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html",
+        "locator": "Arts. 36 e 37: RP e DEA"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "rpnp-ingresso-compensatorio-divisao-a-liquidar-em-liquidacao"
+      ],
+      "contrast": {
+        "prompt": "O serviço foi prestado, mas ainda não liquidado. O RP é obrigatoriamente a liquidar, sem obrigação patrimonial?",
+        "answer": "Não. Pode estar em liquidação se o fato gerador ocorreu."
+      }
+    },
+    {
+      "id": "cont-erro-passivo-curto-financeiro",
+      "term": "Passivo circulante não é necessariamente passivo financeiro",
+      "definition": "Circulante no Quadro Principal diz respeito ao ciclo e prazo; financeiro no quadro do art. 105 segue critérios legais e de execução orçamentária. Um rótulo não determina o outro.",
+      "example": "Obrigação vence em poucos meses, mas seu enquadramento como passivo financeiro exige verificar natureza e situação legal da obrigação.",
+      "confusion": "Prazo curto não determina passivo financeiro automaticamente.",
+      "topic": "Reforço a partir de erros de questões",
+      "subjectIds": [
+        "contabilidade-publica"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.4"
+      ],
+      "note": {
+        "articleId": "art-bf384b8a28aa4753",
+        "section": "Quadro financeiro e permanente: art. 105 da Lei nº 4.320/1964"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "MCASP 11ª edição, Partes II e V"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-09",
+      "revision": 1,
+      "conceptIds": [
+        "passivo-circulante-nao-permite-inferir-passivo-financeiro"
+      ],
+      "contrast": {
+        "prompt": "Todo passivo circulante no Quadro Principal deve ser financeiro no quadro do art. 105?",
+        "answer": "Não. Os quadros usam critérios diferentes."
+      }
     }
   ]
 }

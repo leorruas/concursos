@@ -42,10 +42,11 @@ updated: 2026-09-14
 - [[3 - Materias/Informatica/11 - teams e google meet colaboracao reunioes e videoconferencia|11 • Teams e Google Meet: ferramentas de colaboração, videoconferência corporativa, canais e moderação]] (CAM-TI-009)
 - Navegadores e pesquisa avançada
 
-## Legislação de segurança da informação
+## Legislação de segurança da informação e governança digital
 
 - [[3 - Materias/Informatica/01 - marco civil da internet|Marco Civil da Internet]]
 - [[3 - Materias/Informatica/02 - lei 12737 delitos informaticos|Lei 12.737/2012 — delitos informáticos]]
+- [[3 - Materias/Informatica/17 - governanca digital e responsabilidade no servico publico|17 • Governança digital, governo eletrônico e responsabilidade no serviço público]] (CAM-TI-015)
 
 ## Segurança da Informação
 - [[3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles|12 • Segurança da informação: princípios CIDAN, políticas corporativas e controles de proteção]] (CAM-TI-010)

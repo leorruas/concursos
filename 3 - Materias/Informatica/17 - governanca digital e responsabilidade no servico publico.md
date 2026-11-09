@@ -1,0 +1,195 @@
+---
+articleId: art-28fc0e46477ff067
+articleAliases: ["3 - Materias/Informatica/17 - governanca digital e responsabilidade no servico publico.md"]
+title: "Governança digital, governo eletrônico e responsabilidade no serviço público"
+type: "conceito"
+status: "ativo"
+created: 2026-11-09
+updated: 2026-11-09
+---
+
+# Governança digital, governo eletrônico e responsabilidade no serviço público
+
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-TI-015 conforme arquitetura e inventário editorial.**
+
+## Núcleo do conceito: a transformação digital do Estado democrático
+
+A **Governança Digital** no setor público brasileiro representa a evolução qualitativa do conceito tradicional de *governo eletrônico* (e-Gov). Enquanto o governo eletrônico centrava-se na mera digitalização e disponibilização na web de serviços e formulários antes burocráticos em papel, a governança digital estrutura uma **relação estratégica e integrada** entre Estado, cidadãos e tecnologia, orientada pelos princípios da **transparência ativa, interoperabilidade de dados, participação social direta e responsabilidade no tratamento da informação pública**.
+
+No âmbito do Poder Legislativo e da Administração Pública Federal, o marco de governança digital assenta-se na **Lei do Governo Digital (Lei nº 14.129/2021)**, na **Estratégia Nacional de Governo Digital (ENGD)**, na **Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018)** e na **Lei de Acesso à Informação (LAI - Lei nº 12.527/2011)**.
+
+```mermaid
+flowchart TD
+    classDef marco fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;
+    classDef pilar fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
+    classDef resp fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+
+    GD["Governança Digital no Setor Público<br>(Lei nº 14.129/2021)"]:::marco
+
+    GD --> P1["Princípios Estruturantes<br>Digital por padrão (Digital by Default)<br>Uma só vez (Once-Only)<br>Interoperabilidade e Dados Abertos"]:::pilar
+    GD --> P2["Relacionamento com o Cidadão<br>Identificação Digital Única (gov.br)<br>Assinaturas Eletrônicas (Lei nº 14.063/2020)<br>Transparência Ativa e Participação"]:::pilar
+    GD --> P3["Responsabilidade e Proteção<br>Conformidade estrita com a LGPD<br>Classificação de Sigilo (LAI)<br>Responsabilidade Funcional do Servidor"]:::resp
+```
+
+---
+
+## 1. Princípios e diretrizes da Lei do Governo Digital (Lei nº 14.129/2021)
+
+A Lei nº 14.129/2021 estabelece as regras para a prestação digital de serviços públicos e para a modernização da gestão administrativa na União, Estados, DF e Municípios, destacando-se diretrizes de alta incidência nas provas do Cebraspe:
+
+1. **Digital por Padrão (*Digital by Default*)**:
+   - Os serviços públicos e processos administrativos devem ser concebidos, tramitados e disponibilizados originariamente em formato digital, preservando-se o atendimento presencial exclusivamente como canal de inclusão para cidadãos hipossuficientes ou sem letramento digital.
+2. **Princípio do Cadastramento Único / "Uma Só Vez" (*Once-Only Principle*)**:
+   - É vedado aos órgãos públicos exigir do cidadão ou empresa documentos, certidões ou dados que já estejam em poder da própria Administração Pública. A responsabilidade pela integração e obtenção do dado cabe ao Estado por meio de **interoperabilidade de sistemas**.
+3. **Dados Abertos por Padrão (*Open Data by Default*)**:
+   - Todas as bases de dados públicos custodiadas pelo governo devem ser abertas e legíveis por máquina (formatos CSV, JSON, XML), salvo quando protegidas por sigilo legal (segurança do Estado, segredo industrial ou intimidade pessoal).
+4. **Interoperabilidade**:
+   - Capacidade de sistemas distintos trocarem dados e transações de forma automatizada e padronizada (padrões de interoperabilidade de governo eletrônico - e-PING).
+5. **Acessibilidade Universal**:
+   - As interfaces digitais devem ser plenamente acessíveis a pessoas com deficiência, segundo as diretrizes de acessibilidade na web (e-MAG e WCAG).
+
+---
+
+## 2. Níveis de assinaturas eletrônicas no serviço público (Lei nº 14.063/2020)
+
+Para conferir validade jurídica a manifestações eletrônicas sem burocracia excessiva, a Lei nº 14.063/2020 categorizou as assinaturas eletrônicas em três níveis hierárquicos:
+
+```mermaid
+flowchart LR
+    classDef simples fill:#fef2f2,stroke:#b91c1c,stroke-width:2px,color:#991b1b;
+    classDef avancada fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;
+    classDef qualificada fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
+
+    S["Assinatura Simples<br>Login/senha, IP, e-mail<br>(Baixo risco / Interações corriqueiras)"]:::simples
+    A["Assinatura Avançada<br>Chaves assimétricas, gov.br Prata/Ouro<br>(Médio risco / Processos administrativos)"]:::avancada
+    Q["Assinatura Qualificada<br>Certificado ICP-Brasil<br>(Alto risco / Atos solenes, transferência de imóveis, sanção)"]:::qualificada
+
+    S --> A --> Q
+```
+
+| Tipo de Assinatura | Mecanismo Tecnológico | Nível de Confiança | Exemplos de Aplicação no Serviço Público |
+| :--- | :--- | :--- | :--- |
+| **Simples** | Associação de dados eletrônicos em formato simples (login e senha de usuário, confirmação por e-mail/SMS). | Básico / Baixo | Requerimentos simples, agendamento de atendimentos, manifestações em ouvidorias. |
+| **Avançada** | Utiliza criptografia assimétrica associada de forma unívoca ao signatário; dados sob seu controle exclusivo; detecta alterações posteriores. Ex.: contas **gov.br nível Prata e Ouro**. | Intermediário / Alto | Tramitação de processos administrativos internos, pareceres técnicos, peticionamento eletrônico, contratos públicos ordinários. |
+| **Qualificada** | Utiliza certificado digital padrão **ICP-Brasil** (com token criptográfico, smartcard ou nuvem segura). | **Máximo** (presunção legal absoluta de veracidade) | Atos de chefia de poder, sanção e promulgação de leis, edição de medidas provisórias, alienação de imóveis públicos e atos com sigilo ultrassecreto. |
+
+---
+
+## 3. Harmonização entre Transparência (LAI) e Proteção de Dados (LGPD)
+
+Um dos eixos mais cobrados pelo Cebraspe na carreira de Divulgação Institucional e Comunicação da Câmara é a aparente tensão entre a **Lei de Acesso à Informação (LAI - Lei nº 12.527/2011)** e a **Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018)**:
+
+### 3.1 A regra geral de compatibilidade
+- A publicidade é o preceito geral; o sigilo é a exceção (*art. 5º, XXXIII da CF/88*);
+- A LGPD **não impede nem revoga a LAI**. O tratamento de dados pessoais pelo Poder Público é expressamente autorizado pelo art. 7º, III da LGPD para o atendimento de sua finalidade pública, na persecução do interesse público, com o objetivo de executar as competências legais ou cumprir as atribuições legais do serviço público;
+- **Dados Pessoais $\times$ Informações Institucionais**:
+  - Salários, cargos, lotação, viagens a serviço e diárias de servidores públicos **são públicos por imperativo constitucional de transparência** (entendimento pacificado pelo STF no Tema 483 de Repercussão Geral);
+  - Dados pessoais sensíveis (saúde, orientação sexual, convicção religiosa, dados biométricos) e dados estritamente privados (CPF, endereço residencial, telefone pessoal, dependentes) **devem ser protegidos e anonimizados/tarjados** antes da publicação de documentos oficiais.
+
+---
+
+## 4. Responsabilidade do agente público no ecossistema digital
+
+O servidor público possui dever funcional de zelo com os ativos de informação, sistemas e credenciais que lhe são confiados (art. 116 da Lei nº 8.112/1990 e Código de Ética Profissional):
+
+1. **Intransferibilidade de Credenciais**:
+   - A senha e o token institucional são de uso estritamente pessoal e intransferível. O empréstimo de credencial para terceiros configura falta funcional grave e eventual infração disciplinar;
+2. **Uso de E-mail Institucional e Recursos Corporativos**:
+   - Documentos oficiais e comunicações de serviço devem tramitar pelas contas institucionais autorizadas (`@camara.leg.br`), sendo vedado o armazenamento de dados protegidos em serviços de nuvem pessoais não homologados (*Shadow IT*);
+3. **Quebra de Sigilo e Invasão de Dispositivo**:
+   - A extração indevida de dados de sistemas restritos ou o acesso imotivado a processos sigilosos atrai responsabilização administrativa disciplinar, civil (reparação por danos) e penal (crime de violação de sigilo funcional - art. 325 do CP, e invasão de dispositivo - art. 154-A do CP).
+
+---
+
+## 5. Casos progressivos de aplicação
+
+### Caso 1: A exigência burocrática de certidão já em posse do Estado
+- **Cenário**: Um cidadão solicita acesso a uma linha de financiamento cultural gerida pela Câmara dos Deputados. O setor administrativo emite uma exigência determinando que o cidadão protocole fisicamente a cópia autenticada de sua certidão de quitação eleitoral e certidão de nascimento.
+- **Análise**: A exigência viola frontalmente a **Lei do Governo Digital (Lei nº 14.129/2021)** e o princípio *Once-Only*. Sendo a certidão eleitoral emitida pela própria Justiça Eleitoral (órgão do Estado brasileiro), a Câmara deve obter os dados diretamente por interoperabilidade entre bases públicas, sendo expressamente vedado exigir do usuário certidões que a Administração já possua.
+
+### Caso 2: O dilema entre a folha de pagamento e o direito à privacidade
+- **Cenário**: Uma entidade sindical ingressa com requerimento administrativo exigindo que a Câmara dos Deputados remova do Portal da Transparência o nome e o vencimento bruto dos servidores da área de comunicação, alegando que a divulgação fere o direito à privacidade assegurado pela LGPD.
+- **Análise**: O requerimento deve ser indeferido. Conforme jurisprudência consolidada do STF (Tema 483) e diretrizes da CGU/ANPD, a divulgação do nome, cargo e remuneração de agentes públicos atende ao princípio constitucional da publicidade e ao interesse público primário. A LGPD não anula a LAI, desde que preservados dados estritamente privados (como descontos sindicais, empréstimos consignados ou dados bancários).
+
+### Caso 3: Assinatura de ato normativo por conta gov.br
+- **Cenário**: O Presidente da Câmara dos Deputados precisa sancionar e promulgar um decreto legislativo de alto impacto orçamentário. O chefe de gabinete propõe assinar o documento digitalmente utilizando uma conta gov.br de nível Prata (assinatura eletrônica avançada).
+- **Análise**: A proposta está irregular. Conforme a Lei nº 14.063/2020, atos privativos de chefia de poder com impacto legislativo e orçamentário solene exigem **Assinatura Eletrônica Qualificada**, obrigatoriamente vinculada a certificado digital emitido sob a infraestrutura **ICP-Brasil**. A assinatura avançada é restrita a atos de gestão e processos administrativos ordinários.
+
+### Caso 4: O compartilhamento de senha no gabinete durante o recesso
+- **Cenário**: Um analista entra em férias regulamentares e anota seu login de rede e senha em um post-it colado no monitor para que o estagiário possa despachar mensagens e acessar o sistema de protocolo legislativo.
+- **Análise**: Infração grave à Política de Segurança da Informação e aos deveres funcionais da Lei nº 8.112/1990. A autenticidade e o não repúdio das operações eletrônicas ficam comprometidos. Cada agente deve possuir credencial própria e intransferível, com perfis de acesso estritamente calibrados por função (*RBAC*).
+
+---
+
+## 6. Questões inéditas comentadas (Padrão Cebraspe)
+
+### Questão 1 (Cebraspe / Inédita)
+> Conforme a Lei do Governo Digital (Lei nº 14.129/2021), a prestação de serviços públicos digitais deve orientar-se pelo princípio do cadastramento único, vedando-se aos órgãos e entidades públicas a exigência de documentos ou certidões que já constem de bases de dados do próprio Estado, cabendo à administração obter tais informações mediante mecanismos de interoperabilidade.
+
+- **Gabarito**: **CERTO**
+- **Fundamentação**: Enunciado em estrita consonância com o texto da Lei nº 14.129/2021 (princípio *Once-Only*). A lei impõe a obrigação de os entes federativos integrarem suas bases de dados via interoperabilidade, poupando o cidadão do ônus de fornecer documentos que o poder público já custodia.
+
+---
+
+### Questão 2 (Cebraspe / Inédita)
+> A Lei Geral de Proteção de Dados Pessoais (LGPD) impede a publicação, no Portal da Transparência, dos nomes completos e respectivos vencimentos dos ocupantes de cargos efetivos e em comissão do Poder Legislativo, devendo tais dados ser obrigatoriamente anonimizados em respeito à intimidade e à vida privada.
+
+- **Gabarito**: **ERRADO**
+- **Fundamentação**: O entendimento está superado pela jurisprudência do STF (Tema 483 de Repercussão Geral) e pelas orientações conjuntas da ANPD e da CGU. A remuneração, o cargo e o nome dos agentes públicos submetem-se ao regime de transparência ativa da LAI e ao princípio da publicidade (art. 37, *caput*, da CF/88), não constituindo violação à LGPD. O que deve ser protegido são deduções particulares, dados bancários e informações fiscais pessoais.
+
+---
+
+### Questão 3 (Cebraspe / Inédita)
+> Segundo a disciplina legal das assinaturas eletrônicas na administração pública (Lei nº 14.063/2020), a assinatura eletrônica avançada é aquela emitida exclusivamente com base em certificados digitais fornecidos no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).
+
+- **Gabarito**: **ERRADO**
+- **Fundamentação**: A assinatura que exige obrigatoriamente certificado digital padrão **ICP-Brasil** é a assinatura eletrônica **QUALIFICADA** (a mais rigorosa). A assinatura eletrônica **AVANÇADA** baseia-se em chaves assimétricas ou outros mecanismos confiáveis de associação com o signatário (como as contas gov.br de níveis Prata e Ouro), dispensando o certificado ICP-Brasil.
+
+---
+
+### Questão 4 (Cebraspe / Inédita)
+> O conceito de dados abertos no âmbito da governança digital pressupõe a disponibilização de dados públicos em formatos estruturados e legíveis por máquina, como CSV e JSON, garantindo-se o livre acesso, o reuso e a distribuição por qualquer cidadão, respeitadas as salvaguardas legais de sigilo e privacidade.
+
+- **Gabarito**: **CERTO**
+- **Fundamentação**: Definição legal e doutrinária precisa de dados abertos (*Open Data*). Dados abertos devem ser disponibilizados em formatos abertos e não proprietários, processáveis por computador, permitindo a auditabilidade social dos gastos públicos.
+
+---
+
+### Questão 5 (Cebraspe / Inédita)
+> No serviço público federal, a assinatura eletrônica simples, como o uso de login e senha em portais governamentais, é admitida de forma irrestrita para qualquer ato oficial, inclusive para a edição de atos normativos com força de lei e a transferência de domínio de bens imóveis da União.
+
+- **Gabarito**: **ERRADO**
+- **Fundamentação**: A Lei nº 14.063/2020 veda expressamente o uso de assinaturas simples para atos solenes, transferência de imóveis e edição de atos de chefia de poder, exigindo nesses casos assinaturas avançadas ou, obrigatoriamente, assinaturas qualificadas com certificado ICP-Brasil.
+
+---
+
+### Questão 6 (Cebraspe / Inédita)
+> O dever funcional do servidor público de manter o sigilo sobre assuntos da repartição abrange a proteção de suas credenciais de acesso, sendo a cessão de senha a estagiários ou terceiros conduta passível de apuração disciplinar, em razão da quebra da autenticidade e do não repúdio nos sistemas informatizados.
+
+- **Gabarito**: **CERTO**
+- **Fundamentação**: Perfeito. A credencial de acesso digital é estritamente pessoal. O compartilhamento compromete a rastreabilidade e a irretratabilidade das transações registradas no sistema, violando os deveres de lealdade e observância das normas legais previstos na Lei nº 8.112/1990.
+
+---
+
+## 7. Heurísticas para a prova da Câmara dos Deputados
+
+1. **Tríade de Assinaturas (Lei nº 14.063/2020)**:
+   - **Simples**: login/senha, SMS, ouvidoria.
+   - **Avançada**: gov.br Prata/Ouro, processos administrativos comuns.
+   - **Qualificada**: **ICP-Brasil obrigatório**, atos solenes, chefia de poder, imóveis.
+2. **LAI $\times$ LGPD**:
+   - Transparência salarial de servidor = **PÚBLICA (LAI prevalece)**.
+   - Dados íntimos/sensíveis/bancários do servidor = **SIGILOSOS (LGPD prevalece)**.
+3. **Lei do Governo Digital (Lei nº 14.129/2021)**:
+   - Governo não pode pedir documento que ele mesmo já tem (*Once-Only*).
+   - Dados públicos devem ser abertos por padrão (*Open Data by Default*).
+
+---
+
+## Fontes consultadas e vigência
+
+- **Lei nº 14.129/2021**: Lei do Governo Digital.
+- **Lei nº 14.063/2020**: Uso de assinaturas eletrônicas nas interações com o poder público.
+- **Lei nº 13.709/2018 (LGPD)**: Artigo 7º, inciso III (Tratamento de dados pelo Poder Público).
+- **Lei nº 12.527/2011 (LAI)**: Transparência ativa e acesso a dados governamentais.
+- **STF, Tema 483 de Repercussão Geral**: Legitimidade da divulgação de vencimentos de servidores públicos na internet.

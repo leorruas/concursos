@@ -42,6 +42,9 @@ updated: 2026-09-14
 - [[3 - Materias/Informatica/11 - teams e google meet colaboracao reunioes e videoconferencia|11 • Teams e Google Meet: ferramentas de colaboração, videoconferência corporativa, canais e moderação]] (CAM-TI-009)
 - Navegadores e pesquisa avançada
 
+## Inteligência Artificial
+- [[3 - Materias/Informatica/18 - inteligencia artificial definicao tipos de sistemas e aplicacoes publicas|18 • Inteligência artificial: definição, evolução, taxonomia de sistemas e aplicações no setor público]] (CAM-TI-016)
+
 ## Legislação de segurança da informação e governança digital
 
 - [[3 - Materias/Informatica/01 - marco civil da internet|Marco Civil da Internet]]

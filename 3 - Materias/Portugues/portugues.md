@@ -45,6 +45,7 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Tempo, Modo e Aspecto Verbal**: [[3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto|21 • Tempo, modo e aspecto verbal na construção do texto]] (CAM-LP-010)
 - **Morfologia e Classes de Palavras**: [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|22 • Classes de palavras e suas funções no período: morfossintaxe de nomes, pronomes e conectivos]] (CAM-LP-011)
 - **Crase**: [[11 - crase|🆕 11 • Crase]].
+- **Crase (Condições, Facultatividade e Impedimentos)**: [[3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos|29 • Crase: condições de ocorrência, casos facultativos e impedimentos]] (CAM-LP-018)
 - **Reescrita, semântica e preservação de sentido**: [[10 - reescrita semantica e preservacao de sentido|🆕 10 • Reescrita, semântica e preservação de sentido]].
 
 ---

@@ -158,8 +158,40 @@ Cada ciclo avalia:
   - *NC-003 (Técnica em CAM-TI-021 - Frontmatter de nota canônica)*: Detectada divergência inicial no formato do frontmatter (`articleAliases` em lista de strings simples em vez do array JSON contendo o caminho canônico `["3 - Materias/..."]`), ocasionando falha na geração do manifesto no `build-site.js`. **Ação Corretiva**: Frontmatter de CAM-TI-021 padronizado imediatamente para `articleAliases: ["3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana.md"]` e `type: "conceito"`. Revalidação com 100% de sucesso em toda a suíte.
 - **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
 
-### 4. Estado Atual e Próximos Passos
-- **Total de unidades editoriais concluídas e integradas:** **194 de 315 (61,6%)**.
-- **Trilha TI:** **21 de 28 unidades concluídas (restam 7)**.
-- **Próximo Lote a executar:** `CAM-TI-022` (Dado, informação, variável, atributo, indicador e métrica).
+### 4. Ciclo 5 (Unidades CAM-TI-022 a CAM-TI-025) — 09/11/2026
+
+#### 4.1. Escopo Amostrado e Auditado
+- **Lote de Unidades:** `CAM-TI-022`, `CAM-TI-023`, `CAM-TI-024`, `CAM-TI-025` (4 unidades, cobrindo o núcleo de Análise e Visualização de Dados da trilha de TI).
+- **Artigos Avaliados:**
+  1. `3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md` (`art-217dafb9048089a8` - CAM-TI-022)
+  2. `3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md` (`art-03945be9cb42c4bd` - CAM-TI-023)
+  3. `3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica.md` (`art-a2e4949761ab5a6f` - CAM-TI-024)
+  4. `3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md` (`art-719dd4ca3e84b65a` - CAM-TI-025)
+
+#### 4.2. Auditoria Técnica e de Integridade da Plataforma
+- **Comandos Executados e Resultados:**
+  - `node scripts/test-priority-sync.js` (Aprovado: sync opcional, login, 401/403, cache e offline).
+  - `node scripts/validate-flashcards.js` (Aprovado: 260 flashcards validados com IDs, metadados de edital e fontes).
+  - `node scripts/test-article-identity.js` (Aprovado: identidades canônicas de 433 artigos Markdown validadas sem duplicidades).
+  - `node scripts/test-contest-catalog.js` (Aprovado: catálogo com 3 concursos, 32 matérias e 473 vínculos de artigos).
+  - `node scripts/test-public-privacy.js` (Aprovado: zero vazamento de dados privados no ambiente público).
+  - `node scripts/test-search-index.js`, `test-search-routing.js`, `test-search-ranking.js` (Aprovado: 100% recall nas 18 consultas de benchmark, 94% Top-1, 100% Top-3).
+  - `node scripts/build-site.js` (Aprovado: build estático concluído em `_site/`, manifesto com 433 arquivos e índice de busca de 6,55 MB).
+- **Evidências de Integridade:** Zero links quebrados no hub de Informática, `index.md` e catálogo. Identidades canônicas e slugs perfeitamente mapeados.
+
+#### 4.3. Auditoria Editorial, Doutrinária e Normativa
+- **Conformidade Doutrinária e Precisão dos Conceitos:**
+  - `CAM-TI-022`: Rigor dogmático na Pirâmide DIKW (dado bruto $\times$ informação com contexto $\times$ conhecimento aplicativo $\times$ sabedoria ética); distinção estrita entre variáveis (discretas/contínuas e nominais/ordinais) e atributos em bancos relacionais; e o divisor de águas entre métrica (contagem quantitativa neutra) e indicador de desempenho (meta, padrão de julgamento e polaridade definida).
+  - `CAM-TI-023`: Aplicação do princípio GIGO; arquitetura do pipeline ETL $\times$ ELT para Data Lakes; técnicas de limpeza de dados (tratamento de nulos por média simétrica $\times$ mediana robusta contra outliers $\times$ moda para categóricos); regra do intervalo interquartil (IQR) com a ressalva crítica de que nem todo outlier é erro descartável em auditorias; granularidade e agregação com funções de agrupamento; e as 6 dimensões de qualidade do DAMA-DMBOK.
+  - `CAM-TI-024`: Taxonomia de Andrew Abela baseada na pergunta analítica (comparação, evolução temporal, composição e distribuição/relação); diretrizes de Edward Tufte (razão dado-tinta, eliminação de *chartjunk* 3D e controle do *Lie Factor* contra eixos truncados desonestos); e análise perceptiva dos limites do gráfico de pizza substituído por barras horizontais ordenadas.
+  - `CAM-TI-025`: Oposição categórica entre histograma (variável quantitativa contínua, sem espaçamento entre barras contíguas, largura com significado de amplitude e área proporcional à frequência) e gráfico de barras/colunas (categorias discretas com espaçamento e largura arbitrária); formas de distribuição (gaussiana, bimodal, assimétrica positiva/negativa com posição relativa entre média, mediana e moda); e gráficos de linhas com premissa de continuidade temporal, vedando conexão entre categorias nominais e legitimando eixos truncados para microvariações.
+- **Gabaritos das Questões Inéditas:** Todos os 24 itens inéditos C/E examinados e testados no padrão Cebraspe, com justificativas estatísticas e metodológicas consistentes.
+- **Não Conformidades Encontradas e Ações Corretivas:**
+  - *NC-004 (Editorial em CAM-TI-013 e CAM-TI-014 - Refinamentos de Precisão)*: Atendendo ao apontamento de precisão conceitual, refinado o diagrama Mermaid de CAM-TI-013 para especificar a ressalva de NGFWs em filtros de pacotes e calibrada a descrição da detecção por assinatura de "totalmente ineficaz" para "severamente limitada contra ameaças de dia zero e variantes polimórficas inéditas". Em CAM-TI-014, explicitada a dependência da integridade e configuração padrão do ambiente do cliente para a eficácia do alerta TLS contra pharming.
+- **Classificação do Ciclo:** **Aprovado com conformidade integral e validação técnica comprovada**.
+
+### 5. Estado Atual e Próximos Passos
+- **Total de unidades editoriais concluídas e integradas:** **198 de 315 (62,9%)**.
+- **Trilha TI:** **25 de 28 unidades concluídas (restam 3 para fechar a trilha)**.
+- **Próximo Lote a executar:** `CAM-TI-026` (Dispersão e box plot: relações, distribuição e resumo estatístico).
 

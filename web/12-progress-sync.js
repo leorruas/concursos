@@ -34,16 +34,17 @@
    const r=await fetcher(url,{
     method,credentials:'same-origin',mode:'same-origin',redirect:'error',
     cache:'no-store',referrerPolicy:'no-referrer',
-    headers:method==='POST'?{Accept:'application/json','Content-Type':'application/json'}:{Accept:'application/json'},
+    headers:method==='POST'?{Accept:'application/json','Content-Type':'application/json','X-FC-Sync':'1'}:{Accept:'application/json'},
     ...(body?{body:JSON.stringify(body)}:{})
    });
-   if(r.status===401||r.status===403)return {status:'unauthorized'};
-   if(!r.ok)throw Error('Progress unavailable');
+   if(r.status===401)return {status:'unauthorized',phase:method};
+   if(r.status===403)return {status:'forbidden',phase:method};
+   if(!r.ok)return {status:'error',phase:method,httpStatus:r.status};
    return {status:'connected',body:await r.json()};
   };
   try{
    const get=await request('GET');
-   if(get.status!=='connected')return {status:get.status,reviews:local};
+   if(get.status!=='connected')return {...get,reviews:local};
    const remote=decode(get.body.reviews,cards);
    const merged=merge(local,remote),changes=[];
    for(const [key,r] of Object.entries(merged)){
@@ -54,10 +55,10 @@
    }
    if(changes.length){
     const write=await request('POST',{version:1,reviews:changes});
-    if(write.status!=='connected')return {status:write.status,reviews:merged};
+    if(write.status!=='connected')return {...write,reviews:merged};
    }
    const verified=await request('GET');
-   if(verified.status!=='connected')return {status:verified.status,reviews:merged};
+   if(verified.status!=='connected')return {...verified,reviews:merged};
    return {status:'connected',reviews:merge(merged,decode(verified.body.reviews,cards))};
   }catch{return {status:'offline',reviews:local};}
  }

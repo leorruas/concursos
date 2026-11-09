@@ -117,8 +117,10 @@ Cada ciclo avalia:
   - `CAM-TI-014`: Oposição estrita entre phishing (engodo por mensagem/clique) e pharming (envenenamento de DNS com digitação correta da URL), além de técnicas de *spear phishing*, *whaling*, *baiting* e *pretexting*;
   - `CAM-TI-015`: Fundamentação na Lei do Governo Digital (Lei nº 14.129/2021) e princípios *Digital by Default*, *Once-Only* e Dados Abertos; classificação das assinaturas eletrônicas (Lei nº 14.063/2020: Simples, Avançada e Qualificada com ICP-Brasil); e harmonização entre LAI e LGPD à luz do Tema 483 do STF.
 - **Gabaritos das Questões Inéditas:** Todos os 30 itens C/E examinados e conferidos contra fontes primárias e jurisprudência da banca Cebraspe, com justificativas sólidas.
-- **Não Conformidades Encontradas:** Nenhuma não conformidade Crítica, Alta ou Média.
-- **Classificação do Ciclo:** **Aprovado com louvor técnico e editorial**.
+- **Não Conformidades Encontradas e Ações Corretivas Executadas:**
+  - *NC-001 (Editorial/Precisão Técnica em CAM-TI-013 - Antivírus e Firewall)*: Identificada formulação excessivamente categórica que afirmava que o firewall não detecta vírus em arquivos baixados, colidindo com a menção subsequente a Firewalls de Próxima Geração (NGFW). **Ação Corretiva**: Seção 2.2 e Questão 1 retificadas para delimitar claramente que a restrição se aplica ao modelo tradicional de filtragem de pacotes e inspeção de estado nas camadas 3 e 4 (regra geral cobrada no Cebraspe), enquanto NGFWs incorporam inspeção profunda (*Deep Packet Inspection* - DPI) e antivírus de borda.
+  - *NC-002 (Editorial/Precisão Técnica em CAM-TI-014 - Phishing e Pharming)*: Identificada asserção sobre a capacidade de o HTTPS e certificados digitais impedirem o pharming de passar despercebido sem explicitar as condições técnicas necessárias. **Ação Corretiva**: Seção 4 e Questão 5 aprimoradas para detalhar as 3 premissas técnicas de eficácia da salvaguarda (incompatibilidade de CN/SAN, ausência da chave privada oficial e rejeição de certificados autoassinados por falta de AC raiz confiável no repositório do SO), bem como as exceções de contorno (como a injeção prévia de AC raiz maliciosa local com privilégios de administrador).
+- **Classificação do Ciclo:** **Aprovado após retificação com rigor conceitual**.
 
 ### 3. Estado Atual e Próximos Passos
 - **Total de unidades editoriais concluídas e integradas:** **188 de 315 (59,7%)**.

@@ -1,0 +1,225 @@
+---
+articleId: art-f137aeacb1988047
+articleAliases: ["3 - Materias/Informatica/29 - power bi tableau e data studio comparativo e funcoes.md"]
+title: "Power BI, Tableau e Looker Studio: arquitetura, modelagem, funções DAX e casos de uso no setor público"
+type: "conceito"
+status: "ativo"
+created: 2026-11-09
+updated: 2026-11-09
+---
+
+# Power BI, Tableau e Looker Studio: arquitetura, modelagem, funções DAX e casos de uso no setor público
+
+## 1. Situação concreta e o ecossistema de Business Intelligence (BI) no setor público
+
+Na administração pública contemporânea — e com expressivo protagonismo no Poder Legislativo —, a prestação de contas, a transparência ativa da Lei de Acesso à Informação (LAI) e a governança estratégica exigem ferramentas modernas de **Business Intelligence (BI) e Self-Service Analytics**. 
+
+Na Câmara dos Deputados, painéis interativos de acompanhamento de emendas parlamentares, execução orçamentária, tramitação de projetos e estatísticas de votações são construídos sobre plataformas consolidadas de mercado: **Microsoft Power BI**, **Tableau** e **Google Looker Studio** (antigo Google Data Studio).
+
+Nas avaliações do **Cebraspe**, as questões não se limitam a testar comandos de interface, mas exigem compreensão profunda sobre:
+1. **Arquitetura conceitual** e ciclo de vida dos relatórios (Desktop $\times$ Serviço em Nuvem/Server $\times$ Mobile).
+2. **Modelagem dimensional** (esquema estrela $\times$ esquema floco de neve, tabelas fato $\times$ dimensões, relações e cardinalidade).
+3. **Linguagem de modelagem DAX** (diferença entre colunas calculadas e medidas, contexto de linha $\times$ contexto de filtro).
+4. **Adequação e casos de uso comparativos** entre as três soluções líderes de mercado.
+
+---
+
+## 2. Modelagem dimensional: a base do Self-Service BI
+
+Antes de desenhar gráficos, qualquer solução de BI exige a construção de um modelo de dados relacional analítico robusto, baseado nos princípios do *Data Warehouse* de Ralph Kimball:
+
+```
+                          ESQUEMA ESTRELA (STAR SCHEMA)
+  
+       ┌────────────────┐                  ┌────────────────┐
+       │   dCalendario  │                  │    dPartido    │
+       │  (Dimensão)    │                  │   (Dimensão)   │
+       └───────┬────────┘                  └────────┬───────┘
+               │                                    │
+               │ 1                                  │ 1
+               │                                    │
+               │ *                                * │
+       ┌───────┴────────────────────────────────────┴───────┐
+       │                 fDespesasParlamentares             │
+       │                   (Tabela Fato)                    │
+       │ - ID_Despesa (Chave Primária Degenerada)          │
+       │ - DataKey (FK)                                     │
+       │ - PartidoKey (FK)                                  │
+       │ - DeputadoKey (FK)                                 │
+       │ - ValorReembolsado (Métrica / Fato Numérico)       │
+       └────────────────────────┬───────────────────────────┘
+                                │ *
+                                │
+                                │ 1
+                       ┌────────┴────────┐
+                       │    dDeputado    │
+                       │   (Dimensão)    │
+                       └─────────────────┘
+```
+
+### 2.1. Tabelas Fato versus Tabelas Dimensão
+- **Tabela Fato (*Fact Table*):**
+  - Armazena as **ocorrências quantitativas dos eventos de negócio** (os fatos ou métricas mensuráveis). Ex.: notas fiscais da Cota Parlamentar (CEAP), votos nominais proferidos, empenhos orçamentários.
+  - Caracteriza-se por conter chaves estrangeiras (*Foreign Keys* - FK) que apontam para as dimensões e colunas numéricas que serão somadas, mediadas ou contadas. Possui alta volumetria de linhas e crescimento contínuo.
+- **Tabela Dimensão (*Dimension Table*):**
+  - Armazena o **contexto descritivo dos fatos** (o *quem*, *quando*, *onde*, *o quê*). Ex.: dados cadastrais dos deputados, partidos políticos, tabela de datas (calendário), órgãos da Câmara.
+  - Possui chaves primárias (*Primary Keys* - PK) únicas, menor número de linhas e colunas textuais categóricas usadas para filtrar, fatiar (*slice & dice*) e agrupar as métricas da fato.
+
+### 2.2. Esquema Estrela (*Star Schema*) versus Esquema Floco de Neve (*Snowflake Schema*)
+- **Esquema Estrela:** A tabela fato central conecta-se diretamente a dimensões totalmente **desnormalizadas** (planas). Vantagem em BI: consultas ultra rápidas, simplicidade de navegação e menor consumo de processamento para o motor em memória. Padrão de excelência no Power BI e Tableau.
+- **Esquema Floco de Neve:** As tabelas de dimensão são **normalizadas** em subtabelas hierárquicas (ex.: `dDeputado` aponta para `dMunicipio`, que aponta para `dEstado`). Reduz redundância de armazenamento, mas exige múltiplos *joins* relacionais que degradam a performance do modelo analítico.
+
+---
+
+## 3. Microsoft Power BI: componentes e motor DAX
+
+O Power BI baseia-se em um poderoso ecossistema de três componentes integrados:
+
+```
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                           MICROSOFT POWER BI                           │
+  │                                                                        │
+  │  [Power Query]           --> ETL / M-Language                          │
+  │  (Extração e Limpeza)        (Trata nulos, pivota, mescla tabelas)     │
+  │        │                                                               │
+  │        ▼                                                               │
+  │  [Motor VertiPaq]        --> Modelagem e Compressão Colunar            │
+  │  (Armazenamento)             (Armazena dados na memória RAM)           │
+  │        │                                                               │
+  │        ▼                                                               │
+  │  [Linguagem DAX]         --> Métricas Analíticas Avançadas             │
+  │  (Data Analysis Expressions) (Medidas dinâmicas e contextos de filtro) │
+  │        │                                                               │
+  │        ▼                                                               │
+  │  [Camada Visual]         --> Painéis Interativos e Storytelling        │
+  │  (Relatórios)                (Gráficos, cartões e filtros cruzados)    │
+  └────────────────────────────────────────────────────────────────────────┘
+```
+
+### 3.1. Power Query e Linguagem M
+- Responsável pela fase de **Extração e Transformação**. Opera de forma declarativa gravando cada etapa de transformação em código na **Linguagem M**. Executado antes do carregamento dos dados para o modelo em memória.
+
+### 3.2. DAX (*Data Analysis Expressions*): o divisor de águas
+DAX é a linguagem funcional de fórmulas do Power BI (e do Analysis Services). A distinção mais cobrada pelo Cebraspe reside entre **Coluna Calculada** e **Medida**:
+
+| Dimensão | Coluna Calculada (*Calculated Column*) | Medida (*Measure*) |
+| :--- | :--- | :--- |
+| **Momento do Cálculo** | Calculada durante a **carga ou atualização dos dados** (*Refresh*). | Calculada **dinamicamente em tempo de execução**, sob demanda do usuário. |
+| **Armazenamento** | Ocupa **espaço físico na memória RAM** e no disco para cada linha da tabela. | **Não ocupa espaço** em memória persistente (apenas CPU transitória no momento da consulta). |
+| **Contexto Nativo** | Opera no **Contexto de Linha (*Row Context*)**: avalia linha a linha iterativamente. | Opera no **Contexto de Filtro (*Filter Context*)**: avalia o conjunto de dados filtrado pelos visuais. |
+| **Função Recomendada** | Criar novas categorias ou segmentações estáticas para eixos de gráficos. | **Cálculo de métricas quantitativas, totais, médias, razões e KPIs**. |
+| **Exemplo Prático** | `FaixaEtaria = IF(dDeputado[Idade] >= 60, "Idoso", "Não Idoso")` | `TotalReembolsado = SUM(fDespesas[Valor])` |
+
+### 3.3. A Função Rainha: `CALCULATE`
+- A função `CALCULATE(<expressão>, <filtro1>, <filtro2>, ...)` é a única em DAX capaz de **modificar, sobrepor ou transitar o Contexto de Filtro**.
+- Executa a **transição de contexto** (*Context Transition*), convertendo um contexto de linha em um contexto de filtro equivalente.
+
+---
+
+## 4. Tableau: filosofia visual e arquitetura de cálculos
+
+O **Tableau** fundamenta-se na tecnologia patenteada **VizQL** (*Visual Query Language*), que traduz diretamente as ações de arrastar e soltar do usuário em consultas de banco de dados e renderização gráfica geométrica.
+
+### 4.1. Pilares Arquiteturais do Tableau
+- **Dimensões versus Medidas:**
+  - *Dimensões (Campos Azuis por padrão):* Campos qualitativos discretos que dividem e fatiam os dados em níveis de detalhe.
+  - *Medidas (Campos Verdes por padrão):* Campos quantitativos contínuos que podem ser agregados matematicamente.
+  - *Atenção de Prova:* No Tableau, "azul" significa **discreto** e "verde" significa **contínuo**; não confundir cor com dimensão/medida (uma dimensão numérica como ano pode ser contínua/verde, e uma medida agregada pode ser discreta/azul).
+- **Cálculos de Nível de Detalhe (LOD - *Level of Detail Expressions*):**
+  - Permitem computar valores em níveis de granularidade diferentes do nível exibido na visualização:
+    1. `FIXED`: Calcula o valor usando apenas as dimensões especificadas, ignorando os filtros da tela.
+    2. `INCLUDE`: Calcula em um nível de detalhe mais fino do que o presente na tela.
+    3. `EXCLUDE`: Omite dimensões da tela para calcular em um nível mais agregado.
+
+---
+
+## 5. Google Looker Studio: características e self-service em nuvem
+
+Antigo *Google Data Studio*, o **Looker Studio** é a ferramenta nativa de nuvem (*SaaS*) voltada para criação rápida de relatórios executivos e conectividade simplificada com o ecossistema Google e bancos em nuvem.
+
+### 5.1. Peculiaridades Técnicas
+- **100% Baseado em Navegador:** Não possui cliente Desktop instalado localmente; todo o desenvolvimento e consumo ocorrem via web.
+- **Conectividade Nativa:** Integração direta e sem atritos com Google BigQuery, Google Sheets, Google Analytics e Google Drive.
+- **Modelagem Leve:** Não possui um motor de modelagem dimensional e cálculos analíticos tão profundo quanto o DAX do Power BI ou as expressões LOD do Tableau; seu foco é o consumo rápido de dados já previamente tratados e agregados no banco de dados.
+
+---
+
+## 6. Quadro comparativo das plataformas de BI
+
+| Critério | Microsoft Power BI | Tableau | Google Looker Studio |
+| :--- | :--- | :--- | :--- |
+| **Ferramenta de Criação** | Power BI Desktop (Windows) + Serviço em Nuvem | Tableau Desktop + Prep Builder | 100% Web (Navegador) |
+| **Linguagem de Modelagem** | DAX (Cálculos) + M (ETL) | Cálculos Tableau + Expressões LOD | Funções de campo calculado básicas |
+| **Motor de Armazenamento** | VertiPaq (in-memory colunar de alta compressão) | Hiper (motor de extração rápida em memória) | Consulta direta ou cache temporário |
+| **Melhor Caso de Uso** | Ecossistemas corporativos integrados, governança e modelagem pesada | Exploração visual profunda, gráficos científicos e design flexível | Relatórios executivos rápidos conectados ao BigQuery e nuvem |
+| **Custo Inicial / Licenciamento** | Desktop gratuito; licença Pro/Premium para compartilhamento | Licenciamento por criador (*Creator/Viewer*) mais elevado | Gratuito na versão básica; versão Pro corporativa |
+
+---
+
+## 7. Casos concretos e aplicações progressivas
+
+### Caso 1: Painel de tramitação orçamentária na Câmara dos Deputados
+- *Cenário:* A Diretoria-Geral necessita de um painel interativo que cruze empenhos orçamentários com emendas de bancada e individuais.
+- *Implementação:* **Power BI**. Cria-se um modelo em esquema estrela no Power BI Desktop com tabelas dimensão (`dDeputado`, `dPartido`, `dCalendario`) e a tabela fato `fEmpenhos`.
+- *Uso de DAX:* Cria-se a medida `[Total Liquidado] = SUM(fEmpenhos[ValorLiquidado])` e a medida temporal de inteligência de tempo `[Liquidado Ano Anterior] = CALCULATE([Total Liquidado], SAMEPERIODLASTYEAR(dCalendario[Data]))`.
+
+### Caso 2: Exploração visual de padrões de votação partidária
+- *Cenário:* Uma equipe de cientistas políticos da Consultoria Legislativa deseja cruzar padrões de votação de 513 deputados em 2.000 votações nominais para identificar agrupamentos ideológicos (*clustering*).
+- *Implementação:* **Tableau**. A flexibilidade do motor VizQL e expressões `FIXED [Deputado] : AVG([AlineamentoGoverno])` permite gerar matrizes de calor (*heatmaps*) e gráficos de dispersão multivariados sem necessidade de codificar pipelines relacionais rígidos.
+
+### Caso 3: Relatório de métricas de engajamento do portal da Câmara
+- *Cenário:* A Secretaria de Comunicação precisa disponibilizar para a imprensa e diretores um relatório público com acessos diários, matérias mais lidas e retenção de vídeo na TV Câmara.
+- *Implementação:* **Looker Studio**. Como os dados de visitação residem no Google Analytics 4 e BigQuery, o Looker Studio conecta-se nativamente e publica um link seguro com atualização diária automática e custo operacional zero de infraestrutura.
+
+---
+
+## 8. Questões inéditas no padrão Cebraspe (C/E)
+
+### Item 1
+> **Assertiva:** No Microsoft Power BI, uma coluna calculada e uma medida diferenciam-se pelo fato de que a coluna calculada consome memória RAM e espaço em disco ao ser avaliada estaticamente linha a linha durante a carga de dados, enquanto a medida é calculada dinamicamente sob demanda com base no contexto de filtro ativo na visualização.
+>
+> **Gabarito:** **CERTO**  
+> **Comentário:** Descrição perfeita da distinção fundamental do DAX. A coluna calculada opera no contexto de linha e materializa os resultados na tabela (ocupando memória e disco). A medida não ocupa espaço de armazenamento prévio; sua avaliação ocorre em tempo de execução via CPU, respondendo instantaneamente aos filtros, segmentações e eixos selecionados no relatório.
+
+### Item 2
+> **Assertiva:** No design de modelos de dados analíticos para Business Intelligence, o esquema floco de neve (*snowflake schema*) é universalmente preferível ao esquema estrela (*star schema*), uma vez que a desnormalização das tabelas de dimensão no esquema estrela degrada o desempenho das consultas nos motores colunares em memória.
+>
+> **Gabarito:** **ERRADO**  
+> **Comentário:** O item inverte totalmente a boa prática de BI. O **esquema estrela (*star schema*)** é o padrão recomendado e de maior desempenho para ferramentas como Power BI e Tableau. Como as dimensões no esquema estrela são desnormalizadas e conectadas diretamente à tabela fato por um único relacionamento, o motor analítico executa menos operações de junção (*joins*), operando de forma muito mais rápida do que no esquema floco de neve.
+
+### Item 3
+> **Assertiva:** Na linguagem DAX do Power BI, a função `CALCULATE` é a única expressão habilitada a modificar o contexto de filtro original aplicado a uma métrica em um relatório interativo.
+>
+> **Gabarito:** **CERTO**  
+> **Comentário:** A função `CALCULATE` é o pilar estruturante do DAX. Ela avalia uma expressão matemática sob um novo contexto de filtro determinado pelos seus argumentos modificadores (como `ALL`, `FILTER`, `USERELATIONSHIP`), permitindo substituir ou enriquecer os filtros que os visuais da página impõem sobre os dados.
+
+### Item 4
+> **Assertiva:** No software Tableau, a cor verde em um campo inserido em uma prateleira de linhas ou colunas identifica obrigatoriamente que aquele campo é uma métrica quantitativa, ao passo que a cor azul denota que o campo é uma dimensão descritiva.
+>
+> **Gabarito:** **ERRADO**  
+> **Comentário:** Pegadinha clássica de Tableau. No Tableau:
+> - **Azul** significa que o campo é **Discreto** (cria cabeçalhos e rótulos separados).
+> - **Verde** significa que o campo é **Contínuo** (cria eixos contínuos ordenados).
+> Embora muitas dimensões sejam azuis e a maioria das medidas seja verde, é perfeitamente possível ter uma dimensão contínua (verde, como uma data em linha contínua) ou uma medida discreta (azul, como o total de vendas convertido em cabeçalho discreto).
+
+### Item 5
+> **Assertiva:** As tabelas de dimensão em um modelo dimensional caracterizam-se por armazenar exclusivamente chaves primárias e valores numéricos aditivos decorrentes de transações de negócio, sendo vedada a inclusão de atributos textuais ou categóricos em sua estrutura.
+>
+> **Gabarito:** **ERRADO**  
+> **Comentário:** A assertiva descreve as **tabelas fato (*fact tables*)**, e não as dimensões. As **tabelas de dimensão** contêm os atributos qualitativos, descritivos e contextuais (nomes, partidos, categorias, regiões, calendários) que fornecem o contexto e servem como filtros para as métricas numéricas armazenadas nas tabelas fato.
+
+### Item 6
+> **Assertiva:** O Google Looker Studio opera como uma solução integralmente baseada em computação em nuvem (*SaaS*), permitindo a conexão direta com fontes de dados relacionais e analíticas e a criação de relatórios interativos via navegador web, prescindindo da instalação de aplicativo cliente dedicado no computador do desenvolvedor.
+>
+> **Gabarito:** **CERTO**  
+> **Comentário:** O Looker Studio é 100% web; toda a criação, parametrização, conexão de dados e compartilhamento de painéis são realizados diretamente no navegador de internet, sem necessidade de download ou instalação de softwares locais.
+
+---
+
+## 9. Referências conceituais
+
+1. **FERRARI, Alberto; RUSSO, Marco.** *The Definitive Guide to DAX: Business intelligence with Microsoft Power BI, SQL Server Analysis Services, and Excel.* 2nd ed. Microsoft Press, 2019.
+2. **KIMBALL, Ralph; ROSS, Margy.** *The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling.* 3rd ed. Wiley, 2013.
+3. **SLEEPER, Ryan.** *Practical Tableau: 100 Tips, Tutorials, and Strategies from a Tableau Zen Master.* O'Reilly Media, 2018.
+4. **MICROSOFT LEARN.** *Visão Geral da Arquitetura do Microsoft Power BI e Otimização de Modelos.* Microsoft, 2024.
+5. **CÂMARA DOS DEPUTADOS.** *Diretrizes de Arquitetura de Dados e Painéis BI Corporativos.* Brasília: Centro de Informática (Cenin), 2024.

@@ -56,6 +56,7 @@ updated: 2026-09-14
 - [[3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica|26 • Visualização de dados: seleção de gráficos pela pergunta analítica, variáveis e carga cognitiva]] (CAM-TI-024)
 - [[3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes|27 • Histograma, gráficos de barras e gráficos de linhas: distinção dos eixos, escalas e aplicações]] (CAM-TI-025)
 - [[3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico|28 • Gráfico de dispersão e box plot: relações bivariadas, distribuição, quartis e detecção de outliers]] (CAM-TI-026)
+- [[3 - Materias/Informatica/29 - power bi tableau e data studio comparativo e funcoes|29 • Power BI, Tableau e Looker Studio: arquitetura, modelagem, funções DAX e casos de uso no setor público]] (CAM-TI-027)
 
 ## Legislação de segurança da informação e governança digital
 

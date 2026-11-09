@@ -262,6 +262,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira|27 • Concordância verbal e nominal: regras e casos de fronteira]]
   - [[3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos|28 • Regência verbal e nominal: transitividade, preposições e mudanças de sentido]]
   - [[3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos|29 • Crase: condições de ocorrência, casos facultativos e impedimentos]]
+  - [[3 - Materias/Portugues/30 - colocacao dos pronomes atonos proclise mesoclise e enclise|30 • Colocação dos pronomes átonos: próclise, mesóclise, ênclise e locuções verbais]]
 - [[3 - Materias/Ingles/ingles|Língua inglesa]]
   - [[3 - Materias/Ingles/01 - leitura instrumental tese e inferencias|01 • Leitura instrumental, tese e inferências]]
   - [[3 - Materias/Ingles/02 - conectivos e relacoes logico semanticas|02 • Conectivos e relações lógico-semânticas]]

@@ -554,6 +554,37 @@
       "status": "reviewed"
     },
     {
+      "id": "glo-receita-orcamentaria-realizada",
+      "term": "Receita orçamentária realizada",
+      "aliases": [
+        "Receita realizada"
+      ],
+      "definition": "É a receita orçamentária efetivamente arrecadada no exercício. No regime orçamentário da Lei nº 4.320/1964, pertencem ao exercício as receitas nele arrecadadas; por isso, para a execução da receita, realizar significa receber, e não apenas prever ou lançar o crédito.",
+      "contrast": "Receita prevista é estimativa da LOA; receita lançada é crédito constituído quando a lei exige lançamento; receita realizada é a parcela efetivamente arrecadada. O recolhimento é a transferência ao Tesouro pelo agente arrecadador e pode ocorrer depois da arrecadação. Realização orçamentária também não se confunde automaticamente com VPA nova: o pagamento de crédito tributário já reconhecido pode apenas converter um direito em caixa.",
+      "cebraspeTrap": "Afirmar que receita lançada, prevista ou simplesmente recolhida ao Tesouro já é, por si, receita realizada. A realização orçamentária é vinculada à arrecadação; a análise patrimonial segue o fato gerador e pode ocorrer em momento distinto.",
+      "example": "A LOA prevê R$ 2 milhões de IPTU. O município lança R$ 1,8 milhão e arrecada R$ 1,5 milhão até 31 de dezembro. Para a execução orçamentária, a receita realizada no exercício é R$ 1,5 milhão, ainda que parte tenha sido recolhida ao Tesouro posteriormente pelo banco arrecadador.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, art. 35",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
+        },
+        {
+          "label": "Tesouro Nacional: MCASP, 11ª edição, Parte I",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "glo-pagamento-da-despesa",
       "term": "Pagamento da despesa",
       "aliases": [],

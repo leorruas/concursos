@@ -177,6 +177,12 @@ for(const slug of novosFatos) {
 assert(match('permutativo').some(t => t.id === 'glo-fato-permutativo'));
 assert(match('fatos modificativos').some(t => t.id === 'glo-fato-modificativo'));
 assert(match('fato composto').some(t => t.id === 'glo-fato-misto'));
+const receitaRealizada = published.terms.find(t => t.id === 'glo-receita-orcamentaria-realizada');
+assert(receitaRealizada && receitaRealizada.aliases.includes('Receita realizada') &&
+  /arrecadad/i.test(receitaRealizada.definition),
+  'Receita orçamentária realizada deve ser pesquisável e vinculada à arrecadação');
+assert.equal(match('receita realizada')[0]?.id, 'glo-receita-orcamentaria-realizada',
+  'Busca deve priorizar receita orçamentária realizada');
 const editorialBacklog = JSON.parse(fs.readFileSync(path.join(root, 'data/glossario/backlog-cgu-2026.json'), 'utf8'));
 const pcasp = editorialBacklog.terms.find(t => t.id === 'glo-plano-de-contas-aplicado-ao-setor-publico-pcasp');
 assert(pcasp && pcasp.status === 'planned', 'Backlog deve preservar a proposta original do PCASP');

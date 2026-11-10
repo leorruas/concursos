@@ -595,6 +595,15 @@
       "status": "planned"
     },
     {
+      "id": "glo-receita-orcamentaria-realizada",
+      "term": "Receita orçamentária realizada",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
       "id": "glo-empenho",
       "term": "Empenho",
       "subjectId": "orcamento-publico",

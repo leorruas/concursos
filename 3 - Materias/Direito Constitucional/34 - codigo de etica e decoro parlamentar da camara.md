@@ -67,14 +67,14 @@ Constituem condutas de gravidade máxima, cuja consequência regimental e consti
 
 ### B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão
 
-São infrações disciplinares que, embora violem a liturgia e o funcionamento da Casa, não acarretam por si a perda definitiva do mandato (salvo se desaguarem em outra hipótese autônoma do art. 4º ou reincidência qualificada):
+O art. 5º reúne condutas atentatórias ao decoro, sujeitas às penalidades previstas no Código. Seu enquadramento nas diferentes sanções depende das hipóteses dos arts. 11 a 14 e dos fatos apurados; a perda do mandato está vinculada às condutas do art. 4º.
 1. **Perturbação da ordem:** perturbar a ordem das sessões da Câmara ou das reuniões de comissão (inciso I);
 2. **Infração a regras de boa conduta:** praticar atos que infrinjam as regras de boa conduta nas dependências da Casa (inciso II);
 3. **Ofensas e desacato:** praticar ofensas físicas ou morais nas dependências da Câmara ou desacatar, por atos ou palavras, outro parlamentar, a Mesa ou comissão, ou os respectivos Presidentes (inciso III);
 4. **Aliciamento e constrangimento com abuso de ascendência:** usar os poderes e prerrogativas do cargo para constranger ou aliciar servidor, colega ou qualquer pessoa sob sua ascendência hierárquica, para obter favorecimento de qualquer espécie (inciso IV);
 5. **Violação de segredo parlamentar:** revelar conteúdo de debates ou deliberações que a Câmara ou comissão hajam decidido manter secretos (inciso V);
-6. **Quebra de reserva documental:** revelar informações e documentos oficiais de caráter reservado conhecidos em razão do mandato (inciso VI);
-7. **Desvio de verba de gabinete:** usar verbas de gabinete em desacordo com os princípios do art. 37, *caput*, da CF (inciso VII);
+6. **Revelação de informação sigilosa:** revelar informações e documentos oficiais de caráter sigiloso de que tenha tido conhecimento na forma regimental (inciso VI);
+7. **Uso irregular de verbas do cargo:** utilizar verbas de gabinete ou quaisquer outras inerentes ao exercício do cargo em desacordo com os princípios do art. 37, *caput*, da CF (inciso VII);
 8. **Conflito de interesse por financiamento eleitoral:** relatar matéria submetida à apreciação da Câmara de interesse específico de pessoa física ou jurídica que tenha contribuído para o financiamento de sua campanha eleitoral (inciso VIII);
 9. **Fraude de registro de presença:** fraudar, por qualquer meio ou forma, o registro de presença às sessões ou às reuniões de comissão (inciso IX);
 10. **Descumprimento intencional de deveres fundamentais:** deixar de observar intencionalmente os deveres do art. 3º (inciso X, inserido pela Resolução 2/2011).

@@ -198,6 +198,10 @@ O [critério 2.5.8, Target Size (Minimum), nível AA](https://www.w3.org/TR/WCAG
 
 **Errado.** A verificação automática cobre apenas parte das exigências e não avalia adequadamente todo o sentido e uso dos componentes. **Mecanismo do erro:** verdade parcial com conclusão excessiva.
 
+## Questões reais DPDF 2022: planejamento visual e infografia (11/11/2026)
+
+Os itens **118 C** (arquitetura da informação, design de interfaces, interação e CMS) e **120 C** (interatividade, toque, clique e arraste em infográficos web) foram cotejados no [caderno DPDF 2022](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/GAB_DEFINITIVO_548_DPDF_005_01.PDF). São evidências de cobrança sobre produtos digitais, **sem demonstrar conformidade com WCAG**. Uma interação por arraste pode exigir alternativa de operação por teclado e suporte a outras formas de interação. **C/E inédito:** “Um infográfico já é acessível quando dispõe de operação por arraste, dispensando outras formas de interação.” **Errado**. As regras técnicas permanecem nas seções próprias de acessibilidade, distintas do gabarito histórico.
+
 ## Relações com outros temas
 
 **Responsivo × adaptativo × mobile-first:** comportamentos de layout e estratégia inicial de projeto. **Viewport × contêiner:** área de apresentação geral versus área local de componente. **Reflow × zoom:** reorganizar conteúdo e ampliá-lo são operações relacionadas, não equivalentes. **Perceptível × operável:** disponibilizar conteúdo aos sentidos versus permitir executar ações. **HTML semântico × ARIA:** estruturas nativas e complementos de semântica. **JPEG × PNG × SVG:** raster com perdas, raster sem perdas e vetor. **MP4 × codec:** contêiner versus codificação. **Acessibilidade × usabilidade:** remover barreiras técnicas e permitir atingir objetivos com eficácia, eficiência e satisfação em contextos definidos.

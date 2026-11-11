@@ -103,9 +103,11 @@ O **art. 90** atribui a apreciação do projeto a **comissão mista**, com colab
 
 **Art. 93:** projeto distribuído em **avulsos eletrônicos nos cinco dias seguintes à leitura**. É prazo **diferente das 48 horas para a sessão de leitura** do art. 89.
 
+**Art. 90, § 3º, IV e V:** o parecer da comissão permanente é enviado ao relator da comissão mista como subsídio. O **relator deve referir-se expressamente ao ponto de vista da comissão permanente**, mesmo quando discorda de sua conclusão. Isso não obriga a acolher o parecer.
+
 **Art. 99:** emendas pendentes de decisão do Plenário são discutidas e votadas **em grupos segundo parecer favorável ou contrário**, ressalvados **destaques**. Uma emenda aprovada na comissão não equivale a automática sanção nem elimina as votações em Plenário quando necessárias.
 
-**Art. 100:** quando a comissão não emite parecer no prazo fixado, o **Presidente do Senado**, publicadas as emendas, **convoca sessão conjunta** e **designa relator para parecer oral**. **Ausência de parecer não aprova silenciosamente o orçamento**.
+**Art. 100:** quando a comissão não emite parecer no prazo fixado, o **Presidente do Senado**, **após a publicação das emendas**, convoca sessão conjunta e **designa relator para emitir parecer oral** na sessão. A publicação integra a sequência legal. **Ausência de parecer não aprova silenciosamente o orçamento**.
 
 O **art. 102** determina aplicação subsidiária, **no que couber**, das regras regimentais dos demais projetos à tramitação da **LOA**. O **art. 103** conserva menção histórica a **“orçamento plurianual de investimentos”**: a terminologia atual para **PPA, LDO e LOA** é a da **CF art. 165**, com regras da **Resolução nº 1/2006-CN**. Não usar o texto histórico do art. 103 para substituir a disciplina constitucional atual.
 
@@ -149,9 +151,9 @@ A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcament
 
 **F.** Mensagem orçamentária chega ao Presidente do Senado. O art. 89 determina **leitura em sessão conjunta em 48 horas**; a leitura não decide aprovação.
 
-**G.** Comissão permanente de uma Casa analisa anexo orçamentário. Sua contribuição é **parecer no campo de competência**, para subsidiar o relator da **comissão mista**, não substituí-lo como deliberação definitiva.
+**G.** Comissão permanente de uma Casa analisa anexo orçamentário. Sua contribuição é **parecer no campo de competência**, para subsidiar o relator da **comissão mista**, não substituí-lo como deliberação definitiva. Pelo art. 90, § 3º, V, o relator deve **fazer referência expressa** ao ponto de vista recebido.
 
-**H.** Comissão mista não apresenta parecer dentro do prazo. O Presidente do Senado deve **convocar sessão conjunta e designar relator oral**, nas condições do art. 100. Não há aprovação tácita.
+**H.** Comissão mista não apresenta parecer dentro do prazo. **Publicadas as emendas**, o Presidente do Senado deve **convocar sessão conjunta e designar relator para parecer oral**, nas condições do art. 100. Não há aprovação tácita.
 
 ## 9. Dez questões inéditas Cebraspe: Certo ou Errado
 
@@ -167,11 +169,11 @@ A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcament
 
 **6.** A mensagem que encaminha projeto de lei orçamentária deve ser recebida e lida em sessão conjunta, convocada para esse fim em até quarenta e oito horas da entrega ao Presidente do Senado. **Certo.** Art. 89. **Leitura** não significa aprovação.
 
-**7.** A colaboração das comissões permanentes no orçamento autoriza cada uma a emitir o parecer final substitutivo da CMO sobre a totalidade do projeto, independentemente de sua competência temática. **Errado.** Art. 90, § 3º, prevê **contribuições limitadas ao campo temático** e sua remessa para subsidiar a análise da comissão mista.
+**7.** A colaboração das comissões permanentes no orçamento autoriza cada uma a emitir o parecer final substitutivo da CMO sobre a totalidade do projeto, independentemente de sua competência temática. **Errado.** Art. 90, § 3º, prevê **contribuições limitadas ao campo temático** e sua remessa para subsidiar a análise da comissão mista. O relator deve **mencionar expressamente** o ponto de vista da comissão permanente (inciso V), mesmo que não o acolha.
 
 **8.** O art. 93 do Regimento Comum determina a distribuição eletrônica do projeto em até cinco dias após sua leitura, prazo distinto do intervalo para realização da sessão conjunta prevista no art. 89. **Certo.** Dois **marcos temporais**: entrega à Presidência do Senado e leitura do projeto.
 
-**9.** Se a comissão mista não apresentar parecer no prazo fixado, a matéria orçamentária será considerada aprovada tacitamente, dispensada a sua apreciação em sessão conjunta. **Errado.** Art. 100 prevê **convocação de sessão conjunta** e **parecer oral** de relator designado.
+**9.** Se a comissão mista não apresentar parecer no prazo fixado, a matéria orçamentária será considerada aprovada tacitamente, dispensada a sua apreciação em sessão conjunta. **Errado.** Art. 100 prevê **publicação das emendas, convocação de sessão conjunta** e **parecer oral** de relator designado. Não há aprovação tácita.
 
 **10.** O procedimento orçamentário vigente pode ser interpretado exclusivamente pelos arts. 89 a 103 do RCCN, independentemente da Constituição e da Resolução nº 1/2006-CN, porque esta é norma estranha ao Regimento Comum. **Errado.** A **Resolução nº 1/2006-CN integra o RCCN** e estabelece a disciplina especial da CMO e dos projetos orçamentários, sob a CF art. 166.
 

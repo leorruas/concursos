@@ -5,7 +5,7 @@ title: "Parecer legislativo: relatório, voto e deliberação das comissões"
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-11
 aliases:
   - "Parecer das comissões"
   - "Relatório e voto do relator"
@@ -35,6 +35,8 @@ O **art. 129, I**, refere-se à **exposição da matéria**, não à escolha fin
 
 **Exceção literal do § 1º:** o **parecer a emenda** pode conter **apenas o voto do relator e o parecer da comissão**, com **dispensa do relatório**. A exceção é específica ao parecer sobre **emenda**, e não autorização geral para omitir o relatório de qualquer parecer escrito. O **art. 128** acrescenta outra distinção: a regra é **parecer escrito antes da discussão e votação**, mas **parecer verbal** é admitido **excepcionalmente, quando o Regimento permitir**.
 
+**Complemento do art. 129, § 2º:** quando houver parecer sobre matéria que **não seja projeto do Executivo, Judiciário ou Ministério Público nem proposição da Câmara ou do Senado**, e de suas conclusões deva resultar **resolução, decreto legislativo ou lei**, o parecer deverá conter a **proposição necessária devidamente formulada** pela primeira comissão competente para parecer de mérito ou por CPI, conforme o caso. O dispositivo apresenta **condições cumulativas**; não exige que todo parecer contenha projeto novo, nem autoriza que a conclusão genérica produza por si uma lei.
+
 **Emenda × substitutivo:** emenda modifica, suprime ou acrescenta parcela de texto; substitutivo oferece outro texto para a proposição, nos limites regimentais. O voto do relator pode propô-los, mas a proposta de alteração depende do **processamento e da deliberação cabíveis**, e não se converte em texto aprovado apenas por constar do voto.
 
 ## Parecer é proposição, mas não é lei
@@ -50,6 +52,8 @@ Um parecer favorável pode ajudar um projeto a prosseguir; um parecer contrário
 O **art. 127** determina, como regra, **parecer independente para cada proposição**. Há ressalva expressa para matérias **apensadas** conforme os arts. 139, I, e 142, que terão **um só parecer**. A tramitação conjunta não elimina automaticamente a identidade de cada projeto, como estudado em CAM-PL-003.
 
 **Caso:** projetos A e B, da mesma espécie e sobre temas correlatos, são apensados. A comissão pode produzir **parecer único que se pronuncia sobre todas as proposições**, inclusive concluindo pela aprovação de uma e rejeição da outra. A existência de **parecer único** não significa que A e B se fundiram em **um só projeto**. O art. 57, I, também exige pronunciamento sobre todas as apensadas.
+
+**Controle da regularidade do parecer:** além da remessa prevista no caput do **art. 130**, seu **parágrafo único** determina que o **Presidente da Câmara devolva à comissão parecer que contrarie as disposições regimentais** para reformulação, ou em razão do parágrafo único do art. 55 (pronunciamento fora da competência). A remessa à Mesa não torna imune à verificação regimental o documento recebido.
 
 **Exceção de forma:** o art. 128 permite **parecer verbal** quando houver hipótese expressamente admitida pelo Regimento. Logo, a assertiva “todo parecer deve, sem exceção, ser escrito” é excessiva; “qualquer relator pode optar livremente por parecer verbal” também não decorre da norma.
 
@@ -214,3 +218,14 @@ Uma resposta sólida pode seguir **conceito regimental de parecer (art. 126) →
 - [RICD, 31ª edição, Biblioteca da Câmara dos Deputados (2026)](https://bd.camara.leg.br/bd/items/version/400).
 
 **Limites editoriais:** as questões são inéditas, didáticas e escritas para treinar distinções do Regimento, sem reivindicar reprodução de questões oficiais da Cebraspe. A nota não comprova estudo, domínio nem desempenho do candidato; prazos e procedimentos devem ser interpretados na redação vigente do texto normativo.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Escopo cotejado:** texto, tabelas, **nove etapas do caso progressivo**, **dois exemplos comentados** e **oito questões inéditas C/E** confrontados com os [arts. 53–59, 126–130 e 144–147 do Regimento Interno da Câmara, versão consolidada](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferidos estrutura tripartida do parecer, exceção de relatório para emendas, parecer único das apensadas, restrição material por competência, quórum e desempate em comissão, voto original e parecer vencedor, voto em separado, vista conjunta, terminatividade e apreciação conclusiva.
+
+**NC-PL-044, conteúdo da proposição decorrente do parecer:** acrescentado o **art. 129, § 2º**, que exige a **proposição devidamente formulada** quando, nas condições estritas do dispositivo, a conclusão do parecer deva resultar em resolução, decreto legislativo ou lei. **NC-PL-045, controle de regularidade:** explicitado o **art. 130, parágrafo único**, que prevê devolução à comissão para reformulação de parecer contrário ao Regimento ou na hipótese do art. 55, parágrafo único.
+
+**Gabaritos efetivamente existentes e preservados, oito itens:** **C, E, E, C, C, E, C, E**. Nenhuma inversão demonstrada nas questões, nos nove casos e nos dois exemplos examinados. A nota contém **oito**, não dez itens; o inventário histórico não recebe novas questões neste bloco.
+
+**Limites:** certificação do recorte escrito, nesta data, sem homologar integralmente o RICD, todos os regimes especiais de parecer, a aprendizagem do estudante, ou a renderização/publicação em GitHub Pages.

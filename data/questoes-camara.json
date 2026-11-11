@@ -5154,6 +5154,102 @@
       "statement": "A possibilidade técnica de sanar um defeito basta para convalidar o ato no processo administrativo federal, mesmo quando a medida prejudica terceiros.",
       "correctAnswer": "E",
       "explanation": "A ausência de prejuízo a terceiros é uma das condições legais. A natureza sanável do defeito não basta isoladamente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
+      "conceptId": "delegacao-sem-hierarquia",
+      "mechanism": "exigir-subordinacao-do-delegado",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4. Delegação de competência: conceito, pressupostos e limites"
+      ],
+      "statement": "No processo administrativo federal, a falta de subordinação hierárquica entre duas autoridades não impede, por si só, a delegação de parte da competência entre elas.",
+      "correctAnswer": "C",
+      "explanation": "O art. 12 admite delegação mesmo sem subordinação, observados os demais requisitos e impedimentos legais."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
+      "conceptId": "competencia-indelegavel",
+      "mechanism": "delegar-decisao-de-recurso",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4. Delegação de competência: conceito, pressupostos e limites"
+      ],
+      "statement": "Uma autoridade federal pode delegar a decisão de um recurso administrativo se publicar o ato de delegação e indicar sua duração.",
+      "correctAnswer": "E",
+      "explanation": "A decisão de recurso administrativo é indelegável pelo art. 13, II. Publicidade e duração não afastam essa proibição."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
+      "conceptId": "ato-de-delegacao",
+      "mechanism": "distinguir-exercicio-de-titularidade",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4. Delegação de competência: conceito, pressupostos e limites"
+      ],
+      "statement": "No âmbito da Lei nº 9.784/1999, uma delegação regularmente publicada pode ser revogada pela autoridade delegante.",
+      "correctAnswer": "C",
+      "explanation": "A delegação transfere o exercício de atribuições delimitadas. O art. 14, § 2º, admite revogação a qualquer tempo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
+      "conceptId": "autoria-de-ato-delegado",
+      "mechanism": "atribuir-decisao-ao-delegante",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4. Delegação de competência: conceito, pressupostos e limites"
+      ],
+      "statement": "Para fins da Lei nº 9.784/1999, uma decisão adotada no exercício regular da delegação considera-se editada pela autoridade delegante.",
+      "correctAnswer": "E",
+      "explanation": "A decisão deve mencionar a delegação e é considerada editada pelo delegado, conforme o art. 14, § 3º."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
+      "conceptId": "avocacao",
+      "mechanism": "aplicar-requisitos-cumulativos",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      ],
+      "statement": "Em situação excepcional, por motivos relevantes devidamente justificados, uma autoridade pode avocar temporariamente competência atribuída a órgão hierarquicamente inferior, nos termos da Lei nº 9.784/1999.",
+      "correctAnswer": "C",
+      "explanation": "A hipótese reúne excepcionalidade, motivação relevante, duração temporária e relação hierárquica, conforme o art. 15."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 9.784/1999",
+      "conceptId": "avocacao",
+      "mechanism": "confundir-avocacao-com-delegacao-sem-hierarquia",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      ],
+      "statement": "A regra federal que admite delegação sem subordinação permite também avocar competência de um órgão sem relação hierárquica com a autoridade que pretende avocá-la.",
+      "correctAnswer": "E",
+      "explanation": "O art. 15 exige que o órgão cuja competência se avoca seja hierarquicamente inferior. A regra de delegação sem subordinação não se estende à avocação."
     }
   ]
 }

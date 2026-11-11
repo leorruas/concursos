@@ -3458,6 +3458,102 @@
       "statement": "Dois partidos participam do gabinete de um presidente. Essa participação garante que ambos apoiarão todos os projetos do Executivo no Legislativo.",
       "correctAnswer": "E",
       "explanation": "A presença no gabinete sinaliza um acordo político. Divergências por matéria podem gerar votações diferentes, mesmo entre aliados."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / modelos de gestão pública",
+      "conceptId": "patrimonialismo",
+      "mechanism": "identificar-confusao-entre-interesse-publico-e-privado",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Núcleo do conceito"
+      ],
+      "statement": "Um dirigente usa o orçamento do órgão para pagar despesas particulares da família, tratando os recursos públicos como patrimônio pessoal. A conduta exemplifica um traço patrimonialista.",
+      "correctAnswer": "C",
+      "explanation": "O caso mostra apropriação privada de recursos públicos e confusão entre o patrimônio estatal e o do dirigente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / modelos de gestão pública",
+      "conceptId": "burocracia-e-impessoalidade",
+      "mechanism": "confundir-procedimento-com-favor-pessoal",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Administração Pública burocrática × gerencial"
+      ],
+      "statement": "Um órgão seleciona servidores por critérios gerais e previamente definidos. Essa prática reproduz a lógica patrimonialista porque substitui a avaliação pessoal do governante por regras impessoais.",
+      "correctAnswer": "E",
+      "explanation": "Critérios gerais de seleção são compatíveis com a burocracia profissional. A escolha baseada em vínculos pessoais é que se aproxima da lógica patrimonialista."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / modelos de gestão pública",
+      "conceptId": "controle-de-resultados",
+      "mechanism": "distinguir-entrega-de-conformidade",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Administração Pública burocrática × gerencial"
+      ],
+      "statement": "A verificação de que um serviço alcançou a meta de reduzir filas mede um aspecto diferente da conferência de que todas as etapas formais da contratação foram cumpridas.",
+      "correctAnswer": "C",
+      "explanation": "A primeira verificação trata de resultado. A segunda examina conformidade do processo. As duas podem coexistir."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / modelos de gestão pública",
+      "conceptId": "coexistencia-de-modelos",
+      "mechanism": "presumir-substituicao-integral",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Modelos coexistem"
+      ],
+      "statement": "Ao adotar metas de desempenho, um órgão deixa necessariamente de usar regras escritas para seleção de pessoal e compras.",
+      "correctAnswer": "E",
+      "explanation": "Metas podem ser adotadas sem abandonar procedimentos impessoais. Traços gerenciais e burocráticos podem coexistir no mesmo órgão."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / modelos de gestão pública",
+      "conceptId": "autonomia-gerencial",
+      "mechanism": "distinguir-autonomia-de-ausencia-de-controle",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Administração Pública burocrática × gerencial"
+      ],
+      "statement": "Uma equipe recebe margem para distribuir os turnos de trabalho e precisa prestar contas dos resultados diante de metas previamente pactuadas. Esse arranjo é compatível com uma lógica gerencial.",
+      "correctAnswer": "C",
+      "explanation": "A equipe ganha flexibilidade sobre os meios e continua responsável por resultados. Autonomia operacional e monitoramento são compatíveis."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / modelos de gestão pública",
+      "conceptId": "classificacao-de-modelos",
+      "mechanism": "generalizar-a-partir-de-um-instrumento",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Modelos coexistem"
+      ],
+      "statement": "A adoção de um painel de desempenho em um setor basta para classificar todas as práticas da organização como gerenciais.",
+      "correctAnswer": "E",
+      "explanation": "O painel evidencia um instrumento em um setor. A classificação mais ampla depende de observar como as demais práticas organizam decisões, procedimentos e controles."
     }
   ]
 }

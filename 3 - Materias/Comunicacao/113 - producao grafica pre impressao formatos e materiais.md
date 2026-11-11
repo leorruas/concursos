@@ -205,6 +205,14 @@ Os padrões **PDF/X-1a e PDF/X-4** são variantes distintas da família ISO 1593
 
 **Escopo da auditoria:** o item 4 foi fundamentado diretamente na documentação técnica; os demais foram comparados às definições já descritas na nota e ainda exigem revisão integral de todas as fontes. Não foi invertido gabarito nesta intervenção. Os exemplos são de treinamento inédito, não provas históricas da Cebraspe.
 
+## Calibração por prova real: Correios 2011, tinta e OCR (11/11/2026)
+
+No [caderno oficial CESPE/UnB, Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf) e no [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/Gab_Definitivo_ECT11_028_83.PDF), foram conferidos **65 C** (combinação de tintas primárias subtrativas e reprodução de cores aditivas, conforme o enunciado da banca) e **67 C** (reconhecimento óptico de caracteres convertendo imagem de texto impresso em caracteres digitais editáveis).
+
+**Precisão de tecnologia e de cor:** o **OCR** permite reconhecimento de caracteres, mas a saída pode exigir revisão e correção: texto reconhecido não é necessariamente texto sem erro. A formulação do **item 65** pertence ao contexto didático de combinação de primárias e de reprodução gráfica; não dispensar estudo de diferenças entre modelos aditivos e subtrativos, limites de gamute, pigmentos reais e perfil de cor. Não generalizar a resposta histórica da banca para qualquer mistura física de tinta.
+
+**Nota de prova:** esses dois julgamentos são **itens reais** e não foram criados pelo material didático. As questões atuais sobre PDF/X, sangria, resolução e qualidade precisam de análise própria, pois os itens 65 e 67 não as certificam. [Índice do corpus e confronto dos itens 65–80](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md).
+
 ## Relações com outros temas
 
 **Planejamento editorial × projeto gráfico × editoração × pré-impressão × produção:** objetivos, sistema, aplicação, verificação técnica e execução física. **PPI × DPI × LPI:** densidade de pixels, pontos físicos de saída e frequência de retícula. **RGB × CMYK × ICC:** modelos de cor e gerenciamento específico da saída. **Trapping × sangria:** encontro entre tintas e borda de corte. **PDF comum × PDF/X:** contêiner geral e intercâmbio padronizado. **Vinco × dobra:** preparo da região de dobra e operação de dobrar. **Gramatura × espessura:** massa por área e dimensão física. **Prova de cor × preflight:** validação visual de reprodução e checagem técnica do arquivo.

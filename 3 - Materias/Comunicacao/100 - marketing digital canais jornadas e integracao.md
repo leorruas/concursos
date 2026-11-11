@@ -138,6 +138,12 @@ A distinção entre **multicanal**, **cross-channel** e **omnichannel** nesta no
 
 **Limite:** esta conferência é direta quanto à exigência geral de finalidade e base legal; a caracterização de omnicanal foi confrontada em consistência com os exemplos da nota, não com uma taxonomia única oficial. O artigo permanece sem auditoria completa de integrações tecnológicas concretas.
 
+## Calibração real CNMP 2023: redes, wiki e vídeos institucionais (11/11/2026)
+
+O [caderno oficial CNMP 2023, Comunicação Social](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), confrontado com o [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF), registra **item 73, Certo**, para proposição sobre maior velocidade de circulação de informações em **laços fracos** que em **laços fortes**, e **item 74, Errado**, por descrever *wiki* como publicações individuais em blogs privados. O **item 77, Certo**, recomenda uso de site e redes sociais existentes para divulgar vídeos institucionais.
+
+**Limites de interpretação:** o item 73 é julgamento de uma afirmação geral dentro do concurso, **não prova causal universal** sobre difusão em todas as redes e para toda informação. *Wiki* é modo de produção/edição colaborativa conforme permissões e práticas, e não sinônimo de blog individual. O item 77, cobrado em assessoria de imprensa, **não estabelece dever irrestrito** de publicar todo vídeo em toda plataforma, nem dispensa governança, acessibilidade e definição de público. Esses três itens foram conferidos em fontes primárias da banca e não equivalem a três exercícios inéditos.
+
 ## Relações com outros temas
 
 **Planejamento de marketing × marketing digital:** o primeiro define diagnóstico, valor, decisões estratégicas e controle; o segundo estuda a execução e a experiência por meios digitais. **Plano de mídia × jornada:** um aloca distribuição e recursos; a outra organiza necessidade e percurso do público. **Segmentação × personalização:** segmentação organiza grupos; personalização adapta experiências com base em informações pertinentes, podendo ocorrer sem perfil individual. **SEO × SEA:** melhorar descoberta orgânica não equivale à compra de anúncio de busca. **Jornada × funil:** jornada descreve experiência e contexto; funil agrega etapas e taxas para análise.

@@ -73,11 +73,18 @@ export function validatePlan(root,plan,concursos) {
   for(const source of Object.values(plan.sources))if(source.ref)checkRef(root,source.ref);
   return program;
 }
+// V3 registra a natureza da sessão; V2 misto é aceito exclusivamente como legado.
+export const sessionScope = s => s.schemaVersion===3 ? s.scope : s.subjectId==='diagnostico-misto' && s.unitId==='diagnostico-misto' ? 'mixed' : 'subject';
 export function validateLearning(root,s,concursos) {
-  if(s.schemaVersion!==2)return;
+  if(![2,3].includes(s.schemaVersion))return;
   const contest=concursos.find(c=>c.id===s.concursoId);
   const plan=loadPlans(root).find(p=>p.concursoId===s.concursoId)||{subjects:genericSubjects(root),sources:{edital:{ref:contest?.sourcePath}},questionFormat:contest?.estruturaProva?.objetiva?.julgamento==='Certo ou Errado'?'CE':null};
-  const mixed=s.subjectId==='diagnostico-misto' && s.unitId==='diagnostico-misto';
+  if(s.schemaVersion===3){
+    ok(['subject','mixed'].includes(s.scope),`${s.id}: scope de sessão inválido`);
+    if(s.scope==='mixed')ok(s.subjectId==null&&s.unitId==null&&s.kind==='microtreino',`${s.id}: bateria mista não possui matéria/unidade de sessão`);
+    else ok(txt(s.subjectId)&&txt(s.unitId),`${s.id}: sessão curricular exige matéria/unidade`);
+  }
+  const mixed=sessionScope(s)==='mixed';
   const subject=mixed?null:plan.subjects.find(x=>x.id===s.subjectId);
   ok(mixed||subject,`${s.id}: matéria não catalogada`);
   const unit=mixed?null:subject.units.find(x=>x.id===s.unitId);
@@ -86,10 +93,11 @@ export function validateLearning(root,s,concursos) {
   const l=s.learning;ok(l&&['preparacao','aula','fronteiras','aprendizagem','para_valer','correcao','revisao','consolidacao'].includes(l.stage),`${s.id}: etapa inválida`);
   for(const k of ['taughtConcepts','boundaries','pending'])ok(arr(l[k])&&l[k].every(txt),`${s.id}: ${k} deve ser lista de textos`);
   ok(typeof l.unitCompleted==='boolean',`${s.id}: unitCompleted obrigatório`);
-  ok(l.next&&(mixed?l.next.unitId==='diagnostico-misto':subject.units.some(u=>u.id===l.next.unitId))&&txt(l.next.objective)&&['preparacao','aula','fronteiras','aprendizagem','para_valer','revisao'].includes(l.next.stage),`${s.id}: próximo passo inválido`);
+  ok(l.next&&(mixed?(s.schemaVersion===3?l.next.unitId==null:l.next.unitId==='diagnostico-misto'):subject.units.some(u=>u.id===l.next.unitId))&&txt(l.next.objective)&&['preparacao','aula','fronteiras','aprendizagem','para_valer','revisao'].includes(l.next.stage),`${s.id}: próximo passo inválido`);
   if(l.next.noteRef)checkRef(root,l.next.noteRef);
   ok(arr(l.next.sourceIds)&&l.next.sourceIds.length>0&&l.next.sourceIds.every(id=>plan.sources[id]),`${s.id}: fonte do próximo passo ausente`);
   if(l.unitCompleted){
+    ok(!mixed,`${s.id}: sessão mista não encerra unidade curricular`);
     ok(s.status==='concluido' && (l.taughtConcepts.length>0||unit.historicalExposure),`${s.id}: conclusão sem exposição`);
     const unresolved=s.questions.some(q=>!q.annulled&&((q.userAnswer!==null&&q.userAnswer!==q.correctAnswer&&['conhecimento','confusao_conceitual'].includes(q.errorType))||['guess','insecure'].includes(q.confidence)));
     if(unresolved)ok(txt(l.advanceWithGaps),`${s.id}: avanço com erro conceitual exige justificativa, mantendo revisão`);
@@ -97,6 +105,7 @@ export function validateLearning(root,s,concursos) {
   if(s.kind==='fechamento')ok(s.questions.length===0&&l.stage==='consolidacao',`${s.id}: fechamento editorial não contém questões e usa etapa consolidacao`);
   const editorial=l.editorialConsolidation;
   if(editorial){
+    ok(!mixed,`${s.id}: recibo editorial exige sessão de uma matéria`);
     ok(['consolidado','revisado-sem-alteracao'].includes(editorial.status)&&txt(editorial.summary),`${s.id}: recibo editorial sem estado ou justificativa`);
     ok(arr(editorial.noteRefs)&&editorial.noteRefs.length>0&&editorial.noteRefs.every(r=>txt(r)&&(r.startsWith('3 - Materias/')||r.startsWith('article:'))&&!/(?:^|\/)Avancos(?:\.md)?$/.test(r.split('#')[0])),`${s.id}: recibo editorial exige notas canônicas`);
     editorial.noteRefs.forEach(r=>checkRef(root,r));
@@ -106,11 +115,16 @@ export function validateLearning(root,s,concursos) {
   for(const q of s.questions){
     ok(normalize(q.conceptId)===q.conceptId&&txt(q.conceptId),`${s.id}: conceptId obrigatório`);
     const qSubject=mixed?plan.subjects.find(x=>x.id===q.subjectId):subject;
-    if(mixed && q.subjectId)ok(qSubject,`${s.id}: matéria da questão não catalogada`);
+    if(mixed && s.schemaVersion===3)ok(Object.hasOwn(q,'subjectId')&&Object.hasOwn(q,'unitId'),`${s.id}/Q${q.number}: classificação explícita obrigatória (null se desconhecida)`);
+    if(mixed && q.subjectId!=null)ok(qSubject,`${s.id}/Q${q.number}: matéria da questão não catalogada`);
     if(qSubject){
-      ok(qSubject.units.some(u=>u.id===(q.unitId||s.unitId)),`${s.id}: unidade da questão inválida`);
-      if(!mixed)ok(qSubject.legacyDisciplines.some(d=>normalize(d)===normalize(q.discipline)),`${s.id}: disciplina diverge da matéria`); // Baterias mistas preservam o rótulo original e usam subjectId como classificação curricular explícita.
-    } else ok(mixed && !q.unitId && !q.subjectId,`${s.id}: disciplina não catalogada deve ficar sem unidade, sem classificação presumida`);
+      if(mixed)ok(q.unitId==null||qSubject.units.some(u=>u.id===q.unitId),`${s.id}/Q${q.number}: unidade incompatível com a matéria`);
+      else {
+        ok(q.subjectId==null||q.subjectId===s.subjectId,`${s.id}/Q${q.number}: matéria da questão diverge da sessão`);
+        ok(qSubject.units.some(u=>u.id===(q.unitId||s.unitId)),`${s.id}/Q${q.number}: unidade da questão inválida`);
+        ok(qSubject.legacyDisciplines.some(d=>normalize(d)===normalize(q.discipline)),`${s.id}/Q${q.number}: disciplina diverge da matéria`);
+      }
+    } else ok(mixed && q.unitId==null && q.subjectId==null,`${s.id}/Q${q.number}: item sem matéria não pode ter unidade`);
     if(q.sourceRefs)ok(arr(q.sourceRefs)&&q.sourceRefs.every(r=>plan.sources[r.sourceId]&&txt(r.locator)),`${s.id}: referência normativa sem fonte/localizador`);
     if(q.retrievalOf)ok(arr(q.retrievalOf)&&q.retrievalOf.every(txt),`${s.id}: retrievalOf inválido`);
     if(plan.questionFormat)ok(q.format===plan.questionFormat,`${s.id}: formato diverge do concurso`);
@@ -133,12 +147,14 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
     const plan=plans.find(p=>p.concursoId===contest.id);const program=plan?validatePlan(root,plan,concursos):[];
     const subjects=plan?plan.subjects:genericSubjects(root);
     const activeExam=examProfile(contest);
-    const contestIndex={concursoId:contest.id,banca:contest.banca,activeExam,subjects:[],resume:null};
+    const lastActivity=[...sources.values()].filter(s=>s.concursoId===contest.id&&s.sessionFile).sort((a,b)=>Date.parse(a.startedAt||a.date)-Date.parse(b.startedAt||b.date)||a.id.localeCompare(b.id)).at(-1);
+    const contestIndex={concursoId:contest.id,banca:contest.banca,activeExam,subjects:[],resume:null,
+      lastActivity:lastActivity?{lastSessionId:lastActivity.id,date:lastActivity.date,startedAt:lastActivity.startedAt,sessionScope:lastActivity.sessionScope||sessionScope(lastActivity),subjectId:lastActivity.subjectId||null,sourcePath:lastActivity.sourcePath}:null};
     const modes=q=>q.trainingMode||sources.get(q.sourceId)?.trainingModes?.join('+')||(sources.get(q.sourceId)?.sourcePath?.startsWith('00 - Desempenho/Simulados/Simulado-')?'simulado':'historico-nao-classificado');
     for(const subject of subjects){
-      const matches=q=>q.concursoId===contest.id&&(q.subjectId?q.subjectId===subject.id:subject.legacyDisciplines.some(d=>normalize(d)===normalize(q.discipline)));
+      const matches=q=>q.concursoId===contest.id&&(q.subjectId?q.subjectId===subject.id:q.sessionScope==='mixed'?false:subject.legacyDisciplines.some(d=>normalize(d)===normalize(q.discipline)));
       const qs=ledger.questions.filter(matches);
-      const unitOf=q=>q.unitId||(sources.get(q.sourceId)?.unitId==='diagnostico-misto'?null:sources.get(q.sourceId)?.unitId)||subject.legacySourceUnits?.[q.sourceId]||null;
+      const unitOf=q=>q.unitId||(q.sessionScope==='mixed'?null:sources.get(q.sourceId)?.unitId)||subject.legacySourceUnits?.[q.sourceId]||null;
       const selected=[...sources.values()].filter(s=>s.concursoId===contest.id&&(s.subjectId===subject.id||qs.some(q=>q.sourceId===s.id))).map((s,i)=>({...s,_order:i})).sort((a,b)=>a.date.localeCompare(b.date)||(Date.parse(a.startedAt||a.date)-Date.parse(b.startedAt||b.date))||a._order-b._order);
       // Baterias mistas alimentam métricas e lacunas, mas não substituem o checkpoint curricular de retomada.
       const latest=selected.filter(s=>s.subjectId===subject.id).at(-1);

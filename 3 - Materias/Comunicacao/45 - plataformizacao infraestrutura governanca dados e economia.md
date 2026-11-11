@@ -5,7 +5,7 @@ title: "Plataformização: infraestrutura, mercados, governança, dados e práti
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Plataformização: infraestrutura, mercados, governança, dados e práticas sociais
@@ -142,6 +142,18 @@ A análise introduz a discussão de **valores públicos**: privacidade, seguran�
 **Item 3, inédito:** “O aumento de curtidas em uma postagem institucional constitui evidência suficiente de que seu público compreendeu a informação e de que a plataforma passou a garantir acesso democrático ao serviço.”
 
 **Gabarito: Errado.** Uma métrica de interação não demonstra compreensão nem condições equitativas de acesso. Seria preciso investigar objetivos, públicos, indicadores adequados e eventuais exclusões. Mecanismo: inferência indevida de efeito a partir de indicador parcial.
+
+## Auditoria dirigida: definições de 2013 e 2019 (11/11/2026)
+
+A definição de **Poell, Nieborg e Van Dijck (2019)** foi confrontada com o [artigo integral em *Internet Policy Review*](https://policyreview.info/concepts/platformisation), que articula **infraestruturas, processos econômicos e estruturas de governança** com a reorganização de **práticas e imaginários culturais**. A formulação dos quatro princípios de **Van Dijck e Poell (2013)** consta do [resumo do texto acadêmico original](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2309065_code1904422.pdf?abstractid=2309065&mirid=1&type=2): **programabilidade, popularidade, conectividade e dataficação**.
+
+| Item | Gabarito | Cotejo |
+| --- | --- | --- |
+| 1 | **Certo** | **Confirmado** pelo artigo de 2019, sem reduzir plataformização à existência de redes sociais. |
+| 2 | **Errado** | **Confirmado** pelo artigo de 2013: os quatro princípios não são a lista de dimensões da definição de 2019. |
+| 3 | **Errado** | É inferência sobre avaliação: curtidas são métrica de interação e não comprovam automaticamente compreensão ou acesso democrático. Compatível com o princípio metodológico, mas não é uma proposição textual específica atribuída aos artigos originais. |
+
+**Resultado:** gabaritos mantidos. Dois itens possuem conferência autoral direta; o terceiro é um exercício de inferência de métricas e deve ser avaliado por fontes de avaliação de comunicação. Os conjuntos de 2013 e 2019 têm **funções analíticas diferentes**, não uma cronologia de substituição obrigatória.
 
 ## Aplicação discursiva
 

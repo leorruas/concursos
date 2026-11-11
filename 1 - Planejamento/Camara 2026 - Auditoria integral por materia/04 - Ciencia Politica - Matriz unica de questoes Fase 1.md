@@ -12,7 +12,7 @@ Fonte canônica de achados: [[1 - Planejamento/Camara 2026 - Auditoria integral 
 
 ## Resumo verificável do inventário
 
-**Fotografia de 11/11/2026:** **23 notas canônicas ou variantes** (duas variantes distintas do número 10, mais 11–31), **199 itens inéditos C/E extraídos diretamente do texto**, **85 com indicação de cotejo seletivo prévio** e **114 somente lidos, aguardando conferência independente**. **0 itens declarados integralmente certificados nesta matriz.** Não houve entradas duplicadas na chave `articleId#número`, e todos os 199 registros possuem gabarito original identificado. O total **199** é a contagem diretamente reextraída das notas atuais e substitui **estimativas anteriores**, não as recontagens de itens repetidos em múltiplos blocos de auditoria.
+**Fotografia de 11/11/2026:** **23 notas canônicas ou variantes** (duas variantes distintas do número 10, mais 11–31), **199 itens inéditos C/E extraídos diretamente do texto**, **90 com indicação de cotejo seletivo prévio** e **109 somente lidos, aguardando conferência independente**. **0 itens declarados integralmente certificados nesta matriz.** Não houve entradas duplicadas na chave `articleId#número`, e todos os 199 registros possuem gabarito original identificado. O total **199** é a contagem diretamente reextraída das notas atuais e substitui **estimativas anteriores**, não as recontagens de itens repetidos em múltiplos blocos de auditoria.
 
 **Atenção ao significado:** as 82 marcações de cotejo seletivo são *rastros de uma revisão dirigida*, não homologação final. A referência aponta a um bloco do [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/03 - Ciencia Politica - Fase 1|relatório 03]], que pode confrontar apenas o fundamento decisivo, não cada cláusula da questão. A conversão futura para `confirmado integralmente` requer conferir o enunciado completo, fonte, justificativa, gabarito, exceções e vigência. Itens `somente lidos` também podem estar corretos ou incorretos; a ausência de cotejo não indica erro.
 
@@ -309,16 +309,16 @@ Fonte: `3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes 
 
 | Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
 | --- | --- | --- | --- |
-| `art-83d47f1a6c902be5#1` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-83d47f1a6c902be5#2` | Errado | Somente lido | Pendente: cotejo por item |
-| `art-83d47f1a6c902be5#3` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#1` | Certo | Cotejo seletivo | Relatório 03, bloco 23 |
+| `art-83d47f1a6c902be5#2` | Errado | Cotejo seletivo | Relatório 03, bloco 23 |
+| `art-83d47f1a6c902be5#3` | Certo | Cotejo seletivo | Relatório 03, bloco 23 |
 | `art-83d47f1a6c902be5#4` | Errado | Cotejo seletivo | Relatório 03, bloco 22 |
 | `art-83d47f1a6c902be5#5` | Errado | Cotejo seletivo | Relatório 03, bloco 22 |
 | `art-83d47f1a6c902be5#6` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |
 | `art-83d47f1a6c902be5#7` | Errado | Cotejo seletivo | Relatório 03, bloco 22 |
 | `art-83d47f1a6c902be5#8` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |
-| `art-83d47f1a6c902be5#9` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-83d47f1a6c902be5#10` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#9` | Certo | Cotejo seletivo | Relatório 03, bloco 23 |
+| `art-83d47f1a6c902be5#10` | Certo | Cotejo seletivo | Relatório 03, bloco 23 |
 | `art-83d47f1a6c902be5#11` | Errado | Cotejo seletivo | Relatório 03, bloco 6 |
 | `art-83d47f1a6c902be5#12` | Errado | Cotejo seletivo | Relatório 03, bloco 6 |
 

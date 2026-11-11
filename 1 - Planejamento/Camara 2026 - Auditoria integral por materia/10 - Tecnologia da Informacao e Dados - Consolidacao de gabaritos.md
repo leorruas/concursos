@@ -63,3 +63,26 @@ As notas dos artigos registram fontes e ressalvas pontuais de Microsoft, RFCs, l
 - **Para plataforma/simulados:** não foi demonstrada presença literal dessas 13 questões no banco piloto, mas também **não foi demonstrado filtro automático de exclusão geral**.
 
 Este registro é uma **consolidação factual do estado encontrado**, não uma declaração de cobertura integral, de desempenho do estudante ou de aprovação total da disciplina.
+
+## Segunda conferência: os 50 itens do banco piloto de Informática (11/11/2026)
+
+Foi efetuada **leitura individual dos 50 pares enunciado, gabarito e justificativa** de `data/questoes-camara.json` com `subjectId: "informatica"`. Foram comparados os mecanismos decisivos com as correções dos 13 itens não homologados dos artigos 03–30. **Não foi encontrada inversão de gabarito evidente ou reprodução substantiva do erro que motivou o bloqueio de um dos 13 enunciados** nesse recorte. Trata-se de revisão editorial e lógica, **não de certificação externa**.
+
+| Área representada no piloto | Quantidade | Resultado dirigido |
+|:--|--:|:--|
+| Histogramas e gráficos temporais (artigo 27) | 6 | Gabaritos consistentes, incluindo densidade de classe e espaçamento proporcional no tempo |
+| Dispersão e box plot (artigo 28) | 4 | Coerência em pares observacionais, correlação e IQR |
+| Preparação e qualidade de dados (artigo 25) | 6 | Ausência de medida, duplicidade por unidade de análise, agregação, média ponderada e validade |
+| Backup e recuperação (artigo 13) | 6 | Questões tratam cadeia de incrementais/diferenciais, regra 3-2-1, sincronização e RPO/RTO; **não dependem do archive bit** |
+| Storytelling e integridade gráfica (artigo 30) | 6 | Questões focam contexto, acessibilidade, escalas e inferência sem transformar recomendações em proibição universal |
+| Aprendizagem supervisionada e não supervisionada (artigo 19) | 6 | Exemplos explicitam presença ou ausência de rótulos durante o **treinamento** |
+| Princípios e controles de segurança (artigo 12) | 6 | Distingue confidencialidade, disponibilidade, autenticidade e controle preventivo/detectivo |
+| Correio eletrônico (artigo 10) | 8 | Comportamentos de webmail, Cco, resposta, anexos e permissões |
+| Internet/intranet/extranet (artigo 08) | 2 | Diferencia acesso restrito de uso de protocolos da internet |
+| **Total** | **50** | **50 pares revisados nesta leitura dirigida; sem retificação de gabarito identificada** |
+
+**Detalhes da checagem:** no item de densidade de histograma com intervalos de 5 e 10 minutos, igual altura implica áreas diferentes (gabarito E); no item de média ponderada, `(10×8 + 30×12)/40 = 11` (gabarito C); as duas questões de backup incremental/diferencial **não** afirmam que todo produto usa o atributo `archive bit`. A questão de eixo truncado que compara barras 98 e 100 a partir de 97 explicita a proporção visual produzida, sem criar uma regra jurídica universal.
+
+**Limitações:** esta checagem é feita pela leitura do conteúdo do banco e comparação conceitual, sem execução de testes automatizados, sem examinar bancos derivados, sem recuperar corpus oficial Cebraspe para cada item e sem provar ausência de versões parafraseadas dos 13 itens em sessões históricas. O campo `subjectId` serve para localizar a matéria, mas **não constitui, por si só, flag de homologação de conteúdo**.
+
+**Decisão operacional:** manter as 50 questões didáticas de Informática sem alteração nesta rodada. Preservar a lista explícita de **13 enunciados de artigos bloqueados** e exigir filtro na seleção a partir de Markdown até que uma regra automática com teste verificável exista. A correção dos 13 enunciados precisa ser versionada separadamente para não perder rastreabilidade.

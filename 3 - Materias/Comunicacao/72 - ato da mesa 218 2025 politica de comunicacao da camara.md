@@ -5,7 +5,7 @@ title: "Ato da Mesa nº 218/2025: política de comunicação social da Câmara"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Ato da Mesa nº 218/2025: política de comunicação social da Câmara
@@ -159,6 +159,30 @@ O art. 11 veda, na produção de conteúdos institucionais pelos abrangidos, **I
 
 **Heurísticas:** cinco princípios no **art. 5º**; oito objetivos no **art. 6º**; dezoito diretrizes no **art. 7º**; públicos e canais nos **arts. 8º e 9º**; seis requisitos no **art. 10**; vedações nos **arts. 11 e 12**; funções técnicas e órgãos nos **arts. 13 a 15**. **Projeto tem duração definida; programa pode incluir atividades permanentes. Plataforma privada é complementar; perguntas esclarecedoras são permitidas; Conselho acompanha implantação, enquanto Secom/Semid/Direx executam atribuições técnicas.**
 
+## Anexo Único: glossário normativo e aplicação em prova
+
+O **parágrafo único do art. 2º** remete expressamente ao glossário do **Anexo Único do Ato da Mesa nº 218/2025**. O anexo oficial contém **seis conceitos**, examinados diretamente na fonte primária:
+
+| Termo do Anexo Único | Elemento distintivo para interpretar a política |
+| --- | --- |
+| **Comunicação pública** | Ação de agentes e órgãos públicos orientada ao direito à informação e à expressão, à transparência, ao diálogo e participação em políticas públicas, à escuta de demandas e ao acesso a serviços; exige estratégia, planejamento, organização e controle. |
+| **Comunicação institucional** | Divulgação de valores, objetivos, missão e ações da Câmara para construir sua identidade perante os públicos com os quais se relaciona. |
+| **Imagem institucional** | Percepção e reconhecimento da instituição por cada indivíduo, a partir das interações, influenciadas por forma e conteúdo da comunicação; pode envolver aspectos racionais, emocionais e inconscientes. |
+| **Interesse público** | Critério de prioridade de ações de comunicação pública, descrito no anexo como faceta coletiva dos interesses individuais e associado ao alcance e aos efeitos econômicos, sociais, políticos e culturais sobre cidadãos. |
+| **Público externo** | Pessoas e grupos de fora da instituição que recebem informação ou interagem com a Câmara, incluindo imprensa, estudantes, especialistas e categorias afetadas por normas em debate. |
+| **Público interno** | Inclui parlamentares, servidores, profissionais contratados por gabinetes, terceirizados e estagiários, no relacionamento interno da instituição. |
+
+**Fronteiras relevantes:** comunicação pública não equivale automaticamente a publicidade institucional; imagem é percepção, enquanto identidade institucional envolve como a Câmara se apresenta. O interesse público, para a política, orienta a **prioridade de uma ação**, o que não autoriza substituir o princípio da imparcialidade por preferência partidária. O público interno definido pelo anexo **não se limita a servidores efetivos**.
+
+**Itens inéditos, modelo C/E (não retirados de prova anterior):**
+
+- **I.** O glossário do Ato nº 218/2025 restringe o público interno aos servidores efetivos da Câmara. **Errado:** o Anexo Único inclui outros agentes, como parlamentares, terceirizados e estagiários.
+- **II.** A imagem institucional é definida no anexo como percepção individual influenciada pelas interações com a Câmara, inclusive por componentes emocionais. **Certo.**
+- **III.** A definição normativa de comunicação institucional e a definição de comunicação pública são inteiramente idênticas. **Errado:** têm objetos e finalidades descritos separadamente.
+- **IV.** O anexo utiliza o interesse público como critério de prioridade das ações de comunicação pública. **Certo.**
+
+**Fonte:** [Anexo Único: glossário oficial do Ato da Mesa nº 218/2025 (PDF)](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-anexo-cd-mesa.pdf), conferido em 11/11/2026; [art. 2º da publicação original](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html). As remissões ao Ato nº 80/2019 e à OS nº 7/2025 continuam pendentes de exame próprio.
+
 ## Fontes, versão e lacunas delimitadas
 
 - CÂMARA DOS DEPUTADOS. [Ato da Mesa nº 218/2025, texto da publicação original](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), arts. 1º a 16.
@@ -166,4 +190,4 @@ O art. 11 veda, na produção de conteúdos institucionais pelos abrangidos, **I
 - BRASIL. [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), arts. 37, § 1º, e 221, apenas nas conexões expressamente indicadas.
 - BRASIL. [Lei nº 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) (LGPD), citada pela política.
 
-**Lacunas de verificação:** o glossário do Anexo Único, as vedações adicionais remetidas ao Ato da Mesa nº 80/2019 e a Ordem de Serviço nº 7/2025 requerem leitura direta antes de serem detalhados. Nenhuma definição ou obrigação adicional desses textos foi presumida. A publicação do artigo é editorial e técnica e não demonstra estudo, resposta a itens ou retenção pessoal.
+**Lacunas de verificação:** o glossário do Anexo Único foi conferido diretamente e integrado acima. As vedações adicionais remetidas ao Ato da Mesa nº 80/2019 e a Ordem de Serviço nº 7/2025 continuam requerendo leitura direta antes de serem detalhadas. Nenhuma definição ou obrigação adicional desses textos foi presumida. A publicação do artigo é editorial e técnica e não demonstra estudo, resposta a itens ou retenção pessoal.

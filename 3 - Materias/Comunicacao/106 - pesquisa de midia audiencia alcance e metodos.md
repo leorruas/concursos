@@ -5,7 +5,7 @@ title: "Pesquisa de mídia: audiência, alcance e métodos de medição"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Pesquisa de mídia: audiência, alcance e métodos de medição
@@ -151,6 +151,22 @@ O **Media Rating Council (MRC)** possui padrões para medição de audiência, i
 **Item 5.** O share televisivo toma como base um universo de audiência ou televisores ligados, conforme a metodologia, enquanto o rating é calculado em relação ao universo potencial definido; dessa forma, podem mudar em proporções diferentes.
 
 **Certo.** Os denominadores explicam a diferença. **Mecanismo avaliado:** comparação entre medidas próximas e dependentes do universo.
+
+## Auditoria dirigida: pessoas, dispositivos, rating e share (11/11/2026)
+
+A [Nielsen, em explicação de 2023 sobre mensuração de TV](https://www.nielsen.com/insights/2023/how-to-measure-tv-audiences/), diferencia duas perguntas técnicas: **o que está sendo exibido** e **quem está assistindo**. Painéis e registros de aparelhos não respondem automaticamente à mesma unidade. Na [definição de rating da Nielsen](https://www.nielsen.com/insights/2025/what-are-nielsen-ratings/), a taxa de audiência é proporção do **universo potencial definido** que assistiu ao programa ou anúncio. No [glossário da própria Nielsen](https://tapweb.nielsen.com/help/main/glossary.htm), *share* considera como base a **audiência presente naquele momento**, como pessoas ou domicílios usando TV, conforme o recorte. **Rating e share exigem denominadores consistentes**: não confundir taxa baseada em pessoas com taxa baseada em domicílios.
+
+| Item existente | Gabarito | Conferência |
+| --- | --- | --- |
+| 1 | **Errado** | Audiência média é estatística de tempo; alcance acumulado exige deduplicação no período. Compatível com as definições, não com identidade automática de valores. |
+| 2 | **Certo** | A Nielsen explica a diferença entre registro de conteúdo e identificação de quem assistiu; o uso de dados de retorno não certifica sozinho audiência por pessoas. |
+| 3 | **Errado** | Alcance líquido combinado exige conhecer a interseção de públicos. Exemplo: 60 mil + 40 mil − 15 mil comuns = **85 mil pessoas**, caso sejam pessoas únicas verificadas na mesma base. |
+| 4 | **Certo** | Impressão tecnicamente visível é condição de exposição, não medida direta de atenção ou compreensão. Revisão conceitual; critérios de visibilidade e exceções específicas continuam sujeitos à norma de medição aplicável. |
+| 5 | **Certo** | Confirmada diferença de denominador entre rating e share, com a ressalva de que pessoas e domicílios devem ser medidos sem mistura. |
+
+**Correção editorial de precisão:** a frase “share representa participação entre televisores ligados” precisa ser entendida como **participação na audiência medida no período**, e não como contagem de aparelhos per se. Para *share* de pessoas, o denominador são pessoas assistindo; para *share* domiciliar, domicílios com TV em uso, conforme o sistema. A [Nielsen descreve esses indicadores e seus recortes](https://tapweb.nielsen.com/help/main/glossary.htm).
+
+**C/E adicional, inédito:** “Uma campanha com audiência de 10% do universo potencial e share de 25% necessariamente apresenta dados contraditórios, porque ambas as porcentagens precisam ter o mesmo denominador.” **Errado.** Se universo, unidade e período forem compatíveis, a audiência do programa pode ser 10% do universo e corresponder a 25% dos que estavam assistindo. **Limite:** o cotejo foi com documentação de fornecedor e definições metodológicas, sem substituir auditoria de todo padrão MRC nem pesquisa real da Câmara.
 
 ## Relações com outros temas
 

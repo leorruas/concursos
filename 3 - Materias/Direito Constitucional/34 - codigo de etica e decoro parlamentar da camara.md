@@ -180,7 +180,7 @@ flowchart TD
  H2 -->|Sim| H3["Encaminhamento conforme pronunciamento da CCJC sobre os vícios"]
  H3 -.-> H4["Tramitação posterior depende dos efeitos da decisão"]
  J --> K["Leitura no expediente, publicação e distribuição em avulsos"]
- K --> K1["Mesa inclui na Ordem do Dia em até 2 sessões ordinárias: art. 16, § 2º"]
+ K --> K1["Mesa inclui na Ordem do Dia em prazo improrrogável de 2 sessões ordinárias: art. 16, § 2º"]
  K1 --> L["Plenário: votação ostensiva; maioria absoluta"]
  N["Art. 16: 60 dias úteis para suspensões; 90 para perda"] -.-> E
  N -.-> I
@@ -198,7 +198,7 @@ flowchart TD
 
 **Rejeição do parecer no Conselho:** o art. 14, § 4º, V, obriga a designação de novo relator, preferencialmente entre os que se manifestaram contrariamente ao primeiro. O caminho de rejeição no fluxograma passa pela elaboração de outro parecer antes de nova discussão e votação, sem supor aprovação automática ou reaproveitamento do parecer rejeitado.
 
-**Remissões específicas do diagrama:** no ramo do art. 13, a conclusão de procedência consta do inciso III, b, enquanto o **encaminhamento do parecer instruído com projeto de resolução** é disciplinado pelo inciso V. No rito dos arts. 13 e 14, a Mesa recebe o processo e, **após leitura no expediente, publicação e distribuição em avulsos**, tem até **duas sessões ordinárias** para incluí-lo na Ordem do Dia (art. 16, § 2º).
+**Remissões específicas do diagrama:** no ramo do art. 13, a conclusão de procedência consta do inciso III, b, enquanto o **encaminhamento do parecer instruído com projeto de resolução** é disciplinado pelo inciso V. No rito dos arts. 13 e 14, a Mesa recebe o processo e, **após leitura no expediente, publicação e distribuição em avulsos**, tem prazo **improrrogável de duas sessões ordinárias** para incluí-lo na Ordem do Dia (art. 16, § 2º).
 
 ### Confronto normativo: instrução, defesa e quórum de pareceres
 

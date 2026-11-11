@@ -201,6 +201,12 @@ Os requisitos de acessibilidade dependem do **tipo de mídia e do nível de conf
 
 **Escopo:** o cotejo direto cobre o **item 7** e a organização dos critérios WCAG de mídia temporal, sem validar integralmente os outros sete itens de rádio, captação e pós-produção. Exemplos são inéditos e não decorrem de prova histórica da Cebraspe.
 
+## Prova histórica de criação e audiovisual: Correios 2011, itens 57–59 (11/11/2026)
+
+No [caderno oficial CESPE/UnB dos Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), o **item 57, Certo**, apresenta storyboard como descrição visual/ilustrada de cenas do roteiro; o **item 58, Certo**, admite direção de arte como cargo ou função no audiovisual, não só na publicidade; e o **item 59, Certo**, reconhece leiaute como antecipação visual de uma peça antes da impressão. Julgamentos conferidos na [cópia do gabarito definitivo, identificação ECT11_028_83](https://www.estudegratis.com.br/images/provas/20767-cespe-2011-correios-analista-de-correios-comunicacao-social-publicidade-e-propaganda-gabarito.pdf).
+
+**Limite técnico:** storyboard, roteiro e plano de gravação têm relações e graus de detalhamento diferentes conforme o projeto. O layout/“leiaute” do item 59 refere-se ao suporte histórico do anúncio impresso, não impõe uma etapa física de impressão para todo layout digital. Esses itens foram cobrados e identificados como **reais**, não como exercícios inéditos. A confirmação do gabarito ocorreu por espelho, porque o URL original de gabarito da banca não abriu nesta rodada.
+
 ## Relações com outros temas
 
 **Pauta × roteiro × storyboard:** recorte editorial, sequência textual/sonora e previsão visual. **Captação × pós-produção:** registro de materiais versus montagem e tratamento. **Microfone dinâmico × cardioide:** transdução versus padrão polar. **Plano × cena × sequência:** unidades de enquadramento/registro e estrutura narrativa conforme contexto. **Zoom × travelling:** alteração de distância focal versus deslocamento físico. **A-roll × B-roll:** narrativa principal e imagens complementares. **Legenda × audiodescrição:** informação sonora em texto versus informação visual comunicada em áudio. **Proporção × resolução × fps:** geometria, quantidade de pixels e taxa de quadros. **Crossposting × multiplataforma × transmídia:** redistribuição, adaptação e complementaridade narrativa.

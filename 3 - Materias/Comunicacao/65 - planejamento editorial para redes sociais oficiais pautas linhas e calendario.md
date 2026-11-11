@@ -5,7 +5,7 @@ title: "Planejamento editorial para redes sociais oficiais: pautas, linhas e cal
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Planejamento editorial para redes sociais oficiais: pautas, linhas e calendário
@@ -294,6 +294,16 @@ A primeira dimensão descreve **planejamento e operação**. A segunda investiga
 **Gabarito: Certo.** Os critérios não competem. A mesma pauta pode possuir finalidade de serviço e janela temporal determinada. **Mecanismo:** comparação entre eixos distintos, evitando classificações falsas como mutuamente exclusivas.
 
 Os três itens são inéditos e foram redigidos para exercitar fronteiras conceituais; não equivalem a questões já aplicadas pela Cebraspe.
+
+## Cotejo da política da Câmara: programação, canais e prioridades (11/11/2026)
+
+O **Ato da Mesa nº 218/2025** fornece critérios **institucionais** para selecionar e distribuir pautas. **Art. 7º, XI:** priorizar a divulgação das atividades do **Plenário e das Comissões**. Essa prioridade literal não equivale a publicar exclusivamente esses assuntos, nem define uma proporção obrigatória de peças no calendário. **Art. 7º, XIII:** instituir procedimentos regulares de pesquisa e tratamento de dados sobre percepção social e acesso aos produtos de comunicação. Isso dá base normativa à escuta e à revisão editorial, mas não torna comentários de redes sociais uma amostra representativa de cidadãos.
+
+O **art. 8º, parágrafo único**, prevê mapeamento e relacionamento com públicos específicos, internos e externos, pela Direx. O **art. 9º, caput**, determina avaliar continuamente processos e canais com estudos de recepção e audiência. O **art. 9º, § 1º**, exige disponibilidade dos conteúdos em **canais próprios e abertos**, admitindo plataformas digitais privadas como **canais complementares**. O **§ 2º** prioriza linguagem simples, e o **§ 3º** exige procedimentos de checagem, revisão e aprovação para canais próprios e privados. Assim, um calendário de redes privadas é apenas parte da operação institucional: escolha da pauta, fonte aberta, validação e adequação ao público são critérios distintos.
+
+**Reexame dirigido dos três exercícios C/E inéditos:** item 1 **Errado**, porque calendário e frequência não substituem os critérios de público, fonte e avaliação previstos nos arts. 8º e 9º; item 2 **Certo**, conforme o esquema didático de estratégia de conteúdo atribuído a Halvorson, mas **não é classificação literal do Ato nº 218/2025**; item 3 **Certo**, pois finalidade de serviço e prazo são eixos independentes na organização editorial. Mantidos os três gabaritos, sem contá-los como questões reais da banca.
+
+**Fonte normativa primária:** [Ato da Mesa nº 218/2025, arts. 7º a 9º](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html). **Ressalva:** a distinção entre estratégia, pilar, pauta e formato permanece síntese editorial do artigo, e sua correspondência integral com a obra de Halvorson ainda requer revisão bibliográfica específica. O Manual de Comunicação e as regras operacionais das áreas não foram certificados neste exame. **Status: Corrigido no recorte normativo, sem certificação integral.**
 
 ## Aplicação discursiva e conexões
 

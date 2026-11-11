@@ -139,3 +139,49 @@ Também foi realizado cotejo independente da **estrutura central do DC 17**, `sa
 4. Não avançar para edição dos artigos; todos os resultados continuam provisórios até que a matriz integral e o exame das questões estejam completos.
 
 **Estado após o bloco 3:** DC11–22 (12 notas) localizadas e examinadas em diferentes graus, sem validação integral; DC17 recebeu cotejo constitucional adicional. **Nenhum erro normativo crítico confirmado neste bloco e nenhum artigo alterado.**
+
+
+## Bloco 4: Regimento da Câmara, notas DC23 a DC28 (11/11/2026)
+
+### Arquivos efetivamente recuperados e limites da verificação
+
+Foram recuperados integralmente e examinados em estrutura, abertura, subtítulos, recorte normativo, relações editoriais e fontes os seis artigos seguintes. **Esta rodada constitui inspeção temática e checagem delimitada de fonte primária, não leitura jurídica linha por linha nem validação de todos os gabaritos**:
+
+| Nota | Identidade e intervalo abordado | Situação |
+| --- | --- | --- |
+| DC23 `regimento da camara organizacao e orgaos artigos 1 a 24.md` | `art-53a7d90f1b264c8e`; organização, Mesa, líderes e comissões, arts.1–24 | Parcial |
+| DC24 `regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80.md` | `art-8c7b2f4d50a963e1`; decisões em comissões, fiscalização e sessões, arts.55–80 | Parcial |
+| DC25 `regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md` | `art-6d8e3f041b9a52c7`; expediente, Ordem do Dia e proposições, arts.81–105 | Parcial |
+| DC26 `deputados mandato licencas vacancia e suplencia artigos 226 a 251.md` | `art-1de8b5094cf736a2`; direitos, licença, imunidade e suplência, arts.226–251 | Parcial |
+| DC27 `administracao economia interna e policia da camara artigos 262 a 273.md` | `art-c2e47b0915d863af`; serviços, administração financeira e polícia, arts.262–273 | Parcial |
+| DC28 `mapa regimental da camara estrutura e fronteiras do edital.md` | `art-29cf4d6a8b15e730`; mapa transversal dos quatro intervalos delimitados na **síntese local** do edital | Parcial |
+
+Fonte independente desta rodada: [Regimento Interno da Câmara, texto normativo consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), com acesso efetivo a artigos e respectivos títulos, inclusive **arts.1–5, 20 e 20-A, 65, 226 e 262**. A [página oficial do concurso com os editais 1 e 5–6](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades) também foi consultada, mas **a transcrição literal de todo o programa do cargo ainda requer cotejo com o próprio edital 1**. A síntese local de `2 - Editais` traz os quatro recortes de RICD: **1–24; 65–94; 226–251; 262–273**.
+
+### Achados verificáveis
+
+- **A-PL-015: importante, duplicação de identificador CAM-PL-022.** O arquivo **DC25**, na introdução, associa o tema de **arts.81–105** a `CAM-PL-022`. O arquivo **DC26** também usa `CAM-PL-022` para o tema de **arts.226–251**, que corresponde efetivamente à descrição da unidade 022 na arquitetura editorial. A duplicidade quebra correspondência um-para-um de código e objeto; não prova erro jurídico. Futura correção deve tratar DC25 como cobertura complementar da trilha de sessões/regimento, preservando `articleId` e links, sem falsamente declarar que ambos são o mesmo candidato editorial.
+- **A-PL-016: importante, amplitude do recorte versus edital.** DC24 cobre arts.55–80 e DC25 arts.81–105, mas o recorte literal listado para **conhecimentos básicos** na síntese local é **65–94**. Os artigos adicionam material de comissões **55–64** e proposições **95–105**, possivelmente pertinente ao **bloco específico de processo legislativo**. A matriz final deve classificar cada subtrecho por fundamento: básico literal, específico geral ou aprofundamento complementar, sem converter todo o intervalo de cada artigo em exigência literal do edital.
+- **A-PL-017: ressalva de hierarquia, potencialmente importante.** DC26 sinaliza a permanência, no texto regimental, de dispositivos históricos referentes a licença e processo criminal (arts.249–251), mas aponta a necessidade de privilegiar a redação constitucional vigente após EC35/2001. Conferir especificamente cada enunciado/questão com CF arts.53–56 antes de validar; risco é ensinar literalidade regimental incompatível com a norma superior.
+- **A-PL-018: evidência positiva delimitada.** A fonte oficial confirma, nos dispositivos conferidos, que o art.65 classifica espécies de sessões, o art.226 trata de participação do deputado e o art.262 atribui direção dos serviços administrativos à Mesa, sob regulamentos aprovados pelo Plenário. Os artigos DC24, DC26 e DC27 tratam desses objetos de maneira consistente em suas aberturas. **Não equivale a validação da íntegra**.
+- **A-PL-019: arquitetura pedagógica, melhoria a testar.** DC28 organiza por problema, órgão e competência e pode servir como **mapa de revisão**, sem duplicar as notas-base. É necessário verificar se seus exemplos e itens remetem a todos os artigos essenciais e se há excesso de repetições entre DC23–27. Preservar o propósito de mapa transversal na fase posterior.
+- **A-PL-020: pendência factual.** DC23 examina os órgãos previstos nos arts.20-A e seguintes, que acumulam mudanças normativas. Confirmar, órgão a órgão, nomenclaturas, competências, condições de eleição e atualizações normativas antes de declarar cobertura completa.
+
+### Matriz de escopo, provisória
+
+| Recorte de RICD indicado na síntese local | Nota principal | Limite da conferência |
+| --- | --- | --- |
+| arts.1–24 | DC23, com contribuições DC14 | Abertura e tópicos normativos conferidos parcialmente |
+| arts.65–94 | DC24 (65–80), DC25 (81–94) | Art.65 confirmado; demais exigem cotejo individual |
+| arts.226–251 | DC26 | Art.226 confirmado; dispositivos históricos 249–251 exigem prioridade |
+| arts.262–273 | DC27 | Art.262 confirmado; restante pendente |
+| Visão integrada das faixas e competências | DC28 | Mapa estrutural, não fonte substitutiva |
+| Conteúdo adicional 55–64, 95–105 e comissões 25–54 | DC24, DC25, DC14 | Conferir aderência ao bloco **específico** e não confundir com o básico literal |
+
+### Decisão editorial provisória
+
+Manter temporariamente as seis notas e tratar DC28 como índice conceitual. Corrigir a duplicidade `CAM-PL-022` **apenas na fase de implementação autorizada** e após conferir dependências. Reavaliar a divisão entre DC24/DC25 por pergunta central, mantendo os recortes do edital fáceis de recuperar. Nenhum problema normativo crítico confirmado nesta rodada; **não afirmar que os seis artigos estão integralmente auditados**.
+
+### Próxima ação
+
+Examinar DC29–34 (Regimento Comum, Resoluções do Congresso e Código de Ética), depois DC35–37 e as notas-base DC06/DC10. Paralelamente, completar o cotejo das fontes e de cada gabarito dos DC11–28, principalmente dispositivos regimentais históricos e normas supervenientes. Ao final cruzar edital literal, catálogo de matéria, artigos e dependências e emitir parecer integral. Nenhum conteúdo foi alterado nesta fase.

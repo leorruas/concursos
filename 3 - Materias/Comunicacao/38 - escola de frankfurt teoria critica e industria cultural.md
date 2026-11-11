@@ -5,7 +5,7 @@ title: "Escola de Frankfurt, teoria crítica e indústria cultural"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Escola de Frankfurt, teoria crítica e indústria cultural
@@ -139,6 +139,18 @@ Benjamin também examina **possibilidades políticas e coletivas** abertas por n
 **Item C/E 3, inédito:** “A teoria crítica de Horkheimer pergunta pelas condições sociais e históricas da própria investigação, sem que essa orientação implique necessariamente rejeitar toda produção de dados empíricos.”
 
 **Gabarito: Certo.** O item distingue postura epistemológica de uma proibição metodológica inexistente.
+
+## Auditoria dirigida de conceitos e gabaritos: Frankfurt (11/11/2026)
+
+A [Stanford Encyclopedia of Philosophy, verbete sobre Adorno](https://plato.stanford.edu/entries/adorno/) descreve a **indústria cultural** por suas condições de produção, circulação e consumo mercantilizados e padronizados, e não pela mera quantidade de espectadores. A [pesquisa acadêmica da UFMG sobre pseudoindividualidade em Adorno](https://repositorio.ufmg.br/items/5ccb99a2-3148-4252-8220-ba917d23fc66) confirma a vinculação desse conceito à crítica da indústria cultural. O estudo sobre Walter Benjamin, na bibliografia da nota, situa **aura** e reprodutibilidade técnica em outra linha de análise.
+
+| Item | Gabarito | Resultado delimitado |
+| --- | --- | --- |
+| 1 | **Certo** | Sustentado pela caracterização da indústria cultural como processo de racionalização e padronização sob forma mercantil; audiência volumosa não é condição suficiente. |
+| 2 | **Errado** | A proposição troca pseudoindividualização, aura e padronização. O contraste geral é sustentado pela literatura consultada, mas as passagens originais específicas de Adorno e Benjamin seguem pendentes de cotejo linha a linha. |
+| 3 | **Certo** | Compatível com a abordagem reflexiva de teoria crítica, mas **não certificado diretamente contra o texto de Horkheimer de 1937** neste recorte. |
+
+**Estado:** item 1 sustentado diretamente por referência acadêmica de síntese; itens 2 e 3 mantidos provisoriamente, com indicação expressa dos limites documentais. Nenhuma inversão de gabarito demonstrada. **Ponto a corrigir em uma revisão futura:** conferir a ocorrência e a atribuição precisa de “pseudoindividualização” nas obras de Adorno, sem converter síntese contemporânea em citação literal de *Dialética do esclarecimento*. Esta seção não certifica todas as afirmações do artigo nem transforma exercícios inéditos em questões históricas da Cebraspe.
 
 ## Relações com outros temas e aplicação discursiva
 

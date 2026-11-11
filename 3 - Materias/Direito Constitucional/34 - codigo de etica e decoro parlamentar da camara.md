@@ -129,39 +129,51 @@ O Conselho de Ética e Decoro Parlamentar é órgão integrante da estrutura ins
 
 ## 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário
 
-O rito depende da penalidade. A censura verbal e a escrita seguem os arts. 11 e 12, sem percorrer automaticamente o processo de sanção grave. As representações de cidadãos são dirigidas à Mesa, que, havendo indícios suficientes e sem inépcia, encaminha as relativas aos incisos II–IV do art. 10 ao Conselho em até **três sessões ordinárias** (Código, art. 9º, § 2º). A suspensão de prerrogativas segue o art. 13; a suspensão do mandato e a perda do mandato seguem o art. 14. Os prazos do Conselho contam-se em **dias úteis** e ficam suspensos no recesso, salvo convocação extraordinária pertinente (art. 8º, § 3º). O fluxograma apresenta os ramos principais, sem dispensar exceções e requalificações dos arts. 13 e 14. O quadro e as questões ainda exigem conferência final.
+O rito depende da penalidade. A censura verbal e a escrita seguem os arts. 11 e 12, sem percorrer automaticamente o processo de sanção grave. As representações de cidadãos são dirigidas à Mesa, que, havendo indícios suficientes e sem inépcia, encaminha as relativas aos incisos II–IV do art. 10 ao Conselho em até **três sessões ordinárias** (Código, art. 9º, § 2º). A suspensão de prerrogativas segue o art. 13; a suspensão do mandato e a perda do mandato seguem o art. 14. Os prazos do Conselho contam-se em **dias úteis** e ficam suspensos no recesso, salvo convocação extraordinária pertinente (art. 8º, § 3º). O fluxograma diferencia os ritos e os possíveis desfechos dos arts. 11–14. Os recursos e as decisões dependem da hipótese de sanção, e os marcos de prazo devem ser conferidos diretamente nos dispositivos.
 
 ```mermaid
 flowchart TD
- A["Notícia de possível infração ao decoro"] --> B["Mesa da Câmara: art. 9º"]
- B --> C{"Penalidade aplicável?"}
- C --> V["Censura verbal: art. 11"]
- V --> V1["Presidente da Câmara ou comissão aplica"]
- V1 --> V2["Recurso ao respectivo Plenário: 2 dias úteis"]
- C --> E["Censura escrita: art. 12"]
- E --> E1["Mesa: defesa de 5 dias úteis"]
- E1 --> E2["Decisão e recurso ao Plenário: 2 dias úteis"]
- C --> R["Suspensão de prerrogativas: art. 13"]
- R --> R1["Conselho: relator sorteado, impedimentos legais"]
- R1 --> R2["Defesa: 10 dias úteis"]
- R2 --> R3["Diligências: 15 dias úteis, prorrogáveis uma vez"]
- R3 --> R4["Parecer do Conselho e eventual requalificação"]
- C --> G["Suspensão do mandato ou perda: art. 14"]
- G --> G1["Conselho: relator e exame de admissibilidade"]
- G1 --> G2["Defesa: 10 dias úteis; até 8 testemunhas"]
- G2 --> G3["Instrução: 30 dias úteis suspensão; 40 dias úteis perda"]
- G3 --> G4["Parecer: 10 dias úteis"]
- G4 --> G5["Discussão e votação nominal no Conselho"]
- R4 --> X{"Recurso à CCJC por vício jurídico?"}
- G5 --> X
- X -->|Sim, 5 dias úteis| Y["CCJC examina vícios: 5 dias úteis; efeito suspensivo"]
- X -->|Não| Z["Envio à Mesa"]
- Y --> Z
- Z --> P["Inclusão na Ordem do Dia: até 2 sessões ordinárias após leitura e publicação"]
- P --> Q["Plenário: maioria absoluta, votação ostensiva"]
- N["Limites gerais do art. 16: 60 dias úteis suspensões; 90 perda"] -.-> R
- N -.-> G
+ A["Conduta contrária ao decoro"] --> B{"Qual sanção é cabível?"}
+ B --> C["Censura verbal: art. 11"]
+ C --> C1["Presidente da Câmara ou de comissão aplica"]
+ C1 --> C2["Recurso ao respectivo Plenário: 2 dias úteis"]
+ B --> D["Censura escrita: art. 12"]
+ D --> D1["Mesa assegura defesa: 5 dias úteis"]
+ D1 --> D2["Mesa delibera; recurso ao Plenário: 2 dias úteis"]
+ B --> E["Suspensão de prerrogativas: art. 13"]
+ E --> E1["Mesa encaminha; Conselho sorteia lista tríplice de relatores"]
+ E1 --> E2["Defesa: 10 dias úteis"]
+ E2 --> E3["Diligências: 15 dias úteis, prorrogáveis uma vez"]
+ E3 --> E4{"Parecer do Conselho"}
+ E4 -->|Improcedente| F["Arquivamento"]
+ E4 -->|Pena menos grave| D1
+ E4 -->|Pena mais grave| G["Nova representação e reabertura da defesa"]
+ E4 -->|Suspensão de prerrogativas| H["Recurso à CCJC: até 5 dias úteis, efeito suspensivo"]
+ B --> I["Suspensão do mandato ou perda: art. 14"]
+ I --> I1["Mesa encaminha ao Conselho; escolha de relator"]
+ I1 --> I2{"Inépcia ou falta de justa causa?"}
+ I2 -->|Sim, representação partidária| F2["Decisão terminativa; recurso ao Plenário por 1/10 da Casa"]
+ I2 -->|Não| I3["Defesa: 10 dias úteis; até 8 testemunhas"]
+ I3 --> I4["Instrução: 30 dias úteis suspensão; 40 perda"]
+ I4 --> I5["Parecer: 10 dias úteis"]
+ I5 --> I6{"Conselho vota nominalmente"}
+ I6 -->|Parecer rejeitado| I7["Designação de novo relator"]
+ I7 --> I6
+ I6 -->|Procedente| H
+ I6 -->|Improcedente ou requalificação| F3["Encaminhamento conforme resultado e competência"]
+ G --> I1
+ H -->|Houve recurso| H1["CCJC: só vícios jurídicos; 5 dias úteis"]
+ H -->|Sem recurso| J["Parecer aprovado segue à Mesa"]
+ H1 --> J
+ J --> K["Leitura, publicação e distribuição; inclusão em Ordem do Dia"]
+ K --> L["Plenário: votação ostensiva, maioria absoluta"]
+ N["Limite art. 16: 60 dias úteis suspensão; 90 perda"] -.-> E
+ N -.-> I
 ```
+
+### Exceções decisivas no rito grave
+
+No **art. 14, § 4º, II–III**, a análise inicial de inépcia ou falta de justa causa é feita pelo Plenário do Conselho mediante provocação do relator. O pronunciamento terminativo é admitido **apenas em representação de partido político** e comporta recurso ao Plenário da Câmara com subscrição de **um décimo dos membros da Casa**. No **art. 14, § 4º, IV**, o relator pode concluir pela improcedência ou propor requalificação da conduta, encaminhando o caso ao órgão competente. A rejeição do parecer leva à designação de novo relator (inciso V). Depois da conclusão ou decisão do recurso à CCJC, a Mesa recebe o processo para leitura, publicação e distribuição (inciso VIII). Pelo **art. 14, § 5º**, instaurado o processo dos arts. 13 ou 14, a representação não pode ser retirada pela parte autora.
 
 ### Particularidades do Acordo de Procedimentos 2025–2027
 

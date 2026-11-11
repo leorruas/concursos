@@ -236,3 +236,17 @@ Um desenvolvedor compartilha o link `https://www.camara.leg.br/noticias#votacao-
 > **Revisão (11/11/2026):** refinado o conceito de fragmento de URL, conforme TI-045. Referência: [RFC 3986, seção 3.5](https://www.rfc-editor.org/rfc/rfc3986#section-3.5). Os operadores de busca dependem de mecanismos e versões, e sua sintaxe deve ser conferida no serviço utilizado.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** itens 1–4 e 6 mantêm **E, C, E, C, E**; **item 5 não homologado** pela definição material universal de cookie e finalidade restritiva. Comentários sobre privacidade e sintaxe de query atualizados. Referências: [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986), [MDN, HTTP cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies).
+
+---
+
+## Questão substituta S09-5: cookies de primeira parte
+
+> Um cookie de primeira parte é associado ao contexto do site que o usuário visita e pode ser utilizado para manter o estado de autenticação ou preferências entre requisições HTTP; sua classificação depende do contexto do site, não da obrigação de existir como arquivo de texto independente no disco.
+
+**Gabarito: CERTO (inédita, substitui o Item 5 bloqueado).** Uma resposta HTTP pode enviar `Set-Cookie: sessao=123; Secure; HttpOnly`; em requisições seguintes elegíveis, o navegador pode encaminhar `Cookie: sessao=123`. O protocolo HTTP é sem estado por padrão, e o cookie ajuda a relacionar requisições. O armazenamento interno depende da implementação do navegador.
+
+**Fronteiras:** `HttpOnly` dificulta acesso ao valor por JavaScript na página, não impede seu envio automático; `Secure` limita transmissão a contextos protegidos, não significa criptografia do valor; *first-party* refere-se ao contexto de site e não define, por si, uma finalidade exclusiva.
+
+**Variação C/E:** “Cookies de primeira parte servem exclusivamente para login e não podem ser usados para medição de uso.” **ERRADO**: podem atender a diferentes finalidades.
+
+**Fonte técnica:** [MDN: Cookies HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Guides/Cookies) e [MDN: cookies de terceiros e contexto first-party](https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/Third-party_cookies). Item 5 original permanece **NÃO HOMOLOGADO**.

@@ -3026,6 +3026,102 @@
       "statement": "A pergunta “Quanto você gostou da melhoria evidente no atendimento?” é neutra porque permite escolher diferentes graus de satisfação.",
       "correctAnswer": "E",
       "explanation": "A formulação trata a melhoria como evidente e pressupõe uma reação favorável. Uma escala com várias opções não elimina essa indução."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+      "conceptId": "restauracao-incremental",
+      "mechanism": "omitir-elo-da-cadeia",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#3. Dinâmica de restauração na prática (cenário de prova)"
+      ],
+      "statement": "Uma equipe fez backup completo no domingo e incrementais na segunda e na terça, cada um com as alterações desde a cópia anterior. Para recuperar o estado de terça, basta restaurar o completo e o incremental de terça.",
+      "correctAnswer": "E",
+      "explanation": "O incremental de terça pode não conter alterações feitas na segunda. A cadeia necessária é o completo seguido pelos incrementais de segunda e terça."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+      "conceptId": "restauracao-diferencial",
+      "mechanism": "reconhecer-acumulacao-desde-o-completo",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#3. Dinâmica de restauração na prática (cenário de prova)"
+      ],
+      "statement": "Após um backup completo no domingo, a equipe fez diferenciais na segunda e na terça. Para restaurar o estado registrado na terça, pode usar o completo de domingo e o diferencial de terça.",
+      "correctAnswer": "C",
+      "explanation": "Cada diferencial acumula as alterações desde o último completo. O diferencial de terça inclui as alterações cobertas pelo de segunda que ainda integram o estado registrado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+      "conceptId": "backup-321",
+      "mechanism": "confundir-localizacao-com-quantidade",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#4. Estratégia de segurança: a regra 3-2-1 de backup"
+      ],
+      "statement": "Uma organização mantém três cópias dos dados em dois tipos de mídia, todas no mesmo prédio. Isso atende ao componente da regra 3-2-1 que protege contra a perda do local.",
+      "correctAnswer": "E",
+      "explanation": "O componente final requer uma cópia fora do local. Um incidente que afete o prédio pode atingir as três cópias descritas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+      "conceptId": "sincronizacao-e-backup",
+      "mechanism": "reconhecer-propagacao-de-exclusao",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#5. Diferença crítica: Backup $\\times$ Sincronização em nuvem"
+      ],
+      "statement": "Se um serviço sincroniza exclusões entre dispositivos e não mantém versões recuperáveis, um arquivo apagado pode desaparecer de todas as pastas sincronizadas.",
+      "correctAnswer": "C",
+      "explanation": "A sincronização replica a mudança, inclusive a exclusão. Sem histórico recuperável, as réplicas não preservam o estado anterior."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+      "conceptId": "rpo",
+      "mechanism": "confundir-perda-de-dados-com-indisponibilidade",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#6. Métricas essenciais de recuperação: RPO e RTO"
+      ],
+      "statement": "Um serviço tolera perder no máximo os dados produzidos nos 15 minutos anteriores a um incidente. Esse limite define em quanto tempo o serviço precisa voltar a funcionar.",
+      "correctAnswer": "E",
+      "explanation": "A tolerância à perda temporal de dados corresponde ao objetivo de ponto de recuperação. O prazo para restabelecer o serviço é outro objetivo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / backup",
+      "conceptId": "rto",
+      "mechanism": "avaliar-tempo-de-restabelecimento",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#6. Métricas essenciais de recuperação: RPO e RTO"
+      ],
+      "statement": "Uma unidade tem objetivo de restabelecer o serviço em duas horas. Um exercício em que o serviço volta após 90 minutos fica dentro desse limite de tempo.",
+      "correctAnswer": "C",
+      "explanation": "O objetivo de tempo de recuperação é o prazo para voltar a operar. Noventa minutos ficam abaixo das duas horas estabelecidas."
     }
   ]
 }

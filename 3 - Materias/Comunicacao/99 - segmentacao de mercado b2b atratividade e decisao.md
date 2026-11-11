@@ -5,7 +5,7 @@ title: "Segmentação de mercado: B2B, atratividade e decisões de escolha"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Segmentação de mercado: B2B, atratividade e decisões de escolha
@@ -185,6 +185,14 @@ A **LGPD** exige finalidade, adequação, necessidade, transparência, seguranç
 **Item 4.** A pesquisa pode indicar que um segmento apresenta necessidades identificáveis e tamanho mensurável, sem que isso garanta a capacidade da organização para oferecer solução ou executar estratégia para atendê-lo.
 
 **Gabarito: Certo.** Mensurabilidade e capacidade de ação são critérios diferentes. É possível medir um grupo sem conseguir atendê-lo adequadamente.
+
+## Conferência externa: firmografia, centro de compras e ADAMS (11/11/2026)
+
+A [OpenStax, *Segmentation of B2B Markets*](https://openstax.org/books/principles-marketing/pages/5-2-segmentation-of-b2b-markets), distingue bases **firmográficas** (setor de atividade, localização, porte, estrutura jurídica e desempenho), **tecnográficas** (tecnologias usadas), por **necessidade**, por **valor** e por **comportamento**. A mesma seção descreve o **centro de compras organizacional**, no qual usuários, iniciadores, influenciadores e decisores podem exercer papéis distintos. O **item 1 permanece Certo**, por separar unidade organizacional de característica individual; o **item 3 permanece Errado**, pois o usuário não assume necessariamente todas as decisões e autorizações.
+
+A [OpenStax, *Essential Factors in Effective Market Segmentation*](https://openstax.org/books/principles-marketing/pages/5-4-essential-factors-in-effective-market-segmentation), identifica os cinco critérios **ADAMS**: acessível, diferenciável, acionável, mensurável e substancial. O **item 4 permanece Certo**: um grupo pode ter tamanho mensurável sem capacidade real de ser alcançado ou de receber uma proposta adequada. Esses critérios representam dimensões distintas, não cinco palavras intercambiáveis.
+
+**Questão C/E inédita:** “Em mercados B2B, porte e estrutura jurídica são bases tecnográficas, enquanto a presença de um software corporativo é uma variável firmográfica.” **Errado.** As classificações foram trocadas. **Pendência:** o item 2 sobre RFM foi mantido, mas não recebeu comprovação direta por fonte específica de RFM nesta rodada. **Limite:** práticas de segmentação de mercado organizacional não se convertem, por analogia, em requisitos ou autorização para segmentar direitos legais de cidadãos.
 
 ## Relações e heurísticas
 

@@ -481,3 +481,31 @@ A categoria primária corresponde à **alteração mínima decisiva** registrada
 | 90 | **C** | Pesquisa de mercado internacional considera idioma, costumes e ambiente político-econômico | Pesquisa com contexto cultural; [[3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao\|103]] |
 
 **Resultado da checagem:** os sete itens desse bloco já listados individualmente na seção de Publicidade e Planejamento do índice (81, 82, 83, 84, 86, 87 e 90) coincidem com o gabarito. A lista anterior de questões individuais omitia **85, 88 e 89**; nesta seção foram incorporados para dar cobertura ao bloco contínuo 81–90. O item 89 exige ressalva de enquadramento histórico/teórico, embora o gabarito seja C. A nomenclatura de provas antigas não é norma atual, e este cotejo de questões reais **não se confunde** com exercícios C/E inéditos dos artigos.
+
+
+## Verificação direta dos itens 65 a 80: Correios 2011 (11/11/2026)
+
+O [caderno oficial CESPE/UnB, Cargo 28, código ECT11_028_83](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), página impressa 5 (primeira página do PDF), e o [gabarito definitivo oficial do mesmo cargo](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/Gab_Definitivo_ECT11_028_83.PDF) foram conferidos diretamente, inclusive quanto à identificação do cargo. **Dezesseis itens reais individualmente conferidos**, sem reproduzir integralmente o caderno:
+
+| Item | Gab. oficial | Tema determinante | Relação com o estudo |
+| ---: | :---: | --- | --- |
+| 65 | C | Subtração e adição de cor, combinação das tintas | [[3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais\|113]], cor |
+| 66 | E | Kerning × espaçamento uniforme | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], tipografia |
+| 67 | C | OCR converte texto digitalizado em caracteres editáveis | [[3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais\|113]], pré-impressão |
+| 68 | C | Saturação/croma, formulação histórica sobre pureza e cinza | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], cor: **evitar converter a formulação em definição universal entre modelos de cor** |
+| 69 | E | Dégradé não exige cores necessariamente análogas | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], recursos visuais |
+| 70 | E | Ligatura tipográfica não é dispositivo para unir letras a números genericamente | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], tipografia |
+| 71 | E | Inversão do sentido das variáveis frequência e espaço publicitário | [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento\|90]], unidades |
+| 72 | E | Responsabilidade **exclusiva** do atendimento por construir briefing | [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas\|88]], colaboração |
+| 73 | C | Profissional de mídia seleciona meios e veículos | [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento\|90]], planejamento |
+| 74 | E | Plano gráfico descrito com dimensões trocadas | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], elementos visuais |
+| 75 | C | Equilíbrio visual pode existir sem simetria | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], composição |
+| 76 | C | Linha implícita em alinhamentos de colunas | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], alinhamento |
+| 77 | E | Escala visual reduzida indevidamente ao objetivo e formal | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], percepção |
+| 78 | C | Pigmentação e iluminação influenciam percepção de cor | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], cor |
+| 79 | C | Ponto, linha e plano como fundamentos do design | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], elementos |
+| 80 | E | Cores complementares não têm necessariamente temperaturas equivalentes | [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade\|112]], cor |
+
+**Resultado:** todos os 16 julgamentos foram comparados com o gabarito definitivo CESPE/UnB. Para a calibração da banca, destacam-se **troca de definição** (66, 71, 74), **exclusividade indevida** (72, 77), **generalização de condição** (69, 80) e **reconhecimento técnico** (67, 73, 75, 76, 78, 79). O item **68** recebeu **C** na fonte oficial; essa classificação é preservada como evidência da banca **sem afirmar que a frase seja definição técnico-científica universal de saturação para todos os espaços de cor**.
+
+**Estatística do corpus desta sequência:** 10 itens 81–90 + 16 itens 65–80 = **26 itens reais individualmente conferidos**, sem duplicação de números. Os itens didáticos inéditos produzidos no repositório são contabilizados à parte. A seção individual prioritária antiga mencionava apenas os itens 71–73 desse conjunto; a tabela acima documenta todo o bloco. A revisão abrange fonte e julgamento históricos, **não comprovação de vigência normativa ou técnica de 2026**.

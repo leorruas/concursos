@@ -3938,6 +3938,70 @@
       "statement": "Na descrição de Bernard Manin, submeter decisões à prova da discussão equivale a contar votos sem que os participantes examinem argumentos.",
       "correctAnswer": "E",
       "explanation": "A prova da discussão pressupõe exame público de posições e razões. A contagem de votos é uma operação distinta."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos",
+      "conceptId": "numero-efetivo-de-partidos",
+      "mechanism": "comparar-distribuicoes-de-cadeiras",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Laakso e Taagepera: número efetivo de partidos"
+      ],
+      "statement": "Duas assembleias têm quatro partidos cada. Na primeira, todos têm 25% das cadeiras. Na segunda, as participações são 70%, 10%, 10% e 10%. Pelo índice de Laakso e Taagepera calculado com cadeiras, a primeira tem maior número efetivo de partidos.",
+      "correctAnswer": "C",
+      "explanation": "A distribuição uniforme resulta em 1 ÷ 0,25 = 4. Na segunda, a soma dos quadrados é 0,52 e o número efetivo é cerca de 1,92."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos",
+      "conceptId": "volatilidade-eleitoral",
+      "mechanism": "confundir-mudanca-agregada-com-mudanca-individual",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Pedersen: volatilidade e mudança entre eleições"
+      ],
+      "statement": "Se dois partidos conservam as mesmas proporções de votos entre duas eleições, um índice de volatilidade agregada igual a zero prova que nenhum eleitor mudou de preferência.",
+      "correctAnswer": "E",
+      "explanation": "Mudanças individuais em sentidos opostos podem se compensar. O índice usa as proporções agregadas e não acompanha trajetórias individuais."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos",
+      "conceptId": "relevancia-partidaria",
+      "mechanism": "reconhecer-potencial-de-coalizao",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Giovanni Sartori: partidos relevantes, formato e mecânica da competição"
+      ],
+      "statement": "Em uma assembleia de 100 cadeiras, dois partidos têm 48 e 47 cadeiras, e um terceiro tem 5. Se o terceiro for um parceiro viável para formar maioria, seu tamanho reduzido é compatível com relevância partidária no critério de Sartori.",
+      "correctAnswer": "C",
+      "explanation": "Uma legenda pequena pode ser relevante pelo potencial de coalizão. No caso, seus cinco votos podem viabilizar a maioria de um dos partidos maiores."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos",
+      "conceptId": "institucionalizacao-partidaria",
+      "mechanism": "confundir-estabilidade-com-contagem-de-legendas",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Mainwaring e Scully: institucionalização do sistema partidário"
+      ],
+      "statement": "Conhecer apenas o número de partidos registrados em um país basta para avaliar se o sistema partidário é institucionalizado.",
+      "correctAnswer": "E",
+      "explanation": "A institucionalização envolve aspectos como estabilidade da competição, raízes sociais e legitimidade. A contagem de registros não mede essas dimensões."
     }
   ]
 }

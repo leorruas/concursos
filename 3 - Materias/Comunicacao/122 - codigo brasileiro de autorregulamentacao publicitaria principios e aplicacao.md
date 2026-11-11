@@ -5,7 +5,7 @@ title: "Código Brasileiro de Autorregulamentação Publicitária: princípios e
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Código Brasileiro de Autorregulamentação Publicitária: princípios e aplicação
@@ -203,6 +203,25 @@ Um vídeo da Câmara pode informar corretamente um serviço, atender aos parâme
 **Item 10.** A peça jornalística veiculada mediante pagamento deve ser identificada segundo o art. 30, sendo incorreto inferir que sua apresentação na forma de reportagem retira a natureza publicitária do conteúdo.
 
 **Certo.** Formato editorial e origem do patrocínio são dimensões diferentes. **Mecanismo:** aparência versus regime do anúncio.
+
+## Auditoria de gabarito: cotejo direto com o Código CONAR (11/11/2026)
+
+A conferência deste bloco foi realizada **item a item** contra o [texto oficial do Código](https://www.conar.org.br/codigos), incluindo o Anexo Q. Os itens são **inéditos**, não questões históricas da Cebraspe.
+
+| Item | Gabarito registrado | Referência primária específica | Parecer do cotejo |
+| --- | --- | --- | --- |
+| 1 | Certo | Arts. 11 e 12 | Confirmado: política partidária e publicidade governamental têm enquadramentos diferentes. |
+| 2 | Errado | Art. 9º, § 2º, e arts. 10, 27 e 28 | Confirmado: a faculdade de omitir identificação inicial do teaser não elimina as regras gerais. |
+| 3 | Certo | Art. 17 | Confirmado: impacto global precede análise das partes. |
+| 4 | Errado | Art. 32 | Confirmado: comparação é admitida sob condições. |
+| 5 | Certo | Art. 27 | Confirmado: comprovação e indução a erro incluem omissões ou ambiguidades. |
+| 6 | Errado | Art. 50 | Confirmado: o Código não prevê as sanções estatais citadas no enunciado. |
+| 7 | Certo | Anexo Q, item 1, alíneas b e c | Confirmado: correlação com especialidade e vedação da falsa aparência de consenso. |
+| 8 | Errado | Art. 48 | Confirmado: esclarecimento posterior não justifica anúncio enganador anterior. |
+| 9 | Certo | Art. 37 | Confirmado quanto à distinção entre apelo direto de consumo à criança e presença de criança na publicidade. A incidência de outras regras segue exigindo leitura do contexto. |
+| 10 | Certo | Art. 30 | Confirmado: informe publicitário pago exige identificação adequada. |
+
+**Resultado do cotejo delimitado:** dez gabaritos compatíveis com os dispositivos indicados, **zero alteração de resposta nesta passagem**. Essa constatação não certifica todas as afirmações do artigo, anexos, referências cruzadas ou aplicações do CDC e da Constituição. O Anexo Q também exige, entre outras condições, identificação e qualificação fiel do especialista, além de limitar o testemunho a normas éticas da profissão. A exceção de teaser não deve ser ensinada como dispensa geral de identificação em publicidade.
 
 ## Relações com outros temas
 

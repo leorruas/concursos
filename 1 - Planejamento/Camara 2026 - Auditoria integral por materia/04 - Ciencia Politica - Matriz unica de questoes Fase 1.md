@@ -128,7 +128,7 @@ Fonte: `3 - Materias/Estado e Democracia/15 - formacao historica do estado brasi
 
 | Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
 | --- | --- | --- | --- |
-| `art-7c24b910e6f3d58a#1` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-7c24b910e6f3d58a#1` | Certo | Cotejo seletivo | Relatório 03, bloco 28 |
 | `art-7c24b910e6f3d58a#2` | Errado | Cotejo seletivo | Relatório 03, bloco 13 |
 | `art-7c24b910e6f3d58a#3` | Certo | Cotejo seletivo | Relatório 03, bloco 13 |
 | `art-7c24b910e6f3d58a#4` | Errado | Cotejo seletivo | Relatório 03, bloco 14 |

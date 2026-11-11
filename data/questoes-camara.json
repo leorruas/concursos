@@ -1938,6 +1938,134 @@
       "statement": "Em “A fila diminuiu durante a manhã. Portanto, o formulário foi criado no ano passado”, a presença de “portanto” é suficiente para estabelecer uma conclusão sustentada pela primeira frase.",
       "correctAnswer": "E",
       "explanation": "O conector anuncia conclusão, mas o conteúdo da primeira frase não sustenta a data de criação do formulário."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",
+      "conceptId": "assinatura-visual",
+      "mechanism": "distinguir-simbolo-de-assinatura",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Seis objetos distintos: evitar troca de categoria"
+      ],
+      "statement": "Um guia reserva a expressão “assinatura horizontal” para a composição que coloca o símbolo ao lado do nome grafado. A existência dessa composição não impede que o guia defina regras próprias para o uso isolado do símbolo.",
+      "correctAnswer": "C",
+      "explanation": "A assinatura organiza componentes em uma configuração específica. O símbolo pode ter uma aplicação independente quando o sistema prevê essa possibilidade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",
+      "conceptId": "sistema-de-identidade-visual",
+      "mechanism": "confundir-manual-com-sistema",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
+      ],
+      "statement": "Uma organização usa regras consistentes de tipografia e composição em seus canais. Como essas regras ainda não foram reunidas em um manual, é impossível reconhecer um sistema de identidade visual em uso.",
+      "correctAnswer": "E",
+      "explanation": "O sistema consiste nos elementos e nas regras aplicadas. O manual documenta essas regras e pode ser elaborado depois que elas já existem."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",
+      "conceptId": "consistencia-visual",
+      "mechanism": "confundir-consistencia-com-uniformidade",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
+      ],
+      "statement": "Uma assinatura completa aparece em cartazes, enquanto telas estreitas usam uma versão compacta prevista no guia. Essa diferença pode preservar a consistência visual entre os meios.",
+      "correctAnswer": "C",
+      "explanation": "A consistência depende da coerência entre aplicações. Variantes previstas podem manter sinais reconhecíveis e adaptar a composição à largura disponível."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",
+      "conceptId": "design-system",
+      "mechanism": "confundir-identidade-com-interacao",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
+      ],
+      "statement": "Um manual especifica paleta, tipografia e espaçamento do símbolo. Essas regras bastam para determinar como os componentes de um formulário devem anunciar erros e se comportar na navegação por teclado.",
+      "correctAnswer": "E",
+      "explanation": "O manual descrito trata da expressão visual. Os comportamentos de formulário dependem de regras de interação e implementação que não foram informadas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",
+      "conceptId": "acessibilidade-visual",
+      "mechanism": "confundir-distincao-cromatica-com-identificacao",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Acessibilidade: marca reconhecível e mensagem utilizável"
+      ],
+      "statement": "Um formulário diferencia “enviado” e “pendente” apenas pela cor do marcador. Acrescentar rótulos textuais permite identificar os estados sem depender exclusivamente da percepção da cor.",
+      "correctAnswer": "C",
+      "explanation": "Os rótulos tornam explícito o significado dos estados e podem coexistir com as cores como reforço visual."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",
+      "conceptId": "marca-endossada",
+      "mechanism": "ignorar-sinal-de-endosso",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Arquitetura de marca: organização dos sinais e relações"
+      ],
+      "statement": "Um programa usa nome e símbolo próprios, acompanhados sempre da assinatura da instituição responsável. Esse arranjo é exemplo de marcas independentes com vínculo institucional pouco visível.",
+      "correctAnswer": "E",
+      "explanation": "A assinatura torna explícita a relação com a instituição. O arranjo descrito é compatível com marca endossada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",
+      "conceptId": "arquitetura-de-marca",
+      "mechanism": "reconhecer-marca-principal",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Arquitetura de marca: organização dos sinais e relações"
+      ],
+      "statement": "Uma instituição identifica três serviços com sua assinatura principal e descritores como “Agendamento”, “Consulta” e “Atendimento”. Esse arranjo é compatível com uma arquitetura de marca única.",
+      "correctAnswer": "C",
+      "explanation": "A assinatura comum identifica a origem dos serviços. Os descritores diferenciam funções dentro da mesma identidade principal."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / Marca e branding",
+      "conceptId": "reconhecimento-de-marca",
+      "mechanism": "inferir-confianca-de-reconhecimento",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Seis objetos distintos: evitar troca de categoria"
+      ],
+      "statement": "Em uma pesquisa, 85% dos participantes identificaram corretamente o símbolo de um órgão. O resultado permite concluir que a mesma proporção confia no órgão.",
+      "correctAnswer": "E",
+      "explanation": "Identificar a origem de um símbolo mede reconhecimento. A confiança exige uma medida própria sobre a avaliação do órgão."
     }
   ]
 }

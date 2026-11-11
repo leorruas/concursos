@@ -5,7 +5,7 @@ title: "Opinião pública: formação social, públicos, esfera pública e sonda
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Opinião pública: formação social, públicos, esfera pública e sondagens
@@ -138,6 +138,18 @@ Uma **sondagem** aplica perguntas a pessoas segundo um procedimento. Para interp
 **Item 3, inédito:** “Uma grande enquete aberta na página de uma campanha constitui, pelo número elevado de respostas, prova de que a distribuição das preferências da população foi estimada sem viés de seleção.”
 
 **Gabarito: Errado.** Número de respostas não elimina autosseleção. Sem desenho adequado, não é legítima a inferência pretendida. Mecanismo: transposição indevida da quantidade de participantes para a validade da amostragem.
+
+## Conferência dirigida: os três pressupostos criticados por Bourdieu (11/11/2026)
+
+O ensaio de Pierre Bourdieu, **“L'opinion publique n'existe pas”** (conferência em 1972, publicação em 1973), distingue **três pressupostos** dos levantamentos de opinião: (1) todas as pessoas poderiam produzir opinião sobre qualquer assunto; (2) todas as opiniões teriam igual peso ou valor analítico; e (3) haveria consenso sobre quais problemas merecem ser formulados como perguntas. O terceiro pressuposto envolve **imposição da problemática** pelo próprio questionário. A crítica não é prova de que toda sondagem seja inútil; o texto admite pesquisa rigorosa sob condições e ressalvas. Fonte: [reprodução acadêmica do ensaio, Masaryk University](https://is.muni.cz/el/fss/podzim2019/POLn4102/um/blok1/Bourdieu_PO_Does_Not_Exist.pdf).
+
+| Item | Gabarito | Situação da revisão |
+| --- | --- | --- |
+| 1 | Errado | Argumento sobre esfera pública e igualdade é coerente, mas o exame direto de *Mudança estrutural da esfera pública*, de Habermas, segue pendente. |
+| 2 | Certo | Sustentado diretamente pela enumeração de Bourdieu: disponibilidade de opiniões e definição das perguntas são pressupostos contestados. |
+| 3 | Errado | Coerente com a crítica à inferência a partir de uma enquete autosselecionada; demanda também fontes metodológicas de amostragem para auditoria integral. |
+
+**Ajuste de precisão:** diferenciar a crítica de Bourdieu à construção social do problema e ao peso desigual das opiniões de um erro técnico isolado de tamanho de amostra. A nota conserva os três itens; somente o item 2 foi cotejado diretamente com a fonte original nesta passagem.
 
 ## Aplicação discursiva
 

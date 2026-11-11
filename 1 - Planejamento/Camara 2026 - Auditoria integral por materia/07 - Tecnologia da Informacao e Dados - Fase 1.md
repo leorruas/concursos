@@ -498,3 +498,41 @@ Essas fontes foram localizadas por busca pública, **não foram inspecionadas it
 **73 achados históricos TI-001 a TI-073** (inclui verificações positivas, erros históricos já reparados, riscos e falhas de organização). **30/30 notas numeradas de Informática lidas seletivamente; 28/28 CAM-TI mapeadas ao programa; dois compartilhados do catálogo de TI identificados em Atualidades; 5/5 notas compartilhadas de Evidências/Dados/IA cotejadas; zero artigos integralmente certificados.**
 
 **Prioridades de próximo bloco:** testar a indexação de links/aliases de forma estrutural sem depender de UI; escolher **uma prova Cebraspe C/E comprovadamente contendo itens de TI**, obter caderno e gabarito oficial, numerar amostra e mapear a **CAM-TI** com vigência temporal. Se não houver fonte oficial completa disponível, registrar a lacuna em vez de atribuir respostas e frequências à banca. Somente depois autorizar a Fase 2 para ajustar os achados ainda abertos, preservando edições paralelas. **Este bloco não editou artigos teóricos nem dados privados.**
+
+
+## Bloco 12: primeira calibração real com caderno e gabarito definitivo Cebraspe (11/11/2026)
+
+**Fonte documental primária verificada em PDF e visualmente (caderno página 3, índice 2; gabarito página única):**
+- **INSA/MCTI, concurso edital 2024, aplicação efetiva em 23/02/2025, Cebraspe**, caderno de conhecimentos básicos **comum a todos os cargos**, identificação `036_MCTIINSA_CB1_01`:
+  https://cdn.cebraspe.org.br/concursos/mcti_insa_24/arquivos/036_MCTIINSA_CB1_01.PDF
+- **Gabarito oficial definitivo**, identificação correspondente e mesma data de aplicação:
+  https://cdn.cebraspe.org.br/concursos/mcti_insa_24/arquivos/Gab_Definitivo_036_MCTIINSA_CB1_01.PDF
+- O cabeçalho do caderno estabelece julgamento **C/E** e configuração padrão dos programas, salvo indicação em contrário. **Amostra real, não reproduzida integralmente no vault**, diferente dos itens inéditos dos artigos CAM-TI.
+
+### Matriz de cinco itens de Informática comprovadamente reais
+
+| Item da prova | Núcleo observado no enunciado real | Gabarito **definitivo** | Correspondência prudente no acervo | Mecânica de cobrança |
+| --- | --- | :---: | --- | --- |
+| **40** | Falha catastrófica no armazenamento seria recuperada por **restauração de firewall** | **E** | `CAM-TI-011` backup (artigo 13) e `CAM-TI-013` antivírus/firewall (artigo 15); `CAM-TI-010` disponibilidade (artigo 12) como relação secundária | Confusão de recuperação de dados com controle de tráfego |
+| **41** | SO gerencia periféricos, mas processador seria responsável **somente** por recursos de memória | **E** | `CAM-TI-001` arquivo/SO (artigo 03), aderência **parcial**; gestão de periféricos/processador não é núcleo desenvolvido dos 28 CAM-TI | Mistura de funções de software e hardware, exclusividade indevida |
+| **42** | Software como parte lógica e hardware como parte física; processamento lógico atribuído ao software | **X (ANULADO)** | Fundamentos de informática/SO, correspondência periférica a `CAM-TI-001` | **Não usar como item certo nem errado** e não deduzir motivo da anulação sem ato oficial |
+| **43** | Aumento do número de participantes em redes sociais tornaria a distribuição de informação mais segura | **E** | `CAM-TI-010` segurança geral (artigo 12), e comunicação digital do bloco específico de Comunicação; vínculo com informática é **transversal** | Inferência causal indevida e aumento de escala confundido com segurança |
+| **44** | Navegador/browser permite acesso a documentos de diferentes mídias, informação, interações e comércio via web | **C** | `CAM-TI-007` navegação (artigo 09) e `CAM-TI-006` internet (artigo 08), aderência **direta** | Reconhecimento da função e do alcance de navegador |
+
+**Conferência dupla:** os cinco enunciados estão sob o comando “Acerca de conhecimentos em informática, julgue os seguintes itens” do caderno. A linha 40 do gabarito definitivo é **E**; a sequência impressa para 41–44 é **E, X, E, C**, com `X` explicitamente definido pela banca como **item anulado**. Os nomes de provas e objetos foram conferidos nas primeiras páginas e nas páginas das questões e gabarito, sem inferir resposta por conta própria. **Quatro itens têm gabarito substantivo (40,41,43,44), um anulado (42).** Itens 45–50 no mesmo caderno incluem estatística, **não pertencem ao bloco sob o comando de Informática**, então devem ser indexados separadamente se usados.
+
+### Consequências para a auditoria
+
+**TI-074, CALIBRAÇÃO POR ITEM REAL INAUGURADA E COMPROVADA.** A afirmação anterior TI-071 (“não existe índice próprio de questões reais de TI”) permanece válida para o **índice operacional publicado no repo**, mas agora existe **uma amostra de cinco itens reais individualmente conferidos fora desse índice, com identificadores, datas, URLs, gabaritos definitivos e aderências CAM-TI**. A falta é **de inserção estruturada no índice e ampliação de cobertura**, não ausência total de evidência Cebraspe. Não reivindicar calibração dos 28 artigos com apenas cinco itens, nem extrapolar frequência a partir de um caderno.
+
+**TI-075, ITEM ANULADO COMO RISCO DE TREINO.** O item **42** recebeu **X** no gabarito definitivo. É metodologicamente incorreto incorporá-lo a bateria com “C” ou “E”, contá-lo como acerto/erro ou usá-lo como prova da verdade de uma formulação discutível. Registrar `status: anulado`, excluir do treino pontuado C/E, ou usar apenas em discussão de precisão conceitual com aviso. **Motivo da anulação não foi apurado**, portanto não afirmar que foi por ambiguidade ou erro de gabarito.
+
+**TI-076, PRIORIDADE POR TRANSFERÊNCIA COM CONTROLE DE ESCOPO.** O item **40** confirma utilidade de distinguir backup/recuperação, firewall e finalidade dos controles; os itens **41/42** mostram que o corpus do Cebraspe pode introduzir funções fundamentais de SO/processador que **não têm artigo próprio nominal entre CAM-TI-001–028**. Isso **não prova lacuna no edital da Câmara**, que nomeia Microsoft 365, internet, segurança e dados, mas recomenda decisão explícita de prioridade: cobrir esse fundamento somente na medida necessária a outro subitem, evitando criar disciplina geral de arquitetura de computadores. O item **43** é transversal com Comunicação e permite discutir falsos mecanismos causais; o **44** tem aderência direta a navegadores.
+
+### Verificação de outro candidato (PF 2025) e limite declarado
+
+Foi aberto e inspecionado o caderno Cebraspe `106_PF_CB2_01.pdf` (PF 2025, **Bloco I comum aos cargos 15–17**). Ele contém principalmente Português, Direito, estatística e raciocínio lógico; **não apresenta bloco de questões de ferramentas de informática nos 60 itens**. O aviso genérico sobre configuração padrão não demonstra cobrança efetiva de TI naquele caderno. A indicação anterior TI-072 da PF **como candidata a corpus TI deve ser qualificada**: **esse caderno específico é inadequado para mapear CAM-TI de ferramentas**, embora haja itens estatísticos possivelmente relacionáveis a análises de dados sem correspondência literal direta. Não reutilizar o **gabarito preliminar** localizado para ele como definitivo, e não misturar caderno de cargo distinto.
+
+### Estado após bloco 12
+
+**76 achados históricos TI-001–076**, vários informativos ou já resolvidos, sem 76 erros atuais. **Uma prova real de TI efetivamente cotejada com gabarito definitivo, cinco itens identificados: 4 válidos C/E e 1 anulado.** **30/30 artigos numerados lidos seletivamente; 28/28 CAM-TI localizados frente ao edital da Câmara; zero artigos integralmente certificados.** A Fase 1 agora possui amostra real inicial, mas **faltam múltiplos cadernos com maior aderência a Microsoft 365, IA, dados e visualização**, além de gabaritos correspondentes. **Nenhuma questão, artigo, hub, catálogo nem índice de provas reais foi alterado por esta rodada; somente relatório de auditoria e índice de estado**.

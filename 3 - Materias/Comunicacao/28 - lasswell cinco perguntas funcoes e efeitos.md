@@ -5,7 +5,7 @@ title: "Harold Lasswell: cinco perguntas, áreas de análise e funções sociais
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Harold Lasswell: cinco perguntas, áreas de análise e funções sociais
@@ -91,6 +91,18 @@ Conexões com [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|planej
 **Item 3:** “Vigilância do ambiente, correlação entre componentes da sociedade e transmissão da herança social constituem, no ensaio de Lasswell, funções sociais distintas das cinco perguntas usadas para analisar um ato comunicativo.”
 
 **Gabarito: Certo.** O item preserva a diferença entre duas estruturas do autor, frequentemente misturadas em resumos introdutórios.
+
+## Conferência dirigida dos três itens com Lasswell (1948)
+
+O texto original, **“The Structure and Function of Communication in Society”**, publicado em 1948, apresenta as cinco perguntas do ato de comunicação, liga-as a cinco campos de estudo (controle, conteúdo, meios, audiência e efeitos) e, em outra parte do ensaio, enumera **três funções sociais**: vigilância do ambiente, correlação das partes da sociedade e transmissão da herança social. São classificações diferentes. O autor admite, inclusive, combinar análise de audiência e de efeitos conforme o objetivo da investigação; isso não as torna conceitualmente idênticas nem faz o público atingido provar um efeito.
+
+| Item inédito | Gabarito mantido | Evidência e limite |
+| --- | --- | --- |
+| 1 | **Errado** | A fonte distingue *audience analysis* de *effect analysis* e admite conjugá-las por conveniência metodológica, sem equivalência de resultados. |
+| 2 | **Certo** | As cinco perguntas identificam dimensões do ato e campos de estudo; a lista não prova causalidade. |
+| 3 | **Certo** | As três funções sociais aparecem no mesmo ensaio como outra estrutura analítica. |
+
+**Fonte primária:** [Lasswell, ensaio de 1948 reproduzido em periódico acadêmico, pp. 216–217](https://pracownik.kul.pl/files/37108/public/Lasswell.pdf), conferido em 11/11/2026. **Escopo:** correspondência desses três itens; exemplos de campanhas e interpretações posteriores seguem fora da validação integral. Itens originais de treino, não itens reais da Cebraspe.
 
 ## Aplicação discursiva
 

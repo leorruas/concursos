@@ -504,3 +504,13 @@ O item C/E Q2 (**ERRADO**, conforme comentário) não foi revertido por este ach
 - **A-PL-047, necessidade de granularidade:** as seis questões de DC37 têm gabaritos visíveis no repositório, mas **não foram cotejadas individualmente** nesta rodada. Em particular, separar efeitos de parecer prévio, julgamento de contas presidenciais, controle de contas municipais e contratos.
   
 **Estado:** revisão específica adicionou 1 erro crítico de referência em DC36 (NC-PL-018); 4 núcleos de itens DC35 receberam cotejo ou corroboração, com reservas expressas. Distinguir rigorosamente norma, precedente e interpretação editorial. Todos os artigos originais permanecem intactos. Próximo: conferir `Tema 22` e examinar cada item DC36/DC37, além de finalizar jurisprudência de Q5/DC35.
+
+
+## Início das correções autorizadas: execução parcial (11/11/2026)
+
+**Mudança de fase por solicitação do usuário:** as seções anteriores documentam a Fase 1, que proibia edições naquele momento. A partir deste registro começaram correções pontuais nos artigos, sem declarar encerramento ou validação integral da auditoria.
+
+- **DC35, NC-PL-017, corrigida no texto:** substituída a competência equivocada da própria CPI pela **deliberação do Plenário** para prorrogação de até metade dos 120 dias (RICD, art. 35, § 3º); ajustado o resumo dos requisitos. Corrigida também a exceção ao limite de cinco CPIs para mencionar **projeto de resolução com o mesmo quórum de apresentação do caput** (art. 35, § 4º). Commit: `700ce615a443d34e212fdb5d63f15449fb2e2cf5`.
+- **DC34, NC sobre voto do Corregedor, corrigida pontualmente:** indicação de participação **com voz, sem voto**, conforme art. 9º, § 4º, do Código de Ética consolidado. Foi inserido aviso explícito de que prazos, sanções, fluxo e declarações patrimoniais seguem em revisão e não devem ser memorizados como versão validada. Commit: `04372d05b1fb3c412690164496ffc755ff9d7e3e`.
+
+**Estado das demais NC-PL, itens C/E, Mermaid e remissões de DC34:** pendentes. As correções acima não certificam os artigos completos. Fontes primárias: [RICD, art. 35](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e [Código de Ética, art. 9º, § 4º](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).

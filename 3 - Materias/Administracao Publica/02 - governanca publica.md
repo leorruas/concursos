@@ -5,7 +5,7 @@ title: "Governança pública"
 type: "conceito"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 
 # Governança pública
@@ -59,6 +59,38 @@ As duas dimensões podem se relacionar, mas não são sinônimas.
 O Decreto nº 9.203/2017 define valor público como produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização que constituam respostas efetivas e úteis às necessidades ou demandas de interesse público e modifiquem aspectos da sociedade ou de grupos reconhecidos como destinatários legítimos.
 
 Portanto, gerar valor público não é simplesmente “economizar recursos” nem “ter lucro”. Eficiência pode contribuir, mas o foco está na resposta útil às necessidades públicas e nos resultados entregues à sociedade.
+
+## Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação
+
+**Problema:** um serviço pode cumprir metas de produtividade e entregar produtos sem resolver a necessidade pública. Para verificar a relação entre meios, entregas e valor, é útil construir uma **cadeia lógica**. O detalhamento metodológico completo já está em [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|Teoria da mudança]] e [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas|Monitoramento e avaliação]]; esta seção acrescenta a pergunta específica da governança: **qual benefício público, para quem, sob quais condições e com que responsabilidades?**
+
+| Etapa | Pergunta de governança | Exemplo hipotético: acesso à informação da Câmara |
+| --- | --- | --- |
+| **Insumos** | Que recursos são mobilizados e quem responde por eles? | Equipe, orçamento e infraestrutura digital |
+| **Atividades ou processos** | O que a instituição faz com esses recursos? | Revisar conteúdos, testar acessibilidade, publicar bases |
+| **Produtos ou entregas (outputs)** | O que foi efetivamente colocado à disposição? | Relatórios disponíveis e ferramenta acessível de busca |
+| **Resultados (outcomes)** | O que mudou para as pessoas destinatárias? | Maior capacidade de localizar e compreender informações |
+| **Impactos pretendidos** | Que mudança pública mais ampla se busca? | Ampliação sustentável do controle social e do acesso à atividade legislativa |
+
+A sequência **insumos → atividades → entregas → resultados → impactos** explicita **uma hipótese causal**, e não demonstra empiricamente que cada etapa provocou a seguinte. Usuários podem continuar sem acesso por fatores externos; uma melhora observada pode ter outras causas. Na avaliação de impacto, demonstrar efeitos causais exige desenho e evidências apropriados. A classificação de resultado e impacto também depende da granularidade e do referencial, não apenas do prazo.
+
+**Valor público** não se reduz ao último indicador da cadeia: direitos, equidade, legitimidade, distribuição de benefícios e custos, utilidade social e confiança também importam. A instituição pode reduzir o custo médio por relatório (**eficiência**) e ainda produzir informação incompreensível (**valor e efetividade insuficientes**). O inverso também merece exame: melhora na compreensão pode exigir investimento adicional justificável. Indicadores administrativos não substituem julgamento público fundamentado sobre prioridades.
+
+**Caso progressivo:** (1) são publicados mais 200 relatórios: aumentou a entrega, não está provada a compreensão; (2) testes com usuários revelam dificuldade de busca, e o portal é redesenhado: houve alteração de processo; (3) pesquisas representativas apontam maior sucesso na localização, com o mesmo critério de medição: há evidência de resultado observado; (4) a participação cidadã cresce no período: o crescimento não pode ser atribuído automaticamente ao portal; é preciso examinar outras causas. **Contraexemplo:** classificar número de reuniões de revisão de conteúdo como impacto democrático. Reuniões são atividades, e não efeitos finais sobre cidadãos.
+
+### Questões inéditas C/E: cadeia de valor público
+
+**1.** A disponibilização de um número maior de relatórios no portal de um órgão comprova, por si só, que os cidadãos passaram a compreendê-los melhor. **Gabarito: Errado.** Quantidade de entregas não comprova resultado para os destinatários.
+
+**2.** Uma cadeia de valor público pode organizar insumos, atividades, produtos, resultados e impactos, sem que esse encadeamento constitua evidência suficiente de efeito causal. **Gabarito: Certo.** A cadeia explicita hipóteses a testar; a atribuição causal depende de método.
+
+**3.** Uma melhoria de eficiência de uma operação implica necessariamente aumento proporcional do valor público gerado. **Gabarito: Errado.** Eficiência de recursos não garante efetividade, equidade ou utilidade social.
+
+**4.** Um mesmo indicador final pode ser classificado como resultado ou impacto em modelos diferentes, desde que os objetivos e o nível de análise sejam explicitados. **Gabarito: Certo.** As fronteiras entre essas categorias dependem da teoria do programa adotada.
+
+Itens inéditos, elaborados para aprendizagem, **não questões reais do Cebraspe**.
+
+**Fontes específicas:** [Guia Prático de Análise Ex Post, Ipea/Casa Civil](https://ipea.gov.br/portal/images/stories/PDFs/livros/livros/181218_avaliacao_de_politicas_publicas_vol2_guia_expost.pdf), modelo lógico; [Lassance (2026), análise ex ante e teoria do programa, Ipea](https://repositorio.ipea.gov.br/entities/book/df969e98-db5e-4c9f-868b-319899862b8d/full); [Decreto 9.203/2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm), conceito normativo de valor público. O decreto rege a administração direta, autárquica e fundacional do **Executivo federal**; a cadeia aqui apresentada é instrumento analítico e não obrigação instituída pelo decreto para a Câmara.
 
 ## Princípios do Decreto nº 9.203/2017
 

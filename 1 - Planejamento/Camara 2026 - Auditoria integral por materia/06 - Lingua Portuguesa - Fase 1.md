@@ -1039,3 +1039,58 @@ A matriz representa **decisões editoriais recomendadas para Fase 2/3**, não co
 **Verificação individual acumulada das notas 12–34:** 23 notas × seis questões = **138 questões autorais com tabela por item**, nos blocos 19–23 (**30 notas 12–16 + 108 notas 17–34**). **Sete itens suspensos**: `14#3,15#3,18#2,23#5,28#3,29#5,32#1`. **Nenhuma inversão de gabarito demonstrada, zero questões integralmente homologadas**. Diagnóstico de Português permanece com **34/34 artigos numerados examinados seletivamente**, hub e **20/20 subitens do edital** ligados a notas candidatas. Os rótulos **PT-001–150** são históricos e possuem colisões PT-011–016; não representam 150 erros distintos.
 
 **Próximo:** inventariar a presença, formato e quantidade de exercícios nos **11 artigos-base, 01–11**, e só validar os efetivamente existentes, para evitar pressupor que todos tenham seis questões. Depois reconciliar o universo real de questões, fontes primárias e gate documental. **Nenhuma teoria, hub, catálogo ou arquivo de outra matéria foi alterado.**
+
+
+## Bloco 24: inventário e validação individual das questões dos 11 artigos-base 01–11 (11/11/2026)
+
+**Método:** inventariados diretamente pelo GitHub todos os arquivos numerados `01–11` da pasta `3 - Materias/Portugues/`. Em **todos os 11** foram lidos cabeçalhos, marcações de `Questão/Item/Gabarito` e seções de exercícios. Nos três com `## Questões comentadas`, foram inspecionados integralmente os **seis enunciados, alternativas, gabaritos e comentários**. Confirmado que as questões desses arquivos são **de múltipla escolha, com cinco opções A–E**, e não C/E. Nos demais oito há explicações e, em diversos casos, **`## Exemplos comentados`**, mas **não há bateria independente formal com alternativas e gabarito nessa estrutura**. As menções “Como a FGV cobra” ou exemplos de julgamento no texto **não foram artificialmente contadas como questões inéditas**. Não houve neste bloco busca em fontes externas, prova oficial FGV/Cebraspe ou certificação bibliográfica de cada exemplo.
+
+### Inventário verificado
+
+| Artigo | Natureza dos exercícios observada | Questões formais independentes |
+| --- | --- | ---: |
+| `01 - interpretacao de texto` | Teoria, armadilhas e exemplos no corpo; sem bateria titulada | **0** |
+| `02 - sujeito` | Exemplos comentados/heurísticas; sem bateria titulada | **0** |
+| `03 - pontuacao e virgula` | Regras e exemplos no texto; sem bateria titulada | **0** |
+| `04 - regencia` | Exemplos comentados/heurísticas; sem bateria titulada | **0** |
+| `05 - acordo ortografico` | Regras e teste rápido de hífen no corpo; sem bateria titulada | **0** |
+| `06 - concordancia verbal e nominal` | Exemplos comentados/heurísticas; sem bateria titulada | **0** |
+| `07 - oracoes coordenadas e subordinadas` | Exemplos comentados 1–5 e relações; sem bateria de questões com opções/gabarito | **0** |
+| `08 - coesao textual referenciacao e tempos verbais` | Exemplos comentados/heurísticas; sem bateria titulada | **0** |
+| `09 - tipos e generos textuais` | `## Questões comentadas`, 2 questões A–E | **2** |
+| `10 - reescrita semantica e preservacao de sentido` | `## Questões comentadas`, 2 questões A–E | **2** |
+| `11 - crase` | `## Questões comentadas`, 2 questões A–E | **2** |
+| **Total** | **3 artigos com bateria A–E; 8 sem bateria independente** | **6** |
+
+**Cuidado metodológico:** “0” significa **nenhuma questão formal independente identificada no formato inventariado**, não ausência de exercícios, exemplos ou desafios pedagógicos no corpo. O artigo `07` contém **cinco exemplos comentados**, em outra categoria. As bases `01–11` podem ser compartilhadas com Dataprev/FGV; o protocolo não autoriza transformar silenciosamente essas seis questões de múltipla escolha em itens C/E.
+
+### Revisão de cada questão existente
+
+**Legenda:** `M` significa **gabarito e explicação nuclear plausíveis, mantidos provisoriamente**; `R` significa **gabarito preservado provisoriamente, mas comentário deve ser corrigido**. `M` não representa certificação integral nem prova oficial.
+
+| Questão | Resposta registrada | Decisão | Teste de alternativa e ressalva |
+| --- | --- | --- | --- |
+| **09#1** | **D, argumentativa** | **R** | O trecho “Embora o atendimento digital reduza filas, ele não elimina a necessidade de canais presenciais, pois parte da população encontra barreiras de acesso” tem tese sustentada por razão, compatível com argumentação. **Inconsistência objetiva do comentário:** afirma que “o melhor distrator é exposição”, mas as opções são A narrativa, B descritiva, C injuntiva, D argumentativa e E dialogal; **exposição não aparece**. Corrigir o comentário ou refazer os distratores, sem inverter D. |
+| **09#2** | **C** | **M** | Manual de usuário pode combinar sequência expositiva (funcionamento) e injuntiva (passos), mantendo o gênero. As alternativas A/B/D/E não descrevem adequadamente a relação. |
+| **10#1** | **B** | **M** | “Nem todos os candidatos entregaram” implica existência de **pelo menos um que não entregou** na leitura quantificada padrão; B “Alguns candidatos não entregaram” preserva esse alcance, sem pressupor que algum entregou. Distinguir da inferência inválida de grupos complementares nos artigos `14/25`. |
+| **10#2** | **B** | **M** | “Como apresentava inconsistências, o relatório foi revisto” preserva a relação causal do original. A altera a causa para concessão; C inverte sentido causal; D/E alteram factualidade/modalidade. |
+| **11#1** | **C** | **M** | “à espera da autorização” contém locução prepositiva feminina; A `à uma servidora`, B `à partir`, D `frente à frente` e E `à qualquer` são inadequadas nas construções apresentadas. O fato de haver outros usos de `à uma` em contextos diferentes não invalida a alternativa A concreta. |
+| **11#2** | **D** | **M** | `Passou à revisar` tem grave indevido diante de verbo; A `àquela`, B `à Bahia`, C `à unidade/às nove` e E `à disposição` são aceitáveis nos respectivos contextos. |
+
+**Resultado da bateria-base:** **6 questões A–E examinadas individualmente**, **5 M, 1 R**, **zero suspensões e zero inversões identificadas**. Esta é a **primeira auditoria formal individualizada das seis questões das bases 09–11**. Nenhuma foi reformatada em C/E.
+
+### Achados e decisões arquiteturais
+
+**PT-151 (inventário de exercícios):** apenas **09/10/11** têm questões independentes, total de **seis múltipla escolha**, enquanto **01–08** têm teoria/exemplos/heurísticas mas não banca formal de questões A–E. Toda comparação de bancos deve usar o **formato real**.
+
+**PT-152 (erro textual de comentário, 09#1):** o distrator “exposição” **não existe na lista A–E**. Corrigir comentário, preservar resposta D provisória e confirmar que enunciado está coerente com a noção de argumentação técnica, sem exigir juízo avaliativo.
+
+**PT-153 (separação por concurso):** o material de base pode conter “Como a FGV cobra” e questões A–E porque é reutilizado na trilha Dataprev. Na Câmara, os artigos 12–34 têm bateria de seis itens **C/E inéditos cada**. **Não criar versões C/E que substituam ou apaguem as seis questões-base FGV sem autorização**, nem misturar modalidades em avaliação de desempenho.
+
+**PT-154 (controle de prontidão):** as seis questões-base possuem decisões provisórias `M/R`. Os exemplos espalhados por 01–08 e 09–11 **continuam sujeitos a revisão factual e gramatical no contexto de cada artigo**; o inventário não os certifica como exercícios nem os transforma automaticamente em uma biblioteca de questões homologadas.
+
+### Conciliação de volume e próximo passo
+
+O universo **formal identificado no conteúdo dos 34 artigos numerados** é de **144 questões com enunciado e gabarito nas respectivas seções**, sendo **138 C/E inéditas nos 23 artigos `12–34`** (seis por nota) e **6 A–E nos artigos-base `09–11`**. Os artigos-base `01–08` não apresentam bateria formal com esse padrão; exemplos didáticos podem existir e **não estão contabilizados nas 144**. **Todos os 144 enunciados/gabaritos/comentários de bateria formal foram relidos individualmente nos blocos 19–24**; entretanto **nenhum foi integralmente certificado em fontes primárias e contraexemplos normativos**. Permanecem **7 questões suspensas, todas C/E**: `14#3,15#3,18#2,23#5,28#3,29#5,32#1`. **Não houve inversão de gabarito documentalmente comprovada**. O relatório contém rótulos históricos `PT-001–154` com colisões de `PT-011–016`, que **não são 154 erros independentes**.
+
+**Estado da Fase 1:** inventário de artigos, matriz de 20 itens do edital, links, fontes selecionadas e **100% das questões de bateria formal identificadas tiveram pelo menos uma leitura individual de enunciado, gabarito e comentário**, porém **leitura pedagógica integral de todos os exemplos do corpo de todos os artigos, certificação normativa por edição/página, e validação dos casos de fronteira continuam pendentes**. O próximo bloco deve realizar **reconciliação final das sete suspensões e da fila R** com evidências por caso, seguida de parecer sobre suficiência documental e necessidades antes da Fase 2. **Não modificar artigos, hubs, questões, catálogo ou dados privados.**

@@ -164,6 +164,14 @@ Este quadro comparativo foi cotejado com as delimitações dos artigos [[3 - Mat
 
 **Fonte normativa de referência:** [UNESCO, *Guidelines for the Governance of Digital Platforms* (2023)](https://www.unesco.org/en/internet-trust/guidelines). Os documentos de orientação internacionais são referências de políticas públicas, não automaticamente normas brasileiras de aplicação direta.
 
+## Calibração histórica: questões 61–64 dos Correios 2011 (11/11/2026)
+
+O [caderno oficial CESPE/UnB de 2011, Cargo 28](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), com [cópia do gabarito definitivo do mesmo código ECT11_028_83](https://www.estudegratis.com.br/images/provas/20767-cespe-2011-correios-analista-de-correios-comunicacao-social-publicidade-e-propaganda-gabarito.pdf), contém a seguinte sequência real: **61 C (Lasswell)**, **62 E (pragmatismo/positivismo × teoria crítica)**, **63 C (agenda-setting e espiral do silêncio podem ser complementares)** e **64 E (generalização histórica da origem de termos da cultura e mídia de massa)**.
+
+**Precisão de interpretação:** no **item 63**, “podem ser complementares” é proposição modal e limitada; não implica que agenda-setting e espiral do silêncio meçam a mesma variável ou produzam o mesmo efeito. O primeiro aborda saliência e o segundo, clima percebido de opinião e disposição à expressão. O **item 62** exige distinguir correntes de pesquisa e seus pressupostos, sem concluir que não exista diálogo acadêmico possível entre elas. No **64**, conservar o julgamento histórico sem inventar autor, data ou definição única que o gabarito não fornece.
+
+**Consequência pedagógica:** a própria prova usa simultaneamente **reconhecimento de autor, contraste de escolas, relação entre teorias e história de conceitos**. Essa calibragem provém de quatro **itens históricos**, sem alterar os três exercícios inéditos deste artigo. O julgamento foi verificado em cópia identificada como gabarito definitivo; a hospedagem original desse PDF não abriu nesta consulta. [Registro individual na indexação](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md).
+
 ## Aplicação discursiva: escolher a teoria pelo problema institucional
 
 Em uma peça técnica de divulgação institucional, identificar primeiro a finalidade: **entrega correta**, **seleção de informações**, **relevância atribuída a temas**, **compreensão**, **expressão pública**, **mudança de práticas** ou **condições de um ambiente plural**. A partir dela, definir o objeto, a fonte de evidências, o mecanismo hipotético e uma forma de avaliação.

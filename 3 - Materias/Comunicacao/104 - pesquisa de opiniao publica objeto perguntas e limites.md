@@ -5,7 +5,7 @@ title: "Pesquisa de opinião pública: objeto, perguntas e limites da inferênci
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Pesquisa de opinião pública: objeto, perguntas e limites da inferência
@@ -139,6 +139,14 @@ Um relatório responsável informa, na medida compatível com o método: objetiv
 **Item 5.** O silêncio de pessoas em debate público e a ausência de resposta a item de questionário são evidências equivalentes de medo de isolamento social, conforme a teoria da espiral do silêncio.
 
 **Errado.** São situações diferentes com causas possíveis variadas; ausência de resposta não demonstra motivação específica. **Mecanismo do erro:** uso indevido de teoria explicativa para interpretar dado insuficiente.
+
+## Conferência de metodologia: questionário, modo e erro de inferência (11/11/2026)
+
+Segundo a [AAPOR, *Best Practices for Survey Research*](https://aapor.org/standards-and-ethics/best-practices/), pesquisas precisam esclarecer população, desenho, forma de recrutamento, redação e ordem de perguntas, alternativas de resposta e não resposta. A associação recomenda perguntas **específicas**, que não induzam respostas e tratem **um conceito por vez**; alerta que a formulação e a ordem do questionário podem alterar o resultado. Também informa que alterações de modo ou de instrumento entre ondas podem simular mudanças na opinião.
+
+**Item 4 existente, Certo: cotejado diretamente com a AAPOR**, pois mudanças de redação, ordem e opções podem reduzir comparabilidade. **Item 3, Errado:** comentários voluntários não formam amostra aleatória da população mesmo que sejam numerosos, conforme os limites da seleção e cobertura. **Item 2, Errado:** declarar conhecimento e demonstrá-lo são variáveis diferentes; a fonte geral de desenho respalda a necessidade de medida apropriada, sem certificar um teste específico de conhecimento legislativo. **Item 5, Errado:** silêncio público e não resposta a item não demonstram, por si, medo de isolamento; falta cotejo direto da fonte primária de Noelle-Neumann. **Item 1, Certo:** sondagem pode estimar distribuição sem esgotar o fenômeno social da opinião pública; a fonte AAPOR valida o método de levantamento, não toda a teoria da esfera pública.
+
+**Novo item C/E inédito:** “Em séries comparáveis de pesquisas de opinião, alterar a redação das perguntas sem avaliar o efeito da mudança pode produzir uma diferença aparente de respostas que não corresponda a uma mudança real na população.” **Certo.**
 
 ## Relações com outros temas
 

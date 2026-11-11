@@ -5,7 +5,7 @@ title: "Ética em inteligência artificial: vieses, discriminação algorítmica
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Ética em inteligência artificial: vieses, discriminação algorítmica, explicabilidade e supervisão humana
@@ -101,7 +101,7 @@ Baixa  ▼───────────────────────�
 1. **Modelos Interpretáveis por Natureza (*White-Box* ou Transparentes):**
    - Modelos lineares simples e árvores de decisão rasas. É possível apontar exatamente qual variável contribuiu com quantos pontos percentuais para a decisão final.
 2. **Modelos Opacos (*Black-Box*):**
-   - Redes neurais profundas com milhões ou bilhões de parâmetros e relações não lineares complexas. O sistema recebe a entrada $X$ e devolve a resposta $Y$ com acurácia espetacular, mas nenhum ser humano (nem mesmo o cientista que treinou a rede) consegue traçar linha a linha o cálculo causal que gerou aquele resultado específico.
+   - Redes neurais profundas com milhões ou bilhões de parâmetros e relações não lineares complexas. O sistema recebe a entrada $X$ e devolve a resposta $Y$ com desempenho que depende do problema, dos dados e da avaliação. Embora o cálculo matemático da saída possa ser reproduzido, explicar de forma fiel e inteligível o papel das variáveis em cada previsão pode ser difícil; a explicação estatística não equivale, por si só, a uma demonstração causal.
 
 ### 4.2. Explicabilidade (XAI - *Explainable Artificial Intelligence*)
 Diante da exigência constitucional de motivação dos atos administrativos (CF/88, art. 37 e Lei nº 9.784/1999, art. 50), o Estado não pode se escudar na desculpa de que "o computador decidiu e ninguém sabe como".
@@ -114,7 +114,7 @@ A **XAI** abrange métodos e ferramentas que visam tornar as saídas de modelos 
 
 ## 5. Supervisão humana: modelos de integração e falácias de controle
 
-A governança ética e as normas internacionais e nacionais exigem que decisões automatizadas que afetem direitos individuais estejam submetidas ao escrutínio humano. Existem três configurações de controle:
+A governança ética recomenda supervisão proporcional ao risco, mas a obrigação jurídica de intervenção humana depende da norma aplicável. O art. 20 da LGPD assegura ao titular solicitar revisão de decisões unicamente automatizadas que afetem seus interesses, sem exigir, como regra geral, que a revisão seja feita por pessoa natural. Existem três configurações de controle:
 
 ```
                ARQUITETURAS DE SUPERVISÃO HUMANA
@@ -126,7 +126,7 @@ A governança ética e as normas internacionais e nacionais exigem que decisões
       (HOTL)                 mas um humano monitora e pode intervir/abortar (botão de emergência).
   
   [Human-out-of-the-Loop]--> O sistema decide e executa totalmente sem interferência humana
-      (HOOTL)                (Vedado no setor público para decisões restritivas de direitos).
+      (HOOTL)                (não é universalmente proibido por essa denominação; verificar a legislação aplicável a cada decisão).
 ```
 
 ### O Viés de Automação (*Automation Bias*)
@@ -155,9 +155,9 @@ Instituída pela Portaria MCTI nº 4.617/2021, fixa 6 eixos verticais e 3 eixos 
 - Responsabilidade e prestação de contas (*accountability*).
 
 ### 6.3. Marco Legal da IA no Brasil (PL nº 2.338/2023 - Em tramitação no Congresso)
-Adota a abordagem baseada em risco (inspirada no *AI Act* da União Europeia):
-- **Risco Excessivo / Inaceitável (Proibidos):** Técnicas subliminares que induzam comportamento nocivo, exploração de vulnerabilidades (idade, deficiência) e avaliação social com ranqueamento pelo Estado (*social scoring*).
-- **Alto Risco (Regulamentação e Auditoria Estrita):** Aplicações em identificação biométrica remota em tempo real, gestão de infraestruturas críticas, avaliação de estudantes em exames de acesso, triagem em RH/recrutamento, concessão de crédito essencial e decisões judiciais/administrativas vinculantes. Exige Avaliação de Impacto Algorítmico (AIA) prévia.
+**Proposta legislativa, não direito vigente:** o PL nº 2.338/2023 discute uma abordagem baseada em risco. Suas categorias e deveres dependem do texto aprovado ao fim da tramitação e não podem ser cobrados como obrigações legais já em vigor:
+- **Risco Excessivo / Inaceitável (proibições propostas no PL):** Técnicas subliminares que induzam comportamento nocivo, exploração de vulnerabilidades (idade, deficiência) e avaliação social com ranqueamento pelo Estado (*social scoring*).
+- **Alto Risco (obrigações propostas no PL):** Aplicações em identificação biométrica remota em tempo real, gestão de infraestruturas críticas, avaliação de estudantes em exames de acesso, triagem em RH/recrutamento, concessão de crédito essencial e decisões judiciais/administrativas vinculantes. O projeto prevê mecanismos de avaliação de impacto algorítmico; o alcance e as condições de exigência dependem da redação final da eventual lei.
 - **Baixo Risco:** Aplicações corriqueiras com deveres gerais de transparência.
 
 ---
@@ -171,7 +171,7 @@ Adota a abordagem baseada em risco (inspirada no *AI Act* da União Europeia):
 ### Caso 2: Reconhecimento facial nas portarias e plenários do Congresso
 - *Cenário:* Implantação de câmeras com reconhecimento facial para controle de acesso ao Palácio do Congresso Nacional.
 - *Avaliação de Risco:* Configura sistema de alto risco com tratamento de dados biométricos sensíveis (LGPD, art. 11).
-- *Mitigação Obrigatória:* Realização prévia de Relatório de Impacto à Proteção de Dados Pessoais (RIPD/DPIA), auditoria algorítmica para aferição de disparidade racial de erro (garantindo que taxas de falsos positivos não sejam desproporcionais entre grupos), proibição de prisões automáticas baseadas exclusivamente no alerta e vedação ao armazenamento indiscriminado de faces de cidadãos que circulam em áreas públicas.
+- *Medidas a avaliar conforme o risco e a base legal:* examinar necessidade de RIPD conforme a LGPD e orientações da ANPD, testar diferenças de erro entre grupos, definir supervisão e contestação adequadas, limitar coleta, retenção e acesso aos dados biométricos e observar as normas específicas de segurança pública. A classificação como alto risco e cada obrigação jurídica exigem fundamento normativo próprio; não decorrem automaticamente do PL enquanto ele estiver em tramitação.
 
 ### Caso 3: Descarte de currículos em estágio parlamentar com viés por faculdade
 - *Cenário:* Um gabinete implementa triagem algorítmica de currículos com modelo preditivo treinado no histórico de assessores anteriores que receberam elogios. O modelo descarta automaticamente candidatos que não estudaram em universidades de elite do eixo Sul-Sudeste.
@@ -233,3 +233,5 @@ Adota a abordagem baseada em risco (inspirada no *AI Act* da União Europeia):
 5. **O'NEIL, Cathy.** *Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy.* Crown Publishing, 2016.
 6. **RUSSELL, Stuart; NORVIG, Peter.** *Inteligência Artificial: uma abordagem moderna.* 4ª ed. Rio de Janeiro: GEN LTC, 2022.
 7. **BAROCAS, Solon; HARDT, Moritz; NARAYANAN, Arvind.** *Fairness and Machine Learning: Limitations and Opportunities.* MIT Press, 2023.
+
+> **Nota de revisão (11/11/2026):** revisão pontual dos achados TI-002, TI-003 e TI-008, com distinção entre princípio ético, direito vigente e proposta legislativa. Consultar [LGPD, art. 20](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html) e [tramitação oficial do PL nº 2.338/2023](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262). A auditoria integral e a certificação dos gabaritos inéditos continuam pendentes.

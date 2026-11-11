@@ -3362,6 +3362,102 @@
       "statement": "A frase “O órgão não divulgou todos os pareceres” pode ser reescrita como “O órgão não divulgou nenhum parecer” sem alterar o sentido.",
       "correctAnswer": "E",
       "explanation": "A primeira frase indica que pelo menos um parecer ficou sem divulgação. A segunda afirma que nenhum foi divulgado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo e relações entre Poderes",
+      "conceptId": "semipresidencialismo",
+      "mechanism": "separar-classificacao-de-influencia",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Semipresidencialismo: presidente eleito e gabinete responsável ao Parlamento"
+      ],
+      "statement": "Uma Constituição prevê presidente eleito pelo povo para mandato fixo e gabinete responsável perante o Parlamento. Pela definição institucional de Robert Elgie, o arranjo pode ser semipresidencial mesmo quando o presidente exerce pouca influência cotidiana.",
+      "correctAnswer": "C",
+      "explanation": "A definição usa a eleição presidencial e a responsabilidade parlamentar do gabinete. A influência prática pode variar entre países com esse desenho."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo e relações entre Poderes",
+      "conceptId": "subtipos-de-semipresidencialismo",
+      "mechanism": "confundir-nomeacao-com-destituicao",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Semipresidencialismo: presidente eleito e gabinete responsável ao Parlamento"
+      ],
+      "statement": "Em um regime semipresidencial, o presidente nomeia o primeiro-ministro, mas só o Parlamento pode retirar a confiança política do gabinete. A nomeação presidencial, sozinha, caracteriza a dupla responsabilidade do gabinete.",
+      "correctAnswer": "E",
+      "explanation": "A distinção depende de quem pode retirar o gabinete por razões políticas. A nomeação não dá, por si só, poder de destituição."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo e relações entre Poderes",
+      "conceptId": "dupla-responsabilidade-do-gabinete",
+      "mechanism": "identificar-duas-vias-de-destituicao",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Semipresidencialismo: presidente eleito e gabinete responsável ao Parlamento"
+      ],
+      "statement": "Em um regime semipresidencial, tanto o presidente quanto o Parlamento podem, de forma independente, derrubar politicamente o gabinete. Essa regra exemplifica o subtipo presidente-parlamentar.",
+      "correctAnswer": "C",
+      "explanation": "O gabinete depende politicamente das duas instâncias. A dupla responsabilidade distingue esse subtipo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo e relações entre Poderes",
+      "conceptId": "coabitacao",
+      "mechanism": "confundir-coabitacao-com-governo-dividido",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Coabitação versus governo dividido"
+      ],
+      "statement": "Um presidente governa sem maioria legislativa em um sistema presidencialista que não tem primeiro-ministro. O caso caracteriza coabitação no sentido aplicado ao semipresidencialismo.",
+      "correctAnswer": "E",
+      "explanation": "A descrição corresponde a governo dividido. A coabitação pressupõe também um primeiro-ministro de campo adversário, sustentado por maioria parlamentar distinta."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo e relações entre Poderes",
+      "conceptId": "coabitacao",
+      "mechanism": "inferir-mudanca-de-regime-de-alternancia",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Coabitação versus governo dividido"
+      ],
+      "statement": "Em um sistema semipresidencial, a oposição conquista maioria parlamentar e sustenta um primeiro-ministro de seu campo, enquanto o presidente permanece no cargo. O arranjo pode caracterizar coabitação dentro das mesmas regras constitucionais.",
+      "correctAnswer": "C",
+      "explanation": "A composição partidária mudou e os cargos mantiveram suas bases institucionais. A coexistência política não implica mudança no sistema de governo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo e relações entre Poderes",
+      "conceptId": "coalizao-legislativa",
+      "mechanism": "inferir-voto-uniforme-de-composicao-ministerial",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Presidencialismo de coalizão: Sérgio Abranches e a especificidade brasileira"
+      ],
+      "statement": "Dois partidos participam do gabinete de um presidente. Essa participação garante que ambos apoiarão todos os projetos do Executivo no Legislativo.",
+      "correctAnswer": "E",
+      "explanation": "A presença no gabinete sinaliza um acordo político. Divergências por matéria podem gerar votações diferentes, mesmo entre aliados."
     }
   ]
 }

@@ -5,7 +5,7 @@ title: "Endomarketing, marketing interno e comunicação interna"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Endomarketing, marketing interno e comunicação interna
@@ -22,7 +22,7 @@ As distinções dependem do referencial. Comunicação administrativa organiza n
 
 **Christian Grönroos**: marketing interno orientado à motivação, preparação e atitude das equipes na entrega do serviço ao público.
 
-**Mohammed Rafiq e Pervaiz Ahmed**: descrevem três fases de evolução do conceito: satisfação e motivação dos trabalhadores; orientação para o cliente; implementação de estratégias e gestão de mudança com integração interfuncional. As fases caracterizam a literatura, não etapas obrigatórias para toda organização.
+**Mohammed Rafiq e Pervaiz Ahmed (2000)**: descrevem três fases de evolução do conceito: satisfação e motivação dos trabalhadores; orientação para o cliente; implementação de estratégias e gestão de mudança com integração interfuncional. As fases caracterizam a literatura, não etapas obrigatórias para toda organização.
 
 **Saul Bekin**: referência brasileira do endomarketing, articulando integração entre unidades, conhecimento dos valores institucionais e orientação ao público externo. A existência do termo brasileiro não significa que a teoria internacional de marketing interno tenha se iniciado com esse autor.
 
@@ -74,6 +74,14 @@ Essas disposições reconhecem a relevância de comunicação interna, mas não 
 
 **Item 4.** A classificação entre comunicação interna, administrativa e endomarketing depende exclusivamente do meio utilizado. **Errado.** Finalidade e tipo de atividade são centrais; um mesmo canal pode servir a todas.
 
+## Cotejo autoral: Rafiq e Ahmed, 1993 versus 2000 (11/11/2026)
+
+**Correção de proveniência:** o artigo de **Rafiq e Ahmed (1993)**, [*The scope of internal marketing: Defining the boundary between marketing and human resource management*](https://doi.org/10.1080/0267257X.1993.9964234), examina a fronteira entre marketing interno e gestão de pessoas e os problemas da metáfora do cliente interno. Já a enumeração de **três fases históricas** (satisfação/motivação de empregados, orientação ao cliente, implementação de estratégia/gestão de mudança) é explicitamente formulada em **Rafiq e Ahmed (2000)**, [*Advances in the internal marketing concept: definition, synthesis and extension*](https://doi.org/10.1108/08876040010347589), conforme o resumo autoral de [Monash University](https://research.monash.edu/en/publications/advances-in-the-internal-marketing-concept-definition-synthesis-a/). O artigo didático não distinguia as duas obras na lista de fontes.
+
+**Item 2 preexistente, Errado: confirmado pela obra de 2000**, que inclui mudança e implementação estratégica. **Item 1, Certo:** a metáfora de clientes internos ligada a Berry é compatível com a discussão histórica, mas a obra original de Berry não foi cotejada nesta rodada. **Item 3, Certo:** permanece fundamentado no Ato da Mesa 218/2025, sem inferir que comunicação interna seja equivalente a gestão de pessoas. **Item 4, Errado:** distinção conceitual interna, que não exige um canal exclusivo para cada função.
+
+**Novo item C/E inédito:** “As três fases do marketing interno descritas por Rafiq e Ahmed, em 2000, são três etapas de execução obrigatórias para qualquer órgão público, devendo ocorrer sucessivamente sem adaptações.” **Errado.** São uma revisão da evolução da literatura, não fases compulsórias do trabalho de uma organização.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/01 - comunicacao organizacional|Comunicação organizacional]]: cultura, modalidades e Schein. [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional]]: serviços e pessoas. [[3 - Materias/Comunicacao/97 - marketing institucional no setor publico valor legitimidade e limites|Marketing público]]: limites institucionais.
@@ -82,7 +90,8 @@ Essas disposições reconhecem a relevância de comunicação interna, mas não 
 
 ## Fontes e limites
 
-- [Rafiq e Ahmed, 1993, fronteira entre marketing interno e gestão de pessoas](https://doi.org/10.1080/0267257X.1993.9964234).
+- [Rafiq e Ahmed (1993): fronteira entre marketing interno e gestão de pessoas](https://doi.org/10.1080/0267257X.1993.9964234).
+- [Rafiq e Ahmed (2000): evolução em três fases e síntese do conceito](https://doi.org/10.1108/08876040010347589).
 - [Revista de Administração Pública, marketing interno e resultados](https://www.scielo.br/j/rap/a/F7CDCshqXBVP5nxZJvwH45w/?lang=pt).
 - [Revista de Administração Contemporânea, marketing interno e orientação ao mercado](https://www.scielo.br/j/rac/a/J68rN8WjfpFWVNBkrQfDNgB/?lang=pt).
 - Saul Bekin, *Conversando sobre endomarketing* (1995).

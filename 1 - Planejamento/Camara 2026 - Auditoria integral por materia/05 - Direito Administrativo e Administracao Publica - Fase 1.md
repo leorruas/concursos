@@ -929,3 +929,55 @@ Inventariar e verificar **todas as questões de DA20–24** com comentários e d
 **DA-091, IMPORTANTE, fonte da cassação de aposentadoria.** \`DA22#5\` atribui constitucionalidade da sanção ao julgamento da **ADI 4.882**, referência que **não foi autenticada como precedente correspondente**. O tema já constava de DA-005/013. Deve-se usar precedente de constitucionalidade efetivamente verificado (STF **ADPF 418**) e comparar o objeto/alcance antes de homologar questão e justificativa. **Não declarar gabarito C falso apenas por citação mal atribuída.**
 
 **Balanço:** **30 enunciados e 30 pares de gabarito/comentário lidos**, cotejo seletivo jurídico dos fundamentos decisivos; **uma inversão confirmada já conhecida DA22#2**, nenhuma inversão adicional comprovada; **DA24#4 sob reserva**. Seis registros DA-086–DA-091 somam-se aos anteriores, resultando em **DA-001 a DA-091, categorias heterogêneas, não 91 erros.** Não houve edição dos artigos, questões ou outros relatórios. Fase 1 permanece em curso. Próxima etapa: os demais artigos de DA e AP com questões individuais pendentes, mantendo controle de quais foram apenas inspecionados e quais tiveram decisão jurídica por item.
+
+
+## Bloco 22: questões DA01–03 e DA05, e triagem DA06–11 (11/11/2026)
+
+**Escopo auditado:** enunciado, gabarito e comentário das **24 questões inéditas numeradas** de \`DA01 - principios e lei de acesso a informacao.md\` (SHA \`0bcfdb2003f495c1fd5423ae019c88daaf8bdbdb\`), \`DA02 - organizacao administrativa.md\` (SHA \`21def1be8b069db6159aa042b74ab2a0fd2cff3e\`), \`DA03 - atos administrativos.md\` (SHA \`2ec618fee706b2c20f9131af6e4f776386049f28\`) e \`DA05 - agentes publicos.md\` (SHA \`1db4f927dd51b1f6db444190381fed14031579c2\`). Nos artigos \`DA06–11\`, foram lidos os cabeçalhos, as seções de cobrança e o formato de exemplos; **não foram localizadas baterias numeradas do mesmo modelo**; DA10/11 têm exemplos julgados textualmente, que devem ser inventariados como **exemplos C/E sem numeração**, não como ausência de todo exercício. A busca não substitui certificação de todos os parágrafos destes artigos. Fontes legais: CF arts. 37, 41 e 109; Lei 9.784 arts. 13, 50, 54 e 55; [Lei 8.987/1995, art. 6º §§3º e 4º atualizados](https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html); [STF, art. 41 e jurisprudência](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=41&abrirBase=CF); [CJF, Enunciado 37 da I Jornada de Direito Administrativo](https://www.cjf.jus.br/enunciados/enunciado/1416). **Cotejo dirigido de conceitos e fontes**, sem homologação irrestrita.
+
+### Matriz das 24 questões, gabarito original e avaliação dirigida
+
+| Artigo | Questão | Original | Resultado |
+| --- | --- | --- | --- |
+| DA01 | 1 | C | Coerente: juridicidade e Lei 9.784 art. 2º; não confundir obediência às normas válidas com poder regulamentar irrestrito |
+| DA01 | 2 | E | Coerente: vedação constitucional ao nepotismo, SV 13, mesmo sem lei local |
+| DA01 | 3 | E | Coerente: conveniência política não substitui autorização para transação/renúncia tributária; comentário deveria diferenciar modalidades legalmente admitidas |
+| DA01 | 4 | E | Coerente: art. 54 Lei 9.784, decadência e ressalvas legais; não afirmar desconstituição sempre impossível após cinco anos sem verificar objeto e má-fé |
+| DA01 | 5 | C | Coerente em caso de campanha institucional com exclusiva promoção individual; aplicação art. 37 §1º |
+| DA01 | 6 | E | Coerente quanto à interrupção condicionada por inadimplemento; comentário **omite art. 6º §4º da Lei 8.987**, que impede iniciar corte em sextas, sábados, domingos, feriados e vésperas (já achado DA-021) |
+| DA02 | 1 | E | Coerente: autarquia criada por lei específica, art. 37 XIX |
+| DA02 | 2 | C | **Ressalva forte de hipótese institucional fictícia:** presume tutela entre **Presidência da Câmara** e “autarquia federal vinculada”, sem identificar autarquia e fundamento da supervisão; o contraste ausência de hierarquia/tutela entre pessoas jurídicas é conceitualmente válido, mas o exemplo pode sugerir competência real não demonstrada |
+| DA02 | 3 | E | Coerente: sociedade de economia mista sob forma de S.A.; participação privada e distinção da empresa pública |
+| DA02 | 4 | C | Coerente em regra geral de Justiça Federal para CEF versus estadual para BB; ressalvar hipóteses especiais de competência |
+| DA02 | 5 | C | **Ressalva institucional**: responsabilidade objetiva da prestadora está correta, mas enunciado **generaliza ausência de prerrogativas da Fazenda Pública** para todas as estatais prestadoras; certas empresas em condições específicas podem tê-las. O comentário reconhece exceção ECT. **Gabarito C sujeito a revisão da amplitude do enunciado**; reforça DA-030 |
+| DA02 | 6 | C | Princípio da especialidade correto; porém qualificar qualquer atuação além da finalidade legal como **simultaneamente incompetência e desvio subjetivo de finalidade** pode extrapolar provas de intenção e regime do vício |
+| DA03 | 1 | E | Coerente: decisão de recurso administrativo indelegável pelo art. 13 II da Lei 9.784 |
+| DA03 | 2 | C | **Ressalva probatória:** motivo financeiro expressamente declarado integra controle do ato, mas **nomeação posterior para função idêntica, isoladamente, não demonstra necessariamente falsidade do motivo ou impõe anulação judicial automática**; avaliar despesas, tempo, circunstâncias e nexo. **Gabarito C sob reserva** na formulação causal |
+| DA03 | 3 | E | Coerente: desvio de finalidade não se convalida por utilidade posterior |
+| DA03 | 4 | E | Coerente: motivação por remissão admitida art. 50 §1º |
+| DA03 | 5 | C | Coerente: motivo = pressuposto de fato e direito; objeto = efeito/conteúdo jurídico |
+| DA03 | 6 | E | Coerente em regra de proteção de terceiro de boa-fé diante de agente de fato; evitar validação automática de toda atuação irregular |
+| DA05 | 1 | C | Coerente art. 37 V: funções de confiança/cargos em comissão |
+| DA05 | 2 | E | Coerente: jurados e mesários como agentes honoríficos, não delegados |
+| DA05 | 3 | E | Coerente: empregado de estatal não recebe estabilidade do art. 41; motivação de dispensa exige analisar regime pertinente |
+| DA05 | 4 | E | Coerente: vínculo temporário constitucional jurídico-administrativo, não CLT por presunção nem competência trabalhista exclusiva |
+| DA05 | 5 | E | Coerente STF Tema 1010: atividades ordinárias técnicas não legitimam cargo em comissão |
+| DA05 | 6 | E | **Conferência positiva:** art. 41 §4º exige avaliação especial, e [CJF Enunciado 37](https://www.cjf.jus.br/enunciados/enunciado/1416) não admite estabilização automática pelo mero tempo; comentário do artigo é compatível no núcleo, com cautela sobre consequências específicas da omissão administrativa |
+
+### Achados novos e classificação
+
+**DA-092, IMPORTANTE, cenário fictício de tutela na Câmara em DA02#2.** O item marca **Certo** à frase “Entre a Presidência da Câmara dos Deputados e uma autarquia federal vinculada [...] o ente central exerce controle finalístico”. **O órgão e a entidade não foram nomeados/identificados**, e a tese geral de **vinculação versus hierarquia** não autoriza presumir uma relação tutelar concreta entre a Presidência da Câmara e qualquer autarquia. Em Fase 2, substituir pelo ente supervisor juridicamente definido ou formular cenário inteiramente hipotético inequívoco. **Gabarito sob reserva de pressuposto, não inversão demonstrada.**
+
+**DA-093, IMPORTANTE, generalização em DA02#5.** O item diz que as empresas estatais prestadoras de serviços públicos **“não gozam”** de prerrogativas processuais da Fazenda, sem delimitar regimes específicos. A exceção ECT aparece no próprio comentário. **Risco de enunciado absoluto falso em alguns cenários**, sobretudo quando assemelhadas à Fazenda conforme STF; revisar alcance e então definir gabarito. A CF art. 37 §6º continua fundamento da responsabilidade objetiva.
+
+**DA-094, IMPORTANTE, inferência causal excessiva em DA03#2.** O item marca **Certo** à invalidação judicial quando, após exoneração com motivo financeiro, houve **nomeação imediata de outro para função idêntica**. Motivo declarado pode vincular pelo princípio dos motivos determinantes, mas a contratação ou nomeação subsequente **não prova isoladamente** que o custo global permaneceu, que o cargo tinha as mesmas condições financeiras ou que houve falsidade material. Fase 2: contextualizar custo, temporalidade e evidência, com caso em que falsidade fique demonstrada; **gabarito C não homologado sem essas premissas**.
+
+**DA-095, MELHORIA/CONFIRMAÇÃO, regra atual da interrupção em DA01#6.** O gabarito **Errado** ao impedimento absoluto de corte por inadimplência é adequado. Entretanto, o comentário cita somente **Lei 8.987 art. 6º §3º II** e omite a proibição temporal do **§4º**. Já anotado em DA-021: estender a explicação às sextas, fins de semana, feriados e vésperas, sem gerar erro novo de gabarito.
+
+**DA-096, VERIFICAÇÃO POSITIVA, DA05#6 sobre estabilidade.** O gabarito **Errado** para estabilidade automática apenas por transcurso de três anos encontra apoio na **CF art. 41 §4º** e no **Enunciado 37 do CJF**. Separar esta constatação da tese mais forte de que todo tipo de omissão administrativa permita exoneração automática ou sem avaliação, que não foi examinada. **Não abrir reparo de gabarito sem base.**
+
+**Balanço:** vinte e quatro questões numeradas examinadas, **zero nova inversão definitivamente provada**, duas com gabarito **sob reserva forte** (DA02#5, DA03#2), uma com hipótese institucional não demonstrada (DA02#2), e ressalvas de comentários. **DA-092–096** são registros heterogêneos: total **DA-001–DA-096**, não 96 erros. DA06–09 são notas de teoria com seções de prova, mas sem baterias numeradas no padrão atual; DA10/11 apresentam exemplos C/E sem numeração, a auditar como gênero próprio. **Nenhum artigo, gabarito ou banco de questões foi editado. Fase 1 permanece aberta.**
+
+### Próxima etapa
+
+Inventariar e conferir os **exemplos de DA10/11**, exercícios específicos de AP03 e questão autoral em outras DA numeradas ainda não revisadas individualmente (DA12–17, DA27). Registrar caso a caso e manter distinção entre \`gabarito\`, \`comentário\`, \`fonte normativa\` e \`grau de homologação\`.

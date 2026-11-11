@@ -207,6 +207,12 @@ A [explicação oficial do processo legislativo da Câmara](https://www.camara.l
 
 **Limite:** este cotejo confirma o item 5 e detalha o cuidado de redação. Os demais sete itens sobre gestão editorial exigem verificação separada; a fonte consultada não certifica todo o artigo.
 
+## Prova real CNMP 2023: pauta, checagem e continuidade editorial (11/11/2026)
+
+No [caderno oficial do CNMP 2023, itens 81 a 100](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), a banca cobrou **pauta editorial (81 C)**, linguagem de redação sobre **pautas de baixo interesse (82 C)**, **não repetição desnecessária de informação na nota-pé (84 E)**, diferença entre notícia recente e matéria fria (**85 E**) e necessidade de **checagem de informação recebida de entrevistado (86 E)**. Os julgamentos foram confrontados com o [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF).
+
+**Aplicação responsável:** o item 86 é útil para comunicação institucional porque informação de fonte oficial ou entrevistado não dispensa validação. O 81 favorece distinguir pauta, calendário e edição. As expressões profissionais dos itens 82 e 84 descrevem convenções de jornalismo, **não exigências jurídicas da comunicação da Câmara**. O **item 95, sobre aspas, foi anulado**: não deve ser empregado para ensinar julgamento definitivo. A [indexação do bloco](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md) preserva os temas sem transcrever as questões.
+
 ## Relações com outros temas
 
 **Política editorial × linha editorial:** princípios e responsabilidades versus critérios recorrentes de seleção e tratamento. **Projeto editorial × projeto gráfico:** finalidade, público e estrutura de conteúdo versus sistema visual. **Pilar × pauta:** eixo recorrente e assunto específico. **Identidade editorial × identidade visual:** coerência de abordagem e organização do conteúdo versus sinais gráficos. **Preparação × prova × checagem factual:** aprimoramento textual, revisão da versão final e validação de afirmações. **Periodicidade × atualização:** cadência planejada de edições versus manutenção de informação. **Publicação × compreensão:** entrega não comprova efeito no leitor.

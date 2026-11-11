@@ -5,7 +5,7 @@ title: "Espécies legislativas: comparação sistemática por iniciativa, quóru
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Espécies legislativas: comparação sistemática por iniciativa, quórum, deliberação, sanção e efeitos (CF, art. 59)
@@ -74,9 +74,9 @@ Distribuição da Iniciativa por Espécie
     └── Privativa e Exclusiva do Presidente da República
 ```
 
-### O vício de iniciativa e o STF (Súmula 5)
+### O vício de iniciativa e o STF: entendimento atual e Súmula 5 superada
 - **Vício de iniciativa é insanável:** se um parlamentar propuser projeto de lei que disponha sobre aumento de remuneração de servidores do Poder Executivo (reserva privativa do Presidente da República - CF, art. 61, § 1º, II, "a"), a proposição padece de vício formal de inconstitucionalidade.
-- **A sanção presidencial NÃO convalida o vício de iniciativa:** conforme a pacífica jurisprudência do STF (reafirmada na Súmula 5 do STF e no Tema 22 da Repercussão Geral), a sanção expressa ou tácita do Chefe do Executivo **não supre nem convalida** o vício de iniciativa parlamentar em matéria reservada ao Executivo. O ato continua formalmente inconstitucional.
+- **A sanção presidencial NÃO convalida o vício de iniciativa no entendimento vigente:** a posterior sanção, expressa ou tácita, não sana a usurpação da iniciativa constitucionalmente reservada ao Executivo. **Atenção histórica:** a [Súmula 5 do STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1318) afirmava exatamente o contrário, mas esse entendimento foi **superado**, como registra o próprio Supremo na **ADI 1.197** e na **AR 1.753**. O **Tema 22 da repercussão geral (RE 560.900)** trata de restrição de candidatos em concursos públicos e **não se aplica** a vício de iniciativa.
 
 ## 3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos
 
@@ -207,7 +207,7 @@ O Cebraspe costuma testar a atenção do candidato com as seguintes armadilhas c
 > Projeto de lei de iniciativa de deputado federal que verse sobre criação de cargos públicos na estrutura de ministério do Poder Executivo terá seu vício formal originário plenamente convalidado caso venha a ser sancionado expressamente pelo Presidente da República após aprovação pelo Congresso Nacional.
 
 - **Gabarito: ERRADO**
-- **Comentário:** Conforme jurisprudência pacífica e sumulada do STF (Súmula 5 e Tema 22 da Repercussão Geral), a sanção do Presidente da República não sana nem convalida o vício de iniciativa em matérias de sua competência privativa (CF, art. 61, § 1º, II, "a"). A lei sancionada permanece maculada de vício formal insanável de inconstitucionalidade.
+- **Comentário:** A criação de cargos na estrutura de ministério integra a reserva de iniciativa do Presidente da República (CF, art. 61, § 1º, II, "a" e "e"). A sanção posterior **não convalida** o defeito formal. A [Súmula 5 do STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1318), que historicamente dizia que a sanção supria a iniciativa, está **superada** (ADI 1.197 e AR 1.753). O Tema 22, sobre requisitos para participação em concursos públicos, não fundamenta essa matéria. Portanto, o item permanece **ERRADO**.
 
 ---
 
@@ -251,6 +251,7 @@ O Cebraspe costuma testar a atenção do candidato com as seguintes armadilhas c
 - **Regimento Interno da Câmara dos Deputados (RICD):** arts. 24, II (apreciação conclusiva e vedações), 100 a 114 (proposições legislativas) e 201 a 225 (tramitação de projetos e PEC).
 - **Regimento Comum do Congresso Nacional (RCCN - Resolução nº 1/1970-CN):** tramitação de matérias bicamerais, vetos e orçamento.
 - **Jurisprudência do Supremo Tribunal Federal:**
-  - **Súmula nº 5 do STF e Tema 22 da Repercussão Geral:** a sanção do projeto de lei não convalida o defeito de vício de iniciativa privativa;
+  - **[Súmula nº 5 do STF, entendimento histórico superado](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1318):** seu enunciado dizia que a sanção supria a falta de iniciativa do Executivo; a página oficial documenta a superação na **ADI 1.197** e na **AR 1.753**, que confirmam a impossibilidade atual de convalidação;
+  - **[Tema 22 do STF (RE 560.900)](https://portal.stf.jus.br/jurisprudenciarepercussao/tema.asp?num=22):** tema sobre restrições à participação em concurso público; citado aqui **apenas para prevenir confusão de numeração**, sem relação com a iniciativa legislativa;
   - **ADI 4.029 e ADI 5.127:** pertinência temática e rito das medidas provisórias e emendas parlamentares;
   - **MS 22.503/DF:** controle de constitucionalidade incidental do processo legislativo por parlamentar em caso de violação a direito público subjetivo ao devido processo legislativo constitucional.

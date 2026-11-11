@@ -257,3 +257,69 @@ A comparação entre os comandos reais reforça um princípio de arquitetura: h�
 **Pendências reais após esta atualização:** (1) falta uma **listagem recursiva física confiável** do diretório Redacao para descartar notas órfãs, pois o conector de leitura por caminho informa que o diretório existe mas não fornece seus filhos; `index.md` e catálogo só provam os três artigos registrados, não exaustão física; (2) os materiais compartilhados foram lidos de forma dirigida, sem inspeção normativa integral por essa frente, e devem ser usados somente como repertório cujo cotejo é responsabilidade das auditorias de origem; (3) falta verificar a capacidade de aplicação do método a *textos completos de 20 e 50 linhas*, com rubricagem demonstrada. Esses modelos não foram produzidos nem incorporados aos artigos durante a Fase 1.
 
 **Estado: Fase 1 parcialmente verificada, sem alterações nos artigos, no catálogo e no índice geral.** Não declarar conclusão integral com essas três pendências.
+
+
+## Continuação de 11/11/2026: blocos 14–16, auditabilidade do treino e inventário por evidência
+
+**Checkpoint de concorrência:** leitura do blob SHA `514a2c8aff45b7c3f3853f265c33834f60819d7c` do relatório e do commit de repositório `9c30de4e15070bde632697bc2a0905f4726d64a5` antes da escrita. Alteração autorizada **somente neste relatório**. Notas, questões, gabaritos, IDs, catálogo, hub e índice global permanecem intactos.
+
+### Bloco 14: inventário aprofundado de habilidades efetivamente ensinadas [CONFERIDO DIRETAMENTE NOS ARQUIVOS]
+
+Foram recuperadas novamente as **versões completas** dos três artigos canônicos e do guia da Câmara, com comparação de seções e mecanismos de aprendizagem:
+
+| Fonte direta e SHA | O que efetivamente apresenta | O que não apresenta e precisa ser testado futuramente |
+| --- | --- | --- |
+| Redação 01, `10760ff60d31a7ff05acf52e709dd705620676cf` | Explica assunto, tema, recorte, verbo de comando e projeto; três exemplos comentados, inclusive desvio por tangenciamento | Não contém a palavra `quesito`, seção de `exercício` nem tarefa de reescrita; também não traz resposta integral anotada em 20 linhas |
+| Redação 02, `bc41dfd39a643fe6284ca894cdcaa0b020b12043` | Define tese e eixo argumentativo, inclui exemplos de tese inadequada e reestruturação | Não usa `quesito`, `exercício` ou `linhas`; nenhuma correção de resposta de prova com critérios por aspecto |
+| Redação 03, `6a6c5c37f6c5e5155f5dcdeaa34175336caac8ea` | Diferencia argumentação, exemplo, dados, comparação e causalidade; exemplos comentados e contramodelo de causalidade excessiva | Não contém exercício progressivo de produção, grade por quesitos ou extensão marcada |
+| Guia Câmara, `119cb5e48621103c91a17d70d2ed0d8c46a79aeb` | Cita três padrões oficiais, fórmulas do edital, plano de leitura e checklist de 20/50 linhas | Nenhuma sequência de textos completos ou rubrica efetivamente aplicada; orientação ainda intitulada `Na preparação pós-Dataprev`, inadequada ao foco atual |
+
+**Conclusão específica desta leitura:** há **exemplos conceituais**, mas não **exercícios progressivos de execução** no sentido de resposta completa → correção dos quesitos → reescrita → novo comando. Esse achado é confirmado por estrutura e conteúdo, e vai além da mera ausência de palavras-chave. Preservar os artigos: o problema é ausência da segunda camada pedagógica, não inutilidade da primeira.
+
+**Inventário de arquivos não catalogados:** conferidos adicionalmente por consulta de caminho exato os seis nomes planejados no hub (`04 - construcao do paragrafo argumentativo.md` até `09 - revisao final e checklist de erros.md`); os seis retornaram 404 nesses nomes. Isso indica que **não existem com esses caminhos precisos**, mas não prova que a pasta não contenha arquivos com nomes alternativos. A consulta de `3 - Materias/Redacao` confirma que o caminho é um **diretório**, e a leitura por arquivo do conector não lista seus filhos. Busca textual do conector por três títulos canônicos conhecidos retornou zero resultados, apesar de seus arquivos existirem, portanto **não é uma evidência válida de exaustão**. Persistir o estado `inventário físico exaustivo: não verificado`, sem registrar como arquivo inexistente qualquer nome apenas não encontrado por busca.
+
+### Bloco 15: teste analítico de decomposição de uma questão real [ANÁLISE AUTORAL; NÃO É ESPELHO OFICIAL]
+
+**Fonte do enunciado e de seus valores:** questão 2 do caderno oficial [TCE-MG 2026, cargo 8](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/3ADF49146A2E55690BB77554138AD177F6BD763BC8B6C35FECD4EB7BAB4A06CD.pdf), pág. 4, com [padrão definitivo oficial](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F38183E8ACE5B775CF445F24D52F5AB2E256333F594FE1078FD73B84B535690C.pdf). **Adaptação para a Câmara:** aplicar artificialmente o limite de **20 linhas** a esse comando para testar compressão de conteúdo; o TCE-MG original tinha limite de **60 linhas**. Por isso **não é simulado oficial da Câmara**.
+
+| Subtarefa extraída do original | Evidência que precisaria aparecer na resposta | Contraexemplo de falha que não pode ser confundida com acerto |
+| --- | --- | --- |
+| Papel do comunicador na acessibilidade em eventos (3,50) | Intervenção do profissional **na fase de planejamento**, identificação de necessidades, articulação com públicos e recursos, verificação antes da realização | `Acessibilidade é importante em eventos` não identifica a função nem o momento de trabalho |
+| Exemplificar **pelo menos três** recursos (3,00) | Três recursos distintos e pertinentes, como interpretação em Libras, legendagem em tempo real e audiodescrição **quando aplicáveis ao evento** | Descrever minuciosamente um único recurso e considerar que equivale a três |
+| Explicar contribuição à inclusão, equidade e combate ao capacitismo (3,00) | Relacionar recursos à eliminação de barreiras, participação equivalente e redução de exclusões/discriminação | Apenas nomear inclusão, equidade e capacitismo sem explicar uma ligação operacional |
+
+**Microresposta insuficiente, redigida nesta auditoria para diagnóstico:** `A acessibilidade em eventos é essencial para a inclusão social. O comunicador deve preparar campanhas e usar Libras, promovendo a diversidade e combatendo o capacitismo.` A frase contém sinais temáticos corretos, mas omite dois recursos, não explica a organização do planejamento e não demonstra como as medidas produzem inclusão/equidade. **Não atribuir pontuação oficial**: a grade real envolve conceitos de cobertura progressiva, correção de conteúdo e de língua.
+
+**Microestrutura melhorada, também autoral, ainda não equivalente a resposta completa:** `No planejamento do evento, a equipe de comunicação identifica necessidades dos públicos, ajusta materiais e articula os recursos de acessibilidade. Conforme a modalidade do evento, pode prever intérprete de Libras, legendagem em tempo real e audiodescrição. Esses recursos reduzem barreiras distintas ao acesso à informação e à participação, favorecem condições mais equitativas de presença e expressão e enfrentam práticas capacitistas que excluem pessoas com deficiência.` **Precisão:** esta microestrutura cobre os três núcleos em princípio; ainda precisa ser comparada com todos os subaspectos do padrão definitivo e testada em texto integral manuscrito. É demonstração da **possibilidade de condensação**, não nota, gabarito ou promessa de acerto máximo.
+
+**Lição pedagógica comprovável:** com conteúdos já conhecidos, a segunda microestrutura permite localizar as unidades do comando e a primeira não. A correção deve ensinar a **reparar omissões detectáveis**, em vez de recomendar simplesmente `melhorar argumentação`. A questão real exige três recursos: a quantidade mínima é uma condição independente da qualidade da explicação dos demais blocos.
+
+### Bloco 16: teste de arquitetura para peça técnica de 50 linhas [INTERPRETAÇÃO FUNDAMENTADA]
+
+**Base verificável:** [caderno Câmara de 08/03/2026, outro Cargo 1: Processo Legislativo e Gestão](https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/4536C347379F236B51C537AC0D040D50717F27BF79FE55B56E95C3E8DFB96839.pdf) e seu [padrão definitivo](https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/D5F3CAA9B8BAEA93D7B1750A43949FF94C88F2DA3F44ADAE978062F601A94FDD.pdf). O caderno identifica o gênero `parecer técnico` expressamente e estabelece cinco quesitos com valores específicos; isso prova que **o destinatário, a natureza do documento e a cobertura técnica podem ser dados pelo comando**. **Não transportá-los** como previsão de gênero ou pontuação do cargo de Divulgação Institucional.
+
+**Proposta a testar em materiais da Fase 3:** para qualquer comando futuro de peça técnica, criar antes do texto uma tabela de `verbo / objeto / quesito / fonte técnica ou normativa / tipo de conclusão / linhas previstas / verificação`. Quando o enunciado informar pontos por quesito, usar esse dado; quando não informar, equilibrar espaço segundo densidade conceitual e risco de omissão, sem inventar pesos Cebraspe.
+
+Exemplo de **orçamento didático de 50 linhas**, que não é distribuição oficial nem norma estilística:
+- 3 linhas: identificação funcional do objeto e finalidade, **se o comando exigir**;
+- 7 linhas: contexto e diagnóstico;
+- 10 linhas: delimitação do problema, destinatários e objetivos;
+- 15 linhas: recomendações fundamentadas, critérios e restrições;
+- 10 linhas: execução, governança e indicadores;
+- 5 linhas: síntese ou encaminhamento, **se tecnicamente necessário**.
+
+**Autocrítica dessa distribuição:** os seis blocos não são universais. Se a peça do concurso exigir, por exemplo, análise comparativa de decisões, diagnóstico exclusivamente normativo ou uma proposta de estratégia de mídia com pesos específicos, a arquitetura deve ser **reorganizada conforme os verbos e a grade do comando**. A distribuição também não demonstra, por si, que um texto manuscrito cabe em 50 linhas. Só um exercício completo em folha equivalente pode testar legibilidade, densidade real, corte e tempo.
+
+**Critérios de correção propostos, não oficiais:**
+1. Evidência textual da resposta a cada verbo e cada objeto obrigatório.
+2. Subaspectos ausentes versus apenas mencionados versus explicados e aplicados.
+3. Regime jurídico e competência: norma exata e atualizada, sem inventar dispositivo.
+4. Finalidade pública, clareza institucional e fundamentação das decisões técnicas.
+5. Organização, precisão lexical e contagem de desvios/linhas.
+6. Omissões corrigidas na reescrita, sem confundir melhora imediata com retenção em novo comando.
+
+### Encaminhamento e estado consolidado
+
+**Confirmado neste bloco:** leitura renovada e individualizada dos três artigos e guia; ausência de exercícios operacionais completos nas notas; seis caminhos exatos planejados não encontrados; validade do teste autoral de decomposição como *instrumento de diagnóstico*, não como espelho oficial; distinção entre os regimes de linha da PF, do TCE-MG e da Câmara. **Interpretação:** sugerir que o material de execução use matrizes de cobertura e orçamento de linhas flexível, com duas produções semanais no limite de três horas. **Pendente:** inventário físico recursivo confiável da pasta; escrita e análise integral de uma questão de até 20 linhas e uma peça de até 50 em papel; revisão normativa exaustiva das notas compartilhadas, sem sobrepor os agentes de suas matérias.
+
+**Estado da Fase 1: PARCIALMENTE VERIFICADO.** Este bloco apenas identifica e testa conceitualmente o método; não inicia implantação editorial, não modifica artigos, não altera catálogo ou questões e não registra respostas pessoais no repositório público.

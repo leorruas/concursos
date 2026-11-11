@@ -5,10 +5,16 @@ title: "Redação"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-09-30
+updated: 2026-11-11
 ---
 
 # Redação (Concursos)
+
+## Câmara dos Deputados 2026/2027: produção discursiva
+
+O Cargo 1 (Divulgação Institucional) exige duas questões de até 20 linhas e uma peça técnica de até 50 linhas. A sequência de execução é [[04 - decomposicao de comandos e quesitos cebraspe|decompor comandos e quesitos (CAM-DIS-001)]] → [[05 - resposta conceitual curta de 20 linhas|produzir resposta conceitual curta (CAM-DIS-002)]]. Em seguida, aprofundar a peça técnica e a revisão final. Os artigos 01 a 03 continuam como fundamentos gerais. A prioridade antiga da Dataprev abaixo é registro editorial histórico, não orientação vigente para o concurso da Câmara.
+
+As grades e respostas-modelo dessas unidades são didáticas, não espelhos oficiais. O gênero da peça não foi fixado no edital. Reservar dois momentos semanais de escrita e correção, dentro das três horas previstas na estratégia.
 
 ## Estrutura
 - Introdução (apresentação do tema)

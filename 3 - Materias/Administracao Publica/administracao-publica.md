@@ -25,6 +25,7 @@ Mapeamento de tópicos e organização das notas de Administração Pública par
 - [[3 - Materias/Administracao Publica/02 - governanca publica|Governança pública]]: distinção de gestão, governabilidade e mecanismos do Decreto 9.203/2017.
 - [[3 - Materias/Administracao Publica/04 - nova governanca publica|Nova Governança Pública (CAM-AP-004)]]: NPG, modelos e interdependência.
 - [[3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional|Redes de cooperação (CAM-AP-006)]]: coordenação e limites interinstitucionais.
+- [[3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada|Coprodução e participação (CAM-AP-008)]]: colaboração na produção dos serviços, responsabilidades e inclusão.
 - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]]: LAI, LGPD, sigilo, recursos, ouvidoria e controle social.
 - Conceitos de governabilidade, governança e intermediação de interesses.
 - Accountability (responsabilização e prestação de contas).

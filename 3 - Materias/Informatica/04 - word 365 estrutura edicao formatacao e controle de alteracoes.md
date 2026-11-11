@@ -5,7 +5,7 @@ title: "Word 365: estrutura, edição, formatação, seções e controle de alte
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Word 365: estrutura, edição, formatação, seções e controle de alterações
@@ -178,7 +178,7 @@ Um assessor redigiu uma nota oficial com o Controle de Alterações ativo. Antes
 ### Item 4
 > No Word 365, a opção de visualização "Nenhuma Marcação" no grupo Controle da guia Revisão aceita automaticamente todas as inserções e exclusões realizadas no documento, expurgando de modo definitivo o histórico de revisões anteriores.
 
-*( ) Crado*
+*( ) Certo*
 *( ) Errado*
 
 **Gabarito: Errado.**
@@ -217,5 +217,7 @@ Um assessor redigiu uma nota oficial com o Controle de Alterações ativo. Antes
 | **Salvar / Salvar Como** | `Ctrl + B` (pt-BR) / `F12` | Grava alterações no disco ou na nuvem |
 | **Localizar / Substituir** | `Ctrl + L` (Localizar) / `Ctrl + U` (Substituir) | Abre o painel de navegação ou caixa de diálogo |
 | **Pincel de Formatação** | `Ctrl + Shift + C` (copiar formato) / `Ctrl + Shift + V` (colar formato) | Duplo clique no botão permite múltiplas colagens |
-| **Alinhamento de Parágrafo** | `Ctrl + Q` (Esq), `Ctrl + E` (Centro), `Ctrl + G` (Dir), `Ctrl + J` (Just) | Aplica ao parágrafo inteiro do cursor |
+| **Alinhamento de Parágrafo** | `Ctrl + Q` (Esq), `Ctrl + E` (Centro), `Ctrl + R` (Dir, Word para Windows conforme documentação Microsoft), `Ctrl + J` (Just) | Aplica ao parágrafo inteiro do cursor |
 | **Controle de Alterações** | `Ctrl + Shift + E` (ou *Revisão > Controlar Alterações*) | Liga/desliga o rastreamento colaborativo de edições |
+
+> **Nota de revisão (11/11/2026):** ajustado atalho de alinhamento à direita para `Ctrl + R` na documentação atual do Word para Windows e corrigido erro de digitação no item 4. Atalhos podem variar por sistema, idioma e versão. Referência: [atalhos do Word, Microsoft Support](https://support.microsoft.com/pt-br/accessibility/word/keyboard-shortcuts-in-word). Achados TI-035 e TI-039.

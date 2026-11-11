@@ -911,3 +911,67 @@ A matriz representa **decisões editoriais recomendadas para Fase 2/3**, não co
 ### Continuidade
 
 **Estado dos blocos de revisão individual 19–21:** **78 itens autorais** com tabela por enunciado, gabarito e comentário (`22–29`: 48; `17–21`: 30), **quatro itens suspensos no total**: `18#2`, `23#5`, `28#3` e `29#5`; nenhuma inversão de gabarito comprovada. As decisões `M/R` não equivalem a itens integralmente certificados. **34/34 artigos numerados examinados seletivamente, 20/20 subitens do edital associados a notas, PT-001–PT-136 históricos (seis colisões PT-011–016), zero artigos certificados.** Próximo lote de 30 itens `30–34`, com revisão contextual de colocação pronominal, semântica, equivalência e reescrita. Nenhum artigo, hub ou catálogo de estudo alterado; demais auditorias preservadas.
+
+
+## Bloco 22: exame individual de 30 itens autorais das notas 30–34 (11/11/2026)
+
+**Método e prova:** leitura por conector GitHub dos cinco arquivos completos `30 - colocacao dos pronomes atonos proclise mesoclise e enclise.md`, `31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md`, `32 - reescrita substituicao lexical e preservacao de sentido.md`, `33 - reorganizacao sintatica e equivalencia semantica.md` e `34 - reescrita entre registros formalidade e generos textuais.md`, com seus **30 enunciados, gabaritos e fundamentações**, seis por arquivo. Fontes externas nesta rodada: [Ciberdúvidas, *Não obstante + oração de infinitivo* (2017)](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/nao-obstante--oracao-de-infinitivosintagma-nominal/34362) (rejeita `não obstante tenha` em seu recorte), [Ciberdúvidas, *Conquanto vs. contanto que* (2017)](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-conjuncao-conquanto-e-a-locucao-conjuntiva-contanto-que/34365), [Ciberdúvidas, conjunções e preposições](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/null/34609) (lista `não obstante` entre concessivas), [MRPR, 3ª edição, 2018, texto oficial disponibilizado pela CVM](https://www.gov.br/cvm/pt-br/assuntos/noticias/anexos/2020/20201222_Manual_Redacao_Presidencia.pdf), [Casa Civil, página oficial do manual](https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica), e material secundário [Estratégia, citação de Cespe referente à locução não obstante](https://cdn.estrategiaconcursos.com.br/storage/temp/aula/187303/0/curso-39925-aula-00-4e08-completo.pdf). **Não foi recuperado o caderno/gabarito oficial do precedente sobre `não obstante`; seu uso não foi certificado nesta rodada.** A referência gramatical de um autor não equivale a precedente específico da banca e vice-versa. Não houve certificação bibliográfica exaustiva das 30 questões.
+
+**Legenda:** `M`: gabarito e justificativa nuclear plausíveis, manter provisoriamente; `R`: gabarito provisório, revisar justificação, escopo ou fonte; `S`: suspender da bateria confiável e reescrever/obter evidência antes da decisão. Não houve homologação integral.
+
+| Item | Gabarito | Decisão | Evidência e intervenção |
+| --- | --- | --- | --- |
+| **30#1** | C | **M** | `jamais se devem desprezar` e `jamais devem desprezar-se` têm apoio comparável no STJ e FUNAG já registrado PT-115; não é certificação por prova oficial da mesma frase. |
+| **30#2** | E | **M** | `em se tratando` preserva próclise na construção normativa; `em tratando-se` não é alternativa padrão. |
+| **30#3** | C | **R** | `o respeito ... se impõe` é construção aceita em uso brasileiro e alterna com `impõe-se`; limitar a frase “é sempre facultativa com todo sujeito nominal” e aferir norma tradicional versus padrão de prova. |
+| **30#4** | E | **M** | `que se submetem` exige próclise pela presença do pronome relativo; `que submetem-se` não é padrão. |
+| **30#5** | C | **M** | Mesóclise `Impor-se-á` em início de período futuro sem atrator conforme prescrição tradicional. |
+| **30#6** | E | **R** | `tinham publicado-a` contém ênclise ao particípio, inadequada; o comentário exagera ao afirmar que **`onde a tinham publicado` é a única solução admissível**. Conferir outras reconstruções legítimas e corrigir a expressão espanhola `jamás` no comentário. |
+| **31#1** | C | **M** | `avocar`, `incipiente` e `elidir` comportam os sentidos do texto-base (`chamar para si`, `inicial`, `suprimir`). |
+| **31#2** | E | **M** | `de encontro ao` marca oposição; `ao encontro do` expressaria aproximação/convergência. |
+| **31#3** | C | **M** | `letra morta` é emprego figurado de norma sem efeito prático. |
+| **31#4** | E | **M** | `surtir` e `sortir` não são variantes equivalentes. |
+| **31#5** | C | **R** | Ambiguidade de `sua proposta` é de **referenciação/posse**, ainda que a estrutura permita dois referentes; evitar garantir que se trate especificamente de **ambiguidade estrutural** sem definir a taxonomia. `Retificação` é adequada. |
+| **31#6** | E | **R** | A cláusula `exclusivamente homonímia casual de origens latinas distintas` é excessiva e sustenta E; **`comissão` em três sentidos** e a alegada origem etimológica única precisam de verbete etimológico identificado; polissemia não se decide só pelo rótulo de uma raiz. |
+| **32#1** | C | **S** | `Conquanto tenha` pode ser substituído por `posto que tenha` concessivo; já `não obstante tenha` é **contestado**: Ciberdúvidas (2017) rejeita a locução prepositiva seguida de subjuntivo, embora outras listas classifiquem `não obstante` como concessiva e material secundário cite item Cespe semelhante. **Suspender, localizar caderno/gabarito oficial e gramática de referência, ou reformular com `apesar de o debate ter recrudescido` e reconstrução completa do período. Não inverter C automaticamente**. |
+| **32#2** | E | **M** | `recrudescido` não equivale a `arrefecido/amainado` no texto. |
+| **32#3** | C | **M** | `logrou dirimir` e `conseguiu solucionar` preservam estrutura e valor contextual. |
+| **32#4** | C | **M** | `sem prescindir do` e `sem abrir mão do` equivalem em contexto; `dispensar` seleciona objeto direto `o diálogo`. |
+| **32#5** | E | **R** | `corroborar a tese` é a escolha segura na regência tradicional; comentário afirma **proibição universal** de `corroborar com` e frequência Cebraspe sem fonte. Cotejar dicionário de regência e precedentes, sem inverter E nesta etapa. |
+| **32#6** | C | **M** | `demanda negociação permanente` e `carece de negociação permanente` apresentam correção plausível, mantido nome sem artigo. |
+| **33#1** | C | **M** | `porquanto` e `haja vista que` possuem valor causal/explicativo pertinente ao texto; gramática da locução deverá ser documentada na validação final. |
+| **33#2** | C | **M** | Voz ativa → passiva analítica mantém agente, paciente, tempo e informação no período proposto. |
+| **33#3** | E | **M** | `de como aplica-se os recursos` incorre em concordância e colocação pronominal na redação proposta. |
+| **33#4** | C | **R** | Reescrita `decorre do fato de...`, `o que viabiliza...` é **plausível**, mas chamar de **espelhamento lógico perfeito** exige testar escopo do gerúndio e alcance de `o que`: agente/evento de disponibilizar versus fato antecedente. Refazer análise de pressupostos e relações de consequência, sem inverter C automaticamente. |
+| **33#5** | E | **M** | Alteração de posição de `somente` modifica foco semântico. |
+| **33#6** | E | **M** | `tanto elaborar ... quanto a revisão` quebra paralelismo de categorias. |
+| **34#1** | C | **M** | Pronomes de tratamento regem terceira pessoa, predicativo variável concorda com referente; `ciente` é comum aos gêneros. |
+| **34#2** | C | **R** | Discurso direto → indireto com `estava, seriam, deliberasse, ali, naquele dia, no dia seguinte` é plausível, mas transforma ancoragem dêitica e pronomes de tratamento: **testar fidelidade ao destinatário e referente de `aquela comissão` no contexto completo**. Evitar converter todas as correlações de tempo em obrigatórias sem contexto. |
+| **34#3** | E | **R** | [MRPR 2018, §5](https://www.gov.br/cvm/pt-br/assuntos/noticias/anexos/2020/20201222_Manual_Redacao_Presidencia.pdf) define **padrão ofício**, com abandono da tripartição aviso/ofício/memorando no **Executivo federal**; vocativo para Ministro não é `Excelentíssimo Senhor Ministro`. Gabarito E defensável, mas **o MRPR não é por si norma exclusiva e automaticamente vinculante de redação da Câmara**: conferir manual da própria Câmara e contexto do enunciado. |
+| **34#4** | E | **M** | `Vossa Excelência` requer terceira pessoa (`possa/suas`), não `possais/vossas`. |
+| **34#5** | C | **M** | Linguagem simples melhora acesso e compreensão sem dispensar correção gramatical em comunicação institucional formal. |
+| **34#6** | E | **M** | Impessoalidade não proíbe primeira pessoa institucional por si só. |
+
+**Resultado por item após contagem das 30 linhas:** **21 M, 8 R, 1 S** (`32#1`), **nenhuma inversão de gabarito comprovada**. O novo suspenso decorre de **divergência de autoridade normativa e falta de precedente primário**, e não de comprovação de que o gabarito C esteja errado. `30#1` permanece com suporte institucional forte encontrado no bloco 17.
+
+### Achados novos de auditoria
+
+**PT-137:** `30#3/#6` requer delimitação de flexibilidade de próclise com sujeito nominal, e o comentário de `30#6` não pode afirmar que há **única forma correta**, além de conter `jamás`.
+
+**PT-138:** `31#5` deve diferenciar ambiguidade referencial de taxonomia estrutural; `31#6` exige verbete etimológico para afirmar raiz e polissemia dos sentidos de `comissão`.
+
+**PT-139, alto risco:** `32#1` trata `não obstante tenha` como substituição indistintamente correta e concessiva, **apesar de parecer normativo específico contrário**. Suspender e consultar obra e prova original antes de homologar ou inverter. Não basta saber que `não obstante` pode ser concessivo: importa a **construção sintática seguida de subjuntivo**.
+
+**PT-140:** `32#5` atribui proibição total de `corroborar com` à banca sem base rastreável; manter E apenas provisoriamente, verificar gramática e ocorrência Cebraspe.
+
+**PT-141:** `33#4` tem gabarito C plausível, mas `o que` e oração reduzida de gerúndio exigem teste explícito de escopo antes de equivalência integral. Não homologar comentário `espelhamento lógico perfeito`.
+
+**PT-142:** `34#2` exige identificar contexto de dêixis e destinatário para julgar fidelidade do discurso indireto; `34#3` não pode aplicar automaticamente o Manual da Presidência da República à Câmara, apesar do gabarito E compatível com o padrão Executivo.
+
+**PT-143:** registrar proveniência de prova: uma **questão autoral não é questão Cebraspe oficial**, e citação secundária de item Cespe não equivale a consulta ao caderno/gabarito original. Cada item precisa de `fonte normativa específica + teste de enunciado + decisão editorial`, não apenas gabarito preservado por inércia.
+
+### Estado da trilha e próximo bloco
+
+**Revisão individual formal já registrada no relatório:** **108 itens autorais (artigos 17–34, seis por artigo)**, por grupos `17–21` (30), `22–25` (24), `26–29` (24), `30–34` (30). **Cinco itens suspensos**: `18#2,23#5,28#3,29#5,32#1`; **nenhuma inversão formal demonstrada**. M/R significam **estados provisórios** e não certificação integral; 34/34 artigos do conjunto foram examinados seletivamente, e 20/20 subitens do edital ligados a notas candidatas. Rótulos históricos **PT-001–143**, com colisões PT-011–016, não são 143 erros independentes.
+
+**Próximo passo:** revisar individualmente as questões `12–16` (especialmente 15#3,16#6), depois inspecionar **se existem baterias** nos artigos 01–11 e validar o que houver, evitando declarar 34 artigos com seis itens cada. Após esses inventários, conciliar o conjunto de questões, fontes e ressalvas para fechar a Fase 1 apenas quando o protocolo permitir. **Nenhum artigo, hub, JSON ou material de outras frentes alterado.**

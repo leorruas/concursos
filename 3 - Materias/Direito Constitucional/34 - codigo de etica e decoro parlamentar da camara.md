@@ -152,7 +152,7 @@ flowchart TD
  G1 -->|Sim| G2["Reabre defesa e instrução complementar: art. 14"]
  G2 --> I5["Parecer e votação após instrução"]
  G1 -->|Não| G3["Sem passagem automática ao rito grave"]
- E4 -->|Suspensão de prerrogativas| R13["Projeto de resolução: art. 13, III, b"]
+ E4 -->|Suspensão de prerrogativas| R13["Parecer com projeto de resolução: art. 13, III, b e V"]
  B --> I["Suspensão do mandato ou perda: art. 14"]
  I --> I1["Relator e exame de admissibilidade"]
  I1 -->|Inépcia ou falta de justa causa em representação partidária| F2["Decisão terminativa; recurso ao Plenário por 1/10 da Casa"]
@@ -172,8 +172,9 @@ flowchart TD
  H2 -->|Não| J
  H2 -->|Sim| H3["Providências de saneamento conforme decisão da CCJC"]
  H3 -.-> H4["Tramitação posterior depende do saneamento"]
- J --> K["Leitura, publicação e avulsos; Mesa pauta em até 2 sessões ordinárias"]
- K --> L["Plenário: votação ostensiva; maioria absoluta"]
+ J --> K["Leitura no expediente, publicação e distribuição em avulsos"]
+ K --> K1["Mesa inclui na Ordem do Dia em até 2 sessões ordinárias: art. 16, § 2º"]
+ K1 --> L["Plenário: votação ostensiva; maioria absoluta"]
  N["Art. 16: 60 dias úteis para suspensões; 90 para perda"] -.-> E
  N -.-> I
  N --> X{"Prazo máximo esgotado?"}
@@ -187,6 +188,8 @@ flowchart TD
  Y2 -->|Sim| Y4["Apresentar parecer em até 5 dias úteis"]
  Y -->|Não| Y5["Prossegue a contagem do rito aplicável"]
 ```
+
+**Remissões específicas do diagrama:** no ramo do art. 13, a conclusão de procedência consta do inciso III, b, enquanto o **encaminhamento do parecer instruído com projeto de resolução** é disciplinado pelo inciso V. No rito dos arts. 13 e 14, a Mesa recebe o processo e, **após leitura no expediente, publicação e distribuição em avulsos**, tem até **duas sessões ordinárias** para incluí-lo na Ordem do Dia (art. 16, § 2º).
 
 ### Confronto normativo: instrução, defesa e quórum de pareceres
 

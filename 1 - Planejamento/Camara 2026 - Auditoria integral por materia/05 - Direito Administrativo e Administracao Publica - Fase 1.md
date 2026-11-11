@@ -1126,3 +1126,57 @@ Em \`DA07\`, a seção \`Prescrição e retroatividade — ponto de prova\` perm
 Seis exemplos AP examinados nesta rodada, cinco artigos DA de teoria examinados quanto ao **formato de questões** e fontes relevantes, sem novos itens reais Cebraspe conferidos e **nenhuma inversão adicional comprovada**. **DA-106 a DA-109** elevam o inventário de registros a **DA-001 a DA-109**, incluindo achados positivos e confirmações de lacunas anteriores, não 109 erros. Nenhum arquivo de estudo ou questão foi alterado. O relatório e o índice compartilhado recebem apenas a documentação desta frente.
 
 **Próxima etapa:** reavaliar o portão G1–G5 do bloco 19, com inventário discriminado por modalidade dos exercícios, identificando explicitamente quais respostas tiveram só cotejo dirigido e quais receberam fonte normativa primária. A revisão integral do corpo de cada artigo e a certificação jurídica completa dos comentários ainda não podem ser declaradas concluídas. Preservar a Fase 1 em aberto até preencher essas exigências do protocolo.
+
+
+## Bloco 26: inventário discriminado de itens, alterações concorrentes de AP e portão G1–G5 (11/11/2026)
+
+**Objetivo:** consolidar modalidades de questões e revisar o diagnóstico de cobertura diante de alterações recentes por outra frente. **Não foram alterados artigos, banco de questões, catálogo, hubs ou relatórios de outras matérias.**
+
+### Mudança concorrente identificada na árvore principal
+
+A árvore \`main\` agora possui **27 artigos numerados DA, 5 artigos numerados AP e os dois hubs**. O catálogo \`data/catalogo-materias-por-concurso.json\` (SHA \`7942c59edacf9566d876febeda76a0bd63579139\`) vincula **cinco articleIds AP** à Câmara: \`art-2e8a8f600b964d40\` (AP01), \`art-23fe2441eab94f8d\` (AP02), \`art-2ca37017208841b8\` (AP03), **\`art-b72a64e019f34c8d\` (AP04)** e **\`art-c59173b20e684daf\` (AP05)**. Os novos arquivos são:
+
+- \`3 - Materias/Administracao Publica/04 - nova governanca publica.md\`, SHA \`27e562c28b4def0e7f664588909a2f380f590d3b\`: “Nova Governança Pública: fundamentos, evolução e modelos”, definição e contexto de Stephen P. Osborne, relação com New Public Management, cooperação, ação coletiva, exemplos progressivos e **cinco itens inéditos C/E**;
+- \`3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md\`, SHA \`daed44830506b071ea114186f59ce0f53dcd6193\`: tipologia de Provan e Kenis, governança colaborativa de Ansell e Gash, redes, hierarquia, parcerias e casos, **seis itens inéditos C/E**.
+
+O hub \`3 - Materias/Administracao Publica/administracao-publica.md\` (SHA \`f2ff9dfd9478119e3c1fd84cd1ec1034016dc5d4\`) já conecta nominalmente os dois artigos. **Reclassificação de cobertura dos achados DA-043/048/053/079:** os conteúdos **8.1 (New Public Governance)** e **8.2 (redes de cooperação)** **já não podem ser classificados como ausentes dos artigos AP**; agora há **cobertura introdutória específica**, sujeita a auditoria jurídica/conceitual e aderência integral ao edital. **8.3 (coprodução, participação e transparência)** continua coberto de maneira fragmentada e **8.4 (valor público e cadeia de valor público)** continua com tratamento parcial/transversal, sem capítulo autônomo demonstrado por esta amostra. A presença de notas recentes **não homologa sua qualidade integral**.
+
+### Inventário de exercícios por tipo e estado
+
+**Contagem física inventariada em notas próprias**, separando-se as diferentes apresentações:
+
+| Fonte de estudo | Artigos com itens | Modalidade | Quantidade | Revisão realizada |
+| --- | ---: | --- | ---: | --- |
+| DA01–03, DA05, DA12–27 | **20** | Seis questões numeradas e comentadas por arquivo | **120** | **120/120** lidas individualmente nos blocos 20–24, com **cotejo normativo dirigido**, sem homologação integral |
+| DA10 e DA11 | **2** | Três exemplos comentados C/E sem numeração por arquivo | **6** | **6/6** lidos no bloco 23 |
+| DA04, DA06–09 | **5** | Mecanismos de cobrança, heurísticas e distratores, **sem bateria individual identificada** | **0 itens com gabarito individual nesse formato** | Seções examinadas no bloco 25, conteúdo integral não certificado |
+| AP01 e AP02 | **2** | Três exemplos comentados por arquivo | **6** | **6/6** lidos no bloco 25; AP02 exemplo 1 tem resposta literal “É compatível” |
+| AP03 | **1** | Três itens inéditos curtos | **3** | **3/3** lidos no bloco 23 |
+| AP04 e AP05, recentemente criados | **2** | Cinco e seis questões inéditas | **11** | **11/11** enunciados, respostas e comentários curtos lidos e classificados nesta rodada; **cotejo com fontes primárias de autores ainda pendente** |
+| **Total em 32 notas próprias** | **27 com questões/exemplos identificáveis** | **Exercícios autorais/ilustrativos em artigos** | **146** | **146 encontrados e lidos, com graus diferentes de verificação** |
+
+**Aritmética:** 20 × 6 = 120; 2 × 3 = 6; 2 × 3 = 6; AP03 = 3; AP04 + AP05 = 5 + 6 = 11. **120 + 6 + 6 + 3 + 11 = 146.** Este total exclui distratores sem resposta individual, exercícios CT09/CT10 compartilhados, outros artigos de outras matérias e o banco separado.
+
+**Banco da Câmara:** \`data/questoes-camara.json\` (SHA \`c58a7b9f1d4618250a1abb21ca60a6ad0a00040c\`) continua com **48 itens \`pilotoDidatico\` DA/AP**, 18 DA + 30 AP; **nenhum \`theoryRef\` desses 48 aponta aos IDs AP04/AP05**, mesmo já estando ambos no catálogo. Esses 48 são **camada distinta** dos 146 enunciados em artigos; não somar como se fossem itens únicos sem checar duplicidade textual, origem e funcionamento da aplicação. O bloco 17 verificou estaticamente os 48 vínculos de questões, porém a criação posterior de novos artigos altera as oportunidades de remissão pedagógica, não invalida os IDs antigos.
+
+**Corpus oficial:** 10 itens reais CNMP 2023 (111–120) com gabarito definitivo cotejado no bloco 16. Não contar como exercícios autorais e não assumir que foram integrados no JSON.
+
+### Cotejo dirigido dos 11 itens novos, sem certificação exaustiva
+
+**AP04 1–5**, respostas originais **E, C, E, C, C**: (1) NPG não exclui automaticamente contratos ou instrumentos gerenciais; (2) recursos distribuídos geram necessidade de coordenação; (3) cooperação não transfere competência/responsabilidade legal por si; (4) metas internas não garantem resultado público; (5) coordenação horizontal pode preservar competências formalmente reservadas. Todos coerentes com a argumentação exposta em AP04, sem inversão demonstrada nesta leitura, porém **não se cotejaram individualmente as obras de Osborne ou legislação aplicada aos exemplos**.
+
+**AP05 1–6**, respostas originais **E, C, E, C, C, E**: (1) rede não elimina hierarquias internas; (2) governança compartilhada, organização líder e organização administrativa da rede são categorias atribuídas a Provan/Kenis; (3) entidade social não adquire competência sobre sigilo de documentos automaticamente; (4) entrega não prova impacto causal; (5) rede formalmente horizontal pode concentrar recursos e poder; (6) nem toda rede corresponde ao modelo de fórum de consenso de Ansell/Gash. Coerência conceitual aparente, **não homologação de atribuições autorais após cotejo direto com originais acadêmicos**. Preservar a separação autores/modelos ao reutilizar.
+
+### Achados novos
+
+**DA-110, IMPORTANTE, atualizar fotografia da trilha e matriz do edital.** A contagem anterior **27 DA/3 AP** passou a **27 DA/5 AP**, com novos AP04/AP05 fisicamente presentes, catalogados e no hub; seus conteúdos modificam o estado de cobertura dos **subitens 8.1 e 8.2**, que passam de “teoria própria ausente” para **“cobertura específica nova, validação de qualidade pendente”**. Relatórios históricos anteriores retratam a situação na ocasião; este bloco é a evidência mais recente. Não alterar o conteúdo dos novos artigos pertencentes a outras edições concorrentes.
+
+**DA-111, RESULTADO DE INVENTÁRIO, 146 exercícios ilustrativos encontrados nas notas.** Em 32 artigos próprios, **27 contêm questões ou exemplos individualizáveis**, total **146** (120 DA numerados, 6 DA exemplos, 6 AP01/02 exemplos, 3 AP03 itens, 11 AP04/05 questões). Dos 146, os **11 de AP04/05** foram adicionados depois dos blocos precedentes e agora lidos. **Não inferir homologação:** a maioria recebeu somente cotejo normativo seletivo; vários comentários continuam com ressalvas abertas.
+
+**DA-112, IMPORTANTE, 11 novos itens AP ainda fora do piloto.** Os AP04/05 têm cinco e seis exercícios autorais ligados aos itens 8.1/8.2 do edital, porém **não foram incorporados a \`data/questoes-camara.json\`** nem aparecem nos 48 \`theoryRefs\`. Fase posterior de integração deve preservar os IDs, escolher seção adequada, evitar duplicação e incluir origem \`inedita\`, não \`real\`.
+
+**DA-113, LIMITE DE CERTIFICAÇÃO, desfecho do portão G1–G5.** **G1, inventário de questões nas notas próprias: cumprido enquanto inventário (146), mas conferência normativa de todos os comentários ainda pendente.** **G2, revisão integral de corpo, fontes, exceções e jurisprudência por artigo: pendente.** **G3, cobertura teórica: AP04/05 melhoram NPG/redes; coprodução/cadeia de valor e contratações ETP/TR/fiscal ainda precisam de integração e avaliação.** **G4, teste de links publicados: pendente.** **G5, autorização de fechamento: não concedida.** O diagnóstico permite priorizar reparos, mas **não equivale a homologação integral**.
+
+**Estado:** DA-001 a **DA-113** são registros de erros, ressalvas, verificações positivas e atualizações de inventário, não 113 erros comprovados. **Fase 1 segue em andamento, com G1 inventariado e validação jurídica/editorial G1–G4 pendente.** Apenas este relatório e índice compartilhado podem ser modificados por esta frente. Nenhum arquivo didático editado.
+
+**Próximo bloco:** conferir, com fontes acadêmicas e normas, as referências dos AP04/05 (Osborne, Provan/Kenis, Ansell/Gash) e detalhar quais itens 8.3/8.4 do edital ainda estão sem nota canônica. Depois produzir plano de verificação integral dos artigos por risco, sem abrir Fase 2 antes da autorização.

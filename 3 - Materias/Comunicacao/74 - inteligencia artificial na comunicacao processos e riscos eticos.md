@@ -5,7 +5,7 @@ title: "Inteligência artificial na comunicação: processos, validação e risc
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Inteligência artificial na comunicação: processos, validação e riscos éticos
@@ -141,13 +141,35 @@ A nota [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedime
 
 **Heurísticas:** transcrição precisa de verificação de **palavras e locutores**; resumo precisa de verificação de **seleção e contexto**; classificação de comentários precisa de análise de **base e representatividade**; geração visual precisa de avaliação de **autenticidade e identificação**; uso de dados precisa de **proteção e finalidade**. **Assistência não é aprovação, transparência não é precisão, e recomendação internacional não equivale a obrigação local.**
 
+## Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026
+
+O **Anexo I da Ordem de Serviço Direx nº 1/2026** apresenta um fluxo específico de sinalização para conteúdos **textuais e imagens**. É preciso separar o uso auxiliar de IA da geração da primeira versão do conteúdo:
+
+1. **IA não participou:** não há sinalização de uso de IA.
+2. **IA apenas revisou, corrigiu, transcreveu, traduziu ou organizou material de apoio:** o fluxograma dispensa a sinalização.
+3. **IA gerou a primeira versão, seguida apenas de aprovação ou pequenas correções humanas:** identificar como **“Gerado por IA”**.
+4. **IA gerou a primeira versão e houve intervenção humana efetiva no conteúdo, com decisão editorial, apuração, mudança de enfoque ou hierarquia ou contextualização:** identificar como **“Feito com suporte de IA”**.
+
+**Casos de fronteira:** transcrever uma audiência para apoiar a apuração se enquadra como tarefa auxiliar; usar a transcrição para gerar uma notícia inicial exige examinar a intervenção editorial posterior. A mera correção ortográfica de notícia gerada não equivale à apuração e reestruturação da matéria. Traduzir material de apoio é distinto de produzir com IA a primeira versão de um texto principal.
+
+A decisão de sinalização compete ao **gestor do veículo**, com base no fluxo informado pelo produtor, conforme o art. 4º, § 2º, da ordem. O **art. 4º, III** estabelece tratamento específico para conteúdo audiovisual, com créditos, descrição ou marca d'água conforme a hipótese; não se deve transportar automaticamente o fluxograma do Anexo I para todas as situações de áudio e vídeo. Sinalizar a utilização de IA não certifica precisão factual, direitos de uso, impessoalidade ou aprovação editorial.
+
+**Treino C/E inédito, elaborado a partir do fluxo normativo:**
+
+- **Item A:** Se a IA foi utilizada exclusivamente para transcrever uma gravação que serviu de material de apoio, o fluxograma do Anexo I exige a marca “Gerado por IA”. **Errado.** O uso auxiliar de transcrição está dispensado da sinalização nesse fluxo.
+- **Item B:** Se a IA gerou o primeiro texto e a equipe apenas aprovou sua publicação com correções pontuais, a marca prevista é “Gerado por IA”. **Certo.** Pequenas correções não representam intervenção editorial efetiva.
+- **Item C:** Se o primeiro texto foi gerado por IA, mas a equipe apurou fatos, reorganizou a hierarquia e alterou efetivamente o enfoque, o fluxo prevê “Feito com suporte de IA”. **Certo.** O critério é a intervenção humana substantiva.
+- **Item D:** O produtor decide sozinho e de maneira definitiva se a peça terá aviso de uso de IA. **Errado.** A norma atribui a decisão ao gestor do veículo conforme informação do produtor.
+
+**Fontes oficiais:** [Ordem de Serviço Direx nº 1/2026, texto publicado](https://www2.camara.leg.br/legin/int/ordser/2026/ordemdeservico-1-11-setembro-2026-799917-publicacaooriginal-181316-direx.html) e [Anexo I, fluxograma oficial em PDF](https://www2.camara.leg.br/legin/int/ordser/2026/ordemdeservico-1-11-setembro-2026-799917-anexo-direx.pdf). Esta seção responde à lacuna identificada na auditoria da Câmara 2026, Fase 1; a verificação integral dos demais dispositivos e normas complementares continua aberta.
+
 ## Fontes e lacunas
 
 - CÂMARA DOS DEPUTADOS. [Manual de Comunicação, “Uso da inteligência artificial”](https://infograficos.camara.leg.br/manual-de-comunicacao/uso-da-inteligencia-artificial/).
-- CÂMARA DOS DEPUTADOS. [Ordem de Serviço nº 1/2026, ficha normativa](https://www2.camara.leg.br/legin/int/ordser/2026/ordemdeservico-1-11-setembro-2026-799917-norma-direx.html). **Pendente de leitura integral:** publicação e anexo.
+- CÂMARA DOS DEPUTADOS. [Ordem de Serviço nº 1/2026, ficha normativa](https://www2.camara.leg.br/legin/int/ordser/2026/ordemdeservico-1-11-setembro-2026-799917-norma-direx.html). **Anexo I conferido para o fluxo de sinalização textual e de imagens; demais dispositivos ainda sujeitos a revisão integral.**
 - UNIÃO INTERPARLAMENTAR. [Guidelines for AI in Parliaments](https://www.ipu.org/ai-guidelines), 2024.
 - UNIÃO INTERPARLAMENTAR. [Human autonomy and oversight](https://www.ipu.org/ai-guidelines/ethical-principles-human-autonomy-and-oversight).
 - UNESCO. [Recomendação sobre a Ética da Inteligência Artificial](https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence), 2021.
 - ASSOCIAÇÃO BRASILEIRA DE COMUNICAÇÃO PÚBLICA. [Recomendação nº 1/2024 sobre IA na comunicação pública](https://abcpublica.org.br/wp-content/uploads/2024/07/Recomendacao-1_24-IA-1.pdf).
 
-**Escopo:** orientações profissionais e internacionais são apresentadas como referenciais, não como leis brasileiras. A análise não presume regras do anexo não acessado. Publicação da nota não indica estudo ou retenção.
+**Escopo:** orientações profissionais e internacionais são apresentadas como referenciais, não como leis brasileiras. O fluxo de sinalização do Anexo I foi acrescentado acima, sem presumir que esgota a disciplina de IA na Câmara. Publicação da nota não indica estudo ou retenção.

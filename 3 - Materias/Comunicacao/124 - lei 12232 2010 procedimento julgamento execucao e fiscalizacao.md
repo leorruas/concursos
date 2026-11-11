@@ -5,7 +5,7 @@ title: "Lei nº 12.232/2010: procedimento, julgamento, execução e fiscalizaç�
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Lei nº 12.232/2010: procedimento, julgamento, execução e fiscalização
@@ -297,6 +297,25 @@ A Cebraspe tende a explorar **quantidades, percentuais, cronologia e titularidad
 ## Heurísticas
 
 Ao ler o item, identifique **artigo, sujeito, fase, condição e consequência**. Para pontuação, pergunte se a diferença é **estritamente superior** ao percentual do **máximo do quesito**. Para anonimato, separe **licitante que identifica a peça** e **agente público que viola garantia de julgamento**. Para fornecedor, separe **três orçamentos** de **sessão pública para abri-los**. Para mídia, identifique se o benefício nasceu de **negociação para o cliente** ou de **plano de incentivo à agência**. Para prova da Câmara, leia texto especial sem ignorar a vigência da legislação geral de contratações.
+
+## Quadro de leitura: literalidade histórica, regime geral e aplicação vigente
+
+A **Lei nº 12.232/2010** contém remissões expressas à **Lei nº 8.666/1993**, inclusive no art. 1º, § 2º, e no art. 5º. A revogação da lei geral anterior não apaga automaticamente as palavras ainda presentes no texto consolidado da lei especial. Em prova, é essencial separar **reprodução literal** de **solução jurídica para uma contratação atual**.
+
+| Plano de análise | Pergunta correta | Limite da conclusão |
+| --- | --- | --- |
+| **Texto da lei especial** | O que a redação atualizada da Lei nº 12.232/2010 efetivamente diz, incluindo referências à Lei nº 8.666/1993? | É possível identificar o dispositivo e a literalidade; reproduzir a remissão não comprova que o regime revogado possa ser usado hoje. |
+| **Regime geral vigente** | Como a Lei nº 14.133/2021 disciplina a licitação e quais regras transitórias ou especiais existem para o caso? | Exige cotejo normativo do procedimento concreto; não substituir mecanicamente cada citação à Lei nº 8.666 por um artigo da Lei nº 14.133. |
+| **Aplicação administrativa** | Qual é a data, o objeto, o edital, o contrato, a orientação administrativa ou jurídica e a regra especial aplicável? | Uma conclusão sobre modalidade, tipo de julgamento, procedimento ou transição depende desses elementos; enunciado insuficiente não autoriza certeza absoluta. |
+
+**Exemplo de distinção:** dizer que *o art. 5º da Lei nº 12.232 ainda remete ao art. 22 da Lei nº 8.666* descreve a redação publicada; dizer que *toda nova licitação de publicidade deve utilizar hoje aquelas modalidades revogadas* seria um salto interpretativo injustificado. Da mesma forma, a permanência da remissão do art. 1º, § 2º não torna a Lei nº 8.666 integralmente vigente para contratações novas.
+
+**Treino C/E inédito:**
+
+- **A.** A presença de uma referência à Lei nº 8.666/1993 no texto atualizado da Lei nº 12.232/2010 demonstra, por si, a vigência geral da antiga lei para todo novo certame de publicidade. **Errado.** Remissão textual e vigência normativa são questões distintas.
+- **B.** Para interpretar uma contratação atual de publicidade, é necessário considerar a legislação especial, o regime geral aplicável e as condições do edital e do caso concreto. **Certo.** A resposta jurídica depende dessas camadas.
+
+**Fontes:** [Lei nº 12.232/2010, redação atualizada no portal da Câmara](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html); [Lei nº 14.133/2021, texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), consulta em 11/11/2026. **Limite:** este quadro é uma cautela de interpretação, não parecer jurídico definitivo sobre modalidades ou transição de um edital específico.
 
 ## Referências
 

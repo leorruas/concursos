@@ -5,7 +5,7 @@ title: "Branding: gestão de significados, experiência e valor de marca"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Branding: gestão de significados, experiência e valor de marca
@@ -143,6 +143,14 @@ A promessa de “instituição acessível” deve ser testada também com pessoa
 **Item 6.** O uso de marca e assinatura institucional padronizadas permite, por si só, que publicidade financiada pelo órgão promova pessoalmente a autoridade responsável, desde que o material respeite o manual de identidade visual.
 
 **Errado.** Padronização visual não afasta o limite constitucional à promoção pessoal. **Mecanismo do erro:** confusão entre conformidade gráfica e finalidade jurídica.
+
+## Coerência de marca no setor público: comparação de métricas e regime jurídico (11/11/2026)
+
+Nesta nota, **lembrança, reconhecimento, qualidade percebida, confiança e experiência de serviço** descrevem variáveis diferentes. O fato de uma marca aparecer consistentemente nas peças ou ser lembrada em pesquisa não demonstra, sem dados próprios, qualidade do atendimento ou reputação positiva. A [Política de Comunicação Social da Câmara, Ato nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html) vincula a comunicação institucional a objetivos públicos; em publicidade oficial, permanece a regra constitucional do [art. 37, § 1º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).
+
+**Itens 5 e 6 preexistentes:** ambos **Errado**, por motivos distintos: o item 5 confunde padronização da expressão gráfica com a entrega do serviço; o item 6 confunde conformidade visual com possibilidade jurídica de promoção pessoal. **Não são gabaritos alterados nesta passagem.** Os itens 1 a 4, relativos às taxonomias de Keller, Aaker e Brakus, **ainda exigem conferência autoral independente**, que não se obtém do texto normativo citado.
+
+**Caso C/E inédito:** “A alta lembrança de uma assinatura institucional, mesmo acompanhada por avaliação negativa do atendimento, comprova que a experiência de serviço confirmou a promessa comunicada pela instituição.” **Errado.** Reconhecimento e avaliação são evidências de naturezas distintas. O caso é um exemplo editorial, não resultado real de pesquisa de imagem.
 
 ## Relações com outros temas
 

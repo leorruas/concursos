@@ -115,3 +115,45 @@ A pasta `3 - Materias/Informatica/` contém **30 artigos numerados (01–30)** e
 ### Próximos passos restritos à Fase 1
 
 Examinar individualmente **28, 29 e 30**, confrontando boxplot, ferramentas BI, granularidade, DAX, storytelling e risco de inferir causalidade de visualização; depois fazer leitura do hub e cruzamento com **`Evidencias Dados e IA/01–05`**; só então prosseguir para Office, redes, segurança e governança. Antes de homologação, cotejar fontes normativas e estatísticas externas e o **PDF oficial integral do edital** (o resumo local não substitui o documento legal). **Teoria, hub, artigos e dados pessoais preservados.**
+
+
+## Bloco 3: dispersão, box plot, ferramentas BI e storytelling, artigos 28–30 (11/11/2026)
+
+**Artigos recuperados integralmente e examinados com seus exemplos e seis itens C/E cada:**
+- `3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md`, articleId `art-e3831c8dec419d79`;
+- `3 - Materias/Informatica/29 - power bi tableau e data studio comparativo e funcoes.md`, articleId `art-f137aeacb1988047`;
+- `3 - Materias/Informatica/30 - storytelling com dados estrutura narrativa contexto e persuasao.md` (frontmatter preservado).
+
+**Acumulado da Fase 1:** **13/30 artigos numerados examinados seletivamente (18–30), 17 ainda pendentes (01–17), hub `informatica.md` examinado somente para organização, e cinco notas de `Evidencias Dados e IA` identificadas sem cotejo individual.** Foram lidos **18 itens didáticos C/E inéditos** neste bloco, sem equipará-los a provas oficiais ou homologá-los integralmente. **Uma inversão de gabarito confirmada** por documentação primária: TI-020. Nenhuma nota teórica alterada.
+
+### Avaliação individual e diagnóstico
+
+| Artigo | Avaliação de cobertura e questões | Risco/intervenção futura |
+| --- | --- | --- |
+| 28, dispersão e box plot | Cobre correlação linear vs. não linear, causalidade, quartis, IQR, hastes de 1,5 × IQR e boxplots comparativos. Seis itens C/E examinados; gabaritos centrais plausíveis, sem inversão demonstrada. | Resumo “cinco números” deve distinguir mínimo/máximo da amostra do alcance das hastes no box plot modificado de Tukey; correlação de Pearson não mede toda associação curvilínea; exemplos de auditoria devem aparecer como hipóteses, não dados observados. |
+| 29, Power BI, Tableau e Looker Studio | Modelo estrela, medidas/colunas calculadas, DAX, VizQL, expressões LOD, serviços e fontes. Seis itens C/E examinados. **Item 3 com gabarito CERTO incorreto (TI-020)**. | Corrigir o julgamento para ERRADO e sua fundamentação; explicitar exceções/limites em DAX, filtros FIXED, Tableau e classificação de chaves. Cotejar produtos e versões nas fontes oficiais. |
+| 30, storytelling com dados | Exploração vs. explanação, audiência, mensagem, decluttering, pré-atenção, Gestalt, narrativa, integridade, seis C/E. Os núcleos de gabarito são defensáveis em leitura dirigida. | Remover alegações empíricas sobre atividades da Câmara sem fonte, separar modelos de comunicação e obrigações legais, evitar transformar heurística de design em regra absoluta. |
+
+### Achados com localizadores
+
+**TI-020, ERRO DE GABARITO CONFIRMADO, prioridade máxima, `Informática/29` §3.3 e §8 item 3.** O artigo afirma que **`CALCULATE` é a única função em DAX que modifica o contexto de filtro**, inclusive com item C/E que diz “a única expressão habilitada” e marca **CERTO**. A documentação primária da Microsoft descreve `CALCULATE` para expressão escalar e **`CALCULATETABLE` para expressão tabular**, ambas avaliadas em contexto de filtro modificado. Logo, a exclusividade enunciada é falsa: **gabarito recomendado ERRADO**. Fontes oficiais: https://learn.microsoft.com/pt-br/dax/calculate-function-dax e https://learn.microsoft.com/pt-br/dax/calculatetable-function-dax . Revisar também formulação “única capaz de transitar” para distinguir contexto de linha, medidas e função avaliada. Manter o enunciado no histórico até reparo planejado.
+
+**TI-021, IMPRECISÃO TÉCNICA CONFIRMADA, prioridade alta, `Informática/29` §4.1.** O texto diz que `FIXED` calcula ignorando “os filtros da tela”. A Tableau documenta que `FIXED` ignora filtros comuns de dimensão da visualização, **mas considera filtros de contexto, da fonte de dados e de extração**. A descrição atual, sem ressalva, gera falso absoluto. Fontes: https://help.tableau.com/current/pro/desktop/pt-br/calculations_calculatedfields_lod.htm e https://help.tableau.com/current/pro/desktop/pt-br/calculations_calculatedfields_lod_filters.htm . Nenhum item do artigo 29 pergunta diretamente sobre filtros FIXED, portanto não inferir nova inversão de gabarito.
+
+**TI-022, PRECISÃO DE MODELO, `Informática/29` §2 e diagrama estrela.** `ID_Despesa` aparece como “chave primária degenerada”, misturando conceitos: **dimensão degenerada** é atributo de dimensão mantido diretamente na tabela fato, sem tabela de dimensão correspondente; sua eventual utilização como identificador único não equivale, por si só, a uma espécie denominada “chave primária degenerada”. Também é exagerada a afirmação de que qualquer solução BI exige previamente modelo relacional analítico robusto, pois existem abordagens de fonte plana, conexões diretas e modelos sem estrela; a arquitetura estrela é recomendação importante, não condição universal. Conferência com Kimball e Microsoft Learn pendente.
+
+**TI-023, RISCO ESTATÍSTICO, `Informática/28` §3.** “Resumo dos cinco números” refere-se convencionalmente a **mínimo, Q1, mediana, Q3, máximo**; a apresentação do boxplot de Tukey com bigodes até o menor/maior ponto dentro dos limites de 1,5 IQR difere do mínimo/máximo amostrais quando há outliers. Separar “cinco números” e “bigodes do boxplot modificado”, cujas implementações também variam. A questão #4, que marca **ERRADO** para bigode terminando no limite teórico exato, está coerente com a variante ensinada. É erro de fronteira didática, não inversão de gabarito.
+
+**TI-024, RISCO DE ABSOLUTIZAÇÃO DE HEURÍSTICA, `Informática/28` §2.1.** Pearson `r` expressa intensidade e sinal da associação **linear**, não “força da associação” em geral; o próprio item #1 demonstra relação não linear com `r=0`. Melhorar a ligação entre texto e questão, explicando padrões em U e possível confusão com independência estatística. No §4, comprimento de bigodes/posição da mediana são sinais exploratórios de assimetria, não prova universal de forma populacional.
+
+**TI-025, RISCO DE DADO INSTITUCIONAL INVENTADO, `Informática/30` §6 e §8 caso 3.** O artigo apresenta metas e resultados da Câmara (“reduzir tempo em 20%”, “subiu 35%”, “potencial reduzir 28 dias”, “CCJC/CFT concentram mais de 45%”) dentro de narração exemplificativa, mas sem marcar explicitamente cada número como **hipotético** ou fornecer pesquisa/base. Esse material não deve ser citado como estatística real ou evidência de desempenho parlamentar. Verificar dados se mantidos como fatos; caso contrário, assinalar cenários fictícios e remover precisão artificial.
+
+**TI-026, RISCO DE DISTINÇÃO ENTRE MÉTODO E REGRA JURÍDICA, `Informática/30` §7.** O trecho sugere que qualquer truncamento de eixo ou falha de visualização constitui automaticamente “infração direta” ao art. 37 da Constituição. O dever de publicidade e moralidade é pertinente, mas a tipificação de infração jurídica concreta requer conduta, contexto, norma incidente e outros elementos. Separar **ética de design** da conclusão jurídica, mantendo crítica à representação enganosa.
+
+**TI-027, RISCO EDITORIAL, `Informática/30` §§4–6.** “Carga extrínseca reduzida a zero”, “menos de 200 ms” como tempo universal e “três atos fundamentais” como única arquitetura são formulações rígidas de modelos cognitivos e narrativos. Reapresentar como heurísticas e resultados sob condições específicas; o gabarito do item #3 (pré-atenção) pode permanecer coerente com a noção geral, sem certificar limiar de 200 ms para todo estímulo.
+
+### Cobertura e fila
+
+Com os artigos 18–30 recuperados e inspecionados, o **segmento IA + dados** do inventário local está percorrido em leitura dirigida (13/13), **sem certificação integral de qualidade**, fontes ou cobertura literal do edital. Restam 17 artigos numerados de Informática (01–17), cinco notas compartilhadas em Evidências, Dados e IA, revisão estrutural do hub e cotejo do edital oficial integral. **Próxima frente prioritária:** auditoria transversal dos cinco textos compartilhados, depois 03–11 (Microsoft 365, Internet, e-mail), 12–17 (segurança e governança), e 01–02 conforme delimitação do edital. Manter TI-020 como reparo crítico antes de estudo com questão C/E e assegurar rastreabilidade da fonte Microsoft.
+
+**Mudanças nesta rodada:** somente este relatório e o índice de estado. Artigos teóricos, questões originais, hubs e dados privados intactos.

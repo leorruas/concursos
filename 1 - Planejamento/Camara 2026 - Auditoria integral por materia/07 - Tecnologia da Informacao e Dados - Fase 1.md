@@ -598,3 +598,65 @@ Foi aberto e inspecionado o caderno Cebraspe `106_PF_CB2_01.pdf` (PF 2025, **Blo
 **TI-083:** O item 32 recebe E no gabarito oficial, mas a funcionalidade de repetir cabeçalho **existe** no Word. A razão específica para o julgamento E (incluindo a redação da guia/menu) **não foi comprovada por justificativa da banca**. Não ensinar que o recurso inexiste nem atribuir sem fonte única causa da resposta; cotejar versão e interface.
 
 **Estado:** 83 achados históricos, incluindo verificações positivas e erros anteriormente corrigidos, **20 itens reais (19 válidos + 1 anulado), 30/30 artigos numerados lidos seletivamente, 28 CAM-TI mapeados nominalmente e zero artigos integralmente homologados**. Ainda faltam corpus reais suficientes sobre BI, prompts, IA generativa, aprendizado por reforço e estatística visual. **Somente este relatório e o índice são alvos de escrita nesta rodada; teoria, questões e hub preservados.**
+
+
+## Bloco 15: calibração Cebraspe de IA, qualidade de dados, gráficos e Power BI, MPO 2024 (11/11/2026)
+
+**Dois cadernos e dois gabaritos definitivos oficiais conferidos**, incluindo capturas visuais das páginas com os itens e das páginas únicas de gabarito:
+- **Ministério do Planejamento e Orçamento (MPO), prova aplicada em 28/04/2024**, conhecimentos gerais comuns a todas as especialidades, caderno `958_MPO_ANALISTA_CG1_01`: [caderno](https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_CG1_01.PDF), [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_CG1_01.PDF).
+- **MPO, Cargo 6, Analista de Planejamento e Orçamento, especialidade Gestão de Dados Orçamentários**, prova P2, caderno `958_MPO_ANALISTA_006_01`: [caderno](https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/958_MPO_ANALISTA_006_01.PDF), [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/mpo_24/arquivos/GAB_DEFINITIVO_958_MPO_ANALISTA_006_01.PDF). **Não trocar os gabaritos** do caderno comum e do Cargo 6.
+- Na prova P2 foi examinada a página do PDF com análise exploratória, governança, qualidade de dados e **Power BI, itens 74–95**; na P1, a página de fundamentos de IA e dados **80–90**. As fontes foram lidas em texto e imagem. As sínteses abaixo **não reproduzem integralmente** a redação original das questões.
+
+### Amostra dirigida, conhecimentos gerais CG1, cinco itens
+
+| Item | Tema e fragmento decisivo resumido | Gabarito definitivo | Adesão ao recorte CAM-TI |
+| --- | --- | :---: | --- |
+| 80 | Regressão como relação entre variável resposta e explicativas | **C** | CAM-TI-017, aprendizagem supervisionada |
+| 81 | Aprendizado supervisionado emprega dados rotulados | **C** | CAM-TI-017 |
+| 83 | Variáveis qualitativas classificam indivíduos em categorias | **C** | CAM-TI-022 (variáveis/atributos) |
+| 88 | ETL extrai dados de várias fontes | **C** | CAM-TI-023 (transformação) |
+| 90 | Dados estruturados organizados em tabelas e tipos usuais | **C** | CAM-TI-022/023 |
+
+Os itens da mesma página sobre SQL, triggers, chaves, pareamento e LGPD foram deixados **fora da contagem desta amostra dirigida**, quando não apresentavam aderência suficiente à trilha TI da Câmara.
+
+### Amostra dirigida, Cargo 6 (P2), 19 itens
+
+| Item | Tema específico sintetizado | Gabarito definitivo | CAM-TI e limite |
+| --- | --- | :---: | --- |
+| **74** | Confusão de variável qualitativa **nominal** com discreta | **E** | CAM-TI-022, nomenclatura de variáveis |
+| **75** | Reconhecimento de outlier em boxplot | **C** | CAM-TI-026 |
+| **76** | Definição de discretização em pré-processamento | **X: ANULADO** | CAM-TI-023, **não usar como C/E pontuado** |
+| **78** | Pseudonimização confundida com eliminação irreversível da identificação | **E** | CAM-TI-021/023, relação com LGPD |
+| **79** | Limites do boxplot em 1,5 IQR e quartis | **C** | CAM-TI-026 |
+| **80** | Erros/medição/amostragem como origens de valores extremos | **C** | CAM-TI-023/026 |
+| **83** | Deduplicação equiparada à compressão de dados | **E** | CAM-TI-023 |
+| **84** | Tratamento de ausências apresentado como dispensável | **E** | CAM-TI-023 |
+| **85** | Discretização de frequência igual e quantidade por faixa | **C** | CAM-TI-023 |
+| **86** | SUM/AVG/MAX/MIN/COUNT/GROUP BY como agregações | **C** | CAM-TI-023; SQL apenas como mecanismo auxiliar |
+| **87** | Arquitetura de front-end do Power BI Service | **E** | CAM-TI-027, **técnica específica e sensível à versão** |
+| **88** | Dashboard sintetiza métricas em uma tela | **C** | CAM-TI-027/024 |
+| **89** | Modelo semântico alegadamente limitado a um único relatório/dashboard | **E** | CAM-TI-027, relação um-para-muitos na publicação |
+| **90** | Gráficos de indicador/meta e barras/colunas para comparação | **C** | CAM-TI-024/027 |
+| **91** | Localização de comando para editar consulta Power Query | **E** | CAM-TI-023/027; **cuidado com nomenclatura de interface** |
+| **92** | Filtro cruzado bidirecional e ambiguidade de relacionamentos | **C** | CAM-TI-027; ver condições de modelo |
+| **93** | Medidas rápidas e cálculos DAX em caixa de diálogo | **C** | CAM-TI-027 |
+| **94** | Cópia de dashboards como aplicativos condicionada ao criador | **E** | CAM-TI-027, recursos de compartilhamento/publicação |
+| **95** | Aplicativo criado no workspace disponibiliza relatórios e dashboards | **C** | CAM-TI-027 |
+
+**Gabaritos conferidos nas tabelas definitivas do próprio caderno:** CG1 `80 C, 81 C, 83 C, 88 C, 90 C`; Cargo 6 `74 E, 75 C, 76 X, 78 E, 79 C, 80 C, 83 E, 84 E, 85 C, 86 C, 87 E, 88 C, 89 E, 90 C, 91 E, 92 C, 93 C, 94 E, 95 C`. **A prova específica foi selecionada por aderência, não é prova da Câmara 2026.** A marca `X` do item 76 foi confirmada na legenda oficial e **não se deve atribuir causa à anulação sem fundamento oficial**.
+
+### Novos achados do cotejo histórico
+
+**TI-084, DUAS PROVAS MPO CONFIRMADAS COM IDENTIFICAÇÃO DE VARIANTES.** Foram confrontados **24 itens adicionais**, cinco do caderno CG1 e 19 do Cargo 6, **23 válidos e um anulado**. Acumulado com INSA (5 itens, 1 anulado), Anvisa (3) e Mossoró (12): **44 itens reais Cebraspe em cinco cadernos, 42 válidos C/E e dois anulados (INSA #42 e MPO Cargo 6 #76)**. Não extrapolar a taxa de anulação desse recorte intencional para uma frequência da banca.
+
+**TI-085, CALIBRAÇÃO REAL DO POWER BI, prioridade pedagógica alta.** Os itens **87–95** do MPO Cargo 6 cobrem **modelos semânticos, dashboards, indicadores de meta, Power Query, relações e filtros bidirecionais, DAX, publicação e apps**. Isso autoriza no futuro uma matriz com mecanismos reais contra `Informatica/29` (CAM-TI-027). A banca distinguiu **modelo semântico que pode servir a múltiplos relatórios**, uso de dashboard numa tela e app de workspace. **Comandos do Power Query e produtos mudam de versão**, portanto o item 91 histórico **E** não pode ser usado isoladamente para afirmar que determinada função de transformação não existe; verificar o nome do controle e o ambiente examinado.
+
+**TI-086, CORRESPONDÊNCIA ENTRE QUESTÕES REAIS DE ESTATÍSTICA VISUAL E LACUNAS DOS ARTIGOS.** Os itens 75,79,80 sobre outliers e boxplots sustentam a relevância de `Informatica/28` (TI-023/024) e a distinção **resumo dos cinco números versus limite 1,5 IQR**. Os itens 74,83,84,85,86 e o 76 anulado mostram que **nominal × ordinal × numérico discreto**, deduplicação × compressão, dados ausentes, discretização e agregações merecem contraste específico. **Não usar anulação #76 como prova de formulação “certa” ou “errada”.**
+
+**TI-087, DIFERENÇA ENTRE OBSERVAÇÃO DE PROVA E EXIGÊNCIA DO EDITAL.** O edital da Câmara cita ferramentas Power BI, Tableau e Data Studio e conceitos de dados e visualização, **sem nomear arquitetura de microsserviços do Power BI Service** ou todos os detalhes de algoritmos e modelagem do MPO. Assim, itens com aderência **alta** (75,79,85,88,89,90,92,93,95), **parcial** (74,76,80,83,84,86,91,94) ou **especializada** (87) devem ser usados com pesos diferentes. O objetivo é treinar mecanismos e fronteiras de conceitos, **não criar obrigação de decorar arquitetura de um produto não exigida literalmente**.
+
+**TI-088, ALTO VALOR PARA AUDITORIA DE GABARITOS INÉDITOS, MAS SEM NOVA INVERSÃO CERTIFICADA.** O contraste de um item real com `Informatica/24–29` revela pontos para correção **já registrados** (TI-013,014,023,024,029,034 e outros), mas **não demonstra sozinho uma nova inversão nas perguntas inéditas da Câmara**. Para validar gabarito de cada questão local, é necessário identificar redação literal, hipótese contextual, fonte atual e versão. **O item 76 anulado não deve entrar no denominador de acertos**. Não adicionar mais 24 “erros” porque 24 itens foram examinados: **cinco achados de natureza metodológica** neste bloco.
+
+### Estado e pendências
+
+**88 achados históricos TI-001–TI-088** (incluindo observações já resolvidas e achados positivos). **44 itens reais verificados em cinco cadernos oficiais, 42 julgáveis e 2 anulados.** **30/30 artigos numerados de Informática inspecionados seletivamente; 28 CAM-TI com correspondência nominal ao edital; zero artigos integralmente certificados.** A calibração cobriu agora Power BI e análise de dados; **continua fraca para Tableau, Looker Studio/Data Studio, storytelling, prompts, aprendizagem por reforço e processos de IA generativa mais específicos**. Se forem exploradas provas Cebraspe de TI especialistas, marcar o que extrapola claramente a densidade do programa da Câmara. **Somente relatório e índice podem ser editados na Fase 1.**

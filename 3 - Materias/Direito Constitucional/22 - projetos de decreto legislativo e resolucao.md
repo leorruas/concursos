@@ -5,7 +5,7 @@ title: "Projetos de decreto legislativo e de resolução: competência, tramita�
 type: "conceito"
 status: "ativo"
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-11
 ---
 
 # Projetos de decreto legislativo e de resolução: competência, tramitação e efeitos
@@ -92,7 +92,7 @@ A CF, **art. 51, IV**, atribui à Câmara competência para **dispor sobre organ
 
 **1. Proposição e iniciativa.** Os **arts. 108 e 109** indicam as espécies. O **art. 109, § 2º**, permite apresentação de projeto de decreto legislativo e projeto de resolução por **qualquer deputado ou comissão**, **quando não se tratar de iniciativa privativa da Mesa ou de colegiado específico**. Não inferir iniciativa universal irrestrita a partir do artigo.
 
-**2. Forma do projeto.** O **art. 111** exige **artigos numerados, redação clara e concisa e ementa**. O mesmo instrumento formal “projeto” pode buscar resultados normativos diferentes conforme sua categoria.
+**2. Forma do projeto.** O **art. 111** exige **artigos numerados, redação clara e concisa e ementa**. O **§ 3º proíbe que um mesmo projeto contenha duas ou mais matérias diversas**, reforçando a unidade de objeto da proposição. O mesmo instrumento formal “projeto” pode buscar resultados normativos diferentes conforme sua categoria.
 
 **3. Distribuição e pareceres.** A proposição passa pelos órgãos competentes e pelas comissões pertinentes, segundo o Regimento. **Parecer favorável** é manifestação de instrução; não deve ser tratado como promulgação ou, automaticamente, como decisão final.
 
@@ -165,3 +165,12 @@ A CF, **art. 51, IV**, atribui à Câmara competência para **dispor sobre organ
 - [Congresso Nacional, atribuições](https://www.congressonacional.leg.br/institucional/atribuicoes): correlação art. 48 (lei com sanção) × art. 49 (competência exclusiva por decreto legislativo).
 
 **Limite editorial:** regras de quórum, procedimento especial e exceções por matéria devem ser confirmadas na norma aplicável. Os itens C/E são **inéditos**, elaborados para estudo, sem indicação de serem questões reais de prova. O artigo integra o acervo público; desempenho e retenção individuais devem ser registrados exclusivamente no cofre privado.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Objeto cotejado:** texto e quadros, **sete versões do caso progressivo** e **dez questões C/E** do DC22, à luz da [Constituição Federal atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), especialmente arts. 47–52, 58–59, 62, 68 e 84, e do [Regimento Interno da Câmara](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), especialmente arts. 24, 108–111, 132 e 200. Foram verificadas as distinções entre projeto e ato normativo final, PDL e projeto de resolução, competências da Câmara/Senado/Congresso, ausência de sanção, iniciativa, tramitação e promulgação, com a ressalva constitucional sobre remuneração dos servidores.
+
+**Complementação NC-PL-033:** acrescentado o **art. 111, § 3º**, sobre a vedação de duas ou mais matérias diversas no mesmo projeto. A regra constava da fonte normativa, mas faltava na explicação didática sobre forma do projeto. Nenhuma inversão dos itens exigida por esse acréscimo.
+
+**Gabaritos cotejados e mantidos:** **C, E, E, C, E, E, C, E, C, C**. **Sete casos e dez itens originais** inspecionados, sem inversão identificada. A certificação é do recorte redigido, não de todos os procedimentos especiais possíveis nem de desempenho do estudante. Não comprova renderização, deploy ou funcionamento do GitHub Pages.

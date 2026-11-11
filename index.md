@@ -562,6 +562,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Redacao/03 - estrategias de argumentacao|03 • Estratégias de argumentação]]
   - [[3 - Materias/Redacao/04 - decomposicao de comandos e quesitos cebraspe|04 • Decomposição de comandos e quesitos (CAM-DIS-001)]]
   - [[3 - Materias/Redacao/05 - resposta conceitual curta de 20 linhas|05 • Resposta conceitual curta (CAM-DIS-002)]]
+  - [[3 - Materias/Redacao/06 - planejamento e escrita de peca tecnica|06 • Peça técnica de até 50 linhas (CAM-DIS-005)]]
+  - [[3 - Materias/Redacao/07 - revisao e autocorrecao de discursivas e pecas|07 • Revisão e autocorreção (CAM-DIS-009)]]
 
 ---
 *Última atualização: 2026-11-04*

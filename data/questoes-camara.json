@@ -5730,6 +5730,102 @@
       "statement": "Um tributo foi lançado em dezembro e arrecadado em janeiro. Para o regime orçamentário da Lei nº 4.320/1964, o lançamento basta para atribuir a receita ao exercício encerrado em dezembro.",
       "correctAnswer": "E",
       "explanation": "O art. 35, I, atribui a receita orçamentária ao exercício em que foi arrecadada. O lançamento em dezembro não antecipa esse registro."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "classificacao-institucional",
+      "mechanism": "distinguir-unidade-de-area",
+      "theoryRefs": [
+        "article:art-d8b1c5e6037249fa#Método: perguntas antes das classificações"
+      ],
+      "statement": "Uma dotação é transferida de uma unidade orçamentária para outra, mantendo a mesma função Saúde. A alteração da unidade modifica a classificação institucional, sem que a função precise mudar.",
+      "correctAnswer": "C",
+      "explanation": "A classificação institucional identifica a unidade da dotação. A função identifica a área de atuação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "classificacao-programatica",
+      "mechanism": "confundir-acao-com-objeto-do-gasto",
+      "theoryRefs": [
+        "article:art-d8b1c5e6037249fa#Método: perguntas antes das classificações"
+      ],
+      "statement": "Um relatório informa apenas que a despesa foi classificada no elemento Equipamentos e Material Permanente. Esse dado identifica o projeto governamental específico em que os equipamentos serão usados.",
+      "correctAnswer": "E",
+      "explanation": "O elemento descreve o objeto do gasto. O projeto ou outra ação é identificado na classificação programática."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "dimensoes-da-programacao",
+      "mechanism": "distinguir-meta-fisica-de-dotacao",
+      "theoryRefs": [
+        "article:art-d8b1c5e6037249fa#Método: perguntas antes das classificações"
+      ],
+      "statement": "Uma ação prevê reformar quatro bibliotecas com dotação de R$ 800 mil. O número de bibliotecas é a meta física indicada, enquanto o valor é uma informação financeira.",
+      "correctAnswer": "C",
+      "explanation": "A meta física informa a quantidade da entrega. A dotação informa recursos autorizados em dinheiro."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "natureza-da-receita",
+      "mechanism": "inferir-origem-pela-destinacao",
+      "theoryRefs": [
+        "article:art-d8b1c5e6037249fa#Método: perguntas antes das classificações"
+      ],
+      "statement": "Se receitas de origens diferentes forem destinadas à mesma finalidade, a destinação comum obriga a classificá-las na mesma natureza de receita.",
+      "correctAnswer": "E",
+      "explanation": "A natureza identifica a operação que gerou o ingresso. A destinação disciplina a aplicação dos recursos e pode ser comum a ingressos de naturezas diferentes."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "esfera-orcamentaria",
+      "mechanism": "inferir-esfera-de-grupo-de-despesa",
+      "theoryRefs": [
+        "article:art-d8b1c5e6037249fa#Método: perguntas antes das classificações"
+      ],
+      "statement": "Uma ação do orçamento fiscal pode conter despesa classificada no grupo Investimentos. O grupo de natureza e a esfera respondem a perguntas diferentes.",
+      "correctAnswer": "C",
+      "explanation": "Investimentos identifica um grupo da natureza da despesa. A esfera identifica em qual orçamento a programação está incluída."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "classificacao-funcional",
+      "mechanism": "inferir-funcao-apenas-pela-unidade",
+      "theoryRefs": [
+        "article:art-d8b1c5e6037249fa#Método: perguntas antes das classificações"
+      ],
+      "statement": "Duas ações pertencem à mesma unidade orçamentária. Essa informação é suficiente para concluir que as duas têm necessariamente a mesma função.",
+      "correctAnswer": "E",
+      "explanation": "Uma unidade pode executar ações em áreas de atuação distintas. É preciso conferir a classificação funcional de cada ação."
     }
   ]
 }

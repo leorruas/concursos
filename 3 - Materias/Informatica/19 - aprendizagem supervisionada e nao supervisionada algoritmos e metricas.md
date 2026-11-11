@@ -186,7 +186,7 @@ Para evitar simplificações exageradas em prova, cabe destacar duas abordagens 
 > A Análise de Componentes Principais (PCA) é uma técnica de aprendizagem não supervisionada empregada na redução de dimensionalidade de conjuntos de dados multivariados, preservando a maior quantidade possível de variância original das variáveis preditoras em novas dimensões ortogonais e não correlacionadas.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Definição impecável do PCA. O PCA opera sobre dados sem rótulo, transformando um conjunto de variáveis possivelmente correlacionadas em um conjunto menor de componentes principais linearmente não correlacionados.
+- **Fundamentação**: O PCA constrói componentes ortogonais que, sob a covariância usual dos dados, são não correlacionados, ordenando-os por variância explicada. A redução da dimensionalidade conserva **o máximo possível de variância para o número de componentes escolhido**, sem garantir preservação integral da informação original. O núcleo do item está correto.
 
 ---
 
@@ -204,7 +204,7 @@ Para evitar simplificações exageradas em prova, cabe destacar duas abordagens 
 > Na aprendizagem semissupervisionada, combina-se uma quantidade relativamente modesta de dados previamente rotulados a um volume expressivo de dados não rotulados durante a fase de treinamento, visando a aprimorar a capacidade preditiva do sistema a um custo operacional inferior ao exigido pela rotulagem manual integral.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Conceituação precisa da aprendizagem semissupervisionada. Essa abordagem mitiga o gargalo da rotulagem humana manual (que é cara e lenta), aproveitando a abundância de dados brutos não anotados para refinar o espaço de decisão do modelo.
+- **Fundamentação**: A aprendizagem semissupervisionada combina dados rotulados e não rotulados para aproveitar informação adicional no treinamento. Pode reduzir a necessidade de anotação, mas **ganho preditivo e redução de custos dependem da qualidade e distribuição dos dados**. O item descreve uma finalidade típica, não uma garantia de resultado.
 
 ---
 
@@ -231,3 +231,5 @@ Para evitar simplificações exageradas em prova, cabe destacar duas abordagens 
 - **Documentação Scikit-Learn**: *Supervised and Unsupervised Learning User Guide*.
 
 > **Revisão técnica (11/11/2026):** corrigidos limites do $R^2$, distinção entre objetivos autossupervisionados e linguagem absoluta sobre métricas. O exemplo de 99% de acurácia em dados desbalanceados continua ilustrativo. Questões inéditas não equivalem a itens oficiais da banca.
+
+> **Auditoria de questões C/E, segunda passagem (11/11/2026):** Q1–Q6 cotejadas quanto à consistência interna com as definições do artigo. **Gabaritos preservados (C, E, E, C, E, C)**; comentários de PCA e aprendizagem semissupervisionada qualificados. Revisão conceitual dirigida, sem certificação por corpus de questões reais Cebraspe.

@@ -2930,6 +2930,102 @@
       "statement": "Em “O formulário estava completo, mas faltava o comprovante”, a vírgula marca o limite antes da oração que introduz uma ressalva.",
       "correctAnswer": "C",
       "explanation": "A conjunção “mas” introduz a oração adversativa. A ressalva distingue o preenchimento do formulário da documentação necessária."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / Pesquisa aplicada",
+      "conceptId": "reconhecimento-assistido",
+      "mechanism": "distinguir-recordacao-de-reconhecimento",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Indicadores: reconhecimento, associações, avaliação e experiência"
+      ],
+      "statement": "Um questionário exibe quatro nomes e pede que o entrevistado indique qual já viu. Esse procedimento mede reconhecimento assistido, pois fornece opções como pista.",
+      "correctAnswer": "C",
+      "explanation": "O estímulo já contém os nomes. A recordação espontânea exigiria mencionar um nome sem essa lista."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / Pesquisa aplicada",
+      "conceptId": "vies-de-selecao",
+      "mechanism": "generalizar-resposta-voluntaria",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Vieses: onde a conclusão pode falhar"
+      ],
+      "statement": "Uma pesquisa voluntária divulgada somente entre inscritos na newsletter recebeu 20 mil respostas. O volume de respostas garante que a estimativa represente também quem desconhece a instituição.",
+      "correctAnswer": "E",
+      "explanation": "O volume não corrige a cobertura da coleta. Quem desconhece a instituição pode nem receber o convite."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / Pesquisa aplicada",
+      "conceptId": "analise-de-sentimento",
+      "mechanism": "distinguir-mencoes-de-pessoas",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Monitoramento de mídia e análise de sentimento: o objeto observado"
+      ],
+      "statement": "Se 70% das menções coletadas em uma rede social foram classificadas como favoráveis, o percentual se refere às menções analisadas. Um mesmo perfil pode ter publicado várias delas.",
+      "correctAnswer": "C",
+      "explanation": "A unidade de análise é a publicação. Estimar a proporção de pessoas exige identificar usuários e definir a população pertinente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / Pesquisa aplicada",
+      "conceptId": "comparabilidade-de-pesquisas",
+      "mechanism": "ignorar-mudanca-de-instrumento",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Desenho da pesquisa: grupos, contato e tempo"
+      ],
+      "statement": "Antes de uma campanha, a pesquisa perguntou se o atendimento era rápido. Depois, perguntou se era satisfatório. A diferença de respostas mede diretamente a mudança na percepção de rapidez.",
+      "correctAnswer": "E",
+      "explanation": "Rapidez e satisfação são objetos diferentes. A mudança na pergunta impede interpretar a diferença como variação direta da percepção de rapidez."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / Pesquisa aplicada",
+      "conceptId": "indicadores-de-experiencia",
+      "mechanism": "escolher-medida-alinhada-ao-objetivo",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Indicadores: reconhecimento, associações, avaliação e experiência"
+      ],
+      "statement": "Para verificar se um novo guia ajudou o público a localizar o prazo de inscrição, a proporção de participantes que encontram o prazo em um teste de uso é pertinente.",
+      "correctAnswer": "C",
+      "explanation": "O indicador observa diretamente a tarefa que o guia pretende facilitar."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / Pesquisa aplicada",
+      "conceptId": "vies-de-formulacao",
+      "mechanism": "identificar-pergunta-indutiva",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Vieses: onde a conclusão pode falhar"
+      ],
+      "statement": "A pergunta “Quanto você gostou da melhoria evidente no atendimento?” é neutra porque permite escolher diferentes graus de satisfação.",
+      "correctAnswer": "E",
+      "explanation": "A formulação trata a melhoria como evidente e pressupõe uma reação favorável. Uma escala com várias opções não elimina essa indução."
     }
   ]
 }

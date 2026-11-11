@@ -1471,3 +1471,34 @@ Permanecem **29 arquivos únicos** e **297 exercícios C/E examinados em grau va
 **Revisão publicada:** commit `4e36faadd16f98114ef751568adb6ec8d00df473`. A [Resolução 1/2006-CN consolidada pela Câmara](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html), arts. **45-A, II e § 1º**, e **47, I e § 1º**, confirma condições ausentes na matriz resumida anterior: (a) indicações de emendas de comissão aprovadas devem ser encaminhadas ao Executivo **em cinco dias**, acompanhadas da ata, sem dispensar sua remessa à CMO para publicação; (b) emendas de bancada são apresentadas com ata aprovada por ao menos **3/4 dos deputados e 2/3 dos senadores** da UF; (c) dentro das até **11 emendas de bancada**, **3** destinam-se exclusivamente à continuidade de obras iniciadas, com **objeto certo e determinado** e registro conforme CF art. 165, § 15. A tabela do DC30 e três microcasos foram ajustados. Reconfirmados RCCN art. 90, § 3º, IV–V (parecer subsidiário e referência expressa pelo relator) e art. 100 (publicação de emendas antes da sessão), sem alteração dos dez gabaritos.
 
 **Estado:** DC30 ainda **não certificado integralmente**; as alterações esclarecem requisitos específicos da norma especial sem representar teste exaustivo de todos os atos posteriores ou disposições orçamentárias. **16/29 artigos modificados (55,2%)**, **1/29 certificado (DC29, 3,4%)**.
+
+
+## Bloco 32: catálogo real, IDs e divergência comprovada no hub (11/11/2026)
+
+**Verificação efetivamente realizada:** consultada a árvore do repositório e lidos os arquivos `data/catalogo-materias-por-concurso.json` (schemaVersion 2), `data/concursos.json` e `3 - Materias/Direito Constitucional/direito-constitucional.md`, além dos seis artigos revisados no bloco 31. O concurso `camara-2026`, matéria `direito-constitucional`, registra **38 articleIds** no catálogo; os **38 são distintos dentro dessa lista**. Dentre eles, estão exatamente **uma vez cada** as identidades verificadas:
+- DC14: `art-b6f0d82c91a74e35`
+- DC23: `art-53a7d90f1b264c8e`
+- DC24: `art-8c7b2f4d50a963e1`
+- DC25: `art-6d8e3f041b9a52c7`
+- DC26: `art-1de8b5094cf736a2`
+- DC34: `art-5b41764164052519`
+
+**Importante:** o catálogo de 38 entradas refere-se à matéria constitucional inteira, **não é equivalente à trilha de 29 artigos PL** e não deve entrar na contagem de artigos auditados. A unicidade de 38 *referências no catálogo* foi conferida; **não houve inspeção individual do frontmatter de todos os 38 artigos do catálogo nem verificação automatizada de rotas no navegador**. As seis identidades citadas foram confrontadas diretamente com os respectivos arquivos.
+
+### NC-PL-029: hub de Direito Constitucional mantém identificação CAM-PL-020 obsoleta
+
+**Local confirmado:** `3 - Materias/Direito Constitucional/direito-constitucional.md` (hub de navegação), linhas **75 e 77**:
+- Na descrição de **DC23**, ainda consta “**CAM-PL-020 refinada na nota 14**”; entretanto DC23 define explicitamente que ele próprio abrange **CAM-PL-019 e CAM-PL-020** (arts. 1º a 24).
+- O link para **DC14** aparece rotulado “**CAM-PL-020, Regimento da Câmara, arts. 25–54**”, mas DC14 esclarece que os arts.25–54 são aprofundamento interno de **CAM-PL-004**, reservando CAM-PL-020 a DC23.
+
+**Classificação:** falha editorial real de **navegação e rastreabilidade**, sem evidência de colisão de `articleId` no catálogo JSON. **Prioridade P1** porque o hub pode induzir falsa cobertura do planejamento. **Reparo exato proposto:** atualizar a descrição de DC23 para “**CAM-PL-019 e CAM-PL-020 cobertas nesta nota, arts. 1º–24**” e o rótulo do link para DC14 para “**CAM-PL-004, aprofundamento de comissões, arts. 25–54**”, preservando caminhos, IDs e textos de conteúdo. Não alterar `CAM-PL-021` em DC24/25 nem `CAM-PL-022` em DC26, pois essas referências foram conferidas e estão coerentes.
+
+### Estado de pendências após inspeção de navegação
+
+- **NC-PL-025 e 026** seguem **ativas no corpo do DC34**, conforme leitura de SHA atual do bloco 31; lista de prerrogativas ainda cita art.13 V em vez de VI, e regra histórica de desconto do partido do Corregedor segue sem norma consolidada que a sustente como atual.
+- **NC-PL-027/028:** artigo DC34 contém menção à cautelar de três dias úteis, mas **não reúne o procedimento de RICD art.15/Ato da Mesa 180/2025 por inteiro**. Lacuna de completude, não falsidade do trecho existente.
+- **CAM-PL-020/022:** textos dos artigos 14, 23, 25 e 26 já mitigaram colisões; **NC-PL-029 é um defeito novo e localizado apenas no hub** encontrado nesta rodada.
+- **Próxima inspeção técnica:** mapear IDs do catálogo a todos os arquivos fonte, verificar aliases e rotas reais do website e realizar um teste de integridade dos links, caso haja execução do site em etapa apropriada. Uma verificação de 38 valores únicos **não comprova** automaticamente os 38 destinos.
+- **Nenhum artigo de estudo e nenhum hub foram editados nesta rodada**; esta fase continua de diagnóstico, com plano de correções pronto.
+
+**Indicador atualizado:** inventário PL de **29 arquivos** e **297 questões examinadas em profundidades distintas**, matriz de prazos/edital e catálogo analisados. **Diagnóstico da Fase 1 estimado em aproximadamente 98% do esforço de identificação**, mas foi descoberta NC-PL-029 e falta validar destinos do catálogo, resolver NC-PL-025–028, renderização Mermaid e controle pós-correção. **Não declarar Fase 1 concluída nem afirmar que 98% dos artigos estão corretos ou certificados.** A única certificação formal explicitamente observada no relatório histórico paralelo continua sendo DC29, sujeita à verificação de avanços posteriores.

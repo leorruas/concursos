@@ -157,7 +157,7 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
       const unitOf=q=>q.unitId||(q.sessionScope==='mixed'?null:sources.get(q.sourceId)?.unitId)||subject.legacySourceUnits?.[q.sourceId]||null;
       const selected=[...sources.values()].filter(s=>s.concursoId===contest.id&&(s.subjectId===subject.id||qs.some(q=>q.sourceId===s.id))).map((s,i)=>({...s,_order:i})).sort((a,b)=>a.date.localeCompare(b.date)||(Date.parse(a.startedAt||a.date)-Date.parse(b.startedAt||b.date))||a._order-b._order);
       // Baterias mistas alimentam métricas e lacunas, mas não substituem o checkpoint curricular de retomada.
-      const latest=selected.filter(s=>s.subjectId===subject.id).at(-1);
+      const latest=selected.filter(s=>s.sessionScope!=='mixed'&&s.subjectId!=='diagnostico-misto'&&(!s.subjectId||s.subjectId===subject.id)).at(-1);
       const modeResults={};for(const mode of [...new Set(qs.map(modes))])modeResults[mode]={...count(qs.filter(q=>modes(q)===mode)),meaning:mode==='aprendizagem'?'aprendizagem-observada':mode==='revisao'?'recuperacao; espacamento deve ser verificado':'desempenho-no-recorte; conferir calibração e formato'};
       const byId=new Map(qs.map(q=>[q.id,q]));
       const gaps=[];

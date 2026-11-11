@@ -5,7 +5,7 @@ title: "Produção editorial e design"
 type: "conceito"
 status: "ativo"
 created: 2026-07-20
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Produção editorial e design
 
@@ -279,6 +279,17 @@ O padrão recorrente é de **fronteira**:
 - plano × enquadramento;
 - legenda × crédito;
 - marca × identidade visual.
+
+## Adaptação Câmara 2026: treino Cebraspe (itens inéditos)
+
+O programa da Câmara abrange produção gráfica, digital, audiovisual e editorial. Os itens originais abaixo verificam diferenças entre conceitos próximos; **não se atribui sua autoria à Cebraspe**.
+
+- **Item 1.** A existência de sangria em um arquivo gráfico garante que todos os textos próximos às bordas estarão preservados após o corte. **Errado.** Sangria e margem de segurança tratam riscos diferentes.
+- **Item 2.** Um PDF tecnicamente válido para um fluxo de impressão pode, ainda assim, apresentar problemas de ordem de leitura e acessibilidade digital. **Certo.** Conformidade de pré-impressão não equivale a acessibilidade do documento.
+- **Item 3.** O valor de PPI de uma imagem, isoladamente, determina a quantidade de pixels efetivamente exibidos em uma página web responsiva. **Errado.** Dimensões em pixels e regras de apresentação também importam.
+- **Item 4.** O roteiro técnico de um vídeo pode especificar enquadramentos, som e instruções de produção que não são necessariamente descritos no roteiro literário. **Certo.** São documentos com funções complementares e diferentes níveis de detalhamento.
+
+**Remissões:** [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade|Design gráfico]], [[3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais|Pré-impressão]], [[3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao|Projeto gráfico]] e [[3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao|Projeto audiovisual]]. **Verificação pendente:** conferir critérios WCAG e ISO, especificações gráficas dependentes de fornecedor, fontes de tipografia e itens legados.
 
 ## Tensões e pegadinhas
 

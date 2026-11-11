@@ -5,7 +5,7 @@ title: "Navegação web, anatomia de URLs, operadores de busca avançada e priva
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Navegação web, anatomia de URLs, operadores de busca avançada e privacidade no navegador
@@ -43,7 +43,7 @@ flowchart LR
 - **Porta**: Endereço lógico do serviço (oculta quando se usam as portas padrão 80 para HTTP e 443 para HTTPS);
 - **Caminho (*Path*)**: Estrutura hierárquica de diretórios ou rota virtual do aplicativo web;
 - **Parâmetros de Consulta (*Query String*)**: Iniciados pelo caractere `?` e separados entre si por `&`, passam variáveis de busca para o servidor (ex.: `?termo=reforma&ano=2026`);
-- **Fragmento (*Anchor / Hash*)**: Iniciado pelo caractere `#`, é processado exclusivamente pelo navegador local para rolar a tela diretamente até a seção correspondente, **sem ser enviado na requisição HTTP ao servidor**.
+- **Fragmento (*Anchor / Hash*)**: Iniciado pelo caractere `#`, o fragmento identifica uma referência dentro da representação do recurso. Pode orientar rolagem a um elemento, estado ou rota de uma aplicação web no cliente. **O fragmento não é enviado na requisição HTTP ao servidor**.
 
 ---
 
@@ -148,7 +148,7 @@ Um servidor acessa um site via Janela Anônima, baixa um arquivo em formato `.xl
 
 ### Caso 4: Papel do fragmento (#) na URL
 Um desenvolvedor compartilha o link `https://www.camara.leg.br/noticias#votacao-plenario`. Ao analisar o tráfego HTTP no servidor web da Câmara, ele nota que o texto `#votacao-plenario` não aparece nas requisições recebidas pelo servidor.
-*Análise:* O comportamento decorre do padrão técnico da RFC 3986. O fragmento iniciado por `#` (âncora) é uma instrução voltada exclusivamente ao **cliente (navegador)** para posicionar o foco de rolagem da tela em um elemento HTML com aquele identificador (`id`). O navegador omite o fragmento ao enviar a requisição HTTP ao servidor remoto.
+*Análise:* O comportamento decorre do padrão técnico da RFC 3986. O fragmento iniciado por `#` é interpretado no lado do **cliente** e não integra a requisição HTTP ao servidor. Pode identificar um elemento de página para navegação, mas aplicações web também o utilizam para roteamento ou estado local. O fato de ele não constar do pedido HTTP não determina seu uso visual.
 
 ---
 
@@ -232,3 +232,5 @@ Um desenvolvedor compartilha o link `https://www.camara.leg.br/noticias#votacao-
 | `inurl:` | Palavra na URL | `inurl:noticia` | `inurl: noticia` |
 | `OR` | Disjunção booleana | `deputado OR senador` | `deputado or senador` (minúsculo falha) |
 | `*` | Curinga para palavras | `"regimento * da câmara"` | — |
+
+> **Revisão (11/11/2026):** refinado o conceito de fragmento de URL, conforme TI-045. Referência: [RFC 3986, seção 3.5](https://www.rfc-editor.org/rfc/rfc3986#section-3.5). Os operadores de busca dependem de mecanismos e versões, e sua sintaxe deve ser conferida no serviço utilizado.

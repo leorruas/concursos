@@ -37,7 +37,7 @@ Uma política de marca pode prever **princípios**, **padrões**, **pontos de de
 
 ## Arquitetura: quem assina cada serviço?
 
-A classificação monolítica (*branded house*), de marcas independentes (*house of brands*), endossada e híbrida já está na nota 109. O desafio gerencial é escolher **quanto da identidade principal aparece, como as relações são explicitadas e que consequências isso traz à descoberta e à confiança nos serviços**.
+O espectro de relações de marca de **Aaker e Joachimsthaler (2000)** apresenta quatro estratégias básicas: **marcas independentes (*house of brands*)**, **marcas endossadas (*endorsed brands*)**, **submarcas (*subbrands*)** e **marca dominante (*branded house*)**. “Híbrida” descreve a combinação prática de estratégias em um mesmo portfólio e **não é o nome de um dos quatro polos do espectro original**. A distinção foi corrigida também na nota 109. O desafio gerencial é escolher **quanto da identidade principal aparece, como as relações são explicitadas e que consequências isso traz à descoberta e à confiança nos serviços**.
 
 **Marca institucional:** identifica a organização responsável. **Marca de serviço:** identifica uma oferta ou interface. **Submarca:** identificação vinculada à marca-mãe, com certo grau de diferenciação. **Marca endossada:** identificação própria com chancela explícita da marca principal. **Portfólio:** conjunto das marcas e identificações administradas. Esses objetos são distintos: uma marca de serviço pode estar subordinada a uma arquitetura monolítica, endossada ou híbrida.
 
@@ -57,7 +57,7 @@ São operações diferentes, ainda que possam coexistir.
 
 | Operação | Mecanismo | Exemplo abstrato | Fronteira |
 | :--- | :--- | :--- | :--- |
-| **Extensão de marca** | Aplicar marca existente a nova oferta ou categoria | Marca de serviço passa a identificar nova funcionalidade | Não é apenas atualizar sua identidade visual |
+| **Extensão de marca (sentido amplo)** | Aplicar marca existente a nova oferta, na categoria atual ou em outra | Marca de serviço identifica nova oferta | Categoria atual: extensão de linha; nova categoria: extensão de categoria |
 | **Extensão de linha** | Ampliar variantes dentro de categoria já atendida | Novas modalidades de uma mesma oferta | Distinguir de entrada em outra categoria |
 | **Submarca** | Criar identificação subordinada à marca principal | Nome de programa associado à instituição | Não pressupõe independência total |
 | **Co-branding** | Associar duas marcas em iniciativa conjunta | Projeto com duas organizações identificadas | Não equivale a simples citação de parceiro |
@@ -160,6 +160,17 @@ Uma **auditoria de identidade visual** pode estimar a frequência de uso correto
 **Itens 3 e 6 preexistentes:** ambos **Errado**, por troca de unidades e critérios, respectivamente. O item 3 extrapola a conformidade gráfica para opiniões dos cidadãos; o item 6 confunde aplicação correta de marca com impessoalidade. **Itens 1, 2, 4 e 5 ainda não receberam cotejo autoral ou técnico completo nesta passagem**. A arquitetura monolítica, as submarcas e as extensões devem ser verificadas nas obras de Keller e Aaker, sem impor automaticamente esses modelos comerciais à instituição legislativa.
 
 **Treino C/E inédito:** “Um índice de 95% de peças em conformidade visual mede diretamente a proporção de cidadãos que confiam na Câmara, desde que o levantamento de peças tenha sido censitário.” **Errado.** Mesmo a inspeção de todas as peças não constitui pesquisa das opiniões de pessoas.
+
+
+## Auditoria autoral do espectro e das extensões (11/11/2026)
+
+O texto de [David A. Aaker e Erich Joachimsthaler, *The Brand Relationship Spectrum* (2000)](https://cmr.berkeley.edu/2000/08/42-4-the-brand-relationship-spectrum-the-key-to-the-brand-architecture-challenge/) organiza as relações entre marcas em **quatro estratégias básicas e nove subestratégias**, usando a **participação relativa de cada marca na decisão de compra/uso** (*driver role*) como distinção importante. Em marcas endossadas, a marca endossada tende a ser principal e a endossante funciona como suporte; em submarcas, a marca principal e a subordinada compartilham mais diretamente esse papel. São descrições de um **contínuo**, não testes mecânicos que possam classificar qualquer serviço sem pesquisa.
+
+A tabela de operações desta nota também foi cotejada com [Kotler e Keller, *A Framework for Marketing Management* (2016), tabela “Branding New Products”](https://ebook.app.hcu.edu.gh/wp-content/uploads/2024/09/Philip-T-Kotler-Kevin-Lane-Keller-A-Framework-for-Marketing-Management-2016-Pearson-libgen.li_.pdf): **extensão de linha** é lançamento sob a marca principal **dentro de categoria já atendida**; **extensão de categoria** usa a marca existente **em categoria nova**. Ambas podem ser tratadas como espécies de **extensão de marca** em sentido amplo. A redação anterior sobre “extensão de marca” era ampla demais para separar as duas sem explicitar esse vínculo taxonômico.
+
+**Item 2 preexistente: Errado, confirmado** pela distinção entre marcas independentes, submarcas e endosso: um programa com nome próprio e assinatura da instituição não prova arquitetura de marcas independentes. **Item 4: Certo, confirmado com ressalva terminológica:** a distinção entre extensão de linha e extensão para nova categoria depende da categoria de produto/serviço, e **extensão de marca** pode ser um termo guarda-chuva na literatura de Keller. **Treino C/E inédito:** “No espectro de Aaker e Joachimsthaler, as quatro estratégias básicas são marca monolítica, marcas independentes, marcas endossadas e arquitetura híbrida, sem categoria específica de submarcas.” **Errado.** A quarta estratégia que faltava na enumeração é a de **submarcas**; híbrida não ocupa esse lugar na taxonomia autoral.
+
+**Limite:** os modelos são comerciais e seu uso em órgão público exige adaptação de unidades, finalidades e relações institucionais. A leitura feita cobre o artigo de arquitetura e a tabela de extensões, sem certificar os demais gabaritos e exemplos desta nota.
 
 ## Relações com outros temas
 

@@ -1502,3 +1502,10 @@ Permanecem **29 arquivos únicos** e **297 exercícios C/E examinados em grau va
 - **Nenhum artigo de estudo e nenhum hub foram editados nesta rodada**; esta fase continua de diagnóstico, com plano de correções pronto.
 
 **Indicador atualizado:** inventário PL de **29 arquivos** e **297 questões examinadas em profundidades distintas**, matriz de prazos/edital e catálogo analisados. **Diagnóstico da Fase 1 estimado em aproximadamente 98% do esforço de identificação**, mas foi descoberta NC-PL-029 e falta validar destinos do catálogo, resolver NC-PL-025–028, renderização Mermaid e controle pós-correção. **Não declarar Fase 1 concluída nem afirmar que 98% dos artigos estão corretos ou certificados.** A única certificação formal explicitamente observada no relatório histórico paralelo continua sendo DC29, sujeita à verificação de avanços posteriores.
+
+
+### DC30: composição da CMO e competência própria das Mesas para emendas (11/11/2026)
+
+**Alteração efetivamente publicada em DC30:** commit `c98f430d09bef64f34fce646e3a77efa4dcdf0ec`. O cotejo da [Resolução 1/2006-CN consolidada na Câmara](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html) revelou distinções não explicitadas antes: **CMO tem 40 titulares (30 deputados, 10 senadores) e igual número de suplentes** (art. 5º); **comissões** podem apresentar até **6 emendas de apropriação + 2 de remanejamento** (art. 44, § 1º), enquanto **Mesas Diretoras de cada Casa** têm limite próprio de **4 + 4** (art. 44, § 2º). DC30 corrigido na matriz e no microcaso. O material preserva os dez gabaritos, que não cobram diretamente essa diferença. **DC30 permanece pendente de certificação integral**; não se presume verificação exaustiva do rito orçamentário pela revisão de alguns dispositivos.
+
+**Indicadores deste recorte de auditoria:** 16/29 artigos com ao menos uma alteração e DC29 como único certificado registrado nesta trilha. Este lançamento **não substitui** outras frentes de diagnóstico ou revisões concorrentes; a contagem deve ser reconciliada com eventuais alterações externas.

@@ -26,6 +26,7 @@ Mapeamento de tópicos e organização das notas de Administração Pública par
 - [[3 - Materias/Administracao Publica/04 - nova governanca publica|Nova Governança Pública (CAM-AP-004)]]: NPG, modelos e interdependência.
 - [[3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional|Redes de cooperação (CAM-AP-006)]]: coordenação e limites interinstitucionais.
 - [[3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada|Coprodução e participação (CAM-AP-008)]]: colaboração na produção dos serviços, responsabilidades e inclusão.
+- [[3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor|Parcerias com setor privado e terceiro setor (CAM-AP-007)]]: formas de prestação e regimes jurídicos.
 - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]]: LAI, LGPD, sigilo, recursos, ouvidoria e controle social.
 - Conceitos de governabilidade, governança e intermediação de interesses.
 - Accountability (responsabilização e prestação de contas).

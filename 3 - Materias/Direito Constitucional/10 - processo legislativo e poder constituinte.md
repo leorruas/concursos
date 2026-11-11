@@ -5,7 +5,7 @@ title: "🔄 Processo legislativo e poder constituinte"
 type: "conceito"
 status: "ativo"
 created: 2026-06-15
-updated: 2026-11-08
+updated: 2026-11-11
 ---
 
 # 🔄 Processo legislativo e poder constituinte
@@ -35,6 +35,8 @@ O processo legislativo compreende a elaboração de:
 5. medidas provisórias;
 6. decretos legislativos;
 7. resoluções.
+
+**Disciplina da produção normativa, art. 59, parágrafo único:** uma **lei complementar** dispõe sobre **elaboração, redação, alteração e consolidação das leis**, regulamentada pela **LC nº 95/1998**, sem que isso converta toda matéria legislativa em matéria reservada a lei complementar. A função dessa LC é estabelecer regras de técnica legislativa, distinta do quórum de aprovação e das reservas materiais específicas.
 
 Pegadinha: essa lista de **espécies normativas** não deve ser confundida com a hierarquia simplista de que toda lei complementar seria superior a toda lei ordinária. A diferença central envolve matéria constitucionalmente reservada e quórum de aprovação.
 
@@ -410,6 +412,8 @@ Duas divergências literais merecem atenção:
 | **7. Deliberação em Plenário** | Dois turnos de **discussão e votação nominal** | **Cinco sessões de interstício** entre turnos; **308 votos favoráveis** em cada turno na Câmara (art. 202, §§ 6º e 7º) | Usar **maioria absoluta (257)** ou exigir **dois terços (342)** |
 | **8. Revisão e conclusão bicameral** | Senado aprecia PEC, observados os próprios procedimentos; alterações do Senado recebidas na Câmara seguem o rito do art. 202 | **O texto precisa alcançar aprovação constitucional das duas Casas**, sem sanção nem veto do Presidente | Considerar suficiente votação da Câmara ou supor que emenda do Senado siga diretamente à promulgação |
 
+**Aplicação subsidiária do rito dos projetos de lei (RICD, art. 202, § 8º):** as disposições regimentais sobre tramitação e apreciação de projetos de lei aplicam-se **às PECs apenas no que não colidirem com as regras especiais do art. 202**. Isso complementa, sem afastar, o procedimento constitucional de admissibilidade, comissão especial, dois turnos, interstícios e votação nominal. Não presumir que a PEC segue integralmente o rito ordinário de lei, tampouco que procedimentos gerais compatíveis sejam sempre proibidos.
+
 **Unidade do prazo:** o regimento usa **sessões**, e não necessariamente dias civis. Por isso, “40 sessões da comissão especial” e “40 dias úteis” não são expressões intercambiáveis. Ver regras de contagem do próprio Regimento para aferição de prazos reais.
 
 **CCJC × comissão especial:** a **CCJC** examina a **admissibilidade** da PEC, inclusive sua compatibilidade com os limites constitucionais; a **comissão especial** examina seu **mérito e as emendas**. A ordem faz sentido: antes de discutir como mudar a Constituição, verifica-se se a proposta pode tramitar segundo o poder de reforma constitucional.
@@ -536,3 +540,14 @@ A separação dos Poderes conecta esta nota a [[3 - Materias/Direito Constitucio
 - STF. ADI 815 — cláusulas pétreas como limites ao poder constituinte derivado, e não ao originário.
 - Constituição Federal, arts. 47, 59 a 69.
 - [[00 inbox/15-06-2026|Inbox de 15/06/2026]].
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Escopo conferido:** conteúdo de poder constituinte, espécies do art. 59, lei ordinária versus complementar e jurisprudência do Tema 1.352, limites formais/circunstanciais/materiais ao poder reformador e tramitação de PEC na Câmara. Confrontado com o [texto atualizado da Constituição Federal, especialmente arts. 47, 59, 60, 61, 69, 93, 146 e 165](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), [RICD arts. 24 e 201–203](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e [tese do STF no Tema 1.352](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1352). Conferidos os **oito exercícios originais da expansão CAM-PL-011**, os **dez exercícios da expansão CAM-PL-015**, os respectivos casos progressivos e os exemplos das cláusulas pétreas. O texto utiliza categorias doutrinárias, não as confunde com dispositivos constitucionais literais.
+
+**NC-PL-056:** acrescentado o **parágrafo único do art. 59** da CF, que reserva à **lei complementar a disciplina de elaboração, redação, alteração e consolidação das leis**, situando a LC nº 95/1998 como norma de técnica legislativa. **NC-PL-057:** explicitado o **art. 202, § 8º, do RICD**, de aplicação **subsidiária** das regras de tramitação e apreciação de projetos de lei às PECs **naquilo que não colidir com o rito especial**. Preservadas as observações sobre divergências literais entre o RICD art. 201 e a CF art. 60, III e § 1º.
+
+**Gabaritos preservados, CAM-PL-011 (8):** **E, C, E, C, E, C, E, C**. **CAM-PL-015 (10):** **E, C, C, E, E, C, C, E, C, C**. **Dezoito questões existentes**, sem inversão constatada no recorte conferido. Nenhum enunciado ou questão adicionados ao inventário histórico.
+
+**Limites:** certificação jurídico-editorial do conteúdo e das referências efetivamente examinados em 11/11/2026. Não constitui verificação integral de toda a jurisprudência do poder constituinte, homologação de todos os limites implícitos doutrinários, desempenho do estudante, nem validação de renderização/publicação no GitHub Pages.

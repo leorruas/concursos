@@ -5,10 +5,18 @@ title: "Informatica"
 type: "hub"
 status: "ativo"
 created: 2026-05-25
-updated: 2026-09-14
+updated: 2026-11-11
 ---
 
 # Informática (Concursos)
+
+## Estado dos exercícios C/E para Câmara 2026
+
+Os artigos 03–30 reúnem **168 questões inéditas**. **13 enunciados originais têm gabarito NÃO HOMOLOGADO** e não devem ser aplicados como questões C/E de treino até correção: 03/Q6, 05/Q5, 07/Q5, 09/Q5, 13/Q1 e Q4, 18/Q3 e Q6, 21/Q4, 22/Q2, 24/Q4, 27/Q5 e 29/Q1. As propostas de reformulação são rascunhos, não itens já aprovados.
+
+A validação de sessões do concurso Câmara possui uma barreira para **enunciados coincidentes** com esses itens, definida em `scripts/camara-ti-question-guard.js`. Esse controle **não garante impedir paráfrases nem questões apresentadas fora do fluxo de validação**, e os testes Node.js do repositório ainda precisam ser executados. Para selecionar itens diretamente das notas, conferir antes o marcador de homologação de cada questão.
+
+Relatório específico: [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/10 - Tecnologia da Informacao e Dados - Consolidacao de gabaritos|Consolidação de gabaritos e pendências de Informática]].
 
 ## Acompanhamento
 - [[3 - Materias/Informatica/Avancos|Avanços e desempenho]]

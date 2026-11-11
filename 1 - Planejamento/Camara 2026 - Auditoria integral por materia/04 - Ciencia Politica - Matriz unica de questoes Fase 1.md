@@ -12,7 +12,7 @@ Fonte canônica de achados: [[1 - Planejamento/Camara 2026 - Auditoria integral 
 
 ## Resumo verificável do inventário
 
-**Fotografia de 11/11/2026:** **23 notas canônicas ou variantes** (duas variantes distintas do número 10, mais 11–31), **199 itens inéditos C/E extraídos diretamente do texto**, **164 com indicação de cotejo seletivo prévio** e **35 somente lidos, aguardando conferência independente**. **0 itens declarados integralmente certificados nesta matriz.** Não houve entradas duplicadas na chave `articleId#número`, e todos os 199 registros possuem gabarito original identificado. O total **199** é a contagem diretamente reextraída das notas atuais e substitui **estimativas anteriores**, não as recontagens de itens repetidos em múltiplos blocos de auditoria.
+**Fotografia de 11/11/2026:** **23 notas canônicas ou variantes** (duas variantes distintas do número 10, mais 11–31), **199 itens inéditos C/E extraídos diretamente do texto**, **173 com indicação de cotejo seletivo prévio** e **26 somente lidos, aguardando conferência independente**. **0 itens declarados integralmente certificados nesta matriz.** Não houve entradas duplicadas na chave `articleId#número`, e todos os 199 registros possuem gabarito original identificado. O total **199** é a contagem diretamente reextraída das notas atuais e substitui **estimativas anteriores**, não as recontagens de itens repetidos em múltiplos blocos de auditoria.
 
 **Atenção ao significado:** as 82 marcações de cotejo seletivo são *rastros de uma revisão dirigida*, não homologação final. A referência aponta a um bloco do [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/03 - Ciencia Politica - Fase 1|relatório 03]], que pode confrontar apenas o fundamento decisivo, não cada cláusula da questão. A conversão futura para `confirmado integralmente` requer conferir o enunciado completo, fonte, justificativa, gabarito, exceções e vigência. Itens `somente lidos` também podem estar corretos ou incorretos; a ausência de cotejo não indica erro.
 
@@ -222,15 +222,15 @@ Fonte: `3 - Materias/Estado e Democracia/20 - democracia representativa particip
 
 | Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
 | --- | --- | --- | --- |
-| `art-4a6d2f90b18e753c#1` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-4a6d2f90b18e753c#2` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-4a6d2f90b18e753c#3` | Errado | Somente lido | Pendente: cotejo por item |
-| `art-4a6d2f90b18e753c#4` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-4a6d2f90b18e753c#5` | Errado | Somente lido | Pendente: cotejo por item |
-| `art-4a6d2f90b18e753c#6` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-4a6d2f90b18e753c#7` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-4a6d2f90b18e753c#8` | Errado | Somente lido | Pendente: cotejo por item |
-| `art-4a6d2f90b18e753c#9` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-4a6d2f90b18e753c#1` | Certo | Cotejo seletivo | Relatório 03, bloco 30 |
+| `art-4a6d2f90b18e753c#2` | Certo | Cotejo seletivo | Relatório 03, bloco 30 |
+| `art-4a6d2f90b18e753c#3` | Errado | Cotejo seletivo | Relatório 03, bloco 30 |
+| `art-4a6d2f90b18e753c#4` | Certo | Cotejo seletivo | Relatório 03, bloco 30 |
+| `art-4a6d2f90b18e753c#5` | Errado | Cotejo seletivo | Relatório 03, bloco 30 |
+| `art-4a6d2f90b18e753c#6` | Certo | Cotejo seletivo | Relatório 03, bloco 30 |
+| `art-4a6d2f90b18e753c#7` | Certo | Cotejo seletivo | Relatório 03, bloco 30 |
+| `art-4a6d2f90b18e753c#8` | Errado | Cotejo seletivo | Relatório 03, bloco 30 |
+| `art-4a6d2f90b18e753c#9` | Certo | Cotejo seletivo | Relatório 03, bloco 30 |
 | `art-4a6d2f90b18e753c#10` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |
 | `art-4a6d2f90b18e753c#11` | Errado | Cotejo seletivo | Relatório 03, bloco 6 |
 | `art-4a6d2f90b18e753c#12` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |

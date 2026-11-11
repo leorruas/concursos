@@ -166,7 +166,7 @@ flowchart TD
  I1 -->|Prossegue| I3["Defesa: 10 dias úteis; até 8 testemunhas"]
  I3 --> I4["Instrução improrrogável: 30 dias úteis para suspensão; 40 para perda"]
  I4 --> I4A["Parecer do relator: 10 dias úteis após a instrução"]
- I4A --> I5
+ I4A --> I5["Discussão e votação após parecer e instrução"]
  I5 --> I6{"Conselho vota parecer nominalmente"}
  I6 -->|Rejeitado| I7["Designação de novo relator: art. 14, § 4º, V"]
  I7 --> I8["Novo parecer submetido à discussão e votação"]

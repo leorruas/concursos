@@ -177,6 +177,16 @@ O [critério 1.4.11, nível AA](https://www.w3.org/TR/WCAG22/#non-text-contrast)
 
 **Errado.** Fixação é evidência do comportamento ocular, não confirmação de interpretação. **Mecanismo do erro:** transposição de medida perceptiva para resultado cognitivo.
 
+## Calibração por prova real: Correios 2011, design e tipografia (11/11/2026)
+
+Foram conferidos na primeira página do [caderno oficial CESPE/UnB, Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf) e no [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/Gab_Definitivo_ECT11_028_83.PDF) os itens **66 E, 68 C, 69 E, 70 E, 74 E, 75 C, 76 C, 77 E, 78 C, 79 C e 80 E**. Esses são itens **reais**, distintos dos C/E inéditos deste artigo.
+
+**Enfoques observados:** **66 E** confronta *kerning* com espaçamento geral; **70 E** aplica incorretamente o termo ligatura à união genérica de letras e números; **74 E** troca dimensões do plano; **75 C** admite equilíbrio assimétrico; **76 C** reconhece alinhamento como linha implícita; **77 E** restringe a escala a uso exclusivamente formal e objetivo; **79 C** identifica ponto, linha e plano como fundamentos. **69 E** rejeita a exigência de uso exclusivo de cores análogas em degradê; **78 C** reconhece a relação entre pigmentação, iluminação e aparência; **80 E** rejeita equivalência obrigatória de temperatura entre complementares.
+
+**Ressalva para o item 68 C:** o caderno afirma uma relação entre saturação/croma, pureza e teor de cinza. Preservar seu gabarito **histórico oficial** sem transformar a redação em definição universal de croma para todos os modelos técnicos de cor. Essa ambiguidade merece estudo distinto dos modelos HSV/HSL, CIELAB e sistemas de cor. Não foram alterados os gabaritos didáticos já existentes nesta nota.
+
+**Uso para novos simulados:** priorizar inversões de termos tipográficos, propriedades de cor convertidas em absolutos e distinção entre mecanismos compositivos. [Registro individual do bloco 65–80 no índice do corpus](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md). A verificação aqui é do **enunciado e julgamento oficial** e não certifica toda a literatura teórica que a banca utilizou em 2011.
+
 ## Relações com outros temas
 
 **Projeto gráfico × diagramação:** sistema de composição e sua aplicação a conteúdos específicos. **Grid × template:** estrutura de referências versus modelo pronto. **Kerning × tracking:** pares específicos versus espaçamento geral. **Legibilidade × compreensibilidade:** distinção dos caracteres versus interpretação do sentido. **Hierarquia visual × hierarquia informacional:** destaque perceptivo versus prioridade de tarefa. **Contraste estético × critério WCAG:** recurso compositivo amplo versus requisito técnico de acessibilidade com escopo. **Gestalt × dados:** agrupamentos percebidos podem sugerir relações que precisam ser semanticamente verdadeiras.

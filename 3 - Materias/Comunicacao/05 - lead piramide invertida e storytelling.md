@@ -5,7 +5,7 @@ title: "Lead, pirâmide invertida e storytelling"
 type: "conceito"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Lead, pirâmide invertida e storytelling
 
@@ -98,6 +98,18 @@ Outra confusão plausível é apresentar narrativa e pirâmide invertida como es
 **Estrutura × gênero:** pirâmide invertida, narrativa e ampulheta são formas de organização; notícia, reportagem, editorial e artigo pertencem à discussão de gêneros.
 
 **Entrevista × gênero:** entrevistar alguém para obter uma declaração é técnica de apuração; publicar uma conversa como produto central pode configurar o gênero entrevista.
+
+## Cotejo com provas reais: lead, gênero e suporte (11/11/2026)
+
+O **lead** é a unidade de abertura; a **pirâmide invertida** organiza o texto pela relevância das informações; o **gênero** classifica a forma e função da produção jornalística. Essa distinção já estava correta nesta nota. Há uma ressalva de método: o resumo histórico que liga a pirâmide invertida a necessidades de edição é útil, mas **não determina uma causa tecnológica única**, nem converte uma técnica jornalística em regra para qualquer comunicado institucional.
+
+**Prova real já verificada no corpus:** [CNMP 2023, itens 91–95](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), com [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF). **91 Certo:** uso da pirâmide invertida em imprensa e plataformas digitais. **93 Certo:** há tipos de lead conforme o suporte e a proposta informativa. **94 Errado:** a forma do lead não é necessariamente idêntica em impresso e digital. **95 X (anulado):** não usar para ensinar julgamento C/E sobre aspas. Na [DPDF 2022, item 109, Errado](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF), a banca cobrou a interpretação do **texto específico** oferecido, sem impor que todo lead deva responder sempre às seis perguntas no mesmo parágrafo. As questões históricas já estavam no índice; esta revisão **não as soma novamente**.
+
+**C/E inédito 1.** “A estrutura de pirâmide invertida caracteriza necessariamente o gênero notícia, sendo incompatível com reportagens e textos de circulação digital.” **Errado.** É uma forma de organizar conteúdo, que pode aparecer em diversos gêneros e meios.
+
+**C/E inédito 2.** “Um texto pode abrir pela informação mais relevante e depois desenvolver narrativa cronológica sem que essa combinação elimine a distinção entre lead, estrutura e gênero.” **Certo.** Modelos híbridos são possíveis; sua adequação depende da finalidade do texto e do público.
+
+**Fonte e limite:** os gabaritos acima confirmam **o que a banca julgou em cada questão**, mas não representam verificação autoral integral das obras sobre narrativa e estrutura de ampulheta citadas na nota. Os exercícios novos são didáticos e separados de questões reais. O registro não altera o gabarito do item anulado 95.
 
 ## Relações com outros temas
 

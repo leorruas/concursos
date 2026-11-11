@@ -126,7 +126,7 @@ Diferentemente da recomendação padrão para gráficos de barras, **em gráfico
 > **Assertiva:** O histograma diferencia-se do gráfico de barras verticais por ser construído com barras adjacentes, sem espaçamento entre elas, visto que representa a distribuição de frequências de uma variável quantitativa contínua agrupada em intervalos de classe.
 >
 > **Gabarito:** **CERTO**  
-> **Comentário:** Definição canônica exata. No histograma, a continuidade da reta real no eixo $X$ exige que as barras sejam justapostas (sem espaço livre entre si). Já no gráfico de barras/colunas, o espaçamento entre as colunas é obrigatório para evidenciar que as categorias analisadas são entidades discretas e separadas.
+> **Comentário:** Histogramas representam classes contíguas de uma distribuição quantitativa, geralmente com retângulos adjacentes. Em gráficos categóricos, o uso de espaçamento é uma convenção visual útil, **não obrigação matemática universal**. O núcleo da distinção do enunciado está correto em sua apresentação convencional.
 
 ### Item 2
 > **Assertiva:** Em um histograma cujas classes possuem amplitudes desiguais, a altura de cada retângulo deve ser mantida estritamente igual à frequência absoluta da respectiva classe para assegurar a fidelidade visual dos dados.
@@ -149,14 +149,14 @@ Diferentemente da recomendação padrão para gráficos de barras, **em gráfico
 ### Item 5
 > **Assertiva:** A obrigatoriedade de iniciar o eixo quantitativo no valor zero absoluto aplica-se estritamente aos gráficos de barras e colunas, sendo metodologicamente aceitável que gráficos de linhas temporais utilizem eixos truncados para realçar variações sutis em torno de patamares elevados.
 >
-> **Gabarito:** **CERTO**  
-> **Comentário:** No gráfico de barras, o valor é codificado pelo comprimento/área da barra a partir da linha de base (o corte do zero gera o *Lie Factor* fraudulento). No gráfico de linhas, o valor é codificado pela posição do ponto e pela taxa de inclinação da curva; portanto, truncar o eixo vertical em linhas é legítimo para permitir a visualização de pequenas oscilações de alta relevância (como monitoramento de câmbio, inflação ou sinais vitais).
+> **Gabarito:** **NÃO HOMOLOGADO (regra absoluta de eixo)**  
+> **Comentário:** Para barras que codificam magnitude por comprimento, recomenda-se iniciar no zero para manter a proporção visual. Gráficos de linhas podem usar faixas verticais restritas quando adequadamente identificadas. Entretanto, o item afirma **“obrigatoriedade ... estritamente”**, sem admitir qualquer exceção ou outra codificação gráfica; isso torna a resposta CERTO excessivamente categórica. **Versão de treino:** “Em barras usadas para comparar magnitudes pelo comprimento, iniciar o eixo de valor em zero é a recomendação geral; gráficos de linhas podem empregar faixas verticais restritas, desde que a escala esteja clara.” **Gabarito reformulado: CERTO.**
 
 ### Item 6
 > **Assertiva:** Em uma distribuição de frequências representada por um histograma assimétrico positivo (à direita), a média aritmética situa-se tipicamente à esquerda da mediana e da moda.
 >
 > **Gabarito:** **ERRADO**  
-> **Comentário:** Na assimetria positiva (à direita), a cauda alonga-se para a direita devido à presença de valores extremos elevados. Esses valores puxam a média aritmética para cima, resultando na ordenação: $\text{Moda} < \text{Mediana} < \text{Média}$. Portanto, a média situa-se **à direita** da mediana e da moda.
+> **Comentário:** Em exemplos didáticos de distribuições **unimodais** com assimetria positiva, costuma-se observar média à direita da mediana e da moda. Essa ordem não é teorema para todas as distribuições assimétricas, especialmente as multimodais. Como o enunciado diz **“tipicamente”** e coloca a média à esquerda, o gabarito ERRADO é defensável no modelo didático habitual, com essa ressalva.
 
 ---
 
@@ -169,3 +169,5 @@ Diferentemente da recomendação padrão para gráficos de barras, **em gráfico
 5. **CÂMARA DOS DEPUTADOS.** *Diretrizes para Publicação de Dados Abertos e Gráficos da Transparência Legislativa.* Brasília: Cenin, 2024.
 
 > **Revisão editorial (11/11/2026):** ajustes localizados a partir da auditoria Câmara 2026, para explicitar o alcance das regras e separar exemplos hipotéticos de fatos. Os itens inéditos continuam sujeitos à validação integral de enunciados, comentários e referências.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** Itens 1–4 e 6 mantêm gabaritos (C, E, E, C, E); item 5 **não homologado** por transformar regra de design em obrigação universal. Reformulação e resultado sugeridos registrados no próprio comentário.

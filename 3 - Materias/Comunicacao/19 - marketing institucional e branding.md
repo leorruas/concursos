@@ -5,7 +5,7 @@ title: "Marketing institucional e branding"
 type: "conceito"
 status: "ativo"
 created: 2026-07-27
-updated: 2026-10-03
+updated: 2026-11-11
 ---
 # Marketing institucional e branding
 
@@ -194,6 +194,16 @@ A FGV explora principalmente fronteiras entre categorias e aplicação a casos:
 - rejeitar alternativas que tratam a percepção da marca como totalmente controlável pela organização.
 
 Em provas recentes, a FGV cobrou diretamente os 4 Ps, segmentação psicográfica e, na NAV Brasil 2026, a relação entre touchpoints, experiência do usuário e brand equity, além da segmentação do público interno de serviços.
+
+## Conferência conceitual: AMA, composto de marketing e marca (11/11/2026)
+
+A [American Marketing Association, definições oficiais de marketing e marca](https://www.ama.org/the-definition-of-marketing-what-is-marketing/) descreve marketing como atividades e processos de **criação, comunicação, entrega e troca de ofertas que geram valor para diferentes públicos e para a sociedade**. A formulação inclui **sociedade**, o que ajuda a explicar por que marketing não se reduz a anúncio, promoção ou venda. A mesma fonte define **marca**, em sua acepção identificadora, como nome, termo, desenho, símbolo ou característica que identifica e distingue ofertas. A referência da **ISO**, citada separadamente pela AMA, acentua associações e imagens mentais e o caráter intangível do ativo. **Marca, identidade visual, imagem, reputação e brand equity não são sinônimos**: as distinções nos demais artigos requerem os respectivos autores e medidas.
+
+No artigo da [AMA sobre os quatro Ps](https://www.ama.org/marketing-news/the-four-ps-of-marketing/), o composto **produto, preço, praça e promoção** é apresentado como ferramenta de decisões. **Preço** é contrapartida monetária em sua definição estrita; a ampliação para **tempo, esforço e barreiras percebidas** é uma **aplicação de marketing social e desenho de serviços**, não transcrição literal da definição básica da AMA. **Promoção** é variável do mix e não sinônimo de desconto. No setor público, uma orientação que torna um serviço mais fácil de encontrar pode criar valor sem transformar cidadão em cliente comercial ou justificar promoção pessoal de agentes públicos.
+
+**Revisão editorial:** o artigo de base fazia referência genérica a ocorrências FGV (NAV Brasil, NITTRANS e DPE-RO) sem apresentar número de questão, prova e gabarito oficial no próprio texto. Tratar tais afirmações como **pistas de estudo**, não evidência quantificada de frequência da banca. A fonte AMA sustenta as definições acima, mas não atesta que os 7 Ps, os níveis de brand equity de Aaker ou as classificações de Kotler tenham sido integralmente validados nesta rodada.
+
+**Três exercícios inéditos C/E:** **(1)** “No composto clássico de marketing, promoção é sinônimo necessário de redução de preço do produto.” **Errado:** promoção e preço são dimensões distintas. **(2)** “A definição de marketing da AMA inclui processos de criação, comunicação e entrega de ofertas e faz referência ao valor para a sociedade.” **Certo:** formulação da associação. **(3)** “A padronização da identidade visual de um serviço público comprova, por si só, melhoria da confiança do cidadão.” **Errado:** aplicação consistente é um processo; confiança requer evidência de percepção.
 
 ## Relações com outros temas
 

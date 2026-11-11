@@ -5,7 +5,7 @@ title: "Sanção, veto, promulgação e publicação: etapas, prazos e competên
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-11
 aliases:
   - "Sanção expressa e tácita"
   - "Veto presidencial total e parcial"
@@ -52,6 +52,8 @@ Segundo o **art. 66, caput e §§ 1º–3º**, a Casa onde terminou a votação 
 
 A **sanção tácita não decorre da publicação da lei**, mas do **decurso do prazo constitucional sem veto**. O **veto** não se forma por silêncio: deve ser **expresso e fundamentado**, e sua motivação deve ser comunicada ao **presidente do Senado Federal**. O veto é parte da formação legislativa, não sentença judicial de inconstitucionalidade.
 
+**Irretratabilidade do veto e preclusão da etapa:** conforme o STF (ADPFs 714, 715 e 716; ADPF 893), **manifestado o veto, o Presidente não pode simplesmente retirá-lo para sancionar a parte antes vetada, nem apresentar veto adicional tardio a dispositivo já sancionado**. A manifestação do Executivo encerra sua etapa decisória naquele projeto, cabendo ao Congresso apreciar o veto apresentado. Essa distinção complementa a vedação de exercer veto após os 15 dias úteis.
+
 **Veto jurídico × controle de constitucionalidade:** o presidente pode discordar da constitucionalidade de projeto aprovado, porém a análise de eventual inconstitucionalidade de lei em vigor continua sujeita aos mecanismos constitucionais de controle. **Veto por inconstitucionalidade não significa decisão jurisdicional definitiva**.
 
 ### Prazos: dia útil, hora e dia corrido não são permutáveis
@@ -96,6 +98,8 @@ A decisão sobre veto não é individual da Câmara ou do Senado. O **art. 57, �
 **Votação ostensiva:** o texto atual do § 4º **não contém** a exigência antiga de **escrutínio secreto**, suprimida pela **Emenda Constitucional nº 76/2013**. Candidatos podem encontrar impressões antigas da Constituição com a previsão revogada. Em prova de legislação vigente, **não se deve ensinar que a rejeição de veto exige voto secreto**.
 
 **Deliberação no tempo:** os **30 dias** contam da **protocolização da mensagem de veto na Presidência do Senado**, segundo RCCN, art. 104-A. Expirado o prazo sem decisão, aplica-se o § 6º do art. 66, com inclusão na ordem do dia da **sessão conjunta imediata** e sobrestamento até sua conclusão. Isso **não transforma automaticamente todas as sessões separadas da Câmara e do Senado em sessões impossíveis**.
+
+**Prazo vencido não extingue a competência congressual:** o STF, na **ADI 5.706 (2024)**, esclareceu que o atraso na apreciação do veto acarreta inclusão em pauta e sobrestamento previstos no art. 66, § 6º, **sem caducidade do veto nem perda da competência parlamentar para apreciá-lo**. A sanção tácita é consequência do **silêncio presidencial**, não da demora do Congresso.
 
 **Calendário regimental:** o RCCN, art. 106, prevê convocação da sessão conjunta para apreciar vetos na **terceira terça-feira de cada mês** e, se não ocorrer, na **terça-feira seguinte**, sem afastar as exigências constitucionais sobre a apreciação e o sobrestamento. Calendário de sessão **não é o mesmo que prazo do veto presidencial**.
 
@@ -238,3 +242,14 @@ Organizar a resposta por **ato, finalidade, sujeito competente, prazo, consequê
 - [Lei Complementar nº 95/1998, art. 8º, Planalto](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm).
 
 **Critério de atualização:** normas e fontes oficiais conferidas em **07/11/2026**. A redação do art. 66, § 4º, alterada pela EC nº 76/2013, deve prevalecer sobre reproduções históricas que ainda exibam voto secreto. Questões inéditas elaboradas para treino Cebraspe, sem afirmar correspondência literal a provas oficiais, desempenho ou retenção pessoal.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Cotejo realizado:** texto e quadros, **oito etapas do caso progressivo**, **dois exemplos comentados** e **dez questões C/E**, comparados à [Constituição Federal, arts. 60, 65 e 66](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), ao [Regimento Comum do Congresso, arts. 104-A e 106](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional), à [LINDB, art. 1º](https://legis.senado.gov.br/norma/529744/publicacao/34620738) e à [jurisprudência do STF reunida no art. 66](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=66&abrirBase=CF). Conferidos sanção expressa/tácita, veto político/jurídico, extensão do veto parcial, prazos, sessão conjunta, quórum separado das Casas, promulgação subsidiária e vacatio legis.
+
+**NC-PL-039, jurisprudência acrescentada:** precedentes das **ADPFs 714, 715 e 716**, além da **ADPF 893**, sobre a **irretratabilidade do veto**, impossibilidade de veto adicional tardio e preclusão da etapa de manifestação executiva. **NC-PL-040, efeito do prazo congressual:** **ADI 5.706 (2024)**: ultrapassar os 30 dias do art. 66, § 4º, produz inclusão na Ordem do Dia e sobrestamento conforme § 6º, **sem caducidade ou perda da competência do Congresso para deliberar**. Os acréscimos complementam as explicações existentes sem ampliar o alcance dos gabaritos.
+
+**Dez respostas conferidas e preservadas:** **C, E, C, E, C, E, C, E, E, C**. Nenhuma inversão demonstrada nos dez itens e oito etapas, nem nos dois exemplos. Os exercícios já integram o inventário, não devendo ser somados novamente.
+
+**Limites:** certificação jurídico-editorial do recorte escrito nesta data; não abrange toda a jurisprudência relacionada ao processo legislativo, casos concretos não examinados, retenção do estudante ou teste visual e publicação no GitHub Pages.

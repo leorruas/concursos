@@ -175,6 +175,16 @@ Embora fora dos arts. 4º–52, estes dispositivos explicam **como resolver dúv
 
 **Conexões:** [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|CAM-PL-025]], [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|CAM-PL-026]], [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões]], [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Votação]] e [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Processo orçamentário]].
 
+## Certificação normativa delimitada: 11/11/2026
+
+**Escopo:** confrontadas as regras dos **arts. 4º–52, 131–133 e 144–151** do Regimento Comum, as nove situações comentadas e os **dez itens inéditos C/E** com a [compilação oficial do Senado](https://legis.senado.leg.br/norma/561098/publicacao/16433839), a [Resolução nº 3/2025-CN, que criou a Liderança da Oposição](https://www2.camara.leg.br/legin/fed/rescon/2025/resolucao-3-23-junho-2025-797631-publicacaooriginal-175696-pl.html) e a redação bienal dada pela Resolução nº 1/2024-CN. A republicação da Câmara consolidada **até janeiro de 2023**, isoladamente, não contempla as alterações de 2024–2025; por isso, foi priorizada a consolidação do Senado que exibe redações sucessivas e identifica cada alteração.
+
+**Conferências principais:** liderança da Minoria **bienal** e Liderança da Oposição distinta; líderes indicam e Presidente do Senado **designa** membros; regra geral **11+11** com ressalvas e vagas adicionais de rodízio; instalação em **48 horas** da constituição; distinção entre um terço para início e maioria para deliberação da comissão; CPMI com requerimentos de **um terço em cada Casa**; quórum de abertura de sessão conjunta de **um sexto em cada Casa** (86 deputados e 14 senadores na composição de 513+81); votação do art.43 **separada por Casa**; verificação de votação simbólica por líder, cinco senadores ou vinte deputados; parecer oral quando o parecer da comissão não é entregue a tempo; e, em omissão do RCCN, subsidiariedade **Regimento do Senado, depois Regimento da Câmara**.
+
+**Resultado das dez questões, na ordem:** **C, C, E, E, C, C, E, E, C, E**. Sem inversão demonstrada nos dispositivos cotejados. Os nove casos também foram inspecionados quanto à diferença entre composição, instalação, votação, prazos e sujeito competente. **Nenhuma edição dos enunciados e gabaritos foi necessária.**
+
+**Limites:** certificação jurídico-normativa **deste recorte e destes casos escritos**, com data de corte. A disciplina de MPs, orçamento, vetos e outras hipóteses especiais pode afastar ou complementar as regras gerais; as respectivas resoluções precisam de auditoria própria (DC30, DC32 e DC33 tratam de parte dessas exceções). Esta nota não substitui uma revisão de eventuais mudanças normativas posteriores nem comprova funcionamento de navegador, publicação no Pages ou aprendizagem efetiva.
+
 ## Fontes e controle de validade
 
 - [Senado Federal, Resolução nº 1/1970-CN, texto compilado](https://legis.senado.leg.br/norma/561098/publicacao/16433839), arts. 4º–52, 131–133, 144–151, acessado em 09/11/2026.

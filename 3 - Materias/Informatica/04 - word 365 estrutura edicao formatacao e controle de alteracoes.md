@@ -171,7 +171,7 @@ Um assessor redigiu uma nota oficial com o Controle de Alterações ativo. Antes
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** A quebra de seção contínua (*Continuous Section Break*) permite que diferentes configurações de seção (como número de colunas) coexistam na mesma página física. Ao selecionar um texto e aplicar colunas, o Word cria as quebras contínuas delimitadoras automaticamente.
+**Comentário:** A quebra de seção contínua (*Continuous Section Break*) permite configurações de colunas diferentes na mesma página. Ao **selecionar um trecho dentro de um documento e aplicar colunas à seleção**, o Word para desktop pode inserir as quebras de seção necessárias. O resultado depende de selecionar o texto e da configuração do comando, não de toda aplicação genérica de colunas. O gabarito CERTO é interpretado para o cenário explicitado no item.
 
 ---
 
@@ -182,7 +182,7 @@ Um assessor redigiu uma nota oficial com o Controle de Alterações ativo. Antes
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** Pegadinha clássica da banca. "Nenhuma Marcação" apenas altera a forma de visualização em tela, ocultando as marcas para leitura limpa. As alterações continuam armazenadas no arquivo e podem ser reexibidas a qualquer tempo, a menos que o usuário clique formalmente em "Aceitar Todas as Alterações".
+**Comentário:** “Nenhuma Marcação” apenas altera a visualização, sem aceitar nem apagar alterações. Antes de distribuir um documento com revisões confidenciais, é necessário resolver as alterações, verificar comentários e, quando pertinente, inspecionar metadados e informações ocultas. O comando “Aceitar Todas as Alterações” resolve inserções/exclusões, mas não elimina automaticamente todos os outros dados sensíveis.
 
 ---
 
@@ -204,7 +204,7 @@ Um assessor redigiu uma nota oficial com o Controle de Alterações ativo. Antes
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** Com um **único clique**, o Pincel de Formatação aplica a formatação em apenas um trecho de destino e desativa-se em seguida. Para aplicar a múltiplos trechos contínuos, é necessário dar um **duplo clique** no ícone do Pincel de Formatação.
+**Comentário:** O Pincel de Formatação com **um clique** é normalmente usado uma vez e se desativa. Com **duplo clique** na ferramenta, pode-se aplicar a formatação a vários trechos até desativá-la, conforme o Word para desktop. O gabarito ERRADO está correto pela distinção entre um e dois cliques.
 
 ---
 
@@ -221,3 +221,5 @@ Um assessor redigiu uma nota oficial com o Controle de Alterações ativo. Antes
 | **Controle de Alterações** | `Ctrl + Shift + E` (ou *Revisão > Controlar Alterações*) | Liga/desliga o rastreamento colaborativo de edições |
 
 > **Nota de revisão (11/11/2026):** ajustado atalho de alinhamento à direita para `Ctrl + R` na documentação atual do Word para Windows e corrigido erro de digitação no item 4. Atalhos podem variar por sistema, idioma e versão. Referência: [atalhos do Word, Microsoft Support](https://support.microsoft.com/pt-br/accessibility/word/keyboard-shortcuts-in-word). Achados TI-035 e TI-039.
+
+> **Auditoria de questões, segunda passagem (11/11/2026):** seis itens examinados, gabaritos preservados **E, C, C, E, E, E** para Word de desktop nas condições enunciadas. Os comentários sobre colunas, histórico de revisão e Pincel de Formatação foram qualificados. Não presumir que atalhos e recursos se comportem da mesma forma no Word Web ou macOS.

@@ -653,3 +653,20 @@ A prova de **DPDF, edital 2020**, foi **aplicada em 13/02/2022**, segundo [gabar
 **Sequência oficial**: 51 C, 52 C, 53 E, 54 E, 55 C, 56 C, 57 E, 58 C, 59 C, 60 E, 61 C, 62 C, 63 E, 64 C, 65 E, 66 E, 67 E, 68 E. **Não há itens anulados neste intervalo.** Não atribuir ao concurso ano de aplicação 2020: é o ano do edital, com aplicação em 2022. A seleção por tema não estabelece por si equivalência de peso no edital Câmara 2026. O caderno original e o gabarito são fontes históricas da banca; conceitos atuais e normas da Câmara exigem cotejo próprio.
 
 **Estado histórico acumulado desta sequência:** 90 itens já conferidos (40 Correios 2011 e 50 CNMP 2023) + 18 DPDF = **108 itens históricos individualmente conferidos**, com **105 C/E válidos e 3 anulados (CNMP 60, 71, 95)**. O registro de exercícios inéditos e a contagem de artigos modificados permanecem separados. A leitura do PDF e do gabarito oficiais não significa inspeção integral dos demais blocos da prova.
+
+
+## Conferência direta DPDF, prova aplicada em 2022: teorias da comunicação, itens 86–90 (11/11/2026)
+
+**Fonte primária examinada:** [caderno da DPDF, código 548_DPDF_005_01, página 3 do PDF](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF), confrontado visualmente com a [página única do gabarito oficial definitivo da Cebraspe](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/GAB_DEFINITIVO_548_DPDF_005_01.PDF). Embora denominado edital **2020**, o documento confirma aplicação em **13/02/2022**. Cinco itens históricos válidos, sem anulação. Textos descritos abaixo por síntese; não são transcrições completas.
+
+| Item | Gab. | Alvo conceitual | Mecanismo decisivo e cuidado |
+| ---: | :---: | --- | --- |
+| 86 | **C** | Crítica à produção industrial na indústria cultural | O quantificador **“há quem defenda”** identifica uma posição da literatura, sem atribuí-la universalmente aos teóricos |
+| 87 | **E** | Estudos culturais e determinação econômica | Atribui à cultura papel **meramente** reflexivo e residual, reduzindo inadequadamente a agência cultural |
+| 88 | **E** | Teoria crítica, racionalidade tecnológica e autonomia | Inverte a crítica ao atribuir aos meios industrializados, de forma geral, emancipação pela formação crítica |
+| 89 | **C** | Sociedade do espetáculo, Debord | Espetáculo como relação social mediada por imagens, não simplesmente conjunto de imagens |
+| 90 | **C** | Agenda-setting e relevância temática | Influência da imprensa na **saliência dos temas** da agenda pública; não confundir com imposição de uma opinião sobre cada tema |
+
+**Sequência confirmada:** 86 C, 87 E, 88 E, 89 C, 90 C. O bloco permite calibrar questões inéditas por: escopo de quantificadores, redução do papel da cultura, inversão de efeito, citação conceitual e diferença entre saliência temática e convencimento. **Fonte e julgamento** foram confrontados diretamente; isso não equivale a auditoria integral de todos os textos autorais ou das demais questões do caderno.
+
+**Total do corpus nesta sequência:** 108 itens históricos anteriormente conferidos + 5 = **113 questões de prova conferidas individualmente, das quais 110 com julgamento C/E e 3 anuladas (CNMP 60, 71 e 95)**. Contagem separada dos exercícios inéditos do vault e dos arquivos didáticos revisados.

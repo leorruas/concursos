@@ -760,3 +760,10 @@ Commit `366059b43995a50fdc38eb371e046880cfc110c9`: revistos os enunciados e come
 **Inventário 29/29 arquivos; 66 questões C/E examinadas individualmente em diferentes graus** (DC11:13; DC12:14; DC13:15; DC34:6; DC35:6; DC36:6; DC37:6). **Sete arquivos com suas baterias de questões examinadas**, mas nenhum está integralmente certificado em conteúdo, fontes e editoração. **22 arquivos ainda não tiveram todas as suas questões revisadas nesta auditoria.** Estimativa de esforço realizado aumenta de cerca de **30% para 33%**, apenas orientativa, sem métrica objetiva por volume de normas. Próximo: **DC14 comissões parlamentares**, inclusive corrigir a colisão `CAM-PL-020` em seus metadados e subtítulos **somente após autorização da fase editorial**.
 
 **Nenhum artigo de estudo alterado.**
+
+
+### Execução: exceções e fluxo do art. 14 revisados (11/11/2026)
+
+Commit `95aa8a7bff5d0a8ab50c45cb30610bd16f1c1260`: revisado diagrama do DC34 para separar sanções dos arts. 11–14, evitar caminho único para censuras, explicitar arquivamento e requalificação, e incluir recurso sobre admissibilidade de representação partidária ao Plenário por 1/10 da Casa. Incluídos art. 14, § 4º, incisos II–VIII, e vedação à retirada da representação após instauração (art. 14, § 5º), preservando referências à [Resolução nº 25/2001 consolidada](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).
+
+**Status:** correções textuais e sintaxe Mermaid salvas; visualização renderizada e validação integral do DC34 ainda pendentes. Demais artigos não foram modificados nesta rodada; **2/29 alterados, 0/29 certificados integralmente**.

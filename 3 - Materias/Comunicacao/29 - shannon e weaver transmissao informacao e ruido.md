@@ -122,6 +122,10 @@ Warren Weaver define três níveis do problema comunicacional em **“Recent Con
 
 Em uma justificativa de comunicação institucional, distinguir problema técnico de entrega, problema de compreensão e problema de resultado. Uma queda no acesso por instabilidade de rede não requer necessariamente a mesma solução que uma publicação ambígua; nenhuma dessas duas correções, isoladamente, comprova engajamento. Usar os níveis de Weaver como **instrumento diagnóstico**, com indicador próprio para cada dimensão.
 
+## Questão real Cebraspe: CNMP 2023, item 52 (11/11/2026)
+
+No [caderno oficial CNMP 2023, Comunicação Social](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), o **item 52** atribuiu à teoria da informação uma estrutura “emissor – receptor – feedback – mensagem”, como resultado de um modelo circular. O [gabarito definitivo Cebraspe](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF) assinala **Errado**. A dificuldade é a **troca entre modelos**: o sistema técnico de Shannon não se reduz a uma cadeia circular com feedback obrigatório; a posição de mensagem, transmissor, canal, receptor e fonte de ruído deve ser estudada no modelo adequado. Essa questão é **real, não inédita**. O julgamento oficial foi conferido em ambos os PDFs; o item não demonstra que sistemas reais nunca usem retorno ou controle.
+
 ## Heurísticas
 
 Sempre localizar o nome e a data: **Shannon, 1948, transmissão e informação técnica; Weaver, 1949, discussão de níveis técnico, semântico e de efetividade**. Ao encontrar “ruído”, perguntar se a questão fala de perturbação do sinal ou de uma extensão metafórica. Ao encontrar “entropia”, perguntar se está medindo incerteza de uma escolha ou valor de uma mensagem.

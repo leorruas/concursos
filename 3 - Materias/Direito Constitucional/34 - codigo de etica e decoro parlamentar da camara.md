@@ -314,10 +314,10 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 
 ### Questão 2
 *(Inédita — Cebraspe / Câmara dos Deputados / Analista Legislativo)*
-> A aplicação da penalidade de censura escrita a deputado que desrespeite verbalmente outro parlamentar nas dependências da Câmara dos Deputados compete à Mesa Diretora, mediante provocação do ofendido.
+> A aplicação da penalidade de censura escrita a deputado que desacate, por palavras, outro parlamentar nas dependências da Câmara dos Deputados compete à Mesa Diretora, mediante provocação do ofendido, assegurado o direito de defesa.
 
 - **Gabarito: CERTO**
-- **Comentário:** O art. 12 prevê censura escrita pela Mesa, por provocação do ofendido, para ofensa física ou moral ou desacato do art. 5º, III. A Mesa assegura previamente **5 dias úteis de defesa** e cabe recurso ao Plenário em **2 dias úteis** (art. 12, §§ 1º e 2º). Há também a hipótese de reincidência nas condutas do art. 11, mediante solicitação do Presidente da Câmara ou da comissão.
+- **Comentário:** O art. 5º, III, inclui expressamente o **desacato por palavras** a outro parlamentar, e o art. 12 prevê censura escrita pela Mesa, por provocação do ofendido. A redação anterior, “desrespeite verbalmente”, era mais ampla que o tipo regimental. A Mesa assegura previamente **5 dias úteis de defesa** e cabe recurso ao Plenário em **2 dias úteis** (art. 12, §§ 1º e 2º). Há também a hipótese de reincidência nas condutas do art. 11, mediante solicitação do Presidente da Câmara ou da comissão.
 
 ---
 
@@ -354,6 +354,21 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 
 - **Gabarito: ERRADO**
 - **Comentário:** O recurso à CCJC está previsto no **art. 14, § 4º, VII**, com prazo de **5 dias úteis** e efeito suspensivo. A CCJC se pronuncia exclusivamente sobre os vícios **constitucionais, regimentais ou do próprio Código** indicados pelo representado, no prazo de 5 dias úteis. O inciso VIII disciplina a remessa à Mesa após a tramitação, não a hipótese de recurso. A proposta de reexame integral do mérito torna o enunciado errado.
+
+### Rastreabilidade dos seis gabaritos originais
+
+Os fundamentos foram conferidos individualmente com o [Código de Ética consolidado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html), o [Regulamento do Conselho](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/arquivos/regulamento-1/view) e a Constituição. O teste cobre o enunciado de cada item e **não constitui certificação de todo o artigo**.
+
+| Item | Resultado | Fundamento |
+| :--- | :---: | :--- |
+| 1: fraude em deliberação | **E** | Código, **art. 4º, IV**, e **art. 14**: infração incompatível com decoro e decisão plenária |
+| 2: desacato verbal | **C** | Código, **arts. 5º, III, e 12**: hipótese expressa de desacato por palavras, provocação do ofendido e defesa |
+| 3: composição e impedimentos do relator | **C** | Código, **arts. 7º, caput; 13, I, a–b; e 14, § 4º, I**: 21 titulares, 21 suplentes e vedações partidária/estadual |
+| 4: quebra direta de sigilo pelo relator | **E** | Regulamento, **arts. 14–16**: Conselho requer fundamentadamente à Mesa, que submete ao Plenário; não há decreto direto pelo relator |
+| 5: voto secreto e dois terços | **E** | **CF art. 55, § 2º**, após EC 76/2013, e **Código art. 14**: votação ostensiva e maioria absoluta |
+| 6: revisão do mérito pela CCJC | **E** | Código, **art. 14, § 4º, VII**: CCJC aprecia vícios constitucionais, regimentais ou do Código, não o mérito integral |
+
+**Resultado:** 6/6 gabaritos confirmados quanto ao enunciado específico, sem inversão. A questão 2 foi **reescrita** para corresponder à hipótese legal de desacato por palavras, em vez de usar expressão genérica potencialmente ambígua. Os quatro casos sobre suspensão **cautelar** permanecem separados dos seis itens do rito **sancionatório**. A verificação integral do Regulamento e de todos os exemplos continua sendo etapa independente.
 
 ## Fontes primárias e controle de vigência
 

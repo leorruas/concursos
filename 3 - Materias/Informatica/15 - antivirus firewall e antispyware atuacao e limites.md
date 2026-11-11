@@ -5,7 +5,7 @@ title: "Antivírus, firewall e antispyware: atuação, técnicas de detecção e
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Antivírus, firewall e antispyware: atuação, técnicas de detecção e limites de proteção
@@ -118,8 +118,8 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
 | **Foco primordial de atuação** | Arquivos, pastas, programas e memória RAM | Tráfego de pacotes nas conexões de rede | Softwares espiões, rastreadores e capturadores de dados |
 | **Critérios de decisão** | Assinatura binária, heurística e comportamento anômalo | Regras de portas, IPs, protocolos e tabela de conexões ativas | Identificação de rotinas de monitoramento e sequestro de navegador |
 | **Ação contra ameaça** | Limpar (desinfetar), colocar em quarentena ou excluir | **Bloquear ou Permitir** o tráfego de rede (*Drop/Reject/Accept*) | Bloquear execução, remover arquivos e restaurar registros do SO |
-| **Capacidade de interceptar tráfego de rede** | Limitada (examina anexos/downloads, mas não filtra portas) | **Total** (é a sua função primária de barreira lógica) | Nenhuma |
-| **Capacidade de examinar conteúdo de arquivo** | **Total** (examina o código interno e assinaturas) | **Nula** no modelo tradicional (analisa apenas cabeçalhos) | Total para códigos espiões |
+| **Capacidade de interceptar tráfego de rede** | Limitada (examina anexos/downloads, mas não filtra portas) | **Limitada ao tráfego que atravessa o controle**, segundo regras, arquitetura e protocolos | Nenhuma |
+| **Capacidade de examinar conteúdo de arquivo** | **Parcial**, conforme permissões, formato, criptografia, técnica de análise e configuração | **Nula** no modelo tradicional (analisa apenas cabeçalhos) | Total para códigos espiões |
 
 ---
 
@@ -127,7 +127,7 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
 
 ### Caso 1: O anexo infectado que atravessou a proteção de rede
 - **Cenário**: Um servidor da Câmara recebe um e-mail com o arquivo `Relatorio_Oficial.docx` em anexo. O e-mail passou com sucesso pelo firewall corporativo da Casa, que autoriza o tráfego de e-mail na porta 587 e 993. Contudo, ao salvar o anexo na máquina local, o Microsoft Defender alerta imediatamente que o arquivo contém um vírus de macro e move-o para a quarentena.
-- **Análise**: O comportamento das ferramentas está rigorosamente correto. O firewall cumpriu seu papel de permitir o tráfego autorizado de correio eletrônico; ele não tem a função de ler o conteúdo binário dos anexos locais. A detecção do código malicioso coube com exclusividade ao antivírus no endpoint.
+- **Análise**: O comportamento das ferramentas está rigorosamente correto. O firewall cumpriu seu papel de permitir o tráfego autorizado de correio eletrônico; ele não tem a função de ler o conteúdo binário dos anexos locais. Nesse cenário, o antivírus do endpoint detectou o código malicioso. Soluções de segurança de e-mail e firewalls modernos com inspeção apropriada também podem identificar ameaças antes da chegada ao dispositivo.
 
 ### Caso 2: A invasão externa frustrada em porta aberta indevidamente
 - **Cenário**: Um hacker executa uma varredura de portas (*port scan*) na faixa de IPs públicos da Câmara, tentando conectar-se remotamente à porta 3389 (Remote Desktop - RDP) de estações de trabalho administrativas.
@@ -215,3 +215,5 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
 - **NIST Special Publication 800-41 Rev. 1**: *Guidelines on Firewalls and Firewall Policy*.
 - **ABNT NBR ISO/IEC 27002:2022**: Controle 8.7 (Proteção contra malware) e Controle 8.20 (Segurança de redes).
 - **Documentação Técnica Microsoft Learn**: Arquitetura do Microsoft Defender Antivirus e Firewall do Windows com Segurança Avançada.
+
+> **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.

@@ -5,7 +5,7 @@ title: "Regimento Comum: lideranças, comissões mistas e votação no Congresso
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 aliases:
   - "CAM-PL-027"
   - "Resolução 1/1970-CN: organização e procedimento comum"
@@ -46,6 +46,20 @@ O **art. 9º** atribui ao **Presidente do Senado** a **designação** dos membro
 **Instalação em até 48 horas:** comissão mista reúne-se **dentro de 48 horas de sua constituição**, inicialmente sob a presidência do **membro mais idoso**, para eleger **Presidente e Vice-Presidente** (art. 10, § 2º). Depois, o **Presidente eleito designa o relator** da matéria (§ 3º). A sequência é **designação dos membros → instalação sob o mais idoso → eleição da direção → escolha do relator**.
 
 **CPMI (art. 21):** instituição automática quando requerida por **um terço dos membros da Câmara e um terço dos membros do Senado**, com criação em **sessão conjunta**. O ato de criação fixa o número de integrantes, com **igual participação de deputados e senadores** e proporcionalidade partidária. **Um terço do total agregado de congressistas**, sem atender separadamente ao quórum das duas Casas, **não satisfaz a fórmula regimental**.
+
+### Três colegiados que não devem ser confundidos
+
+A expressão *comissão do Congresso* é genérica. **Comissão mista ordinária**, **comissão mista de medida provisória** e **Comissão Representativa no recesso** obedecem a normas de composição e instalação diferentes:
+
+| Colegiado | Composição de referência | Instalação ou convocação | Fonte e limite |
+| :--- | :--- | :--- | :--- |
+| Comissão mista geral do RCCN | **11 senadores + 11 deputados**, com a regra adicional de representação minoritária do art. 10-A | Reunião **em até 48 horas da constituição**, inicialmente sob a presidência do membro mais idoso | RCCN, arts. 10 e 10-A; existem exceções expressas para CPMI e orçamento |
+| Comissão mista de medida provisória | **12 senadores + 12 deputados**, igual número de suplentes, com **mais uma vaga por Casa para minoria em rodízio** | **24 horas após a designação** para instalação, com eleição da direção e designação de relatores; a designação deve ocorrer nas **48 horas após publicação da MP** | Resolução nº 1/2002-CN, arts. 2º e 3º; ver [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|DC33]] |
+| Comissão Representativa do Congresso no recesso | **7 senadores + 16 deputados**, com igual número de suplentes | Eleita na última sessão ordinária de cada período legislativo; reuniões convocadas com **antecedência mínima de 12 horas** | Resolução nº 3/1990-CN, arts. 2º e 8º; ver [[3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990|DC32]] |
+
+**Três marcos de tempo diferentes:** as **48 horas do RCCN art. 10, § 2º** são contadas da *constituição* da comissão mista geral; as **24 horas do art. 3º da Resolução 1/2002-CN** são contadas da *designação* da comissão de MP; e as **12 horas do art. 8º da Resolução 3/1990-CN** são a *antecedência da comunicação* para reunião da Comissão Representativa. Não transportar um desses prazos para outro colegiado.
+
+**Fontes oficiais cotejadas:** [Regimento Comum e normas conexas](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional), [Resolução 1/2002-CN](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html) e [Resolução 3/1990-CN](https://legis.senado.leg.br/norma/561157/publicacao/36852072).
 
 ## 3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)
 

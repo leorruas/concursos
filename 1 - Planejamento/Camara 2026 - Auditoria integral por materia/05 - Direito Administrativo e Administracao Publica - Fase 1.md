@@ -981,3 +981,58 @@ Inventariar e verificar **todas as questões de DA20–24** com comentários e d
 ### Próxima etapa
 
 Inventariar e conferir os **exemplos de DA10/11**, exercícios específicos de AP03 e questão autoral em outras DA numeradas ainda não revisadas individualmente (DA12–17, DA27). Registrar caso a caso e manter distinção entre \`gabarito\`, \`comentário\`, \`fonte normativa\` e \`grau de homologação\`.
+
+
+## Bloco 23: exemplos DA10/DA11, itens AP03 e seis questões por nota DA12–14 (11/11/2026)
+
+**Fontes internas lidas:** \`Direito Administrativo/10 - servicos publicos.md\` (SHA \`1cede35d8a6e6307b20539afdaea79393a70516f\`), \`11 - controle da administracao publica.md\` (SHA \`d5d21af1ace12131c4c2ce46fe0a1a4890eb72f8\`), \`Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md\` (SHA \`10ac4e9f0c0d3d31300232811e3a3768604de4f1\`), \`Direito Administrativo/12 - estado governo administracao e funcao administrativa.md\` (SHA \`aab806e92ea06df49decf877bc02abb1182d6183\`), \`13 - centralizacao descentralizacao concentracao e desconcentracao.md\` (SHA \`48793f5392fc2ca73ee34cfcf6737808c1e8eec1\`) e \`14 - ato administrativo conceito e distincao de fato administrativo.md\` (SHA \`402d2e339cd11141bcc5cb445da5ff96143ad27c\`). Também localizada a estrutura de seis questões por nota de DA15/DA16/DA17 e seis itens em DA27, **não auditados individualmente aqui**.
+
+**Grão do inventário deste bloco:** 3 exemplos C/E não numerados em DA10 + 3 em DA11 + 3 itens inéditos numerados em AP03 + 18 questões numeradas em DA12–14 = **27 enunciados com resposta e comentário examinados no arquivo original**. **Cotejo conceitual dirigido**, não auditoria exaustiva de todas as normas/jurisprudência citadas ou certificado de resposta de prova real. Evitar confundir exemplos didáticos sem numeração com questões oficiais da banca.
+
+### Matriz individual dos 27 enunciados e decisões
+
+| Nota | Questão / exemplo | Resposta original | Diagnóstico |
+| --- | --- | --- | --- |
+| DA10 | Exemplo 1, concessão e titularidade | E | Coerente: concessão delega execução da prestação, não desloca titularidade constitucional do poder concedente |
+| DA10 | Exemplo 2, permissão à pessoa física | C | Coerente com Lei 8.987/1995, observadas demais condições |
+| DA10 | Exemplo 3, inadimplemento e continuidade | E | Coerente: interrupção pode ocorrer dentro dos pressupostos legais; comentário sintetiza restrições, inclusive horários/dias que não detalha (DA-021) |
+| DA11 | Exemplo 1, controle interno só no Executivo | E | Coerente CF arts. 70 e 74: cada Poder mantém sistema de controle interno |
+| DA11 | Exemplo 2, controle judicial de desvio de finalidade | C | Coerente, não se trata de substituição judicial do mérito legítimo |
+| DA11 | Exemplo 3, hierarquia de autarquia perante ministério | E | Coerente: vínculo de supervisão não é hierarquia entre pessoas jurídicas |
+| AP03 | Item 1, dados pessoais e informação classificada integralmente | E | Coerente distinção LAI art. 31, proteção parcial de dados e classificação de sigilo |
+| AP03 | Item 2, base legal eliminaria necessidade | E | Coerente LGPD: base de tratamento não suprime princípios e minimização |
+| AP03 | Item 3, alerta algorítmico comprovaria fraude | C | Coerente: alerta é sinal de seleção de teste, não prova autônoma |
+| DA12 | #1, conceito subjetivo/materiais | E | Coerente distinção função versus estrutura orgânica |
+| DA12 | #2, atos administrativos da Mesa na contratação | C | Coerente em núcleo: Legislativo exerce administração atípica, sujeito a controle de legalidade |
+| DA12 | #3, concessionárias privadas não integram Administração subjetiva | C | Coerente |
+| DA12 | #4, Governo idêntico à Administração | E | Coerente distinção política e função administrativa; comentário “execução estrita” reduz artificialmente o espaço de gestão e decisão administrativa |
+| DA12 | #5, povo, território, governo soberano | C | Coerente com formulação clássica, com cuidado para não confundir modelos contemporâneos do Estado |
+| DA12 | #6, recurso administrativo produz coisa julgada material | E | Coerente: decisão administrativa revisável judicialmente e função não jurisdicional |
+| DA13 | #1, secretaria interna com personalidade jurídica independente | E | Coerente: desconcentração e órgãos sem personalidade |
+| DA13 | #2, outorga transfere titularidade do serviço | C | **Ressalva importante:** fórmula doutrinária geral aparece sem distinguir titularidade de competências constitucionais, titularidade administrativa e atribuição legal de execução. Ver DA-037; gabarito C somente dentro da terminologia do modelo exposto, não certificado como enunciado universal |
+| DA13 | #3, agente irregular gera atos inexistentes contra terceiro de boa-fé | E | Coerente: proteção à confiança e teoria do agente de fato, sem chancela automática de toda irregularidade |
+| DA13 | #4, Mesa da Câmara tem capacidade processual extraordinária | C | **Ressalva institucional:** argumento genérico sobre órgãos de cúpula não substitui demonstração de hipóteses concretas e legitimidade da Mesa da Câmara para defender prerrogativas próprias (DA-038). Não extrapolar automaticamente súmula sobre Câmara Municipal à Casa federal |
+| DA13 | #5, desconcentração eliminaria hierarquia | E | Coerente: distribuição interna na mesma pessoa jurídica mantém hierarquia |
+| DA13 | #6, concessão cria ente da Administração Indireta | E | Coerente: concessionária privada não integra Administração Indireta |
+| DA14 | #1, conceito unilateral de ato administrativo | C | Coerente com acepção doutrinária usual, diferenças entre autores precisam ser delimitadas |
+| DA14 | #2, morte servidor é ato administrativo anulável | E | Coerente: falecimento é fato jurídico com repercussão funcional, não declaração volitiva |
+| DA14 | #3, silêncio sempre implicaria deferimento | E | Coerente: sem norma específica não se presume deferimento, há dever de decidir |
+| DA14 | #4, demolição material executa ordem anterior | C | Coerente em cenário com ordem e pressupostos de legalidade adequados |
+| DA14 | #5, atos empresariais das estatais equivaleriam sempre a atos autárquicos | E | Coerente: atos negociais não seguem automaticamente todas as prerrogativas públicas |
+| DA14 | #6, sanção e veto/política externa como atos políticos | C | Coerente em modelo doutrinário usual; **sanção presidencial**, não penalidade, e controle jurisdicional de juridicidade permanece possível |
+
+### Achados novos
+
+**DA-097, IMPORTANTE, DA13#2 e transplante de titularidade.** O enunciado fala em transferência da **titularidade do serviço** para entidade indireta por outorga, sem explicitar que a competência constitucional e a titularidade do ente federado podem permanecer, apesar da atribuição legal à entidade. A classificação escolar outorga versus delegação é útil, mas o item pode ser lido como transferência constitucional indiscriminada. **Gabarito C sob ressalva doutrinária, não inversão confirmada.** Relaciona-se a DA-037, que permanece aberto; não duplicar reparo.
+
+**DA-098, IMPORTANTE, DA13#4 e capacidade processual da Mesa federal.** O comentário qualifica genericamente órgãos de cúpula como dotados de personalidade judiciária e atribui tal regra à **Mesa da Câmara dos Deputados**. Precisa de fonte de legitimidade e alcance institucional próprios, não de analogia automática com órgãos municipais ou outros Poderes. Gabarito **C plausível mas não integralmente homologado** sem jurisprudência específica; já conhecido como DA-038.
+
+**DA-099, MELHORIA, distinção entre texto ilustrativo e prova identificada.** \`DA10/11\` têm **três exemplos C/E por artigo**, sem numeração e sem origem em caderno real. \`AP03\` apresenta **três itens inéditos** explicitamente rotulados. Os nove são bons mecanismos de aplicação, mas não são itens de concurso identificado nem evidência estatística de banca. Ao integrar ao JSON da Câmara na Fase 5, manter \`origin: inedita\`, subitem específico e remissão para seção estável.
+
+**DA-100, MELHORIA, restrições legais e linguagem de comentários.** O terceiro exemplo DA10 (“corte por inadimplência”) está correto ao afastar proibição absoluta, mas “observadas as condições e restrições legais” deveria dar exemplos normativos concretos, inclusive **art. 6º §4º da Lei 8.987** e modalidade do aviso. Comentários DA12#4 e DA14#6 também simplificam a fronteira política/administrativa de modo que pode induzir novas generalizações. Ação Fase 2: casos com variáveis de competência, finalidade, data de corte e natureza do ato.
+
+### Limite de certificação e próxima fila
+
+Nenhuma nova inversão foi demonstrada no cotejo dirigido das **27 respostas**. Houve **duas questões sob reserva substantiva**, ambas anteriormente discutidas em blocos 9 e 18: DA13#2 e #4. A verificação de **exemplos e questões** por si só não certifica o corpo integral dos seis artigos nem todas as fontes legais. **DA-097–DA-100** são novos apontamentos de refinamento/integração, não quatro erros independentes; total histórico **DA-001 a DA-100** com classes heterogêneas. Nenhum artigo, gabarito ou banco de questões editado. **Fase 1 permanece em curso.**
+
+**Próximo bloco:** 24 questões de \`DA15/DA16/DA17/DA27\`, acompanhadas de análise de fundamento jurídico e exemplos que possam exigir recorte de caso. Em seguida confrontar os artigos AP01/02, que usam exemplos sem numeração, e medir o saldo de questões não examinadas. Preservar articleIds e trabalhos de outras disciplinas.

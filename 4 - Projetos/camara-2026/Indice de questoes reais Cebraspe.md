@@ -670,3 +670,47 @@ A prova de **DPDF, edital 2020**, foi **aplicada em 13/02/2022**, segundo [gabar
 **Sequência confirmada:** 86 C, 87 E, 88 E, 89 C, 90 C. O bloco permite calibrar questões inéditas por: escopo de quantificadores, redução do papel da cultura, inversão de efeito, citação conceitual e diferença entre saliência temática e convencimento. **Fonte e julgamento** foram confrontados diretamente; isso não equivale a auditoria integral de todos os textos autorais ou das demais questões do caderno.
 
 **Total do corpus nesta sequência:** 108 itens históricos anteriormente conferidos + 5 = **113 questões de prova conferidas individualmente, das quais 110 com julgamento C/E e 3 anuladas (CNMP 60, 71 e 95)**. Contagem separada dos exercícios inéditos do vault e dos arquivos didáticos revisados.
+
+
+## Conferência direta DPDF 2022: redação, comunicação institucional e produtos digitais, itens 91–120 (11/11/2026)
+
+**Conferência em fonte oficial:** [caderno Cebraspe DPDF, 548_DPDF_005_01, páginas 3–5 do PDF](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF) e [gabarito definitivo Cebraspe, página única](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/GAB_DEFINITIVO_548_DPDF_005_01.PDF), abertos em imagem e cotejados por item. **Data de aplicação 13/02/2022** (edital 2020); especialidade **Comunicação Social, Jornalismo**. São **30 itens consecutivos, 91–120, todos válidos e sem anulação**. Resumos editoriais, sem reproduzir o enunciado integral.
+
+| Item | Gabarito | Núcleo da cobrança | Contexto e transferência |
+| ---: | :---: | --- | --- |
+| 91 | **E** | Redação objetiva e adjetivação | O enunciado mistura prioridade factual com adjetivação e abstração; editorial |
+| 92 | **E** | Verossimilhança × apuração | Pesquisa e apuração não definem verossimilhança nem tornam verdadeiro automaticamente; jornalismo |
+| 93 | **C** | Parágrafos e linguagem jornalística | Parágrafos curtos, vocabulário corrente e síntese; transferência forte para linguagem clara |
+| 94 | **E** | Siglas de uso comum | Formulação de regra de expansão de sigla julgada errada; evitar universalização; redação |
+| 95 | **C** | Credibilidade e diversos pontos de vista | Apuração, clareza e compromisso com informações; adaptação institucional |
+| 96 | **C** | Citação de pessoas por cargo e nome | Convenção redacional contextual, não regra obrigatória de tratamento universal |
+| 97 | **C** | Entrevistas e variações situacionais | Procedimentos de entrevista dependem da ocasião; pesquisa e produção |
+| 98 | **E** | Entrevista ocasional | Confunde a modalidade ocasional com coletiva/improvisada; jargão jornalístico |
+| 99 | **E** | Nariz de cera × pirâmide invertida | Atribui ao nariz de cera suposta valorização do texto; edição |
+| 100 | **E** | Notícia × reportagem | Inverte nível de aprofundamento e detalhamento; narrativa |
+| 101 | **E** | Ética profissional e dupla função | Gabarito rejeita autorização geral de atuação cruzada; depende do código profissional aplicável |
+| 102 | **C** | Origem de divulgação institucional | Pode decorrer de solicitação da imprensa ou iniciativa de assessor/organização |
+| 103 | **E** | Objetivos da assessoria de imprensa | Mistura publicidade/propaganda e trabalho de assessoria; distinguir funções |
+| 104 | **E** | Gêneros do discurso em Bakhtin | Afirma estabilidade como impossibilidade de mudança; exagero |
+| 105 | **E** | Notícia × reportagem | Nega diferenças entre gêneros; redação |
+| 106 | **C** | Editorial como posicionamento do veículo | Reconhecimento de gênero opinativo; referência ao contexto |
+| 107 | **E** | Gêneros opinativos | Inclui release e entrevista como necessariamente opinativos; troca de gênero |
+| 108 | **C** | Pauta como planejamento da cobertura | Considera fontes, abordagem e características do suporte |
+| 109 | **E** | Lide e seis perguntas | Afirma que todas as perguntas são respondidas no primeiro parágrafo do texto apresentado; leitura do caso |
+| 110 | **C** | Gênero notícia | Julgamento oficial do texto de notícia apresentado; contextual |
+| 111 | **E** | Edição: chamada/título/subtítulo | Confunde o conjunto de elementos da página examinada |
+| 112 | **E** | Critérios de noticiabilidade | Atribui proximidade/infração/escândalo sem evidência do texto |
+| 113 | **E** | Texto institucional como briefing de imprensa | Confunde notícia do portal com briefing automaticamente encaminhável |
+| 114 | **E** | Seleção de editorias por tema e veículo | Extrapola pertinência específica aos veículos listados |
+| 115 | **E** | Webjornalismo e hiperlinks | Atribui recursos a texto onde não aparecem como afirmado |
+| 116 | **E** | Web 2.0 e repostagem uniforme | Supõe reprodução no mesmo formato em diversas redes; adaptação necessária |
+| 117 | **E** | Projeto gráfico e diagramação | Reduz ambos ao ordenamento diário de elementos, confundindo planejamento e execução |
+| 118 | **C** | Planejamento visual para jornalismo online | Integra IA, design de interação e possibilidades de CMS; transferível ao portal |
+| 119 | **C** | Gêneros digitais emergentes | Podcast, newsgame e narrativa multimídia; nomenclatura histórica |
+| 120 | **C** | Infografia digital interativa | Multimídia e ações como clique, toque e arraste; não toda infografia requer esses recursos |
+
+**Sequência do gabarito oficial:** 91 E; 92 E; 93 C; 94 E; 95 C; 96 C; 97 C; 98 E; 99 E; 100 E; 101 E; 102 C; 103 E; 104 E; 105 E; 106 C; 107 E; 108 C; 109 E; 110 C; 111 E; 112 E; 113 E; 114 E; 115 E; 116 E; 117 E; 118 C; 119 C; 120 C.
+
+**Aderência ao edital Câmara:** linguagem clara, checagem, estrutura do texto, produção editorial, informação digital, projeto gráfico e infografia (93, 95, 102, 108, 116–120) têm transferência direta ou alta. Os itens de terminologia de redação e gênero jornalístico (98–101, 104–107) oferecem repertório, sem presunção de peso equivalente no concurso de Divulgação Institucional. Os itens 109–115 exigem leitura da **peça jornalística específica** do caderno; seus gabaritos não devem se tornar regras universais de redação.
+
+**Contagem acumulada de provas históricas:** 113 anteriores + 30 = **143 itens individualmente conferidos**, **140 julgamentos válidos e 3 anulações** (CNMP 2023: 60, 71 e 95). DPDF: 18 itens 51–68, cinco 86–90 e 30 itens 91–120, total **53**; o intervalo 69–85 é predominantemente interpretação de texto e não foi tratado nesta sequência. A contagem histórica dos exercícios inéditos com cotejo dirigido permanece separada. A verificação de PDF e gabarito documenta o julgamento real, não prova conformidade técnica atual de um portal.

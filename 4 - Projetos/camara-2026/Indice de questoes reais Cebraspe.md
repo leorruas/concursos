@@ -566,3 +566,26 @@ Foram abertos e **vistos em imagem** tanto o [caderno original Cebraspe 814_CNMP
 **Correção de escopo:** o **item 58 é E**, embora não constasse da lista individual de Comunicação Organizacional anterior. O **item 60 é X (anulado)**, não serve para proporção C/E nem para avaliar domínio conceitual sobre função do porta-voz. Questões **62–64** são do **Código de Defesa do Consumidor**, e **67–69** tratam de cerimonial; podem ajudar em leitura técnica, mas sua pertinência ao programa atual deve ser verificada antes de tratá-las como prioritárias.
 
 **Indicadores do corpus verificado nesta sequência:** **40 itens Correios 2011** (51–90, sendo o lote 51–64 conferido com espelho secundário do gabarito) mais **19 itens do CNMP 2023** com **ambos os PDFs oficiais inspecionados** = **59 questões históricas individualmente conferidas, 58 válidas e 1 anulada**, sem duplicação por prova e número. Esse total não é comparável ao número de artigos editados nem ao histórico provisório de exercícios inéditos.
+
+
+## Conferência direta CNMP 2023: itens 70–80 e anulação do 71 (11/11/2026)
+
+**Fontes primárias:** [caderno original Cebraspe, CNMP 2023, Cargo 3, Comunicação Social, identificação 814_CNMP_003_01](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF) e [gabarito oficial definitivo, mesmo código](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF). A **primeira página do caderno** e a **página única do gabarito** foram abertas em imagem e conferidas por item. Há **11 questões reais**, das quais **10 válidas e uma anulada (71)**. Não reproduzir integralmente os enunciados no material didático.
+
+| Item | Gabarito definitivo | Tema | Relação com o estudo e limite |
+| ---: | :---: | --- | --- |
+| 70 | **C** | Coesão referencial | Elementos linguísticos podem retomar ou apontar outros elementos textuais; [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|75]] |
+| 71 | **X** | Estrutura de textos informativos | **ANULADO**. Não classificar como C/E, nem usar para impor estrutura textual universal |
+| 72 | **E** | Retórica, lógica e audiência | Persuasão não implica necessariamente reconfirmar opiniões preexistentes; [[3 - Materias/Comunicacao/80 - teorias da publicidade e persuasao|80]] |
+| 73 | **C** | Velocidade de difusão por laços fracos | Gabarito contextual: não universalizar em todas as redes ou mensagens; [[3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao|100]] |
+| 74 | **E** | Wiki × blog privado | Wiki pressupõe edição colaborativa ou compartilhada conforme ambiente; blog individual não define wiki; [[3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao|100]] |
+| 75 | **C** | Conteúdo fabricado deliberadamente falso | Julgamento histórico de 2023 sob terminologia *fake news*; taxonomias de desinformação atuais podem exigir intenção, dano, formato e contexto; [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|46]] |
+| 76 | **C** | Fonte institucional e área de expertise | Reconhecimento de competência da fonte conforme área; não prova veracidade automática |
+| 77 | **C** | Vídeo institucional no site e redes | Uso de canais próprios e sociais para vídeos; não se converte em regra absoluta de priorização para a Câmara |
+| 78 | **C** | Sala de imprensa online | Usabilidade, acessibilidade e arquitetura da informação como condições pertinentes; [[3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao|77]] |
+| 79 | **C** | Conhecer funcionamento da mídia | Oportunidades de divulgação dependem de compreender meios, rotinas e públicos |
+| 80 | **C** | Comunicação exotérica × esotérica | Maior visibilidade pública no contexto do item; requer fonte conceitual independente, sem transformar o termo em dever legal automático; [[3 - Materias/Comunicacao/52 - comunicacao institucional finalidade funcoes e publicos|52]] |
+
+**Ressalvas decisivas:** (1) **71 = X**, não é evidência de correção ou erro sobre estrutura obrigatória do texto. (2) **73 = C** registra o julgamento específico de uma proposição sobre laços fracos, e não uma lei de velocidade para todos os fenômenos digitais. (3) **75 = C** usa o rótulo *fake news* no contexto de 2023, que não substitui automaticamente taxonomias posteriores de desinformação. (4) **80 = C** registra uma interpretação de publicidade/visibilidade da comunicação pública: o gabarito não transforma essa classificação conceitual em exigência jurídica universal. (5) Questões 76–80 têm enquadramento original de **assessoria de imprensa**, que pode complementar a Divulgação Institucional, mas não deve ser declarado núcleo exclusivo do cargo de 2026.
+
+**Contagem histórica sem duplicidade:** total anterior de **59 itens históricos** (Correios 2011: 40; CNMP 2023: 19, um anulado) + estes **11** = **70 questões históricas individualmente cotejadas**, com **68 válidas e 2 anuladas (CNMP 60 e 71)**. A contagem de exercícios C/E inéditos da wiki permanece separada. O índice já possuía intervalos temáticos do CNMP 70–80, mas esta seção acrescenta **verificação item a item em fonte oficial**, e não uma nova prova.

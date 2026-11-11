@@ -155,8 +155,9 @@ flowchart TD
  E4 -->|Sanção menos grave| M["Proposta à Mesa: art. 13, III, c"]
  E4 -->|Sanção mais grave| G["Conselho propõe nova representação à Mesa"]
  G --> G1{"Mesa aprova representação?"}
- G1 -->|Sim| G2["Reabre defesa e instrução complementar: art. 14"]
- G2 --> I5["Parecer e votação após instrução"]
+ G1 -->|Sim| G2["Reabre prazo de defesa; instrução complementar nos prazos do art. 14"]
+ G2 --> I4
+["Parecer submetido à discussão e votação após instrução"]
  G1 -->|Não| G3["Sem passagem automática ao rito grave"]
  E4 -->|Suspensão de prerrogativas| R13["Parecer com projeto de resolução: art. 13, III, b e V"]
  B --> I["Suspensão do mandato (e todas prerrogativas) ou perda: art. 14"]
@@ -198,6 +199,8 @@ flowchart TD
 ```
 
 **Rejeição do parecer no Conselho:** o art. 14, § 4º, V, obriga a designação de novo relator, preferencialmente entre os que se manifestaram contrariamente ao primeiro. O caminho de rejeição no fluxograma passa pela elaboração de outro parecer antes de nova discussão e votação, sem supor aprovação automática ou reaproveitamento do parecer rejeitado.
+
+**Passagem do rito do art. 13 ao art. 14:** se o Conselho propuser à Mesa representação para sanção mais grave e a Mesa a aprovar (art. 13, III, d), a **reabertura do prazo de defesa** e a **instrução complementar** devem observar os prazos do art. 14 antes de nova deliberação. Por isso, o ramo de agravamento passa pelo nó da instrução, seguido do prazo de parecer, sem saltar diretamente à votação.
 
 **Prazos sucessivos no fluxograma:** no rito do art. 14, a instrução é **improrrogável** (30 dias úteis para suspensão do mandato; 40 para perda) e, **depois dela**, o relator dispõe de **10 dias úteis para apresentar parecer** (art. 14, § 4º, IV). No art. 13, II, as diligências de 15 dias úteis só podem ser prorrogadas **uma vez, por igual período, mediante deliberação do Plenário do Conselho**.
 

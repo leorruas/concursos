@@ -2418,6 +2418,134 @@
       "statement": "Read the text and judge the statement.\n\n“The committee tested evening opening hours from April to June. Attendance rose in May and fell again in June. The minutes record these figures without proposing any change.”\n\nThe passage recommends that the evening opening hours be adopted permanently.",
       "correctAnswer": "E",
       "explanation": "O trecho relata o teste e seus resultados. Ele informa expressamente que não houve proposta de mudança."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intratextuais",
+      "conceptId": "referente-pronominal",
+      "mechanism": "usar-concordancia-para-resolver-referencia",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#3. Pronomes pessoais e possessivos neutros: *IT* e *THEY*"
+      ],
+      "statement": "“The binder contained three signed forms. They were scanned separately.” The pronoun “they” refers to the three signed forms.",
+      "correctAnswer": "C",
+      "explanation": "They retoma a expressão plural three signed forms. The binder está no singular."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intratextuais",
+      "conceptId": "referente-pronominal",
+      "mechanism": "presumir-antecedente-mais-proximo",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#3. Pronomes pessoais e possessivos neutros: *IT* e *THEY*"
+      ],
+      "statement": "“The inspectors left their bags at reception. They returned an hour later to collect them.” The pronoun “they” refers to the bags.",
+      "correctAnswer": "E",
+      "explanation": "They retoma os inspetores, que voltaram para buscar as bolsas. As bolsas são retomadas por them."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intratextuais",
+      "conceptId": "referencia-proposicional",
+      "mechanism": "identificar-retomada-de-evento",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#4. Pronomes demonstrativos: *THIS, THAT, THESE, THOSE* e a referência proposicional"
+      ],
+      "statement": "“The agency cancelled the afternoon session. This left several speakers without a slot.” The word “this” refers to the cancellation of the afternoon session.",
+      "correctAnswer": "C",
+      "explanation": "This recupera o acontecimento expresso na frase anterior. Foi o cancelamento que deixou os palestrantes sem horário."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intratextuais",
+      "conceptId": "pronome-relativo",
+      "mechanism": "distinguir-restricao-de-comentario",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#5. Pronomes relativos e o *Sentential WHICH*"
+      ],
+      "statement": "“The records that contain personal details will be stored separately.” The relative clause adds a comment about every record and does not restrict which records will be stored separately.",
+      "correctAnswer": "E",
+      "explanation": "That contain personal details delimita quais registros serão armazenados separadamente. A frase não afirma que todos contêm dados pessoais."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intratextuais",
+      "conceptId": "catafora",
+      "mechanism": "identificar-antecipacao-do-referente",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#2. Vetores de referência textual: endófora, anáfora, catáfora e dêixis"
+      ],
+      "statement": "“Before she addressed the audience, the chair checked the microphone.” The pronoun “she” can anticipate “the chair”, which appears later in the sentence.",
+      "correctAnswer": "C",
+      "explanation": "O referente é apresentado depois do pronome. Essa leitura exemplifica catáfora."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intratextuais",
+      "conceptId": "pronome-demonstrativo",
+      "mechanism": "ignorar-contraste-entre-grupos",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#4. Pronomes demonstrativos: *THIS, THAT, THESE, THOSE* e a referência proposicional"
+      ],
+      "statement": "“The morning sessions were fully booked. Those scheduled for the evening still had places.” The word “those” refers to the morning sessions themselves.",
+      "correctAnswer": "E",
+      "explanation": "Those recupera o substantivo sessions, mas scheduled for the evening delimita outro conjunto de sessões."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intratextuais",
+      "conceptId": "relativo-sentencial",
+      "mechanism": "identificar-escopo-da-retomada",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#5. Pronomes relativos e o *Sentential WHICH*"
+      ],
+      "statement": "“The filing system stopped accepting uploads, which forced applicants to use the service desk.” The clause introduced by “which” attributes the change in procedure to the system ceasing to accept uploads.",
+      "correctAnswer": "C",
+      "explanation": "Which retoma o acontecimento expresso pela oração anterior. A consequência decorre da interrupção dos envios."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intratextuais",
+      "conceptId": "referente-ambiguo",
+      "mechanism": "atribuir-certeza-sem-contexto",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#3. Pronomes pessoais e possessivos neutros: *IT* e *THEY*"
+      ],
+      "statement": "“Emma told Sarah that she had been selected.” Taken on its own, the sentence unambiguously identifies Sarah as the person selected.",
+      "correctAnswer": "E",
+      "explanation": "She pode retomar Emma ou Sarah. A frase isolada não fornece informação suficiente para escolher um referente."
     }
   ]
 }

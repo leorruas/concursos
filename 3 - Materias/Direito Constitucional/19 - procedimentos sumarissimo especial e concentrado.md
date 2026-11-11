@@ -5,7 +5,7 @@ title: "Procedimentos sumaríssimo, especial e concentrado: urgência e ritos pr
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-11
 aliases:
   - "Rito sumaríssimo"
   - "Urgência urgentíssima na Câmara"
@@ -75,7 +75,7 @@ O **art. 157** esclarece como acelerar a instrução **sem exigir que o parecer 
 
 **Emendas a matéria urgente:** pelo **art. 157, § 4º**, se a discussão se encerrar com emendas, elas são imediatamente distribuídas e publicadas, dispondo as comissões de **uma sessão** para apresentar parecer, que pode ser **verbal por motivo justificado**. A urgência diminui prazos e adapta a forma da instrução, sem dispensar o juízo sobre a matéria.
 
-**Fala e encerramento:** o **art. 157, § 3º**, na redação dada em 2021, prevê **três minutos** por orador nas condições descritas e admite, após **doze deputados** se manifestarem, requerimento de **maioria absoluta** para encerrar discussão e encaminhamento. Esse requerimento não é o mesmo do **art. 178, § 2º**, estudado em CAM-PL-006, com **5%** como requisito de apresentação em outra hipótese de encerramento.
+**Fala e encerramento:** o **art. 157, § 3º**, na redação dada em 2021, prevê **três minutos** por orador nas condições descritas e admite, após **doze deputados** se manifestarem, requerimento de **maioria absoluta** para encerrar discussão e encaminhamento. Esse requerimento não é o mesmo do **art. 178, § 2º**, estudado em CAM-PL-006, com **5%** como requisito de apresentação em outra hipótese de encerramento. **Art. 157, § 3º-A:** aprovado o encerramento de discussão e encaminhamento, fica impedido ou prejudicado, **na mesma sessão**, o requerimento de adiamento de votação, **salvo se o relator alterar o texto ao examinar as emendas**. **§ 5º:** diligência em projeto urgente não amplia os prazos para sua apreciação. **§ 6º:** se o parecer às emendas de Plenário for apresentado pelo relator designado durante a sessão, a votação só poderá começar após **dez minutos da disponibilização do parecer**.
 
 ## Procedimentos especiais: a espécie determina a estrutura
 
@@ -100,6 +100,7 @@ O **art. 202 do RICD** define etapas que mostram por que a PEC não segue o mesm
 | **Exame na CCJC** | **Cinco sessões** para parecer de **admissibilidade** |
 | **Comissão especial de mérito** | **Quarenta sessões** a partir da constituição para parecer |
 | **Emendas à PEC na comissão especial** | Nas **primeiras dez sessões** e com as condições constitucionais e regimentais de subscrição |
+| **Publicação do parecer até a pauta** | Após a publicação do parecer da comissão especial, há **interstício de duas sessões** para inclusão na Ordem do Dia (art. 202, § 5º) |
 | **Turnos no Plenário** | **Dois turnos** de discussão e votação, com **interstício de cinco sessões** |
 | **Aprovação** | **Três quintos dos membros**, em ambos os turnos, em votação nominal: **308 votos por turno na Câmara** |
 
@@ -246,3 +247,14 @@ Apresentar primeiro a separação entre **categoria doutrinária** e **regime re
 - [Congresso Nacional, Glossário: Sessão conjunta](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-legislativo/-/legislativo/termo/sessao_conjunta).
 
 **Delimitação:** a taxonomia é doutrinária e não substitui o texto constitucional e regimental para cada instituto. O artigo não repete todas as hipóteses e vedações de PEC, MP, lei delegada e orçamento, cujas notas canônicas e unidades específicas permanecem referenciadas. Os dez itens Cebraspe são inéditos, não provas oficiais, e não registram desempenho pessoal.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Fontes e escopo:** conferido o texto da nota, tabelas, **sete casos progressivos**, **dois exemplos comentados** e **dez questões C/E** frente aos [arts. 151–157 e 201–203 do RICD atualizado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e aos [arts. 57, 60, 62, 64, 66, 68 e 166 da Constituição](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). A classificação sumaríssimo/especial/concentrado é **doutrinária**, separada das espécies regimentais de urgência e dos procedimentos próprios.
+
+**NC-PL-036:** complementado o art. 157, §§ 3º-A, 5º e 6º, sobre adiamento de votação, diligência e intervalo **de dez minutos após disponibilização do parecer** às emendas de Plenário quando oferecido durante a sessão por relator designado. **NC-PL-037:** acrescentado o **interstício de duas sessões entre a publicação do parecer da comissão especial sobre PEC e a inclusão na Ordem do Dia** (RICD art. 202, § 5º), distinto das cinco sessões entre turnos (§ 6º). Preservados os requisitos de art. 155 para requerimento e aprovação, a exigência de parecer e quórum no art. 152, a votação separada das MPs e as maiorias separadas de deputados e senadores para derrubar veto.
+
+**Dez gabaritos examinados e mantidos:** **C, E, E, C, C, E, C, E, C, E**. Não foi identificada inversão nos dez exercícios ou contradição jurídica nos casos e exemplos deste recorte. As novas regras ampliam precisão e cobertura didática, sem exigir troca de gabarito.
+
+**Limites:** certificação do conteúdo deste artigo nesta data; não representa exame de todos os procedimentos especiais, homologação da classificação doutrinária como texto regimental, desempenho do estudante, nem verificação da publicação e renderização no GitHub Pages. Os dez itens já pertencem ao inventário histórico.

@@ -4578,6 +4578,102 @@
       "statement": "Um órgão oferece a fornecedores cadastrados acesso remoto e restrito a um sistema de acompanhamento. Por estar acessível pela internet a esses fornecedores, o sistema é necessariamente aberto ao público em geral.",
       "correctAnswer": "E",
       "explanation": "É possível usar a internet como meio de acesso sem tornar o sistema público. A autorização restrita a parceiros é compatível com uma extranet."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "valor-publico",
+      "mechanism": "avaliar-custo-transferido-ao-usuario",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público"
+      ],
+      "statement": "Um órgão elimina o balcão presencial e reduz seu custo por atendimento. Se parte do público passa a gastar mais tempo ou deixa de conseguir acessar o serviço, a economia interna, sozinha, é insuficiente para avaliar o valor público da mudança.",
+      "correctAnswer": "C",
+      "explanation": "O custo interno mede recursos do órgão. A avaliação também precisa considerar acesso e consequências para os usuários."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "entrega-e-resultado",
+      "mechanism": "confundir-implantacao-com-resultado",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público"
+      ],
+      "statement": "A instalação de dez terminais de autoatendimento permite concluir que o serviço ficou mais acessível, mesmo antes de verificar se os usuários conseguem concluir suas solicitações.",
+      "correctAnswer": "E",
+      "explanation": "A instalação é uma entrega. A acessibilidade precisa ser examinada no uso, incluindo a possibilidade de concluir a solicitação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "participacao-e-priorizacao",
+      "mechanism": "ponderar-interesses-conflitantes",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança e partes interessadas"
+      ],
+      "statement": "Se comerciantes pedem atendimento noturno e moradores da vizinhança apontam riscos de ruído, considerar as duas demandas é compatível com escolher uma terceira solução justificada.",
+      "correctAnswer": "C",
+      "explanation": "Ouvir as partes informa a decisão. A autoridade pode ponderar impactos e justificar uma alternativa que nenhum grupo tenha proposto."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "participacao-e-interesse-publico",
+      "mechanism": "confundir-intensidade-com-representatividade",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança e partes interessadas"
+      ],
+      "statement": "O grupo que enviou mais manifestações em uma consulta representa necessariamente todos os usuários afetados, ainda que outros grupos não tenham recebido o convite.",
+      "correctAnswer": "E",
+      "explanation": "A contagem mede manifestações recebidas. A cobertura limitada impede tomar a posição mais frequente como evidência suficiente da visão de todos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "controle-de-governanca",
+      "mechanism": "usar-evidencia-para-reorientar",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "statement": "Se a redução do prazo médio vem acompanhada de aumento persistente no número de recursos, a instância de governança pode pedir uma análise da qualidade das decisões antes de manter a meta atual.",
+      "correctAnswer": "C",
+      "explanation": "Acompanhamento serve para identificar efeitos indesejados e orientar ajustes. A velocidade precisa ser lida em conjunto com a qualidade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "estrategia-de-governanca",
+      "mechanism": "confundir-priorizacao-com-lista-de-atividades",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "statement": "Listar os projetos em andamento, sem indicar critérios para resolver conflitos por recursos, basta para demonstrar que as prioridades estratégicas foram definidas.",
+      "correctAnswer": "E",
+      "explanation": "A lista informa o que está em curso. Priorizar exige estabelecer o que terá precedência quando os recursos não puderem atender a todos os projetos."
     }
   ]
 }

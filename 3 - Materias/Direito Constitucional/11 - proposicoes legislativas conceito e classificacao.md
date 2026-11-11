@@ -5,7 +5,7 @@ title: "Proposições legislativas: conceito, tipos e efeitos regimentais"
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-08
+updated: 2026-11-11
 aliases:
   - "Proposição legislativa"
   - "Tipos de proposição na Câmara dos Deputados"
@@ -78,6 +78,10 @@ Um requerimento solicita decisão sobre providência prevista no regimento. O **
 
 **Pegadinha:** “todo requerimento, por ser proposição, exige votação no Plenário” está incorreto. **O nome genérico 'requerimento' não determina sozinho a autoridade que o decide.**
 
+### Emendas: espécies regimentais do art. 118
+
+O **art. 118, § 1º**, distingue cinco tipos: **supressiva**, que retira parte de outra proposição; **aglutinativa**, que funde emendas ou emendas com o texto mediante aproximação de conteúdos; **substitutiva**, que oferece texto sucedâneo, podendo ser **substitutivo** quando alterar a proposição em seu conjunto; **modificativa**, que altera sem mudança substancial; e **aditiva**, que acrescenta conteúdo. **Subemenda** é emenda apresentada em comissão a outra emenda, com as restrições do § 7º. **Emenda de redação** é modalidade modificativa para sanar vício de linguagem, técnica legislativa ou lapso manifesto (§ 8º). A classificação depende do efeito sobre o texto, não apenas do nome escolhido pelo autor.
+
 ### Emenda, parecer e recurso: três funções distintas
 
 **Emenda** propõe alteração de um texto em análise. **Parecer** examina e opina sobre matéria em tramitação, podendo recomendar acolhimento, rejeição ou alteração. **Recurso** permite discutir decisão pelo órgão regimentalmente competente, quando admitido.
@@ -96,9 +100,17 @@ A **proposta de fiscalização e controle** dirige-se à atuação fiscalizadora
 
 **Autoria individual e coletiva:** o **art. 102** admite iniciativa individual ou coletiva de deputado. Em termos regimentais, **todos os signatários são autores**, embora as prerrogativas de autor em Plenário sejam exercidas por um signatário, com precedência pela ordem de subscrição. Nas hipóteses de iniciativa coletiva que exigem quórum, o art. 102, § 3º, disciplina como se obtêm as assinaturas; as assinaturas necessárias ao trâmite não podem ser retiradas nem acrescentadas após apresentação à Mesa, conforme § 4º.
 
+**Reapresentação após retirada:** o **art. 104, § 4º**, impede reapresentar **na mesma sessão legislativa** proposição retirada nos termos do artigo, **salvo deliberação do Plenário**. O **§ 5º** estende as regras de retirada a proposições do Senado, outros Poderes, PGR e cidadãos. Essa limitação difere do tratamento de novo projeto sobre matéria já rejeitada.
+
 **Retirada:** o **art. 104** estabelece pedido do autor ao Presidente da Câmara, sujeito a deferimento ou não, com possibilidade de recurso ao Plenário. Se a proposição já tiver **ao menos um parecer favorável**, **somente o Plenário** delibera sobre sua retirada. Na **iniciativa coletiva**, requerimento de retirada precisa ter **metade mais um dos subscritores**. Proposição de comissão ou da Mesa precisa de requerimento do presidente respectivo, com autorização prévia do colegiado. **'O autor sempre retira livremente'** ignora os limites do procedimento.
 
 **Arquivamento ao fim da legislatura:** segundo o **art. 105**, o encerramento da legislatura pode ensejar arquivamento de proposições em tramitação, **mas existem exceções expressas**, como propostas de iniciativa popular, projetos de código, determinadas proposições de tratados e contas presidenciais, além de iniciativas voltadas a espécies do art. 59 que **não tramitaram por três legislaturas completas**. O art. 105 foi **alterado pela Resolução nº 33/2022**; enunciados baseados em listas antigas podem ocultar exceções da redação vigente.
+
+**Efeito do arquivamento sobre proposições apensadas:** segundo o **art. 105, § 2º**, se o arquivamento atingir proposição em **tramitação conjunta**, os **pareceres aprovados permanecem válidos e instruem as proposições remanescentes**, mantida a distribuição às comissões, salvo deferimento de requerimento em sentido diverso pelo Presidente. Entre as ressalvas do **art. 105, X**, também estão as proposições **aprovadas pela Câmara e revisadas pelo Senado**. O arquivamento de um projeto apensado não apaga necessariamente toda a instrução conjunta.
+
+**Reapresentação de matéria de projeto de lei rejeitado:** o **art. 110** exige, **na mesma sessão legislativa**, **proposta da maioria absoluta dos membros da Câmara**; para projetos originários dos sujeitos dos **incisos III a VIII do art. 109, § 1º**, admite **iniciativa do Autor, aprovada pela maioria absoluta dos Deputados**. Trata-se de nova proposição sobre matéria rejeitada, com regime próprio, não da reapresentação após retirada do art. 104, § 4º.
+
+**Instrução obrigatória de projetos:** o **art. 112** estabelece que projetos incompletos ou com referências a leis, atos ou contratos sem a transcrição exigida só serão enviados às comissões **depois de completada a instrução**, com ciência aos autores sobre o retardamento. A correção formal antecede o encaminhamento e não constitui rejeição automática de mérito.
 
 **Publicidade e instrução:** o **art. 107** prevê identificação de autor, turnos, ementa, pareceres, emendas e votos na publicação, segundo o caso. No processo digital, **número e ementa ajudam a identificar a proposição, mas não informam, sozinhos, o estágio real da tramitação ou seu resultado**.
 
@@ -291,3 +303,14 @@ Para definir proposição na Câmara, indicar o **art. 100**, explicar sua **amp
 - [Biblioteca da Câmara, 31ª edição do Regimento Interno (2026)](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
 
 **Nota editorial:** o recorte utiliza o texto regimental disponível e conferido em **07/11/2026**. Dispositivos e atos complementares podem ser atualizados; em questão de literalidade, priorizar o texto vigente no exercício da prova. Esta publicação não comprova estudo realizado, retenção nem acerto em questões.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Recorte cotejado:** conteúdo e quadros de CAM-PL-001 e CAM-PL-016, **sete cenários do caso inicial**, **sete etapas do caso de fiscalização**, **dois exemplos comentados** e **13 exercícios C/E** em conjuntos de oito e cinco. Fonte normativa: [RICD consolidado, arts. 100–130](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), especialmente arts. 100–105, 108–118, 126–130, e [Constituição, arts. 59 e 66](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). Conferidos conceito e espécies regimentais de proposição, distinção entre projeto e ato normativo, indicação, requerimento, parecer, veto, autoria e retirada, arquivamento e emendas.
+
+**NC-PL-053:** incorporados arts. **104, §§ 4º e 5º**, e **110**, distinguindo reapresentação após retirada e reapresentação de matéria de projeto rejeitado na mesma sessão legislativa. **NC-PL-054:** incluídos **art. 105, X e § 2º**, preservando os pareceres aprovados na tramitação conjunta remanescente após arquivamento, e **art. 112**, sobre instrução incompleta. **NC-PL-055:** explicitadas espécies e definições de emendas, subemenda e emenda de redação do **art. 118**, para evitar tratar genericamente todo ajuste como emenda modificativa.
+
+**Gabaritos preservados:** CAM-PL-016, oito itens **E, E, C, E, C, E, E, C**; CAM-PL-001, cinco itens **C, E, E, C, E**. **13 questões** efetivamente existentes, sem inversão identificada. Nenhuma questão foi criada ou duplicada no inventário.
+
+**Limites:** certificação jurídico-editorial deste recorte e das fontes consultadas em 11/11/2026. Não equivale a revisão de todos os ritos especiais, desempenho do estudante, inspeção visual ou confirmação de publicação no GitHub Pages.

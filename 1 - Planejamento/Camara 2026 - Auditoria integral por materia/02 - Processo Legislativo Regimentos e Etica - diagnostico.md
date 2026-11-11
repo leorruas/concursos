@@ -702,3 +702,10 @@ Commit `366059b43995a50fdc38eb371e046880cfc110c9`: revistos os enunciados e come
 - **Estimativa de esforço restante:** cerca de **70% da validação integral**, qualitativa e provisória, não um percentual calculado por itens revisados. A fase 1 continua aberta.
 
 **Próximo bloco:** `DC13 - tramitacao legislativa fases e fluxo.md`, conferir integralmente sua correspondência com procedimentos ordinários e gabaritos. **Nenhum artigo de estudo alterado.**
+
+
+### Execução: Código, Regulamento e Acordo cotejados no DC34 (11/11/2026)
+
+**Commit** `c50a3c69b4a106a16bf2013d31f4d8a70a2e9c91`. Realizadas 14 alterações localizadas em DC34: incluído o inciso VI omitido do art. 4º (irregularidades graves); detalhado o art. 18, § 3º (aprovação nominal para transferência da responsabilidade pelo sigilo ao Conselho); corrigido alcance de referência a recursos; incluído prazo de três sessões ordinárias do art. 9º, § 2º; identificada a divergência entre Regulamento de 2001 (cinco sessões, cinco testemunhas) e redação consolidada posterior do art. 14, § 4º, II (dez dias úteis, oito testemunhas). Inclusos os dispositivos operacionais do Acordo 2025–2027: reuniões públicas não deliberativas, parecer preliminar em dez dias úteis, pedido de vista de dois dias úteis, quórum e voto de desempate e suspensão cautelar com prazo próprio. Referências e URLs das fontes primárias foram incorporadas à nota.
+
+**Fontes:** [Código consolidado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html), [Regulamento do Conselho](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/arquivos/regulamento-1/view), [Acordo 2025–2027](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027/view). Acordo consultado em sua aprovação de 08/07/2025: persistência sem modificações em 2027 não foi certificada. Diagrama Mermaid ainda sem teste visual no site; toda a nota e seus precedentes ainda não foram auditados linha a linha. **Status da trilha: 2/29 artigos modificados, 0/29 com certificação integral.**

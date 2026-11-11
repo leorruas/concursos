@@ -5,7 +5,7 @@ title: "Escola de Chicago: comunicação, interação, cidade e públicos"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Escola de Chicago: comunicação, interação, cidade e públicos
@@ -99,6 +99,16 @@ Sua investigação da **imprensa imigrante** permite examinar o papel de veícul
 **Item C/E 3, inédito:** “A noção de público em Dewey pode se relacionar à percepção de consequências compartilhadas, sendo, por isso, diferente da simples lista de destinatários prevista para uma campanha.”
 
 **Gabarito: Certo.** Trata-se de formação do público em torno de problemas, não apenas de seleção de receptores.
+
+## Conferência autoral delimitada: público e self (11/11/2026)
+
+Em **Dewey**, a formação de um público depende de consequências **indiretas** de transações que atingem terceiros e cuja atenção ou regulação coletiva é considerada necessária. Por isso, o simples compartilhamento de uma preferência ou o alcance de um comunicado não bastam para caracterizar, no sentido preciso de *The Public and Its Problems*, a constituição de um público político. Essa precisão reforça o contraste entre **público** e **audiência** usado neste artigo.
+
+Em **Mead**, o *outro generalizado* designa a perspectiva organizada de uma comunidade ou grupo social, internalizada na coordenação das ações; não é apenas a soma de pessoas externas nem sinônimo de receptor de campanha. **Interacionismo simbólico** é nomenclatura posterior, associada a Blumer; o uso da expressão como nome de escola deve ser separado dos conceitos de Mead.
+
+**Verificação dos C/E inéditos:** item 1 **Certo**, porque não reduz Chicago a transmissão técnica; item 2 **Errado**, porque self e notícia não são codificação e decodificação de Shannon; item 3 **Certo**, desde que “público em Dewey” seja entendido à luz das consequências indiretas relevantes que demandam atenção coletiva, não de qualquer interesse compartilhado. Os três gabaritos foram mantidos nesta conferência dirigida. O exemplo do transporte é hipotético e não valida automaticamente as atribuições históricas a Park, Thomas e Burgess.
+
+**Fontes de cotejo:** [Stanford Encyclopedia of Philosophy, *Dewey's Political Philosophy*, seção sobre público e privado](https://plato.stanford.edu/entries/dewey-political/); [Stanford Encyclopedia of Philosophy, *George Herbert Mead*, seção 3, papéis, self e outro generalizado](https://plato.stanford.edu/entries/mead/). **Pendências:** confrontar diretamente as passagens de Park e Thomas com obras originais, examinar todas as remissões internas e avaliar os exemplos contra o programa literal. Estado: **Corrigido em recorte autoral, não certificado integralmente**.
 
 ## Relações com outros temas
 

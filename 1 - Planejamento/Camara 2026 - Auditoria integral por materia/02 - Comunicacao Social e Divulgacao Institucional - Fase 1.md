@@ -733,3 +733,18 @@ Esta rodada realizou cotejos delimitados em quatro artigos teóricos e registrou
 **Fontes de consulta:** [McLuhan.org: tétrade](https://mcluhan.org/laws-of-media/); [Stanford: Peirce](https://plato.stanford.edu/entries/peirce-semiotics/); [Bourdieu, reprodução acadêmica](https://is.muni.cz/el/fss/podzim2019/POLn4102/um/blok1/Bourdieu_PO_Does_Not_Exist.pdf); [Noelle-Neumann, descrição institucional](https://noelle-neumann.de/scientific-work/spiral-of-silence/) e [resumo de artigo](https://academic.oup.com/anncom/article-abstract/14/1/256/7828443).
 
 **Indicadores cumulativos:** **30 artigos distintos modificados entre 128 arquivos inventariados**, aproximadamente **23,4% com alguma alteração**. A rodada analisou 12 itens C/E, mas **apenas dois receberam cotejo dirigido de fonte especializada ou original mais direto** (Peirce no 41 e Bourdieu no 42). Sob o critério conservador de conferência dirigida com fonte identificada, o registro acumulado passa de **52 para 54 itens**; os dez demais julgamentos têm apoio contextual ou indireto e permanecem distintos de certificação. O percentual de arquivos modificados **não é percentual de auditoria concluída**. A revisão integral de fontes originais, redundâncias, lacunas do edital e questões reais da banca permanece aberta.
+
+
+## Registro: midiatização, plataformização e integridade da informação (11/11/2026)
+
+Nesta rodada, foram editados três artigos novos no conjunto de intervenções:
+
+| Artigo | Resultado verificável | Commit |
+| --- | --- | --- |
+| 44, midiatização | Item 1 conferido diretamente no resumo de Hjarvard (2008/2012); itens 2 e 3 permanecem com pendência de cotejo integral de Krotz e Hepp | [e45c237](https://github.com/leorruas/concursos/commit/e45c237cdbc52c3fdfd3ce13fb722fa6425e295a) |
+| 45, plataformização | Itens 1 e 2 confirmados com artigos de Poell, Nieborg e Van Dijck (2019) e Van Dijck/Poell (2013); item 3 é inferência metodológica sobre métricas | [ed0c2e9](https://github.com/leorruas/concursos/commit/ed0c2e9dc65746b03c20ea84c97ef47407df8a73) |
+| 46, integridade da informação | Corrigida lacuna editorial: UNESCO apresenta dois grupos diferentes de cinco princípios no documento de governança, agora discriminados; OCDE 2024 e limites de direitos cotejados; rol da ONU ainda pendente de acesso nesta rodada | [f5263b0](https://github.com/leorruas/concursos/commit/f5263b05ca6559fd72b0b10e0f4a80720b518222) |
+
+**Fontes conferidas:** [Hjarvard, resumo original](https://www.diva-portal.org/smash/get/diva2%3A1534824/FULLTEXT01.pdf); [Poell et al., 2019](https://policyreview.info/concepts/platformisation); [Van Dijck e Poell, 2013](https://doi.org/10.17645/mac.v1i1.70); [OCDE 2024](https://www.oecd.org/en/publications/2024/03/facts-not-fakes-tackling-disinformation-strengthening-information-integrity_ff96d19f.html); [UNESCO, diretrizes](https://www.unesco.org/en/internet-trust/guidelines).
+
+**Indicadores:** 33 arquivos distintos editados entre 128 inventariados, **25,8% de incidência de edição**, não taxa de conclusão. Dos nove itens C/E dos três artigos, **três** foram cotejados diretamente com formulações autorais de Hjarvard e das duas obras sobre plataformas, passando a contagem conservadora acumulada de **54 para 57 itens**. O conjunto da OCDE foi conferido adicionalmente, mas seu item já apoiado pelo documento não foi somado para evitar dupla contagem ou misturar níveis distintos de prova. Permanecem pendentes os cotejos integrais, a verificação de cada exercício, os demais artigos e a calibração a partir de itens reais da banca.

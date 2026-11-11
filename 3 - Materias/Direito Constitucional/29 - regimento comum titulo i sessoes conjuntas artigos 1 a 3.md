@@ -5,7 +5,7 @@ title: "Regimento Comum do Congresso: direção, objeto e convocação das sess�
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 aliases:
   - "CAM-PL-025"
   - "Regimento Comum Título I"
@@ -22,7 +22,7 @@ aliases:
 
 Uma **sessão conjunta** reúne membros da **Câmara dos Deputados e do Senado Federal** para finalidades constitucionais ou regimentais específicas. O Título I responde **quem dirige**, **para que se reúne**, **quem convoca**, **quando há sessão solene** e **onde ocorre**. A disciplina do processo decisório vem de outros dispositivos do RCCN e da Constituição: uma reunião conjunta **não implica votação conjunta indiferenciada** nem substitui o processo legislativo bicameral ordinário.
 
-A redação consolidada oficial do Senado para o art. 1º começa com a direção pela Mesa do Senado. Essa disposição deve ser lida com a **Constituição, art. 57, § 5º**, segundo a qual a **Mesa do Congresso Nacional é presidida pelo Presidente do Senado Federal**, com composição institucional própria. A referência à Mesa do Senado no texto histórico não significa que todos os cargos da Mesa do Congresso sejam exercidos exclusivamente por senadores.
+A redação consolidada oficial do Senado para o art. 1º começa com a referência histórica à direção pela **Mesa do Senado**. A [edição oficial do Regimento Comum com notas de atualização](https://www2.senado.leg.br/bdsf/bitstream/handle/id/816688/Regimento_comum_normas_conexas_2025.pdf?isAllowed=y&sequence=10) esclarece que a direção dos trabalhos do Congresso Nacional compete à **Mesa do Congresso Nacional**, conforme a **Constituição, art. 57, § 5º**. Essa Mesa é presidida pelo **Presidente do Senado**, mas sua composição observa a participação das duas Casas. Para questões sobre a direção vigente, distinguir a letra histórica do art. 1º da regra constitucional expressa.
 
 ## Estrutura do Título I: três artigos e cinco perguntas
 
@@ -144,5 +144,7 @@ A sequência de estudo é: [[3 - Materias/Direito Constitucional/28 - mapa regim
 - [Congresso Nacional: página oficial de Regimento Comum e normas conexas](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional).
 - [Senado Federal: volume atualizado até julho de 2025](https://www2.senado.leg.br/jspui/handle/id/816688?mode=simple).
 - [Constituição de 1988 atualizada, arts. 57, 60, 65, 66, 68 e 166](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+
+**Controle de qualidade da nota (11/11/2026):** o conteúdo dos **arts. 1º a 3º**, o **quadro de finalidades**, as **oito situações práticas**, as **dez questões C/E**, as remissões constitucionais sobre PEC, veto, delegação e direção do Congresso, e os links internos foram confrontados com os textos oficiais do Senado/Câmara. **Gabaritos mantidos: 10/10**, sem inversão demonstrada. Foi precisada a distinção entre a referência histórica à Mesa do Senado e a direção constitucional pela Mesa do Congresso. A edição compilada do Regimento Comum publicizada pelo Congresso registra atualização até **julho de 2025**: uma busca por atos posteriores deve anteceder o uso desta nota como certificação de vigência normativa em 2026. Este controle não equivale a questões oficiais nem desempenho pessoal.
 
 **Nota editorial:** texto conferido em **09/11/2026** contra a consolidação oficial disponível, cuja edição em volume foi atualizada até **julho de 2025**. Não se presume que não exista alteração posterior sem nova verificação normativa. As dez questões são inéditas e não representam resolução ou desempenho pessoal.

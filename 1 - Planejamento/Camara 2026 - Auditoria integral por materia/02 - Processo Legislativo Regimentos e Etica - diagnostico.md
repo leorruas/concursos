@@ -185,3 +185,54 @@ Manter temporariamente as seis notas e tratar DC28 como índice conceitual. Corr
 ### Próxima ação
 
 Examinar DC29–34 (Regimento Comum, Resoluções do Congresso e Código de Ética), depois DC35–37 e as notas-base DC06/DC10. Paralelamente, completar o cotejo das fontes e de cada gabarito dos DC11–28, principalmente dispositivos regimentais históricos e normas supervenientes. Ao final cruzar edital literal, catálogo de matéria, artigos e dependências e emitir parecer integral. Nenhum conteúdo foi alterado nesta fase.
+
+
+## Bloco 5: Regimento Comum, resoluções do Congresso e Código de Ética (11/11/2026)
+
+**Método e extensão real:** foram recuperados integralmente os arquivos DC29–34, examinados os títulos, estrutura, seções centrais e trechos normativos de risco. Houve confronto externo específico da Resolução da Câmara nº 25/2001, art. 14 e art. 16, com texto atualizado oficial, e consulta à página oficial do Regimento Comum e às referências da Comissão Representativa e da Resolução 1/2002-CN. **Inspeção parcial, não auditoria linha a linha nem revisão de todas as questões.**
+
+### Inventário por artigo
+
+| Arquivo | ArticleId | Núcleo de conteúdo e risco principal | Estado |
+| --- | --- | --- | --- |
+| DC29 `regimento comum titulo i sessoes conjuntas artigos 1 a 3.md` | `art-f25a1c9074de83b6` | Título I do RCCN, convocação e direção de sessões conjuntas; conferir cada finalidade do art.1 e os quóruns | Parcial |
+| DC30 `regimento comum titulo iv sessoes solenes e materias ate artigo 103.md` | `art-0d62a7f94c8153be` | Solenidades, PEC, projetos orçamentários, revogações e Res.1/2006-CN; cotejo artigo a artigo pendente | Parcial |
+| DC31 `regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md` | `art-91d84ac6f2b70e35` | Lideranças, comissões mistas e votação; conferir regras gerais versus regimes especiais | Parcial |
+| DC32 `comissao representativa do congresso resolucao 3 1990.md` | `art-4e9b8c207d16f53a` | Composição 7+16, recesso, calendário constitucional atual versus histórico; confirmar competências e condições | Parcial |
+| DC33 `medidas provisorias resolucao 1 2002 CN.md` | `art-7bc9230e51a6d84f` | Prazos e ritos de MPs, ADI 4.029 e 5.127; validar efetividade de dispositivos marcados inconstitucionais | Parcial |
+| DC34 `codigo de etica e decoro parlamentar da camara.md` | `art-5b41764164052519` | Infrações, penalidades, Conselho e procedimento disciplinar; **erros normativos de prazo confirmados** | Parcial, com achados críticos |
+
+### Fontes primárias consultadas
+
+- [Código de Ética da Câmara, Resolução nº 25/2001, texto atualizado oficial](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html), especialmente arts.14, §4º, II e IV, e 16 caput e §§1º–2º.
+- [Página oficial dos regimentos e resoluções do Congresso](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional): texto consolidado da Resolução nº 1/1970-CN, Resolução nº 3/1990-CN e resolução específica das MPs; volume anunciado como atualizado até julho de 2025.
+- [Resolução nº 1/2002-CN, texto atualizado](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html), aberta; cotejo individual de seus 23 artigos e jurisprudência ainda pendente.
+
+### Não conformidades críticas confirmadas: DC34
+
+**NC-PL-001 (CRÍTICO: prazo de defesa e número de testemunhas).** Em `DC34 > ## 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário > ### Passo a passo detalhado do procedimento`, o texto afirma: **“cinco testemunhas”** e **“cinco sessões ordinárias”** para defesa. Entretanto, o **art.14, §4º, II**, do Código atualizado determina **10 dias úteis** para defesa escrita, indicação de provas e até **8 testemunhas**. A regra apresentada no artigo leva a respostas incorretas sobre quantidade, unidade de tempo e prazo. **Correção proposta na Fase 3:** reconstruir o procedimento com citação literal do inciso vigente, separando regimes de sanção. Evidência: Código oficial, art.14, §4º, II.
+
+**NC-PL-002 (CRÍTICO: instrução e parecer do relator).** A mesma seção descreve parecer do relator em **“cinco sessões ordinárias”**. O **art.14, §4º, IV**, fixa prazo **improrrogável de 40 dias úteis de diligências e instrução na perda do mandato, 30 dias úteis na suspensão temporária do mandato, e 10 dias úteis subsequentes para apresentar parecer**. Reconstituir a sequência e verificar outros prazos do arquivo antes da republicação. Evidência: Código oficial, art.14, §4º, IV.
+
+**NC-PL-003 (CRÍTICO: 60/90 dias e natureza da unidade).** Em `DC34 > ## 5 ... > 7. Prazos máximos de tramitação (art. 16)`, a nota apresenta os limites como **“60 dias”** e **“90 dias”**, sem dizer **úteis**. O **art.16 caput e §1º** estabelece **60 dias úteis** nas penalidades dos incisos II e III do art.10, e **90 dias úteis** para perda do mandato; o texto também deve delimitar exatamente a etapa competente. A omissão de “úteis” produz instrução errada em provas de contagem. Evidência: Código oficial, art.16.
+
+**NC-PL-004 (CRÍTICO: pauta).** Na mesma seção, o artigo escreve: **“prazo improrrogável de dois dias”** para a Mesa incluir a matéria na Ordem do Dia. O **art.16, §2º**, determina **2 sessões ordinárias**, após recebimento, leitura no expediente, publicação e distribuição em avulsos. **Dias corridos/úteis ≠ sessões ordinárias**. Corrigir unidade e marco inicial.
+
+**NC-PL-005 (IMPORTANTE: organização de texto suscetível a mistura de ritos).** O artigo reúne num único passo a passo procedimentos de **suspensão de prerrogativas regimentais (art.13)** e **suspensão do exercício/perda de mandato (art.14)**. O art.13, II, também prevê **10 dias úteis** para defesa, e há diferenças posteriores na instrução. Na Fase 2, propor duas trilhas de decisão por sanção/competência, evitando aplicar prazos de uma à outra. Avaliar outros enunciados e todos os gabaritos à luz dos dispositivos corretos.
+
+### Achados importantes e hipóteses para DC29–33
+
+- **A-PL-021 (verificação de vigência):** DC30 assinala que artigos históricos do RCCN sobre PEC/iniciativa presidencial e orçamentos foram revogados ou superados. Confrontar cada referência marcada “revogada” na consolidação oficial, além da disciplina da CMO pela Resolução 1/2006-CN. Não tratar a lista do arquivo como certificada sem essa conferência.
+- **A-PL-022 (fonte e hierarquia):** DC32 reconhece a incompatibilidade entre datas históricas do art.3 da Res.3/1990-CN e os períodos da CF art.57 após EC50/2006. O PDF do Congresso traz nota explícita sobre essa atualização, mas o restante das competências e seus fundamentos devem ser conferidos separadamente.
+- **A-PL-023 (voto e órgão):** DC29–31 contrastam reunião conjunta, comissão mista e votações de cada Casa. A existência de artigos independentes parece didaticamente justificável; testar duplicidade real nos exemplos antes de qualquer fusão.
+- **A-PL-024 (jurisprudência de MPs):** DC33 distingue ADI4.029 e ADI5.127, além dos dispositivos apontados como inconstitucionais. Confrontar a decisão e sua modulação com os 10 itens inéditos antes de declarar conformidade. Não confundir ausência de revogação expressa com vigência plena de todos os dispositivos.
+- **A-PL-025 (tratamento emergencial):** em DC34, os quatro erros confirmados afetam a preparação para julgamento C/E. Recomenda-se **sinalizar o artigo como NÃO CONFIÁVEL PARA MEMORIZAR PRAZOS PROCESSUAIS** até a correção autorizada. Esta é recomendação de uso, sem alterar o artigo na Fase 1.
+
+### Próxima ação
+
+1. Revisar integralmente **todas as questões comentadas e prazos de DC34** contra o texto vigente, ampliando achados e distinguindo arts.13/14/16.
+2. Continuar com DC35–37 e bases DC06/10; completar cotejo do edital oficial e conexões com Orçamento.
+3. Concluir confronto jurídico, pedagógico e de questões dos DC11–33. A detecção de erros críticos em DC34 recomenda **não inferir qualidade dos demais artigos pela aparência editorial**.
+4. Na Fase 1, apenas relatar; alterações do material ficam reservadas para fase posterior expressamente autorizada.
+
+**Estado:** DC11–34 (24 artigos) inventariados/inspecionados em diferentes graus, nenhum integralmente validado; **4 não conformidades críticas de prazo confirmadas em DC34** e uma importante de estrutura didática. Nenhum artigo original alterado.

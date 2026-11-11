@@ -5,7 +5,7 @@ title: "Tipos de mídia, veículos e plataformas"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Tipos de mídia, veículos e plataformas
@@ -89,6 +89,18 @@ O art. 37, § 1º, da Constituição exige caráter educativo, informativo ou de
 **Item 3.** Selecionar uma plataforma digital implica necessariamente contratar publicidade paga, produzir peça audiovisual e identificar individualmente todos os destinatários.
 
 **Gabarito: Errado.** Compra, formato e tratamento de dados são dimensões distintas da escolha de plataforma.
+
+## Auditoria de categorias: PESO autoral e Cebraspe (11/11/2026)
+
+O [modelo PESO de Gini Dietrich](https://armentdietrich.com/peso-model/), apresentado em 2014 e detalhado pela [autora](https://medium.com/@ginidietrich/what-is-the-peso-model-ea891b8a153f), distingue **paid**, exposição adquirida mediante compra de mídia; **earned**, reconhecimento ou cobertura conquistada de terceiros; **shared**, distribuição e interação em espaços compartilhados, inclusive redes sociais; e **owned**, conteúdo e canais controlados pela organização. São categorias analíticas de relações de distribuição, **não tipos físicos de arquivo ou nomes de plataformas**. A classificação de uma publicação pode envolver simultaneamente mais de uma modalidade, por exemplo conteúdo próprio publicado em uma rede social e posteriormente impulsionado.
+
+**Fronteira relevante:** uma **conta** mantida por órgão em plataforma privada contém conteúdo institucional e decisões editoriais próprias, mas a **infraestrutura, alcance algorítmico e regras** dependem da plataforma. No enquadramento PESO, esse conteúdo pode ser analisado nas dimensões **shared** e **owned** conforme a ênfase, sem pressupor propriedade plena do canal ou controle de audiência. Pagar hospedagem do próprio portal é custo operacional; não converte automaticamente cada acesso em **paid media**. *PESO* organiza relação comercial/editorial de distribuição, enquanto “rádio”, “internet”, “emissora”, “vídeo” e “story” se referem a outras dimensões (meio, veículo, formato).
+
+**Cotejo dos três C/E preexistentes:** **1 Certo**, porque adequação do meio é condicional à tarefa; **2 Errado**, porque conta em rede de terceiros não assegura controle absoluto; **3 Errado**, pois plataforma não implica compra de mídia, formato audiovisual e identificação nominal de destinatários. As duas últimas distinções são compatíveis com o PESO, mas os detalhes de tratamento de dados requerem LGPD e contexto específico.
+
+**Questões reais já conferidas, sem duplicar contagem:** [Correios 2011, item 73, Certo](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf) reconhece seleção de meios e veículos como função de mídia; [DPDF, aplicada em 2022, item 67, Errado](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md) rejeita confundir presença paga com canal próprio. O segundo pertence a concurso de **Jornalismo**, mas a distinção tem aplicação no planejamento de divulgação.
+
+**Novo C/E inédito:** “A publicação de conteúdo institucional em perfil de rede social caracteriza automaticamente mídia paga, pois o órgão assume custos de produção da postagem.” **Errado.** Custo de produção não é, por si, contratação de veiculação paga.
 
 ## Relações e heurísticas
 

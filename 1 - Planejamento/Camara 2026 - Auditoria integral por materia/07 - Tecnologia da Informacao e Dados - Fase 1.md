@@ -157,3 +157,45 @@ Examinar individualmente **28, 29 e 30**, confrontando boxplot, ferramentas BI, 
 Com os artigos 18–30 recuperados e inspecionados, o **segmento IA + dados** do inventário local está percorrido em leitura dirigida (13/13), **sem certificação integral de qualidade**, fontes ou cobertura literal do edital. Restam 17 artigos numerados de Informática (01–17), cinco notas compartilhadas em Evidências, Dados e IA, revisão estrutural do hub e cotejo do edital oficial integral. **Próxima frente prioritária:** auditoria transversal dos cinco textos compartilhados, depois 03–11 (Microsoft 365, Internet, e-mail), 12–17 (segurança e governança), e 01–02 conforme delimitação do edital. Manter TI-020 como reparo crítico antes de estudo com questão C/E e assegurar rastreabilidade da fonte Microsoft.
 
 **Mudanças nesta rodada:** somente este relatório e o índice de estado. Artigos teóricos, questões originais, hubs e dados privados intactos.
+
+
+## Bloco 4: cotejo transversal com Evidências, Dados e IA (11/11/2026)
+
+**Cinco notas recuperadas integralmente, sem modificação:**
+- `3 - Materias/Evidencias Dados e IA/01 - perguntas fontes e qualidade da evidencia.md` (articleId `art-1f82bd75e4c24a96`);
+- `02 - indicadores denominadores e subnotificacao.md` (`art-76af310de8594bc2`);
+- `03 - inferencias falacias e falsos positivos.md` (`art-4cbf9823a7d145e0`);
+- `04 - escuta rastreabilidade e protecao de fontes.md` (`art-b7e4092af5c348d1`);
+- `05 - ia responsavel e validacao de decisoes publicas.md` (`art-5d6b81c3e0a942f7`).
+
+**Escopo e contagem:** 13/30 artigos da pasta `Informatica` inspecionados seletivamente (18–30), **5/5 notas compartilhadas lidas e cotejadas seletivamente**, 17 artigos numerados `Informatica/01–17` ainda pendentes, hub sem auditoria completa. **Onze itens C/E inéditos das cinco notas compartilhadas (2+2+2+2+3) lidos com gabaritos e comentários**, sem certificação externa integral, sem gabarito invertido demonstrado neste lote. Essas notas vinculam explicitamente seu conteúdo ao **edital CGU 2026**, logo sua pertinência para a Câmara depende de nexo real com o programa de Tecnologia da Informação e Dados e Comunicação, não da origem em outra prova. Nenhum artigo teórico alterado.
+
+### Matriz de aproveitamento transversal
+
+| Nota compartilhada | Vínculo comprovado no conteúdo local | Aproveitamento para Câmara |
+| --- | --- | --- |
+| `Evidencias Dados e IA/01` | Dado, informação, evidência, fonte, qualidade, triangulação, perguntas de análise; faz diferença entre correlação e evidência causal | **Complementar** `Informatica/24–25` em linhagem e qualidade de dados; questões específicas de prova de auditoria CGU não devem compor cobertura automática Câmara |
+| `02` | Denominador, taxa/razão, período, subnotificação, viés de detecção e seleção; exemplo de 60/12.000 e 45/3.000 | **Alta utilidade** para `Informatica/24–26` na leitura correta de indicadores, comparabilidade e estatísticas de painéis |
+| `03` | Correlação/causalidade, confundimento, seleção, falácia ecológica, falso positivo/negativo, sensibilidade, especificidade e VPP | **Alta utilidade** para `Informatica/19,23,26,28`; complementa TI-015 e TI-024, separando associação de causalidade |
+| `04` | Entrevista de auditoria, pesquisa e ouvidoria; proteção e rastreabilidade; pseudonimização versus anonimização | **Transferência limitada** para ética de IA, privacidade, comunicação institucional e pesquisa; regime específico de denúncias/CEP-CONEP não se incorpora automaticamente ao edital TI |
+| `05` | Escolha entre IA e regra simples, GuIA 2026 em sete etapas, supervisão efetiva, revisão jurídica dependente do regime, RAG ≠ validação | **Complemento prioritário** `Informatica/18,21–23`; permite separar orientação de governança de obrigação legal, mitigando TI-002/003/007/008 |
+
+### Achados do cotejo
+
+**TI-028, contradição normativa/editorial transversal, prioridade alta.** `Evidencias Dados e IA/05` afirma expressamente que o **GuIA é uma referência orientadora**, sem converter automaticamente cada etapa em obrigação legal, e que **dever concreto de revisão/explicação depende da atividade e do regime jurídico**. `Informatica/18` caso 2 e `23` §§5–7 afirmam obrigação universal de `human-in-the-loop` e proibição geral de automação decisória em casos de direitos. É **incompatibilidade de formulações no acervo**, não uma prova adicional de que todo caso de automação seja lícito ou ilícito. Vincular ao TI-002 e conservar a distinção LGPD art.20 / recomendações GuIA / normas específicas. O texto compartilhado é **fonte interna didática**, a confirmar por normas oficiais na Fase 2.
+
+**TI-029, lacuna de competência analítica transversal.** `Evidencias Dados e IA/01–03` incorporam **definição operacional de indicador, população, período, denominador e processo de seleção**; `Informatica/24` usa no caso 1 registros de “acessos únicos” e crescimento sem baseline, e `26` traz exemplo de correlação com natureza de variáveis mal especificada. A sequência conceitual mais segura é: **pergunta → medida/denominador → qualidade/transformação → gráfico → inferência com limites**. As notas externas à trilha não devem ser copiadas como novas unidades sem mapear exigências literais do edital.
+
+**TI-030, correção quantitativa e aviso de taxas-base.** `Evidencias Dados e IA/03` fornece exemplo hipotético: 10.000 contratos; prevalência 1% = 100 casos; sensibilidade 90% = 90 VP e 10 FN; especificidade 95% sobre 9.900 negativos = 9.405 VN e **495 FP**; **VPP = 90/(90+495) = 15,3846%**. **A aritmética interna é coerente.** O exemplo ilustra por que “95% de especificidade” **não** implica “95% dos alertas estão corretos”, conteúdo diretamente útil para `Informatica/19` (métricas de ML) e `23` (vieses). Não apresentar a taxa como dado real da Câmara.
+
+**TI-031, risco de base normativa externa transposta.** `Evidencias Dados e IA/04` diferencia expressamente **auditoria, pesquisa com pessoas e denúncia**. Regimes de CEP/CONEP, Decreto 10.153/2019 e proteção do denunciante não podem ser universalizados a toda entrevista, ação de comunicação ou processo de IA na Câmara. Aproveitar conceitos de **rastreabilidade, acesso mínimo e reidentificação por metadados**; deixar remissões legais sob hipótese de aplicação concreta. A nota em si sinaliza corretamente esses limites.
+
+**TI-032, diferença entre indicador e inferência causal.** `Evidencias Dados e IA/02` mostra que a seleção de 100 contratos **por risco** entre 10.000 e detecção de problema em 25 permite afirmar **25% somente entre selecionados**, não na população. `Informatica/24–28` privilegiam indicadores, visualização e regras gráficas, mas não desenvolvem suficientemente **amostragem, inferência e viés de seleção**. Recomendar adicionar exemplos mínimos de denominadores e viés **quando a cobertura for efetivamente exigida pelo edital**, preservando limites da prova.
+
+**TI-033, melhoria de arquitetura e fonte.** As cinco notas trazem referências CGU para cobertura de seu programa e usam exemplos de auditoria, mas os cinco caminhos fazem parte de trilha própria de outro certame; há risco de redundância e ampliação desnecessária da matéria Câmara. Sugerir **links seletivos de aprofundamento** entre `Informatica/19,23–28` e `Evidencias Dados e IA/01–05` (principalmente 02, 03, 05), com aviso do contexto CGU, **sem fundir artigos nem duplicar ID**. O conteúdo 04 deve ficar como referência transversal, não unidade obrigatória de TI.
+
+### Mapa de continuidade
+
+**Estado agora:** segmento IA/dados de Informática **13/13 lido seletivamente**, notas compartilhadas **5/5 lidas seletivamente**, base Office/redes/segurança/governança **01–17 pendente**, **zero certificações integrais**. O erro confirmado **TI-020 (DAX `CALCULATE` / `CALCULATETABLE`)** permanece prioridade de reparo na futura Fase 2; o cotejo transversal não o alterou.
+
+**Próxima frente:** examinar `Informatica/03–07` (arquivos/OneDrive e Word/Excel/PowerPoint), depois `08–11` (rede, navegação, e-mail, Teams/Meet); `12–17` (segurança e governança); `01–02` (legislação conforme edital). Auditoria do hub, links e cotejo de PDF oficial integral continuam pendentes. **Nenhum artigo, gabarito, hub ou dado privado foi modificado; somente este relatório e índice.**

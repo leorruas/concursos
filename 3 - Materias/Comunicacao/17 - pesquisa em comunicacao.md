@@ -202,6 +202,18 @@ O mecanismo de distração predominante é **transposição conceitual**: uma ca
 
 **Conexões de revisão:** [[3 - Materias/Comunicacao/102 - pesquisa qualitativa e quantitativa em comunicacao|Métodos de pesquisa]]; [[3 - Materias/Comunicacao/103 - pesquisa de mercado e opiniao publicos tecnicas e limites|Opinião e públicos]]. **Classificação:** itens inéditos, não um levantamento de questões Cebraspe. A atribuição autoral da classificação de Mattar requer checagem independente.
 
+## Cotejo metodológico: desenho amostral e inferência (11/11/2026)
+
+A [AAPOR, *Best Practices for Survey Research*](https://aapor.org/standards-and-ethics/best-practices/) distingue amostras **probabilísticas** (quadro e seleção por mecanismos conhecidos) das **não probabilísticas** (por adesão, conveniência, contatos ou outros métodos). O fato de uma coleta ocorrer **online** não determina seu tipo: há amostras online recrutadas probabilisticamente, assim como painéis por adesão. A [AAPOR, *Disclosure Standards*](https://aapor.org/standards-and-ethics/disclosure-standards/) solicita divulgar seleção, recrutamento, cobertura e limitações do desenho; uma amostra extensa obtida por convite aberto não passa automaticamente a representar estatisticamente todos os cidadãos.
+
+**Ressalva inferencial:** em levantamentos não probabilísticos, não se deve apresentar a margem de erro amostral **clássica do desenho probabilístico** como se derivasse apenas do tamanho da amostra. A [AAPOR diferencia explicitamente intervalos de credibilidade modelados e margens clássicas](https://aapor.org/statements/understanding-a-credibility-interval-and-how-it-differs-from-the-margin-of-sampling-error-in-a-public-opinion-poll/). Existem procedimentos de inferência **baseados em modelos** para dados não probabilísticos, com pressupostos próprios que precisam ser descritos. Portanto, “não probabilístico” não é sinônimo de “todo cálculo quantitativo é impossível”.
+
+**Três C/E inéditos preexistentes conferidos:** **1 Certo**, amostragem por cotas pode controlar características observadas sem definir seleção probabilística; **2 Errado**, variação de visitas após campanha não isola causalidade; **3 Certo**, entrevistas em profundidade têm valor interpretativo sem exigência de representatividade estatística. O item 2 é juízo metodológico de causalidade, **não decorrência exclusiva dos padrões de divulgação da AAPOR**.
+
+**Novo C/E inédito:** “O recrutamento online torna uma amostra necessariamente não probabilística, independentemente da forma pela qual seus participantes foram sorteados.” **Errado.** A modalidade digital não define o mecanismo de seleção.
+
+**Pendência preservada:** a atribuição dos **seis eixos de classificação a Mattar (2013)** deriva do material previamente registrado sobre Dataprev/FGV, mas nesta etapa **não foi confrontada a edição integral do autor e a questão oficial**, portanto não recebe novo status de verificação autoral. Menções a outras incidências FGV permanecem exigindo identificação de caderno, item e gabarito.
+
 ## Relações com outros temas
 
 - [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]]: pesquisa como diagnóstico, monitoramento e avaliação.

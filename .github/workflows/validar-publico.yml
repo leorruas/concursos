@@ -16,7 +16,7 @@ jobs:
       - run: node scripts/test-camara-questions.js
       - run: node scripts/validate-flashcards.js
       - run: node scripts/test-article-identity.js
-      - run: node scripts/validate-vault-invariants.js
+      - run: node scripts/validate-vault-invariants.js --public-only
       - run: node scripts/test-contest-catalog.js && node scripts/test-contest-home-filter.js && node scripts/test-contest-article-filter.js && node scripts/test-contest-search-scope.js
       - run: node scripts/validate-search-governance.js
       - run: node scripts/build-site.js

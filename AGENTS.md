@@ -24,6 +24,14 @@ Usar classes semânticas nos diagramas, como `raiz`, `criterio` e `opcao`, e def
 
 **Perfil pessoal:** o `me.md` público foi reduzido a protocolos de estudo. Seu conteúdo original, incluindo identidade e proficiência individual, foi preservado e conferido por SHA em `leorruas/concurso-dados:me.md`. Agentes que necessitem desse contexto devem ler a cópia privada e manter esses dados fora da publicação.
 
+## Gate preventivo da gravação privada: vale para todos os agentes
+
+**Lição do incidente Câmara 11/11/2026:** uma sessão no cofre privado pode estar salva, mas seu workflow de consolidação falhar por falta de metadados ou referência incorreta. Nas sessões da Câmara, conferir previamente **cada questão** contra `data/questoes-camara.json > subjects`: `subjectId`, `unitId`, `examPart` (P1/P2) e `editalRef`, inclusive questões elaboradas no chat. Conferir `theoryRefs` em dois níveis: `articleId` pertencente à matéria no catálogo da Câmara e subtítulo idêntico ao Markdown atual. A mera existência da nota não valida o subtítulo nem a aderência ao edital.
+
+**Salvar por branch e PR no repositório privado `leorruas/concurso-dados`**. O workflow `validar-sessoes-pr.yml` executa os mesmos validadores da consolidação sem persistir projeções. Mesclar somente após o check verde. Quem dispõe de shell/Codex pode executar `node scripts/sync-private-study.mjs --validate-only` **a partir do cofre privado** antes do merge. Pelo conector GitHub sem shell, criar a branch e a PR para obter uma execução real; não declarar que validou só porque inspecionou o JSON. Após o merge, confirmar separadamente o commit da sessão e o sucesso do workflow de consolidação. Caso haja falha, preservar o arquivo original e seu ID, corrigir a causa e conferir as projeções.
+
+As invariantes **editoriais globais públicas**, inclusive a indexação de notas novas em `index.md`, pertencem ao CI público (`validar-publico.yml`). Não fazer uma falha editorial não relacionada impedir a atualização dos dados privados. Manter todos os registros pessoais exclusivamente no cofre privado. O `AGENTS.md` e `data/sessoes/README.md` privados são os contratos detalhados desta rotina.
+
 ## Mapa operacional entre repositórios (regra prioritária)
 
 Antes de usar caminhos como `data/sessoes/` ou `00 - Desempenho/`, identificar a qual repositório pertencem. Para agentes, o formato `leorruas/<repositorio>:<caminho>` elimina ambiguidades. O cofre possui [instruções próprias](https://github.com/leorruas/concurso-dados/blob/main/AGENTS.md); lê-las sempre que a tarefa envolver histórico individual.

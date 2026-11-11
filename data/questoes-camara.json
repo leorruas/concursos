@@ -4546,6 +4546,38 @@
       "statement": "Uma equipe envia um PDF como anexo e depois substitui o arquivo em seu próprio computador. O anexo na mensagem já entregue é atualizado automaticamente.",
       "correctAnswer": "E",
       "explanation": "O anexo enviado é uma cópia do arquivo no momento do envio. Substituir o original local não altera a cópia entregue."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / internet e intranet",
+      "conceptId": "intranet",
+      "mechanism": "confundir-protocolo-com-escopo-de-acesso",
+      "theoryRefs": [
+        "article:art-ef60bc0a1708e23d#1. Topologia de escopo de rede: Internet, Intranet e Extranet"
+      ],
+      "statement": "Uma organização disponibiliza um portal interno apenas a usuários autorizados. O uso de navegador e do protocolo HTTPS não impede que o portal faça parte de uma intranet.",
+      "correctAnswer": "C",
+      "explanation": "O escopo de acesso caracteriza a intranet. Navegadores e protocolos da Web também podem operar em serviços internos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / internet e intranet",
+      "conceptId": "extranet",
+      "mechanism": "confundir-acesso-externo-restrito-com-publicacao",
+      "theoryRefs": [
+        "article:art-ef60bc0a1708e23d#1. Topologia de escopo de rede: Internet, Intranet e Extranet"
+      ],
+      "statement": "Um órgão oferece a fornecedores cadastrados acesso remoto e restrito a um sistema de acompanhamento. Por estar acessível pela internet a esses fornecedores, o sistema é necessariamente aberto ao público em geral.",
+      "correctAnswer": "E",
+      "explanation": "É possível usar a internet como meio de acesso sem tornar o sistema público. A autorização restrita a parceiros é compatível com uma extranet."
     }
   ]
 }

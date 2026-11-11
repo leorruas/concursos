@@ -5,7 +5,7 @@ title: "Marketing institucional no setor público: valor, legitimidade e limites
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Marketing institucional no setor público: valor, legitimidade e limites
@@ -187,6 +187,16 @@ A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|nota 19]] a
 **Item 4.** O parágrafo único do art. 1º do Ato da Mesa nº 218/2025 excepciona produtos comunicacionais criados ou contratados diretamente por deputados, gabinetes e lideranças partidárias, mas essa ressalva não elimina a incidência de outras normas legais pertinentes.
 
 **Gabarito: Certo.** A exclusão do âmbito do Ato é específica e não equivale a imunidade normativa geral.
+
+## Conferência dirigida: alcance do Ato 218/2025 e limites da publicidade (11/11/2026)
+
+A [publicação oficial do Ato da Mesa nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html) fundamenta diretamente os quatro julgamentos do artigo: **item 1, Certo** (art. 8º e parágrafo único: todos os cidadãos brasileiros, com gestão de relacionamento e mapeamento de públicos); **item 2, Errado** (art. 9º, § 1º: canais próprios e abertos, com plataformas privadas complementares); **item 3, Errado** (a política não afasta o [art. 37, § 1º, da Constituição](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), que veda promoção pessoal); **item 4, Certo** (art. 1º, parágrafo único: exclusão dos produtos criados ou contratados diretamente por parlamentares, gabinetes e lideranças do âmbito específico da política, sem afastar outras normas incidentes).
+
+**Atenção ao escopo:** a ressalva do art. 1º não retira automaticamente da política toda comunicação de órgãos e serviços da Câmara; a distinção depende de quem criou ou contratou diretamente o produto e do enquadramento da atividade. A linguagem de marketing institucional é usada aqui como referencial gerencial, enquanto os dispositivos constitucionais e regimentais da Casa possuem naturezas jurídicas próprias.
+
+**Calibração com o corpus interno:** o [Índice de questões reais Cebraspe](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md) já classifica itens da banca por mecanismo de erro, e recomenda separar requisitos vigentes de exemplos históricos. Nesta passagem, o índice foi consultado como **mapa de questões**, não houve leitura direta do caderno de prova nem confronto de seu gabarito original; portanto, a conferência dos quatro itens acima é **normativa**, não calibração empírica independente com prova real.
+
+**Exercício C/E inédito:** “A ressalva do art. 1º do Ato da Mesa 218/2025 torna toda publicidade produzida diretamente por gabinete parlamentar imune aos limites constitucionais de promoção pessoal.” **Errado.** A ressalva é específica quanto ao âmbito do ato, não imunidade jurídica geral.
 
 ## Relações e heurísticas
 

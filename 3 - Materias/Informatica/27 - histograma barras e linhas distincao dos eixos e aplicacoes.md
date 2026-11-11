@@ -171,3 +171,19 @@ Diferentemente da recomendação padrão para gráficos de barras, **em gráfico
 > **Revisão editorial (11/11/2026):** ajustes localizados a partir da auditoria Câmara 2026, para explicitar o alcance das regras e separar exemplos hipotéticos de fatos. Os itens inéditos continuam sujeitos à validação integral de enunciados, comentários e referências.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** Itens 1–4 e 6 mantêm gabaritos (C, E, E, C, E); item 5 **não homologado** por transformar regra de design em obrigação universal. Reformulação e resultado sugeridos registrados no próprio comentário.
+
+---
+
+## Questão substituta S27-5: linha de base, magnitude e posição
+
+> Em um gráfico de barras em que a magnitude é codificada pelo **comprimento da barra**, iniciar a escala quantitativa no zero é uma recomendação de integridade visual, pois truncá-la pode aumentar artificialmente a diferença aparente entre os comprimentos. Em um gráfico de linhas, uma escala vertical restrita pode ser adequada quando claramente indicada e interpretada.
+
+**Gabarito: CERTO (inédita, substitui a Questão 5 bloqueada).** Em barras, com base zero, valores 98 e 100 produzem comprimentos próximos. Com base artificial em 97, passam a produzir comprimentos aparentes de 1 e 3. O segundo comprimento é três vezes o primeiro, apesar de os valores originais diferirem apenas cerca de 2%.
+
+**Fronteira:** em gráficos de linhas, os valores são geralmente codificados pela **posição vertical dos pontos**; faixas menores podem revelar oscilações relevantes, mas a escala deve estar legível e não pode ser usada para ocultar o contexto. Nem toda representação de barras usa a mesma codificação de magnitude, de modo que “obrigatoriamente para todo gráfico de barras” é formulação imprecisa.
+
+**Variação C/E:** “É sempre legítimo truncar a base de barras sem avisar a audiência, pois a escala numérica continua visível.” **ERRADO**: a percepção pode ser distorcida, e transparência de eixos é necessária.
+
+**Relação:** [[3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica|Integridade e codificações gráficas]] e [[3 - Materias/Informatica/30 - storytelling com dados estrutura narrativa contexto e persuasao|Comunicação responsável de resultados]].
+
+**Rastreabilidade:** Questão 5 original permanece **NÃO HOMOLOGADA**.

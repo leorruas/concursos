@@ -5,7 +5,7 @@ title: "Midiatização: Hjarvard, Krotz, Hepp e transformação das práticas so
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Midiatização: Hjarvard, Krotz, Hepp e transformação das práticas sociais
@@ -141,6 +141,18 @@ Um meio pode ampliar oportunidades de contato e também criar dependências. Uma
 **Item 3, inédito:** “Na perspectiva de Hepp, a dataficação é uma das tendências associadas à midiatização profunda, mas a coleta de dados não comprova, isoladamente, acesso equitativo ou participação social.”
 
 **Gabarito: Certo.** Dataficação é tendência do ambiente midiático; participação e equidade dependem de outros mecanismos. Mecanismo: fronteira entre infraestrutura e consequência social.
+
+## Auditoria dirigida de midiatização: atribuições e limites (11/11/2026)
+
+A formulação institucional de **Stig Hjarvard** foi confrontada com o [artigo publicado na *Nordicom Review* em 2008](https://www.diva-portal.org/smash/get/diva2%3A1534824/FULLTEXT01.pdf) e com a [versão em português na revista *MATRIZes*, de 2012](https://revistas.usp.br/matrizes/en/article/view/38327). O resumo de ambos explicita as **duas faces**: os meios tornam-se instituição relativamente autônoma, com lógica própria, e integram-se às rotinas de outras instituições.
+
+| Item | Gabarito existente | Evidência da revisão |
+| --- | --- | --- |
+| 1 | **Certo** | **Conferido diretamente** no resumo do autor: autonomia relativa e integração institucional ocorrem simultaneamente. |
+| 2 | **Errado** | A leitura de Krotz como metaprocesso não oferece evidência de sequência tecnológica universal; a verificação integral contra o texto de 2007 continua pendente. |
+| 3 | **Certo** | Dataficação aparece entre tendências estudadas pela midiatização profunda; a afirmação de que dados não demonstram participação é inferência metodológica coerente, sem cotejo integral da obra de Hepp. |
+
+**Resultado:** nenhum gabarito invertido. **Somente o item 1 fica marcado como conferência diretamente fundamentada nesta rodada.** Não usar as classificações de Krotz e Hepp como sinônimos da abordagem institucional de Hjarvard. A revisão limita-se a este conjunto, sem certificar cada seção do artigo.
 
 ## Aplicação discursiva
 

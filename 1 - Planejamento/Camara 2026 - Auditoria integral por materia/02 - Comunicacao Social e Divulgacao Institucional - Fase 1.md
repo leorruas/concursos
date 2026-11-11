@@ -585,3 +585,18 @@ Arquivos **recuperados integralmente**: `3 - Materias/Comunicacao/11 - etica em 
 - **Artigo 74, Inteligência artificial na comunicação:** acrescentado o mesmo fluxo normativo como base operacional, exercícios e distinção entre sinalização e verificação factual. Retirada a declaração desatualizada de que o Anexo I não havia sido acessado; mantida ressalva de conferência integral dos demais dispositivos. Commit: [82eb446](https://github.com/leorruas/concursos/commit/82eb446ac89148d942d61b4c77e035cd76a7bf92).
 
 **Estado da intervenção:** 2 artigos alterados, com edição preservando as demais seções. As demais propostas da auditoria, inclusive revisão do glossário do Ato 218/2025, conferência das normas, bibliografia e itens C/E, **continuam pendentes**. As quatro questões de cada artigo são exercícios inéditos, não questões históricas da banca. A revisão não certifica integralmente a exatidão dos textos.
+
+
+## Registro adicional: correções normativas executadas (11/11/2026)
+
+O primeiro conjunto de **cinco artigos prioritários** recebeu intervenções, sem certificação de auditoria integral:
+
+| Artigo | Intervenção executada | Commit |
+| --- | --- | --- |
+| 72, Ato 218/2025 | Inclusão dos seis conceitos do Anexo Único, fronteiras conceituais e quatro itens C/E; norma complementar OS 7/2025 e Ato 80/2019 continuam pendentes | [9fa8dab](https://github.com/leorruas/concursos/commit/9fa8dab84ce3d767f9949477c8e6cae0e5e8a9cc) |
+| 73, Manual | Fluxo do Anexo I de IA, quatro itens C/E e referências | [78add81](https://github.com/leorruas/concursos/commit/78add8191a43ba000dc5b66d3fa4c2a54e06056c) |
+| 74, IA | Fluxo normativo e correção de nota desatualizada sobre acesso ao anexo | [82eb446](https://github.com/leorruas/concursos/commit/82eb446ac89148d942d61b4c77e035cd76a7bf92) |
+| 123, Lei 12.232 | Quadro comparando literalidade da lei especial, lei geral e aplicação vigente; dois itens C/E inéditos | [eb7dbc1](https://github.com/leorruas/concursos/commit/eb7dbc1f36f28ac96c2a83e18ebce10579d40535) |
+| 124, Lei 12.232 | Mesmo quadro de cautela sobre remissões da Lei 8.666 e regime atual; dois itens C/E inéditos | [0464ac3](https://github.com/leorruas/concursos/commit/0464ac33fad9f428a3cdd58489ca79a2b8cc7c7e) |
+
+**Indicadores, sem misturar denominadores:** 5/5 intervenções iniciais delimitadas executadas; **5 de 128 arquivos inventariados** receberam edição de conteúdo desde o início das correções, aproximadamente 3,9% dos arquivos. Isso não implica que todos os 128 necessitem de alteração, nem que 3,9% da auditoria substantiva esteja concluída. Continuam pendentes as verificações de autoria, bibliografia, gabaritos, normas complementares, acessibilidade, redundâncias e calibração real Cebraspe, além da auditoria dos legados. A própria Fase 1 permanece **parcialmente verificada**. Os itens novos são inéditos e não devem ser lançados como questões reais da banca.

@@ -1,0 +1,109 @@
+---
+title: "Câmara 2026: auditoria integral de Língua Inglesa, Fase 1"
+type: "auditoria-materia"
+status: "em-curso"
+concursoId: "camara-2026"
+subjectId: "ingles"
+updated: 2026-11-11
+---
+
+# Língua Inglesa: Fase 1, diagnóstico e plano de reparos
+
+**Estado em 11/11/2026: EM CURSO.** Apenas auditoria. Nenhum artigo, item, gabarito, ID ou catálogo deve ser alterado nesta fase. Este documento é progressivo e não certifica a disciplina. Frente exclusiva de Inglês: não interferir nos demais relatórios. As notas 01–06 e o hub foram lidos integralmente no bloco 1; as 07–18 foram localizadas e inspecionadas apenas quanto a existência, metadados e títulos de seções, sem leitura crítica completa de texto e exercícios.
+
+## 1. Fontes, regras e limites de verificação
+
+- Governança recuperada: `AGENTS.md`, `CHAT.md`, `me.md`, `index.md`, `1 - Planejamento/Camara 2026 - Auditoria integral por materia/Plano e protocolo.md`, `00 - Indice e estado.md`, `01 - Prompt de continuidade.md`; arquitetura conceitual e edital local. Os documentos extensos de governança e o índice geral foram recuperados e consultados em trechos relevantes, sem reivindicar releitura humana exaustiva linha a linha.
+- Texto oficial: [Edital nº 1/2026, p. 51 do PDF, item 14.2.3](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades). [Edital nº 5/2026](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-5-cd-analista-especialidades-de-15-de-outubro-de-2026) e [Edital nº 6/2026](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-6-cd-especialidades-de-21-de-outubro-de-2026): as retificações publicadas não modificam a seção de Língua Inglesa (a nº 5 altera requisitos do Cargo 1, e tópicos específicos dos cargos 8/9; a nº 6, outros subitens).
+- Fonte editorial de pertencimento: `data/catalogo-materias-por-concurso.json`, `contests[concursoId=camara-2026].subjects[subjectId=ingles]`: 18 IDs de artigos e 1 ID de hub, conferidos contra 19 arquivos retornados individualmente pelo conector. O catálogo Dataprev reutiliza 01–06; a Câmara inclui 01–18.
+- **Não comprovado:** inexistência de outros artigos de apoio em pastas de Português, Comunicação, técnicas de leitura etc.; somente o conjunto catalogado e os links explicitados foram identificados. A inspeção transversal dos artigos compartilhados e a validação contra provas e gabaritos definitivos da banca continuam pendentes.
+
+## 2. Programa literal e matriz provisória de cobertura
+
+A redação oficial do item 14.2.3 é:
+
+> LÍNGUA INGLESA: 1 Compreensão de textos variados: domínio do vocabulário e da estrutura da língua, ideias principais e secundárias, explícitas e implícitas, relações intratextuais e intertextuais. 2 Itens gramaticais relevantes para compreensão de conteúdos semânticos. 3 Conhecimento e uso das formas contemporâneas da linguagem inglesa.
+
+As subdivisões abaixo são **unidades analíticas da auditoria**, não novos itens literais do edital. Situação `parcial` significa evidência confirmada em 01–06, mas suficiência total ainda não examinada; `pendente` exige leitura integral de 07–18.
+
+| Recorte literal do edital | Habilidade/conceito a avaliar | Notas vinculadas | Estado / ressalva |
+| --- | --- | --- | --- |
+| 1: `Compreensão de textos variados` | Leitura global e localizada, tese, propósito, tom, gêneros, evidência textual | 01, 07, 08, 18; hub | **Parcial**: 01 possui só um texto de treino integral e item C/E curto; 07/08/18 pendentes |
+| 1: `domínio do vocabulário` | Polissemia, classe, coligações, inferência lexical, falsos cognatos, vocabulário contemporâneo | 05, 11; hub | **Parcial**: 05 explica critério e apresenta exemplos; 11 pendente |
+| 1: `estrutura da língua` | Negação, oração, relativas, conectivos, voz, tempos, quantificação, equivalência | 02–04, 06, 09, 10, 12–17 | **Parcial**: 02–04/06 examinadas; demais pendentes |
+| 1: `ideias principais e secundárias` | Diferenciar proposição central de exemplos, detalhes e funções discursivas | 01, 07, 18 | **Parcial**; 07/18 pendentes |
+| 1: `explícitas e implícitas` | Evidência explícita, inferência autorizada, pressuposição, modalização, extrapolação | 01, 04, 06, 08, 15 | **Parcial**; 08/15 pendentes |
+| 1: `relações intratextuais e intertextuais` | Referência pronominal, progressão temática, causa, oposição, atribuição e citações | 02, 03, 09, 10, 18 | **Parcial**; dimensão intertextual principalmente pendente |
+| 2: `Itens gramaticais relevantes para compreensão de conteúdos semânticos` | Interpretação condicionada por sintaxe, tempo/aspecto, modalidade, passiva, escopo e comparações | 02–04, 06, 09–17 | **Parcial** com erro localizado em 06; testar gramática em texto, não só frase solta |
+| 3: `Conhecimento e uso das formas contemporâneas da linguagem inglesa` | Uso real contemporâneo, variação e registro, inglês digital/institucional, interpretação de gêneros atuais | 03, 05, 09, 11, 18 | **Pendente**: existência de tópicos não comprova suficiência de aplicação e variedade de textos |
+
+**Critério final:** fechar cada célula só depois de ler todos os artigos associados, seus exercícios e textos-base; não inferir frequência na banca a partir do edital.
+
+## 3. Inventário efetivo e ordem de leitura
+
+O GitHub retornou conteúdo para os 18 caminhos abaixo e para `ingles.md`. O estado `L` significa texto integral recuperado e avaliado neste bloco; `E`, existência/metadados/seções conferidos, mas auditoria de conteúdo pendente.
+
+| Nº | Caminho dentro de `3 - Materias/Ingles/` | Estado | Relação provável |
+| --- | --- | --- | --- |
+| Hub | `ingles.md` | L | navegação; conceitos preliminares |
+| 01 | `01 - leitura instrumental tese e inferencias.md` | L | 07/08 |
+| 02 | `02 - conectivos e relacoes logico semanticas.md` | L | 10 |
+| 03 | `03 - referencia pronominal e coesao lexical.md` | L | 09 |
+| 04 | `04 - tempos verbais voz passiva e modalizacao.md` | L | 13/14/15 |
+| 05 | `05 - vocabulario em contexto e falsos cognatos.md` | L | 11 |
+| 06 | `06 - parafrase equivalencia semantica e escopo.md` | L | 16/17 |
+| 07 | `07 - como localizar assunto tese e proposito em textos em ingles.md` | E | 01 |
+| 08 | `08 - informacoes explicitas inferencias e limites da deducao.md` | E | 01 |
+| 09 | `09 - coesao referencial e referentes de pronomes.md` | E | 03 |
+| 10 | `10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md` | E | 02 |
+| 11 | `11 - vocabulario contextual polissemia e falsos cognatos em ingles.md` | E | 05 |
+| 12 | `12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md` | E | 02/06 |
+| 13 | `13 - tempos verbais aspecto e sequencia temporal em ingles.md` | E | 04 |
+| 14 | `14 - voz ativa passiva e foco informacional em ingles.md` | E | 04 |
+| 15 | `15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md` | E | 04 |
+| 16 | `16 - comparativos quantificadores e delimitadores de escopo em ingles.md` | E | 06 |
+| 17 | `17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md` | E | 06 |
+| 18 | `18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md` | E | 01/03 |
+
+**Ordem prevista:** bloco 1: hub + 01–06 (realizado); bloco 2: 07–09; bloco 3: 10–12; bloco 4: 13–15; bloco 5: 16–18; bloco 6: conferência transversal de compartilhados, corpus Cebraspe, inconsistências e matriz fechada. A ordem favorece leitura e inferência antes de sintaxe isolada. Todos os seis artigos antigos incluem exercícios FGV A–E e um item C/E autoral da Câmara; as notas 07–18 têm seções anunciadas de questões Cebraspe, mas cada item, gabarito e explicação ainda precisa ser verificado.
+
+## 4. Auditoria individual: bloco 1, 01–06 e hub
+
+| Arquivo / localização | Diagnóstico localizado | Classificação e intervenção proposta |
+| --- | --- | --- |
+| `ingles.md`, `## Artigos por unidade` e `## 1. Conectivos e Marcadores Discursivos` | Hub integra 18 notas e funciona como ponto de entrada. Contém lista curta de traduções que convive com explicações mais completas em 02/10. Afirma que conectivos são “altamente cobrados” sem corpus quantitativo apresentado. | **Melhoria / risco de generalização**: substituir a frase por ênfase na função interpretativa, sem estatística; conservar hub como mapa, com aviso de polissemia e fronteiras. |
+| `01`, `## Núcleo do conceito`, `## Exemplo: texto original e interpretação`, `## Questão inédita no formato FGV (A–E)` | Distingue tese, assunto, inferência, escopo e estratégias `skimming/scanning`; texto de triagem automática mostra concessão e `may`. Exercícios: alternativa FGV C coerente; C/E **Errado** coerente com `may`. Texto original curto e um único C/E não estabelecem transferência para textos longos e desconhecidos. | **Importante / risco pedagógico**: manter como introdução breve ou integrar seletivamente à 07/08 após revisão. Acrescentar tarefas por texto inédito e inferências encadeadas; não duplicar no estudo da Câmara exercícios FGV como se fossem da banca. |
+| `02`, `## Classificação e fronteiras`, `### Polissemia em contexto` | Cobre causa, condição, concessão, contraste e regência de `although/despite`; reconhece `since/while` polissêmicos. Questão FGV B preserva concessão; C/E **Certo** sobre `nevertheless` é defensável. Uso de `unless` com ressalva de escopo é pertinente. Predominam frases construídas, sem reconstrução de argumento extenso. | **Importante / risco**: manter como pré-requisito ou incorporar à 10; exercitar conectores em parágrafos e inversão causal/concessiva. Evitar duas fontes canônicas repetidas. |
+| `03`, `## Categorias e exemplos`, `### Orações relativas restritivas e explicativas` | Boa distinção entre anáfora, catáfora, referente proposicional e ambiguidade de `they`. Questão FGV C é coerente com `which` proposicional; C/E **Certo** sobre `this` também. `The auditors, who reviewed the case,` é uma leitura não restritiva plausível, mas exige contexto para justificar grupo definido. | **Melhoria / risco didático**: conservar caso de ambiguidade e criar exercício de rastreamento de referentes em vários parágrafos. Evitar apresentar leituras contextuais como automáticas. Revisar sobreposição com 09. |
+| `04`, `## Tempos e aspectos: diferenças decisivas`, `## Modalização: possibilidade, necessidade e inferência` | Explica tempo, aspecto, passiva sem agente e diferença `mustn't/don't have to`. Exercício FGV B e C/E **Certo** são consistentes. As noções de `should` e `must` são prudentemente condicionadas ao contexto, mas aula ampla mistura três sistemas conceituais que ganharam artigos próprios 13–15. | **Importante / risco de redundância**: manter somente como síntese integradora/roteiro de pré-requisitos ou redistribuir entre 13–15; incluir leitura contextual de modalidade, aspecto e responsabilidade. |
+| `05`, `## Vocabulário e distinções frequentes`, `### Inferir palavra desconhecida` | Exemplos adequados de `actual/actually`, `claim`, `issue`, `policy`, `oversight`; valor contextual em vez de tradução automática. FGV C correta; C/E **Certo** em `actual expenditure` defensável. O caso textual é apenas uma frase e permite resolver quase tudo por memorização lexical. | **Importante / risco de transferência**: manter conceitos básicos, relacionar com 11 e incorporar teste de significado em textos inéditos, coligações e registro. |
+| `06`, `## Fronteiras que decidem a equivalência` | A frase `Only if documents are complete, the request can proceed.` usa `only if` no início sem inversão da oração principal. Em inglês padrão formal, seria `Only if documents are complete can the request proceed`, ou `The request can proceed only if documents are complete`. O exemplo é apresentado como estrutura original correta justamente em material de equivalência. | **CRÍTICO / erro linguístico comprovável**: corrigir em fase posterior; rever comentário que distingue condição necessária e suficiente; examinar se 12 e 17 reproduzem o problema. |
+| `06`, `### Condições: if, only if, unless`, `## Questão inédita FGV (A–E)` | A nota diferencia necessidade, suficiência, negação parcial, limiares numéricos, sequência e causalidade. Exercício FGV C e C/E **Errado** são coerentes. A passagem `If a report is approved, it can be published` exige cuidado: `can` exprime possibilidade/permissão contextual, não obrigação. | **Importante / melhoria**: manter cautela sem formalizar implicação lógica mais forte do que o texto permite. Dividir objetivo de quantificadores (16) e paráfrase (17) por autonomia, mantendo 06 como orientação integrada se útil. |
+
+**Conferência dos exercícios do bloco 1:** seis itens FGV A–E (gabaritos C, B, C, B, C, C respectivamente) e seis itens C/E autorais (Errado, Certo, Certo, Certo, Certo, Errado). Os enunciados, alternativas, respostas e comentários foram lidos; não foi identificado erro inequívoco nos gabaritos deste bloco. São exercícios produzidos para estudo e explicitamente identificados como inéditos, **não** questões reais calibradas da Cebraspe. Dificuldade competitiva não mensurada. A construção com `only if` é um erro no corpo do texto didático, não nesses doze gabaritos.
+
+## 5. Achados, severidade e evidência
+
+**ING-001 | CRÍTICO | erro comprovado.** `06 - parafrase equivalencia semantica e escopo.md`, tabela de `## Fronteiras que decidem a equivalência`: inversão obrigatória quando `only if` restritivo abre a oração e focaliza a condição. Reparo posterior: corrigir exemplo em inglês e explicitar diferença entre ordem neutra e inversão, verificando usos documentados em fontes de gramática de referência.
+
+**ING-002 | IMPORTANTE | risco observado.** `01–06`, seções de questões: treino C/E é quase sempre frase única, sem sustentação num texto-base mais longo. Mesmo com gabaritos coerentes, isso pode inflar a impressão de preparo para interpretação de textos inéditos. Teste necessário: quantidade de textos íntegros, variação de gêneros, extensão, itens vinculados ao mesmo texto e justificativa por evidência textual nos artigos 07–18.
+
+**ING-003 | IMPORTANTE | hipótese arquitetural, pendente.** Sobreposições 01↔07/08, 02↔10, 03↔09, 04↔13/14/15, 05↔11, 06↔16/17. A simples coexistência não demonstra redundância indevida: avaliar diferenças reais de autonomia e complexidade após leitura integral das 12 notas.
+
+**ING-004 | IMPORTANTE | risco de calibração.** A biblioteca apresenta questões autorais “no padrão Cebraspe”, mas nenhum item real com prova/cargo/ano/item/gabarito definitivo foi confrontado neste bloco. A alegação de distratores recorrentes, quando feita em planejamento/hub, exige amostra documentada; não afirmar frequência.
+
+**ING-005 | MELHORIA | constatação.** `ingles.md` combina roteador de notas com miniglossário de conectivos e alegação de incidência não documentada. Reorganizar apenas após decidir qual artigo será a fonte canônica.
+
+**ING-006 | IMPORTANTE | hipótese pendente.** O edital exige formas contemporâneas da linguagem inglesa: verificar se os artigos incluem uso real, diversidade de registros/gêneros e variação contextual, e se `18` efetivamente ensina estratégias de uso/leitura, para além de nomenclatura.
+
+## 6. Arquitetura proposta: hipótese de trabalho, não decisão executada
+
+Priorizar três camadas de aprendizagem: (a) **texto completo e tarefas de compreensão** com 07, 08 e 18; (b) **mecanismos de construção do sentido**, 09–11, 12–16; (c) **checagem de equivalência e limites de inferência**, 17 e revisão aplicada. As seis notas antigas devem ser avaliadas como pré-requisitos concisos/rotas para Dataprev (FGV), ou ter conteúdo fundido às novas com preservação dos IDs e redirecionamentos. Não decidir fusão ou exclusão antes do cotejo 07–18, nem misturar técnicas de prova de bancas diferentes. Projetar ao menos um conjunto transversal de leitura de textos inéditos com múltiplos itens C/E de inferência, tese, pronomes, conectores e vocabulário; não fabricar alegação de prova real.
+
+**Prioridade de reparo preliminar:** (1) corrigir erro de `only if` no futuro ciclo autorizado; (2) concluir 07–18 e conferir todos os itens/gabaritos; (3) verificar textos autênticos e formar matriz de leitura em textos novos; (4) validar com cadernos e gabaritos definitivos do Cebraspe; (5) decidir mapa de deduplicação e só então planejar edições. Esforço e impacto são relativos, não estimativas de horas de estudo ou de incidência.
+
+## 7. Checkpoint 1: 11/11/2026
+
+**Arquivos lidos integralmente e avaliados:** `3 - Materias/Ingles/ingles.md`; `01 - leitura instrumental tese e inferencias.md`; `02 - conectivos e relacoes logico semanticas.md`; `03 - referencia pronominal e coesao lexical.md`; `04 - tempos verbais voz passiva e modalizacao.md`; `05 - vocabulario em contexto e falsos cognatos.md`; `06 - parafrase equivalencia semantica e escopo.md`.
+
+**Arquivos cujo retorno foi verificado somente por estrutura/metadados:** `3 - Materias/Ingles/07` a `18` (nomes físicos completos na tabela de inventário). **Pendentes de leitura integral e auditoria de questões:** exatamente `07–18` (12 artigos). Pendem também compartilhados de outras pastas, provas Cebraspe identificadas e gabaritos definitivos. Nenhum artigo foi alterado. **Próximo bloco:** leitura crítica integral 07–09, cotejo de questões e revisão das correspondências 01/03. **Parecer parcial:** 01–05 podem apoiar uma introdução, com a ressalva de falta de calibração competitiva; 06 deve ser estudado com correção explícita do exemplo de `only if`. Matéria **não concluída**.

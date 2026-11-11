@@ -754,6 +754,166 @@
       "statement": "Dois grupos têm a mesma mediana no box plot. Se um tem caixa de 10 a 30 e o outro de 18 a 22, a igualdade das medianas implica a mesma dispersão interquartil.",
       "correctAnswer": "E",
       "explanation": "A mediana indica posição central. Os intervalos interquartis são 20 e 4, de modo que as metades centrais têm dispersões diferentes."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / comunicação interna",
+      "conceptId": "selecao-de-canal",
+      "mechanism": "ignorar-acesso-do-publico",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Terceiro conjunto: critérios para escolher e combinar canais"
+      ],
+      "statement": "Uma instituição precisa avisar ainda hoje sobre a interdição de uma entrada usada por trabalhadores sem acesso à intranet durante o turno. Publicar o aviso exclusivamente na intranet atende ao requisito de alcance imediato desse grupo.",
+      "correctAnswer": "E",
+      "explanation": "Um canal sem acesso durante o turno não assegura a entrega a tempo. O aviso precisa chegar ao grupo por um meio disponível antes de ele usar a entrada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / comunicação interna",
+      "conceptId": "comunicacao-interna",
+      "mechanism": "distinguir-entrega-de-dialogo",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Primeiro conjunto: o que precisa acontecer depois da comunicação?"
+      ],
+      "statement": "Para descobrir por que equipes diferentes interpretam de formas incompatíveis um novo procedimento, uma conversa mediada com espaço para perguntas pode cumprir uma função que o envio isolado de um boletim não cumpre.",
+      "correctAnswer": "C",
+      "explanation": "A conversa permite recolher interpretações e esclarecer divergências. O envio isolado distribui a mensagem, mas não coleta essas respostas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / comunicação interna",
+      "conceptId": "avaliacao-de-canais",
+      "mechanism": "confundir-acesso-com-compreensao",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Como avaliar canais sem trocar indicadores"
+      ],
+      "statement": "Um informativo sobre como registrar incidentes teve abertura de 94%. Esse indicador é suficiente para concluir que 94% dos destinatários sabem registrar um incidente corretamente.",
+      "correctAnswer": "E",
+      "explanation": "A abertura mede contato com o informativo. Saber aplicar o procedimento exige evidência como o preenchimento correto de um registro em uma situação de teste."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / comunicação interna",
+      "conceptId": "segmentacao-interna",
+      "mechanism": "adequar-distribuicao-ao-publico",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Quarto conjunto: fluxos, acesso e segmentação"
+      ],
+      "statement": "Se apenas os responsáveis por aprovar despesas precisam agir diante de uma mudança no formulário de autorização, direcionar a instrução operacional a esse grupo é compatível com a segmentação da comunicação interna.",
+      "correctAnswer": "C",
+      "explanation": "O recorte acompanha a responsabilidade por agir. A instrução operacional pode ser distribuída a quem a utiliza, conforme a necessidade do público."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / comunicação interna",
+      "conceptId": "combinacao-de-canais",
+      "mechanism": "distinguir-repositorio-de-alerta",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Segundo conjunto: quatro veículos recorrentes no edital"
+      ],
+      "statement": "Para comunicar uma nova rotina que exige consulta repetida, é coerente enviar um alerta curto com a data de início e manter na intranet uma página atualizada com o procedimento completo.",
+      "correctAnswer": "C",
+      "explanation": "O alerta chama atenção para a mudança. A página funciona como referência consultável durante a execução."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / comunicação institucional",
+      "conceptId": "imagem-pretendida",
+      "mechanism": "confundir-projecao-com-percepcao",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista"
+      ],
+      "statement": "Uma agência decide comunicar que é ágil e acessível. Essa decisão, por si só, comprova que usuários já a consideram ágil e acessível.",
+      "correctAnswer": "E",
+      "explanation": "A decisão evidencia a imagem que a instituição deseja projetar. O julgamento dos usuários depende de evidência sobre o que eles efetivamente percebem."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / comunicação institucional",
+      "conceptId": "identidade-organizacional",
+      "mechanism": "confundir-sinal-visual-com-identidade",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Albert e Whetten (1985): três critérios para investigar identidade"
+      ],
+      "statement": "Uma cooperativa troca seu símbolo gráfico, enquanto seus integrantes continuam a descrever os mesmos atributos centrais e distintivos da organização. A troca visual, isoladamente, é insuficiente para concluir que a identidade organizacional mudou.",
+      "correctAnswer": "C",
+      "explanation": "A identidade organizacional diz respeito a atributos que definem a organização para seus membros. Uma mudança de símbolo pode ocorrer sem alteração nesses atributos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / comunicação institucional",
+      "conceptId": "reputacao",
+      "mechanism": "confundir-reacao-pontual-com-reputacao",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Fombrun (1996): reputação e avaliação acumulada"
+      ],
+      "statement": "Uma pesquisa feita logo após a inauguração de uma unidade encontrou reação favorável entre os visitantes. Esse resultado, sozinho, demonstra reputação consolidada da instituição entre todos os seus públicos.",
+      "correctAnswer": "E",
+      "explanation": "A pesquisa captura a reação de um grupo em um momento específico. Reputação envolve avaliações acumuladas, e a amostra não sustenta generalização para todos os públicos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / comunicação institucional",
+      "conceptId": "imagem-construida",
+      "mechanism": "distinguir-percepcao-de-metapercepcao",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista"
+      ],
+      "statement": "Em uma entrevista, servidores dizem acreditar que a população considera o atendimento lento. As falas registram a crença dos servidores sobre a visão do público, que ainda pode ser investigada diretamente com usuários.",
+      "correctAnswer": "C",
+      "explanation": "A evidência vem de quem está dentro da instituição e expressa o que essas pessoas supõem que o público pensa. Entrevistar usuários mede a visão externa diretamente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / comunicação institucional",
+      "conceptId": "avaliacao-de-reputacao",
+      "mechanism": "atribuir-causa-sem-isolar-fatores",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Relações temporais e causais: o que uma campanha pode demonstrar?"
+      ],
+      "statement": "Após uma campanha, cresceu a confiança declarada pelos usuários. No mesmo período, o órgão reduziu o prazo de atendimento. A comparação entre antes e depois identifica quanto do aumento de confiança foi causado pela campanha.",
+      "correctAnswer": "E",
+      "explanation": "A mudança operacional também pode ter contribuído. A comparação temporal isolada não permite separar os efeitos da campanha e da redução do prazo."
     }
   ]
 }

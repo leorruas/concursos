@@ -146,7 +146,7 @@ flowchart TD
  E2 --> E3["Diligências: 15 dias úteis, prorrogáveis uma vez"]
  E3 --> E4{"Parecer do Conselho"}
  E4 -->|Improcedente| F["Arquivamento"]
- E4 -->|Pena menos grave| D1
+ E4 -->|Pena menos grave| M["Proposta à Mesa: sanção menos grave conforme fatos e competência"]
  E4 -->|Pena mais grave| G["Nova representação e reabertura da defesa"]
  E4 -->|Suspensão de prerrogativas| H["Recurso à CCJC: até 5 dias úteis, efeito suspensivo"]
  B --> I["Suspensão do mandato ou perda: art. 14"]

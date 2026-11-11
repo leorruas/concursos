@@ -135,6 +135,12 @@ O [Guia de Boas Práticas em Contratações Públicas de Serviços de Publicidad
 
 **Gabarito: Errado.** A portaria organiza procedimentos da Secom/PR no Poder Executivo federal. A Câmara, integrante do Legislativo, tem disciplina própria; normas gerais e constitucionais aplicáveis não equivalem à vinculação automática ao procedimento administrativo da Secom.
 
+## Prova histórica sobre atribuições de publicidade, Correios 2011 (11/11/2026)
+
+O [caderno oficial CESPE/UnB dos Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf) cobra, no **item 56, Errado**, a troca de responsabilidade que atribui à mídia a elaboração do planejamento a partir do qual a criação trabalharia. A estrutura do fluxo demanda distinguir **planejamento estratégico**, **planejamento de mídia** e **trabalho da criação**, sem estabelecer uma subordinação universal entre áreas. No **item 51, Certo**, reconhece possibilidade de fluxo simplificado direto entre anunciante e veículo, sem concluir que toda campanha precise de agência. O **item 55, Errado**, introduz vínculo necessário inexistente entre veículo e anunciante. O julgamento foi verificado na [cópia do gabarito definitivo identificada pelo mesmo código ECT11_028_83](https://www.estudegratis.com.br/images/provas/20767-cespe-2011-correios-analista-de-correios-comunicacao-social-publicidade-e-propaganda-gabarito.pdf).
+
+**Uso em prova:** evitar converter atribuições típicas em funções exclusivas, confundir contratante/agência/veículo ou tratar um roteiro de produção como organograma universal. A legislação de contratação pública pode impor outras competências e procedimentos próprios que esses itens de 2011 não examinam. [Índice do bloco 51–64](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md).
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|20]] apresenta a síntese de briefing e planejamento de mídia; [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16]] examina diagnóstico, objetivos e indicadores; [[3 - Materias/Comunicacao/79 - publicidade e propaganda conceitos funcoes e limites|CAM-DI-001]] define publicidade; [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|CAM-DI-003]] diferencia finalidades de publicidade. **CAM-DI-005** aprofundará o diagnóstico e as evidências; **CAM-DI-006**, a fronteira entre objetivos de comunicação e campanha.

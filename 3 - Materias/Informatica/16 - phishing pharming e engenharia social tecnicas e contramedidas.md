@@ -142,7 +142,7 @@ A proteção contra engenharia social exige a convergência de tecnologia e capa
 > Enquanto o *phishing* depende usualmente do envio de mensagens eletrônicas com links fraudulentos para induzir o usuário a acessar páginas clonadas, o *pharming* atua na corrupção do serviço de resolução de nomes (DNS), fazendo que o usuário seja redirecionado a um site falso mesmo que digite o endereço URL correto em seu navegador.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Síntese perfeita da distinção conceitual cobrada recorrentemente pelo Cebraspe. O phishing foca na persuasão e no clique na isca; o pharming foca na adulteração do DNS, operando de forma tecnológica e transparente à digitação correta da vítima.
+- **Fundamentação**: O *phishing* usa mensagens ou outros meios de persuasão para obter dados ou induzir ações; o *pharming* pode manipular DNS ou configurações de resolução de nomes para desviar o usuário mesmo diante do domínio correto. Essas são manifestações típicas, sem restringir o phishing exclusivamente a links em e-mails.
 
 ---
 
@@ -174,17 +174,17 @@ A proteção contra engenharia social exige a convergência de tecnologia e capa
 > Caso uma instituição pública seja vítima de um ataque de *pharming* em seu servidor DNS corporativo, a exigência de conexões seguras sob o protocolo HTTPS e o rigor na validação de certificados digitais válidos emitidos por autoridades certificadoras confiáveis perdem totalmente a utilidade prática para alertar os usuários acerca do redirecionamento fraudulento.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: A assertiva é categoricamente incorreta ao afirmar que a validação de certificados HTTPS/TLS "perde totalmente a utilidade prática". A checagem criptográfica do TLS é, no modelo de segurança da web, a barreira técnica fundamental no cliente para denunciar o desvio de tráfego decorrente de envenenamento de DNS (*pharming*). A proteção efetiva proporcionada pela validação TLS apoia-se em um conjunto de condições técnicas interligadas:
-  1. **Correspondência de identidade (CN/SAN):** O nome de domínio digitado pelo usuário na URL deve coincidir exatamente com os nomes registrados no certificado (*Common Name* ou *Subject Alternative Name*). No *pharming* típico, o invasor manipula a resolução de nomes (IP), mas não possui um certificado emitido por AC confiável para o domínio legítimo da instituição.
+- **Fundamentação**: A assertiva é incorreta ao afirmar que a validação HTTPS/TLS "perde totalmente a utilidade prática". A checagem criptográfica do TLS é, no modelo de segurança da web, a barreira técnica fundamental no cliente para denunciar o desvio de tráfego decorrente de envenenamento de DNS (*pharming*). A proteção efetiva proporcionada pela validação TLS apoia-se em um conjunto de condições técnicas interligadas:
+  1. **Correspondência de identidade (CN/SAN):** O nome de domínio digitado pelo usuário na URL deve coincidir exatamente com os nomes registrados no certificado (*Common Name* ou *Subject Alternative Name*). Em um desvio de DNS sem comprometimento de certificados ou chaves, o atacante geralmente não possui certificado válido para o **nome do domínio legítimo**; a validação do nome e da cadeia tende a alertar ou interromper a conexão.
   2. **Cadeia de confiança válida:** O certificado deve ter sido emitido por uma Autoridade Certificadora (AC) presente no repositório de raízes confiáveis (*Trust Store*) do sistema operacional ou do navegador. Se o atacante apresentar um certificado autoassinado ou emitido por AC desconhecida, o navegador interrompe a navegação e emite alerta ostensivo.
   3. **Integridade das chaves e do cliente:** A proteção pressupõe a preservação da chave privada da instituição e a integridade da máquina do usuário (ausência de ACs maliciosas injetadas localmente por malware prévio) e a não condescendência do usuário em ignorar exceções de segurança.
   
   **Diferenciação analítica de vetores:**
-  - *No envenenamento de DNS puro:* O IP é desviado, mas o servidor de destino não tem a chave privada nem certificado legítimo para o domínio requisitado $\rightarrow$ o TLS **detecta o desvio e alerta o usuário**.
+  - *No envenenamento de DNS puro:* Se o destino não apresenta certificado válido para o domínio requisitado, a verificação TLS **falha e o navegador pode bloquear a conexão**, conforme políticas e configuração.
   - *No typosquatting / domínios semelhantes:* O usuário é induzido a digitar um domínio falso (ex.: `camara-leg.br` em vez de `camara.leg.br`). Nesse caso, o atacante pode obter um certificado TLS válido para o domínio que ele comprou, e o navegador não acusará erro de certificado, dependendo da atenção do usuário à URL.
   - *No comprometimento de AC ou de chave privada:* Se a chave oficial vazar ou uma AC for fraudada, o invasor pode forjar a identidade em trânsito, quebrando a barreira do TLS.
   
-  Portanto, como o *pharming* corporativo adultera a resolução de nomes sem que o invasor possua a chave privada oficial nem um certificado autêntico reconhecido pela cadeia pública, a exigência de HTTPS e certificados válidos desempenha papel preventivo crucial e de forma alguma perde totalmente sua utilidade prática. Mantenha-se o gabarito **ERRADO**.
+  Portanto, HTTPS com validação adequada de certificado **continua sendo uma defesa relevante** contra desvio de DNS. Sua eficácia depende de integridade do cliente, verificação do domínio, cadeia de confiança e ausência de comprometimentos adicionais; não há proteção absoluta contra qualquer tipo de *pharming*. Mantenha-se o gabarito **ERRADO**.
 
 ---
 
@@ -220,3 +220,5 @@ A proteção contra engenharia social exige a convergência de tecnologia e capa
 - **Cartilha de Proteção de Dados da Câmara dos Deputados**: Diretrizes institucionais contra golpes eletrônicos e vazamento de informações.
 
 > **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** questões 1–6 mantêm **C, E, E, C, E, C**. Revisadas especialmente as condições de proteção do TLS contra redirecionamentos por DNS; não se deve confundir certificado válido do domínio fraudulento com certificado válido do domínio legítimo.

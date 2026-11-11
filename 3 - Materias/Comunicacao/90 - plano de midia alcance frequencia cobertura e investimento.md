@@ -88,6 +88,12 @@ A distribuição deve considerar o público que precisa da mensagem, e não apen
 
 **Limite:** o cotejo foi direto com a definição do IAB para CPP; as outras fórmulas do artigo foram revistas apenas por coerência aritmética e não representam inspeção integral das fontes MRC.
 
+## Calibração por prova real: Correios 2011, frequência e seleção de mídia (11/11/2026)
+
+O [caderno CESPE/UnB de Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf) e seu [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/Gab_Definitivo_ECT11_028_83.PDF) confirmam os itens **71 E** e **73 C**. No **71**, os conceitos de frequência e intensidade/espaço foram associados a dimensões trocadas: contar inserções não corresponde a medir automaticamente o espaço ocupado pela peça, e nenhum rótulo deve substituir a unidade efetivamente observada. No **73**, a seleção de meios e veículos é reconhecida como atividade do profissional de mídia.
+
+**Cuidado de transferência:** o vocabulário utilizado no item 71 se refere ao cenário do exame histórico, de 2011. Na mídia digital atual, **frequência média** é usualmente contatos/impressões pertinentes divididos por unidades distintas alcançadas, sob regras de medição; “intensidade” não é denominador universal de GRP, CPM ou frequência. A unidade, o recorte e o método devem ser identificados antes de resolver cálculos. **Nenhum dos três itens didáticos preexistentes foi alterado** nesta passagem; esta nota registra cobrança real, não prova de validade de todos os métodos da wiki.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|CAM-DI-011]]: meios. [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Planejamento de mídia]]: contexto. [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|Objetivos]]: indicadores e metas. [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Segmentação]]: universo de referência.

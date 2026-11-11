@@ -1810,6 +1810,134 @@
       "statement": "“The team had checked the figures before publication.” The rewrite “The figures were being checked before publication” preserves the indication that the check was already complete.",
       "correctAnswer": "E",
       "explanation": "Had checked situa a verificação como anterior e concluída. Were being checked descreve o processo em andamento no momento passado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "assunto-e-tema",
+      "mechanism": "confundir-recorte-com-campo-geral",
+      "theoryRefs": [
+        "article:art-554511538d877686#2. Distinção Estrutural: Assunto, Tema e Tese"
+      ],
+      "statement": "Um artigo discute exclusivamente a demora na emissão de carteiras estudantis pelo aplicativo municipal. “Serviços digitais” pode indicar o assunto geral, enquanto a demora na emissão das carteiras delimita o tema abordado.",
+      "correctAnswer": "C",
+      "explanation": "O assunto nomeia um campo amplo. O tema identifica o problema específico investigado dentro desse campo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "tema-e-tese",
+      "mechanism": "atribuir-posicao-a-pergunta",
+      "theoryRefs": [
+        "article:art-554511538d877686#2. Distinção Estrutural: Assunto, Tema e Tese"
+      ],
+      "statement": "O título “Como ampliar o acesso às sessões públicas?” enuncia a tese de que o acesso deve ser ampliado exclusivamente por meio de transmissões on-line.",
+      "correctAnswer": "E",
+      "explanation": "O título formula uma pergunta. O meio exclusivo mencionado no item não é sustentado pelo enunciado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "tese-e-argumento",
+      "mechanism": "identificar-funcao-da-evidencia",
+      "theoryRefs": [
+        "article:art-554511538d877686#2. Distinção Estrutural: Assunto, Tema e Tese"
+      ],
+      "statement": "Em “O horário da biblioteca deve ser ampliado. Na última pesquisa, 62% dos usuários afirmaram que chegam à região após o fechamento”, o percentual é apresentado como apoio à proposta de ampliar o horário.",
+      "correctAnswer": "C",
+      "explanation": "A primeira frase sustenta a proposta. A segunda fornece um dado que ajuda a explicar por que a mudança seria pertinente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "macroestrutura-semantica",
+      "mechanism": "distinguir-resumo-de-exaustividade",
+      "theoryRefs": [
+        "article:art-554511538d877686#3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      ],
+      "statement": "Se um relatório cita falhas de login, de envio de anexos e de consulta ao protocolo, resumir a lista como “falhas em etapas do atendimento digital” pode preservar a informação central sem repetir todos os exemplos.",
+      "correctAnswer": "C",
+      "explanation": "A expressão mais geral abrange as ocorrências citadas. A síntese mantém a categoria comum e reduz o detalhamento."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "resumo-e-inferencia",
+      "mechanism": "introduzir-causa-na-sintese",
+      "theoryRefs": [
+        "article:art-554511538d877686#3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      ],
+      "statement": "Um boletim registra que o número de solicitações cresceu e que o prazo médio também aumentou. O resumo “O prazo aumentou porque chegaram mais solicitações” preserva apenas relações que o boletim afirma explicitamente.",
+      "correctAnswer": "E",
+      "explanation": "O boletim registra duas mudanças. O resumo acrescenta uma relação de causa que o trecho não estabelece."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "progressao-tematica-linear",
+      "mechanism": "identificar-retomada-de-informacao-nova",
+      "theoryRefs": [
+        "article:art-554511538d877686#4. Dinâmicas de Informação: Tema versus Rema (Dado versus Novo)"
+      ],
+      "statement": "Em “A biblioteca contratou uma mediadora. A mediadora organizou um clube de leitura”, a segunda frase toma como ponto de partida uma informação introduzida na primeira.",
+      "correctAnswer": "C",
+      "explanation": "A mediadora é introduzida na primeira oração e retomada como tema da segunda, que acrescenta o que ela fez."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "progressao-tematica-constante",
+      "mechanism": "confundir-repeticao-com-ausencia-de-progresso",
+      "theoryRefs": [
+        "article:art-554511538d877686#4. Dinâmicas de Informação: Tema versus Rema (Dado versus Novo)"
+      ],
+      "statement": "Em “O portal reúne os editais. O portal oferece alertas de prazo. O portal permite consultar inscrições”, a repetição do tema demonstra que as frases seguintes não acrescentam informação.",
+      "correctAnswer": "E",
+      "explanation": "O tema se mantém, mas cada frase atribui ao portal uma função diferente. A progressão ocorre pelas informações acrescentadas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "coerencia-e-progressao",
+      "mechanism": "confundir-conector-com-justificativa",
+      "theoryRefs": [
+        "article:art-554511538d877686#5. Rupturas e Patologias da Progressão no Padrão Cebraspe"
+      ],
+      "statement": "Em “A fila diminuiu durante a manhã. Portanto, o formulário foi criado no ano passado”, a presença de “portanto” é suficiente para estabelecer uma conclusão sustentada pela primeira frase.",
+      "correctAnswer": "E",
+      "explanation": "O conector anuncia conclusão, mas o conteúdo da primeira frase não sustenta a data de criação do formulário."
     }
   ]
 }

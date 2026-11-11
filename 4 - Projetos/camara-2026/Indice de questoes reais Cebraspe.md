@@ -461,3 +461,23 @@ A categoria primária corresponde à **alteração mínima decisiva** registrada
 - [[3 - Materias/Estrategia de Prova/Cebraspe - Camara 2026 e metodo C E|Cebraspe: Câmara 2026 e método C/E]]
 - [[4 - Projetos/camara-2026/O que estudar|Câmara 2026 — O que estudar]]
 - [[4 - Projetos/camara-2026/Preservacao local do corpus de provas|Preservação local do corpus de provas]]
+
+
+## Verificação direta do caderno e gabarito definitivo: Correios 2011, itens 81 a 90 (11/11/2026)
+
+**Estado: conferência efetiva de fonte primária concluída para os dez itens deste bloco.** Foram visualizadas a página de planejamento e pesquisas do [caderno oficial CESPE/UnB, Cargo 28, Publicidade e Propaganda, código ECT11_028_83](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), e a tabela da página única do [gabarito oficial definitivo do mesmo cargo e código](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/Gab_Definitivo_ECT11_028_83.PDF). Houve conferência individual de número, sentido do enunciado, resultado oficial e correspondência com o índice, sem transcrever integralmente questões protegidas por direitos autorais.
+
+| Item | Gabarito oficial | Núcleo do enunciado original | Mecanismo e artigo relacionado |
+| ---: | :---: | --- | --- |
+| 81 | **C** | Avaliação precisa considerar a recepção | Distinguir veiculação de recepção; [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas\|94]] e [[3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade\|108]] |
+| 82 | **E** | Market share seria informação fixa | Tratar indicador dinâmico como permanente; [[3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes\|96]] |
+| 83 | **C** | Sazonalidade importa para o planejamento | Reconhecimento de variável temporal; [[3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias\|91]] |
+| 84 | **E** | Pré-teste descrito como exigência padronizada e universal | Generalização indevida; [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas\|94]] |
+| 85 | **C** | Histórico do anunciante no planejamento | Uso de evidências e contexto; [[3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes\|96]] |
+| 86 | **E** | Entrevista em profundidade indicada como mais rápida para grande amostra | Método atribuído a escala incompatível; [[3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos\|102]] |
+| 87 | **C** | Checagem de entrevistas com parte dos respondentes | Controle de qualidade da coleta; [[3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao\|103]] |
+| 88 | **C** | Dados de consumo de mídia por grupos demográficos | Segmentação/medição de perfis; [[3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos\|106]] |
+| 89 | **C** | Evolução histórica da concepção de opinião pública | Cobrança conceitual contextual; [[3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites\|104]]; **a afirmação histórica deve ser avaliada no contexto do caderno de 2011, sem tomá-la como definição acadêmica exclusiva** |
+| 90 | **C** | Pesquisa de mercado internacional considera idioma, costumes e ambiente político-econômico | Pesquisa com contexto cultural; [[3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao\|103]] |
+
+**Resultado da checagem:** os nove itens já listados na seção de Publicidade e Planejamento do índice (81–84, 86–87, 90, mais 82–83 já no intervalo) coincidem com o gabarito. A lista anterior de questões individuais omitia **85, 88 e 89**; nesta seção foram incorporados para dar cobertura ao bloco contínuo 81–90. O item 89 exige ressalva de enquadramento histórico/teórico, embora o gabarito seja C. A nomenclatura de provas antigas não é norma atual, e este cotejo de questões reais **não se confunde** com exercícios C/E inéditos dos artigos.

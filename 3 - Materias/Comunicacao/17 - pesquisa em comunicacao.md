@@ -5,7 +5,7 @@ title: "Pesquisa em comunicação"
 type: "conceito"
 status: "ativo"
 created: 2026-07-22
-updated: 2026-09-30
+updated: 2026-11-11
 ---
 # Pesquisa em comunicação
 
@@ -191,6 +191,16 @@ Há evidência direta e recorrente de cobrança:
 - **ALE-RO 2026**: técnicas qualitativas, com entrevista em profundidade e observação de campo.
 
 O mecanismo de distração predominante é **transposição conceitual**: uma característica verdadeira de um método é atribuída a outro.
+
+## Aplicação à Câmara 2026: itens inéditos C/E
+
+**Recorte:** avaliar método, amostra, limite de inferência e relação entre métricas e resultados, sem atribuir à Cebraspe as questões históricas da FGV.
+
+- **Item 1.** A seleção por cotas pode melhorar o controle de características observadas de uma amostra, mas não a transforma automaticamente em amostragem probabilística. **Certo.** O controle de cotas não garante probabilidades conhecidas de inclusão.
+- **Item 2.** A observação de aumento nas visitas de uma página institucional após uma campanha prova, isoladamente, que a campanha causou esse crescimento. **Errado.** A variação temporal também pode refletir outros fatores; é necessário desenho de avaliação compatível para sustentar causalidade.
+- **Item 3.** Entrevistas em profundidade podem revelar interpretações e experiências relevantes mesmo quando seus participantes não constituem amostra estatisticamente representativa da população. **Certo.** Profundidade analítica e representatividade estatística são atributos distintos.
+
+**Conexões de revisão:** [[3 - Materias/Comunicacao/102 - pesquisa qualitativa e quantitativa em comunicacao|Métodos de pesquisa]]; [[3 - Materias/Comunicacao/103 - pesquisa de mercado e opiniao publicos tecnicas e limites|Opinião e públicos]]. **Classificação:** itens inéditos, não um levantamento de questões Cebraspe. A atribuição autoral da classificação de Mattar requer checagem independente.
 
 ## Relações com outros temas
 

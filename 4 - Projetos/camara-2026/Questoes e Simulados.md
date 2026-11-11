@@ -119,6 +119,14 @@ Para cada erro ou acerto de alto valor, registrar:
 
 O desempenho da Câmara deve ficar separado da Dataprev. A métrica principal é **nota líquida**, acompanhada por acertos, erros e brancos.
 
+## Relatório visível após cada bateria
+
+Após a última resposta e sua correção, mostrar **no próprio ChatGPT** um relatório da bateria com placar legível (válidas, acertos, erros, brancos em simulados, respostas inseguras, nota líquida +1/-1/0 e P1/P2/matérias quando aplicável), lacunas detectadas por mecanismo e **tabela de três a cinco leituras prioritárias com links diretos verificados para seções dos artigos publicados**, motivo e número da(s) questão(ões) que justificam cada recomendação. O quadro aparece mesmo que a bateria tenha apenas dez itens. Reunir artigos repetidos e não inventar link, erro nem desempenho.
+
+Na **página do vault**, o mesmo relatório é um requisito de interface pendente de integração autenticada com o cofre privado. Não tornar públicos os dados de desempenho para preencher o painel. Até a integração, o relatório pós-bateria na conversa é a superfície operacional, e o vault mantém a biblioteca pública para os links.
+
+**Meta de execução:** de 11 a 24/11/2026, 20–25 itens/dia, seis dias por semana; depois, referência de 30 itens/dia (aproximadamente 180/semana), com dois momentos de discursiva por semana e simulados integrais em janeiro. Reajustar quando o tempo de correção comprometer a compreensão. Mais detalhes em [[1 - Planejamento/Camara 2026 - Estrategia de estudo ate janeiro|estratégia de estudo]].
+
 ## Registro de desempenho
 
 Ainda não há resultado de bateria ou simulado da Câmara registrado neste hub. Não criar métricas artificiais.

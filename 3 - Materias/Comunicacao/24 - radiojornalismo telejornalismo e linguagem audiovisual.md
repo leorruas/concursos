@@ -5,7 +5,7 @@ title: "🆕 Radiojornalismo, telejornalismo e linguagem audiovisual"
 type: "conceito"
 status: "ativo"
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-11-11
 ---
 
 # 🆕 Radiojornalismo, telejornalismo e linguagem audiovisual
@@ -103,6 +103,14 @@ A Dataprev 2024 usou dois mecanismos seguidos:
 2. **associação** entre cinco definições e cinco termos de telejornalismo.
 
 São fronteiras de vocabulário profissional: todas as alternativas podem parecer plausíveis para quem conhece o ambiente, mas não domina a nomenclatura.
+
+## Auditoria documental: Dataprev 2024, questões 45–47 (11/11/2026)
+
+O [caderno oficial FGV Dataprev, ATI Comunicação Social, **tipo 1**, página 10](https://conhecimento.fgv.br/sites/default/files/concursos/ati-comunicacao-socialcns009-tipo-1.pdf) foi confrontado visualmente com o [gabarito definitivo, página 11](https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf). As três questões **45, 46 e 47** são válidas, com respostas **45 E, 46 C, 47 E**, respectivamente. **45 E**: a questão é formulada com **EXCEÇÃO**, e “preferência por palavras complexas e expressões longas” não é característica do texto manchetado. O texto manchetado é associado no próprio caderno a frases breves, informação completa, atualização de dados, localização e supressão eventual de artigos/pronomes; esta última é uma característica **da modalidade descrita**, não norma universal da escrita em rádio. **46 C**: a ordem exigida para as descrições apresentadas é **3–5–4–2–1**: off (repórter narra sem aparecer), passagem (repórter visível), sonora (entrevistado), pé (fechamento/complemento pelo apresentador) e cabeça (introdução do tema pelo apresentador). A numeração é **a da lista da prova**, não código universal da linguagem audiovisual. **47 E**: a pirâmide invertida apresenta informações em **ordem decrescente de importância jornalística**, e não necessariamente em sequência cronológica. A questão 47 é transversal ao [[3 - Materias/Comunicacao/05 - lead piramide invertida e storytelling|artigo 05]].
+
+**Três C/E inéditos para transferência à Câmara:** **1.** “A supressão eventual de artigos e pronomes no texto manchetado, mencionada pela FGV, constitui obrigação universal de qualquer roteiro radiojornalístico.” **Errado.** O escopo é o texto manchetado descrito. **2.** “Na linguagem de telejornalismo cobrada na Dataprev, a passagem é a fala do entrevistado e a sonora é a locução do repórter sem imagem.” **Errado.** A alternativa trocou as funções; passagem é presença do repórter e sonora é fala da fonte. **3.** “Uma reportagem organizada pela pirâmide invertida pode começar pelo principal fato e só depois trazer detalhes e antecedentes, sem seguir cronologia estrita.” **Certo.** A regra é a hierarquia informativa, conforme Q47 E.
+
+**Proveniência e limites:** os itens 45–47 são **múltipla escolha FGV 2024**, não questões Cebraspe e não entram no indicador das 143 questões históricas C/E. A análise confirma o caderno e o gabarito, não afirma que essa modalidade de texto será necessariamente cobrada no mesmo formato pela Câmara.
 
 ## Relações com outros temas
 

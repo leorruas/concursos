@@ -149,7 +149,7 @@ Na era dos Modelos de Linguagem de Grande Porte (LLMs), a aprendizagem por refor
 > O dilema entre exploração (*exploration*) e explotação (*exploitation*) na aprendizagem por reforço estabelece que o agente deve sempre escolher a ação que lhe proporcione a maior recompensa imediata conhecida, sob pena de incorrer em custos proibitivos de treinamento.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: Se o agente escolher *sempre* a ação com maior recompensa imediata conhecida, ele estará praticando **explotação pura** (*pure exploitation*), o que quase sempre o aprisiona em ótimos locais medíocres e impede a descoberta de políticas ótimas superiores. O algoritmo precisa equilibrar dinamicamente a explotação de ganhos certos com a exploração de novas possibilidades desconhecidas (como na estratégia $\epsilon$-greedy).
+- **Fundamentação**: Escolher sempre a ação com maior **recompensa imediata** não caracteriza necessariamente a melhor política, pois o objetivo típico é o **retorno acumulado esperado**. A explotação favorece a ação atualmente estimada como melhor, enquanto a exploração testa alternativas para melhorar a estimativa. O gabarito ERRADO decorre da prescrição universal de escolher sempre a recompensa imediata; o equilíbrio pode variar conforme a estratégia e o ambiente.
 
 ---
 
@@ -157,7 +157,7 @@ Na era dos Modelos de Linguagem de Grande Porte (LLMs), a aprendizagem por refor
 > A técnica de RLHF (*Reinforcement Learning from Human Feedback*) utiliza a aprendizagem por reforço com base em pontuações de avaliadores humanos para alinhar o comportamento de grandes modelos de linguagem (LLMs), mitigando a geração de respostas nocivas, incorretas ou alucinadas.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Exposição correta da metodologia moderna de alinhamento de IA. O RLHF treina um modelo de recompensa a partir de preferências humanas e utiliza algoritmos de política por reforço (como o PPO) para ajustar os pesos da rede neural do modelo de linguagem.
+- **Fundamentação**: O RLHF clássico pode treinar um modelo de recompensa a partir de avaliações/preferências humanas e utilizá-lo no ajuste de uma política por reforço (por exemplo, com PPO). Isso **pode melhorar o alinhamento comportamental**, mas não garante veracidade nem eliminação de alucinações. A eficácia depende das avaliações, do objetivo de otimização e dos testes aplicados. O gabarito CERTO deve ser entendido como possibilidade de mitigação, sem promessa universal.
 
 ---
 
@@ -181,7 +181,7 @@ Na era dos Modelos de Linguagem de Grande Porte (LLMs), a aprendizagem por refor
 > Tanto na aprendizagem supervisionada quanto na aprendizagem por reforço, assume-se que as amostras de dados são estatisticamente independentes e identicamente distribuídas (*i.i.d.*), inexistindo influência causal entre a decisão adotada em uma instância e o estado das instâncias subsequentes.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: A premissa de dados independentes e identicamente distribuídos (*i.i.d.*) aplica-se primordialmente à **aprendizagem supervisionada clássica**. Na **aprendizagem por reforço**, a premissa é frontalmente violada: as decisões do agente são intrinsecamente **sequenciais e causais**, pois a ação tomada no tempo $t$ altera ativamente o estado do ambiente no tempo $t+1$ e determina a distribuição das recompensas futuras.
+- **Fundamentação**: Muitos modelos supervisionados introdutórios assumem observações *i.i.d.*, mas a hipótese não vale para todas as tarefas supervisionadas (por exemplo, séries temporais). Na aprendizagem por reforço, ações podem alterar a distribuição dos estados e recompensas futuros; logo, a afirmação de independência universal e ausência de influência sequencial é falsa.
 
 ---
 
@@ -192,7 +192,7 @@ Na era dos Modelos de Linguagem de Grande Porte (LLMs), a aprendizagem por refor
    - Dados sem rótulos / descoberta de clusters ou padrões ocultos $\rightarrow$ **Não Supervisionada** (K-Means/PCA).
    - Agente interativo / tentativas e erros / recompensas e punições sequenciais $\rightarrow$ **Aprendizagem por Reforço**.
 2. **RLHF**:
-   - Falou em *"alinhar modelo de linguagem / preferências humanas / punir alucinações via reforço"* $\rightarrow$ **CERTO**.
+   - Preferências humanas e otimização por reforço podem caracterizar **RLHF**; não presumir que a técnica puna cada alucinação ou garanta precisão factual.
 3. **Exploration $\times$ Exploitation**:
    - Exploitation = aproveitar o que já sabe (lucro certo).
    - Exploration = arriscar no desconhecido para aprender mais.
@@ -208,3 +208,5 @@ Na era dos Modelos de Linguagem de Grande Porte (LLMs), a aprendizagem por refor
 - **OpenAI / Anthropic**: Documentação técnica sobre alinhamento e fine-tuning com PPO em modelos de fundação.
 
 > **Revisão técnica (11/11/2026):** exploração/explotação são decisões sobre retorno esperado, e o RLHF clássico com PPO é uma implementação possível, sem garantia de correção factual. As comparações de paradigmas têm caráter didático e não excluem abordagens híbridas ou sequenciais.
+
+> **Auditoria de questões C/E, segunda passagem (11/11/2026):** Q1–Q6 examinadas contra os conceitos do artigo. **Gabaritos mantidos (C, E, C, E, C, E)**, com ressalva expressa na Q3: RLHF pode mitigar respostas indesejadas, mas não garante eliminar erros factuais. As justificativas de exploração e premissa *i.i.d.* foram ajustadas.

@@ -509,3 +509,29 @@ O [caderno oficial CESPE/UnB, Cargo 28, código ECT11_028_83](https://cdn.cebras
 **Resultado:** todos os 16 julgamentos foram comparados com o gabarito definitivo CESPE/UnB. Para a calibração da banca, destacam-se **troca de definição** (66, 71, 74), **exclusividade indevida** (72, 77), **generalização de condição** (69, 80) e **reconhecimento técnico** (67, 73, 75, 76, 78, 79). O item **68** recebeu **C** na fonte oficial; essa classificação é preservada como evidência da banca **sem afirmar que a frase seja definição técnico-científica universal de saturação para todos os espaços de cor**.
 
 **Estatística do corpus desta sequência:** 10 itens 81–90 + 16 itens 65–80 = **26 itens reais individualmente conferidos**, sem duplicação de números. Os itens didáticos inéditos produzidos no repositório são contabilizados à parte. A seção individual prioritária antiga mencionava apenas os itens 71–73 desse conjunto; a tabela acima documenta todo o bloco. A revisão abrange fonte e julgamento históricos, **não comprovação de vigência normativa ou técnica de 2026**.
+
+
+## Cotejo direto: Correios 2011, publicidade, criação e teorias, itens 51 a 64 (11/11/2026)
+
+Foi lida a **primeira página (página impressa 5)** do [caderno CESPE/UnB, Correios 2011, Cargo 28, Publicidade e Propaganda, ECT11_028_83](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), com inspeção visual do PDF. O [gabarito definitivo do cargo 28, identificação ECT11_028_83](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/Gab_Definitivo_ECT11_028_83.PDF) não abriu diretamente no navegador de pesquisa desta rodada; o conteúdo do mesmo documento de gabaritos definitivos foi conferido em [cópia integral identificada pelo mesmo código, hospedada em Estude Grátis](https://www.estudegratis.com.br/images/provas/20767-cespe-2011-correios-analista-de-correios-comunicacao-social-publicidade-e-propaganda-gabarito.pdf). **Proveniência: caderno de fonte oficial; julgamento lido em cópia identificada como gabarito oficial definitivo do cargo, com espelho secundário.** Não se deve declarar que o PDF original do gabarito foi aberto neste turno.
+
+| Item | Gab. definitivo na cópia | Núcleo do item e mecanismo |
+| ---: | :---: | --- |
+| 51 | C | Anunciante pode, em fluxo simplificado, veicular diretamente sem agência intermediária; possibilidade, não obrigação |
+| 52 | E | Estimular aquisição não equivale a efetivar venda; extrapolação de efeito publicitário |
+| 53 | C | Uso corrente de “publicidade” e “propaganda” como sinônimos no contexto brasileiro da prova; **afirmação sobre disciplina legal deve ficar vinculada a 2011 e ao recorte do enunciado**, não norma geral de 2026 |
+| 54 | C | Anunciante e veículo possuem funções distintas na realização e transmissão da propaganda |
+| 55 | E | Veículo não é necessariamente empresa vinculada ao anunciante; independência e relações comerciais variam |
+| 56 | E | Criação não recebe sua diretriz estratégica simplesmente do setor de mídia; troca de atribuições entre áreas |
+| 57 | C | Storyboard apresenta cenas visualmente a partir de roteiro |
+| 58 | C | Direção de arte como função em publicidade e também em produção audiovisual |
+| 59 | C | Layout/leiaute como representação visual prévia do anúncio |
+| 60 | E | Acabamento fosco não tem por função realçar reflexo; inversão de propriedade de superfície |
+| 61 | C | Cinco perguntas de Lasswell; reconhecimento de modelo de comunicação |
+| 62 | E | Pragmatismo/positivismo norte-americano e teoria crítica não são escolas equivalentes ou automaticamente concordantes |
+| 63 | C | Agenda-setting e espiral do silêncio podem ser estudadas como abordagens complementares, sem serem idênticas |
+| 64 | E | Afirmação abrangente sobre origem dos termos “cultura de massa” e “meios de comunicação de massa”; **não inferir uma datação exata ou autoria apenas pelo gabarito** |
+
+**Gabarito completo do bloco:** 51 C, 52 E, 53 C, 54 C, 55 E, 56 E, 57 C, 58 C, 59 C, 60 E, 61 C, 62 E, 63 C e 64 E. Os itens 53 e 64 exigem cuidado para não transformar julgamento histórico da banca em regra lexical, jurídica ou cronológica universal.
+
+**Calibração:** a banca cobrou exagero de resultado (52), troca de competência (56), mecanismo técnico simples (57–60), identidade autor-modelo (61), confusão entre escolas (62), complementaridade sem equivalência (63) e generalização histórica (64). Os textos das questões não são reproduzidos integralmente; são descritos apenas seus alvos. **Indicador cumulativo da conferência de prova histórica: 40 itens individuais, sem duplicação (51–90)**. Esse indicador é diferente dos itens C/E inéditos da wiki e não representa a verificação de todos os cadernos de concursos.

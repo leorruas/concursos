@@ -5,7 +5,7 @@ title: "Campanhas e planejamento de mídia"
 type: "conceito"
 status: "ativo"
 created: 2026-08-03
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Campanhas e planejamento de mídia
 
@@ -166,6 +166,16 @@ A banca tende a combinar conceitos de planejamento com situações práticas:
 - impor ROI financeiro a campanhas cujo objetivo é público/não monetário.
 
 Em 2025, a FGV cobrou briefing em situação de assessoria pública e também suas diferentes acepções em publicidade. Em 2026, voltou a calendário editorial e planejamento de campanhas. citeturn447331search1turn447331search11turn447331search2
+
+## Aplicação à Câmara 2026: itens inéditos C/E
+
+**Recorte:** analisar a escolha de meios, etapas de campanha e avaliação de publicidade institucional. O histórico FGV acima não permite inferir a frequência de cobrança desses tópicos pela Cebraspe.
+
+- **Item 1.** Um planejamento de mídia adequado pode combinar canais próprios e mídia contratada, desde que considere público, objetivos, recursos e restrições de cada meio. **Certo.** A escolha de canal é consequência do problema de comunicação, não fim em si.
+- **Item 2.** Em campanhas de utilidade pública, a ausência de receita financeira mensurável impede qualquer avaliação de resultados. **Errado.** Indicadores de acesso, compreensão ou comportamento podem ser apropriados ao objetivo, sem serem convertidos artificialmente em ROI.
+- **Item 3.** O pré-teste de uma peça ocorre antes de sua veiculação, enquanto o pós-teste pode verificar percepção ou compreensão após sua exposição. **Certo.** Os dois instrumentos respondem a etapas distintas do trabalho.
+
+**Conexões de revisão:** [[3 - Materias/Comunicacao/79 - teorias da publicidade conceitos modelos e aplicacao|Fundamentos da publicidade]]; [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|Atendimento e briefing]]. **Classificação:** itens inéditos de treino, sem validação de incidência histórica Cebraspe.
 
 ## Relações com outros temas
 

@@ -172,6 +172,12 @@ O [caderno oficial CESPE/UnB de 2011, Cargo 28](https://cdn.cebraspe.org.br/conc
 
 **Consequência pedagógica:** a própria prova usa simultaneamente **reconhecimento de autor, contraste de escolas, relação entre teorias e história de conceitos**. Essa calibragem provém de quatro **itens históricos**, sem alterar os três exercícios inéditos deste artigo. O julgamento foi verificado em cópia identificada como gabarito definitivo; a hospedagem original desse PDF não abriu nesta consulta. [Registro individual na indexação](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md).
 
+## Contraste entre cinco itens reais DPDF 2022 (11/11/2026)
+
+O bloco **86–90** da [prova Cebraspe DPDF (aplicação 13/02/2022)](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF), confirmado no [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/GAB_DEFINITIVO_548_DPDF_005_01.PDF), apresenta **86 C** (escopo de “há quem defenda” na crítica à indústria cultural), **87 E** (redução dos estudos culturais ao reflexo econômico), **88 E** (inversão da posição crítica diante da técnica), **89 C** (sociedade do espetáculo como relações mediadas por imagens) e **90 C** (saliência temática na agenda pública).
+
+**Classificação analítica proposta para simulado, não taxonomia oficial da banca:** 86 = restrição de escopo; 87 = deslocamento de característica de escola; 88 = inversão do efeito; 89 = reconhecimento conceitual; 90 = aplicação de teoria à seleção de temas. O contraste é útil para não confundir crítica da indústria cultural, estudos culturais, análise do espetáculo e agenda-setting. **Nenhum item real foi reescrito como se fosse exercício inédito; os comentários estão ligados aos julgamentos oficiais.**
+
 ## Aplicação discursiva: escolher a teoria pelo problema institucional
 
 Em uma peça técnica de divulgação institucional, identificar primeiro a finalidade: **entrega correta**, **seleção de informações**, **relevância atribuída a temas**, **compreensão**, **expressão pública**, **mudança de práticas** ou **condições de um ambiente plural**. A partir dela, definir o objeto, a fonte de evidências, o mecanismo hipotético e uma forma de avaliação.

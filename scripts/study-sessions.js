@@ -30,12 +30,12 @@ function safeRef(root, ref) {
   assert(headings.includes(heading), `Subtítulo ausente: ${ref}`);
 }
 export function validateSession(s, filename, root, concursos) {
-  assert([1, 2].includes(s.schemaVersion) && slug(s.id) && filename === s.id + '.json', `Identidade inválida: ${filename}`);
+  assert([1, 2, 3].includes(s.schemaVersion) && slug(s.id) && filename === s.id + '.json', `Identidade inválida: ${filename}`);
   assert(text(s.startedAt) && /(?:Z|[+-]\d{2}:\d{2})$/.test(s.startedAt) && Number.isFinite(Date.parse(s.startedAt)), `${s.id}: startedAt exige data/hora com fuso`);
   assert(dateOK(s.date) && ['parcial', 'concluido'].includes(s.status), `${s.id}: data/status inválido`);
   assert(concursos.some(c => c.id === s.concursoId && c.banca === s.banca), `${s.id}: concurso/banca incompatível`);
   const profile = examProfile(concursos.find(c => c.id === s.concursoId));
-  assert(s.kind === 'microtreino' || (s.schemaVersion === 2 && ['aula', 'fechamento'].includes(s.kind)), `${s.id}: simulados integrais seguem o contrato próprio de propagação`);
+  assert(s.kind === 'microtreino' || (s.schemaVersion >= 2 && ['aula', 'fechamento'].includes(s.kind)), `${s.id}: simulados integrais seguem o contrato próprio de propagação`);
   assert(modes.includes(s.trainingMode), `${s.id}: modalidade inválida`);
   assert(text(s.diagnosis) && text(s.nextStep), `${s.id}: diagnóstico/próximo passo ausentes`);
   assert(Array.isArray(s.questions) && (s.questions.length > 0 || ['aula', 'fechamento'].includes(s.kind)), `${s.id}: questões ausentes`);
@@ -63,14 +63,14 @@ export function validateSession(s, filename, root, concursos) {
     if (incorrect) assert(Object.hasOwn(errors, q.errorType), `${s.id}: erro exige causa semântica`);
     else assert(q.errorType === null, `${s.id}: causa de erro só cabe em erro válido`);
     assert(Array.isArray(q.theoryRefs), `${s.id}: theoryRefs deve ser array`);
-    if (incorrect || ['insecure', 'guess'].includes(q.confidence)) assert(q.theoryRefs.length || (s.schemaVersion === 2 && q.sourceRefs?.length), `${s.id}: erro/dúvida exige referência`);
+    if (incorrect || ['insecure', 'guess'].includes(q.confidence)) assert(q.theoryRefs.length || (s.schemaVersion >= 2 && q.sourceRefs?.length), `${s.id}: erro/dúvida exige referência`);
     q.theoryRefs.forEach(ref => safeRef(root, ref));
     const rep = q.repetition;
     assert(rep && ['new', 'thematic', 'mechanical', 'exact'].includes(rep.classification) && Array.isArray(rep.similarTo) && typeof rep.intentional === 'boolean', `${s.id}: repetição inválida`);
     if (rep.classification !== 'new') assert(rep.similarTo.length > 0, `${s.id}: repetição sem origem`);
     if (['mechanical', 'exact'].includes(rep.classification)) assert(rep.intentional && text(rep.transformation), `${s.id}: repetição exige transformação intencional`);
     const avancos = `3 - Materias/${q.discipline}/Avancos.md`;
-    assert(!q.discipline.includes('/') && !q.discipline.includes('..') && (s.schemaVersion === 2 || fs.existsSync(path.join(root, avancos))), `${s.id}: criar/indexar avanços da disciplina antes: ${avancos}`);
+    assert(!q.discipline.includes('/') && !q.discipline.includes('..') && (s.schemaVersion >= 2 || fs.existsSync(path.join(root, avancos))), `${s.id}: criar/indexar avanços da disciplina antes: ${avancos}`);
   }
 }
 export function mergeSessions(legacy, sessions) {
@@ -80,13 +80,14 @@ export function mergeSessions(legacy, sessions) {
   const ids = new Set(ledger.questions.map(q => q.id));
   const sources = new Set(ledger.simulations.map(s => s.id));
   for (const s of sessions) {
+    const scope = s.schemaVersion===3 ? s.scope : s.subjectId==='diagnostico-misto' && s.unitId==='diagnostico-misto' ? 'mixed' : 'subject';
     assert(!sources.has(s.id), `Sessão já existe no legado: ${s.id}. Corrigir o registro original; não importar novamente.`); sources.add(s.id);
     const sessionFile = `data/sessoes/${s.id}.json`;
     const qs = s.questions.map(q => {
       const id = `${s.id}-q${q.number}`;
       assert(!ids.has(id), `Questão duplicada: ${id}`); ids.add(id);
       return { ...q, id, sourceId: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
-        checkpointSchema: s.schemaVersion, subjectId: s.subjectId === 'diagnostico-misto' ? (q.subjectId || null) : s.subjectId, unitId: s.unitId === 'diagnostico-misto' ? (q.unitId || null) : (q.unitId || s.unitId), trainingMode: s.trainingMode, result: q.annulled ? 'annulled' : q.userAnswer === null ? 'blank' : q.userAnswer === q.correctAnswer ? 'correct' : 'incorrect', errorType: q.errorType ? errors[q.errorType] : null };
+        checkpointSchema: s.schemaVersion, sessionScope: scope, subjectId: scope==='mixed' ? (q.subjectId || null) : s.subjectId, unitId: scope==='mixed' ? (q.unitId || null) : (q.unitId || s.unitId), trainingMode: s.trainingMode, result: q.annulled ? 'annulled' : q.userAnswer === null ? 'blank' : q.userAnswer === q.correctAnswer ? 'correct' : 'incorrect', errorType: q.errorType ? errors[q.errorType] : null };
     });
     const counts = {new:0,thematic:0,mechanical:0,exact:0};
     qs.forEach(q => counts[q.repetition.classification]++);
@@ -94,7 +95,7 @@ export function mergeSessions(legacy, sessions) {
     const generationAudit = {counts,newRate:rate(counts.new),thematicRate:rate(counts.thematic),mechanicalRate:rate(counts.mechanical),exactRate:rate(counts.exact),intentionalReviewRate:rate(qs.filter(q=>q.repetition.intentional).length)};
     ledger.questions.push(...qs);
     ledger.simulations.push({ id: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
-      subjectId: s.subjectId, unitId: s.unitId, learning: s.learning, tipo: s.kind, isSimulado: false, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
+      subjectId: scope==='mixed' ? null : s.subjectId, unitId: scope==='mixed' ? null : s.unitId, sessionScope: scope, learning: s.learning, tipo: s.kind, isSimulado: false, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
       ledgerCoverage: 'complete', benchmarkEligible: false, qualityNote: s.diagnosis, nextStep: s.nextStep, generationAudit, noveltyException: s.noveltyException || (['aula', 'fechamento'].includes(s.kind) ? 'Checkpoint sem questões; fora de benchmark e métricas de acerto.' : null),
       confidenceTracking: { coverage: qs.length && qs.every(q => q.confidence !== 'unknown') ? 'complete' : 'partial' } });
   }
@@ -174,6 +175,7 @@ export function prepare(root = ROOT, asOf) {
     const p = `data/contexto-estudo/${c.concursoId}.json`;
     const summary = JSON.parse(outputs.get(p));
     summary.resume = c.resume;
+    summary.lastActivity = c.lastActivity;
     summary.subjectIndexPath = 'data/contexto-estudo/indice.json';
     outputs.set(p, json(summary));
   }

@@ -1224,3 +1224,87 @@ O hub \`3 - Materias/Administracao Publica/administracao-publica.md\` (SHA \`f2f
 **Balanço e estado:** quatro achados DA-114 a DA-117, total de **DA-001 a DA-117 registros heterogêneos**, não 117 erros. Os bloqueios G1–G5 permanecem: o inventário de 146 itens em notas está consolidado e os 11 AP04/05 foram lidos; **G2 integralidade da revisão artigo a artigo, G3 8.3/8.4 e contratação, G4 rotas em runtime e G5 fechamento formal seguem pendentes**. Nenhuma nota de estudo ou questão foi editada. **Fase 1 aberta**.
 
 **Próxima etapa:** verificar se surgiram novos artigos sobre coprodução/cadeia de valor por outros agentes antes de propor ação; reavaliar com acesso real a fontes e programa; produzir quadro de revisão integral por cada um dos 32 artigos, indicando exatamente escopo e grau de confiança, sem certificar artigos com base em leitura de apenas parte.
+
+
+## Bloco 28: matriz nominal dos 33 artigos, AP06 concorrente e revisão do portão G1–G5 (11/11/2026)
+
+**Escopo e governança de edição:** conferir o inventário \`main\` após publicações concorrentes, manter auditabilidade dos exercícios por artigo e declarar o **grau efetivo de auditoria**, sem transformar leitura de gabaritos em certificação integral de conteúdo jurídico. Foram relidos diretamente os novos artigos e seus metadados, o hub, o catálogo do concurso e a distribuição do banco de questões. Nenhuma nota de estudo nem relatório de outra disciplina foi alterado.
+
+### Nova atualização concorrente: AP06
+
+A árvore agora contém **27 artigos numerados DA + 6 artigos numerados AP**, além dos dois hubs. O catálogo de \`camara-2026\` em \`data/catalogo-materias-por-concurso.json\` (SHA \`dd6e7a0d82963e29ded36f410a461ffd7a05f33a\`) apresenta os **27+6 articleIds**. O **AP06**, \`3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md\` (SHA \`a255f1abd56dc1c0a679ee98e68bd4f93489a8ad\`, \`articleId: art-ae41d8c6920f4b57\`), foi **publicado em outra edição concorrente**, vinculado ao hub AP (SHA \`58b15d28253d4041c7951f2d20467f6a8351f792\`) e incluído no catálogo da Câmara. Não foi criado ou modificado por esta frente.
+
+**Cobertura de 14.2.3, item 8.3:** AP06 já desenvolve **definição de coprodução**, distinção consulta/codesenho/coprodução, Ostrom, Bovaird e Arnstein (participação política versus colaboração produtiva), riscos de exclusão, responsabilidades e caso progressivo de acesso à atividade legislativa; inclui seis itens inéditos C/E. **DA-115 (bloco 27) reclassificado no estado atual:** a falta de *artigo canônico* para coprodução foi **superada** pela criação do AP06; permanece pendente sua **certificação acadêmica, integração com AP03 em transparência ativa e eventual revisão dos exercícios**. O item **8.4, cadeia de valor público**, ainda não possui artigo específico identificado na árvore e continua tratado por partes em AP02, AP05, AP06 e teoria da mudança.
+
+**Cotejo bibliográfico dirigido de AP06:** [Elinor Ostrom, *Crossing the Great Divide: Coproduction, Synergy, and Development*, *World Development* 24(6), 1073–1087 (1996), DOI 10.1016/0305-750X(96)00023-X](https://doi.org/10.1016/0305-750X(96)00023-X): resumo original define cooprodução pela combinação de insumos de atores de organizações distintas para bens e serviços; [Tony Bovaird, *Beyond Engagement and Participation: User and Community Coproduction of Public Services*, *Public Administration Review* 67(5), 846–860 (2007), DOI 10.1111/j.1540-6210.2007.00773.x](https://doi.org/10.1111/j.1540-6210.2007.00773.x): o resumo do periódico confirma modelos de coprodução com participação de usuários e comunidades na prestação e planejamento. **Autoria, publicação e núcleo compatíveis**, sem alegar leitura exaustiva dos dois textos nem homologar automaticamente a síntese pedagógica inteira.
+
+**Seis questões AP06 lidas com respostas e comentários:**
+1. Toda consulta eletrônica constituiria coprodução: **E**, coerente no núcleo;
+2. Contribuições conjuntas não afastam automaticamente responsabilidade estatal: **C**, coerente;
+3. Escada de Arnstein mediria prioritariamente trabalho operacional: **E**, coerente na distinção entre poder e produção;
+4. Mais participantes em oficinas provariam inclusão de excluídos: **E**, coerente, exige perfil e resultados;
+5. Coprodução pode produzir benefícios e riscos de exclusão/transferência de custos: **C**, coerente;
+6. Coprodução sempre exige delegação formal de atos de autoridade a cidadãos: **E**, coerente.
+**Classificação: seis enunciados lidos, com cotejo conceitual dirigido, zero inversão demonstrada e sem certificação integral dos fundamentos acadêmicos e institucionais.**
+
+### Matriz nominal de auditoria dos artigos próprios
+
+Legenda: **Q** = exercícios ou exemplos individualizáveis encontrados no arquivo; **R** = escopo real da revisão até o bloco 28; **P** = principal pendência. Para os 33 arquivos, **o corpo integral e toda a jurisprudência não receberam certificado exaustivo**, mesmo quando as questões foram lidas uma a uma.
+
+| Nota | Q | R: estado verificável | P: prioridade concreta |
+| --- | ---: | --- | --- |
+| **DA01, princípios e LAI** | 6 | Seis itens, bloco 22; cotejo dirigido | Exceções de serviços públicos e LAI sob regra própria |
+| **DA02, organização administrativa** | 6 | Seis itens, bloco 22 | DA02#2 tutela hipotética e #5 privilégios de estatais |
+| **DA03, atos administrativos** | 6 | Seis itens, bloco 22 | DA03#2 causalidade da motivação por orçamento |
+| **DA04, poderes administrativos** | 0 | Seção de pegadinhas, bloco 25, sem Q comentada | Corpo jurídico integral e treino de questões |
+| **DA05, agentes públicos** | 6 | Seis itens, bloco 22 | Regimes estatutário/celetista e art. 41 |
+| **DA06, responsabilidade civil** | 0 | Triagem de teoria e distratores, bloco 25 | Omissão, nexo causal, STF 940/130/592/362 |
+| **DA07, improbidade** | 0 | Triagem e atualização jurisprudencial localizada | **P0:** ADIs 7156/7236, prescrição e sanções |
+| **DA08, licitações** | 0 | Conteúdo/contratos e comparação CT09/10, blocos 12–14/25 | ETP/TR, gestão, formalização, Lei 14.133 atual |
+| **DA09, processo administrativo** | 0 | Triagem de prazos e regras, bloco 25 | Lei 9.784 completa e casos |
+| **DA10, serviços públicos** | 3 | Três exemplos, bloco 23 | Corte de serviços e condições do art. 6º Lei 8.987 |
+| **DA11, controle da Administração** | 3 | Três exemplos, bloco 23 | TCU/STF: controle e revisão dos prazos |
+| **DA12, Estado/Governo/Administração** | 6 | Seis itens, bloco 23 | Distinções políticas/administrativas e exemplos |
+| **DA13, centralização/descentralização** | 6 | Seis itens, bloco 23 | DA13#2 titularidade, #4 capacidade processual Mesa |
+| **DA14, ato versus fato administrativo** | 6 | Seis itens, bloco 23 | Efeito do silêncio e atos políticos |
+| **DA15, atributos dos atos** | 6 | Seis itens, bloco 24 | Tipicidade e autoexecutoriedade, hipóteses |
+| **DA16, espécies e classificação** | 6 | Seis itens, bloco 24 | Instrução normativa externa; STF Tema 445 |
+| **DA17, extinção dos atos** | 6 | Seis itens, bloco 24 | Lei 15.190/2025 e licença ambiental |
+| **DA18, parecerista** | 6 | Seis itens, bloco 20 | **P0:** TCU Súmula 222; DA18#1 LINDB |
+| **DA19, movimentação de pessoal** | 6 | Seis itens, bloco 20 | **P0:** Decreto 10835, art. 13, irrecusabilidade |
+| **DA20, provimento e vacância** | 6 | Seis itens, bloco 21 | Recondução com cargo provido |
+| **DA21, vantagens e proibições** | 6 | Seis itens, bloco 21 | Exceções art. 117, quinquênio e licenças |
+| **DA22, responsabilidades/penalidades** | 6 | Seis itens, bloco 21 | **P0:** #2 gabarito invertido pela ADI 2975 |
+| **DA23, direito disciplinar** | 6 | Seis itens, bloco 21 | Improbidade em PAD e requisitos subjetivos |
+| **DA24, sindicância e PAD** | 6 | Seis itens, bloco 21 | Prazo 140, DA24#4 opção por cargo |
+| **DA25, Lei 9784 delegação/avocação** | 6 | Seis itens, bloco 20 | Exceções, competência exclusiva, âncoras |
+| **DA26, Lei 9784 impedimento/recursos** | 6 | Seis itens, bloco 20 | Agravamento e revisão, limites recursais |
+| **DA27, poderes hierárquico/disciplinar** | 6 | Seis itens, bloco 24 | Sanções Lei 14133, tipicidade criminosa |
+| **AP01, modelos administrativos** | 3 | Três exemplos, bloco 25 | Confronto modelos e NPG |
+| **AP02, governança pública** | 3 | Três exemplos, bloco 25 | Escopo Executivo do Decreto 9203; valor público |
+| **AP03, transparência/LAI/LGPD** | 3 | Três itens, bloco 23 | Recursos da Câmara e prazos LGPD |
+| **AP04, New Public Governance** | 5 | Cinco itens, blocos 26–27 | Certificação de bibliografia por conteúdo |
+| **AP05, redes interinstitucionais** | 6 | Seis itens, blocos 26–27 | Parcerias e governança colaborativa |
+| **AP06, coprodução e participação** | 6 | Seis itens, **bloco 28** | Integrar transparência ativa; rigor das tipologias |
+
+**Total em artigos: 33 notas; 152 exercícios/exemplos individualizáveis**: 20 notas DA com 6 itens = 120; DA10/11 com 3 exemplos = 6; AP01/02/03 com 3 cada = 9; AP04/05/06 com 5/6/6 = 17. **120+6+9+17 = 152**. Das 33 notas, **28 contêm questões ou exemplos individualizáveis**; DA04, DA06–DA09 são as cinco sem item com gabarito individual no mesmo formato. Os **48 itens inéditos do \`data/questoes-camara.json\`** pertencem a **outra coleção**, não somá-los como 48 questões inéditas adicionais sem deduplicação. A amostra de **10 itens reais CNMP** também é fonte distinta. **“152 lidos” significa conferência editorial dirigida em diferentes blocos, e não “152 gabaritos juridicamente homologados”.**
+
+### Portões G1–G5 atualizados
+
+- **G1 inventário de questões:** **inventário preenchido para 33 artigos e 152 itens**, leitura dos enunciados/gabaritos e comentários realizada em blocos 20–28, porém **validação jurídica/teórica integral de todas as justificativas ainda pendente**; conteúdo de AP06 é novo e sofreu apenas cotejo inicial.
+- **G2 auditoria textual integral:** **não cumprido**; revisões de questões, seções, jurisprudência e fontes foram seletivas, com P0 confirmados ainda incorretos nos artigos originais.
+- **G3 cobertura conceitual/arquitetura:** **melhorou** com AP04, AP05 e AP06 para edital 8.1, 8.2 e 8.3; **8.4 cadeia de valor** permanece parcial; integração de CT09/CT10 e parâmetros de contratação 10.4–10.7 continua necessária.
+- **G4 teste de navegação real:** os 48 vínculos estáticos do piloto foram encontrados, mas o site publicado, hashes e navegação **não foram testados efetivamente**.
+- **G5 fechamento autorizado:** **não**; fase permanece diagnóstico em curso, com limitações explícitas.
+
+### Achados novos
+
+**DA-118, atualização positiva de cobertura:** criação concorrente do **AP06** resolve a antiga lacuna de *artigo específico* para o **subitem 8.3, coprodução** (DA-115), com exemplos e seis itens inéditos. Ainda falta verificar integração pedagógica da **transparência ativa**, que possui base em AP03, e certificar fontes acadêmicas além do resumo oficial. Não reescrever retroativamente os achados históricos, mas prevalece este estado atual da árvore.
+
+**DA-119, resultado de inventário:** de 32 para **33 notas** e de **146 para 152** exercícios/exemplos próprios; 27 DA e seis AP estão fisicamente presentes e catalogados. A contagem específica não contempla 48 itens do piloto nem dez reais CNMP como itens únicos adicionais; não há deduplicação entre coleções. Todas as notas constam nominalmente da matriz deste bloco, com grau de revisão e principal pendência.
+
+**DA-120, resultado bibliográfico e limites de aceitação:** metadados e resumos oficiais de **Ostrom (1996)** e **Bovaird (2007)** confirmam fundamentos de coprodução e participação de usuários em serviços públicos, coerentes com AP06. Seus seis exercícios têm gabaritos **E/C/E/E/C/E** sem inversão aparente no cotejo inicial. **Não se certificou texto acadêmico integral**, nem a abrangência dos exemplos sobre atribuições institucionais da Câmara.
+
+**DA-121, bloqueio de encerramento formal:** com G1 **inventariado**, mas não plenamente certificado, e G2–G5 ainda com pendências, é incorreto declarar “auditoria pedagógica e conceitual integral finalizada”. A matriz da frente está pronta para orientar Fase 2 futura, mas permanece **Fase 1 em curso, diagnóstico por artigo mapeado, certificação jurídica e editorial pendente**. A abertura de novos artigos por outra frente não autoriza esta auditoria a editá-los.
+
+**Estado consolidado após bloco 28:** DA-001–**DA-121** são **registros de várias naturezas**, incluindo erros jurídicos, ressalvas, lacunas, correções de inventário e verificações positivas; **não são 121 erros**. Nenhum artigo, gabarito, \`articleId\`, catálogo ou banco de estudo foi alterado por este trabalho. Próxima etapa: averiguar se nova nota para **cadeia de valor público** foi publicada por outro agente, validar suas fontes se surgir, ou delimitar a recomendação de uma unidade própria, e continuar certificação integral dos textos pelos erros P0 e riscos P1, sem adotar automaticamente Fase 2.

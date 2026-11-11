@@ -760,3 +760,18 @@ Nesta rodada, foram editados três artigos novos no conjunto de intervenções:
 **Fonte externa para a correção documental:** [UNESCO, diretrizes de governança de plataformas](https://www.unesco.org/en/internet-trust/guidelines). Os demais cotejos desta rodada foram **internos ao corpus**, não novas leituras diretas de fontes primárias. Portanto, **nenhum item novo foi acrescentado ao indicador conservador de 57 itens com conferência dirigida de fonte**; os seis itens C/E dos artigos 31 e 47 constam como verificação de consistência editorial.
 
 **Métrica operacional:** **35 artigos distintos modificados entre 128 arquivos inventariados (27,3%)**. Percentual referente à presença de edição e **não** à conclusão da auditoria. A Fase 1 permanece parcial e a lista de pendências inclui bibliografia original de teorias, exercícios e gabaritos dos demais artigos, aderência completa ao edital e cotejo de provas reais Cebraspe.
+
+
+## Registro: contraste WCAG, produção digital e indicadores de publicações (11/11/2026)
+
+Três artigos técnicos foram editados com cotejo das fontes oficiais WCAG 2.2 e AMEC, sem afirmar revisão completa dos textos:
+
+| Artigo | Intervenção | Commit |
+| --- | --- | --- |
+| 112, design gráfico | Exceções de 1.4.3, distinção de 1.4.11, limiares 4,5:1 e 3:1, ressalva para impresso e um C/E inédito; item 5 existente compatível | [50cf347](https://github.com/leorruas/concursos/commit/50cf34701992dec215f1cb93fd222893389e005e) |
+| 114, produção digital | WCAG 2.2 1.4.10 (reflow, 320px CSS) e 2.5.8 (alvo de 24 × 24px CSS com exceções); três gabaritos cotejados e um C/E inédito | [0a555a9](https://github.com/leorruas/concursos/commit/0a555a9fa19beddbcf3b4d8535fa19812b800349) |
+| 119, distribuição e avaliação | Quadro original de numeradores, denominadores e limites de quatro indicadores; distinção AMEC outputs/out-takes/outcomes/impact; quatro gabaritos avaliados por coerência | [f4a5606](https://github.com/leorruas/concursos/commit/f4a56067a7989209e16377f6068bc0e0d22ede64) |
+
+**Fontes externas verificadas:** [WCAG 2.2, critério 1.4.3](https://www.w3.org/TR/WCAG22/#contrast-minimum), [1.4.11](https://www.w3.org/TR/WCAG22/#non-text-contrast), [1.4.10](https://www.w3.org/TR/WCAG22/#reflow), [2.5.8](https://www.w3.org/TR/WCAG22/#target-size-minimum), [AMEC framework](https://amecorg.com/amecframework/).
+
+**Indicador acumulado de edições:** **38 artigos distintos dentre 128 arquivos inventariados (29,7%)**. Os dois exercícios novos não são questões reais da Cebraspe. Nesta rodada foram cotejados oito gabaritos preexistentes (um no 112, três no 114, quatro no 119), mas com diferentes graus de evidência; por prudência **não se altera a contagem histórica conservadora de 57 itens** até uma recontagem auditável por item, fonte e nível de evidência. Percentual representa artigos tocados, não conclusão da auditoria. O trabalho de adequação ao edital, verificação integral das obras, checagem de links e questões históricas continua aberto.

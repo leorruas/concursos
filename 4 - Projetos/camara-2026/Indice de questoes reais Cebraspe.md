@@ -589,3 +589,37 @@ Foram abertos e **vistos em imagem** tanto o [caderno original Cebraspe 814_CNMP
 **Ressalvas decisivas:** (1) **71 = X**, não é evidência de correção ou erro sobre estrutura obrigatória do texto. (2) **73 = C** registra o julgamento específico de uma proposição sobre laços fracos, e não uma lei de velocidade para todos os fenômenos digitais. (3) **75 = C** usa o rótulo *fake news* no contexto de 2023, que não substitui automaticamente taxonomias posteriores de desinformação. (4) **80 = C** registra uma interpretação de publicidade/visibilidade da comunicação pública: o gabarito não transforma essa classificação conceitual em exigência jurídica universal. (5) Questões 76–80 têm enquadramento original de **assessoria de imprensa**, que pode complementar a Divulgação Institucional, mas não deve ser declarado núcleo exclusivo do cargo de 2026.
 
 **Contagem histórica sem duplicidade:** total anterior de **59 itens históricos** (Correios 2011: 40; CNMP 2023: 19, um anulado) + estes **11** = **70 questões históricas individualmente cotejadas**, com **68 válidas e 2 anuladas (CNMP 60 e 71)**. A contagem de exercícios C/E inéditos da wiki permanece separada. O índice já possuía intervalos temáticos do CNMP 70–80, mas esta seção acrescenta **verificação item a item em fonte oficial**, e não uma nova prova.
+
+
+## Conferência direta CNMP 2023: produção e redação jornalística, itens 81–100 (11/11/2026)
+
+**Fonte primária verificada visualmente:** [caderno oficial Cebraspe CNMP 2023, Cargo 3, Comunicação Social, página 2 do PDF](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), e [gabarito oficial definitivo, página única do PDF](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF). Foram cotejados os **20 enunciados de 81–100**, sendo **19 válidos e um anulado: item 95 (X)**. A descrição de cada enunciado abaixo é síntese editorial, não transcrição integral.
+
+| Item | Gab. | Núcleo do enunciado | Aplicação para Divulgação Institucional |
+| ---: | :---: | --- | --- |
+| 81 | **C** | Pauta: temas de cobertura da editoria e orientações ao repórter | Complementar: fluxo editorial |
+| 82 | **C** | Expressão de redação 'pauta podre': matéria trabalhosa e de baixo interesse | Complementar: jargão profissional; interpretação do contexto da prova |
+| 83 | **C** | VT no espelho de telejornal: reportagem, stand-up e outros formatos | Complementar: nomenclatura e produção televisiva |
+| 84 | **E** | Nota-pé não deve repetir simplesmente informações já veiculadas | Útil: complementar informação e evitar redundância |
+| 85 | **E** | Fato inesperado e muito recente não é notícia fria | Útil: temporalidade, notícia quente/fria |
+| 86 | **E** | Checagem de informação não é dispensada porque veio do entrevistado | Alta transferência: verificação editorial |
+| 87 | **E** | Barrigada e fake news não são sinônimos perfeitos | Útil: distinguir erro publicado de fabricação deliberada |
+| 88 | **C** | Atualidade, universalidade, periodicidade, difusão e retórica | Complementar: características de material jornalístico no contexto |
+| 89 | **E** | Inversão conceitual entre notícia e informação jornalística | Complementar: termos profissionais |
+| 90 | **E** | Crônica política não é mero antecipar fatos como noticiário | Complementar: gênero e linguagem |
+| 91 | **C** | Pirâmide invertida é utilizada em impresso e meios digitais | Útil: arquitetura textual |
+| 92 | **E** | Nariz de cera não corresponde à justificativa de prolongamento por importância | Complementar: jargão e edição |
+| 93 | **C** | Lide pode focar síntese ou análise, conforme veículo | Útil: abertura e hierarquia da informação |
+| 94 | **E** | Lides de impresso e digital não precisam ser formalmente idênticos | Útil: adequação de redação ao suporte |
+| 95 | **X** | Aspas na reprodução de declaração | ANULADO: não usar como certo ou errado |
+| 96 | **C** | Infográfico pode funcionar como reportagem visual | Útil: narrativa visual e informação |
+| 97 | **C** | Texto para TV prioriza frases claras com ação | Útil: adaptação audiovisual |
+| 98 | **E** | Suíte não dispensa retomar contexto ou notícia inicial | Complementar: continuidade informativa |
+| 99 | **E** | Nota coberta não é uma sequência de notícias de editoria | Complementar: formato de telejornal |
+| 100 | **C** | Texto de TV apoia imagem e pode descrever ação | Útil: integração de linguagem e vídeo |
+
+**Sequência oficial:** 81 C; 82 C; 83 C; 84 E; 85 E; 86 E; 87 E; 88 C; 89 E; 90 E; 91 C; 92 E; 93 C; 94 E; 95 **X**; 96 C; 97 C; 98 E; 99 E; 100 C.
+
+**Análise de aderência:** os itens 84–87, 91, 93–94, 96–97 e 100 oferecem mecanismos transferíveis de precisão, checagem, adaptação de linguagem, redação audiovisual e visualização. Os itens 81–83, 89–90, 92 e 98–99 cobram práticas e vocabulário mais específicos de redação jornalística/telejornalismo, úteis como repertório, mas cuja prioridade depende do edital de 2026. A categoria “alta transferência” **não significa** que item idêntico esteja previsto no edital ou que a atual banca adote o mesmo conceito sem ressalvas.
+
+**Contagem:** os 70 itens históricos previamente conferidos (Correios 2011, 40; CNMP 2023, 30) passam a **90 questões históricas individualmente conferidas, 87 com julgamento C/E e 3 anuladas (CNMP 60, 71 e 95)**. O conjunto de exercícios inéditos da wiki continua contabilizado em separado. Esta conferência não exige criar 20 novos exercícios e não significa revisar integralmente o conteúdo de todos os artigos relacionados.

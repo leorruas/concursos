@@ -18,7 +18,7 @@ updated: 2026-11-11
 
 **Caso de entrada.** Um veículo da Câmara precisa explicar uma eleição da Mesa, uma decisão sobre pauta, uma reclamação recebida pela Ouvidoria e uma diretriz de comunicação institucional. O erro é atribuir todas essas ações à Presidência ou às comissões. Os **arts. 1º a 24** formam uma arquitetura de **funcionamento, representação política, direção administrativa, comunicação, controle e deliberação em comissões**. Um mesmo assunto institucional pode atravessar órgãos diferentes, sem que suas atribuições se tornem intercambiáveis.
 
-O **Título I** disciplina sede, sessões legislativas, posse, eleição da Mesa, lideranças, blocos e representações. O **Título II** inicia-se com Mesa, Presidência, Secretários, Colégio de Líderes, órgãos especializados e comissões. **Mesa**, **Presidente**, **Colégio de Líderes**, **comissões** e **secretarias temáticas** têm bases regimentais e competências diferentes.
+O **Título I** disciplina sede, sessões legislativas, posse, eleição da Mesa, lideranças, blocos e representações, incluindo a **Bancada Negra (arts. 13-A e 13-B)**. O **Título II** inicia-se com Mesa, Presidência, Secretários, Colégio de Líderes, órgãos especializados e comissões. **Mesa**, **Presidente**, **Colégio de Líderes**, **comissões** e **secretarias temáticas** têm bases regimentais e competências diferentes.
 
 ## Sede e sessões legislativas: arts. 1º e 2º
 
@@ -49,6 +49,12 @@ A **sessão legislativa ordinária** ocorre de **2 de fevereiro a 17 de julho** 
 **Bloco parlamentar:** duas ou mais representações partidárias podem constituir bloco sob liderança comum, mas ele precisa alcançar ao menos **3% dos membros da Câmara**; sua existência é circunscrita à **legislatura** (art. 12). As lideranças das legendas integrantes perdem suas prerrogativas regimentais próprias enquanto subsistir o bloco. Quem deixa bloco dissolvido ou dele se desvincula não pode ingressar em outro na **mesma sessão legislativa** (art. 12, § 8º). **Minoria** não se confunde com qualquer partido oposicionista: o art. 13 dá critérios regimentais de **Maioria** e **Minoria**, e, não alcançada maioria absoluta por representação, atribui funções regimentais da Maioria à bancada numericamente maior.
 
 **Colégio de Líderes (art. 20):** compõe-se dos líderes da Maioria, Minoria, partidos, blocos e Governo. Lideranças de partidos que integram um bloco e a Liderança do Governo têm **voz, mas não voto** no Colégio (art. 20, § 1º). Busca-se **consenso**; se inviável, prevalece **maioria absoluta ponderada pelo tamanho de cada bancada** (§ 2º). Não é colegiado cujo voto equivale automaticamente a “um líder, um voto”.
+
+## Bancada Negra: arts. 13-A e 13-B
+
+A **Bancada Negra** reúne parlamentares negros e negras e é organizada em **uma Coordenação-Geral e três Vices-Coordenadorias**. O mandato dura **um ano**, permitida **uma única recondução por igual período dentro da mesma legislatura**; a última sessão legislativa tem a regra especial de encerramento do mandato. A eleição ocorre **em 6 de fevereiro de cada sessão legislativa**, observada a regra de deslocamento para dia útil do art. 2º, § 1º, em **reunião presencial específica**. O escrutínio é **preferencialmente secreto**, por maioria simples dos membros presentes, admitida **aclamação por consenso** (art. 13-A, redação de 2026).
+
+O art. 13-B assegura à Bancada Negra participação **com voz e voto** nas reuniões convocadas pelo Presidente da Câmara com os Líderes, além de **cinco minutos semanais** nas Comunicações de Liderança para expressar posições e dar conhecimento de ações da Bancada. **Não confundir** essa participação em reuniões de lideranças convocadas pela Presidência com uma atribuição irrestrita de voto em toda deliberação do **Colégio de Líderes do art. 20**, cuja composição e votação seguem regras próprias. A distinção ajuda a evitar extrapolações em questões C/E.
 
 ## Mesa, Presidência e Secretários: arts. 14 a 19-A
 
@@ -88,7 +94,7 @@ O conjunto de artigos intercalados entre **20 e 22** representa competências re
 | **Secretaria da Transparência**, arts. 21-N e 21-O | Supervisionar o cumprimento da **LAI** na Câmara, fomentar transparência e controle social | Confundir transparência e publicidade institucional com atividades exclusivamente promocionais |
 | **Secretarias de Empreendedorismo e de Inovação Legislativa**, arts. 21-P a 21-S | Estudos, projetos, práticas e articulação de iniciativas específicas, criadas em **2025** | Desconsiderar órgãos recentes em listas antigas |
 | **Secretaria de Defesa das Prerrogativas Parlamentares**, arts. 21-T e 21-U | Estudos e ações educativas sobre prerrogativas e imunidades parlamentares | Confundir com competência sancionadora do Conselho de Ética |
-| **Secretaria de Monitoramento das Decisões do Sistema Interamericano de Direitos Humanos**, arts. 21-V a 21-X | Monitorar cumprimento de decisões e recomendações, apoiar divulgação e alinhamento legislativo aos parâmetros de direitos humanos, criada em **2026** | Ignorar norma recente por usar versão anterior do RICD |
+| **Secretaria de Monitoramento e Fiscalização das Decisões do Sistema Interamericano de Direitos Humanos**, arts. 21-V a 21-X | Monitorar cumprimento de decisões e recomendações, apoiar divulgação e alinhamento legislativo aos parâmetros de direitos humanos, criada em **2026** | Ignorar norma recente por usar versão anterior do RICD |
 
 **Recorte do cargo de Divulgação Institucional:** **Mesa (art. 15, VII–VIII), Presidência (art. 17, V), Suplentes de Secretário (art. 19-A, IV), Secretaria de Comunicação Social (art. 21-J), Secretaria de Participação, Interação e Mídias Digitais (art. 21-L) e Secretaria da Transparência (art. 21-N)** possuem funções **relacionadas e distintas**. Em questão aplicada, trocar **divulgação dos trabalhos**, **diretrizes**, **interação digital**, **supervisão dos veículos** e **cumprimento da LAI** altera o órgão competente. O art. **21-J** não absorve, por exemplo, o art. **21-L**, que tem recorte explícito de mídias digitais.
 
@@ -146,7 +152,7 @@ Outras competências incluem **audiências públicas**, convocação de Ministro
 
 **Três planos:** **Mesa dirige e fixa diretrizes**; **Presidência conduz sessões, proposições e publicidade das decisões**; **Secretarias especializadas atuam em funções próprias**. O nome semelhante de órgãos não implica subordinação geral nem monopólio de competência.
 
-**Quatro números que mudam o gabarito:** **2 anos** para mandato na Mesa; **3%** como piso de bloco; **uma vez a cada quinzena** para reunião ordinária da Mesa; **um membro da Minoria** garantido em composição de Mesa e comissões no recorte regimental.
+**Cinco números que mudam o gabarito:** **2 anos** para mandato na Mesa; **3%** como piso de bloco; **uma vez a cada quinzena** para reunião ordinária da Mesa; **um membro da Minoria** garantido em composição de Mesa e comissões no recorte regimental; **um ano**, com uma recondução, para a Coordenação da Bancada Negra.
 
 **Art. 24, II:** ler **todas** as alíneas de exclusão; a espécie do projeto e condições regimentais importam, especialmente a alínea **f**.
 
@@ -155,3 +161,13 @@ Outras competências incluem **audiências públicas**, convocação de Ministro
 Artigos relacionados: [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004, comissões]], [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|CAM-PL-009, apreciação conclusiva]], [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-001, proposições]], [[3 - Materias/Comunicacao/02 - comunicacao publica|Comunicação pública]], [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI e transparência]].
 
 **Nota editorial:** o texto se baseia na consolidação oficial do RICD e na Constituição vigente, cotejadas em **08/11/2026**. Os dez itens são inéditos, sem pretensão de reproduzir provas Cebraspe. A cobertura editorial não significa retenção nem exercício realizado.
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Escopo:** leitura e confronto dos arts. **1º a 24** do [RICD consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) com o texto, quadro de órgãos, **oito casos progressivos** e **dez questões C/E** presentes nesta nota. Verificadas as regras de sede, calendário, posse, eleição da Mesa, lideranças, blocos, **Bancada Negra (arts. 13-A e 13-B)**, Mesa, Presidência, órgãos especializados e competências das comissões. O recorte cobre as unidades editoriais **CAM-PL-019 e CAM-PL-020**, sem transformá-las em duas certificações.
+
+**Ajuste de cobertura:** o artigo omitia o regime da Bancada Negra criado em 2023 e alterado pela Resolução nº 33/2026. Incluída seção própria sobre composição, mandato, eleição e prerrogativas; também explicitada a fronteira com o Colégio de Líderes do art. 20. Corrigida a denominação completa da Secretaria de Monitoramento e Fiscalização das Decisões do Sistema Interamericano de Direitos Humanos, prevista no art. 21-V.
+
+**Gabaritos dos dez itens existentes, conferidos:** **C, E, E, C, E, C, C, E, E, E**. Os oito casos são compatíveis com o recorte normativo confrontado. **Nenhuma inversão demonstrada**; enunciados e respostas originais preservados. A lacuna dos arts. 13-A/13-B era de cobertura didática, não de gabarito.
+
+**Limites:** certificação do conteúdo efetivamente redigido e das questões existentes em **11/11/2026**; não se estende a todo o Regimento, a aplicações judiciais controvertidas ou a eventual mudança normativa posterior. A verificação normativa não comprova renderização no site, deploy no GitHub Pages ou retenção do conteúdo pelo estudante.

@@ -767,3 +767,12 @@ Commit `366059b43995a50fdc38eb371e046880cfc110c9`: revistos os enunciados e come
 Commit `95aa8a7bff5d0a8ab50c45cb30610bd16f1c1260`: revisado diagrama do DC34 para separar sanções dos arts. 11–14, evitar caminho único para censuras, explicitar arquivamento e requalificação, e incluir recurso sobre admissibilidade de representação partidária ao Plenário por 1/10 da Casa. Incluídos art. 14, § 4º, incisos II–VIII, e vedação à retirada da representação após instauração (art. 14, § 5º), preservando referências à [Resolução nº 25/2001 consolidada](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).
 
 **Status:** correções textuais e sintaxe Mermaid salvas; visualização renderizada e validação integral do DC34 ainda pendentes. Demais artigos não foram modificados nesta rodada; **2/29 alterados, 0/29 certificados integralmente**.
+
+
+### Execução editorial: NC-PL-021 no DC13 (11/11/2026)
+
+**Correção aplicada ao artigo DC13**, commit `feb51aa07f851c9594c012dbae7fa0853444149c`. Substituída a formulação equivocada «cinco dias/sessões» por três prazos distintos de **cinco sessões**: substituição do relator na tramitação ordinária (RICD, art. 52, § 3º), recurso contra apreciação conclusiva após publicação (art. 58, § 1º) e emendas em comissão (art. 119). Os marcos e objetos de cada um foram explicitados. Fonte primária: [RICD consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). **NC-PL-021: corrigida no artigo, revisão integral não certificada.**
+
+**Próximo reparo crítico comprovado:** DC36, NC-PL-018 e NC-PL-019. A página oficial do STF confirma a redação histórica e superada da Súmula 5; o Tema 22 (RE 560.900) trata de restrição à participação em concurso público, sem relação com iniciativa legislativa. Ainda pendente editar DC36; seu caminho exato deve ser identificado no repositório antes de qualquer alteração.
+
+**Andamento após este commit:** 3 de 29 artigos receberam mudanças (10,3%); 0 de 29 têm certificação integral de conteúdo e fontes. O diagnóstico continua em curso.

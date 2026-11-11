@@ -5,7 +5,7 @@ title: "Indicadores de publicidade: eficácia, eficiência, efetividade e causal
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Indicadores de publicidade: eficácia, eficiência, efetividade e causalidade
@@ -165,6 +165,16 @@ O segundo resultado é **contrafactual**: não se observa simultaneamente a mesm
 **Item 6.** Na avaliação de uma campanha institucional, a atribuição de conversões pelo último clique equivale à estimativa de efeito incremental da campanha, desde que a ferramenta mantenha identificadores únicos para os eventos.
 
 **Errado.** Identificadores ajudam a contar e deduplicar eventos, não constroem contrafactual. **Mecanismo do erro:** confusão entre atribuição por regra e causalidade.
+
+## Conferência metodológica: diferenças em diferenças e limite do contrafactual (11/11/2026)
+
+Em **diferenças em diferenças (DiD)**, a comparação básica entre grupos é **(pós tratado − pré tratado) − (pós comparação − pré comparação)**. No exemplo deste artigo, 30%→40% para tratados e 25%→31% para comparação resultam em **(40−30)−(31−25)=4 pontos percentuais**. O contraste entre níveis iniciais (30% e 25%) **não precisa ser zero**. O requisito de identificação é a plausibilidade de **tendências paralelas na ausência de tratamento**, acompanhada de outras condições do desenho; um gráfico prévio parecido não prova definitivamente a hipótese contrafactual.
+
+**Item 4 preexistente: Errado, confirmado pela lógica do método.** O item exige identidade de níveis iniciais, em lugar de tendências paralelas contrafactuais. **Itens 3 e 6: Certo e Errado, respectivamente, compatíveis** com a diferença entre mudança bruta antes/depois, atribuição operacional por último clique e efeito incremental. Esses dois não receberam validação documental independente nesta passagem.
+
+**C/E inédito:** “Em um desenho de diferenças em diferenças, uma distância constante de cinco pontos percentuais entre os grupos antes da campanha torna o método inválido, mesmo que seja plausível que ambos evoluiriam com tendências paralelas sem tratamento.” **Errado.** A diferença prévia de nível não constitui, isoladamente, violação da hipótese de identificação.
+
+**Fontes para investigação e conferência:** [Banco Mundial, *Impact Evaluation in Practice*, segunda edição](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/862821468147591502/impact-evaluation-in-practice-second-edition); [AMEC, framework de avaliação](https://amecorg.com/amecframework/). **Limite:** o cálculo e a distinção de pressupostos foram revisados nesta rodada; a leitura integral do manual do Banco Mundial e de resultados empíricos permanece pendente, logo não registrar revisão completa da obra.
 
 ## Relações com outros temas
 

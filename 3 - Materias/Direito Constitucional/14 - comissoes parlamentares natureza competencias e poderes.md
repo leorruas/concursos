@@ -59,11 +59,17 @@ Pelo **art. 58, § 3º, da Constituição** e pelo **art. 35 do RICD**, a Câmar
 
 **Fato determinado:** o art. 35, § 1º, define-o como acontecimento de interesse relevante para a vida pública e a ordem constitucional, legal, econômica e social do país, devidamente caracterizado no requerimento. **Objeto delimitado não significa necessariamente fato isolado sem conexões:** fatos inter-relacionados podem integrar a investigação, com respeito aos limites do objeto e do procedimento.
 
+**Admissibilidade do requerimento (art. 35, § 2º):** atendidos os requisitos regimentais, o Presidente da Câmara determina a publicação do requerimento de CPI; se os requisitos faltarem, **devolve-o ao autor**, que poderá **recorrer ao Plenário em cinco sessões, ouvida a CCJC**. O requerimento válido não depende de aprovação política da maioria do Plenário para que a CPI seja criada. Separar o **recurso contra devolução por inadmissibilidade** da **deliberação plenária sobre eventual prorrogação**, prevista no § 3º.
+
+**Estrutura material da CPI (art. 35, §§ 5º e 6º):** o **número de integrantes** deve constar do requerimento ou projeto de criação, e o **ato de criação** prevê recursos administrativos, condições de organização e assessoramento, com atendimento preferencial pela Mesa e Administração da Câmara. A garantia de estrutura administrativa não confere à CPI poder de julgar crimes.
+
 **Prazo:** a Constituição exige prazo certo. Na Câmara, o art. 35, § 3º, estabelece **120 dias**, prorrogáveis **por até metade**, mediante **deliberação do Plenário**. Isso corresponde a possibilidade de até **60 dias adicionais**, na hipótese do dispositivo, e não a duração indeterminada por vontade exclusiva da CPI. A comissão pode atuar durante **recesso parlamentar**.
 
 **Quantidade simultânea:** o art. 35, § 4º, dispõe que não será criada CPI enquanto estiverem funcionando **pelo menos cinco na Câmara**, ressalvada a hipótese de **projeto de resolução com o mesmo quórum de apresentação do caput**. O limite é uma condição regimental com exceção, não vedação constitucional absoluta à existência de uma sexta CPI.
 
 **Poder e limite:** CPI pode, nas condições da lei, convocar testemunhas, solicitar informações e documentos, realizar diligências e adotar medidas de investigação. **Poderes próprios de autoridade judicial não significam competência jurisdicional para condenar ou sentenciar.** O **art. 37 do RICD** prevê relatório circunstanciado e encaminhamentos ao Ministério Público, órgãos administrativos, TCU e outros destinatários conforme o caso. Investigar e propor providências **não equivale a julgar criminalmente**.
+
+**Destino das conclusões (art. 37):** o relatório circunstanciado é **publicado** e pode dar origem a encaminhamentos distintos: à **Mesa**, inclusive com proposições ou indicação; ao **Ministério Público ou à AGU**; ao **Executivo** para providências administrativas; à comissão permanente relacionada; à **Comissão Mista de Orçamento e ao TCU**. Nos casos dos incisos **II, III e V**, a remessa cabe ao **Presidente da Câmara em cinco sessões** (parágrafo único). O relatório da CPI pode desencadear responsabilização por órgãos competentes, mas não equivale a condenação.
 
 **CAM-PL-031** retomará os instrumentos probatórios e a reserva de jurisdição. Aqui interessa sobretudo **distinguir a CPI das comissões especiais e externas**.
 
@@ -331,3 +337,14 @@ Uma resposta sobre comissões deve partir do **art. 58 da Constituição**, apre
 - [Biblioteca da Câmara, 31ª edição do RICD, 2026](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
 
 **Limites:** as questões são inéditas e didáticas, não provas oficiais da Cebraspe. A descrição das CPIs aqui cobre classificação e condições básicas; seus instrumentos investigatórios e as reservas de jurisdição serão objeto de CAM-PL-031. A nota não registra estudo individual, desempenho nem retenção.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Escopo efetivamente conferido:** as partes do DC14 sobre natureza e espécies de comissões, composição, funcionamento e pareceres, com os [arts. 22–54 do Regimento Interno da Câmara dos Deputados, texto consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e o [art. 58 da Constituição Federal](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). Examinados **sete casos** sobre espécies e competências, **nove variações de funcionamento**, **dois exemplos comentados** e os **16 itens C/E** originais distribuídos em dois conjuntos de **dez e seis**. A leitura diferenciou comissões especiais, CPI e comissões externas; mandato de dirigentes, proporcionalidade, subcomissões sem poder decisório, prazos, quóruns e pareceres terminativos.
+
+**NC-PL-046:** acrescentado o **art. 35, § 2º**, sobre devolução de requerimento de CPI que não atenda aos requisitos, com **recurso em cinco sessões ao Plenário, ouvida a CCJC**, sem transformar criação de CPI validamente requerida em autorização discricionária da maioria. **NC-PL-047:** explicitados os **§§ 5º e 6º** do art. 35, quanto à composição numérica e ao apoio administrativo no ato de criação. **NC-PL-048:** detalhados destinatários do relatório de CPI e remessa pelo Presidente da Câmara em **cinco sessões** nas hipóteses do art. 37, parágrafo único.
+
+**Gabaritos preservados, conjunto de dez:** **C, E, E, E, C, C, C, C, E, E**. **Conjunto de seis:** **C, E, C, E, C, E**. Nenhuma inversão demonstrada nos 16 enunciados examinados. Os itens já pertencem ao inventário anterior e **não foram acrescentados nem duplicados**.
+
+**Limites:** certificação jurídico-editorial do conteúdo examinado em 11/11/2026, não certificação de todas as regras especiais de CPI ou da jurisprudência sobre poderes investigativos e reserva de jurisdição, que exigem cotejo próprio na trilha CAM-PL-031. Tampouco confirma desempenho do estudante, renderização ou publicação no GitHub Pages.

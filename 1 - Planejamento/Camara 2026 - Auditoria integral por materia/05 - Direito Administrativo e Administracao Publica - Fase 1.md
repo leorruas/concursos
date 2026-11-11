@@ -638,3 +638,52 @@ Buscar eventual **norma administrativa própria da Câmara** sobre gestão e fis
 | 10.7, ETP/TR | Portaria 164 arts. 1–6, atualizada | CT09 | Definição presente; **exceções e elementos legais ausentes** |
 
 **Balanço:** três normas institucionais consolidadas verificadas e uma revogada identificada; **zero questões de prova real cotejadas neste bloco e nenhuma nova inversão confirmada**. DA-063–067 são achados de cobertura jurídica e governança de fontes; não equivalem a cinco erros de gabarito. A lista de apontamentos desta frente segue **DA-001 a DA-067**, de natureza diversa. **Fase 1 em aberto, sem edição de textos de estudo**. Priorizar consolidação final por subitem e verificação do banco real Cebraspe antes de encerramento.
+
+
+## Bloco 15: matriz de questões do sistema, fontes reais e pendências de certificação (11/11/2026)
+
+**Recorte auditado:** \`data/questoes-camara.json\` (SHA \`c58a7b9f1d4618250a1abb21ca60a6ad0a00040c\`); \`data/catalogo-materias-por-concurso.json\` (mapeamento \`camara-2026\`); \`4 - Projetos/camara-2026/Indice de questoes reais Cebraspe.md\` (SHA \`b0a8fe05f69109ad5ca5e166cad9b559bceda2b7\`); \`Corpus de provas e padrao Cebraspe.md\` (SHA \`e137dec7f005f60617b4334327d07bb17e9c6737\`); \`Manifesto local do corpus de provas.md\`; \`Questoes e Simulados.md\` (SHA \`bc733b63f1398896284988c2785a9820eaad3910\`). A análise foi **estrutural, de distribuição, procedência e vínculos**, **não uma certificação da literalidade/gabarito de todas as provas externas**. Não houve acesso ao cofre privado nem aos dados do candidato.
+
+### Estado real do banco estruturado
+
+O JSON \`data/questoes-camara.json\` contém \`pilotoDidatico\` com **367 itens**, todos com \`origin: "inedita"\` segundo leitura da coleção. Destes, **48** são desta frente, com \`format: "CE"\`, parte \`P1\`:
+- **30** itens \`subjectId: "administracao-publica"\`; temas codificados: **14** governança/valor público, **6** modelos de gestão, **4** redes/coprodução/participação e **6** Decreto 9.203/2017;
+- **18** itens \`subjectId: "direito-administrativo"\`; temas codificados: **6** atos administrativos, **6** Lei 9.784/1999 e **6** organização administrativa.
+
+Todos os 48 itens possuem \`theoryRefs\` e seus **identificadores articleId existem na lista de artigos catalogados** para Câmara: AP02 (24), AP01 (6), DA03 (2), DA17 (4), DA25 (6) e DA13 (6). **Este teste valida somente a presença do ID no catálogo, não o acerto da âncora Markdown indicada após \`#\`, a existência real do arquivo no site, nem a correção do item.**
+
+Na parte \`administracao-publica\`, os **quatro itens** de redes/cooperação/participação, codificados \`coordenacao-interorganizacional\` (2), \`participacao-na-producao-do-servico\` (1) e \`responsabilidade-em-arranjo-colaborativo\` (1), remetem às seções **“Mecanismos: liderança, estratégia e controle”** e **“Governança e partes interessadas”** de AP02, mas esta nota ainda **não desenvolve NPG, autores, teoria de redes públicas ou coprodução como abordagem própria** (DA-053/54). Exemplos práticos são úteis, porém não demonstram cobertura integral da teoria exigida no subitem 8.1.
+
+O campo \`corpus\` do mesmo JSON registra apenas **duas provas de Comunicação** (STJ 2024 e PF 2025) como referências com PDF e gabarito, não **itens reais de Direito Administrativo ou Administração Pública incorporados individualmente**. A nota \`Indice de questoes reais Cebraspe.md\`, em outra camada, aponta provas relevantes: **CNMP 2023, Comunicação Social, itens 111–116 (Lei 14.133), 117–118 (LGPD) e 119–120 (processo administrativo)**, com links para caderno e gabarito definitivos. **Nesta rodada não foram lidas individualmente essas questões diretamente no PDF original nem cotejado cada gabarito com a fonte; tratam-se de referências indexadas no projeto, não questões normativas autenticadas aqui.**
+
+### Achados novos e matriz para uso
+
+**DA-068, ALTA PRIORIDADE, distribuição do treino DA desproporcional ao edital.** Todos os **18 itens codificados de Direito Administrativo** concentram-se em apenas **três núcleos**: organização, atos e Lei 9.784. **Nenhum item da mesma coleção está marcado para Lei 8.112, PAD/disciplinar, parecerista, poderes, improbidade, responsabilidade civil, licitações, ETP, TR, fiscal ou LAI/LGPD** como tema de Direito Administrativo. Parte de LAI/LGPD se vincula às notas AP e poderá ter questões em outras frentes, mas **a ausência no piloto DA estruturado é confirmada**. Fase posterior: desenhar distribuição vinculada a subitens 14.2.3 1–12, risco normativo e tópicos sem treino, sem inventar pesos oficiais da prova.
+
+**DA-069, IMPORTANTE, itens AP sobre redes/coprodução não suprem teoria NPG.** Os quatro itens temáticos previstos no piloto reforçam coordenação e diferença entre participação e execução de serviço, mas todos apontam **AP02**, que não oferece a teoria autônoma de Nova Governança Pública nem rede de cooperação/cadeia de valor em profundidade. Há **correspondência por palavras-chave**, não evidência de cobertura conceitual do subitem 8.1. Fase 2: estabelecer conteúdo normativo/teórico canônico, criar referências com seções próprias e retestar os vínculos com esses itens antes de adicioná-los a percurso de aprendizagem.
+
+**DA-070, IMPORTANTE, proveniência de questões reais separada do piloto.** \`Indice de questoes reais Cebraspe.md\` identifica **CNMP 2023 #111–120** como candidatos diretamente relevantes para Lei 14.133, LGPD e processo administrativo, mas o JSON de itens operacionais DA/AP possui somente **origem inédita**. A existência de PDF/gabarito no índice ou de prova no corpus não demonstra que seus itens foram **transcritos/validados/classificados individualmente** no banco. A fase 1 precisa abrir caderno **e gabarito definitivo**, registrar item, ano, banca, estado da lei em 2023 versus 2026 e decidir se item antigo ainda é juridicamente utilizável. Não reproduzir grandes blocos protegidos de questões.
+
+**DA-071, IMPORTANTE, auditoria de IDs não cobre âncoras nem citações.** Os 48 \`theoryRefs\` apontam para **articleIds catalogados**, sem identificadores órfãos nesta verificação. Isso é evidência positiva de **integridade básica de vínculo**, mas o formato \`article:<id>#<seção>\` também exige testar âncora/título real, resolução no frontend e suficiência da seção citada. A parte de NPG ilustra a diferença entre link tecnicamente existente e base conceitual adequada. Fase 2: validador de caminhos e âncoras com classificação \`resolvido/ambíguo/sem apoio teórico\`.
+
+**DA-072, MELHORIA, matriz de cobertura e de questões não podem ser fundidas por contagem.** O edital oficial Cebraspe [14.2.3, itens 1–12, pág. 52](https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/D0A680C4506DD7153722F50B4F05038D9C80FE7BAD36D52A5E65DA395F75A94B.pdf) descreve **tópicos cobrados**, não uma quota de itens por tema. O projeto possui **27 artigos DA e 3 AP catalogados**, 48 itens do piloto DA/AP e notas transversais da CGU, mas os números representam granularidades e estados diferentes. Proposta futura de matriz única por **subitem → artigo canônico/crosslink → norma/versão → item didático/real → evidência de gabarito → status de aprendizagem**, mantendo no diagnóstico valores de **cobertura de fonte**, não supostas probabilidades ou desempenho.
+
+### Matriz de distribuição operacional restrita ao JSON
+
+| Subitem edital 14.2.3 | Tema | Piloto DA/AP identificado por rótulo | Validação |
+| --- | --- | ---: | --- |
+| 1–2 | Organização/atos | DA **12 itens** | Itens inéditos, fundamentação editorial pendente |
+| 3–7 | Agentes, disciplina, poderes, responsabilidade, improbidade | DA **0 itens rotulados** | Conteúdo em artigos, **sem treino nesse piloto** |
+| 8, 8.1–8.4 | Modelos, NPG, redes, coprodução e valor | AP **24 itens**: 6 modelos, 4 redes/participação, 14 governança/valor | **NPG e coprodução teóricos não demonstrados** |
+| 9 | Governança e Decreto 9.203 | AP **6 explicitamente rotulados Decreto**, além de alguns dos 14 governança/valor | Origem inédita, ligação AP02 |
+| 10, 10.1–10.7 | Licitações, ETP, TR, fiscal, contratos | DA/AP **0 itens rotulados** | CT09/CT10 possuem 5 exemplos didáticos **fora da coleção** |
+| 11–12 | LAI/LGPD | DA/AP **0 itens rotulados diretamente** | AP03 possui 3 exemplos didáticos **fora da coleção** |
+| Item 4.4 / Lei 9.784 | Procedimentos administrativos | DA **6 itens** | 6 inéditos, ligados a DA25 |
+
+**Nota sobre a tabela:** há sobreposição conceitual entre rótulos de governança e modelos; o mapeamento por subitem não soma blocos disjuntos do programa. A contagem total única no JSON permanece **48**, com DA 18 e AP 30. O número 367 refere-se **a toda coleção de todos os assuntos**, não à frente DA/AP.
+
+**Balanço:** seis superfícies internas verificadas, 48 metadados/temas de itens DA/AP, referências de prova real localizadas mas **sem novo item real individual autenticado neste bloco**, zero inversão de gabarito nova comprovada e nenhum artigo editado. Cinco achados DA-068 a DA-072: concentração do treino, fonte insuficiente de NPG, lacuna de ingestão de reais, teste limitado de links e necessidade de matriz por subitem. Segue aberta a Fase 1, com os reparos anteriormente identificados **DA-004 (DA22#2)** e **DA-036 (movimentação de pessoal)** e os riscos adicionais DA-019/020 (STF improbidade 2026) e DA-064/065 (ETP/fiscal).
+
+### Próximo trabalho
+
+Priorizar **validação por caderno e gabarito definitivos do CNMP 2023, itens 111–120**, sobretudo lei aplicável e eventuais anulações; acrescentar corpus C/E de Administração da mesma banca apenas com proveniência verificável. Em paralelo, testar resolução de âncoras e concluir matriz do edital DA/AP com ordens de correção e evidência por arquivo. Não transformar este diagnóstico em certificação global ou migrar à Fase 2 sem decisão expressa.

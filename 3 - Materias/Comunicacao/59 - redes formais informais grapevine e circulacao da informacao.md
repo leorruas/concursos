@@ -5,7 +5,7 @@ title: "Redes formais e informais: grapevine e circulação da informação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Redes formais e informais: grapevine e circulação da informação
@@ -144,6 +144,12 @@ Em **rede informal**, compreender quais dúvidas, experiências e necessidades a
 **Item 3, inédito:** “Toda rede informal transmite informação necessariamente falsa e, por definição, só pode operar horizontalmente entre pessoas do mesmo nível.”
 
 **Gabarito: Errado.** Informal refere-se aos vínculos; informação verdadeira ou falsa e direção do fluxo são outros critérios.
+
+## Prova real Cebraspe DPDF, edital 2020, aplicação 2022: rede informal (11/11/2026)
+
+No [item 63 da prova oficial DPDF, cargo Comunicação Social](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF), o enunciado atribui ao sistema **informal** de comunicação interna uma circulação de conteúdos de trabalho com disseminação **restrita e predeterminada**, características ligadas a canais e procedimentos **formais**. O [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/GAB_DEFINITIVO_548_DPDF_005_01.PDF) indica **Errado**.
+
+**Mecanismo:** troca de atributos entre categorias vizinhas. Rede informal não é sinônimo de informação falsa, ausência de vínculo com o trabalho ou impossibilidade de controle parcial: distingue-se sobretudo pela origem e regulação social das relações, ao contrário do canal institucional previamente estabelecido. **C/E inédito, calibrado por esta prova:** “A característica central da rede informal de comunicação é a disseminação exclusivamente autorizada e predeterminada no organograma.” **Errado**. Este último é exercício criado para estudo, distinto do item histórico 63. A prova foi aplicada em **2022**, sob edital identificado como 2020.
 
 ## Heurísticas e relações
 

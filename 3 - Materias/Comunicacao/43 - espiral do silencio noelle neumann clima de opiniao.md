@@ -5,7 +5,7 @@ title: "Espiral do silêncio: Noelle-Neumann, clima de opinião e expressão pú
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Espiral do silêncio: Noelle-Neumann, clima de opinião e expressão pública
@@ -109,6 +109,18 @@ Uma notícia pode aumentar a atenção a uma questão (**agenda-setting**), apre
 **Item 3, inédito:** “O silêncio de um grupo diante de uma medida é, por si, evidência suficiente de espiral do silêncio, dispensando investigar oportunidades de fala e expectativas de rejeição.”
 
 **Gabarito: Errado.** O efeito depende de condições e mecanismos específicos. Silêncio pode resultar de desinteresse, desconhecimento, regra da reunião ou outras razões. Mecanismo: confundir resultado visível com sua causa.
+
+## Conferência dirigida: clima percebido, expressão e silêncio (11/11/2026)
+
+Na [exposição institucional da teoria pela autora](https://noelle-neumann.de/scientific-work/spiral-of-silence/) e no [resumo do artigo de Noelle-Neumann sobre o conceito](https://academic.oup.com/anncom/article-abstract/14/1/256/7828443), a **ameaça de isolamento** e o **senso quase estatístico** descrevem a maneira pela qual indivíduos observam o ambiente social e ajustam sua disposição de expressão. A maioria **percebida** pode divergir da maioria efetiva, e a hipótese depende de condições de controvérsia e pressão social.
+
+| Item | Gabarito | Resultado delimitado |
+| --- | --- | --- |
+| 1 | Certo | Compatível com a relação entre expectativa de isolamento e manifestação, sem exigir conversão da opinião privada. |
+| 2 | Errado | Sustentado diretamente pelo resumo do conceito: senso quase estatístico é percepção informal, não estimação amostral científica. |
+| 3 | Errado | Compatível com as condições do mecanismo; observar silêncio, isoladamente, não identifica sua causa. |
+
+**Ressalva:** são hipóteses sobre mecanismos sociais, não regra de que todo indivíduo silencia em toda controvérsia. O resumo e a apresentação institucional confirmam os três julgamentos no recorte descrito; a leitura integral do artigo fundador de 1974 e a revisão de evidências empíricas atuais permanecem abertas. Nenhuma inversão de gabarito foi identificada.
 
 ## Aplicação discursiva
 

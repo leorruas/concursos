@@ -286,6 +286,25 @@ A execução contratual exige conferir diferentes planos:
 
 **Certo.** Transparência pública e acervo comprobatório não são o mesmo controle. **Mecanismo avaliado:** fronteira entre obrigações.
 
+## Conferência dirigida do gabarito C/E com fonte primária (11/11/2026)
+
+Os dez itens inéditos acima foram confrontados, por remissão de dispositivo, com a [Lei nº 12.232/2010 consolidada pela Câmara](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html). O registro abaixo aponta a base legal identificada e não substitui exame jurídico da aplicação atual das remissões à Lei nº 8.666/1993.
+
+| Item | Resposta mantida | Base legal para revisão |
+| --- | --- | --- |
+| 1 | Certo | Art. 6º, III, IV, XII e XIII: anonimato do plano e informações do proponente |
+| 2 | Certo | Arts. 7º e 8º: quesitos do plano e dados do proponente |
+| 3 | Errado | Art. 6º, VII: diferença **superior** a 20%; igualdade não basta |
+| 4 | Certo | Art. 10, §§ 1º e 2º: composição e sorteio |
+| 5 | Errado | Art. 12: violação do anonimato por agente público e anulação |
+| 6 | Certo | Art. 11, § 4º: habilitação após julgamento das propostas |
+| 7 | Errado | Art. 14, §§ 1º a 3º: três orçamentos separados das hipóteses de rito de abertura |
+| 8 | Certo | Arts. 15 e 18: descontos negociados e planos de incentivo têm destinação distinta |
+| 9 | Errado | Art. 17: cinco anos **após a extinção** do contrato |
+| 10 | Certo | Arts. 16 e 17: transparência de pagamentos e guarda de documentos |
+
+**Resultado delimitado:** não foi identificada necessidade de inverter esses dez gabaritos no cotejo dos dispositivos citados. Isso **não certifica todo o artigo**. Permanecem pendentes a interpretação jurídica da transição entre regimes gerais, a verificação de todos os exemplos e a revisão detalhada das fontes auxiliares. Os dez itens são inéditos, e não questões reais da Cebraspe.
+
 ## Relações com outros temas
 
 **Melhor técnica × técnica e preço:** tipos de julgamento admitidos; ambos sujeitos ao edital. **Raciocínio básico × estratégia × ideia criativa × mídia/não mídia:** diagnóstico, solução, expressão e distribuição. **Plano anônimo × informações do proponente:** autoria oculta na avaliação do plano, experiência e capacidade em quesitos próprios. **Comissão geral × subcomissão técnica:** processamento e controle do certame versus julgamento especializado. **Desclassificação × anulação:** consequência de irregularidade do licitante versus hipótese do art. 12 por agente público. **Três orçamentos × abertura pública:** obrigação geral de cotação e procedimento condicionado por valor e exceção. **Vantagens de negociação × incentivos de veículo × desconto-padrão:** receita do contratante e duas categorias de receita da agência sob regras distintas. **Transparência × arquivo:** divulgação pública e preservação documental.

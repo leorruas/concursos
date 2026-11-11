@@ -5,7 +5,7 @@ title: "Regimento Comum, Título IV: sessões solenes e matérias legislativas a
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 aliases:
   - "CAM-PL-026"
   - "RCCN Título IV capítulos II e III"
@@ -112,6 +112,8 @@ O **art. 102** determina aplicação subsidiária, **no que couber**, das regras
 ### Quando a Resolução nº 1/2006-CN controla a leitura
 
 A [Resolução nº 1/2006-CN no portal da CMO](https://www.congressonacional.leg.br/web/cmo/atribuicoes-e-legislacao/resolucao-n-01-de-2006-cn) integra o **Regimento Comum** e disciplina expressamente a **CMO** e o procedimento dos **projetos de PPA, LDO, LOA e créditos adicionais**. Para questões sobre **composição da CMO, prazos efetivos de emendas, apresentação de destaques, relatores setoriais, aprovação e controle da execução**, preferir a disciplina especial vigente a generalizações do texto original de 1970.
+
+**Atualização de 2025 indispensável:** a [página oficial da CMO sobre legislação](https://www.congressonacional.leg.br/web/cmo/atribuicoes-e-legislacao) registra modificações da Resolução nº 1/2006-CN por resoluções de **2025**, incluindo a **Resolução nº 1/2025-CN**, que alterou a apresentação de emendas de comissões permanentes, bancadas e parlamentares, e a **Resolução nº 2/2025-CN**, que acrescentou condições relativas a beneficiários e indicações de emendas. Por isso, limites numéricos e critérios antigos de emendas, mesmo quando ainda visíveis em versões com histórico de redações, não devem ser usados sem cotejo com o texto vigente. Esses detalhes pertencem à disciplina especial e não podem ser deduzidos dos arts. 89 a 103 do RCCN. Ver também o [texto com alterações históricas da Resolução 1/2006-CN](https://www.congressonacional.leg.br/web/cmo/atribuicoes-e-legislacao/resolucao-n-01-de-2006-cn).
 
 A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|nota canônica de tramitação orçamentária]] aprofunda o ciclo da proposta até a deliberação e as condições do **art. 166 da CF**. Esta CAM-PL-026 cobre **os artigos indicados do RCCN e suas fronteiras de vigência**, sem duplicar todo o processo orçamentário.
 

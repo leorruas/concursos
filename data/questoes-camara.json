@@ -3122,6 +3122,134 @@
       "statement": "Uma unidade tem objetivo de restabelecer o serviço em duas horas. Um exercício em que o serviço volta após 90 minutos fica dentro desse limite de tempo.",
       "correctAnswer": "C",
       "explanation": "O objetivo de tempo de recuperação é o prazo para voltar a operar. Noventa minutos ficam abaixo das duas horas estabelecidas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "sequencia-descritiva",
+      "mechanism": "distinguir-estado-de-acontecimento",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#3. As Cinco Sequências Prototípicas em Detalhe"
+      ],
+      "statement": "Em “A sala é estreita, tem duas janelas e comporta vinte cadeiras”, o trecho apresenta propriedades do espaço, sem organizar acontecimentos em uma sequência temporal.",
+      "correctAnswer": "C",
+      "explanation": "O trecho enumera características simultâneas da sala. Essa organização é descritiva."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "sequencia-narrativa",
+      "mechanism": "confundir-ordem-temporal-com-instrucao",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#3. As Cinco Sequências Prototípicas em Detalhe"
+      ],
+      "statement": "Em “O técnico abriu a caixa, conferiu o lacre e anotou o número”, os verbos no passado orientam o leitor a executar as três tarefas.",
+      "correctAnswer": "E",
+      "explanation": "A frase relata ações realizadas em sequência. Ela não dá instruções ao leitor."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "sequencia-explicativa",
+      "mechanism": "reconhecer-relacao-de-explicacao",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#3. As Cinco Sequências Prototípicas em Detalhe"
+      ],
+      "statement": "Em “Por que o vidro embaça? O vapor presente no ar condensa ao tocar uma superfície fria”, a segunda frase responde à questão inicial por meio de uma explicação.",
+      "correctAnswer": "C",
+      "explanation": "O trecho parte de uma pergunta e apresenta o mecanismo que esclarece o fenômeno."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "sequencia-argumentativa",
+      "mechanism": "distinguir-tese-de-constatacao",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#3. As Cinco Sequências Prototípicas em Detalhe"
+      ],
+      "statement": "Em “O posto deve abrir mais cedo, pois os primeiros ônibus chegam antes das sete”, o trecho apenas descreve o horário dos ônibus.",
+      "correctAnswer": "E",
+      "explanation": "O horário é apresentado como razão para defender uma mudança no funcionamento do posto."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "sequencia-dialogal",
+      "mechanism": "reconhecer-alternancia-de-turnos",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#3. As Cinco Sequências Prototípicas em Detalhe"
+      ],
+      "statement": "Em “— A inscrição exige comprovante? — Sim, mas basta uma cópia”, a resposta depende da pergunta anterior, e a organização do trecho é dialogal.",
+      "correctAnswer": "C",
+      "explanation": "Os dois turnos se articulam como pergunta e resposta. Essa alternância organiza o trecho."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "dominancia-tipologica",
+      "mechanism": "confundir-sequencia-local-com-dominancia",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#4. Relações Híbridas: Heterogeneidade Tipológica e Dominância"
+      ],
+      "statement": "Um guia que orienta o preenchimento de um formulário inclui um breve relato de como ele foi criado. A presença desse relato torna necessariamente narrativa a organização predominante do guia.",
+      "correctAnswer": "E",
+      "explanation": "O relato pode funcionar como sequência local. Se o restante organiza instruções, a finalidade e a estrutura predominantes continuam ligadas à orientação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "heterogeneidade-tipologica",
+      "mechanism": "distinguir-relato-inserido-de-argumentacao",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#4. Relações Híbridas: Heterogeneidade Tipológica e Dominância"
+      ],
+      "statement": "Um editorial defende horários de atendimento mais amplos e relata o caso de uma usuária que encontrou o posto fechado. O relato pode atuar como evidência dentro de uma organização predominantemente argumentativa.",
+      "correctAnswer": "C",
+      "explanation": "O episódio fornece um caso concreto em apoio à posição defendida pelo editorial."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "sequencia-injuntiva",
+      "mechanism": "confundir-futuro-do-leitor-com-previsao",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#3. As Cinco Sequências Prototípicas em Detalhe"
+      ],
+      "statement": "Em “Anexe o comprovante e, em seguida, confirme o envio”, a expressão de sequência temporal faz o trecho prever o que necessariamente acontecerá.",
+      "correctAnswer": "E",
+      "explanation": "Os imperativos prescrevem ações e indicam a ordem de execução. O trecho não prevê que o destinatário vai realizá-las."
     }
   ]
 }

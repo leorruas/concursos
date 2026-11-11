@@ -71,18 +71,22 @@ Uma paleta pode expressar a identidade e, ao mesmo tempo, exigir variações fun
 
 ## Arquitetura de marca: organização dos sinais e relações
 
-**Arquitetura de marca** descreve como marcas e nomes se relacionam dentro de portfólio de ofertas, unidades ou serviços. Uma distinção corrente, apresentada em modelos de gestão de marcas, contrapõe **marca única ou monolítica (*branded house*)**, **marcas independentes (*house of brands*)** e arranjos **endossados ou híbridos**. A nomenclatura varia entre autores e não deve ser tratada como classificação legal.
+**Arquitetura de marca** descreve como marcas e nomes se relacionam dentro de portfólio de ofertas, unidades ou serviços. O **Brand Relationship Spectrum**, de **David A. Aaker e Erich Joachimsthaler (2000)**, distingue **quatro estratégias básicas** ao longo de um contínuo: **marcas independentes (*house of brands*)**, **marcas endossadas (*endorsed brands*)**, **submarcas (*subbrands*)** e **marca principal dominante (*branded house*)**. A categoria **híbrida** é útil para descrever um portfólio que combina estratégias, mas **não substitui “submarcas” como a quarta estratégia no modelo original**. O espectro também inclui nove subestratégias. Esses nomes pertencem a uma classificação gerencial, não legal.
 
 | Configuração | Organização predominante | Exemplo hipotético e limite |
 | :--- | :--- | :--- |
 | **Marca única/monolítica** | Diversas ofertas sob identidade principal muito visível | Portal e serviços parlamentares identificados de forma coerente pela Câmara |
 | **Marcas independentes** | Ofertas utilizam marcas distintas, com vínculo corporativo pouco visível | Serviços de uma organização com nomes e identidades que não evidenciam a marca matriz |
 | **Marca endossada** | Marca específica acompanhada por sinal identificador da organização responsável | Programa identificado com nome próprio e assinatura institucional explícita |
-| **Híbrida** | Combina lógicas conforme funções e públicos | Alguns projetos com marca principal; outros com identificação mais autônoma |
+| **Submarca (*subbrand*)** | Marca principal e nome subordinado compartilham, em graus variáveis, o papel na identificação da oferta | Programa com nome próprio vinculado de modo visível à marca institucional |
+| **Híbrida (configuração do portfólio)** | Combina estratégias do espectro em diferentes ofertas | Alguns projetos com marca principal; outros com identificação mais autônoma |
 
 **Marca de produto**, **marca institucional/corporativa** e **marca de programa ou serviço** descrevem **níveis ou objetos** de identificação, não necessariamente arquiteturas completas. Uma marca de programa pode coexistir com marca institucional, sem exigir rebranding da instituição.
 
 **Aplicação pública:** a Câmara tem nome, funções e responsabilidade institucional que não são livremente substituíveis como marcas comerciais concorrentes. Identificar programas, serviços e canais deve favorecer **clareza sobre a autoria, acesso a informações oficiais e impessoalidade**. Criar inúmeras marcas de projetos pode fragmentar a experiência e dificultar ao cidadão reconhecer a origem de uma informação.
+
+
+**Cotejo autoral, 11/11/2026.** Em [Aaker e Joachimsthaler, *The Brand Relationship Spectrum* (2000), *California Management Review*](https://cmr.berkeley.edu/2000/08/42-4-the-brand-relationship-spectrum-the-key-to-the-brand-architecture-challenge/), a categoria **submarcas** é uma das quatro estratégias do contínuo. A [reprodução do artigo com a enumeração das quatro estratégias e nove subestratégias](https://uploads.teachablecdn.com/attachments/qeevWuidTtG3H2EQtFkU_aaker-brandarchitecture-120610195020-phpapp02.pdf) explicita também o critério do *driver role*: participação relativa da marca principal e das marcas subordinadas na decisão de escolha. **Correção efetiva:** a versão anterior omitia a estratégia de submarcas do quadro e inseria “híbrida” no lugar dela. A categoria híbrida foi preservada como descrição derivada de um portfólio misto, sem atribuição literal aos quatro polos de Aaker e Joachimsthaler.
 
 ## Marca e direito: sinal, registro e uso institucional
 

@@ -5,7 +5,7 @@ title: "Lazarsfeld: fluxo em duas etapas, líderes de opinião e influência pes
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Lazarsfeld: fluxo em duas etapas, líderes de opinião e influência pessoal
@@ -111,6 +111,18 @@ A banca pode afirmar que **todo público** recebe informação **exclusivamente*
 **Item C/E 3, inédito:** “O reforço de uma preferência eleitoral existente e a conversão para uma preferência diferente são categorias analiticamente distintas na investigação dos efeitos da campanha.”
 
 **Gabarito: Certo.** A primeira preserva ou fortalece orientação prévia; a segunda envolve mudança de direção. Confundi-las destrói a classificação dos efeitos.
+
+## Auditoria dirigida: atribuição, cronologia e três itens C/E (11/11/2026)
+
+O [artigo de Elihu Katz de 1957, publicado no *Public Opinion Quarterly*](https://academic.oup.com/poq/article-abstract/21/1/61/1886822), registra que a hipótese do fluxo em duas etapas foi **testada, corroborada em grande parte e refinada** ao longo de diferentes pesquisas. O resumo delimita o problema: como incorporar relações interpessoais ao desenho tradicional de pesquisas de opinião. Isso sustenta a distinção entre uma **hipótese de influência mediada** e uma regra universal de que toda pessoa recebe mensagens exclusivamente por líderes.
+
+| Item | Gabarito na nota | Avaliação e limite da fonte |
+| --- | --- | --- |
+| 1 | Certo | Compatível com o caráter de hipótese e com os refinamentos descritos por Katz. O resumo da fonte de 1957 não autoriza afirmar mediação obrigatória em toda comunicação. |
+| 2 | Errado | Compatível com o conceito de liderança de opinião como relação de influência, mas a parte sobre variação temática exige cotejo de páginas específicas de *Personal Influence* (1955). **Ainda não certificado integralmente.** |
+| 3 | Certo | Distinção coerente entre reforço e conversão eleitoral; **a redação original e a classificação completa em *The People's Choice* (1944) permanecem pendentes de exame direto**. |
+
+**Resultado:** não há razão demonstrada para trocar gabaritos neste exame, mas somente o **item 1** teve sustentação direta suficiente no texto consultado. Itens 2 e 3 permanecem em verificação autoral. É indevido apresentar o esquema de duas etapas como modelo rígido que exclui influência direta, múltiplas etapas ou diferenças entre temas. Esta revisão usa o registro e o resumo do artigo de Katz; não representa leitura integral das obras de 1944 e 1955.
 
 ## Aplicação discursiva
 

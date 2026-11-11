@@ -5,7 +5,7 @@ title: "Correio eletrônico: webmail, cliente local, campos de cabeçalho, anexo
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Correio eletrônico: webmail, cliente local, campos de cabeçalho, anexos e segurança
@@ -29,7 +29,7 @@ flowchart TD
     subgraph Webmail["Acesso via Webmail (ex.: Outlook na Web, Gmail)"]
         W1["Interface no Navegador Web (Chrome, Edge, Firefox)"]
         W2["Protocolos de transporte: HTTPS (Porta 443)"]
-        W3["Mensagens residem 100% no servidor de e-mail"]
+        W3["Mensagens mantidas no serviço; navegador pode guardar cache local"]
         W4["Não exige configuração manual de portas SMTP/IMAP"]
     end
     
@@ -46,7 +46,7 @@ flowchart TD
 | **Acesso** | De qualquer dispositivo conectado à internet via navegador | Restrito ao computador onde o programa está instalado |
 | **Protocolo de acesso** | HTTPS | IMAP (ou POP3) para recebimento; SMTP para envio |
 | **Operação offline** | Não (ou muito limitada com extensões específicas) | **Sim**, lê mensagens já baixadas e redige novos e-mails offline |
-| **Ocupação de disco local** | Zero (apenas cache temporário de navegação) | Ocupa armazenamento local com a base de dados de e-mails |
+| **Ocupação de disco local** | Pode utilizar cache, dados de navegação e recursos offline conforme serviço/configuração | Pode armazenar mensagens em disco, dependendo da política de sincronização e cache |
 | **Backup de mensagens** | Depende das políticas de retenção do servidor | Permite exportar arquivos de dados locais (`.pst`, `.mbox`, `.eml`) |
 
 ---
@@ -116,7 +116,7 @@ O Cebraspe frequentemente propõe situações práticas em que uma mensagem é r
 
 ### Caso 1: Envio de mala direta a 500 jornalistas
 A assessoria de imprensa da Câmara precisa disparar um comunicado de imprensa para uma lista de 500 jornalistas de diferentes veículos de mídia. O assessor insere todos os 500 endereços no campo **`Para`** e clica em Enviar.
-*Análise:* Falha grave de segurança e privacidade (infração à LGPD). Ao colocar todos os e-mails no campo `Para`, todos os 500 jornalistas têm acesso imediato aos endereços e contatos uns dos outros. Além de expor dados de terceiros, se algum repórter clicar em "Responder a Todos", todos os demais receberão a mensagem indesejada. O procedimento correto e mandatório é colocar o próprio e-mail da assessoria no campo `Para` e os 500 jornalistas no campo **`Cco` (Cópia Oculta)**.
+*Análise:* O campo `Para` torna os endereços visíveis aos demais destinatários, o que pode gerar exposição desnecessária e risco de privacidade. A eventual **infração à LGPD** depende do contexto, finalidade, base legal e demais circunstâncias, não apenas do uso do campo. Para uma lista cujos participantes não precisam conhecer os contatos uns dos outros, recomenda-se utilizar **`Cco`** ou uma plataforma adequada de envio, com controles de dados pessoais.
 
 ### Caso 2: Cco respondendo a todos
 O Diretor de Comunicação envia um e-mail com críticas a uma matéria jornalística para o Redator (no campo `Para`) e coloca o Secretário-Geral em **`Cco`**. O Secretário-Geral, desejando intervir no debate, clica no botão **Responder a Todos** em seu cliente de e-mail e escreve: *"Concordo plenamente"*.
@@ -198,7 +198,7 @@ Um servidor recebe um e-mail com uma planilha anexada contendo o orçamento da c
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** O uso de `Cco` em envios múltiplos massivos preserva a privacidade dos endereços de correio eletrônico dos cidadãos, evitando vazamento mútuo de contatos e prevenindo incidentes de segurança com o uso indevido de "Responder a Todos".
+**Comentário:** O campo `Cco` limita a exposição dos endereços entre destinatários e reduz riscos associados a respostas coletivas. É uma boa medida de minimização, mas **não garante, sozinho, conformidade com a LGPD**.
 
 ---
 
@@ -212,3 +212,5 @@ Um servidor recebe um e-mail com uma planilha anexada contendo o orçamento da c
 | **Responder** | Apenas para quem enviou (`De`) | **Sem anexo** | Resposta individual privada |
 | **Responder a Todos** | Para `De` + `Para` + `Cc` | **Sem anexo** | Discussões colaborativas de equipe |
 | **Encaminhar** | Novos destinatários digitados | **Com anexo original** | Repasse integral de informações a terceiros |
+
+> **Revisão (11/11/2026):** corrigidas generalizações sobre armazenamento local no webmail e sobre a incidência automática da LGPD (TI-046 e TI-047). Os comportamentos de clientes e políticas de organizações podem variar; os itens C/E permanecem inéditos.

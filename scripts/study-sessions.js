@@ -11,6 +11,16 @@ import { aplicarChangeSet, fileSha256 } from './changeset-transaction.js';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const START = '<!-- estudo-sessoes:inicio -->';
 const END = '<!-- estudo-sessoes:fim -->';
+export function scoreCamara(questions) {
+  const score = {P1: 0, P2: 0, total: 0};
+  for (const q of questions) {
+    assert(['P1', 'P2'].includes(q.examPart), 'Parte objetiva inválida');
+    const points = q.annulled || q.userAnswer === null ? 0 : q.userAnswer === q.correctAnswer ? 1 : -1;
+    score[q.examPart] += points;
+    score.total += points;
+  }
+  return score;
+}
 const modes = ['aprendizagem', 'para_valer', 'real', 'adaptada', 'revisao'];
 const errors = { conhecimento: 'K', confusao_conceitual: 'C', interpretacao: 'I', distracao: 'D' };
 const destinations = ['metrica_apenas', 'enriquecimento_teorico', 'questao_comentada_candidata', 'erro_recorrente', 'nova_nota'];
@@ -39,6 +49,18 @@ export function validateSession(s, filename, root, concursos) {
   assert(modes.includes(s.trainingMode), `${s.id}: modalidade inválida`);
   assert(text(s.diagnosis) && text(s.nextStep), `${s.id}: diagnóstico/próximo passo ausentes`);
   assert(Array.isArray(s.questions) && (s.questions.length > 0 || ['aula', 'fechamento'].includes(s.kind)), `${s.id}: questões ausentes`);
+  const camara = s.concursoId === 'camara-2026';
+  if (camara && s.questions.length) {
+    assert(s.schemaVersion === 3, 'Câmara: questões exigem sessão v3');
+    if (s.simulation) {
+      assert(s.scope === 'mixed' && s.status === 'concluido', 'Câmara: simulado exige sessão mista concluída');
+      assert(s.questions.length === 180 && s.questions.filter(q => q.examPart === 'P1').length === 90 &&
+        s.questions.filter(q => q.examPart === 'P2').length === 90, 'Câmara: simulado exige 90 itens P1 e 90 P2');
+      assert(Number.isInteger(s.simulation.elapsedSeconds) && s.simulation.elapsedSeconds > 0 &&
+        s.simulation.elapsedSeconds <= 18000, 'Câmara: simulado exige tempo efetivo de até 5 horas');
+      assert(text(s.simulation.corpusComparison), 'Câmara: simulado exige comparação documentada com corpus');
+    } else assert(s.questions.every(q => q.userAnswer !== null), 'Câmara: treino didático exige resposta');
+  }
   validateLearning(root, s, concursos);
   const numbers = new Set();
   for (const q of s.questions) {
@@ -79,12 +101,26 @@ export function mergeSessions(legacy, sessions) {
   ledger.simulations = ledger.simulations.filter(s => !s.sessionFile);
   const ids = new Set(ledger.questions.map(q => q.id));
   const sources = new Set(ledger.simulations.map(s => s.id));
+  const camaraStatements = new Map();
+  const statementKey = q => q.statement.normalize('NFKC').toLowerCase().replace(/\s+/g, ' ').trim();
+  for (const q of ledger.questions.filter(q => q.concursoId === 'camara-2026' && text(q.statement))) {
+    camaraStatements.set(statementKey(q), q.id);
+  }
   for (const s of sessions) {
     const scope = s.schemaVersion===3 ? s.scope : s.subjectId==='diagnostico-misto' && s.unitId==='diagnostico-misto' ? 'mixed' : 'subject';
     assert(!sources.has(s.id), `Sessão já existe no legado: ${s.id}. Corrigir o registro original; não importar novamente.`); sources.add(s.id);
     const sessionFile = `data/sessoes/${s.id}.json`;
     const qs = s.questions.map(q => {
       const id = `${s.id}-q${q.number}`;
+      if (s.concursoId === 'camara-2026') {
+        const key = statementKey(q);
+        const previous = camaraStatements.get(key);
+        assert(!previous || (!previous.startsWith(s.id + '-q') && !s.simulation &&
+          s.trainingMode === 'revisao' && q.repetition.classification === 'exact' &&
+          q.repetition.intentional && q.repetition.similarTo.includes(previous)),
+        `${id}: enunciado repetido fora de revisão intencional`);
+        camaraStatements.set(key, id);
+      }
       assert(!ids.has(id), `Questão duplicada: ${id}`); ids.add(id);
       return { ...q, id, sourceId: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
         checkpointSchema: s.schemaVersion, sessionScope: scope, subjectId: scope==='mixed' ? (q.subjectId || null) : s.subjectId, unitId: scope==='mixed' ? (q.unitId || null) : (q.unitId || s.unitId), trainingMode: s.trainingMode, result: q.annulled ? 'annulled' : q.userAnswer === null ? 'blank' : q.userAnswer === q.correctAnswer ? 'correct' : 'incorrect', errorType: q.errorType ? errors[q.errorType] : null };
@@ -95,7 +131,8 @@ export function mergeSessions(legacy, sessions) {
     const generationAudit = {counts,newRate:rate(counts.new),thematicRate:rate(counts.thematic),mechanicalRate:rate(counts.mechanical),exactRate:rate(counts.exact),intentionalReviewRate:rate(qs.filter(q=>q.repetition.intentional).length)};
     ledger.questions.push(...qs);
     ledger.simulations.push({ id: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
-      subjectId: scope==='mixed' ? null : s.subjectId, unitId: scope==='mixed' ? null : s.unitId, sessionScope: scope, learning: s.learning, tipo: s.kind, isSimulado: false, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
+      subjectId: scope==='mixed' ? null : s.subjectId, unitId: scope==='mixed' ? null : s.unitId, sessionScope: scope, learning: s.learning, tipo: s.kind, isSimulado: s.concursoId==='camara-2026' && !!s.simulation, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
+      ...(s.concursoId==='camara-2026'?{netScore:scoreCamara(qs),simulation:s.simulation||null}:{}),
       ledgerCoverage: 'complete', benchmarkEligible: false, qualityNote: s.diagnosis, nextStep: s.nextStep, generationAudit, noveltyException: s.noveltyException || (['aula', 'fechamento'].includes(s.kind) ? 'Checkpoint sem questões; fora de benchmark e métricas de acerto.' : null),
       confidenceTracking: { coverage: qs.length && qs.every(q => q.confidence !== 'unknown') ? 'complete' : 'partial' } });
   }
@@ -164,7 +201,7 @@ export function prepare(root = ROOT, asOf) {
     const last = ledger.simulations.filter(s => s.concursoId === c.id).reverse().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
     const ids = new Set(last.map(s => s.id));
     return { concursoId: c.id, banca: c.banca, activeExam: examProfile(c), cut, coverage: 'somente itens individualizados; legado pode ser parcial', totals: grouped(all, q => `${q.discipline} / ${mode(q)}`).map(({ questions, ...r }) => r),
-      recentSessions: last.map(s => ({ id: s.id, date: s.date, sourcePath: s.sourcePath, status: s.status || 'historico', diagnosis: s.qualityNote || null, nextStep: s.nextStep || null })),
+      recentSessions: last.map(s => ({ id: s.id, date: s.date, sourcePath: s.sourcePath, status: s.status || 'historico', ...(s.netScore?{netScore:s.netScore,simulation:s.simulation}:{}), diagnosis: s.qualityNote || null, nextStep: s.nextStep || null })),
       recentMechanisms: [...new Set(all.filter(q => ids.has(q.sourceId)).map(q => q.mechanism))].sort(),
       review: all.filter(q => q.result === 'incorrect' || ['insecure', 'guess'].includes(q.confidence)).slice(-30).map(q => ({ id: q.id, topic: q.topic, result: q.result, confidence: q.confidence, theoryRefs: q.theoryRefs })) };
   });
@@ -174,6 +211,7 @@ export function prepare(root = ROOT, asOf) {
   for (const c of subjectContexts.index.contests) {
     const p = `data/contexto-estudo/${c.concursoId}.json`;
     const summary = JSON.parse(outputs.get(p));
+    if(c.questionFlow) summary.questionFlow=c.questionFlow;
     summary.resume = c.resume;
     summary.lastActivity = c.lastActivity;
     summary.subjectIndexPath = 'data/contexto-estudo/indice.json';

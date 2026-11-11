@@ -1,4 +1,4 @@
-import { resolveArticleRef } from './article-identity.js';
+import { resolveArticleRef, articleInventory, articleMetadata } from './article-identity.js';
 // Currículo e retomada por concurso/matéria. Não escreve arquivos nem teoria.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -21,6 +21,11 @@ export function examProfile(contest) {
   const questionFormat=contest.id==='cgu-2026'||judgment==='Certo ou Errado'?'CE':contest.banca==='FGV'?'AE':null;
   return {concursoId:contest.id,banca:contest.banca,questionFormat,answerOptions:questionFormat==='CE'?['C','E','Em branco']:questionFormat==='AE'?['A','B','C','D','E']:[],
     instruction:`Concurso-alvo: ${contest.nome||contest.id}. Banca: ${contest.banca}. Formato de treino: ${questionFormat==='CE'?'Certo/Errado':questionFormat==='AE'?'múltipla escolha A–E':'conferir edital'}. Aplicar esse perfil em todas as matérias e na retomada; protocolos de outro concurso permanecem restritos ao respectivo concurso.`,
+    ...(contest.id==='camara-2026'?{
+      didacticAnswerOptions:['C','E'],
+      simulation:{distribution:{P1:contest.estruturaProva.objetiva.p1.itens,P2:contest.estruturaProva.objetiva.p2.itens},
+        duration:contest.estruturaProva.objetiva.duracao, scoring:contest.estruturaProva.objetiva.pontuacao}
+    }:{}),
     metadataSource:'data/concursos.json',historicalSourcesRole:'Fontes históricas e de outras bancas servem como apoio de conteúdo; sua origem não redefine banca, formato ou pontuação do concurso-alvo.'};
 }
 export function checkRef(root, ref) {
@@ -42,6 +47,32 @@ export function loadPlans(root) {
   const dir=path.join(root,'data/planos-estudo');
   if(!fs.existsSync(dir))return [];
   return fs.readdirSync(dir).filter(n=>n.endsWith('.json')).sort().map(n=>JSON.parse(file(root,'data/planos-estudo/'+n)));
+}
+function camaraSubjects(root) {
+  const config = JSON.parse(file(root, 'data/questoes-camara.json'));
+  ok(config.concursoId === 'camara-2026' && config.cargo === 1, 'Configuração fora do Cargo 1 da Câmara');
+  const catalog = JSON.parse(file(root, 'data/catalogo-materias-por-concurso.json'));
+  const subjects = catalog.contests.find(c => c.concursoId === 'camara-2026').subjects;
+  const articles = new Map(articleInventory(root).map(a => [a.articleId, a.sourcePath]));
+  return subjects.map(subject => {
+    const route = config.subjects[subject.subjectId];
+    ok(route, `Câmara: matéria sem rota: ${subject.subjectId}`);
+    return {
+      id: subject.subjectId, name: subject.rotulo, aliases: route.aliases,
+      hub: articles.get(subject.hubArticleId) || null,
+      legacyDisciplines: [subject.rotulo, subject.categoria],
+      priority: {tier: route.part || 'discursiva', rationale: subject.itemEdital},
+      articleIds: subject.articleIds,
+      units: route.units.map(([id, title, part, locator]) => ({
+        id, title, part, editalItems: [locator], noteRefs: [], requires: [],
+        sourceIds: ['edital'], coverage: 'conferir-secao-no-catalogo'
+      }))
+    };
+  });
+}
+function curriculum(root, contest, plan) {
+  if (plan) return plan.subjects;
+  return contest?.id === 'camara-2026' ? camaraSubjects(root) : genericSubjects(root);
 }
 export function validatePlan(root,plan,concursos) {
   ok(plan.schemaVersion===1 && concursos.some(c=>c.id===plan.concursoId),'Plano sem concurso válido');
@@ -78,7 +109,7 @@ export const sessionScope = s => s.schemaVersion===3 ? s.scope : s.subjectId==='
 export function validateLearning(root,s,concursos) {
   if(![2,3].includes(s.schemaVersion))return;
   const contest=concursos.find(c=>c.id===s.concursoId);
-  const plan=loadPlans(root).find(p=>p.concursoId===s.concursoId)||{subjects:genericSubjects(root),sources:{edital:{ref:contest?.sourcePath}},questionFormat:contest?.estruturaProva?.objetiva?.julgamento==='Certo ou Errado'?'CE':null};
+  const plan=loadPlans(root).find(p=>p.concursoId===s.concursoId)||{subjects:curriculum(root,contest),sources:{edital:{ref:contest?.sourcePath}},questionFormat:contest?.estruturaProva?.objetiva?.julgamento==='Certo ou Errado'?'CE':null};
   if(s.schemaVersion===3){
     ok(['subject','mixed'].includes(s.scope),`${s.id}: scope de sessão inválido`);
     if(s.scope==='mixed')ok(s.subjectId==null&&s.unitId==null&&s.kind==='microtreino',`${s.id}: bateria mista não possui matéria/unidade de sessão`);
@@ -125,6 +156,18 @@ export function validateLearning(root,s,concursos) {
         ok(qSubject.legacyDisciplines.some(d=>normalize(d)===normalize(q.discipline)),`${s.id}/Q${q.number}: disciplina diverge da matéria`);
       }
     } else ok(mixed && q.unitId==null && q.subjectId==null,`${s.id}/Q${q.number}: item sem matéria não pode ter unidade`);
+    if(s.concursoId==='camara-2026'){
+      const selectedUnit=qSubject?.units.find(u=>u.id===(mixed?q.unitId:q.unitId||s.unitId));
+      ok(selectedUnit?.part && q.examPart===selectedUnit.part &&
+        txt(q.editalRef) && selectedUnit.editalItems.some(ref=>q.editalRef===ref||q.editalRef.startsWith(ref+' / ')),
+        `${s.id}/Q${q.number}: item fora do programa objetivo do Cargo 1`);
+      ok(q.theoryRefs?.length && q.theoryRefs.every(ref=>{
+        const [target]=resolveArticleRef(root,ref).split('#');
+        const p=target.endsWith('.md')?target:target+'.md';
+        const articleId=articleMetadata(file(root,p)).articleId;
+        return qSubject.articleIds.includes(articleId);
+      }), `${s.id}/Q${q.number}: artigo fora da matéria no catálogo da Câmara`);
+    }
     if(q.sourceRefs)ok(arr(q.sourceRefs)&&q.sourceRefs.every(r=>plan.sources[r.sourceId]&&txt(r.locator)),`${s.id}: referência normativa sem fonte/localizador`);
     if(q.retrievalOf)ok(arr(q.retrievalOf)&&q.retrievalOf.every(txt),`${s.id}: retrievalOf inválido`);
     if(plan.questionFormat)ok(q.format===plan.questionFormat,`${s.id}: formato diverge do concurso`);
@@ -142,10 +185,11 @@ function genericSubjects(root) {
 const refFingerprint=(root,paths)=>crypto.createHash('sha256').update(paths.map(p=>p+'\n'+file(root,p)).join('\n')).digest('hex');
 export function buildSubjectContexts(root,ledger,concursos,cut) {
   const outputs=new Map(),plans=loadPlans(root),sources=new Map(ledger.simulations.map(s=>[s.id,s]));
-  const index={schemaVersion:1,activeDefault:{concursoId:'cgu-2026',from:'2026-10-12',through:'2026-12-13',after:'camara-2026'},commands:['continuar <matéria>','estudar <matéria>','revisar meus erros de <matéria>','continuar <concurso> de onde parei'],contests:[]};
+  const index={schemaVersion:1,activeDefault:{concursoId:'cgu-2026',from:'2026-10-12',through:'2026-12-13',after:'camara-2026',overrides:[{concursoId:'camara-2026',from:'2026-11-11',through:'2027-01-17'}]},commands:['continuar <matéria>','estudar <matéria>','revisar meus erros de <matéria>','continuar <concurso> de onde parei'],contests:[]};
   for(const contest of concursos){
     const plan=plans.find(p=>p.concursoId===contest.id);const program=plan?validatePlan(root,plan,concursos):[];
-    const subjects=plan?plan.subjects:genericSubjects(root);
+    const camara=contest.id==='camara-2026';
+    const subjects=curriculum(root,contest,plan);
     const activeExam=examProfile(contest);
     const lastActivity=[...sources.values()].filter(s=>s.concursoId===contest.id&&s.sessionFile).sort((a,b)=>Date.parse(a.startedAt||a.date)-Date.parse(b.startedAt||b.date)||a.id.localeCompare(b.id)).at(-1);
     const contestIndex={concursoId:contest.id,banca:contest.banca,activeExam,subjects:[],resume:null,
@@ -168,8 +212,10 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
         const spaced=attempts.filter(r=>(r.date||sources.get(r.sourceId)?.date)>date&&!['exact','mechanical'].includes(r.repetition?.classification));
         const laterFailure=qs.some(r=>r.id!==q.id&&(r.conceptId||r.mechanism)===concept&&r.result==='incorrect'&&(r.date||sources.get(r.sourceId)?.date)>(spaced.at(-1)?.date||date));
         const spacedDays=[...new Set(spaced.map(r=>r.date||sources.get(r.sourceId)?.date))];
+        const reviewDays=camara?[3,7]:plan?.reviewPolicy?.intervalDays||[1,7,21];
+        const dueOn=camara ? (spacedDays.length>=2&&!laterFailure ? null : addDays(date,reviewDays[spacedDays.length?1:0])) : addDays(spaced.at(-1)?.date||attempts.at(-1)?.date||date,reviewDays[Math.min(spacedDays.length,2)]);
         const status=spaced.length&&!laterFailure?'retencao-observada':attempts.length&&!laterFailure?'recuperacao-imediata':'pendente';
-        gaps.push({questionId:q.id,unitId:unitOf(q),concept,topic:q.subtopic,kind:q.result==='incorrect'?'erro':q.result==='blank'?'branco':q.confidence==='guess'?'chute':'duvida',errorType:q.errorType||null,errorTypeLabel:({K:'conhecimento',C:'confusao_conceitual',I:'interpretacao',D:'distracao'})[q.errorType]||null,status,recurrences:Math.max(qs.filter(r=>r.result==='incorrect'&&(r.conceptId||r.mechanism)===concept).length,1+(q.repetition?.similarTo||[]).filter(id=>byId.get(id)?.result==='incorrect').length),date,dueOn:addDays(spaced.at(-1)?.date||attempts.at(-1)?.date||date,(plan?.reviewPolicy?.intervalDays||[1,7,21])[Math.min(spacedDays.length,2)]),theoryRefs:q.theoryRefs||[],sourceRefs:q.sourceRefs||[],evidence:attempts.map(r=>r.id)});
+        gaps.push({questionId:q.id,unitId:unitOf(q),concept,topic:q.subtopic,kind:q.result==='incorrect'?'erro':q.result==='blank'?'branco':q.confidence==='guess'?'chute':'duvida',errorType:q.errorType||null,errorTypeLabel:({K:'conhecimento',C:'confusao_conceitual',I:'interpretacao',D:'distracao'})[q.errorType]||null,status,recurrences:Math.max(qs.filter(r=>r.result==='incorrect'&&(r.conceptId||r.mechanism)===concept).length,1+(q.repetition?.similarTo||[]).filter(id=>byId.get(id)?.result==='incorrect').length),date,dueOn,theoryRefs:q.theoryRefs||[],sourceRefs:q.sourceRefs||[],evidence:attempts.map(r=>r.id)});
       }
       for (const gap of gaps) { const later=gaps.filter(g=>g.concept===gap.concept&&g.kind==='erro'&&gaps.indexOf(g)>gaps.indexOf(gap)).at(-1);if(later&&later!==gap){gap.supersededBy=later.questionId;gap.status='historico-substituido';} }
       // Recuperação explícita deve apontar para resposta anterior do mesmo concurso/matéria.
@@ -197,7 +243,7 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
         const boundaries=[...new Set([...(history?.boundaries||[]),...events.flatMap(e=>e.learning.boundaries)])];
         const perf={};for(const mode of [...new Set(relevant.map(modes))])perf[mode]=count(relevant.filter(q=>modes(q)===mode));
         const lastDate=last?.date||relevant.at(-1)?.date||history?.date;
-        return {id:unit.id,title:unit.title||titles[0],editalItems:unit.editalItems,knowledge:{coverage:unit.coverage,role:unit.noteRole||'nota-do-recorte-quando-disponivel',noteRefs:unit.noteRefs},exposure:{state:exposure,taughtConcepts:taught,boundaries,sourceRef:history?.evidenceRef||sharedUnit?.historicalExposure?.evidenceRef||null,sharedFrom:shared||null},didacticCompletion:!!complete,editorial,completionDate:closure?.date||(complete?history?.date:null)||null,pending:last?.learning.pending||(!complete?['ensino/fronteiras/avaliação a completar no recorte']:[]),results:perf,requires:unit.requires,sourceIds:unit.sourceIds,recommendedPrerequisites:unit.recommendedPrerequisites||[],retention:{status:retentionObservations.some(o=>o.unitId===unit.id&&o.status==='espacada')?'parcial-por-conceito':'nao-comprovada-para-a-unidade',reviewDueOn:lastDate?addDays(lastDate,1):null},lastEvidenceDate:lastDate||null};
+        return {id:unit.id,title:unit.title||titles[0],...(camara?{part:unit.part}:{}),editalItems:unit.editalItems,knowledge:{coverage:unit.coverage,role:unit.noteRole||'nota-do-recorte-quando-disponivel',noteRefs:unit.noteRefs},exposure:{state:exposure,taughtConcepts:taught,boundaries,sourceRef:history?.evidenceRef||sharedUnit?.historicalExposure?.evidenceRef||null,sharedFrom:shared||null},didacticCompletion:!!complete,editorial,completionDate:closure?.date||(complete?history?.date:null)||null,pending:last?.learning.pending||(!complete?['ensino/fronteiras/avaliação a completar no recorte']:[]),results:perf,requires:unit.requires,sourceIds:unit.sourceIds,recommendedPrerequisites:unit.recommendedPrerequisites||[],retention:{status:retentionObservations.some(o=>o.unitId===unit.id&&o.status==='espacada')?'parcial-por-conceito':'nao-comprovada-para-a-unidade',reviewDueOn:lastDate?addDays(lastDate,camara?3:1):null},lastEvidenceDate:lastDate||null};
       });
       const retrievalTargets=units.flatMap(u=>{const valid=qs.filter(q=>unitOf(q)===u.id&&!['annulled','blank'].includes(q.result));return [...new Map([valid[0],valid.at(-1)].filter(Boolean).map(q=>[q.id,{questionId:q.id,unitId:u.id,conceptId:q.conceptId||q.mechanism,topic:q.subtopic,date:q.date||sources.get(q.sourceId)?.date,theoryRefs:q.theoryRefs?.length?q.theoryRefs:u.knowledge.noteRefs,confidence:q.confidence||'unknown'}])).values()];});
       const currentId=latest?.learning?.next?.unitId||latest?.unitId||subject.legacySourceUnits?.[latest?.id]||units.find(u=>!u.didacticCompletion)?.id||units.at(-1)?.id;
@@ -215,7 +261,7 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
       const refs=[...new Set(subject.units.flatMap(u=>u.noteRefs).map(r=>{const p=resolveArticleRef(root,r).split('#')[0];return p.endsWith('.md')?p:p+'.md';}))];
       if(next.noteRef)next.noteRef=resolveArticleRef(root,next.noteRef);
       const sourceIds=[...new Set(subject.units.flatMap(u=>u.sourceIds))];
-      const context={schemaVersion:2,concursoId:contest.id,subjectId:subject.id,discipline:subject.name,banca:contest.banca,activeExam,format:contest.estruturaProva?.objetiva?.julgamento||'consultar edital',cut,coverage:'Somente evidência registrada deste concurso. Nota disponível não implica exposição; legado pode ser parcial.',priority:{...subject.priority,unitCount:subject.units.length,officialItems:[...new Set(subject.units.flatMap(u=>u.editalItems))].length,weightByPart:Object.fromEntries((plan?.blocks||[]).filter(b=>subject.units.some(u=>u.editalItems.some(i=>i.startsWith(b.id+'.')))).map(b=>[b.id.split('.')[0],b.weight]))},hub:subject.hub||null,state:latest?'em-estudo':units.some(u=>u.exposure.state!=='nao-registrada')?'exposicao-parcial-compartilhada':'nao-iniciada',sourceFingerprint:refFingerprint(root,refs),latestSession:latest?{id:latest.id,date:latest.date,startedAt:latest.startedAt||null,path:latest.sourcePath,diagnosis:latest.qualityNote||null}:null,lastCompletedUnit:closed.at(-1)?.id||null,lastEditoriallyClosedUnit:closed.filter(u=>['consolidado','revisado-sem-alteracao'].includes(u.editorial.status)).at(-1)?.id||null,pendingEditorial,results:modeResults,units,gaps,openDoubts:[...doubts.values()].filter(d=>d.status==='aberta'),pendingReviews:units.filter(u=>u.lastEvidenceDate).map(u=>({unitId:u.id,dueOn:u.retention.reviewDueOn,status:'retencao-da-unidade-nao-testada',rule:'Datas são propostas; comparar com a data atual no chat. Revisão no mesmo dia mede recuperação imediata.'})),recentMechanisms:[...new Set(qs.slice(-24).map(q=>q.mechanism))],sources:Object.fromEntries(sourceIds.map(id=>[id,plan?.sources[id]||{label:'Edital do concurso: conferir recorte e norma indicada',ref:contest.sourcePath}])),resume:next,limits:[]};
+      const context={schemaVersion:2,concursoId:contest.id,subjectId:subject.id,discipline:subject.name,banca:contest.banca,activeExam,format:contest.estruturaProva?.objetiva?.julgamento||'consultar edital',cut,coverage:'Somente evidência registrada deste concurso. Nota disponível não implica exposição; legado pode ser parcial.',priority:{...subject.priority,unitCount:subject.units.length,officialItems:[...new Set(subject.units.flatMap(u=>u.editalItems))].length,weightByPart:Object.fromEntries((plan?.blocks||[]).filter(b=>subject.units.some(u=>u.editalItems.some(i=>i.startsWith(b.id+'.')))).map(b=>[b.id.split('.')[0],b.weight]))},hub:subject.hub||null,state:latest?'em-estudo':units.some(u=>u.exposure.state!=='nao-registrada')?'exposicao-parcial-compartilhada':'nao-iniciada',sourceFingerprint:refFingerprint(root,refs),...(camara?{articleIds:subject.articleIds}:{}),latestSession:latest?{id:latest.id,date:latest.date,startedAt:latest.startedAt||null,path:latest.sourcePath,diagnosis:latest.qualityNote||null}:null,lastCompletedUnit:closed.at(-1)?.id||null,lastEditoriallyClosedUnit:closed.filter(u=>['consolidado','revisado-sem-alteracao'].includes(u.editorial.status)).at(-1)?.id||null,pendingEditorial,results:modeResults,units,gaps,openDoubts:[...doubts.values()].filter(d=>d.status==='aberta'),pendingReviews:units.filter(u=>u.lastEvidenceDate).map(u=>({unitId:u.id,dueOn:u.retention.reviewDueOn,status:'retencao-da-unidade-nao-testada',rule:'Datas são propostas; comparar com a data atual no chat. Revisão no mesmo dia mede recuperação imediata.'})),recentMechanisms:[...new Set(qs.slice(-24).map(q=>q.mechanism))],sources:Object.fromEntries(sourceIds.map(id=>[id,plan?.sources[id]||{label:'Edital do concurso: conferir recorte e norma indicada',ref:contest.sourcePath}])),resume:next,limits:[]};
       if(!plan)context.limits.push('Plano do edital ainda não auditado: inventário de notas, não percurso validado.');
       if(qs.some(q=>!unitOf(q)))context.limits.push('Há itens históricos sem unidade explicitamente mapeada; entram só nas métricas da matéria.');
       if(latest&&!latest.learning)context.limits.push('Último checkpoint legado: exposição/fronteiras usam evidência do hub; o próximo registro deve usar schemaVersion 2.');
@@ -240,6 +286,9 @@ export function buildSubjectContexts(root,ledger,concursos,cut) {
       const latestTime=latest?Date.parse(latest.startedAt||latest.date):0;
       if(latest&&(!contestIndex.resume||latestTime>=contestIndex.resume.time))contestIndex.resume={subjectId:subject.id,path:contextPath,lastSessionId:latest.id,time:latestTime};
     }
+    if (camara) {
+      contestIndex.questionFlow = 'data/questoes-camara.json';
+    }
     index.contests.push(contestIndex);
   }
   outputs.set('data/contexto-estudo/indice.json',JSON.stringify(index,null,2)+'\n');
@@ -249,11 +298,29 @@ export function resolveCommand(index,command,concursoId=null,today=new Intl.Date
   const normalized=normalize(command);const contains=a=>('-'+normalized+'-').includes('-'+normalize(a)+'-');
   const explicit=index.contests.filter(c=>contains(c.concursoId)||contains(c.concursoId.split('-')[0]));
   ok(explicit.length<=1,'Mais de um concurso citado: esclarecer o concurso-alvo.');
-  const defaultId=today>=index.activeDefault.from&&today<=index.activeDefault.through?index.activeDefault.concursoId:today>index.activeDefault.through?index.activeDefault.after:'dataprev-2026';
+  const baseDefault=today>=index.activeDefault.from&&today<=index.activeDefault.through?index.activeDefault.concursoId:today>index.activeDefault.through?index.activeDefault.after:'dataprev-2026';
+  const defaultId=index.activeDefault.overrides?.find(o=>today>=o.from&&today<=o.through)?.concursoId||baseDefault;
   const contest=index.contests.find(c=>c.concursoId===(explicit[0]?.concursoId||concursoId||defaultId));ok(contest,'Concurso sem índice');
   const candidates=contest.subjects.map(subject=>({subject,score:Math.max(0,...[subject.id,subject.name,...subject.aliases].filter(contains).map(a=>normalize(a).length))})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score);
   ok(candidates.length<2||candidates[0].score!==candidates[1].score,'Matérias ambíguas: esclarecer somente o assunto.');
   const item=candidates[0]?.subject||(!candidates.length&&/de-onde-parei|continuar-a-cgu|continuar-cgu/.test(normalized)?contest.subjects.find(s=>s.id===contest.resume?.subjectId):null);
+  if (contest.concursoId === 'camara-2026') {
+    const intent = /simulado/.test(normalized) ? 'simulado' :
+      /revis\w*-.*erros|meus-erros/.test(normalized) ? 'revisao-erros' :
+      /diagnostic/.test(normalized) ? 'diagnostico' :
+      /revis/.test(normalized) ? 'revisao' :
+      /questoes|bateria/.test(normalized) ? (item ? 'estudo' : 'diagnostico') : 'continuar';
+    const size = normalized.match(/(?:^|-)(\d+)-(?:questoes|itens)(?:-|$)/)?.[1];
+    const totalQuestions = intent === 'simulado' ? 180 : Number(size || 10);
+    ok(Number.isSafeInteger(totalQuestions) && totalQuestions > 0, 'Quantidade inválida');
+    const subject = intent === 'simulado' || contains('mista') ? null : item;
+    return {
+      concursoId: contest.concursoId, subjectId: subject?.id || null,
+      path: subject?.path || 'data/contexto-estudo/camara-2026.json',
+      intent, totalQuestions,
+      unitId: contains('processo legislativo') && subject?.id === 'direito-constitucional' ? 'processo-legislativo' : null
+    };
+  }
   ok(item,'Matéria não identificada: pedir somente o nome do assunto, sem exigir IDs.');
   return {concursoId:contest.concursoId,subjectId:item.id,path:item.path,intent:normalized.includes('revisar')?'revisao':'continuar'};
 }

@@ -1,0 +1,247 @@
+{
+  "concursoId": "camara-2026",
+  "cargo": 1,
+  "edital": "https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades",
+  "subjects": {
+    "portugues": {
+      "aliases": [
+        "português"
+      ],
+      "part": "P1",
+      "units": [
+        [
+          "lingua-portuguesa",
+          "Língua Portuguesa",
+          "P1",
+          "14.2.3 / Língua Portuguesa"
+        ]
+      ]
+    },
+    "ingles": {
+      "aliases": [
+        "inglês"
+      ],
+      "part": "P1",
+      "units": [
+        [
+          "lingua-inglesa",
+          "Língua Inglesa",
+          "P1",
+          "14.2.3 / Língua Inglesa"
+        ]
+      ]
+    },
+    "direito-administrativo": {
+      "aliases": [
+        "administrativo"
+      ],
+      "part": "P1",
+      "units": [
+        [
+          "direito-administrativo",
+          "Direito Administrativo",
+          "P1",
+          "14.2.3 / Direito Administrativo e Administração Pública"
+        ]
+      ]
+    },
+    "administracao-publica": {
+      "aliases": [
+        "governança"
+      ],
+      "part": "P1",
+      "units": [
+        [
+          "administracao-publica",
+          "Administração Pública e Governança",
+          "P1",
+          "14.2.3 / Direito Administrativo e Administração Pública"
+        ]
+      ]
+    },
+    "direito-constitucional": {
+      "aliases": [
+        "constitucional",
+        "processo legislativo",
+        "regimento"
+      ],
+      "part": "P1",
+      "units": [
+        [
+          "constitucional-regimentos",
+          "Direito Constitucional e Regimentos",
+          "P1",
+          "14.2.3 / Direito Constitucional e Regimento"
+        ],
+        [
+          "processo-legislativo",
+          "Processo Legislativo e Regimento Interno",
+          "P2",
+          "14.2.4 / Processo Legislativo e Regimento Interno"
+        ]
+      ]
+    },
+    "informatica": {
+      "aliases": [
+        "informática",
+        "tecnologia da informação"
+      ],
+      "part": "P1",
+      "units": [
+        [
+          "tecnologia-e-dados",
+          "Tecnologia da Informação e Dados",
+          "P1",
+          "14.2.3 / Tecnologia da Informação e Dados"
+        ]
+      ]
+    },
+    "comunicacao": {
+      "aliases": [
+        "comunicação",
+        "publicidade",
+        "marketing",
+        "divulgação institucional"
+      ],
+      "part": "P2",
+      "units": [
+        [
+          "comunicacao-social",
+          "Comunicação Social",
+          "P2",
+          "14.2.4 / Comunicação Social"
+        ],
+        [
+          "divulgacao-institucional",
+          "Divulgação Institucional",
+          "P2",
+          "14.2.4 / Divulgação Institucional"
+        ]
+      ]
+    },
+    "estado-democracia": {
+      "aliases": [
+        "ciência política"
+      ],
+      "part": "P2",
+      "units": [
+        [
+          "ciencia-politica",
+          "Ciência Política",
+          "P2",
+          "14.2.4 / Ciência Política"
+        ]
+      ]
+    },
+    "orcamento-publico": {
+      "aliases": [
+        "orçamento",
+        "orçamento público"
+      ],
+      "part": "P2",
+      "units": [
+        [
+          "processo-orcamentario",
+          "Processo Legislativo Orçamentário",
+          "P2",
+          "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7"
+        ]
+      ]
+    },
+    "etica-publica": {
+      "aliases": [
+        "ética",
+        "decoro parlamentar"
+      ],
+      "part": "P2",
+      "units": [
+        [
+          "decoro-parlamentar",
+          "Decoro Parlamentar",
+          "P2",
+          "14.2.4 / Processo Legislativo e Regimento Interno / 7"
+        ],
+        [
+          "etica-na-comunicacao",
+          "Ética na Comunicação",
+          "P2",
+          "14.2.4 / Divulgação Institucional / 6"
+        ]
+      ]
+    },
+    "redacao": {
+      "aliases": [
+        "discursiva",
+        "peça técnica"
+      ],
+      "part": null,
+      "units": [
+        [
+          "discursiva",
+          "Prova Discursiva",
+          null,
+          "Prova discursiva"
+        ]
+      ]
+    }
+  },
+  "corpus": [
+    {
+      "id": "stj-2024-comunicacao",
+      "caderno": "018_STJ_006_01",
+      "pdf": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/018_STJ_006_01.PDF",
+      "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/stj_24/arquivos/GAB_DEFINITIVO_018_STJ_006_01.PDF",
+      "comparar": [
+        57,
+        59,
+        60,
+        65,
+        66
+      ]
+    },
+    {
+      "id": "pf-2025-comunicacao",
+      "caderno": "094_PF_014_01",
+      "pdf": "https://cdn.cebraspe.org.br/concursos/PF_25_ADM/arquivos/094_PF_014_01.pdf",
+      "gabaritoDefinitivo": "https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/Gab_Definitivo_094_PF_014_01.pdf",
+      "comparar": [
+        55,
+        56
+      ]
+    }
+  ],
+  "pilotoDidatico": [
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "inferencia-versus-extrapolacao",
+      "mechanism": "atribuir-causa-sem-evidencia",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "statement": "Uma nota registra que a audiência foi transferida para quinta-feira após a publicação de uma nova pauta. Com base apenas nessa nota, é possível concluir que a publicação da pauta motivou a transferência.",
+      "correctAnswer": "E",
+      "explanation": "A palavra “após” estabelece uma sequência temporal. O texto precisaria fornecer outro indício para sustentar que a publicação da pauta foi a causa da transferência."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "conceptId": "lei-complementar-quorum",
+      "mechanism": "presenca-versus-votos",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Lei ordinária × lei complementar"
+      ],
+      "statement": "Em sessão da Câmara com 301 deputados presentes, um projeto de lei complementar recebeu 256 votos favoráveis e 45 contrários. Se apenas um dos deputados que votaram contra mudar seu voto para favorável, o projeto atingirá o quórum constitucional de aprovação.",
+      "correctAnswer": "C",
+      "explanation": "O art. 69 da Constituição exige maioria absoluta. Dos 513 deputados, são necessários 257 votos favoráveis. Alterar um voto eleva o total de 256 para 257."
+    }
+  ]
+}

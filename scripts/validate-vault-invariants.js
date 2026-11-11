@@ -7,6 +7,8 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
+// O repositório público não contém campos nem arquivos pessoais migrados para o cofre.
+const publicOnly = process.argv.includes('--public-only');
 
 let errors = 0;
 let warnings = 0;
@@ -82,17 +84,23 @@ const ids = new Set();
 for (const item of editalItens) {
   if (ids.has(item.id)) fail(`ID duplicado em edital-itens.json: ${item.id}`);
   ids.add(item.id);
+  if (publicOnly) {
+    // Dados de acompanhamento individual foram excluídos do catálogo público.
+    if (!item.concursoId) fail(`${item.id}: concursoId ausente no cadastro público.`);
+    continue;
+  }
   if (!coberturasValidas.has(item.coberturaNota)) fail(`${item.id}: coberturaNota inválida/ausente (${item.coberturaNota}).`);
   if (item.coberturaNota === 'ausente' && item.notaPath) fail(`${item.id}: cobertura ausente não pode possuir notaPath.`);
   if (item.coberturaNota !== 'ausente' && !item.notaPath) fail(`${item.id}: cobertura ${item.coberturaNota} exige notaPath.`);
   if (item.notaPath && !exists(item.notaPath)) fail(`${item.id}: notaPath inexistente: ${item.notaPath}`);
   if (typeof item.exposicaoEstudo !== 'boolean') fail(`${item.id}: exposicaoEstudo deve ser booleano.`);
 }
-if (errors === 0) ok(`${editalItens.length} itens de edital possuem semântica de cobertura consistente.`);
+if (errors === 0) ok(publicOnly ? `${editalItens.length} IDs únicos de edital; campos privados de acompanhamento não exigidos.` : `${editalItens.length} itens de edital possuem semântica de cobertura consistente.`);
 
 console.log('\n=== INVARIANTE 4: LEDGER DE INGESTÃO ===');
 const ledgerPath = 'data/ingestoes-processadas.json';
-if (!exists(ledgerPath)) fail(`${ledgerPath} não existe.`);
+if (publicOnly) ok('Ledger de ingestão privado: verificação reservada à consolidação do cofre.');
+else if (!exists(ledgerPath)) fail(`${ledgerPath} não existe.`);
 else {
   const ledger = JSON.parse(read(ledgerPath));
   if (!Array.isArray(ledger)) fail(`${ledgerPath} deve ser um array.`);
@@ -141,13 +149,16 @@ const faltantes = [];
 const counts = new Map();
 for (const target of linksLocais) {
   const candidates = [target, `${target}.md`];
-  if (!candidates.some(exists)) faltantes.push(target);
+  const missing = !candidates.some(exists);
+  const privateTarget = target.startsWith('00 - Desempenho/') || /^3 - Materias\/[^/]+\/Avancos$/.test(target);
+  // Links antigos podem apontar para relatórios privados: não exigimos publicá-los.
+  if (missing && !(publicOnly && privateTarget)) faltantes.push(target);
   counts.set(target, (counts.get(target) || 0) + 1);
 }
 const duplicados = [...counts.entries()].filter(([, count]) => count > 1);
 if (faltantes.length > 0) for (const target of [...new Set(faltantes)]) fail(`Wikilink do index aponta para alvo inexistente: ${target}`);
 if (duplicados.length > 0) for (const [target, count] of duplicados) fail(`Wikilink duplicado no index (${count}x): ${target}`);
-if (faltantes.length === 0 && duplicados.length === 0) ok(`${linksLocais.length} wikilink(s) com caminho resolvem e são únicos no index.`);
+if (faltantes.length === 0 && duplicados.length === 0) ok(publicOnly ? 'Wikilinks públicos válidos; destinos privados conhecidos não exigidos na biblioteca pública.' : `${linksLocais.length} wikilink(s) com caminho resolvem e são únicos no index.`);
 
 console.log('\n=== INVARIANTE 7: HIGIENE DE WORKFLOWS ===');
 const workflowsDir = path.join(rootDir, '.github/workflows');

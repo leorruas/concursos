@@ -5,7 +5,7 @@ title: "Discussão, votação, quóruns e modalidades de decisão na Câmara"
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-11
 aliases:
   - "Quóruns de presença e deliberação"
   - "Maioria simples, absoluta e qualificada"
@@ -59,6 +59,8 @@ O **art. 165 do RICD** define discussão como fase dos trabalhos destinada ao **
 
 **Adiamento da discussão, art. 177:** antes de iniciada a discussão, admite-se requerimento de **Líder, autor ou relator**, nos prazos regimentais de **uma sessão (urgência), três (prioridade), cinco (ordinária ou PEC)**, observadas condições específicas. Para urgência, o requerimento precisa da subscrição prevista no § 1º: **um décimo dos membros** ou Líderes que representem esse número. Um segundo adiamento depende da condição restrita do § 3º. Adiar discussão **não é o mesmo** que suspender votação iniciada nem que rejeitar a proposição.
 
+**Restrição após encerramento, art. 178, § 4º:** aprovado requerimento de encerramento da discussão, **fica impedido ou prejudicado, na mesma sessão, o requerimento de adiamento da votação**, salvo se o **Relator reformular o parecer para promover alterações de mérito**. Essa hipótese não deve ser confundida com toda modalidade de encerramento da discussão.
+
 **Emendas apresentadas durante a discussão:** o **art. 179** prevê encaminhamento às comissões que devam apreciar emendas após encerrada a discussão do projeto, observado o regime específico. Portanto, “discussão encerrada” **não implica automaticamente votação imediata de texto recém-emendado sem as providências necessárias**.
 
 ## Modalidades de votação: simbólica, nominal e secreta
@@ -74,6 +76,8 @@ O **art. 184 do RICD** distingue **votação ostensiva**, que pode adotar proces
 **Simbólica é a regra em geral**, com controle específico quando haja dúvida quanto ao resultado. O art. **186** prevê votação **nominal** nos casos de quórum especial, quando necessária a juízo do Presidente, por deliberação do Plenário sobre requerimento e quando houver verificação de votação válida. O art. **187** determina lista de resultado eletrônico, com identificação individual das escolhas e abstenções, salvo procedimento por chamada quando o sistema não estiver funcionando, observadas hipóteses específicas.
 
 **Votação secreta é excepcional.** O **art. 188** prevê hipóteses como **eleições da Mesa Diretora** e outras situações previstas, mas também apresenta **matérias vedadas ao escrutínio secreto** no § 2º. A competência para escolher processo de votação não pode afastar normas constitucionais de publicidade ou proibições expressas. **Secreto ≠ ausência de resultado**, apenas não divulgação da escolha individual nas hipóteses admitidas.
+
+**Voto e interesse próprio, art. 180, §§ 5º a 8º:** se o Presidente se abstiver de desempatar, **o substituto regimental o fará** (§ 5º); deputado que delibera sobre **causa própria ou assunto de interesse individual** deve declarar-se impedido à Mesa, com seu voto considerado **em branco apenas para quórum** (§ 6º). Divergência entre o voto de deputado e a orientação de sua Liderança **não invalida o voto** (§ 7º). Na deliberação sobre sanção disciplinar por conduta atentatória ou incompatível com decoro, **não se acolhe o voto do deputado representado** (§ 8º). Impedimento por interesse próprio, orientação partidária e regra disciplinar são situações distintas.
 
 **Votação ostensiva em empate:** pelo **art. 180, § 3º**, cabe ao **Presidente da Câmara desempatar**, enquanto em **escrutínio secreto** realizam-se **novas votações sucessivas** até o desempate, ressalvados casos próprios como eleições. Não confundir essa regra do Plenário com o **art. 56, § 2º**, sobre desempate pelo **voto do relator nas comissões**.
 
@@ -104,7 +108,7 @@ O requerimento de quebra do interstício de uma hora é **oral**, após a procla
 
 **Destaque para votação em separado (DVS):** pelo **art. 162, VI**, vota-se **primeiro a matéria principal** e, depois, a **matéria destacada**, que **somente integrará** o texto se for aprovada. O comando que diz que uma parcela do texto é destacada “para ser excluída automaticamente” inverte a lógica de apreciação do destaque.
 
-**Art. 192:** o **encaminhamento de votação** pode ocorrer antes da decisão, nas condições regimentais, com regra geral de **três minutos por orador**, **até dois favoráveis e dois contrários**, sem confundir encaminhamento com a etapa ampla de **discussão**. A orientação de cada Líder à bancada tem prazo próprio de **até um minuto**. A existência de encaminhamento **não muda a espécie normativa nem seu quórum de aprovação**.
+**Art. 192:** o **encaminhamento de votação** pode ocorrer antes da decisão, nas condições regimentais, com regra geral de **três minutos por orador**, **até dois favoráveis e dois contrários**, sem confundir encaminhamento com a etapa ampla de **discussão**. A orientação de cada Líder à bancada tem prazo próprio de **até um minuto**. O **§ 2º-A** esclarece que a orientação de bancada **não prejudica o início da votação nominal**; o **§ 7º** limita o encaminhamento de **destaque do art. 161** a **um orador favorável e um contrário**; e o **§ 8º** afasta encaminhamento para **eleições**, limitando-o, em requerimentos quando cabível, ao signatário e a um orador contrário. A existência de encaminhamento **não muda a espécie normativa nem seu quórum de aprovação**.
 
 ## Caso progressivo: mesma sessão, sete conclusões diferentes
 
@@ -206,3 +210,14 @@ Apresentar o **art. 47** como regra de deliberação, distinguir **presença e a
 - [Guia da Câmara: Votação, quóruns, modos de votação e apreciação plenária](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/votacao).
 
 **Limites editoriais:** este texto descreve o regime normativo geral da Câmara e exceções identificadas, não transfere as mesmas regras para sessão conjunta do Congresso, assembleias estaduais ou ritos especiais. As questões são **inéditas e didáticas**, não itens extraídos da Cebraspe. A preparação editorial não registra estudo pessoal, retenção ou desempenho.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Recorte:** texto, tabelas, **oito etapas do caso progressivo**, **dois exemplos comentados** e **nove itens C/E** efetivamente presentes no DC16, cotejados com a [Constituição Federal, arts. 47, 51, 60 e 69](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) e o [Regimento da Câmara, especialmente arts. 165–200](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferidos quórum de presença versus aprovação, abstenções, maioria simples/absoluta/qualificada, discussão, modalidade simbólica/nominal/secreta, verificação e quebra de interstício, substitutivos e destaques.
+
+**NC-PL-041:** adicionado RICD art. 178, § 4º: efeito do encerramento **por requerimento aprovado** sobre adiamento de votação na mesma sessão, ressalvada reformulação de parecer pelo relator com alteração de mérito. **NC-PL-042:** adicionados RICD art. 180, §§ 5º–8º, com desempate por substituto regimental, impedimento em causa própria, validade do voto divergente da liderança e exclusão do voto do representado no julgamento disciplinar. **NC-PL-043:** detalhado art. 192, §§ 2º-A, 7º e 8º, sobre orientação concomitante à votação nominal, encaminhamento de destaque e ausência de encaminhamento em eleições.
+
+**Gabaritos conferidos e preservados, nove itens:** **C, E, C, C, E, E, C, E, C**. Nenhuma inversão encontrada nas questões verificadas nem contradição identificada nos oito casos. A unidade possui **nove questões**, não dez; nenhuma questão foi criada ou adicionada ao inventário, cuja reconciliação global é independente desta nota.
+
+**Limites:** certificação jurídico-editorial apenas do recorte escrito e cotejado em 11/11/2026. Não equivale a certificação irrestrita de todos os dispositivos dos arts. 165–200, verificação do site, publicação no GitHub Pages ou domínio do conteúdo pelo estudante.

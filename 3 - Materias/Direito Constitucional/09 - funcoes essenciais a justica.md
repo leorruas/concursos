@@ -5,7 +5,7 @@ title: "Funções essenciais à Justiça"
 type: "conceito"
 status: "ativo"
 created: 2026-06-12
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 
 # Funções essenciais à Justiça
@@ -34,6 +34,20 @@ O art. 127, §1º, estabelece:
 
 O Ministério Público possui **autonomia funcional e administrativa** e elabora sua proposta orçamentária nos limites da lei de diretrizes orçamentárias.
 
+### Ramos, chefias e garantias
+
+O **art. 128, I e II**, divide o MP em **Ministério Público da União**, composto por **MP Federal, MP do Trabalho, MP Militar e MP do Distrito Federal e Territórios**, e **Ministérios Públicos dos Estados**. **O MPDFT integra o MPU**, não o grupo dos MPs estaduais. O MPU é chefiado pelo **Procurador-Geral da República**, nomeado pelo Presidente entre integrantes da carreira **maiores de 35 anos**, após aprovação por **maioria absoluta do Senado**, para mandato de **dois anos**, admitida **recondução** (art. 128, § 1º). Para MPs dos Estados e MPDFT, há **lista tríplice**, nomeação pelo Chefe do Executivo, mandato de **dois anos** e **uma recondução** (art. 128, § 3º).
+
+As garantias dos membros do MP incluem **vitaliciedade após dois anos**, **inamovibilidade** com exceção constitucional por interesse público e deliberação colegiada por maioria absoluta com ampla defesa, e **irredutibilidade de subsídios**, observadas as ressalvas constitucionais (art. 128, § 5º, I). Entre as **vedações** estão exercer advocacia, receber honorários ou custas processuais e exercer atividade político-partidária, além das demais vedações do art. 128, § 5º, II. **Garantias e vedações não se confundem com autonomia administrativa da instituição**.
+
+### Funções institucionais e limites
+
+O **art. 129** atribui ao MP, entre outras funções, **promover privativamente a ação penal pública**, promover **inquérito civil e ação civil pública**, defender judicialmente direitos e interesses das populações indígenas, requisitar diligências, exercer controle externo da atividade policial e zelar pela observância de direitos constitucionais pelos serviços de relevância pública. O **inciso IX veda expressamente ao MP a representação judicial e a consultoria jurídica de entidades públicas**: essa é a fronteira funcional com a Advocacia Pública. A legitimação do MP para ações civis **não exclui** legitimados terceiros (art. 129, § 1º). O ingresso na carreira requer **concurso de provas e títulos**, bacharelado em Direito e **três anos de atividade jurídica**, com participação da OAB no certame (art. 129, § 3º).
+
+### Controle pelo CNMP
+
+O **Conselho Nacional do Ministério Público (CNMP)** possui **14 membros**, nomeados pelo Presidente após aprovação por **maioria absoluta do Senado**, para mandato de **dois anos**, admitida **uma recondução**. É presidido pelo **PGR** e inclui representantes do MPU, MPs estaduais, Judiciário, advocacia e cidadãos indicados pela Câmara e pelo Senado (art. 130-A). Exerce **controle administrativo e financeiro do MP e fiscalização dos deveres funcionais**, inclusive revisão disciplinar nos limites constitucionais; **não substitui o convencimento jurídico de cada membro do MP no exercício de sua independência funcional**. O **Ministério Público junto aos Tribunais de Contas**, referido no art. 130, possui disciplina constitucional específica quanto aos membros e não se deve confundir com um quinto ramo do MPU.
+
 ## Advocacia Pública — arts. 131 e 132
 
 A Advocacia-Geral da União representa a **União**, judicial e extrajudicialmente, e exerce atividades de consultoria e assessoramento jurídico do Poder Executivo nos termos constitucionais e legais.
@@ -43,6 +57,10 @@ Nos Estados e no Distrito Federal, os Procuradores exercem representação judic
 Pegadinha: Advocacia Pública **não é Ministério Público do Estado** e não possui a missão constitucional de defesa geral da sociedade. Sua função institucional central é a representação e consultoria jurídica do ente público correspondente.
 
 Também não é correto estender automaticamente à Advocacia Pública toda a autonomia constitucional prevista para Ministério Público ou Defensoria Pública.
+
+**AGU, direção e dívida ativa:** o **Advogado-Geral da União** é de **livre nomeação pelo Presidente da República**, dentre cidadãos **maiores de 35 anos**, de **notável saber jurídico e reputação ilibada** (art. 131, § 1º). A entrada nas classes iniciais das carreiras da AGU exige **concurso público de provas e títulos** (§ 2º). Na **execução da dívida ativa de natureza tributária**, a representação da União cabe à **Procuradoria-Geral da Fazenda Nacional**, na forma da lei (§ 3º).
+
+**Procuradores dos Estados e do DF:** o art. 132 exige **carreira e concurso de provas e títulos com participação da OAB em todas as fases** para a representação judicial e a consultoria jurídica dos respectivos entes. O parágrafo único assegura **estabilidade após três anos de efetivo exercício**, com avaliação de desempenho e relatório circunstanciado das corregedorias. A estabilidade prevista para essas carreiras não deve ser trocada pela vitaliciedade dos membros do MP.
 
 ## Advocacia — art. 133
 
@@ -55,6 +73,8 @@ Pegadinha: “inviolável” não significa imunidade absoluta para qualquer con
 A Defensoria Pública é instituição permanente, essencial à função jurisdicional do Estado, responsável pela orientação jurídica, promoção dos direitos humanos e defesa judicial e extrajudicial, individual e coletiva, **integral e gratuita, aos necessitados**, na forma constitucional.
 
 A Constituição assegura à Defensoria autonomia funcional e administrativa e iniciativa de sua proposta orçamentária nos limites constitucionais aplicáveis.
+
+O **art. 134, § 4º**, estabelece expressamente para a Defensoria **unidade, indivisibilidade e independência funcional**, além de remissões constitucionais aplicáveis. A Defensoria da União, dos Estados e do Distrito Federal possui autonomia funcional e administrativa e iniciativa de proposta orçamentária nos limites dos §§ 2º e 3º. O **§ 1º** assegura aos defensores **inamovibilidade** e **veda advocacia fora das atribuições institucionais**, com organização por lei complementar e ingresso nas carreiras por concurso de provas e títulos. **A autonomia da Defensoria não a converte em órgão integrante do Judiciário**.
 
 A Defensoria não se limita à defesa criminal. Atua também em matéria civil, família, saúde, moradia, consumidor e tutela coletiva, conforme sua competência.
 
@@ -109,3 +129,14 @@ A independência dessas funções conecta-se a [[3 - Materias/Direito Constituci
 
 - Constituição Federal, arts. 127 a 135.
 - [[00 inbox/12-06-2026|Inbox de 12/06/2026]].
+
+
+## Certificação normativa delimitada e lacuna pedagógica: 11/11/2026
+
+**Recorte:** conferidos o conteúdo original e as ampliações sobre MP, AGU, advocacia e Defensoria, confrontados com a [Constituição Federal atualizada, arts. 127–135](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). O núcleo prévio das quatro funções estava coerente, mas faltavam regras de literalidade e distinção institucional relevantes.
+
+**NC-PL-058:** complementados os **arts. 128–130-A**, com ramos do MPU e MP estadual, chefias e reconduções, garantias e vedações dos membros, funções e limites do MP, e competências e composição do CNMP. **NC-PL-059:** acrescentados **arts. 131, §§ 1º–3º, e 132**, com direção da AGU, PGFN e requisitos/estabilidade dos procuradores estaduais e distritais. **NC-PL-060:** incorporado o **art. 134, §§ 1º–4º**, com garantias, autonomias e os três princípios da Defensoria, sem transferir automaticamente regras de uma instituição à outra.
+
+**Lacuna editorial objetiva:** **zero questões C/E e zero casos progressivos** no DC09 original. Não houve gabaritos a revisar, nem foi criado ou contabilizado qualquer exercício, para preservar a identidade e a rastreabilidade do inventário histórico. A certificação é **normativa do texto ampliado, com ressalva pedagógica expressa**; a preparação para itens Cebraspe e aplicação a casos concretos exigirá complemento próprio caso o planejamento da matéria o determine.
+
+**Limites:** certificação jurídico-editorial do recorte constitucional em 11/11/2026, sem pretensão de esgotar as leis orgânicas de cada carreira, jurisprudência específica, aprendizagem do estudante, teste visual ou confirmação de publicação no GitHub Pages.

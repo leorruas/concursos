@@ -5,7 +5,7 @@ title: "Marketing digital: canais, jornadas e integração"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Marketing digital: canais, jornadas e integração
@@ -125,6 +125,18 @@ A **Lei Geral de Proteção de Dados Pessoais (LGPD, Lei nº 13.709/2018)** exig
 **Item 3.** A segmentação digital de públicos e o uso de dados de navegação dispensam exame de finalidade e base legal quando a comunicação provém de órgão público e o conteúdo é educativo.
 
 **Errado.** A finalidade pública e o caráter educativo não afastam, por si, obrigações da LGPD. **Mecanismo do erro:** transformar condição favorável em exceção jurídica geral.
+
+## Auditoria normativa: canais integrados e tratamento de dados no setor público (11/11/2026)
+
+A distinção entre **multicanal**, **cross-channel** e **omnichannel** nesta nota é uma **taxonomia editorial de práticas**, variável entre autores. A presença de portal, aplicativo e redes sociais demonstra múltiplos pontos de contato, mas a **continuidade do contexto**, como identificação da etapa em que o usuário parou, depende de integração de processos e sistemas. A publicação em canais diferentes, mesmo simultânea, não prova jornada contínua nem conclusão bem-sucedida da tarefa pública. **Item 1 preexistente: Errado**, por equivalência indevida entre multiplicidade e integração; o julgamento é conceitual e não pretende ser transcrição de norma técnica única.
+
+**Item 2: Certo**, pois clique em chamada pode ser evento de microconversão definido pelo estudo e é distinto de inscrição validada ou tarefa finalizada. **Item 3: Errado, com apoio normativo direto:** o [guia da ANPD sobre tratamento pelo Poder Público](https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia_orientativo_tratamento_de_dados_pessoais_pelo_poder_publico) e a [explicação oficial sobre finalidade no tratamento de dados públicos](https://www.gov.br/mdr/pt-br/acesso-a-informacao/perguntas-frequentes/perguntas-e-respostas-frequentes-sobre-lgpd/quais-sao-as-regras-para) estabelecem que a finalidade de interesse público deve ser legítima, específica, explícita e informada, vinculada às competências e bases legais pertinentes. Conteúdo educativo não dispensa automaticamente LGPD, necessidade ou prestação de informações ao titular.
+
+**Exemplo aplicado:** divulgar o prazo de uma audiência em redes sociais e direcionar o cidadão ao portal é distribuição multicanal. Se o usuário inicia um formulário no portal e pode retomá-lo por outro canal com estado, regras e informação consistentes, existe evidência de integração da jornada. Para registrar o progresso individual, examinar previamente **necessidade do dado, finalidade, base legal, segurança e retenção**: uma solução de continuidade também pode criar riscos de privacidade.
+
+**C/E inédito:** “A existência de finalidade educativa na comunicação de um órgão público dispensa identificação de base legal e informação sobre o tratamento de dados pessoais usados para personalização de mensagens.” **Errado.** Finalidade pública não é dispensa genérica de obrigações de proteção de dados.
+
+**Limite:** esta conferência é direta quanto à exigência geral de finalidade e base legal; a caracterização de omnicanal foi confrontada em consistência com os exemplos da nota, não com uma taxonomia única oficial. O artigo permanece sem auditoria completa de integrações tecnológicas concretas.
 
 ## Relações com outros temas
 

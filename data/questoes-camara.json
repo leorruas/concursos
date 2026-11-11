@@ -4418,6 +4418,134 @@
       "statement": "Publicar uma política que exige revisão periódica de permissões demonstra, por si só, que todas as permissões já foram revisadas.",
       "correctAnswer": "E",
       "explanation": "A política estabelece a obrigação. A execução precisa ser comprovada por evidências como registros de revisão e alterações efetuadas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / correio eletrônico",
+      "conceptId": "webmail",
+      "mechanism": "identificar-interface-de-acesso",
+      "theoryRefs": [
+        "article:art-d18ded18a3b3f763#1. Webmail versus Cliente de E-mail Local (MUA)"
+      ],
+      "statement": "Uma servidora consulta a caixa institucional pelo navegador, na página do provedor, sem abrir um aplicativo de correio dedicado. Esse acesso é um exemplo de uso de webmail.",
+      "correctAnswer": "C",
+      "explanation": "Webmail é a interface de correio acessada pelo navegador. A classificação decorre da forma de acesso descrita."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / correio eletrônico",
+      "conceptId": "correio-offline",
+      "mechanism": "confundir-cache-com-novas-mensagens",
+      "theoryRefs": [
+        "article:art-d18ded18a3b3f763#1. Webmail versus Cliente de E-mail Local (MUA)"
+      ],
+      "statement": "Um cliente de correio pode mostrar mensagens previamente baixadas enquanto está desconectado. Essa capacidade significa que a caixa também recebe as mensagens novas do servidor durante o período sem conexão.",
+      "correctAnswer": "E",
+      "explanation": "A cópia local permite ler o que já foi baixado. Receber mensagens novas do servidor exige comunicação com ele."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / correio eletrônico",
+      "conceptId": "copia-oculta",
+      "mechanism": "avaliar-visibilidade-dos-destinatarios",
+      "theoryRefs": [
+        "article:art-d18ded18a3b3f763#2. Anatomia dos campos de cabeçalho: Para, Cc e Cco (Bcc)"
+      ],
+      "statement": "Ao enviar um aviso com os endereços dos inscritos no campo Cco, o remetente evita que cada inscrito receba no cabeçalho a lista completa de endereços desse campo.",
+      "correctAnswer": "C",
+      "explanation": "Cco permite entregar cópias sem revelar aos destinatários a lista de endereços inseridos nesse campo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / correio eletrônico",
+      "conceptId": "copia-visivel",
+      "mechanism": "confundir-copia-com-ocultacao",
+      "theoryRefs": [
+        "article:art-d18ded18a3b3f763#2. Anatomia dos campos de cabeçalho: Para, Cc e Cco (Bcc)"
+      ],
+      "statement": "Ao transferir um destinatário do campo Para para Cc, o remetente torna seu endereço oculto para os demais destinatários da mensagem.",
+      "correctAnswer": "E",
+      "explanation": "Cc é cópia visível. A transferência altera o papel indicado no cabeçalho, mas o endereço continua visível."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / correio eletrônico",
+      "conceptId": "responder-a-todos",
+      "mechanism": "avaliar-alcance-da-resposta",
+      "theoryRefs": [
+        "article:art-d18ded18a3b3f763#3. Dinâmica das ações: Responder, Responder a Todos e Encaminhar"
+      ],
+      "statement": "Uma mensagem tem um remetente e três destinatários visíveis. Se um deles precisa responder somente ao remetente, a ação “Responder” é mais adequada que “Responder a todos”, desde que confira o endereço selecionado pelo cliente.",
+      "correctAnswer": "C",
+      "explanation": "Responder usa o endereço de resposta configurado. Responder a todos pode incluir os demais destinatários visíveis."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / correio eletrônico",
+      "conceptId": "encaminhamento",
+      "mechanism": "confundir-encaminhar-com-responder",
+      "theoryRefs": [
+        "article:art-d18ded18a3b3f763#3. Dinâmica das ações: Responder, Responder a Todos e Encaminhar"
+      ],
+      "statement": "Ao encaminhar uma mensagem a uma pessoa que não estava na conversa, é necessário incluir também o remetente original como destinatário do encaminhamento.",
+      "correctAnswer": "E",
+      "explanation": "Encaminhar permite selecionar novos destinatários. O remetente original pode constar no conteúdo encaminhado sem receber a nova mensagem."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / correio eletrônico",
+      "conceptId": "anexo-e-link",
+      "mechanism": "distinguir-copia-de-referencia",
+      "theoryRefs": [
+        "article:art-d18ded18a3b3f763#4. Anexos (*Attachments*): limites, formatos e segurança"
+      ],
+      "statement": "Se um e-mail contém apenas um link para um arquivo com acesso restrito e nenhum anexo, o recebimento do e-mail não garante permissão para abrir o arquivo.",
+      "correctAnswer": "C",
+      "explanation": "A entrega da mensagem dá acesso ao endereço do recurso. A abertura do arquivo ainda depende das permissões no serviço que o hospeda."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / correio eletrônico",
+      "conceptId": "anexo-e-link",
+      "mechanism": "confundir-alteracao-da-origem-com-atualizacao-da-copia",
+      "theoryRefs": [
+        "article:art-d18ded18a3b3f763#4. Anexos (*Attachments*): limites, formatos e segurança"
+      ],
+      "statement": "Uma equipe envia um PDF como anexo e depois substitui o arquivo em seu próprio computador. O anexo na mensagem já entregue é atualizado automaticamente.",
+      "correctAnswer": "E",
+      "explanation": "O anexo enviado é uma cópia do arquivo no momento do envio. Substituir o original local não altera a cópia entregue."
     }
   ]
 }

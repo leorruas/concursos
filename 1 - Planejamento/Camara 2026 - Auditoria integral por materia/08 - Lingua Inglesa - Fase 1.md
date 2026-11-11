@@ -341,3 +341,53 @@ A página seguinte do caderno `101_IRBRCACDOBJ_002_01` foi conferida visualmente
 | Gate para iniciar reparos | **Pendente de autorização ou mudança explícita de etapa** | Este documento não concede autorização para alterar artigos, gabaritos, IDs ou catálogo |
 
 **Decisão de estado:** Fase 1 possui **diagnóstico suficientemente estruturado para planejamento de reparos**, mas **não será rotulada como matéria concluída ou material certificado**, porque a condição de correção e transferência de leitura ainda não foi satisfeita. O backlog de Fase 2 permanece restrito à proposta. Total histórico de IDs `ING-001` a `ING-054` abrange riscos, hipóteses, lacunas, confirmações e melhorias, **não 54 erros comprovados**. Próxima tarefa, ainda em Fase 1 se necessário: exame de amostra adicional de itens autorais potencialmente ambíguos com segundo leitor, sem confundir validação parcial com certificação total. **Nenhum artigo teórico, item C/E, gabarito, hub, ID ou catálogo alterado.**
+
+
+## 17. Checkpoint 10: adjudicação dirigida de 30 exercícios autorais C/E, artigos 07, 10, 15, 17 e 18 (11/11/2026)
+
+**Método e corpus efetivamente relidos:** textos integrais de `07 - como localizar assunto tese e proposito em textos em ingles.md` (202 linhas, SHA `abe93ec3d7eb365c7cf249271b7af44e4b161011`), `10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md` (234 linhas, `46808d5213c081a434d8804bbce35f7da90fc2dc`), `15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md` (209 linhas, `6c9dd9093dea2d093154e4bb6728e5e52a7f4aa8`), `17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md` (203 linhas, `35e43869b2c6cea70c827654d589f53ae41bd655`) e `18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md` (203 linhas, `f60b036ad007efca419f6a06d978f89511efffe0`). Para 07, confrontado excerto da seção 7 com o texto-base estudado na auditoria anterior; para 10/15/17/18, enunciados, excertos, respostas e comentários cotejados diretamente na seção de questões. **30 questões inéditas, seis por arquivo.** Aqui, **M** significa gabarito provisoriamente sustentado no microcontexto e comentário nuclear aceitável; **R** significa gabarito provisoriamente mantido com ressalva material de formulação/comentário; **S** significa suspender o uso por ambiguidade ou defeito mais severo. Essa classificação é só do diagnóstico e não homologa o banco.
+
+| Artigo e item | Gabarito no arquivo | Classe | Fundamentação localizada |
+| --- | --- | --- | --- |
+| 07#1 | E | M | Não há defesa de retorno à comunicação exclusivamente televisiva; texto favorece modernização com governança |
+| 07#2 | E | M | `proponents argue` não é comprovação do autor; `curb` não equivale a eliminar por completo |
+| 07#3 | C | M | `However` introduz mudança para riscos e contrapesos na progressão textual |
+| 07#4 | C | M | Governança e salvaguardas refletem fechamento da tese sobre modernização digital |
+| 07#5 | E | M | `no longer suffice` é premissa, não tese inteira, e parágrafos seguintes não são manuais de TV |
+| 07#6 | C | M | Avaliação equilibrada compatível com reconhecimento de benefícios e discussão posterior dos riscos |
+| 10#1 | E | M | `although` expressa concessão, não condição necessária de elaboração |
+| 10#2 | E | M | `furthermore` é advérbio conector; `in addition to` exige complemento, sem substituição literal simples |
+| 10#3 | C | M | `while` contrasta dever de transparência e restrição por privacidade |
+| 10#4 | C | M | `due to` e `because of` ambos introduzem causa com sintagma nominal no caso dado |
+| 10#5 | E | M | Trocar `unless` por `if` sem negação troca a condição |
+| 10#6 | E | M | `despite` é concessivo e não atribui causalidade direta aos cortes |
+| 15#1 | E | R | `should have conducted` normalmente sugere avaliação ideal não realizada: é leitura defensável **aqui**, porém o comentário diz que sempre “não foi cumprida”, generalização não universal. [Cambridge, `Should`](https://dictionary.cambridge.org/grammar/british-grammar/should) documenta uso de expectativa/probabilidade em outros contextos. A afirmação de realização “successfully” tampouco é sustentada pelo excerto |
+| 15#2 | E | M | `may not restrict` é proibição, não incapacidade física de processar documentos |
+| 15#3 | C | R | `must have secured` expressa dedução epistêmica forte feita pelo enunciador, mas não a transforma em prova histórica de acordo fechado; comentário deve limitar `fato incontroverso` ao registro de zero votos contrários |
+| 15#4 | E | M | `might` é compatível com possibilidade, não garantia categórica |
+| 15#5 | C | R | `shall` em dispositivo numerado apresenta imposição normativa plausível, mas “operador canônico” e “obrigação indeclinável” são absolutos indevidos no comentário, já documentados em ING-054 |
+| 15#6 | E | M | `could not have known` contextualiza impossibilidade de conhecer o anexo antes do recebimento, não proibição jurídica |
+| 17#1 | C | M | `although` e `despite facing` preservam concessão e agente |
+| 17#2 | E | M | A reescrita inverte direção entre vazamento e indignação |
+| 17#3 | C | M | `abide by` e `comply with` mantêm valor de cumprimento e `must` |
+| 17#4 | E | M | `may reduce` foi reforçado para `will definitely eliminate`, alterando modalidade e escopo |
+| 17#5 | C | M | Passiva com present perfect e `by the Chamber` preserva proposição e propósito |
+| 17#6 | C | R | `because` e `consequently` mantêm relação causal; porém o item diz “grammatical structure ... correctly preserved” apesar da **troca** de subordinação para coordenação. Gabarito C continua natural se “correção gramatical” for intenção; reescrever o enunciado para evitar exigir identidade estrutural |
+| 18#1 | E | M | `however` contrasta observatório e autor, não prova que todos os déficits foram resolvidos |
+| 18#2 | C | M | `claimed` atribui declaração à fonte; trecho não acrescenta verificação externa |
+| 18#3 | C | R | `FOR IMMEDIATE RELEASE` caracteriza comunicado; fluxo `the bill now proceeds to presidential sanction` omite outras etapas possíveis, como já documentado em ING-040 |
+| 18#4 | E | R | `demonstrated` não equivale a “merely speculative hypotheses”; explicação exagera ao exigir comprovação **documental**, ING-050 |
+| 18#5 | C | R | `Echoing the guidelines...` sustenta relação intertextual e alinhamento de referência; comentário acrescenta `fundamento` e intencionalidade institucional deliberada sem necessidade de base textual adicional |
+| 18#6 | E | M | Propósitos distintos são explícitos no contraste, não diferença apenas de fonte tipográfica |
+
+**Resultado do lote:** **30/30 exercícios examinados neste recorte**, com **23 M**, **7 R**, **0 S novos**. As sete ressalvas são `15#1`, `15#3`, `15#5`, `17#6`, `18#3`, `18#4`, `18#5`. **M não significa gabarito certificado**: significa apenas nenhuma contradição relevante encontrada na avaliação contextual efetuada. **Os quatro itens previamente suspensos (08#1, 13#4, 16#2, 16#3) permanecem sob reserva**, e não foram recontados como novos S. **O histórico de 54 achados não representa 54 inversões de gabaritos.**
+
+**ING-055 | IMPORTANTE | diferença entre inferência e prova:** o comentário `15#3` tende a converter inferência do enunciador baseada em zero dissidentes numa certeza fática sobre acordo partidário. Manter gabarito C, retirar segurança maior que a oferecida pelo modal.
+
+**ING-056 | IMPORTANTE | precisão do comando de reescrita:** `17#6` usa “grammatical structure ... correctly preserved” quando a construção efetivamente transita de subordinação para coordenação. O intuito semântico é claro, mas comandos de prova devem distinguir `grammatical correctness` de `grammatical structure`.
+
+**ING-057 | IMPORTANTE | intertextualidade sem sobreinterpretação:** `18#5` sustenta eco textual da convenção, mas o comentário atribui relação de fundamento normativo e deliberação explícita mais forte que as palavras da frase. O foco legítimo é conexão de ideias, sem supor processo interno deliberativo.
+
+**ING-058 | IMPORTANTE | referência bibliográfica não rastreada:** `07`, seção 9, inclui `CEBRASPE. Bancos de Provas e Padrões de Resposta de Língua Inglesa: Nível Superior (Câmara dos Deputados, Senado Federal, STJ, IPEA, MPO, Diplomacia). Brasília, 2018–2024.` sem cadernos, URLs, códigos de prova ou identificação de uma publicação única verificável com esse título. **Não se deve contar isso como fonte bibliográfica comprovada**, nem atribuir às instituições citadas uma amostra já auditada. Substituir em Fase 2 por cadernos oficiais individualizados, com ano, cargo e itens verificáveis. Não houve consulta a todos os concursos listados.
+
+**Próxima unidade de auditoria:** blocos 08/09/11/12/13/14/16 e, depois, 01–06, distinguindo itens já suspensos dos demais e verificando dados bibliográficos inventariados. **Nenhuma edição de teoria, questão, gabarito, ID, hub ou catálogo.**

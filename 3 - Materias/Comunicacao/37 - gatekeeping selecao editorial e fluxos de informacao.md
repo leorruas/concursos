@@ -5,7 +5,7 @@ title: "Gatekeeping: seleção editorial, filtros e circulação de informação
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Gatekeeping: seleção editorial, filtros e circulação de informação
@@ -136,6 +136,18 @@ A banca pode atribuir **Mr. Gates a Lewin**, tratar preferência individual como
 **Item C/E 3, inédito:** “A presença de filtros de recomendação em plataformas pode ampliar os objetos de análise do gatekeeping, sem eliminar as decisões humanas e institucionais que influenciam a circulação de conteúdos.”
 
 **Gabarito: Certo.** A teoria pode ser adaptada para diferentes configurações de poder e distribuição, sem assumir que todas funcionam como jornais impressos.
+
+## Auditoria dirigida: White, Lewin e limites da generalização (11/11/2026)
+
+O [registro original do artigo de David Manning White (1950)](https://journals.sagepub.com/doi/10.1177/107769905002700403) identifica uma pesquisa sobre **matérias recebidas, usadas e rejeitadas** durante sete dias por um editor. A análise de [Shoemaker e Reese sobre a história da tradição de gatekeeping](https://wjmcr.info/2011/02/01/shifting-circles-reconceptualizing-shoemaker-and-reeses-theory-of-a-hierarchy-of-influences-on-media-content-for-a-newer-media-era/) distingue a metáfora de **Kurt Lewin** de sua aplicação à seleção jornalística por **White e Mr. Gates**. Estudos posteriores expandiram o exame para rotinas, instituições e plataformas.
+
+| Item | Gabarito | Resultado do cotejo |
+| --- | --- | --- |
+| 1 | Certo | Confirmado quanto ao estudo de caso de White e à impossibilidade de generalização irrestrita a todas as redações. |
+| 2 | Errado | Compatível com a diferença entre critérios de noticiabilidade e processo de filtragem em vários pontos; não há equivalência conceitual demonstrada. |
+| 3 | Certo | Compatível com a ampliação posterior da teoria para sistemas digitais, documentada por literatura subsequente. **Não atribuir filtros algorítmicos ao estudo de White de 1950.** |
+
+**Resultado:** os três gabaritos foram mantidos; nenhuma inversão identificada. A conferência do estudo original de White foi feita a partir do registro e do resumo editorial, enquanto a expansão histórica se apoia em pesquisa secundária identificada. Portanto, **não equivale à leitura integral do artigo de 1950**. Esta separação de proveniência deve ser preservada nas citações e exemplos.
 
 ## Aplicação discursiva
 

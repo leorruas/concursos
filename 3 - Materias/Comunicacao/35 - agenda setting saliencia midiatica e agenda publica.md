@@ -130,6 +130,12 @@ O estudo **“The Agenda-Setting Function of Mass Media”** examinou a relaçã
 
 **Fonte primária verificada:** [McCombs e Shaw, *Public Opinion Quarterly*, 36(2), 1972, pp. 176–187, especialmente pp. 176 e 180–182](https://www.thetawelle.de/wp-upload/McCombsShaw1972.pdf), consultado em 11/11/2026. A fonte não basta para certificar integralmente a explicação do segundo nível nem sua distinção de framing.
 
+## Prova real: complementaridade com espiral do silêncio, Correios 2011 (11/11/2026)
+
+O **item 63** do [caderno oficial CESPE/UnB Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf) considera que agenda-setting e espiral do silêncio **podem** ser perspectivas complementares. O [gabarito definitivo, em cópia identificada pelo código do cargo](https://www.estudegratis.com.br/images/provas/20767-cespe-2011-correios-analista-de-correios-comunicacao-social-publicidade-e-propaganda-gabarito.pdf), registra **Certo**. A complementaridade é uma **possibilidade de articular perguntas distintas**: saliência pública de um tema, de um lado; percepção do clima de opinião e disposição de expressar posições, de outro. **Não há identidade automática de variável, mecanismo ou resultado causal**.
+
+Para um enunciado semelhante, verificar se a banca diz “podem ser complementares” (compatível com o item histórico) ou se afirma que **ambas explicam exatamente o mesmo efeito** (conclusão diferente que requer justificativa própria). O julgamento de 2011 não valida sem exame empírico a relação causal entre as duas teorias em qualquer contexto.
+
 ## Aplicação discursiva
 
 Ao discutir divulgação institucional, diferenciar **dar visibilidade a um tema**, **verificar se ele se tornou prioritário para a população** e **avaliar efeitos de uma política**. Estabelecer medidas específicas, admitir influências concorrentes e não confundir a pauta do órgão com o interesse público efetivamente identificado.

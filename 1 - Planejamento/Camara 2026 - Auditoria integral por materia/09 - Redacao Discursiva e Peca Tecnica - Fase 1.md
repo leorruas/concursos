@@ -478,3 +478,51 @@ O catálogo `data/catalogo-materias-por-concurso.json`, SHA `7942c59edacf9566d87
 **Backlog corrigido quanto ao estado temporal:** RD-001 deixou de ser ausência total de modelo de 20 linhas e passa a ser **insuficiência de corpus progressivo e ausência de módulo completo de peça**. RD-004 (hub) foi parcialmente mitigada. RD-003 (treino operacional) começou a ser tratado por notas novas, sem evidência de proficiência individual. RD-002 (pareamento documental) permanece verificado no relatório; novas notas devem aproveitar os enunciados oficiais disponíveis, identificando claramente adaptação autoral. Prioridade editorial futura: DIS-005 (peça), DIS-009 (revisão), DIS-004 (normativa), DIS-006 (diagnóstico), DIS-007 (plano), DIS-008 (métricas) e DIS-003 (comparação), na ordem ajustada por dependências.
 
 **Separação de escopos:** as mudanças nos artigos novos e no hub ocorreram por **outros agentes**; esta auditoria apenas as identificou, leu e avaliou. A Fase 1 aqui permanece **parcialmente verificada**, com inventário físico agora resolvido e com reavaliação obrigatória caso haja novos commits na mesma pasta. A verificação exaustiva dos recortes de normas das matérias compartilhadas permanece na responsabilidade das respectivas frentes. Nenhum dado pessoal de tentativa foi publicado.
+
+
+## Continuação de 11/11/2026: blocos 23–25, consolidação após publicação de CAM-DIS-005 e CAM-DIS-009
+
+**Controle de concorrência e escopo:** arquivo de auditoria lido no SHA `cbe5a3c63350418a8316a73af6d28c1908d0233d`. A árvore completa do GitHub na `main` retornou **802 entradas**, `truncated: false`. Os materiais de outros agentes foram apenas consultados; nenhuma outra pasta, nota, questão, catálogo, ID ou índice foi modificada por esta frente.
+
+### Bloco 23: inventário atualizado e conciliação de fontes [VERIFICADO]
+
+A árvore `GET /repos/leorruas/concursos/git/trees/main?recursive=1` mostra agora **oito arquivos físicos em `3 - Materias/Redacao/`**: um hub e **sete artigos**. O catálogo `data/catalogo-materias-por-concurso.json`, consultado no blob `630d3af030e36ca1f9087e238d9d39f908db6dc0`, lista os sete `articleIds`. O hub foi atualizado para o blob `a92d927980bd298457f86610dcde61e08a8955ac`.
+
+| Artigo | Unidade | SHA conferido nesta rodada | Resultado de auditoria |
+| --- | --- | --- | --- |
+| 01, leitura do tema e projeto de texto | Fundamento geral | `10760ff60d31a7ff05acf52e709dd705620676cf` | Existente; articulação com comando |
+| 02, tese e linha argumentativa | Fundamento geral | `bc41dfd39a643fe6284ca894cdcaa0b020b12043` | Existente; diferenciar tese opinativa de resposta técnica |
+| 03, estratégias de argumentação | Fundamento geral | `6a6c5c37f6c5e5155f5dcdeaa34175336caac8ea` | Existente; mecanismos argumentativos |
+| 04, decomposição de comandos e quesitos Cebraspe | CAM-DIS-001 | `468104948cb57e48567df59e061ae793ed2797de` | Existente, lido na rodada anterior |
+| 05, resposta conceitual curta de 20 linhas | CAM-DIS-002 | `f50ad545ff2ed0a7955af32d07d2090470b81915` | Existente, lido na rodada anterior |
+| **06, planejamento e escrita de peça técnica** | **CAM-DIS-005** | `9a21328a7550a1280292ecf2e5fb50c6e20962af` | **Novo, lido integralmente nesta rodada** |
+| **07, revisão e autocorreção** | **CAM-DIS-009** | `d9900ed3d0daf9f4c6f2ca6e1478c1cd971e0d8b` | **Novo, lido integralmente nesta rodada** |
+
+**Revisão do estado anterior:** a conclusão histórica de que não havia artigo de peça técnica **está superada**. A falta atual não é de uma introdução ao tema, mas de **corpus progressivo, diversidade de gêneros, maior profundidade técnica e desempenho manuscrito observado**. Este bloco substitui, para fins de decisão futura, o status dos blocos 20–22.
+
+### Bloco 24: avaliação dirigida dos novos artigos [VERIFICADO / JULGAMENTO PEDAGÓGICO]
+
+**CAM-DIS-005, artigo 06 (peça técnica):** acerta ao separar gênero, finalidade e destinatário; orientar o planejamento por verbos e subitens; oferecer modelo de `nota técnica` e contrastá-lo com `briefing`, `plano` e `diagnóstico`. O exercício fictício contém **28 linhas digitais numeradas**, inclusive linhas em branco, e grade de localização do problema, levantamento de evidências, três medidas e monitoramento. O artigo diz expressamente que esse modelo não é oficial e que o gênero da peça do Cargo 1 permanece indeterminado. Isso elimina a antiga lacuna de **ausência completa de peça-modelo**.
+
+**Limitações observadas do 06:** (i) uma peça de 28 linhas não demonstra gestão de um comando densamente pontuado que se aproxime de 50 linhas; (ii) o modelo está baseado em cenário autoral sem **padrão definitivo comparável**, e não valida atendimento de quesitos definidos por examinador; (iii) há diagnóstico cauteloso, mas não há exemplo completo de `plano` ou `briefing`, apenas distinções estruturais; (iv) o exercício oferece acompanhamento genérico e não obriga a explicitar indicadores com unidade, fonte, recorte temporal e limitação de inferência; (v) o texto impresso tem linhas vazias e títulos, portanto o orçamento efetivo de conteúdo é menor do que a indicação nominal. **Ação de Fase 2:** ampliar por um caso de maior densidade, sem apagar o exemplo inicial; criar contramodelos com omissão, comparação por critérios e correção por trecho.
+
+**CAM-DIS-009, artigo 07 (revisão):** contempla duas passagens autônomas, **conteúdo** (atendido/parcial/ausente/incorreto com evidência textual) e **língua, coerência, espaço**, com procedimento de reescrita dirigida, reteste em 3–7 dias e separação entre arquivo público de teoria e registros privados. Reproduz corretamente as duas fórmulas do edital. Os exemplos aritméticos são coerentes: duas ocorrências hipotéticas em 20 linhas de questão produzem desconto `3 × 2 ÷ 20 = 0,30`; em 40 linhas de peça, `6 × 2 ÷ 40 = 0,30`. A própria nota evita simular nota oficial sem `NC`, `NE` e `TL` efetivamente aferidos.
+
+**Limitações observadas do 07:** (i) a autocorreção pode indicar presença de termos, mas é necessário critério para diferenciar **menção, descrição, explicação causal e aplicação correta**; (ii) não há duas respostas completas à mesma tarefa corrigidas lado a lado, com reparo explícito de cada unidade; (iii) o tempo recomendado não foi testado no estudante; (iv) riscos de fórmulas não substituem consulta direta aos itens de nota zero e critérios de correção por examinador. **Ação de Fase 2:** adicionar à ficha `unidade exigida / trecho literal / conceito técnico / suficiência / decisão de revisão` e demonstrar correção de um texto completo com erro, trecho reparado e reteste.
+
+**Hub:** a nova seção da Câmara liga 04 → 05 → 06 → 07, mas preserva a antiga lista `04 - construção do parágrafo`, `05 - contra-argumentação`, `06 - repertório`, `07 - introdução...` como se fosse sequência de artigos. Isso cria **colisão numérica e ambiguidade de navegação** com os arquivos 04–07 já publicados. A advertência `Dataprev ... não é prioridade` continua registrada apesar de 11/10/2026 já ter passado; foi enquadrada no texto como histórica, mas permanece deslocada na experiência de navegação. **Ponto objetivo a corrigir:** distinguir explicitamente `roteiro genérico antigo, não corresponde a arquivos numerados` de `trilha atual para a Câmara` ou reescrever a seção de planejamento sem renomear e sem modificar IDs existentes.
+
+### Bloco 25: decisão técnica consolidada e critérios de saída [RECOMENDAÇÃO]
+
+A biblioteca já contém **núcleo mínimo funcional para iniciar treino**: leitura do comando, análise por quesitos, resposta curta, peça técnica e revisão. As regras de 20/20/50 e a separação entre critérios oficiais e critérios autorais estão presentes. A conclusão **não** presume domínio por parte do estudante, nem que o Cebraspe escolherá nota técnica, briefing ou plano.
+
+**Pendências de melhoria ordenadas pela relação com a prova:**
+
+1. **P0: matriz de correção aplicada ao exemplo de peça mais denso.** O modelo de 28 linhas deve ser complementado por uma peça nova, preferencialmente 40–50 linhas digitais, com comando preciso, rubrica explícita por subaspecto, três níveis de cobertura, contramodelo e reparo. Mostrar a origem **autoral** de todos os pesos ou, se usar caderno oficial, só adotar pesos **daquele caderno**.
+2. **P0: integração sem colisão de navegação.** Corrigir divergência entre numeração dos arquivos CAM-DIS e a antiga lista homônima do hub; atualizar a orientação de prioridade de concursos, sem apagar o histórico.
+3. **P1: diversidade de operação técnica.** Completar módulos candidatos CAM-DIS-003 (comparação), 004 (normativa), 006 (diagnóstico), 007 (plano) e 008 (indicadores) conforme dependências do currículo; valorizar aplicação dos artigos compartilhados em vez de duplicar teoria.
+4. **P1: calibragem com provas.** Usar pares autenticados de enunciado e espelho da PF 2025, TCE-MG 2026 e Câmara de março/2026 para marcar a diferença entre **mencionar e desenvolver** um quesito, sempre com limites de transferência dos cargos.
+5. **P1: execução observada.** Cronometrar produção manuscrita de até 20 e até 50 linhas, registrar a quantidade *real* de linhas, conferir legibilidade, grafia e cobertura, corrigir e retestar outro comando. **Sem tentativas reais, não declarar evolução do candidato**. Guardar respostas pessoais no cofre privado e manter apenas teoria/modelos genéricos no público.
+6. **P2: documentação transversal.** Evitar certificar normas de Comunicação, Constituição ou Português cujo cotejo pertence às suas auditorias; revisar os recortes específicos que forem usados em modelos de peça.
+
+**Estado conclusivo desta rodada:** inventário **resolvido e atualizado para sete artigos + hub**. A auditoria da **biblioteca própria** é suficiente para orientar uma fase editorial de refinamento, mas continua existindo distinção entre suficiência do inventário e **validação da competência de prova**. A Fase 1 fica registrada como **parcialmente verificada quanto à avaliação transversal profunda e a desempenho real**, sem que isso impeça iniciar correções editoriais fundamentadas sob governança. Este relatório continua sendo o único arquivo modificado por esta execução.

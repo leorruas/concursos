@@ -169,6 +169,12 @@ A [OCDE, *Facts not Fakes* (2024)](https://www.oecd.org/en/publications/2024/03/
 
 **Limite:** documentos internacionais de orientação não equivalem automaticamente a norma brasileira vinculante, sem ato de incorporação ou regime jurídico aplicável. São três itens didáticos inéditos, não questões históricas do Cebraspe.
 
+## Cebraspe real: CNMP 2023, item 75 e terminologia fake news (11/11/2026)
+
+O [item 75 do caderno oficial Cebraspe, CNMP 2023, Comunicação Social](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF) caracteriza como *fake news* um conteúdo **fabricado premeditadamente** para difundir informações **inteiramente falsas**. O [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF) é **Certo**.
+
+**Ressalva de terminologia:** o julgamento da banca em 2023 deve ser preservado como evidência histórica. As distinções usadas por **UNESCO, ONU e OCDE** na presente nota abrangem desinformação, informação equivocada, manipulação e riscos de plataforma de modos próprios, e **não dependem universalmente** de uma peça ser composta exclusivamente de afirmações falsas: conteúdo real fora de contexto também pode induzir erro. Não substituir as categorias dos documentos internacionais por uma paráfrase do item 75, nem inverter o gabarito da prova usando uma definição posterior.
+
 ## Aplicação discursiva
 
 Em peça técnica da Câmara, propor um sistema de informação institucional com **fontes identificadas**, atualização controlada, versões acessíveis, mecanismos de correção, canais independentes de plataformas, respeito a direitos e protocolo transparente de resposta a riscos. Diferenciar avaliação **do conteúdo** (precisão e rastreabilidade), **do acesso** (encontrabilidade, compreensão e diversidade de canais), **da circulação** (distribuição, barreiras e incentivos) e **da governança** (responsabilidades, contestação e avaliação). Explicar que nenhuma métrica isolada comprova confiança, participação ou integridade de todo o ecossistema.

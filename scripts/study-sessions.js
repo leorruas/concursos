@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { buildFlashcardPriorities } from './flashcard-priorities.js';
 import { resolveArticleRef } from './article-identity.js';
+import { assertCamaraTiQuestionAllowed } from './camara-ti-question-guard.js';
 // Sessões pequenas são entradas; ledger e blocos marcados são projeções reproduzíveis.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -73,6 +74,7 @@ export function validateSession(s, filename, root, concursos) {
     assert(allowed.includes(q.correctAnswer) && (q.userAnswer === null || allowed.includes(q.userAnswer)), `${s.id}: gabarito/resposta inválida`);
     assert(['secure', 'insecure', 'guess', 'unknown'].includes(q.confidence), `${s.id}: confiança inválida`);
     assert(['inedita', 'real', 'adaptada'].includes(q.origin), `${s.id}: origem inválida`);
+    assertCamaraTiQuestionAllowed(root, s, q);
     if (s.trainingMode === 'real') assert(q.origin === 'real', `${s.id}: modalidade real exige origem real`);
     if (s.trainingMode === 'adaptada') assert(q.origin === 'adaptada', `${s.id}: modalidade adaptada exige origem adaptada`);
     if (['aprendizagem', 'para_valer'].includes(s.trainingMode)) assert(q.origin === 'inedita', `${s.id}: treino inédito exige origem inédita`);

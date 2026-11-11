@@ -975,3 +975,67 @@ A matriz representa **decisões editoriais recomendadas para Fase 2/3**, não co
 **Revisão individual formal já registrada no relatório:** **108 itens autorais (artigos 17–34, seis por artigo)**, por grupos `17–21` (30), `22–25` (24), `26–29` (24), `30–34` (30). **Cinco itens suspensos**: `18#2,23#5,28#3,29#5,32#1`; **nenhuma inversão formal demonstrada**. M/R significam **estados provisórios** e não certificação integral; 34/34 artigos do conjunto foram examinados seletivamente, e 20/20 subitens do edital ligados a notas candidatas. Rótulos históricos **PT-001–143**, com colisões PT-011–016, não são 143 erros independentes.
 
 **Próximo passo:** revisar individualmente as questões `12–16` (especialmente 15#3,16#6), depois inspecionar **se existem baterias** nos artigos 01–11 e validar o que houver, evitando declarar 34 artigos com seis itens cada. Após esses inventários, conciliar o conjunto de questões, fontes e ressalvas para fechar a Fase 1 apenas quando o protocolo permitir. **Nenhum artigo, hub, JSON ou material de outras frentes alterado.**
+
+
+## Bloco 23: revisão individual das 30 questões inéditas das notas 12–16 (11/11/2026)
+
+**Método:** releitura integral da seção de questões e gabaritos, pelo conector GitHub, de `12 - texto contexto e producao de sentido.md`, `13 - tema tese e progressao tematica.md`, `14 - informacao explicita pressuposto e inferencia.md`, `15 - tipologia textual criterios de distincao e sequencias prototipicas.md` e `16 - genero textual situacao de uso suporte e finalidade.md`: **seis questões por nota, 30 ao todo**. A classificação a seguir decorre da lógica e da análise linguística contextual dos textos efetivamente lidos, com comparação cruzada às notas de Redação já consultadas no bloco 15. **Não houve obtenção de prova oficial ou verificação bibliográfica integral nova neste bloco**; citar a tradição ou a banca nos comentários não significa que essas fontes tenham sido comprovadas externamente.
+
+**Legenda:** `M` manter **provisoriamente** gabarito e núcleo justificativo; `R` manter **provisoriamente** gabarito, revisar comentário/escopo/atribuição; `S` **suspender** do uso como item confiável até corrigir o enunciado ou obter fundamentação determinante. Nenhuma decisão é homologação integral de questão inédita.
+
+| Item | Gabarito atual | Decisão | Razão e aceite editorial |
+| --- | --- | --- | --- |
+| **12#1** | E | **M** | Coerência pode ocorrer sem conectivo e sem correção gramatical perfeita; absoluta obrigatoriedade da coesão explicitada é falsa. |
+| **12#2** | C | **M** | Situacionalidade e adequação ao contexto são compatíveis com a abordagem atribuída a Beaugrande/Dressler; referência primária bibliográfica ainda a cotejar. |
+| **12#3** | C | **R** | Cotexto é contexto verbal; a justificativa promete `identificar com exatidão` e `eliminação de ambiguidades` sem considerar que cotexto pode ser insuficiente em casos concretos. |
+| **12#4** | E | **R** | Inferência não pode derivar apenas de opinião externa, mas o comentário diz que tudo deve decorrer das marcas do próprio texto; **conhecimento partilhado e contexto podem participar de inferências legitimamente autorizadas**. Diferenciar inferência pragmática de extrapolação. |
+| **12#5** | C | **R** | A força ilocucionária de atos normativos pode ser diretiva/declaratória, mas **validade jurídica e competência formal** exigem distinguir norma jurídica, ato de fala e eficácia; generalização não substitui fonte jurídico-institucional. |
+| **12#6** | E | **M** | Informatividade alta depende de novidade/imprevisibilidade em contexto; reiteração de dados previsíveis não a comprova. |
+| **13#1** | E | **R** | Tema e tese são categorias diferentes; porém tese pode ser **proposição técnica defendida** sem exigir `posicionamento crítico e avaliativo` ou juízo moral. Alinhar com `Redacao/01–03`, PT-102. |
+| **13#2** | C | **M** | Na progressão linear, o rema precedente torna-se tema subsequente. |
+| **13#3** | E | **M** | Generalização macroestrutural não é substituição por antítese. |
+| **13#4** | E | **M** | Contra-argumentação não implica incoerência nem elimina tese central por si. |
+| **13#5** | C | **R** | Na progressão por tema constante, o **tema/tópico discursivo** é retomado; o comentário equipara sem ressalva tema a **sujeito** gramatical, categorias que não coincidem necessariamente. Corrigir duplicação `tópico tópico`. |
+| **13#6** | E | **R** | O enunciado descreve quebra ou dispersão, não circularidade; entretanto `circularidade = tautologia` como taxonomia universal de progressão textual carece de atribuição/fonte, e circularidade também depende do quadro teórico. |
+| **14#1** | C | **R** | Projeção de pressupostos sob negação é teste linguístico útil, mas `permanece verdadeiro` confunde **projeção discursiva** com prova de verdade factual e `resistem` não vale incondicionalmente em todos os contextos. Especificar limites do teste. |
+| **14#2** | E | **M** | Coincidência com norma jurídica não autoriza inferência sem apoio das premissas e contexto comunicativo. |
+| **14#3** | C | **S** | `ainda não disponibilizou` pode **sugerir expectativa** de disponibilização, porém **não pressupõe necessariamente que ocorrerá**; distinguir expectativa pragmática, estado persistente e inferência sobre futuro. O enunciado usa `expectativa`, mas o comentário passa a apresentá-la como **transitoriedade factual/pressuposição formal**, tornando a distinção pedagógica insegura. Reformular ou fundamentar no quadro teórico explícito. **Não inverter C para E de modo automático.** |
+| **14#4** | C | **M** | Diferença geral entre pressuposição e subentendido pragmático condiz com a classificação adotada; não concluir que todos os subentendidos podem ser cancelados sem custo em qualquer contexto. |
+| **14#5** | E | **R** | Entre vírgulas a oração é **explicativa**, não restritiva, portanto E defensável; comentário fala em **toda a classe de consultores**, onde só há compromisso sobre referente/grupo contextual; restringir escopo e corrigir PT-002/PT-121. |
+| **14#6** | E | **M** | Posterioridade temporal não demonstra nexo causal. |
+| **15#1** | E | **M** | Tipo e gênero não são conceitos intercambiáveis na taxonomia adotada; evitar `infinito` literal para conjunto aberto em outra revisão. |
+| **15#2** | E | **R** | Cronologia de ações remete à narração e não à descrição prototípica; comentário não deve exigir **ausência de tempo** na descrição, apenas ausência de centralidade da sucessão narrativa. |
+| **15#3** | C | **S** | Distinção `exposição neutra` versus `argumentação = tese controversa + juízo de valor` é **indevidamente estreita**. Contrasta com `Redacao/01–03` sobre tese técnica fundamentada, PT-102/PT-113. Suspender de avaliação confiável até reformular critério, exemplos e gabarito; **não inverter sem fixar modelo teórico**. |
+| **15#4** | E | **M** | Relato narrativo inicial não elimina predominância argumentativa de artigo de opinião. |
+| **15#5** | C | **R** | Leis/regimentos têm força regulatória, mas não se prova que todas suas sequências são injuntivas; distinguir gênero normativo e tipologia do trecho, PT-114. |
+| **15#6** | E | **R** | Operadores argumentativos e adjetivos avaliativos tornam falsa a exclusividade descritiva do enunciado; a justificativa não pode dizer que esses indícios **identificam inequivocamente** a dominante argumentativa sem função global. |
+| **16#1** | E | **M** | Inversão entre tipo abstrato e gênero de prática sociocomunicativa. |
+| **16#2** | C | **M** | Conteúdo temático, estilo e construção composicional são dimensões clássicas da descrição de gênero em Bakhtin. |
+| **16#3** | E | **R** | Digitalização simples não torna ata automaticamente reportagem; **`lead` e pirâmide invertida não são condições necessárias de toda matéria jornalística**, corrigir comentário. |
+| **16#4** | C | **M** | Intergenericidade e apropriação de estrutura para nova finalidade descritas de modo compatível com uso do conceito. |
+| **16#5** | E | **M** | Documentos administrativos formais se aproximam de gêneros secundários na classificação de Bakhtin; `primários` no item é inadequado. |
+| **16#6** | C | **R** | Edital tem finalidade regulatória, mas `impõe predominância de sequência injuntiva` extrapola do **gênero** à **tipologia de todas as amostras**; conservar C provisório apenas se a pergunta for explicitamente sobre função global, PT-114. |
+
+**Conciliação das 30 linhas:** **15 M, 13 R, 2 S** (`14#3` e `15#3`), **zero inversões de gabarito comprovadas**. As duas suspensões resultam de **indeterminação entre categorias linguísticas e regra forte demais**, não de demonstração categórica de que o gabarito atualmente escrito seja o oposto. Para `14#3`, a distinção entre pressuposição, expectativa e projeção futura é particularmente relevante em questões sobre inferência.
+
+### Achados PT-144–150
+
+**PT-144:** `12#3/#4` exige calibrar a contribuição do cotexto e do conhecimento partilhado à interpretação, sem converter a regra de não extrapolação em veto a inferências pragmáticas.
+
+**PT-145:** `12#5` distingue ato ilocucionário, competência e validade/eficácia normativa; não transportar sem ressalva uma categoria de pragmática para todo ato jurídico.
+
+**PT-146:** `13#1/#5/#6` corrige tese como posição necessariamente axiológica, diferença entre **tema textual e sujeito sintático** e atribuição teórica de `circularidade`; comentário contém `tópico tópico`.
+
+**PT-147:** `14#1/#3` pressuposição sob negação não equivale à verdade comprovada; `ainda não` não assegura realização futura. **Suspender 14#3** e construir contraste entre possibilidade, expectativa e compromisso proposicional.
+
+**PT-148:** `14#5` contém erro de alcance de referente ao universalizar todos os consultores de uma classe a partir de relativa explicativa; manter E e corrigir justificativa.
+
+**PT-149:** `15#2/#3/#5/#6` deve separar sequências textuais, gênero jurídico, tese técnico-argumentativa e indicadores avaliativos; **suspender 15#3** por critério universal excessivamente estreito.
+
+**PT-150:** `16#3/#6` deve distinguir mudança de suporte de transmutação efetiva e finalidade global do edital de uma suposta predominância obrigatória de sequência injuntiva em cada trecho.
+
+### Estado e continuidade
+
+**Verificação individual acumulada das notas 12–34:** 23 notas × seis questões = **138 questões autorais com tabela por item**, nos blocos 19–23 (**30 notas 12–16 + 108 notas 17–34**). **Sete itens suspensos**: `14#3,15#3,18#2,23#5,28#3,29#5,32#1`. **Nenhuma inversão de gabarito demonstrada, zero questões integralmente homologadas**. Diagnóstico de Português permanece com **34/34 artigos numerados examinados seletivamente**, hub e **20/20 subitens do edital** ligados a notas candidatas. Os rótulos **PT-001–150** são históricos e possuem colisões PT-011–016; não representam 150 erros distintos.
+
+**Próximo:** inventariar a presença, formato e quantidade de exercícios nos **11 artigos-base, 01–11**, e só validar os efetivamente existentes, para evitar pressupor que todos tenham seis questões. Depois reconciliar o universo real de questões, fontes primárias e gate documental. **Nenhuma teoria, hub, catálogo ou arquivo de outra matéria foi alterado.**

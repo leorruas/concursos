@@ -300,6 +300,16 @@ O **art. 18 da Resolução nº 25/2001, na redação consolidada**, estabelece:
 
 **Atenção:** as fórmulas antigas de reapresentação 90 dias antes das eleições gerais e envio anual de cópia do IR em 30 dias **não correspondem ao texto vigente do art. 18** e foram retiradas deste resumo.
 
+### Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)
+
+O **art. 17** assegura ao Conselho de Ética **pleno acesso exclusivamente para fins de consulta** ao Sistema de Acompanhamento e Informações do Mandato Parlamentar, disponibilizado pela Secretaria-Geral da Mesa, e aos demais sistemas ou bancos de dados existentes ou que venham a ser criados na Câmara. O dispositivo alcança registros de cargos, funções, presença, pronunciamentos, pareceres, participação em comissões, proposições, viagens oficiais custeadas com recursos públicos, licenças, votos nominais e outras atividades pertinentes ao mandato, bem como informações sobre **processos disciplinares em curso ou penalidades recebidas**. O parágrafo único prevê armazenamento eletrônico e disponibilização dos dados aos cidadãos pela internet ou mediante solicitação à Secretaria-Geral da Mesa.
+
+**Distinção para a prova:** o acesso do Conselho aos sistemas de acompanhamento do **art. 17** é **para consulta**; não equivale a autorização genérica para quebrar sigilos protegidos. Os pedidos de quebra ou transferência de sigilo devem observar as condições procedimentais específicas do Regulamento do Conselho. [Fonte: Código de Ética consolidado, art. 17](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).
+
+### Alteração do próprio Código de Ética (art. 19)
+
+O **art. 19** estabelece que os projetos de resolução destinados a alterar o Código de Ética seguem as normas de tramitação do **art. 216 do RICD**. Trata-se da regra de tramitação de proposta para modificar o Código, e não de etapa do processo disciplinar individual. [Fonte: Código de Ética consolidado, art. 19](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).
+
 ## 7. Relações com órgãos da Casa: Corregedoria e Procuradoria Parlamentar
 
 É imprescindível não confundir os papéis de três órgãos parlamentares que atuam no perímetro da ética e da integridade da Casa:

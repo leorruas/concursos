@@ -5,7 +5,7 @@ title: "OneDrive: sincronização corporativa, compartilhamento de links e permi
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # OneDrive: sincronização corporativa, compartilhamento de links e permissões de acesso
@@ -52,10 +52,10 @@ flowchart TD
     Permissao --> P3["Bloquear Download (Block Download): Leitura em tela sem cópia offline"]
 ```
 
-### Configurações de segurança avançadas nos links:
-- **Data de expiração**: Define um prazo limite (ex.: 7 dias) após o qual o link perde automaticamente a validade;
-- **Senha de proteção**: Exige a digitação de uma senha secreta para liberar o acesso ao link;
-- **Bloqueio de download**: Impede que o destinatário baixe o arquivo para seu computador local, permitindo apenas a visualização em modo somente leitura no navegador (*Office for the Web*).
+### Configurações de segurança avançadas nos links (dependem da política, tipo de link, arquivo ou pasta e licença):
+- **Data de expiração**: Quando disponível, define um prazo limite (ex.: 7 dias) para a validade do link;
+- **Senha de proteção**: Quando disponível para o tipo de link e a política institucional, exige senha para liberar o acesso;
+- **Bloqueio de download**: Quando a opção estiver disponível e habilitada para aquele arquivo, link e política, restringe o download por meio da interface. Não se deve presumir disponibilidade igual para arquivos e pastas nem proteção absoluta contra cópias da informação.
 
 ---
 
@@ -118,7 +118,7 @@ Um analista abre uma planilha de controle no Excel 365 e descobre que um colega 
 
 ### Caso 3: Arquivo excluído da lixeira pessoal
 Um usuário apagou uma pasta importante do seu OneDrive e, querendo "limpar tudo", esvaziou a lixeira pessoal do OneDrive. No dia seguinte, percebeu que precisava de um contrato que estava na pasta. Ele afirma que o arquivo foi destruído para sempre.
-*Análise:* A conclusão está errada no OneDrive for Business. Graças à **Lixeira de Segundo Estágio**, o administrador de TI do órgão tem acesso ao repositório de retenção corporativa e consegue recuperar o arquivo dentro do ciclo total de 93 dias.
+*Análise:* A conclusão está errada no OneDrive for Business. A **Lixeira de Segundo Estágio** pode permitir a recuperação durante a janela de retenção corporativa de até 93 dias, desde que o item ainda esteja disponível e não tenha sido excluído definitivamente por outro mecanismo ou administrador.
 
 ### Caso 4: Envio de material para leitura externa sem cópia
 A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciados consultem um documento confidencial em primeira mão, mas deseja evitar que o arquivo seja baixado para os computadores pessoais dos repórteres antes do anúncio oficial.
@@ -179,7 +179,7 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** Por padrão, quem tem permissão de exibição pode visualizar e baixar uma cópia do arquivo. Para impedir a transferência do arquivo para o disco local do terceiro, o usuário deve ativar cumulativamente o recurso **Bloquear Download** (*Block Download*).
+**Comentário:** A leitura do item exige cautela: **senha**, **expiração** e **bloqueio de download** variam conforme tipo de link, políticas do tenant, licença e tipo de objeto. O recurso de bloquear download não pode ser presumido para **qualquer link de pasta**. O gabarito anterior, CERTO, fica **sob reserva de validação da documentação específica**, sem homologação nesta revisão.
 
 ---
 
@@ -204,3 +204,5 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 | **Pessoas específicas** | Sim (e-mail indicado) | Acesso restrito a destinatários nomeados | Máximo |
 | **Bloquear Download** | Depende do escopo | Permite leitura em tela sem cópia offline | Proteção contra extração |
 | **Lixeira de 2º Estágio** | Apenas Administrador | Resgate de itens excluídos em até 93 dias | Governança corporativa |
+
+> **Nota de revisão (11/11/2026):** as opções de compartilhamento e retenção dependem do ambiente Microsoft 365. O item 5 sobre link de **pasta** permanece sob reserva e não deve ser memorizado como regra universal até validação do escopo. Fontes: [lixeira do OneDrive](https://support.microsoft.com/pt-br/onedrive/restore-deleted-files-or-folders-in-onedrive), [lixeira de segundo estágio do SharePoint](https://support.microsoft.com/pt-br/sharepoint/admin/restore-deleted-items-from-the-site-collection-recycle-bin). Achado TI-037.

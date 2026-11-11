@@ -177,6 +177,18 @@ Em 2025, a FGV cobrou briefing em situação de assessoria pública e também su
 
 **Conexões de revisão:** [[3 - Materias/Comunicacao/79 - teorias da publicidade conceitos modelos e aplicacao|Fundamentos da publicidade]]; [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|Atendimento e briefing]]. **Classificação:** itens inéditos de treino, sem validação de incidência histórica Cebraspe.
 
+## Cotejo autoral e avaliação: PESO e AMEC (11/11/2026)
+
+O [modelo PESO no site da autora Gini Dietrich](https://armentdietrich.com/peso-model/) define quatro dimensões articuladas: **paid** (compra de mídia), **earned** (cobertura e reconhecimento conquistados), **shared** (circulação, interação e comunidade) e **owned** (ativos e conteúdo sob gestão). A fonte confirma introdução do modelo em **2014** e recomenda integração entre as dimensões, sem tratá-las como meios físicos distintos. Um perfil de órgão público em uma plataforma pode envolver autoria do conteúdo e circulação social, mas a **infraestrutura da plataforma permanece sob regras de terceiros**. Impulsionamento acrescenta modalidade *paid*, sem transformar uma publicação orgânica anterior em compra retroativa de mídia.
+
+O [Integrated Evaluation Framework da AMEC](https://amecorg.com/amecframework/) e sua [orientação para planejar objetivos](https://amecorg.com/amecframework/home/supporting-material/planning/) distinguem **outputs, out-takes, outcomes e impactos**. O plano pode definir **objetivos de entrega e exposição**, mas a comprovação de compreensão e comportamento exige evidências específicas; o modelo não estabelece que **todo** objetivo de campanha pública deva ser monetizado em ROI. **Pré-teste** antes da circulação examina reação/interpretação prevista; **pós-teste** após a exposição recolhe informação posterior, sem que uma simples diferença temporal prove efeito causal exclusivo.
+
+**Cotejo dos três C/E preexistentes:** **1 Certo**, combinação de canais próprios e pagos depende do objetivo e restrições; **2 Errado**, resultado público pode ser avaliado sem receita financeira; **3 Certo**, pré e pós-teste têm momentos diferentes. A AMEC ampara o enquadramento de avaliação; o julgamento sobre pré/pós também depende de convenções de pesquisa e do momento de medição, **não é citação literal da AMEC**.
+
+**Novo C/E inédito:** “No modelo PESO de Gini Dietrich, mídia compartilhada é sinônimo de espaço publicitário necessariamente comprado, pois toda interação em rede social representa veiculação paga.” **Errado.** *Shared* e *paid* são dimensões distintas, embora possam coexistir na campanha.
+
+**Ponto de qualidade editorial:** o texto antigo deste artigo contém marcadores de citação no formato `cite...` provenientes de outra resposta, **que não constituem links verificáveis dentro da wiki**. Para sustentar afirmações de incidência FGV (incluindo NAV Brasil 2026 e TJ-MS 2024), é preciso identificar URLs de prova, número de questão e gabarito; **não considerar esses marcadores como prova documental**. Esta rodada verificou PESO e AMEC por suas fontes, não os concursos FGV mencionados.
+
 ## Relações com outros temas
 
 - [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]]: diagnóstico, objetivo, estratégia, tática e indicadores.

@@ -649,3 +649,10 @@ Commit `14ded4f9997664e9aa48d6573ff898e4b8f791a0`: fluxograma linear substituíd
 3. Prosseguir com DC13 a DC33 de forma sequencial, sob a regra de **não atualizar os materiais até autorização para Fase 2/3**.
 
 **Estado:** DC11 com **13 gabaritos verificados nos núcleos normativos** e nenhuma inversão confirmada. Fase 1 segue aberta; sem edições aos artigos.
+
+
+### Execução: conferência dirigida de questões do DC34 (11/11/2026)
+
+Commit `366059b43995a50fdc38eb371e046880cfc110c9`: revistos os enunciados e comentários das **seis questões C/E** frente aos dispositivos centrais dos arts. 4º, 5º, 7º, 12–14 e 16 da [Resolução nº 25/2001 consolidada](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html). Os seis gabaritos foram mantidos; aprofundados os comentários de Q1–Q3 e Q6, corrigida a remissão do recurso à CCJC de art. 14, § 4º, VIII para **VII**, e complementadas defesa, recursos e impedimentos de relatoria. Retirada a generalização indevida de vedação de recondução de qualquer membro do Conselho: a restrição de reeleição para o mesmo cargo na eleição seguinte consta no art. 7º, § 5º, para a direção do Conselho.
+
+**Ainda pendentes:** conferência independente do Regulamento de 2001 e do Acordo 2025–2027, revisão de todas as exceções do fluxograma e validação visual da renderização; não declarar DC34 certificado integralmente. **Andamento: 2 dos 29 artigos da trilha receberam alterações; 0 dos 29 foram certificados em revisão integral.** A contagem de artigos modificados não corresponde a percentual de correção completa da auditoria.

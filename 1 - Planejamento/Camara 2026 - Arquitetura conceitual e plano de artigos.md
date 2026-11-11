@@ -199,6 +199,9 @@ Cada identificador `CAM-XX-nnn` abaixo é **ID estável da tarefa editorial**, n
 - [ ] **CAM-PL-022 · F3**: Regimento da Câmara: Deputados, arts. 226 a 251.
 - [ ] **CAM-PL-023 · F3**: Regimento da Câmara: administração e economia interna, arts. 262 a 273.
 - [ ] **CAM-PL-024 · F3**: Regimento Interno da Câmara: estrutura e demais temas cobrados no bloco específico.
+
+**Rastreabilidade editorial de PL (11/11/2026):** CAM-PL-019 e CAM-PL-020 abrangem objetos sobrepostos dos arts. 1 a 24 no **DC23**, sem presumir dois artigos obrigatórios; o aprofundamento de **comissões (arts. 25 a 54)** integra **CAM-PL-004 no DC14**, não CAM-PL-020. **CAM-PL-021** tem cobertura de sessões no **DC24 (55 a 80)** e no **DC25 (81 a 105, complemento editorial além do recorte planejado de 65 a 94)**. **CAM-PL-022** corresponde ao **DC26, deputados e mandato (arts. 226 a 251)**. Esses vínculos documentam identidade e distribuição, não certificam suficiência normativa nem justificam marcar [x] sem auditoria final. A cobertura de **81 a 94** e **95 a 105** deve continuar discriminada por dispositivo.
+
 - [ ] **CAM-PL-025 · F3**: Regimento Comum: Título I, sessões e Congresso Nacional.
 - [ ] **CAM-PL-026 · F3**: Regimento Comum: Título IV, capítulos II e III até art. 103.
 - [ ] **CAM-PL-027 · F3**: Resolução 1/1970-CN: organização e procedimento comum.

@@ -535,3 +535,34 @@ Foi lida a **primeira página (página impressa 5)** do [caderno CESPE/UnB, Corr
 **Gabarito completo do bloco:** 51 C, 52 E, 53 C, 54 C, 55 E, 56 E, 57 C, 58 C, 59 C, 60 E, 61 C, 62 E, 63 C e 64 E. Os itens 53 e 64 exigem cuidado para não transformar julgamento histórico da banca em regra lexical, jurídica ou cronológica universal.
 
 **Calibração:** a banca cobrou exagero de resultado (52), troca de competência (56), mecanismo técnico simples (57–60), identidade autor-modelo (61), confusão entre escolas (62), complementaridade sem equivalência (63) e generalização histórica (64). Os textos das questões não são reproduzidos integralmente; são descritos apenas seus alvos. **Indicador cumulativo da conferência de prova histórica: 40 itens individuais, sem duplicação (51–90)**. Esse indicador é diferente dos itens C/E inéditos da wiki e não representa a verificação de todos os cadernos de concursos.
+
+
+## Conferência direta CNMP 2023: itens 51 a 69 (11/11/2026)
+
+Foram abertos e **vistos em imagem** tanto o [caderno original Cebraspe 814_CNMP_003_01](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF) quanto o [gabarito definitivo no domínio oficial Cebraspe, mesma identificação](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF). A prova foi aplicada em **16/04/2023**, para o **Cargo 3: Analista do CNMP, Comunicação Social**. Esta rodada conferiu individualmente enunciado, número e gabarito de **19 itens, 51 a 69**, sendo **18 válidos e um anulado (60)**. Nenhuma questão inédita do vault foi contabilizada como histórica.
+
+| Item | Julgamento definitivo | Núcleo | Mecanismo ou ressalva |
+| ---: | :---: | --- | --- |
+| 51 | **C** | Autopoiese e comunicação como operação de sistemas | Abordagem sistêmica: recorte da teoria, não consenso sobre toda comunicação |
+| 52 | **E** | Teoria da informação e modelo circular | Mistura indevida de esquemas e feedback |
+| 53 | **C** | Sociedade do espetáculo | Reconhecimento conceitual de relações mediadas por imagens |
+| 54 | **E** | Teoria crítica e indústria cultural | Inversão: cultura de massa não substitui criticamente indústria cultural |
+| 55 | **C** | Comunicação pública, balanço social e participação | Participação e prestação de contas |
+| 56 | **C** | Comunicação pública e cidadania | Definição nuclear em contexto da banca |
+| 57 | **E** | Identidade da organização e mudança histórica | Minimização indevida do impacto social |
+| 58 | **E** | Database marketing e gestão de marcas | Necessidade universal de ferramenta é indevida; não atribuir causalidade automática à fidelização |
+| 59 | **C** | Intranet e métricas | Possibilidade de informar e registrar acessos |
+| 60 | **X** | Porta-voz e agilidade na resolução de crises | ANULADO: não usar como C/E válido |
+| 61 | **E** | Responsabilidade social corporativa | Redução instrumental à promoção de imagem |
+| 62 | **E** | Disparidade negocial | Atribuição equivocada de igualdade de condições |
+| 63 | **E** | Vulnerabilidade do consumidor | Subdivisão normativa inadequada |
+| 64 | **C** | Boa-fé nas relações de consumo | Deveres de informação, cooperação e proteção |
+| 65 | **E** | Opinião pública e origem do diálogo | Troca entre manifestação pública e origem estritamente individual |
+| 66 | **E** | Imagem institucional | Objetividade e uniformidade indevidas |
+| 67 | **E** | Precedência cerimonial | Formulação de privilégios e prerrogativas incorreta segundo gabarito |
+| 68 | **C** | Precedência CNMP | Regra específica do órgão, sem transposição à Câmara |
+| 69 | **C** | Representação em jantares e almoços | Art. do Decreto 70.274/1972: enunciado histórico; revisar vigência para uso atual |
+
+**Correção de escopo:** o **item 58 é E**, embora não constasse da lista individual de Comunicação Organizacional anterior. O **item 60 é X (anulado)**, não serve para proporção C/E nem para avaliar domínio conceitual sobre função do porta-voz. Questões **62–64** são do **Código de Defesa do Consumidor**, e **67–69** tratam de cerimonial; podem ajudar em leitura técnica, mas sua pertinência ao programa atual deve ser verificada antes de tratá-las como prioritárias.
+
+**Indicadores do corpus verificado nesta sequência:** **40 itens Correios 2011** (51–90, sendo o lote 51–64 conferido com espelho secundário do gabarito) mais **19 itens do CNMP 2023** com **ambos os PDFs oficiais inspecionados** = **59 questões históricas individualmente conferidas, 58 válidas e 1 anulada**, sem duplicação por prova e número. Esse total não é comparável ao número de artigos editados nem ao histórico provisório de exercícios inéditos.

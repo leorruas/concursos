@@ -30,7 +30,7 @@ export function blockedCamaraTiQuestions(root) {
 }
 
 export function assertCamaraTiQuestionAllowed(root, session, question) {
-  if (session.concursoId !== 'camara-2026' || question.origin === 'real') return;
+  if (session.concursoId !== 'camara-2026') return;
   const subject = question.subjectId || session.subjectId;
   const unit = question.unitId || session.unitId;
   if (subject !== 'informatica' && unit !== 'tecnologia-e-dados') return;

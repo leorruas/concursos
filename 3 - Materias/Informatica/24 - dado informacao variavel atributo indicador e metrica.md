@@ -171,8 +171,8 @@ Um indicador consistente no setor público e no plano estratégico da Câmara do
 ### Item 4
 > **Assertiva:** Um indicador de desempenho eficiente prescinde da definição de polaridade quando sua fórmula matemática de cálculo for baseada em proporções simples ou porcentagens.
 >
-> **Gabarito:** **ERRADO**  
-> **Comentário:** Para avaliar o desempenho de um indicador, é importante definir como interpretar o resultado; a polaridade é frequente, mas pode haver faixas desejáveis ou metas de estabilidade. A polaridade define o sentido desejável do resultado: se o percentual refere-se à "taxa de evasão escolar" ou "tempo de resposta a pedidos de informação", o sentido é "quanto menor, melhor"; se refere-se à "taxa de resolução de demandas", o sentido é "quanto maior, melhor". Sem polaridade, o gestor não sabe se a subida do percentual representa sucesso ou fracasso da gestão.
+> **Gabarito:** **NÃO HOMOLOGADO (redação normativa ambígua)**  
+> **Comentário:** Uma **proporção** ou **porcentagem**, por si, não determina o sentido desejável do desempenho. Para alguns indicadores, convém definir polaridade (“maior é melhor” ou “menor é melhor”); outros são avaliados por **faixa aceitável ou aproximação a uma meta**, sem polaridade única. A expressão “indicador de desempenho eficiente prescinde” torna a assertiva dependente da finalidade e da forma de avaliação. **Redação de treino:** “O fato de um indicador ser expresso em porcentagem não determina automaticamente a direção desejável do seu resultado.” **Gabarito reformulado: CERTO.**
 
 ### Item 5
 > **Assertiva:** Na modelagem de dados de um sistema legislativo, o atributo corresponde à propriedade ou característica de uma entidade que armazena determinado valor de uma variável em um registro de banco de dados.
@@ -197,3 +197,5 @@ Um indicador consistente no setor público e no plano estratégico da Câmara do
 5. **CÂMARA DOS DEPUTADOS.** *Planejamento Estratégico da Câmara dos Deputados: Cadeia de Valor e Painéis de Indicadores.* Brasília: Diretoria-Geral, 2024.
 
 > **Revisão editorial (11/11/2026):** ajustes localizados a partir da auditoria Câmara 2026, para explicitar o alcance das regras e separar exemplos hipotéticos de fatos. Os itens inéditos continuam sujeitos à validação integral de enunciados, comentários e referências.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** Item 4 **não homologado** devido à ausência de critério de avaliação no enunciado. Os demais itens 1–3 e 5–6 mantêm gabaritos em revisão conceitual; o modelo DIKW é uma estrutura didática, e o uso de “sabedoria” não deve virar alegação empírica universal sobre humanos e máquinas.

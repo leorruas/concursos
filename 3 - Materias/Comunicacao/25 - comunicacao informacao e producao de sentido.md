@@ -5,7 +5,7 @@ title: "Comunicação, informação e produção de sentido"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Comunicação, informação e produção de sentido
@@ -54,6 +54,18 @@ Esta é uma **ferramenta didática de leitura**, não uma lista universal de com
 **Situação 4, alteração da interpretação, sem mudar mensagem ou canal:** uma pessoa lê “a audiência foi transferida” e entende que foi adiada para outra data. A fonte quis informar mudança de local, e o público construiu outro sentido. Essa divergência não autoriza atribuir automaticamente ao receptor a responsabilidade integral pelo problema: a redação e o contexto também podem favorecer o equívoco.
 
 **Situação 5, alteração do critério de sucesso:** o órgão avalia apenas visualizações de página. Visualização pode indicar exposição ao conteúdo, mas não mede de forma suficiente entendimento nem comparecimento. Uma avaliação de resultado exige indicadores associados ao objetivo efetivo.
+
+## Auditoria autoral: informação matemática e interpretação social (11/11/2026)
+
+O artigo original de [Claude E. Shannon, *A Mathematical Theory of Communication* (1948), publicado no acervo Bell Labs](https://www.nokia.com/bell-labs/publications-and-media/publications/a-mathematical-theory-of-communication/) delimita o problema de engenharia à reprodução aproximada ou exata de uma mensagem selecionada entre possibilidades e registra que **aspectos semânticos ficam fora desse problema técnico específico**. Isso significa que a medida matemática de informação não mede diretamente a compreensão social da mensagem; **não significa que toda pesquisa da comunicação deva ignorar sentidos**. A distinção entre sinal transmitido, mensagem apresentada, significado interpretado e efeito no comportamento utilizada nesta nota é **síntese didática**, não uma sequência de resultados atribuída inteira a Shannon.
+
+No texto de [Roman Jakobson, *Linguistics and Poetics* (1960)](https://commons.princeton.edu/eng266-s25/wp-content/uploads/sites/433/2025/04/Jakobson-Linguistics-and-Poetics.pdf), um ato de comunicação verbal considera **remetente, destinatário, mensagem, contexto, código e contato**. Jakobson distingue fatores e funções da linguagem, enfatizando que uma mensagem pode mobilizar **mais de uma função** e que uma pode predominar. **Código não equivale ao canal ou contato**; contexto não é efeito comprovado. A lista de oito perguntas do início do artigo é uma ferramenta interdisciplinar que vai além do modelo de seis fatores do autor.
+
+**Conexão histórica sem duplicação:** [DPDF 2022, questão 51 C](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md) emprega modelo de Shannon em uma formulação analógica; o julgamento **não autoriza transpor automaticamente toda a teoria técnica ao funcionamento social de redes**. O item **CNMP 2023, 52 E**, também já indexado, testa cautela quanto à atribuição de diálogo/feedback circular à estrutura original.
+
+**C/E inéditos:** **1.** “Na teoria matemática de Shannon, a quantidade de informação de um sinal corresponde necessariamente ao grau de entendimento sociocultural do receptor.” **Errado**. **2.** “Uma mensagem recebida tecnicamente pode ser interpretada de modos diferentes conforme código, experiência e situação comunicativa.” **Certo**. **3.** “No esquema de Jakobson, o código é idêntico ao meio físico pelo qual se dá o contato entre remetente e destinatário.” **Errado**.
+
+**Limite:** esta passagem verifica as formulações originais de Shannon e Jakobson citadas, sem reivindicar leitura exaustiva dos livros de Fiske ou inspeção integral de todos os exemplos do artigo. Não se atribui o quadro didático de oito objetos a Jakobson.
 
 ## Relações com outros temas
 

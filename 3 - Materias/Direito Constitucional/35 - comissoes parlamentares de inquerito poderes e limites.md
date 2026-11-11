@@ -68,7 +68,7 @@ flowchart TD
     A --> C["Reserva Constitucional de Jurisdição (Vedados à CPI)"]
 
     B --> B1["Quebra de Sigilo Bancário, Fiscal e Telefônico (Dados/Registros)"]
-    B --> B2["Convocação Coercitiva de Testemunhas e Investigados"]
+    B --> B2["Convocação de depoentes; condução de testemunha faltosa conforme requisitos legais"]
     B --> B3["Requisição de Documentos, Registros e Perícias a Órgãos Públicos"]
     B --> B4["Ouvir Depoimentos sob Compromisso (exceto Investigados)"]
     B --> B5["Prisão em Flagrante Delito (como qualquer autoridade)"]
@@ -78,13 +78,14 @@ flowchart TD
     C --> C3["Decretação de Prisão Preventiva ou Temporária"]
     C --> C4["Apreensão de Passaporte / Proibição de Ausentar-se do País"]
     C --> C5["Indisponibilidade ou Sequestro de Bens"]
+    C --> C6["Condução coercitiva de investigado para interrogatório (ADPFs 395 e 444)"]
 
     classDef raiz fill:#fef3c7,stroke:#b45309,stroke-width:2px,color:#78350f;
     classDef criterio fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0369a1;
     classDef opcao fill:#f3f4f6,stroke:#4b5563,stroke-width:1.5px,color:#1f2937;
     class A raiz;
     class B,C criterio;
-    class B1,B2,B3,B4,B5,C1,C2,C3,C4,C5 opcao;
+    class B1,B2,B3,B4,B5,C1,C2,C3,C4,C5,C6 opcao;
 ```
 
 ### Quadro sinóptico de competências: o que a CPI PODE × NÃO PODE fazer
@@ -93,9 +94,11 @@ flowchart TD
 | :--- | :--- | :--- | :--- |
 | **Sigilos Constitucionais** | Quebra do sigilo de **dados bancários, dados fiscais e registros telefônicos/telemáticos pretéritos** (chamadas pretéritas, duração, números chamados e faturas) | **Interceptação telefônica direta** (escuta em tempo real do conteúdo da conversa) e interceptação de correspondência | STF MS 23.452 e MS 23.639. O conteúdo da comunicação viva depende de ordem judicial fundamentada (CF, art. 5º, XII). |
 | **Medidas Domiciliares** | Busca e apreensão de documentos em **repartições públicas, empresas ou locais não residenciais** | **Busca e apreensão domiciliar** em residência do cidadão | CF, art. 5º, XI: a casa é asilo inviolável, só penetrável durante o dia com determinação **judicial**. |
-| **Liberdade de Locomoção** | Condução coercitiva de testemunha legalmente intimada que se recuse a comparecer injustificadamente; **prisão em flagrante** de qualquer pessoa (ex.: falso testemunho flagrante) | **Decretar prisão preventiva ou prisão temporária**; reter passaporte de investigado; proibir saída do território nacional | A prisão preventiva é ato jurisdicional exclusivo do juiz de direito. Reter passaporte restringe liberdade sem base legal idônea da CPI (HC 84.444). |
+| **Liberdade de Locomoção** | Convocar testemunhas e, em hipóteses legalmente previstas, buscar a condução de testemunha regularmente intimada e injustificadamente ausente, observadas as garantias processuais; diante de crime em flagrante, comunicar e encaminhar a ocorrência à autoridade competente | **Conduzir coercitivamente investigado ou réu para interrogatório**; decretar prisão preventiva ou temporária; reter passaporte ou impor proibição de saída do país por decisão própria | STF, **ADPFs 395 e 444**: condução de investigado ou réu para interrogatório é incompatível com a Constituição. A situação da testemunha faltosa é distinta e exige observância das regras legais. |
 | **Patrimônio do Investigado** | Requisitar auditorias ao Tribunal de Contas da União e órgãos de controle financeiro | **Decretar arresto, sequestro ou indisponibilidade cautelar de bens** do investigado | Medidas cautelares patrimoniais reais dependem de pronunciamento jurisdicional motivado. |
 | **Inquirição e Prova Oral** | Intimar testemunhas, investigados e servidores públicos; tomar compromisso de dizer a verdade de testemunhas | Obrigar investigado a autoincriminar-se; desrespeitar o direito ao silêncio; violar sigilo profissional de advogado, médico ou ministro religioso | CF, art. 5º, LXIII (*nemo tenetur se detegere*); Estatuto da OAB (Lei 8.906/94); RHC 80.536. |
+
+**Condução de testemunha não se confunde com interrogatório compulsório de investigado.** Nas [ADPFs 395 e 444](https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADPF&numProcesso=395), julgadas em 14/6/2018, o STF declarou incompatível com a Constituição a condução coercitiva de investigados ou réus **para interrogatório**. A decisão não equipara automaticamente a situação de testemunha regularmente intimada, com dever legal de comparecimento, à de pessoa investigada que pode exercer o direito ao silêncio. A possibilidade de condução de testemunha faltosa depende dos requisitos legais, inclusive das garantias contra autoincriminação, e não autoriza a CPI a ordenar prisão cautelar ou interrogatório forçado. Em item C/E, a finalidade da condução e a condição processual do depoente são decisivas.
 
 ## 3. Requisitos de validade da quebra de sigilo por CPI
 

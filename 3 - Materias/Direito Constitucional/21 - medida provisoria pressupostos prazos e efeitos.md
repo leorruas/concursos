@@ -5,7 +5,7 @@ title: "Medida provisória: pressupostos, prazos, tramitação e efeitos"
 type: "conceito"
 status: "ativo"
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-11
 ---
 
 # Medida provisória: pressupostos, prazos, tramitação e efeitos
@@ -53,9 +53,11 @@ O rol do art. 62, § 1º, deve ser examinado por **objeto** e por **condição**
 
 **Fluxo geral:** edição presidencial → publicação → apresentação de emendas e comissão mista → parecer → **Câmara dos Deputados** → **Senado Federal** → conversão do texto original ou projeto de lei de conversão (PLV), ou rejeição/perda de eficácia.
 
-**1. Publicação e emendas.** A partir da publicação e **nos seis dias seguintes**, admitem-se emendas perante a comissão mista (Resolução **1/2002-CN**, art. 4º). **Emendas à MP são possíveis**, diferentemente das emendas vedadas ao projeto final de **lei delegada** submetido ao Congresso. A comissão deve observar a pertinência temática; emendas estranhas à matéria original são objeto de controle.
+**1. Publicação e emendas.** **Nos seis primeiros dias que se seguirem à publicação** da MP no Diário Oficial da União, podem ser apresentadas emendas perante a comissão mista, protocolizadas na Secretaria-Geral da Mesa do Senado Federal (Resolução **1/2002-CN**, art. 4º). **Emendas à MP são possíveis**, diferentemente das emendas vedadas ao projeto final de **lei delegada** submetido ao Congresso. A comissão deve observar a pertinência temática; emendas estranhas à matéria original são objeto de controle.
 
-**2. Comissão mista.** O Presidente do Congresso designa a comissão em **até 48 horas** da publicação da MP. A composição regimental é de **12 senadores e 12 deputados titulares**, com igual número de suplentes. A comissão analisa **relevância, urgência, adequação financeira e orçamentária e mérito**, e emite parecer. O **art. 62, § 9º** exige exame prévio por comissão mista de ambas as Casas; não confundir com comissão temática exclusiva da Câmara ou do Senado.
+**2. Comissão mista.** O Presidente do Congresso designa a comissão em **até 48 horas** da publicação da MP. A composição regimental básica é de **12 senadores e 12 deputados titulares**, com igual número de suplentes, **acrescida de uma vaga em cada Casa**, preenchida em rodízio por bancadas minoritárias que não tenham obtido representação pelo cálculo proporcional (Resolução 1/2002-CN, art. 2º, §§ 2º e 3º). **Exceção:** para MP que abra crédito extraordinário à lei orçamentária anual, o exame e o parecer cabem à **comissão mista do art. 166, § 1º, da Constituição**, observado o rito da Resolução (art. 2º, § 6º). A comissão analisa **relevância, urgência, adequação financeira e orçamentária e mérito**, e emite parecer. O **art. 62, § 9º** exige exame prévio por comissão mista de ambas as Casas; não confundir com comissão temática exclusiva da Câmara ou do Senado.
+
+**Atenção à aplicação da Resolução:** os **caputs dos arts. 5º e 6º** e o **§ 1º do art. 6º** constam da versão normativa consolidada com anotação de **inconstitucionalidade na ADI 4.029**, de 2012. Não utilizar esses trechos como autorização para dispensar o parecer prévio da comissão mista exigido pelo art. 62, § 9º, da Constituição.
 
 **3. Câmara como Casa iniciadora.** A votação se inicia **obrigatoriamente na Câmara** (**art. 62, § 8º**). A comissão mista não substitui o Plenário da Câmara. Primeiro há juízo constitucional de admissibilidade e depois deliberação de mérito; a Casa pode rejeitar, aprovar o original ou aprovar **PLV com alterações**.
 
@@ -144,3 +146,14 @@ O **Congresso Nacional deve disciplinar por decreto legislativo** as relações 
 - [Câmara dos Deputados: Guia de medida provisória](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/medida-provisoria).
 
 **Escopo:** este artigo aprofunda os prazos, vedações, tramitação e efeitos para a Câmara/Cebraspe. Os itens são inéditos e não representam desempenho do estudante nem prova real.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Fonte primária e recorte:** cotejo da [Constituição Federal, art. 62 e art. 167, § 3º](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) e da [Resolução nº 1/2002-CN, texto normativo atualizado](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html), em comparação com o texto didático, quadros, **oito casos progressivos** e **dez questões C/E**. Conferidos pressupostos de relevância e urgência, vedações materiais, vigência de 60 + 60 dias e recesso, urgência após 45 dias, comissão mista, Câmara como Casa iniciadora, conversão da MP original e PLV, reedição, perda de eficácia e preservação de relações jurídicas.
+
+**NC-PL-034: composição incompleta da comissão mista:** o texto anterior citava 12 senadores e 12 deputados titulares, com igual número de suplentes, mas omitia **uma vaga adicional de representação minoritária em cada Casa** (Resolução 1/2002-CN, art. 2º, § 3º). Incluída a ressalva de exame de MP de crédito extraordinário pela comissão do art. 166, § 1º, da CF (art. 2º, § 6º). **NC-PL-035:** redação do prazo de emendas alinhada ao art. 4º da Resolução (seis primeiros dias seguintes à publicação, protocolo no Senado); registrada a anotação oficial sobre inconstitucionalidade de dispositivos da Resolução pela ADI 4.029, preservada a exigência constitucional de comissão mista.
+
+**Dez gabaritos preservados, na ordem:** **E, C, E, C, E, E, C, E, C, C**. **Nenhuma inversão identificada** nos dez itens e oito casos examinados; as complementações tratam de precisão e cobertura normativa. O inventário não deve adicionar novamente estes itens.
+
+**Limites:** certificação jurídico-editorial do material escrito nesta data, não confirmação de todo o regime de aplicação jurisprudencial do trancamento de pauta, de cada hipótese especial, de aprendizagem do estudante ou da publicação e renderização visual no GitHub Pages.

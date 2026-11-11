@@ -115,7 +115,7 @@ O Conselho de Ética e Decoro Parlamentar é órgão integrante da estrutura ins
 
 ### Composição e mandato (art. 7º)
 - **Número de membros:** compõe-se de **21 membros titulares e igual número de suplentes** (redação dada pela Resolução nº 2/2011; o texto primitivo de 2001 previa 15 membros);
-- **Duração do mandato:** mandato de **dois anos**, vedada a recondução no mesmo biênio;
+- **Duração do mandato:** **dois anos**, com exercício até a posse dos novos integrantes (salvo encerramento da última sessão legislativa da legislatura). A vedação específica à reeleição para o mesmo cargo na eleição seguinte alcança **Presidente e Vice-Presidentes do Conselho** (art. 7º, caput e § 5º);
 - **Proporcionalidade partidária:** as vagas são distribuídas entre os partidos e blocos parlamentares segundo a proporcionalidade partidária da Casa;
 - **Regra especial da Corregedoria:** o partido a que pertencer o Corregedor da Câmara designará, como titular, **um deputado a menos** do que o número a que teria direito pela proporcionalidade, já que o Corregedor possui assento especial;
 - **Papel do Corregedor da Câmara (art. 9º):** participa de todas as deliberações do Conselho de Ética **com direito a voz, mas sem voto**, competindo-lhe promover as diligências de sua alçada para esclarecimento dos fatos investigados;
@@ -180,8 +180,8 @@ flowchart TD
    - No rito do art. 14, após a defesa, o relator tem **30 dias úteis de instrução para suspensão do mandato** e **40 dias úteis para perda**, seguidos de **10 dias úteis para parecer** (art. 14, § 4º, IV).
    - A deliberação de parecer no Conselho segue **maioria simples, com presença de maioria absoluta** de seus membros, conforme o Acordo de Procedimentos 2025–2027. Não confundir com o quórum da decisão sancionatória final do Plenário.
    - A **rejeição do parecer** exige designação de novo relator, preferencialmente entre aqueles que se manifestaram contrariamente ao primeiro (art. 14, § 4º, V). A **substituição por atraso** é outra situação: art. 16, § 4º prevê até **5 dias úteis** para completar a instrução pendente ou apresentar parecer após instrução concluída.
-6. **Recurso à CCJC (art. 14, § 4º, VIII; Regulamento, art. 20):**
-   - Da decisão do Conselho de Ética cabe recurso à **Comissão de Constituição e Justiça e de Cidadania (CCJC)**, interposto no prazo de cinco dias úteis.
+6. **Recurso à CCJC (art. 14, § 4º, VII; art. 13, IV):**
+   - Concluído o processo disciplinar, o representado pode recorrer à **Comissão de Constituição e Justiça e de Cidadania (CCJC)** em **5 dias úteis**, com efeito suspensivo, por violação constitucional, regimental ou do Código (arts. 13, IV, e 14, § 4º, VII). A CCJC decide em **5 dias úteis**.
    - **Natureza estrita do recurso à CCJC:** a CCJC atua com competência jurisdicionaliforme restrita, pronunciando-se **exclusivamente sobre vícios de constitucionalidade, regimentalidade e formalidades do Código de Ética**. É-lhe vedado reexaminar o mérito fático da acusação ou substituir o juízo político-disciplinar do Conselho.
 7. **Prazos máximos de tramitação (art. 16):**
    - O art. 16 fixa **60 dias úteis** para deliberação pelo Conselho ou pelo Plenário, conforme o caso, nos processos de **suspensão de prerrogativas ou do mandato**. Na **perda do mandato**, o limite é de **90 dias úteis** para deliberação do Plenário. Censuras não estão nesse intervalo.
@@ -248,12 +248,14 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 
 ## 10. Questões inéditas comentadas no padrão Cebraspe (Certo ou Errado)
 
+**Controle da revisão:** seis gabaritos mantidos após cotejo de seus núcleos com o Código consolidado, especialmente arts. 4º, 5º, 7º, 12–14 e 16. As questões são autorais, não itens oficiais da banca. A validação independente do Regulamento, precedentes e de todos os exemplos da nota segue pendente.
+
 ### Questão 1
 *(Inédita — Cebraspe / Câmara dos Deputados / Analista Legislativo)*
 > Constitui conduta atentatória ao decoro parlamentar fraudar, por qualquer meio ou forma, o regular andamento dos trabalhos legislativos para alterar o resultado de deliberação, sujeitando-se o infrator à penalidade de suspensão de prerrogativas regimentais pelo prazo máximo de trinta dias, a ser deliberada pela Mesa Diretora.
 
 - **Gabarito: ERRADO**
-- **Comentário:** O item acumula dois erros substantivos. Primeiro, fraudar o regular andamento dos trabalhos para alterar o resultado de deliberação é tipificado pelo Código de Ética como **ato incompatível com o decoro parlamentar** (art. 4º, IV), e não mero ato atentatório. Segundo, a sanção cominada pelo art. 4º é a **perda do mandato**, cuja competência é privativa do **Plenário da Câmara dos Deputados**, por voto aberto e maioria absoluta, e não penalidade temporária de trinta dias decidida pela Mesa.
+- **Comentário:** O art. 4º, IV, classifica a fraude do andamento dos trabalhos para alterar o resultado de deliberação como ato **incompatível com o decoro**, sujeito a processo que pode culminar na perda do mandato (art. 14, § 3º). A decisão sobre perda compete ao **Plenário**, em votação ostensiva e por maioria absoluta (art. 14, caput). O prazo de trinta dias e a competência sancionadora da Mesa propostos no enunciado não correspondem a esse regime.
 
 ---
 
@@ -262,7 +264,7 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 > A aplicação da penalidade de censura escrita a deputado que desrespeite verbalmente outro parlamentar nas dependências da Câmara dos Deputados compete à Mesa Diretora, mediante provocação do ofendido.
 
 - **Gabarito: CERTO**
-- **Comentário:** Exata dicção do art. 12 do Código de Ética: a censura escrita é aplicada pela Mesa Diretora por provocação do ofendido nas hipóteses de ofensas físicas ou morais cometidas nas dependências da Casa (art. 5º, III) ou, ainda, por solicitação do Presidente da Câmara ou de comissão em caso de reincidência nas condutas sujeitas a censura verbal.
+- **Comentário:** O art. 12 prevê censura escrita pela Mesa, por provocação do ofendido, para ofensa física ou moral ou desacato do art. 5º, III. A Mesa assegura previamente **5 dias úteis de defesa** e cabe recurso ao Plenário em **2 dias úteis** (art. 12, §§ 1º e 2º). Há também a hipótese de reincidência nas condutas do art. 11, mediante solicitação do Presidente da Câmara ou da comissão.
 
 ---
 
@@ -271,7 +273,7 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 > O Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados é composto por vinte e um membros titulares e igual número de suplentes, sendo expressamente vedado que a relatoria de processo disciplinar recaia sobre parlamentar que pertença ao mesmo partido político ou ao mesmo Estado de origem do deputado representado.
 
 - **Gabarito: CERTO**
-- **Comentário:** O Conselho compõe-se de 21 membros titulares e 21 suplentes com mandato de dois anos (art. 7º do Código, na redação da Resolução nº 2/2011). No âmbito procedimental, o art. 7º, § 1º, do Regulamento do Conselho consagra expressa vedação de que o relator seja da mesma legenda partidária ou da mesma bancada estadual do representado, preservando a equidistância e a imparcialidade do juízo disciplinar.
+- **Comentário:** O art. 7º, caput, do Código prevê **21 titulares, 21 suplentes** e mandato de dois anos. A vedação de designar relator do mesmo **partido ou bloco** ou do mesmo **Estado** do representado está expressa no **art. 13, I, a e b**, aplicável também ao rito grave pelo **art. 14, § 4º, I**. Na representação apresentada por partido, o relator também não pode integrar a agremiação autora (art. 13, I, c).
 
 ---
 
@@ -298,7 +300,7 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 > Da decisão final do Conselho de Ética e Decoro Parlamentar que concluir pela proposição de perda de mandato, cabe recurso do representado à Comissão de Constituição e Justiça e de Cidadania, à qual compete exercer o reexame integral das provas e do mérito político da representação.
 
 - **Gabarito: ERRADO**
-- **Comentário:** Conforme o art. 14, § 4º, VIII, do Código de Ética e art. 20 do Regulamento, da decisão do Conselho cabe recurso à CCJC, mas este órgão técnico pronuncia-se **exclusivamente sobre vícios formais, regimentais ou de constitucionalidade** apontados pelo acusado. A CCJC não pode reexaminar o mérito disciplinar nem rediscutir a valoração soberana das provas já sopesadas pelo Conselho.
+- **Comentário:** O recurso à CCJC está previsto no **art. 14, § 4º, VII**, com prazo de **5 dias úteis** e efeito suspensivo. A CCJC se pronuncia exclusivamente sobre os vícios **constitucionais, regimentais ou do próprio Código** indicados pelo representado, no prazo de 5 dias úteis. O inciso VIII disciplina a remessa à Mesa após a tramitação, não a hipótese de recurso. A proposta de reexame integral do mérito torna o enunciado errado.
 
 ## Fontes primárias e controle de vigência
 

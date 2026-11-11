@@ -100,7 +100,7 @@ Na dosimetria da pena, consideram-se natureza e gravidade da infração, danos �
 | **Censura Verbal** | **Presidente da Câmara** (em sessão) ou **Presidente de Comissão** (em reunião) | Incisos I e II do art. 5º | Cabe **recurso ao respectivo Plenário em 2 dias úteis** (art. 11, parágrafo único). |
 | **Censura Escrita** | **Mesa Diretora da Câmara** | Inciso III do art. 5º, mediante provocação do ofendido, ou reincidência nas hipóteses do art. 11 por solicitação do presidente da Câmara ou da comissão | **Defesa em 5 dias úteis** e **recurso ao Plenário em 2 dias úteis** (art. 12, §§ 1º e 2º). |
 | **Suspensão de Prerrogativas Regimentais** | **Plenário da Câmara dos Deputados** (por proposta do Conselho) | Incisos VI a VIII do art. 5º | Até **6 meses**; defesa **10 dias úteis**, diligências **15 dias úteis**, prorrogáveis uma vez por igual período; recurso à CCJC **5 dias úteis** (art. 13). |
-| **Suspensão Temporária do Exercício do Mandato** | **Plenário da Câmara dos Deputados** | Incisos IV, V, IX e X do art. 5º | Até **6 meses**; defesa **10 dias úteis**, até **8 testemunhas**, instrução **30 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva. Se a suspensão superar **120 dias**, o **suplente é convocado imediatamente após a publicação da resolução** (art. 14, § 2º). |
+| **Suspensão Temporária do Exercício do Mandato** | **Plenário da Câmara dos Deputados** | Incisos IV, V, IX e X do art. 5º; suspende também **todas as prerrogativas regimentais** (art. 14, § 1º) | Até **6 meses**; defesa **10 dias úteis**, até **8 testemunhas**, instrução **30 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva. Se a suspensão superar **120 dias**, o **suplente é convocado imediatamente após a publicação da resolução** (art. 14, § 2º). |
 | **Perda do Mandato** | **Plenário da Câmara dos Deputados** | Art. 4º (atos incompatíveis) | Defesa **10 dias úteis**, até **8 testemunhas**, instrução **40 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva (art. 14). |
 
 ### O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)
@@ -114,7 +114,7 @@ A penalidade de suspensão de prerrogativas regimentais incide sobre faculdades 
 
 ## 4. O Conselho de Ética e Decoro Parlamentar: composição e funcionamento (arts. 6º a 9º)
 
-O Conselho de Ética e Decoro Parlamentar é órgão integrante da estrutura institucional da Câmara dos Deputados, com competência para zelar pela ética, instruir processos disciplinares e responder a consultas sobre decoro.
+O Conselho de Ética e Decoro Parlamentar é órgão integrante da estrutura institucional da Câmara dos Deputados, com competência para zelar pela ética, processar e instruir representações nos termos dos arts. 13 e 14 e responder às consultas da Mesa, comissões, partidos políticos ou deputados sobre matérias relacionadas ao **processo político-disciplinar** (Código, art. 6º).
 
 ### Composição e mandato (art. 7º)
 - **Número de membros:** compõe-se de **21 membros titulares e igual número de suplentes** (redação dada pela Resolução nº 2/2011; o texto primitivo de 2001 previa 15 membros);
@@ -160,7 +160,7 @@ flowchart TD
  G2 --> I5["Parecer e votação após instrução"]
  G1 -->|Não| G3["Sem passagem automática ao rito grave"]
  E4 -->|Suspensão de prerrogativas| R13["Parecer com projeto de resolução: art. 13, III, b e V"]
- B --> I["Suspensão do mandato ou perda: art. 14"]
+ B --> I["Suspensão do mandato (e todas prerrogativas) ou perda: art. 14"]
  I --> I1["Relator e exame de admissibilidade"]
  I1 -->|Inépcia ou falta de justa causa em representação partidária| F2["Decisão terminativa; recurso ao Plenário por 1/10 da Casa"]
  I1 -->|Prossegue| I3["Defesa: 10 dias úteis; até 8 testemunhas"]

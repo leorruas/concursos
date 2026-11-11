@@ -3554,6 +3554,102 @@
       "statement": "A adoção de um painel de desempenho em um setor basta para classificar todas as práticas da organização como gerenciais.",
       "correctAnswer": "E",
       "explanation": "O painel evidencia um instrumento em um setor. A classificação mais ampla depende de observar como as demais práticas organizam decisões, procedimentos e controles."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / Redes sociais digitais oficiais",
+      "conceptId": "calendario-editorial",
+      "mechanism": "confundir-cronograma-com-criterio-editorial",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Primeiro eixo: estratégia de conteúdo, linha editorial e calendário"
+      ],
+      "statement": "Uma planilha informa dia, hora e canal de vinte postagens. Apenas com essas colunas, é possível identificar os critérios usados para decidir quais temas a equipe deve cobrir.",
+      "correctAnswer": "E",
+      "explanation": "A planilha informa quando e onde publicar. Os critérios de cobertura precisam ser explicitados na linha editorial ou em documentação equivalente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / Redes sociais digitais oficiais",
+      "conceptId": "serie-e-pauta",
+      "mechanism": "distinguir-programacao-recorrente-de-assunto-especifico",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes"
+      ],
+      "statement": "Em uma série semanal sobre serviços legislativos, “como enviar sugestões em uma consulta aberta nesta semana” pode ser a pauta de uma edição.",
+      "correctAnswer": "C",
+      "explanation": "A série estabelece a recorrência e o tema geral. A pauta delimita o assunto concreto de uma edição."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / Redes sociais digitais oficiais",
+      "conceptId": "priorizacao-editorial",
+      "mechanism": "priorizar-popularidade-sem-considerar-necessidade",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Seleção e priorização: cinco perguntas que mudam a escolha"
+      ],
+      "statement": "Ao escolher entre um vídeo comemorativo e um aviso sobre inscrições que terminam hoje, o maior número esperado de curtidas do vídeo é suficiente para demonstrar que ele deve ter prioridade.",
+      "correctAnswer": "E",
+      "explanation": "A priorização também considera urgência e necessidade de informação. Curtidas esperadas não medem o custo de deixar o público perder um prazo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / Redes sociais digitais oficiais",
+      "conceptId": "adaptacao-multicanal",
+      "mechanism": "preservar-conteudo-com-formatos-distintos",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Multicanalidade, adaptação e fonte institucional"
+      ],
+      "statement": "Para informar a mudança de local de um evento, a equipe pode publicar um aviso curto na rede social e remeter à página oficial com endereço, mapa e detalhes de acesso.",
+      "correctAnswer": "C",
+      "explanation": "Os formatos cumprem funções complementares. A rede alerta rapidamente e a página concentra os detalhes verificáveis."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / Redes sociais digitais oficiais",
+      "conceptId": "escuta-editorial",
+      "mechanism": "usar-comentarios-como-insumo",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Escuta, comentários e revisão de pauta"
+      ],
+      "statement": "Se vários comentários perguntam como confirmar a inscrição, essa recorrência pode orientar uma nova pauta de serviço, mesmo que a publicação original tenha alcançado muitas pessoas.",
+      "correctAnswer": "C",
+      "explanation": "As perguntas revelam uma necessidade de informação ainda presente. O alcance indica exposição, enquanto os comentários ajudam a identificar o que falta esclarecer."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / Redes sociais digitais oficiais",
+      "conceptId": "avaliacao-editorial",
+      "mechanism": "confundir-cumprimento-de-calendario-com-resultado",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Avaliação editorial: equilíbrio, pertinência, cobertura e resultados"
+      ],
+      "statement": "Publicar todas as postagens previstas demonstra, por si só, que o público conseguiu localizar o prazo de inscrição em cada uma delas.",
+      "correctAnswer": "E",
+      "explanation": "Cumprir o calendário mede execução. Localizar o prazo é uma tarefa do público que precisa de evidência própria."
     }
   ]
 }

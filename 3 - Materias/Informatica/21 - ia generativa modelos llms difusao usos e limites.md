@@ -154,7 +154,7 @@ flowchart TD
 > A arquitetura *Transformer*, introduzida no artigo *Attention Is All You Need*, superou a limitação das redes neurais recorrentes tradicionais ao viabilizar o processamento em paralelo dos dados de entrada e introduzir o mecanismo de autoatenção (*self-attention*), o qual calcula a interdependência contextual entre todos os tokens de uma sequência, independentemente da distância física que os separa.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Exposição perfeita e rigorosa da virada arquitetural do Transformer. O fim do processamento estritamente sequencial das RNNs viabilizou o treinamento massivo em GPUs e a autoatenção resolveu o problema de esquecimento contextual em frases longas.
+- **Fundamentação**: A autoatenção permite relacionar posições distantes e, no **treinamento de arquiteturas Transformer**, processar posições em paralelo em maior grau que RNNs tradicionais. Isso não elimina limites de contexto nem assegura lembrança perfeita; na **geração autorregressiva**, novos tokens continuam sendo produzidos sequencialmente. O núcleo do item permanece CERTO, considerando o processamento da entrada.
 
 ---
 
@@ -162,7 +162,7 @@ flowchart TD
 > Os grandes modelos de linguagem (LLMs) operam como sistemas estritamente conceituais de dedução lógica e validação ontológica, sendo imunes a falhas factuais e incapazes de gerar informações falsas, uma vez que sua arquitetura garante a veracidade empírica de todas as premissas geradas.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: Erro conceitual gritante. Os LLMs são modelos **probabilísticos e autorregressivos** de predição do próximo token (*stochastic parrots*). Eles não possuem entendimento factual do mundo nem verificação ontológica nativa, sendo amplamente sujeitos ao fenômeno da **Alucinação (*Hallucination*)**, gerando afirmações inverídicas com aparência de absoluta certeza.
+- **Fundamentação**: LLMs podem gerar afirmações factualmente incorretas com grande fluência. Muitos modelos de geração textual usam previsão probabilística de tokens e não possuem garantia arquitetural de verificação da verdade. Isso basta para refutar a imunidade a erros que o enunciado lhes atribui, sem precisar assumir uma tese filosófica definitiva sobre “entendimento”.
 
 ---
 
@@ -170,15 +170,15 @@ flowchart TD
 > A técnica de Geração Aumentada por Recuperação (RAG - *Retrieval-Augmented Generation*) consiste na integração de mecanismos de busca semântica em repositórios de dados externos confiáveis ao processo de geração de texto de um modelo de linguagem, atuando como importante contramedida contra o fenômeno das alucinações.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Definição canônica de RAG. Ao fornecer documentos fidedignos recuperados diretamente no contexto imediato do prompt, o modelo é instruído a limitar sua resposta às evidências documentais comprovadas, mitigando invenções e alucinações.
+- **Fundamentação**: RAG combina recuperação de informações externas e geração, podendo melhorar a fundamentação factual e reduzir alucinações quando a busca e as fontes são adequadas. A busca **não precisa ser exclusivamente semântica** e documentos recuperados não asseguram que a resposta os interprete corretamente. O gabarito CERTO é defensável no sentido de *exemplo de arquitetura e contramedida possível*, não como definição exaustiva ou garantia.
 
 ---
 
 ### Questão 4 (Cebraspe / Inédita)
 > Diferentemente dos modelos discriminativos, que aprendem a fronteira de decisão matemática para separar dados em categorias predefinidas calculando $P(Y \mid X)$, os modelos generativos buscam modelar a distribuição conjunta dos dados $P(X)$, viabilizando a síntese e a criação de novas instâncias e artefatos de conteúdo.
 
-- **Gabarito**: **CERTO**
-- **Fundamentação**: Distinção estatística formal e precisa entre IA Discriminativa e IA Generativa. Modelos discriminativos buscam a fronteira entre classes; modelos generativos aprendem como os dados são gerados no mundo para sintetizar novas amostras realistas.
+- **Gabarito**: **NÃO HOMOLOGADO (redação matemática imprecisa)**
+- **Fundamentação**: A distinção geral entre **modelos discriminativos** (por exemplo, modelar $P(Y\mid X)$) e **generativos** (modelar $P(X)$ ou uma distribuição conjunta $P(X,Y)$, conforme a tarefa) é útil. Porém, o enunciado chama **$P(X)$ de distribuição conjunta**, o que é matematicamente incorreto sem explicitar outras variáveis. A questão original deve ser reformulada antes de integrar simulados. **Redação sugerida:** “Enquanto classificadores discriminativos podem modelar $P(Y\mid X)$, modelos generativos procuram representar uma distribuição dos dados, como $P(X)$ ou, em classificação generativa, $P(X,Y)$, permitindo amostrar novas instâncias.” **Gabarito da versão reformulada: CERTO.**
 
 ---
 
@@ -225,3 +225,5 @@ flowchart TD
 - **Estratégia Brasileira de Inteligência Artificial (EBIA)**: Portaria MCTI nº 4.617/2021.
 
 > **Revisão técnica e jurídica (11/11/2026):** RAG reduz riscos, mas não elimina alucinações; requisitos de revisão humana e de transparência dependem do caso e do regime aplicável. Exemplos institucionais são hipotéticos. Alterações harmonizadas com as ressalvas já identificadas na auditoria de IA da Câmara.
+
+> **Auditoria de questões C/E, segunda passagem (11/11/2026):** Q1, Q2, Q3, Q5 e Q6 mantêm os gabaritos (C, E, C, E, E) com ressalvas técnicas nos comentários. **Q4 retirada de homologação por chamar $P(X)$ de distribuição conjunta**, oferecendo enunciado corrigido. Manter a questão original no histórico, mas não a usar sem reescrita.

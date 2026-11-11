@@ -167,8 +167,9 @@ flowchart TD
  I3 --> I4["Instrução improrrogável: 30 dias úteis para suspensão; 40 para perda"]
  I4 --> I5
  I5 --> I6{"Conselho vota parecer nominalmente"}
- I6 -->|Rejeitado| I7["Novo relator: art. 14, par. 4, V"]
- I7 --> I6
+ I6 -->|Rejeitado| I7["Designação de novo relator: art. 14, § 4º, V"]
+ I7 --> I8["Novo parecer submetido à discussão e votação"]
+ I8 --> I6
  I6 -->|Procedente| R14["Projeto de resolução: suspensão ou perda"]
  I6 -->|Improcedente ou requalificado| F3["Destino conforme resultado e competência"]
  R13 --> H["Possível recurso à CCJC: 5 dias úteis; efeito suspensivo"]
@@ -195,6 +196,8 @@ flowchart TD
  Y2 -->|Sim| Y4["Apresentar parecer em até 5 dias úteis"]
  Y -->|Não| Y5["Prossegue a contagem do rito aplicável"]
 ```
+
+**Rejeição do parecer no Conselho:** o art. 14, § 4º, V, obriga a designação de novo relator, preferencialmente entre os que se manifestaram contrariamente ao primeiro. O caminho de rejeição no fluxograma passa pela elaboração de outro parecer antes de nova discussão e votação, sem supor aprovação automática ou reaproveitamento do parecer rejeitado.
 
 **Remissões específicas do diagrama:** no ramo do art. 13, a conclusão de procedência consta do inciso III, b, enquanto o **encaminhamento do parecer instruído com projeto de resolução** é disciplinado pelo inciso V. No rito dos arts. 13 e 14, a Mesa recebe o processo e, **após leitura no expediente, publicação e distribuição em avulsos**, tem até **duas sessões ordinárias** para incluí-lo na Ordem do Dia (art. 16, § 2º).
 

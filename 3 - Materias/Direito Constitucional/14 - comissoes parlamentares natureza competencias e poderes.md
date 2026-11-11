@@ -5,7 +5,7 @@ title: "Comissões parlamentares: tipos, competências e poderes"
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-08
+updated: 2026-11-11
 aliases:
   - "Comissões permanentes e temporárias da Câmara"
   - "Comissões especiais, de inquérito e externas"
@@ -124,7 +124,9 @@ O **art. 58, § 2º, da Constituição** e o **art. 24 do RICD** atribuem compet
 
 **Situação G, composição partidária.** Bancada da Minoria não obtém vaga pelo cálculo proporcional. O **art. 23** assegura sua participação por ao menos um representante. Trocar **“tanto quanto possível”** por proporcionalidade absoluta ou eliminar a garantia da Minoria distorce a regra.
 
-## Refinamento CAM-PL-020: o funcionamento das comissões nos arts. 25 a 54 do RICD
+## Aprofundamento de CAM-PL-004: o funcionamento das comissões nos arts. 25 a 54 do RICD
+
+**Nota de rastreabilidade:** esta expansão integra a unidade **CAM-PL-004 (comissões)**. O código **CAM-PL-020** pertence à unidade de Mesa e órgãos da Casa (arts. 1º a 24), desenvolvida no [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|DC23]]. A mudança é de identificação editorial, sem suprimir o conteúdo sobre os arts. 25 a 54.
 
 ### O objeto específico desta expansão
 

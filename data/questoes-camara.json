@@ -4770,6 +4770,102 @@
       "statement": "A atuação da comissão mista abrange o acompanhamento e a fiscalização orçamentária, além da emissão de parecer sobre projetos de leis orçamentárias.",
       "correctAnswer": "C",
       "explanation": "O art. 166, § 1º, atribui as duas funções à comissão. A fiscalização acompanha a execução e tem finalidade distinta da apreciação dos projetos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / créditos adicionais",
+      "conceptId": "credito-suplementar",
+      "mechanism": "distinguir-reforco-de-nova-dotacao",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "statement": "Uma dotação para manutenção de elevadores já existe, mas seu saldo é insuficiente para cobrir o gasto previsto. O crédito destinado a reforçar essa dotação é suplementar.",
+      "correctAnswer": "C",
+      "explanation": "O art. 41, I, da Lei nº 4.320/1964 classifica como suplementar o crédito que reforça uma dotação existente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / créditos adicionais",
+      "conceptId": "credito-especial",
+      "mechanism": "confundir-falta-de-dotacao-com-insuficiencia",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "statement": "Para uma despesa sem dotação específica, sem urgência ou imprevisibilidade, o crédito adequado é suplementar porque a dotação disponível é zero.",
+      "correctAnswer": "E",
+      "explanation": "A ausência de dotação específica aponta para crédito especial. Suplementação pressupõe uma dotação existente a reforçar."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / créditos adicionais",
+      "conceptId": "credito-extraordinario",
+      "mechanism": "confundir-urgencia-com-imprevisibilidade",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "statement": "Uma despesa de manutenção anual, conhecida desde o planejamento, torna-se urgente porque sua contratação foi adiada. A urgência descrita, por si só, permite abrir crédito extraordinário.",
+      "correctAnswer": "E",
+      "explanation": "O art. 167, § 3º, da Constituição exige despesa urgente e imprevisível. O adiamento de despesa já conhecida não estabelece imprevisibilidade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / créditos adicionais",
+      "conceptId": "autorizacao-de-credito",
+      "mechanism": "confundir-autorizacao-com-abertura",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Autorização × abertura"
+      ],
+      "statement": "Na regra geral do art. 42 da Lei nº 4.320/1964, autorizar um crédito especial por lei e abri-lo por decreto executivo são atos distintos.",
+      "correctAnswer": "C",
+      "explanation": "A lei dá a autorização. O decreto executivo pratica a abertura na regra indicada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / créditos adicionais",
+      "conceptId": "recursos-para-creditos-adicionais",
+      "mechanism": "ignorar-comprometimento-do-recurso",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
+      ],
+      "statement": "Se todo o excesso de arrecadação apurado já está comprometido, ele pode ser reutilizado integralmente como recurso disponível para abrir outro crédito suplementar.",
+      "correctAnswer": "E",
+      "explanation": "O art. 43 considera os recursos desde que não comprometidos. Usar novamente a mesma parcela duplicaria a fonte."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / créditos adicionais",
+      "conceptId": "reabertura-de-credito-especial",
+      "mechanism": "limitar-reabertura-ao-saldo",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Vigência e reabertura"
+      ],
+      "statement": "O ato de autorização de um crédito especial de R$ 800 mil foi promulgado em outubro. Se o saldo ao encerrar o exercício foi de R$ 200 mil, a reabertura no exercício seguinte fica limitada a esse saldo.",
+      "correctAnswer": "C",
+      "explanation": "Outubro está nos últimos quatro meses do exercício. O art. 167, § 2º, limita a reabertura aos saldos."
     }
   ]
 }

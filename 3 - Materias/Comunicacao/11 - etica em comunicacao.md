@@ -5,7 +5,7 @@ title: "Ética em comunicação"
 type: "conceito"
 status: "ativo"
 created: 2026-07-15
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Ética em comunicação
 
@@ -102,6 +102,17 @@ A FGV costuma usar a literalidade do Código e alterar uma condição, um alcanc
 5. **Interesse público × audiência**: substitui finalidade pública por popularidade ou engajamento.
 6. **Cláusula de consciência**: trata divergência ideológica como motivo suficiente para não ouvir outra posição.
 7. **Sigilo da fonte**: apresenta como dever de revelar a fonte quando há pressão institucional; o Código reconhece o direito de resguardá-la.
+
+## Adaptação Câmara 2026: treino Cebraspe (itens inéditos)
+
+Este treinamento separa ética profissional, autorregulamentação publicitária e deveres de publicidade institucional. **Os itens abaixo são originais, não itens identificados em provas da Cebraspe.**
+
+- **Item 1.** O cumprimento de uma recomendação do CONAR, isoladamente, dispensa a publicidade institucional de observar o art. 37, § 1º, da Constituição. **Errado.** Autorregulamentação e dever constitucional pertencem a planos normativos diferentes.
+- **Item 2.** Uma informação literalmente correta pode induzir conclusão enganosa quando a comunicação omite condição relevante para sua interpretação. **Certo.** A avaliação ética exige considerar apresentação e contexto, além da exatidão isolada de uma frase.
+- **Item 3.** A proteção do sigilo da fonte e o dever de apurar informações devem ser tratados como questões idênticas, pois o primeiro substitui o segundo. **Errado.** São deveres e garantias com objetos distintos.
+- **Item 4.** Em campanha institucional da Câmara, a avaliação ética deve considerar a finalidade pública, o conteúdo, o regime normativo aplicável e os sujeitos envolvidos. **Certo.** Uma única regra profissional não esgota todas as exigências.
+
+**Remissões:** [[3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras|Regimes de ética]], [[3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao|Código CONAR]] e [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|Art. 37, § 1º]]. **Verificação pendente:** leitura atualizada e integral do Código da FENAJ e cotejo das demais normas, especialmente quando o enunciado exigir literalidade.
 
 ## Tensões e pegadinhas
 

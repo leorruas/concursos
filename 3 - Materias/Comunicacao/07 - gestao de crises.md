@@ -143,6 +143,10 @@ A banca tende a construir alternativas plausíveis deslocando boas práticas par
 - [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]]: objetivos, públicos, estratégia, táticas e avaliação.
 - [[3 - Materias/Comunicacao/18 - fact checking e desinformacao|Fact-checking e desinformação]]: rumores, verificação e correção de informações falsas.
 
+## Item anulado: CNMP 2023, papel do porta-voz (11/11/2026)
+
+O [item 60 do caderno oficial CNMP 2023, Comunicação Social](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF) relacionava rapidez na resolução de problemas ao papel do porta-voz em situações de crise. No [gabarito definitivo Cebraspe](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF), consta **X (anulado)**. **Consequência:** o item **não recebe classificação C/E válida** e não deve servir como prova de que porta-voz tem, ou não tem, competência operacional para resolver a crise. A distinção entre porta-voz, gestão da crise e resposta operacional continua necessária, mas deve ser sustentada por fontes de gestão e governança próprias.
+
 ## Heurísticas
 
 - **Crise não é sinônimo de incidente técnico.** Pergunte se há ameaça ampliada à confiança, reputação ou legitimidade.

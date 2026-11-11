@@ -431,3 +431,50 @@ O teste de **20 linhas para questão e 48 para peça** é suficiente para demons
 **Estado do inventário:** os três artigos cadastrados, hub e guia foram lidos; caminhos previstos 04–09 consultados e não encontrados nesses nomes. A busca pública de diretório e a API pública via consulta web não forneceram listagem confiável; não existe prova de ausência de arquivos órfãos. A auditoria não deve ficar declarando `inventário físico concluído` sem árvore de repositório ou listagem real. Os materiais compartilhados de outros agentes foram auditados quanto à **aplicabilidade discursiva**, mantendo a certificação integral das suas normas como responsabilidade das frentes correspondentes.
 
 **Status:** Fase 1 **parcialmente verificada** por indisponibilidade de listagem física exaustiva e ausência de experimento manuscrito ou avaliação de um texto real do estudante. Não transformar ausência de experimento em dado pessoal de proficiência. Sem modificação de notas de estudo, catálogos ou IDs.
+
+## Continuação: blocos 20–22, árvore física e mudanças concorrentes (11/11/2026)
+
+**Checkpoint:** blob do relatório `e4abded93417bafe1603d718ee69168242fbb3ed`; árvore GitHub `main` consultada por `/git/trees/main?recursive=1`, sem truncamento. As mudanças dos outros agentes foram preservadas. **Não houve edição de artigo, hub, índice ou catálogo por este auditor.**
+
+### Bloco 20: inventário físico [CONFERIDO; atualização temporal indispensável]
+
+A primeira consulta à árvore completa retornou **793 entradas** e exatamente **quatro arquivos na pasta de Redação**: `01 - leitura do tema e projeto de texto.md`, `02 - tese e linha argumentativa.md`, `03 - estrategias de argumentacao.md` e `redacao.md`. Essa consulta resolveu o bloqueio técnico das leituras anteriores e comprovou a inexistência de órfãos naquele instante.
+
+**Entretanto, agentes simultâneos publicaram novos conteúdos enquanto este relatório era atualizado.** Uma segunda consulta à árvore retornou **797 entradas**, `truncated: false`, e agora lista **seis arquivos**:
+
+| Caminho relativo a `3 - Materias/Redacao/` | SHA no segundo inventário | Estado |
+| --- | --- | --- |
+| `01 - leitura do tema e projeto de texto.md` | `10760ff60d31a7ff05acf52e709dd705620676cf` | Preexistente e auditado |
+| `02 - tese e linha argumentativa.md` | `bc41dfd39a643fe6284ca894cdcaa0b020b12043` | Preexistente e auditado |
+| `03 - estrategias de argumentacao.md` | `6a6c5c37f6c5e5155f5dcdeaa34175336caac8ea` | Preexistente e auditado |
+| `04 - decomposicao de comandos e quesitos cebraspe.md` | `468104948cb57e48567df59e061ae793ed2797de` | **Novo, criado por outra execução**; CAM-DIS-001; articleId `art-8c4e3f190be648b2` |
+| `05 - resposta conceitual curta de 20 linhas.md` | `f50ad545ff2ed0a7955af32d07d2090470b81915` | **Novo, criado por outra execução**; CAM-DIS-002; articleId `art-b3925d69a8174e0c` |
+| `redacao.md` | `529c6fad1693fe37f1618efd23903763a20e9430` | Hub atualizado por outra execução |
+
+O catálogo `data/catalogo-materias-por-concurso.json`, SHA `7942c59edacf9566d876febeda76a0bd63579139`, passou a listar os **cinco artigos** sob `subjectId: redacao`. Assim, **o diagnóstico de três artigos permanece histórico, não descreve mais o catálogo atual**. A pasta contém seis arquivos físicos, contando o hub. Isto também demonstra por que o relatório precisa usar árvores com SHA/timestamp em vez de assumir estabilidade em repositório com agentes concorrentes.
+
+### Bloco 21: avaliação dos dois novos artigos [LEITURA DIRETA, FASE 1]
+
+**04, Decomposição de comandos e quesitos na discursiva Cebraspe.** Apresenta método explícito `verbo → objeto → contexto → limites → grade → conferência`; separa o conceito de quesito do *espelho oficial* e o de grade construída pelo estudante; inclui exemplo e contraexemplo, exercício autoral de 20 linhas, autocorreção por atendimento de exigências e reescrita/reteste. **Decisão:** manter e auditar na próxima etapa de melhoria, sem substituição pelo artigo 01, que trata do recorte temático geral. **Lacunas residuais:** exemplo principal reconstrói um comando autoral a partir de padrão da PF em vez de trabalhar diretamente um enunciado oficial autenticado, embora a autoria esteja identificada corretamente; não há apresentação de várias respostas integrais que permitam comparar níveis de cobertura. Essa limitação é de profundidade pedagógica, não falsidade de proveniência.
+
+**05, Resposta conceitual curta de até 20 linhas.** Diferencia resposta nuclear técnica de tese opinativa, faz a passagem de grade a texto e oferece modelo de 12 linhas artificiais, grade de autocorreção linha a linha, contraexemplo, variação do comando, exercício manuscrito e revisão após 3–7 dias. **Decisão:** manter e aprimorar, pois começa a preencher a lacuna RD-001 sobre produção verificável de respostas curtas. **Limites residuais:** o exemplo de 12 linhas utiliza comando autoral inspirado em PF e não é demonstrativo de nota oficial; não documenta correção por dois examinadores, nem comparação de respostas de qualidade intermediária; o treino precisa de calibração com evidência de manuscrito e rubrica derivada do padrão oficial. O artigo reconhece seus limites sem inventar nota.
+
+**Hub:** a nova seção `Câmara dos Deputados 2026/2027: produção discursiva` encaminha para 04 e 05, preserva artigos 01–03 e explicita a inexistência de gênero predeterminado para a peça. O comentário sobre a Dataprev antiga ainda existe, mas foi marcado como histórico. **Achado de organização:** coexistem uma numeração da trilha genérica antiga, em que `04` significaria construção do parágrafo, e a nova numeração física `04` para decomposição; idem `05`, antes pensado como contra-argumentação. Uma futura intervenção deve harmonizar os roteiros do hub para evitar colisão sem renomear arquivos ou alterar IDs nesta Fase 1.
+
+**Resultado da revisão das lacunas:** a antiga afirmação `nenhum artigo contém exercício de resposta de 20 linhas` era verdadeira no inventário anterior, mas **não é mais verdadeira para o catálogo atual**. Agora existem dois módulos iniciais de execução. **Ainda falta produção guiada de peça técnica de 50 linhas como artigo canônico**, currículo de correção por tipo de falha e série progressiva de exercícios com rastreio. A peça de 48 linhas produzida neste relatório é demonstração autoral de auditoria, não artigo didático formal publicado.
+
+### Bloco 22: atualização da matriz e prioridades [INTERPRETAÇÃO; SEM EXECUÇÃO]
+
+| Competência | Evidência atual no catálogo | Situação |
+| --- | --- | --- |
+| Identificar recorte, verbo e objetos | Redação 01 + novo 04 | Cobertura explicativa e exercício inicial presentes; ampliar provas reais |
+| Responder questão curta com conceitos e mecanismos | Novos 04/05 + fundamentos 02/03 | **Parcialmente atendida**, com modelo e autocorreção; faltam sequência e avaliação externa |
+| Argumentação e pertinência | 02/03 e nota 05 | Base disponível, integrar mais tarefas específicas e comparação |
+| Normas e conceitos em resposta técnica | Comunicação/Constitucional compartilhados | Repertório presente; falta artigo de resposta normativa aplicada (DIS-004) |
+| Produzir peça técnica | Guia Câmara e exemplo autoral neste relatório | **Lacuna crítica persistente**: DIS-005, 006, 007, 008 ainda precisam de módulos de execução |
+| Uso do espaço, revisão e tempo | Nota 05 e guia | Orientações presentes; testar limite de folha e correções reais, DIS-009 |
+| Rastrear desempenho por quesitos | Notas 04/05: atendido/parcial/ausente/incorreto | Estrutura inicial presente; aplicação longitudinal e privacidade no cofre ainda por desenvolver |
+
+**Backlog corrigido quanto ao estado temporal:** RD-001 deixou de ser ausência total de modelo de 20 linhas e passa a ser **insuficiência de corpus progressivo e ausência de módulo completo de peça**. RD-004 (hub) foi parcialmente mitigada. RD-003 (treino operacional) começou a ser tratado por notas novas, sem evidência de proficiência individual. RD-002 (pareamento documental) permanece verificado no relatório; novas notas devem aproveitar os enunciados oficiais disponíveis, identificando claramente adaptação autoral. Prioridade editorial futura: DIS-005 (peça), DIS-009 (revisão), DIS-004 (normativa), DIS-006 (diagnóstico), DIS-007 (plano), DIS-008 (métricas) e DIS-003 (comparação), na ordem ajustada por dependências.
+
+**Separação de escopos:** as mudanças nos artigos novos e no hub ocorreram por **outros agentes**; esta auditoria apenas as identificou, leu e avaliou. A Fase 1 aqui permanece **parcialmente verificada**, com inventário físico agora resolvido e com reavaliação obrigatória caso haja novos commits na mesma pasta. A verificação exaustiva dos recortes de normas das matérias compartilhadas permanece na responsabilidade das respectivas frentes. Nenhum dado pessoal de tentativa foi publicado.

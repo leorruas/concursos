@@ -168,8 +168,8 @@ flowchart LR
 ### Questão 2 (Cebraspe / Inédita)
 > A técnica de Cadeia de Pensamento (*Chain-of-Thought* - CoT) induz os modelos de linguagem a explicitar etapas lógicas intermediárias de raciocínio antes de apresentar a conclusão final, o que comprovadamente eleva a precisão do sistema em tarefas que demandam dedução lógica, análise jurídica e resolução de problemas aritméticos.
 
-- **Gabarito**: **CERTO**
-- **Fundamentação**: Descrição impecável da técnica CoT (Wei et al., 2022). Ao gerar tokens intermediários de reflexão passo a passo, a probabilidade condicional da resposta final converge com muito maior precisão para o resultado correto, mitigando respostas precipitadas e incorretas.
+- **Gabarito**: **NÃO HOMOLOGADO (generalização empírica)**
+- **Fundamentação**: A técnica CoT pode incentivar decomposição explícita em etapas e **melhorar desempenho em algumas tarefas e modelos**, conforme resultados experimentais. O item afirma elevação comprovada da precisão em categorias amplas, incluindo **análise jurídica**, sem especificar modelo, teste ou condições. Essa generalização é insuficiente para uma resposta inequívoca C/E. **Reformulação:** “Prompts que pedem etapas intermediárias de resolução podem melhorar o desempenho de determinados modelos em tarefas de raciocínio, mas não garantem correção factual ou matemática.” **Gabarito reformulado: CERTO**.
 
 ---
 
@@ -177,7 +177,7 @@ flowchart LR
 > Em tarefas de extração factual de dados e análise de dispositivos legais de proposições legislativas, recomenda-se configurar a temperatura de inferência do modelo de linguagem com valores elevados, próximos a 1.5 ou 2.0, a fim de garantir a uniformidade determinística e a exatidão das respostas produzidas.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: Inversão completa da função da Temperatura. Valores elevados de temperatura (próximos a 1.0 ou superiores) aumentam a entropia e a aleatoriedade da amostragem, induzindo respostas criativas, variadas e fortemente suscetíveis a alucinações. Para tarefas que exigem **fidelidade factual, exatidão e determinismo**, a temperatura deve ser configurada com **valores baixos, próximos de 0.0 ou 0.1**.
+- **Fundamentação**: Em modelos que expõem temperatura como controle de amostragem, valores mais elevados tendem a ampliar a diversidade, **não a garantir uniformidade determinística**. Valores baixos podem reduzir variação, mas não asseguram exatidão jurídica ou matemática. A faixa disponível depende da API e do modelo. O gabarito ERRADO permanece correto.
 
 ---
 
@@ -193,7 +193,7 @@ flowchart LR
 > A estruturação de um prompt profissional com atribuição de papel (*persona*), delimitação de contexto fático, explicitação de restrições negativas e determinação rígida do formato de saída atua como contramedida eficaz para mitigar a ocorrência de alucinações e respostas genéricas em modelos de linguagem.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Princípio fundador da engenharia de prompts institucional. Delimitar o escopo semântico e proibir expressamente invenções forçam o modelo a operar em uma distribuição probabilística restrita e controlada.
+- **Fundamentação**: Instruções claras de papel, objetivo, contexto e formato **podem reduzir ambiguidade e respostas genéricas** e funcionar como uma medida de mitigação. Elas **não forçam cumprimento perfeito**, não impedem alucinações e precisam ser complementadas com fontes, validação e controles de segurança. A assertiva descreve possibilidade de mitigação, não garantia.
 
 ---
 
@@ -229,3 +229,5 @@ flowchart LR
 - **OpenAI / Anthropic**: *Prompt Engineering Guides and Best Practices for Developers*.
 
 > **Revisão técnica (11/11/2026):** prompting não garante precisão, CoT não substitui verificações, parâmetros de amostragem dependem do modelo e delimitação textual não é barreira suficiente contra prompt injection. A distinção entre Top-k (quantidade fixa de candidatos) e Top-p (probabilidade acumulada) foi preservada.
+
+> **Auditoria de questões C/E, segunda passagem (11/11/2026):** Q1, Q3, Q4, Q5 e Q6 preservam gabaritos (E, E, C, C, E) no seu núcleo. **Q2 não homologada**: afirma elevação comprovada da precisão em análise jurídica e outras tarefas sem delimitação empírica. Foi fornecida reformulação apta a estudo; avaliar exemplos e modelo na aplicação concreta.

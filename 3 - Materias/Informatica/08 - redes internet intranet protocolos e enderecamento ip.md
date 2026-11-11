@@ -150,7 +150,7 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** Pegadinha clássica e recorrente do Cebraspe. A intranet utiliza **exatamente a mesma tecnologia, os mesmos navegadores e a mesma pilha de protocolos TCP/IP da internet** (HTTP, HTTPS, FTP, SMTP, DNS, IP). A diferença entre internet e intranet não reside nos protocolos, mas no **acesso físico e lógico**, que é restrito aos membros de uma instituição mediante firewalls e autenticação.
+**Comentário:** Uma intranet **pode empregar os mesmos protocolos abertos utilizados na internet**, como IP, TCP, HTTPS e DNS. Seu caráter privado decorre de políticas e controles de acesso, e não de incompatibilidade obrigatória de protocolos. A palavra “incompatíveis” torna o enunciado ERRADO; não é necessário afirmar identidade tecnológica absoluta entre todas as redes.
 
 ---
 
@@ -161,7 +161,7 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** O TCP (*Transmission Control Protocol*) estabelece conexão prévia (*three-way handshake*), numera os pacotes para garantir a ordenação correta e retransmite qualquer segmento cujo recebimento não seja confirmado pelo destinatário (ACK).
+**Comentário:** O TCP estabelece conexão, usa números de sequência, confirmações e retransmissões para entregar um **fluxo de bytes ordenado e sem duplicações à aplicação**, enquanto a conexão funcionar. Isso não garante entrega em caso de falha definitiva da conexão nem implica preservar limites de mensagens ou pacotes. O gabarito CERTO decorre da descrição didática de sua confiabilidade.
 
 ---
 
@@ -172,7 +172,7 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** O SMTP é utilizado para **envio** de e-mails (e comunicação entre servidores MTA). Para o recebimento e consulta da caixa de entrada pelo cliente, utilizam-se o POP3 ou o IMAP. Ademais, quem apaga do servidor por padrão ao baixar é o **POP3**; o **IMAP mantém as mensagens sincronizadas no servidor**.
+**Comentário:** O SMTP é usado para **submissão e transporte** de mensagens. A consulta de caixas postais por clientes costuma usar IMAP ou POP3. **POP3 pode permitir exclusão das mensagens do servidor, conforme a configuração**, mas não implica apagamento obrigatório ou universal; IMAP facilita a sincronização da caixa postal. O item está ERRADO por atribuir recepção pelo cliente ao SMTP e armazenamento exclusivamente local ao IMAP.
 
 ---
 
@@ -183,7 +183,7 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** O IPv4 possui 32 bits ($2^{32} \approx 4,3$ bilhões de endereços). O IPv6 possui 128 bits ($2^{128} \approx 3,4 \times 10^{38}$ endereços), eliminando definitivamente o problema de escassez de endereços IP públicos no mundo.
+**Comentário:** O IPv4 possui 32 bits ($2^{32}$ endereços possíveis) e o IPv6 possui 128 bits ($2^{128}$ possibilidades teóricas), ampliando enormemente a capacidade de endereçamento. O espaço total não equivale ao número de endereços públicos efetivamente atribuíveis, e a adoção do IPv6 **não elimina instantaneamente restrições de implantação ou a necessidade de convivência com IPv4**. O gabarito CERTO permanece.
 
 ---
 
@@ -205,7 +205,7 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** O protocolo que atribui endereços IP dinamicamente e configurações de rede às máquinas clientes é o **DHCP** (*Dynamic Host Configuration Protocol*). O **DNS** (*Domain Name System*) é o serviço responsável pela resolução de nomes de domínio em endereços IP (converte URL amigável em IP).
+**Comentário:** **DHCP** fornece configurações de rede a clientes, como endereços IP e gateway, conforme o ambiente. **DNS** resolve nomes de domínio para registros como endereços IP; não “converte uma URL inteira em IP”, pois caminhos e parâmetros de uma URL não são nomes de domínio. O gabarito ERRADO é mantido.
 
 ---
 
@@ -228,3 +228,5 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 | **ICMP** | Rede / Internet | Mensagens de controle e diagnóstico (comando `ping`) | — |
 
 > **Atualização técnica (11/11/2026):** HTTP/3 usa QUIC, que opera sobre UDP, conforme [RFC 9114](https://www.rfc-editor.org/rfc/rfc9114.html). Alterações pontuais segundo TI-043 e TI-044 da auditoria; questões inéditas ainda não homologadas.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** seis itens examinados; gabaritos **E, C, E, C, C, E** mantidos como leitura introdutória. Justificativas qualificadas quanto a TCP, POP3, IPv6 e DNS. Referências técnicas para verificação: [RFC 9293, TCP](https://www.rfc-editor.org/rfc/rfc9293), [RFC 1939, POP3](https://www.rfc-editor.org/rfc/rfc1939), [RFC 8200, IPv6](https://www.rfc-editor.org/rfc/rfc8200).

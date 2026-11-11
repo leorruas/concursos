@@ -147,7 +147,7 @@ flowchart TD
  E3 --> E4{"Parecer do Conselho"}
  E4 -->|Improcedente| F["Arquivamento"]
  E4 -->|Pena menos grave| M["Proposta à Mesa: sanção menos grave conforme fatos e competência"]
- E4 -->|Pena mais grave| G["Nova representação e reabertura da defesa"]
+ E4 -->|Pena mais grave| G["Conselho propõe à Mesa representação por sanção mais grave"]
  E4 -->|Suspensão de prerrogativas| H["Recurso à CCJC: até 5 dias úteis, efeito suspensivo"]
  B --> I["Suspensão do mandato ou perda: art. 14"]
  I --> I1["Mesa encaminha ao Conselho; escolha de relator"]
@@ -161,7 +161,10 @@ flowchart TD
  I7 --> I6
  I6 -->|Procedente| H
  I6 -->|Improcedente ou requalificação| F3["Encaminhamento conforme resultado e competência"]
- G --> I1
+ G --> G1{"Mesa aprova a nova representação?"}
+ G1 -->|Sim| G2["Conselho reabre defesa e realiza instrução complementar: prazos do art. 14"]
+ G2 --> I5
+ G1 -->|Não| G3["Sem tramitação automática da sanção mais grave"]
  H -->|Houve recurso| H1["CCJC: só vícios jurídicos; 5 dias úteis"]
  H -->|Sem recurso| J["Parecer aprovado segue à Mesa"]
  H1 --> J

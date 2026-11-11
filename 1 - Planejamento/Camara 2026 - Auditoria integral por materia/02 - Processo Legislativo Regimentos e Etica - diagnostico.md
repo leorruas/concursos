@@ -1641,3 +1641,32 @@ Estas não conformidades são **bloqueadores editoriais pontuais**, e seu reparo
 **Integridade dos links internos:** **8 destinos distintos** extraídos do DC30 via sintaxe Obsidian foram consultados individualmente por caminho em `leorruas/concursos` e **8/8 existem**: DC10, DC11, DC12, DC17, DC18, DC29, ORC12 e ORC13. A nova ligação ORC05a também foi verificada diretamente antes da edição. Esse teste comprova presença dos arquivos fonte, **não renderização do site**, compatibilidade de âncoras ou navegação web publicada.
 
 **Exercícios e status:** os dez itens C/E do DC30 foram relidos e seus gabaritos preservados. Nenhuma certificação nova declarada; **DC30 permanece não certificado**, porque o controle de vigência e as relações entre dispositivos gerais e especiais ainda não foram integralmente encerrados. Contagem histórica desta frente: **16/29 artigos modificados e 1/29 certificado (DC29)**, sujeita à reconciliação com demais frentes.
+
+
+## Bloco 36: pós-reparo DC34, integridade estática do Mermaid e pipeline de publicação (11/11/2026)
+
+**Rechecagem do estado atual do GitHub:** recuperados `DC34` (blob SHA `1af57fc59882d6e58cbeded54dc588e07ad77331`), `direito-constitucional.md` (SHA `fffbd3787ae67845a0952f68c86a16d9312a1039`), `web/05-mermaid.js`, `web/03-article-navigation.js`, `web/04-markdown.js`, `index.html`, `.github/workflows/pages.yml` e `.github/workflows/validar-publico.yml`. O histórico do relatório registra também correções paralelas posteriores em DC30, até o commit `a247919ea8a79ec09c2cf5401f4dbdd00970ef8f`; não atribuir essas alterações a esta revisão.
+
+**DC34, confirmação textual após commit `936edbd`:**
+- `art.13 VI` consta no subtítulo; `art.13 V` não consta ali.
+- A formulação anacrônica `um deputado a menos` não consta mais como afirmação aplicável; a regra correta do Corregedor, voz e sem voto, permanece.
+- O material contém seção específica de suspensão cautelar, cita RICD art.15/Res.11/2024 e Ato da Mesa 180/2025 e distingue os prazos por ator e a sanção de mérito.
+- **Seis gabaritos autorais preservados**, em ordem E/C/C/E/E/E. Esse teste é **identidade dos gabaritos e leitura de trechos**, não revalidação independente de cada inferência jurídica do novo parágrafo.
+
+**Hub, confirmação após commit `c135c54`:** a referência a DC23 identifica CAM-PL-020 como coberta no próprio DC23 (arts.1–24) e a referência a DC14 identifica expansão CAM-PL-004 (arts.25–54). Os caminhos dos wikilinks não foram alterados.
+
+### Inspeção estática do único diagrama Mermaid do DC34
+
+Extraído o conteúdo integral de `\`\`\`mermaid ... \`\`\`` do artigo; conferidos por análise de texto **36 conexões, 32 identificadores de nós**, todos os conectores interpretados por padrão estrutural, **nenhuma linha de aresta fora do padrão testado**, fechamento de cerca e cabeçalho `flowchart TD`. O nó **N** de limites de prazo é uma legenda de apoio com **setas pontilhadas** que apontam para E e I, portanto não é alcançável pela raiz A no sentido do grafo, de maneira intencional. Os terminais encontrados foram C2, D2, F, M, F2, F3 e L, compatíveis com um fluxograma resumido que tem desfechos alternativos. O nó **H** recebe caminhos tanto do procedimento do art.13 quanto do art.14; representa um **passo compartilhado de recurso à CCJC**, mas não oferece garantias de que todos os sujeitos e etapas de ambos os ritos estejam representados. **A inspeção estática não é validação por parser oficial de Mermaid 11.15.0 nem comprova renderização SVG/UX.** Não afirmar que o gráfico foi renderizado.
+
+### Caminho de publicação realmente configurado
+
+O `index.html` inclui **Mermaid 11.15.0**, `marked`, `web/04-markdown.js`, `web/05-mermaid.js` e `web/03-article-navigation.js`. O código `web/05-mermaid.js` contém `mermaid.initialize(...)` e `mermaid.render(...)`, com tratamento de tema e modal; o carregamento do conteúdo do artigo usa `fetch(artigo.path, {cache: "no-cache"})`. Isso confirma **que existe implementação projetada para renderizar o diagrama**, e não que um deploy corrente tenha executado corretamente o caso DC34.
+
+O fluxo `.github/workflows/pages.yml` é acionado por `push` em `main`, ignorando mudanças **somente em pastas de planejamento e documentos operacionais**, portanto alterações de `3 - Materias/**` e do hub **não constam das exclusões**. Antes de publicar, executa testes de identidade e catálogos, busca, rotas, privacidade, build `scripts/build-site.js`, upload e deploy do GitHub Pages; em seguida chama `scripts/verify-live-pages.js` com URL do deployment. **O workflow não contém teste explícito de renderização visual do diagrama DC34**, nem os resultados/estado dos runs foram obtidos por esta revisão. A URL pública esperada por convenção do GitHub Pages **não foi acessível na consulta web**; isso não permite determinar se Pages está desativado, privado, em domínio próprio ou temporariamente indisponível.
+
+### Veredito deste bloco
+
+**PASSOU:** consistência textual dos reparos, identidade dos gabaritos, estrutura simples das arestas Mermaid e existência de pipeline de publicação com testes. **NÃO EXECUTADO/SEM EVIDÊNCIA:** parser Mermaid real, SVG renderizado, navegação em browser para DC14/DC23/DC34, status do build e validação do deploy publicado. **Pendente de certificação:** avaliação jurídica integral do novo regime cautelar versus casos, acordos e dispositivos do Código. **Sem novos erros normativos comprovados neste bloco**.
+
+**Próxima etapa efetiva:** obter resultado de workflow e verificar a publicação por ferramenta com acesso ao site ou navegador, depois validar o fluxograma DC34 visualmente, registrar falhas exatas e corrigir somente o comprovado. Para a certificação dos 29 artigos, exigir protocolo datado por texto, sem confundir o diagnóstico já concluído com a aprovação jurídica. **Nesta rodada foram atualizados exclusivamente relatório e índice; artigos, hub, JS, workflow, quiz e flashcards permaneceram intactos.**

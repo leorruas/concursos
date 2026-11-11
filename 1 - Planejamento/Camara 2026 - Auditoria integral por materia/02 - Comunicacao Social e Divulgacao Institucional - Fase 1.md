@@ -703,3 +703,17 @@ Foram editados três artigos ainda não modificados nesta sequência, com **conf
 **Métrica acumulada:** **24 artigos distintos modificados** entre 128 arquivos inventariados (18,75%). A cifra expressa apenas incidência de edição. **Itens novos com conferência dirigida nesta rodada:** 1 de Lazarsfeld, 3 de framing e 3 de gatekeeping, elevando de 41 para **48 itens** com alguma conferência dirigida. O grau de evidência difere entre os itens e está discriminado nos artigos. Não foram constatadas inversões de gabarito; a falta de leitura direta de obras importantes continua registrada e não equivale a aprovação do conteúdo completo.
 
 **Pendências mais relevantes:** textos primários *The People's Choice* (1944) e *Personal Influence* (1955), desenvolvimento do segundo nível de agenda-setting, checagem integral das obras de White, autores de Relações Públicas e os demais artigos do inventário. Não declarar a auditoria concluída.
+
+
+## Registro: Escola de Frankfurt e Stuart Hall (11/11/2026)
+
+**Artigos editados nesta rodada:**
+
+| Artigo | Resultado e evidência | Commit |
+| --- | --- | --- |
+| 38, teoria crítica/indústria cultural | Três gabaritos analisados, sem inversão demonstrada; item 1 sustentado por síntese acadêmica de Adorno; itens 2 e 3 preservam necessidade de consulta direta a passagens originais de Adorno/Benjamin e Horkheimer (1937) | [36aca68](https://github.com/leorruas/concursos/commit/36aca68eee0477d4126fb8d1d8e963f91d1efcce) |
+| 39, Stuart Hall | Três gabaritos C/E confirmados pela versão de 1980 de *Encoding/Decoding*, p. 171–173; corrigido link wiki de Comunicação pública; distinção entre três posições hipotéticas e código profissional | [b859735](https://github.com/leorruas/concursos/commit/b85973517e48d90161d79615f4e4294b7a22026d) |
+
+**Fontes externas:** [Stanford Encyclopedia of Philosophy: Adorno](https://plato.stanford.edu/entries/adorno/); [UFMG: pseudoindividualidade e indústria cultural](https://repositorio.ufmg.br/items/5ccb99a2-3148-4252-8220-ba917d23fc66); [Hall, *Encoding/Decoding*, 1980, reprodução acadêmica](https://spkb.blot.im/_readings/EncodingDecoding_HALL_1980.pdf). A versão Hall foi inspecionada nas páginas 171–172, e o relato respeita o recorte.
+
+**Métrica operacional acumulada:** 26 artigos distintos foram modificados dos 128 arquivos inventariados (**20,3% dos arquivos**). Em termos de itens com conferência dirigida, os 48 registrados anteriormente somam-se a **quatro novos itens com sustentação mais direta** (um em Frankfurt, três em Hall): **52 itens**. Os dois restantes do artigo 38 seguem com ressalva bibliográfica e não entram nesse acréscimo. Isso não demonstra 20,3% de auditoria integral concluída. Pendem fontes originais, verificação aprofundada das explicações, divergências entre 1973/1980, calibração por questões históricas e análise de todos os demais artigos. A coleção ainda está **parcialmente verificada**.

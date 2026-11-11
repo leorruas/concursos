@@ -568,3 +568,33 @@ Foi aberto e inspecionado o caderno Cebraspe `106_PF_CB2_01.pdf` (PF 2025, **Blo
 **Situação:** **79 achados históricos TI-001–079**, com erros corrigidos, hipóteses, riscos, evidências e melhorias de cobertura; não são 79 falhas abertas. **Dois cadernos oficiais cotejados com gabarito definitivo, 8 itens reais de TI individualizados, 7 julgáveis e 1 anulado**. **30/30 arquivos numerados de Informática lidos seletivamente, 28/28 CAM-TI nominalmente vinculados ao edital oficial, zero artigos integralmente homologados.** Não há ainda calibração real suficiente de **Word, Excel, PowerPoint, Power BI, Tableau, prompts, aprendizado por reforço e visualização**. Buscar caderno oficial compatível com cada núcleo e respectivas respostas definitivas, preservando as restrições de reprodução.
 
 **Neste bloco, nenhum artigo, questão inédita, hub, catálogo nem corpus de provas foi modificado; somente este relatório e o índice-mestre.**
+
+
+## Bloco 14: calibração Office com prova oficial Mossoró 2024 (11/11/2026)
+
+**Documentação primária inspecionada visualmente:** Cebraspe Prefeitura de Mossoró/RN, conhecimentos básicos cargos 1–2, prova **28/07/2024**, código `968_PREF_MOSSORO_ANALISTA_PROCURADOR_CB1_01`. [Caderno oficial, p. 3](https://cdn.cebraspe.org.br/concursos/pref_mossoro_rn_24/arquivos/968_PREF_MOSSORO_ANALISTA_PROCURADOR_CB1_01.PDF) e [gabarito definitivo, página única](https://cdn.cebraspe.org.br/concursos/pref_mossoro_rn_24/arquivos/GAB_DEFINITIVO_968_PREF_MOSSORO_ANALISTA_PROCURADOR_CB1_01.PDF), com código correspondente. Instrução pressupõe programas em **configuração padrão**, salvo ressalva.
+
+| Item | Síntese do tema | Gabarito definitivo | CAM-TI e aderência |
+|---|---|:---:|---|
+| 27 | Busca de arquivos no Explorador Windows e atalho | C | 001, parcial |
+| 28 | Alegação de OneDrive não permitir compartilhamento | E | 005, direta |
+| 29 | Lista de dispositivos Bluetooth, mouse, impressora | C | 001, periférica |
+| 30 | Menu de contexto do Explorador: copiar/colar/abrir | C | 001, direta |
+| 31 | Confusão da tela de bloqueio com papel de parede | E | 001, periférica |
+| 32 | Repetir cabeçalho de tabela Word e localização do comando | E | 002, direta |
+| 33 | `Salvar`/atalho supostamente duplica com outro nome | E | 002, direta |
+| 34 | Estilos de título no Word e criação de sumário | C | 002, direta |
+| 35 | Falsa impossibilidade de linha de tendência no Excel | E | 003, direta |
+| 36 | Segmentação de dados para filtrar Tabela Dinâmica | C | 003, direta |
+| 37 | Guia Design e configuração do mestre PowerPoint | E | 004, direta |
+| 38 | Guia Transições e exibição entre slides | C | 004, direta |
+
+**TI-080:** Terceiro caderno real Cebraspe com gabarito definitivo e 12 itens 27–38 confrontados, sem anulados nesta série. **Acumulado: 20 itens reais em 3 cadernos (INSA/MCTI 5, Anvisa 3, Mossoró 12), sendo 19 julgáveis e 1 anulado (INSA 42).**
+
+**TI-081:** Cobrança real de microoperações de Office e OneDrive: compartilhamento, estilos, `Salvar como`, comandos de Excel e guias de PowerPoint. Isso calibra a revisão futura de CAM-TI-002–005; não usar a amostra como frequência geral da banca.
+
+**TI-082:** Windows como sistema operacional isolado não consta expressamente no bloco literal TI do Edital Câmara; itens 27, 29, 31 têm aderência parcial/periférica, sem justificar expansão automática. Itens de arquivos/Office/OneDrive têm conexão mais direta.
+
+**TI-083:** O item 32 recebe E no gabarito oficial, mas a funcionalidade de repetir cabeçalho **existe** no Word. A razão específica para o julgamento E (incluindo a redação da guia/menu) **não foi comprovada por justificativa da banca**. Não ensinar que o recurso inexiste nem atribuir sem fonte única causa da resposta; cotejar versão e interface.
+
+**Estado:** 83 achados históricos, incluindo verificações positivas e erros anteriormente corrigidos, **20 itens reais (19 válidos + 1 anulado), 30/30 artigos numerados lidos seletivamente, 28 CAM-TI mapeados nominalmente e zero artigos integralmente homologados**. Ainda faltam corpus reais suficientes sobre BI, prompts, IA generativa, aprendizado por reforço e estatística visual. **Somente este relatório e o índice são alvos de escrita nesta rodada; teoria, questões e hub preservados.**

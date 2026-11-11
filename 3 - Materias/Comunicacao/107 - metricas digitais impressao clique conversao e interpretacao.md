@@ -5,7 +5,7 @@ title: "Métricas digitais: impressões, alcance, cliques, conversões e interpr
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Métricas digitais: impressões, alcance, cliques, conversões e interpretação
@@ -133,6 +133,14 @@ Essas medidas **não são intercambiáveis**. Uma sessão pode conter mais de um
 **Item 5.** Modelos de atribuição digital distribuem crédito entre contatos segundo regras, mas essa atribuição não basta, isoladamente, para demonstrar que a campanha produziu resultado incremental em comparação à ausência de exposição.
 
 **Certo.** Atribuição contábil e identificação causal são distintas. **Mecanismo avaliado:** fronteira entre mensuração e causalidade.
+
+## Conferência oficial: sessões engajadas e rejeição no GA4 (11/11/2026)
+
+A [ajuda oficial do Google Analytics](https://support.google.com/analytics/answer/12195621?hl=pt-br) define como **engajada** a sessão que atende a **pelo menos um** destes critérios: duração **superior a 10 segundos**, presença de **evento principal** (*key event*), ou **duas ou mais visualizações de página ou tela**. A **taxa de rejeição** do GA4 é a proporção de sessões **não engajadas**; portanto, **rejeição = 1 − engajamento**, quando calculados no mesmo universo de sessões. O número de páginas visto isoladamente não basta para definir rejeição no GA4.
+
+**Item 2 preexistente: Errado, confirmado diretamente.** O enunciado trata rejeição como sessão obrigatoriamente de uma página. **C/E inédito de retenção:** “Uma sessão com apenas uma visualização de página pode ser engajada no GA4 se registrar um evento principal, mesmo sem nova visualização.” **Certo.** Essa regra decorre da disjunção entre os três critérios, não de uma suposta prova de compreensão da página.
+
+**Caso numérico:** 800 sessões engajadas em 1.000 sessões representam **80% de engajamento e 20% de rejeição**, sob a mesma janela e instrumentação. Se o GA4 identifica uma inscrição como evento principal, isso afeta o critério de engajamento; a confiabilidade da inscrição deve ser verificada no sistema que a confirma. A [definição oficial de sessão](https://support.google.com/analytics/answer/12798876?hl=pt-BR) prevê timeout padrão de 30 minutos de inatividade, configurável. **Limite:** uma alteração de configuração ou instrumentação pode prejudicar comparabilidade histórica dos indicadores, e os outros quatro itens C/E desta nota não foram validados diretamente nesta rodada.
 
 ## Relações com outros temas
 

@@ -57,7 +57,7 @@ Preparação para **Cargo 1: Analista Legislativo, Comunicação Social, Divulga
 
 | Período | Foco | Entrega observável |
 | --- | --- | --- |
-| **11–15/11** | Linha de base: dois diagnósticos mistos P1/P2, distribuição equilibrada de temas, confiança e tempo; 1 discursiva de 20 linhas e esboço de peça técnica. Conferir inscrição e registro MTE. | Matriz de lacunas **medidas**, sem porcentagem de domínio inferida a partir de artigos |
+| **11–15/11** | Linha de base: três diagnósticos mistos de 20 itens P1/P2, distribuição equilibrada de temas, confiança e tempo; 1 discursiva de 20 linhas e esboço de peça técnica. Conferir inscrição e registro MTE. | Matriz de lacunas **medidas**, sem porcentagem de domínio inferida a partir de artigos |
 | **16–29/11** | Processos e espécies legislativas, regimentos básicos, comissões e competências; revisão objetiva de Comunicação e P1. | Baterias C/E por mecanismo, 2 peças/semana entre respostas curtas e trechos técnicos |
 | **30/11–13/12** | Regimentos e processo orçamentário do Legislativo; Ciência Política; teorias e normas de Comunicação Pública, publicidade e política institucional da Câmara. | 1 simulado intermediário identificado + pelo menos 2 revisões espaçadas de erros |
 | **14–27/12** | Cobertura de lacunas de maior risco, integração de disciplinas, prática de peça técnica e treino cronometrado. Natal com carga reduzida, sem débito acumulado. | 1 simulado de 180 itens em 5h + discursiva em ocasião separada, 3h |
@@ -78,6 +78,29 @@ Datas e carga são propostas e ajustáveis após o diagnóstico. Os blocos não 
 
 Uma sessão típica: **15 minutos de recuperação antes da leitura + 55 minutos de questões/diagnóstico + 35 minutos de leitura dirigida + 30 minutos de aplicação e correção**. Evitar criar obrigação rígida de quatro horas todos os dias. Reservar pelo menos um período semanal livre e adequar a carga à disponibilidade real. A partir dos resultados, redistribuir horas sem alterar o total por impulso.
 
+## Meta diária de questões e progressão até janeiro
+
+**Meta de referência: 30 itens Certo/Errado por dia, seis dias por semana, aproximadamente 180 itens por semana**, desde que seja possível corrigir com atenção os erros e os acertos inseguros. **Primeiras duas semanas (11–24/11): 20 a 25 itens por dia** para aprender o fluxo, realizar os primeiros diagnósticos e estudar os pré-requisitos; **a partir de 25/11: aproximar-se de 30/dia** conforme a capacidade real. Metas de volume não substituem raciocínio, retenção ou redação: não acumular dívida de itens quando um dia for dedicado a estudar uma lacuna.
+
+- **Distribuição inicial:** em uma jornada de 30 itens, cerca de **15 de P1 (conhecimentos básicos) e 15 de P2 (específicos)**, redistribuindo conforme os resultados e a necessidade de Regimento/Processo Legislativo. No início, 20–25 itens podem ser repartidos de forma equilibrada entre P1/P2.
+- **Formato operacional:** preferir 3 baterias curtas de 10 itens, com correção e checkpoint de cada uma, ou adaptar ao comando explícito. Misturar matérias nos diagnósticos, mas reservar parte do treino para aprender um mecanismo de cada vez.
+- **Simulados integrais:** em janeiro incluir blocos cronometrados de **180 itens objetivos**, sob a regra Cebraspe (+1 acerto, -1 erro, 0 branco), sem contabilizar uma prova integral como exigência adicional às questões do mesmo dia. Seguir o calendário de simulados já previsto.
+- **Discursiva:** **dois momentos de produção por semana**, alternando questões de até 20 linhas e peças técnicas de até 50 linhas, com correção por quesitos; não contar texto discursivo como item objetivo.
+- **Regra de qualidade:** priorizar corrigir integralmente a bateria e voltar ao artigo da lacuna; quando a correção demandar mais tempo, aceitar menos itens com registro explícito do motivo. Baterias novas do mesmo dia não provam retenção; retestes em outros dias continuam obrigatórios.
+- **Revisão da carga:** reavaliar a cada duas semanas a meta de 180 itens, a carga de 18–20 horas e a distribuição P1/P2; reequilibrar se uma delas não couber no tempo disponível.
+
+## Relatório de bateria, placar e leituras prioritárias
+
+**O relatório deve aparecer diretamente na página da conversa ao final de toda bateria**, após a correção da última questão, **sem depender de pedido adicional**. Ao fim do dia de estudo, oferecer um resumo do conjunto de baterias efetivamente registradas naquele dia. A interface do vault deverá reproduzir esse relatório **somente após integração autenticada com o cofre privado**, sem publicar desempenho pessoal como arquivo estático.
+
+**Placar obrigatório**: nome do concurso e da bateria, data, matéria(s), quantidade válida de itens, acertos, erros, brancos (apenas simulado), acertos inseguros, **pontuação líquida Cebraspe** (+1/-1/0), total possível e, quando houver dados suficientes, recorte P1/P2 e por matéria. Separar desempenho didático de itens reais calibrados, retenção espaçada de revisão imediata, e não inventar comparações, métricas nem pontuação de questões anuladas.
+
+**Diagnóstico obrigatório**: até três a cinco lacunas concretas identificadas por item e mecanismo, distinção entre confusão conceitual, desconhecimento, interpretação e distração, além de um próximo passo de estudo específico, proporcional aos achados. Um acerto seguro isolado não fecha uma lacuna anterior.
+
+**Leituras prioritárias obrigatórias**: **tabela com três a cinco artigos (ou menos se só houver tantos pertinentes)**, por prioridade, artigo, **link direto verificado para o trecho/subtítulo do GitHub Pages**, motivo fundamentado em questões erradas, respostas inseguras e pré-requisitos, e IDs das questões relacionadas. Agrupar questões que apontam para o mesmo artigo. Se o Pages ainda não estiver publicado ou a âncora for incerta, usar o link canônico verificado do GitHub com ressalva explícita; jamais inventar URL ou indicar artigos sem relação real com a sessão.
+
+**Persistência e privacidade**: gerar o relatório apenas com respostas realmente dadas e registradas em `leorruas/concurso-dados`; os links apontam para artigos públicos, mas **placar, respostas e diagnósticos pessoais ficam no cofre privado**. O site público não pode baixar nem incorporar JSON privado sem autenticação e autorização apropriadas. Enquanto a integração não estiver pronta, o relatório completo será exibido no ChatGPT ao concluir a bateria; não substituir resultados inexistentes por exemplos na página.
+
 ## Avaliação quinzenal e critérios de reajuste
 
 - Medir **pontuação líquida Cebraspe** (+1/-1/0), por P1/P2 e assunto, em itens com origem e dificuldade verificáveis; mostrar também acerto bruto e tempo por item.
@@ -89,6 +112,6 @@ Uma sessão típica: **15 minutos de recuperação antes da leitura + 55 minutos
 
 ## Primeira ação operacional
 
-Iniciar pela **linha de base de Divulgação Institucional**: **2 baterias diagnósticas de 30 itens cada (15 P1 e 15 P2 por bateria)**, com representação dos cinco blocos básicos e dos quatro blocos específicos, sem consulta, registrando origem, tempo e confiança. Questões inéditas sem corpus devem ser marcadas didáticas, nunca calibradas. Após a primeira bateria, identificar **3 lacunas de maior impacto observável** e selecionar leituras existentes; iniciar um treino curto de peça técnica ainda na primeira semana.
+Iniciar pela **linha de base de Divulgação Institucional**: **3 baterias diagnósticas de 20 itens cada (10 P1 e 10 P2 por bateria)**, com representação dos cinco blocos básicos e dos quatro blocos específicos, sem consulta, registrando origem, tempo e confiança. Questões inéditas sem corpus devem ser marcadas didáticas, nunca calibradas. Após a primeira bateria, identificar **3 lacunas de maior impacto observável** e selecionar leituras existentes; iniciar um treino curto de peça técnica ainda na primeira semana.
 
 Este é um **plano de preparação**, não registro de atividades realizadas. Todas as respostas pessoais, notas e progresso efetivo pertencem exclusivamente ao cofre privado. A prioridade Câmara desta decisão deve ser harmonizada nos roteadores padrão de estudo antes de comandos genéricos de retomada.

@@ -1170,6 +1170,134 @@
       "statement": "Ao consultar usuários antes de alterar o horário de atendimento, um órgão transfere a eles a competência para decidir o novo horário.",
       "correctAnswer": "E",
       "explanation": "A consulta recolhe informações e preferências relevantes para a decisão. A competência decisória continua com a instância responsável, salvo regra que disponha de outro modo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e aspectos gramaticais",
+      "conceptId": "modalizacao",
+      "mechanism": "confundir-permissao-com-obrigacao",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#2. Tipologia de Erros Frequentes nos Distratores do Cebraspe"
+      ],
+      "statement": "Judge whether the second sentence preserves the meaning of the first.\n\n“Staff may work remotely on Fridays.”\n\n“Staff are required to work remotely on Fridays.”",
+      "correctAnswer": "E",
+      "explanation": "May expressa permissão. Are required to introduz obrigação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e aspectos gramaticais",
+      "conceptId": "voz-passiva",
+      "mechanism": "preservar-agente-e-tempo",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1. Mecanismos Legítimos de Paráfrase no Padrão Cebraspe"
+      ],
+      "statement": "Judge whether the second sentence preserves the meaning of the first.\n\n“An external team reviewed the draft in April.”\n\n“The draft was reviewed in April by an external team.”",
+      "correctAnswer": "C",
+      "explanation": "A voz passiva muda o foco para o documento, mas preserva agente, evento e tempo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e aspectos gramaticais",
+      "conceptId": "escopo-de-negacao",
+      "mechanism": "generalizar-negacao-parcial",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#2. Tipologia de Erros Frequentes nos Distratores do Cebraspe"
+      ],
+      "statement": "Judge whether the second sentence preserves the meaning of the first.\n\n“Not all requests were approved.”\n\n“No requests were approved.”",
+      "correctAnswer": "E",
+      "explanation": "Not all indica que houve pelo menos um pedido sem aprovação. No exclui a aprovação de qualquer pedido."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e aspectos gramaticais",
+      "conceptId": "prazo",
+      "mechanism": "preservar-limite-inclusivo",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1. Mecanismos Legítimos de Paráfrase no Padrão Cebraspe"
+      ],
+      "statement": "Judge whether the second sentence preserves the meaning of the first.\n\n“Applications must arrive by 5 p.m.”\n\n“Applications must arrive no later than 5 p.m.”",
+      "correctAnswer": "C",
+      "explanation": "As duas formulações incluem o horário-limite e excluem chegadas posteriores."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e aspectos gramaticais",
+      "conceptId": "comparacao",
+      "mechanism": "confundir-igualdade-com-superioridade",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#2. Tipologia de Erros Frequentes nos Distratores do Cebraspe"
+      ],
+      "statement": "Judge whether the second sentence preserves the meaning of the first.\n\n“The revised plan is at least as costly as the original.”\n\n“The revised plan is necessarily more costly than the original.”",
+      "correctAnswer": "E",
+      "explanation": "At least as costly admite custo igual. More costly exige custo maior."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e aspectos gramaticais",
+      "conceptId": "quantificador",
+      "mechanism": "preservar-limite-superior",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1. Mecanismos Legítimos de Paráfrase no Padrão Cebraspe"
+      ],
+      "statement": "Judge whether the second sentence preserves the meaning of the first.\n\n“Each team can nominate no more than two candidates.”\n\n“Each team can nominate up to two candidates.”",
+      "correctAnswer": "C",
+      "explanation": "No more than e up to estabelecem o mesmo máximo de dois candidatos por equipe."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e aspectos gramaticais",
+      "conceptId": "temporalidade",
+      "mechanism": "converter-estado-passado-em-atual",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#2. Tipologia de Erros Frequentes nos Distratores do Cebraspe"
+      ],
+      "statement": "Judge whether the second sentence preserves the meaning of the first.\n\n“The service used to open on Sundays.”\n\n“The service currently opens on Sundays.”",
+      "correctAnswer": "E",
+      "explanation": "Used to situa o hábito no passado. Currently afirma que o serviço abre aos domingos no presente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e aspectos gramaticais",
+      "conceptId": "condicao",
+      "mechanism": "preservar-condicao-necessaria",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1. Mecanismos Legítimos de Paráfrase no Padrão Cebraspe"
+      ],
+      "statement": "Judge whether the second sentence preserves the meaning of the first.\n\n“Visitors can enter only if they show identification.”\n\n“Showing identification is necessary for visitors to enter.”",
+      "correctAnswer": "C",
+      "explanation": "Only if apresenta a exibição do documento como condição necessária para entrar. A paráfrase preserva essa relação."
     }
   ]
 }

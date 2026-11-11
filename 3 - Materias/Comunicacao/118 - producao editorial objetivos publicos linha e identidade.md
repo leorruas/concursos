@@ -5,7 +5,7 @@ title: "Produção editorial: objetivos, públicos, linha e identidade"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Produção editorial: objetivos, públicos, linha e identidade
@@ -196,6 +196,16 @@ Um produto com fontes corretas pode apresentar barreiras de acesso por linguagem
 **Item 8.** Uma versão resumida de relatório institucional pode selecionar informações e adaptar a linguagem a outro público, desde que preserve o contexto necessário para não transformar proporções, etapas ou condições em conclusões enganosas.
 
 **Certo.** Adaptação editorial legítima exige fidelidade factual e preservação do sentido. **Mecanismo avaliado:** fronteira entre síntese e distorção.
+
+## Verificação institucional: notícia de comissão não equivale a lei (11/11/2026)
+
+A [explicação oficial do processo legislativo da Câmara](https://www.camara.leg.br/entenda-o-processo-legislativo/) confirma que a aprovação em comissão tem **efeitos procedimentais diferentes** conforme o caráter conclusivo, as comissões ainda competentes, eventual recurso, a apreciação pela outra Casa e a fase de sanção ou veto. Em proposições com tramitação conclusiva, a aprovação pelas comissões competentes pode dispensar votação no Plenário da Câmara, mas isso **não equivale automaticamente à conversão do projeto em lei**.
+
+**Correção de precisão editorial:** ao escrever uma notícia, identificar **o órgão que decidiu, a etapa efetivamente concluída, o objeto aprovado e o passo seguinte**, sem afirmar que uma aprovação em comissão tenha criado lei nova. A frase “a comissão aprovou projeto que altera a lei” difere de “a lei foi alterada”; essa distinção exige checar a tramitação concreta. A [orientação para jornalistas da Câmara](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/tramitacao-das-proposicoes) diferencia análise conclusiva, encaminhamento a outras comissões, Plenário, Senado e sanção.
+
+**Item 5 preexistente: Certo, confirmado** pelas etapas descritas nas fontes institucionais: apresentar aprovação em comissão como transformação definitiva em lei pode ser informação inexata. **Treino C/E inédito:** “A aprovação conclusiva de uma proposição por comissões da Câmara permite afirmar, sem consultar as demais etapas legislativas, que a proposição já é uma lei em vigor.” **Errado.** É necessário verificar o estágio e os atos subsequentes.
+
+**Limite:** este cotejo confirma o item 5 e detalha o cuidado de redação. Os demais sete itens sobre gestão editorial exigem verificação separada; a fonte consultada não certifica todo o artigo.
 
 ## Relações com outros temas
 

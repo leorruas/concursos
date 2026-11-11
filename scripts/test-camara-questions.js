@@ -60,9 +60,12 @@ for (const pilot of config.pilotoDidatico) {
 const blockedTi = blockedCamaraTiQuestions(root);
 assert.equal(blockedTi.size, 13, 'CAM-TI: conferir alteração no total de itens não homologados');
 for (const item of blockedTi.values()) {
-  const q = {...question, subjectId:'informatica', unitId:'tecnologia-e-dados',
-    origin:'inedita', statement:item.statement, correctAnswer:'C', userAnswer:'C',
-    confidence:'secure', errorType:null, theoryRefs:[]};
+  const pilotTi = config.pilotoDidatico.find(x => x.subjectId === 'informatica');
+  const disciplineTi = index.contests.find(x => x.concursoId === 'camara-2026').subjects
+    .find(x => x.id === 'informatica').name;
+  const q = {...question, ...pilotTi, number:1, discipline:disciplineTi,
+    statement:item.statement, userAnswer:pilotTi.correctAnswer,
+    confidence:'secure', errorType:null};
   assert.throws(() => assertCamaraTiQuestionAllowed(root,session,q), /NÃO HOMOLOGADA/);
   assert.throws(() => validate({...session, questions:[q]}), /NÃO HOMOLOGADA/);
   // Nenhuma outra disciplina pode ser bloqueada pelo texto de Informática.

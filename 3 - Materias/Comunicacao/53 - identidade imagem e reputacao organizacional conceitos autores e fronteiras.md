@@ -182,6 +182,10 @@ Em uma proposta de divulgação institucional da Câmara dos Deputados, distingu
 
 Exemplo de projeto: **diagnóstico** de percepções com cidadãos e colaboradores; **planejamento** de mensagem e identidade visual sem prometer mudança reputacional automática; **entrega** de conteúdos acessíveis e práticas de prestação de contas; **avaliação** por compreensão, experiência de uso, confiança e grupos afetados, com método definido. Os conceitos orientam perguntas diferentes: a confiança de públicos não é um produto gráfico, e o reconhecimento de símbolo não é medida de legitimidade.
 
+## Questões reais Cebraspe: CNMP 2023, identidade e imagem (11/11/2026)
+
+No [caderno oficial CNMP 2023, Cargo 3: Comunicação Social](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), **item 57: Errado** ao minimizar o impacto de mudanças sociais e históricas na identidade organizacional; **item 66: Errado** ao afirmar que a imagem institucional, por natureza objetiva, deve ser percebida uniformemente por todos os colaboradores. O [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF) confirma os dois julgamentos. **Distinção cobrada:** identidade organizacional não é imune à história, e imagem é percepção situada, sem uniformidade obrigatória entre indivíduos e grupos. A prova não certifica toda taxonomia autoral de reputação, identidade ou *branding* da nota.
+
 ## Heurísticas
 
 **Albert e Whetten:** centralidade, distintividade e continuidade: atributos reivindicados, não identidade congelada. **Brown e coautores:** identidade = o que cremos ser; imagem pretendida = o que queremos que pensem; imagem externa construída = o que cremos que pensam; reputação = o que efetivamente pensam os públicos externos, na terminologia do modelo. **Hatch e Schultz:** expressão, reflexão, espelhamento e produção de impressões: processos relacionados, não etapas. **Fombrun:** reputação é julgamento sobre histórico e perspectivas; RQ é instrumento corporativo de seis dimensões, não essência universal da reputação.

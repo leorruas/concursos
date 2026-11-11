@@ -185,7 +185,7 @@ O **parágrafo único do art. 2º** remete expressamente ao glossário do **Anex
 
 ## Conferência de remissões: Ato nº 80/2019 e Ordem de Serviço Direx nº 7/2025
 
-**Distinção de fonte essencial:** o **art. 12, parágrafo único, do Ato da Mesa nº 218/2025** remete especificamente às **vedações do parágrafo único do art. 24 do Ato da Mesa nº 80/2019**. Não remete genericamente a todas as regras de eventos nem à Ordem de Serviço Direx nº 7/2025. O Ato nº 80/2019 trata de eventos e produtos gráficos e bibliográficos no âmbito das comissões. Sua [ficha oficial](https://www2.camara.leg.br/legin/int/atomes/2019/atodamesa-80-4-junho-2019-788269-norma-cd-mesa.html) informa não haver revogação expressa. **A redação exata das vedações do art. 24, parágrafo único, permanece pendente de cotejo direto:** não extrapolar seu conteúdo a partir apenas da ementa.
+**Distinção de fonte essencial:** o **art. 12, parágrafo único, do Ato da Mesa nº 218/2025** remete especificamente às **vedações do parágrafo único do art. 24 do Ato da Mesa nº 80/2019**. Não remete genericamente a todas as regras de eventos nem à Ordem de Serviço Direx nº 7/2025. O Ato nº 80/2019 trata de eventos e produtos gráficos e bibliográficos no âmbito das comissões. Sua [ficha oficial](https://www2.camara.leg.br/legin/int/atomes/2019/atodamesa-80-4-junho-2019-788269-norma-cd-mesa.html) informa não haver revogação expressa. **As oito vedações do art. 24, parágrafo único, foram posteriormente conferidas no texto atualizado**, conforme seção própria abaixo.
 
 A [Ordem de Serviço Direx nº 7, de 22/12/2025](https://www2.camara.leg.br/legin/int/ordser/2025/ordemdeservico-7-22-dezembro-2025-798598-publicacaooriginal-177618-direx.html) foi localizada em fonte oficial. Ela estabelece **procedimentos operacionais para o Programa de Visitação Institucional**, envolvendo supervisão, servidores, colaboradores terceirizados e turnos. Trata-se de objeto administrativo específico e de ato distinto do Ato nº 80/2019. Não transformar suas regras de visitação em regra universal de conteúdo ou de política editorial da Câmara. Sua relevância para o programa de Comunicação deve ser avaliada pelo objeto concreto do edital e pelo Manual.
 
@@ -196,6 +196,32 @@ A [Ordem de Serviço Direx nº 7, de 22/12/2025](https://www2.camara.leg.br/legi
 
 **Situação da auditoria:** identificação e escopo documental conferidos; conteúdo literal do parágrafo único do art. 24 do Ato nº 80/2019 ainda pendente. Fontes: [Ato nº 218/2025, art. 12](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), [Ato nº 80/2019, ficha](https://www2.camara.leg.br/legin/int/atomes/2019/atodamesa-80-4-junho-2019-788269-norma-cd-mesa.html) e [OS Direx nº 7/2025](https://www2.camara.leg.br/legin/int/ordser/2025/ordemdeservico-7-22-dezembro-2025-798598-publicacaooriginal-177618-direx.html).
 
+## Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida
+
+O **art. 12, parágrafo único, do Ato da Mesa nº 218/2025** aplica aos produtos de comunicação da Câmara as vedações do **art. 24, parágrafo único, do Ato da Mesa nº 80/2019**. O dispositivo original trata de produtos gráficos e bibliográficos no âmbito das comissões, enquanto o ato posterior realiza uma **remissão específica** para produtos de comunicação da Casa. As oito hipóteses abaixo foram cotejadas com o [texto atualizado do Ato nº 80/2019](https://www2.camara.leg.br/legin/int/atomes/2019/atodamesa-80-4-junho-2019-788269-normaatualizada-cd-mesa.html):
+
+| Inciso | Conteúdo vedado, em síntese fiel ao dispositivo |
+| --- | --- |
+| I | Propaganda político-partidária, eleitoral e sindical. |
+| II | Logomarcas ou textos destinados à promoção pessoal de candidatos a cargos eletivos ou diretivos de clubes, associações, sindicatos e organizações semelhantes. |
+| III | Enaltecimento pessoal ou de terceiros, mesmo associado a atividades parlamentares, legislativas ou administrativas. |
+| IV | Propaganda com objetivo comercial. |
+| V | Conteúdo discriminatório, preconceituoso, calunioso, difamatório, injurioso, ofensivo ou ilegal. |
+| VI | Informação protegida por direitos de propriedade intelectual sem autorização de divulgação. |
+| VII | Informação com restrição de acesso na forma da Lei nº 12.527/2011. |
+| VIII | Referência a sites externos cujo conteúdo incorra em alguma dessas vedações. |
+
+**Atenção à diferença de sujeitos e objetos:** o caput do art. 24 atribui a responsabilidade pelo conteúdo gráfico e bibliográfico das comissões a seu presidente. A remissão do Ato nº 218/2025, por sua vez, cita **as vedações do parágrafo único**: não autoriza inferir que o caput do art. 24 transfira automaticamente essa responsabilidade a todo produto comunicacional da Câmara.
+
+**Questões C/E inéditas:**
+
+- **Item 1.** O Ato nº 218/2025 estende aos produtos de comunicação da Câmara as oito vedações do parágrafo único do art. 24 do Ato nº 80/2019. **Certo.** A remissão textual é expressa.
+- **Item 2.** As vedações alcançam apenas propaganda eleitoral e partidária, admitindo o enaltecimento pessoal quando relacionado ao trabalho parlamentar. **Errado.** O inciso III proíbe esse enaltecimento mesmo nessa hipótese.
+- **Item 3.** Uma peça institucional pode violar o inciso VIII ao referenciar site externo cujo conteúdo incorra nas vedações do mesmo dispositivo. **Certo.** O alcance não se restringe ao texto próprio da peça.
+- **Item 4.** Por remeter ao parágrafo único do art. 24, o Ato nº 218/2025 atribui automaticamente ao presidente de cada comissão a responsabilidade por todos os produtos de comunicação de qualquer unidade da Câmara. **Errado.** O caput do art. 24 não é o objeto da remissão.
+
+**Fontes oficiais:** [Ato nº 80/2019, texto atualizado](https://www2.camara.leg.br/legin/int/atomes/2019/atodamesa-80-4-junho-2019-788269-normaatualizada-cd-mesa.html), art. 24; [Ato nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), art. 12, parágrafo único. Consulta em 11/11/2026. Os itens são exercícios originais, não questões históricas da banca.
+
 ## Fontes, versão e lacunas delimitadas
 
 - CÂMARA DOS DEPUTADOS. [Ato da Mesa nº 218/2025, texto da publicação original](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), arts. 1º a 16.
@@ -203,4 +229,4 @@ A [Ordem de Serviço Direx nº 7, de 22/12/2025](https://www2.camara.leg.br/legi
 - BRASIL. [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), arts. 37, § 1º, e 221, apenas nas conexões expressamente indicadas.
 - BRASIL. [Lei nº 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) (LGPD), citada pela política.
 
-**Lacunas de verificação:** o glossário do Anexo Único foi conferido diretamente e integrado acima. A remissão ao Ato nº 80/2019 e o objeto da OS Direx nº 7/2025 foram identificados e delimitados acima. Falta conferir o texto literal do art. 24, parágrafo único, do Ato nº 80/2019, e examinar os demais dispositivos pertinentes à aplicação da política. Nenhuma definição ou obrigação adicional desses textos foi presumida. A publicação do artigo é editorial e técnica e não demonstra estudo, resposta a itens ou retenção pessoal.
+**Lacunas de verificação:** o glossário do Anexo Único foi conferido diretamente e integrado acima. A remissão ao Ato nº 80/2019 e o objeto da OS Direx nº 7/2025 foram identificados e delimitados acima. O texto literal do art. 24, parágrafo único, do Ato nº 80/2019 foi conferido na seção acima. A revisão dos demais dispositivos pertinentes continua aberta. Nenhuma definição ou obrigação adicional desses textos foi presumida. A publicação do artigo é editorial e técnica e não demonstra estudo, resposta a itens ou retenção pessoal.

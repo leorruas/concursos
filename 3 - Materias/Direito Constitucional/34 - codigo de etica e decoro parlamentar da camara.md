@@ -110,6 +110,8 @@ A penalidade de suspensão de prerrogativas regimentais incide sobre faculdades 
 - O direito de candidatar-se a, ou permanecer exercendo, cargo de membro da Mesa, da Ouvidoria Parlamentar, da Procuradoria Parlamentar, de presidente/vice-presidente de comissão ou de membro de CPI;
 - O direito de ser designado relator de proposição em comissão ou no Plenário.
 
+**Definição do alcance (art. 13, VII e VIII):** o Conselho deve fixar quais prerrogativas serão atingidas, considerando **a atuação parlamentar pregressa do acusado, os motivos e as consequências da infração**. A suspensão pode atingir todas as prerrogativas enumeradas ou apenas algumas, por até seis meses. Esses critérios específicos complementam a dosimetria geral do art. 10, § 1º; a medida continua sujeita à deliberação do Plenário em votação ostensiva e por maioria absoluta (art. 13, caput).
+
 ## 4. O Conselho de Ética e Decoro Parlamentar: composição e funcionamento (arts. 6º a 9º)
 
 O Conselho de Ética e Decoro Parlamentar é órgão integrante da estrutura institucional da Câmara dos Deputados, com competência para zelar pela ética, instruir processos disciplinares e responder a consultas sobre decoro.

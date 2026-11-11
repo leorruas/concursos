@@ -121,12 +121,16 @@ try{
   mixed.learning.next={unitId:null,stage:'revisao',objective:'Retestar conceitos da bateria.',sourceIds:['mot']};
   mixed.questions[0].subjectId='auditoria-governamental';mixed.questions[0].unitId='u07';
   mixed.questions[1]={...structuredClone(mixed.questions[0]),number:2,discipline:'Direito Constitucional',conceptId:'controle-abstrato',mechanism:'item-extracurricular',subjectId:null,unitId:null,userAnswer:'C',correctAnswer:'C',errorType:null,theoryRefs:[]};
+  mixed.questions[2]={...structuredClone(mixed.questions[1]),number:3,discipline:'Auditoria Governamental',conceptId:'rotulo-nao-e-mapeamento',mechanism:'nao-inferir-do-rotulo'};
+  mixed.questions[3]={...structuredClone(mixed.questions[1]),number:4,discipline:'Políticas Públicas e avaliação',conceptId:'metodo-sem-unidade',mechanism:'classificar-sem-unidade',subjectId:'politicas-publicas',unitId:null};
   const badMixed=structuredClone(mixed);badMixed.questions[1].unitId='u07';
   assert.throws(()=>validateSession(badMixed,badMixed.id+'.json',root,contests),/sem matéria|não pode ter unidade/);
   const badMapping=structuredClone(mixed);badMapping.questions[0].unitId='up3-3-3';
   assert.throws(()=>validateSession(badMapping,badMapping.id+'.json',root,contests),/unidade incompatível/);
   validateSession(mixed,mixed.id+'.json',root,contests);
   const beforeMixedAudit=ctx('auditoria-governamental').results.aprendizagem.incorrect;
+  const beforeMixedPolicies=ctx('politicas-publicas').results.aprendizagem?.correct||0;
+  const beforeMixedUnit=ctx('politicas-publicas').units.find(u=>u.id==='up3-3-3').results.aprendizagem?.correct||0;
   const beforeMixedResume=read('data/contexto-estudo/indice.json').contests.find(c=>c.concursoId==='cgu-2026').resume;
   save(mixed);sync();
   const afterMixed=read('data/contexto-estudo/indice.json').contests.find(c=>c.concursoId==='cgu-2026');
@@ -134,7 +138,9 @@ try{
   assert.deepEqual(afterMixed.resume,beforeMixedResume,'Sessão mista não altera ponto de retomada curricular');
   assert.equal(ctx('auditoria-governamental').results.aprendizagem.incorrect,beforeMixedAudit+1,'Questão mapeada deve entrar no resultado da matéria');
   assert.equal(ctx('auditoria-governamental').units.find(u=>u.id==='u07').results.aprendizagem.incorrect>=1,true);
-  assert.equal(read('data/questoes-ledger.json').questions.filter(q=>q.sourceId===mixed.id).length,2);
+  assert.equal(ctx('politicas-publicas').results.aprendizagem.correct,beforeMixedPolicies+1,'Questão com matéria e sem unidade entra apenas na métrica da matéria');
+  assert.equal(ctx('politicas-publicas').units.find(u=>u.id==='up3-3-3').results.aprendizagem?.correct||0,beforeMixedUnit,'Não inventar unidade para classificação parcial');
+  assert.equal(read('data/questoes-ledger.json').questions.filter(q=>q.sourceId===mixed.id).length,4);
   const sameLedger=read('data/questoes-ledger.json').questions.length;
   assert.equal(prepare(root).operations.length,0,'Reprocessar sessão mista não duplica questões');
   assert.equal(read('data/questoes-ledger.json').questions.length,sameLedger);

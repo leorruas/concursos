@@ -675,3 +675,83 @@ Esta matriz reúne **famílias de trabalho**, sem pretensão de contar erros ind
 **Três itens reavaliados:** `30#1` **C com suporte institucional forte**, `28#3` **C provisório com fontes gramaticais divergentes**, `23#5` **retirar provisoriamente da seleção de itens confiáveis**, enquanto o enunciado permanecer como está. **Não há inversão de gabarito demonstrada**. Nenhum item autoral integralmente homologado nesta rodada.
 
 **Estado cumulativo:** 34/34 artigos numerados examinados seletivamente, hub e 20/20 subitens oficiais associados a notas candidatas, registros PT-001–PT-118 com seis IDs historicamente colididos (PT-011–016), **zero artigos e itens integralmente certificados**. **Próximo passo de Fase 1:** consolidar plano executivo de reparos com decisões por alvo; testar precedentes originais quando disponíveis; efetuar **gate documental de saída** que registre o que está comprovado e o que foi transferido para Fase 2. Os 34 artigos, hub, JSON e auditorias paralelas permanecem intactos.
+
+
+## Bloco 18: plano executivo de reparos, classificação por artigo e gate documental (11/11/2026)
+
+### Ajuste de premissa de arquitetura e privacidade
+
+A releitura do protocolo em `AGENTS.md` e `CHAT.md` confirma: **`3 - Materias/**/Avancos.md` e os indicadores de desempenho são registros privados em `leorruas/concurso-dados`**, e os materiais teóricos e catálogo vivem em `leorruas/concursos`. **Retificação do diagnóstico PT-084/PT-097:** ausência de `Avancos.md` na árvore **pública** é **intencional pela arquitetura de privacidade**, não defeito suficiente para solicitar criação de arquivo público. Há ainda um **risco de navegação** em `portugues.md`, `02` e `06` que exige verificar o comportamento do renderizador quando vê remissão privada; não publicar `Avancos.md` como “reparo”. Do mesmo modo, `PT-085/PT-095` (ausência de `camara-2026` em `data/edital-itens.json`) devem ser avaliados contra **contrato atual de ingestão e metadados** antes de propor mutação; não inferir necessidade de copiar registros privados para JSON público.
+
+### Critério de priorização
+
+**P0 (erro que pode levar a marcar C/E errado):** inferência e escopo, normas expostas como regras universais, distorções factuais e ortográficas. **P1 (ambiguidade, fundamentação insuficiente e cobertura do edital):** questões autorais não homologadas, regência, estrutura e exemplificação explícita de termos da oração, encadeamento entre noções. **P2 (navegação, legibilidade e governança):** remissões e referências sem fonte, rótulos temporais, organização, repetição de trilhas. O critério de aceite é **testar a frase, o contraexemplo, a exceção e os itens C/E ligados ao conceito**, evitando alterações cosméticas que perpetuem mecanismos errados.
+
+### Matriz executiva dos 34 artigos, intervenção sugerida
+
+A matriz representa **decisões editoriais recomendadas para Fase 2/3**, não correções executadas nem nova certificação integral. Artigos base 01–11 são reaproveitados por Dataprev; **manter seus IDs e não converter conteúdos FGV em regras de banca Cebraspe**.
+
+| Artigo | Intervenção proposta | Prioridade | Teste de aceite e dependência |
+| --- | --- | --- | --- |
+| `01` interpretação | **Corrigir/ampliar** diferença implicação/equivalência e reescrita | P0 | Comparar `todos/alguns` nas duas direções; revisar exemplos C/E e legados FGV; ligação `12–14` |
+| `02` sujeito | **Manter/reorganizar** como base de 23 | P2 | Sujeito recuperável, `haver/existir`, funções de `se`; resolver remissão privada pelo contrato |
+| `03` pontuação | **Corrigir** inferência de relativas; harmonizar com 26 | P0 | Distinguir grupos reais e referentes, vírgula por função, exemplos antepostos |
+| `04` regência | **Corrigir e referenciar** generalizações e estado da crase | P1 | Testar molduras sintáticas e conferir se afirmações de ausência de crase são desatualizadas |
+| `05` acordo | **Corrigir** hífen e registros legados | P1 | Cotejar VOLP e exceções `co-`; rever links datados sem publicar notas privadas |
+| `06` concordância | **Revisar/harmonizar** com 27 | P1 | Porcentagens, `ou/nem`, concordância em locuções; link privado `Avancos` |
+| `07` orações | **Corrigir** escopo de relativas, conectores e remissões | P0 | Não inferir subgrupo externo; alinhar com 20,24,25 |
+| `08` coesão | **Manter** como síntese, acrescentar referências à trilha | P2 | Função de conectivos, anáfora e tempos; corrigir âncora que chega de 09 |
+| `09` tipos/gêneros | **Manter/reorganizar** como base de 15/16 | P2 | Distinguir tipo/gênero, classificação contextual e âncora inválida `09→08` |
+| `10` reescrita | **Ampliar/refinar** critérios de equivalência e registro | P1 | Evitar supressão de condições, pressupostos ou efeito jurídico; integrar 32–34 |
+| `11` crase | **Manter e atualizar** FGV/Dataprev, vínculo com 29 | P2 | Testes de artigo+preposição e exceções; não certificar como trilha completa |
+| `12` texto/contexto | **Ampliar remissões** aos conceitos 13/14 | P2 | Coesão, coerência e pragmática; verificar acesso a exemplos |
+| `13` tema/tese | **Manter/refinar** conexão com redação e 14 | P2 | Tese como proposição sustentada, sem exigir juízo axiológico |
+| `14` inferência | **Corrigir** restritivas, pressupostos e alcance de explicativas | P0 | Contraexemplos sem subgrupo externo; revisar Q5 |
+| `15` tipologia | **Corrigir/reformular** Q3, injunção jurídica e narrativa prototípica | P0 | Comparar argumentação técnica versus exposição; não confundir gênero normativo e sequência |
+| `16` gênero | **Reorganizar/refinar** suporte, intergenericidade, Q6 | P1 | Classificar gênero, função e sequência de trechos separadamente |
+| `17` ortografia | **Corrigir** `minirsaia`, `pro-i-be`, hífen | P0 | Conferir formas pelo VOLP e propagar a todos os exemplos e questões |
+| `18` referência | **Revisar** anáfora demonstrativa e encapsulação | P1 | Testar `este/aquele` por referente contextual, analisar Q2 |
+| `19` substituição | **Corrigir/refinar** hiperonímia versus equivalência, `fez o mesmo` | P0 | Reconstituir evento e conteúdo; corrigir erro de revisão tipográfico |
+| `20` conectores | **Corrigir** universais `como/posto que/à medida que` | P1 | Exibir exemplos de causalidade, conformidade, concessão e proporção |
+| `21` tempos verbais | **Corrigir** inferência factual e aspecto verbal | P0 | Indicativo não comprova fato; perfectivo não é necessariamente pontual |
+| `22` classes | **Reorganizar/refinar** classes/função e adjetivo | P1 | Casos substantivados, classe por contexto e função sintática |
+| `23` termos | **Revisar** árvore AA/CN e **suspender Q5** | P1 | Não aceitar aposto específico `princípio da moralidade` sem fonte direta; testar termos da oração |
+| `24` coordenação | **Corrigir** absolutos de pontuação e contraste lógico | P1 | Conjunções `e/mas/pois`, termos coordenados e contextualização de vírgula |
+| `25` subordinação | **Corrigir** restritivas e exemplo de estabilidade; revisar Q4 | P0 | Art. 41 CF inclui avaliação especial; distinguir referência e condição jurídica |
+| `26` pontuação | **Corrigir** regra da vírgula “3+ palavras” | P0 | Aplicação por função, estrutura e efeito; consistência com 03 |
+| `27` concordância | **Revisar** porcentagem e plurais aceitos | P1 | Validar regência e concordância em cada estrutura antes de concluir facultatividade |
+| `28` regência | **Revisar** `implicar/visar/informar`, justificar Q2/Q3/Q5 | P1 | Respeitar diferença tradição/uso, Senado, banca e fontes; Q3 pendente, Q5 E sustentado |
+| `29` crase | **Corrigir** classe de `garante` e reescrever Q5 | P0 | Formas contextuais completas; artigo+preposição sem alteração silenciosa de regente |
+| `30` colocação | **Corrigir** termo `toponímia`; qualificar absolutos | P0 | STJ/FUNAG sustentam Q1 C, mas verificar casos restantes e manter escopo da norma |
+| `31` semântica | **Revisar/refinar** polissemia/homonímia | P1 | Conferir verbetes, sentido contextual e ambiguidade, não só etimologia |
+| `32` reescrita lexical | **Reorganizar/harmonizar** com 01/10 | P1 | Duplo teste correção/semântica; retirar frequências não sustentadas |
+| `33` reorganização | **Corrigir/refinar** inferências de gerúndio e paráfrase | P1 | Testar mudança de agente, causa e efeito, escopo e implicação |
+| `34` registros | **Manter/refinar** redação oficial e cobertura do registro | P1 | MRPR como referência específica, não norma universal da Câmara; critério de 6.4 |
+
+**Reorganização recomendada sem fusão imediata:** manter **11 bases históricas** por compatibilidade multi-edital, usar **23 unidades conceituais CAM-LP-001–023** como aprofundamentos canônicos, com remissões por pré-requisito e rotas do hub; **não criar novos artigos apenas para fechar quantidade**. Nas notas avançadas `15/16`, `23–25`, `26–30` e `32–34`, fortalecer casos fronteiriços e condições Cebraspe. Preservar as duas trilhas de identificação (`numero do arquivo` e `CAM-LP`); não renomear ou fundir na Fase 1.
+
+### Backlog de execução futura por lotes e esforço relativo
+
+| Lote proposto | Arquivos e entregáveis | Prioridade | Esforço relativo | Dependências / aceite |
+| --- | --- | --- | --- | --- |
+| **A1: inferência e equivalência** | 01,03,07,14,19,25,32,33: corrigir restritivas, quantificadores, hiperonímia e escopo | **P0** | Alto | Propor 2 contraexemplos por mecanismo e reler questões afetadas |
+| **A2: erros diretos e tempos** | 17,21,26,29,30: grafia, aspecto/modo, vírgula universal, regência do `garante`, nomenclatura | **P0** | Médio | Verificar fonte normativa aplicável, não trocar gabaritos por heurística |
+| **B1: itens suspensos/controvertidos** | 23#5, 28#2/#3/#5, 29#5, 30#1, 15#3, 16#6; termo/sujeito/clítico | **P1** | Alto | Matriz comando/gabarito/comentário/fonte; manter, corrigir, reescrever ou retirar |
+| **B2: granularidade edital 5.2/5.3** | 22–25, exemplos coordenados e subordinados entre **termos** | **P1** | Médio | Item literal 14.2.3, demonstrar casos entre termos da oração, não apenas entre orações |
+| **B3: harmonização gramatical** | 04,05,06,11,18,20,27,31 | **P1** | Alto | VOLP, gramáticas com edição e página, contexto Cebraspe |
+| **C1: integridade e fontes** | Hub, 01/02/05/06/09 e demais remissões; catalogação granular do edital | **P2** | Médio | **Não criar Avancos público**; conferir roteamento privado; conferir `data/edital-itens.json` e contrato antes de migrar |
+| **C2: reorganização editorial** | 01–11 bases ↔ 12–34 especializados; rubricas FGV/Cebraspe, claims de frequência | **P2** | Médio | Preservar `articleId`, aliases, sequência por conceito; testes GitHub Pages |
+
+**Critério para ordenar pelo prazo de janeiro:** executar A1/A2 antes de aumentar a quantidade de itens de treino; paralelamente suspender `23#5` como item confiável. Os lotes B1/B2 corrigem riscos de aprender regras incorretas e lacunas literais do edital. Os lotes C1/C2 vêm depois e devem preservar dados privados. Isto é prioridade por **potencial de indução de erro**, não medição de incidência de prova.
+
+### Parecer pedagógico de uso, com ressalvas explícitas
+
+**Com confiança relativa na função de panorama, não como texto certificado:** `08,09,11,12,13` e as divisões básicas `01/02/05/06` podem orientar organização do estudo, **desde que exemplos e condições marcados em P0/P1 não sejam aceitos como regras fixas**. **Com revisão/contraste de fontes no estudo:** `04,10,16,18,20,22,24,27,28,31,32,33,34`. **Não memorizar exemplos ou justificativas indicados antes da correção:** `01/03/07/14/15/17/19/21/25/26/29/30`, além de `23#5`; os demais conteúdos dessas notas podem servir à compreensão geral, mas a presença de erro localizado impede certificação global. **Não há artigo integralmente certificado**.
+
+### Gate de saída da Fase 1: avaliação fiel ao protocolo
+
+**Cumpridos documentalmente:** inventário completo de 34 artigos numerados e hub, catálogo e IDs, matriz literal dos **20 subitens do edital com notas candidatas**, leitura dirigida **de todos** os arquivos, rastreio de **133 wikilinks**, identificação dos contextos intermatérias (Redação/Comunicação), seis colisões `PT-011…016`, fontes oficiais do edital/retificações e seleção de questões C/E a verificar, matriz executiva de intervenção por artigo e backlog com priorização, esforço e aceite. **O registro PT-001–PT-118 permanece histórico, não 118 erros isolados.**
+
+**Não atendidos em rigor pleno:** o protocolo pede **leitura integral e validação de cada questão**, verificação de **todas as referências** em fontes primárias e grau de aprendizagem; até agora houve leitura **dirigida/seletiva** e revisão de itens de maior risco, não certificação exaustiva. Teste de navegação publicada e amostragem extensa de corpus real de Português ainda pendentes. Por essa razão, **não declarar auditoria integral da matéria concluída ou Fase 1 fechada definitivamente**. Classificar o estado como **“diagnóstico estrutural e plano de reparos concluídos; certificação pedagógica integral pendente”**. É possível encerrar a redação do plano desta rodada, mas a auditoria segue aberta para esses requisitos, em especial para questões e fontes prioritárias. **Nenhuma correção de artigo ou vínculo autorizada e nenhuma executada.**
+
+**Próximo passo controlado:** validar integralmente, por lotes, as questões e fontes ainda pendentes, com quadro por item e registro de decisão; quando houver evidência suficiente, produzir o parecer final da Fase 1. **Fase 2 (planejamento da reorganização por implementação) e Fase 3 (reparos) continuam bloqueadas** até autorização e critérios definidos. Preservar trabalhos paralelos.

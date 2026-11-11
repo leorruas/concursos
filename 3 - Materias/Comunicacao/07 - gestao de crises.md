@@ -5,7 +5,7 @@ title: "Gestão de crises"
 type: "conceito"
 status: "ativo"
 created: 2026-07-08
-updated: 2026-10-05
+updated: 2026-11-11
 ---
 # Gestão de crises
 
@@ -124,6 +124,16 @@ A banca tende a construir alternativas plausíveis deslocando boas práticas par
 - **Crise encerrada**: normalização técnica não elimina automaticamente efeitos reputacionais ou obrigações posteriores.
 - **Boa prática × obrigação**: dark site, linha do tempo documental e holding statement são instrumentos possíveis; sua adoção depende do plano e do contexto.
 - **Issues management × resposta à crise**: acompanhar atores, argumentos e riscos de uma controvérsia ainda em formação é atuação preventiva; responder a uma ameaça já aguda pertence à gestão de crise.
+
+## Aplicação à Câmara 2026: itens inéditos C/E
+
+**Recorte:** testar decisões em crise institucional, distinguindo o papel da comunicação, a resposta operacional e os limites de afirmações absolutas. A seção sobre FGV continua identificada como evidência específica daquela banca.
+
+- **Item 1.** A publicação tempestiva de nota de esclarecimento, por si, comprova a solução operacional do fato que originou uma crise institucional. **Errado.** A medida comunicacional não atesta a correção da causa operacional.
+- **Item 2.** Identificar riscos e acompanhar controvérsias antes de elas ameaçarem agudamente a instituição pode integrar a prevenção de crises. **Certo.** Esse é o papel atribuído no texto ao acompanhamento de questões emergentes (*issues management*).
+- **Item 3.** Na resposta à crise, a existência de porta-voz institucional dispensa o fluxo de informação e orientação ao público interno. **Errado.** Coordenação de fala externa e comunicação interna são tarefas complementares.
+
+**Conexões de revisão:** [[3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao|Diagnóstico e prevenção]]; [[3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao|Estratégias de resposta]]. **Classificação:** itens inéditos de treinamento, sujeitos a conferência autoral e calibração com provas reais.
 
 ## Relações com outros temas
 

@@ -660,3 +660,46 @@ Os itens da mesma página sobre SQL, triggers, chaves, pareamento e LGPD foram d
 ### Estado e pendências
 
 **88 achados históricos TI-001–TI-088** (incluindo observações já resolvidas e achados positivos). **44 itens reais verificados em cinco cadernos oficiais, 42 julgáveis e 2 anulados.** **30/30 artigos numerados de Informática inspecionados seletivamente; 28 CAM-TI com correspondência nominal ao edital; zero artigos integralmente certificados.** A calibração cobriu agora Power BI e análise de dados; **continua fraca para Tableau, Looker Studio/Data Studio, storytelling, prompts, aprendizagem por reforço e processos de IA generativa mais específicos**. Se forem exploradas provas Cebraspe de TI especialistas, marcar o que extrapola claramente a densidade do programa da Câmara. **Somente relatório e índice podem ser editados na Fase 1.**
+
+
+## Bloco 16: IA, PLN, explicabilidade e reforço em prova oficial TCU 2026 (11/11/2026)
+
+**Caderno e gabarito definitivos conferidos em texto e captura visual** da página 5 do caderno e página única do gabarito:
+- **TCU, Auditor Federal de Controle Externo, Auditoria de Tecnologia da Informação, aplicação 22/02/2026, Cebraspe**, prova de conhecimentos específicos código **`142_TCUAUFC_001_01`**: https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/9546624AF77A5D0A72692C2ACF3725FAF5033C9A8889BFC43D6665194D880172.pdf .
+- **Gabarito oficial definitivo correspondente:** https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/D599023DB31F3467DB9CC03BE3D58BFE91CD7351624DDF045C0FDB71B3569A51.pdf .
+- **Justificativas oficiais de alterações do gabarito:** https://cdn.cebraspe.org.br/concursos/tcu_25_aufc/arquivos/25FB97276AD470562EAD3B578FA6B7C47628D1DB1025F2F7593C1E2CA7073555.pdf . A justificativa para **item 165** diz **“Há divergência de entendimento no que se refere ao assunto abordado no item”**. A marca definitiva é **X**, isto é, anulado.
+- Foi conferido que o arquivo de gabarito **preliminar** do mesmo concurso apresenta diferenças importantes de outros itens e não pode substituir o definitivo. **Não usar o preliminar para os números abaixo**.
+
+### Amostra verificável de IA, itens 163–175
+
+| Item | Núcleo literal resumido, sem transcrição integral | Gabarito definitivo | Recorte de estudo CAM-TI |
+|---|---|:---:|---|
+| **163** | Explicabilidade/interpretabilidade e dificuldade de explicar modelos de caixa-preta | **C** | **CAM-TI-021**, artigo 23, IA ética |
+| **164** | Discriminação por característica de grupo ou proxy indevido com desvantagem sistemática | **C** | **CAM-TI-021**, artigo 23 |
+| **165** | Atribuir “explicabilidade” às propriedades internas do modelo que permitem compreender seu funcionamento | **X, anulado** | **CAM-TI-021**: não converter definição disputada em dogma |
+| **166** | Emergência em sistemas multiagentes teria de ser sempre intencionalmente projetada | **E** | CAM-TI-016/019, **especializado/extraliteral** |
+| **167** | Reconhecimento supervisionado de entidades nomeadas requer textos anotados | **C** | CAM-TI-017, supervisionado; CAM-TI-019, PLN |
+| **168** | Transformers eliminariam toda necessidade de pré-processar textos | **E** | CAM-TI-019, IA generativa; **ligação à cautela TI-004** |
+| **169** | Sistemas multiagentes úteis para autonomia local e coordenação distribuída | **C** | CAM-TI-016, **especializado/extraliteral** |
+| **170** | Word2Vec descrito como rede profunda com muitas camadas e atenção | **E** | CAM-TI-017/019, **especializado/extraliteral** |
+| **171** | Orquestração de MLOps restringir-se-ia a treinamento e excluiria implantação/monitoramento | **E** | CAM-TI-017, **muito além do recorte literal Câmara** |
+| **172** | MLOps automatiza e monitora ciclo de vida de modelos, com rastreabilidade e escala | **C** | CAM-TI-017, **especializado/extraliteral** |
+| **173** | Repositório versionado de modelos permite rastreabilidade, rollback e governança | **C** | CAM-TI-017, **especializado/extraliteral** |
+| **174** | Aprendizado por reforço seria forma de não supervisionado baseada em agrupamento e recompensa secundária | **E** | **CAM-TI-018**, artigo 20, reforço |
+| **175** | Reforço distingue-se de supervisão porque recebe feedback avaliativo, não resposta correta rotulada | **C** | **CAM-TI-018**, artigo 20, reforço |
+
+**Sequência exata conferida nas fontes definitivas:** `163 C; 164 C; 165 X; 166 E; 167 C; 168 E; 169 C; 170 E; 171 E; 172 C; 173 C; 174 E; 175 C`. **13 itens selecionados, 12 julgáveis C/E e um anulado.** O item 165 tem justificativa oficial de divergência conceitual, mais informativa que suposição sobre motivação de anulação.
+
+### Achados e consequências
+
+**TI-089, PROVA REAL RECENTE COM REFORÇO E IA, COMPLETA E VALIDADA.** A série TCU/2026 contém os itens reais **174–175** para `Informatica/20`, com oposição verificada **feedback de recompensa/avaliação versus dados rotulados e agrupamento**. Esse é um avanço objetivo da lacuna de calibração de reforço no Bloco 15; **não extrapolar** que MLOps ou sistemas multiagentes sejam objeto obrigatório de Tecnologia e Dados no Cargo 1 da Câmara.
+
+**TI-090, ANULAÇÃO POR DIVERGÊNCIA DE ENTENDIMENTO NO CONCEITO DE EXPLICABILIDADE.** O Cebraspe **anulou 165** e justificou por **divergência de entendimento**. Essa evidência conecta-se diretamente aos achados **TI-005, TI-008, TI-028 e TI-053**, sobre taxonomias, transparência e termos com sentidos próximos. O material da Câmara deve distinguir **explicabilidade (dar razões/explicações sobre comportamento e resultados) e interpretabilidade (grau de compreensão do mecanismo ou de sua relação com resultados)** com autores e fontes explícitos, sem pretender que a diferenciação seja absoluta em todas as literaturas. **Anulado não é C nem E**, nem demonstra qual definição alternativa foi acolhida.
+
+**TI-091, APLICAÇÃO E CALIBRAÇÃO DE AFIRMAÇÕES ABSOLUTAS EM MODELOS.** O item **168 E** demonstra que transformers **não eliminam obrigatoriamente o pré-processamento**, e o **170 E** exige não atribuir mecanismo de atenção profundo ao Word2Vec em geral. Os itens 163–164 C reafirmam problema da explicabilidade de caixa-preta e proxies de discriminação sem transformar toda aplicação algorítmica em ilícito. Usar como contraste dos artigos `18,19,21,23`, com gradação de complexidade.
+
+**TI-092, ESCOPO E PROPORCIONALIDADE DO CORPUS.** O TCU cobrou em **cargo especializado de Auditoria de TI** conhecimentos sobre **MLOps, NER, Word2Vec e multiagentes**. O edital da Câmara cita apenas **conceitos básicos de IA, prompts, aprendizagem supervisionada/não supervisionada/reforço, IA generativa e ética**. Na aplicação ao Cargo 1, priorizar **itens 163–165, 168, 174–175** para princípios e limites; classificar 166,167,169–173 como **complementares ou além do edital**, sem impor sua densidade à teoria. **Técnica de prova:** verificar palavra universal, categoria do algoritmo e natureza do retorno de informação, sem inventar frequência histórica por quatro cadernos.
+
+### Estado e próxima etapa
+
+**92 achados históricos TI-001–TI-092**, entre avisos, verificações positivas, achados abertos e reparos realizados em outras operações. **57 itens reais de TI examinados individualmente em seis cadernos oficiais; 54 válidos C/E e três anulados (INSA #42; MPO Cargo 6 #76; TCU #165)**. Trinta artigos numerados de Informática lidos seletivamente, 28 CAM-TI correspondentes nominalmente ao edital, nenhum artigo inteiramente certificado. **Lacunas de calibração a verificar:** engenharia de prompts e estrutura/avaliação, Tableau, Looker Studio, storytelling. Confirmar caderno e gabarito definitivo antes de adicionar qualquer amostra. **Só relatório e índice-mestre podem ser alterados nesta Fase 1.**

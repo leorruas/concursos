@@ -776,3 +776,84 @@ Commit `95aa8a7bff5d0a8ab50c45cb30610bd16f1c1260`: revisado diagrama do DC34 par
 **Próximo reparo crítico comprovado:** DC36, NC-PL-018 e NC-PL-019. A página oficial do STF confirma a redação histórica e superada da Súmula 5; o Tema 22 (RE 560.900) trata de restrição à participação em concurso público, sem relação com iniciativa legislativa. Ainda pendente editar DC36; seu caminho exato deve ser identificado no repositório antes de qualquer alteração.
 
 **Andamento após este commit:** 3 de 29 artigos receberam mudanças (10,3%); 0 de 29 têm certificação integral de conteúdo e fontes. O diagnóstico continua em curso.
+
+
+## Bloco 18: comissões parlamentares DC14, 16 itens e conflito de identidade CAM-PL (11/11/2026)
+
+**Arquivo fonte recuperado:** `3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md`. Foram lidos conteúdo central, casos, duas baterias com **10 + 6 questões C/E** e seções de artigos 22–54. Cotejo dirigido com [RICD oficial atualizado até RCD 34/2026](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e [portal da 31ª edição de 2026](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d). O servidor do texto consolidado retornou 429 para algumas consultas completas, mas trechos foram recuperados por indexação oficial. Assim, **não certificar conferência literal exaustiva dos dispositivos 25–54**.
+
+### Correspondências normativas e ressalvas de escopo
+
+- **A-PL-066:** CF art.58/RICD arts.22, 33–38: permanentes, temporárias, especiais, de inquérito e externas são classificadas com finalidades compatíveis. A regra de CPI no DC14 cita corretamente **120 dias, até metade por deliberação do Plenário**, ao contrário da NC-PL-017 do DC35: **há contradição entre dois artigos do mesmo repositório**.
+- **A-PL-067:** RICD arts.25–28: Mesa fixa tamanho, ouve líderes; composição obedece proporcionalidade, tamanho entre **3,5% e 13%**, e indicações nas condições regimentais. Referência ao art.26 §2º e exceção da Comissão de Comunicação corresponde ao texto atualizado após 2023.
+- **A-PL-068:** arts.29, 41, 43, 50 e 52: subcomissões sem poder decisório; presidente da comissão pode relatar e votar, mas não preside reunião sobre matéria que relatou; distinção de quórum de reunião deliberativa e informativa; prazos de comissão 5/10/40 sessões. Os principais contrastes didáticos estão bem representados.
+- **A-PL-069:** art.54 (parecer terminativo) distinto do art.24 II (decisão conclusiva). DC14 diferencia corretamente **preliminares** de exame final do mérito.
+- **Risco de escopo:** a unidade de refinamento `CAM-PL-020` explicita os **arts.25–54**, enquanto a arquitetura define `CAM-PL-020` para **Mesa e órgãos, arts.1–24**. O estudo de 25–54 pode servir de aprofundamento, mas **não substitui o recorte literal do edital** e não deve ser contado como cobertura de Mesa. Ver conflito já identificado no bloco 2 e na matriz do bloco 9.
+
+### Matriz: 10 itens de refinamento (artigos 25–54)
+
+| Item | Gabarito | Verificação central |
+| --- | --- | --- |
+| 1, tamanho da comissão fixado pela Mesa | CERTO | Art.25 |
+| 2, nova filiação redistribui automaticamente vagas | ERRADO | Art.26 §4º |
+| 3, proibição absoluta de titularidade múltipla | ERRADO | Art.26 §2º contém exceções |
+| 4, subcomissões podem decidir conclusivamente | ERRADO | Art.29: sem poder decisório |
+| 5, presidente da comissão pode relatar, autor não relata | CERTO | Arts.41 §1º e 43 |
+| 6, perda de lugar por cinco faltas ordinárias consecutivas | CERTO | Art.45 §1º, sujeito a condições de justificação e comunicação |
+| 7, reunião informativa pode iniciar com qualquer número | CERTO | Art.50 |
+| 8, prazos 5/10/40 sessões, metade para relator | CERTO | Art.52 |
+| 9, atraso do parecer implica aprovação tácita | ERRADO | Arts.52 §§3º–6º |
+| 10, parecer terminativo equivale à aprovação integral do projeto | ERRADO | Art.54 × art.24 II |
+
+### Matriz: 6 itens gerais de comissões
+
+| Item | Gabarito | Verificação central |
+| --- | --- | --- |
+| 1, permanentes versus temporárias | CERTO | Art.22 |
+| 2, especial seria permanente e competência de exatamente quatro comissões | ERRADO | Arts.33–34: especial é temporária e hipótese envolve **mais de quatro** comissões de mérito |
+| 3, CPI requer 1/3/fato/prazo, sem poder de sentença penal | CERTO | CF art.58 §3º e art.35 |
+| 4, comissão externa com ônus prescinde do Plenário | ERRADO | Art.38: a hipótese de ônus exige aprovação do Plenário |
+| 5, proporcionalidade e representação da Minoria | CERTO | Art.23 |
+| 6, lei complementar necessariamente conclusiva em comissão | ERRADO | Art.24 II a: exceção |
+
+**Resultado:** 16/16 gabaritos compatíveis no núcleo das regras cotejadas, sem inversão identificada. Ainda falta inspeção de todos os parágrafos e eventuais decisões complementares sobre contagem de prazo/impedimentos. **Nenhum erro normativo crítico novo comprovado** em DC14; **identidade CAM-PL-020 continua inconsistente**.
+
+### Correção futura recomendada
+
+Manter o artigo como referência principal de `CAM-PL-004`. Renomear/identificar o aprofundamento de arts.25–54 com código **novo e não conflitante, após verificar arquitetura e catálogo**; não substituir a unidade `CAM-PL-020` (Mesa/arts.1–24). Rever conexões e backlinks. **Nenhum artigo de estudo alterado nesta fase.**
+
+## Bloco 19: parecer legislativo DC15, oito itens comentados (11/11/2026)
+
+**Arquivo:** `3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md` (217 linhas), unidade `CAM-PL-005`. Lidos as categorias do parecer e os **8 itens C/E**; cotejo seletivo com RICD arts.56–57, 100, 126–130 e [material da Câmara sobre Regimento aplicado](https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/29519/regimento_interno_aplicado.pdf), além de [questão de ordem publicada pela Câmara sobre empate de requerimentos em comissão](https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cmads/outros-documentos/questao-de-ordem/decisao-da-presidencia/view).
+
+**A-PL-070, positivo:** distinção entre **relatório, voto do relator e parecer da comissão** (art.129, I–III), ressalvada dispensa de relatório em parecer sobre emenda (§1º). A tese do artigo está correta.
+
+**A-PL-071, positivo:** art.57, XII–XIV permite que colegiado não acolha voto do relator e forme parecer vencedor, tornando o voto inicial voto em separado; voto em separado que concorda com conclusão não é contrário por sua forma. Atribuição de competência corretamente apresentada.
+
+**A-PL-072, positivo:** art.57 XVI permite vista conjunta quando simultânea; art.127 admite parecer único sobre proposições apensadas. Ressalvar peculiaridades de regime de urgência e momento de concessão da vista.
+
+**A-PL-073, ressalva interpretativa:** RICD art.56 §2º diz literalmente que a maioria de votos decide, presente maioria absoluta dos membros, prevalecendo em empate o voto do relator. **A aplicação da regra de desempate aos requerimentos de comissão foi objeto de controvérsia interpretativa**, como mostra orientação de órgão da Câmara e manifestação em [ata de reunião 2023](https://escriba.camara.leg.br/escriba-servicosweb/html/69617), com referência à Orientação Técnica Legislativa 1/2022. O item 7 está **correto pela literalidade do art.56 §2º**, mas a nota deve restringir sua heurística a deliberações pertinentes e não proclamar que todo empate em qualquer requerimento é decidido pelo relator. **Não classificar como erro do gabarito**.
+
+### Matriz dos 8 itens DC15
+
+| Q | Gabarito | Verificação central |
+| --- | --- | --- |
+| 1, três partes do parecer escrito | CERTO | RICD art.129 I–III |
+| 2, rejeição do voto do relator arquiva necessariamente | ERRADO | Art.57 XII–XIII |
+| 3, voto separado convergente seria contrário | ERRADO | Art.57 XIV |
+| 4, pedidos simultâneos de vista não urgente são conjuntos | CERTO | Art.57 XVI |
+| 5, relatório é dispensável no parecer sobre emenda | CERTO | Art.129 §1º |
+| 6, terminativo de CFT igual aprovação conclusiva de mérito | ERRADO | Art.54 versus art.24 II |
+| 7, maioria simples com presença absoluta, empate voto relator | CERTO | Literal art.56 §2º, com ressalva de aplicação a requerimentos |
+| 8, apensadas exigem parecer independente por projeto | ERRADO | Art.127 e art.57 I |
+
+**Resultado:** 8/8 gabaritos com núcleos normativos compatíveis nas fontes consultadas, sem inversão confirmada. **Pendências:** validar cada dispositivo derivado, especialmente conflitos de interpretação e atos complementares sobre pedidos de vista/empate, antes de certificar todo o arquivo.
+
+### Progresso estimado da Fase 1 após blocos 18–19
+
+- **29/29 arquivos identificados**, inventário concluído.
+- **90 enunciados C/E com conferência dirigida:** DC11 (13), DC12 (14), DC13 (15), DC14 (16), DC15 (8), DC34 (6), DC35 (6), DC36 (6), DC37 (6).
+- **9/29 arquivos** têm as respectivas baterias de questões examinadas, mas **0/29** certificados integralmente no conjunto de conteúdo, fontes, exercícios e edital. Faltam **20 arquivos** para a conferência individual equivalente das questões.
+- Estimativa provisória de **cerca de 38% do esforço da Fase 1 realizado, 62% restante**. É uma avaliação qualitativa do trabalho, não medição objetiva de progresso ou garantia de cobertura.
+- Próximo aprofundamento: **DC16, discussão, votação e quóruns**, incluindo conformidade do RICD arts. 180–187, CF art.47 e recursos; em seguida DC17 e temas normativos restantes.
+- **Todos os artigos originais seguem intactos.**

@@ -5,7 +5,7 @@ title: "Comissões Parlamentares de Inquérito (CPI e CPMI): criação, poderes 
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Comissões Parlamentares de Inquérito (CPI e CPMI): criação, poderes instrutórios, limites constitucionais e jurisprudência do STF
@@ -36,7 +36,7 @@ Requisitos Constitucionais Cumulativos de Criação da CPI
 │   └── Vedação absoluta a investigações genéricas ou prospectivas ("pesca probatória")
 │
 └── 3. Prazo Certo: período temporal prefixado no requerimento para funcionamento
-    └── Prorrogável sucessivamente dentro da mesma legislatura, vedada duração perpétua
+    └── Na Câmara, até 120 dias, prorrogáveis por até metade mediante deliberação do Plenário (RICD, art. 35, § 3º)
 ```
 
 ### A. Quórum de um terço e o direito subjetivo da minoria (MS 24.831 e MS 26.441)
@@ -51,11 +51,11 @@ O requerimento deve delimitar os acontecimentos que serão objeto de investigaç
 - Fatos novos supervenientes: a jurisprudência pacífica do STF admite o aditamento do objeto da CPI no curso dos trabalhos, **desde que os fatos novos guardem estreita pertinência temática e conexão lógica e causal direta** com o fato originariamente investigado. Fatos autônomos ou desvinculados exigem a criação de uma nova CPI com seu próprio requerimento.
 
 ### C. Prazo certo e prorrogação regimental
-- O requerimento deve estipular termo final certo. Na Câmara dos Deputados (RICD, art. 35, § 3º), o prazo ordinário de funcionamento da comissão é de **até 120 dias**, prorrogável por metade mediante deliberação da própria comissão, ou por prazo determinado mediante requerimento da maioria de seus membros ou de um terço da Câmara;
+- O requerimento deve estipular termo final certo. Na Câmara dos Deputados, a CPI dispõe de **120 dias para concluir seus trabalhos, prorrogáveis por até metade mediante deliberação do Plenário** (RICD, art. 35, § 3º). A iniciativa de criação por um terço dos deputados (CF, art. 58, § 3º) não se confunde com a competência para deliberar sobre a prorrogação;
 - **Limite intransponível da legislatura:** nenhuma comissão temporária, inclusive CPI, pode ultrapassar o término da **legislatura** em que foi criada. Com a dissolução da composição parlamentar e a posse dos novos eleitos, encerram-se formalmente os trabalhos, sendo imperativa a apresentação do relatório final ou o arquivamento.
 
 ### D. Regras regimentais específicas da Câmara dos Deputados (RICD, art. 35)
-- **Limite de CPIs simultâneas:** o art. 35, § 4º, do RICD prevê que não poderão funcionar concomitantemente na Câmara mais de **cinco Comissões Parlamentares de Inquérito**, ressalvada a instalação de outras por deliberação do Plenário;
+- **Limite de CPIs simultâneas:** quando já funcionarem pelo menos **cinco CPIs** na Câmara, outra CPI somente poderá ser criada mediante **projeto de resolução com o mesmo quórum de apresentação exigido no caput do art. 35**, conforme o § 4º do RICD. Não confundir esse projeto de resolução com o requerimento ordinário de criação;
 - **Ordem de protocolo:** havendo requerimentos concorrentes além do teto regimental de cinco, as CPIs são instaladas observando-se a ordem cronológica estrita de apresentação e protocolo.
 
 ## 2. A cláusula constitucional: "Poderes de investigação próprios das autoridades judiciais"

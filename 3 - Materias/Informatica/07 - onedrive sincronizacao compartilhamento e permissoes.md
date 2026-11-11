@@ -178,8 +178,8 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 *( ) Certo*
 *( ) Errado*
 
-**Gabarito: Certo.**
-**Comentário:** A leitura do item exige cautela: **senha**, **expiração** e **bloqueio de download** variam conforme tipo de link, políticas do tenant, licença e tipo de objeto. O recurso de bloquear download não pode ser presumido para **qualquer link de pasta**. O gabarito anterior, CERTO, fica **sob reserva de validação da documentação específica**, sem homologação nesta revisão.
+**Gabarito: NÃO HOMOLOGADO (questão condicional).**
+**Comentário:** O item combina **link de pasta**, **senha**, **expiração** e **bloqueio de download** como se fossem funções simultaneamente disponíveis em qualquer configuração. A documentação Microsoft apresenta variações conforme conta, licença, tipo de link, arquivo ou pasta e política da organização. O uso de senha e expiração não bloqueia, por si só, o download; contudo, o enunciado não delimita ambiente suficiente para um julgamento C/E seguro. **Não usar este item em simulados sem reformulação.** Fontes: [Compartilhar arquivos e pastas](https://support.microsoft.com/pt-br/onedrive/share-files-and-folders-in-microsoft-onedrive) e [Bloquear downloads de arquivos somente exibição](https://support.microsoft.com/pt-br/onedrive/block-downloads-for-view-only-files-in-sharepoint-and-onedrive).
 
 ---
 
@@ -206,3 +206,5 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 | **Lixeira de 2º Estágio** | Apenas Administrador | Resgate de itens excluídos em até 93 dias | Governança corporativa |
 
 > **Nota de revisão (11/11/2026):** as opções de compartilhamento e retenção dependem do ambiente Microsoft 365. O item 5 sobre link de **pasta** permanece sob reserva e não deve ser memorizado como regra universal até validação do escopo. Fontes: [lixeira do OneDrive](https://support.microsoft.com/pt-br/onedrive/restore-deleted-files-or-folders-in-onedrive), [lixeira de segundo estágio do SharePoint](https://support.microsoft.com/pt-br/sharepoint/admin/restore-deleted-items-from-the-site-collection-recycle-bin). Achado TI-037.
+
+> **Validação de questão, segunda passagem (11/11/2026):** Item 5 **retirado do conjunto de gabaritos homologáveis**, mantendo o enunciado e o histórico. Para treino, utilizar esta versão com condições suficientes: *“Em uma conta corporativa do OneDrive, quando a política permitir, pode-se compartilhar um arquivo com permissão somente de exibição e a opção Bloquear download, restringindo a operação de download pela interface do serviço.”* **Gabarito da versão reformulada: CERTO**, com as limitações explicitadas na [documentação Microsoft](https://support.microsoft.com/pt-br/onedrive/block-downloads-for-view-only-files-in-sharepoint-and-onedrive). Não atribuir à versão antiga um gabarito inequívoco.

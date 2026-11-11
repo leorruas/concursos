@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { buildSubjectContexts, resolveCommand } from './study-context.js';
 import { mergeSessions, scoreCamara, validateSession } from './study-sessions.js';
+import { blockedCamaraTiQuestions, assertCamaraTiQuestionAllowed } from './camara-ti-question-guard.js';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const contests = JSON.parse(fs.readFileSync(new URL('../data/concursos.json', import.meta.url)));
@@ -54,6 +55,23 @@ for (const pilot of config.pilotoDidatico) {
   validate({...session, questions: [{...question, ...pilot, discipline,
     userAnswer: pilot.correctAnswer, errorType: null}]});
 }
+// O filtro deve detectar os 13 itens não homologados direto dos artigos de TI,
+// sem rejeitar as 50 questões didáticas que possuem seus próprios gabaritos.
+const blockedTi = blockedCamaraTiQuestions(root);
+assert.equal(blockedTi.size, 13, 'CAM-TI: conferir alteração no total de itens não homologados');
+for (const item of blockedTi.values()) {
+  const q = {...question, subjectId:'informatica', unitId:'tecnologia-e-dados',
+    origin:'inedita', statement:item.statement, correctAnswer:'C', userAnswer:'C',
+    confidence:'secure', errorType:null, theoryRefs:[]};
+  assert.throws(() => assertCamaraTiQuestionAllowed(root,session,q), /NÃO HOMOLOGADA/);
+  assert.throws(() => validate({...session, questions:[q]}), /NÃO HOMOLOGADA/);
+  // Nenhuma outra disciplina pode ser bloqueada pelo texto de Informática.
+  assert.doesNotThrow(() => assertCamaraTiQuestionAllowed(root,session,
+    {...q,subjectId:'portugues',unitId:'lingua-portuguesa'}));
+}
+for (const q of config.pilotoDidatico.filter(q => q.subjectId === 'informatica'))
+  assert.doesNotThrow(() => assertCamaraTiQuestionAllowed(root,session,q));
+
 assert.throws(() => validate({...session, questions: [{...question, examPart: 'P1'}]}), /Cargo 1/);
 assert.throws(() => validate({...session, questions: [{...question, userAnswer: null}]}), /exige resposta/);
 assert.throws(() => validate({...session, simulation: {elapsedSeconds: 1800}}), /90 itens/);

@@ -5,7 +5,7 @@ title: "Produção digital: responsividade, acessibilidade e formatos"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Produção digital: responsividade, acessibilidade e formatos
@@ -153,6 +153,16 @@ A produção digital precisa equilibrar **qualidade visual, tempo de carregament
 **Etapa F:** testes com cidadãos verificam se encontram o procedimento e concluem a inscrição. O projeto melhora quando há evidência da tarefa, não apenas aprovação visual em reunião.
 
 **Caso de fronteira:** uma página obtém boa nota de desempenho e passa em verificações automáticas, mas o botão de inscrição só aparece ao passar o mouse. Os indicadores técnicos **não eliminam a barreira de operação**.
+
+## Auditoria WCAG 2.2: reflow, alvos e comportamento acessível (11/11/2026)
+
+Na WCAG 2.2, o [critério 1.4.10, Reflow, nível AA](https://www.w3.org/TR/WCAG22/#reflow) estabelece condições para reorganização do conteúdo sem perda de informação ou funcionalidade em largura equivalente a **320 pixels CSS** para conteúdo de rolagem vertical, com ressalvas para partes que exigem disposição bidimensional. Isso **não** autoriza afirmar que todas as tabelas, mapas e imagens devem ser convertidos obrigatoriamente a uma única coluna sem exceções.
+
+O [critério 2.5.8, Target Size (Minimum), nível AA](https://www.w3.org/TR/WCAG22/#target-size-minimum) adota área mínima de **24 por 24 pixels CSS**, **com exceções** como espaçamento suficiente entre alvos menores, controle equivalente, alvos em linha, controle do agente de usuário e apresentação essencial. O requisito de nível AAA **2.5.5** e recomendações de design podem estabelecer dimensões maiores, sem que isso permita atribuir o mesmo valor ao mínimo AA.
+
+**Cotejo dirigido:** item 3, **Certo**: conformidade AA inclui critérios A pertinentes; item 4, **Errado**: atribuir papel ARIA a elemento genérico não implementa teclado nem foco; item 5, **Certo**: reflow a 320 pixels com ressalvas de escopo. Não foi encontrada inversão nesses três gabaritos. **Item novo, C/E inédito:** “O requisito 2.5.8 da WCAG 2.2 estabelece que absolutamente todos os alvos de ponteiro tenham 44 por 44 pixels CSS, sem exceções.” **Errado:** o mínimo AA é de 24 por 24 pixels CSS com exceções determinadas.
+
+**Fontes:** [WCAG 2.2, recomendação oficial](https://www.w3.org/TR/WCAG22/); [2.5.8, entendimento e exceções](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html). Esta revisão limitada não valida os itens de formatos de arquivo, codecs ou desempenho, nem demonstra acessibilidade de um produto concreto.
 
 ## Como o Cebraspe pode cobrar: itens inéditos C/E
 

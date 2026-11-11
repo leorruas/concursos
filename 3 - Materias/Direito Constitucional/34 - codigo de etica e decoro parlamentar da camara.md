@@ -5,7 +5,7 @@ title: "Código de Ética e Decoro Parlamentar da Câmara dos Deputados: deveres
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Código de Ética e Decoro Parlamentar da Câmara dos Deputados: deveres, vedações, Conselho de Ética e processo disciplinar
@@ -80,6 +80,8 @@ São infrações disciplinares que, embora violem a liturgia e o funcionamento d
 
 > **Exigência de prova:** O parágrafo único do art. 5º determina expressamente que as condutas puníveis só serão objeto de apreciação **mediante provas concretas**, vedada punição fundada em meras conjecturas ou denúncias anônimas.
 
+> **Alerta de auditoria (11/11/2026):** este artigo contém divergências normativas ainda em correção, especialmente em prazos, competência sancionatória, rito disciplinar, declarações patrimoniais (art. 18) e fluxograma. **Não utilize as tabelas de prazos, o fluxograma ou a seção patrimonial como fonte definitiva de memorização** até a revisão integral. Consulte a [Resolução nº 25/2001 consolidada](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html). A correção pontual sobre o voto do Corregedor não significa validação das demais seções.
+
 ## 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)
 
 O art. 10 do Código estabelece o rol taxativo das penalidades:
@@ -116,7 +118,7 @@ O Conselho de Ética e Decoro Parlamentar é órgão integrante da estrutura ins
 - **Duração do mandato:** mandato de **dois anos**, vedada a recondução no mesmo biênio;
 - **Proporcionalidade partidária:** as vagas são distribuídas entre os partidos e blocos parlamentares segundo a proporcionalidade partidária da Casa;
 - **Regra especial da Corregedoria:** o partido a que pertencer o Corregedor da Câmara designará, como titular, **um deputado a menos** do que o número a que teria direito pela proporcionalidade, já que o Corregedor possui assento especial;
-- **Papel do Corregedor da Câmara (art. 9º):** participa de todas as deliberações do Conselho de Ética **com direito a voz e voto**, competindo-lhe promover as diligências de sua alçada para esclarecimento dos fatos investigados;
+- **Papel do Corregedor da Câmara (art. 9º):** participa de todas as deliberações do Conselho de Ética **com direito a voz, mas sem voto**, competindo-lhe promover as diligências de sua alçada para esclarecimento dos fatos investigados;
 - **Impedimentos para integrar o Conselho (art. 7º, § 3º):** não pode ser membro do Conselho o deputado:
   1. Submetido a processo disciplinar em curso por ato atentatório ou incompatível com o decoro;
   2. Que tenha recebido, na mesma legislatura, penalidade de suspensão de prerrogativas ou de suspensão temporária do mandato.

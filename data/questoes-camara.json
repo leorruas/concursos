@@ -4322,6 +4322,102 @@
       "statement": "Um modelo é treinado exclusivamente com exemplos rotulados e depois classifica documentos novos sem rótulo. O uso de documentos sem rótulo apenas na previsão torna o treinamento semissupervisionado.",
       "correctAnswer": "E",
       "explanation": "Os documentos sem rótulo entram somente depois do treinamento. O método de aprendizagem descrito continua supervisionado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / segurança e governança digital",
+      "conceptId": "confidencialidade",
+      "mechanism": "distinguir-leitura-de-alteracao",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#1. Os cinco princípios fundamentais (CIDAN)"
+      ],
+      "statement": "Uma pessoa sem autorização consegue ler um documento restrito sem modificá-lo. A leitura indevida compromete a confidencialidade mesmo que o conteúdo permaneça íntegro.",
+      "correctAnswer": "C",
+      "explanation": "A confidencialidade limita o acesso. A integridade trata da preservação do conteúdo contra mudanças indevidas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / segurança e governança digital",
+      "conceptId": "disponibilidade",
+      "mechanism": "confundir-copia-integra-com-acesso",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#1. Os cinco princípios fundamentais (CIDAN)"
+      ],
+      "statement": "Um serviço fica inacessível para todos os usuários autorizados durante seu horário de operação, embora os arquivos estejam intactos. Como os arquivos foram preservados, não houve perda de disponibilidade.",
+      "correctAnswer": "E",
+      "explanation": "A disponibilidade exige acesso ao serviço quando necessário. Arquivos intactos não compensam a interrupção do acesso."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / segurança e governança digital",
+      "conceptId": "autenticidade",
+      "mechanism": "distinguir-origem-de-sigilo",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#1. Os cinco princípios fundamentais (CIDAN)"
+      ],
+      "statement": "Confirmar a identidade do emissor de uma mensagem atende a uma finalidade diferente de impedir que terceiros leiam seu conteúdo.",
+      "correctAnswer": "C",
+      "explanation": "A identificação do emissor trata da autenticidade. Restringir a leitura trata da confidencialidade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / segurança e governança digital",
+      "conceptId": "controle-detectivo",
+      "mechanism": "confundir-alerta-com-bloqueio",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#2. Matriz de classificação de controles de segurança"
+      ],
+      "statement": "Um mecanismo que registra acessos e alerta a equipe sobre eventos anormais, mas não bloqueia as ações, atua preventivamente sobre os eventos que geraram o alerta.",
+      "correctAnswer": "E",
+      "explanation": "O mecanismo descrito detecta e sinaliza eventos já ocorridos. Uma função preventiva teria de agir para evitar a ocorrência."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / segurança e governança digital",
+      "conceptId": "controle-corretivo",
+      "mechanism": "identificar-atuacao-apos-incidente",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#2. Matriz de classificação de controles de segurança"
+      ],
+      "statement": "Restaurar arquivos a partir de uma cópia íntegra após uma perda de dados é uma ação corretiva em relação ao incidente ocorrido.",
+      "correctAnswer": "C",
+      "explanation": "A restauração atua depois do incidente e procura recompor os dados afetados."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / segurança e governança digital",
+      "conceptId": "politica-de-seguranca",
+      "mechanism": "confundir-regra-com-implementacao",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#3. Política de Segurança da Informação (PSI) e conformidade institucional"
+      ],
+      "statement": "Publicar uma política que exige revisão periódica de permissões demonstra, por si só, que todas as permissões já foram revisadas.",
+      "correctAnswer": "E",
+      "explanation": "A política estabelece a obrigação. A execução precisa ser comprovada por evidências como registros de revisão e alterações efetuadas."
     }
   ]
 }

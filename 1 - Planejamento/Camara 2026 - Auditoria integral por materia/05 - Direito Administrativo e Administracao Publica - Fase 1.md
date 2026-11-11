@@ -1,7 +1,7 @@
 ---
 title: "Câmara 2026: Direito Administrativo e Administração Pública, auditoria Fase 1"
 type: "relatorio-auditoria"
-status: "em-curso"
+status: "diagnostico-consolidado-validacao-pendente"
 concursoId: "camara-2026"
 updated: 2026-11-11
 ---
@@ -794,3 +794,30 @@ Construir **síntese executiva única da frente** com prioridades P0/P1/P2 por s
 **Estado da frente:** leitura ampla de 27 artigos DA, três AP, cinco AG e bases compartilhadas em etapas e intensidades diferentes, **sem certificação jurídica integral de cada artigo**. O edital Cebraspe consolidado da matéria (14.2.3, página 52) foi confrontado com o inventário. **81 apontamentos heterogêneos**, incluindo ao menos **uma inversão de gabarito documentada (DA-004)**, dois erros de conteúdo/fonte explícitos (DA-009 e DA-036), lacunas/atualizações, e verificações positivas. Os **48 theoryRefs** do banco DA/AP possuem ID e cabeçalho correspondentes; não se testou comportamento real do site. Dez questões CNMP 2023 têm caderno e gabarito confirmados, mas não são prova de domínio/resultado de candidato.
 
 **Critério de saída da Fase 1 desta matéria:** (a) existe matriz subitem → arquivo → risco → recomendação, como acima; (b) os erros e lacunas essenciais estão localizados com evidência; (c) pontos não certificados são explicitamente reconhecidos; (d) conteúdo de estudo e questões originais preservados. **Este bloco consolida os requisitos de diagnóstico e recomenda preparar o fechamento editorial da Fase 1 desta frente**, mas **não aprova a transição para a Fase 2** por si só, nem declara que toda frase de todos os 27 artigos recebeu auditoria exaustiva. Próxima decisão: confirmar consistência de arquivos e prioridades e registrar status de encerramento por disciplina, preservando auditorias de outras frentes. Não editar os artigos antes da autorização da fase seguinte.
+
+
+## Bloco 19: verificação final de consistência e decisão formal sobre o encerramento (11/11/2026)
+
+**Decisão:** a **matriz diagnóstica está consolidada**, com entrega suficiente para orientar prioridades e a futura reorganização, mas a **Fase 1 desta matéria ainda não pode ser classificada como integralmente concluída nos termos do protocolo**. A aprovação requer revisão individual de **cada questão e justificativa**, validação factual/jurídica de todo o texto e evidência de leitura integral por artigo. Os blocos 1–18 registram repetidamente **cotejo seletivo**, ausência de homologação individual integral e lacunas em assuntos importantes. Não reduzir os critérios de saída do plano para encerrar artificialmente o trabalho.
+
+### Portão de integridade verificado
+
+**Inventário físico na árvore \`main\`:** pasta \`3 - Materias/Direito Administrativo/\` contém **27 artigos numerados (01–27) e um hub** \`direito-administrativo.md\`; \`3 - Materias/Administracao Publica/\` contém **três artigos numerados (01–03) e um hub** \`administracao-publica.md\`. Os quantitativos **coincidem com os articleIds associados a \`camara-2026\`** no \`data/catalogo-materias-por-concurso.json\` (**27 DA + 3 AP**). Os cinco artigos de Administração Geral e bases de outras matérias são **compartilhados**, não somados à contagem dos artigos próprios. Este teste constata a quantidade dos caminhos e a quantidade dos IDs: a igualdade de cardinalidade, isoladamente, não prova que cada ID aponta para o arquivo correto. O bloco 17 confirmou os seis destinos dos 48 vínculos de questões por conteúdo de frontmatter.
+
+**Matriz do programa:** a seção oficial consolidada \`14.2.3\`, página física **52** do [edital do Cebraspe](https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/D0A680C4506DD7153722F50B4F05038D9C80FE7BAD36D52A5E65DA395F75A94B.pdf), foi cotejada e as principais linhas foram classificadas nos blocos 12–18. O bloco 18 entrega prioridades **P0/P1/P2** e critérios de aceite por subitem, apontando reuso de artigos CT09/10 para contratação e AP/Estado e Democracia/Avaliação para governança. Isso representa **cobertura de diagnóstico editorial**, não certificação de suficiência para todas as formas de cobrança Cebraspe.
+
+**Erros críticos ainda demonstráveis no texto original:** \`DA22\` questão **2** segue com **gabarito CERTO** para vedação perpétua de retorno, em oposição à ADI 2975 (**DA-004**); \`DA18\` ainda atribui matéria de parecerista à **Súmula 222/TCU**, que trata de licitação (**DA-009**); \`DA19\` ainda exige concordância de órgãos para composição de força de trabalho sob regime que prevê, em regra, irrecusabilidade (**DA-036**, observadas suas exceções e alcance); \`DA07\` permanece sem integrar a jurisprudência constitucional de **2026** sobre prescrição e sanções da improbidade (**DA-019/020**). **Nenhum artigo nem questão foi corrigido nesta Fase 1.**
+
+**Questões e navegação:** o piloto \`data/questoes-camara.json\` possui **48 itens inéditos DA/AP**, com \`theoryRefs\` estáticos **48/48** correspondentes a cabeçalhos existentes. O teste **não executou o frontend nem certificou todos os gabaritos**; assuntos centrais continuam sem itens no piloto. Dez questões reais **CNMP 2023, 111–120** foram inspecionadas em caderno/gabarito definitivos, mas a amostra não corresponde a auditoria integral do corpus da matéria.
+
+### Pendências bloqueadoras e condições verificáveis de liberação
+
+| Bloqueio | Trabalho ainda requerido na Fase 1 | Evidência de saída |
+| --- | --- | --- |
+| **G1: auditoria individual de questões** | Inventariar todas as perguntas C/E e comentários dos 27 DA e três AP (não apenas amostras e exercícios do piloto), conferir uma a uma enunciado, gabarito, fundamento, ambiguidade e jurisdição/norma vigente | Registro por **arquivo + número da questão + resultado + fonte**; distinguir homologado, ressalvado, incorreto e não verificável |
+| **G2: revisão integral de conteúdo por artigo** | Conferir a totalidade do corpo das notas, referências, prazos, exceções, atualizações e coerência entre artigos, sem presumir que as seções não examinadas estão corretas | Estado por arquivo \`integralmente-revisado / parcial / pendente\` e evidência de revisão, sem inventar percentuais |
+| **G3: integrações e cobertura de lacunas** | Consolidar decisão de \`CAM-AP-004/006/008/011\` e CT09/10, detalhando artigo canônico versus referência transversal; revisão dos conteúdos normativos institucionais da Câmara | Mapa de destino proposto por conceito, com artigoId preservado, fronteiras, links e dependências, sem criar notas antecipadamente |
+| **G4: vínculos em execução** | Testar URL publicada para fragmentos \`#\` de \`theoryRefs\`, se o site permitir; registrar eventual impossibilidade técnica | Teste de clique em seção real ou **pendente**, nunca certificar link apenas por texto Markdown |
+| **G5: decisão editorial final** | Separar erros jurídicos comprovados e materiais com ressalva; marcar itens não homologados e seguir protocolo para eventual autorização da reorganização | Relatório de encerramento com limitações, encaminhamentos e status aprovado explícito; nenhuma migração automática |
+
+**Classificação formal do estado desta frente em 11/11/2026: \`FASE 1 EM CURSO: diagnóstico consolidado, certificação individual pendente\`.** O bloco 19 é uma **revisão de governança editorial**, não adiciona achados DA numerados nem declara o reconhecimento de 81 erros. Permanecem **DA-001 a DA-081**: erros demonstrados, omissões, ressalvas metodológicas e verificações positivas, sem percentuais fictícios de segurança. Nenhuma mudança nos artigos de estudo, nos IDs, nas questões ou nas outras frentes. Próximo bloco, caso a Fase 1 continue: inventário individual e verificação das questões DA/AP ainda não homologadas, priorizando P0 e subitens do edital sem treino.

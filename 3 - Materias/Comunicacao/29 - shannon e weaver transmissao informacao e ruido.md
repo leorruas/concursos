@@ -5,7 +5,7 @@ title: "Shannon e Weaver: transmissão, informação, ruído e limites"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Shannon e Weaver: transmissão, informação, ruído e limites
@@ -101,6 +101,14 @@ Relações com [[3 - Materias/Comunicacao/06 - comunicacao digital|comunicação
 **Item 3:** “A distinção de Weaver entre problemas técnicos, semânticos e de efetividade permite considerar que uma mensagem pode ser transmitida com fidelidade sem produzir a reação desejada.”
 
 **Gabarito: Certo.** A transmissão e a eficácia comportamental pertencem a níveis analíticos distintos. O melhor distrator seria fazer do êxito técnico uma condição suficiente para êxito persuasivo.
+
+## Cotejo dirigido com a fonte primária: Shannon (1948)
+
+A leitura do **diagrama e do início da seção “The Discrete Channel” de Shannon (1948)** confirma que a arquitetura distingue **fonte de informação, transmissor, canal, receptor e destino**, com a fonte de ruído inserida no canal. Na terminologia do autor, o receptor desempenha uma operação inversa à do transmissor, reconstruindo a mensagem a partir do sinal; o destino é o ente para quem a mensagem se dirige. O próprio texto original caracteriza o problema técnico como reprodução exata ou aproximada de uma mensagem escolhida e explicita que o significado semântico não é o objeto da medida de engenharia.
+
+**Itens conferidos neste recorte:** item 1, **Errado**: receptor e destino não são o mesmo papel no diagrama; item 2, **Certo**: probabilidade e quantidade de informação não equivalem diretamente a relevância semântica. O item 3, sobre os **níveis de Weaver**, **não está incluído neste cotejo da fonte Shannon de 1948**: exige conferência separada no ensaio de Weaver de 1949. Nenhuma inversão de gabarito foi identificada nos itens 1 e 2.
+
+**Fonte primária verificada:** [Shannon, *A Mathematical Theory of Communication* (1948), p. 1–2, diagrama da p. 2](https://www.princeton.edu/~wbialek/rome/refs/shannon_48.pdf), consultado em 11/11/2026. Escopo limitado às passagens indicadas, não revisão de todas as fórmulas do artigo.
 
 ## Aplicação discursiva
 

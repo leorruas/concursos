@@ -623,3 +623,33 @@ Foram abertos e **vistos em imagem** tanto o [caderno original Cebraspe 814_CNMP
 **Análise de aderência:** os itens 84–87, 91, 93–94, 96–97 e 100 oferecem mecanismos transferíveis de precisão, checagem, adaptação de linguagem, redação audiovisual e visualização. Os itens 81–83, 89–90, 92 e 98–99 cobram práticas e vocabulário mais específicos de redação jornalística/telejornalismo, úteis como repertório, mas cuja prioridade depende do edital de 2026. A categoria “alta transferência” **não significa** que item idêntico esteja previsto no edital ou que a atual banca adote o mesmo conceito sem ressalvas.
 
 **Contagem:** os 70 itens históricos previamente conferidos (Correios 2011, 40; CNMP 2023, 30) passam a **90 questões históricas individualmente conferidas, 87 com julgamento C/E e 3 anuladas (CNMP 60, 71 e 95)**. O conjunto de exercícios inéditos da wiki continua contabilizado em separado. Esta conferência não exige criar 20 novos exercícios e não significa revisar integralmente o conteúdo de todos os artigos relacionados.
+
+
+## Conferência direta DPDF, edital 2020, prova aplicada em 2022: itens 51–68 (11/11/2026)
+
+A prova de **DPDF, edital 2020**, foi **aplicada em 13/02/2022**, segundo [gabarito definitivo Cebraspe](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/GAB_DEFINITIVO_548_DPDF_005_01.PDF). O cargo do caderno 548_DPDF_005_01 é **Analista, Comunicação Social, Jornalismo**. Foram abertos e inspecionados visualmente **a página 1 do [caderno oficial](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF) e a página única do gabarito**, conferindo 18 itens consecutivos (51 a 68) por número, enunciado, julgamento e tema.
+
+| Item | Gabarito | Assunto do enunciado | Relação com Câmara 2026 |
+| ---: | :---: | --- | --- |
+| 51 | **C** | Shannon: aplicação analógica do esquema a mensagem em rede social | Aderente: teoria da comunicação; distinguir analogia de identidade técnica |
+| 52 | **C** | Lasswell: coordenação de componentes sociais e transmissão de herança | Aderente: funções sociais, diferentes das cinco perguntas |
+| 53 | **E** | Credibilidade confundida com frequência de presença e lembrança | Aderente: inversão de qualidades comunicacionais |
+| 54 | **E** | Comunicação pública reduzida à relação governo-sociedade e Estado como influência eventual | Aderente: distinguir Estado, governo e sociedade |
+| 55 | **C** | Blog, eventos e reuniões como possíveis instrumentos segmentados | Aderente: forma de atingir públicos |
+| 56 | **C** | Opinião pública e espaços de manifestação ampliados pela internet | Aderente, com ressalva de contexto histórico do enunciado |
+| 57 | **E** | Ambiente setorial confundido com pessoas e infraestrutura internas | Aderente: análise de ambiente |
+| 58 | **C** | Marca como síntese simbólica ligada à identidade | Aderente: branding, não definir marca como somente logotipo |
+| 59 | **C** | Imagem como percepção dos públicos, não retrato necessário da realidade | Aderente: identidade × imagem |
+| 60 | **E** | Comunicação interna excluída indevidamente da dinâmica organizacional | Aderente: relação entre meios interno e externo |
+| 61 | **C** | Em crise, clareza denotativa e envolvimento conotativo | Aderente com cuidado para contexto, sem tornar emoção obrigação |
+| 62 | **C** | Pesquisa de clima e diagnóstico de relações internas | Aderente, sem equiparar pesquisa de clima a medição única de cultura |
+| 63 | **E** | Rede informal confundida com informação formal restrita e prescrita | Aderente: sistemas internos formais e informais |
+| 64 | **C** | Engajamento de stakeholders com participação dos públicos | Aderente: comunicação organizacional |
+| 65 | **E** | Wiki definida como diário pessoal cronológico, isto é, descrição de blog | Aderente: plataformas e colaboração |
+| 66 | **E** | Hashtag apresentada como elemento essencial/principal de transporte viral | Aderente: generalização de mecanismo digital |
+| 67 | **E** | Presença paga confundida com mídia própria da entidade | Aderente: paid/owned |
+| 68 | **E** | Nós, atores e laços com funções invertidas | Aderente: rede social e relações |
+
+**Sequência oficial**: 51 C, 52 C, 53 E, 54 E, 55 C, 56 C, 57 E, 58 C, 59 C, 60 E, 61 C, 62 C, 63 E, 64 C, 65 E, 66 E, 67 E, 68 E. **Não há itens anulados neste intervalo.** Não atribuir ao concurso ano de aplicação 2020: é o ano do edital, com aplicação em 2022. A seleção por tema não estabelece por si equivalência de peso no edital Câmara 2026. O caderno original e o gabarito são fontes históricas da banca; conceitos atuais e normas da Câmara exigem cotejo próprio.
+
+**Estado histórico acumulado desta sequência:** 90 itens já conferidos (40 Correios 2011 e 50 CNMP 2023) + 18 DPDF = **108 itens históricos individualmente conferidos**, com **105 C/E válidos e 3 anulados (CNMP 60, 71, 95)**. O registro de exercícios inéditos e a contagem de artigos modificados permanecem separados. A leitura do PDF e do gabarito oficiais não significa inspeção integral dos demais blocos da prova.

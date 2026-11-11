@@ -5,7 +5,7 @@ title: "Semiótica: Saussure, Peirce, Barthes e produção de significação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Semiótica: Saussure, Peirce, Barthes e produção de significação
@@ -165,6 +165,18 @@ A análise do mito demonstra uma **possibilidade de significação**; para afirm
 **Item C/E 3, inédito:** “Para Barthes, o mito pode constituir uma significação de segunda ordem, na qual um signo já dotado de sentido é mobilizado como forma para uma nova significação cultural.”
 
 **Gabarito: Certo.** O enunciado reproduz a estrutura do segundo sistema sem confundir mito com falsidade.
+
+## Conferência dirigida: signo, interpretante e mito (11/11/2026)
+
+A [Stanford Encyclopedia of Philosophy, verbete sobre a semiótica de Peirce](https://plato.stanford.edu/entries/peirce-semiotics/) confirma que **signo, objeto e interpretante** formam uma relação triádica e que **ícone, índice e símbolo** se distinguem conforme o vínculo com o objeto (qualidade, conexão factual ou convenção), não conforme o suporte físico da mensagem. O interpretante não se reduz à pessoa intérprete. A [introdução acadêmica da Princeton à semiótica de Saussure](https://www.cs.princeton.edu/~chazelle/courses/BIB/semio2.htm) distingue significante e significado como faces do signo, sem identificá-los automaticamente com a coisa física. A [síntese acadêmica da SIUE](https://aura-lab.siue.edu/theories/semiotic-theories/) situa a contribuição de Barthes sobre conotação e mito.
+
+| Item | Gabarito | Limite da verificação |
+| --- | --- | --- |
+| 1 | Certo | Compatível com Saussure; confirmação por exposição acadêmica, não leitura exaustiva da edição de 1916. |
+| 2 | Errado | Confirmado em fonte acadêmica de referência sobre Peirce; interpretante e classes de signos são categorias distintas das descritas no enunciado. |
+| 3 | Certo | Compatível com o sistema de segunda ordem apresentado em estudos de Barthes; a formulação literal do capítulo “O mito, hoje”, de 1957, continua a exigir cotejo direto nesta auditoria. |
+
+**Estado:** nenhuma inversão demonstrada. Somente o item 2 foi apoiado diretamente por uma fonte especializada de referência examinada nesta rodada; para os itens 1 e 3, o exame permanece **indireto**, com fonte original pendente. O exemplo “fotografia” não é, por si só, uma classificação imutável de ícone: identificar a relação sígnica que está sendo analisada.
 
 ## Aplicação discursiva
 

@@ -5250,6 +5250,102 @@
       "statement": "A regra federal que admite delegação sem subordinação permite também avocar competência de um órgão sem relação hierárquica com a autoridade que pretende avocá-la.",
       "correctAnswer": "E",
       "explanation": "O art. 15 exige que o órgão cuja competência se avoca seja hierarquicamente inferior. A regra de delegação sem subordinação não se estende à avocação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "interesse-publico",
+      "mechanism": "confundir-audiencia-com-relevancia",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Direito à informação e interesse público"
+      ],
+      "statement": "Uma informação sobre a interrupção do atendimento pode ser de interesse público mesmo que gere menos audiência que uma notícia sobre a vida privada de um servidor sem relação com o serviço.",
+      "correctAnswer": "C",
+      "explanation": "A interrupção afeta o acesso a um serviço. O interesse público depende da relevância da informação para a coletividade e não do potencial de audiência."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "contextualizacao-da-informacao",
+      "mechanism": "tratar-dado-isolado-como-contexto-suficiente",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Verdade, apuração e responsabilidade"
+      ],
+      "statement": "Uma matéria informa corretamente que as reclamações dobraram, mas omite que o volume de atendimentos quadruplicou. A exatidão da contagem, por si só, garante que a matéria representa adequadamente a evolução da proporção de reclamações.",
+      "correctAnswer": "E",
+      "explanation": "A proporção depende do número de reclamações em relação aos atendimentos. Com as mudanças descritas, ela caiu pela metade, embora a contagem tenha dobrado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "sigilo-e-apuracao",
+      "mechanism": "distinguir-protecao-de-verificacao",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Sigilo da fonte"
+      ],
+      "statement": "Preservar a identidade de uma fonte é compatível com buscar documentos e outras evidências antes de publicar a informação fornecida por ela.",
+      "correctAnswer": "C",
+      "explanation": "O sigilo protege a identidade da fonte. A verificação avalia a confiabilidade da informação recebida."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "retificacao",
+      "mechanism": "confundir-correcao-com-apuracao-inicial",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Correção, direito de resposta e pluralidade"
+      ],
+      "statement": "Uma equipe identifica que publicou o horário errado de uma sessão. O dever de precisão se encerrou no momento da publicação, de modo que a confirmação posterior do erro é irrelevante para a comunicação ao público.",
+      "correctAnswer": "E",
+      "explanation": "A responsabilidade pela informação continua após publicar. Corrigir o horário permite que o público use a informação correta."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "presuncao-de-inocencia",
+      "mechanism": "confundir-investigacao-com-condenacao",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Verdade, apuração e responsabilidade"
+      ],
+      "statement": "Uma comunicação que noticia a abertura de uma investigação deve distinguir esse fato de uma condenação, mesmo que a abertura tenha sido oficialmente confirmada.",
+      "correctAnswer": "C",
+      "explanation": "A confirmação comprova que há investigação. Ela não comprova culpa nem condenação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "etica-da-comunicacao-publica",
+      "mechanism": "confundir-veracidade-com-adequacao-integral",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Ética jornalística × ética da comunicação pública"
+      ],
+      "statement": "Uma peça institucional divulga um dado verdadeiro. Essa característica, por si só, resolve qualquer questão ética sobre omissão de contexto ou uso da peça para enaltecer pessoalmente uma autoridade.",
+      "correctAnswer": "E",
+      "explanation": "A veracidade do dado é um critério. O contexto da mensagem e sua finalidade institucional também precisam ser avaliados."
     }
   ]
 }

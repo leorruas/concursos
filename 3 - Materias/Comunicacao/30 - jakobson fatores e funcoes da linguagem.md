@@ -5,7 +5,7 @@ title: "Roman Jakobson: seis fatores e seis funções da linguagem"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Roman Jakobson: seis fatores e seis funções da linguagem
@@ -120,6 +120,14 @@ Conexões com [[3 - Materias/Portugues/09 - tipos e generos textuais|tipos e gê
 **Item 3:** “A presença de função poética em um slogan institucional é incompatível com a função conativa, visto que cada mensagem verbal apresenta uma única função.”
 
 **Gabarito: Errado.** As funções coexistem e se hierarquizam. A formulação atribui exclusividade a uma classificação cuja teoria original destaca a predominância.
+
+## Cotejo dirigido com a fonte primária: Jakobson (1960)
+
+No ensaio **“Linguistics and Poetics”**, a lista literal dos fatores é **addresser, context, message, contact, code e addressee**. O autor explica que a mensagem verbal raramente cumpre uma só função: há uma **ordem hierárquica** e uma função predominante. Contato e código são fatores diferentes, vinculados respectivamente às funções fática e metalinguística.
+
+**Itens conferidos:** item 1, **Certo**, corresponde à distinção contato/código; item 2, **Errado**, pois orientar um enunciado ao destinatário não permite demonstrar empiricamente que a conduta desejada ocorreu; item 3, **Errado**, pois a teoria admite coexistência e predominância, em vez de exclusividade de uma única função. Nos três itens, não se encontrou necessidade de troca do gabarito. A aplicação a slogan e comportamento do público é inferência pedagógica, identificada como tal, e não exemplo histórico descrito por Jakobson.
+
+**Fonte primária verificada:** [Jakobson, “Linguistics and Poetics”, reprodução em *Language in Literature* (1987), p. 66–69](https://commons.princeton.edu/eng266-s25/wp-content/uploads/sites/433/2025/04/Jakobson-Linguistics-and-Poetics.pdf), consultado em 11/11/2026. Revisão delimitada aos fatores, às funções e ao critério de predominância.
 
 ## Aplicação discursiva
 

@@ -5,7 +5,7 @@ title: "Framing: enquadramento, seleção de aspectos e interpretação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Framing: enquadramento, seleção de aspectos e interpretação
@@ -112,6 +112,18 @@ A banca pode inverter **diagnóstico causal e solução**, confundir **quatro fu
 **Item C/E 3, inédito:** “A comparação entre enquadramentos exige verificar quais aspectos foram selecionados e quais relações interpretativas receberam destaque, sendo possível analisar mensagens factual e formalmente corretas.”
 
 **Gabarito: Certo.** O conceito não exige mentira nem opinião explícita. A escolha de fatos verdadeiros pode promover diferentes leituras.
+
+## Auditoria dirigida: Entman e funções versus lugares do enquadramento (11/11/2026)
+
+Em [*Framing: Toward Clarification of a Fractured Paradigm* (1993)](https://fbaum.unc.edu/teaching/articles/J-Communication-1993-Entman.pdf), **Entman diferencia quatro funções possíveis** do enquadramento (definir problemas, diagnosticar causas, fazer julgamentos morais e sugerir soluções) de **quatro lugares** em que o enquadramento atua (comunicador, texto, receptor e cultura). O texto ressalva que **um enquadramento não precisa conter todas as quatro funções**, e que a interpretação do receptor pode diferir daquela expressa no texto.
+
+| Item | Gabarito | Cotejo delimitado |
+| --- | --- | --- |
+| 1 | Certo | Confirmado: funções possíveis, sem obrigatoriedade de presença simultânea. |
+| 2 | Errado | Confirmado: comunicador, texto, receptor e cultura são lugares de operação, não quatro causas obrigatórias do acontecimento. |
+| 3 | Certo | Compatível com a seleção e saliência descritas pelo autor: o enquadramento pode operar sem falsidade factual explícita. |
+
+**Resultado:** três respostas mantidas após confronto dos conceitos com a fonte de Entman. **Correção de leitura:** não converter as quatro funções em checklist obrigatório nem equiparar automaticamente o enquadramento produzido à interpretação efetiva do público. Fonte primária: Entman (1993), p. 52–53; a comparação com agenda-setting e priming depende também da literatura posterior, não certificada integralmente aqui.
 
 ## Aplicação discursiva
 

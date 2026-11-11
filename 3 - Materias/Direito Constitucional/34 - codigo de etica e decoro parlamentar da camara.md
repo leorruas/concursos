@@ -177,8 +177,8 @@ flowchart TD
  H -->|Sem recurso| J["Processo encaminhado à Mesa"]
  H1 --> H2{"Vício jurídico reconhecido?"}
  H2 -->|Não| J
- H2 -->|Sim| H3["Providências de saneamento conforme decisão da CCJC"]
- H3 -.-> H4["Tramitação posterior depende do saneamento"]
+ H2 -->|Sim| H3["Encaminhamento conforme pronunciamento da CCJC sobre os vícios"]
+ H3 -.-> H4["Tramitação posterior depende dos efeitos da decisão"]
  J --> K["Leitura no expediente, publicação e distribuição em avulsos"]
  K --> K1["Mesa inclui na Ordem do Dia em até 2 sessões ordinárias: art. 16, § 2º"]
  K1 --> L["Plenário: votação ostensiva; maioria absoluta"]
@@ -445,7 +445,7 @@ Os fundamentos foram conferidos individualmente com o [Código de Ética consoli
 
 **Resultado:** 6/6 gabaritos confirmados quanto ao enunciado específico, sem inversão. A questão 2 foi **reescrita** para corresponder à hipótese legal de desacato por palavras, em vez de usar expressão genérica potencialmente ambígua. Os quatro casos sobre suspensão **cautelar** permanecem separados dos seis itens do rito **sancionatório**. A verificação integral do Regulamento e de todos os exemplos continua sendo etapa independente.
 
-**Limite do fluxograma (11/11/2026):** a CCJC aprecia somente os vícios jurídicos apontados no recurso, não reexamina o mérito. O percurso gráfico distingue o recurso não acolhido da hipótese de reconhecimento de vício, que exige providências compatíveis com a decisão antes de eventual remessa regular à Mesa. O desenho é síntese didática, não substitui os arts. 13, IV–V, e 14, § 4º, VII–VIII, do Código. A renderização visual do Mermaid ainda não foi verificada.
+**Limite do fluxograma (11/11/2026):** a CCJC aprecia somente os vícios jurídicos apontados no recurso, não reexamina o mérito. O percurso gráfico distingue o recurso não acolhido da hipótese de reconhecimento de vício, cuja consequência e tramitação posterior devem observar o pronunciamento da CCJC, sem pressupor um saneamento obrigatório ou uma solução única. O desenho é síntese didática, não substitui os arts. 13, IV–V, e 14, § 4º, VII–VIII, do Código. A renderização visual do Mermaid ainda não foi verificada.
 
 ## Fontes primárias e controle de vigência
 

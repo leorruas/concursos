@@ -2066,6 +2066,102 @@
       "statement": "Em uma pesquisa, 85% dos participantes identificaram corretamente o símbolo de um órgão. O resultado permite concluir que a mesma proporção confia no órgão.",
       "correctAnswer": "E",
       "explanation": "Identificar a origem de um símbolo mede reconhecimento. A confiança exige uma medida própria sobre a avaliação do órgão."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / conceitos e transformação de dados",
+      "conceptId": "ausencia-de-dados",
+      "mechanism": "confundir-ausencia-com-zero",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#3. Limpeza de dados (*Data Cleansing*): operações fundamentais"
+      ],
+      "statement": "Uma planilha usa célula vazia para indicar que o tempo de espera não foi medido. Substituir todos os vazios por zero antes de calcular a média preserva o significado da medida.",
+      "correctAnswer": "E",
+      "explanation": "Zero representa espera medida de zero minuto. Preencher ausências com zero introduz valores não observados e pode reduzir artificialmente a média."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / conceitos e transformação de dados",
+      "conceptId": "deduplicacao",
+      "mechanism": "confundir-pessoa-com-evento",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#3. Limpeza de dados (*Data Cleansing*): operações fundamentais"
+      ],
+      "statement": "Em uma tabela na qual cada linha representa um atendimento, duas linhas com o mesmo identificador de usuário podem ser legítimas quando correspondem a atendimentos diferentes.",
+      "correctAnswer": "C",
+      "explanation": "A unidade registrada é o atendimento. O identificador do usuário pode aparecer em vários eventos sem que esses eventos sejam duplicatas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / conceitos e transformação de dados",
+      "conceptId": "granularidade",
+      "mechanism": "inferir-detalhe-de-total",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#4. Agregação e granularidade de dados"
+      ],
+      "statement": "Se uma publicação informa apenas que ocorreram 120 atendimentos em abril, é possível recuperar desse total o número exato de atendimentos em cada dia do mês.",
+      "correctAnswer": "E",
+      "explanation": "Muitas distribuições diárias somam 120. O agregado mensal não preserva a distribuição por dia."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / conceitos e transformação de dados",
+      "conceptId": "media-ponderada",
+      "mechanism": "ignorar-tamanho-dos-grupos",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#4. Agregação e granularidade de dados"
+      ],
+      "statement": "Uma unidade atendeu 10 pessoas com espera média de 8 minutos e outra atendeu 30 com média de 12. A espera média das 40 pessoas foi de 11 minutos.",
+      "correctAnswer": "C",
+      "explanation": "Os tempos somam 10 × 8 + 30 × 12 = 440 minutos. Dividir por 40 dá 11 minutos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / conceitos e transformação de dados",
+      "conceptId": "validade-e-exatidao",
+      "mechanism": "confundir-formato-valido-com-fato-correto",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#5. As dimensões da qualidade de dados (*Data Quality*)"
+      ],
+      "statement": "Uma data de nascimento passou na checagem de formato e corresponde a um dia existente no calendário. Esses testes comprovam que a data pertence à pessoa cadastrada.",
+      "correctAnswer": "E",
+      "explanation": "Os testes confirmam a validade formal da data. A exatidão exige verificar se ela corresponde à pessoa, usando uma fonte adequada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / conceitos e transformação de dados",
+      "conceptId": "atualidade-dos-dados",
+      "mechanism": "separar-atualidade-de-completude",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#5. As dimensões da qualidade de dados (*Data Quality*)"
+      ],
+      "statement": "Um cadastro pode ter todos os telefones preenchidos e ainda apresentar problema de atualidade se parte deles tiver sido desativada depois da coleta.",
+      "correctAnswer": "C",
+      "explanation": "A completude trata de campos preenchidos. A atualidade depende de os valores continuarem válidos para o momento de uso."
     }
   ]
 }

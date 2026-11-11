@@ -5058,6 +5058,102 @@
       "statement": "A natureza excepcional do regime de adiantamento permite entregar numerário ao servidor antes do empenho na dotação própria.",
       "correctAnswer": "E",
       "explanation": "O art. 68 exige empenho na dotação própria antes da entrega do numerário."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos",
+      "conceptId": "motivo-e-motivacao",
+      "mechanism": "distinguir-fato-de-exposicao",
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#4. Motivo e Motivação"
+      ],
+      "statement": "A ausência de documento exigido pode ser o motivo do indeferimento. A exposição desse fato e de seu fundamento jurídico na decisão integra a motivação.",
+      "correctAnswer": "C",
+      "explanation": "Motivo é o pressuposto de fato e de direito. Motivação é sua exposição no ato."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos",
+      "conceptId": "motivacao-por-remissao",
+      "mechanism": "exigir-repeticao-integral-de-parecer",
+      "theoryRefs": [
+        "article:art-a7703dd0e3fc4618#4. Motivo e Motivação"
+      ],
+      "statement": "Em decisão federal motivada pela concordância expressa com parecer anterior claro e congruente, a lei exige repetir integralmente o parecer no corpo da decisão.",
+      "correctAnswer": "E",
+      "explanation": "O art. 50, § 1º, admite a concordância com os fundamentos anteriores, que passam a integrar o ato."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos",
+      "conceptId": "anulacao-de-ato",
+      "mechanism": "identificar-vicio-de-legalidade",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#1. Anulação (Invalidação)"
+      ],
+      "statement": "Se a própria administração retira um ato porque identificou ilegalidade, a causa da retirada caracteriza anulação.",
+      "correctAnswer": "C",
+      "explanation": "A anulação responde a vício de legalidade. A classificação decorre da causa da retirada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos",
+      "conceptId": "revogacao-de-ato",
+      "mechanism": "confundir-merito-com-ilegalidade",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#2. Revogação"
+      ],
+      "statement": "A administração identifica ilegalidade em um ato e pode corrigi-la por revogação fundada em oportunidade.",
+      "correctAnswer": "E",
+      "explanation": "Revogação decorre de conveniência ou oportunidade em relação a ato válido. A ilegalidade exige exame de invalidação ou saneamento, conforme o vício."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos",
+      "conceptId": "convalidacao",
+      "mechanism": "avaliar-condicoes-de-saneamento",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#3. Convalidação (Saneamento ou Ratificação)"
+      ],
+      "statement": "No processo administrativo federal, um vício sanável pode ser convalidado pela administração quando a decisão evidencia ausência de lesão ao interesse público e de prejuízo a terceiros.",
+      "correctAnswer": "C",
+      "explanation": "Essas condições são previstas no art. 55 da Lei nº 9.784/1999 para o saneamento do defeito."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos",
+      "conceptId": "convalidacao",
+      "mechanism": "ignorar-prejuizo-a-terceiro",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#3. Convalidação (Saneamento ou Ratificação)"
+      ],
+      "statement": "A possibilidade técnica de sanar um defeito basta para convalidar o ato no processo administrativo federal, mesmo quando a medida prejudica terceiros.",
+      "correctAnswer": "E",
+      "explanation": "A ausência de prejuízo a terceiros é uma das condições legais. A natureza sanável do defeito não basta isoladamente."
     }
   ]
 }

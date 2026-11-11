@@ -628,3 +628,13 @@ Mais quatro artigos legados receberam adaptação editorial C/E **inédita**, pr
 | 12, Produção editorial e design | Quatro C/E sobre sangria, PDF para impressão e acessibilidade, PPI e roteiro técnico | [ef19306](https://github.com/leorruas/concursos/commit/ef19306f24d190d7472f5d9da8b9b8815098e30d) |
 
 **Indicadores:** 13 dos 128 arquivos inventariados tiveram edição desde o início das correções (10,2% do inventário). Os **oito legados previamente selecionados para adaptação** (02, 07, 09, 10, 11, 12, 17 e 20) receberam seções C/E. Isso não representa auditoria substantiva concluída nesses textos, nem um denominador confiável para o trabalho total restante. Pendem ainda a verificação profunda dos 128 arquivos, a revisão dos gabaritos e fontes, normas complementares, remissões e redundâncias. Próxima trilha sugerida: conferência específica dos itens legados e dos conteúdos normativos, com registro de evidência por artigo.
+
+
+## Registro: revisão dirigida dos gabaritos legais (11/11/2026)
+
+Esta etapa muda o foco da inclusão de exercícios para o **cotejo de gabaritos de itens já existentes**. A partir das fontes primárias do Código CONAR e da Lei nº 12.232/2010, foram revistos os dez itens inéditos do artigo 122 e os dez do artigo 124, com indicação do artigo ou anexo que fundamenta cada resposta. **Nenhuma inversão de resposta foi identificada nesse recorte**. Os artigos receberam quadros rastreáveis com os dispositivos cotejados.
+
+- Artigo 122, Código CONAR: [commit dd39844](https://github.com/leorruas/concursos/commit/dd3984438f743943cb702bd7cfa0be00708f8eba); destaque para a verificação do **Anexo Q**, art. 9º (teaser) e arts. 11, 12, 17, 27, 30, 32, 37, 48 e 50. Fonte oficial: https://www.conar.org.br/codigos .
+- Artigo 124, Lei nº 12.232: [commit c8afd11](https://github.com/leorruas/concursos/commit/c8afd111070dc3f35ef2c1e3ac17327a1e05e50d); destaque para o art. 6º, VII (diferença **superior** a 20%), art. 14 (três orçamentos versus rito de envelopes) e art. 17 (guarda após extinção). Fonte: https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html .
+
+**Indicadores:** 13 arquivos distintos de artigos foram modificados desde o início desta sequência, agora incluindo **2 com cotejo dirigido de gabaritos**, sem ampliar o total de arquivos distintos. Foram examinados neste bloco 20 itens existentes; isto **não** significa vinte questões reais Cebraspe ou validação integral dos 128 arquivos. A auditoria de bibliografia, demais exercícios e normas complementares permanece aberta. Uma escrita concorrente no repositório foi detectada durante a atualização do 124; sua versão atual foi relida antes de salvar, evitando substituição cega.

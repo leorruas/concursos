@@ -5,7 +5,7 @@ title: "Marshall McLuhan: o meio é a mensagem, extensões e ecologia dos meios"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Marshall McLuhan: meio, mensagem e consequências dos meios
@@ -125,6 +125,18 @@ Conexões: [[3 - Materias/Comunicacao/39 - estudos culturais stuart hall codific
 **Item C/E 3, inédito:** “A tétrade de McLuhan envolve ampliação, obsolescência, recuperação e reversão, que funcionam como perguntas analíticas e não como quatro fases cronológicas obrigatórias.”
 
 **Gabarito: Certo.** A estrutura foi preservada, inclusive a ausência de sequência obrigatória.
+
+## Conferência dirigida: meio, participação e tétrade (11/11/2026)
+
+Os três itens C/E foram reexaminados por eixo, distinguindo a teoria de 1964 do desenvolvimento de 1988. A [apresentação da tétrade em McLuhan.org](https://mcluhan.org/laws-of-media/) confirma **ampliação, obsolescência, recuperação e reversão** como quatro perguntas simultâneas de análise, não fases obrigatórias. A [explicação de meios quentes e frios vinculada ao material de McLuhan](https://themmm.marshallmcluhan.com/book/there-is-a-basic-principle-that-distinguishes-a-hot-medium-like-radio-from-a-cool-one-like-the-telephone-or-a-hot-medium-like-the-movie-from-a-cool-one-like-tv-a-hot-medium-is-one-that-extends-one-s/) associa a diferença à definição sensorial e à participação requerida, sem classificar meios pela qualidade democrática.
+
+| Item | Gabarito mantido | Alcance da conferência |
+| --- | --- | --- |
+| 1 | Certo | Compatível com a leitura de *Understanding Media* (1964): a mensagem do meio envolve mudanças de escala, ritmo e padrão, não apenas conteúdo verbal. Conferência por apresentação conceitual e referências da nota, sem leitura integral da edição de 1964. |
+| 2 | Errado | A tipologia quente/frio não é uma escala de democracia ou envolvimento político; comparação compatível com a apresentação do conceito. |
+| 3 | Certo | Quatro perguntas identificadas na apresentação de *Laws of Media* (1988), de Marshall **e Eric** McLuhan. |
+
+**Ressalva:** as classificações quente/frio são históricas e podem exigir interpretação cuidadosa quando transpostas a plataformas contemporâneas. A tétrade de 1988 não deve ser atribuída como formulação completa ao livro de 1964. Nenhum gabarito foi invertido; os três itens são inéditos e não indicam frequência real de cobrança pela Cebraspe.
 
 ## Aplicação discursiva
 

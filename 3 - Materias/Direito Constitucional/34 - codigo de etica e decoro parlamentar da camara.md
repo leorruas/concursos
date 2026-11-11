@@ -149,7 +149,7 @@ flowchart TD
  B --> E["Suspensão de prerrogativas: art. 13"]
  E --> E1["Relator por sorteio de lista tríplice"]
  E1 --> E2["Defesa: 10 dias úteis"]
- E2 --> E3["Diligências: 15 dias úteis, prorrogáveis uma vez"]
+ E2 --> E3["Diligências: 15 dias úteis; prorrogação única por igual prazo, pelo Plenário do Conselho"]
  E3 --> E4{"Parecer do Conselho"}
  E4 -->|Improcedente| F["Arquivamento: art. 13, III, a"]
  E4 -->|Sanção menos grave| M["Proposta à Mesa: art. 13, III, c"]
@@ -164,7 +164,8 @@ flowchart TD
  I1 -->|Inépcia ou falta de justa causa em representação partidária| F2["Decisão terminativa; recurso ao Plenário por 1/10 da Casa"]
  I1 -->|Prossegue| I3["Defesa: 10 dias úteis; até 8 testemunhas"]
  I3 --> I4["Instrução improrrogável: 30 dias úteis para suspensão; 40 para perda"]
- I4 --> I5
+ I4 --> I4A["Parecer do relator: 10 dias úteis após a instrução"]
+ I4A --> I5
  I5 --> I6{"Conselho vota parecer nominalmente"}
  I6 -->|Rejeitado| I7["Designação de novo relator: art. 14, § 4º, V"]
  I7 --> I8["Novo parecer submetido à discussão e votação"]
@@ -197,6 +198,8 @@ flowchart TD
 ```
 
 **Rejeição do parecer no Conselho:** o art. 14, § 4º, V, obriga a designação de novo relator, preferencialmente entre os que se manifestaram contrariamente ao primeiro. O caminho de rejeição no fluxograma passa pela elaboração de outro parecer antes de nova discussão e votação, sem supor aprovação automática ou reaproveitamento do parecer rejeitado.
+
+**Prazos sucessivos no fluxograma:** no rito do art. 14, a instrução é **improrrogável** (30 dias úteis para suspensão do mandato; 40 para perda) e, **depois dela**, o relator dispõe de **10 dias úteis para apresentar parecer** (art. 14, § 4º, IV). No art. 13, II, as diligências de 15 dias úteis só podem ser prorrogadas **uma vez, por igual período, mediante deliberação do Plenário do Conselho**.
 
 **Remissões específicas do diagrama:** no ramo do art. 13, a conclusão de procedência consta do inciso III, b, enquanto o **encaminhamento do parecer instruído com projeto de resolução** é disciplinado pelo inciso V. No rito dos arts. 13 e 14, a Mesa recebe o processo e, **após leitura no expediente, publicação e distribuição em avulsos**, tem prazo **improrrogável de duas sessões ordinárias** para incluí-lo na Ordem do Dia (art. 16, § 2º).
 

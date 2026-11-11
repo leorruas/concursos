@@ -150,7 +150,7 @@ A **Política de Segurança da Informação (PSI)** é o documento formal de mai
 > Em um ataque de negação de serviço (DoS/DDoS) bem-sucedido que sobrecarregue os servidores web de um órgão público, provocando a indisponibilidade temporária de seu portal de notícias, restam violados concomitantemente os princípios da confidencialidade, da integridade e da disponibilidade dos dados institucionais.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: A pegadinha consiste em afirmar que múltiplos princípios são violados ao mesmo tempo. No ataque de DoS puro, a ação do invasor se limita a esgotar os recursos de rede, memória ou processamento do servidor para impedir o atendimento de requisições legítimas. Não há, necessariamente, invasão de bases de dados para leitura indevida (o que violaria a confidencialidade) nem alteração do conteúdo dos arquivos (o que violaria a integridade). A violação ocorre estritamente contra a **Disponibilidade**.
+- **Fundamentação**: A pegadinha consiste em afirmar que múltiplos princípios são violados ao mesmo tempo. No ataque de DoS puro, a ação do invasor se limita a esgotar os recursos de rede, memória ou processamento do servidor para impedir o atendimento de requisições legítimas. Não há, necessariamente, invasão de bases de dados para leitura indevida (o que violaria a confidencialidade) nem alteração do conteúdo dos arquivos (o que violaria a integridade). O efeito **necessariamente descrito no enunciado** é sobre a **disponibilidade**; ataques combinados também poderiam afetar confidencialidade ou integridade, mas o cenário não fornece evidência disso.
 
 ---
 
@@ -158,7 +158,7 @@ A **Política de Segurança da Informação (PSI)** é o documento formal de mai
 > A utilização de funções de resumo criptográfico (*hash*), tais como SHA-256, associadas aos arquivos de tramitação legislativa, atua como controle tecnológico primordial para garantir a confidencialidade do conteúdo das proposições.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: O *hash* criptográfico é um algoritmo unidirecional que gera uma assinatura matemática de comprimento fixo a partir de qualquer volume de dados. Ele serve para atestar a **Integridade** (verificar se qualquer bit do arquivo foi alterado entre a origem e o destino). O *hash* **não** garante a confidencialidade, pois ele não impede que terceiros leiam o texto original do documento (o sigilo é garantido pela criptografia simétrica ou assimétrica).
+- **Fundamentação**: Uma função *hash* criptográfica gera um **resumo de comprimento fixo**, que pode apoiar a **verificação de integridade** quando comparado a um resumo de referência obtido por canal confiável. Um hash isolado não prova autoria nem impede substituição maliciosa do arquivo e do resumo. O *hash* **não** garante a confidencialidade, pois ele não impede que terceiros leiam o texto original do documento (o sigilo é garantido pela criptografia simétrica ou assimétrica).
 
 ---
 
@@ -166,7 +166,7 @@ A **Política de Segurança da Informação (PSI)** é o documento formal de mai
 > A Política de Segurança da Informação (PSI) de uma instituição pública deve constituir um instrumento estático e imutável, aprovado em caráter definitivo pela diretoria-geral para assegurar a perenidade dos controles operacionais ao longo dos mandatos legislativos.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: Conforme as normas ISO/IEC 27001 e 27002, a PSI é um documento formal corporativo que deve ser revisado periodicamente (ao menos anualmente) e sempre que ocorrerem mudanças regulatórias, novas ameaças tecnológicas ou alterações organizacionais substanciais. Tratá-la como documento estático e imutável tornaria a segurança obsoleta e ineficaz.
+- **Fundamentação**: Conforme as normas ISO/IEC 27001 e 27002, a PSI deve ser revisada em **intervalos planejados** e quando mudanças significativas justificarem atualização. A periodicidade anual pode ser adotada por política da organização, mas não é exigência universal de toda implementação da ISO/IEC 27001/27002. Tratá-la como documento estático e imutável tornaria a segurança obsoleta e ineficaz.
 
 ---
 
@@ -203,3 +203,5 @@ A **Política de Segurança da Informação (PSI)** é o documento formal de mai
 - **Legislação da Câmara dos Deputados**: Portarias administrativas sobre uso seguro de recursos computacionais e política corporativa de senhas.
 
 > **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** questões 1–6 mantêm **E, C, E, E, E, C**. Corrigida a periodicidade indevidamente universal da revisão da PSI; distinguidos hash isolado, disponibilidade e ataques combinados. A ISO/IEC 27001 exige revisão em intervalos planejados e diante de mudanças pertinentes, não necessariamente a cada ano.

@@ -264,3 +264,112 @@ Fonte: `3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e c
 | `art-71d4e9b30c86a25f#10` | Errado | Cotejo seletivo | Relatório 03, bloco 17 |
 | `art-71d4e9b30c86a25f#11` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
 | `art-71d4e9b30c86a25f#12` | Errado | Somente lido | Pendente: cotejo por item |
+
+
+### 23 - sistema eleitoral majoritario funcionamento e efeitos (`art-b3e8d1c74f209a65`)
+
+Fonte: `3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md`. Itens detectados: **12**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-b3e8d1c74f209a65#1` | Errado | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#2` | Errado | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#3` | Certo | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#4` | Certo | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#5` | Errado | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#6` | Certo | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#7` | Errado | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#8` | Certo | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#9` | Errado | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#10` | Errado | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#11` | Certo | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-b3e8d1c74f209a65#12` | Errado | Cotejo seletivo | Relatório 03, bloco 18 |
+
+### 24 - sistema eleitoral proporcional quocientes listas e efeitos (`art-2e96b7d14a53c80f`)
+
+Fonte: `3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md`. Itens detectados: **3**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-2e96b7d14a53c80f#1` | Certo | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-2e96b7d14a53c80f#2` | Errado | Cotejo seletivo | Relatório 03, bloco 18 |
+| `art-2e96b7d14a53c80f#3` | Certo | Cotejo seletivo | Relatório 03, bloco 18 |
+
+### 25 - partidos politicos origem funcoes e organizacao (`art-83d47f1a6c902be5`)
+
+Fonte: `3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao.md`. Itens detectados: **12**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-83d47f1a6c902be5#1` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#2` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#3` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#4` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#5` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#6` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |
+| `art-83d47f1a6c902be5#7` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#8` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |
+| `art-83d47f1a6c902be5#9` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#10` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#11` | Errado | Cotejo seletivo | Relatório 03, bloco 6 |
+| `art-83d47f1a6c902be5#12` | Errado | Cotejo seletivo | Relatório 03, bloco 6 |
+
+### 26 - sistemas partidarios competicao e fragmentacao (`art-6c29a5f8d0317be4`)
+
+Fonte: `3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md`. Itens detectados: **3**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-6c29a5f8d0317be4#1` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-6c29a5f8d0317be4#2` | Errado | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-6c29a5f8d0317be4#3` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
+
+### 27 - organizacao politica brasileira instituicoes e federalismo (`art-4a9e1d735bc082f6`)
+
+Fonte: `3 - Materias/Estado e Democracia/27 - organizacao politica brasileira instituicoes e federalismo.md`. Itens detectados: **3**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-4a9e1d735bc082f6#1` | Certo | Cotejo seletivo | Relatório 03, bloco 16 |
+| `art-4a9e1d735bc082f6#2` | Errado | Cotejo seletivo | Relatório 03, bloco 16 |
+| `art-4a9e1d735bc082f6#3` | Certo | Cotejo seletivo | Relatório 03, bloco 16 |
+
+### 28 - historia do voto no brasil expansao restricoes e direitos (`art-582db94e1ac730f6`)
+
+Fonte: `3 - Materias/Estado e Democracia/28 - historia do voto no brasil expansao restricoes e direitos.md`. Itens detectados: **3**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-582db94e1ac730f6#1` | Errado | Cotejo seletivo | Relatório 03, bloco 13 |
+| `art-582db94e1ac730f6#2` | Certo | Cotejo seletivo | Relatório 03, bloco 13 |
+| `art-582db94e1ac730f6#3` | Certo | Cotejo seletivo | Relatório 03, bloco 13 |
+
+### 29 - historia dos partidos politicos no brasil (`art-5d8b14e9c7a320f6`)
+
+Fonte: `3 - Materias/Estado e Democracia/29 - historia dos partidos politicos no brasil.md`. Itens detectados: **3**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-5d8b14e9c7a320f6#1` | Certo | Cotejo seletivo | Relatório 03, bloco 13 |
+| `art-5d8b14e9c7a320f6#2` | Errado | Cotejo seletivo | Relatório 03, bloco 13 |
+| `art-5d8b14e9c7a320f6#3` | Certo | Cotejo seletivo | Relatório 03, bloco 13 |
+
+### 30 - politica internacional contemporanea atores e instituicoes (`art-84c6a2d19f503be7`)
+
+Fonte: `3 - Materias/Estado e Democracia/30 - politica internacional contemporanea atores e instituicoes.md`. Itens detectados: **3**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-84c6a2d19f503be7#1` | Certo | Cotejo seletivo | Relatório 03, bloco 19 |
+| `art-84c6a2d19f503be7#2` | Errado | Cotejo seletivo | Relatório 03, bloco 19 |
+| `art-84c6a2d19f503be7#3` | Certo | Cotejo seletivo | Relatório 03, bloco 19 |
+
+### 31 - sistema internacional soberania cooperacao e conflito (`art-7b42e9f0a316c85d`)
+
+Fonte: `3 - Materias/Estado e Democracia/31 - sistema internacional soberania cooperacao e conflito.md`. Itens detectados: **3**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-7b42e9f0a316c85d#1` | Certo | Cotejo seletivo | Relatório 03, bloco 19 |
+| `art-7b42e9f0a316c85d#2` | Errado | Cotejo seletivo | Relatório 03, bloco 19 |
+| `art-7b42e9f0a316c85d#3` | Certo | Cotejo seletivo | Relatório 03, bloco 19 |

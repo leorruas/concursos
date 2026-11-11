@@ -157,6 +157,14 @@ A página oficial do [Integrated Evaluation Framework da AMEC](https://amecorg.c
 
 **C/E inédito:** “Atingir uma meta de alcance da campanha é, na AMEC, evidência suficiente de impacto social, mesmo sem dados sobre mudanças no público e objetivos institucionais.” **Errado.** Alcance descreve distribuição; impacto requer evidências de contribuição para resultados de nível mais amplo. A AMEC é referencial profissional, sem força normativa automática sobre a Câmara.
 
+## Prova real conferida: Correios 2011, itens 81 e 84 (11/11/2026)
+
+O [caderno original CESPE/UnB de Correios 2011, cargo 28, Publicidade e Propaganda](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), foi confrontado com o [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/Gab_Definitivo_ECT11_028_83.PDF). **Item 81: Certo**, reconhece que a avaliação de campanha precisa examinar **recepção** e não somente produção/veiculação. **Item 84: Errado**, transforma a utilidade de pré-testar ideias e conceitos em exigência de avaliação necessariamente padronizada, com pré-teste obrigatório. A palavra que determina a resposta não é “pré-teste”, mas a **universalidade da prescrição**.
+
+**Consequência para a wiki:** ao revisar um plano de avaliação, perguntar se o indicador mede atividade, exposição, recepção ou resultado. Pré-testes podem ser apropriados, mas o método deve depender da pergunta, do risco, dos recursos e do contexto; a existência de uma técnica não prova que ela seja obrigatória em toda campanha. Esses são **itens reais**, distintos dos três C/E inéditos já apresentados nesta nota.
+
+A ligação para a prova consta no [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|índice de questões reais]], junto com os dez itens 81–90 agora verificados individualmente. **Limite:** a prova é de 2011; não se deve inferir, apenas a partir desses dois itens, a distribuição atual de temas ou regras jurídicas da Câmara.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|CAM-DI-006]]: objetivo, indicador, KPI e meta. [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|CAM-DI-005]]: evidências e hipóteses causais. [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|CAM-DI-012]]: alcance e intensidade. [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|CAM-DI-014]]: evidências de execução.

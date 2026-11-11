@@ -153,3 +153,51 @@ A separação entre **referência restrita** e **afirmação universal** aparece
 **Backlog por efeito:** crítico PT-016 (escopo de restritivas e efeitos normativos); importante PT-013 (Q5 taxonomia não homologada), PT-017 (exemplo constitucional), PT-014/PT-018 (pontuação universal), PT-011/PT-012 (taxonomia e classes); melhoria PT-015/PT-019. Nenhuma nota alterada nesta fase.
 
 **Próximo bloco:** `3 - Materias/Portugues/03 - pontuacao e virgula.md`, `26 - pontuacao e efeitos na estrutura e no sentido.md`, `06 - concordancia verbal e nominal.md`, `27 - concordancia verbal e nominal regras e casos de fronteira.md`; depois `04/28` (regência) e `11/29` (crase). Conferir também `07` (coordenação/subordinação, antigo), `20` (conectores) e reutilizados de Redação. **Estado: 13/34 artigos examinados seletivamente, 21/34 pendentes, hub e compartilhados pendentes, 0 certificados integralmente.**
+
+
+## Bloco 3: sintaxe, morfossintaxe, coordenação e subordinação (11/11/2026)
+
+**Arquivos novos recuperados para leitura dirigida com acesso ao texto completo:**
+- `3 - Materias/Portugues/02 - sujeito.md` — `art-98cd849c42bb4294`;
+- `3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo.md` — `art-a64c0b4be746abff`;
+- `3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao.md` — `art-26917d1e99d3ceed`;
+- `3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas.md` — `art-cd7059fe8508b9d0`;
+- `3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md` — `art-33566ad5fe490701`.
+
+**Contagem cumulativa:** 13 artigos distintos examinados seletivamente (01, 02, 10, 12, 13, 14, 22, 23, 24, 25, 32, 33, 34); **21 artigos numerados + hub `portugues.md` ainda sem exame individual**. O exame dos seis itens C/E em cada um dos artigos 22–25 consistiu em ler enunciados, gabaritos e comentários e confrontar mecanismos selecionados. **24 questões didáticas desse lote, zero certificadas integralmente** em fontes bibliográficas e corpus Cebraspe. O artigo 02 é explicativo e não contém bateria C/E numerada. Não somar essas questões a contagens anteriores nem chamá-las oficiais.
+
+### Avaliação individual do bloco
+
+| Arquivo | Diagnóstico | Orientação editorial futura |
+| --- | --- | --- |
+| `02 - sujeito.md` | Base legada desenvolve sujeito determinado/oculto/indeterminado, impessoalidade, `se`, haver/existir e locuções. Exemplos de recuperação contextual e diferença sujeito sintático/agente são úteis. Referência à **FGV** e a supostos erros de estudante no histórico público não comprovam mecanismo Cebraspe nem devem orientar exposição pública de informações individuais. | **Manter/reorganizar como introdução**, referindo a 23 como aprofundamento; evitar duplicar regras; revisão de fontes e nomenclaturas. |
+| `22 - classes de palavras e suas funcoes no periodo.md` | Diferencia `que` relativo/integrante, `se`, `bastante`, `meio` e classes no período, com exemplos e seis itens C/E. O teste de função sintática versus classe é útil. Expressões como `infalível`, `campeã absoluta`, `praticamente todas as provas` e generalização sobre `qualquer palavra antecedida de artigo` carecem de condições/corpus. | **Manter**, substituir absolutos por critérios com exceções; cotejar todas as regências e itens por gramática. |
+| `23 - termos essenciais integrantes e acessorios da oracao.md` | Organização funcional por sujeito/predicado, OD/OI, complemento nominal/adjunto adnominal, aposto/vocativo. Seis itens C/E apresentam mecanismos consistentes de haver/existir, sujeito recuperável, complemento e pronomes. Fluxograma `substantivo concreto → 100% adjunto adnominal` é generalização rígida, sem tratamento de casos gramaticais fronteiriços; `aposto especificativo` do item #5 requer cotejo de classificação entre gramáticas antes de certificação. | **Manter/reformular árvore decisória**; integrar 02 como pré-requisito, registrar divergências de escola gramatical. |
+| `24 - coordenacao relacoes sintaticas e semanticas.md` | Explica coordenação, valor não puramente aditivo de `e`, `pois` explicativo/conclusivo e vírgulas. Seis itens C/E com núcleos plausíveis. A regra visual `mesmo sujeito + e aditivo = vírgula proibida` é excessivamente categórica: existência de intercalações, contraste e estratégias de pontuação impede transformá-la em critério universal. O exemplo com `pois` deslocado depois de `apresentou` requer cautela: além de mudar a leitura causal, a estrutura resultante pode ter problema semântico/sintático independente. | **Manter com ressalvas**: separar descrição de uso, regra estilística, correção gramatical e preservação de sentido; calibrar casos reais. |
+| `25 - subordinacao substantiva adjetiva e adverbial.md` | Boa organização de substantivas, relativas, adverbiais e reduzidas, com seis itens C/E. Contudo, §§1 e 3.1, diagrama e caso 1 propagam inferência indevida: restritiva não demonstra a existência real de membros externos ao subconjunto; explicativa não caracteriza necessariamente toda a classe universal, apenas o referente contextual. A descrição de vírgula anteposta como **sempre estritamente obrigatória**, e de posposta como **sempre facultativa**, também exige distinção entre regra prototípica, extensão e efeito de sentido. | **Correção conceitual prioritária**, integrada a PT-002/PT-004; reformular diagrama, exemplos e justificativas de Q1/Q4 antes de certificar material para memorização. |
+
+### Achados e evidências novos
+
+**PT-011 (crítico, nota 25 §§1, 3.1, diagramas e caso 1; ligação com PT-002 em nota 14).** A restritiva seleciona o referente designado no enunciado; não acarreta logicamente `alguns do grupo não satisfazem a condição`. Substituir os rótulos do diagrama `aplica-se a apenas uma parte` e `generaliza o todo` por formulações que distingam grupo relevante, referência e pressuposição contextual. A oração explicativa predica uma propriedade do referente visado, não necessariamente de todos os membros da classe na realidade. Ver aula do STF/Cunha-Cintra sobre delimitação do referente: https://ead.stf.jus.br/cursos/empregodavirgula/aula3/index.php?pg=11 ; Caldas Aulete, descrição de relativas: https://www.aulete.com.br/gram/cap16-03-subordinacao . O **gabarito CERTO da Q1** pode permanecer defensável porque a troca altera o valor semântico, mas seu comentário extrapola ao afirmar necessariamente existência de outros projetos fora do subconjunto.
+
+**PT-012 (importante, nota 25 §4.1/Q4).** O advérbio `estritamente` nas alegações de obrigatoriedade generaliza condições e efeitos de vírgula em orações adverbiais. Fontes distinguem pontuação recomendada/padrão e casos facultativos: https://brasilescola.uol.com.br/gramatica/o-uso-virgula-nas-oracoes-subordinadas.htm e manual editorial Embrapa https://www.embrapa.br/manual-de-producao-editorial/gramatica . **Não inverter Q4 automaticamente**: caso concreto da condicional anteposta é convencionalmente pontuado com vírgula; a ressalva incide na regra como universal.
+
+**PT-013 (importante, nota 23 §4, diagrama `substantivo concreto = 100% adjunto adnominal`).** Tratar heurísticas da distinção complemento nominal/adjunto adnominal como condições suficientes rígidas oculta dependências de função, relação semântica e divergência de taxonomia. Conferir em Bechara/Cunha-Cintra antes de reformular; nenhum gabarito comprovadamente invertido no lote.
+
+**PT-014 (importante, nota 24 §4, diagrama da vírgula).** `Mesmo sujeito + e aditivo: PROIBIDA` ignora intercalação e outros motivos de pontuação, podendo induzir erro em item que altere circunstâncias. Manual editorial Embrapa: https://www.embrapa.br/manual-de-producao-editorial/gramatica . Preservar diferença entre regra geral de coordenação e pontuação contextual.
+
+**PT-015 (melhoria importante, nota 22 §1/§2 e nota 02 `Como a banca cobra`).** `Infalível`, `campeã absoluta`, `praticamente todas as provas` e declarações de frequência não estão acompanhadas por corpus rastreável Cebraspe. Classificar como hipóteses editoriais, não evidência de incidência. Na nota 02, referências a histórico individual antigo não devem ser reutilizadas em relatório público como perfil de aprendizagem.
+
+**PT-016 (ressalva de adequação à prova, nota 25 §3.2 e Q5).** Para `onde`, o exemplo `sessão solene` recebe gabarito ERRADO compatível com orientação formal de referência a lugar no curso do STF https://ead.stf.jus.br/cursos/caminhosdapontuacao/aula4/index.html . A formulação `exclusivamente lugar físico` é mais estreita que descrições linguísticas de usos espaciais figurados e discursivos; separar recomendação de redação formal da descrição total da língua, sem inverter gabarito.
+
+### Matriz de cobertura: atualização delimitada
+
+| Recorte local do edital | Artigos do bloco | Situação |
+| --- | --- | --- |
+| Morfossintaxe e classes de palavras | 22 | Exame dirigido; ainda sem fonte gramaticográfica integral |
+| Termos e funções sintáticas, sujeito e transitividade | 02, 23 | Exame dirigido; sobreposição diagnosticada |
+| Coordenação | 24 | Exame dirigido; depende também de 07, 20 e 26 |
+| Subordinação | 25 | Exame dirigido com achado crítico PT-011; depende também de 07 e 14 |
+| Coesão, pontuação e reescrita ligadas a funções sintáticas | 22–25 | Relações mapeadas, cobertura ainda não atestada |
+
+**Fila exata após este bloco:** ainda não examinados individualmente `Portugues/03–09`, `11`, `15–21`, `26–31` (21 artigos), além de `portugues.md` e artigos compartilhados a identificar pelo catálogo. **Próximo bloco recomendado:** `03 - pontuacao e virgula.md`, `26 - pontuacao e efeitos na estrutura e no sentido.md`, `06 - concordancia verbal e nominal.md`, `27 - concordancia verbal e nominal regras e casos de fronteira.md`; retornar a PT-011 com fontes primárias antes da homologação. Nenhum artigo teórico ou vínculo foi alterado nesta Fase 1.

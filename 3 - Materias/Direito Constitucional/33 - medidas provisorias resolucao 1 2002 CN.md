@@ -5,7 +5,7 @@ title: "Medidas provisórias: apreciação no Congresso e Resolução nº 1/2002
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 aliases:
   - "CAM-PL-029"
   - "Resolução 1/2002-CN"
@@ -66,6 +66,8 @@ Se houver emenda para **sanar inconstitucionalidade ou inadequação financeira*
 ## 3. Câmara, Senado e retorno: arts. 6º a 8º
 
 A **Câmara é a Casa iniciadora obrigatória**, pela **CF art. 62, § 8º**, seguida pelo Senado. A consolidação do art. 6º contém **caput e §§ 1º–2º julgados inconstitucionais** na ADI 4.029. O **art. 7º** prevê que o Senado aprecie a matéria **até o 42º dia de vigência da MP**; isso é **prazo de tramitação regimental**, não a duração máxima de eficácia da MP, que é constitucionalmente **60+60 dias**.
+
+**Remissão desatualizada que ainda aparece no texto consolidado:** o **art. 7º, § 2º**, menciona o prazo do **art. 6º, caput**, embora esse caput esteja expressamente declarado inconstitucional. A referência histórica não restabelece a faculdade de contornar o exame da comissão mista. Ao estudar a precedência da Câmara, tomar como fundamentos atuais a **CF, art. 62, §§ 8º e 9º**, e as disposições da resolução compatíveis com a ADI 4.029; não memorizar o prazo do dispositivo inválido como condição operacional vigente.
 
 Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda para exame em **turno único**, **sem novas alterações** na fase de retorno (art. 7º, § 3º), com **três dias** para exame das modificações (§ 4º). O Senado não se torna a Casa que dá a última palavra sobre modificações que ele próprio introduziu.
 

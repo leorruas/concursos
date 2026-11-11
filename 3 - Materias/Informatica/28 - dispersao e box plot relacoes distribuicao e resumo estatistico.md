@@ -156,19 +156,19 @@ Uma das maiores utilidades práticas do box plot na administração pública é 
 > **Assertiva:** Em um diagrama de caixas (*box plot*), a extensão total da caixa delimitada pelo primeiro e pelo terceiro quartis corresponde ao intervalo interquartil (IQR), representando o intervalo no qual se concentram cinquenta por cento das observações centrais da amostra.
 >
 > **Gabarito:** **CERTO**  
-> **Comentário:** Definição canônica exata do box plot. A caixa retangular é delimitada por $Q_1$ (percentil 25) e $Q_3$ (percentil 75). O seu comprimento representa o Intervalo Interquartil ($\text{IQR} = Q_3 - Q_1$), que abriga os 50% centrais dos dados ordenados.
+> **Comentário:** A caixa vai de $Q_1$ a $Q_3$ e seu comprimento equivale ao **IQR = $Q_3-Q_1$**, representando a metade central da distribuição na interpretação usual dos quartis. Em amostras pequenas, dados repetidos e métodos de interpolação, a contagem exata de observações incluídas entre os limites pode variar.
 
 ### Item 3
 > **Assertiva:** Caso um box plot apresente a linha da mediana sensivelmente deslocada em direção à borda superior da caixa ($Q_3$) e a haste inferior seja consideravelmente mais longa do que a haste superior, conclui-se que a distribuição de dados é assimétrica positiva (à direita).
 >
 > **Gabarito:** **ERRADO**  
-> **Comentário:** As características descritas (mediana próxima a $Q_3$ e haste inferior longa com cauda estendida para valores mínimos) configuram uma distribuição **assimétrica negativa (à esquerda)**. Na assimetria positiva (à direita), a mediana fica próxima a $Q_1$ e a haste superior é a mais alongada.
+> **Comentário:** A mediana próxima a $Q_3$ e a haste inferior mais longa **sugerem** assimetria negativa (cauda à esquerda), e não positiva, razão do gabarito ERRADO. A leitura é indício visual, **não demonstração matemática** de um coeficiente de assimetria: presença de valores extremos e convenção das hastes podem alterar o desenho.
 
 ### Item 4
 > **Assertiva:** A haste superior (*whisker*) de um box plot termina obrigatoriamente no valor exato resultante do cálculo $Q_3 + 1{,}5 \times \text{IQR}$, independentemente de existir uma observação real com esse valor no conjunto de dados.
 >
 > **Gabarito:** **ERRADO**  
-> **Comentário:** A expressão $Q_3 + 1{,}5 \times \text{IQR}$ define apenas o **limite teórico** para corte de outliers. A haste termina no **maior valor observado na amostra que seja menor ou igual** a esse limite teórico. Se o maior valor real antes do outlier for menor que o limite, a haste termina nesse valor observado real.
+> **Comentário:** No **box plot modificado de Tukey**, a expressão $Q_3 + 1{,}5 \times \text{IQR}$ define uma cerca de referência, e a haste termina no **maior valor observado da amostra que não ultrapassa a cerca**. Outras convenções de box plot existem; mesmo nessa convenção, a haste não termina obrigatoriamente no valor calculado da cerca.
 
 ### Item 5
 > **Assertiva:** O box plot é uma ferramenta analítica adequada para comparar simultaneamente a dispersão e a posição da mediana de uma mesma variável contínua entre múltiplos grupos categóricos independentes.
@@ -193,3 +193,5 @@ Uma das maiores utilidades práticas do box plot na administração pública é 
 5. **CÂMARA DOS DEPUTADOS.** *Guia de Análise Exploratória de Dados para Auditoria e Consultoria Legislativa.* Brasília: Cenin/Conleg, 2024.
 
 > **Nota conceitual (revisão Câmara, 11/11/2026):** o resumo convencional dos cinco números é **mínimo amostral, Q1, mediana, Q3 e máximo amostral**. No box plot modificado de Tukey, os extremos das hastes não precisam coincidir com mínimo e máximo amostrais, pois observações além das cercas de 1,5 × IQR são marcadas à parte. Identificar um ponto como outlier estatístico não demonstra irregularidade administrativa. Exemplos de gastos e tramitação neste artigo são exercícios hipotéticos, não conclusões de auditoria. Referência: Tukey, *Exploratory Data Analysis* (1977).
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** examinados os seis itens do artigo 28; gabaritos mantidos **E, C, E, E, C, E**. Comentários dos itens 2–4 passaram a distinguir descrição usual, indício de assimetria e convenção específica do box plot de Tukey. Conferência conceitual dirigida, sem homologação por questões oficiais Cebraspe.

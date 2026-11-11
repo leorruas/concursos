@@ -372,7 +372,7 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 
 1. **Inversão de autoridade sancionadora:** atribuir à Mesa Diretora a competência para decretar a perda do mandato por quebra de decoro (quando a Mesa apenas declara a perda nas hipóteses objetivas dos incisos III a V do art. 55 da CF, competindo privativamente ao Plenário deliberar sobre perda por conduta incompatível com o decoro, por maioria absoluta).
 2. **Confusão entre ato atentatório (art. 5º) e ato incompatível (art. 4º):** afirmar que qualquer perturbação de ordem em sessão de comissão autoriza a cassação definitiva do mandato, desconsiderando a escala estrita de penas do Código.
-3. **Anacronismo do escrutínio secreto:** explorar pegadinhas com textos desatualizados que ainda mencionem voto secreto no Plenário para cassação de mandato, ignorando a Emenda Constitucional nº 76/2013 (votação sempre aberta e nominal).
+3. **Anacronismo do escrutínio secreto:** explorar pegadinhas com textos desatualizados que ainda mencionem voto secreto no Plenário para cassação de mandato, ignorando a Emenda Constitucional nº 76/2013 (votação ostensiva, conforme o art. 14; a votação nominal do parecer no Conselho é exigência distinta do art. 14, § 4º, VI).
 4. **Mistura de papéis entre Corregedoria, Conselho de Ética e CCJC:** sugerir que a CCJC pode absolver o parlamentar no mérito ou reexaminar fatos e provas após a aprovação do parecer no Conselho de Ética, quando o recurso à CCJC limita-se ao exame de vícios formais e de constitucionalidade.
 
 ## 10. Questões inéditas comentadas no padrão Cebraspe (Certo ou Errado)
@@ -420,7 +420,7 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 > A deliberação final do Plenário da Câmara dos Deputados sobre a perda do mandato parlamentar decorrente de quebra de decoro deve ocorrer em escrutínio secreto, exigindo-se a anuência de dois terços dos parlamentares que compõem a Casa para a cassação do mandato.
 
 - **Gabarito: ERRADO**
-- **Comentário:** Duplo erro: 1) Desde a promulgação da Emenda Constitucional nº 76/2013, o voto secreto foi extinto nos julgamentos de perda de mandato no Congresso Nacional, passando a votação a ser **aberta (ostensiva/nominal)**; 2) O quórum constitucional e regimental exigido é de **maioria absoluta dos membros da Casa (257 deputados)**, e não de dois terços (CF, art. 55, § 2º; CEDP, art. 14).
+- **Comentário:** Duplo erro: 1) Desde a promulgação da Emenda Constitucional nº 76/2013, o voto secreto foi extinto nos julgamentos de perda de mandato no Congresso Nacional, passando a votação plenária a ser **ostensiva (aberta)**; 2) O quórum constitucional e regimental exigido é de **maioria absoluta dos membros da Casa (257 deputados)**, e não de dois terços (CF, art. 55, § 2º; CEDP, art. 14).
 
 ---
 

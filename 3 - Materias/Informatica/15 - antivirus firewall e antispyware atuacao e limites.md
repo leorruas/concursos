@@ -199,12 +199,12 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
    - Falou em *"analisar portas, conexões, IPs, filtrar tráfego, permitir/bloquear pacotes"* $\rightarrow$ **CERTO** (modelo tradicional de camadas 3 e 4).
    - Falou em *"eliminar vírus de anexo, desinfetar arquivo, bloquear phishing, limpar malware do disco"* $\rightarrow$ **ERRADO** (competências de antivírus/endpoint, não desempenhadas por firewall tradicional). Se a questão mencionar explicitamente *NGFW* com DPI e módulo antimalware, atentar para a inspeção de tráfego na rede, ressalvando que não substitui a proteção do dispositivo.
 2. **Métodos de Antivírus**:
-   - Assinatura = rápido, baixos falsos positivos, **limitado contra código inédito sem assinatura prévia**.
+   - Assinatura = compara artefatos a indicadores conhecidos, **limitado contra ameaças sem correspondência com assinaturas disponíveis**; taxas de falso positivo variam por produto e regra.
    - Heurística = analisa código e instruções suspeitas, **detecta novas variantes/mutações**, mas **sujeito a falsos positivos**.
    - Comportamental = vigia ações do processo em execução (ex.: tentativas anômalas de criptografar múltiplos arquivos em sequência).
 3. **Destino da Ameaça**:
    - Desinfetar = limpa o vírus do arquivo hospedeiro.
-   - Quarentena = isola em cofre seguro sem apagar (reversível).
+   - Quarentena = restringe o acesso ao item suspeito, com possibilidade de recuperação **conforme a ferramenta, permissões e política de retenção**; não é sempre reversível.
    - Excluir = apaga de vez quando não há arquivo útil a salvar.
 
 ---

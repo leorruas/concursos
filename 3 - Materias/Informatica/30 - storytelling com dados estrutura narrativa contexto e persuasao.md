@@ -5,7 +5,7 @@ title: "Storytelling com dados: estrutura narrativa, contexto, decluttering e ef
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Storytelling com dados: estrutura narrativa, contexto, decluttering e eficácia comunicativa
@@ -81,7 +81,7 @@ A mente humana processa informações visuais por meio da memória de trabalho, 
 
 1. **Carga Intrínseca**: o esforço mental inerente à complexidade do próprio conceito em análise (ex.: entender a regra de teto fiscal ou a tramitação regimental complexa). Essa carga deve ser respeitada e explicada didaticamente.
 2. **Carga Pertinente (*Germane*)**: o esforço mental construtivo dedicado a integrar as novas informações à estrutura de conhecimento prévio do leitor.
-3. **Carga Extrínseca**: o esforço mental desperdiçado em decifrar elementos visuais mal desenhados, excesso de cores, fontes espalhafatosas, bordas grossas ou redundâncias. **Esta carga deve ser reduzida a zero pelo decluttering.**
+3. **Carga Extrínseca**: o esforço mental desperdiçado em decifrar elementos visuais mal desenhados, excesso de cores, fontes espalhafatosas, bordas grossas ou redundâncias. **O objetivo do decluttering é reduzir a carga extrínseca desnecessária, não garantir que ela chegue literalmente a zero.**
 
 ### Princípios Gestalt Aplicados à Redução de Carga
 
@@ -108,7 +108,7 @@ flowchart TD
 
 ## 5. Atributos Pré-Atentivos: Direcionando o Foco da Audiência
 
-Os **atributos pré-atentivos** são características visuais que o cérebro humano processa no nível subconsciente, em frações de segundo (menos de 200 milissegundos), antes de qualquer esforço consciente de leitura. O comunicador técnico utiliza esses atributos intencionalmente para criar **hierarquia visual** e responder à pergunta: *"para onde o leitor deve olhar primeiro?"*
+Os **atributos pré-atentivos** são características visuais que o cérebro humano processa no nível subconsciente, rapidamente em muitas tarefas perceptivas (a velocidade depende do estímulo, da tarefa e do contexto), antes de qualquer esforço consciente de leitura. O comunicador técnico utiliza esses atributos intencionalmente para criar **hierarquia visual** e responder à pergunta: *"para onde o leitor deve olhar primeiro?"*
 
 | Atributo Pré-Atentivo | Aplicação Prática no Storytelling | Exemplo Típico em Dados Legislativos |
 | :--- | :--- | :--- |
@@ -125,7 +125,7 @@ Os **atributos pré-atentivos** são características visuais que o cérebro hum
 
 ## 6. A Estrutura da Narrativa de Dados: O Arco Dramático
 
-O storytelling eficiente adota a estrutura dramática clássica (originária de Aristóteles e consagrada pelo triângulo de Gustav Freytag), traduzida para o contexto corporativo e governamental em uma progressão de três atos fundamentais:
+Uma forma possível de storytelling adota a estrutura dramática clássica (originária de Aristóteles e consagrada pelo triângulo de Gustav Freytag), traduzida para o contexto corporativo e governamental em uma progressão de três atos fundamentais:
 
 ```mermaid
 flowchart LR
@@ -139,17 +139,17 @@ flowchart LR
     A1 --> A2 --> A3
 ```
 
-1. **Ato 1: O Contexto e o Ponto de Partida (*Setup*)**: apresenta-se o cenário de partida, a meta estabelecida e os parâmetros normativos (ex.: *"A Câmara estabeleceu a meta de reduzir o tempo de tramitação de proposições legislativas prioritárias em 20% ao longo da legislatura"*).
-2. **Ato 2: O Conflito e a Evidência dos Dados (*Tension / Conflict*)**: revela-se a tensão ou o problema por meio da evidência visual. É o momento em que os dados mostram a divergência entre o esperado e o observado (ex.: *"Contudo, a análise dos últimos 18 meses revela que, nas comissões de mérito com maior sobrecarga regimental, o tempo médio de retenção de matérias subiu 35%, criando um estrangulamento crônico no fluxo do Plenário"*).
-3. **Ato 3: A Resolução e a Chamada à Ação (*Resolution & Call to Action*)**: conecta a evidência analítica às providências práticas (ex.: *"Propõe-se a reestruturação da distribuição de relatorias e a implantação de pautas temáticas unificadas, medidas com potencial modelado de reduzir em 28 dias a espera processual"*).
+1. **Ato 1: O Contexto e o Ponto de Partida (*Setup*)**: apresenta-se o cenário de partida, a meta estabelecida e os parâmetros normativos (ex.: *"Em um cenário fictício, a Câmara estabeleceria a meta de reduzir o tempo de tramitação de proposições legislativas prioritárias em 20% ao longo da legislatura"*).
+2. **Ato 2: O Conflito e a Evidência dos Dados (*Tension / Conflict*)**: revela-se a tensão ou o problema por meio da evidência visual. É o momento em que os dados mostram a divergência entre o esperado e o observado (ex.: *"Na simulação, os dados construídos para o exercício indicariam aumento de 35% no tempo médio de retenção em um período fictício de 18 meses; a interpretação dependeria do denominador, da amostra e do método de cálculo"*).
+3. **Ato 3: A Resolução e a Chamada à Ação (*Resolution & Call to Action*)**: conecta a evidência analítica às providências práticas (ex.: *"Uma hipótese de intervenção seria redistribuir relatorias e testar pautas temáticas; uma projeção de redução de 28 dias dependeria de modelo e evidências que este exemplo não fornece"*).
 
 ---
 
 ## 7. Ética e Integridade na Visualização de Dados Públicos
 
-No setor público e na cobertura de comunicação legislativa, a manipulação visual é uma infração direta ao princípio constitucional da **publicidade** e da **moralidade administrativa** (art. 37 da CF/88). O comunicador de dados deve repudiar práticas capciosas de indução a erro:
+No setor público, a integridade da comunicação visual é relevante para os princípios constitucionais da **publicidade** e da **moralidade administrativa** (art. 37 da CF/88). Uma representação enganosa pode suscitar problemas éticos e jurídicos, mas a configuração de infração específica depende de conduta, contexto e norma incidente. O comunicador de dados deve repudiar práticas capciosas de indução a erro:
 
-- **Truncamento deliberado do eixo zero em gráficos de barras**: como a área do retângulo codifica o valor numérico, truncar a base faz uma diferença de 2% parecer visualmente um aumento de 300%. Em gráficos de barras, o eixo de valor deve **obrigatoriamente partir do zero**.
+- **Truncamento deliberado do eixo zero em gráficos de barras**: como a área do retângulo codifica o valor numérico, truncar a base faz uma diferença de 2% parecer visualmente um aumento de 300%. Em gráficos de barras que representam magnitude por comprimento, iniciar o eixo quantitativo em zero é a **regra geral de integridade visual**; qualquer quebra deve ser explicitada e justificada, preferindo-se outro gráfico quando ela distorcer a comparação.
 - **Duplo eixo Y com escalas desproporcionais**: forçar o cruzamento visual de duas linhas com magnitudes incomparáveis para sugerir falsa correlação ou equivalência de crescimento.
 - **Gráficos 3D ou com perspectiva**: distorcem ângulos e áreas, conferindo destaque desmedido a fatias frontais e obscurecendo fatias traseiras.
 - **Seleção tendenciosa de período (*cherry-picking*)**: recortar intencionalmente uma janela temporal estreita para simular tendência positiva ou negativa que se desfaz quando analisada na série histórica completa.
@@ -181,7 +181,7 @@ No setor público e na cobertura de comunicação legislativa, a manipulação v
 * **Cenário**: Um relatório executivo para o Presidente da Câmara sobre o volume de pareceres emitidos pelas comissões temáticas.
 * **Abordagem**:
   - Gráfico de barras horizontais ordenado decrescentemente pelo número de pareceres votados (o que facilita a leitura dos extensos nomes regimentais das comissões no eixo vertical).
-  - Todas as barras em cinza-escuro neutro, com exceção da Comissão de Constituição e Justiça e de Cidadania (CCJC) e da Comissão de Finanças e Tributação (CFT), coloridas em tom âmbar para ilustrar que essas duas comissões concentram mais de 45% de todo o fluxo legislativo da Casa (conflito e evidência analítica para apoiar a alocação de mais consultores legislativos).
+  - Todas as barras em cinza-escuro neutro, com exceção da Comissão de Constituição e Justiça e de Cidadania (CCJC) e da Comissão de Finanças e Tributação (CFT), coloridas em tom âmbar para ilustrar que **no cenário hipotético**, essas duas comissões representariam mais de 45% de um conjunto fictício de pareceres (conflito e evidência analítica para apoiar a alocação de mais consultores legislativos).
 
 ---
 
@@ -210,7 +210,7 @@ No setor público e na cobertura de comunicação legislativa, a manipulação v
 > Os atributos pré-atentivos, tais como cor, tamanho, posição e contraste, são processados pelo córtex visual humano em nível subconsciente antes de qualquer percepção deliberada, sendo utilizados no storytelling para criar hierarquia visual e direcionar a atenção do leitor para os pontos mais críticos da visualização.
 
 * **Gabarito**: **CERTO**.
-* **Comentário**: A definição está rigorosamente exata. O processamento pré-atentivo ocorre em menos de 200 ms e constitui o alicerce biológico que permite ao comunicador conduzir o olhar da audiência (ex.: usar cor de destaque em apenas um dado para fazê-lo "saltar aos olhos" instantaneamente).
+* **Comentário**: A definição está rigorosamente exata. O processamento pré-atentivo pode ocorrer rapidamente, conforme a tarefa e as condições de observação, e oferece um recurso perceptivo que permite ao comunicador conduzir o olhar da audiência (ex.: usar cor de destaque em apenas um dado para fazê-lo "saltar aos olhos" instantaneamente).
 
 ---
 
@@ -260,6 +260,8 @@ flowchart TD
 
 - **Exploratório vs. Explanatório**: Exploratório é a busca de padrões pelo analista; Explanatório é a comunicação clara de um achado específico para a audiência agir.
 - **Carga Cognitiva**: Minimizar a carga extrínseca (lixo visual, grades pesadas, cores aleatórias) para liberar a atenção para a carga intrínseca e pertinente.
-- **Atributos Pré-Atentivos**: Cor de destaque, tamanho, contraste e posição espacial guiam o olhar em menos de 200 ms.
-- **Regra da Sobriedade**: Em barras e colunas, o eixo obrigatoriamente parte do zero. Cores devem indicar significado analítico, nunca mero ornamento.
+- **Atributos Pré-Atentivos**: Cor de destaque, tamanho, contraste e posição espacial podem orientar a atenção rapidamente, conforme o contexto.
+- **Regra da Sobriedade**: Em barras e colunas que codificam magnitude pelo comprimento, começar pelo zero é a recomendação geral de integridade gráfica. Cores devem indicar significado analítico, nunca mero ornamento.
 - **Três Atos**: Contextualização institucional $\rightarrow$ Tensão/Ruptura apontada pelos dados $\rightarrow$ Resolução com proposta fundamentada.
+
+> **Nota editorial (11/11/2026):** percentuais, projeções e exemplos institucionais desta nota são **cenários hipotéticos de ensino**, não dados oficiais da Câmara dos Deputados. Princípios de boa visualização orientam a prática profissional; a existência de infração jurídica deve ser avaliada à luz de norma aplicável e circunstâncias concretas. A revisão corresponde aos achados TI-025 a TI-027 da auditoria da Câmara.

@@ -199,7 +199,7 @@ Avançar em `3 - Materias/Administracao Publica/03 - transparencia acesso a info
 
 ## Bloco 5: LAI, LGPD, ANPD em 2026 e licitações (11/11/2026)
 
-**Arquivos e prova de leitura:** `3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md` (SHA `10ac4e9f0c0d3d31300232811e3a3768604de4f1`, 462 linhas); `3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md` (SHA `9c...`, verificar SHA na próxima rodada se necessário); `3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md` (SHA `f729a0265d6689dab97ef495081882391060f73e`). Foram lidos os textos, inspecionadas suas seções e seus itens autorais, com **cotejo normativo seletivo**, sem certificação integral ou alteração dos arquivos.
+**Arquivos e prova de leitura:** `3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md` (SHA `10ac4e9f0c0d3d31300232811e3a3768604de4f1`, 462 linhas); `3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md` (SHA `0bcfdb2003f495c1fd5423ae019c88daaf8bdbdb`); `3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md` (SHA `f729a0265d6689dab97ef495081882391060f73e`). Foram lidos os textos, inspecionadas suas seções e seus itens autorais, com **cotejo normativo seletivo**, sem certificação integral ou alteração dos arquivos.
 
 ### Evidências e acertos preservados
 

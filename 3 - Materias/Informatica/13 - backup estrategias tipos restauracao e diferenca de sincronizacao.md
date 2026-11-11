@@ -5,7 +5,7 @@ title: "Backup: estratégias, tipos, recuperação e diferença de sincronizaç�
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Backup: estratégias, tipos, recuperação e diferença de sincronização em nuvem
@@ -45,7 +45,7 @@ flowchart TD
 
 Para compreender como os softwares de backup operam nos sistemas de arquivos (como NTFS e FAT), é imprescindível conhecer o **Atributo de Arquivo** (*Archive Attribute* ou bit de arquivo):
 - Quando um arquivo é criado ou modificado pelo usuário ou sistema, o sistema operacional ativa automaticamente o seu *Archive Bit* (valor `1`), sinalizando: *"Este arquivo sofreu alterações e precisa de cópia de segurança"*;
-- Os tipos de backup diferenciam-se fundamentalmente pelo modo como consultam e alteram esse bit:
+- No **modelo clássico baseado no archive bit**, os tipos podem ser explicados pelo modo como consultam e alteram esse atributo. Soluções atuais também usam catálogos, snapshots, registros de alteração e rastreamento de blocos, dispensando o bit:
   1. **Backup Completo (Total)**: Copia todos os arquivos independentemente do estado do bit. Ao concluir, **desmarca o bit** (define como `0` ou inativo);
   2. **Backup Incremental**: Copia apenas os arquivos cujo bit está ativo (`1`). Ao concluir a cópia de cada arquivo, **desmarca o bit** (define como `0`);
   3. **Backup Diferencial**: Copia apenas os arquivos cujo bit está ativo (`1`). Ao concluir, **NÃO altera o bit** (o bit permanece ativo, `1`).
@@ -57,7 +57,7 @@ Para compreender como os softwares de backup operam nos sistemas de arquivos (co
 | Critério | Backup Completo (*Full*) | Backup Incremental | Backup Diferencial |
 | :--- | :--- | :--- | :--- |
 | **Arquivos copiados** | Todos os dados da seleção | Apenas arquivos alterados desde o **último backup** (seja Full ou Incremental) | Apenas arquivos alterados desde o **último backup Completo** |
-| **Manipulação do Atributo** | Desmarca o bit de arquivo (`0`) | Desmarca o bit de arquivo (`0`) | **Não altera** o bit de arquivo (permanece `1`) |
+| **Manipulação do Atributo** | No modelo clássico com archive bit, desmarca (`0`) | No modelo clássico com archive bit, desmarca (`0`) | No modelo clássico com archive bit, não desmarca (`1`) |
 | **Velocidade de execução** | Mais lenta (maior volume) | **Mais rápida** (volume mínimo diário) | Intermediária (volume cresce ao longo dos dias) |
 | **Espaço em disco exigido** | Muito alto | **Muito baixo** | Intermediário a alto (dados repetem-se nos dias seguintes) |
 | **Processo de Restauração** | **Mais simples e rápido**: restaura apenas a mídia do Full | **Mais complexo e demorado**: restaura o último Full + **TODOS** os incrementais em sequência cronológica | **Equilibrado**: restaura apenas o último Full + o **ÚLTIMO** diferencial |
@@ -112,7 +112,7 @@ Um dos erros mais comuns de usuários leigos e uma das pegadinhas mais frequente
 | **Independência de estado** | Total: o backup é uma fotografia pontual (*snapshot*) desconectada da rotina de edição ativa | Nula: reflete o estado dinâmico atual dos arquivos locais |
 
 > [!IMPORTANT]
-> A sincronização em nuvem oferece conveniência operacional, coautoria e mobilidade. Porém, **sincronização não é backup**. Para constituir backup seguro, a nuvem deve contar com políticas de imutabilidade, retenção histórica rígida, controle centralizado de versões e isolamento de credenciais.
+> A sincronização em nuvem oferece conveniência operacional, coautoria e mobilidade. Porém, **sincronização não é backup**. Uma estratégia de backup confiável requer retenção e restauração testada, proteção de acesso e cópias independentes da sincronização operacional. Imutabilidade e isolamento adicional são controles importantes contra ransomware, mas não integram obrigatoriamente toda definição de backup.
 
 ---
 
@@ -156,7 +156,7 @@ Em planos de contingência do setor público, dois parâmetros definem os limite
 > O procedimento de backup incremental copia todos os arquivos alterados desde o último backup completo ou incremental, desmarcando o atributo de arquivo (*archive bit*) ao término da operação.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Definição perfeita do backup incremental. Ele copia apenas as alterações desde o último backup de qualquer modalidade e altera o *archive bit* para `0` (desmarcado), permitindo que o próximo backup incremental copie apenas o que mudar a partir daquele momento.
+- **Fundamentação**: No **modelo clássico descrito no enunciado**, o incremental copia alterações desde o backup de referência e desmarca o *archive bit*. Essa descrição não pode ser generalizada a todos os softwares modernos: muitos controlam alterações por outros mecanismos.
 
 ---
 
@@ -221,3 +221,5 @@ Em planos de contingência do setor público, dois parâmetros definem os limite
 - **Instrução Normativa GSI/PR nº 01/2020**: Gestão de continuidade de negócios e planos de recuperação de desastres na Administração Pública Federal.
 - **NIST Special Publication 800-34 Rev. 1**: *Contingency Planning Guide for Federal Information Systems*.
 - **Microsoft Learn**: Guia de arquitetura de proteção de dados e histórico de versões do Microsoft 365 e Azure Backup.
+
+> **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.

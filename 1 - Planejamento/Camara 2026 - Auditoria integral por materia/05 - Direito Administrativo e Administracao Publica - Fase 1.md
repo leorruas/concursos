@@ -873,3 +873,59 @@ Construir **síntese executiva única da frente** com prioridades P0/P1/P2 por s
 ### Próximo lote obrigatório
 
 Inventariar e verificar **todas as questões de DA20–24** com comentários e dispositivos da Lei 8.112 e jurisprudência de 2026. Depois estender a outros 17 artigos DA e três AP não certificados, sem contar novamente as questões identificadas em rodadas anteriores como se fossem novas. Corrigir somente a partir da Fase 2 autorizada. O estado formal segue **“Fase 1 em curso, diagnóstico consolidado, certificação individual pendente”**.
+
+
+## Bloco 21: revisão individual dirigida das 30 questões de DA20–24 (11/11/2026)
+
+**Escopo e método:** lidas todas as **seis questões inéditas C/E de cada um de cinco artigos**, com enunciados, gabaritos e comentários: DA20 \`20 - lei 8112 provimento posse exercicio e vacancia.md\` (SHA \`9b02a6c684e124172ff94b1a55c95518fd6cfa89\`); DA21 \`21 - lei 8112 direitos vantagens deveres e proibicoes.md\` (SHA \`7f188650ea73ef667b1314f806ec8bce25dab831\`); DA22 \`22 - lei 8112 responsabilidades e penalidades disciplinares.md\` (SHA \`deb90178e30d1e0f92cabe125f87db2cf833bb67\`); DA23 \`23 - direito administrativo disciplinar principios e ilicitos funcionais.md\` (SHA \`706897dec3a55f2845e5966f38e1f7e36961c4fc\`); DA24 \`24 - sindicancia processo administrativo disciplinar e seus ritos.md\` (SHA \`8af2f9f9a0f97b27a7b88a6c176dca101c9866a1\`). Cotejados **dispositivos decisivos** com a [Lei 8.112/1990 atualizada na Câmara](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html) e pontos selecionados com [STF Tema 1081](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5819218&numeroProcesso=1246685&numeroTema=1081), [ADI 2975, embargos](https://www.tst.jus.br/documents/10157/31760431/STF%2B-%2BA%C3%A7%C3%A3o%2BDireta%2Bde%2BInconstitucionalidade%2Bn%C2%BA%2B2.975%2C%2BDOU%2Bde%2B26.5.2023%2B-%2BADI-ED.pdf/ac22d3ef-d140-3138-4577-672bbef9eb4f?download=true&t=1688400959344), [STJ, jurisprudência de abandono de cargo compilada pelo MGI](https://www.gov.br/servidor/pt-br/acesso-a-informacao/gestao-de-pessoas/lei-8112-anotada/titulo-iv-2013-do-regime-disciplinar/capitulo-v-das-penalidades) e legislação disciplinar. Este é **cotejo individual dirigido**, ainda sem homologação jurídica exaustiva de comentários de jurisprudência e todas as ressalvas. Nenhum texto de estudo ou questão foi alterado.
+
+### Matriz individual: gabarito original e exame dirigido
+
+| Artigo | Questão | Gabarito original | Resultado |
+| --- | ---: | --- | --- |
+| **DA20** | 1 | E | Coerente: investidura pela posse; 30 dias para posse e 15 dias para exercício, Lei 8.112 arts. 7, 13 e 15 |
+| DA20 | 2 | E | Coerente: posse sem exercício leva à exoneração, distinta de nomeação sem posse |
+| DA20 | 3 | C | Coerente: Súmula Vinculante 43, vedação de ingresso em carreira diversa sem concurso |
+| DA20 | 4 | E | Gabarito defensável na recondução; **comentário amplia soluções para cargo originário provido**, devendo separar art. 29, parágrafo único, e art. 30, disponibilidade/aproveitamento, sem criar deslocamento automático de terceiro |
+| DA20 | 5 | C | Núcleo histórico estágio probatório de três anos; comparar regra constitucional de estabilidade com disciplina administrativa concreta |
+| DA20 | 6 | C | Coerente: promoção e readaptação figuram em provimento e vacância; cuidado para não equiparar sempre padrão a cargo novo |
+| **DA21** | 1 | E | Coerente: adicionais insalubridade/periculosidade não cumuláveis, Lei 8.112 art. 68 §1º |
+| DA21 | 2 | E | Coerente: indenizações não se incorporam, art. 51 |
+| DA21 | 3 | C | Núcleo compatível com art. 91 e licença para capacitação art. 87; comentário deve explicitar requisitos e interesse da Administração, não direito automático ao completar quinquênio |
+| DA21 | 4 | C | Regra geral art. 117 X e art. 132 XIII coerentes, **mas comentário omite as ressalvas expressas do parágrafo único do art. 117**, inclusive hipóteses legalmente admitidas, e formula proibição absoluta |
+| DA21 | 5 | E | **Conferido externamente:** STF **Tema 1081, ARE 1246685**, afasta limite fixo de 60 horas por si só e exige compatibilidade concreta. Gabarito original **correto no núcleo** |
+| DA21 | 6 | C | Coerente regra geral art. 117 XI, benefícios previdenciários/assistenciais e parentes até 2º grau, cônjuge/companheiro |
+| **DA22** | 1 | E | Coerente independência de instâncias e absolvição por falta de provas, sem eliminar necessidade de examinar fundamentos da sentença penal |
+| DA22 | 2 | **C** | **INVERSÃO CONFIRMADA anteriormente DA-004:** vedação perpétua de retorno inconstitucional, ADI 2975 e embargos; **deve ser E**. Acórdão dos embargos aplica, até nova lei, **prazo de cinco anos** também às hipóteses antes mencionadas no parágrafo único |
+| DA22 | 3 | E | Coerente: contagem de prescrição da ciência do fato por autoridade com competência relevante, Lei 8.112 art. 142 §1º e STJ Súmula 635 |
+| DA22 | 4 | C | Coerente no âmbito do PAD ordinário e STJ Súmula 635: interrupção e reinício após marco máximo de 140 dias; evitar extrapolação automática a todo rito |
+| DA22 | 5 | C | Núcleo da cassação de aposentadoria plausível e amparado em art. 134, porém **citação “ADI 4.882/DF” não autenticada como precedente de constitucionalidade**; usar fonte comprovada (STF ADPF 418) antes de homologação |
+| DA22 | 6 | E | Coerente: advertência disciplinar escrita, art. 129; requer observância do procedimento e garantias |
+| **DA23** | 1 | E | Coerente Súmula Vinculante 5: defesa técnica de advogado não é constitucionalmente obrigatória no PAD |
+| DA23 | 2 | C | Coerente: tipicidade disciplinar aberta deve ser motivada e adequada ao fato |
+| DA23 | 3 | E | **Conferido externamente:** abandono exige ausência intencional por mais de 30 dias, arts. 132 II, 138, precedentes STJ; gabarito correto no núcleo, ressalvar exame do caso |
+| DA23 | 4 | E | Coerente: autoridade não escolhe livremente sanções; comentário de vinculação deve considerar qualificações do ilícito, proporcionalidade e defesa |
+| DA23 | 5 | C | Núcleo de autonomia do PAD para infração do art. 132 IV coerente; **não equiparar automaticamente tipificação disciplinar com todos os efeitos da LIA**, especialmente após 2026 |
+| DA23 | 6 | E | Coerente: art. 132 VII admite legítima defesa própria ou de terceiro |
+| **DA24** | 1 | E | Coerente: sindicância punitiva até 30 dias de suspensão, não 90 |
+| DA24 | 2 | C | Coerente: rito sumário para inassiduidade habitual, comissão de dois estáveis e prazos 30 + 15 |
+| DA24 | 3 | E | Coerente STJ Súmula 592: atraso não anula automaticamente PAD; **comentário chama prazo ordinário de “120 dias”** e mistura conclusão de comissão, prazo de julgamento, marco da prescrição e cautelar (DA-002), exigindo divisão |
+| DA24 | 4 | C | **Sob reserva de comentário:** Lei 8.112 art. 133 §5º presume boa-fé com opção tempestiva e converte-a em pedido de exoneração do outro cargo; **“extinção automática do procedimento”** não é expressão literal do §5º, demandando fonte normativa/procedimental específica. A assertiva extrapola parcialmente o dispositivo; **gabarito sob reserva, não homologado** |
+| DA24 | 5 | E | Coerente art. 168: autoridade pode afastar relatório contrário às provas, motivadamente |
+| DA24 | 6 | C | Coerente art. 149 §2º: impedimento de cônjuge, companheiro, parente até terceiro grau na comissão |
+
+### Novos registros
+
+**DA-086, IMPORTANTE, ressalvas de proibições e licenças em DA21.** A questão **DA21#4** e o comentário tratam participação em gerência privada como regra absoluta, sem as **exceções do parágrafo único do art. 117 da Lei 8.112**. O gabarito C pode ser mantido numa situação formulada como regra geral, mas o trecho não deve ensinar proibição sem exceção. **DA21#3:** completar quinquênio não implica automaticamente deferimento de licença de capacitação; mencionar conveniência e requisitos específicos do art. 87. Fase 2: registrar exceções e caso de teste, sem inverter gabaritos apenas por ausência de ressalva.
+
+**DA-087, IMPORTANTE, distinção entre regras de recondução e disponibilidade.** \`DA20#4\` acertou ao rejeitar perda de direito à recondução somente porque o cargo de origem foi provido; o comentário **precisa distinguir a regra textual do art. 29, parágrafo único**, hipóteses de aproveitamento, disponibilidade e destino do ocupante atual. A descrição de deslocamento automático de terceiro é pedagogicamente arriscada se não amparada no regime adequado.
+
+**DA-088, IMPORTANTE, assertiva DA24#4 com consequência procedimental além do texto.** A **opção tempestiva** em acumulação ilegal na Lei 8.112, art. 133 §5º, **configura boa-fé e converte-se em pedido de exoneração de outro cargo**. O enunciado ainda acrescenta **“automática extinção do procedimento sem aplicação de penalidade”**. A inexistência de má-fé na opção tempestiva favorece o gabarito C, porém o **efeito processual automático** precisa de amparo específico, não basta citar §5º. Marcar **reserva de gabarito**, sem afirmar inversão nova demonstrada.
+
+**DA-089, IMPORTANTE, comentário DA24#3 mistura prazos.** A questão corretamente nega nulidade automática por excesso de prazo, mas o comentário reduz PAD ordinário a **“prazo ordinário de 120 dias”**, sem distinguir os **60 + 60** dias da comissão, os **20 dias** da decisão (art. 167), os **140 dias** no cálculo da Súmula 635 e a duração própria de cautelar. Reforça **DA-002**, com correção futura precisa em quadro.
+
+**DA-090, CONFIRMAÇÃO POSITIVA de fonte e erro já aberto.** O **Tema 1081 STF**, conforme fonte oficial, dá suporte ao gabarito E da **DA21#5**; precedentes STJ reconhecem elemento subjetivo do abandono, sustentando **DA23#3 = E**. Em sentido oposto, a **ADI 2975 + embargos** confirmam que **DA22#2 = CERTO** permanece erro: há aplicação transitória de cinco anos no lugar da vedação perpétua. Este é um **reforço documental de DA-004**, não uma segunda inversão independente.
+
+**DA-091, IMPORTANTE, fonte da cassação de aposentadoria.** \`DA22#5\` atribui constitucionalidade da sanção ao julgamento da **ADI 4.882**, referência que **não foi autenticada como precedente correspondente**. O tema já constava de DA-005/013. Deve-se usar precedente de constitucionalidade efetivamente verificado (STF **ADPF 418**) e comparar o objeto/alcance antes de homologar questão e justificativa. **Não declarar gabarito C falso apenas por citação mal atribuída.**
+
+**Balanço:** **30 enunciados e 30 pares de gabarito/comentário lidos**, cotejo seletivo jurídico dos fundamentos decisivos; **uma inversão confirmada já conhecida DA22#2**, nenhuma inversão adicional comprovada; **DA24#4 sob reserva**. Seis registros DA-086–DA-091 somam-se aos anteriores, resultando em **DA-001 a DA-091, categorias heterogêneas, não 91 erros.** Não houve edição dos artigos, questões ou outros relatórios. Fase 1 permanece em curso. Próxima etapa: os demais artigos de DA e AP com questões individuais pendentes, mantendo controle de quais foram apenas inspecionados e quais tiveram decisão jurídica por item.

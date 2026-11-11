@@ -5,7 +5,7 @@ title: "Poder judiciário e controle de constitucionalidade"
 type: "conceito"
 status: "ativo"
 created: 2026-06-09
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 
 # Poder judiciário e controle de constitucionalidade
@@ -56,6 +56,14 @@ As decisões definitivas de mérito do STF em **ADI e ADC** produzem eficácia c
 
 Pegadinha: **ADC não tem como objeto lei estadual** no art. 102, I, `a`; ADI, perante o STF, pode ter por objeto lei ou ato normativo federal ou estadual.
 
+### Legitimados do controle abstrato e pertinência temática
+
+O **art. 103 da CF** permite propor **ADI e ADC** ao **Presidente da República**, à **Mesa do Senado**, à **Mesa da Câmara**, à **Mesa de Assembleia Legislativa ou da Câmara Legislativa do DF**, ao **Governador de Estado ou do DF**, ao **Procurador-Geral da República**, ao **Conselho Federal da OAB**, a **partido político com representação no Congresso** e a **confederação sindical ou entidade de classe de âmbito nacional**. O rol **não abrange qualquer cidadão, deputado isoladamente ou prefeito**. A Lei nº 9.868/1999 aplica o procedimento pertinente também à **ADO**, conforme suas disposições específicas; a ADPF tem disciplina própria na Lei nº 9.882/1999.
+
+**Legitimados universais × especiais:** a jurisprudência do STF exige **pertinência temática** da **Mesa de Assembleia Legislativa/Câmara Legislativa do DF**, dos **governadores** e das **confederações sindicais e entidades de classe nacionais**. Os demais legitimados do art. 103 são tratados como **universais**, sem essa demonstração específica. A pertinência temática é vínculo entre a matéria contestada e as finalidades institucionais do legitimado, e **não equivale a interesse pessoal de qualquer eleitor**.
+
+**Atuação institucional:** o **PGR deve ser previamente ouvido nas ações de inconstitucionalidade e em todos os processos de competência do STF**, na forma do art. 103, § 1º; o **AGU será previamente citado para defender o ato ou texto impugnado** quando o STF apreciar inconstitucionalidade de norma em tese, segundo o § 3º, respeitados os limites fixados pela jurisprudência. A função do PGR não é idêntica à defesa do ato atribuída ao AGU.
+
 ## Reserva de plenário — art. 97 e Súmula Vinculante 10
 
 O art. 97 estabelece que os tribunais somente podem declarar a inconstitucionalidade de lei ou ato normativo do Poder Público pelo voto da **maioria absoluta de seus membros** ou dos membros do respectivo **órgão especial**.
@@ -77,6 +85,10 @@ juiz singular → pode afastar norma no caso concreto por inconstitucionalidade
 plenário / órgão especial → quórum de maioria absoluta para declaração
 ```
 
+### Súmula vinculante: art. 103-A
+
+O **STF**, de ofício ou por provocação, **mediante decisão de dois terços de seus membros**, após reiteradas decisões sobre matéria constitucional, pode aprovar **súmula com efeito vinculante**, publicada na imprensa oficial. Ela vincula os **demais órgãos do Poder Judiciário** e a **Administração Pública direta e indireta, nas esferas federal, estadual e municipal**, e pode ser **revista ou cancelada** pelo STF. É diferente da eficácia vinculante de decisões de mérito em ADI e ADC do art. 102, § 2º. O art. 103-A, § 3º, prevê **reclamação ao STF** contra ato administrativo ou decisão judicial que contrarie ou aplique indevidamente súmula vinculante.
+
 ## Garantias da magistratura — art. 95
 
 As garantias existem para proteger a independência jurisdicional, e não como prêmio pessoal ao magistrado.
@@ -94,6 +106,12 @@ Protege contra remoção arbitrária, mas não é absoluta. A Constituição adm
 ### Irredutibilidade de subsídio
 
 Protege o subsídio contra redução, observadas as ressalvas constitucionais expressamente indicadas no art. 95, III.
+
+### Vedações e dever de fundamentação
+
+O **art. 95, parágrafo único**, veda ao juiz, entre outras condutas, **exercer outro cargo ou função, salvo uma de magistério**, **receber custas ou participação em processo**, **dedicar-se à atividade político-partidária**, **receber auxílios ou contribuições de pessoas físicas ou entidades privadas fora das exceções legais**, e **exercer advocacia no juízo ou tribunal do qual se afastou antes de decorridos três anos** por aposentadoria ou exoneração. Essas vedações diferem das garantias de vitaliciedade, inamovibilidade e irredutibilidade.
+
+O **art. 93, IX**, exige **publicidade dos julgamentos e fundamentação de todas as decisões judiciais**, sob pena de nulidade, ressalvadas as hipóteses legais de limitação da presença para proteger a intimidade, sem prejudicar o interesse público à informação. Publicidade de ato jurisdicional e controle administrativo pelo CNJ são matérias distintas.
 
 ## Conselho Nacional de Justiça — CNJ
 
@@ -149,3 +167,14 @@ A reserva de plenário e o controle concentrado se conectam a [[3 - Materias/Dir
 - Lei nº 9.868/1999 — ADI, ADC e ADO.
 - Lei nº 9.882/1999 — ADPF.
 - [[11-06-2026|Inbox - 10-06-2026]].
+
+
+## Certificação normativa delimitada com ressalva pedagógica: 11/11/2026
+
+**Fontes e escopo:** revisão do texto e dos conceitos de controle constitucional, reserva de plenário, magistratura e CNJ perante a [Constituição Federal atualizada, arts. 93, 95, 97, 102, 103, 103-A e 103-B](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), além da **Súmula Vinculante 10**, da **Lei nº 9.868/1999** e da **Lei nº 9.882/1999**. Confirmada a distinção entre controle incidental e abstrato, formal e material, competência jurisdicional e controle administrativo.
+
+**NC-PL-061:** acrescentados os **nove legitimados do art. 103**, a distinção jurisprudencial entre legitimados universais e especiais sujeitos a pertinência temática, e as funções processuais do PGR e do AGU. **NC-PL-062:** incorporado **art. 103-A** sobre súmula vinculante (quórum de dois terços, decisões reiteradas, alcance e reclamação). **NC-PL-063:** completado **art. 95, parágrafo único**, com vedações da magistratura e **art. 93, IX**, sobre publicidade e fundamentação das decisões.
+
+**Ressalva pedagógica:** o artigo possuía **zero questões C/E** e **zero casos progressivos**; não existem gabaritos que possam ser auditados. A revisão normativa ampliou o conteúdo **sem criar ou contabilizar exercícios**. Sua certificação **não representa conclusão da cobertura pedagógica exigível** para treino Cebraspe.
+
+**Limites:** o cotejo não constitui revisão exaustiva das Leis nº 9.868/1999 e 9.882/1999, dos precedentes sobre pertinência temática ou dos recursos constitucionais, nem avaliação de aprendizagem ou teste de renderização e publicação no GitHub Pages.

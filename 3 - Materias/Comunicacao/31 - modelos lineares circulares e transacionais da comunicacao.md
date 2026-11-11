@@ -5,7 +5,7 @@ title: "Modelos lineares, circulares e transacionais da comunicação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Modelos lineares, circulares e transacionais da comunicação
@@ -83,6 +83,18 @@ Um item pode trocar **retorno** por **simultaneidade**, atribuir a **Schramm** u
 **Item C/E 3, inédito:** “A abordagem transacional dá atenção à influência recíproca durante a interação, mas essa característica não garante entendimento comum nem equilíbrio de poder.”
 
 **Gabarito: Certo.** A afirmação distingue mecanismo comunicativo e consequência social.
+
+## Auditoria cruzada: alcance dos três modelos e uso em prova (11/11/2026)
+
+Confrontados os três itens C/E desta nota com as distinções adotadas em [[3 - Materias/Comunicacao/28 - lasswell cinco perguntas funcoes e efeitos|Lasswell]], [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|Shannon e Weaver]], [[3 - Materias/Comunicacao/30 - jakobson fatores e funcoes da linguagem|Jakobson]] e na [[3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos|síntese comparativa do artigo 47]].
+
+| Item | Gabarito | Distinção efetivamente testada |
+| --- | --- | --- |
+| 1 | **Certo** | Feedback e alternância de papéis podem ocorrer em turnos; simultaneidade não define necessariamente um modelo interacional. |
+| 2 | **Errado** | A ausência de feedback no **desenho de um modelo** não comprova passividade real dos destinatários. |
+| 3 | **Certo** | A simultaneidade e a influência recíproca de um processo transacional não garantem entendimento compartilhado ou igualdade social. |
+
+**Resultado editorial:** nenhum gabarito foi invertido na conferência de coerência interna. A classificação **linear, interacional, transacional** é uma síntese didática de modelos de origens diferentes; não é uma teoria única elaborada em conjunto por Schramm, Osgood e Barnlund. A análise de reciprocidade não substitui uma investigação empírica de compreensão ou resultados. **Pendente:** confrontar os exemplos e a atribuição específica de circularidade com o texto original de Schramm (1954) e o esquema de Barnlund (1970); o cotejo realizado aqui não certifica as fontes originais nem deve ser somado à contagem de verificações primárias.
 
 ## Relações com outros temas
 

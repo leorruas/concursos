@@ -5,7 +5,7 @@ title: "Entrevista jornalística"
 type: "conceito"
 status: "ativo"
 created: 2026-07-22
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Entrevista jornalística
 
@@ -124,6 +124,22 @@ Os mecanismos mais prováveis são:
 - confundir entrevista jornalística com entrevista de pesquisa.
 
 A FGV ALE-TO 2024 cobrou nominalmente Nilson Lage e a separação entre os dois grandes grupos.
+
+## Conferência autoral: Nilson Lage e os dois eixos de entrevista (11/11/2026)
+
+A obra de Nilson Lage [*A reportagem: teoria e técnica de entrevista e pesquisa jornalística*, registrada no site do autor](https://nilsonlage.com.br/a-reportagem-teoria-e-tecnica-de-entrevista-e-pesquisa-jornalistica/), é a referência primária de autoria. A distinção apresentada nesta nota é confirmada em [artigo acadêmico apresentado à Intercom](https://www.intercom.org.br/papers/regionais/sul2010/resumos/R20-0081-1.pdf) e em [pesquisa da UnB com descrição das categorias](https://bdm.unb.br/bitstream/10483/11684/1/2015_AnaTeresaAlvesMalta.pdf): há o eixo de **objetivos** (ritual, temática, testemunhal, em profundidade) e o eixo das **circunstâncias** (ocasional, confronto, coletiva, dialogal). São dois classificadores que podem ser aplicados simultaneamente à mesma situação, sem que um substitua o outro.
+
+**Precisão do exemplo didático:** uma entrevista **testemunhal** focaliza o relato de uma experiência que a fonte **viveu ou presenciou**; **ocasional** significa que o contato ocorreu circunstancialmente, sem planejamento. A fonte encontrada casualmente pode prestar testemunho sem que a entrevista deixe de ser ocasional. **Em profundidade** é categoria de objetivo, centrada na pessoa e em seu universo, e não sinônimo de entrevista longa ou de entrevista sempre dialogal.
+
+**Limite de evidência:** nesta rodada, a obra integral de Lage não foi reproduzida nem cotejada página a página. O acesso primário confirma livro e autoria; a enumeração dos dois eixos foi contrastada em trabalhos acadêmicos que citam o autor. A afirmação herdada sobre cobrança pela FGV ALE-TO 2024 carece de **número de questão e gabarito diretamente identificados** na nota; não é comprovação de frequência. O [CNMP 2023, item 81 C](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF) e a [DPDF 2022, item 97 C](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF) são referências de produção editorial e entrevista em sentido amplo, **sem demonstrar cobrança específica da classificação de Lage**.
+
+**Três C/E inéditos:**
+
+**1.** “Na classificação de Nilson Lage, temática e dialogal são espécies mutuamente exclusivas de entrevista, porque ambas descrevem seu objetivo.” **Errado.** Temática é objetivo; dialogal é circunstância.
+
+**2.** “Uma entrevista realizada casualmente com testemunha de um fato pode ser simultaneamente ocasional quanto às circunstâncias e testemunhal quanto ao objetivo.” **Certo.** Os eixos podem se cruzar.
+
+**3.** “Em profundidade é uma classificação de entrevista pelas circunstâncias de realização e descreve necessariamente a presença de vários jornalistas diante de uma fonte.” **Errado.** É categoria de objetivo, centrada na pessoa; coletiva é circunstância.
 
 ## Relações com outros temas
 

@@ -174,6 +174,12 @@ O [W3C, *Writing for Web Accessibility*](https://www.w3.org/WAI/tips/writing/) d
 
 **Item C/E adicional, inédito:** “Por priorizar linguagem simples, o Ato 218/2025 autoriza a Câmara a eliminar das orientações ao cidadão etapas do processo legislativo cuja omissão mude o sentido do procedimento, desde que a frase final seja curta.” **Errado.** A concisão é subordinada à fidelidade informacional. **Limite:** a fonte institucional foi cotejada diretamente; as classificações profissionais de slogan, headline, CTA e transcriação exigem bibliografia própria para certificação integral.
 
+## Prova real CNMP 2023: lide, pirâmide invertida e suporte (11/11/2026)
+
+Os [itens 91 a 95 do caderno oficial CNMP 2023](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF) foram confrontados com o [gabarito definitivo Cebraspe](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF): **91 C** (pirâmide invertida em impresso e digital), **92 E** (descrição indevida de nariz de cera), **93 C** (lide de síntese ou analítico, a depender do suporte), **94 E** (afirmação de identidade de forma entre lides de impresso e digital) e **95 X** (item sobre aspas **anulado**).
+
+**Fronteira necessária:** estas são técnicas de **redação jornalística**, que podem orientar hierarquia e adaptação textual, mas não tornam publicidade, reportagem e comunicação institucional gêneros equivalentes. O gabarito do item 95 deve permanecer **X**, sem interpretação normativa sobre o uso de aspas. A adaptação textual da Câmara continua condicionada à fidelidade da informação, à linguagem simples e à governança editorial. Não alterar gabaritos inéditos existentes por analogia não examinada.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|CAM-DI-008]] diferencia conceito e posicionamento; [[3 - Materias/Comunicacao/87 - mensagem publicitaria apelos e argumentacao|CAM-DI-009]] trabalha argumentos e apelos; [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|CAM-DI-011]] compara suportes; [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|CAM-DI-014]] exige revisão e versões.

@@ -227,3 +227,19 @@ flowchart TD
 > **Revisão técnica e jurídica (11/11/2026):** RAG reduz riscos, mas não elimina alucinações; requisitos de revisão humana e de transparência dependem do caso e do regime aplicável. Exemplos institucionais são hipotéticos. Alterações harmonizadas com as ressalvas já identificadas na auditoria de IA da Câmara.
 
 > **Auditoria de questões C/E, segunda passagem (11/11/2026):** Q1, Q2, Q3, Q5 e Q6 mantêm os gabaritos (C, E, C, E, E) com ressalvas técnicas nos comentários. **Q4 retirada de homologação por chamar $P(X)$ de distribuição conjunta**, oferecendo enunciado corrigido. Manter a questão original no histórico, mas não a usar sem reescrita.
+
+---
+
+## Questão substituta S21-4: probabilidades em modelos generativos
+
+> Em um problema de classificação com atributos `X` e classe `Y`, um classificador discriminativo pode modelar diretamente `P(Y|X)`, enquanto um modelo generativo para essa tarefa pode modelar a distribuição conjunta `P(X,Y)`; já `P(X)` é uma distribuição marginal de `X`.
+
+**Gabarito: CERTO (inédita, substitui a Questão 4 bloqueada).** A distribuição **conjunta** atribui probabilidades a combinações de valores de duas ou mais variáveis. A distribuição **marginal** resulta de somar ou integrar a conjunta sobre as demais variáveis: `P(X)=∑_y P(X,y)`, em caso discreto. A **condicional** é `P(Y|X)=P(X,Y)/P(X)` quando o denominador é positivo.
+
+**Caso aplicado:** para classificar uma solicitação como reclamação ou dúvida, o discriminativo pode prever a classe a partir das palavras; um classificador generativo pode estimar probabilidades de textos condicionadas às classes e aplicar a regra de Bayes. Já um gerador de textos sem classes pode modelar uma distribuição sobre sequências de texto, sem precisar de `Y`.
+
+**Contraexemplo:** “`P(X)` é necessariamente a distribuição conjunta de `X` e `Y`” é **ERRADO**. Essa era a imprecisão do item original.
+
+**Fonte acadêmica:** [Stanford CS229: Generative Learning Algorithms, notas de aula](https://cs229.stanford.edu/notes2022fall/cs229-notes2.pdf). **Relação:** [[3 - Materias/Informatica/19 - aprendizagem supervisionada e nao supervisionada algoritmos e metricas|Classificação supervisionada]].
+
+**Rastreabilidade:** a Questão 4 anterior permanece **NÃO HOMOLOGADA**.

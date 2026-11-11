@@ -5,7 +5,7 @@ title: "Poder legislativo"
 type: "conceito"
 status: "ativo"
 created: 2026-06-09
-updated: 2026-11-08
+updated: 2026-11-11
 ---
 
 # Poder Legislativo
@@ -45,6 +45,24 @@ O Legislativo possui duas funções típicas principais:
 - **fiscalizar**, inclusive por controle político e financeiro.
 
 Também exerce funções atípicas, como administrar sua própria estrutura e, em hipóteses constitucionais, exercer funções de julgamento político.
+
+## Competências do Congresso e das duas Casas: arts. 48 a 52
+
+O **art. 48** cuida, em regra, de matérias sobre as quais o **Congresso legisla com sanção presidencial**. O **art. 49** enumera competências **exclusivas do Congresso**, **sem sanção**, como resolver definitivamente sobre tratados que acarretem encargos ou compromissos gravosos, sustar atos normativos do Executivo que exorbitem do poder regulamentar ou dos limites de delegação, **julgar contas anuais do Presidente**, autorizar referendo e convocar plebiscito e fiscalizar atos do Executivo. A competência exclusiva para sustar **atos normativos exorbitantes** (art. 49, V) é diferente da fiscalização do TCU sobre **atos administrativos e contratos** (art. 71).
+
+A **Câmara**, no **art. 51**, pode **autorizar por dois terços de seus membros** a instauração de processo contra Presidente, Vice-Presidente e Ministros de Estado, proceder à **tomada de contas** do Presidente não apresentadas em 60 dias após a abertura da sessão legislativa, elaborar seu regimento e dispor sobre seus serviços, observada a **iniciativa de lei** para fixar a remuneração. O **Senado**, no **art. 52**, processa e julga autoridades nos **crimes de responsabilidade** nas hipóteses previstas; aprova previamente certas autoridades indicadas, autoriza operações externas de natureza financeira e tem competências sobre limites de endividamento. No julgamento político dos incisos I e II, a condenação depende de **dois terços dos senadores**. **Autorizar a instauração (Câmara) ≠ processar e julgar (Senado)**.
+
+Pelo **art. 50**, as Casas e suas comissões podem **convocar Ministros de Estado, titulares de órgãos diretamente subordinados à Presidência e o Presidente do Comitê Gestor do IBS**, para prestar informações sobre assunto previamente determinado. **Ausência sem justificativa adequada** importa crime de responsabilidade. Pedidos **escritos** de informações encaminhados pelas Mesas seguem o § 2º, que prevê consequências por recusa, não atendimento em **30 dias** ou informação falsa. Convocação presencial e pedido escrito possuem procedimentos distintos.
+
+## Mandato, imunidades e sessões: arts. 53 a 58
+
+A **imunidade material** do **art. 53, caput**, protege deputados e senadores, civil e penalmente, por **opiniões, palavras e votos**, no exercício das funções conforme os limites fixados pela jurisprudência. A **imunidade formal quanto à prisão**, desde a diplomação, admite prisão em **flagrante de crime inafiançável**; os autos devem seguir à Casa em **24 horas**, para decisão por maioria de seus membros (art. 53, § 2º). A Casa pode, nas condições dos §§ 3º a 5º, **sustar ação penal** relativa a crime ocorrido após a diplomação, mediante iniciativa de partido representado e decisão por maioria de seus membros; o pedido deve ser apreciado em **45 dias** e a sustação suspende a prescrição enquanto durar o mandato. O texto do § 1º sobre julgamento pelo STF deve ser lido com as **restrições jurisprudenciais do foro por prerrogativa** para crimes no exercício do cargo e relacionados às funções, inclusive a tese do STF sobre subsistência da competência após o mandato para fatos assim enquadrados. **Imunidade parlamentar não é impunidade geral**.
+
+O **art. 54** distingue incompatibilidades **desde a diplomação** (como determinados contratos e cargos remunerados junto a entes públicos) e **desde a posse** (como patrocínio de causa com interesse de entidades enumeradas, titularidade de outro mandato eletivo e outras vedações). O **art. 55** separa perda de mandato **decidida pela Casa por maioria absoluta**, nos incisos I, II e VI, e **declarada pela Mesa**, nos incisos III a V, sempre observada a ampla defesa; a votação secreta anteriormente prevista no § 2º foi **retirada pela EC 76/2013**. A **renúncia durante processo de perda de mandato** pode ficar com efeitos suspensos (§ 4º). O **art. 56** dispõe sobre hipóteses em que o parlamentar não perde mandato por investidura em certos cargos ou licença, e convocação de suplente nas situações constitucionalmente previstas.
+
+A **sessão legislativa ordinária** ocorre de **2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro**, com deslocamento para primeiro dia útil quando a data de abertura recair em fim de semana ou feriado (art. 57). **Não se interrompe sem aprovação do projeto de LDO** (§ 2º). O **Congresso reúne-se em sessão conjunta**, entre outros fins, para abrir a sessão legislativa, elaborar regimento comum, receber o compromisso presidencial e **deliberar sobre veto** (§ 3º). A **Mesa do Congresso** é presidida pelo **Presidente do Senado** (§ 5º). Essas sessões conjuntas **não fundem Câmara e Senado num só órgão de votação para todos os quóruns**.
+
+O **art. 58** prevê comissões **permanentes e temporárias**, proporcionalidade partidária **tanto quanto possível**, poderes de fiscalização e apreciação de projetos quando o Regimento dispensa a deliberação plenária, **salvo recurso de um décimo dos membros da Casa**. **CPI** requer **um terço dos membros**, **fato determinado** e **prazo certo**, com poderes de investigação próprios das autoridades judiciais; os detalhes regimentais e limites estão na nota [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares]].
 
 ## Controle externo: arts. 70 e 71
 
@@ -330,3 +348,14 @@ O estudo dialoga com [[3 - Materias/Orcamento Publico/13 - tramitacao legislativ
 ---
 **Fontes Brutas:**
 - [[11-06-2026|Inbox - 09-06-2026]]
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Escopo:** conferidos bicameralismo, competências institucionais das Casas, imunidades e sessões do Congresso, fiscalização constitucional, TCU e Tribunais de Contas estaduais perante a [Constituição Federal atualizada, arts. 44–75](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), com cotejo específico da [EC 139/2026](https://www2.camara.leg.br/legin/fed/emecon/2026/emendaconstitucional-139-5-maio-2026-799072-publicacaooriginal-179182-pl.html) e EC 122/2022. Verificados **dez itens C/E** da expansão CAM-PL-018, **oito variações do caso progressivo** e **três exemplos comentados**. O núcleo original de controle externo estava consistente com a CF, mas a exposição geral de Poder Legislativo omitia aspectos essenciais dos arts. 48 a 58.
+
+**NC-PL-068:** aprofundados **arts. 48–52**, distinguindo legislação com sanção presidencial, competências exclusivas do Congresso e privativas da Câmara e do Senado, e pedidos de informações/convocações do art. 50. **NC-PL-069:** incorporados **arts. 53–56**, com imunidades material e formal, foro constitucional sob leitura jurisprudencial, incompatibilidades desde diplomação/posse, perda de mandato e hipóteses de licença/suplência. **NC-PL-070:** explicitados **arts. 57–58**, incluindo períodos da sessão legislativa, sessões conjuntas, Mesa do Congresso e regras centrais das comissões, preservando aprofundamento específico em outras unidades.
+
+**Dez gabaritos preservados, sequência:** **E, C, E, E, C, E, C, E, C, E**. Nenhuma inversão identificada nos exercícios cotejados, nem nos oito casos e três exemplos. **Não houve criação ou duplicação de questões**. Os exercícios preexistentes continuam sujeitos à reconciliação geral do inventário.
+
+**Limites:** certificação jurídico-editorial deste recorte escrito, não revisão exaustiva de jurisprudência sobre prerrogativas parlamentares, dos ritos específicos de responsabilização ou de todas as atribuições dos arts. 49 e 52. Não comprova aprendizagem, renderização nem publicação no GitHub Pages.

@@ -17,13 +17,13 @@ aliases:
 
 ## Núcleo do conceito
 
-Esta unidade fecha **a arquitetura do Regimento Interno da Câmara dos Deputados (RICD)** e a conecta a situações de prova. A função é tornar os artigos estudados **recuperáveis por problema, órgão e consequência**, sem reproduzir os seus textos. A **síntese do edital armazenada no repositório** aponta, no bloco de Direito Constitucional e Regimento, os **arts. 1º a 24, 65 a 94, 226 a 251 e 262 a 273**. A auditoria ainda exige a confirmação desse recorte no **edital oficial da especialidade Divulgação Institucional e em suas retificações**. Até essa conferência, os intervalos abaixo são tratados como *recorte da síntese interna*, sem afirmar literalidade oficial. O bloco de Processo Legislativo também menciona o RICD e procedimentos, proposições e comissões de modo mais geral. É importante não converter toda cobertura adicional do vault em nova exigência literal do primeiro bloco.
+Esta unidade fecha **a arquitetura do Regimento Interno da Câmara dos Deputados (RICD)** e a conecta a situações de prova. A função é tornar os artigos estudados **recuperáveis por problema, órgão e consequência**, sem reproduzir os seus textos. O **Edital nº 1/2026 do concurso para Analista Legislativo, cargo 1, Divulgação Institucional**, no programa de **Direito Constitucional**, tópico **7.1 a 7.4**, exige expressamente o RICD nos **arts. 1º a 24, 65 a 94, 226 a 251 e 262 a 273, e suas alterações**. A conferência incluiu a página oficial da Câmara que disponibiliza o edital e as retificações publicadas até 11/11/2026. As retificações programáticas posteriores identificadas no Edital nº 5/2026 atingem os conhecimentos específicos dos cargos 8 e 9, não esse recorte do cargo 1. O bloco específico de Processo Legislativo tem abordagem mais ampla, que deve ser estudada por sua própria rubrica do programa. O bloco de Processo Legislativo também menciona o RICD e procedimentos, proposições e comissões de modo mais geral. É importante não converter toda cobertura adicional do vault em nova exigência literal do primeiro bloco.
 
 **Fonte normativa de referência:** [RICD vigente, Câmara dos Deputados, Resolução nº 17/1989 e alterações](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). A [31ª edição oficial (2026)](https://bd.camara.leg.br/bd/items/version/400) está atualizada até a **Resolução nº 34/2026**.
 
-### Quatro recortes da síntese interna, um eixo de leitura
+### Quatro recortes literais do edital, um eixo de leitura
 
-| Recorte apontado na síntese interna | Pergunta que resolve | Nota canônica |
+| Recorte do RICD no edital, tópico 7 | Pergunta que resolve | Nota canônica |
 | :--- | :--- | :--- |
 | **Arts. 1º–24** | Onde, quando e por quem a Câmara é organizada, dirigida e representada? | [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Nota 23: organização, Mesa, Lideranças e órgãos]] |
 | **Arts. 65–94** | Qual sessão ocorre, quem fala, quando há deliberação, como funciona a Ordem do Dia e quais são as regras para sessão secreta? | [[3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80|Nota 24: arts. 65–80]] + [[3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105|Nota 25: arts. 81–94]] |
@@ -101,7 +101,7 @@ No intervalo **1º–24**, a redação regimental sobre remuneração dos servi�
 
 ## Como a Cebraspe cobra: dez itens inéditos Certo ou Errado
 
-**1.** Segundo a síntese do edital de Divulgação Institucional incorporada ao repositório, os intervalos de Regimento da Câmara destacados no bloco de Direito Constitucional são os arts. 1º a 24, 65 a 94, 226 a 251 e 262 a 273. **Certo em relação à síntese interna.** A redação literal do edital oficial e eventuais retificações ainda requerem confirmação; este item é de localização do material, não uma questão normativa oficial. O bloco de Processo Legislativo também tem abordagem mais ampla.
+**1.** No programa de Direito Constitucional do cargo 1 (Divulgação Institucional), o Edital nº 1/2026 exige o Regimento Interno da Câmara nos arts. 1º a 24, 65 a 94, 226 a 251 e 262 a 273, com suas alterações. **Certo.** Edital nº 1/2026, tópico 7.1–7.4 do programa de Direito Constitucional. O bloco de Processo Legislativo contém outras exigências, cuja abrangência não deve ser confundida com estes quatro intervalos literais.
 
 **2.** A Mesa e o Presidente da Câmara constituem a mesma autoridade regimental e podem substituir-se livremente no exercício de todas as competências de direção administrativa, pauta e comunicação. **Errado.** São órgãos com competências distintas, embora tenham relação institucional e possam atuar de modo coordenado.
 
@@ -136,6 +136,6 @@ A leitura dos órgãos legislativos integra [[3 - Materias/Direito Constituciona
 - [RICD: norma atualizada da Câmara](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
 - [31ª edição, atualizada até Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/version/400).
 - [Constituição de 1988, texto atualizado](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
-- [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|Síntese do edital mantida no repositório]], como referência provisória aos intervalos; conferir edital oficial e retificações da especialidade antes de declarar escopo literal.
+- [Edital nº 1/2026, cargo 1, programa de Direito Constitucional, tópico 7.1–7.4](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades), disponibilizado na [página oficial do concurso](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades), juntamente com as retificações; [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|síntese interna]] usada para navegação.
 
-**Nota editorial:** não foram identificados, nessa auditoria, novos intervalos literais do RICD no bloco de Direito Constitucional além dos quatro documentados. A unidade é um **mapa de competências e erros de transposição**, e não uma segunda cópia dos artigos de base. A cobertura editorial não indica prática, retenção ou desempenho em questões.
+**Nota editorial:** os quatro intervalos do RICD no bloco de Direito Constitucional são literais do Edital nº 1/2026, cargo 1, tópico 7.1–7.4, conforme cotejo com o programa do edital. A unidade é um **mapa de competências e erros de transposição**, e não uma segunda cópia dos artigos de base. A cobertura editorial não indica prática, retenção ou desempenho em questões.

@@ -5,7 +5,7 @@ title: "Controle parlamentar: fiscalização contábil, financeira, requerimento
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Controle parlamentar: fiscalização contábil, financeira, requerimentos e prestação de contas
@@ -125,13 +125,17 @@ A separação de poderes estabelece gradação específica para a sustação de 
 - **Instrumento formal:** **Decreto Legislativo** (PDL aprovado por maioria simples nas duas Casas, sem sanção ou veto presidencial);
 - **Objeto:** Decretos regulamentares do Executivo ou resoluções de órgãos administrativos que ultrapassem a autorização legal originária ou os limites da delegação legislativa.
 
-### 5.2 Sustação de contrato administrativo irregular (CF, art. 71, §§ 1º e 2º)
-- Verificada ilegalidade em contrato administrativo, o TCU assina prazo de 30 dias para que o órgão adote as providências;
-- Desatendida a recomendação, o ato de **sustação da execução do contrato** cabe diretamente ao **Congresso Nacional**, que solicita, de imediato, ao Poder Executivo as medidas cabíveis;
-- **Atuação subsidiária do TCU (§ 2º):** Se o Congresso Nacional ou o Poder Executivo, no prazo de **90 dias**, não efetivar as medidas de sustação do contrato, o próprio **TCU decidirá a respeito** da sustação.
+### 5.2 Sustação de contrato administrativo irregular e poder cautelar do TCU (CF, art. 71, IX, X e §§ 1º e 2º)
 
-> **Pegadinha Clássica Cebraspe:**
-> O TCU pode sustar diretamente a execução de um **ato administrativo** unilateral ilegal (se o órgão não anular no prazo assinado). Mas, em se tratando de **contrato administrativo bilateral**, a competência primária de sustação pertence ao **Congresso Nacional**; somente se o Congresso silenciar por **90 dias** é que o TCU assume competência supletiva para sustar o contrato.
+Há uma diferença essencial entre **sustação constitucional do contrato** e **medida cautelar para preservar o erário**:
+
+- **Determinação de providências à Administração (art. 71, IX):** ao identificar ilegalidade, o TCU pode assinar prazo para o órgão adotar providências de exato cumprimento da lei; a Constituição **não estabelece prazo fixo de 30 dias** para todas essas hipóteses. Segundo o STF (MS 23.550), o TCU pode determinar à autoridade administrativa que promova anulação de contrato e, se cabível, da licitação de origem, sem ele próprio anulá-los.
+- **Sustação constitucional de contrato (art. 71, § 1º):** cabe inicialmente ao **Congresso Nacional**, que solicita imediatamente ao Executivo as medidas cabíveis. Se **Congresso ou Executivo** não efetivar as medidas em **90 dias**, o TCU **decidirá a respeito** (art. 71, § 2º). A regra não deve ser reduzida a uma proibição genérica de qualquer providência anterior do TCU.
+- **Cautela do TCU:** em situações justificadas de risco ao erário ou à efetividade de sua decisão, o TCU pode determinar **medidas cautelares à Administração**, como suspensão temporária de repasses ou providências sobre a execução contratual, sem se confundir com anulação direta ou sustação definitiva do contrato. O STF reconhece o poder geral de cautela no **MS 24.510**, com aplicação a repasses contratuais no entendimento reunido em seu **Informativo 922**. A providência concreta exige motivação, proporcionalidade e observância das competências constitucionais.
+
+> **Pegadinha Cebraspe:** sustar definitivamente um contrato, ordenar sua anulação à Administração e determinar cautelarmente a interrupção de pagamentos são **atos juridicamente distintos**. Os 90 dias do art. 71, § 2º, referem-se à atuação subsidiária na sustação constitucional, e não à condição universal para toda cautelar do TCU.
+
+Fontes: [STF, art. 71 e precedentes MS 23.550/MS 24.510](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=71&abrirBase=CF); [STF, Informativo 922](https://www.stf.jus.br/arquivo/informativo/documento/informativo922.htm).
 
 ---
 
@@ -149,9 +153,9 @@ A Mesa da Câmara encaminha pedido de informações sobre contratos de publicida
 O TCU, ao analisar as contas do Presidente da República relativas ao exercício financeiro anterior, emite parecer prévio recomendando sua rejeição por descumprimento de metas fiscais. Diante disso, o Tribunal publica acórdão declarando as contas rejeitadas e aplicando multa pecuniária ao Presidente.
 *Análise:* O acórdão do TCU é nulo nessa parte. O Tribunal de Contas **não julga as contas do Chefe do Executivo**, competindo-lhe exclusivamente emitir parecer prévio técnico de caráter opinativo (CF art. 71, I). O julgamento político e definitivo cabe única e soberanamente ao **Congresso Nacional** (CF art. 49, IX).
 
-### Caso 4: Sustação imediata de contrato administrativo de grande vulto pelo TCU
-O TCU realiza auditoria e detecta superfaturamento em obra pública federal. Imediatamente, sem notificar o Congresso Nacional, o Tribunal expede medida cautelar determinando a anulação e sustação do contrato firmado pela autarquia federal.
-*Análise:* A decisão viola o art. 71, §§ 1º e 2º da CF. No caso de contratos, a sustação primária compete privativamente ao **Congresso Nacional**. O TCU deve comunicar o fato e assinar prazo para correção; somente após 90 dias de inércia do Parlamento e do Executivo é que o TCU adquire legitimidade extraordinária subsidiária para sustar o contrato bilateral.
+### Caso 4: Cautelar sobre pagamentos e sustação definitiva de contrato
+Uma auditoria do TCU identifica indícios robustos de superfaturamento em contrato de obra federal e risco de desembolsos imediatos. O Tribunal, de forma fundamentada, determina **cautelarmente à autarquia que suspenda repasses** enquanto apura os fatos; em outro ato, declara **diretamente e em caráter definitivo a anulação e sustação do contrato**, sem observar a atuação do Congresso.
+*Análise:* **As duas medidas exigem fundamentos distintos.** A cautelar dirigida à Administração pode ser legítima para evitar dano e preservar a eficácia de decisão futura, conforme o poder geral de cautela reconhecido pelo STF (MS 24.510 e Informativo 922), desde que proporcional e motivada. **Já o TCU não pode anular por ato próprio o contrato**, e a sustação constitucional definitiva segue o art. 71, §§ 1º e 2º, com atuação inicial do Congresso Nacional. O marco de **90 dias não impede automaticamente a cautelar**, mas delimita o mecanismo subsidiário de sustação.
 
 ---
 
@@ -231,4 +235,4 @@ O TCU realiza auditoria e detecta superfaturamento em obra pública federal. Ime
 | **Requerimento de informação** (CF art. 50, § 2º) | Ministros de Estado e titulares de órgãos subordinados | Mesa Diretora da Casa | Não resposta em **30 dias** = **crime de responsabilidade** |
 | **Julgamento de contas presidenciais** (CF art. 49, IX c/c 71, I) | Presidente da República | Parecer prévio do TCU (60 dias) → Julgamento pelo Congresso | Julgamento político definitivo em sessão conjunta |
 | **Sustação de ato normativo exorbitante** (CF art. 49, V) | Chefe do Executivo / Regulamentos | Congresso Nacional via Decreto Legislativo | Extirpação do ato normativo sem sanção/veto |
-| **Sustação de contrato irregular** (CF art. 71, §§ 1º e 2º) | Contratante e contratado federal | Primária: Congresso Nacional. Subsidiária: TCU após 90 dias de inércia | Paralisação/anulação da avença contratual bilateral |
+| **Sustação constitucional de contrato irregular** (CF art. 71, §§ 1º e 2º) | Contrato da Administração sob controle externo | Inicialmente Congresso; subsidiariamente TCU após o mecanismo de 90 dias | Sustação nos termos constitucionais; distinguir de anulação administrativa e cautelar do TCU |

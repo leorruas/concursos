@@ -133,44 +133,45 @@ O rito depende da penalidade. A censura verbal e a escrita seguem os arts. 11 e 
 
 ```mermaid
 flowchart TD
- A["Conduta contrária ao decoro"] --> B{"Qual sanção é cabível?"}
+ A["Conduta contrária ao decoro"] --> B{"Rito disciplinar"}
  B --> C["Censura verbal: art. 11"]
- C --> C1["Presidente da Câmara ou de comissão aplica"]
- C1 --> C2["Recurso ao respectivo Plenário: 2 dias úteis"]
+ C --> C1["Presidente da Câmara ou comissão aplica"]
+ C1 --> C2["Recurso ao Plenário respectivo: 2 dias úteis"]
  B --> D["Censura escrita: art. 12"]
- D --> D1["Mesa assegura defesa: 5 dias úteis"]
- D1 --> D2["Mesa delibera; recurso ao Plenário: 2 dias úteis"]
+ D --> D1["Mesa concede defesa: 5 dias úteis"]
+ D1 --> D2["Mesa decide; recurso ao Plenário: 2 dias úteis"]
  B --> E["Suspensão de prerrogativas: art. 13"]
- E --> E1["Mesa encaminha; Conselho sorteia lista tríplice de relatores"]
+ E --> E1["Relator por sorteio de lista tríplice"]
  E1 --> E2["Defesa: 10 dias úteis"]
  E2 --> E3["Diligências: 15 dias úteis, prorrogáveis uma vez"]
  E3 --> E4{"Parecer do Conselho"}
- E4 -->|Improcedente| F["Arquivamento"]
- E4 -->|Pena menos grave| M["Proposta à Mesa: sanção menos grave conforme fatos e competência"]
- E4 -->|Pena mais grave| G["Conselho propõe à Mesa representação por sanção mais grave"]
- E4 -->|Suspensão de prerrogativas| H["Recurso à CCJC: até 5 dias úteis, efeito suspensivo"]
+ E4 -->|Improcedente| F["Arquivamento: art. 13, III, a"]
+ E4 -->|Sanção menos grave| M["Proposta à Mesa: art. 13, III, c"]
+ E4 -->|Sanção mais grave| G["Conselho propõe nova representação à Mesa"]
+ G --> G1{"Mesa aprova representação?"}
+ G1 -->|Sim| G2["Reabre defesa e instrução complementar: art. 14"]
+ G2 --> I5["Parecer e votação após instrução"]
+ G1 -->|Não| G3["Sem passagem automática ao rito grave"]
+ E4 -->|Suspensão de prerrogativas| R13["Projeto de resolução: art. 13, III, b"]
  B --> I["Suspensão do mandato ou perda: art. 14"]
- I --> I1["Mesa encaminha ao Conselho; escolha de relator"]
- I1 --> I2{"Inépcia ou falta de justa causa?"}
- I2 -->|Sim, representação partidária| F2["Decisão terminativa; recurso ao Plenário por 1/10 da Casa"]
- I2 -->|Não| I3["Defesa: 10 dias úteis; até 8 testemunhas"]
- I3 --> I4["Instrução: 30 dias úteis suspensão; 40 perda"]
- I4 --> I5["Parecer: 10 dias úteis"]
- I5 --> I6{"Conselho vota nominalmente"}
- I6 -->|Parecer rejeitado| I7["Designação de novo relator"]
+ I --> I1["Relator e exame de admissibilidade"]
+ I1 -->|Inépcia ou falta de justa causa em representação partidária| F2["Decisão terminativa; recurso ao Plenário por 1/10 da Casa"]
+ I1 -->|Prossegue| I3["Defesa: 10 dias úteis; até 8 testemunhas"]
+ I3 --> I4["Instrução: 30 dias úteis para suspensão; 40 para perda"]
+ I4 --> I5
+ I5 --> I6{"Conselho vota parecer nominalmente"}
+ I6 -->|Rejeitado| I7["Novo relator: art. 14, par. 4, V"]
  I7 --> I6
- I6 -->|Procedente| H
- I6 -->|Improcedente ou requalificação| F3["Encaminhamento conforme resultado e competência"]
- G --> G1{"Mesa aprova a nova representação?"}
- G1 -->|Sim| G2["Conselho reabre defesa e realiza instrução complementar: prazos do art. 14"]
- G2 --> I5
- G1 -->|Não| G3["Sem tramitação automática da sanção mais grave"]
- H -->|Houve recurso| H1["CCJC: só vícios jurídicos; 5 dias úteis"]
- H -->|Sem recurso| J["Parecer aprovado segue à Mesa"]
+ I6 -->|Procedente| R14["Projeto de resolução: suspensão ou perda"]
+ I6 -->|Improcedente ou requalificado| F3["Destino conforme resultado e competência"]
+ R13 --> H["Possível recurso à CCJC: 5 dias úteis; efeito suspensivo"]
+ R14 --> H
+ H -->|Recurso interposto| H1["CCJC examina apenas vícios jurídicos: 5 dias úteis"]
+ H -->|Sem recurso| J["Processo encaminhado à Mesa"]
  H1 --> J
- J --> K["Leitura, publicação e distribuição; inclusão em Ordem do Dia"]
- K --> L["Plenário: votação ostensiva, maioria absoluta"]
- N["Limite art. 16: 60 dias úteis suspensão; 90 perda"] -.-> E
+ J --> K["Leitura, publicação e avulsos; Mesa pauta em até 2 sessões ordinárias"]
+ K --> L["Plenário: votação ostensiva; maioria absoluta"]
+ N["Art. 16: limite de 60 dias úteis para suspensões; 90 para perda"] -.-> E
  N -.-> I
 ```
 
@@ -262,7 +263,7 @@ Os enunciados seguintes testam **somente o procedimento cautelar** do [RICD, art
    - **Quórum e modalidade de votação:** para a declaração de suspensão ou de perda do mandato, a Constituição e o Regimento exigem **maioria absoluta de votos dos membros da Câmara (pelo menos 257 deputados)**;
    - **Votação aberta (EC 76/2013):** historicamente, o art. 14 do Código e o art. 55, § 2º, da CF previam voto secreto. Com o advento da **Emenda Constitucional nº 76, de 2013**, **todo e qualquer julgamento de perda de mandato parlamentar é realizado por votação ostensiva/aberta**. Qualquer referência em questão de prova a escrutínio secreto na perda de mandato parlamentar por quebra de decoro é anacrônica e incorreta.
 
-**Leitura conjunta do fluxograma:** o nó **“Recurso à CCJC: até 5 dias úteis, efeito suspensivo”** representa a redação posterior dos **arts. 13, IV, e 14, § 4º, VII, do Código**. Ele não é fundamentado no art. 20 do Regulamento de 2001, cuja indicação de ausência de efeito suspensivo foi superada nesse ponto. O fluxograma simplifica resultados distintos (arquivamento, requalificação e proposta de pena), que devem ser acompanhados pelos incisos próprios dos arts. 13 e 14 e não inferidos apenas das setas.
+**Leitura conjunta do fluxograma:** os caminhos de **suspensão de prerrogativas (art. 13)** e **suspensão do mandato ou perda (art. 14)** permanecem separados até a eventual apresentação de projeto de resolução. Só então convergem na possibilidade de **recurso à CCJC, em cinco dias úteis e com efeito suspensivo**, conforme o Código posterior, que prevalece sobre a menção a recurso sem efeito suspensivo no art. 20 do Regulamento de 2001. A **CCJC examina os vícios jurídicos alegados** e o **Plenário decide a sanção por maioria absoluta**, em votação ostensiva. Arquivamento, proposta de sanção mais ou menos grave e decisão terminativa por falta de justa causa possuem saídas próprias e não devem ser tratados como propostas automáticas de penalidade. O diagrama é uma síntese: para detalhes e recursos específicos de cada saída, prevalecem os arts. 13 e 14.
 
 ## 6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)
 

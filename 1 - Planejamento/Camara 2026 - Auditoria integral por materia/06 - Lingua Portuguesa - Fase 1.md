@@ -81,3 +81,33 @@ Os 18 itens autorais de 12–14 são **didáticos**; não foram validados como i
 **Uso com ressalvas:** nota 01 §4 e nota 14 §§3–4/Q5 não devem ser usados como regras fechadas de julgamento antes da correção. Seções de 12/13 podem sustentar revisão preliminar, sem certificação integral de fontes e gabaritos. **Não declarar a matéria concluída.**
 
 **Próximo bloco recomendado, por prioridade:** auditar integralmente 10, 32, 33 e 34 (reescrita e equivalência) em confronto com PT-001, pois a falha detectada tem impacto direto no julgamento C/E; depois retomar 14 com cotejo acadêmico da pressuposição; seguir a fila dos demais 30 artigos e hub, conferir reutilizados, `catalogo-materias-por-concurso.json`, itens literais do PDF oficial e retificações. Matriz completa e parecer por artigo somente após leitura. Estado atual: **4 arquivos de conteúdo examinados seletivamente; 30 artigos e hub sem exame individual nesta Fase 1; 0 artigos certificados integralmente.**
+
+
+## Bloco 2: Reescrita e equivalência, leitura dirigida (11/11/2026)
+
+**Arquivos novos recuperados nesta rodada:** `3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido.md`, `32 - reescrita substituicao lexical e preservacao de sentido.md`, `33 - reorganizacao sintatica e equivalencia semantica.md`, `34 - reescrita entre registros formalidade e generos textuais.md`. Foram inspecionados seus conteúdos, estrutura, exemplos, itens de treino localizados e justificativas com **cotejo conceitual seletivo**; nenhuma fonte gramática foi auditada integralmente e nenhum item recebeu certificação total. Não repetir os quatro arquivos do bloco 1 na contagem: **8 artigos distintos examinados até aqui; 26 artigos e hub não examinados individualmente**.
+
+### Matriz de foco dos itens 6–6.4 (parcial)
+
+| Edital | Evidência no conteúdo | Diagnóstico |
+| --- | --- | --- |
+| 6 e 6.1, reescrita e significação | 10 (panorama) e 32 (sinonímia contextual, regência, modalizadores) | **Parcialmente verificado**: exemplos e exercícios autorais, sem corpus real calibrado |
+| 6.2, substituição de palavras/trechos | 32 (trocas lexicais, conectivos, regência) | **Parcialmente verificado** |
+| 6.3, reorganização de orações e períodos | 33 (vozes, ordem, paralelismo, nominalização, efeitos de foco) | **Parcialmente verificado** |
+| 6.4, mudança de gêneros e formalidade | 34 (registros, discurso direto/indireto, redação oficial) e 10 | **Parcialmente verificado**; MRPR e manual próprio da Câmara requerem cotejo |
+
+### Avaliação individual e intervenção futura
+
+**Português/10:** nota reutilizada da Dataprev/FGV, com panorama correto das duas dimensões de reescrita e dois itens de múltipla escolha, mas sem resposta C/E como formato nativo. Contrasta com Português/01 ao reconhecer expressamente que uma frase menos informativa pode continuar verdadeira **sem conservar toda a informação**. Proposta: **manter como ponte multi-edital ou reduzir/fundir partes repetidas** após mapa de links e IDs; remeter para as unidades 32–34. Não desautorizar 10 como reutilização apenas porque foi criada para outra banca.
+
+**Português/32:** fornece um filtro gramatical independente de um filtro semântico, útil à preparação C/E; apresenta casos de *carecer/prescindir* e mudança de regência. **PT-006, importante:** §1 afirma que “cerca de um terço dos itens de Língua Portuguesa” da Câmara tem substituição lexical, sem amostra/corpus de prova do cargo e banca demonstrados. Afirmar percentual para este concurso de 2027 é injustificado. Remover quantificação ou anexar estudo reproduzível. **PT-007, pendente de fonte:** item 1 propõe troca de “Conquanto” por “Não obstante” mantendo diretamente oração com verbo no subjuntivo; verificar o estatuto sintático e as condições de substituição da locução sem acrescentar/remover “que” antes de homologar gabarito CERTO. Proposta: **manter com correções dirigidas**, validar todas as seis questões em gramáticas e contexto.
+
+**Português/33:** oferece transformações entre voz ativa/passiva, reorganização causal, nominalização e paralelismo, com seis itens C/E de base autoral. **PT-008, importante:** o §6, item 4, caracteriza como “espelhamento lógico perfeito” a conversão de oração de gerúndio (“permitindo...”) em oração “o que viabiliza...”; a transformação preserva plausivelmente o sentido central no exemplo, porém a referência causal e o alvo de “o que” precisam ser analisados no texto inteiro e não como equivalência universal. Proposta: **manter, ampliar teste de escopo e de referência com pares mínimos**. Itens não homologados.
+
+**Português/34:** reúne adequação, variação diafásica, transposição de discurso, padrão ofício e pronomes de tratamento, além de seis itens didáticos. **PT-009, importante:** §1 diz que a unidade “conclui integralmente” a trilha de 23/23 artigos; entrega editorial e suficiência substantiva do edital são proposições diferentes, e a auditoria encontrou pendências. **PT-010, importante:** o MRPR (manual do Executivo federal) é usado como referência normativa para ofícios internos da Câmara; conferir o **Manual de Redação da Câmara** e as regras próprias da Casa antes de converter recomendações do Executivo em obrigação universal do Legislativo. Proposta: **manter teoria de registros e discurso, distinguir normatização institucional por órgão** e relocalizar redação oficial como extensão contextual, quando exigida.
+
+### Síntese pedagógica do bloco
+
+A arquitetura preferível mantém a distinção de operações: (1) implicação lógica (*A* autoriza inferir *B*); (2) equivalência bidirecional (mesma informação); (3) correção morfossintática (oração bem formada); (4) equivalência pragmática (efeitos de foco, destinatário e gênero). Uma frase pode satisfazer uma sem satisfazer as demais. O artigo 10 já apresenta a distinção de perda informacional, enquanto o artigo 01 a dilui. Propor cartão comparativo e quatro pares mínimos, sem criar agora.
+
+**Próximo bloco:** auditar `02 - sujeito.md`, `22 - classes de palavras e suas funcoes no periodo.md`, `23 - termos essenciais integrantes e acessorios da oracao.md`, `24 - coordenacao relacoes sintaticas e semanticas.md` e `25 - subordinacao substantiva adjetiva e adverbial.md`; posteriormente itens de pontuação e concordância, outros artigos antigos e hub. Antes de certificar Português/32 item 1 e Português/34, cotejar fontes primárias gramaticográficas e manuais oficiais. **Nenhum arquivo de estudo, catálogo, link ou dado privado alterado nesta Fase 1.**

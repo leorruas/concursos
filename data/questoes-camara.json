@@ -4002,6 +4002,102 @@
       "statement": "Conhecer apenas o número de partidos registrados em um país basta para avaliar se o sistema partidário é institucionalizado.",
       "correctAnswer": "E",
       "explanation": "A institucionalização envolve aspectos como estabilidade da competição, raízes sociais e legitimidade. A contagem de registros não mede essas dimensões."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / Marketing e segmentação",
+      "conceptId": "segmentacao-comportamental",
+      "mechanism": "confundir-canal-usado-com-territorio",
+      "theoryRefs": [
+        "article:art-57d09c6e18ab432f#Quatro bases clássicas: geográfica, demográfica, psicográfica e comportamental"
+      ],
+      "statement": "Uma campanha agrupa usuários conforme tenham solicitado atendimento por telefone, pelo portal ou presencialmente. O critério é comportamental, pois se baseia na forma de uso do serviço.",
+      "correctAnswer": "C",
+      "explanation": "O agrupamento usa uma conduta observada. Uma segmentação geográfica usaria localização ou território."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / Marketing e segmentação",
+      "conceptId": "segmentacao-psicografica",
+      "mechanism": "confundir-atitude-com-demografia",
+      "theoryRefs": [
+        "article:art-57d09c6e18ab432f#Quatro bases clássicas: geográfica, demográfica, psicográfica e comportamental"
+      ],
+      "statement": "Agrupar respondentes pela importância que atribuem à privacidade dos dados constitui segmentação demográfica.",
+      "correctAnswer": "E",
+      "explanation": "O critério é uma atitude ou valor, característica da segmentação psicográfica. Idade e faixa de renda são exemplos de variáveis demográficas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / Marketing e segmentação",
+      "conceptId": "selecao-de-publico-alvo",
+      "mechanism": "separar-formacao-de-grupos-da-escolha",
+      "theoryRefs": [
+        "article:art-57d09c6e18ab432f#STP: segmentar, selecionar e posicionar"
+      ],
+      "statement": "Depois de identificar três grupos com necessidades distintas, uma equipe escolhe concentrar a primeira fase em quem enfrenta a maior barreira de acesso. Essa escolha corresponde à seleção do público-alvo.",
+      "correctAnswer": "C",
+      "explanation": "A segmentação já definiu os grupos. A etapa seguinte escolhe quais serão atendidos pela ação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / Marketing e segmentação",
+      "conceptId": "segmentacao-diferenciada",
+      "mechanism": "confundir-multicanal-com-adaptacao-por-segmento",
+      "theoryRefs": [
+        "article:art-57d09c6e18ab432f#Estratégias de cobertura: indiferenciada, diferenciada e concentrada"
+      ],
+      "statement": "Republicar a mesma mensagem genérica em três canais caracteriza, por si só, cobertura diferenciada de segmentos.",
+      "correctAnswer": "E",
+      "explanation": "Usar vários canais muda a distribuição. A cobertura diferenciada exige propostas ou abordagens ajustadas a grupos distintos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / Marketing e segmentação",
+      "conceptId": "segmentacao-em-comunicacao-publica",
+      "mechanism": "distinguir-adaptacao-de-restricao",
+      "theoryRefs": [
+        "article:art-57d09c6e18ab432f#Segmentação em comunicação pública: pluralismo e universalidade"
+      ],
+      "statement": "Uma instituição mantém as regras de inscrição disponíveis para todos e oferece também um guia em linguagem simples a quem precisa de apoio para preencher o formulário. Essa adaptação é compatível com acesso universal à informação.",
+      "correctAnswer": "C",
+      "explanation": "A ação reduz uma barreira para um grupo enquanto preserva o acesso geral às mesmas regras."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / Marketing e segmentação",
+      "conceptId": "segmentacao-e-evidencia",
+      "mechanism": "generalizar-perfil-sem-validacao",
+      "theoryRefs": [
+        "article:art-57d09c6e18ab432f#Pesquisa, dados e limites de inferência"
+      ],
+      "statement": "Em uma pesquisa com usuários do aplicativo, a maioria prefere receber avisos por notificação. Esse resultado basta para concluir que a mesma preferência predomina entre pessoas que nunca usaram o aplicativo.",
+      "correctAnswer": "E",
+      "explanation": "A coleta ouviu usuários do aplicativo. A preferência de quem está fora desse grupo exige evidência adicional."
     }
   ]
 }

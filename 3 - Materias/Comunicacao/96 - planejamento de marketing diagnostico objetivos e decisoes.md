@@ -5,7 +5,7 @@ title: "Planejamento de marketing: diagnóstico, objetivos e decisões"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Planejamento de marketing: diagnóstico, objetivos e decisões
@@ -169,6 +169,16 @@ Na Câmara, planejamento de marketing pode ser usado como **referência de anál
 **Item 3.** Na matriz BCG, estrelas possuem crescimento de mercado elevado e baixa participação relativa, enquanto pontos de interrogação apresentam alta participação relativa em mercados de crescimento baixo.
 
 **Gabarito: Errado.** Estrelas = alto crescimento e alta participação; pontos de interrogação = alto crescimento e baixa participação. O item troca critérios e quadrantes.
+
+## Conferência externa: Ansoff, BCG e diagnóstico (11/11/2026)
+
+A [BCG, apresentação oficial da matriz crescimento-participação](https://www.bcg.com/about/overview/our-history/growth-share-matrix), define *stars* por **alta participação relativa e alto crescimento**; *question marks*, por **baixa participação relativa e alto crescimento**; *cash cows*, por **alta participação e baixo crescimento**; e *pets/dogs*, por **baixa participação e baixo crescimento**. O **item 3 permanece Errado**, pois atribui quadrantes incorretos a estrelas e pontos de interrogação.
+
+A [OpenStax, seção de planejamento estratégico](https://openstax.org/books/principles-marketing/pages/2-1-strategic-planning), apresenta o uso da matriz produto-mercado de **Ansoff**: produto atual/mercado atual = penetração; produto atual/mercado novo = desenvolvimento de mercado; produto novo/mercado atual = desenvolvimento de produto; ambos novos = diversificação. O **item 2 permanece Errado** pelas trocas descritas. O **item 1 permanece Certo** sob a regra de diagnóstico: equipe interna qualificada pode ser força; alteração regulatória externa pode representar ameaça, dependendo do efeito concreto.
+
+**Exercício inédito (C/E):** “Na matriz BCG, o quadrante das estrelas combina alta participação relativa e alto crescimento de mercado, mas isso não demonstra, isoladamente, a adequação da estratégia a uma política de comunicação pública.” **Certo.**
+
+**Limite:** essas matrizes são referências gerenciais comerciais; o rótulo BCG não prova valor público, legalidade, participação ou resultado de comunicação. As fontes abertas sustentam as categorias descritas, não a obrigatoriedade de seu uso pela Câmara.
 
 ## Relações e heurísticas
 

@@ -879,3 +879,17 @@ Esta rodada acrescentou intervenções em **três artigos distintos**, todos ain
 **Fontes:** [IAB Brasil, CPP](https://glossarios.iabbrasil.com.br/glossario/cpp-custo-por-ponto/); [PMI, caminho crítico e folga](https://www.pmi.org/learning/library/critical-path-method-calculations-scheduling-8040); [AAPOR, boas práticas](https://aapor.org/standards-and-ethics/best-practices/); [Pew, fundamentos de pesquisa](https://www.pewresearch.org/course/public-opinion-polling-basics/).
 
 **Indicadores:** total de **54 artigos distintos com alguma modificação entre 128 arquivos inventariados (42,2%)**, frente a 51 anteriormente. Houve três itens C/E inéditos adicionais; não são reproduções de questões históricas da banca. A contagem provisória anterior de **67 itens com conferência dirigida** permanece inalterada até reconstrução por identificador único e fonte, apesar de itens terem sido analisados aqui. O percentual representa incidência de edição, não auditoria integral concluída. A próxima frente inclui fluxo de produção e controles do artigo 92, além de confrontar conteúdos com provas Cebraspe reais e revisar os demais artigos.
+
+
+## Registro: aprovação de campanhas, redação e dispositivos posteriores da Lei 12.232 (11/11/2026)
+
+**Dois artigos distintos receberam intervenção pela primeira vez nesta sequência**:
+
+| Artigo | Achado e mudança | Commit |
+| --- | --- | --- |
+| 92, produção, aprovação e controle | Três gabaritos cotejados com Ato da Mesa 218/2025 e Lei 12.232/2010 (Senado, texto atualizado); diferencia supervisão da execução externa da agência e fiscalização pelo contratante; inclui arts. **20-A e 20-B** acrescentados pela Lei 14.356/2022, ausentes da fundamentação anterior; um C/E inédito | [660f760](https://github.com/leorruas/concursos/commit/660f7601f1c0a688efe596de8abb60491336da4c) |
+| 93, redação publicitária | Confronto de três gabaritos com Ato 218/2025 (arts. 7º, 9º e 11) e recomendações W3C; distinção entre concisão e omissão de informação procedimental relevante; um C/E inédito | [cd9f923](https://github.com/leorruas/concursos/commit/cd9f9238be19543cbfeaa3fd7230a9da33574985) |
+
+**Fontes primárias e oficiais conferidas:** [Ato da Mesa 218/2025, publicação original](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), [Lei 12.232/2010, texto atualizado do Senado](https://legis.senado.gov.br/norma/575874/publicacao/35916945), [W3C, Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/). A publicação original do Ato traz aparente erro material em art. 7º, XVII, ao mencionar “Lei 13.079” ao identificar a LGPD, cujo número correto é **13.709/2018**. Não foi identificada/afirmada retificação formal. O artigo 92 registra a distinção.
+
+**Indicadores acumulados:** **56 artigos distintos modificados de 128 inventariados (43,75%)**, ante 54; adicionados dois C/E inéditos, sem equivalência com provas reais da Cebraspe. Seis gabaritos existentes foram examinados: no 92, três receberam cotejo direto em norma; no 93, dois tiveram apoio normativo direto (itens 1 e 3) e um cotejo conceitual profissional (item 2). O índice provisório histórico de **67 itens com conferência dirigida** permanece inalterado para evitar incrementos sobre base sem identificadores e desduplicação auditável. **56/128 mede incidência de edição, não revisão integral concluída.** Persistem trabalhos de fontes autorais, avaliação do restante do inventário e confronto sistemático com questões reais.

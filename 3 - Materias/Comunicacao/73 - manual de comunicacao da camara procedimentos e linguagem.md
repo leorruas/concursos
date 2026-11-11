@@ -5,7 +5,7 @@ title: "Manual de Comunicação da Câmara: critérios editoriais, linguagem e p
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Manual de Comunicação da Câmara: critérios editoriais, linguagem e procedimentos
@@ -137,6 +137,28 @@ O Manual possui seção específica de [“Proibições dos períodos eleitorais
 O [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|CAM-CO-026]] detalha **princípios, objetivos, requisitos, competências e vedações** da política normativa. Esta unidade registra **como áreas e profissionais orientam a produção**. [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria|CAM-CO-025]] explica a distinção entre institucional, pública e político-partidária. [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|CAM-CO-024]] relaciona publicação de informação e dever legal de transparência.
 
 **Heurísticas de prova:** “o que deve reger a instituição” sugere o **Ato nº 218/2025**; “como redigir, contextualizar e distribuir” sugere o **Manual**; “como se administram perfis” remete ao **Ato nº 244/2018**; “como orientar jornalistas e releases” remete à **Assessoria**; “como noticiar processos legislativos” remete à **Agência**; “como usar IA” exige distinguir diretrizes do Manual e normas posteriores. Trocar uma atribuição de área por outra pode tornar o item falso mesmo quando a atividade descrita é legítima na Câmara.
+
+## Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026
+
+O **Anexo I da Ordem de Serviço Direx nº 1/2026** apresenta um fluxo específico de sinalização para conteúdos **textuais e imagens**. É preciso separar o uso auxiliar de IA da geração da primeira versão do conteúdo:
+
+1. **IA não participou:** não há sinalização de uso de IA.
+2. **IA apenas revisou, corrigiu, transcreveu, traduziu ou organizou material de apoio:** o fluxograma dispensa a sinalização.
+3. **IA gerou a primeira versão, seguida apenas de aprovação ou pequenas correções humanas:** identificar como **“Gerado por IA”**.
+4. **IA gerou a primeira versão e houve intervenção humana efetiva no conteúdo, com decisão editorial, apuração, mudança de enfoque ou hierarquia ou contextualização:** identificar como **“Feito com suporte de IA”**.
+
+**Casos de fronteira:** transcrever uma audiência para apoiar a apuração se enquadra como tarefa auxiliar; usar a transcrição para gerar uma notícia inicial exige examinar a intervenção editorial posterior. A mera correção ortográfica de notícia gerada não equivale à apuração e reestruturação da matéria. Traduzir material de apoio é distinto de produzir com IA a primeira versão de um texto principal.
+
+A decisão de sinalização compete ao **gestor do veículo**, com base no fluxo informado pelo produtor, conforme o art. 4º, § 2º, da ordem. O **art. 4º, III** estabelece tratamento específico para conteúdo audiovisual, com créditos, descrição ou marca d'água conforme a hipótese; não se deve transportar automaticamente o fluxograma do Anexo I para todas as situações de áudio e vídeo. Sinalizar a utilização de IA não certifica precisão factual, direitos de uso, impessoalidade ou aprovação editorial.
+
+**Treino C/E inédito, elaborado a partir do fluxo normativo:**
+
+- **Item A:** Se a IA foi utilizada exclusivamente para transcrever uma gravação que serviu de material de apoio, o fluxograma do Anexo I exige a marca “Gerado por IA”. **Errado.** O uso auxiliar de transcrição está dispensado da sinalização nesse fluxo.
+- **Item B:** Se a IA gerou o primeiro texto e a equipe apenas aprovou sua publicação com correções pontuais, a marca prevista é “Gerado por IA”. **Certo.** Pequenas correções não representam intervenção editorial efetiva.
+- **Item C:** Se o primeiro texto foi gerado por IA, mas a equipe apurou fatos, reorganizou a hierarquia e alterou efetivamente o enfoque, o fluxo prevê “Feito com suporte de IA”. **Certo.** O critério é a intervenção humana substantiva.
+- **Item D:** O produtor decide sozinho e de maneira definitiva se a peça terá aviso de uso de IA. **Errado.** A norma atribui a decisão ao gestor do veículo conforme informação do produtor.
+
+**Fontes oficiais:** [Ordem de Serviço Direx nº 1/2026, texto publicado](https://www2.camara.leg.br/legin/int/ordser/2026/ordemdeservico-1-11-setembro-2026-799917-publicacaooriginal-181316-direx.html) e [Anexo I, fluxograma oficial em PDF](https://www2.camara.leg.br/legin/int/ordser/2026/ordemdeservico-1-11-setembro-2026-799917-anexo-direx.pdf). Esta seção responde à lacuna identificada na auditoria da Câmara 2026, Fase 1; a verificação integral dos demais dispositivos e normas complementares continua aberta.
 
 ## Fontes e delimitação editorial
 

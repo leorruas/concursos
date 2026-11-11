@@ -5,7 +5,7 @@ title: "Monitoramento, dados e avaliação de campanhas"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Monitoramento, dados e avaliação de campanhas
@@ -148,6 +148,14 @@ A **LGPD** exige finalidade, necessidade, adequação, transparência, seguranç
 **Item 3.** O rastreamento de conversões realizado pela plataforma de anúncios permite atribuir causalmente à campanha a totalidade das inscrições registradas, independentemente de outras mudanças no serviço e de diferenças entre os usuários expostos e não expostos.
 
 **Gabarito: Errado.** A atribuição operacional da plataforma não isola necessariamente confundimento, seleção nem intervenções simultâneas. A causalidade exige desenho apropriado.
+
+## Conferência documental AMEC: out-takes não são outcomes (11/11/2026)
+
+A página oficial do [Integrated Evaluation Framework da AMEC](https://amecorg.com/amecframework/) diferencia **outputs** (material e exposição), **out-takes** (atenção, lembrança, entendimento inicial, engajamento com comunicação), **outcomes** (efeitos sobre atitudes, confiança, preferências, intenções e comportamentos) e **impact** (contribuição para objetivos organizacionais e sociais). O [material oficial de planejamento](https://amecorg.com/amecframework/home/supporting-material/planning/) registra “understanding” tanto como resposta inicial em out-takes quanto como possível **aumento de entendimento** associado a outcomes. A classificação deve explicitar **quando e como o entendimento foi medido**.
+
+**Item 1 preexistente: Certo, confirmado** na separação entre produtos/exposição e efeitos no público. **Item 2: Errado, confirmado por operação:** 40% para 55% é **+15 pontos percentuais** ou **+37,5% relativamente**, pois (55−40)/40 = 0,375. **Item 3: Errado, coerente com a diferença entre atribuição de eventos e identificação causal; não foi certificado por estudo específico de causalidade nesta verificação.**
+
+**C/E inédito:** “Atingir uma meta de alcance da campanha é, na AMEC, evidência suficiente de impacto social, mesmo sem dados sobre mudanças no público e objetivos institucionais.” **Errado.** Alcance descreve distribuição; impacto requer evidências de contribuição para resultados de nível mais amplo. A AMEC é referencial profissional, sem força normativa automática sobre a Câmara.
 
 ## Relações e heurísticas
 

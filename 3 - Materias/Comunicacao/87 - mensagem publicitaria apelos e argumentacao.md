@@ -5,7 +5,7 @@ title: "Mensagem publicitária: apelos, argumentos e provas"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Mensagem publicitária: apelos, argumentos e provas
@@ -150,6 +150,16 @@ O **Código de Defesa do Consumidor** distingue publicidade enganosa e abusiva e
 **Item 3.** A chamada para ação integra a construção da mensagem e pode indicar o comportamento desejado, mas não substitui a definição de objetivo nem a avaliação de se o público compreendeu a informação e executou a ação.
 
 **Gabarito: Certo.** CTA é componente da peça; objetivo e avaliação pertencem ao planejamento da campanha.
+
+## Auditoria da fonte clássica: meios de persuasão e evidência (11/11/2026)
+
+A [Stanford Encyclopedia of Philosophy, *Aristotle's Rhetoric*, seções 2 e 5](https://plato.stanford.edu/entries/aristotle-rhetoric/) identifica três **meios técnicos de persuasão** (*pisteis*) no discurso: **êthos** (caráter/credibilidade transmitidos pelo orador), **páthos** (estado emocional suscitado no ouvinte) e **lógos** (argumento). Não são etapas sucessivas de uma campanha, nem classes que proíbam coexistência na mesma peça. A SEP distingue esses meios construídos pelo discurso de **provas não técnicas**, como testemunhas e documentos já disponíveis, embora estes possam ser usados na argumentação.
+
+**Confronto dos três itens inéditos preexistentes:** **item 1: Certo**, diretamente compatível com a tripartição aristotélica; **item 2: Errado**, porque uma estatística não dispensa fonte, contexto e qualidade da inferência e não se torna prova suficiente apenas pela forma quantitativa. **Ressalva:** a SEP não formula regras atuais de auditoria estatística nem da publicidade institucional; o juízo envolve princípios de validade de evidências. **Item 3: Certo** pela distinção didática entre CTA, objetivo e avaliação; **CTA não integra a taxonomia original de Aristóteles**, e o item não deve ser apresentado como questão de exegese da *Retórica*.
+
+**Novo item C/E inédito:** “Como Aristóteles distingue êthos, páthos e lógos, uma campanha que mobilize emoção deixa necessariamente de empregar argumentos racionais.” **Errado.** Os meios podem coexistir no mesmo discurso.
+
+**Conexão com prova real, sem nova contagem:** o [CNMP 2023, item 72, Errado](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md) cobrou generalização sobre retórica, lógica e opiniões preexistentes. Essa questão histórica já está no corpus e **não é** o exercício novo acima.
 
 ## Relações com outros temas e heurísticas
 

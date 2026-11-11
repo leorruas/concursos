@@ -5,7 +5,7 @@ title: "Planejamento de comunicação"
 type: "conceito"
 status: "ativo"
 created: 2026-07-22
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Planejamento de comunicação
 
@@ -80,6 +80,18 @@ A mesma pesquisa que ajudou a formar o diagnóstico pode voltar em outros moment
 **Efetividade** desloca o olhar para efeitos mais amplos ou duradouros na realidade organizacional ou social. Pergunta típica: `a mudança contribuiu de forma sustentada para reduzir erros e melhorar o acesso ao serviço?`
 
 A pegadinha está em deslocar uma afirmação verdadeira para a categoria errada. Uma campanha pode ser eficiente e ineficaz: pode cumprir cronograma e orçamento e, ainda assim, não alcançar o objetivo de comunicação.
+
+## Auditoria de objetivos, avaliação e causalidade: AMEC (11/11/2026)
+
+O [Integrated Evaluation Framework da AMEC](https://amecorg.com/amecframework/) propõe planejar a partir de **objetivos, públicos, situação de partida, indicadores e metas**, distinguindo **outputs, out-takes, outcomes e impactos**. A [orientação de planejamento da AMEC](https://amecorg.com/amecframework/home/supporting-material/planning/) esclarece uma nuance importante para não criar um gabarito falso: **objetivos de comunicação podem ser formulados em diferentes níveis, inclusive de *output***, desde que se deixe explícito o objeto da medição. Assim, “produzir dez vídeos” pode funcionar como **meta de entrega/objetivo operacional de produção**, embora **não seja evidência de que o cidadão compreendeu o assunto**. A expressão “objetivo” precisa ser acompanhada do **nível de análise**: institucional, comunicacional, de campanha, de entrega ou de distribuição.
+
+**Confronto com o texto acima:** a afirmação inicial de que “objetivos definem resultado desejado” é útil quando a pergunta pede **efeitos pretendidos no público**, mas seria excessiva como regra aplicável a **todos** os esquemas de gestão. A diferença metodológica central não é proibir a palavra *objetivo* para qualquer entrega; é **impedir que uma meta de produção seja tomada como resultado de compreensão, participação ou impacto**. A sequência diagnóstico → objetivos → estratégia → táticas → indicadores → avaliação constitui **representação didática**, pois avaliação e redefinição de indicadores podem atravessar todas as fases. A AMEC não exige que os indicadores só sejam definidos ao término da execução.
+
+**Causalidade:** aumento de inscrições após campanha pode resultar também de mudança de calendário, abertura de vagas, melhoria do formulário ou divulgação por terceiros. Uma medição antes/depois registra variação, mas sem desenho de avaliação apropriado não isola a contribuição da ação. Eficiência (uso de recursos), eficácia (alcance de objetivo delimitado) e efetividade/impacto (efeitos mais amplos) exigem **definição operacional no contexto**, sem uma equivalência única entre os termos em todas as metodologias.
+
+**Três C/E inéditos:** **(1)** “A produção de dez vídeos demonstra que a campanha aumentou a compreensão do procedimento pelo cidadão.” **Errado.** Entrega não é prova de entendimento. **(2)** “Um plano pode estabelecer metas de entrega e também objetivos de efeitos no público, desde que os indicadores não confundam esses níveis.” **Certo.** A AMEC admite objetivos e indicadores em diferentes níveis. **(3)** “Se a participação aumentar depois de uma campanha, fica demonstrado que a campanha causou toda a variação, ainda que o serviço tenha sido alterado no mesmo período.” **Errado.** Há causas concorrentes.
+
+**Conexão histórica sem incremento do corpus:** [Correios 2011, item 81 C](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md), já verificado, reconhece a avaliação da campanha também do ponto de vista da recepção. O item não autoriza inferir efetividade só pela existência de uma peça ou métrica de alcance.
 
 ## Relações com outros temas
 

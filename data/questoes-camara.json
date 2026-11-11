@@ -4962,6 +4962,102 @@
       "statement": "Uma despesa regularmente empenhada e liquidada em dezembro continua sem pagamento em 31 de dezembro. Quando inscrita em restos a pagar, é classificada como processada.",
       "correctAnswer": "C",
       "explanation": "A liquidação já ocorreu. O que resta é o pagamento, característica dos restos a pagar processados."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "restos-a-pagar-nao-processados",
+      "mechanism": "confundir-empenho-com-liquidacao",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Restos a pagar: condição e espécie"
+      ],
+      "statement": "Uma despesa chega ao encerramento do exercício regularmente empenhada, ainda sem liquidação nem pagamento. Se inscrita em restos a pagar, integra os não processados.",
+      "correctAnswer": "C",
+      "explanation": "A classificação depende da liquidação. Como essa etapa ainda não ocorreu, a inscrição é em restos a pagar não processados."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "restos-a-pagar",
+      "mechanism": "confundir-dotacao-com-empenho",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Restos a pagar: condição e espécie"
+      ],
+      "statement": "Uma ação termina o ano com R$ 80 mil de dotação que nunca foram empenhados. Esse saldo deve ser inscrito em restos a pagar apenas porque a dotação estava disponível.",
+      "correctAnswer": "E",
+      "explanation": "O art. 36 exige despesa empenhada e ainda não paga. O saldo de dotação sem empenho não atende à condição."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "despesas-de-exercicios-anteriores",
+      "mechanism": "distinguir-reconhecimento-de-inscricao",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Despesas de Exercícios Anteriores (DEA): art. 37"
+      ],
+      "statement": "Um compromisso só é reconhecido após o encerramento do exercício a que se refere e se enquadra no art. 37 da Lei nº 4.320/1964. Seu pagamento pode correr por dotação específica do orçamento vigente.",
+      "correctAnswer": "C",
+      "explanation": "O art. 37 admite o pagamento à conta de dotação específica para as hipóteses que prevê, inclusive compromisso reconhecido após o encerramento."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "despesas-de-exercicios-anteriores",
+      "mechanism": "classificar-apenas-pelo-ano-do-pagamento",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Despesas de Exercícios Anteriores (DEA): art. 37"
+      ],
+      "statement": "Uma despesa inscrita regularmente em restos a pagar é quitada no exercício seguinte pela própria inscrição. O ano do pagamento torna a despesa automaticamente uma despesa de exercícios anteriores.",
+      "correctAnswer": "E",
+      "explanation": "O pagamento ocorreu pela inscrição em restos a pagar. Despesa de exercícios anteriores tem hipóteses próprias e usa dotação específica do orçamento vigente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "suprimento-de-fundos",
+      "mechanism": "identificar-adiantamento",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Suprimento de fundos: adiantamento excepcional"
+      ],
+      "statement": "Entregar numerário a um servidor, precedido de empenho, para realizar despesa que não pode seguir o processo normal é compatível com o regime de adiantamento previsto na Lei nº 4.320/1964.",
+      "correctAnswer": "C",
+      "explanation": "O art. 68 caracteriza o regime pela entrega de numerário a servidor, precedida de empenho, para despesa nas condições legais."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "suprimento-de-fundos",
+      "mechanism": "dispensar-empenho-por-excepcionalidade",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Suprimento de fundos: adiantamento excepcional"
+      ],
+      "statement": "A natureza excepcional do regime de adiantamento permite entregar numerário ao servidor antes do empenho na dotação própria.",
+      "correctAnswer": "E",
+      "explanation": "O art. 68 exige empenho na dotação própria antes da entrega do numerário."
     }
   ]
 }

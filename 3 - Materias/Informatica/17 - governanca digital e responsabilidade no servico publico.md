@@ -176,9 +176,9 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 1. **Tríade de Assinaturas (Lei nº 14.063/2020)**:
    - **Simples**: login/senha, SMS, ouvidoria.
    - **Avançada**: gov.br Prata/Ouro, processos administrativos comuns.
-   - **Qualificada**: **ICP-Brasil obrigatório**, atos solenes, chefia de poder, imóveis.
+   - **Qualificada**: utiliza certificado ICP-Brasil; exigida nos casos expressos da lei, como atos assinados por chefes de Poder e certas transferências e registros imobiliários, **respeitadas exceções legais**.
 2. **LAI $\times$ LGPD**:
-   - Transparência salarial de servidor = **PÚBLICA (LAI prevalece)**.
+   - Divulgação nominal de remuneração de agentes públicos = **em geral admitida pela jurisprudência e pela transparência ativa**, com proteção de dados não pertinentes; LAI e LGPD devem ser aplicadas em conjunto.
    - Dados íntimos/sensíveis/bancários do servidor = **Sujeitos à proteção de dados pessoais e às restrições legais de acesso**, conforme contexto; não há prevalência automática de uma lei sobre a outra.
 3. **Lei do Governo Digital (Lei nº 14.129/2021)**:
    - Governo não pode pedir documento que ele mesmo já tem (*Once-Only*).

@@ -31,6 +31,23 @@ try {
   assert.equal(corrected.questions[0].result,'correct');
   assert.equal(corrected.simulations[0].status,'concluido');
   assert.equal(prepare(root).operations.length,0);
+  // Sessões mistas preservam a disciplina original e classificam itens individualmente.
+  const mixed = structuredClone(s);
+  mixed.id = 'cgu-2026-2026-11-03-diagnostico-misto-teste';
+  mixed.schemaVersion = 2;
+  mixed.subjectId = 'diagnostico-misto';
+  mixed.unitId = 'diagnostico-misto';
+  mixed.learning = {stage:'aprendizagem',taughtConcepts:['revisão mista'],boundaries:[],pending:[],unitCompleted:false,next:{unitId:'diagnostico-misto',stage:'revisao',objective:'Revisar conceitos',sourceIds:['edital']}};
+  mixed.questions[0].subjectId = 'auditoria-governamental';
+  mixed.questions[0].unitId = 'u06';
+  mixed.questions[0].discipline = 'Nome original distinto';
+  mixed.questions.push({...structuredClone(mixed.questions[0]),number:2,discipline:'Disciplina extracurricular',subjectId:undefined,unitId:undefined,userAnswer:'C',correctAnswer:'C',errorType:null,theoryRefs:[]});
+  const mixedLedger = mergeSessions(ledger,[mixed]);
+  assert.equal(mixedLedger.questions[0].subjectId,'auditoria-governamental');
+  assert.equal(mixedLedger.questions[0].discipline,'Nome original distinto');
+  assert.equal(mixedLedger.questions[1].subjectId,null);
+  assert.equal(mixedLedger.questions[1].unitId,null);
+  assert.equal(mixedLedger.questions.length,2);
   const original = '# Título\n\nHistórico.';
   const first = managedBlock(original,'Um');
   const second = managedBlock(first,'Dois');

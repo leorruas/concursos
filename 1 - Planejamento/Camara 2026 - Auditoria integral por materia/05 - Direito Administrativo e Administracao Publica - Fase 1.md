@@ -821,3 +821,55 @@ Construir **síntese executiva única da frente** com prioridades P0/P1/P2 por s
 | **G5: decisão editorial final** | Separar erros jurídicos comprovados e materiais com ressalva; marcar itens não homologados e seguir protocolo para eventual autorização da reorganização | Relatório de encerramento com limitações, encaminhamentos e status aprovado explícito; nenhuma migração automática |
 
 **Classificação formal do estado desta frente em 11/11/2026: \`FASE 1 EM CURSO: diagnóstico consolidado, certificação individual pendente\`.** O bloco 19 é uma **revisão de governança editorial**, não adiciona achados DA numerados nem declara o reconhecimento de 81 erros. Permanecem **DA-001 a DA-081**: erros demonstrados, omissões, ressalvas metodológicas e verificações positivas, sem percentuais fictícios de segurança. Nenhuma mudança nos artigos de estudo, nos IDs, nas questões ou nas outras frentes. Próximo bloco, caso a Fase 1 continue: inventário individual e verificação das questões DA/AP ainda não homologadas, priorizando P0 e subitens do edital sem treino.
+
+
+## Bloco 20: auditoria individual dirigida de 24 questões nos artigos DA18, DA19, DA25 e DA26 (11/11/2026)
+
+**Escopo/limite real:** foram lidas **seis questões com enunciado, gabarito e comentário de cada um de quatro arquivos**, total de **24 itens autorais inéditos**. Arquivos: \`DA18 - parecer administrativo natureza tipos e responsabilidade do parecerista.md\` (SHA \`2cefab5e93ef2898fdea45e3977a469123e81266\`); \`DA19 - requisicao cessao e movimentacao de agentes publicos.md\` (SHA \`319acec19201690352f000524e686112d29e0a5e\`); \`DA25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md\` (SHA \`65a6ce2ff4ef7a44aef310771be1fcc9e01c3f33\`); \`DA26 - lei 9784 impedimento suspeicao motivacao e recursos.md\` (SHA \`fcbc3b54a1cdac847d03b44eb417481ed5b3cdd0\`). **Cotejo dirigido da legislação para enunciados decisivos**: [Lei 8.112, arts. 93 e 102, texto da Câmara](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html); [Lei 9.784, arts. 12–15, 49-A, 50, 57–65, texto oficial](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm); LC 73/1993 art. 40 e LINDB art. 28, cujas condições devem ser preservadas. **Não classificar como homologação jurídica exaustiva** das 24 questões nem substituir a Fase 1 por correções. Os artigos DA20–24 também foram recuperados e inspecionados parcialmente, mas **suas questões não estão nesta matriz individual de 24**.
+
+### Matriz individual de enunciado, gabarito e justificação
+
+**C = gabarito original CERTO; E = ERRADO; “coerente” = cotejo dirigido sem inversão demonstrada; “ressalva” = comentário ou pressuposto pede correção/fonte.**
+
+| Arquivo | Questão | Gabarito original | Auditoria dirigida |
+| --- | --- | --- | --- |
+| DA18 | 1 | E | **Ressalva grave**: enunciado de responsabilidade automática é falso; comentário limita responsabilidade do parecerista **“somente”** a dolo/conluio, omitindo **erro grosseiro** (LINDB art. 28). Gabarito defensável, **fundamentação incorreta/incompleta** |
+| DA18 | 2 | E | Coerente quanto à não vinculação automática de parecer obrigatório; comentário afirma **controle jurídico sempre obrigatório**, sem ressalvas do art. 53 §5º Lei 14.133, já apontadas DA-010 |
+| DA18 | 3 | E | Coerente para tese minoritária fundamentada não constituir, só por ser minoritária, erro grosseiro; cotejo seletivo |
+| DA18 | 4 | C | **Ressalva de escopo**: parecer da AGU aprovado pelo Presidente e publicado tem eficácia vinculante na **Administração Federal do Poder Executivo**; a redação “toda a Administração Pública Federal direta e indireta” pode sugerir vincular também os órgãos do Legislativo/Judiciário da União. Conferir LC 73 art. 40 e âmbito antes de homologar literalidade |
+| DA18 | 5 | C | Núcleo coerente para parecer meramente opinativo sem efeito lesivo autônomo; ressalvar atos e pareceres com efeitos decisórios concretos |
+| DA18 | 6 | E | Núcleo coerente: parecer favorável não exonera gestor automaticamente; comentário generaliza **solidariedade** em casos de parecer ruim sem requisitos individuais; ressalva DA-011 |
+| DA19 | 1 | E | Núcleo plausível de requisição legal eleitoral cogente, mas exigências legais de competência, hipótese, limites e prazo não foram individualmente validadas |
+| DA19 | 2 | C | Núcleo art. 93 I/II Lei 8.112 coerente, ressalvados regimes específicos de movimentação |
+| DA19 | 3 | E | Coerente no art. 93 §1º para hipótese de cessão a município; comentário sobre **reembolso mensal integral sempre** depende de regime e fatos e não é integralmente certificado |
+| DA19 | 4 | E | **Ressalva de fundamento**: comentário usa **art. 102 II Lei 8.112** para afirmar que **qualquer requisição** equivale a efetivo exercício. O inciso II trata de **cargo em comissão ou equivalente**, não é regra universal de toda requisição. E pode continuar correto no caso descrito, mas exige fonte legal específica |
+| DA19 | 5 | C | Comparação geral cessão consensual/requisição impositiva plausível; ressalvar exceções e diferença com movimentação de pessoal (DA-036) |
+| DA19 | 6 | E | A competência sancionatória para **demitir do cargo federal** não migra automaticamente ao tribunal estadual cessionário. Comentário é amplo ao restringir apuração na entidade cessionária; reexaminar atribuições em cada esfera, sem inverter gabarito |
+| DA25 | 1 | E | Coerente Lei 9.784 art. 12: delegação **dispensa** hierarquia |
+| DA25 | 2 | C | Coerente Lei 9.784 art. 13: atos normativos, recursos, competência exclusiva não delegáveis |
+| DA25 | 3 | E | Coerente Lei 9.784 art. 14 §3º e Súmula STF 510: ato praticado por delegação é atribuído ao delegado |
+| DA25 | 4 | E | Núcleo coerente da avocação excepcional no art. 15; regra relativa a competência exclusiva precisa ser respaldada por interpretação pertinente, além do art. 15 isolado |
+| DA25 | 5 | C | Coerente Lei 9.784 arts. 2º e 29: impulsão oficial não depende de pedido da parte |
+| DA25 | 6 | E | Coerente vedação do art. 49-A §1º para licitação e processo relacionado ao poder sancionador |
+| DA26 | 1 | E | Coerente distinção arts. 18–20: dever de comunicação e falta grave de **impedimento**, não atribuição automática à suspeição |
+| DA26 | 2 | C | Coerente art. 50 §1º: motivação por concordância com parecer anterior |
+| DA26 | 3 | E | Coerente art. 61: recurso sem efeito suspensivo como regra, com possibilidade de concessão |
+| DA26 | 4 | C | Coerente art. 57 (até três instâncias **salvo disposição legal diversa**) e art. 59 (10 dias **salvo lei específica**); a ressalva literal do art. 57 merece ser anotada, mas não inverte automaticamente item |
+| DA26 | 5 | E | Coerente arts. 64 e 65: recurso pode agravar após prévia ciência; revisão sancionadora não pode |
+| DA26 | 6 | C | Coerente STF SV 21, depósito/arrolamento prévios indevidos para admissibilidade de recurso administrativo |
+
+**Resultado verificável:** 24 enunciados, 24 gabaritos e comentários confrontados seletivamente com dispositivos pertinentes; **nenhuma nova inversão de gabarito confirmada** nesta amostra. **Não tratar “coerente” como certificado exaustivo**. Existem **reservas substanciais** em DA18#1/#2/#4/#6 e DA19#1/#3/#4/#5/#6, além de nota contextual em DA25#4 e DA26#4. Outros 6 artigos recuperados (DA20–24) exigem segunda rodada individual de questões e fontes.
+
+### Achados novos
+
+**DA-082, IMPORTANTE, comentário que contradiz LINDB art. 28.** \`DA18\`, **questão 1**, responde **Errado** à responsabilização solidária automática por parecer facultativo, mas o comentário diz que o parecerista “**somente** pode ser responsabilizado” por dolo/conluio, eliminando **erro grosseiro** do art. 28 da LINDB. O texto da própria DA18#3 explica a categoria. **Correção Fase 2:** preservar o gabarito E, expor hipótese de dolo ou erro grosseiro, contexto de controle e nexo, evitar imunidade total de parecer facultativo e ajustar comentário conforme jurisprudência.
+
+**DA-083, IMPORTANTE, âmbito de parecer presidencial da AGU.** \`DA18\`, **questão 4**, marca **Certo** para parecer da AGU aprovado pelo Presidente vincular “toda a Administração Pública Federal direta e indireta”. A vinculação prevista na **LC 73 art. 40**, aprovada e publicada, diz respeito à **Administração Federal sob autoridade do Executivo**, sem vinculação indistinta dos órgãos do Congresso/STF. A redação atual, em prova para **Câmara dos Deputados**, é **potencialmente ambígua**, e exige delimitar o alcance antes de homologar C. Não inverter por inferência: confrontar dispositivo e precedentes.
+
+**DA-084, IMPORTANTE, base legal inadequada para requisição.** \`DA19\`, **questão 4**, gabarito E pode ser defensável, porém o comentário afirma que **art. 102, II, da Lei 8.112** considera tempo **em qualquer requisição regular** como efetivo exercício. O inciso II refere-se expressamente ao **exercício de cargo em comissão ou equivalente** em órgão/entidade dos entes e Poderes, e não enuncia requisição em geral. [Texto atual, art. 102](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html). A análise futura deve identificar base de afastamento específico e efeitos para promoção/aposentadoria sem afirmação totalizante.
+
+**DA-085, MELHORIA, separar o critério de homologação de questões e comentários.** Neste lote, **DA18#1** demonstra por que “gabarito E correto” não autoriza “item plenamente validado”: a justificação ensina regra incompleta. Classificar individualmente **gabarito**, **clareza do enunciado**, **fundamento do comentário**, **vigência da fonte** e **alcance institucional**. Dar prioridade aos trechos de parecerista (DA18) e movimentação de pessoal (DA19); DA25/26 têm coerência aparente maior neste teste dirigido, mas não foram certificados em todo o suporte doutrinário e jurisprudencial.
+
+### Próximo lote obrigatório
+
+Inventariar e verificar **todas as questões de DA20–24** com comentários e dispositivos da Lei 8.112 e jurisprudência de 2026. Depois estender a outros 17 artigos DA e três AP não certificados, sem contar novamente as questões identificadas em rodadas anteriores como se fossem novas. Corrigir somente a partir da Fase 2 autorizada. O estado formal segue **“Fase 1 em curso, diagnóstico consolidado, certificação individual pendente”**.

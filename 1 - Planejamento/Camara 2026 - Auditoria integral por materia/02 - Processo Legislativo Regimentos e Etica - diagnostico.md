@@ -1420,3 +1420,10 @@ O inventário e as baterias permanecem **29/29 arquivos e 297 enunciados C/E com
 ### Status após bloco 30
 
 Permanecem **29 arquivos únicos** e **297 exercícios C/E examinados em grau variável** (dez itens DC30 rechecados aqui, sem adicionar dez ao total acumulado). Indicador paralelo verificado no relatório: **16/29 artigos editados, DC29 como único certificado formalmente com escopo datado** no último checkpoint consultado. **Estimativa qualitativa deste diagnóstico: ~94% realizado e ~6% restante**; percentual descreve fechamento das questões de risco identificadas, **não** certificação jurídica dos 29 arquivos. As lacunas P0 de DC34 continuam a bloquear o fechamento seguro; demais riscos: fonte/versão, mapeamento CAM-PL e validação de diagramas. **Nenhum artigo de estudo alterado por esta rodada.**
+
+
+### DC30: condições expressas dos arts. 90 e 100 aplicadas aos casos (11/11/2026)
+
+**Correção confirmada e publicada no DC30:** commit `c414f94dd77902ef24924bcfa7b45c1b1b409dc6`. Na conferência do [Regimento Comum consolidado, art. 90, § 3º, V, e art. 100](https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-171822-pl.html), foram explicitadas duas condições: **(a)** o relator da comissão mista deve fazer **referência expressa** ao ponto de vista da comissão permanente, ainda que não o acolha; **(b)** a falta de parecer da comissão mista demanda **publicação das emendas antes da convocação da sessão conjunta e designação de relator para parecer oral**. Essas condições foram inseridas no conteúdo principal, nos casos **G e H**, e nos comentários das questões **7 e 9**, sem mudança dos gabaritos.
+
+**Limite honesto:** o DC30 ainda requer conferência integral da aplicação das normas especiais de orçamento e possíveis ajustes normativos posteriores. **Não certificado** nesta etapa; **16/29 artigos editados** e **1/29 certificado** (DC29). O número de artigos editados não muda porque o DC30 já estava contabilizado.

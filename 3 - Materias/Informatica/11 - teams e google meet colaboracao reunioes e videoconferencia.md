@@ -118,7 +118,7 @@ Uma reunião de trabalho foi gravada no Google Meet. O servidor que participou c
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** Essa é a arquitetura técnica exata do Teams: cada equipe (*Team*) criada no Teams gera automaticamente um site e uma biblioteca de documentos correspondente no **SharePoint Online**, onde residem todos os arquivos dos canais.
+**Comentário:** Em **canais padrão** do Microsoft Teams, arquivos compartilhados ficam na biblioteca de documentos do **SharePoint Online** associado à equipe. Canais privados ou compartilhados podem envolver sites próprios; o enunciado limita corretamente seu escopo aos canais padrão.
 
 ---
 
@@ -129,7 +129,7 @@ Uma reunião de trabalho foi gravada no Google Meet. O servidor que participou c
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** Privilégios de moderação crítica — como desativar o microfone do anfitrião, admitir pessoas na sala de espera (*Lobby*) e encerrar a chamada em definitivo para todos os participantes — são exclusivos do **Organizador** (*Host*) e dos **Co-organizadores** (*Co-hosts*).
+**Comentário:** Participantes comuns do Google Meet **não têm, por padrão, os controles de anfitrião** para encerrar a reunião para todos nem para administrar os demais participantes. Os controles concretos dependem de funções, licenças e configurações; a expressão “autorização regimental” do enunciado é inadequada para um recurso de software, mas o núcleo da afirmação continua ERRADO.
 
 ---
 
@@ -162,7 +162,7 @@ Uma reunião de trabalho foi gravada no Google Meet. O servidor que participou c
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** A gravação é processada em nuvem e salva no **Google Drive do organizador**, na pasta **Google Meet** e na subpasta da reunião. Conforme o serviço, participantes podem receber atalhos, links ou permissões de acesso, sem que o arquivo seja automaticamente salvo no disco local de cada um.
+**Comentário:** A gravação do Google Meet é processada e armazenada em nuvem, em conta e pasta determinadas pelas regras do serviço e organização da reunião. **Não ocorre download automático para todos os participantes** quando a reunião termina. O diretório e o destinatário de gravações podem depender de regras do produto, tipo de reunião e atualizações da interface.
 
 ---
 
@@ -173,7 +173,7 @@ Uma reunião de trabalho foi gravada no Google Meet. O servidor que participou c
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** O *Lobby* (sala de espera) é o mecanismo de controle de fronteira essencial para impedir acessos não autorizados e invasões (*zoombombing*) em reuniões corporativas.
+**Comentário:** No Teams, o organizador pode configurar **quem ignora a sala de espera** e quem precisa aguardar admissão. O recurso ajuda a controlar o ingresso, mas a segurança depende também das permissões de convidados, divulgação do link e políticas institucionais. O item descreve uma capacidade válida, não um bloqueio infalível.
 
 ---
 
@@ -190,3 +190,5 @@ Uma reunião de trabalho foi gravada no Google Meet. O servidor que participou c
 | **Encerramento de reunião** | "Sair da reunião" (individual) $\times$ "Encerrar reunião" (para todos) | "Sair da chamada" $\times$ "Encerrar chamada para todos" |
 
 > **Atualização de produto (11/11/2026):** o Google informa a [nova estrutura da pasta Google Meet](https://support.google.com/meet/answer/9308681?hl=pt-BR) desde julho de 2026, e a Microsoft descreve que [coorganizadores podem encerrar reuniões para todos](https://support.microsoft.com/pt-br/teams/meetings/add-co-organizers-to-a-meeting-in-microsoft-teams). Revisados TI-041 e TI-042; conferir configurações e licenças específicas antes de generalizar permissões.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** seis questões examinadas; gabaritos mantidos **C, E, C, C, E, C** segundo os cenários de Teams/Meet descritos. Explicações refinadas para canais padrão, permissões de anfitrião, gravação em nuvem e sala de espera. As opções concretas devem ser verificadas conforme produto, licença e configuração.

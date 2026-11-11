@@ -5,7 +5,7 @@ title: "Dado, informação, variável, atributo, indicador e métrica: hierarqui
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Dado, informação, variável, atributo, indicador e métrica: hierarquia e distinções operacionais
@@ -16,7 +16,7 @@ No contexto da administração pública contemporânea orientada por dados (*Dat
 
 Em provas de concurso público elaboradas pela banca **Cebraspe**, essa confusão de vocabulário é intencionalmente explorada como distrator:
 - Tomar um dado bruto desconectado de contexto como se fosse informação acabada.
-- Confundir uma métrica simples (contagem pura de ocorrências) com um indicador estratégico composto dotado de meta, polaridade e significado decisório.
+- Confundir uma métrica operacional com um indicador usado para monitorar objetivos; metas e polaridade podem ser úteis na gestão, mas não definem todo indicador.
 - Tratar variáveis e atributos como sinônimos perfeitos em modelagem de dados e análise estatística.
 
 A precisão conceitual é indispensável para evitar conclusões precipitadas em relatórios de desempenho e para gabaritar itens de Informática e Análise de Dados.
@@ -99,15 +99,15 @@ Esta é uma das distinções com maior taxa de erro em provas de controle, comun
 
 | Dimensão | Métrica (*Metric*) | Indicador (*Key Performance Indicator - KPI*) |
 | :--- | :--- | :--- |
-| **Definição** | Medida puramente numérica direta, bruta ou derivada, que quantifica um aspecto operacional ou volume de atividades. | Parâmetro analítico e estratégico construído a partir de métricas, vinculado a um **objetivo**, uma **meta** e um **padrão de julgamento**. |
-| **Vinculação a Metas** | Não requer meta predefinida. É neutra e descritiva. | **Obrigatoriamente vinculado** a um referencial, padrão de conformidade ou meta preestabelecida. |
+| **Definição** | Medida quantitativa de um fenômeno, direta ou calculada. | Medida selecionada para representar e acompanhar uma condição, objetivo ou resultado; pode ser simples ou composta. Um **KPI** é um indicador-chave escolhido para acompanhar prioridades de desempenho. |
+| **Vinculação a Metas** | Pode ter meta, dependendo do uso. | Indicadores podem ser descritivos e existir sem meta; indicadores de desempenho podem receber metas e referências para avaliação. |
 | **Significado Decisório** | Isoladamente, não expressa sucesso ou fracasso. | Expressa julgamento qualitativo sobre o rumo da organização (aponta se o resultado é satisfatório ou insatisfatório). |
-| **Polaridade** | Não possui polaridade inerente. | **Possui polaridade clara**: "quanto maior, melhor" (ex.: índice de resolução de demandas) ou "quanto menor, melhor" (ex.: tempo médio de espera). |
+| **Polaridade** | A direção desejável depende do contexto. | Em indicadores de desempenho, convém explicitar a direção desejável quando houver, inclusive situações em que o melhor resultado esteja em uma faixa ou próximo de um valor-alvo. |
 | **Fórmula de Construção** | Geralmente é uma contagem, soma ou cálculo matemático simples. | Frequentemente é uma taxa, razão, índice composto ou proporção que pondera esforço por resultado. |
 | **Exemplo na Câmara** | *"A Agência Câmara publicou 1.250 matérias jornalísticas no mês de outubro"*. | *"Taxa de alcance e engajamento cidadão nas matérias institucionais da Câmara, com meta de 80% de aprovação"*. |
 
 > [!IMPORTANT]
-> **Regra de Ouro (Cebraspe):** Toda métrica é uma medida quantitativa, mas **nem toda métrica é um indicador**. Uma métrica torna-se um indicador quando passa a informar a tomada de decisão em relação a um objetivo e uma meta predeterminada.
+> **Regra de Ouro (Cebraspe):** Toda métrica é uma medida quantitativa, mas **nem toda métrica é um indicador**. Uma métrica pode servir de indicador quando é selecionada para acompanhar um fenômeno ou objetivo. **Indicador**, **indicador de desempenho** e **KPI** não são termos perfeitamente equivalentes; a existência de meta não é condição universal para todo indicador.
 
 ---
 
@@ -128,8 +128,8 @@ Um indicador consistente no setor público e no plano estratégico da Câmara do
 ## 6. Casos concretos e aplicações progressivas
 
 ### Caso 1: Divulgação institucional da TV Câmara e portal web
-- *Dado:* `4.500.000` acessos únicos em outubro.
-- *Informação:* "O portal da Câmara registrou 4,5 milhões de acessos únicos durante a semana de votação da reforma tributária, representando aumento de 40% em relação ao mês anterior."
+- *Cenário hipotético e unidade de medida:* considere **4.500.000 usuários únicos no mês de outubro**, segundo uma ferramenta de análise definida; esses valores são ilustrativos, não estatísticas oficiais da Câmara.
+- *Informação:* "No cenário, o portal registrou 4,5 milhões de usuários únicos em outubro, contra aproximadamente 3,21 milhões em setembro: crescimento de cerca de 40% em relação ao mês anterior." A comparação só é válida se método de contagem e períodos forem equivalentes.
 - *Métrica:* Volume mensal total de acessos únicos.
 - *Indicador de Desempenho:* Índice de Efetividade da Comunicação Pública (proporção de cidadãos que avaliaram a explicação da reforma como clara, com meta de alcançar pelo menos 75% de satisfação).
 
@@ -137,7 +137,7 @@ Um indicador consistente no setor público e no plano estratégico da Câmara do
 - *Variável:* Tempo total de tramitação de um Projeto de Lei (Variável Quantitativa Contínua).
 - *Atributo do Projeto de Lei:* Código `PL 2338/2023`, com atributos `Status="Em Tramitação"` e `Regime="Urgência"`.
 - *Métrica:* 42 dias decorridos entre a apresentação e o parecer na comissão temática.
-- *Indicador:* Tempo Médio de Resposta Regimental das Comissões frente ao padrão normativo regimental de 30 dias.
+- *Indicador:* Tempo Médio de Resposta Regimental das Comissões frente a uma meta administrativa **hipotética** de 30 dias (não apresentada aqui como prazo regimental legal).
 
 ### Caso 3: Ouvidoria Parlamentar da Câmara
 - *Dado Bruto:* Registros `Protocolo #89432`, `Protocolo #89433`, `Protocolo #89434`.
@@ -159,7 +159,7 @@ Um indicador consistente no setor público e no plano estratégico da Câmara do
 > **Assertiva:** No âmbito da gestão estratégica e da análise de dados do setor público, os conceitos de métrica e indicador são sinônimos perfeitos, de modo que qualquer contagem quantitativa de atendimentos ou de despesas pode ser classificada formalmente como um indicador de desempenho institucional.
 >
 > **Gabarito:** **ERRADO**  
-> **Comentário:** Métrica e indicador não são sinônimos. A métrica é uma medição quantitativa simples (ex.: número bruto de atendimentos). O indicador é uma medida articulada a um objetivo, vinculada a uma meta institucional e dotada de polaridade (quanto maior, melhor ou quanto menor, melhor) que permite emitir julgamento de valor sobre o desempenho. Toda métrica quantifica, mas apenas o indicador orienta formalmente a avaliação estratégica.
+> **Comentário:** Métrica e indicador não são sinônimos. A métrica é uma medição quantitativa simples (ex.: número bruto de atendimentos). Um indicador é uma medida escolhida para acompanhar um fenômeno ou objetivo; quando se trata de um indicador de desempenho, metas, referências e direção desejada podem apoiar seu julgamento. Indicadores descritivos não exigem necessariamente meta formal. Toda métrica quantifica, mas apenas o indicador orienta formalmente a avaliação estratégica.
 
 ### Item 3
 > **Situação hipotética:** Em um estudo estatístico sobre a atuação dos deputados federais, o analista registrou as seguintes características: número de mandatos consecutivos cumpridos pelo parlamentar e escolaridade (ensino médio, superior e pós-graduação).  
@@ -172,7 +172,7 @@ Um indicador consistente no setor público e no plano estratégico da Câmara do
 > **Assertiva:** Um indicador de desempenho eficiente prescinde da definição de polaridade quando sua fórmula matemática de cálculo for baseada em proporções simples ou porcentagens.
 >
 > **Gabarito:** **ERRADO**  
-> **Comentário:** Nenhum indicador de desempenho prescinde de polaridade. A polaridade define o sentido desejável do resultado: se o percentual refere-se à "taxa de evasão escolar" ou "tempo de resposta a pedidos de informação", o sentido é "quanto menor, melhor"; se refere-se à "taxa de resolução de demandas", o sentido é "quanto maior, melhor". Sem polaridade, o gestor não sabe se a subida do percentual representa sucesso ou fracasso da gestão.
+> **Comentário:** Para avaliar o desempenho de um indicador, é importante definir como interpretar o resultado; a polaridade é frequente, mas pode haver faixas desejáveis ou metas de estabilidade. A polaridade define o sentido desejável do resultado: se o percentual refere-se à "taxa de evasão escolar" ou "tempo de resposta a pedidos de informação", o sentido é "quanto menor, melhor"; se refere-se à "taxa de resolução de demandas", o sentido é "quanto maior, melhor". Sem polaridade, o gestor não sabe se a subida do percentual representa sucesso ou fracasso da gestão.
 
 ### Item 5
 > **Assertiva:** Na modelagem de dados de um sistema legislativo, o atributo corresponde à propriedade ou característica de uma entidade que armazena determinado valor de uma variável em um registro de banco de dados.
@@ -195,3 +195,5 @@ Um indicador consistente no setor público e no plano estratégico da Câmara do
 3. **BUSSAB, Wilton de O.; MORETTIN, Pedro A.** *Estatística Básica.* 9ª ed. São Paulo: Saraiva, 2017.
 4. **BRASIL. Tribunal de Contas da União (TCU).** *Manual de Indicadores de Desempenho e Metas.* Brasília: TCU, 2021.
 5. **CÂMARA DOS DEPUTADOS.** *Planejamento Estratégico da Câmara dos Deputados: Cadeia de Valor e Painéis de Indicadores.* Brasília: Diretoria-Geral, 2024.
+
+> **Revisão editorial (11/11/2026):** ajustes localizados a partir da auditoria Câmara 2026, para explicitar o alcance das regras e separar exemplos hipotéticos de fatos. Os itens inéditos continuam sujeitos à validação integral de enunciados, comentários e referências.

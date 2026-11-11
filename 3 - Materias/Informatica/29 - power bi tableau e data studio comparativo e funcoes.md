@@ -5,7 +5,7 @@ title: "Power BI, Tableau e Looker Studio: arquitetura, modelagem, funções DAX
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Power BI, Tableau e Looker Studio: arquitetura, modelagem, funções DAX e casos de uso no setor público
@@ -26,7 +26,7 @@ Nas avaliações do **Cebraspe**, as questões não se limitam a testar comandos
 
 ## 2. Modelagem dimensional: a base do Self-Service BI
 
-Antes de desenhar gráficos, qualquer solução de BI exige a construção de um modelo de dados relacional analítico robusto, baseado nos princípios do *Data Warehouse* de Ralph Kimball:
+Para análises com múltiplas tabelas e dimensões, o esquema estrela inspirado na modelagem dimensional de Kimball costuma facilitar a leitura e a manutenção. Contudo, soluções de BI também podem usar fontes planas, conexões diretas ou outros modelos; o esquema estrela não é requisito universal:
 
 ```
                           ESQUEMA ESTRELA (STAR SCHEMA)
@@ -42,7 +42,7 @@ Antes de desenhar gráficos, qualquer solução de BI exige a construção de um
        ┌───────┴────────────────────────────────────┴───────┐
        │                 fDespesasParlamentares             │
        │                   (Tabela Fato)                    │
-       │ - ID_Despesa (Chave Primária Degenerada)          │
+       │ - ID_Despesa (Identificador da transação; pode funcionar como dimensão degenerada)          │
        │ - DataKey (FK)                                     │
        │ - PartidoKey (FK)                                  │
        │ - DeputadoKey (FK)                                 │
@@ -66,8 +66,8 @@ Antes de desenhar gráficos, qualquer solução de BI exige a construção de um
   - Possui chaves primárias (*Primary Keys* - PK) únicas, menor número de linhas e colunas textuais categóricas usadas para filtrar, fatiar (*slice & dice*) e agrupar as métricas da fato.
 
 ### 2.2. Esquema Estrela (*Star Schema*) versus Esquema Floco de Neve (*Snowflake Schema*)
-- **Esquema Estrela:** A tabela fato central conecta-se diretamente a dimensões totalmente **desnormalizadas** (planas). Vantagem em BI: consultas ultra rápidas, simplicidade de navegação e menor consumo de processamento para o motor em memória. Padrão de excelência no Power BI e Tableau.
-- **Esquema Floco de Neve:** As tabelas de dimensão são **normalizadas** em subtabelas hierárquicas (ex.: `dDeputado` aponta para `dMunicipio`, que aponta para `dEstado`). Reduz redundância de armazenamento, mas exige múltiplos *joins* relacionais que degradam a performance do modelo analítico.
+- **Esquema Estrela:** A tabela fato central conecta-se a dimensões geralmente desnormalizadas. Pode facilitar a navegação e reduzir algumas junções, mas desempenho depende de cardinalidade, mecanismo de consulta, volume e implementação; não há garantia universal de consultas mais rápidas.
+- **Esquema Floco de Neve:** As dimensões são normalizadas em subtabelas hierárquicas (ex.: `dDeputado` aponta para `dMunicipio`, que aponta para `dEstado`). Isso reduz redundância em certos cenários, mas pode aumentar a complexidade das junções; o impacto de desempenho deve ser medido.
 
 ---
 
@@ -111,7 +111,7 @@ DAX é a linguagem funcional de fórmulas do Power BI (e do Analysis Services). 
 | **Exemplo Prático** | `FaixaEtaria = IF(dDeputado[Idade] >= 60, "Idoso", "Não Idoso")` | `TotalReembolsado = SUM(fDespesas[Valor])` |
 
 ### 3.3. A Função Rainha: `CALCULATE`
-- A função `CALCULATE(<expressão>, <filtro1>, <filtro2>, ...)` é a única em DAX capaz de **modificar, sobrepor ou transitar o Contexto de Filtro**.
+- `CALCULATE(<expressão>, <filtro1>, <filtro2>, ...)` avalia uma **expressão escalar** sob contexto de filtro modificado. `CALCULATETABLE(<expressão_tabela>, ...)` faz o mesmo para uma **expressão tabular**. Logo, `CALCULATE` **não é a única função capaz de modificar contexto de filtro**.
 - Executa a **transição de contexto** (*Context Transition*), convertendo um contexto de linha em um contexto de filtro equivalente.
 
 ---
@@ -127,7 +127,7 @@ O **Tableau** fundamenta-se na tecnologia patenteada **VizQL** (*Visual Query La
   - *Atenção de Prova:* No Tableau, "azul" significa **discreto** e "verde" significa **contínuo**; não confundir cor com dimensão/medida (uma dimensão numérica como ano pode ser contínua/verde, e uma medida agregada pode ser discreta/azul).
 - **Cálculos de Nível de Detalhe (LOD - *Level of Detail Expressions*):**
   - Permitem computar valores em níveis de granularidade diferentes do nível exibido na visualização:
-    1. `FIXED`: Calcula o valor usando apenas as dimensões especificadas, ignorando os filtros da tela.
+    1. `FIXED`: Calcula com as dimensões especificadas, independentemente da granularidade da visualização. Em regra, ignora filtros comuns de dimensão, **mas é afetado por filtros de contexto, extração e fonte de dados** (segundo a ordem de operações do Tableau).
     2. `INCLUDE`: Calcula em um nível de detalhe mais fino do que o presente na tela.
     3. `EXCLUDE`: Omite dimensões da tela para calcular em um nível mais agregado.
 
@@ -190,8 +190,8 @@ Antigo *Google Data Studio*, o **Looker Studio** é a ferramenta nativa de nuvem
 ### Item 3
 > **Assertiva:** Na linguagem DAX do Power BI, a função `CALCULATE` é a única expressão habilitada a modificar o contexto de filtro original aplicado a uma métrica em um relatório interativo.
 >
-> **Gabarito:** **CERTO**  
-> **Comentário:** A função `CALCULATE` é o pilar estruturante do DAX. Ela avalia uma expressão matemática sob um novo contexto de filtro determinado pelos seus argumentos modificadores (como `ALL`, `FILTER`, `USERELATIONSHIP`), permitindo substituir ou enriquecer os filtros que os visuais da página impõem sobre os dados.
+> **Gabarito:** **ERRADO**  
+> **Comentário:** A expressão **“única”** torna o item falso. `CALCULATE` avalia uma expressão escalar sob contexto de filtro modificado; a função `CALCULATETABLE` também modifica o contexto de filtro, mas retorna uma tabela. A documentação oficial da Microsoft descreve ambas. Fontes: [CALCULATE](https://learn.microsoft.com/pt-br/dax/calculate-function-dax) e [CALCULATETABLE](https://learn.microsoft.com/pt-br/dax/calculatetable-function-dax).
 
 ### Item 4
 > **Assertiva:** No software Tableau, a cor verde em um campo inserido em uma prateleira de linhas ou colunas identifica obrigatoriamente que aquele campo é uma métrica quantitativa, ao passo que a cor azul denota que o campo é uma dimensão descritiva.
@@ -223,3 +223,5 @@ Antigo *Google Data Studio*, o **Looker Studio** é a ferramenta nativa de nuvem
 3. **SLEEPER, Ryan.** *Practical Tableau: 100 Tips, Tutorials, and Strategies from a Tableau Zen Master.* O'Reilly Media, 2018.
 4. **MICROSOFT LEARN.** *Visão Geral da Arquitetura do Microsoft Power BI e Otimização de Modelos.* Microsoft, 2024.
 5. **CÂMARA DOS DEPUTADOS.** *Diretrizes de Arquitetura de Dados e Painéis BI Corporativos.* Brasília: Centro de Informática (Cenin), 2024.
+
+> **Correção de gabarito (TI-020, 11/11/2026):** o Item 3 foi corrigido de CERTO para **ERRADO** por causa da exclusividade indevida atribuída a `CALCULATE`. Cotejo: [Microsoft Learn, CALCULATE](https://learn.microsoft.com/pt-br/dax/calculate-function-dax), [CALCULATETABLE](https://learn.microsoft.com/pt-br/dax/calculatetable-function-dax); para `FIXED`, consultar [ordem de operações do Tableau](https://help.tableau.com/current/pro/desktop/pt-br/calculations_calculatedfields_lod_filters.htm). Mantidos identificadores e enunciados para rastreabilidade.

@@ -50,7 +50,7 @@ function theoryPathExists(ref){
 }
 
 function normativeRefsValid(q){
-  if(q.checkpointSchema!==2 || !q.sessionFile || !Array.isArray(q.sourceRefs) || !q.sourceRefs.length) return false;
+  if(![2,3].includes(q.checkpointSchema) || !q.sessionFile || !Array.isArray(q.sourceRefs) || !q.sourceRefs.length) return false;
   const plan=loadPlans(rootDir).find(p=>p.concursoId===q.concursoId);
   const contests=readJson('data/concursos.json');
   const sources=plan?.sources || (contests.some(c=>c.id===q.concursoId)?{edital:{}}:{});

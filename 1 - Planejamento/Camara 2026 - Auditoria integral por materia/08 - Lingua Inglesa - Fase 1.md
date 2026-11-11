@@ -391,3 +391,70 @@ A página seguinte do caderno `101_IRBRCACDOBJ_002_01` foi conferida visualmente
 **ING-058 | IMPORTANTE | referência bibliográfica não rastreada:** `07`, seção 9, inclui `CEBRASPE. Bancos de Provas e Padrões de Resposta de Língua Inglesa: Nível Superior (Câmara dos Deputados, Senado Federal, STJ, IPEA, MPO, Diplomacia). Brasília, 2018–2024.` sem cadernos, URLs, códigos de prova ou identificação de uma publicação única verificável com esse título. **Não se deve contar isso como fonte bibliográfica comprovada**, nem atribuir às instituições citadas uma amostra já auditada. Substituir em Fase 2 por cadernos oficiais individualizados, com ano, cargo e itens verificáveis. Não houve consulta a todos os concursos listados.
 
 **Próxima unidade de auditoria:** blocos 08/09/11/12/13/14/16 e, depois, 01–06, distinguindo itens já suspensos dos demais e verificando dados bibliográficos inventariados. **Nenhuma edição de teoria, questão, gabarito, ID, hub ou catálogo.**
+
+
+## 18. Checkpoint 11: adjudicação dos 42 itens C/E dos artigos 08, 09, 11, 12, 13, 14 e 16 (11/11/2026)
+
+**Método:** sete artigos recuperados diretamente do GitHub, cada um com seis questões inéditas, e enunciados confrontados com textos-base, respostas e comentários. Os textos integrais de 08 e 09 foram relidos. **M**: gabarito provisoriamente mantido, núcleo do comentário sustentável; **R**: gabarito mantido com ressalva relevante no comentário, cenário ou formulação; **S**: questão deve ficar suspensa para estudo confiável até resolução da ambiguidade. A anotação não altera o material original.
+
+| Artigo/item | Gabarito | Classe | Justificativa |
+| --- | --- | --- | --- |
+| 08#1 | C | **S** | `immediate` não está no texto; C suspenso |
+| 08#2 | E | **M** | `may` não garante cinismo universal |
+| 08#3 | C | **M** | Possível efeito negativo da transparência sem responsividade |
+| 08#4 | E | **M** | Pesquisas não tratam de queda severa na participação |
+| 08#5 | C | **M** | `only when` delimita condição necessária |
+| 08#6 | E | **M** | Não há exclusividade causal da mídia |
+| 09#1 | E | **M** | `they` = atores hostis |
+| 09#2 | C | **M** | `them` = relatórios confidenciais |
+| 09#3 | C | **M** | `This strategy` resume exfiltração e vazamento |
+| 09#4 | E | **M** | `these` = sistemas de análise comportamental |
+| 09#5 | C | **M** | `whose` associa origens às ameaças |
+| 09#6 | E | **R** | E plausível, mas vírgula + `which` isoladamente não comprova referência oracional |
+| 11#1 | C | **R** | Definição `act/bill` defensável; cenário mistura etapa legislativa com lei promulgada |
+| 11#2 | E | **M** | `actually` não equivale a `currently` |
+| 11#3 | E | **M** | `eventually` não significa ocasionalmente |
+| 11#4 | E | **M** | `attend` = comparecer |
+| 11#5 | C | **M** | `resume` = retomar |
+| 11#6 | E | **M** | `compromise` = acordo, não juramento |
+| 12#1 | C | **M** | Inversão após `rarely` |
+| 12#2 | C | **M** | `Had ... identified` equivale a `If ... had identified` |
+| 12#3 | E | **M** | `under no circumstances should` é proibição, não autorização eventual |
+| 12#4 | E | **M** | `Should` inicial é condicional |
+| 12#5 | C | **M** | `not only` na ordem direta dispensa `did` |
+| 12#6 | E | **M** | `scarcely` não equivale a facilmente |
+| 13#1 | E | **R** | E correto; comentário exagera sobre continuidade do processo e efeitos |
+| 13#2 | E | **M** | `In 2021` é marco passado incompatível com substituição proposta |
+| 13#3 | C | **R** | Anterioridade `had reviewed` válida; cenário `joint session` requer precisão |
+| 13#4 | C | **S** | `will→would` possível, não obrigatório; C suspenso |
+| 13#5 | E | **M** | `have noted` não sustenta evento remoto sem relevância |
+| 13#6 | C | **R** | Future perfect correto; tradução como futuro do pretérito incorreta |
+| 14#1 | C | **S** | **Novo S**: alternativa passiva omite `to ensure alignment with fiscal responsibility standards`, embora exija preservar sentido |
+| 14#2 | E | **M** | Objeto de pessoa pode ser sujeito passivo |
+| 14#3 | E | **M** | Simple past não mantém present perfect |
+| 14#4 | C | **M** | Modal + `be` + particípio funciona |
+| 14#5 | E | **M** | `look into` deve reter `into` |
+| 14#6 | C | **R** | Foco e agente omitido plausíveis, intenção institucional inferida em excesso |
+| 16#1 | E | **M** | `little` exclui grande quantidade de provas |
+| 16#2 | C | **S** | `were willing` não prova que efetivamente `supported`; C suspenso |
+| 16#3 | C | **S** | `directly results in` introduz causalidade; C suspenso |
+| 16#4 | E | **M** | `most` não autoriza `all` |
+| 16#5 | E | **M** | `exclusively` limita público |
+| 16#6 | C | **R** | C idiomático plausível, explicação lógico-formal rígida demais |
+
+
+**Balanço do lote:** **30 M, 7 R, 5 S**, total **42 itens**. Quatro S já identificados anteriormente: **08#1, 13#4, 16#2, 16#3**. **Novo S: 14#1**.
+
+**ING-059 | CRÍTICO | nova questão de gabarito sob reserva:** em `14 - voz ativa passiva e foco informacional em ingles.md`, questão 1, o texto original informa que a comissão examina emendas constitucionais **“to ensure alignment with fiscal responsibility standards”**. A proposta de passiva diz somente `The proposed constitutional amendments are currently being examined by the special commission`, sem a oração de finalidade. O item pergunta se isso `maintains the original meaning and grammatical correctness`, e traz **Certo**. A frase proposta é gramatical, porém **perde informação essencial de propósito**, tornando perigosa a certificação de equivalência integral. **Suspender C para treino até revisão contextual**, sem alterá-lo nesta fase. Possíveis reparos futuros: restituir finalidade na frase passiva ou limitar o comando à preservação do evento e à correção sintática.
+
+**ING-060 | IMPORTANTE | semântica de tempos:** `13#1` é E defensável, mas o comentário diz que `has expanded ... since` prova necessariamente que a expansão ainda cresce ou que seus efeitos continuam; o aspecto perfeito não prova cada uma dessas leituras isoladamente. `13#6` é C, mas `will have concluded` é *future perfect*, não “futuro do pretérito”, rótulo inadequado.
+
+**ING-061 | IMPORTANTE | intenção e passiva:** `14#6` permite inferência de foco na ação/material e ausência de agente explícito, mas a explicação afirma objetivo comunicativo de “assegurar impessoalidade” sem evidência do redator. Manter C provisório e reduzir excesso.
+
+**ING-062 | IMPORTANTE | referências sem identificação auditável:** 08 e 09 citam `CEBRASPE. Cadernos de Questões Comentadas: Língua Inglesa. Brasília: Cebraspe, 2018–2024` e `CEBRASPE. Provas e Gabaritos Comentados de Língua Inglesa. Brasília: Cebraspe, 2018–2024` sem caderno, edital, ano individual, URL ou publicação identificada. Não tratar como provas verificadas. O achado amplia ING-058 do artigo 07.
+
+**ING-063 | IMPORTANTE | critério de equivalência:** `14#1` demonstra que uma passiva formalmente correta pode preservar agente, tempo e aspecto e ainda perder adjuntos de finalidade. Em Fase 2, conferir propósito, exceções, condições e escopo sempre que a pergunta exigir `original meaning` completo.
+
+**Reconciliação cumulativa:** checkpoints 10 e 11 classificaram individualmente os **72 C/E autorais dos 12 artigos 07–18**: **53 M, 14 R, 5 S**. Há **cinco itens S distintos** (08#1, 13#4, 14#1, 16#2, 16#3), não cinco novos. Restam para classificação individual **seis C/E de 01–06 e seis exercícios autorais FGV A–E**, num conjunto de 84 exercícios Markdown. Corpus oficial de comparação permanece ANATEL 2024 + IRBr 2025, 28 itens identificados em dois concursos, sem inferência de incidência. Identificadores históricos ING-001–063 contemplam erros, riscos, hipóteses e melhorias, **não 63 respostas incorretas**.
+
+**Próximo passo da Fase 1:** classificação dos 12 exercícios de 01–06 e parecer documental final. Nenhuma teoria, item, gabarito, ID, hub ou catálogo foi editado.

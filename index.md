@@ -136,6 +136,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|03 • Transparência, acesso à informação e proteção de dados pessoais]]
    - [[3 - Materias/Administracao Publica/04 - nova governanca publica|04 • Nova Governança Pública]]
    - [[3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional|05 • Redes de cooperação e articulação interinstitucional]]
+   - [[3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada|06 • Coprodução de serviços públicos e participação cidadã]]
 6. [[3 - Materias/Governanca Riscos e Integridade/governanca-riscos-e-integridade|Governança, riscos e integridade]]
    - [[3 - Materias/Governanca Riscos e Integridade/01 - integridade publica prevencao e sitai|01 • Integridade pública, prevenção e Sitai]]
    - [[3 - Materias/Governanca Riscos e Integridade/02 - integridade privada e diligencia de terceiros|02 • Integridade privada e diligência de terceiros]]

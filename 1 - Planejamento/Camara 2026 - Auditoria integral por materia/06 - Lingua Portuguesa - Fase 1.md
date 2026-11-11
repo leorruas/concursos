@@ -499,3 +499,52 @@ Os doze itens foram lidos com justificativas: `30` = C/E/C/E/C/E; `31` = C/E/C/E
 **PT-096, melhoria/gate da Fase 1:** a matriz literal e o catálogo 34/34 permitem avançar para **conciliação dos achados, fontes de gramática por seção e verificação de gabaritos reais**. Só concluir a Fase 1 após verificar itens de alta gravidade, duplicatas e controle de amostra oficial; o número de achados PT-001–PT-096 não deve ser interpretado como 96 erros independentes.
 
 **Estado:** 34/34 artigos numerados, hub e matriz literal do programa de Português inspecionados nos recortes definidos; 20/20 subitens do edital mapeados a **notas candidatas**, **0/34 artigos e 0 questões autorais certificados integralmente**. Nenhuma nota, hub ou JSON de estudo foi alterado. **Próximo:** matriz de reparos por gravidade/localizador, separando erros comprovados de hipóteses e falta de evidência, conferência completa de links internos e corpus Cebraspe.
+
+
+## Bloco 13: conciliação de achados, colisões de IDs e matriz inicial de reparos (11/11/2026)
+
+### 1. Regra de evidência: registros e erros são contagens diferentes
+
+Foi relido o relatório acumulado (blocos 1–12) como **fonte do diagnóstico**, com extração dos rótulos `PT-001` a `PT-096`, conferência das duas seções que têm o mesmo título “Bloco 3” e separação de tipos de evidência. **Há 96 valores numéricos distintos de PT, sem lacunas entre 001 e 096; porém seis valores PT-011–PT-016 foram aplicados a achados diferentes em dois textos do bloco 3. Portanto, há 102 atribuições iniciais de identificadores a achados localizados, antes de agrupar sobreposições conceituais.** Este cálculo é uma reconciliação de rótulos do relatório, **não** 102 erros reais, nem 102 itens da banca, nem contagem global de ocorrências textuais (as referências cruzadas repetem IDs).
+
+**Colisões comprovadas de identificador (provisoriamente A e B, preservando texto original):**
+
+| ID colidido | Bloco 3 A: “sujeito, classes...” | Bloco 3 B: “sintaxe, morfossintaxe...” |
+| --- | --- | --- |
+| **PT-011** | artigo 22 §1, classe gramatical versus função | artigo 25 restritivas que supostamente provam existência de grupo excluído |
+| **PT-012** | artigo 22 §2, “duas funções” do adjetivo | artigo 25 §4.1/Q4, vírgula adverbial generalizada |
+| **PT-013** | artigo 23 Q5, classificação “aposto especificativo” | artigo 23 §4, fluxo “substantivo concreto → 100% adjunto adnominal” |
+| **PT-014** | artigo 24 Q5, pontuação de adversativa deslocada | artigo 24 §4, proibição absoluta de vírgula antes de `e` |
+| **PT-015** | artigo 24 §4.1, vírgula antes de `e` com sujeitos diferentes | artigo 22 §1/§2 e artigo 02, afirmações de incidência do Cebraspe sem amostra |
+| **PT-016** | artigo 25 §§1/3.1, inferência indevida de exclusão em oração restritiva | artigo 25 §3.2/Q5, `onde` restrito a lugar físico |
+
+**Controle editorial:** referir provisoriamente **PT-011A** e **PT-011B**, sucessivamente até **PT-016A/B**, apenas **neste quadro de desambiguação e nos próximos blocos**. Não substituir os identificadores dos blocos históricos sem migração explícita e busca de todas as referências do relatório/índice. O rótulo “PT-016” usado em outras sínteses geralmente designa a restritiva **A**, ao passo que a seção posterior usa **B** para `onde`. A aparente duplicação de 2 seções com título “Bloco 3” advém de duas passagens sobre os **mesmos cinco arquivos** e as mesmas **24 questões didáticas**; não contar os itens ou artigos duas vezes.
+
+### 2. Consolidação por problema conceitual e ação editorial sugerida
+
+Esta matriz reúne **famílias de trabalho**, sem pretensão de contar erros independentes. “Confirmado” significa **contradição interna observável, erro textual evidente, inferência logicamente inválida ou divergência direta com fonte oficial anteriormente cotejada**; “pendente” indica dependência de obra ou item oficial, jamais inversão de gabarito já certificada.
+
+| Prioridade | Problema-raiz e alvo de correção posterior | Referências dos registros | Estado de prova / aceite futuro |
+| --- | --- | --- | --- |
+| **P0** | Restringir **inferência indevida de existência/exclusividade** em relativas e distinguir referência de proposição sobre grupos reais: 14 §3/§8, 25 §1/§3.1/diagrama/Q1, 03 §2, 07 nota de restritivas. | PT-002, **016A**, **011B**, 020, 044; conectar PT-004, 054 | **Erro lógico confirmado** em generalizações; aceitar quando nenhum exemplo inferir a existência de grupo externo sem premissa. Não declarar erro automático nos gabaritos que apenas distingam valor da vírgula. |
+| **P0** | Distinguir **implicação de equivalência** em reescritas, quantificadores e retomadas hiperonímicas, e rever a alegação de “espelhamento perfeito” de gerúndio: 01, 19, 32–33. | PT-001,005,008,057 | **Erro conceitual demonstrável na confusão de relações**; exigir teste de duas direções e preservação de escopo antes de validar reescrita. |
+| **P0** | Retirar regra numérica de **vírgula obrigatória com adjunto adverbial de três palavras**; revisar absolutos relacionados em 03, 24, 25 e 26. | PT-021; **012B**, **014A/B**, **015A**, 018, 023 | **Contradição interna verificada** entre 03 e 26; classificação das demais variantes depende de gramática e contexto. |
+| **P0** | Corrigir erros textuais objetivos: `17 §3.3 minirsaia → minissaia`; `17 §2.3 pro-i-be → pro-í-be`; `29 §1 “adjetivo garante” → verbo garante`; `30 §1 “toponímia pronominal” → colocação pronominal`. | PT-039,040,033,079 | **Erros locais confirmados**; aceite: revisão pontual, conservação de exemplos válidos e checagem de todas as ocorrências no respectivo arquivo. |
+| **P0** | Separar **tempo/modo verbal de prova de verdade factual** e aspecto perfectivo de evento singular; 21 §1/§2/Q3. | PT-060,061,062 | **Erro de inferência metalinguística confirmado** (“indicativo” ≠ fato comprovado; perfectivo ≠ ocorrência única). Modalidade do perfeito composto demanda gramática para os casos limítrofes. |
+| **P1** | Revisar **conectores com rótulos absolutos**, especialmente `20 §3.1/§4/Q5` (“como” inicial obrigatoriamente causal), `posto que`, valor argumentativo versus decisão jurídica, `à medida que`. | PT-046–051 | **Contraexemplo linguístico disponível** para `como` conformativo; itens Q4/Q5/Q6 não tiveram gabarito invertido; exigir cotejo de regra e contexto. |
+| **P1** | Testar, por **fontes e precedentes Cebraspe**, gabaritos de gramática mais incertos: 23#5 aposto, 24#5 adversativa, 25#4 pontuação, 28#2/#5 regência, 29#5 crase, 30#1/#3 colocação, 15#3 e 16#6 tipologia. | **013A**, **014A**, 018,030,031,035,076,078,067,071 | **Pendente de homologação**. Diferenciar “gabarito possivelmente certo com justificativa problemática” de “gabarito comprovadamente invertido”. Nenhuma inversão homologada até aqui. |
+| **P1** | **Acentuação/hífen e variantes:** excetuantes `co-`, `coerdeiro/co-herdeiro`; limites “implicar em” e pontuação/concordância; vocabulário polissêmico. | PT-037–043,024,030,080–082 | Casos e prescrições **dependem de VOLP, gramática, uso e edital**; aceitar somente após fonte lexicográfica individual e diferenciação norma/uso. Erros tipográficos ficam em P0, não se misturam a hipóteses normativas. |
+| **P1** | Cobertura do programa literal: coordenação/subordinação **entre termos da oração** (5.2 e 5.3) e relação granular `camara-2026` no `data/edital-itens.json`; vínculo `Avancos` do hub. | PT-084,085,093,095 | **Lacuna JSON confirmada nesse arquivo**; ausência de aprofundamento e link quebrado **não comprovados globalmente**. Aceite: exemplo/questão de relação entre termos, contrato de ingestão sem afetar Dataprev, teste da rota real. |
+| **P2** | Remover afirmações de frequência (“um terço”, “sempre cai”, “jurisprudência pacífica”, “campeã”), concluir rastreabilidade de citações, organizar hub/arquivos introdutórios, remover sinalização `🆕` caduca. | PT-006, **015B**,022,026,028,032,042,043,045,051,052,055,059,064,070,073,074,086,087,090 | **Falha de rastreabilidade editorial** ou organização; prioridade após P0/P1. Atribuição a banca requer corpus documentado; achado editorial não equivale a erro gramatical. |
+
+**Observação:** a matriz é uma **primeira consolidação dos riscos de maior efeito**. Outros rótulos do histórico (como PT-003,004,007,009,010,017,019,025,027,029,034,036,038,053,056,058,063,065,066,068,069,072,075,077,083,088,089,091,092,094,096) permanecem no relatório e **não foram descartados nem declarados resolvidos**. A intenção é organizar trabalhos por mecanismo repetido, não encerrar cada uma das 102 atribuições mediante simples agrupamento. **Não existe ainda contagem auditada de casos únicos após deduplicação semântica.**
+
+### 3. Plano de aceitação e ordem de execução para futura fase de reparos
+
+**Lote futuro A (erros seguros):** corrigir apenas exemplos textuais P0 (17/29/30), inferências inválidas (01/03/07/14/19/25), regra de vírgula (26) e tempo/modo (21), **preservando frontmatter `articleId`, `articleAliases`, `unidadeId`, caminhos e catálogo**. É necessária leitura comparada de cada frase com as remissões e com itens comentados no mesmo arquivo; evitar “correção global” por busca e substituição.
+
+**Lote futuro B (fontes/itens):** apontar para gramática/página/edição ou prova Cebraspe identificável e, só então, decidir correções de Q e gabaritos. Registrar para cada questão: trecho original, comando, alternativa, comentário, fonte e decisão `mantida / comentário corrigido / gabarito invertido / retirada por ambiguidade`.
+
+**Lote futuro C (arquitetura):** conferir links no renderizador, criar vinculação de edital apenas após leitura do contrato da camada de dados, inserir exemplos para 5.2/5.3 e tratar itens duplicados do relatório mediante migração controlada. Separar **cobertura documental 34/34**, **correspondência temática 20/20**, **certificação pedagógica 0/34**, e desempenho real ainda não medido por esta auditoria.
+
+**Gate de saída da Fase 1 ainda não alcançado:** a matriz reconcilia IDs colididos e famílias prioritárias, mas **não valida gabaritos nem verifica exaustivamente todas as referências bibliográficas e links internos**. Um encerramento responsável exige pelo menos teste de links em toda a trilha, auditoria das referências primárias dos riscos de maior impacto e um registro de pendências por item para a fase seguinte. Sem modificações nos 34 artigos de estudo.

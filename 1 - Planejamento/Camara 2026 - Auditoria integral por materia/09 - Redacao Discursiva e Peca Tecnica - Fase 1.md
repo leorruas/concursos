@@ -323,3 +323,111 @@ Exemplo de **orçamento didático de 50 linhas**, que não é distribuição ofi
 **Confirmado neste bloco:** leitura renovada e individualizada dos três artigos e guia; ausência de exercícios operacionais completos nas notas; seis caminhos exatos planejados não encontrados; validade do teste autoral de decomposição como *instrumento de diagnóstico*, não como espelho oficial; distinção entre os regimes de linha da PF, do TCE-MG e da Câmara. **Interpretação:** sugerir que o material de execução use matrizes de cobertura e orçamento de linhas flexível, com duas produções semanais no limite de três horas. **Pendente:** inventário físico recursivo confiável da pasta; escrita e análise integral de uma questão de até 20 linhas e uma peça de até 50 em papel; revisão normativa exaustiva das notas compartilhadas, sem sobrepor os agentes de suas matérias.
 
 **Estado da Fase 1: PARCIALMENTE VERIFICADO.** Este bloco apenas identifica e testa conceitualmente o método; não inicia implantação editorial, não modifica artigos, não altera catálogo ou questões e não registra respostas pessoais no repositório público.
+
+## Continuação de 11/11/2026: blocos 17–19, aplicação controlada da matriz
+
+**Checkpoint de concorrência:** leitura do SHA do relatório `b13be6e141f76f26d5d1254db1cb5c8bb8df8770` e leitura do commit recente `0f835dd0ce1664885c3135c9157347d99ecbee07`. Somente este relatório será atualizado. A proposta continua Fase 1, sem alteração dos artigos, do catálogo ou do índice de outros agentes.
+
+### Bloco 17: checagem visual das provas oficiais [CONFERIDO]
+
+Os PDFs foram abertos com inspeção visual de páginas, além da extração do texto. Na [Câmara 2026, caderno de Processo Legislativo e Gestão, primeira página](https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/4536C347379F236B51C537AC0D040D50717F27BF79FE55B56E95C3E8DFB96839.pdf), a banca explicita, **naquele concurso**, 0,70 de apresentação/estrutura por questão e 1,50 para a peça, dentro dos máximos respectivos de 15 e 30. O [espelho definitivo da peça, página 4](https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/D5F3CAA9B8BAEA93D7B1750A43949FF94C88F2DA3F44ADAE978062F601A94FDD.pdf) enumera subaspectos (i) a (xi), agrupados em quesitos com pontuação gradual. A [questão 2 do TCE-MG, página 4](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/3ADF49146A2E55690BB77554138AD177F6BD763BC8B6C35FECD4EB7BAB4A06CD.pdf) também foi conferida visualmente, inclusive os três verbos de comando e valores de 3,50/3,00/3,00 pontos. Esses valores não são reproduzidos como pesos do cargo de Divulgação Institucional.
+
+**Ajuste de rigor:** o texto do padrão definitivo frequentemente supera o tamanho permitido ao candidato. O critério transferível é reconhecer unidades de conteúdo **independentes**, não contar a extensão ou copiar sua redação. O desconto linguístico da prova atual continua regido pelo edital da nova seleção, e não pelos padrões de concursos anteriores.
+
+### Bloco 18: prova de conceito da resposta curta [MODELO AUTORAL, NÃO OFICIAL]
+
+**Exercício didático de diagnóstico:** adaptar o enunciado REAL do TCE-MG, acessibilidade em eventos, para um **limite artificial de 20 linhas**, de modo a testar condensação. **O TCE-MG original admite 60 linhas e a solução abaixo não é padrão oficial, nem texto de candidato, nem reescrita já testada.** Cada quebra foi inserida manualmente para construir 20 linhas digitais; isso **não garante** ocupar as mesmas linhas numa folha manuscrita, pois tamanho de letra, margem e espaçamento mudam.
+
+```text
+01 | O planejamento de acessibilidade começa pela identificação
+02 | dos públicos e das barreiras que limitam sua participação.
+03 | À equipe de comunicação cabe examinar necessidades
+04 | de acesso à informação antes, durante e após o evento.
+05 | Isso requer diálogo com pessoas com deficiência,
+06 | articulação com a produção e escolha dos recursos
+07 | compatíveis com as atividades e os canais previstos.
+08 | Em encontros presenciais e transmissões, a interpretação
+09 | em Libras pode ampliar o acesso de pessoas surdas
+10 | que utilizam a Língua Brasileira de Sinais.
+11 | Legendas em tempo real atendem a outras necessidades
+12 | de acesso à fala e ao conteúdo apresentado.
+13 | A audiodescrição de elementos visuais relevantes
+14 | favorece a compreensão por pessoas com deficiência visual.
+15 | Esses recursos devem ser planejados e testados,
+16 | com informação antecipada sobre sua disponibilidade.
+17 | A redução de barreiras de comunicação permite participação
+18 | mais equitativa, em vez de mera presença formal.
+19 | A inclusão efetiva também exige reconhecer diferenças
+20 | e enfrentar práticas capacitistas que excluem públicos.
+```
+
+**Rubrica analítica, sem pontuação Cebraspe:** (a) planejamento: identifica públicos, barreiras, articulação e verificação; (b) enumeração: cita três recursos distintos, Libras, legenda em tempo real e audiodescrição, e explica destinatários/uso; (c) finalidade social: vincula recursos à participação, equidade e enfrentamento de exclusão capacitista. O exemplo **cobre os núcleos mais visíveis**, mas a equivalência a um conceito do espelho exige verificação granular de todos os descritores e avaliação humana da precisão lexical. Não foi atribuída nota nem contagem de erros de língua da banca. **Hipótese de falha:** se uma referência genérica a `testes` não explicitar a participação dos públicos, um corretor pode considerá-la incompleta. O modelo precisa ser confrontado com o padrão, não presumido suficiente.
+
+**Lição editorial:** o artigo 01 deveria apresentar comando e matriz; o módulo de execução DIS-002 deveria mostrar ao menos um texto integral, anotando em que linhas cada quesito se materializa, e um contramodelo com omissões. Esse conteúdo pertence à **Fase 3**; aqui a amostra serve como experimento de auditoria.
+
+### Bloco 19: prova de conceito da peça de até 50 linhas [MODELO AUTORAL, NÃO OFICIAL]
+
+**Cenário exclusivamente didático, não previsão de tema:** uma equipe hipotética da Câmara precisa redigir uma nota técnica de comunicação para superar barreiras à compreensão e participação em audiências públicas. O comando simulado exige objeto, diagnóstico, públicos, objetivos, conteúdo e canais, execução, indicadores e limites. O exemplo foi estruturado em **48 linhas digitais**, dentro de um teto de 50, com títulos funcionais apenas porque **o comando didático autorizou essa forma**. Esta peça **não reproduz** a peça jurídica do concurso de março de 2026.
+
+```text
+01 | NOTA TÉCNICA: comunicação de audiências públicas
+02 | Objeto: avaliar barreiras de informação e propor ações
+03 | para ampliar o acesso às audiências da Câmara.
+04 | Finalidade: orientar decisões de comunicação institucional.
+05 | 1. Diagnóstico e pressupostos
+06 | A baixa participação informada não comprova, por si só,
+07 | insuficiência de publicidade ou falha do cidadão.
+08 | É necessário verificar conhecimento prévio da agenda,
+09 | clareza das instruções, canais usados e barreiras de acesso.
+10 | A equipe deve consultar registros de dúvidas,
+11 | testar o percurso de inscrição e ouvir públicos distintos.
+12 | Sem essas evidências, a proposta será preliminar.
+13 | 2. Públicos e objetivos
+14 | Identificar interessados diretamente afetados pelos temas,
+15 | organizações participantes e pessoas com barreiras digitais.
+16 | Objetivo: tornar a agenda, os requisitos e as formas
+17 | de participação compreensíveis e localizáveis.
+18 | Definir indicadores de compreensão e acesso efetivo.
+19 | 3. Propostas de conteúdo e distribuição
+20 | Publicar explicações objetivas sobre a finalidade
+21 | das audiências, calendário e formas de participação.
+22 | Vincular as mensagens a fontes e páginas oficiais,
+23 | com atualização sempre que houver mudança de agenda.
+24 | Preparar formatos acessíveis e linguagem clara,
+25 | testando instruções com públicos de perfis diferentes.
+26 | Usar canais adequados às necessidades identificadas,
+27 | sem depender exclusivamente de redes sociais privadas.
+28 | Separar informação institucional de promoção pessoal.
+29 | 4. Processo de execução
+30 | Designar responsáveis pela apuração dos dados
+31 | e pela revisão editorial antes da publicação.
+32 | Organizar prazos de atualização e correção de conteúdo.
+33 | Verificar a coerência entre portal, convites e mensagens.
+34 | Estabelecer atendimento para dúvidas e barreiras.
+35 | Registrar alterações, motivos e encaminhamentos.
+36 | 5. Avaliação e limites
+37 | Medir disponibilidade e alcance como resultados iniciais,
+38 | sem presumir que equivalem a participação efetiva.
+39 | Acompanhar localização de informações, compreensão
+40 | dos requisitos e conclusão de etapas de inscrição.
+41 | Comparar evidências antes e depois das ações,
+42 | sem atribuir causalidade automaticamente à campanha.
+43 | Se surgirem problemas no próprio processo do serviço,
+44 | encaminhá-los às áreas competentes.
+45 | 6. Encaminhamento
+46 | Recomenda-se validar o diagnóstico com as equipes
+47 | responsáveis e realizar piloto antes de ampliar ações.
+48 | A versão final depende de condições e dados confirmados.
+```
+
+**Matriz de auditoria por faixa de linha:** 1–4 identificação de objeto/finalidade; 5–12 diagnóstico e cautela causal; 13–18 públicos e objetivos; 19–28 comunicação e limites; 29–35 responsabilidades/processos; 36–44 métricas e correção de problemas; 45–48 encaminhamento. Essa matriz é **autoral** e só vale para o comando fictício explicitado. Não foram observados tempo de escrita, margem, legibilidade ou necessidade de transcrição; por isso não se pode declarar prontidão operacional do método. A divisão de quesitos não fornece nota oficial sem espelho real.
+
+**Falhas ainda visíveis no modelo:** falta lastro empírico específico sobre os públicos e necessidades do caso; algumas medidas são condicionais; `medir compreensão` não especifica instrumento e denominador; a competência institucional para encaminhamentos deve ser verificada no cenário real. São pontos a aprofundar mediante um comando completo, em vez de preenchê-los com normas ou números inventados. O exercício evidencia que **capacidade de condensação e precisão de decisão são independentes**.
+
+### Parecer provisório pós-experimento
+
+O teste de **20 linhas para questão e 48 para peça** é suficiente para demonstrar a viabilidade de uma matriz operacional dentro de limites **digitais**, e insuficiente para certificar desempenho em folha definitiva sob tempo real. Há duas dimensões ainda separadas: (1) *cobertura verificável de verbos, objetos e quesitos*; (2) *materialização física e linguística* com letra, revisão, limite de linhas e tempo. O aluno pode acertar uma e falhar na outra, razão para fichas de correção separadas.
+
+**Estado do inventário:** os três artigos cadastrados, hub e guia foram lidos; caminhos previstos 04–09 consultados e não encontrados nesses nomes. A busca pública de diretório e a API pública via consulta web não forneceram listagem confiável; não existe prova de ausência de arquivos órfãos. A auditoria não deve ficar declarando `inventário físico concluído` sem árvore de repositório ou listagem real. Os materiais compartilhados de outros agentes foram auditados quanto à **aplicabilidade discursiva**, mantendo a certificação integral das suas normas como responsabilidade das frentes correspondentes.
+
+**Status:** Fase 1 **parcialmente verificada** por indisponibilidade de listagem física exaustiva e ausência de experimento manuscrito ou avaliação de um texto real do estudante. Não transformar ausência de experimento em dado pessoal de proficiência. Sem modificação de notas de estudo, catálogos ou IDs.

@@ -91,7 +91,7 @@ O art. 10 do Código estabelece o rol taxativo das penalidades:
 3. **Suspensão temporária do exercício do mandato** (por até seis meses);
 4. **Perda do mandato**.
 
-Na dosimetria da pena, consideram-se natureza e gravidade da infração, danos à Câmara e ao Congresso, agravantes e atenuantes e antecedentes do infrator (art. 10, § 1º). O Conselho pode propor sanção mais ou menos grave conforme os fatos efetivamente apurados (art. 10, § 2º).
+Na dosimetria da pena, consideram-se natureza e gravidade da infração, danos à Câmara e ao Congresso, agravantes e atenuantes e antecedentes do infrator (art. 10, § 1º). O Conselho pode propor sanção mais ou menos grave conforme os fatos efetivamente apurados (art. 10, § 2º). **Ressarcimento:** sem prejuízo da pena disciplinar, vantagens indevidas oriundas de recursos públicos utilizados em desconformidade com o Código devem ser **integralmente ressarcidas ao erário**, na forma de Ato da Mesa (art. 10, § 3º).
 
 ### Matriz comparativa de penalidades, autoridades e infrações
 
@@ -100,7 +100,7 @@ Na dosimetria da pena, consideram-se natureza e gravidade da infração, danos �
 | **Censura Verbal** | **Presidente da Câmara** (em sessão) ou **Presidente de Comissão** (em reunião) | Incisos I e II do art. 5º | Cabe **recurso ao respectivo Plenário em 2 dias úteis** (art. 11, parágrafo único). |
 | **Censura Escrita** | **Mesa Diretora da Câmara** | Inciso III do art. 5º, mediante provocação do ofendido, ou reincidência nas hipóteses do art. 11 por solicitação do presidente da Câmara ou da comissão | **Defesa em 5 dias úteis** e **recurso ao Plenário em 2 dias úteis** (art. 12, §§ 1º e 2º). |
 | **Suspensão de Prerrogativas Regimentais** | **Plenário da Câmara dos Deputados** (por proposta do Conselho) | Incisos VI a VIII do art. 5º | Até **6 meses**; defesa **10 dias úteis**, diligências **15 dias úteis**, prorrogáveis uma vez por igual período; recurso à CCJC **5 dias úteis** (art. 13). |
-| **Suspensão Temporária do Exercício do Mandato** | **Plenário da Câmara dos Deputados** | Incisos IV, V, IX e X do art. 5º | Até **6 meses**; defesa **10 dias úteis**, até **8 testemunhas**, instrução **30 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva (art. 14). |
+| **Suspensão Temporária do Exercício do Mandato** | **Plenário da Câmara dos Deputados** | Incisos IV, V, IX e X do art. 5º | Até **6 meses**; defesa **10 dias úteis**, até **8 testemunhas**, instrução **30 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva. Se a suspensão superar **120 dias**, o **suplente é convocado imediatamente após a publicação da resolução** (art. 14, § 2º). |
 | **Perda do Mandato** | **Plenário da Câmara dos Deputados** | Art. 4º (atos incompatíveis) | Defesa **10 dias úteis**, até **8 testemunhas**, instrução **40 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva (art. 14). |
 
 ### O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)
@@ -271,7 +271,7 @@ Os enunciados seguintes testam **somente o procedimento cautelar** do [RICD, art
    - **Efeito do esgotamento:** o art. 16, § 3º, diferencia três situações. **No Conselho**, depois de concluída a instrução, o processo **sobresta imediatamente a pauta do Conselho**; **na CCJC**, se o recurso estiver pendente, **sobresta imediatamente a pauta da comissão**; **na Ordem do Dia**, uma vez observada a inclusão do § 2º, a representação passa a ter **preferência sobre os demais itens até a decisão**. Não há arquivamento automático ou aprovação tácita pelo esgotamento dos prazos.
 8. **Julgamento Soberano em Plenário:**
    - O Plenário aprecia o parecer e o projeto de resolução do Conselho de Ética;
-   - É assegurado ao deputado o direito de sustentar sua defesa pessoalmente ou por advogado em todas as fases, inclusive diretamente da tribuna do Plenário;
+   - **Direito de defesa (art. 15):** em todas as fases dos processos dos arts. 13 e 14, inclusive no Plenário, o deputado pode defender-se **pessoalmente, por advogado ou por outro parlamentar que indicar**, desde que este **não seja integrante do Conselho de Ética**. Essa condição também integra o regime de defesa, e não apenas os prazos do art. 14;
    - **Quórum e modalidade de votação:** para a declaração de suspensão ou de perda do mandato, a Constituição e o Regimento exigem **maioria absoluta de votos dos membros da Câmara (pelo menos 257 deputados)**;
    - **Votação aberta (EC 76/2013):** historicamente, o art. 14 do Código e o art. 55, § 2º, da CF previam voto secreto. Com o advento da **Emenda Constitucional nº 76, de 2013**, **todo e qualquer julgamento de perda de mandato parlamentar é realizado por votação ostensiva/aberta**. Qualquer referência em questão de prova a escrutínio secreto na perda de mandato parlamentar por quebra de decoro é anacrônica e incorreta.
 
@@ -327,6 +327,8 @@ Em processo disciplinar grave no Conselho de Ética, o deputado relator profere 
 - **Rito escorreito:** o Conselho deve aprovar requerimento fundamentado e remetê-lo à **Mesa da Câmara**, a qual submeterá a autorização de quebra de sigilo bancário/fiscal à deliberação do **Plenário da Câmara dos Deputados**.
 
 **Teste de controle dos casos 1 e 3:** uma denúncia de cidadão descreve desacato por palavras do art. 5º, III, e pede que a Mesa encaminhe obrigatoriamente a representação ao Conselho em até três sessões ordinárias. **Errado.** O art. 9º, § 2º, II, remete ao procedimento dos **arts. 11 ou 12** quando couber censura. Outro enunciado afirma que a perturbação da ordem em sessão, por si só, exige censura escrita pela Mesa: **errado**; para art. 5º, I e II, existe a censura **verbal** do art. 11, com competência própria. Os fatos concretos podem envolver infrações diversas, que devem ser analisadas separadamente.
+
+**Dois limites de prova:** suspensão do mandato **superior a 120 dias** exige convocação imediata do suplente **após a publicação da resolução** (art. 14, § 2º), e a pena disciplinar **não elimina** o ressarcimento integral de vantagens indevidas provenientes de recursos públicos (art. 10, § 3º). Em ambos os casos, o enunciado pode acertar a competência do Plenário e ainda assim errar ao omitir a consequência legal.
 
 ## 9. Como o Cebraspe cobra o Código de Ética e Decoro Parlamentar
 

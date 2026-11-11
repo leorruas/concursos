@@ -103,7 +103,7 @@ Na dosimetria da pena, consideram-se natureza e gravidade da infração, danos �
 | **Suspensão Temporária do Exercício do Mandato** | **Plenário da Câmara dos Deputados** | Incisos IV, V, IX e X do art. 5º | Até **6 meses**; defesa **10 dias úteis**, até **8 testemunhas**, instrução **30 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva (art. 14). |
 | **Perda do Mandato** | **Plenário da Câmara dos Deputados** | Art. 4º (atos incompatíveis) | Defesa **10 dias úteis**, até **8 testemunhas**, instrução **40 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva (art. 14). |
 
-### O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, V)
+### O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)
 A penalidade de suspensão de prerrogativas regimentais incide sobre faculdades regimentais do deputado, sem retirá-lo da votação em Plenário nem cassar seu subsídio. Podem ser suspensas, por até seis meses, no todo ou em parte:
 - O direito de usar a palavra no horário do Pequeno ou do Grande Expediente;
 - O direito de encaminhar discurso para publicação no Diário da Câmara dos Deputados;
@@ -118,7 +118,7 @@ O Conselho de Ética e Decoro Parlamentar é órgão integrante da estrutura ins
 - **Número de membros:** compõe-se de **21 membros titulares e igual número de suplentes** (redação dada pela Resolução nº 2/2011; o texto primitivo de 2001 previa 15 membros);
 - **Duração do mandato:** **dois anos**, com exercício até a posse dos novos integrantes (salvo encerramento da última sessão legislativa da legislatura). A vedação específica à reeleição para o mesmo cargo na eleição seguinte alcança **Presidente e Vice-Presidentes do Conselho** (art. 7º, caput e § 5º);
 - **Proporcionalidade partidária:** as vagas são distribuídas entre os partidos e blocos parlamentares segundo a proporcionalidade partidária da Casa;
-- **Regra especial da Corregedoria:** o partido a que pertencer o Corregedor da Câmara designará, como titular, **um deputado a menos** do que o número a que teria direito pela proporcionalidade, já que o Corregedor possui assento especial;
+- **Proporcionalidade e Corregedoria:** o art. 7º, § 3º, do Código consolidado disciplina a proporcionalidade na composição do Conselho. A fórmula histórica de desconto de uma vaga do partido do Corregedor não consta da redação atual desse dispositivo; não deve ser aplicada como regra vigente do Código. A participação atual do Corregedor, com voz e sem voto, decorre do art. 9º, § 4º;
 - **Papel do Corregedor da Câmara (art. 9º):** participa de todas as deliberações do Conselho de Ética **com direito a voz, mas sem voto**, competindo-lhe promover as diligências de sua alçada para esclarecimento dos fatos investigados;
 - **Impedimentos para integrar o Conselho (art. 7º, § 2º):** não pode ser membro do Conselho o deputado:
   1. Submetido a processo disciplinar em curso por ato atentatório ou incompatível com o decoro;
@@ -183,6 +183,20 @@ O [Acordo de Procedimentos do biênio 2025–2027](https://www2.camara.leg.br/a-
 - O relator dispõe de **dez dias úteis a partir da designação para o parecer preliminar**, e o pedido de vista deve ocorrer depois da leitura do voto e antes do início da votação, por **dois dias úteis** (item 3). Esses prazos são distintos dos dez dias úteis do parecer final do Código, art. 14, § 4º, IV.
 - Nas votações de pareceres, há voto nominal por maioria simples, presente a maioria absoluta do Conselho. O Presidente vota apenas no desempate (item 5).
 - O acordo regula, separadamente, **sobrestamento de pauta**, tratamento de **documentos sigilosos** e procedimento de **suspensão cautelar temporária** com apreciação em até **três dias úteis** (item 6). Essa suspensão cautelar do RICD não deve ser confundida com a sanção de suspensão temporária do mandato após o processo disciplinar de mérito.
+
+### Suspensão cautelar do exercício do mandato: RICD art. 15, XXX, e Ato da Mesa nº 180/2025
+
+A **suspensão cautelar** antecede o julgamento disciplinar e tem fundamento próprio no **Regimento Interno**, alterado pela **Resolução da Câmara nº 11/2024**. Não se confunde com a **suspensão sancionatória** decidida após o procedimento dos arts. 10 e 14 do Código de Ética.
+
+- **Corregedoria:** ao tomar conhecimento do fato que pode ensejar representação por quebra de decoro, o Corregedor envia **comunicação circunstanciada à Mesa em 48 horas**, com proposta de suspensão cautelar, de ofício ou provocado por deputado (Ato da Mesa nº 180/2025, art. 2º).
+- **Mesa Diretora:** dispõe de **cinco dias úteis, contados do conhecimento do fato**, para oferecer a proposta, em representação por quebra de decoro **de autoria da própria Mesa** (RICD art. 15, XXX e § 2º). Recebida a comunicação do Corregedor, decide pela apresentação da representação **por maioria absoluta**; a falta dessa comunicação não impede a Mesa de agir no prazo regimental restante (Ato nº 180/2025, art. 2º, §§ 1º e 2º). A decisão não pode ser tomada isoladamente pelo Presidente *ad referendum* da Mesa (RICD art. 15, § 1º).
+- **Conselho de Ética:** recebe imediatamente a proposta e decide, **em votação ostensiva, em três dias úteis**, com prioridade sobre outras deliberações (RICD art. 15, § 3º).
+- **Recurso:** pode ser apresentado pelo **deputado representado**, se o Conselho determinou a suspensão, ou pela **Mesa**, se a recusou. O prazo de interposição é de **um dia útil após a publicação da decisão do Conselho no Diário da Câmara**; a deliberação da Mesa para recorrer exige maioria absoluta (Ato nº 180/2025, art. 4º). O **Plenário julga na sessão imediatamente subsequente**, em votação ostensiva, exigidos votos da **maioria absoluta dos deputados** para aprovar ou manter a suspensão (RICD art. 15, §§ 4º e 5º).
+- **Omissão do Conselho:** se não decidir nos três dias úteis, a Mesa encaminha a proposta ao **Plenário**, que a aprecia na sessão imediatamente subsequente, com prioridade e maioria absoluta para aprová-la (RICD art. 15, § 6º).
+
+**Matriz de contagem:** 48 **horas** da Corregedoria; cinco **dias úteis** da Mesa; três **dias úteis** do Conselho; um **dia útil** para interpor recurso; **sessão imediatamente subsequente** para deliberação plenária. São marcos de atos diferentes. O prazo da cautelar acompanha o limite referenciado no **art. 10, III, do Código**, mas não substitui a decisão sancionatória de mérito.
+
+Fontes: [Resolução da Câmara nº 11/2024, art. 2º](https://www2.camara.leg.br/legin/fed/rescad/2024/resolucaodacamaradosdeputados-11-12-junho-2024-795774-publicacaooriginal-172082-pl.html); [Ato da Mesa nº 180/2025, arts. 2º a 4º](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-180-7-maio-2025-797421-publicacaooriginal-175313-cd-mesa.html); [Código de Ética consolidado, Resolução nº 25/2001](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).
 
 ### Passo a passo detalhado do procedimento
 

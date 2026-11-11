@@ -3,7 +3,7 @@
 **Privacidade: protocolo vigente desde 05/11/2026.** Os registros individuais ficam em `leorruas/concurso-dados` (**privado**), que agora possui `AGENTS.md`. Ler `leorruas/concurso-dados:AGENTS.md` e `data/sessoes/README.md` (do cofre) antes da primeira gravação. Para retomar, ler `leorruas/concurso-dados:data/contexto-estudo/<concursoId>.json` ou `data/contexto-estudo/<concursoId>/<materia>.json`; para finalizar bateria, gravar `leorruas/concurso-dados:data/sessoes/<id>.json`. Também são privados o ledger, `data/erros-recorrentes.json`, `00 - Desempenho/**` e `3 - Materias/**/Avancos.md`. Teoria, editais, `data/flashcards.json` e o catálogo editorial ficam em `leorruas/concursos` (**público**). O workflow do cofre recalcula os indicadores, sem publicar respostas. Se não houver acesso ao privado, suspender registro remoto e comunicar a limitação; nunca usar o público como alternativa.
 
 
-**Banca da preparação:** CGU 2026, especialidade Auditoria: **Cebraspe, itens Certo/Errado (C/E)** em todas as matérias, incluindo Contabilidade e Avaliação de Políticas Públicas. Ler `activeExam` no contexto antes de escolher o formato. As instruções da Dataprev/FGV e a regra de cinco alternativas pertencem à Dataprev. A prova histórica CGU 2022/FGV é apoio de conteúdo; o treino da CGU 2026 segue Cebraspe. Na primeira resposta de cada retomada, indicar brevemente “CGU 2026: Cebraspe, C/E”.
+**Banca da preparação prioritária desde 11/11/2026:** Câmara dos Deputados 2026, Cargo 1, Comunicação Social/Divulgação Institucional: **Cebraspe, itens Certo/Errado (C/E)**, 90 básicos e 90 específicos, mais duas discursivas e uma peça técnica. Sempre consultar `activeExam` no contexto selecionado. CGU permanece disponível quando explicitada, com seus próprios pesos e conteúdo; Dataprev mantém seu protocolo FGV. Na primeira retomada genérica, indicar brevemente “Câmara 2026: Cebraspe, C/E”.
 
 Protocolo cotidiano único. Para aulas, revisões e baterias, esta entrada substitui a releitura integral de governança e histórico. Manutenção, notas novas e simulados integrais seguem `AGENTS.md` e os contratos.
 
@@ -13,7 +13,7 @@ Ao receber `#lembrete`, seguir o protocolo geral do `AGENTS.md`: preservar o tex
 
 ## Encontrar o ponto de retomada
 
-Concurso explícito prevalece. Entre 12/10 e 13/12/2026, o padrão é Controladoria-Geral da União (CGU), Auditoria. As datas e aliases estão em `data/contexto-estudo/indice.json`; consultar o índice só para alias desconhecido, ambiguidade ou troca de concurso.
+Concurso explícito prevalece. **A partir de 11/11/2026 até a prova prevista de 17/01/2027**, o padrão para estudo genérico é **Câmara dos Deputados, Cargo 1, Divulgação Institucional**, por decisão de 11/11; ver [[1 - Planejamento/Camara 2026 - Estrategia de estudo ate janeiro|estratégia até janeiro]]. A prioridade CGU vigorou antes dessa mudança; pedidos explícitos de CGU seguem normalmente. As datas e aliases estão em `data/contexto-estudo/indice.json`; consultar o índice só para alias desconhecido, ambiguidade ou troca de concurso.
 
 Com matéria explícita, ler diretamente `data/contexto-estudo/<concurso>/<materia-em-slug>.json`: por exemplo, `cgu-2026/contabilidade-publica.json`, `cgu-2026/auditoria-governamental.json` ou `cgu-2026/direito-administrativo.json`. O assistente resolve nomes e caminhos; o estudante não informa IDs. Para “continuar a CGU de onde parei”, ler `data/contexto-estudo/cgu-2026.json` e seguir `resume.path`.
 

@@ -5,7 +5,7 @@ title: "Fluxos de comunicação organizacional: direção e hierarquia"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Fluxos de comunicação organizacional: direção e hierarquia
@@ -108,6 +108,12 @@ A mudança de canal para reunião presencial não altera automaticamente a dire�
 **Item 3, inédito:** “A troca de informação entre duas chefias de departamentos diferentes, no mesmo nível hierárquico, pode ser horizontal sem ser necessariamente diagonal entre níveis.”
 
 **Gabarito: Certo.** A categoria horizontal considera a equivalência entre as posições.
+
+## Prova real Cebraspe DPDF, edital 2020, aplicação 2022: fluxos e ambientes (11/11/2026)
+
+O [caderno oficial DPDF 548_DPDF_005_01](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF), aplicado em **13/02/2022** apesar da identificação “Edital: 2020”, cobra, no **item 57 (Errado)**, uma definição de **ambiente setorial** que descreve, na verdade, fatores **internos**: pessoas, competências e infraestrutura da própria organização. O **item 60 (Errado)** nega influência da comunicação interna na trajetória da organização. Ambos foram confrontados diretamente com o [gabarito oficial definitivo](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/GAB_DEFINITIVO_548_DPDF_005_01.PDF).
+
+**Lição:** ambiente **interno** descreve recursos, capacidades e dinâmicas organizacionais; ambiente **setorial** examina relações externas pertinentes ao setor. Comunicação interna e externa podem produzir efeitos interdependentes, mas um fluxo descendente, ascendente, horizontal ou diagonal não demonstra por si impacto causal ou qualidade da estratégia. O julgamento dos itens 57 e 60 decorre do contexto da prova histórica e não substitui definição autoral das categorias de fluxo.
 
 ## Heurísticas
 

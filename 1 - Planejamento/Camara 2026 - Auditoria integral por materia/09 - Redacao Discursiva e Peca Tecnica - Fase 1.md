@@ -203,3 +203,57 @@ Foram acessados diretamente os arquivos abaixo, confirmando seus títulos intern
 - **Artigos de Redação:** três artigos canônicos, hub e guia específico preservados e previamente avaliados. `index.md` e catálogo confirmam vínculos, mas **inventário físico exaustivo de possíveis arquivos órfãos continua pendente**; a API de arquivos pontuais não fornece listagem de diretório neste fluxo.
 - **Compartilhados:** novos arquivos de Comunicação, Português e Processo Legislativo efetivamente recuperados, com leitura dirigida de estrutura e trechos-chave, completando amostra mais representativa. Não equiparar isso a leitura exaustiva ou verificação independente da norma.
 - **Estado final deste bloco:** **Fase 1 continua parcialmente verificada**. Para encerramento integral, resta listagem física inequívoca de Redação, inspeção integral das fontes adicionais que sustentem modelos, enunciado TCE-MG, verificação da matriz do edital frente a retificações posteriores e aplicação demonstrativa de rubrica em peças completas (autoria identificada). O relatório não cria nem modifica essas peças nesta etapa.
+
+
+## Continuação de 11/11/2026: blocos 11–13, fechamento de corpus e verificação primária do edital
+
+**Regra de leitura temporal:** este bloco atualiza os estados anteriores; os itens marcados como pendentes nos blocos precedentes continuam registrados como histórico, mas o estado presente consta abaixo. **Concorrência:** antes de gravar, conferidos o SHA atual deste arquivo, `ddf2e23857e107f649f8adb3fd2a01d7612f1514`, e o commit recente do repositório, `5991bbf9e36ca0dfb4e2c106a6fc25819fde8627`. Modificação restrita a este relatório.
+
+### Bloco 11: Cebraspe TCE-MG, enunciado original e espelho definitivo [CONFERIDO]
+
+**Pendência RD-002 (corpus): parcialmente resolvida.** Localizado o [caderno discursivo original oficial de cargos 6 a 10 do TCE-MG 2025, aplicação em 25/01/2026, PDF](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/3ADF49146A2E55690BB77554138AD177F6BD763BC8B6C35FECD4EB7BAB4A06CD.pdf), p. 4 do PDF (índice 3). A Questão 2 do Cargo 8, Comunicador Social, foi inspecionada visualmente e confrontada com o [padrão definitivo oficial, página/trecho referente à Questão 2](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F38183E8ACE5B775CF445F24D52F5AB2E256333F594FE1078FD73B84B535690C.pdf). O caderno determina:
+
+| Quesito literal por sentido, sem reproduzir integralmente o enunciado | Valor anunciado | Correspondência no padrão definitivo |
+| --- | ---: | --- |
+| Papel do profissional de comunicação no planejamento de acessibilidade em eventos | 3,50 | Exige atribuições e planejamento efetivos; mencionar acessibilidade genericamente é conceito insuficiente |
+| Pelo menos três recursos de acessibilidade e/ou tecnologias assistivas | 3,00 | Conceitos 0–3 graduam contagem de recursos: nenhum, um, dois, três ou mais |
+| Contribuição desses recursos para inclusão social, equidade e combate ao capacitismo | 3,00 | Requer vínculo explicativo de recursos com efeitos sociais e enfrentamento da discriminação |
+
+O próprio caderno reserva até **0,50 ponto** para apresentação e estrutura, totalizando 10,00 pontos. **Regra operacional extraída da prova real:** números e conectivos em comandos são requisitos pontuáveis; um estudante pode explicar profundamente um recurso e deixar dois exemplos exigidos de fora. Também pode listar três recursos e perder o quesito que exige explicar sua contribuição para inclusão/equidade/capacitismo. Uma resposta adequada depende da função de cada trecho, não da simples presença de termos.
+
+**Limite de analogia:** TCE-MG utiliza até **60 linhas** por questão no edital daquele concurso, e não 20; os pesos acima são exclusivos da questão de acessibilidade de 2026, não pesos de futuras questões da Câmara.
+
+**Estado atualizado dos três pares oficiais:** PF Administrativo 2025 (enunciado e padrão definitivo), Câmara Processo Legislativo e Gestão março/2026 (enunciado e padrão definitivo), TCE-MG Cargo 8 janeiro/2026 (enunciado e padrão definitivo) **localizados e cotejados na extensão acima**. A confirmação é documental; não equivale a uma análise estatística da banca nem a predição de temas.
+
+### Bloco 12: revisão do edital atual em fonte primária [CONFERIDO]
+
+Fonte: [Câmara dos Deputados, Edital nº 1, de 02/10/2026](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades), páginas do PDF **38, 39 e 40 (índice zero)**, itens **9.1, 9.4–9.8.5.5**. Inspeção visual realizada em especial nas páginas 39–40. Confirma:
+
+- Para o **Cargo 1**, **duas questões** com até **20 linhas**, **15 pontos** cada, e uma **peça técnica** com até **50 linhas**, **30 pontos**, todos conhecimentos específicos, total de **60 pontos**.
+- `NQi = NCi - (3 × NEi / TLi)` e `NPT = NC - (6 × NE / TL)`. O fator 3 é de cada questão e 6 é da peça; `TL` conta **linhas efetivamente escritas**, não o máximo permitido. NC é a nota de conteúdo que inclui apresentação/estrutura e desenvolvimento do tema; a penalização adicional é da modalidade escrita.
+- Critérios linguísticos incluem **grafia, morfossintaxe e propriedade vocabular**; texto excedente ou fora do espaço próprio não entra na avaliação; fuga ao tema ou ausência de texto implicam zero **no respectivo componente**.
+- `NFPD = NQ1 + NQ2 + NPT`; aprovação discursiva requer **NFPD >= 30**; nota insuficiente elimina. Não devolver o documento definitivo anula a prova e elimina.
+- A avaliação de conteúdo é feita por pelo menos dois examinadores; **25% da nota máxima de conteúdo possível na questão/peça**, não 25% da nota final do concurso, é o limiar de divergência das correções. Terceira correção sob a condição do item 9.8.4.1.3.
+- Texto definitivo manuscrito legível com caneta preta transparente (com exceções de atendimento especializado), sem marca identificadora, e sem substituição do documento por erro do candidato; folhas de rascunho não são avaliadas. As provas discursivas só são corrigidas para o grupo habilitado conforme 8.11.6 e seguintes.
+- O edital exige *texto dissertativo conforme o comando*. O rótulo genérico `peça técnica` **não define formato único**. Apresentar modelo de parecer/briefing/plano como obrigatório seria conjectura.
+
+**Retificações:** a [página oficial de editais](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades) mostrava até o Edital nº 6 em 11/11/2026. Inspecionadas as páginas do [Edital nº 5 (15/10/2026)](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-5-cd-analista-especialidades-de-15-de-outubro-de-2026) e [nº 6 (21/10/2026)](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-6-cd-especialidades-de-21-de-outubro-de-2026). Nenhum deles alterou os itens de prova discursiva 9.1/9.8.5. O nº 5 modificou requisito profissional do Cargo 1, tema relevante para inscrição, mas **fora da responsabilidade editorial desta matéria**. Os editais 2–4 tratam de vagas e sorteio, conforme sumário da página; não se constatou, pelos seus títulos, mudança do regime discursivo, sem lhes atribuir leitura integral.
+
+### Bloco 13: diagnóstico de transferência e instrumento de aferição [INTERPRETAÇÃO]
+
+A comparação entre os comandos reais reforça um princípio de arquitetura: há pelo menos **quatro operações diferentes** a serem treinadas, com avaliações próprias.
+
+| Operação | Evidência oficial | Erro que o treino precisa revelar | Exercício curto para futura Fase 3 |
+| --- | --- | --- | --- |
+| Explicar dois efeitos distinguíveis | PF 2025, cultura e relações de poder | Cobrir o primeiro objeto, omitir o segundo; usar uma generalização para ambos | Grade `efeito A / mecanismo / efeito B / mecanismo`, depois texto de 20 linhas em **adaptação didática** |
+| Enumerar quantidade mínima | TCE-MG 2026, **três recursos** | Tratar um exemplo detalhado como equivalente à enumeração de três | Listar 3 exemplos corretos e uma função de cada, sem inventar requisito |
+| Relacionar conceitos e resultados | TCE-MG 2026, inclusão/equidade/capacitismo | Nomear os três fins sem demonstrar a relação com recursos | Três relações explícitas de causa/efeito/limite na resposta |
+| Desenvolver vários subquesitos técnicos ponderados | Câmara 08/03/2026, peça com pesos diferentes | Alocar linhas iguais para itens que exigem diferentes níveis de detalhe | Mapear peso (apenas se conhecido), complexidade e risco de omissão; produzir peça de até 50 linhas |
+
+**Rubrica de treino recomendada para Fase 3, não oficial:** (A) fidelidade ao verbo e ao objeto; (B) unidades de conteúdo completas; (C) precisão conceitual/normativa; (D) organização que permite localizar cada quesito; (E) NE e TL conforme edital; (F) tempo, legibilidade e revisão. Cada indicador deve guardar *evidência textual*, não apenas um número. Em modelos inteiramente autorais sem padrão definitivo, registrar `cobertura de rubrica didática`, **sem converter automaticamente em nota Cebraspe**.
+
+**Dois encontros de estudo por semana:** fixar a primeira produção como questão de até 20 linhas, a segunda como peça de até 50; realizar uma reescrita focada em quesitos ausentes. Em semanas de alta carga objetiva, admitir alternância de peça integral e planejamento detalhado de peça **desde que não se registre planejamento como produção completa**. A meta semanal do plano de 3 horas continua sendo teto, com avaliação quinzenal baseada em cobertura de quesitos, erros repetidos em novos comandos e tempo, não em quantidade de textos.
+
+**Pendências reais após esta atualização:** (1) falta uma **listagem recursiva física confiável** do diretório Redacao para descartar notas órfãs, pois o conector de leitura por caminho informa que o diretório existe mas não fornece seus filhos; `index.md` e catálogo só provam os três artigos registrados, não exaustão física; (2) os materiais compartilhados foram lidos de forma dirigida, sem inspeção normativa integral por essa frente, e devem ser usados somente como repertório cujo cotejo é responsabilidade das auditorias de origem; (3) falta verificar a capacidade de aplicação do método a *textos completos de 20 e 50 linhas*, com rubricagem demonstrada. Esses modelos não foram produzidos nem incorporados aos artigos durante a Fase 1.
+
+**Estado: Fase 1 parcialmente verificada, sem alterações nos artigos, no catálogo e no índice geral.** Não declarar conclusão integral com essas três pendências.

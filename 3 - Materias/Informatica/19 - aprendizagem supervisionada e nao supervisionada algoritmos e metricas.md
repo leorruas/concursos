@@ -5,7 +5,7 @@ title: "Aprendizagem supervisionada e não supervisionada: algoritmos, tarefas, 
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Aprendizagem supervisionada e não supervisionada: algoritmos, tarefas, dados rotulados e métricas
@@ -83,14 +83,14 @@ Para problemas de **Regressão**, avalia-se o resíduo (diferença entre o valor
 - **MAE (*Mean Absolute Error*)**: Média das diferenças absolutas;
 - **MSE (*Mean Squared Error*)**: Média dos erros ao quadrado (penaliza severamente grandes erros);
 - **RMSE (*Root Mean Squared Error*)**: Raiz do MSE (mantém a mesma unidade de medida da variável dependente);
-- **$R^2$ (Coeficiente de Determinação)**: Proporção da variância dos dados explicada pelo modelo (varia de 0 a 1).
+- **$R^2$ (Coeficiente de Determinação)**: Compara o erro quadrático do modelo com o de uma referência que prevê a média observada. Seu valor pode ser **negativo**, especialmente na avaliação fora da amostra; não está universalmente restrito ao intervalo de 0 a 1.
 
 ---
 
 ## 2. Aprendizagem Não Supervisionada (*Unsupervised Learning*)
 
 ### 2.1 Definição e Mecânica Operacional
-Na aprendizagem não supervisionada, o conjunto de dados é composto **exclusivamente por características de entrada sem qualquer rótulo ou gabarito**:
+Na aprendizagem não supervisionada, o treinamento é conduzido **sem usar rótulos-alvo como sinais de supervisão**. Rótulos de referência podem existir para avaliação externa, mas não são usados pelo algoritmo para ensinar a tarefa:
 $$\mathcal{D} = \{x_1, x_2, \dots, x_n\}$$
 O algoritmo não recebe respostas prévias e não sabe *"o que procurar"*. Sua tarefa é **explorar a estrutura intrínseca, densidade e correlações dos dados** para descobrir padrões ocultos, agrupamentos naturais ou sintetizar representações simplificadas.
 
@@ -132,7 +132,7 @@ Para evitar simplificações exageradas em prova, cabe destacar duas abordagens 
    - O algoritmo usa a porção rotulada para criar um classificador inicial preliminar e aplica esse modelo aos dados não rotulados para atribuir "pseudo-rótulos", refinando o aprendizado com custo financeiro e humano reduzido.
 2. **Aprendizagem Autossupervisionada (*Self-Supervised*)**:
    - Técnica dominante no treinamento dos modelos de fundação e LLMs (como GPT e BERT);
-   - O próprio algoritmo gera seus próprios rótulos a partir dos dados brutos não estruturados (ex.: ocultar a próxima palavra de uma frase e treinar a rede para prevê-la a partir do contexto anterior).
+   - Os alvos de treinamento são derivados dos próprios dados, como prever o **próximo token** a partir dos anteriores (modelos autorregressivos) ou prever **tokens mascarados** a partir do contexto (modelos do tipo BERT). São tarefas distintas e não devem ser misturadas num mesmo exemplo.
 
 ---
 
@@ -170,7 +170,7 @@ Para evitar simplificações exageradas em prova, cabe destacar duas abordagens 
 > Em problemas de classificação supervisionada, a acurácia é sempre a métrica mais confiável e recomendada para avaliar a eficácia de um modelo preditivo, independentemente do nível de desbalanceamento existente entre as classes do conjunto de dados.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: A palavra *"sempre"* denuncia a clássica pegadinha do Cebraspe. Em bases de dados desbalanceadas (como detecção de fraudes ou ataques cibernéticos raros), a acurácia mascara completamente o fracasso do modelo. Nessas situações, métricas como **Precisão, Revocação e F1-Score** são infinitamente mais informativas e indicadas.
+- **Fundamentação**: A palavra *"sempre"* denuncia a clássica pegadinha do Cebraspe. Em bases de dados desbalanceadas (como detecção de fraudes ou ataques cibernéticos raros), a acurácia mascara completamente o fracasso do modelo. Nessas situações, **precisão, revocação, F1 e outras métricas adequadas ao custo de cada erro** podem revelar falhas ocultas pela acurácia. A escolha depende do objetivo e da prevalência da classe positiva.
 
 ---
 
@@ -218,8 +218,8 @@ Para evitar simplificações exageradas em prova, cabe destacar duas abordagens 
    - O que o modelo prevê é número contínuo / valor financeiro / tempo (ex.: R$ 54,20; 12,5 dias) $\rightarrow$ **Regressão**.
 3. **Métricas de Classificação**:
    - Base desbalanceada $\rightarrow$ Fuja da *Acurácia*; use **Precisão, Revocação e F1-Score**.
-   - Falso Positivo é grave (ex.: jogar e-mail legítimo no lixo de spam) $\rightarrow$ Priorize **Precisão**.
-   - Falso Negativo é catastrófico (ex.: deixar passar um tumor em exame ou um ataque hacker) $\rightarrow$ Priorize **Revocação (Recall)**.
+   - Se falsos positivos têm custo elevado, considere priorizar **precisão**, sem ignorar revocação e taxa-base.
+   - Se falsos negativos têm custo elevado, considere priorizar **revocação**, examinando também precisão e as consequências dos falsos positivos.
 
 ---
 
@@ -229,3 +229,5 @@ Para evitar simplificações exageradas em prova, cabe destacar duas abordagens 
 - **BISHOP, Christopher M.**: *Pattern Recognition and Machine Learning*. Springer.
 - **HASTIE, Trevor; TIBSHIRANI, Robert; FRIEDMAN, Jerome**: *The Elements of Statistical Learning*. 2ª ed., Springer.
 - **Documentação Scikit-Learn**: *Supervised and Unsupervised Learning User Guide*.
+
+> **Revisão técnica (11/11/2026):** corrigidos limites do $R^2$, distinção entre objetivos autossupervisionados e linguagem absoluta sobre métricas. O exemplo de 99% de acurácia em dados desbalanceados continua ilustrativo. Questões inéditas não equivalem a itens oficiais da banca.

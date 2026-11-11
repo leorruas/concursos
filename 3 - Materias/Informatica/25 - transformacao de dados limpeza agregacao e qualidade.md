@@ -188,7 +188,7 @@ A governança corporativa de dados (conforme o framework *DAMA-DMBOK - Data Mana
 > **Assertiva:** A dimensão de qualidade de dados conhecida como consistência verifica se os dados armazenados em determinado repositório estão em conformidade com o formato sintático e as restrições de tipo de dados definidas pelo esquema do banco.
 >
 > **Gabarito:** **ERRADO**  
-> **Comentário:** O enunciado descreve a **Validade (*Validity*)** (respeito a regras de formato, tipo e domínio). A **Consistência (*Consistency*)** assegura a não contradição entre dados correlacionados em diferentes sistemas ou tabelas (ex.: uma pessoa não pode figurar simultaneamente como ativa e falecida no mesmo período).
+> **Comentário:** Respeito a **formato, tipo e domínio** corresponde frequentemente à dimensão **validade (*validity*)**. **Consistência (*consistency*)** pode tratar coerência entre registros, tabelas e regras de negócio. As dimensões de qualidade variam conforme a taxonomia e podem se sobrepor; não é correto tratar validade e consistência como mutuamente exclusivas em todo framework. O gabarito ERRADO é mantido em leitura da distinção didática adotada no artigo, mas exige referência ao padrão específico antes de homologação externa.
 
 ---
 
@@ -201,3 +201,5 @@ A governança corporativa de dados (conforme o framework *DAMA-DMBOK - Data Mana
 5. **CÂMARA DOS DEPUTADOS.** *Manual de Abertura e Qualidade de Dados Legislativos.* Brasília: Centro de Informática (Cenin), 2023.
 
 > **Revisão editorial (11/11/2026):** correções dirigidas às ressalvas da auditoria da Câmara, preservando as distinções técnicas e evitando universalizar heurísticas. Questões inéditas ainda não homologadas como questões oficiais da banca.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** Q1–Q6 preservam respostas de leitura dirigida (C, E, E, E, C, E). Item 6 sob ressalva por sobreposição terminológica de dimensões de qualidade; a nomenclatura deve ser ancorada no framework utilizado pelo enunciado.

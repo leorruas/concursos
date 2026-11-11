@@ -5,7 +5,7 @@ title: "Endomarketing: objetivos, ações, públicos e fronteiras com comunicaç
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Endomarketing: objetivos, ações, públicos e fronteiras com comunicação interna
@@ -111,6 +111,16 @@ Em organizações públicas, é importante distinguir **finalidade do serviço a
 **Item 3, inédito:** “Uma ação de endomarketing que aumenta o conhecimento sobre a missão institucional demonstra, por si só, que os empregados desenvolveram as habilidades e as condições materiais necessárias para executar o serviço.”
 
 **Gabarito: Errado.** **Conhecimento, habilidade e condições materiais** são objetos diferentes. Mecanismo: inferência de resultados não observados.
+
+## Cotejo autoral: Bekin, data e fronteiras (11/11/2026)
+
+O [perfil autobiográfico de Saul Faingaus Bekin na Academia Brasileira de Marketing](https://abramark.com.br/hall-da-fama/saul-faingaus-bekin/) atribui ao autor a origem do conceito em **1975** e registra reivindicação de registro no INPI em **1991**. O [site do próprio autor, seção Fundamentos](https://www.endomarketing.com.br/site.php?lang=1&opt=endomarketing), apresenta fundamentos desenvolvidos em **1990**, com prática desde 1975. **Origem relatada, formulação publicada e registro são eventos diferentes**; as datas do relato autobiográfico não provam, por si, autoria exclusiva de toda a tradição internacional de marketing interno.
+
+A [apresentação editorial da obra de Bekin](https://www.endomarketing.com.br/site.php?lang=1&opt=edicao02) relaciona endomarketing a valorização e capacitação de trabalhadores, integração e qualidade de serviços oferecidos aos clientes. A mesma fonte dá o lançamento da edição ali apresentada como **outubro de 2003**, enquanto outras edições e registros bibliográficos mencionam **2004**; deve-se identificar a edição quando o ano fizer diferença, sem converter uma data de catálogo em cronologia universal.
+
+**Cotejo dos itens C/E inéditos:** item 1 **Certo**: o foco interno e a finalidade de relacionamento/serviço são compatíveis com a apresentação do autor, enquanto a distinção para mera instrução operacional é uma **inferência editorial**; item 2 **Errado**: os três níveis nomeados pertencem ao modelo cultural de Schein, não aos fundamentos apresentados por Bekin; item 3 **Errado**: conhecer a missão é diferente de demonstrar capacidades e condições de execução. **Gabaritos mantidos**, sem atribuir os três itens à banca real.
+
+**Ressalvas:** a origem e a edição foram cotejadas em fontes autorais e editoriais disponíveis; **não houve leitura integral dos livros de 1990 ou 2004**, nem validação das relações com gestão de pessoas e resultados no setor público. Este artigo permanece **Corrigido no recorte bibliográfico e didático**, sem certificação integral, testes de links internos ou renderização.
 
 ## Aplicação discursiva
 

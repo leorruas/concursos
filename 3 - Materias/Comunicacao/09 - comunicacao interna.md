@@ -5,7 +5,7 @@ title: "Comunicação interna"
 type: "conceito"
 status: "ativo"
 created: 2026-07-10
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Comunicação interna
 
@@ -212,6 +212,17 @@ Os mecanismos recorrentes são muito claros:
 - trocar fluxo horizontal/lateral por ascendente ou vertical;
 - afirmar que comunicação elimina automaticamente resistência à mudança;
 - aplicar os oito passos de Kotter como se fossem categorias de canais internos.
+
+## Adaptação Câmara 2026: treino Cebraspe (itens inéditos)
+
+Este bloco complementa a expansão CAM-CO-001 acima. **Não é uma transcrição de questões anteriores da Cebraspe.** A aplicação institucional deve ser cruzada com o Anexo Único do Ato da Mesa nº 218/2025 e com o programa que diferencia os fluxos descendente, ascendente, horizontal e transversal.
+
+- **Item 1.** Em uma organização, toda comunicação interna voltada à circulação de informações e à escuta dos trabalhadores pode ser classificada, necessariamente, como endomarketing. **Errado.** Comunicação interna abrange processos mais amplos, enquanto endomarketing é uma abordagem específica.
+- **Item 2.** Uma mudança no clima percebido pelos integrantes de uma organização não comprova, por si só, alteração dos pressupostos básicos de sua cultura. **Certo.** Clima e cultura são conceitos relacionados, mas distintos.
+- **Item 3.** A comunicação entre unidades de níveis hierárquicos diferentes, quando cruza linhas formais entre áreas, pode caracterizar fluxo transversal. **Certo.** A identificação depende da direção e da estrutura de relacionamento, não apenas do canal empregado.
+- **Item 4.** A definição de público interno da política de comunicação da Câmara limita-se aos servidores efetivos do quadro permanente. **Errado.** O Anexo Único inclui outros integrantes, como parlamentares, terceirizados e estagiários.
+
+**Remissões:** [[3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos|Canais internos]], [[3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras|Cultura e clima]] e [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Ato da Mesa nº 218/2025]]. **Verificação pendente:** conferir a atribuição autoral das classificações e os dispositivos normativos em fonte primária antes de aprovar a revisão substantiva integral.
 
 ## Relações com outros temas
 

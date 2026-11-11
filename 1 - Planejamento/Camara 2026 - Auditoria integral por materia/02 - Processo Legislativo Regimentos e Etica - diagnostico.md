@@ -864,3 +864,12 @@ Manter o artigo como referência principal de `CAM-PL-004`. Renomear/identificar
 Commit `5a03fc4e4eaa812a7b2768eeacdff057cd02ea98`: **NC-PL-018 e NC-PL-019 corrigidas no DC36**, em quatro passagens (subtítulo, explicação, comentário da Q2 e fontes). A [Súmula 5 do STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1318) foi identificada como entendimento histórico **superado** pela orientação de que sanção não convalida vício de iniciativa (ADI 1.197, AR 1.753). O [Tema 22 (RE 560.900)](https://portal.stf.jus.br/jurisprudenciarepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=2551965&numeroProcesso=560900&numeroTema=22) não trata desse assunto; sua vinculação indevida foi retirada das justificativas. **Gabarito Q2 mantido ERRADO.**
 
 **Situação editorial:** 4/29 artigos modificados (DC13, DC34, DC35, DC36), 0/29 integralmente certificados. A revisão completa de DC36 permanece pendente.
+
+
+### Execução editorial: DC37, poder cautelar e sustação de contratos (11/11/2026)
+
+Commit `196563f7dd9ba30853688b7b68e9c2e4fa486a8a`: **NC-PL-020 corrigida no texto do DC37.** Reescrita a seção 5.2 para distinguir (a) determinação do TCU para a Administração adotar providências (CF, art. 71, IX); (b) sustação constitucional de contrato inicialmente pelo Congresso e subsidiariamente pelo TCU, na hipótese do § 2º, após 90 dias; e (c) medidas cautelares do TCU para evitar lesão ao erário, sem se equipararem à anulação direta ou sustação definitiva do contrato. Eliminada afirmação genérica de prazo constitucional fixo de 30 dias. Refeito Caso 4 para contrastar suspensão cautelar de repasses e anulação/sustação direta do contrato; revista tabela-resumo.
+
+**Fontes primárias:** [STF, art. 71, MS 23.550 e MS 24.510](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=71&abrirBase=CF) e [Informativo STF 922](https://www.stf.jus.br/arquivo/informativo/documento/informativo922.htm). O gabarito da Q5 que inverte competência permanece ERRADO e o núcleo continua correto; revisão exaustiva dos demais elementos de DC37 ainda pendente.
+
+**Andamento de edição:** 5/29 artigos alterados nesta fase (DC13, DC34, DC35, DC36, DC37): **17,2% de arquivos alcançados**. Certificação integral: 0/29. Esta porcentagem não mede fração de defeitos já resolvidos nem avanço integral de validação.

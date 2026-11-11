@@ -5,7 +5,7 @@ title: "Critérios de noticiabilidade"
 type: "conceito"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-11-11
 ---
 # Critérios de noticiabilidade
 
@@ -53,6 +53,20 @@ A FGV exige a diferenciação clara entre quatro elementos:
 A FGV costuma apresentar estudos de caso práticos perguntando por que determinado release de assessoria de imprensa não foi publicado ou qual elemento aumentaria o interesse jornalístico de um fato. O foco da banca não está na memorização simples da lista de critérios, mas sim na capacidade de identificar a utilidade e a finalidade da notícia sob a perspectiva do público-alvo do veículo.
 
 Outra cobrança recorrente envolve a identificação de trechos opinativos misturados a relatos de fatos, exigindo que o candidato isole a informação factual pura.
+
+## Auditoria de fonte clássica e limites de generalização (11/11/2026)
+
+A fonte clássica **Galtung e Ruge (1965), *The Structure of Foreign News***, [publicada no *Journal of Peace Research*](https://doi.org/10.1177/002234336500200104), propõe **doze fatores** de noticiabilidade para investigar a seleção de notícias internacionais. O resumo publicado pelos editores apresenta três hipóteses: **aditividade** (quanto mais fatores relevantes, maior a probabilidade de noticiar), **complementaridade** (alguns fatores podem compensar a ausência de outros) e **exclusão** (eventos com poucos fatores têm menor chance de cobertura). Os autores testaram essas hipóteses em notícias sobre crises internacionais publicadas em quatro jornais noruegueses. Isso delimita o **alcance histórico e empírico do modelo**: não é um código universal de seleção editorial nem uma lista fechada obrigatória.
+
+**Precisão necessária para estudar:** a lista geral de proximidade, impacto, atualidade e conflito no início deste artigo reúne **categorias didáticas de tradições distintas** e não reproduz literalmente os doze fatores de Galtung e Ruge. A obra original inclui frequência, limiar, clareza/não ambiguidade, significatividade, consonância, inesperado, continuidade, composição, referência a países e pessoas de elite, personalização e negatividade. **“Ineditismo” e “raridade” podem se sobrepor** em exemplos, sem estabelecer duas variáveis empiricamente independentes por definição. Noticiabilidade indica critérios de seleção, enquanto **verificação factual** trata de sustentação do enunciado. O *gatekeeping* investiga processos e agentes de filtragem, não um fator isolado de valor-notícia.
+
+**Ressalva sobre banca:** a seção anterior “Distinções Estruturais (FGV)” e a frase “a FGV costuma” são **heurísticas didáticas herdadas da nota**, sem caderno e gabarito FGV identificados neste artigo; não são evidência de frequência estatística da banca. Para a Câmara 2026, o corpus verificado contém, por exemplo, **DPDF, aplicada em 2022, item 112, Errado**, que foi julgado a partir de um texto jornalístico concreto. O gabarito desse item não demonstra uma hierarquia universal de valores-notícia. Ver o [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|índice de questões reais]].
+
+**C/E inédito 1.** “Na proposta de Galtung e Ruge, quanto maior o número de fatores de noticiabilidade identificados, mais garantida será a publicação da notícia em todos os veículos.” **Errado.** A hipótese é de maior probabilidade, não de resultado necessário.
+
+**C/E inédito 2.** “Um fato de alto interesse público pode demandar checagem rigorosa antes da divulgação, pois relevância jornalística e veracidade são dimensões diferentes.” **Certo.** A importância social do tema não valida automaticamente declarações ou dados.
+
+**Fontes e escopo:** [Galtung e Ruge, artigo original e resumo](https://journals.sagepub.com/doi/10.1177/002234336500200104); [revisão de estudos de valores-notícia em *Sociologica*](https://sociologica.unibo.it/article/download/11176/11563). A aplicação à comunicação da Câmara é analogia profissional, não norma do Legislativo. Os novos exercícios são inéditos e não entram na contagem de questões reais da Cebraspe.
 
 ## Relações com outros temas
 

@@ -5,7 +5,7 @@ title: "Projeto audiovisual: planejamento, execução e publicação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Projeto audiovisual: planejamento, execução e publicação
@@ -208,6 +208,24 @@ Uma taxa alta de conclusão de vídeo não confirma que a pessoa entendeu os req
 **Item 8.** Um vídeo com taxa elevada de conclusão pode, ainda assim, exigir pesquisa de compreensão ou teste de tarefa, porque terminar de assistir e demonstrar entendimento são resultados diferentes.
 
 **Certo.** Conclusão de reprodução e aprendizagem não compartilham unidade de evidência. **Mecanismo avaliado:** limite de inferência da métrica.
+
+## Caso integrado: acessibilidade, direitos, versões e preservação (11/11/2026)
+
+**Situação hipotética:** a Câmara grava um tutorial sobre participação em audiência pública. A equipe aprova o roteiro, capta entrevistas, edita com proxies e declara *picture lock*. O arquivo mestre será distribuído em vídeo horizontal, uma versão vertical e uma página acessível. Cada etapa gera evidências distintas; nem aprovação de roteiro, nem *picture lock*, nem aceite do arquivo mestre encerram a validação do material efetivamente publicado.
+
+**Conferência por fase:** roteiro e autorização de uso de imagem, voz e materiais; identificação das fontes e versões; armazenamento dos originais; reconformação e revisão de imagem e áudio; legendas e alternativas para conteúdo visual essencial, conforme a [WCAG 2.2, critérios 1.2.2, 1.2.3 e 1.2.5](https://www.w3.org/TR/WCAG22/#time-based-media); teste dos derivados no canal final, inclusive cortes de texto em versão vertical; registro do responsável pelo aceite e do histórico de alterações.
+
+**Preservação:** o [guia de integridade de dados da Library of Congress](https://www.loc.gov/programs/digital-collections-management/inventory-and-custody/data-integrity-management/) recomenda produzir informação de **fixidez** para detectar alterações ao longo do tempo e monitorar sua integridade. Copiar arquivos para um segundo disco, sem metadados, organização de versões, verificação de integridade e rotina de preservação, **não garante continuidade de uso**.
+
+| Item preexistente | Resposta | Alcance do exame |
+| --- | --- | --- |
+| 2 | **Errado** | Aprovação de roteiro não comprova execução da pós-produção. |
+| 3 | **Certo** | *Picture lock* não corresponde ao aceite final da entrega audiovisual. |
+| 5 | **Errado** | Mestre aprovado não garante integridade de todos os derivados e da visualização na plataforma. |
+| 7 | **Errado** | **Cotejo documental direto da distinção backup/preservação** por requisitos de integridade e monitoramento. |
+| 8 | **Certo** | Conclusão de reprodução não é medida direta de aprendizagem. |
+
+**Treino C/E inédito:** “Uma cópia de segurança verificada constitui parte útil da preservação audiovisual, mas não substitui registro de contexto, identificação de versões e controles periódicos de integridade.” **Certo.** **Limite:** os itens 2, 3, 5 e 8 receberam revisão de coerência do caso, mas não comprovação direta nas obras de produção de Zettl, Musburger ou Kindem; o item 7 recebeu apoio específico em orientação de preservação. Os demais itens permanecem para revisão técnica.
 
 ## Relações com outros temas
 

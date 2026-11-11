@@ -152,6 +152,12 @@ A [Stanford Encyclopedia of Philosophy, verbete sobre Adorno](https://plato.stan
 
 **Estado:** item 1 sustentado diretamente por referência acadêmica de síntese; itens 2 e 3 mantidos provisoriamente, com indicação expressa dos limites documentais. Nenhuma inversão de gabarito demonstrada. **Ponto a corrigir em uma revisão futura:** conferir a ocorrência e a atribuição precisa de “pseudoindividualização” nas obras de Adorno, sem converter síntese contemporânea em citação literal de *Dialética do esclarecimento*. Esta seção não certifica todas as afirmações do artigo nem transforma exercícios inéditos em questões históricas da Cebraspe.
 
+## Itens históricos da Cebraspe: escolas e cronologia, Correios 2011 (11/11/2026)
+
+No [caderno oficial CESPE/UnB, Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), o **item 62** afirma que a perspectiva pragmática/positivista norte-americana corroboraria concepções da teoria crítica. O [gabarito definitivo identificado pelo mesmo código, em cópia secundária](https://www.estudegratis.com.br/images/provas/20767-cespe-2011-correios-analista-de-correios-comunicacao-social-publicidade-e-propaganda-gabarito.pdf) registra **Errado**. A questão diferencia perspectivas de pesquisa, seus pressupostos e objetos, sem afirmar inexistência de toda possibilidade de diálogo entre autores ou escolas.
+
+O **item 64, Errado**, generaliza a origem dos termos “cultura de massa” e “meios de comunicação de massa” como produto de determinada reflexão sociológica do início do século XX. **Este gabarito histórico, por si, não identifica o ano, país ou autor de cunhagem de cada expressão.** O estudo deve preservar a distinção entre história das formas de cultura de massa, formulação de teorias, circulação de terminologia e desenvolvimento dos meios. O item real não substitui cotejo bibliográfico próprio dos termos.
+
 ## Relações com outros temas e aplicação discursiva
 
 [[3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao|teoria, escola e paradigma]] ajuda a separar escola, projeto teórico e conceito. [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|pesquisa administrativa e crítica]] apresenta a pesquisa empírica e o debate sobre orientação administrativa e crítica. [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|framing]] investiga escolhas interpretativas de mensagens particulares, enquanto indústria cultural discute também **condições estruturais de produção**.

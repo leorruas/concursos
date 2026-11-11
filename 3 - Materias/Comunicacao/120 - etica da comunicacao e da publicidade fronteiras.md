@@ -5,7 +5,7 @@ title: "Ética da comunicação e da publicidade: princípios, regimes e frontei
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Ética da comunicação e da publicidade: princípios, regimes e fronteiras
@@ -190,6 +190,16 @@ O **Ato da Mesa nº 218/2025**, art. 5º, estabelece os princípios de **imparci
 **Item 8.** Para avaliar eticamente uma publicidade no CONAR, seu art. 17 orienta examinar o impacto provável do anúncio como um todo sobre o público, antes da análise detalhada dos seus componentes.
 
 **Certo.** A análise global antecede a leitura isolada de elementos. **Mecanismo avaliado:** regra de interpretação do Código.
+
+## Auditoria normativa dirigida: CONAR, CDC e comunicação institucional (11/11/2026)
+
+Nesta rodada foram consultados o [Código Brasileiro de Autorregulamentação Publicitária do CONAR](https://www.conar.org.br/codigos), em sua página oficial, e o [Código de Defesa do Consumidor, arts. 36 a 38](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8078-11-setembro-1990-365086-normaatualizada-pl.html). **CONAR, art. 11:** propaganda política e político-partidária fica fora do Código; **art. 12:** publicidade governamental é abrangida, salvo proibição legal; **art. 17:** o exame de conformidade começa com o impacto provável da mensagem **como um todo**; **art. 28:** o anúncio deve ser identificável como tal. **CDC, art. 36:** o público deve identificar a publicidade fácil e imediatamente; **art. 37, §§ 1º e 3º:** publicidade enganosa pode ser falsidade ou **omissão** de dado essencial; **art. 37, § 2º:** abusividade tem hipóteses próprias; **art. 38:** ônus da prova da veracidade e correção da informação publicitária cabe a quem a patrocina.
+
+**Resultado do cotejo dirigido dos oito itens C/E inéditos existentes:** **1 Certo**: apoiado em CONAR 11–12; **2 Certo**: apoiado em CONAR 28 e CDC 36; **3 Errado**: CDC 37 expressamente contempla omissão; **4 Errado**: autorregulação ética não equivale a sentença judicial, consequência de diferença entre regimes; **5 Errado**: promoção pessoal institucional exige análise contextual à luz da Constituição, sem concluir automaticamente a partir de menção a autoridade; **6 Certo**: escopo de ato interno e obrigações legais são níveis distintos, mas **a exceção específica do Ato 218/2025 não foi recotejada nesta etapa**; **7 Errado**: identificação e veracidade não encerram análise de vulnerabilidade e dados, exigindo outras fontes normativas conforme o caso; **8 Certo**: CONAR 17 exige avaliação da impressão global do anúncio. Os julgamentos 4–7 foram mantidos como **análise jurídica/conceitual de coerência**, com limites explícitos, e não como transcrições de uma fonte única.
+
+**Ressalva:** a publicidade institucional da Câmara não deve ser automaticamente reduzida a anúncio mercadológico regido pelo CDC, assim como o CONAR não substitui Constituição, leis ou regimentos internos. O modelo ético da nota deve perguntar **qual regime e qual tipo de comunicação** estão em exame antes de aplicar artigo ou sanção.
+
+**Novo C/E inédito:** “Toda publicidade enganosa prevista no CDC pressupõe que uma afirmação literal tenha sido falsa, sendo insuficiente a omissão de informação essencial.” **Errado.** O art. 37, § 3º, prevê omissão. Este exercício é novo, distinto dos oito existentes e das questões reais históricas.
 
 ## Relações com outros temas
 

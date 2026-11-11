@@ -5634,6 +5634,102 @@
       "statement": "Uma secretaria pratica ato no exercício de suas atribuições. Segundo a teoria do órgão, o ato é imputado a uma pessoa jurídica autônoma criada automaticamente pelo exercício da competência da secretaria.",
       "correctAnswer": "E",
       "explanation": "A atuação do órgão é imputada à pessoa jurídica que ele integra. O exercício da competência não cria personalidade jurídica própria para a secretaria."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "previsao-da-receita",
+      "mechanism": "confundir-estimativa-com-ingresso",
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Previsão, lançamento, arrecadação e recolhimento"
+      ],
+      "statement": "O orçamento estima R$ 4 milhões de receita tributária. No primeiro mês, ingressam R$ 250 mil dessa receita. Os R$ 4 milhões correspondem à previsão, enquanto os R$ 250 mil correspondem à arrecadação informada.",
+      "correctAnswer": "C",
+      "explanation": "Previsão é estimativa para o orçamento. Arrecadação é o recebimento efetivo no período indicado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "lancamento-da-receita",
+      "mechanism": "confundir-inscricao-do-debito-com-recebimento",
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Previsão, lançamento, arrecadação e recolhimento"
+      ],
+      "statement": "Ao identificar o contribuinte e inscrever seu débito, a repartição já arrecada o valor, ainda que o contribuinte não tenha efetuado o pagamento.",
+      "correctAnswer": "E",
+      "explanation": "Esses atos descrevem o lançamento. O recebimento do valor é uma etapa distinta."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "recolhimento-da-receita",
+      "mechanism": "distinguir-agente-arrecadador-de-tesouraria",
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Previsão, lançamento, arrecadação e recolhimento"
+      ],
+      "statement": "Um contribuinte paga a guia ao agente arrecadador, que posteriormente transfere os valores à conta do Tesouro. O primeiro evento é a arrecadação e o segundo, o recolhimento.",
+      "correctAnswer": "C",
+      "explanation": "A arrecadação ocorre no recebimento pelo agente. O recolhimento transfere o produto arrecadado à tesouraria."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "receita-sem-previsao",
+      "mechanism": "tratar-previsao-como-requisito-de-classificacao",
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Exceções: receitas sem previsão e sem lançamento"
+      ],
+      "statement": "Um ingresso que reúne as características de receita orçamentária se torna extraorçamentário pelo simples fato de não ter sido estimado na lei de orçamento.",
+      "correctAnswer": "E",
+      "explanation": "A falta de previsão não muda, por si só, a natureza do ingresso. O art. 57 prevê registro de receitas orçamentárias ainda que não previstas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "ingresso-extraorcamentario",
+      "mechanism": "identificar-deposito-restituivel",
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Receita orçamentária × ingresso extraorçamentário"
+      ],
+      "statement": "Um órgão recebe em dinheiro uma caução contratual que deve devolver caso sejam cumpridas as condições de restituição. Enquanto mantém o valor a título de garantia, o ingresso é extraorçamentário.",
+      "correctAnswer": "C",
+      "explanation": "O valor é mantido temporariamente como garantia e pode ter de ser devolvido. O simples recebimento não o transforma em receita própria."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "regime-orcamentario-da-receita",
+      "mechanism": "atribuir-exercicio-pelo-lancamento",
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Regime orçamentário × competência patrimonial"
+      ],
+      "statement": "Um tributo foi lançado em dezembro e arrecadado em janeiro. Para o regime orçamentário da Lei nº 4.320/1964, o lançamento basta para atribuir a receita ao exercício encerrado em dezembro.",
+      "correctAnswer": "E",
+      "explanation": "O art. 35, I, atribui a receita orçamentária ao exercício em que foi arrecadada. O lançamento em dezembro não antecipa esse registro."
     }
   ]
 }

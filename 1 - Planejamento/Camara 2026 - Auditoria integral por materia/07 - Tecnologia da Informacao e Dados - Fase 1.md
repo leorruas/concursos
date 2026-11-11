@@ -199,3 +199,49 @@ Com os artigos 18–30 recuperados e inspecionados, o **segmento IA + dados** do
 **Estado agora:** segmento IA/dados de Informática **13/13 lido seletivamente**, notas compartilhadas **5/5 lidas seletivamente**, base Office/redes/segurança/governança **01–17 pendente**, **zero certificações integrais**. O erro confirmado **TI-020 (DAX `CALCULATE` / `CALCULATETABLE`)** permanece prioridade de reparo na futura Fase 2; o cotejo transversal não o alterou.
 
 **Próxima frente:** examinar `Informatica/03–07` (arquivos/OneDrive e Word/Excel/PowerPoint), depois `08–11` (rede, navegação, e-mail, Teams/Meet); `12–17` (segurança e governança); `01–02` (legislação conforme edital). Auditoria do hub, links e cotejo de PDF oficial integral continuam pendentes. **Nenhum artigo, gabarito, hub ou dado privado foi modificado; somente este relatório e índice.**
+
+
+## Bloco 5: arquivos, Word, Excel, PowerPoint e OneDrive, artigos 03–07 (11/11/2026)
+
+**Cinco artigos recuperados e examinados integralmente em leitura dirigida**, inclusive **30 itens C/E inéditos, seis por artigo**, enunciados, gabaritos e comentários:
+- `Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md` (articleId `art-74bf9176e700b4c8`);
+- `Informatica/04 - word 365 estrutura edicao formatacao e controle de alteracoes.md` (articleId `art-005ae25143946d4e`);
+- `Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md` (articleId `art-484ca8ef752c3d9a`);
+- `Informatica/06 - powerpoint 365 organizacao slides mestre animacoes e apresentacao.md` (articleId `art-c870ee089d89cfaa`);
+- `Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md` (articleId `art-e4d63009042ff1a1`).
+
+**Acumulado:** **18/30 artigos numerados de Informática examinados seletivamente** (03–07 e 18–30); **12 pendentes** (01–02 e 08–17), hub com leitura estrutural, cinco notas de Evidências/Dados/IA já examinadas seletivamente. **Zero artigos certificados integralmente.** Nenhum artigo ou questão original foi modificado.
+
+### Avaliação individual
+
+| Arquivo | Cobertura e itens | Diagnóstico |
+| --- | --- | --- |
+| 03, arquivos/sincronização | Arquivo, diretório, nomes reservados Windows, arrastar/copiar/mover, OneDrive sob demanda, sincronização x backup e seis C/E | Os núcleos operacionais de gabaritos 1–6 são plausíveis; linguagem confunde arquivo lógico com espaço físico contíguo, estados de sincronização com garantias e lixeira com exclusão imediata |
+| 04, Word | Formatação de caractere/parágrafo/seção, quebras, sumário, revisão, atalhos, seis C/E | Regra de separação por seções útil; inconsistência em atalhos e falha de revisão `Crado` no item #4; procedimentos de revisão não equivalem a expurgo integral de metadados |
+| 05, Excel | Referências e deslocamento, fórmulas, funções, Tabelas Dinâmicas e seis C/E | **Atualização automática descrita incorretamente como impossível** no Microsoft 365 atual; item #6 e comentário dependem de revisão por versão, não de inversão automática sem identificar ambiente da prova |
+| 06, PowerPoint | Modos, mestre, layout, animação/transição, atalhos e formatos; seis C/E | Base operacional majoritariamente coerente; afirma herança absoluta do mestre em todos os slides sem distinguir múltiplos mestres e personalizações dos layouts; diagrama Mermaid merece validação |
+| 07, OneDrive | Público de link, permissões, AutoSave, versões, lixeira corporativa, seis C/E | Distinção de links é útil; há simplificações em expiração, senha, bloqueio de download e recuperação; evitar garantia de segurança absoluta a partir de configurações de interface |
+
+### Achados e fontes primárias
+
+**TI-034, ALTA PRIORIDADE, REGRA DESATUALIZADA/ITEM C/E COM NECESSIDADE DE REVISÃO, `Informatica/05` §6 caso 4, §7 item #6.** O material afirma categoricamente que Tabela Dinâmica **“não recalcula automaticamente as edições feitas na base”** e considera ERRADO o item segundo o qual a atualização acontece automaticamente depois de alteração. A **Microsoft Support informa expressamente que versões recentes do Excel permitem atualização automática de Tabelas Dinâmicas quando a fonte é uma pasta de trabalho local; novas Tabelas Dinâmicas locais têm Auto Refresh ativado por padrão**, sujeito a versão/configuração/fonte. Portanto, a fundamentação universal está **refutada**. O item #6 usa linguagem universal de atualização “instantânea assim que qualquer dado numérico ... é alterado”; a resposta pode exigir distinguir disponibilidade e configuração da atualização, latência e tipo de fonte. **Não homologar troca simples para CERTO sem fixar versão, origem, opção Auto Refresh e redação precisa.** Fonte oficial: https://support.microsoft.com/pt-br/excel/refresh-pivottable-data . Retirar “não atualiza” como regra absoluta.
+
+**TI-035, ERRO OPERACIONAL DE ATALHO, `Informatica/04` §8, prioridade alta.** Tabela diz `Ctrl + G` para **alinhar à direita**. A documentação oficial do **Word para Windows** em português indica **`Ctrl + R` para alinhamento à direita**, com variações em alguns atalhos localizados; a própria página contém trechos discrepantes para centralizar e outras ações, de modo que a versão/idioma deve ser fixada em teste antes de transformar atalhos em gabaritos inequívocos. Para **alinhar à direita**, a documentação atual é consistente em `Ctrl + R`. Fonte https://support.microsoft.com/pt-br/accessibility/word/keyboard-shortcuts-in-word e https://support.microsoft.com/pt-br/word/adjust-indents-and-spacing . **Item #1** sobre formatação de parágrafo não usa o atalho à direita, portanto não requer inversão.
+
+**TI-036, QUALIFICAÇÃO CONCEITUAL, `Informatica/03` §1 e §5.** Define arquivo como unidade “lógica e contígua” de dados; arquivos podem ser **fragmentados fisicamente**, e contiguidade não integra a definição de arquivo lógico. A frase “imediatamente” sobre propagação de exclusões ignora offline, filas de sincronização, erro, retenção/lixeira e políticas; “backup mantém cópias intocadas e imutáveis” descreve **uma estratégia desejável**, não requisito de todo backup. Gabaritos 3 e 4 mantêm distinção básica correta entre sincronização e backup, mas texto deve evitar absolutos.
+
+**TI-037, VERSIONAMENTO E SEGURANÇA, `Informatica/07` §§2,4–6, itens #3 e #5.** O artigo trata opções de **senha, expiração e bloqueio de download** como se sempre aparecessem para qualquer link/pasta, independentemente do tipo, política, licença e escopo. É necessário diferenciar recursos de link `Anyone`, `Specific people`, permissões de exibição e características de arquivos e pastas. Sobre lixeira, **93 dias** é o total documentado para SharePoint/Microsoft 365, **mas recuperação não é garantida** se exclusão permanente pelo administrador ou outras condições anteciparem indisponibilidade. O item #3, que diz **“ainda podem ser recuperados ... respeitado período”**, é defensável como possibilidade; comentários devem evitar certeza absoluta. Fontes: https://support.microsoft.com/pt-br/sharepoint/admin/restore-deleted-items-from-the-site-collection-recycle-bin e https://support.microsoft.com/pt-br/onedrive/restore-deleted-files-or-folders-in-onedrive . O **item #5** merece revisão específica de escopo: pede bloqueio de download em **link de pasta**; não concluir CERTO sem validar suporte à opção no tipo de objeto, licença e interface atual.
+
+**TI-038, GABARITO COM RESSALVA DE AMBIENTE, `Informatica/06` §§2,6 e item #1.** O slide mestre superior aplica formatação aos layouts **ligados àquele mestre**; não se pode dizer sem condição que afeta **todos** os slides quando o arquivo possui múltiplos mestres, layouts personalizados ou controles de herança. O item #1 delimita “slides ... que compartilham aquela estrutura de layout”, e portanto **gabarito CERTO permanece plausível**. Recomendar acrescentar condição na regra geral, não inverter.
+
+**TI-039, FALHAS EDITORIAIS DE CONFIABILIDADE, `Informatica/04` §7 item #4 e `Informatica/06` §3.** `Word/04` apresenta opção C/E “**Crado**” no lugar de **Certo**; erro mecânico localizado, sem impacto no gabarito ERRADO. No `PowerPoint/06`, Mermaid usa `S2` como nó e como identificador de `subgraph S2` ao mesmo tempo, com provável ambiguidade visual e possível falha de renderização, a validar no Pages antes de afirmar defeito de publicação. Não alterar nesta fase.
+
+**TI-040, RISCO DE AFIRMAÇÃO ABSOLUTA E DADOS NÃO DEMONSTRADOS, `Informatica/03–07`.** “Impossível editar localmente”, “todos os slides”, “sempre”, “garantir ... permanentemente”, “Cebraspe frequentemente cobra” e classificação fixa de riscos de permissões são atalhos didáticos que omitem condições e evidência de incidência na banca. Registrar sistema operacional/versão/localização, perfis de usuário e políticas institucionais antes de certificar cada operação. Separar exemplos hipotéticos de práticas documentadas da Câmara.
+
+### Rastreio dos itens C/E
+
+Nos artigos 03,04,06,07, os **24 itens** apresentam núcleos didáticos majoritariamente coerentes; **nenhuma inversão confirmada** neste bloco, mas questões dependentes de interface ficaram sob reserva (notadamente `07#5`). No artigo 05, **seis itens** lidos; #1 (referências), #2 (zero em MÉDIA), #3 (PROCV), #4 (CONT.VALORES), #5 (MAIOR vs MÁXIMO) coerentes em exame dirigido; **#6 não pode ser certificado**, pois a fundamentação sobre ausência de atualização automática está desatualizada. **Nenhum destes itens é questão histórica oficial do Cebraspe.**
+
+### Continuação
+
+Próximos: `Informatica/08–11` (redes, internet/navegação, e-mail, Teams/Meet), depois `12–17` (segurança e governança digital) e `01–02` conforme pertinência ao edital. Permanece necessário validar a versão concreta de Microsoft 365 relevante à prova e cotejar o edital oficial integral. **Esta rodada alterou apenas o relatório e o índice de acompanhamento.**

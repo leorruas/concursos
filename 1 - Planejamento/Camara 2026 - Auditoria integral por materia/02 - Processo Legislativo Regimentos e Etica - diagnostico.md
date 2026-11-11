@@ -411,3 +411,33 @@ A correspondência abaixo deriva da **descrição literal da arquitetura** e dos
 4. Amarrar matriz de 33 unidades ao **texto oficial literal do edital** e às retificações, separando exigência básica, específica e aprofundamento complementar.
 
 **Estado após bloco 9:** matriz de **identidade** de 33 unidades publicada; cobertura temática **ainda não certificada**. Em DC34, novo erro crítico de quórum confirmado. Nenhum artigo de estudo alterado.
+
+
+## Bloco 10: conferência da redação consolidada do Código, art. 18 e sanções (11/11/2026)
+
+**Método:** confronto direto do arquivo `DC34 - codigo de etica e decoro parlamentar da camara.md` (306 linhas, artigo `art-5b41764164052519`) com os **arts. 7º a 18 da [Resolução 25/2001 consolidada oficial](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html)**, consultada nesta rodada, e o [Acordo 2025–2027](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027/view). O escopo recaiu sobre **novas inconformidades materiais** que permaneceram após blocos 7–9. Jurisprudência e versão integral do Regulamento ainda exigem verificação posterior por dispositivo; nenhuma edição do artigo original foi feita.
+
+### Não conformidades adicionais confirmadas
+
+**NC-PL-014, CRÍTICO: art. 18, obrigações patrimoniais antigas ensinadas como vigentes.** `DC34 > ## 6. Declarações patrimoniais obrigatórias e prevenção de conflitos de interesse`, itens 1 e 2, diz que o parlamentar deve **reapresentar declaração 90 dias antes das eleições gerais no último ano da legislatura** e enviar **cópia anual do Imposto de Renda até 30 dias após o prazo fiscal**. A redação atual do **art.18, I e II**, dada pela Resolução 2/2011, apresenta apenas: (I) **Autorização de Acesso aos Dados das Declarações de Ajuste Anual do IRPF e retificações**, ao assumir mandato e quando solicitada pelo órgão competente; (II) **declaração de impedimento** no início da apreciação de matéria de interesse patrimonial direto e específico. Há regras de autuação, cópia enviada ao TCU e sigilo (§§1º–4º). **Esses dois deveres temporais que o artigo ensina como texto vigente não figuram no art.18 consolidado**, e não devem ser apresentados como exigências deste Código. Conferir legislação autônoma antes de declarar que jamais existam outras obrigações em outra fonte; a presente conclusão é sobre **atribuição ao art.18 do Código**.
+
+**NC-PL-015, IMPORTANTE: art. 18, documento substituído.** O texto DC34 diz genericamente «apresentação de declaração de bens e rendas à Mesa ao assumir o mandato» e «cópia das declarações de bens e rendas ao TCU», em vez da fórmula consolidada **Autorização de Acesso aos Dados das Declarações de Ajuste Anual do IRPF**. A distinção entre documento/autorizações é essencial para evitar itens literalistas. Reescrever cuidadosamente, sem suprimir a regra de remessa do art.18, §2º.
+
+**NC-PL-016, IMPORTANTE: desfecho automático indevido na censura e proporção da pena.** A nota DC34 afirma no caso de ofensa verbal recíproca: «a simples ofensa mútua... **sendo vedada a cassação** de mandato para conduta apenável por censura». A prescrição de penas do Código exige **tipificação e apuração dos fatos efetivamente verificados**; o art.4º, VI, trata de irregularidades graves que afetem dignidade da representação e art.10, §2º autoriza requalificar penalidade conforme os fatos. A regra didática absoluta «vedada» vai além do exemplo descrito sem delimitar circunstâncias. **Classificação: risco de generalização, não erro normativo matematicamente comprovado**; examinar jurisprudência e aplicação antes de corrigir.
+
+### Conferências positivas delimitadas e alerta temporal
+
+- **CF/Code, sanções:** os arts.11,12,13,14 estabelecem mecanismos distintos, como já descrito em blocos anteriores. Em especial, art.12, §1º: defesa na censura escrita **5 dias úteis**; art.11, parágrafo único: recurso contra censura verbal em **2 dias úteis**; art.12, §2º: recurso contra censura escrita em **2 dias úteis**. Esses prazos **não aparecem suficientemente no quadro da nota** e devem ser incluídos na correção futura, sem confundir com defesa de 10 dias úteis do rito grave.
+- **Código art.8º §3º:** prazos do Conselho são contados **em dias úteis**, inclusive recurso e vista, e **suspensos no recesso**, ressalvada convocação extraordinária constitucional. Este princípio deve preceder todas as tabelas temporais.
+- **Art. 10 e requalificação:** o Código autoriza avaliar sanção mais ou menos grave conforme fatos apurados; evitar equivalências automáticas entre descrição simplificada de uma conduta e pena final sem verificar concurso de fatos.
+- **Atualização do acordo:** a consulta pública encontrou **registro oficial de reunião de 29/04/2026** em que a Presidência do Conselho invoca expressamente o acordo 2025–2027, item 6(a), para interpretação do sobrestamento de pauta. Fonte: [notas taquigráficas HTML da Câmara, reunião 29/04/2026](https://escriba.camara.leg.br/escriba-servicosweb/html/81826). Isso é evidência de uso operacional em 2026, **não certificação de ausência de modificações depois dessa data**.
+
+### Backlog executável para futura correção do artigo
+
+1. Atualizar seção de patrimônio: alinhar itens e exemplos ao **art.18 vigente**, retirando a atribuição indevida de obrigações de 90 dias pré-eleição e de entrega anual a esse artigo.
+2. Separar prazos e decisões para **censura verbal, censura escrita, suspensão de prerrogativas, suspensão de mandato e perda de mandato**, com instância competente, defesa, recurso e prazo.
+3. Corrigir remissões a art.7, art.9, art.13, art.14, art.16 e incluir o princípio do art.8º, §3º.
+4. Revisar quadro geral, **todos os nós do Mermaid** e o caso progressivo; conferir todos os enunciados C/E após as correções previstas, mesmo os antes corroborados.
+5. Validar o texto final contra Código, Regulamento e Acordo 2025–2027 com referência específica para cada regra. **Fase 1 autoriza apenas diagnosticar; artigo permanece intocado**.
+
+**Estado:** DC34 ainda com erros críticos de natureza **normativa e temporal**, inclusive **art.18**. Não declarar auditoria integral da matéria concluída nem o artigo pronto para memorização. A matriz de 33 unidades e a análise dos outros 28 arquivos permanecem parcialmente concluídas.

@@ -5,7 +5,7 @@ title: "Linguagem simples e acessibilidade digital"
 type: "conceito"
 status: "ativo"
 created: 2026-07-10
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Linguagem simples e acessibilidade digital
 
@@ -170,6 +170,17 @@ A FGV pode combinar literalidade legal com conceitos de comunicação e acessibi
 - descrever fisicamente um ícone funcional sem informar sua ação.
 
 A prova FGV da ALE-RO de 2026 já cobrou diretamente a Lei nº 15.263/2025 e usou como resposta correta o conteúdo do art. 5º, XI, enquanto os distratores alteravam escopo, intensidade ou finalidade de outros dispositivos.
+
+## Adaptação Câmara 2026: treino Cebraspe (itens inéditos)
+
+O edital exige linguagem simples e o Manual da Câmara. Os itens seguintes são exercícios originais, **não questões históricas da banca**, e devem ser cotejados com a redação normativa e os critérios técnicos aplicáveis.
+
+- **Item 1.** Um texto pode usar termos técnicos e ainda observar princípios de linguagem simples, desde que os termos necessários sejam contextualizados e o público consiga localizar, entender e usar a informação. **Certo.** Linguagem simples não impõe eliminação indiscriminada do vocabulário técnico.
+- **Item 2.** A adoção de frases curtas é condição suficiente para certificar a acessibilidade digital de uma página. **Errado.** Acessibilidade também envolve estrutura, navegação, operação e alternativas perceptíveis, conforme os critérios aplicáveis.
+- **Item 3.** Em um botão com ícone cuja função é realizar busca, um nome acessível que descreva a ação pode ser mais útil do que a descrição meramente visual do desenho. **Certo.** Para elemento funcional, a finalidade deve ser comunicada ao usuário.
+- **Item 4.** Uma imagem puramente decorativa deve sempre receber texto alternativo extenso para satisfazer a acessibilidade. **Errado.** Conteúdo decorativo pode ser marcado de modo a não gerar descrição desnecessária para tecnologias assistivas, conforme o contexto técnico.
+
+**Remissões:** [[3 - Materias/Comunicacao/75 - linguagem simples principios processo e verificacao|Princípios e verificação]], [[3 - Materias/Comunicacao/76 - manual de linguagem simples da camara diretrizes e aplicacao|Manual de Linguagem Simples da Câmara]] e [[3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos|Produção digital acessível]]. **Verificação pendente:** cotejo integral de Lei nº 15.263/2025, WCAG, norma ABNT e exigências do Manual da Câmara.
 
 ## Relações com outros temas
 

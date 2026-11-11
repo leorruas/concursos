@@ -148,6 +148,12 @@ Segundo a [AAPOR, *Best Practices for Survey Research*](https://aapor.org/standa
 
 **Novo item C/E inédito:** “Em séries comparáveis de pesquisas de opinião, alterar a redação das perguntas sem avaliar o efeito da mudança pode produzir uma diferença aparente de respostas que não corresponda a uma mudança real na população.” **Certo.**
 
+## Prova real conferida: Correios 2011, item 89 (11/11/2026)
+
+Na prova oficial CESPE/UnB de Correios 2011 para Publicidade e Propaganda, o **item 89 recebeu gabarito definitivo Certo**. O enunciado trata da mudança histórica da ideia de opinião pública, relacionando visões antes centradas em líderes políticos e grupos de pressão à ampliação para a sociedade. O [caderno de questões](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf) e o [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/Gab_Definitivo_ECT11_028_83.PDF) foram consultados diretamente.
+
+**Limite interpretativo importante:** esse julgamento oficial é evidência histórica da **banca em 2011**, não demonstra que a definição apresentada esgote hoje as teorias de opinião pública, a representação populacional ou a esfera pública. Ao estudar, separar (a) **o que o Cespe julgou correto no caso**, (b) **o conteúdo e a época do enunciado**, e (c) **as distinções mais finas da literatura e da metodologia de sondagens**. O item não converte manifestações espontâneas em amostra representativa, nem resolve o problema de seleção da nota.
+
 ## Relações com outros temas
 
 **Opinião pública × pesquisa de opinião:** o primeiro pode incluir processos de debate, formação e percepção social; a segunda mede objetos definidos sob um desenho. **Atitude × intenção × comportamento:** avaliação, disposição e ação não são equivalentes. **Opinião declarada × conhecimento factual:** autorrelato não substitui teste. **Clima percebido × distribuição estimada:** achar que uma posição predomina não comprova que ela é majoritária. **Mudança de estimativa × efeito de campanha:** acompanhar percentuais não identifica automaticamente causa. **Não resposta × silêncio social:** podem coexistir, mas representam mecanismos diferentes.

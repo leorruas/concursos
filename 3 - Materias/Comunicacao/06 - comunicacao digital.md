@@ -5,7 +5,7 @@ title: "Comunicação digital"
 type: "conceito"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Comunicação digital
 
@@ -218,6 +218,20 @@ A banca pode deslocar conceitos entre categorias próximas. Os mecanismos mais p
 - tratar CPF como dado sensível;
 - apresentar o CMS como linguagem de programação ou como sinônimo do site publicado;
 - atribuir a uma ferramenta Adobe a vocação principal de outra.
+
+## Verificação técnica de indexação e limites de indicadores digitais (11/11/2026)
+
+A documentação **Google Search Central** distingue **descoberta, rastreamento e indexação**. Um [sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview) informa URLs a mecanismos de busca e pode auxiliar descoberta, mas **não garante rastreamento ou indexação** de todas as páginas. A [orientação sobre metadescrição e snippets](https://developers.google.com/search/docs/appearance/snippet?hl=pt-br) esclarece que o Google costuma construir os trechos apresentados a partir do **conteúdo da página**, podendo utilizar a metadescrição quando mais adequada. Portanto, metadescrição não funciona como ordem vinculante para o mecanismo de busca; alterar o texto da tag não garante o snippet exibido. Esses pontos já estavam conceitualmente corretos no artigo e agora têm **fonte primária identificada**.
+
+**Fronteira da medição:** impressão, alcance, clique, sessão, conversão e compreensão do cidadão medem objetos distintos. A identidade de uma conta alcançada não demonstra a identidade de uma pessoa nem entendimento do conteúdo. Para comparar métricas, explicitar **universo, instrumento, janela e denominador**; uma taxa de engajamento sem denominador declarado não é categoria quantitativa inequívoca. As distinções de multicanal e omnicanal usadas na nota são **heurísticas editoriais**, não nomenclatura imposta pelo Google. Sobre UX, distinguir **prevenção de erro** (instrução/restrição antecipada) e **recuperação** (explicar o que ocorreu e como corrigir) exige observar o momento real da interação.
+
+**Provas reais já verificadas:** [DPDF, aplicada em 2022, itens 65–68](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF), gabaritos **E, E, E, E**: diferenciam wiki/blog, hashtag e circulação, mídia paga/própria, nós/laços em redes. [CNMP 2023, item 74, Errado](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), também confunde wiki com blog. Os itens **já foram contados no corpus histórico**; são apenas relacionados ao conteúdo da nota.
+
+**C/E inédito 1.** “A presença de um URL no sitemap enviado ao Google assegura que o documento será indexado e exibido em resultados de pesquisa.” **Errado.** Sitemap é sinal de descoberta e indexação possível, não garantia.
+
+**C/E inédito 2.** “Um perfil institucional em rede social pode ter conteúdo produzido pelo próprio órgão, mas ainda depende das regras de distribuição da plataforma, o que limita o controle do alcance.” **Certo.** Autoria editorial e controle da infraestrutura são dimensões distintas.
+
+**Fontes e limites:** [Google, sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview) e [Google, snippets](https://developers.google.com/search/docs/appearance/snippet?hl=pt-br). As proposições sobre plataformas e análise de públicos são inferências conceituais complementares, não enunciados dessas documentações técnicas. A aplicação ao portal da Câmara depende de contexto de uso e indicadores reais. Sem alegar estudo pessoal concluído nem auditoria técnica do portal.
 
 ## Relações com outros temas
 

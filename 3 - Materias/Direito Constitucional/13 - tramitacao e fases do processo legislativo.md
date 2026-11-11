@@ -5,7 +5,7 @@ title: "Tramitação legislativa: fases, comissões, Plenário e revisão bicame
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-11
 aliases:
   - "Tramitação e fases do processo legislativo"
   - "Casa iniciadora e Casa revisora"
@@ -59,7 +59,17 @@ Os **arts. 142 e 143** permitem tramitação conjunta de proposições da **mesm
 
 A tramitação conjunta precisa ser solicitada **antes** da entrada na Ordem do Dia ou, em caso de apreciação conclusiva pelas comissões, **antes do pronunciamento da única ou primeira comissão de mérito**. **Apensar não significa converter automaticamente dois projetos em um só texto jurídico**, nem torna idênticos os seus autores.
 
+**Efeito sobre o regime de tramitação (art. 143, parágrafo único):** quando proposições são apensadas, o **regime especial de tramitação de uma delas estende-se às demais**. Isso não funde os textos e não equivale a uma autorização geral para ignorar as regras de competência, mas impede concluir que cada proposta apensada mantém sempre um regime de tramitação independente.
+
+**Recurso contra a apensação (art. 142, I):** do despacho do Presidente que trata da tramitação conjunta cabe **recurso ao Plenário em cinco sessões da publicação**, diferente do recurso de um décimo contra decisão conclusiva de comissões (arts. 58 e 132, § 2º).
+
 **Caso:** dois deputados apresentam projetos semelhantes, A em janeiro e B em março. A pode ter precedência e B ser apensado, mas **B não desaparece como proposição individual**. A comissão deverá examinar a matéria segundo as regras de tramitação conjunta. Uma assertiva que transforma **apensação** em **arquivamento automático da proposta nova** tende a errar o efeito do instituto.
+
+### Manifestação de outra comissão e conflito de competência: arts. 140 e 141
+
+O **art. 140** permite que uma comissão peça ao **Presidente da Câmara**, por **requerimento escrito com indicação precisa da questão**, manifestação de outra comissão. Do despacho presidencial cabe **recurso ao Plenário em cinco sessões da publicação**; a manifestação da comissão consultada fica **restrita à questão formulada**, e o pedido **não amplia os prazos do art. 52**.
+
+Já o **art. 141** trata do **conflito de competência**: se a comissão se considera incompetente, ou deputado ou comissão suscita conflito no prazo regimental indicado, a decisão cabe ao **Presidente da Câmara em duas sessões**, ou **imediatamente em matéria urgente**. Há **recurso ao Plenário no mesmo prazo**. Pedir parecer de outra comissão e alegar incompetência de comissão previamente designada produzem procedimentos diferentes; nenhum dos dois é recurso contra o conteúdo de decisão conclusiva.
 
 ## Instrução: mérito, admissibilidade e parecer
 
@@ -353,3 +363,14 @@ A resposta pode descrever o percurso do projeto por **iniciativa → recebimento
 - [Câmara: explicação de revisão bicameral e emendas da revisora](https://www.camara.leg.br/comprove/594041-e-falso-que-rodrigo-maia-tenha-fraudado-o-processo-de-votacao-de-mudancas-no-fundo-partidario/).
 
 **Limites editoriais:** a classificação em fases é ferramenta didática e não substitui a Constituição nem o RICD para cada espécie. Os casos C/E são inéditos para estudo, não questões efetivamente extraídas da Cebraspe e não registram desempenho ou retenção.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Escopo cotejado:** texto, quadros, **seis mudanças do caso de regime ordinário**, **nove etapas do caso geral**, **dois exemplos comentados** e **15 exercícios inéditos C/E**, sendo **oito da unidade CAM-PL-008** e **sete da unidade CAM-PL-003**. Confronto com a [Constituição Federal, arts. 58 e 61–66](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) e com o [RICD consolidado, arts. 24, 52–59, 119, 131–143 e 151–159](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferidos recebimento, recurso contra devolução, distribuição, apensação, mérito e admissibilidade, conclusão em comissões, recurso ao Plenário, tramitação ordinária/prioritária/urgente e revisão pela Casa revisora.
+
+**NC-PL-049:** explicitados o **art. 143, parágrafo único** (extensão do regime especial da proposição às apensadas) e o **art. 142, I** (recurso ao Plenário em cinco sessões contra despacho sobre apensação). **NC-PL-050:** acrescentados os **arts. 140 e 141**, com manifestação de outra comissão limitada à questão solicitada, ausência de prorrogação dos prazos do art. 52, e solução de conflitos de competência pelo Presidente em duas sessões ou imediatamente em urgência, com recursos próprios.
+
+**Gabaritos preservados:** CAM-PL-008, **E, C, E, C, E, C, E, C**; CAM-PL-003, **E, C, E, E, C, C, E**. **Total: 15 questões existentes**, sem inversão identificada nos enunciados conferidos, nem mudança nos casos e exemplos. Os itens já compõem o inventário histórico, sem nova inclusão.
+
+**Limites:** certificação jurídico-editorial do recorte escrito nesta data. Não equivale à homologação de todas as exceções procedimentais ou ritos especiais, à aferição de aprendizagem, ao teste visual, nem à comprovação do deploy no GitHub Pages.

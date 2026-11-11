@@ -5,7 +5,7 @@ title: "Marca: conceito, elementos e identidade visual"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Marca: conceito, elementos e identidade visual
@@ -131,6 +131,16 @@ No setor público, ainda há restrições de finalidade da publicidade instituci
 **Item 6.** A conformidade de uma peça com as cores e com o símbolo institucional não afasta, por si só, a vedação constitucional à promoção pessoal de autoridade ou servidor em publicidade pública.
 
 **Certo.** O art. 37, § 1º, exige finalidade e impessoalidade, independentemente de coerência gráfica. **Mecanismo avaliado:** fronteira entre conformidade visual e conformidade jurídica.
+
+## Verificação normativa: identidade visual não substitui impessoalidade nem acessibilidade (11/11/2026)
+
+A [Constituição, art. 37, § 1º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), exige caráter educativo, informativo ou de orientação social à publicidade oficial e veda nomes, símbolos e imagens que caracterizem promoção pessoal de autoridades ou servidores. O [Ato da Mesa nº 218/2025 da Câmara](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html) especifica a política de comunicação institucional e seu âmbito de aplicação, **sem abarcar produtos criados ou contratados diretamente por deputados, gabinetes e lideranças partidárias** (art. 1º, parágrafo único). Isso impede tratar o ato como regulamento indiferenciado de toda peça produzida por qualquer parlamentar.
+
+A [WCAG 2.2, critério 1.4.3](https://www.w3.org/TR/WCAG22/#contrast-minimum) excetua texto integrante de logotipos dos mínimos de contraste de texto. Isso **não isenta** outros textos, componentes ou instruções da interface. O [esclarecimento sobre contraste não textual do W3C](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast) recomenda atenção especial a logos usados como controles interativos, dado que o propósito de interação continua exigindo identificação e operação acessíveis.
+
+**Itens existentes examinados:** item 5, **Errado**, pois manual de marca não garante acesso e usabilidade; item 6, **Certo**, pois aplicar símbolo e cores institucionais não afasta a vedação à promoção pessoal. **Exercício inédito:** “Como o logotipo tem exceção de contraste na WCAG 2.2, todo botão composto apenas por logotipo está automaticamente dispensado de requisitos de identificação, foco e operação acessível.” **Errado.** Uma exceção localizada não revoga demais critérios de acessibilidade.
+
+**Limites:** este exame é normativo, não valida nesta rodada as atribuições sobre critérios de elementos de marca de Keller nem a taxonomia de arquitetura de marcas.
 
 ## Relações com outros temas
 

@@ -192,7 +192,7 @@ No setor público, a integridade da comunicação visual é relevante para os pr
 > Em projetos de comunicação visual baseados em dados, a análise exploratória e a comunicação explanatória possuem finalidades distintas: a primeira visa à descoberta e à investigação dos dados pelo próprio analista, enquanto a segunda foca em transmitir uma mensagem específica e fundamentada para um público-alvo determinado, de modo a orientar a tomada de decisão.
 
 * **Gabarito**: **CERTO**.
-* **Comentário**: Perfeita discriminação conceitual consagrada por Cole Nussbaumer Knaflic. Explorar é "vasculhar os dados para encontrar as respostas"; explanar é "apresentar os achados relevantes de forma estruturada e direcionada para a audiência agir".
+* **Comentário**: Na análise exploratória, o analista investiga padrões, perguntas e possíveis explicações. Na comunicação explanatória, seleciona evidências para apresentar um achado sustentado a um público específico. Uma narrativa pode orientar decisões, mas **não substitui a checagem da qualidade e dos limites dos dados**.
 
 ---
 
@@ -210,7 +210,7 @@ No setor público, a integridade da comunicação visual é relevante para os pr
 > Os atributos pré-atentivos, tais como cor, tamanho, posição e contraste, são processados pelo córtex visual humano em nível subconsciente antes de qualquer percepção deliberada, sendo utilizados no storytelling para criar hierarquia visual e direcionar a atenção do leitor para os pontos mais críticos da visualização.
 
 * **Gabarito**: **CERTO**.
-* **Comentário**: A definição está rigorosamente exata. O processamento pré-atentivo pode ocorrer rapidamente, conforme a tarefa e as condições de observação, e oferece um recurso perceptivo que permite ao comunicador conduzir o olhar da audiência (ex.: usar cor de destaque em apenas um dado para fazê-lo "saltar aos olhos" instantaneamente).
+* **Comentário**: Cor, tamanho, orientação, posição e contraste podem ser percebidos rapidamente e ajudar a estabelecer hierarquia visual. Contudo, **nem todo atributo é processado pré-atentivamente em qualquer tarefa**, e a redação sobre “córtex visual” e “nível subconsciente” simplifica mecanismos perceptivos. O gabarito CERTO é aceitável como descrição didática do uso de atributos visuais, **com ressalva de precisão neurocientífica**.
 
 ---
 
@@ -219,7 +219,7 @@ No setor público, a integridade da comunicação visual é relevante para os pr
 > No contexto do setor público, é plenamente legítimo suprimir o ponto zero do eixo de valores em gráficos de colunas para enfatizar variações percentuais ínfimas entre órgãos orçamentários, não caracterizando distorção visual nem infração ao princípio da fidedignidade da informação pública.
 
 * **Gabarito**: **ERRADO**.
-* **Comentário**: Em gráficos de colunas e barras, a altura ou o comprimento geométrico da barra codifica o valor absoluto; portanto, truncar o eixo zero desproporcionaliza a área visual e induz o leitor a erro grave de interpretação, fazendo pequenas diferenças parecerem discrepâncias monumentais. Isso viola a fidedignidade exigida na comunicação governamental e pública.
+* **Comentário**: Em barras e colunas que comparam magnitudes por **comprimento**, recomenda-se uma linha de base zero para preservar proporções. Truncar o eixo pode exagerar variações, de modo que não se pode afirmar legitimidade plena **sem risco de distorção**, como faz o item. A existência de infração jurídica concreta depende de norma aplicável e contexto, não de uma regra gráfica isolada.
 
 ---
 
@@ -237,7 +237,7 @@ No setor público, a integridade da comunicação visual é relevante para os pr
 > O arco narrativo clássico, composto por contextualização (status quo), conflito evidenciado pelos dados e resolução (chamada à ação), pode ser empregado estruturalmente em relatórios analíticos da administração pública para conectar diagnósticos empíricos a planos de intervenção institucional.
 
 * **Gabarito**: **CERTO**.
-* **Comentário**: A transposição do arco dramático de três atos para a apresentação de dados governamentais organiza a exposição: mostra o cenário esperado, aponta onde e como os dados provam a existência de um gargalo ou desafio (tensão) e conclui com as recomendações fundamentadas de ação para o gestor.
+* **Comentário**: A estrutura em contexto, problema e resolução **pode** organizar uma comunicação explanatória. Os dados sustentam a descrição de um fenômeno conforme sua qualidade, sem necessariamente **provar causas** ou demonstrar que determinada intervenção produzirá o resultado desejado. O plano de ação deve explicitar pressupostos e limites da inferência.
 
 ---
 
@@ -265,3 +265,5 @@ flowchart TD
 - **Três Atos**: Contextualização institucional $\rightarrow$ Tensão/Ruptura apontada pelos dados $\rightarrow$ Resolução com proposta fundamentada.
 
 > **Nota editorial (11/11/2026):** percentuais, projeções e exemplos institucionais desta nota são **cenários hipotéticos de ensino**, não dados oficiais da Câmara dos Deputados. Princípios de boa visualização orientam a prática profissional; a existência de infração jurídica deve ser avaliada à luz de norma aplicável e circunstâncias concretas. A revisão corresponde aos achados TI-025 a TI-027 da auditoria da Câmara.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** seis questões examinadas; gabaritos preservados **C, E, C, E, E, C**, com ressalvas na Q3 sobre percepção visual, na Q4 sobre eixo zero e na Q6 sobre inferência causal e relato institucional. São itens inéditos, sem certificação como questões oficiais.

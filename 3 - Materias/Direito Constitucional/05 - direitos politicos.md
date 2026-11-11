@@ -5,7 +5,7 @@ title: "Direitos políticos"
 type: "conceito"
 status: "ativo"
 created: 2026-06-03
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 
 # Direitos políticos
@@ -70,7 +70,7 @@ São condições constitucionais de elegibilidade, na forma da lei:
 
 ### Quando a idade é aferida
 
-A Constituição fixa a idade; a Lei nº 9.504/1997 disciplina o momento de aferição. A regra atual distingue:
+A Constituição fixa a idade; a **Lei nº 9.504/1997, art. 11, § 2º, com redação da Lei nº 15.230/2025**, disciplina o momento de aferição. A constitucionalidade dessa mudança foi questionada na **ADI 7991**; a existência da ação, por si, não permite presumir suspensão de eficácia da lei. A regra atual distingue:
 
 - **cargos do Poder Executivo**: idade aferida na data da posse;
 - **candidatos às Câmaras Municipais**: no limite para o pedido de registro;
@@ -112,7 +112,13 @@ No território de jurisdição do titular, há inelegibilidade do cônjuge e de 
 
 ### Militar alistável
 
-O militar alistável é elegível, observadas condições próprias conforme seu tempo de serviço. **Militar de carreira não é sinônimo de conscrito.**
+O **art. 14, § 8º**, estabelece duas hipóteses: com **menos de dez anos de serviço**, o militar alistável **deverá afastar-se da atividade**; com **mais de dez anos de serviço**, será **agregado pela autoridade superior** e, **se eleito, passará automaticamente à inatividade no ato da diplomação**. A redação constitucional menciona “menos de dez” e “mais de dez”; situações limítrofes, inclusive exatamente dez anos, exigem interpretação da Justiça Eleitoral, sem inferir uma terceira regra literal. **Militar de carreira não é sinônimo de conscrito.**
+
+### Outras inelegibilidades e ação de impugnação
+
+O **art. 14, § 9º**, reserva à **lei complementar** a definição de outros casos de inelegibilidade e os prazos de cessação, voltados à probidade, moralidade e legitimidade das eleições contra abuso do poder econômico ou do exercício de função pública. A **LC nº 64/1990**, com alterações, disciplina inelegibilidades legais: cumprir as condições positivas do § 3º não basta se incidir causa constitucional ou de lei complementar.
+
+Pelo **art. 14, §§ 10 e 11**, o **mandato eletivo poderá ser impugnado perante a Justiça Eleitoral em 15 dias da diplomação**, mediante prova de **abuso do poder econômico, corrupção ou fraude**. A ação tramita **em segredo de justiça**, respondendo seu autor se for temerária ou de manifesta má-fé. O prazo dessa ação não deve ser confundido com o prazo para registro de candidatura ou com a desincompatibilização.
 
 ## Perda e suspensão dos direitos políticos
 
@@ -128,6 +134,20 @@ A Constituição **veda a cassação** de direitos políticos e admite perda ou 
 > A Constituição enumera as hipóteses, mas o próprio art. 15 não rotula inciso por inciso como “perda” ou “suspensão”. Em questão doutrinária, observe a classificação adotada pela banca; em questão de literalidade, memorize o rol constitucional.
 
 A perda da nacionalidade possui hoje regime alterado pela EC nº 131/2023. Ver [[3 - Materias/Direito Constitucional/04 - nacionalidade|Nacionalidade]].
+
+## Anualidade eleitoral e partidos políticos: arts. 16 e 17
+
+**Anterioridade do processo eleitoral (art. 16):** a lei que alterar o processo eleitoral **entra em vigor na data de publicação**, mas **não se aplica à eleição que ocorra até um ano de sua vigência**. São duas perguntas diferentes: **quando a lei entra em vigor** e **a partir de qual pleito pode ser aplicada**. Uma alteração normativa publicada em prazo inferior a um ano antes da eleição não é automaticamente inválida: o texto constitucional limita sua **aplicação ao pleito**.
+
+**Liberdade partidária e limites:** o **art. 17** garante criação, fusão, incorporação e extinção de partidos, respeitados soberania nacional, regime democrático, pluripartidarismo, direitos fundamentais, **caráter nacional**, proibição de financiamento ou subordinação a entidade ou governo estrangeiro, prestação de contas à Justiça Eleitoral e funcionamento parlamentar segundo a lei. Os partidos adquirem personalidade jurídica conforme a lei civil e registram estatutos no **TSE** (§ 2º); têm autonomia estatutária e podem formar **coligações para eleições majoritárias**, **vedadas nas eleições proporcionais** (§ 1º).
+
+**Cláusula de desempenho (art. 17, § 3º):** o texto constitucional estabelece critérios alternativos para acesso ao **fundo partidário** e à propaganda gratuita: **3% dos votos válidos à Câmara** distribuídos em pelo menos **1/3 das unidades da Federação**, com mínimo de **2% dos votos válidos em cada uma delas**, **ou** eleição de **15 deputados federais**, distribuídos em pelo menos **1/3 das unidades federativas**. A regra de transição deve ser observada quando a pergunta tratar de pleitos anteriores; os patamares do § 3º são a referência constitucional de resultado final.
+
+**Fidelidade partidária:** deputados federais, estaduais, distritais e vereadores que deixam o partido pelo qual foram eleitos **perdem o mandato**, ressalvados **anuência partidária ou justa causa legal** (art. 17, § 6º). A hipótese é especificamente formulada para os mandatos ali enumerados, não para qualquer eleito pelo sistema majoritário.
+
+**Financiamento e representatividade:** o **§ 7º** exige aplicação de **ao menos 5% do fundo partidário** em programas para participação política de mulheres; o **§ 8º** prevê **mínimo de 30%** de recursos de campanha e tempo de propaganda gratuita destinados a candidatas, proporcional ao número de candidatas; o **§ 9º**, acrescido pela **EC 133/2024**, exige destinação de **30%** dos fundos de campanha a candidaturas de **pessoas pretas e pardas**, segundo as condições constitucionais. Não confundir o percentual de financiamento da campanha com a porcentagem de votos da cláusula de desempenho.
+
+**Consultas populares municipais (art. 14, §§ 12 e 13):** consultas locais aprovadas pelas Câmaras Municipais são realizadas **concomitantemente às eleições municipais**, devendo ser enviadas à Justiça Eleitoral **até 90 dias antes**, nos limites operacionais. As campanhas favoráveis e contrárias não utilizam propaganda gratuita no rádio e televisão. Essa disciplina acrescida pela EC nº 111/2021 não substitui o regime nacional de plebiscito e referendo.
 
 ## Como a banca cobra
 
@@ -173,3 +193,14 @@ A perda da nacionalidade possui hoje regime alterado pela EC nº 131/2023. Ver [
 ---
 **Fontes Brutas:**
 - [[00 inbox/23-06-2026.md|Inbox - 23-06-2026]]
+
+
+## Certificação normativa delimitada com ressalva pedagógica: 11/11/2026
+
+**Escopo:** texto cotejado com [Constituição Federal, arts. 14–17](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), [TSE, Resolução nº 23.659/2021](https://www.tse.jus.br/legislacao/compilada/res/2021/resolucao-no-23-659-de-26-de-outubro-de-2021), [Lei nº 15.230/2025](https://sintse.tse.jus.br/documentos/2025/Out/3/diario-oficial-da-uniao-secao-1/lei-no-15-230-de-2-de-outubro-de-2025-altera-a-lei-no-9-504-de-30-de-setembro-de-1997-lei-das) e Lei Complementar nº 64/1990, quanto ao papel de causas legais de inelegibilidade. Conferidos alistamento, voto, elegibilidade, inelegibilidades e perda/suspensão de direitos políticos; complementados pontos omitidos.
+
+**NC-PL-071:** detalhados **art. 14, §§ 8º–11**: elegibilidade do militar conforme tempo de serviço, reserva de LC para novas inelegibilidades e ação de impugnação de mandato em 15 dias da diplomação. **NC-PL-072:** incluído **art. 16**, com distinção entre vigência imediata da lei eleitoral e não aplicação ao pleito que ocorra até um ano de sua vigência. **NC-PL-073:** acrescentado **art. 17**, com sistema partidário, coligações majoritárias versus proporcionais, cláusula de desempenho, fidelidade e destinações constitucionais para mulheres e pessoas pretas/pardas, além de consultas locais dos arts. 14, §§ 12 e 13.
+
+**Ressalva pedagógica:** **zero itens C/E e zero casos progressivos** no artigo original. O texto possui **três exemplos comentados**, mas a certificação do conteúdo **não equivale a treino Cebraspe concluído**. Não se adicionaram exercícios nem gabaritos ao inventário histórico.
+
+**Limites:** cotejo dos fundamentos constitucionais e de normas eleitorais citadas, não validação exaustiva de todas as hipóteses de inelegibilidade da LC 64/1990, atos recentes da Justiça Eleitoral, andamento processual da ADI 7991, desempenho do estudante ou renderização/deploy do site.

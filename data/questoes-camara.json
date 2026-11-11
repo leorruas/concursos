@@ -5346,6 +5346,102 @@
       "statement": "Uma peça institucional divulga um dado verdadeiro. Essa característica, por si só, resolve qualquer questão ética sobre omissão de contexto ou uso da peça para enaltecer pessoalmente uma autoridade.",
       "correctAnswer": "E",
       "explanation": "A veracidade do dado é um critério. O contexto da mensagem e sua finalidade institucional também precisam ser avaliados."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "identificacao-publicitaria",
+      "mechanism": "avaliar-visibilidade-da-identificacao",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Conteúdo editorial, publieditorial, influenciadores e transparência"
+      ],
+      "statement": "Um vídeo patrocinado imita o formato de uma reportagem. Identificar o patrocínio de forma visível desde o início ajuda o público a interpretar o conteúdo sabendo de sua finalidade comercial.",
+      "correctAnswer": "C",
+      "explanation": "O formato pode sugerir conteúdo editorial independente. A identificação visível informa a relação comercial no momento em que o público começa a assistir."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "identificacao-publicitaria",
+      "mechanism": "confundir-veracidade-com-transparencia",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Conteúdo editorial, publieditorial, influenciadores e transparência"
+      ],
+      "statement": "Uma influenciadora recebe pagamento para promover um produto. Se todas as características mencionadas forem verdadeiras, a exatidão das afirmações basta para tornar evidente o patrocínio.",
+      "correctAnswer": "E",
+      "explanation": "A exatidão das afirmações trata do conteúdo. O vínculo comercial precisa ser comunicado para que o público consiga reconhecê-lo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "evidencia-publicitaria",
+      "mechanism": "generalizar-resultado-de-amostra",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Modelo prático de análise ética em cinco perguntas"
+      ],
+      "statement": "Um teste de uma campanha incluiu apenas usuários experientes. Antes de anunciar que o material funciona igualmente bem para iniciantes, é pertinente buscar evidência sobre esse segundo grupo.",
+      "correctAnswer": "C",
+      "explanation": "O teste sustenta conclusões sobre as condições e o grupo examinados. A alegação sobre iniciantes amplia o alcance da evidência."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "evidencia-publicitaria",
+      "mechanism": "confundir-depoimento-com-prova-geral",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Modelo prático de análise ética em cinco perguntas"
+      ],
+      "statement": "Uma pessoa relata que conseguiu concluir uma inscrição em dois minutos. Esse depoimento basta para comprovar que todos os usuários conseguem concluir a mesma tarefa nesse tempo.",
+      "correctAnswer": "E",
+      "explanation": "O relato descreve uma experiência individual. Uma afirmação universal requer evidência sobre a variação de desempenho entre usuários."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "privacidade-na-comunicacao",
+      "mechanism": "avaliar-necessidade-de-identificacao",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Dados pessoais, vulnerabilidade e decisões de design"
+      ],
+      "statement": "Para divulgar o número de pedidos atendidos por unidade, publicar totais agregados pode cumprir a finalidade informativa com menos exposição do que publicar nomes e pedidos individuais.",
+      "correctAnswer": "C",
+      "explanation": "A finalidade é comparar volumes. Os totais podem responder à pergunta sem incluir identificadores desnecessários."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "etica-na-comunicacao",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / Ética na comunicação",
+      "conceptId": "escolha-informada",
+      "mechanism": "confundir-presenca-de-opcao-com-clareza",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Dados pessoais, vulnerabilidade e decisões de design"
+      ],
+      "statement": "Um formulário oferece escolha sobre receber publicidade, mas torna quase invisível o botão de recusa. A existência técnica do botão basta para concluir que as duas opções são igualmente fáceis de identificar.",
+      "correctAnswer": "E",
+      "explanation": "A visibilidade e a apresentação afetam a possibilidade de encontrar cada opção. A presença técnica do botão não demonstra facilidade equivalente."
     }
   ]
 }

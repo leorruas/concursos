@@ -165,8 +165,8 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 ### Questão 3 (Cebraspe / Inédita)
 > O *Deep Learning* (Aprendizado Profundo) difere das técnicas tradicionais de *Machine Learning* por utilizar arquiteturas de redes neurais artificiais profundas com múltiplas camadas intermediárias, prescindindo da etapa humana de engenharia manual de características (*feature engineering*) para extrair padrões de dados complexos não estruturados.
 
-- **Gabarito**: **CERTO**
-- **Fundamentação**: O *Deep Learning* pode aprender representações dos dados de modo hierárquico, reduzindo a engenharia manual de características. O termo “prescindindo” deve ser entendido aqui como possibilidade de dispensar essa etapa específica em certas arquiteturas, e não como eliminação de toda intervenção humana, preparação dos dados ou validação. A redação do item merece cautela por sua generalização.
+- **Gabarito**: **NÃO HOMOLOGADO (generalização técnica)**
+- **Fundamentação**: O *Deep Learning* pode aprender representações de forma hierárquica e reduzir a engenharia manual de características, mas **não dispensa tal etapa em todos os problemas, nem elimina preparação ou seleção de dados**. O gerúndio “prescindindo” generaliza uma vantagem frequente, sem delimitar quando vale. **Redação de treino:** “Redes neurais profundas podem aprender representações dos dados e, em certos problemas, reduzir a necessidade de engenharia manual de características.” **Gabarito reformulado: CERTO.**
 
 ---
 
@@ -189,8 +189,8 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 ### Questão 6 (Cebraspe / Inédita)
 > Sistemas de inteligência artificial aplicados no âmbito do Poder Legislativo, como o sistema Ulysses na Câmara dos Deputados, utilizam técnicas de processamento de linguagem natural para auxiliar na transcrição fonética de audiências e no agrupamento temático de proposições legislativas, atuando como ferramentas de apoio à tomada de decisão humana.
 
-- **Gabarito**: **CERTO**
-- **Fundamentação**: Descrição fática e precisa das atribuições dos sistemas modernos de IA no Congresso Nacional. A IA atua na automação de tarefas repetitivas e na organização do acervo de dados, preservando a competência decisória exclusiva dos parlamentares e agentes públicos.
+- **Gabarito**: **NÃO HOMOLOGADO (atribuições institucionais por confirmar)**
+- **Fundamentação**: O uso de técnicas de processamento de linguagem natural para **agrupamento temático** e apoio a análise legislativa é plausível, mas o enunciado atribui especificamente ao sistema **Ulysses** também a **transcrição fonética de audiências**. Esta última atribuição exige confirmação em documentação institucional de produto e versão. **Não usar a assertiva original como fato oficial sem fonte específica.** Uma versão de treino pode descrever sistemas de IA *hipotéticos* que agrupam documentos e auxiliam usuários humanos, sem nomear produto institucional.
 
 ---
 
@@ -218,3 +218,5 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 - **Relatórios Técnicos do Tribunal de Contas da União (TCU)** e **Câmara dos Deputados**: Documentação dos sistemas Alice, Sofia, Victor e Ulysses.
 
 > **Nota de revisão (11/11/2026):** correções dirigidas aos achados TI-001, TI-002, TI-004 e TI-007 da auditoria da Câmara. Referências normativas: [EBIA, MCTI](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/inteligencia-artificial/) e [LGPD, art. 20, texto atualizado](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html). Restam pendentes auditoria integral, checagem das atribuições concretas aos sistemas citados e homologação dos itens inéditos.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** Q3 e Q6 **não homologadas** por generalização e atribuição institucional sem fonte específica; Q1, Q2, Q4 e Q5 mantidas em leitura conceitual dirigida, ainda sem cotejo integral de documentação e corpus Cebraspe.

@@ -231,3 +231,19 @@ flowchart LR
 > **Revisão técnica (11/11/2026):** prompting não garante precisão, CoT não substitui verificações, parâmetros de amostragem dependem do modelo e delimitação textual não é barreira suficiente contra prompt injection. A distinção entre Top-k (quantidade fixa de candidatos) e Top-p (probabilidade acumulada) foi preservada.
 
 > **Auditoria de questões C/E, segunda passagem (11/11/2026):** Q1, Q3, Q4, Q5 e Q6 preservam gabaritos (E, E, C, C, E) no seu núcleo. **Q2 não homologada**: afirma elevação comprovada da precisão em análise jurídica e outras tarefas sem delimitação empírica. Foi fornecida reformulação apta a estudo; avaliar exemplos e modelo na aplicação concreta.
+
+---
+
+## Questão substituta S22-2: raciocínio por etapas e validação
+
+> Em determinadas tarefas e modelos de linguagem, incluir exemplos de raciocínio em etapas no prompt pode melhorar o desempenho medido em testes, sem que isso implique aumento obrigatório de acurácia para todos os modelos, tarefas e áreas de conhecimento.
+
+**Gabarito: CERTO (inédita, substitui a Questão 2 bloqueada).** *Chain-of-Thought* designa um padrão de explicitação de passos intermediários, frequentemente introduzido por exemplos. Resultados experimentais em determinados modelos e conjuntos de problemas **não são garantia universal**. A qualidade pode variar por tarefa, arquitetura, dados e método de avaliação.
+
+**Casos progressivos:** em um cálculo aritmético com várias operações, uma decomposição verificável pode ajudar; em uma consulta jurídica, etapas bem redigidas ainda podem se basear em norma revogada ou jurisprudência inventada. A solução jurídica deve ser confrontada com fontes oficiais, enquanto a matemática pode ser conferida por cálculo independente.
+
+**Contraexemplo:** “Basta pedir ao modelo que pense passo a passo para garantir respostas corretas” é **ERRADO**. A explicação detalhada pode conter erros e não é prova de veracidade.
+
+**Fonte acadêmica:** Wei e colaboradores (2022), [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903), resultados condicionados à escala e aos benchmarks avaliados. **Relação:** [[3 - Materias/Informatica/21 - ia generativa modelos llms difusao usos e limites|Alucinações e limites de modelos]].
+
+**Rastreabilidade:** Questão 2 original permanece **NÃO HOMOLOGADA**.

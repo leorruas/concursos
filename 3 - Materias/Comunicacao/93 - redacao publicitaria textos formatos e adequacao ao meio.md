@@ -180,6 +180,10 @@ Os [itens 91 a 95 do caderno oficial CNMP 2023](https://cdn.cebraspe.org.br/conc
 
 **Fronteira necessária:** estas são técnicas de **redação jornalística**, que podem orientar hierarquia e adaptação textual, mas não tornam publicidade, reportagem e comunicação institucional gêneros equivalentes. O gabarito do item 95 deve permanecer **X**, sem interpretação normativa sobre o uso de aspas. A adaptação textual da Câmara continua condicionada à fidelidade da informação, à linguagem simples e à governança editorial. Não alterar gabaritos inéditos existentes por analogia não examinada.
 
+## Questões reais DPDF 2022: precisão e escrita (11/11/2026)
+
+Conferidos diretamente [caderno DPDF 2022](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF) (itens 91–96) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/GAB_DEFINITIVO_548_DPDF_005_01.PDF): **91 E** (mistura texto factual com abstração/adjetivação), **92 E** (confusão de verossimilhança e apuração), **93 C** (parágrafos curtos, palavras correntes e síntese), **94 E** (prescrição sobre siglas), **95 C** (checagem, diferentes perspectivas e clareza), **96 C** (convenção de apresentação de nomes e cargos). São itens de **Jornalismo**, cuja aplicação à publicidade institucional exige adequação de gênero; especialmente o item 96 não é regra jurídica universal de tratamento. **C/E inédito:** “Para garantir concisão, um comunicado deve suprimir esclarecimentos necessários à compreensão de uma sigla pouco conhecida.” **Errado**. O gabarito histórico não deve ser confundido com o exercício criado.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|CAM-DI-008]] diferencia conceito e posicionamento; [[3 - Materias/Comunicacao/87 - mensagem publicitaria apelos e argumentacao|CAM-DI-009]] trabalha argumentos e apelos; [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|CAM-DI-011]] compara suportes; [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|CAM-DI-014]] exige revisão e versões.

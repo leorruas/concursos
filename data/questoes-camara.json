@@ -2290,6 +2290,134 @@
       "statement": "“The new form is intended to streamline the registration process by removing two approval steps.” Replacing “streamline” with “make more efficient” preserves its meaning in this context.",
       "correctAnswer": "C",
       "explanation": "A retirada de etapas explica como o formulário pretende tornar o processo mais eficiente. A expressão proposta preserva esse sentido."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e ideias explícitas e implícitas",
+      "conceptId": "ideia-central",
+      "mechanism": "distinguir-tese-de-exemplo",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#2. A anatomia do parágrafo analítico em língua inglesa: Topic Sentence e dinâmica informacional"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“Digital appointment systems can reduce queues, but only when people have a way to book without internet access. One library, for instance, kept a telephone booking line.”\n\nThe telephone line illustrates a condition for the wider benefits discussed in the passage.",
+      "correctAnswer": "C",
+      "explanation": "A linha telefônica exemplifica uma alternativa para pessoas sem acesso à internet. A tese abrange sistemas de agendamento em geral."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e ideias explícitas e implícitas",
+      "conceptId": "ideia-central",
+      "mechanism": "ampliar-escopo-da-conclusao",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#5. A taxonomia dos distratores clássicos em itens de compreensão do Cebraspe"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“The pilot reduced delays at two branches. Whether the same approach would work at larger branches remains unclear.”\n\nThe author concludes that the approach reduces delays at branches of every size.",
+      "correctAnswer": "E",
+      "explanation": "O resultado se refere a duas unidades. O texto deixa explícita a incerteza sobre as maiores."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e ideias explícitas e implícitas",
+      "conceptId": "proposito-comunicativo",
+      "mechanism": "identificar-instrucao",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#4. O propósito comunicativo do autor (*Author's Purpose*) e o tom textual"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“To replace a lost access card, complete the online form and bring a photo ID to the service desk. Your temporary card will expire after seven days.”\n\nThe passage primarily tells readers what to do after losing their access cards.",
+      "correctAnswer": "C",
+      "explanation": "Os imperativos orientam o leitor a cumprir etapas. O prazo complementa a instrução."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e ideias explícitas e implícitas",
+      "conceptId": "tom-textual",
+      "mechanism": "confundir-cautela-com-rejeicao",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#4. O propósito comunicativo do autor (*Author's Purpose*) e o tom textual"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“The first results are encouraging. Still, the sample was small, and we need to observe the service for another month before recommending expansion.”\n\nThe author rejects expansion as an option.",
+      "correctAnswer": "E",
+      "explanation": "O autor adia uma recomendação até reunir mais evidências. O texto mantém a expansão como possibilidade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e ideias explícitas e implícitas",
+      "conceptId": "scanning",
+      "mechanism": "selecionar-busca-pontual",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#3. Skimming versus Scanning: técnicas de leitura instrumental em prova"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“The first section of the notice explains the purpose of the grant. The final section lists the submission dates and the contact address.”\n\nA reader who needs only the contact address can scan for it instead of reading the full explanation of the grant.",
+      "correctAnswer": "C",
+      "explanation": "Scanning é a busca de uma informação localizada. O leitor já sabe qual dado procura."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e ideias explícitas e implícitas",
+      "conceptId": "inferencia-evidencial",
+      "mechanism": "confundir-ausencia-de-registro-com-ausencia-de-evento",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#5. A taxonomia dos distratores clássicos em itens de compreensão do Cebraspe"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“The help desk logged no complaints about the new form during the first week. The online complaint channel was unavailable for three of those days.”\n\nThe passage establishes that nobody had difficulties with the new form during the first week.",
+      "correctAnswer": "E",
+      "explanation": "A ausência de reclamações registradas não demonstra ausência de dificuldades. A indisponibilidade do canal limita ainda mais a conclusão."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e ideias explícitas e implícitas",
+      "conceptId": "ideia-central",
+      "mechanism": "identificar-tese-apos-exemplos",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#2. A anatomia do parágrafo analítico em língua inglesa: Topic Sentence e dinâmica informacional"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“Some notices rely on a single image. Others use an audio clip. In either case, users need an alternative way to obtain the same information.”\n\nThe first two sentences introduce cases that support a broader point in the final sentence.",
+      "correctAnswer": "C",
+      "explanation": "Os exemplos apresentam dois formatos distintos. A última frase formula uma exigência comum aos dois casos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e ideias explícitas e implícitas",
+      "conceptId": "proposito-comunicativo",
+      "mechanism": "distinguir-relato-de-recomendacao",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#4. O propósito comunicativo do autor (*Author's Purpose*) e o tom textual"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“The committee tested evening opening hours from April to June. Attendance rose in May and fell again in June. The minutes record these figures without proposing any change.”\n\nThe passage recommends that the evening opening hours be adopted permanently.",
+      "correctAnswer": "E",
+      "explanation": "O trecho relata o teste e seus resultados. Ele informa expressamente que não houve proposta de mudança."
     }
   ]
 }

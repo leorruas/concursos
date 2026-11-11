@@ -755,3 +755,57 @@ A matriz representa **decisões editoriais recomendadas para Fase 2/3**, não co
 **Não atendidos em rigor pleno:** o protocolo pede **leitura integral e validação de cada questão**, verificação de **todas as referências** em fontes primárias e grau de aprendizagem; até agora houve leitura **dirigida/seletiva** e revisão de itens de maior risco, não certificação exaustiva. Teste de navegação publicada e amostragem extensa de corpus real de Português ainda pendentes. Por essa razão, **não declarar auditoria integral da matéria concluída ou Fase 1 fechada definitivamente**. Classificar o estado como **“diagnóstico estrutural e plano de reparos concluídos; certificação pedagógica integral pendente”**. É possível encerrar a redação do plano desta rodada, mas a auditoria segue aberta para esses requisitos, em especial para questões e fontes prioritárias. **Nenhuma correção de artigo ou vínculo autorizada e nenhuma executada.**
 
 **Próximo passo controlado:** validar integralmente, por lotes, as questões e fontes ainda pendentes, com quadro por item e registro de decisão; quando houver evidência suficiente, produzir o parecer final da Fase 1. **Fase 2 (planejamento da reorganização por implementação) e Fase 3 (reparos) continuam bloqueadas** até autorização e critérios definidos. Preservar trabalhos paralelos.
+
+
+## Bloco 19: validação individual dos 24 itens C/E das notas 22–25 (11/11/2026)
+
+**Método:** recuperar pelo conector GitHub as quatro notas completas `22 - classes de palavras e suas funcoes no periodo.md`, `23 - termos essenciais integrantes e acessorios da oracao.md`, `24 - coordenacao relacoes sintaticas e semanticas.md`, `25 - subordinacao substantiva adjetiva e adverbial.md`; reler **os seis enunciados, gabaritos e comentários de cada arquivo**; classificar separadamente a correção do núcleo do item e da justificativa. Cotejar pontuação com [Manual de Elaboração de Textos do Senado Federal](https://www2.senado.leg.br/bdsf/bitstream/handle/id/70468/Manual%20de%20Elaboracao%20de%20Textos.pdf?isAllowed=y&sequence=2), especialmente adversativas deslocadas, e [Manual de Comunicação do Senado, vírgula](https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula) e [vírgula antes de `e`](https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e). A fonte da convenção de subordinada adverbial anteposta [Português.com.br, uso da vírgula entre períodos compostos por subordinação](https://www.portugues.com.br/gramatica/o-uso-virgula-entre-os-periodos-compostos-por-subordinacao-.html) foi consultada como referência didática **secundária**, não como texto do Cebraspe. **Nenhum dos 24 enunciados é questão oficial: todos são inéditos de estilo Cebraspe, e nenhum recebeu validação exaustiva contra várias gramáticas por edição e página.**
+
+**Legenda de decisão:** `M` = **manter provisoriamente** gabarito e comentário, núcleo coerente sem objeção substantiva identificada neste teste; `R` = **manter provisoriamente gabarito, revisar comentário/alcance**; `S` = **suspender o uso como item certificado** até resolver controvérsia. Mesmo `M` **não equivale a homologação integral**; o critério final de certificação ainda exigirá fontes específicas e contexto.
+
+| Nota/item | Gabarito | Decisão | Teste do núcleo e observação de auditoria |
+| --- | --- | --- | --- |
+| **22#1** | E | **M** | `que` integrante após `exigiu` versus relativo após `relatórios`; diferencia classe e função. |
+| **22#2** | C | **M** | `bastantes razões` determina nome e flexiona; `bastante consistente` modifica adjetivo como advérbio invariável. |
+| **22#3** | E | **M** | `trata-se de` com complemento preposicionado, sujeito indeterminado sob análise tradicional; não concorda com `prerrogativas`. |
+| **22#4** | E | **R** | `mero adiamento` / `adiamento mero` não preservam uso natural nem leitura original; a justificativa de **impossibilidade absoluta** de posposição é mais forte do que o necessário para julgar o item. Preferir critério semântico/idiomático, exemplificar contraste. |
+| **22#5** | C | **M** | `anexas` adjetivo com concordância em gênero e número com `notas técnicas`; análise como predicativo do objeto plausível. |
+| **22#6** | C | **M** | `é que` como realce retirável, com preservação da correção e estrutura sintática básica; não confundir remoção de ênfase com **igualdade pragmática total** (não exigida no enunciado). |
+| **23#1** | E | **M** | `haver` existencial impessoal vs `existir` pessoal, apenas `relatores` como sujeito. |
+| **23#2** | E | **M** | O sujeito elíptico de `deliberaram` recupera `Os membros da Mesa Diretora`; não é indeterminado. |
+| **23#3** | C | **M** | `fiscalização dos contratos` e `cumprimento das normas`: complementos preposicionados com papel paciente, em análise normativa tradicional. |
+| **23#4** | C | **M** | `Ao Presidente compete promulgar...`: sujeito oracional reduzido de infinitivo e complemento de destinatário/atribuição preposicionado. |
+| **23#5** | C | **S** | `princípio da moralidade administrativa` rotulado `aposto especificativo` sem referência que examine exatamente a classificação de sintagma abstrato. **Permanecem PT-112/PT-117: retirar provisoriamente da seleção de questões confiáveis**; não trocar C por E por palpite. |
+| **23#6** | E | **M** | `entregou-lhe o relatório`: `lhe` é objeto indireto, `o relatório` objeto direto, invertidos pelo enunciado. |
+| **24#1** | C | **M** | `e ainda assim` introduz contraste contra expectativa; a conjunção `e` conserva forma coordenativa, com valor discursivo adversativo na passagem. |
+| **24#2** | C | **R** | Sujeitos distintos `Senado`/`Câmara` tornam vírgula **legítima**. [Manual do Senado, “Vírgula antes da conjunção e”](https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e) vincula obrigatoriedade editorial também a risco de ambiguidade, e há casos sem vírgula com sujeitos diferentes. O enunciado afirma **justificativa de presença**, não obrigação universal; manter C, evitar inferir obrigatoriedade em todos os casos. |
+| **24#3** | E | **M** | `tampouco` não equivale a `tão pouco`; troca distorce sentido e construção. |
+| **24#4** | C | **M** | Independência sintática de coordenadas é critério da classificação tradicional; ressalvar que independência sintática não nega relação semântica. |
+| **24#5** | C | **R** | `o Plenário, todavia, rejeitou`: **isolamento por duas vírgulas** confirmado como construção padrão pelo [Manual de Elaboração de Textos do Senado Federal, seção de pontuação](https://www2.senado.leg.br/bdsf/bitstream/handle/id/70468/Manual%20de%20Elaboracao%20de%20Textos.pdf?isAllowed=y&sequence=2). C defensável no caso; reduzir generalização de “todos adversativos/conclusivos intercalados, em quaisquer posições” e distinguir `mas` e `pois` conclusivo. |
+| **24#6** | E | **M** | `não só... mas também` acumula propriedades, não introduz restrição da primeira. |
+| **25#1** | C | **R** | Vírgulas convertem restritiva em explicativa e **alteram o escopo referencial**; o comentário afirma que “todos os projetos de lei” passam a possuir a característica, extrapolando universo/contexto. **Corrigir fundamentação** de acordo com PT-002/PT-011B/PT-016A/PT-020; a questão não precisa inverter C. |
+| **25#2** | C | **M** | `cujas normas`: relativo possessivo retoma `Regimento` e concorda com nome posterior `normas`. |
+| **25#3** | E | **M** | `É imprescindível que...`: oração subordinada substantiva subjetiva; não é objeto direto de verbo de ligação. |
+| **25#4** | C | **R** | Condicional extensa anteposta é normalmente demarcada por vírgula; há apoio didático para a vírgula na construção apresentada. Contudo, “estritamente obrigatória em **qualquer** oração adverbial anteposta” é extrapolação; focar o caso concreto e citar a convenção adotada, separando gramática de preferência editorial. |
+| **25#5** | E | **R** | `sessão solene` designa evento, não localidade; em redação formal é preferível `em que`/`na qual`. Retirar da fundamentação “**exclusivamente lugares físicos**” como teoria total dos usos de `onde`; indicar norma de redação formal. |
+| **25#6** | C | **M** | `Encerrada a fase...`: reduzida de particípio com leitura temporal, parafraseável por `quando foi encerrada`. |
+
+**Resumo exato desta bateria de validação:** **24 questões avaliadas individualmente**; **16 M**, **7 R** (`22#4`, `24#2`, `24#5`, `25#1`, `25#4`, `25#5` = seis; contar e conciliar a lista abaixo), **1 S** (`23#5`). **Contagem retificada pelos códigos da tabela: 17 M, 6 R, 1 S**. Esses números representam decisão de auditoria **provisória por item**, não homologação gramatical exaustiva. **Zero inversões de gabarito comprovadas**; **23#5 suspenso**. Na tabela `R`, não houve necessidade de inverter o gabarito: reformular comentários/escopo é a intervenção.
+
+### Achados novos
+
+**PT-119, contraste entre estilo de pontuação e exigência C/E:** `24#2` tem gabarito C defensável porque há dois sujeitos e a vírgula foi empregada, mas a regra exata do Manual de Comunicação do Senado condiciona a **obrigatoriedade** também à ambiguidade. O comentário não deve transformar legitimidade em necessidade.
+
+**PT-120, decisão localizada de pontuação:** `24#5`, gabarito C, é abonado para `o Plenário, todavia, rejeitou` pelo Manual de Elaboração de Textos do Senado; a extensão indiscriminada a quaisquer conectivos/posições segue como **melhoria necessária** (PT-014A).
+
+**PT-121, decisão localizada sem inversão:** `25#1`, gabarito C, continua defensável para mudança de restritiva para explicativa, **mas a justificação sobre “todos os projetos de lei” é falsa como conclusão universal não contextualizada**. Corrigir a justificativa para referir-se ao conjunto contextual designado.
+
+**PT-122, consistência normativa didática:** `25#4` é um exemplo de condicional anteposta pontuada adequadamente. O emprego da vírgula **nesse caso** não prova sua necessidade em toda oração anteposta independentemente da extensão/circunstância. Associar à fonte e ao comando.
+
+**PT-123, validade terminológica:** `22#4` mantém E por prejuízo de uso e sentido da posposição de `mero`, mas o comentário requer maior precisão para não afirmar, sem fonte, impossibilidade absoluta de toda posposição de adjetivo desse tipo. `25#5` mantém E para `onde` retomando evento em registro formal, com ressalvas sobre espacialidade figurada.
+
+### Gate de protocolo
+
+**Cobertura de verificação individual desta bateria:** 24/24 questões autorais dos artigos **22, 23, 24, 25**, com **17 M, seis R, uma S**, verificação de núcleo gramatical e fontes para regras selecionadas de pontuação; **zero questões integralmente homologadas**. **Artigos 22–25 permanecem não certificados como um todo.** Reanálise prévia de 23#5 e de pontuação incorporada, não contagem de 24 questões *novas*. Faltam baterias integrais das demais notas, fontes de gramática por caso e confirmação de padrões Cebraspe sem extrapolar de manuais do Senado. Nenhum artigo de estudo alterado.
+
+**Próximo lote:** seis itens de cada uma das notas `26–29` (24 questões), com prioridade a pontuação, concordância percentual, regência e crase; manter registro de fonte e decisão por item antes de futuro reparo.

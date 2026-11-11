@@ -164,6 +164,10 @@ O **item 64, Errado**, generaliza a origem dos termos “cultura de massa” e �
 
 Para uma questão discursiva, apresentar o problema social, descrever a lógica econômica de produção, identificar mecanismos demonstráveis de padronização e diferenciação aparente e avaliar seus limites. Não escrever que “toda mídia manipula” como substituto da explicação do mecanismo. A relevância para divulgação institucional está no cuidado de distinguir informação de interesse público de formas mercantis de produção e promoção cultural.
 
+## Questão real Cebraspe: CNMP 2023, item 54 (11/11/2026)
+
+O **item 54**, no [caderno oficial do CNMP 2023](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), afirma que a teoria crítica teria proposto substituir **indústria cultural** por **cultura de massa**. O [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF) é **Errado**. A alternativa inverte o gesto conceitual de Adorno e Horkheimer: “indústria cultural” foi empregado precisamente para problematizar a ideia de cultura de massa como algo espontaneamente surgido das massas. O item documenta **inversão de direção da formulação teórica**, sem que isso transforme as duas expressões em simples sinônimos. Enunciado e gabarito consultados diretamente nos PDFs originais.
+
 ## Heurísticas
 
 **Horkheimer, 1937:** teoria tradicional e crítica. **Adorno e Horkheimer, 1944/1947:** dialética do esclarecimento e indústria cultural. **Padronização:** fórmula repetível. **Pseudoindividualização:** aparência de singularidade em estrutura padronizada. **Racionalidade instrumental:** cálculo eficiente dos meios sem crítica suficiente dos fins. **Benjamin:** aura, reprodutibilidade técnica, mudanças na experiência estética e tensões políticas. Se o item transportar **aura para Adorno** ou **indústria cultural para Benjamin como coautor**, conferir a atribuição.

@@ -213,3 +213,59 @@ Prioridade de intervenção até 17/01/2027: **alta** para texto literal das nor
 6. Emitir depois parecer individual final (manter, reorganizar, dividir, fundir, ampliar, reduzir, corrigir) e classificação de confiança por artigo. **Nenhuma recomendação de estudo irrestrito pode ser emitida agora.**
 
 **Parecer atual:** a biblioteca oferece material de estudo exploratório e trilhas já estruturadas, porém sua correção conceitual e normativa integral, cobertura final do edital e adequação das discursivas **não estão validadas nesta auditoria**. Este documento é um checkpoint auditável, não um selo de aprovação.
+
+
+## Bloco adicional: exame substantivo dirigido e cotejo normativo (11/11/2026)
+
+**Método e limites:** novos acessos integrais por `fetch_file` aos artigos **72, 73, 74, 75, 76, 77, 78, 122, 123 e 124**, com inspeção de seções e transcrição dos conjuntos de itens C/E (3+3+3+3+3+3+3+10+10+10 = **51 itens inéditos**) e confronto dirigido com fontes oficiais pertinentes. Nos artigos 72 e 73, verificou-se também o desenvolvimento interno dos conceitos e a articulação de competências. Essa revisão dirigida **não comprova leitura crítica exaustiva de todos os parágrafos de todos os artigos**, nem valida externamente todos os 51 itens: distinguir `acesso integral ao arquivo` de `cotejo jurídico item a item concluído`. Os itens 72/74 e 123/124 receberam conferência mais direta.
+
+### Achado C-01: lacuna no glossário do ato (importante, texto exato identificado)
+
+O artigo `3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md`, seção **“Fontes, versão e lacunas delimitadas”**, declara não examinar o **Anexo Único**, embora o art. 2º, parágrafo único, do próprio ato o incorpore como glossário necessário. **Anexo oficial localizado e conferido na íntegra (uma página):** https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-anexo-cd-mesa.pdf . Define seis termos: **comunicação pública, comunicação institucional, imagem institucional, interesse público, público externo e público interno**. A definição institucional de interesse público inclui critérios de abrangência coletiva que exigem leitura crítica: número de pessoas afetadas é um fator de relevância enunciado no glossário, mas não critério universal de justiça nem substituto de proteção de minorias. **Intervenção futura:** adicionar quadro de correspondência entre as seis definições oficiais, a literatura teórica e as notas 52, 53, 60 e 71; evitar apresentar definição normativa da Câmara como conceito acadêmico universal. Sem alterar texto agora.
+
+### Achado C-02: norma de IA com critérios específicos acessíveis (importante, risco direto em questões normativas e peça)
+
+Os artigos `73 - manual de comunicacao da camara procedimentos e linguagem.md`, seção **“Inteligência artificial: uso assistivo e supervisão humana”**, e `74 - inteligencia artificial na comunicacao processos e riscos eticos.md`, seção **“Transparência sobre o uso e a Ordem de Serviço nº 1/2026”**, deixam sem desenvolvimento o conteúdo da ordem de serviço e seu anexo. A **publicação original dos arts. 1º a 5º agora foi obtida**: https://www2.camara.leg.br/legin/int/ordser/2026/ordemdeservico-1-11-setembro-2026-799917-publicacaooriginal-181316-direx.html .
+
+Distinções textuais comprovadas: **art. 3º**, IA meramente acessória (transcrição, revisão e ajustes de áudio/imagem) recebe informação **geral** no Manual/Termos de Uso; **art. 4º, I**, conteúdo integralmente gerado com supervisão humana traz **“Gerado por IA”**; **art. 4º, II**, conteúdo gerado com intervenção humana: **“Feito com suporte de IA”** e variantes de áudio/animação; **art. 4º, III**, partes audiovisuais geradas por IA: identificação no crédito, descrição ou marca d'água, conforme o caso. O **§ 2º** atribui decisão sobre a identificação ao **gestor do veículo**, segundo fluxo informado pelo responsável pela produção. O **Anexo I específico ainda exige exame direto**. Esta é distinção de alta relevância C/E: dizer que *qualquer* uso acessório exige o mesmo aviso específico é incorreto; afirmar que IA integral não precisa de indicação específica também é incorreto. **Intervenção futura:** atualizar 73 e 74 articulando uso acessório, geração integral, geração com intervenção, inserção parcial e autoridade de decisão, mantendo regra do Anexo I expressamente pendente.
+
+### Achado C-03: precisão no erro material da norma (melhoria, anotação confirmada)
+
+O artigo **72**, seção **“Diretrizes (art. 7º): dezoito orientações de ação”**, identifica corretamente o erro material de numeração da LGPD no **inciso XVII** do ato original (aparece 13.079, enquanto a lei é **13.709/2018**). A informação no artigo é útil e **não é erro do artigo**. Preservar separação entre literalidade da fonte e identificação correta da lei. Fonte: https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html , art. 7º, XVII.
+
+### Achado C-04: organização e limites de dois manuais (importante, ampliação sem substituir fontes)
+
+O artigo **73**, seções **“Arquitetura do Manual: camadas que não se confundem”** e **“Agência, Assessoria, Portal e participação”**, preserva distinção adequada entre **política vinculante** e **recomendação editorial**, e entre Agência Câmara e Assessoria de Imprensa. Em suas fontes, o próprio artigo delimita cobertura por capítulos selecionados, não pelo Manual inteiro. A intervenção proposta é inventariar todos os capítulos e remissões normativas do Manual oficial e construir uma matriz de competências e produtos por área. **Os três itens inéditos do artigo 73** foram recuperados; os gabaritos apresentados não demonstraram contradição interna, mas ainda faltam cotejo integral com cada capítulo oficial e corpus Cebraspe.
+
+### Achado C-05: linguagem simples e aplicação pública (verificação dirigida, sem erro confirmado)
+
+O artigo **75**, seções **“A estrutura interna do texto”**, **“Técnicas de redação”** e **“A lei de 2025”**, separa encontrar, compreender e usar, e explica que as 18 técnicas do art. 5º da Lei nº **15.263/2025** são exemplificativas. Confirmação oficial de identificação, data e vigência: https://www2.camara.leg.br/legin/fed/lei/2025/lei-15263-14-novembro-2025-798293-norma-pl.html . Os três itens C/E tratam da tríade, da preservação de condições e da língua de comunicação a povos indígenas; falta cotejo final do item 3 com o texto integral dos arts. 5º e 6º. O **76** desenvolve três etapas do manual de Patricia Roedel (planejamento, desenvolvimento, avaliação); os três itens respectivos foram levantados, mas dependem de comparação com as páginas originais do manual. O **77** explica eficácia, eficiência, satisfação e distinção entre inspeção heurística e teste com usuários, com três itens recolhidos; a redação é coerente com a estrutura ISO apresentada, mas permanece pendente cotejo completo da edição 9241-11:2018. **Parecer: usar com ressalva de auditoria, não declarar validação geral.**
+
+### Achado C-06: publicidade institucional (verificação dirigida, sem erro confirmado)
+
+O artigo **78**, seções **“Estrutura normativa do art. 37”**, **“Promoção institucional versus promoção pessoal”** e **“Como o Cebraspe pode cobrar”**, diferencia corretamente o caráter **educativo, informativo ou de orientação social** da promoção pessoal e separa identificação factual de exaltação. Três itens C/E examinados quanto à coerência com a literalidade do art. 37, § 1º e o art. 12 do Ato nº 218; não foi encontrado erro evidente nessas distinções. **Proposta:** acrescentar situação de fronteira em peça técnica, com canal de gabinete versus canal institucional da Casa, evitando extrapolar a exceção do art. 1º do Ato a toda norma constitucional.
+
+### Achado C-07: Lei nº 12.232/2010 (importante; precisão condicionada à vigência)
+
+O arquivo **123**, seção **“Como o Cebraspe pode cobrar”**, contém dez itens; o **124** contém dez itens. Cotejo documental dirigido com https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html confirmou a correção das fronteiras dos itens **123/1–6**, **123/7–9**, **124/3**, **124/5**, **124/7**, **124/8**, **124/9** e **124/10** quanto à literalidade da Lei 12.232 (objeto e exclusões, CENP, art. 20-A, pontuação estritamente superior a 20%, anulação por agente público, três orçamentos apesar de dispensa do rito de sessão, bonificações, cinco anos após extinção, transparência). Isso é verificação de **literalidade desses pontos**, não homologação judicial de interpretação do regime de licitações após a revogação da Lei 8.666. Especial cuidado com a dependência de remissões históricas no art. 14, § 3º, art. 18, § 3º e art. 5º. Os itens restantes e cada explicação do corpo precisam de revisão por dispositivo para estado final. **Nenhum erro de gabarito confirmado até aqui.**
+
+### Quadro de intervenção para o próximo bloco
+
+| Arquivos | O que está sustentado | Decisão preliminar | Prioridade |
+| --- | --- | --- | --- |
+| 72 | Corpo do Ato correto em vários dispositivos; anexo não incorporado | **Ampliar**, preservar ID e remissões | Importante |
+| 73 | Manual explorado por capítulos, não integralmente; ordem IA apenas mencionada | **Ampliar**, revisar relações entre fontes e órgãos | Importante |
+| 74 | Distinções de IA adequadas; norma de identificação sem critérios | **Ampliar** com arts. 3º e 4º e Anexo I | Importante |
+| 75 | Fundamento legal e distinções textuais desenvolvidas | **Manter com validação pendente** de artigos de lei e itens | Melhoria/verificação |
+| 76 | Etapas do manual de Roedel estruturadas | **Manter com verificação bibliográfica pendente** | Importante até cotejo |
+| 77 | ISO, eficácia/eficiência/satisfação e métodos distintos | **Manter com cotejo técnico pendente** | Melhoria/verificação |
+| 78 | Finalidade constitucional e promoção pessoal bem diferenciadas nos itens examinados | **Manter; ampliar casos de fronteira** | Melhoria |
+| 122 | Dez itens CONAR coletados, sem cotejo integral com código e anexos | **Verificação normativa pendente** | Importante |
+| 123 | Itens principais de objeto, exclusões e comunicação institucional coerentes com lei atualizada | **Manter com ressalva de remissões** | Importante |
+| 124 | Dez itens coletados; pontos legais especialmente arriscados cotejados | **Manter com ressalva de remissões** | Importante |
+
+### Atualização de fontes e pendências
+
+A fonte oficial do **edital nº 1** segue apresentando bloqueio HTTP 429 neste ambiente. Editais 5 e 6 foram acessados como PDF e conferidos visualmente: a retificação nº 5 altera requisito do Cargo 1 para registro no MTE, sem alterar o conteúdo específico deste cargo; a nº 6 altera o Cargo 9 e classificação geral. Fontes: https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades .
+
+**Próximo bloco verificável:** concluir Anexo I da ordem de IA; Ato da Mesa 80/2019, Ordem 7/2025; cotejar Código CONAR e manual de Roedel; iniciar revisão integral de texto e questões das séries 25–71 e 79–121; identificar artigos externos compartilhados via catálogo. Preservar identificação do artigo e linha em todo achado. **Fase 1 permanece em curso.**

@@ -5,7 +5,7 @@ title: "Teams e Google Meet: ferramentas de colaboração, videoconferência cor
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Teams e Google Meet: ferramentas de colaboração, videoconferência corporativa, canais e moderação
@@ -46,7 +46,7 @@ flowchart TD
 O Google Meet é a solução de videoconferência corporativa focada em **navegação nativa leve no navegador** (sem necessidade de instalação de software cliente pesado):
 - Totalmente integrado ao **Google Agenda** (*Google Calendar*) e ao Gmail;
 - **Acesso simplificado**: O ingresso ocorre via link direto (`meet.google.com/abc-defg-hij`);
-- **Gravação de reuniões**: O vídeo gerado é salvo automaticamente na pasta *Gravações do Meet* no **Google Drive** do organizador da reunião;
+- **Gravação de reuniões**: As novas gravações são salvas no **Google Drive do organizador**, na pasta **Google Meet**, com uma subpasta específica para cada reunião, conforme a reorganização do serviço em julho de 2026;
 - **Legendas em tempo real (*Live Captions*)**: Transcrição automática instantânea impulsionada por inteligência artificial com tradução simultânea.
 
 ---
@@ -58,7 +58,7 @@ O Cebraspe frequentemente formula itens sobre o controle de moderação de reuni
 | Papel / Função | Pode falar e ligar câmera? | Pode compartilhar tela? | Pode silenciar outros participantes? | Pode admitir pessoas da sala de espera (*Lobby*)? | Pode encerrar a reunião para todos? |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Organizador (*Organizer*)** | Sim | Sim | Sim | Sim | **Sim** |
-| **Co-organizador (*Co-organizer*)** | Sim | Sim | Sim | Sim | Não (na maioria dos tenants não encerra para todos) |
+| **Co-organizador (*Co-organizer*)** | Sim | Sim | Sim | Sim | **Sim**, em reuniões do Microsoft Teams conforme permissões descritas pela Microsoft |
 | **Apresentador (*Presenter*)** | Sim | Sim | Sim | Sim | Não |
 | **Participante (*Attendee*)** | Sim (se liberado pelo organizador) | **Não** (por padrão) | **Não** | **Não** | Não |
 
@@ -105,7 +105,7 @@ Um servidor envia uma minuta de contrato confidencial em um chat privado (conver
 
 ### Caso 4: Resgate de gravação de reunião do Google Meet
 Uma reunião de trabalho foi gravada no Google Meet. O servidor que participou como convidado procura o arquivo de vídeo no seu computador local e não encontra nada.
-*Análise:* O comportamento é padrão da nuvem. O Google Meet não grava localmente no disco rígido do participante; a gravação em vídeo (formato `.mp4`) é processada pelos servidores da nuvem e depositada automaticamente na pasta *Gravações do Meet* no **Google Drive do organizador da reunião**.
+*Análise:* A gravação do Meet é processada na nuvem e salva no **Google Drive do organizador**, dentro da pasta **Google Meet** e da subpasta da reunião. Os participantes podem receber links ou atalhos conforme as permissões do serviço, mas a gravação **não é baixada automaticamente** para todos os computadores.
 
 ---
 
@@ -162,7 +162,7 @@ Uma reunião de trabalho foi gravada no Google Meet. O servidor que participou c
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** A gravação é processada em nuvem e enviada exclusivamente para a pasta do **Google Drive do organizador da chamada**, não sendo salva nos computadores locais dos participantes.
+**Comentário:** A gravação é processada em nuvem e salva no **Google Drive do organizador**, na pasta **Google Meet** e na subpasta da reunião. Conforme o serviço, participantes podem receber atalhos, links ou permissões de acesso, sem que o arquivo seja automaticamente salvo no disco local de cada um.
 
 ---
 
@@ -188,3 +188,5 @@ Uma reunião de trabalho foi gravada no Google Meet. O servidor que participou c
 | **Subgrupos de discussão** | Salas Simultâneas (*Breakout Rooms*) | Salas Temáticas (*Breakout Rooms*) |
 | **Modo de apresentação focado** | PowerPoint Live / Modo Destaque | Compartilhar Guia / Apresentar tela |
 | **Encerramento de reunião** | "Sair da reunião" (individual) $\times$ "Encerrar reunião" (para todos) | "Sair da chamada" $\times$ "Encerrar chamada para todos" |
+
+> **Atualização de produto (11/11/2026):** o Google informa a [nova estrutura da pasta Google Meet](https://support.google.com/meet/answer/9308681?hl=pt-BR) desde julho de 2026, e a Microsoft descreve que [coorganizadores podem encerrar reuniões para todos](https://support.microsoft.com/pt-br/teams/meetings/add-co-organizers-to-a-meeting-in-microsoft-teams). Revisados TI-041 e TI-042; conferir configurações e licenças específicas antes de generalizar permissões.

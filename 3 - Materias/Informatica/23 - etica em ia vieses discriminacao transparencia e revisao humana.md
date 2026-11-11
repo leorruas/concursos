@@ -214,13 +214,13 @@ Instituída pela Portaria MCTI nº 4.617/2021, fixa 6 eixos verticais e 3 eixos 
 > **Assertiva:** O método de aprendizado conhecido como XAI (*Explainable Artificial Intelligence*) busca desenvolver técnicas que tornem as decisões tomadas por modelos estatísticos complexos e redes neurais profundas inteligíveis para seres humanos, viabilizando o cumprimento do dever de fundamentação e motivação dos atos administrativos no âmbito do poder público.
 >
 > **Gabarito:** **CERTO**  
-> **Comentário:** A inteligência artificial explicável (XAI) tem exatamente esse escopo: superar o dilema da opacidade dos modelos de "caixa-preta", permitindo identificar os fatores que determinaram uma predição específica para que o cidadão e a administração possam fiscalizar, auditar e motivar formalmente o ato praticado.
+> **Comentário:** XAI procura tornar compreensíveis aspectos de funcionamento e resultados dos modelos, auxiliando auditorias e a motivação administrativa. **Uma explicação gerada por XAI não equivale automaticamente à fundamentação jurídica suficiente do ato**, que depende da decisão concreta, das evidências e das normas pertinentes. O gabarito CERTO descreve a finalidade da técnica, não garantia de conformidade.
 
 ### Item 6
 > **Assertiva:** O arranjo de governança algorítmica denominado *Human-in-the-Loop* (HITL) caracteriza-se por permitir que o sistema de inteligência artificial tome e execute decisões administrativas de forma autônoma e instantânea, mantendo o operador humano apenas como um auditor retrospectivo que avalia relatórios gerenciais e estatísticas mensais de erros após a consumação dos atos.
 >
 > **Gabarito:** **ERRADO**  
-> **Comentário:** A descrição do item refere-se a uma auditoria posterior (*Human-out-of-the-loop* ou supervisão ex-post). No arranjo **Human-in-the-Loop (HITL)**, a intervenção humana é **síncrona e mandatória em tempo de execução**: a máquina não tem autorização para concluir ou executar o ato decisório sem a revisão e chancela prévia de um agente humano.
+> **Comentário:** O cenário descreve supervisão **posterior** à execução, e não intervenção humana como parte do processo decisório. Em usos comuns da expressão **Human-in-the-Loop (HITL)**, pessoas participam de uma etapa relevante do fluxo de decisão, segundo o desenho do sistema. A taxonomia de formas de supervisão varia entre autores; não se deve inferir exigência legal universal de chancela humana prévia em todo sistema de IA.
 
 ---
 
@@ -235,3 +235,5 @@ Instituída pela Portaria MCTI nº 4.617/2021, fixa 6 eixos verticais e 3 eixos 
 7. **BAROCAS, Solon; HARDT, Moritz; NARAYANAN, Arvind.** *Fairness and Machine Learning: Limitations and Opportunities.* MIT Press, 2023.
 
 > **Nota de revisão (11/11/2026):** revisão pontual dos achados TI-002, TI-003 e TI-008, com distinção entre princípio ético, direito vigente e proposta legislativa. Consultar [LGPD, art. 20](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html) e [tramitação oficial do PL nº 2.338/2023](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262). A auditoria integral e a certificação dos gabaritos inéditos continuam pendentes.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** Q1–Q6 mantêm gabaritos no núcleo conceitual (E, E, C, E, C, E). Q5 e Q6 receberam ressalvas sobre limites de XAI e variação da taxonomia HITL. A aplicabilidade de deveres jurídicos depende de normas vigentes específicas.

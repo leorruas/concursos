@@ -136,6 +136,12 @@ O **item 63** do [caderno oficial CESPE/UnB Correios 2011, Cargo 28](https://cdn
 
 Para um enunciado semelhante, verificar se a banca diz “podem ser complementares” (compatível com o item histórico) ou se afirma que **ambas explicam exatamente o mesmo efeito** (conclusão diferente que requer justificativa própria). O julgamento de 2011 não valida sem exame empírico a relação causal entre as duas teorias em qualquer contexto.
 
+## Prova real DPDF 2022: agenda-setting, item 90 (11/11/2026)
+
+O [item 90 do caderno oficial DPDF, prova aplicada em 2022](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF), apresenta a imprensa como capaz de influenciar a organização, pelos destinatários, dos temas considerados relevantes. O [gabarito definitivo da Cebraspe](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/GAB_DEFINITIVO_548_DPDF_005_01.PDF) indica **Certo**. Foi inspecionado o enunciado na página 3 e o julgamento no documento original.
+
+**Distinção útil para o edital:** a formulação é compatível com o **primeiro nível de agenda-setting**, relacionado à saliência dos assuntos. Não demonstra, por si, que os receptores adotem a opinião editorial sugerida sobre o assunto, nem dispensa distinguir seleção jornalística, enquadramento e persuasão. **C/E inédito calibrado pela prova:** “Da capacidade da imprensa para destacar quais assuntos merecem atenção, segue-se necessariamente que o público concordará com a posição de cada veículo a respeito desses assuntos.” **Errado.** A questão real reconhece influência sobre relevância percebida, não concordância obrigatória.
+
 ## Aplicação discursiva
 
 Ao discutir divulgação institucional, diferenciar **dar visibilidade a um tema**, **verificar se ele se tornou prioritário para a população** e **avaliar efeitos de uma política**. Estabelecer medidas específicas, admitir influências concorrentes e não confundir a pauta do órgão com o interesse público efetivamente identificado.

@@ -46,6 +46,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[4 - Projetos/camara-2026/Questoes e Simulados|Questões e simulados]]
 
 ## 5 - Desempenho
+- [[3 - Materias/Relatorio de Estudos/relatorio-de-estudos|Relatório público de estudos da Câmara (sem resultados individuais)]]
 - [[00 Avancos globais|Avanços e desempenho global]]
 - [[01 Log de saturacao diaria|Log de saturação diária]]
 - [[02 Metricas e metas|Métricas e metas]]

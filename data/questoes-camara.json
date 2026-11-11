@@ -2546,6 +2546,102 @@
       "statement": "“Emma told Sarah that she had been selected.” Taken on its own, the sentence unambiguously identifies Sarah as the person selected.",
       "correctAnswer": "E",
       "explanation": "She pode retomar Emma ou Sarah. A frase isolada não fornece informação suficiente para escolher um referente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / Publicidade",
+      "conceptId": "diagnostico-publicitario",
+      "mechanism": "tratar-hipotese-como-causa",
+      "theoryRefs": [
+        "article:art-d3c814e9b7a5206f#Problema, sintoma, hipótese e evidência"
+      ],
+      "statement": "Uma campanha recebe poucas inscrições. Antes de investigar se o público recebeu a mensagem ou encontrou dificuldades no formulário, a equipe registra “desinteresse do público” como causa comprovada. A baixa inscrição, por si só, sustenta esse diagnóstico.",
+      "correctAnswer": "E",
+      "explanation": "A baixa inscrição é o sintoma. Desinteresse, falta de alcance e dificuldade no formulário são explicações possíveis que exigem evidência."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / Publicidade",
+      "conceptId": "briefing-de-midia",
+      "mechanism": "identificar-restricao-de-veiculacao",
+      "theoryRefs": [
+        "article:art-d3c814e9b7a5206f#Briefing de criação, de mídia e briefing estratégico"
+      ],
+      "statement": "Para orientar a distribuição de uma campanha a moradores de três bairros, é pertinente registrar no briefing de mídia a área de cobertura, o período de veiculação e o orçamento disponível.",
+      "correctAnswer": "C",
+      "explanation": "Esses dados restringem a escolha de canais, a programação e o volume de veiculação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / Publicidade",
+      "conceptId": "objetivo-e-entrega",
+      "mechanism": "confundir-producao-com-efeito",
+      "theoryRefs": [
+        "article:art-e6b29d41a507c8f3#Estrutura: níveis de objetivos e entregas"
+      ],
+      "statement": "Produzir seis vídeos explicativos comprova que a campanha atingiu o objetivo de fazer os usuários compreenderem quem pode solicitar o benefício.",
+      "correctAnswer": "E",
+      "explanation": "O número de vídeos mede entrega. A compreensão precisa ser observada, por exemplo, pedindo ao público que identifique situações elegíveis."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / Publicidade",
+      "conceptId": "indicador-e-meta",
+      "mechanism": "distinguir-medida-de-valor-desejado",
+      "theoryRefs": [
+        "article:art-e6b29d41a507c8f3#Objetivo, indicador, KPI e meta"
+      ],
+      "statement": "Em “elevar para 70% a proporção de entrevistados que reconhecem o prazo até o fim do mês”, a proporção é a medida acompanhada e 70% é o valor pretendido.",
+      "correctAnswer": "C",
+      "explanation": "O indicador define o que medir. A meta estabelece o patamar a alcançar no prazo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / Publicidade",
+      "conceptId": "efeito-conativo",
+      "mechanism": "confundir-intencao-com-acao",
+      "theoryRefs": [
+        "article:art-e6b29d41a507c8f3#Efeitos cognitivos, afetivos, conativos e comportamentais"
+      ],
+      "statement": "Uma pesquisa em que mais pessoas declaram intenção de se inscrever comprova aumento no número de inscrições efetivadas.",
+      "correctAnswer": "E",
+      "explanation": "A resposta mede intenção declarada. O comportamento efetivo precisa ser observado nos registros de inscrição."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / Publicidade",
+      "conceptId": "diagnostico-publicitario",
+      "mechanism": "testar-barreira-de-uso",
+      "theoryRefs": [
+        "article:art-d3c814e9b7a5206f#Problema, sintoma, hipótese e evidência"
+      ],
+      "statement": "Muitos visitantes chegam à última etapa de um cadastro e desistem diante de uma mensagem de erro. Testar o formulário é uma forma de investigar se uma barreira operacional contribui para as desistências.",
+      "correctAnswer": "C",
+      "explanation": "A desistência nesse ponto indica onde procurar. Reproduzir a falha ajuda a verificar se o cadastro cria uma barreira, antes de atribuir o resultado à campanha."
     }
   ]
 }

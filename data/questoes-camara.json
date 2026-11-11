@@ -242,6 +242,102 @@
       "statement": "Em sessão da Câmara com 301 deputados presentes, um projeto de lei complementar recebeu 256 votos favoráveis e 45 contrários. Se apenas um dos deputados que votaram contra mudar seu voto para favorável, o projeto atingirá o quórum constitucional de aprovação.",
       "correctAnswer": "C",
       "explanation": "O art. 69 da Constituição exige maioria absoluta. Dos 513 deputados, são necessários 257 votos favoráveis. Alterar um voto eleva o total de 256 para 257."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "pressuposicao-negacao",
+      "mechanism": "negacao-do-conteudo-posto",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "statement": "A frase “A secretaria não voltou a transmitir as reuniões” ainda apresenta como informação pressuposta que a secretaria já transmitiu reuniões em algum momento anterior.",
+      "correctAnswer": "C",
+      "explanation": "A negação incide sobre a retomada. A construção “voltar a” mantém como pano de fundo uma ocorrência anterior da atividade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "inferencia-versus-extrapolacao",
+      "mechanism": "confundir-previsao-com-garantia",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "statement": "Uma nota informa que a abertura das inscrições está prevista para maio, condicionada à conclusão dos testes da plataforma. A nota permite afirmar que as inscrições serão abertas em maio mesmo se os testes atrasarem.",
+      "correctAnswer": "E",
+      "explanation": "A previsão depende de uma condição expressa. O texto não garante a data caso a plataforma não esteja pronta."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "subentendido-cancelavel",
+      "mechanism": "tratar-sugestao-como-afirmacao",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#4. O Subentendido: Inferência Pragmática e Não Dito"
+      ],
+      "statement": "Ao ouvir “Alguns relatórios chegaram antes do prazo”, o destinatário pode entender que nem todos chegaram cedo. O emissor pode acrescentar “na verdade, todos chegaram antes do prazo” sem contradizer o sentido literal da primeira frase.",
+      "correctAnswer": "C",
+      "explanation": "A leitura “nem todos” é uma inferência pragmática. No sentido literal, a ocorrência para todos satisfaz a afirmação de que houve alguns casos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "informacao-explicita",
+      "mechanism": "ampliar-alcance-da-negacao",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#2. O Explícito versus o Implícito"
+      ],
+      "statement": "Uma nota informa que nem todos os pedidos recebidos na sexta-feira foram respondidos naquele dia. A nota afirma que nenhum pedido recebido na sexta-feira foi respondido naquele dia.",
+      "correctAnswer": "E",
+      "explanation": "“Nem todos” indica que pelo menos um ficou sem resposta naquele dia. A frase admite que outros tenham recebido resposta."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "inferencia-versus-extrapolacao",
+      "mechanism": "confundir-condicao-necessaria-com-suficiente",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "statement": "O regulamento informa que somente participantes credenciados podem solicitar a palavra. Desse trecho, pode-se concluir que o credenciamento é necessário para a solicitação, mas não que todo credenciado que a solicitar terá a palavra concedida.",
+      "correctAnswer": "C",
+      "explanation": "A restrição delimita quem pode solicitar. O trecho não estabelece que a solicitação seja suficiente para obter a palavra."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação",
+      "conceptId": "pressuposicao-negacao",
+      "mechanism": "confundir-evento-planejado-com-evento-realizado",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "statement": "A frase “A comissão adiou para julho a apresentação prevista para junho” pressupõe que a apresentação já havia ocorrido em junho.",
+      "correctAnswer": "E",
+      "explanation": "O adiamento recai sobre uma apresentação planejada. A informação anterior necessária é a previsão para junho, sem pressupor a realização naquele mês."
     }
   ]
 }

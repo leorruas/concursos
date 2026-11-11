@@ -318,3 +318,26 @@ A página seguinte do caderno `101_IRBRCACDOBJ_002_01` foi conferida visualmente
 ### Estado e continuidade
 
 **Sem arquivos novos de teoria pendentes no catálogo:** 18/18 artigos e o hub foram lidos em blocos, assim como seus 84 exercícios autorais. O relatório agora contém **51 achados identificados historicamente (`ING-001` a `ING-051`)**, que misturam erros, riscos, hipóteses e melhorias; **não equivalem a 51 erros**. Evidência externa desta rodada: gramáticas Cambridge; corpus oficial acumulado anteriormente: ANATEL 2024 (8 itens) e IRBr 2025 (20 itens), sem previsão de frequência. As próximas tarefas documentais da Fase 1 são: rever alegações de caderno real sem página/gabarito documental inspecionado nesta rodada; avaliar os riscos de `inasmuch as`, `yet` e `shall` com fontes específicas; e produzir **gate de encerramento documental** que separe diagnóstico concluído de validação pedagógica ou edição de artigos. Nenhum artigo, gabarito, ID, hub ou catálogo foi alterado.
+
+
+## 16. Checkpoint 9: conectores e linguagem normativa; gate documental da Fase 1 (11/11/2026)
+
+**Cotejo suplementar de conceitos já registrados como pendência:**
+
+- **ING-052 | IMPORTANTE | erro de categoria confirmado:** `10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md`, §1.1 inclui `inasmuch as` em “Concessão Subordinada”. O [Cambridge Dictionary, `inasmuch as`](https://dictionary.cambridge.org/dictionary/english/inasmuch-as) registra usos **causal e delimitador de alcance** (`because/since`, `to the extent that`), não uso concessivo típico equivalente a `although`. **Reparo:** retirar da linha de concessão, incluir par de exemplos causal/limitação. Não existe item C/E identificado como diretamente dependente da classificação errada.
+- **ING-053 | IMPORTANTE | erro de generalização confirmado:** `10`, §1.1 apresenta `yet` no mesmo grupo “Transição Discursiva Coordenada / Adverbial” de `however/nevertheless`, sem distinguir a função de **conjunção coordenativa**. [Cambridge Grammar, Yet](https://dictionary.cambridge.org/us/grammar/british-grammar/yet%29As) define `yet` também como *conjunction* no sentido de `but` e *nevertheless*. **Reparo:** distinguir conjunção de advérbio e pontuação compatível. Manter os exemplos concessivos/contrastivos válidos de 10.
+- **ING-054 | IMPORTANTE | variação de linguagem normativa confirmada:** `15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md` e `18` tratam `shall` sobretudo como comando obrigatório e `must` como obrigação. [Digital.gov, Familiar terms / Avoid “shall”](https://digital.gov/guides/writing-understanding/familiar-terms) recomenda `must` para obrigações porque `shall` pode ser interpretado como obrigação ou previsão, dependendo da jurisdição e da tradição de redação. **Reparo:** contextualizar `shall` em documentos jurídicos existentes sem ensinar equivalência categórica universal. Questão 15#5, com `Article 12: The Ombudsman shall publish...`, permanece **C defensável nesse contexto normativo explícito**; não inverter gabarito a partir de uma recomendação editorial norte-americana.
+
+### Gate documental proposto
+
+| Critério | Estado auditável | Limite |
+| --- | --- | --- |
+| Identidade e inventário | **Satisfeito para conjunto catalogado:** 18/18 artigos físicos e um hub | Outros apoios não catalogados podem existir; seis notas de Português são apenas apoio |
+| Matriz literal do edital | **Satisfeito para rastreabilidade teórica:** itens 1, 2 e 3 vinculados a passagens e lacunas | Vinculação não prova competência em leitura |
+| Leitura crítica dos 18 artigos e exercícios | **Satisfeito como diagnóstico dirigido com registro por artigo:** 84 exercícios autorais identificados, incluindo 78 C/E | Não equivale a homologação independente de todos os gabaritos |
+| Evidência de provas oficiais | **Parcial:** ANATEL 2024 e IRBr 2025, 28 itens com referências oficiais registradas em checkpoints anteriores | Amostra reduzida, concursos distintos e sem estimativa de incidência |
+| Riscos de gabarito prioritários | **Documentados, não resolvidos por edição:** 08#1, 13#4, 16#2 e 16#3 com uso suspenso | Texto publicado continua inalterado; solução exige Fase 2 |
+| Riscos didáticos secundários | **Documentados com fonte:** anáfora `which`, `inasmuch as`, `yet`, `shall`, `must`, `act/bill` | Outros exemplos e itens podem exigir amostragem ou dupla revisão |
+| Gate para iniciar reparos | **Pendente de autorização ou mudança explícita de etapa** | Este documento não concede autorização para alterar artigos, gabaritos, IDs ou catálogo |
+
+**Decisão de estado:** Fase 1 possui **diagnóstico suficientemente estruturado para planejamento de reparos**, mas **não será rotulada como matéria concluída ou material certificado**, porque a condição de correção e transferência de leitura ainda não foi satisfeita. O backlog de Fase 2 permanece restrito à proposta. Total histórico de IDs `ING-001` a `ING-054` abrange riscos, hipóteses, lacunas, confirmações e melhorias, **não 54 erros comprovados**. Próxima tarefa, ainda em Fase 1 se necessário: exame de amostra adicional de itens autorais potencialmente ambíguos com segundo leitor, sem confundir validação parcial com certificação total. **Nenhum artigo teórico, item C/E, gabarito, hub, ID ou catálogo alterado.**

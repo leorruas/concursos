@@ -21,11 +21,11 @@ Na Câmara dos Deputados, esse sistema de controle ético-disciplinar está disc
 O Código de Ética cumpre tripla função no arranjo institucional da Câmara:
 1. **Tipicidade ético-parlamentar:** tipifica os deveres fundamentais do deputado, os atos atentatórios e os atos incompatíveis com o decoro parlamentar, dando densidade material aos conceitos abertos do art. 55, II e § 1º, da CF;
 2. **Graduação de sanções e competências punitivas:** estrutura uma escala progressiva de penalidades (censura verbal, censura escrita, suspensão de prerrogativas regimentais, suspensão temporária do exercício do mandato e perda do mandato), distribuindo a competência decisória entre Presidentes, Mesa Diretora e Plenário;
-3. **Devido processo legal legislativo:** estabelece o rito procedimental perante o **Conselho de Ética e Decoro Parlamentar (CEDP)**, assegurando ampla defesa, contraditório, instrução probatória com poderes próprios e duplo grau recursal de legalidade junto à Comissão de Constituição e Justiça e de Cidadania (CCJC).
+3. **Devido processo legal legislativo:** estabelece o rito procedimental perante o **Conselho de Ética e Decoro Parlamentar (CEDP)**, assegurando ampla defesa, contraditório, instrução probatória com poderes próprios e controle recursal de vícios jurídicos pela Comissão de Constituição e Justiça e de Cidadania (CCJC), nos ritos em que previsto.
 
 ## 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)
 
-O Código orienta a conduta de quem esteja no exercício do cargo de Deputado Federal (titular ou suplente em exercício). O art. 2º reforça que *as imunidades, prerrogativas e franquias são institutos destinados à garantia do mandato popular e à defesa do Poder Legislativo*.
+O Código orienta a conduta de quem seja titular ou esteja no exercício de mandato de Deputado Federal (art. 1º). O art. 2º reforça que *as imunidades, prerrogativas e franquias são institutos destinados à garantia do mandato popular e à defesa do Poder Legislativo*.
 
 O art. 3º estabelece os **deveres fundamentais do Deputado**:
 - Promover a defesa do interesse público e da soberania nacional;
@@ -42,7 +42,7 @@ O art. 3º estabelece os **deveres fundamentais do Deputado**:
 
 ## 2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro
 
-O Código de Ética consagra uma distinção ontológica fundamental entre duas categorias de infração disciplinar, diretamente ligada à gravidade e à sanção cominada:
+O Código de Ética distingue atos incompatíveis e atos atentatórios ao decoro, com consequências disciplinares diferentes. O enquadramento exige apuração dos fatos e admite requalificação nos termos do art. 10, § 2º:
 
 ```
 Infrações ao Decoro Parlamentar
@@ -62,7 +62,8 @@ Constituem condutas de gravidade máxima, cuja consequência regimental e consti
 2. **Vantagem indevida:** perceber, a qualquer título, em proveito próprio ou de outrem, no exercício da atividade parlamentar, vantagens indevidas (CF, art. 55, § 1º);
 3. **Acordo espúrio de suplência:** celebrar acordo que tenha por objeto a posse do suplente, condicionando-a a contraprestação financeira ou à prática de atos contrários aos deveres éticos ou regimentais;
 4. **Fraude ao processo deliberativo:** fraudar, por qualquer meio ou forma, o regular andamento dos trabalhos legislativos para alterar o resultado de deliberação;
-5. **Falsidade ou omissão em declarações de bens/rendas:** omitir intencionalmente informação relevante ou prestar informação falsa nas declarações obrigatórias de bens, rendas ou impedimentos patrimoniais (art. 18).
+5. **Falsidade ou omissão nas declarações do art. 18:** omitir intencionalmente informação relevante ou prestar informação falsa nas declarações ali previstas;
+6. **Irregularidade grave no exercício do mandato:** praticar irregularidades graves no desempenho do mandato ou de encargos dele decorrentes que afetem a dignidade da representação popular (art. 4º, VI).
 
 ### B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão
 
@@ -128,7 +129,7 @@ O Conselho de Ética e Decoro Parlamentar é órgão integrante da estrutura ins
 
 ## 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário
 
-O rito depende da penalidade. A censura verbal e a escrita seguem os arts. 11 e 12, sem percorrer automaticamente o processo de sanção grave. A suspensão de prerrogativas segue o art. 13; a suspensão do mandato e a perda do mandato seguem o art. 14. Os prazos do Conselho contam-se em **dias úteis** e ficam suspensos no recesso, salvo convocação extraordinária pertinente (art. 8º, § 3º). O fluxograma apresenta os ramos principais, sem dispensar exceções e requalificações dos arts. 13 e 14. O quadro e as questões ainda exigem conferência final.
+O rito depende da penalidade. A censura verbal e a escrita seguem os arts. 11 e 12, sem percorrer automaticamente o processo de sanção grave. As representações de cidadãos são dirigidas à Mesa, que, havendo indícios suficientes e sem inépcia, encaminha as relativas aos incisos II–IV do art. 10 ao Conselho em até **três sessões ordinárias** (Código, art. 9º, § 2º). A suspensão de prerrogativas segue o art. 13; a suspensão do mandato e a perda do mandato seguem o art. 14. Os prazos do Conselho contam-se em **dias úteis** e ficam suspensos no recesso, salvo convocação extraordinária pertinente (art. 8º, § 3º). O fluxograma apresenta os ramos principais, sem dispensar exceções e requalificações dos arts. 13 e 14. O quadro e as questões ainda exigem conferência final.
 
 ```mermaid
 flowchart TD
@@ -162,6 +163,15 @@ flowchart TD
  N -.-> G
 ```
 
+### Particularidades do Acordo de Procedimentos 2025–2027
+
+O [Acordo de Procedimentos do biênio 2025–2027](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027/view) complementa a organização dos trabalhos do Conselho, sem substituir o Código ou o Regimento. Conforme apresentado e aprovado em reunião de 8/7/2025:
+
+- As reuniões públicas de instauração, sorteio e oitiva de testemunhas, quando não deliberativas, **não exigem quórum de deliberação** (item 1).
+- O relator dispõe de **dez dias úteis a partir da designação para o parecer preliminar**, e o pedido de vista deve ocorrer depois da leitura do voto e antes do início da votação, por **dois dias úteis** (item 3). Esses prazos são distintos dos dez dias úteis do parecer final do Código, art. 14, § 4º, IV.
+- Nas votações de pareceres, há voto nominal por maioria simples, presente a maioria absoluta do Conselho. O Presidente vota apenas no desempate (item 5).
+- O acordo regula, separadamente, **sobrestamento de pauta**, tratamento de **documentos sigilosos** e procedimento de **suspensão cautelar temporária** com apreciação em até **três dias úteis** (item 6). Essa suspensão cautelar do RICD não deve ser confundida com a sanção de suspensão temporária do mandato após o processo disciplinar de mérito.
+
 ### Passo a passo detalhado do procedimento
 
 1. **Iniciativa e Legitimidade ativa:**
@@ -169,16 +179,16 @@ flowchart TD
    - O cidadão comum e entidades da sociedade civil podem provocar a **Mesa da Câmara**, com descrição dos fatos e provas (Código, art. 9º, §§ 1º e 2º), mas não instauram diretamente processo disciplinar no Conselho. A Mesa tem o dever de conhecê-la motivadamente, emitindo despacho de arquivamento ou de envio ao Conselho.
 2. **Distribuição e escolha do Relator:**
    - Recebida a representação, o Presidente do Conselho de Ética instaura o processo e sorteia relator (ou comissão de inquérito de três membros).
-   - **Garantias de imparcialidade do relator (Regulamento, art. 7º, § 1º):** o relator **não pode pertencer ao mesmo partido político nem ao mesmo Estado da federação do deputado representado**, nem ter outro processo sob sua relatoria simultânea.
+   - **Garantias de imparcialidade (Código, art. 13, I, a–c; art. 14, § 4º, I):** o relator não pode ser do mesmo partido ou bloco parlamentar, do mesmo Estado nem, quando a representação partir de partido, da agremiação autora. O **Acordo de Procedimentos 2025–2027** registra interpretação específica para federações partidárias e determina sorteio com titulares e suplentes. Essa orientação do biênio deve ser distinguida do texto permanente do Código.
 3. **Defesa prévia e defensor dativo:**
    - No rito do **art. 14**, o representado dispõe de **10 dias úteis** para apresentar defesa escrita, documentos e rol de até **8 testemunhas**. Os procedimentos do art. 13 têm regras próprias e não devem ser confundidos com esse rito.
-   - A ausência de defesa exige a observância do procedimento de defesa técnica previsto na norma aplicável. A nomeação de defensor dativo e o prazo correspondente devem ser conferidos no rito específico, sem reutilizar a regra antiga de cinco sessões.
+   - O **Regulamento de 2001, arts. 8º e 9º**, ainda apresenta redação histórica sobre cinco sessões ordinárias, cinco testemunhas e defensor dativo no mesmo prazo. Para o **rito grave**, prevalece a regra posterior e específica do **Código, art. 14, § 4º, II**, de dez dias úteis e até oito testemunhas. A nomeação do defensor dativo, quando necessária, deve observar o Regulamento apenas no que for compatível com o Código consolidado.
 4. **Instrução probatória e poderes de investigação:**
    - Na instrução, o Conselho realiza audiências, perícias e oitivas de testemunhas.
    - **Quebra de sigilo bancário, fiscal e telefônico (Regulamento, arts. 14 a 16):** o Conselho de Ética **não possui poderes próprios diretos de quebra de sigilo** (prerrogativa reservada às Comissões Parlamentares de Inquérito — CPIs, nos termos do art. 58, § 3º, da CF). Caso necessite da quebra de sigilo bancário, fiscal ou telefônico do representado, o Conselho deve requerer motivadamente à **Mesa**, para que esta submeta a autorização ao **Plenário da Câmara dos Deputados**, ou solicitar a transferência de sigilos já legitimamente obtidos por CPI encerrada ou em curso.
 5. **Parecer, votação no Conselho e substituição de relatoria:**
    - No rito do art. 14, após a defesa, o relator tem **30 dias úteis de instrução para suspensão do mandato** e **40 dias úteis para perda**, seguidos de **10 dias úteis para parecer** (art. 14, § 4º, IV).
-   - A deliberação de parecer no Conselho segue **maioria simples, com presença de maioria absoluta** de seus membros, conforme o Acordo de Procedimentos 2025–2027. Não confundir com o quórum da decisão sancionatória final do Plenário.
+   - A deliberação de parecer no Conselho é **nominal, por maioria simples, com presença de maioria absoluta** dos membros, conforme o **Acordo de Procedimentos 2025–2027, item 5**. O Presidente vota apenas para desempatar, mas sua presença integra o quórum (Regulamento, art. 4º, § 2º). Isso se distingue da maioria absoluta exigida para a decisão sancionatória final no Plenário.
    - A **rejeição do parecer** exige designação de novo relator, preferencialmente entre aqueles que se manifestaram contrariamente ao primeiro (art. 14, § 4º, V). A **substituição por atraso** é outra situação: art. 16, § 4º prevê até **5 dias úteis** para completar a instrução pendente ou apresentar parecer após instrução concluída.
 6. **Recurso à CCJC (art. 14, § 4º, VII; art. 13, IV):**
    - Concluído o processo disciplinar, o representado pode recorrer à **Comissão de Constituição e Justiça e de Cidadania (CCJC)** em **5 dias úteis**, com efeito suspensivo, por violação constitucional, regimental ou do Código (arts. 13, IV, e 14, § 4º, VII). A CCJC decide em **5 dias úteis**.
@@ -198,7 +208,7 @@ O **art. 18 da Resolução nº 25/2001, na redação consolidada**, estabelece:
 
 1. **Autorização de acesso aos dados das Declarações de Ajuste Anual do IRPF e retificações:** apresentada ao assumir o mandato e quando solicitada pelo órgão competente (art. 18, I). Trata-se de autorização de acesso a dados fiscais, e não de obrigação, nesse dispositivo, de entregar uma nova declaração de bens a cada ano.
 2. **Declaração de impedimento:** no início da apreciação de matéria que envolva direta e especificamente interesses patrimoniais próprios do deputado (art. 18, II).
-3. **Tratamento dos dados:** observar os procedimentos de autuação, remessa ao Tribunal de Contas da União e sigilo previstos nos §§ 1º a 4º do art. 18. Eventuais obrigações adicionais decorrentes de legislação específica devem ser identificadas por fonte própria, sem atribuí-las automaticamente ao Código.
+3. **Tratamento dos dados (art. 18, §§ 1º a 4º):** as declarações são autuadas com recibo, uma cópia é encaminhada ao Tribunal de Contas da União e o sigilo deve ser preservado. A transferência da responsabilidade pelo sigilo ao Conselho exige **requerimento aprovado em votação nominal** (art. 18, § 3º). Os servidores que tenham acesso ficam obrigados à preservação do sigilo (§ 4º). Eventuais obrigações adicionais de outras leis devem ser identificadas separadamente.
 4. **Consequência disciplinar:** omitir intencionalmente informação relevante ou prestar informação falsa nas declarações previstas no art. 18 pode configurar a conduta do art. 4º, V, sujeita à apuração e à sanção cabível.
 
 **Atenção:** as fórmulas antigas de reapresentação 90 dias antes das eleições gerais e envio anual de cópia do IR em 30 dias **não correspondem ao texto vigente do art. 18** e foram retiradas deste resumo.
@@ -304,10 +314,13 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 
 ## Fontes primárias e controle de vigência
 
+- **[Acordo de Procedimentos 2025–2027](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027/view):** regras operacionais do biênio aprovadas em 8/7/2025, especialmente itens 1, 3, 5 e 6; verificar modificações supervenientes antes de utilizá-las para prova posterior.
+
+
 - **Constituição Federal de 1988:** arts. 53 (estatuto dos congressistas e imunidades), 54 (incompatibilidades), 55 (perda de mandato e quórum), 56 (afastamentos e licenças) e 58 (comissões e poderes instrutórios).
 - **Emenda Constitucional nº 76, de 2013:** aboliu o voto secreto nas deliberações de perda de mandato parlamentar e vetos presidenciais (CF, art. 55, § 2º).
-- **Resolução da Câmara dos Deputados nº 25, de 2001:** instituiu o Código de Ética e Decoro Parlamentar da Câmara dos Deputados e revogou os antigos arts. 245 a 248 do RICD.
+- **[Resolução da Câmara dos Deputados nº 25, de 2001, texto consolidado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html):** instituiu o Código de Ética e Decoro Parlamentar e revogou os antigos arts. 245 a 248 do RICD.
 - **Resolução da Câmara dos Deputados nº 2, de 2011:** ampliou a composição do Conselho de Ética de 15 para 21 membros titulares e incluiu o art. 5º, X (descumprimento intencional de deveres fundamentais como infração atentatória ao decoro).
-- **Regulamento do Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados (aprovado em 31/10/2001):** organiza o procedimento disciplinar, a defesa, a instrução probatória e o rito dos recursos.
+- **[Regulamento do Conselho de Ética](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/arquivos/regulamento-1/view) (2001):** organiza o procedimento, mas contém regras antigas sobre cinco sessões e cinco testemunhas, que precisam ser lidas à luz da redação posterior do Código (art. 14, § 4º, II).
 - **Regimento Interno da Câmara dos Deputados (RICD):** arts. 17, 21 (Procuradoria Parlamentar), 240, § 3º, e 244 (decoro parlamentar e remissão ao CEDP).
 - **Lei nº 8.730, de 10 de novembro de 1993:** estabelece a obrigatoriedade da declaração de bens e rendas para o exercício de cargos públicos e remessa de cópia ao Tribunal de Contas da União.

@@ -2162,6 +2162,134 @@
       "statement": "Um cadastro pode ter todos os telefones preenchidos e ainda apresentar problema de atualidade se parte deles tiver sido desativada depois da coleta.",
       "correctAnswer": "C",
       "explanation": "A completude trata de campos preenchidos. A atualidade depende de os valores continuarem válidos para o momento de uso."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / vocabulário",
+      "conceptId": "vocabulario-contextual",
+      "mechanism": "selecionar-sentido-de-table",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#1. Polissemia no Domínio Legislativo e Institucional"
+      ],
+      "statement": "“Under the committee’s rules, tabling a motion suspends debate until a later meeting.” In this context, “tabling a motion” means immediately putting it to a vote.",
+      "correctAnswer": "E",
+      "explanation": "A própria regra descrita esclarece o sentido de tabling. O efeito é suspender o debate, não encaminhar a proposta imediatamente à votação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / vocabulário",
+      "conceptId": "polissemia",
+      "mechanism": "distinguir-issue-verbo-e-substantivo",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#1. Polissemia no Domínio Legislativo e Institucional"
+      ],
+      "statement": "In “The clerk will issue a receipt when payment is confirmed”, “issue” means to produce and provide the receipt.",
+      "correctAnswer": "C",
+      "explanation": "Issue funciona como verbo e tem a receipt como objeto. Nesse contexto, significa emitir o recibo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / vocabulário",
+      "conceptId": "falso-cognato",
+      "mechanism": "confundir-actual-com-atual",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#2. Falsos Cognatos Críticos no Setor Público (*False Friends*)"
+      ],
+      "statement": "“The budget proposal estimated the cost at £40,000, but the actual cost was £52,000.” In this sentence, “actual” contrasts the current cost with an earlier real cost.",
+      "correctAnswer": "E",
+      "explanation": "Actual significa efetivo ou real. O contraste do texto é entre o custo estimado e o custo efetivamente observado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / vocabulário",
+      "conceptId": "falso-cognato",
+      "mechanism": "confundir-eventually-com-ocasionalmente",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#2. Falsos Cognatos Críticos no Setor Público (*False Friends*)"
+      ],
+      "statement": "“After three failed attempts, the panel eventually agreed on a date.” Here, “eventually” indicates that agreement was reached in the end.",
+      "correctAnswer": "C",
+      "explanation": "Eventually marca o resultado alcançado após as tentativas. O contexto não indica que a concordância ocorreu ocasionalmente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / vocabulário",
+      "conceptId": "falso-cognato",
+      "mechanism": "confundir-pretend-com-pretender",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#2. Falsos Cognatos Críticos no Setor Público (*False Friends*)"
+      ],
+      "statement": "“In the simulation, participants pretended to be auditors.” The sentence says that participants intended to become auditors after the simulation.",
+      "correctAnswer": "E",
+      "explanation": "Pretended indica que os participantes fingiram assumir o papel. A frase não declara uma intenção profissional futura."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / vocabulário",
+      "conceptId": "polissemia",
+      "mechanism": "distinguir-charge-de-taxa",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#1. Polissemia no Domínio Legislativo e Institucional"
+      ],
+      "statement": "“The records officer was in charge of verifying the signatures.” The phrase “in charge of” indicates that verifying the signatures was the officer’s responsibility.",
+      "correctAnswer": "C",
+      "explanation": "In charge of atribui responsabilidade por uma tarefa. Charge, nessa expressão, não indica cobrança financeira."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / vocabulário",
+      "conceptId": "polissemia",
+      "mechanism": "selecionar-sentido-de-address",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#1. Polissemia no Domínio Legislativo e Institucional"
+      ],
+      "statement": "“The revised schedule addresses concerns about overlapping sessions.” The verb “addresses” means that the schedule states where the sessions will take place.",
+      "correctAnswer": "E",
+      "explanation": "O objeto do verbo é concerns. Address, nesse contexto, significa tratar das preocupações, não informar endereço ou local."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / vocabulário",
+      "conceptId": "equivalencia-lexical",
+      "mechanism": "verificar-efeito-da-substituicao",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#3. Estratégias Cebraspe na Cobrança de Vocabulário Contextual"
+      ],
+      "statement": "“The new form is intended to streamline the registration process by removing two approval steps.” Replacing “streamline” with “make more efficient” preserves its meaning in this context.",
+      "correctAnswer": "C",
+      "explanation": "A retirada de etapas explica como o formulário pretende tornar o processo mais eficiente. A expressão proposta preserva esse sentido."
     }
   ]
 }

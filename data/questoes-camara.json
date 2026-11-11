@@ -3250,6 +3250,118 @@
       "statement": "Em “Anexe o comprovante e, em seguida, confirme o envio”, a expressão de sequência temporal faz o trecho prever o que necessariamente acontecerá.",
       "correctAnswer": "E",
       "explanation": "Os imperativos prescrevem ações e indicam a ordem de execução. O trecho não prevê que o destinatário vai realizá-las."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita",
+      "conceptId": "reescrita-e-modalizacao",
+      "mechanism": "converter-possibilidade-em-certeza",
+      "theoryRefs": [
+        "article:art-ffda49b0fbcc4fbe#Núcleo do conceito"
+      ],
+      "statement": "“A biblioteca poderá abrir aos sábados” e “A biblioteca abrirá aos sábados” apresentam o mesmo grau de certeza sobre a abertura.",
+      "correctAnswer": "E",
+      "explanation": "“Poderá” apresenta a abertura como possibilidade. “Abrirá” apresenta a abertura como prevista, sem a mesma marca de possibilidade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita",
+      "conceptId": "reescrita-e-causalidade",
+      "mechanism": "preservar-relacao-causal",
+      "theoryRefs": [
+        "article:art-ffda49b0fbcc4fbe#Núcleo do conceito"
+      ],
+      "statement": "Reescrever “A sessão foi adiada porque faltou energia” como “A falta de energia levou ao adiamento da sessão” preserva a relação de causa.",
+      "correctAnswer": "C",
+      "explanation": "As duas frases atribuem o adiamento à falta de energia. A reescrita altera a estrutura sem inverter a relação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita",
+      "conceptId": "reescrita-e-escopo",
+      "mechanism": "deslocar-foco-da-restricao",
+      "theoryRefs": [
+        "article:art-ffda49b0fbcc4fbe#Núcleo do conceito"
+      ],
+      "statement": "Trocar “A comissão ouviu apenas os técnicos” por “Apenas a comissão ouviu os técnicos” preserva o alcance de “apenas”.",
+      "correctAnswer": "E",
+      "explanation": "Na primeira frase, a restrição recai sobre quem foi ouvido. Na segunda, recai sobre quem ouviu."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita",
+      "conceptId": "reescrita-e-voz-passiva",
+      "mechanism": "preservar-agente-e-objeto",
+      "theoryRefs": [
+        "article:art-ffda49b0fbcc4fbe#Núcleo do conceito"
+      ],
+      "statement": "“A equipe revisou os anexos ontem” pode ser reescrita como “Os anexos foram revisados ontem pela equipe” sem mudança quanto a quem fez a revisão, ao que foi revisado e ao momento da ação.",
+      "correctAnswer": "C",
+      "explanation": "O objeto da ativa passa a sujeito da passiva. A equipe continua sendo o agente e “ontem” mantém a referência temporal."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita",
+      "conceptId": "reescrita-e-condicao",
+      "mechanism": "trocar-condicao-por-concessao",
+      "theoryRefs": [
+        "article:art-ffda49b0fbcc4fbe#Núcleo do conceito"
+      ],
+      "statement": "Em “O cadastro será reaberto se o sistema for atualizado”, trocar “se” por “mesmo que” preserva a relação de sentido entre as orações.",
+      "correctAnswer": "E",
+      "explanation": "“Se” apresenta a atualização como condição. “Mesmo que” introduz uma concessão e apresenta a reabertura como válida apesar da hipótese enunciada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita",
+      "conceptId": "reescrita-e-tempo",
+      "mechanism": "preservar-anterioridade",
+      "theoryRefs": [
+        "article:art-ffda49b0fbcc4fbe#Núcleo do conceito"
+      ],
+      "statement": "Trocar “A equipe conferiu os dados antes de publicar o relatório” por “Antes da publicação do relatório, a equipe conferiu os dados” mantém a ordem dos acontecimentos.",
+      "correctAnswer": "C",
+      "explanation": "Em ambas as versões, a conferência antecede a publicação. A expressão temporal apenas muda de posição e estrutura."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita",
+      "conceptId": "reescrita-e-negacao",
+      "mechanism": "ampliar-alcance-da-negacao",
+      "theoryRefs": [
+        "article:art-ffda49b0fbcc4fbe#Núcleo do conceito"
+      ],
+      "statement": "A frase “O órgão não divulgou todos os pareceres” pode ser reescrita como “O órgão não divulgou nenhum parecer” sem alterar o sentido.",
+      "correctAnswer": "E",
+      "explanation": "A primeira frase indica que pelo menos um parecer ficou sem divulgação. A segunda afirma que nenhum foi divulgado."
     }
   ]
 }

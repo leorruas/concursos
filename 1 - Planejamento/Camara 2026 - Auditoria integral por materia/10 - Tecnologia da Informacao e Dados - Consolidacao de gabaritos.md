@@ -100,3 +100,12 @@ Foi adicionada proteção **restrita ao concurso `camara-2026` e à matéria `in
 **Limites deliberados:** a regra reconhece enunciados iguais após normalização simples. **Paráfrases**, novos enunciados que repetem o erro conceitual e geradores externos que apenas mostram questões sem passar por `validateSession` **não estão cobertos**. A regra age na **entrada/validação da sessão**, não demonstra filtragem na interface de escolha de questões. O guard deve permanecer como camada de defesa até que a seleção e os outros canais de ingestão sejam auditados.
 
 **Próxima prova obrigatória:** executar `node scripts/test-camara-questions.js` no repositório atualizado, confirmar 13 rejeições e 50 admissões no banco piloto e executar os testes gerais da Câmara para detectar regressões. Se houver falha, corrigir a implementação antes de considerar o bloqueio operacionalmente certificado.
+
+## Inspeção complementar da proteção (11/11/2026)
+
+- **Passou em inspeção de dados reais:** em leitura dos onze arquivos de origem com enunciados bloqueados, a mesma regra de segmentação e normalização reconheceu **13 itens diferentes**, distribuídos como 03:1, 05:1, 07:1, 09:1, 13:2, 18:2, 21:1, 22:1, 24:1, 27:1, 29:1.
+- **Passou em comparação de textos:** nenhum dos **50 itens** de Informática em `data/questoes-camara.json` coincidiu com a chave normalizada de um item bloqueado.
+- **Teste ampliado no código:** verificações agora incluem a impossibilidade de liberar o mesmo enunciado ao mudar indevidamente a origem declarada de `inedita` para `real`.
+- **Alerta também no ponto de estudo:** o hub `3 - Materias/Informatica/informatica.md` lista os 13 itens e orienta a não utilizá-los em seleções feitas diretamente dos artigos.
+
+**Nível de evidência:** a inspeção acima foi executada sobre os **conteúdos efetivos do GitHub**, reproduzindo a regra de extração. Isso **não substitui** executar `node scripts/test-camara-questions.js` no checkout do repositório, ainda pendente. O bloqueio em tempo de validação das sessões foi implementado, mas a seleção em todos os canais, o tratamento de paráfrases e as regressões de testes não foram certificados.

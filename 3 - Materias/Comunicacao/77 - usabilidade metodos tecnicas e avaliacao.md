@@ -142,6 +142,12 @@ Outro caso: pessoa entende integralmente um aviso que recebeu por e-mail, mas n�
 
 **Gabarito: Certo.** A declaração de satisfação não substitui dados de desempenho. A norma contempla as três dimensões em contexto de uso especificado.
 
+## Cebraspe real: CNMP 2023, item 78, sala de imprensa online (11/11/2026)
+
+No [caderno oficial CNMP 2023, Cargo 3](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), o **item 78** recomenda considerar conjuntamente **usabilidade, acessibilidade e arquitetura da informação** ao conceber uma sala de imprensa online. O [gabarito definitivo Cebraspe](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF) é **Certo**.
+
+**Fronteira conceitual:** as três dimensões não são sinônimas. Arquitetura da informação organiza e rotula conteúdo e navegação; usabilidade examina eficácia, eficiência e satisfação **em contexto de uso definido**; acessibilidade contempla condições de acesso e operação para pessoas com diferentes necessidades. Um portal pode ter navegação organizada e ainda apresentar barreiras de teclado, alternativas textuais, contraste ou compreensão. O item histórico fornece **padrão de cobrança da banca**, sem provar conformidade do site real de um órgão.
+
 ## Relações com outros temas e heurísticas
 
 [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|CAM-CO-030]] apresenta o método de Roedel e seus instrumentos de avaliação de textos; [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|CAM-CO-029]] trata de redação clara e precisão; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|CAM-CO-024]] discute acesso e transparência; [[3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes|CAM-CO-021]] aborda adaptação a canais.

@@ -5,6 +5,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 > **Leitura obrigatória para agentes:** ler `[[me]]` antes de qualquer operação. Diretrizes de governança e regras estão lá.
 
 ## 1 - Planejamento
+- [[1 - Planejamento/Camara 2026 - Estrategia de estudo ate janeiro|Câmara 2026: estratégia de estudo até janeiro de 2027]]
 - [[1 - Planejamento/Camara 2026 - Arquitetura conceitual e plano de artigos|Câmara 2026: trilhas conceituais e implementação por fases]]
 - [[1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos|Glossário CGU: catálogo expansível de conceitos e classificações]]
 - [[1 - Planejamento/Flashcards - Sessoes continuas e ampliacao|Flashcards: sessões contínuas e ampliação por matéria]]

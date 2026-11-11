@@ -5,12 +5,12 @@ title: "Regimento da Câmara: decisões das comissões, fiscalização e sessõe
 type: "conceito"
 status: "ativo"
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-11
 ---
 
 # Regimento da Câmara: decisões das comissões, fiscalização e sessões (arts. 55 a 80)
 
-**Câmara dos Deputados 2026, Divulgação Institucional, banca Cebraspe, CAM-PL-021.** Texto canônico do Regimento Interno da Câmara dos Deputados (RICD), arts. 55 a 80. O intervalo cruza o encerramento das **regras de comissões (arts. 55–64)** e o início da disciplina das **sessões da Câmara (arts. 65–80)**. Para composição e tipos de comissão, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004 e CAM-PL-020]]; para organização geral da Câmara, [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|CAM-PL-019]].
+**Câmara dos Deputados 2026, Divulgação Institucional, banca Cebraspe, CAM-PL-021.** Texto canônico do Regimento Interno da Câmara dos Deputados (RICD), arts. 55 a 80. O intervalo cruza o encerramento das **regras de comissões (arts. 55–64)** e o início da disciplina das **sessões da Câmara (arts. 65–80)**. Para composição e tipos de comissão, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004 e aprofundamento de comissões (arts. 25–54)]]; para organização geral da Câmara, [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|CAM-PL-019]].
 
 ## Núcleo do conceito
 

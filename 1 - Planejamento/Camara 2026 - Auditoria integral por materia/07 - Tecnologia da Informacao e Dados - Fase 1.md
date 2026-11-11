@@ -536,3 +536,35 @@ Foi aberto e inspecionado o caderno Cebraspe `106_PF_CB2_01.pdf` (PF 2025, **Blo
 ### Estado após bloco 12
 
 **76 achados históricos TI-001–076**, vários informativos ou já resolvidos, sem 76 erros atuais. **Uma prova real de TI efetivamente cotejada com gabarito definitivo, cinco itens identificados: 4 válidos C/E e 1 anulado.** **30/30 artigos numerados lidos seletivamente; 28/28 CAM-TI localizados frente ao edital da Câmara; zero artigos integralmente certificados.** A Fase 1 agora possui amostra real inicial, mas **faltam múltiplos cadernos com maior aderência a Microsoft 365, IA, dados e visualização**, além de gabaritos correspondentes. **Nenhuma questão, artigo, hub, catálogo nem índice de provas reais foi alterado por esta rodada; somente relatório de auditoria e índice de estado**.
+
+
+## Bloco 13: ampliação da calibração real Cebraspe, ANVISA 2024 (11/11/2026)
+
+**Fontes primárias inspecionadas, inclusive captura visual da página do caderno e da página do gabarito:**
+- **ANVISA 2024**, prova Cebraspe de conhecimentos básicos **956_ANVISA_CB1_01**, aplicada em **21/04/2024**: https://cdn.cebraspe.org.br/concursos/anvisa_24/arquivos/956_ANVISA_CB1_01.PDF . **Página 2 do PDF (índice 1): itens 18, 19 e 20**.
+- **Gabarito oficial definitivo do mesmo código de caderno**: https://cdn.cebraspe.org.br/concursos/anvisa_24/arquivos/GAB_DEFINITIVO_956_ANVISA_CB1_01.PDF , página única. **18 E, 19 E, 20 C**.
+- Cuidado com a versão `CC1_01` de **conhecimentos complementares**, que possui outro conjunto de itens e gabarito: não misturar o identificador `956_ANVISA_CB1_01` com `956_ANVISA_CC1_01`.
+
+### Matriz dos itens reais da ANVISA
+
+| Item | Fragmento decisivo da questão original (síntese, sem reprodução integral) | Gabarito definitivo | Correspondência com CAM-TI | Limite temporal e conceitual |
+| --- | --- | :---: | --- | --- |
+| 18 | A disponibilidade de portal de vacinação na web comprovaria hospedagem em plataforma como serviço (**PaaS**) | **E** | **CAM-TI-001** (arquivos/nuvem), **CAM-TI-006–007** (internet e navegador), aderência conceitual | Interface acessível por HTTP(S) **não permite inferir modelo de serviço da infraestrutura**; SaaS/PaaS/IaaS não podem ser deduzidos de captura de tela |
+| 19 | Uso de **HTTPS** comprovaria proteção automática contra malware por varredura da comunicação | **E** | **CAM-TI-006** (protocolos), **CAM-TI-010** (segurança), **CAM-TI-013** (antimalware/firewall) | TLS/HTTPS protege propriedades da comunicação, **não equivale a inspeção antivírus do conteúdo**; enunciado contém falsa consequência causal |
+| 20 | Microsoft Edge integra **Copilot**, assistente de IA para apoiar tarefas do usuário | **C** | **CAM-TI-016** (IA básica); relacionado a navegador **CAM-TI-007** e Microsoft 365 **CAM-TI-002–005** | **Gabarito oficial válido para a prova de 21/04/2024**, mas funcionamento, nomes e interface atuais exigem validação de produto antes de uso em 2026 |
+
+**Nota de integridade:** os itens 18 e 19 estão sob comando “computação na nuvem e segurança da informação” e dependem de figura da página da prova; o item 20 é um comando separado de IA. Ambos os blocos e a figura foram inspecionados visualmente. A mesma prova de conhecimentos básicos inclui assuntos diversos, **não supor que seus outros itens sejam de TI**. Não confundir a marca “E” com ausência de conteúdo ou anulação: o gabarito definitivo mostra **E/E/C**, sem anulações para 18–20.
+
+### Achados específicos
+
+**TI-077, SEGUNDA FONTE REAL COM GABARITO DEFINITIVO CONFERIDA.** A amostra Cebraspe/INSA-MCTI (5 itens 40–44: quatro julgáveis e um anulado) foi ampliada com os três itens da ANVISA 2024 (todos julgáveis). **Acumulado: 8 questões reais de TI verificadas em 2 cadernos oficiais, das quais 7 válidas (C/E) e 1 anulada (X)**. A comparação deve informar o **número efetivo de questões julgáveis**, pois anulações não comprovam tese C/E nem podem integrar avaliação pontuada. **Nenhum resultado pessoal foi inferido.**
+
+**TI-078, MECANISMO CEBRASPE VERIFICADO EM FONTE PRIMÁRIA.** A ANVISA traz dois erros de **inferência de capacidade tecnológica indevida**: (i) disponibilidade de página web `→` identificação necessária de PaaS; (ii) HTTPS `→` existência de inspeção antimalware. Isso oferece evidência prática limitada para melhorar, na Fase 2, a distinção entre **navegação, hospedagem, modelo de serviço de nuvem, protocolo de transporte seguro e controles antimalware** nos artigos `Informatica/03,08,09,12,15`. São **dois exemplos**, não estatística sobre incidência geral da banca.
+
+**TI-079, QUESTÃO DE PRODUTO SENSÍVEL À DATA.** O item 20 está certo **conforme o gabarito definitivo de 2024**. Esse dado histórico não certifica a interface ou as funcionalidades atuais do Microsoft Edge/Copilot nem torna o conteúdo automaticamente exigido pela Câmara 2026. Registrar em questões indexadas `data_prova=2024-04-21`, `tipo=real`, `estado=valido` e o alerta `revalidar produto` quando apropriado. Esse cuidado dialoga com os achados sobre Microsoft 365, Google Meet e interfaces do usuário, especialmente TI-034, 041–042.
+
+### Próximos passos da Fase 1
+
+**Situação:** **79 achados históricos TI-001–079**, com erros corrigidos, hipóteses, riscos, evidências e melhorias de cobertura; não são 79 falhas abertas. **Dois cadernos oficiais cotejados com gabarito definitivo, 8 itens reais de TI individualizados, 7 julgáveis e 1 anulado**. **30/30 arquivos numerados de Informática lidos seletivamente, 28/28 CAM-TI nominalmente vinculados ao edital oficial, zero artigos integralmente homologados.** Não há ainda calibração real suficiente de **Word, Excel, PowerPoint, Power BI, Tableau, prompts, aprendizado por reforço e visualização**. Buscar caderno oficial compatível com cada núcleo e respectivas respostas definitivas, preservando as restrições de reprodução.
+
+**Neste bloco, nenhum artigo, questão inédita, hub, catálogo nem corpus de provas foi modificado; somente este relatório e o índice-mestre.**

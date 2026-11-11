@@ -5,7 +5,7 @@ title: "Produção para rádio, televisão e redes sociais: roteiro, captação,
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Produção para rádio, televisão e redes sociais: roteiro, captação, edição e entrega
@@ -190,6 +190,16 @@ Na comunicação institucional, o **art. 37, § 1º, da Constituição Federal**
 **Item 8.** Em pós-produção, correção de cor e gradação de cor podem ocorrer no mesmo fluxo, mas a primeira se orienta frequentemente à consistência técnica, e a segunda pode estabelecer tratamento expressivo da imagem.
 
 **Certo.** As funções se relacionam sem serem sinônimas. **Mecanismo avaliado:** distinção entre ajuste técnico e intenção estética.
+
+## Cotejo normativo: acessibilidade de áudio e vídeo (11/11/2026)
+
+Os requisitos de acessibilidade dependem do **tipo de mídia e do nível de conformidade**. A [WCAG 2.2, seção 1.2](https://www.w3.org/TR/WCAG22/#time-based-media), distingue: **1.2.1 (nível A)**, alternativas para mídia apenas de áudio ou apenas de vídeo pré-gravada; **1.2.2 (nível A)**, legendas para áudio pré-gravado em mídia sincronizada, com a exceção prevista; **1.2.3 (nível A)**, audiodescrição **ou** alternativa de mídia para vídeo pré-gravado sincronizado; **1.2.4 (nível AA)**, legendas para conteúdo de áudio ao vivo em mídia sincronizada; e **1.2.5 (nível AA)**, audiodescrição de vídeo pré-gravado sincronizado. A [orientação do W3C sobre legendas](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded) explica que legendas acessíveis incluem também informação sonora relevante, além das falas.
+
+**Distinção:** legenda reproduz informação **sonora** em meio visual; audiodescrição ou outra alternativa adequada comunica informação **visual essencial** ausente da faixa sonora. Se a trilha sonora já transmite todo o conteúdo visual relevante, pode não ser necessário acrescentar narração descritiva; avaliar o caso e o critério de conformidade. Portanto, o **item 7 preexistente permanece Errado**: legendar todas as falas não resolve, em todos os casos, informação comunicada apenas pela imagem.
+
+**Caso C/E inédito:** “Pelas WCAG 2.2, as legendas de um vídeo pré-gravado sincronizado podem omitir efeitos sonoros relevantes para o entendimento desde que todas as falas tenham sido transcritas.” **Errado.** O critério 1.2.2 e sua interpretação incluem informações sonoras relevantes. **Caso de produção:** em vídeo de audiência pública, identificar falantes, nomear alterações importantes de ambiente, avaliar informação transmitida apenas por gráficos na tela e conferir o arquivo após publicação. A sequência técnica não substitui autorização de uso, validação editorial e verificação dos derivados.
+
+**Escopo:** o cotejo direto cobre o **item 7** e a organização dos critérios WCAG de mídia temporal, sem validar integralmente os outros sete itens de rádio, captação e pós-produção. Exemplos são inéditos e não decorrem de prova histórica da Cebraspe.
 
 ## Relações com outros temas
 

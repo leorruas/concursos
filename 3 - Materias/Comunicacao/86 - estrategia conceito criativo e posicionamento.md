@@ -5,7 +5,7 @@ title: "Estratégia, conceito criativo e posicionamento: decisões e fronteiras"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Estratégia, conceito criativo e posicionamento: decisões e fronteiras
@@ -156,6 +156,16 @@ Em uma campanha pública, avaliação também deve observar riscos: a mensagem n
 **Item 3.** Na concepção de Ries e Trout, o posicionamento deve ser examinado em relação à percepção existente do público, de modo que a intenção estratégica da organização não assegura, isoladamente, que a associação desejada já esteja instalada.
 
 **Gabarito: Certo.** O posicionamento diz respeito à posição na mente do destinatário. A organização comunica e tenta influenciar a percepção, mas precisa observá-la e não pode presumir seu controle integral.
+
+## Auditoria autoral: quadro de referência, paridade e diferença (11/11/2026)
+
+Em [Keller, Sternthal e Tybout, *Three Questions You Need to Ask About Your Brand* (Harvard Business Review, 2002)](https://hbr.org/2002/09/three-questions-you-need-to-ask-about-your-brand), o posicionamento de marca exige considerar **quadro de referência** (*frame of reference*), **pontos de paridade** (*points of parity*) e **pontos de diferença** (*points of difference*). O resumo editorial da [Harvard Business Review](https://store.hbr.org/product/three-questions-you-need-to-ask-about-your-brand/R0209F) esclarece que uma diferença relevante precisa ser **crível**, além de distintiva e relevante para o público. O enquadramento de referência indica a categoria ou tarefa frente à qual o público compara a oferta.
+
+**Cotejo dos três itens inéditos preexistentes:** **item 1: Certo**, porque paridade e diferença têm funções distintas; **item 2: Errado**, pois tratar conceito criativo como sinônimo necessário de slogan é confusão entre **ideia estratégica** e **execução verbal**; **item 3: Certo**, compatível com o enfoque de posicionamento na mente do público atribuído a Ries e Trout. **Precisão de evidência:** o item 1 é sustentado diretamente por Keller/Sternthal/Tybout; os itens 2 e 3 são consistentes com a organização da nota, mas **não foram validados diretamente por leitura integral das obras originais de Rosser Reeves e Ries/Trout nesta passagem**.
+
+**Novo item C/E inédito:** “Segundo Keller, Sternthal e Tybout (2002), definir atributos distintivos dispensa verificar se a marca atende às expectativas básicas da categoria.” **Errado.** O posicionamento demanda tanto enquadramento da categoria e paridade quanto diferenças relevantes.
+
+**Fronteira com publicidade institucional:** o objetivo público de um serviço legislativo é distinto de obter preferência comercial; a teoria de posicionamento pode ajudar a organizar compreensão e expectativa, mas **não legitima promessas que extrapolem funções reais da Câmara**.
 
 ## Relações e heurísticas
 

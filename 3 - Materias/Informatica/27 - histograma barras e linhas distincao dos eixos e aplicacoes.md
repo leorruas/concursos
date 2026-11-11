@@ -5,7 +5,7 @@ title: "Histograma, gráficos de barras e gráficos de linhas: distinção dos e
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Histograma, gráficos de barras e gráficos de linhas: distinção dos eixos, escalas e aplicações
@@ -46,7 +46,7 @@ A distinção entre o **Histograma** e o **Gráfico de Barras (Colunas)** é uma
 | **Eixo Vertical ($Y$)** | **Frequência** (absoluta, relativa ou densidade de probabilidade). | **Valor da Métrica** (total, média, soma, contagem de ocorrências). |
 | **Espaçamento entre as Barras** | **Sem espaçamento** (as barras são adjacentes/coladas, refletindo a continuidade da reta real). | **Com espaçamento visível** (evidencia a descontinuidade entre categorias distintas). |
 | **Largura das Barras** | **Significativa**: representa a amplitude da classe/intervalo ($h = \Delta x$). | **Arbitrária**: puramente estética; não possui significado matemático. |
-| **Área das Barras** | **Proporcional à frequência**: $\text{Área} = \text{Base} \times \text{Altura}$. | Apenas o **comprimento/altura** representa a grandeza medida. |
+| **Área das Barras** | A **área** é proporcional à frequência. Para classes com larguras distintas, a altura deve representar a **densidade de frequência**: frequência dividida pela largura da classe. Em classes iguais, altura e frequência são proporcionais. | Apenas o **comprimento/altura** representa a grandeza medida. |
 | **Ordem no Eixo $X$** | **Rígida e imutável**: obedece à ordem natural dos números reais ($10 \rightarrow 20 \rightarrow 30$). | **Flexível**: pode ser reordenado por conveniência (alfabética, ordem de grandeza, etc.). |
 
 ---
@@ -78,14 +78,14 @@ Embora intercambiáveis do ponto de vista matemático, a orientação espacial d
         ┌────────────────────────────┴────────────────────────────┐
         ▼                                                         ▼
 BARRAS HORIZONTAIS (Y = Categoria, X = Métrica)         COLUNAS VERTICAIS (X = Categoria, Y = Métrica)
-- Rótulos textuais longos (nomes de ministérios, UFs)   - Poucas categorias (até 5 a 7)
-- Muitas categorias (mais de 7 a 10 classes)             - Rótulos curtos (siglas partidárias: PT, PL, PP)
+- Rótulos textuais longos (nomes de ministérios, UFs)   - Poucas categorias, conforme espaço e comprimento dos rótulos
+- Muitas categorias, conforme espaço e comprimento dos rótulos             - Rótulos curtos (siglas partidárias: PT, PL, PP)
 - Facilita rolagem vertical em relatórios e telas       - Quando as categorias possuem sequência natural
-- Ordenação decrescente obrigatória (ranking)           - Séries cronológicas discretas (anos, trimestres)
+- Ordenação decrescente quando a comparação por ranking for o objetivo; outras ordens podem ser adequadas           - Séries cronológicas discretas (anos, trimestres)
 ```
 
 > [!WARNING]
-> **A Regra Inegociável do Eixo Zero:** Em qualquer gráfico de barras (horizontal ou vertical), **o eixo quantitativo deve OBRIGATORIAMENTE iniciar no zero**. Como a percepção humana quantifica o valor pela área total ou comprimento da barra, cortar o eixo inicial distorce desonestamente a proporção visual (*Lie Factor*).
+> **Regra de integridade visual:** em gráficos de barras que codificam magnitude pelo comprimento, o eixo quantitativo **deve, como padrão, começar em zero** para preservar a proporcionalidade. Cortes de escala exigem identificação explícita e justificativa, e frequentemente tornam outro tipo de gráfico mais adequado. Evite tratar essa recomendação como proibição matemática universal.
 
 ---
 
@@ -100,7 +100,7 @@ O gráfico de linhas plota pares ordenados $(t_i, y_i)$ e liga os pontos sucessi
 Nunca se deve utilizar gráficos de linhas para ligar categorias qualitativas nominais não ordenadas (ex.: ligar a bancada do PT, do PL e do MDB por uma linha contínua). A inclinação da linha sugeriria falsamente que o PL "subiu em relação ao PT" ou que existe um ponto intermediário de transição física entre um partido e outro, o que é conceitualmente absurdo.
 
 ### 5.3. Eixos Truncados em Gráficos de Linhas: a exceção à regra
-Diferentemente dos gráficos de barras (que exigem o zero absoluto), **em gráficos de linhas é admissível que o eixo vertical $Y$ não comece no zero**, desde que o objetivo seja evidenciar a volatilidade ou microvariações de uma métrica em torno de um patamar elevado (ex.: variação da taxa Selic de $10{,}25\%$ para $10{,}75\%$ ou batimentos cardíacos de um paciente). O gráfico de linhas não codifica a informação pelo comprimento de uma coluna a partir da base, mas sim pela **posição espacial dos pontos e pela inclinação das retas**.
+Diferentemente da recomendação padrão para gráficos de barras, **em gráficos de linhas pode ser admissível que o eixo vertical $Y$ não comece no zero**, desde que o objetivo seja evidenciar a volatilidade ou microvariações de uma métrica em torno de um patamar elevado (ex.: variação da taxa Selic de $10{,}25\%$ para $10{,}75\%$ ou batimentos cardíacos de um paciente). O gráfico de linhas não codifica a informação pelo comprimento de uma coluna a partir da base, mas sim pela **posição espacial dos pontos e pela inclinação das retas**.
 
 ---
 
@@ -167,3 +167,5 @@ Diferentemente dos gráficos de barras (que exigem o zero absoluto), **em gráfi
 3. **TUFTE, Edward R.** *The Visual Display of Quantitative Information.* Cheshire: Graphics Press, 2001.
 4. **FEW, Stephen.** *Show Me the Numbers: Designing Tables and Graphs to Enlighten.* Analytics Press, 2012.
 5. **CÂMARA DOS DEPUTADOS.** *Diretrizes para Publicação de Dados Abertos e Gráficos da Transparência Legislativa.* Brasília: Cenin, 2024.
+
+> **Revisão editorial (11/11/2026):** ajustes localizados a partir da auditoria Câmara 2026, para explicitar o alcance das regras e separar exemplos hipotéticos de fatos. Os itens inéditos continuam sujeitos à validação integral de enunciados, comentários e referências.

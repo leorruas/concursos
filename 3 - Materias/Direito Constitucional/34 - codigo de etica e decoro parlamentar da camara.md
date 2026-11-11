@@ -199,7 +199,21 @@ A **suspensão cautelar** antecede o julgamento disciplinar e tem fundamento pr�
 
 **Matriz de contagem:** 48 **horas** da Corregedoria; cinco **dias úteis** da Mesa; três **dias úteis** do Conselho; um **dia útil** para interpor recurso; **sessão imediatamente subsequente** para deliberação plenária. São marcos de atos diferentes. O prazo da cautelar acompanha o limite referenciado no **art. 10, III, do Código**, mas não substitui a decisão sancionatória de mérito.
 
-Fontes: [Resolução da Câmara nº 11/2024, art. 2º](https://www2.camara.leg.br/legin/fed/rescad/2024/resolucaodacamaradosdeputados-11-12-junho-2024-795774-publicacaooriginal-172082-pl.html); [Ato da Mesa nº 180/2025, arts. 2º a 4º](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-180-7-maio-2025-797421-publicacaooriginal-175313-cd-mesa.html); [Código de Ética consolidado, Resolução nº 25/2001](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).
+Fontes: [Resolução da Câmara nº 11/2024, art. 2º](https://www2.camara.leg.br/legin/fed/rescad/2024/resolucaodacamaradosdeputados-11-12-junho-2024-795774-publicacaooriginal-172082-pl.html); [Ato da Mesa nº 180/2025, arts. 2º a 4º, republicação de 13/5/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-180-7-maio-2025-797421-republicacao-175370-cd-mesa.html); [Código de Ética consolidado, Resolução nº 25/2001](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).
+
+### Quatro testes de distinção: medida cautelar × sanção disciplinar
+
+Os enunciados seguintes testam **somente o procedimento cautelar** do [RICD, art. 15, XXX e §§ 1º–6º](https://www2.camara.leg.br/legin/fed/rescad/2024/resolucaodacamaradosdeputados-11-12-junho-2024-795774-publicacaooriginal-172082-pl.html) e do [Ato da Mesa nº 180/2025, republicado em 13/5/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-180-7-maio-2025-797421-republicacao-175370-cd-mesa.html), e não substituem as seis questões de mérito ao final da nota.
+
+**C/E A:** O Presidente da Câmara pode apresentar sozinho, *ad referendum* da Mesa, proposta de suspensão cautelar de deputado. **Errado.** O RICD art. 15, § 1º, veda essa decisão monocrática; a Mesa delibera sobre a representação.
+
+**C/E B:** A Corregedoria dispõe de cinco dias úteis para comunicar o fato à Mesa, contados do conhecimento do fato. **Errado.** A comunicação circunstanciada do Corregedor ocorre em **48 horas**; **cinco dias úteis** é o prazo decadencial **da Mesa** para oferecer a proposta, contado do conhecimento do fato (Ato 180/2025, art. 2º; RICD art. 15, § 2º).
+
+**C/E C:** Se o Conselho de Ética deixar de decidir a suspensão cautelar no prazo de três dias úteis, a proposta é arquivada automaticamente. **Errado.** O RICD art. 15, § 6º, determina o encaminhamento pela Mesa ao **Plenário**, para apreciação prioritária **na sessão imediatamente subsequente**.
+
+**C/E D:** Da decisão do Conselho sobre a cautelar cabe recurso ao Plenário; o deputado representado pode recorrer quando a suspensão foi determinada, e a Mesa quando a suspensão foi recusada. **Certo.** O RICD art. 15, §§ 4º–5º, diferencia a legitimidade recursal; o Ato 180/2025, art. 4º, fixa **um dia útil** desde a publicação para interposição. O Plenário exige **maioria absoluta dos deputados** para aprovar ou manter a suspensão.
+
+**Regra de controle:** a suspensão cautelar antecede o julgamento de mérito. Os quatro testes complementares acima tratam da **competência, legitimidade e contagem do rito cautelar**; a sanção disciplinar de suspensão do mandato continua submetida ao procedimento dos arts. 10 e 14 do Código de Ética.
 
 ### Passo a passo detalhado do procedimento
 

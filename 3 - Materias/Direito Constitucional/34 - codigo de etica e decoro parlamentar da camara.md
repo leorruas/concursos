@@ -290,8 +290,8 @@ O **art. 18 da Resolução nº 25/2001, na redação consolidada**, estabelece:
 
 ### Caso 1: Ofensa verbal recíproca em Plenário durante debate acalorado
 Dois deputados trocam ofensas injuriosas durante a discussão de um projeto de lei no Plenário, gerando tumulto e quebra temporária da ordem dos trabalhos.
-- **Enquadramento:** incisos I, II e III do art. 5º (perturbação da ordem e ofensa moral nas dependências da Casa).
-- **Competência e Sanção:** o Presidente da Câmara pode aplicar imediatamente **censura verbal** em sessão. Caso haja reincidência ou provocação formal do ofendido, a Mesa Diretora poderá aplicar **censura escrita**.
+- **Enquadramento:** o tumulto e a perturbação dos trabalhos podem corresponder ao **art. 5º, I e II**, ao passo que ofensas morais ou desacato por palavras a outro parlamentar enquadram-se especificamente no **art. 5º, III**. Cada conduta deve ser tipificada conforme os fatos provados.
+- **Competência e sanção:** para os **incisos I e II**, o Presidente da Câmara pode aplicar **censura verbal**, conforme o **art. 11**, com recurso ao respectivo Plenário. Para as **ofensas ou o desacato do inciso III**, cabe **censura escrita pela Mesa**, mediante provocação do ofendido, com **cinco dias úteis de defesa**, nos termos do **art. 12**. A reincidência em conduta do art. 11 também pode ensejar censura escrita, mediante solicitação do Presidente da Câmara ou da comissão. **Ofensa verbal não é, por si só, autorização para converter a censura escrita em censura verbal.**
 - **Fronteira com a perda de mandato:** a simples ofensa mútua no calor do debate parlamentar, sem agressão física continuada ou quebra institucional grave, pode justificar censura conforme o quadro concreto; eventual enquadramento mais grave exige apuração de fatos adicionais e fundamento específico, sem conclusão automática sobre a sanção final (art. 10, § 2º).
 
 ### Caso 2: Deputado que recebe valores mensais de fornecedor de serviços da Câmara
@@ -303,12 +303,14 @@ Deputado federal recebe remuneração oculta de consórcio empresarial contratad
 ### Caso 3: Cidadão comum protocola denúncia diretamente no Conselho de Ética
 Um cidadão apresenta requerimento de cassação de mandato de deputado diretamente na secretaria do Conselho de Ética, alegando uso indevido de passagens aéreas e exigindo imediata abertura de PAD.
 - **Solução regimental:** o Conselho de Ética não pode receber a peça diretamente de cidadão particular para instauração imediata de processo por perda de mandato.
-- **Procedimento adequado:** representações populares devem ser endereçadas à **Mesa da Câmara** (art. 9º, §§ 1º e 2º), que funcionará como primeiro filtro de admissibilidade e verossimilhança, determinando o arquivamento fundamentado ou o envio formal ao Conselho de Ética.
+- **Procedimento adequado:** o cidadão deve encaminhar o requerimento à **Mesa da Câmara**, com fatos e provas (art. 9º, §§ 1º e 2º). A Mesa instaura procedimento para verificar **indícios suficientes** e **ausência de inépcia**. Se a conduta for punível com as sanções dos **incisos II a IV do art. 10**, encaminha a representação ao Conselho **em até três sessões ordinárias** (art. 9º, § 2º, I). Para hipóteses de **censura do inciso I do art. 10**, adota o procedimento dos **arts. 11 ou 12**, sem envio automático ao Conselho (art. 9º, § 2º, II). Se não houver condições de prosseguimento, deve fundamentar a decisão de não encaminhar.
 
 ### Caso 4: Pedido de quebra de sigilo bancário direto pelo Relator do Conselho
 Em processo disciplinar grave no Conselho de Ética, o deputado relator profere despacho requisitando ao Banco Central a quebra dos extratos de contas do representado.
 - **Ilegalidade:** o Conselho de Ética e seus relatores não ostentam poderes instrutórios próprios de autoridade judicial (diferentemente das CPIs).
 - **Rito escorreito:** o Conselho deve aprovar requerimento fundamentado e remetê-lo à **Mesa da Câmara**, a qual submeterá a autorização de quebra de sigilo bancário/fiscal à deliberação do **Plenário da Câmara dos Deputados**.
+
+**Teste de controle dos casos 1 e 3:** uma denúncia de cidadão descreve desacato por palavras do art. 5º, III, e pede que a Mesa encaminhe obrigatoriamente a representação ao Conselho em até três sessões ordinárias. **Errado.** O art. 9º, § 2º, II, remete ao procedimento dos **arts. 11 ou 12** quando couber censura. Outro enunciado afirma que a perturbação da ordem em sessão, por si só, exige censura escrita pela Mesa: **errado**; para art. 5º, I e II, existe a censura **verbal** do art. 11, com competência própria. Os fatos concretos podem envolver infrações diversas, que devem ser analisadas separadamente.
 
 ## 9. Como o Cebraspe cobra o Código de Ética e Decoro Parlamentar
 

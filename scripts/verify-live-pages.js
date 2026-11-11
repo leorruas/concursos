@@ -91,6 +91,27 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         const local = fs.readFileSync(path.join(rootDir, '_site', recurso), 'utf8');
         if (await response.text() !== local) throw new Error('Recurso do glossário diverge do build: ' + recurso);
       }
+      // Os metadados do manifesto não mudam quando o corpo Markdown é corrigido.
+      // Confirme explicitamente os dois materiais alterados pela auditoria PL.
+      const materiaisAuditoriaPL = [
+        '3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md',
+        '3 - Materias/Direito Constitucional/direito-constitucional.md'
+      ];
+      for (const recurso of materiaisAuditoriaPL) {
+        const localPath = path.join(rootDir, '_site', recurso);
+        if (!fs.existsSync(localPath)) throw new Error('Nota de Processo Legislativo ausente do build: ' + recurso);
+        const urlPublica = new URL(recurso, baseUrl);
+        urlPublica.search = cacheBuster;
+        const response = await fetch(urlPublica, {
+          headers: { 'cache-control': 'no-cache', pragma: 'no-cache' },
+          signal: AbortSignal.timeout(8000)
+        });
+        if (!response.ok) throw new Error('Nota de Processo Legislativo publicada: HTTP ' + response.status + ' em ' + recurso);
+        const publicado = await response.text();
+        const local = fs.readFileSync(localPath, 'utf8');
+        if (publicado !== local) throw new Error('Nota de Processo Legislativo diverge do build publicado: ' + recurso);
+      }
+      console.log('✓ Código de Ética e hub constitucional sincronizados no Pages.');
       console.log('✓ Glossário, interface e índice sincronizados no Pages.');
       console.log('✓ Coleção e interface dos flashcards sincronizadas no Pages.');
       console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');

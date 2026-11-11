@@ -850,3 +850,17 @@ Esta rodada acrescentou intervenções em **três artigos distintos**, todos ain
 **Fontes confirmadas:** [Google Analytics, rejeição e engajamento](https://support.google.com/analytics/answer/12195621?hl=pt-br), [Google, sessões](https://support.google.com/analytics/answer/12798876?hl=pt-BR) e [AMEC, níveis de avaliação](https://amecorg.com/amecframework/). A fonte do Banco Mundial no artigo 108 foi indicada para conferência aprofundada; não se afirma inspeção integral do texto.
 
 **Indicadores:** **49 artigos distintos receberam intervenção entre 128 arquivos do inventário (38,3%)**; foram adicionados **três itens inéditos**, sem equivalência com prova histórica Cebraspe. A contagem histórica de **67 itens com conferência dirigida** é mantida provisoriamente, já que precisa de identificação única e desduplicação por fonte e nível de evidência. Este percentual indica **arquivos tocados**, nunca auditoria integral concluída. Persistem pendências de verificação de obras, exercícios, cobertura editalícia e provas da banca.
+
+
+## Registro: pesquisa de audiência e gestão de equipes publicitárias (11/11/2026)
+
+**Dois artigos novos receberam intervenção dirigida:**
+
+| Artigo | Resultado, evidência e pendência | Commit |
+| --- | --- | --- |
+| 106, pesquisa de mídia | Cinco itens C/E examinados quanto a audiência média/alcance acumulado, aparelhos/pessoas, alcance deduplicado, visibilidade/atenção e rating/share; gabaritos mantidos. Definições de rating e share confrontadas com Nielsen; métodos de deduplicação MRC não auditados integralmente. Um C/E inédito incluído | [8c44760](https://github.com/leorruas/concursos/commit/8c44760be37fbbf109f4833639a2cf5466c130fb) |
+| 121, gestão de equipes | Itens 6 e 7 cotejados com resumos dos artigos originais de Edmondson (1999) e Tuckman (1965); esclarecida a cronologia da etapa *adjourning* (1977). Itens 1, 4 e 8 revisados apenas em coerência; outros conceitos de gestão e regime contratual não receberam cotejo integral. Um C/E inédito incluído | [31af2ab](https://github.com/leorruas/concursos/commit/31af2ab40dfd86becd8800ec10b3aeb07071edef) |
+
+**Fontes desta rodada:** [Nielsen, medição da audiência televisiva](https://www.nielsen.com/insights/2023/how-to-measure-tv-audiences/), [glossário Nielsen, rating/share](https://tapweb.nielsen.com/help/main/glossary.htm); [Edmondson 1999, Harvard](https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f); [Tuckman 1965, registro APA](https://doi.org/10.1037/h0022100); [Open University, Tuckman/Jensen](https://www.open.edu/openlearn/mod/oucontent/view.php?id=3302&section=3.2.5).
+
+**Indicadores:** **51 artigos distintos modificados dos 128 arquivos inventariados (39,8%)**; **dois itens C/E inéditos** incluídos, não pertencentes a provas históricas. O registro provisório de **67 gabaritos com cotejo dirigido** fica inalterado até reconstrução identificada e desduplicada por item e fonte. Esta rodada examinou cinco gabaritos no artigo 106 e cinco no 121, mas o nível de evidência é variável, discriminado nos artigos. **O percentual mede a incidência de edição, não conclusão de auditoria.** A comparação sistemática com questões reais Cebraspe e a conferência dos demais artigos continuam pendentes.

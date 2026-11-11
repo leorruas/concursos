@@ -568,3 +568,39 @@ A biblioteca já contém **núcleo mínimo funcional para iniciar treino**: leit
 **Backlog de decisão atual:** P0: corrigir RD-017 (acompanhar cada medida) e RD-018 (critérios de classificação), além do RD-020 (colisão de navegação). P1: exemplo de peça de 40–50 linhas com grade detalhada; três níveis de resposta ao mesmo comando e reteste; estudo de casos de comunicação institucional apoiado em norma específica. P2: ficha privada de tentativa e evidências manuscritas, na etapa de integração autorizada. **Não alterar nesta Fase 1** os artigos 05–07 nem o hub, e não declarar testes pedagógicos que não ocorreram.
 
 **Parecer desta rodada:** inventário encerrado e biblioteca própria avaliada de forma suficiente para decisão de reorganização; **três achados rastreáveis** foram agora localizados em arquivo/subtítulo/linha, com correção proposta. Os julgamentos sobre `atendido` e `parcial` são **autorais**, não conceitos atribuídos ao Cebraspe. A auditoria normativa dos materiais compartilhados permanece delimitada às frentes de origem. O estado da **Fase 1 continua parcialmente verificado** quanto à avaliação de desempenho e validação transversal, sem impedir elaboração de plano de Fase 2 no momento oportuno.
+
+
+## Continuação de 11/11/2026: blocos 29–30, verificação de integridade dos links e critério de fechamento
+
+**Controle de concorrência:** leitura do relatório no blob `a47ce2929a51433c412872762b84c6a8dd6f57cb` e do HEAD recente `ec902aa7f4dcc312a0019ee5b8ed21a461d3825e`. A consulta autenticada à árvore do GitHub encontrou **806 entradas** com `truncated: false`, mantendo **sete artigos e um hub** em `3 - Materias/Redacao/`. Não houve alteração de outros agentes nesta frente.
+
+### Bloco 29: auditoria de links internos dos oito arquivos de Redação [CONFERIDO]
+
+Método reproduzível: extrair todos os alvos dos wikilinks `[[alvo|rótulo]]` dos oito arquivos; retirar somente âncora interna e rótulo; conferir caminho absoluto ou relativo e nomes de arquivos efetivos contra a árvore Git do branch `main`. **Resultado:** os links de `01`, `04`, `05`, `06`, `07` e do hub foram resolvidos pelo confronto de caminhos. Há **seis ocorrências de referência quebrada a três alvos distintos** nos artigos `02` e `03`:
+
+| Arquivo e localização exata | Alvo referenciado | Evidência | Correção de Fase 3 proposta |
+| --- | --- | --- | --- |
+| `02 - tese e linha argumentativa.md`, linha 267, título `Construção do parágrafo argumentativo` | `04 - construcao do paragrafo argumentativo` | Não existe arquivo com esse nome; o arquivo 04 atual é **decomposição de comandos** | Renomear a remissão para um pré-requisito efetivamente existente, ou marcá-la como `tema futuro sem link`; não apontar ao novo 04 por número |
+| `03 - estrategias de argumentacao.md`, linha 240, trecho `Esse mecanismo será aprofundado`; linha 314, subtítulo `Contra-argumentação e refutação` | `05 - contra-argumentacao e refutacao` | Não existe esse arquivo; o 05 publicado é **resposta conceitual curta** | Substituir por relação real ao artigo 03 ou registrar tema planejado sem link, conforme decisão de arquitetura |
+| `03 - estrategias de argumentacao.md`, linha 288, trecho `Isso prepara o próximo artigo`; linha 310, subtítulo `Construção do parágrafo argumentativo` | `04 - construcao do paragrafo argumentativo` | Não existe esse arquivo; numeração colide | Corrigir o texto sobre `próximo artigo` e a navegação, evitando falsa sequência 03→04 pelo título antigo |
+| `03 - estrategias de argumentacao.md`, linha 318, subtítulo `Repertório, exemplos e evidências` | `06 - repertorio exemplos e evidencias` | Não existe esse arquivo; o 06 publicado é **peça técnica** | Registrar tópico futuro sem link ou encaminhar ao artigo existente mais próximo conceitualmente |
+
+**Achado RD-021, severidade IMPORTANTE:** a biblioteca possui **vínculos quebrados verificáveis e colisão semântica de numeração**. Isso já ultrapassa uma simples questão de estilo do hub: dois textos fundamentais encaminham o estudante para destinos ausentes. São *seis ocorrências* de link para *três destinos não existentes*, conforme árvore consultada. Na Fase 1, não corrigir os artigos. A intervenção deverá preservar os atuais `articleId` e aliases e decidir se os temas antigos viram novos artigos ou apenas relações com notas disponíveis.
+
+**Limite técnico:** esta varredura confere wikilinks explícitos do conjunto Redação no branch consultado. Não é um teste de navegação renderizada do Obsidian/GitHub Pages, nem uma garantia sobre URLs web externos ou sobre os links de outras matérias.
+
+### Bloco 30: atualização do estado de saída e ações não executadas
+
+**Nova evidência sobre a fonte oficial:** a [página institucional de Analista Legislativo, especialidades](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades), consultada novamente em 11/11/2026, lista os **Editais 1 a 6**, sem publicação posterior nessa página até o acesso. A retificação nº 5 e a nº 6 não modificam o regime de redação 20/20/50 já cotejado. O relatório não deve presumir publicação adicional.
+
+**Estado editorial por requisito do protocolo:**
+- **Inventário físico:** concluído na árvore consultada, com sete artigos canônicos + um hub e seus SHAs.
+- **Matriz do edital e espelhos:** requisitos da prova e três pares de enunciado/padrão documentalmente examinados, com ressalvas de transferibilidade.
+- **Avaliação individual do núcleo:** registrada para os sete artigos e hub, com correções localizadas e severidade; nenhum texto foi modificado.
+- **Links e arquitetura:** seis referências quebradas detectadas nos artigos 02 e 03, além do plano antigo numerado no hub; dependências para correção identificadas.
+- **Pedagogia:** materiais atuais são utilizáveis como ponto de partida; o exemplo de peça de 28 linhas tem correspondência incompleta entre medidas e monitoramento; o instrumento de autocorreção ainda exige critérios objetivos para `parcial` e `incorreto`.
+- **Pendente de verificação:** auditoria exaustiva dos trechos normativos e conceituais das notas **compartilhadas** selecionadas; execução manuscrita e cronometrada de usuário e análise do desempenho individual. **A segunda é etapa de validação do aprendizado, não pré-requisito lógico da auditoria editorial da biblioteca**.
+
+**Julgamento de fase:** a **auditoria editorial do núcleo próprio de Redação possui diagnóstico suficientemente fundamentado para a fase de planejamento**, inclusive inventário, cobertura, arquitetura e riscos. **A auditoria integral transversal ainda não pode ser certificada como concluída** sem o cotejo profundo das notas compartilhadas relevantes, que devem ser coordenadas com as respectivas frentes. O teste real de aprendizagem permanece uma atividade posterior, que deve acontecer na rotina privada. Mantém-se o status `parcialmente-verificado` de forma específica e honesta, sem impedir autorização futura da Fase 2.
+
+**Prioridade revisada:** P0 corrigir **RD-021** (wikilinks e semântica de numeração), **RD-020** (hub antigo), **RD-017** (relação ação/indicador) e **RD-018** (estados de correção); P1 ampliar peça de 40–50 linhas e respostas comparadas por qualidade; P2 integrar retestes privados e observar folha manuscrita. Todas são **recomendações**, não alterações autorizadas neste turno.

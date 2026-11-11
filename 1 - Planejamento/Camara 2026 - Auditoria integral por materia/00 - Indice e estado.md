@@ -1,7 +1,7 @@
 ---
 title: "Câmara 2026: índice e estado da auditoria integral"
 type: "indice-auditoria"
-status: "em-preparacao"
+status: "em-curso"
 concursoId: "camara-2026"
 updated: 2026-11-11
 ---
@@ -10,7 +10,7 @@ updated: 2026-11-11
 
 **Objetivo e método:** [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/Plano e protocolo|plano e protocolo]].
 
-**Estado verificável em 11/11/2026:** protocolo criado; ordem das matérias **a determinar após inventário do edital, catálogo e arquitetura**; nenhuma matéria iniciada ou concluída por este novo método; nenhum artigo lido integralmente para esta auditoria; nenhum achado crítico confirmado; nenhuma alteração de conteúdo autorizada.
+**Estado inicial em 11/11/2026:** protocolo criado, sem matéria previamente auditada. Ver atualizações datadas ao final para o estado mais recente.
 
 **Próxima tarefa:** ler integralmente AGENTS.md, CHAT.md, me.md, index.md, edital oficial com retificações, arquitetura dos 315 candidatos editoriais distribuídos em 13 trilhas, estratégia de estudos, catálogo e inventário efetivo. Propor ordem justificada (risco, relevância, tamanho, dependências); iniciar primeira matéria, construir matriz e ler todos os artigos. **Não inferir cobertura nem priorização por título ou pelos registros antigos**.
 
@@ -18,10 +18,17 @@ updated: 2026-11-11
 
 | Matéria/trilha | Estado | Artigos lidos nesta auditoria | Críticos confirmados | Relatório | Próxima ação |
 | --- | --- | --- | --- | --- | --- |
-| Inventário geral e ordem das 13 trilhas | Pendente | Nenhum | Não avaliado | Este índice | Cruzar edital, plano, catálogo e arquivos reais |
-| Primeira matéria (a selecionar) | Pendente | Nenhum | Não avaliado | A criar após início | Matriz de cobertura e leitura integral |
+| Inventário geral e ordem das 13 trilhas | Em curso | Inventário PL parcial | Não avaliado | Este índice | Concluir cruzamento de todas as trilhas |
+| Processo Legislativo, Regimentos e Ética | Parcialmente verificado | DC 11–13: inspeção estrutural, não leitura crítica exaustiva | Nenhum confirmado | [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/02 - Processo Legislativo Regimentos e Etica - diagnostico|Relatório PL]] | Verificar integralmente DC 11–13 e seguir para DC 14–17 |
 | Demais matérias | Pendentes | Nenhum | Não avaliado | A criar por matéria | Seguir a ordem fundamentada |
 
 **Convenção de estado:** pendente; em curso; parcialmente verificado; concluído (somente após cobertura total); bloqueado. Em cada atualização substituir estes registros genéricos pelos nomes efetivos das matérias e conservar a lista exata de arquivos lidos, pendentes e localizadores de achados. Não publicar dados individuais de aprendizagem.
 
 **Retomada:** [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/01 - Prompt de continuidade|prompt para próximo chat]].
+
+
+## Atualização de 11/11/2026: Processo Legislativo, Regimentos e Ética
+
+**Primeira frente ativa:** [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/02 - Processo Legislativo Regimentos e Etica - diagnostico|relatório progressivo de Processo Legislativo, Regimentos e Ética]]. Inventário da pasta Direito Constitucional conferido. Os arquivos `11 - proposicoes legislativas conceito e classificacao.md`, `12 - iniciativa legislativa sujeitos e limites.md` e `13 - tramitacao e fases do processo legislativo.md` foram recuperados e inspecionados estruturalmente; **leitura exaustiva e cotejo de todos os itens ainda pendentes**. RICD arts. 52, 100 e 113 confrontados com fonte oficial; edital oficial indisponível no acesso do bloco (429), com cotejo completo pendente. Achado importante de rastreabilidade: planejamento PL mantém unidades desmarcadas apesar de arquivos correspondentes existentes. Nenhuma falha normativa crítica confirmada até aqui. Nenhum artigo alterado.
+
+**Próxima ação nesta frente:** concluir verificação integral de DC 11–13 e dos dispositivos citados, depois DC 14–17; atualizar relatório por bloco. A outra conversa pode auditar Comunicação sem alterar este relatório; antes de atualizar este índice, sempre ler o SHA mais recente e preservar alterações concorrentes.

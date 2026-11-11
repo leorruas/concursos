@@ -5,7 +5,7 @@ title: "Procedimentos abreviado e sumário: comissões e urgência constituciona
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-11
 aliases:
   - "Rito legislativo abreviado"
   - "Rito legislativo sumário"
@@ -68,6 +68,8 @@ Um **projeto de lei ordinária** pode ter **tramitação prioritária** por ser 
 4. O **art. 58 do RICD** estabelece **cinco sessões** para recurso, com assinatura de **um décimo dos membros da Câmara** e delimitação do objeto pretendido.
 5. O **art. 132, § 2º**, exige que o recurso seja apresentado e **provido por decisão do Plenário** para que a matéria recorrida seja discutida e votada por ele.
 6. Se não houver recurso no prazo ou se ele for **improvido**, a proposição segue à **redação final ou ao arquivamento**, conforme o resultado. O **art. 58, § 5º**, estabelece **72 horas** para o encaminhamento pertinente após a aprovação da redação final.
+
+**Via regimental distinta do recurso:** o **art. 52, § 6º**, permite, **esgotados os prazos regimentais de exame**, que o Presidente da Câmara, de ofício ou a requerimento de qualquer deputado, determine o envio de proposição ainda pendente de parecer à comissão seguinte ou ao Plenário, conforme o caso, **independentemente da interposição do recurso do art. 132, § 2º**. A hipótese trata de **prazo de comissão e proposição pendente de parecer**; não confundi-la com o recurso de um décimo **após decisão conclusiva e publicação**, cujo provimento pelo Plenário é exigido no art. 132, § 2º.
 
 **Recurso possível não significa votação plenária automática.** O recurso exige subscrição e trâmite próprios; sua mera apresentação não substitui a decisão de provimento exigida pelo RICD.
 
@@ -246,3 +248,14 @@ A resposta pode separar **classificação doutrinária do procedimento** e **cla
 - [Câmara dos Deputados, urgência constitucional: material de educação legislativa](https://educacaoadistancia.camara.leg.br/clique_regimento/card/82).
 
 **Critério editorial:** os nomes abreviado e sumário são **taxonomia doutrinária de procedimentos**, não categorias literais de regime no art. 151. Ao responder a questão de literalidade do RICD, usar as três categorias regimentais. As questões são inéditas, e a publicação do artigo não comprova estudo, prática ou domínio.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Recorte cotejado:** texto e quadros, **nove cenários progressivos**, **dois exemplos comentados** e **dez itens C/E** comparados com a [Constituição Federal, arts. 58, § 2º, I, e 64, §§ 1º–4º](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) e com o [Regimento Interno da Câmara, arts. 24, 52, 58, 132, 151–159 e 204](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferidos rito conclusivo, exclusões, recurso de um décimo em cinco sessões com provimento em Plenário, diferença entre decisão conclusiva e parecer terminativo, prioridade, pedido presidencial de urgência, 45 + 45 dias e dez dias para emendas, sobrestamento com exceção constitucional, recesso e códigos.
+
+**NC-PL-038, complemento normativo:** acrescentada a faculdade do **art. 52, § 6º**, de envio pelo Presidente da Câmara, ao fim dos prazos da comissão, da proposição **pendente de parecer** à comissão seguinte ou ao Plenário, sem requerer o recurso do **art. 132, § 2º**. O recurso do art. 132, § 2º, refere-se à **apreciação conclusiva já realizada**, com publicação, prazo, subscrição e provimento. Os institutos não são intercambiáveis.
+
+**Gabaritos originais confirmados:** **C, E, E, C, E, C, C, E, C, E**. Nenhuma inversão identificada nos dez itens; nove casos e dois exemplos permanecem coerentes no recorte. Sem duplicação no inventário histórico.
+
+**Limites:** certificação do conteúdo jurídico redigido e examinado nesta data, não do universo de procedimentos especiais, do desempenho do estudante, nem de testes do site, renderização ou publicação no GitHub Pages. A terminologia *abreviado* e *sumário* é doutrinária, distinta da classificação de regimes do RICD art. 151.

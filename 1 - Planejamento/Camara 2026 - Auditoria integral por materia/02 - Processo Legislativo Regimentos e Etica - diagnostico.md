@@ -857,3 +857,10 @@ Manter o artigo como referência principal de `CAM-PL-004`. Renomear/identificar
 - Estimativa provisória de **cerca de 38% do esforço da Fase 1 realizado, 62% restante**. É uma avaliação qualitativa do trabalho, não medição objetiva de progresso ou garantia de cobertura.
 - Próximo aprofundamento: **DC16, discussão, votação e quóruns**, incluindo conformidade do RICD arts. 180–187, CF art.47 e recursos; em seguida DC17 e temas normativos restantes.
 - **Todos os artigos originais seguem intactos.**
+
+
+### Execução editorial: DC36, Súmula 5 e Tema 22 (11/11/2026)
+
+Commit `5a03fc4e4eaa812a7b2768eeacdff057cd02ea98`: **NC-PL-018 e NC-PL-019 corrigidas no DC36**, em quatro passagens (subtítulo, explicação, comentário da Q2 e fontes). A [Súmula 5 do STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1318) foi identificada como entendimento histórico **superado** pela orientação de que sanção não convalida vício de iniciativa (ADI 1.197, AR 1.753). O [Tema 22 (RE 560.900)](https://portal.stf.jus.br/jurisprudenciarepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=2551965&numeroProcesso=560900&numeroTema=22) não trata desse assunto; sua vinculação indevida foi retirada das justificativas. **Gabarito Q2 mantido ERRADO.**
+
+**Situação editorial:** 4/29 artigos modificados (DC13, DC34, DC35, DC36), 0/29 integralmente certificados. A revisão completa de DC36 permanece pendente.

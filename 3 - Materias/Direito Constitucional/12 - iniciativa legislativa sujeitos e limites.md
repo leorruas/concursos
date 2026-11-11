@@ -5,7 +5,7 @@ title: "Iniciativa legislativa: legitimados, reservas e limites"
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-08
+updated: 2026-11-11
 aliases:
   - "Iniciativa legislativa comum e reservada"
   - "Artigo 61 da Constituição Federal"
@@ -112,6 +112,10 @@ O **art. 61, § 2º, da CF** prevê projeto de lei de iniciativa popular apresen
 Os números são cumulativos: atingir **1% nacional** não dispensa distribuição territorial; apresentar assinaturas em **cinco estados** não dispensa o mínimo em cada estado. A iniciativa popular é **forma de apresentação de projeto de lei**, não procedimento pelo qual o eleitorado **aprova diretamente a lei**. A tramitação legislativa e seus requisitos permanecem aplicáveis.
 
 **Exemplo:** movimento reúne assinaturas correspondentes a 1,2% do eleitorado nacional em seis estados, mas, em um dos cinco estados necessários à distribuição mínima, obtém somente 0,2% do eleitorado estadual e não possui quinto estado alternativo com 0,3%. A quantidade nacional **não supre** o descumprimento do piso estadual.
+
+**Tramitação específica da iniciativa popular (RICD, art. 252):** além dos requisitos constitucionais, o Regimento exige assinaturas acompanhadas dos dados do eleitor, listas organizadas por município e unidade federativa e documento da Justiça Eleitoral sobre o número de eleitores. O projeto é **protocolizado na Secretaria-Geral da Mesa**, que verifica as exigências constitucionais (incisos I, II, IV e V). Uma **entidade da sociedade civil** pode patrocinar a coleta (III). O projeto integra a numeração geral e tem **a mesma tramitação dos demais projetos de lei**, observada a exclusão de apreciação conclusiva nas comissões do art. 24, II, c (inciso VI). O primeiro signatário, ou pessoa por ele indicada, pode usar a palavra por **20 minutos** na comissão ou no Plenário convertido em Comissão Geral (VII). O projeto deve tratar de **um único assunto** (VIII), e **vícios de linguagem ou de técnica legislativa não autorizam rejeição liminar**, cabendo à CCJC corrigir falhas formais (IX). A Mesa designa deputado para exercer atribuições regimentais do autor, conforme a indicação e anuência do primeiro signatário (X).
+
+**Outra via de participação (RICD, art. 254):** sugestões enviadas à **Comissão de Legislação Participativa**, quando aprovadas por ela, **transformam-se em proposições legislativas de iniciativa da própria comissão** (§ 1º). Esse mecanismo é distinto da apresentação direta de projeto de iniciativa popular com os percentuais do art. 61, § 2º. Tampouco uma petição ou abaixo-assinado comum se converte automaticamente em projeto de lei.
 
 **Art. 61, § 2º × art. 60:** a Constituição prevê iniciativa popular de **projeto de lei** nesses termos. O art. 60 estabelece legitimados específicos para **PEC**, entre os quais não consta iniciativa popular federal direta. Uma questão que transpõe os **1%/5 estados/0,3%** do art. 61 para PEC federal erra o **instrumento**.
 
@@ -321,3 +325,14 @@ Organizar a resposta em **regra geral de iniciativa (art. 61) → iniciativas re
 - [Câmara dos Deputados, Regimento Interno consolidado até Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 
 **Nota editorial:** fontes normativas vigentes verificadas em 07/11/2026. Leis e jurisprudência têm recortes materiais e temporais; uma tese sobre iniciativa não comprova constitucionalidade integral do projeto examinado. Este artigo não registra estudo pessoal, acertos, retenção nem prática em prova.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Recorte conferido:** texto, quadros, **seis etapas do primeiro caso progressivo**, **oito etapas do caso institucional**, **dois exemplos comentados** e **14 questões C/E**, em dois conjuntos de seis e oito, cotejados com a [Constituição Federal, arts. 51, 52, 60–65, 93, 96, 127, 128 e 165](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), com o [RICD, arts. 24, 109, 252 e 254](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e com os **Temas 917 e 682 do STF**, especificamente quanto a despesas administrativas e ausência de reserva geral tributária. Preservadas as distinções entre iniciativa geral/reservada, competência da Casa e espécie legislativa, projeto de lei/PEC, emenda parlamentar e sanção.
+
+**NC-PL-051:** incluída a tramitação de **projeto de iniciativa popular** no RICD art. 252: qualificação e organização das assinaturas, documento eleitoral, protocolo e conferência, participação do primeiro signatário ou indicado por 20 minutos, unidade temática, saneamento de falhas formais sem rejeição liminar e deputado designado para atribuições do autor. **NC-PL-052:** distinguida a **sugestão à Comissão de Legislação Participativa**, que pode converter-se em proposição da comissão após parecer favorável (art. 254, § 1º), da iniciativa popular constitucional do art. 61, § 2º.
+
+**Gabaritos mantidos:** CAM-PL-002, seis itens: **C, E, C, E, C, E**; CAM-PL-017, oito itens: **C, E, C, E, E, E, C, E**. **Quatorze questões existentes**, sem inversão identificada. Os itens não foram alterados nem acrescidos ao inventário.
+
+**Limite:** certificação jurídico-editorial deste recorte, sem aferição de todas as interpretações sobre participação popular, de aprendizagem pessoal, nem de publicação/renderização no GitHub Pages.

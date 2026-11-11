@@ -109,7 +109,7 @@ export function validateLearning(root,s,concursos) {
     if(mixed && q.subjectId)ok(qSubject,`${s.id}: matéria da questão não catalogada`);
     if(qSubject){
       ok(qSubject.units.some(u=>u.id===(q.unitId||s.unitId)),`${s.id}: unidade da questão inválida`);
-      ok(qSubject.legacyDisciplines.some(d=>normalize(d)===normalize(q.discipline)),`${s.id}: disciplina diverge da matéria`);
+      if(!mixed)ok(qSubject.legacyDisciplines.some(d=>normalize(d)===normalize(q.discipline)),`${s.id}: disciplina diverge da matéria`); // Baterias mistas preservam o rótulo original e usam subjectId como classificação curricular explícita.
     } else ok(mixed && !q.unitId && !q.subjectId,`${s.id}: disciplina não catalogada deve ficar sem unidade, sem classificação presumida`);
     if(q.sourceRefs)ok(arr(q.sourceRefs)&&q.sourceRefs.every(r=>plan.sources[r.sourceId]&&txt(r.locator)),`${s.id}: referência normativa sem fonte/localizador`);
     if(q.retrievalOf)ok(arr(q.retrievalOf)&&q.retrievalOf.every(txt),`${s.id}: retrievalOf inválido`);

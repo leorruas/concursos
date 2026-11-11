@@ -5986,6 +5986,102 @@
       "statement": "Quando moradores ajudam a identificar barreiras de acesso a um serviço, a participação deles transfere automaticamente à comunidade toda a responsabilidade pelas providências corretivas.",
       "correctAnswer": "E",
       "explanation": "Identificar barreiras é uma contribuição. A responsabilidade pelas providências continua com as instâncias encarregadas de decidir e executar as mudanças."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Decreto nº 9.203/2017",
+      "conceptId": "lideranca-publica",
+      "mechanism": "identificar-condicao-de-lideranca",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "statement": "Ao definir requisitos de competência e integridade para os ocupantes dos principais cargos, um órgão atua sobre condições associadas ao mecanismo de liderança.",
+      "correctAnswer": "C",
+      "explanation": "O mecanismo de liderança abrange condições humanas e comportamentais, entre elas competência e integridade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Decreto nº 9.203/2017",
+      "conceptId": "controle-de-governanca",
+      "mechanism": "classificar-pela-finalidade-do-processo",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "statement": "Uma revisão periódica das permissões de acesso, criada para reduzir o risco de consultas indevidas, exemplifica estratégia por ocorrer em datas previamente planejadas.",
+      "correctAnswer": "E",
+      "explanation": "O calendário organiza a execução. A finalidade de mitigar risco caracteriza a revisão como controle."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Decreto nº 9.203/2017",
+      "conceptId": "estrategia-de-governanca",
+      "mechanism": "identificar-alinhamento-de-objetivos",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "statement": "Duas entidades pactuam objetivos comuns e definem critérios para escolher quais ações receberão recursos primeiro. O alinhamento de objetivos e a priorização são práticas de estratégia.",
+      "correctAnswer": "C",
+      "explanation": "A estratégia orienta a atuação por objetivos e critérios de escolha, inclusive quando é necessário alinhar organizações."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Decreto nº 9.203/2017",
+      "conceptId": "mecanismos-de-governanca",
+      "mechanism": "confundir-mecanismo-com-resultado",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "statement": "Se um órgão quer melhorar sua eficiência, pode substituir o mecanismo de controle por “eficiência” na classificação dos mecanismos do Decreto nº 9.203/2017.",
+      "correctAnswer": "E",
+      "explanation": "Os mecanismos enumerados são liderança, estratégia e controle. Eficiência é uma qualidade pretendida na execução."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Decreto nº 9.203/2017",
+      "conceptId": "controle-de-governanca",
+      "mechanism": "distinguir-mitigacao-de-eliminacao",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "statement": "Um controle que reduz a probabilidade de pagamentos duplicados pode cumprir uma função de mitigação mesmo que ainda exista risco residual.",
+      "correctAnswer": "C",
+      "explanation": "Mitigar é reduzir o risco, o que pode ocorrer sem eliminá-lo. O risco remanescente ainda deve ser acompanhado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Decreto nº 9.203/2017",
+      "conceptId": "lideranca-publica",
+      "mechanism": "confundir-documento-com-condicao-humana",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "statement": "A publicação de um plano estratégico comprova por si só que os dirigentes têm a competência e a integridade exigidas para exercer liderança.",
+      "correctAnswer": "E",
+      "explanation": "O plano documenta direção e prioridades. Competência e integridade dos dirigentes precisam de evidências próprias."
     }
   ]
 }

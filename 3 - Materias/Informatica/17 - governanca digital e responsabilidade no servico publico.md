@@ -5,7 +5,7 @@ title: "Governança digital, governo eletrônico e responsabilidade no serviço 
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Governança digital, governo eletrônico e responsabilidade no serviço público
@@ -71,7 +71,7 @@ flowchart LR
 | :--- | :--- | :--- | :--- |
 | **Simples** | Associação de dados eletrônicos em formato simples (login e senha de usuário, confirmação por e-mail/SMS). | Básico / Baixo | Requerimentos simples, agendamento de atendimentos, manifestações em ouvidorias. |
 | **Avançada** | Utiliza criptografia assimétrica associada de forma unívoca ao signatário; dados sob seu controle exclusivo; detecta alterações posteriores. Ex.: contas **gov.br nível Prata e Ouro**. | Intermediário / Alto | Tramitação de processos administrativos internos, pareceres técnicos, peticionamento eletrônico, contratos públicos ordinários. |
-| **Qualificada** | Utiliza certificado digital padrão **ICP-Brasil** (com token criptográfico, smartcard ou nuvem segura). | **Máximo** (presunção legal absoluta de veracidade) | Atos de chefia de poder, sanção e promulgação de leis, edição de medidas provisórias, alienação de imóveis públicos e atos com sigilo ultrassecreto. |
+| **Qualificada** | Utiliza certificado digital padrão **ICP-Brasil** (com token criptográfico, smartcard ou nuvem segura). | **Elevado** (presunção relativa de veracidade em relação ao signatário; MP 2.200-2/2001, art. 10, § 1º) | Atos de chefia de poder, sanção e promulgação de leis, edição de medidas provisórias, alienação de imóveis públicos e atos com sigilo ultrassecreto. |
 
 ---
 
@@ -81,7 +81,7 @@ Um dos eixos mais cobrados pelo Cebraspe na carreira de Divulgação Institucion
 
 ### 3.1 A regra geral de compatibilidade
 - A publicidade é o preceito geral; o sigilo é a exceção (*art. 5º, XXXIII da CF/88*);
-- A LGPD **não impede nem revoga a LAI**. O tratamento de dados pessoais pelo Poder Público é expressamente autorizado pelo art. 7º, III da LGPD para o atendimento de sua finalidade pública, na persecução do interesse público, com o objetivo de executar as competências legais ou cumprir as atribuições legais do serviço público;
+- A LGPD **não impede nem revoga a LAI**. O art. 7º, III da LGPD trata especificamente do **tratamento e uso compartilhado de dados necessários à execução de políticas públicas** previstas em leis e regulamentos ou respaldadas por instrumentos próprios, observado o Capítulo IV; outros fundamentos legais e princípios também podem incidir sobre atividades públicas;
 - **Dados Pessoais $\times$ Informações Institucionais**:
   - Salários, cargos, lotação, viagens a serviço e diárias de servidores públicos **são públicos por imperativo constitucional de transparência** (entendimento pacificado pelo STF no Tema 483 de Repercussão Geral);
   - Dados pessoais sensíveis (saúde, orientação sexual, convicção religiosa, dados biométricos) e dados estritamente privados (CPF, endereço residencial, telefone pessoal, dependentes) **devem ser protegidos e anonimizados/tarjados** antes da publicação de documentos oficiais.
@@ -112,8 +112,8 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 - **Análise**: O requerimento deve ser indeferido. Conforme jurisprudência consolidada do STF (Tema 483) e diretrizes da CGU/ANPD, a divulgação do nome, cargo e remuneração de agentes públicos atende ao princípio constitucional da publicidade e ao interesse público primário. A LGPD não anula a LAI, desde que preservados dados estritamente privados (como descontos sindicais, empréstimos consignados ou dados bancários).
 
 ### Caso 3: Assinatura de ato normativo por conta gov.br
-- **Cenário**: O Presidente da Câmara dos Deputados precisa sancionar e promulgar um decreto legislativo de alto impacto orçamentário. O chefe de gabinete propõe assinar o documento digitalmente utilizando uma conta gov.br de nível Prata (assinatura eletrônica avançada).
-- **Análise**: A proposta está irregular. Conforme a Lei nº 14.063/2020, atos privativos de chefia de poder com impacto legislativo e orçamentário solene exigem **Assinatura Eletrônica Qualificada**, obrigatoriamente vinculada a certificado digital emitido sob a infraestrutura **ICP-Brasil**. A assinatura avançada é restrita a atos de gestão e processos administrativos ordinários.
+- **Cenário**: Em cenário hipotético, um chefe de Poder precisa assinar eletronicamente um ato normativo de sua competência, sujeito à exigência legal de assinatura qualificada. Um assessor sugere usar assinatura avançada de conta gov.br Prata, sem certificado ICP-Brasil. **Decreto legislativo não se sujeita à sanção presidencial**; por isso, não é exemplo adequado de ato a ser sancionado.
+- **Análise**: Para atos normativos dos chefes de Poder abrangidos pelo art. 5º, § 2º, I, da Lei nº 14.063/2020, exige-se **assinatura eletrônica qualificada**, baseada em certificado ICP-Brasil. A assinatura avançada é admitida em outras hipóteses conforme o regime e o nível de exigência do ato; não se limita universalmente a gestão ordinária.
 
 ### Caso 4: O compartilhamento de senha no gabinete durante o recesso
 - **Cenário**: Um analista entra em férias regulamentares e anota seu login de rede e senha em um post-it colado no monitor para que o estagiário possa despachar mensagens e acessar o sistema de protocolo legislativo.
@@ -179,7 +179,7 @@ O servidor público possui dever funcional de zelo com os ativos de informação
    - **Qualificada**: **ICP-Brasil obrigatório**, atos solenes, chefia de poder, imóveis.
 2. **LAI $\times$ LGPD**:
    - Transparência salarial de servidor = **PÚBLICA (LAI prevalece)**.
-   - Dados íntimos/sensíveis/bancários do servidor = **SIGILOSOS (LGPD prevalece)**.
+   - Dados íntimos/sensíveis/bancários do servidor = **Sujeitos à proteção de dados pessoais e às restrições legais de acesso**, conforme contexto; não há prevalência automática de uma lei sobre a outra.
 3. **Lei do Governo Digital (Lei nº 14.129/2021)**:
    - Governo não pode pedir documento que ele mesmo já tem (*Once-Only*).
    - Dados públicos devem ser abertos por padrão (*Open Data by Default*).
@@ -193,3 +193,5 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 - **Lei nº 13.709/2018 (LGPD)**: Artigo 7º, inciso III (Tratamento de dados pelo Poder Público).
 - **Lei nº 12.527/2011 (LAI)**: Transparência ativa e acesso a dados governamentais.
 - **STF, Tema 483 de Repercussão Geral**: Legitimidade da divulgação de vencimentos de servidores públicos na internet.
+
+> **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.

@@ -205,9 +205,9 @@ Em planos de contingência do setor público, dois parâmetros definem os limite
 ## 9. Heurísticas para a prova da Câmara dos Deputados
 
 1. **Incremental $\times$ Diferencial na velocidade de execução**:
-   - Backup **Incremental** é mais **rápido para gravar** (copia só o dia), mas mais **lento para restaurar** (precisa de todas as fitas em ordem).
-   - Backup **Diferencial** é mais **lento para gravar** ao longo da semana (vai acumulando dados), mas mais **rápido para restaurar** (só precisa do Full + último Diferencial).
-2. **Manipulação do Atributo (*Archive Bit*)**:
+   - Backup **Incremental** tende a copiar menos alterações e pode exigir a sequência de incrementais desde o completo para restauração, conforme a implementação; não significa necessariamente “copiar só o dia” nem depender de fitas.
+   - Backup **Diferencial** acumula alterações desde o completo de referência e, no modelo clássico, permite restaurar com o completo e o último diferencial. Desempenho depende do volume de mudanças e da solução.
+2. **Manipulação do Atributo (*Archive Bit*) apenas em implementações clássicas que o utilizam**:
    - Completo: desmarca (`0`).
    - Incremental: desmarca (`0`).
    - Diferencial: **não desmarca** (mantém `1`).

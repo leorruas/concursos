@@ -104,6 +104,12 @@ O texto original, **“The Structure and Function of Communication in Society”
 
 **Fonte primária:** [Lasswell, ensaio de 1948 reproduzido em periódico acadêmico, pp. 216–217](https://pracownik.kul.pl/files/37108/public/Lasswell.pdf), conferido em 11/11/2026. **Escopo:** correspondência desses três itens; exemplos de campanhas e interpretações posteriores seguem fora da validação integral. Itens originais de treino, não itens reais da Cebraspe.
 
+## Prova histórica: Lasswell e teorias vizinhas, Correios 2011 (11/11/2026)
+
+O [caderno de Publicidade e Propaganda dos Correios 2011](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), em seu **item 61**, cobra a formulação das **cinco perguntas** de Harold Lasswell, com julgamento **Certo** no [espelho do gabarito definitivo identificado ECT11_028_83](https://www.estudegratis.com.br/images/provas/20767-cespe-2011-correios-analista-de-correios-comunicacao-social-publicidade-e-propaganda-gabarito.pdf). A associação autor → esquema de perguntas foi, portanto, efetivamente cobrada na banca. Isso não permite tratar a formulação de Lasswell como explicação completa de feedback, interpretação, efeitos ou recepção ativa.
+
+**Itens próximos de teoria:** o **62, Errado**, confunde a perspectiva pragmática/positivista norte-americana com teoria crítica; o **63, Certo**, admite complementaridade de agenda-setting com espiral do silêncio; o **64, Errado**, é uma generalização de história dos termos “cultura de massa” e “meios de comunicação de massa”. Não deslocar esses três julgamentos para a estrutura interna das cinco perguntas. A [tabela de conferência dos itens 51–64](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md) preserva os números e seus recortes. O PDF de gabarito diretamente hospedado pela banca não pôde ser reaberto neste turno; o julgamento foi lido em cópia identificada pelo código exato do cargo.
+
 ## Aplicação discursiva
 
 Em uma resposta sobre campanhas institucionais, usar as cinco perguntas para organizar um diagnóstico. Definir o agente responsável, a mensagem, os meios, os públicos e o efeito desejado; depois propor como cada efeito será **medido**, sem apresentá-lo como consequência automática. A estrutura ajuda a planejar a investigação, mas não substitui a análise do contexto e das normas da comunicação pública.

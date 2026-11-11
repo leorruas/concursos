@@ -3650,6 +3650,102 @@
       "statement": "Publicar todas as postagens previstas demonstra, por si só, que o público conseguiu localizar o prazo de inscrição em cada uma delas.",
       "correctAnswer": "E",
       "explanation": "Cumprir o calendário mede execução. Localizar o prazo é uma tarefa do público que precisa de evidência própria."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / storytelling de dados",
+      "conceptId": "analise-exploratoria",
+      "mechanism": "distinguir-investigacao-de-apresentacao",
+      "theoryRefs": [
+        "article:art-2fde27c0e00dc520#2. Análise Exploratória versus Análise Explanatória"
+      ],
+      "statement": "Durante a investigação de atrasos, a equipe compara gráficos por horário, unidade e tipo de solicitação para levantar hipóteses. Esse uso é exploratório, mesmo que alguns gráficos sejam descartados da apresentação final.",
+      "correctAnswer": "C",
+      "explanation": "A finalidade nessa etapa é descobrir padrões e formular hipóteses. A seleção do que será comunicado ocorre depois."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / storytelling de dados",
+      "conceptId": "contexto-da-audiencia",
+      "mechanism": "confundir-especializacao-com-omissao",
+      "theoryRefs": [
+        "article:art-2fde27c0e00dc520#3. O Contexto: Audiência, Mensagem e Tomador de Decisão"
+      ],
+      "statement": "Para tornar um gráfico acessível a quem desconhece o serviço, a equipe pode retirar o período e a unidade de medida sem prejuízo à interpretação dos valores.",
+      "correctAnswer": "E",
+      "explanation": "Período e unidade permitem entender o que os números representam. Pode-se simplificar a linguagem mantendo essas informações."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / storytelling de dados",
+      "conceptId": "carga-cognitiva",
+      "mechanism": "distinguir-enfeite-de-contexto",
+      "theoryRefs": [
+        "article:art-2fde27c0e00dc520#4. Carga Cognitiva e *Decluttering* (Eliminação da Desordem)"
+      ],
+      "statement": "Remover sombras decorativas de um gráfico enquanto se preservam as unidades e as referências de escala pode reduzir a desordem visual sem prejudicar a interpretação.",
+      "correctAnswer": "C",
+      "explanation": "As sombras não são necessárias nesse exemplo. Unidades e escala continuam disponíveis para interpretar valores e comparações."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / storytelling de dados",
+      "conceptId": "destaque-visual",
+      "mechanism": "confundir-cor-com-informacao-suficiente",
+      "theoryRefs": [
+        "article:art-2fde27c0e00dc520#5. Atributos Pré-Atentivos: Direcionando o Foco da Audiência"
+      ],
+      "statement": "Em um gráfico compartilhado em versão colorida e em escala de cinza, distinguir a série de referência apenas pela cor garante que ela seja identificável nas duas versões.",
+      "correctAnswer": "E",
+      "explanation": "A distinção pode desaparecer em escala de cinza. Um rótulo direto ou um padrão de linha fornece uma pista independente da cor."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / storytelling de dados",
+      "conceptId": "integridade-da-escala",
+      "mechanism": "distinguir-altura-grafica-de-diferenca-real",
+      "theoryRefs": [
+        "article:art-2fde27c0e00dc520#7. Ética e Integridade na Visualização de Dados Públicos"
+      ],
+      "statement": "Duas barras de valores 98 e 100 são desenhadas a partir de 97. A segunda barra fica três vezes mais alta, embora o segundo valor não seja três vezes o primeiro.",
+      "correctAnswer": "C",
+      "explanation": "As alturas visíveis são 1 e 3 porque se subtraiu a base 97. A comparação visual das alturas exagera a diferença entre os valores originais."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / storytelling de dados",
+      "conceptId": "integridade-na-selecao-de-periodo",
+      "mechanism": "reconhecer-recorte-seletivo",
+      "theoryRefs": [
+        "article:art-2fde27c0e00dc520#7. Ética e Integridade na Visualização de Dados Públicos"
+      ],
+      "statement": "Para defender que as reclamações caíram de forma contínua ao longo de um semestre, basta mostrar as duas semanas de maior queda, ainda que os demais dados mostrem aumentos.",
+      "correctAnswer": "E",
+      "explanation": "As semanas selecionadas não sustentam uma afirmação sobre o semestre inteiro. Os aumentos contradizem a alegação de queda contínua."
     }
   ]
 }

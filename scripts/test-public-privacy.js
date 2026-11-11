@@ -49,7 +49,8 @@ const checkNotes=(dir)=>!fs.existsSync(dir)||fs.readdirSync(dir,{withFileTypes:t
 assert(checkNotes(path.join(root,'3 - Materias')),'Avanços individuais na fonte pública');
 const homeHtml=fs.readFileSync(path.join(site,'index.html'),'utf8');
 const cloudflareCards='https://concurso-estudo.leoruas.workers.dev/flashcards.html';
-assert.equal(homeHtml.split('href="'+cloudflareCards+'"').length-1,2,'Menu e chamada principal devem abrir flashcards na Cloudflare');
+assert.equal(homeHtml.split('href="'+cloudflareCards+'"').length-1,0,'A home não deve exibir links para flashcards após a decisão de ocultá-los');
+assert(!homeHtml.includes('class="home-flashcards-entry" href="'+cloudflareCards+'"'),'A chamada de flashcards deve permanecer oculta da home');
 assert(!homeHtml.includes('href="flashcards.html"'),'A home não pode levar à versão local sem autenticação');
 const publicFlashcardsHtml=fs.readFileSync(path.join(site,'flashcards.html'),'utf8');
 assert(!publicFlashcardsHtml.includes('os dados de erros registrados no GitHub não são privados'),'Página não pode informar incorretamente que o histórico pessoal é público');

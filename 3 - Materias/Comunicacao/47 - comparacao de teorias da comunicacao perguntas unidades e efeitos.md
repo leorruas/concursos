@@ -5,7 +5,7 @@ title: "Comparação das teorias da comunicação: perguntas, unidades de análi
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Comparação das teorias da comunicação: perguntas, unidades de análise e efeitos
@@ -108,7 +108,7 @@ Uma transmissão por plataforma não prova, isoladamente, participação democr�
 | [[3 - Materias/Comunicacao/18 - fact checking e desinformacao#Método do fact-checking|**Fact-checking**]] | Uma alegação factual determinada resiste à verificação por evidências? | Origem, documento primário, contexto e rastreabilidade | Verificar uma frase não demonstra integridade de todo o ambiente |
 | [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|**Integridade da informação**]] | Que condições de confiança, pluralismo, acesso e governança deveriam existir? | Quadro de políticas da OCDE e princípios da ONU e da UNESCO | Quadro normativo não é lei causal de efeitos; integridade não autoriza eliminar discordância |
 
-**Critérios diferentes, números diferentes:** três **dimensões de política** na OCDE (2024); cinco **princípios globais** na ONU (2024); cinco **princípios de governança de plataformas** na UNESCO (2023). Não transpor nomes ou datas de uma estrutura para outra.
+**Critérios diferentes, números diferentes:** três **dimensões de política** na OCDE (2024); cinco **princípios globais** na ONU (2024); e, nas diretrizes da UNESCO (2023), **dois conjuntos distintos de cinco princípios**: os de conformidade das plataformas e os abrangentes de governança. Não transpor nomes, finalidades ou datas entre essas estruturas. A contagem da UNESCO precisa distinguir os conjuntos, conforme a revisão do artigo 46.
 
 ## O que significa “efeito” em cada pergunta?
 
@@ -153,6 +153,16 @@ Uma notícia recebe poucas visualizações. Isso poderia decorrer de filtro edit
 **Gabarito: Certo.** As hipóteses examinam **processos distintos**, sem excluir sua coexistência. Para estabelecer seus mecanismos, seriam necessários dados sobre filtros, agendas e condições de expressão. **Mecanismo de prova:** fronteira entre resultados observáveis e explicações causais. [[3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao#Estrutura analítica: identificar portões, agentes, critérios e resultados|Gatekeeping]]; [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica#Estrutura interna: agendas e unidades de análise|Agendas]]; [[3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao#Estrutura interna: as variáveis que precisam ser separadas|Clima de opinião]].
 
 Os três itens são **inéditos didáticos** e não uma amostra representativa de questões anteriores da Cebraspe.
+
+## Auditoria de consistência transversal: ONU, OCDE e UNESCO (11/11/2026)
+
+Este quadro comparativo foi cotejado com as delimitações dos artigos [[3 - Materias/Comunicacao/35 - agenda setting saliencia midiatica e agenda publica|35]], [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|36]], [[3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao|39]], [[3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia|45]] e [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|46]].
+
+**Correção efetiva:** a formulação anterior resumia a UNESCO a um único conjunto de cinco princípios. As [diretrizes oficiais de 2023](https://www.unesco.org/en/internet-trust/guidelines) apresentam também cinco princípios de conformidade das plataformas: diligência em direitos humanos, observância de padrões internacionais em curadoria e moderação, transparência, informações acessíveis e prestação de contas. Os **cinco princípios abrangentes de governança** tratam de transparência, freios e contrapesos, abertura dos processos, pluralidade de conhecimentos e diversidade cultural. São eixos diferentes, mesmo havendo termos próximos.
+
+**Três itens existentes da seção C/E:** item 1, **Errado**, pois sobreposição entre saliência de atributos e enquadramento não implica identidade universal; item 2, **Certo**, pois fidelidade de sinais em Shannon e recepção negociada/oposicional em Hall dizem respeito a mecanismos distintos; item 3, **Certo**, pois filtragem editorial, saliência de agenda e silêncio por isolamento podem coexistir, sem que sua causalidade tenha sido demonstrada por mera descrição. **A conferência aqui é de coerência cruzada com as notas de origem** e não substitui cotejo independente integral das obras nem autoriza contar estes três itens como novas verificações diretas de fonte primária.
+
+**Fonte normativa de referência:** [UNESCO, *Guidelines for the Governance of Digital Platforms* (2023)](https://www.unesco.org/en/internet-trust/guidelines). Os documentos de orientação internacionais são referências de políticas públicas, não automaticamente normas brasileiras de aplicação direta.
 
 ## Aplicação discursiva: escolher a teoria pelo problema institucional
 

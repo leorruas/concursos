@@ -131,6 +131,16 @@ A leitura dos órgãos legislativos integra [[3 - Materias/Direito Constituciona
 
 **Armadilhas recorrentes:** **Mesa ≠ Presidente; Comissão Geral ≠ comissão permanente; discurso ≠ voto; afastamento ≠ perda do mandato; controle interno ≠ externo; investigar ≠ condenar; publicidade ≠ livre acesso integral; regulamento da Câmara ≠ lei remuneratória.**
 
+## Certificação normativa delimitada: 11/11/2026
+
+**Escopo:** quatro intervalos literais do Regimento da Câmara no Edital nº 1/2026, cargo 1 (Divulgação Institucional), Direito Constitucional, tópicos 7.1 a 7.4, comparados com a [página oficial dos editais e retificações](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades); regras e exemplos do mapa confrontados com o [RICD consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e a [31ª edição de 2026](https://bd.camara.leg.br/bd/items/version/400).
+
+**Conferências principais:** distinção Mesa/Presidência, Comissão Geral (art. 91), responsabilidades de comunicação (arts. 21-J, 21-L e 21-N), participação remota de deputada gestante (art. 227-A), parecer prévio da Mesa (art. 263), reclamação administrativa e 72h (art. 264), ordenação de despesas pelo Diretor-Geral e remessa anual de contas ao TCU pelo Presidente (art. 265), apuração da Corregedoria (art. 268), acesso condicionado (art. 272) e autorização para comércio (art. 273). Os dispositivos antigos sobre imunidade processual foram examinados à luz da EC nº 35/2001.
+
+**Dez gabaritos C/E conferidos:** **C, E, E, E, C, C, E, C, E, C**, sem inversão demonstrada. O enunciado e comentário do item 1 foram ajustados para deixar explícito que se referem ao **edital oficial**, e não apenas à síntese interna; seu gabarito continuou **Certo**.
+
+**Limites:** certificação do **mapa didático, seus oito casos e dez itens**, com data de corte, não homologação independente da íntegra de DC23–DC27 nem da publicação no GitHub Pages. Novas retificações do edital ou alterações normativas posteriores exigem reavaliação.
+
 ## Fontes oficiais e limite de evidência
 
 - [RICD: norma atualizada da Câmara](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).

@@ -141,7 +141,7 @@ Um servidor recebe um e-mail com uma planilha anexada contendo o orçamento da c
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** Por padrão de projeto dos clientes de e-mail e serviços de webmail, as ações **Responder** e **Responder a Todos** descartam os anexos originais, reproduzindo apenas o histórico de texto no corpo do e-mail. Para que os anexos originais sejam mantidos e transmitidos adiante, o usuário deve acionar a opção **Encaminhar** (*Forward*).
+**Comentário:** Na configuração usual dos clientes de e-mail, **Responder** e **Responder a Todos** não incluem os anexos originais automaticamente. **Encaminhar** costuma incluí-los, mas também permite remoção ou alterações pelo usuário, conforme aplicativo e política. O enunciado diz “todos ... automaticamente”, o que é falso.
 
 ---
 
@@ -163,7 +163,7 @@ Um servidor recebe um e-mail com uma planilha anexada contendo o orçamento da c
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** Ao acionar "Responder a Todos", o cliente de e-mail endereça a réplica ao remetente (`De`) e a todos os participantes visíveis (`Para` e `Cc`). Com isso, a resposta do usuário oculto alcança todos eles, revelando publicamente que ele tivera acesso à mensagem primária.
+**Comentário:** Em clientes de e-mail usuais, **Responder a Todos** a partir de uma mensagem recebida via Cco inclui o remetente e os destinatários visíveis em `Para` e `Cc`, podendo revelar que a pessoa originalmente oculta recebeu a mensagem. O comportamento exato pode depender de listas, aliases e configuração do cliente; a questão descreve o caso típico.
 
 ---
 
@@ -174,7 +174,7 @@ Um servidor recebe um e-mail com uma planilha anexada contendo o orçamento da c
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** Uma das grandes vantagens do cliente de e-mail local em relação ao webmail tradicional é a capacidade de **trabalho offline**. O usuário pode consultar mensagens e anexos já baixados anteriormente e pode redigir novas mensagens (que ficam salvas na *Caixa de Saída* e são transmitidas automaticamente assim que a conexão com a internet for restabelecida).
+**Comentário:** Clientes como Outlook podem permitir consultar mensagens **previamente sincronizadas** e redigir rascunhos offline. A efetiva transmissão depende de reconexão e das configurações de envio; o nome da pasta temporária pode variar. A expressão “impossibilita totalmente” é falsa.
 
 ---
 
@@ -185,9 +185,7 @@ Um servidor recebe um e-mail com uma planilha anexada contendo o orçamento da c
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** Confusão clássica de segurança da informação:
-- **Assinatura Digital**: Garante **autenticidade**, **integridade** e **não repúdio** (mas não oculta o texto, que pode ser lido por qualquer um que intercepte a mensagem);
-- **Criptografia**: É o recurso que garante a **confidencialidade** (impedindo a leitura por terceiros não autorizados).
+**Comentário:** A **assinatura digital** permite verificar autoria vinculada à chave e integridade, com efeitos de não repúdio que dependem do contexto técnico e jurídico; ela **não cifra o conteúdo**. Confidencialidade exige **criptografia apropriada**, como proteção de transporte ou de ponta a ponta, sem garantia absoluta contra leitura por quem detenha as chaves ou tenha acesso autorizado. Portanto, o gabarito ERRADO permanece.
 
 ---
 
@@ -198,7 +196,7 @@ Um servidor recebe um e-mail com uma planilha anexada contendo o orçamento da c
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** O campo `Cco` limita a exposição dos endereços entre destinatários e reduz riscos associados a respostas coletivas. É uma boa medida de minimização, mas **não garante, sozinho, conformidade com a LGPD**.
+**Comentário:** Usar `Cco` evita exibir a lista de endereços aos destinatários de `Para` e `Cc`, reduzindo exposição de dados pessoais e risco de respostas coletivas. O recurso é uma **medida técnica de minimização** que pode apoiar a proteção de dados, mas não substitui finalidade legítima, base legal e demais exigências pertinentes da LGPD.
 
 ---
 
@@ -214,3 +212,5 @@ Um servidor recebe um e-mail com uma planilha anexada contendo o orçamento da c
 | **Encaminhar** | Novos destinatários digitados | **Com anexo original** | Repasse integral de informações a terceiros |
 
 > **Revisão (11/11/2026):** corrigidas generalizações sobre armazenamento local no webmail e sobre a incidência automática da LGPD (TI-046 e TI-047). Os comportamentos de clientes e políticas de organizações podem variar; os itens C/E permanecem inéditos.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** seis questões examinadas, gabaritos mantidos **E, C, C, E, E, C**, com explicações condicionadas ao cliente e com precisão sobre assinatura digital e proteção de dados. Sem evidência de inversão obrigatória de gabarito nessa leitura dirigida.

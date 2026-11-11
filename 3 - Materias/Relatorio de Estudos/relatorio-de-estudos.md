@@ -15,17 +15,17 @@ Esta é a **página própria de resultados e recomendações de estudo** da Câm
 
 ## Placar
 
-**Aguardando a primeira bateria efetivamente registrada da Câmara.** O contexto privado de 11/11/2026 ainda não contém sessões ou totais desse concurso. A publicação desta página não cria respostas, notas ou desempenho.
+**O placar não é carregado automaticamente nesta versão pública.** A consulta dos registros pessoais depende de autenticação e de uma integração ainda pendente com o cofre privado. Esta página não contém respostas, notas nem métricas individuais.
 
 O placar individual deverá apresentar, por bateria e por matéria: número de itens válidos, acertos, erros, brancos (simulado), acertos inseguros, pontuação líquida Cebraspe (+1/-1/0), distinção entre P1 e P2 e histórico de evolução em datas diferentes.
 
 ## Diagnóstico e assuntos a revisar
 
-**Aguardando evidências de questões respondidas.** Depois de cada bateria, o diagnóstico deve distinguir lacuna de conhecimento, confusão conceitual, erro de interpretação e distração, com indicação da questão ou conceito que sustenta a recomendação. Priorizar erros seguros, recorrências e acertos inseguros.
+**Diagnóstico privado ainda não conectado à página.** Depois de cada bateria, o diagnóstico deve distinguir lacuna de conhecimento, confusão conceitual, erro de interpretação e distração, com indicação da questão ou conceito que sustenta a recomendação. Priorizar erros seguros, recorrências e acertos inseguros.
 
 ## Leituras prioritárias
 
-**Aguardando questões corrigidas.** A página deverá apresentar uma tabela de três a cinco artigos prioritários (ou menos, quando cabível), com **links diretos verificados para os artigos ou subtítulos públicos**, identificação das questões relacionadas e motivo de leitura. Não preencher a lista com recomendações genéricas ou com dados da CGU.
+**Recomendações privadas ainda não conectadas à página.** A página deverá apresentar uma tabela de três a cinco artigos prioritários (ou menos, quando cabível), com **links diretos verificados para os artigos ou subtítulos públicos**, identificação das questões relacionadas e motivo de leitura. Não preencher a lista com recomendações genéricas ou com dados da CGU.
 
 ## Situação da integração
 

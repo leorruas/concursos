@@ -5,7 +5,7 @@ title: "Estudos culturais e Stuart Hall: codificação, decodificação e recep�
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Estudos culturais e Stuart Hall: codificação, decodificação e recepção
@@ -165,11 +165,23 @@ A sequência altera um elemento de cada vez para mostrar que a classificação d
 
 **Gabarito: Errado.** O item inverte a tese central: os momentos estão articulados, mas não são necessariamente simétricos, e os códigos da recepção importam.
 
+## Auditoria dirigida da versão de 1980: três posições e código profissional (11/11/2026)
+
+O ensaio [*Encoding/Decoding*, edição de 1980, reprodução acadêmica](https://spkb.blot.im/_readings/EncodingDecoding_HALL_1980.pdf), páginas impressas **171–173**, identifica **três posições hipotéticas de decodificação**: dominante-hegemônica, negociada e oposicional. Hall afirma que essas posições **necessitam ser testadas e refinadas empiricamente**. O **código profissional** é discutido **dentro da apresentação da posição dominante-hegemônica**, com relativa autonomia técnico-profissional e inserção na hegemonia, não apresentado ali como quarta posição hipotética de decodificação. A nota mantém separada a genealogia de 1973, cujo cotejo textual integral continua pendente.
+
+| Item | Gabarito | Evidência da versão 1980 |
+| --- | --- | --- |
+| 1 | **Certo** | A posição negociada combina aceitação de definições gerais dominantes com exceções ou aplicações locais. |
+| 2 | **Errado** | A posição oposicional pressupõe compreender o sentido literal e conotativo preferencial e reinterpretá-lo a partir de outro quadro de referência; não é erro de vocabulário. |
+| 3 | **Errado** | Hall rejeita a equivalência necessária entre codificação e decodificação e ressalta assimetrias dos códigos de recepção. |
+
+**Resultado:** três gabaritos confirmados com a fonte de 1980, nenhuma inversão. **Ressalva importante:** as três posições são hipóteses analíticas propostas pelo autor, não uma classificação automática de pessoas; atribuí-las a um público real exige pesquisa. A versão de 1973 permanece objeto bibliográfico distinto, e a relação exata do código profissional entre as versões não deve ser achatada em uma lista única.
+
 ## Aplicação discursiva e relações
 
 Em uma análise de campanha de divulgação institucional, identificar primeiro **a leitura preferencial** inscrita na peça, depois definir como investigar **leituras reais** de públicos diferentes, por entrevistas, grupos, análise de comentários e outras estratégias pertinentes. Separar objeções fundamentadas de problemas de compreensão literal e não equiparar concordância declarada a participação efetiva.
 
-Relações com [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|framing]], [[3 - Materias/Comunicacao/2 - comunicacao publica|comunicação pública]], [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|pesquisa administrativa e crítica]] e [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|Shannon]]. Para projetos de inclusão digital, o modelo permite pensar a distância entre intenção institucional, mediações técnicas e experiências concretas, sem supor que uma mensagem isolada explique todos os resultados.
+Relações com [[3 - Materias/Comunicacao/36 - framing enquadramento e interpretacao da noticia|framing]], [[3 - Materias/Comunicacao/02 - comunicacao publica|comunicação pública]], [[3 - Materias/Comunicacao/33 - pesquisa administrativa e mass communication research|pesquisa administrativa e crítica]] e [[3 - Materias/Comunicacao/29 - shannon e weaver transmissao informacao e ruido|Shannon]]. Para projetos de inclusão digital, o modelo permite pensar a distância entre intenção institucional, mediações técnicas e experiências concretas, sem supor que uma mensagem isolada explique todos os resultados.
 
 ## Heurísticas
 

@@ -95,3 +95,47 @@ Arquivos:
 | DC17 | Sanção/veto/promulgação/publicação; prazos e dois quóruns | Ainda sem cotejo externo sistemático da CF art. 66 | Art. 66 integral, Regimento Comum e ADPFs |
 
 **Próxima ação após este bloco:** cotejar CF art. 66 e jurisprudência do DC17; concluir conferências ainda pendentes de DC11–16; depois avançar para DC18–22. A auditoria permanece aberta, sem edição de artigos.
+
+
+## Bloco 3: veto, procedimentos especiais, lei delegada, medida provisória e atos sem sanção (11/11/2026)
+
+### Método, arquivos e fontes
+
+Foram recuperados integralmente e examinados estruturalmente, com leitura de passagens jurídicas e de exemplos centrais, os seguintes artigos:
+- `DC 18: procedimentos abreviado e sumario.md` (`art-68b5cf209e4d731a`, 28.561 caracteres; CAM-PL-009).
+- `DC 19: procedimentos sumarissimo especial e concentrado.md` (`art-c8e43a75d9061bf2`, 31.736 caracteres; CAM-PL-010).
+- `DC 20: lei delegada e delegacao legislativa.md` (`art-6bc728a14d0e49f3`, 15.871 caracteres; CAM-PL-012).
+- `DC 21: medida provisoria pressupostos prazos e efeitos.md` (`art-7e91b362a40c58d2`, 17.506 caracteres; CAM-PL-013).
+- `DC 22: projetos de decreto legislativo e resolucao.md` (`art-a3f905cb76e1428d`, 21.973 caracteres; CAM-PL-014).
+
+Também foi realizado cotejo independente da **estrutura central do DC 17**, `sancao veto promulgacao e publicacao.md`, com o [art. 66 da Constituição consolidada no portal da Câmara](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), §§ 1º a 7º. O portal oficial foi acessível neste bloco. Foram cotejados ainda o [art. 64 da Constituição](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), o [art. 68](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), o [art. 155 do RICD vigente](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e a [explicação oficial do Congresso sobre medidas provisórias](https://www.congressonacional.leg.br/materias/medidas-provisorias/entenda-a-tramitacao-da-medida-provisoria).
+
+**Limitação:** o bloco consiste em inspeção estrutural e cotejo factual seletivo de proposições nucleares, não releitura crítica parágrafo a parágrafo, verificação individual de todos os itens inéditos, fontes doutrinárias e precedentes. As cinco notas permanecem **parcialmente verificadas**.
+
+### Matriz provisória, artigo por artigo
+
+| Arquivo | Objeto e distinções presentes | Cotejo independente e observação | Estado |
+| --- | --- | --- | --- |
+| DC17 (retomado) | Sanção, veto total/parcial, comunicação, rejeição e promulgação subsidiária | CF art. 66 corrobora **15 dias úteis para veto**, **48 horas para comunicação**, veto parcial por unidade integral de artigo/parágrafo/inciso/alínea, **30 dias para apreciação do veto**, maioria absoluta de deputados e senadores, regras dos §§ 6º e 7º. ADPF 1.078/893 e aplicação à hipótese concreta pendentes | Parcial, com núcleo constitucional cotejado |
+| DC18 | Abreviado (apreciação conclusiva) × sumário (urgência presidencial) × prioridade regimental | CF art. 64 §§1º–4º confirma urgência solicitada pelo Presidente, janelas sucessivas de **45 dias por Casa**, prazo de **10 dias** para emendas do Senado, suspensão no recesso e exclusão de projetos de código. Verificar exceções de apreciação conclusiva | Parcial |
+| DC19 | Sumaríssimo do art.155 × ritos especiais (PEC, MP, lei delegada) × procedimentos conjuntos | RICD art.155 exige requerimento da maioria absoluta dos membros ou Líderes representativos **e aprovação por maioria absoluta dos deputados**, com hipótese de imediata Ordem do Dia. Os nomes doutrinários não são categorias literais do art.151 | Parcial |
+| DC20 | Resolução delegante × lei delegada; vedação de matérias; retorno opcional para votação única sem emendas | CF art.68 caput e §§1º–3º corrobora estrutura da lei delegada e vedações (lei complementar, competência exclusiva/privativa, direitos e orçamento etc.). Conferência RCCN arts.116–127 pendente | Parcial |
+| DC21 | MP eficácia inicial × prazo × comissão mista × votação pelas Casas × conversão/rejeição | Página oficial do Congresso confirma eficácia imediata, **60 dias + prorrogação por mais 60**, urgência após **45 dias** e comissão mista seguida de Câmara e Senado separadamente. Ainda faltam revisão integral art.62, Res.1/2002 e todos os itens | Parcial |
+| DC22 | Projeto de decreto legislativo × projeto de resolução × lei sancionável; órgãos competentes | Passagens selecionadas examinadas; cotejo individual de CF arts.49,51,52 e RICD arts.108–109 e exceções ainda pendente | Parcial |
+
+### Achados adicionais
+
+- **A-PL-010: importante, precisão da matriz editorial.** As classificações *abreviado*, *sumário*, *sumaríssimo*, *especial* e *concentrado* pertencem a exposição didático-doutrinária com recortes diversos; os três **regimes regimentais** do art.151 do RICD são outra pergunta. As notas 18 e 19 explicitam essa separação. Preservá-la ao avaliar propostas de fusão, evitando equiparar terminologia doutrinária a literalidade regimental.
+- **A-PL-011: importante, fronteira das Casas.** A nota DC21 explica que comissão **mista** examina a medida provisória, mas a Câmara e o Senado deliberam **separadamente**, em vez de sessão conjunta. Confirmado pela orientação oficial do Congresso. Um mapa unificado de procedimentos precisa manter essa distinção.
+- **A-PL-012: prioridade de validação normativa.** O núcleo do art.66 do DC17 é compatível com a Constituição, mas o artigo invoca jurisprudência sobre tempestividade de comunicação do veto e efeitos de atos administrativos. Não atribuir a precedentes alcance ainda não lido; examinar os acórdãos/teses integralmente antes do parecer final.
+- **A-PL-013: possível duplicidade funcional a mapear.** DC18/19 introduzem procedimentos que DC20/21/22 desenvolvem por espécie. Essa progressão pode ser intencional e útil como mapa de orientação, mas também pode gerar repetição e inconsistência durante futuras edições. Auditar com critério: texto de visão geral deve remeter ao tratamento aprofundado, com nomenclatura e limites consistentes.
+- **A-PL-014: ressalva metodológica.** A confirmação de enunciados centrais em normas primárias **não comprova** a correção de cada gabarito, a atualização da jurisprudência ou a cobertura completa do edital. Nenhum dos cinco artigos foi aprovado integralmente.
+
+### Próximo bloco
+
+1. Completar conferência de itens e referências de DC11–22, em especial jurisprudência em DC12/17 e procedimentos do RCCN/Resolução 1/2002 em DC20/21.
+2. Examinar DC23–28: Regimento da Câmara e faixas de artigos cobradas nos blocos básico/específico.
+3. Em seguida DC29–34: Regimento Comum, resoluções e Código de Ética; depois DC35–37, DC06/10 e vínculos à trilha Orçamento.
+4. Não avançar para edição dos artigos; todos os resultados continuam provisórios até que a matriz integral e o exame das questões estejam completos.
+
+**Estado após o bloco 3:** DC11–22 (12 notas) localizadas e examinadas em diferentes graus, sem validação integral; DC17 recebeu cotejo constitucional adicional. **Nenhum erro normativo crítico confirmado neste bloco e nenhum artigo alterado.**

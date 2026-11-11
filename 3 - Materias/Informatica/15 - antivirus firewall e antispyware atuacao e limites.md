@@ -165,7 +165,7 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
 > A quarentena de um software antivírus consiste no envio imediato e definitivo de arquivos infectados para a lixeira do sistema operacional, inviabilizando qualquer possibilidade de recuperação posterior dos dados pelo usuário caso se constate que o alerta se tratava de um falso positivo.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: A quarentena **não** apaga o arquivo para a lixeira. Trata-se de um contêiner criptografado e seguro, isolado do sistema operacional, onde o arquivo é mantido sem privilégios de execução. Se for comprovado que o arquivo era legítimo (falso positivo), o administrador pode restaurá-lo a qualquer momento com total segurança.
+- **Fundamentação**: A **quarentena** isola ou restringe o acesso ao arquivo suspeito, de acordo com o produto, e não equivale a apagá-lo definitivamente na lixeira. Ela pode permitir restauração, mas **não exige contêiner criptografado universalmente** nem garante recuperação ou restauração sem risco em qualquer momento. O gabarito ERRADO continua.
 
 ---
 
@@ -181,7 +181,7 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
 > O *antispyware* é a ferramenta de segurança projetada primordialmente para monitorar as portas de comunicação TCP e UDP de um servidor web corporativo, com o intuito de neutralizar ataques distribuídos de negação de serviço (DDoS).
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: Erro grosseiro de atribuição. O controle de portas e a mitigação preliminar de conexões de rede é competência do **Firewall** (ou sistemas de prevenção de intrusão - IPS). O **Antispyware** destina-se a localizar e neutralizar programas espiões (*keyloggers*, *screenloggers*, *adwares*) que monitoram indevidamente as ações do usuário no computador.
+- **Fundamentação**: O **antispyware** procura identificar e mitigar software espião em dispositivos. Controles de rede, *firewalls*, IPS e serviços específicos de mitigação DDoS cumprem funções distintas e complementares. Um firewall simples, isoladamente, **não neutraliza necessariamente um ataque DDoS distribuído**. O item está ERRADO porque atribui ao antispyware uma função típica da proteção de rede.
 
 ---
 
@@ -189,7 +189,7 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
 > As soluções de segurança que operam exclusivamente com detecção baseada em assinatura dispensam a atualização periódica de suas bases de dados, pois são arquitetadas para derivar algoritmicamente a estrutura de novos códigos maliciosos a partir do histórico de navegação do usuário.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: A detecção por assinatura é estritamente dependente de **atualizações contínuas e tempestivas**. Sem o arquivo de vacinas atualizado contendo os novos identificadores fornecidos pelo laboratório de segurança, o antivírus por assinatura fica completamente cego para qualquer ameaça que tenha surgido após sua última sincronização.
+- **Fundamentação**: A detecção **exclusivamente por assinaturas conhecidas** depende de uma base de identificadores atualizada para reconhecer novas amostras. Sem atualização, continua capaz de detectar ameaças **já cobertas**, mas pode falhar diante de variantes inéditas. A alegação de que atualizações são dispensáveis é falsa; não significa cegueira completa contra toda ameaça recente.
 
 ---
 
@@ -217,3 +217,5 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
 - **Documentação Técnica Microsoft Learn**: Arquitetura do Microsoft Defender Antivirus e Firewall do Windows com Segurança Avançada.
 
 > **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** questões 1–6 mantêm **E, C, E, C, E, E**. Atualizados os comentários sobre quarentena, detecção por assinatura e proteção contra DDoS, retirando garantias absolutas.

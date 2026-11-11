@@ -227,3 +227,21 @@ Antigo *Google Data Studio*, o **Looker Studio** é a ferramenta nativa de nuvem
 > **Correção de gabarito (TI-020, 11/11/2026):** o Item 3 foi corrigido de CERTO para **ERRADO** por causa da exclusividade indevida atribuída a `CALCULATE`. Cotejo: [Microsoft Learn, CALCULATE](https://learn.microsoft.com/pt-br/dax/calculate-function-dax), [CALCULATETABLE](https://learn.microsoft.com/pt-br/dax/calculatetable-function-dax); para `FIXED`, consultar [ordem de operações do Tableau](https://help.tableau.com/current/pro/desktop/pt-br/calculations_calculatedfields_lod_filters.htm). Mantidos identificadores e enunciados para rastreabilidade.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** seis itens examinados. **Item 1 não homologado** por omitir modo de armazenamento e generalizar materialização de colunas; versão condicionada ao modo Import fornecida. Itens 2–6 mantêm **E, E, E, E, C**, incluindo a correção anterior da questão DAX `CALCULATE`/`CALCULATETABLE`. A documentação Microsoft diferencia [colunas calculadas e medidas](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-calculated-columns) e [modos de armazenamento](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-storage-mode).
+
+---
+
+## Questão substituta S29-1: medidas DAX e colunas calculadas
+
+> Em um modelo do Power BI configurado no **modo Import**, os valores de uma coluna calculada DAX são processados e mantidos no modelo durante a atualização, enquanto uma medida é avaliada conforme o contexto da consulta e dos filtros aplicados no relatório.
+
+**Gabarito: CERTO (inédita, substitui a Questão 1 bloqueada).** A distinção, nesse modo, não é simplesmente “DAX versus não DAX”, pois ambos utilizam DAX; o aspecto central é **valor armazenado por linha** versus **resultado calculado em contexto**.
+
+**Caso progressivo:** em uma tabela com preço e quantidade, `ValorLinha = Tabela[Preço] * Tabela[Quantidade]` pode ser coluna calculada no modo Import. Já `Receita = SUMX(Tabela, Tabela[Preço] * Tabela[Quantidade])` é uma medida agregada, cujo resultado responde aos filtros de produto ou período. Esta segunda expressão não depende de a primeira coluna existir.
+
+**Fronteiras:** modelos **DirectQuery**, compostos e certas restrições de uso têm comportamentos diferentes; não tratar a materialização de qualquer expressão DAX como universal. Durante a consulta, medidas também consomem recursos computacionais e memória transitória.
+
+**Variação C/E:** “No Power BI, o comando `CALCULATE` é a única função DAX capaz de alterar o contexto de filtro.” **ERRADO**: `CALCULATETABLE` também realiza avaliação em contexto de filtro modificado; o contexto ainda pode ser afetado por outras construções conforme o caso.
+
+**Fontes primárias:** [Microsoft Learn: colunas calculadas](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-calculated-columns), [Microsoft Learn: medidas](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-measures) e [Microsoft Learn: modos de armazenamento](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-storage-mode).
+
+**Rastreabilidade:** Questão 1 original permanece **NÃO HOMOLOGADA**.

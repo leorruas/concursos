@@ -161,7 +161,7 @@ Um desenvolvedor compartilha o link `https://www.camara.leg.br/noticias#votacao-
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** A navegação anônima limita-se a não salvar localmente no computador o histórico de navegação, cookies e dados de formulários. O tráfego de rede continua sendo transmitido pelos roteadores e servidores, permanecendo plenamente visível e auditável pelos administradores da rede local e pelo provedor de internet (ISP).
+**Comentário:** A navegação privativa reduz a persistência de histórico e dados de sessão **após encerrar a sessão privativa**, mas não anonimiza o usuário perante sites, administradores ou provedores. Com HTTPS, terceiros na rede normalmente **não veem o conteúdo integral das páginas**, embora possam observar metadados de conexão e certos destinos, dependendo de DNS, TLS e políticas da rede. A afirmação de privacidade integral é falsa.
 
 ---
 
@@ -172,7 +172,7 @@ Um desenvolvedor compartilha o link `https://www.camara.leg.br/noticias#votacao-
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** O operador `site:` limita a busca ao domínio especificado e o operador `filetype:` filtra a extensão do arquivo desejado, sem espaços entre o operador e o argumento.
+**Comentário:** `site:` restringe a busca ao domínio indicado e `filetype:pdf` busca resultados identificados como PDF. A interpretação é adequada para a **sintaxe de busca do Google**, mas o índice pode omitir arquivos existentes e os filtros não garantem que **todos** os resultados relevantes sejam recuperados. O enunciado descreve restrição de pesquisa, não exaustividade do acervo.
 
 ---
 
@@ -194,7 +194,7 @@ Um desenvolvedor compartilha o link `https://www.camara.leg.br/noticias#votacao-
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** Na especificação técnica de URIs/URLs, a *query string* inicia-se com o caractere `?` e estrutura pares de chave-valor (ex.: `?termo=noticia&pagina=2`), delimitados entre si pelo caractere `&`.
+**Comentário:** A *query* começa após o primeiro `?` da URL e vai até o fragmento `#`, se houver. É **frequentemente** usada para codificar pares chave-valor separados por `&`, mas a RFC 3986 não impõe esse formato para toda consulta. A query pode ser transmitida ao servidor; os parâmetros também podem ser tratados pelo aplicativo cliente.
 
 ---
 
@@ -204,8 +204,8 @@ Um desenvolvedor compartilha o link `https://www.camara.leg.br/noticias#votacao-
 *( ) Certo*
 *( ) Errado*
 
-**Gabarito: Certo.**
-**Comentário:** Os cookies primários (*first-party cookies*) originam-se do próprio domínio visitado e desempenham papel vital para a experiência do usuário, mantendo autenticações e preferências ativas entre diferentes páginas do mesmo portal.
+**Gabarito: NÃO HOMOLOGADO (descrição técnica excessivamente restritiva).**
+**Comentário:** Cookies primários são associados ao contexto do site visitado e **podem** manter sessão, autenticação e preferências, mas também podem ser usados em outras finalidades. A expressão **“são arquivos de texto gravados no computador pelo próprio domínio”** simplifica a implementação: navegadores podem armazená-los em bancos de dados e aplicar regras de domínio e contexto de site. **Versão de treino:** “Cookies de primeira parte são associados ao site visitado e podem armazenar informações para manutenção de sessão e preferências.” **Gabarito reformulado: CERTO.**
 
 ---
 
@@ -234,3 +234,5 @@ Um desenvolvedor compartilha o link `https://www.camara.leg.br/noticias#votacao-
 | `*` | Curinga para palavras | `"regimento * da câmara"` | — |
 
 > **Revisão (11/11/2026):** refinado o conceito de fragmento de URL, conforme TI-045. Referência: [RFC 3986, seção 3.5](https://www.rfc-editor.org/rfc/rfc3986#section-3.5). Os operadores de busca dependem de mecanismos e versões, e sua sintaxe deve ser conferida no serviço utilizado.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** itens 1–4 e 6 mantêm **E, C, E, C, E**; **item 5 não homologado** pela definição material universal de cookie e finalidade restritiva. Comentários sobre privacidade e sintaxe de query atualizados. Referências: [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986), [MDN, HTTP cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies).

@@ -873,3 +873,61 @@ Commit `196563f7dd9ba30853688b7b68e9c2e4fa486a8a`: **NC-PL-020 corrigida no text
 **Fontes primárias:** [STF, art. 71, MS 23.550 e MS 24.510](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=71&abrirBase=CF) e [Informativo STF 922](https://www.stf.jus.br/arquivo/informativo/documento/informativo922.htm). O gabarito da Q5 que inverte competência permanece ERRADO e o núcleo continua correto; revisão exaustiva dos demais elementos de DC37 ainda pendente.
 
 **Andamento de edição:** 5/29 artigos alterados nesta fase (DC13, DC34, DC35, DC36, DC37): **17,2% de arquivos alcançados**. Certificação integral: 0/29. Esta porcentagem não mede fração de defeitos já resolvidos nem avanço integral de validação.
+
+
+## Bloco 20: DC16, discussão, votação e quóruns (11/11/2026)
+
+**Fonte auditada:** `3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md` (209 linhas). Recuperadas e lidas as **nove questões C/E**, as definições e comparações do corpo, os exemplos de maioria e o tratamento de votação simbólica/nominal/secreta. Confronto seletivo com [RICD consolidado arts. 177–187](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), [PDF oficial, 31ª edição 2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados), e CF arts. 47, 60 §2º e 69. Fonte oficial de texto longo retornou HTTP 429 para recuperação integral em uma etapa: por isso **não declarar exaustão de todas as remissões dos artigos**.
+
+### Matriz de questões DC16
+
+| Item | Gabarito | Resultado de cotejo dirigido |
+| --- | --- | --- |
+| 1, lei ordinária pode ser aprovada com menos de 257 votos favoráveis | CERTO | CF art.47: maioria dos votos com maioria absoluta presente |
+| 2, lei complementar aprovada com 200 votos em 320 presentes | ERRADO | CF art.69: exige maioria absoluta dos membros, 257 deputados na composição de referência |
+| 3, abstenção nominal conta para presença, sem integrar sim/não | CERTO | RICD art.183 §2º, ressalvadas hipóteses e regras específicas |
+| 4, votação nominal em quórum especial; simbólica usual | CERTO | RICD arts. 184–186 |
+| 5, verificação simbólica exige 10% e sempre quebra de interstício | ERRADO | RICD art.185 §3º: **6%**; §4º: regra específica para nova verificação em menos de uma hora |
+| 6, 5% para encerramento dispensam 12 oradores | ERRADO | RICD art.178 §2º: exigências cumulativas para essa modalidade de encerramento |
+| 7, PEC com 308 no primeiro turno não concluiu processo | CERTO | CF art.60 §2º: dois turnos e três quintos em cada Casa |
+| 8, simbólica e nominal seriam modalidades secretas | ERRADO | RICD art.184 e formas de publicidade |
+| 9, empate ostensivo resolvido pelo Presidente; secreto com votações sucessivas | CERTO | RICD art.180 §§3º–4º: regra literal e exceção para eleições |
+
+**A-PL-074, positivo:** o artigo ensina corretamente três planos separados: **presença**, **aprovação** e **modalidade**. O caso de 320 presentes, 145 votos sim, 130 não e 45 abstenções é aritmeticamente coerente para a regra geral de deliberação, mas não é suficiente para leis complementares ou PECs.
+
+**A-PL-075, positivo:** a regra de verificação simbólica de **seis centésimos dos membros** do art.185 §3º aparece corretamente, sem confundi-la com o um décimo nas condições especiais do §4º. Deixar indicado, na futura certificação, se houve alterações regimentalmente supervenientes à edição consultada no período.
+
+**A-PL-076, ressalva de aplicação:** a distinção do art.180 entre empate ostensivo e empate em escrutínio secreto é **literalmente coerente**; entretanto, não se deve extrapolar a regra de escrutínio secreto para votações cuja publicidade é constitucionalmente obrigatória (ex.: perda de mandato, veto, após EC76/2013). A regra especial para eleições também deve ser mantida. **Não caracteriza inversão da questão 9**.
+
+**Resultado:** 9/9 gabaritos compatíveis com o núcleo normativo checado, sem inversão demonstrada. **Pendente:** verificar exaustivamente art.177 (adiamento), art.178 (interstício e encerramento), art.185 §§3º–4º (nova verificação em menos de uma hora), art.192 (encaminhamento), além de decisões interpretativas posteriores sobre votação e procedimento. Não declarar certificação integral do artigo.
+
+## Bloco 21: DC17, sanção, veto, promulgação e publicação (11/11/2026)
+
+**Fonte auditada:** `3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md` (241 linhas); lidos **dez itens C/E**, descrições de prazos, espécies, veto parcial, controle congressional, promulgação, vigência e casos. Cotejo selecionado com [CF consolidada, art.66](https://www4.planalto.gov.br/legislacao/legis-federal/constituicao), [STF, Constituição e Supremo, art.66, ADPF 1.078 e 893](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=66&abrirBase=CF), e [RCCN, arts.104–106-D](https://legis.senado.leg.br/norma/561098/publicacao/36852069).
+
+### Matriz de dez itens DC17
+
+| Item | Gabarito | Cotejo dirigido |
+| --- | --- | --- |
+| 1, silêncio presidencial por 15 dias úteis importa sanção tácita | CERTO | CF art.66 §§1º e 3º; não confundir sanção, promulgação e publicação |
+| 2, veto parcial de palavra isolada | ERRADO | Art.66 §2º exige texto integral de artigo/parágrafo/inciso/alínea |
+| 3, derrubada do veto por maioria absoluta separada, voto aberto | CERTO | Art.66 §4º e EC76/2013 |
+| 4, 15 dias corridos e silêncio equivalem a rejeição de projeto | ERRADO | Art.66 §§1º e 3º |
+| 5, sucessão de promulgação após sanção tácita ou veto derrubado | CERTO | Art.66 §7º: Presidência da República → Presidência do Senado → Vice-Presidência do Senado, com prazos próprios |
+| 6, publicação obriga vigência imediata | ERRADO | LINDB art.1º; regra supletiva de 45 dias, salvo disciplina específica |
+| 7, motivação do veto e publicação não definem isoladamente tempestividade | CERTO | STF **ADPF 1.078**, julgamento 01/07/2024: comunicação ao Legislativo, não publicação |
+| 8, veto sem votação em 30 dias é automaticamente mantido | ERRADO | CF art.66 §6º: inclusão na ordem do dia da sessão conjunta imediata e sobrestamento pertinente |
+| 9, PEC segue para sanção e veto | ERRADO | CF art.60 §3º: promulgação pelas Mesas, sem sanção |
+| 10, parte não vetada pode ser promulgada/publicada antes do exame da parcela vetada | CERTO | Efeito jurídico da sanção parcial e apreciação posterior do veto; atenção à integralidade dos dispositivos e vigência |
+
+**A-PL-077, positivo:** correta discriminação dos marcos: **15 dias úteis** para veto, **48 horas** de comunicação de motivos ao Presidente do Senado, **30 dias** para apreciação congressual e **48 horas** de promulgação subsidiária nos casos constitucionais. Não confundir o marco inicial da comunicação do veto com publicação; ADPF 1.078 o confirma.
+
+**A-PL-078, positivo:** corretamente exclui PEC e decretos legislativos/resoluções do procedimento de sanção presidencial de leis e observa votação aberta do veto após EC76/2013; as duas Casas votam separadamente na sessão conjunta.
+
+**A-PL-079, cautela de referência:** textos históricos e páginas de legislação **com data de versão anterior à EC76/2013** podem exibir o trecho “em escrutínio secreto” do art.66 §4º. Fonte primária de 2026 e compilação constitucional atual devem prevalecer. Não corrigir retroativamente citação histórica sem explicar a alteração.
+
+**Resultado:** 10/10 itens com gabaritos coerentes com as fontes centrais consultadas; nenhuma inversão provada. **Pendente:** checar em detalhe RCCN arts.104–106-D, contagem e suspensão de prazo congressual, casos de veto parcial em repercussões posteriores, formalidades de publicação e LINDB; isso impede certificar exaustivamente o artigo.
+
+### Indicador agregado após blocos 20–21
+
+**Inventário:** 29/29 arquivos. **Questões C/E examinadas:** **109**, somando DC11:13, DC12:14, DC13:15, DC14:16, DC15:8, DC16:9, DC17:10, DC34:6, DC35:6, DC36:6, DC37:6. Assim **11/29 arquivos** tiveram as baterias de questões examinadas em grau dirigido; **18 arquivos** ainda carecem de conferência equivalente. **0/29 certificados integralmente** em texto, normas, jurisprudência, questões, fontes e edital. **Estimativa provisória:** cerca de **42% do esforço de Fase 1 realizado, 58% pendente**, sem pretensão de cálculo por caracteres ou dispositivo. Próximos artigos: **DC18–22** (procedimentos especiais, prioridade, urgência, leis delegadas, MPs, PDL/resoluções); retomar os bases DC06/DC10 e DC23–33. Nenhum artigo teórico foi editado; permanecemos na Fase 1.

@@ -225,3 +225,27 @@ Em planos de contingência do setor público, dois parâmetros definem os limite
 > **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** questões 1 e 4 **não homologadas** por universalizarem manipulação do *archive bit* sem definir implementação. Questões 2, 3, 5 e 6 mantêm **E, E, C, E**. As regras de backup completo/incremental/diferencial devem distinguir conceito de mecanismo operacional.
+
+---
+
+## Questões substitutas S13-1 e S13-4: mecanismos do backup
+
+O **tipo de cópia** responde à pergunta “desde quando as mudanças são selecionadas?”. O **mecanismo de detecção** responde “como o software descobre o que mudou?”. Um programa pode usar atributo de arquivo, metadados, instantâneos, diário de mudanças ou blocos alterados. A definição do tipo de backup não obriga o uso de um atributo específico.
+
+### Substituta S13-1
+
+> Em uma rotina tradicional de backup que utiliza o atributo de arquivamento (`archive bit`) para identificar arquivos modificados, o backup incremental pode selecionar os arquivos marcados e, após copiá-los com sucesso, limpar a marca para que a execução seguinte identifique novas alterações.
+
+**Gabarito: CERTO (inédita).** A premissa especifica uma implementação clássica baseada no atributo. Incremental significa **alterações desde o backup anterior pertinente**; limpar o atributo é característica de determinado procedimento, não regra geral de todos os produtos.
+
+### Substituta S13-4
+
+> Dois sistemas podem executar backups diferenciais corretos, acumulando mudanças desde o último backup completo, mesmo que apenas um deles utilize o atributo de arquivamento do Windows para identificar essas mudanças.
+
+**Gabarito: CERTO (inédita).** Backup diferencial é definido pelo **ponto de comparação**. No modelo clássico com `archive bit`, diferenciais não limpam o bit; outro software pode reconhecer mudanças por blocos ou instantâneos. Em um ciclo de domingo completo, segunda e terça diferenciais, basta restaurar domingo e o **diferencial mais recente**, desde que os conjuntos estejam íntegros.
+
+**Contraexemplo:** afirmar que “todo backup diferencial obrigatoriamente preserva o `archive bit`” é **ERRADO** porque um sistema que não usa esse atributo não executa essa operação.
+
+**Fonte primária:** [Microsoft Learn: arquitetura do Azure Backup, diferenças entre completo, diferencial e incremental](https://learn.microsoft.com/pt-br/azure/backup/backup-architecture). **Relação:** [[3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes|Sincronização não equivale a backup]].
+
+Os itens originais 1 e 4 continuam **NÃO HOMOLOGADOS**; estas duas substitutas são inéditas e possuem escopo definido.

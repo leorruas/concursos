@@ -4674,6 +4674,102 @@
       "statement": "Listar os projetos em andamento, sem indicar critérios para resolver conflitos por recursos, basta para demonstrar que as prioridades estratégicas foram definidas.",
       "correctAnswer": "E",
       "explanation": "A lista informa o que está em curso. Priorizar exige estabelecer o que terá precedência quando os recursos não puderem atender a todos os projetos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "comissao-mista-de-orcamento",
+      "mechanism": "distinguir-parecer-de-aprovacao-final",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Quem faz o quê: competências e limites"
+      ],
+      "statement": "Um projeto de orçamento anual federal recebeu parecer favorável da Comissão Mista de Orçamento. Esse parecer, sozinho, encerra a apreciação legislativa do projeto.",
+      "correctAnswer": "E",
+      "explanation": "A comissão examina e emite parecer. A apreciação pelo Congresso segue as etapas regimentais."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "emenda-orcamentaria",
+      "mechanism": "identificar-instancia-de-apresentacao",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Quem faz o quê: competências e limites"
+      ],
+      "statement": "As emendas ao projeto de orçamento anual federal são apresentadas na comissão mista competente, que emite parecer sobre elas.",
+      "correctAnswer": "C",
+      "explanation": "Essa é a etapa prevista no art. 166, § 2º, da Constituição. O parecer antecede a apreciação em plenário."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "fonte-para-emenda-orcamentaria",
+      "mechanism": "reconhecer-dotacao-protegida",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Regras constitucionais para emendas ao orçamento anual"
+      ],
+      "statement": "Uma emenda que cria despesa no projeto de orçamento anual indica, como única fonte, a anulação de dotação para o serviço da dívida. A indicação satisfaz a exigência constitucional de fonte para essa emenda.",
+      "correctAnswer": "E",
+      "explanation": "O art. 166, § 3º, II, exclui o serviço da dívida das dotações cuja anulação pode fornecer recursos para esse fim."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "emenda-de-correcao",
+      "mechanism": "distinguir-correcao-de-acrescimo-de-despesa",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Regras constitucionais para emendas ao orçamento anual"
+      ],
+      "statement": "Uma emenda que apenas corrige uma omissão no texto do projeto de orçamento anual, sem criar despesa, pode ser examinada na hipótese constitucional relativa à correção de erros ou omissões.",
+      "correctAnswer": "C",
+      "explanation": "O art. 166, § 3º, III, prevê essa hipótese. Ela difere de uma emenda que cria despesa e precisa indicar recursos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "alteracao-de-proposta-orcamentaria",
+      "mechanism": "trocar-inicio-da-votacao-por-aprovacao",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Sequência do projeto: do recebimento à lei"
+      ],
+      "statement": "Depois de iniciada na comissão mista a votação da parte a ser alterada, o presidente da República ainda pode propor mudança nessa parte por mensagem, desde que o projeto inteiro ainda não tenha sido aprovado.",
+      "correctAnswer": "E",
+      "explanation": "O limite do art. 166, § 5º, é o início da votação, na comissão mista, da parte que se pretende alterar."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / processo orçamentário",
+      "conceptId": "fiscalizacao-orcamentaria",
+      "mechanism": "distinguir-apreciacao-de-acompanhamento",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#A CMO também fiscaliza: apreciação não esgota suas competências"
+      ],
+      "statement": "A atuação da comissão mista abrange o acompanhamento e a fiscalização orçamentária, além da emissão de parecer sobre projetos de leis orçamentárias.",
+      "correctAnswer": "C",
+      "explanation": "O art. 166, § 1º, atribui as duas funções à comissão. A fiscalização acompanha a execução e tem finalidade distinta da apreciação dos projetos."
     }
   ]
 }

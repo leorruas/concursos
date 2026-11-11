@@ -1561,3 +1561,37 @@ A diferença **38 entradas no catálogo versus 29 artigos da trilha** decorre do
 **Edição aplicada ao DC30:** commit `6b95bbb5d09174680942b9782067a239d5a779c9`. A [Resolução 1/2006-CN consolidada, arts. 37 a 41](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html) diferencia três classes: **remanejamento**, com acréscimo/inclusão e anulação equivalente de dotações do projeto, **exceto Reserva de Contingência** (art. 38); **apropriação**, com uso da **Reserva de Recursos do art. 56** ou de outras dotações sob CF art. 166, § 3º, II (art. 39); e **cancelamento**, com redução exclusiva de dotações (art. 40). O DC30 agora contrapõe fontes, efeitos e o requisito adicional do mesmo órgão orçamentário para remanejamento (art. 45), com exemplos de classificação. **Não se confundem Reserva de Recursos e Reserva de Contingência.**
 
 **Pesquisa de vigência nesta rodada:** verificado o [registro normativo do Senado da Resolução 1/2006-CN](https://legis.senado.leg.br/norma/561123) e o [catálogo legislativo da CMO](https://www.congressonacional.leg.br/web/cmo/atribuicoes-e-legislacao), que apresentam alterações de 2025 e não indicaram modificação de 2026 nos resultados consultados. Isso não é garantia absoluta de ausência de atos adicionais, e ainda não equivale à revisão integral dos procedimentos especiais. **DC30 não certificado**. Mantêm-se, para esta trilha, **16/29 artigos com alguma edição e 1/29 certificado (DC29)**. A estimativa de conclusão da outra frente de diagnóstico não deve ser convertida em percentual de artigos certificados.
+
+
+## Bloco 34: encerramento do levantamento diagnóstico e passagem controlada à edição (11/11/2026)
+
+**Natureza desta decisão:** encerramento **do inventário e da identificação estruturada dos riscos conhecidos** na frente Processo Legislativo e Regimentos, mantendo **aberta a certificação jurídica integral por artigo**. A antiga estimativa de progresso 98% não será inflada artificialmente: cobertura de inventário, exame de questões, certificação e correções são métricas independentes. A data é a do checkpoint; uma nova resolução ou retificação posterior exige nova checagem.
+
+### Evidência e conclusão do levantamento
+
+**(1) Integridade estrutural, PASSOU no escopo testado:** 29/29 arquivos da trilha PL possuem `articleId` diferente e `articleAliases` correspondente ao próprio caminho; 29/29 desses IDs constam no catálogo para `camara-2026 > direito-constitucional`; 38 referências do catálogo dessa matéria são distintas entre si; 34 referências de links do hub para arquivos da trilha foram comparadas a caminhos existentes, sem destino ausente. Essas verificações **não** constituem teste de site publicado, unicidade do vault inteiro ou renderização de Markdown/Mermaid.
+
+**(2) Cobertura e questões, EXAMINADAS SEM CERTIFICAÇÃO EM MASSA:** 29 arquivos e 297 enunciados inéditos C/E identificados e examinados em intensidades diversas. O cotejo dirigido de gabaritos **não** equivale à certificação frase a frase do conteúdo. A matriz documental do edital do Cargo 1, Comunicação Social/Divulgação Institucional, registra duas camadas: recortes de RICD/RCCN no básico e aplicação mais ampla de Res.17/1989 e demais resoluções no específico. A articulação dos dois programas está documentada no bloco 27.
+
+**(3) Não conformidades textuais ainda presentes, REPROVARAM:** comparação do conteúdo atual de DC34 (SHA `3721a69480cba194da12778ac7630681a506c37f`) e do hub constitucional (SHA `12e116ba16f601264be9003ceb20fa158d388b76`) confirmou:
+- **NC-PL-025, DC34:106:** título traz `art. 13, V`; rol correto está no `art. 13, VI` do Código consolidado. **Erro de remissão confirmado.**
+- **NC-PL-026, DC34:121:** assertiva de `um deputado a menos` por `assento especial` do Corregedor reproduz regra histórica e não está sustentada pelo Código atual. **Não ensinar como vigente sem fonte autônoma válida;** no Código atual, art.9º §4º, Corregedor participa **sem voto**.
+- **NC-PL-027/028, DC34:185:** artigo já menciona cautelar, mas não sistematiza `RICD art.15 XXX e §§2º–6º`, Res.11/2024 e Ato da Mesa 180/2025, distinguindo **48h Corregedoria, 5 dias úteis Mesa, 3 dias úteis Conselho, 1 dia útil para recurso e sessão seguinte no Plenário**. **Lacuna didática e de remissões**, não enunciado diretamente falso.
+- **NC-PL-029, hub:75 e 77:** atribui `CAM-PL-020` a DC14; o planejamento e DC23 reservam 020 ao conjunto Mesa/órgãos arts.1–24, enquanto aprofundamento de comissões em DC14 é `CAM-PL-004`. **Erro de rastreabilidade comprovado.**
+Estas não conformidades são **bloqueadores editoriais pontuais**, e seu reparo pode ocorrer sem renomear, duplicar ou substituir os arquivos.
+
+**(4) Correções paralelas preservadas:** outro fluxo já editou **DC30**, incluindo RCCN art.90, vigência das alterações Res.1/2025-CN e Res.2/2025-CN, composição da CMO, diferença entre emendas de comissões e Mesas, e condições dos arts.41/45. A última atualização observada no relatório é commit `b949e763188af74d7594ef2ca321f2bf248b0350`. **DC30 continua sem certificação exaustiva**, apesar das correções. O diagnóstico anterior também documenta reparos de DC13/14/25/34/35/36/37 e **certificação explicitamente delimitada de DC29**; nenhum desses estados autoriza nova homologação automática.
+
+### Critério de aceite para a próxima etapa editorial, com teste verificável
+
+| Ordem | Arquivos | Execução planejada | Evidência de aceite |
+| --- | --- | --- | --- |
+| 1 | DC34 | Corrigir art.13 V→VI e frase do Corregedor, sem retirar composição 21+21 nem sua participação sem voto; acrescentar contraste cautelar/sancionatória com todas as fontes de 2024/25 | Releitura comparada do Código atualizado, RICD e Ato 180; **ausência de afirmações históricas ensinadas como vigentes** |
+| 2 | Hub de Direito Constitucional | Substituir os dois rótulos CAM-PL-020 obsoletos; manter caminhos e IDs | DC23 identificado 019+020; DC14 identificado 004; 34 links ainda resolvem |
+| 3 | DC34 e site | Validar texto, tabela, Mermaid, exemplos e **6 gabaritos** após edição | Fluxograma renderizado, sem confusão de instâncias, prazos, recursos, votos |
+| 4 | Catálogo/site | Conferir integridade em ambiente de publicação e navegação real | Rotas de DC14, DC23, DC34 e hub funcionam; IDs estáveis; sem links quebrados |
+| 5 | DC30 e demais 28 artigos | Certificação independente do conteúdo por recorte, fonte datada e questões, acompanhando atualizações concorrentes | Resultado **por arquivo**, com data/norma, correções verificadas e escopo da certificação |
+
+**Conclusão da Fase 1, com precisão:** a **etapa de levantamento diagnóstico** cumpriu sua finalidade de identificar o inventário, confirmar mapeamento do edital, examinar as baterias, classificar riscos, registrar fontes e localizar reparos evidenciados. **O relatório de diagnóstico fica pronto para passagem à edição**, mas a **Fase 1 entendida como certificação jurídica completa não pode ser dada como concluída**. Não há evidência para dizer “29/29 homologados”. O estado conhecido de certificação formal continua **DC29: 1/29**, salvo registro posterior de outra frente não revisado aqui.
+
+**Alterações efetivamente realizadas nesta rodada:** somente este relatório e o índice compartilhado; **nenhum arquivo de estudo, hub, catálogo, questão ou flashcard foi editado**. Os próximos reparos são instruções de execução documentadas, não promessas de correção já aplicada.

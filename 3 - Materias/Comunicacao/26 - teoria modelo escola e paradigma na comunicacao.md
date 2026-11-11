@@ -5,7 +5,7 @@ title: "Teoria, modelo, escola, corrente e paradigma na comunicação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Teoria, modelo, escola, corrente e paradigma na comunicação
@@ -90,6 +90,16 @@ Uma **escola** ou **corrente** pode ser chamada de forma diferente por livros in
 **Jakobson:** organiza fatores e funções da linguagem, cuja unidade de análise deve ser estudada em artigo próprio antes de compará-la aos modelos de transmissão e de efeitos.
 
 A sequência posterior prevista na [[1 - Planejamento/Camara 2026 - Arquitetura conceitual e plano de artigos|trilha TC da Câmara]] inclui esses autores, modelos lineares e interacionais, Escola de Chicago, pesquisa em comunicação de massa, teoria crítica, estudos culturais, opinião pública, midiatização e plataformização. **Esses artigos posteriores ainda não estão declarados como publicados.**
+
+## Auditoria de escopo: paradigma, modelo e fonte (11/11/2026)
+
+O contraste entre **teoria, modelo, escola, corrente e paradigma** nesta nota foi construído para leitura crítica do edital da Câmara e **não corresponde a cinco termos de uma taxonomia formal publicada por Shannon, Jakobson ou Lasswell**. A distinção entre níveis é operacional: **um modelo representa seletivamente componentes e relações**, **uma teoria procura explicar fenômenos**, **uma escola reúne uma tradição intelectual**, **uma corrente descreve afinidades de orientação**, e **um paradigma organiza pressupostos sobre investigação**. A aplicação desses rótulos varia conforme autor e contexto e não forma uma hierarquia obrigatória. Esse estatuto editorial está explicitado no artigo e deve ser preservado ao montar simulados.
+
+Como controle autoral, o [texto de Shannon (1948) no Bell Labs](https://www.nokia.com/bell-labs/publications-and-media/publications/a-mathematical-theory-of-communication/) se propõe a investigar **um problema técnico específico de comunicação**; não é definição geral das tradições críticas ou culturais. Já [Jakobson (1960)](https://commons.princeton.edu/eng266-s25/wp-content/uploads/sites/433/2025/04/Jakobson-Linguistics-and-Poetics.pdf) descreve **fatores e funções de um ato verbal**, o que exemplifica um modelo analítico que não pode ser transformado na definição única de todo o fenômeno de comunicação. A Escola de Frankfurt reúne autores que divergem em interpretações; uma posição expressa como **“há quem defenda”** não implica consenso universal. Esse cuidado foi cobrado em [DPDF 2022, item 86 C, já indexado](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md).
+
+**C/E inéditos:** **1.** “O modelo matemático de Shannon, ao selecionar variáveis de transmissão, demonstra que toda teoria da comunicação precisa excluir contexto e significado.” **Errado**. **2.** “Um modelo pode representar apenas certas dimensões do processo e coexistir com teorias que investigam outras dimensões.” **Certo**. **3.** “Uma afirmação atribuída a parte dos intérpretes da Escola de Frankfurt deve ser tratada necessariamente como opinião uniforme de todos os autores da escola.” **Errado**.
+
+**Limite:** a bibliografia usada sustenta exemplos concretos e escopo de teorias; as **cinco definições gerais são uma síntese editorial**, sem validação autoral universal. Os três C/E criados são exercícios, não transcrições de itens históricos.
 
 ## Tensões e pegadinhas
 

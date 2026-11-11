@@ -5,7 +5,7 @@ title: "Assessoria de imprensa"
 type: "conceito"
 status: "ativo"
 created: 2026-07-10
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Assessoria de imprensa
 
@@ -153,6 +153,22 @@ Os mecanismos mais recorrentes são:
 - sugerir que o porta-voz pode fugir de perguntas fora do roteiro da coletiva;
 - trocar domínio do tema e linguagem simples por jargão ou rebuscamento;
 - confundir assessoria de imprensa com toda a comunicação institucional.
+
+## Auditoria cruzada: Lei 12.232, assessoria e casos reais Cebraspe (11/11/2026)
+
+A [versão atualizada da Lei nº 12.232/2010 publicada pela Câmara](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html) cria uma distinção jurídica decisiva para este hub. **Art. 2º, § 2º:** assessoria de imprensa, comunicação e relações públicas não são serviços que se possa acrescentar indiscriminadamente ao objeto de um contrato de publicidade integrada. **Arts. 20-A e 20-B, acrescidos em 2022:** disciplinam contratação de **comunicação institucional**, inclusive relação com a imprensa e relações públicas, com definições próprias. **Art. 20-A, § 3º:** o regime não afasta a atuação de servidores do órgão. Isso não significa que toda tarefa feita pela assessoria deva ser contratada, ou que toda publicação digital seja compra de publicidade.
+
+**Calibração com questões históricas já conferidas:** no [caderno DPDF, aplicado em 2022, itens 102 e 103](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF), os julgamentos do [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/GAB_DEFINITIVO_548_DPDF_005_01.PDF) são **102 Certo** (divulgação institucional pode decorrer de demanda jornalística ou iniciativa da assessoria) e **103 Errado** (confusão de atribuições da assessoria com atividade publicitária). No [CNMP 2023, itens 78 e 79](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), ambos **Certo**, foram reconhecidos, respectivamente, os critérios de usabilidade, acessibilidade e arquitetura informacional para sala de imprensa online e a necessidade de conhecer a lógica de funcionamento da mídia. Os quatro itens **já constavam no corpus** e não aumentam a contagem de questões históricas.
+
+**Cuidado com generalizações da nota antiga:** as afirmações “a FGV cobra reiteradamente” e “a FGV já explorou” são **registros didáticos herdados**, com indicações de concursos, mas sem identificação numérica de caderno, item e gabarito na própria nota. Não usá-las como **medida comprovada de frequência**. A distinção entre *clipping*, análise tópica e auditoria de imagem é apresentada como síntese de Wilson da Costa Bueno e exige exame da obra ou questão específica quando houver disputa de literalidade.
+
+**Três itens C/E inéditos, calibrados pelas provas, não transcritos:**
+
+**1.** “Na Lei nº 12.232/2010, a assessoria de imprensa deve necessariamente ser incluída como atividade complementar do contrato integrado de publicidade, pois há finalidade informativa.” **Errado.** Art. 2º, § 2º, distingue os objetos; art. 20-A trata da contratação de comunicação institucional.
+
+**2.** “O envio de release pela assessoria não garante sua publicação nem transfere à organização a decisão final sobre o enfoque editorial do veículo.” **Certo.** Relação profissional e autonomia editorial são dimensões distintas.
+
+**3.** “Uma sala de imprensa digital pode exigir usabilidade, acessibilidade e arquitetura da informação, ainda que a organização atue em comunicação institucional e não em publicidade paga.” **Certo.** Convergência técnica reconhecida no CNMP 2023, item 78.
 
 ## Relações com outros temas
 

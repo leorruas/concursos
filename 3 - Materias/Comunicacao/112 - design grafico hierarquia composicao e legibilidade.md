@@ -5,7 +5,7 @@ title: "Design gráfico: hierarquia, composição e legibilidade"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Design gráfico: hierarquia, composição e legibilidade
@@ -118,6 +118,16 @@ Na **WCAG 2.2**, o critério **1.4.3 Contraste (Mínimo), nível AA**, utiliza r
 **Cor como único meio de distinção:** marcar prazos apenas por verde/vermelho pode excluir pessoas que não distinguem essas cores. Incluir rótulos, formas ou texto permite redundância de informação. **Cores de identidade** não anulam requisitos de acessibilidade em interfaces.
 
 **Aplicação impressa:** WCAG é referencial normativo voltado a conteúdo web; suas razões numéricas não são regra legal universal para todo cartaz impresso. No impresso, distância de observação, papel, luz, processo de impressão e contexto devem orientar teste de legibilidade.
+
+## Auditoria normativa de contraste: condições e exceções WCAG 2.2 (11/11/2026)
+
+O [critério 1.4.3 da WCAG 2.2, nível AA](https://www.w3.org/TR/WCAG22/#contrast-minimum) estabelece **4,5:1 para texto comum** e **3:1 para texto grande**, com exceções expressas: texto incidental, texto puramente decorativo, texto não visível e **logotipos**. Texto grande corresponde, na definição do padrão, a pelo menos **18 pt** ou **14 pt em negrito**, ou equivalentes aplicáveis. Portanto, não é correto aplicar 4,5:1 indistintamente a todo símbolo, logotipo ou elemento de interface.
+
+O [critério 1.4.11, nível AA](https://www.w3.org/TR/WCAG22/#non-text-contrast) usa **3:1** para informações visuais necessárias à identificação de componentes de interface e estados, e para elementos de gráficos necessários à compreensão, observadas suas exceções. Sua aplicação não equivale a exigir 3:1 de **todas** as formas decorativas de uma peça. A especificação se refere à **apresentação digital** e não define automaticamente o contraste obrigatório de peças impressas.
+
+**Cotejo do item 5, já existente:** **Certo**, pois distingue o texto comum do texto grande e expressamente ressalva as definições e exceções. **Exercício adicional, C/E inédito:** “Por exigir contraste mínimo na apresentação de texto, a WCAG 2.2 obriga que a própria logomarca institucional alcance 4,5:1 em todas as aplicações digitais”. **Errado:** o critério 1.4.3 prevê exceção para textos integrantes de logotipo ou nome de marca. Isso não dispensa verificar os demais conteúdos textuais e controles do produto digital.
+
+**Limite:** esse cotejo cobre os dois critérios citados e a questão 5; os demais itens sobre Gestalt e tipografia não foram certificados pelas fontes técnicas nesta intervenção.
 
 ## Como avaliar uma composição
 

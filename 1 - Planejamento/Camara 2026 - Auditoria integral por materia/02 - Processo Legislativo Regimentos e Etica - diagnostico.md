@@ -585,3 +585,10 @@ Commit `2aee7a108b444a595968fbbe0b84663ba13c922b`: 19 substituições localizada
 **Limitação expressa do DC11:** inspeção inicial das seções de conceito, classificações e indicações. Ainda precisam ser lidos e cotejados **todos os itens C/E, gabaritos, autoria e trâmite digital, emendas, recursos, hipóteses de retirada/arquivamento e todos os exemplos**. Não declarar DC11 validado.
 
 **Estado:** erro/risco significativo identificado no argumento do Caso 4 de DC37, com sustentação explícita na jurisprudência de cautelares; DC11 retomado com pontos normativos centrais corroborados. Todos os artigos originais continuam sem alteração. Próxima rodada: concluir DC11, incluindo a análise de suas questões e hipóteses regimentais, e cotejar a regra de votos separados na sessão conjunta aplicada a contas presidenciais.
+
+
+### Execução: reestruturação do diagrama e dos prazos do DC34 (11/11/2026)
+
+Commit `14ded4f9997664e9aa48d6573ff898e4b8f791a0`: fluxograma linear substituído por ramos de censura verbal, censura escrita, suspensão de prerrogativas e suspensão/perda do mandato; inseridos prazos específicos e recursos dos arts. 11–16. Corrigida a atribuição indevida do prazo do art. 16, § 4º, à rejeição de parecer: o dispositivo disciplina a substituição por atraso do relator. Atualizada a matriz de penalidades e completada a lista de prerrogativas do art. 13, VI.
+
+**Situação:** alterações registradas; conferência visual no site, revisão integral das seis questões, jurisprudência, exceções procedimentais e validação final do DC34 permanecem pendentes. Fonte: [Código consolidado, arts. 11–16](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).

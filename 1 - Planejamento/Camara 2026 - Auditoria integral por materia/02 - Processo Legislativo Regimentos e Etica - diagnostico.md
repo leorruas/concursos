@@ -592,3 +592,60 @@ Commit `2aee7a108b444a595968fbbe0b84663ba13c922b`: 19 substituições localizada
 Commit `14ded4f9997664e9aa48d6573ff898e4b8f791a0`: fluxograma linear substituído por ramos de censura verbal, censura escrita, suspensão de prerrogativas e suspensão/perda do mandato; inseridos prazos específicos e recursos dos arts. 11–16. Corrigida a atribuição indevida do prazo do art. 16, § 4º, à rejeição de parecer: o dispositivo disciplina a substituição por atraso do relator. Atualizada a matriz de penalidades e completada a lista de prerrogativas do art. 13, VI.
 
 **Situação:** alterações registradas; conferência visual no site, revisão integral das seis questões, jurisprudência, exceções procedimentais e validação final do DC34 permanecem pendentes. Fonte: [Código consolidado, arts. 11–16](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).
+
+
+## Bloco 15: DC11, 13 itens C/E, e regra de votação das contas presidenciais (11/11/2026)
+
+### Fontes efetivamente cotejadas
+
+- [RICD vigente, Resolução 17/1989, arts.100–117 e 126–130](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), com inspeção dirigida dos arts.100, 102, 104, 105, 113, 114–117, 126, 129. 
+- [Regimento Comum do Congresso, consolidação do Senado](https://legis.senado.leg.br/norma/561098/publicacao/36852069), art.43 (votos de deputados e senadores computados separadamente), arts.28 e 36, arts.104–106-D (veto).
+- [Portal oficial do Congresso: atribuições e sessões conjuntas](https://www.congressonacional.leg.br/institucional/atribuicoes), que esclarece votação separada das Casas.
+
+**Escopo:** lidos o arquivo `3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao.md` e seus **13 enunciados/gabaritos**: 8 do refinamento `CAM-PL-016`, e 5 da seção final geral `CAM-PL-001`. A conferência documental concentrada em normas expressamente citadas **não cobre toda a jurisprudência, cada remissão secundária nem o edital oficial**. Nenhum artigo de estudo alterado.
+
+### Matriz de questões do DC11: refinamento CAM-PL-016
+
+| Item | Gabarito publicado | Conferência pontual |
+| --- | --- | --- |
+| 1, indicação substitui iniciativa | ERRADO | RICD art.113 I: apenas **sugere** envio de projeto por Poder titular |
+| 2, informação e convocação têm decisor idêntico | ERRADO | RICD 115/116 (Presidente, ouvida Mesa) × 117 II (Plenário) |
+| 3, requerimento não pergunta intenções futuras | CERTO | Art.116 II–III: objeto de ato/fato, não conselho ou indagação de propósito |
+| 4, prazo 5 sessões do despacho é idêntico aos 30 dias de resposta | ERRADO | Art.115 (5 sessões) × art.116 e CF50 §2º (30 dias) |
+| 5, voto do relator pode divergir do parecer final | CERTO | Arts.126/129: posição individual não substitui conclusão colegiada |
+| 6, veto parcial de expressão isolada | ERRADO | CF art.66 §2º: veto parcial atinge unidade integral artigo/parágrafo/inciso/alínea |
+| 7, derrubada do veto por contagem única de congressistas | ERRADO | CF art.66 §4º e RCCN art.43: votos separados por Casa |
+| 8, destaque de veto prescinde de aprovação plenária | CERTO | RCCN art.106-D: apresentação por liderança sob limites proporcionais, sem aprovação plenária |
+
+### Matriz de questões gerais CAM-PL-001
+
+| Item | Gabarito publicado | Conferência pontual |
+| --- | --- | --- |
+| 1, proposição abrange categorias além de projeto | CERTO | RICD art.100 caput e §1º |
+| 2, indicação produz efeito de lei e substitui iniciativa | ERRADO | RICD art.113 e CF regras de iniciativa |
+| 3, retirada invariavelmente decidida pelo Presidente após parecer favorável | ERRADO | RICD art.104 §1º: decisão somente do Plenário se já houver parecer favorável |
+| 4, autoria coletiva e todos signatários autores | CERTO | RICD art.102 §§1º–4º |
+| 5, projetos de iniciativa popular e de código sempre arquivados | ERRADO | RICD art.105 IV/VII, redação de 2022: exceções expressas |
+
+**Resultado delimitado:** os **13 gabaritos estão compatíveis com os dispositivos centrais diretamente conferidos**. Não foi observada inversão inequívoca de resposta. A conformidade das 13 questões **não equivale à certificação integral da nota**, principalmente quanto a todas as condições e exceções espalhadas no texto.
+
+### Achados adicionais do conteúdo DC11
+
+- **A-PL-053, corroborado:** art.104 regula retirada por autor, deferimento pela Presidência com recurso, reserva ao Plenário após parecer favorável, e necessidade de **metade mais um dos subscritores** na iniciativa coletiva. O DC11 ensina essas condições e o exemplo de parecer favorável de modo correto.
+- **A-PL-054, corroborado:** art.105 atualizado em 2022 inclui exceções para **iniciativa popular, códigos, tratados, contas presidenciais, projetos da espécie art.59 que não atravessaram três legislaturas completas** e outros casos. A explicação geral DC11 é compatível; manter enumeração completa quando a questão exigir literalidade.
+- **A-PL-055, ressalva de norma histórica:** [RCCN consolidado art.106-D, inciso II, b](https://legis.senado.leg.br/norma/561098/publicacao/36852069) exibe a incongruência editorial literal **“de 6 (cinco) a 11 (onze) Senadores”**. DC11 não reproduz o número, e seu item 8 trata apenas da dispensa de aprovação plenária; **não é defeito do DC11**. Qualquer questão futura de proporcionalidade de destaques deve esclarecer o valor normativo efetivo com ato atualizado/consolidação antes de construir gabarito.
+- **A-PL-056, possível sobreposição produtiva:** DC11 integra CAM-PL-001 e refinamento CAM-PL-016, com duas baterias independentes. Uma futura edição pode preservar os dois objetivos e sinalizar claramente qual avaliação mede cada competência, evitando contar 13 itens como se fossem prova única.
+
+### Quórum do Congresso ao julgar contas presidenciais, relação com DC37 Q3
+
+**A-PL-057, confirmado:** o **RCCN art.43** estabelece que os votos das duas Casas sejam sempre computados separadamente e o voto contrário de uma Casa importa rejeição da matéria. O **art.28 (1/6 por Casa)** trata apenas de quórum para **abrir a sessão**, **não** do quórum necessário para aprovar uma deliberação. O **art.36** prevê regra geral de discussão/votação em turno único. A CF art.47 estabelece como regra geral maioria de votos com presença da maioria absoluta dos membros.
+
+**Ressalva relevante:** o comentário ao item 3 de DC37 afirma maioria simples dos presentes, respeitada maioria absoluta de presença em cada Casa; isto é **compatível com a regra geral**, mas para certificar a incidência integral sobre votação das contas anuais é preciso cotejar eventuais normas procedimentais especiais relativas ao parecer da CMO e projeto de decreto legislativo. A diferença entre **quórum de abertura (RCCN art.28)** e **quórum deliberativo** deve ficar expressa no material. **Q3 continua ERRADO quanto à tentativa de aplicar o quórum municipal de dois terços às contas da Presidência da República**, mesmo com a ressalva pendente sobre o rito da deliberação federal.
+
+### Próximos passos
+
+1. Examinar DC12 integralmente (iniciativa, CF art.61, legitimados, precedentes e todos os gabaritos) e conferir consistência da matriz 33 CAM-PL.
+2. Concluir fontes subsidiárias e eventual norma especial sobre contas presidenciais antes de certificar a exposição de quórum no DC37.
+3. Prosseguir com DC13 a DC33 de forma sequencial, sob a regra de **não atualizar os materiais até autorização para Fase 2/3**.
+
+**Estado:** DC11 com **13 gabaritos verificados nos núcleos normativos** e nenhuma inversão confirmada. Fase 1 segue aberta; sem edições aos artigos.

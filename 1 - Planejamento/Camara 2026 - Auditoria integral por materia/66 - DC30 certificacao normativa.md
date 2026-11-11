@@ -1,0 +1,13 @@
+# Bloco 66: DC30, certificação normativa delimitada
+
+Data: 11/11/2026. Artigo: [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103]].
+
+**Fontes oficiais:** [RCCN, Resolução 1/1970-CN, arts. 53–103, publicação consolidada até janeiro de 2023](https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-171822-pl.html); [Congresso, edição de regimentos atualizada até julho de 2025](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional); [Resolução 1/2006-CN e alterações](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html); CF arts. 60, 78, 165–166.
+
+**Recorte certificado:** sessões solenes e seus atos (arts. 53–71); revogações 72–84 e 86–88; promulgação de EC art. 85; orçamento arts. 89–103 e remissões à disciplina especial. Confirmados números da comissão de recepção 5+5 e 3+3, sem expediente nem questão de ordem, leitura da mensagem orçamentária em 48 horas, avulsos eletrônicos em 5 dias, parecer oral por omissão da comissão. A matriz adicional de emendas é enquadrada como disciplina **especial** da Res. 1/2006-CN, não texto literal dos arts. 53–103.
+
+**NC-PL-074:** incluído art. 90, §§ 4º–5º: deliberação da CMO inicia por deputados; voto contrário da maioria dos representantes de uma das Casas rejeita matéria, salvo eleição da direção. **NC-PL-075:** incluídos art. 99 (grupos de emendas por sentido do parecer, ressalvados destaques) e arts. 102–103 (aplicação subsidiária e expressão histórica “orçamento plurianual de investimentos”, que não substitui PPA constitucional). Atualização do DC30 no commit `71dc1a4973a701e25c399f2e4f970e0e1384db39`.
+
+**Conferência pedagógica:** 10 exercícios C/E, gabaritos **C/E/C/E/E/C/E/C/E/E**, todos preservados; oito casos progressivos, mais exemplos da matriz especial existentes. Zero questões criadas. Não duplicar no inventário histórico reportado de 297 itens.
+
+**Estado de fechamento:** **29/29 artigos do catálogo individualmente cotejados em escopo normativo delimitado**. Esta contagem equivale à certificação documental de cada artigo, **não à aprovação pedagógica da matéria inteira**. DC05, DC07, DC08 e DC09 ainda não têm itens C/E nem casos progressivos. Checkpoints dos blocos anteriores, inclusive 65 e este 66, ainda precisam ser conciliados no índice e diagnóstico central. A contagem histórica de 297 questões não foi recalculada; nenhuma auditoria de renderização ou deploy GitHub Pages. Próxima fase recomendada: reconciliar índices, validar quantitativos e cobrir as lacunas pedagógicas, respeitando frentes concorrentes.

@@ -151,7 +151,7 @@ Um orador teme colocar dados estatísticos complexos no campo de Anotações do 
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** Essa é a função definidora do Slide Mestre: controlar e padronizar elementos visuais corporativos (logotipos, rodapés, planos de fundo e fontes) em cascata para todos os slides subordinados na apresentação.
+**Comentário:** O mestre principal pode estabelecer elementos comuns aos slides que utilizam seus layouts subordinados. A ressalva **“que compartilham aquela estrutura de layout”** é essencial: em apresentações com múltiplos mestres ou elementos locais, a alteração não necessariamente afeta todos os slides do arquivo. O gabarito CERTO é mantido com essa delimitação.
 
 ---
 
@@ -186,7 +186,7 @@ Um orador teme colocar dados estatísticos complexos no campo de Anotações do 
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** A tecla `B` (*Black*) escurece a tela instantaneamente (deixando-a preta). Da mesma forma, a tecla `W` (*White*) deixa a tela totalmente branca. Pressionar qualquer tecla numérica ou de navegação restaura a exibição do slide.
+**Comentário:** Durante uma apresentação em execução no PowerPoint para Windows, `B` pode alternar para a tela preta e `W` para a branca. Para voltar à apresentação, usa-se a tecla correspondente ou um comando de navegação adequado. A regra depende do modo de exibição e do aplicativo, não é atalho universal de qualquer visualizador.
 
 ---
 
@@ -208,7 +208,7 @@ Um orador teme colocar dados estatísticos complexos no campo de Anotações do 
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** É a descrição exata do funcionamento do Modo Apresentador (*Presenter View*), viabilizado pelo uso de dois monitores com área de trabalho estendida.
+**Comentário:** O Modo Apresentador permite ver notas e slide seguinte em uma tela enquanto o público vê a apresentação em outra, **quando o equipamento e a configuração de monitores suportam esse arranjo**. O gabarito CERTO descreve uma capacidade, não promete que o modo seja ativado automaticamente em qualquer equipamento.
 
 ---
 
@@ -226,3 +226,5 @@ Um orador teme colocar dados estatísticos complexos no campo de Anotações do 
 | **`Nº` + `Enter`** | Pula diretamente para o slide `Nº` | Permite saltos não lineares durante a fala |
 
 > **Nota de revisão (11/11/2026):** herança do Slide Mestre qualificada para apresentações com múltiplos mestres; nó do diagrama renomeado para evitar colisão com o identificador de subgrafo `S2`. Revisão ligada a TI-038 e TI-039. Renderização do Mermaid no site ainda depende de teste de publicação.
+
+> **Auditoria de questões, segunda passagem (11/11/2026):** seis itens examinados, gabaritos mantidos **C, E, E, C, E, C**. Reforçadas as condições do Slide Mestre, atalhos de projeção e Modo Apresentador.

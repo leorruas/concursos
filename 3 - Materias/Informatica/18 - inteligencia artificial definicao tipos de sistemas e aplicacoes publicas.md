@@ -5,7 +5,7 @@ title: "Inteligência artificial: definição, evolução, taxonomia de sistemas
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Inteligência artificial: definição, evolução, taxonomia de sistemas e aplicações no setor público
@@ -18,7 +18,7 @@ A **Inteligência Artificial (IA)** é o campo multidisciplinar da ciência da c
 
 Historicamente cunhada em 1956 na célebre Conferência de Dartmouth por John McCarthy, Marvin Minsky, Nathaniel Rochester e Claude Shannon, a IA evoluiu de sistemas rígidos baseados em regras lógicas simbólicas (*sistemas especialistas*) para modelos orientados a dados (*Machine Learning* e *Deep Learning*).
 
-No setor público e particularmente no Poder Legislativo, a IA é empregada como instrumento de **eficiência administrativa, automação de triagem processual e apoio à divulgação institucional**, orientando-se pelas diretrizes de governança da **Estratégia Brasileira de Inteligência Artificial (EBIA - Decreto nº 9.874/2019 e Portaria MCTI nº 4.617/2021)** e pelo debate legislativo do Marco Regulatório da IA no Brasil (PL 2.338/2023).
+No setor público e particularmente no Poder Legislativo, a IA é empregada como instrumento de **eficiência administrativa, automação de triagem processual e apoio à divulgação institucional**, orientando-se pelas diretrizes de governança da **Estratégia Brasileira de Inteligência Artificial (EBIA, instituída pela Portaria MCTI nº 4.617/2021 e alterada pela Portaria MCTI nº 4.979/2021)** e pelo debate legislativo do Marco Regulatório da IA no Brasil (PL 2.338/2023).
 
 ```mermaid
 flowchart TD
@@ -55,7 +55,7 @@ Uma das pegadinhas conceituais mais recorrentes em provas da banca Cebraspe resi
 2. **Aprendizado de Máquina (*Machine Learning* - ML)**:
    - É um **subcampo da IA**. Em vez de programar explicitamente cada regra determinística, o sistema é alimentado com grandes volumes de dados de exemplo e algoritmos estatísticos que aprendem a identificar padrões e a generalizar previsões de forma autônoma.
 3. **Aprendizado Profundo (*Deep Learning* - DL)**:
-   - É um **subcampo do Machine Learning**. Utiliza arquiteturas de **Redes Neurais Artificiais Profundas (*Deep Neural Networks*)**, caracterizadas por múltiplas camadas ocultas (*hidden layers*). O diferencial do Deep Learning é a sua capacidade de **extração automática de características (*feature engineering*)** a partir de dados brutos e não estruturados (imagens, áudio, vídeos e textos extensos), eliminando a necessidade de pré-processamento manual das variáveis preditoras.
+   - É um **subcampo do Machine Learning**. Utiliza arquiteturas de **Redes Neurais Artificiais Profundas (*Deep Neural Networks*)**, caracterizadas por múltiplas camadas ocultas (*hidden layers*). O diferencial do Deep Learning é a sua capacidade de **extração automática de características (*feature engineering*)** a partir de dados brutos e não estruturados (imagens, áudio, vídeos e textos extensos), reduzindo, em determinados problemas, a necessidade de engenharia manual de características, sem dispensar limpeza, preparação e validação dos dados.
 
 ---
 
@@ -127,7 +127,7 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 ## 6. Casos progressivos de aplicação
 
 ### Caso 1: A triagem de discursos de plenário
-- **Cenário**: O departamento de jornalismo da Câmara recebe diariamente mais de 40 horas de gravações em áudio de discursos de parlamentares no plenário e nas comissões temáticas. Para viabilizar a cobertura informativa no portal de notícias, a equipe utiliza um sistema que transcreve o áudio para texto e classifica automaticamente as falas em eixos temáticos (Saúde, Educação, Orçamento, Meio Ambiente).
+- **Cenário hipotético**: Imagine que o departamento de jornalismo da Câmara recebesse diariamente mais de 40 horas de gravações em áudio de discursos de parlamentares no plenário e nas comissões temáticas. Para viabilizar a cobertura informativa no portal de notícias, a equipe utiliza um sistema que transcreve o áudio para texto e classifica automaticamente as falas em eixos temáticos (Saúde, Educação, Orçamento, Meio Ambiente).
 - **Análise**: O sistema utiliza Processamento de Linguagem Natural (PLN) e Aprendizado de Máquina pertencentes à categoria de **IA Estreita (ANI)**. O modelo não tem compreensão holística ou consciência da política brasileira; sua atuação restringe-se com alta eficácia à tarefa específica de conversão fonética e classificação temática para a qual foi alimentado e treinado.
 
 ### Caso 2: O sistema que decide sem explicar o motivo (Efeito Caixa-Preta)
@@ -136,7 +136,7 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 
 ### Caso 3: Regras fixas regimentais versus Aprendizado de Máquina
 - **Cenário**: Ao desenvolver o módulo de verificação de quórum de votação no regimento interno, a equipe de TI deve escolher entre criar um conjunto formal de regras lógicas programadas em código (*IF quórum < 257 THEN votação = suspensa*) ou treinar um algoritmo de regressão estatística com base nas últimas votações.
-- **Análise**: A escolha correta e mandatória é a abordagem de **IA Simbólica / Regras Determinísticas**. O controle regimental de quórum é uma exigência normativa estrita, binária e imutável que não admite inferências probabilísticas ou margem estatística de erro inerente aos modelos de Aprendizado de Máquina.
+- **Análise**: Para calcular o quórum exigido por uma regra regimental explícita, a abordagem apropriada é a **programação determinística**: entradas e regras verificáveis, com resultado reproduzível. Uma simples condição `if` não configura, por si só, IA simbólica; esta envolve representação de conhecimento e mecanismos de inferência. Regras de quórum podem mudar por alteração normativa, mas não devem ser inferidas estatisticamente a partir de votações passadas.
 
 ### Caso 4: O mito da consciência artificial em robôs de atendimento
 - **Cenário**: Durante uma audiência pública sobre inovação, um debatedor afirma que os novos assistentes virtuais de atendimento da Câmara já possuem intencionalidade própria, consciência de suas responsabilidades e empatia genuína para com as demandas dos cidadãos.
@@ -166,7 +166,7 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 > O *Deep Learning* (Aprendizado Profundo) difere das técnicas tradicionais de *Machine Learning* por utilizar arquiteturas de redes neurais artificiais profundas com múltiplas camadas intermediárias, prescindindo da etapa humana de engenharia manual de características (*feature engineering*) para extrair padrões de dados complexos não estruturados.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Definição técnica precisa do diferencial do *Deep Learning*. Em ML clássico, o especialista humano precisava selecionar e extrair manualmente as variáveis relevantes do dado; em *Deep Learning*, as camadas ocultas da rede neural aprendem a extrair representações e características dos dados brutos (pixels de imagem, sinais de áudio ou textos) de forma hierárquica e automática.
+- **Fundamentação**: O *Deep Learning* pode aprender representações dos dados de modo hierárquico, reduzindo a engenharia manual de características. O termo “prescindindo” deve ser entendido aqui como possibilidade de dispensar essa etapa específica em certas arquiteturas, e não como eliminação de toda intervenção humana, preparação dos dados ou validação. A redação do item merece cautela por sua generalização.
 
 ---
 
@@ -174,7 +174,7 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 > De acordo com as diretrizes da Estratégia Brasileira de Inteligência Artificial (EBIA) e o princípio da supervisão humana (*Human-in-the-Loop*), é admitida a delegação integral e irrecorrível a sistemas automatizados de inteligência artificial da competência para proferir decisões administrativas que importem restrição de direitos fundamentais dos cidadãos.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: O princípio da governança responsável, a EBIA e as normas de direito público vedam a automação cega e irrecorrível em atos que afetem direitos e liberdades civis. É mandatória a presença de supervisão humana qualificada (*Human-in-the-Loop*) e a existência de instâncias de recurso e revisão por agentes humanos.
+- **Fundamentação**: O princípio da governança responsável, a EBIA e as normas de direito público vedam a automação cega e irrecorrível em atos que afetem direitos e liberdades civis. A LGPD, em seu art. 20, assegura o direito de solicitar revisão de decisões unicamente automatizadas que afetem interesses do titular, mas não estabelece, como regra geral, revisão obrigatória por pessoa natural. Exigências específicas de intervenção humana devem ser fundamentadas em outras normas aplicáveis. A irreversibilidade irrestrita descrita no item contraria a proteção jurídica ao direito de revisão.
 
 ---
 
@@ -216,3 +216,5 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 - **Marco Regulatório de IA no Brasil**: Projeto de Lei nº 2.338/2023 (Senado Federal / Câmara dos Deputados).
 - **HINTZE, Arend**: *Understanding the Four Types of AI*, Michigan State University.
 - **Relatórios Técnicos do Tribunal de Contas da União (TCU)** e **Câmara dos Deputados**: Documentação dos sistemas Alice, Sofia, Victor e Ulysses.
+
+> **Nota de revisão (11/11/2026):** correções dirigidas aos achados TI-001, TI-002, TI-004 e TI-007 da auditoria da Câmara. Referências normativas: [EBIA, MCTI](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/inteligencia-artificial/) e [LGPD, art. 20, texto atualizado](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html). Restam pendentes auditoria integral, checagem das atribuições concretas aos sistemas citados e homologação dos itens inéditos.

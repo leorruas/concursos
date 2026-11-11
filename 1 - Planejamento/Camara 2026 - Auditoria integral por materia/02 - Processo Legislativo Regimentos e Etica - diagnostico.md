@@ -2039,3 +2039,12 @@ Para cada um, o verificador exige cópia local em `_site`, busca o arquivo no Pa
 
 
 **Ajuste de integridade do Mermaid na mesma rodada:** commit `c86b113dbdcd88c08b0f13ff4e9a50b6915b7f19` restaurou o rótulo explícito do nó `I5` (discussão e votação após parecer e instrução), que havia se tornado implícito na edição anterior. A verificação conclusiva precisa confirmar novamente todos os nós e ligações; o ajuste não altera o mérito jurídico, os gabaritos nem o `articleId`.
+
+
+### Parecer de encerramento: DC34 (11/11/2026)
+
+**DECISÃO FINAL: APROVADO COM RESSALVAS PARA ESTUDO. AUDITORIA ENCERRADA.** Artigo: `3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md`. Commit de encerramento: `b255c007e978e08c04e8bdf3b334344fa568a293`.
+
+**Fundamentação:** foram executadas diversas rodadas de correção e checagem das classificações de infrações e penas, competência sancionatória, composição do Conselho, prazos, defesa, recursos, conflito entre redações de normas e fluxograma; seis gabaritos autorais preservados e conferidos quanto aos núcleos normativos (**E/C/C/E/E/E**); `articleId` preservado (`art-5b41764164052519`). O último fluxograma havia sido conferido estruturalmente com 52 nós definidos e nenhuma referência sem definição. Fontes principais: [Código de Ética consolidado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html), [RICD consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e Regulamento do Conselho.
+
+**Ressalvas que permanecem registradas:** não se comprovou teste de **renderização visual efetiva do Mermaid**; a revisão tampouco constitui validação independente de cada linha do artigo e de todas as fontes citadas. Não há declaração de certificação jurídica exaustiva. Tais limitações foram consideradas não bloqueantes para o **uso educacional**. Encerrar as correções incrementais do DC34 nesta frente; reabrir somente diante de identificação fundamentada de **erro jurídico material**, atualização normativa ou falha efetiva de exibição que comprometa a compreensão. Os demais artigos e relatórios de agentes paralelos permanecem fora deste escopo.

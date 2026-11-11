@@ -1682,6 +1682,134 @@
       "statement": "O fato de o Congresso Nacional apreciar o projeto de Lei de Diretrizes Orçamentárias federal é compatível com a iniciativa reservada ao Poder Executivo.",
       "correctAnswer": "C",
       "explanation": "Iniciar o processo com o envio do projeto e apreciar seu conteúdo são competências distintas. O Executivo inicia e o Legislativo aprecia."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / gramática relevante à compreensão",
+      "conceptId": "foco-informacional",
+      "mechanism": "identificar-foco-da-passiva",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#1. Estrutura Canônica da Voz Passiva e Foco Informacional"
+      ],
+      "statement": "“A regional office issued the notice.” In “The notice was issued by a regional office”, the notice becomes the grammatical subject and the issuing office remains explicit.",
+      "correctAnswer": "C",
+      "explanation": "Na passiva, the notice ocupa a posição de sujeito. A expressão by a regional office mantém explícito o agente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / gramática relevante à compreensão",
+      "conceptId": "agente-da-passiva",
+      "mechanism": "inferir-agente-omitido",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#1. Estrutura Canônica da Voz Passiva e Foco Informacional"
+      ],
+      "statement": "The bulletin says, “The application was rejected yesterday.” The sentence identifies the director as the person who rejected it.",
+      "correctAnswer": "E",
+      "explanation": "A frase informa a rejeição e seu momento. Sem agente expresso, não permite identificar quem a rejeitou."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / gramática relevante à compreensão",
+      "conceptId": "aspecto-progressivo",
+      "mechanism": "preservar-acao-em-curso",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#2. Tabela de Transposição de Tempos Verbais para a Voz Passiva"
+      ],
+      "statement": "“Technicians are inspecting the lifts.” The rewrite “The lifts are being inspected by technicians” preserves the ongoing nature of the inspection.",
+      "correctAnswer": "C",
+      "explanation": "Are being inspected é a passiva no presente progressivo. O processo continua descrito como em andamento."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / gramática relevante à compreensão",
+      "conceptId": "voz-passiva-modal",
+      "mechanism": "trocar-possibilidade-por-obrigacao",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#2. Tabela de Transposição de Tempos Verbais para a Voz Passiva"
+      ],
+      "statement": "“The board might revise the timetable.” The rewrite “The timetable must be revised by the board” preserves the degree of certainty or obligation.",
+      "correctAnswer": "E",
+      "explanation": "Might expressa possibilidade. Must introduz uma força modal diferente, como obrigação no contexto da frase reescrita."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / gramática relevante à compreensão",
+      "conceptId": "passiva-e-futuro",
+      "mechanism": "preservar-referencia-temporal",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#2. Tabela de Transposição de Tempos Verbais para a Voz Passiva"
+      ],
+      "statement": "“The laboratory will release the results on Monday.” The rewrite “The results will be released by the laboratory on Monday” keeps the stated release date.",
+      "correctAnswer": "C",
+      "explanation": "Will be released mantém a referência futura e on Monday conserva o momento anunciado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / gramática relevante à compreensão",
+      "conceptId": "passiva-e-aspecto",
+      "mechanism": "trocar-acao-em-curso-por-conclusao",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#2. Tabela de Transposição de Tempos Verbais para a Voz Passiva"
+      ],
+      "statement": "“The report is being translated.” The rewrite “The report has been translated” leaves the stage of the translation unchanged.",
+      "correctAnswer": "E",
+      "explanation": "Is being translated descreve o trabalho em curso. Has been translated apresenta a tradução como concluída."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / gramática relevante à compreensão",
+      "conceptId": "transitividade",
+      "mechanism": "criar-sujeito-passivo-sem-objeto",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#3. Particularidades da Voz Passiva no Padrão Cebraspe"
+      ],
+      "statement": "In “The visitors arrived at noon”, the phrase “at noon” indicates time. It cannot be promoted to the subject by applying the ordinary object-to-subject passive transformation.",
+      "correctAnswer": "C",
+      "explanation": "At noon é um adjunto temporal, e arrive não tem objeto direto nessa frase. A transformação descrita requer um objeto."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / gramática relevante à compreensão",
+      "conceptId": "passiva-e-tempo-verbal",
+      "mechanism": "preservar-anterioridade-passada",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#2. Tabela de Transposição de Tempos Verbais para a Voz Passiva"
+      ],
+      "statement": "“The team had checked the figures before publication.” The rewrite “The figures were being checked before publication” preserves the indication that the check was already complete.",
+      "correctAnswer": "E",
+      "explanation": "Had checked situa a verificação como anterior e concluída. Were being checked descreve o processo em andamento no momento passado."
     }
   ]
 }

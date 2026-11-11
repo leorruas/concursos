@@ -341,3 +341,73 @@ O Regulamento originalmente aprovado em 2001 **de fato contém** o prazo de **5 
 - **A-PL-034 (IMPORTANTE: representação de processo versus consulta).** O Regulamento art.6 trata da autuação de *consultas*; não transportar seus prazos ao processo disciplinar do art.14 do Código. Este erro é particularmente suscetível ao padrão C/E.
 
 **Situação:** o cotejo documental específico de **Q3 e Q4** foi realizado, encerrando as duas pendências de referência do bloco 7 em seus fundamentos centrais. Permanece **pendente** validação jurídica integral do DC34, incluindo demais remissões do Regulamento, acordo atual e jurisprudência. Material de estudo não alterado. Ao retomar, completar Código arts.3–18 e Regulamento quanto à vigência residual, depois estruturar as 33 unidades CAM-PL para diagnóstico integral.
+
+
+## Bloco 9: Acordo de Procedimentos 2025–2027 e primeira matriz das 33 unidades (11/11/2026)
+
+### Fonte independente e método
+
+Examinado o documento oficial [Acordo de Procedimentos do Conselho de Ética, biênio 2025–2027](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027-1/view), 180 linhas extraídas, e a [ata de aprovação de 08/07/2025](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/atas/atas-de-reunioes-2025/ata-8-de-julho-de-2025-eleicao-do-2deg-vice-presidente-e-instauracao-do-processo-em-desfavor-do-deputado-gilvan-da-federal). **A captura visual do PDF via screenshot falhou**; os pontos decisivos foram confirmados na ata HTML oficial, publicada separadamente. Também recuperada a seção `PL: Processo Legislativo e Regimentos (33 candidatos)` da arquitetura editorial pública. Isso permite mapeamento de identidades, **não** validação exaustiva de todos os dispositivos e todos os itens C/E.
+
+### Novo erro normativo confirmado em DC34
+
+**NC-PL-013, CRÍTICO, maioria de presença confundida com maioria de aprovação.** O texto `DC34 > ##5 > 5. Parecer, votação no Conselho e substituição de relatoria` afirma: **“O parecer é deliberado em sessão pública, por votação nominal e maioria absoluta dos membros do Conselho.”** O Acordo 2025–2027, item 5, especifica **votação nominal, por MAIORIA SIMPLES, PRESENTE A MAIORIA ABSOLUTA**. A ata de 08/07/2025 ratifica o mesmo procedimento. A expressão do artigo é inadequada como regra de aprovação: confunde quórum de presença com votos favoráveis necessários. A distinção deve ser aplicada na correção do texto, Mermaid e matrizes de competências, separando Conselho de Ética de votação final pelo Plenário da Câmara sobre perda de mandato. Fonte: acordo, linhas 116–122; ata, linhas 49–51.
+
+### Regras confirmadas pelo Acordo e ausentes ou insuficientes no DC34
+
+- **A-PL-035, IMPORTANTE: três prazos com funções distintas.** Parecer **preliminar** do relator em **10 dias úteis desde designação**; **vista** em **2 dias úteis** após a leitura do voto e antes do início da votação. Não confundir com os 10 dias úteis de parecer após instrução do rito de sanções graves. Fonte: acordo, item 3.
+- **A-PL-036, IMPORTANTE: escolha de relator.** Acordo afasta, para fins de sorteio, blocos parlamentares e considera **partido/federação** do representado; contempla também incompatibilidade com agremiação representante e alteração aprovada em 05/08/2025 relativa a requerimento do líder aprovado pela Mesa. **Titulares e suplentes** participam do sorteio, sob requisitos do art.13. O enunciado Q3 do DC34 permanece correto no seu núcleo (mesmo partido/Estado é vedado), mas a explicação é incompleta para casos envolvendo **federações e representação partidária**. Fonte: acordo, item 2, e ata de 08/07/2025.
+- **A-PL-037, IMPORTANTE: votação e direção.** O Presidente do Conselho **somente vota para desempatar**, embora sua presença conte para quórum; voto do relator divulgado quando lido em reunião. Acordo, item 5. Distinto do Corregedor, que participa **sem voto** por força do Código.
+- **A-PL-038, IMPORTANTE: reuniões e pauta.** Reuniões não deliberativas para instaurar processo, sortear lista tríplice e ouvir testemunhas são públicas e não requerem quórum. O acordo prevê procedimento especial para **sobrestamento de pauta** por processos atrasados e para **suspensão cautelar temporária**, com janela de 3 dias úteis, além de regras para documentos sigilosos e divulgação de peças no SILEG. Essas regras especiais não devem ser confundidas com o procedimento geral de suspensão do mandato após julgamento do mérito. Fonte: acordo, itens 1, 6, e ata de 08/07/2025.
+- **A-PL-039, IMPORTANTE: limite hierárquico e temporal.** Acordo de procedimentos organiza trabalhos do biênio; **não substitui** Constituição, Código de Ética ou Regimento. Ao revisar a nota, indicar hierarquia e objeto exato de cada regra, bem como verificar qualquer alteração posterior ao texto de 2025 antes de proclamar atualidade em 2027.
+
+### Matriz editorial inicial: 33 unidades CAM-PL × arquivo público
+
+A correspondência abaixo deriva da **descrição literal da arquitetura** e dos `articleId`, títulos, cabeçalhos, aliases ou subtítulos dos **29 arquivos efetivamente recuperados**. Referências de `DCnn` significam `3 - Materias/Direito Constitucional/nn - [título vigente].md` na pasta já inventariada. **Estado da matriz: identidade/cobertura alegada, não correção ou suficiência normativas**.
+
+| Candidato | Unidade planejada (resumo) | Evidência e destino observado | Estado editorial |
+| --- | --- | --- | --- |
+| 001 | Proposições | DC11 | Correspondente |
+| 002 | Iniciativa | DC12 | Correspondente |
+| 003 | Tramitação | DC13 | Correspondente |
+| 004 | Comissões | DC14 | Correspondente |
+| 005 | Pareceres | DC15 | Correspondente |
+| 006 | Discussão e votação | DC16 | Correspondente |
+| 007 | Sanção e veto | DC17 | Correspondente |
+| 008 | Procedimento ordinário | Refinamento identificado em DC13 | Incorporado |
+| 009 | Abreviado/sumário | DC18 | Correspondente |
+| 010 | Sumaríssimo/especial/concentrado | DC19 | Correspondente |
+| 011 | Leis ordinária e complementar | Expansão em DC10 | Incorporado |
+| 012 | Lei delegada | DC20 | Correspondente |
+| 013 | MP: pressupostos | DC21 | Correspondente |
+| 014 | Decreto legislativo/resolução | DC22 | Correspondente |
+| 015 | PEC | Refinamento em DC10 | Incorporado |
+| 016 | Indicações e requerimentos | Refinamento em DC11 | Incorporado |
+| 017 | Sujeitos da iniciativa | Refinamento em DC12 | Incorporado |
+| 018 | Fiscalização contábil | Refinamento em DC06; complementar DC37 | Incorporado e transversal |
+| 019 | Regimento Câmara arts.1–24 | DC23 | Correspondente |
+| 020 | Mesa e órgãos arts.1–24 | **DC23 contém objeto**, mas o subtítulo de DC14 usa `CAM-PL-020` para **comissões 25–54** | **Colisão de código; resolver** |
+| 021 | Sessões arts.65–94 | DC24 arts.65–80 e DC25 arts.81–94 | **Dividido entre dois arquivos** |
+| 022 | Deputados arts.226–251 | DC26; **DC25 também se autodenomina CAM-PL-022, mas cobre 81–105** | **Colisão de código; resolver** |
+| 023 | Administração arts.262–273 | DC27 | Correspondente |
+| 024 | Mapa de estrutura e tópicos específicos | DC28 | Correspondente |
+| 025 | Regimento Comum Título I | DC29 | Correspondente |
+| 026 | RCCN Título IV cap.II/III até 103 | DC30 | Correspondente |
+| 027 | Res.1/1970-CN | DC31 | Correspondente |
+| 028 | Res.3/1990-CN | DC32 | Correspondente |
+| 029 | Res.1/2002-CN | DC33 | Correspondente |
+| 030 | Código de Ética | DC34 | Correspondente **COM ERROS CRÍTICOS** |
+| 031 | CPI | DC35 | Correspondente |
+| 032 | Comparação de espécies | DC36 | Correspondente |
+| 033 | Controle parlamentar | DC37 | Correspondente |
+
+**Síntese quantitativa responsável:** 33 candidatos editoriais correspondem a **29 arquivos únicos** recuperados na trilha (DC11–37 = 27, mais DC06/DC10). Vários candidatos são expansões dentro do mesmo arquivo; **nenhuma lacuna de ARQUIVO obrigatória está confirmada apenas pela ausência de um arquivo autônomo**. Existem duas **colisões confirmadas de identidade** (020 e 022), uma distribuição transversal da unidade 021 e um risco jurídico grave em DC34. A tabela não substitui cruzamento final com o **edital oficial literal e suas retificações**.
+
+### Próximo passo técnico e editorial
+
+1. Verificar a existência de alterações posteriores no acordo e incluir a regra específica de suspensão cautelar temporária na conferência do RICD.
+2. Encerrar revisão integral de todas as remissões do DC34, com prioridade às competências punitivas e prazos, e produzir proposta consolidada de correção **sem editar o artigo nesta fase**.
+3. Executar cotejo exaustivo, arquivo por arquivo, dos demais 28 textos, seus itens, precedentes e regras especiais.
+4. Amarrar matriz de 33 unidades ao **texto oficial literal do edital** e às retificações, separando exigência básica, específica e aprofundamento complementar.
+
+**Estado após bloco 9:** matriz de **identidade** de 33 unidades publicada; cobertura temática **ainda não certificada**. Em DC34, novo erro crítico de quórum confirmado. Nenhum artigo de estudo alterado.

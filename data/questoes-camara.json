@@ -2642,6 +2642,102 @@
       "statement": "Muitos visitantes chegam à última etapa de um cadastro e desistem diante de uma mensagem de erro. Testar o formulário é uma forma de investigar se uma barreira operacional contribui para as desistências.",
       "correctAnswer": "C",
       "explanation": "A desistência nesse ponto indica onde procurar. Reproduzir a falha ajuda a verificar se o cadastro cria uma barreira, antes de atribuir o resultado à campanha."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes e representação política",
+      "conceptId": "modelos-de-democracia",
+      "mechanism": "tratar-modelos-como-excludentes",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#As três perguntas: autoridade, participação e justificação"
+      ],
+      "statement": "Um conselho eleito mantém a decisão final sobre um plano, enquanto moradores podem discutir propostas em reuniões abertas. Nesse desenho, representação e participação podem coexistir.",
+      "correctAnswer": "C",
+      "explanation": "A eleição autoriza os conselheiros a decidir. As reuniões acrescentam participação na formação das propostas, sem eliminar a representação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes e representação política",
+      "conceptId": "escada-de-arnstein",
+      "mechanism": "confundir-consulta-com-poder-decisorio",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#Sherry Arnstein: oito degraus e três faixas de poder"
+      ],
+      "statement": "Em um processo que recolhe sugestões de moradores, mas conserva toda a decisão com a administração, o volume de sugestões é suficiente para classificar o processo como delegação de poder na escala de Arnstein.",
+      "correctAnswer": "E",
+      "explanation": "A escala distingue graus de influência sobre a decisão. O volume de manifestações não demonstra transferência de autoridade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes e representação política",
+      "conceptId": "cubo-da-democracia",
+      "mechanism": "inferir-influencia-de-acesso",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#Archon Fung: cubo da democracia, três eixos independentes"
+      ],
+      "statement": "Uma oficina aberta a qualquer interessado pode ter acesso amplo e influência apenas consultiva. Essas características são compatíveis no modelo de Archon Fung.",
+      "correctAnswer": "C",
+      "explanation": "O modelo separa quem participa de quanto poder ou influência o processo tem. Uma dimensão não determina a outra."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes e representação política",
+      "conceptId": "deliberacao",
+      "mechanism": "confundir-agregacao-com-troca-de-razoes",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#Deliberação: o que distingue discussão de mera soma de votos?"
+      ],
+      "statement": "Uma enquete recolhe votos simultâneos e divulga apenas o total. Mesmo sem oportunidade de discutir razões, a soma dos votos caracteriza por si só um processo deliberativo.",
+      "correctAnswer": "E",
+      "explanation": "A enquete agrega preferências. A deliberação envolve apresentar, examinar e responder a razões."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes e representação política",
+      "conceptId": "reciprocidade-deliberativa",
+      "mechanism": "exigir-unanimidade",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#Amy Gutmann e Dennis Thompson: reciprocidade e desacordo moral"
+      ],
+      "statement": "Participantes podem justificar suas propostas uns aos outros, examinar objeções e manter um desacordo ao fim. A persistência do desacordo é compatível com um processo deliberativo.",
+      "correctAnswer": "C",
+      "explanation": "A troca de razões pode esclarecer posições e justificar decisões mesmo quando não produz unanimidade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes e representação política",
+      "conceptId": "avaliacao-da-participacao",
+      "mechanism": "confundir-contagem-com-inclusao",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#Como avaliar a qualidade de um processo participativo"
+      ],
+      "statement": "Um formulário recebeu dez mil contribuições. Esse total, sozinho, demonstra que pessoas sem conexão doméstica tiveram condições equivalentes de participar.",
+      "correctAnswer": "E",
+      "explanation": "O total mede volume. Verificar inclusão exige observar acesso, barreiras e a participação dos grupos afetados."
     }
   ]
 }

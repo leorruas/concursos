@@ -183,6 +183,19 @@ O **parágrafo único do art. 2º** remete expressamente ao glossário do **Anex
 
 **Fonte:** [Anexo Único: glossário oficial do Ato da Mesa nº 218/2025 (PDF)](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-anexo-cd-mesa.pdf), conferido em 11/11/2026; [art. 2º da publicação original](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html). As remissões ao Ato nº 80/2019 e à OS nº 7/2025 continuam pendentes de exame próprio.
 
+## Conferência de remissões: Ato nº 80/2019 e Ordem de Serviço Direx nº 7/2025
+
+**Distinção de fonte essencial:** o **art. 12, parágrafo único, do Ato da Mesa nº 218/2025** remete especificamente às **vedações do parágrafo único do art. 24 do Ato da Mesa nº 80/2019**. Não remete genericamente a todas as regras de eventos nem à Ordem de Serviço Direx nº 7/2025. O Ato nº 80/2019 trata de eventos e produtos gráficos e bibliográficos no âmbito das comissões. Sua [ficha oficial](https://www2.camara.leg.br/legin/int/atomes/2019/atodamesa-80-4-junho-2019-788269-norma-cd-mesa.html) informa não haver revogação expressa. **A redação exata das vedações do art. 24, parágrafo único, permanece pendente de cotejo direto:** não extrapolar seu conteúdo a partir apenas da ementa.
+
+A [Ordem de Serviço Direx nº 7, de 22/12/2025](https://www2.camara.leg.br/legin/int/ordser/2025/ordemdeservico-7-22-dezembro-2025-798598-publicacaooriginal-177618-direx.html) foi localizada em fonte oficial. Ela estabelece **procedimentos operacionais para o Programa de Visitação Institucional**, envolvendo supervisão, servidores, colaboradores terceirizados e turnos. Trata-se de objeto administrativo específico e de ato distinto do Ato nº 80/2019. Não transformar suas regras de visitação em regra universal de conteúdo ou de política editorial da Câmara. Sua relevância para o programa de Comunicação deve ser avaliada pelo objeto concreto do edital e pelo Manual.
+
+**Treino C/E inédito:**
+
+- **A.** O art. 12 do Ato nº 218/2025 faz referência expressa às vedações do parágrafo único do art. 24 do Ato nº 80/2019. **Certo.** O dispositivo remissivo identifica esse recorte preciso.
+- **B.** A Ordem de Serviço Direx nº 7/2025 substituiu o Ato nº 218/2025 e passou a disciplinar todas as publicações institucionais da Câmara. **Errado.** A OS regula visitação institucional, sem que sua ementa ou objeto sustentem tal substituição.
+
+**Situação da auditoria:** identificação e escopo documental conferidos; conteúdo literal do parágrafo único do art. 24 do Ato nº 80/2019 ainda pendente. Fontes: [Ato nº 218/2025, art. 12](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), [Ato nº 80/2019, ficha](https://www2.camara.leg.br/legin/int/atomes/2019/atodamesa-80-4-junho-2019-788269-norma-cd-mesa.html) e [OS Direx nº 7/2025](https://www2.camara.leg.br/legin/int/ordser/2025/ordemdeservico-7-22-dezembro-2025-798598-publicacaooriginal-177618-direx.html).
+
 ## Fontes, versão e lacunas delimitadas
 
 - CÂMARA DOS DEPUTADOS. [Ato da Mesa nº 218/2025, texto da publicação original](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), arts. 1º a 16.
@@ -190,4 +203,4 @@ O **parágrafo único do art. 2º** remete expressamente ao glossário do **Anex
 - BRASIL. [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), arts. 37, § 1º, e 221, apenas nas conexões expressamente indicadas.
 - BRASIL. [Lei nº 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) (LGPD), citada pela política.
 
-**Lacunas de verificação:** o glossário do Anexo Único foi conferido diretamente e integrado acima. As vedações adicionais remetidas ao Ato da Mesa nº 80/2019 e a Ordem de Serviço nº 7/2025 continuam requerendo leitura direta antes de serem detalhadas. Nenhuma definição ou obrigação adicional desses textos foi presumida. A publicação do artigo é editorial e técnica e não demonstra estudo, resposta a itens ou retenção pessoal.
+**Lacunas de verificação:** o glossário do Anexo Único foi conferido diretamente e integrado acima. A remissão ao Ato nº 80/2019 e o objeto da OS Direx nº 7/2025 foram identificados e delimitados acima. Falta conferir o texto literal do art. 24, parágrafo único, do Ato nº 80/2019, e examinar os demais dispositivos pertinentes à aplicação da política. Nenhuma definição ou obrigação adicional desses textos foi presumida. A publicação do artigo é editorial e técnica e não demonstra estudo, resposta a itens ou retenção pessoal.

@@ -5,7 +5,7 @@ title: "Distribuição e avaliação de publicações"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Distribuição e avaliação de publicações
@@ -139,6 +139,23 @@ O **Integrated Evaluation Framework** da AMEC, desenvolvido para avaliar comunic
 A nota [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|94]] apresenta a estrutura completa da AMEC e limites de causalidade. **Não confundir "out-take" com "output":** ouvir, notar ou interpretar uma mensagem pertence à recepção, enquanto produzir e entregar materiais pertence ao produto/atividade de comunicação. **Outcome × impacto:** mudança mais direta em públicos versus contribuição ampla, com outras causas relevantes.
 
 **Exemplo:** 5 mil downloads são eventos de acesso à publicação; 72% de acertos em teste de identificação de etapas legislativas entre participantes selecionados é evidência de compreensão **na população estudada**; aumento de participação em audiências é resultado institucional mais amplo e depende de fatores como calendário, interesse, barreiras e meios disponíveis.
+
+## Auditoria de métricas: denominadores e níveis de resultado (11/11/2026)
+
+O [Integrated Evaluation Framework da AMEC](https://amecorg.com/amecframework/) separa **inputs, activities, outputs, out-takes, outcomes e impact**. Na documentação de planejamento, *out-takes* descrevem a recepção inicial, incluindo atenção, lembrança e compreensão; *outcomes* tratam de efeitos nos públicos, como atitudes, confiança, intenção ou mudanças posteriores de compreensão; impacto corresponde à contribuição para objetivos organizacionais ou sociais. A presença da palavra “compreensão” em mais de um nível **não é contradição automática**: a classificação exige explicitar momento, método e resultado observado, em vez de aplicar rótulo apenas pelo nome da métrica.
+
+**Definição dos denominadores antes da interpretação:**
+
+| Indicador | Numerador | Denominador | Limite |
+| --- | --- | --- | --- |
+| Taxa de entrega física | Exemplares comprovadamente entregues a unidades ou destinatários segundo controle | Exemplares destinados à distribuição | Entrega a uma unidade não prova leitura por pessoa |
+| Taxa de abertura de publicação digital | Sessões ou eventos identificados de abertura conforme instrumentação | Sessões elegíveis expostas à oportunidade de abrir, na mesma janela e método | Eventos não são leitores únicos; evitar denominadores de canais distintos |
+| Sucesso de tarefa com leitores | Participantes que concluíram corretamente a tarefa definida | Participantes elegíveis que efetivamente a realizaram no estudo | A porcentagem vale para os participantes e condições do teste; não representa automaticamente toda a população |
+| Taxa de resposta à pesquisa | Respostas válidas pelo critério declarado | Pessoas elegíveis efetivamente convidadas, identificadas sem duplicidade | Link aberto sem universo de convidados identificado não autoriza taxa de resposta populacional |
+
+**Caso de prova:** 800 downloads por 400 sessões não autorizam declarar “200% dos cidadãos compreenderam”, pois a fração usa eventos diferentes e nenhuma medida de compreensão. Para inferir impacto, ainda são necessários dados sobre público, comportamento ou objetivo institucional e desenho de avaliação adequado.
+
+**Cotejo dos itens 1, 2, 4 e 5 existentes:** seus gabaritos (**Certo, Errado, Errado e Certo**) são coerentes com a separação entre tiragem, eventos, pessoas, recepção e resultado do framework. **Não há alegação de certificação dos demais exercícios**, e as taxas propostas são exemplos operacionais, não fórmulas oficiais obrigatórias da AMEC. Fonte complementar: [AMEC, explicação de outputs, out-takes, outcomes e impacts](https://amecorg.com/amecframework/home/supporting-material/planning/).
 
 ## Avaliação de eficiência, eficácia e efetividade
 

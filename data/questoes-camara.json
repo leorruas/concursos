@@ -2738,6 +2738,102 @@
       "statement": "Um formulário recebeu dez mil contribuições. Esse total, sozinho, demonstra que pessoas sem conexão doméstica tiveram condições equivalentes de participar.",
       "correctAnswer": "E",
       "explanation": "O total mede volume. Verificar inclusão exige observar acesso, barreiras e a participação dos grupos afetados."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes",
+      "conceptId": "funcao-tipica-e-atipica",
+      "mechanism": "classificar-pela-atividade",
+      "theoryRefs": [
+        "article:art-9f63c2e71a4b508d#Função típica, função atípica e competência constitucional"
+      ],
+      "statement": "Quando um parlamento organiza escalas de trabalho de seus servidores, exerce uma atividade administrativa, embora a função típica do órgão seja legislativa.",
+      "correctAnswer": "C",
+      "explanation": "A classificação acompanha a natureza da atividade. A organização dos próprios serviços integra a administração interna do parlamento."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes",
+      "conceptId": "funcao-tipica-e-atipica",
+      "mechanism": "confundir-orgao-com-natureza-da-funcao",
+      "theoryRefs": [
+        "article:art-9f63c2e71a4b508d#Função típica, função atípica e competência constitucional"
+      ],
+      "statement": "O fato de uma decisão partir de um órgão judicial basta para classificá-la como exercício da função jurisdicional, mesmo quando ela apenas organiza o uso das salas de trabalho.",
+      "correctAnswer": "E",
+      "explanation": "Organizar instalações é atividade administrativa. O órgão pode exercer atividades de naturezas diferentes."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes",
+      "conceptId": "freios-e-contrapesos",
+      "mechanism": "distinguir-controle-de-subordinacao",
+      "theoryRefs": [
+        "article:art-9f63c2e71a4b508d#Freios e contrapesos: mecanismo, iniciativa, objeto e efeito"
+      ],
+      "statement": "Em um desenho institucional hipotético, uma segunda autoridade pode devolver um ato para nova análise, mas não pode substituir livremente a decisão inicial. Esse poder pode funcionar como freio mesmo sem criar subordinação geral entre as autoridades.",
+      "correctAnswer": "C",
+      "explanation": "A devolução condiciona o procedimento em um ponto específico. Ela não estabelece poder hierárquico sobre todas as decisões da primeira autoridade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes",
+      "conceptId": "efeito-do-controle",
+      "mechanism": "confundir-suspensao-com-extincao",
+      "theoryRefs": [
+        "article:art-9f63c2e71a4b508d#Freios e contrapesos: mecanismo, iniciativa, objeto e efeito"
+      ],
+      "statement": "Se uma regra atribui a determinado controle apenas efeito suspensivo até a revisão do ato, a suspensão equivale à retirada definitiva do ato.",
+      "correctAnswer": "E",
+      "explanation": "A suspensão interrompe os efeitos temporariamente. A retirada definitiva depende de outra decisão ou de regra que lhe atribua esse efeito."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes",
+      "conceptId": "separacao-horizontal-e-federalismo",
+      "mechanism": "distinguir-eixo-territorial-do-funcional",
+      "theoryRefs": [
+        "article:art-9f63c2e71a4b508d#Separação horizontal, federalismo e controle democrático"
+      ],
+      "statement": "Distribuir competências entre o governo nacional e governos regionais trata de um eixo diferente daquele que distingue Executivo, Legislativo e Judiciário dentro do mesmo nível de governo.",
+      "correctAnswer": "C",
+      "explanation": "O primeiro recorte é territorial. O segundo distribui funções e competências entre poderes."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes",
+      "conceptId": "separacao-horizontal-e-federalismo",
+      "mechanism": "inferir-federalismo-de-divisao-funcional",
+      "theoryRefs": [
+        "article:art-9f63c2e71a4b508d#Separação horizontal, federalismo e controle democrático"
+      ],
+      "statement": "Um país que separa as funções executiva, legislativa e judicial necessariamente adota uma federação.",
+      "correctAnswer": "E",
+      "explanation": "A separação funcional pode existir em um Estado unitário. A classificação como federação depende da distribuição territorial de poder."
     }
   ]
 }

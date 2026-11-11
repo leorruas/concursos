@@ -151,7 +151,7 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 > O conceito de dados abertos no âmbito da governança digital pressupõe a disponibilização de dados públicos em formatos estruturados e legíveis por máquina, como CSV e JSON, garantindo-se o livre acesso, o reuso e a distribuição por qualquer cidadão, respeitadas as salvaguardas legais de sigilo e privacidade.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Definição legal e doutrinária precisa de dados abertos (*Open Data*). Dados abertos devem ser disponibilizados em formatos abertos e não proprietários, processáveis por computador, permitindo a auditabilidade social dos gastos públicos.
+- **Fundamentação**: Dados abertos devem facilitar acesso, processamento automatizado e reutilização, com formatos adequados e licenças compatíveis. **CSV e JSON** são exemplos usuais de formatos estruturados, mas o formato isolado não basta: também importam documentação, acessibilidade e ausência de restrições indevidas, respeitados sigilo e proteção de dados.
 
 ---
 
@@ -159,7 +159,7 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 > No serviço público federal, a assinatura eletrônica simples, como o uso de login e senha em portais governamentais, é admitida de forma irrestrita para qualquer ato oficial, inclusive para a edição de atos normativos com força de lei e a transferência de domínio de bens imóveis da União.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: A Lei nº 14.063/2020 veda expressamente o uso de assinaturas simples para atos solenes, transferência de imóveis e edição de atos de chefia de poder, exigindo nesses casos assinaturas avançadas ou, obrigatoriamente, assinaturas qualificadas com certificado ICP-Brasil.
+- **Fundamentação**: A Lei nº 14.063/2020, **art. 5º, §§ 1º e 2º**, limita o uso de assinatura simples a interações de menor impacto e prevê assinatura **qualificada** para atos assinados por chefes de Poder e autoridades ali indicadas, bem como para transferência e registro de bens imóveis, ressalvadas as exceções legais. Assim, é falso dizer que a assinatura simples é admitida **irrestritamente**. O artigo não estabelece uma proibição genérica com a expressão “todo ato normativo com força de lei”; verificar o **signatário** e a hipótese legal é mais preciso. Fonte: [Lei 14.063/2020, texto atualizado](https://www2.camara.leg.br/legin/fed/lei/2020/lei-14063-23-setembro-2020-790659-normaatualizada-pl.html).
 
 ---
 
@@ -167,7 +167,7 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 > O dever funcional do servidor público de manter o sigilo sobre assuntos da repartição abrange a proteção de suas credenciais de acesso, sendo a cessão de senha a estagiários ou terceiros conduta passível de apuração disciplinar, em razão da quebra da autenticidade e do não repúdio nos sistemas informatizados.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Perfeito. A credencial de acesso digital é estritamente pessoal. O compartilhamento compromete a rastreabilidade e a irretratabilidade das transações registradas no sistema, violando os deveres de lealdade e observância das normas legais previstos na Lei nº 8.112/1990.
+- **Fundamentação**: Compartilhar credenciais pessoais **prejudica a atribuição confiável das ações** e pode violar políticas de segurança e deveres funcionais, conforme vínculo e regulamento aplicáveis. A possibilidade de apuração disciplinar descrita no item é plausível, mas a consequência jurídica depende de investigação e enquadramento concretos; não se presume automaticamente autoria ou sanção apenas por uso da senha.
 
 ---
 
@@ -197,3 +197,5 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 > **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.
 
 > **Validação jurídica, segunda passagem (11/11/2026):** Questão 1: o núcleo de simplificação documental e interoperabilidade é compatível com a [Lei 14.129/2021, arts. 3º e 24](https://www2.camara.leg.br/legin/fed/lei/2021/lei-14129-29-marco-2021-791203-normaatualizada-pl.html). **Gabarito CERTO preservado com ressalva de redação**, especialmente quanto à validade da prova, alcance dos órgãos e possibilidade jurídica/técnica de compartilhamento. A questão deverá ser reescrita antes de servir como referência literal de dispositivo.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** seis questões examinadas, gabaritos mantidos **C, E, E, C, E, C** com ressalvas. Q5 teve a fundamentação confrontada com o **art. 5º da Lei 14.063/2020** para remover referência legal excessivamente genérica. Q1 conserva a ressalva anterior sobre condições de interoperabilidade, antes de uso como enunciado literal.

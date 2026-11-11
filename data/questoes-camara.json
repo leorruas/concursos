@@ -338,6 +338,102 @@
       "statement": "A frase “A comissão adiou para julho a apresentação prevista para junho” pressupõe que a apresentação já havia ocorrido em junho.",
       "correctAnswer": "E",
       "explanation": "O adiamento recai sobre uma apresentação planejada. A informação anterior necessária é a previsão para junho, sem pressupor a realização naquele mês."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual",
+      "conceptId": "anafora",
+      "mechanism": "retomada-de-expressao",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#2.2. Referência Endofórica (Anáfora e Catáfora)"
+      ],
+      "statement": "Em “A relatora apresentou duas emendas. A parlamentar explicou o impacto de ambas”, a expressão “a parlamentar” pode funcionar como retomada de “a relatora”, sem exigir a introdução de uma segunda pessoa.",
+      "correctAnswer": "C",
+      "explanation": "As duas descrições são compatíveis com a mesma pessoa e a continuidade do texto sustenta a retomada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual",
+      "conceptId": "catafora",
+      "mechanism": "direcao-da-referencia",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#2.2. Referência Endofórica (Anáfora e Catáfora)"
+      ],
+      "statement": "Em “Só isto preocupava a equipe: o atraso na tradução dos documentos”, o demonstrativo “isto” é anafórico, pois recupera uma informação apresentada antes dele.",
+      "correctAnswer": "E",
+      "explanation": "O conteúdo de “isto” aparece depois dos dois-pontos. O demonstrativo antecipa essa informação e funciona como catáfora."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual",
+      "conceptId": "deixis",
+      "mechanism": "ancoragem-temporal",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#2.1. Referência Exofórica (Dêixis)"
+      ],
+      "statement": "Uma mensagem isolada diz “O formulário será liberado amanhã”. Sem a data de produção da mensagem ou outro contexto temporal, o leitor não consegue converter “amanhã” em uma data determinada.",
+      "correctAnswer": "C",
+      "explanation": "“Amanhã” indica o dia seguinte ao da enunciação. A expressão depende desse ponto de referência para identificar uma data."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual",
+      "conceptId": "anafora-encapsuladora",
+      "mechanism": "escopo-da-retomada",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#4.1. Anáfora Encapsuladora (Rotulização Conceitual)"
+      ],
+      "statement": "Em “A equipe reduziu o formulário de vinte para seis campos. Essa simplificação facilitou o preenchimento”, “essa simplificação” retoma somente o número seis.",
+      "correctAnswer": "E",
+      "explanation": "A expressão resume a redução no número de campos. O numeral seis é apenas uma parte da informação retomada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual",
+      "conceptId": "anafora-associativa",
+      "mechanism": "distinguir-associacao-de-identidade",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#4.2. Anáfora Associativa"
+      ],
+      "statement": "Em “A equipe abriu uma nova biblioteca. O balcão de empréstimos ficará à esquerda da entrada”, a referência ao balcão pode ser interpretada por associação com a biblioteca, embora as duas expressões designem objetos distintos.",
+      "correctAnswer": "C",
+      "explanation": "O leitor infere a relação do balcão com a biblioteca. A compreensão depende da associação entre as entidades, que têm referentes diferentes."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual",
+      "conceptId": "anafora-ambigua",
+      "mechanism": "presumir-antecedente-mais-proximo",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#Caso 1: Ambiguidade de Referência Pronominal e Falso \"Termo Mais Próximo\""
+      ],
+      "statement": "No trecho isolado “A revisora enviou o texto à coordenadora antes de ela sair”, o pronome “ela” tem necessariamente “a coordenadora” como antecedente, por ser o termo feminino mais próximo.",
+      "correctAnswer": "E",
+      "explanation": "A revisora e a coordenadora são antecedentes gramaticalmente possíveis. O contexto precisa esclarecer quem saiu."
     }
   ]
 }

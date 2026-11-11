@@ -5,7 +5,7 @@ title: "Contexto e interpretação na situação comunicativa"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Contexto e interpretação na situação comunicativa
@@ -89,6 +89,16 @@ Em um diagnóstico de comunicação institucional, apontar o fato que gerou ambi
 ## Heurísticas
 
 Quando um enunciado parecer claro “fora de contexto”, procurar referências relativas, termos institucionais, pressupostos e trechos que foram separados do original. A pergunta prática é: **o que o destinatário precisa saber, além das palavras, para interpretar esta mensagem?**
+
+## Auditoria de contexto e inferência: Jakobson e enunciados institucionais (11/11/2026)
+
+Em [*Linguistics and Poetics* (1960), de Roman Jakobson, texto integral consultável em Princeton](https://commons.princeton.edu/eng266-s25/wp-content/uploads/sites/433/2025/04/Jakobson-Linguistics-and-Poetics.pdf), os seis fatores da comunicação verbal incluem explicitamente **contexto, código e contato**, e o próprio autor esclarece que as funções não precisam aparecer isoladamente. O uso de **contexto**, nesta nota, abrange a relação do que é dito com o referente e com as condições necessárias para a mensagem operar. **Cotexto linguístico, contexto situacional e sociocultural** são classificações **didáticas interdisciplinares**, não três subdivisões formalmente enunciadas por Jakobson nesse texto.
+
+**Aplicação institucional examinada como hipótese:** em aviso que informa “a reunião foi transferida para amanhã”, o termo “amanhã” depende da **data da emissão**, que pode se perder em captura de tela ou compartilhamento posterior. A mensagem pode ser idêntica e os resultados de interpretação divergirem. A solução editorial possível é publicar **data completa, local e referência temporal explícita** quando houver risco de redistribuição; isso deriva da análise do exemplo, **não de comando literal de Jakobson**. Mensagens precisas continuam exigindo avaliação da compreensão no público real; não basta a intenção da organização.
+
+**C/E inéditos:** **1.** “Ao redistribuir um aviso com a palavra amanhã sem data da emissão, sua interpretação temporal pode mudar mesmo que nenhum caractere do texto tenha sido alterado.” **Certo**. **2.** “A divisão em cotexto, contexto situacional e contexto sociocultural reproduz literalmente as três subcategorias de Jakobson no artigo de 1960.” **Errado**. **3.** “Uma mensagem sobre audiência pública, por estar tecnicamente correta, garante que todo destinatário construa o mesmo sentido independentemente de sua situação e repertório.” **Errado**.
+
+**Limites:** conexão com Jakobson diretamente confirmada no texto de 1960; a divisão em três planos permanece ferramenta editorial. Não foram inferidos dados reais de compreensão de usuários do site da Câmara nem desempenho concreto de campanhas.
 
 ## Fontes e recorte
 

@@ -86,7 +86,7 @@ export function mergeSessions(legacy, sessions) {
       const id = `${s.id}-q${q.number}`;
       assert(!ids.has(id), `Questão duplicada: ${id}`); ids.add(id);
       return { ...q, id, sourceId: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
-        checkpointSchema: s.schemaVersion, subjectId: s.subjectId, unitId: q.unitId || s.unitId, trainingMode: s.trainingMode, result: q.annulled ? 'annulled' : q.userAnswer === null ? 'blank' : q.userAnswer === q.correctAnswer ? 'correct' : 'incorrect', errorType: q.errorType ? errors[q.errorType] : null };
+        checkpointSchema: s.schemaVersion, subjectId: s.subjectId === 'diagnostico-misto' ? (q.subjectId || null) : s.subjectId, unitId: s.unitId === 'diagnostico-misto' ? (q.unitId || null) : (q.unitId || s.unitId), trainingMode: s.trainingMode, result: q.annulled ? 'annulled' : q.userAnswer === null ? 'blank' : q.userAnswer === q.correctAnswer ? 'correct' : 'incorrect', errorType: q.errorType ? errors[q.errorType] : null };
     });
     const counts = {new:0,thematic:0,mechanical:0,exact:0};
     qs.forEach(q => counts[q.repetition.classification]++);

@@ -127,7 +127,9 @@ A Constituição estabelece tratamento diferente para atos e contratos.
 - no caso de **contrato**, a sustação cabe inicialmente ao Congresso Nacional, que solicita ao Executivo as medidas cabíveis;
 - se Congresso ou Executivo não adotarem as medidas no prazo constitucional de 90 dias, o Tribunal decide a respeito.
 
-Essa diferença é um distrator excelente porque a banca troca “ato” por “contrato”.
+**Uma terceira categoria deve ser separada da sustação definitiva: o poder cautelar do TCU.** O STF reconhece que o Tribunal pode, por decisão fundamentada e proporcional, determinar **medidas preventivas à Administração** para evitar dano ao erário e garantir a utilidade de suas decisões. A competência cautelar **não depende automaticamente do transcurso de 90 dias** do art. 71, § 2º, que rege a atuação subsidiária na sustação constitucional de contratos. Uma cautelar de suspensão temporária de repasses, uma ordem à Administração para corrigir ilegalidade e a **anulação ou sustação definitiva de contrato pelo próprio TCU** têm fundamentos e limites diferentes. Conferir os fatos antes de concluir que qualquer cautelar sobre a execução contratual invade competência do Congresso. Fontes: [STF, art. 71 e MS 24.510](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=71&abrirBase=CF); aprofundamento em [[3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas|DC37, seção 5.2 e Caso 4]].
+
+Essa diferença é um distrator excelente porque a banca troca “ato” por “contrato” **ou confunde sustação definitiva e medida cautelar**.
 
 ## TCU não é Poder Judiciário
 
@@ -211,6 +213,8 @@ O mesmo art. 70 estabelece os **critérios**: **legalidade** (conformidade norma
 **Art. 71, IX e X:** diante de **ilegalidade**, o TCU pode **assinar prazo** para providências de exato cumprimento da lei. Se não atendido, pode **sustar a execução do ato impugnado** e comunicar a decisão à Câmara e ao Senado.
 
 **Art. 71, §§ 1º e 2º:** **no caso de contrato**, o ato de sustação é adotado **diretamente pelo Congresso Nacional**, que solicita imediatamente ao Executivo as medidas cabíveis. Se **Congresso ou Executivo não efetivarem as medidas em 90 dias**, o **TCU decide a respeito**. O prazo de **90 dias** aqui não é o mesmo dos **cinco e trinta dias** do art. 72.
+
+**Poder cautelar (STF, MS 24.510):** o TCU dispõe de medidas preventivas fundamentadas para evitar lesões ao erário e preservar a eficácia de suas deliberações, incluindo providências dirigidas à Administração em contratos. Essa competência não equivale à **anulação direta ou sustação definitiva** de contrato pelo Tribunal nem se sujeita automaticamente ao prazo de **90 dias** do § 2º. Estudar a distinção também no [[3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas|DC37]].
 
 **Art. 71, §§ 3º e 4º:** decisões do TCU de que resulte **imputação de débito ou multa têm eficácia de título executivo**. O TCU envia ao Congresso **relatórios trimestrais e anuais**. Título executivo não quer dizer que o próprio TCU se transforme em Poder Judiciário ou que toda observação de auditoria seja multa.
 

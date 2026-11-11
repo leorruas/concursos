@@ -5,7 +5,7 @@ title: "🆕 História da mídia, do jornalismo e da comunicação empresarial n
 type: "conceito"
 status: "ativo"
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-11-11
 ---
 
 # 🆕 História da mídia, do jornalismo e da comunicação empresarial no Brasil
@@ -104,6 +104,16 @@ Na Dataprev 2024, a banca concentrou várias questões em repertório histórico
 - Boletim Light/Nossa Estrada → pioneirismo × planejamento empresarial.
 
 O padrão mistura **ano + instituição + perfil + pessoa + função**, produzindo alternativas parcialmente verdadeiras.
+
+## Conferência historiográfica: Aberje e profissionalização da comunicação (11/11/2026)
+
+A fonte primária de autoria [Paulo Nassar, *Aberje 40 anos: uma história da Comunicação Organizacional brasileira* (*Organicom*, 2007)](https://revistas.usp.br/organicom/pt_BR/article/view/138940) identifica **8 de outubro de 1967** como marco de fundação da Aberje. O texto descreve a passagem de uma atividade inicialmente concentrada em **boletins, jornais empresariais e informação aos trabalhadores** para um campo articulado com administração, ciências sociais, tecnologia e estratégia. Isso é um **processo histórico de ampliação da profissão**, não demonstra que comunicações internas anteriores a 1967 não existissem no Brasil.
+
+Outro artigo de [Nassar, Farias e Oliveira, *Cenário histórico das relações públicas no Brasil* (*Organicom*, 2016)](https://revistas.usp.br/organicom/pt_BR/article/view/139324/) localiza **1914** como marco do primeiro departamento corporativo de Relações Públicas no país e destaca expansão do campo a partir dos anos 1950, além de reconhecer a regulamentação da profissão em **1967**. Esses eventos dizem respeito a **história de relações públicas e de comunicação organizacional**, mas **não são datas de criação do marketing nem do jornalismo brasileiro**.
+
+**Fronteira de evidência histórica:** a presente nota contém tabelas de periodização de Sérgio Mattos, apresentadores do *Jornal Nacional*, fases do *Jornal do Brasil* e a dupla David Nasser/Jean Manzon em *O Cruzeiro*. Esses trechos provêm das referências já listadas e **não foram todos recotejados nesta rodada**. A indicação de que uma alternativa FGV 2024 teria grafado “Jean Manson” é um registro **do artigo anterior**, cujo número de item e caderno/gabarito não foram localizados diretamente nesta passagem; **não substituí a grafia histórica correta “Jean Manzon”**.
+
+**Três C/E inéditos:** **(1)** “A fundação da Aberje em 1967 demonstra que não havia antes desse ano qualquer publicação empresarial ou comunicação interna no Brasil.” **Errado:** marco associativo não equivale a criação absoluta da prática. **(2)** “Segundo Nassar (2007), a trajetória da comunicação organizacional brasileira ampliou um campo inicialmente centrado em publicações internas para atividades relacionadas a questões estratégicas e sociais.” **Certo.** **(3)** “O marco histórico de um departamento corporativo de relações públicas no Brasil em 1914 pode ser tratado automaticamente como a data de fundação da Aberje.” **Errado:** objetos institucionais e datas diferentes.
 
 ## Relações com outros temas
 

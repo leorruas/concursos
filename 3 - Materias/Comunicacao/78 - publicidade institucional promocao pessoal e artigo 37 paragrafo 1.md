@@ -5,7 +5,7 @@ title: "Publicidade institucional, promoção pessoal e art. 37, § 1º, da Cons
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Publicidade institucional, promoção pessoal e art. 37, § 1º, da Constituição
@@ -143,6 +143,19 @@ Este roteiro é **heurística didática**, e não fluxo de aprovação formal da
 [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria|CAM-CO-025]] diferencia comunicação pública, governamental, institucional e político-partidária; [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|CAM-CO-026]] analisa a política própria da Câmara; [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|CAM-CO-027]] aborda os critérios editoriais do Manual; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|CAM-CO-024]] diferencia divulgação de dever de acesso à informação.
 
 **Heurísticas:** ato, programa, serviço ou campanha + finalidade educativa/informativa/orientação social → publicidade institucional constitucionalmente admitida, desde que ausente promoção pessoal; identificação factual não é automaticamente promoção; exaltação individual em peça oficial exige escrutínio; ausência de nome não afasta favorecimento político; período eleitoral acrescenta regime específico sem substituir a vedação permanente.
+
+## Complemento normativo: vedações remetidas pelo Ato nº 218/2025
+
+O **art. 12, parágrafo único, do Ato da Mesa nº 218/2025** incorpora aos produtos de comunicação da Câmara as oito vedações do **art. 24, parágrafo único, do Ato da Mesa nº 80/2019**. Esse rol deve ser aplicado em conjunto com o **art. 37, § 1º, da Constituição**, mas cada dispositivo possui objeto próprio. O primeiro proíbe, entre outros pontos, propaganda político-partidária, eleitoral, sindical e comercial, enaltecimento pessoal mesmo ligado à atividade parlamentar, conteúdo discriminatório, publicação não autorizada de material protegido, informação com acesso restrito e referência a site externo cujo conteúdo incorra nessas vedações.
+
+**Situação de fronteira:** uma peça que não destaca o nome de uma autoridade pode, ainda assim, descumprir a política ao conter propaganda comercial ou remeter a site externo vedado. Inversamente, uma peça sem esses conteúdos ainda deve observar a finalidade educativa, informativa ou de orientação social e a impessoalidade constitucional.
+
+**Treino C/E inédito:**
+
+- **I.** A ausência de promoção pessoal basta para demonstrar conformidade integral de uma peça institucional com todas as vedações do Ato nº 218/2025. **Errado.** O art. 12 remete a diversas outras hipóteses do Ato nº 80/2019.
+- **II.** A vedação de enaltecimento pessoal também alcança conteúdo que associe o elogio à atuação parlamentar ou administrativa. **Certo.** É o recorte do inciso III do art. 24, parágrafo único.
+
+**Fontes oficiais:** [Constituição, art. 37, § 1º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), [Ato nº 218/2025, art. 12](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), [Ato nº 80/2019, art. 24](https://www2.camara.leg.br/legin/int/atomes/2019/atodamesa-80-4-junho-2019-788269-normaatualizada-cd-mesa.html), consultados em 11/11/2026. Para o rol discriminado por inciso, veja [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Ato da Mesa nº 218/2025]]. Estes exercícios são inéditos e não questões históricas da Cebraspe.
 
 ## Fontes e delimitação
 

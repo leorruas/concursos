@@ -19,7 +19,7 @@ updated: 2026-11-11
 | Matéria/trilha | Estado | Artigos lidos nesta auditoria | Críticos confirmados | Relatório | Próxima ação |
 | --- | --- | --- | --- | --- | --- |
 | Inventário geral e ordem das 13 trilhas | Em curso | Inventário PL parcial | Não avaliado | Este índice | Concluir cruzamento de todas as trilhas |
-| Processo Legislativo, Regimentos e Ética | Parcialmente verificado | DC 11–17: inspeção estrutural e cotejo normativo delimitado; nenhum integralmente concluído | Nenhum confirmado | [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/02 - Processo Legislativo Regimentos e Etica - diagnostico|Relatório PL]] | Concluir fontes e itens de DC 11–17, avançar DC 18–22 |
+| Processo Legislativo, Regimentos e Ética | Parcialmente verificado | DC 11–22: inspeção estrutural e cotejo normativo delimitado; nenhum integralmente concluído | Nenhum confirmado | [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/02 - Processo Legislativo Regimentos e Etica - diagnostico|Relatório PL]] | Completar cotejo DC 11–22; avançar DC 23–28 |
 | Demais matérias | Pendentes | Nenhum | Não avaliado | A criar por matéria | Seguir a ordem fundamentada |
 
 **Convenção de estado:** pendente; em curso; parcialmente verificado; concluído (somente após cobertura total); bloqueado. Em cada atualização substituir estes registros genéricos pelos nomes efetivos das matérias e conservar a lista exata de arquivos lidos, pendentes e localizadores de achados. Não publicar dados individuais de aprendizagem.
@@ -41,3 +41,8 @@ A frente de Processo Legislativo inspecionou também DC 14 (Comissões), DC 15 (
 ## Comunicação Social e Divulgação Institucional: registro desta conversa (11/11/2026)
 
 **Estado: parcialmente verificado, não concluído.** [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/02 - Comunicacao Social e Divulgacao Institucional - Fase 1|Relatório de Comunicação, Fase 1]]. Foram recuperadas 128 entradas do índice de `3 - Materias/Comunicacao` (incluída uma referência bibliográfica); seus títulos, tamanhos e sumários foram inspecionados. Houve leitura complementar parcial de `72`, `123` e `124`. **Nenhuma leitura crítica integral de todas as entradas, auditoria item a item nem cobertura final está comprovada.** Lacuna normativa identificada: o artigo `72` reconhece como não examinados o anexo do Ato nº 218/2025 e normas complementares. Pendentes: edital nº 1 oficial na íntegra, artigos compartilhados de outras pastas, texto de cada artigo e cada gabarito, fontes primárias e discursivas. Artigos não modificados. Preservar todo o progresso das demais conversas e atualizar este parágrafo por nova leitura e SHA.
+
+
+## Checkpoint de 11/11/2026: bloco 3 (Processo Legislativo)
+
+Cotejado o núcleo do DC17 com CF art.66 no portal oficial da Câmara. Inspecionados DC18–22 (procedimentos abreviado/sumário, sumaríssimo/especial/concentrado, lei delegada, medida provisória, projetos de decreto legislativo e resolução) e confrontados pontos centrais com CF arts.64/68, RICD art.155 e explicação oficial do Congresso sobre MPs. Detalhes, fontes, matrizes parciais e pendências no [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/02 - Processo Legislativo Regimentos e Etica - diagnostico|relatório próprio]]. **DC11–22 localizados e examinados parcialmente; nenhum artigo integralmente validado, nenhuma falha crítica confirmada, nenhum artigo alterado.** Próxima etapa: finalizar conferências normativas e dos gabaritos, avançar DC23–28. Preservar atualizações de outras conversas.

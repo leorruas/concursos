@@ -5,7 +5,7 @@ title: "Lei 12.737/2012 — delitos informáticos"
 type: "conceito"
 status: "ativo"
 created: 2026-09-14
-updated: 2026-09-30
+updated: 2026-11-11
 ---
 
 # Lei 12.737/2012 — delitos informáticos
@@ -14,7 +14,7 @@ updated: 2026-09-30
 
 A Lei nº 12.737/2012, conhecida pela associação ao caso Carolina Dieckmann, tipificou condutas ligadas a delitos informáticos e alterou o Código Penal.
 
-Para a Dataprev, o recorte do edital é o **art. 2º da Lei nº 12.737/2012**. Esse artigo inseriu no Código Penal dois dispositivos:
+Para a **Dataprev**, o recorte indicado neste material é o **art. 2º da Lei nº 12.737/2012**. O texto abaixo mantém esse foco para o certame de origem. Na auditoria da **Câmara dos Deputados 2026**, a Lei nº 12.737/2012 **não foi identificada nominalmente no bloco de Tecnologia da Informação e Dados**, de modo que este artigo serve como aprofundamento jurídico transversal, sem comprovação de cobrança específica para a Câmara. O art. 2º inseriu no Código Penal dois dispositivos:
 
 - **art. 154-A**: invasão de dispositivo informático;
 - **art. 154-B**: regra de ação penal aplicável aos crimes do art. 154-A.
@@ -37,7 +37,7 @@ Essas finalidades são:
 - destruir dados ou informações sem autorização; ou
 - instalar vulnerabilidades para obter vantagem ilícita.
 
-A pena atual do tipo básico é de **reclusão de 1 a 4 anos e multa**.
+Na redação vigente consultada, a pena do tipo básico é de **reclusão de 1 a 4 anos e multa**.
 
 > [!IMPORTANT]
 > A Lei nº 12.737/2012 criou o tipo, mas a redação vigente do art. 154-A foi alterada pela Lei nº 14.155/2021. Em prova, é preciso distinguir a redação original de 2012 da redação atual do Código Penal.
@@ -79,7 +79,7 @@ Há pena mais grave quando da invasão resulta:
 - obtenção de informações sigilosas definidas em lei; ou
 - controle remoto não autorizado do dispositivo invadido.
 
-Pena atual: **reclusão de 2 a 5 anos e multa**.
+Pena prevista no §3º: **reclusão de 2 a 5 anos e multa**.
 
 ### §4º: divulgação, comercialização ou transmissão
 
@@ -197,7 +197,7 @@ A propriedade do hardware, isoladamente, não resolve o enquadramento. Seria nec
 
 ---
 
-## Como a FGV pode cobrar
+## Como a FGV pode cobrar (recorte Dataprev)
 
 ### 1. Mecanismo de segurança
 
@@ -308,3 +308,5 @@ Para os parágrafos:
 - Lei nº 14.155/2021: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14155.htm
 - LGPD, art. 6º: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm
 - Repositório JusLaboris/TST, literatura sobre monitoramento de e-mail corporativo: https://juslaboris.tst.jus.br/
+
+> **Nota de checagem (11/11/2026):** confirmadas as formulações centrais dos arts. 154-A e 154-B na [versão do Código Penal publicada pelo Senado](https://legis.senado.gov.br/norma/527942/publicacao/39870011). Artigo mantido como material originalmente preparado para a Dataprev/FGV; sua inclusão no hub de Informática **não implica** exigência literal no edital da Câmara. Sem mudança dos tipos penais, penas ou exemplos além da identificação de escopo.

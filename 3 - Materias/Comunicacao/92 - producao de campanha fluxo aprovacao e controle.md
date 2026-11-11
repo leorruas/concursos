@@ -5,7 +5,7 @@ title: "Produção de campanha: fluxo, aprovação e controle"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Produção de campanha: fluxo, aprovação e controle
@@ -133,6 +133,22 @@ A [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e 
 
 **Gabarito: Errado.** Mudanças substantivas exigem controle proporcional e as validações pertinentes. Aprovação de versão não legitima qualquer conteúdo derivado.
 
+## Auditoria jurídica dirigida: supervisão da agência, fiscalização e comunicação institucional (11/11/2026)
+
+**Fontes oficiais cotejadas:** [Ato da Mesa nº 218/2025, arts. 1º, 9º e 12](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html) e [Lei nº 12.232/2010, texto atualizado disponibilizado pelo Senado](https://legis.senado.gov.br/norma/575874/publicacao/35916945), especialmente arts. 2º, 14, 15, 17 e 20-A. A lei distingue **supervisão da execução externa de publicidade**, atividade prevista no art. 2º, de **fiscalização do contrato pela Administração**. O art. 14, § 2º, por exemplo, menciona fiscalização do contratante na abertura de orçamentos de terceiros quando aplicável. O art. 15 exige documentação para pagamento da veiculação; o art. 17 determina à agência manter acervo comprobatório por, no mínimo, cinco anos após a extinção do contrato.
+
+**Ponto novo e relevante:** os arts. **20-A e 20-B**, acrescidos pela **Lei nº 14.356/2022**, disciplinam também a **contratação de serviços de comunicação institucional** (relações com a imprensa e relações públicas, com o alcance previsto na lei), incluindo certas atividades digitais. Isso não autoriza inserir indiscriminadamente tais serviços no objeto de um contrato de publicidade do art. 2º: são **regimes e objetos que precisam ser identificados**. O § 3º do art. 20-A ressalva a possibilidade de prestação dos serviços por servidores públicos. Para prova, identificar o dispositivo e o objeto **antes** de classificar a atribuição.
+
+| Item existente | Gabarito | Evidência |
+| --- | --- | --- |
+| 1 | **Certo** | O art. 9º, § 3º, do Ato 218/2025 exige procedimentos de checagem, revisão e aprovação para conteúdo de canais próprios ou plataformas privadas. |
+| 2 | **Errado** | O art. 2º da Lei 12.232 prevê supervisão técnica da execução externa da publicidade, sem transferir automaticamente à agência competências administrativas de fiscalização do contratante. |
+| 3 | **Errado** | A aprovação não se estende automaticamente a alterações posteriores de datas, condições ou informação; a norma exige precisão e procedimentos de controle, embora não descreva um fluxo universal idêntico de reapreciação de toda edição. |
+
+**Correção de fonte e de escopo:** a referência usada anteriormente apenas aos arts. 2º e seguintes não dava visibilidade aos arts. 20-A e 20-B, acrescentados em 2022. Acrescentá-los é importante para impedir que a distinção entre publicidade e comunicação institucional seja ensinada como exclusão absoluta de qualquer contratação sob a Lei 12.232. **Item C/E adicional, inédito:** “A previsão de supervisão da execução externa no art. 2º da Lei 12.232/2010 transforma a agência em fiscal administrativa do contrato e elimina a competência do contratante para conferir a veiculação.” **Errado.**
+
+**Nota de leitura da própria fonte:** o art. 7º, XVII, do Ato 218/2025 contém, na publicação consultada, a referência escrita “Lei n. 13.079” para a LGPD. Trata-se de discrepância textual da publicação, pois a **LGPD é a Lei nº 13.709/2018**; em resposta sobre legislação, distinguir a grafia constante do ato da identificação correta da lei. Não foi afirmada retificação formal dessa publicação.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|CAM-DI-010]]: articulação entre áreas e instâncias. [[3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias|CAM-DI-013]]: precedências e marcos. [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|CAM-DI-008]]: direção da criação. [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|CAM-DI-012]]: distribuição e medidas.
@@ -142,7 +158,7 @@ A [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e 
 ## Fontes e delimitação
 
 - CÂMARA DOS DEPUTADOS. [Ato da Mesa nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), especialmente arts. 1º, 5º, 9º, 12 e 14.
-- BRASIL. [Lei nº 12.232/2010](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm), art. 2º, caput e §§ 1º e 2º.
+- BRASIL. [Lei nº 12.232/2010, texto atualizado (Senado)](https://legis.senado.gov.br/norma/575874/publicacao/35916945): arts. 2º, 14, 15, 17 e 20-A/20-B, estes acrescidos pela Lei nº 14.356/2022.
 - CÂMARA DOS DEPUTADOS. [Normas da política de comunicação](https://www2.camara.leg.br/comunicacao/politica-de-comunicacao/normativos).
 - BRASIL. [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), art. 37, § 1º.
 

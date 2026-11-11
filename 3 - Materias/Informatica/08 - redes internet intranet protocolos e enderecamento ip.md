@@ -5,7 +5,7 @@ title: "Redes de computadores: internet, intranet, extranet, protocolos TCP/IP e
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Redes de computadores: internet, intranet, extranet, protocolos TCP/IP e endereçamento IPv4 e IPv6
@@ -41,7 +41,7 @@ flowchart TD
 | :--- | :--- | :--- | :--- | :--- |
 | **Internet** | A rede mundial de computadores interconectados (*rede pública*) | Qualquer cidadão no mundo | Pilha TCP/IP, DNS, HTTP/HTTPS | Aberto, irrestrito e não proprietário |
 | **Intranet** | Rede corporativa privada de acesso estritamente interno de uma instituição | Funcionários e servidores do órgão | **Exatamente a mesma pilha TCP/IP da Internet** | Restrito à rede local física ou autenticação corporativa |
-| **Extranet** | Extensão segura da intranet acessível remotamente por usuários externos autorizados | Fornecedores, órgãos públicos parceiros, servidores em teletrabalho | TCP/IP, VPN (*Virtual Private Network*), TLS | Restrito mediante credenciais específicas e criptografia |
+| **Extranet** | Ambiente de acesso controlado a recursos institucionais compartilhados com usuários ou organizações externas autorizadas | Parceiros, fornecedores e conveniados | TCP/IP, VPN (*Virtual Private Network*), TLS, conforme a arquitetura | Restrito mediante políticas de acesso; acesso remoto de servidor por VPN à intranet não caracteriza necessariamente extranet |
 
 > **Pegadinha Clássica do Cebraspe:**
 > A banca frequentemente afirma que *"a intranet não utiliza os protocolos da internet por razões de segurança, adotando protocolos proprietários fechados"*. **Isso é FALSO!** A intranet utiliza exatamente os mesmos protocolos da internet (HTTP, HTTPS, FTP, SMTP, TCP, IP). A segurança da intranet decorre de mecanismos de filtragem de pacotes (**Firewalls**), listas de controle de acesso (ACL) e autenticação de usuários, e não da invenção de uma tecnologia de rede diferente.
@@ -75,7 +75,7 @@ flowchart TD
 
 ### 3.2 Correio Eletrônico (Envio versus Recebimento)
 O Cebraspe explora intensamente a separação funcional dos protocolos de e-mail:
-- **SMTP (*Simple Mail Transfer Protocol*) — Portas `25` (legada) / `587` (padrão atual com TLS)**: Protocolo de **ENVIO** de mensagens (da máquina do usuário para o servidor e entre servidores de e-mail);
+- **SMTP (*Simple Mail Transfer Protocol*)**: Protocolo de **ENVIO** de mensagens. A porta `25` continua utilizada na transferência entre servidores SMTP; a porta `587` é utilizada com frequência para submissão autenticada de mensagens por clientes, normalmente com STARTTLS conforme a configuração do serviço. Distinguir transmissão entre servidores de submissão por usuário;
 - **POP3 (*Post Office Protocol v3*) — Porta `110` (não segura) / `995` (com SSL/TLS)**: Protocolo de **RECEBIMENTO / BAIXA**: por padrão, baixa as mensagens do servidor para o computador local e as apaga do servidor;
 - **IMAP (*Internet Message Access Protocol*) — Porta `143` (não segura) / `993` (com SSL/TLS)**: Protocolo de **ACESSO / SINCRONIZAÇÃO**: as mensagens permanecem armazenadas no servidor, permitindo que o usuário visualize suas pastas sincronizadas em múltiplos dispositivos (celular, notebook e webmail).
 
@@ -95,7 +95,7 @@ A distinção entre TCP e UDP é uma das matrizes comparativas prediletas do Ceb
 | **Confiabilidade e entrega** | **Confiável**: confirma o recebimento (ACK), retransmite pacotes perdidos e ordena os dados | **Não confiável**: não garante entrega, não retransmite e não ordena pacotes |
 | **Controle de fluxo/congestionamento** | Sim, ajusta a velocidade de envio ao receptor | Não, envia os dados na velocidade máxima do emissor |
 | **Sobrecarga (*Overhead*)** | Maior (cabeçalho de 20 a 60 bytes) | Mínimo (cabeçalho fixo de 8 bytes) |
-| **Casos de uso típicos** | Navegação Web (HTTP/HTTPS), e-mail (SMTP/IMAP), transferência de arquivos (FTP), SSH | Transmissão de vídeo ao vivo (*Streaming*), chamadas de voz sobre IP (VoIP), jogos online, consultas DNS rápidas |
+| **Casos de uso típicos** | HTTP/1.1 e HTTP/2, SMTP/IMAP, FTP, SSH e algumas formas de streaming | DNS em consultas comuns, VoIP, jogos online e QUIC, utilizado pelo HTTP/3. Aplicações podem oferecer confiabilidade sobre UDP, como faz o QUIC. |
 
 ---
 
@@ -125,15 +125,15 @@ flowchart TD
 
 ### Caso 1: Acesso a sistemas da Câmara em regime de teletrabalho
 Uma servidora da Divulgação Institucional da Câmara dos Deputados precisa acessar o sistema interno de tramitação de matérias restrito aos computadores físicos de Brasília. Ela conecta seu notebook pessoal à internet de sua residência e acessa a rede interna da Câmara por meio de um software de **VPN (*Virtual Private Network*)**.
-*Análise:* O cenário descreve perfeitamente o conceito de **Extranet**. A servidora utiliza a infraestrutura pública da **Internet** para criar um túnel criptografado ponto a ponto que a autentica nos servidores da **Intranet** da Casa, garantindo confidencialidade dos dados mesmo trafegando por redes públicas.
+*Análise:* O cenário descreve **acesso remoto à intranet por VPN**. A VPN pode proteger o tráfego em redes públicas, conforme sua configuração e a segurança dos pontos de conexão. O simples acesso de uma servidora à rede interna não transforma necessariamente o ambiente em **extranet**, termo normalmente usado para recursos compartilhados com parceiros externos autorizados.
 
 ### Caso 2: Falha de envio de e-mail por bloqueio de porta
 Um técnico de TI configura uma nova estação de trabalho para envio de comunicados aos servidores. Ele configura o cliente de e-mail para utilizar o protocolo POP3 na porta 25. O software emite erro e não consegue enviar nenhuma mensagem.
-*Análise:* O erro é conceitual e prático. O protocolo **POP3 é exclusivo para recebimento/baixa** de mensagens; ele não tem capacidade de enviar e-mails. O envio exige o protocolo **SMTP**. Ademais, a porta 25 foi descontinuada para submissão de mensagens no Brasil pelo CGI.br, sendo substituída pela porta **587 com autenticação TLS**.
+*Análise:* O erro é conceitual e prático. O protocolo **POP3 é exclusivo para recebimento/baixa** de mensagens; ele não tem capacidade de enviar e-mails. O envio exige o protocolo **SMTP**. A porta **587** é recomendada para submissão autenticada por clientes, conforme configuração do provedor. A porta **25** continua usada para transporte SMTP entre servidores; políticas de bloqueio ou migração de clientes não significam descontinuação universal da porta.
 
 ### Caso 3: Escolha de protocolo para transmissão ao vivo da TV Câmara
 A equipe técnica da Câmara está implementando uma plataforma de *streaming* para transmitir as sessões deliberativas do Plenário em tempo real para a população. A equipe debate se deve utilizar o protocolo TCP ou o protocolo UDP na camada de transporte do áudio e vídeo contínuo.
-*Análise:* Para *streaming* de vídeo ao vivo e comunicação interativa, o protocolo ideal é o **UDP**. Em transmissões em tempo real, a velocidade e a baixa latência são prioritárias; a perda de alguns milissegundos de imagem (que causa no máximo um ruído imperceptível) é preferível a congelar a transmissão para retransmitir pacotes atrasados, o que ocorreria se fosse utilizado o TCP.
+*Análise:* A escolha depende da aplicação e dos requisitos. **UDP** pode favorecer comunicação interativa de baixa latência, mas perdas e congestionamento podem afetar seriamente o vídeo. Muitas transmissões ao vivo usam **HTTP sobre TCP**; outras usam **HTTP/3 sobre QUIC/UDP**, que implementa mecanismos próprios de confiabilidade e controle de fluxo. Portanto, UDP não é universalmente o protocolo ideal para todo streaming.
 
 ### Caso 4: Compressão inválida de endereço IPv6
 Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` da seguinte forma comprimida: `2001::0001::0002`. O sistema operacional rejeita a configuração de rede como inválida.
@@ -216,7 +216,7 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 | **DNS** | Aplicação | Resolução de nomes em endereços IP | 53 (UDP/TCP) |
 | **DHCP** | Aplicação | Configuração dinâmica de IP e parâmetros de rede | 67 / 68 (UDP) |
 | **HTTP** | Aplicação | Navegação web padrão em texto claro | 80 (TCP) |
-| **HTTPS** | Aplicação | Navegação web segura com criptografia TLS | 443 (TCP) |
+| **HTTPS** | Aplicação | Navegação web segura com TLS; HTTP/3 utiliza QUIC sobre UDP | 443 (TCP em HTTP/1.1 e HTTP/2; UDP em HTTP/3) |
 | **FTP** | Aplicação | Transferência de arquivos não criptografada | 20 (dados) / 21 (controle) |
 | **SSH** | Aplicação | Acesso remoto seguro e túneis criptografados | 22 (TCP) |
 | **SMTP** | Aplicação | Envio de mensagens de correio eletrônico | 25 / 587 (TCP) |
@@ -226,3 +226,5 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 | **UDP** | Transporte | Comunicação rápida, sem confirmação e sem conexão | — |
 | **IP** | Rede / Internet | Roteamento e endereçamento de pacotes (IPv4 / IPv6) | — |
 | **ICMP** | Rede / Internet | Mensagens de controle e diagnóstico (comando `ping`) | — |
+
+> **Atualização técnica (11/11/2026):** HTTP/3 usa QUIC, que opera sobre UDP, conforme [RFC 9114](https://www.rfc-editor.org/rfc/rfc9114.html). Alterações pontuais segundo TI-043 e TI-044 da auditoria; questões inéditas ainda não homologadas.

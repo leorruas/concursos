@@ -45,6 +45,8 @@ O Supremo Tribunal Federal firmou tese de repercussão histórica: preenchidos o
 - **Vedação de submissão ao Plenário:** a Mesa Diretora **não pode submeter o requerimento de criação da CPI a votação no Plenário**. Se a maioria pudesse votar contra a instalação de uma CPI subscrita pela minoria regimental de um terço, o instituto da investigação parlamentar seria esvaziado pelo governo do momento;
 - **Retirada de assinaturas:** a retirada de assinaturas do requerimento de CPI é admitida pela prática parlamentar e pelos regimentos até o encerramento da sessão em que for lido o requerimento no expediente. Após a leitura e formalização regimental, o requerimento adquire estabilidade, não operando efeito a desistência posterior que vise a derrubar o quórum de um terço.
 
+**Controle do requerimento pela Presidência (RICD, art. 35, § 2º):** recebido o pedido, o Presidente manda publicá-lo quando preenchidos os requisitos regimentais. Se os requisitos não forem satisfeitos, devolve o requerimento ao autor. **Da devolução cabe recurso ao Plenário em cinco sessões, ouvida a CCJC.** Esse recurso é diferente de exigir votação plenária para autorizar a instalação de uma CPI cujo requerimento já atende aos requisitos constitucionais.
+
 ### B. Fato determinado e o princípio da conexão
 O requerimento deve delimitar os acontecimentos que serão objeto de investigação.
 - O que é fato determinado: acontecimento ou conjunto de eventos conexos de relevante interesse público para a vida política, social, jurídica ou econômica do País;
@@ -160,6 +162,8 @@ Encerrada a instrução probatória, o relator da CPI elabora o **Relatório Fin
 3. **Encaminhamento à Advocacia-Geral da União (AGU) ou Procuradorias Estaduais:** para adoção de medidas civis de ressarcimento ao erário, bloqueio de bens em juízo e propositura de ações de improbidade administrativa;
 4. **Encaminhamento ao Tribunal de Contas da União (TCU):** para a instauração de tomada de contas especial ou aplicação de multas administrativas de sua alçada;
 5. **Iniciativa legislativa:** o relatório da CPI pode propor a apresentação de projetos de lei ordinária, de lei complementar ou de emenda constitucional originários da própria comissão para sanar lacunas legislativas identificadas durante os trabalhos.
+
+**Destinos e prazos do relatório na Câmara (RICD, art. 37):** o relatório circunstanciado deve ser publicado no Diário da Câmara. Conforme a conclusão, é encaminhado à **Mesa**, podendo oferecer projeto de lei, projeto de decreto legislativo, projeto de resolução ou indicação, com inclusão na Ordem do Dia em até **cinco sessões**; ao **Ministério Público ou à AGU**; ao **Poder Executivo** para providências saneadoras; à **comissão permanente pertinente** para acompanhar essas providências; e à **comissão mista do art. 166, § 1º, da CF e ao TCU**. Nos casos dos incisos II, III e V, a remessa compete ao **Presidente da Câmara**, no prazo de **cinco sessões**. O encaminhamento ao MP não o obriga a oferecer denúncia.
 
 ## 7. CPMI: particularidades da Comissão Parlamentar Mista de Inquérito
 

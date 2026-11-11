@@ -5,7 +5,7 @@ title: "Phishing, pharming e engenharia social: técnicas de manipulação, veto
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Phishing, pharming e engenharia social: técnicas de manipulação, vetores e contramedidas
@@ -80,7 +80,7 @@ O **Pharming** é uma modalidade refinada de ataque cibernético que corrompe o 
 | **Comportamento da vítima** | O usuário clica em um link fraudulento ou acessa URL ligeiramente adulterada (*typosquatting*) | O usuário **digita a URL oficial perfeitamente correta** na barra de endereços |
 | **Mecanismo de engodo** | Engenharia social pura induzindo ao clique na isca | Redirecionamento tecnológico silencioso no DNS |
 | **Alcance do comprometimento** | Individual (quem clicar na mensagem) | Coletivo (todos que usam o servidor DNS envenenado) |
-| **Detecção pelo usuário** | Possível pela leitura atenta do remetente e do link | Invisível pela barra de URL; exige checagem rigorosa do **Certificado Digital HTTPS** |
+| **Detecção pelo usuário** | Possível pela leitura atenta do remetente e do link | Pode manter a URL legítima; a validação de **HTTPS/TLS e certificado** pode denunciar desvio, mas depende da integridade do cliente e de uma cadeia de confiança válida |
 
 ---
 
@@ -102,7 +102,7 @@ Além do phishing, o Cebraspe exige o conhecimento de táticas de manipulação 
 ## 4. Contramedidas institucionais e cultura de segurança
 
 A proteção contra engenharia social exige a convergência de tecnologia e capacitação contínua:
-- **Autenticação Multifator (MFA / 2FA)**: Mesmo que o usuário entregue sua senha em uma página de phishing, o criminoso não consegue acessar o sistema sem a posse do token ou biometria;
+- **Autenticação Multifator (MFA / 2FA)**: O MFA acrescenta barreiras quando a senha é capturada, mas certos métodos podem ser alvo de phishing em tempo real, roubo de sessão ou fadiga de aprovação. Métodos resistentes a phishing, como chaves de segurança FIDO2/WebAuthn, oferecem proteção mais forte;
 - **Inspeção de Certificados SSL/TLS (HTTPS) e suas Condições Críticas**:
   - O protocolo HTTPS associado à validação de certificados digitais atua como a principal barreira contra o redirecionamento invisível do pharming, **desde que cumpridas as seguintes condições técnicas**:
     1. **Incompatibilidade de Nome de Domínio (CN / SAN)**: O atacante que redireciona o tráfego para seu servidor não possui o certificado oficial do domínio legítimo (`camara.leg.br`). Se apresentar um certificado emitido para outro domínio sob seu controle (ex.: `camara-falsa.com`), o navegador rejeita a conexão e emite alerta de incompatibilidade (*Name Mismatch*);
@@ -218,3 +218,5 @@ A proteção contra engenharia social exige a convergência de tecnologia e capa
 - **NIST Special Publication 800-63-3**: *Digital Identity Guidelines*.
 - **ABNT NBR ISO/IEC 27002:2022**: Controle 6.3 (Conscientização, treinamento e educação em segurança da informação).
 - **Cartilha de Proteção de Dados da Câmara dos Deputados**: Diretrizes institucionais contra golpes eletrônicos e vazamento de informações.
+
+> **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.

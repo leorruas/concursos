@@ -201,6 +201,25 @@ O texto consultado da Câmara exibe ainda as remissões históricas; a página d
 
 **Errado.** Remissão histórica remanescente não restabelece vigência da legislação geral revogada. **Mecanismo:** confundir texto remissivo e vigência da norma citada.
 
+## Auditoria de gabarito: dez itens cotejados com a lei atualizada (11/11/2026)
+
+Os itens inéditos C/E acima foram confrontados diretamente com a [redação oficial atualizada da Lei nº 12.232/2010](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html). A verificação se restringe às proposições e aos dispositivos citados, sem certificar toda a explicação do artigo.
+
+| Item | Resposta | Base específica e resultado |
+| --- | --- | --- |
+| 1 | Certo | Art. 1º, caput e § 1º: inclui o Legislativo; compatível. |
+| 2 | Errado | Art. 2º, § 1º: atividades complementares **podem** ser incluídas, não são cumulativamente obrigatórias. |
+| 3 | Errado | Art. 2º, § 2º: veda assessoria de imprensa, RP e eventos festivos dentro do objeto de publicidade. |
+| 4 | Certo | Art. 2º, §§ 3º e 4º: adjudicação múltipla facultativa e seleção interna obrigatória quando aplicável. |
+| 5 | Errado | Art. 3º, parágrafo único: pesquisa sem pertinência temática é vedada. |
+| 6 | Errado | Art. 4º, § 1º: certificado pelo CENP ou entidade equivalente reconhecida, e não pelo CONAR. |
+| 7 | Certo | Art. 20-A, § 1º: manutenção de páginas e gestão de redes sociais integram o objeto descrito. |
+| 8 | Errado | Art. 20-A, § 3º: preserva a possibilidade de execução por servidores. |
+| 9 | Certo | Art. 20-A, § 2º: distingue contratação de espaços de mídia das atividades institucionais do caput e § 1º. |
+| 10 | Errado | Arts. 1º, § 2º e 5º, com remissões à antiga Lei nº 8.666/1993: a remissão remanescente não demonstra vigência geral da lei revogada. |
+
+**Resultado delimitado:** os dez gabaritos são compatíveis com os dispositivos conferidos; não houve necessidade de inverter respostas nesta revisão. A análise da aplicação jurídica das remissões antigas e o exame das demais afirmações e fontes do artigo permanecem abertos. Não se trata de questões reais da Cebraspe.
+
 ## Relações com outros temas
 
 **Publicidade integrada × comunicação institucional:** art. 2º versus arts. 20-A e 20-B. **Atividade principal × complementar:** conjunto publicitário do caput e atividades facultativamente incluíveis no § 1º. **Atividade permitida × excluída:** pesquisa, produção de peça e inovação publicitária versus assessoria de imprensa, RP e eventos festivos no objeto do § 2º. **Adjudicação múltipla × seleção interna:** faculdade justificada e procedimento obrigatório posterior. **CENP × CONAR:** certificação técnica de agência e autorregulamentação ética de anúncios. **Compra de mídia × gestão de rede social:** intermediação de espaço e veiculação versus manutenção e operação de canais. **Contratação externa × trabalho de servidor:** possibilidade de contratar não elimina produção interna expressamente preservada pelo art. 20-A, § 3º.

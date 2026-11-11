@@ -2834,6 +2834,102 @@
       "statement": "Um país que separa as funções executiva, legislativa e judicial necessariamente adota uma federação.",
       "correctAnswer": "E",
       "explanation": "A separação funcional pode existir em um Estado unitário. A classificação como federação depende da distribuição territorial de poder."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "conceptId": "virgula-entre-sujeito-e-verbo",
+      "mechanism": "separar-sujeito-longo",
+      "theoryRefs": [
+        "article:art-24350eefe84c43b5#1. Proibições Estritas da Vírgula"
+      ],
+      "statement": "Em “Os pedidos de acesso recebidos no último dia do prazo foram analisados ontem”, inserir uma vírgula depois de “prazo” preservaria a correção gramatical.",
+      "correctAnswer": "E",
+      "explanation": "O trecho que termina em “prazo” é o sujeito de “foram analisados”. Sua extensão não autoriza separá-lo do verbo por vírgula."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "conceptId": "virgula-e-termo-intercalado",
+      "mechanism": "distinguir-intercalacao-de-separacao",
+      "theoryRefs": [
+        "article:art-24350eefe84c43b5#1. Proibições Estritas da Vírgula"
+      ],
+      "statement": "Em “O parecer, segundo a relatora, será publicado amanhã”, as duas vírgulas delimitam um segmento intercalado entre o sujeito e o verbo.",
+      "correctAnswer": "C",
+      "explanation": "O segmento “segundo a relatora” atribui a informação a uma fonte. O par de vírgulas o delimita."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "conceptId": "oracao-adjetiva-restritiva",
+      "mechanism": "avaliar-mudanca-de-escopo",
+      "theoryRefs": [
+        "article:art-24350eefe84c43b5#2. Orações Adjetivas: Restrição vs. Explicação"
+      ],
+      "statement": "Em “Os crachás que perderam a validade serão recolhidos”, isolar a oração relativa com vírgulas preserva a seleção apenas dos crachás vencidos.",
+      "correctAnswer": "E",
+      "explanation": "Sem vírgulas, a relativa seleciona os crachás vencidos. Com vírgulas, o vencimento passa a ser apresentado como informação explicativa sobre os crachás mencionados."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "conceptId": "adjunto-adverbial-deslocado",
+      "mechanism": "identificar-limite-do-adjunto",
+      "theoryRefs": [
+        "article:art-24350eefe84c43b5#3. Adjuntos Adverbiais Deslocados"
+      ],
+      "statement": "Em “Após a conferência das assinaturas na manhã de segunda-feira, a equipe lacrou o envelope”, a vírgula delimita o segmento temporal anteposto.",
+      "correctAnswer": "C",
+      "explanation": "O segmento inicial indica quando ocorreu o lacre. A vírgula marca o fim desse adjunto longo antes do início da oração principal."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "conceptId": "virgula-e-complemento",
+      "mechanism": "separar-verbo-de-objeto",
+      "theoryRefs": [
+        "article:art-24350eefe84c43b5#1. Proibições Estritas da Vírgula"
+      ],
+      "statement": "Em “A equipe encaminhou ao plenário o relatório final”, inserir uma vírgula após “encaminhou” é uma forma adequada de marcar a ordem em que aparecem os complementos.",
+      "correctAnswer": "E",
+      "explanation": "O verbo e seus complementos formam uma unidade sintática. A ordem apresentada não exige nem justifica essa vírgula."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "conceptId": "virgula-e-coordenacao",
+      "mechanism": "reconhecer-fronteira-adversativa",
+      "theoryRefs": [
+        "article:art-24350eefe84c43b5#4. Conjunções Coordenativas e Vírgula"
+      ],
+      "statement": "Em “O formulário estava completo, mas faltava o comprovante”, a vírgula marca o limite antes da oração que introduz uma ressalva.",
+      "correctAnswer": "C",
+      "explanation": "A conjunção “mas” introduz a oração adversativa. A ressalva distingue o preenchimento do formulário da documentação necessária."
     }
   ]
 }

@@ -5,7 +5,7 @@ title: "Atendimento em publicidade: responsabilidades, etapas e decisões"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Atendimento em publicidade: responsabilidades, etapas e decisões
@@ -127,6 +127,12 @@ Indicadores operacionais podem incluir cumprimento de marcos, revisões por falh
 **Item 3.** Em contratação de publicidade por órgão público, o acompanhamento cotidiano da campanha pelo atendimento da agência equivale à fiscalização contratual prevista no art. 117 da Lei nº 14.133/2021, razão pela qual é desnecessária a atuação de representante designado pela Administração.
 
 **Gabarito: Errado.** A relação contratual e as atribuições da Administração são distintas. A fiscalização pública exige agente competente e observância do regime aplicável; o atendimento não assume automaticamente esse papel.
+
+## Calibração por prova real: Correios 2011, elaboração do briefing (11/11/2026)
+
+O **item 72**, no [caderno oficial CESPE/UnB, Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), afirma responsabilidade **exclusiva** do atendimento pela construção do briefing e recebeu **Errado**, conforme o [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/Gab_Definitivo_ECT11_028_83.PDF). A questão testa **exclusividade indevida**: atendimento tem função central na coleta e articulação da demanda, mas o briefing pode exigir contribuições do planejamento, pesquisa, criação, mídia e da área técnica do demandante.
+
+**Consequência didática:** distinguir **quem coordena a coleta e validação da demanda** de **quem fornece informações, revisa o diagnóstico e assume decisões**. O julgamento histórico não cria organograma obrigatório para a Câmara, nem define por si as competências legais de fiscalização e autorização de contratos. [Índice do bloco real 65–80](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md).
 
 ## Relações e heurísticas
 

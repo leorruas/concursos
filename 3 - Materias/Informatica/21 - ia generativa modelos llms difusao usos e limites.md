@@ -5,7 +5,7 @@ title: "Inteligência artificial generativa: arquiteturas, modelos de fundação
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Inteligência artificial generativa: arquiteturas, modelos de fundação, difusão, aplicações e alucinações
@@ -112,7 +112,7 @@ flowchart TD
     R --> V["Viés e Toxicidade Histórica<br>Reprodução de preconceitos presentes na internet"]:::risco
 
     H --> RAG["Mitigação: RAG (Geração Aumentada por Recuperação)<br>Forçar o modelo a responder APENAS com base em documentos anexados"]:::solucoes
-    H --> RH["Supervisão Humana Obrigatória (Human-in-the-Loop)<br>Conferência editorial antes de publicar qualquer ato"]:::solucoes
+    H --> RH["Revisão editorial proporcional ao risco (Human-in-the-Loop quando aplicável)<br>Conferência de fontes antes da publicação"]:::solucoes
 ```
 
 ### 4.1 O Fenômeno da Alucinação (*Hallucination*)
@@ -121,7 +121,7 @@ flowchart TD
 - *Causa matemática*: Como o modelo busca a sequência estatisticamente provável de palavras e não consulta um repositório determinístico de fatos, ele prioriza a fluência sintática em detrimento da veracidade fática.
 
 ### 4.2 Geração Aumentada por Recuperação (RAG - *Retrieval-Augmented Generation*)
-É a principal arquitetura de engenharia para eliminar alucinações em órgãos governamentais:
+É uma arquitetura importante para **reduzir o risco de alucinações** e fornecer evidências verificáveis, mas não garante que a recuperação, interpretação ou geração estejam corretas:
 1. O usuário faz uma pergunta no chat (ex.: *"Qual o quórum para votar a PEC 45?"*);
 2. O sistema faz uma **busca semântica vetorial** no banco de dados oficial da Câmara (Regimento Interno e Constituição Federal) e recupera os trechos exatos pertinentes;
 3. O sistema monta um prompt dinâmico injetando os trechos oficiais recuperados e instrui o LLM: *"Responda à pergunta do usuário utilizando ESTRITAMENTE as informações dos documentos anexados acima. Se a resposta não estiver no texto, declare que não sabe."*
@@ -132,11 +132,11 @@ flowchart TD
 
 ### Caso 1: O release jornalístico com citação inventada
 - **Cenário**: Um redator do portal de notícias da Câmara utiliza um modelo de linguagem aberto para agilizar a redação de uma reportagem sobre a aprovação de uma nova lei de proteção ambiental. O texto gerado é primoroso, mas inclui uma declaração textual do relator da matéria elogiando o Ministério da Fazenda. Posteriormente, constata-se que o parlamentar jamais proferiu aquela frase e que o modelo inventou o depoimento.
-- **Análise**: Ocorrência clássica de **Alucinação (*Hallucination*)**. Por ser um previsor estatístico de tokens, o modelo gerou uma frase verossímil que combinava tematicamente com o contexto legislativo, mas que não correspondia à realidade fática. A falha evidencia a necessidade mandatória de **revisão humana (*Human-in-the-Loop*)** antes de qualquer publicação jornalística institucional.
+- **Análise**: Ocorrência clássica de **Alucinação (*Hallucination*)**. Por ser um previsor estatístico de tokens, o modelo gerou uma frase verossímil que combinava tematicamente com o contexto legislativo, mas que não correspondia à realidade fática. A falha mostra por que é importante estabelecer **verificação editorial de citações e fatos antes de publicar**, com revisão humana conforme o processo, a criticidade e as normas aplicáveis.
 
 ### Caso 2: Resumo de projetos de lei com arquitetura RAG
 - **Cenário**: Para disponibilizar no aplicativo móvel da Câmara um botão que resuma proposições de mais de 200 páginas para os cidadãos, a área de TI recusa conectar o sistema diretamente ao ChatGPT comercial e projeta um pipeline de **RAG**.
-- **Análise**: A decisão técnica é impecável. A arquitetura **RAG** impede que o modelo consulte apenas seu conhecimento parametrizado desatualizado ou alucine dispositivos legais; o sistema recupera os parágrafos reais do PDF da proposição e ancora a geração do resumo exclusivamente nas evidências documentais oficiais da Casa.
+- **Análise**: A arquitetura **RAG** permite recuperar trechos de documentos oficiais antes da geração e, assim, pode reduzir erros de atualização e de referência. Ainda é necessário avaliar a qualidade da busca, a versão dos documentos e a fidelidade do resumo, pois **RAG não impede alucinações**.
 
 ### Caso 3: Discriminação versus Geração de Texto
 - **Cenário**: Em uma questão de prova, indaga-se se um sistema que analisa 100.000 mensagens de e-mail e rotula cada uma com a probabilidade de pertencer à categoria `"Fraude"` ou `"Legítimo"` é um exemplo de IA Generativa.
@@ -144,7 +144,7 @@ flowchart TD
 
 ### Caso 4: O debate sobre direito autoral e imagens parlamentares
 - **Cenário**: A equipe de mídias sociais da Câmara gera ilustrações com ferramentas de Difusão (Midjourney) para campanhas de saúde pública. Cidadãos questionam se as imagens violam direitos autorais de artistas gráficos.
-- **Análise**: O tema envolve a discussão jurídica global sobre o treinamento de modelos de difusão em bilhões de imagens protegidas da internet sem remuneração dos autores originais, reforçando as diretrizes da EBIA e do PL 2.338/2023 quanto à transparência do material utilizado no pré-treinamento e à necessidade de sinalização expressa de que o conteúdo foi gerado por IA.
+- **Análise**: O tema envolve a discussão jurídica global sobre o treinamento de modelos de difusão em bilhões de imagens protegidas da internet sem remuneração dos autores originais, e exige distinguir recomendações de governança, debates sobre direitos autorais e **propostas legislativas**, como as debatidas no PL 2.338/2023, de deveres jurídicos efetivamente vigentes. A existência de obrigação específica de rotulagem depende da norma aplicável.
 
 ---
 
@@ -194,7 +194,7 @@ flowchart TD
 > A publicação de resumos informativos e matérias jornalísticas elaboradas por sistemas de inteligência artificial generativa no portal da Câmara dos Deputados prescinde de revisão humana prévia caso o modelo utilizado conte com mais de cem bilhões de parâmetros, dada a garantia matemática de ausência de viés algorítmico em redes dessa magnitude.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: O aumento no número de parâmetros **não elimina o viés algorítmico nem impede alucinações**. Pelo contrário, modelos maiores podem gerar alucinações ainda mais sofisticadas e difíceis de detectar à primeira vista. A supervisão humana prévia (*Human-in-the-Loop*) é um imperativo ético, jurídico e de governança pública inegociável na Administração Pública.
+- **Fundamentação**: O aumento no número de parâmetros **não elimina o viés algorítmico nem impede alucinações**. Pelo contrário, modelos maiores podem gerar alucinações ainda mais sofisticadas e difíceis de detectar à primeira vista. A revisão de conteúdo institucional sensível é uma medida prudente de governança e controle de qualidade; **não se deve inferir obrigação legal universal de revisão humana prévia** apenas pelo uso de IA generativa.
 
 ---
 
@@ -223,3 +223,5 @@ flowchart TD
 - **GOODFELLOW, Ian et al.**: *Generative Adversarial Nets* (2014). NeurIPS.
 - **LEWIS, Patrick et al.**: *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* (2020). NeurIPS.
 - **Estratégia Brasileira de Inteligência Artificial (EBIA)**: Portaria MCTI nº 4.617/2021.
+
+> **Revisão técnica e jurídica (11/11/2026):** RAG reduz riscos, mas não elimina alucinações; requisitos de revisão humana e de transparência dependem do caso e do regime aplicável. Exemplos institucionais são hipotéticos. Alterações harmonizadas com as ressalvas já identificadas na auditoria de IA da Câmara.

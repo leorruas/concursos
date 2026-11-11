@@ -5,12 +5,12 @@ title: "Marco Civil da Internet"
 type: "conceito"
 status: "ativo"
 created: 2026-08-31
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 
 # Marco Civil da Internet
 
-O **Marco Civil da Internet** (Lei nº 12.965/2014) estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil. Para prova, é indispensável separar **literalidade da lei** do regime constitucional definido pelo STF em 2025 e definitivamente ajustado em 2026 sobre responsabilidade por conteúdo de terceiros.
+O **Marco Civil da Internet** (Lei nº 12.965/2014) estabelece princípios, garantias, direitos e deveres para o uso da internet no Brasil. Para prova, é indispensável separar **literalidade da lei** do regime constitucional definido pelo STF em 2025 e aperfeiçoado no julgamento dos embargos de declaração de 17/06/2026 sobre responsabilidade por conteúdo de terceiros.
 
 ## Núcleo do conceito
 
@@ -89,7 +89,7 @@ Se a questão perguntar expressamente **“segundo a literalidade da Lei nº 12.
 
 ### 2. STF: Temas 987 e 533
 
-Em 2025, o STF reconheceu a **inconstitucionalidade parcial e progressiva do art. 19**. Após embargos concluídos em 17 de junho de 2026, o Tema 987 transitou em julgado e o regime passou a ter aplicação vinculante enquanto não houver nova disciplina legislativa.
+Em 2025, o STF reconheceu a **inconstitucionalidade parcial e progressiva do art. 19**. Após os embargos julgados em 17 de junho de 2026, o STF consolidou a tese do Tema 987 e registrou o trânsito em julgado. A aplicação do entendimento exige atenção às situações previstas na tese, ao marco temporal de seus efeitos e à ressalva de legislação superveniente.
 
 A consequência para prova é simples: **não memorize mais “ordem judicial é sempre necessária” como regra jurisprudencial geral.**
 
@@ -161,7 +161,7 @@ Os melhores distratores atualmente exploram **camadas normativas diferentes**:
 - **Conexão = 1 ano; aplicações = 6 meses.**
 - **Neutralidade = pacote de dados.**
 - **Art. 19 literal ≠ Tema 987 atual.**
-- Se a questão disser `segundo a lei`, leia a literalidade; se disser `segundo o STF`, aplique a tese vinculante.
+- Se a questão pedir a **redação literal do art. 19**, identifique a fórmula original de ordem judicial; se perguntar o **regime jurídico aplicável conforme o STF**, considere a interpretação constitucional dos Temas 987 e 533 e suas exceções. O simples enunciado “segundo a lei” não resolve, sozinho, a possível incidência de interpretação vinculante.
 - **Ordem judicial nunca** e **notificação sempre** são dois absolutos igualmente suspeitos após 2026.
 
 ## Fontes
@@ -173,3 +173,5 @@ Os melhores distratores atualmente exploram **camadas normativas diferentes**:
 ---
 **Fonte bruta interna:**
 - [[00 inbox/00 ingestão]]
+
+> **Nota editorial para Câmara 2026 (11/11/2026):** artigo jurídico compartilhado com outros concursos. A auditoria do edital de Tecnologia da Informação e Dados da Câmara não identificou menção nominal à Lei 12.965/2014; portanto, este texto **não foi contado como unidade CAM-TI obrigatória**. A revisão aqui é de precisão legal e de orientação de leitura, preservando sua utilidade transversal. Fonte primária do julgamento: [STF, Tema 987, andamento e tese](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5160549&numeroTema=987).

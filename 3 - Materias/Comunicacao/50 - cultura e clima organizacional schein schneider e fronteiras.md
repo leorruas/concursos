@@ -5,7 +5,7 @@ title: "Cultura e clima organizacional: Schein, Schneider, métodos e limites"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Cultura e clima organizacional: Schein, Schneider, métodos e limites
@@ -128,6 +128,16 @@ A comunicação pode explicar decisões, criar espaços de escuta, dar retorno e
 **Item 3, inédito:** “O aumento de avaliações positivas de clima após uma campanha demonstra, independentemente de outras evidências, que houve alteração causal dos pressupostos básicos da cultura pela comunicação interna.”
 
 **Gabarito: Errado.** Uma pesquisa de percepção não demonstra sozinha alteração de pressupostos profundos nem atribuição causal exclusiva. Mecanismo: inferência indevida entre fenômenos próximos.
+
+## Verificação autoral: níveis de cultura e unidade de clima (11/11/2026)
+
+A apresentação de **Schein e Schein**, em *Organizational Culture and Leadership* (5ª ed., capítulo 2), organiza a cultura em **artefatos**, **crenças e valores declarados** e **pressupostos básicos subjacentes**, por graus de visibilidade. O texto observa que artefatos são percebidos mais facilmente do que interpretados e que valores declarados **podem divergir** das práticas. Um cartaz com missão institucional, portanto, não demonstra que o valor proclamado esteja incorporado como pressuposto profundo de todo o grupo.
+
+Na revisão de **Schneider, Ehrhart e Macey (2013)**, clima diz respeito aos significados atribuídos pelos trabalhadores a conjuntos de experiências no trabalho; a pesquisa explicita problemas de **nível de análise e agregação**. É necessário distinguir relato individual, convergência entre integrantes de uma equipe e inferência sobre uma organização inteira. Cultura e clima podem ser estudados em conjunto, mas um indicador de satisfação ou uma média isolada não prova a estrutura cultural nem identifica a causa de mudança.
+
+**Reexame dos três C/E inéditos:** item 1 **Certo**: artefatos são observáveis, mas sua interpretação demanda cuidado; item 2 **Errado**: confunde satisfação individual e inferência sobre clima compartilhado de toda a organização; item 3 **Errado**: atribui indevidamente causalidade cultural a uma campanha após alteração em avaliações de clima. Nenhum gabarito foi invertido. A distinção entre mudança de indicador e causalidade constitui o mecanismo decisivo dos itens 2 e 3.
+
+**Fontes verificadas:** [Schein e Schein, 5ª edição, capítulo 2, editora Wiley/O'Reilly](https://www.oreilly.com/library/view/organizational-culture-and/9781119212041/c02.xhtml); [Schneider, Ehrhart e Macey (2013), *Annual Review of Psychology*](https://www.annualreviews.org/content/journals/10.1146/annurev-psych-113011-143809); [Schneider, Ehrhart e Macey (2026), revisão atualizada](https://www.annualreviews.org/content/journals/10.1146/annurev-orgpsych-020924-070545). **Ressalva:** o capítulo de Schein e os resumos acadêmicos dão base ao recorte, mas não autorizam certificar todos os métodos ou casos do artigo. Links internos e renderização ainda não foram testados. **Estado: Corrigido no recorte de conceitos e itens; certificação integral pendente.**
 
 ## Aplicação discursiva
 

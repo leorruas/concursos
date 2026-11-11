@@ -220,3 +220,27 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 > **Nota de revisão (11/11/2026):** correções dirigidas aos achados TI-001, TI-002, TI-004 e TI-007 da auditoria da Câmara. Referências normativas: [EBIA, MCTI](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/inteligencia-artificial/) e [LGPD, art. 20, texto atualizado](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html). Restam pendentes auditoria integral, checagem das atribuições concretas aos sistemas citados e homologação dos itens inéditos.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** Q3 e Q6 **não homologadas** por generalização e atribuição institucional sem fonte específica; Q1, Q2, Q4 e Q5 mantidas em leitura conceitual dirigida, ainda sem cotejo integral de documentação e corpus Cebraspe.
+
+---
+
+## Questões substitutas S18-3 e S18-6: aprendizagem profunda e IA da Câmara
+
+### Substituta S18-3
+
+> Uma rede neural profunda pode aprender representações em várias camadas e, em determinadas tarefas de classificação de imagens ou textos, reduzir a necessidade de construir manualmente atributos para o modelo; isso não elimina a preparação dos dados e a avaliação de desempenho.
+
+**Gabarito: CERTO (inédita).** O aprendizado de representações é uma característica importante do *deep learning*. A frase **“pode reduzir”** preserva a diferença entre uma vantagem possível e uma garantia universal. A escolha de dados, arquitetura, objetivo e validação permanece relevante.
+
+**Contraste:** “Redes profundas dispensam qualquer engenharia de atributos e limpeza de dados” é **ERRADO**: a necessidade depende da tarefa e do sistema.
+
+### Substituta S18-6
+
+> Segundo informações institucionais da Câmara dos Deputados, o Ulysses foi empregado para auxiliar na classificação ou distribuição temática de demandas legislativas; outras aplicações de inteligência artificial, como transcrição e sumarização de audiências, podem ser desenvolvidas separadamente, sem que isso prove que todas já integravam o Ulysses.
+
+**Gabarito: CERTO (inédita com fundamento institucional).** A Câmara documenta o uso do Ulysses para distribuir demandas entre áreas de consultoria e tematizar textos. O [Manual de Comunicação da Câmara](https://infograficos.camara.leg.br/manual-de-comunicacao/uso-da-inteligencia-artificial/) descreve transcrição e resumo automáticos de audiências como **aplicações em desenvolvimento**, sem atribuí-las necessariamente ao mesmo componente. Uma capacidade anunciada ou planejada não equivale a uma função comprovadamente implantada.
+
+**Fontes oficiais:** [Câmara: Consultoria Legislativa utiliza IA](https://www.camara.leg.br/assessoria-de-imprensa/568452-consultoria-legislativa-da-camara-utiliza-inteligencia-artificial-para-agilizar-trabalhos/) e [Manual de Comunicação: uso de IA](https://infograficos.camara.leg.br/manual-de-comunicacao/uso-da-inteligencia-artificial/).
+
+**Aplicação discursiva:** em um parecer sobre automação legislativa, distinguir **sistema**, **tarefa** (classificar, resumir, transcrever), **fase** (em uso ou em desenvolvimento), **evidência documental** e **responsabilidade humana**.
+
+As questões originais 3 e 6 permanecem **NÃO HOMOLOGADAS**.

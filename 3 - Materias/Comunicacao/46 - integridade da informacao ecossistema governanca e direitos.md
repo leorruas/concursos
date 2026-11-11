@@ -5,7 +5,7 @@ title: "Integridade da informação: ecossistema, direitos, governança e respos
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Integridade da informação: ecossistema, direitos, governança e resposta pública
@@ -157,13 +157,25 @@ Uma narrativa falsa circula em grupo muito pequeno. Publicar um desmentido ampla
 
 **Gabarito: Errado.** Confiabilidade de uma fonte e proteção do debate plural são dimensões complementares. Não existe autorização geral para silenciar críticas; a liberdade de expressão integra o objetivo do quadro de integridade. **Mecanismo:** verdade parcial convertida em competência indevida.
 
+## Correção de precisão: dois conjuntos distintos de cinco princípios da UNESCO (11/11/2026)
+
+A [página oficial das *Guidelines for the Governance of Digital Platforms* da UNESCO](https://www.unesco.org/en/internet-trust/guidelines) organiza **dois conjuntos distintos** de cinco princípios, o que torna incompleta uma simples menção a “os cinco princípios da UNESCO”.
+
+**Cinco princípios de conformidade das plataformas (na página oficial):** (1) diligência devida em direitos humanos; (2) adesão às normas internacionais de direitos humanos no design, moderação e curadoria; (3) transparência; (4) disponibilização acessível de informações; (5) prestação de contas aos interessados.
+
+**Cinco princípios abrangentes de governança:** (1) transparência na curadoria e moderação; (2) institucionalização de freios e contrapesos; (3) abertura e acesso aos processos de governança, inclusive para grupos vulneráveis; (4) diversidade de conhecimentos nos arranjos regulatórios; (5) proteção e promoção da diversidade cultural. O quadro de cinco itens anteriormente resumido na heurística do artigo correspondia ao **segundo conjunto**, e agora essa identificação fica explícita.
+
+A [OCDE, *Facts not Fakes* (2024)](https://www.oecd.org/en/publications/2024/03/facts-not-fakes-tackling-disinformation-strengthening-information-integrity_ff96d19f.html) confirma **três dimensões complementares**: transparência, responsabilização e pluralidade de fontes; resiliência social à desinformação; e governança e instituições. O item 1 recebe **Certo** por correspondência direta. O item 2 permanece **Errado** porque mistura órgãos, anos e conjuntos diferentes. O item 3 permanece **Errado**, apoiado pela defesa expressa da liberdade de expressão e pelo repúdio a medidas arbitrárias ou desproporcionais no texto da UNESCO. A página da ONU sobre os princípios globais de 2024 retornou bloqueio nesta verificação; **o rol literal dos cinco princípios da ONU não foi novamente cotejado** nesta rodada.
+
+**Limite:** documentos internacionais de orientação não equivalem automaticamente a norma brasileira vinculante, sem ato de incorporação ou regime jurídico aplicável. São três itens didáticos inéditos, não questões históricas do Cebraspe.
+
 ## Aplicação discursiva
 
 Em peça técnica da Câmara, propor um sistema de informação institucional com **fontes identificadas**, atualização controlada, versões acessíveis, mecanismos de correção, canais independentes de plataformas, respeito a direitos e protocolo transparente de resposta a riscos. Diferenciar avaliação **do conteúdo** (precisão e rastreabilidade), **do acesso** (encontrabilidade, compreensão e diversidade de canais), **da circulação** (distribuição, barreiras e incentivos) e **da governança** (responsabilidades, contestação e avaliação). Explicar que nenhuma métrica isolada comprova confiança, participação ou integridade de todo o ecossistema.
 
 ## Heurísticas
 
-**OCDE 2024:** três dimensões de política, fontes e plataformas transparentes; resiliência social; governança institucional. **ONU 2024:** cinco princípios, confiança e resiliência; incentivos; empoderamento; mídia plural; transparência e pesquisa. **UNESCO 2023:** cinco princípios de governança de plataformas, transparência; freios e contrapesos; participação; diversidade de conhecimentos; diversidade cultural. **Checagem = alegação**, **desordem = tipos de conteúdo e circulação**, **integridade = condições do ambiente**. Preservar **pluralismo e direitos** faz parte da solução.
+**OCDE 2024:** três dimensões de política, fontes e plataformas transparentes; resiliência social; governança institucional. **ONU 2024:** cinco princípios, confiança e resiliência; incentivos; empoderamento; mídia plural; transparência e pesquisa. **UNESCO 2023:** distinguir os cinco princípios de conformidade das plataformas (diligência em direitos humanos, padrões de direitos, transparência, acesso à informação e responsabilização) dos cinco princípios abrangentes de governança (transparência, freios e contrapesos, participação, diversidade de conhecimentos e diversidade cultural). **Checagem = alegação**, **desordem = tipos de conteúdo e circulação**, **integridade = condições do ambiente**. Preservar **pluralismo e direitos** faz parte da solução.
 
 ## Fontes e limites
 

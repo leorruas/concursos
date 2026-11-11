@@ -914,6 +914,134 @@
       "statement": "Após uma campanha, cresceu a confiança declarada pelos usuários. No mesmo período, o órgão reduziu o prazo de atendimento. A comparação entre antes e depois identifica quanto do aumento de confiança foi causado pela campanha.",
       "correctAnswer": "E",
       "explanation": "A mudança operacional também pode ter contribuído. A comparação temporal isolada não permite separar os efeitos da campanha e da redução do prazo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / formas de governo",
+      "conceptId": "forma-e-sistema-de-governo",
+      "mechanism": "confundir-chefia-de-estado-com-gabinete",
+      "theoryRefs": [
+        "article:art-e93a40d1c75b682f#Quatro eixos que a banca não pode fundir"
+      ],
+      "statement": "Um país substitui o monarca hereditário por um chefe de Estado eleito por mandato e mantém o gabinete dependente da confiança parlamentar. A mudança descrita pode alterar a forma de governo sem alterar o sistema de governo.",
+      "correctAnswer": "C",
+      "explanation": "O modo de investidura na chefia de Estado mudou. A dependência política do gabinete em relação ao Parlamento permaneceu."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo",
+      "conceptId": "confianca-parlamentar",
+      "mechanism": "classificar-pelo-nome-do-cargo",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Parlamentarismo: confiança legislativa e responsabilidade do gabinete"
+      ],
+      "statement": "Em um país, o chefe de Estado eleito se chama presidente, mas o primeiro-ministro e seu gabinete precisam da confiança parlamentar para continuar no governo. A presença de um presidente eleito basta para classificar o sistema como presidencialista.",
+      "correctAnswer": "E",
+      "explanation": "O título e a eleição do chefe de Estado não determinam o sistema. É preciso examinar também a posição do chefe de governo e a responsabilidade política do gabinete."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo",
+      "conceptId": "sobrevivencia-do-executivo",
+      "mechanism": "confundir-derrota-legislativa-com-fim-do-mandato",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Presidencialismo: separação de origem e sobrevivência dos poderes"
+      ],
+      "statement": "Um presidente com mandato fixo perde a maioria no Congresso após a saída de dois partidos da base. A perda da maioria pode dificultar a aprovação de projetos sem extinguir automaticamente o mandato presidencial.",
+      "correctAnswer": "C",
+      "explanation": "O apoio legislativo afeta a capacidade de governar. No presidencialismo, a sobrevivência ordinária do mandato não depende de manter a confiança da maioria parlamentar."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo",
+      "conceptId": "mocao-de-desconfianca",
+      "mechanism": "exigir-infracao-para-responsabilizacao-politica",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Confiança, desconfiança, dissolução e impeachment"
+      ],
+      "statement": "Em um sistema parlamentar com moção de desconfiança, o Parlamento precisa demonstrar a prática de uma infração jurídica do primeiro-ministro para retirar seu apoio ao gabinete.",
+      "correctAnswer": "E",
+      "explanation": "A desconfiança é um mecanismo de responsabilidade política do gabinete. Seu fundamento pode ser a perda de apoio parlamentar, conforme as regras institucionais aplicáveis."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / organização política brasileira",
+      "conceptId": "autonomia-federativa",
+      "mechanism": "confundir-autonomia-com-soberania",
+      "theoryRefs": [
+        "article:art-4a9e1d735bc082f6#Federação: autonomia, soberania e competências"
+      ],
+      "statement": "Em uma federação, um ente regional pode ter governo eleito e competências legislativas próprias sem adquirir soberania internacional.",
+      "correctAnswer": "C",
+      "explanation": "A autonomia permite autogoverno e exercício de competências nos limites da Constituição. A soberania pertence ao Estado federal."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / formas de governo",
+      "conceptId": "forma-de-estado-e-forma-de-governo",
+      "mechanism": "deduzir-federacao-da-republica",
+      "theoryRefs": [
+        "article:art-e93a40d1c75b682f#Quatro eixos que a banca não pode fundir"
+      ],
+      "statement": "A substituição de uma monarquia por uma república torna o Estado federal, mesmo que a distribuição territorial de competências permaneça inalterada.",
+      "correctAnswer": "E",
+      "explanation": "República e monarquia classificam a forma de governo. Federação e Estado unitário dizem respeito à organização territorial do poder."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes",
+      "conceptId": "presidencialismo-de-coalizao",
+      "mechanism": "inferir-parlamentarismo-de-acordo-partidario",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Presidencialismo de coalizão: Sérgio Abranches e a especificidade brasileira"
+      ],
+      "statement": "A formação de uma coalizão multipartidária para aprovar o orçamento é compatível com o presidencialismo quando a permanência do presidente no cargo segue as regras do mandato, independentemente de voto parlamentar de confiança.",
+      "correctAnswer": "C",
+      "explanation": "A coalizão organiza apoio às decisões legislativas. A regra de sobrevivência do Executivo continua presidencialista."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / organização política brasileira",
+      "conceptId": "competencias-federativas",
+      "mechanism": "confundir-distribuicao-de-competencia-com-hierarquia",
+      "theoryRefs": [
+        "article:art-4a9e1d735bc082f6#Federação: autonomia, soberania e competências"
+      ],
+      "statement": "A existência de competências privativas da União implica que toda decisão estadual tomada em matéria de competência própria precisa de aprovação do governo federal.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição reparte competências. A existência de competências privativas federais não sujeita genericamente o exercício das competências estaduais a aprovação da União."
     }
   ]
 }

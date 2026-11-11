@@ -5,7 +5,7 @@ title: "Lei delegada e delegação legislativa: autorização, limites e procedi
 type: "conceito"
 status: "ativo"
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-11
 ---
 
 # Lei delegada e delegação legislativa: autorização, limites e procedimento
@@ -131,3 +131,12 @@ Os prazos e etapas acima são os do texto regimental consolidado consultado; sua
 - [Regimento Comum do Congresso Nacional, arts. 116–127](https://legis.senado.leg.br/norma/561098/publicacao/36852069), consolidação oficial disponibilizada pelo Senado.
 - [Página oficial do Congresso: Regimento e normas conexas](https://www.congressonacional.leg.br/pt/legislacao-e-publicacoes/regimento-do-congresso-nacional), para cotejo de atualizações.
 - [Glossário do Congresso Nacional: Lei Delegada](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-legislativo).
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Escopo cotejado:** texto integral desta nota, quadros, **oito casos progressivos** e **dez exercícios inéditos C/E**, com a [Constituição Federal atualizada, art. 68](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) e o [Regimento Comum do Congresso Nacional consolidado, arts. 116–127](https://legis.senado.leg.br/norma/561098/publicacao/36852069). Verificados sujeito da solicitação, resolução autorizativa e conteúdo, matéria indelegável, possibilidade facultativa de submissão do projeto final ao Congresso, votação única sem emendas, comissão mista e prazos regimentais de 72 horas, 45 dias, cinco dias, oito dias, 24 horas, 48 horas e cinco dias, conforme a etapa. As reservas constitucionais prevalecem sobre trechos regimentais anteriores à CF/1988; o art. 126 consta revogado.
+
+**Resultado:** sem alteração de mérito necessária nos casos e questões examinados. **Gabaritos preservados:** **E, E, C, C, E, E, C, E, E, E**, sem inversão identificada. A distinção entre emendas à **resolução autorizativa** (RCCN art. 121) e ao **projeto elaborado sob delegação** (CF art. 68, § 3º) permaneceu adequada. A nota já diferenciava o prazo regimental de 45 dias para o exercício da delegação do prazo constitucional de urgência de projeto de lei ordinária.
+
+**Limites da certificação:** verificação jurídico-editorial deste material escrito em 11/11/2026. Não presume vigência automática de disposições pré-1988 incompatíveis com a Constituição, validade de hipóteses concretas não examinadas, desempenho do estudante ou teste de renderização e publicação no GitHub Pages. Os dez exercícios já pertenciam ao inventário, sem nova contagem.

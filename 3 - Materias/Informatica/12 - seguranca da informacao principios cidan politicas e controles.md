@@ -5,7 +5,7 @@ title: "Segurança da informação: princípios CIDAN, políticas corporativas e
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Segurança da informação: princípios CIDAN, políticas corporativas e controles de proteção
@@ -16,7 +16,7 @@ updated: 2026-11-09
 
 No setor público e em órgãos com alta visibilidade institucional como a Câmara dos Deputados, a **Segurança da Informação (SI)** é a prática de proteger ativos informacionais contra acessos não autorizados, alterações indevidas, destruição, indisponibilidade ou divulgação. Ela transcende os componentes puramente tecnológicos (software e hardware), englobando pessoas, processos de governança e controles físicos.
 
-A doutrina e normas técnicas consagradas (família **ABNT NBR ISO/IEC 27001 e 27002**) fundamentam a segurança em uma tríade clássica expandida para cinco pilares fundamentais, frequentemente sintetizados pelo acrônimo **CIDAN**:
+A referência clássica da segurança da informação é a tríade **confidencialidade, integridade e disponibilidade (CID)**. Autenticidade e não repúdio são propriedades complementares relevantes para certos processos, aqui reunidas no mnemônico didático **CIDAN**; não se deve atribuir à ISO/IEC 27001 a instituição de uma lista universal de cinco pilares:
 
 ```mermaid
 flowchart TD
@@ -124,7 +124,7 @@ A **Política de Segurança da Informação (PSI)** é o documento formal de mai
 
 ### Caso 4: Recusa de autoria em requerimento legislativo eletrônico
 - **Cenário**: Um gabinete parlamentar encaminha eletronicamente um requerimento de convocação de autoridade. Dias depois, devido à repercussão negativa na imprensa, o parlamentar afirma que jamais protocolou aquele pedido e que sua assinatura foi forjada. Contudo, a auditoria demonstra que o arquivo foi assinado digitalmente com o certificado pessoal ICP-Brasil do parlamentar, com carimbo de tempo válido.
-- **Análise**: A tecnologia de assinatura digital padrão ICP-Brasil garante a **Autenticidade** (prova que a chave privada do parlamentar realizou o cálculo da assinatura) e o **Não Repúdio (Irretratabilidade)**, o que impede juridicamente o parlamentar de alegar que não foi o autor da manifestação eletrônica.
+- **Análise**: A tecnologia de assinatura digital padrão ICP-Brasil garante a **Autenticidade** (prova que a chave privada do parlamentar realizou o cálculo da assinatura) e o **Não Repúdio (Irretratabilidade)**, o que oferece evidência relevante de autoria e integridade, sujeita a contestação e exame do uso da chave privada. A assinatura não estabelece presunção absoluta de que o titular realizou pessoalmente cada ato.
 
 ---
 
@@ -142,7 +142,7 @@ A **Política de Segurança da Informação (PSI)** é o documento formal de mai
 > O princípio do não repúdio ou irretratabilidade assegura que o emissor de uma determinada informação ou transação eletrônica não possa, posteriormente, negar a autoria ou a ocorrência da referida transmissão.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Definição literal e precisa do princípio do não repúdio (*non-repudiation*). A irretratabilidade confere eficácia probatória plena, impedindo a escusa de autoria, sendo tipicamente implementada mediante o uso de assinaturas digitais com certificados emitidos sob cadeias confiáveis (como a ICP-Brasil).
+- **Fundamentação**: Definição literal e precisa do princípio do não repúdio (*non-repudiation*). O não repúdio busca produzir evidências de autoria e integridade, mas não torna a prova incontestável nem impede defesa ou demonstração de fraude, sendo tipicamente implementada mediante o uso de assinaturas digitais com certificados emitidos sob cadeias confiáveis (como a ICP-Brasil).
 
 ---
 
@@ -201,3 +201,5 @@ A **Política de Segurança da Informação (PSI)** é o documento formal de mai
 - **Instrução Normativa GSI/PR nº 01/2020**: Disciplina a Gestão de Segurança da Informação na Administração Pública Federal.
 - **Lei nº 13.709/2018 (LGPD)**: Artigos 46 a 51 (Segurança e Boas Práticas).
 - **Legislação da Câmara dos Deputados**: Portarias administrativas sobre uso seguro de recursos computacionais e política corporativa de senhas.
+
+> **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.

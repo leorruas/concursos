@@ -514,3 +514,42 @@ O item C/E Q2 (**ERRADO**, conforme comentário) não foi revertido por este ach
 - **DC34, NC sobre voto do Corregedor, corrigida pontualmente:** indicação de participação **com voz, sem voto**, conforme art. 9º, § 4º, do Código de Ética consolidado. Foi inserido aviso explícito de que prazos, sanções, fluxo e declarações patrimoniais seguem em revisão e não devem ser memorizados como versão validada. Commit: `04372d05b1fb3c412690164496ffc755ff9d7e3e`.
 
 **Estado das demais NC-PL, itens C/E, Mermaid e remissões de DC34:** pendentes. As correções acima não certificam os artigos completos. Fontes primárias: [RICD, art. 35](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e [Código de Ética, art. 9º, § 4º](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html).
+
+
+## Bloco 13: Tema 22 do STF e auditoria dos 12 itens DC36/DC37 (11/11/2026)
+
+**Método:** recuperados os enunciados, gabaritos e comentários de **6 questões do DC36** e **6 questões do DC37** diretamente do repositório público; realizado cotejo normativo seletivo com **CF arts. 47, 49, 50, 60, 62, 67, 69, 70 e 71** e consulta à página oficial do STF da Súmula 5 e ao processo paradigma oficial do **Tema 22**. Este é **exame individual de coerência das doze questões**, não auditoria completa de toda a fundamentação e jurisprudência de ambos os artigos.
+
+### Achado jurídico conclusivo: Tema 22 é outro assunto
+
+**NC-PL-019, CRÍTICO: número de repercussão geral totalmente errado (DC36).** Nas seções `O vício de iniciativa e o STF`, `Questão 2 > Comentário` e `Fontes primárias e jurisprudência`, DC36 atribui ao **Tema 22 da repercussão geral** a conclusão de que sanção presidencial não sana vício de iniciativa. O [STF, Tema 22, RE 560.900](https://portal.stf.jus.br/jurisprudenciarepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=2551965&numeroProcesso=560900&numeroTema=22) define **restrição à participação em concurso público de candidato que responde a inquérito ou ação penal**. O assunto **não guarda relação com iniciativa privativa de leis**. Deve ser removido da fundamentação da questão e da fonte do artigo, sem criar número substituto sem pesquisa de precedente específico. Fonte oficial comprova diretamente a divergência.
+
+**NC-PL-018, confirmação complementar:** [STF, aplicação da Súmula 5](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1318) registra texto histórico **“A sanção do projeto supre a falta de iniciativa do Poder Executivo”**, já superado; a página apresenta **ADI 1.197** e **AR 1.753** como decisões explicando a ausência de convalidação. **Recomendação:** conservar a conclusão jurídica atual da Q2 (ERRADO), retirar a suposta sustentação no Tema 22 e apresentar Súmula 5 como entendimento histórico superado, e não como autoridade favorável.
+
+### Matriz das questões DC36
+
+| Q | Gabarito publicado | Análise e condição |
+| --- | --- | --- |
+| 1 | CERTO | **Corroborado** pela CF art.60, §§2º–3º (PEC, 2 turnos, 3/5, Mesas, sem sanção) |
+| 2 | ERRADO | **Gabarito corroborado**, comentário **normativamente defeituoso** por Súmula 5 e Tema 22: NC-PL-018/019 |
+| 3 | ERRADO | **Corroborado** pela CF art.69: lei complementar exige maioria absoluta, e não simples |
+| 4 | CERTO | **Compatível com o exemplo de tratados aprovados por decreto legislativo**. **Ressalva:** a expressão “a fiscalização de atos do Poder Executivo” é ampla; fiscalizar também ocorre por comissões, requerimentos e outros mecanismos, nem toda fiscalização é formalizada por decreto legislativo. Reduzir o alcance no comentário/enunciado ou demonstrar que só se referem às matérias exclusivas materializadas em decreto legislativo. **Não inverter sem revisão semântica do item completo** |
+| 5 | ERRADO | **Corroborado** por CF art.67 (projeto de lei pode ser objeto de nova proposta com maioria absoluta de qualquer Casa) versus art.60 §5º (PEC rejeitada/prejudicada não pode ser objeto de nova proposta na mesma sessão) |
+| 6 | CERTO | **Corroborado** por CF art.62 §12: PLV com alterações encaminhado para sanção/veto. O comentário deve evitar dizer que sanção alcança apenas «inovações»: o procedimento submete o **projeto de lei de conversão**, não uma lista autônoma de emendas, à apreciação presidencial |
+
+### Matriz das questões DC37
+
+| Item | Gabarito publicado | Análise e condição |
+| --- | --- | --- |
+| 1 | ERRADO | **Corroborado**: CF art.50 inclui Ministros e titulares especificados, não Presidente da República na convocação coercitiva |
+| 2 | CERTO | **Corroborado**: CF art.50 §2º: prazo de 30 dias e crime de responsabilidade por recusa, omissão de resposta e informações falsas |
+| 3 | ERRADO | **Corroborado no núcleo**: CF art.31 §2º prevê 2/3 da Câmara Municipal para afastar parecer sobre contas do prefeito; não se estende diretamente ao Congresso e TCU. Pendente conferir regra específica de votação em sessão conjunta citada no comentário |
+| 4 | CERTO | **Corroborado** por CF art.49 V, sustação de atos normativos exorbitantes. Recomenda-se remissão ao decreto legislativo no ato final, sem generalizar a todo instrumento de fiscalização |
+| 5 | ERRADO | **Corroborado** por CF art.71 §§1º–2º: Congresso tem atribuição primária para sustar contratos, com 90 dias como marco para deliberação do TCU. **Ressalva:** comentário e exemplos do DC37 não devem afirmar que toda cautelar preventiva do TCU seria proibida sem prazo de 90 dias; distinguir cautelar de sustação definitiva |
+| 6 | CERTO | **Corroborado no núcleo** por RICD arts.60–61 e CF art.71 IV: comissão pode ensejar inspeções/auditorias. Pendentes pormenores regimentais e a proposição absoluta «não pode se recusar» |
+
+**Resultado desta rodada:** 12/12 enunciados lidos e contrastados com seus pontos jurídicos centrais. **Não foi confirmada necessidade de inversão de gabarito**, mas ainda há **reservas de precisão** em DC36 Q4/Q6 e DC37 Q3/Q5/Q6. Duas referências críticas da DC36 Q2 estão erradas e exigem correção futura. **Não confundir verificação seletiva de núcleo com certificação de todos os fundamentos ou do artigo inteiro.**
+
+### Próxima etapa
+
+Reexaminar DC37 sobre cautelares do TCU mediante precedentes atuais e completar regras de sessões conjuntas da Q3; aprofundar literalidade e compatibilidade semântica da DC36 Q4. Em seguida retomar revisão integral sequencial DC11–33, considerando que referências jurisprudenciais erradas foram detectadas mesmo quando gabaritos estavam corretos. **Fase 1: nenhum artigo de estudo alterado.**

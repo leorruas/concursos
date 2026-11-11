@@ -272,3 +272,48 @@ Examinar DC29–34 (Regimento Comum, Resoluções do Congresso e Código de Éti
 - **Nenhum artigo alterado** neste procedimento. A fase é exclusivamente de diagnóstico. Antes de declarar a Fase 1 concluída, executar as pendências, especialmente **revisão integral e saneamento conceitual de DC34**, com proposta de correção para autorização futura.
 
 **Próxima rodada recomendada:** verificar juridicamente todas as afirmações e gabaritos de DC34 à luz do Código atualizado, depois concluir uma nota por vez com conferência integral e matriz `CAM-PL` 001–033 × `articleId` × item de edital × fonte primária × avaliação, registrando cada decisão e sua evidência.
+
+
+## Bloco 7: verificação dirigida de DC34, Código de Ética (11/11/2026)
+
+**Escopo desta rodada:** leitura completa da seção de organização e procedimento disciplinar, fluxograma e dos **seis itens C/E comentados** de `3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md` (`art-5b41764164052519`). Cotejo com a [Resolução da Câmara nº 25/2001, texto consolidado atualizado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html), arts. 7–16. Ato consolidado consultado em 11/11/2026. Este exame **não equivale a validação integral** dos argumentos doutrinários, de todas as referências do Regulamento do Conselho ou de toda a jurisprudência citada.
+
+### Novas não conformidades confirmadas e localizadas
+
+**NC-PL-006, CRÍTICO: voto da Corregedoria.** Em `DC34 > ## 4. O Conselho de Ética... > Composição e mandato`, o artigo afirma que o Corregedor participa do Conselho **com voz e voto**; a mesma afirmação reaparece na tabela da seção 7 (`Corregedoria Parlamentar`). O **art. 9º, § 4º, do Código vigente** permite que o Corregedor participe de todas as fases do processo, inclusive discussões, **sem direito a voto**. Corrigir ambos os locais e conferir a afirmação conexa de «assento especial»/contagem partidária diante do texto atualizado. Risco de item C/E diretamente invertido.
+
+**NC-PL-007, IMPORTANTE: artigo de legitimidade de cidadãos mal citado.** Em `DC34 > ## 5... > 1. Iniciativa e Legitimidade ativa`, e no `Caso 3`, o conteúdo associa petição de cidadãos ao **art. 14, § 2º**. A norma vigente disciplina representações feitas à Mesa e legitimidade de cidadãos no **art. 9º, caput e §§ 1º–2º**. O art.14, §2º trata de **convocação de suplente quando suspensão ultrapassa 120 dias**. A regra de encaminhar à Mesa está adequada, mas a ancoragem normativa está errada. Corrigir referências e distinguir requerimento do cidadão, exame prévio da Mesa e representação formal.
+
+**NC-PL-008, IMPORTANTE: remissão incorreta dos impedimentos do Conselho.** A seção `Composição e mandato` localiza os impedimentos de integrantes do Conselho no **art. 7º, § 3º**; o Código consolidado estabelece essas restrições no **art. 7º, § 2º, incisos I–IV**; o §3º cuida de **proporcionalidade partidária**. A lista pedagógica do artigo apresenta apenas dois impedimentos, omitindo **suplente convocado** e **deputado condenado criminalmente por órgão jurisdicional colegiado**, ainda que sem trânsito em julgado. Há risco de incompletude e de confusão sobre §/inciso.
+
+**NC-PL-009, IMPORTANTE: remissão das prerrogativas suspensas.** A seção `O rol das prerrogativas parlamentares passíveis de suspensão` aponta **art. 13, V**. O rol é do **art. 13, VI, alíneas a–d**, enquanto o inciso V trata de encaminhamento do parecer aprovado à Mesa. O trecho também abrevia a enumeração da alínea **c** (Mesa, Ouvidoria Parlamentar, Procuradoria Parlamentar, presidências de comissões e integrantes de CPI). Revisar a lista, objeto e referência.
+
+**NC-PL-010, IMPORTANTE: afastamento do Conselho e prazo de mandato.** A nota diz `Afastamento cautelar de membro representado (art. 7º, § 4º)`; a norma contém regra no **art. 7º, § 7º**, exigindo instauração de processo disciplinar contra integrante do Conselho e prova inequívoca da acusação. O §4º do art.7 trata das indicações anuais pelos líderes. Evitar `recebimento de representação` como gatilho automático quando a condição textual é outra.
+
+**NC-PL-011, CRÍTICO, correção de fundamento anterior: confusão do prazo de novo relator com prazo comum.** O art. 16, § 4º, I e II prevê **cinco dias úteis** exclusivamente nas hipóteses em que a Presidência **avoca a relatoria ou designa novo relator** por descumprimento do prazo; não são cinco sessões ordinárias e não constituem o prazo geral do parecer do art. 14, § 4º, IV (**dez dias úteis**). O fluxograma e o texto devem modelar os dois caminhos com condições independentes.
+
+**NC-PL-012, IMPORTANTE: premissa sobre penas do art. 16.** O texto DC34 chama 60 dias de teto para processos de `censura e suspensão`. O art. 16 caput especifica apenas **sanções dos incisos II e III do art.10**: suspensão de prerrogativas regimentais e suspensão do exercício do mandato. A **censura, inciso I**, não integra esse recorte. Essa imprecisão é autônoma em relação à omissão de «dias úteis» já registrada em NC-PL-003.
+
+### Seis questões C/E: inventário de verificações
+
+| Questão DC34 | Gabarito no artigo | Cotejo nesta rodada |
+| --- | --- | --- |
+| 1, fraude de deliberação | ERRADO | **Corroborado**: Código art.4º, IV tipifica conduta incompatível, punível com perda do mandato, não suspensão de prerrogativas |
+| 2, censura escrita por ofensa | CERTO | **Corroborado com ressalva de redação**: art.12 atribui a aplicação à Mesa por provocação do ofendido na hipótese do art.5º, III; o item não explicita o tempo da defesa, mas sua proposição central é compatível |
+| 3, 21 titulares e 21 suplentes, impedimentos do relator | CERTO | **Parcial**: composição no art.7º é confirmada; vedação de relator de mesmo partido/Estado figura art.13, I, a–b, aplicado por art.14, §4º, I; menção específica ao Regulamento ainda exige leitura direta |
+| 4, relator pode decretar quebra de sigilo | ERRADO | **Fundamento constitucional geral corroborado**: Código não atribui poderes de CPI ao Conselho; rito afirmado sobre Mesa/Plenário e Regulamento arts.14–16 ainda não cotejado no próprio Regulamento |
+| 5, perda de mandato secreta e 2/3 | ERRADO | **Corroborado**: CF art.55, §2º, e Código art.14 exigem votação ostensiva e maioria absoluta |
+| 6, CCJC reexamina mérito disciplinar | ERRADO | **Corroborado**: art.14, §4º, VII delimita recurso a violação constitucional, regimental ou do Código, restrito aos vícios apontados |
+
+**Resultado:** os seis gabaritos das questões numeradas **não foram contraditos pela leitura normativa**, com reservas de fundamento específico na questão 4 e referência complementar na questão 3. **Não confundir validação das questões com validação do artigo:** o texto corrido, o quadro e o Mermaid contêm problemas que afetam a aprendizagem mesmo quando os itens finais parecem corretos.
+
+### Arquitetura mínima de correção futura, sem editar nesta Fase 1
+
+1. Usar o **art.9º** para legitimidade, Mesa e representação; distinguir legitimidade inicial de cidadão e iniciativa de partido/Mesa para o rito de sanções graves.
+2. Separar **censura verbal (art.11)**, **censura escrita (art.12)**, **suspensão de prerrogativas (art.13)** e **suspensão do mandato/perda (art.14)**, com competente, pressuposto, defesa, instrução, parecer, recurso e decisão para cada ramo.
+3. Explicitar **art.14: defesa 10 dias úteis, até 8 testemunhas; instrução 30/40 dias úteis, parecer 10 dias úteis; recurso à CCJC 5 dias úteis, julgamento sobre vícios 5 dias úteis**. Tratar a substituição de relator do **art.16, §4º** separadamente.
+4. Registrar **art.16: 60/90 dias úteis** para os procedimentos e sanções indicados, e **2 sessões ordinárias** para pauta. Diferenciar dias úteis e sessões em todos os nós do Mermaid, quadros e casos.
+5. Rever composição, impedimentos, Corregedoria **sem voto**, e correspondência exata com art.7º §§2º e 7º.
+6. Manter identidade, caminho e links do artigo. A correção de mérito ficará para fase autorizada, com teste técnico de Mermaid e leitura integral contra fonte oficial.
+
+**Estado:** DC34 segue **não aprovado**, com NC-PL-001 a 004 e NC-PL-006 a 012 (NC-PL-005 era risco pedagógico de mistura de ritos), em diferentes severidades, sendo confirmadas normas críticas em prazos e poder de voto. Não houve modificação de artigo de estudo nesta fase. Demais 28 artigos permanecem somente parcialmente examinados.

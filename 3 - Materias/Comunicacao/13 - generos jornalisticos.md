@@ -5,7 +5,7 @@ title: "Gêneros jornalísticos"
 type: "conceito"
 status: "ativo"
 created: 2026-07-22
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Gêneros jornalísticos
 
@@ -89,6 +89,22 @@ O padrão é muito favorável à transposição conceitual: todas as alternativa
 **Indicador × informativo:** indicador informa, mas sua função prática o coloca no gênero utilitário.
 
 **Entrevista técnica × gênero:** entrevistar uma fonte durante a apuração é técnica; a entrevista como produto publicado aparece como formato informativo na classificação. Ver [[3 - Materias/Comunicacao/14 - entrevista jornalistica|Entrevista jornalística]].
+
+## Conferência autoral: Marques de Melo e Assis, gênero versus formato (11/11/2026)
+
+A fonte acadêmica autoral [José Marques de Melo e Francisco de Assis, *Gêneros e formatos jornalísticos: um modelo classificatório*, *Intercom*, 2016](https://revistas.intercom.org.br/index.php/revistaintercom/pt_BR/article/view/2354) afirma expressamente que mensagens jornalísticas devem ser organizadas em **dois estágios**, gêneros e formatos a eles subordinados, conforme a **classificação proposta pelos autores**. O artigo publicado também está [disponível na SciELO](https://www.scielo.br/j/interc/a/YYXs6KPXhp8d7pRvJvnRjDR/?format=html&lang=pt). Essa é a proveniência acadêmica que deve acompanhar a tabela de cinco gêneros da nota: **informativo, opinativo, interpretativo, diversional e utilitário**. A expressão “modelo classificatório” indica proposta teórica, não lista universal vinculante para todos os cursos ou bancas.
+
+**Exemplo de classificação com fronteira de prova:** na taxonomia Marques de Melo, **reportagem** pertence ao formato do gênero **informativo**, embora possa conter contextualização; **perfil** é interpretativo; **história de interesse humano** é diversional; **serviço** é utilitário. Essas classificações dependem da fonte nomeada, não da intuição de que qualquer contextualização seja “gênero interpretativo”. **A redação antiga sobre provas da FGV permanece indício e não frequência estatisticamente demonstrada** até inclusão do identificador de prova, número de item e gabarito original no artigo.
+
+**Referências de prova Cebraspe já verificadas:** na [DPDF, aplicada em 2022, itens 105 a 108](https://cdn.cebraspe.org.br/concursos/dpdf_20_analista/arquivos/548_DPDF_005_01.PDF), o gabarito histórico é **105 E, 106 C, 107 E, 108 C**. São questões sobre distinções de notícia/reportagem, editorial, gêneros e pauta, com seu próprio contexto. **Não é possível atribuir automaticamente essas questões à adoção integral da taxonomia Marques de Melo pela banca**, pois seus enunciados não exigem o mesmo mapa de cinco gêneros. O [índice de provas reais](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md) já contabiliza os itens.
+
+**Três C/E inéditos:**
+
+**1.** “Na classificação Marques de Melo e Assis, uma reportagem passa necessariamente ao gênero interpretativo sempre que contém análise ou contexto.” **Errado.** Reportagem integra o formato informativo nessa taxonomia.
+
+**2.** “Os termos gênero jornalístico e formato jornalístico designam níveis distintos de uma classificação, sendo notícia e editorial exemplos de formatos associados a gêneros diferentes.” **Certo.** A estrutura em níveis integra o modelo autoral.
+
+**3.** “O gênero utilitário de Marques de Melo inclui serviço e roteiro, sem que isso transforme todas as orientações prestadas por um órgão público em texto jornalístico.” **Certo.** A classificação se refere a produtos jornalísticos, não a todo texto instrucional institucional.
 
 ## Relações com outros temas
 

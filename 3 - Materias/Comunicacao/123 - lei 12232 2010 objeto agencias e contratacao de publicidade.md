@@ -251,6 +251,16 @@ A **Lei nº 12.232/2010** contém remissões expressas à **Lei nº 8.666/1993**
 
 **Fontes:** [Lei nº 12.232/2010, redação atualizada no portal da Câmara](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html); [Lei nº 14.133/2021, texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), consulta em 11/11/2026. **Limite:** este quadro é uma cautela de interpretação, não parecer jurídico definitivo sobre modalidades ou transição de um edital específico.
 
+## Verificação complementar: limites da comunicação institucional e remissões legais (11/11/2026)
+
+A [versão atualizada da Lei nº 12.232/2010, publicada pela Câmara](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html) confirma a distinção exposta nesta nota: **art. 2º, § 2º**, proíbe inserir assessoria de imprensa, relações públicas e eventos festivos no objeto do contrato integrado de publicidade, enquanto **art. 20-A** prevê tratamento próprio para contratar comunicação institucional, gestão de redes sociais, páginas públicas, otimização para buscas e conteúdo institucional. A regra **não transforma comunicação institucional em uma categoria de serviço a ser livremente incorporada à contratação do art. 2º**. O **§ 2º do art. 20-A** também ressalva que compra de espaço publicitário e expansão de efeitos de mensagens seguem o art. 2º. O **§ 3º** admite prestação por servidores do órgão: contratação externa não é necessária em todos os casos.
+
+A [Secom federal, orientação atualizada em 09/03/2026](https://www.gov.br/secom/pt-br/assuntos/publicidade/agencias-de-publicidade/licitacao-e-contratacao-de-servicos-de-publicidade) articula a Lei nº 12.232/2010 com valores da **Lei nº 14.133/2021**, mas tem como escopo indicado o **Sistema de Comunicação de Governo do Poder Executivo Federal (Sicom)**. Para estudar a Câmara, não transportar automaticamente limites e atos internos do Executivo. A referência persistente à **Lei nº 8.666/1993** na literalidade do art. 1º, § 2º, não restaura a vigência geral da lei revogada.
+
+**Item C/E inédito:** “Por autorizar contratação de gestão de redes sociais, o art. 20-A da Lei nº 12.232/2010 também permite que se incluam indistintamente nesse contrato serviços de compra de mídia paga, sem observância do art. 2º.” **Errado.** O art. 20-A, § 2º, excepciona a compra de espaços publicitários. Esse item é didático e não integra o corpus histórico de questões reais.
+
+**Limite desta rodada:** foi realizado cotejo direto dos dispositivos indicados, com remissões específicas, sem reivindicar revalidação integral de todos os exercícios do artigo, que já haviam sido objeto de auditoria anterior.
+
 ## Referências
 
 - Câmara dos Deputados. [Lei nº 12.232/2010: texto atualizado](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html), consultado em novembro de 2026.

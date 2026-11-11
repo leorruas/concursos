@@ -594,6 +594,166 @@
       "statement": "Read the text and judge the statement.\n\n“Please confirm your attendance by Wednesday. Otherwise, your seat may be assigned to another participant.”\n\nThe notice states that the recipient’s seat has already been assigned to another participant.",
       "correctAnswer": "E",
       "explanation": "Otherwise introduz o que pode acontecer se não houver confirmação no prazo. May indica possibilidade e o texto não relata uma transferência já ocorrida."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "conceptId": "barras-por-categoria",
+      "mechanism": "distinguir-codigo-de-medida",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      ],
+      "statement": "Um painel agrupa solicitações por tipo, identificado pelos códigos 10, 20 e 30. Como os códigos são numéricos, um histograma é mais adequado que um gráfico de barras para comparar a contagem dos três tipos.",
+      "correctAnswer": "E",
+      "explanation": "Os números são rótulos de categorias. Barras por tipo comparam as frequências sem atribuir significado à distância entre códigos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "conceptId": "histograma-por-intervalos",
+      "mechanism": "identificar-distribuicao-quantitativa",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      ],
+      "statement": "Para examinar em quais faixas se concentram os tempos de atendimento, um histograma pode agrupar os tempos em intervalos e representar a frequência de cada faixa.",
+      "correctAnswer": "C",
+      "explanation": "O tempo é uma medida quantitativa e a pergunta é sobre sua distribuição por intervalos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "conceptId": "densidade-em-histograma",
+      "mechanism": "comparar-area-e-altura",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#3. Anatomia matemática do histograma"
+      ],
+      "statement": "Um histograma de densidade usa uma classe de 0 a 5 minutos e outra de 5 a 15 minutos. Se os dois retângulos têm a mesma altura, as classes contêm a mesma proporção de observações.",
+      "correctAnswer": "E",
+      "explanation": "A proporção é representada pela área. Com alturas iguais, a classe duas vezes mais larga tem o dobro da área."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "conceptId": "classes-de-largura-desigual",
+      "mechanism": "calcular-densidade-de-frequencia",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#3. Anatomia matemática do histograma"
+      ],
+      "statement": "Em um histograma cuja área representa a frequência absoluta, uma classe de largura 4 com 20 casos e outra de largura 10 com 50 casos terão a mesma altura.",
+      "correctAnswer": "C",
+      "explanation": "A altura é a frequência dividida pela largura. As duas divisões resultam em 5 casos por unidade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "conceptId": "linhas-para-series",
+      "mechanism": "preservar-distancia-temporal",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
+      ],
+      "statement": "Um gráfico com medições feitas nos dias 1, 2 e 20 pode usar espaçamentos iguais no eixo horizontal e ainda representar fielmente a escala de tempo decorrido.",
+      "correctAnswer": "E",
+      "explanation": "Os intervalos são de 1 e 18 dias. Espaçamentos iguais podem representar a ordem das coletas, mas distorcem a escala de tempo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "conceptId": "linhas-para-series",
+      "mechanism": "distinguir-medicao-de-interpolacao",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
+      ],
+      "statement": "Ao ligar a medição de janeiro à de março com uma linha reta, o gráfico pode sugerir uma trajetória entre os dois pontos, mas o valor em fevereiro permanece desconhecido se não houve coleta nesse mês.",
+      "correctAnswer": "C",
+      "explanation": "O segmento liga duas observações conhecidas. Qualquer valor intermediário extraído da linha depende da interpolação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "conceptId": "dispersao-de-medidas-pareadas",
+      "mechanism": "escolher-unidade-de-observacao",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      ],
+      "statement": "Para investigar a relação entre idade e tempo de espera, é suficiente plotar as idades de uma amostra no eixo X e os tempos de outra amostra no eixo Y, emparelhados pela ordem das planilhas.",
+      "correctAnswer": "E",
+      "explanation": "Cada ponto precisa reunir as duas medidas da mesma unidade observada. O pareamento pela posição cria pares sem significado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "conceptId": "dispersao-de-medidas-pareadas",
+      "mechanism": "distinguir-associacao-de-causa",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      ],
+      "statement": "Uma nuvem de pontos mostra que unidades com mais servidores também costumam registrar mais atendimentos. O gráfico sustenta a descrição de uma associação na amostra, mas não identifica por si só o efeito de contratar servidores.",
+      "correctAnswer": "C",
+      "explanation": "Outros fatores, como o tamanho da população atendida, podem influenciar as duas variáveis. A associação visual não isola o efeito da contratação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "conceptId": "intervalo-interquartil",
+      "mechanism": "distinguir-caixa-de-amplitude",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#3. O box plot: o resumo dos cinco números de Tukey"
+      ],
+      "statement": "Um box plot apresenta o primeiro quartil em 12 e o terceiro em 20. A caixa tem largura de 8 unidades na escala dos dados, independentemente da posição dos bigodes.",
+      "correctAnswer": "C",
+      "explanation": "A caixa vai de Q1 a Q3. Sua extensão é a diferença 20 − 12, que define o intervalo interquartil."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização de dados",
+      "conceptId": "comparacao-de-box-plots",
+      "mechanism": "igualar-mediana-e-variabilidade",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#5. Comparação e cruzamento de grupos com box plots múltiplos"
+      ],
+      "statement": "Dois grupos têm a mesma mediana no box plot. Se um tem caixa de 10 a 30 e o outro de 18 a 22, a igualdade das medianas implica a mesma dispersão interquartil.",
+      "correctAnswer": "E",
+      "explanation": "A mediana indica posição central. Os intervalos interquartis são 20 e 4, de modo que as metades centrais têm dispersões diferentes."
     }
   ]
 }

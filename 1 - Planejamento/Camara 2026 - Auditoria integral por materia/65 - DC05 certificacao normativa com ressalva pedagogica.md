@@ -1,0 +1,9 @@
+# Bloco 65: DC05, direitos políticos, certificação normativa delimitada
+
+Data: 11/11/2026. Artigo: [[3 - Materias/Direito Constitucional/05 - direitos politicos]]. Referências: [CF arts. 14–17](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html); [TSE, Res. 23.659/2021](https://www.tse.jus.br/legislacao/compilada/res/2021/resolucao-no-23-659-de-26-de-outubro-de-2021); Lei 15.230/2025; LC 64/1990.
+
+**Recorte:** artigo original correto quanto a capacidade ativa/passiva, alistamento, idades, condições de elegibilidade, inelegibilidades de analfabetos/inalistáveis, chefes do Executivo e direitos políticos. Complementações: **NC-PL-071**: art. 14, §§ 8º–11, militar alistável, inelegibilidades de LC e ação de impugnação em quinze dias da diplomação; **NC-PL-072**: art. 16, vigência versus aplicação de lei eleitoral; **NC-PL-073**: art. 17 (partidos, coligações, cláusula de desempenho, fidelidade, recursos para candidaturas de mulheres e pessoas pretas/pardas) e art. 14, §§ 12 e 13 (consultas populares locais). Incluída referência à Lei 15.230/2025 e notícia da ADI 7991, sem presumir julgamento final.
+
+**Questões C/E originais: zero. Casos progressivos originais: zero. Exemplos comentados: três.** Nenhum exercício inventado ou acrescentado ao inventário histórico de 297 itens reportados. Certificação **normativa delimitada com ressalva pedagógica**. Commit de edição: `062655d4094356997a32a483598b0d8324ffff60`.
+
+**Controle sequencial após bloco 65:** **28/29 artigos cotejados normativamente** (DC05–29, DC31–33), restando **DC30** como pendência final. DC05 e DC07–09 permanecem sem treino C/E e casos progressivos; esses quatro artigos requerem tratamento pedagógico específico. Índice e diagnóstico central pendentes de reconciliação dos checkpoints independentes. Sem revisão de publicação ou layout no GitHub Pages.

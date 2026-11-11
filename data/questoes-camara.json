@@ -3746,6 +3746,102 @@
       "statement": "Para defender que as reclamações caíram de forma contínua ao longo de um semestre, basta mostrar as duas semanas de maior queda, ainda que os demais dados mostrem aumentos.",
       "correctAnswer": "E",
       "explanation": "As semanas selecionadas não sustentam uma afirmação sobre o semestre inteiro. Os aumentos contradizem a alegação de queda contínua."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "conceptId": "regime-politico",
+      "mechanism": "inferir-regime-da-forma-de-governo",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Três perguntas diferentes: regime, forma e sistema de governo"
+      ],
+      "statement": "Dois países têm presidentes com mandato fixo. Em um, a oposição disputa eleições livres. No outro, o governo impede candidaturas oposicionistas. A forma republicana comum é insuficiente para classificá-los no mesmo regime político.",
+      "correctAnswer": "C",
+      "explanation": "A forma republicana diz respeito à chefia do Estado. A possibilidade efetiva de competição é relevante para distinguir regimes."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "conceptId": "democracia-eleitoral",
+      "mechanism": "confundir-voto-com-competicao",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Democracia: definições mínimas e substantivas"
+      ],
+      "statement": "Um governo realiza eleições regulares, mas só autoriza a candidatura de integrantes do partido governante. A regularidade das eleições basta para caracterizar competição democrática.",
+      "correctAnswer": "E",
+      "explanation": "A regularidade informa quando se vota. A competição exige alternativas efetivas, ausentes na situação descrita."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "conceptId": "autoritarismo-competitivo",
+      "mechanism": "distinguir-competicao-real-de-equidade",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Levitsky e Way: autoritarismo competitivo"
+      ],
+      "statement": "A oposição participa de eleições e pode vencer em certas regiões, mas o governo usa sistematicamente recursos estatais para limitar sua atuação. A possibilidade de vitórias oposicionistas é compatível com o conceito de autoritarismo competitivo.",
+      "correctAnswer": "C",
+      "explanation": "A oposição disputa de forma efetiva, mas em condições sistematicamente desiguais. A combinação distingue a categoria."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "conceptId": "autoritarismo-competitivo",
+      "mechanism": "generalizar-ausencia-de-competicao",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Levitsky e Way: autoritarismo competitivo"
+      ],
+      "statement": "Para Levitsky e Way, a competição autoritária pressupõe que nenhum grupo de oposição possa disputar eleições ou ocupar cargos.",
+      "correctAnswer": "E",
+      "explanation": "A competição é real, embora desigual. A exclusão completa de competidores elimina uma característica central da categoria."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "conceptId": "erosao-democratica",
+      "mechanism": "exigir-ruptura-abrupta",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Transição, democratização, consolidação e erosão democrática"
+      ],
+      "statement": "Em um país, eleições continuam a ocorrer enquanto mudanças sucessivas restringem a liberdade de imprensa e enfraquecem órgãos de controle. Esse processo pode ser analisado como erosão democrática.",
+      "correctAnswer": "C",
+      "explanation": "A erosão pode ocorrer gradualmente, por redução de liberdades e controles, enquanto instituições formais continuam em funcionamento."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "conceptId": "consolidacao-democratica",
+      "mechanism": "confundir-eleicao-inicial-com-consolidacao",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Transição, democratização, consolidação e erosão democrática"
+      ],
+      "statement": "A realização da primeira eleição disputada após um período autoritário demonstra, por si só, que a democracia está consolidada.",
+      "correctAnswer": "E",
+      "explanation": "A eleição pode sinalizar abertura. A consolidação depende da aceitação e estabilidade das regras democráticas ao longo do tempo."
     }
   ]
 }

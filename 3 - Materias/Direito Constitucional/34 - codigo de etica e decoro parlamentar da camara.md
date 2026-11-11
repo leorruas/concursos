@@ -98,15 +98,15 @@ Na dosimetria da pena, consideram-se natureza e gravidade da infração, danos �
 | :--- | :--- | :--- | :--- |
 | **Censura Verbal** | **Presidente da Câmara** (em sessão) ou **Presidente de Comissão** (em reunião) | Incisos I e II do art. 5º | Cabe **recurso ao respectivo Plenário em 2 dias úteis** (art. 11, parágrafo único). |
 | **Censura Escrita** | **Mesa Diretora da Câmara** | Inciso III do art. 5º, mediante provocação do ofendido, ou reincidência nas hipóteses do art. 11 por solicitação do presidente da Câmara ou da comissão | **Defesa em 5 dias úteis** e **recurso ao Plenário em 2 dias úteis** (art. 12, §§ 1º e 2º). |
-| **Suspensão de Prerrogativas Regimentais** | **Plenário da Câmara dos Deputados** (por proposta do Conselho de Ética) | Incisos VI a VIII do art. 5º (revelação de documento reservado, desvio de verba de gabinete, relatoria de doador de campanha) | Prazo máximo de **até 6 meses**. Qualquer cidadão pode provocar a Mesa. Instrução sumária no Conselho em até 30 dias. |
-| **Suspensão Temporária do Exercício do Mandato** | **Plenário da Câmara dos Deputados** (após processo no Conselho de Ética) | Incisos IV, V, IX e X do art. 5º (aliciamento/constrangimento hierárquico, quebra de sessão secreta, fraude de presença, descumprimento intencional de deveres fundamentais) | Prazo máximo de **até 6 meses**. Iniciativa de partido com assento no Congresso ou provocação da Mesa. Quórum de maioria absoluta. |
-| **Perda do Mandato** | **Plenário da Câmara dos Deputados** (após processo no Conselho de Ética) | Art. 4º (atos incompatíveis: abuso de prerrogativas, vantagem indevida, acordo de suplência, fraude deliberativa, falsidade patrimonial) | **Maioria absoluta dos membros da Câmara, em votação aberta** (conforme EC 76/2013). |
+| **Suspensão de Prerrogativas Regimentais** | **Plenário da Câmara dos Deputados** (por proposta do Conselho) | Incisos VI a VIII do art. 5º | Até **6 meses**; defesa **10 dias úteis**, diligências **15 dias úteis**, prorrogáveis uma vez por igual período; recurso à CCJC **5 dias úteis** (art. 13). |
+| **Suspensão Temporária do Exercício do Mandato** | **Plenário da Câmara dos Deputados** | Incisos IV, V, IX e X do art. 5º | Até **6 meses**; defesa **10 dias úteis**, até **8 testemunhas**, instrução **30 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva (art. 14). |
+| **Perda do Mandato** | **Plenário da Câmara dos Deputados** | Art. 4º (atos incompatíveis) | Defesa **10 dias úteis**, até **8 testemunhas**, instrução **40 dias úteis**, parecer **10 dias úteis**; decisão por maioria absoluta, ostensiva (art. 14). |
 
 ### O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, V)
 A penalidade de suspensão de prerrogativas regimentais incide sobre faculdades regimentais do deputado, sem retirá-lo da votação em Plenário nem cassar seu subsídio. Podem ser suspensas, por até seis meses, no todo ou em parte:
 - O direito de usar a palavra no horário do Pequeno ou do Grande Expediente;
 - O direito de encaminhar discurso para publicação no Diário da Câmara dos Deputados;
-- O direito de candidatar-se a, ou permanecer exercendo, cargo de membro da Mesa ou de presidente/vice-presidente de comissão;
+- O direito de candidatar-se a, ou permanecer exercendo, cargo de membro da Mesa, da Ouvidoria Parlamentar, da Procuradoria Parlamentar, de presidente/vice-presidente de comissão ou de membro de CPI;
 - O direito de ser designado relator de proposição em comissão ou no Plenário.
 
 ## 4. O Conselho de Ética e Decoro Parlamentar: composição e funcionamento (arts. 6º a 9º)
@@ -128,35 +128,38 @@ O Conselho de Ética e Decoro Parlamentar é órgão integrante da estrutura ins
 
 ## 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário
 
-O rito depende da penalidade. A censura verbal e a escrita seguem os arts. 11 e 12, sem percorrer automaticamente o processo de sanção grave. A suspensão de prerrogativas segue o art. 13; a suspensão do mandato e a perda do mandato seguem o art. 14. Os prazos do Conselho contam-se em **dias úteis** e ficam suspensos no recesso, salvo convocação extraordinária pertinente (art. 8º, § 3º). O fluxograma abaixo está em revisão e não deve ser usado para memorizar o rito.
+O rito depende da penalidade. A censura verbal e a escrita seguem os arts. 11 e 12, sem percorrer automaticamente o processo de sanção grave. A suspensão de prerrogativas segue o art. 13; a suspensão do mandato e a perda do mandato seguem o art. 14. Os prazos do Conselho contam-se em **dias úteis** e ficam suspensos no recesso, salvo convocação extraordinária pertinente (art. 8º, § 3º). O fluxograma apresenta os ramos principais, sem dispensar exceções e requalificações dos arts. 13 e 14. O quadro e as questões ainda exigem conferência final.
 
 ```mermaid
 flowchart TD
-    A["Representação (Partido com representação no CN ou Mesa)"] --> B["Mesa da Câmara (exame prévio / admissibilidade)"]
-    B -->|Encaminhamento| C["Conselho de Ética e Decoro Parlamentar"]
-    C --> D["Presidente do Conselho autua e sorteia lista tríplice de relatores"]
-    D --> E["Designação de Relator (vedado mesmo Estado e mesmo Partido)"]
-    E --> F["Notificação do representado: 5 sessões ordinárias para Defesa"]
-    F -->|Sem defesa no prazo| G["Nomeação de Defensor Dativo (reabre 5 sessões)"]
-    F -->|Defesa apresentada| H["Instrução probatória (diligências, oitiva testemunhal, perícias)"]
-    G --> H
-    H --> I["Relator apresenta Parecer Final (5 sessões ordinárias)"]
-    I --> J["Votação no Conselho (maioria absoluta, votação aberta)"]
-    J -->|Rejeitado parecer originário| K["Designação de novo relator entre a maioria vencedora"]
-    J -->|Aprovado Parecer| L{"Recurso à CCJC por vício formal? (art. 14, § 4º, VIII)"}
-    L -->|Sim| M["CCJC delibera em até 5 dias (estrito controle de legalidade)"]
-    L -->|Não| N["Remessa à Mesa Diretora da Câmara"]
-    M --> N
-    N --> O["Leitura no expediente e inclusão na Ordem do Dia (2 dias)"]
-    O --> P["Plenário da Câmara dos Deputados: Julgamento Final"]
-    P --> Q["Quórum: Maioria Absoluta (257 deputados), Votação Aberta"]
-
-    classDef raiz fill:#fef3c7,stroke:#b45309,stroke-width:2px,color:#78350f;
-    classDef criterio fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0369a1;
-    classDef opcao fill:#f3f4f6,stroke:#4b5563,stroke-width:1.5px,color:#1f2937;
-    class A,C,P raiz;
-    class B,E,H,J,L,O criterio;
-    class D,F,G,I,K,M,N,Q opcao;
+ A["Notícia de possível infração ao decoro"] --> B["Mesa da Câmara: art. 9º"]
+ B --> C{"Penalidade aplicável?"}
+ C --> V["Censura verbal: art. 11"]
+ V --> V1["Presidente da Câmara ou comissão aplica"]
+ V1 --> V2["Recurso ao respectivo Plenário: 2 dias úteis"]
+ C --> E["Censura escrita: art. 12"]
+ E --> E1["Mesa: defesa de 5 dias úteis"]
+ E1 --> E2["Decisão e recurso ao Plenário: 2 dias úteis"]
+ C --> R["Suspensão de prerrogativas: art. 13"]
+ R --> R1["Conselho: relator sorteado, impedimentos legais"]
+ R1 --> R2["Defesa: 10 dias úteis"]
+ R2 --> R3["Diligências: 15 dias úteis, prorrogáveis uma vez"]
+ R3 --> R4["Parecer do Conselho e eventual requalificação"]
+ C --> G["Suspensão do mandato ou perda: art. 14"]
+ G --> G1["Conselho: relator e exame de admissibilidade"]
+ G1 --> G2["Defesa: 10 dias úteis; até 8 testemunhas"]
+ G2 --> G3["Instrução: 30 dias úteis suspensão; 40 dias úteis perda"]
+ G3 --> G4["Parecer: 10 dias úteis"]
+ G4 --> G5["Discussão e votação nominal no Conselho"]
+ R4 --> X{"Recurso à CCJC por vício jurídico?"}
+ G5 --> X
+ X -->|Sim, 5 dias úteis| Y["CCJC examina vícios: 5 dias úteis; efeito suspensivo"]
+ X -->|Não| Z["Envio à Mesa"]
+ Y --> Z
+ Z --> P["Inclusão na Ordem do Dia: até 2 sessões ordinárias após leitura e publicação"]
+ P --> Q["Plenário: maioria absoluta, votação ostensiva"]
+ N["Limites gerais do art. 16: 60 dias úteis suspensões; 90 perda"] -.-> R
+ N -.-> G
 ```
 
 ### Passo a passo detalhado do procedimento
@@ -174,14 +177,14 @@ flowchart TD
    - Na instrução, o Conselho realiza audiências, perícias e oitivas de testemunhas.
    - **Quebra de sigilo bancário, fiscal e telefônico (Regulamento, arts. 14 a 16):** o Conselho de Ética **não possui poderes próprios diretos de quebra de sigilo** (prerrogativa reservada às Comissões Parlamentares de Inquérito — CPIs, nos termos do art. 58, § 3º, da CF). Caso necessite da quebra de sigilo bancário, fiscal ou telefônico do representado, o Conselho deve requerer motivadamente à **Mesa**, para que esta submeta a autorização ao **Plenário da Câmara dos Deputados**, ou solicitar a transferência de sigilos já legitimamente obtidos por CPI encerrada ou em curso.
 5. **Parecer, votação no Conselho e substituição de relatoria:**
-   - No rito do art. 14, a instrução possui os prazos próprios previstos no Código, e o relator dispõe de **10 dias úteis** para apresentar parecer após a fase instrutória, observadas as hipóteses legais de prorrogação.
+   - No rito do art. 14, após a defesa, o relator tem **30 dias úteis de instrução para suspensão do mandato** e **40 dias úteis para perda**, seguidos de **10 dias úteis para parecer** (art. 14, § 4º, IV).
    - A deliberação de parecer no Conselho segue **maioria simples, com presença de maioria absoluta** de seus membros, conforme o Acordo de Procedimentos 2025–2027. Não confundir com o quórum da decisão sancionatória final do Plenário.
-   - Se rejeitado o parecer do relator, a elaboração do voto vencedor por novo relator observa o **prazo de 5 dias úteis** estabelecido no art. 16, § 4º, quando aplicável.
+   - A **rejeição do parecer** exige designação de novo relator, preferencialmente entre aqueles que se manifestaram contrariamente ao primeiro (art. 14, § 4º, V). A **substituição por atraso** é outra situação: art. 16, § 4º prevê até **5 dias úteis** para completar a instrução pendente ou apresentar parecer após instrução concluída.
 6. **Recurso à CCJC (art. 14, § 4º, VIII; Regulamento, art. 20):**
    - Da decisão do Conselho de Ética cabe recurso à **Comissão de Constituição e Justiça e de Cidadania (CCJC)**, interposto no prazo de cinco dias úteis.
    - **Natureza estrita do recurso à CCJC:** a CCJC atua com competência jurisdicionaliforme restrita, pronunciando-se **exclusivamente sobre vícios de constitucionalidade, regimentalidade e formalidades do Código de Ética**. É-lhe vedado reexaminar o mérito fático da acusação ou substituir o juízo político-disciplinar do Conselho.
 7. **Prazos máximos de tramitação (art. 16):**
-   - O art. 16 estabelece limites de **60 ou 90 dias úteis** para os procedimentos sancionatórios nele previstos; **não se aplica automaticamente às censuras verbal e escrita**.
+   - O art. 16 fixa **60 dias úteis** para deliberação pelo Conselho ou pelo Plenário, conforme o caso, nos processos de **suspensão de prerrogativas ou do mandato**. Na **perda do mandato**, o limite é de **90 dias úteis** para deliberação do Plenário. Censuras não estão nesse intervalo.
    - A inclusão na Ordem do Dia observa o marco de **duas sessões ordinárias** previsto no art. 16, sem substituição por dois dias corridos. Os marcos iniciais e os detalhes de cada rito precisam ser lidos no dispositivo legal.
 8. **Julgamento Soberano em Plenário:**
    - O Plenário aprecia o parecer e o projeto de resolução do Conselho de Ética;

@@ -864,3 +864,18 @@ Esta rodada acrescentou intervenções em **três artigos distintos**, todos ain
 **Fontes desta rodada:** [Nielsen, medição da audiência televisiva](https://www.nielsen.com/insights/2023/how-to-measure-tv-audiences/), [glossário Nielsen, rating/share](https://tapweb.nielsen.com/help/main/glossary.htm); [Edmondson 1999, Harvard](https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f); [Tuckman 1965, registro APA](https://doi.org/10.1037/h0022100); [Open University, Tuckman/Jensen](https://www.open.edu/openlearn/mod/oucontent/view.php?id=3302&section=3.2.5).
 
 **Indicadores:** **51 artigos distintos modificados dos 128 arquivos inventariados (39,8%)**; **dois itens C/E inéditos** incluídos, não pertencentes a provas históricas. O registro provisório de **67 gabaritos com cotejo dirigido** fica inalterado até reconstrução identificada e desduplicada por item e fonte. Esta rodada examinou cinco gabaritos no artigo 106 e cinco no 121, mas o nível de evidência é variável, discriminado nos artigos. **O percentual mede a incidência de edição, não conclusão de auditoria.** A comparação sistemática com questões reais Cebraspe e a conferência dos demais artigos continuam pendentes.
+
+
+## Registro: custo por ponto, caminho crítico e pesquisa amostral (11/11/2026)
+
+**Três artigos distintos foram alterados nesta rodada, todos novos no conjunto de intervenções:**
+
+| Artigo | Conferência e intervenção | Commit |
+| --- | --- | --- |
+| 90, plano de mídia | Esclarecida na tabela a unidade CPP (*custo por ponto de audiência*), com definição conferida no IAB Brasil; cálculo de R$ 24.000 / 120 GRPs = R$ 200 por ponto; três gabaritos mantidos por coerência e aritmética; um C/E inédito | [d40cb97](https://github.com/leorruas/concursos/commit/d40cb9797a0326985ad243a3088a4615325b2852) |
+| 91, cronograma | Recalculados dois percursos da rede, 11 e 12 dias úteis; confirmada folga total de um dia na tarefa B e distinção entre custo, precedência e caminho crítico; três gabaritos mantidos; um C/E inédito | [d99f920](https://github.com/leorruas/concursos/commit/d99f92098edeadfbf73fca1689e8e1ec14b8c4b4) |
+| 103, pesquisa de mercado | Confirmado por AAPOR/Pew que ponderação não converte amostra opt-in em seleção probabilística; itens 2, 3 e 4 cotejados conceitual ou matematicamente; um C/E inédito. Restantes métodos ainda pendentes de revisão integral | [cd03448](https://github.com/leorruas/concursos/commit/cd03448f194bed9cfeb41edcf8dda1469925cfe5) |
+
+**Fontes:** [IAB Brasil, CPP](https://glossarios.iabbrasil.com.br/glossario/cpp-custo-por-ponto/); [PMI, caminho crítico e folga](https://www.pmi.org/learning/library/critical-path-method-calculations-scheduling-8040); [AAPOR, boas práticas](https://aapor.org/standards-and-ethics/best-practices/); [Pew, fundamentos de pesquisa](https://www.pewresearch.org/course/public-opinion-polling-basics/).
+
+**Indicadores:** total de **54 artigos distintos com alguma modificação entre 128 arquivos inventariados (42,2%)**, frente a 51 anteriormente. Houve três itens C/E inéditos adicionais; não são reproduções de questões históricas da banca. A contagem provisória anterior de **67 itens com conferência dirigida** permanece inalterada até reconstrução por identificador único e fonte, apesar de itens terem sido analisados aqui. O percentual representa incidência de edição, não auditoria integral concluída. A próxima frente inclui fluxo de produção e controles do artigo 92, além de confrontar conteúdos com provas Cebraspe reais e revisar os demais artigos.

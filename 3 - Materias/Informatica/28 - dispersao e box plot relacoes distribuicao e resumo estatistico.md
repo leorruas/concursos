@@ -5,7 +5,7 @@ title: "Gráfico de dispersão e box plot: relações bivariadas, distribuição
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Gráfico de dispersão e box plot: relações bivariadas, distribuição, quartis e detecção de outliers
@@ -14,8 +14,8 @@ updated: 2026-11-09
 
 Na análise de dados legislativos e políticas públicas da Câmara dos Deputados — como a investigação sobre a relação entre o número de assessores e a produção de pareceres em comissões, ou o escrutínio do tempo de tramitação de proposições —, métricas simples de tendência central (como a média aritmética) costumam ocultar informações fundamentais ou distorcer a realidade quando há assimetria acentuada e valores discrepantes (*outliers*).
 
-A análise exploratória de dados (*Exploratory Data Analysis* - EDA) recorre a dois instrumentos gráficos canônicos de alto poder diagnóstico, intensamente cobrados pelo **Cebraspe**:
-1. O **Gráfico de Dispersão (*Scatter Plot*)**: projetado para investigar a relação bivariada (associação linear ou não linear, sentido e dispersão) entre duas variáveis quantitativas contínuas.
+A análise exploratória de dados (*Exploratory Data Analysis* - EDA) recorre a dois instrumentos gráficos canônicos de alto poder diagnóstico, relevantes para o conteúdo de análise de dados previsto na preparação para o **Cebraspe**:
+1. O **Gráfico de Dispersão (*Scatter Plot*)**: projetado para investigar a relação bivariada (associação linear ou não linear, sentido e dispersão) entre duas variáveis quantitativas (contínuas ou discretas, quando a representação por pares fizer sentido).
 2. O **Diagrama de Caixas (*Box Plot*)**: projetado para sumarizar a distribuição univariada de uma variável contínua por meio do **resumo dos cinco números** de Tukey, evidenciando simultaneamente mediana, dispersão interquartílica, assimetria e presença de valores atípicos.
 
 ---
@@ -44,7 +44,7 @@ O gráfico de dispersão plota pares de observações $(x_i, y_i)$ em um plano c
    - *Linear:* Os pontos distribuem-se em torno de uma linha reta imaginária.
    - *Não Linear (Curvilínea):* A relação segue padrões exponenciais, logarítmicos, quadráticos ou em $U$ invertido.
 3. **Força da Associação:**
-   - Determinada pela proximidade dos pontos em torno da linha de tendência. Quanto mais concentrada a nuvem, mais forte a correlação (maior o valor absoluto do coeficiente de correlação de Pearson $r$).
+   - Determinada pela proximidade dos pontos em torno da linha de tendência. Para uma associação aproximadamente **linear**, maior concentração em torno de uma reta tende a corresponder a maior valor absoluto do coeficiente de Pearson $r$. O coeficiente não resume adequadamente todas as relações não lineares e um valor próximo de zero não prova independência.
 4. **Alerta Dogmático de Prova: Correlação não implica Causalidade**
    - O gráfico de dispersão e o coeficiente de Pearson demonstram **associação estatística concomitante**, mas não provam que a variável $X$ seja a causa direta da variável $Y$. A associação pode ser espúria ou mediada por uma terceira variável de confusão (*confounding variable*).
 
@@ -71,7 +71,7 @@ O **Box Plot** (ou diagrama de caixa) foi desenvolvido pelo estatístico John Tu
    $$\text{IQR} = Q_3 - Q_1$$
    - A altura/comprimento da caixa corresponde exatamente ao IQR, contendo os **50% centrais dos dados**. É uma medida de dispersão robusta contra valores extremos.
 5. **Hastes ou Bigodes (*Whiskers*):**
-   - Prolongam-se a partir das bordas da caixa até o menor e o maior valor observado que **não sejam classificados como outliers**.
+   - Na variante modificada de Tukey, prolongam-se a partir das bordas da caixa até o menor e o maior **valor efetivamente observado** dentro dos limites de $1{,}5 \times IQR$; pontos além desses limites são mostrados separadamente. Outras implementações de box plot podem adotar convenções diferentes.
    - O alcance máximo teórico das hastes é de $1{,}5 \times \text{IQR}$ além dos quartis:
      $$\text{Limite Inferior Teórico} = Q_1 - 1{,}5 \times \text{IQR}$$
      $$\text{Limite Superior Teórico} = Q_3 + 1{,}5 \times \text{IQR}$$
@@ -97,10 +97,10 @@ O desenho da caixa e das hastes revela a simetria ou assimetria da distribuiçã
    - A linha da mediana situa-se aproximadamente no centro da caixa ($Q_2 - Q_1 \approx Q_3 - Q_2$).
    - As duas hastes possuem comprimentos similares.
 2. **Distribuição Assimétrica Positiva (à Direita):**
-   - A mediana está mais próxima do primeiro quartil $Q_1$ (a metade superior da caixa é mais larga que a inferior).
+   - A mediana pode estar mais próxima do primeiro quartil $Q_1$ (metade superior da caixa mais larga), o que sugere assimetria neste resumo, sem demonstrá-la para toda distribuição.
    - A haste superior é visivelmente mais longa que a inferior, e os eventuais outliers concentram-se no topo (valores muito altos, como salários e patrimônio).
 3. **Distribuição Assimétrica Negativa (à Esquerda):**
-   - A mediana está mais próxima do terceiro quartil $Q_3$.
+   - A mediana pode estar mais próxima do terceiro quartil $Q_3$, sinal exploratório que deve ser lido junto aos dados e às hastes.
    - A haste inferior é mais longa que a superior, e eventuais outliers situam-se nos valores mínimos.
 
 ---
@@ -191,3 +191,5 @@ Uma das maiores utilidades práticas do box plot na administração pública é 
 3. **TRIOLA, Mario F.** *Introdução à Estatística.* 12ª ed. Rio de Janeiro: LTC, 2017.
 4. **FEW, Stephen.** *Show Me the Numbers: Designing Tables and Graphs to Enlighten.* Analytics Press, 2012.
 5. **CÂMARA DOS DEPUTADOS.** *Guia de Análise Exploratória de Dados para Auditoria e Consultoria Legislativa.* Brasília: Cenin/Conleg, 2024.
+
+> **Nota conceitual (revisão Câmara, 11/11/2026):** o resumo convencional dos cinco números é **mínimo amostral, Q1, mediana, Q3 e máximo amostral**. No box plot modificado de Tukey, os extremos das hastes não precisam coincidir com mínimo e máximo amostrais, pois observações além das cercas de 1,5 × IQR são marcadas à parte. Identificar um ponto como outlier estatístico não demonstra irregularidade administrativa. Exemplos de gastos e tramitação neste artigo são exercícios hipotéticos, não conclusões de auditoria. Referência: Tukey, *Exploratory Data Analysis* (1977).

@@ -458,3 +458,40 @@ A página seguinte do caderno `101_IRBRCACDOBJ_002_01` foi conferida visualmente
 **Reconciliação cumulativa:** checkpoints 10 e 11 classificaram individualmente os **72 C/E autorais dos 12 artigos 07–18**: **53 M, 14 R, 5 S**. Há **cinco itens S distintos** (08#1, 13#4, 14#1, 16#2, 16#3), não cinco novos. Restam para classificação individual **seis C/E de 01–06 e seis exercícios autorais FGV A–E**, num conjunto de 84 exercícios Markdown. Corpus oficial de comparação permanece ANATEL 2024 + IRBr 2025, 28 itens identificados em dois concursos, sem inferência de incidência. Identificadores históricos ING-001–063 contemplam erros, riscos, hipóteses e melhorias, **não 63 respostas incorretas**.
 
 **Próximo passo da Fase 1:** classificação dos 12 exercícios de 01–06 e parecer documental final. Nenhuma teoria, item, gabarito, ID, hub ou catálogo foi editado.
+
+
+## 19. Checkpoint 12: 12 exercícios de 01–06, reconciliação completa dos 84 e fechamento documental da Fase 1 (11/11/2026)
+
+**Escopo de leitura:** artigos preexistentes `01 - leitura instrumental tese e inferencias.md`, `02 - conectivos e relacoes logico semanticas.md`, `03 - referencia pronominal e coesao lexical.md`, `04 - tempos verbais voz passiva e modalizacao.md`, `05 - vocabulario em contexto e falsos cognatos.md` e `06 - parafrase equivalencia semantica e escopo.md`. Cada um contém uma questão inédita FGV A–E com comentário e um item inédito C/E com gabarito. Estes 12 exercícios foram relidos individualmente e comparados com os exemplos base no arquivo. **M** neste relatório significa sustentável provisoriamente diante do próprio texto, sem alegação de validação externa do item. Identidade dos arquivos 02, 04 e 05 recuperada de nomes existentes e das ligações internas; não houve criação/substituição de arquivo.
+
+| Artigo | FGV A–E, gabarito | Classe FGV | C/E, gabarito | Classe C/E | Justificativa |
+| --- | --- | --- | --- | --- | --- |
+| 01 | C | **M** | E | **M** | Alternativa C preserva papel da triagem com verificação independente; C/E rejeita tratar `may` como ocorrência necessária |
+| 02 | B | **M** | C | **M** | `Despite` e `although` expressam concessão com regências diferentes; `nevertheless` contrapõe expectativa |
+| 03 | C | **M** | C | **M** | `which` retoma situação de rejeição de pedidos no contexto; `this` pode retomar proposição inteira |
+| 04 | B | **M** | C | **M** | `may have been altered` informa possibilidade de alteração anterior sem agente; `mustn't` proíbe, `don't have to` dispensa obrigação |
+| 05 | C | **M** | C | **M** | `currently` significa atualmente, `claims` admite pedidos/solicitações e `issued` equivale a emitida; `actual expenditure` designa despesa efetiva |
+| 06 | C | **M** | E | **M** | `not all` implica que pelo menos um não recebeu, sem quantificar metade; `after` não implica causação por auditoria |
+
+
+**Subtotal desta etapa:** seis exercícios FGV A–E classificados **M**, seis exercícios C/E classificados **M**; **zero novas ressalvas de gabarito e zero novas suspensões**. **Ressalva didática importante:** o artigo `06` mantém o exemplo `Only if documents are complete, the request can proceed`, cuja inversão formal, já identificada em ING-001 e backlog, deve ser corrigida na futura Fase 2. Essa falha da **teoria** não muda automaticamente o gabarito dos dois exercícios finais sobre `not all` e `after` versus `cause`. O artigo `03` corretamente observa que pronomes podem referir-se a proposições e que antecedentes podem ser ambíguos, o que contrasta com a regra excessivamente taxativa identificada em `09` (ING-046).
+
+### Quadro final de adjudicação dos exercícios em Markdown
+
+| Conjunto | M, mantido provisoriamente | R, exige ajuste de enunciado/comentário | S, suspender para treino | Total |
+| --- | ---: | ---: | ---: | ---: |
+| 01–06, seis C/E introdutórios | 6 | 0 | 0 | 6 |
+| 01–06, seis FGV A–E introdutórios | 6 | 0 | 0 | 6 |
+| 07, 10, 15, 17 e 18, 30 C/E (checkpoint 10) | 23 | 7 | 0 | 30 |
+| 08, 09, 11, 12, 13, 14 e 16, 42 C/E (checkpoint 11) | 30 | 7 | 5 | 42 |
+| **TOTAL, 84 exercícios autorais** | **65** | **14** | **5** | **84** |
+
+**Os cinco S únicos**: `08#1` (acréscimo temporal `immediate`), `13#4` (recuo obrigatório do futuro no discurso indireto sem contexto), `14#1` (omissão da oração de finalidade na voz passiva), `16#2` (disposição `were willing` transformada em apoio consumado `supported`) e `16#3` (causalidade direta introduzida em proporcionalidade). **S indica risco de gabarito e confiabilidade, não alteração de resposta publicada.** As classes M e R também são diagnósticos e **não** significam homologação oficial.
+
+### Parecer de encerramento documental, separado da certificação pedagógica
+
+**Fase 1 concluída documentalmente quanto ao escopo definido no catálogo, com ressalvas expressas:** (a) programa literal do edital transcrito e mapeado; (b) dezoito artigos, um hub e seis notas correlatas de Português identificados, estes últimos sem auditoria integral; (c) 84/84 exercícios Markdown submetidos a classificação individual, incluindo 78 C/E e seis FGV A–E; (d) cinco exercícios suspensos e 14 com revisões de comentário/comando; (e) triangulação limitada com 28 itens oficiais em dois concursos da Cebraspe, ANATEL 2024 e IRBr 2025, sem extrapolar incidência; (f) arquitetura, riscos e backlog de Fase 2 já registrados nos checkpoints anteriores. Não se pode concluir que a disciplina esteja **pedagogicamente validada** ou que todos os exemplos estejam corretos, pois a fase detectou erros substantivos e não executou reparos ou testes de transferência com textos inéditos. Referências bibliográficas genéricas da banca devem ser substituídas por documentos individuais verificáveis.
+
+**Marco de transição:** o status documental da auditoria é **“Fase 1: diagnóstico fechado, reparos pendentes”**. A Fase 2 terá de corrigir erros conceituais, rever os cinco S, melhorar os 14 R e verificar outros exemplos em contexto, sem apagar a trilha do diagnóstico. **Não iniciar edição de artigos, bancos de itens, gabaritos, identificadores, hubs ou catálogo nesta fase.** A política de concorrência requer ler SHA recente antes de qualquer atualização futura.
+
+**Total histórico de registros `ING-001–ING-063`** permanece contagem de observações e propostas, não de erros comprovados. **Únicos arquivos alterados na presente etapa:** este relatório e sua entrada de estado no índice geral, após atualização segura. Nenhuma fonte de aprendizagem foi reescrita.

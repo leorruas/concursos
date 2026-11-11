@@ -157,6 +157,14 @@ A [AAPOR, boas práticas de pesquisa](https://aapor.org/standards-and-ethics/bes
 
 **C/E novo, inédito:** “Aplicar pesos para igualar a distribuição de idade e região transforma, por si só, respostas espontâneas de um formulário aberto em seleção aleatória de indivíduos da população.” **Errado**. **Limite:** itens 1 e 5 e a discussão inteira sobre desenho amostral permanecem pendentes de cotejo integral com literatura metodológica.
 
+## Prova real conferida: Correios 2011, itens 86, 87 e 90 (11/11/2026)
+
+Foi realizado confronto do [caderno oficial CESPE/UnB dos Correios 2011, Cargo 28, Publicidade e Propaganda](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf) com o [gabarito definitivo da mesma prova](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/Gab_Definitivo_ECT11_028_83.PDF): **item 86, Errado**, por atribuir à entrevista em profundidade vantagem de rapidez para grandes contingentes frente a questionário padronizado; **item 87, Certo**, por reconhecer a checagem de parte das entrevistas como medida de controle de qualidade; **item 90, Certo**, por incluir idioma, hábitos, valores culturais e contexto político-econômico no planejamento de pesquisa internacional.
+
+**Aprendizado específico para itens C/E:** o termo correto no enunciado não basta: a banca pode atribuir a ele **escala inadequada** (86), pedir reconhecimento de um procedimento de **controle de campo** (87), ou cobrar a integração entre fatores culturais e de mercado (90). **Pesquisa em profundidade não equivale a coleta necessariamente lenta em todas as circunstâncias**, mas a proposição do item 86 faz uma generalização metodológica incorreta. Da mesma forma, checagem de campo não elimina os demais riscos de não resposta, cobertura ou erro de mensuração.
+
+As três questões são **reais e com julgamento oficial conferido**, e não exercícios inéditos criados para o vault. Registrar como evidência de padrão de cobrança sem transformar uma prova de 2011 em certificação dos exemplos contemporâneos.
+
 ## Relações com outros temas
 
 **Amostragem × pesquisa qualitativa:** probabilidade de inclusão e margem de erro dizem respeito a certas inferências estatísticas, não à suficiência analítica de um estudo qualitativo. **Estatística × parâmetro:** valores da amostra não são automaticamente os da população. **Confiabilidade × validade:** precisão e repetibilidade não garantem que o instrumento mede o constructo pretendido. **Painel × cortes repetidos:** ambos usam o tempo, mas só o painel observa trajetórias dos mesmos participantes. **Pesquisa de mercado × pesquisa de opinião:** compartilham técnicas; diferem pelo problema e objeto, desenvolvidos na próxima nota.

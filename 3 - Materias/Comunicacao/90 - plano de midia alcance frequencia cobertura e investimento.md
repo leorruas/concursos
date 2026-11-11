@@ -5,7 +5,7 @@ title: "Plano de mídia: alcance, frequência, cobertura e investimento"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Plano de mídia: alcance, frequência, cobertura e investimento
@@ -29,7 +29,7 @@ O **plano de mídia** decide como distribuir uma comunicação: objetivos de dis
 | **CPM** | Custo ÷ impressões × 1.000 | Custo por mil pessoas únicas |
 | **CPC** | Custo ÷ cliques | Custo por pessoa atendida |
 | **CTR (%)** | Cliques ÷ impressões × 100 | Compreensão ou aprovação |
-| **CPP** | Custo ÷ GRPs | Custo por pessoa distinta |
+| **CPP (custo por ponto)** | Custo da campanha ÷ GRPs, em pontos de audiência | Confundir custo por ponto de audiência com custo por pessoa distinta |
 | **CPA** | Custo ÷ ações atribuídas | Prova de causalidade sem método adequado |
 
 As fórmulas convencionais aparecem no guia de matemática de mídia do IAB e nos padrões do MRC; sua aplicação exige medidas comparáveis no mesmo universo e período.
@@ -79,6 +79,14 @@ A distribuição deve considerar o público que precisa da mensagem, e não apen
 **Item 2.** Uma campanha com 300 mil impressões e 100 mil pessoas alcançadas apresentou necessariamente três exposições para cada indivíduo. **Errado.** A frequência é média, e a distribuição individual pode variar.
 
 **Item 3.** Somar diretamente o alcance distinto de dois veículos sempre produz o alcance líquido da campanha, mesmo com sobreposição de público. **Errado.** É preciso deduplicar as pessoas em comum.
+
+## Correção de gabarito implícito: CPP e unidade do denominador (11/11/2026)
+
+**Erro identificado na tabela original:** a linha **CPP** trazia a fórmula correta (**custo ÷ GRPs**), mas apresentava como confusão apenas “custo por pessoa distinta” sem explicitar que CPP significa **custo por ponto de audiência**, criando risco de leitura da coluna como definição. A tabela foi reescrita com rótulo e unidade explícitos. Conforme o [glossário oficial do IAB Brasil](https://glossarios.iabbrasil.com.br/glossario/cpp-custo-por-ponto/), **CPP = investimento dividido por pontos de audiência**. Trata-se de indicador diferente de **CPM**, que usa mil impressões, e de um custo por pessoa única alcançada.
+
+**Exemplo verificável:** campanha com custo de R$ 24.000 e **120 GRPs** apresenta CPP de **R$ 200 por ponto**. Se o alcance é 40% e a frequência média é 3, o GRP é **120**; isso não significa 120% de pessoas distintas nem R$ 200 por pessoa. Os três itens C/E preexistentes permanecem, respectivamente, **Certo, Errado, Errado**, por fórmulas e distinção entre média e alcance líquido. **C/E novo, inédito:** “Uma campanha de R$ 24 mil e 120 GRPs tem CPP de R$ 200, valor que expressa custo por ponto de audiência e não por cidadão único.” **Certo**.
+
+**Limite:** o cotejo foi direto com a definição do IAB para CPP; as outras fórmulas do artigo foram revistas apenas por coerência aritmética e não representam inspeção integral das fontes MRC.
 
 ## Relações e heurísticas
 

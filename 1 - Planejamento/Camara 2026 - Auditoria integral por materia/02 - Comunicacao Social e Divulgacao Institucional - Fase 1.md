@@ -656,3 +656,18 @@ Esta etapa muda o foco da inclusão de exercícios para o **cotejo de gabaritos 
 O artigo **78**, sobre publicidade institucional e o art. 37, § 1º, da Constituição, ganhou a ponte normativa entre impessoalidade constitucional e as oito vedações institucionais, além de dois itens C/E inéditos. [Commit 696484c](https://github.com/leorruas/concursos/commit/696484c9a0df0e86f86d8513391a244580b53b4c).
 
 **Contagem atualizada:** 14 **artigos distintos** receberam intervenção desde o início da execução, entre os 128 arquivos inventariados (10,9%). É uma medida de edição, não de completude da auditoria. A pendência específica de obter o art. 24, parágrafo único, do Ato nº 80/2019 fica **encerrada**; seguem abertos os cotejos teóricos, gabaritos dos demais artigos, normas técnicas e provas históricas da banca. A política da Câmara, em seu conjunto, ainda não foi certificada como leitura exaustiva.
+
+
+## Registro: cotejo teórico primário de Shannon, Jakobson e agenda-setting (11/11/2026)
+
+**Mudança de método:** confrontar itens e enunciados diretamente com passagens identificáveis das obras originais; não classificar como validado o texto inteiro pela inspeção de poucas páginas.
+
+| Artigo | Itens cotejados e resultado | Fonte primária e limite | Commit |
+| --- | --- | --- | --- |
+| 29, Shannon e Weaver | 1 (Errado) e 2 (Certo), compatíveis; item 3 segue pendente para Weaver (1949) | Shannon (1948), introdução e diagrama p. 2; distingue fonte/transmissor/canal/receptor/destino e semântica de engenharia | [ed2c586](https://github.com/leorruas/concursos/commit/ed2c5869e4a4e5ca6246ddb0521658f5d8b5c1e3) |
+| 30, Jakobson | 1 (Certo), 2 (Errado), 3 (Errado), compatíveis; aplicações são pedagógicas | *Linguistics and Poetics* (1960), reprodução de 1987, p. 66–69; seis fatores e predominância | [55a5b34](https://github.com/leorruas/concursos/commit/55a5b34599b7e1c2192b6841b8843712089e4f21) |
+| 35, Agenda-setting | 1 (Certo) e 3 (Errado), compatíveis; item 2 ainda exige desenvolvimento posterior | McCombs e Shaw (1972), p. 176 e 180–182, saliência de temas e limites de correlação | [5b53f42](https://github.com/leorruas/concursos/commit/5b53f4228580066a122fa66f77a559bde3de944a) |
+
+**Fontes externas verificadas:** [Shannon (1948)](https://www.princeton.edu/~wbialek/rome/refs/shannon_48.pdf); [Jakobson (1960/1987)](https://commons.princeton.edu/eng266-s25/wp-content/uploads/sites/433/2025/04/Jakobson-Linguistics-and-Poetics.pdf); [McCombs e Shaw (1972)](https://www.thetawelle.de/wp-upload/McCombsShaw1972.pdf). **Sete itens confrontados diretamente** nesta rodada, nenhuma inversão identificada. Não confundir esses sete com conferência dos demais itens dos artigos.
+
+**Indicadores acumulados:** 17 artigos distintos sofreram intervenção desde o início, dentre 128 arquivos do inventário (13,3%); dos 17, três ganharam exame teórico por obra original nesta rodada. 30 itens jurídicos já haviam recebido quadros de conferência, somados a sete itens teóricos agora. Esses números são contagens de intervenções e verificações **parciais**, não uma estimativa de percentual de qualidade ou conclusão global. Permanecem pendentes as revisões de Lasswell e demais autores, Weaver em particular, segundo nível do agendamento, autoria dos modelos de RP e checagem de todo o corpus.

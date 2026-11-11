@@ -5,7 +5,7 @@ title: "Deputados: mandato, imunidades, licenças, vacância e suplência (RICD,
 type: "conceito"
 status: "ativo"
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-11
 ---
 
 # Deputados: mandato, imunidades, licenças, vacância e suplência (RICD, arts. 226 a 251)
@@ -38,7 +38,7 @@ O **art. 226** assegura ao deputado o direito de **propor, discutir e deliberar;
 
 **Imunidade formal:** desde a **expedição do diploma**, parlamentares não podem ser presos, **salvo em flagrante de crime inafiançável**. Nessa hipótese, a CF art. 53, § 2º, determina envio dos autos à Casa respectiva **em 24 horas**, para que, **pelo voto da maioria de seus membros**, resolva sobre a prisão. A fórmula constitucional não institui licença parlamentar prévia para qualquer investigação ou processo criminal.
 
-**Processo penal: EC 35/2001.** A denúncia criminal contra deputado pode ser recebida pelo STF nas hipóteses de sua competência constitucional, **sem licença prévia da Casa**. A Câmara pode **sustar o andamento da ação penal**, nos termos e condições estritos do **art. 53, §§ 3º a 5º**, para crime ocorrido após a diplomação, mediante iniciativa partidária e voto da maioria de seus membros, até a decisão final. A sustação do processo **suspende a prescrição enquanto durar o mandato**. **Autorizar instauração ≠ sustar andamento**: são conceitos históricos e atuais distintos.
+**Processo penal: EC 35/2001.** A denúncia criminal contra deputado pode ser recebida pelo STF nas hipóteses de sua competência constitucional, **sem licença prévia da Casa**. A parte do RICD que ainda fala em votação de licença para instauração de processo criminal (art. 249 e dispositivos conexos do art. 251) é histórica: a regra atual é a **possibilidade de sustação posterior da ação penal**, em condições constitucionais específicas. Não reutilizar prazos ou etapas do rito antigo como se fossem o procedimento de sustação vigente. A Câmara pode **sustar o andamento da ação penal**, nos termos e condições estritos do **art. 53, §§ 3º a 5º**, para crime ocorrido após a diplomação, mediante iniciativa partidária e voto da maioria de seus membros, até a decisão final. A sustação do processo **suspende a prescrição enquanto durar o mandato**. **Autorizar instauração ≠ sustar andamento**: são conceitos históricos e atuais distintos.
 
 **Sigilo da fonte parlamentar:** CF art. 53, § 6º, e RICD art. 231, § 5º, dispensam deputado de testemunhar sobre informações recebidas ou prestadas em razão do exercício do mandato e sobre quem as confiou ou recebeu.
 
@@ -129,7 +129,7 @@ O **art. 226** assegura ao deputado o direito de **propor, discutir e deliberar;
 
 **5.** A declaração escrita de renúncia ao mandato depende de aprovação prévia do Plenário para produzir efeitos, ainda que disponibilizada no Diário da Câmara. **Errado.** Art. 239: **independe de aprovação**, adquirindo eficácia e irretratabilidade a partir da leitura ou disponibilização, o que ocorrer primeiro.
 
-**6.** A Mesa convocará suplente em até quarenta e oito horas diante de licença para tratamento de saúde cujo prazo original seja superior a 120 dias, sem somar períodos menores para o requisito. **Certo.** Art. 241, III.
+**6.** A Mesa convocará suplente em até quarenta e oito horas diante de licença para tratamento de saúde cujo prazo original seja superior a 120 dias, sem somar períodos menores para o requisito. **Certo.** Art. 241, III. A convocação estende-se **por toda a licença e suas prorrogações**. A exceção depende do prazo original superior a 120 dias: a soma posterior de licenças menores não satisfaz esse requisito.
 
 **7.** O suplente convocado em caráter de substituição possui automaticamente elegibilidade regimental para qualquer cargo da Mesa ou para a Presidência de comissão permanente. **Errado.** Art. 243 prevê **impedimentos expressos**.
 

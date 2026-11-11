@@ -5,7 +5,7 @@ title: "Produção gráfica: pré-impressão, formatos e materiais"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Produção gráfica: pré-impressão, formatos e materiais
@@ -188,6 +188,22 @@ Se a mesma fotografia for ampliada para **40 cm**, a densidade aproximada cai pa
 **Item 8.** A aprovação de um arquivo em processo de preflight assegura a correção factual dos textos e elimina a necessidade de prova editorial e controle de impressão.
 
 **Errado.** Preflight verifica requisitos técnicos configurados, sem substituir revisão factual ou inspeção de saída. **Mecanismo do erro:** escopo de controle ampliado indevidamente.
+
+## Cotejo técnico: PDF/X, transparência e aceite de impressão (11/11/2026)
+
+Os padrões **PDF/X-1a e PDF/X-4** são variantes distintas da família ISO 15930. Conforme a [PDF Association](https://pdfa.org/technical-side-and-requirements-of-pdfx/), PDF/X-1a trabalha com restrições de cor adequadas à saída previamente especificada e **não admite transparência viva**; PDF/X-4 admite transparência viva, perfis de cor e recursos de fluxos mais recentes. As configurações práticas também dependem da **versão do padrão, do RIP e do fluxo da gráfica**; não inferir que qualquer arquivo exportado como PDF/X será aceito sem outras verificações. A [documentação oficial da Adobe](https://helpx.adobe.com/br/illustrator/using/creating-pdf-files.html) descreve a transparência achatada em PDF/X-1a e preservada em PDF/X-4.
+
+| Item preexistente | Resposta | Evidência e limite |
+| --- | --- | --- |
+| 1 | **Certo** | Sangria e margem de segurança atuam em direções opostas; valores concretos são especificados para produto/fornecedor. |
+| 2 | **Errado** | Alterar somente PPI sem reamostragem não cria pixels. |
+| 4 | **Errado** | **Conferência documental direta:** PDF/X-1a e PDF/X-4 diferem quanto à transparência viva e às condições de cor. |
+| 5 | **Certo** | Imposição diz respeito à ordem física na folha para impressão e montagem, não necessariamente à sequência de leitura. |
+| 8 | **Errado** | Preflight verifica propriedades técnicas configuradas, não conteúdo factual ou aprovação editorial. |
+
+**Caso integrado inédito:** uma cartilha é entregue em PDF/X-4, passa no preflight de impressão e contém uma tabela com leitura inacessível em tecnologia assistiva. A conformidade gráfica **não demonstra acessibilidade digital**, que demanda outro conjunto de critérios e testes. **C/E:** “A aprovação de um PDF/X em preflight basta para certificar que o documento pode ser lido adequadamente por tecnologia assistiva.” **Errado.** O arquivo de impressão e o documento acessível podem exigir derivados, inspeções e critérios de aceite distintos.
+
+**Escopo da auditoria:** o item 4 foi fundamentado diretamente na documentação técnica; os demais foram comparados às definições já descritas na nota e ainda exigem revisão integral de todas as fontes. Não foi invertido gabarito nesta intervenção. Os exemplos são de treinamento inédito, não provas históricas da Cebraspe.
 
 ## Relações com outros temas
 

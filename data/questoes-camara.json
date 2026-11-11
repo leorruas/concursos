@@ -4226,6 +4226,102 @@
       "statement": "Uma avaliação em que especialistas comparam uma interface a princípios de usabilidade fornece, por si só, tempos de conclusão medidos com usuários do serviço.",
       "correctAnswer": "E",
       "explanation": "A inspeção identifica problemas potenciais segundo princípios. Tempos observados exigem execução da tarefa pelos participantes."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / aprendizagem supervisionada e não supervisionada",
+      "conceptId": "classificacao-supervisionada",
+      "mechanism": "classificar-pela-saida",
+      "theoryRefs": [
+        "article:art-5cb51089c289b098#1. Aprendizagem Supervisionada (*Supervised Learning*)"
+      ],
+      "statement": "Um modelo aprende com solicitações já rotuladas como “dúvida”, “reclamação” ou “sugestão” e prevê um desses rótulos para solicitações novas. A tarefa é de classificação supervisionada.",
+      "correctAnswer": "C",
+      "explanation": "Os exemplos têm a categoria desejada como alvo, e a saída prevista pertence a um conjunto de classes."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / aprendizagem supervisionada e não supervisionada",
+      "conceptId": "regressao-supervisionada",
+      "mechanism": "confundir-saida-numerica-com-classe",
+      "theoryRefs": [
+        "article:art-5cb51089c289b098#1. Aprendizagem Supervisionada (*Supervised Learning*)"
+      ],
+      "statement": "Um modelo treinado com os tempos de espera observados prevê o tempo em minutos para cada nova solicitação. O fato de a previsão ser supervisionada implica que a tarefa é de classificação.",
+      "correctAnswer": "E",
+      "explanation": "O tempo observado orienta o treinamento, mas a saída é uma medida numérica. A tarefa descrita é de regressão."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / aprendizagem supervisionada e não supervisionada",
+      "conceptId": "agrupamento",
+      "mechanism": "identificar-estrutura-sem-rotulos",
+      "theoryRefs": [
+        "article:art-5cb51089c289b098#2. Aprendizagem Não Supervisionada (*Unsupervised Learning*)"
+      ],
+      "statement": "Uma equipe agrupa unidades por semelhança em volume de atendimento, tempo médio e horário de funcionamento, sem fornecer rótulos de grupos ao algoritmo. Esse procedimento é compatível com aprendizagem não supervisionada.",
+      "correctAnswer": "C",
+      "explanation": "Os grupos são descobertos a partir das características. Não há respostas de grupo fornecidas no treinamento."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / aprendizagem supervisionada e não supervisionada",
+      "conceptId": "classificacao-e-agrupamento",
+      "mechanism": "confundir-rotulo-posterior-com-alvo",
+      "theoryRefs": [
+        "article:art-5cb51089c289b098#3. Matriz comparativa sistemática entre os dois paradigmas"
+      ],
+      "statement": "Depois de agrupar solicitações sem rótulos, a equipe atribui um nome interpretativo a cada grupo. A atribuição posterior torna supervisionado o treinamento já realizado.",
+      "correctAnswer": "E",
+      "explanation": "Os nomes foram adicionados depois. Para caracterizar supervisão, os alvos precisariam orientar a aprendizagem."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / aprendizagem supervisionada e não supervisionada",
+      "conceptId": "aprendizagem-semissupervisionada",
+      "mechanism": "combinar-exemplos-rotulados-e-nao-rotulados",
+      "theoryRefs": [
+        "article:art-5cb51089c289b098#4. O limiar intermediário: Aprendizagem Semissupervisionada e Auto supervisionada"
+      ],
+      "statement": "Um método usa 500 documentos rotulados e 20 mil documentos sem rótulo durante o treinamento de um classificador. O uso efetivo das duas coleções é compatível com aprendizagem semissupervisionada.",
+      "correctAnswer": "C",
+      "explanation": "O método combina exemplos com alvo conhecido e exemplos sem rótulo na aprendizagem."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / aprendizagem supervisionada e não supervisionada",
+      "conceptId": "aprendizagem-semissupervisionada",
+      "mechanism": "confundir-inferencia-com-treinamento",
+      "theoryRefs": [
+        "article:art-5cb51089c289b098#4. O limiar intermediário: Aprendizagem Semissupervisionada e Auto supervisionada"
+      ],
+      "statement": "Um modelo é treinado exclusivamente com exemplos rotulados e depois classifica documentos novos sem rótulo. O uso de documentos sem rótulo apenas na previsão torna o treinamento semissupervisionado.",
+      "correctAnswer": "E",
+      "explanation": "Os documentos sem rótulo entram somente depois do treinamento. O método de aprendizagem descrito continua supervisionado."
     }
   ]
 }

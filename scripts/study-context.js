@@ -77,13 +77,16 @@ export function validateLearning(root,s,concursos) {
   if(s.schemaVersion!==2)return;
   const contest=concursos.find(c=>c.id===s.concursoId);
   const plan=loadPlans(root).find(p=>p.concursoId===s.concursoId)||{subjects:genericSubjects(root),sources:{edital:{ref:contest?.sourcePath}},questionFormat:contest?.estruturaProva?.objetiva?.julgamento==='Certo ou Errado'?'CE':null};
-  const subject=plan.subjects.find(x=>x.id===s.subjectId);ok(subject,`${s.id}: matéria não catalogada`);
-  const unit=subject.units.find(x=>x.id===s.unitId);ok(unit,`${s.id}: unidade não catalogada`);
+  const mixed=s.subjectId==='diagnostico-misto' && s.unitId==='diagnostico-misto';
+  const subject=mixed?null:plan.subjects.find(x=>x.id===s.subjectId);
+  ok(mixed||subject,`${s.id}: matéria não catalogada`);
+  const unit=mixed?null:subject.units.find(x=>x.id===s.unitId);
+  ok(mixed||unit,`${s.id}: unidade não catalogada`);
   const localDate=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(s.startedAt));ok(localDate===s.date,`${s.id}: data da sessão diverge do início em São Paulo`);
   const l=s.learning;ok(l&&['preparacao','aula','fronteiras','aprendizagem','para_valer','correcao','revisao','consolidacao'].includes(l.stage),`${s.id}: etapa inválida`);
   for(const k of ['taughtConcepts','boundaries','pending'])ok(arr(l[k])&&l[k].every(txt),`${s.id}: ${k} deve ser lista de textos`);
   ok(typeof l.unitCompleted==='boolean',`${s.id}: unitCompleted obrigatório`);
-  ok(l.next&&subject.units.some(u=>u.id===l.next.unitId)&&txt(l.next.objective)&&['preparacao','aula','fronteiras','aprendizagem','para_valer','revisao'].includes(l.next.stage),`${s.id}: próximo passo inválido`);
+  ok(l.next&&(mixed?l.next.unitId==='diagnostico-misto':subject.units.some(u=>u.id===l.next.unitId))&&txt(l.next.objective)&&['preparacao','aula','fronteiras','aprendizagem','para_valer','revisao'].includes(l.next.stage),`${s.id}: próximo passo inválido`);
   if(l.next.noteRef)checkRef(root,l.next.noteRef);
   ok(arr(l.next.sourceIds)&&l.next.sourceIds.length>0&&l.next.sourceIds.every(id=>plan.sources[id]),`${s.id}: fonte do próximo passo ausente`);
   if(l.unitCompleted){
@@ -102,8 +105,12 @@ export function validateLearning(root,s,concursos) {
   if(l.doubts)for(const d of l.doubts)ok(normalize(d.id)===d.id&&txt(d.text)&&['aberta','resolvida'].includes(d.status)&&arr(d.evidenceQuestionNumbers)&&(!['resolvida'].includes(d.status)||d.evidenceQuestionNumbers.length>0),`${s.id}: dúvida sem estado/evidência`);
   for(const q of s.questions){
     ok(normalize(q.conceptId)===q.conceptId&&txt(q.conceptId),`${s.id}: conceptId obrigatório`);
-    ok(subject.units.some(u=>u.id===(q.unitId||s.unitId)),`${s.id}: unidade da questão inválida`);
-    ok(subject.legacyDisciplines.some(d=>normalize(d)===normalize(q.discipline)),`${s.id}: disciplina diverge da matéria`);
+    const qSubject=mixed?plan.subjects.find(x=>x.id===q.subjectId):subject;
+    if(mixed && q.subjectId)ok(qSubject,`${s.id}: matéria da questão não catalogada`);
+    if(qSubject){
+      ok(qSubject.units.some(u=>u.id===(q.unitId||s.unitId)),`${s.id}: unidade da questão inválida`);
+      ok(qSubject.legacyDisciplines.some(d=>normalize(d)===normalize(q.discipline)),`${s.id}: disciplina diverge da matéria`);
+    } else ok(mixed && !q.unitId && !q.subjectId,`${s.id}: disciplina não catalogada deve ficar sem unidade, sem classificação presumida`);
     if(q.sourceRefs)ok(arr(q.sourceRefs)&&q.sourceRefs.every(r=>plan.sources[r.sourceId]&&txt(r.locator)),`${s.id}: referência normativa sem fonte/localizador`);
     if(q.retrievalOf)ok(arr(q.retrievalOf)&&q.retrievalOf.every(txt),`${s.id}: retrievalOf inválido`);
     if(plan.questionFormat)ok(q.format===plan.questionFormat,`${s.id}: formato diverge do concurso`);

@@ -456,3 +456,59 @@ Os conteúdos-base têm boa separação de conceitos e alertas contra generaliza
 ### Próxima prioridade
 
 **Prioridade P0 da auditoria:** localizar e conferir por inteiro o PDF oficial do **Edital nº 1 de 2/10/2026, Cargo 1** e retificações supervenientes (página oficial lista até Edital 6), extraindo literalmente cada subitem de Administrativo/AP e referência a gestão de projetos/equipes na parte específica. Confrontar o inventário **27 notas de DA + três de AP + cinco de AG e hubs** com \`CAM-DAD\`, \`CAM-AP\` e catálogo. Buscar por NPG, redes e coprodução no **restante** do repositório antes de concluir ausência global. Só então produzir matriz final “edital → artigo → trechos → fonte → questão → status”, priorizar lacunas e decidir se Fase 1 pode ser encerrada. Não avançar à Fase 2 nem editar artigos sem autorização.
+
+
+## Bloco 11: reconciliação do edital local, arquitetura CAM-AP e catálogo (11/11/2026)
+
+**Fontes desta rodada e limite de evidência:** 1) [página oficial da Câmara para Analista Legislativo: Especialidades](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades), que confirma Editais nº 1 a 6 publicados até esta consulta; 2) [página Cebraspe do concurso](https://www.cebraspe.org.br/concursos/cd_26_analista), cuja camada de conteúdo requer JavaScript; 3) \`2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional.md\` (SHA \`818df621e5e201e1f840de6d077a60626df103e5\`); 4) \`1 - Planejamento/Camara 2026 - Arquitetura conceitual e plano de artigos.md\` (SHA \`15731ebdf182034cc29b9e09afd57c1e31d3faf4\`); 5) \`4 - Projetos/camara-2026/O que estudar.md\` (SHA \`4dd4aa28a050811ccee84537e2fe459efa54a2a2\`); 6) \`data/catalogo-materias-por-concurso.json\` (SHA \`2fa7db5e8a37926b2d99ce38f3c0d1aa80ca37bb\`); 7) hubs \`Administracao Publica/administracao-publica.md\` e \`Administracao Geral/administracao-geral.md\`; 8) árvore real do repositório e artigos inspecionados nos blocos anteriores.
+
+**Limite:** a tentativa de abrir o PDF original do edital pela Câmara resultou em **HTTP 429**, e a página pública do Cebraspe exige JavaScript. Foi localizada reprodução textual do edital publicado no DOU por portal de terceiros ([Captário](https://captario.com.br/dou/ato/edital-n-1-de-2-de-outubro-de-2026-736493863)), mas **não equivale a confronto autenticado da íntegra do edital consolidado nem das retificações**. A página oficial da Câmara identifica a retificação nº 5 nos cargos 8 e 9 em matéria de conhecimentos específicos e outros subitens de requisitos; a retificação nº 6 afeta subitens 2.5.4 e 11.8 e legenda de vagas. **Não concluir daí que nada mais alterou a especialidade-alvo sem leitura literal.** O escopo do Cargo 1 usado abaixo é a **síntese local com referência explícita ao item 14.2.3**, devidamente distinguida da prova primária.
+
+### Reconciliação de plano, artigos existentes e catálogo
+
+O plano editorial prevê **34 candidatos CAM-DAD** e **15 candidatos CAM-AP**. Para Administração Pública, a seção \`### AP\` enumera expressamente:
+- **CAM-AP-004:** Nova Governança Pública: redes e coordenação;
+- **CAM-AP-006:** Redes de cooperação e articulação interinstitucional;
+- **CAM-AP-008:** Coprodução do bem público e participação cidadã;
+- além de CAM-AP-007 (terceiro setor) e CAM-AP-011 (cadeia de valor público), também úteis à conferência.
+
+Os candidatos estão marcados \`[ ]\` no plano: **planejamento não comprova artigo concluído, cobertura de prova ou falta de conteúdo em outras matérias**. A página \`O que estudar\` registra Administração Pública como parcial/boa, com instrução de **expandir New Public Governance, redes, coprodução e cadeia de valor público**. O hub \`3 - Materias/Administracao Publica/administracao-publica.md\` (SHA \`64b3f070b229c2049e9cbd0561bcb4c396db3c45\`) enumera patrimonialismo, burocracia, gerencialismo, governança, LAI/LGPD e políticas públicas, mas **não possui seção própria de NPG, redes de cooperação, coprodução ou cadeia de valor**.
+
+O catálogo estruturado \`data/catalogo-materias-por-concurso.json\` tem entrada para \`camara-2026\`, com **27 IDs de artigos de Direito Administrativo** e **três IDs de artigos de Administração Pública**:
+- AP01 \`art-2e8a8f600b964d40\`, evolução dos modelos;
+- AP02 \`art-23fe2441eab94f8d\`, governança pública;
+- AP03 \`art-2ca37017208841b8\`, LAI/LGPD.
+O hub AP registrado é \`art-5ea2f1457821480d\`. **As cinco notas de Administração Geral não são entradas próprias da lista de matérias do Cargo 1 no catálogo**, mas são passíveis de reaproveitamento via links e assuntos específicos. Isso explica por que seu estudo não deve ser contado automaticamente como cobertura íntegra de Administração Pública.
+
+### Achados novos
+
+**DA-048, PRIORIDADE ALTA, lacuna de implantação CAM-AP confirmada pelo catálogo.** Os candidatos \`CAM-AP-004\`, \`CAM-AP-006\` e \`CAM-AP-008\` são explicitamente planejados e ainda não têm artigos próprios identificados nos **três IDs efetivamente registrados no catálogo para Administração Pública**. O conteúdo de AP01–03 e AG01–05 foi lido nos blocos 7 e 10, sem tratamento desenvolvido desses conceitos. **Classificação correta:** lacuna na **trilha catalogada e examinada**, baseada em **síntese local do programa**, não afirmação de ausência global no vault nem de confrontação com edital integral. Verificar transversalidade em Avaliação de Políticas Públicas, Estado e Democracia e Comunicação antes de nova criação.
+
+**DA-049, IMPORTANTE, risco de confundir “arquitetura planejada” com cobertura entregue.** \`Arquitetura conceitual e plano de artigos.md\` apresenta 15 candidatos AP e 34 DAD; \`data/catalogo-materias-por-concurso.json\` registra atualmente **três AP e 27 DAD**. Essas são métricas de entidades editoriais de natureza diferente (**candidatos de artigos planejados** versus **IDs catalogados para o concurso**), logo não se deve calcular “3/15 de conteúdo coberto” ou “27/34 do edital atendido”. Mapear **subitens e conceitos**, não quantidade de arquivos. Conservar diferenças de natureza e evitar percentuais falsos.
+
+**DA-050, IMPORTANTE, prioridade documental para validação do Cargo 1 e retificações.** A fonte de verdade do programa e das mudanças ainda não está sob controle integral do relatório. O conteúdo da **síntese local** indica em 14.2.3 modelos de gestão pública, Nova Governança Pública, redes, coprodução, valor público, governança e Decreto 9.203; o planejamento repete os tópicos, mas ambos podem depender da mesma origem. A reprodução DOU não traz busca claramente resolvida para todos esses termos. A [Câmara](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades) e o [Cebraspe](https://www.cebraspe.org.br/concursos/cd_26_analista) são fontes públicas apropriadas para posterior cotejo, mas **os links encontrados nesta rodada não bastam para chamar a matriz de literal/certificada**. Na Fase 1, manter status “edital oficial pendente de leitura integral”, sem importar versão extraoficial como fonte única.
+
+**DA-051, IMPORTANTE, separação entre governança do Executivo e Legislativo.** O edital local e o plano incluem Decreto 9.203/2017, cujo campo de aplicação imediato é a administração federal direta, autárquica e fundacional do **Poder Executivo**; sua cobrança pelo Cebraspe para servidor da Câmara não modifica sua abrangência jurídica. O status **cobrado como conhecimento normativo** deve permanecer separado de **aplicável institucionalmente**. A ressalva já consta do DA-024; este achado aponta o risco na **matriz por item e na geração de questões**.
+
+**DA-052, MELHORIA DE NAVEGAÇÃO, material existente sem percurso canônico de AP.** O hub de Administração Pública não liga diretamente todas as três notas catalogadas como percurso de estudo nem deixa claro o destino dos conceitos planejados de CAM-AP. O hub de Administração Geral também não apresenta as cinco notas como lista navegável. **Fase 2:** reconstruir links e status \`existente/candidato/compartilhado/pendente\` sem alterar articleIds; nunca simular cobertura por links para arquivos não existentes.
+
+### Matriz parcial de conceitos e rastreio
+
+| Núcleo da síntese local | Candidato | Artigo cadastrado / evidência | Resultado Fase 1 |
+| --- | --- | --- | --- |
+| Patrimonialismo, burocracia, gerencialismo | CAM-AP-001–003 | AP01 | Presente, cotejo seletivo bloco 7 |
+| Nova Governança Pública e coordenação em rede | CAM-AP-004 | AP02 cobre governança organizacional, **não NPG como corrente** | **Lacuna na trilha catalogada** |
+| Modelos comparados | CAM-AP-005 | AP01 e AP02 | Parcial, comparação NPG pendente |
+| Redes interinstitucionais | CAM-AP-006 | Ausência de capítulo próprio nas AP01–03 | **Lacuna na trilha catalogada** |
+| Parcerias e terceiro setor | CAM-AP-007 | AP01 cita OS/OSCIP; não matriz ampla de parcerias | Parcial |
+| Coprodução do bem público | CAM-AP-008 | AP03 trata controle social e participação, **não teoria de coprodução** | **Lacuna na trilha catalogada** |
+| Transparência | CAM-AP-009 | AP03 | Presente |
+| Valor público e cadeia de valor | CAM-AP-010/011 | AP02 define valor público; cadeia não estruturada | Parcial |
+| Governança × governabilidade, LEC, Decreto 9.203 | CAM-AP-012–014 | AP02 | Presente, cotejo normativo seletivo e ressalva de abrangência |
+| Alinhamento, políticas públicas, avaliação de impacto | CAM-AP-015 | AP02 e notas de outras trilhas ainda não cotejadas | Parcial/pesquisa transversal pendente |
+
+**Balanço do bloco:** leitura de plano, hub, síntese, catálogo e páginas oficiais; mapa objetivo de **3 IDs AP e 27 IDs DA**, sem misturá-los com número de candidatos planejados. Identificados DA-048 a DA-052 (lacuna catalogada, critérios de contabilização, fonte primária pendente, abrangência normativa e navegação). **Nenhum novo gabarito reavaliado neste bloco, nenhuma inversão nova, zero textos certificados integralmente e zero artigos editados.** Permanecem abertos DA-004 e DA-036 e as demais ressalvas jurídicas de blocos anteriores.
+
+### Pendências para encerrar a Fase 1
+
+(1) Acessar o **edital oficial integral consolidado** e retificações 5/6, anotar trecho e numeração literal do Cargo 1 e distinguir mudanças que o atingem. (2) Buscar transversalmente NPG/redes/coprodução/cadeia de valor em artigos de Estado e Democracia, Avaliação de Políticas Públicas, Comunicações e demais relevantes antes de afirmar ausência global. (3) Consolidar cobertura de 27 DA + 3 AP + referências compartilhadas em matriz única de **subitem → fonte primária → artigo e âncora → C/E e origem → status jurídico e pedagógico**. (4) Confrontar o corpus real identificado da banca, se disponível, sem inventar métricas de frequência. **Esta rodada não conclui a Fase 1.**

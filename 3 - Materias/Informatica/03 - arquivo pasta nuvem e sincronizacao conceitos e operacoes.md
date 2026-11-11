@@ -157,7 +157,7 @@ Um usuário quer liberar espaço no seu computador corporativo e apaga uma pasta
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** O sistema de arquivos do Windows veda expressamente nove caracteres especiais: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>`, e `|`. Todos os itens citados no enunciado pertencem ao rol de caracteres proibidos.
+**Comentário:** Nas regras usuais de nomes de arquivos e pastas usadas pelas interfaces do Windows, são reservados nove caracteres especiais: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>`, e `|`. Todos os itens citados no enunciado pertencem ao rol de caracteres proibidos.
 
 ---
 
@@ -190,7 +190,7 @@ Um usuário quer liberar espaço no seu computador corporativo e apaga uma pasta
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** O ícone de nuvem indica que o arquivo é **apenas online** (*online-only*): ele não ocupa espaço no disco rígido local e requer conexão com a internet para ser baixado no momento da abertura.
+**Comentário:** O ícone de nuvem indica que o arquivo é **apenas online** (*online-only*): seu conteúdo não está baixado para uso offline, embora possam existir metadados ou estruturas locais. Para abrir o conteúdo ainda não disponível localmente, é necessária conectividade. O gabarito ERRADO se mantém pela impossibilidade de presumir leitura ou execução offline.
 
 ---
 
@@ -211,8 +211,8 @@ Um usuário quer liberar espaço no seu computador corporativo e apaga uma pasta
 *( ) Certo*
 *( ) Errado*
 
-**Gabarito: Certo.**
-**Comentário:** A opção "Sempre manter neste dispositivo" (*Always keep on this device*) fixa o arquivo no armazenamento local (ícone de círculo verde sólido com visto branco), impedindo que o recurso de sensor de armazenamento o descarte para liberar espaço e assegurando disponibilidade offline total.
+**Gabarito: NÃO HOMOLOGADO (garantia absoluta).**
+**Comentário:** A opção **“Sempre manter neste dispositivo”** orienta o OneDrive a baixar e manter o conteúdo local, permitindo acesso offline quando sincronizado. Entretanto, o enunciado promete acesso **permanente** e edição garantida durante qualquer período desconectado, o que depende de integridade do dispositivo, conclusão do download, permissões e aplicativos disponíveis. **Reformulação para treino:** “Com a sincronização concluída, a opção Sempre manter neste dispositivo permite manter uma cópia local de documento do OneDrive para uso offline, sujeita às condições do dispositivo e aplicativo.” **Gabarito reformulado: CERTO.**
 
 ---
 
@@ -228,3 +228,5 @@ Um usuário quer liberar espaço no seu computador corporativo e apaga uma pasta
 | **Exclusão em pasta sincronizada** | Deleta na nuvem e em todos os dispositivos sincronizados | Não confundir sincronização com backup |
 
 > **Nota de revisão (11/11/2026):** um arquivo lógico pode ocupar blocos físicos não contíguos. Propagação de exclusões depende de conectividade e sincronização, e backup não exige imutabilidade em todos os modelos. Achado TI-036 da auditoria Câmara.
+
+> **Auditoria de questões, segunda passagem (11/11/2026):** itens 1 a 5 mantêm gabaritos **C, E, E, E, E**; item 6 **não homologado** por prometer permanência e disponibilidade offline sem condições. Distinção entre conteúdo baixado e metadados locais explicitada. Esta é uma validação técnica dirigida, não homologação por prova oficial.

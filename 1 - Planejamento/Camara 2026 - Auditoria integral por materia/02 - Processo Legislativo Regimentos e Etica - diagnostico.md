@@ -1056,3 +1056,71 @@ Foram lidos sumários, textos nucleares, prazos, hipóteses de exceção, casos 
 **DC27:** arts. 263 (parecer prévio da Mesa), 264 (reclamação à Mesa em 72 horas), 265, §§ 1º, 3º e 4º (despesa pelo Diretor-Geral, balancetes à Mesa, contas ao TCU pelo Presidente) e 266 foram cotejados, com formulações convergentes. **Nenhuma edição aplicada** ao DC27. Restam conferência literal e precedentes sobre polícia da Câmara e etapas dos arts. 267–273.
 
 **Contagem editorial:** 11/29 artigos modificados desde a autorização de correções (**37,9%**). **0/29 certificados integralmente.** A porcentagem mede artigos alcançados com edições, não a conclusão de auditoria. Permanecem 18 artigos sem alterações nesta fase; alguns podem estar corretos. Próxima rodada: completar conferências de DC24–27 e avançar para DC29–33 (Regimento Comum e resoluções).
+
+
+## Bloco 24: textos-base DC06/DC10, jurisprudência e fechamento do inventário de baterias (11/11/2026)
+
+**Arquivos efetivamente lidos:** `3 - Materias/Direito Constitucional/06 - poder legislativo.md` (329 linhas; unidade CAM-PL-018 incorporada); `3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md` (539 linhas; unidades CAM-PL-011 e CAM-PL-015 incorporadas). Foram localizados e lidos, com cotejo jurídico dirigido, **10 itens C/E de DC06**, **8 itens de lei ordinária/complementar de DC10** e **10 itens sobre PEC em DC10**: total **28 questões**, com o comentário de cada uma. Em razão do tamanho das bases e de seus inúmeros exemplos conceituais, a auditoria de todas as afirmações do texto corrido permanece pendente.
+
+### DC06: fiscalização e Tribunal de Contas, dez itens
+
+| Q | Gabarito no arquivo | Cotejo normativo dirigido |
+| --- | --- | --- |
+| 1, titularidade do controle externo invertida (TCU/Congresso) | ERRADO | CF art.71: Congresso exerce controle externo **com auxílio** do TCU |
+| 2, fiscalização também operacional, patrimonial, subvenções e renúncia | CERTO | CF art.70 caput |
+| 3, pessoas privadas que lidam com recurso público dispensadas de prestar contas | ERRADO | CF art.70 parágrafo único |
+| 4, TCU julga contas anuais presidenciais e só opina sobre gestores | ERRADO | CF art.71 I–II: parecer prévio presidencial; julgamento das contas de gestores |
+| 5, CMO requer esclarecimento em 5 dias e parecer conclusivo do TCU em 30 dias | CERTO | CF art.72 caput, §1º, para indícios de despesa não autorizada |
+| 6, CMO susta despesa diretamente | ERRADO | CF art.72 §2º: **propõe ao Congresso** quando risco grave |
+| 7, sustação de ato pelo TCU vs contrato inicialmente pelo Congresso | CERTO | CF art.71 X §§1º–2º; ressalvar **poder cautelar do TCU** (NC-PL-020 no DC37) |
+| 8, dever de informar TCU recai em qualquer cidadão sob responsabilidade solidária | ERRADO | CF art.74 §1º: titulares do controle interno; cidadão pode denunciar no §2º |
+| 9, EC139/2026 protege permanência de Tribunais de Contas | CERTO | [Texto integral oficial da EC139/2026, Senado](https://legis.senado.leg.br/norma/43257393/publicacao/43258265) e CF art.75, cuja redação atual confirma permanência e vedação de extinção/criação/instalação |
+| 10, TCU integra Poder Judiciário | ERRADO | CF arts.71–73; TCU é instituição de controle, não órgão do Poder Judiciário |
+
+**A-PL-096, confirmado e temporalmente importante:** `DC06` está atualizado à **EC nº 139, de 05/05/2026**, que também modificou art.31 §1º. Uma fonte constitucional antiga não bastaria para auditar a nota. A referência normativa é **real e correta**, sem erro de gabarito no item 9. **A-PL-097:** a descrição de TCU em DC06 deve ser articulada com DC37: atribuição de sustação contratual pelo Congresso **não exclui todo o poder cautelar preventivo** do TCU. Q7/DC06 é suficientemente específica e não exige inversão, porém a comparação cruzada das notas precisa evitar contradições.
+
+### DC10: leis ordinárias/complementares, oito itens
+
+| Q | Gabarito | Verificação delimitada |
+| --- | --- | --- |
+| 1, LC aprovada com 220 favoráveis em 300 presentes | ERRADO | CF art.69 requer maioria absoluta dos membros |
+| 2, LC maioria absoluta, PEC 3/5 em 2 turnos por Casa | CERTO | CF arts.69 e 60 §2º |
+| 3, toda legislação tributária seria reservada a LC | ERRADO | CF art.146 reserva **objetos específicos** |
+| 4, LC pode receber aprovação conclusiva das comissões | CERTO para a **negação enunciada**: o item afirma que **não se submetem**, gabarito CERTO | RICD art.24 II a exclui LC do poder conclusivo |
+| 5, LC seria sempre superior hierarquicamente à LO | ERRADO | STF: **ausência de hierarquia geral** entre LO/LC; reserva por matéria |
+| 6, Estatuto da Magistratura de iniciativa do STF/LC | CERTO | CF art.93 |
+| 7, espécie LC implica automaticamente regime prioritário | ERRADO | RICD art.151: regime depende do enquadramento |
+| 8, LO altera benefício de servidor em LC materialmente ordinária | CERTO | [STF Tema 1.352, ARE 1.521.802, tese e acórdão publicados em setembro/2025](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1352): alteração/revogação possível nos limites da tese e simetria |
+
+**A-PL-098, fonte correta:** o [STF, resultado do ARE 1521802](https://portal.stf.jus.br/processos/listarProcessos.asp?classe=ARE&numeroProcesso=1521802) fixa exatamente a tese citada pelo artigo. **Diferente do erro com o Tema 22 do DC36**, o Tema 1352 está devidamente vinculado ao objeto descrito. Como a tese versa sobre benefício de servidor público e materialidade ordinária, não generalizar para toda disciplina em LC.
+
+### DC10: PEC, limites e rito da Câmara, dez itens
+
+| Q | Gabarito | Cotejo dirigido |
+| --- | --- | --- |
+| 1, CCJC admite PEC e encerra mérito | ERRADO | RICD art.202: comissão especial ainda aprecia mérito |
+| 2, comissão especial 40 sessões para parecer | CERTO | Art.202 §2º |
+| 3, emendas na especial nas primeiras 10 sessões, 1/3 assinaturas | CERTO | Art.202 §3º |
+| 4, 300 votos em dois turnos bastam com presença elevada | ERRADO | CF art.60 §2º: **3/5 dos membros**, 308 na Câmara com 513 membros |
+| 5, PEC de iniciativa do Presidente depende de sanção | ERRADO | CF art.60 §3º: Mesas promulgam, sem sanção |
+| 6, dois turnos nominais, intervalo de 5 sessões na Câmara | CERTO | RICD art.202 §§6º–7º, requer validação literal final |
+| 7, proposta de mais de metade das Assembleias por maioria relativa | CERTO | [CF art.60 III, Câmara, norma atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) traz **maioria relativa** em cada Assembleia |
+| 8, intervenção federal não impediria emenda por omissão do RICD | ERRADO | CF art.60 §1º: proibição expressa |
+| 9, emendas do Senado a PEC retornam à Câmara sob rito PEC | CERTO | RICD art.203, confirmar literalidade ao concluir |
+| 10, inadmissibilidade CCJC admite pedido de revisão com líderes >=1/3 | CERTO | RICD art.202 §1º, confirmar formalidades ao concluir |
+
+**A-PL-099, positivo com ressalva:** a nota explica **diferença entre CF art.60 III e redação do RICD art.201 I**, e dá prevalência à maioria relativa da Constituição; a literalidade constitucional foi confirmada. **A-PL-100, coerência de procedimento:** [explicação oficial da Câmara sobre tramitação de PECs](https://www.camara.leg.br/entenda-o-processo-legislativo/) confirma o itinerário **CCJC → comissão especial → 2 turnos no Plenário → outra Casa → promulgação** e quórum de 3/5. Os números do art.202 §2º–3º (40 sessões e primeiras 10 sessões para emendas) foram corroborados por reproduções oficiais do dispositivo; a leitura integral da redação de 2026 continua necessária para demais ressalvas.
+
+**Resultado deste bloco:** **28/28 gabaritos sem inversão identificada nos núcleos contrastados**, mas **não auditados exaustivamente todos os parágrafos, precedentes, exemplos, remissões e divergências históricas de DC06/DC10**. Com esses dois arquivos, **todas as 29 baterias da trilha tiveram seus enunciados localizados e confrontados em grau variável**.
+
+### Reconciliação e indicadores de fechamento da Fase 1
+
+- **29/29 arquivos únicos** identificados na arquitetura (DC06, DC10–37, com DC11–37 = 27).
+- **297 questões C/E lidas em grau dirigido**: 269 anteriormente + DC06 (10) + DC10 (18). **29/29 baterias localizadas e examinadas**; não são 297 provas oficiais Cebraspe nem 297 certificações exaustivas.
+- **33 unidades editoriais CAM-PL → 29 arquivos** mapeadas no bloco 9. Conflitos de codificação **CAM-PL-020** (DC14 versus Mesa DC23) e **CAM-PL-022** (DC25 versus deputados DC26) continuam na fila de reparo. Reavaliar os recortes de literalidade a partir do edital e suas retificações.
+- **0/29 artigos certificados integralmente** em texto, gabarito, jurisprudência, normas e fonte.
+- **Riscos confirmados prioritários:** DC34 Código de Ética (NC-PL-001–016), DC35 CPI prorrogação (NC-PL-017), DC36 Súmula 5 invertida e Tema 22 desconexo (NC-PL-018/019), DC37 TCU e cautelares (NC-PL-020), DC13 unidade dias/sessões (NC-PL-021). NC-PL-022–024 descrevem riscos editoriais/versão, não erros jurídicos inequívocos.
+- **Estimativa qualitativa: ~75% da Fase 1 realizado, ~25% restante**, com peso elevado do trabalho faltante: leitura jurídica **frase a frase** de todos os textos, verificação dos fundamentos secundários/precedentes, edital e retificações, decisões de tratamento de divergências; consolidar relatório final e aprovar matriz de remediação antes de Fase 2. O percentual pode ser revisto caso apareçam novos erros.
+- **Próxima ação:** auditoria transversal e documental dos **24 registros NC-PL**: reavaliar certeza, separar falsidade normativa de impropriedade de citação e de divergência histórica, consultar atos vigentes, priorizar risco ao estudo, e entregar plano final de correção sem executar as edições. Verificar especialmente a consistência do texto do edital do Cargo 1 nas versões oficiais.
+
+**Nenhum artigo de estudo alterado. A Fase 1 não está encerrada.**

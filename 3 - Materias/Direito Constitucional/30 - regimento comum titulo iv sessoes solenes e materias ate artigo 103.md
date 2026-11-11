@@ -181,6 +181,14 @@ A [consolidação da Resolução nº 1/2006-CN no portal do Congresso](https://w
 
 A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|nota canônica de tramitação orçamentária]] aprofunda o ciclo da proposta até a deliberação e as condições do **art. 166 da CF**. Esta CAM-PL-026 cobre **os artigos indicados do RCCN e suas fronteiras de vigência**, sem duplicar todo o processo orçamentário.
 
+### Complementos ao núcleo do RCCN: arts. 90, 99, 102 e 103
+
+**Deliberação da comissão mista (art. 90, §§ 4º e 5º):** as deliberações se iniciam pelos representantes da **Câmara dos Deputados**; o **voto contrário da maioria dos representantes de qualquer das Casas importa rejeição** da matéria. Essa regra própria **não se aplica à eleição do Presidente e do Vice-Presidente da comissão** (§ 5º). O fato de a comissão ser mista não autoriza somar indiscriminadamente todos os votos quando a norma exige aferição separada por Casa.
+
+**Emendas pendentes de Plenário (art. 99):** são discutidas e votadas **em grupos**, segundo os pareceres **favoráveis ou contrários**, **ressalvados os destaques**. Essa regra é distinta dos limites de apresentação, destinação e identificação de emendas previstos na Resolução nº 1/2006-CN.
+
+**Subsidiariedade e linguagem histórica (arts. 102 e 103):** o art. 102 prevê a aplicação, **no que couber**, das regras gerais do RCCN à tramitação do projeto de LOA. O art. 103 conserva a expressão **“orçamento plurianual de investimentos”**, historicamente situada em outro modelo constitucional. Seu texto não deve ser tratado como revogação ou substituição do **Plano Plurianual do art. 165 da CF/1988**, cujo processamento segue a Constituição e a disciplina orçamentária especial superveniente. Essa distinção preserva a literalidade do RCCN sem transferir automaticamente práticas de 1970 ao orçamento vigente.
+
 ## 8. Caso progressivo: oito mudanças de categoria e vigência
 
 **A.** Em solenidade de inauguração da sessão legislativa, deputado apresenta questão de ordem para pedir mudança da pauta. **Errado:** não se admitem questões de ordem em solenidades (art. 56); não há expediente (art. 54).
@@ -262,3 +270,14 @@ Relações: [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i 
 **Controle editorial de 11/11/2026:** os **oito destinos únicos de links internos** desta nota foram encontrados nos caminhos correspondentes do repositório, inclusive as notas de Orçamento Público. Os dez itens C/E foram relidos e preservaram seus gabaritos; a verificação das referências e do escopo foi concluída nesta rodada, mas **a certificação normativa integral do DC30 ainda depende de fechamento próprio**. A matriz de emendas é aprofundamento da Resolução 1/2006-CN e não deve ser confundida com o recorte literal do RCCN.
 
 **Nota editorial:** confronto realizado em **09/11/2026**. As dez questões são **inéditas**, não questões oficiais do Cebraspe. A contagem de produção editorial não comprova estudo pessoal, acerto ou retenção.
+
+
+## Certificação normativa delimitada: 11/11/2026
+
+**Escopo:** Título IV, Capítulos II e III, **arts. 53–103 do Regimento Comum**, inclusive dispositivos revogados, procedimentos de sessões solenes, inauguração, posse, visita de chefe de Estado, promulgação de PEC e leitura/fluxo de projeto orçamentário. Cotejo com a [publicação oficial do RCCN consolidada até janeiro de 2023](https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-171822-pl.html), a [edição oficial do Congresso atualizada até julho de 2025](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) e a [Resolução nº 1/2006-CN e alterações de 2025](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html). A matriz de emendas constitui **contexto normativo especial**, além do escopo literal 53–103, sem pretensão de esgotar LDO, LOA e PPA.
+
+**NC-PL-074:** especificados os **arts. 90, §§ 4º–5º**, quanto à votação por representantes de cada Casa na comissão mista e à ressalva para eleição da Presidência. **NC-PL-075:** incluído o **art. 99**, que manda discutir/votar emendas em grupos conforme parecer favorável/contrário, com ressalva dos destaques, e esclarecidos os **arts. 102–103**, observando a subsidiariedade e a terminologia histórica de “orçamento plurianual de investimentos” em face do PPA constitucional vigente.
+
+**Questões e casos:** **dez questões inéditas C/E**, gabaritos **C, E, C, E, E, C, E, C, E, E**, preservados após conferência de sua base normativa. **Oito situações do caso progressivo** preservadas. A matriz adicional de emendas especializadas possui casos de aplicação próprios já existentes. **Nenhuma questão nova**, nenhuma duplicação do inventário.
+
+**Limites:** certificação jurídico-editorial individual do DC30, não homologação integral de todas as normas orçamentárias e alterações supervenientes a julho de 2025, não prova de aprendizagem nem teste da publicação/renderização GitHub Pages. O fechamento individual do recorte não substitui a conciliação geral do índice, o diagnóstico central e as lacunas pedagógicas de DC05, DC07, DC08 e DC09.

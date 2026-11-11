@@ -152,6 +152,23 @@ Nesta nota, **lembrança, reconhecimento, qualidade percebida, confiança e expe
 
 **Caso C/E inédito:** “A alta lembrança de uma assinatura institucional, mesmo acompanhada por avaliação negativa do atendimento, comprova que a experiência de serviço confirmou a promessa comunicada pela instituição.” **Errado.** Reconhecimento e avaliação são evidências de naturezas distintas. O caso é um exemplo editorial, não resultado real de pesquisa de imagem.
 
+## Auditoria autoral: Aaker, Keller e Brakus, Schmitt e Zarantonello (11/11/2026)
+
+Foram confrontadas três taxonomias **que não podem ser misturadas em prova**. O [trecho original de *Managing Brand Equity* (Aaker, 1991), reproduzido pela editora Simon & Schuster](https://www.simonandschuster.com/books/Managing-Brand-Equity/David-A-Aaker/9780029001011), explicita cinco grupos de ativos de marca: **lealdade, conhecimento/notoriedade, qualidade percebida, associações e outros ativos proprietários**. O [próprio Keller, ao explicar a pirâmide CBBE](https://www.gbkcollective.com/thoughtleadership/qandakevinlanekeller), identifica quatro níveis: identidade, significado, respostas e relacionamentos, distribuídos em seis blocos (saliência; desempenho e imagem; julgamentos e sentimentos; ressonância). O [resumo editorial do artigo original de Brakus, Schmitt e Zarantonello (2009)](https://journals.sagepub.com/doi/10.1509/jmkg.73.3.052) identifica quatro dimensões da escala de experiência: **sensorial, afetiva, intelectual e comportamental**.
+
+| Item C/E existente | Gabarito | Evidência |
+| --- | --- | --- |
+| 1 | **Certo** | Pirâmide CBBE: saliência é identidade; julgamentos e sentimentos são respostas. **Confirmado** na exposição do autor. |
+| 2 | **Errado** | Memorabilidade, transferibilidade e adaptabilidade são critérios de elementos, não blocos da pirâmide CBBE. **Confirmado** no capítulo de Keller e na exposição da pirâmide. |
+| 3 | **Certo** | Aaker separa notoriedade e qualidade percebida em dois grupos distintos. **Confirmado** em trecho da obra disponibilizado pela editora. |
+| 4 | **Certo** | O resumo do artigo publicado de Brakus e coautores registra exatamente as quatro dimensões. **Confirmado** no resumo oficial do periódico, não na íntegra da pesquisa. |
+
+**Correção de possível generalização:** a escala de Brakus descreve **respostas a estímulos de marca**, e não os mesmos blocos da pirâmide de Keller. E o grupo “outros ativos proprietários” de Aaker inclui direitos e relações comerciais: não deve ser confundido com “reputação” nem transposto literalmente para obrigações de órgão público. O modelo de Keller de 1993 sobre *consumer-based brand equity* e a representação posterior da pirâmide de ressonância pertencem à mesma trajetória teórica, mas **não devem ser apresentados como se a pirâmide completa tivesse sido enumerada no artigo de 1993**. Ver [Keller, artigo original de 1993](https://journals.sagepub.com/doi/10.1177/002224299305700101).
+
+**Treino C/E inédito:** “As dimensões sensorial, afetiva, intelectual e comportamental foram formuladas como os quatro níveis da pirâmide de ressonância de Keller.” **Errado.** São dimensões da escala de experiência de Brakus e coautores, e os quatro níveis CBBE possuem outros nomes.
+
+**Limite da conferência:** os itens 1 a 3 foram cotejados com formulações autorais publicadas; o item 4, com resumo do artigo original. Esses quatro gabaritos são compatíveis com as evidências, sem que o estudo integral, suas escalas e todos os exemplos da nota tenham sido certificados.
+
 ## Relações com outros temas
 
 **Aaker × Keller:** ativos e passivos associados à marca versus estrutura do conhecimento e das respostas dos públicos. **Seis critérios de Keller × seis blocos CBBE:** seleção de elementos versus formação de valor de marca. **Posicionamento × imagem:** associação pretendida e associação percebida. **Saliência × ressonância:** reconhecimento e vínculo. **Experiência × identidade visual:** interações e respostas mais amplas versus sistema gráfico. **Branding × gerenciamento de marca:** estratégia de significados e experiências versus mecanismos de governança, arquitetura e avaliação de portfólio aprofundados na próxima unidade.

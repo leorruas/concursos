@@ -1042,6 +1042,134 @@
       "statement": "A existência de competências privativas da União implica que toda decisão estadual tomada em matéria de competência própria precisa de aprovação do governo federal.",
       "correctAnswer": "E",
       "explanation": "A Constituição reparte competências. A existência de competências privativas federais não sujeita genericamente o exercício das competências estaduais a aprovação da União."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "governanca-e-gestao",
+      "mechanism": "distinguir-direcao-de-execucao",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × gestão"
+      ],
+      "statement": "Uma instância define que o serviço deve reduzir o tempo de espera sem diminuir a cobertura e acompanha os resultados. A equipe operacional reorganiza os turnos para alcançar a meta. A primeira atuação exemplifica governança e a segunda, gestão.",
+      "correctAnswer": "C",
+      "explanation": "A primeira atuação estabelece a direção e monitora resultados. A segunda organiza recursos e executa mudanças para alcançar a direção definida."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "monitoramento-de-governanca",
+      "mechanism": "confundir-supervisao-com-execucao",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × gestão"
+      ],
+      "statement": "Ao acompanhar atrasos recorrentes e pedir à direção do serviço um plano de correção, a instância de governança assume necessariamente a execução das providências operacionais.",
+      "correctAnswer": "E",
+      "explanation": "Pedir uma resposta e acompanhar sua implementação são atos de supervisão. A elaboração e execução das providências podem permanecer com a gestão do serviço."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "valor-publico",
+      "mechanism": "confundir-volume-com-beneficio",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público"
+      ],
+      "statement": "Um centro de atendimento passou a emitir mais senhas por dia. Se o número de pedidos efetivamente resolvidos permaneceu igual, a quantidade de senhas, sozinha, é insuficiente para demonstrar benefício adicional aos usuários.",
+      "correctAnswer": "C",
+      "explanation": "A senha é um registro de entrada no atendimento. Para demonstrar benefício é preciso observar um resultado relevante para o usuário, como a resolução do pedido."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "valor-publico",
+      "mechanism": "generalizar-media-sem-distribuicao",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público"
+      ],
+      "statement": "O tempo médio de espera caiu depois da abertura de um novo posto, mas o tempo aumentou para quem mora na região mais distante. A queda da média demonstra que todos os grupos passaram a esperar menos.",
+      "correctAnswer": "E",
+      "explanation": "Uma média pode cair mesmo quando um grupo tem resultado pior. Para avaliar quem se beneficiou é preciso comparar os resultados por grupo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "controle-preventivo",
+      "mechanism": "identificar-momento-do-controle",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "statement": "Um sistema exige validação do identificador do fornecedor antes de aceitar uma ordem de pagamento. Considerando o risco de processar ordens com identificador inválido, essa validação é um controle preventivo.",
+      "correctAnswer": "C",
+      "explanation": "A validação tenta impedir que a ordem inválida avance. O momento do controle é anterior ao processamento que se quer evitar."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "controle-detectivo",
+      "mechanism": "confundir-deteccao-com-prevencao",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "statement": "Uma conferência semanal identifica lançamentos duplicados depois que eles entram no sistema. Em relação à entrada dos lançamentos duplicados, a conferência é um controle preventivo.",
+      "correctAnswer": "E",
+      "explanation": "A conferência localiza ocorrências já registradas. Seu efeito sobre a entrada é detectivo, mesmo que a descoberta permita corrigir os lançamentos depois."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "prestacao-de-contas",
+      "mechanism": "distinguir-publicacao-de-justificacao",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Accountability"
+      ],
+      "statement": "Um órgão divulga números de atendimento e, quando questionado, explica por que mudou a regra de prioridade e apresenta a documentação da decisão. Essa segunda etapa acrescenta uma dimensão de prestação de contas à divulgação dos dados.",
+      "correctAnswer": "C",
+      "explanation": "Explicar e justificar a decisão permite questionar seus fundamentos. A mera disponibilização dos números oferece informação, mas não fornece essa justificativa."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "conceptId": "partes-interessadas",
+      "mechanism": "confundir-consulta-com-transferencia-de-decisao",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança e partes interessadas"
+      ],
+      "statement": "Ao consultar usuários antes de alterar o horário de atendimento, um órgão transfere a eles a competência para decidir o novo horário.",
+      "correctAnswer": "E",
+      "explanation": "A consulta recolhe informações e preferências relevantes para a decisão. A competência decisória continua com a instância responsável, salvo regra que disponha de outro modo."
     }
   ]
 }

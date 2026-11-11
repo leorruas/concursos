@@ -5,7 +5,7 @@ title: "Gerenciamento de marca: arquitetura, consistência e avaliação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Gerenciamento de marca: arquitetura, consistência e avaliação
@@ -152,6 +152,14 @@ A governança precisa também considerar acessibilidade e informação correta. 
 **Item 6.** A aplicação correta de uma marca institucional em publicidade pública é suficiente para afastar a vedação constitucional à promoção pessoal, independentemente do conteúdo que acompanha a assinatura.
 
 **Errado.** Finalidade e conteúdo continuam sujeitos ao art. 37, § 1º. **Mecanismo do erro:** confusão entre conformidade gráfica e legalidade.
+
+## Auditoria de inferência: aplicação visual, confiança e conformidade jurídica (11/11/2026)
+
+Uma **auditoria de identidade visual** pode estimar a frequência de uso correto de elementos de marca nas peças examinadas. Já uma **pesquisa de reputação** precisa de medida e amostra próprias, com perguntas, universo e possibilidade de viés identificados. A porcentagem de peças conformes não é o denominador de uma taxa de confiança na população. O [art. 37, § 1º, da Constituição](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) também não permite trocar exame do conteúdo publicitário por inspeção de logomarca.
+
+**Itens 3 e 6 preexistentes:** ambos **Errado**, por troca de unidades e critérios, respectivamente. O item 3 extrapola a conformidade gráfica para opiniões dos cidadãos; o item 6 confunde aplicação correta de marca com impessoalidade. **Itens 1, 2, 4 e 5 ainda não receberam cotejo autoral ou técnico completo nesta passagem**. A arquitetura monolítica, as submarcas e as extensões devem ser verificadas nas obras de Keller e Aaker, sem impor automaticamente esses modelos comerciais à instituição legislativa.
+
+**Treino C/E inédito:** “Um índice de 95% de peças em conformidade visual mede diretamente a proporção de cidadãos que confiam na Câmara, desde que o levantamento de peças tenha sido censitário.” **Errado.** Mesmo a inspeção de todas as peças não constitui pesquisa das opiniões de pessoas.
 
 ## Relações com outros temas
 

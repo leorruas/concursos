@@ -560,3 +560,28 @@ Recomenda-se uma **matriz única por artigo e por item** com `artigo/path`, `art
 **Matéria de teste adicional:** reconhecer que `falácia ecológica` é erro de inferência desprotegida, e não proibição de qualquer estimativa individual a partir de agregados; examinar também distinção entre inferência causal e simples ordenação temporal. **Não há necessidade imediata de criar mais questões nesta unidade**: ambas já contêm dez, mas precisa-se reduzir duplicações e medir recuperação real antes de ampliar.
 
 **Atualização da matriz 04:** 20 itens migrados de **Somente lido** para **Cotejo seletivo**, apontando este bloco. Total de **199** itens únicos, agora **110 com cotejo seletivo, 89 somente lidos, zero certificados integralmente**. O cotejo seletivo indica fundamento examinado por fonte independente e **não encerra a Fase 1**. Nenhum arquivo de estudo foi alterado; apenas matriz, relatório e índice de auditoria.
+
+
+## Bloco 25: poder, autoridade, dominação e três dimensões do poder (11/11/2026)
+
+**Escopo:** recuperado do GitHub o artigo `3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao.md` (`art-81d6f4a2c7e093b5`), com seções de Weber, Dahl, Bachrach/Baratz, Lukes, Arendt, Foucault, Habermas, legitimidade e **dez itens C/E**. Os dez fundamentos foram cotejados seletivamente com fontes acadêmicas e textos autorais. Este trabalho **não é uma revisão integral de todas as obras primárias ou de cada frase da nota**.
+
+**Itens 1 Certo, 2 Errado, 3 Certo: Weber.** A [Enciclopédia Max Weber, Dominação](https://www.enciclopediamaxweber.org/indice-geral/dominacao) confirma tipos **tradicional**, **carismático** e **legal-racional**, e a dominação como probabilidade de obediência a comando. O artigo preserva o contraste entre crença na tradição, reconhecimento pessoal extraordinário e regras impessoais. **Rotina de escritório isolada não equivale a dominação tradicional.**
+
+**Item 4 Errado: Dahl.** O [artigo original *The Concept of Power* (1957), DOI 10.1002/bs.3830020303](https://onlinelibrary.wiley.com/doi/10.1002/bs.3830020303) analisa poder como **relação entre atores**, escopo e respostas, não propriedade fixa do agente A independentemente de B. A inferência contrafactual pressupõe evidência, não resulta automaticamente de correlação temporal.
+
+**Item 5 Certo: Bachrach e Baratz.** No [comentário autoral sobre *Two Faces of Power* (1962)](https://garfield.library.upenn.edu/classics1982/A1982NG43200001.pdf), a segunda face envolve **impedir que demandas se convertam em assuntos efetivos de decisão**, pelo controle da agenda ou viés mobilizado. A ausência de votação sozinha não comprova bloqueio deliberado.
+
+**Item 6 Errado: Lukes.** [Open University, *Politics as the exercise of power*](https://www.open.edu/openlearn/mod/oucontent/view.php?id=20225&section=2.1.4) descreve a ampliação analítica para **agenda e formação de preferências**, não apenas contagem de votações vencidas. O núcleo da terceira dimensão está corretamente representado, sem certificação exaustiva das edições 1974/2005.
+
+**Item 7 Certo: Arendt.** [Stanford Encyclopedia, Arendt](https://plato.stanford.edu/archives/sum2010/entries/arendt/) e [texto autoral sobre violência](https://www.nybooks.com/articles/2013/07/11/hannah-arendt-reflections-violence/) distinguem **poder como capacidade de agir em conjunto** da **violência instrumental**, embora instituições reais possam envolver ambos.
+
+**Item 8 Errado: Foucault.** [Stanford Encyclopedia, Foucault](https://plato.stanford.edu/entries/foucault/) confirma relações de poder **difusas e produtivas**, incluindo disciplina, saber e normalização, e não simples repressão legal centralizada no Estado.
+
+**Item 9 Certo: Habermas.** [Stanford Encyclopedia, Habermas](https://plato.stanford.edu/entries/habermas/) desenvolve **poder comunicativo**, esfera pública, formação de opiniões/vontades por razões contestáveis e passagem para decisões institucionais. **A idealização discursiva da possibilidade de assentimento não impõe consenso unânime como regra de toda decisão parlamentar.** Esta fronteira merece cuidado em revisão autoral posterior.
+
+**Item 10 Errado: legalidade e legitimidade.** Conformidade legal não comprova aprovação empírica de todos nem resolve, sem argumentos adicionais, critérios normativos de justiça. Coerente com a nota e as distinções estudadas.
+
+**Conclusão da revisão seletiva:** nenhum dos **dez gabaritos** apresenta inversão no mecanismo conceitual conferido. Autores não compõem uma escala única de poder: Weber classifica legitimidade da obediência; Dahl relação de influência; Bachrach/Baratz controle de agenda; Lukes formação de interesses; Arendt ação conjunta; Foucault produtividade e disciplina; Habermas formação discursiva de vontade. **O artigo ainda não foi integralmente certificado**.
+
+**Matriz 04:** os dez registros `art-81d6f4a2c7e093b5#1–#10` migraram de `Somente lido` para `Cotejo seletivo, bloco 25`. Totais diretamente recontados: **199 itens únicos, 120 com cotejo seletivo, 79 somente lidos, zero com certificação integral**. Nenhum arquivo de estudo alterado; Fase 1 aberta. Não interferir com Processo Legislativo e Ética do chat paralelo.

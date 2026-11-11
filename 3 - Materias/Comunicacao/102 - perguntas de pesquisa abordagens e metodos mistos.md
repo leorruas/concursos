@@ -5,7 +5,7 @@ title: "Perguntas de pesquisa: abordagens qualitativas, quantitativas e métodos
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Perguntas de pesquisa: abordagens qualitativas, quantitativas e métodos mistos
@@ -120,6 +120,16 @@ Em serviços públicos, públicos pouco presentes na coleta podem ser justamente
 **Item 4.** Um levantamento pode descrever associação entre frequência de acesso a um portal e compreensão de conteúdos sem que dessa associação decorra, por si só, prova de efeito causal do acesso sobre a compreensão.
 
 **Certo.** Associação não basta para identificar causalidade. **Mecanismo avaliado:** limite inferencial.
+
+## Conferência metodológica: desenho sequencial exploratório e triangulação (11/11/2026)
+
+A [síntese metodológica publicada em revista científica](https://pmc.ncbi.nlm.nih.gov/articles/PMC5602001/) identifica o **desenho sequencial exploratório** de métodos mistos como investigação qualitativa inicial seguida de etapa quantitativa para testar, medir ou expandir os achados; o **sequencial explicativo** segue ordem quantitativa → qualitativa para aprofundar os resultados iniciais; o **convergente** compara e integra componentes. Essa é uma síntese de literatura, não leitura integral do livro de Creswell e Plano Clark.
+
+**Item 1 preexistente, Certo:** entrevista aberta pode gerar categorias para questionário posterior, como em desenho sequencial exploratório. **Item 2, Errado:** triangulação de métodos/fontes não exige obrigatoriamente combinação de inferência estatística com entrevistas; a distinção conceitual é coerente, mas não foi cotejada nesta rodada com uma obra específica de triangulação. **Item 3, Errado:** estabilidade (confiabilidade) não garante validade do constructo; a distinção é coerente, sem auditoria psicométrica direta. **Item 4, Certo:** associação observacional de acesso e compreensão não prova causalidade; segue limite geral do desenho.
+
+**Item C/E inédito:** “A sequência de entrevistas qualitativas exploratórias seguida de questionário quantitativo caracteriza desenho sequencial explicativo, pois a etapa qualitativa tem necessariamente a função de explicar dados quantitativos coletados antes.” **Errado.** A sequência descrita é exploratória, não explicativa.
+
+**Pendência:** aprofundar as definições de triangulação, confiabilidade e validade diretamente em bibliografia especializada; nenhum dos quatro itens foi tratado como questão histórica da banca.
 
 ## Relações com outros temas
 

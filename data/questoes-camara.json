@@ -4098,6 +4098,134 @@
       "statement": "Em uma pesquisa com usuários do aplicativo, a maioria prefere receber avisos por notificação. Esse resultado basta para concluir que a mesma preferência predomina entre pessoas que nunca usaram o aplicativo.",
       "correctAnswer": "E",
       "explanation": "A coleta ouviu usuários do aplicativo. A preferência de quem está fora desse grupo exige evidência adicional."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "conceptId": "encontrabilidade",
+      "mechanism": "distinguir-encontrar-de-compreender",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A estrutura interna do texto: encontrar, compreender e usar"
+      ],
+      "statement": "Usuários compreendem a regra de inscrição quando recebem o link direto, mas quase nenhum a encontra no portal. Melhorar os rótulos de navegação atua sobre uma barreira distinta da dificuldade de entender a regra.",
+      "correctAnswer": "C",
+      "explanation": "O caso identifica dificuldade de localização. A compreensão já foi observada quando a regra foi encontrada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "conceptId": "precisao-em-linguagem-simples",
+      "mechanism": "remover-condicao-essencial",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#Clareza, precisão, objetividade e concisão"
+      ],
+      "statement": "Uma instrução diz que o desconto vale para pedidos enviados até sexta-feira. Retirar o prazo preserva o conteúdo da instrução, desde que a nova frase fique mais curta.",
+      "correctAnswer": "E",
+      "explanation": "O prazo delimita quais pedidos recebem o desconto. Retirá-lo torna a frase menor, mas amplia o alcance da informação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "conceptId": "teste-de-compreensao",
+      "mechanism": "avaliar-aplicacao-de-excecao",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#Testar compreensão: leitura aparente versus tarefa resolvida"
+      ],
+      "statement": "Para avaliar se um aviso explica a exceção de um prazo, apresentar um caso que se enquadra na exceção e pedir ao leitor que identifique a data aplicável fornece evidência de compreensão.",
+      "correctAnswer": "C",
+      "explanation": "A tarefa exige aplicar a regra a uma situação concreta. Isso fornece evidência mais direta que perguntar se o texto parece fácil."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "conceptId": "teste-de-compreensao",
+      "mechanism": "confundir-opiniao-com-desempenho",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#Testar compreensão: leitura aparente versus tarefa resolvida"
+      ],
+      "statement": "Se todos os leitores avaliam um formulário como claro, a equipe pode concluir que todos conseguem preenchê-lo corretamente sem observar seu uso.",
+      "correctAnswer": "E",
+      "explanation": "A avaliação expressa percepção. O desempenho precisa ser verificado com preenchimento ou outra tarefa observável."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "conceptId": "eficacia-em-usabilidade",
+      "mechanism": "distinguir-conclusao-de-rapidez",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Estrutura interna da definição ISO: distinguir as dimensões"
+      ],
+      "statement": "Em um teste, mais pessoas concluem a tarefa na nova versão, mas quem a conclui leva mais tempo. A taxa de conclusão pode indicar melhora de eficácia sem demonstrar ganho de eficiência.",
+      "correctAnswer": "C",
+      "explanation": "A conclusão mede alcance do objetivo. O tempo empregado é uma medida de recursos usados e deve ser analisado separadamente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "conceptId": "satisfacao-em-usabilidade",
+      "mechanism": "deduzir-satisfacao-de-tempo",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Estrutura interna da definição ISO: distinguir as dimensões"
+      ],
+      "statement": "Duas interfaces geram o mesmo tempo mediano para concluir uma tarefa. Essa igualdade demonstra que os participantes ficaram igualmente satisfeitos com as duas versões.",
+      "correctAnswer": "E",
+      "explanation": "O tempo mede um aspecto da execução. A satisfação exige evidência sobre como os usuários avaliam a experiência."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "conceptId": "teste-de-usabilidade",
+      "mechanism": "observar-comportamento-em-tarefa",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Teste de usabilidade: desenho do estudo e execução"
+      ],
+      "statement": "Pedir a usuários que localizem um edital e registrem uma inscrição, observando onde hesitam ou erram, é compatível com um teste de usabilidade.",
+      "correctAnswer": "C",
+      "explanation": "O método observa participantes executando tarefas representativas no produto e identifica dificuldades concretas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "conceptId": "inspecao-heuristica",
+      "mechanism": "confundir-inspecao-com-observacao-de-usuarios",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Inspeção heurística e avaliação cognitiva"
+      ],
+      "statement": "Uma avaliação em que especialistas comparam uma interface a princípios de usabilidade fornece, por si só, tempos de conclusão medidos com usuários do serviço.",
+      "correctAnswer": "E",
+      "explanation": "A inspeção identifica problemas potenciais segundo princípios. Tempos observados exigem execução da tarefa pelos participantes."
     }
   ]
 }

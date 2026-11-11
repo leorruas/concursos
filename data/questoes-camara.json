@@ -5538,6 +5538,102 @@
       "statement": "Uma proposta intitulada “reorganização institucional” elimina a separação dos Poderes. O título da proposta não afasta a vedação constitucional à deliberação.",
       "correctAnswer": "C",
       "explanation": "O art. 60, § 4º, protege a separação dos Poderes. A análise considera o efeito da proposta, independentemente de seu título."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / organização administrativa",
+      "conceptId": "desconcentracao",
+      "mechanism": "identificar-distribuicao-interna",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      ],
+      "statement": "Um município distribui tarefas de atendimento entre departamentos que integram sua própria estrutura, sem criar outra pessoa jurídica. Essa distribuição é um exemplo de desconcentração.",
+      "correctAnswer": "C",
+      "explanation": "A atividade é repartida entre órgãos da mesma pessoa jurídica. Esse é o critério da desconcentração."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / organização administrativa",
+      "conceptId": "descentralizacao",
+      "mechanism": "confundir-vinculo-com-unidade-juridica",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      ],
+      "statement": "Um serviço passa da administração direta para uma autarquia com personalidade jurídica própria. Como ambas fazem parte da administração pública, a transferência configura desconcentração interna.",
+      "correctAnswer": "E",
+      "explanation": "A autarquia é outra pessoa jurídica. A atribuição do serviço a ela caracteriza descentralização."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / organização administrativa",
+      "conceptId": "concentracao",
+      "mechanism": "distinguir-reuniao-de-competencias-de-descentralizacao",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      ],
+      "statement": "Uma secretaria extingue dois departamentos e reúne suas atribuições em um único órgão da mesma pessoa jurídica. O movimento descrito é de concentração.",
+      "correctAnswer": "C",
+      "explanation": "A medida reúne atribuições antes distribuídas internamente. Nenhuma atividade é atribuída a uma pessoa jurídica diferente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / organização administrativa",
+      "conceptId": "centralizacao",
+      "mechanism": "confundir-distribuicao-interna-com-execucao-por-terceiro",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      ],
+      "statement": "A prestação de um serviço pelo próprio município por meio de várias secretarias deixa de ser centralizada porque envolve mais de um órgão.",
+      "correctAnswer": "E",
+      "explanation": "A prestação continua a cargo da mesma pessoa jurídica. A repartição entre secretarias é compatível com execução centralizada e desconcentrada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / organização administrativa",
+      "conceptId": "delegacao-de-servico",
+      "mechanism": "distinguir-execucao-de-titularidade",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#2. Modalidades de Descentralização: Outorga vs. Delegação"
+      ],
+      "statement": "Um ente mantém a titularidade de um serviço, mas atribui sua execução a outra pessoa por concessão. O arranjo é compatível com descentralização por delegação.",
+      "correctAnswer": "C",
+      "explanation": "A concessão delega a execução do serviço. No caso, a titularidade permanece com o ente concedente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / organização administrativa",
+      "conceptId": "teoria-do-orgao",
+      "mechanism": "confundir-imputacao-com-personalidade-propria",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#3. Teoria do Órgão e Classificação dos Órgãos Públicos"
+      ],
+      "statement": "Uma secretaria pratica ato no exercício de suas atribuições. Segundo a teoria do órgão, o ato é imputado a uma pessoa jurídica autônoma criada automaticamente pelo exercício da competência da secretaria.",
+      "correctAnswer": "E",
+      "explanation": "A atuação do órgão é imputada à pessoa jurídica que ele integra. O exercício da competência não cria personalidade jurídica própria para a secretaria."
     }
   ]
 }

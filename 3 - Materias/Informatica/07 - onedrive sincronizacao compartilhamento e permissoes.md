@@ -135,7 +135,7 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** A opção "Qualquer pessoa com o link" cria um link anônimo e público que pode ser acessado por qualquer indivíduo que detenha a URL, sem exigir qualquer tipo de autenticação ou login. A opção que restringe o acesso aos usuários da instituição com credenciais corporativas é **"Pessoas em sua organização"**.
+**Comentário:** Quando habilitada pela política institucional, a opção **“Qualquer pessoa com o link”** permite acesso a quem tiver a URL, sem exigir credenciais do domínio corporativo. O compartilhamento pode estar desabilitado ou limitado pelo administrador. A opção de acesso apenas a usuários da instituição é **“Pessoas em sua organização”**, razão do gabarito ERRADO.
 
 ---
 
@@ -157,7 +157,7 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** É a mecânica da lixeira corporativa em dois estágios do SharePoint/OneDrive for Business: primeiro estágio gerenciado pelo usuário e segundo estágio acessível pelos administradores da coleção de sites durante a janela total de 93 dias.
+**Comentário:** O SharePoint/OneDrive corporativo normalmente usa uma retenção total de até **93 dias** entre os estágios da lixeira. Itens **podem** ser recuperados no segundo estágio se ainda estiverem presentes, observadas as permissões e políticas. A exclusão permanente antecipada ou outras condições podem impedir a recuperação, mesmo dentro do prazo; por isso, o verbo **“podem”** do enunciado sustenta o gabarito CERTO.
 
 ---
 
@@ -190,7 +190,7 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** A coautoria em tempo real (*co-authoring*) é suportada nativamente nas versões modernas do Word, Excel e PowerPoint vinculadas ao OneDrive/SharePoint, permitindo edições concorrentes e seguras sem lock total do arquivo.
+**Comentário:** A coautoria é suportada em versões e formatos compatíveis do Excel para arquivos compartilhados no OneDrive/SharePoint e pode permitir edição simultânea sem bloqueio integral. **A presença de cursores ou seleções dos colaboradores pode variar** conforme versão, cliente e estado de sincronização. O gabarito CERTO descreve uma capacidade disponível, não uma garantia em qualquer ambiente.
 
 ---
 
@@ -208,3 +208,5 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 > **Nota de revisão (11/11/2026):** as opções de compartilhamento e retenção dependem do ambiente Microsoft 365. O item 5 sobre link de **pasta** permanece sob reserva e não deve ser memorizado como regra universal até validação do escopo. Fontes: [lixeira do OneDrive](https://support.microsoft.com/pt-br/onedrive/restore-deleted-files-or-folders-in-onedrive), [lixeira de segundo estágio do SharePoint](https://support.microsoft.com/pt-br/sharepoint/admin/restore-deleted-items-from-the-site-collection-recycle-bin). Achado TI-037.
 
 > **Validação de questão, segunda passagem (11/11/2026):** Item 5 **retirado do conjunto de gabaritos homologáveis**, mantendo o enunciado e o histórico. Para treino, utilizar esta versão com condições suficientes: *“Em uma conta corporativa do OneDrive, quando a política permitir, pode-se compartilhar um arquivo com permissão somente de exibição e a opção Bloquear download, restringindo a operação de download pela interface do serviço.”* **Gabarito da versão reformulada: CERTO**, com as limitações explicitadas na [documentação Microsoft](https://support.microsoft.com/pt-br/onedrive/block-downloads-for-view-only-files-in-sharepoint-and-onedrive). Não atribuir à versão antiga um gabarito inequívoco.
+
+> **Auditoria de questões, segunda passagem (11/11/2026):** Q1–Q4 e Q6 mantêm **E, E, C, E, C** com ressalvas de configuração, retenção e cliente. **Q5 permanece NÃO HOMOLOGADA**, conforme a revisão anterior sobre links de pasta e bloqueio de download. Questões inéditas não foram cotejadas com prova real.

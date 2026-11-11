@@ -5,12 +5,14 @@ title: "Regimento da Câmara: expedientes, Ordem do Dia, publicidade e proposiç
 type: "conceito"
 status: "ativo"
 created: 2026-11-08
-updated: 2026-11-08
+updated: 2026-11-11
 ---
 
 # Regimento da Câmara: expedientes, Ordem do Dia, publicidade e proposições (arts. 81 a 105)
 
-**Câmara dos Deputados 2026, cargo 1, Divulgação Institucional. Banca: Cebraspe. Unidade CAM-PL-022.** Base principal: **Regimento Interno da Câmara dos Deputados (RICD), arts. 81 a 105**, na [redação consolidada oficial](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferência em 08/11/2026.
+**Câmara dos Deputados 2026, cargo 1, Divulgação Institucional. Banca: Cebraspe. Complemento editorial de CAM-PL-021 (sessões), dedicado aos arts. 81 a 105.** Base principal: **Regimento Interno da Câmara dos Deputados (RICD), arts. 81 a 105**, na [redação consolidada oficial](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferência em 08/11/2026.
+
+**Nota de rastreabilidade:** esta nota sobre expedientes e proposições é complemento autônomo de estudo da trilha de sessões (**CAM-PL-021**), e não corresponde à unidade **CAM-PL-022**, reservada no planejamento a deputados e mandato (arts. 226 a 251), coberta por [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|DC26]]. A classificação como complemento **não significa** que os arts. 95 a 105 integrem literalmente o recorte 65 a 94 da unidade planejada.
 
 ## Núcleo do conceito
 

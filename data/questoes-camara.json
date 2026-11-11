@@ -3842,6 +3842,102 @@
       "statement": "A realização da primeira eleição disputada após um período autoritário demonstra, por si só, que a democracia está consolidada.",
       "correctAnswer": "E",
       "explanation": "A eleição pode sinalizar abertura. A consolidação depende da aceitação e estabilidade das regras democráticas ao longo do tempo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "conceptId": "assimetria-informacional",
+      "mechanism": "distinguir-observacao-de-esforco",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Principal-agente: delegação, assimetria e problemas de controle"
+      ],
+      "statement": "Eleitores conseguem consultar o resultado de uma votação, mas não observam todas as negociações que a precederam. A publicação do resultado pode reduzir a assimetria de informação sem eliminá-la.",
+      "correctAnswer": "C",
+      "explanation": "O registro revela o voto. O esforço e as negociações continuam parcialmente desconhecidos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "conceptId": "delegacao-politica",
+      "mechanism": "confundir-delegacao-com-coincidencia-de-preferencias",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Principal-agente: delegação, assimetria e problemas de controle"
+      ],
+      "statement": "Quando eleitores autorizam uma representante a tomar decisões, a delegação garante que suas preferências coincidam em todas as matérias futuras.",
+      "correctAnswer": "E",
+      "explanation": "A autorização atribui poder de decisão. Eleitores e representante ainda podem divergir sobre assuntos concretos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "conceptId": "accountability-eleitoral",
+      "mechanism": "identificar-controle-retrospectivo",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Accountability: informar, justificar e responder às consequências"
+      ],
+      "statement": "Quando eleitores deixam de apoiar um governante em razão de sua atuação no mandato anterior, podem exercer controle retrospectivo por meio do voto.",
+      "correctAnswer": "C",
+      "explanation": "A decisão de voto responde à atuação passada e pode impor uma consequência eleitoral."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "conceptId": "accountability",
+      "mechanism": "confundir-transparencia-com-justificacao",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Accountability: informar, justificar e responder às consequências"
+      ],
+      "statement": "Disponibilizar uma lista de despesas satisfaz por si só a dimensão de justificação da prestação de contas, ainda que ninguém explique os critérios usados nas decisões.",
+      "correctAnswer": "E",
+      "explanation": "A lista torna informações acessíveis. A justificação exige expor as razões das escolhas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "conceptId": "independencia-do-representante",
+      "mechanism": "distinguir-opiniao-publica-de-instrucao-vinculante",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Bernard Manin: os quatro princípios do governo representativo"
+      ],
+      "statement": "Na caracterização de Bernard Manin, a liberdade de opinião pública permite que eleitores critiquem decisões sem que cada manifestação popular funcione como ordem vinculante para os representantes.",
+      "correctAnswer": "C",
+      "explanation": "A expressão pública permite pressão e crítica. Ela é compatível com um grau de independência do representante entre eleições."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "conceptId": "governo-representativo",
+      "mechanism": "confundir-debate-com-voto-sem-discussao",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Bernard Manin: os quatro princípios do governo representativo"
+      ],
+      "statement": "Na descrição de Bernard Manin, submeter decisões à prova da discussão equivale a contar votos sem que os participantes examinem argumentos.",
+      "correctAnswer": "E",
+      "explanation": "A prova da discussão pressupõe exame público de posições e razões. A contagem de votos é uma operação distinta."
     }
   ]
 }

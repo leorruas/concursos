@@ -5,7 +5,7 @@ title: "Pesquisa de mercado: desenho, amostragem e interpretação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Pesquisa de mercado: desenho, amostragem e interpretação
@@ -146,6 +146,16 @@ A lógica de **erro total da pesquisa** considera que a qualidade de uma estimat
 **Item 5.** Duas pesquisas transversais independentes, realizadas em momentos diferentes, podem demonstrar alteração de estimativas para uma população, mas não permitem acompanhar diretamente a mudança de resposta de cada indivíduo entrevistado na primeira ocasião.
 
 **Certo.** Mudança individual requer identificação longitudinal ou painel adequado. **Mecanismo avaliado:** fronteira entre tendências agregadas e trajetórias individuais.
+
+## Verificação de inferência: ponderação não transforma opt-in em amostra probabilística (11/11/2026)
+
+A [AAPOR, boas práticas de pesquisa](https://aapor.org/standards-and-ethics/best-practices/), distingue **seleção probabilística** (com procedimento aleatório e probabilidades de inclusão identificáveis ou inferíveis no desenho) de recrutamento voluntário **não probabilístico**. A [Pew Research Center, fundamentos de pesquisa de opinião](https://www.pewresearch.org/course/public-opinion-polling-basics/) esclarece que ponderação em pesquisas *opt-in* pode melhorar o ajuste a variáveis observadas, mas não recria o sorteio que não ocorreu nem assegura que pessoas sem chance de participação sejam adequadamente representadas.
+
+**Item 2 existente: Errado, confirmado pelas duas fontes.** Se 20 mil visitantes voluntários respondem à enquete e pesos reconstituem idades e regiões, a base continua **não probabilística**. Isso não significa que toda análise da amostra seja inútil: a inferência populacional depende de hipóteses adicionais, avaliação de viés e transparência.
+
+**Item 3: Certo, conferido matematicamente:** para erro-padrão proporcional a \(1/\sqrt{n}\), multiplicar n por 4 reduz o componente amostral à metade, **sob hipóteses comparáveis**. O item não autoriza dizer que erro de cobertura, não resposta ou mensuração também cai pela metade. **Item 4: Errado**, pela mesma distinção entre variabilidade amostral e erro total.
+
+**C/E novo, inédito:** “Aplicar pesos para igualar a distribuição de idade e região transforma, por si só, respostas espontâneas de um formulário aberto em seleção aleatória de indivíduos da população.” **Errado**. **Limite:** itens 1 e 5 e a discussão inteira sobre desenho amostral permanecem pendentes de cotejo integral com literatura metodológica.
 
 ## Relações com outros temas
 

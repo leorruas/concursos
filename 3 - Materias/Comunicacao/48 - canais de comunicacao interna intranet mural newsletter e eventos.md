@@ -5,7 +5,7 @@ title: "Canais de comunicação interna: intranet, mural, newsletter e eventos"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Canais de comunicação interna: intranet, mural, newsletter e eventos
@@ -146,6 +146,16 @@ A taxa de abertura de newsletter pode indicar algum nível de entrega ou exposi�
 **Item 3, inédito:** “Segundo a distinção entre incerteza e equivocidade, disseminar mais dados pode ser insuficiente quando setores possuem interpretações conflitantes de uma mesma decisão, situação em que mecanismos de diálogo podem ser pertinentes.”
 
 **Gabarito: Certo.** **Falta de informação** e **multiplicidade de interpretações** não são problemas idênticos. **Mecanismo:** aplicação do critério de riqueza de meios, sem tornar reunião obrigatória em todo caso.
+
+## Cotejo dirigido: canais, públicos internos e riqueza do meio (11/11/2026)
+
+**Base verificável:** Daft e Lengel (1986) distinguem **incerteza** (necessidade de informação) de **equivocidade** (ambiguidade ou interpretações múltiplas). Aumentar o volume de dados pode ajudar no primeiro problema, mas ser insuficiente no segundo, que pode requerer meios capazes de produzir esclarecimento e interpretação compartilhada. Trata-se de um argumento de **adequação entre tarefa e mecanismo informacional**, não da regra de que toda reunião presencial seja superior a todo documento escrito.
+
+Welch e Jackson (2007) criticam a ideia de tratar os trabalhadores como **um público interno único e indiferenciado**. Assim, intranet, mural, newsletter e eventos devem ser escolhidos também conforme os grupos atingidos, suas condições de acesso e as necessidades de resposta. **Métrica de envio, abertura, presença ou publicação não comprova compreensão nem mudança de conduta.**
+
+**Itens inéditos conferidos com escopo delimitado:** (1) **Certo**: a comparação newsletter/intranet é coerente como distinção de função predominante, elaborada didaticamente, e não uma tipologia autoral fechada; (2) **Errado**: evento é modalidade de interação, ao passo que fluxo descreve relações entre posições, sem que presença física implique horizontalidade; (3) **Certo**: Daft e Lengel distinguem incerteza de equivocidade, sem prescrever reunião como solução universal. Os três comentários foram mantidos; nenhum item real Cebraspe foi acrescentado.
+
+**Fontes efetivamente cotejadas:** [Daft e Lengel (1986), *Management Science*, resumo do editor](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.32.5.554); [Welch e Jackson (2007), *Corporate Communications*, resumo editorial](https://www.emerald.com/ccij/article-abstract/12/2/177/68701/Rethinking-internal-communication-a-stakeholder). **Limite:** os resumos sustentam as distinções centrais, mas a leitura integral das duas obras, a verificação de todos os exemplos e testes de links internos e Pages continuam pendentes. **Estado: Corrigido em recorte didático e de gabaritos, sem certificação integral.**
 
 ## Aplicação discursiva
 

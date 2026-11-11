@@ -656,3 +656,49 @@ Commit `14ded4f9997664e9aa48d6573ff898e4b8f791a0`: fluxograma linear substituíd
 Commit `366059b43995a50fdc38eb371e046880cfc110c9`: revistos os enunciados e comentários das **seis questões C/E** frente aos dispositivos centrais dos arts. 4º, 5º, 7º, 12–14 e 16 da [Resolução nº 25/2001 consolidada](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html). Os seis gabaritos foram mantidos; aprofundados os comentários de Q1–Q3 e Q6, corrigida a remissão do recurso à CCJC de art. 14, § 4º, VIII para **VII**, e complementadas defesa, recursos e impedimentos de relatoria. Retirada a generalização indevida de vedação de recondução de qualquer membro do Conselho: a restrição de reeleição para o mesmo cargo na eleição seguinte consta no art. 7º, § 5º, para a direção do Conselho.
 
 **Ainda pendentes:** conferência independente do Regulamento de 2001 e do Acordo 2025–2027, revisão de todas as exceções do fluxograma e validação visual da renderização; não declarar DC34 certificado integralmente. **Andamento: 2 dos 29 artigos da trilha receberam alterações; 0 dos 29 foram certificados em revisão integral.** A contagem de artigos modificados não corresponde a percentual de correção completa da auditoria.
+
+
+## Bloco 16: iniciativa legislativa DC12, 14 itens C/E e precedentes STF (11/11/2026)
+
+**Arquivo:** `3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md` (`articleId: art-...`, recuperar da metainformação do próprio arquivo na atualização final), contendo `CAM-PL-002` e refinamento `CAM-PL-017`. Arquivo recuperado integralmente e seções de jurisprudência, iniciativa popular e **14 enunciados/gabaritos** lidas. Fontes independentes: [STF, Constituição e Supremo, art.61](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=61&abrirBase=CF), com o **Tema 917**, ARE 878.911; [STF, Tema 682, ARE 743.480](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=4391271&numeroProcesso=743480&numeroTema=682); [CF atualizada na Câmara](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), especialmente arts. 51, 60–64, 93, 96, 127 e 165. **Cotejo dirigido dos núcleos, sem certificar todas as afirmações do arquivo ou todos os limites materiais/fiscais da legislação.**
+
+### Correção confirmada dos precedentes, comparada a DC36
+
+**A-PL-058, referência adequada:** `DC12 > A fronteira de maior valor: criar despesa...` corretamente atribui ao **Tema 917 (ARE 878.911)** a tese de que despesa imposta por lei parlamentar não gera, isoladamente, vício de iniciativa se a norma não cuidar de estrutura/atribuições de órgãos nem do regime de servidores. O precedente foi conferido na página do STF, que apresenta também decisões de 2024–2025 no mesmo sentido. Manter distinção entre **lei criadora de encargo material** e **lei que estrutura ministério ou altera regime de servidor**.
+
+**A-PL-059, referência adequada:** `DC12 > Tema 682` corresponde ao [STF, ARE 743.480](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=4391271&numeroProcesso=743480&numeroTema=682), cuja tese exclui **reserva geral de iniciativa de leis tributárias, inclusive renúncia fiscal**. A nota corretamente adverte que ausência de vício de iniciativa não elimina exame da LRF e demais limites. **Não transportar Tema 682 a projetos que modifiquem matérias orgânicas de iniciativa reservada.**
+
+### Matriz de 6 itens gerais `CAM-PL-002`
+
+| Item | Gabarito no arquivo | Checagem delimitada |
+| --- | --- | --- |
+| 1, despesa por projeto parlamentar | CERTO | Corroborado: STF Tema 917, sem reserva automática |
+| 2, presidente teria monopólio de lei tributária | ERRADO | Corroborado: STF Tema 682 e alcance territorial da CF 61 §1º II b |
+| 3, apoio para lei popular 1%/5 Estados/0,3% | CERTO | Corroborado: CF art.61 §2º; apoio cumulativo e apresentação à Câmara |
+| 4, remuneração dos servidores da Câmara dependeria de iniciativa presidencial | ERRADO | Corroborado: CF art.51 IV: Câmara tem iniciativa de lei respectiva |
+| 5, emendas a projetos presidenciais com limites de despesa | CERTO | Corroborado no núcleo: CF art.63 I e exceções orçamentárias constitucionais; pertinência temática exige exame contextual adicional |
+| 6, lei popular e PEC popular teriam mesma previsão expressa | ERRADO | Corroborado: CF art.60 não prevê PEC popular federal no padrão do art.61 §2º |
+
+### Matriz de 8 itens de `CAM-PL-017`
+
+| Item | Gabarito no arquivo | Checagem delimitada |
+| --- | --- | --- |
+| 1, proposição Presidente/STF/tribunais superiores inicia na Câmara | CERTO | CF art.64 |
+| 2, art.64 abrange PGR | ERRADO | Art.64 não o menciona expressamente, ainda que PGR esteja no art.61 |
+| 3, comissão tem iniciativa e parecer não equivale a aprovação | CERTO | CF art.61 caput e competências regimentais |
+| 4, deputado pode propor Estatuto da Magistratura | ERRADO | CF art.93: iniciativa do STF para lei complementar |
+| 5, órgão com proposta setorial de orçamento inicia LOA perante Congresso | ERRADO | CF art.165: iniciativa do Executivo no projeto da LOA |
+| 6, projeto de iniciativa reservada é imune a qualquer emenda | ERRADO | Emendas são possíveis com limites de art.63/pertinência |
+| 7, iniciativa popular federal é proposta enviada à Câmara, sem aprovação direta | CERTO | CF art.61 §2º |
+| 8, Câmara fixa vencimentos de seus servidores por resolução sem lei | ERRADO | CF art.51 IV: iniciativa de **lei** para remuneração |
+
+**Resultado:** 14/14 gabaritos compatíveis com as regras constitucionais centrais consultadas; **nenhuma inversão detectada**. Não há novo erro normativo crítico confirmado nesta rodada em DC12. **Reservas:** testar em revisão final as exceções específicas para limites de emendas, reserva de iniciativa de órgãos autônomos e as descrições de ações do Congresso, para evitar generalizações de casos práticos.
+
+### Progresso medido, sem precisão artificial
+
+- **Inventário estrutural da trilha:** 29/29 arquivos já identificados e abertos (100%).
+- **Conferência individual dos enunciados C/E das unidades:** DC11 (13), DC12 (14), DC34 (6), DC35 (6), DC36 (6), DC37 (6): **51 enunciados lidos/confrontados em diferentes graus**, alguns com reservas específicas; isso **não** significa 51 itens integralmente certificados.
+- **Pendência principal:** DC13–33 (21 arquivos) e DC06/DC10 (2 bases) sem revisão individual completa de questões e texto; seis artigos acima ainda mantêm graus distintos de exame sem certificação total.
+- **Estimativa de esforço restante:** cerca de **70% da validação integral**, qualitativa e provisória, não um percentual calculado por itens revisados. A fase 1 continua aberta.
+
+**Próximo bloco:** `DC13 - tramitacao legislativa fases e fluxo.md`, conferir integralmente sua correspondência com procedimentos ordinários e gabaritos. **Nenhum artigo de estudo alterado.**

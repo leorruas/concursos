@@ -5,7 +5,7 @@ title: "Público-alvo e segmentação publicitária: bases, seleção e limites"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Público-alvo e segmentação publicitária: bases, seleção e limites
@@ -140,6 +140,18 @@ A **Lei nº 13.709/2018 (LGPD)** exige finalidade, adequação, necessidade, tra
 **Item 3.** A seleção de determinado público-alvo para uma campanha institucional da Câmara implica que os cidadãos não selecionados podem ser privados de informações oficiais de acesso público, pois a estratégia de segmentação prevalece sobre a finalidade pública da comunicação.
 
 **Gabarito: Errado.** Segmentar a distribuição e adaptar mensagem não afasta deveres de acesso nem limites institucionais. A escolha estratégica do alvo não equivale à exclusão jurídica de outros destinatários.
+
+## Auditoria dirigida: bases e critérios ADAMS (11/11/2026)
+
+A [OpenStax, *Principles of Marketing*, seção 5.1](https://openstax.org/books/principles-marketing/pages/5-1-market-segmentation-and-consumer-markets) apresenta quatro bases de segmentação de mercados consumidores: **geográfica** (onde), **demográfica** (quem), **psicográfica** (estilo de vida, valores, interesses) e **comportamental** (comportamentos, uso e respostas). Essas são **bases de variáveis**, que podem ser combinadas; não são quatro etapas obrigatórias nem grupos necessariamente disjuntos.
+
+A [OpenStax, seção 5.4](https://openstax.org/books/principles-marketing/pages/5-4-essential-factors-in-effective-market-segmentation) explicita o mnemônico **ADAMS**: *Accessible* (capacidade/custo de alcançar o segmento), *Differentiable* (diferença relevante em relação a outros segmentos), *Actionable* (possibilidade de executar ações para o segmento), *Measurable* (possibilidade de estimar ou dimensionar o segmento) e *Substantial* (dimensão suficiente para justificar o esforço conforme o mercado). **Substantial** foi originalmente articulado para viabilidade de mercado: na Câmara, **não autoriza excluir públicos pequenos, vulneráveis ou menos rentáveis do acesso à informação pública**.
+
+**Confronto dos três C/E inéditos preexistentes:** **item 1: Certo**, frequência de uso é comportamento; **item 2: Errado**, o enunciado inverte *measurable* e *accessible*; **item 3: Errado**, seleção de público prioritário não cria autorização jurídica para negar informação pública a outro cidadão. Os dois primeiros julgamentos se apoiam diretamente nas classificações OpenStax; o terceiro é **aplicação institucional por analogia**, sujeita à Constituição e à legislação de transparência, não uma conclusão normativa formulada no livro de marketing.
+
+**Novo item C/E inédito:** “No modelo ADAMS, um segmento mensurável é necessariamente alcançável com o orçamento existente, pois as expressões measurable e accessible designam o mesmo critério.” **Errado.** Tamanho estimável e possibilidade de acesso são critérios distintos.
+
+**Ponto pendente:** cotejo futuro entre categorias mercadológicas e critérios legais específicos de publicidade e tratamento de dados pessoais da Câmara; esta conferência não prova que toda segmentação institucional seja legítima.
 
 ## Relações e heurísticas
 

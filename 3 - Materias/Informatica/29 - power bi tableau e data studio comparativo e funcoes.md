@@ -178,14 +178,14 @@ Antigo *Google Data Studio*, o **Looker Studio** é a ferramenta nativa de nuvem
 ### Item 1
 > **Assertiva:** No Microsoft Power BI, uma coluna calculada e uma medida diferenciam-se pelo fato de que a coluna calculada consome memória RAM e espaço em disco ao ser avaliada estaticamente linha a linha durante a carga de dados, enquanto a medida é calculada dinamicamente sob demanda com base no contexto de filtro ativo na visualização.
 >
-> **Gabarito:** **CERTO**  
-> **Comentário:** Descrição perfeita da distinção fundamental do DAX. A coluna calculada opera no contexto de linha e materializa os resultados na tabela (ocupando memória e disco). A medida não ocupa espaço de armazenamento prévio; sua avaliação ocorre em tempo de execução via CPU, respondendo instantaneamente aos filtros, segmentações e eixos selecionados no relatório.
+> **Gabarito:** **NÃO HOMOLOGADO (modo de armazenamento omitido)**  
+> **Comentário:** Em modelos **Import**, colunas calculadas costumam ser materializadas no modelo e recalculadas no processamento/atualização; medidas são avaliadas sob demanda de acordo com o contexto de filtro, sem coluna de resultados armazenada. Entretanto, o enunciado generaliza ocupação de RAM e disco e avaliação **durante a carga de dados** para todo Power BI, sem delimitar **Import versus DirectQuery** e demais modos de armazenamento. Além disso, medidas podem consumir recursos de memória durante execução. **Versão de treino:** “Em modelo Power BI no modo Import, uma coluna calculada gera valores armazenados no modelo durante o processamento, enquanto uma medida DAX é avaliada conforme o contexto de filtro da consulta.” **Gabarito reformulado: CERTO.**
 
 ### Item 2
 > **Assertiva:** No design de modelos de dados analíticos para Business Intelligence, o esquema floco de neve (*snowflake schema*) é universalmente preferível ao esquema estrela (*star schema*), uma vez que a desnormalização das tabelas de dimensão no esquema estrela degrada o desempenho das consultas nos motores colunares em memória.
 >
 > **Gabarito:** **ERRADO**  
-> **Comentário:** O item inverte totalmente a boa prática de BI. O **esquema estrela (*star schema*)** é o padrão recomendado e de maior desempenho para ferramentas como Power BI e Tableau. Como as dimensões no esquema estrela são desnormalizadas e conectadas diretamente à tabela fato por um único relacionamento, o motor analítico executa menos operações de junção (*joins*), operando de forma muito mais rápida do que no esquema floco de neve.
+> **Comentário:** A palavra **“universalmente”** torna o item falso. O esquema estrela costuma facilitar a modelagem dimensional e a consulta analítica, sendo amplamente recomendado em Power BI; já o floco de neve normaliza dimensões e pode atender a necessidades específicas. **Não há superioridade garantida de desempenho em toda ferramenta, carga e arquitetura**. O esquema deve ser escolhido conforme consultas, cardinalidade, armazenamento e manutenção.
 
 ### Item 3
 > **Assertiva:** Na linguagem DAX do Power BI, a função `CALCULATE` é a única expressão habilitada a modificar o contexto de filtro original aplicado a uma métrica em um relatório interativo.
@@ -212,7 +212,7 @@ Antigo *Google Data Studio*, o **Looker Studio** é a ferramenta nativa de nuvem
 > **Assertiva:** O Google Looker Studio opera como uma solução integralmente baseada em computação em nuvem (*SaaS*), permitindo a conexão direta com fontes de dados relacionais e analíticas e a criação de relatórios interativos via navegador web, prescindindo da instalação de aplicativo cliente dedicado no computador do desenvolvedor.
 >
 > **Gabarito:** **CERTO**  
-> **Comentário:** O Looker Studio é 100% web; toda a criação, parametrização, conexão de dados e compartilhamento de painéis são realizados diretamente no navegador de internet, sem necessidade de download ou instalação de softwares locais.
+> **Comentário:** O Looker Studio é oferecido como serviço web e permite criar relatórios interativos no navegador, **sem aplicativo cliente dedicado obrigatório** para o autor. Dependendo da fonte de dados e da rede institucional, conectores, drivers ou infraestrutura externa podem exigir configuração adicional. Essa possibilidade não invalida o núcleo do item.
 
 ---
 
@@ -225,3 +225,5 @@ Antigo *Google Data Studio*, o **Looker Studio** é a ferramenta nativa de nuvem
 5. **CÂMARA DOS DEPUTADOS.** *Diretrizes de Arquitetura de Dados e Painéis BI Corporativos.* Brasília: Centro de Informática (Cenin), 2024.
 
 > **Correção de gabarito (TI-020, 11/11/2026):** o Item 3 foi corrigido de CERTO para **ERRADO** por causa da exclusividade indevida atribuída a `CALCULATE`. Cotejo: [Microsoft Learn, CALCULATE](https://learn.microsoft.com/pt-br/dax/calculate-function-dax), [CALCULATETABLE](https://learn.microsoft.com/pt-br/dax/calculatetable-function-dax); para `FIXED`, consultar [ordem de operações do Tableau](https://help.tableau.com/current/pro/desktop/pt-br/calculations_calculatedfields_lod_filters.htm). Mantidos identificadores e enunciados para rastreabilidade.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** seis itens examinados. **Item 1 não homologado** por omitir modo de armazenamento e generalizar materialização de colunas; versão condicionada ao modo Import fornecida. Itens 2–6 mantêm **E, E, E, E, C**, incluindo a correção anterior da questão DAX `CALCULATE`/`CALCULATETABLE`. A documentação Microsoft diferencia [colunas calculadas e medidas](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-calculated-columns) e [modos de armazenamento](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-storage-mode).

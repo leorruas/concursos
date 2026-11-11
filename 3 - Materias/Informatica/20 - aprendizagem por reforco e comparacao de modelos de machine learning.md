@@ -5,7 +5,7 @@ title: "Aprendizagem por reforço e comparação sistemática de modelos de mach
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Aprendizagem por reforço e comparação sistemática de modelos de machine learning
@@ -19,7 +19,7 @@ A **Aprendizagem por Reforço (*Reinforcement Learning* - RL)** constitui o terc
 No contexto de concursos do **Cebraspe** e aplicações contemporâneas na administração pública, o estudo de RL é cobrado sob quatro eixos rigorosos:
 1. Os componentes formais do Processo de Decisão de Markov (MDP): agente, estado, ação, ambiente, recompensa e política;
 2. O dilema fundamental entre Exploração (*Exploration*) e Explotação (*Exploitation*);
-3. As técnicas de alinhamento com preferências humanas (RLHF - *Reinforcement Learning from Human Feedback*), motor primordial do ajuste de modelos de linguagem como GPT e Claude;
+3. As técnicas de alinhamento com preferências humanas (RLHF - *Reinforcement Learning from Human Feedback*), uma das estratégias utilizadas para alinhar modelos de linguagem, ao lado de outras técnicas de ajuste por preferências;
 4. A matriz comparativa consolidada entre os paradigmas de Machine Learning.
 
 ```mermaid
@@ -74,14 +74,14 @@ flowchart TD
     D["Dilema de Tomada de Decisão"]:::dilema
 
     D --> E["Exploração (Exploration)<br>Testar ações novas / desconhecidas<br>Objetivo: Coletar informações e descobrir rotas melhores"]:::exp
-    D --> X["Explotação (Exploitation)<br>Repetir a melhor ação já conhecida<br>Objetivo: Maximizar a recompensa imediata com segurança"]:::explt
+    D --> X["Explotação (Exploitation)<br>Escolher a ação com melhor retorno esperado estimado<br>Objetivo: aproveitar conhecimento atual"]:::explt
 
     E -.->|"Estratégia &epsilon;-Greedy"| Equilíbrio["Balanço Dinâmico (&epsilon; decai com o tempo)"]:::dilema
     X -.->|"Estratégia &epsilon;-Greedy"| Equilíbrio
 ```
 
 - **Explotação (*Exploitation*)**:
-  - O agente escolhe a ação que, com base em sua experiência passada acumulada, promete entregar a maior recompensa imediata. O risco da explotação cega e prematura é ficar preso em **ótimos locais subótimos**, ignorando estratégias superiores que ainda não foram descobertas.
+  - O agente escolhe a ação que, segundo sua estimativa atual, oferece o **melhor retorno esperado**, que pode incluir recompensas futuras, e não apenas a recompensa imediata. O risco da explotação cega e prematura é ficar preso em **ótimos locais subótimos**, ignorando estratégias superiores que ainda não foram descobertas.
 - **Exploração (*Exploration*)**:
   - O agente toma ações desconhecidas ou aparentemente menos vantajosas para explorar o ambiente e coletar novas informações. O risco da exploração excessiva é incorrer em custos desnecessários e perder recompensas certas.
 - **Mecanismo de Equilíbrio ($\epsilon$-Greedy)**:
@@ -98,7 +98,7 @@ Na era dos Modelos de Linguagem de Grande Porte (LLMs), a aprendizagem por refor
 2. **A Solução via RLHF**:
    - **Etapa 1 (Curadoria Humana)**: Anotadores humanos avaliam diferentes respostas geradas pelo modelo para a mesma pergunta, ranqueando-as da melhor para a pior com base em critérios de utilidade, veracidade e inocuidade (*Helpful, Honest, Harmless*);
    - **Etapa 2 (Modelo de Recompensa / *Reward Model*)**: Treina-se uma rede neural para prever a pontuação que um ser humano atribuiria a qualquer resposta;
-   - **Etapa 3 (Otimização por RL com Algoritmo PPO)**: O modelo de linguagem original é ajustado via Aprendizagem por Reforço (usando algoritmos como *Proximal Policy Optimization* - PPO), recebendo pontuações positivas quando gera respostas úteis e punições quando produz alucinações ou conteúdos lesivos.
+   - **Etapa 3 (Otimização por RL)**: Em uma implementação clássica de RLHF, o modelo é ajustado por aprendizagem por reforço com sinais de um modelo de recompensa, usando algoritmos como *Proximal Policy Optimization* (PPO). O sinal reflete preferências humanas representadas pelo modelo de recompensa; **não garante detecção ou eliminação de alucinações**. Também existem métodos de alinhamento por preferências sem essa etapa de RL.
 
 ---
 
@@ -109,7 +109,7 @@ Na era dos Modelos de Linguagem de Grande Porte (LLMs), a aprendizagem por refor
 | **Fonte e Insumo de Dados** | Conjunto de dados histórico **rotulado** ($\mathbf{x}, y$) | Conjunto de dados **não rotulado** (apenas $\mathbf{x}$) | **Ambiente dinâmico** e dados gerados por interação em tempo real |
 | **Tipo de Sinal de Feedback** | **Gabarito explícito e imediato**: erro calculado entre a previsão e o rótulo real | **Sem feedback externo**: sem gabarito ou respostas de certo/errado | **Sinal escalar de recompensa ($R$)**: pode ser atrasado no tempo (*delayed reward*) |
 | **Objetivo Primordial** | Prever classes ou valores contínuos a partir de novos dados | Encontrar padrões intrínsecos, agrupamentos naturais ou sintetizar variáveis | **Aprender uma sequência ótima de ações (política $\pi$)** para maximizar recompensa global |
-| **Decisão Sequencial?** | **Não**: cada amostra é avaliada de forma independente e isolada (*i.i.d.*) | **Não**: processa a distribuição estática global dos dados | **SIM**: a ação no instante $t$ afeta o estado futuro $t+1$ e as recompensas posteriores |
+| **Decisão Sequencial?** | Em tarefas supervisionadas clássicas, normalmente avalia-se a relação entrada-alvo; há também modelos supervisionados de sequências | Em tarefas não supervisionadas clássicas, identificam-se padrões sem rótulos-alvo; há também modelos sequenciais | **SIM**: a política escolhe ações que podem afetar estados e recompensas futuros |
 | **Tarefas e Algoritmos Típicos** | Classificação (Árvores, SVM, Naive Bayes) e Regressão (Linear, Lasso) | Agrupamento (K-Means, DBSCAN) e Redução de Dimensionalidade (PCA) | Controle autônomo, robótica, jogos (AlphaGo), alinhamento de LLMs (Q-Learning, PPO, DQN) |
 | **Principal Desafio / Gargalo** | Alto custo e viés da rotulagem humana manual | Dificuldade de validação objetiva e métricas interpretáveis | Instabilidade de convergência, alto custo de simulação e o dilema exploração/explotação |
 
@@ -206,3 +206,5 @@ Na era dos Modelos de Linguagem de Grande Porte (LLMs), a aprendizagem por refor
 - **RUSSELL, Stuart; NORVIG, Peter**: *Inteligência Artificial: Uma Abordagem Moderna*. 4ª ed., Elsevier / GEN LTC.
 - **CHRISTIANO, Paul et al.**: *Deep Reinforcement Learning from Human Preferences* (Artigo seminal sobre RLHF).
 - **OpenAI / Anthropic**: Documentação técnica sobre alinhamento e fine-tuning com PPO em modelos de fundação.
+
+> **Revisão técnica (11/11/2026):** exploração/explotação são decisões sobre retorno esperado, e o RLHF clássico com PPO é uma implementação possível, sem garantia de correção factual. As comparações de paradigmas têm caráter didático e não excluem abordagens híbridas ou sequenciais.

@@ -1298,6 +1298,134 @@
       "statement": "Judge whether the second sentence preserves the meaning of the first.\n\n“Visitors can enter only if they show identification.”\n\n“Showing identification is necessary for visitors to enter.”",
       "correctAnswer": "C",
       "explanation": "Only if apresenta a exibição do documento como condição necessária para entrar. A paráfrase preserva essa relação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "genero-e-finalidade",
+      "mechanism": "classificar-pelo-assunto",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#3. Dinâmica dos Gêneros na Esfera Pública e Legislativa"
+      ],
+      "statement": "Um aviso convoca os moradores para uma audiência sobre mobilidade. Uma ata registra os encaminhamentos dessa mesma audiência. A coincidência do assunto basta para classificar os dois textos no mesmo gênero.",
+      "correctAnswer": "E",
+      "explanation": "O aviso chama o público para o evento. A ata registra o que aconteceu e as decisões tomadas. As finalidades são diferentes mesmo com assunto comum."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "genero-e-tipo-textual",
+      "mechanism": "distinguir-sequencia-de-genero",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#2. Fundamentação Teórica: Bakhtin e Marcuschi"
+      ],
+      "statement": "Uma reportagem sobre uma biblioteca pode apresentar uma sequência narrativa para reconstruir a inauguração sem, por isso, passar a pertencer ao gênero conto.",
+      "correctAnswer": "C",
+      "explanation": "Uma sequência narrativa organiza acontecimentos no tempo. Reportagem e conto são gêneros com finalidades e situações de circulação próprias."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "intergenericidade",
+      "mechanism": "inferir-genero-pela-aparencia",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#4. Intergenericidade, Hibridismo e Transmutação de Gêneros"
+      ],
+      "statement": "Uma campanha de doação de livros imita o formato de um classificado de emprego e anuncia “vaga para um livro na sua estante”. O formato emprestado torna o texto um anúncio de vaga de trabalho.",
+      "correctAnswer": "E",
+      "explanation": "A campanha mobiliza a aparência do classificado para convidar à doação de livros. A finalidade é decisiva para interpretar o empréstimo formal."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "genero-e-suporte",
+      "mechanism": "confundir-mudanca-de-suporte-com-genero",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#3. Dinâmica dos Gêneros na Esfera Pública e Legislativa"
+      ],
+      "statement": "Uma ata integral publicada primeiro em papel e depois no portal pode conservar seu gênero quando a versão digital mantém o registro da reunião e a mesma finalidade documental.",
+      "correctAnswer": "C",
+      "explanation": "O suporte de circulação mudou. O texto ainda funciona como registro da reunião, com a finalidade documental que caracteriza a ata."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "genero-discursivo",
+      "mechanism": "classificar-por-palavra-isolada",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#2. Fundamentação Teórica: Bakhtin e Marcuschi"
+      ],
+      "statement": "Um comunicado intitulado “Convite” explica que o evento foi cancelado e orienta o público a solicitar reembolso. O título é suficiente para determinar que sua função principal é convidar ao evento.",
+      "correctAnswer": "E",
+      "explanation": "O corpo do texto informa o cancelamento e orienta sobre o reembolso. A classificação depende da função que o texto cumpre na situação de uso."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "genero-e-destinatario",
+      "mechanism": "relacionar-publico-e-escolhas-textuais",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#3. Dinâmica dos Gêneros na Esfera Pública e Legislativa"
+      ],
+      "statement": "Um parecer técnico e um texto de perguntas frequentes podem explicar o mesmo projeto a públicos diferentes. A organização em perguntas pode ajudar o leitor do segundo texto a localizar uma resposta sem seguir toda a fundamentação do parecer.",
+      "correctAnswer": "C",
+      "explanation": "O parecer organiza uma análise técnica. As perguntas frequentes organizam respostas para dúvidas do público e permitem consulta por tópico."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "finalidade-discursiva",
+      "mechanism": "confundir-instrucao-com-relato",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#2. Fundamentação Teórica: Bakhtin e Marcuschi"
+      ],
+      "statement": "Um guia de inscrição usa verbos no imperativo e ordena ações em etapas. Essa sequência é evidência de que o guia relata fatos já ocorridos, pois cada etapa vem depois da anterior.",
+      "correctAnswer": "E",
+      "explanation": "As etapas ordenam ações que o destinatário deve realizar. A sucessão organiza a instrução, sem indicar que os fatos já ocorreram."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos e gêneros textuais",
+      "conceptId": "transmutacao-de-genero",
+      "mechanism": "avaliar-reconfiguracao-de-finalidade",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#4. Intergenericidade, Hibridismo e Transmutação de Gêneros"
+      ],
+      "statement": "Uma equipe transforma trechos de um relatório em roteiro de vídeo, com falas dirigidas ao público, indicações de cenas e uma chamada para inscrição. Há indícios de reconfiguração do gênero para além de uma simples troca de suporte.",
+      "correctAnswer": "C",
+      "explanation": "O material ganhou outra organização, recursos próprios da produção audiovisual e uma finalidade de mobilização. A adaptação alterou como o texto funciona."
     }
   ]
 }

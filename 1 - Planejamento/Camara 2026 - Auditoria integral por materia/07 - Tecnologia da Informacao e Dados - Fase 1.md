@@ -410,3 +410,66 @@ Próximos: `Informatica/08–11` (redes, internet/navegação, e-mail, Teams/Mee
 ### Encaminhamento e definição de estado
 
 **Estado após o bloco 9:** 30/30 arquivos numerados localizados e examinados seletivamente, 28/28 CAM-TI com correspondência nominal ao Edital 1 oficial na seção TI, 5/5 compartilhados cotejados, hub inspecionado, catálogo e plano comparados. **69 achados TI-001–069**, entre erros confirmados, riscos e pendências, não 69 erros de gabarito; **0 artigos certificados integralmente**. **Uma inversão de gabarito clara TI-020 (DAX), com reserva TI-034 (Excel) e TI-055 (vírus), e erros jurídicos TI-049/050.** Antes de Fase 2, resolver dois IDs anômalos do catálogo usando registro completo, concluir classificação dos 69 achados em **correção obrigatória / qualificação / escopo / questão sob reserva**, testar navegação e priorizar fonte primária por item. **Artigos, hub, questões, catálogo e planejamento preservados.**
+
+
+## Bloco 10: identificação dos dois IDs, triagem de reparos e recotejo do estado atual (11/11/2026)
+
+**Escopo:** ler novamente o catálogo de `camara-2026`, o hub de Informática, o hub de Atualidades e os frontmatters dos artigos citados; reabrir artigos com achados mais críticos para verificar eventuais edições paralelas ocorridas **após o registro de TI-001–069**. Registro de diagnóstico em curso; **somente relatório e índice alterados por este bloco**.
+
+### A identidade dos dois registros iniciais do catálogo foi resolvida: retificação de TI-065
+
+Os 30 `articleIds` de `data/catalogo-materias-por-concurso.json`, sujeito `informatica`, concurso `camara-2026`, possuem a seguinte composição:
+
+| Posição no catálogo | ID | Arquivo efetivo localizado | Natureza |
+| --- | --- | --- | --- |
+| 1 | `art-a0fd083e56314c44` | `3 - Materias/Atualidades/01 - inteligencia artificial.md` | **Artigo compartilhado, IA geral** |
+| 2 | `art-d67ecbb2f9204843` | `3 - Materias/Atualidades/14 - governanca e regulacao de inteligencia artificial.md` | **Artigo compartilhado, governança de IA** |
+| 3–30 | 28 IDs reais sucessivos, a começar por `art-74bf9176e700b4c8` e encerrar com `art-2fde27c0e00dc520` | `3 - Materias/Informatica/03–30`, CAM-TI-001–028 | **28 artigos próprios do bloco CAM-TI** |
+
+**Correção expressa:** o TI-065 registrou a divergência real entre a **composição dos 30 itens do catálogo** e a **listagem dos 28 CAM-TI no hub**; agora a identidade de ambos os IDs foi **comprovada por leitura dos arquivos com frontmatter**. **Não se trata de dois IDs órfãos nem de cadastro necessariamente incorreto.** Eles são referências compartilhadas e também ocorrem em `dataprev-2026/atualidades` (ambos) e `cgu-2026/evidencias-dados-ia` (primeiro). **Nenhuma substituição no catálogo é necessária com a evidência disponível.** O ajuste futuro, se útil, é apenas rotular "2 compartilhados + 28 CAM-TI", distinguindo isso dos arquivos numerados `Informatica/01,02`, que são notas jurídicas **não incluídas nessa seleção do catálogo**.
+
+### Recotejo: reparos feitos por agentes paralelos e pendências reais
+
+Uma nova leitura dos **conteúdos atuais na branch principal** mostra que alguns achados **já geraram mudanças na própria teoria por outras operações** entre o primeiro registro e a triagem atual. O presente bloco **não efetuou essas edições**:
+
+| Achado | Situação encontrada agora, com trecho verificável | Estado operacional de triagem |
+| --- | --- | --- |
+| **TI-020**, `Informatica/29` item #3 | Gabarito atualmente **ERRADO** e comentário cita `CALCULATETABLE`, com fontes Microsoft; corpo §3.3 também distingue ambas | **REPARO CONFIRMADO no estado atual**; não voltar a contar como gabarito atualmente invertido |
+| **TI-021**, `Informatica/29` `FIXED` | §4.1 atualmente ressalva filtros de contexto, extração e fonte de dados | **REPARO CONFIRMADO**, sem certificação do restante do artigo |
+| **TI-041**, `Informatica/11` coorganizador Teams | Tabela do §3 atualmente marca **SIM** para encerrar reunião para todos, citando regras Microsoft | **REPARO CONFIRMADO** |
+| **TI-042**, `Informatica/11` Google Meet | §§2/5 e questão #5 agora descrevem a pasta `Google Meet` e subpasta por reunião | **REPARO CONFIRMADO** |
+| **TI-049**, `Informatica/17` decreto legislativo | Caso §5 refeito como ato normativo hipotético da competência do chefe de Poder e expressamente esclarece que decreto legislativo não se sujeita a sanção presidencial | **REPARO CONFIRMADO no exemplo**, sem homologar regras para todos os atos |
+| **TI-050**, `Informatica/17` assinatura qualificada | Tabela passou a indicar **presunção relativa de veracidade**, com referência à MP 2.200-2/2001; `Informatica/12` permanece sujeito a revisão de expressões sobre "impedir contestação" | **PARCIALMENTE REPARADO** entre os dois textos; não encerrar todo o achado |
+| **TI-001**, `Informatica/18` EBIA | Abertura atual corretamente indica Portaria MCTI 4.617/2021 (alteração 4.979/2021); quadro final ainda apresenta EBIA também vinculada ao Decreto 9.874/2019 | **PARCIALMENTE REPARADO**; retirar associação normativa residual na Fase 2 |
+| **TI-002/003**, `Informatica/18,23` IA e regulação | Há novas qualificações em questão/comentário e trechos sobre requisitos normativos próprios, mas também fórmulas didáticas absolutas em diagramas/casos | **PARCIALMENTE REPARADOS**, requer leitura jurídica localizada |
+| **TI-034**, `Informatica/05` Excel | Texto §5, caso #4 e comentário do item #6 continuam declarando que Tabela Dinâmica **não atualiza automaticamente** e que `Atualizar` é sempre indispensável | **ABERTO: prioridade alta**, revisar com versões/suporte Auto Refresh e julgar o item como enunciado, sem inversão precipitada |
+| **TI-035**, `Informatica/04` Word | Tabela §8 ainda mostra **`Ctrl + G` (Dir)** | **ABERTO: prioridade alta**, confirmar idioma/versão e trocar atalho |
+| **TI-055**, `Informatica/14` vírus | Texto e item #1 ainda apresentam como necessária **intervenção humana deliberada**, sem ressalvar execução automatizada do hospedeiro | **ABERTO: questão #1 sob reserva**, revisar taxonomia e gabarito |
+
+**Implicação para todo o relatório anterior:** as datas de cada bloco documentam o estado auditado *naquela ocasião*. O registro histórico de uma inversão de gabarito válida à época **não é demonstração de defeito ainda existente**. **No estado recotejado desta rodada, a inversão TI-020 está corrigida**. A referência anterior do relatório e índice que a chama de "pendente" deve ser lida com esta atualização posterior. Não reabrir nem sobrescrever alterações paralelas sem novo cotejo.
+
+### Triagem dos 69 achados por impacto e próxima ação
+
+As classes de ação são **não exclusivas**: um mesmo achado pode tratar questão C/E, precisão técnica e legislação; classificações de **prioridade** só dizem respeito à urgência *do que ainda falta corrigir*, não à gravidade histórica do erro original.
+
+| Categoria operacional | Achados-chave | Decisão para Fase 2 |
+| --- | --- | --- |
+| **P0: gabarito atual sob reserva, risco de memorização incorreta** | **TI-034** (Excel/05 #6), **TI-055** (Malware/14 #1), e repercussões de **TI-037** (OneDrive/07 #5), **TI-051** (Gov Digital/17 #1) | Fixar versão e fonte primária; examinar linguagem universal/condicional e só então confirmar ou corrigir gabarito/comentário; nunca inverter somente por ressalva abstrata |
+| **P0: imprecisão normativa remanescente, impacto em questões** | **TI-001** (referência residual EBIA), **TI-002/003/028** (obrigação humana/PL), **TI-050** (não repúdio no texto 12), **TI-052** (LGPD art. 7º III) | Separar lei vigente, decisão judicial, projeto legislativo e recomendações de governança; verificar recorte do edital e editar apenas locais ainda incorretos |
+| **P1: erro técnico/conceitual localizado ainda aberto** | **TI-010** (métricas temporais), **TI-016** (área de histograma com classes desiguais), **TI-025** (números institucionais hipotéticos), **TI-035** (atalho Word), **TI-043** (HTTP/3), **TI-047** (exposição de e-mails e LGPD) | Corrigir afirmação/ilustração e ajustar exercícios afetados; privilegiar verificabilidade sem expandir toda a teoria |
+| **P1: ajustar produto, direitos e condições de uso** | **TI-036–038**, **TI-044–046**, **TI-053/054**, **TI-056/057** | Trocar absolutos por condições reais de sistema, licença, cliente, norma ou tecnologia e manter um padrão uniforme de precisão |
+| **P2: didática, bibliografia e escopo** | **TI-004–009, 011–015, 017–019, 022–024, 026–027, 029, 031–033, 039–040, 048, 058, 061–063, 066–067, 069** e outras notas de qualificação sem gabarito invertido | Revisar por lotes e registrar fonte/data quando fizer diferença; evitar expansão do edital sem evidência |
+| **CONCLUÍDOS/INFORMATIVOS, sem reparo imediato no ponto identificado** | **TI-020/021/041/042/049**, **TI-030** (exemplo numérico correto), **TI-059/060** (verificações normativas positivas), **TI-064** (programa oficial identificado), **TI-065** (IDs identificados), **TI-068** (regra temporal identificada) | Conservar trilha histórica; não reverter correções; itens positivos não são defeitos |
+| **PARCIALMENTE REPARADOS, exigem rechecagem residual** | **TI-001/002/003/050** e possíveis repercussões de outras edições datadas em 11/11 | Comparar artigo atual com trecho criticado antes de preparar qualquer patch |
+
+**Classificação de cobertura:** todos os identificadores TI-001–069 permanecem rastreados no relatório, mas os grupos acima são **fila prioritária**, não uma sentença de que todos os 69 exigem alteração. Os cinco reparos atuais diretamente confirmados são TI-020, TI-021, TI-041, TI-042 e TI-049. TI-050 e TI-001 permanecem parcialmente resolvidos nos trechos inspecionados. Nenhuma segunda inversão inequívoca foi estabelecida nesta rodada.
+
+### Navegação e consistência técnica
+
+- O hub `3 - Materias/Informatica/informatica.md` contém **30 links numerados** para os caminhos já recuperados individualmente na auditoria (28 CAM-TI e 2 materiais jurídicos extraliterais). Não identificar como quebrado nenhum desses caminhos a partir da contagem.
+- O link do hub para `[[3 - Materias/Informatica/Avancos|Avanços e desempenho]]` foi testado pela tentativa de leitura de `3 - Materias/Informatica/Avancos.md`, que retornou **404**. **Sinal concreto de referência potencialmente quebrada**, mas ainda precisa conferir aliases e indexação/normalização do vault antes de certificar que é link quebrado no aplicativo. Não apagar automaticamente.
+- **Não foi executado teste renderizado** em GitHub Pages ou no Obsidian. A nomenclatura de links `[[...]]` é específica do vault e pode exigir transformação no site. Preservar evidência de leitura dos 30 destinos, sem alegar teste de navegação integral.
+
+### Conclusão operacional do bloco
+
+**Catálogo reconciliado: 2 artigos compartilhados de Atualidades + 28 CAM-TI, todos os 30 IDs explicados por frontmatter.** A antiga anomalia TI-065 está **resolvida por identificação positiva**, sem ajuste de dados. **69 achados históricos existentes**, alguns já corrigidos por operações paralelas; as urgências atuais são questões condicionais e erros normativos remanescentes, não a questão DAX já corrigida. **Fase 1 continua aberta** para validação de links/questões reais e classificação editorial fina; **nenhuma teoria, hub, catálogo ou gabarito foi alterado por esta rodada**.

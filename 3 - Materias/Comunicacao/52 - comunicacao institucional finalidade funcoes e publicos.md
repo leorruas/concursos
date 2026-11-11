@@ -178,6 +178,14 @@ Este é um **roteiro didático de aplicação**, não uma enumeração original 
 
 **Gabarito: Certo.** Na formulação de Freeman, a relação de consequência é mais ampla que o público-alvo selecionado. **Mecanismo:** distinção entre destinatário e relação organizacional.
 
+## Cebraspe real: CNMP 2023, comunicação exotérica e esotérica (11/11/2026)
+
+O [item 80 do caderno oficial Cebraspe, CNMP 2023, Comunicação Social](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF) diferencia **componentes exotéricos e esotéricos** da divulgação de notícias e associa ao setor público maior abertura da comunicação. O [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF) indica **Certo**.
+
+**Leitura delimitada:** no uso em questão, **exotérico** sugere comunicação voltada à publicidade ou à compreensão por públicos externos mais amplos, enquanto **esotérico** designa linguagem ou circulação mais restrita a iniciados ou grupos especializados. A oposição não deve ser confundida com oposição simples entre **comunicação interna e externa**, já que uma informação interna pode usar linguagem clara e um portal público pode conter linguagem técnica difícil. **O item histórico não demonstra que exista uma obrigação legal brasileira denominada “comunicação exotérica”**: os deveres atuais de transparência, informação pública, impessoalidade e linguagem clara precisam ser fundamentados nas respectivas normas.
+
+**Limite bibliográfico:** o julgamento e o enunciado foram vistos em documentos oficiais; a genealogia e o sentido exato dessa dupla conceitual em obras acadêmicas específicas ainda precisam de verificação autoral. Evitar atribuição a um autor sem fonte.
+
 ## Aplicação discursiva
 
 Em um plano de divulgação institucional da Câmara, identificar o objetivo público da informação, os atributos institucionais efetivamente verificáveis, a diversidade dos públicos afetados e os mecanismos de acesso, diálogo e prestação de contas. Integrar portal, atendimento, imprensa e redes, distinguindo **visibilidade, compreensão, confiança e acesso ao serviço** como resultados diferentes. Respeitar os limites da publicidade oficial e demonstrar consistência entre discurso e prática.

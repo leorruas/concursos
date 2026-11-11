@@ -148,3 +148,50 @@ Confrontar DA22 questão 2 com jurisprudência constitucional vigente e DA22 que
 ### Intervenção e sequência
 
 **P0 para correção futura:** DA22#2 + seção 2.4 (ADI 2975/embargos); **P1:** confirmar ADI 4882 em DA22#5; corrigir DA27#1 e comentário #4; revisar expressões absolutas DA25/27. Na arquitetura, manter DA25 como base de competência e processo, DA26 como conflitos de imparcialidade e revisão, DA27 como contraste entre poderes; evitar repetir matéria comum do DA04 e DA18 sem mapear primeiro os links/IDs. Sequência de dependência: DA12/13 (estrutura e centralização) → DA25 (competência/delegação/avocação) → DA27 (hierarquia/disciplinar) → DA26 (recurso, controle e motivação), com remissões a DA22/24 (sanção e PAD). **Próximo bloco:** avaliar texto e questões de DA18 (parecer), DA04 (poderes) e DA09 (processo federal), além de jurisprudência ADI 4882 e matrizes sobre LAI/LGPD em Administração Pública/03. Todos ainda pendentes de cotejo integral.
+
+
+## Bloco 4: Pareceres administrativos e bases reutilizadas (11/11/2026)
+
+**Escopo:** leitura dos textos presentes em três arquivos distintos: `3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista.md` (SHA de leitura `2cefab5e93ef2898fdea45e3977a469123e81266`); `04 - poderes administrativos.md` (SHA `780c7cfa8b9b75468b43c7fe7a877759f0af3996`); `09 - processo administrativo federal.md` (SHA `6e626cfde1ed5baecc829f330ec618e6b03283c2`). DA04 e DA09 são notas reutilizadas, não novas unidades independentes do programa; foram confrontadas conceitualmente com DA25–27. Inspecionados os seis itens C/E de DA18. **A análise normativa foi seletiva, e nenhum arquivo ou gabarito foi homologado integralmente.** Não houve edição dos artigos.
+
+### Matriz de cobertura e dependências do recorte
+
+| Tema | Nota base e expansão | Resultado |
+| --- | --- | --- |
+| Parecer facultativo, obrigatório e vinculante | DA18; DA09 motivação; DA25 direitos/competência | Material existe, **não certificado**: exceções de análise jurídica e responsabilidade exigem correções |
+| LINDB, art. 28; erro grosseiro e responsabilização | DA18 | Material existe; verificar jurisprudência por tipo de parecer, evitar absolutos |
+| Poderes administrativos, discricionariedade, hierarquia, disciplina, polícia e regulamento | DA04 base; DA27 especializa hierarquia e disciplina | Sobreposição **justificável** por aprofundamento, desde que exista remissão e ausência de conceitos contraditórios |
+| Lei 9.784: princípio, início, competência, impedimento, motivação, recursos e revisão | DA09 base; DA25–26 expansões | Cobertura textual ampla, **não validada item por item**; DA09 já cobre vários tópicos das expansões |
+| Decisão coordenada | DA09; DA25 | Presente, art.49-A §§4º/6º cotejados; ainda avaliar a instrução do art.49-B a 49-G |
+| Edital oficial completo, LAI/LGPD, gestão e outros compartilhados | Documentos e outras pastas | **Pendente**; esta matriz é do bloco, não do edital integral |
+
+### Achados localizados e fontes oficiais
+
+**DA-009, CRÍTICO, fonte normativa incorreta.** DA18, seção **3.3, “A jurisprudência do Tribunal de Contas da União (TCU)”** cita a **Súmula 222 do TCU** como apoio ao regime de responsabilização pessoal de pareceristas. O [enunciado oficial da Súmula 222](https://pesquisa.apps.tcu.gov.br/documento/sumula/%2A/NUMERO%253A222/DTRELEVANCIA%2520desc%252C%2520NUMEROINT%2520desc/0/sinonimos%253Dtrue) diz respeito à observância de decisões do TCU sobre **normas gerais de licitação** pelos administradores federais, estaduais e municipais. **Não é súmula sobre erro grosseiro nem sobre responsabilidade de parecerista.** Substituir em fase futura por jurisprudência específica, com identificação do acórdão, hipótese e padrão subjetivo; a menção genérica a “acórdãos reiterados” não supre a verificação.
+
+**DA-010, IMPORTANTE, absolutismo na obrigatoriedade e nulidade de parecer.** DA18, seção **2.2, “Parecer Obrigatório”**, afirma que sua falta produz **“nulidade absoluta insanável”**; seção **3.4**, diz que o art.53 da Lei 14.133/2021 estabelece obrigatoriedade de parecer para os processos de licitação e contratações diretas sem desenvolver exceções. O [art.53 §5º da Lei 14.133, fonte oficial](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2021-04-01%3B14133%21art53) **admite dispensa da análise jurídica nas hipóteses previamente definidas pela autoridade jurídica máxima competente** com critérios legais. A existência de parecer obrigatório não permite concluir, abstratamente, que toda falta é insanável independentemente de regra de dispensa, consequências, dano ou saneamento. **Revisão proposta:** distinguir obrigação e hipóteses de dispensa; tratar nulidade e possibilidade de saneamento conforme o vício específico, sem regra universal.
+
+**DA-011, IMPORTANTE, responsabilidade formulada como imunidade.** DA18, seção **2.1, “Parecer Facultativo”**, diz que a autoridade assume **“responsabilidade pessoal e exclusiva”** e o parecerista responde só por dolo ou conluio. Seção **3.2** repete tese de imunidade muito ampla; no entanto, o próprio texto da [LINDB, art.28](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm) prevê responsabilização pessoal por **dolo ou erro grosseiro** em opiniões técnicas. Os cenários e precedentes devem ser diferenciados antes de transformar a distinção doutrinária entre pareceres em imunidade geral; **não declarar automaticamente que erro grosseiro sempre gera responsabilidade solidária**. Proposta: matriz por natureza do parecer, conduta concreta, nexo e regime legal.
+
+**DA-012, MELHORIA, revisão do vínculo canônico.** DA04 cobre poderes administrativos de forma geral; DA27 repete hierarquia/disciplina em maior profundidade; DA09 cobre extensivamente a Lei 9.784 que DA25/26 expandem. A relação é pedagógica quando uma nota-base explica o vocabulário e as especializadas desenvolvem condições, exceções e casos; a **redundância sem fronteiras explícitas** cria risco de manutenção e divergência normativa. Proposta para Fase 2: DA04 = visão geral dos poderes, DA27 = limites de hierarquia e sanção; DA09 = mapa introdutório de processo, DA25 = competências, DA26 = imparcialidade, decisões e revisão. Preservar IDs e links.
+
+**DA-013, correção de referência jurisprudencial em aberto.** A pendência de DA22#5 sobre cassação de aposentadoria ganhou **fonte STF favorável à constitucionalidade do regime**, mas **não acórdão de ADI 4882**: [Informativo 975 do STF, ADPF 418, julgada em 2020](https://www.stf.jus.br/arquivo/informativo/documento/informativo975.htm), registra julgamento de improcedência sobre arts. 127 IV e 134 da Lei 8.112. A formulação central de DA22#5 está alinhada à ADPF 418, porém a referência específica à **ADI 4882 como julgamento final permanece não confirmada**. Para correção futura, substituir fonte do argumento por **ADPF 418** se a conferência final do acórdão assim autorizar; não afirmar resultado da ADI 4882 com base na notícia de ajuizamento.
+
+### Questões inéditas da DA18, avaliação individual
+
+As seis questões foram **lidas** e seus gabaritos originais localizados; houve cotejo direcionado de LINDB, Lei 14.133 e limites doutrinários, sem certificação individual exaustiva:
+
+| Questão | Gabarito original | Parecer dirigido |
+| --- | --- | --- |
+| DA18#1 | Errado | Núcleo “responsabilidade não é automática” plausível; comentário deve abandonar a imunidade universal por erro grosseiro (DA-011) |
+| DA18#2 | Errado | A afirmação de que a conclusão do parecer sempre vincula é falsa; comentário deve incluir hipótese de dispensa de análise (DA-010) |
+| DA18#3 | Errado | Adoção de tese minoritária defensável, isoladamente, não caracteriza erro grosseiro; manter ressalvas de contexto |
+| DA18#4 | Certo | LC 73/1993 art.40 prevê vinculação de parecer aprovado e publicado; conferir requisitos exatos e alcance antes de homologar |
+| DA18#5 | Certo | Parecer sem efeito decisório imediato em regra não é ato coator autônomo; ressalvar eficácia e situação concreta |
+| DA18#6 | Errado | Parecer favorável não exonera automaticamente gestor; comentário exagera ao dizer que em todas as hipóteses há responsabilidade solidária |
+
+**Balanço:** três arquivos novos examinados neste bloco, um deles sem questões (DA04) e outro sem questões C/E internas (DA09); seis questões inéditas DA18 lidas com cotejo dirigido, **zero homologadas integralmente, nenhuma inversão comprovada aqui**. O conjunto de achados desta frente passa a incluir **DA-001 a DA-013**, com DA-004 (inversão real DA22#2), DA-009 (citação falsa de súmula) e outras reservas normativas. O exame do corpus real Cebraspe, o edital literal e o inventário integral dos materiais compartilhados continuam pendentes.
+
+### Próxima atividade
+
+Avançar em `3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md` e `3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao.md` para detectar vigência, competência, LAI/LGPD e sobreposição com Comunicação. Depois analisar DA08 (Lei 14.133), fechar pendências de DA18 sobre precedentes MS 24.631/MS 24.584 e completar os demais arquivos de DA/AP, inclusive catálogo. **Nenhuma alteração nos artigos é autorizada na Fase 1.**

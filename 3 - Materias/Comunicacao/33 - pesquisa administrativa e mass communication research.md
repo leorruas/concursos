@@ -5,7 +5,7 @@ title: "Mass communication research: pesquisa administrativa e efeitos"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Mass communication research: pesquisa administrativa e efeitos
@@ -99,6 +99,16 @@ Estudos associados a Lazarsfeld e colegas destacaram **predisposições, grupos 
 **Item 3, inédito:** “A existência de influência interpessoal e de fatores sociais mediadores impede inferir que toda exposição a um meio produza automaticamente a mesma mudança de atitude.”
 
 **Gabarito: Certo.** O item rejeita a generalização de efeitos uniformes, sem negar a possibilidade de influência dos meios.
+
+## Conferência do texto de Lazarsfeld (1941): escopo e efeitos imprevistos
+
+No ensaio **Remarks on Administrative and Critical Communications Research**, Lazarsfeld descreve a pesquisa orientada a problemas práticos dos meios e discute também as consequências sociais e políticas que ultrapassam a finalidade imediata de quem usa os canais. Um exemplo hipotético de transmissão radiofônica no texto explora **efeitos indesejados**, predisposições dos ouvintes, amplificação pela imprensa, mudanças na composição da audiência e a necessidade de testar medidas corretivas. Assim, reduzir a pesquisa administrativa a “contar alcance”, ou a pesquisa crítica à recusa de dados, perde o problema metodológico central.
+
+**Distinção editorial:** operacionalizar uma campanha e investigar as condições sociais de sua operação são perguntas que podem se relacionar. A oposição **administrativa × crítica** não equivale a **quantitativa × qualitativa** nem a “com efeitos × sem efeitos”. O exemplo original também recomenda cautela causal: a reação social depende de condições adicionais e de outros meios, não apenas da mensagem inicial.
+
+**Cotejo dirigido dos itens C/E inéditos:** item 1 **Certo**, porque a designação administrativa se refere ao propósito prático da pesquisa; item 2 **Errado**, porque atribui métodos exclusivos à distinção de finalidade; item 3 **Certo**, porque considera predisposições e mediações e recusa efeitos uniformes automáticos. Não houve inversão dos três gabaritos. Os métodos transversais, longitudinais, de painel e experimentais apresentados anteriormente são uma **organização pedagógica contemporânea**, não classificação literal do artigo de 1941.
+
+**Fonte primária:** [Lazarsfeld, 1941, *Studies in Philosophy and Social Science*, vol. 9, pp. 2–16, reprodução do ensaio](https://aphelis.net/wp-content/uploads/2012/06/Lazarsfeld_1941_admin_critical_communication.pdf), especialmente pp. 2–7 para a finalidade prática e o caso hipotético. **Limite:** a leitura dirigida não verifica integralmente as atribuições historiográficas a Schramm, Hovland, Lewin e Merton; remissões e integração com o catálogo ainda pendem de teste. Estado: **Corrigido no recorte conferido, sem certificação integral**.
 
 ## Relações com outros temas
 

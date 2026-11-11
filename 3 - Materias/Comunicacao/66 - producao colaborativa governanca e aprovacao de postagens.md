@@ -5,7 +5,7 @@ title: "Produção colaborativa e governança de postagens oficiais"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Produção colaborativa e governança de postagens oficiais
@@ -107,6 +107,18 @@ Uma versão editorial deve permitir identificar **qual conteúdo** foi conferido
 **Item 3.** O uso de uma matriz de responsabilidades dispensa a verificação das competências previstas nas normas aplicáveis, pois o papel de accountable atribui automaticamente autoridade administrativa para aprovar qualquer publicação.
 
 **Gabarito: Errado.** RACI é ferramenta de organização; autoridade administrativa depende das competências efetivamente estabelecidas. O distrator transpõe um conceito gerencial para o campo jurídico.
+
+## Confronto normativo da Câmara: obrigações, competências e limites do fluxo (11/11/2026)
+
+O **Ato da Mesa nº 218/2025** já estabelece obrigações institucionais que podem ser aplicadas ao caso do artigo. O **art. 9º, § 3º**, exige procedimentos de **checagem, revisão e aprovação** para assegurar a conformidade com a Política de Comunicação Social e a precisão de conteúdos veiculados **tanto nos canais próprios quanto em plataformas privadas**. O **art. 9º, § 1º**, determina disponibilidade de conteúdo nos canais próprios e abertos ao público e admite plataformas privadas como **complementares**; o **§ 2º** prioriza linguagem simples. Um processo que confere apenas a publicação feita em rede privada não satisfaz, por esse motivo, todas as exigências aplicáveis ao conteúdo institucional.
+
+**Quem estabelece padrões:** o **art. 14, II**, atribui à Secom e à Semid, **por meio da Direx**, a definição dos padrões de processos institucionais de comunicação nas unidades abrangidas. O **art. 15** confere ao Conselho Consultivo o papel de **zelar pela implantação e execução** da política. **Essas competências são diferentes.** O ato **não define**, nesses dispositivos, uma lista universal de assinantes, um software específico ou uma quantidade fixa de rodadas para aprovação de cada postagem. Os fluxos de sete estados e a matriz RACI apresentados acima continuam sendo **modelos didáticos**, sujeitos aos procedimentos concretos da instituição.
+
+**Alcance:** o **art. 1º, parágrafo único**, exclui da aplicação desta política os produtos criados ou contratados diretamente por deputados, gabinetes e lideranças partidárias. Essa exceção não deve ser transformada em dispensa de outras normas aplicáveis. O **art. 11** também veda, no conteúdo institucional abrangido, opinião própria sobre temas em debate e descontextualização que distorça o sentido; perguntas de esclarecimento sobre diferentes posições são ressalvadas pelo seu parágrafo único.
+
+**Conferência dos três itens C/E inéditos:** **1 Certo**: competência para aprovar é matéria de governança, e o fluxo organiza os atos de revisão e liberação; **2 Errado**: incluir uma pauta no calendário não equivale a concluir a checagem, revisão e aprovação do conteúdo final exigidas pelo art. 9º, § 3º; **3 Errado**: a matriz RACI não substitui competências institucionais do art. 14 ou outros atos aplicáveis. Gabaritos mantidos nesta revisão dirigida. **Não são questões reais Cebraspe.**
+
+**Fontes oficiais cotejadas:** [Ato da Mesa nº 218/2025, texto publicado, arts. 1º, 9º, 11, 14 e 15](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html); [artigo específico de estudo e glossário, CAM-CO-026](<72 - ato da mesa 218 2025 politica de comunicacao da camara.md>). **Pendências:** validar as rotinas de aprovação detalhadas no Manual e eventuais atos internos, verificar todas as referências externas e testar os links e a exibição no Pages. **Status: Corrigido no recorte normativo, não certificado integralmente.**
 
 ## Relações com outros temas
 

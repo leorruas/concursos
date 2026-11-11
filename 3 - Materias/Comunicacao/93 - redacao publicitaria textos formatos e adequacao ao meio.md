@@ -5,7 +5,7 @@ title: "Redação publicitária: textos, formatos e adequação ao meio"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Redação publicitária: textos, formatos e adequação ao meio
@@ -159,6 +159,20 @@ Não existe número universal de palavras que garanta boa redação. Títulos cu
 **Item 3.** A prioridade de linguagem simples na comunicação da Câmara permite omitir etapas legais complexas quando sua explicação dificultaria a concisão da peça, ainda que a omissão altere o entendimento do procedimento.
 
 **Gabarito: Errado.** Linguagem simples exige explicar e organizar informações com clareza, preservando precisão. A redação não pode alterar o sentido de etapas legais.
+
+## Auditoria de redação e norma institucional: clareza com fidelidade ao procedimento (11/11/2026)
+
+O [art. 7º, IV, do Ato da Mesa 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html) orienta conteúdos explicativos e didáticos adequados a públicos e canais. O **art. 9º, § 2º**, determina prioridade à linguagem simples para tornar o processo legislativo acessível, e o **§ 3º** exige procedimentos de checagem, revisão e aprovação. O **art. 11, IV**, veda descontextualizar falas, textos e imagens levando à distorção de sentido. Assim, versões de rádio, vídeo e portal podem ter textos diferentes, mas a adaptação deve preservar os elementos necessários ao entendimento real da informação.
+
+O [W3C, *Writing for Web Accessibility*](https://www.w3.org/WAI/tips/writing/) distingue tarefas concretas de escrita digital: título informativo, cabeçalhos com estrutura, links descritivos, texto alternativo pertinente, legendas, instruções claras e concisão. Isso é diferente de supor que **texto curto seja automaticamente acessível** ou que o slogan substitua um CTA com instruções operacionais.
+
+| Item preexistente | Gabarito | Situação |
+| --- | --- | --- |
+| 1 | **Certo** | Formatos podem exigir estrutura e extensão diferentes; a diretriz da Câmara apoia a adaptação com preservação da finalidade e precisão. |
+| 2 | **Errado** | Slogan e CTA exercem funções diferentes. A afirmação de obrigatoriedade conjunta não decorre das normas citadas; permanece uma distinção profissional editorial, sem fonte legal específica. |
+| 3 | **Errado** | A prioridade dada à linguagem simples convive com precisão e vedação à descontextualização; omitir uma etapa que altere o procedimento apresentado contraria essas condições. |
+
+**Item C/E adicional, inédito:** “Por priorizar linguagem simples, o Ato 218/2025 autoriza a Câmara a eliminar das orientações ao cidadão etapas do processo legislativo cuja omissão mude o sentido do procedimento, desde que a frase final seja curta.” **Errado.** A concisão é subordinada à fidelidade informacional. **Limite:** a fonte institucional foi cotejada diretamente; as classificações profissionais de slogan, headline, CTA e transcriação exigem bibliografia própria para certificação integral.
 
 ## Relações e heurísticas
 

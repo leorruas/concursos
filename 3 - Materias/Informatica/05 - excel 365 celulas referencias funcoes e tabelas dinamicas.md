@@ -237,3 +237,17 @@ Portanto, a fórmula em `E5` será perfeitamente `=SOMA($B$2:C4)`.
 > **Validação de questão, segunda passagem (11/11/2026):** Item 6 conferido contra a [documentação atual de atualização de Tabelas Dinâmicas da Microsoft](https://support.microsoft.com/pt-br/excel/refresh-pivottable-data). **Gabarito mantido: ERRADO**, por universalizar o comportamento. Status: **validado com ressalva de versão/canal e redação**; não usar a antiga regra “sempre exige atualização manual”.
 
 > **Auditoria de questões, segunda passagem (11/11/2026):** seis itens examinados; Q1–Q4 e Q6 mantêm **C, E, E, C, E**, com a ressalva de versão já registrada na Q6. **Q5 não homologada**, pois a igualdade entre MAIOR e MÁXIMO pressupõe dados numéricos. A revisão protege contra memorização de igualdade incondicional.
+
+---
+
+## Questão substituta S05-5: MAIOR versus MÁXIMO
+
+> No Excel 365, se o intervalo A1:A10 contiver pelo menos um valor numérico válido, a fórmula `=MAIOR(A1:A10;1)` retornará o mesmo valor numérico que `=MÁXIMO(A1:A10)`, ainda que algumas células do intervalo estejam vazias.
+
+**Gabarito: CERTO (inédita, substitui o Item 5 bloqueado).** `MAIOR(matriz;k)` seleciona o k-ésimo maior valor numérico; para `k=1`, seleciona o máximo. A condição de existência de números é indispensável.
+
+**Caso progressivo:** para A1=2, A2=8 e A3 vazia, ambas retornam **8**. Se A1:A10 estiver inteiramente vazio, `MAIOR(A1:A10;1)` retorna **#NÚM!**, enquanto `MÁXIMO(A1:A10)` retorna **0**; portanto, a afirmação original, sem condição, não era segura.
+
+**Fontes primárias:** [Microsoft: função MAIOR](https://support.microsoft.com/pt-br/excel/functions/large-function) e [Microsoft: função MÁXIMO](https://support.microsoft.com/pt-br/excel/functions/max-function). **Relação:** [[3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade|Tratamento de dados ausentes e validade]].
+
+**Rastreabilidade:** Item 5 anterior mantido como **NÃO HOMOLOGADO**; esta versão condicionada pode ser utilizada como item inédito revisado.

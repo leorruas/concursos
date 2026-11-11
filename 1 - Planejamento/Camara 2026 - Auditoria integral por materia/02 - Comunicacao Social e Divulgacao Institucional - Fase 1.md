@@ -600,3 +600,17 @@ O primeiro conjunto de **cinco artigos prioritários** recebeu intervenções, s
 | 124, Lei 12.232 | Mesmo quadro de cautela sobre remissões da Lei 8.666 e regime atual; dois itens C/E inéditos | [0464ac3](https://github.com/leorruas/concursos/commit/0464ac33fad9f428a3cdd58489ca79a2b8cc7c7e) |
 
 **Indicadores, sem misturar denominadores:** 5/5 intervenções iniciais delimitadas executadas; **5 de 128 arquivos inventariados** receberam edição de conteúdo desde o início das correções, aproximadamente 3,9% dos arquivos. Isso não implica que todos os 128 necessitem de alteração, nem que 3,9% da auditoria substantiva esteja concluída. Continuam pendentes as verificações de autoria, bibliografia, gabaritos, normas complementares, acessibilidade, redundâncias e calibração real Cebraspe, além da auditoria dos legados. A própria Fase 1 permanece **parcialmente verificada**. Os itens novos são inéditos e não devem ser lançados como questões reais da banca.
+
+
+## Registro de execução: adaptação de quatro textos legados (11/11/2026)
+
+**Nova rodada, após as cinco intervenções normativas:** quatro notas anteriores à coleção 25–124 foram atualizadas, preservando suas seções FGV e acrescentando **três itens inéditos C/E comentados por nota**, com aplicação à Câmara e remissões à trilha atual:
+
+| Nota legada | Conteúdo do novo treino | Commit |
+| --- | --- | --- |
+| 02, Comunicação pública | Emissor versus interesse público, divulgação versus escuta, finalidade pública versus conformidade institucional | [8390a4a](https://github.com/leorruas/concursos/commit/8390a4aeb05828d6d4ebb2e02e63f3fe0d58fbd4) |
+| 07, Gestão de crises | Nota pública versus correção operacional, acompanhamento preventivo de controvérsias, porta-voz versus público interno | [a92128e](https://github.com/leorruas/concursos/commit/a92128edc0ee7ee9468b3833ac341af545017714) |
+| 17, Pesquisa em comunicação | Cotas e seleção probabilística, métricas e causalidade, profundidade qualitativa e representatividade | [6057e34](https://github.com/leorruas/concursos/commit/6057e34b7646b98b02d322f4e21a0f576c8450c6) |
+| 20, Campanhas e mídia | Seleção dos canais, indicadores de utilidade pública sem ROI financeiro, pré e pós-teste | [5753c0d](https://github.com/leorruas/concursos/commit/5753c0decf2fc671c363e100fb2969b7c12d1d69) |
+
+**Contagem de execução até aqui:** 9 arquivos de artigos modificados entre os 128 inventariados (cerca de 7,0%), além do próprio relatório de auditoria. **Esta razão é operacional e não corresponde ao percentual de qualidade verificada ou de trabalho total restante:** o universo de artigos que precisam efetivamente de edição só será definido após auditoria substantiva. Na nova rodada, foram adicionados 12 itens C/E inéditos; nenhuma questão deve ser identificada como questão histórica da Cebraspe. Permanecem pendentes cotejo de gabaritos existentes e conferência autoral, legal e bibliográfica. Outros textos legados orientados à FGV, entre eles 09, 10, 11 e 12, ainda não foram adaptados nesta sequência.

@@ -1426,6 +1426,134 @@
       "statement": "Uma equipe transforma trechos de um relatório em roteiro de vídeo, com falas dirigidas ao público, indicações de cenas e uma chamada para inscrição. Há indícios de reconfiguração do gênero para além de uma simples troca de suporte.",
       "correctAnswer": "C",
       "explanation": "O material ganhou outra organização, recursos próprios da produção audiovisual e uma finalidade de mobilização. A adaptação alterou como o texto funciona."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais",
+      "conceptId": "maioria-relativa",
+      "mechanism": "confundir-pluralidade-com-maioria-absoluta",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Comparação entre desenhos majoritários"
+      ],
+      "statement": "Em uma eleição decidida por maioria relativa em turno único, três candidaturas recebem 42%, 36% e 22% dos votos válidos. A candidatura com 42% vence mesmo sem superar metade dos votos válidos.",
+      "correctAnswer": "C",
+      "explanation": "A maioria relativa exige mais votos que cada concorrente. A marca de mais da metade pertence à regra de maioria absoluta."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais",
+      "conceptId": "maioria-absoluta",
+      "mechanism": "confundir-metade-com-maioria",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Comparação entre desenhos majoritários"
+      ],
+      "statement": "Uma eleição prevê segundo turno se ninguém obtiver maioria absoluta dos votos válidos. Com 1.000 votos válidos, 500 votos bastam para vencer no primeiro turno.",
+      "correctAnswer": "E",
+      "explanation": "A maioria absoluta exige mais de metade. Com 1.000 votos válidos, o mínimo é 501."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais",
+      "conceptId": "segundo-turno",
+      "mechanism": "transferir-resultado-do-primeiro-turno",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Comparação entre desenhos majoritários"
+      ],
+      "statement": "Em um sistema com segundo turno entre as duas candidaturas mais votadas quando ninguém alcança maioria absoluta, a liderança no primeiro turno garante a vitória final mesmo que o segundo colocado obtenha mais votos no segundo turno.",
+      "correctAnswer": "E",
+      "explanation": "O primeiro turno define quem disputa a rodada seguinte. A vitória final depende do resultado dessa rodada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais",
+      "conceptId": "magnitude-distrital",
+      "mechanism": "distinguir-eleitores-de-cadeiras",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#Comparação teórica: fórmula, magnitude e efeitos"
+      ],
+      "statement": "Um distrito passa de quatro para seis cadeiras sem alterar o número de eleitores. A magnitude distrital aumenta.",
+      "correctAnswer": "C",
+      "explanation": "Magnitude é o número de cadeiras em disputa no distrito. Ela pode mudar sem alteração no tamanho do eleitorado."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais",
+      "conceptId": "proporcionalidade",
+      "mechanism": "presumir-equivalencia-aritmetica",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#Comparação teórica: fórmula, magnitude e efeitos"
+      ],
+      "statement": "Em um distrito que distribui cinco cadeiras, uma lista com 30% dos votos pode receber exatamente 30% das cadeiras sem fracionar nenhuma delas.",
+      "correctAnswer": "E",
+      "explanation": "Trinta por cento de cinco cadeiras equivale a uma cadeira e meia. A alocação em números inteiros impede correspondência exata nesse caso."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "conceptId": "representacao-descritiva",
+      "mechanism": "distinguir-composicao-de-atuacao",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Hanna Pitkin: quatro perspectivas de representação"
+      ],
+      "statement": "Uma assembleia passa a incluir mais representantes com deficiência. Esse dado indica mudança na representação descritiva e, isoladamente, não demonstra como os representantes atuaram em políticas de acessibilidade.",
+      "correctAnswer": "C",
+      "explanation": "A dimensão descritiva trata da composição. A dimensão substantiva requer examinar ações e decisões em relação aos interesses representados."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "conceptId": "representacao-substantiva",
+      "mechanism": "confundir-semelhanca-com-defesa-de-interesses",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Hanna Pitkin: quatro perspectivas de representação"
+      ],
+      "statement": "Uma pesquisa registra que uma parlamentar defendeu medidas solicitadas por um grupo do qual ela não faz parte. Essa evidência é pertinente para investigar representação substantiva.",
+      "correctAnswer": "C",
+      "explanation": "A pergunta substantiva é como o representante age em relação aos interesses dos representados. Pertencer ao grupo é uma questão de composição."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação",
+      "conceptId": "responsividade",
+      "mechanism": "confundir-autorizacao-com-resposta",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Autorização, seleção, responsividade e controle: não são uma mesma operação"
+      ],
+      "statement": "A vitória eleitoral autoriza uma representante a exercer o mandato. Por isso, o resultado da eleição basta para demonstrar que ela ouviu e respondeu às demandas dos eleitores ao longo do mandato.",
+      "correctAnswer": "E",
+      "explanation": "A eleição fornece autorização inicial. A responsividade ao longo do mandato exige evidências da atuação da representante diante das demandas."
     }
   ]
 }

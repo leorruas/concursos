@@ -943,3 +943,45 @@ Commit `196563f7dd9ba30853688b7b68e9c2e4fa486a8a`: **NC-PL-020 corrigida no text
 - **Arquitetura, commit `82018aed262adef1fc2f69456262f6ff081feb4d`:** inserida matriz textual de correspondências e fronteiras de cobertura, sem alterar automaticamente checkboxes nem inventar artigos obrigatórios.
 
 **Critério de conclusão:** as duas colisões de **rótulo** foram corrigidas nos pontos identificados. Não implica homologação da cobertura jurídica dos arts. 1–24, 25–54, 65–105 e 226–251, nem validação do edital literal. **Andamento: 8/29 artigos modificados (27,6%); 0/29 integralmente certificados**. Restam 21 artigos sem edição nesta fase, sem presumir que demandem reparos.
+
+
+## Bloco 22: DC18–22, procedimentos e espécies legislativas (11/11/2026)
+
+**Escopo realizado e evidência:** recuperados os arquivos exatos no GitHub:
+- `DC18 - procedimentos abreviado e sumario.md` (249 linhas), CAM-PL-009: **10 itens C/E**.
+- `DC19 - procedimentos sumarissimo especial e concentrado.md` (249 linhas), CAM-PL-010: **10 itens**.
+- `DC20 - lei delegada e delegacao legislativa.md` (134 linhas), CAM-PL-012: **10 itens**.
+- `DC21 - medida provisoria pressupostos prazos e efeitos.md` (147 linhas), CAM-PL-013: **10 itens**.
+- `DC22 - projetos de decreto legislativo e resolucao.md` (168 linhas), CAM-PL-014: **10 itens**.
+
+Foram lidos sumários, textos nucleares, prazos, hipóteses de exceção, casos e as **50 questões e suas respostas**. Confronto seletivo com [CF consolidada, arts.58, 60, 62, 64, 68](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), [RICD consolidado, arts.24, 52, 151–157, 200, 204](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), [Câmara, Requerimentos de urgência](https://educacaoadistancia.camara.leg.br/clique_regimento/card/19) e [Regimento Comum do Congresso, arts.116–127](https://legis.senado.leg.br/norma/561098/publicacao/36852069). **Limitação:** acesso ao HTML integral do RICD retornou 429; os trechos sobre art.155 foram corroborados por resultado indexado oficial e material pedagógico oficial. Cotejo por dispositivo selecionado **não equivale a certificação literal de todos os itens e comentários**.
+
+### DC18: abreviado, sumário e prioridade
+
+**A-PL-080:** tratamento de procedimento **abreviado** como decisão conclusiva por comissões, com recurso da minoria, corresponde ao art.58 §2º I da CF, sem confundir com parecer terminativo de admissibilidade. **A-PL-081:** sumário constitucional no art.64 §1º exige **pedido do Presidente para projeto de sua iniciativa**; o prazo é **45 dias por Casa, sucessivamente, e 10 dias para emendas do Senado na Câmara**, sem automatismo de aprovação. Art.64 §4º suspende os prazos no recesso e exclui projetos de código. **A-PL-082:** prioridade do RICD art.151 II, a não equivale a pedido de urgência constitucional. **10 itens** revisados e respostas aparentam coerentes com estes fundamentos (gabaritos por ordem: C, E, E, C, E, C, C, E, C, E). **Reserva:** confirmar literalmente o art.204 §1º (pedido posterior de urgência) e condições de recebimento/recurso no art.132 e no art.58 §5º.
+
+### DC19: sumaríssimo, especial e concentrado
+
+**A-PL-083:** art.155 do RICD e orientação oficial da Câmara confirmam dois requisitos separados de **maioria absoluta** (apoiamento e aprovação) e possibilidade de pautar imediatamente matéria de relevante e inadiável interesse nacional, **sem o limite de duas matérias** do art.154 §2º. **A-PL-084:** art.152 preserva publicação, parecer e quórum; a urgência não substitui requisitos constitucionais da PEC. **A-PL-085:** a comissão **mista** examina MP (CF art.62 §9º), mas cada Casa **vota separadamente**, ao passo que veto é apreciado em **sessão conjunta**. **10 itens** com núcleos coerentes (C, E, E, C, C, E, C, E, C, E). **Reserva:** prazo de discussão e emissão de parecer verbal, art.157 §§2º–4º, e classificação doutrinária do procedimento “concentrado” exigem conferência de fontes de origem; a nomenclatura não é rol de regimes do RICD art.151.
+
+### DC20: lei delegada e autorização do Congresso
+
+**A-PL-086:** CF art.68 §§1º–3º confirma: pedido do Presidente, autorização por **resolução do Congresso**, matérias indelegáveis, eventual apreciação **em votação única e vedada emenda** ao texto final. Distinção com emendas à **proposta de resolução autorizativa** do RCCN art.121 está corretamente exposta. **A-PL-087:** a nota examina ressalvas históricas do RCCN arts.117, 118 e 126 em face de CF/1988, sem aplicar cegamente rol anterior à Constituição. **10 itens** lidos e comparados com núcleos (E, E, C, C, E, E, C, E, E, E). **Reserva relevante:** o relato do RCCN art.119 §2º afirma **prazo máximo de 45 dias** e cita procedimento de 72h, oito dias, 24h e 48h em diversas fases; é preciso transcrever/confirmar literalidade dos arts.119–127 e eventuais atualizações/derrogações antes de aprovar a parte procedimental. Evitar assimilação aos 45 dias do art.64 da CF, que tratam de urgência de projeto presidencial, não delegação.
+
+### DC21: medida provisória
+
+**A-PL-088:** CF art.62 confirma **60 + 60 dias, uma única prorrogação**, suspensão no recesso, urgência após **45 dias**, proibição de reedição na mesma sessão legislativa após rejeição/caducidade, julgamento prévio de pressupostos e início da votação na Câmara após comissão mista. **A-PL-089:** art.62 §12 preserva a MP original enquanto PLV aprovado com alterações aguarda sanção/veto; art.62 §11 preserva relações jurídicas na ausência de decreto legislativo em **60 dias** depois de rejeição/perda de eficácia. **10 itens** com núcleos coerentes (E, C, E, C, E, E, C, E, C, C). **Reserva:** texto apresenta composição da comissão mista como 12 deputados + 12 senadores, remessa 48h e sobrestamento condicionado a detalhes operacionais na Câmara; confirmar em Resolução CN 1/2002 consolidada e jurisprudência recente. Distinguir CF literal de operação regimental.
+
+### DC22: projetos de decreto legislativo e resolução
+
+**A-PL-090:** CF arts.49, 51, 52, 59 e 68 §2º, RICD art.109 fundamentam **decreto legislativo para matérias exclusivas do Congresso** e **resoluções para matérias privativas das Casas** ou delegação pelo Congresso; sem sanção presidencial. **A-PL-091:** art.51 IV diferencia organizar serviços da Câmara da **iniciativa de lei** para fixar remuneração. O artigo indica corretamente que CPI exigida constitucionalmente por um terço não depende de vontade discricionária de maioria para sua criação. **10 itens** com núcleos coerentes (C, E, E, C, E, E, C, E, C, C). **Reserva:** checar o prazo de **2 sessões** e sequência de suplência na promulgação de resolução da Câmara no RICD art.200 §2º; conferir peculiaridades de tramitação de PRN e deliberação parlamentar em cada hipótese para evitar generalizar o instrumento.
+
+### Diagnóstico transversal e método
+
+**NC-PL-022, RISCO MÉDIO DE INSTRUÇÃO:** cinco notas apresentam procedimentos com prazos e meios normativos variados (Constituição, RICD e RCCN) e algumas explicações doutrinárias. Antes da certificação final, elaborar **matriz única por ato, órgão competente, unidade do prazo, marco inicial, condições e consequência**, separando: art.64 (urgência presidencial, 45+45+10 **dias**); art.155 (urgência urgentíssima, maioria absoluta e inclusão imediata); art.68/RCCN (resolução de delegação); art.62 (vigência da MP e recesso). **Não se trata de erro jurídico pontual confirmado**, mas prioridade editorial para reduzir risco de transferência de uma regra para outra.
+
+**Estado dos cinco artigos:** 50/50 enunciados lidos com seus gabaritos e núcleos cotejados de modo seletivo. **Nenhuma inversão de gabarito comprovada**; há reservas normativas explícitas. **Nenhuma nota de estudo alterada.**
+
+### Indicador acumulado da Fase 1
+
+29/29 arquivos no inventário; **159 enunciados C/E examinados em 16/29 arquivos** (DC11–22 e DC34–37: 12+4 = 16), **13 arquivos** ainda sem o cotejo equivalente de todos os itens; **0/29 certificados integralmente**. Estimativa qualitativa **52% do esforço da Fase 1 realizado, 48% restante**. Estimativa não substitui medição efetiva de dispositivos, literatura, edital, nem comprovação de cobertura. Próximos: DC23–33, mais revisão profunda das bases DC06/DC10 e reconciliação dos riscos críticos de DC34/35/36/37.

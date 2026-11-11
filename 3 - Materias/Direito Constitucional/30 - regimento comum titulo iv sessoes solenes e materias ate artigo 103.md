@@ -119,6 +119,18 @@ A [Resolução nº 1/2006-CN no portal da CMO](https://www.congressonacional.leg
 
 **Atualização de 2025 indispensável:** a [página oficial da CMO sobre legislação](https://www.congressonacional.leg.br/web/cmo/atribuicoes-e-legislacao) registra modificações da Resolução nº 1/2006-CN por resoluções de **2025**, incluindo a **Resolução nº 1/2025-CN**, que alterou a apresentação de emendas de comissões permanentes, bancadas e parlamentares, e a **Resolução nº 2/2025-CN**, que acrescentou condições relativas a beneficiários e indicações de emendas. Por isso, limites numéricos e critérios antigos de emendas, mesmo quando ainda visíveis em versões com histórico de redações, não devem ser usados sem cotejo com o texto vigente. Esses detalhes pertencem à disciplina especial e não podem ser deduzidos dos arts. 89 a 103 do RCCN. Ver também o [texto com alterações históricas da Resolução 1/2006-CN](https://www.congressonacional.leg.br/web/cmo/atribuicoes-e-legislacao/resolucao-n-01-de-2006-cn).
 
+### Três espécies de emendas à despesa que o art. 41 não substitui
+
+A [Resolução nº 1/2006-CN, arts. 37 a 41](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html) distingue a **natureza da emenda** antes de analisar seus limites e sua admissibilidade:
+
+| Espécie | Fonte e efeito | Fronteira de prova |
+| :--- | :--- | :--- |
+| **Remanejamento (art. 38)** | Acresce ou inclui dotações e cancela **montante equivalente** de dotações do próprio projeto como **fonte exclusiva**, **exceto a Reserva de Contingência** | Exige anulação das dotações apontadas na própria emenda, com fontes compatíveis; o art. 45 também exige **mesmo órgão orçamentário** |
+| **Apropriação (art. 39)** | Acresce ou inclui dotações com anulação equivalente de recursos da **Reserva de Recursos do art. 56** ou de **outras dotações**, respeitado o art. 166, § 3º, II, da Constituição | Não confundir **Reserva de Recursos** com **Reserva de Contingência**, nem importar a restrição do art. 45, própria do remanejamento |
+| **Cancelamento (art. 40)** | Propõe **exclusivamente a redução** de dotações do projeto | Não gera, por si só, nova dotação para outro programa |
+
+**Caso de fixação:** uma emenda cancela R$ 2 milhões da Reserva de Contingência e destina o valor a uma nova obra, chamando-se “de remanejamento”. O nome atribuído pelo autor não altera o fato de que o **art. 38 exclui a Reserva de Contingência** dessa espécie. Em outra situação, um parlamentar apenas suprime dotação: trata-se de **cancelamento** do art. 40, e não de remanejamento sem contrapartida. Os requisitos do art. 41 continuam relevantes para propostas de acréscimo ou inclusão, mas não apagam a classificação dos arts. 37 a 40.
+
 ### Matriz de vigência: efeitos das alterações de 2025 na CMO
 
 A [consolidação da Resolução nº 1/2006-CN no portal do Congresso](https://www.congressonacional.leg.br/web/cmo/atribuicoes-e-legislacao/resolucao-n-01-de-2006-cn) exibe **redações históricas e redações posteriores no mesmo artigo**. A anotação “redação dada” importa: não escolher o primeiro número encontrado no texto sem identificar seu marco temporal. A Resolução nº 1/2025-CN, posteriormente modificada pela Resolução nº 2/2025-CN, alterou aspectos das emendas parlamentares.

@@ -835,3 +835,18 @@ Nesta rodada retornou-se a **dois artigos já contabilizados** (109 e 110), para
 **Fontes externas:** [Aaker e Joachimsthaler, *The Brand Relationship Spectrum*, *California Management Review*, 2000](https://cmr.berkeley.edu/2000/08/42-4-the-brand-relationship-spectrum-the-key-to-the-brand-architecture-challenge/); [reprodução do texto original com quatro estratégias e nove subestratégias](https://uploads.teachablecdn.com/attachments/qeevWuidTtG3H2EQtFkU_aaker-brandarchitecture-120610195020-phpapp02.pdf); [Kotler e Keller, *A Framework for Marketing Management* (2016), tabela *Branding New Products*](https://ebook.app.hcu.edu.gh/wp-content/uploads/2024/09/Philip-T-Kotler-Kevin-Lane-Keller-A-Framework-for-Marketing-Management-2016-Pearson-libgen.li_.pdf).
 
 **Indicadores nesta rodada:** **dois artigos revisados novamente**, ambos já pertencentes ao conjunto modificado anteriormente; o inventário permanece em **46 artigos distintos editados dentre 128 (35,9%)**. **Dois itens preexistentes do artigo 111 tiveram cotejo dirigido de taxonomia autoral**. O histórico bruto de 65 conferências passa provisoriamente a **67**, com pendência de reconstrução e desduplicação da contagem, que não pode ser tratada como certificação plena. Foi inserido um exercício inédito. Mantém-se a pendência de inspeção integral dos demais artigos, exercícios e aderência ao edital/Cebraspe.
+
+
+## Registro: métricas digitais, AMEC e diferenças em diferenças (11/11/2026)
+
+Esta rodada acrescentou intervenções em **três artigos distintos**, todos ainda não contabilizados anteriormente.
+
+| Artigo | Verificação e limites | Commit |
+| --- | --- | --- |
+| 107, métricas digitais | Ajuda oficial do Google confirma item 2 (**Errado**) sobre GA4: rejeição corresponde a sessões não engajadas, não simplesmente a visita de página única; foi adicionado um C/E inédito | [20733d4](https://github.com/leorruas/concursos/commit/20733d44b7c988c2b7813ac18cf65ceb808f4930) |
+| 94, monitoramento de campanhas | AMEC confirma item 1 (**Certo**) sobre outputs versus outcomes; cálculo do item 2 (**Errado**) confere 15 pontos percentuais e 37,5% relativos; outro item inédito; item 3 permanece sem cotejo de estudo causal específico | [987a8d5](https://github.com/leorruas/concursos/commit/987a8d5fd1175857d85aaec312d6a6ae078ef348) |
+| 108, indicadores e causalidade | Revisão do item 4 (**Errado**): método DiD exige hipótese de tendências paralelas contrafactuais, não níveis iguais no início; cálculo do caso é 4 pontos percentuais; um item inédito; manual externo completo ainda pendente | [e50dc7c](https://github.com/leorruas/concursos/commit/e50dc7c8bdfa4e1e46b62c7b29f7c409e44b18d5) |
+
+**Fontes confirmadas:** [Google Analytics, rejeição e engajamento](https://support.google.com/analytics/answer/12195621?hl=pt-br), [Google, sessões](https://support.google.com/analytics/answer/12798876?hl=pt-BR) e [AMEC, níveis de avaliação](https://amecorg.com/amecframework/). A fonte do Banco Mundial no artigo 108 foi indicada para conferência aprofundada; não se afirma inspeção integral do texto.
+
+**Indicadores:** **49 artigos distintos receberam intervenção entre 128 arquivos do inventário (38,3%)**; foram adicionados **três itens inéditos**, sem equivalência com prova histórica Cebraspe. A contagem histórica de **67 itens com conferência dirigida** é mantida provisoriamente, já que precisa de identificação única e desduplicação por fonte e nível de evidência. Este percentual indica **arquivos tocados**, nunca auditoria integral concluída. Persistem pendências de verificação de obras, exercícios, cobertura editalícia e provas da banca.

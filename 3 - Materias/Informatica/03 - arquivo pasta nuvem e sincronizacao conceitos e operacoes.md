@@ -5,7 +5,7 @@ title: "Arquivo, pasta, nuvem e sincronização: conceitos, estruturas e operaç
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Arquivo, pasta, nuvem e sincronização: conceitos, estruturas e operações
@@ -23,7 +23,7 @@ Compreender com rigor o ciclo de vida do dado (criação, nomenclatura, organiza
 ## 1. Arquivos e pastas: conceitos e estrutura lógica
 
 ### 1.1 Arquivo (*File*)
-Um **arquivo** é uma unidade lógica e contígua de dados armazenada em um suporte físico ou virtual (SSD, disco rígido, pendrive, nuvem). É identificado por:
+Um **arquivo** é uma unidade lógica de dados armazenada em um suporte físico ou virtual (SSD, disco rígido, pendrive, nuvem). É identificado por:
 1. **Nome base**: sequência de caracteres que identifica o conteúdo para o usuário;
 2. **Extensão**: sufixo separado por ponto (ex.: `.docx`, `.xlsx`, `.pdf`) que indica o formato interno e determina a associação de aplicativos padrão no sistema operacional;
 3. **Caminho absoluto (*Path*)**: localização exata do arquivo desde a raiz da unidade de armazenamento (ex.: `C:\Usuarios\Analista\Documentos\Relatorio.pdf`);
@@ -116,13 +116,13 @@ Uma das maiores pegadinhas conceituais do Cebraspe em provas de tribunais, minis
 | SINCRONIZAÇÃO NÃO É BACKUP AUTOMÁTICO!                                          |
 |                                                                                 |
 | Se um usuário apagar um arquivo por engano na sua pasta sincronizada local,     |
-| essa exclusão será IMEDIATAMENTE propagada para a nuvem e para todos os outros  |
+| a exclusão tende a ser sincronizada com a nuvem e outros dispositivos quando houver conexão e processamento, sujeita a filas, erros e políticas de retenção  |
 | computadores sincronizados.                                                     |
 |                                                                                 |
 | Embora ferramentas de nuvem tenham lixeira e histórico de versões, a lógica da  |
 | sincronização é a CORRESPONDÊNCIA DE ESTADO (se apaga aqui, apaga lá).          |
 | Já o BACKUP visa à PRESERVAÇÃO HISTÓRICA INDEPENDENTE contra desastres e        |
-| erros humanos, mantendo cópias intocadas e imutáveis em repouso.                |
+| erros humanos, mantendo versões recuperáveis independentes; imutabilidade é um controle adicional, não requisito universal.                |
 +---------------------------------------------------------------------------------+
 ```
 
@@ -179,7 +179,7 @@ Um usuário quer liberar espaço no seu computador corporativo e apaga uma pasta
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** A sincronização replica alterações de estado: exclusão local é sincronizada como exclusão na nuvem (o arquivo é enviado para a lixeira da nuvem). O backup é uma rotina de preservação independente, com versionamento e armazenamento imutável, não se confundindo com o espelhamento contínuo da sincronização.
+**Comentário:** A sincronização replica alterações de estado: exclusão local é sincronizada como exclusão na nuvem (o arquivo é enviado para a lixeira da nuvem). O backup é uma rotina de preservação independente que mantém dados recuperáveis segundo uma política de retenção. Imutabilidade é uma proteção adicional possível e não requisito de toda cópia de segurança.
 
 ---
 
@@ -226,3 +226,5 @@ Um usuário quer liberar espaço no seu computador corporativo e apaga uma pasta
 | **Arquivo Apenas Online** (Nuvem) | Ocupa 0 bytes locais; requer internet para abrir | Clicar com botão direito e escolher *"Liberar espaço"* |
 | **Arquivo Sempre Disponível** (Círculo verde) | Ocupa bytes locais; disponível offline permanente | Clicar com botão direito e escolher *"Sempre manter neste dispositivo"* |
 | **Exclusão em pasta sincronizada** | Deleta na nuvem e em todos os dispositivos sincronizados | Não confundir sincronização com backup |
+
+> **Nota de revisão (11/11/2026):** um arquivo lógico pode ocupar blocos físicos não contíguos. Propagação de exclusões depende de conectividade e sincronização, e backup não exige imutabilidade em todos os modelos. Achado TI-036 da auditoria Câmara.

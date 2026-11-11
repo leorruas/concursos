@@ -849,3 +849,65 @@ A matriz representa **decisões editoriais recomendadas para Fase 2/3**, não co
 **Novos achados PT-124–129:** **PT-124** (26#3: proibição absoluta de vírgula entre sujeito e predicado deve delimitar ausência de intercalação); **PT-125** (27#1: fracionário `mais de um terço` versus concordância de `mais de um` e 27#4: aglutinação de três regras); **PT-126** (27#5: `haja vista` invariável recomendado editorialmente e `hajam vista` variante descrita em gramática FGV, sem inversão); **PT-127** (28#2–#5: separar tradições de regência, comentários e suspensão de 28#3); **PT-128** (29#5: suspensão por alteração hipotética do regente, não pelo uso facultativo do artigo possessivo); **PT-129** (29#6: paralelismo condicionado pela estrutura `de/a` ou `da/à`, fonte institucional CNJ).
 
 **Estado e próximo recorte:** dois lotes de 24 itens (notas `22–25` e `26–29`) examinados individualmente, **48 itens autorais**, sem certificação final, com **3 itens suspensos** (`23#5`, `28#3`, `29#5`). Permanecem questões das notas `17–21`, `30–34`, `12–16`, além das bases anteriores quando existentes, a registrar em ordem verificável. **34/34 artigos examinados seletivamente; 20/20 subitens ligados a notas; 0/34 artigos certificados.** Nenhum material de estudo, hub, catálogo ou dados individuais alterado.
+
+
+## Bloco 21: verificação individual de 30 questões C/E, artigos 17–21 (11/11/2026)
+
+**Método:** recuperados pelo GitHub os textos completos das cinco notas `17 - ortografia convencoes da escrita acentuacao e hifenizacao.md`, `18 - referencia textual anafora catafora e deixis.md`, `19 - substituicao elipse repeticao e coesao lexical.md`, `20 - conectores relacoes logicas e sequenciacao.md` e `21 - tempo modo e aspecto verbal na construcao do texto.md`. Inspecionados **30 enunciados, 30 gabaritos e respectivos comentários**, seis por nota. Cotejadas externamente as locuções `posto que` em [Ciberdúvidas, 2001](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/posto-que/8600) e [Ciberdúvidas, 2008](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/ainda-a-locucao-posto-que/23034), e `à medida que / na medida em que` no [Manual de Revisão da FUNAG](https://funag.gov.br/manual/index.php?title=Vocabul%C3%A1rio), [Manual de Redação da Câmara Municipal de Sarandi](https://transparencia.cms.pr.gov.br/storage/transparencia/upload_ressarcimento_combustivel/2024-09-02-cms-MANUAL%20DE%20REDA%C3%87%C3%83O%20DA%20C%C3%82MARA%20MUNICIPAL%20DE%20SARANDI_compressed%20%281%29.pdf) e [Manual de Produção Editorial do Incaper](https://manual-editorial.incaper.es.gov.br/capitulo_onze.htm). **Essas fontes cobrem apenas parte das 30 decisões, e não substituem as gramáticas originais indicadas nos artigos nem precedentes oficiais da banca para cada construção.** Nenhum item é de caderno oficial; todos são autorais.
+
+**Legenda:** `M` manter gabarito e núcleo do comentário provisoriamente; `R` manter gabarito provisoriamente e corrigir/limitar comentário; `S` suspender como questão confiável até revisão de enunciado/gabarito. `M` não implica homologação plena.
+
+| Item | Gabarito | Decisão | Fundamentação localizada |
+| --- | --- | --- | --- |
+| **17#1** | C | **M** | `Câmara/público/trâmite` são proparoxítonas; mesmas regras de acento. |
+| **17#2** | C | **R** | `estratégia/previdenciário/noticiário`: paroxítonas terminadas em ditongo crescente sob uma divisão, proparoxítonas aparentes/eventuais sob outra. Comentário descreve imprecisamente `semivogal final seguida de vogal aberta`; conferir fonética/silabação e retirar afirmação não documentada de que Cebraspe admite precisamente essa dupla rotulação. |
+| **17#3** | C | **M** | `autoescola/antissocial/micro-ondas` com prefixação e hífen conforme Acordo; nenhuma alteração de gabarito. |
+| **17#4** | E | **M** | `ideia/assembleia/heroico` perderam acentos em ditongos abertos das paroxítonas. |
+| **17#5** | C | **M** | `pôde/pode` distingue pretérito perfeito/presente. |
+| **17#6** | E | **R** | `hífen/hifens` diferem em acentuação; gabarito E correto no contraste. Comentário deve remover clichê não comprovado de “uma das mais célebres pegadinhas do Cebraspe” e precisar a regra de `-ens`. |
+| **18#1** | E | **R** | Neste par ordenado, `estes` retoma `presidentes de comissão`, e `àqueles`, `líderes`; hierarquia política não determina o demonstrativo. A justificativa “obrigatoriamente o elemento mais próximo” deve ser restrita à construção correlativa apresentada, evitando contradição com 18#5. |
+| **18#2** | C | **S** | `esse ato` após `iniciou os trabalhos e submeteu a voto o projeto`: pode rotular especificamente a submissão à votação, em vez de encapsular **necessariamente** ambas as ações. O comentário garante `totalidade` sem prova pelo contexto; o exemplo é insuficiente para gabarito unívoco. Reescrever contexto ou especificar alvo da anáfora. |
+| **18#3** | E | **M** | `nesta tarde/nós/este Plenário` contêm dêixis temporal/pessoal/espacial, não somente anáfora textual. |
+| **18#4** | C | **M** | `uma medida: a convocação` apresenta referência prospectiva de conteúdo. |
+| **18#5** | E | **M** | Proximidade linear por si não impõe referente em qualquer situação com dois antecedentes possíveis. |
+| **18#6** | C | **M** | `STF` ativa enquadramento associativo que permite `os ministros/o plenário` sem menção lexical literal anterior. |
+| **19#1** | C | **R** | Vírgula em `a Mesa Diretora, a publicação` sinaliza elipse do verbo `aprovou`; o predicado implícito `aprovou a publicação` é possível, mas a frase não é exemplo ideal de atribuições institucionais: revisar naturalidade sem negar zeugma. |
+| **19#2** | E | **M** | Repetição de termo técnico pode preservar precisão; não é vício `sempre`. |
+| **19#3** | C | **M** | `não o fizeram` recupera predicado anterior por construção vicária; o item não exige identidade de intenções dos agentes. |
+| **19#4** | E | **M** | `equipamentos eletrônicos` é hiperônimo de `computadores`, não o inverso. |
+| **19#5** | C | **R** | Nominalização permite retomada do processo e progressão discursiva, mas **corrigir erro de revisão literal `novos rezas informativos`** no comentário, e evitar chamar toda transformação `conceito estático e consolidado` de maneira universal. |
+| **19#6** | E | **R** | `o mesmo` como pronome substituto não deve ser classificado recurso estilístico `preferencial` em redação oficial; no entanto, a alegação de que o MRPR `condena expressamente` tal uso exige localizar o trecho/edição literal do manual antes de atribuir proibição formal. Não rotular automaticamente todo uso de `o mesmo` como solecismo. |
+| **20#1** | C | **R** | `embora` introduz concessiva que é insuficiente para afastar a conclusão principal; reduzir afirmação de **força argumentativa universalmente menor** em todos os gêneros e contextos. |
+| **20#2** | E | **M** | `mas` coordena e `embora` subordina com correlação modal; substituição simples sem ajustes não conserva sintaxe/correção. |
+| **20#3** | E | **M** | `não pôde, pois, homologar` tem `pois` conclusivo intercalado/posposto, não puramente causal. |
+| **20#4** | E | **R** | O [Ciberdúvidas 2001](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/posto-que/8600) apresenta tradição **concessiva**; o [Ciberdúvidas 2008](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/ainda-a-locucao-posto-que/23034) informa uso **causal atestado ao menos desde o século XVIII**. Item afirma `primariamente causal` e `sinônimo perfeito`, por isso E é defensável em norma conservadora, mas o comentário **não deve tratar todo valor causal como solecismo inexistente**. Corrigir PT-049. |
+| **20#5** | E | **R** | No enunciado, `Como o regimento veda...` opera causalmente e não como conformidade; E plausível. **Erro no comentário:** “`Como` no início é obrigatoriamente causal”, apesar de usos conformativos `Como estabelece o regimento, ...` em posição inicial. Corrigir regra por semântica e construção, PT-048. |
+| **20#6** | E | **R** | [FUNAG](https://funag.gov.br/manual/index.php?title=Vocabul%C3%A1rio) e [Incaper](https://manual-editorial.incaper.es.gov.br/capitulo_onze.htm) distinguem proporcionalidade de `à medida que` e causalidade de `na medida em que` na escrita institucional. Isso **sustenta E no quadro de estilo oficial**, mas `sentidos e papéis inteiramente distintos` é explicação excessiva para usos mistos e variedades; demarcar **recomendação de redação**. |
+| **21#1** | C | **M** | `encerrara/havia encerrado` equivalem para anterioridade ao segundo evento passado no contexto. |
+| **21#2** | E | **R** | `tem recebido` prolonga a relevância do processo até o presente, sem equivaler a `recebeu` pontual totalmente concluído; porém, pretérito perfeito composto não impõe **sempre** repetição discreta de eventos. |
+| **21#3** | C | **R** | `apresentavam` no contexto habitual versus `apresentaram` altera perspectiva aspectual; porém o perfeito não implica **evento único/pontual**. Corrigir comentário PT-061, gabarito C segue plausível. |
+| **21#4** | C | **M** | `teria descumprido` no contexto de relatório preliminar marca cautela/ressalva epistêmica, não confirmação do fato. |
+| **21#5** | C | **R** | `Caso aprovasse ... seria votada` é correlação hipotética padrão; “**obrigatoriamente** exigiria” pode ignorar alternativas modais/contextuais. Dar a solução esperada, especificar objetivo de manter hipótese de mesma natureza, sem declarar única correlação existente na língua. |
+| **21#6** | E | **M** | `Em 1823, instala-se ... entra` é presente histórico, não presente gnômico. |
+
+**Contagem revisada das 30 decisões por linha:** **16 M**, **13 R** e **1 S** (`18#2`); **zero inversões de gabarito conclusivamente comprovadas**. Cada `R` precisa de intervenção editorial localizada mas mantém gabarito como hipótese defensável. O novo `S` reflete **insuficiência de univocidade interpretativa**, não demonstra que C seja necessariamente falso.
+
+### Novos achados PT-130 a PT-136
+
+**PT-130 (17#2/#6):** corrigir caracterização fonética de `ditongos crescentes` e frequência Cebraspe sem amostra; preservar gabaritos provisórios.
+
+**PT-131 (18#1/#2):** limitar fórmula `este/aquele` ao par contextual e **suspender 18#2** por anáfora `esse ato` de escopo não unívoco; relatório anterior PT-054 antecipava risco.
+
+**PT-132 (19#1/#5/#6):** corrigir `novos rezas informativos`, calibrar exemplo de zeugma e verificar **menção literal ao MRPR** quanto a `o mesmo`; não transferir orientação de manual específico à Câmara automaticamente.
+
+**PT-133 (20#1/#4):** valor concessivo de `posto que` normativamente recomendado, com **usos causais historicamente atestados**; restringir a retórica de força argumentativa e de erro gramatical absoluto.
+
+**PT-134 (20#5):** `como` anteposto não é automaticamente causal; no exemplo específico a leitura causal é mais natural, logo gabarito E permanece provisório.
+
+**PT-135 (20#6):** manuais FUNAG/Incaper sustentam distinção de estilo `à medida que` proporcional / `na medida em que` causal; não confundir recomendação editorial com proibição linguística universal.
+
+**PT-136 (21#2/#3/#5):** diferenciar aspecto perfectivo de evento único, pretérito perfeito composto de repetição necessariamente discreta e correlação condicional típica de única combinação possível. Revisar comentários mantendo provisoriamente E/C/C.
+
+### Continuidade
+
+**Estado dos blocos de revisão individual 19–21:** **78 itens autorais** com tabela por enunciado, gabarito e comentário (`22–29`: 48; `17–21`: 30), **quatro itens suspensos no total**: `18#2`, `23#5`, `28#3` e `29#5`; nenhuma inversão de gabarito comprovada. As decisões `M/R` não equivalem a itens integralmente certificados. **34/34 artigos numerados examinados seletivamente, 20/20 subitens do edital associados a notas, PT-001–PT-136 históricos (seis colisões PT-011–016), zero artigos certificados.** Próximo lote de 30 itens `30–34`, com revisão contextual de colocação pronominal, semântica, equivalência e reescrita. Nenhum artigo, hub ou catálogo de estudo alterado; demais auditorias preservadas.

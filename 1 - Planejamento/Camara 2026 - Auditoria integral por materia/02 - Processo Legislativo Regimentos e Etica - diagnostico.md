@@ -985,3 +985,14 @@ Foram lidos sumários, textos nucleares, prazos, hipóteses de exceção, casos 
 ### Indicador acumulado da Fase 1
 
 29/29 arquivos no inventário; **159 enunciados C/E examinados em 16/29 arquivos** (DC11–22 e DC34–37: 12+4 = 16), **13 arquivos** ainda sem o cotejo equivalente de todos os itens; **0/29 certificados integralmente**. Estimativa qualitativa **52% do esforço da Fase 1 realizado, 48% restante**. Estimativa não substitui medição efetiva de dispositivos, literatura, edital, nem comprovação de cobertura. Próximos: DC23–33, mais revisão profunda das bases DC06/DC10 e reconciliação dos riscos críticos de DC34/35/36/37.
+
+
+### Execução editorial: rastreabilidade do RICD em DC23 e cautela de edital no DC28 (11/11/2026)
+
+**DC23, commit `528b8a18db2eed52a9789aeaaf36eb449ad3c690`:** metadado editorial do corpo foi alinhado às unidades **CAM-PL-019 e CAM-PL-020** previstas para os arts. 1º–24; incluída referência cruzada ao DC14 para comissões (25–54). Preservados título, `articleId` e conteúdo jurídico.
+
+**DC28, commit `f31fedd683c11a5353c8734912e1c40dff4ddfaa`:** eliminada a afirmação categórica de que os quatro intervalos regimentais são transcrição literal já conferida do edital específico. O quadro e o primeiro item de revisão agora atribuem expressamente os intervalos à **síntese interna do edital** e exigem cotejo com edital oficial de Divulgação Institucional e retificações. Esse ajuste evita transformar evidência secundária em certeza sobre o conteúdo da prova.
+
+**Verificação adicional:** a [biblioteca oficial da Câmara](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d) confirma 31ª edição do RICD, publicada em outubro de 2026 e atualizada até Resolução 34/2026. Não houve leitura integral dos dispositivos 1–24, 65–94, 226–251 e 262–273 nesta rodada; DC24–27 não foram reescritos por ausência de novo erro jurídico comprovado neste cotejo dirigido.
+
+**Indicador editorial acumulado:** **10 de 29 artigos modificados (34,5%)**: DC13, DC14, DC23, DC24, DC25, DC28, DC34–DC37. **Zero artigo integralmente certificado**. Os outros 19 ainda não passaram por alteração nesta fase, o que não prova defeito de seu conteúdo.

@@ -1427,3 +1427,40 @@ Permanecem **29 arquivos únicos** e **297 exercícios C/E examinados em grau va
 **Correção confirmada e publicada no DC30:** commit `c414f94dd77902ef24924bcfa7b45c1b1b409dc6`. Na conferência do [Regimento Comum consolidado, art. 90, § 3º, V, e art. 100](https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-171822-pl.html), foram explicitadas duas condições: **(a)** o relator da comissão mista deve fazer **referência expressa** ao ponto de vista da comissão permanente, ainda que não o acolha; **(b)** a falta de parecer da comissão mista demanda **publicação das emendas antes da convocação da sessão conjunta e designação de relator para parecer oral**. Essas condições foram inseridas no conteúdo principal, nos casos **G e H**, e nos comentários das questões **7 e 9**, sem mudança dos gabaritos.
 
 **Limite honesto:** o DC30 ainda requer conferência integral da aplicação das normas especiais de orçamento e possíveis ajustes normativos posteriores. **Não certificado** nesta etapa; **16/29 artigos editados** e **1/29 certificado** (DC29). O número de artigos editados não muda porque o DC30 já estava contabilizado.
+
+
+## Bloco 31: identidade editorial CAM-PL-019–022, links e pendências ativas DC34 (11/11/2026)
+
+**Escopo realizado:** recuperadas as versões atuais (com blob SHA) de **DC14, DC23, DC24, DC25, DC26 e DC34**; inspecionados `articleId`, `articleAliases`, rótulos CAM-PL no corpo, links cruzados de rastreabilidade e duas incorreções de DC34. A busca de código do GitHub por CAM-PL-020 e CAM-PL-022 não retornou resultados, portanto **não autoriza concluir que o catálogo e todos os backlinks foram percorridos**. Esta foi **verificação dos arquivos nomeados**, não teste automatizado do catálogo.
+
+### Matriz real de identidade nos seis arquivos
+
+| Arquivo | articleId atual | Papel declarado | Veredito localizado |
+| --- | --- | --- | --- |
+| DC14 comissões | `art-b6f0d82c91a74e35` | **CAM-PL-004**, expansão arts.25–54; remete CAM-PL-020 para DC23 | **Colisão textual 020 mitigada**; nota explícita na linha 129 |
+| DC23 Mesa e órgãos | `art-53a7d90f1b264c8e` | **CAM-PL-019 e CAM-PL-020**, ambos sobre arts.1–24 | **Mapeamento intencional de duas unidades para um arquivo** |
+| DC24 comissões/sessões | `art-8c7b2f4d50a963e1` | **CAM-PL-021**, início da trilha de sessões, arts.55–80 | Correto como parte do recorte com extensão de contexto |
+| DC25 expedientes/proposições | `art-6d8e3f041b9a52c7` | **Complemento CAM-PL-021**, arts.81–105; reserva 022 a DC26 | **Colisão textual 022 mitigada**; separa 81–94 do recorte básico e 95–105 suplementar |
+| DC26 deputados/mandato | `art-1de8b5094cf736a2` | **CAM-PL-022**, arts.226–251 | **Identidade correta**, preserva vínculo da arquitetura |
+| DC34 ética | `art-5b41764164052519` | **CAM-PL-030** | `articleId` e `articleAliases` presentes; persistem defeitos normativos no corpo |
+
+**Todos os seis arquivos têm `articleId` diferentes entre si e `articleAliases` correspondente a seu próprio caminho**. Não há nesses metadados colisão direta de ID. **Não é teste de unicidade global no repositório** e tampouco prova de integridade dos catálogos JSON/MD ou da publicação em GitHub Pages. Os links de DC14 para DC23, DC25 para DC24/DC26 e DC23 para DC14 são **sintaticamente coerentes** com os caminhos lidos; não foram executados nem inspecionados pelo renderizador Obsidian/site.
+
+### Riscos remanescentes, com evidência ainda presente
+
+- **NC-PL-025: confirmado ativo.** DC34, linha 106, seção `O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, V)`: fundamentação correta **art.13 VI, alíneas a–d**. Corrigir apenas referência e conferir usos laterais.
+- **NC-PL-026: confirmado ativo.** DC34, linha 121, `Regra especial da Corregedoria` atribui **“um deputado a menos” por assento especial**, sem previsão na redação atual do Código de Ética art.7º; diferenciar redação histórica de regra vigente. A assertiva atual exige fonte normativa autônoma superveniente ou retirada/rotulagem histórica.
+- **NC-PL-027/028: lacuna parcialmente mitigada, ainda não exaurida.** DC34, linha 185, já **menciona** procedimento cautelar distinto do sancionatório e prazo de três dias úteis. Não dizer que não existe nenhuma menção. Entretanto **faltam exposição estruturada da Res.11/2024, RICD art.15 XXX e §§2º–6º e do Ato da Mesa 180/2025**, especialmente as condições e relógios de 48h do Corregedor, 5 dias úteis da Mesa, 1 dia útil para recurso e a sessão imediatamente subsequente. Logo há **lacuna de completude**, não afirmativa necessariamente falsa.
+- **CAM-PL-020/022:** nos arquivos acima, conflitos estão **mitigados**. Manter P2 para varredura de indexação/catálogo externo aos arquivos; não classificar esses dois conflitos como atuais nos textos principais sem prova nova.
+
+### Matriz de próximos atos verificáveis
+
+**P0:** resolver e validar os trechos identificados em DC34 (025, 026), completar de forma proporcional e fundamentada a separação cautelar (027/028), e checar Mermaid do art.13–16. Reabrir a fonte consolidada para comprovar conteúdo final quando houver edição.
+
+**P1:** descobrir caminhos reais do catálogo e hub na árvore do GitHub, inspecionar `articleId`, associações CAM-PL e backlinks efetivos; checar unicidade dos IDs em todos os 29 artigos, não somente nos seis desta amostra. Se houver duplicações, produzir casos com arquivo e linha, sem mudar IDs por suposição.
+
+**P1:** manter matriz de cobertura do edital em dois eixos (literalidade no básico e objeto mais amplo no específico) para os 33 códigos, testando artigos compartilhados e auxiliares.
+
+**P2:** revisar após as edições paralelas as seis questões de DC34 e sua atualização de procedimentos, preservando os gabaritos quando o erro for apenas de referência do comentário.
+
+**Indicadores:** 29 arquivos de PL e **297 enunciados examinados em graus variados**, com certificação formal ainda restrita ao checkpoint de **DC29 (1/29)** informado no relatório paralelo; não se certificou mais nenhum artigo nesta rodada. **Diagnóstico estimado ~96% concluído, ~4% restante**, sobretudo integração de catálogo e fechamento de segurança do DC34; **não equivale a 96% de conteúdo juridicamente certificado**. Esta rodada alterou **somente relatório e índice**, sem edição de artigos de estudo. O avanço de 94% para 96% é uma estimativa de esforço, não medida objetiva.

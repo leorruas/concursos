@@ -86,3 +86,17 @@ Foi efetuada **leitura individual dos 50 pares enunciado, gabarito e justificati
 **Limitações:** esta checagem é feita pela leitura do conteúdo do banco e comparação conceitual, sem execução de testes automatizados, sem examinar bancos derivados, sem recuperar corpus oficial Cebraspe para cada item e sem provar ausência de versões parafraseadas dos 13 itens em sessões históricas. O campo `subjectId` serve para localizar a matéria, mas **não constitui, por si só, flag de homologação de conteúdo**.
 
 **Decisão operacional:** manter as 50 questões didáticas de Informática sem alteração nesta rodada. Preservar a lista explícita de **13 enunciados de artigos bloqueados** e exigir filtro na seleção a partir de Markdown até que uma regra automática com teste verificável exista. A correção dos 13 enunciados precisa ser versionada separadamente para não perder rastreabilidade.
+
+## Barreira na validação de sessões CAM-TI (11/11/2026)
+
+Foi adicionada proteção **restrita ao concurso `camara-2026` e à matéria `informatica` / unidade `tecnologia-e-dados`**:
+
+- `scripts/camara-ti-question-guard.js`: lê os artigos numerados em `3 - Materias/Informatica/`, identifica blocos `### Item N` / `### Questão N` marcados com `Gabarito: NÃO HOMOLOGADO` e constrói um índice de enunciados bloqueados, com normalização de Unicode, caixa, espaços e marcações Markdown simples. O índice é atualizado quando os arquivos-fonte mudam.
+- `scripts/study-sessions.js`: chama a validação antes de aceitar o item de uma sessão da Câmara, incluindo sessões mistas com questão de Informática. O bloqueio **não depende** do rótulo declarado de origem da questão. As outras disciplinas e concursos permanecem fora do escopo.
+- `scripts/test-camara-questions.js`: adicionados cenários para as **13 questões bloqueadas**, isolamento de outras matérias e preservação das **50 questões do banco piloto**.
+
+**Verificação realizada:** código enviado e relido no GitHub; conferido por leitura da expressão de extração que os 13 blocos dos artigos 03, 05, 07, 09, 13, 18, 21, 22, 24, 27 e 29 continuam reconhecíveis e contêm enunciado. **Os testes Node.js ainda não foram executados neste ambiente**: o acesso ao repositório disponível nesta sessão não permite executar `npm test` ou `node scripts/test-camara-questions.js` sobre a cópia corrente. Portanto, a proteção está **implementada, mas a confirmação em execução permanece pendente**.
+
+**Limites deliberados:** a regra reconhece enunciados iguais após normalização simples. **Paráfrases**, novos enunciados que repetem o erro conceitual e geradores externos que apenas mostram questões sem passar por `validateSession` **não estão cobertos**. A regra age na **entrada/validação da sessão**, não demonstra filtragem na interface de escolha de questões. O guard deve permanecer como camada de defesa até que a seleção e os outros canais de ingestão sejam auditados.
+
+**Próxima prova obrigatória:** executar `node scripts/test-camara-questions.js` no repositório atualizado, confirmar 13 rejeições e 50 admissões no banco piloto e executar os testes gerais da Câmara para detectar regressões. Se houver falha, corrigir a implementação antes de considerar o bloqueio operacionalmente certificado.

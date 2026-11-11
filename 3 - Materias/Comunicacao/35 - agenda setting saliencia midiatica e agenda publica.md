@@ -5,7 +5,7 @@ title: "Agenda-setting: saliência dos temas, agendas e limites da influência"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-11
 ---
 
 # Agenda-setting: saliência dos temas, agendas e limites da influência
@@ -121,6 +121,14 @@ Uma questão pode definir agendamento corretamente e afirmar que ele **determina
 **Item C/E 3, inédito:** “A correlação entre assuntos destacados pelos meios e assuntos apontados pelo público como prioritários demonstra, independentemente de outros fatores, que a mídia foi a causa da preocupação pública.”
 
 **Gabarito: Errado.** O distrator confunde associação estatística com identificação causal.
+
+## Cotejo dirigido: McCombs e Shaw (1972)
+
+O estudo **“The Agenda-Setting Function of Mass Media”** examinou a relação entre o **destaque concedido a temas na cobertura** e a **importância atribuída a esses assuntos pelos eleitores**. Os autores reportam correlações entre saliências, inclusive valores de **+0,967** e **+0,979** para comparações agregadas, e reconhecem limites do desenho observacional. Esses coeficientes não provam, por si, que a cobertura tenha causado a preocupação dos entrevistados.
+
+**Itens conferidos na fonte de 1972:** item 1, **Certo**, é compatível com a hipótese de saliência temática; item 3, **Errado**, pois associação entre duas agendas não demonstra causalidade isoladamente. **Item 2 fica pendente de cotejo em obra posterior**, já que o segundo nível, relativo à saliência de atributos, corresponde a desenvolvimento posterior da tradição, não ao estudo original de 1972. Não se alteraram os gabaritos dos itens 1 e 3 neste exame.
+
+**Fonte primária verificada:** [McCombs e Shaw, *Public Opinion Quarterly*, 36(2), 1972, pp. 176–187, especialmente pp. 176 e 180–182](https://www.thetawelle.de/wp-upload/McCombsShaw1972.pdf), consultado em 11/11/2026. A fonte não basta para certificar integralmente a explicação do segundo nível nem sua distinção de framing.
 
 ## Aplicação discursiva
 

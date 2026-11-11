@@ -1,0 +1,11 @@
+# Bloco 63: DC07, certificação normativa delimitada com ressalva pedagógica
+
+Data: 11/11/2026. Artigo: [[3 - Materias/Direito Constitucional/07 - poder executivo]]. Fonte principal: [CF atualizada, arts. 76–91](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), além de arts. 2º, 61, 66 e EC 111/2021.
+
+**Diagnóstico:** núcleo do texto original juridicamente coerente no contraste Chefe de Estado/Chefe de Governo, Executivo versus Administração Direta/Indireta, participação legislativa e nomeações. Ausentes eleição, posse, sucessão, dupla vacância, responsabilização presidencial, ministros e órgãos consultivos. **Não havia questões C/E, gabaritos ou casos progressivos** no artigo. Certificação normativa não resolve a lacuna de treino.
+
+**NC-PL-064:** arts. 77–83: eleições, posse, mandato de quatro anos com **início em 5 de janeiro desde as eleições de 2026**, substituição do Vice, linha de exercício da Presidência e eleição em dupla vacância, licença para ausência do Brasil por período superior a 15 dias. **NC-PL-065:** art. 84, VI e parágrafo único: decretos de organização sem aumento de despesa/criação/extinção de órgãos e extinção de cargos/funções vagos; delegação taxativa dos incisos VI, XII e XXV (primeira parte); deveres presidenciais perante Congresso. **NC-PL-066:** arts. 85–86: responsabilidade presidencial, Câmara por dois terços, STF ou Senado conforme espécie, suspensão e regras do mandato. **NC-PL-067:** arts. 87–91: ministros, Conselho da República e Conselho de Defesa Nacional.
+
+**Edição publicada no artigo:** commit `892570baa0571395c64bf2b9d69b09a0b3a6b6d8`, articleId preservado. **Questões existentes e revisadas: 0. Questões criadas: 0. Casos progressivos: 0**. Não alterar inventário histórico reportado de **297 itens** sem recálculo global.
+
+**Estado sequencial após bloco 63:** **26/29 artigos cotejados normativamente** (DC07–29, DC31–33), **3/29 pendentes**, incluindo DC30. DC07, DC08 e DC09 possuem ressalvas pedagógicas abertas. Índice e diagnóstico central ainda exigem reconciliação dos checkpoints individuais. Sem inspeção visual ou teste GitHub Pages. **Próximo artigo: DC06, Poder Legislativo**.

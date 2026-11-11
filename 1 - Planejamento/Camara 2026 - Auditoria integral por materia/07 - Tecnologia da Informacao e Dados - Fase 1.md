@@ -703,3 +703,50 @@ Os itens da mesma página sobre SQL, triggers, chaves, pareamento e LGPD foram d
 ### Estado e próxima etapa
 
 **92 achados históricos TI-001–TI-092**, entre avisos, verificações positivas, achados abertos e reparos realizados em outras operações. **57 itens reais de TI examinados individualmente em seis cadernos oficiais; 54 válidos C/E e três anulados (INSA #42; MPO Cargo 6 #76; TCU #165)**. Trinta artigos numerados de Informática lidos seletivamente, 28 CAM-TI correspondentes nominalmente ao edital, nenhum artigo inteiramente certificado. **Lacunas de calibração a verificar:** engenharia de prompts e estrutura/avaliação, Tableau, Looker Studio, storytelling. Confirmar caderno e gabarito definitivo antes de adicionar qualquer amostra. **Só relatório e índice-mestre podem ser alterados nesta Fase 1.**
+
+
+## Bloco 17: storytelling, dashboards e visualização: Funpresp-Exe 2025 e Infra S.A. 2026 (11/11/2026)
+
+**Duas provas oficiais Cebraspe e seus gabaritos definitivos foram identificados e inspecionados visualmente, preservando a variante do caderno:**
+
+1. **FUNPRESP-EXE, Cargo 8, Estatística, Ciência de Dados e Inovação**, aplicação **09/02/2025**, caderno `040_FUNPRESPEXE_008_01`: [caderno oficial (2 páginas)](https://cdn.cebraspe.org.br/concursos/FUNPRESP_24_EXE/arquivos/040_FUNPRESPEXE_008_01.PDF) e [gabarito oficial definitivo](https://cdn.cebraspe.org.br/concursos/FUNPRESP_24_EXE/arquivos/Gab_Definitivo_040_FUNPRESPEXE_008_01.PDF). Capturas da página 2 dos itens e da página do gabarito confrontadas.
+2. **INFRA S.A., Cargo 2, Analista de Sistemas**, aplicação **15/03/2026**, caderno de conhecimentos específicos `171_INFRA_SA_002_01`: [caderno oficial](https://cdn.cebraspe.org.br/concursos/infrasa_26_analista/arquivos/FFBDFDD029A3100A430BBE3AFF3F3570154DBA24ADD3514177FB5F4B15616D63.pdf) e [gabarito oficial definitivo da variante Cargo 2](https://cdn.cebraspe.org.br/concursos/infrasa_26_analista/arquivos/7944AB4B7941159976852E9E7DAC63D14EA065EAB2E02FB7A3183690E7C4E520.pdf). Inspecionadas visualmente a segunda página do caderno e a tabela do gabarito. **Não confundir** com variantes do cargo 7 ou 10, cujos gabaritos são diferentes.
+
+### Itens da Funpresp-Exe, visualização e storytelling (10)
+
+| Item | Fragmento decisivo resumido | Gabarito definitivo | CAM-TI, aderência |
+|---|---|:---:|---|
+| **87** | Escolha de cores teria pouca influência na interpretação | **E** | 024, visualização, direta |
+| **88** | Dashboard interativo permite exploração em níveis de detalhe | **C** | 024/027, direta |
+| **89** | Barras adequadas a comparar categorias | **C** | 025, direta |
+| **90** | Pizza seria melhor para conjuntos complexos de dados | **E** | 024/025, direta |
+| **111** | Storytelling refletir valores partilhados pelo público fortalece confiança | **C** | 028, **parcial**: narrativa de comunicação/vendas |
+| **112** | Storytelling pode criar conexão emocional com cliente | **C** | 028, **parcial** |
+| **113** | Conflito deveria ser evitado em narrativa de venda | **E** | 028, **parcial** |
+| **114** | Clímax de narrativa de vendas associado a perceber solução ideal | **C** | 028, **parcial** |
+| **115** | Personalização de personagem para perfil de cliente | **C** | 028, **parcial** |
+| **116** | Experiências pessoais seriam necessariamente antiéticas no storytelling | **E** | 028, **parcial** |
+
+**Importante:** os seis itens 111–116 são **storytelling em comunicação e vendas**, e não especificamente narrativa analítica com evidências quantitativas. Seus gabaritos são históricos e não autorizam transferir sem ressalva o papel da emoção, clímax comercial ou personalização de personagem para relatórios técnicos de órgãos públicos.
+
+### Itens da Infra S.A., storytelling com dados e exploração de BI (3)
+
+| Item | Fragmento decisivo resumido | Gabarito definitivo | CAM-TI, aderência |
+|---|---|:---:|---|
+| **72** | Excesso de elementos visuais e métricas detalhadas fortaleceria storytelling técnico | **E** | 028 e 024, **direta**, ressalva ao excesso informacional |
+| **74** | Modelo associativo Qlik facilita exploração sem caminhos de navegação pré-definidos | **C** | 027, **parcial e ferramenta fora do edital**, pois Câmara nomeia Power BI, Tableau e Data Studio |
+| **75** | Storytelling de dashboards dispensaria validação estatística | **E** | 028, **direta**, rigor de evidência permanece obrigatório |
+
+O mesmo caso hipotético da Infra S.A. trata de sensores, Hadoop e Qlik. O fato de esses recursos estarem na prova **não demonstra cobrança autônoma** de Hadoop/Qlik no programa de TI da Câmara. O item 74 foi incluído apenas para contraste entre exploração interativa e história analítica, sempre sinalizado como **complementar/extraliteral**.
+
+### Achados e estado de calibração
+
+**TI-093, NOVA FONTE REAL SOBRE VISUALIZAÇÃO.** Funpresp-Exe 2025, itens 87–90: quatro gabaritos definitivos `E,C,C,E`, diretamente aplicáveis a gráficos, codificação visual, escolha do formato e dashboards `CAM-TI-024/025/027`. A existência de item sobre barras e categoria reforça TI-015/018 como *temas para qualificação*, sem provar qualquer nova inversão em itens autorais.
+
+**TI-094, STORYTELLING NARRATIVO VERSUS STORYTELLING COM DADOS.** Os seis itens `111–116` da Funpresp são válidos, com sequência definitiva `C,C,E,C,C,E`, mas têm orientação comercial e narrativa. Para `Informatica/30`, usar apenas os mecanismos amplos (conflito/tensão, audiência, clareza, risco de regra absoluta) e preservar a obrigação de rastreabilidade e de não distorção de informações públicas. Aderência **parcial**.
+
+**TI-095, STORYTELLING COM DADOS EM PROVA 2026.** Infra S.A. 2026, itens `72 E` e `75 E`, apresentam enunciados que negam valor de concisão e rigor estatístico em storytelling de dashboards. A banca considerou ambos **ERRADOS**; o vínculo ao `CAM-TI-028` é **direto**. O item `74 C` oferece uma comparação de exploração BI via Qlik, mas a ferramenta não foi nomeada no edital da Câmara. Não inferir frequência da banca com dois itens.
+
+**TI-096, LACUNAS REMANESCENTES E HORIZONTE DE PARADA.** A busca específica e as provas desta rodada **não forneceram itens oficiais com gabarito definitivo diretamente verificável de engenharia de prompts, Tableau ou Looker Studio**. Não registrar item baseado em edital, enunciado isolado, blog, gabarito preliminar ou cargo divergente como corpus calibrado. A Fase 1 já dispõe de exemplos diretos de Word/Excel/PowerPoint, redes, malware, princípios de IA, aprendizagem supervisionada/reforço, dados, Power BI e storytelling. A prioridade marginal de continuar buscando indefinidamente questões para cada palavra do edital é menor que **reconciliar achados ainda abertos e encerrar com ressalvas e fila de reparo**. As lacunas específicas devem ser declaradas, não preenchidas por equivalência presumida.
+
+**Contagem consolidada:** 10 itens Funpresp + 3 itens Infra S.A. = **13 novos itens reais, todos válidos C/E, zero anulação nesta amostra**. Acumulado **70 itens reais em oito cadernos oficiais, 67 válidos e três anulados** (INSA #42; MPO Cargo 6 #76; TCU #165). **96 achados históricos TI-001–TI-096**, incluindo verificações, itens reparados por outros agentes e erros ainda abertos; isso **não significa 96 correções pendentes**. **30/30 artigos de Informática examinados seletivamente, 28/28 CAM-TI mapeados nominalmente, zero artigos integralmente certificados**. **Nenhuma teoria, gabarito, hub, catálogo ou índice de questões reais foi editado nesta Fase 1: somente relatório e índice-mestre.**

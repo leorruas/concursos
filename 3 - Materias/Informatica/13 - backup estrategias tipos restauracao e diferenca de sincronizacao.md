@@ -155,8 +155,8 @@ Em planos de contingência do setor público, dois parâmetros definem os limite
 ### Questão 1 (Cebraspe / Inédita)
 > O procedimento de backup incremental copia todos os arquivos alterados desde o último backup completo ou incremental, desmarcando o atributo de arquivo (*archive bit*) ao término da operação.
 
-- **Gabarito**: **CERTO**
-- **Fundamentação**: No **modelo clássico descrito no enunciado**, o incremental copia alterações desde o backup de referência e desmarca o *archive bit*. Essa descrição não pode ser generalizada a todos os softwares modernos: muitos controlam alterações por outros mecanismos.
+- **Gabarito**: **NÃO HOMOLOGADO (implementação não especificada)**
+- **Fundamentação**: O conceito incremental é copiar dados modificados desde o backup relevante anterior. **Desmarcar o *archive bit*** caracteriza implementações tradicionais que utilizam esse atributo, mas não é comportamento obrigatório de todo software de backup incremental. O enunciado não fixa produto ou mecanismo, logo combina um princípio geral com um detalhe não universal. **Versão de treino:** “Em um sistema tradicional de backup baseado no *archive bit*, o backup incremental copia arquivos modificados desde o último backup apropriado e pode limpar esse atributo após copiá-los.” **Gabarito reformulado: CERTO.**
 
 ---
 
@@ -172,15 +172,15 @@ Em planos de contingência do setor público, dois parâmetros definem os limite
 > A sincronização automática de arquivos de uma estação de trabalho para um repositório corporativo em nuvem, como o Microsoft OneDrive ou Google Drive, substitui plenamente a necessidade de rotinas de backup, haja vista que qualquer alteração realizada localmente é imediatamente replicada e preservada em ambiente externo.
 
 - **Gabarito**: **ERRADO**
-- **Fundamentação**: Pegadinha recorrente. A sincronização automática **não** substitui o backup. Se um arquivo for deletado por engano ou corrompido por um ransomware localmente, a sincronização propagará a exclusão ou corrupção imediatamente para a nuvem. O backup pressupõe preservação histórica estática e isolada do estado operacional corrente.
+- **Fundamentação**: Pegadinha recorrente. A sincronização automática **não** substitui o backup. Se um arquivo for deletado por engano ou corrompido por um ransomware localmente, a sincronização propagará a exclusão ou corrupção imediatamente para a nuvem. O backup exige estratégia de recuperação e retenção independente da mera sincronização corrente; **não precisa ser imutável ou completamente isolado** em toda arquitetura.
 
 ---
 
 ### Questão 4 (Cebraspe / Inédita)
 > O atributo de arquivo (*archive bit*) é mantido ativo (marcado) após a conclusão de um backup diferencial, razão pela qual os arquivos alterados na segunda-feira voltam a ser copiados no backup diferencial de terça-feira, caso não haja novo backup completo no intervalo.
 
-- **Gabarito**: **CERTO**
-- **Fundamentação**: Exato. O backup diferencial não desmarca o *archive bit*. Como o bit continua ligado, os arquivos continuam sendo selecionados em todos os diferenciais subsequentes até que um novo backup Completo seja executado e zere os atributos.
+- **Gabarito**: **NÃO HOMOLOGADO (implementação não especificada)**
+- **Fundamentação**: Em rotinas tradicionais **baseadas no *archive bit***, o diferencial não o limpa e os arquivos continuam elegíveis para diferenciais seguintes. Porém, **backups diferenciais modernos não precisam usar esse atributo**. O enunciado apresenta o comportamento do atributo como universal. **Versão de treino:** “Em uma implementação clássica que utiliza o *archive bit*, um backup diferencial não limpa o atributo e volta a incluir arquivos alterados desde o backup completo.” **Gabarito reformulado: CERTO.**
 
 ---
 
@@ -223,3 +223,5 @@ Em planos de contingência do setor público, dois parâmetros definem os limite
 - **Microsoft Learn**: Guia de arquitetura de proteção de dados e histórico de versões do Microsoft 365 e Azure Backup.
 
 > **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** questões 1 e 4 **não homologadas** por universalizarem manipulação do *archive bit* sem definir implementação. Questões 2, 3, 5 e 6 mantêm **E, E, C, E**. As regras de backup completo/incremental/diferencial devem distinguir conceito de mecanismo operacional.

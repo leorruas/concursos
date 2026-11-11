@@ -199,3 +199,19 @@ Um indicador consistente no setor público e no plano estratégico da Câmara do
 > **Revisão editorial (11/11/2026):** ajustes localizados a partir da auditoria Câmara 2026, para explicitar o alcance das regras e separar exemplos hipotéticos de fatos. Os itens inéditos continuam sujeitos à validação integral de enunciados, comentários e referências.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** Item 4 **não homologado** devido à ausência de critério de avaliação no enunciado. Os demais itens 1–3 e 5–6 mantêm gabaritos em revisão conceitual; o modelo DIKW é uma estrutura didática, e o uso de “sabedoria” não deve virar alegação empírica universal sobre humanos e máquinas.
+
+---
+
+## Questão substituta S24-4: direção de melhoria e metas
+
+> Um indicador expresso em porcentagem não informa, apenas por sua unidade, se aumentar seu valor representa melhora: taxas de conclusão podem ser avaliadas como “quanto maior, melhor”, enquanto taxas de retrabalho podem ser avaliadas como “quanto menor, melhor”.
+
+**Gabarito: CERTO (inédita, substitui a Questão 4 bloqueada).** Para interpretar o desempenho, deve-se explicitar **objeto medido**, **numerador**, **denominador**, **período**, **população** e **critério de sucesso**. A polaridade pode ser crescente ou decrescente; alguns indicadores são avaliados por **faixa-alvo** ou proximidade a um valor, não por uma direção única.
+
+**Caso progressivo:** uma taxa de conclusão de 80% pode ser melhor que 60%, mantidas as demais condições. Para incidência de erros, 2% pode ser melhor que 8%. Já para ocupação de um serviço, tanto 10% quanto 100% podem ser indesejáveis quando a meta é operar entre 70% e 85%.
+
+**Contraexemplo:** “Toda taxa percentual deve ser maximizada” é **ERRADO**. A fórmula por si só não estabelece polaridade.
+
+**Relações:** [[3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade|Qualidade de dados]] e [[3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica|Pergunta analítica e seleção de gráfico]].
+
+**Rastreabilidade:** Questão 4 original permanece **NÃO HOMOLOGADA**.

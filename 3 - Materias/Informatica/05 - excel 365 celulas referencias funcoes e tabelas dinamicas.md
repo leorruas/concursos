@@ -173,7 +173,7 @@ Portanto, a fórmula em `E5` será perfeitamente `=SOMA($B$2:C4)`.
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** O valor `0` (zero) é um número legítimo e é processado normalmente pelo Excel, entrando na soma e incrementando a contagem do denominador. O que o Excel ignora na função `MÉDIA` são células vazias (em branco), textos ou valores lógicos dentro do intervalo.
+**Comentário:** O valor numérico `0` participa da média e do denominador. Na referência de **intervalo** usada no item, `MÉDIA` ignora células vazias e valores de texto/lógicos não numéricos, conforme as regras da função. Isso não significa que todos os tipos de argumentos e fórmulas que parecem vazios sejam tratados identicamente.
 
 ---
 
@@ -205,8 +205,8 @@ Portanto, a fórmula em `E5` será perfeitamente `=SOMA($B$2:C4)`.
 *( ) Certo*
 *( ) Errado*
 
-**Gabarito: Certo.**
-**Comentário:** O primeiro maior valor de um conjunto (argumento `k = 1`) corresponde por definição matemática ao valor máximo daquele intervalo.
+**Gabarito: NÃO HOMOLOGADO (domínio dos dados omitido).**
+**Comentário:** Quando o intervalo contém pelo menos um número válido, `MAIOR(A1:A10;1)` e `MÁXIMO(A1:A10)` retornam o mesmo valor. **Sem números**, `MAIOR` produz erro `#NÚM!`, enquanto `MÁXIMO` devolve `0`, contrariando a equivalência universal do enunciado. **Redação de treino:** “Se A1:A10 contém ao menos um número, `MAIOR(A1:A10;1)` e `MÁXIMO(A1:A10)` retornam o mesmo resultado numérico.” **Gabarito reformulado: CERTO.**
 
 ---
 
@@ -235,3 +235,5 @@ Portanto, a fórmula em `E5` será perfeitamente `=SOMA($B$2:C4)`.
 > **Nota de revisão (11/11/2026):** corrigido o caráter universal da atualização manual de Tabelas Dinâmicas, preservado o enunciado do item 6 e explicitada a reserva de versão/configuração conforme TI-034.
 
 > **Validação de questão, segunda passagem (11/11/2026):** Item 6 conferido contra a [documentação atual de atualização de Tabelas Dinâmicas da Microsoft](https://support.microsoft.com/pt-br/excel/refresh-pivottable-data). **Gabarito mantido: ERRADO**, por universalizar o comportamento. Status: **validado com ressalva de versão/canal e redação**; não usar a antiga regra “sempre exige atualização manual”.
+
+> **Auditoria de questões, segunda passagem (11/11/2026):** seis itens examinados; Q1–Q4 e Q6 mantêm **C, E, E, C, E**, com a ressalva de versão já registrada na Q6. **Q5 não homologada**, pois a igualdade entre MAIOR e MÁXIMO pressupõe dados numéricos. A revisão protege contra memorização de igualdade incondicional.

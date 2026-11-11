@@ -5,7 +5,7 @@ title: "Diagnóstico publicitário: evidências, hipóteses e problema de comuni
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Diagnóstico publicitário: evidências, hipóteses e problema de comunicação
@@ -130,6 +130,18 @@ O [Apêndice I da Portaria Secom/PR nº 35/2025](https://www.gov.br/secom/pt-br/
 **Item 3.** Quando uma campanha apresenta crescimento de cliques e de inscrições após sua veiculação, a comparação entre os períodos comprova, mesmo sem controle de outras mudanças, que a publicidade foi responsável pela totalidade do aumento das inscrições.
 
 **Gabarito: Errado.** Antes/depois pode mostrar associação temporal, mas não isola fatores simultâneos, como mudança de calendário, falha corrigida ou aumento da oferta. A pegadinha converte monitoramento em prova causal.
+
+## Auditoria de diagnóstico e avaliação: AMEC e questão histórica Cebraspe (11/11/2026)
+
+O [Integrated Evaluation Framework da AMEC](https://amecorg.com/amecframework/) estabelece uma cadeia de planejamento e avaliação que distingue **inputs, atividades, outputs, out-takes, outcomes e impactos**. Esta terminologia provém da AMEC e não constitui classificação obrigatória da Câmara. A etapa de **inputs** inclui conhecimento prévio dos públicos, situação, recursos e planejamento. **Outputs** referem-se às entregas e exposição da comunicação, **out-takes** à atenção e compreensão iniciais dos públicos, **outcomes** a efeitos sobre conhecimento, atitude e comportamento, e **impactos** à contribuição aos objetivos institucionais.
+
+**Consequência para o diagnóstico:** a queda de inscrições é um dado de resultado, enquanto “falta de divulgação” é uma **hipótese causal**. Para investigá-la, o diagnóstico deve examinar simultaneamente alcance dos canais, compreensão das instruções, acesso ao formulário, público elegível e eventuais mudanças na oferta. A classificação de um fator na SWOT organiza hipóteses, mas **não valida** seu peso causal. Crescimento após campanha é evidência temporal que requer exame de outras explicações.
+
+**Cotejo dos três exercícios inéditos preexistentes:** **1 Certo**, pois diferencia sintoma e causa; **2 Errado**, pois SWOT não é prova causal; **3 Errado**, pois simples comparação antes/depois não atribui integralmente a variação à publicidade. O apoio **direto** da AMEC está na distinção entre planejamento, indicadores e efeitos; a ressalva sobre causalidade é inferência metodológica da nota, não citação textual do modelo.
+
+**Questão real relacionada, sem nova contagem no corpus:** no [caderno oficial Correios 2011, Cargo 28, item 85](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), a banca considera relevante a **experiência passada do anunciante** no planejamento. O julgamento **Certo** já consta do [índice histórico conferido](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md). A conclusão legítima é que o histórico deve **informar** o diagnóstico, sem determinar sozinho a intervenção.
+
+**Novo C/E inédito:** “O diagnóstico que registra simultaneamente aumento de impressões e queda de inscrições já demonstrou que o problema está na qualidade da criação publicitária.” **Errado.** Dois indicadores de etapas diferentes apontam uma lacuna a investigar, não a causa específica.
 
 ## Relações e heurísticas
 

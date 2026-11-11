@@ -687,3 +687,35 @@ O campo \`corpus\` do mesmo JSON registra apenas **duas provas de Comunicação*
 ### Próximo trabalho
 
 Priorizar **validação por caderno e gabarito definitivos do CNMP 2023, itens 111–120**, sobretudo lei aplicável e eventuais anulações; acrescentar corpus C/E de Administração da mesma banca apenas com proveniência verificável. Em paralelo, testar resolução de âncoras e concluir matriz do edital DA/AP com ordens de correção e evidência por arquivo. Não transformar este diagnóstico em certificação global ou migrar à Fase 2 sem decisão expressa.
+
+
+## Bloco 16: CNMP 2023, itens 111–120, provas reais e atualização normativa (11/11/2026)
+
+**Fontes diretamente verificadas:** [caderno oficial CNMP 2023, cargo 3 Comunicação Social, código 814_CNMP_003_01, página 3](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF) e [gabarito definitivo oficial do mesmo código, página única](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF). Ambos os PDFs foram lidos e **inspecionados visualmente**. Aplicação em 16/04/2023. **Itens 111–120 não anulados**; todos têm gabarito definitivo. Não transcrever enunciados completos no repositório.
+
+| Item real | Objeto | Gabarito definitivo | Conferência legal em 2026 |
+| --- | --- | --- | --- |
+| 111 | Dispensa e possível competição | **E** | Lei 14.133, art. 75; competição viável não torna obrigatória licitação se hipótese legal autoriza dispensa |
+| 112 | Combinação de hipóteses para contratação por dispensa | **E** | Resposta da banca verificada; a interpretação **não comprova vedação universal de toda coexistência de fundamentos**. Requer delimitar contexto e jurisprudência; uso didático sob reserva |
+| 113 | Artista por empresário exclusivo e consagração pública/crítica | **C** | Lei 14.133 art. 74 II e §2º; exigir exclusividade efetiva/documentada |
+| 114 | Credenciamento com inscrição **anual** | **E** | Lei 14.133 art. 79 **§1º I** (atual), impõe cadastramento **permanente**, não anual; Lei 15.266/2025 renumerou parágrafo único |
+| 115 | Registro de preços e entrega em localidades distintas | **C** | Lei 14.133 art. 82 III a prevê preços diferenciados por local de entrega/execução |
+| 116 | Pré-qualificação de licitantes e bens | **C** | Lei 14.133 art. 80, seleção anterior de licitantes ou bens, conforme regime |
+| 117 | Tratamento de dados sensíveis por obrigação legal, sem consentimento | **C** | LGPD art. 11 II a, quando indispensável e sob princípios aplicáveis |
+| 118 | CPF seria categoria sensível pela LGPD | **E** | LGPD art. 5º I/II: dado pessoal identificador, não sensível por sua categoria |
+| 119 | Indeferimento de suspeição sujeito a recurso **com** efeito suspensivo | **E** | Lei 9.784 art. 21: recurso **sem** efeito suspensivo |
+| 120 | Processo iniciado de ofício ou mediante pedido | **C** | Lei 9.784 art. 5º: previsão literal |
+
+**Fontes normativas:** [Lei 14.133 no portal legislativo](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2021-04-01%3B14133); [LGPD atualizada, Câmara](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html); [Lei 9.784 atualizada, Câmara](https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html). **Cotejo das premissas decisivas com a legislação em vigor, não certificação de todos os cenários interpretativos**, especialmente item 112. Revalidar alterações futuras antes de reutilizar.
+
+**DA-073, ALTA, autenticação de procedência:** dez questões **reais** identificadas com prova, código, página e gabarito definitivo, sequência **E/E/C/E/C/C/C/E/E/C**; nenhuma anulação na faixa. O índice previamente listava só intervalos; **nenhuma questão ingressou no banco estruturado nesta fase**.
+
+**DA-074, IMPORTANTE, atualização de dispositivo:** CNMP#114 continua Errado porque credenciamento exige cadastro **permanente**, mas, após a Lei 15.266/2025, localizar no **art. 79 §1º I**; material didático que cite só o antigo parágrafo único sem versão precisa de atualização.
+
+**DA-075, IMPORTANTE, limite pedagógico de CNMP#112:** gabarito Errado provado, porém “combinação de hipóteses de dispensa” é expressão geral; não inferir proibição absoluta de toda cumulação ou interação de hipóteses sem casos e fonte aplicável. Requer comentário jurídico mais delimitado antes de treino independente.
+
+**DA-076, IMPORTANTE, análise de vigência:** na revisão dirigida não se encontrou inversão atual dos gabaritos dos itens 111–120, mas há mudanças na numeração do credenciamento e condições próprias da contratação artística, do tratamento de dados e dos recursos. **Autenticação de fonte ≠ certificação integral da interpretação atual**.
+
+**DA-077, MELHORIA, integração do treino real ao edital 14.2.3:** questões 111–116 vinculam-se a contratação direta e procedimentos auxiliares (**item 10**); 117–118 à **LGPD (item 12)**; 119–120 à **Lei 9.784 (item 4.4)**. Nenhuma aborda New Public Governance, ETP, TR, papel do fiscal ou improbidade. Manter distinção **real** versus inédita e nunca copiar PDF integral para notas públicas.
+
+**Balanço:** dez itens do caderno original e dez gabaritos definitivos **inspecionados diretamente**, cotejo legal seletivo, sem anulações neste recorte, **zero mudanças nos artigos, questões do projeto e catálogo**; DA-073 a DA-077 são resultados desta rodada, elevando identificadores da frente a **DA-001–DA-077**, não 77 erros. Próximo: teste de \`theoryRefs\` e âncoras dos 48 itens DA/AP, matriz final de correções priorizadas por gravidade e edital. A **Fase 1 permanece aberta**.

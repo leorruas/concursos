@@ -142,6 +142,20 @@ A [WCAG 2.2, critério 1.4.3](https://www.w3.org/TR/WCAG22/#contrast-minimum) ex
 
 **Limites:** este exame é normativo, não valida nesta rodada as atribuições sobre critérios de elementos de marca de Keller nem a taxonomia de arquitetura de marcas.
 
+## Cotejo autoral: seis critérios de Keller e a diferença para a CBBE (11/11/2026)
+
+A classificação apresentada acima como **seis critérios de escolha de elementos de marca** coincide com o capítulo “Choosing Brand Elements to Build Brand Equity” de Kevin Lane Keller, em *Strategic Brand Management*, no qual o autor explicita: **memorável, significativo, agradável, transferível, adaptável e protegível**. Os três primeiros orientam a construção do valor da marca pelos elementos; os três seguintes ajudam a preservar ou aproveitar esse valor sob mudanças de mercado e de uso. A distinção entre transferibilidade (categorias e geografias) e adaptabilidade (atualização ao longo do tempo) aparece expressamente na fonte.
+
+| Item existente | Gabarito | Situação |
+| --- | --- | --- |
+| 2 | **Certo** | **Conferido** no capítulo de Keller: transferibilidade e adaptabilidade são critérios distintos e corretamente descritos. |
+
+**Erro de atribuição a evitar:** esses **seis critérios para escolher elementos** não são os **seis blocos da pirâmide CBBE** (saliência, desempenho, imagem, julgamentos, sentimentos e ressonância). A pirâmide trata de construção de relacionamento e valor a partir da resposta do consumidor; os critérios tratam da seleção e da gestão dos elementos identificadores. Essa distinção é confirmada pela [explicação do próprio Keller sobre a pirâmide](https://www.gbkcollective.com/thoughtleadership/qandakevinlanekeller).
+
+**Exercício C/E inédito:** “Na estrutura de Keller, transferibilidade e adaptabilidade são níveis sucessivos da pirâmide CBBE, ao passo que saliência é um dos critérios de escolha de logotipos.” **Errado.** O enunciado troca dois conjuntos conceituais de um mesmo autor.
+
+**Fontes para cotejo:** Kevin Lane Keller, [*Strategic Brand Management*, capítulo 4, “Criteria for Choosing Brand Elements”, com quadro dos seis critérios](https://www.sweetstudy.com/sites/default/files/q5/22/10/keller_strategic_brand_management.pdf); [Keller, apresentação autoral da pirâmide de ressonância](https://www.gbkcollective.com/thoughtleadership/qandakevinlanekeller). **Limite:** a reprodução da obra, embora contenha o quadro atribuído ao autor, não é hospedada pela editora; convém confirmar edição e paginação no exemplar bibliográfico adotado. Os demais itens do artigo não foram certificados por esta consulta.
+
 ## Relações com outros temas
 
 **Marca × branding:** a marca pode designar sinais e associações; branding organiza decisões para gerir seus significados e experiências. **Identidade visual × identidade organizacional:** sistema de expressão gráfica versus características reivindicadas por membros. **Reconhecimento × reputação:** lembrar um símbolo não indica necessariamente julgamento positivo. **Manual × sistema visual:** documentação e organização dos elementos não são o mesmo objeto. **Arquitetura de marca × identidade visual:** relação entre marcas de um portfólio versus regras gráficas de expressão. **Consistência × uniformidade:** coerência pode admitir adaptações por contexto. **Marca × publicidade institucional:** sinais de identificação não suspendem regras de impessoalidade.

@@ -230,3 +230,17 @@ Um usuário quer liberar espaço no seu computador corporativo e apaga uma pasta
 > **Nota de revisão (11/11/2026):** um arquivo lógico pode ocupar blocos físicos não contíguos. Propagação de exclusões depende de conectividade e sincronização, e backup não exige imutabilidade em todos os modelos. Achado TI-036 da auditoria Câmara.
 
 > **Auditoria de questões, segunda passagem (11/11/2026):** itens 1 a 5 mantêm gabaritos **C, E, E, E, E**; item 6 **não homologado** por prometer permanência e disponibilidade offline sem condições. Distinção entre conteúdo baixado e metadados locais explicitada. Esta é uma validação técnica dirigida, não homologação por prova oficial.
+
+---
+
+## Questão substituta S03-6: disponibilidade offline após sincronização
+
+> Em um computador Windows com o OneDrive e Arquivos sob Demanda habilitados, a opção **Sempre manter neste dispositivo**, aplicada a um arquivo cuja transferência tenha sido concluída, permite abrir seu conteúdo sem conexão à internet, desde que o dispositivo e o aplicativo necessário estejam funcionando.
+
+**Gabarito: CERTO (inédita, substitui o Item 6 bloqueado).** O recurso baixa e mantém uma cópia no dispositivo. Há diferença entre **apenas online** (conteúdo exige download), **disponível localmente** (baixado, mas passível de liberação de espaço) e **sempre disponível** (marcado para manter uma cópia). Esse estado não substitui backup nem garante integridade física do computador.
+
+**Variação de prova:** se o mesmo arquivo estiver marcado como *apenas online* e nunca tiver sido aberto, a garantia de acesso integral offline é **ERRADA**. A alteração de uma única condição, a existência da cópia local, muda o julgamento.
+
+**Fonte primária:** [Microsoft: Arquivos Sob Demanda no OneDrive](https://support.microsoft.com/pt-br/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows). **Relação:** [[3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes|OneDrive, disponibilidade e permissões]].
+
+**Rastreabilidade:** o Item 6 original permanece **NÃO HOMOLOGADO**, com bloqueio de seleção; esta é uma nova questão inédita independente.

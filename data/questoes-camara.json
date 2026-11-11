@@ -5442,6 +5442,102 @@
       "statement": "Um formulário oferece escolha sobre receber publicidade, mas torna quase invisível o botão de recusa. A existência técnica do botão basta para concluir que as duas opções são igualmente fáceis de identificar.",
       "correctAnswer": "E",
       "explanation": "A visibilidade e a apresentação afetam a possibilidade de encontrar cada opção. A presença técnica do botão não demonstra facilidade equivalente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "conceptId": "iniciativa-de-pec",
+      "mechanism": "somar-assinaturas-entre-casas",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Iniciativa"
+      ],
+      "statement": "Para iniciar uma proposta de emenda à Constituição pela via parlamentar, 150 deputados e 21 senadores podem somar suas assinaturas para atingir o mínimo exigido de 171.",
+      "correctAnswer": "E",
+      "explanation": "O art. 60, I, exige um terço dos membros de uma das Casas. Cento e cinquenta deputados e vinte e um senadores ficam abaixo dos mínimos de suas respectivas Casas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "conceptId": "quorum-de-pec",
+      "mechanism": "confundir-presentes-com-membros",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Aprovação"
+      ],
+      "statement": "Em uma votação de proposta de emenda à Constituição na Câmara, 300 votos favoráveis entre 400 deputados presentes não atingem o quórum constitucional de aprovação.",
+      "correctAnswer": "C",
+      "explanation": "O quórum corresponde a três quintos dos 513 membros da Câmara, o que exige 308 votos favoráveis. O número de presentes não altera esse mínimo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "conceptId": "turnos-de-pec",
+      "mechanism": "compensar-derrota-entre-turnos",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Aprovação"
+      ],
+      "statement": "Uma proposta recebe 320 votos no primeiro turno e 307 no segundo, na Câmara. A soma dos votos dos dois turnos permite considerar a proposta aprovada nessa Casa.",
+      "correctAnswer": "E",
+      "explanation": "Cada turno exige pelo menos 308 votos favoráveis. O excedente do primeiro não compensa a insuficiência do segundo."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "conceptId": "promulgacao-de-emenda",
+      "mechanism": "distinguir-promulgacao-de-sancao",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Promulgação"
+      ],
+      "statement": "Após aprovação regular nos dois turnos de cada Casa, a emenda constitucional é promulgada pelas Mesas da Câmara e do Senado, sem depender de sanção presidencial.",
+      "correctAnswer": "C",
+      "explanation": "O art. 60, § 3º, atribui a promulgação às duas Mesas. O procedimento não inclui sanção do presidente da República."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "conceptId": "limites-circunstanciais-da-pec",
+      "mechanism": "supor-que-quorum-afasta-vedacao",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Limitação circunstancial — art. 60, §1º"
+      ],
+      "statement": "Durante a vigência de estado de defesa, é possível emendar a Constituição se a proposta receber aprovação unânime nas duas Casas.",
+      "correctAnswer": "E",
+      "explanation": "A vigência de estado de defesa impede emendar a Constituição. Mesmo a unanimidade não afasta a limitação circunstancial."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / espécies legislativas",
+      "conceptId": "limites-materiais-da-pec",
+      "mechanism": "avaliar-efeito-em-vez-do-titulo",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Limitações materiais — cláusulas pétreas (art. 60, §4º)"
+      ],
+      "statement": "Uma proposta intitulada “reorganização institucional” elimina a separação dos Poderes. O título da proposta não afasta a vedação constitucional à deliberação.",
+      "correctAnswer": "C",
+      "explanation": "O art. 60, § 4º, protege a separação dos Poderes. A análise considera o efeito da proposta, independentemente de seu título."
     }
   ]
 }

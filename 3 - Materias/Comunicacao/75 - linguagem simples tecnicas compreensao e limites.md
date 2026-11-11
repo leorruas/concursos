@@ -149,6 +149,12 @@ A qualidade de uma mensagem deve ser avaliada em relação a **pessoas e tarefas
 
 **Gabarito: Certo.** O teste está no art. 5º, XVIII, e a condição sobre línguas indígenas no art. 6º. O distrator provável eliminaria a expressão “sempre que possível” ou dispensaria a versão em português.
 
+## Cebraspe real: CNMP 2023, coesão referencial e item anulado (11/11/2026)
+
+No [caderno original do CNMP 2023, Comunicação Social](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), o **item 70** trata de **coesão referencial**, que ocorre quando um elemento textual faz referência a outro, e recebeu **Certo** no [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF). O **item 71**, sobre a suposta estrutura obrigatória de textos informativos e sua linguagem, foi **anulado (X)**. Portanto, **não usar o 71** como evidência de que toda informação deve conter introdução, desenvolvimento e conclusão ou de que a banca rejeita linguagem clara e objetiva.
+
+**Lição de revisão:** coesão lexical ou referencial é propriedade de encadeamento textual; clareza, objetividade e precisão dependem também da informação, finalidade e público. Uma definição de coesão **não certifica** a eficácia de um texto para orientar cidadão em tarefa real. Os dois itens constam de fontes oficiais; o gabarito foi inspecionado diretamente como imagem.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/10 - linguagem simples|10]] mantém os fundamentos legais e de acessibilidade; [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|73]] explica uso editorial na Câmara; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|70]] aborda transparência; o **CAM-CO-030** aprofundará as etapas e procedimentos do **Manual de Linguagem Simples**, de Patrícia Roedel, sem confundir esse livro com a Lei nº 15.263/2025.

@@ -614,3 +614,17 @@ O primeiro conjunto de **cinco artigos prioritários** recebeu intervenções, s
 | 20, Campanhas e mídia | Seleção dos canais, indicadores de utilidade pública sem ROI financeiro, pré e pós-teste | [5753c0d](https://github.com/leorruas/concursos/commit/5753c0decf2fc671c363e100fb2969b7c12d1d69) |
 
 **Contagem de execução até aqui:** 9 arquivos de artigos modificados entre os 128 inventariados (cerca de 7,0%), além do próprio relatório de auditoria. **Esta razão é operacional e não corresponde ao percentual de qualidade verificada ou de trabalho total restante:** o universo de artigos que precisam efetivamente de edição só será definido após auditoria substantiva. Na nova rodada, foram adicionados 12 itens C/E inéditos; nenhuma questão deve ser identificada como questão histórica da Cebraspe. Permanecem pendentes cotejo de gabaritos existentes e conferência autoral, legal e bibliográfica. Outros textos legados orientados à FGV, entre eles 09, 10, 11 e 12, ainda não foram adaptados nesta sequência.
+
+
+## Registro de execução: segundo bloco de textos legados (11/11/2026)
+
+Mais quatro artigos legados receberam adaptação editorial C/E **inédita**, preservadas as seções voltadas à FGV. As alterações são de treinamento, **não certificam os gabaritos anteriores, as fontes e a cobertura integral do edital**.
+
+| Nota | Intervenção | Commit |
+| --- | --- | --- |
+| 09, Comunicação interna | Quatro C/E sobre endomarketing, cultura e clima, fluxo transversal e público interno da Câmara | [e66b8ea](https://github.com/leorruas/concursos/commit/e66b8ea9dd5c2d1ffbffbb7ccb3367b4f748c606) |
+| 10, Linguagem simples | Quatro C/E sobre termos técnicos, acessibilidade, nomes acessíveis e imagens decorativas | [fb093bc](https://github.com/leorruas/concursos/commit/fb093bcb4feb7e3c139361ee15c0dfa3ecbdb3c4) |
+| 11, Ética | Quatro C/E sobre CONAR e Constituição, omissão, sigilo da fonte e múltiplos regimes | [bedc356](https://github.com/leorruas/concursos/commit/bedc356933905698cc2521ed1aaabada0932fc74) |
+| 12, Produção editorial e design | Quatro C/E sobre sangria, PDF para impressão e acessibilidade, PPI e roteiro técnico | [ef19306](https://github.com/leorruas/concursos/commit/ef19306f24d190d7472f5d9da8b9b8815098e30d) |
+
+**Indicadores:** 13 dos 128 arquivos inventariados tiveram edição desde o início das correções (10,2% do inventário). Os **oito legados previamente selecionados para adaptação** (02, 07, 09, 10, 11, 12, 17 e 20) receberam seções C/E. Isso não representa auditoria substantiva concluída nesses textos, nem um denominador confiável para o trabalho total restante. Pendem ainda a verificação profunda dos 128 arquivos, a revisão dos gabaritos e fontes, normas complementares, remissões e redundâncias. Próxima trilha sugerida: conferência específica dos itens legados e dos conteúdos normativos, com registro de evidência por artigo.

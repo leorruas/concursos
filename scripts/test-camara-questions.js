@@ -67,6 +67,8 @@ for (const item of blockedTi.values()) {
     statement:item.statement, userAnswer:pilotTi.correctAnswer,
     confidence:'secure', errorType:null};
   assert.throws(() => assertCamaraTiQuestionAllowed(root,session,q), /NÃO HOMOLOGADA/);
+  assert.throws(() => assertCamaraTiQuestionAllowed(root,session,{...q,origin:'real'}), /NÃO HOMOLOGADA/,
+    'CAM-TI: mudar indevidamente a origem para real não pode liberar um enunciado bloqueado');
   assert.throws(() => validate({...session, questions:[q]}), /NÃO HOMOLOGADA/);
   // Nenhuma outra disciplina pode ser bloqueada pelo texto de Informática.
   assert.doesNotThrow(() => assertCamaraTiQuestionAllowed(root,session,

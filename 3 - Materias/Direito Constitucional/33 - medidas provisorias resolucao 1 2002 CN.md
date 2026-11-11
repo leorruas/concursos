@@ -32,6 +32,12 @@ Os três eixos da prova são **(a) prazos**, **(b) repartição das tarefas entr
 
 **Outro limite jurisprudencial:** na **ADI 5.127**, o STF considerou inconstitucional introduzir, como emenda parlamentar durante a conversão, **assunto tematicamente estranho ao texto original**. A vedação do **art. 4º, § 4º**, da Resolução converge com essa conclusão. Emenda de conteúdo estranho não se torna válida porque o parlamentar conseguiu apoio político para aprová-la.
 
+### Recorte temporal: exceção da pandemia e retorno ao rito ordinário em 2023
+
+O [Ato Conjunto das Mesas nº 1/2020](https://www2.camara.leg.br/legin/int/atocon/2020/atoconjunto-1-31-marco-2020-789918-norma-cd-mesa_sf-mesa.html) instituiu, em caráter **excepcional e temporário**, um procedimento de apreciação de MPs durante a pandemia de Covid-19, com pareceres em Plenário em substituição à instrução em comissão mista. A situação histórica também deve ser distinguida da declaração de inconstitucionalidade da dispensa ordinária de comissão no julgamento da **ADI 4.029**.
+
+O **Ato do Presidente do Congresso Nacional nº 1/2023**, formalizado em março de 2023, determinou o retorno ao rito ordinário de apreciação com **comissões mistas** para as medidas provisórias editadas após a publicação da **MP nº 1.154/2023**. Ele disciplinou a reabertura do prazo de **seis dias para apresentação de emendas** às MPs alcançadas pela transição. As [notícias oficiais do Senado sobre o retorno](https://www12.senado.leg.br/noticias/noticias/materias/2023/03/23/pacheco-anuncia-retorno-de-comissoes-mistas-para-analisar-medidas-provisorias) e o [registro de tramitação da MP nº 1.158/2023](https://www.congressonacional.leg.br/widget/materias/medidas-provisorias/-/mpv/155688) documentam a aplicação do ato. Assim, um exemplo relativo a **2020–início de 2023** exige identificar seu regime temporal específico, enquanto o estudo do procedimento **ordinário em novembro de 2026** segue a CF art. 62 e a Resolução nº 1/2002-CN, considerados os dispositivos invalidados pelo STF.
+
 ## 1. Publicação, comissão e emendas: arts. 1º a 4º
 
 | Etapa | Dispositivo e prazo | Sujeito/efeito |
@@ -152,6 +158,14 @@ Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda pa
 **Redações e decisões judiciais:** na ADI 4.029, o STF retirou eficácia normativa de passagens que dispensavam a comissão; na ADI 5.127, rejeitou emendas de conteúdo estranho à MP. A classificação de uma emenda depende de **pertinência temática**, além de forma e prazo.
 
 **Remissões:** [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|CAM-PL-027: comissões mistas]], [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|CAM-PL-025: Regimento Comum]], [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|urgência e procedimentos]], [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|sanção e promulgação]], [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|orçamento e créditos]].
+
+## Certificação jurídica delimitada: 11/11/2026
+
+**Recorte conferido:** a exposição, tabelas, oito casos e **dez questões C/E** desta nota foram confrontados com os **arts. 1º–23 da Resolução nº 1/2002-CN**, [consolidados pela Câmara](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html), e com o **art. 62 da Constituição**, incluídas as reservas de jurisprudência do STF assinaladas no texto consolidado. A [ficha do Senado](https://legis.senado.leg.br/norma/561120) registra a ADI 4.029 e a vedação de emendas sem pertinência temática afirmada na ADI 5.127. Foi conferida também a excepcionalidade pandêmica de 2020 e o retorno ao rito ordinário em 2023, que se encontravam ausentes do texto de estudo antes desta revisão.
+
+**Gabaritos verificados:** **C, C, E, E, C, E, C, C, E, C**, correspondentes às dez questões em sua ordem original. **Nenhuma inversão demonstrada** à luz das fontes analisadas. As diferenças cruciais foram confirmadas: comissão especial 12+12 com vagas minoritárias adicionais; prazos de 48h, 24h e seis dias; quóruns por Casa; invalidação dos dispositivos que permitiam dispensar a comissão; retorno da matéria à Câmara; 45 dias para urgência, 60+60 de vigência, suspensão da contagem no recesso; e **MP original promulgada × PLV submetido à sanção**.
+
+**Limites deste atestado:** certificação do **recorte normativo e dos casos escritos**, não homologação de qualquer aplicação futura, nem teste do site publicado. O período excepcional de 2020–2023 deve ser identificado separadamente se objeto de questão histórica. As remissões do art. 7º, § 2º, ao caput invalidado do art. 6º não restabelecem a dispensa de comissão. A norma disponibilizada pelo Senado lista ato correlato de 2020, mas não autoriza concluir que o rito excepcional de pandemia continua aplicável às MPs atuais. Nova norma ou jurisprudência posterior à data de corte exigirá revisão.
 
 ## Fontes primárias
 

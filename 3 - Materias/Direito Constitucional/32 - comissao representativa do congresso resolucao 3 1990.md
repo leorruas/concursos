@@ -163,6 +163,14 @@ A **votação começa pelos deputados** e o **resultado de cada Casa é computad
 
 Relações: [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|CAM-PL-025: sessões conjuntas]], [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|CAM-PL-027: comissões mistas]], [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|orçamento e CMO]], [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo e TCU]], [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|licenças e mandato]].
 
+## Certificação normativa delimitada: 11/11/2026
+
+**Recorte certificado:** confronto do conteúdo desta nota, quadro de competências e quóruns, **oito casos** e **dez itens inéditos C/E** com a **Resolução nº 3/1990-CN, arts. 1º–13**, em [texto oficial disponibilizado pelo Senado](https://legis.senado.leg.br/norma/561157/publicacao/36852072), a [página legislativa da Câmara](https://www2.camara.leg.br/legin/fed/rescon/1990/resolucao-3-21-novembro-1990-497950-norma-pl.html), que informa não constar revogação expressa, e com a [Constituição atualizada, arts. 49, 57, 58, § 4º, e 83](https://www.tse.jus.br/legislacao/codigo-eleitoral/constituicao-federal/constituicao-da-republica-federativa-do-brasil). O [portal do Congresso sobre regimentos](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) confirma a subsidiariedade do art. 151 do RCCN.
+
+**Resultado de 10/10 questões, na ordem:** **C, E, C, E, E, C, C, E, C, E**. Os fundamentos conferem com as regras examinadas; nenhuma inversão identificada. Também foram conferidos os quóruns de abertura (3 senadores e 6 deputados) e deliberação (4 senadores e 9 deputados), a votação separada por Casa e as condições específicas do art. 7º.
+
+**Condições de validade:** a redação literal de 1990 no art. 3º traz datas de sessões **superadas pela EC nº 50/2006**; a remissão do art. 7º, III, ao art. 49, II, é histórica e deve ser lida com os **arts. 49, III, e 83 da CF**. A fonte da Câmara não registra revogação expressa da resolução, o que **não prova inexistência de toda alteração tácita ou superveniente**. Esta certificação cobre **a coerência jurídico-normativa do material para o recorte declarado até a data da consulta**, sem certificar aplicação em situações posteriores, eventual norma não encontrada, funcionamento do site ou retenção de aprendizagem.
+
 ## Fontes oficiais e recorte de atualização
 
 - [Senado Federal: Resolução nº 3/1990-CN, texto consolidado, arts. 1º–13](https://legis.senado.leg.br/norma/561157/publicacao/36852072), consultado em **09/11/2026**.

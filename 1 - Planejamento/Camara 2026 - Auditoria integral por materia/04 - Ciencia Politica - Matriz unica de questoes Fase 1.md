@@ -130,3 +130,137 @@ Fonte: `3 - Materias/Estado e Democracia/15 - formacao historica do estado brasi
 | `art-7c24b910e6f3d58a#8` | Errado | Cotejo seletivo | Relatório 03, bloco 14 |
 | `art-7c24b910e6f3d58a#9` | Certo | Cotejo seletivo | Relatório 03, bloco 13 |
 | `art-7c24b910e6f3d58a#10` | Errado | Cotejo seletivo | Relatório 03, bloco 13 |
+
+
+### 16 - regimes politicos democracia autoritarismo e hibridismos (`art-5e8b4c72d13f906a`)
+
+Fonte: `3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos.md`. Itens detectados: **12**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-5e8b4c72d13f906a#1` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#2` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#3` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#4` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#5` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#6` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#7` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#8` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#9` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#10` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#11` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-5e8b4c72d13f906a#12` | Errado | Somente lido | Pendente: cotejo por item |
+
+### 17 - formas de governo republica e monarquia (`art-e93a40d1c75b682f`)
+
+Fonte: `3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia.md`. Itens detectados: **12**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-e93a40d1c75b682f#1` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-e93a40d1c75b682f#2` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-e93a40d1c75b682f#3` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-e93a40d1c75b682f#4` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-e93a40d1c75b682f#5` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-e93a40d1c75b682f#6` | Errado | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-e93a40d1c75b682f#7` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-e93a40d1c75b682f#8` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-e93a40d1c75b682f#9` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-e93a40d1c75b682f#10` | Errado | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-e93a40d1c75b682f#11` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-e93a40d1c75b682f#12` | Errado | Somente lido | Pendente: cotejo por item |
+
+### 18 - sistemas de governo presidencialismo e parlamentarismo (`art-d7b3e591a46c82f0`)
+
+Fonte: `3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo.md`. Itens detectados: **12**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-d7b3e591a46c82f0#1` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-d7b3e591a46c82f0#2` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-d7b3e591a46c82f0#3` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-d7b3e591a46c82f0#4` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-d7b3e591a46c82f0#5` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-d7b3e591a46c82f0#6` | Errado | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-d7b3e591a46c82f0#7` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-d7b3e591a46c82f0#8` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-d7b3e591a46c82f0#9` | Errado | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-d7b3e591a46c82f0#10` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-d7b3e591a46c82f0#11` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-d7b3e591a46c82f0#12` | Errado | Somente lido | Pendente: cotejo por item |
+
+### 19 - representacao politica mandato delegacao e responsabilizacao (`art-3b8e7a6c91d4052f`)
+
+Fonte: `3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao.md`. Itens detectados: **12**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-3b8e7a6c91d4052f#1` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-3b8e7a6c91d4052f#2` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-3b8e7a6c91d4052f#3` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-3b8e7a6c91d4052f#4` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-3b8e7a6c91d4052f#5` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-3b8e7a6c91d4052f#6` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-3b8e7a6c91d4052f#7` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-3b8e7a6c91d4052f#8` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-3b8e7a6c91d4052f#9` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-3b8e7a6c91d4052f#10` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-3b8e7a6c91d4052f#11` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |
+| `art-3b8e7a6c91d4052f#12` | Errado | Cotejo seletivo | Relatório 03, bloco 6 |
+
+### 20 - democracia representativa participativa e deliberativa (`art-4a6d2f90b18e753c`)
+
+Fonte: `3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa.md`. Itens detectados: **12**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-4a6d2f90b18e753c#1` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-4a6d2f90b18e753c#2` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-4a6d2f90b18e753c#3` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-4a6d2f90b18e753c#4` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-4a6d2f90b18e753c#5` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-4a6d2f90b18e753c#6` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-4a6d2f90b18e753c#7` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-4a6d2f90b18e753c#8` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-4a6d2f90b18e753c#9` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-4a6d2f90b18e753c#10` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |
+| `art-4a6d2f90b18e753c#11` | Errado | Cotejo seletivo | Relatório 03, bloco 6 |
+| `art-4a6d2f90b18e753c#12` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |
+
+### 21 - separacao de poderes freios e contrapesos (`art-9f63c2e71a4b508d`)
+
+Fonte: `3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos.md`. Itens detectados: **12**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-9f63c2e71a4b508d#1` | Errado | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-9f63c2e71a4b508d#2` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-9f63c2e71a4b508d#3` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-9f63c2e71a4b508d#4` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-9f63c2e71a4b508d#5` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-9f63c2e71a4b508d#6` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-9f63c2e71a4b508d#7` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-9f63c2e71a4b508d#8` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-9f63c2e71a4b508d#9` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-9f63c2e71a4b508d#10` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-9f63c2e71a4b508d#11` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
+| `art-9f63c2e71a4b508d#12` | Errado | Somente lido | Pendente: cotejo por item |
+
+### 22 - relacoes executivo legislativo e coalizoes (`art-71d4e9b30c86a25f`)
+
+Fonte: `3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes.md`. Itens detectados: **12**.
+
+| Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
+| --- | --- | --- | --- |
+| `art-71d4e9b30c86a25f#1` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-71d4e9b30c86a25f#2` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-71d4e9b30c86a25f#3` | Errado | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-71d4e9b30c86a25f#4` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-71d4e9b30c86a25f#5` | Errado | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-71d4e9b30c86a25f#6` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-71d4e9b30c86a25f#7` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-71d4e9b30c86a25f#8` | Errado | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-71d4e9b30c86a25f#9` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-71d4e9b30c86a25f#10` | Errado | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-71d4e9b30c86a25f#11` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
+| `art-71d4e9b30c86a25f#12` | Errado | Somente lido | Pendente: cotejo por item |

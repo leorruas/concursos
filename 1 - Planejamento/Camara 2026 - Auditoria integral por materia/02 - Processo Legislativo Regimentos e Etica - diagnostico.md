@@ -1041,3 +1041,18 @@ Foram lidos sumários, textos nucleares, prazos, hipóteses de exceção, casos 
 **29/29 arquivos inventariados. 269 questões C/E lidas/confrontadas em graus variados nas baterias de 27/29 arquivos**; somente **DC06 e DC10** não tiveram ainda uma conferência individual equivalente de suas baterias, **e nenhum dos 29 arquivos teve todas as afirmações, normas, citações, jurisprudência e exercícios integralmente certificados**. Antes, havia 159 questões examinadas em 16 arquivos; esta rodada acrescentou 110 questões e 11 arquivos. **Estimativa qualitativa: ~70% do esforço da Fase 1 executado, ~30% restante.** Essa estimativa mede avanço de triagem e cotejo dirigido, mas o trabalho residual de revisão normativa aprofundada e confirmação literal do edital pode ser maior. Progresso de leitura não é aprovação.
 
 **Próximo bloco:** DC06/DC10, inventário das suas questões, cotejo de jurisprudência constitucional e reconciliação das 33 unidades CAM-PL com edital; depois voltar aos erros críticos e consolidar pendências de normas sem encerrar prematuramente a Fase 1. Nenhum artigo de estudo alterado.
+
+
+### Execução: precisão normativa DC24–DC27 (11/11/2026)
+
+**Cotejo dirigido de quatro artigos** com [RICD em publicação oficial consolidada, edição 31 de 2026](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d) e respectivas passagens indexadas. Foram lidos os **40 itens C/E** dos DC24, DC25, DC26 e DC27 com seus comentários, mas não houve conferência independente exaustiva das 40 hipóteses com a literalidade de cada artigo e suas alterações; **nenhum deles está integralmente certificado**.
+
+**DC25, commit `5c73b5f8cad9862afce7edf8ca0d0c4a09307e34`:** diferenciada a redação do **RICD art. 82** (11h ou 16h, conforme o caso) da regra do **art. 66, III**, alterado pela Res. 21/2021, que fixa 16h na sessão ordinária. Complementado o comentário do item 4 com os limites do **art. 87, § 2º**: três falas por semestre, **uma por sorteio e duas por cessão de vaga**. Gabaritos não alterados.
+
+**DC26, commit `2c4454cea1ca241c0e9a6719ddd5ab0ca3b671ed`:** reforçado que as regras regimentais históricas de licença para processo penal dos arts. 249/251 não são o atual instituto constitucional de sustação posterior da ação penal (CF art. 53 com EC 35/2001). Complementado item 6 com a continuidade da convocação do suplente durante a licença médica original **superior a 120 dias** e suas prorrogações, sem soma de afastamentos menores (RICD art. 241, III). Gabaritos não alterados.
+
+**DC24:** cotejados pontos de arts. 56 (deliberação de comissão), 57, XVI (vista conjunta e urgência), 61-A (PAFC em cinco sessões), 79, § 2º (abertura com 1/10 desprezada a fração) com os fundamentos expostos no artigo. Não foi detectada divergência confirmada nesses pontos, de modo que **nenhuma edição foi aplicada** a DC24 nesta rodada.
+
+**DC27:** arts. 263 (parecer prévio da Mesa), 264 (reclamação à Mesa em 72 horas), 265, §§ 1º, 3º e 4º (despesa pelo Diretor-Geral, balancetes à Mesa, contas ao TCU pelo Presidente) e 266 foram cotejados, com formulações convergentes. **Nenhuma edição aplicada** ao DC27. Restam conferência literal e precedentes sobre polícia da Câmara e etapas dos arts. 267–273.
+
+**Contagem editorial:** 11/29 artigos modificados desde a autorização de correções (**37,9%**). **0/29 certificados integralmente.** A porcentagem mede artigos alcançados com edições, não a conclusão de auditoria. Permanecem 18 artigos sem alterações nesta fase; alguns podem estar corretos. Próxima rodada: completar conferências de DC24–27 e avançar para DC29–33 (Regimento Comum e resoluções).

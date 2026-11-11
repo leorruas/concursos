@@ -289,7 +289,7 @@ Os enunciados seguintes testam **somente o procedimento cautelar** do [RICD, art
 O **art. 18 da Resolução nº 25/2001, na redação consolidada**, estabelece:
 
 1. **Autorização de acesso aos dados das Declarações de Ajuste Anual do IRPF e retificações:** apresentada ao assumir o mandato e quando solicitada pelo órgão competente (art. 18, I). Trata-se de autorização de acesso a dados fiscais, e não de obrigação, nesse dispositivo, de entregar uma nova declaração de bens a cada ano.
-2. **Declaração de impedimento:** no início da apreciação de matéria que envolva direta e especificamente interesses patrimoniais próprios do deputado (art. 18, II).
+2. **Declaração de impedimento para votar:** durante o exercício do mandato, em Comissão ou Plenário, ao iniciar-se a apreciação de matéria que envolva direta e especificamente os interesses patrimoniais do deputado. A declaração é apresentada à Mesa ou, quando couber, à Comissão (art. 18, caput e II).
 3. **Tratamento dos dados (art. 18, §§ 1º a 4º):** as declarações são autuadas com recibo, uma cópia é encaminhada ao Tribunal de Contas da União e o sigilo deve ser preservado. A transferência da responsabilidade pelo sigilo ao Conselho exige **requerimento aprovado em votação nominal** (art. 18, § 3º). Os servidores que tenham acesso ficam obrigados à preservação do sigilo (§ 4º). Eventuais obrigações adicionais de outras leis devem ser identificadas separadamente.
 4. **Consequência disciplinar:** omitir intencionalmente informação relevante ou prestar informação falsa nas declarações previstas no art. 18 pode configurar a conduta do art. 4º, V, sujeita à apuração e à sanção cabível.
 

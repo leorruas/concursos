@@ -172,7 +172,7 @@ O **Gráfico de Pizza (*Pie Chart*)** é o gráfico mais abusado na administraç
 > **Assertiva:** Em um gráfico de barras que compara grandezas entre diferentes categorias nominais, a supressão do valor zero no eixo de base (*eixo truncado*) é uma técnica legítima para realçar diferenças sutis entre os dados, não configurando distorção visual da informação.
 >
 > **Gabarito:** **ERRADO**  
-> **Comentário:** Em gráficos de barras ou colunas, a altura ou comprimento da barra codifica a magnitude absoluta do dado. Truncar o eixo de base (não iniciar no zero) viola a proporcionalidade geométrica e gera um *Lie Factor* muito superior a 1,0, fazendo com que pequenas variações pareçam discrepâncias gigantescas, o que caracteriza manipulação ou distorção visual ilegítima.
+> **Comentário:** Quando barras codificam magnitudes pelo comprimento, começar o eixo no zero é uma **regra geral importante** para preservar proporções. Um eixo truncado pode exagerar diferenças e exige cautela e sinalização; o enunciado afirma que essa prática seria legítima **sem distorção**, razão pela qual o gabarito ERRADO permanece defensável no contexto apresentado.
 
 ### Item 5
 > **Assertiva:** O gráfico de dispersão (*scatter plot*) é a representação visual indicada quando o objetivo analítico consiste em verificar a existência de correlação, padrão de associação linear ou agrupamentos entre duas variáveis numéricas contínuas.
@@ -184,7 +184,7 @@ O **Gráfico de Pizza (*Pie Chart*)** é o gráfico mais abusado na administraç
 > **Assertiva:** O Treemap é uma visualização analítica adequada para exibir a composição percentual de dados estruturados hierarquicamente em múltiplos níveis, utilizando retângulos aninhados proporcionais à grandeza das variáveis representadas.
 >
 > **Gabarito:** **CERTO**  
-> **Comentário:** O Treemap (mapa em árvore) divide o espaço retangular total em retângulos menores cujas áreas correspondem ao peso de cada categoria, sendo ideal para representar estruturas pai-filho (ex.: Orçamento $\rightarrow$ Ministério $\rightarrow$ Secretaria $\rightarrow$ Ação).
+> **Comentário:** O treemap representa composições hierárquicas mediante retângulos aninhados cujas **áreas** codificam os valores; é especialmente útil para visão geral de partes de um todo. Não é necessariamente o melhor gráfico para comparação precisa de diferenças pequenas entre áreas.
 
 ---
 
@@ -197,3 +197,5 @@ O **Gráfico de Pizza (*Pie Chart*)** é o gráfico mais abusado na administraç
 5. **KNAFLIC, Cole Nussbaumer.** *Storytelling com Dados: um guia sobre visualização de dados para profissionais de negócios.* Rio de Janeiro: Alta Books, 2018.
 
 > **Revisão editorial (11/11/2026):** correções dirigidas às ressalvas da auditoria da Câmara, preservando as distinções técnicas e evitando universalizar heurísticas. Questões inéditas ainda não homologadas como questões oficiais da banca.
+
+> **Auditoria C/E, segunda passagem (11/11/2026):** Itens 1–6 mantêm gabaritos (E, C, E, E, C, C) em revisão conceitual dirigida. Foram qualificadas regras de eixo zero e a utilidade do treemap, que dependem da finalidade e da codificação visual.

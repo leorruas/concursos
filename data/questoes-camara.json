@@ -1554,6 +1554,134 @@
       "statement": "A vitória eleitoral autoriza uma representante a exercer o mandato. Por isso, o resultado da eleição basta para demonstrar que ela ouviu e respondeu às demandas dos eleitores ao longo do mandato.",
       "correctAnswer": "E",
       "explanation": "A eleição fornece autorização inicial. A responsividade ao longo do mandato exige evidências da atuação da representante diante das demandas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA, LDO e LOA",
+      "conceptId": "investimento-plurianual",
+      "mechanism": "confundir-dotacao-com-inclusao-no-plano",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#PPA: Plano Plurianual"
+      ],
+      "statement": "Uma obra federal com execução prevista para três exercícios recebeu dotação para o primeiro ano. Se o investimento ainda não foi incluído no Plano Plurianual e nenhuma lei autorizou a inclusão, a dotação basta para iniciar a obra.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição exige inclusão prévia no plano ou lei que autorize a inclusão quando a execução ultrapassa um exercício financeiro. A dotação anual, por si só, não atende a essa exigência."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA, LDO e LOA",
+      "conceptId": "investimento-plurianual",
+      "mechanism": "reconhecer-alternativa-constitucional",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#PPA: Plano Plurianual"
+      ],
+      "statement": "Para um investimento cuja execução ultrapasse um exercício, a Constituição admite lei que autorize sua inclusão no Plano Plurianual como alternativa à inclusão prévia no plano.",
+      "correctAnswer": "C",
+      "explanation": "O art. 167, § 1º, admite as duas hipóteses para esse requisito. As demais exigências de execução orçamentária continuam aplicáveis."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA, LDO e LOA",
+      "conceptId": "orientacao-da-loa",
+      "mechanism": "confundir-prioridade-com-dotacao",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#LDO: Lei de Diretrizes Orçamentárias"
+      ],
+      "statement": "Ao estabelecer uma prioridade para a elaboração do orçamento anual, a Lei de Diretrizes Orçamentárias já fixa a dotação específica que permitirá empenhar a despesa correspondente.",
+      "correctAnswer": "E",
+      "explanation": "A Lei de Diretrizes Orçamentárias orienta o orçamento anual. A prioridade não equivale à dotação orçamentária necessária para a despesa."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA, LDO e LOA",
+      "conceptId": "composicao-da-loa",
+      "mechanism": "confundir-esfera-com-lei-separada",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#LOA: Lei Orçamentária Anual"
+      ],
+      "statement": "O orçamento fiscal e o orçamento da seguridade social podem aparecer como partes distintas da mesma Lei Orçamentária Anual federal.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição prevê ambos dentro da Lei Orçamentária Anual, que compreende também o orçamento de investimento das empresas abrangidas pelo art. 165, § 5º, II."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA, LDO e LOA",
+      "conceptId": "orcamento-de-investimento",
+      "mechanism": "confundir-participacao-minoritaria-com-controle",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#LOA: Lei Orçamentária Anual"
+      ],
+      "statement": "A participação federal de 30% no capital com direito a voto de uma empresa, sem outra participação direta ou indireta da União, satisfaz o critério de maioria do capital votante previsto para o orçamento de investimento federal.",
+      "correctAnswer": "E",
+      "explanation": "O art. 165, § 5º, II, usa a maioria do capital social com direito a voto. A participação descrita é minoritária."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA, LDO e LOA",
+      "conceptId": "exclusividade-orcamentaria",
+      "mechanism": "reconhecer-excecao-expressa",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#LOA: Lei Orçamentária Anual"
+      ],
+      "statement": "A Lei Orçamentária Anual pode autorizar a abertura de créditos suplementares sem violar a regra constitucional de exclusividade orçamentária.",
+      "correctAnswer": "C",
+      "explanation": "O art. 165, § 8º, ressalva expressamente essa autorização da regra que limita o conteúdo da lei."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA, LDO e LOA",
+      "conceptId": "exclusividade-orcamentaria",
+      "mechanism": "ampliar-excecao-a-outra-especie-de-credito",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#LOA: Lei Orçamentária Anual"
+      ],
+      "statement": "A exceção constitucional à exclusividade da Lei Orçamentária Anual menciona expressamente a autorização para abertura de créditos especiais, ao lado dos suplementares.",
+      "correctAnswer": "E",
+      "explanation": "A ressalva relativa a créditos adicionais no art. 165, § 8º, menciona créditos suplementares. O dispositivo também ressalva operações de crédito."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA, LDO e LOA",
+      "conceptId": "iniciativa-orcamentaria",
+      "mechanism": "confundir-apreciacao-com-iniciativa",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#Iniciativa, apreciação e prazos no plano federal"
+      ],
+      "statement": "O fato de o Congresso Nacional apreciar o projeto de Lei de Diretrizes Orçamentárias federal é compatível com a iniciativa reservada ao Poder Executivo.",
+      "correctAnswer": "C",
+      "explanation": "Iniciar o processo com o envio do projeto e apreciar seu conteúdo são competências distintas. O Executivo inicia e o Legislativo aprecia."
     }
   ]
 }

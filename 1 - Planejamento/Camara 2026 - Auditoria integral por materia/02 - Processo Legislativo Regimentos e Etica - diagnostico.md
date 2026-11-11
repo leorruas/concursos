@@ -931,3 +931,15 @@ Commit `196563f7dd9ba30853688b7b68e9c2e4fa486a8a`: **NC-PL-020 corrigida no text
 ### Indicador agregado após blocos 20–21
 
 **Inventário:** 29/29 arquivos. **Questões C/E examinadas:** **109**, somando DC11:13, DC12:14, DC13:15, DC14:16, DC15:8, DC16:9, DC17:10, DC34:6, DC35:6, DC36:6, DC37:6. Assim **11/29 arquivos** tiveram as baterias de questões examinadas em grau dirigido; **18 arquivos** ainda carecem de conferência equivalente. **0/29 certificados integralmente** em texto, normas, jurisprudência, questões, fontes e edital. **Estimativa provisória:** cerca de **42% do esforço de Fase 1 realizado, 58% pendente**, sem pretensão de cálculo por caracteres ou dispositivo. Próximos artigos: **DC18–22** (procedimentos especiais, prioridade, urgência, leis delegadas, MPs, PDL/resoluções); retomar os bases DC06/DC10 e DC23–33. Nenhum artigo teórico foi editado; permanecemos na Fase 1.
+
+
+### Correção editorial: colisões CAM-PL-020 e CAM-PL-022 (11/11/2026)
+
+**Colisões de identidade saneadas nos artigos, preservando as unidades previstas na arquitetura:**
+
+- **DC14, commit `af31345341a9f242b2eb303a1fb8cbbe28d80815`:** o subtítulo que chamava comissões (arts. 25–54) de **CAM-PL-020** passou a identificá-las como **aprofundamento de CAM-PL-004**; incluída remissão ao DC23 para organização da Mesa e órgãos da Câmara.
+- **DC25, commit `2708b65a29a3019b61f0b4a1fae0851fbda15f23`:** eliminado uso indevido de **CAM-PL-022** nos arts. 81–105; o conteúdo é **complemento editorial da trilha CAM-PL-021** (sessões), com ressalva de que 95–105 extrapola seu recorte 65–94. CAM-PL-022 permanece corretamente associado ao **DC26, arts. 226–251**.
+- **DC24, commit `4501c34e2dfa0fd0689e6d32a834771675c41541`:** corrigida referência cruzada a DC14, removendo a associação equivocada de CAM-PL-020 ao funcionamento de comissões.
+- **Arquitetura, commit `82018aed262adef1fc2f69456262f6ff081feb4d`:** inserida matriz textual de correspondências e fronteiras de cobertura, sem alterar automaticamente checkboxes nem inventar artigos obrigatórios.
+
+**Critério de conclusão:** as duas colisões de **rótulo** foram corrigidas nos pontos identificados. Não implica homologação da cobertura jurídica dos arts. 1–24, 25–54, 65–105 e 226–251, nem validação do edital literal. **Andamento: 8/29 artigos modificados (27,6%); 0/29 integralmente certificados**. Restam 21 artigos sem edição nesta fase, sem presumir que demandem reparos.

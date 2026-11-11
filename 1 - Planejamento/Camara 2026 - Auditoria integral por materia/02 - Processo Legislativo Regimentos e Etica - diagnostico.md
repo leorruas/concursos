@@ -553,3 +553,8 @@ O item C/E Q2 (**ERRADO**, conforme comentário) não foi revertido por este ach
 ### Próxima etapa
 
 Reexaminar DC37 sobre cautelares do TCU mediante precedentes atuais e completar regras de sessões conjuntas da Q3; aprofundar literalidade e compatibilidade semântica da DC36 Q4. Em seguida retomar revisão integral sequencial DC11–33, considerando que referências jurisprudenciais erradas foram detectadas mesmo quando gabaritos estavam corretos. **Fase 1: nenhum artigo de estudo alterado.**
+
+
+### Execução adicional em DC34 (11/11/2026)
+
+Commit `2aee7a108b444a595968fbbe0b84663ba13c922b`: 19 substituições localizadas, incluindo impedimentos do art. 7º, §§ 2º/7º; atualização de remissões; censuras dos arts. 11–12 e seus recursos/defesa; distinção de ritos por sanção; correção dos 10 dias úteis e até 8 testemunhas no rito grave; deliberação do Conselho; prazos do art. 16; substituição completa da seção patrimonial pelos deveres do art. 18 consolidado; correções sobre atuação do Corregedor e generalizações de casos. **Permanecem pendentes a reconstrução do Mermaid, revisão exaustiva do art. 13/14 e todos os itens C/E, conferência de fontes e testes de renderização.** As correções feitas não autorizam marcar DC34 como integralmente validado.

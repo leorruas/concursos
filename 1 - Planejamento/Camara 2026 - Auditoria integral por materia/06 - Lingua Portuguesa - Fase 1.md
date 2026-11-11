@@ -443,3 +443,59 @@ Os doze itens foram lidos com justificativas: `30` = C/E/C/E/C/E; `31` = C/E/C/E
 **Estado após este bloco: 34/34 artigos numerados + hub examinados em recorte estrutural; 0/34 artigos e 0 itens certificados integralmente.** A lista de wikilinks numerados passou por teste de existência de arquivo-base, **não** por renderização de GitHub Pages. Catálogo `camara-2026` e `dataprev-2026` permaneceram intactos. Nenhum artigo, hub, JSON ou cadastro de estudo foi modificado.
 
 **Próxima etapa da Fase 1:** mapear remissões **dentro** dos artigos e arquivos compartilhados relevantes (Comunicação, Redação, bases do material), conferir o programa **literal** do Cargo 1 em PDF oficial e retificações, validar autoria/fundamentação de itens C/E por amostra real da banca e montar **tabela de reparos priorizada**, com alvo técnico (arquivo/seção/item), evidência e verificação posterior. Aplicar correções só em fase separada, após auditoria e conciliação.
+
+
+## Bloco 12: edital primário, retificações, referências internas e matriz literal de Português (11/11/2026)
+
+### Fontes e limites efetivamente conferidos
+
+**Documento primário aberto e inspecionado visualmente:** [Câmara dos Deputados, Edital nº 1/2026, de 2/10/2026, PDF 70 páginas](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades), **páginas PDF 50–51** (índice zero 49–50), seção **14.2.3 CONHECIMENTOS BÁSICOS → LÍNGUA PORTUGUESA**. Os rótulos 1–6.4 foram comparados com a síntese local do edital e com as 34 notas de Português anteriormente examinadas seletivamente.
+
+**Retificações verificadas por texto e visual:** [Edital nº 5, 15/10/2026](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-5-cd-analista-especialidades-de-15-de-outubro-de-2026), primeira página, e [Edital nº 6, 21/10/2026](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-n-6-cd-especialidades-de-21-de-outubro-de-2026), página única. O nº 5 **altera requisitos do Cargo 1, de registro em conselho para registro profissional no MTE**, mas altera conteúdo programático específico somente de Cargos 8 e 9; nº 6 não altera Português nem o Cargo 1. Portanto, **a redação de 14.2.3 do Edital nº 1 permanece o texto oficial conhecido para Português**, ressalvadas publicações futuras. Isso agora está **conferido em documento primário**, diferentemente dos blocos anteriores.
+
+**Confronto técnico complementar por amostra:** foram relidas as referências wikilink de `12`, `14`, `18`, `19`, `20`, `21`, `25` e `30`. Os vínculos explícitos observados de `18–21`, `25` e `30` correspondem a nomes-base de artigos `03,07,08,17–25` presentes no diretório. As notas `12` e `14` não contêm wikilinks `[[...]]` reconhecidos no conteúdo consultado. **Amostra, não varredura dos links internos dos 34 artigos; referências Markdown externas e âncoras não certificadas.** O hub e seus 34 destinos já haviam sido conferidos no bloco 11. Não houve teste da publicação no GitHub Pages.
+
+### Matriz literal de cobertura, 20 subitens programáticos (Edital 1, 14.2.3)
+
+**Legenda:** `Presença` significa nota de tema correspondente, **não cobertura aprofundada homologada**. `Parcial` significa presença com alerta conceitual ou evidência insuficiente; todos os itens mantêm certificação pendente.
+
+| Subitem do edital | Exigência literal resumida sem alteração de sentido | Notas correspondentes | Situação |
+| --- | --- | --- | --- |
+| 1 | Compreensão e interpretação de textos de gêneros variados | 01, 12–14 | Presença; PT-001–005 |
+| 2 | Reconhecimento de tipos e gêneros textuais | 09, 15, 16 | Presença; PT-067,068,071 |
+| 3 | Domínio da ortografia | 05, 17 | Presença; PT-037,039–042 |
+| 4 | Domínio dos mecanismos de coesão textual | 08, 18–21 | Presença; PT-053,054,057 |
+| 4.1 | Referenciação, substituição, repetição, conectores e sequenciação textual | 08, 18, 19, 20 | Presença; PT-048,053–057 |
+| 4.2 | Emprego de tempos e modos verbais | 08, 21 | Presença; PT-060–063 |
+| 5 | Domínio da estrutura morfossintática do período | 02, 07, 22–29 | Presença; PT-013–018 e seguintes |
+| 5.1 | Emprego das classes de palavras | 22, 02, 23 | Presença; PT-011,012 |
+| 5.2 | Coordenação entre orações **e entre termos da oração** | 07, 24 | **Parcial a certificar:** verificar exercícios específicos de coordenação entre termos, além das orações |
+| 5.3 | Subordinação entre orações **e entre termos da oração** | 07, 23, 25 | **Parcial a certificar:** distinguir relações entre termos de análise exclusiva de orações subordinadas |
+| 5.4 | Emprego dos sinais de pontuação | 03, 26 | Presença; contradições PT-021–023 |
+| 5.5 | Concordância verbal e nominal | 06, 27 | Presença; PT-024–026 |
+| 5.6 | Regência verbal e nominal | 04, 28 | Presença; PT-030–032 |
+| 5.7 | Emprego do sinal indicativo de crase | 11, 29 | Presença; PT-033–036 |
+| 5.8 | Colocação dos pronomes átonos | 30 | Presença; PT-075–079 |
+| 6 | Reescrita de frases e parágrafos do texto | 10, 32–34 | Presença; PT-006–010 |
+| 6.1 | Significação das palavras | 31, 10, 19 | Presença; PT-080–083 |
+| 6.2 | Substituição de palavras ou de trechos de texto | 10, 19, 32 | Presença; PT-001,005,057 |
+| 6.3 | Reorganização da estrutura de orações e períodos | 10, 24, 25, 33 | Presença; PT-008,015,016 |
+| 6.4 | Reescrita de textos de diferentes gêneros e níveis de formalidade | 09, 16, 34 | Presença; PT-010 |
+
+**Nota de interpretação:** presença nos 20 subitens **não demonstra 100% de cobertura pedagógica**, precisão ou possibilidade de resposta a itens inéditos. A granularidade explicitamente exigida em `5.2` e `5.3` inclui **termos da oração**, facilmente apagados quando a unidade didática enfatiza apenas classificação das orações. Esses são riscos de **cobertura a verificar**, não ausência global confirmada.
+
+### Achados novos e classificação
+
+**PT-091, verificação normativa confirmada:** obtido e inspecionado o programa literal de Português no Edital nº 1/2026 14.2.3, páginas 50–51; a referência ao nº 1/2026 deve distinguir-se do outro concurso da Câmara de analista/técnico aberto em 2025, também com editais numerados. Fonte primária controlada acima.
+
+**PT-092, verificação normativa confirmada:** os Editais nºs 5 e 6/2026, examinados, **não modificam 14.2.3 Língua Portuguesa**. A mudança do requisito profissional do Cargo 1 pelo nº 5 é relativa à elegibilidade, não ao programa. Até eventual nova retificação, manter 14.2.3 do Edital 1.
+
+**PT-093, importante/hipótese de cobertura:** conferir **relações de coordenação e subordinação entre termos da oração**, expressas literalmente em **5.2 e 5.3**. Evitar considerar a existência de notas sobre orações como prova de exercícios e explicações suficientes sobre relações entre **termos**.
+
+**PT-094, melhoria/integridade:** em amostra de oito notas, os wikilinks explícitos de `18–21`, `25` e `30` apontam para arquivos existentes em Português; `12` e `14` não exibem wikilinks. Criar teste automático do conjunto, incluindo `[[...#âncora]]`, caminhos de outras matérias e links Markdown, para obter cobertura real de navegação; não declarar toda a trilha validada a partir da amostra.
+
+**PT-095, importante/arquitetura de dados:** a **matriz de 20 subitens** está documentada neste relatório, mas `data/edital-itens.json` continua sem entradas `camara-2026` (PT-085). A ausência técnica de mapeamento granular no JSON é distinta de lacuna pedagógica na teoria. Propor futura migração/ingestão controlada para unir `código do edital → articleId → questão/prova → estado de validação`, sem sobrescrever vínculos Dataprev.
+
+**PT-096, melhoria/gate da Fase 1:** a matriz literal e o catálogo 34/34 permitem avançar para **conciliação dos achados, fontes de gramática por seção e verificação de gabaritos reais**. Só concluir a Fase 1 após verificar itens de alta gravidade, duplicatas e controle de amostra oficial; o número de achados PT-001–PT-096 não deve ser interpretado como 96 erros independentes.
+
+**Estado:** 34/34 artigos numerados, hub e matriz literal do programa de Português inspecionados nos recortes definidos; 20/20 subitens do edital mapeados a **notas candidatas**, **0/34 artigos e 0 questões autorais certificados integralmente**. Nenhuma nota, hub ou JSON de estudo foi alterado. **Próximo:** matriz de reparos por gravidade/localizador, separando erros comprovados de hipóteses e falta de evidência, conferência completa de links internos e corpus Cebraspe.

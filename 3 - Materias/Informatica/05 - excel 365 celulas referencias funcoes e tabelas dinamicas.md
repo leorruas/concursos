@@ -217,7 +217,7 @@ Portanto, a fórmula em `E5` será perfeitamente `=SOMA($B$2:C4)`.
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** A expressão **“instantânea ... assim que qualquer dado ... é alterado”** universaliza um comportamento que depende de versão, tipo de fonte e opção de atualização. Em versões atuais, há suporte a **Auto Refresh** para determinadas Tabelas Dinâmicas de origem local; em outras configurações, é preciso atualizar manualmente. O gabarito **ERRADO** é mantido pela generalização da assertiva, não por inexistência da função. Fonte: [Microsoft Support, atualizar dados da Tabela Dinâmica](https://support.microsoft.com/pt-br/excel/refresh-pivottable-data).
+**Comentário:** A expressão **“instantânea ... assim que qualquer dado ... é alterado”** universaliza um comportamento que depende de versão, tipo de fonte e opção de atualização. A Microsoft documenta **Auto Refresh** para Tabelas Dinâmicas com origem local, com disponibilidade dependente da versão/canal de atualização (a documentação também menciona distribuição pelo Microsoft 365 Insider). Em outras configurações, é preciso atualizar manualmente. O gabarito **ERRADO** é mantido pela afirmação incondicional de atualização **instantânea de qualquer dado**, não por inexistência da função. Fonte: [Microsoft Support, atualizar dados da Tabela Dinâmica](https://support.microsoft.com/pt-br/excel/refresh-pivottable-data).
 
 ---
 
@@ -233,3 +233,5 @@ Portanto, a fórmula em `E5` será perfeitamente `=SOMA($B$2:C4)`.
 | `#REF!` | Célula referenciada na fórmula foi excluída (*Deleted*) | Reconstruir a referência à célula |
 
 > **Nota de revisão (11/11/2026):** corrigido o caráter universal da atualização manual de Tabelas Dinâmicas, preservado o enunciado do item 6 e explicitada a reserva de versão/configuração conforme TI-034.
+
+> **Validação de questão, segunda passagem (11/11/2026):** Item 6 conferido contra a [documentação atual de atualização de Tabelas Dinâmicas da Microsoft](https://support.microsoft.com/pt-br/excel/refresh-pivottable-data). **Gabarito mantido: ERRADO**, por universalizar o comportamento. Status: **validado com ressalva de versão/canal e redação**; não usar a antiga regra “sempre exige atualização manual”.

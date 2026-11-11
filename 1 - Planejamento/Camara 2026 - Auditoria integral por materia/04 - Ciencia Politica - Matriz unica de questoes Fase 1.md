@@ -12,7 +12,7 @@ Fonte canônica de achados: [[1 - Planejamento/Camara 2026 - Auditoria integral 
 
 ## Resumo verificável do inventário
 
-**Fotografia de 11/11/2026:** **23 notas canônicas ou variantes** (duas variantes distintas do número 10, mais 11–31), **199 itens inéditos C/E extraídos diretamente do texto**, **134 com indicação de cotejo seletivo prévio** e **65 somente lidos, aguardando conferência independente**. **0 itens declarados integralmente certificados nesta matriz.** Não houve entradas duplicadas na chave `articleId#número`, e todos os 199 registros possuem gabarito original identificado. O total **199** é a contagem diretamente reextraída das notas atuais e substitui **estimativas anteriores**, não as recontagens de itens repetidos em múltiplos blocos de auditoria.
+**Fotografia de 11/11/2026:** **23 notas canônicas ou variantes** (duas variantes distintas do número 10, mais 11–31), **199 itens inéditos C/E extraídos diretamente do texto**, **141 com indicação de cotejo seletivo prévio** e **58 somente lidos, aguardando conferência independente**. **0 itens declarados integralmente certificados nesta matriz.** Não houve entradas duplicadas na chave `articleId#número`, e todos os 199 registros possuem gabarito original identificado. O total **199** é a contagem diretamente reextraída das notas atuais e substitui **estimativas anteriores**, não as recontagens de itens repetidos em múltiplos blocos de auditoria.
 
 **Atenção ao significado:** as 82 marcações de cotejo seletivo são *rastros de uma revisão dirigida*, não homologação final. A referência aponta a um bloco do [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/03 - Ciencia Politica - Fase 1|relatório 03]], que pode confrontar apenas o fundamento decisivo, não cada cláusula da questão. A conversão futura para `confirmado integralmente` requer conferir o enunciado completo, fonte, justificativa, gabarito, exceções e vigência. Itens `somente lidos` também podem estar corretos ou incorretos; a ausência de cotejo não indica erro.
 
@@ -94,16 +94,16 @@ Fonte: `3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes 
 
 | Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
 | --- | --- | --- | --- |
-| `art-a60d8274be1935cf#1` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-a60d8274be1935cf#1` | Certo | Cotejo seletivo | Relatório 03, bloco 27 |
 | `art-a60d8274be1935cf#2` | Errado | Cotejo seletivo | Relatório 03, bloco 26 |
 | `art-a60d8274be1935cf#3` | Certo | Cotejo seletivo | Relatório 03, bloco 26 |
-| `art-a60d8274be1935cf#4` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-a60d8274be1935cf#4` | Errado | Cotejo seletivo | Relatório 03, bloco 27 |
 | `art-a60d8274be1935cf#5` | Certo | Cotejo seletivo | Relatório 03, bloco 10 |
 | `art-a60d8274be1935cf#6` | Errado | Cotejo seletivo | Relatório 03, bloco 26 |
 | `art-a60d8274be1935cf#7` | Certo | Cotejo seletivo | Relatório 03, bloco 26 |
 | `art-a60d8274be1935cf#8` | Certo | Cotejo seletivo | Relatório 03, bloco 26 |
-| `art-a60d8274be1935cf#9` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-a60d8274be1935cf#10` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-a60d8274be1935cf#9` | Certo | Cotejo seletivo | Relatório 03, bloco 27 |
+| `art-a60d8274be1935cf#10` | Errado | Cotejo seletivo | Relatório 03, bloco 27 |
 
 ### 14 - teorias de formacao dos estados nacionais (`art-296b7e51c403d8fa`)
 
@@ -111,16 +111,16 @@ Fonte: `3 - Materias/Estado e Democracia/14 - teorias de formacao dos estados na
 
 | Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
 | --- | --- | --- | --- |
-| `art-296b7e51c403d8fa#1` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-296b7e51c403d8fa#1` | Certo | Cotejo seletivo | Relatório 03, bloco 27 |
 | `art-296b7e51c403d8fa#2` | Errado | Cotejo seletivo | Relatório 03, bloco 10 |
 | `art-296b7e51c403d8fa#3` | Errado | Cotejo seletivo | Relatório 03, bloco 26 |
-| `art-296b7e51c403d8fa#4` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-296b7e51c403d8fa#4` | Certo | Cotejo seletivo | Relatório 03, bloco 27 |
 | `art-296b7e51c403d8fa#5` | Certo | Cotejo seletivo | Relatório 03, bloco 26 |
 | `art-296b7e51c403d8fa#6` | Errado | Cotejo seletivo | Relatório 03, bloco 26 |
 | `art-296b7e51c403d8fa#7` | Certo | Cotejo seletivo | Relatório 03, bloco 26 |
 | `art-296b7e51c403d8fa#8` | Errado | Cotejo seletivo | Relatório 03, bloco 26 |
 | `art-296b7e51c403d8fa#9` | Certo | Cotejo seletivo | Relatório 03, bloco 10 |
-| `art-296b7e51c403d8fa#10` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-296b7e51c403d8fa#10` | Errado | Cotejo seletivo | Relatório 03, bloco 27 |
 
 ### 15 - formacao historica do estado brasileiro (`art-7c24b910e6f3d58a`)
 

@@ -5,7 +5,7 @@ title: "Públicos e stakeholders"
 type: "conceito"
 status: "ativo"
 created: 2026-07-22
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Públicos e stakeholders
 
@@ -82,6 +82,18 @@ Também são plausíveis questões sobre a matriz poder × interesse. O erro com
 **Público × audiência:** público, na tradição situacional, está relacionado a problema e ação; audiência pode ser simplesmente o conjunto de receptores de uma mensagem.
 
 **Interno/externo × ativo/passivo:** são eixos diferentes. “Interno” não significa ativo, e “externo” não significa passivo.
+
+## Auditoria autoral: Freeman, Grunig e critérios de público (11/11/2026)
+
+A [formulação de Freeman publicada pela Cambridge University Press](https://www.cambridge.org/core/books/abs/strategic-management/stakeholder-management-framework-and-philosophy/A5FC17FDDAADAE1777CF66EA217C8567) define **stakeholder** de maneira inclusiva: pessoa ou grupo que pode **afetar ou ser afetado** pelos objetivos da organização. Ela não exige que exista contrato comercial, compra, voto ou uma influência politicamente igual entre todos os grupos. Na gestão pública, essa classificação identifica relações e consequências, **não uma ordem automática de prioridade ou autorização para restringir informação**.
+
+A [teoria situacional dos públicos de Grunig e sua expansão por Kim e Grunig (2011)](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1460-2466.2010.01529.x) trabalha com **reconhecimento do problema, reconhecimento de restrições e envolvimento** para explicar atividade comunicacional. Os rótulos **não-público, público latente, consciente e ativo**, apresentados na nota, devem ser entendidos como uma tipologia teórica de situação e problema, não como fases que toda pessoa precise percorrer linearmente. O artigo de 2011 expande a teoria anterior e adiciona refinamentos; **não atribuir automaticamente todas as variáveis dessa extensão ao modelo original de 1984**.
+
+**Público-alvo** é uma decisão de planejamento e **audiência** é um conceito de recepção ou exposição, dependente da métrica. Pode haver sobreposição de categorias, mas sua unidade de análise é distinta. Uma pessoa pode ser *stakeholder* de um serviço afetado mesmo sem estar incluída na campanha segmentada para informar sobre ele.
+
+**Três itens C/E inéditos:** **(1)** “Para Freeman, uma comunidade afetada por uma obra pública só é stakeholder quando possui vínculo contratual com o órgão executor.” **Errado.** Consequência basta para integrar a categoria. **(2)** “Na teoria situacional de Grunig, reconhecer um problema e perceber restrições de ação são dimensões pertinentes para explicar a atividade comunicacional.” **Certo.** **(3)** “Todo público-alvo de uma campanha deve obrigatoriamente corresponder ao segmento de maior poder da matriz poder-interesse.” **Errado.** Prioridade comunicacional também depende de direito, finalidade, vulnerabilidade e tarefa.
+
+**Prova relacionada já conferida:** [DPDF 2022, item 64 C](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md), sobre engajamento de stakeholders. É relação temática, não prova de cobrança explícita do modelo situacional de Grunig. Não acrescentar o item histórico novamente à contagem.
 
 ## Relações com outros temas
 

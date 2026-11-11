@@ -171,8 +171,12 @@ flowchart TD
  H1 --> J
  J --> K["Leitura, publicação e avulsos; Mesa pauta em até 2 sessões ordinárias"]
  K --> L["Plenário: votação ostensiva; maioria absoluta"]
- N["Art. 16: limite de 60 dias úteis para suspensões; 90 para perda"] -.-> E
+ N["Art. 16: 60 dias úteis para suspensões; 90 para perda"] -.-> E
  N -.-> I
+ N --> X{"Prazo máximo esgotado?"}
+ X -->|No Conselho, após a instrução| X1["Sobresta a pauta do Conselho: art. 16, par. 3, I"]
+ X -->|Recurso pendente na CCJC| X2["Sobresta a pauta da CCJC: art. 16, par. 3, II"]
+ X -->|Depois da inclusão em Ordem do Dia| X3["Preferência até decisão: art. 16, par. 3, III"]
 ```
 
 ### Confronto normativo: instrução, defesa e quórum de pareceres
@@ -257,6 +261,7 @@ Os enunciados seguintes testam **somente o procedimento cautelar** do [RICD, art
 7. **Prazos máximos de tramitação (art. 16):**
    - O art. 16 fixa **60 dias úteis** para deliberação pelo Conselho ou pelo Plenário, conforme o caso, nos processos de **suspensão de prerrogativas ou do mandato**. Na **perda do mandato**, o limite é de **90 dias úteis** para deliberação do Plenário. Censuras não estão nesse intervalo.
    - A inclusão na Ordem do Dia observa o marco de **duas sessões ordinárias** previsto no art. 16, sem substituição por dois dias corridos. Os marcos iniciais e os detalhes de cada rito precisam ser lidos no dispositivo legal.
+   - **Efeito do esgotamento:** o art. 16, § 3º, diferencia três situações. **No Conselho**, depois de concluída a instrução, o processo **sobresta imediatamente a pauta do Conselho**; **na CCJC**, se o recurso estiver pendente, **sobresta imediatamente a pauta da comissão**; **na Ordem do Dia**, uma vez observada a inclusão do § 2º, a representação passa a ter **preferência sobre os demais itens até a decisão**. Não há arquivamento automático ou aprovação tácita pelo esgotamento dos prazos.
 8. **Julgamento Soberano em Plenário:**
    - O Plenário aprecia o parecer e o projeto de resolução do Conselho de Ética;
    - É assegurado ao deputado o direito de sustentar sua defesa pessoalmente ou por advogado em todas as fases, inclusive diretamente da tribuna do Plenário;
@@ -285,6 +290,8 @@ O **art. 18 da Resolução nº 25/2001, na redação consolidada**, estabelece:
 | **Conselho de Ética e Decoro Parlamentar** | Resolução nº 25/2001 e RICD art. 244 | 21 membros titulares e 21 suplentes eleitos pela proporcionalidade | **Órgão processante:** instrui representações disciplinares, realiza a instrução probatória ampla e propõe penalidades ao Plenário. |
 | **Corregedoria Parlamentar** | RICD arts. 17, 20 e 262–273 | Dirigida pelo Corregedor (membro da Mesa) e Corregedores substitutos | **Órgão correcional e de apuração preliminar:** zela pela ordem e disciplina nas dependências da Câmara; realiza investigações preliminares de representações antes do envio ao Conselho; participa das discussões no Conselho, sem direito a voto (Código, art. 9º, § 4º). |
 | **Procuradoria Parlamentar** | RICD art. 21 | 11 membros designados pelo Presidente da Câmara | **Órgão de defesa e reparação:** promove a defesa judicial e extrajudicial da Câmara e de seus membros quando ofendidos em razão do mandato; recebe representações consideradas **levianas ou ofensivas** pelo Conselho de Ética para reparação de imagem. |
+
+**C/E sobre o art. 16:** “Esgotado o prazo de noventa dias úteis de um processo de perda de mandato que se encontre na CCJC por recurso, ocorre arquivamento automático.” **Errado.** O art. 16, § 3º, II, prevê **sobrestamento da pauta da CCJC**. Na Ordem do Dia, cumpridas as condições do § 2º, a matéria ganha **preferência** (inciso III). O efeito varia com a fase do processo.
 
 ## 8. Casos progressivos e situações de fronteira
 

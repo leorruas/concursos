@@ -1516,3 +1516,34 @@ Permanecem **29 arquivos únicos** e **297 exercícios C/E examinados em grau va
 **Edição publicada:** `e31f0b85902e0e938c7974b94b1626a7797e29ae`, no DC30. O cotejo do [art. 44, I–III, da Resolução 1/2006-CN atualizada](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html) revelou que os limites de emendas, já esclarecidos em rodadas anteriores, não bastam para admissibilidade: comissão deve juntar **ata da reunião**, justificar **caráter institucional e interesse nacional ou regional** com as ressalvas sobre entidades privadas da redação vigente, e explicar **benefícios sociais e econômicos**. Inseridos nova linha na matriz e microcaso de ausência de ata/justificativa. Preservada a diferenciação de 6+2 para comissão e 4+4 para Mesa Diretora.
 
 **Reconciliação da auditoria:** o diagnóstico contém **outra frente de levantamento** de 29 artigos e 297 questões, com NC-PL-025 a NC-PL-029 ainda abertas e estimativa de esforço de identificação próxima de 98%. Essa estimativa **não deve ser somada** aos indicadores de edição e certificação. Para a presente trilha, mantêm-se **16/29 artigos distintos modificados** e **DC29 como único artigo certificado (1/29)**; DC30 ainda necessita de fechamento sobre compatibilidade entre procedimento geral, normas especiais e atualizações supervenientes. Evitar novo cálculo global sem confrontar o inventário vigente e a situação das outras frentes concorrentes.
+
+
+## Bloco 33: teste de integridade de 29 artigos, catálogo e backlinks do hub (11/11/2026)
+
+**Auditoria estrutural executada contra o estado atual do repositório.** Localizados os arquivos reais em `3 - Materias/Direito Constitucional`; extraídos diretamente `articleId` e `articleAliases` do frontmatter dos **29 artigos** da trilha PL: `DC06`, `DC10` e `DC11–DC37`, excluindo `11 - organizacao do estado.md`, pertencente a outra trilha. Os arquivos foram recuperados em grupos para evitar interrupção do conector. **Todos os 29 têm ID preenchido e não repetido entre si; todos os aliases textuais correspondem ao próprio caminho**. Conferidos também `data/catalogo-materias-por-concurso.json` (schemaVersion 2) e `3 - Materias/Direito Constitucional/direito-constitucional.md`.
+
+### Resultado verificável do cruzamento
+
+| Teste | Resultado | Interpretação correta |
+| --- | --- | --- |
+| Arquivos de PL com frontmatter testado | **29/29** | Identidades únicas **dentro da trilha**, não prova global de unicidade do vault |
+| `articleId` repetidos na trilha | **0** | Todos os 29 IDs são diferentes |
+| `articleAliases` ausentes ou não correspondentes ao caminho original | **0** | Frontmatter dos 29 arquivos tem alias próprio |
+| IDs da trilha ausentes do catálogo do concurso Câmara | **0/29** | Os **29 aparecem** em `camara-2026 > direito-constitucional > articleIds` |
+| Duplicações de `articleIds` dentro do catálogo constitucional da Câmara | **0/38** | São **38 valores distintos**, incluindo outras notas de Direito Constitucional |
+| Links do hub apontando para artigos da trilha PL e comparados à árvore de arquivos | **34 ocorrências, nenhum caminho ausente** | Verificação **estática dos destinos**, não navegação/renderização no browser |
+
+A diferença **38 entradas no catálogo versus 29 artigos da trilha** decorre do escopo mais amplo da matéria `direito-constitucional`, e **não indica nove arquivos faltantes**. Os links `[[caminho|rótulo]]` extraídos do hub foram comparados com os caminhos presentes na pasta. A correspondência de caminhos **não valida rótulos, semântica do conteúdo, JS do roteador, publicação do GitHub Pages nem renderização Mermaid**.
+
+### Falhas ainda ativas, confirmadas neste checkpoint
+
+- **NC-PL-029, hub**, linhas **75 e 77**: rótulo e descrição associam **CAM-PL-020** equivocadamente à expansão de comissões DC14. No planejamento e artigos revisados, **CAM-PL-020 corresponde a DC23 (Mesa, arts.1–24)**, enquanto DC14 contém aprofundamento de **CAM-PL-004** (arts.25–54). Os **caminhos de ambos os links existem**; o defeito é **semântico/editorial**, não link quebrado.
+- **NC-PL-025, DC34, linha 106**: título do rol de prerrogativas suspensíveis cita **art.13 V**, deve ser **art.13 VI**.
+- **NC-PL-026, DC34, linha 121**: mantém como vigente a redução de uma vaga do partido do Corregedor por suposto assento especial; regra histórica ausente do Código de Ética consolidado, pendente retirada ou fonte normativa vigente específica.
+- **NC-PL-027/028, DC34**: já menciona suspensão cautelar, mas ainda requer explicar o **RICD art.15 XXX e §§2º–6º e Ato da Mesa 180/2025**, inclusive prazos por sujeito e recurso, sem confundí-la com sanção final.
+
+### Decisão para passagem da Fase 1 à correção
+
+**Encerrada a verificação estrutural dos 29 IDs, suas inscrições no catálogo e os 34 destinos de link do hub de PL**. Nada nessas três verificações exige criar, renomear ou duplicar artigos. **Permanece aberta a validação jurídica/editorial da Fase 1 como um todo**, porque há erros comprovados e lacunas conhecidas. Proposta objetiva de passagem: **(1)** editar DC34 com correções normativas já demonstradas, **(2)** corrigir os dois rótulos do hub, **(3)** verificar pós-edição os seis exercícios, fluxograma e navegação do site, **(4)** registrar veredito por artigo. A realização desses reparos depende da etapa editorial, distinta do levantamento diagnóstico, e não foi feita neste bloco.
+
+**Métrica correta após esta etapa:** **29/29 artigos de PL identificados, 297 exercícios examinados com graus variados de cotejo; 29/29 IDs e aliases revisados; 29/29 IDs encontrados no catálogo; 34 links do hub com caminhos existentes**. A porcentagem histórica “98% do diagnóstico” era uma estimativa subjetiva. **Com a inspeção estrutural concluída, evitar simplesmente declarar 100% ou equiparar diagnóstico à certificação de conteúdo.** Até a última certificação formal explicitamente rastreada no relatório, **DC29** recebeu atestado normativo datado; os demais continuam exigindo validação própria. **Nenhum artigo e nenhum hub foram editados nesta rodada.**

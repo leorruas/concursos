@@ -127,7 +127,7 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 > Conforme a Lei do Governo Digital (Lei nº 14.129/2021), a prestação de serviços públicos digitais deve orientar-se pelo princípio do cadastramento único, vedando-se aos órgãos e entidades públicas a exigência de documentos ou certidões que já constem de bases de dados do próprio Estado, cabendo à administração obter tais informações mediante mecanismos de interoperabilidade.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Enunciado em estrita consonância com o texto da Lei nº 14.129/2021 (princípio *Once-Only*). A lei impõe a obrigação de os entes federativos integrarem suas bases de dados via interoperabilidade, poupando o cidadão do ônus de fornecer documentos que o poder público já custodia.
+- **Fundamentação**: O art. 3º, XII, XIII e XIV, da Lei nº 14.129/2021 orienta a apresentação única de exigências, veda exigir prova de fato já comprovado por documento ou informação válida e promove interoperabilidade. O art. 24, IV, determina eliminar exigências desnecessárias de documentos prescindíveis, inclusive por compartilhamento de dados. **A aplicação concreta depende da abrangência do art. 2º, da validade da informação e das condições legais de acesso e compartilhamento**. A frase “bases de dados do próprio Estado” não deve ser tomada como obrigação técnica irrestrita de obter qualquer dado de qualquer ente, a qualquer tempo.
 
 ---
 
@@ -195,3 +195,5 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 - **STF, Tema 483 de Repercussão Geral**: Legitimidade da divulgação de vencimentos de servidores públicos na internet.
 
 > **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.
+
+> **Validação jurídica, segunda passagem (11/11/2026):** Questão 1: o núcleo de simplificação documental e interoperabilidade é compatível com a [Lei 14.129/2021, arts. 3º e 24](https://www2.camara.leg.br/legin/fed/lei/2021/lei-14129-29-marco-2021-791203-normaatualizada-pl.html). **Gabarito CERTO preservado com ressalva de redação**, especialmente quanto à validade da prova, alcance dos órgãos e possibilidade jurídica/técnica de compartilhamento. A questão deverá ser reescrita antes de servir como referência literal de dispositivo.

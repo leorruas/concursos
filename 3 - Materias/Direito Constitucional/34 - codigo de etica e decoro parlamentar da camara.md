@@ -168,7 +168,10 @@ flowchart TD
  R14 --> H
  H -->|Recurso interposto| H1["CCJC examina apenas vícios jurídicos: 5 dias úteis"]
  H -->|Sem recurso| J["Processo encaminhado à Mesa"]
- H1 --> J
+ H1 --> H2{"Vício jurídico reconhecido?"}
+ H2 -->|Não| J
+ H2 -->|Sim| H3["Providências de saneamento conforme decisão da CCJC"]
+ H3 -.-> H4["Tramitação posterior depende do saneamento"]
  J --> K["Leitura, publicação e avulsos; Mesa pauta em até 2 sessões ordinárias"]
  K --> L["Plenário: votação ostensiva; maioria absoluta"]
  N["Art. 16: 60 dias úteis para suspensões; 90 para perda"] -.-> E
@@ -413,6 +416,8 @@ Os fundamentos foram conferidos individualmente com o [Código de Ética consoli
 | 6: revisão do mérito pela CCJC | **E** | Código, **art. 14, § 4º, VII**: CCJC aprecia vícios constitucionais, regimentais ou do Código, não o mérito integral |
 
 **Resultado:** 6/6 gabaritos confirmados quanto ao enunciado específico, sem inversão. A questão 2 foi **reescrita** para corresponder à hipótese legal de desacato por palavras, em vez de usar expressão genérica potencialmente ambígua. Os quatro casos sobre suspensão **cautelar** permanecem separados dos seis itens do rito **sancionatório**. A verificação integral do Regulamento e de todos os exemplos continua sendo etapa independente.
+
+**Limite do fluxograma (11/11/2026):** a CCJC aprecia somente os vícios jurídicos apontados no recurso, não reexamina o mérito. O percurso gráfico distingue o recurso não acolhido da hipótese de reconhecimento de vício, que exige providências compatíveis com a decisão antes de eventual remessa regular à Mesa. O desenho é síntese didática, não substitui os arts. 13, IV–V, e 14, § 4º, VII–VIII, do Código. A renderização visual do Mermaid ainda não foi verificada.
 
 ## Fontes primárias e controle de vigência
 

@@ -5,7 +5,7 @@ title: "Fact-checking e desinformação"
 type: "conceito"
 status: "ativo"
 created: 2026-07-22
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 # Fact-checking e desinformação
 
@@ -167,6 +167,18 @@ Esta expansão preserva as definições e a análise de prova FGV já consolidad
 A checagem e a classificação de episódios problemáticos servem ao diagnóstico, mas fortalecer a **integridade da informação** envolve também **pluralidade de fontes, transparência sobre distribuição, resiliência social, governança e proteção à liberdade de expressão**. [[3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos|Integridade da informação: ecossistema, direitos e governança]]. Essa relação amplia o uso da nota sem substituir o conteúdo FGV anterior nem suas categorias.
 
 **Fontes complementares desta expansão:** [Conselho da Europa, Wardle e Derakhshan (2017)](https://edoc.coe.int/en/media/7495-information-disorder-toward-an-interdisciplinary-framework-for-research-and-policy-making.html); [OCDE, *Facts not Fakes* (2024)](https://www.oecd.org/en/publications/facts-not-fakes-tackling-disinformation-strengthening-information-integrity_d909ff7a-en.html). Os exemplos são hipotéticos e os itens são inéditos.
+
+## Auditoria do modelo original: eixos, agentes e contexto (11/11/2026)
+
+A publicação do [Conselho da Europa, *Information Disorder* (Wardle e Derakhshan, 2017)](https://edoc.coe.int/en/media/7495-information-disorder-toward-an-interdisciplinary-framework-for-research-and-policy-making.html) identifica explicitamente três dimensões analíticas: **três tipos** (*mis-, dis- e mal-information*), **três elementos** (**agentes, mensagens e intérpretes**) e **três fases** (**criação, produção e disseminação**). A página oficial confirma a estrutura e a autoria; nesta rodada ela foi verificada diretamente, **sem análise página a página do PDF integral do relatório**.
+
+**Conferência dirigida dos três exercícios inéditos anteriores:** **1 Certo**, a informação genuína usada deliberadamente para causar dano pode se enquadrar em *malinformation*; **2 Errado**, *false connection* e *false context* são mecanismos diferentes, um referente ao descompasso entre partes da peça e outro ao contexto deslocado de conteúdo genuíno; **3 Errado**, agente e intenção podem mudar entre as fases da circulação. Não inferir intenção de dano sem evidência sobre os agentes. A definição tripartite do relatório não substitui, por si, classificação jurídica brasileira de ilícitos.
+
+**Questão histórica correlata, já contabilizada:** no [CNMP 2023, item 75 C](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md), a banca usou o termo *fake news* em formulação particular. O julgamento histórico deve ser preservado; não transformar a descrição do concurso em taxonomia universal equivalente à de Wardle e Derakhshan.
+
+**Novo C/E inédito:** “Ao estudar uma mensagem falsa disseminada em redes, Wardle e Derakhshan exigem que a mesma pessoa seja sempre responsável por sua criação, produção e distribuição.” **Errado.** O modelo distingue fases e agentes, sem identidade obrigatória entre responsáveis.
+
+**Limite de fonte:** o site oficial do Conselho da Europa sustenta a arquitetura geral; definições finas das sete formas de conteúdo seguem presentes na nota original e **não foram redocumentadas por leitura integral da fonte primária nesta rodada**. A classificação de intenção e dano depende também de contexto, não de aparência isolada do conteúdo.
 
 ## Referências de verificação
 

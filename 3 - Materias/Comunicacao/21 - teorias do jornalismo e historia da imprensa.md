@@ -5,7 +5,7 @@ title: "Teorias do jornalismo e história da imprensa"
 type: "conceito"
 status: "ativo"
 created: 2026-08-05
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 
 # Teorias do jornalismo e história da imprensa
@@ -102,6 +102,18 @@ No ambiente digital, gatekeeping não desaparece: os filtros passam a envolver t
 ## Como costuma ser cobrado
 
 Questões conceituais podem apresentar uma descrição verdadeira de uma teoria aplicada à categoria errada. O distrator mais forte é trocar **seleção** por **produção**, **tema** por **enquadramento** ou **saliência midiática** por **silenciamento de opinião**. Em vez de decorar apenas nomes, identifique qual pergunta o caso está fazendo.
+
+## Conferência de fronteiras: teoria do espelho, gatekeeping e newsmaking (11/11/2026)
+
+A análise acadêmica [*Fato vs. texto: como a “objetividade” oculta o caráter discursivo do jornalismo* (*Bakhtiniana*, 2022)](https://www.scielo.br/j/bak/a/XTcwGVQZJNyxfsrtQkHtfSF/?format=html&lang=pt) distingue o **ideal profissional de objetividade** relacionado à chamada *teoria do espelho* dos estudos de **gatekeeping** e das explicações sobre produção social e organizacional da notícia. A teoria do espelho é apresentada na literatura como **modelo simplificado e expressão de cultura profissional**, não modelo científico com demonstração de ausência de mediação. *Gatekeeping* investiga decisões e filtros de seleção; *newsmaking* amplia a análise para rotinas, condições institucionais e modos de produção. O artigo da [Intercom sobre monotematização da cobertura durante a pandemia](https://www.scielo.br/j/interc/a/cZZ5qwytR4z9fG4ktKVtkkz/?lang=pt) mobiliza em conjunto *agenda-setting*, *gatekeeping* e *newsmaking* para explicar fenômenos distintos da mesma cobertura.
+
+**Fronteira para o concurso:** nenhum desses conceitos autoriza dizer que jornalistas fabricam os fatos que relatam. **Construção da notícia** designa seleção, apuração, enquadramento e composição do relato sobre acontecimentos; a mensagem pode ser verdadeira e verificada mesmo sendo produzida por processos editoriais. *Agenda-setting* trata da **saliência de assuntos**, não necessariamente da concordância do público com a posição do veículo. E o mapa histórico “imprensa → telégrafo → rádio...” é uma **sequência didática de tecnologias e práticas**, não sucessão linear de teorias que se tornam inválidas quando surge um novo meio.
+
+**Provas históricas já confrontadas:** [DPDF 2022, item 90 C](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md), sobre relevância dos temas, e [CNMP 2023, item 91 C](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), sobre pirâmide invertida. Ambos são relacionados à cobertura e produção, **sem demonstrar cobrança nominal de White, Tuchman ou da teoria do espelho**. Não incluí-los novamente na contagem histórica.
+
+**Três C/E inéditos:** **(1)** “Na teoria do espelho, a existência do ideal de objetividade demonstra que notícias resultam de reprodução neutra, sem escolhas editoriais.” **Errado:** o ideal é descritivo/normativo de uma tradição, sem prova de ausência de mediação. **(2)** “Gatekeeping e newsmaking podem examinar partes do mesmo processo, embora o segundo considere também rotinas e condicionantes organizacionais.” **Certo.** **(3)** “A hipótese de agenda-setting demonstra que um veículo tem poder necessário de determinar a opinião de todas as pessoas sobre cada assunto escolhido.” **Errado:** confunde saliência de temas com determinação universal de atitudes.
+
+**Escopo:** esta verificação usa literatura acadêmica de síntese, não uma leitura integral, obra a obra, dos autores da tabela original; o mapa de teorias permanece como instrumento didático que demanda cotejo autoral específico nas notas especializadas.
 
 ## Relações com outros temas
 

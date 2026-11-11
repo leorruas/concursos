@@ -5,7 +5,7 @@ title: "Visualização de dados: seleção de gráficos pela pergunta analítica
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Visualização de dados: seleção de gráficos pela pergunta analítica, variáveis e carga cognitiva
@@ -23,7 +23,7 @@ Um gráfico mal selecionado distorce fatos, oculta padrões críticos ou impõe 
 
 ## 2. A taxonomia analítica de Andrew Abela
 
-O método clássico e mais cobrado em provas para seleção de gráficos parte do framework de Andrew Abela (*Extreme Presentation*), que classifica a intenção do analista em quatro categorias fundamentais:
+Uma referência útil para selecionar gráficos é o esquema de Andrew Abela, que organiza perguntas de comparação, distribuição, composição e relação. Trata-se de uma heurística de design, e não de uma taxonomia universal ou de frequência comprovada em provas:
 
 ```
                             QUAL É A SUA PERGUNTA?
@@ -49,7 +49,7 @@ O método clássico e mais cobrado em provas para seleção de gráficos parte d
 ### 2.2. Evolução Temporal (*Trend over Time*)
 - **Objetivo:** Mostrar a trajetória, tendência, aceleração ou sazonalidade de uma métrica contínua ao longo de um eixo cronológico ordenado (ex.: execução orçamentária mensal da Câmara ao longo do ano).
 - **Gráficos recomendados:**
-  - **Gráfico de Linhas:** É o padrão absoluto para dados temporais contínuos com muitos períodos. O olho humano conecta intuitivamente os pontos por linhas contínuas para inferir aceleração e declínio.
+  - **Gráfico de Linhas:** É frequentemente adequado para séries temporais com muitos períodos. O olho humano conecta intuitivamente os pontos por linhas contínuas para inferir aceleração e declínio.
   - **Gráfico de Áreas:** Útil para enfatizar o volume total acumulado além da tendência individual.
 
 ### 2.3. Composição de um Todo (*Composition*)
@@ -64,7 +64,7 @@ O método clássico e mais cobrado em provas para seleção de gráficos parte d
 - **Gráficos recomendados:**
   - **Histograma:** Mostra a distribuição de frequência de uma variável contínua dividida em intervalos (*bins*).
   - **Box Plot (Diagrama de Caixas):** Exibe mediana, quartis, dispersão e *outliers*.
-  - **Gráfico de Dispersão (*Scatter Plot*):** Cruza duas variáveis numéricas contínuas nos eixos $X$ e $Y$.
+  - **Gráfico de Dispersão (*Scatter Plot*):** Cruza duas variáveis quantitativas nos eixos $X$ e $Y$, sejam contínuas ou discretas, quando faz sentido representar pares de observações.
 
 ---
 
@@ -125,7 +125,7 @@ O **Gráfico de Pizza (*Pie Chart*)** é o gráfico mais abusado na administraç
 | Como uma grandeza contínua variou mês a mês? | 1 Temporal + 1 Numérica Contínua | **Linhas** | Pizza ou Colunas Agrupadas densas |
 | Qual secretaria executou o maior volume financeiro? | 1 Categórica Nominal + 1 Numérica | **Barras Horizontais** (ordenadas) | Pizza de 15 fatias ou Radar |
 | Como se divide o orçamento da União entre ministérios e programas? | Hierarquia (Pai-Filho) + Numérica | **Treemap** | Pizza multinível concêntrica |
-| Existe relação entre a escolaridade dos eleitores e o comparecimento? | 2 Numéricas Contínuas | **Dispersão (*Scatter Plot*)** | Colunas justapostas |
+| Existe associação entre anos de estudo e taxa de comparecimento por município? | 2 Numéricas Agregadas | **Dispersão (*Scatter Plot*)** | Gráfico de linhas ligando municípios sem ordem temporal |
 | Como se distribuem os salários dos servidores e há *outliers*? | 1 Numérica Contínua | **Histograma ou Box Plot** | Linhas temporais |
 | Qual a proporção de votos Sim, Não e Abstenção em uma votação? | 1 Categórica (3 classes) + 1 Contagem | **Barras Empilhadas a 100% ou Pizza simples** | Gráfico 3D inclinado |
 
@@ -178,7 +178,7 @@ O **Gráfico de Pizza (*Pie Chart*)** é o gráfico mais abusado na administraç
 > **Assertiva:** O gráfico de dispersão (*scatter plot*) é a representação visual indicada quando o objetivo analítico consiste em verificar a existência de correlação, padrão de associação linear ou agrupamentos entre duas variáveis numéricas contínuas.
 >
 > **Gabarito:** **CERTO**  
-> **Comentário:** O gráfico de dispersão plota pares ordenados $(X, Y)$ em um plano cartesiano ortogonal, sendo a ferramenta gráfica por excelência para investigar relações causais aparentes, dispersão, correlação positiva/negativa e presença de outliers bivariados entre duas variáveis quantitativas.
+> **Comentário:** O gráfico de dispersão plota pares ordenados $(X, Y)$ em um plano cartesiano ortogonal, sendo a ferramenta gráfica por excelência para investigar associações, dispersão, correlação positiva/negativa e presença de outliers bivariados; padrões observados não demonstram causalidade entre duas variáveis quantitativas.
 
 ### Item 6
 > **Assertiva:** O Treemap é uma visualização analítica adequada para exibir a composição percentual de dados estruturados hierarquicamente em múltiplos níveis, utilizando retângulos aninhados proporcionais à grandeza das variáveis representadas.
@@ -195,3 +195,5 @@ O **Gráfico de Pizza (*Pie Chart*)** é o gráfico mais abusado na administraç
 3. **ABELA, Andrew.** *Advanced Presentations by Design: Creating Communication That Drives Action.* Pfeiffer, 2008.
 4. **CAIRO, Alberto.** *The Functional Art: An introduction to information graphics and visualization.* New Riders, 2012.
 5. **KNAFLIC, Cole Nussbaumer.** *Storytelling com Dados: um guia sobre visualização de dados para profissionais de negócios.* Rio de Janeiro: Alta Books, 2018.
+
+> **Revisão editorial (11/11/2026):** correções dirigidas às ressalvas da auditoria da Câmara, preservando as distinções técnicas e evitando universalizar heurísticas. Questões inéditas ainda não homologadas como questões oficiais da banca.

@@ -1679,3 +1679,20 @@ O fluxo `.github/workflows/pages.yml` é acionado por `push` em `main`, ignorand
 **Ressalva de versão:** a republicação da Câmara traz a inscrição **“texto consolidado até janeiro de 2023”**. A consulta em 11/11/2026 não atualiza automaticamente a consolidação; normas posteriores devem ser cotejadas, especialmente as regras da CMO alteradas em 2025. Informação registrada no DC30.
 
 **Estado da certificação:** a matriz de exercícios está validada (10/10), mas **DC30 continua não certificado integralmente**, porque os aprofundamentos sobre emendas e a interação com disciplinas especiais podem apresentar condicionantes anuais adicionais. Para a presente trilha editorial, permanece o histórico de **16/29 artigos alterados** e **1/29 certificado (DC29)**; não confundir avanço de exercícios verificados com certificação de todo o artigo nem com outras frentes de diagnóstico.
+
+
+## Bloco 37: prova de publicação do Markdown e limites da verificação visual (11/11/2026)
+
+**Investigação:** consultados `scripts/verify-live-pages.js`, `scripts/build-site.js`, `.github/workflows/pages.yml`, testes de identidade e catálogo, `web/05-mermaid.js`, além das versões atuais de DC34 e hub. Tentada consulta ao workflow e ao endereço público do site. A ferramenta de GitHub para listar runs por commit **retornou lista vazia**, mas sua cobertura é limitada a runs de pull requests, portanto **não permite concluir que não houve execução por push**. A consulta ao endereço convencional GitHub Pages não retornou site acessível. **Nenhum status de deploy foi confirmado**.
+
+**Falha de cobertura de teste identificada:** o verificador pós-deploy comparava o `manifest.json`, os IDs/aliases, o catálogo e recursos de flashcards/glossário/interface. Ele **não comparava o corpo Markdown de DC34 nem do hub**. Como um ajuste do artigo pode manter metadados idênticos, o teste poderia sinalizar sucesso com esses dois arquivos desatualizados no site.
+
+**Correção do teste publicada:** `scripts/verify-live-pages.js`, commit **`781e6175bf36c621ea4687616ca0826e727154e5`**. Mantidos todos os testes existentes, adicionada, na verificação pós-deploy, comparação do conteúdo **exato** de:
+- `3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md`
+- `3 - Materias/Direito Constitucional/direito-constitucional.md`
+
+Para cada um, o verificador exige cópia local em `_site`, busca o arquivo no Pages por URL derivada do **endereço real de deployment fornecido pelo próprio workflow** com parâmetro de versão para evitar cache, exige HTTP 2xx e compara o texto publicado ao texto local. Qualquer ausência ou divergência lança erro, aproveitando o mecanismo preexistente de até **seis tentativas** do pós-deploy. A releitura do script salvo confirmou as duas rotas, `new URL(recurso, baseUrl)`, cache-busting, timeout de oito segundos e igualdade textual. O build existente `scripts/build-site.js` copia notas Markdown da pasta `3 - Materias` para `_site` e já inclui o hub e DC34 no inventário, conforme cruzamento dos 29 IDs.
+
+**Limites explícitos:** inserir um teste no código **não é executar o teste**. Nesta rodada não houve acesso a run de GitHub Actions, logs, artefato `_site` nem visualização do site, logo **não declarar deploy bem-sucedido**. A igualdade do Markdown ao vivo, quando executada, prova a publicação do conteúdo, mas **não a renderização SVG** do Mermaid nem a navegação visual. A checagem estrutural do bloco 36 também não substitui o parser da versão 11.15.0 do Mermaid. O fluxo existente cobre catálogo e busca, mas não contém teste visual explícito do diagrama DC34.
+
+**Próximo passo:** obter run do workflow `pages.yml` e seu resultado depois do commit do teste; confirmar verificação `Código de Ética e hub constitucional sincronizados`, e executar teste visual específico do diagrama se estiver disponível ambiente de navegador. Depois iniciar certificação jurídica individual dos demais textos. **Nenhum artigo de estudo, questão ou hub foi alterado neste bloco**; apenas script de teste, relatório e índice.

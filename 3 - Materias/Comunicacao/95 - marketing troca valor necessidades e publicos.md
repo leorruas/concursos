@@ -5,7 +5,7 @@ title: "Marketing: troca, valor, necessidades e públicos"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Marketing: troca, valor, necessidades e públicos
@@ -160,6 +160,16 @@ A comunicação da Câmara pode informar serviços, tornar procedimentos acessí
 **Item 3.** Marketing societal e marketing social são expressões equivalentes, pois ambos designam exclusivamente campanhas de comunicação criadas para estimular a adoção de comportamentos socialmente desejáveis.
 
 **Gabarito: Errado.** *Societal marketing* é orientação gerencial que incorpora interesses sociais de longo prazo; *social marketing* se volta à mudança comportamental de benefício social. O termo “exclusivamente” também reduziria indevidamente a orientação societal a campanhas.
+
+## Conferência externa: marketing, orientação de produto e societal (11/11/2026)
+
+A [definição publicada pela American Marketing Association](https://www.ama.org/the-definition-of-marketing-what-is-marketing/) contempla atividades, instituições e processos para criar, comunicar, entregar e trocar ofertas de valor para consumidores, parceiros e sociedade. Assim, o **item 1 permanece Certo**, por distinguir marketing de publicidade e vendas isoladas.
+
+A [OpenStax, *Evolution of the Marketing Concept*](https://openstax.org/books/principles-marketing/pages/1-4-evolution-of-the-marketing-concept), distingue orientação à **produção** (escala, disponibilidade e eficiência) da orientação ao **produto** (qualidade, desempenho e atributos). O **item 2 permanece Errado** porque as duas definições foram invertidas. A orientação **societal** incorpora, ao planejamento gerencial, os interesses de longo prazo do público e da sociedade; não deve ser confundida com **marketing social**, abordagem dirigida a objetivos de mudança comportamental de benefício social. O **item 3 permanece Errado** por reduzir ambos a campanhas e tratá-los como expressões idênticas.
+
+**Exercício inédito (C/E):** “A definição da AMA restringe marketing à publicidade de ofertas de empresas com fins lucrativos, excluindo processos de criação e entrega de valor.” **Errado.**
+
+**Escopo:** conferência das definições publicadas pela AMA e pelo livro didático de acesso aberto. A adaptação a instituições legislativas continua uma comparação editorial, sem equiparar cidadão a consumidor obrigado a escolher fornecedores nem converter marketing em norma jurídica.
 
 ## Relações e heurísticas
 

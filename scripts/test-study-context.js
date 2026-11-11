@@ -40,14 +40,19 @@ try{
     .filter(s=>s.concursoId==='cgu-2026')
     .sort((a,b)=>Date.parse(b.startedAt)-Date.parse(a.startedAt)||b.id.localeCompare(a.id))[0];
   assert(latestCguSession,'Falta sessão CGU para validar retomada global');
-  assert.equal(index.contests.find(c=>c.concursoId==='cgu-2026').resume.lastSessionId,latestCguSession.id);
-  for(const [cmd,id] of [['continuar Auditoria Governamental','auditoria-governamental'],['vamos continuar Contabilidade Pública','contabilidade-publica'],['revisar meus erros de Direito Administrativo','direito-administrativo'],['continuar a CGU de onde parei',latestCguSession.subjectId]])assert.equal(resolveCommand(index,cmd).subjectId,id);
+  const latestCguCurricular=fs.readdirSync(path.join(root,'data/sessoes')).filter(n=>n.endsWith('.json')).map(n=>read('data/sessoes/'+n))
+    .filter(s=>s.concursoId==='cgu-2026'&&s.subjectId&&s.subjectId!=='diagnostico-misto'&&s.scope!=='mixed')
+    .sort((a,b)=>Date.parse(b.startedAt)-Date.parse(a.startedAt)||b.id.localeCompare(a.id))[0];
+  assert(latestCguCurricular,'Falta sessão curricular para validar a retomada');
+  assert.equal(index.contests.find(c=>c.concursoId==='cgu-2026').lastActivity.lastSessionId,latestCguSession.id,'Última atividade inclui bateria mista');
+  assert.equal(index.contests.find(c=>c.concursoId==='cgu-2026').resume.lastSessionId,latestCguCurricular.id,'Retomada curricular não é substituída pela bateria mista');
+  for(const [cmd,id] of [['continuar Auditoria Governamental','auditoria-governamental'],['vamos continuar Contabilidade Pública','contabilidade-publica'],['revisar meus erros de Direito Administrativo','direito-administrativo'],['continuar a CGU de onde parei',latestCguCurricular.subjectId]])assert.equal(resolveCommand(index,cmd).subjectId,id);
   const make=(suffix,date,time='18:00:00')=>({schemaVersion:2,id:'cgu-2026-context-test-'+suffix,startedAt:date+'T'+time+'-03:00',date,concursoId:'cgu-2026',banca:'Cebraspe',kind:'microtreino',trainingMode:'aprendizagem',status:'concluido',subjectId:'auditoria-governamental',unitId:'u07',diagnosis:'Fixture de teste, nunca publicada.',nextStep:'Reparar finalidade do teste versus técnica.',learning:{stage:'aprendizagem',taughtConcepts:['finalidade dos testes'],boundaries:['técnica versus finalidade'],pending:['treino calibrado'],unitCompleted:false,next:{unitId:'u07',stage:'fronteiras',objective:'Comparar finalidades em um novo caso.',noteRef:'3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar',sourceIds:['mot']}},questions:[{number:1,discipline:'Auditoria Governamental',conceptId:'finalidade-do-teste',topic:'Teste',subtopic:'Finalidade versus técnica',questionType:'comparison',mechanism:'fixture-'+suffix,distractorMechanism:'troca-de-categoria',statement:'Item sintético apenas em diretório temporário.',explanation:'Comentário de teste.',format:'CE',correctAnswer:'C',userAnswer:'E',confidence:'secure',origin:'inedita',destinations:['metrica_apenas'],annulled:false,errorType:'confusao_conceitual',theoryRefs:['3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#2. Execução: testar, comparar e documentar'],repetition:{classification:'new',similarTo:[],intentional:false}}]});
   const save=s=>write('data/sessoes/'+s.id+'.json',s);
   const s=make('erro','2026-11-04');save(s);sync();const target=s.id+'-q1';
   assert.equal(findGap('auditoria-governamental',target).status,'pendente');
   const another=make('outra-materia','2026-11-04','19:00:00');another.subjectId='contabilidade-publica';another.unitId='fundamentos';another.questions[0].discipline='Contabilidade Pública';another.questions[0].conceptId='oticas-contabeis';another.questions[0].correctAnswer='E';another.questions[0].errorType=null;another.questions[0].theoryRefs=[];another.learning.next={unitId:'fundamentos',stage:'fronteiras',objective:'Contrastar os três enfoques.',noteRef:null,sourceIds:['mcasp']};save(another);sync();
-  const expectedResumeSubject=Date.parse(latestCguSession.startedAt)>Date.parse(another.startedAt) ? latestCguSession.subjectId : 'contabilidade-publica';
+  const expectedResumeSubject=Date.parse(latestCguCurricular.startedAt)>Date.parse(another.startedAt) ? latestCguCurricular.subjectId : 'contabilidade-publica';
   assert.equal(read('data/contexto-estudo/indice.json').contests.find(c=>c.concursoId==='cgu-2026').resume.subjectId,expectedResumeSubject,'Retomada deve priorizar a sessão de data/hora mais recente');
   const ultimaAuditoriaEsperada=Date.parse(a.latestSession?.startedAt||0)>Date.parse(s.startedAt)?a.latestSession.id:s.id;
   assert.equal(ctx('auditoria-governamental').latestSession.id,ultimaAuditoriaEsperada,'Trocar matéria não apaga o checkpoint mais recente');
@@ -110,5 +115,28 @@ try{
   const missing=structuredClone(plan);missing.subjects=missing.subjects.filter(s=>s.id!=='etica-publica');assert.throws(()=>validatePlan(root,missing,contests),/sem rota/);
   const cycle=structuredClone(plan);cycle.subjects[0].units[0].requires=['u02'];cycle.subjects[0].units[1].requires=['u01'];assert.throws(()=>validatePlan(root,cycle,contests),/Ciclo/);
   for(const c of read('data/contexto-estudo/indice.json').contests)for(const sub of c.subjects){const bytes=fs.statSync(path.join(root,sub.path)).size;const budget=sub.id==='comunicacao'&&['dataprev-2026','camara-2026'].includes(c.concursoId)?128000:65000;assert(bytes<budget,`Contexto compacto excede orçamento: ${sub.path} (${bytes} bytes, limite ${budget})`);}
+  // V3: sessão mista sem matéria fictícia, contagem por questão e retomada curricular preservada.
+  const mixed=make('contrato-v3-misto','2026-12-03');
+  mixed.schemaVersion=3;mixed.scope='mixed';mixed.subjectId=null;mixed.unitId=null;
+  mixed.learning.next={unitId:null,stage:'revisao',objective:'Retestar conceitos da bateria.',sourceIds:['mot']};
+  mixed.questions[0].subjectId='auditoria-governamental';mixed.questions[0].unitId='u07';
+  mixed.questions[1]={...structuredClone(mixed.questions[0]),number:2,discipline:'Direito Constitucional',conceptId:'controle-abstrato',mechanism:'item-extracurricular',subjectId:null,unitId:null,userAnswer:'C',correctAnswer:'C',errorType:null,theoryRefs:[]};
+  const badMixed=structuredClone(mixed);badMixed.questions[1].unitId='u07';
+  assert.throws(()=>validateSession(badMixed,badMixed.id+'.json',root,contests),/sem matéria|não pode ter unidade/);
+  const badMapping=structuredClone(mixed);badMapping.questions[0].unitId='up3-3-3';
+  assert.throws(()=>validateSession(badMapping,badMapping.id+'.json',root,contests),/unidade incompatível/);
+  validateSession(mixed,mixed.id+'.json',root,contests);
+  const beforeMixedAudit=ctx('auditoria-governamental').results.aprendizagem.incorrect;
+  const beforeMixedResume=read('data/contexto-estudo/indice.json').contests.find(c=>c.concursoId==='cgu-2026').resume;
+  save(mixed);sync();
+  const afterMixed=read('data/contexto-estudo/indice.json').contests.find(c=>c.concursoId==='cgu-2026');
+  assert.equal(afterMixed.lastActivity.lastSessionId,mixed.id);
+  assert.deepEqual(afterMixed.resume,beforeMixedResume,'Sessão mista não altera ponto de retomada curricular');
+  assert.equal(ctx('auditoria-governamental').results.aprendizagem.incorrect,beforeMixedAudit+1,'Questão mapeada deve entrar no resultado da matéria');
+  assert.equal(ctx('auditoria-governamental').units.find(u=>u.id==='u07').results.aprendizagem.incorrect>=1,true);
+  assert.equal(read('data/questoes-ledger.json').questions.filter(q=>q.sourceId===mixed.id).length,2);
+  const sameLedger=read('data/questoes-ledger.json').questions.length;
+  assert.equal(prepare(root).operations.length,0,'Reprocessar sessão mista não duplica questões');
+  assert.equal(read('data/questoes-ledger.json').questions.length,sameLedger);
   console.log('SUCESSO: 14 blocos/81 itens, roteamento natural, alternância de matérias, retorno dias depois, recuperação/retencão, aula sem questões, correção idempotente e isolamento entre concursos.');
 }finally{fs.rmSync(root,{recursive:true,force:true});}

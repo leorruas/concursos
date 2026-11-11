@@ -5,7 +5,7 @@ title: "Cronograma de campanha: sequência, dependências e caminho crítico"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Cronograma de campanha: sequência, dependências e caminho crítico
@@ -152,6 +152,14 @@ A **Lei nº 12.232/2010** pode incidir em serviços publicitários contratados, 
 **Item 3.** Em programação de mídia, a estratégia de veiculação em ondas corresponde à relação de precedência término para início (FS), pois ambas definem uma atividade que só começa após a anterior terminar.
 
 **Gabarito: Errado.** **Ondas** organizam períodos de intensidade e pausa de veiculação; **FS** é dependência lógica entre tarefas. A semelhança temporal não torna os conceitos equivalentes.
+
+## Verificação aritmética e limites do caminho crítico (11/11/2026)
+
+A rede didática do artigo foi **recalculada**: **A–B–D–E–F = 2+3+2+3+1 = 11 dias úteis**; **A–C–D–E–F = 2+4+2+3+1 = 12 dias úteis**. Logo, sob as precedências e calendários assumidos, o caminho crítico é **A–C–D–E–F** e a atividade B possui **1 dia de folga total**. A [orientação do Project Management Institute sobre caminho crítico e folga](https://www.pmi.org/learning/library/critical-path-method-calculations-scheduling-8040) confirma que folga representa atraso admissível sem prejudicar o marco ou a conclusão, dependendo das restrições.
+
+**Item 1: Certo**, atividades independentes podem ocorrer em paralelo. **Item 2: Errado**, caminho crítico é construído por rede e durações, não por custo. **Item 3: Errado**, *flight/hiatus* de veiculação e dependência término-início (FS) são objetos distintos. Não foram encontradas inversões nos três gabaritos. **C/E novo, inédito:** “Na rede A–C–D–E–F de 12 dias, a atividade B pode atrasar até um dia sem alterar a conclusão, desde que nenhuma outra condição mude.” **Certo**.
+
+**Ponto técnico:** caminho crítico e folga não são propriedades fixas de um tipo de tarefa, mas resultados da rede e das hipóteses de capacidade, calendário, marcos e restrições. Em projetos com múltiplos caminhos, um atraso pode deslocar a criticidade. O exemplo não estima efeitos de restrição de pessoal, feriados ou revisão jurídica extraordinária.
 
 ## Relações e heurísticas
 

@@ -58,3 +58,47 @@ Proposta de fronteiras para futura reorganização: DA/20 mantém **vida funcion
 **Parecer provisório:** conceitos básicos de posse/exercício e organização de ritos podem ser consultados com cotejo; **prescrição do PAD em DA/22–24 requer correção antes de memorização**. Não há certificação por arquivo ou por questão neste bloco. Reforçar questões inéditas com condicionantes de interrupção, início da contagem, sindicância punitiva versus investigativa, competência da autoridade e nulidade por prejuízo, sem alegar frequência da banca sem corpus.
 
 **Próximo bloco:** resolver DA-001 com jurisprudência específica sobre infração também tipificada como crime; completar leitura crítica e cotejo individual de **DA/22 e DA/24**, incluindo todas as questões; depois DA/20–21 e 23, e avançar DA/25–27. Ficam pendentes matriz literal do edital, todos os demais artigos (inclusive reutilizados), catálogo, backlinks, testes de navegação, jurisprudência superveniente, normas vigentes e confronto com provas reais.
+
+
+## Bloco 2: prescrição, jurisprudência superada e 12 questões DA22/DA24 (11/11/2026)
+
+**Escopo rigoroso:** relidos integralmente os arquivos \`3 - Materias/Direito Administrativo/22 - lei 8112 responsabilidades e penalidades disciplinares.md\` (SHA de entrada \`deb90178e30d1e0f92cabe125f87db2cf833bb67\`) e \`3 - Materias/Direito Administrativo/24 - sindicancia processo administrativo disciplinar e seus ritos.md\` (SHA de entrada \`8af2f9f9a0f97b27a7b88a6c176dca101c9866a1\`). Foram cotejados diretamente os doze enunciados, comentários e gabaritos dos dois artigos com os dispositivos e súmulas centrais indicados abaixo; **cotejo seletivo de normas e jurisprudência não equivale a certificação integral de cada afirmação**. Os artigos 20, 21 e 23 foram apenas inspecionados no bloco anterior e não são declarados revalidados. Esta rodada **não alterou notas de estudo**.
+
+### Achados normativos comprovados e localização
+
+**DA-001, crítico, agora confirmado também no mérito:** \`Direito Administrativo/22\`, subtítulo \`3.3 Infrações que também configuram crime (art. 142, §2º)\`, afirma que o prazo penal depende de persecução penal formal e atribui essa posição à **Súmula 635/STJ**. O erro é duplo. (1) [Súmula 635](https://scon.stj.jus.br/SCON/sumstj/toc.jsp?sumula=635) trata de **autoridade competente, primeiro ato válido interruptivo e reinício aos 140 dias**, não da necessidade de ação penal. (2) O [Informativo 651 do STJ, MS 20.857/DF, Primeira Seção, julgado em 22/5/2019](https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=%270651%27.cod.) registra **mudança expressa do entendimento anterior**: prazo prescricional da lei penal para infração também capitulada como crime **independe da instauração de apuração criminal**. Reiteração em [AgInt nos EDcl no REsp 1.903.905/AM, STJ, 2021](https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=13%2F08%2F2021&num_registro=202002886602) e [julgado STJ de março/2025](https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=25%2F03%2F2025&num_registro=202303736679). **Correção proposta apenas para Fase 2:** explicitar mudança de jurisprudência em 2019, retirar exigência de persecução e citar precedentes adequados. Distinguir tipificação penal objetiva da mera alegação de crime.
+
+**DA-002, crítico, confirmado e delimitado:** \`Direito Administrativo/24\`, subtítulo \`2.2 Prazos do rito ordinário (art. 152)\`, liga excesso do prazo **120 dias** ao reinício automático da prescrição e à cessação do afastamento preventivo. A [Súmula 635/STJ](https://scon.stj.jus.br/SCON/sumstj/toc.jsp?sumula=635) fixa **140 dias após o primeiro ato válido de interrupção** (PAD ou sindicância punitiva), ao passo que [Lei 8.112/1990, art. 152](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html) prevê **60 + até 60 dias de conclusão pela comissão** e art. 167 prevê **20 dias para julgamento**. O [art. 147 da Lei](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html) prevê **até 60 + 60 dias de afastamento preventivo**, cuja cessação depende de sua própria contagem e das prorrogações, não simplesmente do excesso no prazo da comissão. A [Súmula 592/STJ](https://scon.stj.jus.br/SCON/sumstj/toc.jsp?sumula=592) condiciona nulidade por excesso de prazo à demonstração de prejuízo à defesa. **Correção proposta para Fase 2:** tabela por ato, termo inicial, prazo máximo e consequência, com linhas distintas para PAD, julgamento, afastamento e prescrição.
+
+**DA-003, importante, comentário de questão contaminado por DA-002:** \`Direito Administrativo/24\`, \`6. Questões comentadas\`, questão **3**, gabarito **Errado** coerente com Súmula 592, porém comentário acrescenta que o excesso de 120 dias produz **“apenas efeitos sobre a cessação do afastamento preventivo e a contagem prescricional”**. A consequência geral não resulta automaticamente do excesso de prazo e embaralha institutos autônomos. **Manter gabarito, reescrever comentário** na fase de correção.
+
+### Matriz de questões inéditas, somente destas duas notas
+
+| Artigo | Questão | Gabarito original | Cotejo seletivo nesta rodada | Reserva |
+| --- | --- | --- | --- | --- |
+| DA22 | 1 | Errado | Compatível com Lei 8.112, arts. 125–126, sobre absolvição por insuficiência de provas | Analisar possíveis hipóteses além da formulação literal do art. 126 em revisão de jurisprudência |
+| DA22 | 2 | Certo | Texto reproduz proibição do art. 137, parágrafo único | **Não homologar** sem controle da vigência e constitucionalidade de restrição sem prazo no retorno ao serviço |
+| DA22 | 3 | Errado | Compatível com art. 142, §1º e Súmula 635: conhecimento da autoridade competente | Confirmar diferença entre conhecimento informal e conhecimento da autoridade competente |
+| DA22 | 4 | Certo | Compatível com 140 dias da Súmula 635, sob interrupção válida do PAD | Esclarecer que a retomada se dá pelo decurso dos 140 dias, não condicionada à inexistência de decisão como regra abstrata |
+| DA22 | 5 | Certo | Art. 134 prevê cassação por falta cometida em atividade; decisão STF ADI 4.882 citada na nota | Cotejo direto do inteiro teor da ADI ainda pendente |
+| DA22 | 6 | Errado | Art. 129 exige advertência por escrito | Sem inversão demonstrada |
+| DA24 | 1 | Errado | Art. 145, II e art. 146: sindicância punitiva até 30 dias de suspensão | Sem inversão demonstrada |
+| DA24 | 2 | Certo | Arts. 133 e 140: comissão de dois estáveis, 30 + 15 dias | Sem inversão demonstrada |
+| DA24 | 3 | Errado | Súmula 592 exige prejuízo demonstrado para nulidade por excesso | **Comentário com erro DA-003** |
+| DA24 | 4 | Certo | Art. 133, §5º: opção tempestiva implica boa-fé e conversão em pedido de exoneração | Revisar linguagem de “extinção automática” frente ao procedimento de encerramento formal |
+| DA24 | 5 | Errado | Art. 168 permite divergência motivada quando relatório contrário às provas | Sem inversão demonstrada |
+| DA24 | 6 | Certo | Art. 149, §2º: parentes até terceiro grau não integram comissão | Sem inversão demonstrada |
+
+**Balanço do bloco:** doze questões lidas e submetidas a **cotejo seletivo do núcleo decisivo**, sem demonstrar inversão de gabarito a partir dos textos consultados; **12/12 com reservas explícitas**, **0/12 certificadas integralmente**. O risco principal está no **corpo da teoria e no comentário da DA24#3**, além da reserva jurisprudencial na DA22#2. São questões **inéditas didáticas**, não itens reais recuperados de prova Cebraspe. A matriz não inclui questões de outros artigos nem dados de candidato.
+
+### Avaliação pedagógica e arquitetura após o cotejo
+
+**DA22:** manter a separação entre instâncias, sanções e prescrição, mas incluir linha do tempo com \`ciência pela autoridade competente → primeiro ato interruptivo válido → 140 dias → retomada integral\`. Distinguir a regra especial do art. 142, §2º (prazo penal) dos marcos interruptivos do §3º. Evitar transformar jurisprudência antiga em regra atual.
+
+**DA24:** preservar as fases do processo e a comparação rito ordinário/sumário; criar quatro cronologias separadas para comissão, autoridade julgadora, afastamento cautelar e prescrição. O tema de prescrição tem referência canônica no DA22, mas deve haver remissão clara sem duplicar regra diferente. A numeração longa de questões nas duas notas pode ser mantida durante a fase 1; na fase 2 avaliar mover exercícios extras para banco de treino sem perder enunciados e comentários.
+
+**Parecer de uso:** DA22/DA24 **com ressalvas relevantes**; não memorizar os parágrafos dos achados DA-001, DA-002 e DA-003 antes de futura correção. Estão aproveitáveis, após cotejo, definições de etapas e boa parte dos gabaritos, **sem selo integral de correção normativa**.
+
+### Pendências do próximo bloco
+
+Confrontar DA22 questão 2 com jurisprudência constitucional vigente e DA22 questão 5 com ADI 4.882; conferir todos os casos de defesa, revelia, impedimento e prazo na Lei 8.112 e eventuais retificações; completar a matriz literal dos itens do edital. Depois avançar \`3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md\`, \`26 - lei 9784 impedimento suspeicao motivacao e recursos.md\` e \`27 - poder hierarquico e poder disciplinar limites e distincoes.md\`, sem inferir auditoria das notas ainda não lidas. Preservar outros relatórios concorrentes.

@@ -5,7 +5,7 @@ title: "Gestão de equipes publicitárias: papéis, trabalho e avaliação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Gestão de equipes publicitárias: papéis, trabalho e avaliação
@@ -201,6 +201,22 @@ A gestão de um trabalho pode envolver **servidores e equipes internas**, **agê
 **Item 8.** A redução do prazo de entrega e o aumento do número de peças produzidas bastam para demonstrar que a campanha melhorou a compreensão do cidadão, dispensando indicadores de recepção e resultado.
 
 **Errado.** Desempenho operacional não é prova de resultado comunicacional. **Mecanismo do erro:** troca de nível de avaliação.
+
+## Auditoria autoral: segurança psicológica e desenvolvimento de equipes (11/11/2026)
+
+O [artigo original de **Amy Edmondson (1999)**, registrado no repositório de Harvard](https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f), define **segurança psicológica na equipe** como uma crença compartilhada de que é possível assumir riscos interpessoais no grupo. A investigação analisou **51 equipes** de uma empresa e associou segurança psicológica ao comportamento de aprendizagem. Essa evidência **não** estabelece que segurança psicológica dispense acompanhamento, prestação de contas, avaliação ou padrões de desempenho. **Item 6 preexistente: Errado, confirmado.**
+
+O [artigo original de **Bruce Tuckman (1965)**, registrado pela APA](https://doi.org/10.1037/h0022100) descreve quatro estágios analíticos de desenvolvimento: *forming*, *storming*, *norming* e *performing*. *Norming* concentra coesão, regras e papéis; *performing*, a relação funcional entre estrutura e realização da tarefa. O artigo é uma **revisão de literatura**, não experimento que prove a passagem obrigatória de todas as equipes por cada etapa na mesma duração. **Item 7 preexistente: Certo, confirmado**, com esse limite. A categoria posterior *adjourning* está associada à revisão com Mary Ann Jensen em 1977 e **não** à lista original de quatro etapas de 1965.
+
+| Item existente | Gabarito | Situação |
+| --- | --- | --- |
+| 1 | **Certo** | Distinção R/A da RACI coerente, mas fonte autoral de metodologia específica não foi cotejada nesta rodada. |
+| 4 | **Errado** | Equipe de agência não adquire competência formal de fiscalização apenas por encaminhamento de peça; o regime contratual concreto merece exame específico. |
+| 6 | **Errado** | Confirmado com o resumo acadêmico de Edmondson (1999). |
+| 7 | **Certo** | Confirmado com o resumo do texto de Tuckman (1965), sem transformar estágios em leis rígidas. |
+| 8 | **Errado** | Produtividade da equipe não prova compreensão do cidadão; distinção conceitual, não evidência empírica. |
+
+**C/E adicional, inédito:** “O modelo de Tuckman de 1965 já possuía cinco etapas, com *adjourning* como fase obrigatória de toda equipe, e a segurança psicológica de Edmondson eliminava a necessidade de avaliação de desempenho.” **Errado.** Reúne erro cronológico e extrapolação de um conceito de aprendizagem. Os conceitos foram estudados em organizações e não geram, automaticamente, regras de gestão obrigatórias para a Câmara.
 
 ## Relações com outros temas
 

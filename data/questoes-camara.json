@@ -434,6 +434,166 @@
       "statement": "No trecho isolado “A revisora enviou o texto à coordenadora antes de ela sair”, o pronome “ela” tem necessariamente “a coordenadora” como antecedente, por ser o termo feminino mais próximo.",
       "correctAnswer": "E",
       "explanation": "A revisora e a coordenadora são antecedentes gramaticalmente possíveis. O contexto precisa esclarecer quem saiu."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "conceptId": "concessao",
+      "mechanism": "contraste-com-expectativa",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“Although the archive had digitised most of its records, visitors still needed an appointment to consult them.”\n\nThe sentence presents the appointment requirement as holding despite the digitisation of most records.",
+      "correctAnswer": "C",
+      "explanation": "Although introduz um fato que poderia levar o leitor a esperar acesso mais simples. A oração principal informa que o agendamento continuava necessário."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "conceptId": "causa-e-consequencia",
+      "mechanism": "inverter-causa-e-efeito",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“The first workshop drew few participants because the registration link had been sent to the wrong mailing list.”\n\nThe sentence attributes the mailing-list error to the low turnout.",
+      "correctAnswer": "E",
+      "explanation": "Because introduz a causa da baixa participação. O envio à lista errada explica o resultado, na direção oposta à proposta pelo item."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "conceptId": "condicao-negativa",
+      "mechanism": "inverter-excecao",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“The meeting will take place online unless the hearing room becomes available before noon.”\n\nIf the hearing room remains unavailable until noon, the meeting will take place online, according to the notice.",
+      "correctAnswer": "C",
+      "explanation": "Unless estabelece a exceção à modalidade remota. Se a sala continuar indisponível no prazo, vale a modalidade anunciada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "conceptId": "finalidade",
+      "mechanism": "confundir-finalidade-com-resultado",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“The library extended its opening hours so that students could use the reading room after class.”\n\nThe sentence confirms that students actually used the reading room after class.",
+      "correctAnswer": "E",
+      "explanation": "So that apresenta a finalidade da ampliação do horário. O texto não informa se algum estudante de fato usou a sala."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "conceptId": "oposicao",
+      "mechanism": "contraste-entre-grupos",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“The online survey reached more respondents, whereas the interviews yielded more detailed accounts.”\n\nWhereas contrasts the breadth of the survey with the depth of the interviews.",
+      "correctAnswer": "C",
+      "explanation": "O conector põe lado a lado duas vantagens distintas. O questionário alcançou mais pessoas e as entrevistas produziram relatos mais detalhados."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "conceptId": "sequencia-temporal",
+      "mechanism": "confundir-anterioridade-com-simultaneidade",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“Once the review panel had approved the draft, the team circulated it to the regional offices.”\n\nThe circulation began while the review panel was still considering whether to approve the draft.",
+      "correctAnswer": "E",
+      "explanation": "Once e o past perfect situam a aprovação antes do envio. A apreciação já havia terminado quando a equipe distribuiu o texto."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "conceptId": "causa-e-consequencia",
+      "mechanism": "reconhecer-efeito-textual",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“A power outage affected the sound system. As a result, the organisers postponed the public hearing.”\n\nThe postponement is presented as a consequence of the outage affecting the sound system.",
+      "correctAnswer": "C",
+      "explanation": "As a result liga o adiamento ao problema descrito na frase anterior."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "conceptId": "concessao",
+      "mechanism": "confundir-adicao-com-contraste",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“The revised guide is shorter than the previous edition. Nevertheless, it includes an additional chapter on accessibility.”\n\nNevertheless could be replaced by “for example” without changing the relationship between the two sentences.",
+      "correctAnswer": "E",
+      "explanation": "Nevertheless marca contraste com a expectativa criada pela redução do tamanho. For example introduziria uma ilustração, alterando a relação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "conceptId": "condicao",
+      "mechanism": "confundir-condicao-com-previsao",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“Remote observers may submit comments provided that they register by Friday.”\n\nRegistering by Friday is a condition for remote observers to be allowed to submit comments.",
+      "correctAnswer": "C",
+      "explanation": "Provided that introduz uma condição para a permissão expressa por may."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / relações intra e intertextuais",
+      "conceptId": "alternativa-condicional",
+      "mechanism": "confundir-previsao-com-evento-consumado",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1. Classificação Funcional e Relações Lógico-Semânticas"
+      ],
+      "statement": "Read the text and judge the statement.\n\n“Please confirm your attendance by Wednesday. Otherwise, your seat may be assigned to another participant.”\n\nThe notice states that the recipient’s seat has already been assigned to another participant.",
+      "correctAnswer": "E",
+      "explanation": "Otherwise introduz o que pode acontecer se não houver confirmação no prazo. May indica possibilidade e o texto não relata uma transferência já ocorrida."
     }
   ]
 }

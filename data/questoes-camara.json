@@ -4866,6 +4866,102 @@
       "statement": "O ato de autorização de um crédito especial de R$ 800 mil foi promulgado em outubro. Se o saldo ao encerrar o exercício foi de R$ 200 mil, a reabertura no exercício seguinte fica limitada a esse saldo.",
       "correctAnswer": "C",
       "explanation": "Outubro está nos últimos quatro meses do exercício. O art. 167, § 2º, limita a reabertura aos saldos."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "fixacao-da-despesa",
+      "mechanism": "confundir-dotacao-com-pagamento",
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Fixação: orçamento autorizado"
+      ],
+      "statement": "Uma dotação de R$ 300 mil para equipamentos consta do orçamento aprovado. A existência da dotação, sem outros atos de execução, comprova que o fornecedor recebeu o valor.",
+      "correctAnswer": "E",
+      "explanation": "A dotação autoriza despesa até o limite correspondente. O recebimento exige pagamento, que é uma etapa posterior."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "empenho",
+      "mechanism": "distinguir-nota-de-transferencia",
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Empenho: reserva e obrigação orçamentária"
+      ],
+      "statement": "Um órgão emite nota de empenho antes de receber um equipamento. A emissão registra o empenho e não equivale à transferência de dinheiro ao fornecedor.",
+      "correctAnswer": "C",
+      "explanation": "A nota documenta o empenho da despesa. A transferência financeira ocorre no pagamento."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "liquidacao",
+      "mechanism": "confundir-faturamento-com-direito-verificado",
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Liquidação: verificar o direito do credor"
+      ],
+      "statement": "Se a nota fiscal cobra 100 unidades, mas o recebimento comprovado registra 80, a nota fiscal isolada basta para liquidar a despesa relativa às 100 unidades.",
+      "correctAnswer": "E",
+      "explanation": "A liquidação verifica o direito do credor com base nos documentos e na entrega efetiva. A divergência precisa ser esclarecida antes de reconhecer o valor integral."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "liquidacao",
+      "mechanism": "identificar-objeto-da-verificacao",
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Liquidação: verificar o direito do credor"
+      ],
+      "statement": "Ao verificar qual fornecedor deve receber e qual valor é devido pelo serviço prestado, a administração examina elementos próprios da liquidação da despesa.",
+      "correctAnswer": "C",
+      "explanation": "A verificação identifica o credor e a importância exata a pagar, além da origem e do objeto da obrigação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "ordem-de-pagamento",
+      "mechanism": "confundir-ordem-com-liquidacao",
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Pagamento e ordem de pagamento"
+      ],
+      "statement": "O despacho que determina o pagamento dispensa a verificação anterior do direito do credor, pois a ordem de pagamento substitui a liquidação.",
+      "correctAnswer": "E",
+      "explanation": "A ordem determina que a despesa seja paga. Pela regra da Lei nº 4.320/1964, o pagamento depende de liquidação regular."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964",
+      "conceptId": "restos-a-pagar-processados",
+      "mechanism": "classificar-pela-liquidacao",
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Despesa empenhada em um exercício e paga no seguinte"
+      ],
+      "statement": "Uma despesa regularmente empenhada e liquidada em dezembro continua sem pagamento em 31 de dezembro. Quando inscrita em restos a pagar, é classificada como processada.",
+      "correctAnswer": "C",
+      "explanation": "A liquidação já ocorreu. O que resta é o pagamento, característica dos restos a pagar processados."
     }
   ]
 }

@@ -26,15 +26,22 @@ const ctx={
   localStorage:{setItem:(k,v)=>saved.push([k,v])},
   dadosConcursosEstrategicos:concursos,dadosCatalogoMaterias:catalogo,
   concursoSelecionadoId:'cgu-2026',todasAsPastas,informacoesDisciplinas:{'Auditoria Governamental':{numero:'14'}},
-  limparNomeCategoria:s=>s.toLowerCase(),obterRotaCategoria:s=>'#/disciplina/'+s,abrirDisciplina(){}
+  todosOsArtigos:[{articleId:'art-e1d0a2026ca8f010',titulo:'Relatório de estudos da Câmara'}],
+  limparNomeCategoria:s=>s.toLowerCase(),obterRotaCategoria:s=>'#/disciplina/'+s,abrirDisciplina(){},
+  rotaDoArtigo:()=> '#/artigo/art-e1d0a2026ca8f010',abrirArtigo(){}
 };
 vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(new URL('../web/02-data-home.js',import.meta.url),'utf8'),ctx);
 const cards=()=>nodes['pastas-container'].children;
 const numeros=()=>cards().map(c=>c.innerHTML.match(/indice-numero">([^<]+)</)?.[1]);
 function conferir(id,total){
-  assert.equal(cards().length,total,id);
-  assert.deepEqual(numeros(),Array.from({length:total},(_,i)=>String(i+1).padStart(2,'0')));
+  const comRelatorio=id==='camara-2026';
+  assert.equal(cards().length,total+(comRelatorio?1:0),id);
+  assert.deepEqual(numeros().slice(0,total),Array.from({length:total},(_,i)=>String(i+1).padStart(2,'0')));
+  if(comRelatorio){
+    assert.equal(numeros().at(-1),'•','Relatório tem entrada visual própria, fora das matérias do edital');
+    assert(cards().at(-1).innerHTML.includes('relatório de estudos'),'Faltou cartão de relatório');
+  }
 }
 ctx.renderizarPainelConcursoHome();ctx.renderizarPastas();
 conferir('cgu-2026',15);
@@ -45,4 +52,4 @@ ctx.selecionarConcurso('camara-2026');conferir('camara-2026',11);
 const botao=nodes['concurso-home-conteudo'].buttons.find(x=>x.dataset.concursoId==='cgu-2026');
 assert.ok(botao);botao.click();conferir('cgu-2026',15);
 assert.equal(saved.at(-1)[1],'cgu-2026');
-console.log('SUCESSO: grade filtra CGU (15), Dataprev (6), Câmara (11) e mantém numeração e seletor.');
+console.log('SUCESSO: grade filtra CGU (15), Dataprev (6), Câmara (11 matérias + relatório) e mantém numeração e seletor.');

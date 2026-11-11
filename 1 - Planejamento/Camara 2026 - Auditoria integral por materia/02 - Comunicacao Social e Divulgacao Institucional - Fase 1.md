@@ -717,3 +717,19 @@ Foram editados três artigos ainda não modificados nesta sequência, com **conf
 **Fontes externas:** [Stanford Encyclopedia of Philosophy: Adorno](https://plato.stanford.edu/entries/adorno/); [UFMG: pseudoindividualidade e indústria cultural](https://repositorio.ufmg.br/items/5ccb99a2-3148-4252-8220-ba917d23fc66); [Hall, *Encoding/Decoding*, 1980, reprodução acadêmica](https://spkb.blot.im/_readings/EncodingDecoding_HALL_1980.pdf). A versão Hall foi inspecionada nas páginas 171–172, e o relato respeita o recorte.
 
 **Métrica operacional acumulada:** 26 artigos distintos foram modificados dos 128 arquivos inventariados (**20,3% dos arquivos**). Em termos de itens com conferência dirigida, os 48 registrados anteriormente somam-se a **quatro novos itens com sustentação mais direta** (um em Frankfurt, três em Hall): **52 itens**. Os dois restantes do artigo 38 seguem com ressalva bibliográfica e não entram nesse acréscimo. Isso não demonstra 20,3% de auditoria integral concluída. Pendem fontes originais, verificação aprofundada das explicações, divergências entre 1973/1980, calibração por questões históricas e análise de todos os demais artigos. A coleção ainda está **parcialmente verificada**.
+
+
+## Registro: McLuhan, semiótica, opinião pública e espiral do silêncio (11/11/2026)
+
+Esta rodada realizou cotejos delimitados em quatro artigos teóricos e registrou explicitamente o tipo de fonte consultado. **Os exercícios são inéditos, não questões históricas do Cebraspe.** Nenhum gabarito foi invertido nesta passagem.
+
+| Artigo | Resultado e pendência | Commit |
+| --- | --- | --- |
+| 40, McLuhan | Três itens mantidos, com distinção entre *Understanding Media* (1964) e tétrade de Marshall e Eric McLuhan (1988); leitura integral da obra de 1964 pendente | [16e2a13](https://github.com/leorruas/concursos/commit/16e2a1372bc0b16f606fada6bfc4754ed06be422) |
+| 41, Saussure/Peirce/Barthes | Três itens analisados, um com conferência especializada direta sobre Peirce; leituras originais de Saussure e Barthes pendentes | [9d1db8a](https://github.com/leorruas/concursos/commit/9d1db8adc7a2e934dc8d3e8850e1182e66813295) |
+| 42, opinião pública | Três itens analisados, um confrontado diretamente com Bourdieu e seus três pressupostos; Habermas e métodos amostrais requerem verificação adicional | [b3ba66b](https://github.com/leorruas/concursos/commit/b3ba66b3eb55828b9aa020ac75f33461b101dc6a) |
+| 43, Noelle-Neumann | Três itens compatíveis com apresentação institucional e resumo acadêmico do mecanismo; artigo fundador de 1974 e evidências empíricas ainda não revisados integralmente | [3a554ae](https://github.com/leorruas/concursos/commit/3a554ae980e206d50ca5da9c9f7384eed098a83e) |
+
+**Fontes de consulta:** [McLuhan.org: tétrade](https://mcluhan.org/laws-of-media/); [Stanford: Peirce](https://plato.stanford.edu/entries/peirce-semiotics/); [Bourdieu, reprodução acadêmica](https://is.muni.cz/el/fss/podzim2019/POLn4102/um/blok1/Bourdieu_PO_Does_Not_Exist.pdf); [Noelle-Neumann, descrição institucional](https://noelle-neumann.de/scientific-work/spiral-of-silence/) e [resumo de artigo](https://academic.oup.com/anncom/article-abstract/14/1/256/7828443).
+
+**Indicadores cumulativos:** **30 artigos distintos modificados entre 128 arquivos inventariados**, aproximadamente **23,4% com alguma alteração**. A rodada analisou 12 itens C/E, mas **apenas dois receberam cotejo dirigido de fonte especializada ou original mais direto** (Peirce no 41 e Bourdieu no 42). Sob o critério conservador de conferência dirigida com fonte identificada, o registro acumulado passa de **52 para 54 itens**; os dez demais julgamentos têm apoio contextual ou indireto e permanecem distintos de certificação. O percentual de arquivos modificados **não é percentual de auditoria concluída**. A revisão integral de fontes originais, redundâncias, lacunas do edital e questões reais da banca permanece aberta.

@@ -210,3 +210,17 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 > **Validação de questão, segunda passagem (11/11/2026):** Item 5 **retirado do conjunto de gabaritos homologáveis**, mantendo o enunciado e o histórico. Para treino, utilizar esta versão com condições suficientes: *“Em uma conta corporativa do OneDrive, quando a política permitir, pode-se compartilhar um arquivo com permissão somente de exibição e a opção Bloquear download, restringindo a operação de download pela interface do serviço.”* **Gabarito da versão reformulada: CERTO**, com as limitações explicitadas na [documentação Microsoft](https://support.microsoft.com/pt-br/onedrive/block-downloads-for-view-only-files-in-sharepoint-and-onedrive). Não atribuir à versão antiga um gabarito inequívoco.
 
 > **Auditoria de questões, segunda passagem (11/11/2026):** Q1–Q4 e Q6 mantêm **E, E, C, E, C** com ressalvas de configuração, retenção e cliente. **Q5 permanece NÃO HOMOLOGADA**, conforme a revisão anterior sobre links de pasta e bloqueio de download. Questões inéditas não foram cotejadas com prova real.
+
+---
+
+## Questão substituta S07-5: proteção do link e proteção do conteúdo
+
+> Em um ambiente corporativo do Microsoft 365 no qual o administrador permita a opção **Bloquear download** para um **arquivo** compartilhado com permissão de somente exibição, ativar essa opção pode impedir que o destinatário baixe o arquivo pela interface de compartilhamento, embora isso não impeça que ele registre visualmente as informações exibidas na tela.
+
+**Gabarito: CERTO (inédita, substitui o Item 5 bloqueado).** A permissão de **visualizar** e o impedimento de **baixar pela interface** são controles distintos. Senha e data de expiração regulam a entrada e a duração do acesso, não significam, por si só, proibição de cópia. A disponibilidade de controles varia por licença, tipo de link, tipo de conteúdo e configuração da organização. Um bloqueio de download não garante sigilo absoluto depois de o dado ser mostrado na tela.
+
+**Contraexemplo:** um link que exija senha e expire amanhã, mas **permita download**, pode autorizar a obtenção de uma cópia local enquanto estiver válido. A expiração posterior não apaga automaticamente essa cópia.
+
+**Fontes primárias:** [Microsoft: compartilhamento no OneDrive](https://support.microsoft.com/pt-br/onedrive/share-files-and-folders-in-microsoft-onedrive) e [Microsoft Learn: política de bloqueio de download](https://learn.microsoft.com/pt-br/sharepoint/block-download-from-sites). **Relação:** [[3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles|Confidencialidade e controles de segurança]].
+
+**Rastreabilidade:** Item 5 antigo, relativo a **pasta**, permanece **NÃO HOMOLOGADO**. Não transferir automaticamente os recursos de arquivos para pastas.

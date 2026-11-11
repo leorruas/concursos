@@ -5826,6 +5826,102 @@
       "statement": "Duas ações pertencem à mesma unidade orçamentária. Essa informação é suficiente para concluir que as duas têm necessariamente a mesma função.",
       "correctAnswer": "E",
       "explanation": "Uma unidade pode executar ações em áreas de atuação distintas. É preciso conferir a classificação funcional de cada ação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "conceptId": "limitacao-de-empenho",
+      "mechanism": "ignorar-risco-as-metas",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Riscos, limitação de empenho e final de mandato"
+      ],
+      "statement": "Ao final de um bimestre, a receita realizada indica risco de descumprimento das metas fiscais. A existência de dotações na LOA, por si só, afasta a limitação de empenho prevista no art. 9º da Lei de Responsabilidade Fiscal.",
+      "correctAnswer": "E",
+      "explanation": "A dotação autoriza despesa. A limitação atua sobre a execução quando a realização da receita pode comprometer as metas, observados os critérios da LDO."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "conceptId": "limitacao-de-empenho",
+      "mechanism": "confundir-limitacao-com-anulacao",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Riscos, limitação de empenho e final de mandato"
+      ],
+      "statement": "Limitar o empenho de uma programação para adequar a execução à receita não equivale, por si só, a anular a dotação correspondente.",
+      "correctAnswer": "C",
+      "explanation": "A limitação restringe a execução. A anulação altera a autorização orçamentária e constitui ato distinto."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "conceptId": "relatorios-fiscais",
+      "mechanism": "confundir-acompanhamento-com-verificacao-de-limites",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#RREO × RGF: relatórios que cumprem funções diferentes"
+      ],
+      "statement": "Para verificar o cumprimento dos limites de despesa com pessoal, o Relatório de Gestão Fiscal pode trazer informações que não se resumem ao acompanhamento da execução orçamentária pelo Relatório Resumido da Execução Orçamentária.",
+      "correctAnswer": "C",
+      "explanation": "Os relatórios têm funções distintas. O Relatório de Gestão Fiscal compara valores com limites legais, inclusive de pessoal."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "conceptId": "transparencia-fiscal",
+      "mechanism": "confundir-divulgacao-com-fiscalizacao",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Transparência fiscal × fiscalização × responsabilização"
+      ],
+      "statement": "Uma instituição publica seus relatórios fiscais. A publicação substitui a verificação pelos órgãos competentes quanto ao cumprimento dos limites legais.",
+      "correctAnswer": "E",
+      "explanation": "A divulgação dá acesso aos dados. A fiscalização examina o cumprimento das obrigações e permanece como função própria."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "conceptId": "anexo-de-metas-fiscais",
+      "mechanism": "distinguir-meta-fiscal-de-dotacao",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Planejamento fiscal: PPA, LDO, LOA e LRF"
+      ],
+      "statement": "O Anexo de Metas Fiscais integra a Lei de Diretrizes Orçamentárias. Suas metas de resultado orientam o planejamento fiscal sem funcionar como dotações para despesas específicas.",
+      "correctAnswer": "C",
+      "explanation": "O anexo estabelece metas fiscais, conforme o art. 4º, § 1º, da Lei de Responsabilidade Fiscal. A dotação autoriza despesa em programação determinada."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "conceptId": "anexo-de-riscos-fiscais",
+      "mechanism": "confundir-risco-com-obrigacao-realizada",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Planejamento fiscal: PPA, LDO, LOA e LRF"
+      ],
+      "statement": "Registrar um passivo contingente no Anexo de Riscos Fiscais comprova que o evento de risco já ocorreu e que a despesa correspondente foi paga.",
+      "correctAnswer": "E",
+      "explanation": "O anexo avalia riscos e indica providências caso se concretizem. O registro do risco não comprova ocorrência nem pagamento."
     }
   ]
 }

@@ -5,7 +5,7 @@ title: "PowerPoint 365: organização de slides, slide mestre, transições, ani
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # PowerPoint 365: organização de slides, slide mestre, transições, animações e apresentação
@@ -44,7 +44,7 @@ No painel de miniaturas ou no *Classificador de Slides*, o usuário pode organiz
 
 ## 2. A ferramenta de governança visual: o Slide Mestre (*Slide Master*)
 
-O **Slide Mestre** é a espinha dorsal de qualquer apresentação profissional. Ele define a identidade visual, tipografia, esquema de cores, logotipos e posicionamento de caixas de texto (*placeholders*) para todos os slides da apresentação.
+O **Slide Mestre** é a espinha dorsal de qualquer apresentação profissional. Ele define elementos visuais e layouts dos slides vinculados àquele mestre; uma mesma apresentação pode utilizar mais de um mestre, e modificações locais ou escolhas de layout podem interferir na herança.
 
 ```mermaid
 flowchart TD
@@ -56,7 +56,7 @@ flowchart TD
 ```
 
 ### Regras fundamentais cobradas em prova:
-1. **Herança em cascata**: Ao inserir um logotipo ou alterar a cor de fundo no **Slide Mestre superior** (o slide de nível 1 na árvore), **todos os layouts subordinados e todos os slides da apresentação herdam automaticamente a alteração**;
+1. **Herança em cascata**: Ao inserir um logotipo ou alterar a cor de fundo no **Slide Mestre superior** (o slide de nível 1 na árvore), **os layouts subordinados e os slides vinculados àquele mestre podem herdar a alteração**, respeitadas as configurações e exceções locais;
 2. **Personalização pontual de layout**: Se a alteração for feita apenas no *Layout de Título* (nível 2), ela afetará somente os slides criados com aquele layout específico;
 3. **Imutabilidade no modo Normal**: Elementos inseridos no Slide Mestre (como uma marca d'água ou número de página fixo) **não podem ser selecionados, movidos ou apagados diretamente no modo Normal** de edição de slides. Para alterá-los, é obrigatório retornar a **Exibir > Slide Mestre**.
 
@@ -75,7 +75,7 @@ Uma das distinções conceituais mais cobradas pela banca reside na fronteira en
 
 ```mermaid
 flowchart LR
-    S1["Slide 1"] -->|TRANSIÇÃO (Troca de slide)| S2["Slide 2 Projetado"]
+    S1["Slide 1"] -->|TRANSIÇÃO (Troca de slide)| SLIDE2["Slide 2 Projetado"]
     subgraph S2["Slide 2"]
         Obj1["Título: Animação de ENTRADA"]
         Obj2["Gráfico: Animação de ÊNFASE"]
@@ -126,7 +126,7 @@ O formato do arquivo determina como o arquivo se comporta ao receber um duplo cl
 
 ### Caso 1: Padronização de logotipo em 80 slides
 Um assessor recebe uma apresentação institucional de 80 slides da Câmara dos Deputados e precisa inserir o brasão oficial no canto superior direito de todos os slides. Ele começa a copiar e colar o brasão manualmente em cada slide.
-*Análise:* O procedimento do assessor é ineficiente e propenso a desalinhamentos. O método técnico correto no PowerPoint 365 consiste em acessar **Exibir > Slide Mestre**, selecionar o slide mestre principal no topo da árvore hierárquica e colar o brasão uma única vez. Automaticamente, o logotipo será replicado em todos os 80 slides da apresentação de forma padronizada e imutável no modo de edição normal.
+*Análise:* O procedimento do assessor é ineficiente e propenso a desalinhamentos. Uma solução eficiente consiste em **Exibir > Slide Mestre** e inserir o brasão no mestre adequado. O elemento se aplica aos layouts e slides vinculados a esse mestre; se houver mais de um mestre ou sobreposições locais, é preciso conferir o resultado nos 80 slides.
 
 ### Caso 2: Diferença entre Transição e Animação
 Um apresentador afirma que configurou uma "transição" para fazer uma frase de efeito surgir letra por letra dentro de um slide.
@@ -224,3 +224,5 @@ Um orador teme colocar dados estatísticos complexos no campo de Anotações do 
 | **`Ctrl + P`** | Ativa a Caneta de anotação | Permite rabiscar sobre o slide na projeção |
 | **`Ctrl + A`** | Retorna a Seta do mouse | Desativa a caneta de desenho |
 | **`Nº` + `Enter`** | Pula diretamente para o slide `Nº` | Permite saltos não lineares durante a fala |
+
+> **Nota de revisão (11/11/2026):** herança do Slide Mestre qualificada para apresentações com múltiplos mestres; nó do diagrama renomeado para evitar colisão com o identificador de subgrafo `S2`. Revisão ligada a TI-038 e TI-039. Renderização do Mermaid no site ainda depende de teste de publicação.

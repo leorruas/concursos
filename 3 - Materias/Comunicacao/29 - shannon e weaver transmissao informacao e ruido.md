@@ -110,6 +110,14 @@ A leitura do **diagrama e do início da seção “The Discrete Channel” de Sh
 
 **Fonte primária verificada:** [Shannon, *A Mathematical Theory of Communication* (1948), p. 1–2, diagrama da p. 2](https://www.princeton.edu/~wbialek/rome/refs/shannon_48.pdf), consultado em 11/11/2026. Escopo limitado às passagens indicadas, não revisão de todas as fórmulas do artigo.
 
+## Conferência complementar do item 3: Weaver (1949)
+
+Warren Weaver define três níveis do problema comunicacional em **“Recent Contributions to the Mathematical Theory of Communication”** (1949): **A, técnico**, precisão da transmissão dos símbolos; **B, semântico**, correspondência do significado interpretado com o pretendido; **C, efetividade**, influência do significado recebido sobre a conduta pretendida. Weaver ressalva que os níveis se inter-relacionam e se sobrepõem, de modo que a distinção é analítica, e não separação absoluta entre processos reais.
+
+**Item 3 da seção de C/E: Certo, gabarito mantido.** A transmissão fiel no nível técnico não basta para demonstrar que o destinatário interpretou o sentido pretendido ou adotou a conduta desejada. Isso é compatível com a descrição dos níveis A, B e C de Weaver. **Correção de possível simplificação:** não apresentar os níveis como independentes e isolados, pois Weaver expressamente enfatiza sua inter-relação.
+
+**Fonte primária:** [Weaver (1949), seção 1.2 e início da seção 1.3, reprodução acadêmica da UC Berkeley](https://courses.ischool.berkeley.edu/i218/s15/Weaver_Recent-Contributions.pdf), conferido em 11/11/2026. Esta conferência complementa o cotejo anterior de dois itens com Shannon (1948), encerrando a verificação **dirigida dos três gabaritos do artigo**, sem certificar o restante do texto.
+
 ## Aplicação discursiva
 
 Em uma justificativa de comunicação institucional, distinguir problema técnico de entrega, problema de compreensão e problema de resultado. Uma queda no acesso por instabilidade de rede não requer necessariamente a mesma solução que uma publicação ambígua; nenhuma dessas duas correções, isoladamente, comprova engajamento. Usar os níveis de Weaver como **instrumento diagnóstico**, com indicador próprio para cada dimensão.

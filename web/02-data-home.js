@@ -320,6 +320,31 @@ function renderizarPastas() {
             pastasContainer.appendChild(card);
         }
     });
+
+    // O relatório é uma página de apoio ao estudo, não uma disciplina do edital.
+    // Entrada visual no mesmo padrão dos cards de matéria, com rota própria de artigo.
+    if (!modoBibliotecaCompleta && concursoSelecionadoId === "camara-2026") {
+        const relatorio = todosOsArtigos.find(artigo => artigo.articleId === "art-e1d0a2026ca8f010");
+        if (relatorio) {
+            const card = document.createElement("a");
+            card.className = "disciplina-card";
+            card.href = rotaDoArtigo(relatorio);
+            card.setAttribute("aria-label", "Abrir relatório de estudos da Câmara");
+            card.innerHTML = `
+                <span class="indice-numero">•</span>
+                <span class="disciplina-card-conteudo">
+                    <strong>relatório de estudos</strong>
+                    <span class="indice-resumo">placar, diagnóstico e leituras prioritárias</span>
+                </span>
+            `;
+            card.addEventListener("click", (event) => {
+                if (event.metaKey || event.ctrlKey || event.shiftKey || event.button === 1) return;
+                event.preventDefault();
+                abrirArtigo(relatorio, true);
+            });
+            pastasContainer.appendChild(card);
+        }
+    }
 }
 
 // Visualizador da Disciplina

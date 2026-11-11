@@ -5,7 +5,7 @@ title: "Comportamento do consumidor: decisão e influências"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Comportamento do consumidor: decisão e influências
@@ -142,6 +142,16 @@ A [[3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integraca
 **Item 4.** A interpretação de uma mensagem em sentido compatível com crenças anteriores caracteriza retenção seletiva, ao passo que o esquecimento posterior de informações conflitantes caracteriza distorção seletiva.
 
 **Errado.** O enunciado inverte **distorção**, ligada à interpretação, e **retenção**, ligada à lembrança. **Mecanismo do erro:** inversão entre categorias psicológicas próximas.
+
+## Conferência bibliográfica: quatro tipos e percepção seletiva (11/11/2026)
+
+A [OpenStax, *Understanding Consumer Markets and Buying Behavior*](https://openstax.org/books/principles-marketing/pages/3-1-understanding-consumer-markets-and-buying-behavior) estabelece uma matriz com dois eixos: **envolvimento alto/baixo** e **diferenças percebidas entre marcas altas/baixas**. Os quadrantes são compra complexa (alto/alta), redutora de dissonância (alto/baixa), habitual (baixo/baixa) e em busca de variedade (baixo/alta). **Item 1 existente: Certo, confirmado na fonte.** A mesma publicação distingue comportamento habitual de verdadeira fidelidade, o que dá suporte ao **item 2: Errado**.
+
+A [OpenStax, *Factors That Influence Consumer Buying Behavior*](https://openstax.org/books/principles-marketing/pages/3-2-factors-that-influence-consumer-buying-behavior) separa **distorção seletiva**, interpretação de uma informação de acordo com crenças anteriores, de **retenção seletiva**, tendência a lembrar informações congruentes e esquecer outras. **Item 4: Errado, confirmado**, pois o enunciado inverte a interpretação e a lembrança. O [processo de cinco etapas da OpenStax](https://openstax.org/books/principles-marketing/pages/3-3-the-consumer-purchasing-decision-process) fundamenta o **item 3: Certo**, com limite: as cinco etapas são um mapa analítico, não um percurso obrigatório em toda compra.
+
+**Item C/E inédito:** “Em compra habitual, os dois eixos do modelo clássico indicam baixo envolvimento e baixa diferença percebida entre marcas; a repetição de compra, sozinha, não prova lealdade atitudinal.” **Certo.**
+
+**Limite:** as fontes descrevem decisões de compra em mercados consumidores. A aplicação para acesso a direitos e serviços parlamentares permanece analógica e não transforma cidadãos em consumidores de livre escolha.
 
 ## Relações com outros temas
 

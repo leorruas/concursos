@@ -5922,6 +5922,70 @@
       "statement": "Registrar um passivo contingente no Anexo de Riscos Fiscais comprova que o evento de risco já ocorreu e que a despesa correspondente foi paga.",
       "correctAnswer": "E",
       "explanation": "O anexo avalia riscos e indica providências caso se concretizem. O registro do risco não comprova ocorrência nem pagamento."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação, coprodução e participação",
+      "conceptId": "coordenacao-interorganizacional",
+      "mechanism": "identificar-dependencia-entre-organizacoes",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "statement": "Dois órgãos precisam trocar informações para concluir uma solicitação. Acordar quem envia cada dado e em que prazo ajuda a coordenar o serviço, ainda que cada órgão mantenha suas próprias competências.",
+      "correctAnswer": "C",
+      "explanation": "A coordenação organiza a atuação interdependente. Ela pode ocorrer com atribuições distintas e responsabilidades explícitas."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação, coprodução e participação",
+      "conceptId": "coordenacao-interorganizacional",
+      "mechanism": "confundir-meta-local-com-resultado-conjunto",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "statement": "Cada órgão registra a entrega de sua etapa, mas o usuário não recebe o resultado porque nenhuma equipe acompanha a passagem entre etapas. O cumprimento das metas locais comprova que o serviço conjunto funcionou.",
+      "correctAnswer": "E",
+      "explanation": "As metas locais não capturam a falha de integração. O resultado conjunto exige verificar se a solicitação chega à conclusão para o usuário."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação, coprodução e participação",
+      "conceptId": "participacao-na-producao-do-servico",
+      "mechanism": "distinguir-consulta-de-participacao-na-execucao",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança e partes interessadas"
+      ],
+      "statement": "Opinar sobre o horário de uma biblioteca e ajudar a organizar as atividades de leitura são formas distintas de participação dos usuários. A segunda envolve contribuição direta à execução da atividade.",
+      "correctAnswer": "C",
+      "explanation": "A opinião fornece subsídios à decisão. Organizar as atividades contribui diretamente para produzir o serviço."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação, coprodução e participação",
+      "conceptId": "responsabilidade-em-arranjo-colaborativo",
+      "mechanism": "confundir-colaboracao-com-transferencia-integral",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança e partes interessadas"
+      ],
+      "statement": "Quando moradores ajudam a identificar barreiras de acesso a um serviço, a participação deles transfere automaticamente à comunidade toda a responsabilidade pelas providências corretivas.",
+      "correctAnswer": "E",
+      "explanation": "Identificar barreiras é uma contribuição. A responsabilidade pelas providências continua com as instâncias encarregadas de decidir e executar as mudanças."
     }
   ]
 }

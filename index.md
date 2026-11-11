@@ -558,6 +558,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Redacao/01 - leitura do tema e projeto de texto|01 • Leitura do tema e projeto de texto]]
   - [[3 - Materias/Redacao/02 - tese e linha argumentativa|02 • Tese e linha argumentativa]]
   - [[3 - Materias/Redacao/03 - estrategias de argumentacao|03 • Estratégias de argumentação]]
+  - [[3 - Materias/Redacao/04 - decomposicao de comandos e quesitos cebraspe|04 • Decomposição de comandos e quesitos (CAM-DIS-001)]]
+  - [[3 - Materias/Redacao/05 - resposta conceitual curta de 20 linhas|05 • Resposta conceitual curta (CAM-DIS-002)]]
 
 ---
 *Última atualização: 2026-11-04*

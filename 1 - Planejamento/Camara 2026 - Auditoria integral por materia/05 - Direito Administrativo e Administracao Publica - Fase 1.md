@@ -719,3 +719,49 @@ Priorizar **validação por caderno e gabarito definitivos do CNMP 2023, itens 1
 **DA-077, MELHORIA, integração do treino real ao edital 14.2.3:** questões 111–116 vinculam-se a contratação direta e procedimentos auxiliares (**item 10**); 117–118 à **LGPD (item 12)**; 119–120 à **Lei 9.784 (item 4.4)**. Nenhuma aborda New Public Governance, ETP, TR, papel do fiscal ou improbidade. Manter distinção **real** versus inédita e nunca copiar PDF integral para notas públicas.
 
 **Balanço:** dez itens do caderno original e dez gabaritos definitivos **inspecionados diretamente**, cotejo legal seletivo, sem anulações neste recorte, **zero mudanças nos artigos, questões do projeto e catálogo**; DA-073 a DA-077 são resultados desta rodada, elevando identificadores da frente a **DA-001–DA-077**, não 77 erros. Próximo: teste de \`theoryRefs\` e âncoras dos 48 itens DA/AP, matriz final de correções priorizadas por gravidade e edital. A **Fase 1 permanece aberta**.
+
+
+## Bloco 17: integridade das 48 referências \`theoryRefs\` e suficiência das seções (11/11/2026)
+
+**Escopo auditado:** \`data/questoes-camara.json\` (SHA \`c58a7b9f1d4618250a1abb21ca60a6ad0a00040c\`), filtrando os **48 itens inéditos** com \`subjectId\` \`administracao-publica\` (30) e \`direito-administrativo\` (18); \`data/catalogo-materias-por-concurso.json\` para o concurso \`camara-2026\`; **seis arquivos reais** que correspondem a todos os IDs citados no piloto. Conferência de \`articleId\` no frontmatter (incluindo valores YAML entre aspas), título literal após \`#\` em cada \`theoryRef\` e existência de seção Markdown. Esta é uma **validação estática de identificador e cabeçalho**, não execução de links no frontend nem certificação normativa/gabarito.
+
+### Inventário exato, vínculos e resultado da comparação
+
+| ID de artigo no \`theoryRef\` | Caminho do artigo real | Itens referenciando | Cabeçalho literal |
+| --- | --- | ---: | --- |
+| \`art-23fe2441eab94f8d\` | \`3 - Materias/Administracao Publica/02 - governanca publica.md\` | 24 | 24/24 existem |
+| \`art-2e8a8f600b964d40\` | \`3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md\` | 6 | 6/6 existem |
+| \`art-a7703dd0e3fc4618\` | \`3 - Materias/Direito Administrativo/03 - atos administrativos.md\` | 2 | 2/2 existem |
+| \`art-61c7724cba33648a\` | \`3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md\` | 4 | 4/4 existem |
+| \`art-c61cca38ed36e424\` | \`3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md\` | 6 | 6/6 existem |
+| \`art-880b577a5c2ba82d\` | \`3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md\` | 6 | 6/6 existem |
+
+**Resultado efetivo: 48/48 articleIds identificados e 48/48 nomes de seção referidos correspondem exatamente a um cabeçalho Markdown do artigo apontado.** Não apareceu título de seção obsoleto nem ID órfão neste recorte. A nota DA25 utiliza frontmatter YAML válido com \`articleId\` entre aspas: o teste ingênuo que não retira aspas produziu **seis falsos negativos**, corrigidos na segunda passagem; **não classificar o conteúdo como defeituoso por diferença de serialização**. Títulos literais contêm acentos, símbolos \`×\`, pontuação e numeração; a transformação em URL/slug é propriedade da aplicação e não foi testada neste bloco.
+
+### Achados novos
+
+**DA-078, EVIDÊNCIA POSITIVA, referência estática íntegra.** Os **48 itens** da frente possuem referência \`article:<articleId>#<título da seção>\` com correspondência exata de ID e cabeçalho existente. Essa constatação **supera a incerteza estática DA-071**, mas **não comprova** que o frontend converte símbolos/acentos em rota e fragmento válidos nem que o texto referido justifica o enunciado. Critério para etapa seguinte: testar navegação por URL real, hash, renderização e redirecionamentos sem modificar os articlesIds.
+
+**DA-079, IMPORTANTE, suficiência pedagógica de AP02 para os quatro itens de redes e participação.** Em \`data/questoes-camara.json\`, os quatro itens cujo \`editalRef\` inclui \`redes de cooperação, coprodução e participação\` apontam **somente** a \`Administracao Publica/02 - governanca publica.md\`: os dois itens \`coordenacao-interorganizacional\` → seção **“Mecanismos: liderança, estratégia e controle”**; \`participacao-na-producao-do-servico\` e \`responsabilidade-em-arranjo-colaborativo\` → seção **“Governança e partes interessadas”**. **Os títulos existem**, e os gabaritos C/E dos cenários são conceitualmente plausíveis, mas os trechos não constituem explicação autossuficiente de **New Public Governance, redes interorganizacionais nem coprodução como abordagem teórica**, exigências literais do edital 14.2.3, 8.1–8.3. O problema é de **suficiência conceitual e precisão do destino de estudo**, não link quebrado. A fase 2 deve estabelecer base teórica específica antes de tratar esses quatro itens como prova de cobertura do edital.
+
+**DA-080, IMPORTANTE, concentração de referências e lacunas de treino persistem.** Os 30 itens AP referenciam **AP02 em 24 casos** e **AP01 em seis**, **nenhum referencia AP03**, mesmo que LAI/LGPD sejam subitens 11–12 do edital; os 18 DA referenciam apenas **DA03 (2), DA17 (4), DA25 (6) e DA13 (6)**. Outros artigos DA/AP catalogados não recebem qualquer referência do piloto. É consequência da distribuição verificada em DA-068; **link tecnicamente existente não demonstra revisão de todos os núcleos obrigatórios**. Fase 2: criar matriz por subitem que preserve origem inédita/real e fonte legal atualizada, priorizando Lei 8.112, PAD, improbidade, contratos, fiscalização e LAI/LGPD.
+
+**DA-081, RESTRIÇÃO DE TESTE, slug de página versus âncora não validado em runtime.** Títulos \`Governança × gestão\`, \`Mecanismos: liderança, estratégia e controle\`, \`1. Anulação (Invalidação)\` e outros incluem Unicode e pontuação. **Comparação textual exata não assegura a sintaxe da âncora utilizada pelo gerador do site**. Não há evidência de erro de navegação efetivo nesta rodada. A validação de URL publicada exigirá chamar/inspecionar o renderizador ou navegar ao endereço real com verificação de fragmento e título, para não gerar falso positivo de quebra.
+
+### Síntese para consolidação da Fase 1
+
+| Dimensão | Estado comprovado |
+| --- | --- |
+| Existência dos seis arquivos de destino | **Sim** |
+| Integridade estática dos 48 \`articleIds\` e títulos de seção | **48/48**, sem órfãos neste recorte |
+| Resolução no site de rotas e hashes | **Não testado** |
+| Suficiência teórica das referências para os subitens oficiais | **Parcial**, problema específico de NPG/coprodução em AP02 |
+| Correção jurídica exaustiva de cada gabarito do piloto | **Não certificada** |
+| Cobertura de todos os tópicos por piloto de questões | **Não**, conforme DA-068/080 |
+| Integridade dos documentos de estudo | **Preservada**, sem alteração |
+
+**Balanço:** quatro registros DA-078 a DA-081, que são confirmação positiva, lacuna pedagógica derivada, desequilíbrio de distribuição e pendência de validação no site. **Não são quatro erros de gabarito.** O relatório passa a **DA-001–DA-081**, com uma inversão anterior registrada (DA-004) e erro normativo explícito de movimentação (DA-036), além das atualizações jurídicas prioritárias. Fase 1 segue **aberta**, sem alterações a artigos e questões.
+
+### Próximo passo delimitado
+
+Construir **síntese executiva única da frente** com prioridades P0/P1/P2 por subitem e arquivo de destino, ações **propostas para a Fase 2** e evidência normativa, distinguindo inversões confirmadas de ajustes pedagógicos. Testar rotas publicadas somente quando o acesso ao site permitir verificação real. Submeter decisão de encerramento da Fase 1 **somente após** essa consolidação e checagem dos pontos bloqueadores; não migrar automaticamente para edição.

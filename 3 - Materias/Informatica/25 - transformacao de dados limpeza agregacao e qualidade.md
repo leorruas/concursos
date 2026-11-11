@@ -5,7 +5,7 @@ title: "Transformação de dados: limpeza, tratamento de nulos, agregação e di
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 
 # Transformação de dados: limpeza, tratamento de nulos, agregação e dimensões de qualidade
@@ -19,7 +19,7 @@ Raramente os dados brutos chegam prontos para consumo analítico direto. Eles co
 Se a equipe de análise ou comunicação alimentar painéis gerenciais (*dashboards*), relatórios de auditoria ou modelos preditivos com dados corrompidos, as conclusões serão inevitavelmente falaciosas. Esse fenômeno é sintetizado pelo princípio clássico da ciência da computação:
 $$\textbf{GIGO} \quad (\textit{Garbage In, Garbage Out} - \text{Se entra lixo, sai lixo})$$
 
-A etapa de **Transformação de Dados** (*Data Preparation / Wrangling*) consome de 70% a 80% do esforço de qualquer projeto de dados e constitui conteúdo frequente nas provas do **Cebraspe**.
+A **preparação de dados** (*data preparation/wrangling*) costuma demandar esforço significativo, mas a proporção varia entre projetos e não há base para afirmar que corresponda a 70% a 80% de **qualquer** projeto. A transformação e a qualidade dos dados são relevantes para questões de análise de dados.
 
 ---
 
@@ -60,7 +60,7 @@ EXCLUSÃO / DELEÇÃO                              IMPUTAÇÃO DE VALORES
 ```
 
 1. **Exclusão de Registros (*Listwise / Pairwise Deletion*):**
-   - *Quando usar:* O percentual de nulos é insignificante (ex.: < 1%) e a perda de linhas não compromete a representatividade da amostra.
+   - *Quando usar:* A análise do mecanismo de ausência e do impacto da exclusão mostra que a perda de linhas não compromete as estimativas nem introduz viés relevante. Um percentual pequeno, isoladamente, não garante exclusão segura.
    - *Risco:* Pode introduzir viés de seleção grave se os dados não faltarem de forma puramente aleatória.
 2. **Imputação por Tendência Central (Média versus Mediana):**
    - **Média:** Recomendada apenas para distribuições estritamente simétricas e sem valores discrepantes (*outliers*).
@@ -100,7 +100,7 @@ Nível Baixo  [Tabela Analítica Atômica]   --> Cada nota fiscal individual de 
 Na linguagem SQL e nas ferramentas de BI, a operação de transformar dados atômicos em dados resumidos é realizada por cláusulas `GROUP BY` associadas a funções matemáticas:
 - `SUM()`: Soma cumulativa de valores contínuos.
 - `AVG()`: Média aritmética.
-- `COUNT()`: Contagem de ocorrências de registros.
+- `COUNT(*)`: Conta linhas, inclusive as que contêm valores `NULL` em colunas; `COUNT(coluna)` conta apenas os valores não nulos dessa coluna; `COUNT(DISTINCT coluna)` conta valores distintos não nulos.
 - `MIN()` e `MAX()`: Valores extremos no grupo.
 
 ### 4.2. O Trade-off da Granularidade
@@ -148,7 +148,7 @@ A governança corporativa de dados (conforme o framework *DAMA-DMBOK - Data Mana
 
 ### Caso 3: Imputação de remuneração em levantamento estatístico
 - *Cenário:* Em uma base sobre cargos comissionados, 5% dos registros possuem a remuneração em branco. A distribuição salarial dos cargos é altamente assimétrica, com poucos diretores recebendo subsídios muito elevados que puxam a média para cima.
-- *Decisão Técnica:* Imputar a **mediana** dos salários do grupo correspondente, e não a média aritmética, evitando distorcer o perfil padrão dos cargos operacionais da amostra.
+- *Decisão Técnica ilustrativa:* Considerar imputação pela **mediana** de um grupo comparável pode reduzir a influência de valores extremos; antes de adotar o procedimento, é necessário verificar por que os dados faltam e testar o efeito da imputação nos resultados.
 
 ---
 
@@ -158,7 +158,7 @@ A governança corporativa de dados (conforme o framework *DAMA-DMBOK - Data Mana
 > **Assertiva:** No processo de preparação e transformação de dados (ETL), a substituição de valores ausentes em uma distribuição de renda altamente assimétrica deve ser realizada preferencialmente pela mediana dos valores observados, uma vez que a média aritmética é sensível à presença de valores extremos (*outliers*).
 >
 > **Gabarito:** **CERTO**  
-> **Comentário:** A mediana é uma medida de tendência central robusta, imune aos efeitos distorcivos de valores extremos (outliers). Em variáveis socioeconômicas como renda ou patrimônio, cuja distribuição típica é assimétrica à direita, a imputação pela média distorce a base, sendo a mediana a técnica recomendada.
+> **Comentário:** A mediana é menos sensível a valores extremos do que a média e pode ser uma escolha introdutória razoável para dados assimétricos. Contudo, nenhuma imputação simples é universalmente adequada: é preciso avaliar o mecanismo de ausência (MCAR, MAR ou MNAR), o objetivo da análise e a perda de variabilidade produzida pela imputação.
 
 ### Item 2
 > **Assertiva:** O aumento do nível de granularidade de uma base de dados implica uma redução no grau de detalhamento das informações armazenadas, resultando em dados mais sintéticos e tabelas agregadas.
@@ -199,3 +199,5 @@ A governança corporativa de dados (conforme o framework *DAMA-DMBOK - Data Mana
 3. **WICKHAM, Hadley.** *Tidy Data.* Journal of Statistical Software, 59(10), 2014.
 4. **BRASIL. Tribunal de Contas da União.** *Orientações para Governança e Gestão de Dados Públicos.* Brasília: TCU, 2022.
 5. **CÂMARA DOS DEPUTADOS.** *Manual de Abertura e Qualidade de Dados Legislativos.* Brasília: Centro de Informática (Cenin), 2023.
+
+> **Revisão editorial (11/11/2026):** correções dirigidas às ressalvas da auditoria da Câmara, preservando as distinções técnicas e evitando universalizar heurísticas. Questões inéditas ainda não homologadas como questões oficiais da banca.

@@ -709,3 +709,54 @@ Commit `366059b43995a50fdc38eb371e046880cfc110c9`: revistos os enunciados e come
 **Commit** `c50a3c69b4a106a16bf2013d31f4d8a70a2e9c91`. Realizadas 14 alterações localizadas em DC34: incluído o inciso VI omitido do art. 4º (irregularidades graves); detalhado o art. 18, § 3º (aprovação nominal para transferência da responsabilidade pelo sigilo ao Conselho); corrigido alcance de referência a recursos; incluído prazo de três sessões ordinárias do art. 9º, § 2º; identificada a divergência entre Regulamento de 2001 (cinco sessões, cinco testemunhas) e redação consolidada posterior do art. 14, § 4º, II (dez dias úteis, oito testemunhas). Inclusos os dispositivos operacionais do Acordo 2025–2027: reuniões públicas não deliberativas, parecer preliminar em dez dias úteis, pedido de vista de dois dias úteis, quórum e voto de desempate e suspensão cautelar com prazo próprio. Referências e URLs das fontes primárias foram incorporadas à nota.
 
 **Fontes:** [Código consolidado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html), [Regulamento do Conselho](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/arquivos/regulamento-1/view), [Acordo 2025–2027](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027/view). Acordo consultado em sua aprovação de 08/07/2025: persistência sem modificações em 2027 não foi certificada. Diagrama Mermaid ainda sem teste visual no site; toda a nota e seus precedentes ainda não foram auditados linha a linha. **Status da trilha: 2/29 artigos modificados, 0/29 com certificação integral.**
+
+
+## Bloco 17: DC13, tramitação e procedimento ordinário (11/11/2026)
+
+**Arquivo realmente consultado:** `3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md` (`articleId: art-d269c5708f314eba`). Identificado caminho exato por listagem de diretório do GitHub; **não usar o nome presumido `13 - tramitacao legislativa fases e fluxo.md`**, que retorna 404. Lidos a estrutura, os trechos relativos aos arts. 24, 52, 58, 119, 131–143 e 151–152 do RICD, os casos e **15 enunciados com gabaritos** (8 do refinamento CAM-PL-008 + 7 gerais CAM-PL-003). Fontes primárias: [RICD oficial atualizado, Resolução 17/1989](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html); [Câmara: contagem dos principais prazos](https://www2.camara.leg.br/atividade-legislativa/plenario/contagem-de-prazos/principais-prazos-do-processo-legislativo). Cotejo dirigido, **sem alegar auditoria integral certificada de todas as referências secundárias**.
+
+### Pontos normativos corroborados
+
+- **A-PL-060:** RICD art. 24, II, distingue poder conclusivo das comissões de exceções expressas (lei complementar, códigos, iniciativa popular, autoria de comissão, matérias insuscetíveis de delegação, matérias do Senado e pareceres divergentes nas condições legais, e urgência). A distinção DC13 entre conclusão por comissão e matérias do Plenário corresponde ao texto oficial.
+- **A-PL-061:** RICD art. 52, I–III: comissão **5 sessões na urgência, 10 na prioridade e 40 na tramitação ordinária**; relator tem metade do prazo; após esgotado o prazo, art.52 §3º prevê avocação ou substituição, com **2 sessões na prioridade e 5 sessões na ordinária** para novo relator. O projeto não é automaticamente arquivado ou aprovado pelo simples decurso de prazo. Correto no núcleo de DC13.
+- **A-PL-062:** RICD art. 58, §§1º–4º: recurso da apreciação conclusiva **em 5 sessões após publicação**, subscrito por **1/10 da Câmara**, indicando objeto para análise plenária; recurso improvido não faz o mérito ir automaticamente ao Plenário. Correspondência adequada.
+- **A-PL-063:** RICD art. 139: despacho de distribuição em **até 2 sessões** após recebimento e no máximo **4 comissões de mérito**; não confundir com número total de órgãos instrutórios. A nota comunica a diferença.
+- **A-PL-064:** RICD art. 151: **ordinária como regime residual**, distinto da espécie **lei ordinária**, e projeto presidencial pode receber prioridade sem deixar de ser projeto de lei ordinária. A ressalva dos arts.151–152 consta do arquivo; no regime de urgência, publicação, distribuição, parecer e quórum continuam exigíveis.
+- **A-PL-065:** Câmara informa que prazos por sessões não equivalem a dias corridos/úteis; uma única sessão elegível conta por dia e sessões solenes/preparatórias não contam. A nota explica corretamente a regra geral.
+
+### Ajuste editorial necessário
+
+**NC-PL-021 (IMPORTANTE: unidade de contagem embaralhada):** em `DC13 > ### Os prazos do art. 52`, a frase final do parágrafo “Atraso do relator” compara **“cinco dias/sessões do novo relator”** a **“cinco dias de recurso à votação conclusiva”** e **“cinco dias para apresentação de emendas”**. O RICD descreve os três prazos pertinentes em **sessões**, não genericamente em dias; as respectivas hipóteses são: novo relator (art.52 §3º, **5 sessões em regime ordinário**), recurso após conclusiva (art.58 §1º, **5 sessões**) e emendas a projeto em comissão (art.119, **5 sessões**). A comparação de finalidades é útil, mas a mistura “dias/sessões” pode ensinar a unidade errada. **Fase 2/3:** substituir por três prazos em sessões, explicando seus diferentes marcos iniciais; evitar que a correção produza falsa identidade de eventos. Não se alterou o original.
+
+### Questões CAM-PL-008: oito itens de procedimento ordinário
+
+| Q | Gabarito | Cotejo de núcleo |
+| --- | --- | --- |
+| 1, espécie ordinária sempre tem regime ordinário | ERRADO | RICD art.151 II a e III: prioridade para projeto do Executivo salvo urgência |
+| 2, 40 sessões/comissão, metade para relator | CERTO | Art.52 III e §1º |
+| 3, atraso implica arquivamento sem substituição | ERRADO | Art.52 §3º: avocação/substituição |
+| 4, regime ordinário pode coexistir com exame conclusivo | CERTO | Regime (art.151) e apreciação (art.24 II) são distintos |
+| 5, prazo de emendas substitui prazo da comissão | ERRADO | Art.119: emendas; art.52: análise e decisão |
+| 6, urgência não dispensa requisitos essenciais | CERTO | Art.152 §1º e requisitos constitucionais |
+| 7, 40 sessões valem até sanção pela Presidência | ERRADO | Prazo regimental é da comissão da Câmara |
+| 8, prazo esgotado permite medidas de continuidade, sem aprovação automática | CERTO | Art.52 §§4º–6º |
+
+### Questões CAM-PL-003: sete itens gerais de tramitação
+
+| Q | Gabarito | Cotejo de núcleo |
+| --- | --- | --- |
+| 1, revisora emenda e não devolve à iniciadora | ERRADO | CF art.65, parágrafo único |
+| 2, recurso de decisão conclusiva depende de subscrição e provimento | CERTO | CF art.58 §2º I; RICD art.58 e art.59 |
+| 3, lei complementar e iniciativa popular seriam obrigatoriamente conclusivas | ERRADO | Art.24 II, alíneas a, c |
+| 4, mais de quatro comissões de mérito seria regra geral | ERRADO | Art.139 V |
+| 5, rejeição pela revisora arquiva e emenda retorna à iniciadora | CERTO | CF art.65 |
+| 6, apensação coordena tramitação sem fusão automática | CERTO | Arts.142–143 |
+| 7, mero recurso assinado obriga apreciação plenária sem provimento | ERRADO | Arts.58–59 |
+
+**Resultado responsável:** 15/15 gabaritos examinados e **compatíveis com os fundamentos normativos centrais** consultados; nenhum gabarito invertido por evidência obtida nesta rodada. A nota contém um ajuste importante de unidade temporal. Continua pendente leitura jurídica exaustiva de exceções procedimentais, cada remissão lateral e aplicação concreta do art.132 §2º, antes de declarar integralmente aprovada.
+
+### Progresso atualizado
+
+**Inventário 29/29 arquivos; 66 questões C/E examinadas individualmente em diferentes graus** (DC11:13; DC12:14; DC13:15; DC34:6; DC35:6; DC36:6; DC37:6). **Sete arquivos com suas baterias de questões examinadas**, mas nenhum está integralmente certificado em conteúdo, fontes e editoração. **22 arquivos ainda não tiveram todas as suas questões revisadas nesta auditoria.** Estimativa de esforço realizado aumenta de cerca de **30% para 33%**, apenas orientativa, sem métrica objetiva por volume de normas. Próximo: **DC14 comissões parlamentares**, inclusive corrigir a colisão `CAM-PL-020` em seus metadados e subtítulos **somente após autorização da fase editorial**.
+
+**Nenhum artigo de estudo alterado.**

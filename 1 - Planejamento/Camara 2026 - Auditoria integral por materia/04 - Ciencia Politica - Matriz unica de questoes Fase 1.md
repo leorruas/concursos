@@ -312,10 +312,10 @@ Fonte: `3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes 
 | `art-83d47f1a6c902be5#1` | Certo | Somente lido | Pendente: cotejo por item |
 | `art-83d47f1a6c902be5#2` | Errado | Somente lido | Pendente: cotejo por item |
 | `art-83d47f1a6c902be5#3` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-83d47f1a6c902be5#4` | Errado | Somente lido | Pendente: cotejo por item |
-| `art-83d47f1a6c902be5#5` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#4` | Errado | Cotejo seletivo | Relatório 03, bloco 22 |
+| `art-83d47f1a6c902be5#5` | Errado | Cotejo seletivo | Relatório 03, bloco 22 |
 | `art-83d47f1a6c902be5#6` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |
-| `art-83d47f1a6c902be5#7` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-83d47f1a6c902be5#7` | Errado | Cotejo seletivo | Relatório 03, bloco 22 |
 | `art-83d47f1a6c902be5#8` | Certo | Cotejo seletivo | Relatório 03, bloco 6 |
 | `art-83d47f1a6c902be5#9` | Certo | Somente lido | Pendente: cotejo por item |
 | `art-83d47f1a6c902be5#10` | Certo | Somente lido | Pendente: cotejo por item |

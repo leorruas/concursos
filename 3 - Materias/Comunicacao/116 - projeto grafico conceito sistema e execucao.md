@@ -5,7 +5,7 @@ title: "Projeto gráfico: conceito, sistema e execução"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Projeto gráfico: conceito, sistema e execução
@@ -187,6 +187,21 @@ Um **protótipo representativo** deve testar conteúdos comuns e difíceis, não
 **Item 8.** Uma auditoria que verifica a aplicação correta de estilos em todas as páginas demonstra, por essa observação isolada, que todos os leitores compreendem as informações e concluem suas tarefas de consulta.
 
 **Errado.** Conformidade gráfica não equivale à compreensão e ao sucesso de tarefa dos leitores. **Mecanismo do erro:** confundir evidência de produção com efeito no público.
+
+## Caso de prova: PDF de impressão versus documento acessível (11/11/2026)
+
+**Situação hipotética:** uma equipe conclui o projeto gráfico de um relatório da Câmara, aplica estilos, gera um PDF/X-4 para impressão e aprova o arquivo em preflight. Na versão divulgada na web, as tabelas são reconhecidas como blocos de texto sem estrutura, o sumário não oferece navegação útil e a sequência da leitura não acompanha a ordem lógica do documento. Há conformidade parcial para **produção gráfica**, mas falta verificar a **experiência de acesso ao conteúdo digital**.
+
+| Etapa | Evidência necessária | Erro a evitar |
+| --- | --- | --- |
+| Projeto gráfico | Regras de grid, hierarquia, estilos e elementos editoriais | Supor que consistência visual prova compreensão |
+| Pré-impressão | Padrão PDF/X especificado, fontes, cor, sangria e preflight adequado | Confundir PDF/X com certificado universal de impressão e acessibilidade |
+| Publicação digital | Estrutura semântica e ordem de leitura, navegação, texto alternativo pertinente e testes | Presumir que a ordem gráfica gera automaticamente ordem de leitura por tecnologia assistiva |
+| Avaliação com leitores | Tarefas específicas de localização e entendimento | Tomar o arquivo aprovado como evidência de sucesso do público |
+
+**Item 6 preexistente: Errado, mantido.** Preflight de impressão não examina todos os requisitos de acesso assistivo. **Item 8: Errado, mantido.** Estilos aplicados corretamente não demonstram compreensão de todos os leitores. **Treino C/E inédito:** “Um projeto gráfico pode ser adequado para impressão e, mesmo assim, exigir correções em sua versão digital para permitir leitura e navegação acessíveis.” **Certo.** São critérios complementares que exigem evidências próprias.
+
+**Fontes de referência:** [PDF Association, requisitos de PDF/X](https://pdfa.org/technical-side-and-requirements-of-pdfx/); [W3C, WCAG 2.2](https://www.w3.org/TR/WCAG22/). **Limite:** a WCAG é referencial para conteúdo web; seu uso em documentos PDF digitais depende das técnicas e condições aplicáveis e não substitui uma auditoria de conformidade de arquivos específicos. Os demais itens e técnicas editoriais continuam pendentes de verificação especializada.
 
 ## Relações com outros temas
 

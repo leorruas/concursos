@@ -211,9 +211,11 @@ O [Acordo de Procedimentos do biênio 2025–2027](https://www2.camara.leg.br/a-
 
 - As reuniões públicas de instauração, sorteio e oitiva de testemunhas, quando não deliberativas, **não exigem quórum de deliberação** (item 1).
 - O relator dispõe de **dez dias úteis a partir da designação para o parecer preliminar**, e o pedido de vista deve ocorrer depois da leitura do voto e antes do início da votação, por **dois dias úteis** (item 3). Esses prazos são distintos dos dez dias úteis do parecer final do Código, art. 14, § 4º, IV.
-- Nas votações de pareceres, há voto nominal por maioria simples, presente a maioria absoluta do Conselho. O Presidente vota apenas no desempate (item 5).
+- **Leitura e discussão (item 4):** somente o **relator** pode fazer a leitura do próprio parecer; o tempo de comunicação de lideranças pode ser agregado ao tempo de discussão (RICD art. 66, § 1º).
+- **Votação (item 5):** os pareceres são votados nominalmente por **maioria simples, presente a maioria absoluta** dos membros do Conselho. A presença pode ser registrada pelo painel eletrônico ou em livro, em caso de avaria; o Presidente vota somente no desempate, contando para o quórum de presença. O voto do relator só é divulgado na leitura em reunião; não há orientação de bancada, embora se admita encaminhamento da votação.
 - **Sobrestamento (item 6, a):** o processo com prazo extrapolado ganha prioridade, mas o sobrestamento da pauta **não impede a apreciação de itens subsequentes**; a apreciação do processo prioritário avança até onde for possível, conforme a regra operacional do biênio. Isso qualifica o modo de aplicar o art. 16, § 3º, sem eliminar a preferência legal.
 - **Cautelar e documentos sigilosos (item 6, b–c):** durante a suspensão cautelar temporária **não são admitidos pedidos de retirada de pauta, adiamento de discussão, adiamento de votação ou vista**, diante do prazo de **três dias úteis**. Documentos sigilosos podem ser consultados pelos membros **na sala do Conselho, mediante termo de responsabilidade, sendo vedada a fotografia**. São medidas operacionais do Acordo, distintas da sanção definitiva e do regime probatório do Código.
+- **Acesso aos autos e omissões (item 6, d–e):** o Conselho **não disponibiliza o original do processo**; as peças principais são publicadas no sistema **Sileg**. Casos excepcionais ou não previstos no Acordo são decididos pelo Presidente do Conselho, que pode ouvir Vice-Presidentes ou colegiado, ou submeter a questão ao Plenário do Conselho.
 
 ### Suspensão cautelar do exercício do mandato: RICD art. 15, XXX, e Ato da Mesa nº 180/2025
 
@@ -414,7 +416,7 @@ Os fundamentos foram conferidos individualmente com o [Código de Ética consoli
 
 ## Fontes primárias e controle de vigência
 
-- **[Acordo de Procedimentos 2025–2027](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027/view):** regras operacionais do biênio aprovadas em 8/7/2025, especialmente itens 1, 3, 5 e 6; verificar modificações supervenientes antes de utilizá-las para prova posterior.
+- **[Acordo de Procedimentos 2025–2027, PDF oficial](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027-1/view):** regras operacionais do biênio, itens 1 a 6, com alteração expressa de 5/8/2025 no item 2; consultar eventuais alterações supervenientes antes da prova. O PDF oficial foi confrontado em texto e em páginas visuais na revisão de 11/11/2026.
 
 
 - **Constituição Federal de 1988:** arts. 53 (estatuto dos congressistas e imunidades), 54 (incompatibilidades), 55 (perda de mandato e quórum), 56 (afastamentos e licenças) e 58 (comissões e poderes instrutórios).

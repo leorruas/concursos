@@ -5,7 +5,7 @@ title: "🔄 Comunicação pública"
 type: "conceito"
 status: "ativo"
 created: 2026-07-06
-updated: 2026-10-06
+updated: 2026-11-11
 ---
 # 🔄 Comunicação pública
 
@@ -192,6 +192,16 @@ Há evidência recente e direta:
 - **ALERJ 2026**: texto de Jorge Duarte sobre falha de comunicação pública no caso INSS usado para cobrar gênero jornalístico.
 
 Os melhores distratores deslocam partes verdadeiras entre os quatro eixos ou transformam comunicação pública em sinônimo de comunicação estatal, publicidade institucional ou simples divulgação.
+
+## Aplicação à Câmara 2026: itens inéditos C/E
+
+**Recorte:** distinguir o conceito teórico amplo de comunicação pública, em Jorge Duarte, das definições institucionais do Anexo Único do Ato da Mesa nº 218/2025. Este bloco serve ao programa da Câmara; as questões FGV acima permanecem como histórico de outra banca.
+
+- **Item 1.** A comunicação pública pode envolver agentes não estatais em temas de interesse coletivo, de modo que a identidade do emissor, por si só, não determina seu caráter público. **Certo.** A formulação estudada de Duarte privilegia temas de interesse público e relações comunicacionais, não apenas a origem institucional.
+- **Item 2.** A divulgação unilateral de grande volume de informações constitui evidência suficiente de interação e ouvidoria social. **Errado.** Disponibilizar informação não comprova escuta, diálogo ou apropriação social.
+- **Item 3.** Uma campanha institucional sobre serviços da Câmara pode atender ao interesse público e ainda precisar observar regras próprias de identidade, impessoalidade e competência do órgão. **Certo.** Finalidade pública e conformidade normativa são dimensões que devem ser verificadas conjuntamente.
+
+**Conexões de revisão:** [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politica partidaria|Distinções entre comunicação pública, governamental e político-partidária]]; [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Ato nº 218/2025]]. **Classificação:** questões originais de treino, sem alegação de incidência histórica no Cebraspe. A conferência autoral integral de Duarte permanece pendente.
 
 ## Relações com outros temas
 

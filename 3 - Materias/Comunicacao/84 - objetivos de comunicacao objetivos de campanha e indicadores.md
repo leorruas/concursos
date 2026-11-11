@@ -5,7 +5,7 @@ title: "Objetivos de comunicação e campanha: resultados, entregas e indicadore
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Objetivos de comunicação e campanha: resultados, entregas e indicadores
@@ -128,6 +128,18 @@ A **Portaria Secom/PR nº 35/2025**, em seu Apêndice I, distingue objetivos e i
 **Item 3.** O aumento das inscrições após a divulgação, por demonstrar eficácia institucional, permite atribuir à campanha a totalidade da mudança, independentemente de alterações de oferta, operação e calendário.
 
 **Gabarito: Errado.** A observação antes/depois não isola outras causas. Efetividade e atribuição causal não decorrem automaticamente de variação temporal.
+
+## Auditoria dos níveis de objetivo: AMEC e inferência causal (11/11/2026)
+
+A [AMEC, Integrated Evaluation Framework](https://amecorg.com/amecframework/) distingue **outputs** (materiais, exposição e outras entregas), **out-takes** (atenção, retenção, entendimento e reação inicial), **outcomes** (mudança em conhecimento, atitude, confiança, preferência e intenção) e **impactos** (contribuição para objetivos da organização). O [material oficial de planejamento da AMEC](https://amecorg.com/amecframework/home/supporting-material/planning/) esclarece que o enquadramento começa com objetivos, públicos, linha de base, indicadores e metas. A taxonomia é da **AMEC**, não uma divisão formalmente instituída para todos os órgãos públicos brasileiros.
+
+**Diferenças de classe com exemplos:** seis vídeos concluídos são **entrega/atividade**, e não efeito comprovado no cidadão; visualizações ou impressões são **medidas de circulação**, e não compreensão; resposta correta a uma tarefa ou pergunta bem construída pode fornecer **evidência de entendimento**; participação concluída pode medir um **comportamento**, exigindo ainda verificar elegibilidade, mudança de serviço e atribuição causal. Um mesmo indicador pode ser interpretado de maneiras diferentes conforme população, instrumento, período e desenho de avaliação. Usar **KPI** é escolher um indicador relevante para decisão, não criar automaticamente uma medida mais válida.
+
+**Gabaritos preexistentes cotejados:** **item 1 Certo** (alcance não comprova entendimento); **item 2 Errado** (troca entrega por objetivo de comunicação); **item 3 Errado** (antes/depois não prova contribuição causal integral). A AMEC sustenta a distinção entre tipos de efeito e indicadores; o julgamento do item 3 incorpora também crítica metodológica à atribuição sem grupo de comparação ou controle.
+
+**Questões reais já indexadas:** [Correios 2011, item 81, Certo](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf), indica que a avaliação de campanha alcança a recepção; [item 84, Errado](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md), rejeita a prescrição de padronizar obrigatoriamente toda avaliação mediante pré-teste. Esses são **itens históricos**, não exercícios novos.
+
+**Novo C/E inédito:** “Uma campanha que executou todas as peças e superou a meta de impressões demonstrou necessariamente compreensão das orientações pelo público.” **Errado.** Entrega, exposição e compreensão exigem evidências distintas.
 
 ## Relações e heurísticas
 

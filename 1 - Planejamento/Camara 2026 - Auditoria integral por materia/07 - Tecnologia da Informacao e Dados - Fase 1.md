@@ -245,3 +245,45 @@ Nos artigos 03,04,06,07, os **24 itens** apresentam núcleos didáticos majorita
 ### Continuação
 
 Próximos: `Informatica/08–11` (redes, internet/navegação, e-mail, Teams/Meet), depois `12–17` (segurança e governança digital) e `01–02` conforme pertinência ao edital. Permanece necessário validar a versão concreta de Microsoft 365 relevante à prova e cotejar o edital oficial integral. **Esta rodada alterou apenas o relatório e o índice de acompanhamento.**
+
+
+## Bloco 6: redes, navegação, correio eletrônico, Teams e Meet, artigos 08–11 (11/11/2026)
+
+**Quatro arquivos recuperados integralmente e examinados em seus exemplos, explicações e seis itens C/E cada (24 itens didáticos inéditos, não oficiais):**
+- `3 - Materias/Informatica/08 - redes internet intranet protocolos e enderecamento ip.md` (`art-ef60bc0a1708e23d`);
+- `09 - navegacao busca avancada urls e procedimentos de internet.md` (`art-3678eef88b269f8c`);
+- `10 - correio eletronico webmail cliente local campos e seguranca.md` (`art-d18ded18a3b3f763`);
+- `11 - teams e google meet colaboracao reunioes e videoconferencia.md` (`art-0f31e15e82e0b1d1`).
+
+**Acumulado:** **22/30 artigos numerados de Informática examinados seletivamente** (`03–11,18–30`); **8 pendentes (`01–02,12–17`)**; cinco textos compartilhados lidos seletivamente, hub apenas inspecionado estruturalmente. **Zero artigos ou questões integralmente certificados**. Nenhuma teoria ou gabarito editado.
+
+### Diagnóstico individual
+
+| Arquivo | Escopo lido | Diagnóstico e próxima intervenção |
+| --- | --- | --- |
+| 08, redes | Internet/intranet/extranet, TCP/IP, portas, DNS/DHCP, TCP/UDP, IPv4/IPv6, seis itens C/E | Resumo de camadas útil, mas há confusão entre **protocolo de aplicação e transporte** em HTTP/3; uso de UDP descrito como obrigatório/ideal para toda transmissão ao vivo; regras de SMTP/POP3 e VPN exigem qualificações |
+| 09, navegadores | URI/URL, pesquisa avançada, cookies, modo privativo, atalhos, seis itens C/E | Núcleo de privacidade coerente, mas “fragmento exclusivamente para rolar” ignora uso por aplicações; sintaxe de buscas muda com motor; coluna de sintaxe inválida tem aspas sem fechamento, aparentando ser exemplo intencional |
+| 10, e-mail | Webmail/clientes, Cco, responder/encaminhar, anexos, S/MIME, ameaças, seis itens C/E | Núcleo da regra Cco útil; afirmações “100% no servidor” e “zero de disco” simplificam caching/offline; “Responde a todos” por destinatário Cco expõe presença, mas comportamento exato varia; cuidado com equiparar mau uso de Para a infração jurídica automática |
+| 11, Teams/Meet | canais/chat, armazenamento de arquivos, papéis, moderação, salas, gravações, seis itens C/E | **Regra de coorganizador no Teams contradiz Microsoft**; armazenamento de gravações do Meet apresenta caminho legado após julho/2026; outros privilégios e destinos exigem contexto de versão/licença/organizador |
+
+### Achados localizados
+
+**TI-041, ERRO DE REGRA DE PRODUTO CONFIRMADO, prioridade alta, `Informatica/11` §3, tabela de papéis.** A coluna “Pode encerrar a reunião para todos?” marca **NÃO** para o **coorganizador**, alegando que “na maioria dos tenants não encerra para todos”. A documentação oficial da Microsoft lista explicitamente **“End meeting for all” entre as permissões de coorganizador**, em Teams. Corrigir tabela e explicação, sem inferir impacto automático nas questões #1–6 (nenhuma formula diretamente o fim da reunião pelo coorganizador). Fonte: https://support.microsoft.com/en-us/teams/meetings/add-co-organizers-to-a-meeting-in-microsoft-teams . Outro ponto: gerente do lobby e papéis de apresentador podem variar segundo configurações da reunião; ver https://support.microsoft.com/en-us/teams/meetings/meeting-options-in-microsoft-teams .
+
+**TI-042, ERRO TEMPORAL DE INTERFACE, prioridade alta, `Informatica/11` §2 e §5 caso 4.** A nota atribui gravações do Google Meet à pasta **“Gravações do Meet”** no Drive do organizador, sem reconhecer reorganização introduzida em **julho de 2026**. A documentação atual informa que novas gravações ficam na pasta **“Google Meet”**, com **subpasta por reunião**; a antiga pasta *Meet Recordings* passou a *Legacy Meet Recordings* dentro de *Google Meet*. O **núcleo do item #5 permanece ERRADO**, pois arquivos não são baixados automaticamente para todas as máquinas dos participantes; corrigir caminho e qualificar acesso por links/atalhos e regras do organizador. Fonte: https://support.google.com/meet/answer/9308681?hl=en .
+
+**TI-043, OMISSÃO TÉCNICA COM REPERCUSSÃO DIDÁTICA, `Informatica/08` §§2–4.** A tabela atribui “navegação web (HTTP/HTTPS)” ao **TCP**, sem qualificar a versão. **HTTP/3 opera sobre QUIC, cujo transporte de pacotes usa UDP**, oferecendo confiabilidade por fluxos no QUIC; portanto **UDP não significa necessariamente transporte de aplicação sem garantias** e **HTTPS não implica TCP sempre**. A classificação de TCP/UDP, enquanto protocolos individuais, permanece correta em nível introdutório. Fonte primária: https://www.rfc-editor.org/rfc/rfc9114.html . A **Q2**, sobre propriedades de TCP, não é invertida; a lacuna afeta a generalização da tabela e casos de streaming.
+
+**TI-044, EXCESSO DE CERTEZA TECNOLÓGICA, `Informatica/08` §6 casos 1–3.** O texto trata conexão VPN corporativa como definição inequívoca de “extranet”, enquanto acesso remoto de empregado à **intranet** pode ser descrito como acesso remoto seguro sem criar necessariamente uma extranet destinada a parceiros; a classificação é contextual. Também afirma que UDP é **o protocolo ideal** para todo streaming e que perda gera no máximo ruído imperceptível: há soluções de live streaming sobre TCP/HTTP e exigências de confiabilidade, e a perda pode prejudicar seriamente audiovisual. A nota afirma que porta 25 foi “descontinuada para submissão” em caráter geral; distinguir boas práticas de submissão autenticada 587, bloqueios brasileiros e SMTP entre servidores 25 antes de converter em norma universal. **Não inverter itens 1–6 a partir dessas ressalvas sem examinar texto exato.**
+
+**TI-045, EXPLICAÇÃO NÃO UNIVERSAL, `Informatica/09` §1 e §6 caso 4.** O **fragmento `#` não é enviado ao servidor na requisição HTTP**, como o artigo acerta, mas pode ser usado pelo cliente em roteamento de aplicações de página única, seleção de estados, navegação ou outros usos, **não exclusivamente para rolar a um elemento**. A Q4 menciona query string `?` e permanece plausível. Atenção às “sintaxes exatas” de operadores em Google/Bing: detalhes dependem de mecanismo/versão e nem toda consulta com `site:` garante indexação completa ou documento de origem único.
+
+**TI-046, RISOS DE WEBMAIL VERSUS CLIENTE, `Informatica/10` §1 e casos.** O diagrama e a tabela dizem **“mensagens residem 100% no servidor” e “ocupação de disco local zero”** no webmail, apesar de caching e recursos de operação offline em alguns serviços. Cliente local também pode depender de política de cache, sincronização e conexões; manter distinção de interface (navegador versus aplicativo), não garantias absolutas de localização de todos os dados.
+
+**TI-047, JURÍDICO E COMPORTAMENTO DE INTERFACE, `Informatica/10` §§2–6.** A explicação de **Cco/Responder a todos** é útil como risco típico, mas destinatários, aliases, grupos, políticas e comportamento dos clientes precisam ser reconhecidos no gabarito de cenários concretos. O caso #1 caracteriza exposição de e-mails em `Para` como **“infração à LGPD”** automaticamente, sem análise de base, contexto, expectativa e incidência. Preservar orientação de minimizar exposição, sem concluir ilicitude abstrata a partir do campo isolado. A Q6 (“Cco constitui medida ... alinhada às diretrizes da LGPD”) é defensável, **não implica garantia de conformidade jurídica**.
+
+**TI-048, RASTREABILIDADE EDITORIAL, `Informatica/08–11`.** Há alegações sobre incidência frequente de cada detalhe no Cebraspe sem corpus de questões, e exemplos de tecnologia/ferramentas institucionais descritos como se refletissem configurações vigentes na Câmara. Classificar exemplos de VPN e sistemas de órgão como **hipotéticos**, salvo fonte institucional atual. As quatro notas têm seis questões C/E inéditas cada, **não originais da banca**. A distinção entre protocolo, produto, versão e política administrativa deve fazer parte da futura matriz de reparos.
+
+### Estado e fila
+
+**Resultado deste bloco:** oito achados TI-041 a TI-048, incluindo **duas divergências diretamente verificadas em documentação de produto** (TI-041 e TI-042), uma omissão normativa de protocolo rastreada ao RFC 9114 (TI-043) e cinco ressalvas conceituais/editoriais, **sem nova inversão comprovada de gabaritos C/E**. Para o conjunto de 24 questões examinadas, os núcleos C/E são coerentes em leitura dirigida, mas nenhuma foi homologada por cotejo completo de corpus e documentação. Continuar pela verificação individual de `Informatica/12–17`, depois `01–02`, e cotejar edital, hub e referências. **Teoria e questões originais preservadas: Fase 1 somente documentação de auditoria.**

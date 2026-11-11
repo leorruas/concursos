@@ -90,14 +90,14 @@ O art. 10 do Código estabelece o rol taxativo das penalidades:
 3. **Suspensão temporária do exercício do mandato** (por até seis meses);
 4. **Perda do mandato**.
 
-Na dosimetria da pena, o órgão competente considerará: a natureza e gravidade da infração; os danos causados à Câmara dos Deputados; as circunstâncias agravantes ou atenuantes; e os antecedentes do infrator (art. 10, parágrafo único).
+Na dosimetria da pena, consideram-se natureza e gravidade da infração, danos à Câmara e ao Congresso, agravantes e atenuantes e antecedentes do infrator (art. 10, § 1º). O Conselho pode propor sanção mais ou menos grave conforme os fatos efetivamente apurados (art. 10, § 2º).
 
 ### Matriz comparativa de penalidades, autoridades e infrações
 
 | Penalidade | Autoridade Competente | Hipóteses Típicas do Código | Particularidades Procedimentais e Recursos |
 | :--- | :--- | :--- | :--- |
-| **Censura Verbal** | **Presidente da Câmara** (em sessão) ou **Presidente de Comissão** (em reunião) | Incisos I e II do art. 5º (perturbação da ordem; infração a regras de boa conduta) | Aplicada de imediato. Cabe **recurso ao respectivo Plenário** (da Câmara ou da Comissão). |
-| **Censura Escrita** | **Mesa Diretora da Câmara** | Inciso III do art. 5º (ofensas físicas/morais ou desacato), mediante provocação do ofendido; **OU** reincidência nas hipóteses de censura verbal (art. 12) | Exige provocação do ofendido ou solicitação formal do Presidente da Câmara ou da Comissão. |
+| **Censura Verbal** | **Presidente da Câmara** (em sessão) ou **Presidente de Comissão** (em reunião) | Incisos I e II do art. 5º | Cabe **recurso ao respectivo Plenário em 2 dias úteis** (art. 11, parágrafo único). |
+| **Censura Escrita** | **Mesa Diretora da Câmara** | Inciso III do art. 5º, mediante provocação do ofendido, ou reincidência nas hipóteses do art. 11 por solicitação do presidente da Câmara ou da comissão | **Defesa em 5 dias úteis** e **recurso ao Plenário em 2 dias úteis** (art. 12, §§ 1º e 2º). |
 | **Suspensão de Prerrogativas Regimentais** | **Plenário da Câmara dos Deputados** (por proposta do Conselho de Ética) | Incisos VI a VIII do art. 5º (revelação de documento reservado, desvio de verba de gabinete, relatoria de doador de campanha) | Prazo máximo de **até 6 meses**. Qualquer cidadão pode provocar a Mesa. Instrução sumária no Conselho em até 30 dias. |
 | **Suspensão Temporária do Exercício do Mandato** | **Plenário da Câmara dos Deputados** (após processo no Conselho de Ética) | Incisos IV, V, IX e X do art. 5º (aliciamento/constrangimento hierárquico, quebra de sessão secreta, fraude de presença, descumprimento intencional de deveres fundamentais) | Prazo máximo de **até 6 meses**. Iniciativa de partido com assento no Congresso ou provocação da Mesa. Quórum de maioria absoluta. |
 | **Perda do Mandato** | **Plenário da Câmara dos Deputados** (após processo no Conselho de Ética) | Art. 4º (atos incompatíveis: abuso de prerrogativas, vantagem indevida, acordo de suplência, fraude deliberativa, falsidade patrimonial) | **Maioria absoluta dos membros da Câmara, em votação aberta** (conforme EC 76/2013). |
@@ -119,14 +119,16 @@ O Conselho de Ética e Decoro Parlamentar é órgão integrante da estrutura ins
 - **Proporcionalidade partidária:** as vagas são distribuídas entre os partidos e blocos parlamentares segundo a proporcionalidade partidária da Casa;
 - **Regra especial da Corregedoria:** o partido a que pertencer o Corregedor da Câmara designará, como titular, **um deputado a menos** do que o número a que teria direito pela proporcionalidade, já que o Corregedor possui assento especial;
 - **Papel do Corregedor da Câmara (art. 9º):** participa de todas as deliberações do Conselho de Ética **com direito a voz, mas sem voto**, competindo-lhe promover as diligências de sua alçada para esclarecimento dos fatos investigados;
-- **Impedimentos para integrar o Conselho (art. 7º, § 3º):** não pode ser membro do Conselho o deputado:
+- **Impedimentos para integrar o Conselho (art. 7º, § 2º):** não pode ser membro do Conselho o deputado:
   1. Submetido a processo disciplinar em curso por ato atentatório ou incompatível com o decoro;
-  2. Que tenha recebido, na mesma legislatura, penalidade de suspensão de prerrogativas ou de suspensão temporária do mandato.
-- **Afastamento cautelar de membro representado (art. 7º, § 4º):** o recebimento de representação contra membro do Conselho por infração ao Código, com prova inequívoca de verossimilhança, acarreta seu **afastamento imediato da função**, aplicado de ofício pelo Presidente do Conselho até decisão final.
+  2. Que tenha recebido, na legislatura, penalidade de suspensão de prerrogativas regimentais ou do exercício do mandato, registrada nos anais ou arquivos da Casa;
+  3. Que esteja exercendo mandato na condição de suplente convocado em substituição ao titular;
+  4. Que tenha condenação criminal por órgão jurisdicional colegiado, ainda que sem trânsito em julgado.
+- **Afastamento de membro do Conselho (art. 7º, § 7º):** a instauração de processo disciplinar contra membro do Conselho, com prova inequívoca da acusação, acarreta afastamento imediato da função por decisão de ofício do Presidente do Conselho, até decisão final.
 
 ## 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário
 
-O rito disciplinar parlamentar conjuga a fase instrutória e opinativa perante o Conselho de Ética com a deliberação política e soberana do Plenário da Câmara:
+O rito depende da penalidade. A censura verbal e a escrita seguem os arts. 11 e 12, sem percorrer automaticamente o processo de sanção grave. A suspensão de prerrogativas segue o art. 13; a suspensão do mandato e a perda do mandato seguem o art. 14. Os prazos do Conselho contam-se em **dias úteis** e ficam suspensos no recesso, salvo convocação extraordinária pertinente (art. 8º, § 3º). O fluxograma abaixo está em revisão e não deve ser usado para memorizar o rito.
 
 ```mermaid
 flowchart TD
@@ -161,43 +163,42 @@ flowchart TD
 
 1. **Iniciativa e Legitimidade ativa:**
    - Para processos que visem à perda do mandato ou à suspensão temporária do mandato, a representação deve ser instaurada por provocação da **Mesa Diretora** ou de **partido político com representação no Congresso Nacional** (CF, art. 55, § 2º; CEDP, art. 14).
-   - O cidadão comum e entidades da sociedade civil não possuem legitimidade processual direta para instaurar o processo disciplinar perante o Conselho; sua representação é popular e endereçada à **Mesa da Câmara** (CEDP, art. 14, § 2º). A Mesa tem o dever de conhecê-la motivadamente, emitindo despacho de arquivamento ou de envio ao Conselho.
+   - O cidadão comum e entidades da sociedade civil podem provocar a **Mesa da Câmara**, com descrição dos fatos e provas (Código, art. 9º, §§ 1º e 2º), mas não instauram diretamente processo disciplinar no Conselho. A Mesa tem o dever de conhecê-la motivadamente, emitindo despacho de arquivamento ou de envio ao Conselho.
 2. **Distribuição e escolha do Relator:**
    - Recebida a representação, o Presidente do Conselho de Ética instaura o processo e sorteia relator (ou comissão de inquérito de três membros).
    - **Garantias de imparcialidade do relator (Regulamento, art. 7º, § 1º):** o relator **não pode pertencer ao mesmo partido político nem ao mesmo Estado da federação do deputado representado**, nem ter outro processo sob sua relatoria simultânea.
 3. **Defesa prévia e defensor dativo:**
-   - O representado é formalmente notificado para apresentar defesa escrita e indicar rol de até **cinco testemunhas** no prazo de **cinco sessões ordinárias**.
-   - Se o deputado mantiver-se inerte, o Presidente do Conselho é obrigado a nomear **defensor dativo** (que pode ser deputado não membro do Conselho), reabrindo-se igual prazo de cinco sessões, sob pena de nulidade absoluta por cerceamento de defesa.
+   - No rito do **art. 14**, o representado dispõe de **10 dias úteis** para apresentar defesa escrita, documentos e rol de até **8 testemunhas**. Os procedimentos do art. 13 têm regras próprias e não devem ser confundidos com esse rito.
+   - A ausência de defesa exige a observância do procedimento de defesa técnica previsto na norma aplicável. A nomeação de defensor dativo e o prazo correspondente devem ser conferidos no rito específico, sem reutilizar a regra antiga de cinco sessões.
 4. **Instrução probatória e poderes de investigação:**
    - Na instrução, o Conselho realiza audiências, perícias e oitivas de testemunhas.
    - **Quebra de sigilo bancário, fiscal e telefônico (Regulamento, arts. 14 a 16):** o Conselho de Ética **não possui poderes próprios diretos de quebra de sigilo** (prerrogativa reservada às Comissões Parlamentares de Inquérito — CPIs, nos termos do art. 58, § 3º, da CF). Caso necessite da quebra de sigilo bancário, fiscal ou telefônico do representado, o Conselho deve requerer motivadamente à **Mesa**, para que esta submeta a autorização ao **Plenário da Câmara dos Deputados**, ou solicitar a transferência de sigilos já legitimamente obtidos por CPI encerrada ou em curso.
 5. **Parecer, votação no Conselho e substituição de relatoria:**
-   - Concluída a instrução, o relator apresenta parecer no prazo de **cinco sessões ordinárias**, concluindo pela improcedência (arquivamento) ou procedência da representação (com projeto de resolução propondo a penalidade).
-   - O parecer é deliberado em sessão pública, por **votação nominal e maioria absoluta** dos membros do Conselho.
-   - Se o parecer do relator for rejeitado, o Presidente designa novo relator dentre os membros que votaram com a corrente majoritária vencedora para redigir o voto vencedor em duas sessões.
+   - No rito do art. 14, a instrução possui os prazos próprios previstos no Código, e o relator dispõe de **10 dias úteis** para apresentar parecer após a fase instrutória, observadas as hipóteses legais de prorrogação.
+   - A deliberação de parecer no Conselho segue **maioria simples, com presença de maioria absoluta** de seus membros, conforme o Acordo de Procedimentos 2025–2027. Não confundir com o quórum da decisão sancionatória final do Plenário.
+   - Se rejeitado o parecer do relator, a elaboração do voto vencedor por novo relator observa o **prazo de 5 dias úteis** estabelecido no art. 16, § 4º, quando aplicável.
 6. **Recurso à CCJC (art. 14, § 4º, VIII; Regulamento, art. 20):**
    - Da decisão do Conselho de Ética cabe recurso à **Comissão de Constituição e Justiça e de Cidadania (CCJC)**, interposto no prazo de cinco dias úteis.
    - **Natureza estrita do recurso à CCJC:** a CCJC atua com competência jurisdicionaliforme restrita, pronunciando-se **exclusivamente sobre vícios de constitucionalidade, regimentalidade e formalidades do Código de Ética**. É-lhe vedado reexaminar o mérito fático da acusação ou substituir o juízo político-disciplinar do Conselho.
 7. **Prazos máximos de tramitação (art. 16):**
-   - Os processos do Conselho de Ética não podem exceder o prazo de **60 dias** para deliberação do Plenário nas penas de censura e suspensão;
-   - Para os processos que concluírem pela **perda do mandato**, o prazo global não poderá exceder **90 dias**;
-   - Concluída a fase no Conselho ou na CCJC, a Mesa tem o prazo improrrogável de **dois dias** para incluir a matéria na pauta da Ordem do Dia, sobrestando as demais proposições (ressalvadas as medidas provisórias trancando a pauta).
+   - O art. 16 estabelece limites de **60 ou 90 dias úteis** para os procedimentos sancionatórios nele previstos; **não se aplica automaticamente às censuras verbal e escrita**.
+   - A inclusão na Ordem do Dia observa o marco de **duas sessões ordinárias** previsto no art. 16, sem substituição por dois dias corridos. Os marcos iniciais e os detalhes de cada rito precisam ser lidos no dispositivo legal.
 8. **Julgamento Soberano em Plenário:**
    - O Plenário aprecia o parecer e o projeto de resolução do Conselho de Ética;
    - É assegurado ao deputado o direito de sustentar sua defesa pessoalmente ou por advogado em todas as fases, inclusive diretamente da tribuna do Plenário;
    - **Quórum e modalidade de votação:** para a declaração de suspensão ou de perda do mandato, a Constituição e o Regimento exigem **maioria absoluta de votos dos membros da Câmara (pelo menos 257 deputados)**;
    - **Votação aberta (EC 76/2013):** historicamente, o art. 14 do Código e o art. 55, § 2º, da CF previam voto secreto. Com o advento da **Emenda Constitucional nº 76, de 2013**, **todo e qualquer julgamento de perda de mandato parlamentar é realizado por votação ostensiva/aberta**. Qualquer referência em questão de prova a escrutínio secreto na perda de mandato parlamentar por quebra de decoro é anacrônica e incorreta.
 
-## 6. Declarações patrimoniais obrigatórias e prevenção de conflitos de interesse (art. 18)
+## 6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)
 
-O Capítulo VII do Código estabelece mecanismos concretos de transparência financeira dos parlamentares:
-1. **Declaração no início e no final do mandato:**
-   - Apresentação de declaração de bens e rendas à Mesa **ao assumir o mandato, para efeito de posse**;
-   - Reapresentação **90 dias antes das eleições gerais**, no último ano da legislatura, cobrindo todos os passivos de responsabilidade do declarante de valor igual ou superior à sua remuneração mensal de deputado.
-2. **Cópia anual do Imposto de Renda:** remessa de cópia da declaração prestada à Receita Federal até o 30º dia após o encerramento do prazo anual.
-3. **Declaração de impedimento para votar em matérias de interesse patrimonial próprio:** durante o exercício do mandato, em comissão ou em Plenário, ao iniciar-se a apreciação de qualquer proposição que envolva direta e especificamente seus interesses patrimoniais pessoais, o deputado é obrigado a declarar seu impedimento.
-4. **Encaminhamento ao Tribunal de Contas da União (TCU):** cópia das declarações de bens e rendas é remetida ao TCU, nos termos da Lei nº 8.730/1993, para controle e fiscalização da evolução patrimonial dos agentes públicos.
-5. **Penalidade pelo descumprimento:** omitir intencionalmente informação relevante ou declarar dados falsos nestes documentos constitui ato incompatível com o decoro parlamentar punível expressamente com **perda do mandato** (art. 4º, V).
+O **art. 18 da Resolução nº 25/2001, na redação consolidada**, estabelece:
+
+1. **Autorização de acesso aos dados das Declarações de Ajuste Anual do IRPF e retificações:** apresentada ao assumir o mandato e quando solicitada pelo órgão competente (art. 18, I). Trata-se de autorização de acesso a dados fiscais, e não de obrigação, nesse dispositivo, de entregar uma nova declaração de bens a cada ano.
+2. **Declaração de impedimento:** no início da apreciação de matéria que envolva direta e especificamente interesses patrimoniais próprios do deputado (art. 18, II).
+3. **Tratamento dos dados:** observar os procedimentos de autuação, remessa ao Tribunal de Contas da União e sigilo previstos nos §§ 1º a 4º do art. 18. Eventuais obrigações adicionais decorrentes de legislação específica devem ser identificadas por fonte própria, sem atribuí-las automaticamente ao Código.
+4. **Consequência disciplinar:** omitir intencionalmente informação relevante ou prestar informação falsa nas declarações previstas no art. 18 pode configurar a conduta do art. 4º, V, sujeita à apuração e à sanção cabível.
+
+**Atenção:** as fórmulas antigas de reapresentação 90 dias antes das eleições gerais e envio anual de cópia do IR em 30 dias **não correspondem ao texto vigente do art. 18** e foram retiradas deste resumo.
 
 ## 7. Relações com órgãos da Casa: Corregedoria e Procuradoria Parlamentar
 
@@ -206,7 +207,7 @@ O Capítulo VII do Código estabelece mecanismos concretos de transparência fin
 | Órgão da Câmara | Base Regimental / Normativa | Composição e Vínculo | Função Essencial e Distinção de Prova |
 | :--- | :--- | :--- | :--- |
 | **Conselho de Ética e Decoro Parlamentar** | Resolução nº 25/2001 e RICD art. 244 | 21 membros titulares e 21 suplentes eleitos pela proporcionalidade | **Órgão processante:** instrui representações disciplinares, realiza a instrução probatória ampla e propõe penalidades ao Plenário. |
-| **Corregedoria Parlamentar** | RICD arts. 17, 20 e 262–273 | Dirigida pelo Corregedor (membro da Mesa) e Corregedores substitutos | **Órgão correcional e de apuração preliminar:** zela pela ordem e disciplina nas dependências da Câmara; realiza investigações preliminares de representações antes do envio ao Conselho; tem assento no Conselho com voz e voto. |
+| **Corregedoria Parlamentar** | RICD arts. 17, 20 e 262–273 | Dirigida pelo Corregedor (membro da Mesa) e Corregedores substitutos | **Órgão correcional e de apuração preliminar:** zela pela ordem e disciplina nas dependências da Câmara; realiza investigações preliminares de representações antes do envio ao Conselho; participa das discussões no Conselho, sem direito a voto (Código, art. 9º, § 4º). |
 | **Procuradoria Parlamentar** | RICD art. 21 | 11 membros designados pelo Presidente da Câmara | **Órgão de defesa e reparação:** promove a defesa judicial e extrajudicial da Câmara e de seus membros quando ofendidos em razão do mandato; recebe representações consideradas **levianas ou ofensivas** pelo Conselho de Ética para reparação de imagem. |
 
 ## 8. Casos progressivos e situações de fronteira
@@ -215,18 +216,18 @@ O Capítulo VII do Código estabelece mecanismos concretos de transparência fin
 Dois deputados trocam ofensas injuriosas durante a discussão de um projeto de lei no Plenário, gerando tumulto e quebra temporária da ordem dos trabalhos.
 - **Enquadramento:** incisos I, II e III do art. 5º (perturbação da ordem e ofensa moral nas dependências da Casa).
 - **Competência e Sanção:** o Presidente da Câmara pode aplicar imediatamente **censura verbal** em sessão. Caso haja reincidência ou provocação formal do ofendido, a Mesa Diretora poderá aplicar **censura escrita**.
-- **Fronteira com a perda de mandato:** a simples ofensa mútua no calor do debate parlamentar, sem agressão física continuada ou quebra institucional grave, **não configura ato incompatível do art. 4º**, sendo vedada a cassação de mandato para conduta apenável por censura.
+- **Fronteira com a perda de mandato:** a simples ofensa mútua no calor do debate parlamentar, sem agressão física continuada ou quebra institucional grave, pode justificar censura conforme o quadro concreto; eventual enquadramento mais grave exige apuração de fatos adicionais e fundamento específico, sem conclusão automática sobre a sanção final (art. 10, § 2º).
 
 ### Caso 2: Deputado que recebe valores mensais de fornecedor de serviços da Câmara
 Deputado federal recebe remuneração oculta de consórcio empresarial contratado por órgãos públicos federais, facilitando a liberação de recursos orçamentários.
 - **Enquadramento:** infração ao art. 4º, II, do Código e art. 55, § 1º, da CF (percepção de vantagens indevidas no exercício do mandato parlamentar).
-- **Procedimento:** processo disciplinar instaurado no Conselho de Ética por partido político com representação no Congresso Nacional; após ampla instrução e parecer favorável à perda de mandato aprovado por maioria absoluta no Conselho, o processo vai ao Plenário.
+- **Procedimento:** processo disciplinar instaurado no Conselho de Ética por partido político com representação no Congresso Nacional; após instrução e deliberação do parecer no Conselho segundo o quórum próprio do colegiado, o processo segue os trâmites previstos até eventual julgamento do Plenário.
 - **Decisão e Quórum:** o Plenário decide pela **perda do mandato em votação aberta**, exigindo-se **maioria absoluta (257 votos)**.
 
 ### Caso 3: Cidadão comum protocola denúncia diretamente no Conselho de Ética
 Um cidadão apresenta requerimento de cassação de mandato de deputado diretamente na secretaria do Conselho de Ética, alegando uso indevido de passagens aéreas e exigindo imediata abertura de PAD.
 - **Solução regimental:** o Conselho de Ética não pode receber a peça diretamente de cidadão particular para instauração imediata de processo por perda de mandato.
-- **Procedimento adequado:** representações populares devem ser endereçadas à **Mesa da Câmara** (art. 14, § 2º), que funcionará como primeiro filtro de admissibilidade e verossimilhança, determinando o arquivamento fundamentado ou o envio formal ao Conselho de Ética.
+- **Procedimento adequado:** representações populares devem ser endereçadas à **Mesa da Câmara** (art. 9º, §§ 1º e 2º), que funcionará como primeiro filtro de admissibilidade e verossimilhança, determinando o arquivamento fundamentado ou o envio formal ao Conselho de Ética.
 
 ### Caso 4: Pedido de quebra de sigilo bancário direto pelo Relator do Conselho
 Em processo disciplinar grave no Conselho de Ética, o deputado relator profere despacho requisitando ao Banco Central a quebra dos extratos de contas do representado.

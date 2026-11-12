@@ -5,7 +5,7 @@ title: "Linguagem simples: técnicas, compreensão, testes e limites"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Linguagem simples: técnicas, compreensão, testes e limites
@@ -154,6 +154,14 @@ A qualidade de uma mensagem deve ser avaliada em relação a **pessoas e tarefas
 No [caderno original do CNMP 2023, Comunicação Social](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), o **item 70** trata de **coesão referencial**, que ocorre quando um elemento textual faz referência a outro, e recebeu **Certo** no [gabarito definitivo oficial](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF). O **item 71**, sobre a suposta estrutura obrigatória de textos informativos e sua linguagem, foi **anulado (X)**. Portanto, **não usar o 71** como evidência de que toda informação deve conter introdução, desenvolvimento e conclusão ou de que a banca rejeita linguagem clara e objetiva.
 
 **Lição de revisão:** coesão lexical ou referencial é propriedade de encadeamento textual; clareza, objetividade e precisão dependem também da informação, finalidade e público. Uma definição de coesão **não certifica** a eficácia de um texto para orientar cidadão em tarefa real. Os dois itens constam de fontes oficiais; o gabarito foi inspecionado diretamente como imagem.
+
+## Cotejo normativo dos três itens C/E: Lei nº 15.263/2025 (11/11/2026)
+
+A [publicação original da Lei nº 15.263/2025 na Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15263-14-novembro-2025-798293-publicacaooriginal-177011-pl.html) confirma que a Política Nacional de Linguagem Simples alcança a comunicação com a população nos **três Poderes e entes federativos** (art. 1º). O **art. 4º** associa palavras, estrutura e leiaute à capacidade de **encontrar, compreender e usar** a informação. O **art. 5º** apresenta técnicas em rol introduzido por **“tais como”**, entre elas frases curtas, explicação de termos técnicos, acesso para pessoas com deficiência e teste de compreensão com o público-alvo. O **art. 6º** exige versão em português e, **sempre que possível**, versão na língua dos destinatários quando a comunicação for destinada a comunidades indígenas. O **art. 7º foi vetado**, e o art. 8º prevê diretrizes complementares de operacionalização por cada Poder.
+
+**Conferência individual:** item 1 **Certo**, corresponde ao art. 4º e não reduz linguagem simples a substituição lexical; item 2 **Errado**, pois a técnica de frases curtas não autoriza alteração ou omissão de condições jurídicas necessárias à precisão; item 3 **Certo**, correspondência direta ao art. 5º, XVIII, e ao art. 6º, com manutenção da condição “sempre que possível”. O segundo item inclui inferência editorial sobre precisão, compatível com a finalidade legal, e não uma permissão ou exceção literalmente redigida no art. 5º. **Nenhuma inversão demonstrada.**
+
+**Limite de certificação:** esse cotejo sustenta o núcleo normativo e os três itens inéditos, mas **não testa a usabilidade de textos reais com cidadãos**, nem comprova que todas as técnicas, exemplos, remissões internas e explicações de acessibilidade da nota estejam integralmente certificados. A obra de Roedel de 2024 é referência de método anterior à lei, com estatuto diferente. **Estado: Corrigido no recorte normativo e nas explicações dos gabaritos; não certificado integralmente.**
 
 ## Relações e heurísticas
 

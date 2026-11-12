@@ -22690,6 +22690,168 @@
       "statement": "Ao resumir em discurso indireto a fala de um parlamentar, a equipe pode omitir uma condição que muda seu sentido porque o resumo traz o nome do autor.",
       "correctAnswer": "E",
       "explanation": "A atribuição identifica a fonte. O resumo continua responsável por preservar as condições que definem o sentido da fala."
+    },
+    {
+      "id": "cam-cs-escuta-por-segmentos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "escuta-por-segmentos",
+      "mechanism": "escuta-por-segmentos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Autor: Jorge Duarte e a perspectiva do cidadão"
+      },
+      "statement": "Uma consulta sobre transporte recebe sobretudo respostas de quem já usa o aplicativo municipal. Buscar também os relatos de quem depende do atendimento presencial ajuda a identificar necessidades que o canal digital pode ter deixado de captar.",
+      "correctAnswer": "C",
+      "explanation": "A ouvidoria social busca conhecer interesses e necessidades de diferentes segmentos. A origem das respostas indica quais grupos podem estar sub-representados."
+    },
+    {
+      "id": "cam-cs-mudanca-de-gestao-e-criterio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "mudanca-de-gestao-e-criterio",
+      "mechanism": "mudanca-de-gestao-e-criterio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "statement": "Se duas gestões sucessivas divulgam os critérios vigentes de um benefício, somente a primeira realiza comunicação governamental, por ter instituído a política.",
+      "correctAnswer": "E",
+      "explanation": "A categoria abrange a comunicação sobre a execução e a gestão da política. Sua instituição em mandato anterior não altera a função do aviso atual."
+    },
+    {
+      "id": "cam-cs-versao-em-debate-e-versao-votada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "versao-em-debate-e-versao-votada",
+      "mechanism": "versao-em-debate-e-versao-votada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      },
+      "statement": "Ao cobrir a aprovação de um projeto com substitutivo, a equipe pode linkar apenas o texto original como se fosse a versão aprovada, desde que o resultado nominal da votação esteja correto.",
+      "correctAnswer": "E",
+      "explanation": "Precisão exige identificar qual texto foi aprovado. O placar correto não resolve o erro sobre o objeto da votação."
+    },
+    {
+      "id": "cam-cs-autonomia-editorial-de-entrevista",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "autonomia-editorial-de-entrevista",
+      "mechanism": "autonomia-editorial-de-entrevista",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "statement": "Uma entrevista em que um deputado defende seu programa partidário pode integrar uma reportagem institucional que contextualize essa posição como parte do debate legislativo.",
+      "correctAnswer": "C",
+      "explanation": "A fala do entrevistado e o produto jornalístico têm finalidades diferentes. A classificação da reportagem depende de seu tratamento editorial."
+    },
+    {
+      "id": "cam-cs-vinculo-entre-escuta-e-acao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "vinculo-entre-escuta-e-acao",
+      "mechanism": "vinculo-entre-escuta-e-acao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Autor: Jorge Duarte e a perspectiva do cidadão"
+      },
+      "statement": "Se manifestações de usuários revelam que a mesma instrução é interpretada de maneiras incompatíveis, usar esse diagnóstico para reescrever o aviso é uma aplicação da ouvidoria social.",
+      "correctAnswer": "C",
+      "explanation": "A escuta identifica um problema recorrente de compreensão e orienta uma mudança na comunicação."
+    },
+    {
+      "id": "cam-cs-destinatario-de-divulgacao-oficial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "destinatario-de-divulgacao-oficial",
+      "mechanism": "destinatario-de-divulgacao-oficial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "statement": "Um boletim de secretaria que explica o cronograma de execução de um programa a conselhos municipais deixa de ser comunicação governamental porque se dirige a entidades intermediárias.",
+      "correctAnswer": "E",
+      "explanation": "A função do boletim continua ligada à gestão e à execução da política. A natureza do público não muda essa finalidade."
     }
   ]
 }

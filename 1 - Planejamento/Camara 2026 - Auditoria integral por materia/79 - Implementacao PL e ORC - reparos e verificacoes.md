@@ -22,3 +22,7 @@ Fontes principais: [STF ADPF 848](https://portal.stf.jus.br/processos/detalhe.as
 ## Verificação técnica e pendências
 
 O workflow [Publicar no GitHub Pages, run 43128517694](https://github.com/leorruas/concursos/actions/runs/43128517694) estava PENDING quando consultado no commit 323c7704; houve cancelamento de runs concorrentes anteriores. Não afirmar deploy verde, navegação funcional ou renderização Mermaid validada. Para o próximo lote: desduplicar ORC04 preservando âncoras e 5 itens; conferir normas anuais ORC05a/ORC15 e coexistência entre créditos e emendas; criar exercícios dirigidos aos DC05/07/08/09; testar visualmente DC35/DC37 e a integração do catálogo. Atualizar apenas os arquivos atingidos; outros agentes continuam trabalhando simultaneamente.
+
+## Verificação final de ORC04: duplicação já tratada
+
+A inspeção do arquivo atual `3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md`, SHA `91bf17c54e7476e291c08cbcad1b679af1bcd96a`, encontrou o título `Títulos preservados para links antigos` seguido de **redirecionamentos de conteúdo** para ORC04a e ORC04b, com subtítulos históricos mantidos como âncoras. As cinco questões comentadas do núcleo de ORC04 estão antes desse bloco. **Status da duplicação: corrigido na versão atual, sem novo corte necessário.** A sugestão de desduplicar ORC04 registrada na seção de pendências acima fica **superada** por essa conferência; a implementação desta sessão não alterou o arquivo. Teste de resolução de backlinks e navegação segue pendente.

@@ -574,3 +574,16 @@ Continuação exclusiva dos artigos de Inglês, sem alterações em `index.md`, 
 **CI:** o workflow `pages.yml` executa scripts de identidade dos artigos, catálogo, integridade da busca e construção do site antes de publicar. Houve execução **bem-sucedida** em `f610345e96ef3756e7d37b0617fa2d94b2f3f218`, mas commits posteriores ainda requerem seu próprio run conclusivo. Não confundir o sucesso anterior com validação do HEAD final.
 
 **Próximo passo:** verificar conclusão do deploy no commit mais recente, confrontar títulos e vínculos no hub `ingles.md`, conferir exercícios após integração e examinar os efeitos da linguagem de atribuição e de variação contemporânea nos exemplos. A publicação no Pages deve ser declarada separadamente da gravação no GitHub.
+
+
+## 23. Integração do hub e estado da publicação
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| `ingles.md` (hub) | Leitura limitada a textos técnicos, menção a desempenho em link público e afirmação de frequência não comprovada | Integração de leitura não institucional, distinção de pré-requisitos 01–06 e aprofundamento 07–18, retirada de link para avanço privado e de afirmação estatística sem fonte | `131bd212baebd13901d7054962bc71e7046c01b8` | Gravação e releitura confirmaram as cinco substituições; identidade do hub preservada | corrigido |
+
+O hub continua com os links existentes dos 18 artigos, sem criação duplicada. A referência à evolução individual foi retirada do hub público; nenhum dado de desempenho foi gravado no repositório público.
+
+**CI e publicação:** o workflow automático `Publicar no GitHub Pages` disparou para os commits de conteúdo, porém as execuções recentes foram canceladas ou estavam pendentes/em progresso devido a publicações concorrentes. Há run anterior com sucesso em `f610345e96ef3756e7d37b0617fa2d94b2f3f218` (não abrange todos os commits posteriores). A validação do HEAD atual permanece **pendente**, sem declaração de publicação concluída.
+
+**Retomada:** consultar o HEAD e o run Pages correspondente, verificar logs e integridade do site; revisar ao menos uma vez os itens reescritos após as últimas edições e conferir referências cruzadas e fontes finais dos demais artigos. Encerrar só depois da revisão transversal e do CI atualizado.

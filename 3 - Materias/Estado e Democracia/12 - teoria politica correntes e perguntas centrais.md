@@ -16,7 +16,7 @@ updated: 2026-11-06
 
 **Teoria política** investiga conceitos, valores e argumentos sobre a organização da vida coletiva, o poder e o Estado. Parte da investigação é **normativa**: que instituições e decisões *devem* ser consideradas justas, legítimas ou livres? Outra parte é **conceitual, interpretativa e histórica**: o que diferentes tradições entendem por liberdade, soberania, democracia e cidadania, e como esses sentidos foram construídos? Também pode articular evidências empíricas, sem que um achado estatístico determine sozinho o que é justo.
 
-A [[3 - Materias/Estado e Democracia/10 - ciencia politica objeto metodo e limites|nota 10]] estabeleceu o objeto e os métodos da Ciência Política; a [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|nota 11]] estudou as concepções de poder e dominação. Esta unidade **CAM-CP-003** compara **correntes e problemas clássicos**. O objetivo é reconhecer **autor → conceito → estrutura → limite**, e evitar tratar tradições complexas como slogans. O próximo bloco **CAM-CP-004** examinará especificamente Estado e sociedade.
+A [[3 - Materias/Estado e Democracia/10 - ciencia politica objeto metodo e limites|Ciência Política: objeto, método e limites]] estabeleceu o objeto e os métodos da Ciência Política; a [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|Poder, autoridade, legitimidade e dominação]] estudou as concepções de poder e dominação. Esta unidade **CAM-CP-003** compara **correntes e problemas clássicos**. O objetivo é reconhecer **autor → conceito → estrutura → limite**, e evitar tratar tradições complexas como slogans. O próximo bloco **CAM-CP-004** examinará especificamente Estado e sociedade.
 
 ## As perguntas que organizam a disciplina
 
@@ -141,7 +141,7 @@ Em *Do contrato social*, **Rousseau** procura conciliar associação política e
 
 **Estado e classes:** em formulações marxistas clássicas, o Estado e suas instituições são analisados em relação a conflitos de classe, propriedade e reprodução social. Reduzir toda a tradição à tese de que o Estado é **sempre mero executor direto e sem autonomia** de uma única vontade privada é simplificação. Correntes posteriores examinam hegemonia, autonomia relativa e disputas internas.
 
-**Gramsci:** desenvolve a noção de **hegemonia** como direção intelectual, moral e política associada à construção de consenso e a relações de coerção, já introduzida na [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|nota 11]]. A presente unidade utiliza a noção para diferenciar **dominação coercitiva e direção político-cultural**, sem reescrever sua teoria do poder.
+**Gramsci:** desenvolve a noção de **hegemonia** como direção intelectual, moral e política associada à construção de consenso e a relações de coerção, já introduzida na [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|Poder, autoridade, legitimidade e dominação]]. A presente unidade utiliza a noção para diferenciar **dominação coercitiva e direção político-cultural**, sem reescrever sua teoria do poder.
 
 **Social-democracia × comunismo revolucionário:** são projetos históricos diferentes, com relações diversas com democracia parlamentar, reformas, propriedade e transição social. O rótulo “esquerda” não implica concordância sobre meios, instituições ou organização econômica.
 
@@ -177,7 +177,7 @@ Em *Anarquia, Estado e utopia*, **Robert Nozick** critica modelos distributivos 
 
 **Elitismo competitivo, Schumpeter:** em *Capitalismo, socialismo e democracia*, democracia é concebida como **método institucional de competição pela liderança**, no qual indivíduos adquirem poder de decisão por disputa competitiva pelo voto popular. **Democracia como método × democracia como vontade popular direta:** a teoria enfatiza seleção de governos e competição, em vez de assumir expressão espontânea de uma vontade comum substantiva.
 
-**Pluralismo, Robert Dahl:** o poder distribui-se e é disputado entre múltiplos atores e instituições, e a **poliarquia** descreve regimes reais por dimensões de **contestação e participação/inclusividade**, não um ideal totalmente realizado de igualdade. Ver [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|nota 11]] para poder relacional.
+**Pluralismo, Robert Dahl:** o poder distribui-se e é disputado entre múltiplos atores e instituições, e a **poliarquia** descreve regimes reais por dimensões de **contestação e participação/inclusividade**, não um ideal totalmente realizado de igualdade. Ver [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|Poder, autoridade, legitimidade e dominação]] para poder relacional.
 
 **Democracia participativa, Carole Pateman:** destaca o valor político e formativo da participação, inclusive em espaços além da escolha periódica de representantes. **Participação × consulta simbólica:** presença formal sem capacidade de influenciar decisões pode ter efeito limitado.
 

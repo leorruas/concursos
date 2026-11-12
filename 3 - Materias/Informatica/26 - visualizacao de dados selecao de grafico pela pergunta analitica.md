@@ -43,8 +43,8 @@ Uma referência útil para selecionar gráficos é o esquema de Andrew Abela, qu
 ### 2.1. Comparação entre Itens (*Comparison*)
 - **Objetivo:** Confrontar grandezas entre diferentes categorias discretas em um ponto fixo no tempo (ex.: número de proposições apresentadas por partido político em 2026).
 - **Gráficos recomendados:**
-  - **Gráfico de Barras Horizontais:** Ideal quando os rótulos das categorias forem longos (evita textos inclinados ou truncados) ou houver mais de 7 categorias.
-  - **Gráfico de Colunas Verticais:** Ideal para poucas categorias (até 5 a 7) e rótulos curtos.
+  - **Gráfico de Barras Horizontais:** Frequentemente adequado a rótulos longos ou muitos grupos, pela legibilidade e possibilidade de ordenação. Não há número fixo de categorias que imponha a orientação.
+  - **Gráfico de Colunas Verticais:** Útil para comparações entre grupos com rótulos curtos, desde que haja espaço e escala legíveis; o limite depende do tamanho do gráfico e da audiência.
 
 ### 2.2. Evolução Temporal (*Trend over Time*)
 - **Objetivo:** Mostrar a trajetória, tendência, aceleração ou sazonalidade de uma métrica contínua ao longo de um eixo cronológico ordenado (ex.: execução orçamentária mensal da Câmara ao longo do ano).
@@ -57,7 +57,7 @@ Uma referência útil para selecionar gráficos é o esquema de Andrew Abela, qu
 - **Gráficos recomendados:**
   - **Barras/Colunas Empilhadas a 100%:** Excelente para comparar composições percentuais entre diferentes grupos.
   - **Treemap (Mapa em Árvore):** Excepcional para composições hierárquicas com múltiplos níveis (ex.: Gastos da União $\rightarrow$ Órgão $\rightarrow$ Programa $\rightarrow$ Ação).
-  - **Gráfico de Pizza / Rosca (*Pie / Donut Chart*):** Uso **estritamente limitado** a no máximo 3 a 5 categorias com diferenças expressivas de proporção.
+  - **Gráfico de Pizza / Rosca (*Pie / Donut Chart*):** Pode representar composição de um todo quando as fatias são poucas e bem distinguíveis. Para muitas categorias ou diferenças sutis, barras ordenadas geralmente permitem comparação mais precisa; não há proibição matemática acima de 3 ou 5 fatias.
 
 ### 2.4. Distribuição e Relação (*Distribution & Correlation*)
 - **Objetivo:** Analisar a dispersão de uma variável ou a correlação entre duas variáveis quantitativas (ex.: correlação entre tempo de tramitação e número de emendas recebidas).
@@ -86,7 +86,7 @@ $$\text{Data-Ink Ratio} = \frac{\text{Tinta dedicada à representação dos dado
 ### 3.3. O Fator de Distorção (*Lie Factor*)
 $$\text{Lie Factor} = \frac{\text{Tamanho do efeito visual exibido no gráfico}}{\text{Tamanho do efeito real nos dados}}$$
 - Se o $\text{Lie Factor} = 1{,}0$, o gráfico é visualmente honesto.
-- Se $\text{Lie Factor} > 1{,}05$ ou $< 0{,}95$, há **distorção visual**: o gráfico exagera ou minimiza a variação real.
+- Valores acima de $1$ indicam exagero visual e valores abaixo de $1$ indicam redução visual, para a comparação definida. Limiares como $0{,}95$ e $1{,}05$ podem funcionar como **convenções analíticas de tolerância**, não como limite universal de verdade ou regra obrigatória do Cebraspe.
 - **Exemplo clássico de fraude visual em barras:** Iniciar o eixo vertical $Y$ fora do zero (*truncated axis*) para fazer uma variação de 2% parecer uma explosão de 200%.
 
 ```
@@ -114,7 +114,7 @@ O **Gráfico de Pizza (*Pie Chart*)** é o gráfico mais abusado na administraç
 3. **Múltiplas fatias finas:** Gráficos de pizza com mais de 5 ou 6 categorias tornam-se ilegíveis, exigindo legendas com cores semelhantes que aumentam a carga cognitiva.
 
 > [!TIP]
-> **Substituição Recomendada:** Sempre que houver mais de 3 categorias ou quando as diferenças forem sutis, substitua o gráfico de pizza por um **gráfico de barras horizontais ordenadas** em ordem decrescente de grandeza.
+> **Substituição Recomendada:** Quando houver muitas categorias, rótulos difíceis ou proporções próximas, **considere barras horizontais ordenadas**. A decisão depende da pergunta, da área disponível e das comparações que o público precisa fazer.
 
 ---
 

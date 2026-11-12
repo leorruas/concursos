@@ -15,7 +15,7 @@ unidadeId: "CAM-LP-021"
 
 ## 1. Situação-problema: os dois filtros independentes da reescrita no Cebraspe
 
-Nas provas da Câmara dos Deputados organizadas pelo Cebraspe, cerca de um terço dos itens de Língua Portuguesa propõe a substituição de uma palavra, locução ou segmento por outro e pergunta se a alteração **mantém a correção gramatical** e/ou **preserva o sentido original (a coerência) do texto**.
+Nas provas da Câmara dos Deputados organizadas pelo Cebraspe, itens de Língua Portuguesa podem propor a substituição de uma palavra, locução ou segmento por outro e pergunta se a alteração **mantém a correção gramatical** e/ou **preserva o sentido original (a coerência) do texto**.
 
 Considere o período original extraído de um parecer legislativo:
 > **Texto original:** *"Embora o substitutivo **abarque** demandas históricas das carreiras, a comissão **rechaçou** os dispositivos que **careciam de** amparo constitucional."*
@@ -69,7 +69,7 @@ O Cebraspe formula três tipos diferentes de comando sobre substituição lexica
 
 ## 3. Vocabulário erudito de alto risco no Cebraspe ("falsos amigos internos" do português)
 
-Há um conjunto seleto de verbos, substantivos e adjetivos cultos que o Cebraspe repete em quase todos os concursos de nível superior porque induzem o candidato a pensar no sentido oposto ao verdadeiro:
+Alguns verbos, substantivos e adjetivos formais merecem atenção pelo risco de troca de sentido ou regência. Os exemplos abaixo são **didáticos** e não representam uma medição de frequência da banca:
 
 | Vocábulo Culto Cobrado | O que o senso comum pensa (ERRADO) | Significado Real Dicionarizado (CERTO) | Equivalentes Válidos na Reescrita Cebraspe |
 | :--- | :--- | :--- | :--- |
@@ -85,7 +85,7 @@ Há um conjunto seleto de verbos, substantivos e adjetivos cultos que o Cebraspe
 | **Recrudescer** | Pensa que é "diminuir / amadurecer". | **Agravar-se, tornar-se mais intenso/violento, aumentar** (crise, violência, debate). | *Agravar-se, intensificar-se, acirrar-se, exacerbar-se*. |
 | **Suscitar** | Confunde com *sucitar* ou *solucionar*. | **Fazer nascer, provocar, levantar (dúvida, debate, questão), despertar**. | *Provocar, despertar, levantar, ensejar*. |
 | **Ensejar** | Desconhece a transitividade. | **Dar ensejo a, propiciar, oferecer oportunidade, possibilitar** (VTD). | *Propiciar, possibilitar, ocasionar, permitir*. |
-| **Corroborar** | Usa com preposição *com* (*"corroborar com"*). | **Confirmar, ratificar, comprovar, dar força a** (**VTD — sem preposição *com***). | *Confirmar, ratificar, referendar, respaldar*. |
+| **Corroborar** | Usa com preposição *com* (*"corroborar com"*). | **Confirmar, ratificar, dar força a**. Em redação formal conservadora, prefere-se **corroborar a tese**, com objeto direto. A expressão *corroborar com* também aparece em uso corrente, e sua aceitabilidade precisa ser analisada pela norma exigida no comando. | *Confirmar, ratificar, referendar, respaldar*. |
 | **Coadunar(-se)** | Troca a preposição. | **Harmonizar-se, combinar, ser compatível** (rege preposição ***com***). | *Harmonizar-se com, compatibilizar-se com, ajustar-se a*. |
 | **Subsumir(-se)** | Desconhece o termo jurídico. | **Enquadrar (um caso concreto) em uma norma geral ou categoria mais ampla** (rege *a* ou *em*). | *Enquadrar-se em, incluir-se em, subordinar-se a*. |
 | **Convalidar** | Confunde com *invalidar*. | **Tornar válido ato que possuía vício sanável, suprir defeito, ratificar**. | *Validar retroativamente, sanar, ratificar*. |
@@ -182,7 +182,7 @@ Considere o trecho:
 
 **Item 5.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* A inserção da preposição **com** logo após a forma verbal **corroborando** — escrevendo-se **corroborando com a tese** — manteria a correção gramatical do período, visto que esse verbo admite dupla regência na norma culta.
 * **Gabarito:** **ERRADO**.
-* **Fundamentação:** Na norma culta cobrada pelo Cebraspe, o verbo *corroborar* (confirmar, ratificar, dar força a) é **estritamente transitivo direto (VTD)** e **não admite a preposição *com***. A construção *"corroborar com"* é vício de linguagem resultante do cruzamento indevido com o verbo *colaborar com*.
+* **Fundamentação:** Para redação formal conservadora, **corroborar a tese** é a construção direta segura. A alternativa *corroborar com a tese* existe no uso contemporâneo, mas **não basta afirmar, sem fonte e sem recorte normativo, que a banca a reprovaria em qualquer contexto**. O gabarito ERRADO é mantido como orientação **prescritiva adotada nesta nota**, e o item será refeito para indicar explicitamente o padrão de regência que se pretende testar antes de seu uso como avaliação decisiva.
 
 **Item 6.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* A substituição da forma verbal **demanda** por **carece de** manteria a correção gramatical do segmento final do texto, sem exigir qualquer outro ajuste morfossintático no complemento **negociação permanente**.
 * **Gabarito:** **CERTO**.

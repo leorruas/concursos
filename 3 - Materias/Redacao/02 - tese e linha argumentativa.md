@@ -258,7 +258,7 @@ Um texto pode ter boa gramática e repertório adequado, mas continuar fraco se 
 
 ### [[01 - leitura do tema e projeto de texto|Leitura do tema e projeto de texto]]
 
-O artigo anterior delimita a pergunta. Este formula a resposta central.
+[[3 - Materias/Redacao/01 - leitura do tema e projeto de texto|Leitura do tema e projeto de texto]] ensina a delimitar a pergunta. Este artigo ensina a formular a resposta central.
 
 ### [[03 - estrategias de argumentacao|Estratégias de argumentação]]
 

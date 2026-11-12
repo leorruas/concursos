@@ -5,7 +5,7 @@ title: "Resposta a crises: etapas, estratégias, canais e avaliação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Resposta a crises: etapas, estratégias, canais e avaliação
@@ -171,13 +171,25 @@ Quando há incidente envolvendo dados pessoais, por exemplo, as normas aplicáve
 
 **Gabarito: Certo.** Coombs destaca a proteção e as necessidades dos afetados como prioridade ética. **Mecanismo:** finalidade e ordem de prioridades.
 
-**Item 2, inédito:** “Os grupos de crise vítima, acidental e prevenível, descritos por Coombs, equivalem às fases prodrômica, aguda e crônica, respectivamente, de Fink.”
+**Item 2, inédito, reformulado em 11/11/2026:** “Na SCCT de Coombs, uma crise inicialmente classificada como acidental pode apresentar ameaça reputacional ampliada quando há histórico de crises semelhantes ou relacionamento anterior desfavorável com os públicos.”
 
-**Gabarito: Errado.** SCCT organiza **atribuição de responsabilidade**; Fink classifica **evolução da crise** em quatro fases. **Mecanismo:** transposição de estrutura entre autores.
+**Gabarito: Certo.** A responsabilidade inicialmente atribuída é apenas um dos fatores de avaliação. **Histórico de crises** e **reputação relacional anterior** podem intensificar a ameaça. **Mecanismo:** associação entre tipo inicial de crise e fatores de agravamento, sem transformá-los em prova de culpa jurídica. Este item **substitui** a antiga questão 2, cujo enunciado sobre a confusão entre os grupos da SCCT e as fases de Fink duplicava praticamente a questão 2 do artigo 54. O histórico da substituição está registrado neste comentário; ambas as versões são **exercícios autorais inéditos**, não questões reais da Cebraspe.
 
 **Item 3, inédito:** “Uma declaração inicial pode informar a interrupção já confirmada, indicar alternativas para os afetados e distinguir a causa ainda desconhecida, em conformidade com os princípios de rapidez e precisão do CERC.”
 
 **Gabarito: Certo.** Comunicar o confirmado e reconhecer a incerteza permite ação sem especulação. **Mecanismo:** aplicação contextual, sem transformar rapidez em obrigação de inventar resposta.
+
+## Auditoria cruzada de questões: Coombs, Fink e CERC (11/11/2026)
+
+O confronto com o [artigo de Coombs (2007)](https://doi.org/10.1057/palgrave.crr.1550049) confirma três elementos da **ameaça reputacional** na SCCT: **atribuição inicial de responsabilidade**, **histórico de crises semelhantes** e **reputação relacional anterior**. Os dois últimos elementos podem elevar a ameaça percebida e devem ser considerados na escolha de resposta. Isso **não é uma determinação automática de culpa jurídica**. As categorias vítima, acidental e prevenível são agrupamentos de responsabilidade, e não fases temporais.
+
+A sistematização posterior de Coombs de [*Ongoing Crisis Communication*, capítulo 1 (SAGE, 2023)](https://au.sagepub.com/sites/default/files/upm-assets/120143_book_item_120143.pdf), descreve as **quatro fases de Fink (1986)**: prodrômica, aguda, crônica e resolução. A conferência foi feita pelo texto extraído do capítulo; a captura visual de página não pôde ser concluída. O artigo **54** já exercita especificamente a troca indevida dessas fases por grupos da SCCT, motivo pelo qual o item 2 desta nota foi **substituído por outra fronteira conceitual**, relativa aos intensificadores.
+
+A [página oficial do CDC sobre comunicação em emergências (CERC)](https://www.cdc.gov/radiation-emergencies/php/communication-resources/cerc-rad.html) distingue **be first** e **be right**, orientando divulgar rapidamente fatos **confirmados**, declarar o que permanece **desconhecido** e explicar alternativas práticas para proteger as pessoas. Os seis princípios CERC são recomendações de órgão norte-americano em contexto de emergência, não normas gerais obrigatórias para todas as publicações da Câmara. **Rapidez não é autorização para especulação**.
+
+**Gabaritos desta versão, examinados individualmente:** **1 Certo**: informação instrutiva e de adaptação atende às necessidades prioritárias dos afetados; **2 Certo, substituído**: histórico e relacionamento negativo podem intensificar a ameaça de crise inicialmente acidental; **3 Certo**: declaração inicial pode comunicar o fato confirmado, orientar pessoas e reconhecer causa desconhecida. A sequência **C, C, C** é consequência dos três enunciados desta versão, não alteração silenciosa de gabarito. O item 2 anterior era **Errado** e permanece identificável acima pelo registro da substituição.
+
+**Escopo pendente:** o conjunto completo de estratégias de resposta da SCCT, a íntegra da obra de Fink, o cotejo das recomendações do CDC com o contexto jurídico brasileiro e testes de leitura, links e GitHub Pages ainda não foram certificados. **Status: Corrigido no recorte de Coombs/Fink/CERC e dos três itens, não certificado integralmente.**
 
 ## Aplicação discursiva e heurísticas
 

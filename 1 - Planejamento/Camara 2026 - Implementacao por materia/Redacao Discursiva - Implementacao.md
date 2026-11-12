@@ -58,6 +58,21 @@ Os `articleId` e `articleAliases` antigos foram preservados. O hub, o índice e 
 - TCE-MG 2026, Cargo 8, padrão definitivo: https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F38183E8ACE5B775CF445F24D52F5AB2E256333F594FE1078FD73B84B535690C.pdf
 - Câmara 2026, Processo Legislativo e Gestão, padrão definitivo: https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/D5F3CAA9B8BAEA93D7B1750A43949FF94C88F2DA3F44ADAE978062F601A94FDD.pdf
 
+## Continuidade de 11/11/2026: unidades CAM-DIS-003, 004, 006, 007 e 008
+
+**Decisões antes da implementação:** consultados novamente os três artigos originais de Redação, os quatro materiais operacionais já integrados e os artigos canônicos de Comunicação 61 (planejamento e diagnóstico), 70 (transparência), 78 (art. 37, § 1º) e 82 (briefing), além da nota de parecer legislativo de Direito Constitucional. A regra de comparação existe no artigo de argumentação 03, mas falta uma resposta comparativa de 20 linhas com fronteiras e autocorreção; **CAM-DIS-003 recebe artigo autônomo 08**. As regras jurídicas são canônicas nas notas de Comunicação/Direito, mas a transformação fato → norma → condição → conclusão é operação escrita própria; **CAM-DIS-004 recebe artigo autônomo 09**. Diagnóstico, plano e justificativa/indicadores são aplicações da mesma peça, com teoria já consolidada em Comunicação; **CAM-DIS-006, 007 e 008 aprofundam o artigo de peça 06**, com seções, situações de prova, comandos, métodos, exemplos, contraexemplos e exercícios. Não foram criadas três notas redundantes.
+
+| Unidade | Alteração | Commit |
+| --- | --- | --- |
+| CAM-DIS-003 | `3 - Materias/Redacao/08 - resposta comparativa e fronteiras conceituais.md`, `art-f48a60de2c874a91` | `6992a5b2d7a9629c5593028eb03e95406870ada6` |
+| CAM-DIS-004 | `3 - Materias/Redacao/09 - resposta normativa aplicada em 20 linhas.md`, `art-a64d0f28e3794c1b` | `4b809248204505cbde57057989a42fde1ca239d2` |
+| CAM-DIS-006 a 008 | Novas oficinas no artigo 06 (`art-9e73c4d680ae4219` mantido) | `07752d3c1b8bb165f0c1254505dfa4e3d71ba904` |
+| Integração | Hub de Redação, índice global e catálogo v2 da Câmara, com dois IDs adicionais | `a267af03a006e052120f5f554aad668e4b59b069`; `dbb164b816f2b0dc8570851dd90982461390d8b2`; `c9d639e314f194d66e30a8fa747fd86c3b4f3f94` |
+
+**Fonte oficial novamente conferida:** [página do concurso e retificações da Câmara](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades), [Edital nº 1/2026, itens 9.1 e 9.8](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades), inclusive leitura visual do PDF, e [TCE-MG 2026, padrão definitivo das questões 1 e 2](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F38183E8ACE5B775CF445F24D52F5AB2E256333F594FE1078FD73B84B535690C.pdf), com inspeção visual da página da questão 2. Os exemplos novos são **didáticos** e não representam padrões, temas previstos ou notas oficiais.
+
+**Próximas verificações:** executar testes do repositório, conferir o Pages, aferir manualmente o espaço de linha e buscar pares completos de caderno oficial + espelho definitivo. A tentativa de abrir pelo navegador as páginas dos workflows `validar-publico.yml` e `pages.yml` não retornou resultado consultável; portanto **não há confirmação de CI ou deploy** nesta etapa. Registros de desempenho individual não foram criados.
+
 ## Próxima etapa
 
-Conferir CI e Pages; resolver falhas reais se houver. Depois confrontar candidatos CAM-DIS-003, 004 e 006 com artigos já existentes nas matérias compartilhadas, documentando decisão de reaproveitar, aprofundar ou criar, em vez de inflar a biblioteca. Manter **dois treinos semanais de produção**, correção por quesitos e reteste espaçado; resultados pessoais exclusivamente no cofre privado.
+Conferir CI e Pages; resolver falhas reais se houver. Aprofundamentos CAM-DIS-003 a 008 foram implementados com decisões registradas; revisão de evidência de prova, testes e navegação continuam pendentes. Manter **dois treinos semanais de produção**, correção por quesitos e reteste espaçado; resultados pessoais exclusivamente no cofre privado.

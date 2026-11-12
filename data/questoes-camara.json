@@ -6900,7 +6900,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-f0c83d716b4e295a#Etapas: do planejamento à entrega verificável"
       ],
@@ -6910,7 +6910,8 @@
       },
       "statement": "Reservar a locação e confirmar a disponibilidade dos participantes antes de gravar são atividades de pré-produção.",
       "correctAnswer": "C",
-      "explanation": "As duas ações preparam os recursos e as condições da gravação."
+      "explanation": "As duas ações preparam os recursos e as condições da gravação.",
+      "reviewEvidence": "Cotejo editorial com Etapas: do planejamento à entrega verificável do artigo 92 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-qualidade-tecnica-e-mensagem",
@@ -6927,7 +6928,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-f0c83d716b4e295a#Três qualidades diferentes: técnica, comunicacional e institucional"
       ],
@@ -6937,7 +6938,8 @@
       },
       "statement": "Se os arquivos de áudio atendem às especificações do veículo, a qualidade comunicacional da peça está comprovada.",
       "correctAnswer": "E",
-      "explanation": "A conformidade de áudio é técnica. É necessário verificar se a mensagem é inteligível e adequada ao público e ao objetivo."
+      "explanation": "A conformidade de áudio é técnica. É necessário verificar se a mensagem é inteligível e adequada ao público e ao objetivo.",
+      "reviewEvidence": "Cotejo editorial com Três qualidades diferentes: técnica, comunicacional e institucional do artigo 92 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-legenda-sinal-sonoro",
@@ -6954,7 +6956,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-f0c83d716b4e295a#Acessibilidade como requisito de produção"
       ],
@@ -6964,7 +6966,8 @@
       },
       "statement": "Em um vídeo sem indicação visual de encerramento, se uma sirene informa o término de uma votação, a revisão da legenda deve verificar se essa informação sonora foi representada.",
       "correctAnswer": "C",
-      "explanation": "Quando o som veicula informação essencial, transcrever apenas as falas pode deixar o destinatário sem parte do conteúdo."
+      "explanation": "Quando o som veicula informação essencial, transcrever apenas as falas pode deixar o destinatário sem parte do conteúdo.",
+      "reviewEvidence": "Cotejo editorial com Acessibilidade como requisito de produção do artigo 92 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-nome-de-arquivo-e-identidade",
@@ -6981,7 +6984,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-f0c83d716b4e295a#Controle de versões e alterações"
       ],
@@ -6991,7 +6994,8 @@
       },
       "statement": "Dois arquivos com o mesmo nome preservam automaticamente a identidade da versão, mesmo que seus conteúdos tenham sido modificados.",
       "correctAnswer": "E",
-      "explanation": "O nome pode permanecer após a edição. A equipe precisa controlar a revisão efetiva do conteúdo e a respectiva aprovação."
+      "explanation": "O nome pode permanecer após a edição. A equipe precisa controlar a revisão efetiva do conteúdo e a respectiva aprovação.",
+      "reviewEvidence": "Cotejo editorial com Controle de versões e alterações do artigo 92 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-revalidacao-por-tipo-de-mudanca",
@@ -7003,22 +7007,23 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 1 / produção de campanhas",
       "articleId": "art-f0c83d716b4e295a",
-      "conceptId": "revalidacao-por-tipo-de-mudanca",
-      "mechanism": "revalidacao-por-tipo-de-mudanca",
+      "conceptId": "entrega-multiplataforma-e-identidade",
+      "mechanism": "rastrear-arquivos-de-destino",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-f0c83d716b4e295a#Checagem, revisão, aprovação e autorização"
+        "article:art-f0c83d716b4e295a#Controle de versões e alterações"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle.md",
-        "section": "Checagem, revisão, aprovação e autorização"
+        "section": "Controle de versões e alterações"
       },
-      "statement": "Em uma peça já aprovada, substituir o endereço de inscrição por outro que altera o procedimento do cidadão requer rever o conteúdo e a versão liberada, mesmo que o texto ocupe exatamente o mesmo espaço.",
-      "correctAnswer": "C",
-      "explanation": "A mudança é substantiva e afeta a ação do público. A preservação do layout não transfere a aprovação para a nova versão."
+      "statement": "Duas emissoras recebem arquivos com o mesmo conteúdo, mas codificados separadamente. Para comprovar qual versão foi entregue a cada emissora, basta registrar a aprovação do roteiro comum.",
+      "correctAnswer": "E",
+      "explanation": "O roteiro aprovado identifica o conteúdo previsto. O controle de entrega precisa identificar o arquivo específico e o destinatário, pois codificações e entregas são eventos distintos.",
+      "reviewEvidence": "Cotejo editorial com Controle de versões e alterações do artigo 92 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-nota-de-entrega-e-veiculacao",
@@ -7035,7 +7040,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-f0c83d716b4e295a#Evidências de execução versus efeitos da campanha"
       ],
@@ -7045,7 +7050,8 @@
       },
       "statement": "O aceite formal do arquivo final e sua conformidade com as especificações bastam para demonstrar que o vídeo foi veiculado na janela contratada.",
       "correctAnswer": "E",
-      "explanation": "Esses documentos sustentam a entrega técnica. A veiculação na janela requer evidência própria, como registro datado de exibição."
+      "explanation": "Esses documentos sustentam a entrega técnica. A veiculação na janela requer evidência própria, como registro datado de exibição.",
+      "reviewEvidence": "Cotejo editorial com Evidências de execução versus efeitos da campanha do artigo 92 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-checagem-apos-exportacao",
@@ -7062,7 +7068,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-f0c83d716b4e295a#Controle de versões e alterações"
       ],
@@ -7072,7 +7078,8 @@
       },
       "statement": "Mesmo após a conferência da legenda no projeto de edição, é pertinente verificar a versão exportada quando a conversão pode alterar a sincronização.",
       "correctAnswer": "C",
-      "explanation": "A checagem do projeto não verifica o efeito da exportação. A conformidade deve alcançar o arquivo distribuído."
+      "explanation": "A checagem do projeto não verifica o efeito da exportação. A conformidade deve alcançar o arquivo distribuído.",
+      "reviewEvidence": "Cotejo editorial com Controle de versões e alterações do artigo 92 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-versao-execucao-efeito",
@@ -7087,9 +7094,9 @@
       "conceptId": "versao-execucao-efeito",
       "mechanism": "versao-execucao-efeito",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "muito-dificil",
-      "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-f0c83d716b4e295a#Evidências de execução versus efeitos da campanha"
       ],
@@ -7099,7 +7106,8 @@
       },
       "statement": "A versão liberada tinha um endereço correto. O registro da plataforma demonstra que uma versão anterior foi publicada com o endereço errado, mas as inscrições aumentaram no período. O aumento permite registrar que a versão liberada foi veiculada conforme a aprovação.",
       "correctAnswer": "E",
-      "explanation": "O registro indica execução divergente. Uma mudança nas inscrições não comprova qual arquivo circulou nem corrige a divergência."
+      "explanation": "O registro indica execução divergente. Uma mudança nas inscrições não comprova qual arquivo circulou nem corrige a divergência.",
+      "reviewEvidence": "Cotejo editorial com Evidências de execução versus efeitos da campanha do artigo 92 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-chamada-acionavel",
@@ -7116,7 +7124,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-72e4a0d9c3f6185b#Anatomia de uma peça: funções textuais diferentes"
       ],
@@ -7126,7 +7134,8 @@
       },
       "statement": "Em uma peça informativa, a frase “Consulte a pauta da próxima reunião no portal” exerce função de chamada para ação.",
       "correctAnswer": "C",
-      "explanation": "A frase explicita uma ação que o destinatário pode realizar e indica onde executá-la."
+      "explanation": "A frase explicita uma ação que o destinatário pode realizar e indica onde executá-la.",
+      "reviewEvidence": "Cotejo editorial com Anatomia de uma peça: funções textuais diferentes do artigo 93 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-precisao-da-condicao",
@@ -7143,7 +7152,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-72e4a0d9c3f6185b#Técnica: clareza, concisão, precisão e hierarquia"
       ],
@@ -7153,7 +7162,8 @@
       },
       "statement": "Trocar “Inscrições abertas até as 18h de terça-feira” por “Inscrições abertas até terça-feira” preserva a precisão do prazo porque mantém a data de encerramento.",
       "correctAnswer": "E",
-      "explanation": "A substituição omite a hora-limite. Uma pessoa pode interpretar que ainda consegue se inscrever depois das 18h."
+      "explanation": "A substituição omite a hora-limite. Uma pessoa pode interpretar que ainda consegue se inscrever depois das 18h.",
+      "reviewEvidence": "Cotejo editorial com Técnica: clareza, concisão, precisão e hierarquia do artigo 93 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-referencia-auditiva",
@@ -7170,7 +7180,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-72e4a0d9c3f6185b#Adaptação por suporte: o mesmo objetivo, textos diferentes"
       ],
@@ -7180,7 +7190,8 @@
       },
       "statement": "Ao transformar uma instrução de cartaz em spot de rádio, convém substituir “acesse pelo código ao lado” por um caminho que o ouvinte possa identificar pela fala.",
       "correctAnswer": "C",
-      "explanation": "A referência espacial depende de um elemento visual ausente no rádio. O caminho precisa ser recuperável pelo canal auditivo."
+      "explanation": "A referência espacial depende de um elemento visual ausente no rádio. O caminho precisa ser recuperável pelo canal auditivo.",
+      "reviewEvidence": "Cotejo editorial com Adaptação por suporte: o mesmo objetivo, textos diferentes do artigo 93 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-adaptacao-e-elegibilidade",
@@ -7197,7 +7208,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-72e4a0d9c3f6185b#Técnica de adaptação: transcriação e consistência"
       ],
@@ -7207,7 +7218,8 @@
       },
       "statement": "Se as vagas são reservadas a inscritos previamente, uma versão para rede social pode afirmar “qualquer pessoa pode comparecer sem inscrição” por manter o tema da peça original.",
       "correctAnswer": "E",
-      "explanation": "Adaptar a forma não autoriza alterar as condições de acesso. O texto proposto muda a elegibilidade."
+      "explanation": "Adaptar a forma não autoriza alterar as condições de acesso. O texto proposto muda a elegibilidade.",
+      "reviewEvidence": "Cotejo editorial com Técnica de adaptação: transcriação e consistência do artigo 93 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-teste-de-execucao",
@@ -7224,7 +7236,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-72e4a0d9c3f6185b#Critérios de revisão e teste redacional"
       ],
@@ -7234,7 +7246,8 @@
       },
       "statement": "Em um teste de duas chamadas, maior preferência declarada pela primeira e maior taxa de localização correta do formulário pela segunda sustentam conclusões diferentes sobre as peças.",
       "correctAnswer": "C",
-      "explanation": "Preferência declarada e sucesso observado na tarefa medem aspectos distintos. O objetivo da chamada orienta qual evidência priorizar."
+      "explanation": "Preferência declarada e sucesso observado na tarefa medem aspectos distintos. O objetivo da chamada orienta qual evidência priorizar.",
+      "reviewEvidence": "Cotejo editorial com Critérios de revisão e teste redacional do artigo 93 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-expressividade-e-promessa",
@@ -7251,7 +7264,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-72e4a0d9c3f6185b#Funções das frases e dos recursos retóricos"
       ],
@@ -7261,7 +7274,8 @@
       },
       "statement": "Para promover o acompanhamento de audiências, afirmar “sua sugestão será incorporada ao relatório” é apenas um apelo persuasivo quando o procedimento garante a análise, mas não a incorporação.",
       "correctAnswer": "E",
-      "explanation": "A frase promete um resultado que não decorre do procedimento. Seria possível convidar ao envio com a garantia efetivamente prevista de análise."
+      "explanation": "A frase promete um resultado que não decorre do procedimento. Seria possível convidar ao envio com a garantia efetivamente prevista de análise.",
+      "reviewEvidence": "Cotejo editorial com Funções das frases e dos recursos retóricos do artigo 93 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-hierarquia-e-risco-de-erro",
@@ -7278,7 +7292,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-72e4a0d9c3f6185b#Técnica: clareza, concisão, precisão e hierarquia"
       ],
@@ -7288,7 +7302,8 @@
       },
       "statement": "Se a audiência ocorre em um dia e o prazo de inscrição termina na véspera, dar destaque visual a ambos os prazos com rótulos distintos reduz o risco de o leitor usar a data do evento como prazo de inscrição.",
       "correctAnswer": "C",
-      "explanation": "A hierarquia diferencia duas datas que têm consequências diferentes. Destacar só a data do evento deixa a condição operacional menos visível."
+      "explanation": "A hierarquia diferencia duas datas que têm consequências diferentes. Destacar só a data do evento deixa a condição operacional menos visível.",
+      "reviewEvidence": "Cotejo editorial com Técnica: clareza, concisão, precisão e hierarquia do artigo 93 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-coerencia-com-jornada",
@@ -7303,9 +7318,9 @@
       "conceptId": "coerencia-com-jornada",
       "mechanism": "coerencia-com-jornada",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "muito-dificil",
-      "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-72e4a0d9c3f6185b#Técnica de adaptação: transcriação e consistência"
       ],
@@ -7315,7 +7330,8 @@
       },
       "statement": "Uma peça de rua anuncia inscrição por telefone, mas o atendimento telefônico apenas esclarece dúvidas e o formulário no portal é obrigatório. Mesmo que o atendente indique o portal, a chamada é fiel ao procedimento.",
       "correctAnswer": "E",
-      "explanation": "A promessa atribui ao telefone uma função que ele não executa. A análise exige acompanhar a jornada inteira e distinguir orientação de inscrição efetiva."
+      "explanation": "A promessa atribui ao telefone uma função que ele não executa. A análise exige acompanhar a jornada inteira e distinguir orientação de inscrição efetiva.",
+      "reviewEvidence": "Cotejo editorial com Técnica de adaptação: transcriação e consistência do artigo 93 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-monitoramento-recorrente",
@@ -7332,7 +7348,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-69b2c70e81f34a5d#Núcleo do conceito"
       ],
@@ -7342,7 +7358,8 @@
       },
       "statement": "Acompanhar diariamente erros de carregamento durante uma campanha para detectar falhas é uma atividade de monitoramento.",
       "correctAnswer": "C",
-      "explanation": "O acompanhamento repetido fornece alertas durante a execução."
+      "explanation": "O acompanhamento repetido fornece alertas durante a execução.",
+      "reviewEvidence": "Cotejo editorial com Núcleo do conceito do artigo 94 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-producao-e-out-take",
@@ -7359,7 +7376,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-69b2c70e81f34a5d#AMEC: estrutura interna do modelo integrado"
       ],
@@ -7369,7 +7386,8 @@
       },
       "statement": "A contagem de vídeos publicados em uma campanha é um out-take, pois cada publicação representa uma reação do público.",
       "correctAnswer": "E",
-      "explanation": "Publicações são entregas da campanha. Uma reação exige observar o público, por exemplo, pela lembrança da mensagem."
+      "explanation": "Publicações são entregas da campanha. Uma reação exige observar o público, por exemplo, pela lembrança da mensagem.",
+      "reviewEvidence": "Cotejo editorial com AMEC: estrutura interna do modelo integrado do artigo 94 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-comparabilidade-do-instrumento",
@@ -7386,7 +7404,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-69b2c70e81f34a5d#Linhas de base, metas e comparação"
       ],
@@ -7396,7 +7414,8 @@
       },
       "statement": "Comparar uma pesquisa de múltipla escolha na linha de base com uma pergunta aberta na medição final pode confundir mudança de conhecimento com mudança no instrumento.",
       "correctAnswer": "C",
-      "explanation": "Reconhecer uma alternativa e formular espontaneamente uma resposta são tarefas distintas. A comparação exige medidas suficientemente equivalentes."
+      "explanation": "Reconhecer uma alternativa e formular espontaneamente uma resposta são tarefas distintas. A comparação exige medidas suficientemente equivalentes.",
+      "reviewEvidence": "Cotejo editorial com Linhas de base, metas e comparação do artigo 94 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-pico-e-diagnostico",
@@ -7413,7 +7432,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-69b2c70e81f34a5d#Monitoramento operacional: do alerta à decisão"
       ],
@@ -7423,7 +7442,8 @@
       },
       "statement": "Se o painel acusa queda de tráfego logo após uma atualização da etiqueta de medição, o primeiro alerta basta para concluir que as visitas reais diminuíram.",
       "correctAnswer": "E",
-      "explanation": "A alteração pode ter interrompido o registro sem alterar o tráfego. É preciso verificar a coleta e fontes de comparação."
+      "explanation": "A alteração pode ter interrompido o registro sem alterar o tráfego. É preciso verificar a coleta e fontes de comparação.",
+      "reviewEvidence": "Cotejo editorial com Monitoramento operacional: do alerta à decisão do artigo 94 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-custo-unitario-e-meta",
@@ -7440,7 +7460,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-69b2c70e81f34a5d#Eficiência, eficácia, efetividade e aprendizagem"
       ],
@@ -7450,7 +7470,8 @@
       },
       "statement": "Uma ação prevista para gerar 500 inscrições válidas com R$ 5 mil gerou 300 com R$ 2.400. O custo por inscrição ficou abaixo do previsto, embora a meta de inscrições não tenha sido alcançada.",
       "correctAnswer": "C",
-      "explanation": "O custo observado é R$ 8 e o previsto era R$ 10. O desempenho unitário melhora enquanto a quantidade fica aquém da meta."
+      "explanation": "O custo observado é R$ 8 e o previsto era R$ 10. O desempenho unitário melhora enquanto a quantidade fica aquém da meta.",
+      "reviewEvidence": "Cotejo editorial com Eficiência, eficácia, efetividade e aprendizagem do artigo 94 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-representatividade-e-autoselecao",
@@ -7467,7 +7488,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-69b2c70e81f34a5d#Pesquisa de recepção: métodos e fronteiras"
       ],
@@ -7477,7 +7498,8 @@
       },
       "statement": "Uma enquete voluntária respondida apenas por quem concluiu uma inscrição estima a taxa de compreensão entre todos os visitantes, desde que obtenha milhares de respostas.",
       "correctAnswer": "E",
-      "explanation": "Há seleção por conclusão e pela decisão de responder. Uma amostra numerosa não elimina a exclusão de quem abandonou nem a autoseleção."
+      "explanation": "Há seleção por conclusão e pela decisão de responder. Uma amostra numerosa não elimina a exclusão de quem abandonou nem a autoseleção.",
+      "reviewEvidence": "Cotejo editorial com Pesquisa de recepção: métodos e fronteiras do artigo 94 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-taxa-e-denominador",
@@ -7494,7 +7516,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-69b2c70e81f34a5d#Indicadores por etapa: o mesmo painel não responde todas as perguntas"
       ],
@@ -7504,7 +7526,8 @@
       },
       "statement": "Se as inscrições válidas passaram de 90 para 100 e as visitas elegíveis de 300 para 500, o total de inscrições cresceu e a taxa de inscrição por visita caiu.",
       "correctAnswer": "C",
-      "explanation": "O total aumenta em 10, enquanto a taxa passa de 30% a 20%. Contagem e conversão respondem perguntas diferentes."
+      "explanation": "O total aumenta em 10, enquanto a taxa passa de 30% a 20%. Contagem e conversão respondem perguntas diferentes.",
+      "reviewEvidence": "Cotejo editorial com Indicadores por etapa: o mesmo painel não responde todas as perguntas do artigo 94 na base 9a0d80b6 e comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-comparacao-contaminada",
@@ -7521,7 +7544,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-69b2c70e81f34a5d#Causalidade: monitorar, estimar e atribuir"
       ],
@@ -7531,7 +7554,8 @@
       },
       "statement": "Após o lançamento, a participação cresceu 8 pontos na região exposta e 3 em uma região de comparação. Como a segunda também recebeu parte da campanha, a diferença de 5 pontos identifica exatamente o efeito de exposição em relação à ausência de campanha.",
       "correctAnswer": "E",
-      "explanation": "A segunda região não representa ausência de exposição. Para interpretar a diferença causalmente é preciso, entre outros pressupostos, conhecer a contaminação e a comparabilidade das tendências."
+      "explanation": "A segunda região não representa ausência de exposição. Para interpretar a diferença causalmente é preciso, entre outros pressupostos, conhecer a contaminação e a comparabilidade das tendências.",
+      "reviewEvidence": "Cotejo editorial com Causalidade: monitorar, estimar e atribuir do artigo 94 na base 9a0d80b6 e comparação com os exercícios do artigo."
     }
   ]
 }

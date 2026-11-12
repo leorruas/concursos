@@ -72,7 +72,7 @@ Antes da coleta, definir **população-alvo**, grupos relevantes, experiência p
 
 A divisão por **públicos** permite identificar avaliações divergentes: servidores, jornalistas, pesquisadores, usuários de portais e cidadãos em geral não são grupos intercambiáveis. Uma média global favorável pode ocultar avaliações negativas concentradas em públicos que enfrentam maiores barreiras de acesso.
 
-**Pesquisa de imagem não deve selecionar participantes apenas por conveniência e depois alegar representatividade geral.** A nota 103 detalha probabilidades de seleção, pesos e limitações. Entrevistas qualitativas podem revelar sentidos e mecanismos, mas a frequência de falas numa pequena seleção intencional não autoriza percentuais populacionais.
+**Pesquisa de imagem não deve selecionar participantes apenas por conveniência e depois alegar representatividade geral.** O artigo [[3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao|Pesquisa de mercado: desenho, amostragem e interpretação]] detalha probabilidades de seleção, pesos e limitações. Entrevistas qualitativas podem revelar sentidos e mecanismos, mas a frequência de falas numa pequena seleção intencional não autoriza percentuais populacionais.
 
 ## Monitoramento de mídia e análise de sentimento: o objeto observado
 

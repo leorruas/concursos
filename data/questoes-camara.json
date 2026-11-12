@@ -18292,6 +18292,114 @@
       "statement": "A volta do atendimento ao nível habitual de capacidade basta para concluir que as pessoas afetadas recuperaram a confiança na instituição.",
       "correctAnswer": "E",
       "explanation": "A capacidade de atendimento mede recuperação operacional. A recuperação de confiança exige evidência sobre a avaliação das pessoas afetadas."
+    },
+    {
+      "id": "cam-cs-espelhamento-com-retorno-do-publico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "espelhamento-com-retorno-do-publico",
+      "mechanism": "espelhamento-com-retorno-do-publico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
+      },
+      "statement": "Uma instituição passa a questionar como define seu papel depois que os usuários descrevem sua atuação de modo inesperado. No modelo de Hatch e Schultz, incorporar essa imagem externa à discussão sobre identidade exemplifica espelhamento.",
+      "correctAnswer": "C",
+      "explanation": "No espelhamento, imagens externas alimentam a compreensão da organização sobre quem ela é."
+    },
+    {
+      "id": "cam-cs-expressao-cultural-sem-campanha",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "expressao-cultural-sem-campanha",
+      "mechanism": "expressao-cultural-sem-campanha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
+      },
+      "statement": "Uma rotina em que servidores consultam colegas de outras áreas antes de decidir pode expressar um entendimento cultural de cooperação, mesmo sem ter sido criada para uma campanha institucional.",
+      "correctAnswer": "C",
+      "explanation": "No processo de expressão, práticas e símbolos tornam visíveis entendimentos culturais. A expressão não depende de uma peça promocional."
+    },
+    {
+      "id": "cam-cs-reflexao-sobre-identidade-e-praticas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "reflexao-sobre-identidade-e-praticas",
+      "mechanism": "reflexao-sobre-identidade-e-praticas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
+      },
+      "statement": "Se a discussão sobre o papel da instituição leva equipes a rever pressupostos de trabalho, o modelo de Hatch e Schultz classifica o movimento exclusivamente como produção de impressões externas.",
+      "correctAnswer": "E",
+      "explanation": "O caso descreve a reflexão sobre identidade influenciando a cultura. Produzir impressões é o movimento da identidade em direção às imagens externas."
+    },
+    {
+      "id": "cam-cs-impressao-pretendida-e-recepcao-incerta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "impressao-pretendida-e-recepcao-incerta",
+      "mechanism": "impressao-pretendida-e-recepcao-incerta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
+      },
+      "statement": "Uma peça apresenta a organização como aberta ao diálogo. Sua publicação garante que a imagem formada pelos usuários reproduza essa identidade.",
+      "correctAnswer": "E",
+      "explanation": "A expressão pública da identidade pode influenciar impressões. A imagem também depende da interpretação e da experiência dos públicos."
     }
   ]
 }

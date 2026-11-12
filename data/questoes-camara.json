@@ -27440,6 +27440,222 @@
       "statement": "Em uma campanha para divulgar um serviço, reduzir o tamanho do nome da autoridade basta para sanar eventual promoção pessoal quando o retrato e o slogan continuam atribuindo o serviço a ela.",
       "correctAnswer": "E",
       "explanation": "A avaliação alcança a combinação de imagem, slogan e atribuição de mérito. O tamanho do nome é apenas um elemento da composição."
+    },
+    {
+      "id": "cam-cs-pub-terceirizacao-e-publicidade-do-orgao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "terceirizacao-e-publicidade-do-orgao",
+      "mechanism": "terceirizacao-e-publicidade-do-orgao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Procedimento de avaliação de uma peça institucional"
+      },
+      "statement": "Uma campanha sobre serviços da Câmara, encomendada por uma unidade institucional e produzida por agência contratada, continua sujeita à análise da finalidade da publicidade do órgão.",
+      "correctAnswer": "C",
+      "explanation": "A agência executa a produção. A contratação institucional e o objeto da campanha permanecem relevantes para aplicar o art. 37, § 1º."
+    },
+    {
+      "id": "cam-cs-pub-ausencia-de-compra-de-midia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "ausencia-de-compra-de-midia",
+      "mechanism": "ausencia-de-compra-de-midia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Procedimento de avaliação de uma peça institucional"
+      },
+      "statement": "Se um órgão publica gratuitamente em seu próprio canal uma campanha sobre obras públicas, a ausência de compra de espaço publicitário torna inaplicável o art. 37, § 1º.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo disciplina a publicidade de obras e outros objetos públicos. Comprar espaço de mídia não é condição para sua incidência."
+    },
+    {
+      "id": "cam-cs-pub-entrevistado-nao-e-contratante",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "entrevistado-nao-e-contratante",
+      "mechanism": "entrevistado-nao-e-contratante",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Comunicação institucional da Câmara e pluralismo político"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Comunicação institucional da Câmara e pluralismo político"
+      },
+      "statement": "A presença de um deputado entrevistado em vídeo produzido pela comunicação institucional não basta para enquadrar o vídeo na exceção de criação ou contratação direta por parlamentar.",
+      "correctAnswer": "C",
+      "explanation": "A exceção do art. 1º, parágrafo único, considera quem criou ou contratou o produto. Participar como fonte da entrevista é uma função diferente."
+    },
+    {
+      "id": "cam-cs-pub-excecao-interna-e-recurso-publico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "excecao-interna-e-recurso-publico",
+      "mechanism": "excecao-interna-e-recurso-publico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Comunicação institucional da Câmara e pluralismo político"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Comunicação institucional da Câmara e pluralismo político"
+      },
+      "statement": "Comprovar a contratação direta de uma peça por liderança partidária encerra toda análise sobre eventual promoção pessoal com recursos institucionais.",
+      "correctAnswer": "E",
+      "explanation": "A contratação pode definir a incidência da política interna específica. A análise de recursos, finalidade e outras normas aplicáveis permanece necessária."
+    },
+    {
+      "id": "cam-cs-pub-versao-publicada-com-patrocinio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "versao-publicada-com-patrocinio",
+      "mechanism": "versao-publicada-com-patrocinio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Procedimento de avaliação de uma peça institucional"
+      },
+      "statement": "Se a versão distribuída em rede social difere da peça aprovada, examinar a versão que efetivamente chegou ao público é pertinente para avaliar o enquadramento da publicidade.",
+      "correctAnswer": "C",
+      "explanation": "O sentido pode mudar entre versões. O objeto da análise inclui texto, imagem e contexto da peça efetivamente divulgada."
+    },
+    {
+      "id": "cam-cs-pub-identidade-visual-sem-emissor-identificado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "identidade-visual-sem-emissor-identificado",
+      "mechanism": "identidade-visual-sem-emissor-identificado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Procedimento de avaliação de uma peça institucional"
+      },
+      "statement": "A mera presença da marca gráfica da Câmara em uma imagem encaminhada por terceiros comprova que o produto foi criado ou contratado diretamente pela área institucional.",
+      "correctAnswer": "E",
+      "explanation": "A marca sozinha não comprova a origem. Expediente, registro de contratação e canal de publicação ajudam a determinar responsabilidade."
+    },
+    {
+      "id": "cam-cs-pub-orientacao-e-educacao-na-mesma-peca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "orientacao-e-educacao-na-mesma-peca",
+      "mechanism": "orientacao-e-educacao-na-mesma-peca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Três finalidades autorizadas: fronteiras internas"
+      },
+      "statement": "Uma peça pode explicar a função de uma audiência pública e, no mesmo material, orientar o cidadão a se inscrever para participar.",
+      "correctAnswer": "C",
+      "explanation": "A explicação desenvolve compreensão e a instrução orienta uma ação. A Constituição admite essas finalidades sem torná-las mutuamente exclusivas."
+    },
+    {
+      "id": "cam-cs-pub-declaracao-de-finalidade-na-aprovacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "declaracao-de-finalidade-na-aprovacao",
+      "mechanism": "declaracao-de-finalidade-na-aprovacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Procedimento de avaliação de uma peça institucional"
+      },
+      "statement": "Registrar no processo de aprovação que a peça tem caráter informativo basta para demonstrar sua finalidade, ainda que a versão divulgada não contenha informação sobre o ato ou serviço anunciado.",
+      "correctAnswer": "E",
+      "explanation": "A declaração no processo é um elemento de análise. A finalidade também deve ser aferida pelo conteúdo e pelo efeito da versão que foi divulgada."
     }
   ]
 }

@@ -111,4 +111,4 @@ O histórico do vault mostra recorrência exatamente nessa fronteira: `fazer/hav
 - Manual de Comunicação do Senado Federal — verbetes `Anexo` e `Mesmo`.
 
 ---
-**Origem no histórico:** [[3 - Materias/Portugues/Avancos|Avanços e desempenho em Português]].
+**Origem no histórico:** registro individual de estudos mantido no cofre privado.

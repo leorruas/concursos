@@ -137,3 +137,11 @@ Este checkpoint corresponde à autorização de implementar o backlog, com inter
 **Limites:** os quatro itens CAM-AP acima estão **corrigidos** com conferência de gravação, sem selo de artigo integralmente validado. Não foram reexaminadas todas as frases dos artigos, nem inspecionadas visualmente as rotas publicadas. Não houve alteração de hub, índice ou catálogo, porque os três arquivos mantiveram suas identidades e vínculos. A publicação no GitHub Pages deve ser confirmada em um workflow de commit **posterior** a `ca0fe5baaac89395cdcf6fb789ed0675a102e2c1`.
 
 **Próxima retomada:** verificar deploy após os commits desta rodada, conferir questões e ligações geradas no Pages; se encontradas inconsistências, corrigir somente os artigos AP01–AP07. Nenhum candidato novo necessita de criação automática antes dessa conferência, pois a arquitetura possui cobertura canônica dos quinze itens.
+
+## Checkpoint: exceções legais de transparência ativa (11/11/2026)
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| AP03, `03 - transparencia acesso a informacao e protecao de dados.md` | Lacuna no art. 8º, § 4º, e atualização pela Lei 15.141/2025 | Exceção para municípios com até 10 mil habitantes e preservação de execução orçamentária em tempo real; art. 8º-A para certos serviços sociais autônomos e informações sobre empregados; contraste com OS/OSCIP e 3 itens C/E inéditos | `cda67fe51f7daed8321dad5198db8d5e08835a69` | Relido remotamente o SHA `2dbdee6f6c125d69a32ea6c5a1f3275b4ac75a9c`; seção, três gabaritos e alias canônico presentes; cotejado [texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html) | **corrigido** |
+
+**Controle técnico:** após os lotes anteriores, releitura dos artigos AP01, AP02 e AP03 confirmou preservação de `articleId` e `articleAliases` e presença de todas as seções novas. O catálogo e o índice não foram alterados porque não houve novos arquivos nem IDs. O status **validado** está reservado a conferência completa de norma, itens e testes do commit; o estado presente é **corrigido**. Deploy posterior ao commit do artigo ainda precisa de confirmação.

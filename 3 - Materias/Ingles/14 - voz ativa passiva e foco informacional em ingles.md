@@ -196,6 +196,40 @@ Verbos acompanhados de preposição fixa (*phrasal verbs* e *prepositional verbs
 
 ---
 
+## 4.1. Transformações progressivas: evento, agente e finalidade
+
+**Caso original autoral:** *The research team is reviewing the applications to identify incomplete records.*
+
+O núcleo é uma ação em curso (*is reviewing*), com agente (*the research team*), paciente (*the applications*) e finalidade (*to identify incomplete records*).
+
+**Transformação fiel:** *The applications are being reviewed by the research team to identify incomplete records.* A passiva mantém aspecto progressivo, agente e finalidade, alterando o elemento em foco.
+
+**Transformação incompleta:** *The applications are being reviewed by the research team.* A frase é correta, mas omite a finalidade. Em um item que exija preservar **todas as informações explícitas**, essa perda importa.
+
+**Transformação com mudança temporal:** *The applications were reviewed by the research team to identify incomplete records.* O *simple past* não preserva o aspecto em andamento que o *present progressive* expressava.
+
+**Omissão legítima em outro comando:** *The applications are being reviewed to identify incomplete records.* O agente deixa de ser expresso. Se o item pedir apenas uma passiva gramatical que mantenha ação e finalidade, isso pode ser suficiente; se exigir preservação de todos os participantes, não.
+
+**Item adicional A (inédito, C/E).** The full passive transformation preserves the progressive aspect and the purpose of the review.
+
+**Gabarito: Certo.** *Are being reviewed* preserva o aspecto; *to identify incomplete records* mantém o propósito.
+
+**Item adicional B (inédito, C/E).** The incomplete transformation is ungrammatical because it omits the purpose clause.
+
+**Gabarito: Errado.** Omitir um adjunto de finalidade pode reduzir a informação, mas não torna a frase agramatical.
+
+**Item adicional C (inédito, C/E).** The simple past transformation explicitly presents the review as an ongoing action at the moment of speaking.
+
+**Gabarito: Errado.** *Were reviewed* situa a ação no passado sem o mesmo aspecto progressivo.
+
+**Item adicional D (inédito, C/E).** A passive sentence without a *by*-phrase proves that the writer intended to conceal the identity of the agent.
+
+**Gabarito: Errado.** A ausência do agente pode servir a vários propósitos discursivos; a intenção de ocultar não é demonstrável apenas pela escolha da voz.
+
+**Fonte de consulta:** [Cambridge Dictionary, passive voice](https://dictionary.cambridge.org/grammar/british-grammar/passive).
+
+---
+
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**

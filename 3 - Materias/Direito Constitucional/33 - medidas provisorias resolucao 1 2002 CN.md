@@ -28,7 +28,7 @@ Os três eixos da prova são **(a) prazos**, **(b) repartição das tarefas entr
 
 **Constituição, art. 62:** pressupostos materiais de **relevância e urgência**; matérias vedadas; eficácia, prorrogação, recesso, sobrestamento, reedição, tramitação e perda de eficácia. **Resolução nº 1/2002-CN:** designação da comissão, distribuição, emendas, pareceres, sequência de apreciação e comunicações formais.
 
-**Controle de vigência indispensável:** no julgamento da **ADI 4.029**, o STF declarou **inconstitucional o caput do art. 5º e o caput e §§ 1º–2º do art. 6º** da Resolução, que viabilizavam contornar a efetiva análise pela comissão mista em certas condições. A consolidação oficial da Câmara marca expressamente esses trechos. A prática transitória preservada na modulação do julgamento não deve ser tratada como **permissão geral atual para dispensar a comissão mista**.
+**Controle de vigência indispensável:** no **dispositivo final da ADI 4.029**, após questão de ordem de 8/3/2012, o STF declarou incidentalmente inconstitucionais o **caput do art. 5º e os §§ 1º–2º do art. 6º** da Resolução nº 1/2002-CN, com efeitos *ex nunc*. A ementa e formulações anteriores da decisão também mencionam o **caput do art. 6º**, mas a redação final do dispositivo, conforme a ficha processual do STF, **não o enumera**. Essa distinção não afasta a exigência constitucional de **parecer da comissão mista** (CF, art. 62, § 9º), nem transforma a modulação em permissão geral para dispensá-lo. [STF, ADI 4.029, decisão e questão de ordem](https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=4029).
 
 **Outro limite jurisprudencial:** na **ADI 5.127**, o STF considerou inconstitucional introduzir, como emenda parlamentar durante a conversão, **assunto tematicamente estranho ao texto original**. A vedação do **art. 4º, § 4º**, da Resolução converge com essa conclusão. Emenda de conteúdo estranho não se torna válida porque o parlamentar conseguiu apoio político para aprová-la.
 
@@ -71,9 +71,9 @@ Se houver emenda para **sanar inconstitucionalidade ou inadequação financeira*
 
 ## 3. Câmara, Senado e retorno: arts. 6º a 8º
 
-A **Câmara é a Casa iniciadora obrigatória**, pela **CF art. 62, § 8º**, seguida pelo Senado. A consolidação do art. 6º contém **caput e §§ 1º–2º julgados inconstitucionais** na ADI 4.029. O **art. 7º** prevê que o Senado aprecie a matéria **até o 42º dia de vigência da MP**; isso é **prazo de tramitação regimental**, não a duração máxima de eficácia da MP, que é constitucionalmente **60+60 dias**.
+A **Câmara é a Casa iniciadora obrigatória**, pela **CF art. 62, § 8º**, seguida pelo Senado. A declaração incidental de inconstitucionalidade, conforme **dispositivo final da ADI 4.029**, alcança os **§§ 1º–2º do art. 6º**, além do **caput do art. 5º**. Não confundir com referências anteriores ao caput do art. 6º. O **art. 7º** prevê que o Senado aprecie a matéria **até o 42º dia de vigência da MP**; isso é **prazo de tramitação regimental**, não a duração máxima de eficácia da MP, que é constitucionalmente **60+60 dias**.
 
-**Remissão desatualizada que ainda aparece no texto consolidado:** o **art. 7º, § 2º**, menciona o prazo do **art. 6º, caput**, embora esse caput esteja expressamente declarado inconstitucional. A referência histórica não restabelece a faculdade de contornar o exame da comissão mista. Ao estudar a precedência da Câmara, tomar como fundamentos atuais a **CF, art. 62, §§ 8º e 9º**, e as disposições da resolução compatíveis com a ADI 4.029; não memorizar o prazo do dispositivo inválido como condição operacional vigente.
+**Remissão que exige leitura conforme a Constituição:** o **art. 7º, § 2º**, remete ao prazo do **art. 6º, caput**. A **decisão final da ADI 4.029 não enumera esse caput** entre os dispositivos incidentalmente declarados inconstitucionais; isso tampouco autoriza interpretar a remissão como dispensa do exame pela comissão mista. Ao estudar a precedência da Câmara, tomar como fundamentos indispensáveis a **CF, art. 62, §§ 8º e 9º**, e o procedimento da resolução compatível com a exigência constitucional.
 
 Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda para exame em **turno único**, **sem novas alterações** na fase de retorno (art. 7º, § 3º), com **três dias** para exame das modificações (§ 4º). O Senado não se torna a Casa que dá a última palavra sobre modificações que ele próprio introduziu.
 
@@ -117,7 +117,7 @@ Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda pa
 
 **C.** Uma emenda oferece assunto estranho à MP, apresentado como “aperfeiçoamento” da lei. **Inadmissível** por falta de pertinência temática (art. 4º, § 4º; ADI 5.127).
 
-**D.** A comissão foi criada, mas uma Casa resolve votar sem seu parecer invocando o antigo caput do art. 6º. **Incorreto:** o trecho foi declarado inconstitucional na **ADI 4.029**; a comissão mista é fase constitucional de exame.
+**D.** A comissão foi criada, mas uma Casa resolve votar sem seu parecer invocando a possibilidade regimental de suprir a manifestação colegiada. **Incorreto:** a exigência de **parecer da comissão mista** decorre diretamente do **art. 62, § 9º, da CF**. A ADI 4.029 afastou dispositivos regimentais que permitiam contornar esse exame, com o alcance especificado no **dispositivo final** da decisão.
 
 **E.** O Senado aprova emenda a PLV oriundo da Câmara e declara a matéria pronta para sanção, sem retorno. **Incorreto:** alterações seguem à **Câmara**, com procedimento restrito e prazo regimental de **três dias** para a Casa iniciadora.
 

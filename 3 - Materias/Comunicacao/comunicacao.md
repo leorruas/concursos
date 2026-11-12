@@ -11,7 +11,7 @@ updated: 2026-11-06
 # Comunicação (Concursos)
 
 ## Avanços e Metodologia
-- [[3 - Materias/Comunicacao/Avancos|Avanços e desempenho]]
+- **Progresso individual: registros mantidos no cofre privado de estudos**
 
 ## Fundamentos para Teorias da Comunicação: Câmara 2026
 

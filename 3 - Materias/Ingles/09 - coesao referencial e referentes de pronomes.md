@@ -29,7 +29,7 @@ Se um candidato tentar resolver as referências pronominais desse período guian
 
 1. O pronome sujeito ***they*** não retoma o termo imediatamente anterior (*"executive officials"*), mas sim o sujeito do período — o comitê de fiscalização orçamentária (*"the budget oversight committee"*), tratado como substantivo coletivo no plural ou referindo-se aos seus membros.
 2. O pronome possessivo ***its*** retoma o contrato de aquisição tecnológica (*"the multi-million technology procurement contract"*), e não os membros do comitê ou os funcionários do Executivo.
-3. O pronome relativo não restritivo ***which*** (precedido por vírgula) **não se refere isoladamente ao substantivo plural *indicators***, mas sim **à oração inteira precedente** — o fato de terem sido descobertas inconsistências computacionais nos indicadores.
+3. Neste contexto, o relativo não restritivo ***which*** é interpretado como comentário sobre a descoberta de inconsistências, e não como retomada de *indicators* isoladamente. **A vírgula, sozinha, não decide o antecedente**: relativas não restritivas também podem retomar sintagmas nominais computacionais nos indicadores.
 4. O pronome objeto ***them*** retoma novamente os membros do comitê de fiscalização orçamentária (*"budget oversight committee"*), que foram impelidos a suspender a liberação dos recursos.
 
 Esta unidade sistematiza toda a mecânica da **coesão referencial em língua inglesa** no padrão Cebraspe: a distinção entre referência endofórica (anáfora e catáfora) e exofórica (dêixis); os pronomes pessoais e possessivos (*it, its, they, their*); os pronomes demonstrativos anafóricos (*this, that, these, those*); os pronomes relativos (*who, which, that, whose, whom*); e as armadilhas de orações relativas com *sentential which*.
@@ -135,7 +135,7 @@ flowchart TD
 
 Esta é uma das questões mais clássicas do Cebraspe em provas de nível superior:
 
-* Quando o pronome relativo ***which*** é precedido por vírgula em uma oração não restritiva e expressa uma consequência, avaliação ou comentário, ele **NÃO se refere ao substantivo imediatamente anterior**: ele retoma **toda a ação ou situação descrita na oração principal**:
+* Quando ***which*** vem após vírgula e introduz comentário sobre o acontecimento anterior, pode retomar **a proposição inteira**; também pode retomar um **nome ou sintagma nominal**. A distinção decorre do sentido da oração relativa e da compatibilidade com cada antecedente, não apenas da vírgula. Compare *The report, which was approved yesterday, is final* (retoma *report*) e *The committee rejected the report, which surprised the chair* (o fato da rejeição causa surpresa). No exemplo seguinte, o pronome retoma a ação ou situação descrita na oração principal**:
   * *"The president vetoed the tax reform, **which** surprised the party leaders."*
   * **Pergunta do Cebraspe:** *"In the sentence above, the word 'which' refers to 'the tax reform'"*.
   * **Gabarito:** **ERRADO**. O que surpreendeu os líderes partidários não foi *"a reforma tributária"* em si, mas sim **o ato de o presidente ter vetado a reforma tributária** (*the fact that the president vetoed the tax reform*).
@@ -176,7 +176,7 @@ Analise o excerto abaixo, acompanhando a numeração das linhas e as cadeias de 
 4. Linha 7 — ***their***: Pronome possessivo plural referindo-se a *"parliamentary cybersecurity teams"* (linha 6).
 5. Linha 7 — ***these***: Pronome demonstrativo plural substantivo. Retoma *"advanced behavioral analytics"* (linha 6-7).
 6. Linha 9 — ***whose***: Pronome relativo possessivo referindo-se a *"threats"* (as origens das ameaças).
-7. Linha 9 — ***which***: *Sentential which* precedido por vírgula. Retoma toda a proposição das linhas 8-9: o fato de que o software sozinho não consegue neutralizar ameaças decorrentes de negligência humana ou engenharia social.
+7. Linha 9 — ***which***: Leitura proposicional de *which*, sustentada pelo comentário de consequência no contexto. Retoma toda a proposição das linhas 8-9: o fato de que o software sozinho não consegue neutralizar ameaças decorrentes de negligência humana ou engenharia social.
 
 ---
 

@@ -31,9 +31,9 @@ flowchart TD
 
     B --> B1["Órgão de origem NÃO PODE recusar<br/>(Poder de império legal)"]:::req
     B --> B2["Justiça Eleitoral (Lei 6.999/82), Presidência da República e Defensoria"]:::detalhe
-    B --> B3["Ônus financeiro: em regra do Órgão de Origem (Cedente)"]:::detalhe
+    B --> B3["Folha, ônus e reembolso<br/>conforme lei e destino"]:::detalhe
 
-    C --> C1["Depende de CONCORDÂNCIA prévia da autoridade de origem"]:::cessao
+    C --> C1["Pedido do destino e concordância<br/>da origem e do agente"]:::cessao
     C --> C2["Finalidade: exercício de cargo em comissão ou função de confiança (art. 93, Lei 8.112)"]:::detalhe
     C --> C3["Ônus e reembolso: conforme origem, destino e norma"]:::detalhe
     D --> D1["Indicação consensual: anuências<br/>Realocação: sem anuência da origem"]:::detalhe
@@ -196,7 +196,7 @@ A respeito da contagem de tempo de serviço do servidor público durante o perí
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** Nos exatos termos do art. 102, inciso II, da Lei nº 8.112/1990, o afastamento para prestar serviços a outro órgão em decorrência de requisição regular é expressamente considerado como de **efetivo exercício**. O servidor não sofre prejuízo funcional em sua carreira de origem, preservando integralmente a contagem de tempo para concessão de progressões, promoções, adicionais temporais e aposentadoria estatutária.
+> **Comentário:** A requisição juridicamente regular **não rompe por si só o vínculo funcional** nem gera interrupção automática do tempo de efetivo exercício. O art. 102, II, da Lei nº 8.112/1990 trata especificamente do **exercício de cargo em comissão ou equivalente em outro órgão** e, portanto, **não deve ser citado como se incluísse textualmente qualquer requisição**. Para requisições abrangidas pelo Decreto nº 10.835/2021, o art. 9º, §§ 4º e 5º, protege remuneração, promoção e progressão segundo seus pressupostos. A contagem previdenciária e vantagens particulares dependem do regime aplicável, sem suspensão automática pelo simples deslocamento. O item é **ERRADO** por afirmar interrupção automática.
 
 ---
 
@@ -236,8 +236,9 @@ No que tange ao exercício do poder disciplinar sobre o servidor público cedido
 
 ## Fontes normativas e doutrinárias
 
-- **Lei nº 8.112/1990 (RJU):** art. 93 (cessão de servidores e reembolso); art. 102, II (contagem como efetivo exercício).
+- **Lei nº 8.112/1990 (RJU):** art. 93 (cessão de servidores e reembolso); art. 102, II (**exercício de cargo em comissão ou equivalente**, sem generalizar para toda requisição).
 - **Lei nº 6.999/1982:** normas sobre requisição de servidores públicos pela Justiça Eleitoral.
 - **Decreto nº 10.835/2021:** regulamentação da cessão e movimentação de pessoal no Poder Executivo Federal.
-- **Tribunal Superior Eleitoral (TSE):** resoluções e jurisprudência pacificada sobre o caráter cogente da requisição eleitoral.
-- **Doutrina:** Hely Lopes Meirelles (*Requisição e cessão no direito público*); Celso Antônio Bandeira de Mello (*Mobilidade e vínculos funcionais*).
+- **Lei nº 6.999/1982 e regulamentação do TSE:** verificar, em cada requisição eleitoral, competência, elegibilidade do cargo, limites e prazos.
+- **STJ, MS 21.991/DF:** delimitação da competência de instauração e instrução de processo disciplinar em cessão.
+- **Referência doutrinária:** conceitos gerais de agentes públicos e atos administrativos, sem atribuir títulos autônomos não identificados bibliograficamente a autores.

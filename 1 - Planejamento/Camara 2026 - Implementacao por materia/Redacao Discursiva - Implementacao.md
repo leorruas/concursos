@@ -88,3 +88,13 @@ O modelo da peça no artigo 06 continha 28 linhas artificiais, insuficientes par
 
 A gravação direta no `main` encontrou conflito HTTP 409 devido à movimentação concorrente da branch. Para isolar a alteração, foi criada a branch `redacao-camara-validacao-20261111`, commit `fb12e065b9ccd5ceec831d9d4c0fbc66f82c04d8` e [PR nº 18](https://github.com/leorruas/concursos/pull/18). Os workflows **Validar site público (PR)**, run `43124801065`, e **Validar glossário antes de integrar**, run `43124800889`, foram acionados por esse PR. No primeiro checkpoint estavam **em andamento**, sem conclusão; não há certificação de CI nem publicação para a nova versão. O PR não deve ser mesclado antes de resultado conclusivo.
 
+
+### Resultado real de CI do PR nº 18
+
+O workflow **Validar site público (PR)**, execução `43124801065`, foi concluído com **falha** em `node scripts/validate-vault-invariants.js --public-only`. Os testes de prioridades, questões Câmara, flashcards e identidade de artigos haviam passado antes da interrupção. Os logs identificaram três notas canônicas de Redação não indexadas:
+
+- `3 - Materias/Redacao/08 - resposta comparativa criterios e fronteiras.md` (`art-84a5d7c9be60f321`);
+- `3 - Materias/Redacao/09 - resposta normativa hipotese dispositivo e consequencia.md` (`art-64e26b9f18a30cd5`);
+- `3 - Materias/Redacao/10 - diagnostico de comunicacao como peca tecnica.md` (`art-bf207ae1c3846509`).
+
+Esses três arquivos, provenientes de trabalho paralelo e com IDs distintos, repetem objetivos de CAM-DIS-003, 004 e 006 já desenvolvidos pela presente implementação. O `index.md`, hub e catálogo consultados não os vinculavam. **Conflito editorial e de indexação pendente de conciliação com os demais agentes**: não apagar, incorporar ou declarar certificados os arquivos concorrentes de maneira automática. Esse resultado é evidência de **CI vermelho**, não de falha do modelo de 44 linhas. O PR nº 18 permanece **aberto e não mesclado** enquanto a inconsistência existir. A execução `43124800889` (glossário) foi observada em andamento no último checkpoint, sem conclusão confirmada.

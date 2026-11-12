@@ -7572,7 +7572,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-45d8f190ac2e673b#Valor percebido: benefício, custo e utilidade"
       ],
@@ -7582,7 +7582,8 @@
       },
       "statement": "Mesmo com entrada gratuita em duas exposições, a distância até o local pode reduzir o valor percebido de uma delas para um visitante.",
       "correctAnswer": "C",
-      "explanation": "O valor percebido considera benefícios e custos percebidos, como deslocamento e tempo. Preço zero elimina apenas o desembolso pela entrada."
+      "explanation": "O valor percebido considera benefícios e custos percebidos, como deslocamento e tempo. Preço zero elimina apenas o desembolso pela entrada.",
+      "reviewEvidence": "Cotejo editorial com Valor percebido: benefício, custo e utilidade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
     },
     {
       "id": "cam-di-satisfacao-e-expectativa",
@@ -7597,9 +7598,9 @@
       "conceptId": "satisfacao-e-expectativa",
       "mechanism": "satisfacao-e-expectativa",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "dificil",
-      "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-45d8f190ac2e673b#Satisfação, expectativa, qualidade e lealdade"
       ],
@@ -7609,7 +7610,8 @@
       },
       "statement": "Dois visitantes avaliam a qualidade percebida de uma exposição com a mesma nota. O visitante que esperava uma experiência melhor necessariamente fica tão satisfeito quanto o outro.",
       "correctAnswer": "E",
-      "explanation": "A satisfação depende da comparação com expectativas. A mesma qualidade percebida pode confirmar uma expectativa e frustrar outra."
+      "explanation": "A satisfação depende da comparação com expectativas. A mesma qualidade percebida pode confirmar uma expectativa e frustrar outra.",
+      "reviewEvidence": "Cotejo editorial com Satisfação, expectativa, qualidade e lealdade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
     },
     {
       "id": "cam-di-ansoff-oferta-nova-mercado-atual",
@@ -7637,7 +7639,7 @@
       "statement": "Uma editora mantém o catálogo e a região atendida e oferece entregas semanais em vez de quinzenais para estimular pedidos mais frequentes dos clientes atuais. Se a alteração é apenas logística e a oferta editorial permanece a mesma, a iniciativa se enquadra em penetração de mercado.",
       "correctAnswer": "C",
       "explanation": "A ação procura ampliar o uso da oferta existente pelo mercado atual. Alterar a operação de entrega, nas condições descritas, não introduz um novo produto editorial.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e comentário com a seção Matriz de Ansoff: produto e mercado, existentes e novos e substituição de mecanismo próximo a exercício do artigo."
+      "reviewEvidence": "Cotejo editorial com Matriz de Ansoff: produto e mercado, existentes e novos do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
     },
     {
       "id": "cam-di-bcg-comparacao-lider",
@@ -7652,9 +7654,9 @@
       "conceptId": "bcg-comparacao-lider",
       "mechanism": "bcg-comparacao-lider",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "dificil",
-      "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-1c9e5b7a32d0648f#BCG: participação relativa e crescimento"
       ],
@@ -7664,7 +7666,8 @@
       },
       "statement": "Em mercado de alto crescimento, uma unidade com participação de 15% diante de uma líder com 45% tem alta participação relativa por alcançar mais de um décimo das vendas totais.",
       "correctAnswer": "E",
-      "explanation": "A participação relativa é 15/45, ou um terço da líder. A porcentagem do mercado total não substitui a comparação com a concorrente."
+      "explanation": "A participação relativa é 15/45, ou um terço da líder. A porcentagem do mercado total não substitui a comparação com a concorrente.",
+      "reviewEvidence": "Cotejo editorial com BCG: participação relativa e crescimento do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
     },
     {
       "id": "cam-di-efeito-imediato-e-reputacao",
@@ -8060,7 +8063,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-45d8f190ac2e673b#Valor percebido: benefício, custo e utilidade"
       ],
@@ -8070,7 +8073,8 @@
       },
       "statement": "Dois formatos têm o mesmo preço e exigem o mesmo tempo do visitante. Uma versão com explicações em linguagem familiar ao público pode elevar o valor percebido mesmo se os organizadores tiverem gastado menos para produzi-la.",
       "correctAnswer": "C",
-      "explanation": "O valor percebido depende da utilidade para o público em relação aos seus custos. O custo de produção da organização não mede diretamente o benefício recebido."
+      "explanation": "O valor percebido depende da utilidade para o público em relação aos seus custos. O custo de produção da organização não mede diretamente o benefício recebido.",
+      "reviewEvidence": "Cotejo editorial com Valor percebido: benefício, custo e utilidade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
     },
     {
       "id": "cam-di-promessa-e-experiencia",
@@ -8085,9 +8089,9 @@
       "conceptId": "satisfacao-sem-recompra",
       "mechanism": "satisfacao-sem-recompra",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "dificil",
-      "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-45d8f190ac2e673b#Satisfação, expectativa, qualidade e lealdade"
       ],
@@ -8097,7 +8101,8 @@
       },
       "statement": "Uma pessoa satisfeita com uma exposição anual muda de cidade e deixa de visitá-la. A interrupção das visitas comprova insatisfação com a última experiência.",
       "correctAnswer": "E",
-      "explanation": "A recompra ou revisita depende de oportunidade e de outros custos. O deslocamento pode explicar a interrupção mesmo com satisfação anterior."
+      "explanation": "A recompra ou revisita depende de oportunidade e de outros custos. O deslocamento pode explicar a interrupção mesmo com satisfação anterior.",
+      "reviewEvidence": "Cotejo editorial com Satisfação, expectativa, qualidade e lealdade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
     },
     {
       "id": "cam-di-ansoff-dois-movimentos",
@@ -8114,7 +8119,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-1c9e5b7a32d0648f#Matriz de Ansoff: produto e mercado, existentes e novos"
       ],
@@ -8124,7 +8129,8 @@
       },
       "statement": "Uma editora leva seu catálogo impresso atual a uma nova região e oferece um curso inédito apenas aos compradores da região de origem. Como o plano contém um produto novo e um mercado novo, ambas as ações são diversificação na matriz de Ansoff.",
       "correctAnswer": "E",
-      "explanation": "A matriz classifica cada combinação. O catálogo existente na nova região é desenvolvimento de mercado. O curso novo no mercado atual é desenvolvimento de produto."
+      "explanation": "A matriz classifica cada combinação. O catálogo existente na nova região é desenvolvimento de mercado. O curso novo no mercado atual é desenvolvimento de produto.",
+      "reviewEvidence": "Cotejo editorial com Matriz de Ansoff: produto e mercado, existentes e novos do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
     },
     {
       "id": "cam-di-bcg-comparacao-de-portfolios",
@@ -8141,7 +8147,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-1c9e5b7a32d0648f#BCG: participação relativa e crescimento"
       ],
@@ -8151,7 +8157,8 @@
       },
       "statement": "Uma unidade opera em mercado de alto crescimento e tem participação relativa de 0,4. Seu reposicionamento exigiria um investimento superior ao orçamento aprovado. A classificação na matriz BCG pode justificar estudar a oportunidade, mas é insuficiente para autorizar o investimento nas condições descritas.",
       "correctAnswer": "C",
-      "explanation": "O crescimento alto e a participação relativa baixa indicam uma posição que pede análise. A decisão também precisa respeitar o orçamento e examinar a viabilidade de ganhar participação."
+      "explanation": "O crescimento alto e a participação relativa baixa indicam uma posição que pede análise. A decisão também precisa respeitar o orçamento e examinar a viabilidade de ganhar participação.",
+      "reviewEvidence": "Cotejo editorial com BCG: participação relativa e crescimento do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
     },
     {
       "id": "cam-di-percepcao-entre-publicos",
@@ -8546,7 +8553,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-45d8f190ac2e673b#Necessidade, desejo e demanda: três níveis diferentes"
       ],
@@ -8556,7 +8563,8 @@
       },
       "statement": "Em marketing, todo desejo manifestado por um produto já constitui demanda, mesmo quando falta capacidade de compra.",
       "correctAnswer": "E",
-      "explanation": "A demanda pressupõe desejo acompanhado de capacidade de compra. O desejo pode existir sem se converter em demanda."
+      "explanation": "A demanda pressupõe desejo acompanhado de capacidade de compra. O desejo pode existir sem se converter em demanda.",
+      "reviewEvidence": "Cotejo editorial com Necessidade, desejo e demanda: três níveis diferentes do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
     },
     {
       "id": "cam-di-controle-com-meta-intermediaria",
@@ -8573,7 +8581,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-1c9e5b7a32d0648f#Implementação, orçamento e controle"
       ],
@@ -8583,7 +8591,8 @@
       },
       "statement": "Se o plano prevê lançar o catálogo em agosto e alcançar 200 pedidos válidos até outubro, cumprir a data de lançamento e terminar outubro com 140 pedidos representa cumprimento do marco de implementação e descumprimento da meta de resultado.",
       "correctAnswer": "C",
-      "explanation": "A primeira medida controla uma entrega do plano. A segunda mede o resultado definido, que ficou 60 pedidos abaixo da meta."
+      "explanation": "A primeira medida controla uma entrega do plano. A segunda mede o resultado definido, que ficou 60 pedidos abaixo da meta.",
+      "reviewEvidence": "Cotejo editorial com Implementação, orçamento e controle do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
     },
     {
       "id": "cam-di-situacao-de-recompra-modificada",

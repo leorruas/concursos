@@ -19,10 +19,9 @@ A ortografia é regida por convenções e padrões formais de escrita. Diferente
 O uso do hífen com prefixos segue heurísticas bem definidas baseadas no encontro de letras:
 
 ### Manutenção do Hífen (Quando usar)
-- **Vogais Iguais**: Se o prefixo terminar com a mesma vogal que inicia a palavra seguinte.
-  - Ex: **micro-ondas**, **anti-inflamatório**, **micro-organismo**.
-- **Segunda palavra iniciada por H**: Sempre se mantém o hífen.
-  - Ex: **anti-herói**, **anti-higiênico**, **super-homem**.
+- **Vogais iguais, em regra**: Se o prefixo terminar com a mesma vogal que inicia a palavra seguinte, emprega-se hífen.
+  - Ex.: **micro-ondas**, **anti-inflamatório**, **micro-organismo**. **Exceção importante:** *co-* e *re-* podem aglutinar-se, como em **cooperar**, **coordenar** e **reeleger**.
+- **Segundo elemento iniciado por H, em regra**: Emprega-se hífen em formas como **anti-herói**, **anti-higiênico**, **super-homem**. A regra **não é absoluta**: o prefixo **co-** pode aglutinar-se com supressão de *h*, como em **coabitar** e **coerdeiro**, grafias adotadas pelo VOLP da Academia Brasileira de Letras. Fonte: [ABL, *Acordo ortográfico e VOLP*](https://www.academia.org.br/artigos/acordo-ortografico-e-volp-2).
 
 ### Supressão do Hífen (Quando NÃO usar)
 - **Vogais Diferentes**: Se o prefixo terminar com vogal diferente da que inicia a segunda palavra, junta-se tudo.
@@ -36,10 +35,10 @@ Antes de confiar na memória visual, olhe para a fronteira entre prefixo e base:
 
 | Encontro | Regra | Exemplo |
 | :--- | :--- | :--- |
-| mesma vogal | mantém hífen | **micro-ondas**, **anti-inflamatório** |
+| mesma vogal | hífen em regra, exceto prefixos com tratamento específico (*co-*, *re-* etc.) | **micro-ondas**, **anti-inflamatório**, mas **cooperar** e **reeleger** |
 | vogais diferentes | une | **autoavaliação**, **infraestrutura** |
 | R ou S após prefixo terminado em vogal | une e duplica | **contrarregra**, **antissocial** |
-| base iniciada por H | mantém hífen | **anti-herói** |
+| base iniciada por H | hífen em regra, com exceções de aglutinação | **anti-herói**, mas **coerdeiro** |
 
 A FGV pode reunir palavras de famílias diferentes na mesma alternativa. A decisão deve ser feita **palavra por palavra**, e não por semelhança visual do conjunto.
 

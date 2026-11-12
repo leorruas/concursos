@@ -67,7 +67,7 @@ Expressa a avaliação do enunciador sobre a proposição, levando em conta evid
 | **Will** | **Previsão ou expectativa firme, dependente do contexto** | *Certamente ocorrerá / Ocorrerá* | *The plenary **will confirm** the vote tomorrow morning.* |
 | **Should / Ought to** | **Expectativa sobre o desfecho** | *É provável que / Espera-se que* | *The printing of the official gazette **should be** finished by midnight.* |
 | **May** | **Possibilidade** | *Pode ser que / É possível que* | *The legislative debate **may trigger** public demonstrations.* |
-| **Might / Could** | **Possibilidade, frequentemente apresentada com maior reserva** | *Poderia ser que / Há uma remota chance de* | *New amendments **might alter** the fiscal balance.* |
+| **Might / Could** | **Possibilidade dependente do contexto e do ponto de vista do enunciador** | *Poderia ser que / É possível que* | *New amendments **might alter** the fiscal balance.* |
 | **Cannot / Can't** | **Conclusão de incompatibilidade com os indícios ou impossibilidade contextual** | *Não pode ser que / É impossível que* | *The quorum **cannot be** valid; only ten deputies were present.* |
 
 ---

@@ -37927,6 +37927,118 @@
       "correctAnswer": "E",
       "explanation": "A Constituição, art. 167, § 2º, permite reabrir créditos especiais e extraordinários autorizados nos últimos quatro meses, mas somente nos limites dos saldos.",
       "reviewEvidence": "Lote 027, item 036, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Vigência e reabertura'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-037-credito-adicional-nao-empenho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "credito-vs-empenho",
+      "mechanism": "distinguir-autorizacao-e-execucao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação"
+      },
+      "statement": "A abertura de crédito adicional, por ampliar ou criar autorização orçamentária, equivale ao empenho da despesa correspondente, dispensando a etapa de execução que reserva dotação para uma obrigação específica.",
+      "correctAnswer": "E",
+      "explanation": "Crédito adicional ajusta a autorização orçamentária; empenho é ato distinto da execução da despesa. A abertura do crédito não realiza automaticamente empenho, liquidação ou pagamento.",
+      "reviewEvidence": "Lote 027, item 037, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação'. Referências normativas preliminares: CF arts. 62, 165 e 167, Lei 4.320/1964 arts. 41 a 46 e execução da despesa, conforme item. Revisão normativa independente, triagem de similaridade integral, auditoria e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-038-excesso-nao-dispensar-lei",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "fonte-nao-substitui-autorizacao",
+      "mechanism": "distinguir-fonte-e-autorizacao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Autorização × abertura"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Autorização × abertura"
+      },
+      "statement": "A comprovação de excesso de arrecadação suficiente para custear crédito especial afasta a necessidade de autorização legislativa prévia, porque a existência de recursos substitui a exigência constitucional de lei.",
+      "correctAnswer": "E",
+      "explanation": "A disponibilidade de fonte não dispensa autorização legislativa prévia para crédito especial, exigida pelo art. 167, V, da Constituição. Recurso disponível e autorização são requisitos distintos.",
+      "reviewEvidence": "Lote 027, item 038, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, heading literal 'Autorização × abertura'. Referências normativas preliminares: CF arts. 62, 165 e 167, Lei 4.320/1964 arts. 41 a 46 e execução da despesa, conforme item. Revisão normativa independente, triagem de similaridade integral, auditoria e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-039-credito-extraordinario-mp-uniao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "credito-extraordinario-mp",
+      "mechanism": "identificar-instrumento-federal",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "statement": "No âmbito da União, a abertura de crédito extraordinário para atender despesa imprevisível e urgente pode ocorrer por medida provisória, observados os requisitos constitucionais aplicáveis.",
+      "correctAnswer": "C",
+      "explanation": "Na União, a Constituição, art. 167, § 3º, em conjunto com o art. 62, admite medida provisória para abertura de crédito extraordinário em hipóteses de imprevisibilidade e urgência.",
+      "reviewEvidence": "Lote 027, item 039, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, heading literal 'Suplementar, especial e extraordinário'. Referências normativas preliminares: CF arts. 62, 165 e 167, Lei 4.320/1964 arts. 41 a 46 e execução da despesa, conforme item. Revisão normativa independente, triagem de similaridade integral, auditoria e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-040-credito-nao-resolve-caixa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "dotacao-vs-disponibilidade-caixa",
+      "mechanism": "separar-orcamento-e-financas",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação"
+      },
+      "statement": "Mesmo após a abertura regular de crédito suplementar, a realização do pagamento pode depender de disponibilidade financeira e da observância das etapas de execução da despesa.",
+      "correctAnswer": "C",
+      "explanation": "A autorização orçamentária adicional não gera automaticamente caixa nem substitui empenho, liquidação e demais condições para pagamento.",
+      "reviewEvidence": "Lote 027, item 040, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação'. Referências normativas preliminares: CF arts. 62, 165 e 167, Lei 4.320/1964 arts. 41 a 46 e execução da despesa, conforme item. Revisão normativa independente, triagem de similaridade integral, auditoria e CI pendentes. Não homologado."
     }
   ]
 }

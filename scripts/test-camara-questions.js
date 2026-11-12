@@ -59,6 +59,13 @@ for (const pilot of config.pilotoDidatico) {
 // sem rejeitar as 50 questões didáticas que possuem seus próprios gabaritos.
 const blockedTi = blockedCamaraTiQuestions(root);
 assert.equal(blockedTi.size, 13, 'CAM-TI: conferir alteração no total de itens não homologados');
+for (const blocked of blockedTi.values()) {
+  const article = fs.readFileSync(new URL('../3 - Materias/Informatica/' + blocked.file, import.meta.url), 'utf8');
+  const substituteId = 'S' + blocked.file.slice(0, 2) + '-' + blocked.number;
+  assert(article.includes(substituteId),
+    'CAM-TI: questão bloqueada sem substituta rastreável: ' + substituteId);
+}
+
 for (const item of blockedTi.values()) {
   const pilotTi = config.pilotoDidatico.find(x => x.subjectId === 'informatica');
   const disciplineTi = index.contests.find(x => x.concursoId === 'camara-2026').subjects

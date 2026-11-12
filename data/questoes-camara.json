@@ -25672,6 +25672,222 @@
       "correctAnswer": "E",
       "explanation": "O comando orienta a saída. A confirmação depende de evidências que possam ser examinadas, além da formulação da instrução.",
       "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-usab-busca-sem-resposta-operacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "busca-sem-resposta-operacional",
+      "mechanism": "busca-sem-resposta-operacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A estrutura interna do texto: encontrar, compreender e usar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "A estrutura interna do texto: encontrar, compreender e usar"
+      },
+      "statement": "Em um portal, os usuários localizam facilmente a página de inscrição, mas o texto não informa como comprovar a renda. O êxito na localização da página basta para demonstrar que eles conseguem usar a informação para reunir os documentos.",
+      "correctAnswer": "E",
+      "explanation": "Localizar é uma etapa. Reunir documentos exige que a página informe quais comprovantes serão aceitos."
+    },
+    {
+      "id": "cam-cs-usab-confirmacao-em-cenario-novo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "confirmacao-em-cenario-novo",
+      "mechanism": "confirmacao-em-cenario-novo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#Testar compreensão: leitura aparente versus tarefa resolvida"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "Testar compreensão: leitura aparente versus tarefa resolvida"
+      },
+      "statement": "Para testar se uma orientação sobre prazos foi compreendida, pedir ao leitor que determine a data-limite em um caso novo produz evidência mais direta do que perguntar se o texto parece claro.",
+      "correctAnswer": "C",
+      "explanation": "A aplicação do prazo mostra se o leitor conseguiu interpretar a regra. A impressão de clareza mede sua percepção."
+    },
+    {
+      "id": "cam-cs-usab-conclusao-com-ajuda-do-moderador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "conclusao-com-ajuda-do-moderador",
+      "mechanism": "conclusao-com-ajuda-do-moderador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Teste de usabilidade: desenho do estudo e execução"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Teste de usabilidade: desenho do estudo e execução"
+      },
+      "statement": "Em um teste de agendamento, dois participantes só concluem depois de receber instruções do moderador. Registrar essas conclusões como assistidas preserva a distinção entre sucesso com ajuda e sucesso autônomo.",
+      "correctAnswer": "C",
+      "explanation": "A ajuda modifica a condição de execução. Registrar essa diferença permite interpretar o que o participante conseguiu fazer sozinho."
+    },
+    {
+      "id": "cam-cs-usab-tempo-menor-com-mais-erros",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "tempo-menor-com-mais-erros",
+      "mechanism": "tempo-menor-com-mais-erros",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Indicadores: o que cada número permite afirmar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Indicadores: o que cada número permite afirmar"
+      },
+      "statement": "Se o tempo médio cai de três para dois minutos e o sucesso diminui de 90% para 60%, a redução do tempo demonstra que a nova interface é superior em usabilidade.",
+      "correctAnswer": "E",
+      "explanation": "Tempo e sucesso registram aspectos distintos. Uma conclusão geral exige considerar a perda de eficácia e esclarecer quais execuções entraram no cálculo do tempo."
+    },
+    {
+      "id": "cam-cs-usab-achar-pelo-rotulo-da-tarefa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "achar-pelo-rotulo-da-tarefa",
+      "mechanism": "achar-pelo-rotulo-da-tarefa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A estrutura interna do texto: encontrar, compreender e usar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "A estrutura interna do texto: encontrar, compreender e usar"
+      },
+      "statement": "Renomear uma seção de Benefícios para Como solicitar o auxílio pode ajudar quem procura o procedimento, embora essa mudança de rótulo não esclareça por si os requisitos escritos dentro da seção.",
+      "correctAnswer": "C",
+      "explanation": "O rótulo facilita a localização. A compreensão dos requisitos depende da redação e da organização da informação dentro da seção."
+    },
+    {
+      "id": "cam-cs-usab-preferencia-sem-execucao-da-tarefa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "preferencia-sem-execucao-da-tarefa",
+      "mechanism": "preferencia-sem-execucao-da-tarefa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Indicadores: o que cada número permite afirmar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Indicadores: o que cada número permite afirmar"
+      },
+      "statement": "Em um teste, a maioria prefere visualmente a página A, mas mais participantes completam corretamente a tarefa na página B. A preferência pela página A comprova que sua eficácia foi maior.",
+      "correctAnswer": "E",
+      "explanation": "A preferência informa uma reação dos participantes. A eficácia da tarefa depende do resultado alcançado, que favoreceu a página B."
+    },
+    {
+      "id": "cam-cs-usab-tarefa-induzida-pelo-enunciado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "tarefa-induzida-pelo-enunciado",
+      "mechanism": "tarefa-induzida-pelo-enunciado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Teste de usabilidade: desenho do estudo e execução"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Teste de usabilidade: desenho do estudo e execução"
+      },
+      "statement": "Pedir ao participante que clique em Serviços, depois em Protocolos, altera a capacidade do teste de mostrar se ele encontraria sozinho o local de envio de documentos.",
+      "correctAnswer": "C",
+      "explanation": "A instrução entrega o caminho. Para avaliar a descoberta, o teste deve formular o objetivo e observar o percurso que o participante escolhe."
+    },
+    {
+      "id": "cam-cs-usab-teste-sem-publico-alvo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "teste-sem-publico-alvo",
+      "mechanism": "teste-sem-publico-alvo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#Testar compreensão: leitura aparente versus tarefa resolvida"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "Testar compreensão: leitura aparente versus tarefa resolvida"
+      },
+      "statement": "Se os redatores interpretam corretamente o aviso que produziram, pode-se dispensar o teste com usuários que desconhecem o procedimento, pois ambos leem o mesmo texto.",
+      "correctAnswer": "E",
+      "explanation": "O conhecimento prévio dos redatores ajuda a preencher lacunas do texto. Usuários do público-alvo podem revelar dificuldades que a equipe autora não encontra."
     }
   ]
 }

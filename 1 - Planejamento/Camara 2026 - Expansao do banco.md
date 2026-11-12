@@ -100,3 +100,7 @@ Total validado: 640/2.000. Próximo lote: aplicações e ética de IA na comunic
 Quarenta itens sobre aplicações e riscos de IA na comunicação, com cotejo no artigo 74, no Manual de Comunicação e nos arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026 para os itens normativos. Foi substituído um caso que repetia a identificação de capa audiovisual por um item sobre avaliação de risco por tipo de uso. A triagem lexical a 0,22 e a seleção por item do edital foram verificadas.
 
 Total validado: 680/2.000. Próximo lote: linguagem simples e usabilidade, item 10 de Comunicação Social.
+
+## Lote 018 em elaboração
+
+Oito itens sobre localização, compreensão e uso da informação, desenho do teste e interpretação de indicadores de usabilidade, vinculados aos artigos 75 e 77.

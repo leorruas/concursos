@@ -12584,6 +12584,122 @@
       "statement": "Uma peça comercial com preços verdadeiros pode ser abusiva se seu conteúdo for discriminatório.",
       "correctAnswer": "C",
       "explanation": "A proibição de publicidade abusiva tem fundamento distinto da veracidade dos preços. O art. 37 inclui a discriminação entre as hipóteses de abusividade."
+    },
+    {
+      "id": "cam-di-alteracao-editorial-por-terceiro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "alteracao-editorial-por-terceiro",
+      "mechanism": "alteracao-editorial-por-terceiro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Núcleo do Código de Ética dos Jornalistas",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 8º"
+      },
+      "statement": "Se um editor altera sem participação do repórter a informação sobre o local de um evento, o Código de Ética atribui necessariamente ao repórter a responsabilidade pela alteração, porque seu nome assina a matéria.",
+      "correctAnswer": "E",
+      "explanation": "O art. 8º atribui a responsabilidade pela alteração ao autor dela. A assinatura da matéria não identifica automaticamente quem fez a mudança."
+    },
+    {
+      "id": "cam-di-montagem-identificada-mas-distorcida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "montagem-identificada-mas-distorcida",
+      "mechanism": "montagem-identificada-mas-distorcida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Condutas expressamente vedadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Condutas expressamente vedadas",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 12, V"
+      },
+      "statement": "Uma montagem muda a posição de pessoas numa fotografia para sugerir um encontro que não ocorreu. Identificá-la como montagem basta para atender ao Código de Ética.",
+      "correctAnswer": "E",
+      "explanation": "O dever de indicar a manipulação convive com o dever de rejeitar alterações que deturpem a realidade. A identificação não elimina a distorção."
+    },
+    {
+      "id": "cam-di-apelo-publico-com-via-de-apuracao-aberta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "apelo-publico-com-via-de-apuracao-aberta",
+      "mechanism": "apelo-publico-com-via-de-apuracao-aberta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Métodos ocultos de apuração"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Métodos ocultos de apuração",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 11, III"
+      },
+      "statement": "Uma pauta de incontestável interesse público autoriza divulgar informação obtida por câmera oculta mesmo quando ainda existe uma via ordinária de apuração não tentada.",
+      "correctAnswer": "E",
+      "explanation": "A exceção exige as duas condições: interesse público incontestável e esgotamento das demais possibilidades de apuração."
+    },
+    {
+      "id": "cam-di-presuncao-em-titulo-acusatorio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "presuncao-em-titulo-acusatorio",
+      "mechanism": "presuncao-em-titulo-acusatorio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Núcleo do Código de Ética dos Jornalistas",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 9º"
+      },
+      "statement": "Quando os fatos disponíveis demonstram apenas que uma pessoa é investigada, o título deve preservar essa distinção em vez de apresentá-la como culpada.",
+      "correctAnswer": "C",
+      "explanation": "A presunção de inocência é fundamento da atividade jornalística no Código. O título precisa refletir o estado da apuração."
     }
   ]
 }

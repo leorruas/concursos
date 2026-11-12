@@ -5,7 +5,7 @@ title: "Comunicação integrada: modalidades de Kunsch, articulação e governan
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Comunicação integrada: modalidades de Kunsch, articulação e governança
@@ -164,6 +164,16 @@ O mapa [[3 - Materias/Comunicacao/22 - autores e taxonomias de comunicacao organ
 **Item 3, inédito:** “Ao informar alterações de procedimentos e organizar diálogo com os empregados, um órgão público pode mobilizar simultaneamente comunicação administrativa e interna, sem que isso elimine a necessidade de coordenação com a informação destinada aos cidadãos.”
 
 **Gabarito: Certo.** Modalidades podem coexistir, e a integração exige coerência entre práticas e públicos. **Mecanismo:** aplicação ao mesmo caso com critérios distintos.
+
+## Conferência da definição autoral e das quatro modalidades (11/11/2026)
+
+O verbete **“Comunicação integrada”**, assinado por **Margarida M. Krohling Kunsch** no [*Dicionário de Comunicação Organizacional*, UFSM (2018), p. 38](https://www.ufsm.br/app/uploads/sites/330/2019/10/DICION%C3%81RIO-EstratO-vers%C3%A3o-online.pdf), nomeia expressamente **quatro modalidades** da comunicação organizacional integrada: **institucional, mercadológica, interna e administrativa**. A autora relaciona a integração a uma **filosofia e política de comunicação** orientadas pelos objetivos da organização e pelas expectativas dos públicos. Essa enumeração também aparece em [artigo posterior da própria Kunsch, de 2018](https://scielo.pt/scielo.php?pid=S2183-54622018000200002&script=sci_arttext). A [quarta edição do livro de 2003](https://books.google.com.br/books?hl=pt-BR&id=Q1ZFmcZFE7UC&lr=), citada no verbete, contém a discussão do composto na seção iniciada à página 149.
+
+**Atenção ao desenho:** reproduções acadêmicas da figura de Kunsch (2003, p. 151) colocam as modalidades **interna e administrativa em um mesmo setor gráfico**, mas mantêm **os quatro nomes**. Contar apenas os setores visuais da figura e reduzir a classificação a três modalidades seria erro de interpretação. Da mesma forma, tratar modalidades como as **dimensões humana, instrumental, cultural e estratégica** discutidas por Kunsch em 2014 troca o critério classificatório. Modalidades respondem às funções de comunicação; dimensões tratam dos modos de compreender e praticar o processo.
+
+**Reexame dos três C/E inéditos do artigo:** **1 Certo**, as quatro modalidades estão documentadas pela própria autora e multicanalidade isolada não basta para uma filosofia integrada; **2 Errado**, administrativa e instrumental pertencem a classificações diferentes; **3 Certo**, práticas administrativa e interna podem coexistir num mesmo caso e precisam se articular à informação para públicos externos. O item 3 é **aplicação didática**, não episódio relatado por Kunsch. Gabaritos mantidos, sem questão real nova.
+
+**Limites:** o verbete de 2018 foi confrontado diretamente; a obra integral de 2003 foi verificada por dados editoriais e citações em fontes secundárias, não por leitura crítica integral dos capítulos. Não se testaram as relações de link e a exibição do artigo no GitHub Pages. **Estado: Corrigido no recorte autoral e de exercícios; sem certificação integral.**
 
 ## Aplicação discursiva e heurísticas
 

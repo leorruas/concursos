@@ -24296,6 +24296,222 @@
       "statement": "A existência de uma seção de redes sociais no Manual basta para localizar ali a origem de toda regra aplicável à governança dos perfis oficiais.",
       "correctAnswer": "E",
       "explanation": "A seção contém orientações e remissões. Regras de governança dos perfis também têm fundamento em atos próprios."
+    },
+    {
+      "id": "cam-cs-mesmo-conteudo-em-dois-meios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "mesmo-conteudo-em-dois-meios",
+      "mechanism": "mesmo-conteudo-em-dois-meios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      },
+      "statement": "Se a mesma gravação é disponibilizada no portal e transmitida na rádio, o uso de dois canais exige classificar a gravação como dois conteúdos diferentes.",
+      "correctAnswer": "E",
+      "explanation": "O art. 2º distingue a informação difundida do meio que a transmite. Alterar o meio não torna a gravação um conteúdo diferente."
+    },
+    {
+      "id": "cam-cs-projeto-no-programa-ciclico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "projeto-no-programa-ciclico",
+      "mechanism": "projeto-no-programa-ciclico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      },
+      "statement": "Um programa permanente pode reunir uma série semanal de boletins e um projeto de seis meses para reformular o formato desses boletins.",
+      "correctAnswer": "C",
+      "explanation": "O programa admite ações permanentes ou cíclicas. A reformulação com duração definida pode constituir projeto que o integra."
+    },
+    {
+      "id": "cam-cs-prazo-do-contrato-e-duracao-do-projeto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "prazo-do-contrato-e-duracao-do-projeto",
+      "mechanism": "prazo-do-contrato-e-duracao-do-projeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      },
+      "statement": "A contratação anual de um serviço de publicação basta para converter a atividade permanente de manutenção de uma página em projeto, mesmo sem duração definida para o conjunto de ações.",
+      "correctAnswer": "E",
+      "explanation": "O art. 2º exige duração definida para o próprio conjunto de ações que constitui o projeto. O prazo de contratação tem objeto distinto."
+    },
+    {
+      "id": "cam-cs-acao-pontual-em-duas-frentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "acao-pontual-em-duas-frentes",
+      "mechanism": "acao-pontual-em-duas-frentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      },
+      "statement": "Uma oficina de divulgação legislativa com objetivo específico pode ser uma ação de comunicação dentro de um projeto mais amplo, mesmo que não tenha estrutura de projeto próprio.",
+      "correctAnswer": "C",
+      "explanation": "A ação é a atividade voltada a um objetivo específico. O ato admite sua inclusão em projetos e programas."
+    },
+    {
+      "id": "cam-cs-processo-vigente-adequacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "processo-vigente-adequacao",
+      "mechanism": "processo-vigente-adequacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      },
+      "statement": "Um fluxo de aprovação editorial que já existia antes da Política de Comunicação fica dispensado de adequação apenas por estar em funcionamento na data de sua publicação.",
+      "correctAnswer": "E",
+      "explanation": "O art. 3º inclui expressamente os processos de trabalho vigentes das unidades abrangidas."
+    },
+    {
+      "id": "cam-cs-reclamacao-sem-vinculo-com-camara",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "reclamacao-sem-vinculo-com-camara",
+      "mechanism": "reclamacao-sem-vinculo-com-camara",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      },
+      "statement": "Uma pessoa que não trabalha na Câmara pode reclamar à Ouvidoria Parlamentar de conteúdo que considere impróprio, mesmo sem alegar prejuízo individual.",
+      "correctAnswer": "C",
+      "explanation": "O art. 4º abre essa via a qualquer pessoa que considere o conteúdo impróprio ou em desconformidade com a política."
+    },
+    {
+      "id": "cam-cs-reclamacao-por-atendimento-ao-cidadao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "reclamacao-por-atendimento-ao-cidadao",
+      "mechanism": "reclamacao-por-atendimento-ao-cidadao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      },
+      "statement": "O serviço de atendimento ao cidadão precisa encaminhar a pessoa à Ouvidoria para que ela possa apresentar reclamação por desconformidade com a política, pois o ato só admite recebimento pela Ouvidoria.",
+      "correctAnswer": "E",
+      "explanation": "O art. 4º admite reclamação à Ouvidoria Parlamentar ou aos serviços de atendimento ao cidadão."
+    },
+    {
+      "id": "cam-cs-penalidades-em-normas-pertinentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "penalidades-em-normas-pertinentes",
+      "mechanism": "penalidades-em-normas-pertinentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
+      },
+      "statement": "Para determinar a penalidade cabível por descumprimento da Política de Comunicação, é necessário consultar a legislação e os normativos internos pertinentes.",
+      "correctAnswer": "C",
+      "explanation": "O art. 3º remete às penalidades previstas nesses instrumentos."
     }
   ]
 }

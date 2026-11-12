@@ -98,3 +98,5 @@ Oito itens adicionais sobre requisitos, públicos, canais e atribuições foram 
 Oito casos adicionais sobre vedações dos arts. 11 e 12 e do dispositivo remetido. As questões da remissão ainda serão cotejadas com o texto atualizado do Ato da Mesa nº 80/2019 antes da homologação. O lote soma 24 itens redigidos.
 
 Oito itens adicionais sobre atribuições da Assessoria de Imprensa, participação e arquitetura do Manual, vinculados ao artigo 73. O lote soma 32 itens redigidos. A publicação original e o texto atualizado do Ato nº 80/2019 confirmaram os incisos I, IV e VI; a conferência direta do inciso VIII permanece pendente.
+
+Redação encerrada com 40 itens. Os oito últimos cobrem os arts. 2º a 4º, com gabaritos cotejados na publicação original do Ato nº 218/2025. A revisão final deve comparar mecanismos próximos de projeto e programa, reclamação e nomeação editorial.

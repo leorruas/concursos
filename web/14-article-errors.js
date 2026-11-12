@@ -15,7 +15,20 @@
   if(q.section){
    const a=el('a','erros-artigo-link','Ir ao trecho da teoria');
    a.href=window.construirRotaArtigoId?construirRotaArtigoId(article.articleSlug||article.articleId,q.section,contest):'#';
-   a.addEventListener('click',()=>{document.querySelector('main')?.scrollIntoView({behavior:'smooth'});});
+   a.addEventListener('click',(event)=>{
+    if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||event.button!==0)return;
+    if(typeof irParaSecaoArtigo!=='function')return;
+    event.preventDefault();
+    if(!irParaSecaoArtigo(q.section,'smooth')){
+     a.textContent='Trecho não localizado nesta versão do artigo';
+     a.removeAttribute('href');
+     return;
+    }
+    // Atualiza o link compartilhável sem recarregar o artigo e fechar os erros.
+    if(location.hash!==a.getAttribute('href')){
+     history.pushState({artigo:article.titulo,categoria:article.categoria,secao:q.section},'',a.getAttribute('href'));
+    }
+   });
    d.append(a);
   }
   return d;

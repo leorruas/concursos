@@ -24,4 +24,4 @@ jobs:
       - run: node scripts/validate-search-governance.js
       - run: node scripts/build-site.js
       - run: node scripts/test-public-privacy.js && node scripts/validate-flashcards.js --site && node scripts/test-public-projects.js && node scripts/test-glossary.js && node scripts/test-glossary-flashcards.js
-      - run: node scripts/validate-search-index.js && node scripts/test-search-index.js && node scripts/test-search-routing.js && node scripts/test-search-ranking.js
+      - run: node scripts/validate-search-index.js && node scripts/test-search-index.js && node scripts/test-search-routing.js && node scripts/test-search-ranking.js && node scripts/test-results-deeplinks.js

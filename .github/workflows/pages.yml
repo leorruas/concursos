@@ -80,6 +80,8 @@ jobs:
         run: node scripts/test-search-index.js
       - name: Testar deep links da busca
         run: node scripts/test-search-routing.js
+      - name: Testar links para trechos teóricos nos resultados
+        run: node scripts/test-results-deeplinks.js
       - name: Testar ordenação dos hubs das matérias
         run: node scripts/test-hub-ordering.js
       - name: Testar wikilinks em tabelas Markdown

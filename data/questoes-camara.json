@@ -11035,12 +11035,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção gráfica",
       "articleId": "art-58a3d91e6c427bf0",
-      "conceptId": "marca-de-fundo-e-texto-protegido",
-      "mechanism": "marca-de-fundo-e-texto-protegido",
+      "conceptId": "marcas-de-corte-e-arte-de-fundo",
+      "mechanism": "marcas-de-corte-e-arte-de-fundo",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-58a3d91e6c427bf0#Sangria, linha de corte e área segura: direções opostas"
       ],
@@ -11048,9 +11048,10 @@
         "path": "3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md",
         "section": "Sangria, linha de corte e área segura: direções opostas"
       },
-      "statement": "Para imprimir um fundo até a borda e proteger um endereço próximo à margem, pode-se estender o fundo além da linha de corte e deslocar o endereço para dentro da área segura.",
-      "correctAnswer": "C",
-      "explanation": "A extensão do fundo acomoda variações do corte. A área segura protege informações que não podem ser cortadas."
+      "statement": "Adicionar marcas de corte fora do formato final corrige um fundo que termina exatamente na linha de corte, mesmo que a arte permaneça sem extensão além dela.",
+      "correctAnswer": "E",
+      "explanation": "As marcas indicam a posição do corte. A sangria exige que o próprio fundo avance além dessa linha para tolerar desvios.",
+      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito."
     },
     {
       "id": "cam-di-resolucao-com-recorte-e-ampliacao",
@@ -11089,12 +11090,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção digital",
       "articleId": "art-d64c8e1b705a392f",
-      "conceptId": "ordem-visual-e-ordem-de-leitura",
-      "mechanism": "ordem-visual-e-ordem-de-leitura",
+      "conceptId": "ordem-responsiva-com-rotulos",
+      "mechanism": "ordem-responsiva-com-rotulos",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-d64c8e1b705a392f#Responsividade, reflow e ordem de leitura"
       ],
@@ -11102,9 +11103,10 @@
         "path": "3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md",
         "section": "Responsividade, reflow e ordem de leitura"
       },
-      "statement": "Em uma página responsiva, mover visualmente um aviso para o topo garante que ele também será lido primeiro por tecnologias assistivas, mesmo que a ordem estrutural permaneça a mesma.",
-      "correctAnswer": "E",
-      "explanation": "A reorganização visual pode divergir da estrutura que orienta a leitura. É preciso verificar a ordem de leitura após a adaptação."
+      "statement": "Se uma adaptação empilha cartões de inscrição no celular, convém testar se cada rótulo é lido junto ao controle que ele descreve, ainda que os cartões tenham a mesma aparência da versão ampla.",
+      "correctAnswer": "C",
+      "explanation": "A reorganização pode alterar as relações percebidas na leitura. O teste verifica a associação entre instruções e controles na nova disposição.",
+      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito."
     },
     {
       "id": "cam-di-vetor-e-informacao-textual",
@@ -11440,12 +11442,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção gráfica",
       "articleId": "art-58a3d91e6c427bf0",
-      "conceptId": "gramatura-e-espessura",
-      "mechanism": "gramatura-e-espessura",
+      "conceptId": "papel-e-massa-do-lote",
+      "mechanism": "papel-e-massa-do-lote",
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-58a3d91e6c427bf0#Papel e suportes: gramatura, espessura e acabamento superficial"
       ],
@@ -11453,9 +11455,10 @@
         "path": "3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md",
         "section": "Papel e suportes: gramatura, espessura e acabamento superficial"
       },
-      "statement": "Dois papéis de 120 gramas por metro quadrado têm necessariamente a mesma espessura.",
-      "correctAnswer": "E",
-      "explanation": "A gramatura mede massa por área. Estrutura e compactação podem produzir espessuras diferentes."
+      "statement": "Para estimar a massa de 500 folhas de 0,1 metro quadrado em papel de 120 gramas por metro quadrado, pode-se usar a gramatura sem conhecer a espessura.",
+      "correctAnswer": "C",
+      "explanation": "A área total é 50 metros quadrados. Multiplicada pela gramatura, resulta em 6.000 gramas.",
+      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito."
     },
     {
       "id": "cam-di-prova-com-acabamento-distinto",
@@ -11629,12 +11632,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
       "articleId": "art-7e42b19c5a603fd8",
-      "conceptId": "download-sem-leitura",
-      "mechanism": "download-sem-leitura",
+      "conceptId": "downloads-em-versoes-distintas",
+      "mechanism": "downloads-em-versoes-distintas",
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-7e42b19c5a603fd8#Distribuição digital: eventos, pessoas e conteúdo"
       ],
@@ -11642,9 +11645,10 @@
         "path": "3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md",
         "section": "Distribuição digital: eventos, pessoas e conteúdo"
       },
-      "statement": "O mesmo leitor pode baixar a publicação duas vezes sem lê-la.",
-      "correctAnswer": "C",
-      "explanation": "Downloads contam eventos de obtenção do arquivo. A leitura exige outra evidência."
+      "statement": "Somar 100 downloads da edição original e 50 da corrigida identifica 150 leitores que receberam a correção.",
+      "correctAnswer": "E",
+      "explanation": "A soma mistura versões e conta eventos. Para verificar alcance da correção, é necessário observar a edição corrigida e distinguir eventos de pessoas.",
+      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito."
     },
     {
       "id": "cam-di-enquete-de-leitores-vs-nao-leitores",

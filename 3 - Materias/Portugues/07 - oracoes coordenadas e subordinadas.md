@@ -178,10 +178,10 @@ A oração caracteriza `os candidatos`.
 A FGV explora especialmente a oposição:
 
 > Os candidatos **que estudaram** foram aprovados.  
-> restritiva: somente o subconjunto que estudou.
+> restritiva: delimita os candidatos aos quais a aprovação é atribuída pela oração; **não demonstra que existam candidatos que não estudaram**.
 
 > Os candidatos, **que estudaram**, foram aprovados.  
-> explicativa: a informação é apresentada como referente ao conjunto mencionado.
+> explicativa: apresenta a informação adicional sobre **o conjunto de candidatos identificado pelo contexto**, sem afirmar algo necessariamente válido para todos os candidatos possíveis.
 
 A pontuação altera o alcance do enunciado.
 

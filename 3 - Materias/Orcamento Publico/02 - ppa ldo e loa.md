@@ -1,7 +1,7 @@
 ---
 articleId: art-c301f2c741504403
 articleAliases: ["3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md"]
-title: "PPA, LDO e LOA: sistema constitucional de planejamento e orçamento"
+title: "Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA): sistema de planejamento e orçamento"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
@@ -14,13 +14,13 @@ aliases:
   - "PPA LDO LOA"
 ---
 
-# PPA, LDO e LOA: sistema constitucional de planejamento e orçamento
+# Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA): sistema de planejamento e orçamento
 
 ## Núcleo do conceito
 
-A Constituição Federal, art. 165, estabelece três leis de iniciativa do **Poder Executivo**: Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA). Elas organizam **planejamento de médio prazo, orientação fiscal e programação anual**, respectivamente. O Congresso Nacional aprecia os projetos no plano federal; iniciativa e deliberação legislativa são papéis distintos.
+O art. 165 da Constituição Federal (CF) estabelece três leis de iniciativa do **Poder Executivo**: Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA). Elas organizam **planejamento de médio prazo, orientação fiscal e programação anual**, respectivamente. O Congresso Nacional aprecia os projetos no plano federal; iniciativa e deliberação legislativa são papéis distintos.
 
-**Nota de leitura: o que é o ADCT?** O **Ato das Disposições Constitucionais Transitórias (ADCT)** integra a Constituição de 1988 e possui **hierarquia constitucional**, assim como suas disposições permanentes. **Não é uma lei ordinária nem complementar separada.** Reúne normas que organizam transições entre regimes jurídicos ou estabelecem regras aplicáveis enquanto outras normas não entram em vigor. *Transitório* não significa que o dispositivo tenha perdido a validade: é preciso verificar a condição ou o prazo de cada regra. No orçamento, o **art. 35, § 2º, do ADCT** estabelece regras sobre PPA, LDO e LOA até a entrada em vigor da lei complementar prevista no art. 165, § 9º, nos pontos indicados pelo próprio dispositivo. Texto oficial: [ADCT no Senado](https://legis.senado.leg.br/norma/604119) e [art. 35 no STF](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=35&abrirBase=AD).
+**Nota de leitura: Ato das Disposições Constitucionais Transitórias (ADCT).** O ADCT integra a Constituição de 1988 e possui **hierarquia constitucional**, assim como suas disposições permanentes. **Não é uma lei ordinária nem complementar separada.** Reúne normas que organizam transições entre regimes jurídicos ou estabelecem regras aplicáveis enquanto outras normas não entram em vigor. *Transitório* não significa que o dispositivo tenha perdido a validade: é preciso verificar a condição ou o prazo de cada regra. No orçamento, o **art. 35, § 2º, do ADCT** estabelece regras sobre PPA, LDO e LOA até a entrada em vigor da lei complementar prevista no art. 165, § 9º, nos pontos indicados pelo próprio dispositivo. Texto oficial: [ADCT no Senado](https://legis.senado.leg.br/norma/604119) e [art. 35 no Supremo Tribunal Federal (STF)](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=35&abrirBase=AD).
 
 Imagine uma política de expansão da rede de atendimento à saúde. O **PPA** estrutura objetivos e metas de médio prazo; a **LDO** define prioridades e diretrizes para a preparação do orçamento de cada exercício; a **LOA** estima receitas e fixa despesas para ações naquele ano. A execução e o controle são passos posteriores e transversais. A relação serve para lembrar os instrumentos, mas o conteúdo jurídico de cada um vai além desse resumo.
 
@@ -117,9 +117,9 @@ A referência à **“administração pública federal”** no art. 165, § 2º,
 
 **Autarquias não editam LDO própria**. Embora disponham de autonomia administrativa e financeira dentro da lei, não têm competência legislativa para instituir outra LDO. Suas programações orçamentárias integram os orçamentos do ente federativo ao qual pertencem e devem observar as diretrizes correspondentes. Assim, uma autarquia federal segue a LDO da União; uma estadual, a do estado; uma municipal, a do município.
 
-**Participação da autarquia na elaboração:** a autarquia pode identificar suas necessidades, preparar a **proposta orçamentária de sua unidade** e encaminhá-la pelos canais setoriais do sistema de planejamento e orçamento; pode também fornecer subsídios e sugestões técnicas para o **projeto da LDO (PLDO)**. No plano federal, a **Secretaria de Orçamento Federal (SOF)** coordena e consolida o processo técnico do PLDO, com participação de órgãos setoriais e unidades orçamentárias. O **Poder Executivo** tem a iniciativa do projeto de lei e o encaminha ao Congresso; a **aprovação** cabe ao Legislativo. O fluxo exato de elaboração da LOA e do PLDO é diferente, e as competências de outros Poderes e órgãos constitucionalmente autônomos têm regras próprias.
+**Participação da autarquia na elaboração:** a autarquia pode identificar suas necessidades, preparar a **proposta orçamentária de sua unidade** e encaminhá-la pelos canais setoriais do sistema de planejamento e orçamento; pode também fornecer subsídios e sugestões técnicas para o **Projeto de Lei de Diretrizes Orçamentárias (PLDO)**. No plano federal, a **Secretaria de Orçamento Federal (SOF)** coordena e consolida o processo técnico do PLDO, com participação de órgãos setoriais e unidades orçamentárias. O **Poder Executivo** tem a iniciativa do projeto de lei e o encaminha ao Congresso; a **aprovação** cabe ao Legislativo. O fluxo exato de elaboração da LOA e do PLDO é diferente, e as competências de outros Poderes e órgãos constitucionalmente autônomos têm regras próprias.
 
-**Exemplo:** o INSS pode apresentar necessidades orçamentárias e dados para fundamentar propostas; a LDO federal continua sendo **uma lei da União**, de iniciativa do presidente da República, e não uma lei proposta pelo INSS.
+**Exemplo:** o Instituto Nacional do Seguro Social (INSS) pode apresentar necessidades orçamentárias e dados para fundamentar propostas; a LDO federal continua sendo **uma lei da União**, de iniciativa do presidente da República, e não uma lei proposta pelo INSS.
 
 **Fronteira de prova:** a LDO pertence ao **ente federativo**; a autarquia é **entidade abrangida pelo planejamento e orçamento desse ente**. Não confundir autonomia administrativa de pessoa jurídica da administração indireta com autonomia política de ente federativo.
 
@@ -161,19 +161,19 @@ A Constituição, art. 165, § 8º, determina que a LOA não conterá dispositiv
 
 A ideia “a LOA não pode conter absolutamente nenhuma outra autorização” falha porque ignora as exceções constitucionais expressas. Em contrapartida, essas exceções **não** autorizam inserir qualquer matéria administrativa ou tributária na LOA.
 
-## MTO 2027: linha de base e orçamento de médio prazo
+## Manual Técnico de Orçamento (MTO) 2027: linha de base e orçamento de médio prazo
 
 No [MTO 2027, 3ª versão, capítulo 7, pp. 169–177](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027), há três estágios do marco de gasto: **Marco Fiscal de Médio Prazo (MFMP)**, **Marco Orçamentário de Médio Prazo (MOMP)** e **Marco de Desempenho de Médio Prazo (MDMP)**. São instrumentos de planejamento, não substitutos das leis **PPA, LDO e LOA**.
 
 A **linha de base da despesa** estima os custos de **manter as políticas existentes**, com ajustes de preços, volumes e compromissos já assumidos. Em regra, não incorpora criação ou expansão relevante de políticas. O **MOMP** é mais amplo: usa a linha de base como insumo, além de poder considerar novas iniciativas, expansão e revisão de gastos. **Previsão indicativa plurianual não é dotação autorizada em exercícios futuros**.
 
-**Para o PLOA 2027**, o MTO estendeu a apuração de linhas de base a **todas as despesas dos orçamentos fiscal e da seguridade social da União**, com projeções para **2028–2030** no módulo **LOA – Médio Prazo** do SIOP. Nesse módulo, as projeções do ciclo 2027 devem conter **somente linhas de base**, sem referenciais monetários prévios para essas estimativas. A regra é operacional desse ciclo, não autorização legislativa futura.
+**Para o PLOA 2027**, o MTO estendeu a apuração de linhas de base a **todas as despesas dos orçamentos fiscal e da seguridade social da União**, com projeções para **2028–2030** no módulo **LOA – Médio Prazo** do Sistema Integrado de Planejamento e Orçamento (SIOP). Nesse módulo, as projeções do ciclo 2027 devem conter **somente linhas de base**, sem referenciais monetários prévios para essas estimativas. A regra é operacional desse ciclo, não autorização legislativa futura.
 
-**Fundamentos diferentes:** o **art. 165, § 14, da CF** permite previsões de despesa para exercícios seguintes na LOA; o **art. 4º, § 5º, da LRF** exige projeções plurianuais do marco fiscal no Anexo de Metas Fiscais da LDO federal; o **art. 5º, V, da LRF**, incluído pela LC 224/2025, estabelece anexo de estimativa de despesas para os períodos previstos em lei. Diferenciar essas exigências da apuração técnica da linha de base.
+**Fundamentos diferentes:** o **art. 165, § 14, da CF** permite previsões de despesa para exercícios seguintes na LOA; o **art. 4º, § 5º, da LRF** exige projeções plurianuais do marco fiscal no Anexo de Metas Fiscais da LDO federal; o **art. 5º, V, da LRF**, incluído pela Lei Complementar (LC) nº 224/2025, estabelece anexo de estimativa de despesas para os períodos previstos em lei. Diferenciar essas exigências da apuração técnica da linha de base.
 
 **Caso progressivo:** manter o atendimento de uma unidade existente custa R$ 8 milhões em 2027 e R$ 8,4 milhões estimados em 2028 por inflação: o custo futuro pode integrar a linha de base. Instalar três novas unidades é **expansão**, a ser analisada separadamente. Nenhum desses números constitui, por si, dotação aprovada em LOA futura.
 
-**Item C/E inédito (Câmara/Cebraspe).** A linha de base da despesa do MTO 2027 deve incluir automaticamente os custos de políticas novas ainda não aprovadas, pois substitui a função do PPA.
+**Item inédito de Certo ou Errado (C/E), no padrão Cebraspe da Câmara.** A linha de base da despesa do MTO 2027 deve incluir automaticamente os custos de políticas novas ainda não aprovadas, pois substitui a função do PPA.
 
 **Gabarito: Errado.** Linha de base é a projeção de **continuidade das políticas atuais**, e o MOMP pode considerar expansão; nenhum substitui o PPA. [MTO 2027, cap. 7, seções 7.1 a 7.3](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2027%3Amto2027.pdf).
 
@@ -261,8 +261,8 @@ Para a vigência do PPA, lembrar: **segundo ano de um mandato → primeiro ano d
 - Constituição Federal vigente, arts. 165 a 167, e ADCT, art. 35, § 2º: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
 - Texto organizado do art. 165 no Senado: https://legis.senado.leg.br/norma/579494/publicacao/16434817
 - Lei Complementar nº 101/2000 (LRF), arts. 1º, §§ 2º e 3º, 2º, III, e 4º: https://legis.senado.leg.br/norma/572856/publicacao/34621009
-- Manual Técnico do Orçamento (MTO), capítulo de classificação da despesa por esfera: https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4
-- Manual Técnico do Orçamento de Investimento (MTOI 2026), item 5.1 (classificação das estatais): https://www.gov.br/gestao/pt-br/assuntos/estatais/orcamento/MTOI_2026.pdf
+- Manual Técnico de Orçamento (MTO), capítulo de classificação da despesa por esfera: https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4
+- Manual Técnico do Orçamento de Investimento (MTOI), edição 2026, item 5.1 (classificação das estatais): https://www.gov.br/gestao/pt-br/assuntos/estatais/orcamento/MTOI_2026.pdf
 - Congresso Nacional, Glossário Orçamentário: [Orçamento de Investimento de Empresa Estatal](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-orcamentario/-/orcamentario/termo/orcamento_de_investimento_de_empresa_estatal)
 - Senado, *Legislação Orçamentária*: https://www12.senado.leg.br/orcamento/legislacao-orcamentaria
 - Manual Técnico de Orçamento (MTO 2027, 3ª versão publicada em 07/07/2026), capítulo 5: elaboração da LDO; a atualização também inclui capítulo 7, Orçamentação de Médio Prazo: https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027

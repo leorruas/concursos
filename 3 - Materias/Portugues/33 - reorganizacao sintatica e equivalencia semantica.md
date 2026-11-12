@@ -23,7 +23,7 @@ Considere o período original:
 Veja três tentativas de reorganização sintática avaliadas pelo Cebraspe:
 
 1. **Tentativa 1 (Nominalização + Voz Passiva):** *"Reconhecida a constitucionalidade da proposta pela Comissão de Constituição e Justiça, a matéria foi incluída na Ordem do Dia pela Mesa Diretora, a fim de ser deliberada com urgência pelo Plenário."*
-   * **Julgamento:** **PERFEITA**. A oração adverbial causal (*"Como a CCJ reconheceu..."*) foi convertida em oração reduzida de particípio na voz passiva (*"Reconhecida a constitucionalidade..."*); a oração principal ativa virou passiva analítica (*"a matéria foi incluída..."*); e a oração final (*"para que o Plenário a deliberasse"*) virou reduzida de infinitivo passiva (*"a fim de ser deliberada..."*), preservando **100% do sentido, dos papéis temáticos (quem fez o quê) e da correção gramatical**.
+   * **Julgamento:** **REESCRITA POSSÍVEL COM RESSALVA**. A oração causal com *como* foi substituída por construção reduzida de particípio (*"Reconhecida a constitucionalidade..."*), que **pode ser lida temporal ou causalmente** conforme o contexto. A principal passou à voz passiva analítica e a finalidade tornou-se infinitiva passiva, mantendo os agentes explicitados. A equivalência causal estrita **não fica assegurada pela redução isoladamente**. Para mantê-la inequívoca, prefira *"Como a constitucionalidade da proposta foi reconhecida pela CCJ, a matéria foi incluída..."*.
 2. **Tentativa 2 (Inversão de Causa e Consequência):** *"A Comissão de Constituição e Justiça reconheceu a constitucionalidade da proposta porque a Mesa Diretora incluiu a matéria na Ordem do Dia..."*
    * **Julgamento:** **ERRADA (Inversão causal)**. Embora gramaticalmente correta, transferiu a conjunção causal para a segunda oração, transformando a consequência (inclusão na Ordem do Dia) em causa do reconhecimento da constitucionalidade.
 3. **Tentativa 3 (Quebra de Paralelismo Sintático):** *"A comissão decidiu **pela aprovação** do relatório e **arquivar** as emendas inconstitucionais."*
@@ -35,7 +35,7 @@ Esta unidade sistematiza as cinco grandes operações de **reorganização sint�
 
 ## 2. As cinco operações de reorganização sintática e equivalência semântica
 
-Uma **paráfrase estrutural válida** é aquela em que mudam as estruturas morfossintáticas de superfície, mas permanecem invariantes a **proposição lógica de base**, os **papéis temáticos** (agente, paciente, destinatário) e as **relações lógico-discursivas** (causa, concessão, condição, finalidade, tempo).
+Uma **paráfrase estrutural válida** é aquela em que mudam estruturas morfossintáticas de superfície e permanecem preservados, conforme o comando, a **proposição de base**, os **papéis temáticos** (agente, paciente, destinatário) e as **relações lógico-discursivas** (causa, concessão, condição, finalidade, tempo). A troca de uma oração desenvolvida por reduzida pode **introduzir leitura temporal ou causal concorrente**; esse efeito precisa ser testado, em vez de presumir equivalência automática.
 
 ```mermaid
 flowchart TD
@@ -122,7 +122,7 @@ Substituir um verbo por um substantivo abstrato cognato (**nominalização**) co
 
 Um dos testes mais elegantes do Cebraspe consiste em inverter os blocos da frase trocando um verbo ou conector de **causa** (*causar, provocar, gerar, acarretar, porque*) por um de **consequência/origem** (*decorrer de, resultar de, advir de, provir de, portanto*):
 
-* **Equivalência Lógica Verdadeira:**
+* **Exemplo de equivalência causal quando os referentes e a relação entre eventos permanecem explícitos:**
   $$\text{"A falta de quórum (\textbf{Causa}) \textbf{provocou} o adiamento da sessão (\textbf{Efeito})."}$$
   $$\equiv$$
   $$\text{"O adiamento da sessão (\textbf{Efeito}) \textbf{decorreu da / resultou da} falta de quórum (\textbf{Causa})."}$$

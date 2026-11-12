@@ -128,3 +128,7 @@ O lote soma 32 itens redigidos. Os oito novos cobrem aspecto, anterioridade, hip
 ## Lote 020: Português, 40 itens validados
 
 Os 32 itens preparados no PR #22 foram cotejados individualmente por conceito, gabarito e explicação com os respectivos artigos 14, 18, 19, 20, 21, 24 e 25. Foram criados mais oito casos sobre pontuação, concordância, regência, crase, colocação pronominal, paronímia, reescrita e voz passiva, ancorados nos artigos 26 a 33. Verificação de IDs, enunciados e referências, com triagem de similaridade lexical do novo conjunto contra o banco. As 40 questões estão marcadas `validada` e possuem evidência editorial individual. A aprovação do CI permanece condição para integração. Total novo previsto após a integração: 800/2.000; próxima matéria: Direito Administrativo.
+
+## Lote 021: Direito Administrativo, 40 itens validados
+
+Quarenta itens sobre Estado/Governo/Administração, organização administrativa, atos e atributos, anulação e revogação, pareceres, Lei nº 8.112/1990, Lei nº 9.784/1999 e poderes administrativos, vinculados a onze artigos canônicos. Gabaritos e explicações revisados; dispositivos de posse, exercício, delegação, avocação, recursos e impedimentos cotejados com as leis consolidadas no Planalto. Distribuição: 20 Certo e 20 Errado. Triagem de similaridade com as questões históricas e a expansão não sinalizou pares acima de 0,35. Validação técnica no CI exigida antes da integração. Total previsto de novas questões validadas: 840/2.000.

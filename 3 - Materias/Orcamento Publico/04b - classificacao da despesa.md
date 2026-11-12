@@ -225,5 +225,5 @@ Itens inéditos para aprendizagem, sem equivalência afirmada com provas reais.
 
 - [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Mapa transversal de classificações]]; [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|Esferas da LOA e estatais]].
 - [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Estágios da despesa]] e [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação financeira]].
-- [MTO 2026](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026); [MTO, capítulo 4](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4); [Lei nº 4.320/1964, art. 12](https://legis.senado.leg.br/norma/546169/publicacao/34620275); [MCASP 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1).
+- [MTO 2027, 3ª versão (07/07/2026), capítulo 4, classificação da despesa](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027); [Lei nº 4.320/1964, art. 12](https://legis.senado.leg.br/norma/546169/publicacao/34620275); [MCASP 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1).
 

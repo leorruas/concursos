@@ -47,7 +47,7 @@ graph TD
 - **Igualdade:**  
   *as + adjetivo/advérbio + as* (afirmativa) e *not as / not so + adjetivo + as* (negativa).
   - *Digital public consultation is **as effective as** traditional town hall meetings.*
-  - Na negativa (*Digital consultation is not as expensive as physical hearings*), estabelece-se implicitamente uma relação de inferioridade da primeira em relação à segunda (*Digital is less expensive than physical*), operação que o Cebraspe frequentemente cobra em reescritas.
+  - Na negativa (*Digital consultation is not as expensive as physical hearings*), estabelece-se implicitamente uma relação de inferioridade da primeira em relação à segunda (*Digital is less expensive than physical*), operação relevante para avaliar reescritas e inferências em inglês.
 - **Superioridade Relativa:**
   - Adjetivos curtos (1 ou 2 sílabas com *-y*): acréscimo de *-er than* (*faster, stricter, simpler, narrower*).
   - Adjetivos longos (2 ou mais sílabas): *more + adjetivo + than* (*more comprehensive than, more transparent than*).
@@ -88,7 +88,7 @@ A presença ou ausência do artigo indefinido *a* altera radicalmente a polarida
 - **Exemplo 2:**  
   *The committee had **a few reasons** to suspect administrative fraud.*  
   $\rightarrow$ Significa: O comitê tinha alguns motivos concretos de suspeita (valor positivo).
-- O Cebraspe frequentemente propõe substituir *few* por *a few* (ou *little* por *a little*) afirmando que o sentido original seria rigorosamente preservado, o que é **falso**.
+- Um item que substitua *few* por *a few* (ou *little* por *a little*) e afirme preservação integral de sentido exige atenção à perspectiva do enunciador: a troca normalmente altera a orientação avaliativa, ainda que ambas as expressões se refiram a pequenas quantidades.
 
 ### 2.2. A Escala de Quantificadores e Delimitadores de Escopo
 

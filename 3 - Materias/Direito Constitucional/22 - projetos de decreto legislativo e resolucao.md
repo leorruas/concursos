@@ -74,6 +74,14 @@ O **art. 59, VII**, da CF abriga **resoluções**, mas o órgão que as produz d
 
 **Resolução não significa apenas gestão interna.** Resoluções do Senado podem operar em **matérias de finanças públicas**, com efeitos normativos relevantes fora da organização da Casa (CF, **art. 52, V a IX**, conforme o objeto). A regra de classificação é a **competência constitucional**, não a ideia de que “resolução trata sempre de assuntos domésticos”.
 
+### Congresso: resolução de delegação e cômputo separado das Casas
+
+O **projeto de resolução do Congresso (PRN)** que concede delegação legislativa ao Presidente da República (CF, art. 68, § 2º) tramita em **sessão conjunta**, conforme o RCCN, arts. 119 a 122. A sessão conjunta **não reúne os votos em um total único**: o art. 43 do Regimento Comum manda computar **separadamente** os votos da Câmara e do Senado e determina que o voto contrário de uma das Casas acarreta a rejeição da matéria. Isso distingue **resolução do Congresso** de duas resoluções autônomas de cada Casa, mas também impede tratar o PRN como decisão de um plenário de 594 votos indiferenciados. [RCCN consolidado](https://legis.senado.leg.br/norma/561098/publicacao/36852069).
+
+**Caso progressivo:** (a) a Câmara altera seu regimento: **PRC/RCD**, matéria interna da Câmara; (b) o Senado fixa limites de endividamento nas hipóteses constitucionais: **PRS/RSF**; (c) o Congresso autoriza lei delegada: **PRN/RCN**, deliberado em sessão conjunta com contagem dos votos por Casa. A troca do **órgão competente** muda a espécie de resolução e o procedimento.
+
+**C/E complementar inédito:** “Por ser discutido em sessão conjunta, o projeto de resolução do Congresso que autoriza lei delegada prescinde de votação separada entre Câmara e Senado, bastando maioria global dos congressistas presentes.” **Errado.** O RCCN, art. 43, determina cômputo separado e rejeição da matéria se uma das Casas votar contra. Sobre conteúdo, termos e prazo da autorização, consultar [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|lei delegada e delegação legislativa]].
+
 ### Câmara: art. 109, III, do RICD
 
 O RICD prevê, entre os objetos de resolução, **matéria regimental**, **economia interna e serviços administrativos**, **perda de mandato em hipóteses constitucionais** e situações envolvendo **Comissões Parlamentares de Inquérito (CPIs)**, propostas de fiscalização e controle, petições, representações e reclamações.

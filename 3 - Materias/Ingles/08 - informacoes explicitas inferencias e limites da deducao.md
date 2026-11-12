@@ -77,9 +77,9 @@ Assim como em português, o inglês acadêmico e institucional utiliza marcadore
 | :--- | :--- | :--- | :--- |
 | **Change of state verbs** | Verbos de mudança de estado (*stop, cease, discontinue, resume, begin, start*) | A existência ou cessação prévia do estado ou da prática. | *"The committee **stopped** holding closed-door hearings."* $\rightarrow$ **Pressupõe que**, anteriormente, a comissão realizava audiências a portas fechadas. |
 | **Iterative adverbs and prefixes** | Advérbios e prefixos iterativos (*again, no longer, still, re-*) | A reiteração ou persistência de um evento ao longo do tempo. | *"The opposition **no longer** boycotts the voting sessions."* $\rightarrow$ **Pressupõe que**, no passado, a oposição boicotava as votações. |
-| **Factive verbs and predicates** | Predicados factivos (*realize, acknowledge, regret, be aware of, reveal, expose*) | A verdade incondicional da oração subordinada completiva. | *"The government **acknowledged that** public debt had exceeded legal thresholds."* $\rightarrow$ É **fato verdadeiro e incontroverso** que a dívida ultrapassou o teto. |
+| **Factive verbs and predicates** | Predicados factivos (*realize, acknowledge, regret, be aware of, reveal, expose*) | O conteúdo da subordinada é apresentado como pressuposto pelo enunciador; isso não constitui verificação independente do fato no mundo externo. | *"The government **acknowledged that** public debt had exceeded legal thresholds."* $\rightarrow$ O enunciador trata o excesso de dívida como informação dada; o leitor não pode afirmar sua veracidade externa apenas pela escolha verbal. |
 | **Definite descriptions and cleft sentences** | Descrições definidas e estruturas clivadas (*It was X that...*) | A existência e unicidade do referente ou do agente exclusivo. | *"It was **the audit report** that prompted the parliamentary inquiry."* $\rightarrow$ **Pressupõe que** uma investigação foi aberta e que o estopim foi o relatório de auditoria. |
-| **Counterfactual conditionals** | Orações condicionais contrafactuais (*Third Conditional: If + had + past participle, would have...*) | O fato real ocorrido no passado foi o **oposto** da hipótese formulada. | *"If the speaker **had pauted** the bill, it **would have passed**."* $\rightarrow$ **Fato real inferível:** o presidente **não pautou** o projeto, e o projeto **não foi aprovado**. |
+| **Counterfactual conditionals** | Orações condicionais contrafactuais (*Third Conditional: If + had + past participle, would have...*) | Em leitura contrafactual típica, o enunciador apresenta a condição como não realizada e o resultado como não ocorrido; a implicação pragmática depende do contexto. | *"If the speaker **had scheduled** the bill for a vote, it **would have passed**."* $\rightarrow$ **Fato real inferível:** o presidente **não pautou** o projeto, e o projeto **não foi aprovado**. |
 
 ---
 
@@ -148,8 +148,8 @@ Considere o seguinte excerto inspirado em relatórios da OCDE sobre parlamentos 
 > **Com base no texto acima, julgue os itens a seguir:**
 
 **Item 1.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* According to the text, publishing legislative voting records online led to an immediate increase in website traffic and media coverage, but failed to generate a measurable improvement in citizens' trust in political institutions.
-* **Gabarito:** **CERTO**.
-* **Fundamentação:** Paráfrase rigorosa e perfeita das informações explícitas do primeiro período: o texto afirma que a acessibilidade digital *"substantially increased website traffic and media citations"* (tráfego e cobertura da mídia), mas pesquisas mostraram *"no statistically significant shift in citizens' overall perception of political integrity"* (falha em gerar melhora mensurável na percepção/confiança).
+* **Gabarito:** **ERRADO**.
+* **Fundamentação:** O texto confirma aumento substancial de tráfego e citações na mídia, mas não informa que esse aumento foi **imediato** (*immediate*). Também apresenta ausência de mudança estatisticamente significativa na percepção geral de integridade política após três anos, sem medir diretamente toda a confiança nas instituições. O acréscimo temporal sem apoio textual torna a paráfrase indevida.
 
 **Item 2.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* It can be correctly inferred from the passage that unmediated exposure to legislative gridlock is guaranteed to produce public cynicism in any democratic society.
 * **Gabarito:** **ERRADO**.

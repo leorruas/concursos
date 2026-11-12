@@ -52,7 +52,7 @@ VIESES DE DADOS (INTRÍNSECOS)             VIESES DE ALGORITMO E DESENHO
    - *Exemplo clássico:* Um modelo de IA treinado para selecionar executivos ou analistas com base no histórico dos últimos 30 anos de promoções corporativas. Como historicamente homens brancos ocuparam desproporcionalmente cargos de chefia, o modelo aprende que o gênero masculino é uma "variável preditiva positiva" para liderança, desclassificando mulheres qualificadas mesmo que o campo "gênero" tenha sido formalmente removido (o modelo descobre palavras-gatilho correlacionadas, como esportes universitários masculinos ou colégios de origem).
 2. **Viés de Representatividade ou Amostragem (*Sampling Bias / Representation Bias*):**
    - *Conceito:* Acontece quando a base de dados utilizada para o treinamento não possui proporção equivalente ou qualidade suficiente em relação à população real sobre a qual o modelo operará.
-   - *Exemplo fático:* Softwares de reconhecimento facial treinados predominantemente com imagens de indivíduos caucasianos do hemisfério norte. Quando aplicados a populações negras, indígenas ou asiáticas, o modelo apresenta taxas de falsos positivos (acusar falsamente um inocente) até cem vezes maiores, decorrente da sub-representação na base de treino.
+   - *Exemplo de risco documentado na literatura:* O desempenho de sistemas de reconhecimento facial pode variar entre grupos demográficos e conforme a base de teste, o algoritmo, o limiar escolhido e a tarefa de identificação ou verificação. **Não há uma proporção universal de falsos positivos entre grupos**. Para citar multiplicadores numéricos em um caso concreto, é necessário indicar estudo, versão, população, tarefa e métrica; não transportar números de uma avaliação para qualquer implantação. Fonte metodológica: [NIST, Face Recognition Vendor Test: Demographic Effects](https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf).
 3. **Viés de Medição e Variáveis *Proxy* (*Measurement Bias & Proxy Discrimination*):**
    - *Conceito:* Ocorre quando a variável de interesse real (ex.: competência moral, propensão ao trabalho, honestidade) não pode ser medida diretamente e o desenvolvedor escolhe uma variável substituta (*proxy*). Se a variável substituta carregar viés estrutural, o modelo reproduzirá discriminação indireta.
    - *Exemplo no serviço público:* Um sistema de crédito ou concessão habitacional que utiliza o "CEP de residência" como substituto da capacidade de solvência. Como bairros periféricos concentram populações vulneráveis e minorias étnicas, o algoritmo nega direitos a indivíduos com renda suficiente apenas por residirem naquela região, incorrendo em discriminação racial e social indireta.
@@ -119,8 +119,8 @@ A governança ética recomenda supervisão proporcional ao risco, mas a obrigaç
 ```
                ARQUITETURAS DE SUPERVISÃO HUMANA
   
-  [Human-in-the-Loop]    --> O humano participa OBRIGATORIAMENTE da decisão.
-      (HITL)                 A IA apenas sugere/subsidia; a decisão final é humana.
+  [Human-in-the-Loop]    --> No desenho HITL, pessoa participa de etapa decisiva.
+      (HITL)                 A extensão da revisão depende do fluxo e da norma aplicável.
   
   [Human-on-the-Loop]    --> O sistema opera com autonomia em tempo de execução,
       (HOTL)                 mas um humano monitora e pode intervir/abortar (botão de emergência).

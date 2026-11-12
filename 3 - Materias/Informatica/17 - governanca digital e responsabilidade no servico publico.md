@@ -190,7 +190,7 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 
 - **Lei nº 14.129/2021**: Lei do Governo Digital.
 - **Lei nº 14.063/2020**: Uso de assinaturas eletrônicas nas interações com o poder público.
-- **Lei nº 13.709/2018 (LGPD)**: Artigo 7º, inciso III (Tratamento de dados pelo Poder Público).
+- **Lei nº 13.709/2018 (LGPD)**: art. 7º, III (**tratamento e uso compartilhado de dados necessários à execução de políticas públicas**), art. 20 (revisão de decisões unicamente automatizadas) e arts. 23 e seguintes (tratamento pelo poder público).
 - **Lei nº 12.527/2011 (LAI)**: Transparência ativa e acesso a dados governamentais.
 - **STF, Tema 483 de Repercussão Geral**: Legitimidade da divulgação de vencimentos de servidores públicos na internet.
 

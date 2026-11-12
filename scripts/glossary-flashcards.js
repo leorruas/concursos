@@ -55,7 +55,7 @@ export function buildGlossaryFlashcards(glossary, collection, equivalences) {
       if (matches.length) existing = matches[0].id;
     }
     if (existing) {
-      linked.push({ glossaryId: term.id, cardId: existing });
+      linked.push({ glossaryId: term.id, cardId: existing, examIds: [...term.contestIds], subjectIds: [...term.subjectIds] });
       continue;
     }
 
@@ -119,6 +119,10 @@ export function mergeGlossaryFlashcards(collection, projection) {
     const card = byId.get(link.cardId);
     exigir(card, 'cartão de equivalência ausente: ' + link.cardId);
     card.glossaryIds = [...new Set([...(card.glossaryIds || []), link.glossaryId])];
+    // Conserva o cartão e seu histórico, ampliando apenas o escopo quando o
+    // próprio verbete revisado foi validado para outro concurso.
+    card.examIds = [...new Set([...(card.examIds || []), ...(link.examIds || [])])];
+    card.subjectIds = [...new Set([...(card.subjectIds || []), ...(link.subjectIds || [])])];
   }
   for (const card of projection.cards) {
     exigir(card.status === 'validated' && card.glossaryId, 'cartão gerado inválido: ' + card.id);

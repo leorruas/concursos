@@ -72,3 +72,12 @@ Na prova do Tribunal de Contas do Estado de Minas Gerais de 2026, a **questão 1
 - [Edital da Câmara, 2026, itens 9.1 e 9.8](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades).
 - [Cebraspe, TCE-MG 2026: padrão definitivo, questão 1, cargos 6 a 10](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F38183E8ACE5B775CF445F24D52F5AB2E256333F594FE1078FD73B84B535690C.pdf).
 - [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|Publicidade institucional]]; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|Transparência pública]].
+
+
+## Segundo caso: transparência ativa, pedido de informação e limite de inferência (autoral)
+
+**Comando didático:** “Diferencie a divulgação de informação de interesse geral, sem solicitação, do atendimento a pedido de acesso, indicando fundamento legal e um limite da afirmação de transparência”. São objetos jurídicos distintos que podem coexistir no serviço público.
+
+**Resposta nuclear possível:** “Pelo art. 8º da Lei nº 12.527/2011, a administração deve divulgar, independentemente de requerimento, informações de interesse coletivo ou geral no âmbito de suas competências. O art. 10 disciplina o pedido apresentado por interessado e veda exigir os motivos da solicitação de informação de interesse público. Em ambos os casos, o dever de acesso deve ser aplicado com atenção às hipóteses legais de restrição e às informações protegidas, sem presumir abertura irrestrita de qualquer dado”.
+
+**Falhas a diagnosticar:** afirmar que transparência ativa depende de requerimento confunde os arts. 8º e 10; afirmar que o órgão pode exigir motivação pessoal contraria o art. 10, §3º; afirmar acesso público indiscriminado ignora exceções legais. **Variação:** peça apenas “apresente duas diferenças” exige responder cada uma, dispensando introdução sobre a história da LAI. [Lei nº 12.527/2011, Planalto](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). Enunciado e exemplo **autorais**, sem pontuação oficial.

@@ -28,7 +28,7 @@ Para a banca **Cebraspe**, o domínio do tema exige o entendimento de cinco eixo
 ```mermaid
 flowchart TD
     classDef raiz fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;
-    classDef arq fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+    classDef arq fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#0f172a;
     classDef uso fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
     classDef risco fill:#fef2f2,stroke:#b91c1c,stroke-width:2px,color:#991b1b;
 

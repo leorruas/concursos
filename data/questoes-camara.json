@@ -12052,7 +12052,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Jornalismo: critérios próprios que não se transferem mecanicamente"
       ],
@@ -12063,7 +12063,7 @@
       "statement": "Indicar o nome da fonte de um dado controverso dispensa o jornalista de verificar o dado antes de apresentá-lo como fato confirmado.",
       "correctAnswer": "E",
       "explanation": "A atribuição informa a origem. A verificação determina se há evidência suficiente para apresentar a alegação como fato confirmado.",
-      "reviewEvidence": "Cotejo editorial com Jornalismo: critérios próprios que não se transferem mecanicamente em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Jornalismo: critérios próprios que não se transferem mecanicamente em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-correcao-da-conclusao-derivada",
@@ -12080,7 +12080,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Jornalismo: critérios próprios que não se transferem mecanicamente"
       ],
@@ -12091,7 +12091,7 @@
       "statement": "Se um erro de data altera a ordem dos acontecimentos narrados em uma matéria, corrigir o número exige conferir também a conclusão sobre a sequência dos fatos.",
       "correctAnswer": "C",
       "explanation": "A data é premissa da interpretação. Ajustar apenas o dado pode deixar no texto uma conclusão incompatível com a cronologia corrigida.",
-      "reviewEvidence": "Cotejo editorial com Jornalismo: critérios próprios que não se transferem mecanicamente em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Jornalismo: critérios próprios que não se transferem mecanicamente em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-identificacao-fora-da-peca",
@@ -12108,7 +12108,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Conteúdo editorial, publieditorial, influenciadores e transparência"
       ],
@@ -12119,7 +12119,7 @@
       "statement": "Se um vídeo pago é recortado e divulgado em outro canal sem a indicação do patrocínio, a indicação no vídeo original é suficiente para que o público do recorte reconheça a relação comercial.",
       "correctAnswer": "E",
       "explanation": "Quem recebe o recorte pode nunca ter visto o original. A identificação precisa ser perceptível no conteúdo que efetivamente circula.",
-      "reviewEvidence": "Cotejo editorial com Conteúdo editorial, publieditorial, influenciadores e transparência em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Conteúdo editorial, publieditorial, influenciadores e transparência em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-pluralismo-e-correcoes-factuais",
@@ -12136,7 +12136,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Comunicação pública da Câmara: finalidade, neutralidade institucional e pluralismo"
       ],
@@ -12147,7 +12147,7 @@
       "statement": "Uma cobertura institucional pode registrar posições divergentes e corrigir uma afirmação factual verificável sem atribuir à instituição apoio à posição de quem enunciou o dado correto.",
       "correctAnswer": "C",
       "explanation": "O pluralismo orienta a cobertura das posições. Verificar um fato é uma decisão de precisão editorial distinta da adesão a uma posição.",
-      "reviewEvidence": "Cotejo editorial com Comunicação pública da Câmara: finalidade, neutralidade institucional e pluralismo em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Comunicação pública da Câmara: finalidade, neutralidade institucional e pluralismo em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-teste-de-beneficio-e-risco-informacional",
@@ -12164,7 +12164,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Modelo prático de análise ética em cinco perguntas"
       ],
@@ -12175,7 +12175,7 @@
       "statement": "Uma peça explica um procedimento com clareza, mas usa um depoimento que omite que a pessoa foi remunerada para participar. A clareza da instrução e o risco de induzir erro sobre a independência do depoimento precisam ser avaliados separadamente.",
       "correctAnswer": "C",
       "explanation": "A instrução pode cumprir seu propósito enquanto a apresentação da fonte induz interpretação equivocada. A análise considera finalidade, formato e a inferência provável do público.",
-      "reviewEvidence": "Cotejo editorial com Modelo prático de análise ética em cinco perguntas em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Modelo prático de análise ética em cinco perguntas em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-consentimento-interface-assimetrica",
@@ -12192,7 +12192,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Dados pessoais, vulnerabilidade e decisões de design"
       ],
@@ -12203,7 +12203,7 @@
       "statement": "Uma interface que torna a recusa de comunicações promocionais difícil de encontrar e exibe a aceitação em destaque oferece escolhas igualmente fáceis só porque as duas opções existem.",
       "correctAnswer": "E",
       "explanation": "A disponibilidade formal não iguala o esforço para escolher. Posição e visibilidade podem favorecer uma opção e prejudicar a autonomia.",
-      "reviewEvidence": "Cotejo editorial com Dados pessoais, vulnerabilidade e decisões de design em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Dados pessoais, vulnerabilidade e decisões de design em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-retificacao-em-canais-derivados",
@@ -12220,7 +12220,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Correção, direito de resposta e pluralidade"
       ],
@@ -12231,7 +12231,7 @@
       "statement": "Uma notícia com erro foi publicada no portal e resumida em um boletim. Corrigir o portal resolve o erro no texto de origem, mas o boletim já enviado pode exigir comunicação adicional aos seus leitores.",
       "correctAnswer": "C",
       "explanation": "Os públicos dos dois canais podem ser diferentes. A correção na origem não chega automaticamente a quem recebeu apenas o resumo.",
-      "reviewEvidence": "Cotejo editorial com Correção, direito de resposta e pluralidade em 3 - Materias/Comunicacao/11 - etica em comunicacao.md."
+      "reviewEvidence": "Cotejo editorial com Correção, direito de resposta e pluralidade em 3 - Materias/Comunicacao/11 - etica em comunicacao.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-separar-resposta-e-retificacao",
@@ -12248,7 +12248,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Correção, direito de resposta e pluralidade"
       ],
@@ -12259,7 +12259,7 @@
       "statement": "Se a redação publica a manifestação de uma pessoa mencionada em uma reportagem, isso torna dispensável corrigir o erro factual que a própria equipe confirmou.",
       "correctAnswer": "E",
       "explanation": "A manifestação apresenta a posição da pessoa. A retificação corrige o que a redação publicou incorretamente. As duas medidas atendem a funções distintas.",
-      "reviewEvidence": "Cotejo editorial com Correção, direito de resposta e pluralidade em 3 - Materias/Comunicacao/11 - etica em comunicacao.md."
+      "reviewEvidence": "Cotejo editorial com Correção, direito de resposta e pluralidade em 3 - Materias/Comunicacao/11 - etica em comunicacao.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-corroboracao-com-fonte-comum",
@@ -12276,7 +12276,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
       ],
@@ -12287,7 +12287,7 @@
       "statement": "Duas fontes que repetem o mesmo dado, ambas citando o mesmo relatório, fornecem duas verificações independentes do dado.",
       "correctAnswer": "E",
       "explanation": "As duas declarações compartilham a mesma origem. A independência requer evidência que não derive apenas desse relatório.",
-      "reviewEvidence": "Cotejo editorial com Núcleo do Código de Ética dos Jornalistas em 3 - Materias/Comunicacao/11 - etica em comunicacao.md."
+      "reviewEvidence": "Cotejo editorial com Núcleo do Código de Ética dos Jornalistas em 3 - Materias/Comunicacao/11 - etica em comunicacao.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-precisao-com-denominador-omitido",
@@ -12304,7 +12304,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
       ],
@@ -12315,7 +12315,7 @@
       "statement": "Uma reportagem informa que 80% dos participantes aprovaram uma medida. Se participaram apenas voluntários de uma audiência, explicitar esse universo ajuda a evitar que o leitor atribua o percentual à população inteira.",
       "correctAnswer": "C",
       "explanation": "O número descreve quem participou. Informar o universo preserva o alcance da evidência e evita uma generalização indevida.",
-      "reviewEvidence": "Cotejo editorial com Núcleo do Código de Ética dos Jornalistas em 3 - Materias/Comunicacao/11 - etica em comunicacao.md."
+      "reviewEvidence": "Cotejo editorial com Núcleo do Código de Ética dos Jornalistas em 3 - Materias/Comunicacao/11 - etica em comunicacao.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-creditos-e-posicao-institucional",
@@ -12332,7 +12332,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Ética jornalística × ética da comunicação pública"
       ],
@@ -12343,7 +12343,7 @@
       "statement": "Uma cobertura institucional pode atribuir uma proposta à parlamentar que a apresentou e distinguir a autoria individual da posição oficial do órgão.",
       "correctAnswer": "C",
       "explanation": "A atribuição identifica quem apresentou a proposta. A posição institucional depende de manifestação própria e não decorre da autoria.",
-      "reviewEvidence": "Cotejo editorial com Ética jornalística × ética da comunicação pública em 3 - Materias/Comunicacao/11 - etica em comunicacao.md."
+      "reviewEvidence": "Cotejo editorial com Ética jornalística × ética da comunicação pública em 3 - Materias/Comunicacao/11 - etica em comunicacao.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-resposta-recebida-apos-fechamento",
@@ -12360,7 +12360,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Correção, direito de resposta e pluralidade"
       ],
@@ -12371,7 +12371,7 @@
       "statement": "Uma redação solicitou manifestação com prazo razoável e publicou a matéria informando que ainda não havia recebido resposta. Uma manifestação posterior com documentos relevantes pode justificar atualizar a cobertura, mesmo que a informação sobre a ausência de resposta fosse correta na publicação inicial.",
       "correctAnswer": "C",
       "explanation": "A exatidão sobre o que se sabia no fechamento convive com a necessidade de avaliar fatos novos. Atualizar o contexto e corrigir um erro anterior são operações diferentes.",
-      "reviewEvidence": "Cotejo editorial com Correção, direito de resposta e pluralidade em 3 - Materias/Comunicacao/11 - etica em comunicacao.md."
+      "reviewEvidence": "Cotejo editorial com Correção, direito de resposta e pluralidade em 3 - Materias/Comunicacao/11 - etica em comunicacao.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-anonimato-e-identificacao-indireta",
@@ -12388,7 +12388,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
       ],
@@ -12399,7 +12399,7 @@
       "statement": "Uma matéria pode expor uma fonte protegida sem citar seu nome se descrever uma função ocupada por uma única pessoa na equipe.",
       "correctAnswer": "C",
       "explanation": "A combinação de detalhes pode identificar indiretamente a fonte. A proteção exige considerar o que o público consegue inferir.",
-      "reviewEvidence": "Cotejo editorial com Núcleo do Código de Ética dos Jornalistas em 3 - Materias/Comunicacao/11 - etica em comunicacao.md."
+      "reviewEvidence": "Cotejo editorial com Núcleo do Código de Ética dos Jornalistas em 3 - Materias/Comunicacao/11 - etica em comunicacao.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-interesse-na-pauta-e-apuracao",
@@ -12416,7 +12416,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Ética jornalística × ética da comunicação pública"
       ],
@@ -12427,7 +12427,7 @@
       "statement": "Quando a sugestão de pauta parte da assessoria de uma organização interessada na cobertura, a origem da sugestão garante independência à seleção de fatos feita pela redação.",
       "correctAnswer": "E",
       "explanation": "A assessoria representa interesses da organização. A independência da redação depende de seus critérios de seleção e apuração, inclusive da consulta a outras evidências quando pertinente.",
-      "reviewEvidence": "Cotejo editorial com Ética jornalística × ética da comunicação pública em 3 - Materias/Comunicacao/11 - etica em comunicacao.md."
+      "reviewEvidence": "Cotejo editorial com Ética jornalística × ética da comunicação pública em 3 - Materias/Comunicacao/11 - etica em comunicacao.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-aparencia-editorial-e-contrapartida",
@@ -12444,7 +12444,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Conteúdo editorial, publieditorial, influenciadores e transparência"
       ],
@@ -12455,7 +12455,7 @@
       "statement": "Uma entrevista com aparência de reportagem perde o caráter de conteúdo patrocinado quando as respostas do entrevistado são espontâneas, mesmo que a inserção tenha sido comprada.",
       "correctAnswer": "E",
       "explanation": "O modo de conduzir a entrevista não elimina a contratação da inserção. O leitor precisa ter condições de reconhecer a relação comercial.",
-      "reviewEvidence": "Cotejo editorial com Conteúdo editorial, publieditorial, influenciadores e transparência em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Conteúdo editorial, publieditorial, influenciadores e transparência em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-exposicao-de-dados-sem-finalidade",
@@ -12472,7 +12472,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Dados pessoais, vulnerabilidade e decisões de design"
       ],
@@ -12483,7 +12483,7 @@
       "statement": "Para divulgar quantas pessoas participaram de uma oficina, informar a contagem agregada pode atingir o objetivo sem expor os nomes dos participantes.",
       "correctAnswer": "C",
       "explanation": "A finalidade é comunicar o total. A identificação nominal acrescenta exposição e é desnecessária para esse objetivo específico.",
-      "reviewEvidence": "Cotejo editorial com Dados pessoais, vulnerabilidade e decisões de design em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Dados pessoais, vulnerabilidade e decisões de design em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-cdc-prova-do-patrocinador",
@@ -12500,7 +12500,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
       ],
@@ -12513,7 +12513,7 @@
       "statement": "Se uma empresa patrocina um anúncio que promete autonomia de 20 horas para um aparelho, cabe a quem patrocina o anúncio provar a veracidade da promessa publicitária.",
       "correctAnswer": "C",
       "explanation": "O art. 38 atribui a quem patrocina a comunicação o ônus da prova de sua veracidade e correção.",
-      "reviewEvidence": "Cotejo editorial com art. 38 da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 38 da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-cdc-omissao-de-requisito-essencial",
@@ -12530,7 +12530,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
       ],
@@ -12543,7 +12543,7 @@
       "statement": "Um anúncio de filtro que informa corretamente o preço pode omitir que o equipamento só funciona com uma instalação incompatível com a maioria das residências, pois a enganosidade exige uma afirmação literalmente falsa.",
       "correctAnswer": "E",
       "explanation": "A omissão de uma condição essencial de funcionamento pode induzir o consumidor em erro mesmo quando o preço informado é verdadeiro.",
-      "reviewEvidence": "Cotejo editorial com art. 37, §§ 1º e 3º da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 37, §§ 1º e 3º da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-cdc-base-tecnica-em-poder-do-fornecedor",
@@ -12560,7 +12560,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
       ],
@@ -12573,7 +12573,7 @@
       "statement": "Se a agência redigiu uma alegação técnica para um anúncio de produto, o fornecedor fica dispensado de manter os dados que sustentam a mensagem para informar os interessados legítimos.",
       "correctAnswer": "E",
       "explanation": "O dever de manter os dados de sustentação recai sobre o fornecedor na publicidade de seus produtos ou serviços. Contratar a redação da peça não elimina esse dever.",
-      "reviewEvidence": "Cotejo editorial com art. 36, parágrafo único da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 36, parágrafo único da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-cdc-discriminacao-com-dados-corretos",
@@ -12590,7 +12590,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
       ],
@@ -12603,7 +12603,7 @@
       "statement": "Uma peça comercial com preços verdadeiros pode ser abusiva se seu conteúdo for discriminatório.",
       "correctAnswer": "C",
       "explanation": "A proibição de publicidade abusiva tem fundamento distinto da veracidade dos preços. O art. 37 inclui a discriminação entre as hipóteses de abusividade.",
-      "reviewEvidence": "Cotejo editorial com art. 37, § 2º da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 37, § 2º da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-alteracao-editorial-por-terceiro",
@@ -12620,7 +12620,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
       ],
@@ -12633,7 +12633,7 @@
       "statement": "Se um editor altera sem participação do repórter a informação sobre o local de um evento, o Código de Ética atribui necessariamente ao repórter a responsabilidade pela alteração, porque seu nome assina a matéria.",
       "correctAnswer": "E",
       "explanation": "O art. 8º atribui a responsabilidade pela alteração ao autor dela. A assinatura da matéria não identifica automaticamente quem fez a mudança.",
-      "reviewEvidence": "Cotejo editorial com art. 8º da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 8º da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-montagem-identificada-mas-distorcida",
@@ -12650,7 +12650,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Condutas expressamente vedadas"
       ],
@@ -12663,7 +12663,7 @@
       "statement": "Uma montagem muda a posição de pessoas numa fotografia para sugerir um encontro que não ocorreu. Identificá-la como montagem basta para atender ao Código de Ética.",
       "correctAnswer": "E",
       "explanation": "O dever de indicar a manipulação convive com o dever de rejeitar alterações que deturpem a realidade. A identificação não elimina a distorção.",
-      "reviewEvidence": "Cotejo editorial com art. 12, V da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 12, V da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-apelo-publico-com-via-de-apuracao-aberta",
@@ -12680,7 +12680,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Métodos ocultos de apuração"
       ],
@@ -12693,7 +12693,7 @@
       "statement": "Uma pauta de incontestável interesse público autoriza divulgar informação obtida por câmera oculta mesmo quando ainda existe uma via ordinária de apuração não tentada.",
       "correctAnswer": "E",
       "explanation": "A exceção exige as duas condições: interesse público incontestável e esgotamento das demais possibilidades de apuração.",
-      "reviewEvidence": "Cotejo editorial com art. 11, III da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 11, III da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-presuncao-em-titulo-acusatorio",
@@ -12710,7 +12710,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
       ],
@@ -12723,7 +12723,7 @@
       "statement": "Quando os fatos disponíveis demonstram apenas que uma pessoa é investigada, o título deve preservar essa distinção em vez de apresentá-la como culpada.",
       "correctAnswer": "C",
       "explanation": "A presunção de inocência é fundamento da atividade jornalística no Código. O título precisa refletir o estado da apuração.",
-      "reviewEvidence": "Cotejo editorial com art. 9º da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 9º da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-responsabilidade-na-opiniao-assinada",
@@ -12740,7 +12740,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
       ],
@@ -12753,7 +12753,7 @@
       "statement": "Classificar uma coluna como opinativa elimina o dever de exercer com responsabilidade a opinião ali manifestada.",
       "correctAnswer": "E",
       "explanation": "O art. 10 trata especificamente da opinião em meios de informação e exige responsabilidade em seu exercício.",
-      "reviewEvidence": "Cotejo editorial com art. 10 da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 10 da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-beneficio-pessoal-por-credencial",
@@ -12770,7 +12770,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Condutas expressamente vedadas"
       ],
@@ -12783,7 +12783,7 @@
       "statement": "Pedir desconto em uma compra particular invocando a condição de jornalista deixa de ser uma questão ética quando o produto não será tema de reportagem.",
       "correctAnswer": "E",
       "explanation": "A vedação recai sobre usar a condição profissional para obter vantagem pessoal. A ausência de cobertura sobre o produto não altera a finalidade do pedido.",
-      "reviewEvidence": "Cotejo editorial com art. 7º, IX da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 7º, IX da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-cobertura-de-cliente-sem-vinculo-empregaticio",
@@ -12800,7 +12800,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Condutas expressamente vedadas"
       ],
@@ -12813,7 +12813,7 @@
       "statement": "A vedação de cobrir para o veículo em que trabalha uma organização à qual o jornalista presta serviços pode incidir mesmo se a prestação ocorrer sem vínculo de emprego.",
       "correctAnswer": "C",
       "explanation": "O dispositivo inclui a prestação de serviços entre os vínculos abrangidos, além do emprego.",
-      "reviewEvidence": "Cotejo editorial com art. 7º, VI da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 7º, VI da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-exposicao-parcial-de-pessoa-ameacada",
@@ -12830,7 +12830,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Condutas expressamente vedadas"
       ],
@@ -12843,7 +12843,7 @@
       "statement": "Ocultar o rosto de uma pessoa ameaçada basta para cumprir o Código quando a reportagem divulga seu local de trabalho e permite identificá-la parcialmente.",
       "correctAnswer": "E",
       "explanation": "A proteção abrange a identificação parcial, inclusive pela indicação do local de trabalho. Ocultar o rosto elimina apenas um dos meios de identificação.",
-      "reviewEvidence": "Cotejo editorial com art. 7º, IV da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 7º, IV da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-correcao-de-escopo-em-grafico",
@@ -12860,7 +12860,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Jornalismo: critérios próprios que não se transferem mecanicamente"
       ],
@@ -12871,7 +12871,7 @@
       "statement": "Uma redação pode preservar a versão original para controle interno e, na versão pública corrigida, informar o que mudou e por quê.",
       "correctAnswer": "C",
       "explanation": "O registro interno mantém o histórico da publicação. A informação pública sobre a correção ajuda o leitor a distinguir as versões.",
-      "reviewEvidence": "Cotejo editorial com Jornalismo: critérios próprios que não se transferem mecanicamente em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Jornalismo: critérios próprios que não se transferem mecanicamente em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-evidencia-primaria-em-citacao",
@@ -12888,7 +12888,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Jornalismo: critérios próprios que não se transferem mecanicamente"
       ],
@@ -12899,7 +12899,7 @@
       "statement": "Se um release atribui uma afirmação a um relatório, citar o release comprova que a redação conferiu a afirmação no relatório.",
       "correctAnswer": "E",
       "explanation": "A citação identifica o documento consultado. Conferir a fonte primária exige examinar o relatório.",
-      "reviewEvidence": "Cotejo editorial com Jornalismo: critérios próprios que não se transferem mecanicamente em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Jornalismo: critérios próprios que não se transferem mecanicamente em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-criterio-para-selecao-de-posicoes",
@@ -12916,7 +12916,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Comunicação pública da Câmara: finalidade, neutralidade institucional e pluralismo"
       ],
@@ -12927,7 +12927,7 @@
       "statement": "Uma nota curta sobre uma audiência precisa resumir posições divergentes. Agrupá-las pelo argumento central e informar os critérios de síntese pode preservar as diferenças sem reproduzir integralmente cada intervenção.",
       "correctAnswer": "C",
       "explanation": "Pluralismo pode ser compatível com síntese. O resumo deve preservar diferenças relevantes e permitir compreender como foram selecionadas.",
-      "reviewEvidence": "Cotejo editorial com Comunicação pública da Câmara: finalidade, neutralidade institucional e pluralismo em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Comunicação pública da Câmara: finalidade, neutralidade institucional e pluralismo em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-rotulo-separa-proposta-e-deliberacao",
@@ -12944,7 +12944,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Ética jornalística × ética da comunicação pública"
       ],
@@ -12955,7 +12955,7 @@
       "statement": "Uma cobertura oferece destaque de capa apenas às posições favoráveis e publica as divergentes em uma página sem ligação com a matéria. Contar o mesmo número de falas de cada posição basta para demonstrar equilíbrio de exposição.",
       "correctAnswer": "E",
       "explanation": "A quantidade de falas não mede destaque ou encontrabilidade. A análise também considera a visibilidade concedida às posições.",
-      "reviewEvidence": "Cotejo editorial com Ética jornalística × ética da comunicação pública em 3 - Materias/Comunicacao/11 - etica em comunicacao.md."
+      "reviewEvidence": "Cotejo editorial com Ética jornalística × ética da comunicação pública em 3 - Materias/Comunicacao/11 - etica em comunicacao.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-escolha-informada-em-dois-usos",
@@ -12972,7 +12972,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Dados pessoais, vulnerabilidade e decisões de design"
       ],
@@ -12983,7 +12983,7 @@
       "statement": "Se um formulário usa o e-mail para enviar o comprovante solicitado e também propõe enviar campanhas futuras, distinguir essas duas finalidades ajuda o usuário a entender o que pode recusar sem perder o comprovante.",
       "correctAnswer": "C",
       "explanation": "A primeira finalidade integra a tarefa solicitada. A segunda é adicional. Separá-las reduz a confusão sobre o efeito de recusar mensagens futuras.",
-      "reviewEvidence": "Cotejo editorial com Dados pessoais, vulnerabilidade e decisões de design em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Dados pessoais, vulnerabilidade e decisões de design em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-agregacao-com-grupo-unitario",
@@ -13000,7 +13000,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#Dados pessoais, vulnerabilidade e decisões de design"
       ],
@@ -13011,7 +13011,7 @@
       "statement": "Um painel sem nomes indica que a única pessoa de um setor participou de uma oficina. A ausência do nome impede identificar quem participou.",
       "correctAnswer": "E",
       "explanation": "A informação agregada sobre um grupo de uma pessoa permite inferir sua identidade quando o vínculo com o setor é conhecido.",
-      "reviewEvidence": "Cotejo editorial com Dados pessoais, vulnerabilidade e decisões de design em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md."
+      "reviewEvidence": "Cotejo editorial com Dados pessoais, vulnerabilidade e decisões de design em 3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-prova-tecnica-nao-cobre-modelo-anunciado",
@@ -13028,7 +13028,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
       ],
@@ -13041,7 +13041,7 @@
       "statement": "Se um patrocinador comprova a autonomia anunciada para o aparelho de uma geração anterior, essa prova demonstra automaticamente a mesma autonomia para o novo aparelho anunciado.",
       "correctAnswer": "E",
       "explanation": "A sustentação deve corresponder à alegação e ao produto divulgado. Um resultado obtido para outro modelo não comprova o desempenho do modelo atual.",
-      "reviewEvidence": "Cotejo editorial com art. 38 da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 38 da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-texto-verdadeiro-com-limite-essencial",
@@ -13058,7 +13058,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
       ],
@@ -13071,7 +13071,7 @@
       "statement": "Um fornecedor afirma que um serviço comercial pode ser cancelado a qualquer momento. Uma cobrança obrigatória para cancelar só aparece depois do pagamento. A exatidão do prazo de cancelamento torna irrelevante avaliar a omissão da cobrança.",
       "correctAnswer": "E",
       "explanation": "A cobrança pode ser dado essencial para a decisão de contratar. É preciso avaliar se sua ausência na mensagem pode induzir o consumidor em erro.",
-      "reviewEvidence": "Cotejo editorial com art. 37, §§ 1º e 3º da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 37, §§ 1º e 3º da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-distincao-investigacao-e-condenacao",
@@ -13088,7 +13088,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
       ],
@@ -13101,7 +13101,7 @@
       "statement": "A presunção de inocência integra os fundamentos da atividade jornalística segundo o Código de Ética dos Jornalistas Brasileiros.",
       "correctAnswer": "C",
       "explanation": "O art. 9º estabelece esse fundamento.",
-      "reviewEvidence": "Cotejo editorial com art. 9º da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 9º da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-vantagem-para-terceiro-e-ganho-proprio",
@@ -13118,7 +13118,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Condutas expressamente vedadas"
       ],
@@ -13131,7 +13131,7 @@
       "statement": "Um jornalista pede uma vantagem para sua empresa particular invocando sua credencial profissional. A circunstância de a vantagem ser formalmente concedida à empresa não impede avaliar seu interesse pessoal na operação.",
       "correctAnswer": "C",
       "explanation": "O destinatário formal não elimina o benefício que pode alcançar o jornalista. A análise considera o uso da condição profissional e a finalidade do pedido.",
-      "reviewEvidence": "Cotejo editorial com art. 7º, IX da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 7º, IX da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-autor-da-alteracao-e-versao-original",
@@ -13148,7 +13148,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
       ],
@@ -13161,7 +13161,7 @@
       "statement": "Um repórter divulga um texto com uma data correta e outra pessoa muda essa data ao republicá-lo. A distinção entre responsabilidade pela informação originalmente divulgada e pela alteração posterior exige identificar as duas versões e seus autores.",
       "correctAnswer": "C",
       "explanation": "A responsabilidade pela mudança é de quem a fez. A versão original permite verificar quais informações já estavam presentes antes da republicação.",
-      "reviewEvidence": "Cotejo editorial com art. 8º da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 8º da fonte primária https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/ e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-divulgacao-comercial-identificavel",
@@ -13178,7 +13178,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
       ],
@@ -13191,7 +13191,7 @@
       "statement": "Na publicidade submetida ao Código de Defesa do Consumidor, a identificação da natureza publicitária deve ser fácil e imediata para o consumidor.",
       "correctAnswer": "C",
       "explanation": "O art. 36 estabelece o critério de identificação da publicidade.",
-      "reviewEvidence": "Cotejo editorial com art. 36 da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência."
+      "reviewEvidence": "Cotejo editorial com art. 36 da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
     }
   ]
 }

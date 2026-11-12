@@ -85,7 +85,7 @@ $$\text{Data-Ink Ratio} = \frac{\text{Tinta dedicada à representação dos dado
 
 ### 3.3. O Fator de Distorção (*Lie Factor*)
 $$\text{Lie Factor} = \frac{\text{Tamanho do efeito visual exibido no gráfico}}{\text{Tamanho do efeito real nos dados}}$$
-- Se o $\text{Lie Factor} = 1{,}0$, o gráfico é visualmente honesto.
+- Se $\text{Lie Factor} = 1{,}0$, há proporcionalidade entre o efeito visual medido e o efeito numérico segundo a construção da métrica. **Isso, por si só, não comprova honestidade da fonte, representatividade da amostra, precisão dos dados ou adequação de contexto.**
 - Valores acima de $1$ indicam exagero visual e valores abaixo de $1$ indicam redução visual, para a comparação definida. Limiares como $0{,}95$ e $1{,}05$ podem funcionar como **convenções analíticas de tolerância**, não como limite universal de verdade ou regra obrigatória do Cebraspe.
 - **Exemplo clássico de fraude visual em barras:** Iniciar o eixo vertical $Y$ fora do zero (*truncated axis*) para fazer uma variação de 2% parecer uma explosão de 200%.
 

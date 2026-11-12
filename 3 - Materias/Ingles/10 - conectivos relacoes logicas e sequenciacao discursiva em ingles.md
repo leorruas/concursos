@@ -49,7 +49,7 @@ A **oposição simples** confronta duas realidades sem juízo de frustração ou
   - *whereas*, *while*: contrastam duas situações paralelas sem anulação mútua.
     - *The Chamber of Deputies passed the bill, whereas the Senate rejected its core provisions.* (A Câmara aprovou o projeto, ao passo que o Senado rejeitou suas disposições centrais).
 - **Concessão Subordinada (com Oração / *Clause*):**
-  - *although*, *even though*, *though*, *inasmuch as* (causal/restritivo): introduzem oração completa com sujeito e verbo conjugado.
+  - *although*, *even though*, *though*: introduzem oração concessiva com sujeito e verbo. **Não incluir *inasmuch as* como concessivo**: normalmente indica causa (*because/since*) ou limite (*to the extent that*). Exemplos: *Inasmuch as the evidence is incomplete, the decision is provisional* (causa); *The proposal is acceptable inasmuch as it preserves transparency* (na medida em que).
     - *Although the committee faced severe political disagreements, the members reached a bipartisan consensus.*
 - **Concessão Prepositiva (com Substantivo, Pronome ou Gerúndio):**
   - *despite*, *in spite of*, *notwithstanding*: exigem sintagma nominal ou gerúndio. Não admitem oração finita introduzida diretamente por verbo conjugado, a menos que acompanhados da locução *the fact that*.
@@ -57,7 +57,7 @@ A **oposição simples** confronta duas realidades sem juízo de frustração ou
     - *Despite the committee faced severe disagreements...* (Incorreto - erro grave de regência sintática).
     - *Despite the fact that the committee faced severe disagreements...* (Correto).
 - **Transição Discursiva Coordenada / Adverbial (Ponto e Vírgula / Nova Frase):**
-  - *however*, *nevertheless*, *nonetheless*, *yet*, *still*: atuam na transição interfrasal, isolados por pontuação (vírgula ou ponto e vírgula).
+  - *however*, *nevertheless*, *nonetheless*, *still*: podem atuar como advérbios conectores na transição entre frases; a pontuação depende da construção. **Yet** também funciona como conjunção coordenativa adversativa: *The report was brief, yet it answered the central question*. Nesse uso, liga duas orações coordenadas; não deve ser tratado indistintamente como advérbio *however*.
     - *The committee faced severe political disagreements; however, the members reached a consensus.*
 
 ### 1.2. Causa, Motivo e Fundamentação

@@ -170,7 +170,7 @@ A [Nielsen, em explicação de 2023 sobre mensuração de TV](https://www.nielse
 
 ## Relações com outros temas
 
-**Pesquisa de mídia × plano de mídia:** a pesquisa produz evidências sobre audiência e consumo; o plano decide distribuição, frequência, meios e investimento. **Audiência × público-alvo:** pessoas efetivamente alcançadas ou estimadas podem divergir das pessoas priorizadas na estratégia. **Alcance × frequência:** pessoas distintas e repetição são medidas distintas, conforme fórmulas da nota 90. **Audiência × recepção:** oportunidade de contato ou exposição não prova interpretação. **Painel × registros digitais:** um pode apoiar atribuição a pessoas, outro registra grandes volumes técnicos; nenhum é automaticamente livre de viés. **Monitoramento × avaliação:** registrar entrega não demonstra resultados sociais.
+**Pesquisa de mídia × plano de mídia:** a pesquisa produz evidências sobre audiência e consumo; o plano decide distribuição, frequência, meios e investimento. **Audiência × público-alvo:** pessoas efetivamente alcançadas ou estimadas podem divergir das pessoas priorizadas na estratégia. **Alcance × frequência:** pessoas distintas e repetição são medidas distintas, conforme fórmulas do artigo [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|Plano de mídia: alcance, frequência, cobertura e investimento]]. **Audiência × recepção:** oportunidade de contato ou exposição não prova interpretação. **Painel × registros digitais:** um pode apoiar atribuição a pessoas, outro registra grandes volumes técnicos; nenhum é automaticamente livre de viés. **Monitoramento × avaliação:** registrar entrega não demonstra resultados sociais.
 
 ## Tensões e pegadinhas
 
